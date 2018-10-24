@@ -1,9 +1,9 @@
 ---
-title: "Yevmiye defteri işlemi"
-description: "Bu makaleler, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations yeteneklerini açıklar. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili kontrolün hatasız olduğunu da garanti etmeye yardımcı olur."
+title: "Genel günlük işleme"
+description: "Bu konu, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations yeteneklerini açıklar. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili kontrolün hatasız olduğunu da sağlamaya yardımcı olur."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 09/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: eb46613f805999753c2ab73ffb91a6fdae04c68e
+ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
+ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 09/24/2018
 
 ---
 
-# <a name="general-journal-processing"></a>Yevmiye defteri işlemi
+# <a name="general-journal-processing"></a>Genel günlük işleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu makaleler, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations yeteneklerini açıklar. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili kontrolün hatasız olduğunu da garanti etmeye yardımcı olur.  
+Bu konu, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations yeteneklerini açıklar. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili kontrolün hatasız olduğunu da sağlamaya yardımcı olur.  
 
-Günlük adları
+## <a name="journal-names"></a>Günlük adları
 
 Ayarlanması gereken en önemli alanlardan biri günlük adlarıdır. Her amaç için belirli günlük adlarını tanımlamak iyi bir fikirdir; örneğin şirketlerarası, tahakkuk ayarlaması ve hata düzeltme gibi. Her günlük adını, her bir amaç için bir veri girişi yapmak için güvenle ve kolayca özelleştirebilirsiniz. 
 
@@ -44,9 +44,13 @@ Ayarlanması gereken en önemli alanlardan biri günlük adlarıdır. Her amaç 
 
 **Örnekler**
 
-Günlük adı sadece ayarlamalar için kullanılabilir. Bu durumda, yalnızca **defter** hesap türünün tüm şirketler arasında geçerli olduğunu belirtebilirsiniz. [![Günlük kontrol hesap tipleri](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+Günlük adı sadece ayarlamalar için kullanılabilir. Bu durumda, yalnızca **defter** hesap türünün tüm şirketler arasında geçerli olduğunu belirtebilirsiniz. 
 
-Günlük adı yalnızca belirli bir kesim veya ana hesap aralığı için kullanılabilir. [![Günlük kontrol segmenti](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Günlük kontrol hesap tipleri](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+
+Günlük adı yalnızca belirli bir kesim veya ana hesap aralığı için kullanılabilir. 
+
+[![Günlük kontrol segmenti](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 **Otomatik ters** seçeneği genel günlüklerde kullanılabilir. Örneğin, aşağıdaki çizimde gösterildiği gibi gerçek belgenin henüz işlenmemiş olduğu tahakkuk ayarlamanız vardır.
 [![Yevmiye günlüğü tersine çevirme](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
@@ -58,27 +62,28 @@ Günlük girdisi için Microsoft Excel eklentisi, otomasyon ek düzeyi sağlar v
 Herhangi bir anda fiş şablonları kullanabilirsiniz. **Yevmiye defterleri** sayfası üzerinde, **Kaydet** ve **Fiş şablonu seç** eylemleri **Günlük fişi** sayfası üzerinde **İşlevler** altında fiş satırları için bulunur.
 
 ## <a name="related-setup"></a>İlgili kurulum
-Aşağıdaki kurulum genel günlüklere özgü değildir, ancak veri girişinin doğru veri olduğunu ve kolay olduğunu garantilemeye yardımcı olur.
+Aşağıdaki kurulum genel günlüklere özgü değildir, ancak veri girişinin doğru veri olduğunu ve kolay olduğunu sağlamaya yardımcı olur.
 
 ### <a name="main-account"></a>Ana hesap
 
 Ana hesap kurulumu yevmiye defterine işlemek için birçok seçenek sağlar:
 
 -   **DC/CR gereksinimi** – Bir ana hesap borç veya alacak hareketleriyle sınırlandırılmışsa, bu seçeneği kullanın. Kurulum, bir günlük doğrulandığında veya deftere nakledildiğinde doğrulanır.
+
 -   **Varsayılan mahsup hesap**
--   **Askıya alınmış** – Tüm şirketler arasında veya belirli şirket/yasal varlıklar için bir ana hesap veri girişini askıya alma.
+-   **Askıya alınmış** – Tüm şirketler arasında veya belirli şirket/yasal varlık için bir ana hesap veri girişini askıya alma.
 -   **El ile girişe izin verme** – Kullanıcıların hesap günlükleri için el ile bir değer girmesini engellemek.
 -   **Varsayılan/Para birimi doğrula**
 -   **Tüzel kişilik geçersizleştir** – Bu kurulum tanımlanan şirket/yasal varlığa özeldir:
     -   **Varsayılan/Satış vergisini doğrula**
-    -   **Varsayılan boyut** – **Sabit olmayan** veya **Sabit değer**. **Sabit değer** bu ana hesap için tüm nakillerin **Sabit** olarak ayarladığınız herhangi bir boyut değeri her zaman kullanmasını garantilemeye yardımcı olur.
+    -   **Varsayılan boyut** – **Sabit olmayan** veya **Sabit değer**. **Sabit değer** bu ana hesap için tüm nakillerin **Sabit** olarak ayarladığınız herhangi bir boyut değeri her zaman kullanmasını sağlamaya yardımcı olur.
 -   **Deftere nakli doğrulama**
     -   **Kullanıcı doğrulama** – Bu seçenek, bir ana hesap için deftere nakletmek için hangi kullanıcıların izinli olacağını denetler.
     -   **Deftere gönderme türü doğrulama** – Bu seçenek, bir ana hesap için hangi deftere nakletme türlerinin izinli olacağını denetler.
 
 ### <a name="accounting-structures-and-advanced-rules-structures"></a>Hesap yapıları ve gelişmiş kurallar yapıları
 
-Hesap yapıları ve Gelişmiş kurallar yapıları finansal raporlama ve performans izleme için gerekli olan verilerin yevmiye işleme ve belgeleri sırasında yakalandığını güvence altına almak için büyük önem taşımaktadır. Hesap yapıları ve gelişmiş kurallar yapıları veri girişi deneyimini uyarlamanızı sağlar. Veri girişini sadece her durumda ilgili olan mali boyutları için izin verebilirsiniz ve zorunlu ve doğru verileri her zaman yakalanmasını gereksinimini de zorlayabilirsiniz.
+Hesap yapıları ve Gelişmiş kurallar yapıları finansal raporlama ve performans izleme için gerekli olan verilerin yevmiye işleme ve belgeleri sırasında yakalandığını sağlamak için büyük önem taşımaktadır. Hesap yapıları ve gelişmiş kurallar yapıları veri girişi deneyimini uyarlamanızı sağlar. Veri girişini sadece her durumda ilgili olan mali boyutları için izin verebilirsiniz ve gerekli ve doğru verileri her zaman yakalanmasını gereksinimini de zorlayabilirsiniz.
 
 Daha fazla bilgi için aşağıdaki konulara bakın:
 - [Planlama: Hesap planı](plan-chart-of-accounts.md). 
@@ -88,5 +93,8 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 - [Periyodik günlükleri deftere nakletme](tasks/post-periodic-journals.md)
 - [Genel muhasebe tahsisat günlüğünü işleme](tasks/process-ledger-allocation-journal.md)
 
+## <a name="simulate-posting"></a>Deftere nakil benzetimi gerçekleştir
+**Deftere nakletmeyi simüle et**'i çoğu günlük için **Doğrula** menüsünde bulabilirsiniz. Bir günlüğü **Doğrula** işlevini kullanarak doğruladığınızda, sistem günlüğü belirli hata koşullarına karşı test eder. **Deftere nakletmeyi simüle et** işlevini kullanırsanız, sistem, deftere nakil sırasında çalıştırılacak tüm işlemleri günlüğü deftere gerçekte nakletmeden yapar. Daha sonra görüntülenen deftere nakil mesajlarını gözden geçirebilir, bulduğunuz hataları düzeltebilir ve daha sonra günlüğü deftere nakletmek için **Deftere naklet** menüsünü kullanabilirsiniz. 
 
+**Deftere nakletmeyi simüle et**, toplu işlem için kullanılamaz. Ancak, deftere nakli toplu iş için simüle etme kodu mevcuttur ve geliştiriciler bu kodu bu özelliğe eklemek üzere genişletebilir.  
 

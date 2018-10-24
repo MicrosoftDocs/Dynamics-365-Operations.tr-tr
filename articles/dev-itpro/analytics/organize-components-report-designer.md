@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -36,9 +36,6 @@ Klasörleri, raporları, yapı taşlarını ve diğer nesneleri rapor tasarımc�
 
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Rapor Tasarımcısı'nda bir klasörü veya yapı taşını yeniden adlandırma
 Rapor Tasarımcısı'nda, klasörler, rapor tanımları, satır tanımları, sütun tanımları ve raporlama ağacı tanımlarını yeniden adlandırabilirsiniz.
-
-> [!NOTE]
-> Yapı taşını yeniden adlandırdığınızda yapı taşını kullanan tüm raporlama tanımlarını güncelleştirmeniz gerekir. Aksi takdirde, yeni bir rapor oluşturulamaz.
 
 ### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Rapor Tasarımcısı'nda bir klasörü veya yapı taşını yeniden adlandırma
 

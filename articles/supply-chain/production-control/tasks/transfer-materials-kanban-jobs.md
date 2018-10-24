@@ -1,29 +1,30 @@
 --- 
-title: "Malzemeleri kanban işleriyle transfer etme (yalnızca Şubat 2016)"
+title: "Kanban işleriyle malzemeleri transfer etme"
 description: "Bu yordam, malzemelerin aktarmak için bir çekme kanban işini yürütmek üzerinde odaklanır."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 02/07/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KanbanBoardTransferJob
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c79480d844627a7eed8129515924f1f70ad04f95
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: a2db7b9fb960beb5b4a851aabb9f28a0f9e3d3da
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a>Malzemeleri kanban işleriyle transfer etme (yalnızca Şubat 2016)
+# <a name="transfer-materials-with-kanban-jobs"></a>Kanban işleriyle malzemeleri transfer etme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -3,7 +3,7 @@ title: "Genel gider hesaplaması"
 description: "Bu konu, genel gider maliyetlerinin hesaplanması için tipik işlemleri açıklar."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 549e9b4b073a4e93dd3a1dd52dd6f43e7420a31b
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/05/2018
 
 ---
 
@@ -191,8 +191,7 @@ Bazı durumlarda, sabit bir ücret maliyet parçasıdır ve kalan maliyet, tüke
 </tbody>
 </table>
 
-Maliyet davranışı hakkında ayrıntılı bilgi için bkz. Maliyet davranışı ilkesi. (Bu konunun henüz tamamlanmadığını ancak yakında tamamlanacağını göz önünde bulundurun.)
-
+Daha fazla bilgi için bkz. [Maliyet davranışı ilkesi oluşturma ve bir maliyet kontrol birimine atama](tasks/create-assign-cost-behavior-policy-cost-control-unit.md).
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>Adım 2: Maliyet dağıtımı hesaplamayı işle
 
 Maliyet dağıtımı, bir nesneden bir veya daha fazlasına ilgili tahsisat tabanı uygulayarak maliyeti yeniden dağıtmak için kullanılır. Maliyet dağıtımı ve maliyet tahsisatı, maliyet dağıtımının her zaman orijinal maliyetin birincil maliyet öğesinde bulunmasıyla farklılık gösterir.
@@ -430,7 +429,7 @@ Sabit maliyet, elektrik tüketmiş olan tekil maliyet nesnelerine eşit miktarda
 </tbody>
 </table>
 
-Maliyet dağıtımı ve tahsisat tabanları hakkında ayrıntılı bilgi için, bakınız Maliyet dağıtım ilkesi ve Tahsisat tabanları. (Bu konunun henüz tamamlanmadığını ancak yakında tamamlanacağını göz önünde bulundurun.)
+Daha fazla bilgi için bkz. [Maliyet dağıtımı ilkesi oluşturma ve bir maliyet kontrol birimine atama](tasks/create-assign-cost-distribution-policy-cost-control-unit.md). 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>Adım 3: Genel gider oranı hesaplama işlemi
 
@@ -618,7 +617,7 @@ Aşağıdaki tablo, HR projeleri bir tahsisat tabanı olarak uygulandığındaki
 </tbody>
 </table>
 
-Genel gider oranı ilkesi hakkında ayrıntılı bilgi için, Genel gider oranları ilkesi ve Tahsisat tabanlarına bakın. (Bu konunun henüz tamamlanmadığını ancak yakında tamamlanacağını göz önünde bulundurun.)
+Daha fazla bilgi için [Genel gider hesaplaması gerçekleştir](cost-rollup.md#perform-overhead-calculation) konusuna bakın.
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Adım 4: Maliyet tahsisat hesaplamayı işle
 
@@ -725,7 +724,8 @@ Maliyet nesnesi CC004 Ambalajlama, birden fazla maliyet nesnesine katkıda bulun
 </tbody>
 </table>
 
-**Not:** Finance and Operations'ta, bir ürünün tükettiği üretim saatleri gibi istatistiki ölçümler doğrudan kaynak verisinden alınabilir. İstatistiki ölçüm sağlayıcılar hakkında daha ayrıntılı bilgi için İstatistiki ölçü sağlayıcı şablonuna göz atın. (Bu konun henüz tamamlanmamış olduğunu ancak yakında tamamlanacağını unutmayın) Aşağıdaki tablo, HR hizmetleri toplam maliyet (sabit ve değişken maliyet) için bir tahsisat tabanı olarak uygulandığında oluşacak sonuçları gösterir.
+> [!NOTE]
+> Finance and Operations'ta, bir ürünün tükettiği üretim saatleri gibi istatistiki ölçümler doğrudan kaynak verisinden alınabilir. Daha fazla bilgi için, [İstatistiksel ölçüm sağlayıcı şablonu](statistical-measure-provider-template.md#statistical-measure-provider-template) bakın. Aşağıdaki tablo, İK hizmetleri toplam maliyet için bir tahsisat tabanı olarak ayarlandığında ortaya çıkan sonucu gösterir.
 
 <table>
 <thead>
@@ -1412,7 +1412,7 @@ Mali muhasebede, Elektrik için 10.000,00 maliyet bir sözde maliyet merkezi kim
 </table>
 
 > [!NOTE]
-> Bu konu, birincil maliyet öğesi, 10001 Elektrik'in maliyet nesneleri arasında nasıl aktığını gösterir. Bu nedenle, bu genel gider maliyeti kuruluşun en düşük seviyesine tahsis edilir. Başka bir deyişle, maliyet en alt düzeydeki maliyet nesnelerine aittir. Maliyetin, maliyet nesneleri arasında görsel bir akışına ihtiyacınız varsa, maliyetin akışını görselleştirmek için maliyet toplamı ilke kurallarını kullanabilirsiniz. Daha ayrıntılı bilgi için, Maliyet toplam ilkesine bakınız. (Bu konunun henüz tamamlanmadığını ancak yakında tamamlanacağını göz önünde bulundurun.)
+> Bu konu, birincil maliyet öğesi, 10001 Elektrik'in maliyet nesneleri arasında nasıl aktığını gösterir. Bu nedenle, bu genel gider maliyeti kuruluşun en düşük seviyesine tahsis edilir. Başka bir deyişle, maliyet en alt düzeydeki maliyet nesnelerine aittir. Maliyetin, maliyet nesneleri arasında görsel bir akışına ihtiyacınız varsa, maliyetin akışını görselleştirmek için maliyet toplamı ilke kurallarını kullanabilirsiniz. Daha fazla bilgi için [Maliyet yukarı yuvarlama](cost-rollup.md) konusuna bakın.
 
 
 

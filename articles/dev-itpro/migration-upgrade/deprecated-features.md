@@ -3,7 +3,7 @@ title: "Kaldırılan veya artık kullanılmayan özellikler"
 description: "Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 884a1372c6ebdcc665a812090d75c158c1fef895
-ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -41,6 +41,52 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 > [!Note]
 > Finance and Operations içindeki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) altından ulaşabilirsiniz. Finance and Operations'ın her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1, platform güncelleştirmesi 20 ile
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Muavin defteri günlüğü hesap girişleri için toplu transfer kuralları
+Zaman uyumlu aktarım modunu genel muhasebe parametrelerinde kaldırılıyor.  Bu mod, halihazırda transfer için seçenek olarak mevcut olan Asenkron ve zamanlanan toplu iş ile değiştiriliyor. 
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Sistem performansı üzerindeki etkisi nedeniyle zaman uyumlu seçeneği kaldırıyoruz. |
+| **Başka bir özellikle mi değiştirildi?**   | Asenkron ve zamanlanan toplu iş seçenekleri, zaman uyumlu yerine kullanılacak seçeneklerdir.   |
+| **Etkilenen ürün alanları**         | Genel muhasebe, Borç hesapları, Alacak Hesapları, satın alma, gider    |
+| **Dağıtım seçeneği**              | Tümü  |
+| **Durum**                         | Kullanımı sonlandırıldı - İşlevin kaldırılması hedeflenen zaman aralığı 10.0 sürümüdür.|
+
+### <a name="electronic-reporting-for-russia"></a>Rusya için Elektronik raporlama
+.txt ve .xml dosya biçimlerini bildirimler için yapılandırma özelliği. 
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Elektronik raporlama ile değiştirildi. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet. |
+| **Etkilenen ürün alanları**         | Genel Muhasebe |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Dynamics 365 for Finance and Operations 8.1'de platform güncelleştirmesi 20 ile kaldırıldı. |
+
+### <a name="financial-reports-generator-for-russia"></a>Rusya için finansal raporlar oluşturucusu
+Muhasebe ve vergi raporları için veri toplamak ve XLS ve DOC rapor şablonlarına dışa veri aktarmak için bir araç. İşlevsel parçalar: XLS ve DOC rapor şablonlarına, sorgularına ve sabit gereksinimlerine veri dışa aktarma kaldırıldı. 
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Kaldırılan bölümler Elektronik Raporlama ile değiştiriliyor. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet. Finansal raporlar kullanıcı ayarı arabirimi, GL hesapları veya vergi kayıtları için veri toplama kuralları ayarlamak için kullanılmalıdır. Muhtelif veri türlerine, sabit gereksinimlere ve sorgu benzeri veri toplama kurallarına veri dışa aktarma, Elektronik raporlamada yapılandırılmalıdır. |
+| **Etkilenen ürün alanları**         | Genel muhasebe. |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Dynamics 365 for Finance and Operations 8.1'de platform güncelleştirmesi 20 ile kaldırıldı. |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Rusya için iletişim kanalları üzerinden elektronik raporlama göndermek için dış sağlayıcılar ile tümleştirme
+Dışa aktarma özelliğini klasörüne bildirimlerinin elektronik dosyalar daha ayrıntılı olarak elektronik raporlama durumuna geri alma resmi sağlayıcı göndermek için oluşturulur.
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Elektronik iletiler yapılandırılabilir özelliği ile değiştirildi. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet.  |
+| **Etkilenen ürün alanları**         | Genel Muhasebe, Vergi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Dynamics 365 for Finance and Operations 8.1'de platform güncelleştirmesi 20 ile kaldırıldı. |
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0, platform güncelleştirmesi 15 ile
 Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakılmamıştır. Platform Güncelleştirmesi 15 toplu güncelleştirmedir ve Platform Güncelleştirmesi 13, Platform Güncelleştirmesi 14 ve Platform Güncelleştirmesi 15'deki yeni veya değiştirilmiş özellikleri içerir.

@@ -1,25 +1,26 @@
 --- 
 title: "Word biçiminde raporlar oluşturmak için ER yapılandırmaları tasarlama"
-description: "Aşağıdaki adımlar, bir Sistem yöneticisi veya Elektronik raporlama geliştirici rolündeki bir kullanıcının, Microsoft Word dosyaları şeklinde raporlar oluşturmak için bir Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini açıklar."
+description: "Aşağıdaki adımlar, bir Sistem yöneticisi veya Elektronik raporlama geliştirici rolündeki bir kullanıcının, Microsoft Word dosyaları şeklinde raporlar oluşturmak için bir Elektronik raporlama biçimini nasıl yapılandırabileceğini açıklar."
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için ER yapılandırmaları tasarlama
@@ -30,9 +31,9 @@ Aşağıdaki adımlar, bir Sistem yöneticisi veya Elektronik raporlama gelişti
 
 Bu adımları tamamlamak için öncelikle "OPENXML biçiminde raporlar oluşturmak için bir ER yapılandırması oluşturma" görev kılavuzundaki adımları tamamlamanız gerekir. Aşağıdaki şablonları aynı rapor için önceden indirmeli ve yerel olarak kaydetmelisiniz:
 
-[Ödeme Raporu şablonu](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Ödeme Raporu şablonu](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Ödeme Raporunun Bağlı Şablonu](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[Ödeme Raporunun Bağlı Şablonu](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Bu yordam, Microsoft Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
 
@@ -49,7 +50,7 @@ Bu yordam, Microsoft Dynamics 365 for Operations sürüm 1611'e eklenen bir öze
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Excel şablonunu Word şablonu ile değiştirme
     * Şu anda, Excel belgesi OPENXML biçiminde çıktı üretmek için şablon olarak kullanılmaktadır. Raporun şablonunu Word biçiminde içeri aktaracağız.  
 1. Ekler'e tıklayın.
-    * Mevcut Excel şablonunu daha önce indirdiğiniz Word şablonuyla (Ödeme Raporu Şablonu) değiştirin. Bu şablonun yalnızca ER çıktısı olarak oluşturmak istediğimiz belgenin düzenini içerdiğini unutmayın.  
+    * Mevcut Excel şablonunu daha önce indirdiğiniz Word şablonuyla (SampleVendPaymDocReport.docx) değiştirin. Bu şablonun yalnızca ER çıktısı olarak oluşturmak istediğimiz belgenin düzenini içerdiğini unutmayın.  
 2. Sil'i tıklatın.
 3. Evet'i tıklatın.
 4. Yeni'ye tıklayın.

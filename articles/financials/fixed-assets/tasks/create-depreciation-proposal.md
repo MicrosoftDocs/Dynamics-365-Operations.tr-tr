@@ -1,28 +1,30 @@
---- 
-title: "Amortisman önerisi oluşturma"
+---
+title: "Amortisman önerisi oluştur"
 description: "Bu prosedür, toplu amortisman tekliflerinin nasıl işlediğini ve sabit kıymetler için amortisman teklifinin nasıl yapıldığını açıklar."
-author: saraschi2
+author: abruer
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: abruer
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07d8cf2f1c46b99dfcd1d7c3419fe835f37c5a02
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: d11554ee5f26ef5a85e799194d2f75757a31c254
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-a-depreciation-proposal"></a>Amortisman önerisi oluşturma
+
+# <a name="create-depreciation-proposal"></a>Amortisman önerisi oluştur
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,29 +1,30 @@
 --- 
-title: "Kamu sektöründe özgün bütçe oluşturma ve ön bütçe girişlerini ters kaydetme"
+title: "Özgün bir bütçe oluştur ve sonra kamu sektörü için ön bütçe girişlerini geri al"
 description: "Özgün bir bütçe girişi oluşturduğunuzda ve ön bütçe tutarlarını bütçe modeli ve boyut değerlerini kullandığınızda, ön bütçe tutarları geri alınabilir."
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: shylaw
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2f50cc6bf8ec533db677d290c52dbd711d7a1de8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9d1c34ac2bd94196b7bad599e9aca7ed942ae9c8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-an-original-budget-and-reverse-preliminary-budget-entries-in-the-public-sector"></a>Kamu sektöründe özgün bütçe oluşturma ve ön bütçe girişlerini ters kaydetme
+# <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Özgün bir bütçe oluştur ve sonra kamu sektörü için ön bütçe girişlerini geri al
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

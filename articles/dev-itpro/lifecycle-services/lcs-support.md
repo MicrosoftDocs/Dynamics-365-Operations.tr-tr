@@ -18,10 +18,10 @@ ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
-ms.openlocfilehash: 7061ee2e8b22d29381131815898902a482b7b730
+ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
+ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/29/2018
 
 Bu makale Finance and Operations veya Microsoft Dynamcis Lifecycle Services (LCS) için nasıl yardım alınacağını açıklar. 
 
-<a name="contact-support"></a>Destek ekibiyle iletişime geçin
----------------
+## <a name="contact-support"></a>Destek ekibiyle iletişime geçin
 
 Finance and Operations hakkında teknik sorularınız varsa veya Microsoft Dynamics Lifecycle Services (LCS) erişimi sağlamakta yardıma ihtiyacınız varsa Microsoft ile iletişime geçmek için bu makaledeki bilgiyi kullanın.
 
@@ -89,8 +88,10 @@ CustomerSource, e-öğrenme, Arama, Bilgi Bankası, dosya indirme ve sayfa veya 
 </tbody>
 </table>
 
-Microsoft Dynamics destek teklifleri hakkında daha fazla bilgi için bkz. [Microsoft Dynamics Çevrimiçi destek](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
-
+## <a name="additional-resources"></a>Ek kaynaklar
+- [Dynamics 365 for Retail için destek alın](../../retail/retail-support.md)
+- [Dynamics 365 for Talent için destek alın](../../talent/talent-support.md)
+- Microsoft Dynamics destek teklifleri hakkında daha fazla bilgi için bkz. [Microsoft Dynamics Çevrimiçi destek](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
 

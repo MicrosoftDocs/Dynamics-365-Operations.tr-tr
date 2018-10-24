@@ -1,28 +1,29 @@
 --- 
-title: "Çalışanlara ödünç verilen maddeler"
+title: "Çalışana madde ödünç ver"
 description: "Bu yordam bir çalışana bir maddeyi ödünç vermeyi ve çalışan bunu geri getirdiğinde kaydını yapmayı gösterir."
 author: kherr75
 manager: AnnBe
-ms.date: 06/10/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmPersonLoan, HcmPersonLookup
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 3d7310216f0718c1de92acbb0686910a9cdc523a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9041a24a7197c350a38339408197f643f2b9b6dd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="loan-items-to-workers"></a>Çalışanlara ödünç verilen maddeler
+# <a name="loan-item-to-a-worker"></a>Çalışana madde ödünç ver
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -3,7 +3,7 @@ title: "Mali raporlar oluştur"
 description: "Bu konu mali rapor oluşturma hakkında bilgi sağlar."
 author: aprilolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -34,17 +34,14 @@ Bu konu mali rapor oluşturma hakkında bilgi sağlar.
 
 Bir rapor oluşturmak için rapor tanımı açın ve ardından araç çubuğundaki Oluştur düğmesini tıklatın. Rapor Kuyruğu Durumu penceresi açılır ve raporunuzun kuyruktaki konumunu gösterir. Varsayılan olarak, oluşturulan rapor Web Görüntüleyici'de açılır.
 
-> [!NOTE]
-> Yalnızca erişim izni olan klasörlere ve konumlar için raporlar oluşturabilirsiniz.
-
 Rapor oluşturma için aşağıdaki seçenekler kullanılabilir:
 
 - Otomatik olarak rapor veya rapor grubu oluşturmak için bir plan ayarlayın
 - Hesapları veya bir rapordaki verileri eksik olup olmadığını denetleyin ve raporun doğruluğunu doğrulayın
 
-Bir rapor oluşturduğunuzda, Rapor tanımını sekmesinde belirlediğiniz seçenekleri kullanılır. Çıktı ve dağıtım sekmesi raporu paylaşmak için kolay bir yol sağlayan bir rapor kitaplığı konumu belirtmenize olanak sağlar.
+Bir rapor oluşturduğunuzda, Rapor tanımını sekmesinde belirlediğiniz seçenekleri kullanılır.
 
-## <a name="generate-a-financial-report"></a>Bir mali rapor oluştur
+## <a name="generate-a-financial-report"></a>Mali rapor oluşturma
 
 Microsoft Dynamics 365 for Finance and Operations ile mali rapor oluşturmak için **Genel muhasebe** \> **Sorgular ve raporlar** \> **Mali raporlar**'a gidin.
 
@@ -56,9 +53,6 @@ Rapor oluşturulduktan sonra raporu **Raporlar** bölümünden görüntüleyebil
 Raporu **Görüntülemeyi** veya **Silmeyi** seçebilirsiniz.
 
 **Rapor tasarımcısını** kullanarak rapor oluşturmak için rapor tanımını açın ve ardından araç çubuğundaki Oluştur düğmesine tıklayın. Rapor Kuyruğu Durumu penceresi açılır ve raporunuzun kuyruktaki konumunu gösterir. Varsayılan olarak, oluşturulan rapor Web Görüntüleyici'de açılır.
-
-> [!NOTE]
-> Yalnızca erişim izni olan klasörlere ve konumlar için raporlar oluşturabilirsiniz.
 
 ## <a name="schedule-report-generation"></a> Rapor oluşturmayı planlama
 Birçok şirket iş süreçleriyle uyum sağlamak üzere planlı aralıklarda çalıştırılan temel bir rapor kümesine sahiptir. Bir raporun örneğin günlük, haftalık, aylık veya yıllık olarak oluşturulmasını planlayabilirsiniz. Bu, tek bir rapor ya da birden fazla şirketi içeren bir rapor grubu olabilir. Bir raporlama ağacı tanımındakiler gibi belirtilen şirketlerin her biri için kimlik bilgilerinizi girmeniz gerekir. Kimlik bilgileri geçerli değilse rapor yalnızca erişime izniniz bulunan o anda oturum açtığınız şirket gibi bilgileri görüntüler. Çıkış bilgileri önce rapor grubundan ve ardından tek raporlardan okunur.

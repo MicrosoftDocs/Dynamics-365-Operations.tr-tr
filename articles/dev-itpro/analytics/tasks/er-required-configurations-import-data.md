@@ -1,41 +1,42 @@
 --- 
-title: "Verileri harici dosyalardan içeri aktarmak için ER yapılandırmaları oluşturma"
-description: "Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan Dynamics 365 for Finance and Operations uygulamasına verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar."
+title: "ER Harici bir dosyadan veri almak için gerekli olan yapılandırmaları oluşturma"
+description: "Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan Dynamics 365 for Finance and Operations, Enterprise edition uygulamasına verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar."
 author: NickSelin
 manager: AnnBe
-ms.date: 02/22/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 70bf788b5924e382ab927fcff4c86908923e09d7
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 6675f35c9ec163a620e63af32ecdbff02197d3c3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-er-configurations-to-import-data-from-external-files"></a>Verileri harici dosyalardan içeri aktarmak için ER yapılandırmaları oluşturma
+# <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Harici bir dosyadan veri almak için gerekli olan yapılandırmaları oluşturma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan Dynamics 365 for Finance and Operations uygulamasına verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar. Bu örnekte bir örnek şirket olan Litware, Inc. için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımları tamamlamak için önce "ER Bir yapılandırma sağlayıcısı oluştur ve bunu etkin olarak işaretle" Görev kılavuzundaki adımları tamamlamanız gerekir. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Ayrıca, Elektronik raporlamaya genel bakış konusundan (https://go.microsoft.com/fwlink/?linkid=852550): bağlantıları kullanarak şu dosyaları yerel olarak indirmeniz ve kaydetmeniz gerekir: 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan Dynamics 365 for Finance and Operations, Enterprise edition uygulamasına verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar. Bu örnekte bir örnek şirket olan Litware, Inc. için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımları tamamlamak için önce "ER Bir yapılandırma sağlayıcısı oluştur ve bunu etkin olarak işaretle" Görev kılavuzundaki adımları tamamlamanız gerekir. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Ayrıca, Elektronik raporlamaya genel bakış konusundan (https://go.microsoft.com/fwlink/?linkid=852550): bağlantıları kullanarak şu dosyaları yerel olarak indirmeniz ve kaydetmeniz gerekir: 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
-    * ER, iş kullanıcılarına harici veri dosyalarının , Dynamics 365 for Finance and Operations'daki tablolara .XML veya .TXT biçiminde içeri aktarılmasını yapılandırma özelliği sunar. Öncelikle, içeri aktardığınız verileri temsil etmek üzere soyut veri modeli ve ER veri modeli yapılandırmasının tasarlanması gerekir. Ardından, içeri aktarmakta olduğunuz dosyanın yapısını ve verileri dosyadan soyut veri modeline taşırken kullanacağınız yöntemi tanımlamanız gerekir. Bu soyut veri modeli için tasarlanan veri modeliyle eşleşen ER biçim yapılandırmasının oluşturulması gerekir. Ardından, veri modeli yapılandırması içeri aktarılan verilerin soyut veri modeli verileri olarak nasıl kalıcı hale geldiğini ve , Dynamics 365 for Finance and Operations'da tabloları güncelleştirmek için nasıl kullanıldığını tanımlayan bir eşleme ile genişletilmelidir.  ER veri modeli yapılandırması, veri modelinin uygulama hedefleriyle bağını tanımlayan yeni bir model eşlemesiyle birlikte eklenmesi gerekir.  
-    * Aşağıdaki senaryo ER veri içeri aktarma yeteneklerini gösterir. Bu, harici olarak izlenen ve ardından 1099'lar için Satıcı kapatmasından sonradan raporlanmak için , Dynamics 365 for Finance and Operations'a içeri aktarılan satıcı hareketlerini içerir.   
+    * ER, iş kullanıcılarına harici veri dosyalarının , Dynamics 365 for Finance and Operations, Enterprise edition'daki tablolara .XML veya .TXT biçiminde içeri aktarılmasını yapılandırma özelliği sunar. Öncelikle, içeri aktardığınız verileri temsil etmek üzere soyut veri modeli ve ER veri modeli yapılandırmasının tasarlanması gerekir. Ardından, içeri aktarmakta olduğunuz dosyanın yapısını ve verileri dosyadan soyut veri modeline taşırken kullanacağınız yöntemi tanımlamanız gerekir. Bu soyut veri modeli için tasarlanan veri modeliyle eşleşen ER biçim yapılandırmasının oluşturulması gerekir. Ardından, veri modeli yapılandırması içeri aktarılan verilerin soyut veri modeli verileri olarak nasıl kalıcı hale geldiğini ve , Dynamics 365 for Finance and Operations, Enterprise edition'da tabloları güncelleştirmek için nasıl kullanıldığını tanımlayan bir eşleme ile genişletilmelidir.  ER veri modeli yapılandırması, veri modelinin uygulama hedefleriyle bağını tanımlayan yeni bir model eşlemesiyle birlikte eklenmesi gerekir.  
+    * Aşağıdaki senaryo ER veri içeri aktarma yeteneklerini gösterir. Bu, harici olarak izlenen ve ardından 1099'lar için Satıcı kapatmasından sonradan raporlanmak için , Dynamics 365 for Finance and Operations, Enterprise edition'a içeri aktarılan satıcı hareketlerini içerir.   
 
 ## <a name="add-a-new-er-model-configuration"></a>Yeni bir ER model yapılandırması ekleme
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
     * Örnek şirket 'Litware, Inc.' için yapılandırma sağlayıcısının olduğunu doğrulayın için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlendiğini doğrulayın. Bu yapılandırma sağlayıcısını göremiyorsanız öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir.   
 2. Raporlama konfigürasyonları'na tıklayın.
-    * Veri içeri aktarmayı desteklemek için yeni bir model oluşturmak yerine, daha önce indirdiğiniz 1099model.xml dosyasını yükleyin. Bu dosya, satıcıların hareketlerinin özel veri modelini içerir. Bu veri modeli, AOT veri varlığındaki , Dynamics 365 for Finance and Operations veri bileşenleriyle eşlenmiştir.   
+    * Veri içeri aktarmayı desteklemek için yeni bir model oluşturmak yerine, daha önce indirdiğiniz 1099model.xml dosyasını yükleyin. Bu dosya, satıcıların hareketlerinin özel veri modelini içerir. Bu veri modeli, AOT veri varlığındaki , Dynamics 365 for Finance and Operations, Enterprise edition veri bileşenleriyle eşlenmiştir.   
 3. Değiştir seçeneğine tıklayın.
 4. XML dosyasından yükle'ye tıklayın.
     * Gözat düğmesine tıklayın ve önceden indirdiğiniz 1099model.xml dosyasına gidin.  
@@ -44,7 +45,7 @@ Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici
 
 ## <a name="review-data-model-settings"></a>Veri modeli ayarlarını gözden geçirme
 1. Tasarımcı'yı tıklatın.
-    * Bu model, satıcıların hareketlerini iş açısından göstermek için tasarlanmıştır ve , Dynamics 365 for Finance and Operations'daki uygulamadan bağımsızdır.   
+    * Bu model, satıcıların hareketlerini iş açısından göstermek için tasarlanmıştır ve , Dynamics 365 for Finance and Operations, Enterprise edition'daki uygulamadan bağımsızdır.   
 2. Ağaçta, "1099-MISC" öğesini genişletin.
 3. Ağaçta, "1099-MISC\Hareketler" öğesini seçin.
 4. Ağaçta, "1099-MISC\Hareketler" öğesini genişletin.
@@ -106,7 +107,7 @@ Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici
 1. Ağaçta, "1099 Ödemeleri modeli" öğesini seçin.
 2. Tasarımcı'yı tıklatın.
 3. Modeli veri kaynağına eşle'yi tıklayın.
-    * 1099 el ile yapılan hareket içe aktarmalarının eşlemesi, Hedefe yön türüyle tanımlanmıştır. Bu, verileri içeri aktarmayı desteklemek için girildiği ve içeri aktarılan harici dosyanın soyut veri modeli olarak nasıl kalıcı hale geldiğini ve , Dynamics 365 for Finance and Operations uygulamasında tabloları güncelleştirmek için nasıl kullanıldığını tanımlayan kural ayarlarını içerdiği anlamına gelir.  
+    * 1099 el ile yapılan hareket içe aktarmalarının eşlemesi, Hedefe yön türüyle tanımlanmıştır. Bu, verileri içeri aktarmayı desteklemek için girildiği ve içeri aktarılan harici dosyanın soyut veri modeli olarak nasıl kalıcı hale geldiğini ve , Dynamics 365 for Finance and Operations, Enterprise edition uygulamasında tabloları güncelleştirmek için nasıl kullanıldığını tanımlayan kural ayarlarını içerdiği anlamına gelir.  
 4. Tasarımcı'yı tıklatın.
 5. Ağaçta, "model: Veri modeli 1099 Ödemeleri modeli" öğesini genişletin.
 6. Ağaçta, "model: Veri modeli 1099 Ödemeleri modeli\Hareketler: Kayıt listesi" öğesini genişletin.
@@ -120,7 +121,7 @@ Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici
 12. Ağaçta, "tax1099trans: Tablo 'VendSettlementTax1099' kayıtları= model.Validated" öğesini seçin.
 13. Hedefi düzenle'ye tıklayın.
     * Bu ER hedefi, içeri aktarılan verilerin uygulama tablolarını nasıl güncelleştireceğini belirtmek için eklendi. Bu durumda, VendSettlementTax1099 veri tablosu seçildi. Kayıt eylemi olarak Ekle seçili olduğundan, içeri aktarılan hareketler VendSettlementTax1099 tablosuna eklenir. Tek model eşlemesinin çeşitli hedefleri içerebileceğine dikkat edin. Bu, içeri aktarılan verilerin aynı anda birden fazla uygulamanın tablolarını güncelleştirmek için kullanılabileceği anlamına gelir. Tablolar, görünümler ve veri varlıkları ER hedefleri olarak kullanılabilir.   
-    * Eşleme, Dynamics 365 for Finance and Operations uygulamasında bu eylem için özel olarak tasarlanan (bir düğme veya menü öğesi gibi) bir noktadan çağrılırsa ER hedefi, tümleştirme noktası olarak işaretlenmelidir. Bu örnekte, bu ERTableDestination #VendSettlementTax1099 noktasıdır.  
+    * Eşleme, Dynamics 365 for Finance and Operations, Enterprise edition uygulamasında bu eylem için özel olarak tasarlanan (bir düğme veya menü öğesi gibi) bir noktadan çağrılırsa ER hedefi, tümleştirme noktası olarak işaretlenmelidir. Bu örnekte, bu ERTableDestination #VendSettlementTax1099 noktasıdır.  
 14. İptal'e tıklayın.
 15. Tümünü göster'e tıklayın.
 16. Yalnızca eşlenmişleri göster'e tıklayın.
@@ -176,15 +177,15 @@ Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici
 18. Sayfayı kapatın.
 19. Sayfayı kapatın.
 20. Düzenle öğesine tıklayın.
-    * "KB 4012871 Ayrı yapılandırmalarda GER model eşlemeleri desteği ve bunları farklı Dynamics 365 for Finance and Operations sürümlerinde dağıtmak için farklı önkoşulları belirleyebilme" düzeltmesini yüklediyseniz (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) girilen biçim yapılandırması için, bir sonraki adımı ("Model eşleme varsayılanı" bayrağını açma) yürütün. Aksi durumda, bir sonraki adımı atlayın.  
+    * "KB 4012871 Ayrı yapılandırmalarda GER model eşlemeleri desteği ve bunları farklı Dynamics 365 for Finance and Operations, Enterprise edition sürümlerinde dağıtmak için farklı önkoşulları belirleyebilme" düzeltmesini yüklediyseniz (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) girilen biçim yapılandırması için, bir sonraki adımı ("Model eşleme varsayılanı" bayrağını açma) yürütün. Aksi durumda, bir sonraki adımı atlayın.  
 21. Model eşleme varsayılanı alanında, Evet'i seçin.
 22. Ağaçta, "1099 Ödemeleri modeli" öğesini seçin.
 23. Tasarımcı'yı tıklatın.
 24. Modeli veri kaynağına eşle'yi tıklayın.
 25. Çalıştır öğesine tıklayın.
-    * "KB 4012871 Ayrı yapılandırmalarda GER model eşlemeleri desteği ve bunları farklı Dynamics 365 for Finance and Operations sürümlerinde dağıtmak için farklı önkoşulları belirleyebilme" düzeltmesini yüklediyseniz (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) arama alanında tercih edilen model eşlemesini seçin. Düzeltmeyi henüz yüklemediyseniz, eşleme varsayılan biçim yapılandırmasının tanımı tarafından zaten seçildiğinden bir sonraki adımı atlayın.  
+    * "KB 4012871 Ayrı yapılandırmalarda GER model eşlemeleri desteği ve bunları farklı Dynamics 365 for Finance and Operations, Enterprise edition sürümlerinde dağıtmak için farklı önkoşulları belirleyebilme" düzeltmesini yüklediyseniz (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) arama alanında tercih edilen model eşlemesini seçin. Düzeltmeyi henüz yüklemediyseniz, eşleme varsayılan biçim yapılandırmasının tanımı tarafından zaten seçildiğinden bir sonraki adımı atlayın.  
     * KB 4012871 düzeltmesini yüklemediyseniz iletişim kutusunun içeri aktarmakta olduğunuz dosyayı ayrıştırmak için kullanılan ek bir model eşleme sorusu içerdiğine dikkat edin. Ardından veriler, iletişim kutusundan veri modeline taşınır. Şu anda, içe aktarmayı planladığınız dosya türüne bağlı olarak hangi biçim eşlemesinin kullanılması gerektiğini seçebilirsiniz.  
-    * Bu model eşlemesini eylem için özel olarak tasarlanan Dynamics 365 for Finance and Operations noktasından çağırmayı planlıyorsanız ER hedefinin ve biçim eşlemesinin, tümleştirmenin bir parçası olarak işaretlenmesi gerekir.  
+    * Bu model eşlemesini eylem için özel olarak tasarlanan Dynamics 365 for Finance and Operations, Enterprise edition noktasından çağırmayı planlıyorsanız ER hedefinin ve biçim eşlemesinin, tümleştirmenin bir parçası olarak işaretlenmesi gerekir.  
 26. İptal'e tıklayın.
 27. Sayfayı kapatın.
 28. Sayfayı kapatın.
