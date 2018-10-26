@@ -10,41 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 24c7721a1e5467e98e6c4d245f1d8e24a973f5aa
+ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
+ms.openlocfilehash: 1b1c9719f0697e9d5a51b0e769b3f850dc1690e5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/24/2018
 
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Serbest metin faturası kullanarak sabit kıymeti elden çıkarma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, Sabit kıymetler günlüğündeki alım teklifi kullanılarak bir sabit kıymetin nasıl alındığını gösterir. Muhasebeci rolünü ve USMF adlı tüzel kişilik için tanıtım verilerini kullanır.
+Bu prosedür, serbest metin faturası kullanarak bir sabit kıymetin nasıl elden çıkarılacağını gösterir.
 
-1. Sabit kıymetler > Günlük girişler > Sabit kıymetler günlüğü'ne gidin.
+1. Alacak hesapları > Faturalar > Tüm serbest metin faturaları'na gidin.
 2. Yeni'ye tıklayın.
-3. Ad alanına bir değer girin veya buradan bir değer seçin.
-4. Satırlar seçeneğine tıklayın.
-5. Teklifler'e tıklayın.
-6. Alım teklifi'ne tıklayın.
-7. Filtre'ye tıklayın.
-8. Önceki değerleri temizlemek için sıfırla'ya tıklayın.
-9. Sabit kıymet numarası satırını seçin.
-10. Ölçütler alanında bir değer girin veya seçin.
-    * Bu teklifle almak istediğiniz sabit kıymetler için kalan ölçütleri ayarlayın.  
-11. Tamam'a tıklayın.
-12. Tamam'a tıklayın.
-    * Oluşturulan hareket satırlarını doğrulayın.  
-    * Yalnızca, defterde alım tarihi ve alım fiyatı ayarlanmış olan sabit kıymetler alım teklifine dahil edilir.  
-13. Defterler sekmesine tıklayın.
-14. Deftere Naklet öğesine tıklayın.
+3. Müşteri hesabı alanında bir değer girin veya seçin.
+4. Varsayılan fatura tarihini doğrulama ve düzenleme (varsa).
+5. Kalan varsayılan başlık alanlarını, örneğin Para birimi gibi doğrulayın ve gerekirse düzenleyin.
+6. Fatura satırına bir Açıklama girin.
+7. Fatura satırı için Ana hesabı girin veya seçin.
+8. Varsayılan Satış vergisi grubunu ve Madde satış vergisi grubunu doğrulayın.
+9. Sabit kıymetin Birim fiyatını veya Satış miktarını girin.
+10. Satır ayrıntılarına tıklayın.  
+11. Satılacak Sabit kıymet numarasını seçin.
+12. Deftere Naklet öğesine tıklayın.
 
 

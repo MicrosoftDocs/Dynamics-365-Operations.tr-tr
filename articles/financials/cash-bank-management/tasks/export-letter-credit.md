@@ -1,28 +1,29 @@
 --- 
-title: "Kredi mektubunu dışa aktarma"
+title: "Kredi mektubunu dışa aktar"
 description: "Bu yordam, bir ihracat kredi mektubu sürecini adım adım anlatır."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustTable, CustBankAccounts, DefaultDashboard, SalesTableListPage, SalesCreateOrder, SalesTable, BankLCExport, SalesEditLines,  LedgerJournalTable, LedgerJournalTransCustPaym, CustOpenTrans
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 0fa4b57825bcf81778d91ee01484511bb40f6bd7
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 730a6cc6ed4872f8d0ad92b89665587f472f6791
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="export-a-letter-of-credit"></a>Kredi mektubunu dışa aktarma
+# <a name="export-letter-of-credit"></a>Kredi mektubunu dışa aktar
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

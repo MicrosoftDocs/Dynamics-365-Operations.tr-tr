@@ -1,31 +1,32 @@
 --- 
-title: " Ürün çeşitlerini yönetme "
+title: "Ürün çeşitlerini yönetme (Kasım 2016)"
 description: "Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandığını gösterir ve tanıtım verisi şirketi USRT'yi kullanır."
 author: jashanno
 manager: AnnBe
-ms.date: 10/31/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, RetailCategoryAndProductWorkspace, RetailCategoryAndProductAssortment, RetailAssortmentDetails, RetailOperatingUnitPicker, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1c353a135559a1901f98ae6e7c9671254ab625c3
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f96c79558c3248406a1b5988f9c9dc9783db4406
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="manage-assortments"></a> Ürün çeşitlerini yönetme  
+# <a name="manage-assortments-november-2016"></a>Ürün çeşitlerini yönetme (Kasım 2016)
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandığını gösterir ve tanıtım verisi şirketi USRT'yi kullanır. Bu yordam Dynamics AX uygulaması 7.0.1 veya sonraki bir sürümü ve Dynamics AX platformu 7.1'i gerektirir.  
 

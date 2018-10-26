@@ -3,13 +3,13 @@ title: "Talent sağlama"
 description: "Bu konuda, Microsoft Dynamics 365 for Talent için yeni bir ortam sağlama işlemi adım adım anlatılmaktadır."
 author: rschloma
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 09/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: josaw
 ms.search.scope: Talent
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 2fc4119f3b33aa583274f4d823e296752cdde41d
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 # <a name="provision-talent"></a>Talent sağlama
@@ -30,7 +30,7 @@ ms.lasthandoff: 08/09/2018
 
 Bu konuda, Microsoft Dynamics 365 for Talent için yeni bir üretim ortamı sağlama işlemi adım adım gösterecektir. Bu konuda, Talent'ı bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla aldığınız varsayılır. Zaten Talent hizmet planını içeren mevcut bir Microsoft Dynamics 365 lisansınız varsa ve bu konudaki adımları tamamlayamıyorsanız Destek birimine başvurun.
 
-Başlamak için, genel yöneticinin [Microsoft Dynamics Lifecycle Services](http://lcs.dynamics.com)'da oturum açması (LCS) ve yeni bir Talent projesi oluşturması gerekir. Talent'ı sağlamanızı bir lisans sorunu engellemediği sürece, Destek biriminden veya Dynamics Hizmet Mühendisliği (DSE) temsilcilerinden yardım almanız gerekmez.
+Başlamak için, genel yöneticinin [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com)'da oturum açması (LCS) ve yeni bir Talent projesi oluşturması gerekir. Talent'ı sağlamanızı bir lisans sorunu engellemediği sürece, Destek biriminden veya Dynamics Hizmet Mühendisliği (DSE) temsilcilerinden yardım almanız gerekmez.
 
 ## <a name="create-an-lcs-project"></a>LCS projesi oluşturma
 Talent ortamlarınızı yönetmek üzere LCS'yi kullanmak için öncelikle bir LCS projesi oluşturmanız gerekir.
@@ -48,7 +48,6 @@ Bir LCS projesi oluşturduktan sonra, bir ortama Talent sağlayabilirsiniz.
 
 1. LCS projenizde **Talent Uygulama Yöneticisi** kutucuğunu seçin.
 2. Talent, PowerApps tümleştirmesi ve genişletilebilirliği sağlamak amacıyla daima bir Microsoft PowerApps ortamında sağlanır. Devam etmeden önce bu konudaki "PowerApps ortamı seçme" bölümünü okuyun. 
-3. Bir PowerApps ortamınız yoksa devam etmeden önce bu konuda yer alan "Yeni bir PowerApps ortamı oluşturma (gerekirse)" bölümündeki adımları izleyin.
 
     > [!NOTE]
     > Varolan ortamları görüntülemek veya yeni ortamlar oluşturmak için, Talent'ı sağlayan kiracı yöneticisine PowerApps P2 lisansı atanması gerekir. Kuruluşunuzun PowerApps P2 lisansı yoksa, bir CSP'den veya [PowerApps fiyatlandırma sayfasından](https://powerapps.microsoft.com/en-us/pricing/) bir lisans satın alabilirsiniz.
@@ -78,11 +77,6 @@ Talent'ı hangi PowerApps ortamına dağıtacağınızı belirlerken aşağıdak
 4. Veri tümleştirme ve test stratejileri göz önünde bulundurmalıdır: örneğin Korumalı alan, UAT, Üretim. Bu nedenle, Talent ortamının eşlendiği PowerApps ortamını daha sonra değiştirmek kolay olmayacağından, dağıtımınızla ilgili çeşitli etkileri değerlendirmenizi öneririz.
 5. Aşağıdaki PowerApps ortamları Talent için kullanılamaz ve LCS'deki seçim listesinden filtrelenecektir:
  
-    **CD 2.0 Ortamları** CDS 2.0 21 Mart 2018'de genel kullanıma sunulacaktır ancak Talent henüz CDS 2.0'ı desteklememektedir. PowerApps Yönetim merkezinden CDS 2.0 veritabanları oluşturabilir ve görüntüleyebilirsiniz ancak bunları Talent'ta kullanamazsınız. CDS 2.0 Ortamlarını Talent dağıtımlarında kullanma seçeneği ileri bir tarihte kullanılabilir olacaktır.
-   
-   > [!Note]
-   > Yönetim portalında CDS 1.0 ve 2.0 ortamlarını birbirinden ayırmak için bir ortam seçin ve **Ayrıntılar**'a bakın. CD 2.0 ortamlarının tümü "Bu ayarları Dynamics 365 Yönetim Merkezinde yönetebilirsiniz" referansıyla bir örnek sürüme yönlendirir ve Veritabanı sekmesi bulunmaz. 
- 
    **Varsayılan Power Apps ortamları** Her kiracıya otomatik olarak varsayılan bir PowerApps ortamı sağlanmasına karşın tüm kiracı kullanıcıların PowerApps ortamına erişimi olduğundan ve kiracılar PowerApps veya Flow tümleştirmelerini test ederken ve keşfederken yanlışlıkla üretim verilerine zarar verebileceklerinden, bu alanların Talent ile kullanılmasını önermiyoruz.
    
    <strong>Deneme Sürüşü ortamları</strong> ‘TestDrive – alias@domain’ gibi bir ada sahip ortamlar 60 günlük kullanım için oluşturulur ve süre dolduğunda sonlandırılarak ortamınızın otomatik olarak kaldırılmasına neden olur.
@@ -91,42 +85,6 @@ Talent'ı hangi PowerApps ortamına dağıtacağınızı belirlerken aşağıdak
   
 6. Kullanılacak doğru ortamı belirledikten sonra gerçekleştirmeniz gereken belirli bir eylem yoktur. Sağlama işlemine devam edin. 
  
-## <a name="create-a-new-powerapps-environment-if-required"></a>Yeni bir PowerApps ortamı oluşturma (gerekirse)
-
-PowerApps 2 lisansına sahip kiracı yönetici bağlamında Talent için yeni bir PowerApps ortamı oluşturmak için PowerShell komut dosyası çalıştırın. Komut dosyası otomatik olarak aşağıdaki adımları gerçekleştirir:
-
-
- + PowerApps ortamı oluşturma
- + CDS 1.0 veritabanı oluşturma
- + CDS 1.0 veritabanındaki tüm örnek verileri temizleme
-
-
-Komut dosyasını çalıştırmak için aşağıdaki yönergeleri izleyin:
-
-1. Şu konumdan ProvisionCDSEnvironment.zip dosyasını indirin: [ProvisionCDSEnvironment komut dosyaları](https://go.microsoft.com/fwlink/?linkid=870436)  
-
-2. İndirmeler klasörünüzden, yeni indirilen ProvisionCDSEnvironment.zip dosyana çift tıklayın ve **Özellikler**'i seçin.  İletişim kutusunun altında “Bu dosya başka bir bilgisayardan geldi ve bu bilgisayarı korumak için engellenebilir” şeklinde bir Güvenlik notu varsa, **Kilidi kaldır** onay kutusunu işaretleyin, ardından **Uygula** ve **Tamam**'a tıklayın.
-
-3. ProvisionCDSEnviroinment.zip dosyasının tüm içeriğini kök klasörünüz dışında başka bir klasöre çıkarın.
-
-4. Yönetici olarak Windows PowerShell veya Windows PowerShell ISE programını çalıştırın.
-
-   Komut dosyasının çalışabilmesi için yürütme ilkesini ayarlama hakkında daha fazla bilgi için [Yürütme İlkesi Ayarlama](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) konusuna bakın. “Ayarla-ExecutionPolicy -ExecutionPolicy Kısıtlamasız -Kapsam İşlemi”ni kullanmanızı öneriyoruz ancak şirketinizin güvenlik ilkelerini izlediğinizden emin olun ve bittiğinde PowerShell penceresini kapatın. 
-  
-5. PowerShell içinde, dosyayı çıkardığınız klasöre gidin ve değerleri aşağıda belirtildiği şekilde değiştirerek komutu çalıştırın:
- 
-   ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
-
-    
-   **MyNewEnvironment** ortam adınız ile değiştirilmelidir. Bu ad LCS'de görüntülenir ve kullanıcılar kullanılacak Talent ortamını seçerken gösterilir. 
-
-   **YourLocation** Talent için desteklenen bölgelerden biriyle değiştirilir: amerika birleşik devletleri, avrupa, avustralya. 
-
-   **-Verbose** isteğe bağlıdır ve sorunla karşılaşırsanız destek birimine gönderilmek üzere ayrıntılı bilgiler sağlar.
-
-6. Sağlama işlemine devam edin.
- 
-
 ## <a name="grant-access-to-the-environment"></a>Ortama erişim izni verme
 Varsayılan olarak, ortamı oluşturan genel yöneticinin ortama erişimi vardır. Ancak ek uygulama kullanıcılarına erişim izninin açıkça verilmesi gerekir. Erişim izni vermek için Ana İK ortamında [kullanıcılar ekleyin](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ve [kullanıcılara uygun roller atayın](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). Talent'ı dağıtan genel yönetici, başlatmayı tamamlamak ve diğer kiracı kullanıcılar için erişim sağlamak üzere Attract ve Onboard uygulamalarını da başlatmalıdır.  Bu gerçekleştirilene kadar, diğer kullanıcılar Attract ve Onboard uygulamalarına erişemez ve erişim ihlali hataları alır.
 

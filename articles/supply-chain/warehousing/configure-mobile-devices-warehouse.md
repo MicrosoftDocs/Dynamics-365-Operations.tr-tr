@@ -1,9 +1,9 @@
 ---
-title: "Mobil cihazları ambar işi için ayarlama"
-description: "Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl yapılandırılacağı açıklanmaktadır."
+title: "Ambar işi için mobil cihazları ayarlama"
+description: "Bu konuda, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl konfigüre edileceği açıklanmaktadır."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
+ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
+ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/03/2018
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobil cihazları ambar işi için ayarlama
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Ambar işi için mobil cihazları ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl yapılandırılacağı açıklanmaktadır.
+Bu konuda, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl konfigüre edileceği açıklanmaktadır.
 
-**Not:** Bu makale, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Bir ambar mobil cihazında görülen menü öğeleri, **Mobil cihaz menü öğeleri** sayfasında yapılandırılır. Menü öğeleri farklı menülere konabileceğinden, menü yapılarını yalnızca belirli iş türleri belirli kurallara maruz kalacak şekilde yapılandırmak kolaydır. Menü öğelerini aşağıdaki görevleri gerçekleştirecek şekilde yapılandırabilirsiniz:
+**Not:** Bu konu, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Bir ambar mobil cihazında görülen menü öğeleri, **Mobil cihaz menü öğeleri** sayfasında yapılandırılır. Menü öğeleri farklı menülere konabileceğinden, menü yapılarını yalnızca belirli iş türleri belirli kurallara maruz kalacak şekilde yapılandırmak kolaydır. Menü öğelerini aşağıdaki görevleri gerçekleştirecek şekilde yapılandırabilirsiniz:
 
 -   Bir sorgu işleyin veya etiket yazdırma, plaka numarası oluşturma, üretim emrini başlatma ya da bir konumdaki maddeler hakkındaki bilgilere hızlıca bakma gibi bir etkinlik gerçekleştirin.
 -   Başka bir süreç üzerinden gerçekleştirilecek bir iş oluşturun. Örneğin, bir satınalma emrine yönelik bir madde almak, başka bir çalışan için yerine koyma işi oluşturabilir.
@@ -193,7 +193,7 @@ Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Mevcut işi işlemek için menü öğeleri yapılandırma
-Ambar işi oluşturmak için menü öğeleri ayarlamaya ek olarak, önceden oluşturulmuş işi işlemek için menü öğeleri de ayarlayabilirsiniz. **Mod** alanını **İş** olarak ayarlayın ve **Geçerli işi kullan** seçeneğini belirleyin. Bunun ardından **Genel** sekmesinde bazı ek seçenekler kullanılabilir hale gelir. Menü öğesine erişimi **İş sınıfı** FastTab'i üzerinde bir veya daha fazla iş sınıfı atayarak kontrol edebilirsiniz. İş sınıfları, menü öğesinin işleyebileceği işi tanımlar. İş sınıfı aynı zamanda belirli kullanıcı rollerine erişim vermek veya farklı operasyon türleri için işlemeyi ayırmak üzere de kullanılabilir. Aşağıdaki tabloda, kullanılabilecek seçenekler açıklanmıştır.
+Ambar işi oluşturmak için menü öğeleri ayarlamaya ek olarak, önceden oluşturulmuş işi işlemek için menü öğeleri de ayarlayabilirsiniz. **Mod** alanını **İş** olarak ayarlayın ve **Geçerli işi kullan** seçeneğini belirleyin. Bunun ardından **Genel** sekmesinde bazı ek seçenekler kullanılabilir hale gelir. Menü öğesine erişimi **İş sınıfı** FastTab'i üzerinde bir veya daha fazla iş sınıfı atayarak kontrol edebilirsiniz. İş sınıfları, menü öğesinin işleyebileceği işi tanımlar. İş sınıfı aynı zamanda belirli kullanıcı rollerine erişim vermek veya farklı operasyon türleri için işlemeyi ayırmak üzere de kullanılabilir. Aşağıdaki tabloda, kullanılabilecek seçenekler açıklanmıştır. Seçenek **Mobil cihaz menü öğeleri** sayfasında **Tarafından yönlendirilen** alanında seçilebilir. 
 
 <table>
 
@@ -247,6 +247,10 @@ Bu seçenek örneğin bir yük için birden fazla palet hazırlandıysa faydalı
 <tr class="even">
 <td>Döngü sayımı gruplandırma</td>
 <td>Çalışan, bir bölge, iş havuzu veya konum seçer ve Microsoft Dynamics 365 for Finance and Operations seçime bağlı olarak işi atar. Bu seçeneği belirlemeniz halinde, Eylem bölmesinde <strong>Döngü sayımı</strong> seçeneğine tıklayarak görüntülenecek ek bilgileri belirleyebilir ve ayrıca çalışanın fark bulunması halinde sayımı kaç kez tekrarlaması gerektiğini de belirtebilirsiniz.</td>
+</tr>
+ <tr class="odd">
+<td>Taşıma yüklemesi</td>
+<td>Bu özellik, birden fazla ambar çalışanının, tam olarak veya kısmen nakledilmiş yüklere sahip envanteri aynı veya farklı yüklerden aynı kamyona yüklemesine olanak tanır.</td>
 </tr>
 </tbody>
 </table>
@@ -349,7 +353,7 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 <td>Çalışanların bir satış emri işini veya yükü tek bir iş biriminde birleştirmesine izin vermek için bu seçeneği seçin. Bir çalışan yalnızca satış emri veya yük için iş gerçekleştirebilir. Bu seçenek örneğin satış emri için yükleme, sevkıyat ve iş oluşturulduktan sonra satış emri için miktarı artırmanız gerektiğinde kullanışlıdır. Bu seçenek, menü maddesi mevcut işi kullandığında ve iş kullanıcı veya sistem tarafından yönlendirildiğinde kullanılabilir.</td>
 </tr>
 <tr class="even">
-<td>Yok</td>
+<td>En eski toplu işi çek</td>
 <td>Çalışanın konumdaki en eski toplu işi ilk çekip çekmemesi gerektiğini belirtin. Aşağıdaki seçenekler bulunur:
 <ul>
 <li><strong>Yok</strong> – Çalışan konumdaki herhangi bir toplu işi çekebilir. Çalışan ileti almaz.</li>

@@ -1,29 +1,30 @@
 --- 
-title: "Kamu sektörü için ön bütçe oluşturma"
+title: "Kamu sektörü için bir ön bütçe oluştur"
 description: "Belirli bir bütçe modeli ve boyut değerleri için bütçe ön kayıt girişlerini oluşturabilirsiniz."
 author: twheeloc
 manager: AnnBe
-ms.date: 02/12/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a2c2dab44d771a7e7b662c808912940eed7473c5
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 98968b0025ff5c3b9723dc6cc8a8eae799a4eb43
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-a-preliminary-budget-for-public-sector"></a>Kamu sektörü için ön bütçe oluşturma
+# <a name="create-a-preliminary-budget-for-public-sector"></a>Kamu sektörü için bir ön bütçe oluştur
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

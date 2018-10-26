@@ -1,33 +1,34 @@
 --- 
-title: "El ile ambalajlamayı ayarlama (yalnızca Şubat ve Mayıs 2016)"
+title: "Manuel ambalajlamayı ayarlama (Şubat 2016 ve Mayıs 2016)"
 description: "Paketleme işlemi, doğrulamanıza ve ürünleri konteynerlere yerleştirmenize izin verir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/04/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f992a6a1655cd868d79228c490d59b46bfae715
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-manual-packing-february--may-2016-only"></a>El ile ambalajlamayı ayarlama (yalnızca Şubat ve Mayıs 2016)
+# <a name="set-up-manual-packing-february-2016--may-2016"></a>Manuel ambalajlamayı ayarlama (Şubat 2016 ve Mayıs 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Paketleme işlemi, doğrulamanıza ve ürünleri konteynerlere yerleştirmenize izin verir. Bu süreçte ambar çalışanları ürünleri depolama konumlarından çeker ve onları ürün miktarları ve türlerini denetledikleri bir paketleme istasyonuna taşır ve daha sonra onları uygun konteynerlere atar. Bir konteyner tam olarak paketlendiğinde, bunu kapatıp çıkış noktalarına taşıyabilirler ve böylece ürünler sevk edilmeye hazır hale gelir. Bu yordam, USMF demo şirketini kullanır.
+Paketleme işlemi, doğrulamanıza ve ürünleri konteynerlere yerleştirmenize izin verir. Bu süreçte ambar çalışanları ürünleri depolama konumlarından çeker ve onları ürün miktarları ve türlerini denetledikleri bir paketleme istasyonuna taşır ve daha sonra onları uygun konteynerlere atar. Bir konteyner tam olarak paketlendiğinde, bunu kapatıp çıkış noktalarına taşıyabilirler ve böylece ürünler sevk edilmeye hazır hale gelir. Bu yordam, USMF demo şirketini kullanır. Bu yordam yalnızca Dynamics 365 for Operations'ın Şubat 2016 ve Mayıs 2016 sürümleri içindir.
 
 
 ## <a name="set-up-location-profiles"></a>Yerleşim profillerini ayarla

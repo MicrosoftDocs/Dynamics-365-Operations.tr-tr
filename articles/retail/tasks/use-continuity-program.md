@@ -1,31 +1,32 @@
 --- 
-title: "Süreklilik programlarını satma ve ilgili satış siparişlerini işleme"
+title: "Süreklilik programı kullanma"
 description: "Bu yordam, süreklilik programının satılmasını ve ilgili satış siparişlerinin işlenmesini gösterir."
 author: scott-tucker
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 5fe1823c9b684bbc5ac5bd0871cc5c0a0e6ce678
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 45bd4a3cc9f9b03c713d33638d6dc93aa696c581
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="selling-continuity-programs-and-processing-related-sales-orders"></a>Süreklilik programlarını satma ve ilgili satış siparişlerini işleme
+# <a name="using-continuity-program"></a>Süreklilik programı kullanma
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, süreklilik programının satılmasını ve ilgili satış siparişlerinin işlenmesini gösterir. Bu yordamı tamamlamak için kullanıcının bir çağrı merkezi kullanıcısı olarak ayarlanması gerekir. Bu yordam, USRT demo veri şirketini kullanır.
 

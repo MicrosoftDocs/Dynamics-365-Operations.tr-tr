@@ -3,7 +3,7 @@ title: "Yerelleştirme ve mevzuat özellikleri"
 description: "Bu konu, ülkeye/bölgeye özgü işlevler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/05/2018
+ms.date: 09/30/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
-ms.openlocfilehash: db18906739529e04710507ee9ff088540894171d
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/05/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -107,6 +107,7 @@ Daha fazla bilgi için bkz. [Görev kılavuzları](../../fin-and-ops/get-started
     :::column-end:::
     :::column:::
         - [Polonya](../../financials/localizations/poland.md)
+        - [Rusya](../../financials/localizations/russia.md)
         - [Suudi Arabistan](../../financials/localizations/saudi-arabia.md)
         - [Singapur](../../financials/localizations/singapore.md)
         - [İspanya](../../financials/localizations/spain.md)

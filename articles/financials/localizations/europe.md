@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, birincil adresi Brezilya'da olan tüzel kişilikler için Dynamics 365 for Finance and Operations kurmanıza yardımcı olabilecek kaynaklara bağlantılar ve bilgiler içerir. 
+Bu konu, birincil adresi Avrupa'da olan tüzel kişilikler için Dynamics 365 for Finance and Operations kurmanıza yardımcı olabilecek kaynaklara bağlantılar ve bilgiler içerir. 
 
 - [Avans sahipleri](emea-advance-holders.md)
  - [Avans sahibi hareketleri](emea-advance-holders-transactions.md)
@@ -42,11 +42,9 @@ Bu konu, birincil adresi Brezilya'da olan tüzel kişilikler için Dynamics 365 
 - [AB satış listesi raporlaması](emea-eu-sales-list.md)
 - [Döviz kuru ayarlamaları](emea-exchange-rate-adjustments.md)
 - [Ödeme yöntemlerine ait dosya biçimleri](emea-select-file-formats-for-the-method-of-payments.md)
-- [Mali hizmeti (ESR) tümleştirme](emea-fiscal-service-integration.md)
+- [Mali hizmet (ESR) tümleştirmesi](emea-fiscal-service-integration.md)
 - [Estonya ve Litvanya için sabit kıymetleri elden çıkarma](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Yabancı para birimi yeniden değerleme işlemi](emea-foreign-currency-revaluation.md)
 - [Şirket içi stok transferi için bir transfer belgesi oluşturma](tasks/transfer-document-internal-inventory-transfer.md)
-- [AB Instrastat beyanı oluşturma](tasks/eur-00002-eu-intrastat-declaration.md)
 - [AB satış listesi raporu oluşturma](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022 dosyaları
   - [ISO20022 dosyalarını içe aktarma](emea-ISO20022-file-formats.md)
@@ -61,9 +59,11 @@ Bu konu, birincil adresi Brezilya'da olan tüzel kişilikler için Dynamics 365 
   - [ISO20022 ödeme biçimini kullanarak satıcı ödemeleri oluşturma ve dışa aktarma](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [İntrastat](emea-intrastat.md)
   - [Hareketleri intrastata transfer etme](tasks/transfer-transactions-intrastat.md)
+  - [Topluluk içi bir hareket için yükleme adresini belirtme](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [AB İnstrastat beyanı oluşturma](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Stok günlüğü raporları](emea-set-up-report-inventory-journal-names.md)
 - [Fatura düzenleme son tarihleri](emea-invoice-issue-deadline.md)
-- [Fatura işlemleri](emea-invoice-processing.md)
+- [Fatura işleme](emea-invoice-processing.md)
 - [AB giriş sertifikası düzenleme](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [OIOUBL standartları](emea-oioubl-standards-electronic-invoicing.md)
 - [Orijinal fatura referansı (Doğu Avrupa)](tasks/ee-00004-original-invoice-reference.md)
@@ -82,8 +82,6 @@ Bu konu, birincil adresi Brezilya'da olan tüzel kişilikler için Dynamics 365 
 - [AB satış listesi raporlamasını ayarlama](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Proje faturaları için ödeme makbuzu biçimini ayarlama](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Basılı formlar için imzalayanları ayarlama](emea-set-up-signers-for-printing-forms.md)
-- [Malların şirket içinde taşınması için transfer belgelerini ayarlama](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [Topluluk içi bir hareket için yükleme adresini belirtme](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [Storno muhasebesi](emea-storno.md)
 - [Vergi yönergeleri](emea-tax-directives.md)
 - [Tutarların raporlarda ve belgelerde nasıl görüntüleneceğini güncelleştirme](emea-amount-printing-forms.md)

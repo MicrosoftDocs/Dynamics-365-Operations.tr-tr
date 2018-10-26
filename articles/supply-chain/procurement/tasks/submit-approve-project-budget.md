@@ -1,29 +1,30 @@
 --- 
-title: "Proje bütçelerini gönderme ve onaylama"
+title: "Proje bütçesi gönderme ve onaylama"
 description: "Bu yordam, bir proje için bütçe oluşturmayı ve göndermeyi gösterir."
 author: mkirknel
 manager: AnnBe
-ms.date: 02/09/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, WorkflowSubmitDialog
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 7b1a248082b1ec8a7321b4aa94886d147be6a2b3
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f727e19d3f8c424b1c59e52602b7e907151f4492
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="submit-and-approve-project-budgets"></a>Proje bütçelerini gönderme ve onaylama
+# <a name="submit-and-approve-project-budget"></a>Proje bütçesi gönderme ve onaylama
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

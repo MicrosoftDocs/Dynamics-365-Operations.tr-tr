@@ -3,7 +3,7 @@ title: Kambiyo senetlerini ayarlama
 description: "Bu konuda, kambiyo senetlerini ayarlama adımları açıklar."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 09/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4dfc6cc2fcbca18f3dde833917ae68a5f254643b
+ms.sourcegitcommit: c9d6866bb994cb9fb411bdd6a9ccae0e67d2d6f3
+ms.openlocfilehash: cda597b1d99e99ac5c5c396bcfcec9c0712f0eb1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -38,6 +38,7 @@ Kambiyo senedi bir müşteriden gelen ve belirtilen bir tutarı, genelde bir ban
 -   Vade tarihinden önce, genelde müşteri için ayarlanan ödeme şartlarında belirtilen iskonto tarihinde. Hareketi deftere naklettiğiniz zaman iskonto tutarı bir gider hesabına nakledilir. Banka müşteriden ödeme alana kadar, kalan tutar sizde pasif olarak tutulur. Bu yaklaşıma iskonto için havale adı verilir.
 
 ## <a name="set-up-posting-profiles-for-bills-of-exchange"></a>Kambiyo senetleri için deftere nakil profilleri ayarlama
+
 Kambiyo senetleri, protestolu kambiyo senetleri, tahsilat için havale ve iskonto için havale ile kullanabileceğiniz deftere nakil profilleri ayarlamak için **Müşteri deftere nakil profilleri** sayfasını kullanın. **Özet hesap** alanında, kambiyo senedi tutarlarının nakledileceği özet hesabı seçin. Kambiyo senedi hareket türüne bağlı olarak bu hesaba borç veya alacak yazılır:
 -   Kambiyo senetlerinde, bu hesap bir kambiyo senedi nakledildiğinde borçlandırılır ve iskonto için havale veya tahsilat için havale nakledildiğinde alacaklandırılır.
 -   Protestolu kambiyo senetlerinde, bu hesap protestolu bir kambiyo senedi nakledildiğinde borçlandırılır.
@@ -47,8 +48,11 @@ Kambiyo senetleri, protestolu kambiyo senetleri, tahsilat için havale ve iskont
 **Kapatma hesabı** alanında, kambiyo senedi tutarlarının nakledileceği nakit hesabını seçin. Hesap, bir kambiyo senedi kapatıldığında borçlandırılır. **Satış vergisi ön ödemeleri** alanında, ön ödemeler için kambiyo senetleri kullanıldığında, satış vergisi tutarlarının nakledileceği özet hesabı seçin. **İskonto hesabı borçları** alanında, iskonto havaleleri için iskonto tutarının deftere nakledileceği hesabı seçin. Bu hesap, bir iskonto için havale deftere nakledildiğinde alacaklandırılır.
 
 ## <a name="set-up-accounts-receivable-parameters-for-bills-of-exchange"></a>Kambiyo senetleri için Alacak hesapları parametrelerini ayarlama
-**Alacak hesapları parametreleri** sayfasında, kambiyo senetleri için varsayılan deftere nakil profilleri **Genel muhasebe ve satış vergisi** sekmesinde girilir. Numara serileri **Numara serileri** sekmesinde tanımlanır. Kambiyo senedi için günlük adları ayarlayın.
-------------------------------------------
+
+**Alacak hesapları parametreleri** sayfasında, kambiyo senetleri için varsayılan deftere nakil profilleri **Genel muhasebe ve satış vergisi** sekmesinde girilir. Numara serileri **Numara serileri** sekmesinde tanımlanır.
+
+## <a name="set-up-journal-names-for-bills-of-exchange"></a>Kambiyo senetleri için günlük adları ayarlama
+
 
 **Günlük adları** sayfasında, kambiyo senetleri için kullanılmak üzere en az beş günlük adı oluşturun. Günlük türleri şunlardır:
 -   **Müşteriye düzenlenen kambiyo senedi** – Düzenlenen kambiyo senetleri günlüğü için bir günlük adı oluşturun.
@@ -58,24 +62,24 @@ Kambiyo senetleri, protestolu kambiyo senetleri, tahsilat için havale ve iskont
 -   **Müşteri tarafından ödenen kambiyo senedi** – Kambiyo senetleri kapatma günlüğü için bir günlük adı oluşturun.
 
 Her bir kambiyo senedi günlüğü için günlük fişi sayfasında, kambiyo senedi hakkında bilgiyi **Kambiyo senedi** sekmesinde girin. Bir kambiyo senedi günlük satırları deftere nakledildikten sonra, bunları **Kambiyo senedi günlük sorgusu** sayfasında ve **Kambiyo senedi istatistikleri** sayfasında görebilirsiniz.
-Kambiyo senetleri için ödeme yöntemleri ayarlama
------------------------------------------------
+
+## <a name="set-up-methods-of-payment-for-bills-of-exchange"></a>Kambiyo senetleri için ödeme yöntemleri ayarlama
 
 **Ödeme yöntemleri** sayfasında, kambiyo senetleri için en az bir ödeme yöntemi ayarlayın. Birden fazla bankayla iş yapıyorsanız, her bankanın kambiyo senedi için istediği havale biçimine karşılık gelen bir ödeme yöntemi ayarlayın.
-Kambiyo senetleri için ödeme masrafları ayarlama
------------------------------------------
+
+## <a name="set-up-payment-fees-for-bills-of-exchange"></a>Kambiyo senetleri için ödeme masrafları ayarlama
 
 Ödeme masrafı, müşterilerden ödeme tahsil etme işlemiyle ilişkili bir masraftır. Her ödeme masrafıyla birden fazla ödeme masrafı kurulum satırı ilişkilendirilebilir. Ödeme masrafları için varsayılan tutarların nasıl hesaplanacağını denetlemek için ayar satırlarını kullanabilirsiniz. Örneğin, ödeme yöntemleri, ödeme belirtimleri, para birimleri ve dönemler için kurulum satırları oluşturabilirsiniz. Gün aralıklarına dayanarak yüzde veya tutar için kurulum satırları da oluşturabilirsiniz. Örneğin, bir ödemenin vade gecikmesi zaman uzunluğuna bağlı bir vade farkı yüzdesi ayarlayabilirsiniz. Banka **Tahsilat** veya **İskonto** gibi farklı havale türleri için ayrı masraflar borçlandırıyorsa, her havale türü için ayrı bir ödeme masrafı satırı ayarlayın.
-Banka havale dosyaları için havale ücretleri ayarlama
-------------------------------------------------
+
+## <a name="set-up-remittance-fees-for-bank-remittance-files"></a>Banka havale dosyaları için havale ücretleri ayarlama
 
 **Banka hesapları** sayfasında, oluşturulan her havale dosyası için bir banka tarafından borçlandırılan havale masrafları ayarlayabilirsiniz. Havale ücretleri havale onaylandığında ve gerçekleşen ücret tutarları bilindiğinde nakledilir. Havale masrafları, müşterilerden tahsil edilen ve günlük satırlarına iliştirilen ödeme masraflarından farklıdır.
-Kambiyo senetleri için belge düzenleri ayarlama
----------------------------------------------
+
+## <a name="set-up-document-layouts-for-bills-of-exchange"></a>Kambiyo senetleri için belge düzenleri ayarlama
 
 **Banka hesapları** sayfasında **Ayarla**'ya tıklayın ve basılı kambiyo senedi belgeleri oluşturacağınız her banka hesabı için gerekli belge düzenini belirtin.
-Kambiyo senetleri için müşteri ayarlama
---------------------------------------
+
+## <a name="set-up-customers-for-bills-of-exchange"></a>Kambiyo senetleri için müşteri ayarlama
 
 **Müşteriler** sayfasındaki **Ödeme varsayılanları** sekmesinde, bir kambiyo senedi kullanarak ödeme yapmayı kabul etmiş her müşteri için, kambiyo senetlerine yönelik varsayılan bir ödeme yöntemi ayarlayabilirsiniz.
 

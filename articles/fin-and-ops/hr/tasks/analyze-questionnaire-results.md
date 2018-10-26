@@ -3,26 +3,27 @@ title: "Soru formu sonuçlarını analiz etme"
 description: "Soru formu istatistikleri, ortalamalar, toplamlar ve demografik veri kümesine göre yüzdeler hesaplamak için kullanılabilir."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KMQuestionnaireStatistics, KMQuestionnaireStatisticsLine
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d0bece11b4f78d2e7abc701b8b5b9aa0d76a6a6
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: a70ea145d8c7134a32e8f0fc6980daca9a010bb0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="analyze-questionnaire-results"></a>Soru formu sonuçlarını analiz etme
+# <a name="analyzing-questionnaire-results"></a>Soru formu sonuçlarını analiz etme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

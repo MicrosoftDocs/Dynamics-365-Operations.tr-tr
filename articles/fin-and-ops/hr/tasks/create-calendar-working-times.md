@@ -1,28 +1,29 @@
 --- 
-title: "Takvimler ve çalışma zamanları oluşturma"
+title: "Takvim yaratma ve çalışma zamanları oluşturma"
 description: "Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar."
 author: kherr75
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 9e0b574d83272acf9ccad49e29e80827810b783a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 8a556367857890acdb926ed29518cf2f2f2b92ea
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-calendars-and-generate-working-times"></a>Takvimler ve çalışma zamanları oluşturma
+# <a name="create-calendar-and-generate-working-times"></a>Takvim yaratma ve çalışma zamanları oluşturma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

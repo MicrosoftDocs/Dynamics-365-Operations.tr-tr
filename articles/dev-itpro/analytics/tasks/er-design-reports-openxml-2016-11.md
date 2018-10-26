@@ -1,28 +1,29 @@
 --- 
-title: "Raporları OpenXML biçiminde oluşturmak için ER yapılandırmaları tasarlama"
+title: "ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)"
 description: "Aşağıdaki yordamda, Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının OPENXML biçiminde elektronik ödeme belgeleri oluşturmak için bir şablon içeren, yeni bir Elektronik Raporlama (ER) yapılandırmasını nasıl oluşturabileceği açıklanmıştır."
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b42cfe36c57a9526e585bbad0fcd31ff60b90397
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 3e6b6b16f202af051ccff02051eb438ea49ff6da
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="design-er-configurations-to-generate-reports-in-openxml-format"></a>Raporları OpenXML biçiminde oluşturmak için ER yapılandırmaları tasarlama
+# <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,8 @@ Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaks
 
 
 
-Bu adımları tamamlamak için, öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir. Ayrıca Microsoft Excel dosyasını [Ödeme Raporu Şablonu](https://go.microsoft.com/fwlink/?linkid=862266) indirmeniz ve kaydetmeniz gerekir. 
+Bu adımları tamamlamak için, öncelikle "Bir yapılandırma sağlayıcı oluşturun ve etkin olarak işaretleyin" yordamındaki adımları tamamlamanız gerekir. Ayrıca, şablonu oluştururken, alınacak olan bir Excel dosyası olmalıdır. Bu dosyaya [Ödeme Rapor Şablonu](https://go.microsoft.com/fwlink/?linkid=862266)'ndan erişilebilir.
+
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Ödemeler veri modeli konfigürasyonunu yükleme
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.

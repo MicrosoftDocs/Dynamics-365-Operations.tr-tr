@@ -1,28 +1,29 @@
 --- 
-title: "İşe alma yoluyla adayları istihdam etme"
+title: "İşe alma yoluyla adayı işe alma"
 description: "Bu yordam, bir işverene, belirli bir işe alma projesi aracılığıyla başvuru gönderen bir başvuranı işe almayı sağlar."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: a38592bc309b85052dd3d04c036da8f409fcd96d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9057a3ada63ab91f25475a07266f45acd5088af4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="hire-candidates-through-recruitment"></a>İşe alma yoluyla adayları istihdam etme
+# <a name="hiring-candidate-through-recruiting"></a>İşe alma yoluyla adayı işe alma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

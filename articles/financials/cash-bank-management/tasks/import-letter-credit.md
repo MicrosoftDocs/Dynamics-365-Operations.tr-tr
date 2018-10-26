@@ -1,28 +1,29 @@
 --- 
-title: "Kredi mektubunu içe aktarma"
+title: "İthalat kredi mektubu"
 description: "Bu yordam, bir kredi mektubunun içeri alınması sürecini adım adım anlatır."
 author: kweekley
 manager: AnnBe
-ms.date: 02/26/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 02be2627186a149a05eaccfa3e5906a9fe1d74dd
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c1768494182a79d7a33044498c1e768e61d937d1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="import-a-letter-of-credit"></a>Kredi mektubunu içe aktarma
+# <a name="import-letter-of-credit"></a>İthalat kredi mektubu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -110,7 +111,8 @@ Bu yordam, USMF demo şirketini kullanır.
 1. Nakit ve Banka yönetimi > Kredi mektupları > İthalat Kredi Mektubu ve İthalat Tahsilatı'na tıklayın.
 2. Listede, istenen kaydı bulun ve seçin.
 3. Listede, seçili satırdaki bağlantıya tıklayın.
-    * İthalat kredi mektubunun durumunu onaylayın.  
+    * İthalat kredi mektubunun durumunu onaylayın.    
+    *   
 4. Sayfayı kapatın.
 5. Sayfayı kapatın.
 
