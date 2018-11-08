@@ -29,11 +29,13 @@
               href: get-started/public-preview-releases.md
             - name: Finance and Operations satın alma
               items:
-                - name: Finance and Operations (şirket içi) satın alma
+                - name: Finance and Operations (on-premises) satın alma
                   href: get-started/purchase-on-premises.md
         - name: Yenilikler veya değişenler
           href: get-started/whats-new-changed.md
           items:
+            - name: Bir sürüm hizmet güncelleştirmeleriyle ilgili SSS
+              href: get-started/one-version.md
             - name: Yazılım yaşam döngüsü ilkesi ve bulut sürümleri
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Yazılım yaşam döngüsü ilkesi ve şirket içi sürümler
@@ -46,8 +48,16 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Şirket içi dağıtımlarda uygulanmayan özellikler
               href: get-started/features-not-implemented-on-prem.md
+            - name: Platform update 22 (Kasım 2018)
+              href: get-started/whats-new-platform-update-22.md
+            - name: Finance and Operations sürüm 8.1.2 (Kasım 2018)
+              href: get-started/whats-new-changed-8-1-2.md
+            - name: Finance and Operations sürüm 8.1.1 (Ekim 2018)
+              href: get-started/whats-new-changed-8-1-1.md
             - name: Finance and Operations sürüm 8.1 (Ekim 2018)
               href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 21 (Ekim 2018)
+              href: get-started/whats-new-platform-update-21.md
             - name: Platform update 20 (Eylül 2018)
               href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations sürüm 8.0 (Nisan 2018)
@@ -300,7 +310,7 @@
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: Veri tümleştirme API'ları
           items:
-            - name: Veri yönetimi paketi API'sı
+            - name: Veri yönetimi paketi REST API'sı
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Hizmet uç noktaları
               href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
@@ -309,10 +319,12 @@
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: Özel hizmetler
+            - name: Özel hizmet geliştirme
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
             - name: Yinelenen tümleştirmeler
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
+            - name: Üçüncü taraf yardımcı programları kullanarak hizmetleri test etme
+              href: ../dev-itpro/data-entities/third-party-service-test.md
         - name: Tümleştirme için geliştirme
           items:
             - name: Veri varlıklarını kullanarak veri tümleştirmesi
@@ -324,11 +336,11 @@
                   href: ../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/fin-and-ops/toc.json
                 - name: Şirketler arası mali veri paylaşımını yapılandırma
                   href: ../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/fin-and-ops/toc.json
-                - name: Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma
+                - name: Veri girişini kolaylaştırmak için kayıt şablonları oluşturma
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
-                - name: Yeni kayıt oluşturmak için kayıt şablonu kullanma
+                - name: Kayıt şablonlarını kullanarak kayıtlar oluşturma
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
-            - name: Common Data Service'ı kullanarak veri tümleştirmesi
+            - name: Common Data Service kullanarak veri tümleştirmesi
               href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Aday müşteriden nakde senaryosu yapılandırma
@@ -383,17 +395,23 @@
             - name: Şirketler veya tüzel kişilikler arasında yapılandırma verilerini kopyalama
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Yapılandırma veri paketleri
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Yapılandırma veri paketleri (yalnızca Temmuz 2017 sürümü)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
-            - name: Yapılandırma verisi şablonları
+            - name: Yapılandırma veri şablonları
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
             - name: Varlık üzerindeki değişiklikleri izleme
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: Standart veri varlıkları hakkında bilgileri bulma
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
+            - name: Birden çok çalışma sayfasına sahip veri şablonları
+              href: ../dev-itpro/data-entities/excel-template-multiple.md
+            - name: Varlıklar için değişiklik izlemeyi etkinleştirme
+              href: ../dev-itpro/data-entities/entity-change-track.md
             - name: Yapılandırma anahtarları ve veri varlıkları
               href: ../dev-itpro/data-entities/config-key-entities.md?toc=/fin-and-ops/toc.json
-            - name: Yapılandırma verisi paketleri
+            - name: Yapılandırma veri paketleri
               href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Veri içe ve dışa aktarma işleri
           href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
@@ -402,6 +420,8 @@
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Veri varlıkları için geliştirme
           items:
+            - name: Tasarım ilkeleri ve veri varlıkları için en iyi yöntemler
+              href: ../dev-itpro/dev-tools/design-best-practices.md
             - name: Yeni veri varlıkları oluşturma
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Veri varlığı özellikleri
@@ -424,12 +444,16 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Üçüncü taraf hizmet sınama yardımcı programlarını kullanma
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
+            - name: Mali boyutları gösteren salt okunur varlıklar oluşturma
+              href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/fin-and-ops/toc.json
         - name: Kendi veritabanınızı getirme
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: Veri görevi otomasyonu
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: Veri doğrulama çalışma alanı
+        - name: Veri doğrulama denetim listesi çalışma alanı
           href: ../dev-itpro/user-interface/data-validation-workspace.md
+        - name: Veri yönetimi hata açıklamaları
+          href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Mali yönetim
       href: ../financials/index.md
       items:
@@ -1007,6 +1031,8 @@
                   href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
                 - name: Hesap yapılarını yapılandırma
                   href: ../financials/general-ledger/configure-account-structures.md
+                - name: Çift para birimi
+                  href: ../financials/general-ledger/dual-currency.md
             - name: Günlükler ve genel muhasebe defterleri
               items:
                 - name: Genel günlük işleme
@@ -1049,6 +1075,8 @@
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
                 - name: Bir fiş
                   href: ../financials/general-ledger/one-voucher.md
+                - name: Genel muhasebe hesabı kapatmaları
+                  href: ../financials/general-ledger/ledger-settlements.md
             - name: Dönem sonu kapanışı
               items:
                 - name: Genel muhasebeyi dönem sonunda kapatma
@@ -1799,6 +1827,10 @@
             - name: Vergi altyapısına genel bakış
               href: ../financials/general-ledger/tax-engine.md
               items:
+                - name: Yapılandırmayı içe aktarma
+                  href: ../financials/general-ledger/tax-engine-import-configuration.md
+                - name: Vergi altyapısı uygulanabilirliği
+                  href: ../financials/general-ledger/tax-engine-applicability.md
                 - name: Vergi altyapısı tümleştirmesi
                   href: ../financials/general-ledger/tax-engine-integration.md
                 - name: Vergi altyapısını genişletme
@@ -2100,6 +2132,8 @@
         - name: Polonya
           href: ../financials/localizations/poland.md
           items:
+            - name: Storno muhasebesini etkinleştirme
+              href: ../financials/localizations/emea-pol-red-storno.md
             - name: Satır iskontolarını birim fiyat üzerinden hesaplama
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: Düzeltme notları
@@ -2116,6 +2150,8 @@
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: Satış vergisi raporları
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: Numara serilerini ambara göre ayarlama
+              href: ../financials/localizations/emea-pol-number-sequence-warehouses.md
             - name: Standart denetim dosyası
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: Vergi faizi ve serbest faiz
@@ -2132,32 +2168,60 @@
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Avans sahipleri için günlük işlemler
                   href: ../financials/localizations/rus-advance-holders-daily-operations.md
+                - name: Bütçe denetimiyle avans raporları
+                  href: ../financials/localizations/rus-advance-holders-reports-dailyops.md
+                - name: Avans sahipleri için yabancı para birimini yeniden değerleme
+                  href: ../financials/localizations/rus-advance-adjustment-parameters.md
+                - name: Avans sahibi raporları
+                  href: ../financials/localizations/rus-local-management-reports-primary-forms.md
+            - name: Banka
+              items:
+                - name: Banka hesapları ayarlama
+                  href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+                - name: Ödeme emirlerini ayarlama ve işleme
+                  href: ../financials/localizations/rus-payment-order-settings-processing.md
             - name: Sabit kıymetler
               items:
                 - name: Sabit kıymetleri alma ve işleme koyma
                   href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Sabit kıymet alımlarını kaydetme
+                  href: ../financials/localizations/rus-register-acquisition.md
                 - name: Sabit kıymet alımları için bütçe günlükleri oluşturma ve deftere nakletme
                   href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
                 - name: Sabit kıymet sayımı
                   href: ../financials/localizations/rus-fixed-assets-counting.md
                 - name: Sabit kıymet para birimi yeniden değerlemesi
                   href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Sabit kıymet maliyeti ve amortismanını yeniden değerleme
+                  href: ../financials/localizations/rus-fixed-assets-revaluation.md
                 - name: Kısmi sabit kıymet ayrıştırma (tasfiye)
                   href: ../financials/localizations/rus-fixed-assets-disassembly.md
-            - name: Ödeme emirlerini ayarlama ve işleme
-              href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: 'Kıymetlerin satılması, elden çıkarılması ve silinmesi'
+                  href: ../financials/localizations/rus-sell-dispose-write-off-fixed-assets.md
+                - name: Sabit kıymet yerleşimlerini ve numaralarını ayarlama
+                  href: ../financials/localizations/rus-fixed-assets-locations-numbering.md
+                - name: Amortismanı ayarlama
+                  href: ../financials/localizations/rus-depreciation-setup.md
+                - name: Amortisman yöntemleri
+                  href: ../financials/localizations/rus-depreciation-methods.md
+                - name: Amortisman ekleri
+                  href: ../financials/localizations/rus-bonus-depreciation.md
+                - name: Amortismanı hesaplama
+                  href: ../financials/localizations/rus-depreciation-calculation.md
+            - name: Şirket bölümleri
+              href: ../financials/localizations/rus-company-divisions.md
             - name: Para birimi hareketleri için döviz kurlarını ayarlama
               href: ../financials/localizations/rus-exchange-difference.md
             - name: Genel muhasebe hareketlerini önizleme
               href: ../financials/localizations/rus-ledger-transactions-preview.md
             - name: Yetkili ayarlama
               href: ../financials/localizations/rus-officials.md
-            - name: Banka hesapları ayarlama
-              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
             - name: Vergi temsilcileri için katma değer vergisi (KDV)
               href: ../financials/localizations/rus-tax-agent.md
             - name: Kapatmalar için boyut denetimi ayarlama
               href: ../financials/localizations/rus-transactions-settlement-date.md
+            - name: Ödenecek faturalar
+              href: ../financials/localizations/rus-invoice-payment.md
         - name: Suudi Arabistan
           href: ../financials/localizations/saudi-arabia.md
           items:

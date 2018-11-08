@@ -257,6 +257,10 @@
               href: extensibility/extensibility-changes-804.md
             - name: Genişletilebilirlik değişiklikleri sürüm 8.1
               href: extensibility/extensibility-changes-81.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.2
+              href: extensibility/extensibility-changes-812.md
         - name: Temel bilgiler
           items:
             - name: Kullanışsız özelleştirmeler
@@ -303,8 +307,6 @@
               href: extensibility/change-caption-form.md
             - name: Form denetim özelliklerini değiştirme
               href: extensibility/modify-control-properties.md
-            - name: Etiket uzantı dosyaları kullanarak etiketleri değiştirme
-              href: extensibility/change-label.md
             - name: Numara serilerinin kapsamını genişletme
               href: extensibility/extend-number-sequence-scope.md
             - name: Yeni stok boyutları ekleme
@@ -317,6 +319,8 @@
               href: extensibility/maps-as-interfaces.md
             - name: Sürüm oluşturma için kullanılan tablo eşlemelerini genişletme
               href: extensibility/maps-with-versioning.md
+            - name: Seçili veri türleri için ondalık virgülü hassasiyetini genişletme
+              href: extensibility/decimal-point-precision.md
         - name: Genişletilebilir çözümler oluşturma
           items:
             - name: Genişletilebilir kod yazma
@@ -534,7 +538,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: Denetim genişletilebilirliği
       items:
-        - name: aextensible denetimler oluşturma
+        - name: Genişletilebilir denetimler oluşturma
           href: user-interface/build-extensible-control.md
         - name: Genişletilebilir denetimler için klavye kısayolları
           href: user-interface/keyboard-shortcuts-controls.md
@@ -764,148 +768,12 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: ValueMetadata türü
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: Veri tümleştirme
+- name: Genel Veri Koruma Yönetmeliği (GDPR)
+  href: gdpr/gdpr-guide.md
   items:
-    - name: Bir veri tümleştirme (içe aktarma/dışa aktarma) stratejisi seçme
-      href: data-entities/integration-overview.md
-    - name: Veri tümleştirme API'ları
-      items:
-        - name: Veri yönetimi paketi REST API'sı
-          href: data-entities/data-management-api.md
-        - name: Hizmet uç noktaları
-          href: data-entities/services-home-page.md
-          items:
-            - name: Hizmet kimlik doğrulamasıyla ilgili sorun giderme
-              href: data-entities/troubleshoot-service-authentication.md
-        - name: OData
-          href: data-entities/odata.md
-        - name: Özel hizmet geliştirme
-          href: data-entities/custom-services.md
-        - name: Yinelenen tümleştirmeler
-          href: data-entities/recurring-integrations.md
-        - name: Üçüncü taraf yardımcı programları kullanarak hizmetleri test etme
-          href: data-entities/third-party-service-test.md
-    - name: Tümleştirme için geliştirme
-      items:
-        - name: Veri varlıklarını kullanarak veri yönetimi ve tümleştirme
-          href: data-entities/data-management-integration-data-entity.md
-          items:
-            - name: Veri geçişi için varlıklar geliştirme
-              href: data-entities/develop-entity-for-data-migration.md
-            - name: Bileşik veri varlıkları geliştirme
-              href: data-entities/develop-composite-data-entities.md
-            - name: Şirketler arası mali veri paylaşımını yapılandırma
-              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: Veri girişini kolaylaştırmak için bir kayıt şablonları oluşturma
-              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: Kayıt şablonlarını kullanarak kayıtlar oluşturma
-              href: data-entities/tasks/use-record-template-new-record.md
-        - name: Common Data Service kullanarak veri tümleştirmesi
-          href: data-entities/data-integration-cds.md
-          items:
-            - name: Aday müşteriden nakde senaryosu yapılandırma
-              href: ../supply-chain/sales-marketing/prospect-to-cash.md
-              items:
-                - name: Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
-                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                - name: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
-                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
-                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
-                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                - name: Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
-                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                - name: Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
-                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-            - name: Field Service ile tümleştirmeyi yapılandırma
-              href: ../supply-chain/sales-marketing/field-service.md
-              items:
-                - name: Finance and Operations'taki ürünleri Field Service'daki ürünlerle eşitleme
-                  href: ../supply-chain/sales-marketing/field-service-product.md
-                - name: Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
-                  href: ../supply-chain/sales-marketing/field-service-work-order.md
-                - name: Field Service'daki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme
-                  href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Project Service Automation tümleştirmesi yapılandırma
-              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
-              items:
-                - name: Project Service Automation tümleştirmesi parametreleri
-                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
-                - name: Proje sözleşmeleri ile projeleri eşitleme
-                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
-                - name: Proje görevlerini eşitleme
-                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
-                - name: Proje gider kategorilerini eşitleme
-                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
-                - name: Proje tahminleri için proje tahminleriyle eşitleme
-                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
-                - name: Proje gerçek değerlerini proje tümleştirme günlüğüyle eşitleme
-                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
-        - name: Harici web hizmetleri kullanma
-          href: data-entities/consume-external-web-service.md
-- name: Veri yönetimi
-  href: data-entities/data-entities-data-packages.md
-  items:
-    - name: Veri varlıkları
-      href: data-entities/data-entities.md
-      items:
-        - name: Yapılandırma verisi projeleri
-          href: data-entities/configuration-data-projects.md
-        - name: Yapılandırma verisi paketleri
-          href: data-entities/configuration-data-packages.md
-        - name: Şirketler arasında yapılandırma verilerini kopyalama
-          href: data-entities/copy-configuration.md
-        - name: Yapılandırma verisi şablonları
-          href: data-entities/configuration-data-templates.md
-        - name: Birden çok çalışma sayfasına sahip veri şablonları
-          href: data-entities/excel-template-multiple.md
-        - name: Varlıklar için değişiklik izlemeyi etkinleştirme
-          href: data-entities/entity-change-track.md
-        - name: Yapılandırma anahtarları ve veri varlıkları
-          href: data-entities/config-key-entities.md
-        - name: Standart veri varlıkları hakkında bilgileri bulma
-          href: data-entities/data-entities-report.md
-    - name: Veri içe ve dışa aktarma işleri
-      href: data-entities/data-import-export-job.md
-      items:
-        - name: Genel günlük varlığını kullanarak fişleri içe aktarmaya yönelik en iyi uygulamalar
-          href: data-entities/tips-tricks-import-general-journal-entity.md
-    - name: Veri varlıkları için geliştirme
-      items:
-        - name: Tasarım ilkeleri ve veri varlıkları için en iyi yöntemler
-          href: dev-tools/design-best-practices.md
-        - name: Yeni veri varlıkları oluşturma
-          href: data-entities/build-consuming-data-entities.md
-        - name: Davranışsal veri varlığı özellikleri
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: Hesaplanan sütunlar ve sanal alanlar oluşturma
-          href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: Şirketler arası davranış
-          href: data-entities/cross-company-behavior.md
-        - name: Ülke/bölge kodları ve yapılandırma anahtarları
-          href: data-entities/countryregion-codes-configuration-keys.md
-        - name: Devralma modelleri
-          href: data-entities/support-super-type-sub-type.md
-        - name: Veri varlığı sihirbazı kuralları
-          href: data-entities/data-entity-wizard-rules.md
-        - name: Mera veri özellikleri
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: 'Doğrulamalar, varsayılan değerler ve eşlenmemiş alanlar'
-          href: data-entities/validations-defaults-unmapped-fields.md
-        - name: Güvenlik ve veri varlıkları
-          href: data-entities/security-data-entities.md
-        - name: Mali boyutları gösteren salt okunur varlıklar oluşturma
-          href: financial/read-only-entity-financial.md
-    - name: Kendi veritabanınızı getirme
-      href: analytics/export-entities-to-your-own-database.md
-    - name: Veri görevi otomasyonu
-      href: data-entities/data-task-automation.md
     - name: GDPR veri isteklerine yanıt vermek için kaynaklar
       href: gdpr/gdpr-home-page.md
       items:
-        - name: Finance and Operations için GDPR kılavuzu
-          href: gdpr/gdpr-guide.md
         - name: Kıymet sınıflandırmaları
           href: gdpr/gdpr-asset-classification-values.md
         - name: Kişi arama raporu
@@ -920,10 +788,6 @@
           href: gdpr/gdpr-ax2012.md
         - name: LCS için GDPR veri istekleri
           href: gdpr/gdpr-lcs.md
-    - name: Veri doğrulama denetim listesi çalışma alanı
-      href: user-interface/data-validation-workspace.md
-    - name: Veri yönetimi hata açıklamaları
-      href: data-entities/dm-error-descriptions.md
 - name: Sürekli teslimat
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1039,10 +903,12 @@
         - name: Şirket içi ortamları ayarlama ve dağıtma
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: Platform update 12'de şirket içi ortamlar dağıtma
+            - name: Şirket içi ortamları dağıtma (Platform update 12 ve sonrası)
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: Platform update 8 ve 11'de şirket içi ortamlar dağıtma
+            - name: Şirket içi ortamları dağıtma (Platform update 8 ve 11)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: Şirket içi ortama Perakende kanalı bileşenleri yükleme adımları
+              href: deployment/deploy-retail-onprem.md
         - name: Özel modeller geliştirme ve şirket içi ortamlara dağıtma
           href: deployment/develop-deploy-custom-models-on-premises.md
         - name: Şirket içi ortamlar için ters proxy'ler yapılandırma
@@ -1161,9 +1027,11 @@
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Geliştirme araçlarını güncelleştirme
           href: dev-tools/update-development-tools.md
+        - name: En son güncelleştirmeye karşı derleme kodu planlama ve hazırlama
+          href: migration-upgrade/compile-considerations.md
     - name: En son güncelleştirmeye yükseltme (şirket içi)
       items:
-        - name: Şirket içi dağıtımlara güncelleştirmeler uygulama
+        - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
           href: deployment/apply-updates-on-premises.md
         - name: Şirket içi dağıtımı yeniden dağıtma
           href: deployment/redeploy-on-prem.md
@@ -1219,13 +1087,19 @@
           href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
         - name: Kullanıcıları güvenlik rollerine atama
           href: sysadmin/tasks/assign-users-security-roles.md
-    - name: Toplu işleme
+    - name: Toplu iş işleme
       href: sysadmin/batch-processing-overview.md
       items:
-        - name: Toplu işleme ve toplu iş sunucuları
+        - name: Toplu iş işleme ve toplu iş sunucuları
           href: sysadmin/batch-server-overview.md
         - name: Toplu işler oluşturma
           href: sysadmin/tasks/create-batch-job.md
+        - name: Toplu işi kopyalama
+          href: sysadmin/copy-batch-job.md
+        - name: Etkin toplu iş dönemleri
+          href: sysadmin/activeperiod.md
+        - name: Toplu iş yöneticisi güvenlik rolü
+          href: sysadmin/runby.md
     - name: En iyi duruma getirme danışmanı
       href: sysadmin/optimization-advisor-overview.md
       items:
