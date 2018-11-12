@@ -25,6 +25,7 @@ ms.lasthandoff: 09/24/2018
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Serbest metin faturası kullanarak sabit kıymeti elden çıkarma
 
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedür, serbest metin faturası kullanarak bir sabit kıymetin nasıl elden çıkarılacağını gösterir.
 
