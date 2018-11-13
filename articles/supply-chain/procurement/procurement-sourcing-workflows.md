@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 06ab745d9df9b095b861cf7bc79aba6d1361eeb0
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: d25ca64fb6a3fa7d7898ec68568703f3de7b1595
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 11/13/2018
 
 ---
 
@@ -50,11 +50,12 @@ ms.lasthandoff: 08/07/2018
 | <span data-ttu-id="585cc-128">Satıcı uygulama ekleme iş akışı</span><span class="sxs-lookup"><span data-stu-id="585cc-128">Vendor add application workflow</span></span>  | <span data-ttu-id="585cc-129">Satıcı talepleri aracılığıyla yeni satıcılar eklemek için gözden geçirme ve onay iş akışları oluşturun.</span><span class="sxs-lookup"><span data-stu-id="585cc-129">Create review and approval workflows for adding new vendors via vendor requests.</span></span> |
 
 ## <a name="creating-a-workflow"></a><span data-ttu-id="585cc-130">İş akışı oluşturma</span><span class="sxs-lookup"><span data-stu-id="585cc-130">Creating a workflow</span></span>
+
 <span data-ttu-id="585cc-131">Bir iş akışı oluşturmak için, Tedarik ve kaynak atama &gt; Kurulum &gt; Tedarik ve kaynak atama iş akışları menüsüne gidin ve oluşturmak istediğiniz iş akışı türünü seçerek yeni bir iş akışı oluşturun.</span><span class="sxs-lookup"><span data-stu-id="585cc-131">To create a workflow, go to Procurement and sourcing &gt; Setup &gt; Procurement and sourcing workflows and create a new workflow by selecting the type of workflow you want to create.</span></span>  
 
 <span data-ttu-id="585cc-132">İş akışı tuvallerinde, iş akışı öğelerini tasarımcıya sürükleyebilir ve öğeleri bir akışa bağlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="585cc-132">In the workflow canvas you can drag workflow elements into the designer and link the elements into a flow.</span></span> <span data-ttu-id="585cc-133">İş akışı öğeleri yapılandırılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="585cc-133">The workflow elements should be configured.</span></span> <span data-ttu-id="585cc-134">Onay ve görev iş akışı öğeleri için hangi katılımcının eylemi gerçekleştirmesi gerektiğini yapılandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="585cc-134">For approval and task workflow elements you can configure which participant should take action.</span></span>
-<span data-ttu-id="585cc-135"> Katılımcı türleri</span><span class="sxs-lookup"><span data-stu-id="585cc-135">Types of participants</span></span>
-----------------------
+
+## <a name="types-of-participants"></a><span data-ttu-id="585cc-135"> Katılımcı türleri</span><span class="sxs-lookup"><span data-stu-id="585cc-135">Types of participants</span></span>
 
 <span data-ttu-id="585cc-136">Aşağıdaki katımcı gruplarına bir onay adımı atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="585cc-136">You can assign an approval step to the following groups of participants.</span></span>
 
@@ -68,13 +69,12 @@ ms.lasthandoff: 08/07/2018
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="585cc-149">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="585cc-149">Additional resources</span></span>
---------
+## <a name="additional-resources"></a><span data-ttu-id="585cc-149">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="585cc-149">Additional resources</span></span>
 
-[<span data-ttu-id="585cc-150">Satınalma talepleri için iş süreci iş akışları tanımlama</span><span class="sxs-lookup"><span data-stu-id="585cc-150">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [<span data-ttu-id="585cc-150">Satınalma talepleri için iş süreci iş akışları tanımlama</span><span class="sxs-lookup"><span data-stu-id="585cc-150">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[<span data-ttu-id="585cc-151">Satınalma talebi iş akışı</span><span class="sxs-lookup"><span data-stu-id="585cc-151">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
+- [<span data-ttu-id="585cc-151">Satınalma talebi iş akışı</span><span class="sxs-lookup"><span data-stu-id="585cc-151">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
 
-[<span data-ttu-id="585cc-152">Satıcıları işe alma</span><span class="sxs-lookup"><span data-stu-id="585cc-152">Onboarding vendors</span></span>](vendor-onboarding.md)
+- [<span data-ttu-id="585cc-152">Satıcıları işe alma</span><span class="sxs-lookup"><span data-stu-id="585cc-152">Onboarding vendors</span></span>](vendor-onboarding.md)
 
 
