@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
+ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
@@ -192,7 +192,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Formu bir favori olarak ekle/çıkart (odak gezinti bölmesindeki bir formdadır)   | Shift+F                    |
 | Standart Eylem Bölmesine taşıma                                              | Alt+M,A veya Ctrl+F6         |
 | Filtre bölmesi taşı (açmayı içerebilir)                        | Alt+M,F veya Ctrl+F3         |
-| Odağı sayfa içeriğine taşı (odak gezinme listesindeyken)            | Alt+M,M veya Ctrl+F3         |
+| Odağı sayfa içeriğine taşı (odak Filtre bölmesindeyken)                | Alt+M,M veya Ctrl+F3         |
 | Ayrıntılar formunda gezinti listesine taşı (açmayı içerebilir)    | Alt+M,S veya Ctrl+F8         |
 | Odağı sayfa içeriğine taşı (odak gezinme listesindeyken)            | Alt+M,M veya Ctrl+F8         |
 | Ayrıntılar formunda gezinme listesini kapatma (odak gezinme listesindeyken) | Esc                        |

@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 53740f6ed0d463de5ba962f1ba15b208634a0739
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 45033b8b015d468b7ee0f6c3fba5e6fb6201433e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/01/2018
 
 ## <a name="view-settlements"></a>Kapatmaları görüntüle
 
-Eylem Bölmesindeki **Kapatmaları görüntüle** düğmesi, kapatma geçmişine hızlı erişim ve tüm kapatma hareketi hakkında daha fazla bilgi sağlar. Ayrıca seçili hareketle ilgili diğer hareketleri de aynı kapatmanın parçası oldukları veya aynı ödeme günlüğünde oluşturulan ödemeler oldukları için gösterebilirsiniz.
+Eylem Bölmesindeki **Kapatmaları görüntüle** düğmesi, kapatma geçmişine hızlı erişim ve kapatma hareketi hakkında daha fazla bilgi sağlar. Ayrıca seçili hareketle ilgili diğer hareketleri de aynı kapatmanın parçası oldukları veya aynı ödeme günlüğünde oluşturulan ödemeler oldukları için gösterebilirsiniz.
 
 1. **Borç hesapları \> Tüm satıcılar**'ı seçin.
 2. Hareketleri olan bir satıcı seçin ve ardından Eylem Bölmesinde, **Satıcı** sekmesinde **Hareketler** seçeneğini belirleyin.
@@ -49,7 +49,7 @@ Eylem Bölmesindeki **Kapatmaları görüntüle** düğmesi, kapatma geçmişine
 
 ## <a name="global-transactions"></a>Genel hareketler
 
-**Genel hareketler** düğmesi satıcıya eklendi. Bu düğme, bir satıcı için tüm tüzel kişiliklerdeki tüm işlemleri görmenizi sağlar. **Satıcı hareketleri** listesi sayfası, yalnızca kullanıcının erişimi olan tüzel varlıklardaki işlemleri, onun güvenlik ayarlarına dayalı olarak gösterir.
+**Genel hareketler** düğmesi **Satıcı hareketleri** liste sayfasında da görünür. Bu düğme, bir satıcı için tüm tüzel kişiliklerdeki tüm işlemleri görmenizi sağlar. **Satıcı hareketleri** listesi sayfası, yalnızca kullanıcının erişimi olan tüzel varlıklardaki işlemleri, onun güvenlik ayarlarına dayalı olarak gösterir.
 
 Liste sayfası, başlatmış olduğunuz satıcıyla aynı taraf kimliğine sahip satıcı için tüm hareketleri gösterir. Örneğin, bir tüzel varlıktaki satıcı US-001, başka bir tüzel varlıktaki satıcı DE-001 ile aynı taraf kimliğine sahipse, her iki satıcı kimliği için olan hareketler de gösterilir.
 
@@ -67,13 +67,13 @@ Açık hareketleri gösterme filtresi, daha fazla hareket kombinasyonu görünt�
 - **Tümü** - Seçilen satıcılar için tüm hareketleri göster (açık ve kapalı).
 - **Kapalı** – Yalnızca tam olarak kapatılmış ve kapatılan hareketleri göster.
 - **Açık** – Yalnızca tam olarak kapatılmamış göster.
-- **Şu tarihten itibaren açık** - Yalnızca belirttiğiniz tarih itibariyle tümüyle kapatılmamış olan hareketleri göster. Bu seçeneği seçtiğinizde, filtrenin yanında gösterilen tarihi değiştirebilirsiniz. Sizin belirttiğinizden daha sonra bir **Son kapatma tarihi** değeri olan hareketler için listede gösterilir, bu hareketler şu anki tarihte tümüyle kapatılmış olsalar bile. Bununla birlikte, bakiyeler seçili tarih itibariyle değil, geçerli tarih itibarıyla bakiyeleri temsil eder.
+- **Kapanış veya sonrası dahil açık** – Yalnızca belirttiğiniz tarihte veya daha sonra tam olarak kapatılmış hareketleri gösterir. Bu seçeneği seçtiğinizde, filtrenin yanında gösterilen tarihi değiştirebilirsiniz. Sizin belirttiğinizde tarihte veya daha sonra bir **Son kapatma tarihi** değeri olan hareketler için listede gösterilir, bu hareketler şu anki tarihte tümüyle kapatılmış olsalar bile. Bununla birlikte, bakiyeler seçili tarih itibariyle değil, geçerli tarih itibarıyla bakiyeleri temsil eder.
 
-Ayrıca, para birimi dönüştürme işlemleri gizlemenizi sağlar filtre eklendi. **Para birimi yeniden değerlendirmelerini gizle** onay kutusunu işaretlemeniz yeterlidir.
+Para birimi dönüştürme işlemleri gizlemek için **Para birimi yeniden değerlemelerini gizle** onay kutusunu seçin.
 
-## <a name="more-easily-modify-due-dates-and-discount-dates"></a>Son tarihleri ve iskonto tarihlerini daha kolay değiştirin
+## <a name="modify-due-dates-and-discount-dates"></a>Son tarihleri ve iskonto tarihlerini değiştirin
 
-Açık müşteri hareketleri için son tarihleri ve iskonto tarihlerini güncelleştirebilirsiniz. Sürüm 8.1'de, deneyim geliştirilmiştir. Şimdi, **Satıcı hareketleri** liste sayfasına son tarihleri ekleyebilirsiniz. **Satıcı hareketleri** liste sayfasındaki son tarihler üzerine tıklayarak **Son tarih ve nakit iskonto tarihlerini güncelleştir**  iletişim kutusundaki son tarihleri, indirim tarihlerini, ödeme koşullarını ve nakit indirimleri değiştirebilirsiniz.
+Açık müşteri hareketleri için son tarihleri ve iskonto tarihlerini güncelleştirebilirsiniz. 8.1 sürümünde artık **Satıcı hareketleri** liste sayfasına son tarihleri ekleyebilirsiniz. **Satıcı hareketleri** liste sayfasındaki son tarihler üzerine tıklayarak **Son tarih ve nakit iskonto tarihlerini güncelleştir**  iletişim kutusundaki son tarihleri, indirim tarihlerini, ödeme koşullarını ve nakit indirimleri değiştirebilirsiniz.
 
 ### <a name="activate-the-feature"></a>Özelliği etkinleştirme
 
@@ -83,7 +83,7 @@ Açık müşteri hareketleri için son tarihleri ve iskonto tarihlerini güncell
 2. **Kapatmalar** sekmesinde, **Son tarihi göster ve düzenlemeye izin ver** seçeneğini **Evet** olarak ayarlayın.
 3. Bu özelliği etkinleştirmek için yeni alanlar satıcı hareketlere eklenmiş olabilir. Bu alanlar, yeni bir hareket tamamlandığında doldurulacaktır. Bunlar ayrıca **Son tarih ve nakit iskonto tarihlerini güncelleştir** iletişim kutusunu açtığınızda da doldurulacaktır. **Son tarihi göster ve düzenlemeye izin ver** seçeneğini **Evet** olarak ayarladığınızda, **Ödeme bilgisini güncelleştir** iletişim kutusunu göreceksiniz.  Varolan hareketlerden hemen güncelleştirmek için **Varolan tüm hareketleri güncelleştir**'i seçin. Alternatif olarak, yalnızca yeni hareketler için alanları doldurmak **Güncelleştirme olmadan devam et**'i seçin.
 
-Son tarih şimdi **Satıcı hareketleri** liste sayfasına eklendi ve son tarih ve nakit iskontosu tarihlerini hareketler için daha kolayca değiştirebilirsiniz.
+Son tarih şimdi **Satıcı hareketleri** liste sayfasına eklendi, böylece son tarih ve nakit iskontosu tarihlerini hareketler için kolayca değiştirebilirsiniz.
 
 ### <a name="modify-the-payment-settings"></a>Ödeme ayarlarını değiştirme
 
@@ -91,11 +91,11 @@ Son tarih şimdi **Satıcı hareketleri** liste sayfasına eklendi ve son tarih 
 
 Her alan, düzenlediğinizde hareket üzerinde farklı bir etkiye sahiptir:
 
-- **Taban tarihi düzenle** Son tarih ve iskonto tarihleri, taban tarih belge tarihiymiş gibi değiştirilir.
-- **Son tarihi düzenle** Yalnızca son tarih değiştirilir
-- **İskonto tarihlerini değiştir** Yalnızca iskonto tarihleri değiştirilir.
-- **Ödeme koşullarını düzenle** Son tarih değiştirilir, taban tarihe ve ödeme koşullarına dayanarak.
-- **Nakit iskonto şartlarını düzenle:** Nakit iskontolar, taban tarih ve nakit iskontosu koşullarına dayanarak değiştirilir.
+- **Taban tarihi düzenle** - Son tarih ve iskonto tarihleri, taban tarih belge tarihiymiş gibi değiştirilir.
+- **Son tarihi düzenle** - Yalnızca son tarih değiştirilir
+- **İskonto tarihlerini değiştir** - Yalnızca iskonto tarihleri değiştirilir.
+- **Ödeme koşullarını düzenle** - Son tarih değiştirilir, taban tarihe ve ödeme koşullarına dayanarak.
+- **Nakit iskonto şartlarını düzenle:** - Nakit iskontolar, taban tarih ve nakit iskontosu koşullarına dayanarak değiştirilir.
 
 Ödeme ayarları düzenlemeyi bitirdiğinizde, **Kapat**'ı seçerek yaptığınız değişiklikleri kaydedin.
 

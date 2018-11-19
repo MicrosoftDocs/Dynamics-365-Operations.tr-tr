@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: eb99f169ada2a227ebe8e64ee56bbb38cdfda4e0
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -48,7 +48,8 @@ Bu konu önizleme özelliklerini bir yöneticinin nasıl etkinleştirebileceğin
 1. Microsoft Dynamics 365 for Talent: Attract'ta oturum açın.
 2. Sağ üst köşedeki **Kurulum** menüsünden (çark simgesi) **Yönetici ayarları**'nı seçin.
 3. **Özellik yönetimi** sekmesinde **Önizleme özellikleri** yanındaki seçeneği seçin. Seçildiğinde mavi renge dönecektir.
-4. Yeni özellikleri görmek için tarayıcınızı yenileyin. (Zaten oturum açmış kullanıcılar özellikleri daha sonra yeniden oturum açtıklarında görürler veya özellikleri hemen görmek için tarayıcıyı yenileyebilirler.)
+4. Bu sayfadaki bazı özellikleri etkinleştirip/devre dışı bırakarak ayrı ayrı özellikleri isteğe bağlı olarak kontrol edebilirsiniz.
+5. Yeni özellikleri görmek için tarayıcınızı yenileyin. (Zaten oturum açmış kullanıcılar özellikleri daha sonra yeniden oturum açtıklarında görürler veya özellikleri hemen görmek için tarayıcıyı yenileyebilirler.)
 
 #### <a name="core-hr"></a>Temel İK
 
@@ -61,12 +62,11 @@ Bu konu önizleme özelliklerini bir yöneticinin nasıl etkinleştirebileceğin
 
 ## <a name="features-that-are-currently-in-preview"></a>Şu anda önizlemede olan özellikler
 
-### <a name="attract"></a>Attract
+### <a name="attract"></a>İlgi çek
 
-- **İş şablonları** – Artık işe alım süreci şablonları oluşturabilirsiniz. Kullanıcılar belirli bir proje için işe alma sürecini zaten özelleştirebiliyordu. Ancak, şimdi süreç için şablonlar oluşturabilir ve belirli bir iş oluşturulduğunda uygun şablonu seçebilirsiniz. Bu nedenle, bu özellik iş kurulumu sürecini kolaylaştırmaya yardımcı olur.
-- **Kariyer sitesi** – Kariyer sitesinin geçerli sürümü yalnızca tüm açık işleri listeler. Bununla birlikte, gelecekte siteye daha fazla özellik eklenecektir. İşler dahili veya harici olarak işaretlenebilir. Sitede oturum açan dahili kullanıcılar hem dahili hem de harici işleri görür. Ancak, dahili olmayan veya oturum açmamış olan kullanıcılar yalnızca harici işleri görebilir.
-- **İş ilanı** – Artık işleri kariyer sitesinde yayınlayabilirsiniz.
-- **LinkedIn iş ilanı** – Artık işleri LinkedIn'de yayınlayabilirsiniz.
+- **Bir İşteki İlgili Adaylar** – İşe alanlar ve işe alma müdürleri, tüm başvuranların arasından hangi adayın işe en uygun olduğunu kolayca görebilir. İlk 5 başvuran gösterilir; özgeçmiş/profillerinin iş açıklamasına ilgisine bağlı olarak.
+- **İlgili İşler** – Adaylar artık özgeçmiş/profilleri ve iş tanımlarına dayalı olarak ilgili diğer işlerin bir listesini görebilir.  Şu anda bu, başka fırsatları yönelik bir önerilere başvurduklarında adaylara gösterilir.
+- **EEO/OFCCP Desteği** – Yeni aktivite türleri, adaydan Eşit Çalışma Fırsatı (EEO) ve Federal Sözleşme Ofsi Uyumluluk Programı (OFCCP) verilerini toplaması için önceden tanımlanmış bir form kullanımını etkinleştirin.  Bu önceden tanımlı bir formdur ve düzenlenemez.
 
     > [!NOTE]
     > Yayınlanan işler yalnızca bir veya daha fazla LinkedIn iş listeme ürününe abone olan müşteriler tarafından görülebilir. Aksi takdirde, müşteriler yalnızca özellikle aradıkları bir işi görebilirler. İşler LinkedIn'de yayınlandığında bir gecikme olur. Bir işin Attract'tan yayınladıktan sonra görünür olması birkaç saat alabilir.

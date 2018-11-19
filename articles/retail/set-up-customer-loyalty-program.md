@@ -1,9 +1,9 @@
 ---
-title: "Müşteri bağlılık programları kurma"
-description: "Bu makalede bir bağlılık programının nasıl oluşturulacağı açıklamaktadır. Bağlılık programları, müşterileri perakende mağazalarınızdan ürün satın aldığı için ödüllendirerek müşteri bağlılığını artırmanıza yardımcı olabilir. Microsoft Dynamics 365 for Retail'de, herhangi bir perakende kanalındaki tüzel kişiliklerinize uygulanan basit veya karmaşık bağlılık programları ayarlayabilirsiniz."
+title: "Bağlılık programına genel bakış"
+description: "Bu konu, Microsoft Dynamics 365 for Retail'daki bağlılık özelliklerini ve satıcının bağlılık programına kolayca başlamasına yardımcı olmak için karşılık gelen kurulum adımlarını açıklar."
 author: scott-tucker
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,23 +20,20 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8aa29282f80870b93d119c095bb95c3bcfbfc682
+ms.sourcegitcommit: 11ad4168c7e5ddc63608d1c86430e4a6936d5e30
+ms.openlocfilehash: 78318849873f396c662c5250f0e86146279cc3a5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/26/2018
 
 ---
 
-# <a name="set-up-customer-loyalty-programs"></a>Müşteri bağlılık programları kurma
+# <a name="loyalty-overview"></a>Bağlılık programına genel bakış
 
 [!include [banner](includes/banner.md)]
 
-Bu makalede bir bağlılık programının nasıl oluşturulacağı açıklamaktadır. Bağlılık programları, müşterileri perakende mağazalarınızdan ürün satın aldığı için ödüllendirerek müşteri bağlılığını artırmanıza yardımcı olabilir. Microsoft Dynamics 365 for Retail'de, herhangi bir perakende kanalındaki tüzel kişiliklerinize uygulanan basit veya karmaşık bağlılık programları ayarlayabilirsiniz.
+Bağlılık programları, müşterileri Retailer markasıyla etkileşimleri için ödüllendirerek müşteri bağlılığını artırmanıza yardımcı olabilir. Microsoft Dynamics 365 for Retail'de, herhangi bir perakende kanalındaki tüzel kişiliklerinize uygulanan basit veya karmaşık bağlılık programları ayarlayabilirsiniz. Bu konu, Microsoft Dynamics 365 for Retail'daki bağlılık özelliklerini ve satıcının bağlılık programına kolayca başlamasına yardımcı olmak için karşılık gelen kurulum adımlarını açıklar.
 
-<a name="loyalty-features"></a>Bağlılık programı özellikleri
-----------------
-
-Aşağıdaki seçenekleri içeren bir bağlılık programı ayarlayabilirsiniz:
+Aşağıdaki seçenekleri içeren bir bağlılık programı ayarlayabilirsiniz.
 
 -   Bağlılık programlarınızda sunduğunuz birden çok ödül türünü ayarlayın ve bağlılık programlarına katılımı izleyin.
 -   Sunduğunuz farklı ödül teşviklerini temsil eden bağlılık programları ayarlayın. Daha sık alışveriş yapan veya mağazalarda daha fazla para harcayan müşterilere daha büyük teşvikler ve ödüller sunmak için bağlılık programı katmanları ekleyin.
@@ -45,7 +42,7 @@ Aşağıdaki seçenekleri içeren bir bağlılık programı ayarlayabilirsiniz:
 -   Bağlılık programı kartlarını el ile ayarlayın ya da bir müşteriyi ödüllendirmek veya ihtiyacını karşılamak için bağlılık ödülleri bakiyesini bir karttan diğerine transfer edin.
 
 ## <a name="setting-up-loyalty-programs"></a>Bağlılık programları ayarlama
-Dynamics 365 for Retail'de bağlılık özelliğini etkinleştirmek için çeşitli bileşenleri ayarlamanız gerekir. Aşağıdaki diyagram, bağlılık bileşenlerini ve birbirleriyle ilişkisini gösterir. ![Bağlılık programı ayarlama işlem akışı](./media/loyaltyprocess.gif)
+Dynamics 365 for Retail'de bağlılık özelliğini etkinleştirmek için çeşitli bileşenleri ayarlamanız gerekir. Aşağıdaki diyagram, bağlılık bileşenlerini ve birbirleriyle ilişkisini gösterir. ![Bağlılık programı kurulum işlem akışı](./media/loyaltyprocess.gif "Bağlılık programı bileşenleri ve birbiriyle nasıl ilişkili olduğu")
 
 ## <a name="loyalty-components"></a>Bağlılık programı bileşenleri
 Aşağıdaki tabloda her bir bileşen ve bağlılık programı ayarlarında nerede kullanıldığı tanımlanmıştır.
@@ -73,8 +70,60 @@ Aşağıdaki tabloda, bağlılık programı yapılandırmaları ile verilerini m
 | Çevrimdışı bağlılık programı hareketlerini işle | Çevrimdışı işlenen hareketlerin bağlılık programı kartlarına dahil edilebilmesi amacıyla bu kartları güncellemek için bu işlemi çalıştırın. Bu işlem yalnızca **Paylaşılan perakende parametreleri** sayfasında **Çevrimdışı kazan** onay kutusu işaretlendiğinde geçerlidir, böylece ödüller çevrimdışıyken kazanılabilir.                                                                                                                                               | Çevrimdışı bağlılık programı hareketlerini işle |
 | Bağlılık programı kartı katmanlarını güncelle            | Müşterinin kazanç etkinliğini bir bağlılık programının katman kurallarına göre değerlendirmek ve müşterinin katman durumunu güncelleştirmek için bu işlemi çalıştırın. Bu işlem yalnızca bağlılık programlarındaki katman kurallarını değiştirmek ve güncel kuralların önceden verilmiş bağlılık programı kartları için geriye dönük olarak geçerli olmasını istiyorsanız gereklidir. Bu işlem, toplu bir şeklinde veya tek tek kartlar için çalıştırılabilir. | Bağlılık programı kartı katmanlarını güncelle            |
 
+## <a name="loyalty-enhancements"></a>Bağlılık programı geliştirmeleri
 
+Retail, Ekim 2018 sürümünün bir parçası olarak yeni bir bağlılık programı işlevine sahiptir. Her yeni geliştirmeler aşağıda açıklanmıştır.
 
+- Önceki sürümlerdeki bağlılık programı planının parçası olarak satıcılar, farklı katmanlardaki müşterilerin ödüllerini ayırmak için katmanlara göre farklı kazanç ve kullanım kuralları oluşturabilirdi. Belirli bir müşteri grubu mevcut katmanların parçası olabilsin ancak yine de farklı bir şekilde ödüllendirilebilsin diye satıcılar artık kazanma ve kullanma kurallarının bir parçası olarak "ilişkileri" dahil edebilir. Bu, ek katmanları oluşturma gereksinimini engeller.
+    
+    > [!NOTE]
+    > Bir bağlılık programı planı içinde kazanç kuralları ilavedir. Örneğin, her ABD doları için altın katman üyesine 10 puan verecek bir kural oluşturursanız ve aynı zamanda her ABD Doları için 5 puan kazanacak "gazi" ilişkisiyle bir kural oluşturursanız altın katman üyesi olan bir gazi, iki satır için de nitelikli olduğundan 1 ABD Doları için 15 puan kazanır. Ancak gazi müşteri altın katmanı üyesi değilse her dolar için 5 puan kazanır. Kanallarda değişiklikleri yansıtmak için **Bağlılık şemalarını işle** ve **1050** (bağlılık programı bilgileri) işlerini çalıştırın.
+    
+    ![İlişki temelli getiri](./media/Affiliation%20based%20earning.png "İlişki temelli getiriler")
 
+- Satıcılar genelde bağlılık programları uygulanmasını istemeyen belirli bir grup müşteri için özel fiyatlara sahiptir. Örneğin, özel fiyatlandırma alan ancak bağlılık puanı almayan toptancı veya personel. Genellikle, "ilişkiler" böyle müşteri gruplarına özel fiyat sağlamak için kullanılır. Müşterilerden belirli bir grubun bağlılık programı puanı kazanmasını sınırlamak için satıcı, bağlılık planının **Dışarıda bırakılan ilişkiler** bölümünde bir veya daha fazla ilişki belirtebilir. Bu şekilde, dışarıda bırakılan ilişkilere ait olan müşteriler bağlılık programı üyeleri olduğunda satın alımları için bağlılık puanı kazanamaz. Kanallarda değişiklikleri yansıtmak için **Bağlılık şemalarını işle** ve **1050** (bağlılık programı bilgileri) işlerini çalıştırın.
 
+    ![Dışarıda bırakılan ilişkiler](./media/Excluded%20affiliations.png "İlişkileri bağlılık puanı kazanma dışında bırak")
+    
+- Satıcılar, kanallarında bağlılık programı kart numaraları oluşturabilir. Ekim 2018 güncelleştirmesi öncesinde, satıcılar fiziksel bağlılık programı kartları kullanabilir veya telefon numarası gibi bazı benzersiz müşteri bilgilerini kullanarak bir bağlılık programı kartı oluşturabilirdi. Perakende mağazalarında bağlılık programı kartlarının otomatik oluşturulmasını etkinleştirmek için mağazayla ilişkilendirilmiş işlev profilinde **Bağlılık programı kart numarası oluştur**'u açın. Çevrimiçi kanallar için satıcılar, müşterilerine bağlılık programı kartları yayınlamak üzere IssueLoyaltyCard API kullanabilir. Satıcılar, bu API'ya bağlılık programı kartı oluşturmak için kullanılacak olan bağlılık programı kart numarası sağlayabilir veya sistem, Dynamics 365 for Retail'da ayarlanan bağlılık programı kart numarası sıralamasını kullanır. Bununla birlikte, numara serisi yoksa ve satıcı API'yı çağırırken bir bağlılık programı kart numarası sağlamazsa bir hata görüntülenir.
+
+![Bağlılık programı kartı oluştur](./media/Generate%20loyalty%20card.png "Otomatik olarak bağlılık programı kart numarası oluştur")
+
+- Kazanılan ve kullanılan bağlılık programı puanları, tam veya kısmi geri ödemelerde aynı miktarın verilmesi veya geri alınması için satış hattındaki her hareket ve satış emri için kaydedilir. Ayrıca, puanların satış satırı düzeyinde görünürlüğü arama merkezi kullanıcılarının, müşterilerin her satır için ne kadar puan kazandığı veya kullandığı sorularını yanıtlayabilme becerisi sağlar. Bu değişiklikten önce, ödül puanları iadelerde her zaman yeniden hesaplanırdı; bu da kazanma veya kullanma kuralları değiştirilirse orijinalden farklı bir tutara neden olurdu ve arama merkezi kullanıcıları puan dağılımını göremezdi. Puanlar her bağlılık programı kartı için **Kart hareketleri** formu altında görülür.
+    
+- Satıcılar, artık her ödül puanı için hakediş ödeme dönemini tanımlayabilir. Hakediş ödeme dönemi yapılandırması, kazanma tarihinden sonra, ödül puanları müşteriler için kullanılabilir olduktan sonra süreyi tanımlar. Hak kazanılmamış puanlar **Bağlılık programı kartları** sayfasındaki **Hak kazanılmamış puanlar** sütununda görünebilir. Ayrıca, satıcılar bağlılık programı kartı başına maksimum bağlılık programı ödül puanı sınırı tanımlayabilir. Bu alan, bağlılık programı dolandırıcılığı etkisini azaltmak için kullanılabilir. Maksimum ödül puanına ulaşıldığında, kullanıcı daha fazla puan kazanamaz. Satıcı, bu tür krtları olası bir dolandırıcılı için araştırılana kadar engellemeyi seçebilir. Satıcı dolandırıcılık olduğuna karar verirse hem müşterinin bağlılık programı kartını hem de müşteriyi engelleyebilir. Bunu yapmak için **Müşterinin bağlılık programına kaydını engelle** özelliğini **Evet** olarak (**Retail** hızlı sekmesindeki **Tüm müşteriler** altında) ayarlayın. Bloke müşteriler kanalları herhangi birinde bağlılık programı kartı yayınlayamaz.
+
+![Hakediş ödeme ve en fazla ödül puanı](./media/Vesting%20and%20maximum%20reward%20points.png "Hakediş ödeme ve en yüksek ödül puanını tanımla")
+
+- İlişkiler, özel fiyat ve indirimler sağlasa da, satıcıların müşterilerin görmesini istemediği bazı ilişkiler olabilir. Örneğin, "Yüksek harcamalı müşteri" başlıklı bir ilişki bazı müşteriler tarafından hoş karşılanmaz. Ayrıca, mağazada yönetilmemesi gereken bazı ilişkiler de vardır. Örneğin, personeller. Çünkü kasiyerlerin kimin personel olduğuna karar vermesini ve bu nedenle personel temelli indirimler sağlamasını istemezsiniz. Satıcılar şimdi perakende kanallarında gizli olması gereken ilişkiler seçebilir. **Kanallarda gizle** olarak işaretli ilişkiler POS'ta görüntülenemez, eklenemez veya kaldırılamaz. Ancak, ilişkiyle ilgili olan fiyatlandırma ve indirimler hala ürünlere uygulanır.
+
+![İlişkileri gizle](./media/Hide%20affiliations.png "Kanallardaki ilişkileri gizle")
+    
+- Arama merkezi kullanıcıları artık müşterinin bağlılık programı kartı bilgilerini kullanarak müşteriyi kolayca arayabilir ve müşterinin bağlılık programı kartı ve bağlılık programı kartı hareket sayfalarına **Müşteri Hizmetleri** sayfasından gidebilir. 
+
+![Müşteri hizmetleri](./media/Customer%20service.png "Müşteri için bağlılık programı bilgisi bul")
+    
+- Bağlılık programı kartı güvenliği aşılırsa, yeni bir kart üretilmesi gerekir ve yeni kartına varolan puanlar aktarılır. Yeni kart akışı bu sürümde basitleştirilmiştir. Ayrıca, müşteriler bazı bağlılık programı puanlarını arkadaşlarına ve ailesine hediye edebilir. Puan aktarıldığında her bağlılık programı kartı için puan düzeltme girişleri oluşturulur. Yedek kart ve bakiye aktarma işlevine **Bağlılık programı kartları** sayfasından erişilebilir.
+
+![Değiştir ve puanları aktar](./media/Replace%20and%20transfer%20points.png "Bağlılık programı kartını değiştir veya bakiyeyi aktar")
+    
+- Satıcılar, müşterileri bağlılık programına kaydetmek için belirli bir kanalın etkisini yakalamak isteyebilir. Bağlılık programı kartlarının kayıt kaynağı artık kaydedilir, böylece satıcılar bu veriler üzerinde raporları çalıştırabilir. Kayıtlar kaynağı, MPOS/CPOS veya e-ticaret kanallarından yayınlanan tüm bağlılık programı kartları için otomatik olarak yakalanır. Arka ofis uygulamasından yayınlanan bağlılık programı kartları için arama merkezi kullanıcısı uygun kanal seçebilir.
+
+- Önceki sürümlerde, satıcılar müşterilerin bir mağazada bağlılık programı puanlarını kullanabilmesi için MPOS/CPOS kullanırdı. Ancak o sürümlerde, bağlılık programı bakiyesi bağlılık programı puanları olarak gösterildiğinden kasiyer, geçerli harekete uygulanacak para birimi değerinde miktarı görüntüleyemiyordu. Kasiyerin, bağlılık programı puanlarına göre ödeme yapmadan önce puanları para birimine dönüştürmesi gerekirdi. Mevcut sürümde, harekete satırları eklendikten sonra kasiyer, bağlılık programı puanlarının geçerli hareketi karşılayıp karşılamadığını görebilir; bu da hareketi bazı veya tüm bağlılık programı puanlarını uygulamayı kolaylaştırır. Ayrıca, kasiyer sonraki 30 gün içinde süresi dolacak puanları görebilir, böylece o harekette süresi dolacak puanların kullanılması adına müşteriyi motive ederek fazla satış veya çapraz satış yapabilir.
+
+![Bağlılık programı bakiyesi puanları](./media/Points%20covered%20by%20loyalty%20balance.png "Bağlılık programı puanları bakiyesini göster")
+
+![Tarihi geçmek üzere olan puanlar](./media/Expiring%20points.png "Tarihi geçmek üzere olan puanları görüntüleyin")
+    
+## <a name="upcoming-enhancements"></a>Gelecekteki geliştirmeler
+
+Aşağıdaki özellikler, Dynamics 365 for Retail'in gelecek aylık güncelleştirmelerinde kullanılabilir olacaktır.
+    
+- Müşteriler, tüketiciye yönelik kanallarda bağlılık programı bakiye ayrıntılarını görüntüleme olanağı istiyor. Benzer şekilde, kasiyerlerin müşterinin hızlı bir şekilde sorguları yanıtlamak için MPOS/CPOS'daki müşterinin bağlılık programı puanları geçmişini görüntülemesi önemlidir. Gelecekteki bir aylık sürümde, müşteriler ve kasiyerler bağlılık programı geçmişi ile ilgili ayrıntıları görebilir.
+
+- Birçok satıcı, yalnızca satış hareketlerine bağlı olarak bağlılık programı puanları ödülü verebilir ancak daha müşteri merkezli satıcılar, müşterilerin markasıyla olan her etkileşimini ödüllendirmek ister. Örneğin, çevrimiçi bir anket doldurma, mağaza ziyareti, Facebook'ta satıcıları beğenle, satıcı hakkında Twitter'a yazma vb. için ödül vermek ister. Daha sonra, herhangi bir müşteri aktivitesi için bağlılık programı puanı verebilmenizi sağlayan bir özellik ekleyeceğiz. Bunu yapmak için satıcı "Diğer faaliyet türü"nü ve bu etkinlikler için kazanç kurallarını tanımlayabilir. Gerekli bağlılık programı puanlarını ödül olarak vermek için kazanç kuralını kullanacak olan bir aktivite tanımlandığıda çağrılabilecek Retail Sunucu API'sini kullanıma sunacağız.
+
+- Gerçek çok kanallı perakende deneyimi için müşterilerin, tüm kanallarda bağlılık programı puanları kazanma ve kullanmasına olanak sağlayacağız. 
+
+- Ücretsiz veya indirimli sevkiyat, müşterilerin çevrimiçi satın alması için son derece motive edici temel faktörlerden biridir. Satıcıların sevkiyat promosyonları oluşturması için; satıcının eşikler belirlemesini ve eşikler aşıldığında müşterilerin ücretsiz veya indirimli sevkiyat hizmeti alabileceği yeni bir promosyon türü sunacağız.
 

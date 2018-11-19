@@ -3,7 +3,7 @@ title: "Otomatik navlun mutabakatını ayarlama"
 description: "Bu yordam, otomatik navlun mutabakatı için verilerin nasıl ayarlanacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
+ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
+ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/17/2018
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Otomatik navlun mutabakatını ayarlama
@@ -36,9 +36,9 @@ Bu yordam, otomatik navlun mutabakatı için verilerin nasıl ayarlanacağını 
     * Navlun fatura kodu, navlun faturalarının ve taşıyıcı faturalarının nasıl eşleştirilmesi gerektiğini tanımlar.  
 2. Yeni'ye tıklayın.
 3. Navlun faturası türü alanına bir değer yazın.
-4. Altyapı derlemesi alanına "Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer" yazın.
+4. Altyapı grubu alanına "Microsoft.Dynamics.Ax.Tms.dll" yazın.
     * Bu, altyapı kodu kitaplığını eşleştiren standart Taşıma yönetimidir.  
-5. Altyapı sınıfı alanına "Microsoft.Dynamics.Ax.Tms.dll" yazın.
+5. Altyapı sınıfı alanına "Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer" yazın.
     * Bu, altyapı sınıfını eşleştiren standart Taşıma yönetimidir.  
 6. Yeni'ye tıklayın.
 7. Açıklama alanında, navlun faturası ve taşıyıcı faturasında eşleşmesi gereken değeri seçin.  

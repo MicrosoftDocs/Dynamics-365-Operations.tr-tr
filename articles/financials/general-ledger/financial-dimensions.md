@@ -3,7 +3,7 @@ title: Mali boyutlar
 description: "Bu konu, çeşitli mali boyut türlerini ve nasıl ayarlandıklarını açıklar."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 10/26/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
+ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
+ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -51,9 +51,9 @@ Kısıtlamaların bazıları şunlardır:
 
 ## <a name="custom-dimensions"></a>Özel boyutlar
 
-Kullanıcı tanımlı bir mali boyut oluşturmak için, **Kullan değerin kaynağı** alanından, **&lt;&nbsp;Özel boyut'u seçin&nbsp;&gt;**.
+Kullanıcı tanımlı bir mali boyut oluşturmak için, **Kullan değerin kaynağı** alanından, **Özel boyut**'u seçin.
 
-Boyut değerleri için girilebilecek bilgi miktarını ve türünü sınırlamak üzere bir hesap maskesi de belirtebilirsiniz. Harf veya tire (-) gibi her boyut değeri için aynı kalan karakter girebilirsiniz. Bir boyut değeri her oluşturulduğunda değişen karakterler için yer tutucular olan sayı işaretleri (\#) ve 've' işaretleri (&) de girebilirsiniz. Bir sayının yer tutucusu olarak sayı işareti (\#) ve bir harfin yer tutucusu olarak ve işareti (&) kullanın. Biçim maskesi için alan, yalnızca **&lt;&nbsp;Özel boyut&nbsp;&gt;**'u, **Kullanılan değerlerin kaynağı** alanından seçerseniz kullanılabilir.
+Boyut değerleri için girilebilecek bilgi miktarını ve türünü sınırlamak üzere bir hesap maskesi de belirtebilirsiniz. Harf veya tire (-) gibi her boyut değeri için aynı kalan karakter girebilirsiniz. Bir boyut değeri her oluşturulduğunda değişen karakterler için yer tutucular olan sayı işaretleri (\#) ve 've' işaretleri (&) de girebilirsiniz. Bir sayının yer tutucusu olarak sayı işareti (\#) ve bir harfin yer tutucusu olarak ve işareti (&) kullanın. Biçim maskesi için alan, yalnızca **Özel boyut**'u, **Kullanılan değerlerin kaynağı** alanından seçerseniz kullanılabilir.
 
 **Örnek**
 
@@ -108,14 +108,30 @@ Boyutlar sayfasında türetilen değerler ayarlayabilirsiniz.
 
 İlk sütundaki boyuttan türetilecek boyut kombinasyonlarını girin. Örneğin, maliyet merkezini, departman ve konumun türetileceği boyut olarak kullanmak için, maliyet merkezine 10, departmana 20 ve konuma 30 girin. Daha sonra, ana kayıtta veya bir hareket sayfasında maliyet merkezine 10 girdiğinizde, departman 20 ve konum 30 varsayıla olarak girilir.
 
-Türetilen boyut işlemi, türetilen boyutlar için mevcut değerleri geçersiz kılmaz. Örneğin, maliyet merkezi 10 girip başka bir boyut girilmediğinde, departman 20 ve konum 30 varsayılan olarak girilir. Bununla birlikte, maliyet merkezini değiştirirseniz, zaten oluşturulmuş değerler değiştirilmez. Bu nedenle, ana kayıtlarda varsayılan boyutlar belirleyebilirsiniz ve bu boyutlar, türetilen boyutlar tarafından değiştirilmez.
+### <a name="overriding-existing-values-with-derived-dimensions"></a>Mevcut değerleri türetilen boyutlarla geçersiz kılma
+ 
+Varsayılan olarak türetilen boyut işlemi, türetilen boyutlar için mevcut değerleri geçersiz kılmaz. Örneğin, maliyet merkezi 10 girip başka bir boyut girilmediğinde, departman 20 ve konum 30 varsayılan olarak girilir. Bununla birlikte, maliyet merkezini değiştirirseniz, zaten oluşturulmuş değerler değiştirilmez. Bu nedenle, ana kayıtlarda varsayılan boyutlar belirleyebilirsiniz ve bu boyutlar, türetilen boyutlar tarafından değiştirilmez.
+
+**Türetilen boyutlar** sayfasında **Mevcut boyut değerlerini türetilen değerlerle değiştir** onay kutusunu seçerek varolan değerleri geçersiz kılmak için türetilmiş boyutlar davranışını değiştirebilisiniz. Bu alan seçilirse, türetilmiş boyut değerlerini içeren boyut girebilirsiniz ve türetilmiş boyut değerleri, önceden varolan değerleri geçersiz kılar. Önceki örneği kullanarak, maliyet merkezi 10 girip başka bir boyut girilmediğinde, departman 20 ve konum 30 varsayılan olarak girilir. Ankcar değerler zaten departman 50 ve konum 60 ise değerler şimdi departman 20 ve konum 30 olarak değiştirilecek.
+ 
+Bu ayarla türetilmiş boyutlar, boyut değerleri varsayılan olduğunda var olan varsayılan boyut değerlerini otomatik olarak değiştirmez. Yalnızca bir sayfada, yeni bir boyut değeri girince ve sayfada bu boyut için mevcut olan türetilmiş değerler varsa boyut değerleri geçersiz kılınır.
+
+### <a name="preventing-changes-with-derived-dimensions"></a>Türetilmiş boyutlarla değişiklikleri engelleme
+ 
+Bir segmenti türetilmiş boyut olarak eklemek için **türetilmiş boyutları sayfasında** **Segment ekle"** yi kullanmdığınızda bir sayfada türetildiğinde o boyuta değişiklik ypamanızı önleyen **Segment ekle** sayfasının altında bir seçenek verilir. Türetilmiş boyut değerlerini değiştirilmesini önlemesi için varsayılan ayarı devre dışıdır. Boyutun türetildikten sonra değişmesini önlemek isterseniz ayarı **Evet** olarak değiştirin. Örneğin, Departman boyut değeri Maliyet merkezi boyut değerinden türetilirse Departman değeri, **Değişiklikleri engelle** ayarı **Evet** olduğunda değiştirilemez. 
+ 
+Boyut değerinin geçerli olduğu halde türetilmiş boyutlar listesinde yoksa ayar, değişikliklere engel olmaz. Örneğin Bölüm 20, türetilen Maliyet merkezi 10'dna türetilirse ve Maliyet merkezi 10 girerseniz Bölüm 20'yi düzenleyemezsiniz. Bununla birlikte, Maliyet merkezi 20 girerseniz ve Maliyet merkezi için türetilen boyutlar listesinde yoksa Departman değeri düzenleyebilirsiniz. 
+ 
+Türetilmiş boyutları değerleri uygulandıktan sonra her zaman tüm boyut değerleri ve hesap değeri yine de hesap yapılarıyla doğrulanacaktır. Türetilmi değerleri kullanırsanız ve bir sayfada kullanıldığında doğrulanmazlarsa harekette kullanabilmeniz için önce türetilmiş boyutlar sayfasındaki türetilmiş boyut değerlerini değiştirmeniz gerekir. 
+ 
+**Mali boyutları** hızlı sekmesinde boyutları değiştirdiğinizde değişiklikleri önlemek için işaretlenmiş boyut düzenlenebilir olmaz. Bir sayfada bölümlenmiş giriş denetime bir hesap ve boyut giriyorsanız, boyutlar düzenlenebilir. Ancak bölümlenmiş giriş denetimi vurgusunu taşır ve başka bir alana taşırsanız ya da eylemde bulunursanız hesap ve boyutlar, uygun değerleri girdiğinizden emin olmak için türetilmiş boyutları listesine ve hesap yapılarına göre doğrulanır. 
 
 ### <a name="derived-dimensions-and-entities"></a>Türetilen boyutlar ve varlıklar
 
 Varlıklar kullanarak türetilen boyut segmentlerini ve değerlerini ayarlayabilirsiniz.
 
 - Türetilen boyutlar varlığı, itici boyutları ve bu boyutlar için kullanılan segmentleri ayarlar.
-- DerivedDimensionValue varlığı, her bir itici boyut için türetilecek değerleri içe aktarmanıza olanak sağlar.
+- Türetilen boyutlar değeri varlığı, her bir itici boyut için türetilecek değerleri içe aktarmanıza olanak sağlar.
 
 Veri içe aktarmak için bir varlık kullanıyorsanız, bu varlık boyutları içe aktarıyorsa, türetilen boyut kuralları içe aktarma sürecinde, varlık özellikle bu boyutları geçersiz kılmıyorsa uygulanır.
 

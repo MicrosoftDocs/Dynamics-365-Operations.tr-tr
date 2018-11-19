@@ -3,14 +3,14 @@ title: "Elektronik raporlamada (ER) formül tasarımcısı"
 description: "Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar."
 author: NickSelin
 manager: AnnBe
-ms.date: 04/04/2018
+ms.date: 10/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
+ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
+ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/23/2018
 
 ---
 
@@ -192,7 +192,7 @@ Finance and Operations veri kaynaklarının yöntemlerinde parametreler varsa, y
 Değerlerin bu yöntem türünün parametrelerine geçiş şeklini sınırlandırabilirsiniz:
 
 - Bu tür yöntemlere yalnızca sabitler geçirilebilir. Sabitlerin değerleri tasarım zamanında tanımlanır.
-- Yalnızca basit (temel) veri türleri bu tür parametreler için desteklenir. (Temel veri türleri şunlardır: tamsayı, gerçek, Boole, dize, vb.).
+- Yalnızca basit (temel) veri türleri bu tür parametreler için desteklenir. (Temel veri türleri şunlardır: tamsayı, gerçek, Boole, dize, vb.)
 
 #### <a name="paths"></a>Yollar
 
@@ -250,6 +250,12 @@ Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kulla
 <td>SPLIT (input, uzunluk)</td>
 <td>Belirtilen giriş dizesini her biri belirli uzunlukta alt dizelere bölün. Sonucu yeni bir liste olarak döndürün.</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> <strong>STRING</strong> alanına sahip iki kaydı içeren yeni bir listeyi döndürür. İlk kayıttaki alan <strong>&quot;abc&quot;</strong> metnini içeriyor ve ikinci kayıttaki alan <strong>&quot;d&quot;</strong> metnini içeriyorsa.</td>
+</tr>
+<tr>
+<td>BÖLME (giriş, ayırıcı)</td>
+<td>Belirtilen giriş dizesini belirli sınırlayıcıya dayanarak alt dizelere bölün.</td>
+<td><strong>BÖL (&quot;XAb aBy&quot;, &quot;aB&quot;)</strong>, <strong>DİZE</strong> alanına sahip üç kaydı içeren yeni bir listeyi döndürür. İlk kayıttaki alan, <strong>&quot;X&quot;</strong> metni, ikinci kayıttaki alan &quot;&nbsp;&quot; metni, üçüncü kayıttaki alan <strong>&quot;y&quot;</strong> metni içerir. Sınırlayıcı boşsa bir kayıt içeren yeni bir liste döner; kayıtta giriş metnini içeren <strong>DİZE</strong> alanı vardır. Giriş boşsa, yeni boş bir liste döner.
+Giriş veya sınırlayıcı (boş) belirtilmezse, bir uygulama özel durum oluşturulur.</td>
 </tr>
 <tr>
 <td>SPLITLIST (list, sayı)</td>
@@ -323,12 +329,12 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <tr>
 <td>ORDERBY (liste [ifade 1, ifade 2,...])</td>
 <td>Belirtilen bağımsız değişkenlere göre sıralandıktan sonra belirtilen listeyi döndürür. Bu bağımsız değişkenler ifadeler olarak tanımlanabilir.</td>
-<td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılsa,<strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong>, satıcıların isme göre sıralanan listesini artan sıraya göre dizilmiş şekilde döndürür.</td>
+<td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılsa,<strong>ORDERBY (Vendors, Vendors.'name()')</strong>, satıcıların isme göre sıralanan listesini artan sıraya göre dizilmiş şekilde döndürür.</td>
 </tr>
 <tr>
 <td>REVERSE (liste)</td>
 <td>Belirtilen listeyi ters sıralama düzeninde döndür.</td>
-<td><strong>Satıcı </strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong>, satıcıların isme göre sıralanan listesini azalan sıraya göre dizilmiş şekilde döndürür.</td>
+<td><strong>Satıcı </strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong>, satıcıların isme göre sıralanan listesini azalan sıraya göre dizilmiş şekilde döndürür.</td>
 </tr>
 <tr>
 <td>WHERE (liste, koşul)</td>
@@ -399,12 +405,13 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 </ul>
 Çalışma zamanında, <strong>Etiket</strong> ve <strong>Açıklama</strong> alanları, biçimin dil ayarlarını ve belirtilen dili temel alan değerler döndürür. <strong>Çevrildi</strong> alanı <strong>Etiket</strong> alanının belirtilen dile çevrilmiş olduğunu belirtir.
 </td>
-<td>Örneğin, <strong>enumType</strong> veri modeli numaralandırması için <strong>enumType_de</strong> ve <strong>enumType_deCH</strong> veri kaynaklarını yapılandırmak üzere <strong>Hesaplanan alan</strong> veri kaynağı türünü kullanırsınız:
+<td>Örneğin, <strong>enumType</strong> veri modeli numaralandırması için <strong>enumType_de</strong> ve <strong>enumType_deCH</strong> veri kaynaklarını yapılandırmak üzere <strong>Hesaplanan alan</strong> veri kaynağı türünü kullanırsınız.
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma değeri etiketiki İsviçre Almancası dilinde almak için aşağıdaki ifadeyi kullanabilirsiniz. İsviçre Almancası çeviri kullanılabilir durumda değilse, etiket Almanca olur: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+<p>Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma değeri etiketiki İsviçre Almancası dilinde almak için aşağıdaki ifadeyi kullanabilirsiniz. İsviçre Almanca çeviri kullanılamıyorsa, Almanca etiketi olur.</p>
+IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 </td>
 </tr>
 <tr>
@@ -432,7 +439,7 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 <tr>
 <td>FİLTRE (liste, koşul)</td>
 <td>Sorgu belirtilen koşula göre filtre uygulayacak şekilde değiştirildikten sonra belirtilen listeyi döndürür. <strong>WHERE</strong> işlevinden farklı olarak bu işlev, belirtilen koşul <strong>Tablo kayıtları</strong> türünün herhangi bir ER veri kaynağına veritabanı düzeyinde uygulanabilir. Liste ve koşul tablolar ve ilişkiler kullanılarak tanımlanabilir.</td>
-<td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong>, yalnızca grup 40'a dahil olan satıcıların listesini döndürür. <strong>Satıcı</strong>, <strong>VendTable</strong> tablosuna başvuran bir ER veri kaynağı olarak yapılandırılırsa ve <strong>parmVendorBankGroup</strong>, <strong>Dize</strong> veri türünde bir değer döndüren ER veri kaynağı olarak yapılandırılırsa, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> yalnızca belirli bir banka grubuna ait satıcı hesaplarının bulunduğu bir liste döndürür.</td>
+<td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong>, yalnızca grup 40'a dahil olan satıcıların listesini döndürür. <strong>Satıcı</strong>, VendTable tablosuna başvuran bir ER veri kaynağı olarak yapılandırılırsa ve <strong>parmVendorBankGroup</strong>, <strong>Dize</strong> veri türünde bir değer döndüren ER veri kaynağı olarak yapılandırılırsa, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> yalnızca belirli bir banka grubuna ait satıcı hesaplarının bulunduğu bir liste döndürür.</td>
 </tr>
 </tbody>
 </table>
@@ -446,12 +453,69 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 | NOT (koşul) | Belirtilen koşulun ters mantıksal değerini döndürür. | **DEĞİL (DOĞRU)**, **YANLIŞ** döndürür. |
 | AND (koşul 1\[, koşul 2, …\]) | *Tüm* belirtilen koşullar doğruysa, **DOĞRU** döndür. Aksi takdirde **YANLIŞ** döndürür. | **VE (1=1, "a"="a")**,**DOĞRU** döndürür. **AND (1=2, "a"="a")** **YANLIŞ** döndürür. |
 | OR (koşul 1\[, koşul 2, …\]) | *Tüm* belirtilen koşullar yanlışsa, **YANLIŞ** döndür. *Herhangi bir* belirtilen koşul doğruysa **DOĞRU** döndür. | **VEYA (1=2, "a"="a")**,**DOĞRU** döndürür. |
+| VALUEIN (giriş listesi, liste öğe ifadesi) | Belirtilen girişin, belirtilen listede belirli bir öğe değerinin eşleşip eşleşmediğini belirler. Belirtilen girdi en az bir kayıt için çalışan belirtilen ifade sonucuyla eşleşiyorsa **DOĞRU** döner. Aksi takdirde **YANLIŞ** döndürür. **Giriş** parametresi bir veri kaynağı öğesinin yolunu gösterir. Bu öğenin değeri eşleşir. **Liste** parametresi, bir ifade içeren kayıtların listesi olarak kayıt listesi türünün bir veri kaynağı öğesinin yolunu gösterir. Bu öğenin değeri belirtilen giriş ile karşılaştırılır. **Liste öğe ifadesi** bağımsız değişkeni işaret eden ya da belirtilen listenin eşleştirmek için kullanılacak tek bir alan içeren bir ifadeyi temsil eder. | Örnek için sonra bölüme [Örnek: VALUEIN (giriş, liste, liste öğesi ifadesi)](#examples-valuein-input-list-list-item-expression) bakın. |
+
+#### <a name="examples-valuein-input-list-list-item-expression"></a>Örnekler: VALUEIN (giriş listesi, liste öğe ifadesi)
+Genel olarak, **VALUEIN** işlevi bir dizi **OR** koşuluna çevrilir:
+
+(input = list.item1.value) OR (input = list.item2.value) OR …
+
+##### <a name="example-1"></a>Örnek 1
+Model eşlemeniz içinde şu veri kaynağını tanımladınız: **Liste** (**Hesaplanan alan** türü). Bu veri kaynağı **SPLIT ("a,b,c", ",")** ifadesini içeriyor.
+
+**VALUEIN ("B", List, List.Value)** ifadesi olarak yapılandırılmış bir veri kaynağı çağrılıysa **TRUE** olarak döner. Bu durumda, **VALUEIN** işlevi aşağıdaki bir dizi koşula çevrilir:
+
+**(("B" = "a") or ("B" = "b") or ("B" = "c"))**, where **("B" = "b")**, şuna eşit: **TRUE**
+
+**VALUEIN ("B", List, LEFT(List.Value, 0))** ifadesi olarak yapılandırılmış bir veri kaynağı çağrılıysa **FALSE** olarak döner. Bu durumda, **VALUEIN** işlevi aşağıdaki koşula çevrilir:
+
+**("B" = "")**, which isn't equal to **TRUE**
+
+Böyle bir koşul metninde karakter sayısı üst sınırının 32.768 karakter olduğuna dikkat edin. Bu nedenle, çalışma zamanında bu sınırı aşan veri kaynakları oluşturmamanız gerekir. Sınır aşılırsa uygulama çalışmayı durdurur ve bir özel durum gönderilir. Örneğin, veri kaynağı **WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)** olarak yapılandırılmışsa ve **List1** ve **List2** listeleri büyük miktarda kayıt içeriyorsa bu durum ortaya çıkabilir.
+
+Bazı durumlarda, **VALUEIN** işlevi **EXISTS JOIN** işleci kullanarak bir veritabanı ifadesi çevrilir. Bu davranış, **FİLTRE** işlevi kullanıldığında ve aşağıdaki koşullar sağlandığında olur:
+
+- **SORGU İSTE** seçeneği kayıtlar listesi anlamına gelen **VALUEIN** işlevinin veri kaynağı için kapatılır. (Hiçbir ek koşul, çalışma zamanında bu veri kaynağına uygulanmaz.)
+- Kayıtlar listesi anlamına gelen **VALUEIN** işlevinin veri kaynağı için hiçbir iç içe ifade yapılandırılmaz.
+- **VALUEIN** işlevinin bir liste öğesi belirtilen veri kaynağının bir alanını belirtilir (bir ifade veya bir yöntem değil).
+
+Bu örnekte daha önce açıklandığı gibi **WHERE** işlevi yerine bu seçeneği kullanmayı düşünün.
+
+##### <a name="example-2"></a>Örnek 2
+
+Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:
+
+- Intrastat tablosuna başvuran **In** (**Tablo kayıtları** türü)
+- IntrastatPort tablosuna başvuran **Port** (**Tablo kayıtları** türü)
+
+**FILTER (In, VALUEIN(In.Port, Port, Port.PortId)** olarak yapılandırılmış bir veri kaynağı çağrıldığında aşağıdaki SQL ifadesi Intrastat tablosunun filtre uygulanan kayıtlarını döndürmek için oluşturulur:
+
+```
+select … from Intrastat
+exists join TableId from IntrastatPort
+where IntrastatPort.PortId = Intrastat.Port
+```
+
+**dataAreaId** alanları için nihai SQL deyimi **IN** işleci kullanılarak oluşturulur.
+
+##### <a name="example-3"></a>Örnek 3
+
+Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:
+
+- **Le** (**Hesaplanan alan** türü), **SPLIT ("DEMF,GBSI,USMF", ",")** ifadesini içerir
+- **In** (**Tablo kayıtları** türü), Intrastat tablosu anlamına gelir ve **Şirketler arası** seçeneği açıktır
+
+**FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)** ifadesi olarak yapılandırılmış bir veri kaynağı çağrıldığında son SQL deyimi aşağıdaki koşulu içerir:
+
+```
+Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
+```
 
 ### <a name="mathematical-functions"></a>Matematik işlevi
 
-| İşlev | Açıklama | Örnek |
+| İşlev | Tanım | Örnek |
 |----------|-------------|---------|
-| ABS (numara) | Belirtilen sayının mutlak değerini döndürür. (Diğer bir deyişle, işareti olmadan sayıyı döndürür). | **ABS (-1)**, **1** döndürür. |
+| ABS (numara) | Belirtilen sayının mutlak değerini döndürür. (Diğer bir deyişle, işareti olmadan sayıyı döndürür.) | **ABS (-1)**, **1** döndürür. |
 | KUVVET (sayı, kuvvet) | Belirtilen pozitif sayının, belirtilen kuvvetine yükseltilmesinin sonucunu döndür. | **KUVVET (10, 2)**, **100** döndürür. |
 | NUMBERVALUE (dize, ondalık ayırıcı, basamak gruplandırma ayırıcı) | Belirtilen dizeyi sayıya dönüştürün. Belirtilen ondalık basamak ayırıcısı ondalık sayısının tam sayısı ile kesirli sayıları arasında kullanılır. Belirtilen basamak gruplandırma ayırıcısı binler basamağı ayırıcısı olarak kullanılır. | **NUMBERVALUE("1 234,56", ",", " ")**, **1234.56** değerini döndürür. |
 | VALUE (dize) | Belirtilen dizeyi sayıya dönüştürün. Virgül ve nokta karakterleri (.) ondalık ayırıcı olarak kabul edilir ve önde gelen bir tire (-), bir eksi işareti olarak kullanılır. Belirtilen dizenin sayısal olmayan karakterler içermesi durumunda bir özel durum oluşturur. | **DEĞER ("1 234,56")** bir istisna oluşturur. |
@@ -539,7 +603,7 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 </tr>
 <tr>
 <td>REPLACE (dize, desen, değiştirme, normal ifade işareti)</td>
-<td>Belirtilen normal ifade bayrağı <strong>doğru</strong> olduğunda, belirtilen dizeyi bu işlev için desen bağımsız değişkeni olarak belirtilen normal ifadeyi uygulayarak değiştirdikten sonra döndürür. Bu ifade, değiştirilmesi gereken karakterleri bulmakta kullanılır. Belirtilen değiştirme bağımsız değişkenindeki karakterler, bulunan karakterleri değiştirmek için kullanılır. Belirtilen normal ifade bayrağı <strong>yanlış</strong> ise, bu işlev <strong>TRANSLATE</strong> gibi davranır.</td>
+<td>Belirtilen <strong>normal ifade bayrağı</strong> parametresi <strong>doğru</strong> olduğunda, belirtilen dizeyi bu işlev için <strong>desen</strong> bağımsız değişkeni olarak belirtilen normal ifadeyi uygulayarak değiştirdikten sonra döndürür. Bu ifade, değiştirilmesi gereken karakterleri bulmakta kullanılır. Belirtilen <strong>değiştirme</strong> bağımsız değişkenindeki karakterler, bulunan karakterleri değiştirmek için kullanılır. Belirtilen <strong>normal ifade bayrağı</strong> parametresi <strong>yanlış</strong> ise, bu işlev <strong>TRANSLATE</strong> gibi davranır.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> üm sayısal olmayan karakterleri kaldıran bir normal ifade uygular ve <strong>&quot;19234564971&quot;</strong> döndürür. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, yanlış)</strong> <strong>&quot;cd&quot;</strong> desenini <strong>&quot;GH&quot;</strong> satırı ile değiştirir ve <strong>&quot;abGHef&quot;</strong> döndürür.</td>
 </tr>
 <tr>
@@ -549,7 +613,7 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 </tr>
 <tr>
 <td>FORMAT (dize 1, dize 2[, dize 3, …])</td>
-<td>Belirtilen dizeyi, tüm <strong>%N</strong> oluşumlarını <em>n</em>'ci bağımsız değişken ile değiştirerek biçimlendirdikten sonra döndürür. Bağımsız değişkenler, dizelerdir. Bir parametre için bir bağımsız değişken sağlanmamışsa, parametre dizede <strong>&quot;%N&quot;</strong> olarak döndürülür. <strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</td>
+<td>Belirtilen dizeyi, tüm <strong>%N</strong> oluşumlarını <em>n</em>'ci bağımsız değişken ile değiştirerek biçimlendirdikten sonra döndürür. Bağımsız değişkenler, dizelerdir. Bir parametre için bir bağımsız değişken sağlanmamışsa, parametre izede <strong>&quot;%N&quot;</strong> olarak döndürülür. <strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</td>
 <td>Aşağıdaki örnekte, <strong>PaymentModel</strong> veri kaynağı müşteri kayıtlarının listesini <strong>Müşteri</strong> bileşeni ve işleme tarihi değerini <strong>ProcessingDate</strong> alanı üzerinden döndürür.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>Seçilen müşteriler için elektronik dosya oluşturmak üzere tasarlanmış ER biçiminde veri kaynağı olarak <strong>PaymentModel</strong> seçilir ve işlem akışını denetler. Seçilmiş bir müşteri raporun işlendiği tarihte durdurulmuşsa, kullanıcıyı bilgilendirmek için bir özel durum oluşturulur. Bu tür bir işleme denetimi için tasarlanmış formül aşağıdaki kaynakları kullanabilir:</p>
@@ -562,7 +626,7 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 <li>Aşağıdaki metne sahip Finance and Operations SYS18389 etiketi:
 <ul>
 <li><strong>TR-TR dili için:</strong> &quot;Müşteri %1, %2 için durduruldu.&quot;</li>
-<li><strong>DE dili için:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
+<li><strong>DE dili için:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Tasarlanabilen formül şudur:</p>
@@ -573,8 +637,8 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE] Aşağıdaki sözdizimi, etiketler için ER formüllerinde kullanılır:
 <ul>
-<li><strong>Finance and Operations kaynaklarından etiketler için:</strong> <strong>@&quot;X&quot;</strong>, burada X Uygulama Nesne Ağacı (AOT) etiket kimliğidir.</li>
-<li><strong>ER yapılandırmaları içinde bulunan etiketler için:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, burada X, ER yapılandırma etiket kimliğidir.</li>
+<li><strong>Finance and Operations kaynaklarından etiketler için:</strong> <strong>@&quot;X&quot;</strong>, burada <strong>X</strong> Uygulama Nesne Ağacı (AOT) etiket kimliğidir.</li>
+<li><strong>ER yapılandırmaları içinde bulunan etiketler için:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, burada <strong>X</strong>, ER yapılandırma etiket kimliğidir.</li>
 </ul>
 </blockquote>
 </td>
@@ -616,7 +680,7 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 </tr>
 <tr>
 <td>GUIDVALUE (giriş)</td>
-<td>Belirtilen <strong>Dize</strong> veri türündeki girişi <strong>GUID</strong> veri türünde bir veri öğesine dönüştürün.</td>
+<td>Belirtilen <strong>Dize</strong> veri türündeki girişi <strong>GUID</strong> veri türünde bir veri öğesine dönüştürün.<blockquote>[!NOTE] Ters yönde dönüştürme yapmak için (diğer bir deyişle, <strong>GUID</strong> veri türünün belirtilen girişini <strong>Dize</strong> veri türünün veri öğesine dönüştürmek için), <strong>TEXT()</strong> işlevini kullanabilirsiniz.</blockquote></td>
 <td>Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:
 <ul>
 <li><strong>GUIDVALUE (&quot;AF5CCDAC-F728-4609-8C8B-A4B30B0C0AA0&quot;)</strong> ifadesini içeren <strong>myID</strong> (<strong>Hesaplanan alan</strong> türü)</li>
@@ -645,11 +709,11 @@ Bu veri kaynakları tanımlandığında, UserInfo tablosunu <strong>GUID</strong
 | İşlev | Tanım | Örnek |
 |----------|-------------|---------|
 | FORMATELEMENTNAME () | Geçerli biçimin öğesinin adını döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında boş bir size döndürür. | Bu işlevlerin kullanımı hakkında daha fazla bilgi edinmek için **ER Sayma ve toplama için çıktı biçiminde verileri kullanma** görev kılavuzuna (**BT hizmeti/çözüm bileşenleri alma/geliştirme** iş sürecinin parçasıdır) başvurun. |
-| SUMIFS (toplamı alınacak temel dize, ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) | Bu biçimi yürütme işlemi sırasında toplanan ve belirtilen koşulları (aralık ve değer çiftleri) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
-| SUMIF (toplama için temel dize, ölçüt aralığı dizesi, ölçüt değeri dizesi) | Bu biçimi yürütme işlemi sırasında toplanan ve belirtilen koşulu (aralık ve değer) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
-| COUNTIFS (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) | Biçimi yürütme işlemi sırasında toplanan ve belirtilen koşulları (aralık ve değer çiftleri) karşılayan XML düğüm sayısını döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
-| COUNTIF (ölçüt aralığı dizesi, ölçüt değeri dizesi) | Biçimi yürütme işlemi sırasında toplanan ve belirtilen koşulu (aralık ve değer) karşılayan XML düğüm sayısını döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
-| COLLECTEDLIST (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) | Biçimi yürütme işlemi sırasında toplanan ve belirtilen koşulları (aralık ve değer) karşılayan XML'in XML düğümleri değer listesini döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında boş liste döndürür. | |
+| SUMIFS (toplamı alınacak temel dize, ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) | Bu biçimi yürütme sırasında toplanan ve belirtilen koşulları (aralık ve değer çiftleri) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
+| SUMIF (toplama için temel dize, ölçüt aralığı dizesi, ölçüt değeri dizesi) | Bu biçimi yürütme sırasında toplanan ve belirtilen koşulu (aralık ve değer) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
+| COUNTIFS (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) | Biçimi yürütme sırasında toplanan ve belirtilen koşulları (aralık ve değer çiftleri) karşılayan XML düğüm sayısını döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
+| COUNTIF (ölçüt aralığı dizesi, ölçüt değeri dizesi) | Biçimi yürütme sırasında toplanan ve belirtilen koşulu (aralık ve değer) karşılayan XML düğüm sayısını döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
+| COLLECTEDLIST (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) | Biçimi yürütme sırasında toplanan ve belirtilen koşulları (aralık ve değer) karşılayan XML düğümleri için toplanmış değerler listesini döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında boş liste döndürür. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Diğer (belirli iş etki alanı) işlevleri
 
@@ -667,6 +731,9 @@ Bu veri kaynakları tanımlandığında, UserInfo tablosunu <strong>GUID</strong
 | FA\_BALANCE (sabit kıymet kodu, değer modeli kodu, raporlama yılı, raporlama tarihi) | Sabit kıymet bakiyesinin hazırlanan veri kapsayıcısını döndürür. Raporlama yılı, Finance and Operations'daki **AssetYear** numaralandırması değeri olarak belirtilmelidir. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** geçerli Finance and Operations oturum tarihinde **"Current"** değer modeline sahip **"COMP-000001"** sabit kıymet bakiyeleri için hazırlanan veri kapsayıcısını döndürür. |
 | TABLENAME2ID (dize) | Belirtilen tablo adı için tablo kodunun tam sayı olarak gösterimini döndürür. | **TABLENAME2ID ("Intrastat")** **1510** döndürür. |
 | ISVALIDCHARACTERISO7064 (dize) | Belirtilen dize, geçerli bir uluslararası banka hesap numarasını (IBAN) temsil ediyorsa, **DOĞRU** boole değerini döndürür. Aksi takdirde, **YANLIŞ** Boole değeri döndürür. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")**, **DOĞRU** döndürür. **ISVALIDCHARACTERISO7064 ("AT61")** **YANLIŞ** döndürür. |
+| NUMSEQVALUE (numara serisi kodu, kapsamı, kapsam kimliği) | Belirtilen numara serisi kodu, kapsamı ve kapsam kimliğine dayalı bir numara serisinin yeni oluşturulan değeri döndürür. Kapsamın **ERExpressionNumberSequenceScopeType** sabit listesi (**paylaşılan**, **Tüzel kişilik**, veya **şirket**) değeri olarak belirtilmesi gerekir. **Paylaşılan** kapsamı için, kapsam kimliği olarak boş bir dize belirtin. **Şirket** ve **Tüzel kişilik** kapsamları için, kapsam kimliği olarak şirket kodu belirtin. **Şirket** ve **Tüzel kişilik** kapsamları için, kapsam kimliği olarak boş bir dize belirtirseniz geçerli şirket kodu kullanılır. | Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:<ul><li>**enumScope** (**Dynamics 365 for Operations numaralandırma** türü), başvuran için **ERExpressionNumberSequenceScopeType** numaralandırmay karşılık gelir</li><li>**NumSeq** (**Hesaplanan alan** türü), **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")** ifadesini içerir</li></ul>**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış **Gene\_1** numara serisinin yeni oluşturulan değeri geri döner. |
+| NUMSEQVALUE (numara sıra kodu) | Bir numara sırasının belirtilen numara sırasına bağlı olarak yeni oluşturulan değeri, **Şirket** kapsamı ve (kapsam kimliği olarak) altında ER biçimi çalışan bağlam sağlayan şirketin kodu döner. | Model eşlemeniz içinde şu veri kaynağını tanımladınız: **NumSeq** (**Hesaplanan alan** türü). Bu veri kaynağı **NUMSEQVALUE ("Gene\_1")** ifadesini içeriyor. **NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış **Gene\_1** numara serisinin yeni oluşturulan değeri geri döner. |
+| NUMSEQVALUE (numara sıra kodu kayıt kimliği) | Belirtilen numara serisi kayıt kimliğine dayalı bir numara serisinin yeni oluşturulan değeri döndürür. | Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:<ul><li>LedgerParameters tablosuna başvuran **LedgerParms** (**Tablo** türü)</li><li>**NumSeq** (**Hesaplanan alan** türü), **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)** ifadesini içerir</li></ul>**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için Genel muhasebe parametrelerinde yapılandırılmış Gene1 numara serisinin yeni oluşturulan değeri geri döner. Bu numara serisi benzersiz biçimde günlükleri tanıtır ve hareketleri birbirine bağlayan toplu iş numarası görevi görür. |
 
 ### <a name="functions-list-extension"></a>Liste uzantı işlevleri
 
@@ -674,7 +741,6 @@ ER, ER ifadelerinde kullanılan işlevlerin listesini genişletmenize olanak sa�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
-
-[Elektronik raporlama (ER) işlev listesini genişletme](general-electronic-reporting-formulas-list-extension.md)
+- [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
+- [Elektronik raporlama (ER) işlev listesini genişletme](general-electronic-reporting-formulas-list-extension.md)
 

@@ -3,7 +3,7 @@ title: "Sales'deki satış teklifi başlıklarını ve satırlarını doğrudan 
 description: "Bu konu, satış teklifi başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Sales'den Microsoft Dynamics 365 for Finance and Operations'a eşitlemek için temel görevleri ve şablonları açıklar."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 97536c27dea113cc3c019473f22d1925e7617f8f
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: efe943f5c874ed041ce7984272ebc19f57cca6ef
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -34,7 +34,13 @@ ms.lasthandoff: 03/26/2018
 Bu konu, satış teklifi başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Sales'den Microsoft Dynamics 365 for Finance and Operations'a eşitlemek için temel görevleri ve şablonları açıklar.
 
 > [!NOTE]
-> Müşteri adayından nakde çözümünü kullanmadan önce [Dynamics 365 Veri tümleştirme](/common-data-service/entity-reference/dynamics-365-integration) hakkında bilgi sahibi olmanız gerekir.
+> Müşteri adayından nakde çözümünü kullanmadan önce [Uygulamalar için Common Data Service'e veri tümleştirme](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmanız gerekir.
+
+## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
+
+Aday müşteriden nakde çözümü Finance and Operations ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri tümleştirme özelliğiyle birlikte kullanılan Müşteri adayından nakde şablonları Finance and Operations ile Sales arasında hesaplar, ürünler, satışlar, satış teklifleri, satış siparişleri ve satış faturaları için veri akışı sağlar. Finance and Operations ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
+
+[![Aday müşteriden nakde çözümünde veri akışı](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Şablon ve görevler
 
