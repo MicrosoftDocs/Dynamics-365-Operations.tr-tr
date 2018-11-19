@@ -27,7 +27,6 @@ ms.lasthandoff: 10/12/2018
 # <a name="ledger-settlements"></a>Genel muhasebe hesabı kapatmaları
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Genel muhasebe kapatmaları, genel muhasebede borç ve alacak hareketlerini eşleştirmenizi ve onları kapatılmış olarak işaretlemenize olanak tanır. Bu şekilde, ilgili hareketlerin temizlenmiş olduğundan emin olabilirsiniz. Yanlışlıkla yapıldıysa kapatmaları geri alabilirsiniz.
 
