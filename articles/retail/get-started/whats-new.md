@@ -3,7 +3,7 @@ title: "Dynamics 365 for Retail'deki yenilikler veya değişiklikler"
 description: "Bu sayfa sizi Microsoft Dynamics 365 for Retail'in son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek kaynaklara yönlendirir."
 author: sericks007
 manager: AnnBe
-ms.date: 08/09/2018
+ms.date: 10/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -17,10 +17,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: fce666a4eba83e6be14a461d00232e4af177ffd7
-ms.openlocfilehash: 05db53b1d1eb7977be4d169d7819fec6f52b9e5d
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 3b5c97d6176b541eb7fa0cd6ee6a5f366343a4f7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -36,17 +36,15 @@ Bu sayfa sizi Microsoft Dynamics 365 for Retail'in son sürümlerindeki yeni öz
 
 |Sürüm | Yapı numarası | Kullanılabilirlik | Daha fazla bilgi edinin |
 |--------|--------------|--------------|------------|
-|Dynamics 365 for Retail 7.3.3 | 7.3.11971.64183 ve **Henüz belirlenmedi** | Temmuz 2018 | [KB 4456699: Sürüm 7.3.3 - Hata Düzeltme Paketi 2*](https://fix.lcs.dynamics.com/Issue/Details?kb=4456699&bugId=235982&qc=e7d86ad6505eb37945b31374adfae2c6133ee737dde2e044a4aa5260c4f8edc1) |
-|Dynamics 365 for Retail 7.3.2.5 | 7.3.11971.63858 - 8.0.35.15211 | 2018 Haziran | [KB 4338874: Sürüm 7.3.2.5 - Hata Düzeltme Paketi 1*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342134&bugId=225730&qc=9b98d165f3d71ea36abe15b7acb33c9d59199e95915f4de9486313d1b02665e3)  |
-|Dynamics 365 for Retail 7.3.2 | 7.3.21971.64040 | Mart 2018 | [KB 4093263: Sürüm 7.3.2*](https://fix.lcs.dynamics.com/Issue/Details?kb=4093263&bugId=3937220&qc=63d57de184b7b2ac5563767292dacaea8621707198b55ea9c5f08b106a4c5132) |
-|Dynamics 365 for Retail 7.3.1 | 7,3,21971,64032 | Mart 2018 | [KB 4092799: Sürüm 7.3.1*](https://fix.lcs.dynamics.com/Issue/Details?kb=4092799&bugId=3936439&qc=b095917f0b114a26af430086cd5dc7eb4d383b6bcf225a62952cacff0f730c06) |
-|Dynamics 365 for Retail 7.3 | 7.3.21971.64028 | Şubat 2018 | |
-|Uygulama güncelleştirmesi 5 | 7.2.21792.64093 | Şubat 2018 | [KB 4089596: Güncelleştirme 5*](https://fix.lcs.dynamics.com/Issue/Details?kb=4089596&bugId=3893142&qc=ee9db96dd13dc341e7019fad3d36d01c6dfc4edf631f752f66d87f2ebbd256f5) |
-|Uygulama güncelleştirmesi 4 | 7.2.21792.64070 | 2017 Ekim | [KB 4052437: Güncelleştirme 4*](https://fix.lcs.dynamics.com/Issue/Details?kb=4052437&bugId=3866274&qc=dfcd40f8c5d0d863cc6ae10fe7dd3fb57450327d4f82f10c57886d579e6d4838) |
-|Uygulama güncelleştirmesi 3 | 7.2.21792.64062 | 2017 Eylül |[KB 4045959: Güncelleştirme 3*](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045959&bugId=3857200&qc=a4c0715ff69d491d63c424f56b124f458ac3ca422e4a74c67d23a58b16050ad1)|
-|Uygulama güncelleştirmesi 2 | 7.2.21792.64041 | 2017 Eylül | [KB 4042241: Güncelleştirme 2*](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4042241&bugId=3850819&qc=578d82fcfe02befb2a2ee4af467bda26af88742548e1bd8291a359ebdb360410)|
-|Uygulama güncelleştirmesi 1 |7.2.21792.64032   | Temmuz 2017|[KB 4037180: Güncelleştirme 1*](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037180&bugId=3848337&qc=578d82fcfe02befb2a2ee4af467bda26af88742548e1bd8291a359ebdb360410)|
-|Dynamics 365 for Retail (Temmuz 2017) | 7.2.21792.64022| 2017 Haziran | [Dynamics 365 for Finance and Operations, Enterprise edition'daki (Temmuz 2017) yenilikler veya değişiklikler](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-application-July-2017-update)'de listelenen Retail özelliklerine bakın. |
+|Dynamics 365 for Finance & Operations - Retail - 7.3.5 | 7,3,11971,64930 | 2018 Eylül | [KB 4464337 Microsoft Dynamics 365 for Finance and Operations - Sürüm 7.3.5, (İkili kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4464337&bugId=244892&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450), [KB 4463127 Microsoft Dynamics 365 for Finance and Operations - Sürüm 7.3.5. (X++ kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4463127&bugId=244893&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450) |
+|Dynamics 365 for Finance & Operations - Retail - 7.3.4 | 7,3,11971,64556   | 2018 Ağustos | [KB 4467783 Microsoft Dynamics 365 for Retail - Sürüm 7.3.5 - Hata Düzeltme Paketi 2\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4467783&bugId=257914&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
+| Dynamics 365 for Finance & Operations - Retail - 7.3.4 | 7,3,11971,64556  | 2018 Ağustos | [KB 4456209 Microsoft Dynamics 365 for Finance and Operations - Sürüm 7.3.4, (İkili kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4456209&bugId=235124&qc=265c05d9f50ea023cf31547ca91e16bb5dffd5adfc819b3232abef9c5419a559), [KB 4456210 Microsoft Dynamics 365 for Finance and Operations - Sürüm 7.3.4. (X++ kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4456210&bugId=235125&qc=265c05d9f50ea023cf31547ca91e16bb5dffd5adfc819b3232abef9c5419a559)
+| Dynamics 365 for Finance & Operations - Retail - 8.0.4 |  8,0,35,15534 |  2018 Ağustos | [KB 4458992 Microsoft Dynamics 365 for Finance and Operations - Sürüm 8.0.4 (İkili kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4458992&bugId=239612&qc=5c131e4cc5a91c0381e923ee0c49791fe71ed37f506c00367caf3a01183125ff), [KB 4458993 Microsoft Dynamics 365 for Finance and Operations - Sürüm 8.0.4 (X++ kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4458993&bugId=239610&qc=5c131e4cc5a91c0381e923ee0c49791fe71ed37f506c00367caf3a01183125ff) |
+| Dynamics 365 for Retail - 7.3.4 | 7,3,21971,64124 | 2018 Ağustos | [KB 4459400 Microsoft Dynamics 365 for Retail - Sürüm 7.3.4 + Hata Düzeltme Paketi 1\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4459400&bugId=240913&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
+| Dynamics 365 for Finance & Operations - Retail - 7.3.3 |  7,3,11971,64183 | Temmuz 2018 | [KB 4342754 Microsoft Dynamics 365 for Finance and Operations - Sürüm 7.3.3, (İkili kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342754&bugId=227181&qc=51e2d61b1c2a29e4f51fed91506f70ddc974fd26842745c6aa7ae0599bd3b6e6), [KB 4342755 Microsoft Dynamics 365 for Finance and Operations - Sürüm 7.3.3. (X++ kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342755&bugId=227182&qc=51e2d61b1c2a29e4f51fed91506f70ddc974fd26842745c6aa7ae0599bd3b6e6) |
+| Dynamics 365 for Finance & Operations - Retail - 7.3.2.5 | 7,3,11971,63858    | 2018 Haziran | [KB 4338874Microsoft Dynamics 365 for Finance and Operations - Sürüm 7.3.2.5. (İkili kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4338874&bugId=215661&qc=3be6aa965366d67b6a50d8884709fae621ca40fe778f2d0d7482ea4b6f4ed8a2), [KB 4338783 Microsoft Dynamics 365 for Finance and Operations - Sürüm 7.3.2.5. (X++ kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4338783&bugId=215543&qc=3be6aa965366d67b6a50d8884709fae621ca40fe778f2d0d7482ea4b6f4ed8a2) |
+| Dynamics 365 for Finance & Operations - Retail - 8.0.2 |  8,0,35,15211    | 2018 Haziran | [KB 4340414 Microsoft Dynamics 365 for Finance and Operations - Sürüm 8.0.2 (İkili kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4340414&bugId=219341&qc=e2713468c8e09c07d63f960acde805dd89f05409b2f44f8d47ba8b4d8d24491b), [KB 4340413 Microsoft Dynamics 365 for Finance and Operations - Sürüm 8.0.2 (X++ kısım)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4340413&bugId=219344&qc=977f9cae5b13b9ed618351108bfb5f02e8d0366a28ed0d99a472d9c9941560a3) |
+| Dynamics 365 for Retail - 7.3.2.5 |   7,3,21971,64091 | 2018 Haziran | [KB 4342134Microsoft Dynamics 365 for Retail - Sürüm 7.3.2.5 - Hata Düzeltme Paketi 1\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342134&bugId=225730&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
 
 \* Bilgi Bankası (KB) makalesine bağlantı noktaları. Bilgi Bankası makalesini görüntülemek için Lifecycle Services'ta (LCS) oturum açmanız gerekir.
 

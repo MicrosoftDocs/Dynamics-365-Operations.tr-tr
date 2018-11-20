@@ -3,7 +3,7 @@ title: "Yeni veya değişenler nedir"
 description: "Bu sayfa Microsoft Dynamics 365 for Finance and Operations'ın son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara sizi yönlendirir."
 author: josaw1
 manager: AnnBe
-ms.date: 08/27/2018
+ms.date: 11/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
-ms.openlocfilehash: 201068db3b1bd27438b16ff3f1f51f8a1eb972c5
+ms.sourcegitcommit: 9b72fe490601d474c54c8bee556719608f4379d3
+ms.openlocfilehash: cd5403a5ab5a4be06b5565528ced30fa0be3cee0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/02/2018
+ms.lasthandoff: 11/03/2018
 
 ---
 
@@ -61,6 +61,18 @@ Bu tablo uygulamanın ana sürümlerini listeler. Aylık bulut güncelleştirmel
 <tbody>
 <tr class="even">
 </tr>
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8,1,2</td>
+<td>8,1,195  </td>
+<td>Kasım 2018</td>
+  <td><a href="whats-new-changed-8-1-2.md">Dynamics 365 for Finance and Operations, 8.1.2 sürümündeki (Kasım 2018) yenilikler ve değiştirilenler</a></td>
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8,1,1</td>
+<td>8,1,170  </td>
+<td>2018 Ekim</td>
+  <td><a href="whats-new-changed-8-1-1.md">Dynamics 365 for Finance and Operations, 8.1.1 sürümündeki (Ekim 2018) yenilikler ve değiştirilenler</a></td>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8,1</td>
@@ -134,10 +146,22 @@ Bu tablo uygulamanın ana sürümlerini listeler. Aylık bulut güncelleştirmel
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Platform güncelleştirmesi 22</td>
+<td>7,0,5095</td>
+<td>2018 Ekim</td>
+<td><a href="whats-new-platform-update-22.md">Dynamics 365 for Finance and Operations platform güncelleştirmesi 22'deki (Kasım 2018) yenilikler ve değiştirilenler</a></td><tbody><tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Platform güncelleştirmesi 21</td>
+<td>7,0,5073</td>
+<td>2018 Ekim</td>
+<td><a href="whats-new-platform-update-21.md">Dynamics 365 for Finance and Operations platform güncelleştirmesi 21'deki (Ekim 2018) yenilikler ve değiştirilenler</a></td><tbody>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Platform güncelleştirmesi 20</td>
 <td>7,0,5030</td>
 <td>2018 Eylül</td>
-<td><a href="whats-new-platform-update-20.md">Dynamics 365 for Finance and Operations platform güncelleştirmesi 20'deki (Eylül 2018) yenilikler ve değiştirilenler</a></td><tbody>
+<td><a href="whats-new-platform-update-20.md">Dynamics 365 for Finance and Operations platform güncelleştirmesi 20'deki (Eylül 2018) yenilikler ve değiştirilenler</a></td>
+<tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
 <td>Platform güncelleştirmesi 15</td>

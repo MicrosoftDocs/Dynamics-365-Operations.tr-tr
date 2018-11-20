@@ -3,7 +3,7 @@ title: "Bir fiş"
 description: "Mali günlükler için Bir fiş (yevmiye fişi, sabit kıymet günlüğü, satıcı ödeme günlüğü vb.), tek bir fiş bağlamında birden fazla yardımcı defter hareketi girmenizi sağlar."
 author: kweekley
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 11/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9f996131830f9bd4efd534143b3fb761c5ccc756
+ms.sourcegitcommit: 26ae31efe55eeaf6d09ef14112811ea8977bfb0a
+ms.openlocfilehash: 62c30ea748c49b0a3cfe544c7ba10eb52389c50a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -30,154 +30,154 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-> [!NOTE]
->  Bu işlev, 2018 yılı bahar aylarında piyasaya sunulacak olan Dynamics 365 for Finance and Operations sürüm 8.0'da kullanılabilir.   
 
-<a name="what-is-one-voucher"></a>"Bir fiş" nedir?
-======================
+## <a name="what-is-one-voucher"></a>"Bir fiş" nedir?
 
-Mali günlükler için (yevmiye fişi, sabit kıymet günlüğü, satıcı ödeme günlüğü vb.) mevcut işlev, tek bir fiş bağlamında birden fazla yardımcı defter hareketi girmenizi sağlar. Bu işlevi "Bir fiş" olarak adlandırıyoruz. Bir fiş'i aşağıdaki yöntemlerden birini kullanarak oluşturabilirsiniz:
+Mali günlükler için (günlük fişi, sabit kıymet günlüğü, satıcı ödeme günlüğü vb.) mevcut işlev, tek bir fiş bağlamında birden fazla yardımcı defter hareketleri (müşteri, satıcı, sabit kıymetler, proje ve banka) girmenizi sağlar. Microsoft, bu işlevi *Bir fiş* olarak adlandırır. Tek bir fişi aşağıdaki yöntemlerden birini kullanarak oluşturabilirsiniz:
 
--   Günlük adını (**Genel muhasebe** \> **Günlük ayarı** \>**Günlük adları**), **Yeni fiş** alanı **Yalnızca bir fiş numarası** olacak şekilde ayarlayın. * Günlüğe eklediğiniz her satır artık aynı fişte yer alır. Her satır aynı fişe eklendiğinden fiş, aynı satırda bir hesap/mahsup hesap veya birleşimi olarak çok satırlı bir fiş şeklinde girilebilir.
+- Günlük adını (**Genel muhasebe** \> **Günlük ayarı** \> **Günlük adları**), **Yeni fiş** alanı **Yalnızca bir fiş numarası** olacak şekilde ayarlayın. Günlüğe eklediğiniz her satır artık aynı fişte yer alır. Bu nedenle fiş, aynı satırda bir hesap/mahsup hesap veya birleşimi olarak çok satırlı bir fiş şeklinde girilebilir.
 
-[![Tek satır](./media/same-line.png)](./media/same-line.png)
- 
-> [!IMPORTANT] 
-> *  'Bir fiş' tanımının yalnızca **Bir fiş numarası** olarak ayarlanan günlük adlarını İÇERMEDİĞİNİ ve kullanıcının yalnızca Genel muhasebe türlerini içeren bir fiş girdiğini unutmayın.  Bu belgede 'Bir fiş' birden çok satıcı, müşteri, banka, sabit kıymet veya proje içeren bir fiş olduğu anlamına gelir. 
+    [![Tek satır](./media/same-line.png)](./media/same-line.png)
 
--   Mahsup hesabın olmadığı çok satırlı bir fiş girin.
+    > [!IMPORTANT]
+    > Bir fiş tanımının **yalnızca Bir fiş numarası** olarak ayarlanan günlük adlarını **içermediğini** ve kullanıcının yalnızca Genel muhasebe türlerini içeren bir fiş girdiğini unutmayın. Bu konuda Bir fiş, birden çok satıcı, müşteri, banka, sabit kıymet veya proje içeren bir fiş olduğu anlamına gelir.
 
-[![Çok satırlı fiş](./media/Multi-line.png)](./media/Multi-line.png)
+- Mahsup hesabın olmadığı çok satırlı bir fiş girin.
 
--   Hesabın ve mahsup hesabın satıcı/satıcı, Müşteri/müşteri, satıcı/müşteri veya banka/banka gibi bir yardımcı defter hesap türü içerdiği bir fiş girin.
+    [![Çok satırlı fiş](./media/Multi-line.png)](./media/Multi-line.png)
 
-[![Yardımcı defter fişi](./media/subledger.png)](./media/subledger.png)
+- Hesabın ve mahsup hesabın **Satıcı**/**Satıcı**, **Müşteri**/**müşteri**, **Satıcı**/**Müşteri** veya **Banka**/**Banka** gibi bir yardımcı defter hesap türü içerdiği bir fiş girin.
 
-<a name="issues-with-one-voucher"></a>Bir fiş ile ilgili sorunlar
-=======================
+    [![Yardımcı defter fişi](./media/subledger.png)](./media/subledger.png)
 
-Bir fiş işlevi; hesap kapatma, vergi hesaplaması, yardımcı defterin genel muhasebeye mutabakatı, mali raporlama ve daha fazlası sırasında sorunlara neden olur. (Örneğin, hesap kapatma sırasında meydana gelen sorunlar hakkında daha fazla bilgi için bkz. [Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Düzgün bir şekilde çalışmak ve raporlamak için bu işlemler ve raporlar, hareket ayrıntıları gerektirir. Bazı senaryolar, kuruluşunuzun kurulumuna bağlı olarak yine de düzgün çalışmaya devam etse de; bir fişte birden çok hareket girildiğinde çoğunlukla sorunlar oluşur.
+## <a name="issues-with-one-voucher"></a>Bir fiş ile ilgili sorunlar
+
+Bir fiş işlevi; hesap kapatma, vergi hesaplaması, hareketi geri alma, yardımcı defterin genel muhasebeye mutabakatı, mali raporlama ve daha fazlası sırasında sorunlara neden olur. (Hesap kapatma sırasında meydana gelen sorunlar hakkında daha fazla bilgi için bkz., örneğin [Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Düzgün bir şekilde çalışmak ve raporlamak için bu işlemler ve raporlar, hareket ayrıntıları gerektirir. Bazı senaryolar, kuruluşunuzun kurulumuna bağlı olarak yine de düzgün çalışmaya devam etse de; bir fişte birden çok hareket girildiğinde çoğunlukla sorunlar oluşur.
 
 Örneğin, aşağıdaki fişi deftere naklettiğinizi düşünelim.
 
 [![Örnek](./media/example.png)](./media/example.png)
 
-Daha sonra **Mali Bilgiler** çalışma alanında, **Satıcıya göre giderler** raporunu oluşturursunuz. Rapor, gider hesap bakiyelerini satıcı grubu ve ardından satıcı altında gruplar. Rapor oluşturulurken, sistem 250,00 tutarındaki giderin hangi satıcı grupları/satıcılar tarafından tahakkuk edildiğini belirleyemez. Hareket ayrıntıları eksik olduğundan sistem, 250,00 tutarının tamamının fişte bulunan ilk satıcı tarafından tahakkuk edildiğini varsayar. 600120 numaralı ana hesap bakiyesine dahil olan 250,00 tutarı, o satıcı grubu/satıcı altında gösterilir. Fişteki ilk satıcı, çok yüksek olasılıkla doğru satıcı olmayacağından rapor yanlıştır.
+Daha sonra **Mali Bilgiler** çalışma alanında, **Satıcıya göre giderler** raporunu oluşturursunuz. Bu raporda, gider hesap bakiyelerini satıcı grubu ve ardından satıcı altında gruplar. Rapor oluşturulurken, sistem 250,00 tutarındaki giderin hangi satıcı grupları/satıcılar tarafından tahakkuk edildiğini belirleyemez. Hareket ayrıntıları eksik olduğundan sistem, 250,00 harcamanın tamamının fişte bulunan ilk satıcı tarafından tahakkuk edildiğini varsayar. Bu nedenle, 600120 numaralı ana hesap bakiyesine dahil olan 250,00 harcama, o satıcı grubu/satıcı altında gösterilir. Ancak, fişteki ilk satıcı çok yüksek olasılıkla doğru satıcı değildir. Bu nedenle, rapor büyük olasılıkla hatalıdır.
 
 [![Gider](./media/expenses.png)](./media/expenses.png)
 
-<a name="the-future-of-one-voucher"></a>Bir fiş'in geleceği
-=========================
+## <a name="the-future-of-one-voucher"></a>Bir fiş'in geleceği
 
-Daha önce belirtilen sorunlar nedeniyle, Bir fiş işlevselliği geçersiz duruma getirilecektir. Ancak bu işleve bağlı olan işlevsel boşluklar olduğundan, işlev aynı anda tamamen geçersiz olmayacaktır. Bunun yerine, aşağıdaki planı kullanacağız: 
+Daha önce belirtilen sorunlar nedeniyle, Bir fiş işlevselliği geçersiz duruma getirilecektir. Ancak bu işleve bağlı olan işlevsel boşluklar olduğundan, işlev aynı anda tamamen geçersiz olmayacaktır. Bunun yerine, aşağıdaki planı kullanacağız:
 
-- **2018 İlkbahar sürümü**: İşlev, Genel muhasebe parametresi aracılığıyla kapatılacaktır. Ancak kuruluşunuzun, bu konunun ilerleyen bölümlerinde listelenen iş senaryosu boşluklarına denk gelen bir senaryosu varsa işlevi açabilirsiniz.
+- **Bahar 2018 sürümü** – Varsayılan olarak, işlev varsayılan olarak **Genel muhasebe parametreleri** sayfasındaki **Genel** sekmesinde bulunan **Tek bir fiş içinde birden fazla harekete izin ver** aracılığıyla kapatılır. Ancak kuruluşunuzun, bu konunun ilerleyen bölümlerinde listelenen işlevsel boşluklardan birine denk gelen bir senaryosu varsa işlevi açabilirsiniz.
 
-  -   Bir fiş gerektirmeyen bir iş senaryonuz varsa işlevi açmayın. Başka bir çözüm varken bu işlev kullanılırsa bu konunun ilerleyen bölümlerinde tanımlanan alanlardaki "hataları" düzeltmeyeceğiz.
+    - Müşterilerin Bir fiş gerektirmeyen bir iş senaryosu varsa işlevi açmamalıdır. Microsoft, başka bir çözüm varken bu işlev kullanılırsa bu konunun ilerleyen bölümlerinde tanımlanan alanlardaki "hataları" düzeltmez.
+    - İşlevsel boşluklardan biri için gerekli olmadıkça Microsoft Dynamics 365 for Finance and Operations tümleştirmelerinde Bir fiş'i kullanmayı bırakın.
 
-  -   İşlevsel boşluklardan biri için gerekli olmadıkça Microsoft Dynamics 365 Finance and Operations tümleştirmelerinde Bir fiş'i kullanmayı bırakın.
+- **Sonraki sürümler**: Tüm işlevsel boşluklar doldurulacaktır. **İşlevsel boşluklar doldurulduğunda ve yeni özellikler sunulduğunda, Bir fiş işlevi kalıcı olarak kapatılmadan önce en az bir yıl geçer**, çünkü müşteriler ve bağımsız yazılım satıcıları (ISV'ler), yeni işleve tepki vermek üzere yeterli zamana ihtiyacı olur. Örneğin, kendi iş süreçleri, varlık ve tümleştirmeleri güncelleştirmesi gerekebilir.
 
-- **2018 Sonbahar ve sonraki sürümler**: İşlevsel boşluklar doldurulacaktır. İşlevsel boşluklar doldurulduktan sonra Bir fiş işlevi kalıcı olarak kapatılacaktır.
+> [!IMPORTANT]
+> **Yalnızca bir fiş numarası** seçeneğinin Günlük adı kurulumundan **kaldırılmamış** olduğunu unutmayın. Bu seçenek, fiş yalnızca genel muhasebe hesap türlerini içerdiğinde hala desteklenmektedir. Müşterilerin bu ayarı kullanırken dikkatli olması gerekir çünkü fiş **Yalnızca tek fiş numarası** seçeneğini kullanıp ardından birden fazla müşteri, satıcı, banka, sabit kıymet veya proje girmeleri durumunda deftere nakledilmez. Ayrıca, müşteriler **Satıcı**/**Banka** hesap türlerini içeren tek bir fiş içindeki bir ödeme gibi yardımcı defter hesap türlerinin bir karışımını da girebilir.
 
-- > [!IMPORTANT]
-  > Lütfen **Yalnızca bir fiş numarası** seçeneğinin Günlük adı kurulumundan KALDIRILMAMIŞ olduğunu unutmayın.  Bu seçenek, fiş yalnızca Genel muhasebe hesap türlerini içerdiğinde hala desteklenmektedir.  Müşterilerin bu ayarı kullanırken dikkatli olması gerekir çünkü fiş **Yalnızca tek fiş numarası** kullanıp ardından birden fazla müşteri, satıcı, banka, sabit kıymet veya proje girmeleri durumunda deftere nakledilmez.  Ayrıca, müşteriler Satıcı/Banka hesap türlerini içeren tek bir fiş içindeki bir ödeme gibi yardımcı defter hesap türlerinin bir karışımını da girebilir.  
+## <a name="why-use-one-voucher"></a>Bir fiş neden kullanılır?
 
-<a name="why-use-one-voucher"></a>Bir fiş neden kullanılır?
-====================
+Microsoft, müşterilerle yapılan görüşmelere dayanarak, müşterilerin Bir fiş işlevini kullandıkları senaryoları veya neden kullandıklarını gösteren aşağıdaki senaryo listesini derledi. Bu iş gereksinimlerinden bazıları yalnızca Bir fiş kullanılarak karşılanabilir. Ancak birçok senaryo için alternatifler de aynı iş gereksinimlerini karşılayabilir.
 
-Müşterilerle yapılan görüşmelere dayanarak, müşterilerin Bir fiş işlevini kullandıkları senaryoları veya neden kullandıklarını gösteren aşağıdaki senaryo listesini derledik. Bu iş gereksinimlerinden bazıları yalnızca Bir fiş kullanılarak karşılanabilir. Ancak birçok senaryo için alternatifler de aynı iş gereksinimlerini karşılayabilir.
+### <a name="scenarios-that-require-one-voucher"></a>Bir fiş gerektiren senaryolar
 
-<a name="scenarios-that-require-one-voucher"></a>Bir fiş gerektiren senaryolar
-----------------------------------
+Aşağıdaki senaryolar yalnızca Bir fiş işlevi kullanılarak gerçekleştirilebilir. Kuruluşunuzda bu senaryolardan herhangi biri varsa, fişe girilecek birden çok hareketi etkinleştirmeniz gerekir; **genel muhasebe parametreleri** sayfasındaki **Tek bir fiş içinde birden fazla harekete izin ver** parametresi ayarını değiştirin. Bu işlevsel boşluklar, sonraki sürümlerdeki diğer özellikler ile doldurulacaktır.
 
-Aşağıdaki senaryolar yalnızca Bir fiş işlevi kullanılarak gerçekleştirilebilir. Bu işlevsel boşluklar, 2018 Sonbahar ve sonraki sürümlerdeki diğer özellikler ile doldurulacaktır.
+### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Satıcı veya müşteri ödemelerini özet biçiminde banka hesabına nakletme
 
--   **Satıcı veya müşteri ödemelerini özet biçiminde banka hesabına nakletme**
+**Senaryo** Kuruluş, bankasına satıcılardan ve tutarlardan oluşan bir liste iletir ve banka da kuruluş adına satıcılara ödeme yapmak için bu listeyi kullanır. Banka, ödemelerin toplamını tek bir geri çekme olarak banka hesabına nakleder.
 
-    -   Kuruluş, bankasına satıcılardan ve tutarlardan oluşan bir liste iletir ve banka da kuruluş adına satıcılara ödeme yapmak için bu listeyi kullanır. Banka, ödemelerin toplamını tek bir geri çekme olarak banka hesabına nakleder.
+Satıcı ödemelerinin özetlenmesi yalnızca Bir fiş aracılığıyla desteklenir. Her bir satıcı, Borç hesapları yardımcı defterindeki ayrıntıları korumak için ayrı bir satır olarak girilir. Bununla birlikte, tüm ödemeler için özet bir tutar, banka hesabı için tek bir satıra mahsup edilir. Bu nedenle, geri çekme işlemi banka yardımcı defterinde tek bir özetlenmiş tutar olarak gösterilir.
 
->   Satıcı ödemelerinin özetlenmesi yalnızca Bir fiş aracılığıyla desteklenir. Her satıcı, Borç Hesapları yardımcı defterindeki ayrıntıları korumak için ayrı bir satır olarak girilir ancak tüm ödemeler için özetlenen tutar, banka hesabı için tek bir satırda mahsup edilir. Bu nedenle, geri çekme işlemi banka yardımcı defterinde tek bir özetlenmiş tutar olarak gösterilir.
+**Senaryo** Kuruluş, müşteri ödemelerini havale yapar veya banka, müşteri ödemelerini kuruluş adına havale yapar ve havale banka hesabında bir peşin ödeme olarak gösterilir.
 
--   Kuruluş, müşteri ödemelerini havale yapar veya banka, müşteri ödemelerini kuruluş adına havale yapar ve havale banka hesabında bir peşin ödeme olarak gösterilir.
+Müşteri ödemelerinin özetlenmesi genellikle havale işleviyle desteklenir. Ancak ödeme yönteminde "köprü" kullanıyorsanız bu senaryo yalnızca Bir fiş ile desteklenir. Müşteri ödemeleri, satıcı ödeme özeti için açıklanan şekilde girilir.
 
->   Müşteri ödemelerinin özetlenmesi genellikle havale işleviyle desteklenir. Ancak ödeme yönteminde "köprü" kullanıyorsanız bu senaryo yalnızca Bir fiş ile desteklenir. Müşteri ödemeleri, satıcı ödeme özeti için açıklanan şekilde girilir.
+### <a name="mechanism-to-group-transactions-from-a-business-event"></a>İş olayından hareketleri gruplama mekanizması
 
--   **İş olayından hareketleri gruplama mekanizması**
+**Senaryo** Kuruluşun birden fazla hareketi tetikleyen tek bir iş olayı vardır. Ancak Muhasebe departmanı daha iyi denetlenebilirlik için muhasebe girişlerini görüntülemek istemektedir.
 
-    -   Kuruluşun birden fazla hareketi tetikleyen tek bir iş olayı vardır. Ancak Muhasebe departmanı daha iyi denetlenebilirlik için muhasebe girişlerini görüntülemek istemektedir.
+Kuruluşun, bir iş olayına ait muhasebe girişlerini birlikte görüntülemesi gerekiyorsa Bir fiş'i kullanması gerekir. 
 
->   Kuruluşun, bir iş olayına ait muhasebe girişlerini birlikte görüntülemesi gerekiyorsa Bir fiş'i kullanması gerekir. 
+### <a name="country-specific-features"></a>Ülkeye özgü özellikler
 
-- **Ülkeye özgü özellikler**
+**Senaryo** Polonya için Tek İdari Belge (SAD) özelliği şu anda bir fişin kullanılmasını gerektirir. Bu özellik için bir gruplandırma seçeneği yayımlanıncaya kadar Bir fiş işlevini kullanmaya devam etmeniz gerekir. Bir fiş işlevini gerektiren ülkeye özgü başka özellikler olabilir.
 
-  -   Polonya için Tek İdari Belge (SAD) özelliği şu anda bir fişin kullanılmasını gerektirir. Bu özellik için bir gruplandırma seçeneği yayımlanıncaya kadar Bir fiş işlevini kullanmaya devam etmeniz gerekir. Bir fiş işlevini gerektiren ülkeye özgü başka özellikler olabilir.
-
-- **Birden çok "satırda" vergiler olan müşteri ön ödemesi ödeme günlüğü**
-
-  -   Müşteri, bir sipariş için ön ödeme yapar ve sipariş satırlarında ön ödeme için kaydedilmesi gereken farklı vergiler vardır. Müşteri ön ödemesi, siparişin satırlarının benzetimini yapan bir işlemdir, böylece her satırdaki tutar için uygun vergi kaydedilebilir.
+### <a name="customer-prepayment-payment-journal-that-has-taxes-on-multiple-lines"></a>Birden çok "satırda" vergiler olan müşteri ön ödemesi ödeme günlüğü
 
 Bu senaryoda, tek fişteki müşteriler aynı müşteridir çünkü hareket müşteri siparişinin satırlarının benzetimini yapar. Ön ödeme, tek bir fişe girilmelidir çünkü vergi hesaplamasının, müşterinin yaptığı tek ödemenin "satırlarında" yapılması gerekir.
 
--   **Sabit kıymet bakımı: Yakalama amortismanı, bölünmüş kıymet, elden çıkarmada amortismanı hesaplama**
+### <a name="customer-reimbursement"></a>Müşteri iadesi
 
+**Senaryo** Müşteri, bir sipariş için ön ödeme yapar ve sipariş satırlarında ön ödeme için kaydedilmesi gereken farklı vergiler vardır. Müşteri ön ödemesi, siparişin satırlarının benzetimini yapan bir işlemdir, böylece her satırdaki tutar için uygun vergi kaydedilebilir.
+
+İade periyodik görevi Alacak hesapları modülünden çalışırsa bakiyeyi bir müşteriden satıcıya taşımak için bir hareket oluşturur. Bu senaryo için, müşteriye iade yapmak üzere Bir fiş kullanılmalıdır.
+
+### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Sabit kıymet bakımı: Yakalama amortismanı, bölünmüş kıymet, elden çıkarmada amortismanı hesaplama
 Aşağıdaki sabit kıymet hareketleri de tek bir fiş içinde birden fazla hareket oluştur:
--   Bir kıymet üzerinde ek bir alım yapılır ve "yakalama" amortismanı hesaplanır.
--   Bir kıymet bölünür.
--   Elden çıkarma amortismanını hesaplamak için bir parametre etkinleştirilir ve ardından kıymet elden çıkarılır.
 
-<a name="scenarios-that-dont-require-one-voucher"></a>Bir fiş gerektirmeyen senaryolar
-----------------------------------------
+- Bir kıymet üzerinde ek bir alım yapılır ve "yakalama" amortismanı hesaplanır.
+- Bir kıymet bölünür.
+- Elden çıkarma amortismanını hesaplamak için bir parametre açılır ve ardından kıymet elden çıkarılır.
+- Bir kıymetin servis tarihi alım tarihinden öncedir. Bu nedenle, bir amortisman düzeltmesi deftere nakledilir.
 
-Aşağıdaki senaryolar başka yollarla gerçekleştirilebilir ve Bir fiş kullanılmamalıdır.
+### <a name="bills-of-exchange-and-promissory-notes"></a> Kambiyo senetleri ve senetler
+Kambiyo senetleri ve senetler, Bir fiş kullanımı gerektirir çünkü hareketler, müşteri veya satıcı bakiyesini ödeme durumuna bağlı olarak Alacak hesapları/Borç hesapları genel muhasebe hesabından başkasına taşır.
 
--   **Müşteri ödemelerini özet biçiminde banka hesabına nakletme**
+## <a name="scenarios-that-dont-require-one-voucher"></a>Bir fiş gerektirmeyen senaryolar
+
+Aşağıdaki senaryolar başka yollarla gerçekleştirilebilir ve Bir fiş işlevi kullanılmamalıdır.
+
+### <a name="post-customer-payments-in-summary-form-to-the-bank-account"></a>Müşteri ödemelerini özet biçiminde banka hesabına nakletme
 
 Kuruluş, müşteri ödemelerini havale yapar veya banka, müşteri ödemelerini kuruluş adına havale yapar ve havale banka hesabında bir peşin ödeme olarak gösterilir.
 
-Müşteri ödemelerinin özetlenmesi, ödeme yönteminde köprü özelliği kullanılmadığında havale işleviyle desteklenir.
+Müşteri ödemelerinin özetlenmesi, ödeme yönteminde "köprü" özelliği kullanılmadığında havale işleviyle desteklenir.
 
--   **Mahsuplaşma**
+### <a name="netting"></a>Mahsuplaşma
 
 Mahsuplaşma sırasında, bir satıcı ve müşteri için bakiyeler birbiriyle mahsup edilir çünkü satıcı ve müşteri aynı taraftır. Bu yaklaşım, kuruluş ile müşteri/satıcı tarafı arasındaki para değişimini en aza indirir.
 
 Mahsuplaşma, artışı ve azalışı farklı fişlere girerek ve farkı bir takas genel muhasebe hesabına naklederek gerçekleştirilebilir.
 
--   **Özeti genel muhasebe defterine nakletme**
+### <a name="post-in-summary-to-the-general-ledger"></a>Özeti genel muhasebe defterine nakletme
 
-Kuruluşlar genellikle veri miktarını en aza indirgemek için genel muhasebe defterine özet olarak nakletmek ister. Ancak yine de kuruluş genellikle hareket ayrıntısının korunmasını gerektirir. Deftere nakil, tek bir fişle özet olarak yapılırken hareket ayrıntısı bilinmemektedir ve korunamaz.
+Kuruluşlar genellikle veri miktarını en aza indirgemek için genel muhasebe defterine özet formu olarak nakletmek ister. Ancak yine de kuruluş genellikle hareket ayrıntılarının korunmasını gerektirir. Deftere nakil, tek bir fişle özet formu olarak yapılırken hareket ayrıntıları bilinmemektedir ve korunamaz.
 
-   -   Hareket ayrıntısı şu anda korunamadığından, özet olarak deftere nakilde Bir fiş özelliğinin kullanılmamasını öneririz.
-   -   Bir fiş desteği kaldırıldıktan sonra, Kaynak belgesini ve Muhasebe çerçevelerini günlüklere uygulayabiliriz. Bu çerçeveler, daha sonra hareket ayrıntısını korur ve genel muhasebede özetlemeyi destekler.
+- Hareket ayrıntıları şu anda korunamadığından, özet formu olarak deftere nakilde kurumun Bir fiş özelliğini **kullanmamasını** öneririz.
+- Bir fiş desteği kaldırıldıktan sonra, Kaynak belgesi ve Muhasebe çerçeveleri günlüklere uygulanabilir. Bu çerçeveler, daha sonra hareket ayrıntılarını korur ve genel muhasebede özetlemeyi destekler.
 
--   **Aynı faturada birden fazla deftere nakledilmemiş ödemeyi kapatma**
+
+### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>Aynı faturada birden fazla deftere nakledilmemiş ödemeyi kapatma
 
 Bu senaryo genellikle, müşterilerin satınalma ödemeleri için birden çok ödeme yöntemi kullanabildiği perakende kuruluşlarında bulunur. Bu senaryoda, kuruluşun birden çok deftere nakledilmemiş ödemeleri kaydetmesi ve bunları müşteri faturasına göre kapatabilmesi gerekir.
 
 Microsoft Dynamics 365 for Operations sürüm 1611'e (Kasım 2016) eklenen yeni bir özellik, birden fazla deftere nakledilmemiş ödemeyi tek bir faturaya göre kapatabilmeye olanak tanır. Birden çok müşteri ödemesi artık tek bir fişe girilmek zorunda değildir.
 
--   **Banka ekstresi hareketlerini içe aktarma**
+### <a name="import-bank-statement-transactions"></a>Banka ekstresi hareketlerini içe aktarma
 
 Bankalar genellikle bir kuruluş adına ödeme yapıp ödeme alır ve bu hareketler bankadan alınan bir dosya aracılığıyla Finance and Operations'ta kaydedilir. Kuruluşlar genellikle bu hareketleri dosyadaki banka ekstresi numarasını kullanarak birlikte gruplandırmak ister. Her bir hareket, banka ekstresinde ayrıntılı olarak gösterildiğinden banka yardımcı defterinde özetleme yapılması gerekmez.
 
 Hareketler, günlük toplu iş numarasının kendisi veya belge numarası gibi günlükteki diğer alanlar kullanılarak gruplandırılabilir.
 
--   **Bakiyeleri aktar**
 
-Kuruluş bir hata nedeniyle veya başka bir satıcı yükümlülüğü üstlendiğinden bir satıcıdan bir başka satıcıya bakiye transfer etmek zorunda kalabilir. Bu tür transferler, müşteriler ve banka hesapları gibi hesap türleri için de geçerlidir.
+### <a name="transfer-balances"></a>Bakiyeleri aktar
 
-Bir hesaptan (satıcı, müşteri, banka hesabı vb.) başka bir hesaba bakiye transferleri ayrı fişlerle yapılabilir ve fark, bir takas genel muhasebe hesabına nakledilebilir.
+Kuruluş bir hata nedeniyle veya başka bir satıcı yükümlülüğü üstlendiğinden bir satıcıdan bir başka satıcıya bakiye transfer etmek zorunda kalabilir. Bu tür transferler, **Müşteri** ve **Banka** gibi hesap türleri için de geçerlidir.
 
--   **Başlangıç bakiyelerini girme**
+Bir hesaptan (satıcı, müşteri, banka vb.) başka bir hesaba bakiye transferleri ayrı fişlerle yapılabilir ve fark, bir takas genel muhasebe hesabına nakledilebilir.
+
+### <a name="enter-beginning-balances"></a>Başlangıç bakiyelerini girme
 
 Kuruluşlar genellikle yardımcı defter hesapları için (satıcılar, müşteriler, sabit kıymetler vb.) başlangıç bakiyelerini tek bir fiş hareketi olarak girer. Her bir yardımcı defter hesabı için başlangıç bakiyeleri ayrı fişler olarak girilebilir ve fark, bir takas genel muhasebe hesabına nakledilebilir.
 
--   **Deftere nakledilen bir müşteri veya satıcı belgesinin muhasebe girişini düzeltme**
+### <a name="correct-the-accounting-entry-of-a-posted-customer-or-vendor-document"></a>Deftere nakledilen bir müşteri veya satıcı belgesinin muhasebe girişini düzeltme
 
 Kuruluş, deftere nakledilen bir faturaya ait muhasebe girişi için Borç hesaplarını veya Alacak hesaplarını düzeltmek zorunda kalabilir ancak fatura başka bir mekanizma aracılığıyla tersine çevrilemez veya düzeltilemez.
 
-Alacak hesapları veya borç hesapları genel muhasebe hesabında bir düzeltme yapılması gerekiyorsa ayarlama doğrudan genel muhasebe hesabında yapılmalıdır. Ayarlama, satıcı veya müşteri üzerinden deftere nakil işlemiyle yapılamaz. Bu yaklaşım, ayarlamanın bir "kesinti süresi" sırasında yapılmasını gerektirir. Böylece genel muhasebe hesabı geçici olarak el ile girişe izin verebilir.
+Alacak hesapları veya Borç hesapları genel muhasebe hesabında bir düzeltme yapılması gerekiyorsa ayarlama doğrudan genel muhasebe hesabında yapılmalıdır. Ayarlama, satıcı veya müşteri üzerinden deftere nakil işlemiyle yapılamaz. Bu yaklaşım, ayarlamanın bir "kesinti süresi" sırasında yapılmasını gerektirir. Böylece genel muhasebe hesabı geçici olarak el ile girişe izin verebilir.
 
--   **"Sistem buna izin veriyor"**
+### <a name="the-system-allows-it"></a>"Sistem buna izin veriyor"
 
 Kuruluşlar genellikle Tek fiş işlevini yalnızca sistem kullanmalarına olanak tanıdığından ve etkilerini anlamadan kullanır.
-

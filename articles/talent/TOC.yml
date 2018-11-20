@@ -1,11 +1,20 @@
-- name: Dynamics 365 for Talent'a hoş geldiniz
+- name: Dynamics 365 for Talent
   href: index.md
   items:
     - name: Başlayın
       href: talent-get-started.md
       items:
         - name: Yenilikler veya değişenler
+          href: whats-new.md
           items:
+            - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (31 Ekim 2018)
+              href: whats-new-talent-october-31.md
+            - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (19 Ekim 2018)
+              href: whats-new-talent-october-19.md
+            - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (15 Ekim 2018)
+              href: whats-new-talent-october-11.md
+            - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (8 Ekim 2018)
+              href: whats-new-talent-october-8.md
             - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (1 Ekim 2018)
               href: whats-new-talent-october-01.md
             - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (24 Eylül 2018)
@@ -30,6 +39,8 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR ve Uygulamalar için Common Data Service
           href: CoreHREntities.md
+        - name: Tümleştirmeler
+          href: talent-financeandoperations-integration.md
         - name: Önizleme özelliklerine erişme
           href: access-preview-feature.md
         - name: Talent ve Dayforce arasında bordro tümleştirmeyi yapılandırma
@@ -64,6 +75,34 @@
       items:
         - name: Attract özellikleri ve yetenekleri
           href: attract-overview.md
+        - name: Attract'ta süreç şablonu oluşturma
+          href: Process-templates-Attract.md
+        - name: 'Attract''ta işleri oluşturma, onaylama ve yayınlama'
+          href: Creating-jobs-Attract.md
+        - name: Yetenek Havuzlarıyla kaynak bulma
+          href: attract-talent-pools.md
+        - name: LinkedIn Recruiter ile kaynak bulma
+          href: attract-linked-in-recruiter.md
+        - name: Attract'taki İşe Alma Süreci faaliyetleri
+          href: activities-attract.md
+        - name: Genişletilebilirlik
+          href: extensibility-attract.md
+        - name: Kariyer sitesi ve aday deneyimleri
+          href: career-site.md
+        - name: Teklif yönetimini ayarlama
+          href: offer-setup.md
+        - name: 'Teklifleri oluşturma, onaylama ve imzalama'
+          href: creating-offers.md
+        - name: E-posta şablonlarını oluşturma ve yönetme
+          href: email-templates.md
+        - name: Rapor ve analiz
+          href: Reporting-Analytics-Attract.md
+        - name: Attract'ta güvenlik ve rol yönetimi
+          href: security-attract.md
+        - name: Attract'ta yönetici ayarları
+          href: Admin-Settings-Attract.md
+        - name: Akıllı öneriler
+          href: Intelligent-Recommendations.md
         - name: Etkileyici bir işe alım süreci deneyimi oluşturma
           href: create-onboarding-experience.md
     - name: Personeli motive etme

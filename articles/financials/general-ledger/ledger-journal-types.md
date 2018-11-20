@@ -1,9 +1,9 @@
 ---
-title: "Genel muhasebe günlük tabloları"
-description: "Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations'ta kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın."
+title: "Genel muhasebe günlük türleri"
+description: "Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: 61f737edea3af5281b6d2fd7c3c0899082782067
+ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
-# <a name="ledger-journal-types"></a>Genel muhasebe günlüğü türleri
+# <a name="ledger-journal-types"></a>Genel muhasebe günlük türleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations'ta kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
+Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations'ta kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
 
 | Günlük türü:                      | Amaç                       | Bu sayfada hareketleri girin                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -54,6 +54,7 @@ Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri
 | Dönemsel                          | Periyodik günlük için Dönemsel hareketleri oluşturun.                                                                                                                                                                                                                                                                                                      | Periyodik günlükler                                              |
 | Sabit kıymetleri naklet                 | Sabit kıymet nakil hareketleri gönderin.                                                                                                                                                                                                                                                                                                                              | Sabit kıymetler                                                   |
 | Proje - giderler                | Proje gider hareketlerini oluşturun.                                                                                                                                                                                                                                                                                                                        | Gider                                                        |
+| Raporlama para birimi ayarlaması     | Raporlama para biriminde genel muhasebe hesaplarındaki bakiyeler için düzeltmeler oluşturun.               | Raporlama para birimi ayarlaması günlükleri                         |
 | İstatistik hareketleri            | İstatistik hareketleri oluşturun.                                                                                                                                                                                                                                                                                                                            |                                                                |
 | Satıcı banka havalesi            | Kuruluşunuzun Bankasına gönderilen bir senet Havale dosyası oluşturun.                                                                                                                                                                                                                                                                      | Havale günlüğü                                             |
 | Satıcıya ödeme               | Satıcıya ödeme hareketleri oluşturun.                                                                                                                                                                                                                                                                                                                    | Ödeme günlüğü                                                |

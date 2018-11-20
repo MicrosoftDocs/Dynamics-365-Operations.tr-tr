@@ -3,7 +3,7 @@ title: "Bulut ve şirket içi özelliklerin karşılaştırması"
 description: "Bu konu, hangi özelliklerin Bulut ve şirket içinde desteklendiğini gösterir."
 author: robinarh
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: b59921820f02e2ac026873ce45fdecd104fef544
-ms.openlocfilehash: 4354b9d55cc84f7c74020d95617c406dc5fb225c
+ms.sourcegitcommit: 53c0da5e9697deaf946ccd4fbcd2102faa62b195
+ms.openlocfilehash: bc2b8aafa28d3998e223891fa95e3fe8175349e6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 11/02/2018
 
 ---
 
@@ -116,11 +116,8 @@ Aşağıdaki tablolar ürün alanlarını listeler. Bulut ve şirket içi deste�
 | Visual Studio geliştirme |  | Evet | Evet |
 
 
-## <a name="dynamics-365-for-retail"></a>Dynamics 365 for Retail 
-
-| Alan | Özellik | Bulut | Şirket içi|
-|---|---|---|---|
-| Tüm Perakende alanları | Tüm Perakende özellikleri | Evet | Hayır |
+### <a name="retail"></a>Retail 
+Şirket içi dağıtımda kullanılabilen perakende yetenekleri listesini görmek için bkz: [Şirket içi dağıtımda kullanılabilen perakende yetenekleri](../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
 

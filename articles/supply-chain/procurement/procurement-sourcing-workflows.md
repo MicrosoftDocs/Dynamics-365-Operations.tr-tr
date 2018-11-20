@@ -50,11 +50,12 @@ Aşağıdaki iş akışı türleri, Tedarik ve kaynak atama için kullanılabili
 | Satıcı uygulama ekleme iş akışı  | Satıcı talepleri aracılığıyla yeni satıcılar eklemek için gözden geçirme ve onay iş akışları oluşturun. |
 
 ## <a name="creating-a-workflow"></a>İş akışı oluşturma
+
 Bir iş akışı oluşturmak için, Tedarik ve kaynak atama &gt; Kurulum &gt; Tedarik ve kaynak atama iş akışları menüsüne gidin ve oluşturmak istediğiniz iş akışı türünü seçerek yeni bir iş akışı oluşturun.  
 
 İş akışı tuvallerinde, iş akışı öğelerini tasarımcıya sürükleyebilir ve öğeleri bir akışa bağlayabilirsiniz. İş akışı öğeleri yapılandırılmalıdır. Onay ve görev iş akışı öğeleri için hangi katılımcının eylemi gerçekleştirmesi gerektiğini yapılandırabilirsiniz.
- Katılımcı türleri
-----------------------
+
+## <a name="types-of-participants"></a> Katılımcı türleri
 
 Aşağıdaki katımcı gruplarına bir onay adımı atayabilirsiniz.
 
@@ -68,13 +69,12 @@ Aşağıdaki katımcı gruplarına bir onay adımı atayabilirsiniz.
 
 
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
-[Satınalma talepleri için iş süreci iş akışları tanımlama](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Satınalma talepleri için iş süreci iş akışları tanımlama](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Satınalma talebi iş akışı](purchase-requisitions-workflow.md)
+- [Satınalma talebi iş akışı](purchase-requisitions-workflow.md)
 
-[Satıcıları işe alma](vendor-onboarding.md)
+- [Satıcıları işe alma](vendor-onboarding.md)
 
 

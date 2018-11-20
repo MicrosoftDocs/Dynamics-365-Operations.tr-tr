@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 4c27e0f75a45a2e4290ec4b6f72ee67d792449a0
+ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/11/2018
 
 ---
 
@@ -40,7 +40,7 @@ Ayrıca, el ile satıcı kodları kullanıyorsanız satıcıları tüzel kişili
 
 ## <a name="copy-a-vendor"></a>Satıcı kopyalama
 
-Bir satıcıyı kopyalamak için **Tüm satıcılar, yeni kayıt** sayfasını açmak için **Tüm satıcılar** liste sayfasında **Yeni**'yi seçin. Yeni satıcı kodunun hemen atanmayacağını unutmayın. Bu davranış, Microsoft Dynamics 365 for Finance and Operations'ın önceki sürümlerindeki davranıştan farklıdır. Satıcı grubunu henüz seçmediğiniz için sistem kullanılacak doğru numara sırasını belirleyemez. Ayrıca, yeni bir satıcı oluşturmak mı yoksa bir satıcıyı kopyalamak mı istediğinizi de belirleyemez. Bu nedenle, satıcı kodu sayfanın alt kısmındaki **Kaydet** düğmesi seçilene kadar atanmaz.
+Bir satıcıyı kopyalamak için **Tüm satıcılar, yeni kayıt** sayfasını açmak üzere **Tüm satıcılar**liste sayfasında **Yeni**'yi seçin. Yeni satıcı kodunun hemen atanmayacağını unutmayın. Bu davranış, Microsoft Dynamics 365 for Finance and Operations'ın önceki sürümlerindeki davranıştan farklıdır. Satıcı grubunu henüz seçmediğiniz için sistem kullanılacak doğru numara sırasını belirleyemez. Ayrıca, yeni bir satıcı oluşturmak mı yoksa bir satıcıyı kopyalamak mı istediğinizi de belirleyemez. Bu nedenle, satıcı kodu sayfanın alt kısmındaki **Kaydet** düğmesi seçilene kadar atanmaz.
 
 Yeni bir satıcı oluşturuyorsanız, tüm alanları her zaman olduğu gibi doldurmaya devam edebilirsiniz. Tamamlayıp **Kaydet**'i seçtiğinizde, satıcı kodunun otomatik olarak atandığını görürsünüz. Alternatif olarak, el ile numara sıraları için el ile satıcı kodunuzun kullanıldığını görürsünüz.
 
