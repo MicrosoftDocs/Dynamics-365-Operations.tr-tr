@@ -1,0 +1,44 @@
+--- 
+title: "Amortisman profilleri ayarlama ve oluşturma"
+description: "Amortisman profilleri bir varlığın türünü ve amortisman sıklığını belirler."
+author: saraschi2
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: AssetDepreciationProfile
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: saraschi
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4cf469ad1ae0db6a8764eedbcc0160afa03c2808
+ms.contentlocale: tr-tr
+ms.lasthandoff: 09/29/2017
+
+---
+# <a name="set-up-and-create-depreciation-profiles"></a>Amortisman profilleri ayarlama ve oluşturma
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+Amortisman profilleri bir varlığın türünü ve amortisman sıklığını belirler.   Bu kayıtta USMF demo şirketi ve muhasebeci rolü kullanılmaktadır.
+
+
+## <a name="create-a-depreciation-profile"></a>Amortisman profili oluşturma
+1. Sabit kıymetler > Ayar > Amortisman profilleri menüsüne gidin.
+2. Yeni'ye tıklayın.
+3. Amortisman profili alanına bir değer girin.
+4. İsim alanına bir değer yazın.
+5. Yöntem alanında bir seçenek belirtin.
+    * Azalan Bakiye seçilirse, Yüzde alanına bir yüzde girmeniz gerekir.  
+6. Amortisman yılı alanında bir seçenek belirtin.
+7. Dönem sıklığı alanında bir seçenek belirtin.
+8. Formu kapatın.
+
+
