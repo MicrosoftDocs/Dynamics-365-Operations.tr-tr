@@ -8,7 +8,7 @@
           items:
             - name: Önizleme aboneliğine kaydolma
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
-            - name: Tanıtım ortamını dağıtma
+            - name: Bir tanıtım ortamını dağıtma
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Bulut ve şirket içi özellikleri karşılaştırması
               href: get-started/cloud-prem-comparison.md
@@ -29,9 +29,9 @@
               href: get-started/public-preview-releases.md
             - name: Finance and Operations satın alma
               items:
-                - name: Finance and Operations (on-premises) satın alma
+                - name: Finance and Operations (şirket içi) satın alma
                   href: get-started/purchase-on-premises.md
-        - name: Yenilikler veya değişenler
+        - name: Yenilikler veya değişiklikler
           href: get-started/whats-new-changed.md
           items:
             - name: Bir sürüm hizmet güncelleştirmeleriyle ilgili SSS
@@ -46,8 +46,12 @@
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: Ertelenen AX 2012 özellikleri
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: Şirket içi dağıtımlarda uygulanmayan özellikler
+            - name: Kurum içindeki kurulumlarda uygulanmayan özellikler
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations sürüm 8.1.3 (Aralık 2018)
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 23 (Aralık 2018)
+              href: get-started/whats-new-platform-update-23.md
             - name: Platform update 22 (Kasım 2018)
               href: get-started/whats-new-platform-update-22.md
             - name: Finance and Operations sürüm 8.1.2 (Kasım 2018)
@@ -152,6 +156,8 @@
               href: get-started/help-overview.md
             - name: Yardım sistemini bağlama
               href: get-started/help-connect.md
+            - name: Özel bir yardım sitesini bağlama
+              href: get-started/help-custom.md
             - name: Alan açıklamalarını görüntüleme ve dışa aktarma
               href: get-started/view-export-field-descriptions.md
             - name: Görev kılavuzları ve görev kaydedici
@@ -1243,6 +1249,8 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: Mali raporlama veri reyonunu sıfırlama
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Elektronik iletiler
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: Yerelleştirme ve mevzuat özellikleri
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -2222,12 +2230,16 @@
               href: ../financials/localizations/rus-transactions-settlement-date.md
             - name: Ödenecek faturalar
               href: ../financials/localizations/rus-invoice-payment.md
+            - name: Mali raporlama
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: Satınalma defteri oluşturma
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
         - name: Suudi Arabistan
           href: ../financials/localizations/saudi-arabia.md
           items:
             - name: Satış vergisi
               href: ../financials/localizations/apac-sau-sales-tax.md
-            - name: Suudi Arabistan için Zakat raporlaması
+            - name: Suudi Arabistan için Zekat raporlaması
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: Singapur
           href: ../financials/localizations/singapore.md
@@ -2737,13 +2749,15 @@
             - name: Yapılandırma yaşam döngüsünü yönetme
               href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Lifecycle Services'a yapılandırmalar yükleme
+                - name: Lifecycle Services'a yapılandırma yükleme
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Lifecycle Services'dan yapılandırmalar aktarma
+                - name: Lifecycle Services'dan yapılandırma içe aktarma
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Lifecycle Services'dan yapılandırmalar indirme
+                - name: Düzenleyici Yapılandırma Hizmetleri'nden (RCS) Elektronik raporlama (ER) yapılandırmalarını içe aktarma
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
+                - name: Lifecycle Services'dan yapılandırma indirme
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: Yapılandırmaları içe aktarma
+                - name: Yapılandırma içe aktarma
                   href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
             - name: Model eşleme yapılandırmalarını yönetme
               href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
@@ -4147,8 +4161,10 @@
               href: ../supply-chain/warehousing/mixed-license-plate-receiving.md
             - name: Bir mobil cihazda ambar içindeki eski toplu işleri görüntülemeyi yapılandırma
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
-            - name: Bir mobil cihazda en eski toplu işi çekme
+            - name: Bir mobil cihazda en eski toplu işi seçme
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: Kılavuz çerçevesini işleme
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: Yükseltme ve geçiş
           items:
             - name: Ambar yönetimi işlemlerini Microsoft Dynamics AX 2012'den Finance and Operations'a yükseltme
