@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -164,13 +164,23 @@ Yeni bir ER sağlayıcısını kaydetmeyi öğrenmek için **ER Bir yapılandır
 
 #### <a name="repository"></a>Depo
 
-ER havuzu ER konfigürasyonlarını depolar. İki ER havuzu türü şu anda desteklenmektedir, **Operations kaynakları** ve **LCS projesi**.
+ER havuzu ER konfigürasyonlarını depolar. Şu anda desteklenen ER depolarının dört türü şudur: **Operasyon kaynakları**, **LCS projesi (LCS)**, **Dosya sistemi** ve **Düzenleyici Yapılandırma Servisleri (RCS)**.
 
 **Operations kaynakları** havuzu Microsoft'un bir ER konfigürasyonu sağlayıcısı olarak Finance and Operations çözümünün parçası olarak yayımladığı konfigürasyonlar listesine erişim sağlar. Bu konfigürasyonlar geçerli Finance and Operations kurulumuna aktarılabilir ve elektronik raporlama için kullanılabilir. Bunlar ek yerelleştirmeler ve özelleştirmeler için de kullanılabilir.
 
 **LCS projesi** havuzu, havuz kayıt aşamasında seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli Finance and Operations kurulumundan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Konfigürasyonları bir **LCS projesi** deposundan geçerli Finance and Operations kurulumuna da aktarabilirsiniz.
 
-Gerekli **LCS projesi** depoları her bir geçerli Finance and Operations kurulumunun konfigürasyon sağlayıcısı için ayrı ayrı kaydedilebilir. Her depo belirli bir konfigürasyon sağlayıcısına ayrılabilir.
+Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede xml dosyaları olarak yerel dosya sisteminin belirli bir klasöründe bulunan yapılandırmalar listesine erişim sağlar. Gerekli klasör, havuz kayıt aşamasında seçilir. Konfigürasyonları bir **Dosya sistemi** deposundan geçerli Finance and Operations kurulumuna da aktarabilirsiniz. Bu havuz türünün, aşağıdaki Dynamics 365 for Finance and Operations ortamlarında erişilebilir durumdadır:
+- geliştirme amaçlarıyla dağıtılmış bulutta barındırılan ortamlar (iliştirilmiş paketlerin test modellerini içeren)
+- dağıtılan yerel ortamlar (şirket içi veya yerel işletme veri dağıtımı (LBD))
+
+Bu konuda daha fazla ayrıntı için [Elektronik raporlama (ER) yapılandırmaları içe aktarma](/electronic-reporting-import-ger-configurations.md) konumunu ziyaret edin.
+
+**RCS örneği** havuzu, havuz kayıt aşamasında seçilen belirli bir RCS örneği konfigürasyonlar listesine erişim sağlar. ER, tamamlanmış veya paylaşılan yapılandırmaları seçilen RCS örneğinden geçerli Finance and Operations örneklerini içe aktarmanıza olanak sağlar ve elektronik raporlama için kullanılır.
+
+Bu konuda daha fazla ayrıntı için [Düzenleyici Yapılandırma Hizmetleri (RCS) Elektronik raporlama (ER) yapılandırmaları içe aktarma](/rcs-download-configurations.md) konumunu ziyaret edin.
+
+Gerekli **LCS projesi**, **Dosya sistemi** ve **Düzenleyici Yapılandırma Servisleri (RCS)** depoları her bir geçerli Finance and Operations kurulumunun konfigürasyon sağlayıcısı için ayrı ayrı kaydedilebilir. Her depo belirli bir konfigürasyon sağlayıcısına ayrılabilir.
 
 ## <a name="supported-scenarios"></a>Desteklenen senaryolar
 ### <a name="building-a-data-model"></a>Bir veri modeli oluşturma
