@@ -3,7 +3,7 @@ title: "Master planlama ana sayfası"
 description: "Master planlama, şirketlerin şirket hedeflerini karşılamak için gelecekteki hammadde ve kapasite gereksinimini belirlemesine ve planlamasına olanak tanır."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ Aşağıdaki öğrenme haritası, Master planlama modülünün çerçevesini olu
 
 ## <a name="quick-links"></a>Hızlı bağlantılar
 
-|      |   |
-|------|---|
-|        [Master planlar](master-plans.md)       |     [Kısıtlanmış plan oluşturma](./tasks/constrained-plan.md)  |
-| [Ortak ürünler için malzeme planı oluşturma](./tasks/create-material-plan-co-products.md)   |  [Master planlama ve birden çok tesis işlevi](master-plan-multisite-functionality.md)  |
-| [Şirketlerarası plan oluşturma](./tasks/create-intercompany-plan.md) | [Talep tahminine genel bakış](introduction-demand-forecasting.md)  | 
-|[Azaltma anahtarları](reduction-keys.md)| [Master planlamanın temelleri](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (e-Öğrenim) (CustomerSource hesabı gerektirir)     |
-|  [İmalatı işlemek için master planlama](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (eLearning) (requires CustomerSource account) | [Şirketlerarası master planlama](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (e-Öğrenim) (CustomerSource hesabı gerektirir)|
+- [Master planlar](master-plans.md)  
+- [Kısıtlanmış plan oluşturma](./tasks/constrained-plan.md)
+- [Ortak ürünler için malzeme planı oluşturma](./tasks/create-material-plan-co-products.md)
+- [Master planlama ve birden çok tesis işlevi](master-plan-multisite-functionality.md)
+- [Şirketlerarası plan oluşturma](./tasks/create-intercompany-plan.md)
+- [Talep tahminine genel bakış](introduction-demand-forecasting.md)
+- [Azaltma anahtarları](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -3,7 +3,7 @@ title: "Microsoft Dynamics 365 for Finance and Operations &#8211; Ambarlama yük
 description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations - Ambarlama'nın nasıl yükleneceğini ve yapılandırılacağnı açıklar."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 11/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
-ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
+ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
+ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -74,13 +74,12 @@ Uygulamanın belirli bir Finance and Operations sunucusu ile etkileşime girmesi
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Finance and Operations içinde bir kullanıcı hesabı oluşturma ve yapılandırma
 Finance and Operations'ın Azure AD uygulamanızı kullanmasını sağlamak için, aşağıdaki yapılandırma adımlarını tamamlamanız gerekir:
 
-1.  Finance and Operations kiracısı için Azure Active Directory'de yeni bir kullanıcı hesabı oluşturun. Bu kullanıcı hesabının amacı, Finance and Operations sunucusunun açığa çıkarttığı ambarlama uygulamasının belirli özel hizmetlerine erişmektir. Bu adımı tamamladıktan sonra, bir WMDP e-posta adresi ve WMDP parolasından oluşan WMDP kullanıcı kimlik bilgilerine sahip olacaksınız. Azure AD ve Finance and Operations için kullanıcılar eklemek hakkında temel adımları öğrenmek için bu eğitime göz atın: [Bir Finance and Operations aboneliğine kaydolun](../../dev-itpro/dev-tools/sign-up-preview-subscription.md).
-2.  Ambarlama uygulaması kullanıcı kimlik bilgilerine karşılık gelen bir Finance and Operations kullanıcı oluşturun.
+1.  Ambarlama uygulaması kullanıcı kimlik bilgilerine karşılık gelen bir Finance and Operations kullanıcı oluşturun.
     1.  Finance and Operations içerisinde **Sistem Yönetimi** &gt; **Ortak** &gt; **Kullanıcılar** konumuna gidin.
     2.  Yeni bir kullanıcı oluşturun.
     3.  Ambarı, mobil cihaz kullanıcısına, aşağıdaki ekran görüntüsünde görüldüğü gibi atayın. [![wh-09-kullanıcı-güvenlik-rolü-ekle](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-3.  Azure Active Directory uygulamanızı, ambar uygulaması kullanıcısı ile ilişkilendirin.
+2.  Azure Active Directory uygulamanızı, ambar uygulaması kullanıcısı ile ilişkilendirin.
     1.  Finance and Operations içerisinde **Sistem yönetimi** &gt; **Kurulum** &gt; **Azure Active Directory uygulamaları** konumuna gidin.
     2.  Yeni satır oluşturun.
     3.  **İstemci kimliği**'ni (son bölümde elde edilen) girin, bir ad verin ve önceki oluşturulan kullanıcıyı seçin. Tüm cihazlarınızı etiketlemenizi öneririz, böylece kayboldukları takdirde onların Finance and Operations erişimlerini bu sayfadan kolayca kaldırabilirsiniz. [![wh-10-ad-uygulamalar-formu](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)

@@ -17,14 +17,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c026a540fb7d30644d485b6a057c2c46bd7c091d
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="dual-currency"></a>Çift para birimi
+
+[!include [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations 8.1 (Ekim 2018) sürümünde tanıtılan işlev, raporlama para biriminin başka amaçla ve ikinci muhasebe para birimi olarak kullanılmasını sağlar. Bu işlevselliğe *çift para birimi* de denir. Çift para birimi değişiklikleri, bir parametre veya konfigürasyon anahtarı ile devre dışı bırakılamaz. Raporlama para birimi ikinci muhasebe para birimi olarak kullanıldığından, raporlama para biriminin yayın mantığında hesaplanma yöntemi değişti.
 
@@ -67,8 +69,8 @@ Aşağıdaki modüller raporlama para birimini ikinci bir muhasebe para birimi o
 
 - [Genel muhasebe](#general-ledger)
 - [Mali raporlama](#financial-reporting)
-- [Borç hesapları](#accounts-payable/accounts-receivable)
-- [Alacak hesapları](#accounts-payable/accounts-receivable)
+- [Borç hesapları](#accounts-payable-and-accounts-receivable)
+- [Alacak hesapları](#accounts-payable-and-accounts-receivable)
 - [Nakit ve banka yönetimi](#cash-and-bank-management)
 - [Sabit kıymetler](#fixed-assets)
 
@@ -90,7 +92,7 @@ Aşağıdaki ek değişiklikler **Genel muhasebe** modülünde yapılmıştır:
 
 Bu değişiklik, sütun tanımındaki **Para birimi görüntüleme** aracılığıyla kullanılabilir. **Genel muhasebeden raporlama para birimi** seçerseniz sütundaki tutarlar çevrilmez. Bunun yerine, doğrudan genel muhasebeden rapor edilir. Sütunun çevrilmiş tutarları göstermesini istiyorsanız **XXXX'e çevir** seçeneğini belirleyin; burada *XXXX*, sütunun göstermesi gereken raporlama para birimidir. Bu durumda, muhasebe para birimi tutarları, mevcut çeviri işlevini kullanarak seçilen para birimine çevrilir.
 
-### <a name="accounts-payableaccounts-receivable"></a>Borç hesapları/Alacak hesapları
+### <a name="accounts-payable-and-accounts-receivable"></a>Borç hesapları ve Alacak hesapları
 
 **Borç hesapları** ve **Alacak hesapları** modülleri raporlama para birimi tutarlarını izliyor. Bununla birlikte, tutarlar çeşitli süreçler için gösterilmez veya kullanılmaz. Şu değişiklikler yapılmıştır:
 

@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 70a7a1f7d7a8221a72addfbee1d21f813df4eb46
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>AP sistemindeki denetim faturaları ve anahtar veriler
@@ -35,34 +35,31 @@ Bu yordam, USMF demo şirketini kullanır. Bu adımları borç hesapları yönet
 
 
 ## <a name="create-a-purchase-order"></a>Satınalma siparişi oluşturma
-1. Tüm satınalma siparişleri'ne gidin.
-2. Yeni'ye tıklayın.
-3. Satıcı hesabı alanında, açılır menü düğmesine tıklayarak aramayı açın.
-4. Satıcı hesabı alanına bir değer girin.
-5. Tamam'a tıklayın.
-6. Satır ekle'ye tıklayın.
-7. Madde numarası alanına bir değer girin.
-8. Eylem Bölmesinde, Satınalma öğesine tıklayın.
-9. Onayla seçeneğine tıklayın.
+1. **Tüm satınalma siparişleri**'ne gidin.
+2. **Yeni**'yi tıklatın.
+3. **Satıcı hesabı** alanına bir değer girin.
+4. **Tamam** seçeneğini tıklatın.
+5. **Satır ekle**'ye tıklayın.
+6. **Madde numarası** alanına bir değer girin.
+7. Eylem Bölmesinde, **Satınalma** öğesine tıklayın.
+8. **Onayla**'yı tıklatın.
 
 ## <a name="post-a-product-receipt"></a>Ürün girişini deftere nakledin
-1. Eylem Bölmesinde, Al öğesine tıklayın.
-2. Ürün girişi seçeneğine tıklayın.
-3. Listede, seçili satırı işaretleyin.
-4. Ürün girişi alanına bir değer girin.
-5. Tamam'a tıklayın.
+1. Eylem Bölmesinde, **Teslim al** öğesine tıklayın.
+2. **Ürün girişi** öğesine tıklayın.
+3. **Ürün girişi** alanına bir değer girin.
+4. **Tamam** seçeneğini tıklatın.
 
 ## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a>Satıcı faturasını kaydedin ve bir ürün girişiyle eşleyin
-1. Eylem Bölmesinde, Fatura öğesine tıklayın.
-2. Fatura'ya tıklayın.
-3. Numara alanına bir değer girin.
-4. Varsayılan başlangıç: Sipariş miktarı'na tıklayarak açılır iletişim kutusunu açın.
-5. Satırlar için varsayılan miktar alanında bir seçenek belirtin.
-6. Tamam'a tıklayın.
-7. Evet'i tıklatın.
-8. Ürün girişlerini eşleştir'e tıklayın.
-9. Tamam'a tıklayın.
-10. Eylem Bölmesinde, Gözden geçir öğesine tıklayın.
-11. Eşleşme ayrıntıları öğesine tıklayın.
+1. Eylem Bölmesinde, **Fatura > Fatura** öğesine tıklayın.
+2. **Numara** alanına bir değer girin.
+3. **Varsayılan başlangıç: Sipariş miktarı**'na tıklayarak açılır iletişim kutusunu açın.
+4. **Satırlar için varsayılan miktar** alanında bir seçenek belirtin.
+5. **Tamam** seçeneğini tıklatın.
+6. **Evet** seçeneğini tıklatın.
+7. **Ürün girişlerini eşleştir**'e tıklayın.
+8. **Tamam** seçeneğini tıklatın.
+9. Eylem Bölmesinde, **Gözden geçir** öğesine tıklayın.
+10. **Eşleşme ayrıntıları** öğesine tıklayın.
 
 

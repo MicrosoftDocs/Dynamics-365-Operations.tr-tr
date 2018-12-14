@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
+ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
+ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -152,6 +152,7 @@ Not: Aşağıda listelenen işlemler Dynamics 365 for Retail'in en son sürümü
 | 644 | Kupon kodunu kaldır | Kullanıcıdan hareketle ilişkilendirilen kupon listesinden seçim yaparak kuponları kaldırmasını isteyin. | Evet | Evet | Hayır | Evet | Hayır |
 | 1057 | Z'yi yeniden yazdır | Önceki vardiyanın veya seçili bir vardiyanın Z raporunu yeniden yazdırın. | Evet | Evet | Evet | Hayır | Hayır |
 | 1216 | Parolayı sıfırla | Bu işlem parola sıfırlama izni olan bir kullanıcının başka bir personelin parolasını geçici bir parola kullanarak sıfırlamasına olanak tanır. | Evet | Evet | Evet | Hayır | Hayır |
+| 1219 | POS'ta URL Aç | Bu operasyon, bir kullanıcının yönetici tarafından yapılandırılmış URL'yi POS içinde açmasını sağlar. | Evet | Evet | Evet | Evet | Hayır | 
 | 109 | Ürünü iade et | Tek tek ürünler için iade gerçekleştirin. Taranan sonraki ürün, negatif miktar ve fiyatı olan iade edilmiş bir ürün olarak gösterilir. | Evet | Evet | Hayır | Evet | Hayır |
 | 114 | İade hareketi | Bazı ürünleri veya ürünlerin tümünü iade etmek için önceki hareketi makbuz numarasına göre geri çağırır. | Evet | Evet | Evet | Evet§ | Hayır |
 | 1211 | Kasaya para nakli | Yazar kasadan kasaya para taşımak için kasaya para nakli işlemi yapın. | Evet | Evet | Evet | Evet | Hayır |

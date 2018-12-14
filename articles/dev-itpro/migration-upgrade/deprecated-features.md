@@ -3,7 +3,7 @@ title: "Kaldırılan veya artık kullanılmayan özellikler"
 description: "Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
+ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -87,6 +87,19 @@ Dışa aktarma özelliğini klasörüne bildirimlerinin elektronik dosyalar daha
 | **Etkilenen ürün alanları**         | Genel Muhasebe, Vergi |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Dynamics 365 for Finance and Operations 8.1'de platform güncelleştirmesi 20 ile kaldırıldı. |
+
+
+### <a name="profit-tax-register-wizard"></a>Kar vergi kayıt sihirbazı
+Yeni kar vergi kayıtları için şablonlar oluşturma özelliği. Bu özellik, yeni kayıtlar için X++ nesnelerini oluşturur, bunlar daha sonra şablonlar olarak uygun hesaplama mantığı eklenmiş biçimde oluşturulur.
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Özellik, Dynamics 365 for Finance and Operations genişletilebilirlik modeli ile uyumlu değildir. |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır |
+| **Etkilenen ürün alanları**         | Vergi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Dynamics 365 for Finance and Operations 8.1'de platform güncelleştirmesi 20 ile kaldırıldı. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0, platform güncelleştirmesi 15 ile
 Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakılmamıştır. Platform Güncelleştirmesi 15 toplu güncelleştirmedir ve Platform Güncelleştirmesi 13, Platform Güncelleştirmesi 14 ve Platform Güncelleştirmesi 15'deki yeni veya değiştirilmiş özellikleri içerir.
@@ -993,6 +1006,17 @@ Stok ve Ambar günlükleri, günlüğün seçili kullanıcı için özel olarak 
 | **Başka bir özellik ile değiştirildi?**   | Evet. Kısıtlama tabanlı yapılandırma Dynamics AX 2012'de sunuldu ve Ürün oluşturucunun gelecekteki sürümlerde kullanımdan kaldırılacağı zaten açıklandı. Kısıtlama tabanlı yapılandırma teknolojisi yapılandırmayı etkinleştirmek ana ürünlerde seçilir. Daha fazla bilgi için bkz. [Ürün yapılandırma modeli oluşturma](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Etkilenen ürün alanları**         | Ürün bilgileri yönetimi, satış ve pazarlama  |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.      |
+
+### <a name="production-floor-app"></a>Üretim Katı uygulaması
+Bu uygulama, Windows 8.1 RT ve Windows 8.1 Pro çalıştıran tablet cihazlar için uygundur.
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Bir web tabanlı istemciye geçiş ile, yerel Dynamics AX 7.0 istemcisi aracılığıyla benzer işlevselliği sunmak mümkündür. İş Kartı Cihazı, dokunma ve tablet form faktörleri için bir üretim katı kullanıcı arabirimi sağlar. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet. İş Kartı Cihazı, Dynamics AX 7.0'ın yerel bir parçasıdır.                                                                           |
+| **Etkilenen ürün alanları**         | Üretim denetimi                                                |
+| **Durum**                         | Kaldırıldı: Bu özellik için Microsoft mağazasından bir kaldırma tarihi henüz belirlenmemiştir.                                                |
+
 
 ### <a name="rename-product-dimension"></a>Ürün boyutunu yeniden adlandır
 

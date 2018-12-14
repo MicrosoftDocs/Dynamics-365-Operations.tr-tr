@@ -2,13 +2,13 @@
   href: index.md
 - name: Başlayın
   items:
-    - name: Yenilikler veya değişenler
+    - name: Yenilikler veya değişiklikler
       href: get-started/whats-new.md
     - name: Retail satın almadan önce
       href: get-started/before-you-buy.md
     - name: Önizleme aboneliğine kaydolma
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
-    - name: Tanıtım ortamını dağıtma
+    - name: Bir tanıtım ortamını dağıtma
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Dağıtım seçenekleri
       href: dev-itpro/choose-deployment.md
@@ -45,8 +45,10 @@
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: Retail projeleri için kodu ve ortamları güncelleştirme
       href: dev-itpro/updating-environments.md
-    - name: Sınama ve performans sorunları
+    - name: Test ve performans sorunları
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: Dağıtılmış sipariş yönetimi (DOM)
+  href: dom.md
 - name: Ödemeler
   items:
     - name: Ödeme yöntemleri
@@ -55,6 +57,8 @@
       href: ../financials/accounts-receivable/credit-card-authorizations.md
     - name: POS için nakit kupürlerini yapılandırma
       href: cash-denominations.md
+    - name: Ödeme faturası senaryolarını ayarlama
+      href: payinvoice.md
     - name: Ödemeler ile ilgili SSS
       href: dev-itpro/payments-retail.md
 - name: Satınalma siparişleri
@@ -211,8 +215,10 @@
       href: Order-fulfillment-overview.md
     - name: Mağazalar için sipariş karşılamayı ayarlama
       href: Order-fulfillment-POS-setup.md
-    - name: POs'ta sipariş bildirimlerini gösterme
+    - name: POS'ta sipariş bildirimlerini gösterme
       href: Notifications-POS.md
+- name: Bir iade emrinde bir değişiklik yapılandırma ve işleme
+  href: orderexchanges.md
 - name: İzleme ve analiz
   items:
     - name: Satış ve kar performansını izleme
@@ -235,6 +241,8 @@
       href: price-management.md
     - name: Fiyat ayarlamaları ve iskontolar
       href: price-adjustments-discounts.md
+    - name: Bir ürüne birden fazla Perakende iskontosu ekleme
+      href: Apply-multiple-retail-discounts.md
     - name: Çakışan iskontolar için en uygun birleşimi belirleme
       href: optimal-combination-overlapping-discounts.md
     - name: Kanala özel iskontolar tanımlama
@@ -488,6 +496,8 @@
       items:
         - name: Retail POS ekran düzenleri
           href: pos-screen-layouts.md
+        - name: URL'yi POS'ta açma
+          href: Open-URL-in-POS.md
         - name: POS Düzeni tasarımcısını yükleme
           href: install-pos-layout-designer.md
         - name: Çevrimdışı modda Retail Modern POS
@@ -508,6 +518,10 @@
           href: dev-itpro/gift-card.md
         - name: Markalama oluşturma ve Retail Experience uygulamasına uygulama
           href: dev-itpro/create-retail-experience-app.md
+        - name: Android ve iOS'ta POS Hybrid uygulamasını ayarlama
+          href: dev-itpro/hybridApp.md
+        - name: POS istek işleyicisini geçersiz kılma
+          href: dev-itpro/pos-handler.md
     - name: Hardware Station ve genişletilebilirlik
       href: dev-itpro/hardware-station-extensibility.md
     - name: Retail Server genişletilebilirliği
@@ -562,10 +576,14 @@
           href: dev-itpro/payment-custom-error-messages.md
         - name: Ödeme bağlayıcıları için Windows yükleyicileri oluşturma
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Ödeme verileri kullanımı
+          href: payment-connector-data-fields.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
-        - name: Retail ve Finance and Operations için oluşturma sistemlerini birleştirme
+        - name: Yakında Retail SDK'de yapılacak değişiklikler
+          href: dev-itpro/UpcomingSDKChanges.md
+        - name: Retail ve Finance and Operations için yapı sistemlerini birleştirme
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Retail SDK genişletilebilirlik örnekleri
           href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md

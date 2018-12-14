@@ -1,9 +1,9 @@
 ---
-title: "Ürün girişine karşılık satınalma siparişleri"
-description: "Bu makalede ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır."
+title: "Ürün girişi ve satınalma siparişleri karşılaştırması"
+description: "Bu konuda ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır."
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
+ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
+ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
-# <a name="product-receipt-against-purchase-orders"></a>Ürün girişine karşılık satınalma siparişleri
+# <a name="product-receipt-against-purchase-orders"></a>Ürün girişi ve satınalma siparişleri karşılaştırması
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-Bu makalede ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
+Bu konuda ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
 
 Ürün girişi satınalma siparişi (PO) satırlarının daha sonra faturalama için işlem görmesi amacıyla sipariş edilen ürünlerin alındığını kaydetme işlemidir. Bazı durumlarda, ürünler alınmadan ek bilgilerin tedarikçilerden alındığı ön kayıt işleminden geçen ürünler kaydedilir. Ürünler geldiğinde ilk olarak **Kayıtlı** şeklinde işaretlenir. Ürünler son olarak **Alındı** şeklinde işaretlenmeden önce kalite yönetimi gibi ek işlemlerden geçebilirler.
 
@@ -46,8 +46,6 @@ Stokta yerine koymadan önce ambarda alınan ürünler kalite incelemesinden ge�
 
 ## <a name="product-receipt"></a>Ürün girişi
 Çoğu zaman **Satınalma siparişleri** sayfasındaki **Ürün girişi** eylemi ürünleri PO'da **Alındı** olarak işaretlemek için kullanılır. Alındı olarak muhasebeleştirilen miktar için **Ürün girişi naklediliyor** sayfası çeşitli seçeneklere sahiptir. Örneğin **Kalite** alanını **Sipariş edilen miktar** veya **Hemen teslim alma miktarı** olarak ayarlayabilirsiniz. Alternatif olarak bir ambar varış işlemi kullanılmışsa bu alanı genellikle **Kayıtlı miktar** olarak ayarlarsınız. Eksik teslimat ve fazla teslimat gibi uyuşmazlıkları açıklamak için miktarları **Alındı** olarak işaretlenecek her bir sipariş satırı üzerinden değiştirebilirsiniz. Ürün girişi sırasında genellikle tedarikçiden alınan sevk irsaliyesine referans olacak bir ürün giriş tanımlayıcısı belirtmeniz gerekir. Bu tanımlayıcı, alınanlara ve muhasebesi yapılmış stok veya gidere göre tedarikçi sevk irsaliyelerinin kontrol edilmesi veya denetlenmesini etkinleştirdiğinden muhasebeye ihtiyaç duyar.  
-
-Bir çalışan malları satınlama talebini kullanarak sipariş etmişse bu çalışandan ürünün kendisinin girişini teyit etmesi istenebilir. Bir iş akışı kullanarak bu davranışı yapılandırın. İş akışı koşullarını iş sürecinizle eşleşecek şekilde yapılandırabilirsiniz.  
 
 PO'lar stok olarak tasarlanmamış ancak gider olarak kabul edilen ürünler için oluşturulabilir. Bu kategori ürünlerin stok modeli gruplarına göre **Stoklanmayan** olarak işaretlendiği sipariş satırlarını ve tedarik kategorilerini kullanan satırları içerir. Bu durumda, maddeler varış kaydı ve ambara giriş işleminden geçmeyebilirler. Bunun yerine, PO'da girişi doğrudan kaydetmek için **Ürün girişi** eylemi kullanılır ve giriş kaydedilen miktara değil sipariş edilen miktara göredir.  
 

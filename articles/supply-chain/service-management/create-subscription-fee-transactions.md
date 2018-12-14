@@ -1,6 +1,6 @@
 ---
 title: "Abonelik işlem harcı oluştur"
-description: 
+description: "Bu konu, abonelik ücreti hareketlerinin nasıl oluşturulacağını anlatır."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
@@ -19,10 +19,10 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f8ef08bf4a45c2bbb191eec1d81d815415d1d75f
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 1c42f595a317170ab5bb64fcb0bb1ca299523bd7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 

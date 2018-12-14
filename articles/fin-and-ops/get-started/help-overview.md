@@ -1,9 +1,9 @@
 ---
 title: "Finance and Operations Yardım sistemi"
-description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır."
+description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar."
 author: margoc
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
-ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: dc057faf3cd08ea1c939d0cc35ae404bde59e514
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/17/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/17/2018
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır. 
+Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. 
 
 > [!NOTE] 
 > Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
@@ -48,8 +48,6 @@ Finance and Operations, iki ana bileşeni temel alan bir Yardım sistemi içerir
 Kullanmakta olduğunuz ürünün Yardım bölmesinden yardıma erişebilirsiniz. Aşağıdaki ekran görüntüsü Finance and Operations'u gösterir.
 
 ![Yardım bölmesi](./media/help-pane-ops-task-guides.png)
-
-Bu konu, Yardım sistemini anlatır ve kuruluşunuz için özel belgeleri ve eğitim kaynaklarını nasıl oluşturabileceğinizi açıklar.
 
 > [!IMPORTANT]
 > **Görev kılavuzları**, şu anda Retail veya Talent için Yardım bölmesinde kullanılamıyor (birkaç görev Talent için Başlarken bölmesinde kullanılabilir). Yordamlama yardımı da docs.microsoft.com sitesinde, hem Retail hem Talent için kullanılabilir ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)).
@@ -83,7 +81,7 @@ Unified Operations içeriği için tüm güncelleştirmelerin RSS akışına abo
 ### <a name="give-feedback"></a>Görüş bildirin 
 Müşteri geri bildirimlerinden gerçekten memnuniyet duyuyoruz. GitHub aracılığıyla yorum yapabilir veya içeriğimizle ilgili değişiklikler önerebilirsiniz. Geri bildirim sistemimiz hakkında daha fazla bilgi için [bu blog gönderisine](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs) bakın.
 
-##### <a name="leave-us-feedback"></a>Geri bildirim bırakın 
+#### <a name="leave-us-feedback"></a>Geri bildirim bırakın 
 Bir konuyla ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmından bize yorum bırakın.  
 
 1. Sayfanın altındaki yorumlara ulaşmak için **Geri Bildirim**'e ve ardından **Ürün geri bildirimi** veya **Belge geri bildirimi bırakmak için oturum açın**'a tıklayın.
@@ -93,8 +91,6 @@ Bir konuyla ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmınd
 2. Yorumlarınızı yazmaya başlayın ve sonra **Geri bildirim gönder**'e tıklayın.
 
 ![Yorumu gönderin](./media/feedback.png)
-
-
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>GitHub aracılığıyla değişiklik önerin veya içeriğe katkıda bulunun
 Bir değişiklik önermek için GitHub hesabınız olması ve Katılımcı Lisansı Sözleşmesi imzalamanız gerekir.  Talebinizi gönderdikten sonra önerilen değişiklikleri gözden geçiririz. Gerekirse, içeride bu konuyu tartışır ve size geri döneriz.  
@@ -122,22 +118,7 @@ Yönlendirmeli, etkileşimli deneyime başlamak için, Yardım bölmesinin altı
 > [!IMPORTANT] 
 > Bir görev kılavuzunu yürütürken girdiğiniz veriler gerçektir. Bir üretim ortamındaysanız, veriler kullanmakta olduğunuz şirkette girilir.
 
-### <a name="it-all-begins-with-task-recorder"></a>Tüm bu Görev Kaydedicisi ile başlar
-
-Görev kılavuzları Görev Kaydedici kullanarak oluşturulur. Görev Kaydedici'yi kullanırken, Finance and Operations Kullanıcı Arabiriminde yaptığınız tüm eylemler (menülere tıklamak, ayarları değiştirmek ve veri girmek gibi) kaydedilir. Kaydettiğiniz tüm adımlar toplu olarak görev kaydı olarak adlandırılır. Bir önceki bölümde açıklandığı gibi görev kayıtları Yardım bölmesinde görüntülenebilir ve görev kılavuzları olarak oynatılır. Ancak, görev kayıtlarını kullanmanın farklı yolları vardır:
-
--   **Görev kayıtlarını BPM'ye kaydetme**: Bir görev kaydını LCS'deki BPM kitaplığında bir hiyerarşi sırasına kaydedebilirsiniz. BPM'ye bir görev kaydını kaydettiğinizde, akış diyagramı oluşturulur ve kayıt adımları ile birlikte görüntülenir. 
-
-    > [!Note]
-    > Finance and Operations Yardım bölmesinde bir görev kaydetmeyi görüntülemek ve görev kılavuz olarak yürütmek için kaydı bir BPM kitaplığına kaydetmeniz gerekir.
-    
--   **Görev kayıtlarını Word belgesi olarak kaydet**: Görev kaydını bir Microsoft Word belgesi olarak kaydederek, kuruluşunuz için yazdırılabilir eğitim kılavuzlarını kolaylıkla üretebilirsiniz.
-
-Görev Kaydedici hakkında daha fazla bilgi için bkz. [Finance and Operations'da görev kaydedici.](../../dev-itpro/user-interface/task-recorder.md).
-
-### <a name="creating-customized-task-recordings"></a>Özelleştirilmiş görev kayıtları oluşturma
-
-Kendi görev kayıtlarınızı oluşturabilirsiniz veya Microsoft'un sağladığı görev kaydını indirebilir ve özelleştirebilirsiniz. Bu nedenle, belirli Finance and Operations uygulamanızı yansıtan, kuruluşunuz için özelleştirilmiş Yardım oluşturabilirsiniz. Finance and Operations Yardım bölmesinde bir görev kaydetmeyi görüntülemek ve Görev kılavuz olarak yürütmek için kaydı LCS içindeki bir BPM kitaplığına kaydetmeniz gerekir. Bir ortaksanız ve bir kitaplığı şirket kitaplığına yükseltirseniz ve bir çözüme eklerseniz, müşterileriniz tarafından kullanılabilir olacaktır. Tam yönergeler için bkz. [Belgeler veya eğitim oluşturmak için görev kayıtlarını kullanmak.](../../dev-itpro/user-interface/task-recorder.md).
+Kendi özel görev kılavuzlarını oluşturmak için Görev kaydediciyi kullanabilirsiniz. Daha fazla bilgi için bkz. [Görev kayıtlarını kullanarak belge veya eğitim oluşturmak](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Ürün içi Yardım
 Finance and Operations'ın içerisinde Yardım içeriğine erişmek için **Yardım** (**?**) simgesine tıklayın ve sonra Yardımı seçin veya Ctrl+Shift+?' tuşlarına basın. Her iki durumda Yardım bölmesi açılır. Yardım bölmesinden, makalelerine veya görev kılavuzlarına ulaşabilirsiniz. 
@@ -184,6 +165,11 @@ Bir sistem yöneticisi bu adımları tamamladıktan sonra, Yardım bölmesini a�
 Çevrilmiş Görev kılavuzları, kütüphanede, başlıklarında "Tüm diller" olarak yayınlanır. Finance and Operations'da yerelleştirilmiş Görev kılavuzu yardımını görmek için uygun bir kitaplığa bağlı olduğunuzdan emin olun. Görev kılavuzunun görüntülendiği dil her kullanıcı için **Seçenekler** &gt; **Tercihler** altındaki Dil ayarlarından kontrol edilir. 
 -   Görev kılavuzu çevrildiyse, Görev kılavuzunu açtığınızda, Görev kılavuzundaki tüm metin seçmiş olduğunuz dilde görüntülenir.
 -   Görev kılavuzu çevrilmediyse, açtığınızda, yalnızca bazı metinler (kontrollerin metinleri) seçmiş olduğunuz dilde görüntülenir.
+
+## <a name="creating-custom-help"></a>Özel yardım oluşturma
+Kullanıcılarınız için özel görev kılavuzları oluşturarak yardım oluşturabilir veya kendi web sitenizi Yardım panosuna bağlayabilirsiniz. Ayrıntılı bilgi için bkz: 
+- [Belge veya eğitim olarak kullanmak için görev kaydı oluşturma](../../dev-itpro/user-interface/task-recorder.md).
+- [Finance and Operations için Özel Yardım Oluşturmak (teknik inceleme)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

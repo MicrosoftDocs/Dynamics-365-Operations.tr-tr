@@ -4,9 +4,13 @@
     - name: Başlayın
       href: talent-get-started.md
       items:
-        - name: Yenilikler veya değişenler
+        - name: Yenilikler veya değişiklikler
           href: whats-new.md
           items:
+            - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (27 Kasım 2018)
+              href: whats-new-talent-november-27.md
+            - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (15 Kasım 2018)
+              href: whats-new-talent-november-15.md
             - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (31 Ekim 2018)
               href: whats-new-talent-october-31.md
             - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (19 Ekim 2018)
@@ -81,7 +85,7 @@
           href: Creating-jobs-Attract.md
         - name: Yetenek Havuzlarıyla kaynak bulma
           href: attract-talent-pools.md
-        - name: LinkedIn Recruiter ile kaynak bulma
+        - name: LinkedIn İşveren ile kaynak bulma
           href: attract-linked-in-recruiter.md
         - name: Attract'taki İşe Alma Süreci faaliyetleri
           href: activities-attract.md
@@ -91,15 +95,13 @@
           href: career-site.md
         - name: Teklif yönetimini ayarlama
           href: offer-setup.md
-        - name: 'Teklifleri oluşturma, onaylama ve imzalama'
+        - name: 'Teklif oluşturma, onaylama ve imzalama'
           href: creating-offers.md
-        - name: E-posta şablonlarını oluşturma ve yönetme
+        - name: E-posta şablonları oluşturma ve yönetme
           href: email-templates.md
-        - name: Rapor ve analiz
-          href: Reporting-Analytics-Attract.md
-        - name: Attract'ta güvenlik ve rol yönetimi
+        - name: Attract'te güvenlik ve rol yönetimi
           href: security-attract.md
-        - name: Attract'ta yönetici ayarları
+        - name: Attract'te yönetici ayarları
           href: Admin-Settings-Attract.md
         - name: Akıllı öneriler
           href: Intelligent-Recommendations.md
@@ -260,9 +262,33 @@
           href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: İnsan kaynakları görevleri
       items:
-        - name: Performans günlüğüne ekleme ve birine övgü gönderme
+        - name: Performans günlüğünüze ekleme ve birisine övgü gönderme
           href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Hedef oluşturma
           href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Performans incelemesi oluşturma
           href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Talent'ta Sorun Giderme
+      items:
+        - name: Analitik raporlar güncelleştirilmedi
+          href: analytic-reports-not-updated.md
+        - name: PowerApps Yönetici merkezinde ortam oluşturulamıyor
+          href: create-envi-powerapps-admin-ctr.md
+        - name: Talent istemcisinin bağlantısı kesiliyor
+          href: client-disconnects.md
+        - name: Veritabanı yedekleme işlemlerini yapma
+          href: database-backups.md
+        - name: Pozisyon hiyerarşisinde metin kesilmesini engelleme ve Visio'ya aktarma
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: Ücret işlemini çalıştırma
+          href: run-compensation-process.md
+        - name: Görev kılavuzlarını LCS'ye kaydetme ve yeniden oynatma
+          href: save-play-task-guides-LCS.md
+        - name: Güvenlik rolüne göre özel adreslere erişim
+          href: security-roles-addresses.md
+        - name: 'Talent, Microsoft Dynamics 365 uygulamaları (CDS1.0) arasında görünmüyor'
+          href: talent-not-in-home-CDS.md
+        - name: Kullanıcı Core HR'a erişebiliyor ancak Onboard veya Attract uygulamasına erişemiyor
+          href: user-access-core-hr.md
+        - name: Talent'taki raporlama seçenekleri
+          href: talent-reporting-options.md
