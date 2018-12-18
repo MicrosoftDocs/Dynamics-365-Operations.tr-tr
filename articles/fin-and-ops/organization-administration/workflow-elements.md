@@ -34,42 +34,46 @@ Bu konuda, bir iş akışını oluşturan çeşitli öğeler açıklanmaktadır.
 İş akışı öğelerden oluşur. Aşağıdaki bölümlerde her bir öğe türü tanımlanmıştır.
 
 ## <a name="tasks"></a>Görevler
+
 *Görev*, gerçekleştirilmesi gereken bir iş birimidir. İş akışına iki tür görev eklenebilir: manuel görevler ve otomatik görevler.
 
 ### <a name="manual-task"></a>Manuel görev
 
 *Manuel görev*, kullanıcı tarafından gerçekleştirilmesi gereken bir iş birimidir. Örneğin, bir gider raporu iş akışı, atanan kullanıcının aşağıdaki eylemleri tamamlamasını gerektiren manuel görevler içerebilir:
 
--   Bir gider raporu ile birlikte gönderilen girişleri incelemek.
--   Bir personel müdürünü aramak.
+- Bir gider raporu ile birlikte gönderilen girişleri incelemek.
+- Bir personel müdürünü aramak.
 
 ### <a name="automated-task"></a>Otomatik görev
 
 *Otomatik görev*, sistem tarafından gerçekleştirilmesi gereken bir iş birimidir. İnsan etkileşimi gerekli değildir. Örneğin, bir satış emri iş akışı, sistemin aşağıdaki eylemleri tamamlamasını gerektiren otomatik görevler içerebilir:
 
--   Bir kredi denetimi gerçekleştirmek.
--   Bir kayıt yoksa müşteri için bir müşteri kaydı oluşturmak.
+- Bir kredi denetimi gerçekleştirmek.
+- Bir kayıt yoksa müşteri için bir müşteri kaydı oluşturmak.
 
 ## <a name="approval-processes"></a>Onay işlemleri
+
 *Onay işlemi*, ayrı adımlardan oluşan bir işlemdir. Her onay adımında, kullanıcı aşağıdaki eylemleri gerçekleştirebilir:
 
--   Belgeyi onaylama.
--   Belgeyi reddetme.
--   Belgede değişiklik talep etme.
--   Belgeyi onay için başka bir kullanıcıya atama.
+- Belgeyi onaylama.
+- Belgeyi reddetme.
+- Belgede değişiklik talep etme.
+- Belgeyi onay için başka bir kullanıcıya atama.
 
 ## <a name="line-item-workflow-elements"></a>Satır maddesi iş akışı öğeleri
+
 Belgeleri veya bir belgedeki satır maddelerini işlemek için bir iş akışı oluşturulabilir. Örneğin, zaman çizelgeleri için onay iş akışı hazırladınız. (Biz bu iş akışına *belge iş akışı* diyeceğiz.) Bu belge iş akışına bir *satır öğesi iş akışı* öğesi ekleyebilirsiniz. Satır maddesi öğesi çalıştırıldığında, belgedeki her satır maddesi işlenmek üzere gönderilir. Tüm satır maddelerinin aynı satır maddesi iş akışı tarafından işlenmesini isteyebilirsiniz veya her bir satır maddesinin farklı bir satır maddesi iş akışı tarafından işlenmesini isteyebilirsiniz. Bir işçinin aşağıdaki şekle benzer bir zaman çizelgesi gönderdiğini düşünün.
 
-![Satır öğeleri ile iş akışı](./media/workflow_lineitemworkflow.gif) 
+![Satır öğeleri ile iş akışı](./media/workflow_lineitemworkflow.gif)
 
 Bu senaryoda, aşağıdaki satır maddesi iş akışlarını oluşturmak isteyebilirsiniz:
 
--   **Satır maddesi iş akışı 1** – Bu iş akışı proje kodunun 1111 olduğu satır maddelerini işlemek için kullanılır.
--   **Satır maddesi iş akışı 2** – Bu iş akışı proje kodunun 2222 olduğu satır maddelerini işlemek için kullanılır.
--   **Satır maddesi iş akışı 3** – Bu iş akışı proje kodunun 3333 olduğu satır maddelerini işlemek için kullanılır.
+- **Satır maddesi iş akışı 1** – Bu iş akışı proje kodunun 1111 olduğu satır maddelerini işlemek için kullanılır.
+- **Satır maddesi iş akışı 2** – Bu iş akışı proje kodunun 2222 olduğu satır maddelerini işlemek için kullanılır.
+- **Satır maddesi iş akışı 3** – Bu iş akışı proje kodunun 3333 olduğu satır maddelerini işlemek için kullanılır.
 
 ## <a name="flow-control-elements"></a>Akış kontrolü öğeleri
+
 Aşağıdaki öğeler, alternatif dalları veya aynı anda çalışan dalları olan iş akışları tasarlamanıza imkan verir.
 
 ### <a name="manual-decision"></a>El ile karar
@@ -87,7 +91,4 @@ Aşağıdaki öğeler, alternatif dalları veya aynı anda çalışan dalları o
 ### <a name="subworkflow"></a>Alt iş akışı
 
 *Alt iş akışı*, başka bir iş akışının bağlamında çalışan bir iş akışıdır
-
-
-
 

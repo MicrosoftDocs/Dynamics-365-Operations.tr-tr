@@ -34,24 +34,24 @@ Koşullu kararın özelliklerini yapılandırmak için aşağıdaki yordamı kul
 Koşullu karar, bir iş akışının iki dala ayrıldığı bir noktadır. Koşullu bir kararı iş akışı düzenleyicisinde yapılandırmak için koşullu karara sağ tıklayın ve ardından **Özellikler** formunu açmak için **Özellikler**'e tıklayın.
 
 ## <a name="name-a-decision"></a>Karara ad verme
+
 Koşullu bir karara bir ad vermek için aşağıdaki adımları uygulayın.
-1.  Sol bölmede **Temel Ayarlar**'a tıklayın.
-2.  Koşullu karar için **Ad** alanına benzersiz bir ad girin.
+
+1. Sol bölmede **Temel Ayarlar**'a tıklayın.
+2. Koşullu karar için **Ad** alanına benzersiz bir ad girin.
 
 ## <a name="set-conditions"></a> Koşulları ayarlama
+
 Sistem, gönderilen belgeyi belirli koşulları karşılayıp karşılamadığını belirlemek için değerlendirerek hangi dalın kullanıldığını belirler.
-1.  Sol bölmede **Temel Ayarlar**'a tıklayın.
-2.  **Koşul ekle** seçeneğini tıklatın.
-3.  Koşulu girin.
-4.  Gerekiyorsa ek koşulları girin.
-5.  Girdiğiniz koşulların doğru biçimde yapılandırıldığını doğrulamak için aşağıdaki adımları tamamlayın:
-    1.  **Sınama iş akışı koşulu** formunu açmak için **Sına**'ya tıklayın.
-    2.  Formdaki **Koşulu doğrula** alanından bir kayıt seçin.
-    3.  **Sına**'ya tıklayın. Sistem, belirtmiş olduğunuz koşullarını yerine getirip getirmediğini belirlemek için kaydı değerlendirir.
-    4.  **Özellikler** formuna geri dönmek için **Tamam** veya **İptal**'e tıklayın.
 
+1. Sol bölmede **Temel Ayarlar**'a tıklayın.
+2. **Koşul ekle** seçeneğini tıklatın.
+3. Koşulu girin.
+4. Gerekiyorsa ek koşulları girin.
+5. Girdiğiniz koşulların doğru biçimde yapılandırıldığını doğrulamak için aşağıdaki adımları tamamlayın:
 
-
-
-
+    1. **Sınama iş akışı koşulu** formunu açmak için **Sına**'ya tıklayın.
+    2. Formdaki **Koşulu doğrula** alanından bir kayıt seçin.
+    3. **Sına**'ya tıklayın. Sistem, belirtmiş olduğunuz koşullarını yerine getirip getirmediğini belirlemek için kaydı değerlendirir.
+    4. **Özellikler** formuna geri dönmek için **Tamam** veya **İptal**'e tıklayın.
 

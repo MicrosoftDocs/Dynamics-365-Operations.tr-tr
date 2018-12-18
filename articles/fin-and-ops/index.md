@@ -51,7 +51,7 @@ Bu içeriğin çoğu ilgili ürünler için de geçerlidir: Microsoft Dynamics 3
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">Dynamics 365 için FastTrack</a></p>
 <p><a href="imp-lifecycle/onboard.md">Bir projeyi işe alma</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Servise almak için hazırlama</a></p>
-  
+
 <h3><a href="../financials/index.md">Mali yönetim</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Borç hesapları</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Alacak hesapları</a></p>
@@ -65,7 +65,7 @@ Bu içeriğin çoğu ilgili ürünler için de geçerlidir: Microsoft Dynamics 3
 <p><a href="../financials/public-sector/public-sector-functionality.md">Kamu sektörü</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Bölgesel mevzuat özellikleri</a></p>
 
-<H3><a href="hr/hr-landing-page.md">İnsan kaynakları</a></h3>
+<h3><a href="hr/hr-landing-page.md">İnsan kaynakları</a></h3>
 <p><a href="../talent/manage-benefit-program.md">Kazançlar</a></p>
 <p><a href="../talent/performance-management-overview.md">Personel gelişimi ve eğitim</a></p>
 <p><a href="../talent/questionnaires.md">Soru formu</a></p>

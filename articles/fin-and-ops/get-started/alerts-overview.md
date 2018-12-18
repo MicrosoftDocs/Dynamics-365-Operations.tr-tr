@@ -34,11 +34,13 @@ Uyarılar, Microsoft Dynamics 365 for Finance and Operations'ta kritik olaylar i
 Kurumsal kaynak planlamasında (ERP), Finance and Operations'taki uyarı özelliklerinin kullanılabileceği bazı tipik senaryolar vardır. Burada bazı örnekler verilmiştir.
 
 ### <a name="scenario-1-create-an-alert-rule-for-new-sales-orders"></a>Senaryo 1: Yeni satış siparişleri için bir uyarı kuralı oluşturun
+
 1. **Tüm satış siparişleri** sayfasını açın.
 2. Eylem Bölmesinde, **Seçenekler** sekmesindeki **Paylaş** grubunda **Özel uyarı oluştur**'u seçin.
 3. **Uyarı kuralı oluştur** iletişim kutusunda **Beni uyarma zamanı** hızlı sekmesinde **Olay** alanında **Kayıt oluşturuldu**'yu seçin.
 
 ### <a name="scenario-2-create-an-alert-rule-for-postponement-of-a-delivery-date"></a>Senaryo 2: Bir teslimat tarihinin ertelenmesi için bir uyarı kuralı oluşturun
+
 1. **Tüm satınalma siparişleri** sayfasını açın.
 2. Satınalma siparişi ayrıntılarına erişmek için bir satınalma siparişi kimliği seçin.
 3. **Satın alma siparişi başlığı** hızlı sekmesini genişletin.
@@ -49,6 +51,7 @@ Kurumsal kaynak planlamasında (ERP), Finance and Operations'taki uyarı özelli
 **Uyarı kuralı oluştur** iletişim kutusunu kapattıktan sonra kuralınız, **Uyarı kurallarını yönet** sayfasında görünür. Mevcut uyarı kurallarınızı güncelleştirmek için **Uyarı kurallarını yönet** sayfasını kullanabilirsiniz. Örneğin, olay tetikleyicilerini değiştirebilir, olay bildirimlerini güncelleştirebilir ve bitiş tarihlerini güncelleştirebilirsiniz. **Uyarı kurallarını yönet** sayfasını açmak için Eylem Bölmesinin **Seçenekler** sekmesinde **Beni uyar** düğmesini kullanın.
 
 ## <a name="what-occurs-when-an-alert-rule-is-created"></a>Uyarı kuralı oluşturulduğunda ne olur?
+
 Uyarı kuralları oluşturduğunuzda önceden tanımlanmış bir olayı belirli bir alanla ilişkilendirebilirsiniz. Örneğin, alanda belirtilen tarih geldiğinde veya alan içeriği değiştiğinde. Alternatif olarak, bir olayı belirli bir sayfadaki kayıtlarla ilişkilendirebilirsiniz. Örneğin, bir kayıt oluşturulur veya bir kayıt silinir.
 
 Alan veya sayfadaki bir kayıt için seçilen olay gerçekleşirse bir uyarı gönderilir. Örneğin, belirli bir satınalma sipariş satırında **Teslimat tarihi** alanını **bu kadar süre önce sona erdi** olayıyla ilişkilendirdiğiniz bir kural oluşturun. Zaman dilimini beş gün olarak ayarlayın. Bu durumda, ilgili satınalma sipariş satırının teslimat tarihinden beş gün sonra bir uyarı gönderilir.
@@ -56,9 +59,11 @@ Alan veya sayfadaki bir kayıt için seçilen olay gerçekleşirse bir uyarı g�
 Ayrıca uyarı kurallarını koşullar ayarlayarak daraltabilirsiniz. Örneğin, belirli satıcı hesapları için oluşturulan yeni satınalma siparişleriyle ilgili uyarı alabilirsiniz.
 
 ## <a name="preparing-for-an-alert"></a>Uyarı için hazırlanma
+
 Uyarı kuralını ayarlamadan önce, ne zaman ve hangi durumlarda uyarı almak istediğinize karar verin. Hangi olay hakkında bilgilendirilmek istediğinizi bildiğinizde, Finance and Operations'ta bu olaya neden olan verilerin göründüğü sayfayı bulun. Olay, gelecek bir tarih veya meydana gelen özel bir değişiklik olabilir. Bu nedenle, tarihin belirtildiği veya değişen alanın bulunduğu ya da oluşturulan yeni kaydın göründüğü sayfayı bulmanız gerekir. Bu bilgilere sahip olduktan sonra uyarı kuralını oluşturabilirsiniz.
 
 ## <a name="components-of-an-alert-rule"></a>Uyarı kuralının bileşenleri
+
 Uyarı kuralının beş bileşeni vardır:
 
 - **Olay**: Uyarı kuralını tetikleyen olay, gelecek bir tarih veya meydana gelen belirli bir değişiklik olabilir. Olayları, **Uyarı kuralı oluştur** iletişim kutusunun **İş durumu değişiklikleri için e-posta uyarıları gönder** hızlı sekmesinde tanımlarsınız.
@@ -71,5 +76,6 @@ Uyarı kuralının beş bileşeni vardır:
     > Bu seçenek, kuruluş yöneticileriyle sınırlıdır.
 
 ## <a name="email-notifications-from-alerts"></a>Uyarılardan e-posta bildirimleri
+
 Uyarılardan e-posta bildirimleri henüz etkinleştirilmedi. Gelecekteki bir güncelleştirmede etkinleştirilecektir.
 
