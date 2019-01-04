@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/13/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -40,6 +40,7 @@ ms.lasthandoff: 11/13/2018
 ![POS ekran düzeni varlıkları](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a><span data-ttu-id="33004-108">Görsel profil</span><span class="sxs-lookup"><span data-stu-id="33004-108">Visual profile</span></span>
+
 <span data-ttu-id="33004-109">Görsel profiller kasalara atanır ve kasaya özel ve kullanıcılar arasında paylaşılan görsel öğeleri belirtir.</span><span class="sxs-lookup"><span data-stu-id="33004-109">Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</span></span> <span data-ttu-id="33004-110">Kasada oturum açan her kullanıcı aynı temayı, renkleri ve resimleri görür.</span><span class="sxs-lookup"><span data-stu-id="33004-110">Every user who signs in to the register sees the same theme, colors, and images.</span></span>
 
 ![POS hoş geldiniz ekranı - Açık tema](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ ms.lasthandoff: 11/13/2018
 - <span data-ttu-id="33004-123">**Uygulama arka planı** – Uygulama genelinde düz tema rengi yerine kullanılacak bir arka plan resmi belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33004-123">**Application background** – You can specify a background image that is used instead of the solid theme color throughout the application.</span></span> <span data-ttu-id="33004-124">Oturum açma arka planlarında olduğu gibi, dosya boyutu mümkün olduğunca küçük tutulmalıdır.</span><span class="sxs-lookup"><span data-stu-id="33004-124">As for login backgrounds, the file size should be kept as small as possible.</span></span>
 
 ## <a name="screen-layouts"></a><span data-ttu-id="33004-125">Ekran düzenleri</span><span class="sxs-lookup"><span data-stu-id="33004-125">Screen layouts</span></span>
+
 <span data-ttu-id="33004-126">Ekran düzeni yapılandırmaları POS hoş geldiniz ekranındaki ve **Hareket** ekranındaki eylemleri, içeriği ve kullanıcı arabirimi denetimlerinin yerleşimini belirler.</span><span class="sxs-lookup"><span data-stu-id="33004-126">Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and **Transaction** screen.</span></span>
 
 ![POS Ekranı düzeninin görünümü](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ ms.lasthandoff: 11/13/2018
 ![POS düzen boyutları](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a><span data-ttu-id="33004-163">Düğme grupları</span><span class="sxs-lookup"><span data-stu-id="33004-163">Button grids</span></span>
+
 <span data-ttu-id="33004-164">Bir ekran düzenindeki her düzen boyutu için, POS hoş geldiniz ekranına ve **Hareket** ekranına ilişkin düğme grupları yapılandırıp atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33004-164">For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and **Transaction** screen.</span></span> <span data-ttu-id="33004-165">Hoş geldiniz ekranının düğme grupları otomatik olarak soldan sağa ve en düşük numaradan (Hoş geldiniz ekranı 1) en yüksek numaraya doğru yerleştirilir.</span><span class="sxs-lookup"><span data-stu-id="33004-165">Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</span></span>
 
 <span data-ttu-id="33004-166">Tam POS düzenlerinde düğme gruplarının yerleşimi, ekran düzeni tasarımcısında belirtilir.</span><span class="sxs-lookup"><span data-stu-id="33004-166">In Full POS layouts, the placement of button grids is specified in the screen layout designer.</span></span>
@@ -104,6 +107,7 @@ ms.lasthandoff: 11/13/2018
 ![Kompakt düzen düğme grupları](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a><span data-ttu-id="33004-170">Resimler</span><span class="sxs-lookup"><span data-stu-id="33004-170">Images</span></span>
+
 <span data-ttu-id="33004-171">Bir ekran düzenindeki her bir düzen boyutu için, POS kullanıcı arabirimine eklenecek resimleri belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33004-171">For each layout size in a screen layout, you can specify images to include in the POS UI.</span></span> <span data-ttu-id="33004-172">Tam POS düzenlerinde, hoş geldiniz ekranı için tek bir resim belirtilebilir.</span><span class="sxs-lookup"><span data-stu-id="33004-172">For Full POS layouts, a single image can be specified for the welcome screen.</span></span> <span data-ttu-id="33004-173">Bu resim, soldaki ilk kullanıcı arabirimi öğesi olarak görünür.</span><span class="sxs-lookup"><span data-stu-id="33004-173">This image appears as the first UI element on the left.</span></span> <span data-ttu-id="33004-174">**Hareket** ekranında resimler sekme resmi veya logo olarak kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="33004-174">On the **Transaction** screen, images can be used as tab images or as a logo.</span></span> <span data-ttu-id="33004-175">Kompakt POS düzenleri bu resimleri kullanmaz.</span><span class="sxs-lookup"><span data-stu-id="33004-175">Compact POS layouts don't use these images.</span></span>
 
 ### <a name="screen-layout-designer"></a><span data-ttu-id="33004-176">Ekran düzeni tasarımcısı</span><span class="sxs-lookup"><span data-stu-id="33004-176">Screen layout designer</span></span>
@@ -141,11 +145,13 @@ ms.lasthandoff: 11/13/2018
     - <span data-ttu-id="33004-222">**Özel denetim** – Özel denetim, ekran düzeni içinde bir yer tutucu gibi davranarak, özel içerik için yer ayırmanıza olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="33004-222">**Custom control** – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</span></span> <span data-ttu-id="33004-223">Özel denetim yalnızca Tam düzenler için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="33004-223">The custom control is available only for Full layouts.</span></span>
 
 ### <a name="compact-layout-designer"></a><span data-ttu-id="33004-224">Kompakt düzen tasarımcısı</span><span class="sxs-lookup"><span data-stu-id="33004-224">Compact layout designer</span></span>
+
 <span data-ttu-id="33004-225">Tam düzen tasarımcısı gibi, Kompakt düzen tasarımcısı da telefonlar ve küçük tabletler için POS ekran düzenini yapılandırmanıza olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="33004-225">Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</span></span> <span data-ttu-id="33004-226">Ancak bu durumda düzenin kendisi sabittir.</span><span class="sxs-lookup"><span data-stu-id="33004-226">However, in this case, the layout itself is fixed.</span></span> <span data-ttu-id="33004-227">Düzendeki denetimleri, üstlerine sağ tıklayıp kısayol menüsünü kullanarak yapılandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33004-227">You can configure the controls in the layout by right-clicking and using the shortcut menu.</span></span> <span data-ttu-id="33004-228">Bununla birlikte, ek içerik için sürükle-bırak işlemlerini kullanamazsınız.</span><span class="sxs-lookup"><span data-stu-id="33004-228">However, you can't use drag-and-drop operations for additional content.</span></span>
 
 ![Kompakt düzen tasarımcısı](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a><span data-ttu-id="33004-230">Düğme grubu tasarımcısı</span><span class="sxs-lookup"><span data-stu-id="33004-230">Button grid designer</span></span>
+
 <span data-ttu-id="33004-231">Düğme grubu tasarımcısı, POS hoş geldiniz ekranında ve **Hareket** ekranında Tam ve Kompakt düzenler için kullanılabilecek düğme grupları yapılandırmanıza olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="33004-231">The button grid designer lets you configure button grids that can be used on the POS welcome screen and **Transaction** screen for both Full and Compact layouts.</span></span> <span data-ttu-id="33004-232">Aynı düğme grubu, farklı düzenlerde ve düzen türlerinde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="33004-232">The same button grid can be used across layouts and layout types.</span></span> <span data-ttu-id="33004-233">Ekran düzeni tasarımcısı gibi, düğme grubu tasarımcısı, kullanıcı tarafından her erişildiğinde, uygulamanın en son sürümünü indirmek, yüklemek ve başlatmak için ClickOnce dağıtım teknolojisini kullanır.</span><span class="sxs-lookup"><span data-stu-id="33004-233">Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="33004-234">ClickOnce için tarayıcı gereksinimlerini kontrol ettiğinizden emin olun.</span><span class="sxs-lookup"><span data-stu-id="33004-234">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="33004-235">Google Chrome gibi bazı tarayıcılar için uzantılar gerekir.</span><span class="sxs-lookup"><span data-stu-id="33004-235">Some browsers, such as Google Chrome, require extensions.</span></span>
 
 ![Düğme grubu tasarımcısı](../retail/media/Button-Grid-Designer.png)
