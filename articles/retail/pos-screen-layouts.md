@@ -40,6 +40,7 @@ Aşağıdaki çizimde, yapılandırılabilir POS kullanıcı arabirimi özellikl
 ![POS ekran düzeni varlıkları](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Görsel profil
+
 Görsel profiller kasalara atanır ve kasaya özel ve kullanıcılar arasında paylaşılan görsel öğeleri belirtir. Kasada oturum açan her kullanıcı aynı temayı, renkleri ve resimleri görür.
 
 ![POS hoş geldiniz ekranı - Açık tema](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ Görsel profiller kasalara atanır ve kasaya özel ve kullanıcılar arasında p
 - **Uygulama arka planı** – Uygulama genelinde düz tema rengi yerine kullanılacak bir arka plan resmi belirtebilirsiniz. Oturum açma arka planlarında olduğu gibi, dosya boyutu mümkün olduğunca küçük tutulmalıdır.
 
 ## <a name="screen-layouts"></a>Ekran düzenleri
+
 Ekran düzeni yapılandırmaları POS hoş geldiniz ekranındaki ve **Hareket** ekranındaki eylemleri, içeriği ve kullanıcı arabirimi denetimlerinin yerleşimini belirler.
 
 ![POS Ekranı düzeninin görünümü](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ POS uygulaması, başlangıçta, cihaz için yapılandırılmış en yakın düz
 ![POS düzen boyutları](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Düğme grupları
+
 Bir ekran düzenindeki her düzen boyutu için, POS hoş geldiniz ekranına ve **Hareket** ekranına ilişkin düğme grupları yapılandırıp atayabilirsiniz. Hoş geldiniz ekranının düğme grupları otomatik olarak soldan sağa ve en düşük numaradan (Hoş geldiniz ekranı 1) en yüksek numaraya doğru yerleştirilir.
 
 Tam POS düzenlerinde düğme gruplarının yerleşimi, ekran düzeni tasarımcısında belirtilir.
@@ -104,6 +107,7 @@ Kompakt POS düzenlerinde düğme grupları otomatik olarak yukarıdan aşağıy
 ![Kompakt düzen düğme grupları](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Resimler
+
 Bir ekran düzenindeki her bir düzen boyutu için, POS kullanıcı arabirimine eklenecek resimleri belirtebilirsiniz. Tam POS düzenlerinde, hoş geldiniz ekranı için tek bir resim belirtilebilir. Bu resim, soldaki ilk kullanıcı arabirimi öğesi olarak görünür. **Hareket** ekranında resimler sekme resmi veya logo olarak kullanılabilir. Kompakt POS düzenleri bu resimleri kullanmaz.
 
 ### <a name="screen-layout-designer"></a>Ekran düzeni tasarımcısı
@@ -141,11 +145,13 @@ Tam düzen tasarımcısı, POS **Hareket** ekranına kullanıcı arabirimi denet
     - **Özel denetim** – Özel denetim, ekran düzeni içinde bir yer tutucu gibi davranarak, özel içerik için yer ayırmanıza olanak sağlar. Özel denetim yalnızca Tam düzenler için kullanılabilir.
 
 ### <a name="compact-layout-designer"></a>Kompakt düzen tasarımcısı
+
 Tam düzen tasarımcısı gibi, Kompakt düzen tasarımcısı da telefonlar ve küçük tabletler için POS ekran düzenini yapılandırmanıza olanak sağlar. Ancak bu durumda düzenin kendisi sabittir. Düzendeki denetimleri, üstlerine sağ tıklayıp kısayol menüsünü kullanarak yapılandırabilirsiniz. Bununla birlikte, ek içerik için sürükle-bırak işlemlerini kullanamazsınız.
 
 ![Kompakt düzen tasarımcısı](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Düğme grubu tasarımcısı
+
 Düğme grubu tasarımcısı, POS hoş geldiniz ekranında ve **Hareket** ekranında Tam ve Kompakt düzenler için kullanılabilecek düğme grupları yapılandırmanıza olanak sağlar. Aynı düğme grubu, farklı düzenlerde ve düzen türlerinde kullanılabilir. Ekran düzeni tasarımcısı gibi, düğme grubu tasarımcısı, kullanıcı tarafından her erişildiğinde, uygulamanın en son sürümünü indirmek, yüklemek ve başlatmak için ClickOnce dağıtım teknolojisini kullanır. ClickOnce için tarayıcı gereksinimlerini kontrol ettiğinizden emin olun. Google Chrome gibi bazı tarayıcılar için uzantılar gerekir.
 
 ![Düğme grubu tasarımcısı](../retail/media/Button-Grid-Designer.png)

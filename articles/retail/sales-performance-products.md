@@ -31,20 +31,18 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail kullanarak en iyi 10 ürün için karlılığı inceleyebilirsiniz. 
+Microsoft Dynamics 365 for Retail kullanarak en iyi 10 ürün için karlılığı inceleyebilirsiniz.
 
 Microsoft Dynamics 365 for Retail'in bir parçası olarak, kullanıcılar aşağıdaki kriterlerden birine göre kuruluş hiyerarşisinin farklı düzeylerinde en iyi ürünlere (10'dan 100'e) ilişkin kârlılığı da inceleyebilirler:
 
--   Satış tutarı
--   Miktar
--   Brüt kar marjı
--   Marj yüzdesi
+- Satış tutarı
+- Miktar
+- Brüt kar marjı
+- Marj yüzdesi
 
 Bu değerlendirme için, aşağıdaki konumlardan birinden açabileceğiniz, hazır **En iyi ürünler** raporunu kullanabilirsiniz:
 
--   **Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar** &gt; **En iyi ürünler raporu**
--   **Kategori ve ürün yönetimi** çalışma alanı &gt; **Retail** &gt; **Kanallar** &gt; **Perakende mağazası yönetimi** &gt; **Raporlar** &gt; **En iyi ürünler raporu**
--   **Sorgular ve raporlar** bölümü &gt; **Perakende** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **En iyi ürünler raporu**
-
-
+- **Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar** &gt; **En iyi ürünler raporu**
+- **Kategori ve ürün yönetimi** çalışma alanı &gt; **Retail** &gt; **Kanallar** &gt; **Perakende mağazası yönetimi** &gt; **Raporlar** &gt; **En iyi ürünler raporu**
+- **Sorgular ve raporlar** bölümü &gt; **Perakende** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **En iyi ürünler raporu**
 

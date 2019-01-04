@@ -42,25 +42,30 @@ Sipariş oluşturmayı desteklemenin yanı sıra çağrı merkezi modülü, kull
 Bu sayfa Dynamics 365 for Retail'deki çağrı merkezi özelliklerinin kurulumu, yapılandırması ve işlevsel kullanımıyla ilişkili ilgili belgelere bağlantılar sağlar.
 
 ## <a name="configure-the-call-center"></a>Çağrı merkezini yapılandırma
+
 [Sipariş işleme seçeneklerini ayarlama](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Sipariş işlemeyi yapılandırma
+
 [Sahtekarlık uyarılarını ayarlama](set-up-fraud-alerts.md)
 
 [El ile Sipariş Tutmalar](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Ödeme işlemeyi yapılandırma
+
 [Bir çağrı merkezindeki ödeme yöntemleri](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Teslimat şekillerini yapılandırma
+
 [Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Doğrudan pazarlamayı yapılandırma
+
 [Çağrı merkezi katalogları](call-center-catalogs.md)
 
 [RFM analizi ayarlama](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Süreklilik programlarını yapılandırma
-[Çağrı merkezi için bir süreklilik programı kurma](set-up-continuity-program.md)
 
+[Çağrı merkezi için bir süreklilik programı kurma](set-up-continuity-program.md)
 

@@ -35,21 +35,19 @@ Microsoft Dynamics 365 for Retail kullanarak satış ve kar marjı performansın
 
 Dynamics 365 for Retail'ın bir parçası olarak, kullanıcılar aşağıdaki boyutlar için kuruluş hiyerarşisinin farklı düzeylerindeki satış ve kar marjı performansını gerçek zamanlı izleyebilirler:
 
--   Ürünler
--   Kategoriler
--   İskontolar
--   Dönem olarak yıl
--   Kayıtlar/terminaller
--   Personel/çalışanlar
--   Müşteriler
--   İşletme birimleri
+- Ürünler
+- Kategoriler
+- İskontolar
+- Dönem olarak yıl
+- Kayıtlar/terminaller
+- Personel/çalışanlar
+- Müşteriler
+- İşletme birimleri
 
 Ayrıca, hiyerarşik ızgara yapısından yararlanan iki benzersiz rapor kullanıcıların, en üst kategori düğümünden varsayılan perakende ürününün kategori hiyerarşisindeki bireysel kategori alt düğümlerine kadar detaylara inerek, satış ve kar marjı performansını izlemesine olanak tanır. Kullanıcılar, ayrıca perakende raporlama hiyerarşisi amacıyla varsayılan kuruluş hiyerarşisi olarak tanımlanan kuruluş hiyerarşisindeki en üst faaliyet biriminden bireysel bir kanala kadar ayrıntılara inebilirler. Raporları aşağıdaki konumların herhangi birinden açabilirsiniz:
 
--   **Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar**
--   **Kategori ve ürün yönetimi** çalışma alanı &gt; **Retail** &gt; **Ürün ve kategoriler** &gt; **Perakende mağazası yönetimi** &gt; **Raporlar**
--   **Fiyatlandırma ve iskonto yönetimi** çalışma alanı &gt; **Retail** &gt; **Fiyatlandırma ve iskontolar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar**
--   **Sorgular ve raporlar** bölümü &gt; **Retail** &gt; **Sorgular ve raporlar** &gt; **Satış raporları**
-
-
+- **Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar**
+- **Kategori ve ürün yönetimi** çalışma alanı &gt; **Retail** &gt; **Ürün ve kategoriler** &gt; **Perakende mağazası yönetimi** &gt; **Raporlar**
+- **Fiyatlandırma ve iskonto yönetimi** çalışma alanı &gt; **Retail** &gt; **Fiyatlandırma ve iskontolar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar**
+- **Sorgular ve raporlar** bölümü &gt; **Retail** &gt; **Sorgular ve raporlar** &gt; **Satış raporları**
 

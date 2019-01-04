@@ -36,6 +36,7 @@ Bir satış siparişi oluştururken, satış siparişi üst bilgisinde ve satı�
 Perakendenin, kullanıcılara bir kanalın kullanabileceği teslimat şekillerini, bir ürün için kullanılabilecek teslimat şekillerini ve belirli sevkiyat hedefleri için geçerli olan teslimat şekillerini sınırlama olanağı veren yetenekleri vardır. Satış siparişi için seçilen teslimat şekillerine ve toplam sipariş değerine göre müşterinin siparişine ek ücretler getirilebilmesi için masraflar da tanımlanabilir.
 
 ## <a name="define-delivery-modes"></a>Teslimat şekillerini tanımlama
+
 Çağrı merkezi siparişleri için kullanılabilecek teslimat şekillerini belirleyip ilişkili kurallar ve masraflar tanımlamadan önce teslimat şekillerini tanımlamanız gerekir. **Satış ve pazarlama \> Kurulum \> Dağıtım \> Teslimat şekilleri**'ne gidin. Yeni bir teslimat şekli oluşturmak için **Yeni**'yi seçin. Alternatif olarak, listedeki mevcut bir teslimat şeklini seçin ve ardından değişiklikler yapmak için **Düzenle**'yi seçin.
 
 **Teslimat şekli** alanında, iş gereksiniminize göre bir alfasayısal karakter birleşimi girebilirsiniz. Bunun ardından, **Açıklama** alanını kullanarak ek içerik girebilirsiniz. **Giderler grubu** ve **Hızlandır** alanları isteğe bağlıdır ve bu konunun ilerleyen bölümlerinde daha ayrıntılı açıklanacaktır.
@@ -47,11 +48,13 @@ Perakendenin, kullanıcılara bir kanalın kullanabileceği teslimat şekillerin
 **Adresler** hızlı sekmesinde, teslimat şeklinin kullanılabileceği veya kullanılamayacağı ülkeleri, bölgeleri veya eyaletleri belirtebilirsiniz. Örneğin, Hawaii veya Alaska'ya sevk edilen siparişler karayoluyla teslimata uygun değil. Bu nedenle, bu eyaletlerin karayoluyla teslim hizmetiyle ilişkili tüm teslimat şekillerinden çıkarılması ancak bir havayoluyla teslim hizmetiyle ilişkili tüm teslimat şekillerine dahil edilmesi gerekir.
 
 ## <a name="validate-delivery-modes-for-a-call-center-order"></a>Çağrı merkezi siparişi için teslimat şekillerini doğrulama
+
 Teslimat şekilleri tanımlandıktan sonra **Teslimat şekillerini işle** toplu işini çalıştırmalısınız. Bu iş, Perakende kanalları için satış siparişi işlemlerinde teslimat şekillerini kullanılabilir hale getirir. **Teslimat şekillerini işle** işini çalıştırmak için **Perakende \> Perakende BT'si \> Teslimat şekillerini işle**'ye gidin. Bu iş, bir perakende kanalına yeni teslimat şekilleri eklendiği veya mevcut teslimat şekli/kanal ilişkilerinde değişiklik yapıldığı zaman çalıştırılmalıdır.
 
 **Teslimat şekillerini işle** toplu işini çalıştırdıktan sonra **Perakende \> Kanallar \> Çağrı merkezleri \> Tüm çağrı merkezleri**'ne gidebilirsiniz. **Tüm çağrı merkezleri** sayfasındaki Eylem Bölmesinde, **Ayarla** sekmesinde **Teslimat şekilleri**'ni seçin. **Teslimat şekilleri** sayfasında, seçilen çağrı merkezi kanalı için tüm geçerli teslimat şekilleri listelenir. Mevcut teslimat şekillerini düzenlemek veya yeni teslimat şekilleri eklemek için **Teslimat şekillerini yönet**'i seçin. **Teslimat şekillerini işle** işinin her değişiklik yapıldığında çalıştırılması gerektiğini unutmayın.
 
 ## <a name="define-charges-for-delivery-services"></a>Teslimat hizmetleri için masrafları tanımlama
+
 Müşteriler için satış siparişleri oluşturulduğunda, şirket sipariş için seçilen teslimat şekillerine göre otomatik olarak hesaplanan masraflar eklemek isteyebilir. Bu masraflar tüm müşteriler ve teslimat şekilleri için aynı olacak şekilde yapılandırılabilir. Alternatif olarak, masraflar, müşteriye ve/veya satış siparişi için seçilen teslimat şekillerine bağlı olarak değişebilir.
 
 Masrafları tanımlamak için **Perakende \> Kanal kurulumu \> Giderler \> Otomatik masraflar**'a gidin. Yeni masraflar eklemek için **Yeni**'yi seçin. Alternatif olarak, mevcut bir girişi ve ardından **Düzenle**'yi seçin.
@@ -73,6 +76,7 @@ Perakende şirketleri genellikle katmanlı masraflar yapılandırır. Bu durumda
 ![Karma katmanlı masraflar örneği](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Bir çağrı merkezinde sipariş girişi sırasında teslimat şekillerini uygulama
+
 Yeni bir satış siparişi oluşturulurken, satış siparişi üst bilgisinin **Teslimat** hızlı sekmesindeki **Teslimat şekli** alanında bir değer belirtilmelidir. Bu alan müşteri kaydından alınan varsayılan değerlere göre otomatik olarak doldurulabilir.
 
 Sipariş üst bilgisinde tanımlanan teslimat şekli, oluşturulan satış siparişi satırlarına otomatik olarak kopyalanır. Bununla birlikte, belirli bir satır maddesinin teslimat şekli kurulumunu, satış siparişi giriş sayfasının **Satır ayrıntıları** bölümündeki **Teslimat** sekmesinde değiştirebilirsiniz.
@@ -80,11 +84,13 @@ Sipariş üst bilgisinde tanımlanan teslimat şekli, oluşturulan satış sipar
 Seçilen teslimat şekli sipariş veya sipariş satırı için tanımlanmış ürün veya teslimat adresi için geçerli değilse bir hata iletisi alırsınız. Bu durumda, o ürün veya adres yapılandırmasını desteklemek üzere tanımlanmış bir teslimat şekli seçmeniz gerekir.
 
 ## <a name="calculation-of-delivery-charges-during-entry-of-order"></a>Sipariş girişi sırasında teslimat masraflarını hesaplama
+
 Çağrı merkezi kanalınız için **Sipariş tamamlamayı etkinleştir** ayarı açılırsa, kullanıcılar **Tamamla**'yı seçtiği zaman satış siparişleri için sevkiyat masrafları otomatik olarak hesaplanır. **Satış siparişi özeti** sayfasının üst kısmında şu mesaj görünür: "Katmanlı masraflar hesaplandı." Hesaplanan masraflar, **Toplam satış** alanının değerine eklenir. **Tutar** hızlı sekmesinde, **Giderler** alanı, sipariş ve satırlar için hesaplanan tüm masrafların toplam tutarını gösterir. Masrafların daha ayrıntılı bir dökümünü görmek için **Satış siparişi özeti** sayfasında **Sipariş**'i seçin ve ardından masrafları görüntülemek, eklemek veya düzenlemek için **Giderler** seçeneğini belirleyin. Sipariş üst bilgisindeki teslimat masraflarının hesaplanmasında üst bilgiyle bağlantılı teslimat şeklinin baz alındığına dikkat edin. Satır düzeyinde teslimat masrafları, satış satırı için yapılandırılan teslimat şekline göre hesaplanır. Farklı satırlarda birden fazla teslimat şekli kullanılıyorsa, birden çok masraf uygulanıp toplanabilir. Bunun ardından, toplam tutar **Satış siparişi özeti** sayfasındaki **Giderler** sayfasında gösterilir.
 
 **Sipariş tamamlamayı etkinleştir** ayarı kapatılırsa, kullanıcıların, masrafları hesaplamayı el ile tetiklemesi gerekir. **Satış siparişi** sayfasındaki Eylem Bölmesinde, **Satış** sekmesinin **Hesapla** grubunda **Katmanlı masraflar**'ı seçin. "Katmanlı masraflar hesaplandı" iletisi görünür. Bunun ardından, hesaplanan masrafları görüntülemek, düzenlemek veya silmek için, **Satış** sekmesinde **Giderler** seçeneğini belirleyin.
 
 ## <a name="use-expedited-delivery-modes-on-call-center-orders"></a>Çağrı merkezi siparişlerinde hızlandırılmış teslimat şekillerini kullanma
+
 İsterseniz, yapılandırdığınız teslimat şekline bir hızlandırma kodu bağlayabilirsiniz. Bu kod bir öncelik sıralama ve raporlama aracı olarak kullanılır. Şu anda siparişe ek ücretler uygulanmasına neden olmamaktadır. Hızlandırma kodlarını ayarlamak için **Satış ve pazarlama \> Kurulum \> Dağıtım \> Hızlandırma kodları**'na gidin.
 
 Örneğin ertesi gün havayoluyla sevk edilecek siparişler için, ambardan malzeme çekme işleminin her gün 13:00'a kadar yapılması gerekir. Bu durumda, bir hızlandırma kodu oluşturulabilir ve bu kod, sistemde yapılandırılmış herhangi bir ertesi gün teslimat şekline bağlanabilir. Ambar, çekme dalgasını oluştururken, **Hızlandır** alanındaki ilgili hızlandırma kodu bir filtre olarak kullanılıp, malzeme çekme işleminin, teslimat şekilleri yalnızca o kodla bağlantılı siparişler için çalıştırılması sağlanabilir.

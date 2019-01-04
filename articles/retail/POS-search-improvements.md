@@ -66,7 +66,7 @@ Yerel ürün arama deneyimi artık daha kullanıcı dostu. Aşağıdaki gelişti
 - Perakendeciler şimdi ürün aramayı, kullanıcılar ürün adlarını yazarken arama sonuçlarını gösterecek şekilde yapılandırabilir. Bu işlev için yeni bir ayar, POS işlevi profilinde, **Ürün arama** olarak adlandırılan bir grupta kullanılabilir. Bu ayarın adı **Yazarken arama önerilerini göster**'dir. Bu işlev, çalışanların aradıkları ürünü hızlıca bulmalarına yardımcı olabilir çünkü tam adını yazmalarına gerek kalmaz.
 - Ürün arama algoritması şimdi ayrıca aranan terimleri ürünün **Arama adı** özelliğinde de arar.
 
-![Ürün önerileri](./media/Productsuggestions.png "Ürün önerileri")
+    ![Ürün önerileri](./media/Productsuggestions.png "Ürün önerileri")
 
 ## <a name="customer-search"></a>Müşteri arama
 
