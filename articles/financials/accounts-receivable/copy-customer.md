@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 08e939f87bc4a1769533b205bc5706648e1d1dce
+ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -62,7 +62,7 @@ Bir müşteriyi kopyaladığınızda, sistem yeni müşteri bilgilerini kaydetme
 
 ## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a>Vergi muafiyet numarası arama özelliğini kullanarak bir müşteriyi kopyalama
 
-**Tüm müşteriler** sayfasının Eylem Bölmesindeki **Müşteri** sekmesinde bulunan **Kayıt** grubundaki Vergi muafiyet numarası arama özelliğini kullanarak da satıcıları kopyalayabilirsiniz. Görüntülenen **Vergi muafiyet numarası arama** iletişim kutusu vergi muafiyet numaralarını, müşteri kodunu, müşteri adını ve vergi muafiyet kodunun kullanıldığı tüzel kişiliği gösterir. Bir müşteriyi yalnızca geçerli tüzel kişilik dışındaki bir tüzel kişilikte olması durumunda kopyalayabilirsiniz. Bu ölçütü karşılayan müşteriyi seçtikten sonra aşağıdaki adımları izleyin.
+**Tüm müşteriler** sayfasının Eylem Bölmesindeki **Müşteri** sekmesinde bulunan **Kayıt** grubundaki Vergi muafiyet numarası arama özelliğini kullanarak da müşterileri kopyalayabilirsiniz. Görüntülenen **Vergi muafiyet numarası arama** iletişim kutusu vergi muafiyet numaralarını, müşteri kodunu, müşteri adını ve vergi muafiyet kodunun kullanıldığı tüzel kişiliği gösterir. Bir müşteriyi yalnızca geçerli tüzel kişilik dışındaki bir tüzel kişilikte olması durumunda kopyalayabilirsiniz. Bu ölçütü karşılayan müşteriyi seçtikten sonra aşağıdaki adımları izleyin.
 
 1. **Müşteriyi kopyala** seçeneği görüntülenir. Varsayılan olarak bu seçenek **Hayır** olarak ayarlanmıştır. Müşteriyi geçerli tüzel kişiliğe kopyalamak için seçeneği **Evet** olarak ayarlayın. 
 2. **Seç** öğesini seçin. Yeni müşteri oluşturulur.

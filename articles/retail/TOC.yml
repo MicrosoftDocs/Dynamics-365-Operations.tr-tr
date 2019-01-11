@@ -8,7 +8,7 @@
       href: get-started/before-you-buy.md
     - name: Önizleme aboneliğine kaydolma
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
-    - name: Bir tanıtım ortamını dağıtma
+    - name: Tanıtım ortamını dağıtma
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Dağıtım seçenekleri
       href: dev-itpro/choose-deployment.md
@@ -147,11 +147,13 @@
       href: POS-search-improvements.md
     - name: POS'ta stok araması
       href: product-variants-POS.md
+    - name: POS'ta hareketleri askıya ve sürdürme
+      href: pos-suspend-recall-transactions.md
     - name: Donanım çevre birimleri
       items:
-        - name: Perakende çevre birimleri
+        - name: Retail çevre birimleri
           href: retail-peripherals-overview.md
-        - name: Perakende çevre birimi benzeticisi
+        - name: Retail çevre birimi benzeticisi
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Çevre birimlerini POS'a bağlama
           href: define-maintain-channel-clients-registers-hw-stations.md
@@ -480,6 +482,8 @@
           href: dev-itpro/overview-upgrade-n-minus1.md
         - name: 'Aşamalı Kullanıma Sunma (N-1) yüklemesi, yapılandırması ve kesin bitişi'
           href: dev-itpro/n-1-installation-configuration.md
+        - name: Retail kanalı uzantısını en son Retail SDK'ya yükseltme
+          href: dev-itpro/retailSDK-update.md
     - name: Uygulama kılavuzu
       items:
         - name: Cihaz yönetimi uygulama kılavuzu

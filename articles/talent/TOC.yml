@@ -7,6 +7,10 @@
         - name: Yenilikler veya değişiklikler
           href: whats-new.md
           items:
+            - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (14 Aralık 2018)
+              href: whats-new-talent-december-14.md
+            - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (6 Aralık 2018)
+              href: whats-new-talent-december-6.md
             - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (27 Kasım 2018)
               href: whats-new-talent-november-27.md
             - name: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (15 Kasım 2018)
@@ -71,6 +75,8 @@
     - name: İzin ve devamsızlığı yönetme
       href: leave-absence-overview.md
       items:
+        - name: İzin ve devamsızlık kavramları
+          href: leave-absence-concepts.md
         - name: Çalışılan saatlere göre tahakkuk eden süre
           href: leave-accrue-hours-worked.md
         - name: Çalışma zamanı takvimleri
@@ -128,11 +134,14 @@
         - name: Eğitim kursları ayarlama
           href: courses.md
     - name: Kazanç programı tanımlama ve yönetme
-      href: manage-benefit-program.md
-    - name: Kazanca uygunluk ilkeleri
-      href: benefit-eligibility-policies.md
       items:
-        - name: Çalışanlara ödünç verilen öğeleri yönetme
+        - name: Kazanç programını yönetme
+          href: manage-benefit-program.md
+        - name: Kazanca uygunluk ilkeleri
+          href: benefit-eligibility-policies.md
+        - name: Uygun Bakım Yasası (ACA) raporları oluşturma
+          href: generate-aca-reports.md
+        - name: Çalışanlara ödünç verilen maddeleri yönetme
           href: loan-items.md
     - name: Soru formları kullanarak bilgi toplama
       href: questionnaires.md
@@ -276,8 +285,6 @@
           href: create-envi-powerapps-admin-ctr.md
         - name: Talent istemcisinin bağlantısı kesiliyor
           href: client-disconnects.md
-        - name: Veritabanı yedekleme işlemlerini yapma
-          href: database-backups.md
         - name: Pozisyon hiyerarşisinde metin kesilmesini engelleme ve Visio'ya aktarma
           href: avoid-text-truncation-position-hierarchy-visio.md
         - name: Ücret işlemini çalıştırma
