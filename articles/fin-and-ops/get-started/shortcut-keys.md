@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
-ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,36 +29,35 @@ ms.lasthandoff: 10/25/2018
 
 [!include [banner](../includes/banner.md)]
 
-Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations genelinde geçerlidir. 
+Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations genelinde geçerlidir.
 
-**Not:** Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
+> [!NOTE]
+> Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
 
 ## <a name="finding-a-shortcut"></a>Bir kısayolu bulma
-Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden bulabilir. Sağ tıklamanız ve **Kısayolları görüntüle**'yi seçmeniz yeterlidir. Bu, sayfada bulunduğunuz konuma göre kullanabileceğiniz kısayolları gösteren bir iletişim kutusunu açar. 
 
+Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden bulabilir. Sağ tıklamanız ve **Kısayolları görüntüle**'yi seçmeniz yeterlidir. Bu, sayfada bulunduğunuz konuma göre kullanabileceğiniz kısayolları gösteren bir iletişim kutusunu açar.
 
 ## <a name="action-shortcuts"></a>Eylem kısayolları
 
-|                                                   |                                  |
-|---------------------------------------------------|----------------------------------|
-| **Bunu yapmak için**                                    | **Basın**                        |
-| Eylem aramasını açma                                | Ctrl+’ veya Alt+Q                  |
-| Standart Eylem Bölmesine taşıma                  | Alt+M,A veya Ctrl+F6               |
-| Eylem Bölmesinde veya bir menü içinde bir sekme açma           | Enter veya Space veya Alt+Aşağı ok |
-| Bir menüde sonraki/önceki seçeneğe gitme            | Aşağı ok / Yukarı ok            |
-| Eylem Bölmesinde veya bir menü içinde bir sekmeyi kapatma          | Esc                              |
-| Sağ tıklatma benzetimi                            | Shift+F10                        |
-| Finance and Operations içerik menüsünü açın      | Ctrl+F10                         |
-| Form/iletişim kutusu üzerinde varsayılan düğmeyi yürütme   | Alt+Enter                        |
-| Bir düğmeyi veya döşemeyi tıklama                            | Enter veya Boşluk                   |
-| Bir sayım döşemesi için yenileme bilgilerini görüntüleme         | Alt+Yukarı ok                     |
-| Mevcut kullanılabilir kısayolları görüntüleme                | Alt+Shift+K                      |                              
+| Bunu yapmak için                                      | Basın                            |
+|-------------------------------------------------|----------------------------------|
+| Eylem aramasını açma                              | Ctrl+' veya Alt+Q                  |
+| Standart Eylem Bölmesine taşıma                | Alt+M,A veya Ctrl+F6               |
+| Eylem Bölmesinde veya bir menü içinde bir sekme açma         | Enter veya Space veya Alt+Aşağı ok |
+| Bir menüde sonraki/önceki seçeneğe gitme          | Aşağı ok / Yukarı ok            |
+| Eylem Bölmesinde veya bir menü içinde bir sekmeyi kapatma        | Esc                              |
+| Sağ tıklatma benzetimi                          | Shift+F10                        |
+| Finance and Operations içerik menüsünü açın    | Ctrl+F10                         |
+| Form/iletişim kutusu üzerinde varsayılan düğmeyi yürütme | Alt+Enter                        |
+| Bir düğmeyi veya döşemeyi tıklama                          | Enter veya Boşluk                   |
+| Bir sayım döşemesi için yenileme bilgilerini görüntüleme       | Alt+Yukarı ok                     |
+| Mevcut kullanılabilir kısayolları görüntüleme              | Alt+Shift+K                      |
 
 ## <a name="date-picker-shortcuts"></a>Tarih seçici kısayolları
 
-|                                       |                                           |
+| Bunu yapmak için                            | Basın                                     |
 |---------------------------------------|-------------------------------------------|
-| **Bunu yapmak için**                        | **Basın**                                 |
 | Tarih seçiciyi açma                  | Alt+Aşağı ok                            |
 | Tarih seçicide tarihler arasında gezinme | Ctrl+ok tuşları                           |
 | Sonraki/önceki aya gitme       | Sayfa aşağı / Sayfa yukarı                       |
@@ -70,9 +69,8 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 
 ## <a name="factbox-shortcuts"></a>FactBox kısayolları
 
-|                                                                                 |                                           |
+| Bunu yapmak için                                                                      | Basın                                     |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| **Bunu yapmak için**                                                                  | **Basın**                                 |
 | FactBox bölmesini açma (veya zaten açıksa odağı FactBox bölmesine taşıma) | Alt+M,B veya Ctrl+F2                        |
 | FactBox bölmesini kapatma (odak FactBox bölmesindeyken)                         | Esc                                       |
 | Sonraki/önceki FactBox'a gitme (odak FactBox bölmesindeyken)              | Alt+Shift+Aşağı ok / Alt+Shift+Yukarı ok |
@@ -82,42 +80,39 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 
 ## <a name="filtering-shortcuts"></a>Kısayolları filtreleme
 
-|                                    |                          |
-|------------------------------------|--------------------------|
-| **Bunun için**                     | **Bas**                |
-| Geçerli sütun için kılavuz filtresini açma                        | Ctrl+G                   |
-| Geçerli sütun için kılavuz filtresini kapatma                       | Esc                      |
+| Bunun için                                                                                                          | Bas                    |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------|
+| Geçerli sütun için kılavuz filtresini açma                                                                          | Ctrl+G                   |
+| Geçerli sütun için kılavuz filtresini kapatma                                                                         | Esc                      |
 | Filtre bölmesini açma (veya Filtre bölmesi zaten açıksa odağı Filtre bölmesi ile ana form arasında değiştirme) | Alt+M,F veya Ctrl+F3       |
-| Filtre bölmesini kapatma (odak Filtre bölmesindeyken)             | Esc                      |
-| Gelişmiş filtrelemeyi/sıralamayı açma                                      | Ctrl+Shift+F3            | 
+| Filtre bölmesini kapatma (odak Filtre bölmesindeyken)                                                               | Esc                      |
+| Gelişmiş filtrelemeyi/sıralamayı açma                                                                                        | Ctrl+Shift+F3            |
 
 ## <a name="form-shortcuts"></a>Form kısayolları
 
-|                                                     |                   |
-|-----------------------------------------------------|-------------------|
-| **Bunun için**                                      | **Bas**         |
-| Yeni bir kayıt oluştur                                 | Alt+N             |
-| Kayıt silme                                     | Alt+Del veya Alt+F9 |
-| Kaydı kaydetme                                         | Alt+S veya Ctrl+S   |
-| Geri al (geri yükle)                                    | Ctrl+Shift+F5     |
-| Verileri yenileme                                        | Shift+F5          |
-| Form üzerinde görünen ilk alana gitme         | Alt+Shift+F       |
-| Düzenleme moduna geçme                                    | F2                |
-| Belge iliştirme                                   | Ctrl+Shift+A      |
-| Excel'e aktar                                     | Ctrl+Shift+E      |
-| Önceki kayda gitme (kılavuz dışında)        | Ctrl+Yukarı ok     |
-| Sonraki kayda gitme (kılavuz dışında)            | Ctrl+Aşağı ok   |
-| İlk kayda gitme (kılavuz dışında)           | Ctrl+Home         |
-| Son kayda gitme (kılavuz dışında)            | Ctrl+End          |
-| Formu kapatma (Geri'ye tıklama)                         | Esc               |
-| Formu açık kaydetme ile kapatma                   | Shift+Esc         |
-| Formu kaydedilmemiş değişiklikleri iptal ederek kapatma       | Alt+Shift+Q       |
+| Bunun için                                    | Bas             |
+|-----------------------------------------------|-------------------|
+| Yeni bir kayıt oluştur                           | Alt+N             |
+| Kayıt silme                               | Alt+Del veya Alt+F9 |
+| Kaydı kaydetme                                   | Alt+S veya Ctrl+S   |
+| Geri al (geri yükle)                              | Ctrl+Shift+F5     |
+| Verileri yenileme                                  | Shift+F5          |
+| Form üzerinde görünen ilk alana gitme   | Alt+Shift+F       |
+| Düzenleme moduna geçme                              | F2                |
+| Belge iliştirme                             | Ctrl+Shift+A      |
+| Excel'e aktar                               | Ctrl+Shift+E      |
+| Önceki kayda gitme (kılavuz dışında)  | Ctrl+Yukarı ok     |
+| Sonraki kayda gitme (kılavuz dışında)      | Ctrl+Aşağı ok   |
+| İlk kayda gitme (kılavuz dışında)     | Ctrl+Home         |
+| Son kayda gitme (kılavuz dışında)      | Ctrl+End          |
+| Formu kapatma (Geri'ye tıklama)                   | Esc               |
+| Formu açık kaydetme ile kapatma             | Shift+Esc         |
+| Formu kaydedilmemiş değişiklikleri iptal ederek kapatma | Alt+Shift+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Formda gezinme kısayolları
 
-|                                                     |                                              |
+| Bunu yapmak için                                          | Basın                                        |
 |-----------------------------------------------------|----------------------------------------------|
-| **Bunu yapmak için**                                      | **Basın**                                    |
 | Sonraki/önceki alana gitme                     | Tab / Shift+Tab                              |
 | Sonraki/önceki sekmesine gitme                       | Alt+Shift+Sağ ok / Alt+Shift+Sol ok |
 | &lt;n&gt;. sıradaki sekmeye gitme                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
@@ -134,30 +129,28 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 
 ## <a name="grid-shortcuts"></a>Kılavuz kısayolları
 
-|                                                                                                                        |                                 |
+| Bunu yapmak için                                                                                                             | Basın                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Bunu yapmak için**                                                                                                         | **Basın**                       |
 | Sonraki/önceki sütuna gitme                                                                                       | Tab / Shift+Tab                 |
 | Sonraki/önceki satıra gitme                                                                                          | Aşağı ok / Yukarı ok           |
-| Seçim yapmadan sonraki/önceki satıra taşı<br><br>**Not:** Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir. | Ctrl+Yukarı ok / Ctrl+Aşağı ok |
-| Geçerli satırı seç/temizle<br><br>**Not:** Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.                    | Ctrl+Boşluk / Ctrl+Tıklama         |
-| Önceki/sonraki satırı seçili kümeye ekle<br><br>**Not:** Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.   | Shift+Boşluk                     |
-| Bir satır aralığını seçilen kümeye ekle<br><br>**Not:** Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.         | Shift+Tıklama                     |
+| Seçim yapmadan sonraki/önceki satıra taşı<blockquote>[!NOTE] Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.</blockquote> | Ctrl+Yukarı ok / Ctrl+Aşağı ok |
+| Geçerli satırı seç/temizle<blockquote>[!NOTE] Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.</blockquote>                    | Ctrl+Boşluk / Ctrl+Tıklama         |
+| Önceki/sonraki satırı seçili kümeye ekle<blockquote>[!NOTE] Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.</blockquote>   | Shift+Boşluk                     |
+| Bir satır aralığını seçilen kümeye ekle<blockquote>[!NOTE] Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.</blockquote>         | Shift+Tıklama                     |
 | Sonraki/önceki veri sayfasına gitme                                                                                   | Sayfa yukarı / Sayfa aşağı             |
 | Kılavuzun altında yeni bir satır oluştur                                                                             | Aşağı ok (son satırdan)  |
 | Tüm satırları seç veya temizle                                                                                               | Ctrl+Shift+M                    |
 | İlk kayda taşı                                                                                               | Ctrl+Home                       |
 | Son kayda taşı                                                                                                | Ctrl+End                        |
-| Bir kılavuzda varsayılan eylemi yürüt<br><br>**Not:** Bu kısayol odak köprü içeren bir hücre ve o sütundaki tüm hücreleri köprüler etkinleştirilir.                 | Gir                           |
+| Bir kılavuzda varsayılan eylemi yürüt<blockquote>[!NOTE] Bu kısayol odak köprü içeren bir hücre ve o sütundaki tüm hücreleri köprüler etkinleştirilir.</blockquote> | Gir                           |
 | Seçilen satır ile başlık satırı arasında odağı değiştirme                                                               | Alt+Shift+H                     |
 | Geçerli sütunu daha büyük/daha küçük yapma (odakta başlık satırı varken)                                                  | Sağ ok / Sol ok        |
 | Geçerli sütun için ızgara filtrelemeyi açma (odakta başlık satırı varken)                                              | Gir                           |
 
 ## <a name="input-control-shortcuts"></a>Giriş denetimi kısayolları
 
-|                                                                              |                               |
+| Bunu yapmak için                                                                   | Basın                         |
 |------------------------------------------------------------------------------|-------------------------------|
-| **Bunu yapmak için**                                                               | **Basın**                     |
 | Köprüyü aç                                                           | Ctrl+Enter                    |
 | Tarih alanına oturum tarihini girme                                       | D+Tab                         |
 | Tarih alanına geçerli tarihi girme                                       | T+Tab                         |
@@ -171,17 +164,15 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 
 ## <a name="messaging-shortcuts"></a>İleti kısayolları
 
-|                          |               |
+| Bunu yapmak için               | Basın         |
 |--------------------------|---------------|
-| **Bunu yapmak için**           | **Basın**     |
 | İleti Merkezi'ne gitme | Ctrl+Shift+F7 |
 | İleti Çubuğu'na gitme    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Gezinme kısayolları
 
-|                                                                               |                            |
+| Bunu yapmak için                                                                    | Basın                      |
 |-------------------------------------------------------------------------------|----------------------------|
-| **Bunu yapmak için**                                                                | **Basın**                  |
 | Panoya git                                                           | Alt+Shift+Home             |
 | Gezinti çubuğuna taşı                                                    | Alt+M,N veya Alt+Shift+F1    |
 | Şirket seçiciye taşı                                                    | Ctrl+Shift+O               |
@@ -201,9 +192,8 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 
 ## <a name="personalization-shortcuts"></a>Kişiselleştirme kısayolları
 
-|                                                                                                                        |                                     |
+| Bunu yapmak için                                                                                                             | Basın                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| **Bunu yapmak için**                                                                                                         | **Basın**                           |
 | Sayfayı kişiselleştirme moduna geçir                                                                          | Ctrl+Shift+P                        |
 | Seçme aracını kullan (kişiselleştirme modunda)                                                                     | S                                   |
 | Seçilen denetimin kişiselleştirme iletişim kutusunu aç (Seçim aracını kullanırken)                              | Boşluk veya Enter                      |
@@ -230,9 +220,8 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 
 ## <a name="segmented-entry-shortcuts"></a>Bölümlenmiş giriş kısayolları
 
-|                                                                                                                         |                                  |
+| Bunu yapmak için                                                                                                              | Basın                            |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Bunu yapmak için**                                                                                                          | **Basın**                        |
 | Açılır listeyi açma (açılır liste kapalıyken)                                                             | Alt+Aşağı ok                   |
 | Odağı açılır listedeki geçerli bölüm için giriş alanına taşıma (açılır liste zaten açıkken) | Alt+Aşağı ok                   |
 | Açılır listeyi kapatma                                                                                                | Alt+Yukarı ok                     |
@@ -244,5 +233,4 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Aramada bir satır yukarı/aşağı gitme                                                                                        | Yukarı ok / Aşağı ok            |
 | Aramada bir sayfa yukarı/aşağı gitme                                                                                       | Sayfa yukarı / Sayfa aşağı              |
 | Aramanın üst/alt kısmına gitme                                                                                    | Home / End                       |
-
 

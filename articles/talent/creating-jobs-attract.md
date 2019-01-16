@@ -3,7 +3,7 @@ title: "Attract'ta iş oluşturun, onaylayın ve yayınlayın"
 description: "Bu konu, Attract'taki bir işin öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar."
 author: josaw
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: af945042c150fff1a95cdb046f2a712cb2c2c061
+ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
+ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/23/2018
 
 ---
 
@@ -75,7 +75,25 @@ Attract'ta varsayılan **Şirket sektörü** kümesi bulunur. Yeni şirket sekt�
 
 ## <a name="postings"></a>Deftere nakil işlemleri
 
-Bir iş etkinleştirildikten sonra yayınlanabilir. Yalnızca iş verenler ve yöneticiler, işleri yayınlayabilir. İş, Talent Careers (bir Microsoft Dynamics 365 for Talent kariyer sitesi) veya LinkedIn'de yayınlanabilir. Attract ekibi, iş kurulu toplayıcılarıyla ortaklık için devamlı çalışır. Bu nedenle, zaman içinde bu listeyi genişler.
+Bir iş etkinleştirildikten sonra yayınlanabilir. Yalnızca iş verenler ve yöneticiler, işleri yayınlayabilir. İş, Talent Careers (bir Microsoft Dynamics 365 for Talent kariyer sitesi) veya LinkedIn'de yayınlanabilir. 
+
+> [!NOTE]
+> LinkedIn'e iş ilanı verirken dikkate alınacak üç önemli şey vardır.
+> 1. LinkedIn'de ilan verilen işler "Sınırlı Listeleme" işleri olarak yayınlanır. Sınırlı listeleme işleri, LinkedIn sayfasının tamamında öne çıkarılamaz. LinkedIn'e Attract'tan yayınlanan sınırlı yayınlanmış işleri öne çıkarmak istiyorsanız, "İş Kaydırma" etkinleştirmek için LinkedIn ile birlikte çalışmalısınız. Daha fazla ayrıntı için aşağıdaki bağlantılara bakın ve LinkedIn destek ile iletişime geçin.
+>
+>    [Sınırlı Listelemeler - İş Kaydırma için Premium İş Alanları](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>
+>    [İş kaydırma hakkında SSS](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
+>
+> 1. İşleri LinkedIn'e ilan verirken, Attract, Microsoft 365 Organizasyonu adını işe karşı iletir. LinkedIn, işleri LinkedIn tarafına dayalı bir şirkete bağlantılar, iletilen kuruluş adına dayalı olarak. İşiniz LinkedIn'de yanlış şirkete karşı ilan verildiyse, Microsoft 365 Organizasyon adınızın, LinkedIn'deki şirket adıyla örtüştüğünden emin olun.  
+>
+>    [Adresi Bağlantıyı ve daha fazlasını değiştirmek](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
+>
+>    Bu adımdan sonra sorun yaşarsanız, LinkedIn desteği ile iletişime geçin. 
+> 
+> 1. Geçerli LinkedIn toplu iş işleme işlemi nedeniyle LinkedIn'e ilan verilen işlerin LinkedIn içerisindeki adaylara görünür hale gelmesi 24 saate kadar sürebilir.
+
+Attract ekibi, iş kurulu toplayıcılarıyla ortaklık için devamlı çalışmaktadır. Zaman içinde bu listeyi genişler.
 
 İş yayınları hakkında daha fazla bilgi için [Attract'taki kariyer sitesi işlevi](./career-site.md).
 

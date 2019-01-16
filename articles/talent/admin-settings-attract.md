@@ -3,7 +3,7 @@ title: "Attract'ta yönetici ayarları"
 description: "Bu konu, Attract'taki kurum ve kullanıcılar için özellik işlevini etkinleştirmeyi açıklar."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 52b48d5daab985c43d59f29ad7b80dda99a7fcef
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 for Talent: Attract Yönetim merkezinde Attract uygulamas
 
 ## <a name="linkedin-integration"></a>LinkedIn Tümleştirmesi
 
-Tümleştirmeyi LinkedIn Recruiter System Connect (RSC) ile ayarlayın. LinkedIn kimlik bilgilerinizi kullanarak LinkedIn'e bağlandıktan sonra adayın LinkedIn profili, uygulamaları, görüşme geribildirimi ve işe alım ekibi notlarını eşitleyebilirsiniz. Tam LinkedIn işveren lisansı gereklidir. RSC hakkında daha fazla bilgi için bkz. [Recruiter System Connect (RSC) – SSS](https://www.linkedin.com/help/recruiter/answer/90483).
+Tümleştirmeyi LinkedIn Recruiter System Connect (RSC) ile ayarlayın. LinkedIn kimlik bilgilerinizi kullanarak LinkedIn'e bağlandıktan sonra adayın LinkedIn profili, uygulamaları, görüşme geribildirimi ve işe alım ekibi notlarını eşitleyebilirsiniz. Tam LinkedIn işveren lisansı gereklidir. LinkedIn Recruiter hakkında daha fazla bilgi için bkz. [Recruiter System Connect (RSC) – SSS](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>Kullanıcı izinleri
 

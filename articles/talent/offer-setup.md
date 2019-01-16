@@ -3,7 +3,7 @@ title: "Teklif yönetimini ayarlayın"
 description: "Bu konu Talent'ta tekliflerin nasıl ayarlanacağını açıklar."
 author: josaw
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fa2f2f9f67562524961352a87a7db49992776e46
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 # <a name="set-up-offer-management"></a>Teklif yönetimini ayarlayın 
@@ -105,7 +105,7 @@ Teklif veri kuralları dosyasını yüklemek için aşağıdakileri yapın.
 
 1.  Tanımlanan yer tutucu başka bir belge şablonunda kullanılmıyorsa varolan kural kümesinin karşıya yüklemesini silebilirsiniz.
 
->[!NOTLAR]
+>[!NOTE]
 > - Her bir yer tutucu yalnızca bağımlı olduğu benzersiz sütunlar kümesi olabilir. Örneğin, **Yıllık ücret**, **Şş yeri** ve **Düzey**'e bağlıysa **Yıllık ücret**'in farklı bir sütun kümesine bağlı olduğu başka bir kural kümesine yükleyemezsiniz.
 
 > - Örnek teklif veri kuralı kümesini **Teklif veri kuralları** sayfasındaki **Örnekler** sekmesinden indirebilirsiniz.
@@ -136,7 +136,7 @@ Teklif belge şablonu oluşturmak için aşağıdakileri yapın.
 
     - Teklif veri yer tutucuyu doğrudan konumuna etiketleyin. **\#** yazın ve teklif veri yer tutucu adı yazmaya başlayın. Seçenekler açılan listesinde görünür. Teklif veri yer tutucu eklemek için **Enter**'a tıklatın veya basın.
 
-    >[!NOTLAR]
+    >[!NOTE]
     > - Yer tutucuyu teklif belge şablonuyla ilişkilendirmek için, değerini adaya sunmadan, teklif veri yer tutucuya gidin ve  **Sabitle** simgesine tıklayın. Bu, yer tutucuyu teklif belge şablonunun **Sabitlenen teklif verisi** bölümüne gönderir. Bırakmak için aynı adımları uygulayın ancak teklif veri yer tutucular listesinde **Bırak**'a tıklayın.
 
     > - Etkin teklif beri yer tutucular listesini görüntülemek için sağ bölmede **Etkin** sekmesine geçin.
@@ -175,7 +175,7 @@ Teklif paketleri, adayla paylaşılan ve bir veya daha falza teklik belge şablo
 
 1.  **Şablon ekle**’yi tıklatın.
 
-    >[!NOTLAR]
+    >[!NOTE]
     > - Yeni bir şablon oluşturmayı veya mevcut bir modelden seçmeyi seçebilirsiniz.
 
     > - Varolan bir şablonu eklemek isterseniz, teklif belge şablonunun kaydedilmiş, sonlandırılmış ve etkin olarak işaretlenmiş olduğundan emin olmak gerekir.
@@ -198,8 +198,10 @@ Attract yöneticisi tarafından yapılandırılabilir teklif oluşturma işlemin
 
 - **Adayın teklif deneyimi** - Yönetici olarak, tüm tekliflerin bitiş tarihi olmasını seçebilirsiniz, bu durumda bitiş tarihinin varsayılan mahsubunun ne olması gerektiğini de seçmelisiniz. Adayların bir teklif reddedip reddemeyeceğini de yapılandırabilirsiniz.
 
-- **e-İmzalar** - Şu anda, adayların kullanabileceği tek elektronik imza seçeneği, teklifi kabul ederek kişinin adını yazmasıdır. İleride diğer elektronik imza sağlayıcılarla iş ortaklığı entegrasyonları yapacağız.
+- **e-İmzalar** - Bir yönetici olarak, adayların tekliflere imza atabilecekleri yöntemleri seçebilirsiniz.
+    - Adobe Sign - Tüm teklif paketleri Adobe Sign ile gönderilir. Teklifi yayınlayan her teklif oluşturucusunun kendi Adobe Sign lisansını Attract'e bağlamış olması gerekir. 
 
+    - ESign - Bu varsayılan seçenektir, kullanıma hazırdır, kullanıcı kendi adını ve baş harflerini yazarak imza atabilir.
 
 Teklif oluşturma işlemi hakkında daha fazla bilgi için bkz: [Teklif oluşturma, onaylama ve imzalama](./creating-offers.md).
 

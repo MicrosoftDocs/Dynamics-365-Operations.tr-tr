@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e61524feab1b06f4a863a140b883bf8fe49af1e2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: d3527807650061804212abf67e536c17078aabf9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -33,58 +33,55 @@ ms.lasthandoff: 11/03/2017
 
 Bu konu, barkod maskesi karakterlerini, barkod maskelerini ve barkod maskelerinin barkodlara nasıl atanacağını açıklamaktadır.
 
-<a name="set-up-bar-code-mask-characters"></a>Barkod maskesi karakterlerini ayarlama
--------------------------------
+## <a name="set-up-bar-code-mask-characters"></a>Barkod maskesi karakterlerini ayarlama
 
 Barkod maskeleri, barkod oluşturmak ve satış noktasına (POS) taranan barkodları hızla tanımlamak için kullanılır. Maskeler, oluşturulacak barkodların biçimini belirten yer tutucuları gibi davranan karakterlerden oluşur. Bir barkod maskesi yapılandırmak için, barkod maskesi karakterleri oluşturmanız gerekir. **Perakende** &gt; **Stok yönetimi** &gt; **Barkodlar ve etiketler** &gt; **Maske karakterleri**'ne gidin. Barkod maskesi karakterleri oluşturmak için **Yeni**'ye tıklayın. Maske karakterleri aşağıdaki barkod verilerini göstermek için oluşturulabilir.
 
-|                      |                                                                                                                 |
-|----------------------|-----------------------------------------------------------------------------------------------------------------|
-| **Alan**            | **Açıklama**                                                                                                 |
-| **Ürün**          | Ürün kodu için yer tutucu.                                                                                     |
-| **Herhangi bir sayı**       | Barkodlarda sabit kodlanacak bir numarayı belirtmek için kullanılır.                                                  |
-| **Denetleme basamağı**      | Bir barkod maskesindeki barkod biçiminin, barkodun geçerliliğini onaylamak için bir denetim basamağı kullandığını belirtir. |
-| **Boyut basamağı**       | Boyutu içeren bir ürün çeşidi için oluşturulan bir barkoddaki boyutu gösterir.                                 |
-| **Renk basamağı**      | Renk içeren bir ürün çeşidi için oluşturulan bir barkoddaki rengi gösterir.                               |
-| **Stil basamağı**      | Stil içeren bir ürün çeşidi için oluşturulan bir barkoddaki stili gösterir.                             |
-| **EAN lisans kodu** | EAN lisans kodları için verilen EAN lisansın yer tutucusu.                                                       |
-| **Fiyat**            | Fiyat katıştırılmış barkodları için fiyatı belirtir.                                                                   |
-| **Miktar**         | Miktar/rastgele ağırlık katıştırılmış barkodlardaki miktarı belirtir.                                                |
-| **Çalışan**         | Barkod POS oturum açma işlemi için kullanılan çalışan kimlik numarasının barkod bölümünü belirtir.                                  |
-| **Müşteri**         | Müşteri kimliği segmentini gösterir.                                                                                  |
-| **Veri girişi**       | *Henüz uygulanmadı.*                                                                                          |
-| **İskonto kodu**    | *Amortisman*, Dynamics 365 for Retail Bahar 2017 sürümü itibarıyla Önceden: Bir satış noktası hareketine iskonto eklemek için kullanılan barkodun indirim kodunu belirtir.                                                                   |
-| **Kupon kodu**      | Bir perakende siparişe iskonto eklemek için kullanılan barkoda ilişkin kupon kodunu belirtir. İskonto kodunun yerine geçti.     |
-| **Hediye kartı**        | Hediye kartı verirken veya ödeme yaparken bir hediye kartı numarası belirtir.                                               |
-| **Bağlılık programı kartı**     | Harekete bir bağlılık programı müşterisi ekler ve bağlılık programıyla ödeme yapılırken kullanılabilir.                             |
+| Alan            | Açıklama |
+|------------------|-------------|
+| Ürün          | Ürün kodu için yer tutucu. |
+| Herhangi bir sayı       | Barkodlarda sabit kodlanacak bir numarayı belirtmek için kullanılır. |
+| Denetleme basamağı      | Bir barkod maskesindeki barkod biçiminin, barkodun geçerliliğini onaylamak için bir denetim basamağı kullandığını belirtir. |
+| Boyut basamağı       | Boyutu içeren bir ürün çeşidi için oluşturulan bir barkoddaki boyutu gösterir. |
+| Renk basamağı      | Renk içeren bir ürün çeşidi için oluşturulan bir barkoddaki rengi gösterir. |
+| Stil basamağı      | Stil içeren bir ürün çeşidi için oluşturulan bir barkoddaki stili gösterir. |
+| EAN lisans kodu | EAN lisans kodları için verilen EAN lisansın yer tutucusu. |
+| Fiyat            | Fiyat katıştırılmış barkodları için fiyatı belirtir. |
+| Miktar         | Miktar/rastgele ağırlık katıştırılmış barkodlardaki miktarı belirtir. |
+| Personel         | Barkod POS oturum açma işlemi için kullanılan çalışan kimlik numarasının barkod bölümünü belirtir. |
+| Müşteri         | Müşteri kimliği segmentini gösterir. |
+| Veri girişi       | *Henüz uygulanmadı.* |
+| İskonto kodu    | *Amortisman*, Dynamics 365 for Retail Bahar 2017 sürümü itibarıyla Önceden: Bir satış noktası hareketine iskonto eklemek için kullanılan barkodun indirim kodunu belirtir. |
+| Kupon kodu      | Bir perakende siparişe iskonto eklemek için kullanılan barkoda ilişkin kupon kodunu belirtir. İskonto kodunun yerine geçti. |
+| Hediye kartı        | Hediye kartı verirken veya ödeme yaparken bir hediye kartı numarası belirtir. |
+| Bağlılık programı kartı     | Harekete bir bağlılık programı müşterisi ekler ve bağlılık programıyla ödeme yapılırken kullanılabilir. |
 
 ## <a name="define-bar-code-masks"></a>Barkod maskelerini tanımlama
+
 Gerekli barkod maskeleri için barkod maskesi karakterleri belirtildikten sonra **Perakende** &gt; **Stok yönetimi** &gt; **Barkodlar ve etiketler** &gt; **Barkod maskesi ayarı**'na gidin. Bu sayfada, daha önce belirtilen karakterleri kullanan barkod maskeleri tanımlayabilirsiniz. Bu barkod maskeleri, barkod oluşturulurken kullanılır ve POS'ta taranan barkodları tanımaya da yardımcı olur.
 
-1.  Yeni bir barkod maskesi oluşturmak için **Yeni**'ye tıklayın.
-2.  **Maske kodu** ve **Açıklama** alanlarına değerleri girin ve **Tür** alanında bir barkod maskesi türü seçin.
-3.  **Genel** bölümünde, **Barkod standardı** alanındaki bir değeri seçin ve gerekliyse barkod önekini belirtin.
-4.  **Barkod maske segmenti** bölümünde, oluşturulacak barkodda kullanılacak olan barkod segmentlerini ekleyin.
+1. Yeni bir barkod maskesi oluşturmak için **Yeni**'ye tıklayın.
+2. **Maske kodu** ve **Açıklama** alanlarına değerleri girin ve **Tür** alanında bir barkod maskesi türü seçin.
+3. **Genel** bölümünde, **Barkod standardı** alanındaki bir değeri seçin ve gerekliyse barkod önekini belirtin.
+4. **Barkod maske segmenti** bölümünde, oluşturulacak barkodda kullanılacak olan barkod segmentlerini ekleyin.
 
 Örnek olarak, maske kodu "Ürün" olan bir barkod maskesi oluşturmak için aşağıdakileri yaparsınız:
 
-1.  Yeni bir barkod maskesi oluşturun ve tür olarak "Ürün"ü seçin.
-2.  Bir barkod standardı seçin (örneğin "Kod 39").
-3.  Barkodu kolayca tanımak için kullanılacak bir önek belirtin. Örneğin "22".
-4.  Bir maske segmenti ekleyin. "Ürün" maske segmenti seçilecektir.
-5.  Ürün segmenti için bir uzunluk belirtin (örneğin "10"). Uzunluk, mağazada genel olarak kullanılan bir ürün kodunun uzunluğuyla eşleşmelidir. Maske **Maske** altındaki **Genel** bölümünde bir önizleme olarak görüntülenir.
+1. Yeni bir barkod maskesi oluşturun ve tür olarak 'Ürün'ü seçin.
+2. Bir barkod standardı seçin (örneğin "Kod 39").
+3. Barkodu kolayca tanımak için kullanılacak bir önek belirtin. Örneğin, '22'.
+4. Bir maske segmenti ekleyin. 'Ürün' maske segmenti seçilecektir.
+5. Ürün segmenti için bir uzunluk belirtin (örneğin '10'). Uzunluk, mağazada genel olarak kullanılan bir ürün kodunun uzunluğuyla eşleşmelidir. Maske **Maske** altındaki **Genel** bölümünde bir önizleme olarak görüntülenir.
 
 ## <a name="assign-bar-code-masks-to-bar-codes"></a>Barkod maskelerini barkodlara atama
+
 Barkodların kullanılabilmesi için önce barkod maskelerinin barkodlara atanması gerekir. Önceki örnekten devam edersek, bir barkoda barkod maskesi atamak için aşağıdakileri yapın:
 
-1.  **Kuruluş yönetimi** &gt; **Kurulum** &gt; **Barkodlar**'a gidin. Yeni bir barkod oluşturmak için **Yeni**'ye tıklayın.
-2.  **Barkod** ayarı ve **Kurulum** alanına değerleri girin.
-3.  **Genel** bölümündeki **Barkod türü** alanında "Kod 39"u seçin. **Maske** **kodu** alanında, daha önce oluşturulmuş olan "Ürün" maskesini seçin.
-4.  **Boyut** altında "12" girin.
-5.  **Kaydet**'e tıklayın.
+1. **Kuruluş yönetimi** &gt; **Kurulum** &gt; **Barkodlar**'a gidin. Yeni bir barkod oluşturmak için **Yeni**'ye tıklayın.
+2. **Barkod** **ayarı** ve **Kurulum** alanına değerleri girin.
+3. **Genel** bölümündeki **Barkod türü** alanında 'Kod 39'u seçin. **Maske** **kodu** alanında, daha önce oluşturulmuş olan 'Ürün' maskesini seçin.
+4. **Boyut** altında '12' girin.
+5. **Kaydet**'e tıklayın.
 
 Barkod maskesi şimdi ürünlere ilişkin barkodlar oluşturmak için kullanılabilir. Yukarıdaki adımlar, ürünler için barkod maskeleri oluşturma örneğidir, ancak, desteklenen diğer barkod türleri için barkod maskeleri oluşturma işlemini de gösterir. Barkod maskeleri, türleri ve uzunlukları özel ortamınızda kullanmak için ayarlanmalıdır.
-
-
-
 

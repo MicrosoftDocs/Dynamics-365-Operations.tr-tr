@@ -3,7 +3,7 @@ title: "Süreçlerdeki faaliyetler"
 description: "Bu konu, işe alma işleminde kullanılabilecek faaliyetlerin çeşitli türleri hakkında bilgi sağlar."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: ccd9e2d0ff1f7fb6825c6823936b4013b3054f5d
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -62,6 +62,10 @@ Görüşme faaliyeti isteğe bağlıdır. Bu faaliyetin üç bileşeni vardır: 
 - Aday erişilebilirliğini talep etmek üzere e-posta göndermek için **Aday erişilebilirliği iste** seçeneğini **Açık** olarak ayarlayın. Seçeneği **Kapalı** olarak ayarlarsanız bu adım, işteki işe alma işleminde görüntülenmez.
 - Canlı akış veya Skype Kurumsal kullanarak bir konferans çağrısında **Çevrimiçi toplantı** alanını **Skype Kurumsal** olarak ayarlayın. Doğru **Skype Toplantısına katıl** bağlantısı, daha sonra görüşme toplantısı isteğine eklenir.
 - Adaylara planlamayı sonlandırmak üzere e-posta göndermek için **Adaya posta gönder** seçeneğini **Açık** olarak ayarlayın. Seçeneği **Kapalı** olarak ayarlarsanız, adaylar yalnızca Aday portalına giriş yaptığında görüşme planını alacak.
+
+>[!NOTE]
+> - Tüm 1:1 görüşmeler için görüşmeci, görüşme talebine yanıt vermediyse (kabul veya ret) her 24 saatte bir hatırlatma görüşmecilere gönderilir.
+> - Tüm panel görüşmeleri için görüşme isteğini yanıtlamak üzere otomatik hiçbir anımsatıcı yoktur. Bir anımsatmayı el ile tetiklemek için görüşmeyi düzenleyin ve **Güncelleştir ve Gönder** seçeneğini kullanarak talebi görüşmecilere geri gönderin.
 
 Geri Bildirim bileşeni, kişilerin bir başvuran için öneriler girmesini sağlar. Ayrıca sahip oldukları geri bildirim yorumları da girebilir. **İşe Alım Ekbinden katılımcı geri bildirimi al** seçeneğini açarsanız işe alan, işe alma yöneticisi ve görüşmeciler Geri Bildirim bileşenine otomatik olarak girer. Kuruluşlar, görüşmeye katılanların kendilerine ait geri bildirim göndermeden önce diğer kişilerin geri bildirimlerini görüntülemesine izin verebilir. Kuruluşlar ayrıca görüşmecilerin geri bildirimlerini gönderdikten sonra düzenlemesine de izin verir.
 

@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: eeb56ec9697447ebd2385f3a0a516fcc9dc1bd3e
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,104 +29,87 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.  Yayımlanmış olan kitaplıklar arasında (Şubat 2016) APQC Unified Library for Microsoft Dynamics AX ve (Şubat 2016) Başlangıç bulunmaktadır.
+Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler. Yayımlanmış olan kitaplıklar arasında (Şubat 2016) APQC Unified Library for Microsoft Dynamics AX ve (Şubat 2016) Başlangıç bulunmaktadır.
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX için (Şubat 2016) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
----------------------------------------------------------------------------------
+## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX için (Şubat 2016) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
 
 (Şubat 2016) APQC Birleştirilmiş kitaplığı Dynamics AX 7.0.0 sürümünün Yardım'ı için kullanılmak üzere tasarlanmış Görev kılavuzlarını içerir. Bu Görev kılavuzlarının yerelleştirilmiş sürümleri gerekiyorsa, bunları Microsoft Dynamics AX için (Mayıs 2016) APQC Birleştirilmiş Kitaplığı'nda bulabilirsiniz. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md).
 
 ### <a name="accounts-payable"></a>Borç hesapları
 
-|                                                           |                    |
-|-----------------------------------------------------------|--------------------|
-| **BPM Satırı**                                              | **Ülke/Bölge** |
-| Satıcı faturası kullanarak fatura verilerini AP sistemine gir        | Genel             |
-| Fatura günlüğü kullanarak fatura verilerini AP sistemine gir     | Genel             |
-| Fatura havuzu kullanarak fatura verilerini AP sistemine gir        | Genel             |
-| Fatura kaydı kullanarak fatura verilerini AP sistemine gir    | Genel             |
-| Satıcı faturasını kaydetme ve alınan miktarlarla eşleştirme | Genel             |
-| Borç hesapları fatura eşleştirme doğrulaması ayarlama       | Genel             |
-| Satıcı fatura ilkelerini ayarla                            | Genel             |
+| BPM satırı                                                  | Ülke/bölge |
+|-----------------------------------------------------------|----------------|
+| Satıcı faturası kullanarak fatura verilerini AP sistemine gir        | Genel         |
+| Fatura günlüğü kullanarak fatura verilerini AP sistemine gir     | Genel         |
+| Fatura havuzu kullanarak fatura verilerini AP sistemine gir        | Genel         |
+| Fatura kaydı kullanarak fatura verilerini AP sistemine gir    | Genel         |
+| Satıcı faturasını kaydetme ve alınan miktarlarla eşleştirme | Genel         |
+| Borç hesapları fatura eşleştirme doğrulaması ayarlama       | Genel         |
+| Satıcı fatura ilkelerini ayarla                            | Genel         |
 
-
- 
 ### <a name="accounts-receivable"></a>Alacak hesapları
 
-|                                                             |                    |
-|-------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                | **Ülke/Bölge** |
-| Bir müşteriye yinelenen serbest metin fatura şablonu ata | Genel             |
-| Tahsilat mektubu sırası oluşturun                         | Genel             |
-| Bir müşteri için hesaptan ödeme talimatı oluşturun                | Genel             |
-| Serbest metin faturası şablonu oluştur                         | Genel             |
-| Bir müşteri için kapalı günlük yazma oluştur                   | Genel             |
-| Aralığa sahip bir faiz kodu oluşturma                        | Genel             |
-| Serbest metin faturaları oluştur ve işle                       | Genel             |
-| Satış siparişi faturaları oluştur                                 | Genel             |
-| Yinelenen serbest metin faturaları oluştur ve naklet              | Genel             |
-| Tahsilat mektuplarını işleme                                  | Genel             |
-| Faiz işleme                                            | Genel             |
-| Tahsilat bilgilerini gözden geçirme                              | Genel             |
-| Alacak hesapları yaşlandırma bilgilerini ayarlayın ve oluşturun   | Genel             |
+| BPM satırı                                                    | Ülke/bölge |
+|-------------------------------------------------------------|----------------|
+| Bir müşteriye yinelenen serbest metin fatura şablonu ata | Genel         |
+| Tahsilat mektubu sırası oluşturun                         | Genel         |
+| Bir müşteri için hesaptan ödeme talimatı oluşturun                | Genel         |
+| Serbest metin faturası şablonu oluştur                         | Genel         |
+| Bir müşteri için kapalı günlük yazma oluştur                   | Genel         |
+| Aralığa sahip bir faiz kodu oluşturma                        | Genel         |
+| Serbest metin faturaları oluştur ve işle                       | Genel         |
+| Satış siparişi faturaları oluştur                                 | Genel         |
+| Yinelenen serbest metin faturaları oluştur ve naklet              | Genel         |
+| Tahsilat mektuplarını işleme                                  | Genel         |
+| Faiz işleme                                            | Genel         |
+| Tahsilat bilgilerini gözden geçirme                              | Genel         |
+| Alacak hesapları yaşlandırma bilgilerini ayarlama ve oluşturma   | Genel         |
 
-
- 
 ### <a name="cash-and-bank-management"></a>Nakit ve banka yönetimi
 
-|                                                                      |                    |
-|----------------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                         | **Ülke/Bölge** |
-| Kredi mektubu için banka tesisi anlaşması oluştur                | Genel             |
-| Teminat mektubu için banka tesisi anlaşması oluştur             | Genel             |
-| Müşteri ödemeleri özeti                                           | Genel             |
-| Satıcı ödeme masraflarını tanımlayın                                           | Genel             |
-| Satıcı ödeme koşullarını tanımlayın                                          | Genel             |
-| Müşteri ödemelerini havale edin                                            | Genel             |
-| Müşteri ödeme yöntemi oluşturun                                 | Genel             |
-| Müşteri ödeme masrafları oluşturun                                      | Genel             |
-| Müşteri ödeme şartlarını belirleyin                                     | Genel             |
-| Kredi mektubunu dışa aktar                                              | Genel             |
-| İthalat kredi mektubu                                              | Genel             |
-| Teminat mektubu hareketi                                      | Genel             |
-| Bir müşteri için vadeli çeki kayıt edin ve nakledin                   | Genel             |
-| Kaydolun ve satıcının vadeli çekini nakledin.                     | Genel             |
-| Kredi mektubu için banka tesisleri ve deftere nakil profilleri ayarlama     | Genel             |
-| Teminat mektupları için banka tesisleri ve deftere nakil profilleri ayarlama | Genel             |
-| Vadeli çek oluşturma                                              | Genel             |
-| Bir satıcının ileri tarih atılmış çekini kapatmak                                | Genel             |
-| Bir müşterinin ileri tarih atılmış çekini kapatmak                             | Genel             |
-| Satıcı ödemesi özeti                                              | Genel             |
+| BPM satırı                                                             | Ülke/bölge |
+|----------------------------------------------------------------------|----------------|
+| Kredi mektubu için banka tesisi anlaşması oluştur                | Genel         |
+| Teminat mektubu için banka tesisi anlaşması oluştur             | Genel         |
+| Müşteri ödemeleri özeti                                           | Genel         |
+| Satıcı ödeme masraflarını tanımlayın                                           | Genel         |
+| Satıcı ödeme koşullarını tanımlayın                                          | Genel         |
+| Müşteri ödemelerini havale edin                                            | Genel         |
+| Müşteri ödeme yöntemi oluşturun                                 | Genel         |
+| Müşteri ödeme masrafları oluşturun                                      | Genel         |
+| Müşteri ödeme şartlarını belirleyin                                     | Genel         |
+| Kredi mektubunu dışa aktar                                              | Genel         |
+| İthalat kredi mektubu                                              | Genel         |
+| Teminat mektubu hareketi                                      | Genel         |
+| Bir müşteri için vadeli çeki kayıt edin ve nakledin                   | Genel         |
+| Kaydolun ve satıcının vadeli çekini nakledin.                     | Genel         |
+| Kredi mektubu için banka tesisleri ve deftere nakil profilleri ayarlama     | Genel         |
+| Teminat mektupları için banka tesisleri ve deftere nakil profilleri ayarlama | Genel         |
+| Vadeli çek oluşturma                                              | Genel         |
+| Bir satıcının ileri tarih atılmış çekini kapatmak                                | Genel         |
+| Müşterinin ileri tarih atılmış çekini kapatma                             | Genel         |
+| Satıcı ödemesine genel bakış                                              | Genel         |
 
-
- 
 ### <a name="compliance"></a>Uyumluluk
 
-|                                            |                    |
-|--------------------------------------------|--------------------|
-| **BPM Satırı**                               | **Ülke/Bölge** |
-| Kaynak belgeler için denetim ilkelerini tanımla | Genel             |
+| BPM satırı                                   | Ülke/bölge |
+|--------------------------------------------|----------------|
+| Kaynak belgeler için denetim ilkeleri tanımlama | Genel         |
 
-
- 
 ### <a name="cost-management"></a>Maliyet yönetimi
 
-|                                                                     |                    |
-|---------------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                        | **Ülke/Bölge** |
-| Üretim emrindeki etkin, tahmini ve gerçekleşmiş maliyetleri karşılaştır | Genel             |
-| Maliyet nesnesi için maliyet girişlerini görüntüleme                                 | Genel             |
-| Maliyet nesnesi bakiyesini görüntüleme                                            | Genel             |
-| Bir üretim emrindeki süren iş durumunu görüntüleme                       | Genel             |
-| Stok ekstresini ve maliyet nesnesine göre KPI görüntüleme                     | Genel             |
+| BPM satırı                                                            | Ülke/bölge |
+|---------------------------------------------------------------------|----------------|
+| Üretim emrindeki etkin, tahmini ve gerçekleşen maliyetleri karşılaştırma | Genel         |
+| Maliyet nesnesi için maliyet girişlerini görüntüleme                                 | Genel         |
+| Maliyet nesnesi bakiyesini görüntüleme                                            | Genel         |
+| Bir üretim emrindeki süren iş durumunu görüntüleme                       | Genel         |
+| Maliyet nesnesine göre stok ekstresi ve KPI görüntüleme                     | Genel         |
 
+### <a name="countryregion-functionality"></a>Ülke/bölge işlevi
 
- 
-### <a name="countryregion-functionality"></a>Ülke/Bölge işlevleri
-
-|                                                                                                        |                                 |
+| BPM satırı                                                                                               | Ülke/bölge                  |
 |--------------------------------------------------------------------------------------------------------|---------------------------------|
-| **BPM Satırı**                                                                                           | **Ülke/Bölge**              |
 | BAS raporu kutuları ekle ve Avustralya Ticari Etkinlik Raporunu (BAS) oluştur                        | Avustralya ve Yeni Zelanda       |
 | Avustralya BAS için neden kodları ayarlama                                                                  | Avustralya ve Yeni Zelanda       |
 | Bir müşterinin hesabına ödeme makbuzu biçimi ata                                                     | Danimarka                         |
@@ -260,474 +243,408 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | GB-00002 Ters Kaydedilecek KDV madde grupları, kuralları ve parametreleri ayarlama                                  | İngiltere                  |
 | GB-00002 Ters gider KDV'si için satış vergisi grupları ayarlama                                                | İngiltere                  |
 | GB-00009 Kapatma iskontosunda alacak dekontu oluştur                                               | İngiltere                  |
-| GB-00009 Hızlı ödeme iskontosu üzerinden alacak dekontu için parametreleri ayarla                                   | İngiltere                  |
+| GB-00009 Hızlı ödeme iskontosu üzerinden alacak dekontu için parametreleri ayarla                                   | Birleşik Krallık                  |
 
-
- 
 ### <a name="develop-vision-and-strategy"></a>Vizyon ve Strateji geliştir
 
-|                                                                                          |                    |
-|------------------------------------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                                             | **Ülke/Bölge** |
-| Soru formu sonuçlarını analiz et                                                            | Genel             |
-| Kapalı uçlu soru oluştur                                                           | Genel             |
-| Açık uçlu soru oluştur                                                            | Genel             |
-| Bir soruyu önceki sorunun cevabına bağımlı hale getirme (Koşullu sorular) | Genel             |
-| Soru formunu yüzdeye göre puanlayın                                                   | Genel             |
+| BPM satırı                                                                                 | Ülke/bölge |
+|------------------------------------------------------------------------------------------|----------------|
+| Soru formu sonuçlarını analiz etme                                                            | Genel         |
+| Kapalı uçlu soru oluşturma                                                           | Genel         |
+| Açık uçlu soru oluştur                                                            | Genel         |
+| Bir soruyu önceki sorunun cevabına bağımlı hale getirme (Koşullu sorular) | Genel         |
+| Soru formunu yüzdeye göre puanlayın                                                   | Genel         |
 
-
- 
 ### <a name="electronic-reporting"></a>Elektronik raporlama
 
-|                                                 |                    |
-|-------------------------------------------------|--------------------|
-| **BPM Satırı**                                    | **Ülke/Bölge** |
-| ER model eşleme tanımla ve veri kaynakları seç | Genel             |
-| ER Tasarım etki alanına özel veri modeli            | Genel             |
-| ER Tasarım etki alanına özel biçim                | Genel             |
-| ER seçili veri kaynaklarına veri modeli eşle      | Genel             |
-| ER Hizmet sağlayıcısı seç                      | Genel             |
+| BPM satırı                                        | Ülke/bölge |
+|-------------------------------------------------|----------------|
+| ER model eşleme tanımla ve veri kaynakları seç | Genel         |
+| ER Tasarım etki alanına özel veri modeli            | Genel         |
+| ER Tasarım etki alanına özel biçim                | Genel         |
+| ER seçili veri kaynaklarına veri modeli eşle      | Genel         |
+| ER Hizmet sağlayıcısı seç                      | Genel         |
 
-
- 
 ### <a name="expense-management"></a>Gider yönetimi
 
-|                              |                    |
-|------------------------------|--------------------|
-| **BPM Satırı**                 | **Ülke/Bölge** |
-| Gider yönetimini yapılandır | Genel             |
+| BPM satırı                     | Ülke/bölge |
+|------------------------------|----------------|
+| Gider yönetimini yapılandır | Genel         |
 
-
- 
 ### <a name="fixed-assets"></a>Sabit kıymetler
 
-|                                                           |                    |
-|-----------------------------------------------------------|--------------------|
-| **BPM Satırı**                                              | **Ülke/Bölge** |
-| Birden çok sabit kıymete yönelik amortisman yöntemlerini değiştirme | Genel             |
-| Sabit kıymet oluşturun                                      | Genel             |
-| Borç hesaplarından kıymetler oluşturup alın           | Genel             |
-| Amortisman önerisi oluştur                              | Genel             |
-| Serbest metin faturası kullanarak bir sabit kıymeti elden çıkarın        | Genel             |
-| Sabit kıymete bir ek girme                        | Genel             |
-| Sabit kıymet alımları önerin                          | Genel             |
-| Amortisman profilleri ayarlayın ve oluşturun                   | Genel             |
-| Ek amortisman ayarlama                                 | Genel             |
-| Amortisman defterlerini ayarlayın                                 | Genel             |
-| Sabit kıymet gruplarını ayarla                                 | Genel             |
-| Sabit kıymet deftere nakil profilleri ayarlama                       | Genel             |
-| Değer modelleri ayarlama                                       | Genel             |
-| Sabit kıymeti parçalara ayırın                                       | Genel             |
-| Bir sabit kıymeti transfer edin                                    | Genel             |
+| BPM satırı                                                  | Ülke/bölge |
+|-----------------------------------------------------------|----------------|
+| Birden çok sabit kıymete yönelik amortisman yöntemlerini değiştirme | Genel         |
+| Sabit kıymet oluşturun                                      | Genel         |
+| Borç hesaplarından kıymetler oluşturup alın           | Genel         |
+| Amortisman önerisi oluştur                              | Genel         |
+| Serbest metin faturası kullanarak bir sabit kıymeti elden çıkarın        | Genel         |
+| Sabit kıymete bir ek girme                        | Genel         |
+| Sabit kıymet alımları önerin                          | Genel         |
+| Amortisman profilleri ayarlayın ve oluşturun                   | Genel         |
+| Ek amortisman ayarlama                                 | Genel         |
+| Amortisman defterlerini ayarlayın                                 | Genel         |
+| Sabit kıymet gruplarını ayarla                                 | Genel         |
+| Sabit kıymet deftere nakil profilleri ayarlama                       | Genel         |
+| Değer modelleri ayarlama                                       | Genel         |
+| Sabit kıymeti bölme                                       | Genel         |
+| Sabit kıymeti transfer etme                                    | Genel         |
 
-
- 
 ### <a name="general-ledger"></a>Genel muhasebe
 
-|                                                                   |                    |
-|-------------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                      | **Ülke/Bölge** |
-| Mali yılı kapa                                             | Genel             |
-| Şablon kullanarak yevmiye defteri girişi oluşturma                           | Genel             |
-| Bir ana hesap oluştur                                             | Genel             |
-| Hesap yapıları oluştur                                         | Genel             |
-| Tahakkuk planları oluşturma                                            | Genel             |
-| Günlükler için gelişmiş kurallar oluştur                                | Genel             |
-| Gelişmiş kural yapısı oluştur ve ata                        | Genel             |
-| Günlükler oluştur ve doğrula                                      | Genel             |
-| Konsolidasyon grupları ve ek konsolidasyon hesapları oluştur | Genel             |
-| Genel muhasebe tahakkuk hareketleri oluşturma                                | Genel             |
-| Mali boyutları tanımla                                       | Genel             |
-| Nakledilen yevmiye defteri girişleri günlüğe aktar                                 | Genel             |
-| Mali boyut varsayılan şablonlarını koru                    | Genel             |
-| Toplu mali dönem kapatma                                       | Genel             |
-| Çevrimiçi konsolidasyon gerçekleştirme                                   | Genel             |
-| Periyodik günlükleri deftere naklet                                            | Genel             |
-| Konsolidasyon işleminde kullanılmak için tüzel kişilik hazırla       | Genel             |
-| Eliminasyon hareketlerini işleme koy                                  | Genel             |
-| Genel muhasebe tahsisat günlüğünü işleme                                 | Genel             |
-| Genel muhasebe hesabı diğer adlarını ayarla                                     | Genel             |
-| Eliminasyon kurallarını ayarlama                                          | Genel             |
-| Ana hesap kategorilerini ayarla                                    | Genel             |
-| Genel muhasebe hesapları arasındaki hareketleri kapatma                       | Genel             |
-| Yevmiye defteri girişlerini veya hareketlerini görüntüleyin                              | Genel             |
-| Günlükten ilgili şirketlerarası fişi görüntüleyin                    | Genel             |
+| BPM satırı                                                          | Ülke/bölge |
+|-------------------------------------------------------------------|----------------|
+| Mali yılı kapatma                                             | Genel         |
+| Şablon kullanarak yevmiye defteri girişi oluşturma                           | Genel         |
+| Bir ana hesap oluştur                                             | Genel         |
+| Hesap yapıları oluştur                                         | Genel         |
+| Tahakkuk planları oluşturma                                            | Genel         |
+| Günlükler için gelişmiş kurallar oluştur                                | Genel         |
+| Gelişmiş kural yapısı oluştur ve ata                        | Genel         |
+| Günlükler oluştur ve doğrula                                      | Genel         |
+| Konsolidasyon grupları ve ek konsolidasyon hesapları oluştur | Genel         |
+| Genel muhasebe tahakkuk hareketleri oluşturma                                | Genel         |
+| Mali boyutları tanımla                                       | Genel         |
+| Nakledilen yevmiye defteri girişleri günlüğe aktar                                 | Genel         |
+| Mali boyut varsayılan şablonlarını koru                    | Genel         |
+| Toplu mali dönem kapatma                                       | Genel         |
+| Çevrimiçi konsolidasyon gerçekleştirme                                   | Genel         |
+| Periyodik günlükleri deftere naklet                                            | Genel         |
+| Konsolidasyon işleminde kullanılmak için tüzel kişilik hazırla       | Genel         |
+| Eliminasyon hareketlerini işleme koy                                  | Genel         |
+| Genel muhasebe tahsisat günlüğünü işleme                                 | Genel         |
+| Genel muhasebe hesabı diğer adlarını ayarla                                     | Genel         |
+| Eliminasyon kurallarını ayarlama                                          | Genel         |
+| Ana hesap kategorilerini ayarla                                    | Genel         |
+| Genel muhasebe hesapları arasındaki hareketleri kapatma                       | Genel         |
+| Yevmiye defteri girişlerini veya hareketlerini görüntüleyin                              | Genel         |
+| Günlükten ilgili şirketlerarası fişi görüntüleyin                    | Genel         |
 
-
- 
 ### <a name="human-capital-management"></a>İnsan sermayesi yönetimi
 
-|                                                                  |                    |
-|------------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                     | **Ülke/Bölge** |
-| Soru formu sonuçlarını analiz et                                    | Genel             |
-| Uygulama gelen kutusu kayıtlarını onayla                                | Genel             |
-| Kazanç uygunluğu işlemi                                      | Genel             |
-| Toplu işe alma projesi oluşturma                                       | Genel             |
-| Ödünç verme maddeleri oluştur                                                | Genel             |
-| Kazanç uygunluk kurallarını ve ilkelerini tanımla                    | Genel             |
-| Ücret işlemi tanımlama ve sonuçları hesaplama                | Genel             |
-| Yeni bölümleri tanımla                                           | Genel             |
-| Yeni işleri tanımla                                                  | Genel             |
-| Çalışan yararları programı teslim et                                | Genel             |
-| İş talebi geliştir ve yönet                                 | Genel             |
-| Ardışık plan geliştir                                          | Genel             |
-| İstihdam doğrulama i9 doğrulama                          | Genel             |
-| Bir işçi için yararları kaydet ve kaldır                          | Genel             |
-| Çalışanları sabit ücret planına kaydet                    | Genel             |
-| Çalışanları bir değişken ücret planına kaydet                 | Genel             |
-| Başvuran ve uygulama verilerini el ile gir                    | Genel             |
-| Çalışan bilgileri grir                                         | Genel             |
-| İşe alma yoluyla varolan bir adayı işe alma                    | Genel             |
-| İşe alma yoluyla adayı işe al                                | Genel             |
-| Birden fazla çalışanı işe al                                          | Genel             |
-| Aday seçim araçlarını tanımla ve dağıt                    | Genel             |
-| Çalışana madde ödünç ver                                            | Genel             |
-| Çalışan yaralanma ve hastalık bilgilerini koru                 | Genel             |
-| Bir soruyu önceki sorunun cevabına bağımlı hale getir | Genel             |
-| Kazanç bitiş tarihlerini yönet                                  | Genel             |
-| E-posta şablonlarını yönet                                           | Genel             |
-| Çalışan geçişlerini ve transferlerini yönet                        | Genel             |
-| İzinleri yönet                                          | Genel             |
-| Çalışan konaklamalarını yönet                                     | Genel             |
-| Bir pozisyonun raporlama ilişkilerini değiştirme                    | Genel             |
-| Ücret kılavuzları ayarlama                                        | Genel             |
-| Yaralanma ve hastalık bilgilerini ayarla                            | Genel             |
-| Yaralanma ve hastalık bilgilerini ayarla                            | Genel             |
-| Kazanca uygunluk ilkeleri ayarlama                             | Genel             |
-| i9 belge türleri ayarlama                                     | Genel             |
+| BPM satırı                                                         | Ülke/bölge |
+|------------------------------------------------------------------|----------------|
+| Soru formu sonuçlarını analiz etme                                    | Genel         |
+| Uygulama gelen kutusu kayıtlarını onaylama                                | Genel         |
+| Kazanç uygunluğu işlemi                                      | Genel         |
+| Toplu işe alma projesi oluşturma                                       | Genel         |
+| Ödünç verme maddeleri oluştur                                                | Genel         |
+| Kazanç uygunluk kurallarını ve ilkelerini tanımla                    | Genel         |
+| Ücret işlemi tanımlama ve sonuçları hesaplama                | Genel         |
+| Yeni bölümleri tanımla                                           | Genel         |
+| Yeni işleri tanımla                                                  | Genel         |
+| Çalışan yararları programı teslim et                                | Genel         |
+| İş talebi geliştir ve yönet                                 | Genel         |
+| Ardışık plan geliştir                                          | Genel         |
+| İstihdam doğrulama i9 doğrulama                          | Genel         |
+| Bir işçi için yararları kaydet ve kaldır                          | Genel         |
+| Çalışanları sabit ücret planına kaydet                    | Genel         |
+| Çalışanları bir değişken ücret planına kaydet                 | Genel         |
+| Başvuran ve uygulama verilerini el ile gir                    | Genel         |
+| Çalışan bilgileri grir                                         | Genel         |
+| İşe alma yoluyla varolan bir adayı işe alma                    | Genel         |
+| İşe alma yoluyla adayı işe al                                | Genel         |
+| Birden fazla çalışanı işe al                                          | Genel         |
+| Aday seçim araçlarını tanımla ve dağıt                    | Genel         |
+| Çalışana madde ödünç ver                                            | Genel         |
+| Çalışan yaralanma ve hastalık bilgilerini koru                 | Genel         |
+| Bir soruyu önceki sorunun cevabına bağımlı hale getir | Genel         |
+| Kazanç bitiş tarihlerini yönet                                  | Genel         |
+| E-posta şablonlarını yönet                                           | Genel         |
+| Çalışan geçişlerini ve transferlerini yönet                        | Genel         |
+| İzinleri yönet                                          | Genel         |
+| Çalışan konaklamalarını yönet                                     | Genel         |
+| Bir pozisyonun raporlama ilişkilerini değiştirme                    | Genel         |
+| Ücret kılavuzları ayarlama                                        | Genel         |
+| Yaralanma ve hastalık bilgilerini ayarla                            | Genel         |
+| Yaralanma ve hastalık bilgilerini ayarla                            | Genel         |
+| Kazanca uygunluk ilkeleri ayarlama                             | Genel         |
+| i9 belge türleri ayarlama                                     | Genel         |
 
+### <a name="inventory-management"></a>Stok Yönetimi
 
- 
-### <a name="inventory-management"></a>Stok yönetimi
+| BPM satırı                                                                          | Ülke/bölge |
+|-----------------------------------------------------------------------------------|----------------|
+| Ambardaki stok düzeylerini ayarla                                              | Genel         |
+| Stok uygunluğu denetleme                                                   | Genel         |
+| Stok izleme bilgisini düzeltme                                            | Genel         |
+| Ambardaki stoğu sayma                                                    | Genel         |
+| Yeni bir ambar düzeni oluşturma                                                     | Genel         |
+| Stok durdurma oluştur ve sürdür                                         | Genel         |
+| Bir uyumsuzluk oluştur ve işle                                              | Genel         |
+| Stok sayım işlemlerini tanımlayın                                               | Genel         |
+| Ambardaki stok düzeylerini başlatın                                          | Genel         |
+| Malların kalitesini denetle                                                      | Genel         |
+| Barkod türlerini koru                                                            | Genel         |
+| Bir madde varış günlüğü kullanarak, maddeleri temel depolama kullanılan madde için kaydedin | Genel         |
+| Geliş genel bakış profillerini ayarlama                                                  | Genel         |
+| Kalite emirlerini ayarlayın                                                             | Genel         |
+| Bir madde veya hammaddeyi izleme                                                     | Genel         |
+| Ambar içindeki fiziksel stoğu transfer etme                                  | Genel         |
 
-|                                                                                   |                    |
-|-----------------------------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                                      | **Ülke/Bölge** |
-| Ambardaki stok düzeylerini ayarla                                              | Genel             |
-| Stok mevcudunu denetleyin                                                   | Genel             |
-| Stok izleme bilgisini düzeltme                                            | Genel             |
-| Ambardaki stoğu sayma                                                    | Genel             |
-| Yeni bir ambar düzeni oluşturma                                                     | Genel             |
-| Stok durdurma oluştur ve sürdür                                         | Genel             |
-| Bir uyumsuzluk oluştur ve işle                                              | Genel             |
-| Stok sayım işlemlerini tanımlayın                                               | Genel             |
-| Ambardaki stok düzeylerini başlatın                                          | Genel             |
-| Malların kalitesini denetle                                                      | Genel             |
-| Barkod türlerini koru                                                            | Genel             |
-| Bir madde varış günlüğü kullanarak, maddeleri temel depolama kullanılan madde için kaydedin | Genel             |
-| Geliş genel bakış profillerini ayarlama                                                  | Genel             |
-| Kalite emirlerini ayarlayın                                                             | Genel             |
-| Bir madde veya hammaddeyi izleme                                                     | Genel             |
-| Ambardaki fiziksel stoğu transfer etme                                  | Genel             |
-
-
- 
 ### <a name="manufacturing"></a>İmalat
 
-|                                                               |                    |
-|---------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                  | **Ülke/Bölge** |
-| Kanban kuralına bir kanban miktar hesaplama ilkesi ekle     | Genel             |
-| Oluşturmadan başlangıca toplu iş siparişi yaşam döngüsü                    | Genel             |
-| Kanban miktarı önerilerini hesaplama                         | Genel             |
-| Süreç işi için Kanban kurallarını değiştirme                         | Genel             |
-| Mobil iş aygıtı kullanarak işçi yapılandır                | Genel             |
-| Bir formül kopyala                                                | Genel             |
-| Varolan bir formülden kopyalayarak bir formül oluşturma          | Genel             |
-| Bir üretim akışı sürümü oluştur                              | Genel             |
-| Bir üretim emri oluşturma                                     | Genel             |
-| Bir satış olayı Kanban kuralı oluşturma                              | Genel             |
-| Bir değer akışı oluştur                                         | Genel             |
-| Faaliyet ilişkisi oluşturma: Ardıl                           | Genel             |
-| Bir operasyon kaynağı oluştur                                 | Genel             |
-| Sabit miktarlı kanban kuralları oluştur                            | Genel             |
-| Mevcut Kanban kurallarını çoğaltarak yeni Kanban kuralları oluşturma  | Genel             |
-| Yalın imalat için işlem faaliyetleri oluştur              | Genel             |
-| Kaynak yetenekleri oluşturma                                  | Genel             |
-| Yalın imalat için transfer faaliyetleri oluştur             | Genel             |
-| Çalışma zamanı planlama özelliklerini oluşturma                     | Genel             |
-| Çalışma süresi şablonları oluşturma                                 | Genel             |
-| Takvimler ve çalışma öğelerini tanımla                            | Genel             |
-| Kesikli üretim kaynak grubunu tanımla                  | Genel             |
-| Yalın imalat iş hücreleri tanımlama                          | Genel             |
-| Yalın planlama gruplarını tanımlama                                   | Genel             |
-| Üretim akışı modellerini tanımlama                                 | Genel             |
-| Kaynak yeteneklerini tanımlayın                                  | Genel             |
-| Saat ve işe devam bordro işlemini etkinleştir                | Genel             |
-| Bir üretim emrini bitir                                        | Genel             |
-| Bir üretim emrini tahmin edin.                                   | Genel             |
-| Satış siparişlerinden yalın ilişkilendirme                                | Genel             |
-| Ölçü birimini yönet                                        | Genel             |
-| Planlanmış Kanban işlerini taşıma                                    | Genel             |
-| Malzemeler mevcut olduğunda bir kanban işi hazırlama     | Genel             |
-| Malzemeler mevcut olmadığında bir kanban işi hazırlama | Genel             |
-| Bir üretim emrini serbest bırakma                                    | Genel             |
-| Kanban işini planlamadan kaldırma                         | Genel             |
-| Üretim emrini bitmiş olarak rapor etme                         | Genel             |
-| Mobil iş cihazında ilerlemeyi rapor etme                        | Genel             |
-| Kanban iş durumu geri alma                                      | Genel             |
-| Bir üretim emri planlayın                                   | Genel             |
-| Kanban işleri planlama                                          | Genel             |
-| Bir üretim emri başlatın                                      | Genel             |
-| Kanban işleriyle malzeme transfer etme                            | Genel             |
-| Üretim akışını ve sürümü onaylama                          | Genel             |
+| BPM satırı                                                      | Ülke/bölge |
+|---------------------------------------------------------------|----------------|
+| Kanban kuralına kanban miktarı hesaplama ilkesi ekleme     | Genel         |
+| Oluşturmadan başlangıca toplu iş siparişi yaşam döngüsü                    | Genel         |
+| Kanban miktarı önerilerini hesaplama                         | Genel         |
+| Süreç işi için Kanban kurallarını değiştirme                         | Genel         |
+| Mobil iş aygıtı kullanarak işçi yapılandır                | Genel         |
+| Bir formül kopyala                                                | Genel         |
+| Varolan bir formülden kopyalayarak bir formül oluşturma          | Genel         |
+| Bir üretim akışı sürümü oluştur                              | Genel         |
+| Bir üretim emri oluşturma                                     | Genel         |
+| Bir satış olayı Kanban kuralı oluşturma                              | Genel         |
+| Bir değer akışı oluştur                                         | Genel         |
+| Faaliyet ilişkisi oluşturma: Ardıl                           | Genel         |
+| Bir operasyon kaynağı oluştur                                 | Genel         |
+| Sabit miktarlı kanban kuralları oluştur                            | Genel         |
+| Mevcut Kanban kurallarını çoğaltarak yeni Kanban kuralları oluşturma  | Genel         |
+| Yalın imalat için işlem faaliyetleri oluştur              | Genel         |
+| Kaynak yetenekleri oluşturma                                  | Genel         |
+| Yalın imalat için transfer faaliyetleri oluştur             | Genel         |
+| Çalışma zamanı planlama özelliklerini oluşturma                     | Genel         |
+| Çalışma süresi şablonları oluşturma                                 | Genel         |
+| Takvimler ve çalışma öğelerini tanımla                            | Genel         |
+| Kesikli üretim kaynak grubunu tanımla                  | Genel         |
+| Yalın imalat iş hücreleri tanımlama                          | Genel         |
+| Yalın planlama gruplarını tanımlama                                   | Genel         |
+| Üretim akışı modellerini tanımlama                                 | Genel         |
+| Kaynak yeteneklerini tanımlayın                                  | Genel         |
+| Saat ve işe devam bordro işlemini etkinleştir                | Genel         |
+| Bir üretim emrini bitir                                        | Genel         |
+| Bir üretim emrini tahmin edin.                                   | Genel         |
+| Satış siparişlerinden yalın ilişkilendirme                                | Genel         |
+| Ölçü birimini yönet                                        | Genel         |
+| Planlanmış Kanban işlerini taşıma                                    | Genel         |
+| Malzemeler mevcut olduğunda bir kanban işi hazırlama     | Genel         |
+| Malzemeler mevcut olmadığında bir kanban işi hazırlama | Genel         |
+| Bir üretim emrini serbest bırakma                                    | Genel         |
+| Kanban işini planlamadan kaldırma                         | Genel         |
+| Üretim emrini bitmiş olarak rapor etme                         | Genel         |
+| Mobil iş cihazında ilerlemeyi rapor etme                        | Genel         |
+| Kanban iş durumu geri alma                                      | Genel         |
+| Bir üretim emri planlayın                                   | Genel         |
+| Kanban işleri planlama                                          | Genel         |
+| Bir üretim emri başlatın                                      | Genel         |
+| Kanban işleriyle malzeme transfer etme                            | Genel         |
+| Üretim akışını ve sürümü onaylama                          | Genel         |
 
-
- 
 ### <a name="master-planning"></a>Master planlama
 
-|                                                   |                    |
-|---------------------------------------------------|--------------------|
-| **BPM Satırı**                                      | **Ülke/Bölge** |
-| Maddeler için kapsam kuralları tanımlama                   | Genel             |
-| Temel tahmin geliştir                         | Genel             |
-| Kısıtlanmış bir plan oluştur                       | Genel             |
-| Kritik malzeme ve tedarikçi kapasitesini tanımla | Genel             |
-| Talep tahminini manuel olarak değiştir                 | Genel             |
+| BPM satırı                                          | Ülke/bölge |
+|---------------------------------------------------|----------------|
+| Maddeler için kapsama kurallarını tanımlama                   | Genel         |
+| Temel tahmin geliştir                         | Genel         |
+| Kısıtlanmış bir plan oluştur                       | Genel         |
+| Kritik malzeme ve tedarikçi kapasitesini tanımla | Genel         |
+| Talep tahminini el ile değiştirme                 | Genel         |
 
+### <a name="organization-administration"></a>Organizasyon yönetimi
 
- 
-### <a name="organization-administration"></a>Kuruluş yönetimi
+| BPM satırı                                  | Ülke/bölge |
+|-------------------------------------------|----------------|
+| Başlığı veya logoyu değiştirme                 | Genel         |
+| Adres defterlerini yapılandırma                   | Genel         |
+| Genel adres defterini yapılandır         | Genel         |
+| Bir çalışma birimi oluşturun                  | Genel         |
+| Elektronik imza ayarlama              | Genel         |
+| Sihirbaz kullanarak numara serilerini ayarlama | Genel         |
 
-|                                           |                    |
-|-------------------------------------------|--------------------|
-| **BPM Satırı**                              | **Ülke/Bölge** |
-| Başlık resmi veya logoyu değiştir                 | Genel             |
-| Adres defterlerini yapılandır                   | Genel             |
-| Genel adres defterini yapılandır         | Genel             |
-| Bir çalışma birimi oluşturun                  | Genel             |
-| Elektronik imza ayarlama              | Genel             |
-| Bir sihirbaz kullanarak satınalma için numara serilerini ayarla | Genel             |
-
-
- 
 ### <a name="planning"></a>Planlama
 
-|                        |                    |
-|------------------------|--------------------|
-| **BPM Satırı**           | **Ülke/Bölge** |
-| Kullanılabilirliğini belirle | Genel             |
+| BPM satırı               | Ülke/bölge |
+|------------------------|----------------|
+| Kullanılabilirliğini belirle | Genel         |
 
-
- 
 ### <a name="procurement-and-sourcing"></a>Tedarik ve kaynak atama
 
-|                                                                  |                    |
-|------------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                     | **Ülke/Bölge** |
-| Bir satınalma sözleşmesi oluştur                                      | Genel             |
-| Satınalma sözleşmelerinden satınalma sevk emri oluştur        | Genel             |
-| Satınalma siparişini oluştururken, satınalma sevk emri oluşturma | Genel             |
-| Tüketim için bir talep oluştur                             | Genel             |
-| Bir satıcı hesabı oluşturma                                          | Genel             |
-| Satıcıları arama                                               | Genel             |
-| Tedarik kategori hiyerarşisi ayarlama                          | Genel             |
+| BPM satırı                                                         | Ülke/bölge |
+|------------------------------------------------------------------|----------------|
+| Satınalma sözleşmesi oluşturma                                      | Genel         |
+| Satınalma sözleşmesinden satınalma sevk emri oluşturma        | Genel         |
+| Satınalma siparişini oluştururken, satınalma sevk emri oluşturma | Genel         |
+| Tüketim için bir talep oluştur                             | Genel         |
+| Bir satıcı hesabı oluşturma                                          | Genel         |
+| Satıcıları arama                                               | Genel         |
+| Tedarik kategorisi hiyerarşisini ayarlama                          | Genel         |
 
-
- 
 ### <a name="product-information-and-configuration"></a>Ürün bilgisi ve yapılandırma
 
-|                                                       |                    |
-|-------------------------------------------------------|--------------------|
-| **BPM Satırı**                                          | **Ülke/Bölge** |
-| Bir ürün yapılandırma modeline hesaplama ekleme    | Genel             |
-| Ürün konfigürasyon modelini onayla                 | Genel             |
-| Yayımlanan ana ürünün temel kurulumunu tamamlama | Genel             |
-| ..\mali-boyutlar\boyut tabanlı ana ürün oluşturma               | Genel             |
-| Ürün sınıflandırması için bir hiyerarşi oluşturma          | Genel             |
-| Bir ürün yapılandırma modeli oluşturma                  | Genel             |
-| Bir ana ürün oluşturma                               | Genel             |
-| Bir ifade kısıtlaması oluşturma                       | Genel             |
-| Bir ürün için toplu iş öznitelikleri oluştur                 | Genel             |
-| Konfigürasyon kuralları oluştur                            | Genel             |
-| Ürün model bileşenleri oluştur                       | Genel             |
-| Konfigürasyon gruplarını tanımla                           | Genel             |
-| Konfigürasyon rotası tanımla                            | Genel             |
-| Ürün yapılandırma modeli için ürün reçetesi sağlama        | Genel             |
-| Bir ürün modeli için rotayı koruma                    | Genel             |
-| Sunulan ürünleri yönet                              | Genel             |
-| ..\mali-boyutlar\boyut tabanlı ana ürün serbest bırakma              | Genel             |
-| Ürün modelleri için verileri aktarma                      | Genel             |
+| BPM satırı                                                           | Ülke/bölge |
+|--------------------------------------------------------------------|----------------|
+| Ürün yapılandırma modeline hesaplama ekleme                 | Genel         |
+| Ürün konfigürasyon modelini onayla                              | Genel         |
+| Yayımlanan ana ürünün temel kurulumunu tamamlama              | Genel         |
+| ..\\mali-boyutlar\\boyut tabanlı ana ürün oluşturma  | Genel         |
+| Ürün sınıflandırması için hiyerarşi oluşturma                       | Genel         |
+| Bir ürün yapılandırma modeli oluşturma                               | Genel         |
+| Bir ana ürün oluşturma                                            | Genel         |
+| Bir ifade kısıtlaması oluşturma                                    | Genel         |
+| Bir ürün için toplu iş öznitelikleri oluştur                              | Genel         |
+| Konfigürasyon kuralları oluştur                                         | Genel         |
+| Ürün model bileşenleri oluştur                                    | Genel         |
+| Konfigürasyon gruplarını tanımla                                        | Genel         |
+| Konfigürasyon rotası tanımla                                         | Genel         |
+| Ürün yapılandırma modeli için ürün reçetesi sağlama                     | Genel         |
+| Bir ürün modeli için rotayı koruma                                 | Genel         |
+| Sunulan ürünleri yönet                                           | Genel         |
+| ..\\mali-boyutlar\\boyut tabanlı ana ürün serbest bırakma | Genel         |
+| Ürün modelleri için verileri aktarma                                   | Genel         |
 
-
- 
 ### <a name="public-sector"></a>Kamu sektörü
 
-|                                                                                         |                    |
-|-----------------------------------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                                            | **Ülke/Bölge** |
-| Kamu Sektörü için bir satıcıya bir sertifika türü ekle                                  | Genel             |
-| Kamu sektörü için anlaşmaları satın almak için erişimi denetleme                                 | Genel             |
-| Kamu sektörü için bir fatura sınıflandırması oluşturma                                       | Genel             |
-| Kamu Sektörü için bir fatura kodu oluşturma                                                 | Genel             |
-| Kamu Sektörü için bütçede fon ayırmak için bir taahhüt oluştur                           | Genel             |
-| Kamu sektörü için faturalama kodu için özel bir alan oluşturma                              | Genel             |
-| Kamu Sektörü için bir fon türü oluşturma                                                    | Genel             |
-| Kamu sektörü için bir defalık satıcı ve fatura oluşturma                                  | Genel             |
-| Kamu sektörü için bir ön bütçe oluştur                                           | Genel             |
-| Kamu Sektörü için satıcı sertifika türü oluştur                                    | Genel             |
-| Kamu Sektörü için gelişmiş muhasebe girişi oluşturma                                       | Genel             |
-| Özgün bir bütçe oluşturma ve sonra Kamu Sektörü için ön bütçe girişlerini geri alma | Genel             |
-| Kamu Sektörü için bir ticaret ortağı kodu oluşturma ve atama                              | Genel             |
-| Kamu Sektörü ödeme raporları için kapak ve imza sayfaları oluşturma                 | Genel             |
-| Kamu Sektörü için birden fazla tek seferlik satıcılar ve faturaları içe aktarma              | Genel             |
-| Kamu Sektörü için türetilmiş bir finansal hiyerarşi ayarlama                                  | Genel             |
-| Kamu Sektörü için bir fon ayarlama                                                         | Genel             |
-| Kamu sektörü için satınalma anlaşması sınıflandırmalarını ayarla                             | Genel             |
+| BPM satırı                                                                                | Ülke/bölge |
+|-----------------------------------------------------------------------------------------|----------------|
+| Kamu Sektörü için bir satıcıya bir sertifika türü ekle                                  | Genel         |
+| Kamu sektörü için anlaşmaları satın almak için erişimi denetleme                                 | Genel         |
+| Kamu sektörü için bir fatura sınıflandırması oluşturma                                       | Genel         |
+| Kamu Sektörü için bir fatura kodu oluşturma                                                 | Genel         |
+| Kamu Sektörü için bütçede fon ayırmak için bir taahhüt oluştur                           | Genel         |
+| Kamu sektörü için faturalama kodu için özel bir alan oluşturma                              | Genel         |
+| Kamu Sektörü için bir fon türü oluşturma                                                    | Genel         |
+| Kamu sektörü için bir defalık satıcı ve fatura oluşturma                                  | Genel         |
+| Kamu sektörü için bir ön bütçe oluştur                                           | Genel         |
+| Kamu Sektörü için satıcı sertifika türü oluştur                                    | Genel         |
+| Kamu Sektörü için gelişmiş muhasebe girişi oluşturma                                       | Genel         |
+| Özgün bir bütçe oluşturma ve sonra Kamu Sektörü için ön bütçe girişlerini geri alma | Genel         |
+| Kamu Sektörü için bir ticaret ortağı kodu oluşturma ve atama                              | Genel         |
+| Kamu Sektörü ödeme raporları için kapak ve imza sayfaları oluşturma                 | Genel         |
+| Kamu Sektörü için birden fazla tek seferlik satıcılar ve faturaları içe aktarma              | Genel         |
+| Kamu Sektörü için türetilmiş bir finansal hiyerarşi ayarlama                                  | Genel         |
+| Kamu Sektörü için bir fon ayarlama                                                         | Genel         |
+| Kamu sektörü için satınalma anlaşması sınıflandırmalarını ayarla                             | Genel         |
 
-
- 
 ### <a name="retail-and-commerce"></a>Perakende ve ticaret
 
-|                                                                                           |                    |
-|-------------------------------------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                                              | **Ülke/Bölge** |
-| Satınalma siparişine varyant ağırlıkları kullanarak çeşit ürünler ekle                              | Genel             |
-| Taban fiyatı ve ticari anlaşmalar                                                           | Genel             |
-| Ticari sözleşmeler oluşturmak için fiyatlandırma kuralları kategorisi                                         | Genel             |
-| Deyimleri hesaplamak için işi yapılandır ve çalıştır                                             | Genel             |
-| Deyimleri nakletmek için işi yapılandır ve çalıştır                                                  | Genel             |
-| Kredi kartı işlemini yapılandır                                                          | Genel             |
-| Bağlı ürünleri yapılandır                                                                 | Genel             |
-| POS görsel profili oluşturma                                                               | Genel             |
-| Bir ürün oluştur                                                                          | Genel             |
-| Bir ana ürün oluşturma                                                                   | Genel             |
-| Bir aygıt oluştur ve ilişkilendir                                                             | Genel             |
-| Bir donanım istasyonu oluştur ve ilişkilendir                                                   | Genel             |
-| POS kayıtları için mali boyut oluştur ve kayıtlardaki boyut değerlerini yapılandır | Genel             |
-| Perakende kanalları için mali boyutlar oluşturma ve mağazalardaki boyut değerlerini yapılandırma  | Genel             |
-| Çevrimiçi kanal oluştur ve kanal özniteliklerini tanımla                                       | Genel             |
-| POS izin grupları oluşturma                                                              | Genel             |
-| Ürün paketleri oluştur ve satınalma siparişinde kullan                                         | Genel             |
-| Çağrı merkezi kanalı ve kanal özniteliklerini tanımla                                         | Genel             |
-| Kanal özniteliklerini tanımla                                                                 | Genel             |
-| Bağlılık programları tanımla                                                                   | Genel             |
-| Bağlılık programı ödül puanlarını tanımla                                                              | Genel             |
-| Bağlılık programı şemalarını tanımla                                                                    | Genel             |
-| Kuruluş birimleri arasındaki ilişkileri tasarlama                                     | Genel             |
-| Hazır raporlar oluştur ve çalıştır                                                       | Genel             |
-| Müşteriler için ticaret iskontolarını yönet                                                      | Genel             |
-| Perakende ekstreleri için parametre yapılandırmaları                                            | Genel             |
-| Perakende ekstreleri için ödeme yapılandırmaları                                              | Genel             |
-| Donanım istasyonu indirmek için self servis gerçekleştir                                         | Genel             |
-| Çevrimiçi satışlar ve ödemeler deftere naklediliyor                                                      | Genel             |
-| Bağlılık ödül puanı ayarlamalarını işleme                                                  | Genel             |
-| Ürünleri dağıtım merkezinden merkezi alım kullanan mağaza gönder                        | Genel             |
-| Ürünü/ana ürünü tüzel kişiliklere serbest bırakma                                        | Genel             |
-| Perakende fiyat ayarlamaları                                                                  | Genel             |
-| Perakende ekstreleri için yapılandırmaları saklama                                                | Genel             |
+| BPM satırı                                                                                  | Ülke/bölge |
+|-------------------------------------------------------------------------------------------|----------------|
+| Satınalma siparişine varyant ağırlıkları kullanarak çeşit ürünler ekle                              | Genel         |
+| Taban fiyatı ve ticari anlaşmalar                                                           | Genel         |
+| Ticari sözleşmeler oluşturmak için fiyatlandırma kuralları kategorisi                                         | Genel         |
+| Deyimleri hesaplamak için işi yapılandır ve çalıştır                                             | Genel         |
+| Deyimleri nakletmek için işi yapılandır ve çalıştır                                                  | Genel         |
+| Kredi kartı işlemini yapılandır                                                          | Genel         |
+| Bağlı ürünleri yapılandır                                                                 | Genel         |
+| POS görsel profili oluşturma                                                               | Genel         |
+| Bir ürün oluştur                                                                          | Genel         |
+| Bir ana ürün oluşturma                                                                   | Genel         |
+| Bir aygıt oluştur ve ilişkilendir                                                             | Genel         |
+| Bir donanım istasyonu oluştur ve ilişkilendir                                                   | Genel         |
+| POS kayıtları için mali boyut oluştur ve kayıtlardaki boyut değerlerini yapılandır | Genel         |
+| Perakende kanalları için mali boyutlar oluşturma ve mağazalardaki boyut değerlerini yapılandırma  | Genel         |
+| Çevrimiçi kanal oluştur ve kanal özniteliklerini tanımla                                       | Genel         |
+| POS izin grupları oluşturma                                                              | Genel         |
+| Ürün paketleri oluştur ve satınalma siparişinde kullan                                         | Genel         |
+| Çağrı merkezi kanalı ve kanal özniteliklerini tanımla                                         | Genel         |
+| Kanal özniteliklerini tanımla                                                                 | Genel         |
+| Bağlılık programları tanımla                                                                   | Genel         |
+| Bağlılık programı ödül puanlarını tanımla                                                              | Genel         |
+| Bağlılık programı şemalarını tanımla                                                                    | Genel         |
+| Kuruluş birimleri arasındaki ilişkileri tasarlama                                     | Genel         |
+| Hazır raporlar oluştur ve çalıştır                                                       | Genel         |
+| Müşteriler için ticaret iskontolarını yönet                                                      | Genel         |
+| Perakende ekstreleri için parametre yapılandırmaları                                            | Genel         |
+| Perakende ekstreleri için ödeme yapılandırmaları                                              | Genel         |
+| Donanım istasyonu indirmek için self servis gerçekleştir                                         | Genel         |
+| Çevrimiçi satışlar ve ödemeler deftere naklediliyor                                                      | Genel         |
+| Bağlılık ödül puanı ayarlamalarını işleme                                                  | Genel         |
+| Ürünleri dağıtım merkezinden merkezi alım kullanan mağaza gönder                        | Genel         |
+| Ürünü/ana ürünü tüzel kişiliklere serbest bırakma                                        | Genel         |
+| Perakende fiyat ayarlamaları                                                                  | Genel         |
+| Perakende ekstreleri için mağaza yapılandırmaları                                                | Genel         |
 
+### <a name="sales"></a>Satışlar
 
- 
-### <a name="sales"></a>Satış
+| BPM satırı                                   | Ülke/bölge |
+|--------------------------------------------|----------------|
+| Satış siparişlerini onaylama                       | Genel         |
+| Yeni bir ticari anlaşma oluştur               | Genel         |
+| Satış siparişinden satınalma siparişi oluşturma | Genel         |
+| Satış teklifleri oluştur ve düzenle           | Genel         |
+| Teslimat planı oluşturun                   | Genel         |
+| Satış sözleşmeleri gir                     | Genel         |
+| Satış anlaşmalarını yerine getirme                   | Genel         |
+| Müşteri indirimlerini oluşturun ve işleyin      | Genel         |
+| Uygulanabilir fiyatlar ve indirimleri arayın    | Genel         |
+| Satış tekliflerini toplu olarak oluştur               | Genel         |
+| Ödemedeki indirimleri işleme                | Genel         |
+| Satış komisyonlarını kaydetme                 | Genel         |
+| Satış komisyonu kuralları ayarlama              | Genel         |
+| Siparişleri doğrudan teslimatlar olarak sevk etme           | Genel         |
+| Satış siparişlerini depolama olmadan sevk etme      | Genel         |
 
-|                                            |                    |
-|--------------------------------------------|--------------------|
-| **BPM Satırı**                               | **Ülke/Bölge** |
-| Satış siparişlerini onayla                       | Genel             |
-| Yeni bir ticari anlaşma oluştur               | Genel             |
-| Satış siparişinden satınalma siparişi oluşturma | Genel             |
-| Satış teklifleri oluştur ve düzenle           | Genel             |
-| Teslimat planı oluşturun                   | Genel             |
-| Satış sözleşmeleri gir                     | Genel             |
-| Satış anlaşmalarını yerine getirme                   | Genel             |
-| Müşteri indirimlerini oluşturun ve işleyin      | Genel             |
-| Uygulanabilir fiyatlar ve indirimleri arayın    | Genel             |
-| Satış tekliflerini toplu olarak oluştur               | Genel             |
-| Ödemedeki indirimleri işleme                | Genel             |
-| Satış komisyonlarını kaydetme                 | Genel             |
-| Satış komisyonu kuralları ayarlama              | Genel             |
-| Siparişleri doğrudan teslimatlar olarak sevk etme           | Genel             |
-| Satış siparişlerini depolama olmadan sevk etme      | Genel             |
-
-
- 
 ### <a name="sales-tax"></a>Satış vergisi
 
-|                                                    |                    |
-|----------------------------------------------------|--------------------|
-| **BPM Satırı**                                       | **Ülke/Bölge** |
-| Satıcı faturası üzerindeki satış vergisini hesapla ve ayarla | Genel             |
-| Satış vergisi ödemesi oluştur                         | Genel             |
-| Belgelerde satış vergisi hareketleri oluştur         | Genel             |
-| Satış vergisi için genel muhasebe deftere nakil grupları ayarlama         | Genel             |
-| Vergi dairesi ayarlama                       | Genel             |
-| Satış vergisi kodlarını ayarla                             | Genel             |
-| Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarlayın  | Genel             |
-| Satış vergisi raporlama kodlarını ayarla                   | Genel             |
-| Satış vergisi kapatma dönemlerini ayarla                | Genel             |
-| Stopaj vergisi ayarlayın                             | Genel             |
-| Deftere nakledilen satış vergisi hareketlerini görüntüle                 | Genel             |
+| BPM satırı                                           | Ülke/bölge |
+|----------------------------------------------------|----------------|
+| Satıcı faturası üzerindeki satış vergisini hesapla ve ayarla | Genel         |
+| Satış vergisi ödemesi oluştur                         | Genel         |
+| Belgelerde satış vergisi hareketleri oluştur         | Genel         |
+| Satış vergisi için genel muhasebe deftere nakil grupları ayarlama         | Genel         |
+| Vergi dairesi ayarlama                       | Genel         |
+| Satış vergisi kodlarını ayarla                             | Genel         |
+| Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarlayın  | Genel         |
+| Satış vergisi raporlama kodlarını ayarla                   | Genel         |
+| Satış vergisi kapatma dönemlerini ayarla                | Genel         |
+| Stopaj vergisi ayarlayın                             | Genel         |
+| Deftere nakledilen satış vergisi hareketlerini görüntüle                 | Genel         |
 
-
- 
 ### <a name="security"></a>Güvenlik
 
-|                                                         |                    |
-|---------------------------------------------------------|--------------------|
-| **BPM Satırı**                                            | **Ülke/Bölge** |
-| Yeni kullanıcılar oluşturma                                        | Genel             |
-| Görev ayrımındaki çakışmaları tanımlayın ve çözümleyin | Genel             |
-| Görev ayrımını ayarlamak                            | Genel             |
+| BPM satırı                                                | Ülke/bölge |
+|---------------------------------------------------------|----------------|
+| Yeni kullanıcılar oluşturma                                        | Genel         |
+| Görev ayrımındaki çakışmaları tanımlayın ve çözümleyin | Genel         |
+| Görev ayrımını ayarlamak                            | Genel         |
 
-
- 
 ### <a name="warehouse-and-transportation"></a>Ambar ve taşıma
 
-|                                                                                   |                    |
-|-----------------------------------------------------------------------------------|--------------------|
-| **BPM Satırı**                                                                      | **Ülke/Bölge** |
-| Bir yakıt dizinini taşıyıcıyla ilave masraf olarak ilişkilendir                    | Genel             |
-| WMS etkin bir ambarda konumları yapılandır                                    | Genel             |
-| Bir iş sınıfı oluştur                                                               | Genel             |
-| Döngü sayımı tanımlamak                                                             | Genel             |
-| Lisans plakası etiketi yazdırmayı etkinleştirme                                               | Genel             |
-| Bir madde varış günlüğü kullanarak, maddeleri temel depolama kullanılan madde için kaydedin | Genel             |
-| Taşıyıcı yakıt dizini ayarlama                                                       | Genel             |
-| Satınalma siparişini yerine koyma için konum yönergesi ayarlama                           | Genel             |
-| Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama       | Genel             |
-| Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama                       | Genel             |
-| Satınalma siparişleri için iş şablonu ayarlama                                        | Genel             |
-| Ek atamalar ayarlama                                                    | Genel             |
-| Elden çıkarma kodlarını ayarlama                                                         | Genel             |
-| Hub ek giderleri ve ana ilaveleri ayarlama                            | Genel             |
-| Ana oranlar ayarlama                                                               | Genel             |
-| Sevk eden taşımacıları ayarlama                                                          | Genel             |
-| Yükleri ve sevkiyatları planlamak için Yük Planlama Workbench'ini kullanma                       | Genel             |
+| BPM satırı                                                                          | Ülke/bölge |
+|-----------------------------------------------------------------------------------|----------------|
+| Taşıyıcılı bir yakıt dizinini ilave masraf olarak ilişkilendirme                    | Genel         |
+| WMS etkin bir ambarda konumları yapılandır                                    | Genel         |
+| Bir iş sınıfı oluştur                                                               | Genel         |
+| Döngü sayımı tanımlamak                                                             | Genel         |
+| Lisans plakası etiketi yazdırmayı etkinleştirme                                               | Genel         |
+| Bir madde varış günlüğü kullanarak, maddeleri temel depolama kullanılan madde için kaydedin | Genel         |
+| Taşıyıcı yakıt dizini ayarlama                                                       | Genel         |
+| Satınalma siparişini yerine koyma için konum yönergesi ayarlama                           | Genel         |
+| Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama       | Genel         |
+| Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama                       | Genel         |
+| Satınalma siparişleri için iş şablonu ayarlama                                        | Genel         |
+| Ek atamalar ayarlama                                                    | Genel         |
+| Elden çıkarma kodlarını ayarlama                                                         | Genel         |
+| Hub ek giderleri ve ana ilaveleri ayarlama                            | Genel         |
+| Ana oranlar ayarlama                                                               | Genel         |
+| Sevk eden taşımacıları ayarlama                                                          | Genel         |
+| Yükleri ve sevkiyatları planlamak için Yük Planlama Workbench'ini kullanma                       | Genel         |
 
-
- 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>(Şubat 2016) Başlarken kitaplığındaki görev kılavuzları
 
-|                                                    |                    |
-|----------------------------------------------------|--------------------|
-| **BPM Satırı**                                       | **Ülke/Bölge** |
-| Genel muhasebe bakiyelerini analiz et                            | Genel             |
-| Tek bir şirket için piyasaya sürülmüş ürün oluşturma     | Genel             |
-| Bir üretim emri oluşturun ve planlayın             | Genel             |
-| Etkili ticari satış                            | Genel             |
-| Elektronik raporlama                               | Genel             |
-| Çalışan self servisi                              | Genel             |
-| Satışların kalış süresi nasıl kısaltılır          | Genel             |
-| Microsoft Dynamics AX işlevlerine giriş      | Genel             |
-| Japonya için ülkeye özgü özelliklere giriş | Japonya              |
-| Fiyatlandırma ve promosyonları yönetme                      | Genel             |
-| Yönetici self servisi                               | Genel             |
-| Projeler genel bakışı                                  | Genel             |
-| Kanalları yapılandırmak ve ayarlamak                      | Genel             |
+| BPM satırı                                           | Ülke/bölge |
+|----------------------------------------------------|----------------|
+| Genel muhasebe bakiyelerini analiz et                            | Genel         |
+| Tek bir şirket için serbest bırakılan ürün oluşturma     | Genel         |
+| Bir üretim emri oluşturun ve planlayın             | Genel         |
+| Etkili ticari satış                            | Genel         |
+| Elektronik raporlama                               | Genel         |
+| Çalışan self servisi                              | Genel         |
+| Satışların kalış süresi nasıl kısaltılır          | Genel         |
+| Microsoft Dynamics AX işlevlerine giriş      | Genel         |
+| Japonya için ülkeye özgü özelliklere giriş | Japonya          |
+| Fiyatlandırma ve promosyonları yönetme                      | Genel         |
+| Yönetici self servisi                               | Genel         |
+| Projeler genel bakışı                                  | Genel         |
+| Kanalları yapılandırmak ve ayarlamak                      | Genel         |
 
- 
-
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Yeni veya güncelleştirilmiş görev kılavuzları (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Yeni veya güncelleştirilmiş Görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
-
-
-
 

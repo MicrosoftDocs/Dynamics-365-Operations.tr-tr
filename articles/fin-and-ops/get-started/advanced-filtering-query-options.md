@@ -1,6 +1,6 @@
 ---
 title: "Gelişmiş filtreleme ve sorgu söz dizimi"
-description: "Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki **eşleşmeler** işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır."
+description: "Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki eşleşmeler işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır."
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: edff2fba7e231ae52abf7828d55c1fe4841ccd7f
-ms.openlocfilehash: 3e7127a9412dcf9324872c06fbf6cc3cf61bf063
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 01a508e97721099f92b9167dfdfa1b9669b9341c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -30,20 +30,13 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki **eşleşmeler** işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır. 
+Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki **eşleşmeler** işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır.
 
-<a name="advanced-query-syntax"></a>Gelişmiş sorgu söz dizimi
----------------------
+## <a name="advanced-query-syntax"></a>Gelişmiş sorgu söz dizimi
 
 <table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Sözdizimi</th>
 <th>Karakter açıklaması</th>
 <th>Tanım</th>
@@ -51,95 +44,96 @@ Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre böl
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><em>değer</em></td>
 <td>Girilen değere eşit</td>
 <td>Bulmak istediğiniz değeri yazın.</td>
 <td><strong>Smith</strong>, &quot;Smith&quot; değerini bulur.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>!<em>değer</em> (ünlem işareti)</td>
 <td>Girilen değere eşit değildir</td>
 <td>Ünlem işareti ve dışlamak için bir değer yazın.</td>
 <td><strong>!Smith</strong>, &quot;Smith&quot; haricindeki tüm değerleri bulur.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><em>değerinden</em>..<em>değerine</em> (çift nokta)</td>
 <td>Çift nokta ile ayrılan iki değer arasında</td>
 <td>Başlangıç değerini girin, ardından çift nokta girin ve bitiş değerini girin.</td>
 <td><strong>1..10</strong>, 1 ile 10 arasındaki tüm değerleri bulur. Ancak bir dize alanında <strong>A..C</strong>, &quot;A&quot; ve &quot;B&quot; ile başlayan tüm değerleri ve &quot;C&quot; ile tam olarak eşdeğer olan tüm değerleri bulur. Örneğin, bu sorgu &quot;Ca&quot;'yı bulmayacaktır. &quot;A<em>&quot; tipinden &quot;C</em>&quot; tipine tüm değerleri bulmak için <strong>A..D</strong> yazın.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>..<em>değer</em> (çift nokta)</td>
 <td>Girilen değerden az veya bu değere eşit</td>
 <td>Çift noktayı ve ardından değeri girin.</td>
 <td><strong>..1000</strong>, &quot;100&quot;, &quot;999,95&quot; ve &quot;1000&quot; gibi, 1000'e eşit veya ondan az tüm sayıları bulacaktır.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><em>değer</em>.. (çift nokta)</td>
 <td>Girilen değerden büyük veya bu değere eşit</td>
 <td>Değeri ve ardından çift noktayı girin.</td>
 <td><strong>1000..</strong> &quot;1.000&quot;, &quot;1.000,01&quot; ve &quot;1.000.000&quot; gibi, 1000'e eşit veya ondan büyük tüm sayıları bulacaktır.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>&gt;<em>değer</em> (büyüktür işareti)</td>
 <td>Girilen değerden büyüktür</td>
 <td>Bir büyüktür işareti (<strong>&gt;</strong>) ve ardından değeri girin.</td>
 <td><strong>&gt;1000</strong> &quot;1000,01&quot;, &quot;20.000&quot; ve &quot;1.000.000&quot; gibi 1000'den büyük sayıları bulacaktır.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>&lt;<em>değer</em> (küçüktür işareti)</td>
 <td>Girilen değerden küçüktür</td>
 <td>Küçüktür işaretini (<strong>&lt;</strong>) ve ardından değeri girin.</td>
 <td><strong>&lt;1000</strong>, &quot;999,99&quot;, &quot;1&quot; ve &quot;-200&quot; gibi 1000'den küçük sayıları bulacaktır.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><em>değer</em>* (yıldız)</td>
 <td>Girilen değerden başlar</td>
-<td>Başlangıç değerini ve ardından yıldız yazın (<strong><em></strong>).</td>
-<td><strong>S</em></strong> &quot;Stockholm&quot;, &quot;Sydney&quot; ve &quot;San Francisco&quot; gibi &quot;S&quot; ile başlayan dizeleri bulacaktır.</td>
+<td>Başlangıç değerini ve ardından yıldız yazın (<strong>*</strong>).</td>
+<td><strong>S*</strong> &quot;Stockholm&quot;, &quot;Sydney&quot; ve &quot;San Francisco&quot; gibi &quot;S&quot; ile başlayan dizeleri bulacaktır.</td>
 </tr>
-<tr class="odd">
-<td><em><em>değer</em> (yıldız)</td>
+<tr>
+<td>*<em>değer</em> (yıldız)</td>
 <td>Girilen değerle biten</td>
 <td>Bir yıldız girin ve ardından bitiş değerini girin.</td>
-<td><strong></em>doğu</strong> &quot;Kuzeydoğu&quot; ve &quot;Güneydoğu&quot; gibi &quot;doğu&quot; ile biten dizeleri bulacaktır.</td>
+<td><strong>*doğu</strong>, &quot;Kuzeydoğu&quot; ve &quot;Güneydoğu&quot; gibi &quot;doğu&quot; ile biten dizeleri bulacaktır.</td>
 </tr>
-<tr class="even">
-<td><em><em>değer</em></em> (yıldız)</td>
+<tr>
+<td>*<em>değer</em>* (yıldız)</td>
 <td>Girilen değeri içeren</td>
 <td>Bir yıldız girin, ardından değeri girin ve daha sonra bir yıldız daha girin.</td>
-<td><strong><em>th</em></strong>, &quot;Northeast&quot; ve &quot;Southeast&quot; gibi &quot;th&quot; içeren dizeleri bulacaktır.</td>
+<td><strong>*th*</strong>, &quot;Northeast&quot; ve &quot;Southeast&quot; gibi &quot;th&quot; içeren dizeleri bulacaktır.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>? (soru işareti)</td>
 <td>Bir veya birden fazla bilinmeyen karaktere sahip</td>
 <td>Değerdeki bilinmeyen karakterlerin yerine soru işareti girin.</td>
 <td><strong>Sm?th</strong> &quot;Smith&quot; ve &quot;Smyth&quot; değerlerini bulacaktır.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><em>değer</em>,<em>değer</em> (virgül)</td>
 <td>Virgülle ayrılmış değerlerle eşleşen</td>
 <td>Tüm ölçütlerinizi girin ve virgülle ayırın.</td>
 <td><strong>A, D, F, G</strong> tam olarak &quot;A&quot;, &quot;D&quot;, &quot;F&quot; ve &quot;G&quot; değerlerini bulacaktır. <strong>10, 20, 30, 100</strong> tam olarak &quot;10, 20, 30, 100&quot; değerlerini bulacaktır.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>(<span class="code">SQL deyimi</span>) (parantez içindeki SQL deyimi)</td>
 <td>Tanımlanan bir sorgulamayı eşleştirir.</td>
 <td>Parantez içinde SQL deyimi olarak bir sorgulama yazın.</td>
 <td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
-<tr class="even">
-<td>T</td>
+<tr>
+<td>S</td>
 <td>Bugünün tarihi</td>
 <td><strong>T</strong> yazın.</td>
 <td><strong>T</strong> bugünün tarihi ile eşleşir.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>(methodName(parameters)) (Parantez içinde <strong>SysQueryRangeUtil</strong> yöntemi)</td>
 <td><strong>SysQueryRangeUtil</strong> yöntemi parametreleri tarafından belirtilen değer veya değer aralığı ile eşleşen</td>
 <td>Değeri veya değer aralığını belirten parametrelere sahip bir <strong>SysQueryRangeUtil</strong> yöntemi girin.</td>
-<td><ol>
+<td>
+<ol>
 <li><strong>Alacak hesapları</strong> &gt; <strong>Faturalar</strong> &gt; <strong>Açık müşteri faturaları</strong> menü seçimlerine tıklayın.</li>
 <li>Ctrl+Shift+F3 tuş bileşimine basarak <strong>Sorgu</strong> sayfasını açın.</li>
 <li><strong>Aralık</strong> sekmesinde <strong>Ekle</strong>'ye tıklayın.</li>
@@ -154,86 +148,93 @@ Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre böl
 </table>
 
 ## <a name="advanced-date-queries-that-use-sysqueryrangeutil-methods"></a>SysQueryRangeUtil yöntemleri kullanan gelişmiş tarih sorguları
+
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Yöntem</th>
 <th>Açıklama</th>
 <th>Örnek</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Gün (_relativeDays=0)</td>
 <td>Oturum tarihine göre bir tarih bulun. Pozitif değerler gelecekteki tarihleri, negatif değerler geçmişteki tarihleri gösterir.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Yarın</strong> – <strong>(Day(1))</strong> değerini girin.</li>
 <li><strong>Bugün</strong> – <strong>(Day(0))</strong> değerini girin.</li>
 <li><strong>Dün</strong> – <strong>(Day(-1))</strong> değerini girin.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</td>
 <td>Oturum tarihine göre tarih aralığı bulun. Pozitif değerler gelecekteki tarihleri, negatif değerler geçmişteki tarihleri gösterir.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Son 30 gün</strong> – <strong>(DayRange(-30,0))</strong> değerini girin.</li>
 <li><strong>Önceki 30 gün ve sonraki 30 gün</strong> – <strong>(DayRange(-30,30))</strong> değerini girin.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</td>
 <td>Belirtilen göreli tarih sonrasındaki tüm tarihleri bulun.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Bugünden itibaren 30 günden fazla</strong> – <strong>(GreaterThanDate(30))</strong> değerini girin.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>GreaterThanUtcNow ()</td>
 <td>Geçerli saatten sonraki tüm tarih/saat girişlerini bulun.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Gelecekteki tüm tarih/saatler</strong> – <strong>(GreaterThanUtcNow())</strong> değerini girin.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</td>
 <td>Belirtilen göreli tarih öncesindeki tüm tarihleri bulun.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Bugünden itibaren yedi günden az</strong> – <strong>(LessThanDate(7))</strong> değerini girin.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LessThanUtcNow ()</td>
 <td>Geçerli saatten önceki tüm tarih/saat girişlerini bulun.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Tüm geçmiş tarih/saatler</strong> – <strong>(LessThanUtcNow())</strong> değerini girin.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MonthRange (_relativeFrom=0, _relativeTo=0)</td>
 <td>Geçerli aya göreli aylara dayalı olarak bir tarih aralığını bulun.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Önceki iki ay</strong> – <strong>(MonthRange(-2,0))</strong> değerini girin.</li>
 <li><strong>Sonraki üç ay</strong> – <strong>(MonthRange(0,3))</strong> değerini girin.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>YearRange (_relativeFrom=0, _relativeTo=0)</td>
 <td>Geçerli yıla göreli yıllara dayalı olarak bir tarih aralığını bulun.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Gelecek yıl</strong> – <strong>(YearRange(0, 1))</strong> değerini girin.</li>
 <li><strong>Önceki yıl</strong> – <strong>(YearRange(-1,0))</strong> değerini girin.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
-
-
-
-
-
 

@@ -3,7 +3,7 @@ title: Mali boyutlar
 description: "Bu konu, çeşitli mali boyut türlerini ve nasıl ayarlandıklarını açıklar."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ Ana kayıtlardan, örneğin müşteri ve satıcı gibi değerleri, yeni boyutlar
 Bu özellik bir boyut ayarı ile denetlenir. Ayarın adı **Her yeni oluşturulan DimensionName'de bu boyuta değerleri kopyala** olarak adlandırılır, **DimensionName** ise, boyutun adıdır. Varsayılan olarak, bu özellik kapalıdır. Ancak, istenilen zaman açılabilir.
 
 Kayıtlar için boyut varsa, ana kayıt özelliği açtığınızda güncelleştirilir. Bununla birlikte, mevcut belgeler ve hareketler güncelleştirilmez.
+
+Bir ana kayıt oluşturmak için bir şablon oluşturuyorsanız, şablon değerinin ana boyut için boş olduğundan emin olun. Örneğin, bir şablondan müşteriler oluşturuyorsanız, şablondaki müşteri boyutunun boş olduğundan emin olun. Müşteri boyutu değeri, yeni müşteriyi oluşturduğunuzda, yeni müşteri numarasından varsayılan olacaktır.  
 
 ## <a name="derived-dimensions"></a>Türetilmiş boyutlar
 

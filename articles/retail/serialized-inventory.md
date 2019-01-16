@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 65e60f3e289bb68ea055548299d58bca42e84c02
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 17cd46ba9ee972c92db8950eea1cd258d67c2e92
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -28,8 +28,9 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-## <a name="overview"></a>Genel bakış 
-Perakende merkezindeki ayarlara dayanarak, ürünler seri veya seri değil olarak sınıflandırılabilir. Ürünler seri hale getirildiğinde, garantileri takip etmek, maddeleri izlemek ve sahipliği onaylamaya yardımcı olmak için her bir maddeye benzersiz bir numara atanabilir. Modern/Bulut Satış Noktası (POS) içerisinde seri haldeki ürünler için seri numaralar sağlama özelliği zaten bulunuyor olsa da, bir dizi geliştirme yapılarak kasiyerlere zaman kazandırma ve verimliliği artırmak hedeflenmiştir.  
+## <a name="overview"></a>Genel bakış
+
+Perakende merkezindeki ayarlara dayanarak, ürünler seri veya seri değil olarak sınıflandırılabilir. Ürünler seri hale getirildiğinde, garantileri takip etmek, maddeleri izlemek ve sahipliği onaylamaya yardımcı olmak için her bir maddeye benzersiz bir numara atanabilir. Modern/Bulut Satış Noktası (POS) içerisinde seri haldeki ürünler için seri numaralar sağlama özelliği zaten bulunuyor olsa da, bir dizi geliştirme yapılarak kasiyerlere zaman kazandırma ve verimliliği artırmak hedeflenmiştir.
 
 ## <a name="pos-improvements"></a>POS geliştirmeleri
 
@@ -37,9 +38,9 @@ Perakende merkezindeki ayarlara dayanarak, ürünler seri veya seri değil olara
 
     Seri numarasının atlandığı her bir seri haldeki ürün için bir yorum hareket satırının altında görüntülenir. Bu yorum, seri numarasının madde için sağlanmamış olduğunu belirtir. Bu nedenle, kasiyer seri numarası eksik ürünleri hızlıca bulabilir.
 
-    Yeni **Seri numarası ekle** işlemi ayrıca seri numarası eksik maddeler için seri numarası sağlar. Seri numarası verildikten sonra düzenlenemez. Kasiyerin satırı hükümsüz kılması ve ürünü yeniden eklemesi gerekir. 
+    Yeni **Seri numarası ekle** işlemi ayrıca seri numarası eksik maddeler için seri numarası sağlar. Seri numarası verildikten sonra düzenlenemez. Kasiyerin satırı hükümsüz kılması ve ürünü yeniden eklemesi gerekir.
     
-- **Seri numaraları müşteri siparişlerini eklemek için gerekli değildir** – Müşteri siparişleri bir mağazadan eklenip başka bir mağazadan gerçekleştirilebilir. Bir müşteri siparişi ekleyen bir kasiyerin seri numarasını eklemesi gerekmez. Seri numarası malzeme çekme veya toplama adımı sırasında sağlanır. Ancak, **Alıp git** teslimat türünün seçilmiş olduğu tüm satır maddeleri için bir seri numarasının verilmiş olması gerekir. Aksi durumda, işlem tamamlanamaz.    
+- **Seri numaraları müşteri siparişlerini eklemek için gerekli değildir** – Müşteri siparişleri bir mağazadan eklenip başka bir mağazadan gerçekleştirilebilir. Bir müşteri siparişi ekleyen bir kasiyerin seri numarasını eklemesi gerekmez. Seri numarası malzeme çekme veya toplama adımı sırasında sağlanır. Ancak, **Alıp git** teslimat türünün seçilmiş olduğu tüm satır maddeleri için bir seri numarasının verilmiş olması gerekir. Aksi durumda, işlem tamamlanamaz.
 - **Seri hale getirilen ürünler hareket ekranında toplanmaz** – **İşlev profili** sayfasındaki **Terminal** alanı grubundaki **Ürünleri topla** ayarı, hareket ekranında seri halde olmayan aynı ürünleri toplamanıza olanak sağlar. Aynı ürünler toplanırken, hareket kılavuzunda görülmeleri daha kolaydır. Ancak, seri numaraları genellikle benzersiz olduğunda ve satış sorumlularının ödeme adımına kadar seri numarası girmek zorunda olmadıklarından **Ürünleri topla** ayarı seri haldeki ürünlere uygulanmaz. Bu nedenle seri haldeki ürünler hareket ekranında **Ürünleri topla** ayarı seçiliyse toplanmayacaktır.
-- **Günlükleri seri numarasına göre arama yeteneği** - Günlükler artık seri numaralarına göre de aranabilir. Bunu yapmak için "Günlükler" işlemini açın ve uygulama çubuğundaki "Gelişmiş arama" düğmesine basın. "Filtre ekle" düğmesini kullanarak, seri numarası aramasına bir filtre de uygulanabilir.
+- **Günlükleri seri numarasına göre arama yeteneği** – Günlükler artık seri numaralarına göre de aranabilir. Bunu yapmak için "Günlükler" işlemini açın ve uygulama çubuğundaki "Gelişmiş arama" düğmesine basın. "Filtre ekle" düğmesini kullanarak, seri numarası aramasına bir filtre de uygulanabilir.
 

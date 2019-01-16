@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 1ea4309d57a7b6b4ca4ae3fdd995c95d93c5c080
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: faf8cdcee70b55842072298b51789f6cd7a577af
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -34,40 +34,37 @@ ms.lasthandoff: 08/09/2018
 Bu konu, Retail Modern POS (MPOS) ve Bulut POS'daki dil ayarlarının nasıl değiştirileceğini açıklar.
 
 ## <a name="overview"></a>Özet
+
 Retail Modern POS (MPOS) ve Bulut POS dil ayarları ve çevirilerin mağaza ve kullanıcı ayarları arasında farklılık gösterebildiği ortamları destekler. Örneğin, mağaza müşterileri için yaygın olarak İngilizce kullanılan bir bölgede bulunabilir ancak bazı çalışanlar uygulamayı Fransızca çevirileri ile kullanmayı tercih edebilir.
 
 ## <a name="data-language"></a>Veri dili
-Kullanıcının ayarları ne olursa olsun, MPOS ve Bulut POS veriler için kullanılan çevirileri belirlemek üzere her zaman mağazanın dil ayarlarını kullanır. Bu, tüm kullanıcıların ve müşterilerin tutarlı bir deneyimi olmasını garanti eder.  Veri örnekleri:
 
--   Ürünler
--   Öznitelikler ve değerler
--   Kategori adları
--   Yazdırılan veya e-postayla gönderilen hareket girişleri
--   Ödeme yöntemi adları
--   Satır görüntüleme iletileri
+Kullanıcının ayarları ne olursa olsun, MPOS ve Bulut POS veriler için kullanılan çevirileri belirlemek üzere her zaman mağazanın dil ayarlarını kullanır. Bu, tüm kullanıcıların ve müşterilerin tutarlı bir deneyimi olmasını garanti eder. Veri örnekleri:
+
+- Ürünler
+- Öznitelikler ve değerler
+- Kategori adları
+- Yazdırılan veya e-postayla gönderilen hareket girişleri
+- Ödeme yöntemi adları
+- Satır görüntüleme iletileri
 
 Kullanıcı oturum açmadan önce bilinmediğinden ana POS oturum açma ekranı için de mağazanın dili kullanılır. Mağazanın dili için kullanılabilir çeviri yoksa, POS şirketin diline döner.
 
 ### <a name="configuring-the-stores-language-setting"></a>Mağazanın dil ayarını yapılandırma
 
-Mağazanın dil ayarı **Genel &gt; Bölgesel Ayarlar &gt; Dil altındaki **Perakende Mağaza** sayfasında bulunan **Tüm perakende mağazalar**'dan ayarlanır. **Her mağaza için bir dil seçmek üzere açılır listeyi kullanın.
+Mağazanın dil ayarı **Genel &gt; Bölgesel Ayarlar &gt; Dil** altındaki **Perakende Mağaza** sayfasında bulunan **Tüm perakende mağazalar**'dan ayarlanır. Her mağaza için bir dil seçmek üzere açılır listeyi kullanın.
 
 ## <a name="user-interface-language"></a>Kullanıcı arabirimi dili
+
 POS kullanıcısının dil ayar,ı uygulama kullanıcı arabiriminde kullanılan çevirileri belirler. Bu, tüm etiketleri, menüleri ve veri kabul edilmez listeleri içerir. Bunun tek istisnası POS düğme grupları üzerinde görüntülenen metindir. Düğme grupları çevirileri desteklemez ve bunlar her zaman metinleri düğmede tanımlandığı şekilde gösterir. Çevrilen düğmeleri desteklemek için, ayrı düğme grupları kopyalayıp korumanız ve bunları uygun şekilde kullanıcılara atamanız gerekir.
 
 ### <a name="configuring-the-users-language-setting"></a>Kullanıcının dil ayarını yapılandırma
 
-POS kullanıcısının dil ayarı **Perakende &gt; Dil** altındaki **Çalışan** sayfasında bulunan **Tüm çalışanlar** öğesinden ayarlanır.  Ana Profil öğesinden ayarlanmaz.  Bu ayar POS tarafından kullanılmaz. Kullanıcının dili ayarlanmamışsa veya çevirilerin mevcut olmadığı bir dile ayarlanmışsa, POS mağazanın diline döner.  
+POS kullanıcısının dil ayarı **Perakende &gt; Dil** menüsünde bulunan **Çalışan** sayfasındaki **Tüm çalışanlar** öğesinden ayarlanır. Ana Profil öğesinden ayarlanmaz. Bu ayar POS tarafından kullanılmaz. Kullanıcının dili ayarlanmamışsa veya çevirilerin mevcut olmadığı bir dile ayarlanmışsa, POS mağazanın diline döner.
 
-|             |                            |                                                                   |
-|-------------|----------------------------|-------------------------------------------------------------------|
-| ** **       | **Kullanıcı Arabirimi dili** ** **      | **Veri dili (ürünler, makbuz biçimleri, satır görüntüleme, vs.)** |
-| **Şirket** | Varsayılan Değer                    | Varsayılan Değer                                                           |
-| **Mağaza**   | Şirketi geçersiz kılar          | Şirketi geçersiz kılar                                                 |
-| **Kullanıcı**    | Mağazayı veya şirketi geçersiz kılar | Hiçbir Zaman                                                             |
-
-
-
-
-
+|             | Kullanıcı Arabirimi dili                   | Veri dili (ürünler, makbuz biçimleri, satır görüntüleme, vs.) |
+|-------------|----------------------------|---------------------------------------------------------------|
+| **Şirket** | Varsayılan Değer                    | Varsayılan Değer                                                       |
+| **Mağaza**   | Şirketi geçersiz kılar          | Şirketi geçersiz kılar                                             |
+| **Kullanıcı**    | Mağazayı veya şirketi geçersiz kılar | Hiçbir Zaman                                                         |
 

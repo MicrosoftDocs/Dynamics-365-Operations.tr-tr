@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8dcba52526dd9dad1bd8b9753224f6386923f5a1
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -57,7 +57,7 @@ Tutma bilgileri girilip kaydedildikten sonra kullanıcı **Sipariş tutmalar** s
 
 **Sipariş tamamlamayı etkinleştir** bayrağı etkinleştirildiyse, çağrı merkezi kanalında bekleme durumundaki bir siparişe ödeme uygulanması zorunlu değildir. Bunun tersine, beklemeye alınmamış bir satış siparişi için, kullanıcılar ödeme uygulanana kadar satış siparişi giriş sayfasından ayrılamaz. Kuşkusuz, sipariş tutma kaldırılmadan önce ödeme yapılması gerekecektir.
 
-Ek olarak, çağrı merkezi kullanıcıları herhangi bir nedenle şüpheli görülen siparişlere el ile bir sahte tutma ekleyebilirler. Siparişler etkin sahtekarlık ölçütleri ve kurallarıyla eşleştikleri zaman otomatik olarak da beklemeye alınabilir. Bu tür sipariş tutma hakkında daha fazla bilgi için bkz. [Sahtekarlık uyarılarını ayarlama](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Ek olarak, çağrı merkezi kullanıcıları herhangi bir nedenle şüpheli görülen siparişlere el ile bir sahte tutma ekleyebilirler. Siparişler etkin sahtekarlık ölçütleri ve kurallarıyla eşleştikleri zaman otomatik olarak da beklemeye alınabilir. Bu tür sipariş tutma hakkında daha fazla bilgi için bkz. [Sahtekarlık uyarılarını ayarlama](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Beklemeye alınan siparişleri görüntüleme ve yönetme
 

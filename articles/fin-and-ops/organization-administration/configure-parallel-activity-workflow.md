@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 64cd387f8a6ab693d159cd659fca51fa6568ee39
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 01c1fa876dd66ba6f0e1cdcecff56f424e117bd9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -34,26 +34,25 @@ Paralel faaliyet yapılandırmak için iş akışı düzenleyicisinde aşağıda
 Paralel faaliyet aynı anda çalışan iş akışı dallarından oluşur.
 
 ## <a name="name-a-parallel-activity"></a>Paralel faaliyete ad verme
+
 Paralel faaliyete bir ad vermek için aşağıdaki adımları uygulayın.
-1.  Paralel faaliyete sağ tıklayın ve ardından **Özellikler** formunu açmak için **Özellikler**'e tıklayın.
-2.  Sol bölmede **Temel Ayarlar**'a tıklayın.
-3.  Paralel faaliyet için **Ad** alanına benzersiz bir ad girin.
-4.  **Kapat**'a tıklayın.
+
+1. Paralel faaliyete sağ tıklayın ve ardından **Özellikler** formunu açmak için **Özellikler**'e tıklayın.
+2. Sol bölmede **Temel Ayarlar**'a tıklayın.
+3. Paralel faaliyet için **Ad** alanına benzersiz bir ad girin.
+4. **Kapat**'a tıklayın.
 
 ## <a name="configure-the-branches-of-a-parallel-activity"></a>Paralel faaliyetin dallarını yapılandırma
+
 Bu paralel faaliyete dal eklemek ve paralel faaliyetin dallarını yapılandırmak için bu adımları izleyin.
+
 1. Paralel faaliyetin dallarını görüntülemek için paralel faaliyete çift tıklayın.
-2. Dal eklemek için **İş akışı öğeleri** alanından **Dal** öğesini tuval üzerinde bir ekleme noktasına sürükleyin. Aşağıdaki şekil bir ekleme noktasını gösterir.![Ekleme noktası](./media/workflow_insertionpoint.gif)
+2. Dal eklemek için **İş akışı öğeleri** alanından **Dal** öğesini tuval üzerinde bir ekleme noktasına sürükleyin. Aşağıdaki şekil bir ekleme noktasını gösterir.
 
-   |                                              <strong>Not</strong>                                               |
-   |------------------------------------------------------------------------------------------------------------------|
-   | Paralel faaliyetin tüm dalları aynı anda çalıştığından dalların sırası önemli değildir. |
+    ![Ekleme noktası](./media/workflow_insertionpoint.gif)
 
+    > [!NOTE]
+    > Paralel faaliyetin tüm dalları aynı anda çalıştığından dalların sırası önemli değildir.
 
 3. Her bir dalı yapılandırmak için bkz. [Paralel dal yapılandırma](configure-parallel-branch-workflow.md).
-
-
-
-
-
 

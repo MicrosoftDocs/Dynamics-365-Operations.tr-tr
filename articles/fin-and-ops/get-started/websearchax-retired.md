@@ -1,6 +1,6 @@
 ---
 title: "WebSearchAX sayfası kullanımdan kaldırıldı"
-description: "WebSearchAX sayfasını kaldırdık. Bunun yerine favori arama motorunuzu kullanarak site araması yapmanızı öneririz."
+description: "WebSearchAX sayfasını kaldırmak zorunda kaldık. Bunun yerine favori arama motorunuzu kullanarak site araması yapmanızı öneririz."
 author: margoc
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 8c2375ee1dec3e816dbec19130733ebb2aac0fc3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: f1b9be6c3a0c8f96b98e2705c4d98516812702e3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,12 +29,11 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-WebSearchAX sayfasını kaldırdık. Bunun yerine favori arama motorunuzu kullanarak site araması yapmanızı öneririz.  Örneğin: 
+WebSearchAX sayfasını kaldırmak zorunda kaldık. Bunun yerine favori arama motorunuzu kullanarak site araması yapmanızı öneririz. Örneğin:
 
 site:technet.microsoft.com dynamics ax 2012 "arama terimi"
 
--veya-
+veya
 
-site:msdn.microsoft.com dynamics ax 2012 “arama terimi”
-
+site:msdn.microsoft.com dynamics ax 2012 "arama terimi"
 
