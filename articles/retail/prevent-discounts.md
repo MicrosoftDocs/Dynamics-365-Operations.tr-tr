@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: eaee79e2a20ab443cf3779e8499bf29d63ad3dfc
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 01/15/2019
 
 ---
 
@@ -35,11 +35,11 @@ Satıcıların bazı ürünlerin ister bir promosyon isterse de POS'taki satış
 
 Yayımlanan ürünlerin **Perakende** sekmesinde bulunabilen aşağıdaki seçenekler, ürünün tüm veya el ile indirimlerini engellemek üzere yapılandırılabilir. Ayarlar ayrıca kategori hiyerarşisinden kategori düzeyinde de belirtilebilir.
 
-**Tüm indirimleri engelle**: Bu seçeneği, tüm indirimlerin bu ürüne uygulanmasını engellemek için seçin. Bu karıştırma ve eşleştirme, miktar ve eşik indirimleri dahil tüm promosyonları ve bir POS kullanıcısı tarafından uygulanan el ile satır ve hareket indirimlerini kapsar.
+- **Tüm indirimleri engelle** – Bu seçeneği, tüm indirimlerin bu ürüne uygulanmasını engellemek için seçin. Bu karıştırma ve eşleştirme, miktar ve eşik indirimleri dahil tüm promosyonları ve bir POS kullanıcısı tarafından uygulanan el ile satır ve hareket indirimlerini kapsar.
+- **El ile indirimleri engelle** – Bu seçeneği yalnızca bir satış sırasında bir POS kullanıcısı tarafından uygulanan el ile satır ve hareket indirimlerini engellemek için kullanın. Bu seçeneğin işaretli olduğu ürünler, karıştır ve eşleştir ve miktar ve eşik indirimleri gibi promosyonlar için kullanılabilir olacaktır.
 
-**El ile indirimleri engelle**: Bu seçeneği yalnızca bir satış sırasında bir POS kullanıcısı tarafından uygulanan el ile satır ve hareket indirimlerini engellemek için kullanın. Bu seçeneğin işaretli olduğu ürünler, karıştır ve eşleştir ve miktar ve eşik indirimleri gibi promosyonlar için kullanılabilir olacaktır.
+> [!NOTE]
+> Bu ayarlar fiyat geçersiz kılma işlemini kısıtlamaz çünkü bu, taban fiyatı belirler ve bir indirim olarak görülmez.
 
-**Not**: Bu ayarlar fiyat geçersiz kılma işlemini kısıtlamaz çünkü bu, taban fiyatı belirler ve bir indirim olarak görülmez.  
-
-[![indirim alanlarını engelle](./media/prevent discounts.png)](./media/prevent discounts.png)
+[![indirim alanlarını engelle](./media/prevent-discounts.png)](./media/prevent-discounts.png)
 

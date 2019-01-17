@@ -32,14 +32,16 @@ ms.lasthandoff: 09/28/2018
 
 Bu konuda Microsoft Dynamics 365 for Finance and Operations'ı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 
-Finance and Operations'ta üç temel kişiselleştirme sınıfı vardır. 
+Finance and Operations'ta üç temel kişiselleştirme sınıfı vardır.
+
 - Bir kurulum sayfasında yapılan kişiselleştirmeler. Örneğin renk teması ve saat dilimi.
-- *Dolaylı* kişiselleştirmeler denilen, sayfa kullanımıyla ilgili kişiselleştirmeler. Örneğin, Finance and Operations, ayarladığınız takdirde ızgara sütunlarının genişliğini ve hızlı sekmelerin genişletilme/daraltılma durumunu izler. 
+- *Dolaylı* kişiselleştirmeler denilen, sayfa kullanımıyla ilgili kişiselleştirmeler. Örneğin, Finance and Operations, ayarladığınız takdirde ızgara sütunlarının genişliğini ve hızlı sekmelerin genişletilme/daraltılma durumunu izler.
 - Bir kullanıcının bir öğenin bir sayfadaki görünüşünü veya davranışını değiştirerek sayfanın görünümünde değişiklik yapmak için, genellikle etkileşimli bir kişiselleştirme moduyla uyguladığı kişiselleştirmeler. Bu kişiselleştirmelere *açık* kişiselleştirmeler adı verilir. Örneğin, kullanıcı sayfadaki öğeleri eklemiş, gizlemiş veya yeniden sıralamış olabilir.
 
 Kullanıcının Finance and Operations'ta yaptığı her kişiselleştirme, kişiselleştirmenin türünden veya kullanıcının etkileşimde olduğu şirketten bağımsız olarak yalnızca o kullanıcıya aittir. Bir kullanıcının sayfada yaptığı değişiklikler sistemdeki diğer kullanıcıları etkilemez.
 
 ## <a name="system-wide-options-for-the-current-user"></a>Geçerli kullanıcının sistem çapında seçenekleri
+
 **Kullanıcı seçenekleri** sayfası, geçerli kullanıcı için sistem genelinde çeşitli ayarlar içerir. **Kullanıcı seçenekleri** sayfasını açmak için gezinti çubuğundaki **Ayarlar** menüsünü (çark simgesi) ve ardından **Kullanıcı seçenekleri**'ni seçin. **Kullanıcı seçenekleri** sayfasında çeşitli kullanıcı ayarlarını içeren dört sekme vardır:
 
 - **Görsel** – Bir renk teması ve sayfalardaki öğelerin varsayılan boyutunu seçin.
@@ -48,6 +50,7 @@ Kullanıcının Finance and Operations'ta yaptığı her kişiselleştirme, kiş
 - **İş akışı** – İş akışıyla ilgili seçenekleri belirleyin.
 
 ## <a name="implicit-personalizations"></a>Dolaylı kişiselleştirmeler
+
 Dolaylı kişiselleştirmeler, mevcut görünür durumlarını "anımsayan" denetimlerle etkileşime girerek yaptığınız kişiselleştirmelerdir.
 
 - **Izgara sütunları** – Izgaradaki bir sütunun genişliğini, sütun başlığının solundaki veya sağındaki boyutlandırma çubuğunu seçerek ve bunu sütun istediğiniz genişliğe gelene kadar sola veya sağa kaydırarak ayarlayabilirsiniz. Finance and Operations, sütun için ayarladığınız genişlik bilgisini depolar. Daha sonra, o ızgarayı içeren sayfayı her açtığınızda sütunu o genişliğe ayarlar.
@@ -59,9 +62,11 @@ Dolaylı kişiselleştirmeler, mevcut görünür durumlarını "anımsayan" dene
 - **Gezinti bölmesi** – Sayfanın sol üst köşesindeki *Menü* düğmesini seçerek **Gezinti bölmesini** açabilirsiniz. (**Menü** düğmesine bazen *hamburger*, *hamburger menüsü* veya *hamburger düğmesi* adı da verilir.) Gezinti bölmesini açık haliyle sabitleyebilir veya varsayılan olarak daraltılmış tutabilirsiniz. Gezinti bölmesini açık haliyle sabitlemenizin ardından, Finance and Operations bölmeyi siz daraltana kadar açık tutar.
 
 ## <a name="explicit-personalizations"></a>Açık kişiselleştirmeler
+
 Farklı kişi ve şirketler, kendileri için en önemli buldukları veya işlerini yürütme tarzı açısından gerekli bulmadıkları veriler bakımından farklı bakış açılarına sahiptir. Finance and Operations'ta bilgilerinizi sıralama ve bilgilerinizle etkileşime girme tarzını özelleştirebilirsiniz. Bazı bilgilerin gizlenmesi gerektiğini de belirtebilirsiniz. Bu yetenekler kişisel ve üretken bir deneyim için anahtar niteliğindedir ve açık kişiselleştirmelere örnektir. Açık kişiselleştirmeler, bir öğenin veya sayfanın görünüşünü veya davranışını değiştirmek amacıyla açık şekilde gerçekleştirdiğiniz kişiselleştirmelerdir.
 
 ### <a name="shortcut-menu-options"></a>Kısayol menüsü seçenekleri
+
 Kısayol menüleri, sizin veya şirketinizin gereksinimlerini daha iyi karşılamak amacıyla bir sayfayı açıkça değiştirmek için birkaç yol sağlar. (Kısayol menüsü *sağ tıklama menüsü* veya *bağlam menüsü* olarak da bilinir.)
 
 Bir sayfada yapılabilecek en tipik ve önemli değişikliklerden bazıları, kısayol menüsündeki seçenekler olarak doğrudan sunulur. Örneğin, Platform güncelleştirmesi 17'den itibaren, isterseniz bir ızgarada sütun eklemek veya gizlemek için bir kılavuz sütun başlığına sağ tıklayıp **Sütunlar ekle** veya **Bu sütunu gizle**'yi seçmeniz yeterlidir.
@@ -81,38 +86,39 @@ Bir öğeyi aşağıdaki yöntemlerle kişiselleştirmek için özellik penceres
 Öğeye bağlı olarak, özellik penceresi başka kişiselleştirme yetenekleri içerebilir. Örneğin, bir kutucuğun özellik penceresi sayesinde o kutucuğu bir panoya yükseltebilir ve bir panonun özellik penceresiyle o panoda yeni bir çalışma alanı oluşturabilirsiniz.
 
 ### <a name="the-personalization-toolbar"></a>Kişiselleştirme araç çubuğu
+
 Bir sayfada birden çok değişiklik veya diğer mekanizmalar aracılığıyla gerçekleştirilemeyen değişiklikler yapmak istiyorsanız (öğeleri yeniden düzenlemek gibi), **Kişiselleştirme** araç çubuğunu kullanabilirsiniz. **Kişiselleştirme** araç çubuğunu açmak için, bir öğenin özellik penceresinde **Bu formu kişiselleştir**'i seçin. Her sayfanın Eylem Bölmesinin **Seçenekler** sekmesindeki **Kişiselleştir** grubunda bulunan **Bu formu kişiselleştir**'i de seçebilirsiniz.
 
 [![Kişiselleştirme araç çubuğu](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-#### <a name="navigating-the-page"></a>Sayfada gezinme 
-**Kişiselleştirme araç çubuğu** açıkken Sayfada gezinme kabiliyetiniz, çalıştırdığınız platform sürümüne bağlıdır. 
+#### <a name="navigating-the-page"></a>Sayfada gezinme
 
-- Platform güncelleştirmesi 19'dan önce, **Kişiselleştirme** araç çubuğu açıkken, sayfa salt okunurdu (hiçbir şey giremezdiniz) ve etkileşime kapalıdır (yalnızca sayfadaki görünür öğelerde değişiklik yapabilirdiniz). Kapatılmış bir bölüm veya farklı bir sekmedeki öğelerde değişiklik yapmak istiyorsanız, **Kişiselleştirme** araç çubuğunu kapatmanız, bir bölümü veya istenilen sekmeyi genişletmeniz ve sonra **Kişiselleştirme** araç çubuğunu yeniden açmanız gerekmekteydi.  
+**Kişiselleştirme araç çubuğu** açıkken Sayfada gezinme kabiliyetiniz, çalıştırdığınız platform sürümüne bağlıdır.
 
-- Platform güncelleştirmesi 19'dan itibaren başlayarak, **Kişiselleştirme** araç çubuğu açıkken, sayfa yine salt okunur moddadır ancak çok daha etkileşimlidir. Özellikle bilgi kutusu bölmesini genişletebilir veya daraltabilir, sekme değiştirebilir ve **Kişiselleştirme** araç çubuğu halen açıkken normalde sayfada yapabileceğiniz şekilde bölümleri genişletebilir veya daraltabilirsiniz. Daraltılabilir bir bölüm veya bir sekmede bir kişiselleştirme değişikliği yapmak için (örneğin bir FastTab'ı gizlemek için) klavye odağında olduğunda sekmeye veya daraltılabilir bölümde çıkan düğmeye basarak bunu tetikleyebileceksiniz.  
+- Platform güncelleştirmesi 19'dan önce, **Kişiselleştirme** araç çubuğu açıkken, sayfa salt okunurdu (hiçbir şey giremezdiniz) ve etkileşime kapalıdır (yalnızca sayfadaki görünür öğelerde değişiklik yapabilirdiniz). Kapatılmış bir bölüm veya farklı bir sekmedeki öğelerde değişiklik yapmak istiyorsanız, **Kişiselleştirme** araç çubuğunu kapatmanız, bir bölümü veya istenilen sekmeyi genişletmeniz ve sonra **Kişiselleştirme** araç çubuğunu yeniden açmanız gerekmekteydi.
+
+- Platform güncelleştirmesi 19'dan itibaren başlayarak, **Kişiselleştirme** araç çubuğu açıkken, sayfa yine salt okunur moddadır ancak çok daha etkileşimlidir. Özellikle bilgi kutusu bölmesini genişletebilir veya daraltabilir, sekme değiştirebilir ve **Kişiselleştirme** araç çubuğu halen açıkken normalde sayfada yapabileceğiniz şekilde bölümleri genişletebilir veya daraltabilirsiniz. Daraltılabilir bir bölüm veya bir sekmede bir kişiselleştirme değişikliği yapmak için (örneğin bir FastTab'ı gizlemek için) klavye odağında olduğunda sekmeye veya daraltılabilir bölümde çıkan düğmeye basarak bunu tetikleyebileceksiniz.
 
 #### <a name="personalization-tools"></a>Kişiselleştirme araçları
+
 **Kişiselleştirme** araç çubuğunda aşağıdaki araçlar mevcuttur:
 
 - Bir öğeyi seçip özelliklerini değiştirmek için **Seç** aracını kullanın. **Seç** aracını ve ardından, özellikleri değiştirilecek öğeyi seçin. Bir öğeyi seçtiğinizde, öğenin özellik penceresi görünür ve o öğenin özelliklerini değiştirebilirsiniz. O sayfada kişiselleştirilebilecek başka öğeler için işlemi yineleyebilirsiniz. Ancak, bazı öğeler kullanımda olduğu için, Finance and Operations bu öğelerin bazı özelliklerini değiştirmenize izin vermez. Bu nedenle, bir öğeyi seçtiğiniz zaman bazı özelliklerinin değiştirilemeyeceğini görebilirsiniz. Örneğin, gerekli bir alanı gizleyemezsiniz.
-
 - Bir öğeyi mevcut öğeler grubu içinde farklı bir konuma taşımak için **Taşı** aracını kullanın. (Bir öğeyi üst grubunun dışına taşıyamazsınız.) **Taşı** aracını ve ardından, taşınacak öğeyi seçin. Bir öğe seçtiğinizde, Finance and Operations sayfayı tarayarak, öğenin taşınıp taşınamayacağını belirler. Ardından bir dizi "bırakma bölgesi" oluşturur. Öğeyi mevcut grup içinde sürükledikçe, her "bırakma bölgesi," öğenin bırakılabileceği alanın yanında renkli ve kalın bir çizgi olarak gösterilir.
-
 - Sayfadaki bir öğeyi gizlemek için **Gizle** aracını kullanın. **Gizle** aracını ve ardından, gizlenecek öğeyi seçin. **Gizle** aracını seçtiğiniz zaman, gizli durumdaki tüm öğeler görünür hale gelir ve gölgeli bir kapsayıcıda gösterilir. Bu durumda bu öğeleri gizli olmaktan çıkarabilirsiniz. Seçilen öğeler gizlendiği zaman sayfanın nasıl görüneceğini, **Seç** aracını seçerek görebilirsiniz.
-    - Platform Güncelleştirmesi 18 ile başlayarak, gerekli alanları ve gerekli alanları içeren bölümleri gizleyebilirsiniz. Bu basitleştirilmiş deneyimi oluşturmak burada iş mantığı tarafından varsayılan zorunlu alanların görüntülenmemesini sağlar. Bir kaydetmeye teşebbüs edilirse, gizli gerekli alanlar geçici olarak görünür hale gelir. 
+
+    - Platform Güncelleştirmesi 18 ile başlayarak, gerekli alanları ve gerekli alanları içeren bölümleri gizleyebilirsiniz. Bu basitleştirilmiş deneyimi oluşturmak burada iş mantığı tarafından varsayılan zorunlu alanların görüntülenmemesini sağlar. Bir kaydetmeye teşebbüs edilirse, gizli gerekli alanlar geçici olarak görünür hale gelir.
 
 - Bir öğenin hızlı sekme özet bölümünde görünmesini isterseniz **Özet** aracını kullanın. Özet aracı yalnızca bir hızlı sekme bölümündeki alanlar için kullanılabilir. **Özet** aracını seçtiğiniz zaman, özet alanı olarak seçilen tüm alanlar gölgeli bir kapsayıcıda gösterilir. Hızlı sekme özetine etkileşimli olarak alan ekleyebilir veya hızlı sekme özetinden alanları seçerek kaldırabilirsiniz.
-
 - Sayfanın klavye sekmesi sırasından bir öğeyi kaldırmak için **Atla** aracını kullanın. **Atla** aracını seçtiğiniz zaman, atlanmış durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Bunun üzerine, bu öğeleri yeniden sekme sırasına dahil edebilirsiniz.
-
 - Bir öğeyi düzenlenebilir veya düzenlenemez olarak işaretlemek için **Düzenle** aracını kullanın. **Düzenle** aracını seçtiğiniz zaman, düzenlenemez durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Bu durumda bu öğeleri yeniden düzenlenebilir hale getirebilirsiniz. Bazı alanların gerekli olduğunu ve düzenlenemez yapılamayacağını unutmayın. Bu alanların yanında bir asma kilit simgesi görünür.
-
 - Bir sayfaya eklenebilecek öğelerin listesini görmek için **Ekle** düğmesini kullanın.
+
     - Sayfanıza alan eklemek için, **Ekle** altındaki **Alan** aracını seçin. **Alan** aracını kullandığınız zaman yalnızca sayfa tanımının bir parçası olan ancak o anda sayfada gösterilmeyen alanları ekleyebilirsiniz. Geçerli sayfa tanımının bir parçası olmayan yeni alanların nasıl oluşturulacağı hakkında bilgi için bkz. [Özel alanlar](user-defined-fields.md). **Alan** aracını seçtikten sonra, ilk olarak, alan eklemek istediğiniz grubu veya bölgeyi seçmeniz gerekir. Bir iletişim kutusunda, seçilen grupla veya bölgeyle ilgili alanların listesi görüntülenir. İletişim kutusunda, eklenecek bir veya daha fazla alan seçin ve ardından **Ekle**'yi seçin. Önceden eklediğiniz bir alanı kaldırmak için bu işlemi yineleyin ancak iletişim kutusundaki alan seçimini temizleyin.
     - Microsoft PowerApps kullanarak oluşturulmuş bir uygulamayı sayfaya katıştırmak için, **Ekle** altındaki **PowerApp** aracını seçin. Sayfaya bir PowerApps uygulamasının nasıl katıştırılacağı hakkında ayrıntılı bilgi için bkz: [PowerApps katıştırma](embed-power-apps.md).
 
 - Geçerli sayfaya ilişkin tüm kişiselleştirmelerle ilgili yönetim seçeneklerinin bir listesini görüntülemek için **Yönet** düğmesini seçin.
+
     - Sayfayı varsayılan, ilk yüklendiği durumuna sıfırlamak için **Temizle**'yi seçin. Geçerli sayfadaki tüm kişiselleştirmeler temizlenir. Geri alma eylemi yoktur. Bu nedenle, bu seçeneği ancak sayfa sıfırlamak istediğinizden emin olduğunuzda kullanın.
     - Sizin veya başka birinin sayfa için daha önce oluşturduğu bir dosyadan kişiselleştirme yüklemek için **İçe aktar**'ı seçin. Sayfadaki tüm geçerli kişiselleştirmeleriniz, seçilen dosyadan alınan kişiselleştirmelerle değiştirilir.
     - Sayfadaki kişiselleştirmelerinizi bir dosyaya kaydetmek için **Dışa aktar**'ı seçin. Kişiselleştirmelerinizi başka kullanıcılarla paylaşabilirsiniz. Bu kullanıcıların, sayfaya ilişkin kişiselleştirmelerinizi içeren dosyayı içe aktarmaları gerekir.
@@ -122,6 +128,7 @@ Bir sayfada birden çok değişiklik veya diğer mekanizmalar aracılığıyla g
 **Kişiselleştirme** araç çubuğu kullanılırken kaydedilen işlemler dolaylıdır. Kişiselleştirmeleriniz siz yapar yapmaz yürürlüğe girer ve bir **Kaydet** düğmesi seçmeniz gerekmez. Bazı durumlarda, bir araç seçtiğiniz zaman öğenin yanında bir asma kilit simgesi görünür. Bu simge, seçilen araçla ilgili öğe özelliklerini değiştiremeyeceğiniz çünkü bu özelliklerde yapılan değişikliklerin sayfanın doğru işleyişini engelleyeceği anlamına gelir.
 
 ### <a name="adding-a-tile-list-or-link-to-a-workspace"></a>Çalışma alanına kutucuk, liste veya bağlantı ekleme
+
 Listeler içeren bazı sayfalar için ek bir kişiselleştirme özelliği mevcuttur. Eylem Bölmesinin **Seçenekler** sekmesinde **Kişiselleştir** grubundaki **Çalışma alanına ekle** düğmesi, belirli bir çalışma alanındaki geçerli listeden bilgileri göstermenize olanak sağlar. Çalışma alanındaki bilgilerinin filtrelenmiş ve sıralanmış bir görünümünü veya varsayılan görünümü gösterebilirsiniz. Çalışma alanında bilgilerin bir liste veya listedeki öğe sayısını gösterebilen bir özet kutucuk ya da bir bağlantı olarak görüneceğini de belirtebilirsiniz.
 
 [![Çalışma alanına ekle](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
@@ -133,9 +140,11 @@ Listeler içeren bazı sayfalar için ek bir kişiselleştirme özelliği mevcut
 Liste, kutucuk veya bağlantınız bir çalışma alanına eklendikten sonra o çalışma alanı açıp, öğeleri istediğiniz gibi yeniden sıralayabilirsiniz.
 
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Çalışma alanından panoya özet ekleme
+
 Bazı çalışma alanları sayı kutucukları (yani üzerinde sayılar bulunan kutucuklar) içerir ve bu kutucukların panonuzda da görünmesini isteyebilirsiniz. Bir çalışma alanında, sayı kutucuğuna sağ tıklayın ve **Kişiselleştir**'i seçin. Bunun ardından, kutucuğun özellik penceresinde **Panoya sabitle**'yi seçin. Seçilen panoyu bir dahaki açışınızda (ve yenilemenizde) sayı o çalışma alanının gezinti kutucuğunun altında görünür. Bu sayıyı doğrudan seçerek, temsil ettiği verilere doğrudan gidebilirsiniz.
 
 ### <a name="personalizing-your-dashboard"></a>Panonuzu kişiselleştirme
+
 Pano, genellikle, Finance and Operations'ı açtığınızda göreceğiniz ilk sayfadır. Panoyu kişiselleştirerek yalnızca görmek istediğiniz çalışma alanı kutucuklarını göstermesini sağlayabilirsiniz. Ayrıca, kutucukları görmeyi tercih ettiğiniz sırayla yeniden düzenleyebilir, çalışma alanı gezinti kutucuklarını yeniden adlandırabilir ve tamamen yeni bir çalışma alanı kutucuğu ekleyebilirsiniz.
 
 Panoyu kişiselleştirmek için herhangi bir kutucuğa sağ tıklayın ve **Kişiselleştir**'i seçerek kutucuğun özellik penceresini açın.
@@ -145,6 +154,7 @@ Panoyu kişiselleştirmek için herhangi bir kutucuğa sağ tıklayın ve **Kiş
 - Yeni bir çalışma alanı kutucuğu oluşturmak için, özellik penceresinde **Çalışma alanı ekle**'yi seçin. Panonun alt kısmında yeni bir çalışma alanı kutucuğu oluşturulur. Bu yeni çalışma alanı kutucuğunu istediğiniz gibi yeniden adlandırabilirsiniz. Bu konunun [Çalışma alanlarına liste, kutucuk veya bağlantı ekleme](personalize-user-experience.md#adding-a-tile-list-or-link-to-a-workspace) bölümünde açıklandığı gibi, çalışma alanına listeler, kutucuklar ve bağlantılar da ekleyebilirsiniz.
 
 ## <a name="administration-of-personalization"></a>Kişiselleştirme yönetimi
+
 Bir sayfayı kişiselleştirdikten sonra, kişiselleştirilmiş sayfayı dışa aktararak kişiselleştirmelerinizi diğer kullanıcılarla paylaşabilirsiniz. Daha sonra diğer kullanıcıların kişiselleştirilmiş sayfayı açmalarını ve oluşturduğunuz kişiselleştirme dosyasını içe aktarmalarını isteyebilirsiniz. Alternatif olarak, kişiselleştirmenizi, yönetici ayrıcalıklarına sahip bir kullanıcıya verebilirsiniz. Kullanıcı, bunun ardından, kişiselleştirme dosyanızı aynı anda çok sayıda kullanıcıya uygulayabilir.
 
 Yönetici ayrıcalıklarına sahip kullanıcılar, bu kişi **Kişiselleştirme** sayfasında diğer kullanıcılara ait kişiselleştirmeleri de yönetebilir. Bu sayfada dört sekme vardır:

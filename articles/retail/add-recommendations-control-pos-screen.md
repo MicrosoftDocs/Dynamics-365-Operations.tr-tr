@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 26b03b6712c97b12e1221598de308813c7986179
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,57 +32,67 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 > [!NOTE]
-> Bu özelliği daha iyi bir algoritma ve daha yeni perakende odaklı yeteneklerle yeniden tasarladığımızdan ürün öneri hizmetinin geçerli sürümünü kaldırıyoruz. Daha fazla bilgi için bkz. [Kaldırılan veya artık kullanılmayan özellikler](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). 
+> Bu özelliği daha iyi bir algoritma ve daha yeni perakende odaklı yeteneklerle yeniden tasarladığımızdan ürün öneri hizmetinin geçerli sürümünü kaldırıyoruz. Daha fazla bilgi için bkz. [Kaldırılan veya artık kullanılmayan özellikler](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).
 
 Bu konu, öneri denetiminin bir satış noktası (POST) cihazına, ekran düzeni tasarımcısını Microsoft Dynamics 365 for Retail kullanarak nasıl ekleneceğini açıklar.
 
 Microsoft Dynamics 365 for Retail kullanırken ürün önerilerini POS cihazınızda görüntüleyebilirsiniz. *Öneriler*, satınalma geçmişi, istek listelerindeki maddeler ve diğer müşterilerin çevrimiçi ve fiziksel mağazalardan aldıkları maddelere dayanarak müşterilerinizin ilgi duyabilecekleri maddelerdir. Ürün önerilerini görüntülemek için, ekran düzeni tasarımcısını kullanarak bir denetimi hareket ekranına eklemeniz gerekir.
 
 ## <a name="open-layout-designer"></a>Açık Düzen tasarımcısı
-1.  **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS** &gt; **Ekran düzenleri** öğelerini seçin.
-2.  Denetimi eklemek istediğiniz ekranı bulmak için Hızlı Filtre'yi kullanın. Örneğin **Ekran düzeni kimliği** üzerinde, 'F2CP16:9M' kullanarak filtrele.
-3.  Listede, istenen kaydı bulun ve seçin. Örneğin, ‘Ad: F2CP16:9M Ekran Düzeni Kimliği: F2CP16:9M’ seçin.
-4.  **Düzen tasarımcısı**'na tıklayın.
-5.  Düzeni tasarımcısını başlatmak için istemleri izleyin. Kimlik bilgileri istendiğinde, Düzen tasarımcısı **Ekran düzenleri** sayfasından başlatıldığında girilenle aynı kimlik bilgilerini girin.
-6.  Oturum açtığınızda, aşağıdakine benzer bir sayfa görüntülenir. Düzen, mağazanız için yapılan özelleştirmelere bağlı olarak farklı olacaktır.
 
-[![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) Bir görüntüleme seçeneği seçin
------------------------
+1. **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS** &gt; **Ekran düzenleri** öğelerini seçin.
+2. Denetimi eklemek istediğiniz ekranı bulmak için Hızlı Filtre'yi kullanın. Örneğin **Ekran düzeni kimliği** üzerinde, 'F2CP16:9M' kullanarak filtrele.
+3. Listede, istenen kaydı bulun ve seçin. Örneğin, ‘Ad: F2CP16:9M Ekran Düzeni Kimliği: F2CP16:9M’ seçin.
+4. **Düzen tasarımcısı**'na tıklayın.
+5. Düzeni tasarımcısını başlatmak için istemleri izleyin. Kimlik bilgileri istendiğinde, Düzen tasarımcısı **Ekran düzenleri** sayfasından başlatıldığında girilenle aynı kimlik bilgilerini girin.
+6. Oturum açtığınızda, aşağıdakine benzer bir sayfa görüntülenir. Düzen, mağazanız için yapılan özelleştirmelere bağlı olarak farklı olacaktır.
+
+    [![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+
+## <a name="choose-a-display-option"></a>Bir görüntüleme seçeneği seçin
 
 İki yapılandırma seçeneği mevcuttur. Mağazanız için en iyi çalışan seçeneği seçin ve denetimin kurulumunu tamamlamak için kalan yönergeleri izleyin. İki seçenek şunlardır:
--   Önerileri her zaman görünür durumdadır.
--   Bir **Öneriler** sekmesi, ekranın sağ tarafındaki kılavuzda görüntülenir.
 
-#### <a name="to-make-recommendations-always-visible"></a>Önerileri her zaman görünür yapmak için
+- Önerileri her zaman görünür durumdadır.
+- Bir **Öneriler** sekmesi, ekranın sağ tarafındaki kılavuzda görüntülenir.
 
-1.  Hareket satırı ayrıntıları alanının yüksekliğini, solundaki müşteri paneliyle aynı boyda olacak şekilde azaltın.[](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
-2.  Soldaki menüden, öneriler denetimini hareket satırı ayrıntıları alanı ve hareket erkanının alt ortasındaki düğme kılavuzu arasında sürükleyip bırakın. Bu alana sığacak şekilde yeniden boyutlandırın.[](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
-3.  Kaydedip Düzen tasarımcısından çıkmak için **X**'i tıklatın.
-4.  Dynamics 365 for Retail içinde, **Perakende** &gt; **Perakende BT** &gt; **Dağıtım tabloları**'na gidin.
-5.  Listede **1090 Kayıtları**'nı seçin.
-6.  **Şimdi çalıştır** üzerine tıklayın.
+### <a name="make-recommendations-always-visible"></a>Önerileri her zaman görünür yapmak
 
-#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Ekranın sağ tarafındaki düğme kılavuzuna bir Öneriler sekmesi eklemek için
+1. Hareket satırı ayrıntıları alanının yüksekliğini, solundaki müşteri paneliyle aynı boyda olacak şekilde azaltın.
 
-1.  Sayfanın sağ tarafında bulunan düğme kılavuzundaki son sekmenin altındaki boş alana sağ tıklayın.
-2.  **Özelleştir** üzerine tıklayın.[![pic-5](./media/pic-5.png)](./media/pic-5.png)
-3.  **Yeni sekme** üzerine tıklayın.
-4.  Şimdi eklemiş olduğunuz yeni sekmeyi bulun. Aşağı doğru gitmeniz gerekebilir.
-5.  **İçerikler** açılır listesinde, **Önerilen ürünler**'i seçin. [![pic-6](./media/pic-6.png)](./media/pic-6.png)
-6.  **Etiket** alanı içinde, öneriler sekmesi için bir ad girin. Örneğin, 'Önerilen ürünler' yazın.
-7.  **Resim** alanında, sekme üzerinde görünecek resmi seçin.
-8.  **Tamam** seçeneğini tıklatın. Yeni sekme düğme kılavuzunda görüntülenir.
-9.  Kaydedip Düzen tasarımcısından çıkmak için **X**'i tıklatın.
+    [![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+
+2. Soldaki menüden, öneriler denetimini hareket satırı ayrıntıları alanı ve hareket erkanının alt ortasındaki düğme kılavuzu arasında sürükleyip bırakın. Bu alana sığacak şekilde yeniden boyutlandırın.
+
+    [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+
+3. Kaydedip Düzen tasarımcısından çıkmak için **X**'i tıklatın.
+4. Dynamics 365 for Retail içinde, **Perakende** &gt; **Perakende BT** &gt; **Dağıtım tabloları**'na gidin.
+5. Listede  **1090 Kayıtları**'nı seçin.
+6. **Şimdi çalıştır** üzerine tıklayın.
+
+### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Ekranın sağ tarafındaki düğme kılavuzuna bir Öneriler sekmesi eklemek
+
+1. Sayfanın sağ tarafında bulunan düğme kılavuzundaki son sekmenin altındaki boş alana sağ tıklayın.
+2. Tıklatın  **Özelleştirme**.
+
+    [![pic-5](./media/pic-5.png)](./media/pic-5.png)
+
+3. **Yeni sekme** üzerine tıklayın.
+4. Şimdi eklemiş olduğunuz yeni sekmeyi bulun. Aşağı doğru gitmeniz gerekebilir.
+5. **İçerikler** açılır listesinde, **Önerilen ürünler**'i seçin.
+
+    [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+
+6. **Etiket** alanı içinde, öneriler sekmesi için bir ad girin. Örneğin, 'Önerilen ürünler' yazın.
+7. **Resim** alanında, sekme üzerinde görünecek resmi seçin.
+8. Tıklatın **Tamam**. Yeni sekme düğme kılavuzunda görüntülenir.
+9. Kaydedip Düzen tasarımcısından çıkmak için **X**'i tıklatın.
 10. Dynamics 365 for Retail içinde, **Perakende** &gt; **Perakende BT** &gt; **Dağıtım tabloları**'na gidin.
-11. Listede **1090 Kayıtları**'nı seçin.
+11. Listede **1090 Kayıtları**'nı seçin.
 12. **Şimdi çalıştır** üzerine tıklayın.
 
-
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Kişiselleştirilmiş ürün önerilerine genel bakış](personalized-product-recommendations.md)
-
-
-
 

@@ -31,21 +31,19 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Bu makale, bellek içi ve gerçek zamanlı analizleri Microsoft Dynamics 365 for Retail verilerinizi temel alan mağaza performansına erişmek, keşfetmek ve bunlar hakkında bilgi edinmek için nasıl kullanabileceğinizi açıklar. 
+Bu makale, bellek içi ve gerçek zamanlı analizleri Microsoft Dynamics 365 for Retail verilerinizi temel alan mağaza performansına erişmek, keşfetmek ve bunlar hakkında bilgi edinmek için nasıl kullanabileceğinizi açıklar.
 
 Dynamics 365 for Retail'in bir parçası olarak, kullanıcılar mağaza performansını aşağıdaki konumlardan birinden yeni **Kanal özeti** raporunu açarak seçilen bir periyotta farklı kuruluş hiyerarşisi düzeylerinde gerçek zamanlı olarak inceleyebilir:
 
--   **Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar** &gt; **Kanal özet raporu**
--   **Perakende mağaza mali bilgileri** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza mali bilgileri** &gt; **Raporlar** &gt; **Kanal özet raporu**
--   **Sorgular ve raporlar** bölümü &gt; **Perakende** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **Kanal özet raporu**
+- **Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar** &gt; **Kanal özet raporu**
+- **Perakende mağaza mali bilgileri** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza mali bilgileri** &gt; **Raporlar** &gt; **Kanal özet raporu**
+- **Sorgular ve raporlar** bölümü &gt; **Perakende** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **Kanal özet raporu**
 
 Bu rapor aşağıdaki özetlerin anlık görüntüsünü mağaza performansının bir parçası olarak sunar:
 
--   Brüt satış özeti
--   Ödeme türü özeti
--   Vergi özeti
--   Fiyat geçersiz kılma özeti
--   İskonto özeti
-
-
+- Brüt satış özeti
+- Ödeme türü özeti
+- Vergi özeti
+- Fiyat geçersiz kılma özeti
+- İskonto özeti
 

@@ -59,4 +59,3 @@ Hangi güncelleştirilmiş ürün özelliklerinin ilişkili ürünlere gönderil
 
 ![Ürünleri güncelleştir iletişim kutusu](media/NewUpdateProductsEnhancedView.PNG)
 
-

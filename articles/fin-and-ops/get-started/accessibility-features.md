@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a67b51ced4bea11be258aed359a758d88294beb1
-ms.openlocfilehash: bc48aa5ccf50705ef0c5087608798875953fe888
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -41,7 +41,7 @@ Her alan ve denetimde bir etiket ve ilgili kısayola ilişkin bir açıklama var
 
 En soldaki bölme olan Gezinti bölmesi menüsünü kullanarak erişilen her sayfa **Arama** kutusundan da bulunabilir. **Arama** kutusuna gitmek için Alt+G tuşlarına basın ve sonra sayfa açıklamasını veya adı yazın.
 
-![Arama kutusuna girilen "Banka hesapları"](media/6d08b0be32808221023e2aa92d69fd70.png  "Arama kutusuna girilen \"banka hesapları\"")
+![Arama kutusuna girilen "Banka hesapları"](media/6d08b0be32808221023e2aa92d69fd70.png "Arama kutusuna girilen \"banka hesapları\"")
 
 Daha fazla bilgi için bkz. [Gezinti araması](navigation-search.md).
 
@@ -56,17 +56,17 @@ Bir sayfada yer alan her eyleme seklem sırası aracılığıyla klavyeden eriş
 
 Eylem Bölmesindeki **Satış siparişi** sekmesinde yer alan **E-posta bildirimi** grubunda görüntülenen **E-posta bildirimi günlüğü** eylemini çalıştırmak istiyorsunuz.
 
-![Eylem bölmesinde e-posta bildirimi günlük eylemi](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg  "Eylem bölmesinde e-posta bildirimi günlük eylemi")
+![Eylem bölmesinde e-posta bildirimi günlük eylemi](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Eylem bölmesinde e-posta bildirimi günlük eylemi")
 
 Seçeneklerden biri klavyenizi kullanmaktır. Odağı Eylem Bölmesine taşımak için CTRL+F6 tuşuna basın ve **E-posta bildirimi günlüğü** üzerine gelene kadar Sekme tuşuna art arda basarak tük sekmelerin ve eylemlerin üzerinden geçin.
 
 Ancak, eylemi daha doğrudan da çalıştırabilirsiniz. Sayfadaki herhangi bir konumdan Ctrl + Kesme işareti (') tuşuna basarak eylemleri arama kutusunu görüntüleyin.
 
-![Eylemler için arama kutusu](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg  "Eylemler için arama kutusu")
+![Eylemler için arama kutusu](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Eylemler için arama kutusu")
 
 Arama kutusuna eylemi açıklayan sözcükleri yazın. Eylem kullanılabilir duruma gelir ve doğrudan çalıştırabilirsiniz. Örneğin **e-posta**, **bildir** (sözcüğün bir kısmı) veya **günlük** yazarak "E-posta bildirimi günlüğü" işlevine "atlayabilirsiniz".
 
-![Arama kutusuna girilen "E-posta"](media/image4.png "Arama kutusuna girilen \"e-posta\"") 
+![Arama kutusuna girilen "E-posta"](media/image4.png "Arama kutusuna girilen \"e-posta\"")
 
 ![Arama kutusuna girilen "Bildirim"](media/image5.png "Arama kutusuna girilen \"bildirim\"")
 
@@ -82,7 +82,7 @@ Sistem günlük kullanımında, genel görevleri gerçekleştirmek için her ala
 
 Bununla birlikte, sık gerçekleştirdiğiniz görevleri yerine getirmek için bazı alanların varsayılan sekme sırasında olmadığını görebilirsiniz. Bu durumda, Windows Ekran Okuyucusu kullanıyorsanız, Windows Ekran okuyucusunun klavyesini kullanarak bu alanlara erişebilir ve içeriklerini denetleyebilirsiniz. Bunun yerine **Seçenekler** sayfasında **Gelişmiş sekme sırası** seçeneğini etkinleştirebilirsiniz. Bu seçenek, tüm düzenlenebilir ve salt okunur alanları sekme sırasının parçası yapar. Daha sonra özel bir sekme sırası oluşturmak için sayfa kişiselleştirmeyi kullanabilir ve sekme sırasının parçası olması gerekmeyen alanları dışarıda bırakabilirsiniz. Kişiselleştirme hakkında daha fazla bilgi için bkz. [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
 
-!["Gelişmiş sekme sırası" seçeneği](media/8c0f12bbb3f26032997ef0ba95d89b6a.png  "\"Gelişmiş sekme sırası\" seçeneği")
+!["Gelişmiş sekme sırası" seçeneği](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "\"Gelişmiş sekme sırası\" seçeneği")
 
 ## <a name="form-patterns"></a>Form modelleri
 

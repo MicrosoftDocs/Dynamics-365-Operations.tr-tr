@@ -8,7 +8,7 @@
           items:
             - name: Önizleme aboneliğine kaydolma
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
-            - name: Bir tanıtım ortamını dağıtma
+            - name: Tanıtım ortamını dağıtma
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Bulut ve şirket içi özellikleri karşılaştırması
               href: get-started/cloud-prem-comparison.md
@@ -25,16 +25,16 @@
                   href: get-started/system-requirements-on-prem.md
                 - name: Şirket içi dağıtımlar için Ambarlamayı yapılandırma
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-            - name: Standart ve hedeflenen platform sürümleri
+            - name: Standart ve İlk sürüm hizmet güncelleştirmeleri
               href: get-started/public-preview-releases.md
             - name: Finance and Operations satın alma
               items:
-                - name: Finance and Operations (şirket içi) satın alma
+                - name: Finance and Operations (on-premises) satın alma
                   href: get-started/purchase-on-premises.md
         - name: Yenilikler veya değişiklikler
           href: get-started/whats-new-changed.md
           items:
-            - name: Bir sürüm hizmet güncelleştirmeleriyle ilgili SSS
+            - name: Bir Sürüm hizmet güncelleştirmeleriyle ilgili SSS
               href: get-started/one-version.md
             - name: Yazılım yaşam döngüsü ilkesi ve bulut sürümleri
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
@@ -46,15 +46,15 @@
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: Ertelenen AX 2012 özellikleri
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: Kurum içindeki kurulumlarda uygulanmayan özellikler
+            - name: Şirket içi kurulumlarda uygulanmayan özellikler
               href: get-started/features-not-implemented-on-prem.md
-            - name: Finance and Operations sürüm 8.1.3 (Aralık 2018)
+            - name: Finance and Operations sürüm 8.1.3 (Ocak 2019)
               href: get-started/whats-new-changed-8-1-3.md
-            - name: Platform update 23 (Aralık 2018)
+            - name: Platform update 23 (Ocak 2019)
               href: get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (Kasım 2018)
+            - name: Platform update 22 (Aralık 2018)
               href: get-started/whats-new-platform-update-22.md
-            - name: Finance and Operations sürüm 8.1.2 (Kasım 2018)
+            - name: Finance and Operations sürüm 8.1.2 (Aralık 2018)
               href: get-started/whats-new-changed-8-1-2.md
             - name: Finance and Operations sürüm 8.1.1 (Ekim 2018)
               href: get-started/whats-new-changed-8-1-1.md
@@ -371,8 +371,20 @@
                       href: ../supply-chain/sales-marketing/field-service-product.md
                     - name: Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
-                    - name: Field Service'daki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme
+                    - name: Field Service'daki sözleşme faturalarını Finance and Operations'daki serbest metin faturalarıyla eşitleme
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
+                    - name: Stok transferlerini ve ayarlamalarını Field Service'dan Finance and Operations'a eşitleme
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                    - name: Stok düzeyi bilgilerini Field Service'dan Finance and Operations'a eşitleme
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                    - name: Stok birimli ürünleri Finance and Operations'dan Field Service'a eşitleme
+                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                    - name: Proje listesini Finance and Operations'dan Field Service'a eşitleme
+                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                    - name: Ambarları Finance and Operations'dan Field Service'a eşitleme
+                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                    - name: İş emirlerini Finance and Operations'dan Field Service'a eşitleme
+                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
                 - name: Project Service Automation tümleştirmesi yapılandırma
                   href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                   items:
@@ -388,8 +400,8 @@
                       href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
                     - name: Proje gerçek değerlerini proje tümleştirme günlüğüyle eşitleme
                       href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
-                - name: Harici web hizmetleri kullanma
-                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Harici web hizmetleri kullanma
+          href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Veri yönetimi
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -405,6 +417,8 @@
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Yapılandırma veri paketleri (yalnızca Temmuz 2017 sürümü)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
+                - name: Varlık Deposunu Data Lake olarak kullanılabilir yapma
+                  href: ../dev-itpro/data-entities/entity-store-data-lake.md?toc=/fin-and-ops/toc.json
             - name: Yapılandırma veri şablonları
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
             - name: Varlık üzerindeki değişiklikleri izleme
@@ -529,6 +543,8 @@
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: Kapatmayı yapılandırma
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: Kalanı kapatma
+                  href: ../financials/cash-bank-management/settle-remainder.md
                 - name: Satıcı ödemesine genel bakış
                   href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Satıcı ödemeleri çalışma alanı
@@ -2103,8 +2119,6 @@
               href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
             - name: Serbest metin faturasını deftere nakletme
               href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-            - name: Meksika elektronik genel muhasebe raporunun 1.1 sürümünü oluşturma
-              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
             - name: Elektronik fatura için parametreleri ayarlama
               href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
             - name: Meksika için satış vergisi kodlarını ayarlama

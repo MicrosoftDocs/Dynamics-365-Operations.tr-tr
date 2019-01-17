@@ -3,7 +3,7 @@ title: "LinkedIn İşveren ile kaynak bulma"
 description: "Bu konu, iş ve iş adayı önerileri almak için makine öğrenimini kullanma hakkında bilgi sağlar."
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: 106103e2c3d8f3d89aac5140174e5794da22536f
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -83,7 +83,12 @@ LinkedIn İşveren özellikleri Attract Yönetici tarafından etkinleştirildiğ
 
 Adayın LinkedIn profilini Attract içinde görebilirsiniz. LinkedIn pencere öğesi, LinkedIn kullanıcı bilgileri ATS bilgileriyle eşleştiğinde aday profili görüntüler.
 
-Profil görüntülemek için aday profiline işten veya beceri havuzundan gidin. Aday profilinde **LinkedIn** sekmesini seçin ve profil pencere öğesi yüklenir. Profil pencere öğesini kullanarak doğru eşleşme olup olmadığını gösterin. Değilse doğru kişiyi bulun. Bu sayfadan LinkedIn İşveren projelerinize aday da kaydedebilirsiniz.
+Profil görüntülemek için aday profiline işten veya beceri havuzundan gidin. Aday profilinde **LinkedIn** sekmesini seçin ve profil pencere öğesi yüklenir. Bu sayfadan LinkedIn İşveren projelerinize aday da kaydedebilirsiniz.
+1. LinkedIn, eşleşmeyi e-posta ve LinkedIn üye kimliğ (tam eşleşme) arasında bulduysa, adayın profili gösterilecektir. Kullanıcının bağlantı Kes/profile seçeneği hala vardır.
+
+2. LinkedIn, adayı e-posta veya üye kimliğine dayanarak bulamadıysa, aday adına dayanarak olası aday eşleşmelerinin bir listesini gösterir ve kullanıcı bunlar arasından birini seçip profili bağlantılayabilir.  
+
+3. LinkedIn, adına dayanarak herhangi bir aday bulamazsa, eşleşme bulunamadı döndürür.
 
 ### <a name="1-click-export"></a>1 tıkla dışa aktarma 
 
@@ -117,11 +122,14 @@ LinkedIn İşveren kullanarak, adayın kuruluşunuzdaki diğer işlere başvurup
 
 6.  **Notlar** sekmesini seçerek Attract'ta bu başvuran için yakalanan notları görün.
 
+> [!NOTE]
+> Aday, ön aday aşamasını geçemediyse aday ve başvuru verisi, LinkedIn İş Alımcısına eşitlenmez.
+
 ### <a name="inmail-history"></a>InMail geçmişi
 
 LinkedIn InMail geçmişi, LinkedIn İşveren'le sözleşme düzeyinde erişimle kullanılabilir. Etkin olduğunda, adayla olan tüm InMail geçmişi görebilirsiniz. Adayla InMail değişimi yapan kuruluşunuzdan diğer kullanıcıları görebilir ancak aralarındaki mesajları göremezsiniz.
 
-InMail geçmişini görüntülemek için adayın profiline gidin. **LinkedIn** sekmesine gidin ve geçmişini görüntülemek için aşağı aydırma yapın. Yalnızca aday isteğinize yanıt verdiyse ve profilini LinkedIn'de paylaşmayı seçtiyse InMail geçmişini görüntüleyebilirsiniz. Her birkaç saatte bir InMail gelen iletileri Attract ile eşitlenir.
+InMail geçmişini görüntülemek için adayın profiline gidin. **LinkedIn** sekmesine gidin ve geçmişini görüntülemek için aşağı aydırma yapın. Aday ile bir sohbet gerçekleştirdiyseniz, InMail geçmişini görüntüleyebilirsiniz. Her birkaç saatte bir InMail gelen iletileri Attract ile eşitlenecektir.
 
 ### <a name="notes-history"></a>Notlar geçmişi 
 
@@ -131,7 +139,7 @@ Notlar geçmişini görüntülemek için adayın profiline gidin. **LinkedIn** s
 
 ### <a name="inmail-stub-profile"></a>InMail saplama profili
 
-InMail saplama profili, LinkedIn İşveren'le sözleşme düzeyinde erişimle kullanılabilir. Adaylar kuruluşunuzdaki herhangi bir kullanıcıyla LinkedIn profillerini paylaşmayı kabul ederse, adayları Attract'ta takip edebilir ve her aday için yeni bir aday kaydı oluşturulur.
+InMail saplama profili, LinkedIn İşveren'le sözleşme düzeyinde erişimle kullanılabilir. Adaylar kuruluşunuzdaki herhangi bir kullanıcıyla LinkedIn profillerini paylaşmayı kabul ederse, adayları Attract'ta takip edebilir ve her aday için yeni bir aday kaydı oluşturulur. Aday, sistemde bir e-posta adresi ile zaten mevcutsa veya adresini işe alımcı ile paylaşmayı seçmişse, adayın e-posta adresini görüntüleyebilirsiniz.
 
 Aday listesini görüntülemek için **Beceri havuzları**na gidin, sistem tarafından oluşturulan LinkedIn beceri havuzunu görün. Bu beceri havuzu, LinkedIn'den alınan aday ve alt profilleri listesini içerir. Adayın adını ve soyadını gösterir. Adayın e-posta kodu, aday e-posta adresini paylaşmayı seçtiyse görüntülenir.
 

@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 80fa443fc235496a111a8a866d2e703202721268
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -33,35 +33,41 @@ ms.lasthandoff: 08/09/2018
 
 Bu makale Microsoft Dynamics 365 for Retail için başlatma işleminin bir parçasını oluşturulan veriyi açıklar.
 
-Perakende çözümü Microsoft Dynamics Lifecycle Services (LCS) aracılığıyla dağıtıldıktan sonra, temel yapılandırma verilerini oluşturmak için perakende yapılandırmasını başlatmanız gerekir. **Önemli:** Perakende yapılandırmasını başlatmadan önce, perakende mağazaları ayarlayacağınız bir dil ve her bir tüzel kişilik için bir posta adresi belirtmiş olduğunuza emin olun. Bu adımın, perakende için kullandığınız her bir tüzel kişilik için tamamlanması gerekir. Perakende yapılandırmasını başlatmak için aşağıdaki adımları izleyin.
+Perakende çözümü Microsoft Dynamics Lifecycle Services (LCS) aracılığıyla dağıtıldıktan sonra, temel yapılandırma verilerini oluşturmak için perakende yapılandırmasını başlatmanız gerekir.
 
-1.  Dynamics 365 for Retail istemcisini başlat.
-2.  **Perakende** &gt; **Genel merkez kurulumu** &gt; **Parametreler** &gt; **Perakende parametreleri** menüsüne tıklayın.
-3.  **Başlat** öğesine tıklayın.
+> [!IMPORTANT]
+> Perakende yapılandırmasını başlatmadan önce, perakende mağazaları ayarlayacağınız bir dil ve her bir tüzel kişilik için bir posta adresi belirtmiş olduğunuza emin olun. Bu adımın, perakende için kullandığınız her bir tüzel kişilik için tamamlanması gerekir.
+
+Perakende yapılandırmasını başlatmak için aşağıdaki adımları izleyin.
+
+1. Dynamics 365 for Retail istemcisini başlat.
+2. **Perakende** &gt; **Genel merkez kurulumu** &gt; **Parametreler** &gt; **Perakende parametreleri** menüsüne tıklayın.
+3. **Başlat** öğesine tıklayın.
 
 Başlatma, aşağıdaki varsayılan yapılandırma verilerini oluşturur:
 
--   Perakende planlayıcısı görevleri ve alt görevleri
--   Perakende kanalı şeması
--   Perakende dağıtım planlamaları
--   Düğme grupları, görüntüler ve temaları içeren varsayılan ekran düzenleri
--   Zaman dilimi bilgileri
--   Satış noktası (POS) işlemleri
--   POS izinleri
--   Kanal raporları
--   Öznitelik meta verileri
--   Varlık doğrulama şablonları
--   Commerce Data Exchange oturum geçmişini temizlemeye yönelik toplu görev
+- Perakende planlayıcısı görevleri ve alt görevleri
+- Perakende kanalı şeması
+- Perakende dağıtım planlamaları
+- Düğme grupları, görüntüler ve temaları içeren varsayılan ekran düzenleri
+- Zaman dilimi bilgileri
+- Satış noktası (POS) işlemleri
+- POS izinleri
+- Kanal raporları
+- Öznitelik meta verileri
+- Varlık doğrulama şablonları
+- Commerce Data Exchange oturum geçmişini temizlemeye yönelik toplu görev
 
-Ayrıca, Dynamics 365 for Retail veritabanı için ödeme kartı sektörü ile ilgili günlük kaydı etkinleştirilmiştir. **Not:** Perakende planlayıcısını ayrıca yapılandırmak seçeneği vardır. Bu seçenek, Perakende planlayıcısı yapılandırmasını varsayılan ayarlarına sıfırlama olanağı sağlar. Başlatma tamamlandıktan sonra ek perakende verilerini yapılandırmanız gerekir. Burada bazı örnekler verilmiştir:
+Ayrıca, Dynamics 365 for Retail veritabanı için ödeme kartı sektörü ile ilgili günlük kaydı etkinleştirilmiştir.
 
--   Perakende parametreleri
--   Perakende Planlayıcısı parametreleri
--   Perakende kanalları
--   Kayıtlar ve cihazlar
--   Sınıflamalar
+> [!NOTE]
+> Perakende planlayıcısını ayrıca yapılandırmak seçeneği vardır. Bu seçenek, Perakende planlayıcısı yapılandırmasını varsayılan ayarlarına sıfırlama olanağı sağlar.
 
+Başlatma tamamlandıktan sonra ek perakende verilerini yapılandırmanız gerekir. Burada bazı örnekler verilmiştir:
 
-
-
+- Perakende parametreleri
+- Perakende Planlayıcısı parametreleri
+- Perakende kanalları
+- Kayıtlar ve cihazlar
+- Sınıflamalar
 

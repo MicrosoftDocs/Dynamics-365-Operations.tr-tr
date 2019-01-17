@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 658d5a1a031f2292dbd445fa7fb345be01c61947
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 74f85f7a1c390d1f21d0423a794ff16c7250d9fa
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,18 +31,19 @@ ms.lasthandoff: 11/03/2017
 
 Bu makalede, Microsoft Dynamics 365 for Finance and Operations istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
 
-<a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a>Finance and Operations kullandığımda neden simgeler yüklenmiyor?
------------------------------------------------------------------
+## <a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a>Finance and Operations kullandığımda neden simgeler yüklenmiyor?
 
 Tarayıcınızdaki güvenlik ayarları simgelerin doğru yüklenmesini engelleyebilir. Bu sorunu gidermek için aşağıdaki adımları deneyin:
 
--   Internet Explorer'da bu sorunla karşılaşıyorsanız **Araçlar** ve daha sonra **İnternet Seçenekleri**'ni tıklatın.  İnternet Seçenekleri iletişim kutusunda, **Gizlilik** sekmesinde, **Özel düzey** üzerine tıklayın ve **Yazı tipi karşıdan yükleme** seçeneğinin seçilmiş olduğundan emin olun.
--   Aksi halde Finance and Operations sitesini güvenilen siteler listesine eklemeniz gerekebilir.
+- Internet Explorer'da bu sorunla karşılaşıyorsanız **Araçlar** ve daha sonra **İnternet Seçenekleri**'ni tıklatın. İnternet Seçenekleri iletişim kutusunda, **Gizlilik** sekmesinde, **Özel düzey** üzerine tıklayın ve **Yazı tipi karşıdan yükleme** seçeneğinin seçilmiş olduğundan emin olun.
+- Aksi halde Finance and Operations sitesini güvenilen siteler listesine eklemeniz gerekebilir.
 
 ## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Dynamics AX 2012'deki şeridi arıyorum. Eylem Pano sekmelerini her zaman açık tutabilir miyim?
+
 Bu özelliği yakında uygulamayı planlıyoruz. Böylece kullanıcıların Eylem Bölmelerindeki sekmeleri sürekli açık tutmaları mümkün olacaktır. Aksi halde, sekmeler kullanıldıkları sırada daralarak sayfa için daha fazla ekran alanı açacaktır.
 
 ## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-right-click"></a>Sağ tıkladığımda bazen neden farklı kısayol menüleri görüyorum?
+
 Düzenlenebilir bir alana sağ tıkladığınız zaman (veya metin seçilirse), tarayıcının kısayol menüsü görüntülenir. Bu menü **Kes**, **Kopyala** ve **Yapıştır** komutlarına erişmenizi sağlar. Bu komutları Finance and Operations kısayol menülerine ekleyemeyiz çünkü güvenlik nedeniyle, tarayıcılar programlı olarak sistem panosuna erişmemize izin vermiyor.
 
 Bir alan etiketine veya salt okunur bir denetimin değerine sağ tıkladığınız zaman Finance and Operations kısayol menüsünü görürsünüz.
@@ -50,12 +51,9 @@ Bir alan etiketine veya salt okunur bir denetimin değerine sağ tıkladığın�
 Klavye erişimini kolaylaştırmak için, Finance and Operations kısayol menüsünü açan bir klavye kısayolu eklemeyi düşünüyoruz.
 
 ## <a name="where-is-the-view-details-functionality-in-finance-and-operations"></a>Finance and Operations içerisinde Ayrıntıları görüntüle işlevi nerede?
+
 **Ayrıntıları görüntüle** seçeneği birkaç yolla kullanılabilir:
 
--   Bir denetimde **Ayrıntıları görüntüle** özelliği ve bir değer varsa, değer bir köprü olarak görüntülenir. Ek ayrıntılar içeren bir sayfa açmak için köprüye tıklayabilirsiniz.
--   **Ayrıntıları görüntüle**, Finance and Operations kısayol menülerinde bir seçenek olarak da mevcuttur. Sağ tıkladığınızda Finance and Operations kısayol menülerinin ne zaman görüntüleneceği hakkında daha fazla bilgi için önceki bölüme bakın.
-
-
-
-
+- Bir denetimde **Ayrıntıları görüntüle** özelliği ve bir değer varsa, değer bir köprü olarak görüntülenir. Ek ayrıntılar içeren bir sayfa açmak için köprüye tıklayabilirsiniz.
+- **Ayrıntıları görüntüle**, Finance and Operations kısayol menülerinde bir seçenek olarak da mevcuttur. Sağ tıkladığınızda Finance and Operations kısayol menülerinin ne zaman görüntüleneceği hakkında daha fazla bilgi için önceki bölüme bakın.
 

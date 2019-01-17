@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 918f8555bc3d2e4a79262b428d5c7ba278fa7409
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 *Öznitelikler* kullanıcı tanımlı alanlar aracılığıyla bir ürünü ve özelliklerini daha fazla açıklamak için bir yol sağlar (**Bellek boyutu**, **Sabit disk kapasitesi**, **Energy star uyumluluğu**, vb.). Microsoft Dynamics 365 for Finance and Operations'da öznitelikler ürün kategorileri ve perakende kanalları gibi çeşitli perakende varlıklar ile ilişkili olabilir ve bunlar için varsayılan değerler ayarlanabilir. Ürün kategorileri veya perakende kanalları ile ilişkili olduğunda ürünler özniteliklerini ve varsayılan değerleri devralır. Varsayılan değerler tek tek ürün düzeyinde, perakende kanal düzeyinde veya perakende kataloğu düzeyinde geçersiz kılınabilir.
- 
+
 Örneğin, tipik bir televizyon ürünü aşağıdaki özniteliklere sahip olabilir.
 
 | Kategori   | Öznitelik                | İzin verilen değerler          | Varsayılan değer |
@@ -50,7 +50,7 @@ ms.lasthandoff: 08/09/2018
 | Plazma     | Çalıştırma Sıcaklığı Başlangıç      | 32–110 derece              | 32            |
 |            | Çalıştırma Sıcaklığı Son        | 32–110 derece              | 100           |
 | Projeksiyon | Projeksiyon tüp garanti | 6, 12 veya 18 ay         | 12            |
-|            | Projeksiyon Tüpleri sayısı    | 1–5                         | 3             |
+|            | \# Projeksiyon Tüplerinin sayısı   | 1–5                         | 3             |
 
 ## <a name="attributes-and-attribute-types"></a>Öznitelikler ve öznitelik türleri
 
@@ -90,7 +90,7 @@ ms.lasthandoff: 08/09/2018
 
 Perakende ürünleri için, öznitelik meta verileri kanal düzeyinde geçersiz kılınabilir. Bu özellik bu konunun ilerleyen bölümlerinde açıklanmıştır.
 
-Sizin de göreceğiniz gibi **Öznitelikler** sayfası öznitelik meta verileriyle ilgili seçenekler içerir. **POS için öznitelik değerleri** altında, **"İyileştirilebilir** adına sahip bir seçenek perakende satış noktasındaki (POS) öznitelik değerlerinin davranışını veya sistemin bu öznitelik değerlerini ele alma şeklini etkiler. Yalnızca, **"İyileştirilebilir"** seçeneğini **"Evet"** olarak ayarlayabileceğiniz öznitelikler perakende POS'taki ürünleri iyileştirilmesi veya filtrelenmesi için gösterir.
+Sizin de göreceğiniz gibi **Öznitelikler** sayfası öznitelik meta verileriyle ilgili seçenekler içerir. **POS için öznitelik değerleri** altında, **İyileştirilebilir** adına sahip bir seçenek perakende satış noktasındaki (POS) öznitelik değerlerinin davranışını veya sistemin bu öznitelik değerlerini ele alma şeklini etkiler. Yalnızca, **İyileştirilebilir** seçeneğini **Evet** olarak ayarlayabileceğiniz öznitelikler retail POS'taki ürünleri iyileştirilmesi veya filtrelenmesi için gösterir.
 
 **Öznitelikler** sayfasındaki diğer öznitelik meta veri seçenekleri şunlardır:
 
@@ -104,7 +104,7 @@ Sizin de göreceğiniz gibi **Öznitelikler** sayfası öznitelik meta verileriy
 
 Bu seçeneklerin temel amacı çevrimiçi mağaza için arama işlevini geliştirmektir. Finance and Operations kullanıma hazır olarak çevrimiçi mağaza içermese de e-Ticaret Yayımlama Yazılım Geliştirme Seti (SDK) içerir. Müşteriler bu SDK'yı kullanarak ürünleri istedikleri arama dizinine koyabilir. Ürün verileri içe aktarılsa da müşteriler aranabilir verileri, sorgulanabilecek verileri, vb. birbirinden ayırabilir. Bu şekilde, yalnızca *kendi görüşlerine göre* dizinlenmesi gereken öznitelikleri dizinlediklerinden emin olmak için optimum dizini oluşturabilir.
 
-Kalan seçeneklerin amacıyla ilgili bilgi için bkz. [SharePoint Server 2013'teki arama şemasına genel bakış](https://technet.microsoft.com/en-us/library/jj219669.aspx).
+Kalan seçeneklerin amacıyla ilgili bilgi için bkz. [SharePoint Server 2013'teki arama şemasına genel bakış](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Öznitelik filtre ayarları
 
@@ -121,7 +121,7 @@ Kalan seçeneklerin amacıyla ilgili bilgi için bkz. [SharePoint Server 2013'te
 - **Görüntüleme denetimi** – Aşağıdaki seçenekler mevcuttur:
 
     - **Liste** – Bu seçenek tüm öznitelik türleri için kullanılabilir.
-    - **Aralık** – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: **Para birimi**, **Ondalık** ve **Tamsayı**. 
+    - **Aralık** – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: **Para birimi**, **Ondalık** ve **Tamsayı**.
     - **Kaydırıcı** – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: **Para birimi**, **Ondalık** ve **Tamsayı**.
     - **Çubuklarla birlikte kaydırıcı** – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: **Para birimi**, **Ondalık** ve **Tamsayı**.
 
@@ -228,13 +228,13 @@ Bir veya daha fazla öznitelik grubu perakende mağaza hiyerarşisindeki bir vey
 5. **Ürünler** hızlı sekmesinde gerekli ürünü seçin ve ardından ızgaranın üstünden **Öznitelikler**'i seçin.
 6. Aşağıdaki hızlı sekmelerde gereken özniteliklerin değerlerini güncelleştirin:
 
-   - Paylaşılan ürün ortamı
-   - Paylaşılan ürün öznitelikleri
-   - Kanal ortamı
-   - Kanal ürünü öznitelikleri
+    - Paylaşılan ürün ortamı
+    - Paylaşılan ürün öznitelikleri
+    - Kanal ortamı
+    - Kanal ürünü öznitelikleri
 
-     > [!NOTE]
-     > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.
+    > [!NOTE]
+    > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.
 
 ![Katalog ürünü öznitelik grupları](media/CatalogProdAttrValues.png)
 
@@ -250,11 +250,11 @@ Bir veya daha fazla öznitelik grubu perakende mağaza hiyerarşisindeki bir vey
 
 5. Aşağıdaki hızlı sekmelerde gereken özniteliklerin değerlerini güncelleştirin:
 
-   - Paylaşılan ürün ortamı
-   - Paylaşılan ürün öznitelikleri
-   - Kanal ortamı
-   - Kanal ürünü öznitelikleri
+    - Paylaşılan ürün ortamı
+    - Paylaşılan ürün öznitelikleri
+    - Kanal ortamı
+    - Kanal ürünü öznitelikleri
 
-     > [!NOTE]
-     > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.
+    > [!NOTE]
+    > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.
 

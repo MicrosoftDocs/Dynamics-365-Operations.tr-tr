@@ -20,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -41,7 +41,7 @@ Retail tanıtım verileriyle birlikte gelen örnek ekran düzenleri çeşitli pe
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Bir ekran düzeni kodunun anatomisi
 
-Retail'de ekran düzenlerini bulmak için **Retail** > **Kanal kurulumu** > **POS kurulumu** > **POS** > **Ekran düzenleri**'ne gidin.
+Retail'de ekran düzenlerini bulmak için **Retail** \> **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri**'ne gidin.
 
 ![Retail'deki ekran düzenleri sayfası](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,10 +107,8 @@ Aşağıdaki tablo normal ekran çözünürlükleri için sağlanan düzen boyut
 
 \* Bu ek düzenler yalnızca Adventure Works ve Fabrikam düzenlerinde kullanılabilir.
 
-
->[!TIP]
-> POS, geçerli uygulama penceresinin ekran çözünürlüğü için kullanılabilir olan en yakın boyutu temel alarak düzen boyutlarını otomatik olarak seçer. Kullanılmakta olan ekran düzeni kodunu ve düzen çözünürlüğünü bulmak için, Retail Modern POS (MPOS) veya Retail Cloud POS (CPOS)'ta **Ayarlar** sayfasını açın ve **Oturum bilgileri** bölümüne bakın. Geçerli uygulamanızın veya tarayıcı pencerenizin gerçek çözünürlüğünü de görebilirsiniz. Bu bilgileri aldıktan sonra, düzen içeriğinin kaynağını Retail içinde **Kanal kurulumu** > **POS kurulumu** > **POS** > **Ekran düzenleri**'ne giderek bulabilirsiniz.
-
+> [!TIP]
+> POS, geçerli uygulama penceresinin ekran çözünürlüğü için kullanılabilir olan en yakın boyutu temel alarak düzen boyutlarını otomatik olarak seçer. Kullanılmakta olan ekran düzeni kodunu ve düzen çözünürlüğünü bulmak için, Retail Modern POS (MPOS) veya Retail Cloud POS (CPOS)'ta **Ayarlar** sayfasını açın ve **Oturum bilgileri** bölümüne bakın. Geçerli uygulamanızın veya tarayıcı pencerenizin gerçek çözünürlüğünü de görebilirsiniz. Bu bilgileri aldıktan sonra, düzen içeriğinin kaynağını Retail içinde **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri**'ne giderek bulabilirsiniz.
 
 ![Retail ve POS'taki ekran düzenleri ve düzen çözünürlükleri/boyutları](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -126,10 +124,8 @@ Her hayali şirket farklı bir perakende segmenti için hedeflenmiştir ve şirk
 | Fabrikam        | Houston  | Moda        | Yeşil  | Açık |
 | Contoso         | Boston   | Elektronik    | Kırmızı    | Koyu  |
 
-
->[!NOTE]
+> [!NOTE]
 > Adventure Works ve Fabrikam iki lider markadır. Contoso kullanılabilir, ancak tüm düzenler sağlanmaz.
-
 
 Aşağıdaki örneklerde üç hayali şirket için karşılama sayfası ve işlem sayfası örnekleri gösterilmektedir.
 
@@ -153,28 +149,26 @@ Aşağıdaki örneklerde üç hayali şirket için karşılama sayfası ve işle
 
 Kullanıcılara çeşitli ekran düzenleri sağlanmıştır. Aşağıdaki tabloyu kullanarak, herhangi bir ekrana erişmeniz mümkün olmalıdır. Uygun işleç kimliği kullanarak oturum açmanız yeterlidir.
 
-| Şirket         | Ekran düzeni kodu | Kişi          | İşleç kodları           |
-|-----------------|------------------|---------------   |------------------------|
-| Adventure Works | A3MGR            | Mağaza Yöneticisi    | 000154, 000137, 000073 |
-| Adventure Works | A3CSH            | Kasiyer          | 000150, 000175, 000165 |
-| Adventure Works | A3STK            | Stok Memuru      | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Mağaza Yöneticisi    | 000160, 000168, 000163 |
-| Fabrikam        | F3CSH            | Kasiyer          | 000161, 000113, 000114 |
-| Fabrikam        | F3STK            | Stok Memuru      | 000164, 000112, 000123 |
-| Contoso         | C3MGR            | Mağaza Yöneticisi    | 000100, 000111         |
-| Contoso         | C3CSH            | Kasiyer          | 000110, 000120         |
-| Contoso         | Uygulanamaz   | Stok Memuru      | Uygulanamaz         |
+| Şirket         | Ekran düzeni kodu | Kişi       | İşleç kodları           |
+|-----------------|------------------|---------------|------------------------|
+| Adventure Works | A3MGR            | Mağaza Yöneticisi | 000154, 000137, 000073 |
+| Adventure Works | A3CSH            | Kasiyer       | 000150, 000175, 000165 |
+| Adventure Works | A3STK            | Stok Memuru   | 000155, 000181, 000152 |
+| Fabrikam        | F3MGR            | Mağaza Yöneticisi | 000160, 000168, 000163 |
+| Fabrikam        | F3CSH            | Kasiyer       | 000161, 000113, 000114 |
+| Fabrikam        | F3STK            | Stok Memuru   | 000164, 000112, 000123 |
+| Contoso         | C3MGR            | Mağaza Yöneticisi | 000100, 000111         |
+| Contoso         | C3CSH            | Kasiyer       | 000110, 000120         |
+| Contoso         | Uygulanamaz   | Stok Memuru   | Uygulanamaz         |
 
-
->[!TIP]
+> [!TIP]
 > En iyi sonuçları elde etmek için, ilgili mağaza konumundaki karşılık gelen bir kaydı etkinleştirin ve şirketi oturum açarken kullanmayı planladığınız kişinin şirketine ayarlayın. Bu şekilde, görsel profilin ve marka resimlerinin deneyim süresince uyumlu olmasını sağlamaya yardımcı olursunuz. Örneğin, bir kasiyer için Fabrikam düzenini görmek istiyorsanız, Houston mağazasındaki bir kaydı etkinleştirmeniz gerekir.
-
 
 <!-- Hiding until the content page is available on CustomerSource -->
 
 <!-- ## Reference icons and images -->
 
-<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail > Channel setup > POS setup > POS > Images**. -->
+<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail \> Channel setup \> POS setup \> POS \> Images**. -->
 
 <!-- ![Images in Dynamics 365 for Retail](../retail/media/demo-screen-layouts-fig-5-1.png) -->
 

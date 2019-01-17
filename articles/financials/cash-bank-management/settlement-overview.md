@@ -3,7 +3,7 @@ title: "Kapatmaya genel bakış"
 description: "Bu makalede kapatma süreci hakkında genel bilgiler verilmiştir. Kapatılabilecek hareketlerin türleri, hareketlerin ne zaman ve nasıl kapatılabileceği ve kapatma sürecinin sonuçları açıklanmıştır."
 author: kweekley
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2f1f11a7f1340d408374e658ae616ffa99f3c911
+ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2018
 
 ---
 
@@ -52,5 +52,8 @@ Hareketler kapatıldıkça, her bir hareketin devreden bakiyesi uygun şekilde a
 
 Bir [ödeme fatura tutarından düşükse](../accounts-payable/vendor-payments-partial-amount.md) (nakit iskontosu, ücret silme veya eksik ödeme yüzünden), fatura ve ödeme, Borç hesapları parametreleri ve Alacak hesapları parametreleri içinde kapatmanın kurulumuna bağlı olarak halen kapatılabilir. Kapatma, hareketler de üretebilir. Örneğin, bir faturanın ve ödemenin kapatılması, nakit iskontosu, gerçekleşmiş kar veya zarar, satış vergisi düzeltmeleri, ücret silme veya kuruş farkları doğurabilir.
 
+
+## <a name="additional-resources"></a>Ek kaynaklar
+- [Kalanı kapat](settle-remainder.md)
 
 

@@ -31,15 +31,12 @@ ms.lasthandoff: 11/03/2017
 
 Bu makale, kayıt şablonları kavramını tanıtır ve bunların bilgi paylaşan kayıtları oluşturmada nasıl kullanılabileceklerini açıklar.
 
-Kayıt şablonları, Microsoft Dynamics 365 for Finance and Operations'da kayıtları daha hızlı oluşturmanıza yardımcı olabilir. Microsoft Dynamics 365 for Finance and Operations'da yalnızca bazı kayıt türleri için kayıt şablonları oluşturabilirsiniz. 
+Kayıt şablonları, Microsoft Dynamics 365 for Finance and Operations'da kayıtları daha hızlı oluşturmanıza yardımcı olabilir. Microsoft Dynamics 365 for Finance and Operations'da yalnızca bazı kayıt türleri için kayıt şablonları oluşturabilirsiniz.
 
-Örneğin, San Francisco içinde bulunan bir araba kiralama işletme için kiralama bilgilerini girdiğiniz düşünün. Müşterilerin çoğu San Francisco alanından büyük olasılıkla olduğundan, **durum**, **Ülke**, ve **Şehir** alanları kiralık formdaki değerleri otomatik olarak doldurabilseniz iyi olurdu. 
+Örneğin, San Francisco içinde bulunan bir araba kiralama işletme için kiralama bilgilerini girdiğiniz düşünün. Müşterilerin çoğu San Francisco alanından büyük olasılıkla olduğundan, **durum**, **Ülke**, ve **Şehir** alanları kiralık formdaki değerleri otomatik olarak doldurabilseniz iyi olurdu.
 
-> [!Note]
-> Yalnızca erişiminiz olan Finance and Operations alanları için şablonları uygulayabilirsiniz. Ancak, tüm şablon başlıkları yeni bir kayıt oluşturduğunuzda size görünür olur - ayrıca, tüm kullanıcıların kullanımına açık şablonlar oluşturuyorsanız diğer kullanıcılara da. Şablonları adlandırırken bunu dikkate almayı unutmayın. Örneğin, tüm kullanıcıların şirketteki bazı çalışanların prim bazlı maaş aldığı gizliyse adlarda "prim" gibi sözcükleri kullanmaktan kaçının. 
+> [!NOTE]
+> Yalnızca erişiminiz olan Finance and Operations alanları için şablonları uygulayabilirsiniz. Ancak, tüm şablon başlıkları yeni bir kayıt oluşturduğunuzda size görünür olur - ayrıca, tüm kullanıcıların kullanımına açık şablonlar oluşturuyorsanız diğer kullanıcılara da. Şablonları adlandırırken bunu dikkate almayı unutmayın. Örneğin, tüm kullanıcıların şirketteki bazı çalışanların prim bazlı maaş aldığı gizliyse adlarda "prim" gibi sözcükleri kullanmaktan kaçının.
 
 Erişiminiz olan bir veya daha şablonun belirli bir form için olması ve formda yeni bir kayıt oluşturmak istediğinizde **Bir şablon seç** sayfası görüntülenir. Listeden bir şablon seçtiğinizde, yeni kayıt oluşturulur ve seçtiğiniz şablona dayalı varsayılan bilgileri içerir. Yeni kayıtlar oluştururken şablonları kullanmak istemiyorsanız, **Şablon seç** sayfasında **Tekrar sorma** onay kutusunu işaretleyin. Şablon seçimi iletişim kutusunu yeniden görüntülemek için, herhangi bir kayıt üzerine sağ tıklayın **Kayıt bilgileri**'ne tıklayın ve ardından **Şablon seçimini göster**'e tıklayın.
-
-
-
 

@@ -35,15 +35,13 @@ Microsoft Dynamics 365 for Retail satış eğilimleri ve modellerini gerçek zam
 
 Microsoft Dynamics 365 for Retail'ın bir parçası olarak, kullanıcılar kuruluş hiyerarşisinin farklı düzeylerindeki satış eğilimleri ve modellerini, yeni **Yıla göre kanal satışları** raporunu kullanarak, yıllara göre gerçek zamanlı inceleyebilir. Bu raporu aşağıdaki konumların herhangi birinden açabilirsiniz:
 
--   **Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar** &gt; **Kanal yıla göre satışlar raporu**
--   **Perakende mağaza mali bilgileri** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza mali bilgileri** &gt; **Raporlar** &gt; **Kanal yıla göre satışlar raporu**
--   **Sorgular ve raporlar** bölümü &gt; **Perakende** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **Kanal yıla göre satışlar raporu**
+- **Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar** &gt; **Kanal yıla göre satışlar raporu**
+- **Perakende mağaza mali bilgileri** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza mali bilgileri** &gt; **Raporlar** &gt; **Kanal yıla göre satışlar raporu**
+- **Sorgular ve raporlar** bölümü &gt; **Perakende** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **Kanal yıla göre satışlar raporu**
 
 Kullanıcılar kuruluş hiyerarşisinin farklı düzeylerindeki satış eğilimleri ve modellerini, yeni **Yıla göre kanal satışları** raporunu kullanarak, seçilen dönem için saate göre inceleyebilirler. Bu raporu aşağıdaki konumların herhangi birinden açabilirsiniz:
 
--   **Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar** &gt; **Kanal saate göre satışlar raporu**
--   **Perakende mağaza mali bilgileri** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza mali bilgileri** &gt; **Raporlar** &gt; **Kanal saate göre satışlar raporu**
--   **Sorgular ve raporlar** bölümü &gt; **Perakende** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **Kanal saate göre satışlar raporu**
-
-
+- **Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar** &gt; **Kanal saate göre satışlar raporu**
+- **Perakende mağaza mali bilgileri** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza mali bilgileri** &gt; **Raporlar** &gt; **Kanal saate göre satışlar raporu**
+- **Sorgular ve raporlar** bölümü &gt; **Perakende** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **Kanal saate göre satışlar raporu**
 

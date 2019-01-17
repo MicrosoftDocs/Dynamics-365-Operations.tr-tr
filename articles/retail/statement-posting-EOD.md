@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -59,11 +59,12 @@ Ekstre deftere nakli özelliğinde yapılan geliştirmelerin bir parçası olara
 
 Ayrıca, **Paralel ekstre deftere nakil işlemi için maksimum sayı** alanı **Toplu işlem** hızlı sekmesinde sunulmuştur. Bu alan aynı anda çalışması gereken toplu iş görevlerinin sayısını tanımlar. Şu anda, bu alanın değerini el ile ayarlamanız gerekir.
 
-Ayrıca, yeni deftere nakil işleminde **Perakende parametreleri** sayfasının **Deftere nakil** sekmesindeki **Hediye kartı** hızlı sekmesinde bir **Hediye kartı ürünü** tanımlamak gerekiyor. Kuruluş Hediye kartları kullanmasa bile bu geçerlidir. 
+Ayrıca, yeni deftere nakil işleminde **Perakende parametreleri** sayfasının **Deftere nakil** sekmesindeki **Hediye kartı** hızlı sekmesinde bir **Hediye kartı ürünü** tanımlamak gerekiyor. Kuruluş Hediye kartları kullanmasa bile bu geçerlidir.
 
 Ekstre deftere nakilleriyle ilgili olan ve Perakende mağazaları ile **perakende parametreleri** sayfasında tanımlanan tüm ayarların ve parametrelerin, geliştirilmiş ekstre deftere nakil özelliğine uygulanabilir olduğunu unutmayın.
 
 ## <a name="processing"></a>İşleniyor
+
 **Ekstreleri toplu işle hesapla** ve **Ekstreleri toplu işle deftere naklet** menü öğeleri kullanılarak ekstreler toplu şekilde hesaplanabilir ve deftere nakledilebilir. Alternatif olarak, geliştirilmiş ekstre deftere nakil özelliğinin sağladığı **Perakende ekstreleri** menü öğesi kullanılarak ekstreler el ile hesaplanabilir ve deftere nakledilebilir.
 
 Toplı ekstre hesaplama ve deftere nakletme adımları eski ekstre deftere nakil özelliğindeki adımlarla aynıdır. Bununla birlikte, ekstreleri arka uçta işleme temel işleminde önemli geliştirmeler yapılmıştır. Bu geliştirmeler işlemi daha esnek hale getirir ve durum ve hata bilgileri için daha fazla görünürlük sağlar. Bu nedenle, kullanıcılar hataların kök nedenine gidebilir ve veri bozulmasına neden olmadan ve verilerin düzeltilmesine gerek kalmadan deftere nakil işlemine devam edebilir.
@@ -71,6 +72,7 @@ Toplı ekstre hesaplama ve deftere nakletme adımları eski ekstre deftere nakil
 Aşağıdaki bölümlerde perakende ekstreler ve deftere nakledilen ekstreler için kullanıcı arabiriminde görünen deftere nakil özelliğindeki bazı önemli geliştirmeleri açıklamaktadır.
 
 ### <a name="status-details"></a>Durum ayrıntıları
+
 Hesaplama ve deftere nakil işlemlerinde ekstre deftere nakil rutinine yeni bir durum modeli eklenmiştir.
 
 Aşağıdaki tabloda hesaplama işlemi sırasındaki çeşitli durumlar ve bunların sırası açıklanmaktadır.
@@ -109,9 +111,11 @@ Aşağıdaki tabloda deftere nakil işlemi sırasındaki çeşitli durumlar ve b
 Ayrıca, ikinci ve üçüncü bölüm başlığı ilgili işlemin genel durumunu gösterir.
 
 ### <a name="event-logs"></a>Olay günlükleri
+
 Bir ekstre çeşitli işlemlerden geçer (örneğin Oluştur, Hesapla, Temizle ve Deftere naklet) ve aynı işlemin birden fazla örneği ekstrenin yaşam döngüsü süresince çağrılabilir. Örneğin, bir ekstre oluşturulduktan veya hesaplandıktan sonra bir kullanıcı ekstre içeriğini temizleyip ekstreyi yeniden hesaplayabilir. Ekstrenin **Yürütme ayrıntıları** grubundaki **Olay günlükleri** düğmesi, bir ekstrede çağrılan çeşitli işlemlerin denetim kılavuzunu bu işlemlerin ne zaman çağrıldığı bilgisiyle birlikte verir.
 
 ### <a name="aggregated-transactions"></a>Toplanan hareketler
+
 Deftere nakil işlemi sırasında satış hareketleri yapılandırmaya göre toplanır. Toplanan bu hareketler sistemde saklanır ve satış siparişleri oluşturmak için kullanılır. Toplanan her hareket sistemde karşılık gelen bir satış siparişi oluşturur. Toplanan hareketleri **Yürütme ayrıntıları** grubundaki **Toplanan hareketler** düğmesini kullanarak görebilirsiniz.
 
 Toplanan hareketin **Satış siparişi ayrıntısı** sekmesi aşağıdaki bilgileri gösterir:
@@ -136,11 +140,13 @@ Toplanan hareket görünümü aşağıdaki faydaları sağlar:
 - Toplanan XML dosyası satış siparişi oluşturma ve faturalama sırasındaki sorunların daha kolay tanımlanmasını sağlar.
 
 ### <a name="journal-vouchers"></a>Günlük fişleri
+
 Ekstrenin **Yürütme ayrıntıları** grubundaki **Günlük fişleri** düğmesi bir ekstre için oluşturulan ve iskontolat, gelir/gider hesaplar, hediye kartları vb. ile ilgili olan tüm fiş hareketlerini gösterir.
 
 Şu anda, program yalnızca deftere nakledilen ekstreler için bu verileri gösterir.
 
 ### <a name="payment-journals"></a>Ödeme günlükleri
+
 Ekstrenin **Yürütme ayrıntıları** grubundaki **Ödeme günlükleri** düğmesi, bir ekstre için oluşturulan tüm çeşitli ödeme günlüklerini gösterir.
 
 Şu anda, program yalnızca deftere nakledilen ekstreler için bu verileri gösterir.

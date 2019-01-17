@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
-ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
+ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
+ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -174,11 +174,11 @@ Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede xml d
 - geliştirme amaçlarıyla dağıtılmış bulutta barındırılan ortamlar (iliştirilmiş paketlerin test modellerini içeren)
 - dağıtılan yerel ortamlar (şirket içi veya yerel işletme veri dağıtımı (LBD))
 
-Bu konuda daha fazla ayrıntı için [Elektronik raporlama (ER) yapılandırmaları içe aktarma](/electronic-reporting-import-ger-configurations.md) konumunu ziyaret edin.
+Bu konuda daha fazla ayrıntı için [Elektronik raporlama (ER) yapılandırmaları içe aktarma](./electronic-reporting-import-ger-configurations.md) konumunu ziyaret edin.
 
 **RCS örneği** havuzu, havuz kayıt aşamasında seçilen belirli bir RCS örneği konfigürasyonlar listesine erişim sağlar. ER, tamamlanmış veya paylaşılan yapılandırmaları seçilen RCS örneğinden geçerli Finance and Operations örneklerini içe aktarmanıza olanak sağlar ve elektronik raporlama için kullanılır.
 
-Bu konuda daha fazla ayrıntı için [Düzenleyici Yapılandırma Hizmetleri (RCS) Elektronik raporlama (ER) yapılandırmaları içe aktarma](/rcs-download-configurations.md) konumunu ziyaret edin.
+Bu konuda daha fazla ayrıntı için [Düzenleyici Yapılandırma Hizmetleri (RCS) Elektronik raporlama (ER) yapılandırmaları içe aktarma](./rcs-download-configurations.md) konumunu ziyaret edin.
 
 Gerekli **LCS projesi**, **Dosya sistemi** ve **Düzenleyici Yapılandırma Servisleri (RCS)** depoları her bir geçerli Finance and Operations kurulumunun konfigürasyon sağlayıcısı için ayrı ayrı kaydedilebilir. Her depo belirli bir konfigürasyon sağlayıcısına ayrılabilir.
 

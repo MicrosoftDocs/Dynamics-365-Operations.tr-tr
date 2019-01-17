@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -52,8 +52,8 @@ Bir kuruluştaki stoğun doğru ve gerçek zamanlı görünümü mağaza görevl
 
 Yerleşimlerin listesi iki varlık türünü içerir:
 
-- **Perakende mağazalar** – Liste Retail Headquarters'da geçerli mağaza için mağaza bulucu grubunu kullanarak yapılandırılan mağazalar listesini gösterir. 
-- **Dağıtım merkezleri** – Microsoft Dynamics 365 for Retail'de çeşitli türde dağıtım merkezleri (ambarlar gibi) yapılandırılabilir. Bununla birlikte, liste stok kullanılabilirlik bilgisini yalnızca **standart** varsayılan türündeki dağıtım merkezleri için gösterir. 
+- **Perakende mağazalar** – Liste Retail Headquarters'da geçerli mağaza için mağaza bulucu grubunu kullanarak yapılandırılan mağazalar listesini gösterir.
+- **Dağıtım merkezleri** – Microsoft Dynamics 365 for Retail'de çeşitli türde dağıtım merkezleri (ambarlar gibi) yapılandırılabilir. Bununla birlikte, liste stok kullanılabilirlik bilgisini yalnızca **standart** varsayılan türündeki dağıtım merkezleri için gösterir.
 
     > [!NOTE]
     > Stok kullanılabilirlik bilgileri POS'ta **Transit**, **karantina** ve **Rotadaki Mallar** türündeki ambarlar için gösterilmez.
@@ -86,7 +86,7 @@ Bir ana ürünün **Ürün ayrıntıları** sayfasında **Tüm ürün çeşitler
 | **0** (sıfır)                             | Bir ürün çeşidi seçili yerleşime serbest bırakılır ancak madde seçili yerleşimde kullanılabilir değildir. Bununla birlikte, hücrede ek eylemler gerçekleştirebilirsiniz. (Bu eylemler, bu konuda daha ayrıntılı açıklanacaktır.) |
 | **yok** veya etkin olmayan bir hücre              | Seçili yerleşime bir ürün çeşidi serbest bırakılmamıştır ve hücrede ek eylemler gerçekleştiremezsiniz. |
 
-Kullanmak üzere yeni bir boyut seçerek boyutlar için pivotu değiştirebilirsiniz. 
+Kullanmak üzere yeni bir boyut seçerek boyutlar için pivotu değiştirebilirsiniz.
 
 ![Pivotu değiştirme](media/ChangePivot.png)
 
@@ -108,14 +108,12 @@ Ayrıca, **Boyut tabanlı matris** görünümde, bir mağaza çalışanının ve
 
 Aşağıdaki tablo kullanılabilen ek eylemler hakkında daha fazla bilgi sağlar.
 
-
-|        Eylem        |                                                                                                                    Tanım                                                                                                                    |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Şimdi sat       |                               Seçili madde ürün çeşidini harekete ekleyin ve kullanıcıyı hareket ekranına yönlendirin. (Bu eylem seçili yerleşim bir dağıtım merkezi olduğunda kullanılamaz.)                               |
-|   Mağazadan alma   |      Seçilen yerleşimden alınacak ürün çeşidi için bir müşteri siparişi oluşturun ve kullanıcıyı hareket ekranına yönlendirin. (Bu eylem seçili yerleşim bir dağıtım merkezi olduğunda kullanılamaz.)       |
-|     Ürün sevk et     |                                                 Seçilen yerleşimden sevk edilecek ürün çeşidi için bir müşteri siparişi oluşturun ve kullanıcıyı hareket ekranına yönlendirin.                                                 |
-|     Kullanılabilirlik     |                                                                             Seçili yerleşim için seçilen ürün çeşidi birleşimine ilişkin ATP bilgisini gösterin.                                                                              |
-|  Tüm yerleşimleri göster  | Standart stok arama görünüme geçin ve mağaza bulucu grubundaki tüm mağazalarda ve <strong>Standart/Varsayılan</strong> türündeki dağıtım merkezlerinde madde ürün çeşidi için stok kullanılabilirlik bilgilerini vurgulayın. |
-| Ürün ayrıntılarını görüntüle |                                                                         Kullanıcıyı ilişkili ana ürünün <strong>Ürün ayrıntıları</strong> sayfasına yönlendirin.                                                                          |
-
+| Eylem               | Tanım |
+|----------------------|-------------|
+| Şimdi sat             | Seçili madde ürün çeşidini harekete ekleyin ve kullanıcıyı hareket ekranına yönlendirin. (Bu eylem seçili yerleşim bir dağıtım merkezi olduğunda kullanılamaz.) |
+| Mağazadan alma     | Seçilen yerleşimden alınacak ürün çeşidi için bir müşteri siparişi oluşturun ve kullanıcıyı hareket ekranına yönlendirin. (Bu eylem seçili yerleşim bir dağıtım merkezi olduğunda kullanılamaz.) |
+| Ürün sevk et         | Seçilen yerleşimden sevk edilecek ürün çeşidi için bir müşteri siparişi oluşturun ve kullanıcıyı hareket ekranına yönlendirin. |
+| Kullanılabilirlik         | Seçili yerleşim için seçilen ürün çeşidi birleşimine ilişkin ATP bilgisini gösterin. |
+| Tüm yerleşimleri göster   | Standart stok arama görünüme geçin ve mağaza bulucu grubundaki tüm mağazalarda ve **Standart/Varsayılan** türündeki dağıtım merkezlerinde madde ürün çeşidi için stok kullanılabilirlik bilgilerini vurgulayın. |
+| Ürün ayrıntılarını görüntüle | Kullanıcıyı ilişkili ana ürünün **Ürün ayrıntıları** sayfasına yönlendirin. |
 

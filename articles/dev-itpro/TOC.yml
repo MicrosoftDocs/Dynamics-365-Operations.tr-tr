@@ -261,6 +261,8 @@
               href: extensibility/extensibility-changes-811.md
             - name: Genişletilebilirlik değişiklikleri sürüm 8.1.2
               href: extensibility/extensibility-changes-812.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.3
+              href: extensibility/extensibility-changes-813.md
         - name: Temel bilgiler
           items:
             - name: Kullanışsız özelleştirmeler
@@ -883,18 +885,39 @@
       href: deployment/deploy-demo-environment.md
     - name: Bulut dağıtımı
       items:
+        - name: Self servis dağıtım
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: Yeni bir ortam dağıtma
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: Dağıtma ile ilgili sık sorulan sorular
+              href: deployment/deploymentFAQ.md
+            - name: Self servis dağıtımla ilgili bilinen sorunlar
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: Dağıtımlar için bakım işlemleri
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: Ortam güncelleştirme
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: Self servis dağıtımla dağıtılan ortamlarda sorun giderme
+              href: deployment/troubleshoot-newinfrastructure.md
         - name: Azure Resource Manager'da işe alım sürecini tamamlama
           href: deployment/arm-onboarding.md
         - name: Azure ExpressRoute ve Finance and Operations
           href: deployment/expressroute.md
         - name: Finance and Operations mimarisi
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+        - name: Bulut ortamlarına güncelleştirmeleri uygulama
+          href: deployment/apply-deployable-package-system.md
+        - name: Bulutta barındırılan Retail kanalı bileşenlerine güncelleştirmeler ve uzantılar uygulama
+          href: deployment/Update-retail-channel.md
+        - name: Bulutta barındırılan Retail kanalı bileşenlerini başlatma
+          href: deployment/Initialize-Retail-Channels.md
     - name: Şirket içi dağıtım
       href: deployment/on-premises-deployment-landing-page.md
       items:
         - name: Şirket içi dağıtım seçeneği
           href: deployment/on-premises-overview.md
-        - name: Şirket için dağıtımları planlama ve hazırlama
+        - name: Şirket içi dağıtımları planlama ve hazırlama
           href: deployment/plan-onprem-deployment.md
         - name: Donanım boyutlandırma gereksinimleri
           href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
@@ -931,8 +954,6 @@
       items:
         - name: Dağıtılabilir model paketleri oluşturma
           href: deployment/create-apply-deployable-package.md
-        - name: Bulut ortamlarına güncelleştirmeleri uygulama
-          href: deployment/apply-deployable-package-system.md
         - name: Komut satırından dağıtılabilir paketler yükleme
           href: deployment/install-deployable-package.md
         - name: Paketi kaldırma
@@ -1021,8 +1042,6 @@
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: Dynamics AX platformunu Ağustos 2016 sürümüne yükseltme
           href: migration-upgrade/update-platform-each-release.md
-        - name: Korumalı alan ortamlarını yükseltme
-          href: migration-upgrade/upgrade-sandbox-environment.md
         - name: 'Geliştirme, tanıtım veya korumalı alan ortamlarındaki verileri yükseltme'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Geliştirme araçlarını güncelleştirme
