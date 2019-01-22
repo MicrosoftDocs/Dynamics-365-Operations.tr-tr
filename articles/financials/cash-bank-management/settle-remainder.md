@@ -14,8 +14,8 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
-ms.search.validFrom: 2018-11-30
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
 ms.translationtype: HT
 ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
 ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
@@ -27,8 +27,6 @@ ms.lasthandoff: 12/06/2018
 # <a name="settle-remainder"></a>Kalanı kapat
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 Ayırma etkinliğinden kalan tutarı, bu tutarı bir genel muhasebe hesabına veya başka bir müşteriye uygulayarak kapatabilirsiniz. Kalan tutarları bir günlüğe girdiğinizde veya yalnızca açık işlemleri kapattığınızda, kalan tutarı kapatabilirsiniz.
 
