@@ -19,10 +19,10 @@ ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
+ms.sourcegitcommit: 3527f6733224fd630c4d506f03bc1f16e72bd750
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/04/2019
 
 ---
 
@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="86a3d-105">Departmanlar, işler ve pozisyonlar İnsan kaynakları içinde tutulan kuruluş öğeleridir.</span><span class="sxs-lookup"><span data-stu-id="86a3d-105">Departments, jobs, and positions are organizational elements that are maintained within Human resources.</span></span> <span data-ttu-id="86a3d-106">Bu konuda bu öğeler hakkında kavramsal bilgiler açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="86a3d-106">This topic describes conceptual information about these elements.</span></span> 
 
