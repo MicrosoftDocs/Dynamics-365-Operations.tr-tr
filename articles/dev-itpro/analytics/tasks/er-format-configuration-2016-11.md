@@ -35,8 +35,10 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 2. **Raporlama konfigürasyonları**'na tıklayın.
 3. Ağaçta, **Ödemeler (Basitleştirilmiş model)**'i seçin.
 4. İletişim kutusu formunu açmak için **Yapılandırma oluştur**'a tıklayın.
+
  > [!NOTE]
  > **Yapılandırma oluştur**'u görmüyorsanız, tasarım modunu **Elektronik raporlama parametreleri** sayfasında etkinleştirmeniz gerekir. 
+ 
 5. **Yeni** alanına, **Biçim veri modeline PaymentModel dayalı** girin.
 6. **İsim** alanına, **BACS (UK hayali)** yazın.
 7. **Açıklama** alanına, **BACS Satıcı ödeme biçimi (UK hayali)** yazın.
@@ -44,6 +46,7 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
     * Elektronik belgenin belirli bir biçimi tanımlanabilir. Çalışma zamanında bir biçim seçmek isterseniz, bu alanı boş bırakın.  
 8. **Veri modeli tanımı** alanına bir değer girin veya seçin.
 9. **Konfigürasyon oluştur**'u tıklatın. Yeni bir yapılandırma oluşturuldu. Taslak sürümü, elektronik belgeleri yönetmek için tasarım biçimini saklamak için kullanılabilir.  
+
  > [!NOTE]
  > **Yapılandırma oluştur**'u görmüyorsanız, tasarım modunu **Elektronik raporlama parametreleri** sayfasında etkinleştirmeniz gerekir.
 
