@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
+ms.sourcegitcommit: 901ab6e309754338925c34c2cbecb3b83a0b0452
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2019
 
 ---
 
@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="97ff4-104">Bu konu, bir işin içerebileceği konsept öğelerini açıklar ve bu öğeleri kuruluşunuzda nasıl kullanabileceğiniz hakkında örnekler sağlar.</span><span class="sxs-lookup"><span data-stu-id="97ff4-104">This topic describes the conceptual elements that a job can include and provides examples of how you can use those elements in your organization.</span></span> 
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/09/2018
 ## <a name="job-titles"></a><span data-ttu-id="97ff4-115">İş başlıkları</span><span class="sxs-lookup"><span data-stu-id="97ff4-115">Job titles</span></span>
 <span data-ttu-id="97ff4-116">İşler oluşturmadan önce, bu işler için unvanlar ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="97ff4-116">Before you create jobs, you must set up titles for those jobs.</span></span> <span data-ttu-id="97ff4-117">Pozisyonlar, iş unvanlarını, pozisyonların ilişkili olduğu işlerden devralır.</span><span class="sxs-lookup"><span data-stu-id="97ff4-117">Positions inherit job titles from the jobs that the positions are associated with.</span></span> 
 
-<span data-ttu-id="97ff4-118">Arama özelliğini kullanarak açabileceğiniz **Unvanlar** sayfasını kullanarak iş unvanlarını korumak.</span><span class="sxs-lookup"><span data-stu-id="97ff4-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="97ff4-119">**Unvanlar** sayfasında, işlerinizde kullanmayı planladığınız unvanları girin.</span><span class="sxs-lookup"><span data-stu-id="97ff4-119">On the **Titles **page, enter the titles that you plan to use for your jobs.</span></span>
+<span data-ttu-id="97ff4-118">Arama özelliğini kullanarak açabileceğiniz **Unvanlar** sayfasını kullanarak iş unvanlarını korumak.</span><span class="sxs-lookup"><span data-stu-id="97ff4-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="97ff4-119">**Unvanlar** sayfasında, işlerinizde kullanmayı planladığınız unvanları girin.</span><span class="sxs-lookup"><span data-stu-id="97ff4-119">On the \*\*Titles \*\*page, enter the titles that you plan to use for your jobs.</span></span>
 
 ## <a name="job-types"></a><span data-ttu-id="97ff4-120">İş tipleri</span><span class="sxs-lookup"><span data-stu-id="97ff4-120">Job types</span></span>
 <span data-ttu-id="97ff4-121">Benzer işleri kategorilere gruplamak için iş türlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="97ff4-121">You use job types to group similar jobs into categories.</span></span> <span data-ttu-id="97ff4-122">İş türleri, zorunlu değildir.</span><span class="sxs-lookup"><span data-stu-id="97ff4-122">Job types aren't required.</span></span> <span data-ttu-id="97ff4-123">Ancak, maaş yönetimi için uygunluk kuralları oluşturduğunuzda iş türlerini kullanmayı planlıyorsanız, işleri ayarlamadan önce iş tiplerini ayarlamalısınız.</span><span class="sxs-lookup"><span data-stu-id="97ff4-123">However, if you plan to use job types when you set up eligibility rules for compensation management, you should set up job types before you set up jobs.</span></span> <span data-ttu-id="97ff4-124">İş türlerine bazı örnekler tam zamanlı ve yarı zamanlı veya maaşlı ve saatlik ödemelidir.</span><span class="sxs-lookup"><span data-stu-id="97ff4-124">Some examples of job types are full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="97ff4-125">**İş türleri** sayfasını kullanarak iş türlerini yönetirsiniz.</span><span class="sxs-lookup"><span data-stu-id="97ff4-125">You maintain job types by using the **Job types** page.</span></span> <span data-ttu-id="97ff4-126">**İş türleri** sayfası üzerinde, iş türü için kısa bir açıklama ve ad girin.</span><span class="sxs-lookup"><span data-stu-id="97ff4-126">On the **Job types** page, enter a name and a brief description for the job type.</span></span> <span data-ttu-id="97ff4-127">**Muaf durumu** alanında, Adil İş Standartları Yasası (FLSA) muafiyet durumunu, şu iş durumuna sahip işler için belirtmek üzere aşağıdaki seçeneklerden birini işaretleyin:</span><span class="sxs-lookup"><span data-stu-id="97ff4-127">In the **Exempt status** field, select one of the following options to indicate the Fair Labor Standards Act (FLSA) exempt status of jobs that have this job type:</span></span>
