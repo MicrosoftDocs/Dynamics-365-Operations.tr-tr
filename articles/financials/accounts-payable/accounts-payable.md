@@ -1,13 +1,13 @@
 ---
-title: "Borç hesapları giriş sayfası"
-description: "Bu konu, Borç hesapları konusuna genel bir bakış sağlar."
+title: Borç hesapları giriş sayfası
+description: Bu konu, Borç hesapları konusuna genel bir bakış sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 6cc7ee98b3fabb774339dd1fc027d38d00d8b31f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7bc09cbd108949b37ea1b2207fc3e0c6961abf4b
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302999"
 ---
-
 # <a name="accounts-payable-home-page"></a>Borç hesapları giriş sayfası
 
 [!include [banner](../includes/banner.md)]
@@ -122,25 +121,24 @@ Aşağıdaki konular kapatmalar hakkında bilgi sağlar. Kapatma, ödemeleri fat
 
 ### <a name="additional-resources"></a>Ek kaynaklar
 
-#### <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
+#### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) bölümüne gidin. 
+Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin. 
 
 #### <a name="blogs"></a>Bloglar
 
-[Microsoft Dynamics 365 blogunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) Borç hesapları ve diğer çözümler hakkında fikirlere, haberlere ve diğer bilgilere ulaşabilirsiniz.
+[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) Borç hesapları ve diğer çözümler hakkındaki fikir, haber ve diğer bilgilere ulaşabilirsiniz.
 
-[Microsoft Dynamics AX ürün ekibi blogunda](https://blogs.msdn.microsoft.com/dax/), Borç hesapları hakkında pek çok ileti bulunmaktadır. Bu gönderilerin bazıları Borç hesaplarının önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve yordamlar da geçerli sürümdekine benzerdir.
+[Microsoft Dynamics AX ürün ekibi bloğunda](https://blogs.msdn.microsoft.com/dax/) Borç hesapları hakkında pek çok gönderi bulunmaktadır. Bu gönderilerin bazıları Borç hesaplarının önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve yordamlar da geçerli sürümdekine benzerdir.
 
-[Microsoft Dynamics Operations İş Ortağı Topluluğu Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog), Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunar.
+[Microsoft Dynamics Operations İş Ortağı Topluluk Bloğu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
 
 #### <a name="task-guides"></a>Görev kılavuzları
 Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
 
 #### <a name="videos"></a>Videolar
 
-[Microsoft Dynamics 365 YouTube Kanalında](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) bulunan nasıl yapılır videolarına hemen göz atın.
-
+Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Kanalı](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)'nda bulunan nasıl yapılır videolarına hemen göz atın.
 
 
 

@@ -1,29 +1,29 @@
 ---
-title: "Dağıtılmış sipariş yönetimi (DOM)"
-description: "Bu konuda, Microsoft Dynamics 365 for Retail'da dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır."
+title: Dağıtılmış sipariş yönetimi (DOM)
+description: Bu konuda, Microsoft Dynamics 365 for Retail'da dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303009"
 ---
 # <a name="distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM)
 
@@ -61,7 +61,7 @@ Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döng�
     - **Yerel mağaza bölgesi yarıçapı**: Bir değer girin. Bu alan, konumların nasıl gruplandırılacağını ve uzaklık bakımından nasıl eşit sayılacaklarını belirlemeye yardımcı olur. Örneğin **100** değerini girerseniz karşılama adresinin 100 millik yarıçapı içinde kalan her mağaza veya dağıtım merkezi uzaklık bakımından eşit kabul edilir.
     - **Çözücü türü**: Bir değer seçin. Retail ile birlikte şu iki çözücü türü kullanıma sunulmuştur: **Üretim Çözücüsü** ve **Basitleştirilmiş Çözücü**. DOM'un çalıştırılacağı tüm makinelerde (yani DOMBatch grubunun parçası olan tüm sunucularda), **Üretim Çözücüsü** seçilmelidir. Üretim Çözücüsü için varsayılan olarak üretim ortamlarında lisanslanıp dağıtılan özel lisans anahtarı gereklidir. Bu lisans anahtarı, üretim dışı ortamlarda el ile dağıtılmalıdır. Lisans anahtarını el ile kurmak için şu adımları izleyin:
 
-        1. Microsoft Dynamics Lifecycle Services'da, Paylaşılan varlık kitaplığı'nı açın, kıymet türü olarak **Model**'i seçin ve **DOM lisans** dosyasını indirin.
+        1. Microsoft Dynamics Lifecycle Services'ta Paylaşılan varlık kitaplığını açıp varlık türü olarak **Model**'i seçin ve **DOM lisansı** dosyasını indirin.
         2. Microsoft Internet Information Services (IIS) Yöneticisi'ni başlatın, **AOSService web sitesi**'ne sağ tıklayın ve ardından **Keşfet**'i seçin. **\<AOS service root\>\\webroot**'ta bir Windows Gezgini penceresi açılır. Sonraki adımda kullanacağınızdan \<AOS Service root\> yolunu not edin.
         3. **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** dizinindeki yapılandırma dosyasını kopyalayın.
         4. Retail genel merkezi istemcisine gidin ve **DOM parametreleri** sayfasını açın. **Çözücü** sekmesinde, **Çözücü türü** alanında, **Üretim çözücüsü**'nü seçin ve hiçbir hata iletisi görünmediğinden emin olun.
@@ -229,4 +229,3 @@ DOM özelliğini kullanırken dikkate almanız gereken bazı şeyler aşağıda 
 - DOM şu anda yalnızca perakende kanallarından oluşturulan siparişlere bakmaktadır. Satış siparişleri, **Perakende satış** seçeneği **Evet** olarak ayarlandığında perakende satış siparişleri olarak tanımlanır.
 - Microsoft, DOM'yi ileri düzey ambar yönetimi özellikleriyle test etmemiştir. Müşteriler ve iş ortakları, DOM'nin ileri düzey ambar yönetimi özellikleri ve bunlara ilgili işlemlerle uyumlu olup olmadığını belirlemek için dikkatli olmalıdır.
 - DOM, yalnızca Retail'ın bulut sürümünde kullanılabilir. Şirket içi dağıtımlarda desteklenmez.
-

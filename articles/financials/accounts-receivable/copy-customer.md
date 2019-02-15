@@ -1,13 +1,13 @@
 ---
-title: "Paylaşılan numara sıralarını kullanarak müşterileri kopyalama"
-description: "Bu konuda, bir müşteriyi aynı müşteri kodunu koruyarak başka bir tüzel kişiliğe kopyalamak için paylaşılan numara sıralarının nasıl kullanılacağı açıklanmaktadır."
+title: Paylaşılan numara sıralarını kullanarak müşterileri kopyalama
+description: Bu konuda, bir müşteriyi aynı müşteri kodunu koruyarak başka bir tüzel kişiliğe kopyalamak için paylaşılan numara sıralarının nasıl kullanılacağı açıklanmaktadır.
 author: mikefalkner
 manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302979"
 ---
-
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Paylaşılan numara sıralarını kullanarak müşterileri kopyalama
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Ayrıca, el ile müşteri kodları kullanıyorsanız müşterileri tüzel kişil
 
 ## <a name="copy-a-customer"></a>Müşteriyi kopyalama
 
-Bir müşteriyi kopyalamak için **Tüm müşteriler** liste sayfasında **Yeni**'yi seçerek **Müşteri oluştur** iletişim kutusunu açın. Yeni müşteri kodunun hemen atanmayacağını unutmayın. Bu davranış, Microsoft Dynamics 365 for Finance and Operations'ın önceki sürümlerindeki davranıştan farklıdır. Müşteri grubunu henüz seçmediğiniz için sistem kullanılacak doğru numara sırasını belirleyemez. Ayrıca, yeni bir müşteri oluşturmak mı yoksa bir müşteriyi kopyalamak mı istediğinizi de belirleyemez. Bu nedenle, müşteri kodu iletişim kutusunun alt kısmındaki **Kaydet** düğmesi seçilene kadar atanmaz.
+Bir müşteriyi kopyalamak için **Tüm müşteriler** liste sayfasında **Yeni**'yi seçerek **Müşteri oluştur** iletişim kutusunu açın. Yeni müşteri kodunun hemen atanmayacağını unutmayın. Bu davranış, Microsoft Dynamics 365 for Finance and Operations'ın eski sürümlerindeki davranıştan farklıdır. Müşteri grubunu henüz seçmediğiniz için sistem kullanılacak doğru numara sırasını belirleyemez. Ayrıca, yeni bir müşteri oluşturmak mı yoksa bir müşteriyi kopyalamak mı istediğinizi de belirleyemez. Bu nedenle, müşteri kodu iletişim kutusunun alt kısmındaki **Kaydet** düğmesi seçilene kadar atanmaz.
 
 Yeni bir müşteri oluşturuyorsanız, tüm alanları her zaman olduğu gibi doldurmaya devam edebilirsiniz. Tamamlayıp **Kaydet**'i seçtiğinizde, müşteri kodunun otomatik olarak atandığını görürsünüz. Alternatif olarak, el ile numara sıraları için el ile müşteri kodunuzun kullanıldığını görürsünüz.
 
@@ -66,4 +65,3 @@ Bir müşteriyi kopyaladığınızda, sistem yeni müşteri bilgilerini kaydetme
 
 1. **Müşteriyi kopyala** seçeneği görüntülenir. Varsayılan olarak bu seçenek **Hayır** olarak ayarlanmıştır. Müşteriyi geçerli tüzel kişiliğe kopyalamak için seçeneği **Evet** olarak ayarlayın. 
 2. **Seç** öğesini seçin. Yeni müşteri oluşturulur.
-

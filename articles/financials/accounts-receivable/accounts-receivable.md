@@ -1,13 +1,13 @@
 ---
-title: "Alacak hesapları giriş sayfası"
-description: "Müşteri faturalarını ve gelen ödemeleri izlemek için Alacak hesaplarını kullanın."
+title: Alacak hesapları giriş sayfası
+description: Müşteri faturalarını ve gelen ödemeleri izlemek için Alacak hesaplarını kullanın.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303017"
 ---
-
 # <a name="accounts-receivable-home-page"></a>Alacak hesapları giriş sayfası
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ Müşteri faturalarını ve müşterilerden aldığınız ödemeleri izlemek iç
     :::column:::
         - [Kambiyo senetleri ayarlama](set-up-bills-exchange.md)
         - [Faiz kodu için faiz oranları ayarlama](set-up-interest-rates-interest-code.md)
-        - [Faiz ücretlerinden feragat etme, bunları eski durumuna getirme veya tersine çevirme](waive-reinstate-reverse-interest-fees.md)
+        - [Vade farkı ücretlerinden feragat etme, bunları eski durumuna getirme veya tersine çevirme](waive-reinstate-reverse-interest-fees.md)
         - [SEPA hesaptan ödemeye genel bakış](sepa-direct-debit-overview.md)
         - [SEPA hesaptan ödeme talimatı ayarlama](sepa-direct-debit-mandate.md)
         - [Alacak hesaplarını kapatma](close-accounts-receivable.md)
@@ -97,23 +96,22 @@ Müşterilerden kambiyo senedi, nakit, çek, kredi kartı ve elektronik ödeme g
 
 #### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) bölümüne gidin. 
+Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin. 
 
 #### <a name="blogs"></a>Bloglar
 
-[Microsoft Dynamics 365 blogunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) Alacak hesapları ve diğer çözümler hakkında fikirlere, haberlere ve diğer bilgilere ulaşabilirsiniz.
+[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) Alacak hesapları ve diğer çözümler hakkındaki fikir, haber ve diğer bilgilere ulaşabilirsiniz.
 
-[Microsoft Dynamics AX ürün ekibi blogunda](https://blogs.msdn.microsoft.com/dax/), Alacak hesapları hakkında pek çok ileti bulunmaktadır. Bu iletilerin bazıları Alacak hesaplarının önceki sürümü için yazılmış olsa da aynı kavramlar hala geçerlidir. ve prosedürler de geçerli sürümdekine benzerdir.
+[Microsoft Dynamics AX ürün ekibi bloğunda](https://blogs.msdn.microsoft.com/dax/) Alacak hesapları hakkında pek çok gönderi bulunmaktadır. Bu gönderilerin bazıları, Alacak hesaplarının önceki sürümü için yazılmış olsa da aynı kavramlar hala geçerlidir. ve prosedürler de geçerli sürümdekine benzerdir.
 
-[Microsoft Dynamics Operations İş Ortağı Topluluğu Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog), Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunar.
+[Microsoft Dynamics Operations İş Ortağı Topluluk Bloğu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
 
 #### <a name="task-guides"></a>Görev kılavuzları
 Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
 
 #### <a name="videos"></a>Videolar
 
-[Microsoft Dynamics 365 YouTube Kanalında](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) bulunan nasıl yapılır videolarına hemen göz atın.
-
+Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Kanalı](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)'nda bulunan nasıl yapılır videolarına hemen göz atın.
 
 
 

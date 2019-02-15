@@ -1,13 +1,13 @@
 ---
-title: "İş zekası (BI) ve raporlama giriş sayfası"
-description: "Bu konu sizi Microsoft Dynamics 365 for Finance and Operations'da bulunan iş zekası ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir."
+title: İş zekası (BI) ve raporlama giriş sayfası
+description: Bu konu sizi Microsoft Dynamics 365 for Finance and Operations'ta bulunan iş zekası ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302987"
 ---
-
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>İş zekası (BI) ve raporlama giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu sizi Microsoft Dynamics 365 for Finance and Operations'da bulunan iş zekası (BI) ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
+Bu konu sizi Microsoft Dynamics 365 for Finance and Operations'ta bulunan iş zekası (BI) ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
 
 ## <a name="get-started"></a>Başlayın
 - [Bilgi erişimi ve raporlama](information-access-reporting.md)
@@ -37,7 +36,7 @@ Bu konu sizi Microsoft Dynamics 365 for Finance and Operations'da bulunan iş ze
 - [Finance and Operations: İş zekası](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (blog)
 
 ## <a name="analytical-workspaces"></a>Analitik çalışma alanları
-Finance and Operations, uygulama çalışma alanları ile sorunsuz bir şekilde tümleştirilmiş etkileşimli raporlar sağlar. Çalışma alanlarında Microsoft Power BI'nın desteklediği zengin infografikler ve görseller kullanılabilir. Bu infografikler ve görseller üçüncü tarafların sağladığı pek çok denetim içerir. Bu nedenle, çalışma alanları kullanıcılara oldukça görsel ve etkileşimli bir deneyim sunabilir.
+Finance and Operations, uygulama çalışma alanları ile sorunsuz bir şekilde tümleştirilmiş etkileşimli raporlar sağlar. Çalışma alanlarında Microsoft Power BI'ın desteklediği zengin infografikler ve görseller kullanılabilir. Bu infografikler ve görseller üçüncü tarafların sağladığı pek çok denetim içerir. Bu nedenle, çalışma alanları kullanıcılara oldukça görsel ve etkileşimli bir deneyim sunabilir.
 
 Kullanıcılar sayfadaki görsellere tıklayarak veya dokunarak verilerle etkileşim kurabilirler. Sebep-sonuç ilişkisini görebilirler ve çalışma alanından ayrılmadan basit deneme işlemleri gerçekleştirebilirler. Etkileyici, etkileşimli görseller sayesinde kullanıcılarınız verileri keşfedip gizli eğilimleri ortaya çıkarırken eğlenebilir.
 
@@ -45,7 +44,7 @@ Kullanıcılar sayfadaki görsellere tıklayarak veya dokunarak verilerle etkile
 
 Daha fazla bilgi için aşağıdaki konulara bakın:
 
-- [Çalışma alanlarına katıştırılmış Power BI](embed-power-bi-workspaces.md)
+- [Çalışma alanlarında katıştırılmış Power BI](embed-power-bi-workspaces.md)
 - [Power BI Embedded tümleştirmesi](power-bi-embedded-integration.md)
 - [Power BI Embedded kullanarak çalışma alanlarına analiz ekleme](add-analytics-tab-workspaces.md)
 - [Power BI Embedded kullanarak analiz çalışma alanlarını ve raporlarını güvenlik altına almaya yardımcı olma](secure-analytical-workspaces.md)
@@ -91,4 +90,3 @@ Aşağıdaki raporlar Finance and Operations içindeki nesneler hakkında refera
 - [Lisans kodları ve yapılandırma anahtarları raporu](../sysadmin/license-codes-configuration-keys-report.md)
 - [SQL Server Reporting Services raporları raporu](SSRS-report.md)
 - [İş akışı türleri raporu](../../fin-and-ops/organization-administration/workflow-types-report.md)
-

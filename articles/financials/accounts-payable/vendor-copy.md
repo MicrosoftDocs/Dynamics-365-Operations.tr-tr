@@ -1,13 +1,13 @@
 ---
-title: "Paylaşılan numara sıralarını kullanarak satıcıları kopyalama"
-description: "Bu konuda, bir satıcıyı aynı satıcı kodunu koruyarak başka bir tüzel kişiliğe kopyalamak için paylaşılan numara sıralarının nasıl kullanılacağı açıklanmaktadır."
+title: Paylaşılan numara sıralarını kullanarak satıcıları kopyalama
+description: Bu konuda, bir satıcıyı aynı satıcı kodunu koruyarak başka bir tüzel kişiliğe kopyalamak için paylaşılan numara sıralarının nasıl kullanılacağı açıklanmaktadır.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
-ms.contentlocale: tr-tr
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303023"
 ---
-
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Paylaşılan numara sıralarını kullanarak satıcıları kopyalama
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Ayrıca, el ile satıcı kodları kullanıyorsanız satıcıları tüzel kişili
 
 ## <a name="copy-a-vendor"></a>Satıcı kopyalama
 
-Bir satıcıyı kopyalamak için **Tüm satıcılar, yeni kayıt** sayfasını açmak üzere **Tüm satıcılar**liste sayfasında **Yeni**'yi seçin. Yeni satıcı kodunun hemen atanmayacağını unutmayın. Bu davranış, Microsoft Dynamics 365 for Finance and Operations'ın önceki sürümlerindeki davranıştan farklıdır. Satıcı grubunu henüz seçmediğiniz için sistem kullanılacak doğru numara sırasını belirleyemez. Ayrıca, yeni bir satıcı oluşturmak mı yoksa bir satıcıyı kopyalamak mı istediğinizi de belirleyemez. Bu nedenle, satıcı kodu sayfanın alt kısmındaki **Kaydet** düğmesi seçilene kadar atanmaz.
+Bir satıcıyı kopyalamak için **Tüm satıcılar, yeni kayıt** sayfasını açmak üzere **Tüm satıcılar**liste sayfasında **Yeni**'yi seçin. Yeni satıcı kodunun hemen atanmayacağını unutmayın. Bu davranış, Microsoft Dynamics 365 for Finance and Operations'ın eski sürümlerindeki davranıştan farklıdır. Satıcı grubunu henüz seçmediğiniz için sistem kullanılacak doğru numara sırasını belirleyemez. Ayrıca, yeni bir satıcı oluşturmak mı yoksa bir satıcıyı kopyalamak mı istediğinizi de belirleyemez. Bu nedenle, satıcı kodu sayfanın alt kısmındaki **Kaydet** düğmesi seçilene kadar atanmaz.
 
 Yeni bir satıcı oluşturuyorsanız, tüm alanları her zaman olduğu gibi doldurmaya devam edebilirsiniz. Tamamlayıp **Kaydet**'i seçtiğinizde, satıcı kodunun otomatik olarak atandığını görürsünüz. Alternatif olarak, el ile numara sıraları için el ile satıcı kodunuzun kullanıldığını görürsünüz.
 
@@ -66,4 +65,3 @@ Bir satıcıyı kopyaladığınızda, sistem yeni satıcı bilgilerini kaydetmey
 
 1. **Satıcıyı kopyala** seçeneği görüntülenir. Varsayılan olarak bu seçenek **Hayır** olarak ayarlanmıştır. Satıcıyı geçerli tüzel kişiliğe kopyalamak için seçeneği **Evet** olarak ayarlayın.
 2. **Seç** öğesini seçin. Yeni satıcı oluşturulur.
-

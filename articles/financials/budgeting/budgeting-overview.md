@@ -1,13 +1,13 @@
 ---
-title: "Bütçeleme giriş sayfası"
-description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations'daki bütçeleme işlevi bileşenlerine, bütçeleme araçlarına ve raporlama yeteneklerine genel bir bakış sağlanmaktadır."
+title: Bütçeleme giriş sayfası
+description: Bu konuda Microsoft Dynamics 365 for Finance and Operations'taki bütçeleme işlevi bileşenlerine, bütçeleme araçlarına ve raporlama özelliklerine genel bir bakış verilmektedir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/09/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 84321b78c9869a4920c3488373876bb56bcb3a29
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303013"
 ---
-
 # <a name="budgeting-home-page"></a>Bütçeleme giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Finance and Operations'daki bütçeleme işlevi bileşenlerine, bütçeleme araçlarına ve raporlama yeteneklerine genel bir bakış sağlanmaktadır. 
+Bu konuda Finance and Operations'daki bütçeleme işlevi bileşenlerine, bütçeleme araçlarına ve raporlama özelliklerine genel bir bakış sağlanmaktadır. 
 
 <a name="components-of-budgeting-functionality"></a>Bütçeleme işlevinin bileşenleri
 -------------------------------------
@@ -66,7 +65,6 @@ Bütçe planlarına başka modüllerden planlama verilerinin nasıl getirileceğ
 Finance and Operations'da kullanıcılar bütçe planlarını doğrudan Finance and Operations istemcisinde (yapılandırılabilir bir bütçe planı belgesi sayfasını kullanarak) veya Excel aracılığıyla oluşturabilir. Excel birkaç ek yetenek sağlar. Örneğin, bir bütçe planı için kaynak olarak dış verileri kullanabilir, özel hesaplamalar yapabilir, Microsoft PivotTable ve grafikler kullanabilirsiniz. Bütçe planlama sürecindeki değişkenlerin çoğu yapılandırılabilir. 
 
 Örneğin, bütçelemeyi kimlerin yapacağını, neyin bütçeleneceğini ve sürecin nasıl olacağını tanımlayabilirsiniz. Bütçe planlama için Excel kullanabildiğiniz halde, Finance and Operations tek doğru kaynak olarak tutulur ve bütçe denetimi sorunlarını önlemeye yardımcı olur. Bütçe planına bütçeleme başlangıç verilerini getirmek için periyodik işlemler kullanılabilir. Finance and Operations, raporlama amacıyla bütçeleme verilerini görüntüleyip analiz etmenize olanak sağlayan bir dizi standart sorgulama sayfası sunar. Bütçe planı verilerine Yönetim Raporlayıcısı üzerinden erişilebilir ve Yönetim Raporlayıcısı raporunda bütçe planı senaryoları ayrı ayrı sütunlar halinde görüntülenebilir.
-
 
 
 

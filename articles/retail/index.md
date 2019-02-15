@@ -1,39 +1,38 @@
 ---
-title: "Dynamics 365 for Retail'e hoş geldiniz"
-description: "Dynamics 365 for Retail giriş sayfası"
+title: Dynamics 365 for Retail'a hoş geldiniz
+description: Dynamics 365 for Retail için giriş sayfası
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303007"
 ---
-
-# <a name="welcome-to-dynamics-365-for-retail"></a>Dynamics 365 for Retail'e hoş geldiniz
+# <a name="welcome-to-dynamics-365-for-retail"></a>Dynamics 365 for Retail'a hoş geldiniz
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail, tüm kanallarda birleştirilmiş ticaret olanağı sunan uçtan uca bir perakende çözümüdür. Perakendeciler ve çalışanların bulut öncelikli, mobil öncelikli bir tarzda daha fazlasını başarmalarına yardımcı olmak için satış, hareketlilik, karar destek ve üretkenliği kapsar. Retail, alım satım, stok gibi geniş bir işletme süreçleri ve kanal yönetim yetenekleri yelpazesini yürütmek için kapsamlı destek sunar. Ayrıca tüm temas noktalarında kapsayıcı müşteri deneyimleri sağlar.
+Microsoft Dynamics 365 for Retail, tüm kanallarda birleştirilmiş ticaret olanağı sunan uçtan uca bir perakende çözümüdür. Perakendeciler ve çalışanların bulut öncelikli, mobil öncelikli bir tarzda daha fazlasını başarmalarına yardımcı olmak için satış, hareketlilik, karar destek ve üretkenliği kapsar. Retail, alım satım, stok gibi geniş bir işletme süreçleri ve kanal yönetim yetenekleri yelpazesini yürütmek için kapsamlı destek sunar. Ayrıca, tüm temas noktalarında kapsayıcı müşteri deneyimleri sağlar.
 
 > [!NOTE]
-> Dynamics 365 for Retail; Dynamics 365 for Finance and Operations ve Dynamics 365 for Talent ile yakından ilgilidir. Aynı işlev her üç üründe de görülebilir. Bu nedenle birincil olarak Retail ile ilgili konularda ürün adı Microsoft Dynamics 365 for Retail; birincil olarak temel ürün (Finance and Operations) ile ilgili olan konularda ürün adı Microsoft Dynamics 365 for Finance and Operations ve birincil olarak insan kaynakları ile ilgili konularda ürün adı Dynamics 365 for Talent olacaktır.
+> Dynamics 365 for Retail, Dynamics 365 for Finance and Operations ve Dynamics 365 for Talent ile yakından ilgilidir. Aynı işlev her üç üründe de görülebilir. Dolayısıyla ürün adı, öncelikle Retail ile ilgili olan konularda Microsoft Dynamics 365 for Retail olarak, öncelikle temel ürün (Finance and Operations) ile ilgili konularda Microsoft Dynamics 365 for Finance and Operations ve öncelikle insan kaynakları ile ilgili konularda da Dynamics 365 for Talent olacaktır.
 
 Soldaki bölmede, bir özellik alanı seçerek özellik hakkında daha fazla bilgi edinebilirsiniz.
 
@@ -79,20 +78,19 @@ Mağaza içindeki ilişkileri, mağazadaki POS kasalarını ve bu kasaların har
 
 Ortamınızı özelleştirmeniz istendiğinde veya sisteminizin dağıtımı ve korunmasından sorumlu olduğunuzda, Retail'e özel geliştirici ve sistem yöneticisi içeriklerine ve daha genel içeriklere mutlaka göz atın.
 
-- [BT Uzmanları ve Geliştiriciler için Dynamics 365 for Retail](dev-itpro/dev-retail-home-page.md)
-- [Dynamics 365 for Finance and Operations için Geliştirme ve Yönetim](../dev-itpro/dev-tools/developer-home-page.md)
+- BT Uzmanları ve Geliştiriciler İçin [Dynamics 365 for Retail](dev-itpro/dev-retail-home-page.md)
+- [Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md) İçin Geliştirme ve Yönetim
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 ### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) bölümüne gidin.
+Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin.
 
 ### <a name="blogs"></a>Bloglar
 
-[Microsoft Dynamics 365 blogunda](https://community.dynamics.com/b/msftdynamicsblog) Retail ve diğer çözümler hakkında fikirlere, haberlere ve diğer bilgilere ulaşabilirsiniz.
+[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog) Retail ve diğer çözümler hakkındaki fikir, haber ve diğer bilgilere ulaşabilirsiniz.
 
-[Microsoft Dynamics AX ürün ekibi blogunda](https://blogs.msdn.microsoft.com/dax/), Retail hakkında pek çok ileti bulunmaktadır. Bu iletilerin bazıları Retail'in önceki sürümü için yazılmış olsa da aynı kavramlar hala geçerlidir. ve prosedürler de geçerli sürümdekine benzerdir.
+[Microsoft Dynamics AX ürün ekibi bloğunda](https://blogs.msdn.microsoft.com/dax/) Retail hakkında pek çok gönderi bulunmaktadır. Bu iletilerin bazıları Retail'in önceki sürümü için yazılmış olsa da aynı kavramlar hala geçerlidir. ve prosedürler de geçerli sürümdekine benzerdir.
 
-[Microsoft Dynamics Operations İş Ortağı Topluluğu Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog), Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunar.
-
+[Microsoft Dynamics Operations İş Ortağı Topluluk Bloğu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
