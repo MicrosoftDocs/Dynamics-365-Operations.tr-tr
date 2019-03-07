@@ -1,13 +1,13 @@
---- 
-title: "Soru formu sonuçlarını analiz etme"
-description: "Soru formu istatistikleri, ortalamalar, toplamlar ve demografik veri kümesine göre yüzdeler hesaplamak için kullanılabilir."
+---
+title: Soru formu sonuçlarını analiz etme
+description: Soru formu istatistikleri, ortalamalar, toplamlar ve demografik veri kümesine göre yüzdeler hesaplamak için kullanılabilir.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMQuestionnaireStatistics, KMQuestionnaireStatisticsLine
 audience: Application User
 ms.reviewer: rschloma
@@ -16,57 +16,56 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a70ea145d8c7134a32e8f0fc6980daca9a010bb0
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332760"
 ---
-# <a name="analyzing-questionnaire-results"></a><span data-ttu-id="498cd-103">Soru formu sonuçlarını analiz etme</span><span class="sxs-lookup"><span data-stu-id="498cd-103">Analyzing questionnaire results</span></span>
+# <a name="analyzing-questionnaire-results"></a><span data-ttu-id="9dcf1-103">Soru formu sonuçlarını analiz etme</span><span class="sxs-lookup"><span data-stu-id="9dcf1-103">Analyzing questionnaire results</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="498cd-104">Soru formu istatistikleri, ortalamalar, toplamlar ve demografik veri kümesine göre yüzdeler hesaplamak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="498cd-104">Questionnaire statistics can be used to calculate averages, totals, and percentages based on a set of demographic data.</span></span> <span data-ttu-id="498cd-105">Bu yordamı başlatmak için Soru formu > Sonuçları görüntüle ve analiz et > Soru formu istatistikleri seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="498cd-105">To begin this procedure, go to Questionnaire > View and analyze results > Questionnaire statistics.</span></span> <span data-ttu-id="498cd-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="498cd-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="9dcf1-104">Soru formu istatistikleri, ortalamalar, toplamlar ve demografik veri kümesine göre yüzdeler hesaplamak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-104">Questionnaire statistics can be used to calculate averages, totals, and percentages based on a set of demographic data.</span></span> <span data-ttu-id="9dcf1-105">Bu yordamı başlatmak için Soru formu > Sonuçları görüntüle ve analiz et > Soru formu istatistikleri seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-105">To begin this procedure, go to Questionnaire > View and analyze results > Questionnaire statistics.</span></span> <span data-ttu-id="9dcf1-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-106">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-questionnaire-statistics-record"></a><span data-ttu-id="498cd-107">Soru formu istatistik kaydı yaratın</span><span class="sxs-lookup"><span data-stu-id="498cd-107">Create a Questionnaire statistics record</span></span>
-1. <span data-ttu-id="498cd-108">Soru formu istatistikleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="498cd-108">Go to Questionnaire statistics.</span></span>
-2. <span data-ttu-id="498cd-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="498cd-109">Click New.</span></span>
-3. <span data-ttu-id="498cd-110">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="498cd-110">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="498cd-111">İstatistikler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="498cd-111">In the Statistics field, type a value.</span></span>
-5. <span data-ttu-id="498cd-112">Tanım alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="498cd-112">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="498cd-113">Soru formu alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="498cd-113">In the Questionnaire field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="498cd-114">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="498cd-114">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="498cd-115">Genel sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="498cd-115">Click the General tab.</span></span>
-    * <span data-ttu-id="498cd-116">Anonim sonuçlar veya çalışanların, tüm kişilerden veya başvuranların sonuçlarını dahil etmek isteyip istemediğinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="498cd-116">Select if you want to include anonymous results or results from workers, contacts, and applicants.</span></span>  
-9. <span data-ttu-id="498cd-117">Çalışan onay kutusunu seçin veya temizleyin.</span><span class="sxs-lookup"><span data-stu-id="498cd-117">Select or clear the Worker check box.</span></span>
-    * <span data-ttu-id="498cd-118">Sonuçları kıdem veya yaşa göre görüntüleyecekseniz, bu gruplama sonuçları için kullanacağınız aralıkları belirleyin.</span><span class="sxs-lookup"><span data-stu-id="498cd-118">If you will be viewing the results by seniority or age, specify the intervals that you would like to use for grouping the results.</span></span>  
-    * <span data-ttu-id="498cd-119">Bir yaş aralığı grubuna 5 girmek, sonuçları beş yıllık aralıklarda gruplayacaktır.</span><span class="sxs-lookup"><span data-stu-id="498cd-119">Entering a 5 for the age interval will group the results based on five-year age intervals.</span></span>  
-10. <span data-ttu-id="498cd-120">Yaş alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="498cd-120">In the Age field, enter a number.</span></span>
-    * <span data-ttu-id="498cd-121">Hesaplamayı tüm soru formuna karşı mı yoksa her bir sonuç grubuna, her bir soruya ya da her bir soru satırına karşı mı yapmak istediğinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="498cd-121">Select if you want to run the calculation against the entire questionnaire, for each result group, for each question, or for each question row.</span></span>  
-    * <span data-ttu-id="498cd-122">Sonuçları nasıl gruplandırmak istediğinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="498cd-122">Select how you would like to group the results.</span></span>  
-    * <span data-ttu-id="498cd-123">Örneğin, soru başına ortalama puanı hesaplarsanız, sonuç grubuna göre gruplandırılmış soruları görmek isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="498cd-123">For example, if you calculate the average points per question, you may want to see the questions grouped by Result group.</span></span>  
-    * <span data-ttu-id="498cd-124">Hesaplamayı dayandırmak istediğiniz temel veriyi seçin.</span><span class="sxs-lookup"><span data-stu-id="498cd-124">Select the data to base the calculation on.</span></span>  
-    * <span data-ttu-id="498cd-125">Örneğin, çalışanlarınız arasında soru formunda kaznaılan ortalama yüzdeyi, çalışanlarınız arasında kazanılan ortalama puana göre görmek istiyorsanız.</span><span class="sxs-lookup"><span data-stu-id="498cd-125">For example, if you want to see the average percent received on the questionnaire across your workers versus the average number of points achieved across your workers.</span></span>  
-11. <span data-ttu-id="498cd-126">Aralık sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="498cd-126">Click the Range tab.</span></span>
-    * <span data-ttu-id="498cd-127">Sonuç kümesini yalnızca aralık ölçütlerine uyanlarla kısıtlamak için aralıkları kullanın.</span><span class="sxs-lookup"><span data-stu-id="498cd-127">Use ranges to limit your result set to only those meeting the Range criteria.</span></span>  
-12. <span data-ttu-id="498cd-128">Gruplandırma tarafından sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="498cd-128">Click the Grouping by tab.</span></span>
-    * <span data-ttu-id="498cd-129">Sonuçlarının nasıl görüntüleneceğini belirlemek için gruplandırmaları kullanın.</span><span class="sxs-lookup"><span data-stu-id="498cd-129">Use Groupings to determine how the results should be displayed.</span></span>  
-    * <span data-ttu-id="498cd-130">Örneğin sonuçları önce cinsiyet sonra da yaşa göre gruplayın.</span><span class="sxs-lookup"><span data-stu-id="498cd-130">For example, group the results first by gender, then by age.</span></span>  
-13. <span data-ttu-id="498cd-131">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="498cd-131">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="498cd-132">Gruplandırmaları seçili tarafa taşıyın ve istediğiniz sırada yerleştirin.</span><span class="sxs-lookup"><span data-stu-id="498cd-132">Move the groupings into the Selected side and place them in the desired order.</span></span>  
+## <a name="create-a-questionnaire-statistics-record"></a><span data-ttu-id="9dcf1-107">Soru formu istatistik kaydı yaratın</span><span class="sxs-lookup"><span data-stu-id="9dcf1-107">Create a Questionnaire statistics record</span></span>
+1. <span data-ttu-id="9dcf1-108">Soru formu istatistikleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-108">Go to Questionnaire statistics.</span></span>
+2. <span data-ttu-id="9dcf1-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-109">Click New.</span></span>
+3. <span data-ttu-id="9dcf1-110">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-110">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="9dcf1-111">İstatistikler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-111">In the Statistics field, type a value.</span></span>
+5. <span data-ttu-id="9dcf1-112">Tanım alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-112">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="9dcf1-113">Soru formu alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-113">In the Questionnaire field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="9dcf1-114">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-114">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="9dcf1-115">Genel sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-115">Click the General tab.</span></span>
+    * <span data-ttu-id="9dcf1-116">Anonim sonuçlar veya çalışanların, tüm kişilerden veya başvuranların sonuçlarını dahil etmek isteyip istemediğinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-116">Select if you want to include anonymous results or results from workers, contacts, and applicants.</span></span>  
+9. <span data-ttu-id="9dcf1-117">Çalışan onay kutusunu seçin veya temizleyin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-117">Select or clear the Worker check box.</span></span>
+    * <span data-ttu-id="9dcf1-118">Sonuçları kıdem veya yaşa göre görüntüleyecekseniz, bu gruplama sonuçları için kullanacağınız aralıkları belirleyin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-118">If you will be viewing the results by seniority or age, specify the intervals that you would like to use for grouping the results.</span></span>  
+    * <span data-ttu-id="9dcf1-119">Bir yaş aralığı grubuna 5 girmek, sonuçları beş yıllık aralıklarda gruplayacaktır.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-119">Entering a 5 for the age interval will group the results based on five-year age intervals.</span></span>  
+10. <span data-ttu-id="9dcf1-120">Yaş alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-120">In the Age field, enter a number.</span></span>
+    * <span data-ttu-id="9dcf1-121">Hesaplamayı tüm soru formuna karşı mı yoksa her bir sonuç grubuna, her bir soruya ya da her bir soru satırına karşı mı yapmak istediğinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-121">Select if you want to run the calculation against the entire questionnaire, for each result group, for each question, or for each question row.</span></span>  
+    * <span data-ttu-id="9dcf1-122">Sonuçları nasıl gruplandırmak istediğinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-122">Select how you would like to group the results.</span></span>  
+    * <span data-ttu-id="9dcf1-123">Örneğin, soru başına ortalama puanı hesaplarsanız, sonuç grubuna göre gruplandırılmış soruları görmek isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-123">For example, if you calculate the average points per question, you may want to see the questions grouped by Result group.</span></span>  
+    * <span data-ttu-id="9dcf1-124">Hesaplamayı dayandırmak istediğiniz temel veriyi seçin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-124">Select the data to base the calculation on.</span></span>  
+    * <span data-ttu-id="9dcf1-125">Örneğin, çalışanlarınız arasında soru formunda kaznaılan ortalama yüzdeyi, çalışanlarınız arasında kazanılan ortalama puana göre görmek istiyorsanız.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-125">For example, if you want to see the average percent received on the questionnaire across your workers versus the average number of points achieved across your workers.</span></span>  
+11. <span data-ttu-id="9dcf1-126">Aralık sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-126">Click the Range tab.</span></span>
+    * <span data-ttu-id="9dcf1-127">Sonuç kümesini yalnızca aralık ölçütlerine uyanlarla kısıtlamak için aralıkları kullanın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-127">Use ranges to limit your result set to only those meeting the Range criteria.</span></span>  
+12. <span data-ttu-id="9dcf1-128">Gruplandırma tarafından sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-128">Click the Grouping by tab.</span></span>
+    * <span data-ttu-id="9dcf1-129">Sonuçlarının nasıl görüntüleneceğini belirlemek için gruplandırmaları kullanın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-129">Use Groupings to determine how the results should be displayed.</span></span>  
+    * <span data-ttu-id="9dcf1-130">Örneğin sonuçları önce cinsiyet sonra da yaşa göre gruplayın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-130">For example, group the results first by gender, then by age.</span></span>  
+13. <span data-ttu-id="9dcf1-131">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-131">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="9dcf1-132">Gruplandırmaları seçili tarafa taşıyın ve istediğiniz sırada yerleştirin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-132">Move the groupings into the Selected side and place them in the desired order.</span></span>  
 
-## <a name="execute-the-statistics-calculation"></a><span data-ttu-id="498cd-133">İstatistik hesaplamalarını çalıştırma</span><span class="sxs-lookup"><span data-stu-id="498cd-133">Execute the statistics calculation</span></span>
-1. <span data-ttu-id="498cd-134">Yürüt'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="498cd-134">Click Execute.</span></span>
-    * <span data-ttu-id="498cd-135">Sonuçların üzerinde gerçekleştirmek istediğiniz hesaplama işlevini seçin.</span><span class="sxs-lookup"><span data-stu-id="498cd-135">Select which calculation function you would like to perform on the results.</span></span>  
-    * <span data-ttu-id="498cd-136">Örneğin seçili gruplamalar için soru formları arasında ortalama yüzdeyi hesaplamak veya seçili gruplamalar arasında toplam puanları hesaplamak için.</span><span class="sxs-lookup"><span data-stu-id="498cd-136">For example, calculate the average percentages across the questionnaire for the selected groupings or total the points across the result groups for the selected groupings.</span></span>  
-2. <span data-ttu-id="498cd-137">Önceki aramaları sil onay kutusunu işaretleyin veya işareti kaldırın.</span><span class="sxs-lookup"><span data-stu-id="498cd-137">Select or clear the Delete previous searches check box.</span></span>
-3. <span data-ttu-id="498cd-138">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="498cd-138">Click OK.</span></span>
+## <a name="execute-the-statistics-calculation"></a><span data-ttu-id="9dcf1-133">İstatistik hesaplamalarını çalıştırma</span><span class="sxs-lookup"><span data-stu-id="9dcf1-133">Execute the statistics calculation</span></span>
+1. <span data-ttu-id="9dcf1-134">Yürüt'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-134">Click Execute.</span></span>
+    * <span data-ttu-id="9dcf1-135">Sonuçların üzerinde gerçekleştirmek istediğiniz hesaplama işlevini seçin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-135">Select which calculation function you would like to perform on the results.</span></span>  
+    * <span data-ttu-id="9dcf1-136">Örneğin seçili gruplamalar için soru formları arasında ortalama yüzdeyi hesaplamak veya seçili gruplamalar arasında toplam puanları hesaplamak için.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-136">For example, calculate the average percentages across the questionnaire for the selected groupings or total the points across the result groups for the selected groupings.</span></span>  
+2. <span data-ttu-id="9dcf1-137">Önceki aramaları sil onay kutusunu işaretleyin veya işareti kaldırın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-137">Select or clear the Delete previous searches check box.</span></span>
+3. <span data-ttu-id="9dcf1-138">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-138">Click OK.</span></span>
 
-## <a name="view-the-results-of-the-questionnaire-statistics-run"></a><span data-ttu-id="498cd-139">Soru formu istatistiklerinin çalıştırma sonucunu görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="498cd-139">View the results of the questionnaire statistics run.</span></span>
-1. <span data-ttu-id="498cd-140">Sonuçlar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="498cd-140">Click Result.</span></span>
-2. <span data-ttu-id="498cd-141">Sonuçlar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="498cd-141">Click Result.</span></span>
-3. <span data-ttu-id="498cd-142">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="498cd-142">Close the page.</span></span>
-
+## <a name="view-the-results-of-the-questionnaire-statistics-run"></a><span data-ttu-id="9dcf1-139">Soru formu istatistiklerinin çalıştırma sonucunu görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-139">View the results of the questionnaire statistics run.</span></span>
+1. <span data-ttu-id="9dcf1-140">Sonuçlar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-140">Click Result.</span></span>
+2. <span data-ttu-id="9dcf1-141">Sonuçlar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-141">Click Result.</span></span>
+3. <span data-ttu-id="9dcf1-142">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="9dcf1-142">Close the page.</span></span>
 

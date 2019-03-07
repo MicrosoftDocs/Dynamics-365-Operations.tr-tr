@@ -1,13 +1,13 @@
---- 
-title: "Amortisman profilleri ayarlama ve oluşturma"
-description: "Amortisman profilleri bir varlığın türünü ve amortisman sıklığını belirler."
+---
+title: Amortisman profilleri ayarlama ve oluşturma
+description: Amortisman profilleri bir varlığın türünü ve amortisman sıklığını belirler.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,29 +16,28 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 8bb33a01232e3556d743e8913a61eb2f6375ba73
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336785"
 ---
-# <a name="set-up-and-create-depreciation-profiles"></a><span data-ttu-id="9ef99-103">Amortisman profilleri ayarlama ve oluşturma</span><span class="sxs-lookup"><span data-stu-id="9ef99-103">Set up and create depreciation profiles</span></span>
+# <a name="set-up-and-create-depreciation-profiles"></a><span data-ttu-id="c9209-103">Amortisman profilleri ayarlama ve oluşturma</span><span class="sxs-lookup"><span data-stu-id="c9209-103">Set up and create depreciation profiles</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="9ef99-104">Amortisman profilleri bir varlığın türünü ve amortisman sıklığını belirler.</span><span class="sxs-lookup"><span data-stu-id="9ef99-104">Depreciation profiles determine the type and the frequency of depreciation for an asset.</span></span>   <span data-ttu-id="9ef99-105">Bu kayıtta USMF demo şirketi ve muhasebeci rolü kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="9ef99-105">This recording uses the USMF demo company and the accountant role.</span></span>
+<span data-ttu-id="c9209-104">Amortisman profilleri bir varlığın türünü ve amortisman sıklığını belirler.</span><span class="sxs-lookup"><span data-stu-id="c9209-104">Depreciation profiles determine the type and the frequency of depreciation for an asset.</span></span>   <span data-ttu-id="c9209-105">Bu kayıtta USMF demo şirketi ve muhasebeci rolü kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="c9209-105">This recording uses the USMF demo company and the accountant role.</span></span>
 
 
-## <a name="create-a-depreciation-profile"></a><span data-ttu-id="9ef99-106">Amortisman profili oluşturma</span><span class="sxs-lookup"><span data-stu-id="9ef99-106">Create a depreciation profile</span></span>
-1. <span data-ttu-id="9ef99-107">Sabit kıymetler > Ayar > Amortisman profilleri menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="9ef99-107">Go to Fixed assets > Setup > Depreciation profiles.</span></span>
-2. <span data-ttu-id="9ef99-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9ef99-108">Click New.</span></span>
-3. <span data-ttu-id="9ef99-109">Amortisman profili alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="9ef99-109">In the Depreciation profile field, type a value.</span></span>
-4. <span data-ttu-id="9ef99-110">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="9ef99-110">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="9ef99-111">Yöntem alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="9ef99-111">In the Method field, select an option.</span></span>
-    * <span data-ttu-id="9ef99-112">Azalan Bakiye seçilirse, Yüzde alanına bir yüzde girmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="9ef99-112">If selecting reducing balance, you will need to enter a percentage in the Percentage field.</span></span>  
-6. <span data-ttu-id="9ef99-113">Amortisman yılı alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="9ef99-113">In the Depreciation year field, select an option.</span></span>
-7. <span data-ttu-id="9ef99-114">Dönem sıklığı alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="9ef99-114">In the Period frequency field, select an option.</span></span>
-8. <span data-ttu-id="9ef99-115">Formu kapatın.</span><span class="sxs-lookup"><span data-stu-id="9ef99-115">Close the form.</span></span>
-
+## <a name="create-a-depreciation-profile"></a><span data-ttu-id="c9209-106">Amortisman profili oluşturma</span><span class="sxs-lookup"><span data-stu-id="c9209-106">Create a depreciation profile</span></span>
+1. <span data-ttu-id="c9209-107">Sabit kıymetler > Ayar > Amortisman profilleri menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="c9209-107">Go to Fixed assets > Setup > Depreciation profiles.</span></span>
+2. <span data-ttu-id="c9209-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c9209-108">Click New.</span></span>
+3. <span data-ttu-id="c9209-109">Amortisman profili alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="c9209-109">In the Depreciation profile field, type a value.</span></span>
+4. <span data-ttu-id="c9209-110">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="c9209-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="c9209-111">Yöntem alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="c9209-111">In the Method field, select an option.</span></span>
+    * <span data-ttu-id="c9209-112">Azalan Bakiye seçilirse, Yüzde alanına bir yüzde girmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="c9209-112">If selecting reducing balance, you will need to enter a percentage in the Percentage field.</span></span>  
+6. <span data-ttu-id="c9209-113">Amortisman yılı alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="c9209-113">In the Depreciation year field, select an option.</span></span>
+7. <span data-ttu-id="c9209-114">Dönem sıklığı alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="c9209-114">In the Period frequency field, select an option.</span></span>
+8. <span data-ttu-id="c9209-115">Formu kapatın.</span><span class="sxs-lookup"><span data-stu-id="c9209-115">Close the form.</span></span>
 

@@ -1,13 +1,13 @@
 ---
-title: "Şirketlerarası giderler"
-description: "Bir kuruluştaki bir tüzel kişilikte çalışan bir çalışan, aynı kuruluştaki başka bir tüzel kişilik için iş yapabilir. Bu durumda, şirketlerarası gider özelliğini, çalışanın giderini işin gerçekleştirildiği tüzel kişiliğe atamak için kullanabilirsiniz."
+title: Şirketlerarası giderler
+description: Bir kuruluştaki bir tüzel kişilikte çalışan bir çalışan, aynı kuruluştaki başka bir tüzel kişilik için iş yapabilir. Bu durumda, şirketlerarası gider özelliğini, çalışanın giderini işin gerçekleştirildiği tüzel kişiliğe atamak için kullanabilirsiniz.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,17 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 384c38f3e154495c882434d1c85cef63396cd897
 ms.openlocfilehash: 9e1f2b9593d50d5ec04f039b9b995c8792b40612
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/15/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351459"
 ---
-
-# <a name="intercompany-expenses"></a><span data-ttu-id="03abb-104">Şirketlerarası giderler</span><span class="sxs-lookup"><span data-stu-id="03abb-104">Intercompany expenses</span></span>
+# <a name="intercompany-expenses"></a><span data-ttu-id="db898-104">Şirketlerarası giderler</span><span class="sxs-lookup"><span data-stu-id="db898-104">Intercompany expenses</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="03abb-105">Bir kuruluştaki bir tüzel kişilikte çalışan bir çalışan, aynı kuruluştaki başka bir tüzel kişilik için iş yapabilir.</span><span class="sxs-lookup"><span data-stu-id="03abb-105">A worker who is employed by one legal entity in an organization might perform work for another legal entity in the same organization.</span></span> <span data-ttu-id="03abb-106">Bu durumda, şirketlerarası gider özelliğini, çalışanın giderini işin gerçekleştirildiği tüzel kişiliğe atamak için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="03abb-106">In this situation, you can use the intercompany expense feature to assign the worker’s expenses to the legal entity for which the work was performed.</span></span> <span data-ttu-id="03abb-107">Çalışanı çalıştıran tüzel kişilik, kiralayan tüzel kişilik olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="03abb-107">The legal entity that employs the worker is called the loaning legal entity.</span></span> <span data-ttu-id="03abb-108">Çalışanın gider oluşturduğu tüzel kişilik, ödünç alan tüzel kişilik olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="03abb-108">The legal entity for which the worker incurs expenses is called the borrowing legal entity.</span></span> 
+<span data-ttu-id="db898-105">Bir kuruluştaki bir tüzel kişilikte çalışan bir çalışan, aynı kuruluştaki başka bir tüzel kişilik için iş yapabilir.</span><span class="sxs-lookup"><span data-stu-id="db898-105">A worker who is employed by one legal entity in an organization might perform work for another legal entity in the same organization.</span></span> <span data-ttu-id="db898-106">Bu durumda, şirketlerarası gider özelliğini, çalışanın giderini işin gerçekleştirildiği tüzel kişiliğe atamak için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="db898-106">In this situation, you can use the intercompany expense feature to assign the worker’s expenses to the legal entity for which the work was performed.</span></span> <span data-ttu-id="db898-107">Çalışanı çalıştıran tüzel kişilik, kiralayan tüzel kişilik olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="db898-107">The legal entity that employs the worker is called the loaning legal entity.</span></span> <span data-ttu-id="db898-108">Çalışanın gider oluşturduğu tüzel kişilik, ödünç alan tüzel kişilik olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="db898-108">The legal entity for which the worker incurs expenses is called the borrowing legal entity.</span></span> 
 
-<span data-ttu-id="03abb-109">Bir çalışan, kiralayan tüzel kişilikte farklı bir tüzel kişilik için gerçekleştiren işler için giderler oluşturmadan ve göndermeden önce, **Gider yönetimi parametreleri** sayfasında, **Şirketlerarası gider satırlarına izin ver** seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="03abb-109">Before a worker can create and submit expenses for work that is performed for a different legal entity, in the loaning legal entity, on the **Expense management parameters** page, select the **Allow intercompany expense lines** option.</span></span> 
-
+<span data-ttu-id="db898-109">Bir çalışan, kiralayan tüzel kişilikte farklı bir tüzel kişilik için gerçekleştiren işler için giderler oluşturmadan ve göndermeden önce, **Gider yönetimi parametreleri** sayfasında, **Şirketlerarası gider satırlarına izin ver** seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="db898-109">Before a worker can create and submit expenses for work that is performed for a different legal entity, in the loaning legal entity, on the **Expense management parameters** page, select the **Allow intercompany expense lines** option.</span></span> 
