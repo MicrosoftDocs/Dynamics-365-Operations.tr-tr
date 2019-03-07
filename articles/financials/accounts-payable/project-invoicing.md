@@ -1,13 +1,13 @@
 ---
 title: Proje faturalama
-description: "Bu makalede, Zaman ve malzeme projeleri ve Sabit fiyatlı projeler için proje faturalamaya genel bir bakış verilmektedir. Fatura teklifleri (ön faturalar), fatura kontrolü, hesaba mahsup faturalama, satıcı faturalama ve hakkındaki bilgileri içerir ve alacak dekontları hakkında bilgiler içermektedir."
+description: Bu makalede, Zaman ve malzeme projeleri ve Sabit fiyatlı projeler için proje faturalamaya genel bir bakış verilmektedir. Fatura teklifleri (ön faturalar), fatura kontrolü, hesaba mahsup faturalama, satıcı faturalama ve hakkındaki bilgileri içerir ve alacak dekontları hakkında bilgiler içermektedir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346330"
 ---
-
 # <a name="project-invoicing"></a>Proje faturalama
 
 [!include [banner](../includes/banner.md)]
@@ -121,7 +120,6 @@ Aynı belge alacaklandırma için seçilenleri, alacak hareketlerini ve deftere 
 Faturalandırmış bir tutarı alacaklandırmak için, önce alacaklandırmak için faturalandırılmış tutarı seçin ve sonra alacak dekontunu oluşturun. Bir alacak dekontunu bir müşteri faturasını oluşturmak için kullanacağınız aynı prosedürü izleyerek oluşturursunuz. 
 
 Bir alacak dekontu olarak sınıflandırılacak bir fatura haline gelecek, negatif tutara sahip bir fatura oluşturabilirsiniz. Bir alacak dekontunu oluşturmak ve yazdırmak için daha önce bir müşteri faturası için deftere nakledilen hareketleri seçmeli ve ardından hareketlerinde değişiklik yapmalısınız. Tüzel kişiliğin birincil adresi Almanya'da olmadığı sürece, faturanın başlığı "Düzeltme faturası" olacaktır.
-
 
 
 

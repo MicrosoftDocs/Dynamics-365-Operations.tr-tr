@@ -1,13 +1,13 @@
---- 
-title: "Toplu işe alma projesi oluşturma"
-description: "Bu prosedürde, bir toplu işe alma projesini ayarlama sürecinde size yol gösterilecek."
+---
+title: Toplu işe alma projesi oluşturma
+description: Bu prosedürde, bir toplu işe alma projesini ayarlama sürecinde size yol gösterilecek.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMMassHireProject,  HRMMassHireLineCreate, HcmJobLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f352435f8ad04f676aa786aae4669e3586a5715c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a8789d7c5b06e83d0d1799b249b48a00e7c0ae34
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328229"
 ---
 # <a name="create-a-mass-hire-project"></a>Toplu işe alma projesi oluşturma
 
@@ -47,5 +47,4 @@ Bu prosedürde, bir toplu işe alma projesini ayarlama sürecinde size yol göst
     * Varsayılan tam zamanlı eşdeğeri, seçilen işten alınır. Gerekirse bunu değiştirebilirsiniz.  
     * İsteğe bağlı olarak, yeni pozisyonlar için Departman seçin.  
 13. Tamam'a tıklayın.
-
 

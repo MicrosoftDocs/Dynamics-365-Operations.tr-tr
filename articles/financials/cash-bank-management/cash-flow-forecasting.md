@@ -1,13 +1,13 @@
 ---
-title: "Nakit akışı tahmini"
-description: "Bu konu, nakit akışı genel görünüm işlemine bir genel bakış sağlar. Nakit akışı tahmininin sistemdeki diğer modüllerle nasıl tümleşik olduğunu da açıklar."
+title: Nakit akışı tahmini
+description: Bu konu, nakit akışı genel görünüm işlemine bir genel bakış sağlar. Nakit akışı tahmininin sistemdeki diğer modüllerle nasıl tümleşik olduğunu da açıklar.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 681817f2879034d65b53666a9d56ec00cc175ad8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324503"
 ---
-
 # <a name="cash-flow-forecasting"></a>Nakit akışı tahmini
 
 [!include [banner](../includes/banner.md)]
@@ -138,5 +137,4 @@ Ek olarak, belirli hesaplar, siparişler ve maddeler hakkındaki nakit akışı 
 - **Tüm satınalma siparişleri**: Seçili satınalma siparişlerinin tahmin edilen nakit etkisinin görmek için **Fatura** sekmesinde, **Nakit akışı tahmini**'ni seçin.
 - **Tedarik tahmini**: Seçili madde tedarik tahmini ile ilişkilendirilmiş gelecek nakit akışlarını görüntülemek için **Nakit akışı tahminleri**'ni seçin.
 - **Talep tahmini**: Seçili madde talep tahmini ile ilişkilendirilmiş gelecek nakit akışlarını görüntülemek için **Nakit akışı tahminleri**'ni seçin.
-
 

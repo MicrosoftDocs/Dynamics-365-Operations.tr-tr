@@ -1,13 +1,13 @@
 ---
-title: "Operasyon planlama çizelgeleme seçenekleri"
-description: "Bu konu, Operasyon planlama çizelgelemesi seçeneklerini açıklar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz."
+title: Operasyon planlama çizelgeleme seçenekleri
+description: Bu konu, Operasyon planlama çizelgelemesi seçeneklerini açıklar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0f3c9c40437d368b006b0f2b5a2ddd65d228ac87
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 41d5d933a43f5cc4c84c33bdb0896c9d4a9a28cc
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317971"
 ---
-
 # <a name="operations-scheduling-options"></a>Operasyon planlama çizelgeleme seçenekleri
 
 [!include [banner](../includes/banner.md)]
@@ -132,7 +131,6 @@ Geçerli değerleri, varsayılan değerler olarak kaydedebilirsiniz. İki seçen
 --------
 
 [Operasyon planlaması](operations-scheduling.md)
-
 
 
 

@@ -1,45 +1,44 @@
 ---
-title: "İyileştirme danışmanı"
-description: "Bu konu Microsoft Dynamics 365 Finance and Operations'ın optimum yapılandırmasını sağlamak üzere En iyi duruma getirme danışmanını nasıl kullanabileceğinizi açıklar."
+title: İyileştirme danışmanı
+description: Bu konu Microsoft Dynamics 365 Finance and Operations'ın optimum yapılandırmasını sağlamak üzere En iyi duruma getirme danışmanını nasıl kullanabileceğinizi açıklar.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 206b8a23a52d412d1810b8a355b09ecc461f00b3
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335635"
 ---
-
-# <a name="optimization-advisor"></a>İyileştirme danışmanı
+# <a name="optimization-advisor"></a>En iyi duruma getirme danışmanı
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 Finance and Operations'ın optimum yapılandırmasını sağlamak üzere En iyi duruma getirme danışmanını nasıl kullanabileceğinizi açıklar.
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel bakış
 
 Bir modülün hatalı yapılandırılması ve ayarlanması Finance and Operations'taki özelliklerin kullanılmasını, sistem performansını ve iş süreçlerinin sorunsuz işlemesini olumsuz etkileyebilir. İş verilerinin kalitesi (örneğin doğruluk, tamlık ve verilerin açıklığı) de sistem performansını ve kuruluşun karar verme yeteneklerini, verimliliğini etkiler.
 
 **En iyi duruma getirme danışmanı** çalışma alanı yetkili kullanıcılara, iş analistlerine, işlev danışmanlarına ve BT destek görevlilerine modül yapılandırmasındaki ve iş verilerindeki sorunları tanımlama olanağı sunar. En iyi duruma getirme danışmanı modülü yapılandırması için en iyi yöntemleri önerir ve eski veya yanlış iş verilerini tanımlar.
 
-En iyi duruma getirme danışmanı düzenli aralıklarla en iyi uygulama kuralları kümesi çalıştırır. Microsoft Dynamics 365 for Finance and Operations 8.0 sürümüyle (Nisan 2018) birlikte varsayılan bir kural kümesi yayımlanmıştır. Bununla birlikte, kullanıcılar kendi özelleştirmelerine, bağımsız yazılım satıcılarından (ISV) aldıkları çözümlere ve iş verilerine özel kurallar da oluşturabilirler. Kural oluşturmayla ilgili daha fazla bilgi için bkz. [Yeni kurallar oluşturma](./create-rules-optimization-advisor.md).
+En iyi duruma getirme danışmanı düzenli aralıklarla en iyi uygulama kuralları kümesi çalıştırır. Varsayılan kurallar kümesi Microsoft Dynamics 365 for Finance and Operations sürüm 8.0 (Nisan 2018) ile serbest bırakılmıştır. Bununla birlikte, kullanıcılar kendi özelleştirmelerine, bağımsız yazılım satıcılarından (ISV) aldıkları çözümlere ve iş verilerine özel kurallar da oluşturabilirler. Kural oluşturmayla ilgili daha fazla bilgi için bkz. [Yeni kurallar oluşturma](./create-rules-optimization-advisor.md).
 
 Bir kural ihlali tespit edildiğinde, en iyi duruma getirme fırsatı oluşturulur ve **En iyi duruma getirme danışmanı** çalışma alanında görüntülenir. Bir kullanıcı doğrudan **En iyi duruma getirme danışmanı** çalışma alanından uygun düzeltici eylemi gerçekleştirebilir.
 
@@ -49,7 +48,7 @@ En iyi duruma getirme fırsatlarına standart güvenlik ilkeleri uygulanır. Ör
 
 Bazı en iyi durumu getirme fırsatlarıyla ilgili eylem gerçekleştirdiğinizde, sistem iş süreçlerinin çalışma zamanında azalma açısından fırsatın etkisini hesaplar. Ne yazık ki, bu özellik tüm en iyi duruma getirme iş fırsatları için kullanılamaz.
 
-En iyi duruma getirme danışmanı hakkında daha fazla bilgi için [Dynamics 365 for Finance and Operations'taki en iyi duruma getirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ) kısa videosunu izleyin.
+İyileştirme danışmanı hakkında daha fazla bilgi almak için kısa [Dynamics 365 for Finance and Operations içindeki İyileştirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ) videosunu izleyin.
 
 ## <a name="optimization-rules"></a>En iyi duruma getirme kuralları
 
@@ -95,5 +94,4 @@ Belirli kuralların değerlendirmesini devre dışı bırakmak için kural taraf
 
 [Yeni kurallar oluşturma](./create-rules-optimization-advisor.md)
 
-[Dynamics 365 for Finance and Operations'daki en iyi duruma getirme danışması (Video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+[Dynamics 365 for Finance and Operations içindeki İyileştirme danışmanı (Video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

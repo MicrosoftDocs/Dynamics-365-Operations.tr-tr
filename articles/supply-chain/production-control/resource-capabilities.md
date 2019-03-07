@@ -1,13 +1,13 @@
 ---
 title: Kaynak yetenekleri
-description: "Bu makale, kaynak yetenekleri hakkında bilgi sağlar. Yetenek, bir operasyon kaynağının belirli bir etkinliği gerçekleştirebilme becerisidir. Makale, yeterlilik düzeyi ve öncelik gibi yeteneklerin ve ilgili kavramların bir etkinlik için uygun kaynakların seçilmesinde nasıl kullanıldığını açıklar."
+description: Bu makale, kaynak yetenekleri hakkında bilgi sağlar. Yetenek, bir operasyon kaynağının belirli bir etkinliği gerçekleştirebilme becerisidir. Makale, yeterlilik düzeyi ve öncelik gibi yeteneklerin ve ilgili kavramların bir etkinlik için uygun kaynakların seçilmesinde nasıl kullanıldığını açıklar.
 author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 567b4c5544f2a58801fefb1aa9d4c72815913910
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 533faf78e4cc9a091d64f7c6a0f82d14158710c8
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319305"
 ---
-
 # <a name="resource-capabilities"></a>Kaynak yetenekleri
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Bu örnekte, (Drilling) temel yeteneği gereksinimi karşıladığı için her i
 
 ## <a name="competencies-for-human-resources"></a>İnsan kaynakları için yetkinlikler
 İnsan Kaynakları çalışanlarının bağlı **İnsan Kaynakları** işlem kaynakları türüne sahip olduğunuzda üretim rotası için kaynak gereksinimleri tanımladığınızda, ayrıca çalışanların yetkinliklerinden yararlanabilirsiniz. Diğer bir deyişle, gereksinimleri için özel nitelikler, kurslar, sertifikaları veya başlık belirtebilirsiniz. Zamanlama altyapısı sonra işçilere bağlı kaynakları seçer ve seçimi, bu çalışanların yetkinlikleri üzerinde temel alır. Yetkinlikler İnsan Kaynakları'nda kurulur, **kaynak yetenekleri** sayfasında değil. Becerileri, kursları, sertifikaları veya başlıkları kaynak gereksinimleri olarak tanımladığınızda, İnsan kaynakları işlevini kullanmanız ve **İnsan Kaynakları** türündeki her kaynağı karşılık gelen bir çalışana bağlamanız gerekir. İnsan Kaynakları işlevini kullanmıyorsanız, yetenekleri İnsan kaynaklarına benzeyen veya yetenekleri buradan kopyalayan **Kaynak yetenekleri** sayfasında tanımlayabilirsiniz. Ancak, **kaynak yetenekleri** sayfası nitelikleri, kurslar, sertifikaları veya başlıklar sağlamak için gerekli işlevselliği içermez.
-
 
 
 

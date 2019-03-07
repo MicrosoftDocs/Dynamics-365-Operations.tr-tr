@@ -1,13 +1,13 @@
 ---
-title: "Satıcı talep konfigürasyonları"
-description: "Bu konu, yeni bir satıcı talebinde doldurulması gerekli olan alanları açıklar."
+title: Satıcı talep konfigürasyonları
+description: Bu konu, yeni bir satıcı talebinde doldurulması gerekli olan alanları açıklar.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: d238e0dbb754e88dcffa171456aa0a2336238cab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: e9b22a6f846607e8afc5d4f01c685f1364b1c01d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332530"
 ---
-
 # <a name="vendor-request-configurations"></a>Satıcı talep konfigürasyonları
 [!include [banner](../includes/banner.md)]
 
@@ -54,5 +53,4 @@ Ayrıca, sihirbaz tamamlandığı zaman gösterilecek bir onay iletisi girebilir
 3.  **Kaydet**'e tıklayın.
 4.  Yapılandırmanın kullanılacağı ülkeyi/bölgeyi seçmek için **Ülke/bölgeler** sekmesini açın.
 5.  Varsayılan yapılandırma talimatlarını izleyerek yapılandırmayı tamamlayın.
-
 

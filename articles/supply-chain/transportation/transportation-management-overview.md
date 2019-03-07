@@ -1,13 +1,13 @@
 ---
-title: "Taşıma yönetimine genel bakış"
-description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations'daki taşıma yönetimi işlevine genel bir bakış sunulur."
+title: Taşıma yönetimine genel bakış
+description: Bu konuda, Microsoft Dynamics 365 for Finance and Operations'daki taşıma yönetimi işlevine genel bir bakış sunulur.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355622"
 ---
-
 # <a name="transportation-management-overview"></a>Taşıma yönetimine genel bakış
 
 [!include [banner](../includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 for Finance and Operations'daki taşıma yönetimi işlevine genel bir bakış sunulur.
 
-Taşıma yönetimi, şirketinizin taşımalarını kullanmanıza olanak tanır ve satıcı ile gelen ve giden siparişler için yönlendirme çözümlerini belirlemenizi sağlar. Örneğin bir sevkiyat için en hızlı yolu veya en ucuz oranı tanımlayabilirsiniz. Aşağıdaki tablo, Microsoft Dynamics 365 for Finance and Operations'daki Taşıma yönetiminin kullanılmasına ilişkin ana senaryoları açıklar.
+Taşıma yönetimi, şirketinizin taşımalarını kullanmanıza olanak tanır ve satıcı ile gelen ve giden siparişler için yönlendirme çözümlerini belirlemenizi sağlar. Örneğin bir sevkiyat için en hızlı yolu veya en ucuz oranı tanımlayabilirsiniz. Aşağıdaki tabloda, Microsoft Dynamics 365 for Finance and Operations'teki Taşıma yönetiminin kullanılmasına ilişkin ana senaryolar açıklanmaktadır.
 
 <table>
 <colgroup>
@@ -85,7 +84,6 @@ Belirli maddeleri şirketin ambarından müşteriye sevk etmek için giden yük 
 
 ## <a name="load-building"></a>Yapıyı yükle
 Finance and Operations, Hacim tabanlı yük oluşturma stratejisi olarak adlandırılan bir yük oluşturma stratejisi sunar. Bu strateji, yük şablonunda yükseklik ve ağırlık için belirtilen maksimum değerleri kullanmanıza olanak tanır; veya yeni değerler girerek ayarları geçersiz kılabilirsiniz. Kullanmak için **Yük oluşturma workbench'i** sayfasında bulunan **Ayar** Hızlı sekmesindeki **Yük oluşturma stratejisi** alanından bu stratejiyi seçebilirsiniz. Ayrıca, Uygulama Nesne Ağacı'nda (AOT) yeni bir sınıf oluşturarak kendi yük oluşturma stratejinizi ekleyebilirsiniz.
-
 
 
 

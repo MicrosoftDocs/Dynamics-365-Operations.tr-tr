@@ -1,13 +1,13 @@
 ---
-title: "Satın almadan önce"
-description: "Dynamics 365 for Finance and Operations, satın almayı düşündüğünüzde adım adım yönergeler."
+title: Satın almadan önce
+description: Dynamics 365 for Finance and Operations satın almayı düşünüyorsanız adım adım yönergeler.
 author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,27 +16,26 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345479"
 ---
-
 # <a name="before-you-buy"></a>Satın almadan önce
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 for Finance and Operations'taki yenilikler nelerdir? Finance and Operations'ı değerlendirdiğiniz veya satın almaya hazır olduğunuz zamanlar için adım adım yönergeler hazırladık.
+Dynamics 365 for Finance and Operations ile yeni mi tanışıyorsunuz? Finance and Operations'ı değerlendirdiğiniz veya satın almaya hazır olduğunuz zamanlar için adım adım yönergeler hazırladık.
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Adım bir: Finance and Operations'ı 30 gün ücretsiz deneyin
 
-Dynamics 365 for Finance and Operations'ı e-posta ile basitçe kaydolarak 30 gün deneyebilirsiniz. Finance and Operations'un deneme sürümü, çeşitli senaryoları görmenize olanak veren adım adım yönergeler sağlayan Başlarken görev kılavuzlarını içerir. Ürünün senaryoları keşfedilebilir ve denenebilir, ancak özelleştirilemez. Eklenmiş olan demo verileri, ürünün kullanımını kolaylaştırır ve deneyimi daha anlamlı hale getirir. Deneme süresinin sona ermesinden 3 gün önce bir anımsatıcı e-posta gönderilir. Ayrıntılara [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations) adresinden ulaşın.
+Dynamics 365 for Finance and Operations'u 30 gün boyunca basit bir e-posta kaydıyla deneyebilirsiniz. Finance and Operations'un deneme sürümü, çeşitli senaryoları görmenize olanak veren adım adım yönergeler sağlayan Başlarken görev kılavuzlarını içerir. Ürünün senaryoları keşfedilebilir ve denenebilir, ancak özelleştirilemez. Eklenmiş olan demo verileri, ürünün kullanımını kolaylaştırır ve deneyimi daha anlamlı hale getirir. Deneme süresinin sona ermesinden 3 gün önce bir anımsatıcı e-posta gönderilir. Ayrıntılara [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations) adresinden ulaşın.
 
 ## <a name="step-two-choose-a-deployment-option"></a>Adım iki: Bir dağıtım seçeneği belirleme
 
-Microsoft Dynamics 365 for Finance and Operations'ı artık bulutta veya şirket içinde dağıtabilirsiniz. Bulut dağıtımları, tümüyle Microsoft tarafından yönetilen bir ERP hizmeti sunarken, şirket içi dağıtımlar, müşterinin veri merkezinde yerel olarak dağıtılır.
+Microsoft Dynamics 365 for Finance and Operations'u şimdi bulut veya yerinde dağıtabilirsiniz. Bulut dağıtımları, tümüyle Microsoft tarafından yönetilen bir ERP hizmeti sunarken, şirket içi dağıtımlar, müşterinin veri merkezinde yerel olarak dağıtılır.
 
 Dağıtım seçeneği olarak şirket içini seçtiğinizde aşağıdaki önemli noktaların dikkate alınması gerekir:
 
@@ -46,7 +45,7 @@ Dağıtım seçeneği olarak şirket içini seçtiğinizde aşağıdaki önemli 
 - [Altyapı minimum gereksinimleri](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> Microsoft Dynamics 365 for Finance and Operations'ın şirket içi dağıtımları, Azure dahil olmak üzere genel bulut altyapısında desteklenmez.
+> Microsoft Dynamics 365 for Finance and Operations yerinde dağıtımları, Azure dahil herhangi bir genel bulut altyapısında desteklenmemektedir.
 
 Daha fazla bilgi için bkz. [Dağıtım seçenekleri](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -54,7 +53,7 @@ Daha fazla bilgi için bkz. [Dağıtım seçenekleri](../../dev-itpro/deployment
 
 Abonelik seçeneklerini keşfetmek için [Dynamics 365](https://www.microsoft.com/dynamics365/pricing) fiyatlandırma sayfasına gidin. Bu sayfa, kuruluşunuzun ihtiyaçlarına uymak için çeşitli farklı planları içerir.
 
-Dynamics 365 for Finance and Operations aboneliği satın almak birçok yol vardır:
+Dynamics 365 for Finance and Operations aboneliği satın almanın pek çok yolu vardır:
 
 - Bir ortak aracılığıyla satın alın ve toplu lisanslama kullanın (bulut veya şirket içi)
 - Bir Bulut çözüm sağlayıcı aracılığıyla satın alın (yalnızca bulut)
@@ -79,7 +78,7 @@ Bir Microsoft Bulut Çözüm Sağlayıcı, işletmenizin veya kuruluşunuzun iht
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Bir Dynamics ortağı üzerinden satın alın (şirket içi)
 
-Finance and Operations şirket içi satın almak için bir ortak ile birlikte çalışmalısınız. Daha fazla bilgi için bkz. [Dynamics 365 for Finance and Operations (şirket içi) satın alma](purchase-on-premises.md)
+Finance and Operations şirket içi satın almak için bir ortak ile birlikte çalışmalısınız. Daha fazla bilgi için bkz. [Dynamics 365 for Finance and Operations (yerinde) satın al](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Destek seçeneğinizi belirleyin
 
@@ -96,5 +95,4 @@ Dynamics 365 için Microsoft FastTrack, işletme değerini daha hızlı gerçekl
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Dynamics AX 2012'den yükseltme veya AX 2009'dan geçiş yapıyorsanız
 
-Microsoft Dynamics AX 2012'den yükseltme veya Microsoft AX 2009'dan geçiş yapan bir müşteriyseniz, daha uzun süreli bir deneme sürümüne hak sahibi olabilirsiniz. Daha fazla bilgi için <daxcf@microsoft.com> ile iletişime geçin.
-
+Microsoft Dynamics AX 2012'den yükseltme veya Microsoft Dynamics AX 2009'dan geçiş yapan bir müşteriyseniz, daha uzun süreli bir deneme sürümüne hak sahibi olabilirsiniz. Daha fazla bilgi için <daxcf@microsoft.com> ile iletişime geçin.

@@ -1,13 +1,13 @@
 ---
-title: "Fatura eşleştirme ve şirketlerarası satınalma siparişleri"
-description: "Bir şirketlerarası ticaret hareketinde yer alan satın alma tüzel kişiliği, borç hesapları fatura eşleştirmesini kullanacak şekilde ayarlanabilir. Bu durumda, şirketlerarası satıcı faturalarının deftere nakledilebilmesi için, hem şirketlerarası ticaret için, hem de borç hesapları fatura eşleştirmesi için deftere nakil gereksinimleri karşılanmalıdır."
+title: Fatura eşleştirme ve şirketlerarası satınalma siparişleri
+description: Bir şirketlerarası ticaret hareketinde yer alan satın alma tüzel kişiliği, borç hesapları fatura eşleştirmesini kullanacak şekilde ayarlanabilir. Bu durumda, şirketlerarası satıcı faturalarının deftere nakledilebilmesi için, hem şirketlerarası ticaret için, hem de borç hesapları fatura eşleştirmesi için deftere nakil gereksinimleri karşılanmalıdır.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357577"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Fatura eşleştirme ve şirketlerarası satınalma siparişleri
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Bu örnek Fabrikam Satınalma borç hesapları fatura eşleştirme için aşağ�
 2.  Fabrikam Satışlar'da ICSO999 için bir fatura güncelleştirmesi gerçekleştirin. Madde stokta olmadığı ve henüz alınmadığı için deftere nakil başarısız olur. Bu nedenle, mali bilgileri güncelleştirilemez.
 3.  Maddelerin alındığını Fabrikam Satışlar'da kaydedin ve ICSO999 için bir sevk irsaliyesini deftere nakledin. Fabrikam Satınalma'da ICPO333 için bir ürün girişi otomatik olarak deftere nakledilir. Fabrikam Satınalma'da B-R14 maddesi için alınan miktar 100 olarak değişir.
 4.  Fabrikam Satışlar'da ICSO999 için bir fatura güncelleştirmesi gerçekleştirin. Deftere nakil her iki düzel kişilikte de başarılı olur. Fabrikam Satınalma'da B-R14 maddesi için satın alınan miktar 100 olarak değişir. 
-
 
 
 

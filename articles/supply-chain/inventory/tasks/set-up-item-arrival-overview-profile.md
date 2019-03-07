@@ -1,13 +1,13 @@
---- 
-title: "Madde varışı genel bakış profili ayarlama"
-description: "Bu görev bir varış genel bakış profili kurulumu üzerinde odaklanır."
+---
+title: Madde varışı genel bakış profili ayarlama
+description: Bu görev bir varış genel bakış profili kurulumu üzerinde odaklanır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2b61d77072358083a35de28003176cb88e53453e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5ddc491d73bbb6ac02e37a9c9b9d93545f6f9556
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338027"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Madde varışı genel bakış profili ayarlama
 
@@ -63,5 +63,4 @@ Bu görev bir varış genel bakış profili kurulumu üzerinde odaklanır. Varı
     * Transfer emirlerinden alış irsaliyesi satırlarını seçin.  
 17. Kaydet'e tıklayın.
 18. Sayfayı kapatın.
-
 

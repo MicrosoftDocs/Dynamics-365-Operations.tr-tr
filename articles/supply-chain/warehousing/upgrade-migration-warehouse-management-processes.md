@@ -1,13 +1,13 @@
 ---
-title: "Ambar yönetimini Microsoft Dynamics AX 2012'den Finance and Operations'a yükseltme"
-description: "Bu konu, ürün ve ambar yönetimi geçiş seçenekleri hakkında bilgi sağlar."
+title: Ambar yönetimini Microsoft Dynamics AX 2012'den Finance and Operations'a yükseltme
+description: Bu konu, ürün ve ambar yönetimi geçiş seçenekleri hakkında bilgi sağlar.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,20 +18,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324480"
 ---
-
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Ambar yönetimini Microsoft Dynamics AX 2012'den Finance and Operations'a yükseltme
 
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, WMSII modülü çalıştıran Microsoft Dynamics AX 2012 R3'ü Microsoft Dynamics 365 for Finance and Operations'a yükseltme işlemine genel bir bakış sağlar.
+Bu konu, WMSII modülünü çalıştıran Microsoft Dynamics AX 2012 R3'ten, Microsoft Dynamics 365 for Finance and Operations'e yükseltme işlemi hakkında genel bakış sağlar.
 
 Finance and Operations, artık Microsoft Dynamics AX 2012'deki eski **WMSII** modülünü desteklememektedir. Bunun yerine, **Ambar yönetimi** modülünü kullanabilirsiniz. WMSII modülünde mali stok için Yerleşim ve Palet Kodu stok boyutları seçilebilir ancak Palet kodu stok boyutu Finance and Operations'da mali stok için kullanılamaz.
 
@@ -81,7 +80,6 @@ Yükseltme sırasında engellenen ürünlerin engelini kaldırmak üzere ürünl
 3.  **Rezervasyon hiyerarşisi** sayfasında, maddenin depolama ve izleme boyut gruplarına göre yeni bir ayırma hiyerarşisi tanımlayın.
 4.  En azından maddenin stok birimleri için kullanılanlarla aynı birimleri içeren bir veya daha fazla birim sırası grupları oluşturun.
 5.  **Ambar yönetimi** &gt; **Kurulum** &gt; **Ambar yönetimi işlemlerini etkinleştir** &gt; **Maddeler için depolama boyutu grubunu değiştir**'i tıklayın.
-6.  **Maddeler için depolama boyutu grubunu değiştir** sayfasında madde numaraları, depolama boyut grupları ve birim sıra grupları ekleyin. Bu adımı Microsoft Office tümleştirmesi kullanarak doğrudan sayfa üzerinde veya [Veri yönetimi](../../dev-itpro/data-entities/data-entities.md) içindeki veri varlığı işlemini kullanarak tamamlayabilirsiniz.
+6.  **Maddeler için depolama boyutu grubunu değiştir** sayfasında madde numaraları, depolama boyut grupları ve birim sıra grupları ekleyin. Bu adımı Microsoft Officetümleştirmesi kullanarak doğrudan sayfa üzerinde veya [Veri yönetimi](../../dev-itpro/data-entities/data-entities.md) içindeki veri varlığı işlemini kullanarak tamamlayabilirsiniz.
 7.  Değişiklikleri doğrulayın. Doğrulama işleminin bir parçası olarak çeşitli veri bütünlüğünü doğrulamaları oluşur. Daha büyük bir yükseltme işleminin bir parçası olarak, oluşan sorunların kaynak uygulamasında düzeltilmesi gerekebilir. Bu durumda, ek veri yükseltme gerekir.
 8.  Değişiklikleri işleyin. Stok boyutlarının güncelleştirilmesi biraz zaman alabilir. İlerlemeyi toplu iş görevlerini kullanarak izleyebilirsiniz.
-

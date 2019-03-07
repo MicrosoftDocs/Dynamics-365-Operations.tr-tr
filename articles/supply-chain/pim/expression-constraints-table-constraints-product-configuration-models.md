@@ -1,13 +1,13 @@
 ---
-title: "Ürün yapılandırma modellerindeki ifade kısıtlamaları ve tablo kısıtlamaları"
-description: "Bu konuda ifade kısıtlamalarının ve tablo kısıtlamalarının kullanımı açıklanmaktadır. Kısıtlamalar ürünleri satış siparişi, satış teklifi, satınalma siparişi veya üretim emri için yapılandırdığınızda, seçebileceğiniz öznitelik değerlerini denetler. Kısıtlamaları nasıl oluşturmayı tercih ettiğinizde bağlı olarak ifade kısıtlamalarını veya tablo kısıtlamalarını kullanabilirsiniz."
+title: Ürün yapılandırma modellerindeki ifade kısıtlamaları ve tablo kısıtlamaları
+description: Bu konuda ifade kısıtlamalarının ve tablo kısıtlamalarının kullanımı açıklanmaktadır. Kısıtlamalar ürünleri satış siparişi, satış teklifi, satınalma siparişi veya üretim emri için yapılandırdığınızda, seçebileceğiniz öznitelik değerlerini denetler. Kısıtlamaları nasıl oluşturmayı tercih ettiğinizde bağlı olarak ifade kısıtlamalarını veya tablo kısıtlamalarını kullanabilirsiniz.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356657"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Ürün yapılandırma modellerindeki ifade kısıtlamaları ve tablo kısıtlamaları
 
 [!include [banner](../includes/banner.md)]
@@ -170,7 +169,7 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 </tr>
 <tr class="even">
 <td>Güç</td>
-<td>Vu, üslü değer alır. Kuvveti sağdan sola uygular. (Diğer bir deyişle, sağa ilişkilendirilebilir.) Bu nedenle, <strong>Power[a, b, c]</strong> <strong>Power[, Power[b, c]]</strong> ile eşdeğerdir. <strong>Power</strong>, üs yalnızca pozitif bir sabit sayı ise kullanılabilir.</td>
+<td>Vu, üslü değer alır. Kuvveti sağdan sola uygular. (Diğer bir deyişle, sağa ilişkilendirilebilir.) Bu nedenle, <strong>Power[a, b, c]</strong>, <strong>Power[, Power[b, c]]</strong> ile eşdeğerdir. <strong>Power</strong>, üs yalnızca pozitif bir sabit sayı ise kullanılabilir.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>İşleç:</strong> Power[x, 2] == y</li>
@@ -223,7 +222,7 @@ Sonraki tablodaki örnekler parantezli yazımın nasıl yazılacağını göster
 |        (x)        |                           Parantezler varsayılan önceliği geçersiz kılar.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>İfade kısıtlamalarım neden hatasız doğrulanmıyor?
-Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapılandırma modelinde alt bileşenleri için çözücü ad olarak kullanamazsınız. Kullanamayacağınız anahtar sözcüklerin bir listesi aşağıdadır:
+Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapılandırma modelinde alt bileşenleri için çözücü ad olarak kullanamazsınız. Kullanamayacağınız anahtar sözcüklerin bir listesi aşağıdadır:
 
 -   Üst
 -   Öğe
@@ -252,7 +251,6 @@ Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapı
 [Ürün yapılandırma modeline ifade kısıtlaması oluşturun (Görev kılavuzu)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Ürün yapılandırma modeline hesaplama ekleme (Görev kılavuzu)](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma"
-description: "Bu konu, Microsoft Dynamics 365 for Retail'de çağrı merkezi siparişi için teslimat şekillerinin ve masrafların nasıl ayarlanacağını açıklamaktadır."
+title: Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
+description: Bu konu, Microsoft Dynamics 365 for Retail içinde bir çağrı merkezi siparişinin teslimat modlarını ve giderlerini ayarlamayı açıklar.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
-ms.openlocfilehash: ebc8ee52da7d10ca18147684a0190e52a495ad5a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328436"
 ---
-
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
 
 [!INCLUDE [banner](includes/banner.md)]
@@ -96,4 +95,3 @@ Seçilen teslimat şekli sipariş veya sipariş satırı için tanımlanmış ü
 Örneğin ertesi gün havayoluyla sevk edilecek siparişler için, ambardan malzeme çekme işleminin her gün 13:00'a kadar yapılması gerekir. Bu durumda, bir hızlandırma kodu oluşturulabilir ve bu kod, sistemde yapılandırılmış herhangi bir ertesi gün teslimat şekline bağlanabilir. Ambar, çekme dalgasını oluştururken, **Hızlandır** alanındaki ilgili hızlandırma kodu bir filtre olarak kullanılıp, malzeme çekme işleminin, teslimat şekilleri yalnızca o kodla bağlantılı siparişler için çalıştırılması sağlanabilir.
 
 Ek olarak, bir çağrı merkezi siparişi girilirken ya satış siparişi üst bilgisine veya tek bir satış sipariş satırına el ile bir hızlandırma kodu uygulanabilir. Yine, bu kod, sıralama veya raporlama amacıyla kullanılabilir. Bazı durumlarda, bir müşteri hizmeti sorunu nedeniyle bir siparişin dikkatle ele alınması gerekir. Böyle durumlarda, sipariş karşılama sürecinde siparişin saptanıp öncelik kazanmasına yardımcı olmak için sipariş üst bilgisine veya satırlarına belirli bir hızlandırma kodu uygulanabilir.
-

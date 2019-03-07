@@ -1,13 +1,13 @@
 ---
-title: "Etkinlik tabanlı alt sözleşme verme"
-description: "Bu konu, alt sözleşmeli etkinliklerin yalın imalat için üretim akışında nasıl kullanılacağını ayrıntılarıyla açıklar."
+title: Etkinlik tabanlı alt sözleşme verme
+description: Bu konu, alt sözleşmeli etkinliklerin yalın imalat için üretim akışında nasıl kullanılacağını ayrıntılarıyla açıklar.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350056"
 ---
-
 # <a name="activity-based-subcontracting"></a>Etkinlik tabanlı alt sözleşme verme
 
 [!include [banner](../includes/banner.md)]
@@ -89,7 +88,7 @@ Transfer etkinliği, transfer etkinliğinin **Navlun sorumlusu** ayarına bağl�
 ## <a name="service-quantity-calculation"></a>Hizmet miktarı hesaplama
 Tüm bu satınalma işlemi, bir hizmet için öğe referansına dayanır. Bu öğe referansı, bir hizmet ölçüm biriminde ölçülür. Hizmetler genellikle ya hizmetlerin sayısı (birim) ya da zaman cinsinden ölçülür. Kanban işlerinin kayıtlı tamamlanmalarına dayanarak hizmet miktarını hesaplamak için, aşağıdaki yöntemleri kullanabilirsiniz:
 
--   **İşlerin sayısına dayanan hesaplama** – Bir kanban işi *n* birim hizmete karşılık gelir, sağlanan ürün miktarı ne olursa olsun. Yalın imalatta, bir iş bir işlem birimine karşılık gelir. Bu hesaplama yöntemi, işlem birimi başına sabit bir fiyata sahip tüm hizmetlere uygulanır. Bu nedenle, bu yöntem genellikle aktarma etkinlikleri için geçerlidir. Ancak, tüm işleme birimlerini işleyen işlem etkinliklerine de uygulanabilir.
+-   **İşlerin sayısına dayanan hesaplama** - Bir kanban işi *n* birim hizmete karşılık gelir, sağlanan ürün miktarı ne olursa olsun. Yalın imalatta, bir iş bir işlem birimine karşılık gelir. Bu hesaplama yöntemi, işlem birimi başına sabit bir fiyata sahip tüm hizmetlere uygulanır. Bu nedenle, bu yöntem genellikle aktarma etkinlikleri için geçerlidir. Ancak, tüm işleme birimlerini işleyen işlem etkinliklerine de uygulanabilir.
 -   **Ürün miktarını temel alan hesaplama** - Hizmet miktarı, zamanlanan/sağlanan ürün miktarıyla bağıntılıdır. Sağlanan ürün miktarı hesaplandığında, hata miktarları dahil edilebilir veya hariç tutulabilir. Bu hesaplama yöntemi, işlenen ürün başına birim hizmet fiyatının önceden anlaşmaya varıldığı tüm durumlara uygulanır.
 -   **Etkinlik süresine dayanan hesaplama** – Teorik etkinlik süreleri, etkinliğin işleme süresine, toplam işlenen miktara ve işlenen ürünün iş çıkarma yeteneği oranına dayanarak hesaplanır. Bu hesaplama yöntemi, saat başına ödeme yapılan hizmetlere uygulanır ve işlenmiş ürün içinde bir zaman farkı vardır.
 
@@ -104,7 +103,6 @@ Bir maliyet döneminin sonundaki yalın imalat için geriye dönük maliyetlendi
 Yalın üretim içerisinde etkinlik tabanlı alt sözleşme, malzemeleri ve ürünleri bir üretim akışının konumları arasında nakleden taşıyıcıları ve taşıma satıcılarını bütünleştirmenize olanak sağlar. Bir transfer etkinliğini modelleyerek, bir taşıyıcı veya satıcı atayabilirsiniz. Transfer etkinlikleri/işi, bir hizmete ve satınalma sözleşmesine dayanır ve gerçek transfer işlerine dayanan satınalma emirleri ve giriş önerileri oluşturabilirsiniz. Bu işlevsellik, alt sözleşmeli işlem etkinlikleri işlevselliğiyle aynıdır.  
 
 Bu nedenle, Finance and Operations artık taşıma hizmetlerini içeren ürün reçetesi hesaplamasını, ilişkili satınalma emirlerinin oluşturulmasını, tümleştirilmiş giriş kayıtlarını ve taşıma hizmeti maliyetlerini üretim akışı maliyetine katmayı destekler.
-
 
 
 

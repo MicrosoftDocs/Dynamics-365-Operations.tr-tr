@@ -1,13 +1,13 @@
 ---
-title: "SEPA otomatik ödemeye genel bakış"
-description: "Tek Euro ödemeleri Alanı (SEPA), Avrupa Komisyonu tarafından ayarlanır ve tüm elektronik ödemelerin birey, işletme veya kuruluş ve bankanın bulunduğu ülke/bölgeden bağımsız olarak yurtiçi olarak kabul edildiğini belirler. Ulusal ve sınır ötesi ödemeler arasında hiçbir fark yoktur. SEPA, 28 Avrupa Birliği (AB) üyesi devletlerinin yanı sıra İzlanda, Liechtenstein, Norveç, İsviçre, Monako ve San Marino'yu içerir. SEPA, Avrupa Ekonomik Alanı (EEA) içinde ödeme hareketleri için tek bir pazar oluşturulmasına yardımcı olur. Sonuçta, SEPA'nın bankalar, işyerleri ve bireylerin çalışması gereken ödeme sayısını azaltması beklenir."
+title: SEPA otomatik ödemeye genel bakış
+description: Tek Euro ödemeleri Alanı (SEPA), Avrupa Komisyonu tarafından ayarlanır ve tüm elektronik ödemelerin birey, işletme veya kuruluş ve bankanın bulunduğu ülke/bölgeden bağımsız olarak yurtiçi olarak kabul edildiğini belirler. Ulusal ve sınır ötesi ödemeler arasında hiçbir fark yoktur. SEPA, 28 Avrupa Birliği (AB) üyesi devletlerinin yanı sıra İzlanda, Liechtenstein, Norveç, İsviçre, Monako ve San Marino'yu içerir. SEPA, Avrupa Ekonomik Alanı (EEA) içinde ödeme hareketleri için tek bir pazar oluşturulmasına yardımcı olur. Sonuçta, SEPA'nın bankalar, işyerleri ve bireylerin çalışması gereken ödeme sayısını azaltması beklenir.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c418c6412e4bd300616eed4577e2b1d3f3d181
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fb55f4b0b06019891c2e490eda837cfad882e6db
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359210"
 ---
-
 # <a name="sepa-direct-debit-overview"></a>SEPA otomatik ödemeye genel bakış
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ SEPA otomatik ödeme için elektronik ödeme dosyalarını aşağıdaki biçimle
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a> SEPA otomatik ödemelerde iadeler ve geri almalar nasıl işler?
 Her iki SEPA Otomatik Ödeme düzeninde de, müşterilerin iade almaya çeşitli hakları vardır. Yetkilendirilmiş tüm hareketleri vade tarihinden sekiz hafta sonrasına kadar, bir sebep göstermeksizin geri çekme hakkı müşteriye verilmiştir. Yetkisiz işlemler söz konusu olduğunda ise bu süre vade tarihinden sonraki 13 aya kadar genişletilir. Yapılmış herhangi ödemelerin geri çevrilmesi, Müşteri hareketleri sayfasında elden Ödemeyi iptal et butonuna tıklayarak yapılır.
-
 
 
 

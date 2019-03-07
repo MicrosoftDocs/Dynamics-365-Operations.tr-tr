@@ -1,13 +1,13 @@
---- 
-title: "Uyumlu olmayan yönetim için ön şartları ayarlama"
-description: "Uygunsuzluk yönetimi işlemlerini etkinleştirmek için bu yordamı kullanın."
+---
+title: Uyumlu olmayan yönetim için ön şartları ayarlama
+description: Uygunsuzluk yönetimi işlemlerini etkinleştirmek için bu yordamı kullanın.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters, InventTestReportSetup, SysUserManagement, SysUserSetup, InventTestDiagnosticType, InventTestMiscCharges, InventTestOperation, InventProblemType, InventProblemTypeSetup, InventQuarantineZone
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0a4062acc91e024e3a0a41c0b3cb35ff5ffe2a4a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337682"
 ---
 # <a name="set-up-prerequisites-for-nonconformance-management"></a>Uyumlu olmayan yönetim için ön şartları ayarlama
 
@@ -102,5 +102,4 @@ Uygunsuzluk yönetimi işlemlerini etkinleştirmek için bu yordamı kullanın. 
 3. Karantina bölgesi alanında bir değer girin.
 4. Açıklama alanına bir değer girin.
 5. Sayfayı kapatın.
-
 

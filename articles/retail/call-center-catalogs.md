@@ -1,13 +1,13 @@
 ---
-title: "Çağrı merkezi katalogları"
-description: "Bu konuda, Microsoft Dynamics 365 for Retail'de kataloglar için çağrı merkezine özel işlevler açıklanmaktadır."
+title: Çağrı merkezi katalogları
+description: Bu konu Microsoft Dynamics 365 for Retail'te kataloglar için çağrı merkezine özel işlevler açıklanır.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322755"
 ---
-
 # <a name="call-center-catalogs"></a>Çağrı merkezi katalogları
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda Microsoft Dynamics 365 for Retail'de katalog yetenekleriyle bağlantılı, çağrı merkezine özel işlevler açıklanmaktadır.
 
-Dynamics 365'te bulunan katalog özellikleri birden çok amaç için kullanılabilir. Başlangıçta katalog özellikleri üçüncü taraf e-Ticaret entegrasyonlarını desteklemek için oluşturulmuştur. Katalog kurulumu, şirketlerin, bir üçüncü taraf e-Ticaret çözümünün kullanımı için harici olarak yayınlanabilen ürün ve öznitelik gruplaması oluşturmalarına olanak sağladı.
+Dynamics 365 for Retail'te bulunan katalog özellikleri birden çok amaç için kullanılabilir. Başlangıçta katalog özellikleri üçüncü taraf e-Ticaret entegrasyonlarını desteklemek için oluşturulmuştur. Katalog kurulumu, şirketlerin, bir üçüncü taraf e-Ticaret çözümünün kullanımı için harici olarak yayınlanabilen ürün ve öznitelik gruplaması oluşturmalarına olanak sağladı.
 
 Dynamics 365 for Retail'e çağrı merkezi kanal desteği eklenince, katalog kavramı, geleneksel doğrudan tüketiciye pazarlama kataloglarıyla ilgili özellikleri desteklemek ve yönetmek için ek yetenekler dahil edecek şekilde genişletildi. Doğrudan tüketiciye hizmet eden bir şirket sık sık basılı kataloglar çıkarır ve bunları bir ya da birden fazla müşteri segmentine postalar. Bu kataloglar genellikle belirli promosyonlar veya müşteri sipariş oluşturma sırasında bir katalog tanımlama kodu sağladığı takdirde sunulacak teklifler içerir.
 
@@ -102,4 +101,3 @@ Kataloglar Dynamics 365 for Retail'de yapılandırılıp yayımlandığı için,
 ## <a name="additional-notes"></a>Ek notlar
 
 Şimdilik, çağrı merkezinde bir satış siparişine uygulanan kaynak kodu kimliği; fiyatları, promosyonları, komut dosyalarını ve dikey satış/çapraz satışları yönetmek için kullanılmaktadır. Sistem, katalogda olmayan bir ürünün satış siparişinde sipariş edilmesine bir yasak veya engel getirmeyecektir. Katalogda yer almayan bir madde sipariş edilirse, sistem ilk olarak çağrı merkezi kanalında (**Perakende** \> **Kanallar** \> **Çağrı merkezleri** \> **Tüm çağrı merkezleri**) madde fiyatı ve promosyonları için tanımlanan **Fiyat grubunu** kullanır. Belirli bir kanal fiyatı bulunamazsa, maddenin taban satış fiyatı kullanılır.
-

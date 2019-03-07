@@ -1,28 +1,27 @@
 ---
-title: "Müşteri ödeme bilgileri (önizleme)"
-description: "Bu konuda, Müşteri ödeme bilgilerinin, bir faturanın ne zaman ödeneceğini öngörmeye ve kuruluşlara zamanında ödeme yapma olasılığını artıran optimizasyon stratejileri oluşturmada nasıl yardımcı olabileceği açıklanmaktadır."
+title: Müşteri ödeme bilgileri (önizleme)
+description: Bu konuda, Müşteri ödeme bilgilerinin, bir faturanın ne zaman ödeneceğini öngörmeye ve kuruluşlara zamanında ödeme yapma olasılığını artıran optimizasyon stratejileri oluşturmada nasıl yardımcı olabileceği açıklanmaktadır.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-04-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 9e722db6302d7ef51c01601cde245d4f4a333eba
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344674"
 ---
-
 # <a name="customer-payment-insights-preview"></a>Müşteri ödeme bilgileri (önizleme)
 
 [!include[banner](../includes/banner.md)]
@@ -78,4 +77,3 @@ Müşteri ödeme bilgilerini (önizleme) denemekle ilgileniyorsanız lütfen [Ma
 ## <a name="privacy-statement"></a>Gizlilik Bildirimi
 
 Önizlemeler, müşteri verilerini Amerika Birleşik Devletleri’nde saklar. Ayrıca önizlemeler (1), Dynamics 365 for Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri kullanmamalıdır ve (4) sınırlı desteğe sahiptir.
-

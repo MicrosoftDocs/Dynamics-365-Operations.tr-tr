@@ -1,13 +1,13 @@
 ---
-title: "Satıcı iş akışı"
-description: "Satıcı bilgilerini değiştirin ve onaylamak için iş akışını kullanın."
+title: Satıcı iş akışı
+description: Satıcı bilgilerini değiştirin ve onaylamak için iş akışını kullanın.
 author: mikefalkner
 manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 950a1852acf9f3e4747ce2d55738c0eb3a646897
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329701"
 ---
-
 # <a name="vendor-workflow"></a>Satıcı iş akışı
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,7 @@ Satıcı iş akışı kullanıldığında belirli alanlarda yapılan değişikli
 
 ## <a name="change-vendor-information-and-submit-the-changes-to-the-workflow"></a>Satıcı bilgilerini değiştirme ve değişiklikleri iş akışına gönderme
 
-İş akışı için etkinleştirilen bir alanı değiştirdiğinizde **Önerilen değişiklikler** sayfası görüntülenir. Bu sayfada, alanın orijinal değeri ve girdiğiniz yeni değer gösterilir. Değiştirdiğiniz alan orijinal değerine geri döndürülür. Ayrıca bir durum iletisi ile değişikliklerinizin gönderilmediği bilgisi verilir. 
+İş akışı için etkinleştirilen bir alanı değiştirdiğinizde **Önerilen değişiklikler** sayfası görüntülenir. Bu sayfa alanın orijinal değerini ve girdiğiniz yeni değeri gösterir. Değiştirdiğiniz alan orijinal değerine geri döndürülür. Ayrıca bir durum iletisi ile değişikliklerinizin gönderilmediği bilgisi verilir. 
 
 İş akışı için etkinleştirilen bir alanı her değiştirdiğinizde bu alan, **Önerilen değişiklikler** sayfasındaki listeye eklenir. Bir alan için önerilen değeri atmak isterseniz listedeki alanın yanında bulunan **At** düğmesini kullanın. Tüm değişiklikleri atmak için sayfanın alt kısmındaki **Tüm değişiklikleri at** düğmesini kullanın. Sayfayı kapatmak için **Tamam** öğesini seçin.
 
@@ -59,7 +58,6 @@ En az bir önerilen değişiklik yaptıktan sonra eylem bölmesinde iki ek sekme
 1. **Önerilen değişiklikler** sayfasını seçmek için **Önerilen değişiklikler** öğesini seçin ve değişikliklerinizi gözden geçirin.
 2. Değişiklikleri iş akışına göndermek için **İş akışı \> Gönder** öğesini seçin.
 
-    Sayfadaki durum, **Değişiklikler onay bekliyor** olarak değişir.
+    Sayfadaki durum **Değişiklikler onay bekliyor** olarak değişir.
 
-İş akışı, Microsoft Dynamics 365 for Finance and Operations'ta standart iş akışı işlemini takip eder. Onaylayan, **Önerilen değişiklikler** sayfasında değişiklikleri gözden geçirebildiği ve iş akışını onaylamak için **İş akışı \> Onayla** öğesini seçebildiği **Satıcı** sayfasına yönlendirilir. Tüm onaylar tamamlandıktan sonra alanlar önerdiğiniz değerler ile güncelleştirilir.
-
+Bu iş akışı, Microsoft Dynamics 365 for Finance and Operations içindeki standart iş akışı süreçlerini takip eder. Onaylayan, **Önerilen değişiklikler** sayfasında değişiklikleri gözden geçirebildiği ve iş akışını onaylamak için **İş akışı \> Onayla** öğesini seçebildiği **Satıcı** sayfasına yönlendirilir. Tüm onaylar tamamlandığında, alanlar önerdiğiniz değerlerle güncelleştirilir.

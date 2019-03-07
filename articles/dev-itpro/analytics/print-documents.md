@@ -1,13 +1,13 @@
 ---
-title: "Belge yazdırma"
-description: "Microsoft Dynamics 365 for Finance and Operations'da belgeleri yerel bir yazıcı veya ağa bağlı bir yazıcı kullanarak yazdırabilirsiniz. Bu makale belgelerin nasıl yazdırılacağına genel bir bakış sağlar."
+title: Belge yazdırma
+description: Microsoft Dynamics 365 for Finance and Operations'da belgeleri yerel bir yazıcı veya ağa bağlı bir yazıcı kullanarak yazdırabilirsiniz. Bu makale belgelerin nasıl yazdırılacağına genel bir bakış sağlar.
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362062"
 ---
-
 # <a name="document-printing"></a>Belge yazdırma
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,7 @@ Barındırılan uygulamalar tarafından üretilen belgeler ağa bağlı cihazda 
 
 **Yürütme sırası**
 
-1. Rapor Microsoft SQL Server Raporlama Hizmetleri (SSRS) tarafından oluşturulur ve Azure blob depolamada saklanır. Ekli yazıcı ayarları belgeyle birlikte saklanır.
+1. Rapor Microsoft SQL Server Reporting Services (SSRS) tarafından oluşturulur ve Azure blob depolamada saklanır. Ekli yazıcı ayarları belgeyle birlikte saklanır.
 2. Belge Yönlendirme Aracısı etkin işler için Azure Service Bus kuyruğunu sorgular.
 3. Belge, Belge Yönlendirme Aracısı tarafından indirilir ve ağ yazıcısında biriktirilir.
 
@@ -76,4 +75,3 @@ Aşağıdaki şema ağ yazdırma işlemlerini desteklemeye yardımcı olan temel
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Tek bir yazıcının birden fazla Belge Yönlendirme Aracısına kaydedilebileceğini unutmayın. Yazıcı tercihlerini çözmek için, barındırılan hizmet her ağ yazıcısını benzersiz şekilde tanımlayan ağ yolunu kullanır. Sonuç olarak, yazıcı birden çok istemci tarafından kaydedildiğinde bile, Finance and Operations uygulamalarında kullanılabilen yazıcılar listesinde tek bir seçim olarak görüntülenir.
-

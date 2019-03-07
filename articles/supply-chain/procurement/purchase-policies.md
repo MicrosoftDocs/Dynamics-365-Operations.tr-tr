@@ -1,13 +1,13 @@
 ---
-title: "Satınalma ilkeleri"
-description: "Bu makale, satınalma ilkeleri hakkında bilgi sağlar. Satınalma ilkesi talep işlemini denetleyen kurallar topluluğudur. Satınalma ilkeleri satınalma yöneticilerinin kuruluşun stratejik satınalma gereksinimlerine uygun bir ilke yapısı oluşturarak satınalma stratejilerini uygulamalarına yardımcı olur."
+title: Satınalma ilkeleri
+description: Bu makale, satınalma ilkeleri hakkında bilgi sağlar. Satınalma ilkesi talep işlemini denetleyen kurallar topluluğudur. Satınalma ilkeleri satınalma yöneticilerinin kuruluşun stratejik satınalma gereksinimlerine uygun bir ilke yapısı oluşturarak satınalma stratejilerini uygulamalarına yardımcı olur.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 675a7a8b0da228e789ee37ca8fe1d0c0ea01c283
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358773"
 ---
-
 # <a name="purchasing-policies"></a>Satınalma ilkeleri
 
 [!include [banner](../includes/banner.md)]
@@ -148,7 +147,6 @@ Satınalma siparişi oluşturma ve konsolidasyon kuralı isteği, onaylanan bir 
     -   **Talep birleştirmeye izin verme** – Talep birleştirme için onaylanan satın alma talebi satırlarının hiçbiri kullanılmaz. Bu seçenek varsayılan olarak seçilidir ve yalnızca satın alma emrinin oluşturulması için manuel işleme gerektiren satın alma talebi satırları için geçerlidir.
     -   **Talep birleştirmeye daima izin ver** – Tüm onaylanan satın alma talebi satırları talep birleştirme için uygundur. **Not:** **Talep birleştirme** sekmesinden **Talep birleştirmeye daima izin ver** öğesini seçerseniz, ancak **Manuel satın alma emri oluşturma** sekmesinin altından **Satın alma emirlerini otomatik olarak oluştur** öğesini seçerseniz, tüm satın alma talepleri manuel işleme için tutulacaktır.
     -   **Bu koşullarda talep birleştirmeye izin ver** – Onaylanan satın alma talebi satırlarının talep birleştirme için uygun olup olmadığını belirleyen kriterleri tanımlayın. Her bir satın alma talebi satırı türü için, tedarik kategorisine ve satıcıya göre kriterler ayarlayabilirsiniz. **Bu koşullarda talep birleştirmeye izin ver** öğesini seçerseniz, her bir satın alma talebi satırı türü için kriterleri tedarik kategorisine ve satıcıya göre ayarlayabilirsiniz. Bir tedarik kategorisi seçtiğinizde, bu tedarik kategorisi için mevcut alt kategoriler de seçilir. Belirli bir satır türü için **Tümü** öğesini seçerseniz, bu satır türündeki tüm satın alma talebi satırları talep birleştirme için uygun olacaktır.
-
 
 
 

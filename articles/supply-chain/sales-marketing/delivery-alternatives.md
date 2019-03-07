@@ -1,13 +1,13 @@
 ---
 title: Teslimat alternatifleri
-description: "Satış siparişi alanlar, Teslimat alternatif sayfasını, alternatif sipariş karşılama seçeneklerini bulmak için kullanabilirler."
+description: Satış siparişi alanlar, Teslimat alternatif sayfasını, alternatif sipariş karşılama seçeneklerini bulmak için kullanabilirler.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesLineDeliveryDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 1fbf8f08322c954a482777abcf041ff0b9d8fb77
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328390"
 ---
-
 # <a name="delivery-alternatives"></a>Teslimat alternatifleri
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,7 @@ Teslimat tarihi denetim yöntemi, sistemin teslimat tarihlerini nasıl oluşturd
 <td><strong>Açıklama</strong></td>
 </tr>
 <tr class="even">
-<td><strong>Yok</strong></td>
+<td><strong>Hiçbiri</strong></td>
 <td><ul>
 <li>Satış satırları için teslimat alternatifleri desteklenmez. Bu seçenek teslimat veri denetimini devre dışı bırakır.</li>
 </ul></td>
@@ -150,7 +149,6 @@ Bu sekme, seçili teslimat alternatifinin etkisini vurgular. **Tamam** üzerine 
 --------
 
 [Sipariş taahhüdü](delivery-dates-available-promise-calculations.md)
-
 
 
 

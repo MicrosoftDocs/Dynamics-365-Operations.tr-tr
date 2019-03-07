@@ -1,13 +1,13 @@
 ---
-title: "Stok toplu işlerini birleştir"
-description: "Bu makalede iki veya daha fazla stok toplu işinin birleştirilmiş bir toplu iş ile nasıl konsolide edileceği hakkında bilgiler verilmiştir."
+title: Stok toplu işlerini birleştir
+description: Bu makalede iki veya daha fazla stok toplu işinin birleştirilmiş bir toplu iş ile nasıl konsolide edileceği hakkında bilgiler verilmiştir.
 author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f118ef38e88171ad1eac463078acf37ba4390e57
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319834"
 ---
-
 # <a name="merge-inventory-batches"></a>Stok toplu işlerini birleştir
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Evet, birleştirme toplu iş araçlarını kullanmadan önce ayarlamanız gereke
 <td>Madde için önerilen ayarlar şunlardır:
 <ul>
 <li>Birleştirilmiş toplu işlerin toplu iş numaralarını otomatik olarak oluşturmak için, serbest bırakılan ürünü bir toplu iş numarası grubuna atamanız gerekir. Birleştirilmiş bir toplu iş oluşturduğunuzda toplu iş numarasını el ile de girebilirsiniz veya mevcut bir toplu iş numarasını seçersiniz. Mevcut bir toplu iş numarası seçerseniz, seçilen toplu işin herhangi bir stok hareketine dahil edilmemiş olduğundan emin olun.</li>
-<li>Serbest bırakılan ürün için raf ömrü veya son kullanma tarihi kullanıyorsanız, birleştirilmiş bir toplu işin tarihleri <strong>Toplu iş birleştirme tarihi</strong> hesaplaması alanında yapılan seçime göre hesaplanır. Aşağıdaki seçenekler bulunur:
+<li>Serbest bırakılan ürün için raf ömrü veya son kullanma tarihi kullanıyorsanız, birleştirilmiş bir toplu işin tarihleri <strong>Toplu iş birleştirme tarihi hesaplaması</strong> alanında yapılan seçime göre hesaplanır. Aşağıdaki seçenekler bulunur:
 <ul>
 <li><strong>En erken</strong> – Hesaplama, toplu iş birleştirmede seçilen kaynak toplu iş için belirtilen en erken tarihe dayalı yapılır.</li>
 <li><strong>En geç</strong> – Hesaplama, toplu iş birleştirmede seçilen kaynak toplu iş için belirtilen en geç tarihe dayalı yapılır.</li>
@@ -141,4 +140,3 @@ Toplu iş birleştirme stok günlüğünü Tüm toplu iş birleştirmeler listes
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Fiili ağırlık maddesini birleştirdikten sonra neden stok günlüğünde fiili ağırlık bilgilerini göremiyorum?
 Fiili ağırlık maddelerinin toplu işlerini tüm diğer öğeler gibi birleştirebilirsiniz. Ancak, fiili ağırlık bilgileri stok günlüğünde görüntülenmez. Toplu iş birleştirmeyi stok günlüğüne transfer etmeden önce fiili ağırlık bilgilerini doğrulamanız önerilir.
-

@@ -1,31 +1,30 @@
 ---
-title: "Servis sözleşmesi grupları oluşturma"
-description: "Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrelenmesi açısından yararlıdır."
+title: Servis sözleşmesi grupları oluşturma
+description: Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrelenmesi açısından yararlıdır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementGroup
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5b6219b7e277e00a74743fe00957c1bb6225b373
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2a46173a3566a56a21add9d42c111d456b1ae7c1
-ms.openlocfilehash: 91c672094f5b13bf70d490990ad1ffb1d42b98e7
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/19/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349136"
 ---
-
 # <a name="create-service-agreement-groups"></a>Servis sözleşmesi grupları oluşturma 
 
 [!include [banner](../includes/banner.md)]
@@ -44,4 +43,3 @@ Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrel
 ## <a name="related-topics"></a>İlgili konular
 
 [Servis anlaşması grupları](service-agreement-groups.md)
-

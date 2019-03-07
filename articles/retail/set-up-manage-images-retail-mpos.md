@@ -1,13 +1,13 @@
 ---
-title: "Retail Modern POS (MPOS) için resimleri ayarlama ve yönetme"
-description: "Bu makalede, Retail Modern POS'ta (MPOS) görüntülenen çeşitli varlıklar için resimlerin ayarlanmasını ve yönetilmesini sağlayan adımlar açıklanmaktadır."
+title: Retail Modern POS (MPOS) için resimleri ayarlama ve yönetme
+description: Bu makale, Retail Modern POS (MPOS) içinde görüntülenen çeşitli varlıklar için görüntülerin ayarlanmasını ve yönetilmesini sağlayan adımlar açıklanmaktadır.
 author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
 audience: Application User
 ms.reviewer: josaw
@@ -19,35 +19,34 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d2f4cc99ec239c4c35c44a226235d01e18d4185f
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356749"
 ---
-
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Retail Modern POS (MPOS) için resimleri ayarlama ve yönetme
 
 [!include [banner](includes/banner.md)]
 
-Bu makalede, Retail Modern POS'ta (MPOS) görüntülenen çeşitli varlıklar için resimlerin ayarlanmasını ve yönetilmesini sağlayan adımlar açıklanmaktadır.
+Bu makale, Retail Modern POS (MPOS) içinde görüntülenen çeşitli varlıklar için görüntülerin ayarlanmasını ve yönetilmesini sağlayan adımlar açıklanmaktadır.
 
 ## <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>Ortam temel URL'yi ayarlama ve resim URL'lerini biçimini yapılandırmak için ortam şablonları tanımlama
 
-Perakende Modern POS (MPOS) içinde görünen resimlerin Microsoft Dynamics 365 for Retail dışında harici olarak barındırılması gerekir. Genellikle, bunlar bir içerik yönetim sistemi, içerik iletici ağ (CDN) veya media server içinde barındırılır. MPOS sonra getirir ve resimleri ürünler ve katalogla gibi uygun varlıklar için hedef URL'ye erişerek görüntüler. Dışarıda barındırılan bu görüntüleri getirmek için MPOS görüntüler için doğru URL biçimi gerektirir. Görüntüler için gerekli URL biçimini kanal profilinde **ortam temel URL** değerini ayarlayarak ve her varlık için **medya şablon tanımla** işlevselliği kullanarak yapılandırabilirsiniz. Varlıkların alt kümesi için standart URL biçimi **Excel'de Düzenle** işlevini kullanarak üzerine yazabilirsiniz.
+Retail Modern POS (MPOS) içinde görüntülenen resimlerin harici olarak, Microsoft Dynamics 365 for Retail dışında barındırılması gerekir. Genellikle, bunlar bir içerik yönetim sistemi, içerik iletici ağ (CDN) veya media server içinde barındırılır. MPOS sonra getirir ve resimleri ürünler ve katalogla gibi uygun varlıklar için hedef URL'ye erişerek görüntüler. Dışarıda barındırılan bu görüntüleri getirmek için MPOS görüntüler için doğru URL biçimi gerektirir. Görüntüler için gerekli URL biçimini kanal profilinde **ortam temel URL** değerini ayarlayarak ve her varlık için **medya şablon tanımla** işlevselliği kullanarak yapılandırabilirsiniz. Varlıkların alt kümesi için standart URL biçimi **Excel'de Düzenle** işlevini kullanarak üzerine yazabilirsiniz.
 
 > [!IMPORTANT]
-> Microsoft Dynamics 365 for Retail'in geçerli sürümünde, artık URL biçimini **Resim** MPOS için XML özniteliği kullanarak **Varsayılan** varlıklar için öznitelik grubunda ayarlayamazsınız. Microsoft Dynamics AX 2012 R3'ü biliyorsanız ve Dynamics 365 for Retail'in geçerli sürümünü kullanıyorsanız, görüntüleri belirlemek için her zaman yeni **Medya şablonu tanımla** işlevini kullandığınızdan emin olun **görüntü** özniteliğini **varsayılan** ürünleri de dahil olmak üzere herhangi bir varlık için öznitelik grubunda kullanmayın veya değiştirmeyin. Görüntüler için doğrudan **varsayılan** öznitelik grubunda yaptığınız değişiklikler yansıtılmaz. Gelecekteki bir sürümde bu seçenek devre dışı bırakılacak.
+> Dynamics 365 for Retail'in geçerli sürümünde, artık URL biçimini **Resim** MPOS için XML özniteliği kullanarak **Varsayılan** varlıklar için öznitelik grubunda ayarlayamazsınız. Microsoft Dynamics AX 2012 R3 ile aşina iseniz ve Dynamics 365 for Retail geçerli sürümünü kullanıyorsanız, görüntüleri belirlemek için her zaman yeni **Medya şablonu tanımla** işlevini kullandığınızdan emin olun. **görüntü** özniteliğini **varsayılan** ürünleri de dahil olmak üzere herhangi bir varlık için öznitelik grubunda kullanmayın veya değiştirmeyin. Görüntüler için doğrudan **varsayılan** öznitelik grubunda yaptığınız değişiklikler yansıtılmaz. Gelecekteki bir sürümde bu seçenek devre dışı bırakılacak.
 
 Aşağıdaki yordamlarda, görüntüler için katalog varlığı için örnek olarak ayarlanmıştır. Bu yordamlar, doğru görüntü hedef yolunun ortak bir yol kullanan tüm katalog resimler için örtülü olarak ayarlandığını garanti olmasına yardımcı olur. Örneğin, dışarıdan, media server veya CDN ayarladıysanız ve görüntüleri belirli bir mağazanın MPOS içinde görünmesini istiyorsanız, **medya şablon tanımla** işlevselliği MPOS'nin görüntü arama ve alma yolunu ayarlamanıza yardımcı olur.
 
 > [!NOTE]
-> Bu demo verileri Örneği için, perakende sunucusuna ortam sunucusu dağıtılır. Ancak, bunu Dynamics 365 for Retail dışında herhangi bir yerde sağlayabilirsiniz.
+> Bu demo verileri Örneği için, perakende sunucusuna ortam sunucusu dağıtılır. Ancak, herhangi bir yerde Dynamics 365 for Retail dışında sağlayabilirsiniz.
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>Bir kanal için ortam temel URL'yi ayarlama
 
-1. Dynamics 365 for Retail HQ portal'ı açın.
+1. Dynamics 365 for Retail HQ portalını açın.
 2. **Perakende** &gt; **Kanal kurulumu** &gt; **Kanal profilleri**'ne tıklayın.
 
     [![kanal-profili1](./media/channel-profile1.png)](./media/channel-profile1.png)
@@ -122,7 +121,7 @@ Desteklenen beş varlığın tümü için (Çalışan, Müşteri, Katalog, Kateg
     > Excel kullanımı için oluşturulan URL'ler tanımlanan medya şablonunun yolunu ve kurallarını kullanır. Bu kurallar, dosya adları için kuralları içerir. Dynamics 365 for Retail dışında fiziksel görüntüleri ayarladıysanız ve daha önce tanımladığınız medya şablondan türetilen URL'lerden görüntüleri alınabilmesi beklenir. Bu türetilmiş URL'ler Excel'de düzenle işlevlerini kullanarak geçersiz kılabilirsiniz.
 
 5. **Excel'de düzenle**'ye tıklayın.
-6. Microsoft Excel çalışma sayfasını açtıktan sonra **düzenleme etkinleştir**'i ne zaman istenirse tıklayın.
+6. Microsoft Excel çalışma sayfasını açtıktan sonra **Düzenleme etkinleştir**'i ne zaman istenirse tıklayın.
 7. İstendiğinde, sağ bölmede **bu eklentiye güven**'e tıklayın ve eklenti yükleme tamamlamasını bekleyin.
 
     [![Bu eklentiye güven](./media/excel4.jpg)](./media/excel4.jpg)
@@ -214,4 +213,3 @@ MPOS (Perakende sunucu veya ağ bağlantısı yok ve hareketler bir yerel çevri
 5. Kategori, çalışan ve müşteri gibi diğer varlıklar için benzer bir işlem izleyin.
 
     [![çevrimdışı2](./media/offline2.png)](./media/offline2.png)
-

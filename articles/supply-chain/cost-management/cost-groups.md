@@ -1,13 +1,13 @@
 ---
-title: "Maliyet grupları"
-description: "Maliyet grupları, üretilen bir maddenin malzeme, işçilik ve genel giderler için maliyet katkıları gibi hesaplanan maliyetindeki maliyet katkılarını segmentlere ayırmak ve analiz etmek için temel sağlar. Maliyet grubu segmentasyonu üretim ortamlarında maliyet dökümü, maliyet dağılımı veya maliyet sınıflandırması gibi birçok eşanlamlı ifadeye sahiptir."
+title: Maliyet grupları
+description: Maliyet grupları, üretilen bir maddenin malzeme, işçilik ve genel giderler için maliyet katkıları gibi hesaplanan maliyetindeki maliyet katkılarını segmentlere ayırmak ve analiz etmek için temel sağlar. Maliyet grubu segmentasyonu üretim ortamlarında maliyet dökümü, maliyet dağılımı veya maliyet sınıflandırması gibi birçok eşanlamlı ifadeye sahiptir.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f1f97981c33c72c71e055848e874002dad73813
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f44099c2ce30d917838733af072721dd79148d27
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337429"
 ---
-
 # <a name="cost-groups"></a>Maliyet grupları
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Bir maliyet grubuna, bir maliyet grubu tipi ve tamamlayıcı segmentasyon amaçl
 
 -   **Maliyet grubu türü** − Maliyet grubunun doğrudan malzeme, doğrudan imalat veya doğrudan dış kaynak kullanımı için geçerli olduğunu göstermek veya onu dolaylı ya da tanımsız olarak atamak için her maliyet grubuna bir maliyet grubu türü atanmalıdır. Maddelere doğrudan malzeme olarak atanmış bir maliyet grubu atanabilir. Doğrudan üretim maliyet grubu maliyet kategorilerine atanabilir. Bir servis ürün türüne doğrudan bir dış kaynak maliyet grubu atanabilir, böylece servis satın alma ile ilişkili maliyetleri alt sözleşme etkinliklerine sınıflandırabilirsiniz. Dolaylı bir maliyet grubu ek talepler veya oranların dolaylı maliyetlerine atanabilir. Tanımsız olarak atanan bir maliyet grubu maddelere, maliyet kategorilerine veya dolaylı maliyetlere atanabilir. Bir maliyet grubu türünün ataması, sayısız amaca hizmet eder. İlk olarak, bir maliyet grubu atama ve geçerli maliyet gruplarının listesini görüntüleme özelliğini sınırlandırır. İkinci olarak, raporlama amaçlı olarak tamamlayıcı segmentasyon sağlar. Üçüncü olarak, farklılıklar için genel muhasebe hesapları atamakta kullanılabilir.
 -   **Davranış** − Her bir maliyet grubuna, maliyet grubunun sabit maliyetler veya değişken maliyetler için geçerli olduğunu gösterecek şekilde isteğe bağlı olarak bir davranış atanabilir. Davranış için boş değere sahip bir maliyet grubu değişken bir maliyet olarak ele alınır. Bir davranış ataması yalnızca raporlama amaçlarına hizmet eder. Örneğin maliyetler, maliyetlendirme tablosundaki ve **Maliyet grubuna göre maliyet yukarı yuvarlaması** sayfasındaki sabit ve değişken maliyetlerin segmentasyonu ile birlikte görüntülenebilir. Her bir maliyet grubuna bir kar ayar yüzdesi atamanız halinde, ürün reçetesi hesaplaması, maliyet artı kar marjı yaklaşımına dayalı olarak önerilen bir satış fiyatı sağlar.
-
 
 
 

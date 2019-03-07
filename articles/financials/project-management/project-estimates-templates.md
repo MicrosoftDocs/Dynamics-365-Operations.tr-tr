@@ -1,13 +1,13 @@
 ---
-title: "Proje tahminlerini doğrudan Project Service Automation'dan Finance and Operations'a eşitleme"
-description: "Bu konuda, proje saat tahminlerini ve proje gider tahminlerini doğrudan Microsoft Dynamics 365 for Project Service Automation'dan Microsoft Dynamics 365 for Finance and Operations'a eşitlemek için kullanılacak şablonlar ve temel görevler açıklanmaktadır."
+title: Proje tahminlerini doğrudan Project Service Automation'dan Finance and Operations'a eşitleme
+description: Bu konu projeleri Microsoft Dynamics 365 for Project Service Automation üzerinden Microsoft Dynamics 365 for Finance and Operations üzerine proje saat tahminleri ve proje maliyet tahminlerini doğrudan eşitlemekte kullanılan şablonu ve alttaki görevleri açıklar.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 21338b889e0377dbfd5adfd461ea81b39a75baf8
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353966"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Proje tahminlerini doğrudan Project Service Automation'dan Finance and Operations'a eşitleme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, proje saat tahminlerini ve proje gider tahminlerini Microsoft Dynamics 365 for Project Service Automation'dan Dynamics 365 for Finance and Operations'a doğrudan eşitlemek için kullanılacak şablonları ve temel görevleri açıklamaktadır.
+Bu konu projeleri Microsoft Dynamics 365 for Project Service Automation üzerinden Dynamics 365 for Finance and Operations üzerine proje saat tahminleri ve proje maliyet tahminlerini doğrudan eşitlemekte kullanılan şablonu ve alttaki görevleri açıklar.
 
 > [!NOTE]
-> - Proje görevi tümleştirmesi, gider hareketi kategorileri, saat tahminleri, gider tahminleri ve işlev kilitleme özellikleri Microsoft Dynamics 365 for Finance and Operations sürüm 8.0'da kullanılabilir.
-> - Gerçek değerler tümleştirmesi, Microsoft Dynamics 365 for Finance and Operations sürüm 8.0.1 veya sonrasında mevcuttur.
-> - Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0 kullanıyorsanız KB 4132657 ve KB 4132660'ı yükledikten sonra proje görevlerini, gider hareketi kategorilerini, saat tahminlerini, gider tahminlerini ve gerçek değerleri tümleştirmek ve işlev kilitlemeyi yapılandırmak için şablonları kullanabilirsiniz. Muhasebe dağıtımlarını sıfırlamanız gerekiyorsa KB 4131710'u da yüklemenizi öneririz.
+> - Proje görev tümleştirmesi, gider hareket kategorileri, saat tahminleri, gider tahminleri ve işlev kilitleme Microsoft Dynamics 365 for Finance and Operations sürüm 8.0 içinde kullanılabilir.
+> - Fiili değerlerin tümleştirmesi Microsoft Dynamics 365 for Finance and Operations sürüm 8.0.1 veya sonrasında kullanılabilir.
+> - Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0 kullanıyorsanız, KB 4132657 ve KB 4132660 yükledikten sonra, proje görevlerini, gider hareketi kategorilerini, saat tahminlerini, gider tahminlerini ve gerçek değerleri tümleştirmek ve işlev kilitlemeyi yapılandırmak için şablonları kullanabilirsiniz. Muhasebe dağıtımlarını sıfırlamanız gerekiyorsa KB 4131710'u da yüklemenizi öneririz.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Project Service Automation'dan Finance and Operations'a veri akışı
 
@@ -47,7 +47,7 @@ Aşağıdaki şekilde Project Service Automation ile Finance and Operations aras
 
 ### <a name="template-and-tasks"></a>Şablon ve görevler
 
-Kullanılabilir şablonlara erişmek için Microsoft PowerApps yönetim merkezinde **Projeler**'i seçin ve ardından sağ üst köşede **Yeni proje**'yi seçerek genel şablonları seçin.
+Kullanılabilecek şablonlara erişmek için, Microsoft PowerApps yönetim merkezi'nde **Projeler**'i seçin ve ardından, sağ üst köşede **Yeni proje**'yi seçerek genele açık şablonları seçin.
 
 Aşağıdaki şablon ve temel görevler, proje saat tahminlerini Project Service Automation'dan Finance and Operations'a eşitlemek için kullanılır:
 
@@ -171,4 +171,3 @@ Aşağıdaki şekillerde, Veri tümleştirmesinde şablon görevi eşleşmelerin
 [![Şablon eşleme](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Şablon eşleme](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
-

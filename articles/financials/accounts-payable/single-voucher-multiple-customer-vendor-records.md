@@ -1,13 +1,13 @@
 ---
-title: "Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş"
-description: "Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 for Finance and Operations'ın gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine muhasebe etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz."
+title: Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
+description: Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 for Finance and Operations'ın gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d27c4182703b4421763036b2a338b3598f9e969b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330368"
 ---
-
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 for Finance and Operations'ın gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine muhasebe etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz. 
+Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 for Finance and Operations'ın gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz. 
 
 Tek bir fişin birden fazla müşteri veya satıcı için kullanıldığı bazı yaygın örnekler, müşteriler arasındaki bakiye transferlerini ve aynı kuruluştaki müşteriler ve satıcılar arasındaki mahsuplaşma bakiyelerini içerir. 
 
@@ -249,7 +248,6 @@ Bu hareket için istenmeyen sorunlardan kaçınmak için bir fiş kullanmak yeri
 | **Fiş** | **Hesap tipi** | **Hesap** | **Açıklama** | **Borç** | **Alacak** | **Mahsup türü** | **Mahsup hesap** |
 | 001         | Müşteri         | US-008      |                 |           |  75,00     | Genel Muhasebe          | 999999---          |
 | 002         | Satıcı           | 1001        |                 |  75,00    |            | Genel Muhasebe          | 999999---          |
-
 
 
 

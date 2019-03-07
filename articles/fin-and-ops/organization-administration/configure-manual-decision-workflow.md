@@ -1,13 +1,13 @@
 ---
-title: "İş akışında el ile girilen kararları yapılandırma"
-description: "Bu konu, el ile bir kararın özelliklerini yapılandırmayı açıklar."
+title: İş akışında el ile girilen kararları yapılandırma
+description: Bu konu, el ile bir kararın özelliklerini yapılandırmayı açıklar.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341408"
 ---
-
 # <a name="configure-manual-decisions-in-a-workflow"></a>İş akışında el ile girilen kararları yapılandırma
 
 [!include [banner](../includes/banner.md)]
@@ -164,7 +163,7 @@ Bir karar alındığında, ilerletildiğinde veya yetkilendirildiğinde insanlar
     </tr>
     <tr>
     <td>Kullanıcı</td>
-    <td>Belirli Microsoft Dynamics 365 for Finance and Operations kullanıcıları</td>
+    <td>Özel Microsoft Dynamics 365 for Finance and Operations kullanıcıları</td>
     <td>
     <ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
@@ -372,4 +371,3 @@ Kararın belirli bir süre içerisinde alınması gerekiyorsa bu adımları izle
     - **Yıllar** – Kararın alınmış olması gereken günü, haftayı ve ayı seçin. Örneğin kararın Aralık ayının üçüncü haftasının Cuma gününden önce alınmış olmasını isteyebilirsiniz.
 
 4. Zaman limiti aşılırsa sistem kararı kendi alır. **Eylem** listesinden sistemin tercih etmesi gereken seçeneği seçin.
-

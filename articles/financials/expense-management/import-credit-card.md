@@ -1,13 +1,13 @@
 ---
-title: "Kredi kartı hareketlerini içe aktarma ve yönetme"
-description: "Bu konu, giderle ilişkili kredi kartı hareketlerinin nasıl içe aktarılacağını ve korunacağını açıklar. Bu hareketler, otomatik olarak yinelenen bir zamanlamada içe aktarılacak şekilde ayarlanabilir veya ihtiyaç duyuldukça el ile içe aktarılabilir."
+title: Kredi kartı hareketlerini içe aktarma ve yönetme
+description: Bu konu, giderle ilişkili kredi kartı hareketlerinin nasıl içe aktarılacağını ve korunacağını açıklar. Bu hareketler, otomatik olarak yinelenen bir zamanlamada içe aktarılacak şekilde ayarlanabilir veya ihtiyaç duyuldukça el ile içe aktarılabilir.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322663"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>Kredi kartı hareketlerini içe aktarma ve yönetme
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ Veri varlıkları hakkında daha fazla bilgi için bkz. [Veri varlıkları](../.
 Bir personel kaydı sonlandırıldıktan sonra, personelin Active Directory Etki Alanı Hizmetleri (AD DS) hesabı devre dışı bırakılır. Ancak, halen gider haline getirilecek ve ödenecek etkin kredi kartı hareketleri olabilir. **Kredi kartı hareketleri** sayfasından, ilişkili personelin işten çıkarıldığı her türlü kredi kartı hareketi için personeli yeniden atayabilirsiniz.
 
 Bir veya daha fazla kredi kartı hareketi seçin ve sonra **Hareketleri yeniden ata**'yı seçin. Daha sonra kredi kartı hareketlerinin atanacağı başka bir çalışan seçebilirsiniz. Kredi kartı hareketleri yeniden atadıktan sonra, bunlar bir gider raporu için seçilebilir ve gider raporu geri ödemeleri için uygulanan sıradan işlemlerle ödenebilir.
-

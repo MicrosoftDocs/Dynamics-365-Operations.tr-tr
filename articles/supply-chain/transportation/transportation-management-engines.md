@@ -1,13 +1,13 @@
 ---
-title: "Taşıma yönetimi altyapıları"
-description: "Nakliye yönetimi motorları, Nakliye yönetimindeki nakliye oranlarının oluşturulması ve işlenmesi için kullanılan mantığı tanımlar."
+title: Taşıma yönetimi altyapıları
+description: Nakliye yönetimi motorları, Nakliye yönetimindeki nakliye oranlarının oluşturulması ve işlenmesi için kullanılan mantığı tanımlar.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
 ms.reviewer: josaw
@@ -18,29 +18,28 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dff811723e25952b4c5af20262010ff4b910be7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361142"
 ---
-
 # <a name="transportation-management-engines"></a>Taşıma yönetimi altyapıları
 
 [!include [banner](../includes/banner.md)]
 
 Nakliye yönetimi motorları, Nakliye yönetimindeki nakliye oranlarının oluşturulması ve işlenmesi için kullanılan mantığı tanımlar. 
 
-Bir taşıma yönetimi altyapısı, taşıyıcının ulaşım hızı gibi görevleri hesaplar. Altyapı sistemi, Microsoft Dynamics 365 for Finance and Operations verilerini temel alarak hesaplama stratejilerini çalışma zamanında değiştirmenize olanak tanır. Taşıma yönetimi altyapısı, belirli bir taşıyıcı sözleşmesiyle ilişkili bir eklentiye benzer.
+Bir taşıma yönetimi altyapısı, taşıyıcının ulaşım hızı gibi görevleri hesaplar. Altyapı sistemi, Microsoft Dynamics 365 for Finance and Operations verilerini temel alan çalışma zamanında, hesaplama stratejileri değiştirmenize olanak tanır. Taşıma yönetimi altyapısı, belirli bir taşıyıcı sözleşmesiyle ilişkili bir eklentiye benzer.
 
 ## <a name="what-engines-are-available"></a>Hangi altyapılar var?
-Aşağıdaki tablo, Microsoft Dynamics 365 for Finance and Operations uygulamasında kullanılabilen taşıma yönetimi altyapılarını gösterir.
+Aşağıdaki tabloda, Microsoft Dynamics 365 for Finance and Operations uygulamasında kullanılabilen taşıma yönetimi altyapıları gösterilmektedir.
 
 | Taşıma yönetimi altyapısı | Açıklama                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Değerlendirme altyapısı**                  | Oranları hesaplar.                                                                                                                                                                                                                                                                                                           |
-| **Genel altyapı**               | Microsoft Dynamics 365 for Finance and Operations'dan veri istemeyen diğer altyapılar tarafından kullanılan basit yedek altyapılar, örneğin bir paylaştırma altyapısı. Paylaştırma altyapıları, belirli siparişlere ve satırlara taşımanın nihai maliyetlerini, hacim ve ağırlık gibi boyutlara dayalı olarak azaltmak için kullanılır. |
+| **Genel altyapı**               | Microsoft Dynamics 365 for Finance and Operations'dan veri istemeyen diğer altyapılar için kullanılan basit yedek altyapılar, örneğin bir paylaştırma altyapısı. Paylaştırma altyapıları, belirli siparişlere ve satırlara taşımanın nihai maliyetlerini, hacim ve ağırlık gibi boyutlara dayalı olarak azaltmak için kullanılır. |
 | **Mesafe altyapısı**               | Taşıma mesafesini hesaplar.                                                                                                                                                                                                                                                                                     |
 | **Yoldaki süre altyapısı**          | Başlangıçtan son hedefe seyahat için gereken süreyi hesaplar.                                                                                                                                                                                                                                       |
 | **Bölge altyapısı**                  | Geçerli adrese dayalı olarak bölgeyi hesaplar ve A adresinden B adresine gitmek için geçilmesi gereken bölge sayısını hesaplar.                                                                                                                                                                    |
@@ -69,7 +68,7 @@ Birçok durumda, taşıma yönetimi altyapısının kurulum formlarındaki **Par
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Meta veriler, taşıma yönetimi altyapısında nasıl kullanılır?
 ----------------------------------------------------------
 
-Dynamics 365 for Finance and Operations uygulamasında tanımlanan verilere dayanan taşıma yönetimi altyapıları farklı veri şemaları kullanabilir. Taşıma yönetimi sistemi, farklı taşıma yönetimi altyapılarının aynı genel fiziksel veritabanı tablolarını kullanmasına imkan verir. Altyapı verilerinin çalışma süresini doğru yorumlaması için, veritabanı tablolarına meta veri tanımlayabilirsiniz. Bu, yeni taşıma yönetimi altyapılarının inşa edilmesine yönelik maliyetleri azaltır çünkü Operations'da ek tablo ve form yapıları gerekmez.
+Dynamics 365 for Finance and Operations uygulamasında tanımlanan verilere dayanan taşıma yönetimi altyapıları, farklı veri şemaları kullanabilir. Taşıma yönetimi sistemi, farklı taşıma yönetimi altyapılarının aynı genel fiziksel veritabanı tablolarını kullanmasına imkan verir. Altyapı verilerinin çalışma süresini doğru yorumlaması için, veritabanı tablolarına meta veri tanımlayabilirsiniz. Bu, yeni taşıma yönetimi altyapılarının inşa edilmesine yönelik maliyetleri azaltır çünkü Operations'da ek tablo ve form yapıları gerekmez.
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>Değerlendirme hesaplamalarında arama verisi olarak ne kullanılabilir?
 Microsoft Dynamics 365 for Finance and Operations'da oranları hesaplarken kullandığınız veri, meta veri yapılandırması tarafından kontrol edilir. Örneğin, posta kodlarına göre oranları aramak istiyorsanız, posta kodu arama türüne göre meta veri ayarlamanız gerekir.
@@ -79,7 +78,7 @@ Hayır, harici sistemlerden oran hesaplamak için gereken verileri almada kullan
 
 | **Not**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Finance and Operations ile birlikte sağlanan taşımacı yönetimi altyapıları, uygulamadan alınan verileri kullanır. Operations, harici sistemlere bağlanan altyapıları içermez. Ancak, altyapı tabanlı genişletilebilirlik modeli Microsoft Dynamics 365 for Finance and Operations Visual Studio Araçları kullanarak uzantılar oluşturmanızı sağlar. |
+| Finance and Operations ile birlikte sağlanan taşımacı yönetimi altyapıları, uygulamadan alınan verileri kullanır. Operations, harici sistemlere bağlanan altyapıları içermez. Ancak, altyapı tabanlı genişletilebilirlik modeli, Microsoft Dynamics 365 for Finance and Operations Visual Studio Araçları kullanarak uzantılar yapmanıza olanak sağlar. |
 
 ## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>Bir taşıma yönetimi altyapısı için nasıl meta veri yapılandırabilirim?
 Taşıma yönetimi altyapısına yönelik meta veriler, farklı altyapı türleri için farklı şekilde yapılandırılır.
@@ -90,7 +89,7 @@ Taşıma yönetimi altyapısına yönelik meta veriler, farklı altyapı türler
 | **Bölge altyapısı**                                | Meta verilerin doğrudan ana bölgede ayarlanmasını gerektirir.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Transit zamanı altyapısı** ve **Mesafe altyapısı** | Meta verileri doğrudan mesafe altyapısının yapılandırma kurulum formundan alır.                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **Değerlendirme altyapısı için meta veri örneği** Taşıma yönetimi altyapısı, kaynak adresin, hedef ilin ve ülke/bölgenin ve sevkıyatın başlangıç ve bitiş noktasının tanımlanmasını gerektirir. Bu gereksinimleri kullanarak, meta veriler aşağıdaki tablodaki gibi görünecektir. Tablo ayrıca hangi veri girişi türü gerektiği hakkında bilgi de içermektedir.
+  **Değerlendirme altyapısı için meta veri örneği** Taşıma yönetimi altyapısı, kaynak adresin, hedef ilin ve ülke/bölgenin ve sevkıyatın başlangıç ve bitiş noktasının tanımlanmasını gerektirir. Bu gereksinimleri kullanarak, meta veriler aşağıdaki tablodaki gibi görünecektir. Tablo ayrıca hangi veri girişi türü gerektiği hakkında bilgi de içermektedir.
 -   Bu bilgileri **Oran bazlı tür** sayfasında **Taşıma yönetimi** &gt; **Kurulum**'da tanımlayın.
 
 | Seri | Dosya Adı                          | Alan türü | Veri tipi | Arama türü    | Zorunlu |
@@ -100,7 +99,6 @@ Taşıma yönetimi altyapısına yönelik meta veriler, farklı altyapı türler
 | 3        | Hedef başlangıç posta kodu | Atama | Dize    | Posta Kodu    | Seçildi  |
 | 4        | Hedef bitiş posta kodu   | Atama | Dize    | Posta Kodu    | Seçildi  |
 | 5        | Hedef ülke           | Atama | Dize    | Ülke/bölge |           |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Satıcı hesaplarını ayarlama"
-description: "Bu konu, yeni bir satıcı hesabı oluşturduğunuzda girmeniz gereken bilgilerin türünü açıklar."
+title: Satıcı hesaplarını ayarlama
+description: Bu konu, yeni bir satıcı hesabı oluşturduğunuzda girmeniz gereken bilgilerin türünü açıklar.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a20fca7420e7bd546e29278b40046d69a81aac6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329149"
 ---
-
 # <a name="set-up-vendor-accounts"></a>Satıcı hesaplarını ayarlama
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Eğer bir satıcı banka hesabına ödeme yapmanız gerekiyorsa, satıcının ba
 Fatura günlüklerinde otomatik olarak beliren varsayılan hesapları belirtilen satıcı için belirleyebilirsiniz. Bu işlevsellik, zaman içerisinde aynı satıcılardan genellikle aynı türde öğelere ve hizmetlere ödeme yapıyorsanız faydalı olabilir. Varsayılan bir hesap belirttiğinizde, hesap günlüklerine hızlı ve verimli bir şekilde günlük girişleri yapabilirsiniz. Belirttiğiniz varsayılan hesaplar satınalma siparişlerinde veya **Satıcı faturası** üzerinden girilen satıcı faturalarında kullanılmaz.  
 
 Satıcı kaydındaki **Fatura** sekmesinde açabileceğiniz **Varsayılan hesap ayarı** sayfasında varsayılan hesapları seçebilirsiniz. Burada seçtiğiniz hesaplar, bir günlük girdisinde bulunduğunuzda, satıcı için filtrelenmiş hesaplar listesinde görünecektir. Hesaplardan birini varsayılan hesap olarak ayarlayabilirsiniz.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Pozisyon tahmini
-description: "Çalışanlar ile ilgili giderler sıklıkla bir kuruluşun maliyetlerinin büyük bir kısmını teşkil eder. Pozisyon tahmini bu giderleri planlamanızı ve bunları bütçe planlamasına dahil etmenizi sağlar."
+description: Çalışanlar ile ilgili giderler sıklıkla bir kuruluşun maliyetlerinin büyük bir kısmını teşkil eder. Pozisyon tahmini bu giderleri planlamanızı ve bunları bütçe planlamasına dahil etmenizi sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bcd7363ba50f1c3a20d9823333df65eab9868d67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356174"
 ---
-
 # <a name="position-forecasting"></a>Pozisyon tahmini
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,7 @@ Son olarak, Jodi temel ödeme için hesaplama tabanları olarak kullanılan tüm
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Mevcut pozisyonlar için tahmin pozisyonları oluşturma
 
-En doğru bütçe planlaması için, pozisyonun şu anda doldurulmuş veya boş olmasından bağımsız olarak Microsoft Dynamics 365 for Finance and Operations'taki mevcut pozisyonlardan ayrıntıları kullanarak tahmin pozisyonları oluşturabilirsiniz. 
+En doğru bütçe planlama için, pozisyonun o anda doldurulmuş veya boş olmasından bağımsız olarak, Microsoft Dynamics 365 for Finance and Operations'daki mevcut pozisyonlardan ayrıntılar ile tahmin pozisyonları oluşturabilirsiniz. 
 
 **Mevcut pozisyonları ekle** işlevi bir kuruluşa ait tüm pozisyonları görüntüler. **Başlangıç** tarihini ayarlayarak, pozisyonlar listesini geçmişteki veya daha yaygın olarak gelecekte bir tarihteki mevcut pozisyonları içerecek şekilde değiştirebilirsiniz (örneğin, bir sonraki bütçe döngüsünün başlangıcı). Bir bütçe planlama süreci ve bütçe planı senaryosu seçin, listede pozisyonları seçin ve seçilen pozisyonlar için tahmin pozisyonları oluşturmak için **Tamam** düğmesine tıklayın. Bir bütçe planlama süreci ve senaryosundaki her bir mevcut pozisyon için sadece bir tahmin pozisyonu oluşturabileceğinizi unutmayın. Ancak, farklı bütçe planı senaryoları atayarak ek sürümler oluşturabilirsiniz. 
 
@@ -216,7 +215,6 @@ Hem oluşturma süreci hem de seçim süreci için, bütçe maliyet öğesi sat�
 Bütçe planı satırları, bütçe tutarlarının kaynağını (tahmin pozisyonu numarası) gösterir ancak bağlı değildir. Bu nedenle, tahmin pozisyonlarındaki değişiklikler bütçe planı satırında gösterilmez ve bütçe planı satırındaki değişiklikler tahmin pozisyonunda gösterilir. Bir tahmin pozisyonunu değiştirir ve güncelleştirmeleri bir bütçe planına eklemek isterseniz, tahmin pozisyonunu tekrar plana getirmeniz gerekir. Bununla birlikte, bu işlemin, o tahmin pozisyonunun atandığı tüm satırları kaldıracağını unutmayın. Bu nedenle, bu satırlarda yaptığınız tüm değişiklikler kaldırılır. 
 
 Bir tahmin pozisyonunun hangi bütçe planlarına eklendiğini görmek için, **Bütçe planına göre tahmin pozisyonları** raporu oluşturabilirsiniz. Alternatif olarak, tahmin pozisyonunda, planları görüntülemek için **İlişkilendirilmiş bütçe planları** Bilgi Kutusunu açabilirsiniz.
-
 
 
 

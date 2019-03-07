@@ -1,13 +1,13 @@
 ---
-title: "Müşteri hareketleri listesi sayfası"
-description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations için Müşteri hareket listesi sayfası hakkında bilgi verilmektedir."
+title: Müşteri hareketleri listesi sayfası
+description: Bu konu, Microsoft Dynamics 365 for Finance and Operations için Müşteri hareketleri listesi sayfası hakkında bilgi sağlar.
 author: mikefalkner
 manager: aolson
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
+ms.openlocfilehash: b9936a66cc8c8abb24601dae91dcfca77e4f58a4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: 1b359939c867ba0a0c14859c83f0560afe6ba5be
-ms.contentlocale: tr-tr
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341707"
 ---
-
 # <a name="customer-transactions-list-page"></a>Müşteri hareketleri listesi sayfası
 
 [!include [banner](../includes/banner.md)]
@@ -40,10 +39,10 @@ Eylem Bölmesindeki **Kapatmaları görüntüle** düğmesi, kapatma geçmişine
 
 4. İletişim kutusunda çeşitli görevleri gerçekleştirebilirsiniz. Bir veya daha fazla fiş seçin ve aşağıdaki düğmelerden birini seçin:
 
-    - **İlgilileri görüntüle**: Seçili belgeyle ilgili ödeme günlüğünde oluşturulan tüm günlük hareketlerin tamamı görüntülenir. Ayrıca bu ödemelerle ilgili tüm kapatmalar da görüntülenir. Siz ilgili ödemeleri görüntülerken, bu düğmenin etiketi **Kapatmaları görüntüle** olarak değişir. **Kapatmaları görüntüle**'yi, **Kapatmaları Görüntüle** iletişim kutusunu yalnızca ilk açtığınızda gösterilen hareketleri göstermek için seçin.
+    - **İlgilileri göster** - Tüm ödeme günlüğü hareketleri ve genel günlük hareketlerini, müşteri için liste içinde oluşturuldukları günlüklerde müşteriler için göster. Örneğin, bir ödeme gösterilirse, ödeme günlüğündeki oluşturulmuş ödemelerin tamamı gösterilecektir. Bir fatura veya ödeme gösterilirse ve genel günlükte oluşturulmuşsa, oluşturulan genel günlükteki tüm belgeler gösterilecektir. Belge listeleriyle ilişkili tüm kapatmalar da görüntülenir. Siz ilgili ödemeleri görüntülerken, bu düğmenin etiketi **Kapatmaları görüntüle** olarak değişir. **Kapatmaları görüntüle**'yi, **Kapatmaları Görüntüle** iletişim kutusunu yalnızca ilk açtığınızda gösterilen hareketleri göstermek için seçin.
     - **Geçmişi görüntüle** - Tüm fişler için kapatma geçmişini göster. İletişim kutusunu kapatmak için **Kapat**'ı seçin.
     - **Muhasebeyi görüntüle**: Seçili belgelerle ilgili tüm fişlerin tamamı gösterilir. İletişim kutusunu kapatmak için **Kapat**'ı seçin.
-    - **Dışa aktar**: Seçili fişleri Microsoft Excel'e aktarın.
+    - **Dışa aktar** - Seçili fişleri Microsoft Excel'e aktarın.
     - **Hareketleri kapat**: Bu düğme, yalnızca seçilen orijinal belge tam olarak kapatılmadığında görünür. Bu düğmeyi seçtiğinizde **Hareketleri kapat** iletişim kutusu görünür. Bu kutudan kapatılacak hareketleri seçebilirsiniz.
     - **Kapatmayı geri al**: Bu düğme, yalnızca seçilen orijinal belge tam olarak kapatıldığında görünür. Bu düğmeyi seçtiğinizde **Kapatmayı geri al** iletişim kutusu görünür. Bu kutudan bu belge için önceden yapılan kapatmaları geri alabilirsiniz.
 
@@ -98,4 +97,3 @@ Her alan, düzenlediğinizde hareket üzerinde farklı bir etkiye sahiptir:
 - **Nakit iskonto şartlarını düzenle:** - Nakit iskontolar, taban tarih ve nakit iskontosu koşullarına dayanarak değiştirilir.
 
 Ödeme ayarları düzenlemeyi bitirdiğinizde, **Kapat**'ı seçerek yaptığınız değişiklikleri kaydedin.
-

@@ -1,13 +1,13 @@
---- 
-title: "Uygulama sınıfı yöntemlerini çağırmak için ER ifadeleri tasarlama"
-description: "Bu kılavuz, ER ifadelerinde gerekli uygulama sınıfları yöntemlerini çağırarak Elektronik raporlama (ER) yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceğiyle ilgili bilgiler sağlar."
+---
+title: Uygulama sınıfı yöntemlerini çağırmak için ER ifadeleri tasarlama
+description: Bu kılavuz, ER ifadelerinde gerekli uygulama sınıfları yöntemlerini çağırarak Elektronik raporlama (ER) yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceğiyle ilgili bilgiler sağlar.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357255"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Uygulama sınıfı yöntemlerini çağırmak için ER ifadeleri tasarlama
 
@@ -34,7 +34,7 @@ Bu adımları tamamlamak için ilk olarak "ER Yapılandırma sağlayıcısı olu
 
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
     * Örnek şirket Litware, Inc. için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlendiğini doğrulayın. Bu yapılandırma sağlayıcısını göremiyorsanız öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir.   
-    * Bir uygulamanın veri güncelleştirmesi için gelen banka ekstrekerini ayrıştırmak üzere bir işlem tasarladığınızı varsayalım. Gelen banka ekstrelerini IBAN kodlarını içeren TXT dosyaları olarak alacaksınız. Banka ekstresini içe aktarma işleminin bir parçası olarak, halihazırda Dynamics 365 for Finance and Operations'da mevcut olan mantığı kullanarak bu IBAN kodlarının doğru olduklarını doğrulamanız gerekir.   
+    * Bir uygulamanın veri güncelleştirmesi için gelen banka ekstrekerini ayrıştırmak üzere bir işlem tasarladığınızı varsayalım. Gelen banka ekstrelerini IBAN kodlarını içeren TXT dosyaları olarak alacaksınız. Banka ekstresi içe aktarma işleminin bir parçası olarak, halihazırda Dynamics 365 for Finance and Operations içinde bulunan mantığı kullanarak bu IBAN kodlarının doğru olduğunu doğrulamanız gerekir.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Yeni bir ER modeli yapılandırmasını içe aktarma
 1. Listede, istenen kaydı bulun ve seçin.
@@ -103,7 +103,7 @@ Bu adımları tamamlamak için ilk olarak "ER Yapılandırma sağlayıcısı olu
     * Veri modeline eşleme  
 6. Kaydet'e tıklayın.
 7. Tasarımcı'yı tıklatın.
-8. Ağaçta, 'Dynamics 365 for Operations\Sınıf' öğesini seçin.
+8. Ağaçta 'Dynamics 365 for Operations\Sınıf' öğesini seçin.
 9. Kök ekle'ye tıklayın.
     * IBAN kodları doğrulaması için mevcut uygulama mantığını çağırmak üzere yeni veri kaynağı ekleyin.  
 10. Ad alanına, 'check_codes' yazın.
@@ -157,5 +157,4 @@ Sınama amacıyla, daha önce yüklediğiniz SampleIncomingMessage.txt dosyasın
     * Gözat düğmesine tıklayın ve önceden indirdiğiniz SampleIncomingMessage.txt dosyasına gidin.  
 2. Tamam'a tıklayın.
     * Seçili dosyadan içeri aktarılan ve veri modeline taşınan verileri temsil eden XML biçimindeki çıktıyı gözden geçirin. İçe aktarılan TXT dosyasındaki yalnızca 3 satırın işlendiğini unutmayın. Satır 4'teki geçersiz IBAN kodu atlandı ve Bilgi günlüğünde bir hata iletisi sağlandı.  
-
 

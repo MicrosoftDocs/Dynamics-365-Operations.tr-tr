@@ -1,13 +1,13 @@
 ---
-title: "Satıcı iş birliği faturalama çalışma alanı"
-description: "Bu konuda, satıcı faturalarını görüntüleme ve satıcı iş birliği faturalama çalışma alanından faturaları gönderme açıklanmaktadır."
+title: Satıcı iş birliği faturalama çalışma alanı
+description: Bu konuda, satıcı faturalarını görüntüleme ve satıcı iş birliği faturalama çalışma alanından faturaları gönderme açıklanmaktadır.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 5520012a00e918e8748b974773eeaf2450f0c55e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2368fae3913f67d9d2ce0bbe6b2e0bee7968bb15
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340534"
 ---
-
 # <a name="vendor-collaboration-invoicing-workspace"></a>Satıcı iş birliği faturalama çalışma alanı
 
 [!include [banner](../includes/banner.md)]
 
 Bu konuda, satıcı faturalarını görüntüleme ve satıcı iş birliği faturalama çalışma alanından faturaları gönderme açıklanmaktadır.
 
-**Satıcı iş birliği faturalama** çalışma alanı, satıcı faturası bilgilerini görüntülemek ve iş akışı özelliklerini kullanarak Microsoft Dynamics 365 for Finance and Operations'a fatura göndermek için kullanılabilir.
+**Satıcı iş birliği faturalama** çalışma alanı, satıcı faturası bilgilerini görüntülemek ve iş akışı özelliklerini kullanarak Microsoft Dynamics 365 for Finance and Operations uygulamasına fatura göndermek için kullanılabilir.
 
 
 <a name="vendor-collaboration-invoicing-workspace"></a>Satıcı işbirliği faturalama çalışma alanı
@@ -60,7 +59,6 @@ Satınalma siparişinden yeni fatura oluşturma
 **Satıcı iş birliği faturalama** çalışma alanındaki **Yeni** eylemini seçerek yeni bir satıcı faturası oluşturabilirsiniz. Satınalma sipariş numarası ve fatura numarası satıcı tarafından sağlanmalıdır. Varsayılan olarak, satıcının satınalma emrinden alınan tüm satırlar yeni faturada görünür. Miktar ve maliyet bilgileri satıcı faturasını iş akışına göndermeden önce düzenlenebilir. Göndermeden önce bir faturaya dosya, not, görüntü ve URL ekleyebilirsiniz.
 
 Daha fazla bilgi için bkz. [Harici satıcılarla satıcı işbirliği](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Bütçe planlama gerekçe belgeleri"
-description: "Gerekçe belgeleri, belirli bir bütçenin neden gerekli olduğunu açıklamak isteyenler için açıklama sağlar."
+title: Bütçe planlama gerekçe belgeleri
+description: Gerekçe belgeleri, belirli bir bütçenin neden gerekli olduğunu açıklamak isteyenler için açıklama sağlar.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cae6334cd39a91eaf3a2a79f30edc705f484bc8c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333588"
 ---
-
 # <a name="budget-planning-justification-documents"></a>Bütçe planlama gerekçe belgeleri
 
 [!include [banner](../includes/banner.md)]
@@ -34,19 +33,19 @@ Gerekçe belgeleri, belirli bir bütçenin neden gerekli olduğunu açıklamak i
 
 Bir bütçe planı şablonu, bütçe yöneticisi tarafından Microsoft Word içerisinde oluşturulur ve geçerli bütçe planlama işlemine atanır. Bütçe sahipleri daha sonra şablonu açabilir ve verinin bütçe isteklerine göre Word içerisinde otomatik doldurulmasını sağlayabilir. Daha sonra, kaydetmeden önce ek metin veya veri ekleyebilir ve kişiselleştirilmiş gerekçe belgelerini bütçe planına ekleyebilirler.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Microsoft Word için Microsoft Dynamics Office eklentisini ayarlama
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Microsoft Word için Microsoft Dynamics Office Eklentisini ayarlayın
 
-1.  Yeni bir Microsoft Word belgesi açın.
+1.  Yeni bir Microsoft Word belgesi oluşturma.
 2.  Şerit üzerinde **Ekle**'yi tıklatın ve **Depola**'yı tıklatın.
 3.  Microsoft Dynamics Office Eklentisi'ni aratın ve **Ekle**'yi tıklatın.
 4.  Word içerisinde, sağdaki bölmede **Sunucu bilgisi ekle**'yi tıklatın.
 5.  Sunucu URL'sini yazın veya yapıştırın ve **Tamam**'ı tıklatın.
 
-##### <a name="define-the-justification-template-in-microsoft-word"></a>Microsoft Word içerisinde Gerekçe şablonunu tanımlama
+##### <a name="define-the-justification-template-in-microsoft-word"></a>Microsoft Word içinde doğrulama şablonunu tanımlayın
 
 1.  Microsoft Dynamics Office Ekletisi'ne oturum açtıktan sonra **Tasarım**'ı tıklatın.
 2.  Başlık bilgisi için **Alanlar ekle** düğmesini kullanın.
-3.  BudgetPlanJustification varlık veri kaynağını seçin ve **İleri**'yi tıklatın. **Not:** Bu varlık tüm gerekçe belgeleri için gereklidir. Diğer varlıklar da kullanılabilir ancak bu varlık dahil edilmemişse Microsoft Dynamics 365 for Finance and Operations'a geri yükleme başarısız olur.
+3.  BudgetPlanJustification varlık veri kaynağını seçin ve **İleri**'yi tıklatın. **Not:** Bu varlık tüm gerekçe belgeleri için gereklidir. Diğer varlıklar da kullanılabilir ancak bu varlık dahil edilmemişse Microsoft Dynamics 365 for Finance and Operations'a geri yüklerken başarısız olur.
 4.  BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter ve DocumentNumber etiketlerini ve değerlerini Word dosyasına ekleyin. **Not:** Gerekirse standart etiketler yerine kendi özel etiketlerinizi kullanabilirsiniz.
 5.  Başlık bölümünü tamamlamak için **Tamam**'ı tıklatın.
 6.  Bütçe planı tutarlarının satır düzeyi ayrıntıları için **Tablo ekle**'yi tıklatın.
@@ -69,7 +68,6 @@ Bir bütçe planı şablonu, bütçe yöneticisi tarafından Microsoft Word içe
 1.  Finance and Operations içerisinde, yeni bir bütçe planı oluşturun veya var olan bir bütçe planını açın.
 2.  **Gerekçe** aşağı açılan menüsünden **Yeni gerekçe oluşturma**'yı seçin.
 3.  Ayrıntılar doldurduktan sonra, karşıya yüklemek için **Gerekçe** aşağı açılan menü üzerinden kişiselleştirilmiş belgeyi seçin.
-
 
 
 

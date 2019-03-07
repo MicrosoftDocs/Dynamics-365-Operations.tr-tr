@@ -1,13 +1,13 @@
 ---
-title: "Ambar yönetimi"
-description: "Ambar yönetimini ambar işlemlerini izlemek ve otomatikleştirmek için kullanın."
+title: Ambar yönetimi
+description: Ambar yönetimini ambar işlemlerini izlemek ve otomatikleştirmek için kullanın.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7c9613070e077bced4b272b136985de5f4ddbdd0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc039b3c35c9ff8f40bf671e523104031c598171
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335267"
 ---
 # <a name="warehouse-management"></a>Ambar yönetimi
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 for Finance and Operations'taki Ambar yönetimi modülü, üretim, dağıtım ve perakende şirketlerinde ambar işlemlerini yönetmenizi sağlar. Bu modül, ambar tesisini her zaman, en iyi seviyede destekleyen çok çeşitli özelliklere sahiptir. Ambar yönetimi Finance and Operations içindeki diğer iş işlemleri tümüyle entegredir; örneğin taşıma, üretim, kalite kontrol, satınalma, transfer, satış ve iadeler gibi.
+Dynamics 365 for Finance and Operations için Ambar yönetim modülü, üretim, dağıtım ve perakende şirketlerindeki ambar işlemlerini yönetmenizi sağlar. Bu modül, ambar tesisini her zaman, en iyi seviyede destekleyen çok çeşitli özelliklere sahiptir. Ambar yönetimi Finance and Operations içindeki diğer iş işlemleri tümüyle entegredir; örneğin taşıma, üretim, kalite kontrol, satınalma, transfer, satış ve iadeler gibi.
 
 ## <a name="get-started"></a>Başlayın
 Ambar yönetimiyle çalışmaya başlamak için, şirketinizin iş işlemlerini desteklemek için genel ambar parametrelerinin kurulumunu tamamlamanız gerekir.
@@ -65,13 +65,12 @@ Ambar yönetimiyle çalışmaya başlamak için, şirketinizin iş işlemlerini 
 - Basit çapraz sevk
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-### <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
-Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) bölümüne gidin.
+### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
+Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin.
 
 ### <a name="blogs"></a>Bloglar
-[Microsoft Dynamics 365 blogunda](https://community.dynamics.com/b/msftdynamicsblog) Ambar yönetimi ve diğer çözümler hakkında fikirlere, haberlere ve diğer bilgilere ulaşabilirsiniz.
+[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog) Ambar yönetimi ve diğer çözümler hakkındaki fikir, haber ve diğer bilgilere ulaşabilirsiniz.
 
 
  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Otomatik navlun mutabakatını ayarlama"
-description: "Bu yordam, otomatik navlun mutabakatı için verilerin nasıl ayarlanacağını gösterir."
+---
+title: Otomatik navlun mutabakatını ayarlama
+description: Bu yordam, otomatik navlun mutabakatı için verilerin nasıl ayarlanacağını gösterir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/16/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
 ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
-ms.contentlocale: tr-tr
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357485"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Otomatik navlun mutabakatını ayarlama
 
@@ -71,5 +71,4 @@ Bu yordam, otomatik navlun mutabakatı için verilerin nasıl ayarlanacağını 
     * Parasal tutarlar navlun faturasında ve taşıyıcı faturasında farklılık gösterirse fazla ödeme ve eksik ödeme neden kodları, farklılıklar tolerans düzeyleri içinde kaldığı sürece farklılıkların kaydedilmesinin gerekli olduğu hesapları belirtir.  
 11. Eksik ödeme neden kodu alanına bir değer girin veya seçin.
 12. Sayfayı kapatın.
-
 

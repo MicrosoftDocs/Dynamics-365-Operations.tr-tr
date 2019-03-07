@@ -1,13 +1,13 @@
 ---
-title: "Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)"
-description: "Bu makalede, Microsoft Dynamics AX 7.0'da yeni olan veya değişen özellikler açıklanır. Bu sürüm, platform ve uygulama özellikleri içerir ve Şubat 2016'da yayımlanmıştır."
+title: Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
+description: Bu makale Microsoft Dynamics AX 7.0'da yeni veya değişen özellikler açıklanmaktadır. Bu sürüm, platform ve uygulama özellikleri içerir ve Şubat 2016'da yayımlanmıştır.
 author: sericks007
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334899"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, Microsoft Dynamics AX 7.0'da yeni olan veya değişen özellikler açıklanır. Bu sürüm, platform ve uygulama özellikleri içerir ve Şubat 2016'da yayımlanmıştır.
+Bu makale Microsoft Dynamics AX 7.0'da yeni veya değişen özellikler açıklanmaktadır. Bu sürüm, platform ve uygulama özellikleri içerir ve Şubat 2016'da yayımlanmıştır.
 
 ## <a name="cost-management"></a>Maliyet yönetimi
 
@@ -119,7 +118,7 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 | Çözümlerinizi geliştirmek için Microsoft Visual Studio'yu kullanın. | Microsoft MorphX ana geliştirme ortamı olmakla birlikte, bazı geliştirme Visual Studio'da gerçekleşir. | Visual Studio, tek geliştirme ortamıdır. | Bilinen Dynamics AX 2012 kavramlarını korur ve Visual Studio çerçevesi ve kipleri ile sorunsuz şekilde uyum sağlar. Diğer .NET dilleri ve projeleri ile de standart birlikte çalışabilirliği sağlar. |
 | Ortak Ara Dil'in (CIL) tüm özellikleri için derleyin. | X++ p-kod'a derlenir. | Yeni X ++ derleyicisi tüm özellikler için CIL oluşturur. CIL diğer .NET tabanlı diller tarafından kullanılan aynı ara dilidir. | CIL daha hızlıdır, verimli bir şekilde dinamik bağlantı kitaplıkları (DLL'ler) ile yönetilen sınıflarda referans yapabilir ve .NET'in geniş araç tabanında çalışabilir. |
 | İş Zekası (BI) raporlarını ve görsel öğelerini Microsoft Dynamics AX istemcisinde gömün. | Uygun değil | Son derece sezgisel ve akıcı görsel öğeler oluşturun. | BI temel alarak karar verme içgörüleri sağlar. |
-| Microsoft Office ile entegre edin. | Uygun değil | Yeni yeteneklere Excel Veri Bağlayıcısı uygulaması **Çalışma Kitabı Tasarımcısı** sayfası, API dışa aktarma ve Belge yönetimi dahildir. | Son kullanıcılarınız için üretkenlik çözümleri oluşturabilirsiniz. |
+| Microsoft Office'le Tümleştir. | Uygun değil | Yeni yeteneklere Excel Veri Bağlayıcısı uygulaması **Çalışma Kitabı Tasarımcısı** sayfası, API dışa aktarma ve Belge yönetimi dahildir. | Son kullanıcılarınız için üretkenlik çözümleri oluşturabilirsiniz. |
 | Derleme, sınama ve dağıtımı otomatikleştirin. | Kısmen uygun | Geliştirici topolojisini, Geliştirici ve VM Derleme'sini kullanarak dağıtın. VM Derleme'sini otomatik olarak yapılandırın, Visual Studio Online (VSO) üzerinden modülleri oluşturun ve testleri çalıştırın. C\## ve X++ modül derlemesi ve referansları destekleniyor. | Bu, sınama ve doğrulama için maliyeti ve çabayı azaltarak geliştirici verimliliğini artırır. |
 | Üst katman oluşturma ve uzantılar ile özelleştirin. | Uzantılar mevcut değildir. | Dynamics AX'in geçerli sürümünün yeni bir özelleştirme modeli vardır. | Microsoft veya üçüncü taraf Microsoft iş ortakları tarafından sevk edilmiş olan model öğelerinin kaynak kodu ve meta verilerini özelleştirebilirsiniz. |
 | Yeni denetimleri ve kullanıcı arabirimi öğelerini X++ ve modern web çerçevesi kullanarak oluşturun. | Özel denetimler Microsoft ActiveX ve Windows Presentation Foundation (WPF) gibi dış çerçeveleri temel alır. | Geçerli sürümde denetimleri oluşturmak daha kolaydır. X++ framework uygulama davranışı ve iş mantığı için kullanılabilir ve bir HTML/JavaScript tabanlı istemci modern görseller sağlar. | Denetimleriniz, Dynamics AX kullanıma hazır (OOB) denetimleri gibi görünmek ve davranmak üzere tasarlanabilir. |
@@ -141,7 +140,7 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 </thead>
 <tbody>
 <tr>
-<td>Hesap yapılarını Microsoft Excel'e aktarın.</td>
+<td>Hesap yapılarını Microsoft Excel'e dışa aktar.</td>
 <td>Uygun değil</td>
 <td>Şimdi bir hesap yapısı seçip, Excel'e aktarabilirsiniz.</td>
 <td>Birçok müşteri daha kolay filtreleme için hesabı yapılarını Excel'e aktarma özelliğini talep etmişlerdir.</td>
@@ -207,13 +206,13 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 <td>Finansal raporların tüketicileri, rapor tasarımları için güncelleştirmeye gerek kalmadan boyutlar, tarihler, öznitelikler ve senaryolar için farklı filtreler uygulayabilirler.</td>
 </tr>
 <tr>
-<td>Finansal raporları (Yönetim Raporlayıcısı) Microsoft Dynamics AX istemcisi içinde görüntüleyin.</td>
+<td>Finansal raporları (Management Reporter) Microsoft Dynamics AX istemcisi içinde görüntüleyin.</td>
 <td>Management Reporter raporlarını görüntülemek için ayrı bir web istemcisi kullanılırdı.</td>
 <td>Tüm finansal raporlara Dynamics AX istemcisinde erişilebilir. Kullanıcı görüntülemek için bir raporu seçer ve rapor istemci uygulamasında görüntülenir.</td>
 <td>Artık farklı bir istemci/uygulamaya erişmek zorunda kalmadan mali raporları görüntüleyebilirsiniz.</td>
 </tr>
 <tr>
-<td>Finansal raporları (Yönetim Raporlayıcısı) Microsoft Dynamics AX istemcisinden yazdırın.</td>
+<td>Finansal raporları (Management Reporter) Microsoft Dynamics AX istemcisinden yazdırın.</td>
 <td>Bir raporu yazdırmak için tarayıcının yazdırma seçenekleri kullanılır ve yalnızca kullanıcının ekran üzerinde görebildiği yazdırılır.</td>
 <td>Kullanıcı Dynamics AX istemcisi içindeki mali raporda Yazdırma seçeneğini kullanarak ayrıntı düzeyini ve sayfa ayarını seçebilir.</td>
 <td>Raporlar bir web sayfasını yazdırmak yerine kullanıcıların beklediği şekilde yazdırılır.</td>
@@ -221,7 +220,7 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 <td>Power BI "Finansal performansı izle" içeriği kullanarak mali verileri çözümleyin.</td>
 <td>Uygun değil</td>
 <td>PowerBI.com üzerinde <strong>Veri Al</strong> ve sonra <strong>Dynamics AX – finansal performans</strong> içerik paketini seçin. Dynamics AX bitiş noktası URL'sini verilerinizin panoda yansıtılması için girin.</td>
-<td>Kuruluşlar üç veya dört tıklama ile önemli mali verileri içeren bir Power BI panosu dağıtabilirler. İçerik organizasyon tarafından kişiselleştirilebilir.</td>
+<td>Kuruluşlar üç veya dört tıklatma ile önemli finansal verileri içeren bir Power BI Pano'su dağıtabilirler. İçerik organizasyon tarafından kişiselleştirilebilir.</td>
 </tr>
 <tr>
 <td>Mali dönem kapanış işlemlerini izleme.</td>
@@ -294,7 +293,7 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 </tr>
 <tr>
 <td>Formları tarayıcı görünüm penceresi veya cihaz boyutuna duyarlı hale getirin.</td>
-<td>AX-2012'de form içeriği sütunlar kullanılarak kesin bir şekilde düzenlenmiş ve genel form yüksekliği/genişliği form üzerindeki denetimlere göre büyük ölçüde tespit edilmiştir.</td>
+<td>AX 2012'de form içeriği sütunlar kullanılarak kesin bir şekilde düzenlenmiş ve genel form yüksekliği/genişliği form üzerindeki denetimlere göre büyük ölçüde tespit edilmiştir.</td>
 <td>En son Dynamics AX'te web'e geçişle birlikte bir formun boyutları şu anda tarayıcı görünüm penceresi boyutunu veya cihazı temel alır. Görünüm penceresi boyutundaki değişikliklere daha iyi yanıt vermek için denetimler ve düzen parametreleri değiştirilmiş veya eklenmiştir.</td>
 <td>Tarayıcı veya cihazın mevcut yüksekliğini/genişliğini en uygun şekilde kullanmak için form içeriğinin daha duyarlı olması gerekir. Duyarlılığa ulaşmak için formun modellendiği yöntemin değiştirilmesi gerekebilir.</td>
 </tr>
@@ -550,7 +549,7 @@ Yeni özellik eklenmemiştir.
 | Satış siparişi veya üretim emri planlanan tarihte teslimata hazır değil ise kullanıcıyı uyarın. | Master planlama tarafından oluşturulan uyarılar *Vadeli işlem iletileri* adını taşır. *Vadeli işlemler*, teslimat ve ödeme ileri bir tarihte gerçekleşecek olsa da (*teslimat tarihi*), iki taraf arasında bir kıymetin bugünkü fiyatı üzerinden (*vadeli işlem fiyatı*) alım ya da satım yapmayı öngören bir sözleşmedir. | *Vadeli işlem iletileri* ve *vadeli işlem tarihleri* sırasıyla *hesaplanan gecikmeler* ve *gecikmeli tarihler* olarak adlandırılmıştır. | AX 2012'de kullanılan terminoloji tutarsızdı ve yanlış çevirilere sebep oluyordu. |
 | Master planlama çalışması, acil planlı siparişler ve gecikmelere sebep olan planlı siparişler durumları hakkında hızlı içgörüler kazanın. | Bu bilgi mevcuttur, ancak birden fazla form üzerinde dağılmıştır. | **Master planlama** çalışma alanı, son master planlamanın ne zaman tamamlandığı, hata oluşup oluşmadığı, acil planlı siparişlerin neler olduğu ve hangi planlı siparişlerin gecikmelere neden olduğuna dair bilgileri bir bakışta sunar. | Çalışma alanının sağladığı genel bakıştan yararlanırsınız. İlgili bilgiler, master planlamaya kılavuz olmak ve üretkenliği artırmaya yardımcı olmak için bir araya getirilmiştir. |
 | Talep tahminleri güncelleştirmek için Excel kullanın. | Uygun değil | Talep tahminleri girdiğinizde, güncelleştirmeler yaptığınızda ve talep tahminlerini sildiğinizde Excel ile entegrasyonun avantajlarından yararlanırsınız. | Bu da verimliliği ve üretkenliği artırmanıza yardımcı olur. |
-| Gelecekteki talebi tahmin edin ve geçmiş hareket verilerini temel alan talep tahminleri oluşturun. | Microsoft Dynamics AX 2012 R3'de Microsoft SQL Server Çözümleme Hizmeti tahmin modelleri, talep tahmin öngörüleri oluşturmak için kullanılır. | Microsoft Azure makine öğrenme bulut hizmetinin genişleme yeteneği ve gücünü kullanarak gelecekteki talebi tahmin edin. Müşteri gereksinimlerini karşılamak için makine öğrenme tahmin modellerini kullanmak ve genişletmek kolaydır. Hizmet en iyi eşleşme modeli seçimi yapar ve tahmin doğruluk hesaplamak için kullanılabilecek anahtar performans göstergeleri (APG) sunar. | Makine öğrenme tekniklerini kullanarak daha doğru tahminler üretin. |
+| Gelecekteki talebi tahmin edin ve geçmiş hareket verilerini temel alan talep tahminleri oluşturun. | Microsoft Dynamics AX 2012 R3 içinde, Microsoft SQL Server Analiz Servisi içindeki tahmin modelleri talep tahmin öngörüleri oluşturmakta kullanılır. | Microsoft Azure makine öğrenme bulut hizmetinin genişleme yeteneği ve gücünü kullanarak gelecekteki talebi tahmin edin. Müşteri gereksinimlerini karşılamak için makine öğrenme tahmin modellerini kullanmak ve genişletmek kolaydır. Hizmet en iyi eşleşme modeli seçimi yapar ve tahmin doğruluk hesaplamak için kullanılabilecek anahtar performans göstergeleri (APG) sunar. | Makine öğrenme tekniklerini kullanarak daha doğru tahminler üretin. |
 | Sipariş tarihi ve miktarını master planlama çalışmasının ilgili eylemlerinin görsel genel bakışına dayanarak iyileştirin. | Genel eylemleri grafik görünümü kullanılabilir durumdadır, ancak tüm ilgili eylemleri gösterir. Eylemleri uygulandığında, bunlar hemen görünümden kaybolacaktır. | Eylemler grafiği daha iyi bir genel bakış sağlar. Bu yalnızca uygulanan ve doğrudan ilgili eylemleri göstermenize izin verecek seçenekleri içerir. Eylemleri uygulandığında, soluk görünürler ancak hala gösterilirler. Bu nedenle, genel bakış korunur. Ek bilgiler, verileri tek bir sayfada görüntülemek için eylemler grafiğine eklenir. | Yalnızca ilgili eylemler üzerinde odaklandığınız için verimlilikte geliştirmeden faydalanırsınız. |
 
 ## <a name="procurement-and-sourcing"></a>Tedarik ve kaynak atama
@@ -559,7 +558,7 @@ Yeni özellik eklenmemiştir.
 |------------------|------------------|-----------------|------------------------|
 | **Satınalma siparişi hazırlık** çalışma alanını, hazırlanmakta olan satınalma siparişlerinin durumuna hızlı bir anlayış kazanmak için kullanın. | Desteklenmez | **Satınalma siparişi hazırlık** çalışma alanı, siparişlerin taslak olarak oluşturuldukları ve izlendikleri zamandan, iş akışı onay durumları arasında ve onaylanmaya doğru ileri bir genel bakış sağlar. | Satınalma departmanınız artık birden çok sayfadan bilgileri aramak zorunda kalmaz ve artık çalışma alanının sunduğu genel bakıştan faydalanır. |
 | **Satınalma sipariş girişi ve takip** çalışma alanını, giriş bekleyen satınalma siparişleri hakkında hızlı bir anlayış kazanmak ve izlemelerini takip etmek için kullanın. | Desteklenmez | **Satınalma sipariş girişi ve takip** çalışma alanı, bekleyen girişe veya teslimata sahip, onaylanmış satınalma siparişlerine genel bir bakış sağlar. Çalışma alanı girişlerini önleyici inceleme ve tedarikçi tarafından izleme ile ilgili Yardım için bekleyen ve sonrası son giriş listeleri içerir. Çalışma alanı ek olarak ambarda varış kaydı gerçekleşen satınalma siparişlerini, irsaliyelerinin deftere naklediğinden emin olmaya yardımcı olmak için listeler. Henüz sevkedilmemiş satınalma sipariş dönüşleri de ayrıca gözden geçirilmek için kullanılabilir. | Satınalma departmanınız çalışma alanının sunduğu genel bakıştan faydalanır. İlgili bilgiler, takip için bir kılavuz olmak ve üretkenliği artırmaya yardımcı olmak için bir araya getirilmiştir. |
-| Satınalma siparişlerini onay için Dynamics AX istemcisinde barındırılan bir satıcı portalına gönderin. Satıcının onaylamasına veya reddetmesine izin ver. | Desteklenmez | Satıcı portalı arayüzü, satıcıların aldıkları satınalma siparişlerinin onaylamış veya reddedilmiş olmalarına izin verir. Ayrıca satıcının bir hesaptaki tüm onaylanmış satınalma siparişleri hakkında genel bir bakış edinmesini sağlar. Satınalma aracısı, satıcıdan bir onaylama isteyen, bir satınalma siparişini gönderebilir. Satıcının Dynamics AX'de kayıtlı bir Microsoft Azure Active Directory (Azure AD) kullanıcısı olması, satıcı için bir ilgili kişi bulunması ve özel bir güvenlik rolüne sahip olması gerekmektedir. | Satınalma departmanınız, evrak işlerinin ve satınalma siparişlerinin el ile takip edilmesinin azalmasından, bunlar doğrudan sisteme aktıkları için, faydalanır. Tek bir gerçek kaynağı olması müşteri ve satıcı arasındaki yanlış anlamaları azaltır. |
+| Satınalma siparişlerini onay için Dynamics AX istemcisinde barındırılan bir satıcı portalına gönderin. Satıcının onaylamasına veya reddetmesine izin ver. | Desteklenmez | Satıcı portalı arayüzü, satıcıların aldıkları satınalma siparişlerinin onaylamış veya reddedilmiş olmalarına izin verir. Ayrıca satıcının bir hesaptaki tüm onaylanmış satınalma siparişleri hakkında genel bir bakış edinmesini sağlar. Satınalma aracısı, satıcıdan bir onaylama isteyen, bir satınalma siparişini gönderebilir. Satıcının Dynamics AX'te kayıtlı bir Microsoft Azure Active Directory (Azure AD) kullanıcısı olması, satıcı için bir ilgili kişi bulunması ve özel bir güvenlik rolüne sahip olması gerekmektedir, | Satınalma departmanınız, evrak işlerinin ve satınalma siparişlerinin el ile takip edilmesinin azalmasından, bunlar doğrudan sisteme aktıkları için, faydalanır. Tek bir gerçek kaynağı olması müşteri ve satıcı arasındaki yanlış anlamaları azaltır. |
 
 ## <a name="projects"></a>Projeler
 
@@ -571,7 +570,7 @@ Yeni özellik eklenmemiştir.
 
 ### <a name="retail-hq"></a>Perakende Genel Merkezi
 
-Microsoft Azure tarafından barındırılan Perakende HQ, bir web istemcisi aracılığıyla ticaret operasyonlarının tüm yönlerine tam görünürlük ve merkezi yönetim sağlar.
+Microsoft Azure tarafından barındırılan Perakende HQ, bir web istemcisi aracılığıyla ticaret operasyonlarının tüm yönlerine tam görünürlük merkezi yönetim sağlar.
 
 <table>
 <thead>
@@ -624,7 +623,7 @@ Microsoft Azure tarafından barındırılan Perakende HQ, bir web istemcisi arac
 <ul>
 <li>Yeni kanallar ve ilgili varlıklar oluşturun ve yapılandırın.</li>
 <li>Günlük mağaza aktivitelerini yönetin.</li>
-<li>Microsoft Dynamics AX'te perakende hareketleri işlemden geçirin, perakende ekstreleri oluşturun ve Microsoft Dynamics AX stok ve finansal öğelerini güncelleştirin.</li>
+<li>Microsoft Dynamics AX içinde perakende işlerini işleme, perakende bildirimleri oluşturma ve Microsoft Dynamics AX stok ve finansalları güncelleştirme.</li>
 </ul>
 </td>
 <td><strong>Kanal dağıtımı</strong> çalışma alanı aşağıdaki görevleri gerçekleştirmenize olanak sağlar:
@@ -632,7 +631,7 @@ Microsoft Azure tarafından barındırılan Perakende HQ, bir web istemcisi arac
 <li>Yeni kanallar ve ilgili varlıkları oluşturun.</li>
 <li>Perakende mağaza yapılandırmasının ilerlemesini izleyin.</li>
 <li>Bir görevi tamamlamak için gereken adımları gerçekleştirin veya görevi tamamlamak için gereken bilgileri sağlayın.</li>
-<li>Aygıtlar durumunu izleyin ve mağazalardaki perakende Modern POS (MPOS) programım kurulumunu mağazaların içinde doğrudan doğrulayın ve karşıdan yükleyin.</li>
+<li>Aygıtlar durumunu izleyin ve mağazalardaki perakende Retail Modern POS (MPOS) programım kurulumunu mağazaların içinde doğrudan doğrulayın ve karşıdan yükleyin.</li>
 <li>Tüm ilgili sayfalara erişin.</li>
 </ul>
 <strong>Perakende mağaza yönetimi</strong> çalışma alanı aşağıdaki görevleri gerçekleştirmenize izin verir:
@@ -655,7 +654,7 @@ Microsoft Azure tarafından barındırılan Perakende HQ, bir web istemcisi arac
 <tr>
 <td>Perakende BT operasyonlarını yönetin</td>
 <td>Kullanıcının birden fazla forma erişmesi gerekir.</td>
-<td><strong>Perakende BT</strong> çalışma alanı belirli bir kanal için tek bir yerde ticaret veri değişimi sorgularını sağlar ve böylece aşağıdaki görevleri gerçekleştirebilirsiniz:
+<td><strong>Perakende BT</strong> çalışma alanı belirli bir kanal için tek bir yerde Commerce Data Exchange sorgularını sağlar ve böylece aşağıdaki görevleri gerçekleştirebilirsiniz:
 <ul>
 <li>İndirme oturumları.</li>
 <li>Karşıya yükleme oturumları.</li>
@@ -667,7 +666,7 @@ Microsoft Azure tarafından barındırılan Perakende HQ, bir web istemcisi arac
 <tr>
 <td>Verileri, veri varlıklarını kullanarak dışarı aktarın/içeri alın.</td>
 <td>AX 2012, Microsoft Dynamics Retail Management Sistemi'ni (RMS) geçişini, veri alma/verme çerçevesi aracılığıyla kullanıma hazır olarak destekler.</td>
-<td>Perakende veri varlıkları için perakende ilgili tüm ana ve başvuru veri desteklemek için genişletilmiştir. Tüm Dynamics AX çözümünde veri varlıkları için geliştirilmiş destek mevcuttur.</td>
+<td>Perakende veri varlıkları için perakende ilgili tüm ana ve başvuru veri desteklemek için genişletilmiştir. Tüm Dynamics AX çözümünde veri varlıkları için geliştirilmiş destek mevcuttur.</td>
 <td>Veri varlıkları müşterilerin meta veri güdümlü şekilde veri alma ve veri vermelerini sağlar. OData varlıkları da müşterilerin Dynamics AX'i üçüncü taraf programlarla tümleştirmelerini sağlar.</td>
 </tr>
 <tr>
@@ -679,8 +678,8 @@ Microsoft Azure tarafından barındırılan Perakende HQ, bir web istemcisi arac
 <tr>
 <td>Perakende kanal satış verilerini çözümlemek için "Retail Channel performance izle" Power BI içeriğini kullanın.</td>
 <td>Uygun değil</td>
-<td>PowerBI.com üzerinde <strong>Veri Al</strong>ve sonra <strong>Dynamics AX – Perakende kanalı performansı</strong> içerik paketini seçin. Dynamics AX bitiş noktası URL'sini verilerinizin panoda yansıtılması için girin.</td>
-<td>Kuruluşlar üç veya dört tıklama ile önemli mali verileri içeren bir Power BI panosu dağıtabilirler. İçerik organizasyon tarafından kişiselleştirilebilir. Ayrıca kullanıcılar, Power BI pano kutucuklarını kendi kişiselleştirilmiş çalışma alanlarına Dynamics AX'de ekleyebilirler ve böylece daha sonra analitik bilgileri bir bakışta görebilirler.</td>
+<td>PowerBI.com üzerinde <strong>Veri Al</strong> ve sonra <strong>Dynamics AX – Retail Channel Performance</strong> içerik paketini seçin. Dynamics AX bitiş noktası URL'sini verilerinizin panoda yansıtılması için girin.</td>
+<td>Kuruluşlar üç veya dört tıklatma ile önemli finansal verileri içeren bir Power BI Pano'su dağıtabilirler. İçerik organizasyon tarafından kişiselleştirilebilir. Ayrıca kullanıcılar, Power BI pano kutucuklarını kendi kişiselleştirilmiş çalışma alanlarına Dynamics AX'de ekleyebilirler ve böylece daha sonra analitik bilgileri bir bakışta görebilirler.</td>
 </tr>
 <tr>
 <td>Müşteri izinlerini yapılandırın.</td>
@@ -734,16 +733,16 @@ Perakende sunucu ve veri yönetimi, tüketicilerin ve işletmelerin çevrimiçi,
 <td>Bu üçüncü taraf çevrimiçi mağazalar ile kullanılabilen, barındırılan ve ölçeklenebilir e-ticaret hizmetleri sağlar.</td>
 </tr>
 <tr>
-<td>Verileri Ticaret veri değişimi'ni kullanarak Microsoft Dynamics AX arka ofis ve kanallar arasında taşıyın.</td>
-<td>Ticaret veri değişimi, çevrimiçi mağazalar ve fiziksel mağazalar gibi Microsoft Dynamics AX ve perakende kanalları arasında veri aktarımı sağlayan bir sistemdir. Daha fazla bilgi için bkz. <a href="https://technet.microsoft.com/library/dn741440.aspx">Ticaret Veri Değişimi [AX 2012]</a>.</td>
-<td>Microsoft Dynamics AX 2012 CU8 ile işlevsel denklik mevcuttur. Ancak, aşağıdaki ayrıntıları unutmayın:
+<td>Microsoft Dynamics AX arka ofis ve kanallar arasında Commerce Data Exchange kullanarak veri taşıyın.</td>
+<td>Commerce Data Exchange, çevrimiçi mağazalar ve fiziksel mağazalar gibi Microsoft Dynamics AX ve perakende kanalları arasında veri aktarımı sağlayan bir sistemdir. Daha fazla bilgi için bkz. <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Microsoft Dynamics AX 2012 CU8 ile fonksiyonel eşlilik vardır. Ancak, aşağıdaki ayrıntıları unutmayın:
 <ul>
-<li>Ticaret veri değişimi bulut için yeniden yaratıldı</li>
+<li>Commerce Data Exchange bulut için yeniden yaratıldı.</li>
 <li>Zaman uyumsuz hizmet, kanal veritabanına doğrudan veritabanı erişimi kullanır.</li>
-<li>Ticaret veri değişimi: Gerçek zamanlı hizmet, bir Microsoft Dynamics AX özel hizmeti olarak barındırılır.</li>
+<li>Commerce Data Exchange: Gerçek zamanlı servis bir Microsoft Dynamics AX özel hizmet olarak barındırılır.</li>
 <li>MPOS çevrimdışı veritabanları ve perakende sunucu arasında eşitlemeyi yönetir.</li>
 </ul></td>
-<td>Ticaret veri değişimi bulut platformu için yeniden yaratıldı. Çevrimiçi mağazalar ve fiziksel mağazalar gibi Microsoft Dynamics AX ve perakende kanalları arasında veri aktarımını yönetmeye devam eder.</td>
+<td>Commerce Data Exchange bulut platformu için yeniden yaratıldı. Çevrimiçi mağazalar ve fiziksel mağazalar gibi Microsoft Dynamics AX ve perakende kanalları arasında veri aktarımını yönetmeye devam eder.</td>
 </tr>
 <tr>
 <td>Tak ve Kullan, ödeme SDK'sını kullanarak yarı tümleşik kanal-arası ödeme işlemesini destekler.</td>
@@ -758,7 +757,7 @@ Perakende sunucu ve veri yönetimi, tüketicilerin ve işletmelerin çevrimiçi,
 <td>Müşterinin ödemeler için kredi/banka kartı hareketlerini işlemesine olanak sağlar.</td>
 </tr>
 <tr>
-<td>Bir Microsoft hesabı (Microsoft Azure Active Directory (Azure AD)) kullanarak aygıtları etkinleştirin.</td>
+<td>Bir Microsoft hesabı kullanarak cihazları etkinleştirme (Microsoft Azure Active Directory (Azure AD)).</td>
 <td>Uygun değil</td>
 <td>Aşağıdaki işlevsellik sağlanır:
 <ul>
@@ -786,7 +785,7 @@ Perakende sunucu ve veri yönetimi, tüketicilerin ve işletmelerin çevrimiçi,
 <li>Varlık sayfalarından resim karşıya yükleme ve görüntüleme desteği (<strong>Ürünler</strong>, <strong>Kataloglar</strong>, vb.) resim galerisinden bağlayarak ve görüntüyü masaüstünden karşıya yükleyerek.</li>
 <li>Küçük resim, özel boyut ve özgün boyut için resimleri en iyi duruma getirme.</li>
 <li>Toplu ilişkilendirme için şablon ve arka plan işleri kullanarak varlıkları toplu olarak bağlama.</li>
-<li>Microsoft Excel entegrasyonu, adlandırma kurallarının ve önceden tanımlanmış yolların öznitelik grup kısıtlamalarını geçersiz kılar.</li>
+<li>Microsoft Excel entegrasyonu, adlandırma kuralların ve önceden tanımlanmış yolların öznitelik grup kısıtlamalarını geçersiz kılar.</li>
 <li>Örneğin perakende'de barındırılan çalışan veya müşteri resimleri gibi kişisel olarak tanımlanabilen bilgiler (PII) için çevrimdışı resimler ve güvenli resimleri destekler.</li>
 </ul></td>
 <td><ul>
@@ -959,7 +958,7 @@ Lifecycle Services (LCS) müşterilerin ve ortakların sistemin ömrü kayıttan
 </ul>
 Kendi kendine kurulum aracılığıyla "low-touch" istemci bileşeni mevcuttur:
 <ul>
-<li>Perakende Modern POS.</li>
+<li>Retail Modern POS.</li>
 <li>Perakende Donanım İstasyonu.</li>
 <li>Kendi kendine yükleme aracılığıyla özelleştirilmiş paketlerin dağıtımı ve karşıya yükleme desteği.</li>
 </ul></td>
@@ -972,7 +971,7 @@ Kendi kendine kurulum aracılığıyla "low-touch" istemci bileşeni mevcuttur:
 </tr>
 <tr>
 <td>Sistem durumunu izleyin ve hataları ve sorunları tanımlayın.</td>
-<td>Bu işlevsellik <a href="http://www.microsoft.com/download/details.aspx?id=42636">Microsoft Dynamics AX 2012 R3 CU8 Perakende için System Center 2012 Yönetim Paketi</a> gerektirir.</td>
+<td>Bu işlevsellik <a href="http://www.microsoft.com/download/details.aspx?id=42636">Microsoft Dynamics AX 2012 R3 CU8 Perakende için System Center 2012 Yönetim Paketi gerektirir</a>.</td>
 <td>Perakende bileşenleri izleme ve tanılama şimdi LCS'deki <strong>Operasyonel Öngörüler</strong> Panosunda üzerinden kullanılabilir.</td>
 <td><strong>Operasyonel Öngörüler</strong> panosu, Sistem Merkezi İşlem Yöneticisi (SCOM) altyapısını kurma ihtiyacının yerini alan bir bulut tabanlı izleme portalıdır.</td>
 </tr>
@@ -985,7 +984,7 @@ Kendi kendine kurulum aracılığıyla "low-touch" istemci bileşeni mevcuttur:
 </tbody>
 </table>
 
-## <a name="sales"></a>Satış
+## <a name="sales"></a>Satışlar
 
 <table>
 <thead>
@@ -1034,4 +1033,3 @@ Yeni özellik eklenmemiştir.
 [Yenilikler veya değişenler](whats-new-changed.md)
 
 [Kullanılabilir yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
-

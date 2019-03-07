@@ -1,13 +1,13 @@
 ---
-title: "Maliyet sürümleri"
-description: "Bu makalede, maliyetlendirme sürümleri, bu sürümlerin nasıl sürdürüleceği ve bu sürümlere ekleyebileceğiniz veri türleri hakkında bilgiler verilmektedir. Maliyetlendirme versiyonunun birincil amacı madde, maliyet kategorileri için dolaylı maliyet hesaplama formülleri hakkındaki maliyet kayıtlarını içermektir."
+title: Maliyet sürümleri
+description: Bu makalede, maliyetlendirme sürümleri, bu sürümlerin nasıl sürdürüleceği ve bu sürümlere ekleyebileceğiniz veri türleri hakkında bilgiler verilmektedir. Maliyetlendirme versiyonunun birincil amacı madde, maliyet kategorileri için dolaylı maliyet hesaplama formülleri hakkındaki maliyet kayıtlarını içermektir.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cb8e8193b3312a63042a44cb082a33a196cbc1be
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330161"
 ---
-
 # <a name="costing-versions"></a>Maliyet sürümleri
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Satınalma fiyatı verilerinin bulunmasına olanak sağlamanın birincil amacı,
 Satınalma fiyat içeriğini etkinleştirmek için, öncelikle maddenin satınalma fiyatını için bir maliyet fiyatı modeli içeren bir ürün reçetesi hesaplama grubunu tanımlamalı ve ürün reçetesi hesaplama grubunu satın alınmış maddelere atayın. Sonra ürün reçetesi hesaplama grubu için bir maliyet fiyatı modeli kullanarak üretilen maddelerin satış fiyatlarını hesaplamak için planlanan maliyetleri ürün reçetesi hesaplamalarını kullanın. 
 
 Maddeler için satınalma fiyatı kayıtları da başvuru bilgisi olarak kullanılır. Satınalma fiyatı kaydından bir öğenin durumunu **Bekleyen**'den **Etkin**'e değiştirerek, maddenin temel satınalma fiyatı güncelleştirebilirsiniz. Ancak, temel satınalma fiyatı tesise özgü değildir ve el ile geçersiz kılınabilir. Maddenin temel satınalma fiyatı satınalma siparişlerinde varsayılan satınalma fiyatı olarak kullanılır.
-
 
 
 

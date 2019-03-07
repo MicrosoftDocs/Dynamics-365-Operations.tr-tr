@@ -1,31 +1,30 @@
 ---
-title: "İade maliyet fiyatı ve iade lot kodu"
-description: "İade edilen ürünlerin maliyetinin ürünleri müşteriye sattığınız zamandaki maliyete eşit olmasını isteyebilirsiniz. Bunu **İade lot kodu**'nu kullanarak yapabilirsiniz."
+title: İade maliyet fiyatı ve iade lot kodu
+description: İade edilen ürünlerin maliyetinin ürünleri müşteriye sattığınız zamandaki maliyete eşit olmasını isteyebilirsiniz. Bunu **İade lot kodu**'nu kullanarak yapabilirsiniz.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335152"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>İade maliyet fiyatı ve iade lot kodu        
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,7 @@ Varsayılan olarak, bir iade siparişine maddeleri eklediğinizde, maddeler sto�
 
 3.  **İade siparişi oluştur** formunda, bir müşteri hesabı seçin ve ardından **Tamam**'a tıklayın.
 
-4.  **İade siparişi - RMA numarası: %1, %2** formunda, **Eylem Bölmesinde** **Satış siparişini bul**'a tıklayın.
+4.  **İade siparişi - RMA numarası: %1, %2** formunda, **Eylem Bölmesinde**, **Satış siparişini bul**'a tıklayın.
 
 5.  **Satış siparişini bul** formunda, iade edilecek fatura satırını seçin ve **Tamam**'a tıklayın.
     
@@ -109,7 +108,6 @@ Varsayılan olarak, bir iade siparişine maddeleri eklediğinizde, maddeler sto�
 10. Stok ve ambar yönetiminde **Kapanış ve düzeltme** formunu kullanarak **3. Kapat** yordamını çalıştırın.
     
     Bu eylem orijinal satış satırında -35,00 olan maliyeti (5 parça \*7,00) -30,00 (5 parça \*6,00) olarak düzeltir. Bunun nedeki stok model grubunun ilk giren ilk çıkar (FIFO) kullanması ve parça başına 6,00'ın ilk satınalma siparişindeki FIFO maliyeti olmasıdır. Ek olarak, eylem iade satış satırındaki maliyeti orijinal satış satırındaki parça başına maliyetle eşleşecek şekilde ayarlar. Bu nedenle, iade satırındaki maliyet 35,00 yerine 30,00 olarak ayarlanır.
-
 
 
 

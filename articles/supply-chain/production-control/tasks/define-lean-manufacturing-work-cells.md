@@ -1,13 +1,13 @@
---- 
-title: "Yalın imalat iş hücrelerini tanımlama"
-description: "İş hücresi, yalın üretim işlem faaliyetlerinde kullanılabilen kaynak gruplarının belirli bir biçimidir."
+---
+title: Yalın imalat iş hücrelerini tanımlama
+description: İş hücresi, yalın üretim işlem faaliyetlerinde kullanılabilen kaynak gruplarının belirli bir biçimidir.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8f31fbd2ed8e20b92527af88fc3c955d3c66a364
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1d2381c045f9f0f98b35912fa732f3627b038785
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350401"
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Yalın imalat iş hücrelerini tanımlama
 
@@ -99,5 +99,4 @@ ms.lasthandoff: 09/29/2017
 
 ## <a name="save"></a>Kaydet
 1. Kaydet'e tıklayın.
-
 

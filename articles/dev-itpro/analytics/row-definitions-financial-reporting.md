@@ -1,13 +1,13 @@
 ---
-title: "Finansal rapor tasarımcısında satır tanımları"
-description: "Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rapor bileşeni veya yapı taşıdır. Satır tanımı birden çok şirket tarafından kullanılabilen bir yapı taşı grubu oluşturmak için sütun tanımları, raporlama ağacı tanımları ve rapor tanımları ile birleştirilebilir."
+title: Finansal rapor tasarımcısında satır tanımları
+description: Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rapor bileşeni veya yapı taşıdır. Satır tanımı birden çok şirket tarafından kullanılabilen bir yapı taşı grubu oluşturmak için sütun tanımları, raporlama ağacı tanımları ve rapor tanımları ile birleştirilebilir.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350447"
 ---
-
 # <a name="row-definitions-in-financial-report-designer"></a>Finansal rapor tasarımcısında satır tanımları
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rap
 Bir satır tanımı en fazla 20.000 mali boyut içerebilir ve içinde aşağıdaki bilgiler bulunabilir:
 
 - **Nakit** veya **Toplam Gelir** gibi bölüm başlıkları, satırlar ve alanlar oluşturarak rapora anlam ekleyen açıklayıcı metin
-- Microsoft Dynamics 365 for Finance and Operations içindeki boyut değerlerini içerebilen finansal veri bağlantıları
+- Microsoft Dynamics 365 for Finance and Operations'te boyut değerleri içerebilen finansal veri bağlantıları
 
     > [!NOTE]
     > Rapor her oluşturulduğunda mali boyutlar sisteminden verileri çekmek için bir satır tanımı ayarlayabilirsiniz.
@@ -189,4 +188,3 @@ Satır tanımında üzerinde çalıştığınız sütunları görüntülemeyi ko
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
-

@@ -1,13 +1,13 @@
---- 
-title: "Biçim oluşturduğunuzda veri modeli tanımlarını seçme"
-description: "Bu yordamdaki adımları tamamlamak için öncelikle \"ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme\" yordamını tamamlamanız gerekir."
+---
+title: Biçim oluşturduğunuzda veri modeli tanımlarını seçme
+description: Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334508"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Biçim oluşturduğunuzda veri modeli tanımlarını seçme
 
@@ -81,7 +81,7 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
     * Gerekli kök maddeleri için model eşlemelerini belirtmek için ER tasarımcısını kullanın.  
 2. Tasarımcı'yı tıklatın.
     * Seçilen modelin kök maddesi için seçilen model eşlemesinin ayarının benzetimini yapın.  
-3. Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' seçin.
+3. Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' öğesini seçin.
 4. Kök ekle'ye tıklayın.
 5. Ad alanına 'Genel muhasebe defteri' yazın.
 6. Tablo alanına 'LedgerJournalTrans' yazın.
@@ -98,5 +98,4 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
 4. Veri modeli tanımı alanına bir değer girin veya seçin.
     * Şimdi uygulama veri kaynaklarına yalnızca bir kök maddenin kullanılabilir olduğuna dikkat edin. En az bir model eşlemesi eklendiğinde, yalnızca uygulama veri kaynaklarına eşleşmiş olan modelin kök maddelerinin bir ER biçimi eklendiğinde bir model tanımı olarak seçilebileceğini unutmayın.   
 5. Sayfayı kapatın.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Genel günlük işleme"
-description: "Bu konu, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations yeteneklerini açıklar. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili kontrolün hatasız olduğunu da sağlamaya yardımcı olur."
+title: Yevmiye defteri işlemi
+description: Bu konu, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations yeteneklerini açıklamaktadır. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili denetimin hatasız olduğunu da sağlamaya yardımcı olurlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358451"
 ---
-
-# <a name="general-journal-processing"></a>Genel günlük işleme
+# <a name="general-journal-processing"></a>Yevmiye defteri işlemi
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations yeteneklerini açıklar. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili kontrolün hatasız olduğunu da sağlamaya yardımcı olur.  
+Bu konu, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations yeteneklerini açıklamaktadır. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili denetimin hatasız olduğunu da sağlamaya yardımcı olurlar.  
 
 ## <a name="journal-names"></a>Günlük adları
 
@@ -97,4 +96,3 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 **Deftere nakletmeyi simüle et**'i çoğu günlük için **Doğrula** menüsünde bulabilirsiniz. Bir günlüğü **Doğrula** işlevini kullanarak doğruladığınızda, sistem günlüğü belirli hata koşullarına karşı test eder. **Deftere nakletmeyi simüle et** işlevini kullanırsanız, sistem, deftere nakil sırasında çalıştırılacak tüm işlemleri günlüğü deftere gerçekte nakletmeden yapar. Daha sonra görüntülenen deftere nakil mesajlarını gözden geçirebilir, bulduğunuz hataları düzeltebilir ve daha sonra günlüğü deftere nakletmek için **Deftere naklet** menüsünü kullanabilirsiniz. 
 
 **Deftere nakletmeyi simüle et**, toplu işlem için kullanılamaz. Ancak, deftere nakli toplu iş için simüle etme kodu mevcuttur ve geliştiriciler bu kodu bu özelliğe eklemek üzere genişletebilir.  
-

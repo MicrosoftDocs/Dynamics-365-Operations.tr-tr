@@ -1,13 +1,13 @@
 ---
-title: "Satıcıları işe alma"
-description: "Bu konu yeni satıcıları işe alma sürecini açıklar. Bu işlem sırasında çeşitli roller için gerekli olan eylemleri açıklar."
+title: Satıcıları işe alma
+description: Bu konu yeni satıcıları işe alma sürecini açıklar. Bu işlem sırasında çeşitli roller için gerekli olan eylemleri açıklar.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322157"
 ---
-
 # <a name="onboard-vendors"></a>Satıcıları işe alma
 [!include [banner](../includes/banner.md)]
 
@@ -49,7 +48,7 @@ Aşağıdaki tablo işleme dahil olan adımları ve rolleri gösterir.
 | Yönetici            | | | Finance and Operations ve Microsoft Azure'da bir kullanıcı oluşturun. | | | |
 | Satıcı ilgili kişisi    | | | İlgili kişiye e-posta gönderin. | Satıcı bilgilerini kaydedin. | | |
 
-Satıcı işe alım sürecinin kısa bir tanıtımı için YouTube'daki şu kısa videoyu izleyin: [Dynamics 365 for Finance and Operations'ta yeni bir satıcıyı işe alma](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Satıcı işe alım sürecinin hızlı bir tanıtımı için bu kısa YouTube videosunu izleyin: [Yeni bir satıcıyı Dynamics 365 for Finance and Operations içinde başlatın](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Aday satıcı kaydı talebini içe aktarma
 
@@ -174,5 +173,4 @@ Aday satıcı kaydı talebindeki **Sil** eylemini kullanarak oluşturulan kayıt
 |  Satıcı talebi oluşturuldu  |                                                                     Satıcı kaydı sihirbazı tamamlandı.                                                                      | Kullanıcıyı devre dışı bırakmak üzere bir talep oluşturulur ve aday satıcı kaydı talebi, satıcı kaydı sihirbazına girilen veriler ve satıcı talebi silinir.<blockquote>[!NOTE]<br>Satıcı talebi iş akışında gözden geçirme aşamasındayken <strong>Sil</strong> eylemini kullanamazsınız.</blockquote> |
 |         Onaylandı         |                                                                               Satıcı talebi onaylanır.                                                                               |                                                                                                   Aday satıcı kaydı talebi, satıcı kaydı sihirbazına girilen veriler ve satıcı talebi silinir.                                                                                                    |
 |         Reddedildi         |                                                                               Satıcı talebi reddedilir.                                                                               |                                                                                                   Aday satıcı kaydı talebi, satıcı kaydı sihirbazına girilen veriler ve satıcı talebi silinir.                                                                                                    |
-
 

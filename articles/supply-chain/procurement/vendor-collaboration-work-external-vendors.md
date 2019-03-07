@@ -1,13 +1,13 @@
 ---
-title: "Harici satıcılarla satıcı iş birliği"
-description: "Bu konu, satınalma aracılarının satınalma siparişleri ve konsinye stok hakkında bilgileri paylaşmak için harici satıcılarla nasıl iş birliği yapabileceğini açıklar."
+title: Harici satıcılarla satıcı iş birliği
+description: Bu konu, satınalma aracılarının satınalma siparişleri ve konsinye stok hakkında bilgileri paylaşmak için harici satıcılarla nasıl iş birliği yapabileceğini açıklar.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350033"
 ---
-
 # <a name="vendor-collaboration-with-external-vendors"></a>Harici satıcılarla satıcı iş birliği
 
 [!include [banner](../includes/banner.md)]
@@ -106,7 +105,7 @@ Satıcıya gönderilen ve <strong>Harici İnceleme</strong> durumunda olan PO sa
 </tr>
 <tr class="even">
 <td>Satıcı siparişi <strong>reddeder</strong>.</td>
-<td>Satıcı yanıtı <strong>Reddedildi</strong> olarak kaydedilir ve PO'nun durumu <strong>Dış İncelemede</strong> olarak kalır. Reddetme yanıtı satıcının notu ile birlikte alınır.</td>
+<td>Satıcı yanıtı <strong>Reddedildi</strong> olarak kaydedilir ve PO'nun durumu <strong>Dış İncelemede</strong> olarak kalır. Reddetme yanıtı satıcıların notu ile birlikte alınır.</td>
 </tr>
 <tr class="odd">
 <td>Satıcı siparişi <strong>değişikliklerle</strong> <strong>kabul eder</strong>. Değişiklikler satır düzeyinde önerilir. Satıcı ayrı ayrı satırları kabul edebilir veya reddedebilir. Satıcının önerebileceği diğer değişiklikler şunlardır:
@@ -260,4 +259,3 @@ RFQ işlemi için parametreleri ayarlayan kullanıcı birden fazla e-posta şabl
 - %createddate%
 
 Bir düzeltme gerekirse ve RFQ gönderildikten sonra gönderilirse, RFQ davet edilen tüm satıcılara yeniden gönderilir. Yayınlanmış belge de **Açık yayımlanan teklif talepleri** sayfasında güncelleştirilir.
-

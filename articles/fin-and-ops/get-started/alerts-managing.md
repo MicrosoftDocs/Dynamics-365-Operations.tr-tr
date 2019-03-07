@@ -1,13 +1,13 @@
 ---
-title: "Uyarıların toplu işlenmesi"
-description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations'ta uyarıların toplu iş yürütme işlemleri hakkında bilgi sağlar."
+title: Uyarıların toplu işlenmesi
+description: Bu konu Microsoft Dynamics 365 for Finance and Operations içindeki toplu iş işleme uyarıları hakkında bilgi sağlar.
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 482cf30b4f82e8801ebc12e3925c1efb09f7eb1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 74db212b2086bd7c94825d8a52d9a8b86ea7b739
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341937"
 ---
-
 # <a name="batch-processing-of-alerts"></a>Uyarıların toplu işlenmesi
 
 [!include [banner](../includes/banner.md)]
 
-Uyarılar, Microsoft Dynamics 365 for Finance and Operations'ta toplu işleme işlevi tarafından işlenir. Uyarıların teslim edilebilmesi için önce toplu işlemeyi ayarlamanız gerekir.
+Uyarılar, Microsoft Dynamics 365 for Finance and Operations içerisindeki toplu işleme işlevi ile işlenir. Uyarıların teslim edilebilmesi için önce toplu işlemeyi ayarlamanız gerekir.
 
 Finance and Operations, iki tür olayı destekler:
 
@@ -84,4 +83,3 @@ Toplu işleme penceresi ayarlarsanız uyarı, vade tarihi ölçütünde tanımla
 
 1. **Sistem yönetimi** &gt; **Periyodik görevler** &gt; **Uyarılar** &gt; **Vade tarihine yönelik uyarılar**'a gidin.
 2. **Vade tarihine yönelik uyarılar** iletişim kutusuna uygun bilgileri girin.
-

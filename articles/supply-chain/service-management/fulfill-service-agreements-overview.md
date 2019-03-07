@@ -1,32 +1,30 @@
 ---
-title: "Servis sözleşmelerini karşılamaya genel bakış"
-description: "Bu konu servis sözleşmelerini karşılama görevlerine genel bir bakış sağlar."
+title: Servis sözleşmelerini karşılamaya genel bakış
+description: Bu konu servis sözleşmelerini karşılama görevlerine genel bir bakış sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0d37ba306ae972158fb2cea27579d8f204d33010
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3c87171fb96e661eac2c25c1800f622d65b552ae
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348308"
 ---
-
-
 # <a name="fulfill-service-agreements-overview"></a>Servis sözleşmelerini karşılamaya genel bakış 
 
 [!include [banner](../includes/banner.md)]
@@ -69,9 +67,9 @@ Aşağıdaki tabloda Servis sözleşmesi karşılama iş süreci bileşenlerini 
 <td><p>Servis abonelikleri oluşturmak ve güncelleştirmek.</p></td>
 </tr>
 <tr class="odd">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Sözleşme izleme ve uygulama</p></td>
@@ -84,9 +82,9 @@ Aşağıdaki tabloda Servis sözleşmesi karşılama iş süreci bileşenlerini 
 <td><p>Servis siparişleri oluşturmak ve güncelleştirmek.</p></td>
 </tr>
 <tr class="even">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Anlaşmayı güncelleştir ve değerlendir</p></td>
@@ -107,6 +105,5 @@ Aşağıdaki tabloda Servis sözleşmesi karşılama iş süreci bileşenlerini 
 </table>
 
   
-
 
 

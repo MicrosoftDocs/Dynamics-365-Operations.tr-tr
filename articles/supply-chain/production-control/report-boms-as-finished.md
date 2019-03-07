@@ -1,13 +1,13 @@
 ---
-title: "Ürün reçetelerini tamamlandı olarak raporlama"
-description: "Bu makalede ürün reçetelerini tamamlandı olarak raporlama hakkında bilgi verilmektedir."
+title: Ürün reçetelerini tamamlandı olarak raporlama
+description: Bu makalede ürün reçetelerini tamamlandı olarak raporlama hakkında bilgi verilmektedir.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMReportFinish, BOMReportFinishMax
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a80bda7dd469bc5c07ba0160e5e8c349ed2137fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92c594213eea8617d11b56be43e581a461830ba4
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340994"
 ---
-
 # <a name="report-boms-as-finished"></a>Ürün reçetelerini tamamlandı olarak raporlama
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ Bu durumda, madde numarası COMP ham maddesi olan madde numarası RM'ye açılı
 | 1     | RM          | -1       |
 
 Bu durumda, madde numarasının COMP'un eldeki iki parçası değerlendirilir. Fakat madde FG'den üç adet gerekli olduğu için, bir adet COMP daha üretebilmek için, madde numarası RM'den de bir adet daha gerekmektedir.
-
 
 
 

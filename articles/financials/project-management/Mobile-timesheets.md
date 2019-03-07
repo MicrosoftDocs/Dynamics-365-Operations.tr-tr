@@ -1,13 +1,13 @@
 ---
-title: "Bir mobil cihazda proje zaman çizelgeleri"
-description: "Zaman çizelgelerim (Mobil için iyileştirilmiş) çalışanların belirli bir proje için saatlerini kaydetmek üzere bir mobil cihazda proje zaman çizelgeleri oluşturmasına ve göndermesine olanak tanır."
+title: Bir mobil cihazda proje zaman çizelgeleri
+description: Zaman çizelgelerim (Mobil için iyileştirilmiş) çalışanların belirli bir proje için saatlerini kaydetmek üzere bir mobil cihazda proje zaman çizelgeleri oluşturmasına ve göndermesine olanak tanır.
 author: abruer
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
+ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e09433a9bb819cf24ee74443dd7e2d80a2b6b2e
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360958"
 ---
-
 # <a name="project-timesheets-on-a-mobile-device"></a>Bir mobil cihazda proje zaman çizelgeleri
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 04/13/2018
 
 **İnceleyeceğim zaman çizelgeleri (Mobil için en iyi duruma getirilmiş)** zaman çizelgesi onaylama haklarına sahip proje yöneticilerine proje zaman çizelgelerini mobil cihazdan inceleme ve onaylama olanağı sunar. Mali boyut bilgisini düzenleme veya görüntüleme mobil uygulamadan desteklenmez. **İnceleyeceğim zaman çizelgeleri (Mobil için en iyi duruma getirilmiş)** öğesine mobil cihazınızdaki web tarayıcısından erişebilirsiniz.
 
-Bu mobil uygulama Dynamics 365 for Finance and Operations platform güncelleştirmesi 15 bulunan iPhone için uyumludur.
+Bu mobil uygulama iPhone ile Dynamics 365 for Finance and Operations platform güncelleştirmesi 15 ile uyumludur.
 Android kullanıma sunulduğunda Platform Güncelleştirmesi 16 ile uyumlu hale gelecektir.
 
 <a name="create-a-project-timesheet-on-your-mobile-device"></a>Mobil cihazınızda bir proje zaman çizelgesi oluşturma
@@ -66,4 +65,3 @@ Android kullanıma sunulduğunda Platform Güncelleştirmesi 16 ile uyumlu hale 
 13. İsteğe bağlı: Ek zaman çizelgesi satırları girin.
 
 14. Zaman çizelgesi satırlarını girmeyi tamamladıktan sonra **İş akışı** \> **Gönder** eylemini seçerek zaman çizelgenizi iş akışı onay sürecine gönderin.
-

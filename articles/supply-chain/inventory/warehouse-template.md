@@ -1,32 +1,31 @@
 ---
-title: "Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama"
-description: "Bu konu ambar yapılandırma şablonu kullanarak bir ambarın nasıl ayarlanacağını açıklamaktadır."
+title: Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
+description: Bu konu ambar yapılandırma şablonu kullanarak bir ambarın nasıl ayarlanacağını açıklamaktadır.
 author: perlynne
 manager: AnnBe
 ms.date: 11/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338073"
 ---
-
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
 
 [!include [banner](../includes/banner.md)]
@@ -94,9 +93,8 @@ Veri paketi için bir zip dosyası indirebilirsiniz. Bu dosya tüm verileri seç
 
 **Yürütmeyi görüntüle** günlüğü içe aktarılan her veri varlığıyla ilgili ayrıntılı bilgi sağlar. Hedef verilere hızlıca gitmek için aşamalandırma verisi görünümünü kullanabilirsiniz. Bu şekilde, uygulamadaki ilgili sayfalarda içe aktarılan verilen nasıl göründüğünü görebilirsiniz. Varsayılan veri şablonlarını kullandığınızda, her veri varlığı için içe aktarma sırası önceden tanımlanan şekilde çalışarak tüm bağımlı verilerin önce içe aktarılmasını sağlamaya yardımcı olur. Özel veri varlıkları projesinin bir parçasıysa, doğru sıranın tanımlandığından emin olmanız gerekir. Daha fazla bilgi için bkz. [Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Bir ambarın yapılandırmasını aynı örnek içindeki bir şirketten yeni bir şirkete kopyalamak için ambar şablonunun nasıl kullanılacağı hakkında daha fazla bilgi için YouTube'daki şu 3 dakikalık videoyu izleyin: [Microsoft Dynamics 365 for Finance and Operations'ta yapılandırmayı kopyalamak için ambar şablonu kullanma](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Ambarın yapılandırmasını bir şirketten yeni bir şirkete aynı örnek içinde kopyalamak için ambar şablonu kullanma hakkında daha fazla bilgi edinmek için YouTube'daki bu 3 dakikalık videoyu izleyin: [Ambar şablonunu Microsoft Dynamics 365 for Finance and Operations içine yapılandırmayı kopyalamak için kullanın](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>İlgili konu
 
 [Konfigürasyon verisi şablonları](../../dev-itpro/data-entities/configuration-data-templates.md)
-

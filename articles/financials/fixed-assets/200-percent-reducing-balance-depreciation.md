@@ -1,13 +1,13 @@
 ---
 title: '%200 azalan bakiyeli amortisman'
-description: "Bu makalede, yüzde 200 amortisman bilanço azaltma yöntemine genel bakış sunulmuştur."
+description: Bu makalede, yüzde 200 amortisman bilanço azaltma yöntemine genel bakış sunulmuştur.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ec51f9e12e31e81c56fab9e82d0fc18d45beb5e6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 24f677cd3b416c6301a664629cb73e3cbae9f457
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322732"
 ---
-
 # <a name="200-percent-reducing-balance-depreciation"></a>%200 azalan bakiyeli amortisman
 
 [!include [banner](../includes/banner.md)]
@@ -82,13 +81,12 @@ Amortisman yılı olarak **Mali** seçildiğinde, **Dönem sıklığı** alanın
 
 | Dönem | Yıllık amortisman miktarının hesaplaması | Defter değeri             | Yıl sonunda net defter değeri |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| Yıl 1 | (11.000 – 1.000) × %40 = 4.000                | 11.000 – 4.000 = 7.000 | 11.000 – 1.000 – 4.000 = 6.000        |
-| 2. yıl | 6.000 × %40 = 2.400                           | 7.000 – 2.400 = 4.600  | 6.000 – 2.400 = 3.600                 |
-| 3. yıl | 3.600 × %40 = 1.440                           | 4.600 – 1.440 = 3.160  | 3.600 – 1.440 = 2.160                 |
+| Yıl 1 | (11.000 – 1.000) × %40 = 4.000                | 11.000 – 4.000 = 7.000 | 11.000 – 1.000 – 4.000 = 6.000        |
+| 2. yıl | 6.000 × %40 = 2.400                           | 7.000 – 2.400 = 4.600  | 6.000 – 2.400 = 3.600                 |
+| 3. yıl | 3.600 × %40 = 1.440                           | 4.600 – 1.440 = 3.160  | 3.600 – 1.440 = 2.160                 |
 
 > [!NOTE] 
-> Tipik olarak, %200 azalan bakiye amortismanı yöntemi kullanılarak hesaplanan tutar sabit amortisman yöntemi kullanılarak hesaplanacak yöntemden daha az olduğunda, kalan ömür için sabit amortisman yöntemine bir dönüş olur.
-
+> Tipik olarak, %200 azalan bakiye amortismanı yöntemi kullanılarak hesaplanan tutar sabit amortisman yöntemi kullanılarak hesaplanacak yöntemden daha az olduğunda, kalan ömür için sabit amortisman yöntemine bir dönüş olur.
 
 
 

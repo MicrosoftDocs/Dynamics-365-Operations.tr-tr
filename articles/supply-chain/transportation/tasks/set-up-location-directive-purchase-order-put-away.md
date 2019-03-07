@@ -1,13 +1,13 @@
---- 
-title: "Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama"
-description: "Bu yordam, bir basit konum yönergesini kurmayı göstermektedir."
+---
+title: Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama
+description: Bu yordam, bir basit konum yönergesini kurmayı göstermektedir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ca4b3c2598a268c065011daff31296521faa918
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
-ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/02/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349090"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama
 
@@ -93,5 +93,4 @@ Bu yordam, bir basit konum yönergesini kurmayı göstermektedir. Gösterilen ö
 4. Ölçütler alanına bir değer yazın.
 5. Tamam'a tıklayın.
     * Ambarınızdaki tüm olası senaryoları elde edene kadar yönerge satırları ve yönerge eylemleri eklemeye devam edebilirsiniz.  
-
 

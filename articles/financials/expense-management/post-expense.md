@@ -1,13 +1,13 @@
 ---
 title: Gider raporunu deftere nakletme
-description: "Bu konu bir gider raporunun genel muhasebe defterine nasıl nakledileceğini açıklar."
+description: Bu konu bir gider raporunun genel muhasebe defterine nasıl nakledileceğini açıklar.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1252825848aedcdaf633c04edddddca7dd09d774
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: cc3aae061038202ec4f314654d9149c31e2575bb
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359417"
 ---
-
 # <a name="post-an-expense-report"></a>Gider raporunu deftere nakletme
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ Gider raporunda giderler personeli istihdam eden şirketten farklı bir şirket 
 Gider raporunu deftere nakletmek için **Onaylanan gider raporları** sayfasında gider raporunu seçin ve ardından Eylem Bölmesinde **Deftere naklet**'i seçin.
 
 Ayrıca, listedeki tüm gider raporlarını aynı anda deftere nakledebilirsiniz. Tüm gider raporlarını seçin ve ardından **Deftere naklet**'i seçin.
-

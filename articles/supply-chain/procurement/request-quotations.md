@@ -1,13 +1,13 @@
 ---
 title: Teklif talepleri (RFQ)
-description: "Bu konuda, teklif taleplerine (RFQ) genel bakış sağlanmaktadır. Kuruluşlar, satın almak zorunda oldukları maddeler veya hizmetler için çeşitli satıcılardan rekabetçi teklifler almak istediklerinde RFQ'lar yayınlar."
+description: Bu konuda, teklif taleplerine (RFQ) genel bakış sağlanmaktadır. Kuruluşlar, satın almak zorunda oldukları maddeler veya hizmetler için çeşitli satıcılardan rekabetçi teklifler almak istediklerinde RFQ'lar yayınlar.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9b840f5511f6a0df0e9ce3db4be69a0ab4ec3261
-ms.openlocfilehash: 8d7b07027443d1ca3894ccb7ed7f3cf49a4dc3e3
-ms.contentlocale: tr-tr
-ms.lasthandoff: 06/21/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351298"
 ---
-
 # <a name="requests-for-quotation-rfqs"></a>Teklif talepleri (RFQ)
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,7 @@ Planlanan siparişlerden, satınalma talebinden veya el ile yapılan bir girişt
 
 RFQ servis talebini hazırlayıp satıcıları ekledikten sonra RFQ servis talebinde **Gönder**'i (Kamu sektörü için **Gönder ve yayımla**) seçin. RFQ gönderdiğiniz her satıcı için bir RFQ günlüğü oluşturulur. Gönder eylemi için Yazdırma seçeneklerini her satıcı için arşive gönderilecek bir rapor yazdıracak veya her satıcının e-posta adresine bir rapor gönderecek şekilde ayarlayabilirsiniz. Ayrıca, her satıcıya ilişkin RFQ günlüğü, satıcıya daha sonra gönderebileceğiniz veya yeniden gönderebileceğiniz bir rapor oluşturmak için kullanılabilir. Gönder eylemini, satıcının dolduracağı bir yanıt sayfası oluşturmak için de yapılandırabilirsiniz.
 
-Bu konu, satıcı işbirliği kullanılmadığında RFQ'ların işlenmesine ilişkin süreci kapsar. Sisteminiz satıcı işbirliği için ayarlanmışsa, satıcılar teklifleri doğrudan Microsoft Dynamics 365 for Finance and Operations'dan girebilir. Daha fazla bilgi için bkz. [Harici müşterilerle satıcı işbirliği](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ve [Harici satıcılarla satıcı işbirliği](vendor-collaboration-work-external-vendors.md).
+Bu konu, satıcı işbirliği kullanılmadığında RFQ'ların işlenmesine ilişkin süreci kapsar. Sisteminiz satıcı işbirliği için ayarlanmamışsa, satıcılar tekliflerini doğrudan Microsoft Dynamics 365 for Finance and Operations içine girebilir. Daha fazla bilgi için bkz. [Harici müşterilerle satıcı işbirliği](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ve [Harici satıcılarla satıcı işbirliği](vendor-collaboration-work-external-vendors.md).
 
 Gönderdikten sonra bir RFQ'da düzeltme yapmanız gerekirse, RFQ'yu işleminizi tamamladıktan sonra satıcılara iki düzeltme eylemini kullanarak gönderebilirsiniz: Oluştur ve Sonlandır.+
 
@@ -58,7 +57,7 @@ Teklifleri e-posta ile aldığınızda, bunları **Teklif talepleri** sayfasınd
 Bir satıcıdan gelen yanıtın ikinci defa yinelenmesi gerekirse, **Teklif talebi** sayfasında **İade et**'e tıklayın. İade eylemi yeni bir günlük oluşturur ve Yazdırma ayarlarınıza göre bir rapor yazdırılır, arşivlenir ve gönderilir.
 
 > [!NOTE]
-> **Teklif talebi** sayfasının adı değiştirilmiştir. Dynamics 365 for Finance and Operations'ın önceki sürümlerinde bu sayfanın adı**Teklif talepleri yanıtı** idi.
+> **Teklif talebi** sayfasının adı değiştirilmiştir. Dynamics 365 for Finance and Operations daha erken sürümlerinde, bu sayfa **Teklif talebi yanıtları** olarak adlandırılmıştı.
 
 RFQ servis talebine puanlama ölçütü eklediyseniz, RFQ'da puanlama girebileceğiniz bir puanlama paneli bulunur. **Yanıtları karşılaştır** sayfasında yanıtları karşılaştırdığınızda toplam puanlar RFQ'da görüntülenir. **Yanıtları karşılaştır** sayfasında satır fiyatı, toplam fiyat ve teslimat tarihi gibi diğer yanıt verilerini de karşılaştırabilirsiniz.
 
@@ -268,5 +267,4 @@ Aşağıdaki örnekte, bir teklifin alındığı ve başka bir teklifin kabul ed
 |------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------|-------------------------------------------------|----------------------------------------------|-----------------------------------------------|
 | Tekliflerden birini kabul edin. (veya en az bir satır gereklidir) |                          Alınan                           |                           Kabul Edildi                           |                    Alınan                    |                    Kabul Edildi                     |                   Alınan                   |                   Kabul Edildi                    |
 |           Diğer tüm teklifleri reddedin.           |                          Reddedildi                           |                           Kabul Edildi                           |                    Reddedildi                    |                    Kabul Edildi                     |                   Reddedildi                   |                   Kabul edildi                    |
-
 

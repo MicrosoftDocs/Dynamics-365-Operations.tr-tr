@@ -1,13 +1,13 @@
 ---
-title: "Uygunsuzluk yönetimi"
-description: "Bu makalede, uygunsuzlukları kullanmak için gereken temel kurulum açıklanmaktadır. Kalite emirleri kullanmak istiyorsanız ek kurulum gereklidir."
+title: Uygunsuzluk yönetimi
+description: Bu makalede, uygunsuzlukları kullanmak için gereken temel kurulum açıklanmaktadır. Kalite emirleri kullanmak istiyorsanız ek kurulum gereklidir.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fc1e1eb9d8ede1d07a873ca98a1c385cf0126c3f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 93a7ed31dcad19a29a85352a2bf200915766036c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316453"
 ---
-
 # <a name="nonconformance-management"></a>Uygunsuzluk yönetimi
 
 [!include [banner](../includes/banner.md)]
@@ -55,4 +54,3 @@ Uygunsuzluk yönetimini etkinleştirmek için şu adımları izleyin:
 [Kalite yönetimi işlemleri](quality-management-processes.md)
 
 [Uyumlu olmayan yönetimi için ön şartları ayarlama (Görev kılavuzu)](tasks/set-up-prerequisites-nonconformance-management.md)
-

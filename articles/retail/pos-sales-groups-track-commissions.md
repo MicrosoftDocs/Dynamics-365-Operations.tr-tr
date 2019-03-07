@@ -1,13 +1,13 @@
 ---
-title: "Satış gruplarını kullanarak satış noktasındaki (POS) komisyonları izleme"
-description: "Satışları müşteriyle çalışan (yardım sağlayan, yukarı satış yapan, çapraz satış yapan ve hareketi işleme koyan) yetkiliye göre izlemek genel bir perakende yöntemidir."
+title: Satış gruplarını kullanarak satış noktasındaki (POS) komisyonları izleme
+description: Satışları müşteriyle çalışan (yardım sağlayan, yukarı satış yapan, çapraz satış yapan ve hareketi işleme koyan) yetkiliye göre izlemek genel bir perakende yöntemidir.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325124"
 ---
-
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Satış gruplarını kullanarak satış noktasındaki (POS) komisyonları izleme
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ POS, kullanıcılara POS işlemlerine erişim sağlamak amacıyla ekran düzenle
 ## <a name="calculating-commissions"></a>Komisyonları hesaplama
 
 Komisyon, belirtilen satış gruplarındaki çalışanlar için ekstrelerin deftere nakledilmesi veya satış siparişinin deftere nakledilmesi sırasında hesaplanır. Komisyon tutarı, satış grubunda ve hareketteki müşteri ve/veya ürünlere yönelik ilişkili komisyon hesaplama ayarlarında belirlenen şekilde çalışanın komsiyon payı temel alınarak belirlenir.
-

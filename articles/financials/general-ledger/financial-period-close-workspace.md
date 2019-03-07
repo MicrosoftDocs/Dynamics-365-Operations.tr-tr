@@ -1,13 +1,13 @@
 ---
-title: "Mali dönem kapatma çalışma alanı"
-description: "Bu makale, Mali dönem kapanış çalışma alanı ve bununla ilişkili yapılandırma hakkında genel bir bakış sağlar."
+title: Mali dönem kapatma çalışma alanı
+description: Bu makale, Mali dönem kapanış çalışma alanı ve bununla ilişkili yapılandırma hakkında genel bir bakış sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326918"
 ---
-
 # <a name="financial-period-close-workspace"></a>Mali dönem kapatma çalışma alanı
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,7 @@ Dosyalar, notlar, resimler veya URL'leri bir göreve **Ekler** eylemini kullanar
 Geçerli ve önceki dönem kapanış görevlerini **Tüm mali dönem kapanış görevleri** liste sayfasında görüntüleyebilirsiniz. Liste sayfası, kapanış işlemlerinizin tarihi analizlerini görüntülemek için en iyi şekilde kullanılır çünkü zamanlanan bitiş tarihi, gerçek tamamlanma tarihi ve görevi tamamlayan kişi hakkında bilgi içerir. Bu liste sayfasındaki bilgiyi raporlama ve denetleme amaçları için Microsoft Excel'e kolayca aktarabilirsiniz.
 
 ## <a name="financial-period-close-configuration-page"></a>Mali dönem kapatma yapılandırması sayfası
-**Mali dönem kapatma** çalışma alanını kullanmadan önce mutlaka Microsoft Dynamics 365 for Finance and Operations'ta **Mali dönem kapatma yapılandırması** sayfasını kullanarak süreci yapılandırmanız gerekir. (**Genel muhasebe** &gt; **Dönem kapanışı** &gt; **Mali dönem kapatma yapılandırması** öğelerini tıklayın.)
+**Mali dönem kapatma** çalışma alanını kullanmadan önce mutlaka Microsoft Dynamics 365 for Finance and Operations'te **Mali dönem kapatma yapılandırması** sayfasını kullanarak süreci yapılandırmanız gerekir. (**Genel muhasebe** &gt; **Dönem kapanışı** &gt; **Mali dönem kapatma yapılandırması** öğelerini tıklayın.)
 
 ### <a name="resources"></a>Kaynaklar
 
@@ -88,7 +87,7 @@ Kapanış işleminin parçası olan görevleri belirlemek için bir mali kapanı
 
 Görevin uygulanacağı bir veya daha fazla şirkete bir görevi şablonda atayabilirsiniz. Her şirkette işi eforunu tamamlamak için farklı bir kişi atandıysa, aynı iş eforu için birden fazla görev oluşturmayı yararlı bulabilirsiniz. Her şirket için bir görev oluşturun. 
 
-**Görev bağlantısı** menü öğesi görev eforuyla ilişkilidir ve çalışma alanındaki görev bağlantısından, ilişkili sayfaya doğrudan gitmek için kullanılabilir. Örneğin, Borç hesapları için para birimini yeniden değerleme işlemini gerçekleştirecek bir kapanış görevi, Microsoft Dynamics 365 for Finance and Operations içerisinde **Yabancı para birimi yeniden değerleme işlemi** sayfasında bağlanabilir. Ayrıca, bir harici URL'ye de bağlayabilirsiniz. 
+**Görev bağlantısı** menü öğesi görev eforuyla ilişkilidir ve çalışma alanındaki görev bağlantısından, ilişkili sayfaya doğrudan gitmek için kullanılabilir. Örneğin, Borç hesapları için para birimini yeniden değerleme işlemini gerçekleştirecek bir kapanış görevi, Microsoft Dynamics 365 for Finance and Operations içerisinde **Yabancı para birimi yeniden değerleme** sayfasında bağlanabilir. Ayrıca, bir harici URL'ye de bağlayabilirsiniz. 
 
 > [!TIP]
 > Bir mali dönem kapanış görevine belirli bir Yönetim Raporlayıcı raporu ilişkilendirmek istiyorsanız, rapor URL'si kullanabilirsiniz. Rapor URL'sine erişmek için raporu rapor tasarlayıcıda açın ve ardından raporu bir web tarayıcısında açmak için **Dosya** &gt; **Raporu göster** öğelerini tıklayın. Tarayıcının adres çubuğundaki URL'yi kopyalayabilir ve bunu **Görev bağlantısı** **URL** alanına yapıştırabilirsiniz. 
@@ -106,7 +105,6 @@ Görev zamanlamasında kullanılan çalışma günlerini göstermek için kapan�
 Kapanış zamanlaması ile ilişkilendirilecek şirketleri de tanımlamanız gerekir. Şablon görevleri birden fazla şirkete atanırsa, her ayrı görev, kapanış zamanlamasında bulunan ve şablon görevine atanmış her şirket için oluşturulur. 
 
 Kapanış zamanlaması tamamlandıktan sonra, onun için **Kapalı** seçeneğini işaretleyin. Göre geçmişi hala **Tüm mali dönem kapanış görevleri** liste sayfasında kullanılabilir olacaktır, ancak kapanış zamanlaması, çalışma alanından kaldırılacaktır. Bir kapanış zamanlaması **Kapalı** olarak işaretlendikten sonra, buna görevler ekleyemez, görevleri düzenleyemez veya görevleri kaldıramazsınız.
-
 
 
 

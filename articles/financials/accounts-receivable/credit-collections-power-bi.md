@@ -1,13 +1,13 @@
 ---
-title: "Kredi ve tahsilatlar yönetimi Power BI içeriği"
-description: "Bu konu, Power BI Kredi ve Tahsilatlar Yönetimi'nde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
+title: Alacak ve tahsilat yönetimi Power BI içeriği
+description: Bu konu, Power BI Kredi ve Tahsilatlar Yönetimi'nde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,21 +16,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325193"
 ---
-
-# <a name="credit-and-collections-management-power-bi-content"></a>Kredi ve tahsilatlar yönetimi Power BI içeriği
+# <a name="credit-and-collections-management-power-bi-content"></a>Alacak ve tahsilat yönetimi Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Power BI **Kredi ve Tahsilatlar Yönetimi**'nde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu konu, Microsoft Power BI **Kredi ve Tahsilatlar Yönetimi**'nde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel bakış
 
 **Kredi ve tahsilatlar yönetimi** Power BI içeriği, kredi ve tahsilatlar yöneticileri ve tahsilat elemanları için oluşturulmuştur. Bekleyen satış gün sayısı, vadesi geçmiş bakiye, kredi riski ve kredi limitini aşan müşteriler gibi önemli kredi ve tahsilatlar ölçümleri sağlar. Hareket verileri kullanır ve kredi ve tahsilatların tüm şirket içindeki toplam görünümünü sağlar. Şirket, müşteri grubu ve müşteri başına çözümleme de sağlar.
 
@@ -43,10 +42,10 @@ Gösterilen tüm tutarlar sistem para birimi cinsindendir. Sistem para birimini 
 
 Şirket için kredi ve tahsilatlar verisi varsayılan olarak gösterilir. Tüm şirketler arasında veriyi görmek için **CustCollectionsBICrossCompany** görevini role ekleyin.
 
-## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
+## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim
 **Alacak ve tahsilatlar yönetimi** Power BI içeriği **Müşteri alacak ve tahsilatları** çalışma alanında gösterilir.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içerik paketinde bulunan raporlar
 
 The **CustCollectionsBICrossCompany** Power BI içeriği, bir dizi ölçümden oluşan bir rapor içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. Aşağıdaki tablo **CustCollectionsBICrossCompany** Power BI içeriğindeki görselleştirmelere bir bakış sağlar.
 
@@ -63,11 +62,11 @@ The **CustCollectionsBICrossCompany** Power BI içeriği, bir dizi ölçümden o
 | Tahsilat durumu          | <ul><li>İhtilaflı</li><li>Ödeme taahhüdü yerine getirilmedi</li><li>Ödeme taahhüdü</li><li>Tahsilatların durum ayrıntıları</li><li>Tahsilatların durum tutarları</li><li>Açık servis talepleri</li><li>Açık faaliyetler</li></ul> |
 | Tahsilatlar mektupları         | <ul><li>Tahsilat kodu tutarları</li><li>Tahsilatlar kodu tutar ayrıntıları</li><li>Şirkete göre tahsilat mektubu tutarı</li><li>Müşteri grubuna göre tahsilat mektubu tutarı</li><li>Bölgeye göre tahsilat mektup tutarı</li></ul> |
 
-Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano Oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Altta yatan veriyi Dışa aktar işlevini de görselleştirmede özetlenen altta yatan veriyi dışa aktarmak için kullanabilirsiniz.
+Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Altta yatan veriyi Dışa aktar işlevini de görselleştirmede özetlenen altta yatan veriyi dışa aktarmak için kullanabilirsiniz.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 
-Aşağıdaki veriler **Kredi ve tahsilatlar yönetimi** Power BI içeriğindeki raporu doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Sunucu veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
+Aşağıdaki veriler **Kredi ve tahsilatlar yönetimi** Power BI içeriğindeki raporu doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
 
 
 |                   Varlık                    |      Önemli toplam ölçümler      |             Veri kaynağı              |                           Alan                            |                                    Açıklama                                     |
@@ -88,5 +87,4 @@ Aşağıdaki veriler **Kredi ve tahsilatlar yönetimi** Power BI içeriğindeki 
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Oluşturulmuş olan vade farkı dekontlarının sayısı.                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Bekleme olan toplam satış siparişlerinin sayısı.                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Silinmiş olan hareketlerin toplamı.                 |
-
 

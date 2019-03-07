@@ -1,13 +1,13 @@
 ---
-title: "Organizasyonlar ve organizasyon hiyerarşileri"
-description: "Bir organizasyon, bir iş sürecini gerçekleştirmek veya bir hedefe ulaşmak için birlikte çalışan bir grup insandır. Organizasyonel hiyerarşiler, işinizi meydana getiren organizasyonlar arasındaki ilişkileri temsil eder."
+title: Organizasyonlar ve organizasyon hiyerarşileri
+description: Bir organizasyon, bir iş sürecini gerçekleştirmek veya bir hedefe ulaşmak için birlikte çalışan bir grup insandır. Organizasyonel hiyerarşiler, işinizi meydana getiren organizasyonlar arasındaki ilişkileri temsil eder.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 72834769e393382ac511ad3af21544efddb049d3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f8afc37e8d69b06622176d4f6cfb3ff06a0ab54
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322249"
 ---
-
 # <a name="organizations-and-organizational-hierarchies"></a>Organizasyonlar ve organizasyon hiyerarşileri
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Bir organizasyon, bir iş sürecini gerçekleştirmek veya bir hedefe ulaşmak i
 
 ## <a name="organizations"></a>Kuruluşlar
 
-Microsoft Dynamics 365 for Finance and Operations'da, şu dahili organizasyon türlerini tanımlayabilirsiniz: tüzel kişilikler, işletme birimleri ve ekipler.
+Microsoft Dynamics 365 for Finance and Operations'te, şu dahili organizasyon türlerini tanımlayabilirsiniz: tüzel kişilikler, işletme birimleri ve ekipler.
 
 Tüm dahili organizasyonlar **Taraf** varlığı türleridir. Bu nedenle, bu organizasyonlar adres ve iletişim bilgilerini depolamak için adres defterini kullanırlar. Kişi ya da organizasyon olabilecek olan bir taraf, bir veya daha fazla adres defterine ait olabilir.
 
@@ -48,7 +47,7 @@ Bir şirket, tüzel kişilik türüdür. Bu Microsoft Dynamics 365 for Finance a
 
 Bir işletme birimi bir işletmenin ekonomik kaynaklarının ve yönetimsel işlemlerinin kontrolünü bölmek için kullanılan bir kuruluştur. Bir işletme birimindeki kişiler az bulunur kaynakların kullanımını en üst düzeye çıkarmak, süreçleri geliştirmek ve performansları için hesap verme görevlerine sahiptirler.
 
-Microsoft Dynamics 365 for Finance and Operations'da, işletme birimleri türleri maliyet merkezlerini, iş birimlerini, değer akışlarını, departmanları ve perakende kanallarını içerir. Aşağıdaki tabloda her bir işletme birimi türü hakkında daha fazla bilgi bulabilirsiniz.
+Microsoft Dynamics 365 for Finance and Operations altında, işletme birimleri türleri maliyet merkezlerini, iş birimlerini, değer akışlarını, departmanları ve perakende kanallarını içerir. Aşağıdaki tabloda her bir işletme birimi türü hakkında daha fazla bilgi bulabilirsiniz.
 
 | Faaliyet birimi türü | Açıklama | Amaç |
 |---------------------|-------------|---------|
@@ -66,7 +65,6 @@ Bir ekip, üyelerin ortak bir sorumluluğu, çıkarı veya hedefi paylaştığı
 
 İşlerinize farklı perspektiflerden bakmak ve raporlamak için organizasyonel hiyerarşiler oluşturun. Örneğin, tüzel kişilikler için vergi, hukuki veya yasal raporlamaya yönelik bir hiyerarşi oluşturabilirsiniz. Yasal olarak gerekmeyen ama dahili kontrol için kullanılan mali bilgileri raporlamak için işletme birimlerine dayalı bir hiyerarşi oluşturun. Örneğin, satınalma politikalarını, kurallarını ve iş süreçlerini kontrol edecek bir satınalma hiyerarşisi oluşturabilirsiniz.
 
-Microsoft Dynamics 365 for Finance and Operations'da her hiyerarşiye bir amaç atanır. Bir hiyerarşinin amacı, hiyerarşiye dahil edilebilecek organizasyon türlerini belirlemektir. Amaç ayrıca bir hiyerarşinin hangi uygulama senaryolarında kullanılabileceğini de belirler.
+Her bir hiyerarşi, Microsoft Dynamics 365 for Finance and Operations için bir amaç taşımaktadır. Bir hiyerarşinin amacı, hiyerarşiye dahil edilebilecek organizasyon türlerini belirlemektir. Amaç ayrıca bir hiyerarşinin hangi uygulama senaryolarında kullanılabileceğini de belirler.
 
 Bir hiyerarşi içindeki kuruluşlar parametreleri, politikaları ve hareketleri paylaşabilir. Bir organizasyon, ana organizasyonun parametrelerini devralabilir veya bu parametreleri değiştirebilir. Ancak, ürün ve adres defteri gibi paylaşılan master verileri, tüm organizasyon için geçerlidir ve tek tek organizasyonlar tarafından üstüne yazdırılamazlar. Organizasyon ve hiyerarşi oluşturmak dikkatli planlama gerektirir. Daha fazla bilgi için, bkz. [Organizasyonel hiyerarşiyi planlama](plan-organizational-hierarchy.md).
-

@@ -1,13 +1,13 @@
 ---
-title: "Ürün reçetesi sürümünü belirleme"
-description: "Bir talep açılımı sırasında bir maddenin varsayılan bir Üretim emri varsa, planlama altyapısı tesise göre geçerli bir ürün reçetesi sürümü bulur."
+title: Ürün reçetesi sürümünü belirleme
+description: Bir talep açılımı sırasında bir maddenin varsayılan bir Üretim emri varsa, planlama altyapısı tesise göre geçerli bir ürün reçetesi sürümü bulur.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, InventItemOrderSetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cf125e2b75c4dfa406f4f05b249e6fdb49c84b7d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7e6745a52138e545b557fa1aa286cd49481b2ecd
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325101"
 ---
-
 # <a name="determine-the-bom-version"></a>Ürün reçetesi sürümünü belirleme
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,6 @@ Tesis boyutu her zaman bilinir ve talep hareketinde belirtilir. Sıradaki süre�
 -   Kullanılacak bir genel ürün reçetesi yoksa, talep açılımı bu noktada durur.
 
 Geçerli bir ürün reçetesi sürümü, ister tesise özgü ister genel bir ürün reçetesi olsun, tarih ve miktar ölçütlerini karşılamalıdır.
-
 
 
 

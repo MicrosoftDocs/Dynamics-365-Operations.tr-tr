@@ -1,13 +1,13 @@
---- 
-title: "Satıcı için ileri tarih atılmış çeki kaydetme ve deftere nakletme"
-description: "Günlük fişi kullanarak bir satıcıya çek kesmeden önce vadeli çekin ayrıntılarını kaydedebilirsiniz."
+---
+title: Satıcı için ileri tarih atılmış çeki kaydetme ve deftere nakletme
+description: Günlük fişi kullanarak bir satıcıya çek kesmeden önce vadeli çekin ayrıntılarını kaydedebilirsiniz.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a5788948c40f20e686565198c84facd68a935d9c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: dd1c9d29d34e51a479d4df4086e97269f71f7448
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326228"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Satıcı için ileri tarih atılmış çeki kaydetme ve deftere nakletme
 
@@ -55,5 +55,4 @@ Bu görevin rolü Haznedar'dır. Bu görevde USMF demo şirketi kullanılmaktad�
 15. Deftere Naklet öğesine tıklayın.
 16. Sayfayı kapatın.
 17. Vadeli çekler sekmesini tıklatın.
-
 

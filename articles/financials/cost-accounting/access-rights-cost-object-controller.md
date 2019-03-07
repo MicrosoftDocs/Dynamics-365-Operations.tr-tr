@@ -1,32 +1,31 @@
 ---
-title: "Maliyet nesnesi denetleyicilerinin erişim haklarını tanımlama"
-description: "Bu konu, maliyet nesnesi denetleyicileri için erişim hakları hakkında bilgi sağlar."
+title: Maliyet nesnesi denetleyicilerinin erişim haklarını tanımlama
+description: Bu konu, maliyet nesnesi denetleyicileri için erişim hakları hakkında bilgi sağlar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355553"
 ---
-
 # <a name="access-rights-of-a-cost-object-controller"></a>Bir maliyet nesnesi denetleyicisinin erişim hakları
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,7 @@ Erişim listesi hiyerarşisi için ayarlar, aşağıdaki alanlarda gösterilen v
 - Microsoft Power BI:
 
     - Veri, Power BI görselleştirmeleri içinde gösterilir
-    - Microsoft Dynamics 365 for Finance and Operations istemcisinde gömülü veri Power BI görselleştirmeleri
+    - Microsoft Dynamics 365 for Finance and Operations istemcisi içinde katıştırılmış veri Power BI görselleştirmeleri
 
 > [!IMPORTANT]
 > - Erişim listesi hiyerarşisi Power BI içerisindeki veriyi etkileyebilmeden önce, Power BI içindeki Erişim listesi hiyerarşisi ve satır düzeyi güvenliği eşleştirilmelidir. Daha fazla bilgi için bkz [Maliyet muhasebesi İçerik Paketi için güvenlik kurma](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
@@ -107,4 +106,3 @@ Ek kaynaklar
 - [Maliyet kontrolü çalışma alanı](cost-control-workspace.md)
 - [Boyut hiyerarşisi](dimension-hierarchy.md)
 - [Maliyet muhasebesi içerik paketi için güvenliği kurmak](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-

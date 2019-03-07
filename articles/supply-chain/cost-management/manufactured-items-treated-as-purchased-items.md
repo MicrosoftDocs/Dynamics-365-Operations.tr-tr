@@ -1,13 +1,13 @@
 ---
-title: "Üretilen ya da temin edilen ürünleri ayarlama"
-description: "Ürünler çeşitli şekillerde bulunabilir - üretilebilir (mamul) veya tedarik edilebilir (satın alınan). Bu makalede birden fazla kaynak kullanımının desteklenmesi için ürünlerin nasıl yapılandırılacağı ile ilgili bazı genel hususlar açıklanmıştır."
+title: Üretilen ya da temin edilen ürünleri ayarlama
+description: Ürünler çeşitli şekillerde bulunabilir - üretilebilir (mamul) veya tedarik edilebilir (satın alınan). Bu makalede birden fazla kaynak kullanımının desteklenmesi için ürünlerin nasıl yapılandırılacağı ile ilgili bazı genel hususlar açıklanmıştır.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a910b5782c8f15cfdd4cf93ea883bc28a5ce8e1a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5ed8c93c13746249605ad8742549c23bb1e0e10
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "338464"
 ---
-
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>Üretilen ya da temin edilen ürünleri ayarlama
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,6 @@ ms.lasthandoff: 11/03/2017
 Standard maliyet kullandığınızda, üretilen ürün için ürün maliyet kaydı hesaplanabilir. Ancak, ürün maliyeti kaydı satın alma amaçlarıyla istediğiniz standart maliyet ile eşleşmeyebilir. Bu durumda, istediğiniz standart maliyet ürün maliyet kaydı için el ile girilmeli ve etkinleştirilmelidir. Maliyet hesaplaması için, zaman içinde ortaya çıkan farkları minimize etmek için bir mali dönem boyunca ürünün tedarik karmasını gösteren özel bir ürün reçetesi ve rota kullanmayı düşünün. Ek olarak, bir tesiste üretilen bir ürün başka bir tesise aktarılabilir. Bu nedenle, ürünün maliyeti el ile girilmeli ve transfer edildiği tesis için etkinleştirilmelidir. Üretilmiş bir ürünü daha üst düzeylerdeki ürünler için bir bileşen olarak kullandığınızda, satınalınan bir ürün olarak ele alınmalıdır. Bu kılavuz, bileşenin maliyetinin hesaplanıp hesaplanmadığına veya el ile girilip girilmediğine bakılmaksızın geçerlidir. Diğer bir deyişle, Ürün reçetesi hesaplaması ürünün maliyetini maliyetleri hesaplamak amacıyla ürünün ürün reçetesini ve rota bilgileri kullanmak yerine satın alınan bir bileşen olarak ele almalıdır. 
 
 Hesaplamanın gerçekleşmesini önlemek için, ürüne atanan ürün reçetesi hesaplama grubunda gömülü **Açılımı durdur** bayrağını seçin. Master planlama hesaplamalarının ürün üzerinden gereksinimleri açmasını önlemek için ürün açılımı ya da ürün açılımı grubunda açılım dilimini 0 (sıfır) gün olarak ayarlayın. Master planlama hesaplaması, ürünü satın alınan bir ürün olarak ele alacaktır ve ürünün ürün reçetesi ve rota bilgileri için daha fazla hesaplama gerçekleştirmeyecektir.
-
 
 
 

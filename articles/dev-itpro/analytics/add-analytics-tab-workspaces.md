@@ -1,13 +1,13 @@
 ---
-title: "Katıştırılmış Power BI kullanarak çalışma alanlarına analiz ekleme"
-description: "bu konu bir Power BI raporunu bir çalışma alanının Analizler sekmesine katıştırmayı gösterir."
+title: Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
+description: Bu konu bir Power BI raporunu bir çalışma alanının Analizler sekmesine katıştırmayı gösterir.
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,27 +15,26 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355231"
 ---
-
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Katıştırılmış Power BI kullanarak çalışma alanlarına analiz ekleme
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Bu özellik Dynamics 365 for Finance and Operations (sürüm 7.2 ve sonrası) için desteklenir.
+> Bu özellik Dynamics 365 for Finance and Operations içinde desteklenir (sürüm 7.2 ve sonrası).
 
 ## <a name="introduction"></a>Giriş
-bu konu bir Microsoft Power BI raporunu bir çalışma alanının **Analizler** sekmesine katıştırmayı gösterir. Burada verilen örnek için Filo Yönetimi uygulamasındaki **Rezervasyon yönetimi** çalışma alanını, bir **Analizler** sekmesinde bir analitik çalışma alanı katıştırmak üzere genişleteceğiz.
+Bu konu bir Microsoft Power BI raporunu bir çalışma alanının **Analizler** sekmesine katıştırmayı gösterir. Burada verilen örnek için Filo Yönetimi uygulamasındaki **Rezervasyon yönetimi** çalışma alanını, bir **Analizler** sekmesinde bir analitik çalışma alanı katıştırmak üzere genişleteceğiz.
 
 ## <a name="prerequisites"></a>Ön koşullar
 + Platform güncelleştirmesi 8 veya sonraki bir sürümü çalıştıran bir geliştirici ortamına erişin.
-+ Microsoft Power BI Masaüstü kullanarak oluşturulmuş ve kaynağı Varlık deposu veritabanı olan bir veri modeline sahip bir analitik rapor (.pbix dosyası).
++ Microsoft Power BI Desktop kullanarak oluşturulmuş ve kaynağı Varlık deposu veritabanı olan bir veri modeline sahip bir analitik rapor (.pbix dosyası).
 
 ## <a name="overview"></a>Özet
 Mevcut bir uygulama çalışma alanını genişlettiğinizde veya kendinize ait yeni bir çalışma alanı kullandığınızda, iş verilerinize bilgilendirici ve etkileşimli görünümler sunan katıştırılmış analitik görünümler kullanabilirsiniz. Bir analitik çalışma alanı sekmesi eklemenin dört adımı vardır.
@@ -46,10 +45,10 @@ Mevcut bir uygulama çalışma alanını genişlettiğinizde veya kendinize ait 
 4. İsteğe bağlı: Görünümü özelleştirmek için uzantılar ekleyin.
 
 > [!NOTE]
-> Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Masaüstü ile çalışmaya başlamak](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Bu sayfa, ilgi çekici analitik raporlama çözümleri oluşturmanıza yardımcı olacak harika bir bilgi kaynağıdır.
+> Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Desktop ile çalışmaya başlamak](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Bu sayfa, ilgi çekici analitik raporlama çözümleri oluşturmanıza yardımcı olacak harika bir bilgi kaynağıdır.
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Bir .pbix dosyasını bir kaynak olarak ekleyin.
-Başlamadan önce, çalışma alanına katıştıracağınız Power BI raporunu oluşturun veya alın. Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Masaüstü ile çalışmaya başlamak](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
+Başlamadan önce, çalışma alanına katıştıracağınız Power BI raporunu oluşturun veya alın. Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Desktop ile çalışmaya başlamak](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
 
 Bir .pbix doyasını bir Visual Studio yapıtı olarak eklemek için şu adımları izleyin.
 
@@ -177,4 +176,3 @@ public static void initializeReportControl(
 | showFilterPane   | Bir Boole değeri, filtre panosunun gösterilip (**doğru**) gösterilmeyeceğini (**yanlış**) belirtir.     |
 | showNavPane      | Bir Boole değeri, gezinti panosunun gösterilip (**doğru**) gösterilmeyeceğini (**yanlış**) belirtir. |
 | defaultFilters   | Power BI raporu için varsayılan filtreler.                                                                 |
-

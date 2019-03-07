@@ -1,13 +1,13 @@
---- 
-title: "Ana oranları ayarlama"
-description: "Bu yordam, bir ana oran kurmayı göstermektedir."
+---
+title: Ana oranları ayarlama
+description: Bu yordam, bir ana oran kurmayı göstermektedir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 462bfce89fa77c8830a93a22b0dd6c8c8fb2cde6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b7c02e5a6f5eeee270ca4b6f91e90f7799c2ca11
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344927"
 ---
 # <a name="set-up-rate-masters"></a>Ana oranları ayarlama
 
@@ -83,5 +83,4 @@ Bu yordam, bir ana oran kurmayı göstermektedir. Genellikle Lojistik Yöneticis
     * Bu oran tabanı atamasının hangi posta kodundan itibaren geçerli olacağını belirtin.    
 10. Çekme Ülke Bölge alanında 'USA' yazın.
 11. Kaydet'e tıklayın.
-
 

@@ -1,31 +1,30 @@
 ---
-title: "Finance and Operations videoları"
-description: "Bu sayfa Dynamics 365 for Finance and Operations için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan \"nasıl yapılır\" ve Teknik konuşmalar videolarını listeler."
+title: Finance and Operations videoları
+description: Bu sayfa Dynamics 365 for Finance and Operations için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşmalar videolarını listeler.
 author: josaw1
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/17/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317833"
 ---
-
-# <a name="videos-for-finance-and-operations"></a>Finance and Operations videoları
+# <a name="videos-for-finance-and-operations"></a>Finance and Operations için videolar
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,11 +39,11 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 #### <a name="data-integration"></a>Veri tümleştirme
 
 - [Müşteriden nakde tümleştirmesi](https://youtu.be/AVV9x5x-XCg)
-- [Dynamics 365 Field Service ile Finance and Operations arasında bir iş emrini eşitleme](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Dynamics 365 for Field Service ile Finance and Operations arasında bir iş emrini eşitleme](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Veri yönetimi
 
-- [Dynamics 365 for Finance and Operations'da veri varlıklarını ve veri paketlerini kullanma](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
+- [Dynamics 365 for Finance and Operations içinde veri varlıklarını ve veri paketlerini kullanın](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
 #### <a name="development"></a>Geliştirme
 
@@ -67,36 +66,36 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 
 #### <a name="intelligence"></a>Zeka
 
-- [Dynamics 365 for Finance and Operations'a kendi veritabanınızı getirin (BYOD)](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Dynamics 365 for Finance and Operations içerisine kendi veritabanınızı (BYOD)getirin](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Dynamics 365'te maliyet yönetimi Power BI içeriğini kullanma](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 
 - [Lifecycle Services'da varlık kitaplığı](https://www.youtube.com/watch?v=z-2xMRa1nOs)
 - [Bulutta barındırılan ortamlar](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
-- [Dynamics 365 for Operations'dan destek biletleri oluşturma](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
+- [Dynamics 365 for Operations içinden destek biletleri oluşturmak](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
 - [Ortamları dağıtma](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
 - [Lifecycle Services'ı kullanmaya başlayın:](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
 - [Korumalı alan ortamına kod dağıtma](https://www.youtube.com/watch?v=5azLeOO078k)
 - [Üretim ortamına kod dağıtma](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
 - [Lifecycle Services'da projeleri uygulama](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
-- [Dynamics 365 for Finance and Operations'da kod yükseltme ve araç işlemini yönetme](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
+- [Dynamics 365 for Finance and Operations içinde kod yükseltmesini ve araç işlemlerini yönetin](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
 - [Lifecycle Services'da iş süreci kitaplıklarını yönetme](https://www.youtube.com/watch?v=S5msxj-2-x0)
 - [Lifecycle Services'daki metodolojiler](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
-- [Dynamics 365 for Finance and Operations üretim ortamı talep etme](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
+- [Bir Dynamics 365 for Finance and Operations üretim ortamı talep edin](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
 - [Üretim ortamında verileri yenileme](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [Platform güncelleştirmesi 3'ten sonra yeni bir Dynamics 365 platform sürümü düzenleme](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
+- [Platform güncelleştirmesi 3'ten sonra yeni bir Dynamics 365 for Finance and Operations platform sürümü düzenleyin](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Dynamics Lifecycle Services'da temel performans sayaçlarını izlemek için telemetri kullanma](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
 #### <a name="office-integration"></a>Office tümleştirmesi
 
-- [Dynamics 365 for Finance and Operations'da başlık ve satır düzenleri için bir Excel şablonu oluşturma](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+- [Dynamics 365 for Finance and Operations için başlık ve satır modelleri için bir Excel şablonu oluşturun](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
 
-#### <a name="organization-administration"></a>Kuruluş yönetimi
+#### <a name="organization-administration"></a>Organizasyon yönetimi
 
 - [Belge yönetimi](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
-#### <a name="procurement-and-sourcing"></a>Satın alma ve Kaynak Hizmeti
+#### <a name="procurement-and-sourcing"></a>Tedarik ve kaynak atama
 
 - [Mobil cihazda satınalma siparişlerini onaylama](https://youtu.be/gZ-gOlJe7H8)
 - [Yeni bir satıcıyı işe alma süreci](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
@@ -145,13 +144,13 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 #### <a name="financial-reporting"></a>Mali raporlama
 
 - [Mali raporlama (DYN305PAL)](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) 
-- [Dynamics 365 for Finance and Operations'taki raporlama seçenekleri (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Dynamics 365 for Finance and Operations içinde raporlama seçenekleri (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
-#### <a name="integration"></a>Tümleştirme
+#### <a name="integration"></a>Bütünleştirme
 
 - [CDS veri tümleştirici (DYN451PAL2)](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Tümleştirme (VIR806PAL)](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Dynamics 365 for Sales ile Dynamics 365 for Finance & Operations arasında CDS aracılığıyla tümleştirme (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Dynamics 365 for Sales ve Dynamics 365 for Finance and Operations arasında CDS aracılığıyla tümleştirme (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Dynamics 365 for Finance & Operations'daki tümleştirme altyapısı (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Veri yönetimi için görev otomasyonu altyapısı (DYN447PAL2)](https://youtu.be/KqnXjNpR4AY)
 
@@ -172,9 +171,9 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 
 #### <a name="retail"></a>Retail
 
-- [Dynamics 365 for Retail POS genişletilebilirliği: Kapsamlı inceleme (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Perakende mimarisi ve Perakende Mağaza Ölçeği Birimi (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Dynamics 365 for Retail POS genişletilebilirliğindeki yenilikler (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Dynamics 365 for Retail POS genişletilebilirliği: Kapsamlı bakış (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Perakende mimarisi ve Retail Store Scale Unit (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Dynamics 365 for Retail POS genişletilebilirliğinde neler yeni (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="support"></a>Destek
 
@@ -184,7 +183,7 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 
 - [AX 2009'dan Dynamics 365 for Operations'a geçiş araçları (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [AX 2009 geçiş araçları (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [AX 2012'den Dynamics 365 for Operations yükseltmesi (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [AX 2012'den Dynamics 365 for Operations'e yükseltme (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [7.0 (RTW)/7.1 (Sürüm 1611) sürümünden 7.2 (Temmuz 2017) sürümüne yükseltme yapma (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Azure DevOps kurulumu (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
@@ -196,4 +195,3 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 - [Parça parça malzeme çekme işlemi (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Üretim emirleri ve kanbanlar için görsel planlama (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Üretim ile Ambar tümleştirmesi (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [Ambarlama mobil uygulaması (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-

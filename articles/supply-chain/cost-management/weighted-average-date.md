@@ -1,13 +1,13 @@
 ---
-title: "Ağırlıklı ortalama tarihi"
-description: "Ağırlıklı ortalama tarihi, stoktan çıkışların stok kapatma dönemindeki her ayrı gün için stoka girişi yapılan maddelerin ortalama değeriyle değerlendirildiği ağırlıklı ortalama ilkesini temel alan bir stok modelidir."
+title: Ağırlıklı ortalama tarihi
+description: Ağırlıklı ortalama tarihi, stoktan çıkışların stok kapatma dönemindeki her ayrı gün için stoka girişi yapılan maddelerin ortalama değeriyle değerlendirildiği ağırlıklı ortalama ilkesini temel alan bir stok modelidir.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355415"
 ---
-
 # <a name="weighted-average-date"></a>Ağırlıklı ortalama tarihi
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Bu tarihte veya bu tarihten önce yalnızca bir giriş gerçekleştiyse, ortalam
 
 Aşağıdaki formül, ağırlıklı ortalama tarih stok kapanış yöntemini hesaplamada kullanılır: 
 
-Ağırlıklı ortalama = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
+Ağırlıklı ortalama = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
 
 Stok kapatma sırasında, hesaplama aşağıdaki görselde gösterildiği gibi, her gün kapanış dönemi boyunca gerçekleştirilir. 
 
@@ -54,7 +53,7 @@ Satış siparişleri, stok günlükler ve üretim emirleri gibi stoktan ayrılan
 
 Kapatmalar, kapanış tarihin ağırlıklı ortalamasını düzeltmek için çıkışları ayarlayan stok kapanışı deftere nakilleridir. 
 
-**Not:** Kapatma işlemleri hakkında daha fazla bilgi için stok kapatmayla ilgili makaleye bakın. Aşağıdaki örnekler, beş yapılandırma ile ağırlıklı ortalama kullanmanın etkisini gösterir:
+**Not:** Kapatma işlemleri hakkında daha fazla bilgi için stok kapatmayla ilgili makaleye bakın. Aşağıdaki örnekler, beş yapılandırma ile ağırlıklı ortalama kullanmanın etkisini gösterir:
 
 -   **Fiziksel değeri dahil et** seçeneği kullanılmadan ağırlıklı ortalama tarihi doğrudan kapatma
 -   **Fiziksel değeri dahil et** seçeneği kullanılmadan ağırlıklı ortalama tarihi özetlenmiş kapatma
@@ -195,7 +194,6 @@ Yeni cari ortalama maliyet fiyatı 27,50 ABD Doları tutarındaki mali ve fiziks
 -   Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
 -   Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
 -   Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden çizgili kırmızı oklarla temsil edilir.
-
 
 
 

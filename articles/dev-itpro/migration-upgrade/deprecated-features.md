@@ -1,13 +1,13 @@
 ---
-title: "Kaldırılan veya artık kullanılmayan özellikler"
-description: "Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar."
+title: Kaldırılan veya artık kullanılmayan özellikler
+description: Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
 ms.date: 12/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
-ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329264"
 ---
-
 # <a name="removed-or-deprecated-features"></a>Kaldırılan veya kullanımına son verilen özellikler
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 for Finance and Operations'dan kaldırılmış veya kullanımına son verilmiş özellikler açıklanmaktadır.
+Bu konu, Dynamics 365 for Finance and Operations için kaldırılmış veya artık kullanılmayan özellikleri açıklar.
 
 - *Kaldırılan* özellik artık üründe bulunmaz.
 - *Kullanımına son verilen* özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.
@@ -64,7 +63,7 @@ Zaman uyumlu aktarım modunu genel muhasebe parametrelerinde kaldırılıyor.  B
 | **Başka bir özellikle mi değiştirildi?**   | Evet. |
 | **Etkilenen ürün alanları**         | Genel Muhasebe |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Dynamics 365 for Finance and Operations 8.1'de platform güncelleştirmesi 20 ile kaldırıldı. |
+| **Durum**                         | Dynamics 365 for Finance and Operations 8.1, platform güncelleştirmesi 20 itibariyle kaldırıldı. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Rusya için finansal raporlar oluşturucusu
 Muhasebe ve vergi raporları için veri toplamak ve XLS ve DOC rapor şablonlarına dışa veri aktarmak için bir araç. İşlevsel parçalar: XLS ve DOC rapor şablonlarına, sorgularına ve sabit gereksinimlerine veri dışa aktarma kaldırıldı. 
@@ -75,7 +74,7 @@ Muhasebe ve vergi raporları için veri toplamak ve XLS ve DOC rapor şablonlar�
 | **Başka bir özellikle mi değiştirildi?**   | Evet. Finansal raporlar kullanıcı ayarı arabirimi, GL hesapları veya vergi kayıtları için veri toplama kuralları ayarlamak için kullanılmalıdır. Muhtelif veri türlerine, sabit gereksinimlere ve sorgu benzeri veri toplama kurallarına veri dışa aktarma, Elektronik raporlamada yapılandırılmalıdır. |
 | **Etkilenen ürün alanları**         | Genel muhasebe. |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Dynamics 365 for Finance and Operations 8.1'de platform güncelleştirmesi 20 ile kaldırıldı. |
+| **Durum**                         | Dynamics 365 for Finance and Operations 8.1, platform güncelleştirmesi 20 itibariyle kaldırıldı. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Rusya için iletişim kanalları üzerinden elektronik raporlama göndermek için dış sağlayıcılar ile tümleştirme
 Dışa aktarma özelliğini klasörüne bildirimlerinin elektronik dosyalar daha ayrıntılı olarak elektronik raporlama durumuna geri alma resmi sağlayıcı göndermek için oluşturulur.
@@ -86,7 +85,7 @@ Dışa aktarma özelliğini klasörüne bildirimlerinin elektronik dosyalar daha
 | **Başka bir özellikle mi değiştirildi?**   | Evet.  |
 | **Etkilenen ürün alanları**         | Genel Muhasebe, Vergi |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Dynamics 365 for Finance and Operations 8.1'de platform güncelleştirmesi 20 ile kaldırıldı. |
+| **Durum**                         | Dynamics 365 for Finance and Operations 8.1, platform güncelleştirmesi 20 itibariyle kaldırıldı. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Kar vergi kayıt sihirbazı
@@ -94,17 +93,17 @@ Yeni kar vergi kayıtları için şablonlar oluşturma özelliği. Bu özellik, 
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Özellik, Dynamics 365 for Finance and Operations genişletilebilirlik modeli ile uyumlu değildir. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Dynamics 365 for Finance and Operations genişletilebilirlik modeli ile uyumlu değil. |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | Vergi |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Dynamics 365 for Finance and Operations 8.1'de platform güncelleştirmesi 20 ile kaldırıldı. |
+| **Durum**                         | Dynamics 365 for Finance and Operations 8.1, platform güncelleştirmesi 20 itibariyle kaldırıldı. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0, platform güncelleştirmesi 15 ile
 Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakılmamıştır. Platform Güncelleştirmesi 15 toplu güncelleştirmedir ve Platform Güncelleştirmesi 13, Platform Güncelleştirmesi 14 ve Platform Güncelleştirmesi 15'deki yeni veya değiştirilmiş özellikleri içerir.
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise edition 7.3, platform güncelleştirmesi 12 ile
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, platform güncelleştirmesi 12 ile
 
 ### <a name="personalized-product-recommendations"></a>Kişiselleştirilmiş ürün önerileri 
 15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Kişiselleştirilmiş ürün önerileri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
@@ -115,7 +114,7 @@ Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakıl
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Ancak, 2018 yılı bahar aylarından sonra yeni bir öneri hizmetinden yararlanmak için bu özelliği geri getirmeyi planlıyoruz.   |
 | **Etkilenen ürün alanları**         | POS'ta kişiselleştirilmiş ürün önerileri.                                                    |
 | **Dağıtım seçeneği**              | Tümü                                                                                      |
-| **Durum**                         |15 Şubat 2018 itibarıyla kaldırıldı. Bu, Dynamics 365 for Operations 1611 ve sonraki sürümleri çalıştıran müşterileri etkiler.  |
+| **Durum**                         |15 Şubat 2018 itibarıyla kaldırıldı. Bu, Dynamics 365 for Operations 1611 veya sonrasını çalıştıran müşterileri etkiler.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektronik raporlama (ER) işlev listesi genişletmesi
 ER ifade oluşturucuda kullanılmak üzere özel işlevler sağlama olasılığı (daha fazla bilgi için bkz. [Elektronik raporlama işlev listesini genişletme](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) artık desteklenmemektedir. ER API'larındaki değişiklikler nedeniyle, ER ifade oluşturucudan yerleşik işlevleri çağırmak için kullanılan API dahili hale gelmiştir ve artık genişletilemez.
@@ -126,7 +125,7 @@ ER ifade oluşturucuda kullanılmak üzere özel işlevler sağlama olasılığ�
 | **Başka bir özellik ile değiştirildi?**   | Hiçbiri. Yeni bir yerleşik işlev gerektiğinde, yeni genişletme talebinin ER altyapısı ekibine bildirilmesi gerekir.<br><br>İstenen işlev ER ekibi tarafından geliştirilirken geçici bir çalışma olarak, talep edilen mantık özel uygulama sınıfı yöntemi olarak programlanabilir. Bu yönteme, eklenen ve özel uygulama sınıfına başvuruda bulunan **Application\Class** türündeki ER veri kaynağının bir özelliği olarak ER ifadesinden erişilebilir.  |
 | **Etkilenen ürün alanları**         | Elektronik raporlama çerçevesi                                                      |
 | **Dağıtım seçeneği**              | Tümü                                                                                      |
-| **Durum**                         | Dynamics 365 for Finance and Operations, Enterprise edition 7.3 sürümünden itibaren kaldırılmıştır.    |
+| **Durum**                         | Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 itibariyle kaldırıldı.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Madde grubuna göre stok ve stok boyutu yaşlandırmasına göre stok raporları
 
@@ -140,13 +139,13 @@ Bu iki rapor artık Finance and Operations'da desteklenmemektedir. Bunun yerine,
 | **Dağıtım seçeneği**        | Tümü|
 | **Durum**                       | Kullanımı sonlandırıldı: Her iki raporun da menü öğeleri 7.3 sürümünde kaldırıldı. Ancak, raporların kodu üründe kaldı. Plan kodu sonraki bir sürümde kaldırmaktır. |
 
-### <a name="power-bi-content-packs-available-on-appsource"></a>AppSource'ta bulunan Power BI içerik paketleri
-[Microsoft AppSource](https://appsource.microsoft.com)'ta yayımlanmış olan **Maliyet yönetimi**, **Mali performans** ve **Perakende kanalı performansı** içerik paketleri, Microsoft Power BI'deki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
+### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI içerik paketleri AppSource'de kullanılabilir
+[Microsoft AppSource](https://appsource.microsoft.com)'ta yayımlanmış olan **Maliyet yönetimi**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, Microsoft Power BI'deki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
 
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Microsoft Power BI'deki ürün güncelleştirmeleri. |
-| **Başka bir özellik ile değiştirildi?**   | [AppSource](https://appsource.microsoft.com) sitesinde bulunan **Yönetimi maliyet**, **Mali performans** ve **Perakende kanal performansı** içerik paketleri, veritabanı düzeyinde çözüm tümleştirmelerine olanak tanıyan analiz uygulamalarıyla değiştirilmektedir. Analiz uygulamaları hakkında daha fazla bilgi için bkz. [Çalışma alanlarına katıştırılmış Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Başka bir özellikle mi değiştirildi?**   | [AppSource](https://appsource.microsoft.com) sitesinde bulunan **Yönetimi maliyet**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, veritabanı düzeyinde çözüm tümleştirmelerine olanak tanıyan analiz uygulamalarıyla değiştirilmektedir. Analiz uygulamaları hakkında daha fazla bilgi için bkz. [Çalışma alanlarına katıştırılmış Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Etkilenen ürün alanları**         | Maliyet yönetimi, Finans ve Perakende                                                                                               |
 | **Dağıtım seçeneği**              | Yalnızca bulut(PowerBI.com ile tümleştirme şirket içi dağıtımlarda desteklenmez.)                                                                                                            |
 | **Durum**                         | Kullanımı sonlandırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 2018 yılı 2. çeyreğidir.    |
@@ -220,10 +219,10 @@ Kullanıcılar bu formu resmi devlet portalından indirebilir.
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Ancak, 2018 yılı bahar aylarından sonra yeni bir öneri hizmetinden yararlanmak için bu özelliği geri getirmeyi planlıyoruz.   |
 | **Etkilenen ürün alanları**         | POS'ta kişiselleştirilmiş ürün önerileri.                                                    |
 | **Dağıtım seçeneği**              | Tümü                                                                                      |
-| **Durum**                         |15 Şubat 2018 itibarıyla kaldırıldı. Bu, Dynamics 365 for Retail 7.2 ve sonraki sürümleri çalıştıran müşterileri etkiler. |
+| **Durum**                         |15 Şubat 2018 itibarıyla kaldırıldı. Bu, Dynamics 365 for Retail 7.2 veya sonrasını çalıştıran müşterileri etkiler. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise edition Temmuz 2017, platform güncelleştirmesi 8 ile
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition Temmuz 2017, platform güncelleştirmesi 8 ile
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Muhasebe ve raporlama para birimleri için para birimi dönüştürme
 
@@ -244,7 +243,7 @@ Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için ama�
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tekrar eden işlevsellik.       |
-| **Başka bir özellik ile değiştirildi?**   | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşulları hakkında daha fazla bilgi için, bkz. [Microsoft Dynamics 365 for Finance and Operations - Ambarlama için kurulum ve yapılandırma](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Başka bir özellik ile değiştirildi?**   | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşullar hakkında daha fazla bilgi için bkz. [Yükleme ve yapılandırma Microsoft Dynamics 365 for Finance and Operations - Ambarlama](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Etkilenen ürün alanları**         | Ambar yönetimi, Taşıma yönetimi     |
 | **Dağıtım seçeneği**              | Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için amaçlanmış bir tek bileşendir.               |
 | **Durum**                         | Kaldırıldı:: İşlevin kaldırılması hedeflenen zaman aralığı 2019 yılı 4. çeyreğidir.   |
@@ -353,7 +352,7 @@ EDIVAT güvenli posta yoluyla elektronik beyanname için geçersiz bir Belçika 
 
 ### <a name="egiro-edifact-cremul-payment-import-format-for-norway"></a>Norveç için eGiro EDIFACT CREMUL ödeme içe aktarma biçimi
 
-eGiro müşteri ödemelerinin otomatik deftere nakil işleminde kullanılan uluslararası UN EDIFACT CREMUL (Birden Fazla Alacak Dekontu İletisi) standardını temel alır. eGiro, Microsoft Dynamics AX'te müşteri ödemesi içe aktarma biçimi olarak uygulanır.
+eGiro müşteri ödemelerinin otomatik deftere nakil işleminde kullanılan uluslararası UN EDIFACT CREMUL (Birden Fazla Alacak Dekontu İletisi) standardını temel alır. Microsoft Dynamics AX içinde eGiro bir müşterinin ödeme alma biçimi olarak kullanılır.
 
 |   |  |
 |------------|--------------------|
@@ -481,7 +480,7 @@ Telehansa ve TeleTeenus biçimleri banka ödemesi içe aktarımı için kullanı
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlevin yerini temel Bordro ve İnsan Kaynakları sayfaları almıştır.  |
 | **Başka bir özellik ile değiştirildi?**   | **Avantajlar**, **Kazançlar** ve daha önce ABD Bordro'da olan diğer ilgili sayfalar yeniden yapılandırıldı ve artık harici bordro işlemeyi desteklemeye yardımcı olacak temel İnsan Kaynakları yapılandırmasının bir parçasılar. Bu işleve **İnsan Kaynakları 1** \> **Bordro** konfigürasyon anahtarı kullanılarak erişilir. |
 | **Etkilenen ürün alanları**         | İnsan kaynaklarını, Bordro   |
-| **Durum**                         | Dynamics 365 for Operations 1611 sürümü itibarıyla kaldırıldı.    |
+| **Durum**                         | Dynamics 365 for Operations sürüm 1611 itibarıyla kaldırıldı.    |
 
 ### <a name="performance-management-goal-workflow"></a>Performans yönetimi hedefi iş akışı
 
@@ -492,7 +491,7 @@ Performans yönetimi, hedef yönetimini ve performans gözden geçirmeleri ile t
 | **Kullanımı sonlandırma/kaldırma nedeni** | Performans yönetimi yeniden tasarlanmıştır ve hedef sayfalarının sayısı işlemi basitleştirecek şekilde azaltılmıştır.                 |
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Hedefler yöneticiler tarafından Yönetici Self Servis portalından görülebilir, değiştirilebilir ve görüntülenebilir. |
 | **Etkilenen ürün alanları**         | İnsan sermayesi yönetimi       |
-| **Durum**                         | Dynamics 365 for Operations 1611 sürümü itibarıyla kaldırıldı.    |
+| **Durum**                         | Dynamics 365 for Operations sürüm 1611 itibarıyla kaldırıldı.    |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>İsveç için Postgirot ve Postgirot Utland ödeme biçimleri
 
@@ -545,7 +544,7 @@ Yönetici adları ve şirketin genel muhasebesi şirket bilgilerinde belirtilebi
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tekrar eden işlevsellik   |
 | **Başka bir özellik ile değiştirildi?**   | Kısmen Taşıma yönetimiyle değiştirildi |
 | **Etkilenen ürün alanları**         | Satış ve pazarlama, Stok Yönetimi  |
-| **Durum**                         | Dynamics 365 for Operations 1611 sürümü itibarıyla kaldırıldı.  |
+| **Durum**                         | Dynamics 365 for Operations sürüm 1611 itibarıyla kaldırıldı.  |
 
 ### <a name="telepay-payment-formats-for-norway"></a>Norveç için Telepay ödeme biçimleri
 
@@ -573,10 +572,10 @@ Finlandiya için ödemeleri dışa aktarmak üzere iki biçim kullanılabilir. Y
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | **Stok yönetimi** modülünde bulunan Ambar yönetimi II çözümü (WMS II), Microsoft Dynamics AX 2012 R3'te yayınlanmış olan **Ambar yönetimi** modülündeki işlevi kopyalamaktadır.                                                                         |
-| **Başka bir özellik ile değiştirildi?**   | AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 ve Dynamics AX 2012 R3 CU9'da yayınlanmış olan **Ambar yönetimi** modülü, Ambar yönetimi II özelliklerinin yerini almıştır. Yeni modül Ambar yönetimi II'dekinden daha gelişmiş özelliklere ve daha esnek ambar yönetim süreçlerine sahiptir. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Ambar Yönetimi II çözümü (WMS II) Microsoft Dynamics AX 2012 R3'de yayımlanmış olan **ambar yönetimi** modülündeki **stok yönetim** modülü yineleme işlevselliği mevcuttu.                                                                         |
+| **Başka bir özellikle mi değiştirildi?**   | AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 ve Dynamics AX 2012 R3 CU9'da yayınlanmış olan **Ambar yönetimi** modülü, Ambar yönetimi II özelliklerinin yerini almıştır. Yeni modül Ambar yönetimi II'dekinden daha gelişmiş özelliklere ve daha esnek ambar yönetim süreçlerine sahiptir. |
 | **Etkilenen ürün alanları**         | Stok Yönetimi, satış ve pazarlama, tedarik ve kaynak atama   |
-| **Durum**                         | Dynamics 365 for Operations 1611 sürümü itibarıyla kaldırıldı.    |
+| **Durum**                         | Dynamics 365 for Operations sürüm 1611 itibarıyla kaldırıldı.    |
 
 ### <a name="worker-reminders-in-human-resources"></a>İnsan Kaynakları'ndaki çalışan anımsatıcıları
 
@@ -587,7 +586,7 @@ Finlandiya için ödemeleri dışa aktarmak üzere iki biçim kullanılabilir. Y
 | **Kullanımı sonlandırma/kaldırma nedeni** | Düşük kullanım                                                           |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                                                                  |
 | **Etkilenen ürün alanları**         | İnsan kaynakları                                                     |
-| **Durum**                         | Dynamics 365 for Operations 1611 sürümü itibarıyla kaldırıldı |
+| **Durum**                         | Dynamics 365 for Operations sürüm 1611 itibarıyla kaldırıldı |
 
 ### <a name="workflow-for-creating-goals"></a>Hedefleri oluşturmak için iş akışı
 
@@ -595,10 +594,10 @@ Personel hedeflerini oluşturmayı yöneten iş akışı, performans yönetim i�
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Performans yönetimi, Microsoft Dynamics 365 for Finance and Operations'da tamamen yeniden tasarlanmıştır.     |
-| **Başka bir özellik ile değiştirildi?**   | Yeniden tasarlanan Performans yönetimi özelliği hedef içeriği, ilerlemeyi izlemek için kullanılan ölçümler ve destekleyici belge eki üzerinde daha fazla kontrol sağlar. Hedefler şablon olarak saklanabilir ve daha sonra yeniden kullanılabilir. Bu özellik personeliniz için ek hedefleri daha hızlı bir şekilde ayarlamanıza yardımcı olabilir. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Performans yönetimi Microsoft Dynamics 365 for Finance and Operations içerisinde tümüyle baştan tasarlanmıştır.     |
+| **Başka bir özellikle mi değiştirildi?**   | Yeniden tasarlanan Performans yönetimi özelliği hedef içeriği, ilerlemeyi izlemek için kullanılan ölçümler ve destekleyici belge eki üzerinde daha fazla kontrol sağlar. Hedefler şablon olarak saklanabilir ve daha sonra yeniden kullanılabilir. Bu özellik personeliniz için ek hedefleri daha hızlı bir şekilde ayarlamanıza yardımcı olabilir. |
 | **Etkilenen ürün alanları**         | İnsan sermayesi yönetimi                 |
-| **Durum**                         | Dynamics 365 for Operations 1611 sürümü itibarıyla kaldırıldı. |
+| **Durum**                         | Dynamics 365 for Operations sürüm 1611 itibarıyla kaldırıldı. |
 
 ## <a name="dynamics-ax-70"></a>Dynamics AX 7.0 
 
@@ -685,7 +684,7 @@ Kuruluşun performansını analiz etmenize yardımcı olabilecek iş istatistiğ
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | İş zekasına (BI) eski yaklaşım, düşük müşteri kullanımı ve sınırlı özellik kümesine |
-| **Başka bir özellik ile değiştirildi?**   | Dynamics AX'in geçerli sürümü için yeni BI çözümleri                                      |
+| **Başka bir özellikle mi değiştirildi?**   | Dynamics AX'in geçerli sürümü için yeni BI çözümleri                                      |
 | **Etkilenen ürün alanları**         | Tedarik ve kaynak hizmeti, Borç hesapları, Satış ve pazarlama, Alacak hesapları         |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.                                                               |
 
@@ -725,7 +724,7 @@ Bu araç, anahtar verileri Microsoft Dynamics CRM'den Microsoft Dynamics ERP uyg
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev başka bir özellik ile değiştirilmiştir. |
-| **Başka bir özellik ile değiştirildi?**   | Common data service                                      |
+| **Başka bir özellikle mi değiştirildi?**   | Common data service                                      |
 | **Etkilenen ürün alanları**         | Microsoft Dynamics için Bağlayıcı                         |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.                           |
 
@@ -734,7 +733,7 @@ Bu araç, anahtar verileri Microsoft Dynamics CRM'den Microsoft Dynamics ERP uyg
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tekrar eden işlevsellik |
-| **Başka bir özellik ile değiştirildi?**   | Evet. AX 2012'den itibaren bu işlevin yerini konsolide toplu iş siparişleri özellik kümesi almıştır. Bu özellik kümesi konsolide eldeki görünümünü içerir. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet. AX 2012'den itibaren bu işlevin yerini konsolide toplu iş siparişleri özellik kümesi almıştır. Bu özellik kümesi konsolide eldeki görünümünü içerir. |
 | **Etkilenen ürün alanları**         | Ürün bilgileri yönetimi, Üretim kontrol, Stok Yönetimi, Satış ve pazarlama  |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı. |
 
@@ -808,7 +807,7 @@ Microsoft Dynamics AX 2012, eklerin veritabanında ve dosya paylaşımında depo
 
 ### <a name="direct-database-connection"></a>Doğrudan veritabanı bağlantısı
 
-Dynamics AX 2012 R3 içerisinde, Retail Modern POS, Kanal Veritabanına, Kuruluş POS'a benzer şekilde doğrudan bağlanamadı. Bu, Retail Modern POS'un, Perakende Sunucusu üzerinden iletişim kurarken standart iletişim yöntemine ek olarak oluştu.
+Dynamics AX 2012 R3 içerisinde, Retail Modern POS Retail Modern POS, Kanal Veritabanına, Kuruluş POS'a benzer şekilde doğrudan bağlanamadı. Bu, Retail Modern POS'un, Perakende Sunucusu üzerinden iletişim kurarken standart iletişim yöntemine ek olarak oluştu.
 
 |   |  |
 |------------|--------------------|
@@ -917,8 +916,8 @@ Aşağıdaki menü öğelerini içeren raporlar kaldırıldı: **Özet mizan**, 
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Mali Microsoft SQL Server Raporlama Servisleri (SSRS) raporlarının yeri, Yönetimi Raporlayıcı'sı yetenekleri ve varsayılan raporlar tarafından alınmıştır. |
-| **Başka bir özellik ile değiştirildi?**   | Yönetim Raporlayıcı (Dynamics AX'ın geçerli sürümünde **finansal raporlama** etiketli)    |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Mali Microsoft SQL Server Reporting Services (SSRS) raporlarının yeri, Management Reporter yetenekleri ve varsayılan raporlar tarafından alınmıştır. |
+| **Başka bir özellik ile değiştirildi?**   | Management Reporter (Dynamics AX'ın geçerli sürümünde **finansal raporlama** etiketli)    |
 | **Etkilenen ürün alanları**         | Genel muhasebe   |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.   |
 
@@ -975,14 +974,14 @@ Microsoft Dynamics AX 2012, gerçekleşmemiş katma değer vergisini (KDV) Meksi
 | **Etkilenen ürün alanları**         | Vergi   |
 | **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi. |
 
-### <a name="microsoft-outlook-integration"></a>Microsoft Outlook entegrasyonu
+### <a name="microsoft-outlook-integration"></a>Microsoft Outlook tümleştirmesi
 
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlevin yerini Microsoft Exchange Server tümleştirmesi almıştır. |
-| **Başka bir özellik ile değiştirildi?**   | Evet                                                                            |
-| **Etkilenen ürün alanları**         | Satış ve pazarlama                                                            |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev Microsoft Exchange Server tümleştirmesi ile değiştirilmiştir. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet                                                                            |
+| **Etkilenen ürün alanları**         | Sales and Marketing                                                            |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.                                                 |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Stok ve Ambar yönetim günlüklerinin özel durdurması
@@ -1025,7 +1024,7 @@ Bu özellik, üç standart ürün boyutundan (boyut, renk veya stil) birinin ad�
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Dynamics AX geçerli sürümününde, çalıştırma sırasında etiket değişikliklerini desteklemez. |
-| **Başka bir özellik ile değiştirildi?**   | Hayır                                                                            |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır                                                                            |
 | **Etkilenen ürün alanları**         | Ürün bilgileri yönetimi                                                |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.                                                |
 
@@ -1037,7 +1036,7 @@ Dynamics AX 2012 R3 içerisinde, Perakende Sunucu, HTTP iletişimi (güvenli olm
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yeni güvenlik gereksinimleri nedeniyle, yalnızca TLS 1.2 (veya kullanılabilir olduğu takdirde üstü) artık desteklenmektedir. Self servis yükleyici, bilgisayarı bu iletişim için otomatik yapılandıracaktır. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Artık yalnızca standart HTTPS iletişimi desteklenmektedir. |
-| **Etkilenen ürün alanları**         | Retail Server  |
+| **Etkilenen ürün alanları**         | Perakende Sunucusu  |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı. |
 
 ### <a name="role-center-pages"></a>Rol Merkezi sayfaları
@@ -1045,7 +1044,7 @@ Dynamics AX 2012 R3 içerisinde, Perakende Sunucu, HTTP iletişimi (güvenli olm
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Rol Merkezi sayfaları, kaldırılan Enterprise Portal platformu üzerine kurulmuştu ve Dynamics AX'ın geçerli sürümünde yeni web istemci platformu tarafından yenilendi. |
-| **Başka bir özellik ile değiştirildi?**   | Yeni çalışma alanı form düzeni kullanıcılara işlem merkezli tasarıma sahip, sık kullanılan işlemlere kolay erişim sağlayan bir işlem merkezli tasarımı sağlar.                       |
+| **Başka bir özellikle mi değiştirildi?**   | Yeni çalışma alanı form düzeni kullanıcılara işlem merkezli tasarıma sahip, sık kullanılan işlemlere kolay erişim sağlayan bir işlem merkezli tasarımı sağlar.                       |
 | **Etkilenen ürün alanları**         | Tüm modüller    |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı   |
 
@@ -1124,8 +1123,7 @@ Windows 8 tablet uygulaması, gider girişi ve onayı için işlevler sağlardı
 |                                                 |                                                                                                          |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>Kullanımı sonlandırma/kaldırma nedeni</strong> |                         Bu işlev başka bir özellik ile değiştirilmiştir.                         |
-|  <strong>Başka bir özellik ile değiştirildi?</strong>  | Yönetim Raporlayıcı (Dynamics AX'ın geçerli sürümünde <strong>finansal raporlama</strong> etiketli) |
+|  <strong>Başka bir özellik ile değiştirildi?</strong>  | Management Reporter (Dynamics AX'ın geçerli sürümünde <strong>finansal raporlama</strong> etiketli) |
 |     <strong>Etkilenen ürün alanları</strong>     |                                              Genel muhasebe                                              |
 |             <strong>Durum</strong>             |                                      Dynamics AX 2012 itibarıyla kaldırıldı                                      |
-
 

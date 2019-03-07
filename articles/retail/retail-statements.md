@@ -1,13 +1,13 @@
 ---
 title: Perakende ekstreleri
-description: "Bu konu ekstrelerin nasıl oluşturulacağını ve deftere nakledileceğini açıklar."
+description: Bu konu ekstrelerin nasıl oluşturulacağını ve deftere nakledileceğini açıklar.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347710"
 ---
-
 # <a name="retail-statements"></a>Perakende ekstreleri
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ Bir ekstreyi deftere naklettiğinizde, satış siparişleri ve faturalar, ekstre
 - Microsoft Dynamics 365 for Retail POS içerisinde bir harekete bir müşterinin eklenmiş olduğu perakende satışları, her bir benzersiz müşteri için ayrı satış siparişleri ve faturalar oluşturur.
 
 Ödeme günlükleri, ekstredeki ödemeler için otomatik olarak oluşturulur ve stok, POS mağazası için güncelleştirilir.
-

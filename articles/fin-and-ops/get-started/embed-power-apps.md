@@ -1,13 +1,13 @@
 ---
-title: "PowerApps uygulamalarını katıştırma"
-description: "Bu konu ürün işlevselliğini artırmak için PowerApps'ın Finance and Operations istemcisine nasıl katıştırılacağını açıklar."
+title: PowerApps uygulamalarını katıştırma
+description: Bu konu ürün işlevselliğini artırmak için PowerApps'ın Finance and Operations istemcisine nasıl katıştırılacağını açıklar.
 author: jasongre
 manager: AnnBe
 ms.date: 09/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
 ms.search.scope: Operations, Core
@@ -15,25 +15,24 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 262d34cbc50251595d22c27387fbd3f1045d1fbb
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334163"
 ---
-
 # <a name="embed-powerapps-apps"></a>PowerApps uygulamalarını katıştırma
 
 [!include [banner](../includes/banner.md)]
 
 Platform güncelleştirmesi 14'te, Microsoft Dynamics 365 for Finance and Operations hizmet geliştiricileri ve teknik olmayan kullanıcıların kod yazmadan mobil cihazlar, tabletler ve web için özel iş uygulamaları oluşturmasını sağlayan bir hizmet olan Microsoft PowerApps ile tümleştirmeyi destekler. Size, kuruluşunuz veya daha geniş bir ekosistem tarafından geliştirilmiş PowerApps ürün işlevselliğini artırmak amacıyla Finance and Operations istemcisine katıştırılabilir. Örneğin, başka bir sistemden alınan bilgileri Finance and Operations'a eklemek için bir PowerApp oluşturabilirsiniz.
 
-Katıştırılmış PowerApps hakkında daha fazla bilgi için [Dynamics 365 for Finance and Operations'a PowerApps katıştırma](https://www.youtube.com/watch?v=x3qyA1bH-NY) kısa videosunu izleyin.
+Katıştırılmış PowerApps hakkında daha fazla bilgi için [Dynamics 365 for Finance and Operations'a PowerApps katıştırma kısa videosunu izleyin](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Bir sayfaya katıştırılmış bir PowerApp ekleme
 
-### <a name="overview"></a>Özet
+### <a name="overview"></a>Genel bakış
 
 Finance and Operations istemcisine bir PowerApp katıştırmadan önce istediğiniz görsellere ve/veya işleve sahip bir PowerApp bulmanız veya oluşturmanız gerekir. Burada bir PowerApp oluşturma işlemini ayrıntılı şekilde açıklamayacağız. PowerApps'te yeniyseniz [PowerApps'a giriş](https://docs.microsoft.com/powerapps/getting-started) konusu iyi bir başlangıç noktası olabilir.
 
@@ -132,4 +131,3 @@ public final class ClassTest_Extension
     }
 }
 ```
-

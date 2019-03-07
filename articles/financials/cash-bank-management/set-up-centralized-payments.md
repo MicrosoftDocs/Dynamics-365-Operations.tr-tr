@@ -1,13 +1,13 @@
 ---
-title: "Merkezi ödemeleri ayarlama"
-description: "Ödemeleri kuruluşunuzdaki diğer tüzel kişilikler adına tek bir tüzel kişilikten yürütmek üzere hazırlamak için bu adımları kullanın."
+title: Merkezi ödemeleri ayarlama
+description: Ödemeleri kuruluşunuzdaki diğer tüzel kişilikler adına tek bir tüzel kişilikten yürütmek üzere hazırlamak için bu adımları kullanın.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb0769d605b831da09046a1e7bf0c2a704dba398
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e309655bbc1d0fe7a088062b90fab34c642ab29
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361924"
 ---
-
 # <a name="set-up-centralized-payments"></a>Merkezi ödemeleri ayarlama
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Faturaları diğer tüzel kişiliklerde kapatan bir tüzel kişilikte bir ödeme
 
 ## <a name="set-up-default-descriptions"></a>Varsayılan tanımlar oluşturma
 Şirketler arası kapanış fişleri için varsayılan tanımlar oluşturabilirsiniz. Varsayılan tanım, şirketler arası kapanış süreci sırasında vade sonu ve vade başlangıcı hareketlerine eklenir. **Varsayılan hareketler** sayfasından hem **Şirketler arası müşteri kapatma işlemleri** hem **Şirketler arası satıcı kapatma işlemleri** için bir dil seçerek ve ardından metin girerek yeni tanımlar oluşturabilirsiniz.
-
 
 
 

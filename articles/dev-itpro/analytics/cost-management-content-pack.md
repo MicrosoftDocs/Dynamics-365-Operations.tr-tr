@@ -1,13 +1,13 @@
 ---
-title: "Power BI maliyet yönetimi içeriği"
-description: "Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar."
+title: Maliyet yönetimi Power BI içeriği
+description: Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,24 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327815"
 ---
-
-# <a name="cost-management-power-bi-content"></a>Power BI maliyet yönetimi içeriği
+# <a name="cost-management-power-bi-content"></a>Maliyet yönetimi Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel bakış
 
 **Maliyet yönetimi** Microsoft Power BI içeriği stok muhasebecileri veya kuruluş içinde stok durumundan veya süren işten (WIP) sorumlu olan veya bunlarla ilgilenen veya standart maliyet farklarından sorumlu kişilere yöneliktir.
 
 > [!NOTE]
-> Bu konuda açıklanan **Maliyet yönetimi** Power BI içeriği Dynamics 365 for Finance and Operations 8.0 için geçerlidir.
+> Bu konuda açıklanan **Maliyet yönetimi** Power BI içeriği, Dynamics 365 for Finance and Operations 8.0 için geçerlidir.
 > 
 > AppSource sitesinde yayımlanan **Maliyet yönetimi** Power BI içerik paketi kullanımdan kaldırılmıştır. Bu kullanımdan kaldırma hakkında daha fazla bilgi için bkz. [AppSource'da yayımlanan Power BI içerik paketleri](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
@@ -46,24 +45,24 @@ Power BI içeriği birincil veri kaynağı olarak **CostObjectStatementCache** t
 
 **CostObjectStatementCache** tablosunun her güncelleştirilmesinden sonra, **CostObjectStatementCacheMonthly** toplama ölçümünün Power BI görselleştirmelerindeki veriler güncelleştirilmeden önce güncelleştirilmesi gerekir.
 
-## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
+## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim
 
 **Maliyet yönetimi** Power BI içeriği **Maliyet yönetimi** ve **Maliyet analizi** çalışma alanında gösterilir.
 
 **Maliyet yönetimi** çalışma alanı aşağıdaki sekmeleri içerir:
 
 - **Genel Bakış**: Bu sekme, uygulama verilerini gösterir.
-- **Stok muhasebesi durumu**: Bu sekme Power BI içeriğini gösterir.
-- **Üretim muhasebesi durumu**: Bu sekme Power BI içeriğini gösterir.
+- **Stok muhasebesi durumu** - Bu sekme Power BI içeriğini gösterir.
+- **Üretim muhasebesi durumu** - Bu sekme Power BI içeriğini gösterir.
 
 **Maliyet analizi** çalışma alanı aşağıdaki sekmeleri içerir:
 
 - **Genel Bakış**: Bu sekme, uygulama verilerini gösterir.
-- **Stok muhasebesi analizi**: Bu sekme Power BI içeriğini gösterir.
-- **Üretim muhasebesi analizi**: Bu sekme Power BI içeriğini gösterir.
-- **Standart maliyet farkı analizi**: Bu sekme Power BI içeriğini gösterir.
+- **Stok muhasebesi analizi** - Bu sekme Power BI içeriğini gösterir.
+- **Üretim muhasebesi analizi** - Bu sekme Power BI içeriğini gösterir.
+- **Standart maliyet farkı analizi** - Bu sekme Power BI içeriğini gösterir.
 
-## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan rapor sayfaları
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil edilen rapor sayfaları
 
 **Cost management** Power BI içeriği, bir dizi ölçümden oluşan bir rapor sayfaları kümesi içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. 
 
@@ -173,7 +172,7 @@ Aşağıdaki tablolar **Yönetim maliyeti** Power BI içeriğindeki görselleşt
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 
-Microsoft Dynamics 365 for Finance and Operations'dan alınan veriler **Maliyet yönetimi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, analiz için en iyi duruma getirilen bir Microsoft SQL Server veritabanı olan varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
+Microsoft Dynamics 365 for Finance and Operations içinden veri, **Maliyet yönetimi** Power BI içeriğinin rapor sayfalarını doldurmak için kullanılır. Bu veri, analytics için en iyi duruma getirilen bir Microsoft SQL Server olan varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
 
 Aşağıdaki nesnelerin başlıca toplama ölçümleri Power BI içeriğinin temeli olarak kullanılır.
 
@@ -209,4 +208,3 @@ Aşağıda belirtilen temel boyutlar daha büyük hassasiyet ve daha derin anali
 | Tüzel kişilikler                                          | Tüzel kişilik adları                              |
 | Mali takvimler                                        | Mali yıl, Yıl, Üç aylık dönem, Dönem, Ay   |
 | Tesis                                                    | Kod, Ad, Adres, Eyalet, Ülke               |
-

@@ -1,13 +1,13 @@
---- 
-title: "Yeni işler tanımlama"
-description: "Bu görevde yeni iş oluşturmaya odaklanılmaktadır."
+---
+title: Yeni işler tanımlama
+description: Bu görevde yeni iş oluşturmaya odaklanılmaktadır.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347940"
 ---
 # <a name="define-new-jobs"></a>Yeni işler tanımlama
 
@@ -57,7 +57,7 @@ Bu görevde yeni iş oluşturmaya odaklanılmaktadır. El ile giriş ve şablond
 21. Listede, istenen kaydı bulun ve seçin.
 22. Listede, seçili satırdaki bağlantıya tıklayın.
 23. Yetenekler bölümünün genişletilmiş görünümüne geçin.
-    * Yetenekler, Eğitim ve Sertifikalar hızlı sekmelerindeki alanların boş olduğuna dikkat edin. Bir iş şablonundaki bilgileri kopyaladıktan sonra bu alanlardaki bilgiler tek bir adımda girilir.   
+    * Yetenekler, Eğitim ve Sertifikalar hızlı sekmelerindeki alanların boş olduğuna dikkat edin. Bir iş şablonundaki bilgileri kopyaladıktan sonra bu alanlardaki bilgiler tek bir adımda girilir.   
 24. Kaydet'e tıklayın.
 25. Kopyalama kaynağı'na tıklayın.
 26. Şablondan kopyala'ya tıklayın.
@@ -70,5 +70,4 @@ Bu görevde yeni iş oluşturmaya odaklanılmaktadır. El ile giriş ve şablond
 32. Sertifikalar bölümünün genişletilmiş görünümüne geçin.
 33. Eğitim bölümünün genişletilmiş görünümüne geçin.
 34. Kaydet'e tıklayın.
-
 

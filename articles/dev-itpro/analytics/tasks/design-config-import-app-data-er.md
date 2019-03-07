@@ -1,13 +1,13 @@
---- 
-title: "Gelen belgeleri ayrıştırmak için ER yapılandırmaları tasarlama"
-description: "Bu yordam gelen elektronik belgeyi ayrıştırmak için Elektronik raporlama (ER) yapılandırmalarının nasıl kullanılacağını açıklar."
+---
+title: Gelen belgeleri ayrıştırmak için ER yapılandırmaları tasarlama
+description: Bu yordam gelen elektronik belgeyi ayrıştırmak için Elektronik raporlama (ER) yapılandırmalarının nasıl kullanılacağını açıklar.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326113"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Gelen belgeleri ayrıştırmak için ER yapılandırmaları tasarlama
 
@@ -35,7 +35,7 @@ Bu adımlar herhangi bir veri kümesi kullanılarak tamamlanabilir. Başlamadan 
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
     * Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlayın.  
 2. Raporlama konfigürasyonları'na tıklayın.
-    * Aşağıdaki senaryo XML biçimindeki gelen elektronik belgeleri ayrıştırma yeteneklerini göstermek için kullanılır: ERP uygulaması (Dynamics 365 for Finance and Operations), web hizmetinden (http://efsta.org/ EFSTA mali hizmeti gibi) verileri ister ve uygulama verilerini uygun şekilde güncelleştirmek için gelen yanıtları ayrıştırır. En etkili ayrıştırma yöntemi için, XML biçimindeki gelen belgelerdeki farklı yapıya rağmen tek bir ER biçimi kullanılır.   
+    * Aşağıdaki senaryo XML biçimindeki gelen elektronik belgeleri ayrıştırma yeteneklerini göstermek için kullanılacaktır: ERP uygulaması (Dynamics 365 for Finance and Operations), web hizmetinden (http://efsta.org/ EFSTA mali hizmeti gibi) veri ister ve uygulama verileri gerektiği gibi güncelleştirmek için gelen yanıtları ayrıştırır. En etkili ayrıştırma yöntemi için, XML biçimindeki gelen belgelerdeki farklı yapıya rağmen tek bir ER biçimi kullanılır.   
 
 ## <a name="import-and-review-er-configurations"></a>ER yapılandırmalarını gözden geçirme ve içe aktarma
 Gelen dosyada ayrıntıları saklamak için tasarlanan örnek veri modelini içeren ER modeli yapılandırmasını içe aktarın.  
@@ -110,5 +110,4 @@ Yapılandırılan ER biçiminin gelen hizmet yanıtlarını nasıl ayrıştırac
     * Gözat'a tıklayın ve Response4.xml dosyasını seçin.  
 16. Tamam'a tıklayın.
     * Ortaya çıkan sonucu inceleyin. Yanıt türünün artık uygun şekilde Response1.xml dosyasının eşiti olarak tanındığını unutmayın.  
-
 

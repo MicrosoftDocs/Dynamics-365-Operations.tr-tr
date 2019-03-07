@@ -1,13 +1,13 @@
 ---
-title: "Gider yönetimini yapılandır"
-description: "Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta Gider yönetimini yapılandırmadan önce planlama sürecinde değerlendirmeniz gereken noktaları ve almanız gereken kararları açıklar."
+title: Gider yönetimini yapılandır
+description: Bu makalede, Microsoft Dynamics 365 for Finance and Operations'te Gider yönetimini yapılandırmadan önce planlama sürecinde değerlendirmeniz gereken noktalar ve almanız gereken kararlar açıklanmaktadır.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ac9959a4ee66e52ead5050897403602e407ca10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322042"
 ---
-
 # <a name="configure-expense-management"></a>Gider yönetimini yapılandır
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Finance and Operations'ta Gider yönetimini yapılandırmadan önce planlama sürecinde değerlendirmeniz gereken noktaları ve almanız gereken kararları açıklar. Gider yönetiminde, ödeme yöntemleri, seyahat talepleri, gider raporları, ilkeler vb. hakkındaki bilgileri saklayabilirsiniz.
+Bu konuda, Microsoft Dynamics 365 for Finance and Operations'te Gider yönetimini yapılandırmadan önce planlama sürecinde değerlendirmeniz gereken noktalar ve almanız gereken kararlar açıklanmaktadır. Gider yönetiminde, ödeme yöntemleri, seyahat talepleri, gider raporları, ilkeler vb. hakkındaki bilgileri saklayabilirsiniz.
 
 Gider yönetiminizin yapılandırmasını planlarken aldığınız pek çok karar kuruluşunuzun hiyerarşisi ve mali yapısına dayandığından, bu alanlar için planlama belgelerine başvurmalısınız.
 
@@ -163,4 +162,3 @@ Gider raporu ilkeleri oluşturarak kuruluşunuzun, çalışanlar kendisi adına 
 - İlke ne zaman sona?
 - İlke kuralı nedir?
 - İlke kuralının sonucu nedir?
-

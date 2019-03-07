@@ -1,13 +1,13 @@
 ---
 title: Avrupa
-description: "Bu konu, Avrupa için Microsoft Dynamics 365 for Finance and Operations belge kaynaklarının bağlantılarını sağlar."
+description: Bu konu, Avrupa için Microsoft Dynamics 365 for Finance and Operations belgelendirme kaynaklarına bağlantılar sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321743"
 ---
-
 # <a name="europe"></a>Avrupa 
 
 [!include [banner](../includes/banner.md)]
@@ -99,5 +98,4 @@ Bu konu, birincil adresi Avrupa'da olan tüzel kişilikler için Dynamics 365 fo
 
 - [Elektronik raporlamaya genel bakış](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
 

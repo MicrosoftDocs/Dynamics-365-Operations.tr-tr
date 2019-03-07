@@ -1,30 +1,29 @@
 ---
-title: "Satıcı ödemeleri çalışma alanı"
-description: "Bu konu Satıcı ödemeleri çalışma alanı hakkında bilgiler sağlar. Satıcı ödemeleri çalışma alanı satıcı ödemelerinin işlenmesiyle ilgili bilgileri gösterir."
+title: Satıcı ödemeleri çalışma alanı
+description: Bu konu Satıcı ödemeleri çalışma alanı hakkında bilgiler sağlar. Satıcı ödemeleri çalışma alanı satıcı ödemelerinin işlenmesiyle ilgili bilgileri gösterir.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 03fd290f8ad780e740a8fe6552c7a64c44b65a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: fa8ddf52d34c3662e120509156ab0b343bb4cc16
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346123"
 ---
-
 # <a name="vendor-payments-workspace"></a>Satıcı ödemeleri çalışma alanı
 
 [!include [banner](../includes/banner.md)]
@@ -69,5 +68,4 @@ Aşağıdaki tablo, her bir rapor sayfasında kullanılabilen görselleştirmele
 |         Ödeme iş akışı          |                                                                                <ul><li>Satıcı ödeme iş akışı örnekleri</li><li>Onaylayana göre satıcı ödeme iş akışı örnekleri</li><li>Şirkete göre satıcı ödeme iş akışı örnekleri</li><li>Onaylana göre iş akışındaki ortalama gün sayısı</li></ul>                                                                                |
 |    Müşteri / satıcı bakiyesi     |                                                                                                                   <ul><li>Müşteri / satıcı bakiyesi</li><li>Şirkete göre satıcı / müşteri bakiyesi</li><li>Satıcı / müşteri bakiyesi ayrıntıları</li></ul>                                                                                                                    |
 |    Ödemesi beklemede olan faturalar     |                                                                                         <ul><li>Ödemesi beklemede olan faturalar</li><li>Ödemesi beklemede olan faturaların ayrıntıları</li><li>Şirkete göre ödemesi beklemede olan faturalar</li><li>Satıcı grubuna göre ödemesi beklemede olan faturalar</li></ul>                                                                                          |
-
 

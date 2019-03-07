@@ -1,14 +1,14 @@
 ---
-title: "Konsolide mali tabloları oluşturma"
-description: "Bu konuda, konsolide mali tabloları oluşturabileceğiniz çeşitli senaryolar açıklanmaktadır."
+title: Konsolide mali tabloları oluşturma
+description: Bu konuda, konsolide mali tabloları oluşturabileceğiniz çeşitli senaryolar açıklanmaktadır.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 2a9ceb774a8f205e39abe6a12a0deb69dd4cb69b
 ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355208"
 ---
-
 # <a name="generate-consolidated-financial-statements"></a>Konsolide mali tabloları oluşturma
 
 [!include [banner](../includes/banner.md)]
@@ -225,4 +224,3 @@ Mali raporlama, para birimleri kullanılırken doğru şekilde dönüştürülm�
 Konsolidasyon ve para birimi çevirme hakkında daha fazla bilgi için bu konunun ana konusuna bakın: [Mali konsolidasyonlar ve para birimi çevirme](./financial-consolidations-currency-translation.md).
 
 Konsolidasyon bilgilerini çevrimiçi olarak nasıl gireceğiniz hakkında daha fazla bilgi için bkz. [Çevrimiçi olarak konsolide etme](./consolidate-online.md).
-

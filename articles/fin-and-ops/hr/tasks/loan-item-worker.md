@@ -1,13 +1,13 @@
---- 
-title: "Çalışana madde ödünç ver"
-description: "Bu yordam bir çalışana bir maddeyi ödünç vermeyi ve çalışan bunu geri getirdiğinde kaydını yapmayı gösterir."
+---
+title: Çalışana madde ödünç ver
+description: Bu yordam bir çalışana bir maddeyi ödünç vermeyi ve çalışan bunu geri getirdiğinde kaydını yapmayı gösterir.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPersonLoan, HcmPersonLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9041a24a7197c350a38339408197f643f2b9b6dd
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332231"
 ---
 # <a name="loan-item-to-a-worker"></a>Çalışana madde ödünç ver
 
@@ -43,5 +43,4 @@ Bu yordam bir çalışana bir maddeyi ödünç vermeyi ve çalışan bunu geri g
 1. İnsan Kaynakları > Çalışanlar > Ödünç maddeler > Ödünç verilen ekipman seçeneğine gidin.
 2. Düzenle öğesine tıklayın.
 3. Gerçek geri getirme alanına tarih girin.
-
 

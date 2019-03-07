@@ -1,31 +1,30 @@
 ---
-title: "İade siparişini iptal etme"
-description: "Planlanan iadeye ait bir kaydı kaydetmek istediğinizde, bir iade siparişini silmek yerine kaydedebilirsiniz."
+title: İade siparişini iptal etme
+description: Planlanan iadeye ait bir kaydı kaydetmek istediğinizde, bir iade siparişini silmek yerine kaydedebilirsiniz.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a920c54e7cbb4d8478b6e409459807db68c77cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6cabb5a324dc35dc19bd40f249d71acced913ddb
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342604"
 ---
-
 # <a name="cancel-a-return-order"></a>İade siparişini iptal etme 
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ Planlanan iadeye ait bir kaydı kaydetmek istediğinizde, bir iade siparişini s
 2.  İptal edilecek iade siparişini seçin.
 
 3.  **Siparişi iptal et**'e tıklayın.
-
 
 
 

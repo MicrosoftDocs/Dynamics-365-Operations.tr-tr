@@ -1,13 +1,13 @@
---- 
-title: "Satınalma siparişinde madde gereksiniminden maddeleri alma"
-description: "Bu yordam, bir satınalma siparişindeki maddeleri bir madde gereksiniminden almayı gösterir."
+---
+title: Satınalma siparişinde madde gereksiniminden maddeleri alma
+description: Bu yordam, bir satınalma siparişindeki maddeleri bir madde gereksiniminden almayı gösterir.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjSalesItemReq, InventItemIdLookupSimple, PurchCreateFromSalesOrder, VendAccountItemLookup, PurchTable, PurchEditLines
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 26572a49426719fba520338a5eccd7e0af78890e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 0fa70da5e06d1bc82fb9d2419bb0a7c8dd0da467
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344191"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Satınalma siparişinde madde gereksiniminden maddeleri alma
 
@@ -57,5 +57,4 @@ Bu görev, USSI veri kümesini kullanır.
 22. Listede, seçili satırı işaretleyin.
 23. Ürün girişi alanına bir değer girin.
 24. Tamam'a tıklayın.
-
 

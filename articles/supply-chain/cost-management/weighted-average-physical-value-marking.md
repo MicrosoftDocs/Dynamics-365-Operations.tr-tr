@@ -1,13 +1,13 @@
 ---
-title: "Fiziksel değer ve işaretleme ile ağırlıklı ortalama"
-description: "Ağırlıklı ortalama, stoktaki çıkışların stok kapanış dönemi sırasında stokta ve önceki dönemdeki eldeki stoklarda girişi yapılan maddelerin ortalama değeri ile değerlendirildiği ortalama ağırlık ilkesine dayanan bir stok modelidir."
+title: Fiziksel değer ve işaretleme ile ağırlıklı ortalama
+description: Ağırlıklı ortalama, stoktaki çıkışların stok kapanış dönemi sırasında stokta ve önceki dönemdeki eldeki stoklarda girişi yapılan maddelerin ortalama değeri ile değerlendirildiği ortalama ağırlık ilkesine dayanan bir stok modelidir.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc70b9cffd8716bc1d90cdb611076b4fc0bf6b30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355691"
 ---
-
 # <a name="weighted-average-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile ağırlıklı ortalama
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,7 @@ Aşağıdaki diyagramda, bu hareketler serisi, Ağırlıklı ortalama stok model
 - Stok hareketleri dikey oklarla temsil edilir.
 - Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
 - Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
-- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@Birim fiyatı biçiminde belirtilir.
 - Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
 - Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
 - Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
@@ -111,7 +110,7 @@ Aşağıdaki diyagramda, bu hareketler serisi, Ağırlıklı ortalama stok model
 - Stok hareketleri dikey oklarla temsil edilir.
 - Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
 - Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
-- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@Birim fiyatı biçiminde belirtilir.
 - Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
 - Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
 - Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
@@ -140,7 +139,7 @@ Aşağıdaki diyagramda, bu hareketler serisi, Ağırlıklı ortalama stok model
 - Stok hareketleri dikey oklarla temsil edilir.
 - Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
 - Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
-- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@Birim fiyatı biçiminde belirtilir.
 - Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
 - Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
 - Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
@@ -173,7 +172,7 @@ Aşağıdaki diyagramda, bu hareketler serisi, ağırlıklı ortalama stok model
 - Stok hareketleri dikey oklarla temsil edilir.
 - Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
 - Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
-- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@Birim fiyatı biçiminde belirtilir.
 - Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
 - Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
 - Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
@@ -221,14 +220,13 @@ Aşağıdaki diyagram bu hareketler serisini, işaretleme ile Ağırlıklı orta
 - Stok hareketleri dikey oklarla temsil edilir.
 - Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
 - Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
-- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@"Unitprice" biçiminde belirtilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@"Birim fiyatı" biçiminde belirtilir.
 - Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
 - Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
 - Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
 - Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
 - Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve Stok Kapanışı etiketiyle temsil edilir.
 - Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden noktalı kırmızı oklarla temsil edilir.
-
 
 
 

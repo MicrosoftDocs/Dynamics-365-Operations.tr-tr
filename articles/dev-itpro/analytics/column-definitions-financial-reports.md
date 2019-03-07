@@ -1,13 +1,13 @@
 ---
-title: "Finansal raporlarda sütun tanımları"
-description: "Bu makalede sütun tanımları hakkında bilgi verilmektedir. Bir sütun tanımı bir rapordaki sütunların içindekileri tanımlayan bir rapor bileşeni veya yapı taşıdır. Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir."
+title: Finansal raporlarda sütun tanımları
+description: Bu makalede sütun tanımları hakkında bilgi verilmektedir. Bir sütun tanımı bir rapordaki sütunların içindekileri tanımlayan bir rapor bileşeni veya yapı taşıdır. Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356358"
 ---
-
 # <a name="column-definitions-in-financial-reports"></a>Finansal raporlarda sütun tanımları
 
 [!include [banner](../includes/banner.md)]
@@ -171,28 +170,28 @@ Bir rapordaki sütunların üst kısmında görünen başlıkları eklemek, değ
 
 ### <a name="create-an-automatically-generated-header"></a>Otomatik üretilen bir üstbilgi oluşturma
 
-Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir. Otomatik metin kodları her rapor oluşturulduğunda güncelleştirilen değişkenlerdir. Her sütun başlığı tarihler ve dönem numaraları gibi değişebilen rapor bilgilerini belirtmek için bu kodları içerebilir. Bu nedenle, birden fazla rapor tanımı, süre ve raporlama ağacı için bir sütun tanımı kullanabilirsiniz. Otomatik metin kodları sütun tanımının ayrıntı satırlarındaki takvim bilgilerine dayandığından yalnızca **CALC**, **FD** ve **WKS** sütunları için desteklenir. Bir otomatik metin kodunun sütun başlığı hücresinde görünme şekli söz konusu bilgilerin raporda nasıl göründüğünü etkiler. **Sütun Başlığı** iletişim kutusunda, otomatik metin kodları büyük-küçük harf karışık olarak görünür. Bu nedenle, metin, raporda karışık şekilde görüntülenir. Örneğin, standart bir takvim yılı içinde **@CalMonthLong** öğesi **7** ile gösterilen ayı **Temmuz** olarak çözümler. Ay adının büyük olması (örneğin **TEMMUZ**) olması gerekiyorsa, **Sütun üstbilgi metni** alanına otomatik metin kodunu büyük harflerle girin. Örneğin: **@CALMONTHLONG** olarak girin. Kodları ve metinleri karıştırabilirsiniz. Örneğin, u üstbilgi metnini girin: **Dönem @FiscalPeriod-@FiscalYear @StartDate - @EndDate.** Oluşturulan rapor başlığı şu metne benzer: **Dönem 1-02 01/01/02 ila 01/31/02**.
+Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir. Otomatik metin kodları her rapor oluşturulduğunda güncelleştirilen değişkenlerdir. Her sütun başlığı tarihler ve dönem numaraları gibi değişebilen rapor bilgilerini belirtmek için bu kodları içerebilir. Bu nedenle, birden fazla rapor tanımı, süre ve raporlama ağacı için bir sütun tanımı kullanabilirsiniz. Otomatik metin kodları sütun tanımının ayrıntı satırlarındaki takvim bilgilerine dayandığından yalnızca **CALC**, **FD** ve **WKS** sütunları için desteklenir. Bir otomatik metin kodunun sütun başlığı hücresinde görünme şekli söz konusu bilgilerin raporda nasıl göründüğünü etkiler. **Sütun Başlığı** iletişim kutusunda, otomatik metin kodları büyük-küçük harf karışık olarak görünür. Bu nedenle, metin raporda da büyük-küçük harf karışık olarak görünür. Örneğin, standart bir takvim yılında, **@CalMonthLong** ayı **7** ila **Temmuz** olarak çözümler. Adı büyük harfle olması gereken ayın (örneğin **TEMMUZ**) adında, otomatik metin kodunu **Sütun başlığı metni** alanına büyük harflerle girin. Örneğin, **@CALMONTHLONG** girin. Kodları ve metni karıştırabilirsiniz. Örneğin, şu başlık metnini girebilirsiniz: **Dönem @FiscalPeriod-@FiscalYear @StartDate ila @EndDate** Oluşturulan rapor başlığı şu metne benzer: **Dönem 1-02 01/01/02 ila 01/31/02**.
 
 > [!NOTE]
-> Uzun tarih gibi bazı metin biçimleri Finance and Operations sunucunuzdaki bölgesel ayarlarınıza bağlıdır. Bu ayarları değiştirmek için **Başlat** düğmesini, **Denetim Masası** öğesini ve ardından **Bölge ve Dil** öğesini tıklayın. Aşağıdaki tabloda sütun üstbilgileri için kullanılabilen otomatik metin seçenekleri listelenmiştir.
+> Uzun tarih gibi bazı metin biçimleri Finance and Operations sunucunuzdaki bölgesel ayarlarınıza bağlıdır. Bu ayarları değiştirmek için **Başlat** düğmesini, **Denetim Masası** öğesini ve ardından **Bölge ve Dil** öğesini tıklayın. Aşağıdaki tabloda sütun başlıkları için kullanılabilen otomatik metin seçenekleri gösterilmektedir.
 
 
 | Otomatik metin seçeneği ve kodu                | Açıklama |
 |-----------------------------------------|-------------|
-| Ay adı (@CalMonthLong)              | Mevcut ayın adını sütun üstbilgisinde yazdırın. Rapordaki tutarları binler, milyonlar veya milyarlar olarak yuvarlamaya karar verdiğinizde ve rapordaki sütun genişliğini dokuz karakterden kısa olarak ayarladığınızda ayın adı, ilk üç karakteri gözükecek şekilde kısaltılır. |
+| Ay adı (@CalMonthLong)              | Sütun başlığındaki geçerli ayın adını yazdırın. Rapordaki tutarları binler, milyonlar veya milyarlara yuvarlamaya karar verirseniz ya da rapordaki sütun genişliğini dokuz karakterden daha az karaktere ayarlarsanız ayın adı ilk üç karakter olarak kısaltılır. |
 | Kısaltılmış ay adı (@CalMonthShort) | Seçilen mali dönem için ayın kısaltılmış adını yazdırın. |
-| Dönem numarası (@FiscalPeriod)           | İlgili sütun için tanımlanan mali dönemin sayısını yazdırın. Sütun birden fazla dönemi kapsıyorsa aralıktaki son dönem yazdırılır. |
-| Dönem açıklaması (@FiscalPeriodName)  | Mali verilerde açıklanan mali dönem açıklamasını yazdırın. |
-| Mali yılı (@FiscalYear)               | Sütun için mali yılı sayısal formatta yazdırın. |
-| Takvim yılı (@CalYear)                | Sütun için takvim yılını sayısal formatta yazdırın. |
-| Başlangıç tarihi (@StartDate)                 | Sütun için başlangıç tarihini yazdırın. |
-| Bitiş Tarihi (@EndDate)                     | Sütun için bitiş tarihini yazdırın. |
-| Ağaçtan birim adı (@UnitName)         | Bir sütunu raporlama ağacının belirli bir birimiyle sınırlandırırsanız birim adını sütun üstbilgisinde yazdırın. |
-| Birim açıklama (@UnitDesc)            | Bir sütunu raporlama ağacının belirli bir birimiyle sınırlandırırsanız birim açıklamasını sütun üstbilgisinde yazdırın. |
-| Defter Kodu (@BookCode)                   | Sütunda tanımlanan defter kodunu yazdırın. |
+| Dönem numarası (@FiscalPeriod)           | Söz konusu sütun için tanımlanan mali dönemin sayısal biçimini yazdırın. Sütun birden fazla döneme yayılıyorsa aralıktaki son dönem yazdırılır. |
+| Dönem açıklaması (@FiscalPeriodName)  | Mali verilerde tanımlanan mali dönem açıklamasını yazdırın. |
+| Mali yıl (@FiscalYear)               | Sütunun mali yılı sayısal biçimde yazdırın. |
+| Takvim yılı (@CalYear)                | Sütunun takvim yılını sayısal biçimde yazdırın. |
+| Başlangıç tarihi (@StartDate)                 | Sütunun başlangıç tarihini yazdırın. |
+| Bitiş Tarihi (@EndDate)                     | Sütunun bitiş tarihini yazdırın. |
+| Ağaçtaki birim adı (@UnitName)         | Bir sütunu belirli bir raporlama ağacı birimiyle kısıtlarsanız sütun başlığındaki birim adını yazdırın. |
+| Birim açıklaması (@UnitDesc)            | Bir sütunu belirli bir raporlama ağacı birimiyle kısıtlarsanız sütun başlığındaki birim açıklamasını yazdırın. |
+| Defter Kodu (@BookCode)                   | Sütunda belirtilen defter kodunu yazdırın. |
 | Boş satır (@Blank)                     | Sütun başlığına boş bir satır ekleyin. |
 
-### <a name="create-a-conditional-spanning-header"></a>Koşullu genişleyen bir üstbilgi oluşturma
+### <a name="create-a-conditional-spanning-header"></a>Koşullu kapsayıcı üst bilgi oluşturma
 
 Koşullu kapsayıcı üst bilgiler belirli dönem verilerini esas alan birden fazla sütuna yayılabilir. Örneğin, mali yıl için bir bütçe raporunuz varsa ve gelecek ayların öngörülen bütçeleriyle birlikte geçmiş ayların gerçek bütçelerini görüntülemek istiyorsanız rapor başlığını otomatik olarak güncelleştirmek için bir koşullu kapsayıcı üst bilgi kullanabilirsiniz. Koşullu kapsayıcı üst bilgi oluşturduğunuzda aşağıdaki durumlara dikkat edin:
 
@@ -216,12 +215,12 @@ Koşullu kapsayıcı üst bilgiler belirli dönem verilerini esas alan birden fa
 Pelin dinamik bir altı aylık tahmin için bir rapor oluşturuyor. Gerçek verileri içeren sütunların üzerine "Gerçek durum" ifadesinin, bütçe tahminlerini içeren sütunların üzerine ise "Bütçe" ifadesinin yazdırılmasını istiyor. Raporun çalıştırıldığı her ay, bir fazla gerçek durum sütunu ve bir az bütçe sütunu vardır. Pelin başlıkları ayarlamak için sütun tanımını rapor her oluşturulduğunda el ile değiştirebilse de, zamandan ve çabadan tasarruf etmek için rapor her çalıştırıldığında ilgili sütunların üzerinde otomatik olarak başlık oluşturacak koşullu kapsayıcı üst bilgiler oluşturmaya karar veriyor. Pelin Rapor Tasarımcısı'nı açıyor, gezinme bölmesindeki **Sütun Tanımı**'na tıklıyor ve raporun sütun tanımını açıyor. Ardından aşağıdaki bilgileri giriyor. Rapor tanımındaki esas dönem 4'tür.
 
 
-|                     |  A:   | B:             | A             | B             | E:             | C             | G:             | H:             | I:             | J             | K             | L             | P             |
+|                     |  A   | B             | C             | D             | E             | F             | G             | H             | I             | J             | K             | L             | M             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| Üstbilgi 1            |      | Gerçek        | Bütçe        |               |               |               |               |               |               |               |               |               |               |
-| Üstbilgi 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
+| Başlık 1            |      | Gerçek durum        | Bütçe        |               |               |               |               |               |               |               |               |               |               |
+| Başlık 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | Başlık 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
-| Sütun Tipi         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
+| Sütun Türü         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
 | Defter Kodu/Öznitelik |      | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    |
 | Mali Yıl         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
 | Dönem              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
@@ -519,9 +518,9 @@ Ayrıca, tam eşleştirme için alfasayısal karakterlerin herhangi bir kombinas
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Bir sütun tanımındaki birden fazla para birimi içeren bir raporu biçimlendirme
 
-Birden fazla para birimi içeren bir rapor tutarları doğal (yerel) para biriminde, işlevsel (varsayılan) para biriminde veya raporlama para biriminde görüntüleyebilir. Bir şirketin işlevsel para birimi Microsoft Dynamics ERP sisteminde tanımlanır. Bu ERP ayarını, raporlarda kullanılan varsayılan para birimi simgelerini yapılandırabileceğiniz, işletim sisteminin bölgesel seçenekler ayarıyla karıştırmayın. Sütun tanımında aşağıdaki para birimiyle ilgili hücreler bulunur:
+Birden fazla para birimi içeren bir rapor tutarları doğal (yerel) para biriminde, işlevsel (varsayılan) para biriminde veya raporlama para biriminde görüntüleyebilir. Bir şirketin işlevsel para birimi, Microsoft Dynamics ERP sisteminde tanımlanır. Bu ERP ayarını, raporlarda kullanılan varsayılan para birimi simgelerini yapılandırabileceğiniz, işletim sisteminin bölgesel seçenekler ayarıyla karıştırmayın. Sütun tanımında aşağıdaki para birimiyle ilgili hücreler bulunur:
 
-- **Para Birimi Görüntüleme**: Hareketlerin gösterileceği para birimi türünü belirtin (doğal, işlevsel veya raporlama). Bu işlevselliğe bazen para birimi çevirme de denir. Para birimi çevirme, genel muhasebe tutarlarını şirketin işlevsel para birimi ya da hareketin girildiği para birimi olmayabilecek bir para biriminde raporlama yeteneğidir.
+- **Para Birimi Görüntüleme**: Hareketlerin gösterileceği para birimi türünü belirtin (doğal, işlevsel veya raporlama). Bu işlevselliğe bazen para birimi çevirme de denir. Para birimi dönüştürme, genel muhasebe tutarlarını şirketin işlevsel para birimi ya da hareketin girildiği para birimi olmayabilecek bir para biriminde raporlama yeteneğidir.
 - **Para Birimi Filtresi**: Bir para birimi filtresi belirtin. Raporda sadece seçilen para birimi cinsinden girilen hareketler görüntülenir.
 
 > [!NOTE]
@@ -612,4 +611,3 @@ Bir sütundaki tutarı belirtilen bir dönem sayısına bölebilirsiniz. Örneğ
 [Finansal raporlamada satır tanımları](row-definitions-financial-reporting.md)
 
 [Finansal raporlamada gelişmiş biçimlendirme seçenekleri](advanced-formatting-options-financial-reporting.md)
-

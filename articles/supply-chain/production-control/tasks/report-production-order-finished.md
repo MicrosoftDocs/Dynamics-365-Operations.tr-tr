@@ -1,13 +1,13 @@
---- 
-title: "Üretim emrinin bittiğini rapor etme"
-description: "Bu yordam, bir üretim emrinin nasıl tamamlanmış olarak bildirileceğini gösterir."
+---
+title: Üretim emrinin bittiğini rapor etme
+description: Bu yordam, bir üretim emrinin nasıl tamamlanmış olarak bildirileceğini gösterir.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 97e67ff51e4bc4533aeb2485c34cd5ec8a882bb6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: e6f5e7316f89ba7c2b7091eb9df02aa07ea44dbd
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320501"
 ---
 # <a name="report-a-production-order-as-finished"></a>Üretim emrinin bittiğini rapor etme
 
@@ -51,5 +51,4 @@ Bu yordam, bir üretim emrinin nasıl tamamlanmış olarak bildirileceğini gös
 3. Listede, seçili satırı işaretleyin.
 4. Listede, seçili satırdaki bağlantıya tıklayın.
     * Tamamlandı bildirimi günlüğü deftere nakledilir. Günlükte ayarlamalar yapmak istiyorsanız, üzerinde değişiklik yapabileceğiniz yeni bir günlüğü el ile oluşturabilirsiniz.  
-
 

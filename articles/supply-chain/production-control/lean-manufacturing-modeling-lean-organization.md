@@ -1,13 +1,13 @@
 ---
-title: "Bir yalın kuruluşu modelleme"
-description: "Bu makale, bir yalın kuruluşu modellemek için kilit kavramlar hakkında bilgi sağlamaktadır."
+title: Bir yalın kuruluşu modelleme
+description: Bu makale, bir yalın kuruluşu modellemek için kilit kavramlar hakkında bilgi sağlamaktadır.
 author: cvocph
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350999"
 ---
-
 # <a name="modeling-a-lean-organization"></a>Bir yalın kuruluşu modelleme
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ Sürekli gelişimi daha iyi desteklemek için üretim akışları zaman etkili s
 
 ## <a name="simplicity"></a>Basitlik
 Yalın imalat uygulamak için biz, basit ve karmaşık üretim senaryolarda tek bir ölçeklenebilir mimari modelleme sağlayan üretim akışı ve etkinlik yaklaşım seçtik. Etkinlik kavramına yakından bakmak ihtiyacı olan kullanıcılara yeni bir kolaylık ortaya çıkarır: atölye ve lojistik çalışanları. Stok hareketleri yerine etkinlik tabanlı işleri bildirerek, tüm yalın üretim çeşitleri için birleştirilmiş kullanıcı arabirimi iş karmaşıklığını kullanıcı arabiriminden ait olduğu yere aktarır: yalın imalat omurgası olarak üretim akışı.
-
 
 
 

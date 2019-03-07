@@ -1,13 +1,13 @@
 ---
 title: Elektronik imzalar
-description: "Bu makale, elektronik imzalara genel bir bakış sunar ve Microsoft Dynamics 365 for Finance and Operations'da nasıl kullanılabileceklerini açıklar."
+description: Bu makale, elektronik imzalara genel bakış sağlar ve Microsoft Dynamics 365 for Finance and Operations uygulamasında nasıl kullanılabileceklerini açıklar.
 author: maertenm
 manager: AnnBe
 ms.date: 08/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 676510ef503d51d914ba762e7ac15e2c4811c6ba
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325676"
 ---
-
 # <a name="electronic-signatures"></a>Elektronik imzalar
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, elektronik imzalara genel bir bakış sunar ve Microsoft Dynamics 365 for Finance and Operations'da nasıl kullanılabileceklerini açıklar.
+Bu makale, elektronik imzalara genel bakış sağlar ve Microsoft Dynamics 365 for Finance and Operations uygulamasında nasıl kullanılabileceklerini açıklar.
 
 ## <a name="what-is-an-electronic-signature"></a>Elektronik imza nedir?
 
@@ -39,9 +38,9 @@ Elektronik imza bir hesaplama işlemi başlatmak veya onaylamak üzere olan kiş
 Elektronik imzalar ilaç, yiyecek ile içecek ve havacılık ve uzay ile savunma sanayileri gibi birtakım kontrol altındaki sektörlerle ilgili yönetmeliklere uyumluluk gereklilikleridir. Aynı zamanda ABD'de İlaç ve Gıda Dairesi (FDA) tarafından yayınlanmış 21 CFR Bölüm 11'deki yönetmeliklere uygunluk açısından da gereklidir.
 
 > [!NOTE]
-> Elektronik imza kendi başına dijital imzayla aynı değildir. Dijital imza başka güvenlik önlemleri de sağlarken, elektronik imza sadece el yazısı imzanın yerini tutar. Dijital imza verilere başka bir kullanıcı veya işlem tarafından müdahale edilip edilmediğini belirlemeye yardımcı olabilir. Dijital imzalar da doğrulanabilir ve bu doğrulama, verilerin imzalanmasında kullanılan sertifikanın sahibi tarafından reddedilemez. Aşağıda açıklandığı gibi, Microsoft Dynamics 365 for Finance and Operations'daki elektronik imzaların yerleşik dijital imza işlevleri vardır.
+> Elektronik imza kendi başına dijital imzayla aynı değildir. Dijital imza başka güvenlik önlemleri de sağlarken, elektronik imza sadece el yazısı imzanın yerini tutar. Dijital imza verilere başka bir kullanıcı veya işlem tarafından müdahale edilip edilmediğini belirlemeye yardımcı olabilir. Dijital imzalar da doğrulanabilir ve bu doğrulama, verilerin imzalanmasında kullanılan sertifikanın sahibi tarafından reddedilemez. Aşağıda açıklandığı gibi, Microsoft Dynamics 365 for Finance and Operations uygulamasındaki elektronik imzaların yerleşik dijital imza işlevleri vardır.
 
-## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations uygulamasındaki elektronik imzalar
+## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Dynamics 365 for Finance and Operations içerisinde Elektronik imzalar
 
 Finance and Operations uygulamasında önemli iş süreçleri için elektronik imza kullanabilirsiniz. Bazı işlemler yerleşik elektronik imza özelliklerine sahiptir. Ayrıca herhangi bir veritabanı tablosu ve alanı için özel imza gereklilikleri de oluşturabilirsiniz.
 
@@ -111,4 +110,3 @@ Onaylayanları belirlemek için aşağıdaki adımları izleyin.
 1. **Seçenekler** sayfasında **Hesaplar** sekmesinde **Onaylayanı belirle** öğesine tıklayın.
 2. **Onaylayan kullanıcının kimliği** alanında, başka bir kullanıcının değişikliklerini imzalaması gereken kullanıcı kimliğini seçin.
 3. **Kullanıcı kimliği için imza yetkisi** alanında, değişiklikleri imzalanacak kullanıcının kimliğini seçin.
-

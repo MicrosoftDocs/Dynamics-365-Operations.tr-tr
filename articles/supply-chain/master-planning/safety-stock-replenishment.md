@@ -1,32 +1,31 @@
 ---
-title: "Maddeler için emniyet stoğu karşılama"
-description: "Bu konu, emniyet stoğu karşılamayı ve maddeler için emniyet stoğu miktarının nasıl ayarlanacağını ele alır."
+title: Maddeler için emniyet stoğu karşılama
+description: Bu konu, emniyet stoğu karşılamayı ve maddeler için emniyet stoğu miktarının nasıl ayarlanacağını ele alır.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341546"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>Maddeler için emniyet stoğu karşılama
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ Sistem emniyet stoğu gereksinimi hareketinin satış satırları, ürün reçet
 Master planlamanın karşılama aşaması sırasında, emniyet stoğu yenileme önceliği artık geriye atılmaz. Eldeki stok diğer talep türlerinden önce kullanılabilir. Gecikmenin hesaplanması sırasında, emniyet stoğunun kullanılması durumunda zamanında teslim edilip edilemeyeceğini belirlemek amacıyla geciken satış satırlarının, ürün reçetesi satırı gereksinimlerinin ve diğer tüm talep türlerinin üzerine geçmek üzere yeni bir mantık eklenir. Sistem emniyet stoğunu kullanarak gecikmeleri en aza indirebileceğini belirlerse, satış satırları veya ürün reçetesi satırları başlangıçtaki karşılamayı emniyet stoğuyla doldurur ve sistem bunun yerine emniyet stoğu yenilemesini tetikler.
 
 Plan veya madde gecikme hesaplaması için ayarlanmazsa, emniyet stoğu sınırlaması diğer talep türleriyle aynı önceliğe sahip olur. Bu, eldeki stok rezervi bulunduğu ve diğer talep türlerinden önce başka kullanılabilir stok olduğu anlamına gelir.
-

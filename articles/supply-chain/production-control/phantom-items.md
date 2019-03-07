@@ -1,13 +1,13 @@
 ---
 title: Hayali maddeler
-description: "Bu konu, ayrıntılı olarak Hayali hat türünün bir ürün reçetesi (BOM) satırlarında ve Microsoft Dynamics 365 for Finance and Operations formülünde nasıl kullanılabileceğini açıklar."
+description: Bu konu, Microsoft Dynamics 365 for Finance and Operations içinde ayrıntılı olarak Hayali hat türünün bir ürün reçetesi (BOM) satırlarında ve formülünde nasıl kullanılabileceğini açıklar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: shylaw
@@ -15,16 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validfrom: 
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.search.validfrom: ''
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: a92dd82f309867586f047e0dfc36e452a44a0f9c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341822"
 ---
-
 # <a name="phantom-items"></a>Hayali maddeler
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Bu yapıda, parçalar F ve G kavramı yoktur ve bu parçaların oluştuğu malze
 
 İki operasyon sayfasına sahip Mühendislik ürün reçetesinin aksine, Üretim ürün reçetesi yalnızca bir operasyon sayfasına sahiptir. Parça G ile bağlantılı olan paketleme operasyonu da yükseltilmiştir ve ürün H için operasyon sayfasının parçasıdır. Elektriksel birimin montajı ilk operasyondur. Bu sıralama mantıklıdır, çünkü birim, makine montajı olan bir sonraki operasyonda kullanılacaktır. Son operasyon, paketleme operasyonudur, bu da iki paketleme malzemesi tüketir (C ve D).
 
-Microsoft Dynamics 365 for Finance and Operations'ta, Mühendislik ürün reçetesi ve Üretim ürün reçetesi geçişi Hayali ürün reçetesi satır türü üzerinden etkinleştirilir. "Hayali" teriminin belirttiği gibi, parçalar F ve G iki ürün reçetesi türü arasında geçiş yapılırken ortadan kaybolmuştur. Bu örnekte, Hayali satır türü parçalar F ve G için Mühendislik ürün reçetesinde ürün reçetesi satırlarına uygulanır. Bir üretim veya toplu iş emri oluşturulduğunda, Mühendislik ürün reçetesi üretim veya toplu iş emrine kopyalanır. Daha sonra siparişin tahmini yapıldığında, Mühendislik ürün reçetesinden Üretim ürün reçetesine geçiş, önceden belirtilen şekillerdeki gibi ortaya çıkar. İkinci şekildeki operasyonlar sayfasından, paketleme malzemeleri C ve D operasyon için dahil edilir. 
+Microsoft Dynamics 365 for Finance and Operations içinde, Mühendislik BOM ve Üretim BOM arasındaki geçiş, Phantom BOM satır türü ile gerçekleşir. "Hayali" teriminin belirttiği gibi, parçalar F ve G iki ürün reçetesi türü arasında geçiş yapılırken ortadan kaybolmuştur. Bu örnekte, Hayali satır türü parçalar F ve G için Mühendislik ürün reçetesinde ürün reçetesi satırlarına uygulanır. Bir üretim veya toplu iş emri oluşturulduğunda, Mühendislik ürün reçetesi üretim veya toplu iş emrine kopyalanır. Daha sonra siparişin tahmini yapıldığında, Mühendislik ürün reçetesinden Üretim ürün reçetesine geçiş, önceden belirtilen şekillerdeki gibi ortaya çıkar. İkinci şekildeki operasyonlar sayfasından, paketleme malzemeleri C ve D operasyon için dahil edilir. 
 
 ## <a name="multilevel-phantom-bom-structures"></a>Çok düzeyli hayali ürün reçetesi yapıları
 Hayali satır türü çok düzeyli ürün reçetesi yapıları için aşağıdaki şekilde gösterildiği gibi kullanılabilir. Bu şekilde, (a) ürün G için ürün reçetesidir ve (b) parçalar E ve F ve ürün G için rota tablosudur. 
@@ -74,4 +73,3 @@ Hayali ürün reçeteleri de bir rota ağına sahip bir ürün reçetesi için k
 Aşağıdaki çizimde, (a) ürün G ve parça F ve G için ürün reçetesidir, ve (b), ürün G ve parça F için rota tablosudur.
 
 ![Ürün G ve parça F rota tablolarıyla](media/product-G-part-F-with-route-sheet.png)
-

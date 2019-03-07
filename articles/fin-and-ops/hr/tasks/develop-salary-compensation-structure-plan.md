@@ -1,13 +1,13 @@
---- 
-title: "Maaş/ücret yapısı ve planı geliştir"
-description: "Bu görev kılavuzu, bir Sabit ücret planı oluşturma ve çalışanların uygunluk kuralları aracılığıyla plana kaydedilmesini sağlama konusunda açıklamalar içerir."
+---
+title: Maaş/ücret yapısı ve planı geliştir
+description: Bu görev kılavuzu, bir Sabit ücret planı oluşturma ve çalışanların uygunluk kuralları aracılığıyla plana kaydedilmesini sağlama konusunda açıklamalar içerir.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332783"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>Maaş/ücret yapısı ve planı geliştir
 
@@ -74,5 +74,4 @@ Bu görev kılavuzu, bir Sabit ücret planı oluşturma ve çalışanların uygu
     * Bir çalışanın ücret planına uygun olması için karşılaması gereken ölçütü seçin. Ölçüt şunlar olabilir: Departman, İşçi sendikası, Konum (Ücret bölgesi), İş, Görev, İş türü veya Ücret düzeyi. Bir çalışanın ücret planına uygun olması için belirtilen tüm ölçütleri karşılaması gerekir. Herhangi bir ölçüt seçilmezse, tüm çalışanlar ücret planı için uygun olur. Bir çalışanın uygunluk kuralında belirtilen ölçüte uymuyorsa veya ücret planı için uygunluk kuralı belirtilmediyse, ücret planı bir çalışan için Sabit ücret kaydı oluşturma sırasında arama yapıldığında görüntülenmez.  
 7. Sayfayı kapatın.
 8. Sayfayı kapatın.
-
 

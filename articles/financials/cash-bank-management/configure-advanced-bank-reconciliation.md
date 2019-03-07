@@ -1,13 +1,13 @@
 ---
-title: "Gelişmiş banka mutabakatı kurulumu işlemi"
-description: "Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations'taki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir.  Bu makalede mutabakat için işlem ayarları açıklanır."
+title: Gelişmiş banka mutabakatı kurulumu işlemi
+description: Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir.  Bu makalede mutabakat için işlem ayarları açıklanır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357347"
 ---
-
 # <a name="advanced-bank-reconciliation-setup-process"></a>Gelişmiş banka mutabakatı kurulumu işlemi
 
 [!include [banner](../includes/banner.md)]
 
-Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations'taki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir.  Bu makalede mutabakat için işlem ayarları açıklanır.  
+Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir.  Bu makalede mutabakat için işlem ayarları açıklanır.  
 
 Gelişmiş banka mutabakatı işlevini kullanmadan önce ayarlanması gereken bir dizi parça vardır. Banka ekstresi almayı ayarlama hakkında daha fazla bilgi için, bkz [Banka ekstresi alma işlemini ayarlama](set-up-advanced-bank-reconciliation-import-process.md).  Banka mutabakatı işleminin kurulması için gereksinimler aşağıda açıklanmıştır.
 
@@ -59,7 +58,6 @@ Parametre sayfası geçersiz kılma üzerindeki doğrulama seçenekleri, eşleş
 **Ekstrelerdeki banka hesabı adı** alanı, elektronik banka ekstrelerinizde kullanılan banka hesabınızın adıdır.  Bu ad, bir banka hesabı için birden fazla banka hesabına ilişkin bilgi içeren bir ekstreden hangi hareketlerin alınacağını belirlerken kullanılır. 
 
 **İçe aktarmadan sonra mutabakat sağla** seçeneği, banka ekstresini otomatik doğrulayacaktır, yeni bir banka mutabakatı ve çalışma sayfası oluşturacak ve Varsayılan eşleşme kural kümesini çalıştıracaktır.  Bu işlev, el ile eşleştirilmesi gereken hareketlere kadar olan süreci otomatik hale getirir.  Banka hesabındaki ayar içe alınırken varsayılana döner.
-
 
 
 

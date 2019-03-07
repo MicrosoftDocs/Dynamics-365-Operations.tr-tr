@@ -1,13 +1,13 @@
---- 
-title: "Satış vergisi kapatma dönemlerini ayarla"
-description: "Satış vergisi kapatma dönemleri, satış vergisinin bildirilip ödenmesi gereken dönem aralıkları hakkında bilgiler içerir."
+---
+title: Satış vergisi kapatma dönemlerini ayarla
+description: Satış vergisi kapatma dönemleri, satış vergisinin bildirilip ödenmesi gereken dönem aralıkları hakkında bilgiler içerir.
 author: twheeloc
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 61f737edea3af5281b6d2fd7c3c0899082782067
 ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.contentlocale: tr-tr
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326205"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Satış vergisi kapatma dönemlerini ayarla
 
@@ -60,5 +60,4 @@ Bu görevde USMF demo şirketi kullanılmaktadır.
 20. Yeni dönem aralığı'nı tıklayın.
     * İlk dönem aralığı girildikten sonra yeni dönemler otomatik olarak oluşturulabilir. Gerektiğinde geri dönüp yeni dönem aralıkları ekleyebilirsiniz.  
 21. Sayfayı kapatın.
-
 

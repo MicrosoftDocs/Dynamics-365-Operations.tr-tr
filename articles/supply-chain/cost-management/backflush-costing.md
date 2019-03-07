@@ -1,13 +1,13 @@
 ---
-title: "Geriye dönük maliyetlendirme"
-description: "Bu konu, Yalın imalat için geriye dönük maliyetlendirme kavramını tanıtmaktadır."
+title: Geriye dönük maliyetlendirme
+description: Bu konu, Yalın imalat için geriye dönük maliyetlendirme kavramını tanıtmaktadır.
 author: cvocph
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9fe717752da4c697cf0d896c0d40832330f0d118
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352724"
 ---
-
 # <a name="backflush-costing"></a>Geriye dönük maliyetlendirme
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Maliyetlendirme tablosu, şirket için maliyet yapısını modeller ve maliyeti 
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Üretim akışına dayanan hesaplama
 
-Microsoft Dynamics 365 for Finance and Operations için yalın üretim, rotalardan bağımsızdır. Bir üretim akışından tedarik edilen ürünler için maliyet hesaplaması, üretim akışını temel alabilir. Hesaplamanın yapılabilmesinden önce, ürünü üretim akışından tedarik eden bir kanban kuralı oluşturulmalıdır. Ürün, üretim tarihinde aynı tesisteki birden fazla üretim akşından tedarik edilebiliyorsa, ürün reçetesi hesaplaması için üretim akışını seçebilirsiniz. **Varsayılan üretim akışı** sayfası üzerinde bir varsayılan üretimi akışını her bir madde için yapılandırabilirsiniz. Aynı ürün için aynı üretim akşında, aynı hesaplama tarihinde etkin birden fazla kanban kuralı mevcutsa, hesaplama, hesaplama için etkin ilk kanban kuralını seçer.
+Microsoft Dynamics 365 for Finance and Operations için Yalın imalat, yollardan bağımsızdır. Bir üretim akışından tedarik edilen ürünler için maliyet hesaplaması, üretim akışını temel alabilir. Hesaplamanın yapılabilmesinden önce, ürünü üretim akışından tedarik eden bir kanban kuralı oluşturulmalıdır. Ürün, üretim tarihinde aynı tesisteki birden fazla üretim akşından tedarik edilebiliyorsa, ürün reçetesi hesaplaması için üretim akışını seçebilirsiniz. **Varsayılan üretim akışı** sayfası üzerinde bir varsayılan üretimi akışını her bir madde için yapılandırabilirsiniz. Aynı ürün için aynı üretim akşında, aynı hesaplama tarihinde etkin birden fazla kanban kuralı mevcutsa, hesaplama, hesaplama için etkin ilk kanban kuralını seçer.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Rotayı temel alan hesaplama
 
@@ -122,7 +121,6 @@ Süren işi dönemsel olarak değerlemek ve malzeme, işçilik ve dolaylı maliy
     -   Dönem içerisinde tüketilen tüm dolaylı maliyetler, hesaplanır ve süren işten çıkartılır. Kalan dolaylı maliyet, fark olarak deftere nakledilir.
 
 5.  Üretim farklarını standart maliyete göre hesapla. Fark, maliyet grubu başına hesaplanır.
-
 
 
 

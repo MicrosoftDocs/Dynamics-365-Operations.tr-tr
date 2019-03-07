@@ -1,13 +1,13 @@
 ---
-title: "Satıcı işbirliği mobil çalışma alanı"
-description: "Bu konu, Satıcı işbirliği mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler."
+title: Satıcı işbirliği mobil çalışma alanı
+description: Bu konu, Satıcı işbirliği mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358658"
 ---
-
 # <a name="vendor-collaboration-mobile-workspace"></a>Satıcı işbirliği mobil çalışma alanı
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, **Satıcı işbirliği** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
 
-Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations mobil uygulaması ile kullanılmak üzere geliştirilmiştir.
+Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations Mobile uygulaması ile kullanılmak üzere geliştirilmiştir.
 
-## <a name="overview"></a>Özet 
+## <a name="overview"></a>Genel bakış 
 **Satıcı işbirliği** mobil çalışma alanı, satıcıları Microsoft Dynamics 365 for Finance and Operations web istemcisinde satınalma siparişlerini görüp yanıtlayabilmeleri için yeni satınalma siparişleri hakkında bilgilendirir. 
 
 >[!NOTE]
@@ -57,13 +56,13 @@ Web istemcisindeki satıcı işbirliği web arabirimi yeni ilgili kişi oluştur
 -   Satıcı hesabı için kaydedilen ilgili kişi bilgilerini görüntüleme. (Bu görev bir ek güvenlik rolü gerektirir.)
 -   Satıcı tarafından gönderilen kullanıcı isteğinin bilgilerini görüntüleme ve isteğin durumunu izleme. (Bu görev bir ek güvenlik rolü gerektirir.)
 
-## <a name="prerequisites"></a>Ön koşullar
-Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak farklılık gösterir.
+## <a name="prerequisites"></a>Önkoşullar
+Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne bağlı olarak farklılık gösterir.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations kullanıyorsanız önkoşullar 
-Microsoft Dynamics 365 for Finance and Operations kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Satıcı işbirliği** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Microsoft Dynamics 365 for Finance and Operations kuruluşunuza dağıtıldıysa sistem yöneticisinin **Satıcı işbirliği** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611 Platform güncelleştirmesi 3 veya daha sonraki sürüm kullanıyorsanız ön koşullar
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611'i Platform güncelleştirmesi 3 veya daha sonrasıyla kullanıyorsanız önkoşullar
 Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir. 
 
 <table>
@@ -71,7 +70,7 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 <tr class="header">
 <th>Önkoşul</th>
 <th>Rol</th>
-<th>Tanım</th>
+<th>Açıklama</th>
 </tr>
 </thead>
 <tbody>
@@ -80,7 +79,7 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 <td>Sistem yöneticisi</td>
 <td>Platform Güncelleştirmesi 3 kullanıyorsanız, KB 3216943 gerekli bir ikili güncelleştirmedir. Bu KB'yi uygulamak için sistem yöneticinizin bu adımları izlemesi gerekir.
 <ol>
-<li>KB 3216943'yi, Microsoft Lifecycle Services (LCS) üzerinden karşıdan yükleyin.</li>
+<li>Microsoft Dynamics Lifecycle Services (LCS) içerisinden KB 3216943 indirin.</li>
 <li>Dağıtılabilir bir paket olarak teslim edilen ikili güncelleştirmeyi yükleyin. Dağıtılabilir paket uygulama hakkında bilgi için bkz. <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Dağıtılabilir paket uygulama</a>.</li>
 </ol></td>
 </tr>
@@ -171,4 +170,3 @@ Sipariş satırı yanıtında yaptığınız değişiklikler gösterilir. Ancak,
 
 ### <a name="open-confirmed-orders"></a>Açık onaylanmış siparişler
 Satın alma siparişi müşteri tarafından onaylandığında, (yani satınalma siparişinin durumu **Onaylandı** olarak değiştirildiğinde), açık onaylanmış siparişte görünür. Sipariş müşteri tarafından alındı şeklinde kaydedilene kadar bu listede kalır.
-

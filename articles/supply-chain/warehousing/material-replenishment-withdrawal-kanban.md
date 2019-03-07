@@ -1,32 +1,31 @@
 ---
-title: "Çekme kanbanlarıyla stok yenileme"
-description: "Bu konu, çekme kanbanının malzeme stok yenileme ve üretim etkinlikleri için nasıl kullanılacağını açıklar."
+title: Çekme kanbanlarıyla stok yenileme
+description: Bu konu, çekme kanbanının malzeme stok yenileme ve üretim etkinlikleri için nasıl kullanılacağını açıklar.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7fe3ebe3c27c380d95cbc12b864264e9538d433f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 011da8cd894cc044b6af8b740e49ed8d7c3c0c67
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320938"
 ---
-
 # <a name="replenishment-with-withdrawal-kanbans"></a>Çekme kanbanlarıyla stok yenileme
 
 [!include [banner](../includes/banner.md)]
@@ -87,5 +86,4 @@ Aşağıdaki senaryoda, çekme kanbanının transfer etkinliği, aynı ambardaki
 6.  Üretim işlemi
 
 Bir kanban üretim girişi konumunda tüketildikten sonra, kanban boş olarak kaydedilir ve yeni bir kanban akışa eklenir. Kanban oluşturulduğunda, bir dalga satırı kanban dalgasına atanır. Bir kanban dalgası işlendiğinde, kanban çekme için bir ambar işi oluşturulur. Ambar çalışan, kanban çekme için işi işleme alır ve iş tarafından kanban için malzemeleri bir ambar konumundan almaya yönlendirilir. Bu ambar çalışanı çekmeyi onayladığında, kanban otomatik tamamlanır ve ambar çalışanı malzemeyi üretim giriş konumuna koymaya yönlendirilir.
-
 

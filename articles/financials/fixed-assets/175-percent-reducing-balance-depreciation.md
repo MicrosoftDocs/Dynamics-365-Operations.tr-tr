@@ -1,13 +1,13 @@
 ---
 title: '%175 azalan bakiyeli amortisman'
-description: "Bu konu, amortismanın yüzde 175 azalan bakiye yöntemi hakkında genel bir bakış sağlar."
+description: Bu konu, amortismanın yüzde 175 azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 author: saraschi2
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a63293dbf24c27733f8013947aeab5792fa0db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8f78eb06930eab26d300fba6fd28333a5ce39cf8
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320179"
 ---
-
 # <a name="175-percent-reducing-balance-depreciation"></a>%175 azalan bakiyeli amortisman
 
 [!include [banner](../includes/banner.md)]
@@ -80,13 +79,12 @@ Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında 
 
 | Dönem | Yıllık amortisman miktarının hesaplaması | Defter değeri                  | Yıl sonunda net defter değeri |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| Yıl 1 | (11.000 – 1.000) × %35 = 3.500                | 11.000 - 3.500 = 7.500      | 11.000 – 1.000 – 3.500 = 6.500        |
+| Yıl 1 | (11.000 – 1.000) × %35 = 3.500                | 11.000 - 3.500 = 7.500      | 11.000 – 1.000 – 3.500 = 6.500        |
 | 2. yıl | 6.500 × %35 = 2.275                           | 7.500 - 2.275 = 5.225       | 6.500 - 2.275 = 4.225                 |
 | 3. yıl | 4.225 × %35 = 1.478,75                        | 5.225 - 1.478,75 = 3.746,25 | 4.225 - 1.478,75 = 2.746,25           |
 
 > [!NOTE] 
 > Tipik olarak, %175 azalan bakiye amortismanı yöntemi kullanılarak hesaplanan tutar sabit amortisman yöntemi kullanılarak hesaplanacak yöntemden daha az olduğunda, kalan ömür için sabit amortisman yöntemine bir dönüş olur.
-
 
 
 

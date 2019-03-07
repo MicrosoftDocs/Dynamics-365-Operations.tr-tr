@@ -1,13 +1,13 @@
 ---
-title: "Standart maliyet dönüştürme için önkoşullar"
-description: "Bu konuda, standart maliyet dönüştürme yapmadan önce gerçekleştirilecek görevler açıklanmaktadır."
+title: Standart maliyet dönüştürme için önkoşullar
+description: Bu konuda, standart maliyet dönüştürme yapmadan önce gerçekleştirilecek görevler açıklanmaktadır.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65844bd78363dc6638b16b3fd4ca163a3fde6a23
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351942"
 ---
-
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Standart maliyet dönüştürme için önkoşullar
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Standart bir maliyet dönüştürmesi yapmadan önce, şu adımları izleyin:
 
         Aktif maliyet dökümü, üretilen bir öğenin maliyetini etkinleştirmeniz halinde, sonucun maddenin maliyet kaydında maliyet grubu segmentinde saklanacağı anlamına gelir. **Maliyet dökümü** alanına hiç değer girmezseniz, standart maliyet maddeleri için maliyet grubu segmenti sürdürülmeyecektir. Yani, üretilen bir maddenin standart maliyeti maliyet grubu segmentasyonu olmadan tek bir tutar gibi hesaplanır ve sürdürülür ve üretilen bileşenlerin maliyet katkıları tek bir tutarda toplanır.
     -   Özetlenmiş veya maliyet grubu başına seçeneğini belirlemek için **Standarttan farklar** alanını kullanın. Maliyet grubu başına seçimi, satınalma fiyatı farklarını ve üretim farklarını maliyet grubuna göre tanımanıza olanak sağlar. Bu ayrıca dört tip üretim farkını (lot boyutu, miktar, fiyat ve değer değiştirme farkları) tanımanıza da olanak sağlar. Özetlenmiş seçimi, farkları maliyet grubuna göre belirleyemeyeceğiniz ve dört üretim farkı tipini belirleyemeyeceğiniz anlamına gelir. Yalnızca özetlenmiş bir üretim farkı görüntüleyebilirsiniz. Standarttan fark ilkesi, maliyet dökümü ilkesinden bağımsızdır. Yani, maliyet grubuna göre üretim farklarının yakalanmaya devam edilebilmesi için maliyet dökümü ilkesi olarak hiçbirini seçebilir ve maliyet grubu başına farklılıkları seçebilirsiniz.
-
 
 
 

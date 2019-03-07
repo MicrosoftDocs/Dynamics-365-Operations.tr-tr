@@ -1,13 +1,13 @@
 ---
-title: "Kalite yönetimine genel bakış"
-description: "Bu konuda, tedarik zincirinizde ürün kalitesini artırmak için Microsoft Dynamics 365 for Finance and Operations'daki kalite yönetimini nasıl kullanabileceğiniz açıklanmaktadır."
+title: Kalite yönetimine genel bakış
+description: Bu koun, tedarik zincirinizde ürün kalitesini artırmak için Microsoft Dynamics 365 for Finance and Operations'teki kalite yönetimini nasıl kullanabileceğiniz açıklar.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79b3127f726a08cc24c20145b5ad9969157a899c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338326"
 ---
-
 # <a name="quality-management-overview"></a>Kalite yönetimine genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, tedarik zincirinizde ürün kalitesini artırmak için Microsoft Dynamics 365 for Finance and Operations'daki kalite yönetimini nasıl kullanabileceğiniz açıklanmaktadır.
+Bu koun, tedarik zincirinizde ürün kalitesini artırmak için Microsoft Dynamics 365 for Finance and Operations'teki kalite yönetimini nasıl kullanabileceğiniz açıklar.
 
 Kalite Yönetimi, uyumsuz ürünler,, kendi başlangıç noktalarını dikkate almadan işleyecek döngü sürelerini yönetmenize yardımcı olabilir. Tanı türleri düzeltme raporlaması ile bağlantılı olduğundan, Microsoft Dynamics 365 for Finance and Operations sorunları düzeltmek ve oluşmalarını önlemek için görevleri zamanlayabilir.
 
@@ -362,4 +361,3 @@ Kalite emirlerinin otomatik olarak oluşturulmasını gerektiren iş işlemindek
 [Kalite yönetimi işlemleri](quality-management-processes.md)
 
 [Uygunsuzluk yönetiminin etkinleştirilmesi](enable-nonconformance-management.md)
-

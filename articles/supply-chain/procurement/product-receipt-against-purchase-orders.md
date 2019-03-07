@@ -1,13 +1,13 @@
 ---
-title: "Ürün girişi ve satınalma siparişleri karşılaştırması"
-description: "Bu konuda ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır."
+title: Ürün girişi ve satınalma siparişleri karşılaştırması
+description: Bu konuda ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
 author: FrankDahl
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
 ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356680"
 ---
-
 # <a name="product-receipt-against-purchase-orders"></a>Ürün girişi ve satınalma siparişleri karşılaştırması
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,6 @@ Bu sayfaya **Satınalma siparişi** sayfasındaki **Giriş** eylem grubu üzerin
 [Satınalma siparişi onayı ve doğrulaması](purchase-order-approval-confirmation.md)
 
 [Satıcı faturalarına genel bakış](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

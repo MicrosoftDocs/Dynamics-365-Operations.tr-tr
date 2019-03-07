@@ -1,13 +1,13 @@
 ---
-title: "Satıcı ödemesini tersine çevirme"
-description: "Bu makalede bir ödemenin terse çevrilmesi, silinmesi, geçersiz sayılması ve reddedilmesi arasındaki farklar açıklanmıştır. İlave olarak, bir satıcı çekinin ters çevrilmesi için iki yöntem açıklanmıştır."
+title: Satıcı ödemesini tersine çevirme
+description: Bu makalede bir ödemenin terse çevrilmesi, silinmesi, geçersiz sayılması ve reddedilmesi arasındaki farklar açıklanmıştır. İlave olarak, bir satıcı çekinin ters çevrilmesi için iki yöntem açıklanmıştır.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d58aac20f9ef54e4ee41464a30b7c8190ade26b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 019b765cd1e9fa00078018354f0d0792b97faba6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329632"
 ---
-
 # <a name="reverse-a-vendor-payment"></a>Satıcı ödemesini tersine çevirme
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Ters işlem uygulanan çek bir müşteri para iadesi için çıkarıldıysa, ayr
 
 -   Ödeme ters işlemi için deftere müşteri hesabına karşılık gelen bir hareket nakledilir ve orijinal ödeme ile ödemenin orijinal olarak kapatıldığı belge arasındaki kapanış işlemi tersine çevrilir (negatif ödeme oluşturulur).
 -   Ödeme ters işlemi orijinal ödemeye uygulanır. Orijinal müşteri ödemesine yönelik olarak **Müşteri hareketleri** sayfasındaki **Son kapatma fişi** ters çevrilen hareketin fiş numarasını gösterecek şekilde güncellenir.
-
 
 
 

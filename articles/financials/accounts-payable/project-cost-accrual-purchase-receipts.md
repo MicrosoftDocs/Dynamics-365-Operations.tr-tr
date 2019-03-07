@@ -1,13 +1,13 @@
 ---
-title: "Satınalma girişlerinde proje maliyet tahakkuku"
-description: "Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Finance and Operations'ta nasıl izlenebileceğini açıklar."
+title: Satınalma girişlerinde proje maliyet tahakkuku
+description: Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Finance and Operations'da nasıl izlenebileceğini açıklar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bc822652abbba68f094fe5b8a65f796165a92c4c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9a74b684e955376b9c3036954f4a6e6628c468f0
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340442"
 ---
-
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Satınalma girişlerinde proje maliyet tahakkuku
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Finance and Operations'ta nasıl izlenebileceğini açıklar. 
+Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Finance and Operations'da nasıl izlenebileceğini açıklar. 
 
 Bir proje için fatura genellikle mallar ve hizmetler teslim edildikten daha sonra gelir; bu durumun projenin temel performans göstergeleri (KPI'ler) üzerinde önemli bir etkisi olabilir. Bu hareketleri hem mali hem de proje raporlarından izleyebilmek önemlidir.
 
@@ -82,7 +81,6 @@ Taslak satıcı faturası oluşturma bekleyen proje hareketleri oluşturur.
 [![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
 Satıcı faturası gerçek satıcı faturası gelene kadar bekleme durumunda kalır.
-
 
 
 

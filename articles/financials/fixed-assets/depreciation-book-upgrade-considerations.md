@@ -1,13 +1,13 @@
 ---
-title: "Amortisman defteri yükseltme genel bakışı"
-description: "Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations (1611) ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır."
+title: Amortisman defteri yükseltme genel bakışı
+description: Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations'ta (1611) ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 805f6ab1cd1d0996e685278cc997f532213c76c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e95fa9dd15dfe5e6b26de61b5dbc1a9a6c0d768d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359325"
 ---
-
 # <a name="depreciation-book-upgrade-overview"></a>Amortisman defteri yükseltme genel bakışı
 
 [!include [banner](../includes/banner.md)]
 
-Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations (1611) ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır. 
+Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations'ta (1611) ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır. 
 
 Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni defter yapısına taşır. Değer modelleri oldukları gibi genel muhasebeye nakleden defterler olarak kalır. Amortisman defterleri **Genel muhasebeye naklet** seçeneği **Hayır** olarak ayarlanmış bir deftere taşınır. Amortisman defteri günlük adları deftere nakil katmanı **Yok** ile ayarlanmış bir genel muhasebe günlük adına taşınır. Amortisman defteri hareketleri, Sabit kıymet hareketlerine taşınacaktır. 
 
@@ -81,7 +80,6 @@ Sistem tarafından oluşturulan bir numara serisi yaklaşımı kullanırken (se�
 Kullanıcı tarafından tanımlanan var olan numara serisi yaklaşımı (2. seçenek) kullanılırken, veri yükseltme işlemi belirtilen kapsama sahip numara serisinin her bölüm ve şirket için amortisman defteri hareketlerinde var olup olmadığını denetler. Mevcut değilse, yükseltme fiş numaralarını, numara serisinde belirtildiği gibi numara serisi çerçevesini kullanarak satır satır tahsis edecektir. Numara serisi belirtilen kapsamla mevcut değilse, yükseltme varsayılan sistem tanımlı numara serisi yaklaşımını, fiş numaralarını tahsis etmek için kullanacaktır ve tahsisat sonunda belirtilen varsayılan parametrelere sahip yeni bir numara serisi oluşturacaktır.
 
 İki yaklaşımda da veri yükseltme komut dosyası eski amortisman defteri günlük adları için oluşturulan yeni genel muhasebe günlük adlarındaki **Fiş serisi** alanının numara serisini kullanır.
-
 
 
 

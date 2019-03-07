@@ -1,13 +1,13 @@
 ---
-title: "Mali raporlar oluştur"
-description: "Bu konu mali rapor oluşturma hakkında bilgi sağlar."
+title: Mali raporlar oluştur
+description: Bu konu mali rapor oluşturma hakkında bilgi sağlar.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340902"
 ---
-
 # <a name="generate-financial-reports"></a>Mali raporlar oluştur
 
 [!include [banner](../includes/banner.md)]
@@ -41,9 +40,9 @@ Rapor oluşturma için aşağıdaki seçenekler kullanılabilir:
 
 Bir rapor oluşturduğunuzda, Rapor tanımını sekmesinde belirlediğiniz seçenekleri kullanılır.
 
-## <a name="generate-a-financial-report"></a>Mali rapor oluşturma
+## <a name="generate-a-financial-report"></a>Bir mali rapor oluştur
 
-Microsoft Dynamics 365 for Finance and Operations ile mali rapor oluşturmak için **Genel muhasebe** \> **Sorgular ve raporlar** \> **Mali raporlar**'a gidin.
+Microsoft Dynamics 365 for Finance and Operations içinde bir mali rapor oluşturmak için **Genel muhasebe** \> **Sorgular ve raporlar** \> **Mali raporlar**'a gidin.
 
 - Oluşturmak için bir rapor seçip **Oluştur**'a tıklayın.
 - **Rapor tarihi** alanını doldurup **Tamam**'a tıklayın.
@@ -115,7 +114,7 @@ Eksik hesaplar en düşük ve en yüksek değerleri satır tanımını kullanıl
 > [!TIP]
 > Doğrulama amacıyla, bu işlem aylık raporları oluşturmanızdan önce ve yeni yap taşları oluşturduğunuzda çalıştırılmalıdır.
 
-Değer aralıklarına sahip raporlarda eksik hesap bulunması ihtimali daha düşüktür. Mümkün olduğunda, aralıkları Yapı bloğu içinde oluşturuldukları sırada yeni hesaplar eklemek için kullanın. Hiçbir rapor tanımı, @ANY şirketi olarak ayarlanmamışsa, belirli bir şirkete oturum açın ve bu şirket için eksik bir hesap analizi çalıştırın.
+Değer aralıklarına sahip raporlarda eksik hesap bulunması ihtimali daha düşüktür. Mümkün olduğunda, yeni hesapları oluşturulduklarında eklemek için yapı taşındaki aralıkları kullanın. Herhangi bir rapor tanımı @ANY şirket olarak ayarlandıysa belirli bir şirkette oturum açarak söz konusu şirket için bir eksik hesap analizi yürütebilirsiniz.
 
 > [!NOTE]
 > Yeni bir şirket eklenmişse, yeni şirketi varolan tüm raporlarda raporlama ağaçlarına eklemeniz gerekir veya şirket eksik hesap analizine dahil edilmez.
@@ -158,4 +157,3 @@ Eksik bir hesap analizini çalıştırdığınızda, aşağıdaki klavye kısayo
 [Mali raporlama](financial-reporting-intro.md)
 
 [Rapor Tasarımcısı arabirimi](report-designer-interface.md)
-

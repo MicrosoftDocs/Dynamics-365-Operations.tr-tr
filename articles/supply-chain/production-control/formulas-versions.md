@@ -1,32 +1,31 @@
 ---
-title: "Formüller ve formül sürümleri"
-description: "Bu konu, formül ve formül versiyonlarının hakkında bilgi sağlar. Malzemeleri, içerikleri ve işlem üretimindeki belirli bir işlemin sonucunu tanımlayan bir formül. Formüller işlem üretiminde ürünleri planlamak ve üretmek için kullanılır."
+title: Formüller ve formül sürümleri
+description: Bu konu, formül ve formül versiyonlarının hakkında bilgi sağlar. Malzemeleri, içerikleri ve işlem üretimindeki belirli bir işlemin sonucunu tanımlayan bir formül. Formüller işlem üretiminde ürünleri planlamak ve üretmek için kullanılır.
 author: cvocph
 manager: AnnBe
 ms.date: 09/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bbffc298ff5d2442092f8f0c987b7e79a7934a84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350125"
 ---
-
 # <a name="formulas-and-formula-versions"></a>Formüller ve formül sürümleri
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ Elektronik imza işlevini kullanarak birden çok düzeyde denetim ekleyebilirsin
 
 ## <a name="use-step-consumption"></a>Adım tüketimi kullan
 Adım tüketimi, bir içerik için **Formül satırı** sekmesinde miktar girme gereksinimini kaldırır. Bunun yerine, Adım tüketimi, bir **Başlangıç serisi** değeri ve **Miktar** değerine sahip olacak şekilde yapılandırılır. Toplu iş emri üzerindeki miktarı sağlayan Seri kaydı başına Adım tüketiminden gelen bilgi seçilir. Adım tüketimi, tüketim oranı toplu iş emri boyutuna göre doğrusal olmadığında faydalıdır ve gereksinimi yalnızca belirli bir miktar eşiği aşıldığında artırır. Bu özelliği yeni bir formül için etkinleştirmek için **Tüketim hesaplaması** grubu altında, uygulanabilir içerik için formül ayarını **Standart**'tan, **Adım**'a değiştirin. Bu tüketim yöntemini **Formül satırı** sayfasının **Kurulum** sekmesinde belirtirsiniz.
-
