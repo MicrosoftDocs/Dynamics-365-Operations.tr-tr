@@ -1,13 +1,13 @@
 ---
-title: "Kullanıcı deneyimini kişiselleştirme"
-description: "Bu konuda Microsoft Dynamics 365 for Finance and Operations'ı nasıl kişiselleştirebileceğiniz açıklanmaktadır."
+title: Kullanıcı deneyimini kişiselleştirme
+description: Bu konu Microsoft Dynamics 365 for Finance and Operations nasıl özelleştirilebileceğinizi açıklar.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
-ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363488"
 ---
-
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda Microsoft Dynamics 365 for Finance and Operations'ı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
+Bu konu Microsoft Dynamics 365 for Finance and Operations nasıl özelleştirilebileceğinizi açıklar.
 
 Finance and Operations'ta üç temel kişiselleştirme sınıfı vardır.
 
@@ -171,4 +170,3 @@ Bir sayfadaki stok boyutlarının ayarlamasını kişiselleştirirseniz, **Gör�
 **Boyutların görünümü** ayarları tüm sayfalar için geçerlidir ve stok boyutu alanlarının ayrı sayfalardaki kişiselleştirme ayarlarını geçersiz kılar.
 
 Bunun sonucunda, önceki örnekteki Toplu iş numarası stok boyutu için sütunun istemiyorsanız, o boyutu, tablonun **Boyutların görünümü** seçeneğinin bir parçası olarak temizlemeniz gerekir. Sonuç olarak, bu değişiklik yalnızca belirli bir sayfaya değil, tüm sayfalara uygulanır.
-

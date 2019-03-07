@@ -1,13 +1,13 @@
 ---
-title: "Satış iadeleri"
-description: "Bu konu için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir."
+title: Satış iadeleri
+description: Bu konu için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362706"
 ---
-
 # <a name="sales-returns"></a>Satış iadeleri
 
 [!include [banner](../includes/banner.md)]
@@ -133,7 +132,7 @@ Masraflar, satıra bir iade nedeni kodu veya değerlendirme kodu atandıktan son
 <ul>
 <li>Taraflar arasında yeterli güven vardır.</li>
 <li>Kusurlu malın iade maliyeti aşırıdır.</li>
-<li>Bu malların stoka iadesine izin verilemez. Başka koşullar nedeniyle fiziksel bir iade gerekli değildir.</li>
+<li>Bu malların stoka iadesine izin verilemiyordur. Başka koşullar nedeniyle fiziksel bir iade gerekli değildir.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -329,7 +328,6 @@ Bu örnekte iade emri satırı **Satış siparişi bul** işlevi kullanılarak o
 ![İade emri satırı Satış siparişi bul işlevi kullanılarak oluşturuluyor ](./media/SalesReturn11.png)  
 
 >[Not!] **İskonto** ve **İade maliyet fiyatı** doğru biçimde ayarlanmıştır. Bu nedenle, müşteri faturasının tam ters kaydı gerçekleşir.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Ürün çeşidi yönetimi"
-description: "Bu konu Microsoft Dynamics 365 for Retail'de ürün çeşidi yönetiminin temel kavramlarını açıklar ve projeniz için uygulamayla ilgili önemli notlar sağlar."
+title: Ürün çeşidi yönetimi
+description: Bu konu Microsoft Dynamics 365 for Retail'da ürün çeşidi yönetiminin temel kavramlarını açıklar ve projeniz için uygulamayla ilgili önemli notlar sağlar.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
+ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365052"
 ---
-
 # <a name="assortment-management"></a>Ürün çeşidi yönetimi
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel bakış
 
-Microsoft Dynamics 365 for Retail kanallar arasında ürün kullanılabilirliğini yönetmenizi sağlayan *ürün çeşitleri* sunar. Ürün çeşitleri, belirli mağazalarda ve belirli bir dönemde hangi ürünlerin kullanılabilir olduğunu belirler.
+Microsoft Dynamics 365 for Retail, kanallar arasında ürün kullanılabilirliğini yönetmenizi sağlayan *ürün çeşitleri* sunar. Ürün çeşitleri, belirli mağazalarda ve belirli bir dönemde hangi ürünlerin kullanılabilir olduğunu belirler.
 
 Retail'de, ürün çeşidi bir veya daha fazla kanalın (veya kuruluş hiyerarşileri kullanıldığında kanal grupları) bir veya daha fazla ürünle (kategori hiyerarşileri kullanıldığında ürün grupları) eşlenmesidir.
 
@@ -108,4 +107,3 @@ Perakende uygulamanız için ürün çeşitlerini planlayıp yönetirken aşağ�
 - **Ürün çeşitleri dışındaki satışlar ve iadeler** – Bu özellik perakendecilerin kendi ürün çeşitlerini mağaza için temel ürün yelpazesine ait ürünler için ürün sayısını vererek etkin biçimde yönetmesine yardımcı olur. Bu özellik ayrıca perakendecilerin bir ürünün yanlışlıkla bir ürün çeşidinde eksik kalması ya da bir ürünün ürün çeşidine ilişkin geçerlilik tarihleri dışında iade edilmesi durumunda yardımcı olur.
 
 Ürün verileri kanal veritabanında yoksa, POS gerekli bilgileri almak için merkeze gerçek zamanlı bir ağrı yapar ve böylece ürün satılabilir, iade edilebilir veya müşteri siparişine konulabilir. Bu şekilde alınan ürün bilgileri yalnızca bu hareket kapsamı süresince kullanılabilir. Ürün ürün çeşidi tanımına eklenmez. Bu nedenle, daha sonra gerektiğinde gerçek zamanlı çağrılar yapılır.
-

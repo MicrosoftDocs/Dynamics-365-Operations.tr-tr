@@ -1,13 +1,13 @@
 ---
-title: "PunchOut eProcurement için harici katalog ayarlama"
-description: "Bu konu, bir satıcıdan teklif bilgileri toplamak ve bunu talebe eklemek için harici katalog veya punchout (çıkış) kataloğu kullanımını açıklar."
+title: PunchOut eProcurement için harici katalog ayarlama
+description: Bu konu, bir satıcıdan teklif bilgileri toplamak ve bunu talebe eklemek için harici katalog veya punchout (çıkış) kataloğu kullanımını açıklar.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "368180"
 ---
-
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>PunchOut eProcurement için harici katalog ayarlama
 
 [!include [banner](../includes/banner.md)]
@@ -45,26 +44,27 @@ Harici katalog satınalma talebini giren çalışanın ürünleri seçmek için 
 1. Bir tedarik kategori hiyerarşisi ayarlayın. Daha fazla bilgi için bkz. [Tedarik kategorisi hiyerarşileri için ilkeleri ayarlama](tasks/set-up-policies-procurement-category-hierarchies.md).
 2. Satıcıyı Finance and Operations'a kaydedin. Harici satıcı kataloğuna erişmek için yapılandırmalarını ayarlamadan önce Microsoft Dynamics 365'te satıcıyı ve satıcı ilgili kişisini ayarlamanız gerekir. Harici kataloğun satıcısı seçilen tedarik kategorisine de eklenmelidir. Satıcıları Microsoft Dynamics 365'te kaydetme hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md). Satıcıları bir tedarik kategorisine atama konusunda bilgi için bkz. [Belirli tedarik kategorileri için satıcıları onaylama](tasks/approve-vendors-specific-procurement-categories.md).
 3. Satıcının kullandığı para birimi ve ölçü birimlerinin ayarlandığından emin olun. Bir ölçü birimi oluşturma hakkında bilgi için bkz. [Ölçü birimleri yönetme](../pim/tasks/manage-unit-measure.md).
-4. Harici satıcı kataloğunu satıcınızın harici katalog sitesi gereksinimlerini kullanarak yapılandırın. Bu görev hakkında daha fazla bilgi için bkz. [Harici satıcı kataloğu yapılandırma](#configure-the-external-vendor-catalog).
-5. Ayarlarının geçerli olduğunu ve satıcının harici kataloğuna erişebildiğinizi doğrulamak için satıcının harici katalog yapılandırmalarını test edin. Tanımladığınız talep kurulumu iletisini doğrulamak için **Ayarları doğrula** eylemini kullanın. Bu ileti satıcının harici katalog sitesinin bir tarayıcı penceresinde açılmasına neden olmalıdır. Doğrulama sırasında satıcıdan ürün veya hizmet sipariş edemezsiniz. Madde veya hizmet sipariş etmek için satıcının kataloğuna bir satınalma talebinden erişmeniz gerekir.
-6. Harici kataloğu **Harici kataloglar** sayfasındaki **Kataloğu etkinleştir** düğmesini kullanarak etkinleştirin. Çalışanların kullanabilmesi için harici kataloğun etkinleştirilmesi gerekir. Herhangi bir zamanda harici kataloğu devre dışı bırakabilirsiniz.
+4. Harici satıcı kataloğunu satıcınızın harici katalog sitesi gereksinimlerini kullanarak yapılandırın. Bu görev hakkında daha fazla bilgi için bkz. [Harici satıcı kataloğu yapılandırma](#configure-the-external-vendor-catalog).
+5. Ayarlarının geçerli olduğunu ve satıcının harici kataloğuna erişebildiğinizi doğrulamak için satıcının harici katalog yapılandırmalarını test edin. Tanımladığınız talep kurulumu iletisini doğrulamak için **Ayarları doğrula** eylemini kullanın. Bu ileti satıcının harici katalog sitesinin bir tarayıcı penceresinde açılmasına neden olmalıdır. Doğrulama sırasında satıcıdan ürün veya hizmet sipariş edemezsiniz. Madde veya hizmet sipariş etmek için satıcının kataloğuna bir satınalma talebinden erişmeniz gerekir.
+6. Harici kataloğu **Harici kataloglar** sayfasındaki **Kataloğu etkinleştir** düğmesini kullanarak etkinleştirin. Çalışanların kullanabilmesi için harici kataloğun etkinleştirilmesi gerekir. Herhangi bir zamanda harici kataloğu devre dışı bırakabilirsiniz.
 
 
 ## <a name="configure-the-external-vendor-catalog"></a>Harici satıcı kataloğunu yapılandırma
 
 Bu bölüm önceki bölümdeki görev 4 hakkında daha fazla ayrıntı içerir.
 
-1. Satıcının harici kataloğu için bir ad ve açıklama girin. Girdiğiniz ad, bir talep oluşturan çalışanlara gösterilen harici kataloğu temsil eden alışveriş sepetinde görünecektir. Çalışanlar satıcının harici katalog sitesindeki kataloğu açmak için sepete tıklayabilirler.
-2. **Harici katalog görüntüsü** eylemini kullanarak bir resim ekleyin. Resim, bir talep oluşturan çalışanlara gösterilen harici kataloğu temsil eden alışveriş sepetinde görünecektir. Resmin genişliğinin ve yüksekliğinin eşit olması gerektiğini unutmayın. Aksi halde resim düzgün görüntülenmez.
-3. Satıcının harici katalog web sitesinin çalışanın talebi oluşturduğu tarayıcı penceresinde mi görüntüleneceğini yoksa yeni bir pencerede mi açılacağını belirleyin.
-4. Katalog için satıcıyı seçin. **Tüzel kişilikler** listesinde, satıcının ayarlandığı her tüzel kişilik için bir satır bulunur. Kullanıcıların nazı tüzel kişiliklerde ürünleri doğrudan satıcının kataloğundan talep etmelerine olanak tanımak ancak bazı tüzel kişiliklerde buna izin vermemek üzere, kataloğun kullanılabilir veya kullanılamaz olmasını istediğiniz her tüzel kişilik için **Erişimi engelle** veya **Erişime izin ver** düğmesini kullanılabilirsiniz.
+1. Satıcının harici kataloğu için bir ad ve açıklama girin. Girdiğiniz ad, bir talep oluşturan çalışanlara gösterilen harici kataloğu temsil eden alışveriş sepetinde görünecektir. Çalışanlar satıcının harici katalog sitesindeki kataloğu açmak için sepete tıklayabilirler.
+2.  **Harici katalog görüntüsü** eylemini kullanarak bir resim ekleyin. Resim, bir talep oluşturan çalışanlara gösterilen harici kataloğu temsil eden alışveriş sepetinde görünecektir. Resmin genişliğinin ve yüksekliğinin eşit olması gerektiğini unutmayın. Aksi halde resim düzgün görüntülenmez.
+3. Satıcının harici katalog web sitesinin çalışanın talebi oluşturduğu tarayıcı penceresinde mi görüntüleneceğini yoksa yeni bir pencerede mi açılacağını belirleyin.
+4. Katalog için satıcıyı seçin. **Tüzel kişilikler** listesinde, satıcının ayarlandığı her tüzel kişilik için bir satır bulunur. Kullanıcıların nazı tüzel kişiliklerde ürünleri doğrudan satıcının kataloğundan talep etmelerine olanak tanımak ancak bazı tüzel kişiliklerde buna izin vermemek üzere, kataloğun kullanılabilir veya kullanılamaz olmasını istediğiniz her tüzel kişilik için **Erişimi engelle** veya **Erişime izin ver** düğmesini kullanılabilirsiniz.
 5. **Varsayılan süre sonu (Gün)** alanında, harici katalogdan alınan bir teklifin geçerli olacağı ve harici satıcıdan satınalmak için kullanılabileceği gün sayısını girin. Bir teklif oluşturulduğunda ve satıcının harici katalog sitesinden alındığında, teklif geçerli sistem tarihi itibarıyla geçerli olur bu alana girdiğiniz gün sayısı boyunca geçerli kalır.
-6. Tedarik kategorilerini harici katalogla eşleştirmek için **Ekle** düğmesini tıklayın. Ardından Kategori adı listesinden bir kategori seçin. Kategori listesi, satıcının satıcı için ayarlanan tüm tüzel kişiliklerde eşlendiği bir tedarik kategorileri üst kümesidir.
+6. Tedarik kategorilerini harici katalogla eşleştirmek için **Ekle** düğmesini tıklayın. Ardından Kategori adı listesinden bir kategori seçin. Kategori listesi, satıcının satıcı için ayarlanan tüm tüzel kişiliklerde eşlendiği bir tedarik kategorileri üst kümesidir.
 [!NOTE]
-Tedarik ilkeleri, satın alan bir tüzel kişilik veya alan işletme birimi için kategorilere erişim izni vermek veya erişimi engellemek için kullanılır. Harici bir kataloğa çıkış, erişime katalogla eşlenen en az bir tedarik kategorisi için izin verilmiş olmasını gerektirir.
+Tedarik ilkeleri, satın alan bir tüzel kişilik veya alan işletme birimi için kategorilere erişim izni vermek veya erişimi engellemek için kullanılır. Harici bir kataloğa çıkış, erişime katalogla eşlenen en az bir tedarik kategorisi için izin verilmiş olmasını gerektirir.
 7. Satıcıya gönderilecek cXML kurulum talebi iletisini ayarlayın. Otomatik olarak oluşturulan ileti biçimi, bir oturumu başlatmak için gerekli olan minimum şablondur. Etiketler için değerleri girin.
 
-İstediğiniz zaman, sistem tarafından oluşturulan ileti şablonunu **İleti biçimi geri yükle**'ye tıklayarak yeniden yükleyebilirsiniz. İleti biçimini geri yüklerseniz, geçerli iletinin otomatik olarak oluşturulan ve etiketleri boş olan mesaj biçimiyle değiştirileceğini unutmayın.
+İstediğiniz zaman, sistem tarafından oluşturulan ileti şablonunu **İleti biçimi geri yükle**  üzerine tıklayarak yeniden yükleyebilirsiniz.
+İleti biçimini geri yüklerseniz, geçerli iletinin otomatik olarak oluşturulan ve etiketleri boş olan mesaj biçimiyle değiştirileceğini unutmayın.
 
 ### <a name="cxml-setup-message"></a>cXML kurulumu iletisi
 Aşağıda şablonda bulunan etiketlerin açıklamasını bulabilirsiniz:
@@ -83,12 +83,12 @@ Aşağıda şablonda bulunan etiketlerin açıklamasını bulabilirsiniz:
 
 ### <a name="extrinsic-elements"></a>İkincil öğeler
 
-İkincil öğe, çıkış yapan kullanıcının adına dayanan kullanıcı adı gibi bir ek bilgidir. İkincil öğe, çıkış yapma gerçekleştiğinde ayarlanır ve talep kurulum iletisinde gönderilebilir.
-Satıcınızın kurulum isteğinde bir ikincil öğe almak gibi bir gereksinimi olabilir. Bu durumda, **Harici katalog** sayfasının **İleti biçimi** bölümündeki ikincil öğeler listesine ikincil öğe eklemeniz gerekir. İkincil öğe için satıcının tanıyabileceği ve bir değerle eşleyebileceği için bir ad belirtin. Değerler için seçenekler şunlardır: Kullanıcı adı, Kullanıcı e-postası veya Rasgele değer.
+İkincil öğe, çıkış yapan kullanıcının adına dayanan kullanıcı adı gibi bir ek bilgidir. İkincil öğe, çıkış yapma gerçekleştiğinde ayarlanır ve talep kurulum iletisinde gönderilebilir.
+Satıcınızın kurulum isteğinde bir ikincil öğe almak gibi bir gereksinimi olabilir. Bu durumda, **Harici katalog** sayfasının **İleti biçimi** bölümündeki ikincil öğeler listesine ikincil öğe eklemeniz gerekir. İkincil öğe için satıcının tanıyabileceği ve bir değerle eşleyebileceği için bir ad belirtin. Değerler için seçenekler şunlardır: Kullanıcı adı, Kullanıcı e-postası veya Rasgele değer.
 cXML protokolü hakkında daha fazla bilgi için bkz. http://cxml.org/.
 
 ## <a name="post-back-message"></a>Geri gönderme iletisi
-Geri gönderme iletisi, kullanıcı harici siteden çıkış yapıp Finance and Operations'a döndüğünde satıcı tarafından gönderilen iletidir. Geri gönderme iletileri yapılandırılamaz. İletiler cXML protokolü tanımını temel alır. Bir talep satırında alınan geri gönderme iletisinin parçası olabilecek bilgiler aşağıda verilmektedir:
+Geri gönderme iletisi, kullanıcı harici siteden çıkış yapıp Finance and Operations'a döndüğünde satıcı tarafından gönderilen iletidir. Geri gönderme iletileri yapılandırılamaz. İletiler cXML protokolü tanımını temel alır. Bir talep satırında alınan geri gönderme iletisinin parçası olabilecek bilgiler aşağıda verilmektedir:
 
 | İleti satıcıdan alındı | Finance and Operations'da istek satırına kopyalandı|
 |------------------------------|----------------------------------------------------------|
@@ -106,5 +106,4 @@ Geri gönderme iletisi, kullanıcı harici siteden çıkış yapıp Finance and 
 Harici bir kataloğu sayfadaki Silme eylemiyle silin.
 
 Harici satıcı kataloğundaki bir ürünün istenmiş olması durumunda, harici satıcı kataloğu silinemez. Bunun yerine, harici satıcı kataloğu durumu etkin değil olarak ayarlanır. Harici satıcı kataloğu sitesine erişimi kaldırmak istiyor ancak harici kataloğu silmek istemiyorsanız, harici katalog durumunu etkin değil olarak değiştirin.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Sabit kıymet hareket seçenekleri"
-description: "Bu makalede, sabit kıymet hareketleri oluşturmak için kullanılabilecek çeşitli yöntemler açıklanmaktadır."
+title: Sabit kıymet hareketi seçenekleri
+description: Bu konu, sabit kıymet hareketleri oluşturmak için kullanılabilecek çeşitli yöntemler açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18352ad921c2e2d110a7535f979272685105662f
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377194"
 ---
-
-# <a name="fixed-asset-transaction-options"></a>Sabit kıymet hareket seçenekleri
+# <a name="fixed-asset-transaction-options"></a>Sabit kıymet hareketi seçenekleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, sabit kıymet hareketleri oluşturmak için kullanılabilecek çeşitli yöntemler açıklanmaktadır.
+Bu konu, sabit kıymet hareketleri oluşturmak için kullanılabilecek çeşitli yöntemler açıklanmaktadır.
 
 Sabit kıymetleri Borç hesapları, Alacak hesapları, Tedarik ve kaynak atama ve Genel muhasebeye bağlanacak şekilde ayarlayabilirsiniz. Ayrıca, bu maddeleri dahili olarak kullanmak üzere Stok yönetimindeki maddeleri Sabit kıymetlere de aktarabilirsiniz.
 
@@ -66,9 +65,6 @@ Tüm sabit kıymet hareket türleri Genel günlük sayfasına nakledilebilir. Ay
 | ** **                               | Alacak hesapları      | Dekont / Serbest metin faturası                         |
 
 
+Sabit kıymetlerin amortisman dönemleri kalan değerleri, bir amortisman hareketi türü günlük satırı, el ile oluşturulur ve bir veri varlığı üzerinden içeri aktarılır. Bu değer, amortisman teklif işlemi, günlük satırı oluşturmak için kullanıldığında güncelleştirilir.
 
 Daha fazla bilgi için bkz: [Sabit kıymet tümleştirmesi](fixed-asset-integration.md).
-
-
-
-

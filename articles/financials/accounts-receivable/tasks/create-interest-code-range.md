@@ -1,13 +1,13 @@
---- 
-title: "Aralığa sahip faiz kodu oluşturma"
-description: "Faiz kodları değer aralığına göre farklı faiz tutarlarını hesaplayacak şekilde ayarlanabilir."
+---
+title: Aralığa sahip faiz kodu oluşturma
+description: Faiz kodları değer aralığına göre farklı faiz tutarlarını hesaplayacak şekilde ayarlanabilir.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2d76ae320ee43a473b64afe311876cc94b953b20
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05ca41dd5d660e9f0ef72ee5bd49d800645081a5
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367651"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Aralığa sahip faiz kodu oluşturma
 
@@ -51,5 +51,4 @@ Faiz kodları değer aralığına göre farklı faiz tutarlarını hesaplayacak 
 20. Sonraki başlangıç değeri olarak, yeni faiz tutarının hesaplanacağı sonraki ay için 7 değerini girin.
 21. Faizin 7. ay içinde hesaplanmaya başlayacağı aylık faiz yüzdesini girin. Bu örnekte, değer 2,5'dır.
 22. Ayarları tamamlamak için Kapat'ı tıklatın.
-
 

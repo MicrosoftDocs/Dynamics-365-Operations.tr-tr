@@ -1,13 +1,13 @@
---- 
-title: "ER çıktısında Belge Yönetimi dosyalarını kullanmak için biçimler oluşturma"
-description: "Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, ER çıktısında Belge Yönetimi belgelerini kullanmak amacıyla bir Elektronik raporlama biçimini nasıl yapılandırabileceğini açıklar."
+---
+title: ER çıktısında Belge Yönetimi dosyalarını kullanmak için biçimler oluşturma
+description: Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, ER çıktısında Belge Yönetimi belgelerini kullanmak amacıyla bir Elektronik raporlama biçimini nasıl yapılandırabileceğini açıklar.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1815a0004eee6734b3c7d2c2f9e75ce5fe16af1c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362959"
 ---
-
 # <a name="create-formats-to-use-document-management-files-in-er-output"></a>ER çıktısında Belge Yönetimi dosyalarını kullanmak için biçimler oluşturma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -120,5 +119,4 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 22. Bağla'ya tıklayın.
 23. Kaydet'e tıklayın.
 24. Sayfayı kapatın.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Satış vergisi ödemeleri ve yuvarlama kuralları"
-description: "Bu makalede, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır."
+title: Satış vergisi ödemeleri ve yuvarlama kuralları
+description: Bu makalede, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f03336c834e74cd12d039c7b9692874843811746
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 13470282efc6b9135e86355cf8071b841aad3071
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367858"
 ---
-
 # <a name="sales-tax-payments-and-rounding-rules"></a>Satış vergisi ödemeleri ve yuvarlama kuralları
 
 [!include [banner](../includes/banner.md)]
@@ -68,6 +67,5 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 - [Satış vergisi ödemesi oluşturma](tasks/create-sales-tax-payment.md)
 - [Belgelerde satış hareketleri oluşturma](tasks/create-sales-tax-transactions-documents.md)
 - [Deftere nakledilen satış vergisi hareketlerini görüntüleme](tasks/view-posted-sales-tax-transactions.md)
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Kalanı kapat"
-description: "Ayırma etkinliğinden kalan tutarı, bu tutarı bir genel muhasebe hesabına uygulayarak kapatabilirsiniz."
+title: Kalanı kapat
+description: Ayırma etkinliğinden kalan tutarı, bu tutarı bir genel muhasebe hesabına uygulayarak kapatabilirsiniz.
 author: mikefalkner
 manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367214"
 ---
-
 # <a name="settle-remainder"></a>Kalanı kapat
 
 [!include [banner](../includes/banner.md)]
@@ -71,4 +70,3 @@ Kalanı kapatmak için aşağıdaki adımları uygulayın:
 7)  Kalan kapatma ile bir ödeme günlüğü oluşturmayı da seçebilir veya günlük olmadan da deftere nakledebilirsiniz. Bir ödeme günlüğü oluşturmak için **Günlük içinde düzenle** için **Evet**'i seçin. Oluşturduğunuz ödeme günlüğünü düzenleyebileceksiniz.
 8)  **Kalanı kapat**'ı tıklatın. Bir günlük oluşturmak isterseniz, düğme **Günlük oluşturma** olarak değişecektir. Bunun yerine **Günlük oluştur**'u tıklatın.
 9)  Bir ödeme günlüğü oluşturduysanız, günlük sayfası **Kalanı kapat**'ı tıkladıktan sonra açılır. Bir günlük satırı, kalanı kapat tutarı ile günlüğe tutar olarak ve kalanı kapat hesabı mahsup hesap olarak eklenir. Kapatma tutarını başka bir müşteri veya satıcıya taşımak için bir müşteri veya satıcı eklediyseniz ek bir satır günlüğe kapatma tutarını bu müşteri veya satıcıya taşımak için eklenir.
-

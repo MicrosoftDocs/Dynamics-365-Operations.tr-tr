@@ -1,32 +1,30 @@
 ---
-title: "Müşteri hizmetleriyle çalışma"
-description: "Müşteri servisi profesyonel, servis tabanlı şirketleri ve üretim servis organizasyonlarını desteklemektedir."
+title: Müşteri hizmetleriyle çalışma
+description: Müşteri servisi profesyonel, servis tabanlı şirketleri ve üretim servis organizasyonlarını desteklemektedir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable, SMADispatchBoard
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f51b749cc9527cb3e86352b0373babd6c524dbe7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f9713dba63be5ff7969a513d96575f79ebc63986
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364707"
 ---
-
-
 # <a name="work-with-customer-service"></a>Müşteri hizmetleriyle çalışma 
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +45,6 @@ Müşteri hizmetleri aşağıdaki işlevleri içerir:
   - Farklılaştırılmış bir müşteri tabanını destekleyen servis düzeyi sözleşmeleri
 
 Bu bölümdeki konular, Müşteri hizmetleri iş süreci ve her iş süreci bileşenine genel bakış sağlar. Ayrıca, her iş süreci bileşeniyle ilişkili formları listeler ve her iş süreci bileşeniyle ilişkili görevleri ele alır.
-
 
 
 

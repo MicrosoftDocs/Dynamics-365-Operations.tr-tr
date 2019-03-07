@@ -1,13 +1,13 @@
 ---
-title: "Müşteri faturası oluşturma"
-description: "**Satış siparişi için müşteri faturası** kuruluşun bir müşteriye verdiği, satışla ilişkili bir faturadır."
+title: Müşteri faturası oluşturma
+description: '**Satış siparişi için müşteri faturası** kuruluşun bir müşteriye verdiği, satışla ilişkili bir faturadır.'
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
 ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365282"
 ---
-
 # <a name="create-a-customer-invoice"></a>Müşteri faturası oluşturma
 
 [!include [banner](../includes/banner.md)]
@@ -91,13 +90,13 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 <ul>
 <li><strong>Şimdi teslim et</strong>: <strong>Şimdi teslim et</strong> alanına girilen tüm miktarları seçin. Bu seçeneği kısmi bir siparişi onaylamak veya teslim etmek için kullanın.</li>
 <li><strong>Çekilen</strong>: Çekilen tüm miktarları seçin.</li>
-<li><strong>Tümü</strong>: Geçerli belge türü ile henüz güncelleştirilmeyen satış siparişlerindeki tüm miktarları seçmek için kullanılır.</li>
+<li><strong>Tümü</strong> – Geçerli belge türü ile henüz güncelleştirilmeyen satış siparişlerindeki tüm miktarları seçmek için kullanılır.</li>
 <li><strong>Sevk irsaliyesi</strong>: Sevk irsaliyesiyle güncelleştirilen tüm miktarları seçin.</li>
-<li><strong>Çekilen miktar ve stoklanmayan ürünler</strong>: Çekilen tüm miktarları ve stoklanmamış tüm ürün miktarlarını seçin.</li>
+<li><strong>Çekilen miktar ve stoklanmayan ürünler</strong> – Çekilen tüm miktarları ve stoklanmamış tüm ürün miktarlarını seçin.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Deftere nakil</td>
+<td>Deftere nakletme</td>
 <td><ul>
 <li>Satış emrini günlüğe girmek için bu seçeneği belirleyin.</li>
 <li>Proforma satış emri yazdırmak için bu seçeneği kaldırın. <strong>Not:</strong> Ödeme planı için anlaşma yaptıysanız, ödeme planı proforma satış emrinde gösterilmez. Ödeme planları yalnızca fiili satış emirlerinde gösterilir.</li>
@@ -154,7 +153,7 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 <td>Özet güncelleştirme kapsamı</td>
 <td>Birden fazla satış siparişinin nasıl özetlenmesi gerektiğini seçin:
 <ul>
-<li><strong>Hiçbiri</strong>: Satış siparişlerini özetlemez. Örneğin, her satış siparişi için ayrı bir fatura oluşturulur.</li>
+<li><strong>Hiçbiri</strong> - Satış siparişlerini özetleme. Örneğin, her satış siparişi için ayrı bir fatura oluşturulur.</li>
 <li><strong>Fatura hesabı</strong>: Seçilen tüm siparişleri <strong>Özet güncelleştirme parametreleri</strong> sayfasında ayarlanmış olan ölçüte göre özetleyin.</li>
 <li><strong>Sipariş</strong>: Seçilen aralıktaki siparişlerin tek bir sipariş olarak özetler. Siparişler, <strong>Özet güncelleştirme parametreleri</strong> sayfasında ayarlanan ölçütlere göre özetlenir. Bu seçenek işaretlerseniz, <strong>Satış siparişi</strong> alanında bir değer işaretlemeniz gerekir.</li>
 <li><strong>Otomatik özet</strong>: Eğer özet güncelleştirmeleri <strong>Özet güncelleştirme</strong> sayfasında belirtildiyse, <strong>Özet güncelleştirme parametreleri</strong> sayfasında belirlenen kriterlere dayanarak tüm siparişleri özetleyin. Eğer Özet güncelleştirmeleri belirlemezseniz, sipariş ayrı olarak deftere nakledilir.</li>
@@ -163,7 +162,6 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 </tr>
 </tbody>
 </table>
-
 
 
 

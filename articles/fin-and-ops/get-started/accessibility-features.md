@@ -1,33 +1,32 @@
 ---
-title: "Erişilebilirlik özellikleri"
-description: "Bu konu, çeşitli engelleri bulunan kullanıcıların Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ve Dynamics 365 for Talent'ı kullanmalarına yardımcı olmak üzere tasarlanan işlevi açıklar."
+title: Erişilebilirlik özellikleri
+description: Bu konu, çeşitli engelleri bulunan kullanıcıların Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ve Dynamics 365 for Talent kullanmalarına yardımcı olacak işlevleri açıklar.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363419"
 ---
-
 # <a name="accessibility-features"></a>Erişilebilirlik özellikleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, çeşitli engelleri bulunan kullanıcıların Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ve Dynamics 365 for Talent'ı kullanmalarına yardımcı olmak üzere tasarlanan işlevi açıklar. Örneğin, Microsoft Windows Ekran Okuyucusu gibi yardımcı görme teknolojileri kullanan kişilere yönelik özellikler vardır.
+Bu konu, çeşitli engelleri bulunan kullanıcıların Dynamics 365 for Finance and Operations, Dynamics 365 for Retail ve Dynamics 365 for Talent kullanmalarına yardımcı olacak işlevleri açıklar. Örneğin, Microsoft Windows Ekran Okuyucusu gibi yardımcı görme teknolojileri kullanan kişilere yönelik özellikler vardır.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Ekran Okuyucusu ve yalnızca klavye erişimi
 
@@ -97,4 +96,3 @@ Form modelleri hakkında daha fazla bilgi için bkz. [Form stilleri ve modelleri
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Geliştiricilere ve müşterilere yardımcı olmak için kılavuz özelleştirmelerinde erişilebilir düşünceyi içerir.
 
 Microsoft'un erişilebilirlik sağlama konusundaki en iyi uygulamaları hakkında daha fazla bilgi edinmek için bkz. [Formlar, ürünler ve denetimlerde erişilebilirlik](../../dev-itpro/user-interface/enable-accessibility.md).
-

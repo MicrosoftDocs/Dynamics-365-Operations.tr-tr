@@ -1,13 +1,13 @@
 ---
-title: "Mali rapor bileşenleri"
-description: "Bu makalede rapor tanımlarının bileşenlerinin veya yapı taşlarının finansal raporlamada nasıl kullanıldığı açıklanmaktadır. Bu yapı taşları satır tanımlarını, sütun tanımlarını ve raporlama ağacı tanımlarını içerir. Bu makalede yapı taşlarının nasıl düzenleneceği ve kilitleneceği ve yapı taşı grupları ile nasıl çalışılacağı açıklanmaktadır."
+title: Mali rapor bileşenleri
+description: Bu makalede rapor tanımlarının bileşenlerinin veya yapı taşlarının finansal raporlamada nasıl kullanıldığı açıklanmaktadır. Bu yapı taşları satır tanımlarını, sütun tanımlarını ve raporlama ağacı tanımlarını içerir. Bu makalede yapı taşlarının nasıl düzenleneceği ve kilitleneceği ve yapı taşı grupları ile nasıl çalışılacağı açıklanmaktadır.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0829c9eb54a8a5ca1f78bfe85de4779e541b945a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "368157"
 ---
-
 # <a name="financial-report-components"></a>Mali rapor bileşenleri
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,7 @@ Rapor Tasarımcısı'nda yapı taşlarınızı düzenlemek için klasörleri kul
 3. Yeni klasör göründüğünde, yeni klasörün adını girin ve ardından Enter'a basın.
 
 ## <a name="lock-a-building-block"></a>Bir yapı taşını kilitleme
-Kilitlemek için parola oluşturarak yapı taşını korumaya yardımcı olabilirsiniz. Bu şekilde tüm sistemi güvenlik altına almadan bir rapor bileşenine bir güvenlik düzeyi ekleyebilirsiniz. Parola ay sonu raporlama işleminiz açısından önemli olan yapı taşı bilgilerini korumaya yardımcı olabilir. Herhangi bir roldeki bir kullanıcı bir yapı taşını kilitleyebilir. Ancak, diğer kullanıcılar kilitli bir bileşene yalnızca salt okunur olarak erişebilir. Kullanıcılar kilitli bileşeni açabilir, değiştirebilir ve yeni bir adla kaydedebilir. Yönetici rolüne sahip bir kullanıcı her zaman kilitli bir yapı taşına erişebilir ve yapı taşını değiştirebilir.
+Kilitlemek için parola oluşturarak yapı taşını korumaya yardımcı olabilirsiniz. Bu şekilde tüm sistemi güvenlik altına almadan bir rapor bileşenine bir güvenlik düzeyi ekleyebilirsiniz. Parola ay sonu raporlama işleminiz açısından önemli olan yapı taşı bilgilerini korumaya yardımcı olabilir. Bir yapı taşını tüm rollerdeki kullanıcılar kilitleyebilir. Ancak diğer kullanıcıların kilitli bir bileşen için her zaman salt okunur erişimi olmalıdır. Kullanıcılar kilitli bileşeni açabilir, değiştirebilir ve yeni bir adla kaydedebilir. Yönetici rolüne sahip bir kullanıcı her zaman kilitli bir yapı taşına erişebilir ve yapı taşını değiştirebilir.
 
 1. Rapor Tasarımcısı'nda, satır tanımı, sütun tanımı, rapor tanımı veya raporlama ağacı tanımı gibi kilitlenecek rapor bileşenini açın.
 2. **Araçlar** menüsünde, **Koru/Korumayı Kaldır**'a tıklayın. Ayrıca araç çubuğundaki **Koru/Korumayı Kaldır**'a (kilit simgesi) da tıklayabilirsiniz.
@@ -82,7 +81,7 @@ Bir yapı taşı grubuna atanan tüm yapı taşlarını görüntüleyebilirsiniz
 
 ### <a name="export-a-building-block-group"></a>Bir yapı taşı grubunu dışa aktarma
 
-Bir yapı taşı grubunu veya bir yapı taşı grubundaki belirli rapor yapı taşlarını dışa aktarabilirsiniz. Dışa aktarılan yapı taşı grubunu yedek olarak kullanabilirsiniz. Dışa aktarılan veriyi Finance and Operations kurulumları arasında kopyalayabilirsiniz. Rapor tasarımcısı, yapı taşı grubuyla birlikte başvurulan yazı tipi stillerini ve boyut kümelerini içerir.
+Bir yapı taşı grubunu veya bir yapı taşı grubundaki belirli rapor yapı taşlarını dışa aktarabilirsiniz. Dışa aktarılan yapı taşı grubunu yedek olarak kullanabilirsiniz. Dışa aktarılan veriyi Finance and Operations kurulumları arasında kopyalayabilirsiniz. Rapor tasarımcısı, yapı taşı grubuyla birlikte başvurulan yazı tipi stillerini ve boyut kümelerini içerir.
 
 1. Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Yapı Taşı Grupları**'na tıklayın.
 2. **Yapı Taşı Grupları** iletişim kutusunda, dışa aktarılacak yapı taşı grubunu seçin ve ardından **Dışa Aktar**'a tıklayın.
@@ -115,7 +114,7 @@ Bir yapı taşı grubunu mevcut bir yapı taşı grubuna aktarabilirsiniz. İçe
 
 ### <a name="undo-a-checkout-of-a-building-block"></a>Bir yapı taşını kullanıma almayı geri alma
 
-Bir yapı taşını açtığınızda, diğer kullanıcılar söz konusu yapı taşına salt okunur olarak erişebilir. Bazen, kullanıcılar bir yapı taşını kapatmayı unutur veya yapı taşını kapatmadan sistemlerini kapatır. Bu nedenle, yapı taşı etkin kalır ve diğer kullanıcılar bu yapı taşını açamaz. Bu gibi durumlarda, bir finansal raporlama yöneticisi **Etkin Maddeler** iletişim kutusunu kullanarak kullanıcıların etkin bıraktığı yapı taşlarını kullanıma açabilir.
+Bir yapı taşını açtığınızda, diğer kullanıcılar söz konusu yapı taşına salt okunur olarak erişebilir. Bazen, kullanıcılar bir yapı taşını kapatmayı unutur veya yapı taşını kapatmadan sistemlerini kapatır. Bu nedenle, yapı taşı etkin kalır ve diğer kullanıcılar bu yapı taşını açamaz. Bu gibi durumlarda, bir finansal raporlama yöneticisi **Etkin Maddeler** iletişim kutusunu kullanarak kullanıcıların etkin bıraktığı yapı taşlarını kullanıma açabilir.
 
 > [!NOTE]
 > **Kullanıma Alınan Öğeler** iletişim kutusunu kullanarak yapı taşlarını kullanımdan çıkarmak için yönetici rolüne sahip olmanız gerekir.
@@ -128,4 +127,3 @@ Bir yapı taşını açtığınızda, diğer kullanıcılar söz konusu yapı ta
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
-

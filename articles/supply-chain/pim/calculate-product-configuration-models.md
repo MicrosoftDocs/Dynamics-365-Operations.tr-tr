@@ -1,13 +1,13 @@
 ---
-title: "Ürün yapılandırma modeli için hesaplamalar SSS"
-description: "Bu konu ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamaların kısıtlamalarla birlikte nasıl kullanılacağını açıklar."
+title: Ürün yapılandırma modeli için hesaplamalar SSS
+description: Bu konu ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamaların kısıtlamalarla birlikte nasıl kullanılacağını açıklar.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCConstraintEditor, PCProductConfigurationModelDetails, PCRuntimeConfigurator
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: daae96502f705f05076cb351aa1baefc37957803
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363396"
 ---
-
 # <a name="calculations-for-product-configuration-models-faq"></a>Ürün yapılandırma modeli için hesaplamalar SSS
 
 [!include [banner](../includes/banner.md)]
@@ -102,7 +101,6 @@ Hesaplamalar doğrulamaya dahil değildir. Hesaplamalardaki hataları bulmak iç
 
 1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Ürün yapılandırma modelleri** öğelerini tıklayın.
 2.  Bir ürün yapılandırma modeli seçin ve ardından İşlem Panosundan **Yürüt** grubu altındaki **Test** düğmesini tıklayın.
-
 
 
 

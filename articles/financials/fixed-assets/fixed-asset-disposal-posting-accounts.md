@@ -1,13 +1,13 @@
 ---
-title: "Sabit kıymeti elden çıkarma deftere nakil hesapları"
-description: "Bu konuda, genel muhasebe deftere nakil hesaplarının kıymetlerin elden çıkarılmasına yönelik nasıl ayarlanacağı açıklanmaktadır."
+title: Sabit kıymeti elden çıkarma deftere nakil hesapları
+description: Bu konuda, genel muhasebe deftere nakil hesaplarının kıymetlerin elden çıkarılmasına yönelik nasıl ayarlanacağı açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8e00c00b0cb7058858fde3774941911ce20fb6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bfed7657649f938c3d436468891d40d4194b555d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367191"
 ---
-
 # <a name="fixed-asset-disposal-posting-accounts"></a>Sabit kıymeti elden çıkarma deftere nakil hesapları
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ Her iki hareket tipi için de, sabit kıymetin elden çıkarma değeri için gen
 Elden çıkarma seçeneğine, ardından Satış veya Iskarta seçeneğine tıklayın, sonra da sabit kıymetin net defter değerini tersine çevirmek için ayrıntılı hesaplar ayarlayın. Ayrıca Elden çıkarma parametreleri sayfasındaki Nakledilecek değer ve Satış değeri alanlarına bilgi de girebilirsiniz. 
 
 Düşük değer havuzundaki bir kıymete ilişkin elden çıkarma hareketi, düşük değer havuzunun net defter değerini yalnızca elden çıkarılan tutar kadar düşürür. Ancak, bir kıymetin satışı düşük değer havuzunun net defter değerini geçtiğinde, net defter değeri sıfıra düşer.
-
 
 
 

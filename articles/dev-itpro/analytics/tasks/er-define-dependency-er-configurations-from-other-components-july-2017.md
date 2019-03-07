@@ -1,13 +1,13 @@
---- 
-title: "ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama"
-description: "Bu adımları tamamlamak için önce ER Model eşleme yapılandırmalarını yönet görev kılavuzundaki adımları tamamlamalı ve Microsoft Dynamics Lifecycle Services (LCS) üzerinde erişim sahibi olmanız gerekir."
+---
+title: ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
+description: Bu adımları tamamlamak için önce ER Model eşleme yapılandırmalarını yönet görev kılavuzundaki adımları tamamlamalı ve Microsoft Dynamics Lifecycle Services (LCS) üzerinde erişim sahibi olmanız gerekir.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365098"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
 
@@ -46,7 +46,7 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
     * İstenen bağımlılıklar birlikte gruplandırılabilir. 'Tümü' gruplama türü seçildiğinde, bu grubun bağımlılık koşulu bu grup ve alt gruptan her bir bağımlılık koşulu yerine getirildiğinde yerine getirilmiş sayılır. 'Biri' gruplama türü seçildiğinde, bu grubun bağımlılık koşulu bu grup ve alt gruptan en az bir bağımlılık koşulu yerine getirildiğinde yerine getirilmiş sayılır.   
 5. Yeni'ye tıklayın.
 6. Ürün önkoşul bileşenini seçin.
-7. Microsoft Dynamics 365 for Operations sürüm (1611) seçin.
+7. Microsoft Dynamics 365 for Operations (1611) seçin.
 8. Sürüm alanına '[7.1.1541.3036,8)' yazın.
     * (7.1.1541.3036,8)  
     * Girdiğiniz bağımlılıklar bu yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse, sürümünün 7.1.1541.3036 veya sonrası olan ancak sürüm 8'i geçmeyen Finance and Operations içerisinde tamamlanması gerekir.   
@@ -59,10 +59,10 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
 15. Düzenle öğesine tıklayın.
 16. Yeni'ye tıklayın.
 17. Ürün önkoşul bileşenini seçin.
-18. Microsoft Dynamics AX 7.0 RTW'yi seçin.
+18. Microsoft Dynamics AX 7.0 RTW seçin.
 19. Sürüm alanına '[7.0.1265.3015,7.1)' yazın.
     * (7.0.1265.3015,7.1)  
-    * Bağımlılıklar bir yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse, sürümünün 7.0.1265.3015 veya sonrası olan ancak küçük sürüm 1'i geçmeyen Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinde tamamlanması gerekir.   
+    * Bağımlılıklar bir yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse, sürümünün 7.0.1265.3015 veya sonrası olan ancak küçük sürüm 1'i geçmeyen Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition içerisinde tamamlanması gerekir.   
 20. Kaydet'e tıklayın.
 21. Sayfayı kapatın.
 22. Durumu değiştir öğesine tıklayın.
@@ -140,5 +140,4 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
 26. Ağaçta 'Örnek veri modeli' seçeneğini genişletin.
     * Model 'Örnek eşleşme' eşleme yapılandırmasının, seçilen veri modeli yapılandırması ile birlikte indirildiğini unutmayın. İki dosya birlikte indirilmiştir çünkü 'Örnek eşleşme', seçilen veri modelini uyguluyor olarak tanımlanmıştır ve Finance and Operations için uygulanabilirdir. 'Örnek eşleşme (alternatif)' yapılandırması, gerekli uygulama sürümü yerine getirilmediği için indirilmemiştir.   
     * Dynamics 365 for Finance and Operations, Enterprise edition'a oturum açar, aynı sağlayıcıya kaydolur, aynı LCS projesine erişir ve aynı veri modeli yapılandırmasını indirirseniz, 'Örnek eşleme (alternatif)' yapılandırması indirilir ve 'Örnek eşleme' yapılandırması atlanır.  
-
 

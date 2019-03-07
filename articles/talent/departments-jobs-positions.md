@@ -1,13 +1,13 @@
 ---
-title: "Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme"
-description: "Departmanlar, işler ve pozisyonlar İnsan kaynakları içinde tutulan kuruluş öğeleridir. Bu konuda bu öğeler hakkında kavramsal bilgiler açıklanmıştır."
+title: Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme
+description: Departmanlar, işler ve pozisyonlar İnsan kaynakları içinde tutulan kuruluş öğeleridir. Bu konuda bu öğeler hakkında kavramsal bilgiler açıklanmıştır.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
+ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "374409"
 ---
-
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme
 
 [!include [banner](includes/banner.md)]
@@ -164,7 +163,6 @@ Bazı kayıtlar için, kayda ileride yapılacak değişiklikleri belirtebilirsin
 </table>
 
 Önceki tabloda sözü edilen bilgileri bir pozisyona veya işe yönelik olarak değiştirebilir ve pozisyon veya işe yapılan değişikliklerin ne zaman geçerlilik kazanacağını belirtebilirsiniz. Örneğin, bir pozisyon yalnızca bir işçiye atanabilir ancak Muhasebe A pozisyonuna atanan Sanjay Patel iki hafta boyunca işte olmayacak. Sanjay Patel ayrıldığında, yerini Joe Healy alır. Sanjay hala kendi pozisyona atanmış olsa da, Joe Healy'i atamanın ancak Sanjay'ın son gününden sonra geçerli olacağı şekilde aynı pozisyona atayabilirsiniz.
-
 
 
 

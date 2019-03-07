@@ -1,13 +1,13 @@
 ---
-title: "Uyarılar"
-description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations'ta uyarılar hakkında genel bilgi sağlar. Uyarıları, iş günü sırasında izlemek istediğiniz olaylardan haberdar olmak için kullanabilirsiniz."
+title: Uyarılar
+description: Bu konu Microsoft Dynamics 365 for Finance and Operations içindeki uyarılar hakkında genel bilgileri sağlar. Uyarıları, iş günü sırasında izlemek istediğiniz olaylardan haberdar olmak için kullanabilirsiniz.
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367467"
 ---
-
 # <a name="alerts"></a>Uyarılar
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="about-alerts"></a>Uyarılar hakkında
-Uyarılar, Microsoft Dynamics 365 for Finance and Operations'ta kritik olaylar için bir bildirim sistemi oluşturur. Uyarıları, iş günü sırasında izlemek istediğiniz olaylardan haberdar olmak için kullanabilirsiniz. Vadesi geçen teslimatlar, silinmiş siparişler, değişen fiyatlar veya yanıtlamanız gereken diğer olaylar hakkında uyarılar almak için kendi kurallarınızı kolaylıkla oluşturabilirsiniz.
+Uyarılar, Microsoft Dynamics 365 for Finance and Operations içindeki kritik olaylar için bir bildirim sistemi oluşturur. Uyarıları, iş günü sırasında izlemek istediğiniz olaylardan haberdar olmak için kullanabilirsiniz. Vadesi geçen teslimatlar, silinmiş siparişler, değişen fiyatlar veya yanıtlamanız gereken diğer olaylar hakkında uyarılar almak için kendi kurallarınızı kolaylıkla oluşturabilirsiniz.
 
 Kurumsal kaynak planlamasında (ERP), Finance and Operations'taki uyarı özelliklerinin kullanılabileceği bazı tipik senaryolar vardır. Burada bazı örnekler verilmiştir.
 
@@ -78,4 +77,3 @@ Uyarı kuralının beş bileşeni vardır:
 ## <a name="email-notifications-from-alerts"></a>Uyarılardan e-posta bildirimleri
 
 Uyarılardan e-posta bildirimleri henüz etkinleştirilmedi. Gelecekteki bir güncelleştirmede etkinleştirilecektir.
-

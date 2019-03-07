@@ -1,13 +1,13 @@
 ---
-title: "SEPA kredi transferine genel bakış"
-description: "Bu makale, Tek Euro Ödeme Bölgesi (SEPA) kredi transferleri ve satıcılar için diğer elektronik ödemeleri içeren ISO 20022 kredi transferleri hakkında genel bilgi sağlar. SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bireye yapılan özel türde bir ödemedir (euro cinsinden). Bu başlık altında, bir kredi transferi ödeme dosyasının nasıl ayarlanacağı ve aktarılacağı da açıklanmaktadır."
+title: SEPA kredi transferine genel bakış
+description: Bu makale, Tek Euro Ödeme Bölgesi (SEPA) kredi transferleri ve satıcılar için diğer elektronik ödemeleri içeren ISO 20022 kredi transferleri hakkında genel bilgi sağlar. SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bireye yapılan özel türde bir ödemedir (euro cinsinden). Bu başlık altında, bir kredi transferi ödeme dosyasının nasıl ayarlanacağı ve aktarılacağı da açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363787"
 ---
-
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredi transferine genel bakış
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Avrupa bankalarından oluşan EPC, SEPA ödeme araçları için ticari ve teknik
 SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bireye yapılan ödemedir. Ödemelerin Euro cinsinden olması gerekir ve her iki taraf için Uluslararası Banka Hesap Numarası (IBAN) ve Banka Tanımlayıcı Kodunu (BIC) içermelidir. (BIC, Dünya Çapındaki Bankalararası Finansal Telekomünikasyon Kurumu \[SWIFT\] kodu olarak da bilinir.) Ayrıca, işlem maliyetlerinin her iki taraf arasında paylaşılması gerekir. Taraflar arasında oluşan kredi transferlerinde ISO 20022 ödeme işleme standartları ve EPC tarafından belirtildiği gibi XML formatıyla uyumlu XML dosyaları kullanılmalıdır.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Kredi transferi nasıl uygulanır?
-Avrupa ülkeleri için kredi transferi ödeme biçimi, Microsoft Dynamics 365 for Finance and Operations'ta Elektronik raporlama (ER) ve Ödeme yöntemleri işlevi kullanılarak uygulanır. Diğer bölgelerde kullanılan birkaç kredi aktarma biçimi, eski ödeme çerçevesini kullanmaya devam etmektedir. Diğer pek çok biçim arasında on iki ISO 20022 kredi aktarım dosyası biçimi mevcuttur. Bu dışa aktarma biçimleri SEPA ISO 20022 XML standardına uygundur. Bunlar, kullanıldıkları ülkeler /bölgeler için euro dışı ödeme transferleri ve EPC'nin yayınladığı SEPA Kredi Transfer Şeması Kural Kitabı'nın 8.2 sürümünde belirtilen euro ödemeleri için kullanılır. Kredi transferlerini uygulamadan önce, elektronik bankacılık dosyalarını yüklemek için gereken yazılımı edinmek için bankanıza başvurmanız gerekir. Bu yazılımı ödeme emirlerini içeren XML dosyalarını bankanıza aktarmak için kullanacaksınız.
+Avrupa ülkeleri için kredi transferi ödeme biçimi, Microsoft Dynamics 365 for Finance and Operations uygulamasında Elektronik raporlama (ER) ve Ödeme yöntemleri işlevi kullanılarak uygulanır. Diğer bölgelerde kullanılan birkaç kredi aktarma biçimi, eski ödeme çerçevesini kullanmaya devam etmektedir. Diğer pek çok biçim arasında on iki ISO 20022 kredi aktarım dosyası biçimi mevcuttur. Bu dışa aktarma biçimleri SEPA ISO 20022 XML standardına uygundur. Bunlar, kullanıldıkları ülkeler /bölgeler için euro dışı ödeme transferleri ve EPC'nin yayınladığı SEPA Kredi Transfer Şeması Kural Kitabı'nın 8.2 sürümünde belirtilen euro ödemeleri için kullanılır. Kredi transferlerini uygulamadan önce, elektronik bankacılık dosyalarını yüklemek için gereken yazılımı edinmek için bankanıza başvurmanız gerekir. Bu yazılımı ödeme emirlerini içeren XML dosyalarını bankanıza aktarmak için kullanacaksınız.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Finance and Operations'ta şu anda hangi kredi transfer biçimleri destekleniyor?
 Sürekli olarak Microsoft Dynamics Lifecycle Services'daki (LCS) Paylaşılan varlık kitaplığına gidip varlık türü **GER yapılandırması** olan mevcut dosyaların en güncel listesini görüntülemeniz gerekir. Sonraki "Neyi ayarlamam gerekiyor?" bölümünde, mevcut yapılandırmaları incelemek ve seçili yapılandırmaları içe aktarmak için bir LCS havuzunun nasıl oluşturulacağının açıklandığını açıklayan konuya bağlantı verilmektedir.
@@ -92,7 +91,7 @@ Sürekli olarak Microsoft Dynamics Lifecycle Services'daki (LCS) Paylaşılan va
 <td>Biçim</td>
 <td>Ülke/bölge veya banka gereksinimlerine bağlı olarak havale bilgileri için biçim seçin:
 <ul>
-<li><strong>Strd</strong> – Bir ödeme bir faturaya kapatıldığında yapılandırılmış biçimi kullanmak için bu seçeneği belirleyin. Bu seçenek Fransa, Almanya veya Hollanda için ülkeye/bölgeye özgü aktarma biçimlerinde kullanılamaz.</li>
+<li><strong>Strd</strong> – Bir ödeme bir faturaya kapatıldığında yapılandırılmış biçimi kullanmak için bu seçeneği belirleyin. Bu seçenek, Fransa, Almanya veya Hollanda için ülkeye/bölgeye özgü aktarma biçimlerinde kullanılamaz.</li>
 <li><strong>Ustrd</strong> – Bir ödeme çok sayıda faturaya kapatıldığında yapılandırılmamış biçimi kullanmak için bu seçeneği seçin. Kapatılan faturalar için fatura numaraları birleştirilir ve havale bilgisi olarak kullanılır. ISO 20022 yönergeleri gereğince, yapılandırılmamış havale bilgileri 140 karakterle sınırlıdır.</li>
 </ul></td>
 </tr>
@@ -124,7 +123,6 @@ Uluslararası Banka Hesap Numarası (IBAN) ve Banka Tanımlayıcı Kodu (BIC), b
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Bir ödeme dosyasını bankaya nasıl iletirim?
 Ödemeler oluşturduğunuzda, ödeme dosyası oluşturulur ve web tarayıcınızdan mevcut herhangi bir konuma kaydetmeniz istenir. Sonraki adım, XML dosyasını bankanıza göndermektir. Bu işlem bankadan bankaya değişir. Dosyaları işlemek için bankaya göndermek için bankanızın talimatlarını izleyin.
-
 
 
 

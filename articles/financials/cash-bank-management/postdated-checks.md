@@ -1,13 +1,13 @@
 ---
-title: "İleri tarih atılmış çekler"
-description: "Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta ileri tarih atılmış çeklere verilen destek hakkında bilgiler sağlar. İleri tarih atılmış çekler, ileri bir tarihte ödeme yapmak veya almak için kesilen çeklerdir. Bu nedenle, çek belirtilen tarihe kadar nakde çevrilemez."
+title: İleri tarih atılmış çekler
+description: Bu makalede, Microsoft Dynamics 365 for Finance and Operations'te ileri tarih atılmış çeklere verilen destek hakkında bilgiler verilmektedir. İleri tarih atılmış çekler, ileri bir tarihte ödeme yapmak veya almak için kesilen çeklerdir. Bu nedenle, çek belirtilen tarihe kadar nakde çevrilemez.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ea1cd9926f3ea55d82f9030372a15b3545ed824
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362936"
 ---
-
 # <a name="postdated-checks"></a>İleri tarih atılmış çekler
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta ileri tarih atılmış çeklere verilen destek hakkında bilgiler sağlar. İleri tarih atılmış çekler, ileri bir tarihte ödeme yapmak veya almak için kesilen çeklerdir. Bu nedenle, çek belirtilen tarihe kadar nakde çevrilemez.
+Bu makalede, Microsoft Dynamics 365 for Finance and Operations'te ileri tarih atılmış çeklere verilen destek hakkında bilgiler verilmektedir. İleri tarih atılmış çekler, ileri bir tarihte ödeme yapmak veya almak için kesilen çeklerdir. Bu nedenle, çek belirtilen tarihe kadar nakde çevrilemez.
 
 Microsoft Dynamics 365 for Finance and Operations aşağıdaki tabloda gösterildiği gibi hem Borç hesapları hem Alacak hesapları altında ileri tarih atılmış çekler için tam yönetim döngüsünü destekler.
 <table>
@@ -97,7 +96,6 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 [Satıcı için ileri tarih atılmış çeki kaydetme ve deftere nakletme](tasks/register-post-postdated-check-vendor.md) 
 
 [Satıcının ileri tarih atılmış çekini kapatma](tasks/settle-postdated-check-vendor.md)
-
 
 
 

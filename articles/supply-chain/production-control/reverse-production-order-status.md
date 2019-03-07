@@ -1,13 +1,13 @@
 ---
-title: "Üretim emri durumunu tersine çevirme"
-description: "Bu konuda, üretim emri durumunun tersine çevrilmesi açıklanmaktadır."
+title: Üretim emri durumunu tersine çevirme
+description: Bu konuda, üretim emri durumunun tersine çevrilmesi açıklanmaktadır.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367329"
 ---
-
 # <a name="reverse-the-production-order-status"></a>Üretim emri durumunu tersine çevirme
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Bir üretim emrinin durumunu **Serbest bırakıldı**'dan **Planlandı**'ya çev
 
 ## <a name="from-started-to-released"></a>Başlatıldı'dan Serbest bırakıldı'ya
 Bir üretim emrinin durumunu **Başlatıldı**'dan **Serbest bırakıldı**'ya çevirirseniz, bitmiş olarak raporlanan tüm maddeler tersine çevrilir. Malzeme alındıysa ve üretime gelen ve giden teslimatlar yapıldıysa, bu ayarlar tersine çevrilir. Üretim emrinin ürün reçetesi satırlarındaki **Artık durumu** alanı **Bitti**'den **Malzeme tüketimi**'ne değiştirilir. Saat kayda geçirildiyse veya üretim rotasındaki operasyonlar için miktarlar bitti şeklinde rapor edildiyse, bu ayarlar ters çevrilir. **Artık durumu** alanı, üretim rotasında **Bitti**'den **Rota tüketimi**'ne değiştirilir. Devam eden olarak veya süren iş olarak nakledilen tüm maddelere yönelik ayarlar ters çevrilir. **Üretim emri ayrıntıları** sayfasında, başlatılmış veya bitmiş olarak raporlanmış bir miktar gösteren alanlar sıfırlanır. Bu hareketlere yönelik tarihleri de sıfırlanır.
-
 
 
 

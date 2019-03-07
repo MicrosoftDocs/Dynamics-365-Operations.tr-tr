@@ -1,13 +1,13 @@
---- 
-title: "Ürün çeşitlerini yönetme (Kasım 2016)"
-description: "Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandığını gösterir ve tanıtım verisi şirketi USRT'yi kullanır."
+---
+title: Ürün çeşitlerini yönetme (Kasım 2016)
+description: Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandığını gösterir ve tanıtım verisi şirketi USRT'yi kullanır.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, RetailCategoryAndProductWorkspace, RetailCategoryAndProductAssortment, RetailAssortmentDetails, RetailOperatingUnitPicker, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: f96c79558c3248406a1b5988f9c9dc9783db4406
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363672"
 ---
 # <a name="manage-assortments-november-2016"></a>Ürün çeşitlerini yönetme (Kasım 2016)
 
@@ -53,5 +53,4 @@ Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandı
 ## <a name="publish-an-assortment"></a>Bir sınıflama yayınlayın
 1. Yayımla'ya tıklayın.
 2. Evet'i tıklatın.
-
 

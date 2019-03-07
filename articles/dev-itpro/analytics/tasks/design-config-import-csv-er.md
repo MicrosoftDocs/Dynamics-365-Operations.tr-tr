@@ -1,13 +1,13 @@
---- 
-title: "CSV dosyalarından veri almak için ER yapılandırmaları tasarlama"
-description: "Dynamics 365 for Finance and Operations'a CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama (ER) yapılandırmalarını tasarlamak için bu yordamı kullanın."
+---
+title: CSV dosyalarından veri almak için ER yapılandırmaları tasarlama
+description: Dynamics 365 for Finance and Operations'a CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama (ER) yapılandırmalarını tasarlamak için bu yordamı kullanın.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365236"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>CSV dosyalarından veri almak için ER yapılandırmaları tasarlama
 
@@ -119,5 +119,4 @@ Sınama amacıyla, daha önce yüklediğiniz 1099entriescsv.csv dosyasını kull
     * Seçili dosyadan içeri aktarılan ve veri modeline taşınan verileri temsil eden XML biçimindeki çıktıyı gözden geçirin. İçe aktarılan CSV dosyasındaki tüm 7 satırın da işlendiğini unutmayın. Alan başlıklarını içeren satır 1 atlandı, 4 hareket doğru şekilde ayrıştırıldı ve 2 hareket geçerli olarak tanındı.   
 3. Sayfayı kapatın.
 4. Sayfayı kapatın.
-
 

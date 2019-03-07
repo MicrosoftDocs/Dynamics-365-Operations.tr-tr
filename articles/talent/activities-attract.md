@@ -1,14 +1,14 @@
 ---
-title: "Süreçlerdeki faaliyetler"
-description: "Bu konu, işe alma işleminde kullanılabilecek faaliyetlerin çeşitli türleri hakkında bilgi sağlar."
-author: 
+title: Süreçlerdeki faaliyetler
+description: Bu konu, işe alma işleminde kullanılabilecek faaliyetlerin çeşitli türleri hakkında bilgi sağlar.
+author: ''
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c32db1f563466f05b9fef1a03578392888c0b7e6
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374769"
 ---
-
 # <a name="activities-in-the-hiring-processes"></a>İşe alım süreçlerindeki faaliyetler
 
 [!include[banner](../includes/banner.md)]
@@ -43,31 +42,9 @@ Aday müşteri faaliyeti, aday müşterilerin bir işe eklenebilir olup olmadı�
 
 İşe alma işlem şablonunda Başvuru faaliyeti gereklidir. Başvurularını gönderen veya Başvuru aşamasına eklenen adaylara e-posta göndermek için **Adaya posta gönder** seçeneğini **Açık** olarak ayarlayın.
 
-## <a name="scheduler-activity"></a>Planlayıcı faaliyeti
+## <a name="interview-schedule-and-feedback-activity"></a>Planlama ve geribildirim etkinliği
 
-Planlayıcı faaliyeti isteğe bağlıdır. Bu faaliyetin iki bileşeni vardır: Aday erişilebilirliği ve Zamanlama. Aday erişilebilirliği bileşeni, adayın erişilebilirliğini istemek için e-posta kullanmanıza olanak sağlar. Zamanlama bileşeni, aday ve işe alma ekibiyle görüşmeler planlanma yeteneğini sağlar. Planlayıcı faaliyetinde, aşağıdaki seçenekler yapılandırılabilir: **Aday erişilebilirliği iste**, **Çevrimiçi toplantı** ve **Adaya posta gönder**.
-
-- Aday erişilebilirliğini talep etmek üzere e-posta göndermek için **Aday erişilebilirliği iste** seçeneğini **Açık** olarak ayarlayın. Seçeneği **Kapalı** olarak ayarlarsanız bu adım, işteki işe alma işleminde görüntülenmez.
-- Canlı akış veya Skype Kurumsal kullanarak bir konferans çağrısında **Çevrimiçi toplantı** alanını **Skype Kurumsal** olarak ayarlayın. Doğru **Skype Toplantısına katıl** bağlantısı, daha sonra görüşme yapılanlara göndereilecek olan görüşme toplantısı isteğine eklenir.
-- Adaylara planlamayı sonlandırmak üzere e-posta göndermek için **Adaya posta gönder** seçeneğini **Açık** olarak ayarlayın. Seçeneği **Kapalı** olarak ayarlarsanız, adaylar yalnızca Aday portalına giriş yaptığında görüşme planını alacak.
-
-## <a name="feedback-activity"></a>Geri bildirim faaliyeti
-
-Geri bildirim faaliyeti isteğe bağlıdır. Bu faaliyet, görüşmeye katılanların bir başvuran için öneriler girmesine olanak tanır. Ayrıca sahip oldukları geri bildirim yorumları da girebilir. **İşe Alım Ekbinden katılımcı geri bildirimi al** seçeneğini açarsanız işe alan, işe alma yöneticisi ve görüşmeciler Geri Bildirim faaliyetine otomatik olarak girer. Kuruluşlar, görüşmeye katılanların kendilerine ait geri bildirim göndermeden önce diğer kişilerin geri bildirimlerini görüntülemesine izin verebilir. Kuruluşlar ayrıca görüşmecilerin geri bildirimlerini gönderdikten sonra düzenlemesine de izin verir.
-
-## <a name="interview-activity"></a>Görüşme faaliyeti
-
-Görüşme faaliyeti isteğe bağlıdır. Bu faaliyetin üç bileşeni vardır: Aday erişilebilirliği, Zamanlama ve Geri Bildirim. Aday erişilebilirliği bileşeni, adayın erişilebilirliğini istemek için e-posta kullanmanıza olanak sağlar. Zamanlama bileşeni, aday ve işe alma ekibiyle görüşmeler planlanma yeteneğini sağlar. Planlayıcı faaliyetinde, aşağıdaki seçenekler yapılandırılabilir: **Aday erişilebilirliği iste**, **Çevrimiçi toplantı** ve **Adaya posta gönder**.
-
-- Aday erişilebilirliğini talep etmek üzere e-posta göndermek için **Aday erişilebilirliği iste** seçeneğini **Açık** olarak ayarlayın. Seçeneği **Kapalı** olarak ayarlarsanız bu adım, işteki işe alma işleminde görüntülenmez.
-- Canlı akış veya Skype Kurumsal kullanarak bir konferans çağrısında **Çevrimiçi toplantı** alanını **Skype Kurumsal** olarak ayarlayın. Doğru **Skype Toplantısına katıl** bağlantısı, daha sonra görüşme toplantısı isteğine eklenir.
-- Adaylara planlamayı sonlandırmak üzere e-posta göndermek için **Adaya posta gönder** seçeneğini **Açık** olarak ayarlayın. Seçeneği **Kapalı** olarak ayarlarsanız, adaylar yalnızca Aday portalına giriş yaptığında görüşme planını alacak.
-
->[!NOTE]
-> - Tüm 1:1 görüşmeler için görüşmeci, görüşme talebine yanıt vermediyse (kabul veya ret) her 24 saatte bir hatırlatma görüşmecilere gönderilir.
-> - Tüm panel görüşmeleri için görüşme isteğini yanıtlamak üzere otomatik hiçbir anımsatıcı yoktur. Bir anımsatmayı el ile tetiklemek için görüşmeyi düzenleyin ve **Güncelleştir ve Gönder** seçeneğini kullanarak talebi görüşmecilere geri gönderin.
-
-Geri Bildirim bileşeni, kişilerin bir başvuran için öneriler girmesini sağlar. Ayrıca sahip oldukları geri bildirim yorumları da girebilir. **İşe Alım Ekbinden katılımcı geri bildirimi al** seçeneğini açarsanız işe alan, işe alma yöneticisi ve görüşmeciler Geri Bildirim bileşenine otomatik olarak girer. Kuruluşlar, görüşmeye katılanların kendilerine ait geri bildirim göndermeden önce diğer kişilerin geri bildirimlerini görüntülemesine izin verebilir. Kuruluşlar ayrıca görüşmecilerin geri bildirimlerini gönderdikten sonra düzenlemesine de izin verir.
+Bu faaliyetin üç bileşeni vardır: Aday erişilebilirlik talebi, Zamanlama ve Geri Bildirim. Adayın uygunluk talebini, zamanlamasını ve geribildirimini, işe alma sürecinin bir parçası olarak tek tek kullanmak yerine işlemin parçası olarak dahil etmek istiyorsanız, iş şablonunda mülakat etkinliğini kullanın. Daha fazla bilgi için bkz. [Mülakat zamanlama ve geribildirim](interview-scheduling-feedback.md).
 
 ## <a name="powerapps-activity"></a>PowerApps faaliyeti
 
@@ -80,7 +57,7 @@ PowerApps faaliyetini işe alma sürecini kaydetmek için bir PowerApps kimliği
 > [!NOTE]
 > PowerApps faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir.
 
-## <a name="youtube-activity"></a>YouTube faaliyeti
+## <a name="youtube-activity"></a>YouTube etkinliği
 
 YouTube faaliyeti, işe alma işleminin parça olarak YouTube videosu paylaşmanıza olanak sağlar. İşe alma işlemine YouTube faaliyetini kaydetmek için YouTube videosu URL'sini belirtmeniz gerekir. PowerApps faaliyeti söz konusu olduğunda, katılımcıların faaliyete eklenmesini sağlayabilirsiniz. **Yalnızca adaya göster** seçeneğini belirlerseniz video yalnızca aday deneyimi parçası olarak gösterilir. Attract'taki işe alma işleminde gösterilmez.
 
@@ -102,4 +79,3 @@ Microsoft Forms'da yazarlar, kurum dışındaki kullanıcıların anket veya tes
 
 > [!NOTE]
 > Microsoft Forms faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir.
-

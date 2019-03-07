@@ -1,13 +1,13 @@
 ---
-title: "Şirketlerarası muhasebeyi ayarlama"
-description: "Bu konu, defter tahsisatları ve mali günlükleri, örneğin günlük günlükler, satıcı faturası günlükleri ve ödeme günlükleri gibi şirketlerarası günlükleri kullanabilmeniz için şirketlerarası muhasebeyi ayarlamayı açıklar."
+title: Şirketlerarası muhasebeyi ayarlama
+description: Bu konu, defter tahsisatları ve mali günlükleri, örneğin günlük günlükler, satıcı faturası günlükleri ve ödeme günlükleri gibi şirketlerarası günlükleri kullanabilmeniz için şirketlerarası muhasebeyi ayarlamayı açıklar.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ce07a29d7aa5057d0b61c7fcc6bb87a0a2755fc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48e0b00e2a9bd1a1387780747e1976bd386200eb
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363994"
 ---
-
 # <a name="intercompany-accounting-setup"></a>Şirketlerarası muhasebeyi ayarlama
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Hem kaynak hem de hedef tüzel varlığı için **Borç hesabı (başlangıç)**
 Son olarak, destekleyen tutarlar için hangi varlığın muhasebeyi alacağını seçin, örneğin nakit iskontosu veya merkezi ödemeler için gerçekleşmiş kazançlar/zararlar. 
 
 Karşılıklı bir ilişki, **Şirketlerarası muhasebe** sayfasında, **Karşılıklı ilişki oluştur** düğmesine ilk tüzel kişilik oluşturulduktan sonra basılarak kolayca ayarlanabilir. Karşılıklı çift oluşturulduğunda, hedef şirketin bilgisi, kaynak şirkete ve tam tersi de diğerine kopyalanır. Hedef şirket için tanımlanan günlük kalacaktır. Çoğu kuruluş, günlük adlarında aynı adlandırma kuralını kullanır, böylece günlük adı aynıdır. Günlük adı farklıysa, günlüğün mevcut olmadığını ve başka bir günlüğün seçilebileceğini belirten bir uyarı, alanda gösterilir.
-
 
 
 

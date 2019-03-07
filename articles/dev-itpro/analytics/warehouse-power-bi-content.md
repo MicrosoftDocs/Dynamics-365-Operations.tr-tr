@@ -1,13 +1,13 @@
 ---
-title: "Ambar performansı Power BI içeriği"
-description: "Bu konu, Ambar performansı Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
+title: Ambar performansı Power BI içeriği
+description: Bu konu, Ambar performansı Power BI içeriğinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365374"
 ---
-
 # <a name="warehouse-performance-power-bi-content"></a>Ambar performansı Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Ambar performansı** Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu konu, **Ambar performansı** Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel bakış
 
 **Ambar performansı** Power BI içeriği, ambar ve operasyon yöneticilerinin önemli gelen, giden ve stok ölçümlerini izleyebilmeleri için oluşturulmuştur. Sisteminizden Ambar yönetimi, ürün ve diğer hareket verilerini kullanır ve hem ambar performansının toplam görünümünü hem de satıcılar, ürün grupları ve ürünler ile tesisler ve ambarlar için çözümleme sağlar.
 
@@ -42,10 +41,10 @@ Ambar yöneticileri, **Ambar performansı** Power BI içeriğini aşağıdaki ü
 - **Sevkiyat performans** - Ambarın müşterilere tam ve zamanında sevkiyat yapıp yapmadığını ölçmek (başka bir deyişle, dışarı giden sevkiyat ve teslimat performansının ölçümü), böylece ürünleri, siteleri, ambarları veya adanmış müşterileri kapsayan sorunları tanımlayabilirsiniz. Çeşitli şehirlere veya bölgelere geç teslimat yaptığınızı bulursanız, nakliye veya hesap yönetimine daha fazla dikkat etmeniz gerekebilir.
 - **Yerleşim stok doğruluğu** - Stok doğruluğu, önemli bir dahili ambar iş zekâsıdır (BI). Genel olarak ne kadar doğru sayım yaptığınızı belirlemeniz çok önemlidir. Ancak, maddeleri doğru konumlarda depolama konusunda ne kadar isabetli olduğunuzu belirlemek ve tutarsız verilerin altını çizebilmeniz de önemlidir, böylece maddeler için daha iyi konumlar bulabilir veya belirli maddelerde toplam sayımları başlatabilirsiniz. (Şu anda, maddeye dayalı yeni sayım işlevi bir düzeltme olarak sunulmaktadır.) Bu Power BI içeriğini, eldeki stokun konuma göre doğruluğunu bulmakta kullanıyorsanız, mağazalarınızdaki hırsızlığı da tespit edebilirsiniz. Ayrıca, herhangi bir konumun eldeki stokun, kuruluş kaynak planlaması (ERP) verisinden farklı olduğunu da belirleyebilirsiniz. Bu konumlar çok büyük olabilir veya sayılmaları imkansız olabilir. Alternatif olarak, bazı fiziksel konumlandırmalar hatalı olabilir, bu yüzden de tek bir madde türünü eldeki veri ile eşleştirilmiş tutmak zordur.
 
-## <a name="accessing-the-power-bi-content-pack"></a>Power BI içerik paketine erişme
+## <a name="accessing-the-power-bi-content-pack"></a>Power BI içerik paketine erişmek
 **Ambar performansı** Power BI içeriği **Ambar performansı** sayfasında gösterilir (**Ambar yönetimi** \> **Sorgular ve raporlar** \> **Ambar performansı analizi** \> **Ambar performansı**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içerik paketinde bulunan ölçümler
 **Ambar performansı** Power BI içeriği, bir raporu içerir. Bu rapor grafikler, döşemeler ve tablolar ile görselleştirilen bir dizi ölçüm kümesinden oluşur. Aşağıdaki tablo **Ambar performansı** Power BI içeriğindeki görselleştirmelere bir bakış sağlar.
 
 | Rapor sayfası                 | Grafikler                                   | Açıklama |
@@ -79,7 +78,7 @@ Ambar yöneticileri, **Ambar performansı** Power BI içeriğini aşağıdaki ü
 | Sevkiyat performansı        | Tesise / ambara göre sevkiyat              | Tesis veya ambara göre erken, zamanında veya geç sevkiyatın yüzdesi. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Veri modellerini ve hesaplamalarını anlama
-Aşağıdaki veriler **Ambar performansı** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Sunucu veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md).
+Aşağıdaki veriler **Ambar performansı** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md).
 
 Aşağıdaki önemli toplam ölçümler, içeriğin temeli olarak kullanılır.
 
@@ -113,4 +112,3 @@ Aşağıdaki önemli toplam ölçümler, içeriğin temeli olarak kullanılır.
 | Sevkiyat performansı        | Ürüne göre sevkiyat                       | CustPackingSlipOnTimeStatus           | Erken, Zamanında ve Geç (bkz. bu tablonun başındaki açıklamalar). |
 | Sevkiyat performansı        | Müşteriye göre sevkiyat                      | CustPackingSlipOnTimeStatus           | Erken, Zamanında ve Geç (bkz. bu tablonun başındaki açıklamalar). |
 | Sevkiyat performansı        | Tesise / ambara göre sevkiyat              | CustPackingSlipOnTimeStatus           | Erken, Zamanında ve Geç (bkz. bu tablonun başındaki açıklamalar). |
-

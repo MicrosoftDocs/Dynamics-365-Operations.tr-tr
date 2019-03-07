@@ -1,37 +1,36 @@
 ---
-title: "Uygulama yöneticisi Power BI içeriği"
-description: "Bu konu, Power BI Uygulama yöneticisi nelerin bulunduğunu açıklar. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
+title: Uygulama yöneticisi Power BI içeriği
+description: Bu konu, Power BI Uygulama yöneticisi nelerin bulunduğunu açıklar. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367812"
 ---
-
 # <a name="practice-manager-power-bi-content"></a>Uygulama yöneticisi Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Power BI **Uygulama yöneticisi** nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu konu, Microsoft Power BI **Uygulama yöneticisi** nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel bakış
 
 **Uygulama yöneticisi** Power BI içeriği, uygulama yöneticileri ve proje yöneticileri için oluşturulmuştur. Kuruluşun üzerinde çalışmakta olduğu projelerle ilgili önemli ölçümler sağlar. Pano, projeler ve ilgili müşterilerle ilgili bir genel bakış sağlar. Bir rapor seviyesi filtresi, çeşitli tüzel kişiliklerin raporlaması için kullanılabilir. Bu Power BI içeriği verileri proje muhasebe toplama ölçümlerinden çeker.
 
@@ -39,11 +38,11 @@ Bu konu, Microsoft Power BI **Uygulama yöneticisi** nelerin bulunduğunu açık
 
 İçerikteki tüm tutarlar sistem para birimi cinsinden gösterilir. Sistem para birimini **Sistem parametreleri** sayfasından ayarlayabilirsiniz.
 
-## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
+## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim
 
 **Uygulama yöneticisi** Power BI içeriği **Proje yönetimi** çalışma alanında gösterilir.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içerik paketinde bulunan raporlar
 
 Aşağı tablo, **Uygulama yöneticisi** Power BI içeriğinin her bir rapor sayfasında bulunan ölçümler hakkında ayrıntılar sağlar.
 
@@ -55,11 +54,11 @@ Aşağı tablo, **Uygulama yöneticisi** Power BI içeriğinin her bir rapor say
 | EVM               | Projeye göre maliyet ve planlama performans endeksi |
 | Saatler             | <ul><li>Fiili faturalanabilir çalışılan saatler - fiili faturalanabilir yük saati sayısı - bütçe saatleri karşılaştırması</li><li>Projeye göre fiili faturalanabilir çalışılan saatler - fiili faturalanabilir yük saati sayısı karşılaştırması</li><li>Kaynağa göre fiili faturalanabilir çalışılan saatler - fiili faturalanabilir yük saatleri karşılaştırması</li><li>Projeye göre gerçek faturalanabilir saatlerin oranı</li><li>Kaynağa göre gerçek faturalanabilir saatlerin oranı</li></ul> |
 
-Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Altta yatan veriyi dışa aktar işlevini de görselleştirme içerisinde özetlenen altta yatan veriyi dışa aktarmak için kullanabilirsiniz.
+Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Altta yatan veriyi dışa aktar işlevini de görselleştirme içerisinde özetlenen altta yatan veriyi dışa aktarmak için kullanabilirsiniz.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 
-Aşağıdaki veriler **Uygulama yöneticisi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Sunucu veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md).
+Aşağıdaki veriler **Uygulama yöneticisi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md).
 
 Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri açıklar.
 
@@ -119,4 +118,3 @@ Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri aç
 | Kilit toplam ölçüm       | Alan               | Açıklama |
 |---------------------------------|---------------------|-------------|
 | Tamamlanan faaliyetin planlanan maliyeti | Sum(TotalCostPrice) | Tamamlanan görevlere sahip tüm proje hareket türleri için toplam maliyet fiyatı tahmini. |
-

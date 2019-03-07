@@ -1,13 +1,13 @@
 ---
-title: "Stok yönetimi giriş sayfası"
-description: "Bu konu, Stok yönetimine genel bakış sağlamaktadır."
+title: Stok yönetimi giriş sayfası
+description: Bu konu, Stok yönetimine genel bakış sağlamaktadır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5376c6c18c2d7d48d3ee253e8818e0c868a52145
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01b51b3442ca2a924cec2e894c3840c90989791c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364937"
 ---
-
 # <a name="inventory-management"></a>Stok Yönetimi 
 
 [!include [banner](../includes/banner.md)]
@@ -48,17 +47,16 @@ Aşağıdaki öğrenme haritası, Stok yönetimi modülünün çerçevesini olu�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
-Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) bölümüne gidin.
+### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
+Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin.
 
 ### <a name="inventory-accounting"></a>Stok muhasebesi 
 Daha fazla bilgi için bkz. [Maliyet yönetiminde stok muhasebesi](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>İmalat ve tedarik zinciri yönetimi blogları
-[Dynamics AX İmalat Ar-Ge Ekibi Blogu](https://blogs.msdn.microsoft.com/axmfg)'nda ve [Dynamics AX'te Tedarik Zinciri Yönetimi Ar-Ge Ekibi Blogu](https://blogs.msdn.microsoft.com/dynamicsaxscm)'nda Stok yönetimi ve diğer çözümler hakkında pek çok fikir, haber ve bilgi bulabilirsiniz.
+[Dynamics AX İmalat Ar-Ge Ekibi Blogu'nda](https://blogs.msdn.microsoft.com/axmfg) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi Blogu'nda](https://blogs.msdn.microsoft.com/dynamicsaxscm) Stok yönetimi ve diğer çözümler hakkında pek çok fikir, haber ve bilgi bulabilirsiniz.
 
 ### <a name="task-guides"></a>Görev kılavuzları
 Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada **Yardım** düğmesine tıklayın.
-
 
 

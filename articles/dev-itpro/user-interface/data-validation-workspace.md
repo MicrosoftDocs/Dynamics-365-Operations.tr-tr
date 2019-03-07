@@ -1,28 +1,27 @@
 ---
-title: "Veri doğrulama denetim listesi çalışma alanı"
-description: "Veri doğrulama yapılacaklar listesi çalışma alanı, şirketler, bölgeler ve kişiler arasındaki veri doğrulama işlemlerini izlemenize olanak sağlar. Denetim listesi yeni bir uygulama sırasında, bir yükseltmeden sonra veya bir geçişten sonra kullanılabilir."
+title: Veri doğrulama denetim listesi çalışma alanı
+description: Veri doğrulama yapılacaklar listesi çalışma alanı, şirketler, bölgeler ve kişiler arasındaki veri doğrulama işlemlerini izlemenize olanak sağlar. Denetim listesi yeni bir uygulama sırasında, bir yükseltmeden sonra veya bir geçişten sonra kullanılabilir.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364201"
 ---
-
 # <a name="data-validation-checklist-workspace"></a>Veri doğrulama denetim listesi çalışma alanı
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ Bu konu, **Veri doğrulama denetim listesi** çalışma alanı ve bununla ilişk
 Son sekme, ayrıntılı görev listesi içindir. Bu liste, tam görev listesini gösterir.
 Görev listesini çeşitli şekillerde filtrelenebilir. Görevin durumunu değiştirmek veya bir görev atamak için **Görevi düzenle**'ye tıklayın. Görevin eklerini görüntülemek için **Ekler** üzerine tıklayın.
 
-Görev adı, kullanıcının görevi tamamlamak için gitmesi gereken Microsoft Dynamics 365 for Finance and Operations sayfasına giden bir köprüdür. Bu bağlantıyı, görevi **Veri yapılandırma projesi** formundan oluşturduğunuzda veya düzenlediğinizde **Menü öğesi adı** alanını kullanarak ayarlayabilirsiniz.
+Görev adı, Microsoft Dynamics 365 for Finance and Operations sayfasına veya kullanıcının görevi tamamlamak için gitmesi gereken bir köprüdür. Bu bağlantıyı, görevi **Veri yapılandırma projesi** formundan oluşturduğunuzda veya düzenlediğinizde **Menü öğesi adı** alanını kullanarak ayarlayabilirsiniz.
 
 Dosyalar, notlar, resimler veya URL'leri bir göreve **Ekler** eylemini kullanarak ekleyebilirsiniz. Örneğin, bir görev için yazdırılan rapor dosyasını ekleyebilirsiniz. Bir ek mevcutsa, **Ek** sütununda bir simge belirir.
 
@@ -59,4 +58,3 @@ Dosyalar, notlar, resimler veya URL'leri bir göreve **Ekler** eylemini kullanar
 Veri doğrulama görevlerini organizasyonunuz içindeki mantıklı mülkiyet alanlarına gruplandırmak için görev alanlarını kullanırsınız. Örneğin, görev alanları olarak Borç hesapları, Alacak hesapları ve Genel muhasebe kullanılabilir.
 
 **Menü öğesi adı** görev eforuyla ilişkilidir ve çalışma alanındaki görev bağlantısından, ilişkili sayfaya doğrudan gitmek için kullanılabilir. Örneğin, **Borç hesapları yaşlandırma** raporunu, Borç hesapları için çalıştırmak için veri doğrulama görevi, **Borç hesapları yaşlandırma raporu** sayfası üzerinden bağlanabilir.
-
