@@ -1,13 +1,13 @@
 ---
-title: "Soru formlarının sonuçlarını görüntüleme ve değerlendirme"
-description: "Bu konu yanıtlayanların tamamladığı anketlerin sonuçlarını nasıl görüntüleyeceğinizi ve değerlendireceğinizi açıklar."
+title: Soru formlarının sonuçlarını görüntüleme ve değerlendirme
+description: Bu konu yanıtlayanların tamamladığı anketlerin sonuçlarını nasıl görüntüleyeceğinizi ve değerlendireceğinizi açıklar.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 9fd4af5589cfab2a92c913639f1192029eb7c592
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306643"
 ---
-
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Soru formlarının sonuçlarını görüntüleme ve değerlendirme
 
 [!include [banner](includes/banner.md)]
@@ -81,5 +80,4 @@ Tanımladığınız ayarlar kaydedilir ve sonuçları yeniden hesaplamak için p
 [Soru formlarını kullanma](questionnaires.md)
 
 [Soru formlarını dağıtma ve tamamlama](distribute-questionnaires.md)
-
 

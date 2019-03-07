@@ -1,13 +1,13 @@
 ---
-title: "Ücret işleme"
-description: "Ücret işleme, öz varlık düzenlemeleri, başarı artışı hedefleri ve performansı temel alarak personelinizin yeni taban ücret tutarlarını hesaplamanıza olanak tanır."
+title: Ücret işleme
+description: Ücret işleme, öz varlık düzenlemeleri, başarı artışı hedefleri ve performansı temel alarak personelinizin yeni taban ücret tutarlarını hesaplamanıza olanak tanır.
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3ecadaf20ea82cd1328b266907d2ba43515d76c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306600"
 ---
-
 # <a name="process-compensation"></a>Ücret işleme
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ Yalnızca Adım Adım plan türüne sahip **Sabit ücret** eylemleri ekleyebilir
 Bir veya daha fazla çalışan olayının durumu onaylandı olarak güncelleştirildikten sonra, bu olaylar çalışanların sabit ücret kayıtlarına yüklenebilir. Bu işlem her personel olayını ayrı ayrı seçip **Çalışan sonuçları** sayfasındaki **Personel ücretini yükle** düğmesine tıklayarak veya onaylanan tüm çalışan olaylarını bir kerede yüklemek için **İşlem sonuçları** sayfasındaki **Ücreti yükle**'ye tıklayarak yapılabilir.
 
 **Ücreti yükle** iletişim kutusundaki **Tamam**'a tıklamak **Çalışan sabit ücreti** sayfasına sıfır olmayan ücret eylemi satırları ekleyecektir.
-

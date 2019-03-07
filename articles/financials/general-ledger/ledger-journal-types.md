@@ -1,13 +1,13 @@
 ---
-title: "Genel muhasebe günlük türleri"
-description: "Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır."
+title: Genel muhasebe günlük türleri
+description: Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 61f737edea3af5281b6d2fd7c3c0899082782067
 ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
-ms.contentlocale: tr-tr
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308679"
 ---
-
 # <a name="ledger-journal-types"></a>Genel muhasebe günlük türleri
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations'ta kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
+Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations'da kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
 
 | Günlük türü:                      | Amaç                       | Bu sayfada hareketleri girin                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -64,7 +63,6 @@ Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri a
 | Satıcı faturası kaydı          | Defterde olan satıcı faturalarını nakledin.                                                                                                                                                                                                                                                                                                                 | Fatura günlüğü                                                |
 | Satıcı yeniden düzenlenen senedi     | Daha önce bankanız tarafından kabul edilip ödenmiş bir senedi yeniden düzenleyin.                                                                                                                                                                                                                                                                      | Yeniden düzenlenen senet günlüğü                                 |
 | Satıcıya ödenen vadeli senet     | Satıcıya ödenen vadeli senet hareketleri oluşturun.                                                                                                                                                                                                                                                                                                          | Senet kapatma günlüğü                                 |
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Maliyet davranış ilkesi oluşturma ve bir maliyet kontrol birimine atama"
-description: "Maliyet davranışı, maliyetlerin sabit veya değişken olarak sınıflandırılmasıdır."
+---
+title: Maliyet davranış ilkesi oluşturma ve bir maliyet kontrol birimine atama
+description: Maliyet davranışı, maliyetlerin sabit veya değişken olarak sınıflandırılmasıdır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c7b39b7649aaef0d354b61e3d70b6cac887282ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 392cb83ceb8612a2e73cc54bb2d8d40c62a6b7b6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313831"
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Maliyet davranış ilkesi oluşturma ve bir maliyet kontrol birimine atama
 
@@ -84,5 +84,4 @@ Maliyet davranışı, maliyetlerin sabit veya değişken olarak sınıflandırı
     * Kurallar tarihe dayalıdır ve kullanıcı veya sistem kuralın süresini, daha yeni bir sürüm oluşturulursa doldurulabilir.  
 15. Maliyet kontrol birimi alanına bir değer girin veya bir değer seçin.
 16. Kaydet'e tıklayın.
-
 

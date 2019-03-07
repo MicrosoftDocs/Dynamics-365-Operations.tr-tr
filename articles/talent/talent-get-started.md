@@ -1,13 +1,13 @@
 ---
-title: "Talent kullanmaya başlama"
-description: "Bu konu, kullanıcı arabirimini tercihlerinize göre nasıl ayarlayabileceğiniz ve ürün içinde ve docs.microsoft.com sitesinde bulunan Yardım kaynaklarına nasıl bağlanabileceğiniz konusunda bilgiler sağlar."
+title: Talent kullanmaya başlama
+description: Bu konu, kullanıcı arabirimini tercihlerinize göre nasıl ayarlayabileceğiniz ve ürün içinde ve docs.microsoft.com sitesinde bulunan Yardım kaynaklarına nasıl bağlanabileceğiniz konusunda bilgiler sağlar.
 author: rschloma
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306649"
 ---
 # <a name="get-started-with-talent"></a>Talent kullanmaya başlama
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/09/2018
 Microsoft Dynamics 365 for Talent'ta kullanıcı arabirimini değiştirmek ve seçenekleri yazılımı ihtiyaçlarınızı en iyi şekilde karşılayacak şekilde ayarlamak kolaydır. Bu konu, kullanıcı arabirimini nasıl tercihlerinize uygun hale getirebileceğinizle ilgili bilgiler sunan konulara bağlantılar içerir. Bu konu ayrıca sistem içinde bilgileri etkin ve doğru şekilde bulmanıza yardımcı olabilecek bilgiler de içerir. 
 
 > [!NOTE] 
-> Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
+> Aşağıdaki üç ürün yakından ilgilidir: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, öncelikli olarak Retail ile ilişkili konularda, ürün adı Dynamics 365 for Retail olacaktır, öncelikli olarak Talent ilişkili konularda, ürün adı Dynamics 365 for Talent olacaktır ve çekirdek ürün ile ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
 ## <a name="personalizing-talent"></a>Talent'ı kişiselleştirme 
 Aşağıda konular Dynamics 365 for Talent'ta bulunan ve işinizi zamanında kolayca tamamlamanızı sağlayan birçok özelliği nasıl ayarlayabileceğinizi göstermektedir. 
@@ -57,13 +57,12 @@ Aşağıdaki konular aramaları, arama ve filtreleme özelliklerini bilgileri da
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
-Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) bölümüne gidin.
+### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
+Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) başlıklı makaleye gidin.
 
 ### <a name="blogs"></a>Bloglar
-[Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent)'ta Borç hesapları ve diğer çözümler hakkında fikirler, haberler ve başka bilgiler bulabilirsiniz. 
+Fikirler, haberler veya Borç hesapları konusunda diğer bilgileri ve çözümleri [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent) içinde bulabilirsiniz. 
 
 ### <a name="videos"></a>Videolar
-[Microsoft Dynamics 365 YouTube Kanalında](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) bulunan nasıl yapılır videolarına hemen göz atın.
-
+Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Kanalı](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)'nda bulunan nasıl yapılır videolarına hemen göz atın.
 

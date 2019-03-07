@@ -1,13 +1,13 @@
 ---
-title: "Mobil fatura onayları"
-description: "Bu konu, Dynamics 365 for Finance and Operations içindeki mobil için satıcı faturası onaylarını bir kullanım durumu olarak kullanarak mobil senaryolar tasarlamak amacıyla pratik bir yaklaşım sunmak üzere hazırlanmıştır."
+title: Mobil fatura onayları
+description: Bu konu, mobil için satıcı faturası onaylarını bir kullanım durumu olarak kullanarak Dynamics 365 for Finance and Operations içinde mobil senaryolar tasarlamak amacıyla partik bir yaklaşım sunmak üzere hazırlanmıştır.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314406"
 ---
-
 # <a name="mobile-invoice-approvals"></a>Mobil fatura onayları
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations'taki mobil yetenekler işletme kullanıcısının mobil deneyimler tasarlamasına olanak tanır. Gelişmiş senaryolar için platform geliştiricilerin de yeteneklerini istedikleri gibi genişletmesine olanak tanır. Mobildeki yeni kavramlardan bazıları hakkında bilgi edinmek için en etkili yol, bir kaç senaryo tasarlama işleminde ilerlemektir. Bu konu, mobil için satıcı faturası onaylarını bir kullanım durumu olarak kullanarak mobil senaryolar tasarlamak amacıyla partik bir yaklaşım sunmak üzere hazırlanmıştır. Bu konu, senaryoların farklı çeşitlerini tasarlamanıza yardımcı olur ve satıcı faturalarıyla ilgili olmayan diğer senaryolara da uygulanablir.
+Microsoft Dynamics 365 for Finance and Operations içindeki mobil yeterlilikler bir işletmenin mobil deneyimler tasarlamasına olanak sağlar. Gelişmiş senaryolar için platform geliştiricilerin de yeteneklerini istedikleri gibi genişletmesine olanak tanır. Mobildeki yeni kavramlardan bazıları hakkında bilgi edinmek için en etkili yol, bir kaç senaryo tasarlama işleminde ilerlemektir. Bu konu, mobil için satıcı faturası onaylarını bir kullanım durumu olarak kullanarak mobil senaryolar tasarlamak amacıyla partik bir yaklaşım sunmak üzere hazırlanmıştır. Bu konu, senaryoların farklı çeşitlerini tasarlamanıza yardımcı olur ve satıcı faturalarıyla ilgili olmayan diğer senaryolara da uygulanablir.
 
 <a name="prerequisites"></a>Ön koşullar
 -------------
@@ -37,7 +36,7 @@ Microsoft Dynamics 365 for Finance and Operations'taki mobil yetenekler işletme
 | Önkoşul                                                                                            | Açıklama                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Mobil el kitabı ön okuma                                                                                |[Mobil platform](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
-| Dynamics 365 for Finance and Operations                                                                             | Microsoft Dynamics 365 for Operations sürüm 1611 ve Microsoft Dynamics for Operations platform güncelleştirmesi 3 (Kasım 2016) güncelleştirmelerine sahip bir ortam                   |
+| Dynamics 365 for Finance and Operations                                                                             | Microsoft Dynamics 365 for Operations sürüm 1611 ve Microsoft Dynamics for Operations platform güncelleştirmesi 3'e sahip bir ortam (Kasım 2016)                   |
 | KB 3204341 numaralı düzeltmeyi yükleyin.                                                                              | Görev kaydedici Dynamics 365 for Operation platform güncelleştirmesi 3'te (Kasım 2016 güncellemesi) bulunan açılır iletişim kutusu için yanlışlıkla iki Kapat komutu kaydedebilir. |
 | KB 3207800 numaralı düzeltmeyi yükleyin.                                                                              | Bu düzeltme eklerin Dynamics 365 for Operation platform güncelleştirmesi 3'te (güncelleştirme Kasım 2016) bulunan mobil istemci üzerinde görüntülenmesini sağlar.           |
 | KB 3208224 numaralı düzeltmeyi yükleyin.                                                                              | Microsoft Dynamics AX uygulaması 7.0.1'e (Mayıs 2016) dahil edilen mobil satıcı faturası onayı uygulaması için uygulama kodu.                          |
@@ -488,7 +487,6 @@ Senaryo 1 için senaryo 2 gereksinimleri temel alınarak aşağıdaki çeşitlem
     3.  İdeal olarak, bu senaryoda dağıtımların bir fatura satırı bağlamında gösterilmesi gerekir. Bu nedenle, kullanıcının dağıtımlar sayfasını görmek için bir satırın ayrıntılarına inebildiğinden emin olun. Senaryo 1'de başlık ve ayrıntılar sayfaları için yaptığınız gibi, detaylandırma kurmak için sayfa bağlantısı yeteneğini kullanın.
 
 2.  Senaryo 2'deki dağıtımlarda birden fazla tutar türü olması beklendiğinden (satış vergisi, giderler, vb.) tutar türü açıklamasını görüntülemek yararlı olacaktır. (Bu bilgiyi senaryo 1'de atlamıştık.)
-
 
 
 

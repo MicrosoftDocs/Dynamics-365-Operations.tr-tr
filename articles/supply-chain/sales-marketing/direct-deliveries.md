@@ -1,13 +1,13 @@
 ---
-title: "Doğrudan teslimatlar"
-description: "Bu makale, doğrudan teslimler hakkında genel bilgiler sağlar. Müşterinize doğrudan satıcı tarafından gönderilen teslimatlar, doğrudan teslimatlardır."
+title: Doğrudan teslimatlar
+description: Bu makale, doğrudan teslimler hakkında genel bilgiler sağlar. Müşterinize doğrudan satıcı tarafından gönderilen teslimatlar, doğrudan teslimatlardır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9c4a695c591865c52ad5ee6d37a515139f58bf8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1f2cdae674dc88a4d533258e24b1ecf7ec4cf55b
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312290"
 ---
-
 # <a name="direct-deliveries"></a>Doğrudan teslimatlar
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Teslimat türü **Doğrudan teslimat** olan bir satış siparişi satırını si
 
 ## <a name="warehouse"></a>Ambar
 Bir doğrudan sevkiyat oluşturduğunuzda, hiçbir zaman fiziksel olarak satmadığınız öğeler ambarınıza ulaşır. Ancak, satış emri satırında hala bir ambar belirtmeniz gerekir. Benzer şekilde, teslim alma gereksinimleri de ürün için ürün modeli grubunda tanımlanabilir. Ancak, ürünler fiziksel olarak hiçbir zaman ambarınıza ulaşmadığı için, satış siparişi bir doğrudan teslimat olduğunda bu gereksinimler göz ardı edilir.
-
 
 
 

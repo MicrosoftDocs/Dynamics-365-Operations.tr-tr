@@ -1,37 +1,36 @@
 ---
-title: "Attract'ta iş oluşturun, onaylayın ve yayınlayın"
-description: "Bu konu, Attract'taki bir işin öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar."
+title: Attract'ta iş oluşturun, onaylayın ve yayınlayın
+description: Bu konu, Attract'taki bir işin öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
 author: josaw
 manager: AnnBe
 ms.date: 12/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
 ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306603"
 ---
-
 # <a name="create-approve-and-post-jobs-in-attract"></a>Attract'ta iş oluşturun, onaylayın ve yayınlayın
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Talent: Attract'taki bir işin öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
+Bu konu Microsoft Dynamics 365 for Talent: Attract içindeki bir maddeyi açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
 
 ## <a name="job-creation"></a>İş oluşturma
 
@@ -127,7 +126,7 @@ Bir iş kaydedildikten sonra onay için gönderilebilir. Onayları kullanan belg
 
 İş listesinde iş durumları üzerinde filtre uygulayabilirsiniz.
 
-Şirket içindeki herhangi bir Microsoft Azure Active Directory (Azure AD) kullanıcısına onaylar gönderilebilir. Onaylar, paralel şekilde onaylayanlar olarak listelenen tüm kişilere gönderilir. Bir iş onaylandıktan sonra etkinleştirilebilir.
+Onaylar, şirket içindeki bir kullanıcıya doğrudan Microsoft Azure Active Directory (Azure AD) ile gönderilebilir. Onaylar, paralel şekilde onaylayanlar olarak listelenen tüm kişilere gönderilir. Bir iş onaylandıktan sonra etkinleştirilebilir.
 
 Onaylayanlar olarak listelenen kişiler, Attract'ta onaylamak için bir öğe olduğunu bildiren bir bildirim alır. Onay öğesi panodaki **Size atanan** bölümünde de görünür. Biri işi kabul edince veya onaylayınca işe alım ekibi bir bildirim alır. Son olarak, işe alım ekibi iş onaylandığında bildirim alır.
 
@@ -169,4 +168,3 @@ Bir iş oluşturmak için şu adımları izleyin.
 
 13. İşi etkinleştirmek için **Etkinleştir** öğesini seçin.
 14. İşi yayınlamak için **Gönderiler**'e gidin, Talen Careers sitesi veya LinkedIn'in altındaki **Hemen Yayınla**'yı seçin.
-

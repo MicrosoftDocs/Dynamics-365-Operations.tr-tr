@@ -1,13 +1,13 @@
 ---
-title: "Sabit kıymetleri ayarlama"
-description: "Bu konu, Sabit kıymetler modülünün kurulumu hakkında genel bir bakış sunar."
+title: Sabit kıymetleri ayarlama
+description: Bu konu, Sabit kıymetler modülünün kurulumu hakkında genel bir bakış sunar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 126d011301fbc6e228a9824929e559984e0e56cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 8810c131adf35ecc58f74c1d232a028f82ad3ccc
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311899"
 ---
-
 # <a name="set-up-fixed-assets"></a>Sabit kıymetleri ayarlama
 
 [!include [banner](../includes/banner.md)]
@@ -85,4 +84,3 @@ Sabit kıymette yapılacak değişiklikler veya belirli sabit kıymet hareketler
 Son olarak, sabit kıymetler için numara serilerini **Numara serileri** sekmesinde tanımlarsınız. **Sabit kıymet** numarası sırası, belirtilmişse **Sabit kıymet grup** numarası sırası tarafından geçersiz kılınır.
 
 Daha fazla bilgi için bkz. [Sabit kıymet oluşturma](tasks/create-fixed-asset.md).
-

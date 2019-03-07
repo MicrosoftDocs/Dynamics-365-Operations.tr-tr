@@ -1,13 +1,13 @@
 ---
-title: "Maliyetlendirme tabloları"
-description: "Maliyetlendirme tablosunun kurulumu için iki hedef gerekir. İlk hedef olarak, üretilmiş bir madde veya üretim emri hakkındaki satılan malların maliyetini görüntüleme biçimini tanımlarsınız. Biçimlendirilmiş görüntüye maliyetlendirme tablosu adı verilir. İkinci hedef olarak, dolaylı maliyetleri hesaplama temelini tanımlarsınız. Maliyetlendirme tablosu kurulumu, bilgi görüntüleme ve dolaylı maliyet hesaplama formülleri için maliyet grubu özelliğini temel alır. Bu makalede maliyetlendirme tablosu kurulumunun iki hedefi açıklanmıştır."
+title: Maliyetlendirme tabloları
+description: Maliyetlendirme tablosunun kurulumu için iki hedef gerekir. İlk hedef olarak, üretilmiş bir madde veya üretim emri hakkındaki satılan malların maliyetini görüntüleme biçimini tanımlarsınız. Biçimlendirilmiş görüntüye maliyetlendirme tablosu adı verilir. İkinci hedef olarak, dolaylı maliyetleri hesaplama temelini tanımlarsınız. Maliyetlendirme tablosu kurulumu, bilgi görüntüleme ve dolaylı maliyet hesaplama formülleri için maliyet grubu özelliğini temel alır. Bu makalede maliyetlendirme tablosu kurulumunun iki hedefi açıklanmıştır.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostSheetDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1421049adb86916202ad6f7ee748c8525fd55fa8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3988bd478cfad791b5d4c73d28a86c9cfb68288f
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312773"
 ---
-
 # <a name="costing-sheets"></a>Maliyetlendirme tabloları
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Bir maliyetlendirme versiyonu için geçerli olan iki engelleme ilkesi, bekleyen
 Maliyetlendirme tablosu biçimini ve dolaylı maliyetlerin hesaplamalarını tanımladıktan sonra, bilgileri doğrulamak ve kaydetmek için ayrı bir adım gerçekleştirmelisiniz. Maliyetlendirme tablosu, satılan malların maliyeti hakkındaki bilgilerin tutarlı biçimde görüntülenebilmesi için şirket çapında bir biçimi temsil eder. 
 
 Maliyetlendirme tablosu **Ürün maliyetini hesapla** sayfasının bir kısmı olarak görüntülenir. Maliyetlendirme tablosu, **Ürün fiyatı** sayfasında üretilmiş bir ürünün hesaplanmış maliyet kaydı veya **Ürün reçetesi hesaplama sonuçları** sayfasında siparişe özgü bir hesaplama kaydı için görüntülenebilir. Ayrıca, bir üretim emrinin **Fiyat hesaplama** sayfasının bir bölümü olarak da görüntülenebilir.
-
 
 
 

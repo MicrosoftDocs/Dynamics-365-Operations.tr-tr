@@ -1,31 +1,30 @@
 ---
-title: "Talent içerisinde raporlama seçenekleri"
-description: "Bu konu, bir müşteri Microsoft Dynamics 365 for Talent raporlarını özelleştirmek istediğinde veya yeni raporlar oluşturmak istediğinde ortaya çıkan sorunun nasıl çözüleceğini açıklar."
+title: Talent içerisinde raporlama seçenekleri
+description: Bu konu, bir müşteri Microsoft Dynamics 365 for Talent raporlarını özelleştirmek istediğinde veya yeni raporlar oluşturmak istediğinde ortaya çıkan sorunun nasıl çözüleceğini açıklar.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 2007e6adec7255b0b3abda7490c2103a8583393f
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306636"
 ---
-
-# <a name="reporting-options-in-talent"></a>Talent içerisinde raporlama seçenekleri
+# <a name="reporting-options-in-talent"></a>Talent'taki raporlama seçenekleri
 
 [!include [banner](includes/banner.md)]
 
@@ -43,11 +42,10 @@ Kullanıcı, katıştırılmış Microsoft Power BI raporlarını özelleştirem
 
 **Çözüm**
 
-- Common Data Service for Apps'e akan Core HR veriler, PowerApps CDS bağlayıcısı aracılığıyla Power BI Desktop'a raporlanabilmektedir. Common Data Service for Apps'in, Core HR verisinin bir alt kümesini içerdiğini unutmayın. Power BI ve panolar hakkında daha fazla bilgi için bkz. [Power BI raporlarını ve panolarını PowerApps Common Data Service ile oluşturun](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi).
+- Common Data Service for Apps'e akan Core HR veriler, PowerApps CDS bağlayıcısı aracılığıyla Power BI Desktop'a raporlanabilmektedir. Common Data Service for Apps'in, Core HR verisinin bir alt kümesini içerdiğini unutmayın. Power BI ve panolar hakkında daha fazla bilgi için bkz. [Power BI raporları ve panolarını PowerApps Common Data Service ile birlikte oluşturmak](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi).
 - Elektronik raporlama (ER), Talent içindeki bazı raporlar için kullanılabilir. Müşteri odaklı özelleştirmeler, ER yapılandırma seçenekleri aracılığıyla yapılabilir.
 - Veri, Microsoft Excel veya Microsoft Word'e, Talent'ın Microsoft Office tümleştirmesi aracılığıyla sunduğu çeşitli veri varlıkları kullanılarak dışa aktarılabilir.
 
 **Uzun vadeli çözüm**
 
 Ek Power BI seçenekleri kullanılabilir olacaktır ve daha fazla veri ve varlık Common Data Service for Apps'in parçası olacaktır.
-

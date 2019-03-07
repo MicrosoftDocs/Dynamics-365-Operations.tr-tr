@@ -1,14 +1,14 @@
 ---
-title: "Attract'ta yönetici ayarları"
-description: "Bu konu, Attract'taki kurum ve kullanıcılar için özellik işlevini etkinleştirmeyi açıklar."
-author: 
+title: Attract'ta yönetici ayarları
+description: Bu konu, Attract'taki kurum ve kullanıcılar için özellik işlevini etkinleştirmeyi açıklar.
+author: ''
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306569"
 ---
-
-# <a name="admin-settings-in-attract"></a>Attract'ta yönetici ayarları
+# <a name="admin-settings-in-attract"></a>Attract'te yönetici ayarları
 [!include[banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent: Attract Yönetim merkezinde Attract uygulaması için yapılandırma ayarları, tümleştirme seçenekleri ve ayar seçeneklerini bulunur.
@@ -69,4 +68,3 @@ Aday deneyimiyle ilgili seçenekleri de yapılandırabilirsiniz. Örneğin, bir 
 Teklifleri için bitiş tarihi ayarlayabilir ve uygulayabilirsiniz. **Tüm teklifleri için bitiş tarihi gerekli** seçeneğini **Evet** ayarladıysanız, belirttiğiniz gün veya saat sayısından sonra teklifler sona erer.
 
 Teklif yönetimi hakkında daha fazla bilgi için bkz [Teklif yönetimini ayarla](./offer-setup.md).
-

@@ -1,31 +1,30 @@
 ---
-title: "Beceri havuzlarını kullanarak aday kaynağı bulma"
-description: "Bu konu Attract'ta beceri havuzları oluşturma ve ayarlamayı açıklar."
-author: 
+title: Beceri havuzlarını kullanarak aday kaynağı bulma
+description: Bu konu Attract'ta beceri havuzları oluşturma ve ayarlamayı açıklar.
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: tr-tr
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306571"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>Beceri havuzlarını kullanarak aday kaynağı bulma
 
 [!include[banner](../includes/banner.md)]
@@ -108,7 +107,7 @@ Tüm kullanıcılarda, aday profillerinin aynı görünümü vardır. Adayın pr
 
 - **Belgeler** sekmesi, adayın kendi profilinden ya da iş başvuruları sırasında eklediği tüm belgeleri gösterir. Bu sekme adayın özgeçmiş, kapak mektupların, portföy çalışması vb. yönetmek için kullanılabilir. Belge eklemek için bu sekmeyi de kullanabilirsiniz.
 
-    Bir belgeyi görüntülemek için belgeler listesinde belge adını seçin. Microsoft Word belgelerini Microsoft Office 365 kullanarak uygulamada görüntüleyebilirsiniz. Yerel bilgisayarınıza belgeleri yükleyebilirsiniz; her belge için **İndir** seçeneğini kullanın.
+    Bir belgeyi görüntülemek için belgeler listesinde belge adını seçin. Microsoft Word belgelerini uygulama içinde Microsoft Office 365 kullanarak görüntüleyebilirsiniz. Yerel bilgisayarınıza belgeleri yükleyebilirsiniz; her belge için **İndir** seçeneğini kullanın.
 
 - **LinkedIn** sekmesi adayın LinkedIn bilgileri gösterir. Bu sekmeyi kullanmak için kullanıcı ayarlarından LinkedIn hesabınıza bağlanın ve kendi ortamınızda LinkedIn İşveren bağlantısını kurun. Daha fazla bilgi için bkz [LinkedIn İşverenke kaynak bulma](./attract-linked-in-recruiter.md).
 
@@ -139,4 +138,3 @@ Genellikle, bir iş için birkaç iyi aday seçilmez ancak bunları kaybetmeyi i
 1. Başvuru sayfasında **Beceri havuzuna ekle**yi seçin. Erişiminiz olan beceri havuzları listesi gösterilir.
 
 1. Beceri havuzunu seçin veya arayın, daha sonra o havuza adayı eklemek için **Ekle**yi seçin.
-

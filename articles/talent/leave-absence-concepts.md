@@ -1,28 +1,27 @@
 ---
-title: "İzin ve devamsızlık konseptleri"
-description: "Bu konu, izin ve devamsızlık kavramlarını ve izin sürelerinin nasıl belirlediğini açıklar."
+title: İzin ve devamsızlık konseptleri
+description: Bu konu, izin ve devamsızlık kavramlarını ve izin sürelerinin nasıl belirlediğini açıklar.
 author: jcart
 manager: AnnBe
 ms.date: 01/03/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2019-01-01
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: a388e0efe6c19a3aabe04e7fff039ce11ae023c4
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 563593d6c93b0488c681f5b43004f5c0d22cc004
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306647"
 ---
-
 # <a name="leave-and-absence-concepts"></a>İzin ve devamsızlık konseptleri
 
 [!include[banner](../includes/banner.md)]
@@ -297,4 +296,3 @@ Tahmin edilen bakiye (30) = Tahakkuk tutarı (10 × 1) + Geçerli bakiye (40) �
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0,00              | 01/06/2018        | 01/06/2018   | 1.00           | 01/09/2018        | 3,00    |
 | Jay Norman          | 0,00              | 15/06/2018       | 15/06/2018  | 1.00           | 01/09/2018        | 2.00    |
-

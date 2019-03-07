@@ -1,31 +1,30 @@
 ---
-title: "Servis sözleşmeleri"
-description: "Servis sözleşmesi tipik bir servis ziyaretinde kullanılan kaynakları ve bu kaynakların müşteriye ne şekilde faturalandığını tanımlamanızı sağlar."
+title: Servis sözleşmeleri
+description: Servis sözleşmesi tipik bir servis ziyaretinde kullanılan kaynakları ve bu kaynakların müşteriye ne şekilde faturalandığını tanımlamanızı sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c6425dcf1c89f625d997be0dd4a52aaecb6e6d65
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: bf9df2a31c758ba6b63ac7952e00065df04552dc
-ms.openlocfilehash: aaff0c1d71fcf2656d5d6e76a2bf4b7b3a699281
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/19/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315050"
 ---
-
 # <a name="service-agreements"></a>Servis sözleşmeleri
 
 [!include [banner](../includes/banner.md)]
@@ -34,15 +33,15 @@ Servis sözleşmesi tipik bir servis ziyaretinde kullanılan kaynakları ve bu k
 
 Her servis sözleşmesi, hareketlerin deftere nakledildiği ve faturalandığı bir projeye iliştirilir. Ancak servis siparişi hareketlerini servis siparişini öncelikle bir servis sözleşmesine bağlamadan da doğrudan proje üzerinden faturalandırabilirsiniz. Servis siparişinin yalnızca bir defalık servis ziyareti olması ve servis hareketlerini hızlı bir şekilde işleme gereksiniminin belirli bir dönem boyunca müşteri hakkında ayrıntılı servis sözleşmesi bilgileri tutma gereksinimine ağır basması durumunda bunu yapmaya karar verebilirsiniz.
 
-## <a name="service-agreement"></a>Servis sözleşmesi
+## <a name="service-agreement"></a>Servis anlaşması
 
 Her servis sözleşmesinde, bir proje, bir servis sözleşmesi kodu ve bir servis sözleşmesi grubu belirtmeniz gerekir. Servis sözleşmesi grubu servis sözleşmelerini sıralamak ve düzenlemek için kullanılır.
 
 Servis sözleşmesi başlığı, iliştirilmiş tüm sözleşme satırları için geçerli olan ayarları içerir:
 
--  Servis sözleşmesinin askıya alınıp alınmadığı. Servis sözleşmesi askıya alınmışsa, servis sözleşmesinden servis siparişleri oluşturamazsınız.
--  Servis sözleşmesinin süresi.
--  Servis sözleşmesi satırlarının servis siparişleriyle ne şekilde birleştirileceği.
+-  Servis anlaşmasının askıya alınıp alınmadığı. Servis anlaşması askıya alınmışsa, servis anlaşmasından servis siparişleri oluşturamazsınız.
+-  Servis anlaşmasının süresi.
+-  Servis anlaşması satırlarının servis siparişleriyle ne şekilde birleştirileceği.
 -  Servis sözleşmesinin bir şablon olup olmadığı
 
 Servis sözleşmesi başlığında sözleşmenin çeşitli satırlarına eklenecek belirli servis görevlerini veya servis nesnelerini girerek servis sözleşmesiyle birlikte kullanılabilecek tüm servis nesnelerini ve servis görevlerini de ayarlayabilirsiniz.
@@ -58,7 +57,7 @@ Servis sözleşmesi satırında **Askıda** onay kutusunu seçerseniz şunları 
 Servis sözleşmesi satırındaki **Durduruldu** onay kutusunu seçerseniz şunları yapamazsınız:
 
 -    Servis sözleşmesi satırından otomatik olarak veya el ile servis siparişleri oluşturamazsınız.
--    Servis sözleşmesi satırını başka bir servis sözleşmesine veya servis siparişine kopyalayamazsınız.
+-    Servis anlaşması satırını başka bir servis anlaşmasına veya servis siparişine kopyalayamazsınız.
 
 
 > [!NOTE]
@@ -68,9 +67,9 @@ Servis sözleşmesi satırındaki **Durduruldu** onay kutusunu seçerseniz şunl
 
 Her servis sözleşmesi satırı ayrıntılı şekilde servis işinin içeriğini açıklar. Satırlar aşağıdaki ayarları içerir:
 
--  Hareket türü ve hareket türünin açıklaması.
+-  Hareket tipi ve hareket tipinin açıklaması.
 -  Servis işini gerçekleştiren çalışan
--  Servis sözleşmesi için servisin uygulanması gereken nesneler.
+-  Servis anlaşması için servisin uygulanması gereken nesneler.
 -  İşin gerçekleştirilme sıklığı ve ilişkili madde, gider ve masraf hareketleri kaydedilir.
 -  Servis siparişi satırlarının bir servis siparişi dahilinde gruplandırılabileceği zaman penceresi.
 -  Sözleşme satırı kümelerini iş görevleri halinde gruplandırmak ve servis teknisyenleri ile müşterilere sağlanacak servis görevini özetlemek için kullanılan servis görevleri.
@@ -80,4 +79,3 @@ Her servis sözleşmesi satırı ayrıntılı şekilde servis işinin içeriğin
 ## <a name="related-topics"></a>İlgili konular
 
 [Servis sözleşmeleri oluşturma](create-service-agreements.md)
-

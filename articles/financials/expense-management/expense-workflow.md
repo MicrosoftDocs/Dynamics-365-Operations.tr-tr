@@ -1,13 +1,13 @@
 ---
-title: "Gider iş akışı"
-description: "Bu konu, Gider yönetimindeki gider raporları için bir gözden geçirme işlemini ayarlamak üzere Microsoft Dynamics 365 for Finance and Operations'ta iş akışı sistemini nasıl kullanabileceğinizi açıklar."
+title: Gider iş akışı
+description: Bu konu, Gider yönetimindeki gider raporları için bir gözden geçirme işlemini ayarlamak üzere Microsoft Dynamics 365 for Finance and Operations'ta iş akışı sistemini nasıl kullanabileceğinizi açıklar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 037a6ae00b7d559f79860901f0cb2ad6ddddd7aa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310128"
 ---
-
 # <a name="expense-workflow"></a>Gider iş akışı
 
 [!include [banner](../includes/banner.md)]
 
-Gider yönetimindeki gider raporları için bir gözden geçirme işlemi ayarlamak üzere Microsoft Dynamics 365 for Finance and Operations'ta iş akışı sistemini kullanabilirsiniz. Gider raporlarını kimin onaylayacağını belirlemek için aşağıdaki ölçütleri kullanan bir iş akışı ayarlayabilirsiniz:
+Gider yönetimindeki gider raporları için bir gözden geçirme işlemini ayarlamak üzere Microsoft Dynamics 365 for Finance and Operations'ta iş akışı sistemini kullanabilirsiniz. Gider raporlarını kimin onaylayacağını belirlemek için aşağıdaki ölçütleri kullanan bir iş akışı ayarlayabilirsiniz:
 
 - Çalışan raporlama hiyerarşisi ve önceden belirlenmiş onaylama limitleri
 - Ara onaylayıcıları ve bir nihai onaylayıcıyı içeren çok düzeyli onay
@@ -58,4 +57,3 @@ Aşağıda bir gider raporuna ilişkin gider yönetimi iş akışı örneği ver
 Bu gereksinimler doğrulandıktan sonra gider raporu deftere nakledilir.
 
 Gider raporu deftere nakledildikten sonra, gider raporu için ödeme onaylanır ve personele ödeme yapılır.
-

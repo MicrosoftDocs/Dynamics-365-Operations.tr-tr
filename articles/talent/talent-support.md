@@ -1,13 +1,13 @@
 ---
-title: "Talent için destek alma"
-description: "Bu konu Dynamics 365 for Talent için nasıl destek alınacağını açıklar."
+title: Talent için destek alma
+description: Bu konu, Dynamics 365 for Talent hakkında yardım almayı açıklar.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 9b2d7159b458b6f3b2cbb3271210c10ab486f496
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306655"
 ---
-
 # <a name="get-support-for-talent"></a>Talent için destek alma
 
 [!include [banner](includes/banner.md)]
@@ -55,4 +54,3 @@ Attract ve Onboard için destek almak için aşağıdaki tablodaki kaynakları k
 | Sorun bildir                                                        | **?** öğesini seçin menüde ve bir sorun raporlamak için seçenekleri kullanın. Sorunu açıklamaya girin ve bu sorunun raporlanmasını izlemek istiyorsanız bir e-posta adresi ekleyin.                                                                                           |
 | Talent lisanslama ile ilgili sorularınıza yanıt alın                         | Partnerinizle veya Microsoft satış temsilcinizle iletişime geçin.                                                                                                                                                                                                                                        |
 | Attract ve Onboard içerisinde yeni özellikler ve işlevler talep edin | **?** seçeneğini tıklatın simgesini ve **Fikirler**'i seçin veya aşağıdaki bağlantıları yeni fikirleri aramak, oy vermek ve eklemek için kullanın: [Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract) veya [Onboard](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard). |
-

@@ -1,13 +1,13 @@
 ---
-title: "Dynamics AX uygulama sürümü 7.0.1'deki yenilikler ve değişiklikler (Mayıs 2016)"
-description: "Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1'inde yeni olan veya değişen özellikleri açıklar. Bu sürüm Mayıs 2016 tarihinde yayımlanmıştır ve 7.0.1265.23014 yapım numarasına sahiptir."
+title: Dynamics AX uygulama sürümü 7.0.1'deki yenilikler ve değişiklikler (Mayıs 2016)
+description: Bu makale Microsoft Dynamics AX uygulama sürümü 7.0.1'da yeni veya değişen özellikler açıklanmaktadır. Bu sürüm Mayıs 2016 tarihinde yayımlanmıştır ve 7.0.1265.23014 yapım numarasına sahiptir.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: c830952b5d9e4887a816b5ab66d0944bddf5b505
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314521"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Dynamics AX uygulama sürümü 7.0.1'deki yenilikler ve değişiklikler (Mayıs 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1'inde yeni olan veya değişen özellikleri açıklar. Bu sürüm Mayıs 2016 tarihinde yayımlanmıştır ve 7.0.1265.23014 yapım numarasına sahiptir.
+Bu makale Microsoft Dynamics AX uygulama sürümü 7.0.1'da yeni veya değişen özellikler açıklanmaktadır. Bu sürüm Mayıs 2016 tarihinde yayımlanmıştır ve 7.0.1265.23014 yapım numarasına sahiptir.
 
 ## <a name="electronic-reporting-er"></a>Elektronik raporlama (ER)
 
@@ -40,7 +39,7 @@ Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1'inde yeni olan ve
 | ER raporunu OPENXML çalışma sayfası biçiminde oluşturulan bir elektronik belgenin dinamik olarak oluşturulan sütunlarına veri girmek üzere yapılandırın. | ER raporu oluşturulan bir OPENXML çalışma sayfasına yatay olarak yinelenen sütunlar aracılığıyla veri girebilir. Bu nedenle aynı ER raporu yapılandırması dinamik olarak oluşturulan sütun sayısı farklı olan elektronik belgeler oluşturmak için yeniden kullanılabilir. |
 | ER hedeflerini Bir biçimin çıkış sonucunun dosya, e-posta veya arşiv (Microsoft SharePoint klasörü veya Microsoft Azure Depolama) gibi belirli bir hedefe yönlendirileceği şekilde yapılandırın. | Önceden bir ER yapılandırması çalıştırdığınızda dosyayı kaydetmek veya açmak için kullanıcı eylemi gerektiren bir ileti kutusu görüntüleniyordu. Artık her bir biçim yapılandırması ve her bir çıkış bileşeni (bir klasör veya bir dosya) için ayrı bir hedefi önceden yapılandırabilirsiniz. Uygun erişim haklarına sahip kullanıcılar çalışma zamanında hedef ayarlarını da değiştirebilir. |
 
-## <a name="pos--microsoft-dynamics-ax-retail"></a>POS - Microsoft Dynamics AX Perakende
+## <a name="pos--microsoft-dynamics-ax-retail"></a>POS – Microsoft Dynamics AX Perakende
 
 | Ne yapabilirsiniz? | Bu neden önemlidir? |
 |------------------|------------------------|
@@ -50,8 +49,8 @@ Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1'inde yeni olan ve
 
 | Ne yapabilirsiniz? | Bu neden önemlidir? |
 |------------------|------------------------|
-| Finansal raporlama veri reyonunu yeniden oluşturun. | Dynamics AX veritabanları ortamlar arasında taşıdığınızda veya ortama başka aykırı değişiklikler yaptığınızda Finansal raporlama veritabanının yeniden oluşturulması gerekebilir. Veritabanını sizin için yeniden oluşturmak amacıyla bir Windows PowerShell komut dosyası sağlandı. |
-| Artık geçerli olmayan rapor tasarımcısı seçeneklerini belirleyemezsiniz. | Yönetim raporlayıcısının pazar içi sürümlerinde kullanılan pek çok rapor tasarımcısı seçeneği Dynamics AX'in bu sürümünde geçerli değildir. Bu seçenekler, finansal rapor tasarımıyla, çıktıyla ve bağlama ile ilgiliydi. Bu seçenekler, kullanıcı hataları önlemek için mali rapor tasarımcısından kaldırılmıştır. |
+| Mali raporlama veri reyonunu yeniden oluşturun. | Dynamics AX veritabanları ortamlar arasında taşıdığınızda veya ortama başka aykırı değişiklikler yaptığınızda Finansal raporlama veritabanının yeniden oluşturulması gerekebilir. Veritabanını sizin için yeniden oluşturmak amacıyla bir Windows PowerShell komut dosyası sağlandı. |
+| Artık geçerli olmayan rapor tasarımcısı seçeneklerini belirleyemezsiniz. | Management Reporter pazar içi sürümlerinde kullanılan pek çok rapor tasarımcısı seçeneği Dynamics AX'in bu sürümünde geçerli değildir. Bu seçenekler, finansal rapor tasarımıyla, çıktıyla ve bağlama ile ilgiliydi. Bu seçenekler, kullanıcı hataları önlemek için mali rapor tasarımcısından kaldırılmıştır. |
 
 ## <a name="financial-management"></a>Mali yönetim
 
@@ -107,4 +106,3 @@ Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1'inde yeni olan ve
 [Yenilikler veya değişenler](whats-new-changed.md)
 
 [Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
-

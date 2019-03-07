@@ -1,31 +1,30 @@
 ---
-title: "Servis siparişleri için madde gereksinimleri oluşturma"
-description: "Bir servis siparişi için belirli maddeleri rezerve etmeniz gerekiyorsa, bunun için stok madde gereksinimleri oluşturabilirsiniz."
+title: Servis siparişleri için madde gereksinimleri oluşturma
+description: Bir servis siparişi için belirli maddeleri rezerve etmeniz gerekiyorsa, bunun için stok madde gereksinimleri oluşturabilirsiniz.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a5a730ae945af15c7bd4020c734bac971d8186e2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e76b0c636470a89ba2091363efe2f34eb3d58f88
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312221"
 ---
-
 # <a name="create-item-requirements-for-service-orders"></a>Servis siparişleri için madde gereksinimleri oluşturma 
 
 [!include [banner](../includes/banner.md)]
@@ -71,6 +70,5 @@ Servis siparişleri için madde gereksinimleri bir proje aracılığıyla işlen
 [Servis siparişlerini otomatik olarak oluşturma](create-service-orders-automatically.md)
 
   
-
 
 

@@ -1,39 +1,38 @@
 ---
-title: "Müşteri adayından nakde"
-description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations ile Microsoft Dynamics 365 for Sales arasındaki Müşteri adayından nakde çözümüne genel bakış sunulmaktadır."
+title: Müşteri adayından nakde
+description: Bu konu, Microsoft Dynamics 365 for Finance and Operations ve Microsoft Dynamics 365 for Sales arasında Aday'dan nakite çözümüne genel bakış sağlar.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: b46ece384a28f8e78989253fcf467fbf3feaf1b7
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309507"
 ---
-
 # <a name="prospect-to-cash"></a>Müşteri adayından nakde
 
 [!include [banner](../includes/banner.md)]
 
-Müşteri adayından nakde çözümü, Dynamics 365 for Finance and Operations ile Dynamics 365 for Sales arasında doğrudan eşitleme yapılmasını sağlar. Veri Tümleştirme özelliğiyle birlikte kullanılan Müşteri adayından nakde şablonları Finance and Operations ile Sales arasında hesaplar, ürünler, satışlar, satış teklifleri, satış siparişleri ve satış faturaları için veri akışı sağlar. Finance and Operations ile Sales arasında veri akışı sağlanırken, Sales'de satış ve pazarlama faaliyetlerini gerçekleştirebilir ve Finance and Operations'da stok yönetimini kullanarak sipariş karşılamaları işleyebilirsiniz. 
+Aday'dan nakite çözümü, Dynamics 365 for Finance and Operations ve Dynamics 365 for Sales arasında doğrudan eşitleme sağlar. Veri Tümleştirme özelliğiyle birlikte kullanılan Müşteri adayından nakde şablonları Finance and Operations ile Sales arasında hesaplar, ürünler, satışlar, satış teklifleri, satış siparişleri ve satış faturaları için veri akışı sağlar. Finance and Operations ile Sales arasında veri akışı sağlanırken, Sales'de satış ve pazarlama faaliyetlerini gerçekleştirebilir ve Finance and Operations'da stok yönetimini kullanarak sipariş karşılamaları işleyebilirsiniz. 
 
-Müşteriden nakde tümleştirmesi hakkında daha fazla bilgi için kısa YouTube videosunu izleyin: [Müşteriden nakde tümleştirmesi](https://www.youtube.com/watch?v=AVV9x5x-XCg).
+Aday'dan nakite tümleştirmesi hakkında daha fazla bilgi için kısa YouTube videosu'nu izleyin [Aday'dan nakite tümleştirme](https://www.youtube.com/watch?v=AVV9x5x-XCg).
 
 Geçerli sürümde, Müşteri adayından nakde çözümü aşağıdaki türlerde doğrudan eşitleme sağlar:
 
@@ -47,13 +46,13 @@ Geçerli sürümde, Müşteri adayından nakde çözümü aşağıdaki türlerde
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations için sistem gereksinimleri
 Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir:
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (Aralık 2017)
+### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (Aralık 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (Aralık 2017) - Uygulama derlemesi 7.3.11971.56116 Platform Güncelleştirmesi 12 ile birlikte (7.0.4709.41129)
+- Dynamics 365 for Finance and Operations, Enterprise Edition (Aralık 2017) - Uygulama yapısı 7.3.11971.56116 Platform Güncelleştirmesi 12 ile (7.0.4709.41129)
 
 ### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) - platform güncelleştirmesi 8 ile birlikte (uygulama derlemesi 7.2.11792.56024, platform derlemesi 7.0.4565.16212 ile birlikte).
+- Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) - platform güncelleştirmesi 8 ile (uygulama yapısı 7.2.11792.56024, platform yapısı 7.0.4565.16212 ile).
 - Aşağıdaki düzeltmeler gereklidir:
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** - Bu düzeltme Veri Tümleştirme özelliğiyle Sales'den Finance and Operations'a satış siparişi eşitlemesine olanak tanır. Başka geliştirmeler de içerir.
@@ -65,7 +64,7 @@ Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir
 
 ### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations sürüm 1611 (Kasım 2016)
 
-- Dynamics 365 for Finance and Operations sürüm 1611 (Kasım 2016), platform güncelleştirmesi 8 veya üstü ile birlikte
+- Dynamics 365 for Finance and Operations sürüm 1611 (Kasım 2016)  platform güncelleştirmesi 8 veya daha yüksek ile
 
 - Aşağıdaki düzeltmeler gereklidir:
 
@@ -81,6 +80,5 @@ Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir
 
 Müşteri adayından nakde çözümünü kullanmak için aşağıdaki bileşenleri yüklemeniz gerekir:
 
-- Dynamics 365 for Sales sürüm 1612 (8.2.1.207) (DB 8.2.1.207) çevrimiçi veya sonraki bir sürüm.
-- Dynamics 365 for Sales için aday müşteriden nakde çözümü, sürüm 1.15.0.0 veya üstü. Çözüm AppSource'tan indirilebilir. [Download Dynamics 365, Aday Müşteriden Nakde](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
-
+- Dynamics 365 for Sales sürüm 1612 (8.2.1.207) (DB 8.2.1.207) çevrimiçi veya sonraki bir sürüm
+- Dynamics 365 for Sales, sürüm 1.15.0.0 veya sonraki sürüm için Aday'dan nakite çözüm. Çözüm AppSource'tan indirilebilir. [Download Dynamics 365, Aday Müşteriden Nakde](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).

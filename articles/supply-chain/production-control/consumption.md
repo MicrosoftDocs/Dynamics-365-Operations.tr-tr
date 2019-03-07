@@ -1,13 +1,13 @@
 ---
-title: "Malzeme tüketimini hesapla"
-description: "Bu makalede, malzeme tüketiminin hesaplanmasına ilişkin çeşitli seçenekler hakkında bilgiler sağlanmaktadır."
+title: Malzeme tüketimini hesapla
+description: Bu makalede, malzeme tüketiminin hesaplanmasına ilişkin çeşitli seçenekler hakkında bilgiler sağlanmaktadır.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMDesignerEditBOM, BOMTable, ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3e4010b5abb6b5a871d098422f1489cb2db3a071
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f674a1f0051ee4b228b8a92f717ef5348a452bed
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316200"
 ---
-
 # <a name="calculate-material-consumption"></a>Malzeme tüketimini hesapla
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Adım tüketimi, miktar aralıklarındaki sabit tüketimi hesaplamak için kulla
 | 200,00      | 40,0000  |
 
 Ürün reçetesi (BOM) miktarı 1 ve üretim miktarı 110'dur. Tüketim formülü Başlangıç serisi (Miktar) = Tüketim'dir. Ürün miktarı 110 olduğundan, "100 seriden başlayarak" ayarına düşer. Bu nedenle miktar 20'dir.
-
 
 
 

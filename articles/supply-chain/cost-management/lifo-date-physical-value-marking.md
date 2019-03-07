@@ -1,13 +1,13 @@
 ---
-title: "Fiziksel değer ve işaretleme ile LIFO Tarihi"
-description: "Son giren ilk çıkar Tarihi (LIFO Tarihi), LIFO ilkesine dayanan bir stok modelidir. Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır. LIFO Tarihini kullanarak, çıkıştan önce hiçbir giriş yoksa, çıkış, çıkış tarihinden sonraki tüm girişlere karşılık olarak kapatılır. Aynı tarihteki birkaç çıkış son çıkış, son giriş sırasıyla kapatılabilir."
+title: Fiziksel değer ve işaretleme ile LIFO Tarihi
+description: Son giren ilk çıkar Tarihi (LIFO Tarihi), LIFO ilkesine dayanan bir stok modelidir. Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır. LIFO Tarihini kullanarak, çıkıştan önce hiçbir giriş yoksa, çıkış, çıkış tarihinden sonraki tüm girişlere karşılık olarak kapatılır. Aynı tarihteki birkaç çıkış son çıkış, son giriş sırasıyla kapatılabilir.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3913801eb35faec858ef4b8e1e5056b755054218
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0b94d3f23c929c45a67894bd08706144c9226491
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311738"
 ---
-
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile LIFO Tarihi
 
 [!include [banner](../includes/banner.md)]
@@ -68,7 +67,7 @@ Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanılmadığ�
 - Stok hareketleri dikey oklarla temsil edilir.
 - Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
 - Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
-- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@Birim fiyatı biçiminde belirtilir.
 - Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
 - Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
 - Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
@@ -103,7 +102,7 @@ Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığın
 - Stok hareketleri dikey oklarla temsil edilir.
 - Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
 - Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
-- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@Birim fiyatı biçiminde belirtilir.
 - Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
 - Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
 - Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
@@ -149,14 +148,13 @@ Aşağıdaki çizimde, çıkışlar ve girişler arasında işaretleme kullanıl
 - Stok hareketleri dikey oklarla temsil edilir.
 - Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
 - Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
-- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@Birim fiyatı biçiminde belirtilir.
 - Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
 - Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
 - Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
 - Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki stok hareket nakillerinin sırasını belirtir.
 - Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
 - Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
-
 
 
 

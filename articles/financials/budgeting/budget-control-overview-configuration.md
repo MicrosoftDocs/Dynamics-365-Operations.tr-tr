@@ -1,13 +1,13 @@
 ---
-title: "Bütçe denetimine genel bakış"
-description: "Bu makale bütçe denetimini tanıtır ve mali kaynakları yönetebilmeniz için Microsoft Dynamics 365 for Finance and Operations içinde bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlar."
+title: Bütçe denetimine genel bakış
+description: Bu makale bütçe denetimini tanıtır ve mali kaynakları yönetebilmeniz için Microsoft Dynamics 365 for Finance and Operations içinde bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,24 +18,23 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308541"
 ---
-
-# <a name="budget-control-overview"></a>Bütçe denetimine genel bakış 
+# <a name="budget-control-overview"></a>Bütçe denetimine genel bakış
 
 [!include [banner](../includes/banner.md)]
 
 Bu makale bütçe denetimini tanıtır ve mali kaynakları yönetebilmeniz için Microsoft Dynamics 365 for Finance and Operations içinde bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlar.
 
-<a name="overview"></a>Özet
+<a name="overview"></a>Genel bakış
 --------
 
-Microsoft Dynamics 365 for Finance and Operations'ta bütçe kontrolü bir organizasyonun mali kaynaklarının hesap planları, iş akışları, kullanıcı grupları, kaynak belgeleri ve günlükleri, kullanılabilir fonların yapılandırılabilir hesabı, bütçe döngüleri ve eşikler üzerinden yönetimini desteklemektedir. Denetimler oluşturulduktan sonra bir organizasyon mali yıl boyunca mali kaynaklarını planlayabilir, ölçebilir, yönetebilir ve kestirebilir. 
+Microsoft Dynamics 365 for Finance and Operations'da bütçe kontrolü bir organizasyonun mali kaynaklarının hesap planları, iş akışları, kullanıcı grupları, kaynak belgeleri ve günlükleri, kullanılabilir fonların yapılandırılabilir hesabı, bütçe döngüleri ve eşikler üzerinden yönetimini desteklemektedir. Denetimler oluşturulduktan sonra bir organizasyon mali yıl boyunca mali kaynaklarını planlayabilir, ölçebilir, yönetebilir ve kestirebilir. 
 
 Bütçeler Finance and Operations içinde onaylandıktan sonra bir kuruluşun harcama bütçesini kaydetmek amacıyla bütçe kayıt girişleri oluşturmak için bütçe planlarını kullanabilirsiniz. Alternatif olarak, bütçe planlama işlevini kullanmak yerine bir üçüncü taraf programın bütçe kayıt girişlerini oluşturabilir veya içeri aktarabilirsiniz. 
 
@@ -128,4 +127,3 @@ Bütçe denetimi açık konuma getirildikten sonra kullanıcılar, bütçe denet
 Bu sayfadan, kullanıcılar **Döneme göre bütçe denetim istatistikleri** sayfasının ayrıntılarına girerek belirli bir bütçe denetim boyutu birleşimi için bütçe kullanılabilirliği ayrıntılarını ve rezervasyonları görüntüleyebilir. Kullanıcılar ayrıca bütçe denetiminde kullanılan tüm mali boyut birleşimlerinin bütçe kullanılabilirliğini görüntülemek için **Bütçe denetimi istatistiği** sayfasının ayrıntılarına girebilir. 
 
 Bütçe denetimi satın alma siparişleri için etkinleştirilmişse bütçe yöneticisi bütçe kontrolü uyarıları ve hataları olan onaylanmamış tüm satın alma siparişlerinin sırasını görüntülemek için **Genel muhasebe bütçeleri ve tahminleri** çalışma alanını kullanabilir. Bütçe yöneticisi yapılandırılmış bütçe aşım izinlerine sahipse satın alma siparişlerini doğrudan çalışma alanında onaylanabilir.    
-

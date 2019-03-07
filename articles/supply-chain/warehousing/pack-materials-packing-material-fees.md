@@ -1,13 +1,13 @@
 ---
-title: "Ambalaj malzemeleri ve ücretler"
-description: "Ambalaj malzemesi masrafları, belirli aralıklarla bir geri dönüştürme şirketine ödenmektedir. Bir ambalaj birimini meydana getiren her malzeme için ağırlık birimi başına bir tutar ödenir. Ambalaj malzemesi masrafları hesaplanır ve raporlanır, fakat masraflar bir kuruma ödenecek vergiler olarak görülmediğinden, genel muhasebeye hareket nakledilmez."
+title: Ambalaj malzemeleri ve ücretler
+description: Ambalaj malzemesi masrafları, belirli aralıklarla bir geri dönüştürme şirketine ödenmektedir. Bir ambalaj birimini meydana getiren her malzeme için ağırlık birimi başına bir tutar ödenir. Ambalaj malzemesi masrafları hesaplanır ve raporlanır, fakat masraflar bir kuruma ödenecek vergiler olarak görülmediğinden, genel muhasebeye hareket nakledilmez.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c188651fe8ba3fe3f9678f36ab11ae886ef6f1cf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312313"
 ---
-
 # <a name="packing-materials-and-fees"></a>Ambalaj malzemeleri ve ücretler
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,6 @@ Müşteriler ambalaj malzemesi ücretlerini ödüyorsa, müşterilerin ambalaj m
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>Faturalarda ambalaj malzemesi ağırlıklarını yazdırma
 Ambalaj malzemesi ağırlıklarını yazdırmayı ve faturadaki ambalaj malzemesi ücretlerini kimin ödeyeceğini belirtebilirsiniz. Ambalaj koduna göre ağırlıklar özetlenmiştir.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Elektronik raporlama (ER) hedefleri
-description: "Her bir Elektronik raporlama (ER) biçimi yapılandırması ve bunun çıkış bileşeni (bir klasör veya bir dosya) için bir hedef yapılandırabilirsiniz. Uygun erişim hakları verilmiş kullanıcılar çalışma zamanında hedef ayarlarını da değiştirebilir. Bu makalede, ER hedef yönetimi, desteklenen hedeflerin türleri ve güvenlik ile ilgili hususlar açıklanır."
+description: Her bir Elektronik raporlama (ER) biçimi yapılandırması ve bunun çıkış bileşeni (bir klasör veya bir dosya) için bir hedef yapılandırabilirsiniz. Uygun erişim hakları verilmiş kullanıcılar çalışma zamanında hedef ayarlarını da değiştirebilir. Bu makalede, ER hedef yönetimi, desteklenen hedeflerin türleri ve güvenlik ile ilgili hususlar açıklanır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314935"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Her bir Elektronik raporlama (ER) biçimi yapılandırması ve bunun çıkış b
 Elektronik raporlama (ER) biçim yapılandırmaları genellikle en az bir çıkış bileşeni içerir: dosya. Genelde yapılandırmalar tek veya birden fazla klasörde gruplanan farklı türlerde birden fazla dosya çıkış bileşeni içerir (örneğin, XML, TXT veya XLSX). ER hedef yönetimi her bir bileşen çalıştırıldığında ne olduğunu önceden yapılandırmanızı sağlar. Bir yapılandırma çalıştırıldığında, varsayılan olarak, kullanıcının bir dosyayı açmasına veya kaydetmesine izin veren bir iletişim kutusu gösterilir. Aynı çalışma biçimi bir ER yapılandırmasını içe aktardığınızda ve bunun için belli bir hedef yapılandırmadığınızda da kullanılır. Ana çıkış bileşeni için bir hedef oluşturulduktan sonra bu hedef varsayılan davranışı geçersiz kılar ve klasör veya dosya hedef ayarlarına göre gönderilir.
 
 ## <a name="availability-and-general-prerequisites"></a>Kullanılabilirlik ve genel önkoşulları
-ER hedeflerinin işlevselliği Microsoft Dynamics AX 7.0 (Şubat 2016) sürümünde kullanılamaz. Bu nedenle, bu konuda açıklanan tüm işlevleri kullanabilmek için Microsoft Dynamics 365 for Operations sürüm 1611'i (Kasım 2016) yüklemeniz gerekir. Alternatif olarak, aşağıdaki önkoşullardan birini de yükleyebilirsiniz. Ancak, bu alternatifin daha sınırlı bir ER hedef deneyimi sağladığını unutmayın.
+ER hedeflerinin işlevselliği Microsoft Dynamics AX 7.0 (Şubat 2016) sürümünde kullanılamaz. Bu nedenle, bu konuda açıklanan tüm işlevleri kullanabilmek için Microsoft Dynamics 365 for Operations sürüm 1611 (Kasım 2016) yüklemeniz gerekir. Alternatif olarak, aşağıdaki önkoşullardan birini de yükleyebilirsiniz. Ancak, bu alternatifin daha sınırlı bir ER hedef deneyimi sağladığını unutmayın.
 
 - Microsoft Dynamics AX uygulama sürümü 7.0.1 (Mayıs 2016)
 - ER hedef yönetimi [uygulama düzeltmesi](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
@@ -107,7 +106,7 @@ Konum dosyanın kaydedildiği yeri belirler. **Arşiv** hedefi etkinleştirildik
 
 Dosyayı belirlenen bir SharePoint klasörüne kaydedebilirsiniz. Varsayılan SharePoint sunucusunu **Kuruluş yönetimi** &gt; **Belge yönetimi** &gt; **Belge yönetim parametreleri** üzerinde, **SharePoint** sekmesinde tanımlarsınız. SharePoint klasörü yapılandırıldıktan sonra, ER çıkışının belge türü için kaydedileceği klasör olarak seçebilirsiniz.
 
-[![Bir SharePoint klasörünü seçme](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
+[![Bir SharePoint klasörü seçmek](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
 #### <a name="azure-storage"></a>Azure Depolama
 
@@ -165,4 +164,3 @@ Biçiminizin ER yapılandırmalarında kullanılması ön koşuldur. Kendi biçi
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
-

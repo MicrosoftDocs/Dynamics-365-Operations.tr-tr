@@ -1,13 +1,13 @@
 ---
-title: "Bütçe planlama"
-description: "Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir."
+title: Bütçe planlama
+description: Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311646"
 ---
-
 # <a name="budget-planning"></a>Bütçe planlama
 
 [!include [banner](../includes/banner.md)]
@@ -260,7 +259,6 @@ B. Bütçeleme &gt; Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandır
 C. Bütçeleme &gt; Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandırma seçimlerini yapın. İş Akışı Aşamaları sekmesinde, A adımında oluşturulan iş akışı otomatik onaylamayı Başlangıç ve Gönderilen aşamalarıyla ilişkilendirin 
 
 [![Bütçeleme ve bütçe planlama](./media/screenshot42.png)](./media/screenshot42.png)  
-
 
 
 

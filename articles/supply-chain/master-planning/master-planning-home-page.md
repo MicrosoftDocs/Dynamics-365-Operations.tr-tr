@@ -1,32 +1,31 @@
 ---
-title: "Master planlama ana sayfası"
-description: "Master planlama, şirketlerin şirket hedeflerini karşılamak için gelecekteki hammadde ve kapasite gereksinimini belirlemesine ve planlamasına olanak tanır."
+title: Master planlama ana sayfası
+description: Master planlama, şirketlerin şirket hedeflerini karşılamak için gelecekteki hammadde ve kapasite gereksinimini belirlemesine ve planlamasına olanak tanır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314797"
 ---
-
 # <a name="master-planning-home-page"></a>Master planlama ana sayfası
 
 [!include [banner](../includes/banner.md)]
@@ -69,10 +68,10 @@ Aşağıdaki öğrenme haritası, Master planlama modülünün çerçevesini olu
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 ### <a name="roadmaps"></a>Yol haritaları
-Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) bölümüne gidin.
+Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin.
 
 ### <a name="blogs"></a>Bloglar
-[Dynamics AX İmalat Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/axmfg) ve [Dynamics AX'te Tedarik Zinciri Yönetimi Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/dynamicsaxscm) Master planlama ve diğer çözümler hakkında pek çok fikir, haber ve bilgi bulabilirsiniz.
+[Dynamics AX İmalat Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/axmfg) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/dynamicsaxscm) Master planlama ve diğer çözümler hakkında pek çok fikir, haber ve bilgi bulabilirsiniz.
 
 ### <a name="task-guides"></a>Görev kılavuzları
 Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada **Yardım** düğmesine tıklayın.
@@ -84,7 +83,6 @@ Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşıla
 -  [Talep tahmini işlevini genişletme](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [Master planlama: Performans sorunlarını gidermek için ipuçları ve püf noktaları](https://youtu.be/7v8BPmEs9Dg)
 -  [Yardım edin! MRP yavaş!](https://youtu.be/RLXybx20B5o)
-
 
 
 

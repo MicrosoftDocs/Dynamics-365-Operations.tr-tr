@@ -1,13 +1,13 @@
 ---
-title: "Kısmi satıcı ödemesini iskonto tarihinden önce, iskonto tarihinde nihai bir ödemeyle kapatma"
-description: "Bu makalede, bazısı nakit iskonto dönemi dahilinde, diğerleri nakit iskonto dönemi haricinde olmak üzere birden fazla kısmi ödemenin yapıldığı bir senaryo boyunca size eşlik edilmektedir."
+title: Kısmi satıcı ödemesini iskonto tarihinden önce, iskonto tarihinde nihai bir ödemeyle kapatma
+description: Bu makalede, bazısı nakit iskonto dönemi dahilinde, diğerleri nakit iskonto dönemi haricinde olmak üzere birden fazla kısmi ödemenin yapıldığı bir senaryo boyunca size eşlik edilmektedir.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cdbcc990ddb20d126f2e0309bcb617640989f027
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 683fb598a62cf993d0db26ffd492b8c3354a92d3
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313555"
 ---
-
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Kısmi satıcı ödemesini iskonto tarihinden önce, iskonto tarihinde nihai bir ödemeyle kapatma
 
 [!include [banner](../includes/banner.md)]
@@ -118,7 +117,6 @@ April sonra ödemeyi deftere nakleder. **Satıcı hareketleri** sayfasını açt
 | DISC-10020 | Nakit iskontosu    | 1/7/2015  |         | 3,00                                 |                                       | 0,00    | ABD Doları      |
 | APP-10021  | Ödeme          | 15/7/2015 |         | 693,00                               |                                       | 0,00    | ABD Doları      |
 | DISC-10021 | Nakit iskontosu    | 15/7/2015 |         | 7,00                                 |                                       | 0,00    | ABD Doları      |
-
 
 
 

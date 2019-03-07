@@ -1,13 +1,13 @@
 ---
-title: "Soru formları"
-description: "Bu konu, anketler hakkında genel bilgi ve daha ayrıntılı bilgiler için bağlantılar sağlar. Bir anket çeşitli amaçlarla bilgi toplamak için kullanılan bir soru kümesidir. Soru formları tasarlayabilir, oluşturabilir, dağıtabilir, doldurabilir ve ardından sonuçları çözümleyebilirsiniz."
+title: Soru formları
+description: Bu konu, anketler hakkında genel bilgi ve daha ayrıntılı bilgiler için bağlantılar sağlar. Bir anket çeşitli amaçlarla bilgi toplamak için kullanılan bir soru kümesidir. Soru formları tasarlayabilir, oluşturabilir, dağıtabilir, doldurabilir ve ardından sonuçları çözümleyebilirsiniz.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306541"
 ---
-
 # <a name="questionnaires"></a>Soru formları
 
 [!include [banner](includes/banner.md)]
@@ -58,5 +57,4 @@ Aşağıdaki tablo çekirdek anket görevleri hakkındaki bilgilerin bağlantıl
 [Soru formlarını dağıtma ve tamamlama](distribute-questionnaires.md)
 
 [Soru formlarının sonuçlarını görüntüleyin ve değerlendirin](evaluate-questionnaire-results.md)
-
 

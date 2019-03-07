@@ -1,30 +1,29 @@
 ---
-title: "Bulut ve şirket içi özelliklerin karşılaştırması"
-description: "Bu konu, hangi özelliklerin Bulut ve şirket içinde desteklendiğini gösterir."
+title: Bulut ve şirket içi özelliklerin karşılaştırması
+description: Bu konu, hangi özelliklerin Bulut ve şirket içinde desteklendiğini gösterir.
 author: robinarh
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations
 ms.custom: 89563
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
+ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 596cfa056c6f2e64f554b643bb5a61d09c7bf20c
-ms.openlocfilehash: 58bba3dead4d2a8ed3ae424694377e410df16f4c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313992"
 ---
-
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Bulut ve şirket içi özelliklerin karşılaştırması
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Aşağıdaki tablolar ürün alanlarını listeler. Bulut ve şirket içi deste�
 | | Power BI için Maliyet muhasebesi içerik paketi | Evet | Hayır |
 | | Mobil uygulama için Maliyet muhasebesi çalışma alanı | Evet | Hayır |
 | Maliyet yönetimi | | Evet | Evet |
-| | Power BI için Maliyet yönetimi içerik paketi | Evet | Hayır |
+| | Power BI için maliyet yönetimi içerik paketi | Evet | Hayır |
 | Veri yönetimi ve tümleştirmesi | | Evet | Evet |
 | | Yapılandırmaya dayalı eklenti | Evet | Hayır |
 | | Veriyi kendi veri ambarınıza dışa aktarın | Evet | Evet |
@@ -78,13 +77,13 @@ Aşağıdaki tablolar ürün alanlarını listeler. Bulut ve şirket içi deste�
 | | Otomatik ödeme | Evet | Hayır |
 | Tedarik ve kaynak atama | | Evet | Evet |
 | | Satınalma talebinden harici kataloğa çıkış | Evet | Hayır |
-| | Satınalma harcaması analizi Power BI raporları | Evet | Hayır |
+| | Satınalma ve harcama analizi Power BI raporları | Evet | Hayır |
 | Ürün bilgileri yönetimi | | Evet | Evet |
 | Ana ürün verileri | | Evet | Evet |
 | Üretim | | Evet | Evet |
 | | Üretim performansı Power BI raporları | Evet | Hayır |
 | Proje yönetimi ve muhasebe | | Evet | Evet |
-| Satış | | Evet | Evet |
+| Satışlar | | Evet | Evet |
 | | Satış ve karlılık performansı Power BI raporları | Evet | Hayır |
 | Güvenlik | | Evet | Evet |
 | Servis yönetimi | | Evet | Evet |
@@ -93,7 +92,7 @@ Aşağıdaki tablolar ürün alanlarını listeler. Bulut ve şirket içi deste�
 | Satıcı işbirliği | | Evet | Hayır |
 | Ambar yönetimi | | Evet | Evet |
 | | Mobil ambar uygulaması | Evet | Evet |
-| | Power BI raporları ambarlama | Evet | Hayır |
+| | Ambarlama Power BI raporları | Evet | Hayır |
 | Web istemcisi | | Evet | Evet |
 | | Görev kaydedici - Görev kayıtlarını BPM kitaplığından kaydet veya yükle | Evet | Hayır |
 | Destek | | Evet | Evet |
@@ -127,4 +126,3 @@ Aşağıdaki tablolar ürün alanlarını listeler. Bulut ve şirket içi deste�
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Şirket içi dağıtımlarda uygulanmayan özellikler](features-not-implemented-on-prem.md)
-

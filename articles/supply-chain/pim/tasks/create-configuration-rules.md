@@ -1,13 +1,13 @@
---- 
-title: "Yapılandırma kuralları oluşturma"
-description: "Bu yordam, çeşitli ürün reçetesi satırlarının oluşmasını engellemek veya zorlamak için boyut tabanlı yapılandırmada kullanılmak üzere konfigürasyon kurallarını oluşturur."
+---
+title: Yapılandırma kuralları oluşturma
+description: Bu yordam, çeşitli ürün reçetesi satırlarının oluşmasını engellemek veya zorlamak için boyut tabanlı yapılandırmada kullanılmak üzere konfigürasyon kurallarını oluşturur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable, BOMConfigRule, ConfigItemIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a315ddecd2e10f508b86ac8ea18a36df71616963
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 71f429d3aba1b5c51b35b0d08337f69094d0b135
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314751"
 ---
 # <a name="create-configuration-rules"></a>Yapılandırma kuralları oluşturma
 
@@ -54,5 +54,4 @@ Bu yordam, çeşitli ürün reçetesi satırlarının oluşmasını engellemek v
 17. Listede, seçili satırdaki bağlantıya tıklayın.
     * Tercih edilen yönteme göre seçilecek veya seçimi kaldırılacak madde numarasını seçin.  
 18. Sayfayı kapatın.
-
 

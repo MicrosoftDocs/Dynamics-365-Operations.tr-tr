@@ -1,13 +1,13 @@
 ---
-title: "Çevre birimlerini satış noktasına (POS) bağlama"
-description: "Bu konu, çevre birimlerinin Perakende POS'unuza nasıl bağlanacağı açıklanır."
+title: Çevre birimlerini satış noktasına (POS) bağlama
+description: Bu konu, çevre birimlerinin Perakende POS'unuza nasıl bağlanacağı açıklanır.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308794"
 ---
-
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Çevre birimlerini satış noktasına (POS) bağlama
 
 [!include [banner](includes/banner.md)]
@@ -188,4 +187,3 @@ Etkinleştirmeyle ilgili ek bilgiler cihazın etkinleştirme durumunu değiştir
 ### <a name="client-data-synchronization"></a>İstemci verilerini eşitleme
 
 Cihazın etkinleştirme durumundaki değişiklikler hariç POS istemcisindeki tüm değişikliklerin etkinleştirilmesi için kanal veritabanıyla eşitlenmesi gerekir. Kanal veritabanındaki değişiklikleri eşitlemek için **Perakende** &gt; **Perakende BT'si** &gt; **Dağıtım planı**'na gidin ve gerekli dağıtım planını çalıştırın. İstemci değişiklikleri için "Kayıtlar" ve "Kanal konfigürasyonu" dağıtım planlarını çalıştırmalısınız.
-

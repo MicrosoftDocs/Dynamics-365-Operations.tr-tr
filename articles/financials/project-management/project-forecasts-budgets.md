@@ -1,13 +1,13 @@
 ---
-title: "Proje tahminleri ve bütçeler"
-description: "Microsoft Dynamics 365 for Finance and Operations projelerinizi yönetmeniz ve kontrol etmeniz için proje tahminleri ve proje bütçeleri sunar."
+title: Proje tahminleri ve bütçeler
+description: Microsoft Dynamics 365 for Finance and Operations, projelerinizi yönetmek ve denetlemek için proje tahminleri ve proje bütçeleri sağlar.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310404"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>Proje tahminleri ve bütçeler
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations, projelerinizi yönetmeniz ve kontrol etmeniz için iki yol sunar: proje tahminleri ve proje bütçeleri. 
+Microsoft Dynamics 365 for Finance and Operations, projelerinizi yönetmek ve denetlemek için iki yol sunar: proje tahminleri ve proje bütçeleri. 
 
 Organizasyonunuz bir operasyonel perspektife sahipse ve eğer belirli hareketlerden elde edilen gelirlere ve çıkan maliyetlere odaklanıyorsa tahmin yöntemini kullanın. Eğer organizasyonunuz daha çok mali tutarlara odaklanıyorsa proje bütçeleme yöntemini kullanın. 
 
@@ -80,7 +79,6 @@ Proje bütçeleri otomatik olarak iki tahmin modeliyle ilişkilendirilir, biri o
 Tahmin modellerinin tek katmanlı bir hiyerarşisi vardır. Bu da başka bir deyişle bir proje tahmininin, bir tahmin modeliyle ilişkilendirilmesi gerektiği anlamına gelir.
 
 Proje tahmini kullanırsanız, modelleri alt model olarak tanımlayabilirsiniz. Tahminleri departmana, süreye veya bölgeye göre oluşturabilirsiniz. Örneğin, bir yıl için bir tahmin modeli oluşturabilir ve sonra Kuzeydoğu, Güneydoğu, Kuzeybatı ve Güneybatı için bölgesel tahminleri için bölge başkanlarının göndereceği alt modeller oluşturabilirsiniz. Kullanılabilir raporlarda farklı seçenekleri belirleyerek, toplam tahmine veya alt modele göre bilgileri görüntüleyebilirsiniz.
-
 
 
 
