@@ -1,63 +1,61 @@
 ---
-title: "Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (Temmuz 2018)"
-description: "Bu konuda, Microsoft Dynamics 365 for Talent Core HR'deki yeni veya değişen özellikler açıklanmaktadır."
+title: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (Temmuz 2018)
+description: Bu konuda, Microsoft Dynamics 365 for Talent Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 07/31/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 330a4e1b820f1898bbbee15f8ec8fa427f30807f
 ms.openlocfilehash: 5cf1c17c3b833805a4797ec0fc7278ce3546ac2e
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306615"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a><span data-ttu-id="9a4bd-103">Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (Temmuz 2018)</span><span class="sxs-lookup"><span data-stu-id="9a4bd-103">What's new or changed in Dynamics 365 for Talent Core HR (July 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a><span data-ttu-id="efd97-103">Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (Temmuz 2018)</span><span class="sxs-lookup"><span data-stu-id="efd97-103">What's new or changed in Dynamics 365 for Talent Core HR (July 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="9a4bd-104">Bu konuda, Microsoft Dynamics 365 for Talent Core HR'deki yeni veya değişen özellikler açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-104">This topic describes features that are either new or changed in Microsoft Dynamics 365 for Talent Core HR.</span></span>
+<span data-ttu-id="efd97-104">Bu konuda, Microsoft Dynamics 365 for Talent Core HR'daki yeni veya değişen özellikler açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="efd97-104">This topic describes features that are either new or changed in Microsoft Dynamics 365 for Talent Core HR.</span></span>
 
-## <a name="powerapps-personalization"></a><span data-ttu-id="9a4bd-105">PowerApps kişiselleştirmesi</span><span class="sxs-lookup"><span data-stu-id="9a4bd-105">PowerApps personalization</span></span>
+## <a name="powerapps-personalization"></a><span data-ttu-id="efd97-105">PowerApps kişiselleştirmesi</span><span class="sxs-lookup"><span data-stu-id="efd97-105">PowerApps personalization</span></span>
 
-<span data-ttu-id="9a4bd-106">Microsoft Dynamics 365 for Talent, Microsoft PowerApps ile tümleştirmeyi destekler.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-106">Microsoft Dynamics 365 for Talent supports integration with the Microsoft PowerApps service.</span></span> <span data-ttu-id="9a4bd-107">PowerApps, geliştiricilerin ve teknik olmayan kullanıcıların mobil cihazlar, tabletler ve web için kod yazmak zorunda kalmadan özel iş uygulamaları oluşturmalarına olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-107">PowerApps lets both developers and non-technical users build custom business apps for mobile devices, tablets, and the web without having to write code.</span></span> <span data-ttu-id="9a4bd-108">Sizin, kuruluşunuzun veya daha geniş bir ekosistemin PowerApps kullanarak geliştirdiği uygulamalar, ürünün işlevselliğini artırmak amacıyla Talent istemcisine katıştırılabilir.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-108">Apps that you, your organization, or the broader ecosystem develop by using PowerApps can then be embedded in the Talent client to augment the product's functionality.</span></span> <span data-ttu-id="9a4bd-109">Örneğin, başka bir sistemden alınan bilgilerle Talent'a destek olan bir uygulama oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-109">For example, you might build an app that supplements Talent with information that is retrieved from another system.</span></span>
+<span data-ttu-id="efd97-106">Microsoft Dynamics 365 for Talent Microsoft PowerAppshizmeti ile tümleştirmeyi destekler.</span><span class="sxs-lookup"><span data-stu-id="efd97-106">Microsoft Dynamics 365 for Talent supports integration with the Microsoft PowerApps service.</span></span> <span data-ttu-id="efd97-107">PowerApps, geliştiricilerin ve teknik olmayan kullanıcıların mobil cihazlar, tabletler ve web için kod yazmak zorunda kalmadan özel iş uygulamaları oluşturmalarına olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="efd97-107">PowerApps lets both developers and non-technical users build custom business apps for mobile devices, tablets, and the web without having to write code.</span></span> <span data-ttu-id="efd97-108">Sizin, kuruluşunuzun veya daha geniş bir ekosistemin PowerApps kullanarak geliştirdiği uygulamalar, ürünün işlevselliğini artırmak amacıyla Talent istemcisine katıştırılabilir.</span><span class="sxs-lookup"><span data-stu-id="efd97-108">Apps that you, your organization, or the broader ecosystem develop by using PowerApps can then be embedded in the Talent client to augment the product's functionality.</span></span> <span data-ttu-id="efd97-109">Örneğin, başka bir sistemden alınan bilgilerle Talent'a destek olan bir uygulama oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="efd97-109">For example, you might build an app that supplements Talent with information that is retrieved from another system.</span></span>
 
-<span data-ttu-id="9a4bd-110">Daha fazla bilgi için bkz. [PowerApps uygulamalarını katıştırma](../fin-and-ops/get-started/embed-power-apps.md).</span><span class="sxs-lookup"><span data-stu-id="9a4bd-110">For more information, see [Embed PowerApps apps](../fin-and-ops/get-started/embed-power-apps.md).</span></span>
+<span data-ttu-id="efd97-110">Daha fazla bilgi için bkz. [PowerApps uygulamalarını katıştırma](../fin-and-ops/get-started/embed-power-apps.md).</span><span class="sxs-lookup"><span data-stu-id="efd97-110">For more information, see [Embed PowerApps apps](../fin-and-ops/get-started/embed-power-apps.md).</span></span>
 
-## <a name="ceridian-payroll-integration"></a><span data-ttu-id="9a4bd-111">Ceridian bordro tümleştirmesi</span><span class="sxs-lookup"><span data-stu-id="9a4bd-111">Ceridian payroll integration</span></span>
+## <a name="ceridian-payroll-integration"></a><span data-ttu-id="efd97-111">Ceridian bordro tümleştirmesi</span><span class="sxs-lookup"><span data-stu-id="efd97-111">Ceridian payroll integration</span></span>
 
-<span data-ttu-id="9a4bd-112">Talent ve Ceridian Dayforce arasında tümleştirme artık ABD, Kanada ve Meksika'da kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-112">Integration between Talent and Ceridian Dayforce is now available for the US, Canada, and Mexico.</span></span> <span data-ttu-id="9a4bd-113">Tümleştirme, geniş veri kategorileri kullanır.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-113">The integration uses broad categories of data.</span></span> <span data-ttu-id="9a4bd-114">Burada bazı örnekler verilmiştir:</span><span class="sxs-lookup"><span data-stu-id="9a4bd-114">Here are some examples:</span></span>
+<span data-ttu-id="efd97-112">Talent ve Ceridian Dayforce arasında tümleştirme artık ABD, Kanada ve Meksika'da kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="efd97-112">Integration between Talent and Ceridian Dayforce is now available for the US, Canada, and Mexico.</span></span> <span data-ttu-id="efd97-113">Tümleştirme, geniş veri kategorileri kullanır.</span><span class="sxs-lookup"><span data-stu-id="efd97-113">The integration uses broad categories of data.</span></span> <span data-ttu-id="efd97-114">Burada bazı örnekler verilmiştir:</span><span class="sxs-lookup"><span data-stu-id="efd97-114">Here are some examples:</span></span>
 
-- <span data-ttu-id="9a4bd-115">İnsan kaynakları verileri</span><span class="sxs-lookup"><span data-stu-id="9a4bd-115">Human resources data</span></span>
-- <span data-ttu-id="9a4bd-116">Ücret verileri</span><span class="sxs-lookup"><span data-stu-id="9a4bd-116">Compensation data</span></span>
-- <span data-ttu-id="9a4bd-117">Ödeme döngüleri, ödeme dönemleri ve kazanç kodları gibi bordro verileri</span><span class="sxs-lookup"><span data-stu-id="9a4bd-117">Payroll data, such as pay cycles, pay periods, and earning codes</span></span>
-- <span data-ttu-id="9a4bd-118">Çalışan verileri</span><span class="sxs-lookup"><span data-stu-id="9a4bd-118">Worker data</span></span>
+- <span data-ttu-id="efd97-115">İnsan kaynakları verileri</span><span class="sxs-lookup"><span data-stu-id="efd97-115">Human resources data</span></span>
+- <span data-ttu-id="efd97-116">Ücret verileri</span><span class="sxs-lookup"><span data-stu-id="efd97-116">Compensation data</span></span>
+- <span data-ttu-id="efd97-117">Ödeme döngüleri, ödeme dönemleri ve kazanç kodları gibi bordro verileri</span><span class="sxs-lookup"><span data-stu-id="efd97-117">Payroll data, such as pay cycles, pay periods, and earning codes</span></span>
+- <span data-ttu-id="efd97-118">Çalışan verileri</span><span class="sxs-lookup"><span data-stu-id="efd97-118">Worker data</span></span>
 
-<span data-ttu-id="9a4bd-119">Daha fazla bilgi için bkz. [Bordro tümleştirmenizi yapılandırma](configure-payroll-integration.md).</span><span class="sxs-lookup"><span data-stu-id="9a4bd-119">For more information, see [Configure your payroll integration](configure-payroll-integration.md).</span></span>
+<span data-ttu-id="efd97-119">Daha fazla bilgi için bkz. [Bordro tümleştirmenizi yapılandırma](configure-payroll-integration.md).</span><span class="sxs-lookup"><span data-stu-id="efd97-119">For more information, see [Configure your payroll integration](configure-payroll-integration.md).</span></span>
 
-## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a><span data-ttu-id="9a4bd-120">Çalışan vergi bölgeleri ABD'nin ötesine genişletildi</span><span class="sxs-lookup"><span data-stu-id="9a4bd-120">Worker tax regions have been expanded beyond the US</span></span>
+## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a><span data-ttu-id="efd97-120">Çalışan vergi bölgeleri ABD'nin ötesine genişletildi</span><span class="sxs-lookup"><span data-stu-id="efd97-120">Worker tax regions have been expanded beyond the US</span></span>
 
-<span data-ttu-id="9a4bd-121">ABD dışındaki vergi bölgeleri için destek eklendi.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-121">Support has been added for tax regions outside the United States.</span></span> <span data-ttu-id="9a4bd-122">Vergi bölgeleri çalışanlara atandığında bölgeler vergi hesaplamalarında ve harici bordro çözümleriyle tümleştirmelerde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-122">When tax regions are assigned to workers, they can drive tax calculations and can be used in integrations with external payroll solutions.</span></span>
+<span data-ttu-id="efd97-121">ABD dışındaki vergi bölgeleri için destek eklendi.</span><span class="sxs-lookup"><span data-stu-id="efd97-121">Support has been added for tax regions outside the United States.</span></span> <span data-ttu-id="efd97-122">Vergi bölgeleri çalışanlara atandığında bölgeler vergi hesaplamalarında ve harici bordro çözümleriyle tümleştirmelerde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="efd97-122">When tax regions are assigned to workers, they can drive tax calculations and can be used in integrations with external payroll solutions.</span></span>
 
-## <a name="the-title-field-has-been-expanded-in-talent"></a><span data-ttu-id="9a4bd-123">Talent'ta başlık alanı genişletildi</span><span class="sxs-lookup"><span data-stu-id="9a4bd-123">The title field has been expanded in Talent</span></span>
+## <a name="the-title-field-has-been-expanded-in-talent"></a><span data-ttu-id="efd97-123">Talent'ta başlık alanı genişletildi</span><span class="sxs-lookup"><span data-stu-id="efd97-123">The title field has been expanded in Talent</span></span>
 
-<span data-ttu-id="9a4bd-124">Bu güncelleştirmede başlıklar genişletildi.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-124">Titles have been expanded in this update.</span></span> <span data-ttu-id="9a4bd-125">Bu alan artık 65 karakter uzunluğundadır.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-125">The field is now 65 characters.</span></span> <span data-ttu-id="9a4bd-126">Bu değişiklik çalışanlar, pozisyonlar ve işler gibi başlığın seçildiği her yere uygulanmıştır.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-126">This change has been implemented everywhere that title is selected, such as workers, positions, and jobs.</span></span>
+<span data-ttu-id="efd97-124">Bu güncelleştirmede başlıklar genişletildi.</span><span class="sxs-lookup"><span data-stu-id="efd97-124">Titles have been expanded in this update.</span></span> <span data-ttu-id="efd97-125">Bu alan artık 65 karakter uzunluğundadır.</span><span class="sxs-lookup"><span data-stu-id="efd97-125">The field is now 65 characters.</span></span> <span data-ttu-id="efd97-126">Bu değişiklik çalışanlar, pozisyonlar ve işler gibi başlığın seçildiği her yere uygulanmıştır.</span><span class="sxs-lookup"><span data-stu-id="efd97-126">This change has been implemented everywhere that title is selected, such as workers, positions, and jobs.</span></span>
 
-## <a name="benefit-enrollment-status-report"></a><span data-ttu-id="9a4bd-127">Kazanç kayıt durumu raporu</span><span class="sxs-lookup"><span data-stu-id="9a4bd-127">Benefit enrollment status report</span></span>
+## <a name="benefit-enrollment-status-report"></a><span data-ttu-id="efd97-127">Kazanç kayıt durumu raporu</span><span class="sxs-lookup"><span data-stu-id="efd97-127">Benefit enrollment status report</span></span>
 
-<span data-ttu-id="9a4bd-128">Kazançlar için açık kayıt hakkında yerleşik raporlama, personelinizin açık kayıt sürecinin hangi aşamasında olduğunu kolayca anlamanıza yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-128">Built-in reporting about open enrollment for benefits helps you easily understand where your employees are in the open enrollment process.</span></span> <span data-ttu-id="9a4bd-129">Kaç personelin bu süreci tamamladığını, kaçının tamamlamak üzere olduğunu ve kaçının başlamadığını öğrenebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-129">You can learn how many employees have completed the process, are currently completing it, and haven't started it.</span></span> <span data-ttu-id="9a4bd-130">Ayrıca personel kaydı sırasında oluşan sorunları ve personel gönderimlerinin eksiksiz bir günlüğünü hızlıca görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-130">Additionally, you can quickly view any issues that occur during employee enrollment and a full log of all employee submissions.</span></span> <span data-ttu-id="9a4bd-131">Böylece, personel gönderimlerini kolaylıkla doğrulayabilir ve denetleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9a4bd-131">Therefore, you can easily verify and audit employee submissions.</span></span>
-
+<span data-ttu-id="efd97-128">Kazançlar için açık kayıt hakkında yerleşik raporlama, personelinizin açık kayıt sürecinin hangi aşamasında olduğunu kolayca anlamanıza yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="efd97-128">Built-in reporting about open enrollment for benefits helps you easily understand where your employees are in the open enrollment process.</span></span> <span data-ttu-id="efd97-129">Kaç personelin bu süreci tamamladığını, kaçının tamamlamak üzere olduğunu ve kaçının başlamadığını öğrenebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="efd97-129">You can learn how many employees have completed the process, are currently completing it, and haven't started it.</span></span> <span data-ttu-id="efd97-130">Ayrıca personel kaydı sırasında oluşan sorunları ve personel gönderimlerinin eksiksiz bir günlüğünü hızlıca görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="efd97-130">Additionally, you can quickly view any issues that occur during employee enrollment and a full log of all employee submissions.</span></span> <span data-ttu-id="efd97-131">Böylece, personel gönderimlerini kolaylıkla doğrulayabilir ve denetleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="efd97-131">Therefore, you can easily verify and audit employee submissions.</span></span>
