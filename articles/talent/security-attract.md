@@ -1,14 +1,14 @@
 ---
-title: "Attract'ta güvenlik ve rol yönetimi"
-description: "Bu konu, Microsoft Dynamics 365 for Talent - Attract'ta rol güvenliği hakkında bilgi sağlar."
+title: Attract'ta güvenlik ve rol yönetimi
+description: Bu konu, Microsoft Dynamics 365 for Talent - Attract içindeki rol güvenliği hakkında bilgi sağlar.
 author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374792"
 ---
-
-# <a name="security-and-role-management-in-attract"></a>Attract'ta güvenlik ve rol yönetimi
+# <a name="security-and-role-management-in-attract"></a>Attract'te güvenlik ve rol yönetimi
 
 [!include[banner](../includes/banner.md)]
 
@@ -108,7 +107,7 @@ Aşağıdaki ayrıcalıklar, başvuranların işle ilgili verileri ve başvurula
 | Aşamayı ilerlet           | Kullanıcı işe alma takımındaysa reddedebilir | Kullanıcı işe alma takımındaysa ilerleyebilir | İzin verilmiyor |
 | Teklif yönetimi başlat | Teklif yönetimini başlatabilir | Teklif faaliyeti üzerinde bir yapılandırma seçeneği vardır. | İzin verilmiyor |
 
-\*\*[Geri bildirim faaliyet kurulumu](./activities-attract.md#feedback-activity) içindeki yapılandırma seçeneği, görüşmecilerin birbirinin geribildirimini görüp görmediğini denetler.
+\*\*[Geri bildirim faaliyet kurulumu](activities-attract.md#feedback-activity) içindeki yapılandırma seçeneği, görüşmecilerin birbirinin geribildirimini görüp görmediğini denetler.
 
 ## <a name="process-templates"></a>Süreç şablonları
 
@@ -146,4 +145,3 @@ Adaylar, beceri havuza eklenen ancak bir işle ilişkili olmayan kişilerdir.
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profil - aday ayrıntıları | Oluşturma, okuma, güncelleştirme ve silme | Oluşturma, okuma, güncelleştirme ve silme | Erişim yok   |
 | Belgeler                   | Oluşturma, okuma, güncelleştirme ve silme | Oluşturma, okuma, güncelleştirme ve silme | Erişim yok   |
-

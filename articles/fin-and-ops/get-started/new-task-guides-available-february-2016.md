@@ -1,13 +1,13 @@
 ---
-title: "Yeni görev kılavuzları (Şubat 2016)"
-description: "Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.  Yayımlanan kitaplıklar (Şubat 2016) Microsoft Dynamics 365 for Operations için APQC Birleştirilmiş Kitaplık ve (Şubat 2016) Başlarken kılavuzunu içerir."
+title: Yeni görev kılavuzları (Şubat 2016)
+description: Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.  Yayımlanmış olan kitaplıklar arasında (Şubat 2016) APQC Unified Library for Microsoft Dynamics 365 for Operations ve (Şubat 2016) Başlangıç bulunmaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366455"
 ---
-
 # <a name="new-task-guides-february-2016"></a>Yeni görev kılavuzları (Şubat 2016)
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler. Yayımlanmış olan kitaplıklar arasında (Şubat 2016) APQC Unified Library for Microsoft Dynamics AX ve (Şubat 2016) Başlangıç bulunmaktadır.
 
-## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX için (Şubat 2016) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
+## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC Unified Library for Microsoft Dynamics AX içindeki görev kılavuzları (Şubat 2016)
 
 (Şubat 2016) APQC Birleştirilmiş kitaplığı Dynamics AX 7.0.0 sürümünün Yardım'ı için kullanılmak üzere tasarlanmış Görev kılavuzlarını içerir. Bu Görev kılavuzlarının yerelleştirilmiş sürümleri gerekiyorsa, bunları Microsoft Dynamics AX için (Mayıs 2016) APQC Birleştirilmiş Kitaplığı'nda bulabilirsiniz. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md).
 
@@ -647,4 +646,3 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 [Yeni veya güncelleştirilmiş Görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
-

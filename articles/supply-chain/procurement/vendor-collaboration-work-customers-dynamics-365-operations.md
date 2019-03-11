@@ -1,13 +1,13 @@
 ---
-title: "Müşterilerle satıcı iş birliği"
-description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations'da PO'lar ile çalışmak ve konsinye stoğu görüntülemek için satıcı iş birliğini nasıl kullanabileceğinizi açıklar."
+title: Müşterilerle satıcı iş birliği
+description: Bu konu, Microsoft Dynamics 365 for Finance and Operations'da PO'lar ile çalışmak ve konsinye stoğu görüntülemek için satıcı iş birliğini nasıl kullanabileceğinizi açıklar.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
 ms.reviewer: josaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342949"
 ---
-
-# <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı iş birliği
+# <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı işbirliği
 
 [!include [banner](../includes/banner.md)]
 
@@ -144,4 +143,3 @@ Erişilebilir bilgiler şunlardır: satıcı adı, adresleri, iletişim bilgiler
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md)
-

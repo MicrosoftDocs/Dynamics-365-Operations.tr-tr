@@ -1,13 +1,13 @@
---- 
-title: "Personelin yaralanma ve hastalık bilgilerini koruma"
-description: "Bazı ayar bilgileri burada kullanıldığından, 'Yaralanma ve hastalık ayarlama' görevini önce tamamlamanız tavsiye edilir."
+---
+title: Personelin yaralanma ve hastalık bilgilerini koruma
+description: Bazı ayar bilgileri burada kullanıldığından, 'Yaralanma ve hastalık ayarlama' görevini önce tamamlamanız tavsiye edilir.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332622"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Personelin yaralanma ve hastalık bilgilerini koruma
 
@@ -92,5 +92,4 @@ Bu görev, bir yaralanma veya hastalık örneği oluşturmanın temel adımları
     * Örnek: Kırık röntgende görünüyor, atel takıldı  
 36. Kaydet'e tıklayın.
     * Servis talebi her zaman güncelleştirilebilir.  Yaralanma veya hastalığın işlenmesini sürüyorsa vakayı 'süren iş' olarak ayarlayın.  Olayı bir defa kapattığınızda, yalnızca maliyet, tedavi ekleyip kaldırabilir veya olayla ilgili dosyalamalar yapabilirsiniz.  Diğer bilgileri değiştirmek için olayı yeniden açın.  
-
 

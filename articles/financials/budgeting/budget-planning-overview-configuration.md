@@ -1,13 +1,13 @@
 ---
-title: "Bütçe planlama genel bakış"
-description: "Bu makale bütçe planlamayı tanıtır ve bütçe planlamayı yapılandırmanıza ve bütçe planlama süreçleri oluşturmanıza yardımcı olacak bilgileri içerir."
+title: Bütçe planlama genel bakış
+description: Bu makale bütçe planlamayı tanıtır ve bütçe planlamayı yapılandırmanıza ve bütçe planlama süreçleri oluşturmanıza yardımcı olacak bilgileri içerir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329931"
 ---
-
 # <a name="budget-planning-overview"></a>Bütçe planlama genel bakış
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ Bu makale bütçe planlamayı tanıtır ve bütçe planlamayı yapılandırmanı
 
 Bir organizasyonun uygulayacağı bütçeleri hazırlanırken, bütçe planlama gerçekleştirirsiniz. Bir organizasyon, bütçe planlamayı yapılandırabilir ve ardından bütçe hazırlama ilkelerini, prosedürlerini ve gereksinimlerini karşılamak için bütçe planlama işlemleri ayarlayabilir. 
 
-Microsoft Dynamics 365 for Finance and Operations'ta kullanılan kavramları ve terimleri anladığınızda organizasyonunuzda bütçe planlaması uygulamanız kolaylaşır.
+Microsoft Dynamics 365 for Finance and Operations'da kullanılan kavramları ve terimleri anladığınızda organizasyonunuzda bütçe planlama uygulamanız kolaylaşacaktır.
 
 ### <a name="key-terms"></a>Önemli terimler
 
@@ -58,7 +57,7 @@ Bütçe planlamayı şu görevleri gerçekleştirmek için kullanabilirsiniz:
 -   Bütçe planlarını çalışma sayfaları, gerekçe belgeleri ve diğer eklerle birlikte gözden geçirme ve onay aşamalarına yönlendirin.
 -   Organizasyonun bir alt düzeyindeki birden fazla bütçe planını organizasyonun daha yüksek bir düzeyindeki tek bir ana bütçe planına birleştirin. Ayrıca, organizasyonun daha yüksek bir düzeyinde tek bir bütçe planı geliştirebilir ve bu bütçeyi organizasyonun daha düşük düzeylerine atayabilirsiniz.
 
-Bütçe planlama diğer Microsoft Dynamics 365 for Finance and Operations modülleri ile tümleşiktir. Bu nedenle, önceki bütçelere, fiili harcamalara, sabit kıymetlere ve insan kaynaklarına ait bilgi çağırabilirsiniz. Bütçe planlama ayrıca Microsoft Excel ve Microsoft Word ile de tümleşik olduğundan, bu programları kullanarak bütçe planlama verileri ile çalışabilirsiniz. Örneğin, bir bütçe yöneticisi bir bütçe planı senaryosundaki bir departmanın bütçe talebini bir Excel çalışma sayfasına aktarabilir. Veriler çalışma sayfasında analiz edilebilir, güncelleştirilebilir ve çizelge ile gösterilebilir ve ardından bütçe planı satırlarına geri yayınlanabilir.
+Bütçe planlama diğer Microsoft Dynamics 365 for Finance and Operations modülleriyle tümleştirilmiştir. Bu nedenle, önceki bütçelere, fiili harcamalara, sabit kıymetlere ve insan kaynaklarına ait bilgi çağırabilirsiniz. Bütçe planlama ayrıca Microsoft Excel ve Microsoft Word ile de tümleşik olduğundan, bu programları kullanarak bütçe planlama verileri ile çalışabilirsiniz. Örneğin, bir bütçe yöneticisi bir bütçe planı senaryosundaki bir departmanın bütçe talebini bir Excel çalışma sayfasına aktarabilir. Veriler çalışma sayfasında analiz edilebilir, güncelleştirilebilir ve çizelge ile gösterilebilir ve ardından bütçe planı satırlarına geri yayınlanabilir.
 
 ## <a name="configuring-budget-planning"></a>Bütçe planlamasını yapılandırma
 **Bütçe planlama yapılandırma** sayfası, bütçe planlama oluşturmak için ihtiyaç duyduğunuz ayarların birçoğunu içerir. Aşağıdaki bölümlerde bütçe planlama yapılandırılırken dikkate almanız gereken bazı önemli faktörler açıklanmıştır. Yapılandırmayı tamamladıktan sonra bütçe planlama sürecini ayarlarsınız.
@@ -188,7 +187,6 @@ Nihai aşama, **Eylemler** menüsünden bütçe planlama sürecini etkinleştirm
 **Eylemler** menüsündeki bir diğer kullanışlı komut da **Bütçe sürecinin durumunu göster** komutudur. Bu komut, planların iş akışı durumu, tutara ve birime göre özetler ve bütçe planlarına tek tıklamayla ulaşma vb. gibi ilgili verilerle birlikte, bir süreç içindeki bütçe planlarını grafiksel olarak gösterir.
 
 [![Bütçe planlama süreci durumu](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
 
 
 

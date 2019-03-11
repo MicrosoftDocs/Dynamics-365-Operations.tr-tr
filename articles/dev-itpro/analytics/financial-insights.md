@@ -1,13 +1,13 @@
 ---
 title: Mali Bilgiler
-description: "Mali Bilgiler mali anahtar performans göstergeleri (KPI'lar), mali tablolar ve grafikleri bir araya getirmek için Microsoft Power BI kullanır."
+description: Mali Bilgiler mali anahtar performans göstergeleri (KPI'lar), mali tablolar ve grafikleri bir araya getirmek için Microsoft Power BI kullanır.
 author: kweekley
 manager: AnnBe
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,20 +16,19 @@ ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308863"
 ---
-
 # <a name="financial-insights"></a>Mali Bilgiler
 
 [!include [banner](../includes/banner.md)]
 
-**Mali Bilgiler** mali anahtar performans göstergeleri (KPI'lar), mali tablolar ve grafikleri bir araya getirmek için Microsoft Power BI kullanır. Power BI Microsoft Dynamics 365 Finance and Operations içine katıştırılmıştır. **Mali Bilgiler**'in odağı analitik raporlamadır. Bir kuruluştaki kişiler görüntüleyebilir, araştırma yapabilir, anlayabilir ve harekete geçebilir. 
+**Mali Bilgiler** mali anahtar performans göstergeleri (KPI'lar), mali tablolar ve grafikleri bir araya getirmek için Microsoft Power BI kullanır. Power BI, Microsoft Dynamics 365 Finance and Operations içerisine katıştırılmıştır. **Mali Bilgiler**'in odağı analitik raporlamadır. Bir kuruluştaki kişiler görüntüleyebilir, araştırma yapabilir, anlayabilir ve harekete geçebilir. 
 
 **Mali Bilgiler** bir kuruluşun mali durumuna ilişkin eksiksiz bir görünüm sağlamak amacıyla genel muhasebe ve yardımcı muhasebe defterlerinden alınan verileri bir araya getirir.
 
@@ -87,7 +86,7 @@ Varlıklardaki verileri düzenli olarak güncelleştirmek için tekrarlayan bir 
 |-----------------------------------------|-------|------------|
 | CFO Genel Bakış çalışma alanını görüntüle             | Mali İşler Müdürü | Bu görev CFO'ya genel bakış çalışma alanına erişim sağlar. Varsayılan olarak, etkin şirket filtre olarak kullanılır. Ancak, kullanıcının diğer tüzel kişiliklere erişimi olup olmadığına bakılmaksızın tüm tüzel kişilikleri ekleyebilirsiniz. |
 | Geçerli şirketin mali bilgilerini görüntüle | <ul><li>Muhasebeci</li><li>Muhasebe müdürü</li><li>Muhasebe gözetmeni</li><li>Denetçi</li><li>Bütçe yöneticisi</li><li>Yönetim kurulu başkanı</li><li>Mali işler müdürü</li><li>Mali denetleyici</li></ul> | Bu görev Mali Bilgiler'e erişim olanağı sağlar. Varsayılan olarak, etkin şirket filtre olarak kullanılır. Başka tüzel kişilikler ekleyemezsiniz. |
-| Şirket içinde mali bilgileri görüntüle   | Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3'te bu görev bir role atanmamıştır. Sonraki sürümde, bu görev Mali işler müdürü rolüne atanacaktır. | Bu görev, CFO'ya genel bakış çalışma alanı için menü öğesine erişim sağlar. Varsayılan olarak, etkin şirket filtre olarak kullanılır. Ancak, kullanıcının diğer tüzel kişiliklere erişimi olup olmadığına bakılmaksızın tüm tüzel kişilikleri ekleyebilirsiniz. |
+| Şirket içinde mali bilgileri görüntüle   | Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 içinde bu göreve bir rol atanmamıştır. Sonraki sürümde, bu görev Mali işler müdürü rolüne atanacaktır. | Bu görev, CFO'ya genel bakış çalışma alanı için menü öğesine erişim sağlar. Varsayılan olarak, etkin şirket filtre olarak kullanılır. Ancak, kullanıcının diğer tüzel kişiliklere erişimi olup olmadığına bakılmaksızın tüm tüzel kişilikleri ekleyebilirsiniz. |
 
 
 ## <a name="financial-reporting-vs-finanical-insights"></a>Mali raporlama ile Mali bilgilerin karşılaştırılması
@@ -250,4 +249,3 @@ Aşağıda yer alan kaynaklardaki bilgiler, bir üretim ortamındaki **CFO'ya ge
 - <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
 - <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
-

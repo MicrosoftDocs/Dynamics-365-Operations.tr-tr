@@ -1,13 +1,13 @@
 ---
-title: "PowerBI.com çözümleri giriş sayfası"
-description: "Bu konuda, kullanılabilir PowerBI.com çözümleri listelenmektedir ve çözümler hakkında daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir."
+title: PowerBI.com çözümleri giriş sayfası
+description: Bu konuda, kullanılabilir PowerBI.com çözümleri listelenmektedir ve çözümler hakkında daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir.
 author: sericks007
 manager: AnnBe
 ms.date: 05/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 64b1c09b781b7bdbaf01a374e321b8dd9418f3da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 1a391c0111ad39cb8c4ec809eccb3eb7cfb18687
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316706"
 ---
-
 # <a name="powerbicom-solutions-home-page"></a>PowerBI.com çözümleri giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 for Finance and Operations ortamları için aşağıdaki PowerBI.com çözümleri kullanılabilir.
+Aşağıdaki PowerBI.com çözümleri Dynamics 365 for Finance and Operations ortamları için kullanılabilir.
 
 ## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>Lifecycle Services'dan (LCS) temin edilebilecek PowerBI.com çözümleri
 
@@ -59,12 +58,11 @@ LCS'nin Paylaşılan varlıklar kitaplığında aşağıdaki PowerBI.com çözü
 
 ## <a name="powerbicom-solutions-available-from-appsource"></a>AppSource'tan temin edilebilen PowerBI.com çözümleri
 
-Aşağıdaki PowerBI.com çözümleri [Microsoft AppSource](https://appsource.microsoft.com)'tan temin edilebilir.
+Aşağıdaki PowerBI.com çözümleri [Microsoft AppSource](https://appsource.microsoft.com) ortamlarından kullanılabilir.
 
 > [!NOTE]
-> Bu çözümler, [AppSource'da bulunan Power BI içerik paketleri](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) başlıklı konuda belirtildiği üzere, kullanım dışı bırakılmıştır.
+> Bu çözümler, [AppSource'da bulunan Power BI içerik paketleri başlıklı konuda belirtildiği üzere, kullanım dışı bırakılmıştır](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 - Maliyet yönetimi
 - [Mali performans](financial-performance-power-bi-content-pack.md)
 - [Perakende kanalı performansı ](retail-channel-performance-dashboard-power-bi-data.md)
-

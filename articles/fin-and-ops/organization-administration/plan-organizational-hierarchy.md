@@ -1,13 +1,13 @@
 ---
-title: "Kuruluş hiyerarşinizi planlama"
-description: "Kuruluşlar ve kuruluş hiyerarşilerini ayarlamadan önce işinizin nasıl en iyi nasıl modellendirileceğini anladığınızdan emin olun."
+title: Kuruluş hiyerarşinizi planlama
+description: Kuruluşlar ve kuruluş hiyerarşilerini ayarlamadan önce işinizin nasıl en iyi nasıl modellendirileceğini anladığınızdan emin olun.
 author: sericks007
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332001"
 ---
-
 # <a name="plan-your-organizational-hierarchy"></a>Kuruluş hiyerarşinizi planlama
 
 [!include [banner](../includes/banner.md)]
@@ -168,7 +167,7 @@ Tüzel kişilik, tüzel kişiliğin kayıtlı olduğu ülkenin/bölgenin vergi d
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Organizasyon tüzel kişilik olarak modellenmişse
 
-Finance and Operations tarafından desteklenen ülkeler/bölgeler için yasal raporların çoğu oluşturulabilir. Her ülke/bölge için hangi raporların kullanılabilir olduğu hakkında daha fazla bilgi için bkz. Finance and Operations için [Microsoft Dynamics Yerelleştirme Portalı](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (Bir CustomerSource oturumu gereklidir.)
+Finance and Operations tarafından desteklenen ülkeler/bölgeler için yasal raporların çoğu oluşturulabilir. Her ülke/bölge için hangi raporların kullanılabilir olduğu hakkında daha fazla bilgi için bkz. [Finance and Operations için Microsoft Dynamics Yerelleştirme Portalı](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (Bir CustomerSource girişi zorunludur.)
 
 > [!NOTE]
 > Finance and Operations'da genel muhasebedeki deftere nakil katmanı alt şirketten farklı bir muhasebe satndardı kullanan bir ana şirket için ayarlama girişleri yapmanıza olanak sağlar. Örneğin, genel olarak İngiltere'deki kabul görmüş muhasebe uygulamalarını kullanan (UK GAAP) bir şirket için deftere nakil katmanında ayarlama girişleri yapabilirsiniz. Bu girişler, ABD'deki genel kabul görmüş muhasebe ilkelerini (GAAP) kullanan bir ana şirkette birleştirilebilir. Ayarlama girişleri UK GAAP raporunu etkilemez.
@@ -243,4 +242,3 @@ Bir organizasyon hiyerarşisi uygularken aşağıdaki en iyi uygulamaları dikka
 - Temel yeniden yapılandırma senaryoları modellemeden önce bir etki analiz ve bir doğrulama testi gerçekleştirmek için hiyerarşinin geçerlilik tarihlerini kullanın.
 - Bir üretim ortamında yeni bir sürümü yayımlamadan önce hiyerarşi değiştirmek için taslak modunu kullanın.
 - Bir üretim ortamındaki bir hiyerarşiye organizasyon etkilemeye veya bu hiyerarşiden organizasyon çıkarmaya yetkili kişi sayısını sınırlandırın. Bu sayının sınırlandırılması, maliyetli hataların yapılması ihtimalini ve düzeltme ihtiyacını azaltacaktır.
-

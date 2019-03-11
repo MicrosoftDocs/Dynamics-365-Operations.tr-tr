@@ -1,13 +1,13 @@
---- 
-title: "Malların şirket içinde taşınması için transfer belgelerini ayarlama"
-description: "Bu yordam, bir şirket içinde malların taşınması için transfer belgeleri oluşturmayı gösterir."
+---
+title: Malların şirket içinde taşınması için transfer belgelerini ayarlama
+description: Bu yordam, bir şirket içinde malların taşınması için transfer belgeleri oluşturmayı gösterir.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 69542df1384bb36d89e2df5e5bc5fbe3dbe3c4cf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2f10f627f33108b8750a1d71d24a99763178e2ef
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311853"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>Malların şirket içinde taşınması için transfer belgelerini ayarlama
 
@@ -73,5 +73,4 @@ Bu yordam, bir şirket içinde malların taşınması için transfer belgeleri o
 9. Eylem Bölmesinde, Sevk et'e tıklayın.
 10. Sevk irsaliyesi'ne tıklayın.
 11. Tamam'a tıklayın.
-
 

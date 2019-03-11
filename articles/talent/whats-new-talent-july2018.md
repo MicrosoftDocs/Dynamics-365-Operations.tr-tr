@@ -1,40 +1,39 @@
 ---
-title: "Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (Temmuz 2018)"
-description: "Bu konuda, Microsoft Dynamics 365 for Talent Core HR'deki yeni veya değişen özellikler açıklanmaktadır."
+title: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (Temmuz 2018)
+description: Bu konuda, Microsoft Dynamics 365 for Talent Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 07/31/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 330a4e1b820f1898bbbee15f8ec8fa427f30807f
 ms.openlocfilehash: 5cf1c17c3b833805a4797ec0fc7278ce3546ac2e
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306615"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (Temmuz 2018)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 for Talent Core HR'deki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 for Talent Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="powerapps-personalization"></a>PowerApps kişiselleştirmesi
 
-Microsoft Dynamics 365 for Talent, Microsoft PowerApps ile tümleştirmeyi destekler. PowerApps, geliştiricilerin ve teknik olmayan kullanıcıların mobil cihazlar, tabletler ve web için kod yazmak zorunda kalmadan özel iş uygulamaları oluşturmalarına olanak tanır. Sizin, kuruluşunuzun veya daha geniş bir ekosistemin PowerApps kullanarak geliştirdiği uygulamalar, ürünün işlevselliğini artırmak amacıyla Talent istemcisine katıştırılabilir. Örneğin, başka bir sistemden alınan bilgilerle Talent'a destek olan bir uygulama oluşturabilirsiniz.
+Microsoft Dynamics 365 for Talent Microsoft PowerAppshizmeti ile tümleştirmeyi destekler. PowerApps, geliştiricilerin ve teknik olmayan kullanıcıların mobil cihazlar, tabletler ve web için kod yazmak zorunda kalmadan özel iş uygulamaları oluşturmalarına olanak tanır. Sizin, kuruluşunuzun veya daha geniş bir ekosistemin PowerApps kullanarak geliştirdiği uygulamalar, ürünün işlevselliğini artırmak amacıyla Talent istemcisine katıştırılabilir. Örneğin, başka bir sistemden alınan bilgilerle Talent'a destek olan bir uygulama oluşturabilirsiniz.
 
 Daha fazla bilgi için bkz. [PowerApps uygulamalarını katıştırma](../fin-and-ops/get-started/embed-power-apps.md).
 
@@ -60,4 +59,3 @@ Bu güncelleştirmede başlıklar genişletildi. Bu alan artık 65 karakter uzun
 ## <a name="benefit-enrollment-status-report"></a>Kazanç kayıt durumu raporu
 
 Kazançlar için açık kayıt hakkında yerleşik raporlama, personelinizin açık kayıt sürecinin hangi aşamasında olduğunu kolayca anlamanıza yardımcı olur. Kaç personelin bu süreci tamamladığını, kaçının tamamlamak üzere olduğunu ve kaçının başlamadığını öğrenebilirsiniz. Ayrıca personel kaydı sırasında oluşan sorunları ve personel gönderimlerinin eksiksiz bir günlüğünü hızlıca görüntüleyebilirsiniz. Böylece, personel gönderimlerini kolaylıkla doğrulayabilir ve denetleyebilirsiniz.
-

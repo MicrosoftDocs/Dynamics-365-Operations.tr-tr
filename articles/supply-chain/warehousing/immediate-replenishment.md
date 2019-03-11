@@ -1,13 +1,13 @@
 ---
-title: "Anlık stok yenileme"
-description: "Bu konu, bir yerleşim yönergesi stok tahsis etmek için başarısız olduğunda stok yenileme için anlık stok yenilemeyi nasıl kullanabileceğinizi açıklar."
+title: Anlık stok yenileme
+description: Bu konu, bir yerleşim yönergesi stok tahsis etmek için başarısız olduğunda stok yenileme için anlık stok yenilemeyi nasıl kullanabileceğinizi açıklar.
 author: Mirzaab
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: ab1f06951d5daceaf002b2cc23236dd818457985
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a11a26df85647aa36cd30c42f81be4ec2af4409b
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348607"
 ---
-
 # <a name="immediate-replenishment"></a>Anlık stok yenileme
 
 [!include [banner](../includes/banner.md)]
@@ -58,4 +57,3 @@ Bir yerleşim yönergesi satırı için anlık stok yenileme seçilir ancak bu y
 
 - Uygulanan talep stok yenileme şablonunun doğru yerleşim şablonlarıyla ve **Stok yenileme** türünde iş şablonları ile kullanılmak üzere ayarlandığından emin olun.
 - Talep stok yenileme şablonunun stok yenileme için eldeki stoğu aradığı yerleşimlerde yeterli eldeki stok bulunduğundan emin olun.
-

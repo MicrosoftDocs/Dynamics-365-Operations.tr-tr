@@ -1,31 +1,30 @@
 ---
-title: "Mağazanın ürün çeşidinden olmayan ürünleri satma ve iade etme"
-description: "Dynamics 365 for Retail ile, ürünleri çeşitler dışında satabilir ve iade edebilirsiniz."
+title: Mağazanın ürün çeşidinden olmayan ürünleri satma ve iade etme
+description: Dynamics 365 for Retail ile, çeşitler dışında ürünler satabilir ve iade alabilirsiniz.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352310"
 ---
-
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Mağazanın ürün çeşidinden olmayan ürünleri satma ve iade etme
 
 [!include [banner](includes/banner.md)]
@@ -47,4 +46,3 @@ Bu ortak senaryolar Dynamics 365 for Retail kullanan perakendeciler için kullan
 + Ürünleri geçerli mağazadan veya başka mağazadan seçmek.
 + Geçerli mağazadaki veya başka mağazadaki siparişi iptal etmek.
 + Bir siparişi makbuzla veya makbuz olmadan geçerli mağazaya veya başka bir mağazaya iade etmek.
-

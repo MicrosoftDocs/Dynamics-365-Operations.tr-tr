@@ -1,13 +1,13 @@
 ---
-title: "Toplu iş dengelemesi"
-description: "Bu konu toplu iş dengeleme işlemini açıklar."
+title: Toplu iş dengelemesi
+description: Bu konu toplu iş dengeleme işlemini açıklar.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358635"
 ---
-
 # <a name="batch-balancing"></a>Toplu iş dengelemesi
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu toplu iş dengeleme işleminin nasıl desteklendiğini açıklar. 
 
-[Microsoft Dynamics 365 for Finance and Operations'da toplu iş dengelemesi hakkında bir video](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be) izleyin.
+[Microsoft Dynamics 365 for Finance and Operations içinde toplu iş dengelemesi](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be) hakkında bir video izleyin.
 
 Toplu iş dengeleme işleminde, bir ürün toplu işinde kullanılacak bileşenlerin miktarı seçilen ürün toplu işlerindeki etkin bileşenlerin yoğunluğundan hesaplanır.
 
@@ -194,4 +193,3 @@ Formülde bileşen türünün **Etkin** olduğu en az bir formül satırı bulun
 Formül ambar yönetim işlemleri için etkinleştirilmiş bir ürün için etkin bileşen içeriyor ancak Toplu iş numarası rezervasyon hiyerarşisinde Yerleşimin altında yer alıyorsa, toplu iş dengelemesi toplu iş emri için kullanılamaz.
 
 Toplu iş dengelemesi kullanılamayan bir toplu iş emri toplu iş emirlerine yönelik normal süreçten geçer.
-

@@ -1,13 +1,13 @@
 ---
-title: "Ambar iş ilkeleri"
-description: "Ambar işi ilkeleri ambar işinin üretimdeki ambar işlemleri tarafından oluşturulup oluşturulmadığını, iş emri türüne, stok yerleşimine ve ürüne dayanarak kontrol eder."
+title: Ambar iş ilkeleri
+description: Ambar işi ilkeleri ambar işinin üretimdeki ambar işlemleri tarafından oluşturulup oluşturulmadığını, iş emri türüne, stok yerleşimine ve ürüne dayanarak kontrol eder.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0710eac8daba7f51f6b5d1522476b812a130960d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325607"
 ---
-
 # <a name="warehouse-work-policies"></a>Ambar iş ilkeleri
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations'taki ambar işi ilkeleri ambar işinin üretimdeki ambar işlemleri tarafından oluşturulup oluşturulmadığını, iş emri türüne, stok yerleşimine ve ürüne dayanarak kontrol eder.
+Ambar işi ilkeleri Microsoft Dynamics 365 for Finance and Operations içinde ambar işinin üretimdeki ambar işlemleri tarafından oluşturulup oluşturulmadığını, iş emri türüne, stok yerleşimine ve ürüne dayanarak kontrol eder.
 
 Bu iş ilkesi ambar işinin üretimdeki ambar işlemleri için oluşturulup oluşturulmadığını denetler. **İş emri türleri**, bir **stok konumu** ve bir **ürün** birleşimini kullanarak iş ilkesini ayarlayabilirsiniz. Örneğin, L0101 numaralı ürün 001 numaralı çıktı konumuna tamamlandı olarak bildirilir. Bunun üzerine, tamamlanan mal 001 numaralı çıktı konumundaki başka bir üretim emrinde tüketilir. Bu durumda, L0101 numaralı ürünü 001 numaralı çıktı konumuna tamamlandı olarak bildirdiğiniz zaman mamul mallara yönelik işin oluşturulmasını önlemek için bir iş ilkesi ayarlayabilirsiniz. İş ilkesi, aşağıdaki bilgilerle açıklanabilen ayrı bir varlıktır:
 
@@ -126,7 +125,7 @@ ADIMLAR (25)
 <tr>
 <td></td>
 <td>2.</td>
-<td>Listeden '5102' kaynak grubunu seçin.</td>
+<td>Listede, kaynak grubu &#39;5102&#39; seçin.</td>
 </tr>
 <tr>
 <td></td>
@@ -136,12 +135,12 @@ ADIMLAR (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>Çıkış ambarı alanına '51' girin.</td>
+<td>Çıkış ambar alanında, &#39;51&#39; girin.</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>Çıkış konumu alanına '001' girin.</td>
+<td>Çıkış konumu alanında &#39;001&#39; girin.</td>
 </tr>
 <tr>
 <td></td>
@@ -169,7 +168,7 @@ ADIMLAR (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>Madde numarası alanına 'L0101' girin.</td>
+<td>Madde numarası alanında &#39;L0101&#39; girin.</td>
 </tr>
 <tr>
 <td></td>
@@ -204,7 +203,7 @@ ADIMLAR (25)
 <tr>
 <td></td>
 <td>11.</td>
-<td>Otomatik malzeme listesi tüketimi alanında, 'Hiçbir zaman' seçin.</td>
+<td>Otomatik malzeme listesi tüketimi alanında, &#39;Hiçbir zaman&#39; seçin.</td>
 </tr>
 <tr>
 <td></td>
@@ -248,7 +247,6 @@ ADIMLAR (25)
 </tr>
 </tbody>
 </table>
-
 
 
 

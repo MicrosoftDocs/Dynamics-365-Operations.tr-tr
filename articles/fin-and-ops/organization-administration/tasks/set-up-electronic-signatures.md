@@ -1,13 +1,13 @@
---- 
+---
 title: Elektronik imza ayarlama
-description: "Bu yordamı kullanarak elektronik imzaları ayarların."
+description: Bu yordamı kullanarak elektronik imzaları ayarların.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysConfiguration, SIGParameters, SIGReasonCode, SIGProcSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: eb6bf529b1e94d598e219482f182140402f2928a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 11fee0b2358e6a2b84c221f8eb06e32c888e5f44
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318592"
 ---
 # <a name="set-up-electronic-signatures"></a>Elektronik imza ayarlama
 
@@ -77,5 +77,4 @@ Bu yordamı kullanarak elektronik imzaları ayarların. Elektronik imza bir hesa
     * İmzanın ne zaman gerekli olacağını belirtin.     Alan içindeki veri değiştiğinde imza gerekliyse Her zaman'ı seçin.     Yalnızca belirli koşullarda imza gerekliyse, Yalnızca'yı seçin. Yalnızca'yı seçerseniz, ayrıca aşağıdaki seçeneklerden birini seçmelisiniz: bir kayıt silindiğinde, bir kayıt güncelleştirildiğinde veya bir kayıt eklendiğinde.  
 10. Kaydet'e tıklayın.
 11. Sayfayı kapatın.
-
 

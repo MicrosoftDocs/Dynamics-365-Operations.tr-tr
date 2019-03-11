@@ -1,13 +1,13 @@
 ---
-title: "Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım"
-description: "Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar."
+title: Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım
+description: Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar.
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346008"
 ---
-
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar.
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel bakış
 
 Retail Modern POS veya Bulut POS içerisindeki görev kaydedici, yüksek cevap verebilirliğe odaklı oluşturulmuş yeni bir çözümdür. Genişletilebilirlik ve iş işlemi kayıtlarının müşterileri ile sorunsuz tümleştirme sağlayan esnek bir uygulama programlama arabirimi (API) sağlar. Ek olarak, Microsoft Dynamics Lifecycle Services üzerinde İş süreci modelleyici (BPM) aracı ile Görev kaydedici tümleştirmesi ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) öne çıkarılmıştır. Bu sayede kullanıcılar, kendi uygulamalarını analiz etmek ve tasarlamak için zengin iş işlemi diyagramlarını kayıtlardan üretebilirler.
 
@@ -56,7 +55,7 @@ Görev kaydetmeyi POS'da etkinleştirmek için şu adımları izleyin.
 
 Görev kaydedicisini kullanarak yeni bir kayıt oluşturmak için şu adımları izleyin.
 
-1. Perakende Modern POS veya Bulut POS'u başlatın ve oturum açın.
+1. Retail Modern POS veya Bulut POS'u başlatın ve oturum açın.
 2. **Ayarlar** sayfasında, **Görev Kaydedici** bölümünde **Görev kaydediciyi aç** üzerine tıklayın. **Görev kaydedici** bölmesi görüntülenir. Yeni bir kayda başlamadan önce sağ üst köşedeki **Kapat** düğmesi (**X**) üzerine tıklayarak **Görev kaydediciyi** kapatabilirsiniz. Bölmeyi yeniden açmak için, 2. adımı tekrar edin.
 
     [![Görev kaydedici bölmesi](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
@@ -69,7 +68,7 @@ Görev kaydedicisini kullanarak yeni bir kayıt oluşturmak için şu adımları
     > [![Soru işareti](./media/help.jpg)](./media/help.jpg)
 
 4. **Başlat** üzerine tıkladıktan sonra, Görev kaydedici kayıt moduna girer. **Görev kaydedici** bölmesi, kayıt işlemi hakkındaki bilgileri ve denetimleri gösterir.
-5. Perakende Modern POS veya Bulut POS kullanıcı arabirimi (UI) üzerinde gerçekleştirmek istediğiniz eylemleri gerçekleştirin.
+5. Retail Modern POS veya Bulut POS kullanıcı arabirimi (UI) üzerinde gerçekleştirmek istediğiniz eylemleri gerçekleştirin.
 6. Kayıt oturumunu sonlandırmak için **Durdur** üzerine tıklayın.
 
 ## <a name="download-options"></a>İndirme seçenekleri
@@ -80,7 +79,7 @@ Kaydetme oturumunu sona erdirdikten sonra, çeşitli seçenekler gösterilir, b�
 
 ### <a name="save-to-this-pc"></a>Bu bilgisayara kaydet
 
-Görev kılavuzunu yürütmek, kaydı düzenlemek veya kayıttaki notları düzenlemek için kayıt paketini kullanabilirsiniz. (Bu özellik Perakende Modern POS ve Bulut POS içerisinde henüz uygulanmamıştır.)
+Görev kılavuzunu yürütmek, kaydı düzenlemek veya kayıttaki notları düzenlemek için kayıt paketini kullanabilirsiniz. (Bu özellik Retail Modern POS ve Bulut POS içerisinde henüz uygulanmamıştır.)
 
 ### <a name="export-as-word-document"></a>Word belgesi olarak dışa aktar
 
@@ -108,7 +107,7 @@ Duraklattıktan sonra kayıt oturumuna devam etmek için **Devam et** üzerine t
 
 ### <a name="capture-screenshots"></a>Ekran görüntülerini yakala
 
-Görev kaydedici, Perakende Modern POS arabirimi ekran görüntülerini, siz bir iş işlemini kaydederken yakalayabilir. Ekran görüntüsü yakalama özelliğini açmak için **Ekran görüntüsü yakala** seçeneğini **Evet** olarak ayarlayın ve ardından kaydı yapın. Kayıt tamamlandıktan sonra **Durdur**'a tıklayın ve Word belgesini indirin. Belge ilgili ekran görüntüleriyle birlikte adımları içerecektir.
+Görev kaydedici, Retail Modern POS arabirimi ekran görüntülerini, siz bir iş işlemini kaydederken yakalayabilir. Ekran görüntüsü yakalama özelliğini açmak için **Ekran görüntüsü yakala** seçeneğini **Evet** olarak ayarlayın ve ardından kaydı yapın. Kayıt tamamlandıktan sonra **Durdur**'a tıklayın ve Word belgesini indirin. Belge ilgili ekran görüntüleriyle birlikte adımları içerecektir.
 
 > [!NOTE]
 > Ekran görüntüsü yakalama işlevi Bulut POS içerisinde desteklenmez.
@@ -137,9 +136,9 @@ Bir ek açıklama, kayıt içerisinde bir adıma eklediğiniz ek metindir. Örne
 
 **Notlar** alanına girdiğiniz metinler, Görev kılavuzunda adımın *altında* görüntülenir. Not metnini okumak için kullanıcının adım metnini açılan pencerede genişletmesi gerekir. Bu konum, ek okuma materyalleri ve kullanıcıya yarar sağlayabilecek ancak kullanıcının eylemi tamamlaması için zorunlu olmayan diğer bilgiler için uygundur.
 
-## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Retail Modern POS ve Bulut POS'da yardım
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Retail Modern POS ve Bulut POS içinde yardım
 
-Görev kayıtlarınızın Perakende Modern POS ve Bulut POS için metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](../fin-and-ops/get-started/help-connect.md) Perakende Modern POS ve Bulut POS Yardımı, LCS'yi gerçek zamanlı olarak arar. Microsoft Dynamics 365 for Retail Yardım sistemi parametrelerinde seçili olan tüm BPM kütüphaneleri arasında arar ve ilgili sonuçları gösterir. **Yardım** menüsüne erişmek için ekranın üzerinde bulunan **Yardım** düğmesine (soru işareti) tıklayın ve daha sonra arama kutusu içerisinde işlem adınızı yazın ve ara düğmesine tıklayın.
+Görev kayıtlarınızın Retail Modern POS ve Bulut POS için metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](../fin-and-ops/get-started/help-connect.md) Retail Modern POS ve Bulut POS Yardımı, LCS'yi gerçek zamanlı olarak arar. Microsoft Dynamics 365 for Retail Yardım sistemi parametrelerinde seçili olan tüm BPM kütüphaneleri arasında arar ve ilgili sonuçları gösterir. **Yardım** menüsüne erişmek için ekranın üzerinde bulunan **Yardım** düğmesine (soru işareti) tıklayın ve daha sonra arama kutusu içerisinde işlem adınızı yazın ve ara düğmesine tıklayın.
 
 [![Yardım düğmesi](./media/help.jpg)](./media/help.jpg)
 
@@ -147,4 +146,3 @@ Arama sonuçları içerisinde bir Görev kılavuzuna tıkladığınızda adımla
 
 > [!NOTE]
 > Retail Modern POS ve Bulut POS'ta Yardım, hangi formda olduğunuza veya hangi işlemi yaptığınıza bağlı olarak görev kılavuzlarını getirmeyecektir. Arama kutusuna işlem adını yazıp **Ara** düğmesine tıklamanız gerekir.
-

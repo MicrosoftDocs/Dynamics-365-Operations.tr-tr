@@ -1,13 +1,13 @@
 ---
 title: Maliyet muhasebesi terminolojisi
-description: "Bu konu, Maliyet muhasebesinde kullanılan önemli terimleri tanımlar."
+description: Bu konu, Maliyet muhasebesinde kullanılan önemli terimleri tanımlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365949"
 ---
-
 # <a name="cost-accounting-terminology"></a>Maliyet muhasebesi terminolojisi
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Tahsisat tabanı, kullanılan makine saatleri, tüketilen kilovat saat veya dold
 
 **Maliyet muhasebesi**
 
-Maliyet muhasebesi; genel muhasebe, muavin defterler, bütçeler ve istatistiksel bilgiler gibi çeşitli kaynaklardan veri toplamanıza olanak sağlar. Maliyet verilerini analiz edebilir, özetleyebilir ve değerlendirebilirsiniz. Böylelikle yönetim; fiyat güncelleştirmeleri, bütçeler, maliyet kontrolü ve bu gibi konularda en iyi kararı verebilir. Maliyet analizinde kullanılan kaynak verileri, Maliyet muhasebesinde bağımsız olarak ele alınır. Bu nedenle, maliyet muhasebesindeki güncelleştirmeler kaynak veriyi etkilemez. Ancak çeşitli kaynaklardan maliyet verileri topladığınızda ve özellikle ana hesapları genel muhasebeden Microsoft Dynamics 365 for Finance and Operations'a maliyet öğesi olarak içe aktardığınızda, aynı bilgi hem Genel muhasebede hem de Maliyet muhasebesinde bulunduğundan veri fazlalığı meydana gelir. Bu fazlalık gereklidir, çünkü harici raporlama için mali yönetimi ve dahili raporlama için maliyet muhasebesini kullanırsınız.
+Maliyet muhasebesi; genel muhasebe, muavin defterler, bütçeler ve istatistiksel bilgiler gibi çeşitli kaynaklardan veri toplamanıza olanak sağlar. Maliyet verilerini analiz edebilir, özetleyebilir ve değerlendirebilirsiniz. Böylelikle yönetim; fiyat güncelleştirmeleri, bütçeler, maliyet kontrolü ve bu gibi konularda en iyi kararı verebilir. Maliyet analizinde kullanılan kaynak verileri, Maliyet muhasebesinde bağımsız olarak ele alınır. Bu nedenle, maliyet muhasebesindeki güncelleştirmeler kaynak veriyi etkilemez. Ancak çeşitli kaynaklardan maliyet verileri toplandığında ve özellikle ana hesapları genel muhasebeden Microsoft Dynamics 365 for Finance and Operations'a maliyet öğeleri olarak içe aktardığınızda aynı bilgi hem genel muhasebede hem de maliyet muhasebesinde bulunduğundan veri fazlalığı meydana gelir. Bu fazlalık gereklidir, çünkü harici raporlama için mali yönetimi ve dahili raporlama için maliyet muhasebesini kullanırsınız.
 
 **Maliyet muhasebesi defteri**
 
@@ -128,7 +127,7 @@ Maliyet muhasebesi, verinin kaynak sistemden bir dizi veri bağlantısı aracıl
 
 Birçok kaynak sistem, Maliyet muhasebesinde bir veya daha fazla veri kaynağıyla eşleşen veriler sağlayabilir. Maliyet muhasebesinde veri kaynağı ile kaynak sistemden gelen veriyi hizalamak için bir veri sağlayıcısının yapılandırılmış olması gerekir. Aşağıdaki tablo, veri bağlayıcı ve veri kaynağı başına veri sağlayıcıların kullanılabilirliğini listeler.
 
-|  **Veri kaynakları** |  **İçe aktarılan hareketler veri bağlayıcısı** | **Dynamics 365 for Finance and Operations veri bağlayıcısı**  | **Dynamics AX veri bağlayıcısı**  |
+|  **Veri kaynakları** |  **İçe aktarılan hareketler veri bağlayıcısı** | **Dynamics 365 for Finance and Operations veri bağlayıcı**  | **Dynamics AX veri bağlayıcısı**  |
 |---|---|---|---|
 | Maliyet öğesi boyut üyeleri  |  Evet | Evet  | Evet  |
 |  Maliyet nesnesi boyut üyeleri |  Evet | Evet  | Evet  |
@@ -204,6 +203,5 @@ Raporlar, maliyet kontrolünden sorumlu yöneticilerin incelemesi içindir. Rapo
 **Versiyon**
 
 Sürümler, çeşitli sonuçların benzetiminin yapılması, görüntülenmesi ve karşılaştırılması için kullanılır. Tüm fiili maliyetler varsayılan olarak, *gerçek* olarak bilinen bir temel sürümde görüntülenir. Bütçeler ve hesaplamalar için ihtiyaç duyduğunuz kadar çok sürümle çalışabilirsiniz. Örneğin, bütçe verilerini orijinal bir sürüme aktarabilir ve ardından bütçeyi düzeltilmiş bir sürümde gözden geçirebilirsiniz. Hesaplamalar için birden çok sürüm oluşturabilirsiniz. Bu çeşitli sürümlerde, maliyet tahsisatında uygulanacak farklı hesaplama kuralları kullanarak hesaplamalar oluşturabilirsiniz.
-
 
 

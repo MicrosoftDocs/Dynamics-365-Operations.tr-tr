@@ -1,13 +1,13 @@
 ---
-title: "Çağrı merkezlerinde ödeme yöntemleri"
-description: "Bu konu Microsoft Dynamics 365 for Retail'de bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır."
+title: Çağrı merkezlerinde ödeme yöntemleri
+description: Bu konu Microsoft Dynamics 365 for Retail'de bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 0b86388efab113af605d62c6ad76c8169d9c4643
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355392"
 ---
-
 # <a name="payment-methods-in-call-centers"></a>Çağrı merkezlerinde ödeme yöntemleri
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail'deçağrı merkezi kanalı yapılandırması **Sipariş tamamlamayı etkinleştir** adında bir ayar içerir. Bu ayar kanal kullanıcılarının oluşturduğu tüm siparişlerin, yalnızca ön ödeme veya onaylanan tolerans dahilinde ödeme ön onayı olması durumunda sipariş işleme için serbest bırakılmasını sağlamaya yardımcı olur. **Sipariş tamamlamayı etkinleştir** ayarı açık olursa, çağrı merkezi kullanıcıları Çağrı merkezi ödeme işleme özelliklerini kullanarak müşteriler için satış siparişlerine karşı ödemeleri girebilirler. Bu ayar devre dışı bırakılırsa, çağrı merkezi kullanıcıları çağrı merkezi ödeme işleme özelliklerini kullanamaz ancak standart Alacak hesapları işlevini kullanarak satış siparişlerine ön ödemeleri uygulayabilirler.
+Microsoft Dynamics 365 for Retail'de çağrı merkezi kanalı yapılandırması **Sipariş tamamlamayı etkinleştir** adında bir ayar içerir. Bu ayar kanal kullanıcılarının oluşturduğu tüm siparişlerin, yalnızca ön ödeme veya onaylanan tolerans dahilinde ödeme ön onayı olması durumunda sipariş işleme için serbest bırakılmasını sağlamaya yardımcı olur. **Sipariş tamamlamayı etkinleştir** ayarı açık olursa, çağrı merkezi kullanıcıları Çağrı merkezi ödeme işleme özelliklerini kullanarak müşteriler için satış siparişlerine karşı ödemeleri girebilirler. Bu ayar devre dışı bırakılırsa, çağrı merkezi kullanıcıları çağrı merkezi ödeme işleme özelliklerini kullanamaz ancak standart Alacak hesapları işlevini kullanarak satış siparişlerine ön ödemeleri uygulayabilirler.
 
 Kanal yapılandırmasının bir parçası olarak şirket bir çağrı merkezi kanalı için izin verilen ödeme yöntemleri tanımlayabilir. Çağrı merkezi kanalı perakende mağaza kanalları için tanımlananlarla aynı ödeme yöntemlerini kullanır.
 
@@ -54,4 +53,3 @@ Bir ödeme yöntemi oluşturduğunuzda, atayabileceğiniz beş ödeme yöntemi i
 Geri ödeme işleme senaryoları için Çağrı merkezi Alacak hesaplarında tanımlanan ödeme yöntemlerinden bazılarını da kullanır. Bu ödeme yöntemlerini yapılandırmak için **Perakende** \> **Kanal kurulumu** \> **Çağrı merkezi kurulumu** \> **Çağrı merkezi geri ödeme yöntemleri**'ne gidin. Müşterilere geri ödeme çeklerini işlemek için bu yapılandırmayı tamamlamanız gerekir. Örneğin, bir müşteri bir siparişin ödemesini başlangıçta nakit veya çek kullanarak yaptıysa, kullanıcı müşteriye Alacak hesapları üzerinden bir geri ödeme çeki göndermek isteyebilir. Bu durumda, geri ödemenin düzgün şekilde gerçekleştirilebilmesi için çağrı merkezindeki çek ve nakit ödeme türlerinin Alacak hesaplarındaki doğru ödeme yöntemiyle eşlenmesi gerekir.
 
 Ayrıca, bir kullanıcı Retail'de bir iade siparişini çağrı merkezi kullanıcısı olarak işlerse ancak iadeyi orijinal satışa bağlayamazsa **İade** ödemesi yönteminin Çağrı merkezi parametrelerinde tanımlanması gerekir. **Perakende** \> **Kanal kurulumu** \> **Çağrı merkezi kurulumu** \> **Çağrı merkezi parametreleri**'ne gidin ve **RMA/İade** sekmesindeki **Ödeme yöntemi** alanında bir ödeme yönteminin tanımlandığından emin olun. Ödeme yöntemi geri ödemeler için kullanılan ödeme yöntemi olacaktır. Genellikle, bir çek yöntemi veya müşteri hesabı yöntemi olarak tanımlanacaktır.
-

@@ -1,13 +1,13 @@
 ---
-title: "Şirket dizini mobil çalışma alanı"
-description: "Bu konuda, kullanıcıların kuruluşları içindeki diğer personeli görmesini ve iletişim kurmasını sağlayan Şirket dizini mobil çalışma alanı hakkında bilgi verilmektedir."
+title: Şirket dizini mobil çalışma alanı
+description: Bu konuda, kullanıcıların kuruluşları içindeki diğer personeli görmesini ve iletişim kurmasını sağlayan Şirket dizini mobil çalışma alanı hakkında bilgi verilmektedir.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,23 +15,22 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308633"
 ---
-
 # <a name="company-directory-mobile-workspace"></a>Şirket dizini mobil çalışma alanı
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, **Şirket dizini** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, kullanıcıların kuruluşlarındaki diğer personelleri görmelerine ve onlarla iletişim kurmalarını sağlar.
 
-Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations mobil uygulaması ile kullanılabilir.
+Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations Mobile uygulaması ile kullanılabilir.
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel bakış
 **Şirket dizini** mobil çalışma alanı, kullanıcıların şu görevleri yerine getirmesini sağlar:
 
 - Kuruluştaki personellerin bir listesini görüntülemek.
@@ -58,7 +57,7 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 </ul>
 </td>
 <td>Sistem yöneticisi</td>
-<td>Kuruluşunuzda Finance and Operations zaten mevcut değilse, bkz. <a href="../deployment/deploy-demo-environment.md">Bir tanıtım ortamı dağıtma</a>. Kuruluşunuzda Talent dağıtılmış değilse, sistem yöneticisi bir deneme sürümüne <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent web sitesi</a> üzerinden erişebilir.
+<td>Kuruluşunuzda Finance and Operations zaten mevcut değilse, bkz. <a href="../deployment/deploy-demo-environment.md">Bir gösteri ortamı dağıtmak</a>. Kuruluşunuzda Talent dağıtılmış değilse, sistem yöneticisi bir deneme sürümüne <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent web sitesi</a> üzerinden erişebilir.
 </td>
 </tr>
 <tr class="even">
@@ -91,4 +90,3 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 1.  Mobil uygulamada, **Şirket dizini** çalışma alanını seçin.
 2.  **Arama** alanında, bir personelin adını, soyadını, unvanını veya bölümünü, aramayı başlatmak için girin.
 3.  Bir çalışan seçin. **Personel profili** sayfası görüntülenir. Bu sayfadaki bilgiler arasında personelin adı, soyadı, unvanı ve bölümü bulunur.
-

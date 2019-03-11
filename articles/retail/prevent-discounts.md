@@ -1,13 +1,13 @@
 ---
-title: "Perakende ürünler için iskontoları engelleme seçenekleri"
-description: "Satıcıların bazı ürünlerin ister bir promosyon isterse de POS'taki satış sırasında indirime girmesini engellemeleri için çeşitli sebepler olabilir."
+title: Perakende ürünler için iskontoları engelleme seçenekleri
+description: Satıcıların bazı ürünlerin ister bir promosyon isterse de POS'taki satış sırasında indirime girmesini engellemeleri için çeşitli sebepler olabilir.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/15/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346077"
 ---
-
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Perakende ürünler için iskontoları engelleme seçenekleri
 
 [!include [banner](includes/banner.md)]
@@ -42,4 +41,3 @@ Yayımlanan ürünlerin **Perakende** sekmesinde bulunabilen aşağıdaki seçen
 > Bu ayarlar fiyat geçersiz kılma işlemini kısıtlamaz çünkü bu, taban fiyatı belirler ve bir indirim olarak görülmez.
 
 [![indirim alanlarını engelle](./media/prevent-discounts.png)](./media/prevent-discounts.png)
-

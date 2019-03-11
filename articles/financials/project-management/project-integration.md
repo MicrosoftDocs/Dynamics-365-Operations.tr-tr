@@ -1,13 +1,13 @@
 ---
-title: "Microsoft Project istemci tümleştirmesi"
-description: "Bir proje planı hazırlamak ve sürdürmek karmaşık olabilir bu nedenle proje yöneticilerinin kendilerine görevi yönetmede yardımcı olacak araçlar kullanması gerekir. Microsoft Project İstemcisi ile tümleştirme, bir proje iş kırılım yapısını açmayı ve yönetmeyi destekler."
+title: Microsoft Project istemci tümleştirmesi
+description: Bir proje planı hazırlamak ve sürdürmek karmaşık olabilir bu nedenle proje yöneticilerinin kendilerine görevi yönetmede yardımcı olacak araçlar kullanması gerekir. Microsoft Project İstemcisi ile tümleştirme, bir proje iş kırılım yapısını açmayı ve yönetmeyi destekler.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-04
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 48feb0182c623714b2acffafc42016c0471ba6c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317488"
 ---
-
 # <a name="microsoft-project-client-integration"></a>Microsoft Project istemci tümleştirmesi
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 03/26/2018
 Bir proje planı hazırlamak ve sürdürmek karmaşık olabilir bu nedenle proje yöneticilerinin kendilerine görevi yönetmede yardımcı olacak araçlar kullanması gerekir. Microsoft Project İstemcisi ile tümleştirme, bir proje iş kırılım yapısını açmayı ve yönetmeyi destekler. Proje yöneticisi, yaptığı değişiklikleri Finance and Operations proje iş kırılım yapısına geri yayımlayabilir.
 
 > [!NOTE]
-> Microsoft Dynamics 365 for Finance and Operations Temmuz güncelleştirmesini kullanıyorsanız KB 4054797 ve 4055884'ü yüklemeniz gerekir.
+> Microsoft Dynamics 365 for Finance and Operations Temmuz güncelleştirmesini kullanıyorsanız, KB 4054797 ve 4055884 yüklemeniz gerekir.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Microsoft Project İstemcisi eklentisini yapılandırma
 Microsoft Project İstemcisiyle tümleştirmeyi etkinleştirmek için, kullanıcının istemcisindeki Microsoft Project uygulamasına bir Microsoft Dynamics 365 eklentisi yüklenmesi gerekir. Bu işlem **Proje yönetimi çalışma alanı** açılarak yapılır.
@@ -50,7 +49,7 @@ Finance and Operations'taki bir projede zaten oluşturulmuş bir işi kırılım
 
 Dosyada Microsoft Project İstemcisi kullanarak düzenleme yapmadan önce dosyayı kullanıma almanız gerekir. **Microsoft Dynamics 365** sekmesinde **Kullanıma al**'a tıklayın. Bu, diğer kullanıcıların sizinle aynı anda Finance and Operations içinden iş kırılım yapısında düzenleme yapmasını engeller. Tüm düzenlemeleri tamamladıktan sonra iş kırılım yapısını yayımlamak için **Microsoft Dynamics 365** sekmesinde **İade et**'e tıklayın.
 
-Bir proje ekibi Finance and Operations'ta zaten projeye eklendiyse, kaynak listesi bu ekibin üyeleri ile doldurulur. Projeye henüz atanmış bir proje ekibi yoksa, kaynakları seçebilir ve ekibi Microsoft Project İstemcisi içinde **Microsoft Dynamics 365** sekmesinde yer alan **Kaynaklar**'a tıklayarak oluşturabilirsiniz.. 
+Bir proje ekibi Finance and Operations'ta zaten projeye eklendiyse, kaynak listesi bu ekibin üyeleri ile doldurulur. Projeye henüz atanmış bir proje ekibi yoksa, kaynakları seçebilir ve ekibi Microsoft Project İstemcisi içinde **Microsoft Dynamics 365** sekmesinde yer alan **Kaynaklar**'a tıklayarak oluşturabilirsiniz. 
 
 Aşağıdaki veriler iade etme işleminin bir parçası olarak Finance and Operations ile eşitlenecektir:
 
@@ -83,7 +82,7 @@ Microsoft Project İstemcisi'ni kullanarak yeni iş kırılım yapısı oluştur
 
 1.  Microsoft Project İstemcisini açın.
 
-2.  **Microsoft Dynamics 365** sekmesinde **Aç**'a tıklayın.
+2.  **Microsoft Dynamics 365** sekmesinde **Açık** seçeneğini tıklatın.
 
 3.  Proje için **tüzel kişilik** seçin.
 
@@ -128,4 +127,3 @@ Microsoft Project İstemcisi kullanarak yeni bir iş kırılım yapısı oluştu
 8.  Kaynak atama için kullanılacak **Takvim**'i seçin.
 
 11. **Tamam** seçeneğini tıklatın.
-

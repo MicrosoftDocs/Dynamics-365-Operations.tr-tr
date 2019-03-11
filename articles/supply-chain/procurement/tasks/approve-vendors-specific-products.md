@@ -1,13 +1,13 @@
---- 
-title: "Belirli ürünler için satıcıları onaylama"
-description: "Bu yordam, belirli ürünler için satıcıları onaylamayı gösterir."
+---
+title: Belirli ürünler için satıcıları onaylama
+description: Bu yordam, belirli ürünler için satıcıları onaylamayı gösterir.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, PdsApprovedVendorList, VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8f2cd1badb0b924150ab51ef2efc049e6666562a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ffc58d2afe73fa2290e4e73a058d47ffd64b8d54
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360130"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Belirli ürünler için satıcıları onaylama
 
@@ -70,5 +70,4 @@ Bu yordam, belirli ürünler için satıcıları onaylamayı gösterir. Bu, bir 
 30. Satıcıya göre onaylı satıcı listesi'ni tıklatın.
 31. Sayfayı kapatın.
 32. Sayfayı kapatın.
-
 

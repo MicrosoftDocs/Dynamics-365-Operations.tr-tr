@@ -1,13 +1,13 @@
 ---
-title: "Türetilen defterler"
-description: "Bu makale, türetilmiş defter işlevselliğine genel bir bakış sağlar."
+title: Türetilen defterler
+description: Bu makale, türetilmiş defter işlevselliğine genel bir bakış sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 153b6437205d5a849fa6a90c0d3b9f3d51dd6768
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e43dcc15212ae90a33d59fa32692aabcba7a19cb
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313923"
 ---
-
 # <a name="derived-books"></a>Türetilen defterler
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Hareket nakledildiğinde, defter B için kıymet 123 içinde bir alım hareketi 
 > Birincil defter aralıkları dışındaki aralıklarda hareketleri nakletmek için oluşturulan defterler türetilmiş defterler olarak değil, ayrı defterler olarak sabit kıymete eklenmelidir.  
 
 Daha fazla bilgi için bkz: [Türetilmiş defterlerle deftere nakil](post-derived-value-models.md).
-
 
 
 

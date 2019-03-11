@@ -1,13 +1,13 @@
 ---
-title: "Avrupa için vergi yönergeleri"
-description: "Satış faturalarına ve proje faturalarına satış vergisi kodu açıklaması eklemeyi seçebilirsiniz. Satış faturalarına, serbest metin faturalarına ve proje faturalarına referans numaraları yazdırabilirsiniz."
+title: Avrupa için vergi yönergeleri
+description: Satış faturalarına ve proje faturalarına satış vergisi kodu açıklaması eklemeyi seçebilirsiniz. Satış faturalarına, serbest metin faturalarına ve proje faturalarına referans numaraları yazdırabilirsiniz.
 author: epodkolz
 manager: AnnBe
 ms.date: 05/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 42861a66b44d6156341bf2d4d895a4bf35295ee6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 1a2d4531e13d158dd8b93d9b9e94a17a8f94c50a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371871"
 ---
-
 # <a name="tax-directives-for-europe"></a>Avrupa için vergi yönergeleri
 
 [!include [banner](../includes/banner.md)]
@@ -31,5 +30,4 @@ AB Yönergesi, fatura kuralları ve fatura oluşturulurken dahil edilmesi gereke
 
 - Bir satış vergi kodunun açıklamasını bir satış faturasına, serbest metin faturasına veya proje fatura raporuna yazdırmak için, Vergi Yönergesi referans metnini satış vergi kodu üzerinde ayarlayın.
 - Kredi notları için, orijinal faturanın numarası ve tarihi, düzeltme sebebiyle birlikte yazdırılır.
-
 

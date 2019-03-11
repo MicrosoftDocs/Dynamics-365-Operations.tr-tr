@@ -1,13 +1,13 @@
---- 
-title: "Ürünleri teslim alan ambardan mağazalara çapraz sevk etme"
-description: "Bu yordam, ürünleri satınalma siparişinin alma konumundan bir veya daha fazla mağazaya dağıtmak için Çapraz sevk oluşturma ve işleme konusunda kılavuzluk sağlar."
+---
+title: Ürünleri teslim alan ambardan mağazalara çapraz sevk etme
+description: Bu yordam, ürünleri satınalma siparişinin alma konumundan bir veya daha fazla mağazaya dağıtmak için Çapraz sevk oluşturma ve işleme konusunda kılavuzluk sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/17/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: daa42bb83d6b988e8fd18db6ad8386c67fd3e6e5
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364408"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Ürünleri teslim alan ambardan mağazalara çapraz sevk etme
 
@@ -47,5 +47,4 @@ Bu yordam, ürünleri satınalma siparişinin alma konumundan bir veya daha fazl
 14. Evet'i tıklatın.
 15. Listede ürünlerin teslim alındığı ambarı bulup seçin
 16. Seçilen ambar için oluşturulan siparişleri görüntülemek için Sipariş'i tıklayın
-
 

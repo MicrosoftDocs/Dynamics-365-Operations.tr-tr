@@ -1,29 +1,28 @@
 ---
-title: "Çift para birimi"
-description: "Bu konu, raporlama para biriminin Microsoft Dynamics 365 for Finance and Operations için muhasebe para birimi olarak kullanıldığı çift para birimi hakkında bilgi sağlar."
+title: Çift para birimi
+description: Bu konu, raporlama para biriminin Microsoft Dynamics 365 for Finance and Operations için muhasebe para birimi olarak kullanıldığı çift para birimi hakkında bilgi sağlar.
 author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330322"
 ---
-
 # <a name="dual-currency"></a>Çift para birimi
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Ayrıca, amortisman sürecinde büyük değişiklikler yapıldı. Bu değişikli
     - Raporlama para birimi tutarları, bir amortisman hareket türü Sabit kıymet günlüğüne girilmişse, yeni sütunlarda görüntülenir. Bu tutarlar değiştirilebilir.
     - Muhasebe para birimi ile genel muhasebede raporlama para birimi aynıysa, tutarlar eşit tutulacaktır. **Alacak** tutarını değiştirirseniz **Raporlama para birimi cinsinden alacak** tutarı otomatik olarak eşleşmesi için değiştirilir.
     - Sabit kıymet günlüğüne başka hareket türü girilirse **Raporlama para birimi cinsinden borç** ve **Raporlama para birimi cinsinden alacak** tutarları, deftere nakilde önce veya sonra, hiçbir zaman gösterilmez. Muhasebe para birimi ve raporlama para birimi tutarları hala genel muhasebe defterine nakledilen fişte mevcuttur.
-

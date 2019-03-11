@@ -1,13 +1,13 @@
---- 
+---
 title: Maddeyi veya hammaddeyi izleme
-description: "Bu yordam, ürünlerin veya hammaddelerin kullanılmış veya kullanılmakta olduğunu belirlemek amacıyla ürün izleme işlevinin nasıl kullanılacağını gösterir."
+description: Bu yordam, ürünlerin veya hammaddelerin kullanılmış veya kullanılmakta olduğunu belirlemek amacıyla ürün izleme işlevinin nasıl kullanılacağını gösterir.
 author: pjacobse
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 897a777b3f4ce05fe995aa98a72feb99d82837ef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d7eb282ddf9597385d6660a3fc0ef73f403ab898
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315855"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Maddeyi veya hammaddeyi izleme
 
@@ -55,5 +55,4 @@ Bu yordam, ürünlerin veya hammaddelerin kullanılmış veya kullanılmakta old
 8. Eylem Bölmesinde İzleme öğesini tıklatın.
 9. Sevk edilmiş satış siparişleri'ni tıklatın.
 10. Sayfayı kapatın.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Performans yönetimi"
-description: "Performans yönetimi işlemi, personelin performanslarını belgelendirmelerini ve yöneticileriyle tartışmalarını sağlar. Bu sayede, yöneticiler de personele geri bildirim ve kılavuzluk sağlayabilir."
+title: Performans yönetimi
+description: Performans yönetimi işlemi, personelin performanslarını belgelendirmelerini ve yöneticileriyle tartışmalarını sağlar. Bu sayede, yöneticiler de personele geri bildirim ve kılavuzluk sağlayabilir.
 author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67da25514edc6b27f8478a7b317f6690720ab592
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306524"
 ---
-
 # <a name="performance-management"></a>Performans yönetimi
 
 [!include [banner](includes/banner.md)]
@@ -56,9 +55,9 @@ Performans günlüğünün iki sürümü vardır: **Personel self servisi** çal
 
 Ayrıca harici bir web sitesinin URL'sini depolayarak performans günlüğünü bu siteye de bağlayabilirsiniz. Günlük, hedefler veya performans gözden geçirmeleriyle ilgiliyse günlüğü bunlardan birine veya daha fazlasına da bağlayabilirsiniz. Performans günlüğüne **MSS** sayfasından eriştiğinizde personel günlüğü için girdiğiniz bilgilerin aynısını girebilirsiniz. Buna ek olarak, günlüğün oluşturulduğu personeli de belirtebilirsiniz. Yönetici günlüğünü personelinizle paylaşıp paylaşmayacağınızı seçebilirsiniz.
 
-### <a name="praise"></a>Övgü
+### <a name="send-feedback"></a>Geribildirim gönder
 
-Performans günlüğü, Övgü adı verilen ek bir özellik içerir. **Övgü gönder**'e tıkladığınızda bir personel seçebilir ve bu personele e-posta ile geri bildirim sağlayabilirsiniz. İleti, övülen personele, bu personelin yöneticisine, övgüyü gönderen personele ve bu personelin yöneticisine gönderilir. Övgü iletisini alan her kişi için bir performans günlüğü girişi oluşturulur.
+Performans günlüğü, Geribildirim adı verilen ek bir özellik içerir. **Geribildirim gönder**'e tıkladığınızda bir personel seçebilir ve bu personele e-posta ile geri bildirim sağlayabilirsiniz. İleti, geribildirimi alan personele, bu personelin yöneticisine, geribildirimi gönderen personele ve bu personelin yöneticisine gönderilir. Geribildirim iletisini alan her kişi için bir performans günlüğü girişi oluşturulur.
 
 ## <a name="goals"></a>Hedefler
 **Performans hedefleri** sayfası sizin oluşturduğunuz ve yöneticinizin sizin için oluşturduğu hedefleri izlemenize yardımcı olur. İstediğiniz sayıda hedef oluşturabilirsiniz ve bu hedefler farklı dönemleri ve performans gözden geçirmelerini kapsayabilir. Ayrıca hedef hakkında girmek istediğiniz bilgilere bağlı olarak basit veya karmaşık hedefler oluşturabilirsiniz. Performans gözden geçirmeleri için hedefler gerekmez. 
@@ -151,7 +150,6 @@ Performans günlüğü kaynak türleri, performans günlüğünün nereden geldi
 ### <a name="review-types"></a>Gözden geçirme türleri
 
 Performans gözden geçirme türleri, bir gözden geçirmenin davranışını denetlemenize yardımcı olur. Gözden geçirme için iş akışını etkinleştirebilir veya devre dışı bırakabilirsiniz. Gözden geçirme iş akışı kullanmıyorsa gözden geçirme oluşturulduğunda kullanılacak varsayılan durumu tanımlayabilirsiniz. Ayrıca personel, yönetici veya her ikisinin birden gözden geçirmede oturumu kapatıp kapatmaması gerektiğine de karar verebilirsiniz.
-
 
 
 

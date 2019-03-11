@@ -1,13 +1,13 @@
---- 
-title: "Malzemeler iş hücresi için kullanılamadığında bir süreç kanban işi hazırlama"
-description: "Bu yordam, bazı malzemeler için iş hücre kullanılamadığında bir süreç kanban işi hazırlanmasına odaklanır, bu nedenle ambardan malzeme çekme gerekli."
+---
+title: Malzemeler iş hücresi için kullanılamadığında bir süreç kanban işi hazırlama
+description: Bu yordam, bazı malzemeler için iş hücre kullanılamadığında bir süreç kanban işi hazırlanmasına odaklanır, bu nedenle ambardan malzeme çekme gerekli.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f7e7eb46bda13ef7e72189f921686a9889a8773c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5a47af6910a9686e74ab6d1069dd02079e60cb8a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339913"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a>Malzemeler iş hücresi için kullanılamadığında bir süreç kanban işi hazırlama
 
@@ -51,5 +51,4 @@ Bu yordam, bazı malzemeler için iş hücre kullanılamadığında bir süreç 
     * Madde P0002 kanban işi için malzeme çekme listesinde kullanılabilir. Başka bir deyişle, gerekli tüm malzemelerle kanban hazırlayabilirsiniz.  
 6. Hazırla'ya tıklayın.
     * İş durumu'ndaki bir simgenin işin şimdi hazır olduğunu belirttiğini unutmayın.  
-
 

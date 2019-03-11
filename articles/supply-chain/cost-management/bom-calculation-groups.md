@@ -1,13 +1,13 @@
 ---
-title: "Ürün reçetesi hesaplamaları grupları"
-description: "Bu makalede, ürün reçeteleri için hesaplama grupları ve bunların nasıl ayarlanacağı hakkında bilgi verilmektedir. Bir ürün reçetesi hesaplaması çalıştırmak için ya hesaplama grupları ayarlamalı ve bunları tek tek maddelere atamalısınız ya da varsayılan bir hesaplama grubu ayarlamalısınız. Ardından, hesaplama grubundaki hesaplama ayarları, ürün reçetesi hesaplaması sayfasında ürün reçetesi hesaplamasında varsayılan değerler olarak kullanılır."
+title: Ürün reçetesi hesaplamaları grupları
+description: Bu makalede, ürün reçeteleri için hesaplama grupları ve bunların nasıl ayarlanacağı hakkında bilgi verilmektedir. Bir ürün reçetesi hesaplaması çalıştırmak için ya hesaplama grupları ayarlamalı ve bunları tek tek maddelere atamalısınız ya da varsayılan bir hesaplama grubu ayarlamalısınız. Ardından, hesaplama grubundaki hesaplama ayarları, ürün reçetesi hesaplaması sayfasında ürün reçetesi hesaplamasında varsayılan değerler olarak kullanılır.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362890"
 ---
-
 # <a name="bom-calculations-groups"></a>Ürün reçetesi hesaplamaları grupları
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ Varsayılan parametreyi, **Maliyet yönetimi** &gt; **Stok muhasebesi politikala
 -   Ürün reçetesi satırındaki maddenin istediğinizden daha düşük bir karlılık yüzdesi olduğunda tespit edin.
 
 Uyarı iletilerindeki değişim gereksinimlerinize bağlı olarak birden fazla ürün reçetesi hesaplama grubu tanımlayabilirsiniz. Örneğin, etkin bir ürün reçetesi, bileşen miktarı 0 (sıfır) ve bileşen maliyeti 0 (sıfır) hakkında uyarı koşulları olan bir ürün reçetesi hesaplama grubu yeterli olabilir. Ürün reçetesi hesaplamasına başladığınızda, ürün reçetesi hesaplama grubuyla ilişkili olan uyarı koşullarını geçersiz hale getirilebilirsiniz. Ayrıca uyarı koşulları ekleyebilir veya kaldırabilirsiniz. Örneğin, mevcut durum rota verilerini içermiyorsa etkin rota hakkındaki uyarı koşulunu kaldırabilirsiniz. **Not:** Saat ve işe devam, bir **Hesaplama grupları** sayfası içerir ancak bu sayfanın ürün reçetesi hesaplama gruplarıyla ilişkisi bulunmaz. Saat ve işe devamda, çalışanlar aynı gözetmen veya yönetici ile ilişkili çalışanların gruplanmasını yansıtan hesaplama gruplarına atanabilir. Çalışan kayıtlarının hesaplaması, bir gözetmen veya yönetici tarafından otomatik veya el ile yapılabilir.
-
 
 
 

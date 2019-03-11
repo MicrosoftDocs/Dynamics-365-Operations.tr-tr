@@ -1,32 +1,31 @@
 ---
-title: "LinkedIn İşveren ile kaynak bulma"
-description: "Bu konu, iş ve iş adayı önerileri almak için makine öğrenimini kullanma hakkında bilgi sağlar."
+title: LinkedIn İşveren ile kaynak bulma
+description: Bu konu, iş ve iş adayı önerileri almak için makine öğrenimini kullanma hakkında bilgi sağlar.
 author: josaw
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306529"
 ---
-
 # <a name="sourcing-with-linkedin-recruiter"></a>LinkedIn İşveren ile kaynak bulma
 [!include[banner](../includes/banner.md)]
 
@@ -65,7 +64,7 @@ Sonraki adımı tamamlamak için LinkedIn İşveren Sözleşmenizde bir Yönetic
 
 Attract sistem açılabilir birkaç seçenekle listede görüntülenir.
 
-9. Dışa aktarmak için yalnızca 1 tıklamayı etkinleştirmek isterseniz, **ATS göstergesinde** ve **ATS profil pencere öğesi**nde, **Şirket düzeyinde erişim**i seçin. Tüm şirket düzeyinde erişim özelliklerini artı InMail geçmişi, Not geçmişi ve InMail saplama profil erişimi etkinleştirmek isterseniz, **sözleşme düzeyi erişim**i seçin.
+9. Dışa aktarmak için yalnızca 1 tıklamayı etkinleştirmek isterseniz, **ATS göstergesinde** ve **ATS profil pencere öğesi**nde, **Şirket düzeyinde erişim**i seçin. Tüm şirket düzeyinde erişim özelliklerini artı InMail geçmişi, Not geçmişi ve InMail saplama profil erişimi etkinleştirmek isterseniz, **Sözleşme düzeyi erişimi** seçin.
 
 10. LinkedIn İşveren**Yönetici-ATS** ayarlarından istediğiniz erişim düzeyini açın.
 
@@ -142,4 +141,3 @@ Notlar geçmişini görüntülemek için adayın profiline gidin. **LinkedIn** s
 InMail saplama profili, LinkedIn İşveren'le sözleşme düzeyinde erişimle kullanılabilir. Adaylar kuruluşunuzdaki herhangi bir kullanıcıyla LinkedIn profillerini paylaşmayı kabul ederse, adayları Attract'ta takip edebilir ve her aday için yeni bir aday kaydı oluşturulur. Aday, sistemde bir e-posta adresi ile zaten mevcutsa veya adresini işe alımcı ile paylaşmayı seçmişse, adayın e-posta adresini görüntüleyebilirsiniz.
 
 Aday listesini görüntülemek için **Beceri havuzları**na gidin, sistem tarafından oluşturulan LinkedIn beceri havuzunu görün. Bu beceri havuzu, LinkedIn'den alınan aday ve alt profilleri listesini içerir. Adayın adını ve soyadını gösterir. Adayın e-posta kodu, aday e-posta adresini paylaşmayı seçtiyse görüntülenir.
-

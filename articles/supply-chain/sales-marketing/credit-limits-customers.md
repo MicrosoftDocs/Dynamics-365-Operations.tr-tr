@@ -1,13 +1,13 @@
 ---
-title: "Müşteriler için kredi limitleri"
-description: "Bu makale, Microsoft Dynamics 365 for Finance and Operations'da kredi limitlerinin nasıl çalıştığına bir genel bakış sağlar."
+title: Müşteriler için kredi limitleri
+description: Bu makalede, Microsoft Dynamics 365 for Finance and Operations'ta kredi limitlerinin nasıl çalıştığına genel bir bakış sağlanmıştır.
 author: omulvad
 manager: AnnBe
 ms.date: 09/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8fd7022eb1ed2671fcfc2861eb8ec7504ebf9f98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e00828ea24434da6dfd7443153b007ea728375f3
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312681"
 ---
-
 # <a name="credit-limits-for-customers"></a>Müşteriler için kredi limitleri
 
 [!include [banner](../includes/banner.md)]
@@ -139,4 +138,3 @@ Bazen bir müşterinin kredi limitini el ile kontrol etmeniz gerekebilir. Örne�
 1.  **Satış ve pazarlama** \> **Yaygın** \> **Satış siparişleri** \> **Tüm satış siparişleri**'ne tıklayın. Bir satış siparişine çift tıklayın.
 
 2.  **Satış siparişi** formunda, Eylem Panosunda, **Yönet** sekmesinde, **Kredi limitini denetle**'ye tıklayın.
-

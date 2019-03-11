@@ -1,13 +1,13 @@
 ---
-title: "Attract'ta süreç şablonu oluşturun"
-description: "Bu konu, Attract'ta bir süreç şablonu oluşturma hakkında bilgi sağlar."
+title: Attract'ta süreç şablonu oluşturun
+description: Bu konu, Attract'ta bir süreç şablonu oluşturma hakkında bilgi sağlar.
 author: hasrivas
 manager: AnnBe
 ms.date: 10/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
 ms.openlocfilehash: 2b9cac68093be65584192757229c20b1a1546342
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "306577"
 ---
-
 # <a name="create-a-process-template-in-attract"></a>Attract'ta süreç şablonu oluşturun
 
 [!include [banner](includes/banner.md)]
 
-*İşe alma işlem şablonu*, bir işin işe alma işleminin parçası olarak dahil edilmesi gereken tüm faaliyetleri içerir. Bu konu, Microsoft Dynamics 365 for Talent: Attract'taki bir süreç şablonunun öğelerini açıklar. Bu aynı zamanda bir şablon oluşturmayı açıklar.
+*İşe alma işlem şablonu*, bir işin işe alma işleminin parçası olarak dahil edilmesi gereken tüm faaliyetleri içerir. Bu konu Microsoft Dynamics 365 for Talent: Attract içindeki bir işlem şablonunun öğelerini açıklar. Bu aynı zamanda bir şablon oluşturmayı açıklar.
 
 > [!NOTE]
 > Şablon oluşturma Attract için Kapsamlı İşe Alım eklentisinin parçasıdır.
@@ -72,4 +71,3 @@ Faaliyetler hakkında daha fazla bilgi için bkz: [Attract İşe alım süreci f
     - Faaliyeti kaldırmak için, genişletin ve faaliyet üst bilgisindeki çöp kutusu düğmesini seçin.
 
 8. **Kaydet**'i seçin.
-

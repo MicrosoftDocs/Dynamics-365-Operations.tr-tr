@@ -1,13 +1,13 @@
---- 
+---
 title: " Bağlılık ödül puanlarını tanımlama"
-description: "Bu yordam bağlılık ödül puanlarının nasıl belirleneceğini gösterir."
+description: Bu yordam bağlılık ödül puanlarının nasıl belirleneceğini gösterir.
 author: scott-tucker
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailLoyaltyRewardPoints
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 85ae26123d41fa74d32b102ddb7f021e9846a676
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 26b5615df427fb01cc4a1764507fbaa11bf0d7a0
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354518"
 ---
 # <a name="define-loyalty-reward-points"></a> Bağlılık ödül puanlarını tanımlama
 
@@ -45,5 +45,4 @@ Bu yordam bağlılık ödül puanlarının nasıl belirleneceğini gösterir. Bi
     * Ödül puanlarının süresi, puanlar verildikten sonra belirtilen sayıda gün, ay veya yıl geçtiğinde sonra erer. '0' değeri bağlılık ödül puanının süresiz olduğunu belirtir.  
 10. Sona erme süresi birimi alanında bir seçenek seçin.
 11. Kaydet'e tıklayın.
-
 

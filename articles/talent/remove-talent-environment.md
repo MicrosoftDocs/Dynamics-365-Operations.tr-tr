@@ -1,13 +1,13 @@
 ---
-title: "Talent ortamlarını kaldırma"
-description: "Bu konuda, Microsoft Dynamics 365 for Talent için bir test ortamını veya üretim ortamı kaldırma işlemini adım adım gösterir."
+title: Talent ortamlarını kaldırma
+description: Bu konuda, Dynamics 365 for Talent için bir test sürüşü kaldırma yeni bir üretim ortam işlemi adım adım anlatılmaktadır.
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306661"
 ---
 # <a name="remove-talent-environments"></a>Talent ortamlarını kaldırma
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 for Talent için bir test ortamını veya üretim ortamı kaldırma işlemini adım adım gösterir.
+Bu konuda, Dynamics 365 for Talent için bir test sürüşü kaldırma yeni bir üretim ortam işlemi adım adım anlatılmaktadır.
 
 ## <a name="removing-a-test-drive-environment"></a>Bir test ortamını kaldırma
 
@@ -73,5 +73,4 @@ Talent ortamını mevcut bir PowerApps ortamından kaldırmak için aşağıdaki
 6. LCS projenizde **Talent Uygulama Yöneticisi** kutucuğunu seçin. 
 7. Kaldırmak istediğiniz örneği seçin. Bu örneğin Dağıtım durumu **Başarısız** olarak işaretlenmiş olmalıdır.
 8. **Örneği kaldır**'ı seçin ve ardından kararınızı onaylayın. 
-
 

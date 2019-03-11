@@ -1,13 +1,13 @@
 ---
-title: "Üretim performansı Power BI içeriği"
-description: "Bu konu, Üretim performansı Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
+title: Üretim performansı Power BI içeriği
+description: Bu konu, Üretim performansı Power BI içeriğinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,21 +16,20 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365972"
 ---
-
 # <a name="production-performance-power-bi-content"></a>Üretim performansı Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, **Üretim performansı** Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu konu, **Üretim performansı** Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel bakış
 
 **Üretim performansı** Power BI içeriği, üretim müdürlerine veya kuruluşta üretim denetiminden sorumlu kişilere yöneliktir.
 
@@ -42,12 +41,12 @@ Bu Power BI içeriği aynı zamanda üretimdeki farkları analiz etmenizi sağla
 
 **Üretim performansı** Power BI içeriği üretim emirlerinden ve toplu iş emirlerden gelen verileri içerir. Raporlar kanban üretimlerle ilgili verileri içermez.
 
-## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
+## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim
 **Üretim performansı** Power BI içeriği, **Üretim performansı** sayfasında gösterilir (**Üretim denetimi** \> **Sorgulamalar ve raporlar** \> **Üretim performansı analizi** \> **Üretim performansı**). 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içerik paketinde bulunan ölçümler
 
-**Üretim performansı** Power Bı içeriği bir dizi rapor sayfası içerir. Her sayfa grafikler, döşemeler ve tablolar ile görselleştirilen bir dizi ölçüm kümesinden oluşur.
+**Üretim performansı** Power BI içeriği bir dizi rapor sayfası içerir. Her sayfa grafikler, döşemeler ve tablolar ile görselleştirilen bir dizi ölçüm kümesinden oluşur.
 
 Aşağıdaki tabloda, dahil edilen görsellere yönelik genel bakış sunulur.
 
@@ -63,7 +62,7 @@ Aşağıdaki tabloda, dahil edilen görsellere yönelik genel bakış sunulur.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 
-Aşağıdaki veriler **Üretim performansı** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Sunucu veritabanıdır. Varlık deposu hakkında daha fazla bilgi için bkz. [Varlık Deposu ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
+Aşağıdaki veriler **Üretim performansı** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Varlık deposu hakkında daha fazla bilgi için bkz. [Varlık Deposu ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
 
 Aşağıdaki tabloda Power BI içeriğinin temeli olarak kullanılan başlıca toplama ölçümleri gösterilmektedir.
 
@@ -130,4 +129,3 @@ Aşağıdaki tablo, daha büyük hassasiyet ve daha derin analiz bilgileri elde 
 | Varlıklar                  | Kimlik ve Ad                                                   |
 | Kaynaklar                 | Kaynak Kodu, Kaynak adı, Kaynak türü ve Kaynak grubu |
 | Ürünler                  | Ürün numarası, Ürün adı, Madde Kodu ve Madde grubu         |
-

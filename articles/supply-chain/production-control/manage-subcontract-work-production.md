@@ -1,13 +1,13 @@
 ---
-title: "Üretimdeki alt sözleşme işini yönetme"
-description: "Bu konu, alt sözleşmeli operasyonların Microsoft Dynamics 365 for Finance and Operations'ta nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar."
+title: Üretimdeki alt sözleşme işini yönetme
+description: Bu konu, taşeron operasyonların Microsoft Dynamics 365 for Finance and Operations içinde nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326596"
 ---
-
 # <a name="manage-subcontracting-work-in-production"></a>Üretimdeki alt sözleşme işini yönetme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, alt sözleşmeli operasyonların Microsoft Dynamics 365 for Finance and Operations'ta nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
+Bu konu, taşeron operasyonların Microsoft Dynamics 365 for Finance and Operations içinde nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
 
 [Üretim işlemlerinde](production-process-overview.md) iş, satıcıların sahip olduğu veya onlar tarafından yönetilen kaynaklar tarafından yapılabilir. Genellikle satıcı kaynakları, bir şirketin kendi kaynaklarını aşan düzenli fazla talebi düzenlemek için kullanılır. Satıcı aynı zamanda belirli [kaynak yetenekleri](resource-capabilities.md) veya kaynakları daha düşük fiyattan sunabilir.  
 
@@ -101,7 +100,6 @@ Yarı bitmiş ürünler bu kuralın istisnasıdır. Yarı bitmiş ürünleri tra
 **Not:** Tek bir üretim emri için bir üretim rotası, birden fazla site arası olamaz. Bu kural, alt sözleşmeli iş için de geçerlidir. Bu nedenle, satıcı tarafından yönetilen malzeme konumlarını temsil eden ambarlar, söz konusu rotada kullanılan dahili kaynaklarla aynı sitede tanımlanmalıdır. Üretim akışları siteler arası geçiş yapabilse de, yarı bitmiş ürünleri bir siteden diğerine aktaramazlar, çünkü bu operasyon maliyet bağlamında bir değişimi belirtir.  
 
 Genellikle çıkış ambarı ve alt sözleşmeli kaynak grubunun konumu, doğrudan ambar ve operasyonun üretim akışı rotasındaki bir sonraki adımına doğrudan tahsis edilmiştir. Bu kurulum, gerçekleşen iş raporlama miktarını veya modellenmesi gereken ek transfer operasyonlarını azaltmaya yardımcı olur.
-
 
 
 

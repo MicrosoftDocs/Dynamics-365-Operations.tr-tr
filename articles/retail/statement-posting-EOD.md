@@ -1,13 +1,13 @@
 ---
-title: "Ekstre deftere nakil işlevi geliştirmeleri"
-description: "Bu konu ekstre deftere nakli özelliğinde yapılan geliştirmeleri tanımlar."
+title: Ekstre deftere nakil işlevi geliştirmeleri
+description: Bu konu ekstre deftere nakli özelliğinde yapılan geliştirmeleri tanımlar.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -16,19 +16,18 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321444"
 ---
-
 # <a name="improvements-to-statement-posting-functionality"></a>Ekstre deftere nakil işlevi geliştirmeleri
 
 [!include[banner](includes/banner.md)]
 
-Bu konu ekstre deftere nakli özelliğinde yapılan ilk geliştirme kümesini açıklar. Bu geliştirmeler Microsoft Dynamics 365 for Finance and Operations 7.3.2'de bulunur.
+Bu konu ekstre deftere nakli özelliğinde yapılan ilk geliştirme kümesini açıklar. Bu iyileştirmeler Microsoft Dynamics 365 for Finance and Operations 7.3.2 içinde kullanılabilirdir.
 
 ## <a name="activation"></a>Etkinleştirme
 
@@ -171,4 +170,3 @@ Kullanıcının görebileceği diğer arka uç geliştirmeleri ekstre deftere na
 
     - **Perakende** \> **Genel merkez kurulumu** \> **Parametreler** \> **Perakende parametreleri**'ne gidin. Ardından **Deftere nakil** sekmesinde, **Stok güncelleştirme** hızlı sekmesindeki **Ayrıntı düzeyi** alanında **Özet**'i seçin.
     - **Perakende** \> **Genel merkez kurulumu** \> **Parametreler** \> **Perakende parametreleri**'ne gidin. Ardından **Deftere nakil** sekmesinde **Toplam** hızlı sekmesinde **Fiş hareketleri** seçeneğini **Evet** olarak ayarlayın.
-

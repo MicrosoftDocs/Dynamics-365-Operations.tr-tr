@@ -1,13 +1,13 @@
 ---
-title: "Ürün yapılandırma modellerine genel bakış"
-description: "Bu makalede, ürün yapılandırma modelleriyle ilgili koşullar ve kavramlar tanımlanmaktadır. Ürün yapılandırma modelleri, tek bir ürün için pek çok ürün çeşitleri yapılandırmak için kullanılan bir genel ürün yapısı oluşturmanızı sağlar."
+title: Ürün yapılandırma modellerine genel bakış
+description: Bu makalede, ürün yapılandırma modelleriyle ilgili koşullar ve kavramlar tanımlanmaktadır. Ürün yapılandırma modelleri, tek bir ürün için pek çok ürün çeşitleri yapılandırmak için kullanılan bir genel ürün yapısı oluşturmanızı sağlar.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313969"
 ---
-
 # <a name="product-configuration-models-overview"></a>Ürün yapılandırma modellerine genel bakış
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,7 @@ Bu makalede, ürün yapılandırma modelleriyle ilgili koşullar ve kavramlar ta
 <td>Öznitelikler, ürün yapılandırma modelinin tüm özelliklerini açıklanmaktadır. Öznitelikleri farklı bir ürün yapılandırıldığında seçilebilir özellikleri belirtmek için kullanabilirsiniz. Öznitelikler kısıtlamalar ve şartlarda kullanılır. Öznitelikler oluşturulur ve ürün yapılandırma modeline eklenir, ilgili öznitelik türleri referans alınır. Bir öznitelik için bir varsayılan değer ayarlayabilirsiniz. Ürün yapılandırma modeli yapılandırıldığında, varsayılan değer yapılandırma kullanıcı arabiriminde (UI) kullanılır. Bir özniteliğin zorunlu, salt okunur veya gizli olduğunu belirtebilirsiniz.
 <ul>
 <li><strong>Zorunlu</strong> – ürün yapılandırıldığında, öznitelik için bir değer ayarlamanız gerekir.</li>
-<li><strong>Salt okunur</strong> – Öznitelik değeri yapılandırma oturumu sırasında görüntülenir, ancak değiştirilemez.</li>
+<li><strong>Salt okunur</strong> – öznitelik değeri yapılandırma oturumu sırasında görüntülenir, ancak değiştirilemez.</li>
 <li><strong>Gizli</strong> – öznitelik değeri, kısıtlamalara ve koşullara dahil edilir ancak yapılandırma oturumu sırasında görüntülenmez.</li>
 </ul>
 Ayrıca, öznitelikler için bir koşul belirtebilirsiniz. Koşul karşılanırsa, zorunlu öznitelik için bir değer girilmelidir. Koşulların ürün yapılandırma modeline dahil edilebilmeleri için özniteliklerde, ürün reçetelerinde ve rota operasyonlarında karşılanmalıdır Bir koşulda referans gösterilen herhangi bir öznitelik zorunlu hale gelir. Öznitelikleri, <strong>Öznitelikler</strong> sekmesinde zorunlu olarak seçmenizi öneririz. Bu, zorunlu öznitelikleri belirlemeyi kolaylaştırabilir. Öznitelik değerleri yeniden yapılandırmaların önemli bir parçasıdır. Sistem yapılandırma oturumu sırasında kullanıcı tarafından yapılan seçimler ile eşleşen bir yapılandırma var olup olmadığını belirlemek için öznitelik değerlerini kullanır.</td>
@@ -149,7 +148,6 @@ Yayınlanmış bir ürünün bileşen veya alt bileşen olarak kullanılıp kull
 </tr>
 </tbody>
 </table>
-
 
 
 

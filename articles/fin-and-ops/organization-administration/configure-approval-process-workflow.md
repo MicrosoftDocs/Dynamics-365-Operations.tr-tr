@@ -1,13 +1,13 @@
 ---
-title: "İş akışında onay işlemlerini yapılandırma"
-description: "Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın."
+title: İş akışında onay işlemlerini yapılandırma
+description: Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 08641eaac31813a8bee3231118f8e2bf802ea3e1
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325653"
 ---
-
 # <a name="configure-approval-processes-in-a-workflow"></a>İş akışında onay işlemlerini yapılandırma
 
 [!include [banner](../includes/banner.md)]
@@ -124,11 +123,11 @@ Bir belge onaylandığında, reddedildiğinde, temsilci atandığında, ilerleti
     </tr>
     <tr>
     <td><strong>Kullanıcı</strong></td>
-    <td>Belirli Microsoft Dynamics 365 for Finance and Operations kullanıcıları</td>
+    <td>Özel Microsoft Dynamics 365 for Finance and Operations kullanıcıları</td>
     <td>
     <ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Mevcut kullanıcılar</strong>: listesi mevcut tüm Microsoft Dynamics 365 for Finance and Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Kullanılabilir kullanıcılar</strong> listesi, tüm Microsoft Dynamics 365 for Finance and Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol>
     </td>
     </tr>
@@ -184,4 +183,3 @@ Onay işlemi onay adımlarından oluşur. Onay işlemine adım eklemek ve adıml
 1. İş akışı düzenleyicisinde onay işlemine çift tıklayın. İş akışı düzenleyicisi onay işleminin adımlarını görüntüler.
 2. Onay adımı eklemek için adımları **İş akışı öğeleri** alanından tuvale sürükleyin.
 3. Onay adımını yapılandırmak için bkz. [Onay adımını yapılandırma](configure-approval-step-workflow.md).
-

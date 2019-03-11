@@ -1,13 +1,13 @@
 ---
-title: "Oluşturulan rapor sonuçlarını izleme ve temel değerlerle karşılaştırma"
-description: "Bu konu, oluşturulan ER raporlarının sonuçlarını temel rapor değerleriyle nasıl karşılaştıracağınız hakkında bilgi vermektedir."
+title: Oluşturulan rapor sonuçlarını izleme ve temel değerlerle karşılaştırma
+description: Bu konu, oluşturulan ER raporlarının sonuçlarını temel rapor değerleriyle nasıl karşılaştıracağınız hakkında bilgi vermektedir.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 7f7877ccaa0c45ab5f0032d6808280e3c47a43ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317948"
 ---
-
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Oluşturulan rapor sonuçlarını izleme ve temel değerlerle karşılaştırma
 
 [!include[banner](../includes/banner.md)]
@@ -40,4 +39,3 @@ Her ER biçimi için ayrı ayrı temel uygulama dosyaları depolayabilirsiniz. D
 Oluşturulan elektronik belgelerde beklenen içeriğin olup olmadığını analiz etmek için izlemeyi değerlendirebilirsiniz. Kod tabanı değiştiği zaman bu değerlendirmeyi bir kullanıcı kabul testi (UAT) ortamında yapabilirsiniz (örneğin uygulamanın yeni bir örneğine geçtiğiniz, düzeltme paketleri yüklediğiniz veya kod değişiklikleri dağıttığınız zaman). Bu sayede, değerlendirmenin, kullanılan ER raporlarının yürütülmesini etkilemediğinden emin olabilirsiniz. Birçok ER raporu için, değerlendirme müdahalesiz modda yapılabilir.
 
 Bu özellik hakkında daha fazla bilgi için, **7.5.4.3 BT hizmetlerini/çözümlerini test etme (10679)** iş sürecinin birer parçası olan ve [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684)'dan indirilebilen **ER - Raporlar oluşturma ve sonuçları karşılaştırma (Bölüm 1)** ve **ER - Raporlar oluşturma ve sonuçları karşılaştırma (Bölüm 2)** görev kılavuzlarını oynatın. Bu görev kılavuzları, oluşturulan elektronik belgeleri değerlendirmek üzere temel dosyaları kullanmak için ER çerçevesini yapılandırma işleminde size yol gösterir.
-

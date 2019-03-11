@@ -1,13 +1,13 @@
 ---
-title: "Planlanan maliyetler için bir maliyetlendirme sürümü kullanarak maliyet değişikliklerinin benzetimini yapın"
-description: "Bu makalede, mamul bir maddenin hesaplanan maliyetlerindeki maliyet değişikliklerinin etkisinin benzetimini, planlanan maliyetler için ayrı bir maliyetlendirme sürümüyle nasıl yapabileceğiniz açıklanmaktadır."
+title: Planlanan maliyetler için bir maliyetlendirme sürümü kullanarak maliyet değişikliklerinin benzetimini yapın
+description: Bu makalede, mamul bir maddenin hesaplanan maliyetlerindeki maliyet değişikliklerinin etkisinin benzetimini, planlanan maliyetler için ayrı bir maliyetlendirme sürümüyle nasıl yapabileceğiniz açıklanmaktadır.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ef3cdb2ede2c30609db4addfc10b819629cdc64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8d5b6354ee8c627014a6da675bb2a7b52db97348
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318891"
 ---
-
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Planlanan maliyetler için bir maliyetlendirme sürümü kullanarak maliyet değişikliklerinin benzetimini yapın
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ Aşağıdaki senaryolarda, maliyet değişiklikleri etkisinin benzetimini uygula
 -   Maliyet değişikliğinin benzetimini bir dolaylı maliyet hesap formülünde uygulayın. Örneğin, maliyet değişikliği üretim genel giderlerinde beklenen bir artış veya azalışı yansıtabilir. Dolaylı maliyet hesap formülünde değişikliği tanımlamak amacıyla, benzetim maliyetlendirme sürümünün benzetiminde bekleyen bir maliyet kaydı girmek ve değişikliği doğrulayıp kaydetmek için **Maliyetlendirme tablosu kurulumu** sayfasını kullanın.
 
 Benzetimi yapılmış maliyet değişikliklerini girdikten sonra, maliyet değişikliklerinden etkilenen mamul maddelerin maliyetlerini hesaplayın. Benzetim maliyetlendirme sürümü için **Hesaplama** sayfasını kullanın ve maliyet değişikliklerinden etkilenecek seçili mamul maddeleri belirtin. Ürün reçetesi hesaplamaları, belirli maddeleri seçmediğiniz sürece tüm mamul maddelere uygulanır. Alternatif olarak, ürün reçetesi hesaplama seçeneğini kullanım yeri güncelleştirmeleri için kullanabilirsiniz. Benzetimi yapılan maliyet değişikliklerinin seçili mamul maddelerin maliyetlerini nasıl etkilediğini analiz etmek için benzetim maliyetlendirme sürümü içerisindeki madde maliyet kayıtlarını görüntüleyin. Maliyetleri görüntüleyip analiz etmek için **Madde fiyatı** sayfasını ve **Madde maliyetini hesapla** sayfasını kullanın.
-
 
 
 

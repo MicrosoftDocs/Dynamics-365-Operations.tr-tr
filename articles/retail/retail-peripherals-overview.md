@@ -1,13 +1,13 @@
 ---
-title: "Perakende çevre birimleri"
-description: "Bu konu, perakende çevre birimleriyle ilgili kavramları açıklar."
+title: Perakende çevre birimleri
+description: Bu konu, perakende çevre birimleriyle ilgili kavramları açıklar.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/16/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347871"
 ---
-
 # <a name="retail-peripherals"></a>Perakende çevre birimleri
 
 [!include [banner](includes/banner.md)]
@@ -40,9 +39,9 @@ Gezinti: **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kay�
 
 ### <a name="devices"></a>Aygıtlar
 
-Gezinti: **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Cihazlar** üzerine tıklayın. Cihaz, POS kaydının eşlendiği bir cihazın fiziksel örneğini gösteren bir varlıktır. Cihaz oluşturulduğunda bir POS kaydına eşlenir. Cihaz varlığı, bir POS kaydı etkinleştirildiğinde kullanılan istemci türü ve belirli bir cihaza dağıtılan uygulama paketi hakkındaki bilgileri izler. Cihazlar aşağıdaki uygulama türleriyle eşlenebilir: Retail Modern POS perakende, Perakende Bulut POS, Retail Modern POS – Windows Telefon, Retail Modern POS – Android ve Retail Modern POS – iOS.
+Gezinti: **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Cihazlar** üzerine tıklayın. Cihaz, POS kaydının eşlendiği bir cihazın fiziksel örneğini gösteren bir varlıktır. Cihaz oluşturulduğunda bir POS kaydına eşlenir. Cihaz varlığı, bir POS kaydı etkinleştirildiğinde kullanılan istemci türü ve belirli bir cihaza dağıtılan uygulama paketi hakkındaki bilgileri izler. Cihazlar aşağıdaki uygulama türlerine eşlenebilir: Retail Modern POS, Retail Cloud POS, Retail Modern POS - Windows Phone, Retail Modern POS - Android ve Retail Modern POS -iOS.
 
-### <a name="retail-modern-pos"></a>Perakende Modern POS
+### <a name="retail-modern-pos"></a>Retail Modern POS
 
 Modern POS, Microsoft Windows için POS programıdır. Windows 10 işletim sistemlerinde (OSs) dağıtılabilir.
 
@@ -54,9 +53,9 @@ Bulut POS Modern POS programının bir web tarayıcısından erişilebilen taray
 
 iOS için Modern POS, Modern POS programının iOS aygıtlarda dağıtılabilen iOS tabanlı bir sürümüdür.
 
-### <a name="modern-pos-for-android"></a>Android için Modern POS
+### <a name="modern-pos-for-android"></a>Modern POS for Android
 
-Android için Modern POS, Modern POS programının Android aygıtlarda dağıtılabilen Android tabanlı bir sürümüdür.
+Modern POS for Android, Modern POS programının Android cihazlara dağıtılabilir bir Android tabanlı sürümüdür.
 
 ### <a name="pos-peripherals"></a>POS çevre birimleri
 
@@ -119,7 +118,7 @@ Kişisel kimlik numarası (PIN) pad'ler OPOS ile desteklenir, ancak bir ödeme b
 
 Microsoft Dynamics 365 for Retail ile en geniş cihaz yelpazesinin kullanılabilmesini sağlamaya yardımcı olmak amacıyla, POS endüstri standardı için OLE Microsoft Dynamics 365 for Retail tarafından desteklenen birincil perakende çevre birim cihazı platformudur. POS standardı için OLE, perakende çevre birim cihazları için endüstri standardı iletişim protokollerini belirleyen Ulusal Perakende Federasyonu (NFR) tarafından üretilmiştir. OPOS, POS standardı için OLE'nin yaygın olarak benimsenen bir uygulamasıdır. 1990'ların ortalarında geliştirilmiştir ve o günden bu yana birkaç kez güncelleştirilmiştir. OPOS, POS donanımının Windows tabanlı POS sistemleri ile kolay tümleştirilmesini sağlayan bir aygıt sürücüsü mimarisi sağlar. OPOS uyumlu donanım ile POS yazılımı arasındaki iletişimi denetler. OPOS denetimi iki bölümden oluşur:
 
-- **Denetim nesnesi** – Bir cihaz sınıfı için denetim nesnesi (satır görüntülemeler gibi) yazılım programı için arabirim sağlar. Monroe Danışmanlık Hizmetleri ([www.monroecs.com](http://www.monroecs.com/)) genel denetim nesneleri (CCOs) olarak bilinen standartlaştırılmış OPOS denetim nesneleri kümesi sağlar. CCO'lar Microsoft Dynamics 365 for Retail'in POS bileşenini test etmek için kullanılır. Bu nedenle, test Microsoft Dynamics 365 for Retail'in bir cihaz sınıfını OPOS aracılığıyla desteklemesi durumuda, üreticinin OPOS için oluşturulmuş bir hizmet nesnesi sağlaması durumunda, birçok cihaz türünün destekleneceğini garanti etmeye yardımcı olur. Her cihaz türünü açıkça test etmeniz gerekmez.
+- **Denetim nesnesi** – Bir cihaz sınıfı için denetim nesnesi (satır görüntülemeler gibi) yazılım programı için arabirim sağlar. Monroe Danışmanlık Hizmetleri ([www.monroecs.com](http://www.monroecs.com/)) genel denetim nesneleri (CCOs) olarak bilinen standartlaştırılmış OPOS denetim nesneleri kümesi sağlar. CCO'lar, Microsoft Dynamics 365 for Retail POS bileşenlerini test etmekte kullanılır. Bu nedenle, test Microsoft Dynamics 365 for Retail'in bir cihaz sınıfını OPOS aracılığıyla desteklemesi durumuda, üreticinin OPOS için oluşturulmuş bir hizmet nesnesi sağlaması durumunda, birçok cihaz türünün destekleneceğini garanti etmeye yardımcı olur. Her cihaz türünü açıkça test etmeniz gerekmez.
 - **Hizmet nesnesi** – Hizmet nesnesi denetim nesnesi (CCO) ile cihaz arasındaki iletişimi sağlar. Genellikle, bir cihaz için hizmet nesnesi cihaz üreticisi tarafından sağlanır. Ancak, bazı durumlarda, hizmet nesnesini üreticisinin web sitesinden indirmeniz gerekebilir. Örneğin, daha yeni bir hizmet nesnesi mevcut olabilir. Üreticinin web sitesi adresini bulmak için donanım belgelerinize bakın.
 
 [![Kontrol nesnesi ve hizmet nesnesi](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -127,7 +126,7 @@ Microsoft Dynamics 365 for Retail ile en geniş cihaz yelpazesinin kullanılabil
 POS için OLE'nin OPOS uygulanması için destek, cihaz üreticileri ve POS yayımcıların standardı doğru uygulaması durumunda, POS sistemleri ve desteklenen cihazların, daha önce birlikte test edilmemiş olsalar bile, birlikte çalışabileceklerini garanti etmeye yardımcı olur.
 
 > [!NOTE]
-> OPOS desteği OPOS sürücülerine sahip tüm cihazlar için destek garanti etmez. Microsoft Dynamics 365 for Retail'in öncelikle cihaz türünü veya sınıfını OPOS aracılığıyla desteklemesi gerekir. Ayrıca, hizmet nesneleri CCO'ların en son sürümü ile daima güncel olmayabilir. Ayrıca, genel olarak, hizmet nesnelerinin kalitesinin farklılık gösterdiğini de unutmamanız gerekir.
+> OPOS desteği OPOS sürücülerine sahip tüm cihazlar için destek garanti etmez. Microsoft Dynamics 365 for Retail OPOS aracılığıyla öncelikle cihaz türünü veya sınıfını desteklemelidir. Ayrıca, hizmet nesneleri CCO'ların en son sürümü ile daima güncel olmayabilir. Ayrıca, genel olarak, hizmet nesnelerinin kalitesinin farklılık gösterdiğini de unutmamanız gerekir.
 
 ### <a name="windows"></a>Windows
 
@@ -203,7 +202,7 @@ Bilgi için bkz. [Perakende donanım istasyonu yapılandırma ve yükleme](retai
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Windows için Modern POS kurulumu ve yapılandırması
 
-Bilgi için bkz. [Retail Modern POS yapılandırma ve yükleme](retail-modern-pos-device-activation.md)
+Daha fazla bilgi için bkz. [Retail Modern POS yapılandırması ve kurulumu](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS cihazı kurma ve yapılandırma
 
@@ -296,7 +295,7 @@ Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik 
 <ul>
 <li>OPOS</li>
 <li>Ağ
-<blockquote>[!NOTE] Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</blockquote>
+<blockquote>NOT: Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</blockquote>
 </li>
 </ul>
 </td>
@@ -307,7 +306,7 @@ Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik 
 <ul>
 <li>OPOS</li>
 <li>Ağ
-<blockquote>[!NOTE] Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</blockquote>
+<blockquote>NOT: Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</blockquote>
 </li>
 </ul>
 </td>
@@ -375,7 +374,7 @@ Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik 
 <ul>
 <li>OPOS</li>
 <li>Windows sürücüsü
-<blockquote>[!NOTE] Ağ üzerindeki Windows yazıcıları için, donanım istasyonu kullanıcısının yazıcıya erişim izni olmalıdır.</blockquote>
+<blockquote>NOT: Ağ üzerindeki Windows yazıcıları için, donanım istasyonu kullanıcısının yazıcıya erişim izni olmalıdır.</blockquote>
 </li>
 <li>Ağ</li>
 </ul>
@@ -405,7 +404,7 @@ Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik 
 <ul>
 <li>OPOS</li>
 <li>Ağ
-<blockquote>[!NOTE] Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</blockquote>
+<blockquote>NOT: Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</blockquote>
 </li>
 </ul>
 </td>
@@ -470,7 +469,7 @@ Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik 
 <ul>
 <li>OPOS</li>
 <li>Windows sürücüsü
-<blockquote>[!NOTE] Ağ üzerindeki Windows yazıcıları için, donanım istasyonu kullanıcısının yazıcıya erişim izni olmalıdır.</blockquote>
+<blockquote>NOT: Ağ üzerindeki Windows yazıcıları için, donanım istasyonu kullanıcısının yazıcıya erişim izni olmalıdır.</blockquote>
 </li>
 <li>Ağ</li>
 </ul>
@@ -492,7 +491,7 @@ Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik 
 <ul>
 <li>OPOS</li>
 <li>Ağ
-<blockquote>[!NOTE] Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</blockquote>
+<blockquote>NOT: Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</blockquote>
 </li>
 </ul>
 </td>
@@ -523,7 +522,7 @@ Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik 
 Donanım profilleri oluşturma hakkında daha fazla bilgi için bkz. [Kasalar ve donanım istasyonları dahil olmak üzere kanal istemcilerini tanımlama ve koruma](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> Microsoft Dynamics 365 for Retail sürüm 1611 için donanım istasyonu profili artık kullanılmamaktadır. İstasyon donanım profilinde önceden ayarlanmış öznitelikler artık donanım istasyonunun bir parçasıdır.
+> Microsoft Dynamics 365 for Retail sürüm 1611 için donanım istasyonu profili daha fazla kullanılmamaktadır. İstasyon donanım profilinde önceden ayarlanmış öznitelikler artık donanım istasyonunun bir parçasıdır.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Windows için Modern POS, IPC (yerleşik) donanım istasyonu ile
 
@@ -743,7 +742,6 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile adanmış
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Özel    | Ağ üzerinden bağlı     |
-| Star         | TSP100   | OPOS      | TSP650II sürücüleri gerektirir |
 | HP           | F7M67AA  | OPOS      | Güç beslemeli USB               |
 
 #### <a name="bar-code-scanner"></a>Barkod tarayıcısı
@@ -818,7 +816,6 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaşt�
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Özel    | Ağ üzerinden bağlı     |
-| Star         | TSP100   | OPOS      | TSP650II sürücüleri gerektirir |
 | HP           | F7M67AA  | OPOS      | Güç beslemeli USB               |
 
 #### <a name="payment-terminal"></a>Ödeme terminali 
@@ -894,4 +891,3 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaşt�
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Perakende çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md)
-

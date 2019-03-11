@@ -1,13 +1,13 @@
 ---
-title: "İş akışı sistemi"
-description: "Bu konuda, Financa and Operations'daki iş akışı sistemi açıklanmaktadır."
+title: İş akışı sistemi
+description: Bu konuda, Microsoft Dynamics 365 for Finance and Operations'daki iş akışı sistemi açıklanmaktadır.
 author: sericks007
 manager: AnnBe
 ms.date: 08/17/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 770796b42e79ad616b469e1dbf5149789bff0788
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308656"
 ---
-
 # <a name="workflow-system"></a>İş akışı sistemi
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Financa and Operations'daki iş akışı sistemi açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 for Finance and Operations'daki iş akışı sistemi açıklanmaktadır.
 
 ## <a name="what-is-workflow"></a>İş akışı nedir?
 
@@ -72,4 +71,3 @@ Bu iş akışını daha iyi anlamak için Haluk'un 7.000 ABD Doları tutarında 
 + [Bir iş akışında bir paralel etkinlik yapılandırma](configure-parallel-activity-workflow.md)
 + [Paralel dalı iş akışında yapılandırma](configure-parallel-branch-workflow.md)
 + [Satır maddesi iş akışını yapılandırma](configure-line-item-workflow.md)
-

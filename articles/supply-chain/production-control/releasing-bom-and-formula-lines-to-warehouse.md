@@ -1,13 +1,13 @@
 ---
-title: "Ürün reçetesi ve formül satırlarını ambara serbest bırakma"
-description: "Bu konuda, ürün reçetesi satırları ve formül satırları için ambara hammadde serbest bırakma süreci açıklanmaktadır."
+title: Ürün reçetesi ve formül satırlarını ambara serbest bırakma
+description: Bu konuda, ürün reçetesi satırları ve formül satırları için ambara hammadde serbest bırakma süreci açıklanmaktadır.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 8ccdb71f49652d6cca6ced2e9e9764d9ad0fffd8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343156"
 ---
-
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Ürün reçetesi ve formül satırlarını ambara serbest bırakma
 
 [!include [banner](../includes/banner.md)]
@@ -99,4 +98,3 @@ Hammaddeyi kısmi bir mamul ürün miktarı için veya belirli bir birimde serbe
     Kullanılabilir birimler mamul ürününün birim sırası grubu kodunda tanımlanır.
 
     Örneğin, mamul ürün pound (libre) ve palet (PL) arasında şu birin dönüştürmeye sahiptir: 1 PL = 100 libre 10.000 libre mamul ürün için üretim emri oluşturmak üzere üretmeyi planladığınız palet sayısı için hammaddeyi serbest bırakabilirsiniz. Birim olarak **PL** seçin ve ardından **Miktar** alanında karşılık gelen sayıyı seçin.
-

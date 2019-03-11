@@ -1,13 +1,13 @@
 ---
-title: "SharePoint'ten veri aktarımını yapılandırma"
-description: "Bu konu, Microsoft SharePoint'ten nasıl veri aktarılacağını açıklamaktadır."
+title: SharePoint'ten veri aktarımını yapılandırma
+description: Bu konu, Microsoft SharePoint'ten nasıl veri aktarılacağını açıklamaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 060c3dec71e2b953d9341c5b5c89e60925fda34d
 ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331104"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>SharePoint'ten veri aktarımını yapılandırma
 
 [!include[banner](../includes/banner.md)]
 
-Elektronik raporlama (ER) çerçevesini kullanarak bir gelen dosyadan verileri içe aktarmak için, içe aktarmayı destekleyen bir ER biçimi yapılandırmanız ve ardından bu biçimi veri kaynağı olarak kullanan **Hedefe** türünün bir model eşlemesini çalıştırmanız gerekir. Verileri içe aktarmak için, içe aktarmak istediğiniz dosyaya gitmeniz gerekir. Kullanıcı gelen dosyayı el ile seçebilir. Microsoft SharePoint'ten veri içe aktarmayı destekleyen yeni ER özelliği sayesinde bu işlem müdahalesiz yürüyecek şekilde yapılandırılabilir. Microsoft SharePoint klasörlerinde depolanan dosyalardan veri içe aktarmak için ER yapılandırmalarını kullanabilirsiniz. Bu konu, SharePoint'ten Microsoft Dynamics 365 for Finance and Operations'a veri aktarma işleminin nasıl yapılacağını açıklamaktadır. Örneklerde iş verisi olarak satıcı hareketleri kullanılmaktadır.
+Elektronik raporlama (ER) çerçevesini kullanarak bir gelen dosyadan verileri içe aktarmak için, içe aktarmayı destekleyen bir ER biçimi yapılandırmanız ve ardından bu biçimi veri kaynağı olarak kullanan **Hedefe** türünün bir model eşlemesini çalıştırmanız gerekir. Verileri içe aktarmak için, içe aktarmak istediğiniz dosyaya gitmeniz gerekir. Kullanıcı gelen dosyayı el ile seçebilir. Microsoft SharePoint'ten veri içe aktarmayı destekleyen yeni ER özelliği sayesinde bu işlem müdahalesiz yürüyecek şekilde yapılandırılabilir. Microsoft SharePoint klasörlerinde depolanan dosyalardan veri içe aktarmak için ER yapılandırmalarını kullanabilirsiniz. Bu konu, SharePoint içe aktarmasını Microsoft Dynamics 365 for Finance and Operations içine eksiksiz yapmayı açıklar. Örneklerde iş verisi olarak satıcı hareketleri kullanılmaktadır.
 
-## <a name="prerequisites"></a>Ön koşullar
+## <a name="prerequisites"></a>Önkoşullar
 Bu konudaki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
 
 - Aşağıdaki rollerden biri için Finance and Operations'a erişim:
@@ -56,7 +56,7 @@ Bu konudaki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
 
 - Excel dosyası **1099import-data.xlsx**: Finance and Operations'a aktarılması gereken satıcı hareketlerinin bulunduğu dosya.
 
-![SharePoint'ten içe aktarmada kullanılacak Microsoft Excel dosyası örneği](./media/GERImportFromSharePoint-02-Excel.PNG)
+![SharePoint'ten içe aktarma için örnek Microsoft Excel dosyası](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > Satıcı hareketlerini içe aktarmak için kullanılan biçim, varsayılan model eşleme olarak seçilidir. Bu nedenle, bir model eşlemesi çalıştırıyorsanız, **1099 Ödemeleri modeli** çalıştırıyorsanız ve söz konusu model eşleme **Hedefe** türündeyse, model eşleme, harici dosyalardan içe veri aktarmak için bu biçimi çalıştırır. Ardından bu verileri, uygulama tablolarını güncelleştirmek için kullanır.
@@ -115,13 +115,13 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 **Kaynaklar için dosya durumları** sayfasını **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Kaynaklar için dosya durumları**'nı seçerek de açabilirsiniz. Bu durumda, sayfada, oturum açtığınız şirkette dosya kaynaklarının yapılandırıldığı tüm ER biçimlerinin dosya kaynakları hakkında bilgiler verilir.
 
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>Bir SharePoint klasöründeki Excel dosyalarından verileri içe aktarma
-1. SharePoint'te, satıcı hareketlerini içeren Microsoft Excel dosyasını (**1099import-data.xlsx**), daha önce oluşturduğunuz **Dosya içe aktarma kaynağı (ana)** SharePoint klasörüne yükleyin.
+1. SharePoint'te, satıcı hareketlerini içeren Microsoft Excel, **dosyasını 1099import-data.xlsx**, daha önce oluşturduğunuz **Dosya içe aktarma kaynağı (ana)** SharePoint klasörüne yükleyin.
 
-    [![SharePoint içeriği: İçe aktarmada kullanılacak Microsoft Excel dosyası](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![SharePoint içeriği – İçe aktarma için Microsoft Excel dosyası](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. Finance and Operations'ta, **Kaynaklar için dosya durumları** sayfasında, **Yenile**'yi seçerek sayfayı yenileyin. SharePoint'e yüklenen Excel dosyasının bu sayfadaki **Hazır** durumda görüneceğine dikkat edin. Şu anda aşağıdaki durumlar desteklenmektedir:
 
-    - **Hazır**: SharePoint klasöründeki her yeni dosyaya otomatik olarak atanır. Bu durum, dosyanın içe aktarılmaya hazır olduğu anlamına gelir.
+    - **Hazır** - SharePoint klasöründeki her yeni dosyaya otomatik olarak atanır. Bu durum, dosyanın içe aktarılmaya hazır olduğu anlamına gelir.
     - **İçe Aktarılıyor**: Dosya, başka işlemler (çok sayıda işlem aynı anda çalışıyorsa) tarafından kullanılmasını önlemek için içe aktarma işlemi tarafından kilitleneceği zaman bir ER raporu tarafından otomatik olarak atanır.
     - **İçe Aktarıldı**: Dosyayı içeri aktarma işlemi başarıyla tamamlandığında bir ER raporu tarafından otomatik olarak atanır. Bu durum, içe aktarılan dosyanın, yapılandırılan dosya kaynağından (SharePoint klasörü) silindiği anlamına gelir.
     - **Başarısız**: Dosyayı içeri aktarma işlemi hatalarla veya özel durumlarla tamamlandığında ER raporu tarafından otomatik olarak atanır.
@@ -129,7 +129,7 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 
     [![Seçili kaynaklar için ER dosya durumları sayfası](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
-## <a name="import-data-from-sharepoint-files"></a>SharePoint dosyalarından içe veri aktarma
+## <a name="import-data-from-sharepoint-files"></a>SharePoint dosyalardan içe aktarma
 1. ER yapılandırmaları ağacını açın, **1099 Ödeme modeli**'ni seçin ve ER modeli bileşenleri listesini genişletin.
 2. Seçili ER model yapılandırmasının model eşlemeleri listesini açmak için model eşlemenin adını seçin.
 
@@ -165,7 +165,7 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 ## <a name="prepare-an-excel-file-for-import"></a>Excel dosyasını içe aktarmaya hazırlama
 1. Daha önce kullandığınız Excel dosyasını açın. Satır 3 sütun 1'e, uygulamada bulunmayan bir satıcı kodu ekleyin. Satıra yanlış bir satıcı bilgisi ekleyin.
 
-    [![SharePoint'ten içe aktarmada kullanılacak Microsoft Excel dosyası örneği](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![SharePoint'ten içe aktarma için örnek Microsoft Excel dosyası](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. Satıcı hareketlerini içeren güncelleştirilmiş Excel dosyasını **Dosya içe aktarma kaynağı (ana)** SharePoint klasörüne yükleyin.
 3. Finance and Operations'ta, ER yapılandırmaları ağacını açın,**1099 Ödeme modeli**'ni seçin ve ER modeli bileşenleri listesini genişletin.
@@ -192,4 +192,3 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 11. Finance and Operations'ta, **Borç hesapları** \> **Periyodik görevler** \> **Vergi 1099** \> **1099 formlarına ilişkin satıcı kapatması**'nı seçin, **Başlangıç tarihi** ve **Bitiş tarihi** alanlarına uygun değerleri girin ve **El ile 1099 hareketleri**'ni seçin.
 
     Yalnızca V-00001 kodlu fişe ilişkin hareketler kullanılabilir. Excel dosyasında son içe aktarılan harekette hata bulunsa bile V-00002 kodlu fişe ilişkin hareketler kullanılamaz.
-

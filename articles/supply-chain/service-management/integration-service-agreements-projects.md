@@ -1,31 +1,30 @@
 ---
-title: "Projeler ve servis sözleşmeleri için tümleştirme"
-description: "Servis anlaşmalarıyla ve servis anlaşması satırlarıyla çalıştığınızda, Proje yönetimi ve muhasebe bölümünün aşağıdaki alanlarında belirlenmiş verileri kullanırsınız."
+title: Projeler ve servis sözleşmeleri için tümleştirme
+description: Servis anlaşmalarıyla ve servis anlaşması satırlarıyla çalıştığınızda, Proje yönetimi ve muhasebe bölümünün aşağıdaki alanlarında belirlenmiş verileri kullanırsınız.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6bd2fb1f54a3decb77f019db6b2016cebdcaddb9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9f2640eae299411d633c68795bc16883dbb5eeaf
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323215"
 ---
-
 # <a name="integration-for-service-agreements-and-projects"></a>Projeler ve servis sözleşmeleri için tümleştirme 
 
 [!include [banner](../includes/banner.md)]
@@ -79,7 +78,6 @@ Ayrıca, servis siparişi satırlarına başlangıç ve bitiş saatleri girmek i
 
 > [!NOTE]
 > <P><STRONG>Servis yönetimi parametreleri</STRONG> formundaki <STRONG>Günlükler</STRONG> sekmesinde yer alan <STRONG>Saat</STRONG> alanında servis siparişi için günlük adını seçin.</P>
-
 
 
 

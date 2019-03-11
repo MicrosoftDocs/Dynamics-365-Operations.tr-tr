@@ -1,13 +1,13 @@
 ---
-title: "Soru formları tasarlama"
-description: "Bu konu bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun."
+title: Soru formları tasarlama
+description: Bu konu bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306588"
 ---
-
 # <a name="design-questionnaires"></a>Soru formları tasarlama
 
 [!include [banner](includes/banner.md)]
@@ -94,7 +93,7 @@ Numara seri kodları sorular ve yanıtlar düzenlemek için kullanılır. Bu num
 Verilerinizi oluşturmaya başlamadan önce tüm parametreleri tanımlamanız gerekir. Anket parametre ayarlarını istediğiniz zaman değiştirebilirsiniz.
 
 ## <a name="questionnaire-components"></a>Anket bileşenleri
-Soru formlar üç ana öğeden oluşur: çoktan seçmeli sorular için cevapları içeren cevap grupları, sorular ve soru formunun kendisi. İsteğe bağlı olarak, bir soru formundaki soruları sonuç sayfalarına da gruplandırabilirsiniz. Sonuç grupları soruları kategorilere ayırmanızı sağlar ve anket hakkında daha fazla analiz sağlar. 
+Soru formlar üç ana öğeden oluşur: çoktan seçmeli sorular için cevapları içeren cevap grupları, sorular ve soru formunun kendisi. İsteğe bağlı olarak, bir soru formundaki soruları sonuç sayfalarına da gruplandırabilirsiniz. Sonuç grupları soruları kategorilere ayırmanızı sağlar ve anket hakkında daha fazla analiz sağlar. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -202,7 +201,7 @@ Bir sonuç grubu bir anketteki belirli soru gruplarıyla ilişkili olan puanlarl
 -   Liderlik yetenekleri
 -   Teknik yetenekler
 
-Puan tabanlı mesajları kullanmak için, her sonuç grubu için metin aralıkları ayarlayın. Her soruya iki puan atanır. Bu nedenle, her sonuç grubundaki maksimum puan toplamı 10'dur. 
+Puan tabanlı mesajları kullanmak için, her sonuç grubu için metin aralıkları ayarlayın. Her soruya iki puan atanır. Bu nedenle, her sonuç grubundaki maksimum puan toplamı 10'dur. 
 
 Aşağıdaki tablo "liderlik yetenekleri" sonuç grubu için tanımladığınız puan tabanlı mesajları gösterir.
 
@@ -238,5 +237,4 @@ Alternatif olarak, bir yanıtlayan soru 1 için cevap A'yı seçtiğinde soru s�
 [Soru formlarını dağıtma ve tamamlama](distribute-questionnaires.md)
 
 [Soru formlarının sonuçlarını görüntüleyin ve değerlendirin](evaluate-questionnaire-results.md)
-
 

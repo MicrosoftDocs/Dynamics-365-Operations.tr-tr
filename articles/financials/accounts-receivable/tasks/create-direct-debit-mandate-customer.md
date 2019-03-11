@@ -1,13 +1,13 @@
---- 
-title: "Müşteri için hesaptan ödeme talimatı oluşturma"
-description: "Bu görev kılavuzunda hesaptan ödeme talimatının nasıl oluşturulacağı ve faturada nasıl kullanılacağı gösterilmektedir."
+---
+title: Müşteri için hesaptan ödeme talimatı oluşturma
+description: Bu görev kılavuzunda hesaptan ödeme talimatının nasıl oluşturulacağı ve faturada nasıl kullanılacağı gösterilmektedir.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, BankAccountTable, CustPaymMode, CustDirectDebitMandate, BankAccountTableLookUp, SrsReportViewerForm,  LogisticsAddressCityLookup, CustFreeInvoice, CustTableLookup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fc3052fdfc6e3dcf2826b3069f6d644201a70c3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d01c7c19925a3c7064ab3f845b92b610b162066c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346905"
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>Müşteri için hesaptan ödeme talimatı oluşturma
 
@@ -89,5 +89,4 @@ Bu görev kılavuzunda hesaptan ödeme talimatının nasıl oluşturulacağı ve
 2. Yeni'ye tıklayın.
 3. Talimatı eklediğiniz müşteriyi seçin.
 4. Hesaptan ödeme talimatı alanında bir değer girin veya bir değer seçin.
-
 

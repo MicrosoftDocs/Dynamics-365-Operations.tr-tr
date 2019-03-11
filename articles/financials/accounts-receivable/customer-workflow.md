@@ -1,13 +1,13 @@
 ---
-title: "Müşteri iş akışı"
-description: "Bu konu müşteri iş akışıyla ilgili bilgiler sağlar. Bir müşteri için belirli alanları değiştirebilir ve müşteri için eklenmeden önce iş akışı kullanarak değişiklikleri onaylanmak üzere gönderebilirsiniz."
+title: Müşteri iş akışı
+description: Bu konu müşteri iş akışıyla ilgili bilgiler sağlar. Bir müşteri için belirli alanları değiştirebilir ve müşteri için eklenmeden önce iş akışı kullanarak değişiklikleri onaylanmak üzere gönderebilirsiniz.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303005"
 ---
-
 # <a name="customer-workflow"></a>Müşteri iş akışı
 
 [!include [banner](../includes/banner.md)]
 
-Müşteri iş akışı Microsoft Dynamics 365 for Finance and Operations sürüm 8.0.4'e eklenmiştir. Bir müşteri için belirli alanları değiştirebilir ve müşteri için eklenmeden önce iş akışı kullanarak değişiklikleri onaylanmak üzere gönderebilirsiniz.
+Müşteri iş akışı, Microsoft Dynamics 365 for Finance and Operations sürüm 8.0.4'e eklendi. Bir müşteri için belirli alanları değiştirebilir ve müşteri için eklenmeden önce iş akışı kullanarak değişiklikleri onaylanmak üzere gönderebilirsiniz.
 
 ## <a name="set-up-the-customer-workflow"></a>Müşteri iş akışı ayarlama
 
@@ -62,4 +61,3 @@ En az bir önerilen değişikliğiniz olduğunda, Eylem Bölmesinde iki ek menü
     Sayfadaki durum **Değişiklikler onay bekliyor** olarak değişir.
 
 İş akışı Finance and Operations'taki standart iş akışı sürecini izler. Onaylayan **Önerilen değişiklikler** sayfasındaki değişiklikleri gözden geçirebileceği ve **İş akışı \> Onayla** öğesini seçerek iş akışını onaylayabileceği **Müşteri** sayfasına yönlendirilir. Tüm onaylar tamamlandığında, alanlar önerdiğiniz değerlerle güncelleştirilir.
-

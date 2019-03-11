@@ -1,13 +1,13 @@
 ---
-title: "Sabit kıymet amortisman yöntemleri"
-description: "Bu konuda sabit kıymetlerin amortisman yöntemlerine genel bir bakış sunulmuştur."
+title: Sabit kıymet amortisman yöntemleri
+description: Bu konuda sabit kıymetlerin amortisman yöntemlerine genel bir bakış sunulmuştur.
 author: saraschi2
 manager: AnnBe
 ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff8575749a33321450ea61fe1f01105c005e9092
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c69fd798c2e978935a63b079fb11c68d8555594c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337452"
 ---
-
 # <a name="fixed-asset-depreciation-conventions"></a>Sabit kıymet amortisman yöntemleri
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ Amortisman yöntemleri sabit kıymet grup defteri kurulumuna atanabilir. Bu duru
 | Ayın ortası (Ayın 15'i) |                                                                                                                                                        Mülkü hizmete sunduğunuz yılın amortisman kesintisini hesaplamak için tüm yıl için amortismanı bir kesirle çarpın. Kesirin payı (üstteki sayı) mülkün hizmette olduğu toplam ay sayısı artı 1/2 veya (0,5)'tir. Payda (alttaki sayı ) 12'dir. Mülkü geri kazanma döneminin sonundan önce elden çıkarırsanız, elden çıkardığınız yıl için amortisman kesintisini hesaplamak üzere aynı yöntemi kullanın.                                                                                                                                                        |
 | Yarı yıl (yılın başlangıcı) |                                                                                                                                                                                                                                                          <strong>Hizmete giriş</strong> tarihi yılın ilk yarısında olan varlıklar için amortisman yılın (tam yıl) ilk gününde başlar. <strong>Hizmete giriş</strong> tarihi yılın ikinci yarısında olan varlıklar için amortisman yılın ortasında başlar.                                                                                                                                                                                                                                                          |
 |   Yarı yıl (sonraki yıl)   |                                                            <strong>Hizmete giriş</strong> tarihi yılın ilk yarısında olan varlıklar için amortisman yılın (tam yıl) ilk gününde başlar. <strong>Hizmete giriş</strong> tarihi yılın ikinci yarısında olan varlıklar için amortisman sonraki yılın ilk gününde başlar. Yılın ilk yarısında geri çekilen varlıklar önceki yılın son gününde amortisman amacıyla geri çekilmiş olarak kabul edilir. Geçerli yıl içinde deftere nakledilen amortismanların tersine çevrilmesi veya ayarlanması gerekir. Yılın ikinci yarısında geri çekilen varlıklar geri çekildikleri yılın son gününde amortisman için geri çekilmiş olarak kabul edilir.                                                            |
-
 

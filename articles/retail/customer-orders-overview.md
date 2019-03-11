@@ -1,13 +1,13 @@
 ---
-title: "Retail Modern POS'ta (MPOS) müşteri siparişleri"
-description: "Bu konu, Perakende Modern POS (MPOS) içerisindeki müşteri siparişleri hakkında bilgi sağlar. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir."
+title: Retail Modern POS'taki (MPOS) müşteri siparişleri
+description: Bu konu, Retail Modern POS (MPOS) içindeki müşteri siparişleri hakkında bilgi sağlar. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: b54f39cc7896871d77f9371e6197bf6dbaac51de
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336624"
 ---
-
-# <a name="customer-orders-in-retail-modern-pos-mpos"></a>Retail Modern POS'ta (MPOS) müşteri siparişleri
+# <a name="customer-orders-in-retail-modern-pos-mpos"></a>Retail Modern POS'taki (MPOS) müşteri siparişleri
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Perakende Modern POS (MPOS) içerisindeki müşteri siparişleri hakkında bilgi sağlar. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
+Bu konu, Retail Modern POS (MPOS) içindeki müşteri siparişleri hakkında bilgi sağlar. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
 
 Çok kanallı perakende dünyasında pek çok perakendeci, çeşitli ürün ve yerine getirme gereksinimlerini karşılamak için müşteri siparişleri seçeneği veya özel siparişler sağlar. Burada bazı tipik senaryolar vardır:
 
@@ -57,7 +56,7 @@ Müşteri siparişlerinin nasıl karşılandıklarını tanımlamak için **Pera
 
 ## <a name="transaction-flow-for-customer-orders"></a>Müşteri siparişleri için hareket akışı
 
-### <a name="create-a-customer-order-in-retail-modern-pos"></a>Perakende Modern POS'ta bir müşteri siparişi oluştur
+### <a name="create-a-customer-order-in-retail-modern-pos"></a>Retail Modern POS için müşteri siparişleri oluşturun
 
 1. Harekete bir müşteri ekleyin.
 2. Sepete ürünler ekle.
@@ -97,9 +96,8 @@ Müşteri siparişleri satış noktası (POS) istemcisinden zaman uyumlu ya da z
 1. **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profili** &gt; **İşlev profilleri**'ne tıklayın.
 2. **Genel** hızlı sekmesi üzerinde, **Müşteri siparişlerini zaman uyumsuz modda oluştur** seçeneğini **Evet** olarak ayarlayın.
 
-**Müşteri siparişlerini zaman uyumsuz moda oluştur** seçeneği **Evet** olarak ayarlanmışsa, müşteri siparişleri her defasında zaman uyumsuz modda oluşturulur, Perakende İşlem Hizmeti (RTS) etkin olsa bile. Bu seçeneği **Hayır** olarak ayarlarsanız, müşteri siparişleri her defasında zaman uyumlu modda RTS kullanarak oluşturulur. Müşteri siparişleri zaman uyumsuz modda oluşturulduklarında, Retail içerisine Çekme (P) işleri ile çekilir ve eklenir. Karşılık gelen satış siparişleri, Retail içerisinde **Senkronizasyon siparişleri** elle veya toplu bir iş aracılığıyla çalıştırıldıklarında oluşturulur.
+**Müşteri siparişlerini zaman uyumsuz** moda oluştur seçeneği **Evet** olarak ayarlanmışsa, müşteri siparişleri her defasında zaman uyumsuz modda oluşturulur, Retail Transaction ServicePerakende İşlem Hizmeti (RTS) etkin olsa bile. Bu seçeneği **Hayır** olarak ayarlarsanız, müşteri siparişleri her defasında zaman uyumlu modda RTS kullanarak oluşturulur. Müşteri siparişleri zaman uyumsuz modda oluşturulduklarında, Retail içerisine Çekme (P) işleri ile çekilir ve eklenir. Karşılık gelen satış siparişleri, Retail içerisinde **Senkronizasyon siparişleri** elle veya toplu bir iş aracılığıyla çalıştırıldıklarında oluşturulur.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Karma müşteri siparişleri](hybrid-customer-orders.md)
-

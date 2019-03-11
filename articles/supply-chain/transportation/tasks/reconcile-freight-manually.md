@@ -1,13 +1,13 @@
---- 
-title: "El ile navlun mutabakatı sağlama"
-description: "Bu yordam navlunun el ile nasıl mutabık kılınacağını gösterir."
+---
+title: El ile navlun mutabakatı sağlama
+description: Bu yordam navlunun el ile nasıl mutabık kılınacağını gösterir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSFreightBillDetail, TMSInvoiceTable, TMSFreightBillInvoiceReconcile, TMSInvoiceJournal, LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ee2d114b0a725b947add3e155cc6445021fee998
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 15148725664d839694ede8419213d881c7be83dd
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351896"
 ---
 # <a name="reconcile-freight-manually"></a>El ile navlun mutabakatı sağlama
 
@@ -60,5 +60,4 @@ Bu yordam navlunun el ile nasıl mutabık kılınacağını gösterir. Bu genell
 4. Satıcı fatura günlükleri'ne tıklayın.
 5. Referans günlük numarası alanındaki bağlantıyı izlemek için tıklayın.
 6. Satırlar seçeneğine tıklayın.
-
 

@@ -1,32 +1,31 @@
 ---
-title: "Ürün tanımlayıcıları"
-description: "Bu konu çeşitli ürün tanımlayıcısı türleri hakkında bilgi sağlar ve ürün tanımlayıcılarını ürün verilerine nasıl ekleyebileceğinizi açıklar."
+title: Ürün tanımlayıcıları
+description: Bu konu çeşitli ürün tanımlayıcısı türleri hakkında bilgi sağlar ve ürün tanımlayıcılarını ürün verilerine nasıl ekleyebileceğinizi açıklar.
 author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: afd542a652abdf6e45c83a6097dc8f0d36efa905
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/23/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335428"
 ---
-
 # <a name="product-identifiers"></a>Ürün tanımlayıcıları 
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ Microsoft Dynamics ERP veya Microsoft Dynamics CRM'de atölyedeki veya ambardaki
 
 ## <a name="unique-product-numberproduct-id"></a>Benzersiz ürün numarası/ürün kodu
 
-Microsoft Dynamics 365 for Finance and Operations'da bir ürün için birincil tanımlayıcı ürün numarasıdır (benzersiz ürün kodu). Bu numara bir numara serisi tarafından otomatik olarak oluşturulabilir veya bir ürünle el ile ilişkilendirilebilir. Ürün çeşitleri için, numaralar ürün terminolojisi şablonu aracılığıyla tanımlanabilir.
+Microsoft Dynamics 365 for Finance and Operations içinde, bir ürün için birincil kimlik tanımlayıcı, ürün numarasıdır (yani, benzersiz ürün Kimliğidir). Bu numara bir numara serisi tarafından otomatik olarak oluşturulabilir veya bir ürünle el ile ilişkilendirilebilir. Ürün çeşitleri için, numaralar ürün terminolojisi şablonu aracılığıyla tanımlanabilir.
 
 Çoğu durumda, ürün numarası en başta Finance and Operations'ta oluşturulmaz. Bunun yerine, bir ürün yaşam döngüsü yönetimi (PLM) sistemi veya ürün veri yönetimi (PDM) sistemindeki bir ürünle ilişkilendirilir. Bu durumda, ürünleri ve ürün çeşitlerini içe aktarmak için veri varlıklarını kullanırsınız. Finance and Operations numaraları tüm işlemlerde kullanır.
 
@@ -186,4 +185,3 @@ Artık herhangi bir hedef sistem için tanımlayıcıları dışa aktarmak için
 ## <a name="related-topic"></a>İlgili konu
 
 [Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama](search-products-product-variants.md)
-

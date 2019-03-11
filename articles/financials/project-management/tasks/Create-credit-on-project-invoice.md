@@ -1,13 +1,13 @@
---- 
-title: "Proje faturalarında alacak dekontu oluşturma"
-description: "Bu işlem, deftere nakledilen proje faturalarında nasıl alacak dekontu oluşturulacağını gösterir."
+---
+title: Proje faturalarında alacak dekontu oluşturma
+description: Bu işlem, deftere nakledilen proje faturalarında nasıl alacak dekontu oluşturulacağını gösterir.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: be337accdde23d5bd9871c75115f45474d960604
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 5360e5d6f55ac7462bd3b710f5572f33d5436497
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364362"
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Proje faturalarında alacak dekontu oluşturma
 
@@ -39,4 +39,3 @@ ms.lasthandoff: 11/06/2017
 10. Tamam'a tıklayın. 
 
 Bu adımdan sonra Alacak Dekontu Fatura Teklifi için kullanılabilir.
-

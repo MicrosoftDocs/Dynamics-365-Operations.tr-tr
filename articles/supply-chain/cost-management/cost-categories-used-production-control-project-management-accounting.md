@@ -1,13 +1,13 @@
 ---
-title: "Üretim kontrolde ve Proje yönetimi muhasebesinde kullanılan maliyet kategorileri"
-description: "Bazı üretim iş türleri, proje süresi tahminlerine ve raporlamaya uygulanabilir. Bu makalede, bu tip üretim işi için üretim ve proje amaçlı olarak tanımlamanız gereken maliyet kategorileri hakkında bilgiler sağlanmıştır."
+title: Üretim kontrolde ve Proje yönetimi muhasebesinde kullanılan maliyet kategorileri
+description: Bazı üretim iş türleri, proje süresi tahminlerine ve raporlamaya uygulanabilir. Bu makalede, bu tip üretim işi için üretim ve proje amaçlı olarak tanımlamanız gereken maliyet kategorileri hakkında bilgiler sağlanmıştır.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cab4629740e92f9075b7afc7a5d228b2e01c4664
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d641ce950aed87b0cf6763fc9dae67ef47268b8d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326044"
 ---
-
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Üretim kontrolde ve Proje yönetimi muhasebesinde kullanılan maliyet kategorileri
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,6 @@ Bazı üretim iş türleri, proje süresi tahminlerine ve raporlamaya uygulanabi
 -   Genellikle, maliyetler ve satışlarla ilişkili genel muhasebe hesapları maliyet kategorisine atanmış kategori grubu için tanımlanır. Ancak, belirli bir maliyet kategorisi için spesifik hesaplar tanımlanabilir.
 
 **Maliyet kategorileri** sayfasındaki ek düğmeler, seçili bir maliyet kategorisi hakkında projeyle ilgili bilgilere erişim sağlar. Örneğin, proje ile ilgili hareketleri görüntüleyebilir, çalışanları veya projeleri tanımlayabilir, saatlik maliyet ve satış fiyatlarını tanımlayabilir ve raporlarını görüntüleyebilirsiniz.
-
 
 
 

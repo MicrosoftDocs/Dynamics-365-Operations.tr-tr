@@ -1,32 +1,31 @@
 ---
-title: "Ürün bilgilerine genel bakış"
-description: "Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar. Ürün bilgileri yönetimi paylaşılan ürün tanımı, kategori ve tüm tüzel kişilikler üzerindeki tanımlayıcıların yanı sıra iş süreçlerine uyum sağlamak üzere belirli ürün yapılandırmalarıyla birlikte çalışır."
+title: Ürün bilgilerine genel bakış
+description: Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar. Ürün bilgileri yönetimi paylaşılan ürün tanımı, kategori ve tüm tüzel kişilikler üzerindeki tanımlayıcıların yanı sıra iş süreçlerine uyum sağlamak üzere belirli ürün yapılandırmalarıyla birlikte çalışır.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363028"
 ---
-
 # <a name="product-information-overview"></a>Ürün bilgilerine genel bakış
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,7 @@ Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar. Ürün bilgileri 
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Ürün verilerini dağıtma, dışa aktarma ve içe aktarma
 
-Ürün tanımı Microsoft Dynamics 365 for Finance and Operations'da oluşturulabilir. Ayrıca ürün yaşam döngüsü yönetimi (PLM), ürün veri yönetimi (PDM) veya ürün bilgi yönetimi (PIM) sistemlerinden de alınabilir. Birden fazla Finance and Operations kurulumu kullanıldığında, bir kurulum diğer tüm kurulumlar için tipik olarak ürün verileri aslı olarak kullanılır. Bu yaklaşım, bir kurulumdan diğerine ürün tanımı bilgilerini aktarmaya olanak tanıyan geniş bir veri varlıkları kümesi tarafından desteklenir.
+Ürün tanım Microsoft Dynamics 365 for Finance and Operations içinde oluşturulabilir. Ayrıca ürün yaşam döngüsü yönetimi (PLM), ürün veri yönetimi (PDM) veya ürün bilgi yönetimi (PIM) sistemlerinden de alınabilir. Birden fazla Finance and Operations kurulumu kullanıldığında, bir kurulum diğer tüm kurulumlar için tipik olarak ürün verileri aslı olarak kullanılır. Bu yaklaşım, bir kurulumdan diğerine ürün tanımı bilgilerini aktarmaya olanak tanıyan geniş bir veri varlıkları kümesi tarafından desteklenir.
 
 Ürün verilerinin birden çok kuruluma dağıtılmasını desteklemek amacıyla Finance and Operations Common Data Service kullanmanıza olanak tanır. Ürün tanımları bir Finance and Operations kurulumundan Common Data Service'a aktarılabilir. Ürün tanımları daha sonra ürün verileriyle Microsoft Dynamics 365 for Sales gibi diğer iş uygulamalarını sağlamak için kullanılabilir.
 
@@ -66,7 +65,7 @@ Dinamik ve çevik kuruluşlarda ürün bilgileri verilerinin her gün değişti�
 
 ## <a name="product-masters-and-product-variants"></a>Ana ürünler ve ürün çeşitleri
 
-Ürünlerin müşteri gereksinimlerine hızlı şekilde uyarlandığı çevik bir dünyada, ürün tanımları farklı ürünler yerine ürün kümelerini belirtir. Microsoft Dynamics 365 for Finance and Operations'da bu genel ürünler *ana ürünler* olarak da bilinir. Ana ürünler, farklı ürünlerin iş süreçlerinde nasıl açıklanacağını ve davranacağını belirten tanımı ve kuralları tutar. Bu tanımlara bağlı olarak, farklı ürünler oluşturulabilir. Bu farklı ürünler *ürün çeşitleri* olarak da bilinir.
+Ürünlerin müşteri gereksinimlerine hızlı şekilde uyarlandığı çevik bir dünyada, ürün tanımları farklı ürünler yerine ürün kümelerini belirtir. Microsoft Dynamics 365 for Finance and Operations içinde bu genel ürünler *ana ürünler* olarak bilinir. Ana ürünler, farklı ürünlerin iş süreçlerinde nasıl açıklanacağını ve davranacağını belirten tanımı ve kuralları tutar. Bu tanımlara bağlı olarak, farklı ürünler oluşturulabilir. Bu farklı ürünler *ürün çeşitleri* olarak da bilinir.
 
 Finance and Operations'da, bir ana ürün ürün boyut grubu ve iş kurallarını belirtmek için bir konfigürasyon teknolojisi ile ilişkilidir. Ürün boyutları (Renk, Boyut, Stil ve Konfigürasyon) ilgili ürünlerin belirli davranışlarını tanımlamak ve izlemek için uygulama genelinde kullanılabilen belirli bir öznitelikler kümesidir. Bu boyutlar kullanıcıların ürünleri aramasına ve tanımlamasına da yardımcı olur.
 
@@ -97,4 +96,3 @@ Belirli bir tüzel kişilik için serbest bırakılan ürünler *serbest bırak�
 ### <a name="manually-creating-a-new-released-product"></a>Yeni serbest bırakılan ürünü el ile oluşturma
 
 Kuruluşun iş süreçlerine ve bu işlevin kullanılıp kullanılmayacağıyla ilgili kurallara bağlı olarak tek bir çalıştırmada el ile serbest bırakılan ürün oluşturabilirsiniz. Bu işlev yeni bir ürün oluşturur ve bunu otomatik olarak geçerli tüzel kişiliğe serbest bırakır. Yeni ürün oluşturmak için **Serbest bırakılan ürün bakımı** çalışma alanında veya **Serbest bırakılan ürün** liste sayfasında **Serbest bırakılan ürünler**'e tıklayın.
-

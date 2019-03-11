@@ -1,13 +1,13 @@
 ---
-title: "Ürün yapılandırma modelini ayarlama"
-description: "Bu makalede, bir ürün yapılandırma modelinin ayarlanmasına ve oluşturulmasına yönelik adımlar açıklanmaktadır."
+title: Ürün yapılandırma modelini ayarlama
+description: Bu makalede, bir ürün yapılandırma modelinin ayarlanmasına ve oluşturulmasına yönelik adımlar açıklanmaktadır.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10faa26a53b026a70487124d696b0313d1f5814d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8504eb789b0d449cf2e29d4314d189dc0b8a6b43
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360682"
 ---
-
 # <a name="set-up-a-product-configuration-model"></a>Ürün yapılandırma modelini ayarlama
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Bu makalede, bir ürün yapılandırma modelinin ayarlanmasına ve oluşturulmas
 | Bir ürün yapılandırma modelini test edin.                         | Ürün yapılandırma modeli **Kısıtlama tabanlı ürün yapılandırma modeli ayrıntıları** sayfasından veya **Ürün yapılandırma modelleri listesi** sayfasından test edin. Ürün yapılandırma modelleri testi, sipariş işleme sırasında oluşan ürün modeli yapılandırma işlemi benzetimi yapar.                                                                                                |
 | Ürün yapılandırma modeli şablonu oluşturun.                | **Yapılandırma şablonları** sayfasında bir ürün yapılandırma modeli şablonu oluşturun. Ürün yapılandırma şablonu, ürün yapılandırma modelindeki özniteliklere ilişkin değerleri içerir. **Satırı yapılandırma** sayfasındaki öznitelik değerlerini seçin. Ürün modeli yapılandırma sırasında bir ürün modeli yapılandırma şablonu yüklemeyi seçebilirsiniz.                                                   |
 | Bir maddeyi yapılandırın.                                          | Ürün yapılandırma modelleri satış siparişinden, satış teklifinden, satınalma siparişinden veya üretim emrinden yapılandırılabilir.                                                                                                                                                                                                                                                                           |
-
 
 
 

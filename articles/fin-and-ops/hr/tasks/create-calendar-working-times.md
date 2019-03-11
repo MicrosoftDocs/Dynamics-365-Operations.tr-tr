@@ -1,13 +1,13 @@
---- 
-title: "Takvim yaratma ve çalışma zamanları oluşturma"
-description: "Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar."
+---
+title: Takvim yaratma ve çalışma zamanları oluşturma
+description: Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 8a556367857890acdb926ed29518cf2f2f2b92ea
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336026"
 ---
 # <a name="create-calendar-and-generate-working-times"></a>Takvim yaratma ve çalışma zamanları oluşturma
 
@@ -48,5 +48,4 @@ Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıkl
     * Çalışma zamanı şablonu, haftanın her günü için çalışma saatlerini tanımlar.  
 13. Tamam'a tıklayın.
 14. Sayfayı kapatın.
-
 

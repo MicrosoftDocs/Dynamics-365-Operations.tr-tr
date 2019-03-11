@@ -1,31 +1,30 @@
 ---
-title: "Müşteri sitesindeki nesneleri göstermek üzere şablon ayarlama"
-description: "Müşteri sitesindeki nesneleri göstermek üzere şablon ayarlayın."
+title: Müşteri sitesindeki nesneleri göstermek üzere şablon ayarlama
+description: Müşteri sitesindeki nesneleri göstermek üzere şablon ayarlayın.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ef587b9fcb4f14715a4c830e8a3de8ebe21a71ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9d8678c8c6e43732082342d825bccc1232499a68
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347204"
 ---
-
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>Müşteri sitesindeki nesneleri göstermek üzere şablon ayarlama 
 
 [!include [banner](../includes/banner.md)]
@@ -54,6 +53,5 @@ Bir müşteri sitesindeki nesneleri temsil eden bir şablon ayarlamak için bu y
 [Nesne ilişkilerinde şablon ürün reçetelerini yönetme](manage-template-boms-on-object-relations.md)
 
   
-
 
 

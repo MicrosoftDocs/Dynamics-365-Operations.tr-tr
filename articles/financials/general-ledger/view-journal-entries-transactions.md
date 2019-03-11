@@ -1,13 +1,13 @@
 ---
-title: "Günlük girişlerini veya hareketlerini görüntüleme"
-description: "Bu makalede, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır."
+title: Günlük girişlerini veya hareketlerini görüntüleme
+description: Bu makalede, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTransVoucher
 audience: Application User
 ms.reviewer: robinr
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366708"
 ---
-
 # <a name="view-journal-entries-and-transactions"></a>Günlük girişlerini veya hareketlerini görüntüleme
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Mali raporlara ek olarak, aşağıdaki genel muhasebe raporlarını kullanarak g
 - [Muhasebe kaynağı gezgini](../accounts-payable/accounting-source-explorer.md)
 - [Mali raporlama](financial-reporting-getting-started.md)
 - [Günlük girişlerini görüntüle](tasks/view-journal-entries-or-transactions.md)
-
 
 
 

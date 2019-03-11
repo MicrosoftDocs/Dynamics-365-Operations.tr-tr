@@ -1,13 +1,13 @@
---- 
-title: "Satıcı ödeme masraflarını tanımlama"
-description: "Satıcı ödeme masraflarını ayarlayın."
+---
+title: Satıcı ödeme masraflarını tanımlama
+description: Satıcı ödeme masraflarını ayarlayın.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399291a98ddc6b01fb08f7a5c629ec7a6f8acfbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f62d07ffa1ee4a525f0f266922bc88e5ac8d5ada
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363212"
 ---
 # <a name="define-vendor-payment-fees"></a>Satıcı ödeme masraflarını tanımlama
 
@@ -58,5 +58,4 @@ Satıcı ödeme masraflarını ayarlayın. Bu görevde USMF demo şirketi kullan
 17. Ücret para birimi alanında, ücretin kesileceği para birimini seçin.
     * Ücretin para birimi. Ödeme para birimi, ödemenin para birimine göre ücret kuralının ne zaman yürürlüğe gireceğini belirlemek için kullanılır. Örneğin, bankanız avro olarak yapılan ödemeden bir ücret keserken, diğer ödemelerin hiçbirine ücret kesmeyebilir.  
 18. Kaydet'e tıklayın.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Yapılandırma anahtarları ve veri varlıkları"
-description: "Bu konu Microsoft Dynamics 365 for Finance and Operations'da yapılandırma anahtarları ile veri varlıkları arasındaki ilişkiyi açıklamaktadır."
+title: Yapılandırma anahtarları ve veri varlıkları
+description: Bu konu Microsoft Dynamics 365 for Finance and Operations içindeki yapılandırma anahtarları ve veri varlıkları arasındaki ilişkiyi açıklar.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336486"
 ---
-
 # <a name="configuration-keys-and-data-entities"></a>Yapılandırma anahtarları ve veri varlıkları
 
 [!include [banner](../includes/banner.md)]
@@ -96,4 +95,3 @@ Yapılandırma anahtarlarının kullanmak istediğiniz veri varlıkları üzerin
 Yapılandırma anahtarlarını varlık, tablo veya alan düzeyinde her güncelleştirdiğinizde, varlık yönetimi altyapısındaki varlık listesinin yenilenmesi gerekir. Bu işlem altyapının en son yapılandırma anahtarı ayarlarını almasını sağlar. Varlık listesi yenilenene kadar aşağıdaki ileti varlık listesi sayfasında gösterilir. Güncelleştirilen yapılandırma anahtarı değişiklikleri varlık listesi yenilendikten hemen sonra etkinleşir. Yapılandırma anahtarı değişikleri etkin olduktan sonra beklenen şekilde çalıştığından emin olmak üzere mevcut veri projelerini ve işlerini değerlendirmenizi öneririz.
 
 ![Hedef alanları](./media/Target_fields_3.png)
-

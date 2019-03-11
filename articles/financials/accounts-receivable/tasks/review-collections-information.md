@@ -1,13 +1,13 @@
---- 
-title: "Tahsilat bilgilerini gözden geçirme"
-description: "Bu yordam, tahsilat bilgilerini gözden geçirmenin yanı sıra çeşitli seçenekleri ve tahsilat hareketlerini ayarlamayı adım adım açıklar."
+---
+title: Tahsilat bilgilerini gözden geçirme
+description: Bu yordam, tahsilat bilgilerini gözden geçirmenin yanı sıra çeşitli seçenekleri ve tahsilat hareketlerini ayarlamayı adım adım açıklar.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 44d89d2bacc8f301a19bfd09d229809d492a55fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb0866505702ec5d047b6c8f3f0657aae787bedc
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349113"
 ---
 # <a name="review-collections-information"></a>Tahsilat bilgilerini gözden geçirme
 
@@ -131,5 +131,4 @@ Bu yordam, tahsilat bilgilerini gözden geçirmenin yanı sıra çeşitli seçen
     * Müşteriye atanan tahsilat vakalarını seçin veya bu alanı boş bırakın. Bir vaka seçilirse, yalnızca bununla ilişkili hareketler ve işlemler bu formda görüntülenir.  
 8. Listeyi göster'e tıklayın.
     * Bir müşteri hesabı seçin veya varsayılan girişi kabul edin. Varsayılan olarak liste sayfasındaki veya bu formu açtığınız formdaki seçili müşteri hesabıdır. Formu bir liste sayfasından açtıysanız, listedeki müşteriler listesi sayfasında kullanılan tahsilatlar havuzuna eklenmiş müşterilerdir.  
-
 

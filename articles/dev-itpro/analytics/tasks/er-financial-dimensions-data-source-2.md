@@ -1,13 +1,13 @@
---- 
-title: "ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2 - Model eşleme)"
-description: "Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının bir Elektronik raporlama (ER) modelini ER raporları için veri kaynağı olarak mali boyutları kullanacak şekilde nasıl yapılandıracağını açıklamaktadır."
+---
+title: ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2 - Model eşleme)
+description: Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının bir Elektronik raporlama (ER) modelini ER raporları için veri kaynağı olarak mali boyutları kullanacak şekilde nasıl yapılandıracağını açıklamaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319604"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2: Model eşleme)
 
@@ -43,7 +43,7 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 8. Açıklama alanına 'Boyut verileri eşleme' yazın.
 9. Kaydet'e tıklayın.
 10. Tasarımcı'yı tıklatın.
-11. Ağaçta, 'Dynamics 365 for Operations\Tablo' seçin.
+11. Ağaçta, 'Dynamics 365 for Operations\Tablo' öğesini seçin.
 12. Kök ekle'ye tıklayın.
 13. İsim alanına 'Şirket' yazın.
 14. Tablo alanına 'CompanyInfo' yazın.
@@ -59,7 +59,7 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 21. Ana hesap iste alanında Evet'i seçin.
     * Kullanıcıların ana hesabı boyutlar listesinin bir parçası olarak seçmesine izin vermek için 'Ana hesabı iste' seçeneğini Evet olarak ayarlayın.   Bu seçenek Hayır olarak ayarlandığında, ana hesap boyutlar listesine dahil edilmez ve 'Ana hesap zorunlu' seçeneği etkinleştirilir. "Ana hesap zorunlu" seçeneği Evet olarak ayarlandığında, kullanıcının seçiminden bağımsız olarak, ana hesabı boyutlar listesine ekleyin.  
 22. Tamam'a tıklayın.
-23. Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' seçin.
+23. Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' öğesini seçin.
 24. Kök ekle'ye tıklayın.
 25. Ad alanına 'LedgerJournal' yazın.
 26. Sorgu iste alanında Evet'i seçin.
@@ -143,5 +143,4 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 3. Durumu değiştir öğesine tıklayın.
 4. Tamamla öğesine tıklayın.
 5. Tamam'a tıklayın.
-
 

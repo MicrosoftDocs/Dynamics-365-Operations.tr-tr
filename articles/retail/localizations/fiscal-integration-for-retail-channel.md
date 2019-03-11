@@ -1,13 +1,13 @@
 ---
-title: "Perakende kanalı için mali tümleştirme"
-description: "Bu konu, Retail POS için mali entegrasyon genel görünümünü sağlar."
+title: Perakende kanalları için mali tümleştirme genel bakışı
+description: Bu konu, Microsoft Dynamics 365 for Retail içinde kullanılabilen mali tümleştirme yeterliliklerine genel bakış sağlar.
 author: josaw
 manager: annbe
-ms.date: 11/01/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -15,122 +15,104 @@ ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: v-kikozl
-ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2019-1-16
+ms.dyn365.ops.version: 10
+ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c852d095505abecbd44d29e9e7b53875e9069def
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377147"
 ---
-# <a name="fiscal-integration-for-retail-channel"></a>Perakende kanalı için mali tümleştirme
+# <a name="overview-of-fiscal-integration-for-retail-channels"></a>Perakende kanalları için mali tümleştirme genel bakışı
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu Microsoft Dynamics 365 for Retail'da kullanılabilir olan mali tümleştirme işlevinin genel açıklamasıdır. Mali tümleştirme işlevi, Perakende sektöründe dolandırıcılığı önlemeyi amaçlayan mali yerel yasaları desteklemek için tasarlanmış bir işlevdir. Mali tümleştirme kullanarak kapsanabilen tipik senaryolar:
+## <a name="introduction"></a>Giriş
 
-- Mali makbuz yazdırmak ve bunu müşteriye vermek.
-- Satışla ilgili bilgilerin gönderilmesinin ve POS üzerindeki iadelerin yetkili tarafından sağlanan harici bir hizmete gönderilmesinin güvenliğini sağlama.
-- Yetkili tarafından yetkilendirilmiş bir dijital imzayla veri koruması kullanma.
+Bu konu, Microsoft Dynamics 365 for Retail içinde kullanılabilen mali tümleştirme yeterliliklerine bir genel bakıştır. Mali tümleştirme, perakende satışların yerel mali yasalar ile mali kaydını etkinleştiren ve perakende sektöründe veri kaçakçılığını önlemeyi amaçlayan çeşitli mali cihazlar ve servisler ile tümleştirmedir. Mali tümleştirme ile kapsanabilecek bazı tipik senaryolar şunlardır: 
 
-Bu konu, kullanıcılar aşağıdaki görevleri gerçekleştirebilsin diye mali entegrasyon kurulumu ayarlamak için yönergeler sağlar. 
+- Perakende satış noktası (POS) ile bağlantılı bir mali cihazda bir perakende satışı kaydetmek, örneğin mali yazıcı gibi ve müşteriye bir mali giriş yazdırmak.
+- Retail POS içinde tamamlanan satışlar ve iadeler için veri dairesi tarafından işletilen harici bir web hizmetine güvenli bir biçimde bilgi göndermek.
+- Dijital imzalar kullanarak satış hareketlerini değiştirilememesini garanti etmek.
 
-- Kaydetme, dijital imzalar ve mali verilerin güvenli gönderimi gibi mali kayıt amaçları için kullanılan mali aygıt ya da hizmetler olan mali konnektörler konfigüre edin.
-- Mali belge oluşturma algoritması ve bir çıktı yöntemi tanımlayan belge sağlayıcı konfigüre edin.
-- Adımlar sıralaması ve her adımda kullanılan bir grup bağlayıcı tanımlayan mali kayıt işlemi yapılandırın.
-- POS işlevsellik profilleri için mali kayıt işlemleri atayın.
-- Donanım profilleri (yerel mali bağlayıcılar için) veya (diğer mali bağlayıcı türleri için) POS işlevsellik profillerine bağlayıcı teknik profilleri atayın.
+Perakende içindeki mali tümleştirme işlevi, Retail POS ve mali cihazlar ve servisler arasındaki tümleştirmeyi daha da geliştirmek ve özelleştirmek için ortak çözüm sağlayan bir çerçevedir. Bu işlev, belirli ülkeler ve bölgeler için temel perakende senaryolarını destekleyen mali tümleştirme örnekleri de içerir ve belirli mali cihazlar ve servisler ile çalışır. Mali tümleştirme örneği, Perakende bileşenlerinin çeşitli eklentilerinden oluşur ve Perakende yazılım geliştirme paketine (SDK) dahildir. Perakende SDK içinde kullanılabilen mali tümleştirme örnekleri hakkında daha fazla bilgi için bkz. [Perakende SDK içindeki mali tümleştirme örnekler](#fiscal-integration-samples-in-the-retail-sdk). Perakende SDK'yı yüklemek ve kullanmak hakkında daha fazla bilgi için bkz. [Perakende SDK genel bakışı](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-## <a name="fiscal-integration-execution-flow"></a>Mali tümleştirme yürütme akışı
-Aşağıdaki senaryo, ortak mali tümleştirme yürütme akışı gösterir.
+Mali tümleştirme örneği tarafından desteklenmeyen diğer senaryoları desteklemek için, Retail POS'u diğer mali cihazlar ve hizmetlerle tümleştirmek veya diğer ülke ve bölgelerin gereksinimlerini karşılamak için mevcut mali tümleştirme örneğini genişletmeniz veya mevcut bir örneği örnek olarak kullanarak yeni bir örnek oluşturmanız gerekir.
 
-1. Mali kayıt sürecinin başlatılması.
-  
-   Perakende hareketinin tamamlanmasından sonrası gibi mali kayıt gerekli olduğu bazı eylemler gerçekleştirdikten sonra, mali kayıt işlemi geçerli POS işlevsellik profili ile ilişkilendirilir.
+## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices"></a>Mali kayıt işlemi ve mali aygıtları için mali tümleştirme örnekleri
 
-1. Mali bağlayıcı arayın.
-   
-   Mli kayıt işlemindeki her mali kayıt adımı için sistem mali bağlayıcı listesi eşleştirir. Bu bağlayıcılar, belirtilen bağlayıcı grubuna dahil olan işlevsel profile sahiptir; mevcut donanım profiliyle (yalnızca **Yerel**e eşit olan bağlayıcı türü için) veya geçerli POS işlevsellik profili (diğer bağlayıcı türleri için) ilişkili bir teknik profil bağlayıcı listesine sahiptir.
-   
-1. Mali tümleştirme gerçekleştirin.
+Retail POS mali kayıt işleminde bir veya birden çok adımdan oluşur. Her adım belirli mali hareketlerin veya etkinliklerin bir mali cihaz veya serviste mali kaydını içerir. Aşağıdaki çözüm bileşenleri, bir Donanım istasyonuna bağlı olan bir mali cihazdaki mali kayıtta yer alır:
 
-   Sistem, bulunan bağlayıcıyla ilişkili bir derleme tarafından tanımlanan tüm gerekli olan eylemleri yürütür. Bu işlev profili ve bu bağlayıcı için önceki adımda bulunan teknik profilin ayarlarına göre yapılır.
+- **Ticaret çalışma zamanı (CRT) uzantısı** – Bu bileşen, perakende hareket/etkinlik verisini mali cihaz ile etkileşimde de kullanılan biçimde serileştirir, mali cihazdan gelen yanıtları ayrıştırır ve yanıtları kanal veritabanına kaydeder. Uzantı, kaydedilmesi gereken belirli hareketleri ve etkinlikleri de tanımlar. Bu bileşen genellikle *mali belge sağlayıcısı* olarak adlandırılır.
+- **Donanım istasyonu uzantısı** - Bu bileşen, mali cihaz ile iletişimi başlatır, talepleri ve doğrudan komutları mali cihaza, mali belgeden çıkartılan perakende hareketi/etkinlik verisine dayanarak gönderir ve mali cihazdan gelen yanıtları alır. Bu bileşen genellikle *mali bağlayıcı* olarak adlandırılır.
 
-## <a name="setup-needed-before-using-fiscal-integration"></a>Mali tümleştirme kullanmadan önce kurulum gerekir
-Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları tanımlarsınız:
+Bir mali cihaz için mali tümleştirme örneği, bir mali belge sağlayıcısı ve bir mali bağlayıcı ile sırasıyla CRT ve Donanım istasyonlarının uzantılarını içerir. Ayrıca aşağıdaki yapılandırma bileşeni içerir:
 
-- Mali işlev profili numarası için **Perakende parametreleri**nde numara sırasını tanımlayın.
-  
-- Aşağıdaki referanslar için **Perakende paylaşılan parametreleri** sayfasında numara serileri tanımlayın:
-  
-  - Mali teknik profil numarası
-  - Mali bağlayıcı grubu numarası
-  - Kayıt işlemi numarası
+- **Mali belge sağlayıcı yapılandırması** - Bu yapılandırma, bir çıkış yöntemini ve mali belgeler için bir biçimi tanımlar. Ayrıca, veriler ve ödeme yöntemleri için bir veri eşleme de içerir, böylece Retail POS'tan gelen veriyi mali cihaz yazılımında önceden belirlenmiş değerler ile uyumlu hale getirir.
+- **Mali bağlayıcı yapılandırması** - Bu yapılandırma, belirli bir mali cihaz ile fiziksel iletişimi tanımlar.
 
-- **Mali bağlayıcı**'yı **Perakende > Kanal Kurulumu > Mali tümleştirme > Mali bağlayıcılar**'da oluşturun; mali tümleştirme amaçları için kullanmayı planladığınız her aygıt veya hizmet için.
+Belirli bir POS kaydı için bir mali kayıt işlemi, POS işlev profilindeki karşılık gelen ayar ile tanımlanır. Mali kayıt işlemi hakkında daha fazla ayrıntı için, mali belge sağlayıcısını ve mali bağlayıcı yapılandırmalarını karşıya yükleyin ve parametrelerini değiştirin bkz. [Mali kayıt işlemi ayarlamak](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
--  Tüm mali bağlayıcılar için **Mali belge sağlayıcı**'yı **Perakende > Kanal Kurulum > Mali tümleştirme > Mali belge sağlayılar**'da oluşturun. Veri eşleme mali belge sağlayıcının bir parçası olarak kabul edilir. Aynı bağlayıcı için farklı veri eşlemeleri (örneğin, özel durum düzenlemeleri), farklı mali belge sağlayıcıları oluşturmanız gerekir.
+Aşağıdaki örnek tipik mali kayıt yürütme akışı mali bir aygıtı gösterir. Akışı POS içindeki (örneğin, bir satış hareketi sonlandırma) bir etkinlik ile başlar ve aşağıdaki sıralı adımları uygular:
 
-- Her mali belge sağlayıcısı için **Bağlayıcı işlev profili**'nde **Perakende > Kanal kurulumu > Mali tümleştirme > Bağlayıcı işlev profilleri** oluşturun.
-  - Bir bağlayıcı adı seçin.
-  - Bir belge sağlayıcı seçin.
-  - **Hizmet Kurulumu** sekmesinde KDV oranları ayarlarını belirtin.
-  - KDV kodu eşlemesi ve ödeme türü eşlemesini **Veri eşleme** sekmesinde belirtin.
+1. POS, CRT'ten bir mali belge talep eder.
+2. CRT, geçerli etkinliğin mali kayıt gerektirip gerektirmediğini belirler.
+3. Mali kayıt işlemi ayarlarına dayalı olarak, CRT bir mali bağlayıcıyı ve mali kayıt için kullanılacak karşılık gelen mali belge sağlayıcısını belirler.
+4. CRT, bir mali hareket veya etkinliği temsil eden bir mali belge oluşturan mali belge sağlayıcısını çalıştırır (ör. bir XML belgesi).
+5. POS, CRT'nin hazırladığı belgeyi Donanım istasyonuna gönderir.
+6. Donanım istasyonu, mali belgeyi işleyen mali bağlayıcıyı çalıştırır ve bunu mali cihaz veya hizmete iletişim kurar.
+7. POS, mali cihaz veya servisten gelen yanıtı analiz ederek mali kaydın başarılı olup olmadığını anlar.
+8. CRT, yanıtı kanal veritabanına kaydeder.
 
-  #### <a name="examples"></a>Örnekler 
+![Çözüm şeması](media/emea-fiscal-integration-solution.png "Çözüm şeması")
 
-  |  | Biçim | Örnek | 
-  |--------|--------|--------|
-  | KDV oranı ayarları | değer: VATrate | 1 : 2000, 2 : 1800 |
-  | KDV kodları eşlemesi | VATcode : değer | vat20: 1, vat18: 2 |
-  | Ödeme türleri eşlemesi | TenderTyp: değer | Nakit: 1, Kart: 2 |
+## <a name="error-handling"></a>Hata işleme
 
-- **Mali bağlayıcı grupları**'nı **Perakende > Kanal kurulumu > Mali tümleştirme > Mali bağlayıcı grubu**nda oluşturun. Bağlayıcı grubu, aynı işlevleri gerçekleştiren ve mali kayıt sürecinde aynı aşamada kullanılan mali bağlayıcılarla ilişkili işlevsel profillerin alt grubudur.
+Mali tümleştirme çerçevesi, mali kayıt sırasındaki başarısızlıkları ele almak için aşağıdaki seçenekleri sunar:
 
-   - Konnektör grubuna işlevsel profiller ekleyin. **İşlevsel profiller** sayfasında **Ekle**'ye tıklayın ve profil numarası seçin.
-   - İşlev profili kullanımı askıya almak istiyorsanız, **Devre dışı bırakma** için **Evet**'i seçin. 
-   
-     Bu değişikliği yalnızca geçerli bağlayıcı grubu etkiler. Bağlayıcı başka gruplarda aynı işlev profili kullanarak devam edebilirsiniz.
+- **Yeniden deneme** – Operatörler, bu seçeneği başarısızlık hızlıca çözümlenebildiğinde kullanırlar ve mali kayıt yeniden yürütülebilir. Örneğin, bu seçenek mali cihaz bağlı olmadığında, mali yazıcının kağıdı bittiğinde veya mali yazıcıda bir kağıt sıkışması olduğunda kullanılabilir.
+- **İptal** – Bu seçenek, operatörlerin, geçerli mali hareket veya etkinlik başarısız olduğunda ertelemesine izin verir. Kayıt ertelendikten sonra, operatör POS üzerinde çalışmaya devam edebilir ve mali kaydın gerekli olmadığı herhangi bir operasyonu tamamlayabilir. Mali kayıt gerektiren herhangi bir etkinlik POS içinde gerçekleştiğinde (ör. yeni bir kayıt açıldığında), hata işleme iletişim kutusu operatörü önceki hareketin doğru biçimde kaydedilmediğini uyarmak ve hata işleme seçeneklerini sunmak için açılır.
+- **Atla** - Operatörler bu seçeneği mali kayıt belirli koşullarda atlanabileceği durumlarda ve operasyonların POS üzerinde devam edebileceği durumlarda kullanabilirler. Örneğin, bu seçenek mali kaydın başarısız olduğu bir satış işlemi için kullanılabilir ve özel bir kağıt günlükte kaydedilebilir.
+- **Kaydedildi olarak işaretle** - Operatörler bu seçeneği hareket gerçekten de mali cihazda kaydedilmişse (örneğin, bir mali giriş yazdırılmışsa), ancak mali yanıt kanal veritabanına kaydedildiğinde bir hata oluşmuşsa kullanabilirler.
 
-     >[!NOTE]
-     > Bağlayıcı grup içinde her mali connector yalnızca bir işlev profili olabilir.
+> [!NOTE]
+> **Atla** ve **Kaydedildi olarak işaretle** seçeneklerinin kullanılmadan önce mali kayıt işleminde etkinleştirilmeleri gerekir. Ek olarak, karşılık gelen izinlerin de operatörlere verilmesi gerekir.
 
-- Her mali bağlayıcı için **Bağlayıcı teknik profili**'nde **Perakende > Kanal kurulumu > Mali tümleştirme > Bağlayıcı teknik profilleri** oluşturun.
-  - Bir bağlayıcı adı seçin.
-  - Bir bağlayıcı türü seçin: 
-      - **Yerel** - Bu türü fiziksel aygıt ya da yerel makine üzerinde yüklü uygulamalar için ayarlayın.
-      - **Dahili** - Bu türü, mali aygıt ve Retail sunucusuna bağlı servisler için seçin.
-      - **Harici** - Vergi dairesi tarafından sağlanan bir web portalı gibi harici mali hizmetler için.
-    
-  - **Bağlantı** sekmesinde ayarları belirtin.
+**Atla** ve **Kaydedildi olarak işaretle** seçenekleri, bilgi kodlarının başarısızlık hakkında bazı belirli bilgileri yakalamasına olanak sağlar, başarısızlık hata sebebi ve mali kaydı atlama nedeni veya hareketin kaydedildi olarak işaretlenmesi gibi. Hata el alma parametreleri hakkında daha fazla bilgi için bkz. [Hata ele alma ayarları ayarlama](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
-      
- >[!NOTE]
- > İşlevsel ve teknik profilleri için daha önce yüklenen konfigürasyonun güncelleştirilmiş bir sürümü yüklenir. Uygun bir bağlayıcı veya belge sağlayıcısı zaten kullanılıyorsa, size bildirilir. Varsayılan olarak, işlev ve teknik profillerinde el ile yaptığınız tüm değişiklikler depolanır. Bu profilleri varsayılan parametreler yapılandırma kümesiyle geçersiz kılmak için **Güncelleştir**'e tıklayın: **Bağlayıcı işlev profilleri** sayfası ve **Bağlayıcı teknik profilleri** sayfasında.
- 
-- **Mali kayıt işlemi**'ni **Perakende > Kanal kurulumu > Mali tümleştirme > Mali kayıt işlemleri**'nde, mali tümleştirmenin benzersiz her işlemi için oluşturun. Bir kayıt işlemi, kayıt adımları ve her adımda kullanılan bağlayıcı grubu dizisi ile tanımlanır. 
-  
-  - İşlem için kayıt adımları ekleyin:
-      - **Ekle** seçeneğini tıklatın.
-      - Bir bağlayıcı türü seçin.
-      
-      >[!NOTE]
-      > Bu alan, sistemin bağlayıcının teknik profilinde arama yapacağı yeri belirtir: **Yerel** bağlayıcı türü için donanım profilleri veya diğer mali bağlayıcı türleri için POS işlevsellik profilleri.
-      
-   - Bağlayıcı grubu seçin.
-   
-     >[!NOTE]
-     > **Doğrula**'ya tıklatıp kayıt işlemi yapısının bütünlüğünü denetleyin. Doğrulamaların aşağıdaki durumlarda yapılması önerilir:
-       >- POS işlev profillerini ve donanım profillerini bağlama dahil tüm ayarlar tamamlandıktan sonra yeni kayıt işlemi için.
-       >- Güncelleştirmeleri varolan bir kayıt işlemine yapıldıktan sonra.
+## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Mali hareket içinde mali yanıtları depolamak
 
--  Mali kayıt süreçlerini POS işlevsellik profillerine **Perakende > Kanal Kurulum > POS Kurulum > POS profilleri > İşlevsellik profilleri**'nde bağlayın.
-   - **Düzenle**'ye tıklayın ve **İşlem numarası**'nı **Mali kayıt işlemini** sekmesinde seçin.
-- Donanım profillerine bağlayıcı teknik profillerini **Perakende > Kanal Kurulum > POS Kurulum > POS profilleri > Donanım profilleri**'nde bağlayın.
-   - **Düzenle**'ye tıklayın, ardından **Yeni**'yi **Mali teknik profil** sekmesinde seçin.
-   - Bağlayıcı teknik profilini **Profil numarası** alanında seçin.
-   
-     >[!NOTE]
-     > Çok sayıda teknik profilleri, bir donanım profiline ekleyebilirsiniz. Ancak, herhangi bir grup bağlayıcıyla birden çok kesişimi olan donanım profili varsa, bu desteklenmiyor. Yanlış ayarları önlemek için tüm donanım profilleri güncelleştirildikten sonra kayıt işlemini doğrulamanız önerilir.
+Bir hareketin veya etkinliğin mali kaydı başarılı olursa, bir mali hareket kanal veritabanında oluşturulur ve orijinal hareket veya etkinliğe bağlanır. Benzer şekilde, **Atla** veya **Kaydedildi olarak işaretle** seçeneği başarısız bir mali kayıt için seçilirse, bu bilgi mali kayıt içinde depolanır. Bir mali kayıt, mali cihaz veya hizmetin mali yanıtını bulundurur. Mali kayıt işlemi çok sayıda adımdan oluşuyorsa, başarılı veya başarısız kayıt ile sonuçlanan mali kayıt işlemin her bir adımı için oluşturulur.
 
+Mali hareketler Perakende Yönetim Merkezine *P-job* ile, perakende hareketleri ile birlikte aktarılır. **Perakende mağaza hareketleri** sayfasındaki **Mali hareketler** hızlı sekmesinde, perakende hareketleriyle bağlantılı mali hareketleri görüntüleyebilirsiniz.
+
+Bir mali hareket aşağıdaki ayrıntıları saklar:
+
+- Mali kayıt işlemi ayrıntıları (işlem, bağlantı grubu, bağlayıcı ve benzeri). Ayrıca, mali cihazın seri numarasını da **Kayıt numarası** alanında depolar, şayet bu bilgi mali yanıt içinde dahil edilmişse.
+- Mali kaydın durumu: **Tamamlandı**, başarılı kayıt için, **Atlandı** eğer operatör **Atlama** seçeneğini başarısız bir kayıt için seçtiyse veya **Kaydedildi olarak işaretle** eğer operatör **Kaydedildi olarak işaretle** seçeneğini seçtiyse.
+- Seçilen bir mali hareket ile ilgili bilgi kodu hareketleri. Bilgi kodu hareketlerini görüntülemek için **Mali hareketler** hızlı sekmesinde, **Atlanmış** veya **Kaydedildi olarak işaretlenmiş** bir mali hareketi seçin ve sonra **Bilgi kodu hareketleri**'ni seçin.
+
+## <a name="fiscal-texts-for-discounts"></a>İskontolar için mali metinler
+
+Bazı ülkeler ve bölgeler, farklı türde iskontolar uygulandığında mali girişler üzerinde yazdırılması gereken ek metinler için gereksinimlere sahiptir. Mali tümleştirme işlevi, bir mali girişteki bir iskonto satırından sonra iskonto için bir özel metin ayarlamanıza olanak sağlar. El ile iskontolar için bir mali metni POS işlevselliği profilindeki **Ürün iskontosu** bilgi kodu olarak belirtilen bir mali metin için yapılandırabilirsiniz. İskontolar için mali metinleri ayarlama hakkında daha fazla bilgi için bkz. [İskontolar için mali metinler ayarlama](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
+
+## <a name="printing-fiscal-x-and-fiscal-z-reports"></a>X ve Z mali raporları yazdırma
+
+Mali tümleştirme işlevselliği, tümleştirilmiş mali cihaz veya hizmete ilişkin gün sonu bildirimleri oluşturulmasını destekler:
+
+- Karşılık gelen eylemleri çalıştıran yeni düğmelerin POS ekranı düzenine eklenmesi gerekir. Daha fazla bilgi için bkz. [POS'tan mali X/Z raporlarını ayarla](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
+- Mali tümleştirme örneğinde, bu operasyonların mali cihazda karşılık gelen operasyonlarla eşleşmesi gerekir.
+
+## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Retail SDK'daki mali tümleştirme örnekleri
+
+Aşağıdaki mali tümleştirme örnekleri Perakende ile yayımlanmış Perakende SDK içerisinde şu anda kullanılabilir:
+
+- [İtalya için yazar kasa tümleştirme örneği](emea-ita-fpi-sample.md)
+- [Polonya için yazar kasa tümleştirme örneği](emea-pol-fpi-sample.md)
+
+Aşağıdaki mali tümleştirme işlevi de ayrıca Retail SDK içinde kullanılabilir ancak mali tümleştirme çerçevesinin avantajlarından faydalanmaz. Bu işlevin mali tümleştirme çerçevesine geçirilmesi daha sonraki güncelleştirmeler için planlanmıştır.
+
+- [Fransa için dijital imza](emea-fra-cash-registers.md)
+- [Norveç için dijital imza](emea-nor-cash-registers.md)
+- [İsveç için kontrol birimi tümleştirmesi örneği](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)

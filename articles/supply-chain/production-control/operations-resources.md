@@ -1,13 +1,13 @@
 ---
-title: "Operations kaynakları"
-description: "Operasyon kaynakları, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir. Bunlar farklı türlerde, farklı yeteneklere sahip olabilir."
+title: Operations kaynakları
+description: Operasyon kaynakları, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir. Bunlar farklı türlerde, farklı yeteneklere sahip olabilir.
 author: sorenva
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e11d64ec37775f4fe2fc113af238a6294b459454
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366616"
 ---
-
 # <a name="operations-resources"></a>Operations kaynakları
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Operasyon kaynağına bir takvim atanabilir ve bu kaynağın kapasitesini (saat 
 Yetenek, bir operasyon kaynağının belirli bir etkinliği gerçekleştirebilme becerisidir. Bir veya daha fazla yeteneği bir operasyon kaynağına atayabilirsiniz. Zamanlama altyapısı, kaynakları ayırmak için her bir etkinliğin kaynak gereksinimlerini, kullanılabilecek operasyon kaynaklarının yetenekleriyle eşleştirir. Yetenekler tüm operasyon kaynağı türlerine atanabilir (**Araç**, **Satıcı**, **Makine**, **İnsan kaynakları**, **Konum** veya **Tesis**) Yetenekleri sınırlı bir süre için operasyon kaynaklarına atamak için yetenek atamasında bir başlangıç tarihi ve bitiş tarihi tanımlayın. Daha fazla bilgi için, [Kaynak yetenekleri](resource-capabilities.md) bölümüne bakın.
 
 ## <a name="resource-groups"></a>Kaynak grupları
-Bir kaynak grubu, operasyon planlama çizelgeleme yöntemini kullandığınızda kaynakları planlamak istediğiniz ayrıntı düzeyini temsil eden bir dizi operasyon kaynağıdır. Bu nedenle, kaynak grupları genellikle üretim atölyesinde sarı satırlarla sınırı çizilen fiziki iş hücreleri düzenine karşılık gelir. Kaynak grubu, gruba atanan operasyon kaynaklarının tesis, üretim birimi ve ambar koşullarını tanımlar. Bir kaynak grubuna bir operasyon kaynağı atadığınızda, kaynak, kaynak grubunun bulunduğu tesiste zamanlanabilir. Bir kaynak grubuna oluşturduğunuz operasyon kaynaklarını atamak zorunda değilsinizdir. Ancak, çalışma gerçekleştirmek için zamanlanabilmesi için operasyon kaynaklarının bir kaynak grubuna atanması gerekir. Bir operasyon kaynağı sınırlı bir süre için bir kaynak grubuna atanabilir. Tesisler arasında kaynağı paylaştırabilmek için operasyon kaynağını birden çok kaynak grubuna da atayabilirsiniz. Ancak, yürürlük tarihleri ve bitiş tarihleri çakışamaz. Diğer bir deyişle, operasyon kaynaklarını aynı anda iki kaynak grubuna atayamazsınız. Kaynak grubu atamalarındaki değişiklikler yalnızca yeni kaynak tahsisatları için geçerlidir. İşler, işlemler için kapasite rezervasyonları ve önceden zamanlanmış proje saati tahminleri etkilenmez. **Not:****Satıcı** türünün operasyon kaynaklarını bir kaynak grubuna atadığınızda, bu kaynak grubuna atanmış olan tüm operasyon kaynakları **Satıcı** türünde olmalı ve aynı satıcı hesabına bağlanmalıdır.
+Bir kaynak grubu, operasyon planlama çizelgeleme yöntemini kullandığınızda kaynakları planlamak istediğiniz ayrıntı düzeyini temsil eden bir dizi operasyon kaynağıdır. Bu nedenle, kaynak grupları genellikle üretim atölyesinde sarı satırlarla sınırı çizilen fiziki iş hücreleri düzenine karşılık gelir. Kaynak grubu, gruba atanan operasyon kaynaklarının tesis, üretim birimi ve ambar koşullarını tanımlar. Bir kaynak grubuna bir operasyon kaynağı atadığınızda, kaynak, kaynak grubunun bulunduğu tesiste zamanlanabilir. Bir kaynak grubuna oluşturduğunuz operasyon kaynaklarını atamak zorunda değilsinizdir. Ancak, çalışma gerçekleştirmek için zamanlanabilmesi için operasyon kaynaklarının bir kaynak grubuna atanması gerekir. Bir operasyon kaynağı sınırlı bir süre için bir kaynak grubuna atanabilir. Tesisler arasında kaynağı paylaştırabilmek için operasyon kaynağını birden çok kaynak grubuna da atayabilirsiniz. Ancak, yürürlük tarihleri ve bitiş tarihleri çakışamaz. Diğer bir deyişle, operasyon kaynaklarını aynı anda iki kaynak grubuna atayamazsınız. Kaynak grubu atamalarındaki değişiklikler yalnızca yeni kaynak tahsisatları için geçerlidir. İşler, işlemler için kapasite rezervasyonları ve önceden zamanlanmış proje saati tahminleri etkilenmez. **Not:** **Satıcı** türünün operasyon kaynaklarını bir kaynak grubuna atadığınızda, bu kaynak grubuna atanmış olan tüm operasyon kaynakları **Satıcı** türünde olmalı ve aynı satıcı hesabına bağlanmalıdır.
 
 ## <a name="production-units"></a>Üretim birimleri
 Üretim birimi, kaynak gruplarının koleksiyonu olan bir yönetim birimidir. Üretim birimi birden çok kaynak grup içerebilir, ancak bir kaynak grubu yalnızca bir üretim birimine atanabilir. Üretim birimi, üretim kaynaklarının fiziksel düzenini yansıtır ve hareketler ile hareketlerin işlenme şekli üzerinde hiçbir etkisi yoktur. Bir üretim birimini bir tesisle ilişkilendirmeniz gerekir. Üretim birimine malzeme çekme ambarı ve depolama ambarı da atayabilirsiniz. Üretimle ilgili verileri konsolide etmek ve filtrelemek için üretim birimi kullanabilirsiniz. Örneğin, atölye yöneticisi belirli bir üretim birimine yönelik bekleyen iş yüküne ve kullanılabilir kapasiteye ilişkin bir genel bakış görebilir. Kaynak grubuna atanan üretim birimini değiştirebilirsiniz. Ayrıca üretim birimini silmek de mümkündür. Ancak üretim biriminde yapılan değişiklikler, yalnızca master planlama çalıştırıldıktan sonra oluşturulan yeni siparişiler için etkin olur. Üretim birimi değişikliğinin var olan siparişlere uygulanmasını istiyorsanız, bu değişikliği el ile yapmanız gerekir.
@@ -83,7 +82,6 @@ Kaynak grubu yalın bir iş hücresinde kullanıldığında, iş hücresinin kap
 
 ## <a name="costing-resources"></a>Maliyetlendirme kaynakları
 Rota operasyonu veya bir proje saat tahmini gibi bir faaliyet tanımladığınızda, belirli operasyon kaynakları veya kaynak grubu için gereksinimleri belirtebilirsiniz. Ancak, belirli bir türdeki operasyon kaynağı gereksinimini veya belirli bir yeteneğe ya da uzmanlığa sahip operasyon kaynağını belirtebilirsiniz. Bu nedenle, faaliyet zamanlanana ve kapasite rezerve edilene kadar fiili kaynak ataması yapılmaz. Bu nedenle, bir rota operasyonunda tahmin ve ürün reçetesi hesaplamasının belirli bir operasyon kaynağına dayalı olduğunu belirtebilirsiniz. Bu operasyon kaynağı, maliyetlendirme kaynağı olarak adlandırılır. Ayrıca, maliyet kategorilerini ve operasyon sürelerini maliyetlendirme kaynağından ilgili faaliyete aktarabilirsiniz. Operasyon planlandığında, tahmin ve ürün reçetesi hesaplaması fiili olarak zamanlanmış operasyon kaynağı kullanılarak yapılır.
-
 
 
 

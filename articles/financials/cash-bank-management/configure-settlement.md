@@ -1,13 +1,13 @@
 ---
-title: "Kapatma yapılandırma"
-description: "Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu konuda, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır."
+title: Kapatma yapılandırma
+description: Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu konuda, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır.
 author: kweekley
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
 ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319282"
 ---
-
 # <a name="configure-settlement"></a>Kapatma yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
 Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu konuda, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır. 
 
-Aşağıdaki parametreler, Microsoft Dynamics 365 for Finance and Operations'ta kapatmaların nasıl işleneceğini etkiler. Kapatma işlemi bir faturanın bir ödemeye veya bir alacak dekontuna karşılık kapatılmasını içerir. Bu parametreler **Alacak hesapları parametreleri** ve **Borç hesapları parametreleri** sayfalarının **Kapatma** alanında bulunur.
+Aşağıdaki parametreler, Microsoft Dynamics 365 for Finance and Operations'da kapatmaların nasıl işleneceğini etkiler. Kapatma işlemi bir faturanın bir ödemeye veya bir alacak dekontuna karşılık kapatılmasını içerir. Bu parametreler **Alacak hesapları parametreleri** ve **Borç hesapları parametreleri** sayfalarının **Kapatma** alanında bulunur.
 
 - **Otomatik kapatma** – Nakledildiğinde bir hareketin diğer açık hareketlere karşılık otomatik olarak kapatılması gerekiyorsa bu seçeneği **Evet** konumuna ayarlayın. Bu seçenek **Hayır** olarak ayarlanırsa kullanıcılar, ödemeleri girdiğinde veya daha sonra **Hareketleri kapat** sayfasını kullanarak hareketleri el ile kapatabilirler.
 - **Nakit iskontosu yönetimi** – Bir [nakit iskontosunun fatura fazla ödendiğinde nasıl yönetileceğini belirtir](cash-discount-handling-overpayments.md). Fazla ödeme için, nakit iskontosu azaltılabilir, fark olarak kabul edilebilir veya satıcı veya müşteri hesabında kalabilir.
@@ -68,4 +67,3 @@ Ek muhasebe girişlerini (aynı genel muhasebe hesabına borç ve alacak girişi
 
 -   Kuruluşlar gerekli olmayan bir mali boyutu sıfırla doldurmak için sık sık sabit boyutları kullanılır. Bu genellikle alacak hesapları/borç hesapları gibi bilanço hesapları için geçerlidir. Hesap yapıları tipik olarak sıfırla doldurulmuş mali boyutları izlememek için kullanılabilir.  Bilanço hesapları için mali boyutu kaldırarak, sabit boyutları kullanma gereksinimini ortadan kaldırabilirsiniz.
 -   Kuruluşunuz alacak hesapları/borç hesapları ana hesabında sabit boyutları gerektiriyorsa, sabit boyutu ödemede varsayılan yapmanın bir yolunu bularak, sabit boyut değerinin ödeme için satıcı hareketinde depolanmasını sağlayın. Bu, sistemin, alacak hesapları/borç hesapları ana hesabını yeniden oluşturarak sabit boyutlarının dahil edilmesini sağlamaya olanak sağlayacaktır. Sabit boyut değeri ya satıcılarda veya ödeme günlüğü için günlük adında varsayılan değer olarak tanımlanabilir.
-

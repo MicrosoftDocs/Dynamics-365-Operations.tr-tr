@@ -1,13 +1,13 @@
 ---
-title: "Finance and Operations Yardım sistemi"
-description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar."
+title: Finance and Operations Yardım sistemi
+description: Bu konu Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış verilmektedir.
 author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,22 +18,21 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350746"
 ---
-
 # <a name="finance-and-operations-help-system"></a>Finance and Operations Yardım sistemi
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar.
+Bu konu Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış verilmektedir.
 
 > [!NOTE]
-> Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
+> Aşağıdaki üç ürün yakından ilgilidir: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, öncelikli olarak Retail ile ilişkili konularda, ürün adı Dynamics 365 for Retail olacaktır, öncelikli olarak Talent ilişkili konularda, ürün adı Dynamics 365 for Talent olacaktır ve çekirdek ürün ile ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
 Yardım sistemi tüm aşağıdaki ürünleri tarafından paylaşılır:
 
@@ -60,7 +59,7 @@ docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/unified-operations](.
 - **En güncel içeriğe erişim**: Site ürün belgeleri oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve daha esnek bir yol sunar. Bu nedenle, en son teknik bilgilerin erişimine sahip olduğunuzdan emin olmaya yardımcı olur.
 - **Uzmanlar tarafından yazılan içerik**: Site Microsoft'un içindeki ve dışındaki topluluk üyeleri tarafından geliştirilebilecek daha zengin bir ürün belgesi kümesi sağlar.
 - **Çeşitli içerik türlerine erişim**: Site, Finance and Operations ile ilgili görev kılavuzları, videolar ve konular gibi farklı türlerde içeriklere hızlı erişim sağlar.
-- **İş süreçlerini destekleyen içerik**: Site Microsoft Dynamics Lifecyle Services (LCS)içindeki İş Süreci Modelleyici'den (BPM) yararlanan iş süreci odaklı içeriği içerir.
+- **İş süreçlerini destekleyen içerik**: Site Microsoft Dynamics Lifecycle Services (LCS)içindeki İş Süreci Modelleyici'den (BPM) yararlanan iş süreci odaklı içeriği içerir.
 
 ### <a name="searching-on-docsmicrosoftcom"></a>docs.microsoft.com adresindeki arama yapmak
 
@@ -137,7 +136,7 @@ Finance and Operations'ın içerisinde Yardım içeriğine erişmek için **Yard
 Yardım bölmesinden, Finance and Operations istemcisine uygulanan makalelere erişebilirsiniz. Yardım bölmesini ilk kez açıp **Yardım** sekmesine tıkladığınızda Finance and Operations'da o sırada bulunduğunuz sayfaya uygulanan makaleleri görürsünüz. Makale bulunamadıysa, anahtar sözcükler girerek aramanızı daraltabilirsiniz. Yardım bölmesinde bir makaleye tıkladığınızda, tarayıcınızda yeni bir sekme açılır ve makale görüntülenir.
 
 > [!IMPORTANT]
-> Bu bölüm Dynamics 365 for Talent için geçerli değildir. Talent için Yardım sistemi otomatik olarak ürün Görev kılavuzlarına bağlanır. Ayrıca, Talent için özel Görev kılavuzları oluşturamazsınız.
+> Bu konu Dynamics 365 for Talent için geçerli değildir. Talent için Yardım sistemi otomatik olarak ürün Görev kılavuzlarına bağlanır. Ayrıca, Talent için özel Görev kılavuzları oluşturamazsınız.
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Yardım Bölmesi'nden Görev kılavuzlarına erişme
 
@@ -158,7 +157,7 @@ Yardım bölmesinden Görev kılavuzlarına erişmeden önce, bir Sistem yöneti
 2. Bağlanmak için Lifecycle Hizmetleri projesini seçin.
 3. Görev kayıtlarını almak için BPM kitaplıklarını (Seçili proje içinde) seçin.
 
-    - Finance and Operations için, Microsoft içeriği için, 2017 QPC Unified Library for Microsoft Dynamics 365 for Finance and Operations'u seçin.
+    - Finance and Operations için, Microsoft içeriği için Microsoft Dynamics 365 for Finance and Operations için Şubat 2017 QPC Birleşik Kitaplığı seçin.
     - Retail için bir kütüphaneyi Temmuz'da yayımlayacağız.
     - Talent için bir kütüphane seçmeniz gerekmez; doğru kütüphane ile bağlantı sizin için gerçekleştirilir.
 
@@ -194,10 +193,9 @@ Aşağıdaki tablo web sitelerimizi listeler. Adının yanında bir yıldız iş
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com adresindeki yardım](/dynamics365/)                                                            | Dynamics için tüm ürün belgeleri barındırır veya bağlantı kurar. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Microsoft'un ücretsiz e-Eğitim sitesi. |
-| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Müşteriler ve ortakların satış öncesinden uygulama ve işlemlere kadar Finance and Operations projelerini yönetebilmesi için bulut-tabanlı iş birliğine dayalı çalışma alanı sağlar. Bu site uygulamanın tüm aşamalarında yararlıdır. |
-| [Destek blogu](http://aka.ms/AXSupportBlog)                                                    | Dynamics 365 for Finance and Operations Destek ekibi tarafından yayınlanan ipuçlarını ve püf noktaları sağlar. |
+| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Müşteriler ve ortakların satış öncesi uygulama ve işlemlerden Dynamics 365 for Finance and Operations projelerini yönetebilmesi için bulut tabanlı işbirliğine dayalı çalışma alanı sağlar. Bu site uygulamanın tüm aşamalarında yararlıdır. |
+| [Destek blogu](http://aka.ms/AXSupportBlog)                                                    | Dynamics 365 for Finance and Operations Destek ekibi tarafından yayınlanan ipuçları ve püf noktalar sağlar. |
 | [Docs.microsoft.com/previous sürümleri](https://docs.microsoft.com/previous-versions/dynamics/) | Önceki sürümlerden içerik barındırır. |
 | [Dynamics Topluluğu](https://community.dynamics.com/)                                          | Bloglar, forumlar ve videoları barındırır. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Değerlendirme ve satış bilgileri sağlar. |
-| [Müşteri Kaynağı](https://mbs.microsoft.com/customersource/)\*                                  | Finance and Operations için eğitim kaynakları, karşıdan yüklenebilir raporlar ve teknik makaleler barındırır ve servis planı sahipleri için birincil destek sitesidir. Sitedeki bazı kaynaklara erişmek için bir hizmet planı gerekebilir. |
-
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | Finance and Operations için eğitim kaynakları, karşıdan yüklenebilir raporlar ve teknik makaleler barındırır ve servis planı sahipleri için birincil destek sitesidir. Sitedeki bazı kaynaklara erişmek için bir hizmet planı gerekebilir. |

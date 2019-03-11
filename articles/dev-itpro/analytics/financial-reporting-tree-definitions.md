@@ -1,13 +1,13 @@
 ---
-title: "Mali raporlarda raporlama ağacı tanımları"
-description: "Bu makalede raporlama ağacı tanımları hakkında bilgi verilmektedir. Raporlama ağacı tanımı, kuruluşunuzun yapısı ve hiyerarşisini tanımlamaya yardımcı olan bir rapor bileşeni veya yapı taşıdır."
+title: Mali raporlarda raporlama ağacı tanımları
+description: Bu makalede raporlama ağacı tanımları hakkında bilgi verilmektedir. Raporlama ağacı tanımı, kuruluşunuzun yapısı ve hiyerarşisini tanımlamaya yardımcı olan bir rapor bileşeni veya yapı taşıdır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316959"
 ---
-
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Mali raporlarda raporlama ağacı tanımları
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,7 @@ Raporlama ağacı tanımı aşağıdaki tabloda açıklanan sütunları içerir.
 
 | Raporlama ağacı sütunu | Açıklama |
 |-----------------------|-------------|
-| Şirket               | Raporlama birimi için şirket adı. Genellikle yalnızca özet düzeyine atanan **@ANY** değeri raporlama ağacının tüm şirketler için kullanılmasını sağlar. Tüm alt şubelerin kendilerine atanmış bir şirketi vardır. |
+| Şirket               | Raporlama birimi için şirket adı. Genellikle yalnızca özet düzeyine atanan **@ANY** değeri tüm şirketler için kullanılabilecek raporlama ağacını etkinleştirir. Tüm alt şubelerin kendilerine atanmış bir şirketi vardır. |
 | Birim Adı             | Bu raporlama birimini grafiksel raporlama ağacında tanımlayan kod. Tutarlı ve kullanıcılar için anlaşılması kolay olacak benzersiz bir kodlama sistemi kurduğunuzdan emin olun. |
 | Birim Açıklama      | Raporlama birimi başlığı, rapor tanımı **Üstbilgiler ve Altbilgiler** sekmesinin bir kodu olarak **UnitDesc** girerseniz rapor üst bilgisinde veya alt bilgisinde görüntülenir. Satır tanımının **Açıklama** hücresine **UnitDesc** ifadesini girerseniz başlık rapor satırı açıklamasında görünür. |
 | Boyutlar            | Doğrudan mali verilerden bilgi alan bir raporlama birimi. Hesap ve ilgili segmentler için mantıksal konumlandırmayı ve uzunlukları tanımlar. Her bir raporlama birimi satırı bu sütunda bir boyuta sahip olmalıdır. Özet birimi satırına bir boyut da yerleştirebilirsiniz (örneğin, bu birimle doğrudan ilgili giderler için). Özet birimi satırına boyut girerseniz üst birimlerde kullanılan hesaplar alt birimlerde kullanılmamalıdır. Aksi halde, tutarlar yinelenebilir. |
@@ -166,9 +165,9 @@ Belirli kullanıcıların ve grupların bir raporlama birimine erişimini engell
 3. **Birim Güvenliği** iletişim kutusunda bir ad seçin ve sonra **Kaldır**'a tıklayın.
 4. **Tamam** düğmesini tıklatın.
 
-### <a name="link-to-reports"></a>Raporlara bağlantı
+### <a name="link-toreports"></a>Raporlara bağlantı
 
-Satır tanımında bir **rapor** sütunu oluşturduktan ve rapora dahil edilecek raporu belirttikten sonra, raporlama ağacını bağlı sütun ve rapor bilgileriyle güncelleştirmeniz gerekir. Bir rapor, raporlama ağacındaki herhangi bir birime aktarılabilir.
+Satır tanımında bir **rapor** sütunu oluşturduktan ve rapora dahil edilecek raporu belirttikten sonra, raporlama ağacını bağlı sütun ve rapor bilgileriyle güncelleştirmeniz gerekir. Bir rapor, raporlama ağacındaki herhangi bir birime aktarılabilir.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Raporlama ağacında raporu tanımlama
 
@@ -222,4 +221,3 @@ Aşağıdaki örnekler toplanan veriler için bir raporlama ağacı tanımında 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
-

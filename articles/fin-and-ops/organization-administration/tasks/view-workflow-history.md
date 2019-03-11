@@ -1,13 +1,13 @@
---- 
-title: "İş akışı geçmişini görüntüle"
-description: "İşlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntülemek için bu adımları kullanın."
+---
+title: İş akışı geçmişini görüntüle
+description: İşlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntülemek için bu adımları kullanın.
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a40fe377322e2d64b751f6cace3eda20736cd321
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 212f9fe8bc7807b9209523564ead716959875241
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309668"
 ---
 # <a name="view-workflow-history"></a>İş akışı geçmişini görüntüle
 
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
     * İş maddeleri bölümünün genişletilmiş olduğundan emin olun.    Bu bölümde, seçili belge ile ilişkili iş maddelerini görüntüleyebilirsiniz. Örneğin, bir görevin tamamlanması veya belgenin onaylanması gerekiyor olabilir.  
     * Yeniden Ata düğmesi, bir iş maddesini başka bir kullanıcıya yeniden atayabileceğiniz bir iletişim kutusu açar.  
     * İzleme ayrıntıları bölümünün genişletilmiş olduğundan emin olun.    Bu bölümde, seçili belgenin iş akışı geçmişini görüntüleyebilirsiniz.  
-
 

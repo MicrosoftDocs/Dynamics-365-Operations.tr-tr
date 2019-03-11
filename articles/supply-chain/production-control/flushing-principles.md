@@ -1,13 +1,13 @@
 ---
-title: "Otomatik tüketim kuralları"
-description: "Bu konu hammadde tüketiminde kullanılan dört otomatik tüketim prensibini açıklar."
+title: Otomatik tüketim kuralları
+description: Bu konu hammadde tüketiminde kullanılan dört otomatik tüketim prensibini açıklar.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358313"
 ---
-
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Temizlik ilkeleri kullanarak hammadde tüketimini kontrol etme
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ Otomatik tüketimi tamamla ilkesi, malzemenin üretim emri tamamlandı olarak ra
 
 ### <a name="available-at-location"></a>Yerleşimde kullanılabilir
 Konum otomatik tüketimde kullanılabilir ilkesi, malzeme üretim için çekildi olarak kaydedildiğinde malzemenin otomatik olarak tüketileceğini belirtir. Malzeme, hammadde çekme işi tamamlandığında veya malzeme üretim giriş konumunda kullanılabilir olduğunda ve malzeme hattı ambara serbest bırakıldığında konumdan çekildi olarak kaydedilir. İşlem içinde oluşturulan malzeme çekme listesi, toplu iş içerisinde deftere nakledilir. Bu örnek, örneğin bir üretim emrine karşılık birden fazla malzeme çekme etkinliği varsa uygundur. Bu durumda malzeme çekme listesini el ile güncelleştirmeniz gerekmez ve WIP bakiyesinin geçerli görünümünü elde edebilirsiniz.
-

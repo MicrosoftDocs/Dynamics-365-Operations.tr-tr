@@ -1,13 +1,13 @@
---- 
-title: "İşçilik ve masraflar için standart maliyetleri yapılandırma"
-description: "Bu yordam, bir projenin işgücü ve giderleri için standart maliyetleri ayarlamayı gösterir."
+---
+title: İşçilik ve masraflar için standart maliyetleri yapılandırma
+description: Bu yordam, bir projenin işgücü ve giderleri için standart maliyetleri ayarlamayı gösterir.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f89590c87aec1a7200e95aeac6b2765fc64bb623
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 432b5b195b29fb03786cb0560e277735b531b7d7
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339407"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>İşçilik ve masraflar için standart maliyetleri yapılandırma
 
@@ -59,5 +59,4 @@ Bu yordam, bir projenin işgücü ve giderleri için standart maliyetleri ayarla
 24. Fiyatlandırma alanına bir sayı girin.
     * Çalışan bir masraf günlüğüne hareketleri girdiğinde uygulanan gerçek satış fiyatı, en yüksek ayrıntı düzeyini içeren satış fiyatıdır. Örneğin hem genel hem de çalışana özel bir satış fiyatı ayarlanırsa, çalışana özel satış fiyatı kullanılır.  
 25. Kaydet'e tıklayın.
-
 

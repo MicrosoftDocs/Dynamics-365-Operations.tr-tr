@@ -1,13 +1,13 @@
---- 
-title: "Kuruluş raporu hiyerarşisi oluşturma"
-description: "Bu yordamı bir kuruluş raporlaması için bir raporlama hiyerarşisi oluşturmak üzere kullanın."
+---
+title: Kuruluş raporu hiyerarşisi oluşturma
+description: Bu yordamı bir kuruluş raporlaması için bir raporlama hiyerarşisi oluşturmak üzere kullanın.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9a06a67f851e4a73df90f999683d5ea27f38e66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
-ms.openlocfilehash: 995f61bd82ac08d057b41a6db735b6695aa34c33
-ms.contentlocale: tr-tr
-ms.lasthandoff: 10/30/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365512"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Kuruluş raporu hiyerarşisi oluşturma
 
@@ -94,5 +94,4 @@ Bu yordamı bir kuruluş raporlaması için bir raporlama hiyerarşisi oluşturm
 58. Gelen boyutu üyesi alanına bir değer girin veya bir değer seçin.
     * Düğüme karşılık gelen boyut üyesini seçin.  
 59. Kaydet'e tıklayın.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "İş kırılım yapıları"
-description: "İş kırılım yapısı (WBS) bir projede yapılacak işin bir açıklamasıdır. Proje ekibinin iş bileşimi, her bir bileşen veya görevin boyut, maliyet ve süre anlayışını temsil eden bir görevler hiyerarşisidir."
+title: İş kırılım yapıları
+description: İş kırılım yapısı (WBS) bir projede yapılacak işin bir açıklamasıdır. Proje ekibinin iş bileşimi, her bir bileşen veya görevin boyut, maliyet ve süre anlayışını temsil eden bir görevler hiyerarşisidir.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358911"
 ---
-
 # <a name="work-breakdown-structures"></a>İş kırılım yapıları
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Bir WBS'nin ayrıntı derecesi, tahminlerde gerekli olan kesinlik düzeyine ve b
 
 Bunun tersine, medya ve reklam, yazılım ve BT altyapısı gibi sektörlerde projeleri benzersiz olma eğilimindedir ve verimlilik, görevi yürütenlerin deneyimine ve yetkinliğine bağlıdır. Bu nedenle, bu sektörlerde projedeki ilerlemenin ayrıntılı takibi değil de, projenin tahmini boyutunu veren bir WBS kullanılır. 
 
-WBS oluşturma genellikle uzun dönemde yayılan yoğun bir süreçtir ve çok sayıda, farklı insanın işbirliğini ve bilgisini gerektirir. Bu konuda, Microsoft Dynamics 365 for Finance and Operations'ta, tahminler ve izleme için gereksinimlerinizi karşılayacak WBS ilerlemelerini nasıl kullanabileceğiniz açıklanmaktadır.
+WBS oluşturma genellikle uzun dönemde yayılan yoğun bir süreçtir ve çok sayıda, farklı insanın işbirliğini ve bilgisini gerektirir. Bu konuda, Microsoft Dynamics 365 for Finance and Operations'ta, tahminler ve izleme için gereksinimlerinizi karşılayacak WBS ilerlemelerini nasıl kullanabileceğiniz açıklanmaktadır.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS oluşturma önkoşulları
 WBS oluşturmak için bir iş çizelgesi ve iş maliyeti çıkarabilmeniz gerekir.
@@ -103,10 +102,10 @@ WBS numaralandırmasını şimdilik özelleştiremiyorsunuz.
 
 ### <a name="schedule-estimation"></a>Zamanlama tahmini
 
-Zamanlama tahmini genellikle bir WBS oluşturmanın ikinci adımıdır. Görevleri oluşturduktan sonra zamanlama tahminini tamamlamanızı tavsiye ederiz. Finance and Operations'da **İş kırılımı yapısı** sayfasında iki bölüm vardır. Üst bölme zamanlama tahmini için kullanılırken, alt bölmede, maliyet tahmini için kullanabileceğiniz **Tahmini maliyetler ve gelirler** sekmesi bulunur. 
+Zamanlama tahmini genellikle bir WBS oluşturmanın ikinci adımıdır. Görevleri oluşturduktan sonra zamanlama tahminini tamamlamanızı tavsiye ederiz. Finance and Operations'da **İş kırılımı yapısı** sayfasında iki bölüm vardır. Üst bölme zamanlama tahmini için kullanılırken, alt bölmede, maliyet tahmini için kullanabileceğiniz **Tahmini maliyetler ve gelirler** sekmesi bulunur. 
 **Görev bağımlılıkları** WBS'de görevler arasında bir öncel ilişkisi oluşturabilirsiniz. Bir göreve öncel görevler atadığınız zaman, bu görev yalnızca tüm öncel görevleri tamamlandıktan sonra başlatılabilir. Görevin planlanan başlangıç tarihi, tüm öncellerinin en son tarihine otomatik olarak ayarlanır. 
 
-**Microsoft Dynamics 365 for Finance and Operation görev zamanlama** Aşağıdaki etkenler, alt düğüm görevlerinin zamanlamasını belirler:
+**Microsoft Dynamics 365 for Finance and Operations** görev zamanlama Aşağıdaki etkenler, alt düğüm görevlerinin zamanlamasını belirler:
 
 -   Önceller
 -   Çalışma
@@ -167,7 +166,7 @@ Her bir işçilik veya gider satırının maliyet ve satış fiyatı, **Proje y�
 ## <a name="tracking-progress-on-the-wbs"></a>WBS'de ilerlemeyi izleme
 Bazı sektörler bir projenin WBS'ye göre ilerlemesini çok ayrıntılı bir düzeyde izlerken, bazıları da ilerlemeyi WBS'nin daha yüksek düzeylerinde izler. Bu bölümde, proje gereksinimleriniz için WBS izlemeyi nasıl kullanabileceğiniz açıklanmaktadır. 
 
-Bir proje WBS'si için Finance and Operations'ın üç görünümü vardır: Planlama görünümü, İş gücü izleme görünümü ve Maliyet izleme görünümü.
+Bir proje WBS'si için Finance and Operations'ın üç görünümü vardır: Planlama görünümü, İş gücü izleme görünümü ve Maliyet izleme görünümü.
 
 ### <a name="planning-view"></a>Planlama görünümü
 
@@ -243,18 +242,18 @@ Kazanılan değer grafiğindeki zaman aşaması, hafta veya aya bazında görün
 
 **Planlanan değer** EVM teorisine göre, grafikteki planlanan değer bölümü, proje ekibinin projeden kazanmayı planladığı değer oranını temsil eder. 
 
-Finance and Operations planlanan değerin grafiğini çıkarırken, 0:100 kazanç kuralını kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
+Finance and Operations planlanan değerin grafiğini çıkarırken, 0:100 kazanç kuralını kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
 
 Proje yönetimi ve muhasebe'de, alt düğümlerin bitiş tarihini ve bu tarih için planlanan maliyeti girersiniz. Planlanan değer grafiği hafta bazında görüntülendiğinde, planlanan değer proje süresince tüm alt düğüm görevleri için haftalık bazda özetlenir. 
 
 **Kazanılan değer** EVM teorisine göre, grafikteki kazanılan değer bölümü, proje ekibinin projeden fiilen kazandığı değer oranını temsil eder. 
 
-Finance and Operations kazanılan değerin grafiğini çıkarırken, 0:100 kazanç kuralını kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
+Finance and Operations kazanılan değerin grafiğini çıkarırken, 0:100 kazanç kuralını kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
 
 Kazanılan değer hesaplanırken, her görevin ilerleme yüzdesi dikkate alınır. 0:100 kazanç kuralına göre, bir dönemin bitişi itibarıyla kazanılan değer hesaplanırken yalnızca o dönem içinde tamamlanan görevler dikkate alınır. Projede kazanılan değer, grafik oluşturulduğu zaman tamamlanmış olan tüm görevler için hesaplanır. 
 
 > [!NOTE] 
-> Şimdilik, WBS izleme sisteminde her bir görevin geçmiş ilerleme yüzdelerini depolayacak veri yapıları yoktur. Bu nedenle, kazanılan değer yalnızca küpün işlendiği tarih itibarıyla bildirilebilir. Rol Merkezi'nde gösterilen kazanılmış değer verilerini güncelleştirmek için küpü düzenli olarak işleyin. 
+> Şimdilik, WBS izleme sisteminde her bir görevin geçmiş ilerleme yüzdelerini depolayacak veri yapıları yoktur. Bu nedenle, kazanılan değer yalnızca küpün işlendiği tarih itibarıyla bildirilebilir. Rol Merkezi'nde gösterilen kazanılmış değer verilerini güncelleştirmek için küpü düzenli olarak işleyin. 
 
 **Fiili maliyet** EVM teorisine göre, grafikteki fiili maliyet bölümü, projede paranın harcandığı oranı temsil eder. 
 
@@ -314,7 +313,6 @@ Gider ve madde maliyetleri, tıpkı projenin WBS'sinde yapılabildiği gibi, el 
 **Tüm zamanlama hatalarını düzelt**'e tıklayarak tüm zamanlama hatalarını bir defada düzeltebilirsiniz. 
 
 Alternatif olarak, her görev için uyarı simgesine tıklayarak zamanlama hatalarını tek tek düzeltebilirsiniz.
-
 
 
 

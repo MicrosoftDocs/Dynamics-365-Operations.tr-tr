@@ -1,13 +1,13 @@
---- 
-title: "Mali boyut varsayılan şablonlarını koru"
-description: "Bu yordamda, mali boyut varsayılan şablonlarının nasıl ayarlanacağı gösterilir."
+---
+title: Mali boyut varsayılan şablonlarını koru
+description: Bu yordamda, mali boyut varsayılan şablonlarının nasıl ayarlanacağı gösterilir.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialDimensionDefaultTemplates, DimensionLookup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 374c162fce2bc9ff5006737ac31fcb3d436fd540
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6a4cb15bdfc89081e0dc9d1161670eddc412281d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349251"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Mali boyut varsayılan şablonlarını koru
 
@@ -42,5 +42,4 @@ Bu yordamda, mali boyut varsayılan şablonlarının nasıl ayarlanacağı göst
 10. Toplam yüzdeyi %100'e eşitleyecek başka bir yüzde girin.
 11. Girilen yüzdeye karşılık gelen mali boyut değerlerini girin.
 12. Kaydet'e tıklayın.
-
 

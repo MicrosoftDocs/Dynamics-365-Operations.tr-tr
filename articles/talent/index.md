@@ -1,13 +1,13 @@
 ---
-title: "Dynamics 365 for Talent'a hoş geldiniz"
-description: "Talent, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Bu işlemler personel tutma, kazanç yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir."
+title: Dynamics 365 for Talent'a hoş geldiniz
+description: Talent, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Bu işlemler personel tutma, kazanç yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir.
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302985"
 ---
-
 # <a name="welcome-to-dynamics-365-for-talent"></a>Dynamics 365 for Talent'a hoş geldiniz
 
 [!include [banner](includes/banner.md)]
@@ -42,11 +41,11 @@ Talent'ı şu görevleri gerçekleştirmek için kullanabilirsiniz:
 + Performansı gözden geçirin ve çalışan hedeflerini uygulayın.
 + Gündem, oturum ve yönerge içeren eğitim kursları hazırlayın, sağlayın ve analiz edin.
 
-[Dynamics 365 for Talent kullanmaya başlama](https://www.youtube.com/watch?v=6rg2ByadbN0) başlıklı videoyu izleyerek Dynamics 365 for Talent'ı keşfedin.
+Videoyu [Dynamics 365 for Talent ile başlarken](https://www.youtube.com/watch?v=6rg2ByadbN0) izleyerek Dynamics 365 for Talent'ı keşfedin.
 
 
 > [!NOTE] 
-> Dynamics 365 for Talent, Dynamics 365 for Finance and Operations'da İnsan kaynaklarıyla yakından ilgilidir. Aynı işlev, iki üründe de görülebilir. Sonuç olarak, özellikle İnsan kaynaklarıyla ilgili konularda ürün adı Dynamics 365 for Finance and Operations, özellikle Talent ile ilgili konularda ise Dynamics 365 for Talent olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
+> Dynamics 365 for Talent, Dynamics 365 for Finance and Operations'taki İnsan Kaynakları konusuyla yakından ilgilidir. Aynı işlev, iki üründe de görülebilir. Dolayısıyla ürün adı, öncelikle İnsan Kaynakları ile ilgili konularda Dynamics 365 for Finance and Operations ve öncelikle Talent ile ilgili konularda da Dynamics 365 for Talent olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>İnsan kaynaklarınızı yönetmek için strateji geliştirme
 ---------------------------------------------------------
@@ -58,8 +57,8 @@ Talent ile çalışırken departman, iş ve pozisyon gibi öğeleri kullanarak k
 -   [Tüzel kişilikler arasında İK parametreleri ayarlama](set-up-hr-parameters-across-legal-entities.md) 
 -   [Personel eylemleriyle ilgili SSS](personnel-actions-faq.md)
 -   [İzin ve devamsızlığa genel bakış](leave-absence-overview.md)
--   [Dynamics 365 for Talent kullanma: İzin ve Devamsızlık (video)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
--   [Dynamics 365 for Talent'ta personeli yönetme (video)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
+-   [Dynamics 365 for Talent'ı Kullanma: İzin ve Devamsızlık (video)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [Dynamics 365 for Talent'ta personel yönetimi (video)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Kuruluşunuzun personelini belirleme
 
@@ -76,25 +75,25 @@ Dynamics 365 for Talent, kuruluşunuzun ihtiyacı olan becerilere sahip adaylar�
 -   [Ücreti işleme](process-compensation.md)
 -   [Sabit ücret planları oluşturma](create-fixed-compensation-plans.md)
 -   [Değişken ücret planları oluşturma](create-variable-compensation-plans.md)
--   [Dynamics 365 for Talent'ta ücreti yönetme (video)](https://www.youtube.com/watch?v=lEw5oKopHDk)
+-   [Dynamics 365 for Talent'ta ücret yönetimi (video)](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
-## <a name="develop-and-train-employees"></a>Personeli geliştirme ve eğitme
+## <a name="develop-and-train-employees"></a>Çalışanları geliştirme ve eğitme
 
-Personelinizin kritik iş ihtiyaçlarını karşılarken kariyer hedeflerine ulaşmalarına yardımcı olmak için hedefler belirleyebilir, performans incelemeleri oluşturabilir ve geri bildirimleri izleyebilirsiniz. Personelin gerekli becerileri geliştirmesine yardımcı olmak için bir derse eğitmen atamadan veya bir kişiyi kursa kaydetmeden önce eğitmenler, kurs türleri, kurslar, kurs tanımları, gündemler, izleme ve oturumlar ayarlayabilirsiniz. Eğitmenlerin zaten birer çalışan, başvuran veya ilgili kişi olarak bulunması gerekir.
+Çalışanlarınızın kritik iş ihtiyaçlarını karşılarken kariyer hedeflerine ulaşmalarına yardımcı olmak için hedefler belirleyebilir, performans değerlendirmeleri oluşturabilir ve geri bildirimleri izleyebilirsiniz. Çalışanların gerekli becerileri geliştirmesine yardımcı olmak için bir derse eğitmen atamadan veya bir kişiyi kursa kaydetmeden önce eğitmenler, kurs türleri, kurslar, kurs tanımları, gündemler, izleme ve oturumlar ayarlayabilirsiniz. Eğitmenlerin zaten birer çalışan, başvuran veya ilgili kişi olarak bulunması gerekir.
 
 -   [Performans yönetimi](performance-management-overview.md)
 -   [İş gücü becerilerini ve iş ihtiyaçlarını uyumlu hale getirme](skills.md)
 -   [Eğitimi kurslar aracılığıyla yönetme](courses.md)
--   [Dynamics 365 for Talent'ta personel gelişimini yönetme (video)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
+-   [Dynamics 365 for Talent'ta çalışan yönetimi (video)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
-## <a name="create-and-maintain-benefits"></a>Kazançlar oluşturma ve koruma
+## <a name="create-and-maintain-benefits"></a>Kazanç oluşturma ve koruma
 
 Personelinize ücret, maaş ve ikramiye ödemeleri yapmanın yanı sıra sağlık sigortası ve emeklilik planları gibi kazanç programları da geliştirebilirsiniz. Ayrıca bilgisayarlar veya telefonlar gibi, şirketinizin personeline verdiği öğeler için ödünç alma programları gibi kazançları da yönetebilirsiniz.
 
 -   [Kazanç programını yönetme](manage-benefit-program.md)
 -   [Kazanca uygunluk ilkeleri](benefit-eligibility-policies.md)
 -   [Çalışanlara ödünç verilen öğeleri yönetme](loan-items.md)
--   [Dynamics 365 for Talent'ta personel kazançlarını yönetme (video)](https://www.youtube.com/watch?v=nUWkeJTad1o)
+-   [Dynamics 365 for Talent'ta çalışan sosyal yardımları yönetimi (video)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Çalışma alanı güvenliğini ve uyumluluğu koruma
 
@@ -111,4 +110,3 @@ Talent, diğerlerinin yanı sıra Engelli Amerikalılar Yasası ile göç ve yur
 -   [Soru formu tasarlama](design-questionnaires.md)
 -   [Soru formunu dağıtma ve doldurma](distribute-questionnaires.md)
 -   [Soru formunun sonuçlarını görüntüleme ve değerlendirme](evaluate-questionnaire-results.md)
-

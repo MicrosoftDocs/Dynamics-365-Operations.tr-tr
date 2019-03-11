@@ -1,13 +1,13 @@
 ---
-title: "Talent sistem gereksinimleri ve güncelleştirme ilkesi"
-description: "Bu konu Dynamics 365 for Talent için gereksinimleri listeler. Güncelleştirme ilkesi de açıklanmaktadır."
+title: Talent sistem gereksinimleri ve güncelleştirme ilkesi
+description: Bu konu Dynamics 365 for Talent için gereksinimleri listeler. Güncelleştirme ilkesi de açıklanmaktadır.
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306505"
 ---
-
 # <a name="talent-system-requirements-and-update-policy"></a>Talent sistem gereksinimleri ve güncelleştirme ilkesi
 
 [!include [banner](includes/banner.md)]
@@ -44,11 +43,11 @@ Her web tarayıcısı için en son sürümü bulmak için, yazılım üreticisin
 
 > [!NOTE]
 > * Görev Kaydedici'den oluşturulmuş görüntüleri yakalamak ve bunları Microsoft Word belgelerine eklemek için bir Chrome eklentisinin yüklü olması gerekir. 
-> * İş Akışı Düzenleyicisi bir ClickOnce uygulaması olarak başlatılır. ClickOnce uygulamalarını yalnızca Microsoft Edge ve Internet Explorer (Microsoft Windows'un desteklenen bir sürümünde) destekler. İş Akışı Düzenleyicisi ClickOnce uygulaması için 64-bit uyumlu bir işletim sistemi gereklidir.
+> * İş Akışı Düzenleyicisi bir ClickOnce uygulaması olarak başlatılır. Yalnızca Microsoft Edge ve Internet Explorer (desteklenen bir Microsoft Windows sürümü üzerinde) ClickOnce uygulamalarını destekler. İş Akışı Düzenleyicisi ClickOnce uygulaması için 64-bit uyumlu bir işletim sistemi gereklidir.
 > * PDF dosyalarının önizlemesini yapmak için (en son sürüm genel kullanıma açık) Windows 10 üzerinde, Microsoft Edge veya (en son sürüm genel kullanıma açık) Windows 10, Windows 8.1, Windows 8, Windows 7 veya Google Nexus 10 tablet üzerinde Google Chrome gibi modern tarayıcıları kullanmanızı öneririz.
 >   Ağ gereksinimleri
-> * Dynamics 365 for Talent 250-300 milisaniye (ms) veya daha az gecikmeli ağlar için tasarlanmıştır. Bu gecikme, bir tarayıcı istemcisinden Dynamics 365 for Talent'ı barındıran Microsoft Azure veri merkezine iletim süresidir. Ağ gecikmesini [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test") adresinden test etmenizi öneririz.
-> * Dynamics 365 for Talent için bant genişliği gereksinimleri senaryoya bağlıdır. En tipik senaryolar 50 kilobayt/saniye (KBps) üzerinde bir bant genişliği gerektirir.
+> * Dynamics 365 for Talent 250-300 milisaniye (ms) veya daha az gecikmeye sahip ağlar için tasarlanmıştır. Bu, bir tarayıcı istemcisinden Dynamics 365 for Talent'ı barındıran Microsoft Azure veri merkezine iletim süresidir. Ağ gecikmesini [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test") adresinden test etmenizi öneririz.
+> * Dynamics 365 for Talent için bant genişliği gereksinimlerini senaryoya bağlıdır. En tipik senaryolar 50 kilobayt/saniye (KBps) üzerinde bir bant genişliği gerektirir.
 > 
 > [!WARNING]
 > Kullanıcı sayısıyla minimum bant genişliği gereksinimlerini çarpıp bir müşteri konumundan bant genişliği gereksinimlerini hesaplamayın. Belirli bir konumun eşzamanlı kullanımını hesaplamak çok zordur. Bant genişliği gereksinimleri konusunda kaygıları olan müşteriler Dynamics 365 for Talent'ın bir deneme sürümünü kullanabilir.
@@ -60,7 +59,6 @@ Her web tarayıcısı için en son sürümü bulmak için, yazılım üreticisin
 
 ## <a name="update-policy"></a>Güncelleştirme ilkesi
 
-Microsoft Dynamics 365 for Talent bir bulut servisi olarak sunulur. Dynamics 365 for Talent güncelleştirmeleri süreklidir ve Microsoft tarafından otomatik olarak uygulanır.
+Microsoft Dynamics 365 for Talent, bir bulut hizmeti olarak sunulur. Dynamics 365 for Talent güncelleştirmeleri süreklidir ve Microsoft tarafından otomatik olarak uygulanır.
 
 Güncelleştirmeler düzenli aralıklarla yayımlanır ve güncelleştirmeler tüm ortamlar için yapılır.  Dynamics 365 for Talent, ürün destek kullanılabilirliği hakkında düzenli ve öngörülebilir kılavuzlar sunan [Microsoft Desteği Yaşam Döngüsü ilkesi](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Desteği Yaşam Döngüsü") ile uygun olarak desteklenir.
-

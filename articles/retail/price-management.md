@@ -1,14 +1,14 @@
 ---
-title: "Perakende satış fiyatı yönetimi"
-description: "Bu konu Microsoft Dynamics 365 for Retail'de satış fiyatları oluşturma ve yönetme kavramlarını açıklar."
+title: Perakende satış fiyatı yönetimi
+description: Bu konu Microsoft Dynamics 365 for Retail'de satış fiyatları oluşturma ve yönetme kavramlarını açıklar.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 04/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,19 +17,18 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362154"
 ---
-
-# <a name="retail-sales-price-management"></a>Perakende satış fiyatı yönetimi
+# <a name="retail-sales-price-management"></a>Retail satış fiyatı yönetimi
 
 [!include [banner](includes/banner.md)]
 
-Bu konu Microsoft Dynamics 365 for Retail'de satış fiyatları oluşturma ve yönetme işlemleri hakkında bilgi sağlar. Bu işlemine dahil olan kavramlara ve satış fiyatlarına ilişkin çeşitli yapılandırma seçeneklerinin etkisine odaklanır.
+Bu konu Microsoft Dynamics 365 for Retail içinde satış fiyatlarını oluşturma ve yönetme işlemini açıklar. Bu işlemine dahil olan kavramlara ve satış fiyatlarına ilişkin çeşitli yapılandırma seçeneklerinin etkisine odaklanır.
 
 ## <a name="terminology"></a>Terminoloji
 
@@ -54,7 +53,7 @@ Aşağıdaki örnek fiyat gruplarının nasıl kullanılacağını gösterir. Bu
 
 Fiyat grupları oluştururken, birden fazla türdeki perakende varlıklar için tek bir fiyat grubu kullanmamanız gerekir. Aksi takdirde, neden belirli bir fiyat veya iskontonun harekete uygulandığını belirlemek zor olabilir.
 
-Örnekteki kırmızı çizgili satırda da gösterildiği gibi, Retail Microsoft Dynamics 365'teki doğudan bir müşteriden ayarlanan fiyat grubu işlevini desteklemez. Bununla birlikte, bu durumda, yalnızca satış fiyatı ticari sözleşmelerini alırsınız. Müşteriye özel fiyatları uygulamak isterseniz, doğrudan müşteri üzerinden fiyat grupları ayarlamamanızı öneririz. Bunun yerine, ilişkileri kullanın.
+Örnekteki kırmızı çizgili satırda da gösterildiği gibi, Retail, Microsoft Dynamics 365'teki doğudan bir müşteriden ayarlanan fiyat grubu işlevini desteklemez. Bununla birlikte, bu durumda, yalnızca satış fiyatı ticari sözleşmelerini alırsınız. Müşteriye özel fiyatları uygulamak isterseniz, doğrudan müşteri üzerinden fiyat grupları ayarlamamanızı öneririz. Bunun yerine, ilişkileri kullanın.
 
 Aşağıdaki bölümler fiyat grupları kullanıldığında ayrı gruplar ayarlamak için kullanabileceğiniz perakende varlıklar hakkında daha fazla bilgi sağlar. Bu varlıklar için fiyatları ve iskontoları yapılandırma iki aşamalı bir işlemdir. Bu adımlar her iki sırayla da yapılabilir. Ancak, bu adım uygulama sırasında bir kez yapılacak bir kurulum olduğundan mantıksal sıra önce varlıklarda fiyat gruplarını ayarlamaktır. Ardından, fiyatlar ve iskontolar oluşturulduğunda, bu fiyatlar ve isontolar üzerinde fiyat gruplarını ayrı ayrı ayarlayabilirsiniz.
 
@@ -202,7 +201,7 @@ Kolayca farklı ürün kategorilerindeki çeşitli ürünlerin fiyatlarını gü
 
 ## <a name="best-practices"></a>Önerilen yöntemler
 
-Microsoft SQL Server Express maliyeti nedeniyle (ücretsiz) genellikle kanal veritabanı için kullanılır. SQL Server Express'in donanım kısıtlamaları ve veri boyutu sınırları olduğunu unutmayın. Doğru şekilde planlamazsanız, SQL Server Express veri boyutunun sınırına hızlı bir şekilde ulaşabilirsiniz. Bu yalnızca fiyatlandırmayı değil ürünün diğer alanlarını da etkiler. Verilerinizin boyutunu düşürmeye yardımcı olabilecek birkaç en iyi yöntem aşağıda belirtilmiştir:
+Microsoft SQL Server Express, maliyeti nedeniyle (ücretsiz) genellikle kanal veritabanı için kullanılır. SQL Server Express'in donanım kısıtlamaları ve veri boyutu sınırları olduğunu unutmayın. Doğru şekilde planlamazsanız, SQL Server Express veri boyutunun sınırına hızlı bir şekilde ulaşabilirsiniz. Bu yalnızca fiyatlandırmayı değil ürünün diğer alanlarını da etkiler. Verilerinizin boyutunu düşürmeye yardımcı olabilecek birkaç en iyi yöntem aşağıda belirtilmiştir:
 
 - Ticari sözleşmeleri kullanıyorsanız ve fiyatları değiştirirseniz, eski ticari sözleşmeleri bir bitiş tarihi ayarlayarak sonlandırmanız gerekir. Zaman içinde bu yaklaşım kanal veritabanlarında tutulan ticari sözleşmelerin azaltılmasına yardımcı olur. Aynı zamanda fiyat hesaplama algoritmasının üzerinde çalışması gereken veri miktarını azaltmaya yardımcı olur.
 - Fiyatlarınız ürün çeşidine göre değişiyorsa, ürün temel fiyatını en sık kullanılan ürün çeşidinin fiyatı olarak kullanmayı düşünün. Sonra da ticari sözleşmeleri yalnızca özel durumlar olan ürün çeşidi fiyatları için kullanın. Bu yaklaşım ticari sözleşme kayıt sayısını düşürmenize yardımcı olur. Microsoft Dynamics 365'e veri aktarmak kolay olduğundan, her ürünün her çeşidi için bir ticaret sözleşmeyi içe aktarmak isteyebilirsiniz. Ancak, bu yaklaşım aynı değere sahip birçok ticari sözleşme oluşturabilir. Bu nedenle, verilerinizin boyutunu gereksiz düzeyde artırabilir.
@@ -232,4 +231,3 @@ Ayrıca, **yalnızca** perakende fiyatlandırma altyapısı şu fiyatlandırma �
 
 - Fiyat, ana ürün fiyatına doğru en belirgin ürün çeşidi fiyatından en az belirgin ürün çeşidi fiyatına giden sırayla, ürün boyutlarını temel alır. İki ürün boyutu (örneğin, renk ve boyut) kullanılarak ayarlanan fiyat yalnızca bir ürün boyutu (örneğin boyut) kullanılarak ayarlanan fiyattan önce kullanılır.
 - Aynı fiyat grubu, fiyat ve iskontoları denetlemek için kullanılabilir.
-

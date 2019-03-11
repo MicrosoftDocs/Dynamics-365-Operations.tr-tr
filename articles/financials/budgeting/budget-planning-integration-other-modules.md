@@ -1,13 +1,13 @@
 ---
-title: "Diğer modüllerle bütçe planlama tümleştirmesi"
-description: "Bütçe planları aşağıdaki çeşitli farklı kaynaklardan oluşturulabilir. Periyodik işlemin temel unsurları tüm kaynaklar için aynıdır."
+title: Diğer modüllerle bütçe planlama tümleştirmesi
+description: Bütçe planları aşağıdaki çeşitli farklı kaynaklardan oluşturulabilir. Periyodik işlemin temel unsurları tüm kaynaklar için aynıdır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 97c33a222d31e690d2a395f972c0ddc4b89e8fdb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353046"
 ---
-
 # <a name="budget-planning-integration-with-other-modules"></a>Diğer modüllerle bütçe planlama tümleştirmesi
 
 [!include [banner](../includes/banner.md)]
@@ -145,7 +144,6 @@ Bir satırı seçin ve **Bütçe planı satırları** sorgulamasını çalışt�
 Bu sorgulamaları yürütmek için **Tedarik tahmini** ve **Talep tahmini** düğmelerini kullanın. Her iki durumda da, sorgulama bütçe planı satırları oluşturmuş olabilecek tahmin satırlarını arar. 
 
 Mevcut ek raporlar **Bütçe planına göre tahmin konumları** raporunu içerir. Bu rapor bilhassa bir konumun bütçe planlarına doğru şekilde tahsis edilip edilmediğini belirlemek istediğinizde yararlıdır.
-
 
 
 

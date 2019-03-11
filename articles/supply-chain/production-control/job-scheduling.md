@@ -1,13 +1,13 @@
 ---
-title: "İş planlama çizelgeleme"
-description: "Bu makale, operasyon planlamasından daha ayrıntılı bir planlama biçimi olan iş planlaması hakkında bilgi sağlar. İşleri veya mağaza siparişlerini tek tek programlamak ve üretim ortamını kontrol etmek için iş planlamayı kullanabilirsiniz."
+title: İş planlama çizelgeleme
+description: Bu makale, operasyon planlamasından daha ayrıntılı bir planlama biçimi olan iş planlaması hakkında bilgi sağlar. İşleri veya mağaza siparişlerini tek tek programlamak ve üretim ortamını kontrol etmek için iş planlamayı kullanabilirsiniz.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d506a6fbeb7e88dc6b1709203bc0822b1f4dc0f8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8162797256e221192dc3e1a12aa145e28d5bc0f5
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339545"
 ---
-
 # <a name="job-scheduling"></a>İş planlama çizelgeleme
 
 [!include [banner](../includes/banner.md)]
@@ -75,7 +74,6 @@ Kaynaklar, iş planlamayla işlere atanır. İş siparişi başına kaynaklar i�
 
 ## <a name="resource-efficiency"></a>Kaynak verimliliği
 İş planlama, kaynaklar için belirtilen verimlilik yüzdelerini dikkate alır. Verimlilik yüzdeleri, kaynak için ayrılan süreyi düşürür veya yükseltir. Bu nedenle, teslim süresi de artırılır veya azaltılır. Hesaplanmada aşağıdaki formül kullanılır: Planlama süresi = Zaman x 100÷ Formüldeki verimlilik yüzdesi, *Zaman* hem çalışma zamanını hem kurulum zamanını içerir.
-
 
 
 

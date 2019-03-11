@@ -1,13 +1,13 @@
 ---
-title: "Ambar konfigürasyonu"
-description: "Bu makalede, bir ambarın nasıl yapılandırılacağı açıklanmaktadır. Konu, ambar düzeninin ve ambar süreçlerinin nasıl etkinleştirileceği hakkında bilgiler içermektedir."
+title: Ambar konfigürasyonu
+description: Bu makalede, bir ambarın nasıl yapılandırılacağı açıklanmaktadır. Konu, ambar düzeninin ve ambar süreçlerinin nasıl etkinleştirileceği hakkında bilgiler içermektedir.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318454"
 ---
-
 # <a name="warehouse-configuration"></a>Ambar konfigürasyonu
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Bu makalede, bir ambarın nasıl yapılandırılacağı açıklanmaktadır. Konu
 **Not:** Bu makale **Ambar yönetimi** Modülü (Gelişmiş Depolama) içindeki özellikler için geçerlidir. **Stok yönetimi** modülündeki ambar özellikleri için geçerli değildir.
 
 ## <a name="warehouse-layout"></a>Ambar düzeni
-Microsoft Dynamics 365 for Finance and Operations'daki Ambar yönetim sistemi, değişen gereksinimleri karşılayacak şekilde ambar düzeninizi tanımlamak için esnek yollar sağlar, bu sayede en iyi ambar verimliliğini elde edebilirsiniz.
+Microsoft Dynamics 365 for Finance and Operations'taki Ambar yönetim sistemi, değişen gereksinimleri karşılayacak şekilde ambar düzeninizi tanımlamak için esnek yollar sağlar, bu sayede en iyi ambar verimliliğini elde edebilirsiniz.
 
 -   Malların en iyi şekilde yerleştirilmesi için yüksek öncelikli ve düşük öncelikli depolama alanları kurabilirsiniz.
 -   Ambarınızı çeşitli depolama ihtiyaçlarını karşılayacak şekilde bölgelere ayırabilirsiniz; maddelerin sıcaklık gereksinimleri veya çeşitli dönüşüm oranları gibi.
@@ -116,7 +115,6 @@ Her bir konum yönergesi satırı ile ilişkili eylemleri tanımlamak daha hızl
 --------
 
 [WMS etkin bir ambarda konumları yapılandırma (Görev kılavuzu)](tasks/configure-locations-wms-enabled-warehouse.md)
-
 
 
 

@@ -1,34 +1,34 @@
 ---
-title: "Şirket içi dağıtımlar giriş sayfası"
-description: "bu konu şirket içi dağıtım hakkında içeriğe bağlantılar ve bilgi sağlar."
+title: Şirket içi dağıtımlar giriş sayfası
+description: bu konu şirket içi dağıtım hakkında içeriğe bağlantılar ve bilgi sağlar.
 author: kfend
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
+ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
-ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/02/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373289"
 ---
 # <a name="on-premises-deployments-home-page"></a>Şirket içi dağıtımlar giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations'ı (şirket içi) dağıtabilirsiniz. Bir şirket içi dağıtım türünü seçtiğinizde, sistem gereksinimleri, donanım boyutlandırma ve işlev, bir bulut dağıtımından farklılık gösterir. Bu konu, şirket içi dağıtımlara ilişkin çeşitli konulara dair bilgi içeren içeriklere bağlantılar sağlar.
+Microsoft Dynamics 365 for Finance and Operations (şirket içi) dağıtabilirsiniz. Bir şirket içi dağıtım türünü seçtiğinizde, sistem gereksinimleri, donanım boyutlandırma ve işlev, bir bulut dağıtımından farklılık gösterir. Bu konu, şirket içi dağıtımlara ilişkin çeşitli konulara dair bilgi içeren içeriklere bağlantılar sağlar.
 
 ## <a name="get-started"></a>Başlayın
 - [Şirket içi dağıtım seçeneği](on-premises-overview.md)
@@ -59,10 +59,11 @@ Microsoft Dynamics 365 for Finance and Operations'ı (şirket içi) dağıtabili
 ## <a name="retail"></a>Retail
 - [Şirket içi dağıtımlarda kullanılabilen perakende özellikleri](../../retail/retail-onprem.md)
 - [Şirket içi ortama Perakende kanalı bileşenleri yükleme adımları](deploy-retail-onprem.md)
-- [Retail Modern POS'u (MPOS) yapılandırma, yükleme ve etkinleştirme](../../retail/retail-modern-pos-device-activation.md)
+- [Retail Modern POS (MPOS) yapılandırın, yükleyin ve etkinleştirin](../../retail/retail-modern-pos-device-activation.md)
 - [Retail Store Scale Unit yapılandırma ve yükleme](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-
+## <a name="upgrade"></a>Yükselt
+- [Şirket ortamlar için yerinde yükseltme işlemi](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Diğer kaynaklar
 - [Şirket içi dağıtımlardaki sorunları giderme](troubleshoot-on-prem.md)
@@ -71,4 +72,3 @@ Microsoft Dynamics 365 for Finance and Operations'ı (şirket içi) dağıtabili
 - [Kaldırılan veya artık kullanılmayan özellikler](../migration-upgrade/deprecated-features.md)
 - [Yazılım yaşam döngüsü ilkesi ve şirket içi sürümler](../migration-upgrade/on-prem-version-update-policy.md)
  
-

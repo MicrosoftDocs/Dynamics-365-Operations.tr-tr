@@ -1,13 +1,13 @@
---- 
-title: "Mevcut bir kuralı çoğaltarak yeni bir kanban kuralı oluşturma"
-description: "Bu yordam, varolan bir kanban kuralının kopyasını oluşturmaya odaklanır."
+---
+title: Mevcut bir kuralı çoğaltarak yeni bir kanban kuralı oluşturma
+description: Bu yordam, varolan bir kanban kuralının kopyasını oluşturmaya odaklanır.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7f72dbca0debf9e6a03ee700a979d4f4c110f819
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6bdd79de9f7dd71c3acbfa32c4decbf0b4593798
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350355"
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>Mevcut bir kuralı çoğaltarak yeni bir kanban kuralı oluşturma
 
@@ -43,5 +43,4 @@ Bu yordam, varolan bir kanban kuralının kopyasını oluşturmaya odaklanır. V
     * M0007 öğesini seçin.  
 3. Tamam'a tıklayın.
     * 000017 kanban kuralının bir kopyasının oluşturulduğunu unutmayın.    
-
 

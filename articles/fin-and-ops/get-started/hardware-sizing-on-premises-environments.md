@@ -1,30 +1,29 @@
 ---
-title: "Şirket içi ortamlar için donanım boyutlandırma gereksinimleri"
-description: "Şirket içi ortamlar için donanım boyutlandırma gereksinimleri"
+title: Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
+description: Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 author: kfend
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340741"
 ---
-
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 
 [!include [banner](../includes/banner.md)]
@@ -120,7 +119,7 @@ Bir [boyutlandırma elektronik tablosu](http://adfsdocs.blob.core.windows.net/ad
     - Çekirdek başına 1 - 4 toplu iş iş parçacığı
     - Toplu iş pencere nitelendirmesine göre boyut
 
-- AOS, Veri Yönetimi ve Toplu işin Service Fabric'te aynı rolde olduğunu unutmayın. Bu üç iş yükünü birleştirerek boyutlandırmanız, bunları Microsoft Dynamics AX'teki gibi ayırmamanız gerekir.
+- AOS, Veri Yönetimi ve Toplu işin Service Fabric'te aynı rolde olduğunu unutmayın. Bu üç iş yükünü birleştirerek boyutlandırmanız, bunları Microsoft Dynamics AX 2012'deki gibi ayırmamanız gerekir.
 - SQL Server için aynı değişkenlik faktörleri burada da geçerlidir.
 
 ### <a name="high-availability"></a>Yüksek kullanılabilirlik
@@ -143,4 +142,3 @@ Orchestrator hizmeti, dağıtım ve LCS ile ilgili iletişimi yöneten hizmetidi
 ## <a name="virtualization-and-oversubscription"></a>Sanallaştırma ve aşırı talep
 
 AOS gibi pek çok kritik görev hizmetleri ayrılmış kaynaklara (çekirdekler, bellek ve disk) sahip Sanal ana bilgisayarlarda barındırılmalıdır.
-

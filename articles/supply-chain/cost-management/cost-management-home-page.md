@@ -1,32 +1,31 @@
 ---
-title: "Maliyet yönetimi giriş sayfası"
-description: "Maliyet yönetimi, hammaddelerin, yarı mamul malların, mamul malların ve süren iş varlıklarının değerlemesini ve muhasebesini yönetmenizi sağlar."
+title: Maliyet yönetimi giriş sayfası
+description: Maliyet yönetimi, hammaddelerin, yarı mamul malların, mamul malların ve süren iş varlıklarının değerlemesini ve muhasebesini yönetmenizi sağlar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: b1513e5a7cb3a19fd3743a5aac8efd211aa02ce8
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333956"
 ---
-
 # <a name="cost-management-home-page"></a>Maliyet yönetimi giriş sayfası
 
 [!include [banner](../includes/banner.md)]
@@ -50,9 +49,9 @@ Stok muhasebesi ve Üretim muhasebesine **Maliyet yönetimi** ve **Maliyet anali
 
 ### <a name="additional-resources"></a>Ek kaynaklar
 
-#### <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
+#### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) bölümüne gidin. 
+Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin. 
 
 #### <a name="white-paper"></a>Teknik inceleme
 [Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) malzemeyi ve üretimi kapsayan bir maliyetlendirme tablosunu ayarlamayı ve ayarlamanın ürün reçetesi hesaplama sonuçları üzerindeki etkilerini anlatır. Konuları daha iyi açıklamak için çeşitli ayarların ve yapılandırmaların etkisini gösteren somut senaryolar ve veriler sağlar. Bu belge, senaryoların yapılandırılmalarına ilişkin yeterli ayrıntı sağlamadığından tüm bu senaryoları takip etmenizi beklemiyoruz. Bununla birlikte, temel bilgiye sahipseniz aşağıda listelenen görev kılavuzlarını gösterildikleri sırayla oynatmayı deneyebilirsiniz. Ürün reçetesi hesaplama analizi yapmak için bu belgeyi okuyarak edindiğiniz bilgileri kullanın. 
@@ -67,9 +66,8 @@ Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microso
 
 
 #### <a name="blogs"></a>Bloglar
-[Dynamics AX İmalat Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/axmfg) ve [Dynamics AX'te Tedarik Zinciri Yönetimi Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/dynamicsaxscm) Maliyet yönetimi hakkında pek çok fikir, haber ve bilgi bulabilirsiniz. Bu deftere nakillerin bazıları Maliyet yönetiminin önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve yordamlar da geçerli sürümdekine benzerdir.
+[Dynamics AX İmalat Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/axmfg) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/dynamicsaxscm) Maliyet yönetimi hakkında pek çok fikir, haber ve bilgi bulabilirsiniz. Bu deftere nakillerin bazıları Maliyet yönetiminin önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve yordamlar da geçerli sürümdekine benzerdir.
 
 #### <a name="task-guides"></a>Görev kılavuzları
 Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
-
 

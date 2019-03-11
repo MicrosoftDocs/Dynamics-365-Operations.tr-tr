@@ -1,13 +1,13 @@
 ---
-title: "Birden fazla duraklı navlun taşıma rotaları planlama"
-description: "Bu makalede Dynamics 365 for Finance and Operations uygulamasında ulaşım yolları planlamak için kullandığınız çeşitli öğeler açıklanmaktadır."
+title: Birden fazla duraklı navlun taşıma rotaları planlama
+description: Bu makalede Dynamics 365 for Finance and Operations uygulamasında ulaşım yolları planlamak için kullandığınız çeşitli öğeler açıklanmaktadır.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328321"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Birden fazla duraklı navlun taşıma rotaları planlama
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Planlanan bir rota sevkiyat tarihleri için bir planı olan, önceden tanımlanm
 
 ## <a name="load-building-workbench"></a>Yük oluşturma çalışma ekranı
 Yük oluşturma çalışma ekranı yük önermek için, satış siparişlerinden alınan müşteri adreslerini ve teslimat tarihleri ile kullanılabilen planlanan rotaları kullanır. Varsayılan olarak rotanın değerleri çalışma ekranına girilir. Ancak rotadaki "başlangıç" tarihinden önceki bir "başlangıç" tarihi seçebilirsiniz. Yük önerildiğinde tüm açık satış siparişlerinin teslimat adresi ve teslimat tarihi denetlenir. Teslimat adresinin posta kodu rota planındaki bir hub'ın posta kodu ile eşleşirse ve teslimat tarihi ölçütlerde seçilen aralığın içindeyse satış siparişi yük için önerilir. Yük şablonunun kapasitesi de dikkate alınır. Bir defada yalnızca bir yük önerilir. Dahil edilmeyen bir satış siparişiniz varsa, farklı bir yük şablonu kullanmanız (örneğin daha büyük bir kamyon veya konteyner için bir yük şablonu) veya ek teslimat planlamanız gerekebilir.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Satıcı banka hesabı oluşturma"
-description: "Bu prosedür, bir satıcının banka hesabının nasıl oluşturulacağını gösterir."
+---
+title: Satıcı banka hesabı oluşturma
+description: Bu prosedür, bir satıcının banka hesabının nasıl oluşturulacağını gösterir.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, LogisticsPostalAddressSingle
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: deb3587667ac13b95617ec219995bfef931df00c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: adb759c59d7275e7323dbb760de56acdef2e3cff
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360636"
 ---
 # <a name="create-a-vendor-bank-account"></a>Satıcı banka hesabı oluşturma
 
@@ -63,5 +63,4 @@ Bu prosedür, bir satıcının banka hesabının nasıl oluşturulacağını gö
 25. Banka hesabı alanında, yeni oluşturduğunuz hesabı seçin.
 26. Kaydet'e tıklayın.
     * Belirtilmişse adres banka grubundan devralınabilir veya buradan ekleyebilirsiniz.  
-
 

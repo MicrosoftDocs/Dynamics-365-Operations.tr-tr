@@ -1,13 +1,13 @@
---- 
-title: "Çalışan bilgilerini girme"
-description: "Bir işe alma sorumlusu toplu işe alma projesini ve pozisyonları oluşturduktan sonra, bir sonraki adım işe alınan kişilerin çalışan bilgilerini girmektir."
+---
+title: Çalışan bilgilerini girme
+description: Bir işe alma sorumlusu toplu işe alma projesini ve pozisyonları oluşturduktan sonra, bir sonraki adım işe alınan kişilerin çalışan bilgilerini girmektir.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMMassHireProject, HRMMassHireLine
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0d850f271a3add191fcdc8ff5624bebbc6c6327f
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339568"
 ---
 # <a name="enter-worker-information"></a>Çalışan bilgilerini girme
 
@@ -44,5 +44,4 @@ Bir işe alma sorumlusu toplu işe alma projesini ve pozisyonları oluşturdukta
 7. Listede, istenen kaydı bulun ve seçin.
 8. Listede, seçili satırın işaretini kaldırın.
     * Sonraki proje konumu seçin ve işe alacağınız her kişiye ait çalışan bilgilerini girmeye devam edin.  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Bir ürün modeli için rotayı koruma"
-description: "Bu yordamın çalıştırılması için bir ürün yapılandırma modeli bulunması gerekir."
+---
+title: Bir ürün modeli için rotayı koruma
+description: Bu yordamın çalıştırılması için bir ürün yapılandırma modeli bulunması gerekir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCRouteOperationDetails, WrkCtrCapabilityLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0e793466e021671501570aed06959d684d5e9c15
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317166"
 ---
 # <a name="maintain-route-for-a-product-model"></a>Bir ürün modeli için rotayı koruma
 
@@ -66,5 +66,4 @@ Bu yordamın çalıştırılması için bir ürün yapılandırma modeli bulunma
     * Sahip olmaları gereken belirli kaynakları veya özellikleri belirtmek isteyip istemediğinize karar verin.  
 15. Gerkesinim alanında bir değer girin veya bir değer seçin.
 16. Tamam'a tıklayın.
-
 

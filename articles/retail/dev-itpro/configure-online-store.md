@@ -1,13 +1,13 @@
 ---
-title: "Çevrimiçi mağazaları konfigüre et"
-description: "Bu makale, bir çevrimiçi mağazayı merkezi olarak yapılandırma ve yönetme hakkında yardımcı olacak konulara bağlantılar sağlar."
+title: Çevrimiçi mağazaları konfigüre et
+description: Bu makale, bir çevrimiçi mağazayı merkezi olarak yapılandırma ve yönetme hakkında yardımcı olacak konulara bağlantılar sağlar.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations, Retail
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
 ms.openlocfilehash: d353baf67540b64168f29be3506d73e721e73523
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354380"
 ---
-
 # <a name="configure-online-stores"></a>Çevrimiçi mağazaları konfigüre et
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,7 @@ Aşağıdaki tabloda listelenen konular, Retail bileşenlerini ve istemcideki Re
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Çevrimiçi mağazaya ürün çeşidi ekle. | Bir çevrimiçi mağazada sunduğunuz ürünleri içeren sınıfları ekleyin.                                                                  | [Bir çevrimiçi mağaza kurmak](https://technet.microsoft.com/en-us/library/jj682095.aspx) (AX 2012 için TechNet içeriği)                                                                                                                                              |
 | Katalogları yönet.                     | Mağazalarınızda sunmak istediğiniz ürünleri belirlemek için ürün kataloglarını kullanın.                                                              | [Anahtar görevler: Perakende ürün katalogları oluşturmak](https://technet.microsoft.com/en-us/library/jj728712.aspx) (AX 2012 için TechNet içeriği)                                                                                                                           |
-| Fiyatları yönetin.                       | Fiyatlar ve indirimler, kanallar, kataloglar, bağlantılar ve bağlılık programları arasında merkezi bağlantı olan fiyat gruplarını ayarlayın ve kullanın. | [Fiyat grupları kullanarak fiyatları ayarlamak](https://technet.microsoft.com/en-us/library/hh597169.aspx) (AX 2012 için TechNet içeriği) [Vergileri ayarlama](https://technet.microsoft.com/en-us/library/hh580571.aspx) (AX 2012 için TechNet içeriği) |
+| Fiyatları yönetin.                       | Fiyatlar ve indirimler, kanallar, kataloglar, bağlantılar ve bağlılık programları arasında merkezi bağlantı olan fiyat gruplarını ayarlayın ve kullanın. | [Fiyat grupları kullanarak fiyatları ayarlamak](https://technet.microsoft.com/en-us/library/hh597169.aspx) (AX  2012 için TechNet içeriği) [Vergileri ayarlama](https://technet.microsoft.com/en-us/library/hh580571.aspx) (AX 2012 için TechNet içeriği) |
 | İskontoları yönetmek.                    | Dört tür indirim ve fiyat ayarlamalarını ayarlamak ve yönetmek.                                                                                  | [Fiyat ayarlamalarını ve iskontoları kurmak ve korumak](https://technet.microsoft.com/en-us/library/hh597114.aspx) (AX 2012 için TechNet içeriği)                                                                                                                          |
 | Sevkiyat masraflarını yönetmek.             | Çevrimiçi mağazaya özel kargo ücretlerini ayarlayın ve yönetin.                                                                     | [Çevrimiçi mağazalar için kargo masraflarını ayarlamak](https://technet.microsoft.com/en-us/library/jj728714.aspx) (AX 2012 için TechNet içeriği)                                                                                                                           |
 | Teslimat şekillerini yönet.            | Çevrimiçi mağazanın sunduğu teslimat modlarını yönetin.                                                                                        | [Teslimat modlarını ayarlamak](https://technet.microsoft.com/en-us/library/jj728719.aspx) (AX 2012 için TechNet içeriği)                                                                                                                                            |
@@ -59,7 +58,6 @@ Aşağıdaki tabloda listelenen konular, Retail bileşenlerini ve istemcideki Re
 | Görev                                 | Ayrıntılı                                                                                                                               | Konular                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kanal tümleştirme profillerini ayarlayın. | Profiller, Perakende bileşenlerinin birbirleriyle iletişim kurabilmesini sağlar. Veri değişimi ayarlarını yapılandırmadan önce profiller ayarlayın. | [Gerçek zamanlı hizmet profili kurmak](https://technet.microsoft.com/en-us/library/hh580631.aspx) (AX 2012 için TechNet içeriği) [Bir kanal profili kurmak](https://technet.microsoft.com/en-us/library/jj677402.aspx) (AX 2012 için TechNet içeriği) |
-
 
 
 

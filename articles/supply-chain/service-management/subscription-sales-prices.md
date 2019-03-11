@@ -1,31 +1,30 @@
 ---
-title: "Abonelik satış fiyatı"
-description: "Abonelik oluşturduğunuzda, satış fiyatı Satış fiyatı (abonelik) formunda oluşturulmuş olan satış fiyatı ayarından türetilir."
+title: Abonelik satış fiyatı
+description: Abonelik oluşturduğunuzda, satış fiyatı Satış fiyatı (abonelik) formunda oluşturulmuş olan satış fiyatı ayarından türetilir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASalespriceSubscription
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e18690f7e9b790ecbd0ac0de1955fc95ab1f082
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d9d462121915ce3f800581a9540dc1ef8f6e785f
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352172"
 ---
-
 # <a name="subscription-sales-prices"></a>Abonelik satış fiyatı   
 
 [!include [banner](../includes/banner.md)]
@@ -379,6 +378,5 @@ Abo1 abonelik grubundaki her iki aboneliğin abonelik ücretlerini oluşturmak i
 [Abonelik satış fiyatlarını güncelleştirme ve dizine alma](update-and-index-subscription-sales-prices.md)
 
   
-
 
 

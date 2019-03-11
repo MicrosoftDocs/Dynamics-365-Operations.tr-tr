@@ -1,13 +1,13 @@
 ---
-title: "Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)"
-description: "Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır."
+title: Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)
+description: Bu başlık, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9cba30560762b5f647621aafb8db19241523f904
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348929"
 ---
-
 # <a name="new-or-updated-task-guides-november-2016"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 – tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır.
+Bu başlık, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır.
 
-(Kasım 2016 – tüm diller) APQC Birleşik Kitaplığı Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations platformu güncelleştirme 3, Microsoft Dynamics AX Platform güncelleştirme 2, Dynamics AX Mayıs 2016 güncelleştirmesi ve Microsoft Dynamics AX Şubat 2016 sürümü için Yardım olarak kullanılmak üzere tasarlanmıştır. Bu sürümler hakkında daha fazla bilgi için bkz. [Yenilikler veya değişiklikler](whats-new-changed.md). Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta mevcuttur. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md).
+(Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı, Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations platformu güncelleştirmesi 3, Dynamics AX Mayıs 2016 uygulama güncelleştirmesi ve Microsoft Dynamics AX Platform güncelleştirmesi 2 ve Microsoft Dynamics AX Şubat 2016 sürümünün Yardım'ı için kullanılması planlanan görev kılavuzlarını içerir. Bu sürümler hakkında daha fazla bilgi için bkz. [Yenilikler veya değişiklikler](whats-new-changed.md). Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta mevcuttur. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md).
 
 > [!NOTE]
 > İş süreci modelleyici (BPM) satırı başlığının yanında bulunan yıldız (\*) işareti bu iş sürecine ilişkin Görev kılavuzunun Dynamics 365 for Operations Kasım 2016 güncelleştirmesi için oluşturulduğunu ve Microsoft Dynamics AX uygulamasının önceki sürümlerinde desteklenmediğini gösterir.
@@ -549,4 +548,3 @@ Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 – 
 [Yeni veya güncelleştirilmiş kılavuzlar çıktı (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Yeni veya güncelleştirilmiş kılavuzlar kullanıma sunuldu (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
-

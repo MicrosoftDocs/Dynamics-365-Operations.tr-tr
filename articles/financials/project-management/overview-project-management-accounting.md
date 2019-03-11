@@ -1,13 +1,13 @@
 ---
-title: "Proje yönetimi ve muhasebe"
-description: "Proje yönetimi ve muhasebe işlevi, birden çok sektörde hizmet almak, ürün üretmek veya bir sonuç elde etmek için kullanılabilir."
+title: Proje yönetimi ve muhasebe
+description: Proje yönetimi ve muhasebe işlevi, birden çok sektörde hizmet almak, ürün üretmek veya bir sonuç elde etmek için kullanılabilir.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311347"
 ---
-
 # <a name="project-management-and-accounting"></a>Proje yönetimi ve muhasebe
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Proje yönetimi ve muhasebe işlevi, aşağıdaki şekilde gösterildiği gibi b
 
 [![Endüstriler arasındaki projeler](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Çağrı merkezinde bir bilet, bir çağrının çözülmesi için gerekli eylemlerin tanımlanması için kullanılabilir. Yönetim veya teknik danışmanlık kuruluşları veya reklam acenteleri gibi danışmanlık şirketleri projeler olarak bu etkinliklere bakar. Pazarlamada, kampanya temsil edilmesi gereken iş kümesini temsil eder. Projeye dayalı üretimlerde bir üretim emri, hedeflenen nihai ürünlerin üretilmesi için gerçekleştirilmesi gereken çeşitli çalışmaları kapsar. Bu projeler nasıl adlandırılırsa adlandırılsın kaynaklar, planlar ve maliyetler içerir ve Microsoft Dynamics 365 for Finance and Operations'taki proje yönetimi ve muhasebe işlevi bu projelerin planlanması, uygulanması ve analiz edilmesine yardımcı olabilir.
+Çağrı merkezinde bir bilet, bir çağrının çözülmesi için gerekli eylemlerin tanımlanması için kullanılabilir. Yönetim veya teknik danışmanlık kuruluşları veya reklam acenteleri gibi danışmanlık şirketleri projeler olarak bu etkinliklere bakar. Pazarlamada, kampanya temsil edilmesi gereken iş kümesini temsil eder. Projeye dayalı üretimlerde bir üretim emri, hedeflenen nihai ürünlerin üretilmesi için gerçekleştirilmesi gereken çeşitli çalışmaları kapsar. Bu projeler nasıl adlandırılırsa adlandırılsın kaynaklar, planlar ve maliyetler içerir ve Microsoft Dynamics 365 for Finance and Operations'teki proje yönetimi ve muhasebe işlevi bu projelerin planlanması, uygulanması ve analiz edilmesinde yardımcı olabilir.
 
 ## <a name="project-phases"></a>Proje aşamaları
 Aşağıdaki süreç akışı, harici projelere veya bir veya daha fazla sayıda müşteri için tamamlanmış bir projeye yönelik olsa dahi bu işlev aynı zamanda dahili, maliyete dayalı projeler için de geçerlidir. 
@@ -206,7 +205,7 @@ Bir projede tüketilmek üzere maddeleri şirketin stokundan sipariş edebilirsi
 
 Maddeleri sipariş etme yönteminiz bunları nereden sipariş ettiğinize göre değişir:
 
--   Maddeleri şirketin stokundan sipariş etmek için siparişi mutlaka bir madde gereksinimi olarak girmeniz gerekir. **Madde gereksinimleri** sayfasını kullanıyorsanız, gereksinimi maddeleri kısmi teslimat olarak alacak şekilde ayarlayabilirsiniz. Böylece, maddeler gerekli olana kadar maddelerin bir miktarının tüketimini erteleyebilirsiniz.
+-   Maddeleri şirketin stokundan sipariş etmek için siparişi mutlaka bir madde gereksinimi olarak girmeniz gerekir. **Madde gereksinimleri** sayfasını kullanıyorsanız, gereksinimi maddeleri kısmi teslimat olarak alacak şekilde ayarlayabilirsiniz. Böylece, maddeler gerekli olana kadar maddelerin bir miktarının tüketimini erteleyebilirsiniz.
 -   Maddeleri bir harici satıcıdan sipariş etmek için **Satın alma emri** sayfasında siparişi bir satın alma emri olarak oluşturabilirsiniz.
 
 > [!NOTE] 
@@ -301,7 +300,7 @@ Kurulumunuza bağlı olarak, seçili bir proje için içeri nakit girişlerini t
 -   **Proje tarihi:** 5 Mart 2012.
 -   **Fatura tarihi:** 31 Mart 2012. Bu tarih fatura sıklığı temel alınarak belirlenir. Bu örnek için, fatura sıklığını güncel ay olarak ayarladınız. Bu nedenle, Mart ayında nakledilen tüm hareketler ayın son günü faturalandırılır.
 -   **Vade tarihi:** 14 Nisan 2012. Bu tarih, proje için ayarlanan ödeme koşulları temel alınarak belirlenir. Bu örnek için ödeme süresini 14 gün seçtiniz. Bu nedenle, fatura tarihine 14 gün eklenerek vade tarihi 14 Nisan 2012 olarak bulunur.
--   **Beklenen satış ödeme tarihi:** 27 Nisan 2012. Bu tarih, **Proje yönetimi ve muhasebe parametreleri** sayfasındaki **Genel tampon gün sayısı** alanındaki gün sayısı  **Proje sözleşmeleri** sayfasındaki **Ayrı tampon gün sayısı** alanındaki gün sayısına eklenerek ve ardından bu toplam değer **Vade tarihi** alanındaki gün sayısına eklenerek hesaplanır. Bu örnekte **Genel tampon günleri** alanına **3** ve **Ayrı tampon günleri** alanına **10** değerini girdiniz. Bu nedenle, vade tarihine 13 gün eklenerek beklenen satış ödemesi tarihi 27 Nisan 2012 olarak belirlenir.
+-   **Beklenen satış ödeme tarihi:** 27 Nisan 2012. Bu tarih, **Proje yönetimi ve muhasebe parametreleri** sayfasındaki **Genel tampon gün** sayısı alanındaki gün sayısı **Proje sözleşmeleri** sayfasındaki **Ayrı tampon gün sayısı** alanındaki gün sayısına eklenerek ve ardından bu toplam değer **Vade tarihi** alanındaki gün sayısına eklenerek hesaplanır. Bu örnekte **Genel tampon günleri** alanına **3** ve **Ayrı tampon günleri** alanına **10** değerini girdiniz. Bu nedenle, vade tarihine 13 gün eklenerek beklenen satış ödemesi tarihi 27 Nisan 2012 olarak belirlenir.
 
 Genel tampon günleri, ayrı tampon günlerinin yerini alabilir veya ayrı tampon günlerine eklenebilir:
 
@@ -316,7 +315,7 @@ Fiili içeri nakit akışı, tahmini temsil eder, ancak hesaplamalarınıza ilk 
 
 -   **Fatura tarihi:** 2 Mart 2012.
 -   **Vade tarihi:** 16 Mart 2012. Ödeme şartları 14 gün olarak ayarlanır.
--   **Beklenen satış ödeme tarihi:** 29 Mart 2012. Hesaplama üç genel tampon gün ve 10 ayrı tampon gün içerir.
+-   **Beklenen satış ödeme tarihi:** 29 Mart 2012. Hesaplama üç genel tampon gün ve 10 ayrı tampon gün içerir.
 
 #### <a name="cost-forecasting"></a>Maliyet tahmin etme
 
@@ -441,4 +440,3 @@ Bildirim hesaplandıktan sonra **Proje bildirimleri** sayfasının çeşitli sek
 -   **Tüketim** – Saat, madde, gider ve bordro hareketleri tüketimi hakkında bilgiler.
 -   **Fatura** – Faturalar ve açık hesap faturalandırma hakkında bilgiler.
 -   **Saat oranı** – Gelir ve maliyet hesaplarına nakledilen saatler için saat oranları.
-

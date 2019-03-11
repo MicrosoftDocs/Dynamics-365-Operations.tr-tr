@@ -1,13 +1,13 @@
---- 
-title: "Ayrı ER yapılandırmalarında ER model eşlemesini yönetme"
-description: "Aşağıdaki adımlar Sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanan bir kullanıcının, Elektronik raporlama (ER) model eşleşmelerini ayrı ER yapılandırmalarında nasıl yönetebileceklerini açıklar."
+---
+title: Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
+description: Aşağıdaki adımlar Sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanan bir kullanıcının, Elektronik raporlama (ER) model eşleşmelerini ayrı ER yapılandırmalarında nasıl yönetebileceklerini açıklar.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349159"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
 
@@ -70,7 +70,7 @@ ER yapılandırmalarının şirketler arasında paylaşılması nedeniyle, bu g�
 6. Tasarımcı'yı tıklatın.
     * Oluşturulan model eşleme yapılandırmasının, oluşturulan yapılandırma ile aynı ada sahip bir boş eşlemeye sahip olduğunu unutmayın. Seçilen bir ana model yapılandırması, model eşlemeleri içeriyorsa, bunların yeni bir model eşleme yapılandırmasına kopyalanacağını göz önünde bulundurun.   
 7. Tasarımcı'yı tıklatın.
-8. Ağaçta, 'Dynamics 365 for Operations\Tablo' seçin.
+8. Ağaçta, 'Dynamics 365 for Operations\Tablo' öğesini seçin.
 9. Kök ekle'ye tıklayın.
 10. İsim alanına 'Şirket' yazın.
     * Şirket  
@@ -123,7 +123,7 @@ ER yapılandırmalarının şirketler arasında paylaşılması nedeniyle, bu g�
 5. Konfigürasyon oluştur'u tıklatın.
 6. Tasarımcı'yı tıklatın.
 7. Tasarımcı'yı tıklatın.
-8. Ağaçta, 'Dynamics 365 for Operations\Tablo' seçin.
+8. Ağaçta, 'Dynamics 365 for Operations\Tablo' öğesini seçin.
 9. Kök ekle'ye tıklayın.
 10. İsim alanına 'Şirket' yazın.
     * Şirket  
@@ -161,5 +161,4 @@ ER yapılandırmalarının şirketler arasında paylaşılması nedeniyle, bu g�
 6. Çalıştır öğesine tıklayın.
 7. Tamam'a tıklayın.
     * Varsayılan model yapılandırasının, bu biçim yapılandırması tarafından elektronik belge oluşturmak için kullanıldığını unutmayın (oluşturulan çıktı şirket kodunu içerir).  
-
 

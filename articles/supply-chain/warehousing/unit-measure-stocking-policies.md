@@ -1,13 +1,13 @@
 ---
-title: "Ölçü birimi ve stoklama politikaları"
-description: "Bu makalede depo süreçlerinde varsayılan ünitelerin, ünite sıralarının ve ünite çevrimlerinin nasıl kullanıldığı açıklanmıştır."
+title: Ölçü birimi ve stoklama politikaları
+description: Bu makalede depo süreçlerinde varsayılan ünitelerin, ünite sıralarının ve ünite çevrimlerinin nasıl kullanıldığı açıklanmıştır.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c484f814d9f1e726fd326e1cd0ea8fe694f797b9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0a22e07f5a0e5bc30c8ad9dc87c5a506d62847d
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318109"
 ---
-
 # <a name="unit-of-measure-and-stocking-policies"></a>Ölçü birimi ve stoklama politikaları
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Mobil cihazların alma işlemlerinde kullanılması gereken varsayılan birimler
 
 ## <a name="default-order-settings"></a>Varsayılan sipariş ayarları
 Serbest bırakılan ürünlerin oluşturulmasının parçası olarak, satınalmalar, satışlar ve stok için çeşitli emirleri işleyecek varsayılan birimler seçebilirsiniz. **Varsayılan sipariş ayarları** ve **Tesise özel sipariş ayarları** sayfalarını kullanarak, çeşitli kaynak belgeler için varsayılan birimler ve miktarlar ayarlayabilirsiniz. Bu sayfalara **Serbest bırakılan ürünler** sayfasından erişebilirsiniz.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "İş akışında el ile girilen görevleri yapılandırma"
-description: "Bu konu, el ile bir görevin özelliklerini yapılandırmayı açıklar."
+title: İş akışında el ile girilen görevleri yapılandırma
+description: Bu konu, el ile bir görevin özelliklerini yapılandırmayı açıklar.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309760"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>İş akışında el ile girilen görevleri yapılandırma
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,7 @@ El ile görev kime atanacağını belirtmek için şu adımları izleyin:
     </tr>
     <tr>
     <td>Kullanıcı</td>
-    <td>Belirli Microsoft Dynamics 365 for Finance and Operations kullanıcıları</td>
+    <td>Özel Microsoft Dynamics 365 for Finance and Operations kullanıcıları</td>
     <td>
     <ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
@@ -383,4 +382,3 @@ El ile görev bir kullanıcıya atandığında kullanıcı görev üstünde eyle
 5. Kullanıcı görevi başka bir kullanıcıya atayabilecekse **Temsilci seç** onay kutusunu işaretleyin.
 6. Kullanıcı görevi, iş öğesi kuyruğundaki başka bir kullanıcıya yeniden atayabilecekse **Yeniden Ata** onay kutusunu işaretleyin.
 7. Kullanıcı görevi, iş öğesi kuyruğundaki başka bir kullanıcıya serbest bırakabilecekse, **Serbest Bırak** onay kutusunu işaretleyin. Daha sonra başka bir kullanıcı bu görevi tamamlayabilir.
-

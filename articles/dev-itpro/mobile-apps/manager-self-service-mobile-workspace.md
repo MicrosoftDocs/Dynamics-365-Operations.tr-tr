@@ -1,13 +1,13 @@
 ---
-title: "Ekibim mobil çalışma alanı"
-description: "Bu konu, yöneticilerin astlarını ve genişletilmiş ekiplerini görüntülemelerini sağlayan Ekibim mobil çalışma alanı hakkında bilgi sağlar. Kullanıcılar, raporlama zincirlerindeki bireylere övgü de gönderebilirler."
+title: Ekibim mobil çalışma alanı
+description: Bu konu, yöneticilerin astlarını ve genişletilmiş ekiplerini görüntülemelerini sağlayan Ekibim mobil çalışma alanı hakkında bilgi sağlar. Kullanıcılar, raporlama zincirlerindeki bireylere övgü de gönderebilirler.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,23 +15,22 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346928"
 ---
-
 # <a name="my-team-mobile-workspace"></a>Ekibim mobil çalışma alanı
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, **Ekibim** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, yöneticilerin dorudan rapor verenlerini ve genişletilmiş personellerini görüntülemelerine olanak sağlar. Raporlama zincirlerindeki bireylere övgü de gönderebilirler.
 
-Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations mobil uygulaması ile kullanılmak üzere geliştirilmiştir.
+Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations Mobile uygulaması ile kullanılmak üzere geliştirilmiştir.
 
-## <a name="overview"></a>Özet 
+## <a name="overview"></a>Genel bakış 
 **Ekibim** mobil çalışma alanı, yöneticilerin şu görevleri yerine getirmesini sağlar:
 
 - Yöneticinin doğrudan rapor verenlerinin bir listesini görüntüle.
@@ -58,7 +57,7 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 </ul>
 </td>
 <td>Sistem yöneticisi</td>
-<td>Kuruluşunuzda Finance and Operations zaten mevcut değilse, bkz. <a href="../deployment/deploy-demo-environment.md">Bir tanıtım ortamı dağıtma</a>. Kuruluşunuzda Talent dağıtılmış değilse, sistem yöneticisi bir deneme sürümüne <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent web sitesi</a> üzerinden erişebilir.
+<td>Kuruluşunuzda Finance and Operations zaten mevcut değilse, bkz. <a href="../deployment/deploy-demo-environment.md">Bir gösteri ortamı dağıtmak</a>. Kuruluşunuzda Talent dağıtılmış değilse, sistem yöneticisi bir deneme sürümüne <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent web sitesi</a> üzerinden erişebilir.
 </td>
 </tr>
 <tr class="even">
@@ -99,4 +98,3 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 1.  **Övgü gönder**'i seçin. 
 1. Göndermek istediğiniz övgü metnini girin. 
 1. **Tamam**'ı seçin.
-

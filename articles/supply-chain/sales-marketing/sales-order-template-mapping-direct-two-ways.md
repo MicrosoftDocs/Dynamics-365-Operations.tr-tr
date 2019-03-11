@@ -1,37 +1,36 @@
 ---
-title: "Sales ile Finance and Operations arasında satış siparişlerini doğrudan eşitleme"
-description: "Bu konu, satış siparişlerini doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations arasında eşitlemek için temel görevleri ve şablonları açıklar."
+title: Sales ile Finance and Operations arasında satış siparişlerini doğrudan eşitleme
+description: Bu konu, satış siparişlerini Microsoft Dynamics 365 for Sales'den Microsoft Dynamics 365 for Finance and Operations arsında eşitlemek için altta yatan görevleri ve şablonları açıklar.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
 ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339131"
 ---
-
-# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Sales ile Finance and Operations arasında satış siparişlerini doğrudan eşitleme
+# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, satış siparişlerini doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations arasında eşitlemek için temel görevleri ve şablonları açıklar.
+Bu konu, satış siparişlerini Microsoft Dynamics 365 for Sales'den Microsoft Dynamics 365 for Finance and Operations arsında eşitlemek için altta yatan görevleri ve şablonları açıklar.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 
@@ -198,4 +197,3 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 ## <a name="related-topics"></a>İlgili konular
 
 [Müşteri adayından nakde](prospect-to-cash.md)
-

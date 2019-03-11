@@ -1,13 +1,13 @@
 ---
 title: Mali raporlama
-description: "Finance and Operations için mali raporlama, finans ve şirket profesyonellerinin mali tabloları oluşturmasını, güncelleştirmesini, dağıtmasını ve görüntülemesini sağlar. Farklı türlerde raporlar tasarlamanıza yardımcı olmak için geleneksel raporlama kısıtlamalarının ötesine geçer."
+description: Finance and Operations için mali raporlama, finans ve şirket profesyonellerinin mali tabloları oluşturmasını, güncelleştirmesini, dağıtmasını ve görüntülemesini sağlar. Farklı türlerde raporlar tasarlamanıza yardımcı olmak için geleneksel raporlama kısıtlamalarının ötesine geçer.
 author: aprilolson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323790"
 ---
-
 # <a name="financial-reporting"></a>Mali raporlama
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,7 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 <ul>
 <li>Raporları günlük, haftalık, aylık veya yıllık olarak otomatik şekilde oluşturulmaları için planlayın.</li>
 <li>Dijital imzalarla daha iyi belge güvenliği sunan salt okunur XPS biçiminde dışa aktarın.</li>
-<li>Microsoft Excel çalışma sayfası olarak dışa aktarın.</li>
+<li>Bir Microsoft Excel çalışma sayfasına aktarın.</li>
 <li>Raporları paylaşmak için, raporlara ait bağlantılar içeren e-posta iletileri oluşturabilirsiniz.</li>
 </ul>
 </td>
@@ -98,4 +97,3 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 [Mali rapor oluşturma](generate-financial-report.md)
-

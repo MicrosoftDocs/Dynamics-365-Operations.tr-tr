@@ -1,13 +1,13 @@
---- 
-title: "Yeni departmanlar tanımlama"
-description: "Departmanlar bir işin, işlevsel bir bölümünü temsil eden bir faaliyet birimleridir, örneğin satış ve muhasebe gibi."
+---
+title: Yeni departmanlar tanımlama
+description: Departmanlar bir işin, işlevsel bir bölümünü temsil eden bir faaliyet birimleridir, örneğin satış ve muhasebe gibi.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6dedddf305e303de5b284b34420cd0eda5170ed1
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342857"
 ---
 # <a name="define-new-departments"></a>Yeni departmanlar tanımlama
 
@@ -51,5 +51,4 @@ Departmanlar bir işin, işlevsel bir bölümünü temsil eden bir faaliyet biri
     * Bölüm hiyerarşisi yayımlarken, değişikliklerin ne zaman etkili olacağını seçebilirsiniz. Gelecek tarihli değişiklikler olabilir. Örneğin, mali yılın başında, yeni bir bölüm ekleyeceğinizi şimdiden biliyor olabilirsiniz. Yürürlüğe geçme tarihini mali yılın başına ayarlayabilirsiniz ve hiyerarşideki değişiklikler o tarihte etkin hale gelir.  
 16. Değişiklikleri tanımla alanına bir değer girin.
 17. Yayımla'ya tıklayın.
-
 

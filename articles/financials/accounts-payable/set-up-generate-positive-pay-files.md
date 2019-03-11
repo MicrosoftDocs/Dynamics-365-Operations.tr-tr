@@ -1,13 +1,13 @@
 ---
-title: "Pozitif ödeme dosyaları kurma ve oluşturma"
-description: "Bu makalede pozitif ödemenin nasıl kurulacağı ve pozitif ödeme dosyalarının nasıl oluşturulacağı açıklanmıştır."
+title: Pozitif ödeme dosyaları kurma ve oluşturma
+description: Bu makalede pozitif ödemenin nasıl kurulacağı ve pozitif ödeme dosyalarının nasıl oluşturulacağı açıklanmıştır.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346100"
 ---
-
 # <a name="set-up-and-generate-positive-pay-files"></a>Pozitif ödeme dosyaları kurma ve oluşturma
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Bu makalede pozitif ödemenin nasıl kurulacağı ve pozitif ödeme dosyaların�
 Bankaya sunulan çeklerin bir elektronik listesini oluşturmak için pozitif ödeme kurun. Ardından, bankaya bir çek sunulduğunda, banka bunu çek listesiyle karşılaştırır. Çek, çek listesindeki bir çekle uyuşuyorsa banka çeki serbest bırakır. Çek, listedeki bir çekle uyuşmuyorsa banka, çeki gözden geçirmek için tutar.
 
 ## <a name="security-for-positive-pay-files"></a>Pozitif ödeme dosyaları için güvenlik
-Pozitif ödeme dosyaları, alacaklar ve çek tutarları hakkında hassas bilgiler içermektedir. Bu nedenle, banka tarafından alınana kadar dosyaların oluşturulduğu süreden itibaren uygun güvenlik önlemlerini uyguladığınızdan emin olun. Pozitif ödeme dosyaları, web tarayıcınız tarafından belirtilen konuma indirilir. Pozitif ödeme dosyaları hassas bilgiler içerebileceğinden, Microsoft Dynamics 365 for Finance and Operations'ta bu bilgilerin oluşturulması ve görüntülenmesinin yalnızca yetkili kullanıcılarla sınırlandırılması önemlidir. Gerekli olan ayrıcalıkları belirlerken aşağıdaki tabloyu kullanın.
+Pozitif ödeme dosyaları, alacaklar ve çek tutarları hakkında hassas bilgiler içermektedir. Bu nedenle, banka tarafından alınana kadar dosyaların oluşturulduğu süreden itibaren uygun güvenlik önlemlerini uyguladığınızdan emin olun. Pozitif ödeme dosyaları, web tarayıcınız tarafından belirtilen konuma indirilir. Pozitif ödeme dosyaları hassas bilgiler içerebileceğinden, Microsoft Dynamics 365 for Finance and Operations'te bu bilgilerin oluşturulması ve görüntülenmesinin yalnızca yetkili kullanıcılarla sınırlandırılması önemlidir. Gerekli olan ayrıcalıkları belirlerken aşağıdaki tabloyu kullanın.
 
 <table>
 <colgroup>
@@ -160,7 +159,6 @@ Bir pozitif ödeme dosyasında listelenen çekler ödendikten sonra bankanızdan
 
 ## <a name="recall-a-positive-pay-file"></a>Bir pozitif ödeme dosyasını geri çağırma
 Bir pozitif ödeme dosyasını değiştirmeniz gerekiyorsa, bunu geri çağırabilirsiniz. **Pozitif ödeme dosyası özeti** sayfasında, durumu **Oluşturuldu** olan bir pozitif ödeme dosyası seçin ve ardından **Geri çağır** eylemini seçin. Pozitif ödeme dosyasındaki her bir çek için, çekin bir pozitif ödeme dosyasına dahil edilip edilmeyeceğini gösteren alan sıfırlanır. Geri çağrılan çeki içeren, yeni bir pozitif ödeme dosyası oluşturabilirsiniz.
-
 
 
 

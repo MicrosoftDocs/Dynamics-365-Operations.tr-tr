@@ -1,13 +1,13 @@
 ---
-title: "Mobil çalışma alanında gider yönetimi"
-description: "Bu konu, Gider yönetimi mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı kullanıcıların bir girişi yakalamasını ve yüklemesini, böylece daha sonra bir gider raporuna ekleyebilmelerini sağlar. Kullanıcılar ayrıca ekli bir alış irsaliyesi kullanarak bir gider satırını hızla oluşturabilir ve gider raporlarını oluşturup yönetebilirler."
+title: Mobil çalışma alanında gider yönetimi
+description: Bu konu, Gider yönetimi mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı kullanıcıların bir girişi yakalamasını ve yüklemesini, böylece daha sonra bir gider raporuna ekleyebilmelerini sağlar. Kullanıcılar ayrıca ekli bir alış irsaliyesi kullanarak bir gider satırını hızla oluşturabilir ve gider raporlarını oluşturup yönetebilirler.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344352"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanı
 
 [!include [banner](../includes/banner.md)]
@@ -32,21 +31,21 @@ ms.lasthandoff: 03/26/2018
 Bu konu, **Gider yönetimi** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı kullanıcıların bir girişi yakalamasını ve yüklemesini, böylece daha sonra bir gider raporuna ekleyebilmelerini sağlar. Kullanıcılar ayrıca ekli bir alış irsaliyesi kullanarak bir gider satırını hızla oluşturabilir ve gider raporlarını oluşturup yönetebilirler. Ek olarak, onaylayıcılar **Gider yönetimi** mobil çalışma alanını, onlara atanmış gider raporlarını görüntülemek ve bu gider raporlarını onaylamak veya reddetmek için kullanabilirler.
 
 
-Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations mobil uygulaması ile kullanılmak üzere geliştirilmiştir.
+Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations Mobile uygulaması ile kullanılmak üzere geliştirilmiştir.
 
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel bakış
 
 Çoğu kuruluş, personelin iade için gönderdiği bir seyahatle ya da işle ilgili gider raporuna, bir fişin kopyasının eklenmesini gerektirir. **Gider yönetimi** mobil çalışma alanı, kullanıcıların yeni gider satırlarını, fişin fotoğrafını ekleyerek istedikleri mobil cihazda hızla oluşturmalarını sağlar. Alternatif olarak, kullanıcılar fişin fotoğrafını çekebilir ve gider raporuna daha sonra ekleyebilirler. Personeller de gider raporlarını oluşturabilir ve yönetebilirler, ayrıca bunları daha sonra onaylanmak ve para iadesi almak üzere mobil cihazlarını kullanarak gönderebilirler.
 
 
 Özellikle, **Gider yönetimi** mobil çalışma alanı, kullanıcıların şu görevleri yerine getirmesini sağlar:
 
-- Fişin bir fotoğrafını çekmek ve Microsoft Dynamics 365 for Finance and Operations'a yüklemek. Daha sonra fotoğrafı bir gider raporuna ekleyebilirsiniz.
+- Bir girişin fotoğrafını çekin ve Microsoft Dynamics 365 for Finance and Operations'a yükleyin. Daha sonra fotoğrafı bir gider raporuna ekleyebilirsiniz.
 - Dosyayı kaydedilen bir giriş olarak yüklemek. Daha sonra dosyayı bir gider raporuna daha sonra ekleyebilirsiniz.
 - Ekli bir fişi kullanarak yeni bir gider satırı oluşturmak. Satır maddesini bir gider raporuna daha sonra ekleyebilir ve onay ve iade için gönderebilirsiniz.
 
-Microsoft Dynamics 365 for Finance and Operations kullanıyorsanız aşağıdaki özelliklerden de faydalanabilirsiniz:
+Microsoft Dynamics 365 for Finance and Operations kullanıyorsanız, bu özellikleri de kullanabilirsiniz:
 
 - Yeni gider raporu oluştur.
 - Kredi kartı hareketlerini ve önceden oluşturulmuş diğer giderleri bir gider raporuna ekleyin.
@@ -57,13 +56,13 @@ Microsoft Dynamics 365 for Finance and Operations kullanıyorsanız aşağıdaki
 - Bir gider raporunu onay veya geri ödeme için gönderin.
 - Atanmış onaylayıcısı olduğunuz gider raporlarını onaylayın veya reddedin.
 
-## <a name="prerequisites"></a>Ön koşullar
-Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak farklılık gösterir.
+## <a name="prerequisites"></a>Önkoşullar
+Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak değişiklik gösterir.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations kullanıyorsanız önkoşullar 
 Microsoft Dynamics 365 for Finance and Operations kuruluşunuza dağıtıldıysa sistem yöneticisinin **Gider yönetimi** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611 platform güncelleştirmesi 3 veya daha sonraki sürüm kullanıyorsanız ön koşullar
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611'i platform güncelleştirmesi 3 veya daha sonrasıyla kullanıyorsanız önkoşullar
 Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir. 
 
 <table>
@@ -94,7 +93,7 @@ Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operations mobil uygulamasını yükleyin ve kurun
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operations mobil uygulamasını indirin ve yükleyin.
 Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 - [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
@@ -243,4 +242,3 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 22. **Gönder**'i seçin.
 23. Onaylayıcı için herhangi bir yorum girin.
 24. **Tamam**'ı seçin.
-

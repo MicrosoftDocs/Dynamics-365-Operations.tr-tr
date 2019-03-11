@@ -1,13 +1,13 @@
 ---
-title: "Kayıtlara dayalı ödeme"
-description: "Bu konu ödemenin çalışan kayıtları temel alınarak nasıl hesaplanacağını açıklar."
+title: Kayıtlara dayalı ödeme
+description: Bu konu ödemenin çalışan kayıtları temel alınarak nasıl hesaplanacağını açıklar.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: f36c411ce24dfd8cceacda3d4659ec9a98fd5aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321122"
 ---
-
 # <a name="pay-based-on-registrations"></a>Kayıtlara dayalı ödeme
 
 [!include [banner](../includes/banner.md)]
@@ -600,4 +599,3 @@ Bu durumda, çalışanın esnek bakiyesi gerçek çıkış saati ile planlanan �
 - Devamsızlığı otomatik ekle
 
 Esnek saatler için etkinleştirilen bir çalışan için günlük kayıtlar hesaplanırken, **Otomatik esnek- ekleme** alanında belirtilen devamsızlık kodu varsayılan devamsızlık kodu olarak kullanılır. Çalışanın esnek saatler için etkinleştirilmemişse, **Otomatik devamsızlık ekleme** alanında belirtilen devamsızlık kodu kullanılır. Bir şirkette hem esnek saatler için etkinleştirilmiş hem de esnek saatler için etkinleştirilmemiş çalışanlar varsa, her iki parametrenin de ayarlanması gerekir.
-

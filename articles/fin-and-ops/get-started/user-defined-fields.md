@@ -1,13 +1,13 @@
 ---
-title: "Özel alanlar oluşturma ve bunlarla çalışma"
-description: "Bu konu Microsoft Dynamics 365 for Finance and Operations'ın bazı kullanıcılara uygulamayı işletmelerine uygun hale getirmek üzere nasıl özel alanlar oluşturma olanağı tanıdığını açıklar."
+title: Özel alanlar oluşturma ve bunlarla çalışma
+description: Bu konu Microsoft Dynamics 365 for Finance and Operations'ın bazı kullanıcılara uygulamayı işletmelerine uygun hale getirmek üzere nasıl özel alanlar oluşturma olanağı tanıdığını açıklar.
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348032"
 ---
-
 # <a name="create-and-work-with-custom-fields"></a>Özel alanlar oluşturma ve bunlarla çalışma
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ Microsoft Dynamics 365 for Finance and Operations çok sayıda iş sürecini yö
 
 Özel alanlar ekleme yeteneği, platform güncelleştirmesi 13 ve sonraki sürümlerde kullanılabilir.
 
-Bu video, sayfaya özel alan eklemenin ne kadar kolay olduğunu gösteriyor: [Dynamics 365 for Finance and Operations'ta özel alanlar ekleme](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
+Bu videoda bir sayfaya özel alan eklemenin ne kadar kolay olduğu gösterilmektedir: [Dynamics 365 for Finance and Operations içinde özel alanlar eklemek](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
 ## <a name="creating-custom-fields"></a>Özel alanlar oluşturma
 
@@ -160,4 +159,3 @@ Performans ve teknik nedenlerle, şu anda yalnızca aşağıdaki koşulları kar
 - Tablo başka bir tabloya genişletilemez.
 - Tablo bir sistem tablosu olarak işaretlenemez.
 - Tablo geçici bir tablo olamaz.
-

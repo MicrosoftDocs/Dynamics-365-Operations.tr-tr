@@ -1,32 +1,31 @@
 ---
-title: "Retail Modern POS (MPOS) ve Cloud POS arasında seçim yapma"
-description: "Bu konu, Retail Modern POS ile Cloud POS arasındaki ana farkları açıklar. Ayrıca, Microsoft Dynamics 365 for Retail uygulayan perakendecilerin gereksinimlerine en uygun seçimi yapmak için dikkate almaları gereken çeşitli faktörleri de açıklar."
+title: Retail Modern POS (MPOS) ile Cloud POS arasında seçim yapma
+description: Bu konu, Retail Modern POS ile Cloud POS arasındaki ana farkları açıklar. Ayrıca, Microsoft Dynamics 365 for Retail uygulayan perakendecilerin gereksinimlerine en uygun seçimi yapmak için dikkate almaları gereken çeşitli faktörleri de açıklar.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336256"
 ---
-
-# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) ve Cloud POS arasında seçim yapma
+# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) ile Cloud POS arasında seçim yapma
 
 [!include [banner](includes/banner.md)]
 
@@ -43,7 +42,7 @@ Retail aşağıdaki POS seçeneklerini destekler:
 - Microsoft Windows için Retail Modern POS (MPOS)
 - Microsoft Windows Phone için MPOS
 - Apple iPad veya Google Android tablet için MPOS
-- Microsoft Edge, Internet Explorer ve Google Chrome tarayıcıları destekleyen Cloud POS (CPOS)
+- Microsoft Edge, Internet Explorer ve Google Chrome tarayıcılar destekleyen Bulut POS (CPOS)
 
 Tüm durumlarda, POS (MPOS ve CPOS) daima aynı temel uygulama kodunu paylaşır. Bu noktada aşağıdaki nedenlerle önemlidir:
 
@@ -61,7 +60,7 @@ MPOS ve CPOS büyük ölçüde aynı olmakla birlikte, anlamanız gereken bazı 
 Windows, iOS veya Android cihazdaki MPOS bu cihazda paketlenen, yüklenen ve hizmet veren bir uygulamadır.
 
 - **Windows** – Windows için MPOS uygulaması tüm uygulama kodunu ve katıştırılmış ticaret çalışma süresini (CRT) içerir. 
-- **iOS/Android** – Bu platformlarda, uygulama CPOS uygulama kodu için bir barındırıcı olarak çalışır. Başka bir deyişle, uygulama kodu Microsoft Azure veya Retail Store Scale Unit'teki (RSSU) CPOS sunucusundan gelir. Daha fazla bilgi için bkz. [Retail Store Scale Unit'e genel bakış](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** – Bu platformlarda, uygulama CPOS uygulama kodu için bir barındırıcı olarak çalışır. Başka bir deyişle, uygulama kodu Microsoft Azure üzerindeki CPOS sunucusundan veya Retail Store Scale Unit (RSSU) üzerinden geliyor. Daha fazla bilgi için bkz. [Retail Store Scale Unit genel bakışı](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 
@@ -106,4 +105,3 @@ Perakende mağazalarınızda POS uygulamanızı planlarken aşağıdaki bilgiler
 - **Donanım cihazları/çevre birimleri** – Retail POS sistemin önemli bir yönü yazıcı, nakit çekmecesi ve ödeme terminalleri gibi POS çevre birimlerini kullanabilme yeteneğidir. Tüm kullanılabilir POS seçenekleri çevre birim cihazlarını kullanabilmesine rağmen, yalnızca Windows için MPOS bunları doğrudan destekler. Diğer tüm uygulamalar için bir veya daha fazla donanım istasyonu olması gerekir. Bu yaklaşım esneklik kazandırmasına karşın, ek bileşenlerin dağıtılması, yapılandırılması ve bakımının yapılması gerekir.
 - **Sistem gereksinimleri** – POS uygulaması için sistem gereksinimleri farklılık gösterir. En son bilgileri seçiminizi yapmadan önce kontrol ettiğinizden emin olun. Örneğin, CPOS bir tarayıcıda çalıştığı için çok çeşitli işletim sistemlerini destekler. Sistem gereksinimleri hakkında daha fazla bilgi için bkz. [Bulut dağıtımları için sistem gereksinimleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Dağıtım ve bakım** – Dağıtım ve bakım gereksinimlerinin karmaşıklığı, uygulamaya ve dağıtım seçimlerine bağlı olarak değişebilir. Örneğin, bulutta barındırılan bir CPOS dağıtımı için, her cihaza uygulamayı yüklemeniz ve güncelleştirmeniz gerekmez. Bu nedenle, bu yaklaşım büyük ölçüde karmaşıklığı ve maliyeti azaltır. Ancak, her kasaya MPOS dağıtırsanız, çevrimdışı modu etkinleştirirseniz ve paylaştırılmış donanım istasyonları dağıtırsanız, yönetilmesi gereken uç nokta sayısını önemli ölçüde artırırsınız.
-

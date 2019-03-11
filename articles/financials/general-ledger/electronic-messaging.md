@@ -1,33 +1,32 @@
 ---
-title: "Elektronik mesajlaşma"
-description: "Bu konu Microsoft Dynamics 365 for Finance and Operations içinde elektronik mesajlaşmaya genel bakış ve kurulum bilgisi sağlar."
+title: Elektronik mesajlaşma
+description: Bu konu, Microsoft Dynamics 365 for Finance and Operations içinde elektronik mesajlaşma için kurulum bilgisi ve genel bakış sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357945"
 ---
-
-# <a name="electronic-messaging"></a>Elektronik mesajlaşma
+# <a name="electronic-messaging"></a>Elektronik iletiler
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu Microsoft Dynamics 365 for Finance and Operations içinde elektronik mesajlaşmaya genel bakış ve kurulum bilgisi sağlar.
+Bu konu, Microsoft Dynamics 365 for Finance and Operations içinde elektronik mesajlaşma için kurulum bilgisi ve genel bakış sağlar.
 
 Yakın zamanda çeşitli ülkelerin ve bölgelerin hükümetleri ve mevzuatları, bu ülkelerde ve bölgelerde kayıtlı olan şirketler için raporlama gereksinimleri belirlemiştir. Gereksinimlerin amacı, bu şirketlerden verilerin elektronik biçimde, doğrudan tutuldukları, işlendikleri ve hesaplandıkları sistemlerden alınabilmesidir.
 
@@ -452,4 +451,3 @@ Bu örnekte, tüm eylemler ayrı yürütülebilecek şekilde ayarlanmış olmal�
 ![Mesaj durumunu güncelleştirmek](media/update-status.png)
 
 Mesaj durumu **Hazırlanmış** olarak güncelleştirilir ve şimdi raporu **Rapor oluştur**'u seçerek oluşturabilirsiniz. Rapor oluşturulur ve mesaj durumu ve eylem günlüğü güncelleştirilir. Oluşturulan raporu görmek için Eylem Panosu üzerinde **Ek** düğmesini seçin.
-

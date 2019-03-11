@@ -1,13 +1,13 @@
 ---
-title: "Üretimde malzeme değiştirme"
-description: "Bu konuda, üretim süreci sırasında malzemelerin nasıl değiştirileceği açıklamaktadır."
+title: Üretimde malzeme değiştirme
+description: Bu konuda, üretim süreci sırasında malzemelerin nasıl değiştirileceği açıklamaktadır.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461b717acafb5ccf37acae23a1564069cea6828a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3e70a6ad074911438ef45b6aac2523a4a9fccf8
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327631"
 ---
-
 # <a name="material-substitution-in-manufacturing"></a>Üretimde malzeme değiştirme
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ Planlama sırasında malzemeleri bir ürün reçetesi kullanırken değil yalnı
 
 ## <a name="substituting-material-during-production"></a>Üretim sırasında malzeme değiştirme
 Şu senaryoyu düşünün: Kaynak işlemi için bir parça metal levha gerekli. İşlem sırasında, ambar çalışanı, makine operatörünü levhanın stok dışı olduğu konusunda bilgilendirir. Ancak, levhanın biraz daha kalın bir levha ile değiştirilebileceğine karar verilir. Bu şekilde, işlem sonlandırılabilir. Bir açık üretim emri için ürün reçetesine malzeme eklenebilir. Üretim emri **Başlatıldı** durumunda ise, üretim ürün reçetesine yeni bir madde eklediklerinde kullanıcılardan emri yeniden tahmin etmeleri istenir. Malzeme eklendikten sonra, yeni madde için yeni bir malzeme çekme listesi oluşturulabilir. Yeni malzemeyi üretim ürün reçetesine eklemeniz gerekmez. Bunun yerine, doğrudan üretim malzeme çekme listesine ekleyebilirsiniz. Ardından, malzeme çekme listesini deftere nakledildiğinde, sistem malzemeyi üretim ürün reçetesine ekler.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Kısmi müşteri ödemesini iskonto tarihinden önce, iskonto tarihinden sonraki son bir ödeme ile tasfiye et"
-description: "Bu makalede müşteriler için ödemelerin kapatılmasının faturalar üzerindeki etkisi tartışılmıştır. Senaryo, Genel muhasebeye değil, yardımcı deftere etkileri üzerinde durmaktadır."
+title: Kısmi müşteri ödemesini iskonto tarihinden önce, iskonto tarihinden sonraki son bir ödeme ile tasfiye et
+description: Bu makalede müşteriler için ödemelerin kapatılmasının faturalar üzerindeki etkisi tartışılmıştır. Senaryo, Genel muhasebeye değil, yardımcı deftere etkileri üzerinde durmaktadır.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 79d252ca04ca9434c10d282722b3e3dec58aab6a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3843935cf17aeb0fd358398dccbca4cf494b132
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336877"
 ---
-
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Kısmi müşteri ödemesini iskonto tarihinden önce, iskonto tarihinden sonraki son bir ödeme ile tasfiye et
 
 [!include [banner](../includes/banner.md)]
@@ -99,8 +98,7 @@ Tamer **Nakit iskontosu kullan** alanındaki değeri **Her zaman** olarak deği�
 | Alınan nakit iskontosu          | 3,00      |
 | Alınacak nakit iskontosu tutarı | 7,00      |
 
-Tamer, bu müşterinin 7.00'lik kalan nakit iskontosunu almasına izin vermediğinden **Nakit iskontosu kullan** alanındaki değeri tekrar **Normal** olarak değiştirir. Sonra ödemeyi deftere nakleder. Tamer **Müşteri hareketleri** sayfasını açtığında, faturanın bakiyesinin 0,00 olduğunu görür. Ayrıca, iki ödeme olduğunu da görür
-. Ödemelerden biri 297,00 içindir ve 3,00 tutarında nakit iskontosu vardır; diğer ödeme ise 700,00 içindir.
+Tamer, bu müşterinin 7.00'lik kalan nakit iskontosunu almasına izin vermediğinden **Nakit iskontosu kullan** alanındaki değeri tekrar **Normal** olarak değiştirir. Sonra ödemeyi deftere nakleder. Tamer **Müşteri hareketleri** sayfasını açtığında, faturanın bakiyesinin 0,00 olduğunu görür. Ayrıca, iki ödeme olduğunu da görür. Ödemelerden biri 297,00 içindir ve 3,00 tutarında nakit iskontosu vardır; diğer ödeme ise 700,00 içindir.
 
 | Fiş    | Hareket türü | Tarih      | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Kalan | Para Birimi |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
@@ -108,7 +106,6 @@ Tamer, bu müşterinin 7.00'lik kalan nakit iskontosunu almasına izin vermediğ
 | ARP-10020  |                  | 1/7/2015  |         |                                      | 297,00                                | 0,00    | ABD Doları      |
 | DISC-10020 |                  | 1/7/2015  |         |                                      | 3,00                                  | 0,00    | ABD Doları      |
 | ARP-10021  |                  | 11/7/2015 |         |                                      | 700,00                                | 0,00    | ABD Doları      |
-
 
 
 

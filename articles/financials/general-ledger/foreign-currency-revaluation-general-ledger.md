@@ -1,13 +1,13 @@
 ---
-title: "Genel muhasebe için yabancı para birimi yeniden değerleme"
-description: "Bu konu, kurulum, işlemi çalıştırma, işlem için hesaplama ve gerekirse yeniden değerleme işlemi hareketlerinin nasıl tersine çevrildiği de dahil olmak üzere genel muhasebe yabancı para birimi yeniden değerleme işlemine genel bir bakış sunar."
+title: Genel muhasebe için yabancı para birimi yeniden değerleme
+description: Bu konu, kurulum, işlemi çalıştırma, işlem için hesaplama ve gerekirse yeniden değerleme işlemi hareketlerinin nasıl tersine çevrildiği de dahil olmak üzere genel muhasebe yabancı para birimi yeniden değerleme işlemine genel bir bakış sunar.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb04c5a9e7db1a6c6a8d8c7126bfa80208d1fd53
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f967854e9a39c7b2d76559744bbc1e16a53d7f6a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315556"
 ---
-
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Genel muhasebe için yabancı para birimi yeniden değerleme
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Aşağıdaki muhasebe girişi oluşturulur.
 Yeniden değerleme işlemi hareketini tersine çevirmeniz gerekiyorsa **Yabancı para birimi yeniden değerleme işlemi** sayfasında **Ters hareket** düğmesini seçin. Yeniden değerleme işlemi oluştuğunda veya tersine çevrildiğinde geçmiş hesap denetimi kılavuzunu düzenlemek için yeni bir yabancı para birimi yeniden değerleme işlemi geçmiş kaydı oluşturulur. 
 
 Tarih sırasına göre değerlendirme sonuçlarını terse çevirebilirsiniz, ancak her yeniden değerlenen ana hesap için doğru bakiyeleri sağlamak için daha güncel bir yeniden değerlemeyi de tersine çevirmeniz gerekebilir. Bu tersine çevirmeler, tarih sırasının dışında gerçekleşebilir çünkü hangi ana hesapların yeniden değerleneceğinin ve ne zaman yeniden değerleneceklerinin sıklığını denetlemenin bir yolu yoktur. Örneğin, bir kuruluş nakit ana hesaplarını üç ayda bir, diğer ana hesaplarını ise ayda bir yeniden değerlemeyi seçebilir.
-
 
 
 

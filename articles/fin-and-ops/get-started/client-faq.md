@@ -1,13 +1,13 @@
 ---
 title: Finance and Operations istemcisiyle ilgili SSS
-description: "Bu makalede, Microsoft Dynamics 365 for Finance and Operations istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir."
+description: Bu makalede, Microsoft Dynamics 365 for Finance and Operations istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
 author: jasongre
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 74f85f7a1c390d1f21d0423a794ff16c7250d9fa
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316729"
 ---
-
 # <a name="finance-and-operations-client-faq"></a>Finance and Operations istemcisiyle ilgili SSS
 
 [!include [banner](../includes/banner.md)]
@@ -56,4 +55,3 @@ Klavye erişimini kolaylaştırmak için, Finance and Operations kısayol menüs
 
 - Bir denetimde **Ayrıntıları görüntüle** özelliği ve bir değer varsa, değer bir köprü olarak görüntülenir. Ek ayrıntılar içeren bir sayfa açmak için köprüye tıklayabilirsiniz.
 - **Ayrıntıları görüntüle**, Finance and Operations kısayol menülerinde bir seçenek olarak da mevcuttur. Sağ tıkladığınızda Finance and Operations kısayol menülerinin ne zaman görüntüleneceği hakkında daha fazla bilgi için önceki bölüme bakın.
-

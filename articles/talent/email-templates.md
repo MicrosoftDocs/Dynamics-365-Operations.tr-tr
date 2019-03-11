@@ -1,14 +1,14 @@
 ---
-title: "E-posta şablonları"
-description: "Bu konu, oluşturabileceğiniz ve Microsoft Dynamics 365 for Talent - Attract'ta kullanabileceğiniz e-posta şablonları hakkında bilgi sağlar."
+title: E-posta şablonları
+description: Bu konu, oluşturabileceğiniz ve Dynamics 365 for Talent - Attract'ta kullanabileceğiniz e-posta şablonları hakkında bilgi sağlar.
 author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306623"
 ---
-
 # <a name="email-templates"></a>E-posta şablonları
 [!include[banner](../includes/banner.md)]
 
@@ -69,7 +68,7 @@ Bir şablonu düzenlemek için satırı seçin ve şablonda değişiklikler yap�
 
 Bilgi (Cc) satırına **İş veren** veya **İşe alma yöneticisi** gibi kişiler ekleyebilirsiniz. E-posta gönderildiğinde, bu roller kullanıcılarla işin bağlamını temel alarak uygun kullanıcılarla otomatik olarak değiştirilir.
 
-Konu satırı ve gövde içeriği yer tutucuları destekler. **\#** yazarak ve otomatik tamamlanan açılır listeden uygun yer tutucu seçerek yer tutucu ekleyebilirsiniz. Kullanılabilir yer tutucular listesi sayfanın sağ tarafında görünür. E-posta gönderildiğinde, yer tutucular işin bağlamını ve alıcıyı temel alarak uygun kullanıcılarla otomatik olarak değiştirilir. Örneğin, adaya gönderilen e-posta şablonu yer tutucu içerir \#{Aday\_Adı}. Cameron adlı bir adaya e-posta gönderildiğinde bu yer tutucu olan Cameron'ın adı ile değiştirilir.
+Konu satırı ve gövde içeriği yer tutucuları destekler. **\#** yazarak ve otomatik tamamlanan açılır listeden uygun yer tutucu seçerek yer tutucu ekleyebilirsiniz. Kullanılabilir yer tutucular listesi sayfanın sağ tarafında görünür. E-posta gönderildiğinde, yer tutucular işin bağlamını ve alıcıyı temel alarak uygun kullanıcılarla otomatik olarak değiştirilir. Örneğin, adaya gönderilen e-posta şablonu yer tutucu içerir \#{Aday\_Ad}. Cameron adlı bir adaya e-posta gönderildiğinde bu yer tutucu olan Cameron'ın adı ile değiştirilir.
 
 Gövde içerik düzenleyici, stil ve formatı sağlayan zengin metin düzenleyicisidir. Ayrıca, köprüler ve bağlantılar eklemenizi sağlar.
 
@@ -81,4 +80,3 @@ Belirli bir e-posta tipi için bir şablon oluşturulduktan sonra şablon satır
 
 > [!NOTE] 
 > Otomatik olarak gönderilen e-postalar için birden çok şablon oluşturulabilir. Bununla birlikte, tek bir şablon etkin şablon olarak ayarlanabilir. Bu süreç olaylarla tetiklendiğinden yalnızca yönetici, şablon kitaplığındaki **varsayılan** ve **Oto. gönder** rozetleri bileşimine bağlı olarak hangi şablonun kullanılması gerektiğini belirleyebilir.
-

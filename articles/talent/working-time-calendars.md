@@ -1,31 +1,30 @@
 ---
-title: "Çalışma zamanı takvimleri"
-description: "Bu konu Dynamics 365 for Talent - Core HR içerisinde zaman takvimleri ile çalışmayı ve takvimleri kurmayı açıklar."
+title: Çalışma zamanı takvimleri
+description: Bu konu Dynamics 365 for Talent -- Core HR içerisinde zaman takvimleri ile çalışmayı ve takvimleri kurmayı açıklar.
 author: jcart1106
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 2465065d7db18a5468d7c979e0d6cb9c7e76f969
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306537"
 ---
-
 # <a name="working-time-calendars"></a>Çalışma zamanı takvimleri
 
 [!include [banner](includes/banner.md)]
@@ -59,4 +58,3 @@ Bir takvim ayarlamak için şu adımları takip edin:
 10. Çalışanlara bir takvim atamak için eylem bölmesinde **Çalışanlara atama**'tı seçin. Bu takvimi atamak istediğiniz çalışanları seçin ve sonra **Ata** üzerine tıklayın.
 
 Çalışanlara takvim atanması gerekli değildir. Bir çalışma zamanı takvimi tanımlanmışsa, off günler otomatik olarak talepten reddedilir. Gün veya saat cinsinden miktar, takvimde tanımlanan çalışma zamanlarına varsayılan olarak ayarlanır. Bir çalışanın atanan bir takvimi yoksa, tüm gün süresinin kullanılabilen için ve talebi varsayılan süre devre dışı değil. 
-

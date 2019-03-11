@@ -1,13 +1,13 @@
 ---
-title: "Kayıt kodları"
-description: "Bu konu, kayıt kimliklerini ayarlama kullanma hakkında bilgi sağlar."
+title: Kayıt kodları
+description: Bu konu, kayıt kimliklerini ayarlama kullanma hakkında bilgi sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350516"
 ---
-
 # <a name="registration-ids"></a>Kayıt kodları
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ Kayıt kategorisi ülke/bölge kayıt tanımlayıcısıdır, belirli bir ülke/b
 |-----------------------|----------------|
 | Kayıt türü     | Belirli ülke/bölgedeki kayıt türü.|
 | Sınırlama:         | Vergi kayıt türüne uygulanan sınırlama türü: Hiçbiri, Kişi, Kuruluş.|
-| Kayıt kategorisi | Ülkede kullanılan benzersiz kayıt kimlik tanımlayıcısı. Desteklenen Microsoft Dynamics 365 for Finance and Operations kategorilerinin tam listesi aşağıdadır. |
+| Kayıt kategorisi | Ülkede kullanılan benzersiz kayıt kimlik tanımlayıcısı. Microsoft Dynamics 365 for Finance and Operations'da desteklenen kategorilerin tüm listesi aşağıdadır: |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Genel adres defteri kayıtları için kayıt kimlikleri girin
 
@@ -101,7 +100,7 @@ Aşağıdaki tablo, Finance and Operations içerisindeki desteklenen kayıtları
 | Resmi kimlik belgesi                              | İspanya             | Resmi kimlik belgesi|
 | İkametgah belgesi                                         | İspanya             | İkametgah belgesi|
 | Diğer kimlik belgesi                                 | İspanya             | Diğer kimlik belgesi|
-| censused değil                                                  | İspanya             | AX 2012 R3'te yoktur|
+| Censused değil                                                  | İspanya             | AX 2012 R3'te yoktur|
 
 
 Gerekli ön koşullar dahil kayıt kimlikleri işleme için, Lifecycle Services (LCS) içinde KDV kimliği için aşağıdaki görev kayıtlarına bakın:
@@ -109,7 +108,6 @@ Gerekli ön koşullar dahil kayıt kimlikleri işleme için, Lifecycle Services 
 -   KDV Kodu ayarlama
 -   Satıcının KDV kimlik kaydı
 -    KDV Kimliği kullanılarak taraf arama
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "İş akışında onay adımlarını yapılandırma"
-description: "Bu konu, bir onay adımının özelliklerini yapılandırmayı açıklar."
+title: İş akışında onay adımlarını yapılandırma
+description: Bu konu, bir onay adımının özelliklerini yapılandırmayı açıklar.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f52b6ffed7c1edb97c7a673cefbc8bf486ba831
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368065"
 ---
-
 # <a name="configure-approval-steps-in-a-workflow"></a>İş akışında onay adımlarını yapılandırma
 
 [!include [banner](../includes/banner.md)]
@@ -135,7 +134,7 @@ Onay adımının kime atanacağını belirtmek için şu adımları izleyin:
     </tr>
     <tr>
     <td>Kullanıcı</td>
-    <td>Belirli Microsoft Dynamics 365 for Finance and Operations kullanıcıları</td>
+    <td>Özel Microsoft Dynamics 365 for Finance and Operations kullanıcıları</td>
     <td>
     <ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
@@ -278,4 +277,3 @@ Eğer bir kullanıcı bu zaman içerisinde bir belge üzerinde eyleme geçmezse,
 
 5. İlerletme yoluna eklenecek tüm kullanıcılar için 3. adım ve 4. adımlar arasındaki süreci yineleyin. Kullanıcıların sıralamasını değiştirebilirsiniz.
 6. İlerletme yolundaki kullanıcılar verilen süre içinde yanıt vermezlerse, sistem belge üstünde otomatik olarak eylem yapar. Sistemin alacağı eylemi belirtmek için **Eylem** satırını seçin ve sonra **Eylemi bitir** sekmesi üzerinde bir eylem seçin.
-

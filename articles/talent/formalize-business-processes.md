@@ -1,13 +1,13 @@
 ---
-title: "İş süreçlerini biçimlendirme"
-description: "Bu konuda, kuruluşunuzda tamamlanması gereken süreçlere ilişkin bir iş süreci şablonu oluşturmak için İş süreci özelliğini nasıl kullanabileceğiniz açıklanmaktadır."
+title: İş süreçlerini biçimlendirme
+description: Bu konuda, kuruluşunuzda tamamlanması gereken süreçlere ilişkin bir iş süreci şablonu oluşturmak için İş süreci özelliğini nasıl kullanabileceğiniz açıklanmaktadır.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 01/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: PersonnelBusinessProcessGenericWorkspace, BusinessProcessGenericTemplateListpage, BusinessProcessGenericMyTemplates, BusinessProcessGroupAssignment
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
 ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306639"
 ---
 # <a name="formalize-business-processes"></a>İş süreçlerini biçimlendirme
 
@@ -74,5 +74,4 @@ Bir iş süreci şablonu oluşturmak veya kopyalamak ya da iş süreci başlatma
 - Seçilen iş sürecini başlatmak, görevler atamak ve son tarihleri hesaplamak için **İşlemi başlat**'ı seçin.
 
 Etkin süreçleri ve ilişkili görevleri görüntülemek için **İş süreçleri** çalışma alanını açın.
-
 

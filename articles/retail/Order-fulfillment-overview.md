@@ -1,13 +1,13 @@
 ---
-title: "Mağaza sipariş karşılama"
-description: "Bu konu, Mağaza sipariş karşılama konusuna genel bir bakış sağlar."
+title: Mağaza sipariş karşılama
+description: Bu konu, Mağaza sipariş karşılama konusuna genel bir bakış sağlar.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363695"
 ---
-
 # <a name="store-order-fulfillment"></a>Mağaza sipariş karşılama
 
 [!include [banner](includes/banner.md)]
@@ -123,7 +122,7 @@ Sipariş satırları sipariş satırı kabul edildikten sonra herhangi bir nokta
 - **Neden olduğu durum:** Paketlendi veya kısmen paketlendi
 - **Neden olduğu arka ofis durumu:** Teslim edildi veya kısmen teslim edildi
 
-Bu eylem satırları paketlendi veya kısmen paketlendi olarak işaretler ve sevk irsaliyesini yazdırır. Bir arada paketlenen ürünleri doğrulamak için bir sevk irsaliyesi yazdırılabilir. Sevk irsaliyesi biçimi Dynamics 365 for Retail'de yapılandırılır ve makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Bu eylem satırları paketlendi veya kısmen paketlendi olarak işaretler ve sevk irsaliyesini yazdırır. Bir arada paketlenen ürünleri doğrulamak için bir sevk irsaliyesi yazdırılabilir. Malzeme sevk irsaliyesi biçimi Dynamics 365 for Retail'de yapılandırılır ve makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Eylem: Paketlendi olarak işaretle**
 
@@ -219,4 +218,3 @@ Satış noktasında sipariş karşılama, kullanıcının ihtiyacı olanı bulma
 - Oluşturulma tarihi
 - Teslimat tarihi
 - Giriş tarihi
-

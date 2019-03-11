@@ -1,13 +1,13 @@
 ---
-title: "Proje sözleşmelerini ve projeleri doğrudan Project Service Automation'dan Finance and Operations'a eşitleme"
-description: "Bu konu, proje sözleşmelerini ve projeleri Microsoft Dynamics 365 for Project Service Automation'dan Microsoft Dynamics 365 for Finance and Operations'a doğrudan eşitlemek için kullanılacak şablonu ve temel görevleri açıklamaktadır."
+title: Proje sözleşmelerini ve projeleri doğrudan Project Service Automation'dan Finance and Operations'a eşitleme
+description: Bu konu projeleri Microsoft Dynamics 365 for Project Service Automation üzerinden Microsoft Dynamics 365 for Finance and Operations üzerine proje sözleşmelerini ve projeleri doğrudan eşitlemekte kullanılan şablonu ve alttaki görevleri açıklar.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,27 +17,26 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312129"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Proje sözleşmelerini ve projeleri doğrudan Project Service Automation'dan Finance and Operations'a eşitleme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, proje sözleşmelerini ve projeleri Microsoft Dynamics 365 for Project Service Automation'dan Microsoft Dynamics 365 for Finance and Operations'a doğrudan eşitlemek için kullanılacak şablonu ve temel görevleri açıklamaktadır.
+Bu konu projeleri Microsoft Dynamics 365 for Project Service Automation üzerinden Microsoft Dynamics 365 for Finance and Operations üzerine proje sözleşmelerini ve projeleri doğrudan eşitlemekte kullanılan şablonu ve alttaki görevleri açıklar.
 
 > [!NOTE] 
-> Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0 kullanıyorsanız KB 4074835'i yüklemeniz gerekir.
+> Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0 kullanıyorsanız KB 4074835'i yüklemeniz gerekir.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Project Service Automation'dan Finance and Operations'a veri akışı
 
 > [!NOTE]
-> Project Service Automation'dan Finance and Operations'a tümleştirme çözümünü kullanmadan önce Microsoft Dynamics 365 Veri tümleştirme özelliği hakkında bilgi sahibi olmanız gerekir.
+> Project Service Automation'dan Finance and Operations'a tümleştirme çözümünü kullanabilmeniz için, Microsoft Dynamics 365 Veri tümleştirme özelliği hakkında bilgi sahibi olmanız gerekir.
 
 Project Service Automation'dan Finance and Operations'a tümleştirme çözümünde, Project Service Automation ve Finance and Operations örnekleri arasında veri eşitlemek için Veri tümleştirme özelliği kullanılır. Veri tümleştirme özelliğiyle kullanılabilen tümleştirme şablonu, proje sözleşmeleri, projeler, proje sözleşme satırları ve proje sözleşme satırı kilometre taşları hakkındaki verilerin Project Service Automation'dan Finance and Operations'a akışına olanak sağlar.
 
@@ -47,7 +46,7 @@ Aşağıdaki şekilde Project Service Automation ile Finance and Operations aras
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 
-Kullanılabilir şablonlara erişmek için Microsoft PowerApps yönetim merkezinde **Projeler**'i seçin ve ardından sağ üst köşede **Yeni proje**'yi seçerek genel şablonları seçin.
+Kullanılabilecek şablonlara erişmek için, Microsoft PowerApps yönetim merkezi'nde **Projeler**'i seçin ve ardından, sağ üst köşede **Yeni proje**'yi seçerek genele açık şablonları seçin.
 
 Aşağıdaki şablon ve temel görevler, proje sözleşmelerini ve projeleri Project Service Automation'dan Finance and Operations'a eşitlemek için kullanılır:
 
@@ -111,7 +110,7 @@ Project Service Automation'dan Finance and Operations'a tümleştirme çözümü
 
 Aşağıdaki koşullar karşılanırsa verilere filtre uygularken Excel için Microsoft Power Query kullanmanız gerekir:
 
-- Microsoft Dynamics 365 for Sales'de satış siparişleriniz vardır.
+- Microsoft Dynamics 365 for Sales içinde satış siparişleriniz var.
 - Project Service Automation'da birden fazla kuruluş biriminiz vardır ve bu kuruluş birimleri Finance and Operations'ta birden fazla tüzel kişilikle eşlenecektir.
 
 Power Query kullanmanız gerekiyorsa şu yönergeleri takip edin:
@@ -135,4 +134,3 @@ Aşağıdaki şekillerde, Veri tümleştirmesinde şablon görevi eşleşmelerin
 [![Şablon eşleme](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![Şablon eşleme](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

@@ -1,13 +1,13 @@
---- 
-title: "Süreç işi için kanban kurallarını değiştirme"
-description: "Bu yordam, belirli bir kanban için kullanılan kanban kuralını değiştirmeye odaklanır."
+---
+title: Süreç işi için kanban kurallarını değiştirme
+description: Bu yordam, belirli bir kanban için kullanılan kanban kuralını değiştirmeye odaklanır.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 38d9ff0a7d6aeb0a589fd6b9ab34b818c46644cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f8b2a67e03a64deae9d4bc9c7e3e714d134443c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314958"
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a>Süreç işi için kanban kurallarını değiştirme
 
@@ -48,5 +48,4 @@ Bu yordam, belirli bir kanban için kullanılan kanban kuralını değiştirmeye
     * Daha önce oluşturulan kanban kuralını seçin. Bu, en büyük sayıya sahip kanban kuralıdır.  
 7. Son düğmesini tıklatın.
     * Kanban işi şimdi artık başka bir kanban kuralını kullanmaktadır. Bu, yük iş hücrelerini eşitlemek için yararlı olabilir.  
-
 

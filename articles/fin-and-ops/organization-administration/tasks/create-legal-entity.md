@@ -1,13 +1,13 @@
---- 
-title: "Bir tüzel kişilik oluşturma"
-description: "Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kuruluştur."
+---
+title: Bir tüzel kişilik oluşturma
+description: Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kuruluştur.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2b1869afa9ebbfc81ca321c57cc8e01739103d16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 89d3babc4447ca7398521b93634db7ecb6cfb5de
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338556"
 ---
 # <a name="create-a-legal-entity"></a>Bir tüzel kişilik oluşturma
 
@@ -57,5 +57,4 @@ Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kurul
 16. Vergi 1099 bölümünü genişletin.
     * Vergi 1099 bölümüne tüzel kişilik için 1099 bilgilerini girin.  
 17. Kaydet'e tıklayın.
-
 

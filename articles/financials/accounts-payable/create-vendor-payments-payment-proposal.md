@@ -1,13 +1,13 @@
 ---
-title: "Ödeme teklifi kullanarak satıcı ödemeleri oluşturma"
-description: "Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekliflerinin nasıl çalıştığına dair bazı örnekler içerir."
+title: Ödeme teklifi kullanarak satıcı ödemeleri oluşturma
+description: Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekliflerinin nasıl çalıştığına dair bazı örnekler içerir.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 332a18eb98811505b38c023c97c22b86a9367af1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327424"
 ---
-
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Ödeme teklifi kullanarak satıcı ödemeleri oluşturma
 
 [!include [banner](../includes/banner.md)]
@@ -70,19 +69,19 @@ Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekli
 
 ### <a name="option-1-by-cash-discount"></a>Seçenek 1: Nakit iskontosuna göre
 
-April teklif türü olarak **Nakit iskontosu**'nu seçer. 26 Haziran - 10 Temmuz tarih aralığı girer. Aşağıdaki faturalar teklife dahil edilir:
+April teklif türü olarak **Nakit iskontosu**'nu seçer. 26 Haziran - 10 Temmuz tarih aralığı girer. Aşağıdaki faturalar teklife dahil edilir:
 
 -   1002; çünkü iskonto tarihi olan 4 Temmuz ödeme tarihi aralığında bulunur.
 -   1004; çünkü iskonto tarihi olan 1 Temmuz ödeme tarihi aralığında bulunur.
 
 Aşağıdaki faturalar teklife dahil edilmez:
 
--   1001; çünkü iskonto tarihi olan 29 Haziran geçtiğinden bu fatura artık nakit iskontosuna uygun değildir.
+-   1001; çünkü iskonto tarihi olan 29 Haziran geçtiğinden bu fatura artık nakit iskontosuna uygun değildir.
 -   1003; çünkü bu faturada bir iskonto tarihi yoktur.
 
 ### <a name="option-2-by-due-date"></a>Seçenek 2: Vade tarihine göre
 
-April teklif türü olarak **Vade tarihine göre**'yi seçer. 26 Haziran - 10 Temmuz tarih aralığı girer. Aşağıdaki faturalar teklife dahil edilir:
+April teklif türü olarak **Vade tarihine göre**'yi seçer. 26 Haziran - 10 Temmuz tarih aralığı girer. Aşağıdaki faturalar teklife dahil edilir:
 
 -   1003; çünkü vade tarihi olan 29 Haziran ödeme tarihi aralığındadır.
 
@@ -94,7 +93,7 @@ Aşağıdaki faturalar teklife dahil edilmez:
 
 ### <a name="option-3-by-due-date-and-cash-discount"></a>Seçenek 3: Vade tarihine ve nakit iskontosuna göre
 
-April teklif türü olarak **Vade tarihi ve nakit iskontosu**'nu seçer. 26 Haziran - 10 Temmuz tarih aralığı girer. Aşağıdaki faturalar teklife dahil edilir:
+April teklif türü olarak **Vade tarihi ve nakit iskontosu**'nu seçer. 26 Haziran - 10 Temmuz tarih aralığı girer. Aşağıdaki faturalar teklife dahil edilir:
 
 -   1003; çünkü vade tarihi olan 29 Haziran ödeme tarihi aralığındadır.
 -   1002; çünkü iskonto tarihi olan 4 Temmuz ödeme tarihi aralığında bulunur.
@@ -102,7 +101,7 @@ April teklif türü olarak **Vade tarihi ve nakit iskontosu**'nu seçer. 26 Hazi
 
 Aşağıdaki faturalar teklife dahil edilmez:
 
--   1001; çünkü iskonto tarihi olan 29 Haziran geçmiştir, bu nedenle bu fatura artık nakit iskontosuna uygun değildir ve vade tarihi olan 15 Temmuz da belirtilen tarih aralığı dışındadır.
+-   1001; çünkü iskonto tarihi olan 29 Haziran geçmiştir, bu nedenle bu fatura artık nakit iskontosuna uygun değildir ve vade tarihi olan 15 Temmuz da belirtilen tarih aralığı dışındadır.
 
 ## <a name="country-specific-considerations"></a>Ülkeye özgü hususlar
 ### <a name="norway"></a>Norveç
@@ -113,15 +112,14 @@ Boyut kontrolü, oluşturulan satırları ödeme tekliflerine göre gruplamayı 
 
 -   **Boyut kontrolü** alanı devre dışı bırakılır. Ödeme teklifi diğer ülkelerde olduğu gibi davranır.
 -   **Boyut kontrolü** alanı boyutlar daha ayrıntılı tanımlanmadan etkinleştirilir. Ödeme teklifi, boyutlar dikkate alınmadan oluşturulur. Oluşturulan işlem uygulanan girişten hiçbir boyutu devralmaz.
--   **Boyut kontrolü** alanı ve ayrıntılı boyutlar etkinleştirilir. Şimdi boyutların günlüğe nasıl kopyalanacağını tanımlarsınız. Örneğin: • **BusinessUnit** onay kutusunu, ödeme yöntemi için bir ödeme teklifi oluşturmak üzere seçin. • **CostCenter** onay kutusunu, ödeme yöntemi için bir ödeme teklifine göre maliyet merkezi oluşturmak için seçin
+-   **Boyut kontrolü** alanı ve ayrıntılı boyutlar etkinleştirilir. Şimdi boyutların günlüğe nasıl kopyalanacağını tanımlarsınız. Örneğin: • **BusinessUnit** onay kutusunu, ödeme yöntemi için bir ödeme teklifi oluşturmak üzere seçin. • **CostCenter** onay kutusunu, ödeme yöntemi için bir ödeme teklifine göre maliyet merkezi oluşturmak için seçin
 
 > [[!NOTE]
 > Üçünü seçenekte birden çok boyut seçerseniz boyut birleşimi için bir ödeme teklifi oluşturulur.
 
 #### <a name="bank-account-selection"></a>Banka hesabı seçimi
 
-Ülke bağlamından bağımsız olarak her ödeme yöntemi için standart bir borçlandırma ödeme hesabı tanımlayabilirsiniz. Bu, bir teklif tarafından oluşturulan ödeme satırlarında ayarlanır. Banka hesabı özelliğiyle boyut ve para birimi veya her bir birleşime bağlı olarak farklı borçlandırma banka hesabı kullanmak için bunların bir birleşimi tarafından yönetilen birden çok borçlandırma banka hesabı tanımlayabilirsiniz. Bu bileşenleri **Deftere nakil hesabı türü** = **Banka** olan her ödeme yöntemi için kullanılabilir **Banka hesapları**'nı kullanarak **Ödeme yöntemleri**'nde ayarlayabilirsiniz.
-
+Ülke bağlamından bağımsız olarak her ödeme yöntemi için standart bir borçlandırma ödeme hesabı tanımlayabilirsiniz. Bu, bir teklif tarafından oluşturulan ödeme satırlarında ayarlanır. Banka hesabı özelliğiyle boyut ve para birimi veya her bir birleşime bağlı olarak farklı borçlandırma banka hesabı kullanmak için bunların bir birleşimi tarafından yönetilen birden çok borçlandırma banka hesabı tanımlayabilirsiniz. Bu bileşenleri **Deftere nakil hesabı türü** = **Banka** olan her ödeme yöntemi için kullanılabilir **Banka hesapları**'nı kullanarak **Ödeme yöntemleri**'nde ayarlayabilirsiniz.
 
 
 

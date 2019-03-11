@@ -1,13 +1,13 @@
---- 
+---
 title: " Perakende fiyat ayarlamaları"
-description: "Bu yordam, bir perakende fiyat ayarlaması oluşturma konusunda yol gösterir."
+description: Bu yordam, bir perakende fiyat ayarlaması oluşturma konusunda yol gösterir.
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailDiscountPriceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9427d3955e5442e301c416e2960e071ca5d85a3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: edfb9a1515f0af7d3272ea3fbb362bd0e6b0f129
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366317"
 ---
 # <a name="retail-price-adjustments"></a> Perakende fiyat ayarlamaları
 
@@ -52,5 +52,4 @@ Bu yordam, bir perakende fiyat ayarlaması oluşturma konusunda yol gösterir. P
 13. Kaydet'e tıklayın.
 14. Sayfayı kapatın.
 15. Sayfayı yenileyin.
-
 

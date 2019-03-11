@@ -1,13 +1,13 @@
 ---
-title: "Maliyet güncelleştirmelerini yönetme"
-description: "Standart maliyet verilerindeki güncelleştirmeler iki farklı yaklaşımla yönetilebilir - tek sürümlü yaklaşım ve iki sürümlü yaklaşım."
+title: Maliyet güncelleştirmelerini yönetme
+description: Standart maliyet verilerindeki güncelleştirmeler iki farklı yaklaşımla yönetilebilir - tek sürümlü yaklaşım ve iki sürümlü yaklaşım.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e72d4e90ac83787ed7c58d91c2102696acfac68
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b64d9e53736fd3b81ee997ed28ccfa62ed7e9ce6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367559"
 ---
-
 # <a name="manage-standard-cost-updates"></a>Maliyet güncelleştirmelerini yönetme
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ Aşağıdaki örnekte, bir üretim ortamında standart maliyetleri güncelleşti
 -   **Maliyet verileri güncelleştirmeleri için iki sürümlü yaklaşım** − İki sürümlü yaklaşım, yalnızca maliyet güncelleştirmelerini içeren ek bir maliyetlendirme sürümü gerektirir. Bu sürüm için tanımlayıcı 2016-STD-CHANGES'dir. Maliyet güncelleştirmeleri 2016-STD-CHANGES içerisinde kaydedilir ve "Beklemede" durumuna ayarlanır. İki sürümlü yaklaşımda, üretilen maddeler için bekleyen maliyetlerin ürün reçetesi hesaplamaları bir geri dönüş veri kaynağı gerektirir. Bunun nedeni, ek maliyetlendirme sürümü olan 2016-STD-CHANGES'ın yalnızva bir maliyet verisi alt grubu içermesidir. Her ikisi de 2016-STD-CHANGES içinde yer almayan maliyet verilerinin kaynağını tanımladığından, geri dönüş etkin maliyetler veya maliyetlendirme versiyonu 2016-STD olarak ifade edilir. Bekleyen maliyetler etkinleştirildikten sonra, maliyetlendirme versiyonu 2016-STD-CHANGES güncelleştirmeleri yansıtan geçerli etkin maliyetleri içerirken, orijinal maliyetlendirme versiyonu 2016-STD'ye dokunulmaz. İki versiyonlu yaklaşım kullanıldığında, orijinal maliyetlendirme sürümü için durdurma ilkelerinin güncelleştirmeleri önleyecek şekilde ayarlanması gerekir. Belirtilen başlangıç tarihi ve güncelleştirmelere izin vermek için durdurma ilkelerinin seçimli kullanımı dışında, ek maliyetlendirme sürümü için aynı ilkeler ayarlanmalıdır. Belirtilen başlangıç tarihi, planlanan etkinleştirme tarihini yansıtmak için her toplu değişiklikle güncelleştirilmelidir.
 
 Bu örnekte 2016 yılı boyunca güncelleştirmeleri yönetmek için bir ek maliyetlendirme versiyonu kullanılmıştır. Her toplu güncelleştirme için ayrı bir versiyon gibi birden fazla ek maliyetlendirme versiyonu da kullanılabilirdi. Birden fazla maliyetlendirme kullanıldığında, etkin maliyetler birden fazla maliyetlendirme sürümüne dağıtılacağından geri dönüşün etkin maliyetler şeklinde ifade edilmesi gerekir.
-
 
 
 

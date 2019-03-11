@@ -1,13 +1,13 @@
---- 
-title: "Kazanç geçerlilik bitiş tarihlerini yönetme"
-description: "Bu yordam bir yararın süresini uzatmayı veya bitirmeyi, ve bu yarara kaydedilmiş çalışanların kayıt tarihlerini yönetmeyi gösterir."
+---
+title: Kazanç geçerlilik bitiş tarihlerini yönetme
+description: Bu yordam bir yararın süresini uzatmayı veya bitirmeyi, ve bu yarara kaydedilmiş çalışanların kayıt tarihlerini yönetmeyi gösterir.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationResults, HcmWorker, HcmWorkerEnrollment
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: c256dc54a2f28889ce328b5c09ba19e6d67eb6b6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334623"
 ---
 # <a name="manage-benefit-expiration-dates"></a>Kazanç geçerlilik bitiş tarihlerini yönetme
 
@@ -47,5 +47,4 @@ Bu yordam bir yararın süresini uzatmayı veya bitirmeyi, ve bu yarara kaydedil
 14. Kişisel bilgiler bölümünü genişletin.
 15. Kazançlar'ı tıklatın.
 16. Listede, kazanç kaydını bulun ve seçin. Yeni kapsam bitiş tarihi not edin.
-
 

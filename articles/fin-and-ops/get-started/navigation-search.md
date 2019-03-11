@@ -1,13 +1,13 @@
 ---
-title: "Gezinti araması"
-description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations sayfalarında gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır."
+title: Gezinti araması
+description: Bu konuda, Microsoft Dynamics 365 for Finance and Operations içindeki sayfalarda gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7c05098815c6b330cbb9c7f5ce886779927c6804
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353023"
 ---
-
 # <a name="navigation-search"></a>Gezinti araması
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 for Finance and Operations sayfalarında gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 for Finance and Operations içindeki sayfalarda gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
 
 Finance and Operations geniş bir sektör ve faaliyet alanı yelpazesi için işlevler sağlar. Uygulama, çeşitli görevleri gerçekleştirmenize yardımcı olmak için çok sayıda alan ve sayfa içerir. Görevlerinizi tamamlamak için ihtiyaç duyduğunuz sayfaları hızlı bir şekilde bulmak için gezinti araması özelliğini kullanın.
 
@@ -64,4 +63,3 @@ Arama sonuçları listesi 10 öğeyle sınırlıdır. Aradığınızı sonuçlar
 ## <a name="development"></a>Geliştirme
 
 Geliştirme açısından bakıldığında, gezinti araması, kolay yararlanılan bir işlevdir çünkü menü öğelerinin dağıtımı ve arama sonuçlarında görünmeleri arasında neredeyse hiç gecikme yoktur. Menü öğeleri gezinti bölmesinden veya panodan bağlantılı olduğu sürece, otomatik olarak aranabilir olacaktır.
-

@@ -1,13 +1,13 @@
 ---
-title: "Ürün reçetesi tasarımcısı işlevi"
-description: "Bu konu, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar."
+title: Ürün reçetesi tasarımcısı işlevi
+description: Bu konu, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d3bae68c9daf7aaaee1802e1def64d04ccea01b8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b7d4530ecccf18d9370d84ff2b61be1514b80192
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338165"
 ---
-
 # <a name="bom-designer-functionality"></a>Ürün reçetesi tasarımcısı işlevi
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,7 @@ BOM ve rotaya uygulanan filtre, BOM tasarımcısının başlığında görüntü
 <tbody>
 <tr class="odd">
 <td>Ürün boyutları</td>
-<td>Seçilen bitmiş ürün bir ana ürün ise, etkin ürün boyutlarını ana bölüm için tanımlayabilirsiniz. <strong>Not:</strong> Ana ürün olmayan bir ürün için ürün reçetesi tasarımcısını açarsanız, <strong>Filtre</strong> iletişim kutusunda hiçbir ürün boyutu seçilemez.</td>
+<td>Seçilen bitmiş ürün bir ana ürün ise, etkin ürün boyutlarını ana bölüm için tanımlayabilirsiniz. <strong>Note:</strong> Ana ürün olmayan bir ürün için ürün reçetesi tasarımcısını açarsanız, <strong>Filtre</strong> iletişim kutusunda hiçbir ürün boyutu seçilemez.</td>
 </tr>
 <tr class="even">
 <td>Tesis</td>
@@ -117,7 +116,6 @@ BOM tasarımcısının ağaç görünümünde gösterilen bilgileri özelleştir
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ürün reçetesi         | Ağaç görünümünde gösterilen kriterleri seçmek için seçim kutularını kullanın. BOM tasarımcısı her iki sekmenin altında seçilen kriterleri gösterir. |
 | Rota       | Rotalar için gösterilen kriterleri seçmek için seçim kutularını kullanın.                                                                                    |
-
 
 
 

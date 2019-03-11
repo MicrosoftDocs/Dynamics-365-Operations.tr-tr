@@ -1,13 +1,13 @@
 ---
-title: "Stok, üretim ve satıştaki maddeleri ve hammaddeleri izleme"
-description: "Bu konuda, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz."
+title: Stok, üretim ve satıştaki maddeleri ve hammaddeleri izleme
+description: Bu konuda, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310082"
 ---
-
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Stok, üretim ve satıştaki maddeleri ve hammaddeleri izleme
 
 [!include [banner](../includes/banner.md)]
@@ -141,4 +140,3 @@ Bilgileri özet sayfalarından Microsoft Excel'e aktarabilirsiniz. İlgili sayfa
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Ortak ürünleri ve yan ürünleri izleyebilir miyim?
 Ortak ürünleri izleyebilirsiniz, ancak genellikle yan ürünlere atanmış izleme boyutları olmadığından bir yan ürünü izleyemezsiniz. Bir maddeyi izlerken, izleme ayrıntıları ilişkili tüm ortak ürünleri içerir. Ortak ürünü içeren bir düğüm, ayrıntılarda "ortak ürün" sözcüğünü içerir. Ortak ürün hakkındaki ayrıntıları, izleme ayrıntılarında düğümü seçip **Üretim** FastTab'ine tıklayarak görüntüleyebilirsiniz.
-

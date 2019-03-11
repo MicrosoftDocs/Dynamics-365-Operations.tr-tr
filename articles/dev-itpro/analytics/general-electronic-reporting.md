@@ -1,13 +1,13 @@
 ---
 title: Elektronik raporlama (ER)
-description: "Bu konu, Elektronik raporlama (ER) aracına genel bakış sağlar. Temel kavramlar, ER'nin desteklediği senaryolar ve çözümün bir parçası olarak tasarlanan ve yayınlanan biçimlerin listesini içermektedir."
+description: Bu konu, Elektronik raporlama (ER) aracına genel bakış sağlar. Temel kavramlar, ER'nin desteklediği senaryolar ve çözümün bir parçası olarak tasarlanan ve yayınlanan biçimlerin listesini içermektedir.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
 ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310818"
 ---
-
 # <a name="electronic-reporting-er"></a>Elektronik raporlama (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ ER şimdilik TEXT, XML, Microsoft Word belgesi ve OPENXML çalışma sayfası bi
 ## <a name="capabilities"></a>Beceriler
 ER altyapısı aşağıdaki yeteneklere sahiptir:
 
-- Farklı etki alanlarında elektronik raporlama için tek bir paylaşılan aracı temsil eder ve Microsoft Dynamics 365 for Finance and Operations için bir tür elektronik raporlama yapan 20'den fazla farklı altyapının yerini alır.
+- Farklı etki alanlarında elektronik raporlama için tek bir paylaşımlı aracı temsil eder ve Microsoft Dynamics 365 for Finance and Operations için bir tür elektronik raporlama yapan 20'den fazla farklı altyapının yerini alır.
 - Rapor biçiminin şu anki Finance and Operations uygulamasından yalıtılmasını sağlar. Diğer bir deyişle, biçim Finance and Operations farklı sürümleri için geçerlidir.
 - Özgün biçime dayalı özel bir biçim oluşturulmasını destekler. Yerelleştirme/özelleştirme gereklilikleri yüzünden özgün biçim değişmiş olduğundan özelleştirilmiş biçimi otomatik olarak yükseltme yeteneğini de içerir.
 - Microsoft ve Microsoft ortakları için elektronik raporlamada yerelleştirme gerekliliklerini desteklemek amacıyla birincil standart araç haline dönüşür.
@@ -170,7 +169,7 @@ ER havuzu ER konfigürasyonlarını depolar. Şu anda desteklenen ER depoların�
 
 **LCS projesi** havuzu, havuz kayıt aşamasında seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli Finance and Operations kurulumundan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Konfigürasyonları bir **LCS projesi** deposundan geçerli Finance and Operations kurulumuna da aktarabilirsiniz.
 
-Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede xml dosyaları olarak yerel dosya sisteminin belirli bir klasöründe bulunan yapılandırmalar listesine erişim sağlar. Gerekli klasör, havuz kayıt aşamasında seçilir. Konfigürasyonları bir **Dosya sistemi** deposundan geçerli Finance and Operations kurulumuna da aktarabilirsiniz. Bu havuz türünün, aşağıdaki Dynamics 365 for Finance and Operations ortamlarında erişilebilir durumdadır:
+Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede xml dosyaları olarak yerel dosya sisteminin belirli bir klasöründe bulunan yapılandırmalar listesine erişim sağlar. Gerekli klasör, havuz kayıt aşamasında seçilir. Konfigürasyonları bir **Dosya sistemi** deposundan geçerli Finance and Operations kurulumuna da aktarabilirsiniz. Bu havuz türünün aşağıdaki Dynamics 365 for Finance and Operations ortamlarında erişilebilir olduğunu unutmayın:
 - geliştirme amaçlarıyla dağıtılmış bulutta barındırılan ortamlar (iliştirilmiş paketlerin test modellerini içeren)
 - dağıtılan yerel ortamlar (şirket içi veya yerel işletme veri dağıtımı (LBD))
 
@@ -381,4 +380,3 @@ ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son s
 [Yerelleştirme gereksinimleri: Elektronik raporlama konfigürasyon oluştur](electronic-reporting-configuration.md)
 
 [Elektronik raporlama yapılandırma yaşam döngüsünü yönetin](general-electronic-reporting-manage-configuration-lifecycle.md)
-

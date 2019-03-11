@@ -1,13 +1,13 @@
 ---
-title: "Para birimi döviz kurlarını içe aktar"
-description: "Bir tüzel kişilik, yabancı para birimlerinde faturalar almışsa, yabancı para birimini yerel para birimine dönüştürmek gereklidir. Başka bir deyişle, farklı para birimlerinin döviz kurlarının güncel olması gereklidir. Bu konu, Avrupa Merkez Bankası ve Rusya Merkez Bankası gibi döviz kuru sağlayıcıları tarafından İnternet üzerinden yayınlanan önemli yabancı referans döviz kurlarını içe aktarmak için gerekli ayarlar ve işlemler hakkında genel bir bakış sağlar."
+title: Para birimi döviz kurlarını içe aktar
+description: Bir tüzel kişilik, yabancı para birimlerinde faturalar almışsa, yabancı para birimini yerel para birimine dönüştürmek gereklidir. Başka bir deyişle, farklı para birimlerinin döviz kurlarının güncel olması gereklidir. Bu konu, Avrupa Merkez Bankası ve Rusya Merkez Bankası gibi döviz kuru sağlayıcıları tarafından İnternet üzerinden yayınlanan önemli yabancı referans döviz kurlarını içe aktarmak için gerekli ayarlar ve işlemler hakkında genel bir bakış sağlar.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333404"
 ---
-
 # <a name="import-currency-exchange-rates"></a>Para birimi döviz kurlarını içe aktar
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Döviz kurlarını, döviz kurları sağlayıcı kaynağından alabilirsiniz ve 
 | **Gerekli para birimi çiftlerini oluştur**    | Bu onay kutusu, içe aktarılan para birimi çiftleri mevcut değilse, para birimi çiftlerinin otomatik olarak oluşturulmasını yönetir. Bu seçenek bazı sağlayıcılar için kullanılabilir olmayabilir.                                                                                                                                                                                               |
 | **Mevcut döviz kurlarını geçersiz kıl**   | Bu onay kutusu, bir para birimi çifti için mevcut döviz kurunun güncelleştirilmesini yönetir, döviz kuru belirli bir tarih için halihazırda mevcutsa. Bu onay kutusunu seçmezseniz, belirli bir tarih için döviz kuru, başka bir döviz kuru halihazırda mevcutsa, içe aktarılmaz.                                                                                       |
 | **Resmi tatilde içe aktarmayı önle** | Bu onay kutusu, resmi bir tatil olan bir tarih için döviz kurunu içe almayı yönetir. Örneğin, bu onay kutusunu seçerseniz ve Avrupa Merkez Bankası'nı döviz kur sağlayıcısı olarak kullanırsanız, sistem, geçerli tüzel kişilik ile ilgili bir resmi tatilde döviz kurunu güncelleştirmez. Bu seçenek bazı sağlayıcılar için kullanılabilir olmayabilir. |
-
 
 
 

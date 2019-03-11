@@ -1,13 +1,13 @@
 ---
-title: "Sipariş taahhüdü"
-description: "Bu makalede sipariş taahhütleri hakkında bilgiler verilmiştir. Sipariş Taahhüdü müşterileriniz için güvenilir teslimat tarihleri taahhüt etmenize yardımcı olur ve böylece bu tarihleri karşılayabilmeniz için esneklik sağlar."
+title: Sipariş taahhüdü
+description: Bu makalede sipariş taahhütleri hakkında bilgiler verilmiştir. Sipariş Taahhüdü müşterileriniz için güvenilir teslimat tarihleri taahhüt etmenize yardımcı olur ve böylece bu tarihleri karşılayabilmeniz için esneklik sağlar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312359"
 ---
-
 # <a name="order-promising"></a>Sipariş taahhüdü
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ Bir müşteri arayıp aynı üründen 150 adet sipariş vermek istediğinde. Ür
 Teslimat tarihi kontrolü ATP yöntemi olduğu için, ATP verisi en erken olası sevk tarihini bulmak için hesaplanır. Ayarlara dayanarak, geciktirilmiş olan satınalma siparişi ve satış siparişi dikkate alınır ve sonucundaki ATP miktarı geçerli tarih için 0'dır. Yarın, gecikmiş satınalma siparişinin alınması beklendiğinde, ATP miktarı 0'dan fazla olarak hesaplanır (bu durumda, 125 olarak hesaplanır). Ancak, bundan 10 gün sonra, 100 parçalık ek satınalma siparişinin alınması beklendiğinde, ATP miktarı 150'den fazla olur.  
 
 Bu nedenle, ATP hesaplamaya dayanarak, sevk tarihi şu andan itibaren 10 gün olarak ayarlanır. Bu nedenle, müşteri talep edilen miktarın şu andan itibaren 10 gün sonra teslim edilebileceğini söylersiniz.
-
 
 
 

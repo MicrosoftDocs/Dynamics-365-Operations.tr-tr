@@ -1,32 +1,31 @@
 ---
-title: "Boyut hiyerarşisi"
-description: "Bu konu, boyu hiyerarşileri hakkında bilgiler sağlar. Maliyet muhasebesi içerisinde ayarlanmış raporlama yapısını, maliyet ilkelerini ve güvenlik gruplarını tanımlamak için bir boyut hiyerarşisi kullanırsınız."
+title: Boyut hiyerarşisi
+description: Bu konu, boyu hiyerarşileri hakkında bilgiler sağlar. Maliyet muhasebesi içerisinde ayarlanmış raporlama yapısını, maliyet ilkelerini ve güvenlik gruplarını tanımlamak için bir boyut hiyerarşisi kullanırsınız.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 55d567eb3b4ad6746f39118b575457bb00fe0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320225"
 ---
-
 # <a name="dimension-hierarchy"></a>Boyut hiyerarşisi
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,7 @@ Aşağıdaki boyut türleri için bir boyut hiyerarşisi oluşturulabilir:
 > [!NOTE]
 > - Farklı görünümler gerekiyorsa aynı boyut için çok sayıda boyut hiyerarşisi oluşturabilirsiniz.
 > - Bir boyut hiyerarşisi yalnızca bir boyut ile ilişkilendirilebilir.
-> - Bir boyut hiyerarşisi, yapısında sınırsız düzey barındırabilir. Tüm boyutlar **Maliyet kontrolü** çalışma alanında kullanılabilir olacaktır. Raporlama için Microsoft Excel veya Microsoft Power BI kullanırsanız, boyut hiyerarşisinin yalnızca ilk 15 düzeyi raporlanır. Bu sınırlama hem Excel hem de Power BI'ın sabir bir şemaya ihtiyaç duymasından kaynaklanır.
+> - Bir boyut hiyerarşisi, yapısında sınırsız düzey barındırabilir. Tüm boyutlar **Maliyet kontrolü** çalışma alanında kullanılabilir olacaktır. Raporlama için Microsoft Excel veya Microsoft Power BI kullanırsanız, boyut hiyerarşisinin yalnızca ilk 15 düzeyi raporlanır. Bu sınırlama hem Excel hem de Power BI'ın sabit bir şemaya ihtiyaç duymasından kaynaklanır.
 > - Bir boyut hiyerarşisinin yürürlük tarihi yoktur. Bu nedenle bir boyut hiyerarşisinde yapılan değişim kayda anında kaydedilir ve öncesi tarih ve sonrası tarihi kıyaslayamazsınız.
 
 ## <a name="dimension-hierarchy-type"></a>Boyut hiyerarşisi türü
@@ -329,9 +328,8 @@ Erişim listesi hiyerarşisi için ayarlar, aşağıdaki alanlarda gösterilen v
 - Power BI:
 
     - Veri, Power BI görselleştirmeleri içinde gösterilir
-    - Microsoft Dynamics 365 for Finance and Operations istemcisinde gömülü veri Power BI görselleştirmeleri
+    - Microsoft Dynamics 365 for Finance and Operations istemcisine içine katıştırılmış veri Power BI görselleştirmeleri
 
 > [!NOTE] 
 > - Erişim listesi hiyerarşisi Power BI içerisindeki veriyi etkileyebilmeden önce, Power BI içindeki erişim listesi hiyerarşisi ve satır düzeyi güvenliği eşleştirilmelidir. Daha fazla bilgi için bkz [Maliyet muhasebesi İçerik Paketi için güvenlik kurma](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Erişim listesi hiyerarşisi, verinin Excel'e aktarılmasını güvenli hale getirmeye yardımcı olmaz. Bu nedenle, bu raporlama aracı yalnızca veriyi görüntülemeye tam erişime sahip maliyet muhasebecileri ve yöneticiler tarafından kullanılmalıdır.
-

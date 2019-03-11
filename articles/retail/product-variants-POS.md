@@ -1,32 +1,31 @@
 ---
-title: "Satış noktasında (POS) stok arama"
-description: "Bu konu (POS) satış noktasındaki stok bilgilerini görüntülemek için kullanılabilir seçenekleri açıklar."
+title: Satış noktasında (POS) stok arama
+description: Bu konu (POS) satış noktasındaki stok bilgilerini görüntülemek için kullanılabilir seçenekleri açıklar.
 author: ashishmsft
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314429"
 ---
-
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Satış noktasında (POS) stok arama
 
 [!include [banner](includes/banner.md)]
@@ -116,4 +115,3 @@ Aşağıdaki tablo kullanılabilen ek eylemler hakkında daha fazla bilgi sağla
 | Kullanılabilirlik         | Seçili yerleşim için seçilen ürün çeşidi birleşimine ilişkin ATP bilgisini gösterin. |
 | Tüm yerleşimleri göster   | Standart stok arama görünüme geçin ve mağaza bulucu grubundaki tüm mağazalarda ve **Standart/Varsayılan** türündeki dağıtım merkezlerinde madde ürün çeşidi için stok kullanılabilirlik bilgilerini vurgulayın. |
 | Ürün ayrıntılarını görüntüle | Kullanıcıyı ilişkili ana ürünün **Ürün ayrıntıları** sayfasına yönlendirin. |
-

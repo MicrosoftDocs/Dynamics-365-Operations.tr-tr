@@ -1,13 +1,13 @@
---- 
-title: "Kullanıcıları güvenlik rollerine atama"
-description: "Microsoft Dynamics 365 for Finance and Operations, Enterprise edition erişimi sağlamak için kullanıcıların güvenlik rollerine atanmış olmaları gerekir."
+---
+title: Kullanıcıları güvenlik rollerine atama
+description: Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'a erişmek için kullanıcıların güvenlik rolleri atanmış olmalıdır.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
 ms.reviewer: margoc
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349964"
 ---
 # <a name="assign-users-to-security-roles"></a>Kullanıcıları güvenlik rollerine atama
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition erişimi sağlamak için kullanıcıların güvenlik rollerine atanmış olmaları gerekir. Bu yordam sistem yöneticilerinin kullanıcıları iş verilerine dayalı olarak rollere otomatik olarak nasıl atayabileceklerini açıklar. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'a erişmek için kullanıcıların güvenlik rolleri atanmış olmalıdır. Bu yordam sistem yöneticilerinin kullanıcıları iş verilerine dayalı olarak rollere otomatik olarak nasıl atayabileceklerini açıklar. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Kullanıcıları rollere otomatik olarak ata
@@ -52,5 +52,4 @@ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition erişimi s
     * Bir kullanıcı seçin.  
 6. Rol dışında tut seçeneğini tıklatın.
     * Seçili kullanıcıları, rolün dışında bırakmak için, Rolün dışında bırak'ı tıklayın. Dışarıda bırakmaları kaldırmak için, hariç tutulma durumunu kaldırmak istediğiniz kullanıcıları seçin ve sonra Durum sıfırla'ya basın. Bir kullanıcının durumunu sıfırlayarak bir hariç tutmayı kaldırdığınızda, kullanıcının rolü otomatik olarak atanır. Ancak, durumunu sıfırladığınızda, kullanıcı hemen role atanmaz veya rolden hariç tutulmaz. Bunun yerine kullanıcı otomatik rol atama bir sonraki çalıştığında rolüne eklenir veya çıkartılır.  
-
 

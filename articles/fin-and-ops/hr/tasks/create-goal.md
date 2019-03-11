@@ -1,13 +1,13 @@
---- 
-title: "Hedef oluşturma"
-description: "Hedefler oluşturabilir, hedeflere faaliyetler ekleyebilir, ölçümleri izleyebilir ve hedefleri bir gözden geçirmeye bağlayabilirsiniz."
+---
+title: Hedef oluşturma
+description: Hedefler oluşturabilir, hedeflere faaliyetler ekleyebilir, ölçümleri izleyebilir ve hedefleri bir gözden geçirmeye bağlayabilirsiniz.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350723"
 ---
 # <a name="create-a-goal"></a>Hedef oluşturma
 
@@ -59,5 +59,4 @@ Hedefler oluşturabilir, hedeflere faaliyetler ekleyebilir, ölçümleri izleyeb
     * Genellikle ekip üyeleri veya tüm personel için aynı veya benzer hedefler bulunur.     İK yöneticiniz veya yöneticiniz bu hedefler için hedef şablonlarını oluşturabilir. Bir şablondan bir hedef ekleyebilir ve ardından sizin zaman çizelgenizle eşleşecek şekilde değiştirebilirsiniz.  
     * Genellikle ekip üyeleri veya tüm personel için aynı veya benzer çeşitli hedefler bulunur.     İK yöneticiniz veya yöneticiniz bir veya daha fazla hedef şablonları içeren hedef grupları oluşturabilir. Bir hedef grubundan hedefler ekleyebilir ve ardından bunları sizin zaman çizelgenizle eşleşecek şekilde değiştirebilirsiniz.  
     * Gözden geçirme oluşturduğunuzda, bu gözden geçirmeye hedefler ekleyebilirsiniz. Gözden geçirmelerinize hedefleri nasıl ekleyebileceğinizi görmek için gözden geçirmeler için görev kılavuzuna başvurun.  
-
 

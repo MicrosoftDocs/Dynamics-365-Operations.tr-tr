@@ -1,13 +1,13 @@
 ---
-title: "Satış işleminde seri numaralarını kaydetme"
-description: "Bu konuda, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır."
+title: Satış işleminde seri numaralarını kaydetme
+description: Bu konuda, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır.
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350424"
 ---
-
 # <a name="register-serial-numbers-in-the-sales-process"></a>Satış işleminde seri numaralarını kaydetme
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ Bu konuda, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine
 
 Birçok şirket servis ve garanti amacıyla seri numaraları tutmak ister ancak alımdan çıkışa kadar seri numaraları stokta koruması gerekmez. Bu gibi durumlarda, Microsoft Dynamics 365 for Finance and Operations seri numaraları ürünler satıldığında sevk irsaliyeleri veya faturalara kaydetmenize olanak tanır. Ürünler daha sonra iade edilirse, ürünü satıp satmadığınızı ve servis ya da garanti koşullarının geçerli olup olmadığını belirlemek için her ürünü faturadan izleyebilirsiniz.
 
-**İzleme boyutu grupları** sayfasındaki **Satış işleminde etkinleştir** seçeneğini seçerek satış işlemi için seri numaraları etkinleştirmeniz gerekir. Ardından, Microsoft Dynamics 365 for Finance and Operations'da aşağıdaki olaylar gerçekleşir:
+**İzleme boyutu grupları** sayfasındaki **Satış işleminde etkinleştir** seçeneğini seçerek satış işlemi için seri numaraları etkinleştirmeniz gerekir. Aşağıdaki etkinlikler daha sonra Microsoft Dynamics 365 for Finance and Operations içinde gerçekleşir:
 -   **Seri numaraları** hızlı sekmesinde **Seri numarası denetimi** seçeneği işaretlidir. Bu seçenek seçildiğinde, sevk irsaliyesi veya faturadaki her madde için bir seri numarası kaydetmeniz gerekir.
 -   **İzin verilen boş çıkış** seçeneği hariç seri numaralara ilişkin izleme boyutu grubundaki tüm seçimler kaldırılır. Seri numarası denetimini geçersiz kılmak ve ürünlerin seri numaralar kaydedilmeden paketlenip faturalanmasını sağlamak için **İzin verilen boş çıkış** seçeneğini seçebilirsiniz.
 
@@ -58,8 +57,8 @@ Bir seri numarası okunamıyor veya tarama yapılamıyorsa, **Seri numaraları**
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Bir satış siparişi için kaydettiğin seri numaralarını düzeltebilir veya değiştirebilir miyim?
 Evet, aşağıdaki koşulların yerine getirilmesi durumunda seri numaraları düzeltebilirsiniz:
--   **Faturalar** – Henüz faturalandırmadığınız maddeler için seri numarasını değiştirebilirsiniz. Bu durumda sevk irsaliyesi de güncelleştirilir. Ancak, bir satış siparişi satırı negatif miktar kaydedilerek düzeltilmişse, satış siparişi satırı için seri numaraları değiştiremezsiniz.
--   **Sevk irsaliyeleri** – Seri hale getirilmiş maddeler içeren bir sevk irsaliyesi satırını kısmi olarak düzeltemezsiniz. Satır için tüm miktarı tersine çevirmeniz gerekir. Bir sevk irsaliyesi iptal edilir veya düzeltilirse, aynı seri hale getirilmiş maddeler için yeni bir sevk irsaliyesi oluştururken tersine çevrilen seri numaralarını yeniden kaydetmeniz gerekmez. Daha önce kaydedilmiş olan numaralar kullanılır.
+-   **Faturalar** – Henüz faturalandırmadığınız maddeler için seri numarasını değiştirebilirsiniz. Bu durumda sevk irsaliyesi de güncelleştirilir. Ancak, bir satış siparişi satırı negatif miktar kaydedilerek düzeltilmişse, satış siparişi satırı için seri numaraları değiştiremezsiniz.
+-   **Sevk irsaliyeleri** – Seri hale getirilmiş maddeler içeren bir sevk irsaliyesi satırını kısmi olarak düzeltemezsiniz. Satır için tüm miktarı tersine çevirmeniz gerekir. Bir sevk irsaliyesi iptal edilir veya düzeltilirse, aynı seri hale getirilmiş maddeler için yeni bir sevk irsaliyesi oluştururken tersine çevrilen seri numaralarını yeniden kaydetmeniz gerekmez. Daha önce kaydedilmiş olan numaralar kullanılır.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>Belirli bir sevk irsaliyesiyle birlikte sevk edilen veya bir faturaya eklenmiş olan seri numaralarını görebilir miyim?
 Evet. Belgeye eklenmiş olan tüm seri numaralarının listesini görüntülemek için sevk irsaliyesi günlük satırında veya fatura günlüğü satırında bir sorgu çalıştırabilirsiniz.
@@ -78,7 +77,6 @@ Evet. Kullanıcı yalnızca satış işlemi sırasında seri numaraları kullanm
 Bu işlev, satış sevk irsaliyelerini ve satış faturalarını takip edebilen tüm roller tarafından kullanılabilir. Aşağıdaki görevler çalışanların seri numaraları düzeltmesine ve okunamayan ya da taranamayan seri numaralar için boş girişler kaydetmesine olanak tanır:
 -   Seri numarası düzeltmelerini korumak
 -   Okunamayan seri numaralarının kaydını korumak
-
 
 
 

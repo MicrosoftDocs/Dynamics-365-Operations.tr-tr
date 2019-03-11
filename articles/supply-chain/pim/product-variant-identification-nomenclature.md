@@ -1,13 +1,13 @@
 ---
-title: "Ürün çeşidi numaraları ve adlarının terminolojisi"
-description: "Bu konu, ürün numaraları terminolojisini, sabit [Ana ürün numarası - Yapılandırma - Ebat - Renk - Stil] biçimini değiştirmek için nasıl ayarlayabileceğinizi açıklar."
+title: Ürün çeşidi numaraları ve adlarının terminolojisi
+description: Bu konu, ürün numaraları terminolojisini, sabit [Ana ürün numarası - Yapılandırma - Ebat - Renk - Stil] biçimini değiştirmek için nasıl ayarlayabileceğinizi açıklar.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: f84b6982af8b81ff83086d163a77e1c2f58ca478
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336693"
 ---
-
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Ürün çeşidi numaraları ve adlarının terminolojisi
 
 [!include [banner](../includes/banner.md)]
@@ -122,7 +121,7 @@ Aşağıdaki bölümlere sahip bir yapılandırma terminolojisi oluşturabilirsi
 2.  Metin sabiti: "&"
 3.  Yapılandırma grubu: Ön ızgara
 
-Bu durumda, ön ızgara dokumasına sahip standart bir dolap için yapılandırma kodu M0007&M0021 olur.
+Bu durumda, ön ızgara dokumasına sahip standart bir dolap için yapılandırma kodu M0007&M0021 olur.
 
 ## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Ürün çeşitlerinin ve yapılandırmalarının birleşimi için terminoloji
 Kısıtlama tabanlı yapılandırma teknolojisi ya da boyut tabanlı yapılandırma teknolojisini, bir ana ürün için ürün çeşitlerini yapılandırmakta kullandığınızda, ürün çeşidi için ürün çeşidi numaraları, yapılandırma boyutundaki terminolojiyi içerebilir. Çeşitleri yapılandırmak için şu adımları izleyin.
@@ -198,5 +197,4 @@ Yapılandırma işleminin bir adımında, sistem terminolojiye göre bir yapıla
 [Önceden tanımlanmış ürün çeşitleri için ürün numarası terminolojisi oluşturma](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
-
 

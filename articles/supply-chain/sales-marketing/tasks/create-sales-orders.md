@@ -1,13 +1,13 @@
---- 
-title: "Satış siparişleri oluşturma"
-description: "Bu prosedür, size bir satış siparişinin nasıl oluşturulacağını göstermektedir."
+---
+title: Satış siparişleri oluşturma
+description: Bu prosedür, size bir satış siparişinin nasıl oluşturulacağını göstermektedir.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8af0333d979ba3a4e12d4f22b1225f3b72d66a7a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4ccd2c4ace41f07dce14498031e3cc29ecb61b1c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352126"
 ---
 # <a name="create-sales-orders"></a>Satış siparişleri oluşturma
 
@@ -68,5 +68,4 @@ Bu prosedür, size bir satış siparişinin nasıl oluşturulacağını gösterm
 2. Toplamlar öğesine tıklayın.
     * Toplamlar sayfasında tüm siparişin ayrıntıları görüntülenir. Bu ayrıntılar, nihai satır iskontoları için ayarlama yapılmış tüm satır net tutarlarının toplamı olan alt toplam tutarını; nihai sipariş düzeyinde iskonto, masraflar ve satış vergisi için ayarlama yapılmış bir alt toplam tutarı olan toplam fatura tutarını; müşterinin kredi limiti durumunu ve daha fazlasını kapsar.  Fatura tutarı, müşterinin fatura belgesinde görünecek olan tutardır.  
 3. Tamam'a tıklayın.
-
 

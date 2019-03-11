@@ -1,13 +1,13 @@
---- 
+---
 title: " Bağlılık programları tanımlama"
-description: "Bu yordam, iki bağlılık katmanıyla bir bağlılık programı ayarlamayla ilgili açıklamalar içerir."
+description: Bu yordam, iki bağlılık katmanıyla bir bağlılık programı ayarlamayla ilgili açıklamalar içerir.
 author: jashanno
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations, Retail
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9e57bb9c9e3348f2a9853dfda1351a8a75261beb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a27a2367ac41e86a3038594261c080ad2515eb94
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355323"
 ---
 # <a name="define-loyalty-programs"></a> Bağlılık programları tanımlama
 
@@ -78,5 +78,4 @@ Bu yordam, iki bağlılık katmanıyla bir bağlılık programı ayarlamayla ilg
 38. Kaydet'e tıklayın.
 39. Sayfayı kapatın.
 40. Kaydet'e tıklayın.
-
 

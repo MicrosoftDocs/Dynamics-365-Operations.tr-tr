@@ -1,13 +1,13 @@
---- 
-title: "Kanban iş durumu geri al"
-description: "Bu yordam, yanlış bir kanban iş durumunun geri alınması üzerinde odaklanır."
+---
+title: Kanban iş durumu geri al
+description: Bu yordam, yanlış bir kanban iş durumunun geri alınması üzerinde odaklanır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 27874f89cede151b52b869fa0d58e320d548e6d3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d359232da5f3087b1e6baed182a20da09aeff7
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352103"
 ---
 # <a name="revert-kanban-job-status"></a>Kanban iş durumu geri al
 
@@ -54,5 +54,4 @@ Bu yordam, yanlış bir kanban iş durumunun geri alınması üzerinde odaklanı
 5. Listede, seçili satırın işaretini kaldırın.
     * Aynı işi seçin.  
     * Kanban işi için iş durumunun bir boş kanban simgesiyle gösterildiği üzere, Planlı'ya dönüştürüldüğüne dikkat edin.  
-
 

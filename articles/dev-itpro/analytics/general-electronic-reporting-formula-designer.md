@@ -1,13 +1,13 @@
 ---
-title: "Elektronik raporlamada (ER) formül tasarımcısı"
-description: "Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar."
+title: Elektronik raporlamada (ER) formül tasarımcısı
+description: Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar.
 author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: tr-tr
-ms.lasthandoff: 10/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331288"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
 [!include [banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanıl
 
 ER formül tasarımcısını destekler. Bu nedenle, tasarım zamanında aşağıdaki görevler için çalışma zamanında kullanılabilecek ifadeler yapılandırabilirsiniz:
 
-- Microsoft Dynamics 365 for Finance and Operations veritabanından alınan verileri dönüştürün ve bu verileri ER biçimleri için (filtreleme, gruplama, veri türü dönüştürme vb.) bir veri kaynağı olmak üzere tasarlanmış ER veri modeline girin. (Örneğin, bu dönüştürme işlemleri filtrelemeyi, gruplandırmayı ve veri türü dönüşümünü içerebilir.)
+- Microsoft Dynamics 365 for Finance and Operations veritabanından alınan veriyi dönüştürün ve bu, bir ER biçimleri için veri kaynağı olması üzerine tasarlanan bir ER veri modeline girilmelidir. (Örneğin, bu dönüştürme işlemleri filtrelemeyi, gruplandırmayı ve veri türü dönüşümünü içerebilir.)
 - Oluşturulan bir elektronik belgeye belirli bir ER biçiminin düzenine ve koşullarına uygun olarak gönderilmesi gereken verileri biçimlendirin. (Örneğin, biçimlendirme istenen dil veya kültüre ya da kodlamaya uygun olarak yapılabilir).
 - Elektronik belge oluşturma işlemini kontrol edin. (Örneğin, ifadeler veri işlemeye bağlı olarak biçimin belirli öğelerinin çıkışını etkinleştirebilir veya devre dışı bırakabilir. Aynı zamanda, belge oluşturma işlemini durdurabilir veya kullanıcılara ileti gönderebilir.)
 
@@ -625,7 +624,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </ul></li>
 <li>Aşağıdaki metne sahip Finance and Operations SYS18389 etiketi:
 <ul>
-<li><strong>TR-TR dili için:</strong> &quot;Müşteri %1, %2 için durduruldu.&quot;</li>
+<li><strong>TR-TR dili için:</strong> &quot;Müşteri %1 şunun için durduruldu: %2.&quot;</li>
 <li><strong>DE dili için:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
@@ -692,7 +691,7 @@ Bu veri kaynakları tanımlandığında, UserInfo tablosunu <strong>GUID</strong
 <tr>
 <td>JSONVALUE (kod, yol)</td>
 <td>Verileri, belirtilen koda göre skaler bir değer çıkarmak için belirtilen yolla erişilen JavaScript Nesne Gösterimi (JSON) biçiminde ayrıştırın.</td>
-<td>Veri kaynağı <strong>$JsonField</strong>, JSON biçimindeki şu verileri içerir: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Bu veri kaynağı için, </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong>, <strong>Dize</strong> veri türünde <strong>7.3.1234.1</strong> döndürür.</td>
+<td>Veri kaynağı <strong>$JsonField</strong> aşağıdaki veriyi JSON biçiminde içerir: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Bu veri kaynağı için, </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong>, <strong>Dize</strong> veri türünde <strong>7.3.1234.1</strong> döndürür.</td>
 </tr>
 </tbody>
 </table>
@@ -731,7 +730,7 @@ Bu veri kaynakları tanımlandığında, UserInfo tablosunu <strong>GUID</strong
 | FA\_BALANCE (sabit kıymet kodu, değer modeli kodu, raporlama yılı, raporlama tarihi) | Sabit kıymet bakiyesinin hazırlanan veri kapsayıcısını döndürür. Raporlama yılı, Finance and Operations'daki **AssetYear** numaralandırması değeri olarak belirtilmelidir. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** geçerli Finance and Operations oturum tarihinde **"Current"** değer modeline sahip **"COMP-000001"** sabit kıymet bakiyeleri için hazırlanan veri kapsayıcısını döndürür. |
 | TABLENAME2ID (dize) | Belirtilen tablo adı için tablo kodunun tam sayı olarak gösterimini döndürür. | **TABLENAME2ID ("Intrastat")** **1510** döndürür. |
 | ISVALIDCHARACTERISO7064 (dize) | Belirtilen dize, geçerli bir uluslararası banka hesap numarasını (IBAN) temsil ediyorsa, **DOĞRU** boole değerini döndürür. Aksi takdirde, **YANLIŞ** Boole değeri döndürür. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")**, **DOĞRU** döndürür. **ISVALIDCHARACTERISO7064 ("AT61")** **YANLIŞ** döndürür. |
-| NUMSEQVALUE (numara serisi kodu, kapsamı, kapsam kimliği) | Belirtilen numara serisi kodu, kapsamı ve kapsam kimliğine dayalı bir numara serisinin yeni oluşturulan değeri döndürür. Kapsamın **ERExpressionNumberSequenceScopeType** sabit listesi (**paylaşılan**, **Tüzel kişilik**, veya **şirket**) değeri olarak belirtilmesi gerekir. **Paylaşılan** kapsamı için, kapsam kimliği olarak boş bir dize belirtin. **Şirket** ve **Tüzel kişilik** kapsamları için, kapsam kimliği olarak şirket kodu belirtin. **Şirket** ve **Tüzel kişilik** kapsamları için, kapsam kimliği olarak boş bir dize belirtirseniz geçerli şirket kodu kullanılır. | Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:<ul><li>**enumScope** (**Dynamics 365 for Operations numaralandırma** türü), başvuran için **ERExpressionNumberSequenceScopeType** numaralandırmay karşılık gelir</li><li>**NumSeq** (**Hesaplanan alan** türü), **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")** ifadesini içerir</li></ul>**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış **Gene\_1** numara serisinin yeni oluşturulan değeri geri döner. |
+| NUMSEQVALUE (numara serisi kodu, kapsamı, kapsam kimliği) | Belirtilen numara serisi kodu, kapsamı ve kapsam kimliğine dayalı bir numara serisinin yeni oluşturulan değeri döndürür. Kapsamın **ERExpressionNumberSequenceScopeType** sabit listesi (**paylaşılan**, **Tüzel kişilik**, veya **şirket**) değeri olarak belirtilmesi gerekir. **Paylaşılan** kapsamı için, kapsam kimliği olarak boş bir dize belirtin. **Şirket** ve **Tüzel kişilik** kapsamları için, kapsam kimliği olarak şirket kodu belirtin. **Şirket** ve **Tüzel kişilik** kapsamları için, kapsam kimliği olarak boş bir dize belirtirseniz geçerli şirket kodu kullanılır. | Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:<ul><li>**enumScope** (**Dynamics 365 for Operations numaralandırma** türü), başvuran için **ERExpressionNumberSequenceScopeType** numaralandırmaya karşılık gelir</li><li>**NumSeq** (**Hesaplanan alan** türü), **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")** ifadesini içerir</li></ul>**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış **Gene\_1** numara serisinin yeni oluşturulan değeri geri döner. |
 | NUMSEQVALUE (numara sıra kodu) | Bir numara sırasının belirtilen numara sırasına bağlı olarak yeni oluşturulan değeri, **Şirket** kapsamı ve (kapsam kimliği olarak) altında ER biçimi çalışan bağlam sağlayan şirketin kodu döner. | Model eşlemeniz içinde şu veri kaynağını tanımladınız: **NumSeq** (**Hesaplanan alan** türü). Bu veri kaynağı **NUMSEQVALUE ("Gene\_1")** ifadesini içeriyor. **NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış **Gene\_1** numara serisinin yeni oluşturulan değeri geri döner. |
 | NUMSEQVALUE (numara sıra kodu kayıt kimliği) | Belirtilen numara serisi kayıt kimliğine dayalı bir numara serisinin yeni oluşturulan değeri döndürür. | Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:<ul><li>LedgerParameters tablosuna başvuran **LedgerParms** (**Tablo** türü)</li><li>**NumSeq** (**Hesaplanan alan** türü), **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)** ifadesini içerir</li></ul>**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için Genel muhasebe parametrelerinde yapılandırılmış Gene1 numara serisinin yeni oluşturulan değeri geri döner. Bu numara serisi benzersiz biçimde günlükleri tanıtır ve hareketleri birbirine bağlayan toplu iş numarası görevi görür. |
 
@@ -743,4 +742,3 @@ ER, ER ifadelerinde kullanılan işlevlerin listesini genişletmenize olanak sa�
 
 - [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 - [Elektronik raporlama (ER) işlev listesini genişletme](general-electronic-reporting-formulas-list-extension.md)
-

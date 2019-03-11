@@ -1,13 +1,13 @@
 ---
-title: "Yalın imalata genel bakış"
-description: "Bu makale Dynamics 365 for Finance and Operations içindeki yalın imalat özelliklerinin genel bakışını ve açıklamasını sağlar."
+title: Yalın imalata genel bakış
+description: Bu makale Dynamics 365 for Finance and Operations içindeki yalın imalat özelliklerinin genel bakışını ve açıklamasını sağlar.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 99030966587a2784f61cecbfc7f9985f75f6d779
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359900"
 ---
-
 # <a name="lean-manufacturing-overview"></a>Yalın imalata genel bakış
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Yalın üretim için bir temel oluşturmak için üretim ve lojistik işlemlerin
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a> Talep gereksinimlerinin sinyalini vermek için kanbanlar kullanmak
 Bir çekme sistemi, sadece mal gerektiğinde mal üretir. Bu yöntem fazladan stok ve teslimat sağlama sürelerini azaltır. Kanbanları üretim akışlarına dayalı olan gereksinimleri planlamak, izlemek ve işlemek için kullanabilirsiniz. Bir kanban çerçevesi oluşturmak için, kanbanların ne zaman oluşturulacağını ve gereksinimlerin nasıl karşılanacağını tanımlayan kurallar oluşturun. İki tür kanban kuralı oluşturabilirsiniz. Üretim kuralları işlem kanban işlerini oluşturur. Çekme kanban kuralları, hareket kanban işlerini oluşturur. Aşağıdaki stok yenileme stratejilerini ayarlayabilirsiniz:
--   **Sabit miktar** kanban kuralları sabir sayıda işleme birimiyle ilişkilidir, bu da etkin kanbanların sayısının sabit olduğu anlamına gelir. Bir Kanban'dan tüm ürünler tüketildiğinde ve işleme birimleri el ile boşaltıldığında, aynı türde yeni bir kanban oluşturulur. Sabit miktar kanban kuralları oluşturduğunuzda, en iyi kanban miktarlarını ve kullanılan ürün miktarlarını hesaplayabilirsiniz. Hesaplama maddeleri yenilemek için tahminleri, açık siparişlerden fiili talebi, sağlaması süresini ve geçmiş talepleri dikkate alır.
+-   **Sabit miktar** kanban kuralları sabir sayıda işleme birimiyle ilişkilidir, bu da etkin kanbanların sayısının sabit olduğu anlamına gelir. Bir Kanban'dan tüm ürünler tüketildiğinde ve işleme birimleri el ile boşaltıldığında, aynı türde yeni bir kanban oluşturulur. Sabit miktar kanban kuralları oluşturduğunuzda, en iyi kanban miktarlarını ve kullanılan ürün miktarlarını hesaplayabilirsiniz. Hesaplama maddeleri yenilemek için tahminleri, açık siparişlerden fiili talebi, sağlaması süresini ve geçmiş talepleri dikkate alır.
 -   **Zamanlanmış** kanban kuralları master planlama tarafından hesaplanan gereksinimleri yeniler. Master planlama, kanbanlara kesinleştirilebilecek planlı kanbanları oluşturur.
 -   **Olay** kanban kuralları, satış siparişi satırlarından, üretim ürün reçetesi satırlarından, kanban satırlarından ya da minimum stok ayarlarından ileri gelen gereksinimleri yeniler. Olay kanbanları oluşturulduğunda, bunlar kaynak gereksinimleriyle ilişkilendirilir.
 
@@ -79,7 +78,6 @@ Kanban işleri Finance and Operations'ta stok hareketleri için geçerli işleml
 Ek olarak, yalın üretim taşeron etkinlikler tarafından referans gösterilen hizmetleri satın alma ve faturalama işlemlerini de destekler.
 -   Satınalma sözleşmesi satırlarını ve hizmetlerini taşeron faaliyetlerine atayabilirsiniz.
 -   Hizmetlerin satınalınması ve faturalamasına destek için dönemsel satınalma siparişleri ve giriş önerileri oluşturabilirsiniz.
-
 
 
 

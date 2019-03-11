@@ -1,13 +1,13 @@
 ---
-title: "Satınalma talebine genel bakış"
-description: "Bu konuda, satınalma talebi iş akışı ve satınalma talebinin sahip olabileceği farklı durumlar açıklanmaktadır."
+title: Satınalma talebine genel bakış
+description: Bu konuda, satınalma talebi iş akışı ve satınalma talebinin sahip olabileceği farklı durumlar açıklanmaktadır.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309852"
 ---
-
 # <a name="purchase-requisition-overview"></a>Satınalma talebine genel bakış
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Bir satın alma talebi onaylandıktan sonra bir satın alma emri oluşturulması
 ## <a name="creating-purchase-requisitions"></a>Satın alma talepleri oluşturma
 **Satın alma taleplerim** sayfasında bir satın alma talebi oluşturabilir ve ihtiyacınız olan maddeleri ve hizmetleri seçebilirsiniz. Organizasyonunuzun oluşturduğu bir tedarik katalogundan maddeleri seçebilirsiniz veya katalogda bulunmayan maddeleri bir tedarik kategorisi seçerek ve ürün ayrıntıları girerek talep edebilirsiniz.  
 
-Gözden geçirilmek üzere bir satın alma talebi göndermeden önce Microsoft Dynamics 365 for Finance and Operations'da mutlaka iş akışları yapılandırılmalıdır. Satın alma talebini ilk durum olan **Taslak** durumundan son durum olan **Onaylandı** durumuna kadar gözden geçirme sürecinden geçirmek için bir iş akışı kullanabilirsiniz.
+Bir satınalma talebini gözden geçirmeye göndermeden önce, iş akışlarının Microsoft Dynamics 365 for Finance and Operations yapılandırılması gerekir. Satın alma talebini ilk durum olan **Taslak** durumundan son durum olan **Onaylandı** durumuna kadar gözden geçirme sürecinden geçirmek için bir iş akışı kullanabilirsiniz.
 
 ### <a name="purchase-requisition-statuses"></a>Satınalma talebi durumları
 
@@ -198,7 +197,6 @@ Onaylanan satınalma talep satırlarını birleştirmek için şu adımları izl
 [Tüketim için bir talep oluşturma (Görev kılavuzu)](tasks/create-requisition-consumption.md)
 
 [Satınalma talebi iş akışı](purchase-requisitions-workflow.md)
-
 
 
 

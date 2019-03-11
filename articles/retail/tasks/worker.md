@@ -1,13 +1,13 @@
---- 
+---
 title: " Çalışanı yapılandırma"
-description: "Bu yordam bir perakende çalışanını POS'ta satışlar üzerinden komisyon için uygun bir satış temsilcisi olarak yapılandırmayı gösterir."
+description: Bu yordam bir perakende çalışanını POS'ta satışlar üzerinden komisyon için uygun bir satış temsilcisi olarak yapılandırmayı gösterir.
 author: jblucher
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 797640b487884fc487582addea274007e4ba7a7d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 27b075cf1152f16fc4726b224e877eacb2f2572c
-ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362545"
 ---
 # <a name="configure-a-worker"></a> Çalışanı yapılandırma
 
@@ -56,5 +56,4 @@ Bu yordam bir perakende çalışanını POS'ta satışlar üzerinden komisyon i�
 5. Düzenle öğesine tıklayın.
 6. Varsayılan grup alanına bir değer girin veya bir değer seçin.
 7. Kaydet'e tıklayın.
-
 

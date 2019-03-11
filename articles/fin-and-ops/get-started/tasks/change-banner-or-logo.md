@@ -1,13 +1,13 @@
---- 
-title: "Başlığı veya logoyu değiştirme"
-description: "Aşağıdaki yordam, tüzel kişilik için görüntülenen logo ya da başlık resmini güncelleştirmek için sistem yöneticilerinin atabileceği adımları listelemektedir."
+---
+title: Başlığı veya logoyu değiştirme
+description: Aşağıdaki yordam, tüzel kişilik için görüntülenen logo ya da başlık resmini güncelleştirmek için sistem yöneticilerinin atabileceği adımları listelemektedir.
 author: aneesmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, DefaultDashboard
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ed0a4e31e840f771f1620b42518ed0e03dbad151
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d2dac4d1799a958b6eff4c7aa134fe0b136089ca
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332967"
 ---
 # <a name="change-the-banner-or-logo"></a>Başlığı veya logoyu değiştirme
 
@@ -41,5 +41,4 @@ Aşağıdaki yordam, tüzel kişilik için görüntülenen logo ya da başlık r
 8. Ortak > Ortak > Varsayılan Pano seçeneğine gidin.
     * Yeni başlık sayfası veya logo resmini panoda görmelisiniz.  
     * Şirket seçiciyi kullanarak, şirketi kapak sayfası resmi yüklediğiniz şirketinize değiştirmeniz gerekebilir.  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Üretim akışı sürümü oluşturma"
-description: "Bu yordam, yeni bir üretim akışı sürümünü oluşturmaya odaklanır."
+---
+title: Üretim akışı sürümü oluşturma
+description: Bu yordam, yeni bir üretim akışı sürümünü oluşturmaya odaklanır.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320685"
 ---
 # <a name="create-a-production-flow-version"></a>Üretim akışı sürümü oluşturma
 
@@ -63,5 +63,4 @@ Bu yordam, yeni bir üretim akışı sürümünü oluşturmaya odaklanır. Bu yo
 12. Döneme ait gerçek döngü süresi (gün) alanına bir sayı girin.
     * Döneme ait gerçek döngü süresini, gün sayısı olarak girin. Döneme ait gerçek döngü süresi, güncel dakikadan geriye yönelik toplanarak hesaplanan gerçek döngü süresinin gün olarak sayısıdır. Değer herhangi bir zamanda değiştirilebilir ve yalnızca gerçek döngü zamanının hesaplanması için kullanılır.  
 13. Kaydet'e tıklayın.
-
 

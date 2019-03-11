@@ -1,13 +1,13 @@
 ---
-title: "Gider yönetiminde KDV kurtarma"
-description: "Bu konu uygun katma değer vergisi (KDV) hareketlerinde nasıl para iadesi alınacağını açıklar."
+title: Gider yönetiminde KDV kurtarma
+description: Bu konu uygun katma değer vergisi (KDV) hareketlerinde nasıl para iadesi alınacağını açıklar.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359578"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>Gider yönetiminde KDV kurtarma
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ Arnie KDV düşürme iadelerini dosyalayacak olan üçüncü taraf satıcıya ha
 Arnie'nin gider raporu hareketlerinin KDV düşürme için uygun olduğunu ve dijital makbuzların raporlara eklendiğini doğrulaması gerekir. Arnie yurtiçi veriden düşürme için uygun olan giderleri işlemeye başlamak için **Gider vergisinden düşme** sayfasını açar ve doğrulama gerektiren gider raporunu açar. Makbuzların çalışan yerine şirket adına olduğunu doğrular. KDV düşürülmesi için makbuzların şirket adına olması gerekir. Arnie sonra doğru satış vergisi grubu ve madde satış vergisi kodlarının uygulanmış olduğunu onaylar.
 
 Arnie kağıt makbuzları aldığında, gider raporunun durumunu **Vergiden düşürme için hazır** olarak değiştirir. Daha sonra ilgili vergi dairesiyle iadeyi dosyalar. Bu durumda, ABD'deki uygun vergi dairesi Internal Revenue Service'tir (IRS).
-

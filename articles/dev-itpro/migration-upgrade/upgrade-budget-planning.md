@@ -1,13 +1,13 @@
 ---
-title: "Bütçe planlamayı yükselt"
-description: "Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Finance and Operations arasında, bütçe planlamada önemli farklar bulunmaktadır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar."
+title: Bütçe planlamayı yükselt
+description: Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Finance and Operations arasında bütçe planlamada önemli farklar vardır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar.
 author: ryansandness
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a39f516bb6d023ea18492ba3dfe721bd1127c60e
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342972"
 ---
-
 # <a name="upgrade-budget-planning"></a>Bütçe planlamayı yükselt
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Finance and Operations arasında, bütçe planlamada önemli farklar bulunmaktadır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar.  
+Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Finance and Operations arasında bütçe planlamada önemli farklar vardır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar.  
 
-Microsoft Dynamics 365 for Finance and Operations içerisindeki bütçe planlama, Microsoft Dynamics AX 2012 içinde bulunmayan pek çok geliştirmeye sahiptir. Bu konu, yükseltme yapacak müşterilerin gerçekleştirmesi gereken değişiklikleri açıklar. Yükseltme işleminde dikkate alınması gereken yeni özellikleri de ortaya koyar. Değişikliklerin kapsamı yüzünden, bu konuda altı çizilen değişiklikler gerçekleştirilene kadar mevcut bütçe planlarından hiçbiri açılamayacaktır. Ancak, raporlar çalışmaya devam edecektir ve ek değişiklikler gerektirmemektedir.
+Microsoft Dynamics 365 for Finance and Operations içinde bütçe planlama Microsoft Dynamics AX 2012'de bulunmayan pek çok geliştirmeye sahiptir. Bu konu, yükseltme yapacak müşterilerin gerçekleştirmesi gereken değişiklikleri açıklar. Yükseltme işleminde dikkate alınması gereken yeni özellikleri de ortaya koyar. Değişikliklerin kapsamı yüzünden, bu konuda altı çizilen değişiklikler gerçekleştirilene kadar mevcut bütçe planlarından hiçbiri açılamayacaktır. Ancak, raporlar çalışmaya devam edecektir ve ek değişiklikler gerektirmemektedir.
 
 ## <a name="overview-of-changes"></a>Değişimlerin özeti
 Finance and Operations için Bütçeleme içerisinde pek çok önemli değişiklik yapılmıştır. Bu değişiklikler Bütçe planlamanın yapılandırmasını daha kolay hale getirmek ve yeniden kullanılabilirliği artırarak yıldan yıla bakımı ve kurulumu azaltmak amacıyla yapılmıştır. AX 2012 içerisindeki aşağıdaki alanlar Finance and Operations içinde artık bulunmamaktadır:
@@ -41,7 +40,7 @@ Finance and Operations için Bütçeleme içerisinde pek çok önemli değişikl
 -   Senaryo kısıtlamaları (Bütçe planlama yapılandırması)
 -   Bütçe planlama aşaması kuralları ve şablonları için şablonlar (Bütçe planlama işlemi)
 -   Çalışma sayfası şablonlarının matris alanları
--   Bütçe planı Microsoft Excel şablon sihirbazı
+-   Bütçe planı Microsoft Excel şablonu sihirbazı
 
 Bazı yeni kavramlar, önceki işlevden doğrudan yükseltilemez. Bu nedenle, bu yeni kavramlara yönelik olarak bazı yeniden yapılandırmalar gerçekleştirmeniz gerekir. Aşağıdaki bölümler, önceki listedeki öğelerin yerini alan kavramları açıklar.
 
@@ -160,7 +159,6 @@ Bütçe planlamanı hızlı uygulamasını sağlamak için birden fazla veri var
 -   Bütçe planı öncelikleri
 -   Bütçe planı sütunları
 -   Bütçe planı düzen öğeleri
-
 
 
 

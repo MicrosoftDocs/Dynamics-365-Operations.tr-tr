@@ -1,13 +1,13 @@
 ---
-title: "Satır tanımı hücrelerini değiştirme"
-description: "Bu makalede bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır."
+title: Satır tanımı hücrelerini değiştirme
+description: Bu makalede bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323652"
 ---
-
 # <a name="modify-row-definition-cells"></a>Satır tanımı hücrelerini değiştirme
 
 [!include [banner](../includes/banner.md)]
@@ -390,7 +389,7 @@ Bazı muhasebe sistemleri, mali verilerdeki hesap özniteliklerini ve hareket ö
 **Mali Boyutlarla İlişkilendir** hücresi bir raporun her satırına eklenmesi gereken mali verilerin bağlantılarını içerir. Bu hücre boyut değerlerini içerir, ancak hücreleri segment değerleri veya boyut değerleri yerine veya bunlara ek olarak Microsoft Excel çalışma sayfasında belirtebilirsiniz. **Boyutlar** iletişim kutusunu açmak için **Mali Boyutlara Bağlantı** hücresini çift tıklayın.
 
 > [!NOTE]
-> Rapor Tasarımcısı aşağıdaki şu ayrılmış karakterlerden herhangi birini içeren Microsoft Dynamics ERP sisteminden hesapları, boyutları veya alanları seçemez: &, \*, \[, \], {, veya }. Halihazırda satır tanımında olan bir satır için bilgileri belirlemek için, bilgileri **Mali Boyutlara Bağlantı** hücresine ekleyin. Mali verilerle ilişkilendirilen yeni satırlar eklemek için, rapor tanımında yeni satırlar oluşturmak için **Şuradan satır ekle:** iletişim kutusunu kullanın. Aşağıdaki tabloda gösterildiği gibi sütunun nasıl yapılandırıldığına bağlı olarak sütun başlığı değişir.
+> Rapor Tasarımcısı Microsoft Dynamics ERP sisteminden şu ayrılmış karakterlerden herhangi birini içeren hesaplar, boyutlar veya alanları seçemez: &, \*, \[, \], {, veya }. Zaten satır tanımında yer alan bir satıra ait bilgileri belirtmek için, bilgileri **Mali Boyutlarla İlişkilendir** hücresine ekleyin. Mali verilerle ilişkilendirilen yeni satırlar eklemek için, rapor tanımında yeni satırlar oluşturmak için **Şuradan satır ekle:** iletişim kutusunu kullanın. Aşağıdaki tabloda gösterildiği gibi sütunun nasıl yapılandırıldığına bağlı olarak sütun başlığı değişir.
 
 | Seçilen bağlantı türü       | Bağlantı sütununun açıklaması şu şekilde değişir |
 |----------------------------------|----------------------------------------------------|
@@ -429,14 +428,14 @@ Varsayılan olarak, rapor tasarımcısı mali verilerinde karşılık gelen bir 
 Bir segment değerleri veya boyut değerleri aralığı belirtebilirsiniz. Bir aralık belirlemenin avantajı, mali verilere yeni bir segment değeri veya boyut değeri eklendiğinde her defasında satır tanımını güncelleştirmenize gerek kalmamasıdır. Örneğin, **+Hesap=\[[6100:6900\]** aralığı, 6100 ile 6900 arasındaki hesaplardan değerleri satır tutarına çeker. Bir aralık bir joker karakter (?) içeriyorsa, rapor tasarımcısı aralığı karakterlere dayalı bir şekilde değerlendirmez. Bunun yerine, aralığın düşük ve yüksek noktaları belirlenir ve ardından bitiş değerleri ve bunlar arasında kalan tüm değerler dahil edilir.
 
 > [!NOTE]
-> Rapor Tasarımcısı aşağıdaki şu ayrılmış karakterlerden herhangi birini içeren Microsoft Dynamics ERP sisteminden hesapları, boyutları veya alanları seçemez: &, \*, \[, \], {, veya }. Ve (&) işaretini sadece **Boyutlardan Satırlar Ekle** iletişim kutusunu kullanarak otomatik olarak satır tanımları oluşturduğunuzda ekleyebilirsiniz.
+> Rapor Tasarımcısı Microsoft Dynamics ERP sisteminden şu ayrılmış karakterlerden herhangi birini içeren hesaplar, boyutlar veya alanları seçemez: &, \*, \[, \], {, veya }. **Boyutlardan Satır Ekle** iletişim kutusunu kullanarak yalnızca otomatik olarak satır tanımları oluştururken ampersand (&) ekleyebilirsiniz.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Birden fazla segment veya birden fazla boyut bulunan aralıklar
 
 Birden fazla boyut değeri içeren birleşimleri kullanarak bir aralık girdiğinizde aralık karşılaştırması ..\\mali-boyutlar\\tek tek boyutlar temelinde yapılır. Aralık karşılaştırması karakter karakter veya kısmi segment temelinde yapılamaz. Örneğin, **+Hesap=\[5000:6000\], Departman=\[1000:2000\], Maliyet merkezi=\[00\]** aralığı sadece her bir segmentle eşleşen hesapları içerir. Bu senaryoda, ilk boyut 5000-6000 aralığında olmalıdır, ikinci boyut 1000 ile 2000 aralığında olmalıdır ve son boyut 00 olmalıdır. Örneğin, **+Hesap=\[5100\], Departman=\[1100\], Maliyet merkezi=\[01\]** son segment belirtilen aralık dışında olduğundan rapora dahil edilmez. Bir segment değeri boşluk içeriyorsa, değeri köşeli parantez (\[ \]) içine alın. Aşağıdaki değerler dört karakterli bir segment için geçerlidir: **\[ 234\], \[123 \], \[1 34\]**. Boyut değerleri köşeli parantez (\[ \]) içine alınmalıdır ve rapor tasarımcısı bu köşeli parantezleri sizin için ekler. Birden fazla segment veya birden fazla boyut aralığı joker karakterleri (? veya \*) içerdiğinde, tüm çoklu segment veya çoklu boyut aralığının düşük ve yüksek noktaları belirlenir ve ardından bitiş değerleri ve bunlar arasında kalan tüm değerler dahil edilir. Örneğin 40000 ile 99999 arasındaki tüm hesap aralığı gibi geniş bir aralığa sahipseniz, mümkün olduğu durumlarda geçerli bir başlangıç hesabı ve bitiş hesabı belirtmelisiniz.
 
 > [!NOTE] 
-> Rapor Tasarımcısı aşağıdaki şu ayrılmış karakterlerden herhangi birini içeren Microsoft Dynamics ERP sisteminden hesapları, boyutları veya alanları seçemez: &, \*, \[, \], {, veya }. Ve (&) işaretini sadece **Boyutlardan Satırlar Ekle** iletişim kutusunu kullanarak otomatik olarak satır tanımları oluşturduğunuzda ekleyebilirsiniz.
+> Rapor Tasarımcısı Microsoft Dynamics ERP sisteminden şu ayrılmış karakterlerden herhangi birini içeren hesaplar, boyutlar veya alanları seçemez: &, \*, \[, \], {, veya }. **Boyutlardan Satır Ekle** iletişim kutusunu kullanarak yalnızca otomatik olarak satır tanımları oluştururken ampersand (&) ekleyebilirsiniz.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Bir satır tanımındaki diğer hesaplarda toplama veya çıkarma işlemi yapma
 Bir hesaptaki parasal tutarları başka bir hesaptaki parasal tutarlara eklemek veya bunlardan çıkarmak için, **Mali Boyutlarla İlişkilendir** hücresinde artı işareti (+) ve eksi işareti (-) kullanabilirsiniz. Aşağıdaki tablo mali verilere bağlantı eklemek veya bunlardaki bağlantıları kaldırmak için uygun biçimleri göstermektedir.
@@ -456,7 +455,7 @@ Bir hesaptaki parasal tutarları başka bir hesaptaki parasal tutarlara eklemek 
 | Bir segment değeri aralığını çıkarın.                                                     | -Hesap=\[1200:1205\]                                                                                       |
 | Joker karakterleri içeren bir segment değeri aralığını çıkarın.                    | -Hesap=\[120?:130?\]                                                                                       |
 
-Hesapları doğrudan değiştirebilirsiniz, ancak mali veri bağlantılarına doğru biçimlendirmeyi uygulamak için **Boyutlar** iletişim kutusunu da kullanabilirsiniz. Değerlerden herhangi biri joker karakterler (? veya  \*) içerebilir. Ancak, Rapor Tasarımcısı şu ayrılmış karakterlerden herhangi birini içeren Microsoft Dynamics ERP sisteminden hesapları, boyutları veya alanları seçemez: &, \*, \[, \], {, veya }.
+Hesapları doğrudan değiştirebilirsiniz, ancak mali veri bağlantılarına doğru biçimlendirmeyi uygulamak için **Boyutlar** iletişim kutusunu da kullanabilirsiniz. Değerlerden herhangi biri joker karakterler (? veya  \*) içerebilir. Ancak, Rapor Tasarımcısı Microsoft Dynamics ERP sisteminden şu ayrılmış karakterlerden herhangi birini içeren hesaplar, boyutlar veya alanları seçemez: &, \*, \[, \], {, veya }.
 
 > [!NOTE]
 > Değerleri çıkarmak için bu değerler etrafına parantez eklemelisiniz. Örneğin **450?-(4509)** girerseniz **+Hesap\[4509\]-Hesap=\[450?\]** olarak görüntülenir ve rapor tasarımcısına 4509 hesap segmenti için tutarı 450 ile başlayan herhangi bir hesap segmenti tutarından çıkarma komutu vermiş olursunuz.
@@ -533,4 +532,3 @@ Boyut değeri kümesi, adlandırılmış bir boyut değerleri grubudur. Bir boyu
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
-

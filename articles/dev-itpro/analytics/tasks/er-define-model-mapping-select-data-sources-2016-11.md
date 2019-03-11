@@ -1,13 +1,13 @@
---- 
-title: "ER model eşlemelerini tanımlama ve bunlar için veri kaynaklarını seçme"
-description: "Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının bir Elektronik Raporlama veri modeli için veri kaynaklar seçebilir."
+---
+title: ER model eşlemelerini tanımlama ve bunlar için veri kaynaklarını seçme
+description: Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının bir Elektronik Raporlama veri modeli için veri kaynaklar seçebilir.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348883"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>ER model eşlemelerini tanımlama ve bunlar için veri kaynaklarını seçme
 
@@ -51,7 +51,7 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>Geçerli model eşleme için gereken veri kaynaklarını tanımlama
 1. Tasarımcı'yı tıklatın.
-2. Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' seçin.
+2. Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' öğesini seçin.
 3. Kök ekle'ye tıklayın.
     * Ödeme hareketlerine erişmek için bu veri kaynağı girin.  
 4. İsim alanına, 'Hareketler' yazın.
@@ -110,7 +110,7 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 41. Ağaçta, 'Hareketler'i genişletin.
 42. Ağaçta, "Hareketler\$Tutar" öğesini genişletin veya daraltın.
 43. Ağaçta, "Hareketler" öğesini genişletin veya daraltın.
-44. Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' seçin.
+44. Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' öğesini seçin.
 45. Kök ekle'ye tıklayın.
     * Şirketin banka hesap ayrıntılarına erişmek için bu veri kaynağı girin.  
 46. İsim alanına 'BankAccount' yazın.
@@ -157,5 +157,4 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 70. Sayfayı kapatın.
 71. Sayfayı kapatın.
 72. Sayfayı kapatın.
-
 

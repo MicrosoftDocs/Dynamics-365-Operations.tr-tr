@@ -1,13 +1,13 @@
---- 
-title: "Satınalma iade siparişi oluşturma"
-description: "Bu yordam, bir satıcı fatura belgesinden satırları yeni bir satınalma siparişine kopyalamak için Alacak dekontu eylemini kullanarak bir satın alma iade siparişini nasıl oluşturacağınızı gösterir."
+---
+title: Satınalma iade siparişi oluşturma
+description: Bu yordam, bir satıcı fatura belgesinden satırları yeni bir satınalma siparişine kopyalamak için Alacak dekontu eylemini kullanarak bir satın alma iade siparişini nasıl oluşturacağınızı gösterir.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e080252006d889e2f27db2bccb7b541f3ee4cf9e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9124100f84afb13acc2ac9dda7b9483afb01754
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354150"
 ---
 # <a name="create-a-purchase-return-order"></a>Satınalma iade siparişi oluşturma
 
@@ -77,5 +77,4 @@ Bu yordam, bir satıcı fatura belgesinden satırları yeni bir satınalma sipar
     * Bu alan, ürün giriş günlüğünde makbuz olarak kullanılacak bir referans girmek için kullanılır.  
 5. Tamam'a tıklayın.
     * Mallar şimdi satın alma iade siparişinde sevk edildi olarak kaydedilmiştir ve bir ürün giriş yevmiye defteri oluşturulmuştur. Satınalma siparişiyle oluşturulan günlükleri gözden geçirmek ve nelerin ve ne zaman alındığını veya iade edildiğini görmek için Ürün girişi etkinliğini kullanabilirsiniz.  
-
 

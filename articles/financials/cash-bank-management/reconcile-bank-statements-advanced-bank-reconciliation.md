@@ -1,13 +1,13 @@
 ---
-title: "Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlayın"
-description: "Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations uygulamasındaki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır."
+title: Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlayın
+description: Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364983"
 ---
-
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlayın
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlama
 
 [!include [banner](../includes/banner.md)]
 
-Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations uygulamasındaki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.  
+Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.  
 
 <a name="import-an-electronic-bank-statement"></a>Elektronik banka ekstresini içe aktarma
 -----------------------------------
@@ -94,7 +93,6 @@ Mutabakat işleminiz tamamlandıktan sonra Banka mutabakat çalışma sayfasın�
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Mutabakatla ilişkili yeni hareketleri nakletme
 Mutabakat çalışma sayfasında **Yeni** olarak işaretlediğiniz banka ekstresi hareketleri **Banka ekstresi** sayfasında nakledilir. **Banka ekstresi** sayfasında ekstre ayrıntılarını görüntülemek için ekstre kimliğini seçin. Yeni hareketler ve ilişkili muhasebe girişleri haricindeki ayrıntıları görüntülemek için **Muhasebe** menüsündeki **Dağıtımları görüntüle** ve **Muhasebeyi görüntüle** seçeneklerini kullanabilirsiniz. **Yeni** olarak işaretlenmiş banka ekstresi satırlarını genel muhasebeye nakletmek için **Naklet** seçeneğini seçin. Deftere naklin banka ekstresi başına yalnızca tek seferde tamamlanabildiğini unutmayın.
-
 
 
 

@@ -1,14 +1,14 @@
 ---
-title: "Sabit kıymet ileri taşıma raporu"
-description: "Bu konu Sabit kıymet ileti taşıma raporunun nasıl kullanıldığını açıklar."
+title: Sabit kıymet ileri taşıma raporu
+description: Bu konu Sabit kıymet ileti taşıma raporunun nasıl kullanıldığını açıklar.
 author: saraschi2
-manager: 
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,13 +17,13 @@ ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
-ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313762"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Sabit kıymet ileri taşıma raporu
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 
 **Sabit kıymet ileri taşıma** raporu Elektronik raporlama (ER) altyapısını kullanır. Raporu çalıştırmadan önce Sabit kıymet modeli ve Sabit kıymet ileri taşıma yapılandırmalarının Microsoft Dynamics Lifecycle Services'dan (LCS) içe aktarılması gerekir. Yönergeler için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-Bu rapor Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3'te bulunur veya Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) için düzeltme olarak sağlanır. Temmuz 2017 sürümüne sahip ortamlara üç düzeltme uygulanması gerekir:
+Bu rapor, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 içinde veya bir düzeltme olarak Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017)'de kullanılabilir. Temmuz 2017 sürümüne sahip ortamlara üç düzeltme uygulanması gerekir:
 
 - **KB 4041754:** Elektronik raporlama (ER) yapılandırması, platform güncelleştirme paketi uygulandıktan sonra geçerli uygulama sürümü için uygun olmadığından LCS'den indirilemez.
 - **KB 4056107:** Elektronik raporlama (GER) toplu güncelleştirmesi 5
@@ -66,5 +66,4 @@ Aşağıdaki tabloda, raporda kullanılabilecek alanlar açıklanmıştır.
 |            Elden çıkarmalar: Satış değeri            |                                                                                               Sabit kıymet defteri için bir elden çıkarma - satış hareketiyle satış değeri.                                                                                                |
 |           Elden çıkarmalar: Hurda değeri            |                                                                                               Sabit kıymet defteri için bir elden çıkarma - hurda hareketiyle hurda değeri.                                                                                               |
 |           Elden çıkarmalar: Kar/Zarar            |                                                                                 Sabit kıymet defteri için elden çıkarma hareketinin bir parçası olarak hesaplanan kar veya zarar değeri.                                                                                 |
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Siparişleri doğrudan teslim olarak sevk etme"
-description: "Bu yordam, satış siparişi için bir doğrudan teslimat oluşturmayı göstermektedir."
+---
+title: Siparişleri doğrudan teslim olarak sevk etme
+description: Bu yordam, satış siparişi için bir doğrudan teslimat oluşturmayı göstermektedir.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchEditLines, PurchTableReferences, MCRDropShipWorkbench
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5cd68aa1c15672c702db887c08ecf9b3d63f2618
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f674de4877dd2d6e6f1ff02f16a68cb4805d9864
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339292"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Siparişleri doğrudan teslim olarak sevk etme
 
@@ -102,5 +102,4 @@ Bu yordam, satış siparişi için bir doğrudan teslimat oluşturmayı gösterm
 14. Doğrudan teslimat oluştur'u tıklatın.
 15. Onay sekmesini tıklatın.
     * Bir doğrudan teslimat siparişi oluşturduktan sonra, bu otomatik olarak Onay sekmesine gönderilir. Doğrudan bu sayfadan siparişi onaylamayı seçebilirsiniz. Satınalma onaylandığında, girişini kaydettirdiğiniz Teslimat sekmesine otomatik olarak taşınır.  
-
 

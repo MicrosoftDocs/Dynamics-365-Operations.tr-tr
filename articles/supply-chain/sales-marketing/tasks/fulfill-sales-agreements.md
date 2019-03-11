@@ -1,13 +1,13 @@
---- 
-title: "Satış sözleşmelerini karşılama"
-description: "Bu yordam, bir satış anlaşmasının satış siparişleri ile ilişkilendirerek nasıl yerine getirileceğini gösterir."
+---
+title: Satış sözleşmelerini karşılama
+description: Bu yordam, bir satış anlaşmasının satış siparişleri ile ilişkilendirerek nasıl yerine getirileceğini gösterir.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesTableListPage, SalesTable, AgreementLine, SalesCreateOrder,  SalesEditLines
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f03f05b85b8d242db1c85d0e84667949e241f1f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f0894bf962c139c2e9e4c9f8d1589fd933afcedb
-ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324664"
 ---
 # <a name="fulfill-sales-agreements"></a>Satış sözleşmelerini karşılama
 
@@ -89,5 +89,4 @@ Bu yordam, bir satış anlaşmasının satış siparişleri ile ilişkilendirere
 22. Eylem Bölmesinde, Genel öğesine tıklayın.
 23. İlişik satış anlaşması'nı tıklatın.
 24. Karşılama sekmesini tıklatın.
-
 

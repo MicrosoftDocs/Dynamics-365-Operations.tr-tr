@@ -1,13 +1,13 @@
 ---
-title: "Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)"
-description: "Bu konuda, Dynamics 365 for Operations sürüm 1611'de yeni olan veya değişen özellikler açıklanır."
+title: Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)
+description: Bu konuda, Dynamics 365 for Operations sürüm 1611'daki yeni veya değişen özellikler açıklanmaktadır.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339085"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Dynamics 365 for Operations sürüm 1611'de yeni olan veya değişen özellikler açıklanır.
+Bu konuda, Dynamics 365 for Operations sürüm 1611'daki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="cost-accounting"></a>Maliyet muhasebesi
 
@@ -101,7 +100,7 @@ Bu konuda, Dynamics 365 for Operations sürüm 1611'de yeni olan veya değişen 
 </tr>
 <tr>
 <td>Excel kullanarak rapor oluşturun.
-<blockquote>[!NOTE] Microsoft Excel 2016 çalıştırmanız gerekir.</blockquote>
+<blockquote>[!NOTE] Microsoft Excel 2016 çalıştırmanız lazım.</blockquote>
 </td>
 <td>Maliyet muhasebesi verilerini veri varlıkları üzerinden doğrudan Excel'e dışa aktarabilir ve raporları oluşturmak için Microsoft PivotTable'ı kullanabilirsiniz.</td>
 </tr>
@@ -344,7 +343,7 @@ Bu konuda, Dynamics 365 for Operations sürüm 1611'de yeni olan veya değişen 
 <li>İsveç</li>
 </ul>
 </td>
-<td>Dynamics 365 for Operations uygulamasının kullanılabildiği ülkelere 18 ülke eklenmiştir. Yerelleştirmeyi daha kolay ve daha yapılandırılabilir hale getirmek için yaptığımız çalışmaların bir parçası olarak, mevzuat elektronik raporlama özellikleri Elektronik raporlama (ER) yapılandırmalarına, bazı mevzuat Microsoft SQL Server Reporting Services (SSRS) raporları da Excel şablonları kullanan ER yapılandırmalarına dönüştürülmüştür. Bu dönüştürülmüş özellikler, bu tabloda daha sonra ayrıca ele alınmıştır.</td>
+<td>Dynamics 365 for Operations 18 ek ülkede kullanılabilir. Yerelleştirmeyi daha kolay ve daha yapılandırılabilir hale getirmek için yaptığımız çalışmaların bir parçası olarak, mevzuat elektronik raporlama özellikleri Elektronik raporlama (ER) yapılandırmalarına, bazı mevzuat Microsoft SQL Server Reporting Services (SSRS) raporları da Excel şablonları kullanan ER yapılandırmalarına dönüştürülmüştür. Bu dönüştürülmüş özellikler, bu tabloda daha sonra ayrıca ele alınmıştır.</td>
 </tr>
 <tr>
 <td>Japonya: 26 numaralı formu ve ekli tablolarını yazdırırken sabit kıymetleri gruplandırın.</td>
@@ -764,7 +763,7 @@ Sorunsuz omni-kanal ticareti fiziksel mağazalarda, çevrimiçi mağazalarda, ç
 
 | Yapabilecekleriniz | Bunun önemi |
 |-----------------|-----------------------|
-| Bir müşterinin satın alma geçmişi, dilek listesindeki öğeler ve diğer müşterilerin çevrimiçi ve fiziksel mağazalardan satın aldığı mallar temel alınarak ilgilenebilecekleri şeyleri belirlemek için satış noktasındaki (POS) birden çok dokunmatik noktada verilen kişiselleştirilmiş ürün önerilerini görüntüleyin. | Büyük katalogları olan perakendeciler için, kişiselleştirilmiş öneriler müşteriye ürün bulmalarında yardımcı olur ve mağazanın akıllı müşterilerle ilişki kurmasını sağlar. Müşterinin ilgi alanlarını ve satın alma alışkanlıklarını hedefleyen ürünleri sunarak , ürün önerileri perakendecilere yukarı satış konusunda yardımı olabilir ve müşteri tutmayı geliştirebilir. Microsoft Dynamics 365 for Retail'de ürün önerileri bilişsel hizmetler ve Microsoft Azure makine öğrenimiyle desteklenir. |
+| Bir müşterinin satın alma geçmişi, dilek listesindeki öğeler ve diğer müşterilerin çevrimiçi ve fiziksel mağazalardan satın aldığı mallar temel alınarak ilgilenebilecekleri şeyleri belirlemek için satış noktasındaki (POS) birden çok dokunmatik noktada verilen kişiselleştirilmiş ürün önerilerini görüntüleyin. | Büyük katalogları olan perakendeciler için, kişiselleştirilmiş öneriler müşteriye ürün bulmalarında yardımcı olur ve mağazanın akıllı müşterilerle ilişki kurmasını sağlar. Müşterinin ilgi alanlarını ve satın alma alışkanlıklarını hedefleyen ürünleri sunarak , ürün önerileri perakendecilere yukarı satış konusunda yardımı olabilir ve müşteri tutmayı geliştirebilir. Microsoft Dynamics 365 for Retail içinde, ürün önerileri bilişsel servisler ve Microsoft Azure makine öğrenimi ile sağlanır. |
 
 ### <a name="pos-task-recorder"></a>POS görev kaydedicisi
 
@@ -783,9 +782,9 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 - Retail Server ve mağaza veritabanı Async Client hizmeti ile birlikte mağazadadır.
 - Mağazadaki Retail Server, Mağaza sistemi için doğrudan genel merkezdeki Uygulama Nesne Sunucusu (AOS) ile iletişim kurar.
 - Genel merkezde bağlantı olmadığında, terminaller arasında senaryoları destekleyin.
-- Perakende Modern POS ve Bulut POS, her zaman mağazadaki Retail Server ile iletişim kurar.
-- Genel merkezde bağlantı olmadığında, Perakende Modern POS'u ve Bulut POS'u destekleyin.
-- Genel merkezde bağlantı olmayan, Perakende Modern POS'a özel çevrimdışı bir veritabanını (her Perakende Modern POS kurulumu için ayrılmış) destekleyin.
+- Retail Modern POS ve Bulut POS, her zaman mağazadaki Retail Server ile iletişim kurar.
+- Genel merkezde bağlantı olmadığında, Retail Modern POS'u ve Bulut POS'u destekleyin.
+- Genel merkezde bağlantı olmayan, Retail Modern POS'a özel çevrimdışı bir veritabanını (her Retail Modern POS kurulumu için ayrılmış) destekleyin.
 - Kimlik doğrulama yalnızca Mağaza sistemi için servisten servise yöntemini temel alır.
 - Real-time Service çağrıları, İnternet bağlantısı olmadığında desteklenmez.
 - Retail Modern POS'un kanal veritabanına doğrudan veritabanı üzerinden bağlantısı desteklenmez.
@@ -796,14 +795,14 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 | Perakendeci, Mağaza sistemi self servis yükleyicisini Dynamics AX genel merkezindeki kanal veritabanı sayfasından indirir ve yapılandırma dosyasını indirir. | Perakendeci, self servis paketi sorunsuzca indirebilir. |
 | Perakendeci, Mağaza sistemini self servis yükleyici kullanarak yükler. | Perakendeci, Mağaza sistemini self servis paketini kullanarak yükleyebilir. |
 | BT yöneticisi Mağaza sistemini Dynamics 365 for Operations'da (kanal veritabanı, kanal profili, mağaza ve dağıtılabilir paket) yapılandırır. | BT yöneticisi Mağaza sistemini kolaylıkla ve verimli bir şekilde yapılandırabilir. |
-| Perakendeci, Perakende Modern POS'u yerinde mağazada çalıştırır ve bağlantı olduğunda hediye kartı vermek gibi gerçek zamanlı işlemler yapabilir. | Perakendeci, bağlantı olduğunda Mağaza sisteminden gerçek zamanlı eylemler gerçekleştirebilir. |
+| Perakendeci, Retail Modern POS'u yerinde mağazada çalıştırır ve bağlantı olduğunda hediye kartı vermek gibi gerçek zamanlı işlemler yapabilir. | Perakendeci, bağlantı olduğunda Mağaza sisteminden gerçek zamanlı eylemler gerçekleştirebilir. |
 | Perakendeci, bağlantı olduğunda yerinde Mağaza sisteminden genel merkeze verileri eşitleyebilir. | Perakendeci, bağlantı olduğunda Mağaza sistemine ve bu sistemden eşitleme yapabilir. |
 | Perakendeci, yerinde Mağaza sistemi ve genel merkez arasındaki iletişimin güvenliğini sağlayabilir. | Perakendeci, bağlantı olduğunda Mağaza sisteminden güvenle iletişim gerçekleştirebilir. |
 | BT yöneticisi ve Microsoft Operations, yerinde Mağaza sistemini (tanılama ve raporlama değişiklikleri) izleyebilir ve sistem hakkında rapor sunabilir. | BT yöneticisi ve Microsoft Operations, Mağaza sistemini güvenli bir şekilde izleyebilir ve sorunları etkin bir şekilde giderebilir. |
 
-### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>Perakende Modern POS için Evrensel Windows Platformu uygulaması
+### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>Retail Modern POS için Evrensel Windows Platformu
 
-Şu anda, Perakende Modern POS yalnızca masaüstü bilgisayarlar ve tabletler için Windows 8.1 uygulaması ve masaüstü veya tablet tarayıcıları için Bulut POS olarak kullanılabilir. Bu sürümde, Perakende Modern POS bir Evrensel Windows Platformu (UWP) uygulamasına dönüştürülür. Bu değişiklik, Perakende Modern POS'un tüm Windows 10 cihazlarda (masaüstü, tablet veya telefon) çalışmasını ve Continuum özellikli cihazlarda görünümler arasında geçiş yapmasını sağlar.
+Şu anda, Retail Modern POS yalnızca masaüstü bilgisayarlar ve tabletler için Windows 8.1 uygulaması ve masaüstü veya tablet tarayıcıları için Bulut POS olarak kullanılabilir. Bu sürümde, Perakende Modern POS bir Evrensel Windows Platformu (UWP) uygulamasına dönüştürülür. Bu değişiklik, Retail Modern POS'un tüm Windows 10 cihazlarda (masaüstü, tablet veya telefon) çalışmasını ve Continuum özellikli cihazlarda görünümler arasında geçiş yapmasını sağlar.
 
 | Yapabilecekleriniz | Bunun önemi |
 |-----------------|-----------------------|
@@ -819,7 +818,7 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 | Satıcı olarak, müşteriye aktarılan konsinye stoğun tutarı hakkında bilgi edinin. | Müşteriyi faturalandırmak için, satıcıya konsinye stoktan satın alınan hammaddeler ve satınalma tarihi hakkında bilgiler gerekir. Satıcı ayrıca, satıcı iş birliği arabirimini kullanarak müşterinin tesisindeki eldeki stoğu da izleyebilir. |
 | Transfer günlüğü kullanarak satıcıya ait stoğu taşıyın. | Satıcıya ait stoğun fiziksel pozisyonunu izlemek için pozisyonu sisteme kaydedebilmeniz gerekir. Transfer günlüğü kullanarak, bir ambardaki bir konumdan aynı ambardaki başka bir konuma taşınma gibi stoğun fiziksel hareketini kaydedebilirsiniz. |
 | Satıcıya ait stoğu sayım günlüğü kullanarak düzeltin. | Sistemdeki eldeki stoğu, fiili fiziksel stok ile eşit tutmak önemlidir. Satıcıya ait stok, miktar düzeltmesi ve sayım günlüğü işlemleri gibi sayım işlemleri kullanılarak artı eksi olarak düzeltilebilir. |
-| Dynamics 365 for Operations'da konsinye desteği hakkında daha fazla bilgi edinin | Konsinye işlemleri desteği hakkında daha fazla bilgi için bkz. [Konsinye](../../supply-chain/inventory/consignment.md), [Konsinyeyi ayarlama](../../supply-chain/inventory/set-up-consignment.md), [Konsinye stok yenileme siparişi oluşturma (Görev kılavuzu)](../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) ve [Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme (Görev kılavuzu)](../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Dynamics 365 for Operations içinde konsinye desteği hakkında daha fazla bilgi alın | Konsinye işlemleri desteği hakkında daha fazla bilgi için bkz. [Konsinye](../../supply-chain/inventory/consignment.md), [Konsinyeyi ayarlama](../../supply-chain/inventory/set-up-consignment.md), [Konsinye stok yenileme siparişi oluşturma (Görev kılavuzu)](../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) ve [Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme (Görev kılavuzu)](../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Satıcı iş birliği (eski adıyla Satıcı portalı)
 
@@ -828,7 +827,7 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 | Satıcıların her satınalma siparişi satırına yanıt vermesini ve değişiklik önerebilmelerini sağlayın. | Bazı durumlarda, satıcılar bazı satınalma siparişi satırlarını kabul edip bazılarını reddetmek ister. Artık satıcılar satınalma sipariş satırlarını ayrı ayrı yönetebilir. Her satır reddedilebilir, kabul edilebilir veya değişikliklerle kabul edilebilir. Örneğin, satıcılar teslimat tarihini değiştirebilir, teslimatı ve miktarı bölebilir veya alternatif bir madde önerebilir. |
 | Satıcıların ilgili kişi bilgilerini yönetmesini sağlayın. | Satıcılar şirketleri için ilgili kişi bilgilerini saklayabilir. Bu bilgiler adları, e-posta adreslerini ve telefon numaralarını içerir. Bu özelliğe erişim özel bir güvenlik rolü üzerinden sağlanır. |
 | Satınalma siparişleri ile ilgili belgeleri satıcılarla paylaşın. | Gereksinimler hakkında bir belge gibi bir belgeyi bir satıcıyla paylaşmanız gerektiğinde belgeyi ilgili satınalma siparişine bağlamak uygundur. Satıcı, belgeyi satınalma siparişine verdiği yanıta bağlayarak notları ve ekleri müşteriyle paylaşabilir. Belge yönetimi temel destekleyici çerçevesidir ve yalnızca "harici" olarak sınıflandırılan notlar ve ekler satıcılarla paylaşılabilir. |
-| Yeni satıcı kullanıcıları provizyonu. | Satıcılarınız satıcı iş birliği arabirimini kullanıyorsa yeni kişiler, satıcı iş birliğine erişim istediğinde yeni kullanıcı hesapları istemek için sorunsuz bir yönteme sahiptir. Tedarik profesyonelleri satıcı kuruluştaki bir ilgili kişi için bir kullanıcı hesabı isteği gönderebilir. Zaten satıcı iş birliği kullanıcısı olan bir satıcı ilgili kişisi de bu tür bir istek gönderebilir. Bu istek sonuç olarak Dynamics 365 for Operations'da satıcıya özel güvenlik rolleri olan yeni bir kullanıcı oluşturur. Ayrıca, kullanıcıya yeni bir Azure Active Directory (Azure AD) kullanıcı hesabı sağlamak üzere Microsoft Azure B2B portalına gönderilen isteği de kolaylaştırır. Satıcılar ayrıca belirli satıcı kullanıcısı hesaplarının devre dışı bırakılmasını veya güvenlik rollerinin değiştirilmesini de isteyebilir. |
+| Yeni satıcı kullanıcıları provizyonu. | Satıcılarınız satıcı iş birliği arabirimini kullanıyorsa yeni kişiler, satıcı iş birliğine erişim istediğinde yeni kullanıcı hesapları istemek için sorunsuz bir yönteme sahiptir. Tedarik profesyonelleri satıcı kuruluştaki bir ilgili kişi için bir kullanıcı hesabı isteği gönderebilir. Zaten satıcı iş birliği kullanıcısı olan bir satıcı ilgili kişisi de bu tür bir istek gönderebilir. Bu istek sonuç olarak Dynamics 365 for Operations'da satıcıya özel güvenlik rolleri olan yeni bir kullanıcı oluşturur. Ayrıca Microsoft Azure B2B portalını, kullanıcıya yeni bir Azure Active Directory (Azure AD) kullanıcı hesabı sağlamak için de kullanır. Satıcılar ayrıca belirli satıcı kullanıcısı hesaplarının devre dışı bırakılmasını veya güvenlik rollerinin değiştirilmesini de isteyebilir. |
 | Dynamics 365 for Operations'da satıcı iş birliği desteği hakkında daha fazla bilgi edinin. | Satıcı iş birliği hakkında daha fazla bilgi için bkz. [Harici satıcılarla satıcı iş birliği](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md), [Müşterilerle satıcı iş birliği](../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md), [Satıcı iş birliği kullanıcılarını yönetme](../../supply-chain/procurement/manage-vendor-collaboration-users.md), [Satıcı iş birliğini ayarlama ve koruma](../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md) ve [Satıcı iş birliği faturalama çalışma alanı](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). |
 
 ### <a name="intercompany-order-processing"></a>Şirketlerarası sipariş işleme
@@ -885,7 +884,7 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 | Yapabilecekleriniz | Bunun önemi |
 |-----------------|-----------------------|
 | Farklı konteyner türlerini modelleyin. | Depolamayı en iyi duruma getirmek için ve diğer nedenlerle ambardaki farklı konteyner türlerini kullanabilirsiniz. Yeni Konteyner türü varlığı konteyner türlerinin fiziksel özelliklerine sahiptir. Artık plakaları belirli bir konteyner türüyle ilişkilendirebilir ve konum stoklama sınırları kullanabilirsiniz. Örneğin, bu özelliği belirli bir konumda izin verdiğiniz palet (veya diğer konteyner türleri) sayısını denetlemek için kullanabilirsiniz. Alma işlemi için varsayılan konteyner türlerini eklemek için birim sıra gruplarına konteyner türleri de eklenmiştir. Konteyner türleri gelen ve giden konum yönergeleriyle birlikte kullanılabilir. Ayrıca, elde depolanan kaç adet konteyner türü olduğunu belirlemenize yardımcı olmak için eldeki stok görünümünde de kullanılabilir. Daha fazla bilgi için [Ambar yönetimi süreçlerini sürdürmek için bir konteyner türü ile ilişkili plakalar kullanma](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/) blog gönderisine bakın. Bu blog gönderisi, Microsoft Dynamics AX 2012 güncelleştirmesini açıklıyor olsa da aynı destek Dynamics 365 for Operations için de eklenmiştir. |
-| Sevkiyatları geri alın. | Ambarda, son dakika değişikliklerini yönetebilmeniz gerekir. Örneğin, bazı mallar zarar görmüş olabilir ve bu malları sevk edemezsiniz. Alternatif olarak, bir müşteri bir siparişi iptal etmek veya değiştirmek için son anda bir istek yapabilir. Artık Dynamics 365 for Operations bir sevkiyatı geri almanıza olanak tanır. Bu nedenle, sevk irsaliyesini iptal edebilir ve daha sonra doğru miktarlarla güncelleştirebilirsiniz. Benzer şekilde, gelen akışta ürün girişlerini iptal edebilir ve güncelleştirilmiş sürümü oluşturabilirsiniz. |
+| Sevkiyatları geri alın. | Ambarda, son dakika değişikliklerini yönetebilmeniz gerekir. Örneğin, bazı mallar zarar görmüş olabilir ve bu malları sevk edemezsiniz. Alternatif olarak, bir müşteri bir siparişi iptal etmek veya değiştirmek için son anda bir istek yapabilir. Dynamics 365 for Operations şimdi sevkiyatı tersine çevirmenize izin verir. Bu nedenle, sevk irsaliyesini iptal edebilir ve daha sonra doğru miktarlarla güncelleştirebilirsiniz. Benzer şekilde, gelen akışta ürün girişlerini iptal edebilir ve güncelleştirilmiş sürümü oluşturabilirsiniz. |
 | Karma maddelerin bulunduğu paletler kullanın. | Artık "karma" palet alabilir ve kaydedebilirsiniz. Karma palet, bir veya birden fazla satınalma siparişi veya satırı için tek bir palet üzerinde toplanmış farklı maddelerden oluşur. Tüm kayıtlar tek bir hedef plaka ile özetlenebilir. Bu işlem, ambar mobil cihazı üzerinden etkinleştirilir. Örneğin, karma maddelerin bulunduğu bir palet ambara ulaştığında, teslim alma memuru palet kendine ayrılan konumlara çekilmeden önce paletteki maddeleri ve miktarları belirler. Yerine koyma konumları iş şablonları ve konum yönergelerine göre tanımlanır. Yerine koyma konumları sabit yerleşimleri olan birkaç maddeye yayılmışsa bu özellik, karma palet üzerindeki farklı madde sayısı kadar iş satırı oluşturur. Bu özellik, alınan karma madde paletlerinin kaydını ve yerine koyulmasını daha hızlı ve daha esnek hale getirir. Daha fazla bilgi için [Bir plaka kullanarak karma kaynak belge satırları olan paleti alma ve kaydetme](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) blog gönderisine ve [en yeni toplu güncelleştirme duyurusu](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/) içindeki karma palet desteği hakkındaki bilgilere bakın. Bu blog gönderisi, AX 2012 güncelleştirmesini açıklıyor olsa da aynı destek Dynamics 365 for Operations için de eklenmiştir. |
 
 ### <a name="minor-feature-enhancements-in-supply-chain-management"></a>Tedarik zinciri yönetiminde küçük özellik geliştirmeleri
@@ -946,4 +945,3 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Yenilikler veya değişenler](whats-new-changed.md)
-

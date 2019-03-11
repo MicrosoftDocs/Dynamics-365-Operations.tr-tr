@@ -1,31 +1,30 @@
 ---
-title: "Perakende satışlar için kupon ayarlama"
-description: "Bu konu perakende kuponlarına genel bakış sağlar ve bunların nasıl ayarlanacağını açıklar."
+title: Perakende satışlar için kupon ayarlama
+description: Bu konu perakende kuponlarına genel bakış sağlar ve bunların nasıl ayarlanacağını açıklar.
 author: scott-tucker
 manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336601"
 ---
-
 # <a name="set-up-coupons-for-retail-sales"></a>Perakende satışlar için kupon ayarlama
 
 [!include [banner](includes/banner.md)]
@@ -38,10 +37,10 @@ Her kupon bir perakende iskontosuyla ilişkilidir. İskontoyla ilişkilendirilen
 
 Esas olarak, kuponlar perakende iskontoları üzerinde ek bir doğrulamadır. Kuponlar, gerekli olan kupon kodları ve bar kodlar ile bu kodların tarih aralığını sağlar. Kupon ayrıca isteğe bağlı kullanım sınırları ve müşterinin gerektirdiği özellikleri de sağlar. İskonto kuponun geçerli olduğu ürün kümesini sağlar. İskonto için fiyat grupları kuponun geçerli olduğu müşteri kümelerini, kanalları veya katalogları sağlar.
 
-Kupon oluşturmak için iskontoyu ve kuponu ayrı olarak oluşturun. Ardından bunları Microsoft Dynamics 365 for Retail kupon sayfasında iskontoyu seçerek bağlayın.
+Kupon oluşturmak için iskontoyu ve kuponu ayrı olarak oluşturun. Microsoft Dynamics 365 for Retail içinde ardından kupon sayfasında iskontoyu seçerek bunları birbirine bağlayın.
 
 > [!NOTE]
-> Kupon bir iskontoya bağlandıktan sonra, kupon ayarları tarafından yönetildiklerinden Microsoft Dynamics 365 for Retail iskonto sayfasındaki birçok alan salt okunur olur. Bu alanlar standart tarih aralıkları ve durum alanlarını içerir.
+> Bir Kupon bir iskontoya bağlandıktan sonra, kupon ayarları tarafından yönetildiklerinden Microsoft Dynamics 365 for Retail içindeki iskonto sayfasında için birçok alan salt okunur olur. Bu alanlar standart tarih aralıkları ve durum alanlarını içerir.
 
 ### <a name="limited-use-coupons"></a>Sınırlı kullanım kuponları
 
@@ -81,4 +80,3 @@ Kupon işlevi Dynamics 365 for Retail'de birçok farklı özellik içerir. Micro
 - **Genel merkez kısmen güncelleştirildi ancak Perakende sunucusu ve POS güncelleştirilmedi** Bir Genel Merkez güncelleştirmesinde, kupon ve iskonto sayfaları güncelleştirilir ve perakende fiyatı altyapısı da güncelleştirilir. Bu iki bileşenden yalnızca biri güncelleştirilirse, Retail'deki bazı sayfalar fiyat hesaplama verileriyle eşleşmeyecektir. Bu nedenle, iskonto hesaplamaları sırasında beklenmeyen iskonto hesaplamaları veya hatalar oluşabilir.
 - **Genel merkez güncelleştirildi ancak Perakende sunucusu ve POS güncelleştirilmedi (N-1).** Aynı anda tüm perakende mağazalar güncelleştirilemediğinden, genel merkezi perakende mağazaları güncelleştirmeden önce güncelleştirmenizi öneririz. N-1 senaryosunda, kuponlarla ilişkili yeni işlev henüz güncelleştirilmemiş mağazalarda kullanılamaz. Örneğin, kupon işlevi satırları "hariç tut" işlevi sunar. Bir iskontoda satırları hariç tut özelliği kullanırsanız, daha önceki bir sürümü çalıştıran bir perakende mağaza uygulanmaz.
 - **Genel merkez güncelleştirilmedi ancak Perakende sunucusu ve POS güncelleştirildi (N+1).** Perakende sunucusundaki güncelleştirilmiş fiyat alt yapısı hesaplamalar sırasında eski iskonto kodlarını işleyebildiğinden, güncelleştirmenin bu senaryo üzerinde etkisi olmayacaktır.
-

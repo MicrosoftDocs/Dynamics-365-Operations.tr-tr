@@ -1,13 +1,13 @@
 ---
-title: "Çakışan iskontoları için en uygun birleşimi belirleme"
-description: "İskontolar çakıştığında, en düşük hareket toplamını veya en yüksek toplam iskontoyu oluşturacak çakışan iskonto birleşimi belirlemeniz gerekir. Yaygın olarak kullanılan '1 satın al, 1 al X yüzdesi' (BOGO) perakende iskontosunda olduğu gibi, iskonto tutarı satın alınan ürünlerin fiyatına göre değişiklik gösterdiğinde, bu işlem birleşimsel iyileştirme konusu durumuna gelir."
+title: Çakışan iskontoları için en uygun birleşimi belirleme
+description: İskontolar çakıştığında, en düşük hareket toplamını veya en yüksek toplam iskontoyu oluşturacak çakışan iskonto birleşimi belirlemeniz gerekir. Yaygın olarak kullanılan '1 satın al, 1 al X yüzdesi' (BOGO) perakende iskontosunda olduğu gibi, iskonto tutarı satın alınan ürünlerin fiyatına göre değişiklik gösterdiğinde, bu işlem birleşimsel iyileştirme konusu durumuna gelir.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.contentlocale: tr-tr
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360705"
 ---
-
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Çakışan iskontoları için en uygun birleşimi belirleme
 
 [!include [banner](includes/banner.md)]
 
 İskontolar çakıştığında, en düşük hareket toplamını veya en yüksek toplam iskontoyu oluşturacak çakışan iskonto birleşimi belirlemeniz gerekir. Yaygın olarak kullanılan '1 satın al, 1 al X yüzdesi' (BOGO) perakende iskontosunda olduğu gibi, iskonto tutarı satın alınan ürünlerin fiyatına göre değişiklik gösterdiğinde, bu işlem birleşimsel iyileştirme konusu durumuna gelir.
 
-Bu makale KB 3105973 ile Microsoft Dynamics AX 2012 R3 (2 Kasım 2015'te yayımlandı) veya sonrası ve Microsoft Dynamics 365 for Retail ile ilgilidir. Zamanında uygulayabilmek için çakışan iskonto karmasını belirlemek için, çakışan iskontoları uygulamak için bir yöntem geliştirdik. Bu yeni yönteme **Marjinal değer sıralaması**. Marjinal değer sıralaması, olası çakışan iskonto birleşimlerini değerlendirmek için gerekli süre, **Perakende parametreleri** sayfasında yapılandırılabilen eşiği aştığında kullanılır. Marjinal değer sıralama yönteminde, iskontonun paylaşılan ürünlerdeki değeri kullanılarak her çakışan iskonto için hesaplanır. Çakışan iskontolar, en yüksek göreli değerden en küçük göreli değere doğru uygulanır. Yeni yöntem hakkında daha fazla bilgi için bu makalenin ilerleyen kısımlarındaki "Marjinal değer" bölümüne bakın. Ürün iskonto tutarları hareketteki başka bir ürün tarafından etkilenmiyorsa, marjinal değer sıralaması kullanılmaz. Örneğin, bu yöntem iki basit iskonto veya bir basit iskonto ve tek bir ürün miktarı iskontosu için kullanılmaz.
+Bu makale, Microsoft Dynamics AX 2012 R3, KB 3105973 (yayınlanma tarihi 2 Kasım 2015) veya sonrası ve Microsoft Dynamics 365 for Retail için geçerlidir. Zamanında uygulayabilmek için çakışan iskonto karmasını belirlemek için, çakışan iskontoları uygulamak için bir yöntem geliştirdik. Bu yeni yönteme **Marjinal değer sıralaması**. Marjinal değer sıralaması, olası çakışan iskonto birleşimlerini değerlendirmek için gerekli süre, **Perakende parametreleri** sayfasında yapılandırılabilen eşiği aştığında kullanılır. Marjinal değer sıralama yönteminde, iskontonun paylaşılan ürünlerdeki değeri kullanılarak her çakışan iskonto için hesaplanır. Çakışan iskontolar, en yüksek göreli değerden en küçük göreli değere doğru uygulanır. Yeni yöntem hakkında daha fazla bilgi için bu makalenin ilerleyen kısımlarındaki "Marjinal değer" bölümüne bakın. Ürün iskonto tutarları hareketteki başka bir ürün tarafından etkilenmiyorsa, marjinal değer sıralaması kullanılmaz. Örneğin, bu yöntem iki basit iskonto veya bir basit iskonto ve tek bir ürün miktarı iskontosu için kullanılmaz.
 
 ## <a name="discount-examples"></a>İskonto örnekleri
 
@@ -85,4 +84,3 @@ Katlanarak artan değerlendirilecek birleşim sayısı sorununu çözmek için, 
 ![Çakışan iskonto karması 06](./media/overlapping-discount-combo-06.jpg)
 
 Paylaşılan ürün kümesindeki her iskontonun marjinal değeri hesaplandıktan sonra, iskonotolar, kapsamlı olarak, yüksek marjinal değerden düşük marjinal değere doğru sıralanarak paylaşılan ürünlere uygulanır. Bu yöntem için, her tek iskonto örneği uygulandıktan sonra kalan iskonto olasıklıkları karşılaştırılmaz. Bunun yerine, çakışan iskontolar bir kez karşılaştırılır ve sonra sırayla uygulanır. Hiçbir ek karşılaştırma yapılmaz. Eşiği **Perakende parametreleri** sayfasının **İskonto** sekmesindeki marjinal değerine geçecek şekilde yapılandırabilirsiniz. Toplam iskontoyu hesaplamak için kabul edilebilir süre perakende endüstrileri arasında farklılık gösterir. Ancak, bu süre genellikle on milisaniye ile bir saniye aralığında olur.
-

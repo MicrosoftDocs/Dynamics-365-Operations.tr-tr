@@ -1,13 +1,13 @@
 ---
-title: "Kredi mektupları ve ithalat tahsilatları"
-description: "Bu makalede, kredi mektupları ve ithalat tahsilatları hakkında genel bilgiler verilmektedir. Her iki banka belgesi sıklıkla uluslararası mal alım satımı için kullanılır."
+title: Kredi mektupları ve ithalat tahsilatları
+description: Bu makalede, kredi mektupları ve ithalat tahsilatları hakkında genel bilgiler verilmektedir. Her iki banka belgesi sıklıkla uluslararası mal alım satımı için kullanılır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
-ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323054"
 ---
-
 # <a name="letters-of-credit-and-import-collections"></a>Kredi mektupları ve ithalat tahsilatları
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Kredi mektubu **kabili rücu** veya **gayri kabili rücu** olabilir. Kredi mektu
 Bir ithalat tahsilatı, banka ve ihracatçı (satıcı) arasında bir anlaşmadır ve banka bu anlaşmayla sevkiyat belgelerini uluslararası ithalatçıya (alıcı) teslim etmeyi garanti eder. Bankadan, sevk edilen malların ödemesini nakit olarak aldığında veya ödeme için imzalanan bir taslağı aldığında sevkiyat belgelerini teslim etmesi beklenir. 
 
 Bir ithalat tahsilatı, alıcı, ithal edilen malları teslim almak üzere sevkiyat belgelerini aldığında satıcıya ödeme yapılmasının garanti edilmesine yardımcı olur.
-
 
 
 

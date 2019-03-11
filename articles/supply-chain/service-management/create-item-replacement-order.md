@@ -1,30 +1,29 @@
 ---
-title: "Madde değiştirme emri oluşturma"
-description: "Madde değiştirme siparişleri genellikle bir ürün iade edildikten ve incelendikten sonra oluşturulur."
+title: Madde değiştirme emri oluşturma
+description: Madde değiştirme siparişleri genellikle bir ürün iade edildikten ve incelendikten sonra oluşturulur.
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 784a2522c27e8131f211ffc52319552b3b928cc3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f0cd629658972f98e2233dfa287940c4444b82a
-ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355024"
 ---
-
 # <a name="create-an-item-replacement-order"></a>Madde değiştirme emri oluşturma 
 
 [!include [banner](../includes/banner.md)]
@@ -66,6 +65,5 @@ Madde değiştirme siparişleri genellikle bir ürün iade edildikten ve incelen
     
     Satış sözleşmesi tanımlayıcısı otomatik olarak **Satış sözleşmesi kodu** alanında görüntülenirse, satış sözleşmesi madde değiştirme siparişiyle ilgili satış siparişi başlığına bağlanır. Satış sözleşmesinde henüz karşılanmamış geçerli bir taahhüt varsa ve satış siparişi satış sözleşmesi sona ermeden önce oluşturulursa, satış sözleşmesi ile satış siparişi satırı arasında bir bağlantı oluşturulur. Bu nedenle, satış sözleşmesinden alınan madde fiyatı gibi bilgiler yeni satış sipariş satırına kopyalanır. 
   
-
 
 

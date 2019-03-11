@@ -1,13 +1,13 @@
---- 
-title: "Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma"
-description: "Bu yordamdaki adımları tamamlamak için öncelikle \"ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme\" yordamını tamamlamanız gerekir."
+---
+title: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
+description: Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1637ba59525f5f8bd9fe41a00c34eca90f7a2751
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340810"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içeri aktarma
 
@@ -75,5 +75,4 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
 29. Ağaçta, 'Dosya' metnini seçin.
     * Intrastat raporunu oluşturmak için kullanılan biçimin yapısını gözden geçirin. 'Giden belge' ana öğesi üzerine dayanan veri modelinden verileri yerleştirerek bir XML dosyası oluşturmak üzere tasarlandığını unutmayın. Oluşturulan dosyanın adının kullanıcı iletişim kutusunda tanımlandığından emin olun (bunun için 'fn' veri kaynağı kullanılır).   
 30. Sayfayı kapatın.
-
 

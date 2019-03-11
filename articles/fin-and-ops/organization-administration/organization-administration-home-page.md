@@ -1,13 +1,13 @@
 ---
-title: "Kuruluş yönetimi giriş sayfası"
-description: "Bu konu sizi Microsoft Dynamics 365 for Finance and Operations'ı kuruluşunuzda kullanmanıza yardımcı olacak kaynaklara yönlendirir."
+title: Kuruluş yönetimi giriş sayfası
+description: Bu konu Microsoft Dynamics 365 for Finance and Operations'i kuruluşunuzda kullanmanıza yardımcı olacak kaynaklara işaret eder.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a693529b55b66eb940f8215a336d5c4ae0acedd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
-ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332829"
 ---
-
 # <a name="organization-administration-home-page"></a>Kuruluş yönetimi giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu yetkili kullanıcıların ve yöneticilerin Microsoft Dynamics 365 for Finance and Operations'ı yapılandırmasına yardımcı olacak içeriğe yönlendirir. Bu içerik onlara sistemi kuruluşunuz ve işiniz için sorunsuz ve etkili çalışmak üzere yapılandırmalarına yardımcı olacaktır.
+Bu konu, ileri düzey kullanıcıların ve yöneticilerin Microsoft Dynamics 365 for Finance and Operations yapılandırmalarına yardımcı olacak içeriği açıklar. Bu içerik onlara sistemi kuruluşunuz ve işiniz için sorunsuz ve etkili çalışmak üzere yapılandırmalarına yardımcı olacaktır.
 
 Burada listelenen içeriğin büyük bölümü **Kuruluş yönetimi** modülündeki özelliklere uygulanır. Ancak, bir kayıt şablonu oluşturmak ve kullanmak gibi bazı görevler, kuruluşunuzun daha verimli çalışmasına yardımcı olmak için her modülde gerçekleştirilebilir.
 
@@ -103,4 +102,3 @@ Kayıt şablonları, kayıtları daha hızlı oluşturmaya yardımcı olabilir. 
 - [Belge yönetimini konfigüre etme](configure-document-management.md)
 - [E-postayı yapılandırma ve gönderme](configure-email.md)
 - [Tarih/saat tarih ve saat dilimleri](date-time-zones.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Power BI'ya veri çekmek için Elektronik raporlamayı (ER) yapılandırma"
-description: "Bu konu, verilerinizi Finance and Operations kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar."
+title: Power BI'a veri çekmek için Elektronik raporlamayı (ER) yapılandırma
+description: Bu konu, verilerinizi Finance and Operations kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e2d3c03a75fd03dfd3a96a181eff20f934546ec4
-ms.contentlocale: tr-tr
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335796"
 ---
-
-# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Power BI'ya veri çekmek için Elektronik raporlamayı (ER) yapılandırma
+# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Power BI'a veri çekmek için Elektronik raporlamayı (ER) yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, verilerinizi Finance and Operations kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar. Örnek olarak, bu konu Intrastat hareketlerini aktarılması gereken iş verileri olarak kullanır. Power BI harita görselleştirmesi, bu Intrastat hareket verilerini şirketin içe aktarma/dışa aktarma etkinliklerinin Power BI raporundaki analizinin bir görünümünü sunmak için kullanır.
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a>Genel bakış
 
-Microsoft Power BI harici veri kaynaklarını tutarlı, görsel olarak modern ve etkileşimli bilgilere dönüştürmek için birlikte çalışan yazılım hizmetleri, uygulamalar ve bağlayıcılardan oluşan bir koleksiyondur. Elektronik raporlama (ER), Microsoft Dynamics 365 for Finance and Operations kullanıcılarının veri kaynaklarını kolaylıkla yapılandırmasına ve Finance and Operations'tan Power BI'ya veri aktarımını düzenlemesine olanak tanır. Veriler OpenXML çalışma sayfası (Microsoft Excel çalışma kitabı dosyası) biçiminde aktarılır. Aktarılan dosyalar bu amaçla yapılandırılmış bir Microsoft SharePoint Server üzerinde depolanır. Depolanan dosyalar görselleştirme (tablo, grafik, harita vs.) içeren raporlar oluşturmak için Power BI'da kullanılır. Power BI raporları Power BI kullanıcılarıyla paylaşılır ve bunlara Power BI panoları ve Finance and Operations sayfalarından ulaşılır. Bu konuda aşağıdaki görevler açıklanmıştır:
+Microsoft Power BI harici veri kaynaklarını tutarlı, görsel olarak modern ve etkileşimli bilgilere dönüştürmek için birlikte çalışan yazılım hizmetleri, uygulamalar ve bağlayıcılardan oluşan bir koleksiyondur. Elektronik raporlama (ER), Microsoft Dynamics 365 for Finance and Operations kullanıcılarının veri kaynaklarını kolayca yapılandırmasını ve veriyi Finance and Operations'tan Power BI'a aktarmayı ayarlamalarını sağlar. Veriler OpenXML çalışma sayfası (Microsoft Excel çalışma kitabı dosyası) biçiminde aktarılır. Aktarılan dosyalar bu amaçla yapılandırılmış bir Microsoft SharePoint Server üzerinde depolanır. Depolanan dosyalar görselleştirme (tablo, grafik, harita vs.) içeren raporlar oluşturmak için Power BI'da kullanılır. Power BI raporları Power BI kullanıcılarıyla paylaşılır ve bunlara Power BI panoları ve Finance and Operations sayfalarından ulaşılır. Bu konuda aşağıdaki görevler açıklanmıştır:
 
 - Finance and Operations'ı yapılandır.
 - ER biçim yapılandırmanızı Finance and Operations uygulamasından veri almak için hazırlayın.
@@ -41,7 +40,7 @@ Microsoft Power BI harici veri kaynaklarını tutarlı, görsel olarak modern ve
 - Power BI raporu oluşturmak için aktarılan verileri kullanın.
 - Power BI raporunu Finance and Operations'da erişilebilir hale getirin.
 
-## <a name="prerequisites"></a>Ön koşullar
+## <a name="prerequisites"></a>Önkoşullar
 Bu konudaki örneği tamamlamak için şu erişimlere sahip olmanız gerekir:
 
 - Aşağıdaki rollerden biri için Finance and Operations'a erişim:
@@ -151,7 +150,7 @@ Yeni hedef kaydı için **Ayarlar** düğmesine tıklayın. Daha sonra, **Hedef 
 
     [![Veri kümesi oluşturma](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
 
-2. **SharePoint: Ekip siteleri** seçeneğini belirleyin ve ardından kullandığınız SharePoint Server yolunu girin (örneğimizde `https://ax7partner.litware.com`).
+2. **SharePoint - Ekip siteleri** seçeneğini belirleyin ve ardından kullandığınız SharePoint Server yolunu girin (örneğimizde `https://ax7partner.litware.com`).
 3. **/Shared Documents/GER data/PowerBI** klasörüne gidin ve yeni Power BI veri kümesinin veri kaynağı olarak oluşturduğunuz Excel dosyasını seçin.
 
     [![Excel dosyasını seçme](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
@@ -198,4 +197,3 @@ Finance and Operations ve Power BI arasındaki tümleştirmeyi ayarlayın. Daha 
 [Elektronik raporlama hedefleri](electronic-reporting-destinations.md)
 
 [Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
-
