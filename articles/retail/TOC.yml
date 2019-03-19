@@ -1,10 +1,14 @@
 items:
-- name: Dynamics 365 for Retail ürününe hoş geldiniz
+- name: Dynamics 365 for Retail'e hoş geldiniz
   href: index.md
 - name: Başlayın
   items:
   - name: Yenilikler veya değişiklikler
     href: get-started/whats-new.md
+  - name: Dynamics 365 for Retail 10.0.1'deki önizleme özellikleri
+    href: get-started/whats-new-10-0-1.md
+  - name: Dynamics 365 for Retail'deki yenilikler ve değişiklikler (Nisan 2019)
+    href: get-started/april-whats-new.md
   - name: Retail satın almadan önce
     href: get-started/before-you-buy.md
   - name: Önizleme aboneliğine kaydolma
@@ -108,8 +112,12 @@ items:
     href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
   - name: Satış vergisi kodları için Tam tutar ve Aralık hesaplama seçenekleri
     href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-- name: Çoklu kanal gelişmiş otomatik ücretleri
-  href: omni-auto-charges.md
+- name: Çoklu kanal gelişmiş otomatik masrafları
+  items:
+  - name: Gelişmiş otomatik masrafları yapılandırma ve kullanma
+    href: omni-auto-charges.md
+  - name: Başlık otomatik masraflarını eşit dağıtma ve gruplandırma
+    href: pro-rate-charges-matching-lines.md
 - name: Çağrı merkezi
   items:
   - name: Çağrı merkezi satış işlevi
@@ -387,7 +395,7 @@ items:
     - name: Yazar kasa işlevi
       href: localizations/emea-swe-cash-registers.md
     - name: Kontrol birimleriyle Retail POS tümleştirmesi örneği
-      href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+      href: localizations/retail-sdk-control-unit-sample.md
 - name: Retail görevleri
   items:
   - name: Ürün oluşturma
@@ -553,6 +561,8 @@ items:
       href: dev-itpro/hybridApp.md
     - name: POS istek işleyicisini geçersiz kılma
       href: dev-itpro/pos-handler.md
+    - name: POS uzantısı paket bilgisini görüntüleme
+      href: view-pos-extension-package-details.md
   - name: Hardware Station ve genişletilebilirlik
     href: dev-itpro/hardware-station-extensibility.md
   - name: Retail Server genişletilebilirliği
@@ -659,9 +669,9 @@ items:
     items:
     - name: Bağlılık genişletme
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 1f86096b0572f0309afa04e086d53294a7a8f4fa
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377263"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791650"

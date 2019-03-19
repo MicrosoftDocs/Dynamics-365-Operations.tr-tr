@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 45b628376a483d3d639e5c018dd93570ed8ce7af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302995"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379936"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Bir iade emrinde bir değişiklik yapılandırma ve işleme
 
@@ -44,7 +44,7 @@ Sistemi, iade emirlerinde değişiklikleri destekleyecek şekilde yapılandırma
 
 Sistem önceki bölümde açıklandığı gibi yapılandırıldıktan sonra, satış noktası (POS) kullanıcısının Retail'ın önceki sürümlerinde olduğu gibi bir iadeye işlem yapmak için yine bir satış siparişi veya satış faturası seçmesi gerekir. Ancak iade maddeler sepete eklendikten sonra, kullanıcı yeni satış satırlarını sepete ekleyebilir.
 
-Kullanıcı, bu yeni satış satırları için bir müşteri sipariş satırını işlemek amacıyla gerekli olan tüm öznitelikleri tanımlamalıdır. Bu öznitelikler, teslimat yöntemini ve karşılama konumunu içerir. Hareket için yapılması gereken ödeme iade emri satırları ile satış siparişi satırlarının net değeri olacaktır. Hareketin ödemesi yapıldıktan sonra, iade emri Retail Headquarters'da satış siparişi belgesi olarak kaydedilir ve sistem, iade satırlarını derhal faturalandırır.
+Kullanıcı, bu yeni satış satırları için bir müşteri sipariş satırını işlemek amacıyla gerekli olan tüm öznitelikleri tanımlamalıdır. Bu öznitelikler, teslimat yöntemini ve karşılama konumunu içerir. Hareket için yapılması gereken ödeme iade emri satırları ile satış siparişi satırlarının net değeri olacaktır. Hareketin ödemesi yapıldıktan sonra, iade emri Retail Headquarters'da satış siparişi belgesi olarak deftere nakledilir ve sistem, iade satırlarını derhal faturalandırır.
 
 Sepet için çeşitli tutarlara yönelik daha iyi bir görüş sağlamak üzere, sepete üç yeni tutar alanı eklenmiştir. Bu yeni alanların POS kullanıcı arabiriminde kullanılabilmesini sağlamak için ekran tasarımcısını kullanabilirsiniz.
 
