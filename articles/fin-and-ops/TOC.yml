@@ -35,12 +35,6 @@ items:
     - name: Yenilikler veya değişiklikler
       href: get-started/whats-new-changed.md
       items:
-      - name: Bir Sürüm hizmet güncelleştirmeleriyle ilgili SSS
-        href: get-started/one-version.md
-      - name: Yazılım yaşam döngüsü ilkesi ve bulut sürümleri
-        href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-      - name: Yazılım yaşam döngüsü ilkesi ve şirket içi sürümler
-        href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
       - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
         href: get-started/mainstream-support-ax-2009-2012.md
       - name: Kaldırılan veya artık kullanılmayan özellikler
@@ -49,15 +43,19 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: Şirket içi dağıtımlarda uygulanmayan özellikler
         href: get-started/features-not-implemented-on-prem.md
+      - name: Finance and Operations sürüm 10.0.1'deki önizleme özellikleri (Nisan 2019)
+        href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operations sürüm 10.0 (Nisan 2019)
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operations sürüm 8.1.3 (Ocak 2019)
         href: get-started/whats-new-changed-8-1-3.md
-      - name: Platform güncelleştirmesi 24 (Mart 2019)
+      - name: Finance and Operations platform update 25'teki önizleme özellikleri (Nisan 2019)
+        href: get-started/whats-new-platform-25.md
+      - name: Platform update 24 (Mart 2019)
         href: get-started/whats-new-platform-update-24.md
-      - name: Platform güncelleştirmesi 23 (Ocak 2019)
+      - name: Platform update 23 (Ocak 2019)
         href: get-started/whats-new-platform-update-23.md
-      - name: Platform güncelleştirmesi 22 (Aralık 2018)
+      - name: Platform update 22 (Aralık 2018)
         href: get-started/whats-new-platform-update-22.md
       - name: Finance and Operations sürüm 8.1.2 (Aralık 2018)
         href: get-started/whats-new-changed-8-1-2.md
@@ -65,9 +63,9 @@ items:
         href: get-started/whats-new-changed-8-1-1.md
       - name: Finance and Operations sürüm 8.1 (Ekim 2018)
         href: get-started/whats-new-changed-8-1-October-2018.md
-      - name: Platform güncelleştirmesi 21 (Kasım 2018)
+      - name: Platform update 21 (Kasım 2018)
         href: get-started/whats-new-platform-update-21.md
-      - name: Platform güncelleştirmesi 20 (Eylül 2018)
+      - name: Platform update 20 (Eylül 2018)
         href: get-started/whats-new-platform-update-20.md
       - name: Finance and Operations sürüm 8.0 (Nisan 2018)
         href: get-started/whats-new-changed-8-0-April-2018.md
@@ -99,13 +97,13 @@ items:
         href: get-started/whats-new-platform-update-4.md
       - name: Operations sürümü 1611 (Kasım 2016)
         href: get-started/whats-new-dynamics-365-operations-1611.md
-      - name: Platform güncelleştirmesi 3 (Kasım 2016)
+      - name: Platform update 3 (Kasım 2016)
         href: get-started/whats-new-platform-update-3.md
-      - name: Platform güncelleştirmesi 2 (Ağustos 2016)
+      - name: Platform update 2 (Ağustos 2016)
         href: get-started/whats-new-platform-update-2.md
       - name: Dynamics AX uygulama sürümü 7.0.1 (Mayıs 2016)
         href: get-started/whats-new-changed-application-version-7-0-1-may-2016.md
-      - name: Platform güncelleştirmesi 1 (Mayıs 2016)
+      - name: Platform update 1 (Mayıs 2016)
         href: get-started/whats-new-changed-platform-version-7-1-may-2016.md
       - name: AX 7.0 (Şubat 2016)
         href: get-started/whats-new-changed-7-0-february-2016.md
@@ -202,6 +200,29 @@ items:
       href: get-started/move-lcs-implementation-project-tenant.md
     - name: Tek bir Azure AD kiracısında birden fazla LCS projesi ve üretim ortamı
       href: get-started/implement-multiple-projects-aad-tenant.md
+  - name: Bir Sürüm hizmet güncelleştirmeleri
+    href: ../dev-itpro/lifecycle-services/oneversion-overview.md
+    items:
+    - name: Bir Sürüm hizmet güncelleştirmeleriyle ilgili SSS
+      href: get-started/one-version.md
+    - name: 'Yazılım yaşam döngüsü ilkesi: Bulut'
+      href: ../dev-itpro/migration-upgrade/versions-update-policy.md
+    - name: 'Yazılım yaşam döngüsü ilkesi: Şirket içi'
+      href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
+    - name: Standart ve İlk sürüm hizmet güncelleştirmeleri
+      href: get-started/public-preview-releases.md
+    - name: Bulut ortamlarına güncelleştirmeleri uygulama
+      href: ../dev-itpro/deployment/apply-deployable-package-system.md
+    - name: Hizmet güncelleştirmelerini yapılandırma
+      href: ../dev-itpro/lifecycle-services/configure-service-updates.md
+    - name: Hizmet güncelleştirmelerini duraklatma
+      href: ../dev-itpro/lifecycle-services/pause-service-updates.md
+    - name: Hizmet güncelleştirmeleri hakkında bilgilendirilme
+      href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
+    - name: Veri görevi otomasyonu
+      href: ../dev-itpro/data-entities/data-task-automation.md
+    - name: Regression Suite Automation Tool
+      href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
   - name: İş olayları
     href: ../dev-itpro/business-events/home-page.md
     items:
@@ -401,7 +422,7 @@ items:
             href: ../supply-chain/sales-marketing/synchronize-project-list.md
           - name: Ambarları Finance and Operations'dan Field Service'a eşitleme
             href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-          - name: İş emirlerini Finance and Operations'dan Field Service'a eşitleme
+          - name: Proje içeren iş emirlerini Field Service'tan Finance and Operations'a eşitleme
             href: ../supply-chain/sales-marketing/synchronize-work-orders.md
         - name: Project Service Automation tümleştirmesi yapılandırma
           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
@@ -1416,6 +1437,8 @@ items:
           href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
         - name: Mali kuruluş için NF-e parametrelerini ayarlama
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+      - name: SPED ECD
+        href: ../financials/localizations/latam-bra-sped-ecd.md
       - name: SPED-Reinf vergi beyannamesi
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: Tüzel kişilikler için parametreler
@@ -2236,6 +2259,8 @@ items:
           href: ../financials/localizations/rus-sales-books-purchase-books.md
       - name: Sabit kıymetler
         items:
+        - name: Sabit kıymetleri ayarlama
+          href: ../financials/localizations/rus-set-up-fixed-assets.md
         - name: Sabit kıymetleri alma ve işleme koyma
           href: ../financials/localizations/rus-fixed-asset-acquisition.md
         - name: Sabit kıymet alımlarını kaydetme
@@ -2266,6 +2291,18 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: Amortismanı hesaplama
           href: ../financials/localizations/rus-depreciation-calculation.md
+      - name: Alacak ve borç hesapları
+        items:
+        - name: Ödenecek faturalar
+          href: ../financials/localizations/rus-invoice-payment.md
+        - name: Kapatmalar için boyut denetimi ayarlama
+          href: ../financials/localizations/rus-transactions-settlement-date.md
+        - name: Nakit akışı yönetimi
+          href: ../financials/localizations/rus-cash-flow.md
+      - name: Raporlama
+        items:
+        - name: Mali raporlama
+          href: ../financials/localizations/rus-financial-reports.md
       - name: Şirket bölümleri
         href: ../financials/localizations/rus-company-divisions.md
       - name: Para birimi hareketleri için döviz kurlarını ayarlama
@@ -2280,8 +2317,10 @@ items:
         href: ../financials/localizations/rus-invoice-payment.md
       - name: Mali raporlama
         href: ../financials/localizations/rus-financial-reports.md
-      - name: Satınalma defteri oluşturma
-        href: ../financials/localizations/rus-sales-books-purchase-books.md
+      - name: Elektronik biçimde muhasebe raporlama
+        href: ../financials/localizations/rus-accounting-reporting.md
+      - name: Nakit akışı yönetimi
+        href: ../financials/localizations/rus-cash-flow.md
     - name: Suudi Arabistan
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2367,6 +2406,8 @@ items:
         href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
       - name: Ters kaydedilecek KDV için satış vergisi grupları ayarlama
         href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+      - name: KDV için Vergiyi Dijital Yapma
+        href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
     - name: Amerika Birleşik Devletleri
       href: ../financials/localizations/united-states.md
       items:
@@ -2827,6 +2868,8 @@ items:
           href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
         - name: Uygulama güncelleştirmesi 7.3 için elektronik raporlama çerçevesi API değişiklikleri
           href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+        - name: Oluşturulan bölgeler için özel depolama alanı belirtme
+          href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
     - name: Katıştırılmış analiz çözümleri
       items:
       - name: Çalışma alanlarında katıştırılmış Power BI
@@ -3281,6 +3324,8 @@ items:
         href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
       - name: İş akışı türleri raporu
         href: organization-administration/workflow-types-report.md
+      - name: İş akışıyla ilgili SSS
+        href: organization-administration/workflow-FAQ.md
     - name: Uyarılar
       href: get-started/alerts-overview.md
       items:
@@ -3799,8 +3844,6 @@ items:
         href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
       - name: Satış sözleşmelerini karşılama
         href: ../supply-chain/sales-marketing/tasks/fulfill-sales-agreements.md
-      - name: Yeni bir ticari sözleşme oluşturma
-        href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
       - name: Müşteri indirimlerini oluşturma ve işleme
         href: ../supply-chain/sales-marketing/tasks/process-customer-rebates.md
       - name: Ödeme için indirimleri işleme
@@ -3827,6 +3870,8 @@ items:
         href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
     - name: Ticari tahsisat
       href: ../supply-chain/sales-marketing/trade-allowance.md
+    - name: Yeni bir ticari sözleşme oluşturma
+      href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
   - name: Servis yönetimi
     href: ../supply-chain/service-management/service-management-home-page.md
     items:
@@ -4241,9 +4286,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: cb58a9f8fa8305a3d8b956804ef74bef86ca04b9
-ms.sourcegitcommit: 7e0097bdd835e04521bffbce2fd802e6381dde0d
+ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "376930"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836408"
