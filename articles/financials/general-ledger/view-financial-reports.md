@@ -1,9 +1,9 @@
 ---
-title: Mali raporları görüntüle
-description: Bu makalede, Microsoft Dynamics 365 for Finance and Operations'de finansal raporların nasıl görüntüleneceği ve keşfedileceği açıklanmaktadır. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
+title: Mali raporları görüntüleme
+description: Bu konuda, Microsoft Dynamics 365 for Finance and Operations'de finansal raporların nasıl görüntüleneceği ve keşfedileceği açıklanmaktadır. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
 author: kweekley
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
+ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312957"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791453"
 ---
-# <a name="view-financial-reports"></a>Mali raporları görüntüle
+# <a name="view-financial-reports"></a>Mali raporları görüntüleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, Microsoft Dynamics 365 for Finance and Operations'de finansal raporların nasıl görüntüleneceği ve keşfedileceği açıklanmaktadır. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
+Bu konuda, Microsoft Dynamics 365 for Finance and Operations'de finansal raporların nasıl görüntüleneceği ve keşfedileceği açıklanmaktadır. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
 
 <a name="financial-reporting-overview"></a>Mali raporlamaya genel bakış
 ----------------------------
@@ -67,18 +67,15 @@ Bir mali rapor istenildiği anda istenilen bir para biriminde görüntülenebili
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Mali raporun bir özet görünümünü görüntüleme
 Bir mali rapor ayrıntılı satırlar ve özet satırlar içerebilir. Ayrıntılı satırlar çok sayıda hesap veya boyut içeren satırlardır. Özet satırları açıklama, toplam ve hesaplama satırlarıdır. Bir raporun yalnızca özet satırlarını görüntülemek için tıklatın **Göster** düğmesini ve ardından **Sadece özet satırları** düğmesini tıklayın. Rapor daraltılır ve sadece özet satırlarını görüntüler. Ayrıntılı satırları özet satırlarıyla birlikte görüntülemek için **Göster** düğmesini tıklayın ve ardından tekrar **Sadece özet satırları** düğmesini tıklayın.
 
-## <a name="open-a-financial-report-from-a-previous-month"></a>Önceki aya ait bir mali raporu açma
-Rapor oluşturmadan mevcut aya veya önceki aylara ait raporları görüntüleyebilirsiniz. Bir önceki aya ait bir raporu açmak için **Göster**'e ve ardından **Önceki raporlar**'a tıklayın. Raporun oluşturulduğu önceki ayların listesi görünür. Raporun ait olduğu ayı genişletin, tarihi seçin ve **Tamam** düğmesini tıklayın. Önceki aya ait rapor görüntülenir. Önceki ayın raporuna dönmek için **İptal** düğmesini tıklayın.
-
 ## <a name="print-a-financial-report"></a>Bir mali rapor yazdırma
-Bir mali raporu yazdırmak için Eylem Panosundan **Yazdır** düğmesini tıklayın ve yazdırma seçeneklerini ayarlamak için bu adımlardan birini veya birden fazlasını takip edin:
+Bir mali raporu yazdırmak, daha sonra el ile yazdırılabilecek bir PDF dosyası oluşturur. Yazdırılabilir bir mali rapor oluşturmak için Eylem Panosundan **Yazdır** düğmesini tıklayın ve yazdırma seçeneklerini ayarlamak için bu adımlardan birini veya birden fazlasını takip edin:
 
 -   Farklı ayrıntı düzeylerini yazdırılan rapora dahil etmek için kaydırıcıyı **Evet** veya **Hayır** konumuna ayarlayın. Bir rapor bir raporlama ağacı kullanıyorsa tüm raporlama birimlerini veya sadece mevcut raporlama birimini dahil etmeyi seçebilirsiniz.
 -   Sayfa boyutunu ayarlamak için listeden bir sayfa boyutu seçin.
 -   Sayfa düzenini ayarlamak için listeden bir düzen seçin. Rapor içeriği seçtiğiniz genişliğe sığdırmak istiyorsanız kaydırıcıyı **Evet** konumuna ayarlayın.
 -   Sayfa kenar boşluklarını ayarlamak için üst, alt, sol ve sağ kenar boşluklarının boyutunu inç cinsinden girin.
 
-Yazdırma seçeneklerini ayarlamayı bitirdiğinizde raporu yazdırmak için **Yazdır** düğmesini tıklayın. Raporu yazdırmak istemediğinize karar verirseniz bunun yerine **İptal** düğmesini tıklayın. Yazdırılan raporun bir önizlemesi görüntülenir. Yazıcının raporu göndermesini seçebilir ve ayrıca yazdırma seçeneklerini ayarlayabilirsiniz.
+Yazdırma seçeneklerini ayarlamayı bitirdikten sonra, devam etmek için **Yazdır**'ı tıklayın ve dosyayı indirmek mi istediğiniz yoksa OneDrive veya SharePoint üzerine kaydetmek mi istediğiniz sorulur. Devam istemediğinize karar verirseniz bunun yerine **İptal** düğmesini tıklayın. Devam ettiğinizde, rapor sunucuda işlenmeye başlar ve raporu PDF biçiminde indirmeniz size sunulur. Şimdi raporu PDF görüntüleyicinizde görüntüleyebilir ve buradan raporun gönderileceği yazıcıyı seçebilirsiniz ve yazdırma seçenekleri için daha fazla ayar yapabilirsiniz.
 
 ## <a name="export-a-financial-report"></a>Bir mali raporu dışa aktarma
 Bir mali raporu dışa aktarmak için Eylem Panosundan **Dışa aktar** düğmesini tıklayın. Rapor, Microsoft Excel'e aktarılır ve tarayıcınız dışa aktarılan dosyayı açmak mı, yoksa kaydetmek mi istediğinizi sorar. Rapor tasarımında ayarlanan dışa aktarma ayarları dışa aktarılan rapora uygulanır.    
@@ -86,7 +83,7 @@ Bir mali raporu dışa aktarmak için Eylem Panosundan **Dışa aktar** düğmes
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Microsoft Dynamics AX için mali raporlama](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Mali raporlama](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

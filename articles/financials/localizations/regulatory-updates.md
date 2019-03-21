@@ -3,7 +3,7 @@ title: Düzenleme güncelleştirmeleri
 description: Bu konu, planlanan ve yayınlanan mevzuat güncelleştirmelerini Microsoft Dynamics 365 for Finance and Operations için listeler.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/25/2019
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9dcf958165cffa3e3cd62b88a71295eefae9cf8f
-ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376002"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832113"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -40,6 +40,14 @@ Tarih sütununda bir ay kullanıldığında, mevzuat güncelleştirmesinin bu ay
 |      Mart 2019          |   10,0,0      | Avusturya      |   Kammerumlage 2019 (Satınalma vergisi) değişiklikleri    |
 |      Mart 2019          |   10,0,0      |   Brezilya    |     SPED EFD Katılımları - Düzen  004 ve 005  |
 |      Mart 2019          |   10,0,0      |    Malezya     |Malezya, GST'yi SST satış ve servis vergisi ile değiştiriyor        |
+|      Nisan 2019          |   10.0.1      |    Avusturya     |Perakende - Mali tümleştirme         |
+|      Nisan 2019          |   10.0.1      |    Avrupa     |E-faturalama - Müşteri faturaları PEPPOL BIS 3 biçiminde dışa aktarılır         |
+|      Nisan 2019          |   10.0.1      |    Avrupa     |E-faturalama - Satıcı faturaları PEPPOL BIS 3 biçiminden içe aktarılır         |
+|      Nisan 2019          |   10.0.1      |   Almanya     |E-faturalama - Müşteri faturaları xRechnung 1.1 biçiminde dışa aktarılır         |
+|      Nisan 2019          |   10.0.1      |    Birleşik Krallık     |[KDV beyannamesi gönderme değişiklikleri (Vergi Dijital Hale Getirme)](emea-gbr-mtd-vat-integration.md)    |    
+|      Nisan 2019          |   10.0.1      |    Brezilya     |NF-e yeni NT 2018.005         |
+|      Nisan 2019          |   10.0.1      |    Rusya     |2019'dan KDV beyannamesi biçimi değişiklikleri         |
+|      Nisan 2019          |   10.0.1      |    Rusya     |KDV beyanname biçimi değişiklikleri 2019'dan (Satış ve Satınalma kitabı biçimleri)  |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 - Planlanan ve yayınlanan tüm mevzuat güncelleştirmelerini [Lifecycle Service - Konu arama](https://lcs.dynamics.com/Logon/Index) üzerinde bulun.

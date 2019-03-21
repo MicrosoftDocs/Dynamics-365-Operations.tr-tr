@@ -3,7 +3,7 @@ title: Kıymetleri tedarik yoluyla alma
 description: Bu konuda, satınalma emirlerinden veya satıcı faturalarından otomatik olarak sabit kıymetler oluşturmak veya sabit kıymetler için alım ve alım ayar hareketlerini otomatik olarak deftere nakletmek için Sabit kıymetler ile Borç hesapları arasında nasıl entegrasyon kurulacağı açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eef69de1c93de5c19b9f197838f1f2d3eb2e7645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ba3484e62caa790a5b05ae0693f69926514f6425
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355806"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778236"
 ---
 # <a name="acquire-assets-through-procurement"></a>Kıymetleri tedarik yoluyla alma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, satınalma emirlerinden veya satıcı faturalarından otomatik olarak sabit kıymetler oluşturmak veya sabit kıymetler için alım ve alım ayar hareketlerini otomatik olarak deftere nakletmek için Sabit kıymetler ile Borç hesapları arasında nasıl entegrasyon kurulacağı açıklanmaktadır.
+Bu konuda, satınalma emirlerinden veya satıcı faturalarından otomatik olarak sabit kıymetler oluşturmak veya sabit kıymetler için alım ve alım ayar hareketlerini otomatik olarak deftere nakletmek için Sabit kıymetler ile Borç hesapları arasında nasıl entegrasyon kurulacağı açıklanmaktadır. Bir satınalma satırı bir varlık oluşturacaktır, satınalma satırının miktarı ne olursa olsun. Birden fazla sabit varlık oluşturmanız gerekirse, birden fazla satınalma satırı oluşturmanız gerekir.
 
  Sabit kıymetlerle ve Borç hesaplarını tümleştirmek için aşağıdaki yöntemler kullanılabilir ve tüm sabit kıymetler için aynı yöntemi kullanmanız gerekir:
 -   Satın alma siparişindeki veya satıcı faturadaki satıra sabit kıymet numarası eklemeden önce el ile bir sabit kıymet oluşturmanız gerekir. Satıcı faturasını naklettiğinizde kıymet için deftere otomatik olarak bir alım hareketi nakledilir. Bu, varsayılan yöntemdir.

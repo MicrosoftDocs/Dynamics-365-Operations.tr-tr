@@ -3,7 +3,7 @@ title: Borç hesapları fatura eşleşmesi
 description: Borç hesapları faturası eşleştirme, satıcı faturasını, satın alma siparişini ve ürün alındı bilgilerini eşleştirme işlemidir.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6d1582d268be759cd1f1686c9e80f6cf7eeb2da8
+ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310289"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "389945"
 ---
 # <a name="accounts-payable-invoice-matching"></a>Borç hesapları fatura eşleşmesi
 
@@ -49,7 +49,7 @@ Borç hesapları fatura eşleştirmesi için aşağıdaki türleri kullanabilirs
 
 İki yönlü eşleştirme ve üç yönlü eşleştirme her zaman fiyat bilgilerini birim fiyata göre eşleştirir. Bu eşleştirme ilkelerini fiyat bilgisini, fiyat toplamına eşleştirmek üzere de yapılandırabilirsiniz.
 -   NET birim fiyatı eşleştirme – İki yönlü eşleştirme ve üç yönlü eşleştirme için fiyat bilgisini, faturanın üzerindeki her bir satır için net birim fiyatı, satınalma siparişi üzerinde karşılık gelen net birim fiyatı ile eşleştirerek gerçekleştirin. Net birim fiyat aşağıdaki formül kullanılarak belirlenir: Satırın net tutarı / Satırın miktarı
--   Fiyat toplamları eşleştirme – İki yönlü eşleştirme ve üç yönlü eşleştirme için fiyat bilgisini, faturanın üzerindeki her bir satır için net tutarı (fiyat toplamı), satınalma siparişi üzerinde karşılık gelen net tutar ile eşleştirerek gerçekleştirin. Net tutar aşağıdaki formül kullanılarak belirlenir: (Birim fiyat \* Satır miktarı) + Satır giderleri - Satır indirimleri
+-   Fiyat toplamları eşleştirme – İki yönlü eşleştirme ve üç yönlü eşleştirme için fiyat bilgisini, faturanın üzerindeki her bir satır için net tutarı (fiyat toplamı), satınalma siparişi üzerinde karşılık gelen net tutar ile eşleştirerek gerçekleştirin. Net tutar aşağıdaki formül kullanılarak belirlenir: *(Birim fiyat \* Satır miktarı) + Satır giderleri - Satır indirimleri*. Fiyat toplamlarını yüzde ile eşleştirirken, sistem değerleri hareketin para birimini kullanarak karşılaştırır. Fiyat toplamlarını tutara göre eşleştirirken, sistem değerleri muhasebe para birimini kullanarak karşılaştırır.
 
 Genellikle, satıcı fatura sayfasındaki satıcı faturalarını düzenlerken fatura eşleştirme hesaplamaları otomatik olarak gerçekleştirilir. Alternatif olarak, fatura eşleştirmesi, gerektiği takdirde isteğe bağlı gerçekleştirilebilir. Tüzel kişilik için İsteğe bağlı fatura eşleştirme, Borç hesapları parametreleri sayfasındaki Fatura Doğrulama sekmesindeki Fatura başlığı durumunu otomatik olarak güncelleştirmenin hedefine göre denetlenir. Fatura eşleştirme ayrıca fatura inceleme işleminin bir parçası olarak da gerçekleştirilebilir. Fatura eşleştirmenin sonuçlarını satıcı fatura sayfasında ve ilgili fatura eşleştirme sayfalarında da görüntüleyebilirsiniz.
 

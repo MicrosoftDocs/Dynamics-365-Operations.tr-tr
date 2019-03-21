@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d636e77888fff383849b3a91bf643475a6d516ac
-ms.sourcegitcommit: 383a344deb5abf48584ea2ee7774b8dbbbec49b3
+ms.openlocfilehash: efda4e39f63155785386ecec6d21973e01a0f69f
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "377890"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770905"
 ---
 # <a name="integration-with-microsoft-dynamics-365-for-field-service"></a>Microsoft Dynamics 365 for Field Service'le Tümleştirme
 
@@ -75,7 +75,7 @@ Saha teknisyenlerine, Finance and Operations'tan stok bilgisi hakkında içgör�
 ### <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations için sistem gereksinimleri
 Field Service tümleştirmesi aşağıdaki sürümleri destekler:
 
-- Dynamics 365 for Finance and Operations sürüm 8.1.2 (Aralık 2019), Aralık 2019'da yayımlanmıştır ve uygulama yapı numarası 8.1.195 Platform Güncelleştirmesi 22'ye (7.0.5095) sahiptir. 
+- Dynamics 365 for Finance and Operations sürüm 8.1.2 (Aralık 2018), Aralık 2018'da yayımlanmıştır ve uygulama yapı numarası 8.1.195 Platform Güncelleştirmesi 22'ye (7.0.5095) sahiptir. 
 
 ### <a name="system-requirements-for-field-service"></a>Field Service için sistem gereksinimleri
 Field Service tümleştirme çözümünü kullanmak için aşağıdaki bileşenleri yüklemeniz gerekir:

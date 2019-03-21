@@ -3,7 +3,7 @@ title: Kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 12/10/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329264"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836360"
 ---
 # <a name="removed-or-deprecated-features"></a>Kaldırılan veya kullanımına son verilen özellikler
 
@@ -35,11 +35,77 @@ Bu konu, Dynamics 365 for Finance and Operations için kaldırılmış veya art�
 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
-> [!Note]
+> [!NOTE]
 > Platform güncelleştirmesi 8 ile Dynamics 365 for Finance and Operations Temmuz 2017 sürümünden başlayarak, kaldırılan veya kullanımına son verilen her özellik için dağıtımların türü not edilmiştir. Bu konuda söz edilen önceki tüm sürümler yalnızca desteklenen bulut dağıtımlarıdır.
 
-> [!Note]
+> [!NOTE]
 > Finance and Operations içindeki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) altından ulaşabilirsiniz. Finance and Operations'ın her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1, platform güncelleştirmesi 25 ile
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.1 Platform Güncelleştirmesi 25 ile, bir önizleme sürümünün parçası olarak çeşitli kullanıcılara sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Standart ve İlk sürüm servis güncelleştirmeleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a>Kaldırılan API'ler ve potansiyel bozucu değişiklikler
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a>Dahili sınıftan türetme kalkmıştır
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Platform öncesi sürümlerde 25 güncelleştirme, bu tablo bir iç sınıf/başka bir paket/modülünde tanımlanmış tablosu türetilen bir sınıf veya oluşturulabilir. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile başlayarak, derleyici bunu yapmaya çalışırsanız bir uyarı mesajı görüntüler.|
+| **Başka bir özellikle mi değiştirildi?**   | Derleyici uyarısı, gelecekteki bir platform güncelleştirmesinde değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya daha sonrasını kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler. |
+| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları. |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı - Uyarı, gelecekteki bir platform güncelleştirmesinde derleme hatası olarak değiştirilecektir. |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a>Dahili yöntemleri geçersiz kılma kalkmıştır
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Platform güncelleştirmesi 25'ten önceki sürümlerde, başka bir paket/modülde tanımlanan türetilen bir sınıftaki dahili bir yöntemi geçersiz kılmak mümkündü. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile başlayarak, derleyici bunu yapmaya çalışırsanız bir uyarı mesajı görüntüler.|
+| **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, gelecek platform güncelleştirmesinde bir derleme hatası ile değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya daha sonrasını kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler. |
+| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları. |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı - Uyarı, gelecekteki bir platform güncelleştirmesinde derleme hatası olarak değiştirilecektir. |
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3, platform güncelleştirmesi 23 ile
+
+### <a name="print-to-screen-functionality"></a>Ekrana yazdırma özelliği
+Müşteriler Rapor Görüntüleyici denetimi tarafından sağlanan **İçe aktarma** eylemini, Finance and Operations uygulamaları tarafından üretilen belgeleri indirme için kullanabilirler. Raporun HTML tabanlı sunumu, belgenin sayfalandırılmamış önizlemesini kullanıcılara sunar.
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | HTML tabanlı önizleme deneyiminin sayfalandırılmamış doğası, Finance and Operations tarafından nihai olarak üretilen fiziksel belgelerin doğruluğunu **sunmaz**. PDF'i iş operasyonları için standart biçim olarak benimseyerek, uygulama raporları ile kullanıcı etkileşimini önemli ölçüde basitleştirdik ve belge işleme sürecini hızlandırdık. |
+| **Başka bir özellikle mi değiştirildi?**   | Gelecekte, PDF belgeleri Finance and Operations tarafından oluşturulan raporlar için varsayılan biçim olacaktır.   |
+| **Etkilenen ürün alanları**         | Bu değişiklik, raporların elektronik olarak dağıtıldığı veya doğrudan yazıcılara gönderildiği müşteri senaryolarını **etkilemez**.    |
+| **Dağıtım seçeneği**              | Tümü  |
+| **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi. Uygulama raporlarını otomatik olarak tarayıcıya PDF belgesi olarak indirme özelliği, Mayıs 2019 Platform güncelleştirmesi için planlanmıştır. <br><br>**Önemli:**  Ekrana yazdır özelliğine dayanan mevcut müşterilerin, Platform güncelleştirmesi 26'ya geçmeden önce [Destek](../lifecycle-services/lcs-support.md) ile iletişime geçmeleri önerilir. |
+
+### <a name="client-kpi-controls"></a>İstemci KPI denetimleri
+Katıştırılmış kilit performans göstergeleri (KPI'ları), bir geliştirici tarafından Visual Studio içinde modellenebilir ve son kullanıcı tarafından daha da özelleştirilebilir.
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | KPI'ları tanımlamak için kullanılan yerel istemci denetimleri, düşük müşteri katılımına sahiptir ve geliştiricinin izlenebilir metrikler eklemesine bağlıdır. |
+| **Başka bir özellikle mi değiştirildi?**   | PowerBI.com servisi, KPI'ları dış kaynak verilerine dayanarak tanımlama ve yönetme için üst düzey araçlar sağlar.  Gelen bir sürümde, uygulama çalışma alanlarında PowerBI.com barındırılan çözümleri katıştırmanız planlanmaktadır.   |
+| **Etkilenen ürün alanları**         | Bu güncelleştirme, geliştiricilerin yeni KPI denetimlerini Visual Studio tasarımcısında dahil etmelerini engeller.    |
+| **Dağıtım seçeneği**              | Tümü  |
+| **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi. |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a>Kaldırılan API'ler ve gelecekteki bozucu değişiklikler
+
+#### <a name="field-groups-containing-invalid-field-references"></a>Geçersiz alan referansı içeren alan denetimleri
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Tablo metaveri tanımlarının geçersiz alan referansları içeren alan gruplarına sahip olması mümkündür. Bu sorun şu anda bir *hata* yerine *derleyici uyarısı* olarak kategorize edilmiştir, bu da dağıtılabilir paket oluşturma ve geliştirmenin bu sorun giderilmeden devam edebileceği anlamına gelir. Dağıtıldığında, bu, Finansal Raporlama ve SQL Server Reporting Services (SSRS) içinde çalışma zamanı hatalarına neden olabilir. Bu sorunu gidermek için:<br><br>1. Geçersiz alan başvurusunu tablo alanı grubunu tanımından kaldırın.<br><br>2. Yeniden derleyin.<br><br>3. Uyarılar veya hataların ele alındığından emin olun. |
+| **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, gelecekte bir derleme hatası ile değiştirilecektir.  |
+| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları. |
+| **Dağıtım seçeneği**              | Tümü. |
+| **Durum**                         | Kullanımdan kalktı - Uyarı, gelecekte bir derleme zamanı hatası olacaktır. Şu anda Platform güncelleştirmesi 30'u hedefliyoruz. |
+
+#### <a name="complete-list"></a>Tam liste
+Kullanımdan kalkan API'lerin tam listesine erişmek için bkz. [Yöntemler ve meta veri öğelerinin kaldırılması](deprecation-deletion-apis.md).
 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1, platform güncelleştirmesi 20 ile
 
@@ -52,7 +118,7 @@ Zaman uyumlu aktarım modunu genel muhasebe parametrelerinde kaldırılıyor.  B
 | **Başka bir özellikle mi değiştirildi?**   | Asenkron ve zamanlanan toplu iş seçenekleri, zaman uyumlu yerine kullanılacak seçeneklerdir.   |
 | **Etkilenen ürün alanları**         | Genel muhasebe, Borç hesapları, Alacak Hesapları, satın alma, gider    |
 | **Dağıtım seçeneği**              | Tümü  |
-| **Durum**                         | Kullanımı sonlandırıldı - İşlevin kaldırılması hedeflenen zaman aralığı 10.0 sürümüdür.|
+| **Durum**                         | Kullanımı sonlandırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 10.0 sürümüdür.|
 
 ### <a name="electronic-reporting-for-russia"></a>Rusya için Elektronik raporlama
 .txt ve .xml dosya biçimlerini bildirimler için yapılandırma özelliği. 
@@ -246,7 +312,7 @@ Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için ama�
 | **Başka bir özellik ile değiştirildi?**   | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşullar hakkında daha fazla bilgi için bkz. [Yükleme ve yapılandırma Microsoft Dynamics 365 for Finance and Operations - Ambarlama](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Etkilenen ürün alanları**         | Ambar yönetimi, Taşıma yönetimi     |
 | **Dağıtım seçeneği**              | Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için amaçlanmış bir tek bileşendir.               |
-| **Durum**                         | Kaldırıldı:: İşlevin kaldırılması hedeflenen zaman aralığı 2019 yılı 4. çeyreğidir.   |
+| **Durum**                         | Kaldırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 2019 yılı 4. çeyreğidir.   |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>El ile eşleştirme için gelişmiş banka mutabakatı eşleştirme kuralı
 
@@ -807,7 +873,7 @@ Microsoft Dynamics AX 2012, eklerin veritabanında ve dosya paylaşımında depo
 
 ### <a name="direct-database-connection"></a>Doğrudan veritabanı bağlantısı
 
-Dynamics AX 2012 R3 içerisinde, Retail Modern POS Retail Modern POS, Kanal Veritabanına, Kuruluş POS'a benzer şekilde doğrudan bağlanamadı. Bu, Retail Modern POS'un, Perakende Sunucusu üzerinden iletişim kurarken standart iletişim yöntemine ek olarak oluştu.
+Dynamics AX 2012 R3 içerisinde, Retail Modern POS , Kanal Veritabanına, Kuruluş POS'a benzer şekilde doğrudan bağlanamadı. Bu, Retail Modern POS'un, Perakende Sunucusu üzerinden iletişim kurarken standart iletişim yöntemine ek olarak oluştu.
 
 |   |  |
 |------------|--------------------|

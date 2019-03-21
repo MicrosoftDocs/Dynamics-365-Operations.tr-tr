@@ -3,7 +3,7 @@ title: Alacaklar hesapları için merkezi ödemeler
 description: Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten tek bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı hareketin girilmesi gerekmez. Bu makalede, çeşitli senaryolarda deftere nakletmenin merkezi ödemeler için nasıl işlendiğini gösteren örnekler yer almaktadır.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f6b8b1548bf70363431ad58482ba82cf11017332
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330759"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390155"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Alacaklar hesapları için merkezi ödemeler
 
@@ -33,7 +33,7 @@ Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten tek bir
 
 Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı hareketin girilmesi gerekmez. Ayrıca kuruluş, ödeme teklifleri, kapatmalar ve merkezi ödemeler için açık ve kapalı hareketlerin düzenleme işlemleri verimli hale getirileceği için zamandan tasarruf sağlar. 
 
-Bir merkezi ödeme organizasyonunda, işlemler için birçok tüzel kişilik vardır ve işlem yapan her bir tüzel kişilik kendi faturalarının alacak bilgilerini yönetir. İşlem yapan tüm tüzel kişilikler için ödemeler tek bir tüzel varlık tarafından alınır ve bu, ödemenin tüzel kişiliği olarak bilinir. Kapatma işlemi sırasında, ilgili vade sonu ve vade başlangıcı hareketleri oluşturulur. Organizasyondaki hangi tüzel kişiliğin gerçekleşmiş kar veya gerçekleşmiş zarar hareketlerini alacağını ve merkezi ödeme ile ilgili nakit iskonto işlemlerinin nasıl halledileceğini belirleyebilirsiniz. 
+Bir merkezi ödeme organizasyonunda, işlemler için birçok tüzel kişilik vardır ve işlem yapan her bir tüzel kişilik kendi faturalarının alacak bilgilerini yönetir. İşlem yapan tüm tüzel kişilikler için ödemeler tek bir tüzel varlık tarafından alınır ve bu, ödemenin tüzel kişiliği olarak bilinir. Kapatma işlemi sırasında, ilgili vade sonu ve vade başlangıcı hareketleri oluşturulur. Organizasyondaki hangi tüzel kişiliğin gerçekleşmiş kar veya gerçekleşmiş zarar hareketlerini alacağını ve merkezi ödeme ile ilgili nakit iskonto işlemlerinin nasıl halledileceğini belirleyebilirsiniz. Merkezi ödeme günlük satırında **Hesap türünün** Müşteri olarak ayarlanması gerekir. **Mahsup hesap türü**'nün Banka veya Genel Muhasebe olarak ayarlanmış olması gerekir. Banka hesabı geçerli şirkette olmalıdır. 
 
 Aşağıdaki örneklerde, naklin çeşitli senaryolarda nasıl yönetildiği gösterilmektedir. Tüm bu örnekler için aşağıdaki yapılandırma varsayılır:
 
@@ -296,8 +296,3 @@ Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. 
 | Alacak hesapları (Fabrikam West)    |              | 75,00         |
 | Vade başlangıcı Fabrikam East (Fabrikam West) | 25,00        |               |
 | Alacak hesapları (Fabrikam West)    |              | 25,00         |
-
-
-
-
-

@@ -3,7 +3,7 @@ title: Ambar yönetimi ile Fiili ağırlık ürün işlemi
 description: Bu konuda ambar içinde işin nasıl ve nerede gerçekleştirileceğini belirlemek için iş şablonları ve konum yönergelerinin nasıl kullanılacağı açıklanmaktadır.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5161860e3b1c5b0ae795d109159268be085ec5af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
+ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334071"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "777284"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile Fiili ağırlık ürün işlemi
-[!include [preview banner](../../includes/preview-banner.md)]
+
 [!include [banner](../includes/banner.md)]
 
-**Özellik tanıtımı**
+## <a name="feature-exposure"></a>Özellik tanıtımı
 
 Fiili ağırlık ürünlerini kullanmak için Ambar yönetimini kullanmak için işlevi açmak için bir lisans yapılandırma anahtarını kullanmalısınız. (**Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin. **Yapılandırma anahtarları** sekmesinde, **Ticari \> Ambar ve Nakliye yönetimi** üzerinde, **Ambar için Fiili ağırlık** seçeneği için onay kutusunu seçin.
 
 > [!NOTE]
-> Hem **Ambar ve Taşıma yönetimi** lisans yapılandırması anahtarı hem de **İşlem dağıtımı fiili ağırlık** lisans yapılandırma anahtarlarının da açık olması gerekir.
+> **Hem Ambar ve Taşıma yönetimi** lisans yapılandırması anahtarı hem de **İşlem dağıtımı \> Fiili ağırlık** lisans yapılandırma anahtarlarının da açık olması gerekir.
 
 Lisans yapılandırma anahtarı açıldıktan sonra serbest bırakılan bir ürün oluşturduğunuzda **Fiili ağırlık** seçebilirsiniz. Serbest bırakılan ürünü **Ambar yönetim işlemi** parametresinin seçili olduğu bir depolama boyut grubu ile ilişkilendirebilirsiniz.
 

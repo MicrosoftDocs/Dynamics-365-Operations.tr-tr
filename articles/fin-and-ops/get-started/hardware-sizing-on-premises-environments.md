@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
+ms.sourcegitcommit: 21bbdac152e0cbb0576df9d5e6e90283175834ef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340741"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768426"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 
@@ -86,7 +86,7 @@ Boyutlandırma gereksinimlerinizi anlamak için işlemeniz gereken hareketlerin 
     - Veritabanı günlüğü ve uyarılar gibi ek işlevlerin kullanımı. Ekstrem veritabanı kaydı alma saat başına çekirdek başına çıkışı 3K satır altına çekecektir.
     - Veri bileşiminin karmaşıklığı – Basit bir hesap planına karşılık ayrıntılı bir hesap planının çıkış üzerine etkileri vardır (örnek olarak).
     - Hareket nitelendirme.
-    - Her bir çekirdek için 2 GB - 4 GB arası bellek
+    - Her bir çekirdek için 2 GB - 16 GB arası bellek
     - DB sunucusu üzerinde Yönetim raporlayıcısı ve SSRS veritabanları gibi yedek veritabanları.
     - Temp DB = veritabanı boyutunun %15'i, fiziksel işlemciler kadar fazla sayıda dosya ile.
     - SAN boyutu ve çıkış, toplam eş zamanlı hareket hacmi/kullanımına dayalıdır.

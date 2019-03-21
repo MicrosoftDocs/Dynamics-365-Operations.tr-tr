@@ -1,9 +1,9 @@
 ---
 title: Satır tanımı hücrelerini değiştirme
-description: Bu makalede bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır.
+description: Bu konu bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
+ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323652"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379676"
 ---
 # <a name="modify-row-definition-cells"></a>Satır tanımı hücrelerini değiştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır.
+Bu konu bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Bir satır tanımında bir satır kodu belirleme
 
@@ -386,7 +386,7 @@ Bir satırı mevcut bir defter koduyla sınırlayabilirsiniz. Sütun tanımı bi
 Bazı muhasebe sistemleri, mali verilerdeki hesap özniteliklerini ve hareket özniteliklerini destekler. Bu öznitelikler sanal hesap segmentleri gibi çalışır ve hesap veya hareket hakkında ek bilgiler taşıyabilir. Bu ek bilgiler hesap kodları, toplu iş kodları, posta kodları ve diğer öznitelikler olabilir. Muhasebe sisteminiz öznitelikleri destekliyorsa satır tanımında hesap özniteliklerini veya hareket özniteliklerini satır değiştiriciler olarak kullanabilirsiniz. Satır bilgilerini geçersiz kılma hakkında bilgi için, bu makalenin önceki kısmındaki "Bir sütun tanımını geçersiz kılma" bölümüne bakın.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Mali Boyutlarla İlişkilendir hücresi belirtme
-**Mali Boyutlarla İlişkilendir** hücresi bir raporun her satırına eklenmesi gereken mali verilerin bağlantılarını içerir. Bu hücre boyut değerlerini içerir, ancak hücreleri segment değerleri veya boyut değerleri yerine veya bunlara ek olarak Microsoft Excel çalışma sayfasında belirtebilirsiniz. **Boyutlar** iletişim kutusunu açmak için **Mali Boyutlara Bağlantı** hücresini çift tıklayın.
+**Mali Boyutlarla İlişkilendir** hücresi bir raporun her satırına eklenmesi gereken mali verilerin bağlantılarını içerir. Bu hücre boyut değerlerini içerir. **Boyutlar** iletişim kutusunu açmak için **Mali Boyutlara Bağlantı** hücresini çift tıklayın.
 
 > [!NOTE]
 > Rapor Tasarımcısı Microsoft Dynamics ERP sisteminden şu ayrılmış karakterlerden herhangi birini içeren hesaplar, boyutlar veya alanları seçemez: &, \*, \[, \], {, veya }. Zaten satır tanımında yer alan bir satıra ait bilgileri belirtmek için, bilgileri **Mali Boyutlarla İlişkilendir** hücresine ekleyin. Mali verilerle ilişkilendirilen yeni satırlar eklemek için, rapor tanımında yeni satırlar oluşturmak için **Şuradan satır ekle:** iletişim kutusunu kullanın. Aşağıdaki tabloda gösterildiği gibi sütunun nasıl yapılandırıldığına bağlı olarak sütun başlığı değişir.
@@ -394,9 +394,7 @@ Bazı muhasebe sistemleri, mali verilerdeki hesap özniteliklerini ve hareket ö
 | Seçilen bağlantı türü       | Bağlantı sütununun açıklaması şu şekilde değişir |
 |----------------------------------|----------------------------------------------------|
 | Mali Boyutlar             | Mali Boyutlarla İlişkilendir                       |
-| Harici Çalışma Sayfası               | Çalışma Sayfası Bağlantısı                                  |
-| Mali Boyutlar + Çalışma Sayfası | Mali Boyutlarla İlişkilendir + Çalışma Sayfası           |
-| Management Reporter Raporu       | Management Reporter Raporu                         |
+| Rapor Çalışma sayfası                 | Mali Raporlamalar Raporu                         |
 
 ### <a name="specify-a-dimension-or-range"></a>Boyut veya aralık belirtme
 

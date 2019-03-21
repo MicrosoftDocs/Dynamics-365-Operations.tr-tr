@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: 43cf13d96e345747e06541267d820e17de7c1763
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376519"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768894"
 ---
 # <a name="set-up-offer-management"></a>Teklif yönetimini ayarlayın 
 
@@ -199,11 +199,11 @@ Attract yöneticisi tarafından yapılandırılabilir teklif oluşturma işlemin
 - **Adayın teklif deneyimi** - Yönetici olarak, tüm tekliflerin bitiş tarihi olmasını seçebilirsiniz, bu durumda bitiş tarihinin varsayılan mahsubunun ne olması gerektiğini de seçmelisiniz. Adayların bir teklif reddedip reddemeyeceğini de yapılandırabilirsiniz.
 
 - **e-İmzalar** - Bir yönetici olarak, adayların tekliflere imza atabilecekleri yöntemleri seçebilirsiniz.
-    - Adobe Sign - Tüm teklif paketleri Adobe Sign ile gönderilir. Teklifi yayınlayan her teklif oluşturucusunun kendi Adobe Sign lisansını Attract'e bağlamış olması gerekir. 
+    - Adobe Sign - Tüm teklif paketleri Adobe Sign ile gönderilir. Teklifi yayınlayan her teklif oluşturucusunun kendi Adobe Sign hesabını Attract'e bağlamış olması gerekir. Adobe Sign için lisanslar ve bir ücretsiz Deneme için lütfen bu [bağlantıyı](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html) ziyaret edin.
 
+    - DocuSign - Tüm teklif paketleri DocuSign ile gönderilir. Teklifi yayınlayan her teklif oluşturucusunun kendi DocuSign hesabını Attract'e bağlamış olması gerekir. 
+    
     - ESign - Bu varsayılan seçenektir, kullanıma hazırdır, kullanıcı kendi adını ve baş harflerini yazarak imza atabilir.
 
->[!NOTE]
-> Adobe Sign için lisanslar ve bir ücretsiz Deneme için lütfen bu [bağlantıyı](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html) ziyaret edin.
 
 Teklif oluşturma işlemi hakkında daha fazla bilgi için bkz: [Teklif oluşturma, onaylama ve imzalama](./creating-offers.md).

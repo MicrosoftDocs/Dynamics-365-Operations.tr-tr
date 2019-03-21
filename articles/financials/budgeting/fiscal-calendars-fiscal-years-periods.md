@@ -3,7 +3,7 @@ title: Mali takvimler, mali yıllar ve dönemler
 description: Bu makalede, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.
 author: aprilolson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361671"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778213"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Mali takvimler, mali yıllar ve dönemler
 
@@ -43,7 +43,7 @@ Kapanış dönemi, mali yıl kapatılırken oluşturulan genel muhasebe hareketl
 Kapanış dönemi oluşturduğunuzda, durumu Açık olan bir dönem seçin ve kullanmak istediğiniz tarihleri olan. Yeni bir kapanış dönemi mevcut dönemin başlangıç ve bitiş tarihlerini kopyalar. Asıl dönem var olmaya devam eder. Örneğin, mali yılın son dönemi olan Dönem 12'yi seçersiniz ve bunun tarihleri 1 Ağustos ile 31 Ağustos arasındadır. Kapanış dönemi için Kapanış gibi bir isim girersiniz. Yeni kapatma periyodunu oluşturduktan sonra artık özgün döneme ve kapanış dönemine sahipsiniz. Her ikisinin de 1 Ağustos tarihinde başlayıp ve 31 Ağustos'ta biten tarihleri vardır.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Genel muhasebeler, sabit kıymetler ve bütçe döngüleri için mali takvim seçin
-Mali takvimler sabit kıymet amortismanı, mali hareketler ve bütçe döngüleri ile kullanılır. Mali takvim oluşturduğunuzda, birden çok amaç için kullanabilirsiniz. Sabit kıymet takvimi yapmak için, bir değer modeli veya amortisman defteri için mali takvim seçebilirsiniz. Genel muhasebe defter takvimi yapmak için bir mali takvim seçebilirsiniz. Bütçe takvimi yapmak için bir bütçe döngüsüne mali takvim seçebilirsiniz. Bunların tümü için aynı mali takvimi kullanabilirsiniz.
+Mali takvimler sabit kıymet amortismanı, mali hareketler ve bütçe döngüleri ile kullanılır. Mali takvim oluşturduğunuzda, birden çok amaç için kullanabilirsiniz. Sabit kıymet takvimi yapmak için, bir sabit kıymet defteri için mali takvim seçebilirsiniz. Genel muhasebe defter takvimi yapmak için bir mali takvim seçebilirsiniz. Bütçe takvimi yapmak için bir bütçe döngüsüne mali takvim seçebilirsiniz. Bunların tümü için aynı mali takvimi kullanabilirsiniz.
 
 ### <a name="select-a-fiscal-calendar-for-your-legal-entity"></a>Tüzel kişiliğiniz için bir mali takvim seçin
 
@@ -51,7 +51,7 @@ Genel muhasebe defter formunda, bir tüzel kişiliğinizin genel muhasebe defter
 
 ### <a name="select-a-fiscal-calendar-for-fixed-assets"></a>Sabit kıymetler için bir mali takvim seçin
 
-Bir değer modeli veya amortisman defteri için bir mali takvim seçebilirsiniz. Bu mali takvim daha sonra seçili değer modelini veya amortisman defterini kullanan sabit kıymetler tarafından kullanılacaktır. Mali takvimler sayfasında tanımlanan herhangi bir mali takvim arasından seçim yapabilirsiniz.
+Bir sabit kıymet defteri için bir mali takvim seçebilirsiniz. Bu mali takvim daha sonra seçili defteri kullanan sabit kıymetler tarafından kullanılacaktır. Mali takvimler sayfasında tanımlanan herhangi bir mali takvim arasından seçim yapabilirsiniz.
 
 ### <a name="define-budget-cycle-time-spans"></a>Bütçe döngüsü zaman aralıklarını tanımlayın
 

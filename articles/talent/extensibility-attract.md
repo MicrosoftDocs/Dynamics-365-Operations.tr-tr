@@ -3,7 +3,7 @@ title: Attract'ta genişletilebilirlik
 description: Bu konu, Microsoft Dynamics 365 for Talent - Attract uygulamasını Microsoft Güç platformunu kullanarak nasıl genişletebileceğinizi açıklar.
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,18 +18,41 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c77c64070cb82180441f4b629b6884981b9b81d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306557"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789663"
 ---
 # <a name="extensibility-in-attract"></a>Attract'ta genişletilebilirlik
 
 [!include[banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent, Uygulamalar İçin Common Data Service (CDS) platformu üzerine kuruludur ve Microsoft Güç Platformu ve Uygulamalar İçin Common Data Service (CDS) sunduğu özellikler kullanılarak çeşitli şekillerde genişletilebilir. Bu nedenle, Microsoft PowerApps ve Microsoft Flow kullanarak sistemi yapılandırabilir ve kişiselleştirebilirsiniz. Ayrıca Microsoft Power BI kullanarak kişilerle ilgili ilave analitik alabilirsiniz. Ayrıca, PowerApps ve Web içeriği (iframe) gibi yeni özel etkinlikler işe alma işlemini her zamankinden daha uyarlanabilir yapar. Bu etkinlikleri kullanarak iş gereksinimlerinizi ve işlemleri işe alma işlemine uyarlayabilirsiniz ve hem işe alma ekibi hem adayların sorunsuz ve özelleştirilmiş deneyim yaşadığından emin olabilirsiniz.
+
+## <a name="extending-option-sets-in-attract"></a>Attract'te seçenek kümelerini genişletmek
+
+Bir **Seçenek Kümesi** (seçme listesi) bir varlığa dahil edilebilecek bir alan türüdür. Bir seçenek kümesini tanımlar. Bir seçenek kümesi, bir formda görüntülendiğinde bir açılır liste denetimi kullanır.  Attract içinde seçenek kümesi olan birden çok alan vardır.  Yeni yeterlilikler, seçenek kümelerini genişletmek için sunmaya başlıyoruz, Reddetme sebep alanı, İstihdam türü alanı ve Kıdem türü alanı.   Ayrıca, eklediğiniz seçenekler için yerelleştirilmiş görüntü etiketleri ekleyebilirsiniz.  Lütfen daha fazlası için aşağıdaki bağlantıya başvurun: [Seçenek kümesi etiketlerini özelleştirme](https://docs.microsoft.com/en-us/poweapps/developer/common-data-service/customize-labels-suport-multiple-languages)
+
+> [!NOTE]
+> LinkedIn'e iş ilanı verme özelliği, **İstihdam türü** ve **Kıdem türü** alanının **İş ayrıntıları** sayfasında kullanılmasını gerektirir. Bu alanlardaki varsayılan değerler, LinkedIn tarafından desteklenir ve iş ilanı verildiğinde görüntülenir. Bu nedenle, LinkedIn'e iş ilanları veriyorsanız ve mevcut seçenek kümesi değerlerini bu alanlar için değiştiriyorsanız, iş ilanı yine de verilecektir ancak LinkedIn, özel **İstihdam türü** ve **Kıdem türü** değerlerini görüntülemez.  
+
+Aşağıda, **Reddetme sebebi** alanını işinizle ilgili değerler ile güncelleştirmek için adımlar listelenmiştir.  
+
+1. **Reddetme sebebi** seçenek kümesini genişletmek için [PowerApps Yönetici web sitesi'ne](Https://admin.powerapps.microsoft.com) gidin.
+2. Hesabınıza oturum açmanız istenebilir. Dynamics365 ve/veya Office365 içine oturum açmak için kullanıcı adı ve parolanızı verin ve sonra **İlerle**'ye tıklayın.
+3. **Ortam** sekmesinde, yönetmek istediğiniz ortamı seçin ve **Ayrıntılar** sekmesine ulaşmak için çift tıklayın.
+4. **Ayrıntılar** sekmesinde, **Dynamics 365 Yönetim Merkezi**'ni seçin.
+5. Değiştirmek istediğiniz kurulumu seçin ve **Aç**'ı seçin.
+6. **Ayarlar**'a gidin ve sonra **Özelleştirmeler**'e gidin ve sonra **Sistemi özelleştir**'i seçin.
+7. **Varlıklar**'ı seçerek seçenek kümesini genişletmek istediğiniz varlığı bulun ve grubu genişletin. Bu örnekte, **İş başvurusu varlığı** olacaktır.
+8. **Alanlar** seçeneğini seçerek, genişletmek istediğiniz seçenek kümesinin alanına gidin. Bu örnekte **msdyn_rejectionreason** olacaktır. Alana çift tıklayın.
+9. **Seçenek Kümesi** alanında **Düzenle**'yi seçin.
+10. **+** simgesini seçin.
+11. Bir **Etiket** girin.  (Bu, benzersiz bir değer olmalıdır - yineleme olmadan).
+12. **Kaydet**'i seçin.
+13. Sayfanın üstündeki **Yayımla**'yı seçin.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Microsoft Power platformdan yararlanın 
 

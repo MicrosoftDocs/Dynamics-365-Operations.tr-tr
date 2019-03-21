@@ -3,7 +3,7 @@ title: Veri içe ve dışa aktarma işleri
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
+ms.sourcegitcommit: 7b438a94b59ab52518e03b22217cb48e41fbeb71
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360222"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "834672"
 ---
 # <a name="data-import-and-export-jobs"></a>Veri içe ve dışa aktarma işleri
 
@@ -128,6 +128,9 @@ Bir iş aynı anda roller, kullanıcılar ve tüzel varlıklarla güvenlik altı
 
 ## <a name="run-the-import-or-export-job"></a>İçe ve dışa aktarma işini çalıştırın
 Bir işi tanımladıktan sonra **İçe aktar** veya **Dışa aktar** seçerek bir defa çalıştırabilirsiniz. Yinelenen bir iş ayarlamak için **Yinelenen veri işi oluştur** seçebilirsiniz.
+
+[!NOTE]
+Bir içe aktarma veya dışa aktarma işi zaman uyumsuz olarak **İçe aktar** veya **Dışa aktar** düğmesini seçerek çalıştırılabilir. Zaman uyumsuz olarak çalıştırmak, Finance and Operations içinde zaman uyumsuz çerçeveyi kullanır, bu da toplu iş çerçevesinden farklıdır. Ancak, toplu iş çerçevesi gibi, zaman uyumsuz çerçeve de azaltma uygulayabilir ve sonuç olarak, iş derhal yürütülmeyebilir. İşler, **Şimdi içe aktar** veya **Şimdi dışa aktar** seçerek eşzamanlı olarak da çalıştırılabilir. Bu, işi derhal başlatır ve zaman uyumsuz veya bir toplu iş, azaltma nedeniyle başlatılmazsa faydalıdır. İşler, **Toplu iş içinde çalıştır** seçeneği seçilerek toplu iş içinde de çalıştırılabilir. Toplu iş kaynakları, azaltılabilir, bu nedenle toplu iş derhal başlatılmayabilir. Zaman uyumsuz seçeneği, kullanıcılar doğrudan kullanıcı arabirimi ile etkileşime girdiklerinde ve toplu iş zamanlamayı anlamayan ileri düzey kullanıcı olmadıklarında yararlıdır. Büyük miktarların içe veya dışa aktarılması gerektiğinde toplu bir toplu işi alternatif bir seçenek olarak kullanmak. Toplu işler, belirli bir toplu iş grubunda yürütülmek üzere zamanlanabilir, bu da bir yük dengeleme perspektifinden bakınca daha fazla denetime izin verir. Zaman uyumsuz ve toplu iş, sistemdeki yüksek kaynak kullanımı nedeniyle azaltılıyorsa, anında etki edecek bir geçici çözüm olarak, içe/dışa aktarmanın eşzamanlı sürümü kullanılabilir. Eşzamanlı seçenek, anında başlatılır ve kullanıcı arabirimini engelleyecektir çünkü eşzamanlı olarak yürütülür. Tarayıcı penceresinin eşzamanlı işlem devam ederken açık tutulması gerekir.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>İşin beklendiği çalıştığını doğrulayın.
 İş geçmişi hem içe hem de dışa aktarma işlerinde sorun giderme ve sorgulama için kullanılabilir. Tarihi iş yürütmeleri zaman aralıkları ile düzenlenir.

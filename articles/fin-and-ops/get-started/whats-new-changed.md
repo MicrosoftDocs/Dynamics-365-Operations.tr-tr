@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 982b72b3fd71d58038218e007f9f3790874ceddc
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 262d301262189ec1ba40577e962eeee2ccff0da3
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377217"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791580"
 ---
 # <a name="whats-new-or-changed"></a>Yenilikler veya değişiklikler
 
@@ -53,15 +53,21 @@ Bu tablo uygulamanın ana sürümlerini listeler. Aylık bulut güncelleştirmel
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10,0</td>
-<td>10,0,8</td>
+<td>10.0.1</td>
+<td>10.0.51</td>
 <td>Nisan 2019</td>
-<td><a href="whats-new-changed-10.md">Dynamics 365 for Finance and Operations sürüm 10.0'daki yenilikler ve değişiklikler (Nisan 2019)</a></td>
+<td><a href="whats-new-changed-10-0-1.md">Dynamics 365 for Finance and Operations sürüm 10.0.1 (Nisan 2019) içindeki önizleme özellikleri</a></td>
+</tr><tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10.0</td>
+<td>10.0.8</td>
+<td>Nisan 2019</td>
+<td><a href="whats-new-changed-10-0-1.md">Finance and Operations sürüm 10.0'da neler yeni veya değişti (Nisan 2019)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>8,1,3</td>
-<td>8,1,227</td>
+<td>8.1.3</td>
+<td>8.1.227</td>
 <td>Ocak 2019</td>
 <td><a href="whats-new-changed-8-1-3.md">Dynamics 365 for Finance and Operations sürüm 8.1.3'teki değişiklikler (Ocak 2019)</a></td>
 </tr>
@@ -146,8 +152,14 @@ Bu tablo uygulamanın ana sürümlerini listeler. Aylık bulut güncelleştirmel
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Platform güncelleştirmesi 25</td>
+<td>7.0.5222</td>
+<td>Nisan 2019</td>
+<td><a href="whats-new-platform-25.md">Dynamics 365 for Finance and Operations platform güncelleştirmesi 25'teki (Nisan 2019) önizleme özellikleri</a></td>
+</tr><tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Platform güncelleştirmesi 24</td>
-<td>7,0,5179</td>
+<td>7.0.5179</td>
 <td>Mart 2019</td>
 <td><a href="whats-new-platform-update-24.md">Dynamics 365 for Finance and Operations platform güncelleştirmesi 24'deki yenilikler ve değişiklikler (Mart 2019)</a></td>
 </tr>

@@ -3,7 +3,7 @@ title: Bağlılık programına genel bakış
 description: Bu konu, Microsoft Dynamics 365 for Retail'daki bağlılık özelliklerini ve satıcının bağlılık programına kolayca başlamasına yardımcı olmak için karşılık gelen kurulum adımlarını açıklar.
 author: scott-tucker
 manager: AnnBe
-ms.date: 01/08/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bb1a1ff28c846a35858df971e29bb7a551c8012a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9b73c52a72c82c109a1ff874d2369ce9c0b3a6d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320133"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789732"
 ---
 # <a name="loyalty-overview"></a>Bağlılık programına genel bakış
 
@@ -93,7 +93,11 @@ Retail, Ekim 2018 sürümünün bir parçası olarak yeni bir bağlılık progra
 
     ![Bağlılık programı kartı oluştur](./media/Generate%20loyalty%20card.png "Otomatik olarak bağlılık programı kart numarası oluştur")
 
-- Kazanılan ve kullanılan bağlılık programı puanları, tam veya kısmi geri ödemelerde aynı miktarın verilmesi veya geri alınması için satış hattındaki her hareket ve satış emri için kaydedilir. Ayrıca, puanların satış satırı düzeyinde görünürlüğü arama merkezi kullanıcılarının, müşterilerin her satır için ne kadar puan kazandığı veya kullandığı sorularını yanıtlayabilme becerisi sağlar. Bu değişiklikten önce, ödül puanları iadelerde her zaman yeniden hesaplanırdı; bu da kazanma veya kullanma kuralları değiştirilirse orijinalden farklı bir tutara neden olurdu ve arama merkezi kullanıcıları puan dağılımını göremezdi. Puanlar her bağlılık programı kartı için **Kart hareketleri** formu altında görülür.    
+- Kazanılan ve kullanılan bağlılık programı puanları, tam veya kısmi geri ödemelerde aynı miktarın verilmesi veya geri alınması için satış hattındaki her hareket ve satış emri için kaydedilir. Ayrıca, puanların satış satırı düzeyinde görünürlüğü arama merkezi kullanıcılarının, müşterilerin her satır için ne kadar puan kazandığı veya kullandığı sorularını yanıtlayabilme becerisi sağlar. Bu değişiklikten önce, ödül puanları iadelerde her zaman yeniden hesaplanırdı; bu da kazanma veya kullanma kuralları değiştirilirse orijinalden farklı bir tutara neden olurdu ve arama merkezi kullanıcıları puan dağılımını göremezdi. Puanlar her bağlılık programı kartı için **Kart hareketleri** formu altında görülür. Bu özelliği etkinleştirmek için **Satış hattı başına bağlılık programı puanları aktar** yapılandırmasını, **Perakende paylaşılan parametreler**  > **Genel** sekmesinde açın.
+
+>[!NOTE]
+> İadeler olması durumunda, doğru miktarda puan müşteriye verilmesi veya müşteriden alınmasını sağlamak için bu özelliğin açılması şiddetle tavsiye edilir.
+
 - Satıcılar, artık her ödül puanı için hakediş ödeme dönemini tanımlayabilir. Hakediş ödeme dönemi yapılandırması, kazanma tarihinden sonra, ödül puanları müşteriler için kullanılabilir olduktan sonra süreyi tanımlar. Hak kazanılmamış puanlar **Bağlılık programı kartları** sayfasındaki **Hak kazanılmamış puanlar** sütununda görünebilir. Ayrıca, satıcılar bağlılık programı kartı başına maksimum bağlılık programı ödül puanı sınırı tanımlayabilir. Bu alan, bağlılık programı dolandırıcılığı etkisini azaltmak için kullanılabilir. Maksimum ödül puanına ulaşıldığında, kullanıcı daha fazla puan kazanamaz. Satıcı, bu tür krtları olası bir dolandırıcılı için araştırılana kadar engellemeyi seçebilir. Satıcı dolandırıcılık olduğuna karar verirse hem müşterinin bağlılık programı kartını hem de müşteriyi engelleyebilir. Bunu yapmak için **Müşterinin bağlılık programına kaydını engelle** özelliğini **Evet** olarak (**Retail** hızlı sekmesindeki **Tüm müşteriler** altında) ayarlayın. Bloke müşteriler kanalları herhangi birinde bağlılık programı kartı yayınlayamaz.
 
     ![Hakediş ödeme ve en fazla ödül puanı](./media/Vesting%20and%20maximum%20reward%20points.png "Hakediş ödeme ve en yüksek ödül puanını tanımla")
@@ -139,7 +143,8 @@ Bu ayardan sonra, müşteriler bağlılık puanlarını çağrı merkezinden kul
 > Şu anda, sistem kullanıcıların "diğer etkinlik türleri" için bir numara serisi oluşturmaya zorlar ancak bu gelecekteki sürümler için gerekli bir adım olmayacaktır. Bir numara serisini ayarlamak için **Perakende paylaşılan parametreler > Numara serileri**'ne gidin ve **Bağlılık diğer etkinlik türü kimliği** için bir numara serisi seçin.
 
 - İyi müşteri hizmeti sağlamak ve müşteri profillerini etkin biçimde sorgulamak için kasiyerlerin eksiksiz müşteri profiline tam erişimlerinin olması önemlidr. 10.0 sürümü ile, kasiyerler bağlılık geçmiş ayrıntılarını, ilişkili bağlılık programı ve POS üzerindeki katman bilgisi ile görebileceklerdir.
-- Ücretsiz veya indirimli sevkiyat, müşterilerin çevrimiçi satın alması için son derece motive edici temel faktörlerden biridir. Perakendecilerin sevkiyat promosyonlarını ayarlamaları için 10.0 sürümü ile "Sevkiyat eşik indirimi" adlı yeni bir promosyon türü devreye soktuk, burada perakendeci eşikleri tanımlayabilir, bunlara ulaşıldığında, müşterilerin ücretsiz sevkiyat için iskonto verilmesine olanak sağlanır. Örneğin, ücretsiz 'İki günde sevkiyat' için 35$ harcayın veya tüm bağlılık müşterileri için 'İki günde sevkiyat'. Bu iskontolar, yalnızca siparişlere uygulanan sevkiyat masraflarına uygulanır. Bir perakendeci birden fazla türde gider ayarlayabildiği için örneğin işleme veya kurulum gibi, perakendecinin hangi giderin sevkiyat giderleri olduğunu belirtmesi gerekir. Bu yapılandırma "Sevkiyat gideri kodu" olarak adlandırılır ve **Müşteri siparişleri** sekmesinde, **Perakende parametreleri** sayfasında bulunur. Bu iskonto, tüm mevcut standart iskonto yeterliliklerini yerine getirir, örneğin perakendecinin bu iskontoları yalnızca kupona sahip müşterilerin sahip olmasına izin vermek gibi. Ayrıca, bu iskontolar bu tür iskontoların uygunluğunu belirlemek için Fiyat grupları yeterliliğini de kullanır. Örneğin, perakendeci, bu promosyonları yalnızca çevrimiçi kanallarda ve/veya bağlılık müşterileri gibi çeşitli müşteri grupları içinde yürütmeyi seçebilir. Sipariş satırları, belirtilen teslim modu ile belirtilen eşiği karşıladığında, sevkiyat iskontosu uygulanır ve iskonto kuruluma dayalı olarak iskonto giderini azaltır. 
+- Ücretsiz veya indirimli sevkiyat, müşterilerin çevrimiçi satın alması için son derece motive edici temel faktörlerden biridir. Perakendecilerin sevkiyat promosyonlarını ayarlamaları için 10.0 sürümü ile "Sevkiyat eşik indirimi" adlı yeni bir promosyon türü devreye soktuk, burada perakendeci eşikleri tanımlayabilir, bunlara ulaşıldığında, müşterilerin ücretsiz sevkiyat için iskonto verilmesine olanak sağlanır. Örneğin, ücretsiz 'İki günde sevkiyat' için 35$ harcayın veya tüm bağlılık müşterileri için 'İki günde sevkiyat'. Bu özellik, yeni Gelişmiş otomatik masraf yeteneklerini kullanır. Gelişmiş otomatik masraflar hakkındaki belgeye buradan başvurun: https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/omni-auto-charges. Bu gelişmiş otomatik masrafların çalışması için sevkiyat promosyonu için etkinleştirilmesi gerekir. Bunlar, **Müşteri siparişleri** sekmesinden, **Perakende parametreleri** sayfasında etkinleştirilebilir ve "Gelişmiş otomatik masraflar" yapılandırmasını etkinleştirir. Ek olarak, bir perakendeci birden fazla türde gider ayarlayabildiği için örneğin işleme veya kurulum gibi, perakendecinin hangi giderin sevkiyat giderinin olduğunu belirtmesi gerekir. Sevkiyat iskontoları yalnızca sevkiyat masraflarına uygulanır. Masrafı Sevkiyat masrafı olarak belirtmek için **Masraf kodları** formuna gidin, bu **Perakende** > **Retail IT** > **Kanal kurulumu** > **Masraflar** altında bulunur ve sonra istenilen masraflar için "Sevkiyat masrafı" onay kutusunu açın. Şimdi **Perakende sevkiyat eşiği iskontosu** formuna gidin ve iskontoyu ayarlayın.
+    Ürün iskontolarında olduğu gibi bu iskonto, tüm mevcut standart iskonto yeterliliklerini yerine getirir, örneğin perakendecinin bu iskontoları yalnızca kupona sahip müşterilerin sahip olmasına izin vermek gibi. Ayrıca, bu iskontolar bu tür iskontoların uygunluğunu belirlemek için Fiyat grupları yeterliliğini de kullanır. Örneğin, perakendeci, bu promosyonları yalnızca çevrimiçi kanallarda ve/veya bağlılık müşterileri gibi çeşitli müşteri grupları içinde yürütmeyi seçebilir. Sipariş satırları, belirtilen teslim modu ile belirtilen eşiği karşıladığında, sevkiyat iskontosu uygulanır ve iskonto kuruluma dayalı olarak iskonto giderini azaltır. 
 
 > [!NOTE]
-> Miktar, basit, karıştır ve eşleştir gibi diğer periyodik iskontoların aksine, sevkiyat iskontosu iskonto satıralrı oluşturmaz, sevkiyat giderlerindeki düzeltmelerin doğrudan yapılması gerekir.
+> Miktar, basit, karıştır ve eşleştir gibi diğer periyodik iskontoların aksine, sevkiyat iskontosu iskonto satıralrı oluşturmaz, sevkiyat giderlerindeki düzeltmelerin doğrudandır ve iskontonun adını masraf açıklamasına ekler.
