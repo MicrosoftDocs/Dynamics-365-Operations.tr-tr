@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303009"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "380028"
 ---
 # <a name="distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM)
 
@@ -64,7 +64,7 @@ Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döng�
         1. Microsoft Dynamics Lifecycle Services'ta Paylaşılan varlık kitaplığını açıp varlık türü olarak **Model**'i seçin ve **DOM lisansı** dosyasını indirin.
         2. Microsoft Internet Information Services (IIS) Yöneticisi'ni başlatın, **AOSService web sitesi**'ne sağ tıklayın ve ardından **Keşfet**'i seçin. **\<AOS service root\>\\webroot**'ta bir Windows Gezgini penceresi açılır. Sonraki adımda kullanacağınızdan \<AOS Service root\> yolunu not edin.
         3. **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** dizinindeki yapılandırma dosyasını kopyalayın.
-        4. Retail genel merkezi istemcisine gidin ve **DOM parametreleri** sayfasını açın. **Çözücü** sekmesinde, **Çözücü türü** alanında, **Üretim çözücüsü**'nü seçin ve hiçbir hata iletisi görünmediğinden emin olun.
+        4. Retail Headquarters istemcisine gidin ve **DOM parametreleri** sayfasını açın. **Çözücü** sekmesinde, **Çözücü türü** alanında, **Üretim çözücüsü**'nü seçin ve hiçbir hata iletisi görünmediğinden emin olun.
 
         > [!NOTE]
         > Basitleştirilmiş Çözücü, perakendecilerin özel lisans kurmak zorunda kalmadan DOM özelliğini deneyebilmeleri için sunulmuştur. Kurumlar Basitleştirilmiş Çözücüyü üretim ortamlarında kullanmamalıdır.

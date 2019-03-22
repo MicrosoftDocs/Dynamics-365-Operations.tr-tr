@@ -3,7 +3,7 @@ title: Attract'ta güvenlik ve rol yönetimi
 description: Bu konu, Microsoft Dynamics 365 for Talent - Attract içindeki rol güvenliği hakkında bilgi sağlar.
 author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374792"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789709"
 ---
 # <a name="security-and-role-management-in-attract"></a>Attract'te güvenlik ve rol yönetimi
 
@@ -100,14 +100,16 @@ Aşağıdaki ayrıcalıklar, başvuranların işle ilgili verileri ve başvurula
 | Veri veya eylem          | İşe alma görevlisi | İşe Alım Müdürü | Görüşmeci |
 |-------------------------|-----------|----------------|-------------|
 | Başvuru belgeleri   | O kullanıcının işe alma takımında olduğu işleri oluşturma, okuma, güncelleştirme ve silme | O kullanıcının işe alma takımında olduğu işleri oluşturma, okuma, güncelleştirme ve silme | Salt okunur |
-| Uygulama Notları       | O kullanıcının işe alma takımında olduğu işleri oluşturma, okuma, güncelleştirme ve silme | O kullanıcının işe alma takımında olduğu işleri oluşturma, okuma, güncelleştirme ve silme | Oluştur |
+| Uygulama Notları       | O kullanıcının işe alma takımında olduğu işleri oluşturma, okuma, güncelleştirme ve silme | O kullanıcının işe alma takımında olduğu işleri oluşturma, okuma, güncelleştirme ve silme | Salt Okunur|
 | Başvuru Faaliyeti    | Kullanıcı işe alma takımındaysa görüntüle | Kullanıcı işe alma takımındaysa görüntüle | Salt okunur |
 | Başvuru geri bildirimi    | Kullanıcı işe alma takımdaysa tüm geri bildirimleri ekle ve görüntüle | Kullanıcı işe alma takımdaysa tüm geri bildirimleri ekle ve görüntüle | Geribildirim ekleyebilirsiniz\*\* |
 | Başvuruyu reddet      | Kullanıcı işe alma takımındaysa reddedebilir | İzin verilmiyor | İzin verilmiyor |
 | Aşamayı ilerlet           | Kullanıcı işe alma takımındaysa reddedebilir | Kullanıcı işe alma takımındaysa ilerleyebilir | İzin verilmiyor |
 | Teklif yönetimi başlat | Teklif yönetimini başlatabilir | Teklif faaliyeti üzerinde bir yapılandırma seçeneği vardır. | İzin verilmiyor |
 
-\*\*[Geri bildirim faaliyet kurulumu](activities-attract.md#feedback-activity) içindeki yapılandırma seçeneği, görüşmecilerin birbirinin geribildirimini görüp görmediğini denetler.
+
+\*\*[Geri bildirim faaliyet kurulumu](./activities-attract.md) içindeki yapılandırma seçeneği, görüşmecilerin birbirinin geribildirimini görüp görmediğini denetler.
+
 
 ## <a name="process-templates"></a>Süreç şablonları
 

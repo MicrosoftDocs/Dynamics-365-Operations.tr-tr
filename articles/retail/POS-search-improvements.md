@@ -3,7 +3,7 @@ title: Satış noktasında (POS) ürün arama ve müşteri arama
 description: Bu konu Microsoft Dynamics 365 for Retail içinde ürün ve müşteri arama özelliğinde yapılmış olan iyileştirmeler hakkında genel bakış sağlar.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/28/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313601"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789881"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Satış noktasında (POS) ürün arama ve müşteri arama
 
@@ -69,7 +69,7 @@ Yerel ürün arama deneyimi artık daha kullanıcı dostu. Aşağıdaki gelişti
 
 ## <a name="customer-search"></a>Müşteri arama
 
-Müşteri arama, çeşitli amaçlarla müşterileri bulmak için kullanılır. Örneğin, kasiyer bir müşterinin istek listesini veya satın alma geçmişini görüntülemek veya müşteriyi bir harekete eklemek isteyebilir. Çoklu anahtar sözcük aramalarında, müşteri arama algoritması aranan sözcüklerden herhangi biriyle eşleşen tüm müşterileri döndürür. Ancak, daha fazla anahtar kelime ile eşleşen müşteriler sonuçların üst kısmında görüntülenir. Bu davranış, diğer arama motorlarının sonuçları gösterme şekline benzer. Önce aranan terimlerin en fazlası ile eşleşen sonucu gösterirler ve sonra arama sözcükleri ile kısmen eşleşen sonuçları gösterirler. Bu davranış, aramalarında birden fazla anahtar sözcük kullandıkları, ancak sözcüklerden birinin yazım hatası içerdiği durumlarda kasiyerlere yardımcı olur.
+Müşteri arama, çeşitli amaçlarla müşterileri bulmak için kullanılır. Örneğin, kasiyer bir müşterinin istek listesini veya satın alma geçmişini görüntülemek veya müşteriyi bir harekete eklemek isteyebilir. Arama algoritması, arama terimlerini aşağıdaki müşteri özelliklerinde bulunan değerlere karşı eşleştirir: adı, e-posta, telefon, bağlılık programı kartı numarası, adres ve hesap numarası. Bunlar arasında, adı özelliği, birden fazla anahtar kelime araması söz konusu olduğunda en fazla esnekliği sağlar çünkü algoritma, aranan anahtar kelimelerle eşleşen tüm müşterileri getirir ve en çok anahtar kelime ile eşleşen müşteriler sonuçların en üstünde belirir. Bu davanış, kasiyerlerin tam isim aradıkları, ancak soyadının ve adın ilk veri girişinde yer değiştirdiği durumlarda yardımcı olur. Ancak, performans sebebiyle, diğer tüm özellikler arama anahtar kelimeleri sırasını korur, bu nedenle arama anahtar kelimelerinin sırası, verinin depolandığı sırayla eşleşmezse, sonuçlar getirilmez.
 
 Varsayılan olarak, müşteri arama mağazayla ilişkilendirilmiş olan müşteri adres defterleri üzerinden yapılır. Bu arama türü *yerel müşteri arama* olarak bilinir. Bununla birlikte, çalışanlar müşteriler için genel arama da yapabilir. Başka bir deyişle, şirketin mağazaları ve tüm diğer tüzel kişiler arasında arama yapabilirler. Bu arama türü *uzak müşteri arama* olarak bilinir.
 

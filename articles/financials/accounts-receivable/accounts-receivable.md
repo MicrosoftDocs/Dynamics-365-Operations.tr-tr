@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 98ec7d9a57cc39c22a31c025754c83dc1a95139e
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303017"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403390"
 ---
 # <a name="accounts-receivable-home-page"></a>Alacak hesapları giriş sayfası
 
@@ -96,18 +96,16 @@ Müşterilerden kambiyo senedi, nakit, çek, kredi kartı ve elektronik ödeme g
 
 #### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin. 
+Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritasına](https://go.microsoft.com/fwlink/?linkid=2010158) bakın. 
 
 #### <a name="blogs"></a>Bloglar
 
-[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) Alacak hesapları ve diğer çözümler hakkındaki fikir, haber ve diğer bilgilere ulaşabilirsiniz.
+[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Finansal bloğunda](https://community.dynamics.com/365/financeandoperations/b/financials) Alacak Hesapları hakkında fikirler, haberler ve bilgilerin yanı sıra diğer çözümleri bulabilirsiniz.
 
-[Microsoft Dynamics AX ürün ekibi bloğunda](https://blogs.msdn.microsoft.com/dax/) Alacak hesapları hakkında pek çok gönderi bulunmaktadır. Bu gönderilerin bazıları, Alacak hesaplarının önceki sürümü için yazılmış olsa da aynı kavramlar hala geçerlidir. ve prosedürler de geçerli sürümdekine benzerdir.
-
-[Microsoft Dynamics Operations İş Ortağı Topluluk Bloğu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
+[Microsoft Dynamics Operations İş Ortağı Topluluk Bloğu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortaklarına MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
 
 #### <a name="task-guides"></a>Görev kılavuzları
-Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
+Ek yardım, Finance and Operations içinde görev kılavuzları olarak sunulmaktadır. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
 
 #### <a name="videos"></a>Videolar
 

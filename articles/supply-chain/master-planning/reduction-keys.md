@@ -3,7 +3,7 @@ title: Azaltma anahtarları
 description: Bu makalelerde bir azaltma anahtarının nasıl ayarlanacağını gösteren örnekler verilmiştir. Çeşitli azaltma anahtarı ayarları ve her birinin sonuçları hakkında da bilgiler içerir. Bir zzaltma anahtarını, tahmin gereksinimlerinin nasıl azaltılacağını tanımlamak için kullanabilirsiniz.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e62431a1fdbeb81dda68297f034ee00adece079
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7457aca4ca4d5188bafb497d3052276cfc154ad1
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364822"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770928"
 ---
 # <a name="reduction-keys"></a>Azaltma anahtarları
 
@@ -98,6 +98,7 @@ Aylık 1.000 parçalık aynı talep tahminini kullanıyorsanız, aşağıdaki ge
 
    Bu tahminde, tahmin tarihleri arasında açıkça bir dönem yoktur: birinci ve ikinci tarihler arasında dört günlük bir süre; ikinci ve üçüncü tarihler arasında yedi günlük bir süre vardır. Bu süre çeşitliliği dinamik periyotları oluşturur.
 2. Aşağıdaki satış siparişi satırlarını oluşturun.
+
    | Tarih                             | Satış siparişi miktarı |
    |----------------------------------|----------------------|
    | Önceki yılın 15 Aralık tarihi | 500                  |

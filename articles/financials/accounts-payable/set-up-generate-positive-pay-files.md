@@ -1,9 +1,9 @@
 ---
-title: Pozitif ödeme dosyaları kurma ve oluşturma
-description: Bu makalede pozitif ödemenin nasıl kurulacağı ve pozitif ödeme dosyalarının nasıl oluşturulacağı açıklanmıştır.
+title: Pozitif ödeme dosyaları ayarlama ve oluşturma
+description: Bu konu pozitif ödemenin nasıl kurulacağı ve pozitif ödeme dosyalarının nasıl oluşturulacağı açıklanmıştır.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dbc512c6d214dc8cf2527ac23103529111896ec5
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346100"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778190"
 ---
-# <a name="set-up-and-generate-positive-pay-files"></a>Pozitif ödeme dosyaları kurma ve oluşturma
+# <a name="set-up-and-generate-positive-pay-files"></a>Pozitif ödeme dosyaları ayarlama ve oluşturma
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede pozitif ödemenin nasıl kurulacağı ve pozitif ödeme dosyalarının nasıl oluşturulacağı açıklanmıştır. 
+Bu konu pozitif ödemenin nasıl kurulacağı ve pozitif ödeme dosyalarının nasıl oluşturulacağı açıklanmıştır. 
 
 Bankaya sunulan çeklerin bir elektronik listesini oluşturmak için pozitif ödeme kurun. Ardından, bankaya bir çek sunulduğunda, banka bunu çek listesiyle karşılaştırır. Çek, çek listesindeki bir çekle uyuşuyorsa banka çeki serbest bırakır. Çek, listedeki bir çekle uyuşmuyorsa banka, çeki gözden geçirmek için tutar.
 
@@ -94,7 +94,7 @@ Pozitif ödeme dosyaları veri varlıkları kullanılarak oluşturulur. Bir pozi
           <xsl:value-of select="'
     '" />
           <!--Header End-->
-          <xsl:for-each select="Document/BankPositivePayExportEntity">
+          <xsl:for-each select="Document/BANKPOSITIVEPAYEXPORTENTITY">
             <!--Cheque Detail begin-->
             <xsl:value-of select='RECIPIENTACCOUNTNUM/text()'/>
             <xsl:value-of select="','" />

@@ -3,7 +3,7 @@ title: Sabit kıymet tümleştirmesi
 description: Sabit kıymetler Genel muhasebe, Stok yönetimi, Alacak hesapları ve Borç hesapları ile entegre olabilir. Sabit kıymetleri satınalma emirleri ile entegre olacak biçimde de ayarlayabilirsiniz.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336992"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778167"
 ---
 # <a name="fixed-assets-integration"></a>Sabit kıymet tümleştirmesi
 
@@ -41,7 +41,7 @@ Genel muhasebede, tüm sabit kıymetlerin değeri genel olarak mali raporlama i�
 ## <a name="inventory-management"></a>Stok Yönetimi
 Sabit kıymet stok günlüklerine, tüzel kişiliğin kendi kendine oluşturduğu veya yapılandırdığı sabit kıymetler alımını girebilirsiniz. Ardından, sabit kıymetlere ilişkin stok maddelerini alım veya alımın bir bölümü olarak transfer edebilirsiniz. 
 
-Ayrıca, satınalma siparişlerini kullanarak da varlıklar alabilirsiniz. Satınalma siparişleri sabit kıymet olarak tanımlanan stok maddeleri içerdiğinde, **Sabit kıymet parametreleri** sayfasındaki **Satınalmadan kıymet alımına izin ver** seçeneğinin ayarı, sabit kıymet için bir alımın fatura deftere nakledilirken deftere nakledilip edilmeyeceğini belirler. Sabit kıymet alımının stok üzerindeki etkisi tüzel kişiliğin ayarına bağlıdır. 
+Ayrıca, satınalma siparişlerini kullanarak da varlıklar alabilirsiniz. Satınalma siparişleri sabit kıymet olarak tanımlanan stok maddeleri içerdiğinde, **Sabit kıymet parametreleri** sayfasındaki **Satınalmadan kıymet alımına izin ver** seçeneğinin ayarı, sabit kıymet için bir alımın fatura deftere nakledilirken deftere nakledilip edilmeyeceğini belirler. Bir satınalma satırı, miktarı ne olursa olsun bir sabit kıymet oluşturur. Sabit kıymet alımının stok üzerindeki etkisi tüzel kişiliğin ayarına bağlıdır. 
 
 Bir stok maddesi; stok günlüğü, satınalma siparişi veya alım teklifi üzerinden sabit bir kıymet alımı haline geldiğinde, bir sabit kıymet defteri alım hareketi oluşturulur. Defter alımı türetilmiş defteri içerirse ayrıca türetilmiş defter alım hareketi de oluşturulur. 
 

@@ -3,7 +3,7 @@ title: Ürün yapılandırması için Çözücü stratejisi
 description: Bu konu çözücü stratejisini ürün yapılandırmasının performansını artırmak üzere nasıl kullanabileceğinizi açıklar.
 author: cvocph
 manager: AnnBe
-ms.date: 01/02/2018
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
+ms.sourcegitcommit: 0ceee30a60468a01db6f5b3526dcb9c6abc9d4dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351160"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "403928"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Ürün yapılandırması için Çözücü stratejisi
 
@@ -62,8 +62,8 @@ Aşağıdaki tablo çeşitli senaryolarda kullanılacak çözücü stratejisi ha
 | Çözüm stratejisi      | Stratejiyi bu senaryoda kullan |
 |----------------------|-----------------------------------|
 | Varsayılan              | **Varsayılan** strateji tablo sınırlamalarına dayanan modelleri çözmek üzere en iyi duruma getirilmiştir. Müşteri uygulaması çalışmaları, bu stratejinin tablo sınırlamalarının yoğun şekilde kullanıldığı senaryolarda en etkili strateji olduğunu göstermiştir. |
-| Önce minimal etki alanı | **Önce minimal etki alanı** ve **Yukarıdan aşağıya** stratejileri yakından ilişkilidir. Müşteri uygulama çalışmaları, CU8'de sunulan **Yukarıdan aşağıya** stratejisinin **Önce minimal etki alana** stratejisinden daha iyi performans gösterdiğini ortaya koymuştur. Ancak, **Önce minimal etki alanı** stratejisi, geriye doğru uyumluluk açısından üründe tutulmuştur. Bu iki çözücü stratejisinin de tablo sınırlamalarının kullanılmadığı çeşitli aritmetik ifadeler içeren çözüm modellerinde daha etkili olduğu görülmüştür. Ancak, bazı durumlarda, **Varsayılan** strateji bu iki stratejiden daha iyi performans gösterir. Bu nedenle, her bir strateji denemeyi unutmayın. |
-| Yukarıdan aşağıya             | **Önce minimal etki alanı** ve **Yukarıdan aşağıya** stratejileri yakından ilişkilidir. Müşteri uygulama çalışmaları, CU8'de sunulan **Yukarıdan aşağıya** stratejisinin **Önce minimal etki alana** stratejisinden daha iyi performans gösterdiğini ortaya koymuştur. Ancak, **Önce minimal etki alanı** stratejisi, geriye doğru uyumluluk açısından üründe tutulmuştur. Bu iki çözücü stratejisinin de tablo sınırlamalarının kullanılmadığı çeşitli aritmetik ifadeler içeren çözüm modellerinde daha etkili olduğu görülmüştür. Ancak, bazı durumlarda, **Varsayılan** strateji bu iki stratejiden daha iyi performans gösterir. Bu nedenle, her bir strateji denemeyi unutmayın. |
+| Önce minimal etki alanları | **Önce minimal etki alanları** ve **Yukarıdan aşağıya** stratejileri yakından ilişkilidir. Müşteri uygulama çalışmaları, **Yukarıdan aşağıya** stratejisinin **Önce minimal etki alanları** stratejisinden daha iyi performans gösterdiğini ortaya koymuştur. Ancak, **Önce minimal etki alanları** stratejisi, geriye doğru uyumluluk açısından üründe tutulmuştur. Bu iki çözücü stratejisinin de tablo sınırlamalarının kullanılmadığı çeşitli aritmetik ifadeler içeren çözüm modellerinde daha etkili olduğu görülmüştür. Ancak, bazı durumlarda, **Varsayılan** strateji bu iki stratejiden daha iyi performans gösterir. Bu nedenle, her bir strateji denemeyi unutmayın. |
+| Yukarıdan aşağıya             | **Önce minimal etki alanları** ve **Yukarıdan aşağıya** stratejileri yakından ilişkilidir. Müşteri uygulama çalışmaları, **Yukarıdan aşağıya** stratejisinin **Önce minimal etki alanları** stratejisinden daha iyi performans gösterdiğini ortaya koymuştur. Ancak, **Önce minimal etki alanları** stratejisi, geriye doğru uyumluluk açısından üründe tutulmuştur. Bu iki çözücü stratejisinin de tablo sınırlamalarının kullanılmadığı çeşitli aritmetik ifadeler içeren çözüm modellerinde daha etkili olduğu görülmüştür. Ancak, bazı durumlarda, **Varsayılan** strateji bu iki stratejiden daha iyi performans gösterir. Bu nedenle, her bir strateji denemeyi unutmayın. |
 | Z3                   | Varsayılan çözücü stratejisi olarak **Z3** stratejisini kullanmanızı öneririz. Performans ve ölçeklenebilirlik hakkında endişeleriniz olması durumunda, diğer stratejileri değerlendirebilirsiniz. |
 
 ## <a name="additional-resources"></a>Ek kaynaklar

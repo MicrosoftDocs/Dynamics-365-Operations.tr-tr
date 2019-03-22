@@ -46,6 +46,10 @@ items:
       href: dev-tools/development-tools-overview.md
     - name: Geliştirme araçları eğitimi
       href: dev-tools/introduction-visual-studio.md
+    - name: AppChecker
+      items:
+      - name: AppChecker için BaseX yükleme
+        href: dev-tools/install-basex.md
     - name: Uygulama Gezgini
       href: dev-tools/application-explorer.md
     - name: Projeler oluşturma ve hatalarını ayıklama
@@ -264,6 +268,8 @@ items:
         href: extensibility/extensibility-changes-812.md
       - name: Genişletilebilirlik değişiklikleri sürüm 8.1.3
         href: extensibility/extensibility-changes-813.md
+      - name: Genişletilebilirlik değişiklikleri sürüm 10.0
+        href: extensibility/extensibility-changes-10.md
     - name: Temel bilgiler
       items:
       - name: Kullanışsız özelleştirmeler
@@ -887,6 +893,7 @@ items:
   - name: Tanıtım ortamlarını dağıtma
     href: deployment/deploy-demo-environment.md
   - name: Bulut dağıtımı
+    href: deployment/cloud-deployment-overview.md
     items:
     - name: Self servis dağıtım
       href: deployment/infrastructure-stack.md
@@ -1073,10 +1080,12 @@ items:
       href: dev-tools/update-development-tools.md
   - name: Kullanımdan kaldırma işlemleri
     items:
-    - name: Kullanımdan kaldırılan API'lar
-      href: migration-upgrade/deprecated-apis.md
-    - name: Kullanımdan kaldırılan özellikler
+    - name: Kaldırılan veya artık kullanılmayan özellikler
       href: migration-upgrade/deprecated-features.md
+    - name: Yöntemleri ve meta veri öğelerini kullanımdan kaldırma
+      href: migration-upgrade/deprecation-deletion-apis.md
+    - name: Kullanımdan kaldırılan API'lar (Haziran 2017)
+      href: migration-upgrade/deprecated-apis.md
 - name: Sistem yönetimi
   href: sysadmin/system-administration-home-page.md
   items:
@@ -1122,6 +1131,8 @@ items:
       href: sysadmin/activeperiod.md
     - name: Toplu iş yöneticisi güvenlik rolü
       href: sysadmin/runby.md
+    - name: SQL dizin birleştirmeyi işlemek için toplu iş
+      href: sysadmin/batch-job-SQL-defragmentation.md
   - name: En iyi duruma getirme danışmanı
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1200,18 +1211,30 @@ items:
       href: lifecycle-services/use-translation-service-ua.md
     - name: Çeviri belleği dosyaları
       href: lifecycle-services/use-translation-service-tm.md
-- name: Veritabanı yönetimi
+- name: Veritabanı taşıma işlemleri
   items:
-  - name: Azure SQL Veritabanından SQL Server ortamlarına veritabanı kopyalama
-    href: database/copy-database-from-azure-sql-to-sql-server.md
-  - name: SQL Server'dan üretim Azure SQL Veritabanı ortamlarına veritabanı kopyalama
-    href: database/copy-database-from-sql-server-to-azure-sql.md
-  - name: Veritabanlarını üretim dışı ortamlara geri yükleme
-    href: database/request-point-in-time-restore.md
-  - name: Veritabanı kopyalarını daha sonra geri yüklemek için dışa aktarma
-    href: database/copy-operations-database.md
-  - name: Korumalı alan veritabanı yenilemeleri isteme
-    href: database/database-refresh.md
+  - name: Genel bakış
+    href: database/dbmovement-operations.md
+  - name: Hızlı başlangıç kılavuzları
+    items:
+    - name: Veritabanını yenileme
+      href: database/database-refresh.md
+    - name: Veritabanını dışa aktarma
+      href: database/export-database.md
+    - name: Veritabanını içe aktarma
+      href: database/import-database.md
+    - name: Veritabanını belirli noktaya geri yükleme
+      href: database/database-point-in-time-restore.md
+  - name: Eğitimler
+    items:
+    - name: Eğitim amacıyla yenileme
+      href: database/dbmovement-scenario-general-refresh.md
+    - name: Hata ayıklama ve tanılama
+      href: database/dbmovement-scenario-debugdiag.md
+    - name: Altın yapılandırma promosyonu
+      href: database/dbmovement-scenario-goldenconfig.md
+    - name: Bozucu test
+      href: database/dbmovement-scenario-destructivetests.md
 - name: Destek
   items:
   - name: Finance and Operations ve Lifecycle Services için destek alma
@@ -1228,9 +1251,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Finance and Operations destek deneyimlerini yönetme
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: 9baabd73eb9a6e0c33b41bc30a1ba0788a858ce9
-ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
+ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373335"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "773814"

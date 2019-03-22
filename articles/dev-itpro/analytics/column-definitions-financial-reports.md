@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356358"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832160"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansal raporlarda sütun tanımları
 
@@ -62,7 +62,7 @@ Bir sütun tanımı iki ila 255 sütun içerebilir.
 Bir sütun tanımı aşağıdaki bilgileri içerir:
 
 - Satır tanımının açıklamalarına ait bir sütun
-- Mali veriler, bir Microsoft Excel çalışma sayfası veya bir sütun tanımındaki diğer verileri esas alan hesaplamalara ait verileri gösteren tutar sütunları
+- Mali veriler veya bir sütun tanımındaki diğer verileri esas alan hesaplamalara ait verileri gösteren tutar sütunları
 - Biçimlendirme sütunları
 - Öznitelik sütunları
 
@@ -170,7 +170,7 @@ Bir rapordaki sütunların üst kısmında görünen başlıkları eklemek, değ
 
 ### <a name="create-an-automatically-generated-header"></a>Otomatik üretilen bir üstbilgi oluşturma
 
-Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir. Otomatik metin kodları her rapor oluşturulduğunda güncelleştirilen değişkenlerdir. Her sütun başlığı tarihler ve dönem numaraları gibi değişebilen rapor bilgilerini belirtmek için bu kodları içerebilir. Bu nedenle, birden fazla rapor tanımı, süre ve raporlama ağacı için bir sütun tanımı kullanabilirsiniz. Otomatik metin kodları sütun tanımının ayrıntı satırlarındaki takvim bilgilerine dayandığından yalnızca **CALC**, **FD** ve **WKS** sütunları için desteklenir. Bir otomatik metin kodunun sütun başlığı hücresinde görünme şekli söz konusu bilgilerin raporda nasıl göründüğünü etkiler. **Sütun Başlığı** iletişim kutusunda, otomatik metin kodları büyük-küçük harf karışık olarak görünür. Bu nedenle, metin raporda da büyük-küçük harf karışık olarak görünür. Örneğin, standart bir takvim yılında, **@CalMonthLong** ayı **7** ila **Temmuz** olarak çözümler. Adı büyük harfle olması gereken ayın (örneğin **TEMMUZ**) adında, otomatik metin kodunu **Sütun başlığı metni** alanına büyük harflerle girin. Örneğin, **@CALMONTHLONG** girin. Kodları ve metni karıştırabilirsiniz. Örneğin, şu başlık metnini girebilirsiniz: **Dönem @FiscalPeriod-@FiscalYear @StartDate ila @EndDate** Oluşturulan rapor başlığı şu metne benzer: **Dönem 1-02 01/01/02 ila 01/31/02**.
+Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir. Otomatik metin kodları her rapor oluşturulduğunda güncelleştirilen değişkenlerdir. Her sütun başlığı tarihler ve dönem numaraları gibi değişebilen rapor bilgilerini belirtmek için bu kodları içerebilir. Bu nedenle, birden fazla rapor tanımı, süre ve raporlama ağacı için bir sütun tanımı kullanabilirsiniz. Otomatik metin kodları sütun tanımının ayrıntı satırlarındaki takvim bilgilerine dayandığından yalnızca **CALC** ve **FD** sütunları için desteklenir. Bir otomatik metin kodunun sütun başlığı hücresinde görünme şekli söz konusu bilgilerin raporda nasıl göründüğünü etkiler. **Sütun Başlığı** iletişim kutusunda, otomatik metin kodları büyük-küçük harf karışık olarak görünür. Bu nedenle, metin raporda da büyük-küçük harf karışık olarak görünür. Örneğin, standart bir takvim yılında, **@CalMonthLong** ayı **7** ila **Temmuz** olarak çözümler. Adı büyük harfle olması gereken ayın (örneğin **TEMMUZ**) adında, otomatik metin kodunu **Sütun başlığı metni** alanına büyük harflerle girin. Örneğin, **@CALMONTHLONG** girin. Kodları ve metni karıştırabilirsiniz. Örneğin, şu başlık metnini girebilirsiniz: **Dönem @FiscalPeriod-@FiscalYear @StartDate ila @EndDate** Oluşturulan rapor başlığı şu metne benzer: **Dönem 1-02 01/01/02 ila 01/31/02**.
 
 > [!NOTE]
 > Uzun tarih gibi bazı metin biçimleri Finance and Operations sunucunuzdaki bölgesel ayarlarınıza bağlıdır. Bu ayarları değiştirmek için **Başlat** düğmesini, **Denetim Masası** öğesini ve ardından **Bölge ve Dil** öğesini tıklayın. Aşağıdaki tabloda sütun başlıkları için kullanılabilen otomatik metin seçenekleri gösterilmektedir.
@@ -291,7 +291,7 @@ Sütun tanımında, biçimlendirme sütunu ayrıntı satırları seçilen sütun
 1. Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.
 2. **Sütundan Önceki Fazladan Boşluklar** hücresine sütunlar arasına girilecek boşluk sayısını girin.
 
-### <a name="specify-a-currency"></a>Para birimi belirtme
+### <a name="specify-a-format-currency-override"></a>Bir biçim para birimi geçersiz kılma belirleyin
 
 **Biçim/Para Birimi Geçersiz Kılma** hücresi sütundaki ondalık, para birimi ve yüzde tutarlarının biçimlendirmesini belirtir. Bu biçimlendirme rapor tanımında veya sistem varsayılanlarında belirtilen her türlü biçimlendirmeyi geçersiz kılar.
 
@@ -355,13 +355,13 @@ Bir rapordaki her sütunun içerdiği bilgi türü, sütun tanımındaki **Sütu
     <thead>
     <tr>
     <th>Sütun türü kodu</th>
-    <th>Açıklama</th>
+    <th>Tanım</th>
     </tr>
     </thead>
     <tbody>
     <tr>
     <td>FD</td>
-    <td>Satır tanımında bir <strong>Mali Boyutlarla İlişkilendir</strong> sütunu veya bir <strong>Çalışma Sayfası Bağlantısı</strong> sütunu kullandığınızda, bir Excel çalışma sayfasındaki mali verileri veya verileri görüntüleyin. <strong>FD</strong> sütun türünü seçtiğinizde, aşağıdaki satırlar için varsayılan ayarlar otomatik olarak belirtilir: <ul>
+    <td>Satır tanımında bir <strong>Finansal Boyutlara Bağlantı</strong> kullandığınızda finansal verileri görüntüleyin. <strong>FD</strong> sütun türünü seçtiğinizde, aşağıdaki satırlar için varsayılan ayarlar otomatik olarak belirtilir: <ul>
     <li><strong>Defter Kodu/Öznitelik Kategorisi:</strong> ACTUAL</li>
     <li><strong>Defter Kodu/Öznitelik Kategorisi:</strong> ACTUAL</li>
     <li><strong>Mali Yıl:</strong> BASE</li>
@@ -394,14 +394,6 @@ Bu varsayılan ayarları değiştirebilirsiniz.</td>
     <tr>
     <td>PAGE</td>
     <td>Rapora dikey bir sayfa sonu ekleyin. <strong>PAGE</strong> sütununun sağındaki sütunlar farklı bir sayfada görünür.</td>
-    </tr>
-    <tr>
-    <td>WKS</td>
-    <td>Bir Excel çalışma sayfasından alınan verileri görüntüleyin. <strong>WKS</strong> sütun türünü seçtiğinizde, aşağıdaki satırlar için varsayılan ayarlar otomatik olarak belirtilir: <ul>
-    <li><strong>Mali Yıl:</strong> PERIODIC</li>
-    <li><strong>Dönem:</strong> BASE</li>
-    </ul>
-Bu varsayılan ayarları değiştirebilirsiniz.</td>
     </tr>
     <tr>
     <td>ATTR</td>
@@ -518,13 +510,13 @@ Ayrıca, tam eşleştirme için alfasayısal karakterlerin herhangi bir kombinas
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Bir sütun tanımındaki birden fazla para birimi içeren bir raporu biçimlendirme
 
-Birden fazla para birimi içeren bir rapor tutarları doğal (yerel) para biriminde, işlevsel (varsayılan) para biriminde veya raporlama para biriminde görüntüleyebilir. Bir şirketin işlevsel para birimi, Microsoft Dynamics ERP sisteminde tanımlanır. Bu ERP ayarını, raporlarda kullanılan varsayılan para birimi simgelerini yapılandırabileceğiniz, işletim sisteminin bölgesel seçenekler ayarıyla karıştırmayın. Sütun tanımında aşağıdaki para birimiyle ilgili hücreler bulunur:
+Bir çoklu para birimi raporu, tutarları genel muhasebenin muhasebe para biriminde, başlatan hareket para biriminde veya çevrilmiş raporlama para biriminde görüntüleyebilir. Bir şirketin muhasebe para birimi, Genel Muhasebe kurulumunda tanımlıdır. Bu ayarı, raporlarda kullanılan varsayılan para birimi simgelerini yapılandırabileceğiniz, işletim sisteminin bölgesel seçenekler ayarıyla karıştırmayın. Sütun tanımında aşağıdaki para birimiyle ilgili hücreler bulunur:
 
-- **Para Birimi Görüntüleme**: Hareketlerin gösterileceği para birimi türünü belirtin (doğal, işlevsel veya raporlama). Bu işlevselliğe bazen para birimi çevirme de denir. Para birimi dönüştürme, genel muhasebe tutarlarını şirketin işlevsel para birimi ya da hareketin girildiği para birimi olmayabilecek bir para biriminde raporlama yeteneğidir.
+- **Para Birimi Görüntüleme**: Hareketlerin gösterileceği para birimi türünü belirtin (muhasebe, raporlama, hareket veya çevrilmiş raporlama). Bir raporlama işlevselliğine çevrilmiş, bazen para birimi çevirisi olarak adlandırılır. Para birimi dönüştürme, genel muhasebe tutarlarını şirketin işlevsel veya raporlama para birimi ya da hareketin girildiği para birimi olmayabilecek bir para biriminde raporlama yeteneğidir.
 - **Para Birimi Filtresi**: Bir para birimi filtresi belirtin. Raporda sadece seçilen para birimi cinsinden girilen hareketler görüntülenir.
 
-> [!NOTE]
-> Birden fazla para birimi kullanan raporlar oluşturmak için **Rapor** sekmesindeki **Tüm raporlama para birimlerini ekle** onay kutusunu işaretlemeniz gerekir. Bir şirketin işlevsel para birimini belirlemek için şu adımları izleyin.
+> 
+Bir şirketin muhasebe para birimini belirlemek için şu adımları izleyin.
 
 1. Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Şirketler**'e tıklayın.
 2. **Şirketler** iletişim kutusunda, bir şirket seçin ve ardından **Görüntüle**'ye tıklayın.
@@ -533,20 +525,18 @@ Birden fazla para birimi içeren bir rapor tutarları doğal (yerel) para birimi
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Birden fazla para birimi içeren bir raporda para birimini belirtme
 
 1. Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.
-2. İlgili **FD** sütunundaki **Para Birimi Ekranı**'na çift tıklayın ve ardından para birimi bilgilerini görüntüleme seçeneğini seçin: **Doğal/kaynak para birimi**, **Şirket bilgilerindeki işlevsel para birimi** veya raporlama para birimi.
+2. İlgili **FD** sütunundaki **Görüntülenen Para Birimi** öğesini çift tıklayın ve para birimi bilgilerinin görüntülenmesi seçeneğini seçin: **Genel muhasebe para birimi**, **Genel muhasebe raporlama**, işlem para birimi veya farklı bir raporlama para birimine dönüştürmek için seç.
 3. İlgili **FD** sütunundaki **Para Birimi Filtresi** hücresine çift tıklayın ve ardından listeden uygun para birimi kodunu seçin. Raporda sadece bu para biriminde girilen hareketler görüntülenir.
 
-> [!NOTE]
-> Burada açıklanan seçenekler, ERP sistemine bağlı olarak farklılık gösterebilir. Daha fazla bilgi için bkz. [Microsoft ERP sistem belgesine](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Para Birimi Ekranı ve Para Birimi Filtresi hücreleri için örnek
 
 Pelin, sütun tanımında aşağıdaki para birimi seçimlerini yaptı:
 
 - **Para Birimi Filtresi:** Yen
-- **Para Birimi Ekranı:** İşlevsel (ABD doları)
+- **Para Birimi Görüntüleme:** Muhasebe para birimi Genel Muhasebeden (A.B.D doları)
 
-Pelinin seçtiği para birimi filtresi nedeniyle, rapor yalnızca Japon yeni (JPY) olarak girilen hareketleri içerir. Seçtiği para birimi ekranı nedeniyle, rapor işlevsel para birimi olan ABD doları (USD) cinsinden olan hareketleri görüntüler.
+Pelinin seçtiği para birimi filtresi nedeniyle, rapor yalnızca Japon yeni (JPY) olarak girilen hareketleri içerir. Seçtiği para birimi ekranı nedeniyle, rapor muhasebe para birimi olan ABD doları (USD) cinsinden olan hareketleri görüntüler.
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Para Birimi Filtresi ve Para Birimi Ekranı birleşimleri
 
@@ -555,10 +545,10 @@ Aşağıdaki tabloda, Pelin'in yaptığı seçimler nedeniyle **Para Birimi Ekra
 
 | Para Birimi Ekranı hücresi                        | Para Birimi Filtresi hücresi | Rapor sonucu |
 |----------------------------------------------|----------------------|---------------|
-| Doğal/kaynak para birimi                 | **YEN**              | **6.000 Y**: Sonuç yalnızca JPY olarak girilen hareketleri gösterir. |
-| Şirket bilgilerindeki işlevsel para birimi | **YEN**              |**60 $**: Sonuç yalnızca JPY olarak girilen hareketleri gösterir ve ABD doları cinsinden olan hareketleri görüntüler.<blockquote>[!NOTE] Dönüşüm oranı USD başına yaklaşık 100 JPY'dir.</blockquote> |
-| Şirket bilgilerindeki işlevsel para birimi | Boş                | **2.310 $**: Sonuç tüm verileri şirket bilgilerinde belirtilen işlevsel para biriminde gösterir.<blockquote>[!NOTE] Bu tutar, işlevsel para birimindeki tüm işlemlerin toplamıdır.</blockquote> |
-| Doğal/kaynak para birimi                 | Boş                | **2.250 $**: Sonuç, hareketin gerçekleştirildiği para birimindeki tüm tutarları gösterir. |
+| Hareket para birimi                 | **YEN**              | **6.000 Y**: Sonuç yalnızca JPY olarak girilen hareketleri gösterir. |
+| Genel Muhasebe için muhasebe para birimi | **YEN**              |**60 $**: Sonuç yalnızca JPY olarak girilen hareketleri gösterir ve ABD doları cinsinden olan hareketleri görüntüler.<blockquote>[!NOTE] Dönüşüm oranı USD başına yaklaşık 100 JPY'dir.</blockquote> |
+| Genel Muhasebe için muhasebe para birimi | Boş                | **2.310 $** – Sonuç, tüm veriyi Genel Muhasebe defteri içinde belirtilen muhasebe para biriminde gösterir.<blockquote>[!NOTE] Bu tutar, muhasebe para birimindeki tüm işlemlerin toplamıdır.</blockquote> |
+| Hareket para birimi                 | Boş                | **2.250 $**: Sonuç, hareketin gerçekleştirildiği para birimindeki tüm tutarları gösterir. Bu, toplamın farklı para birimlerinden tutarlar ekleyerek oluştuğu anlamına gelir. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Bir sütun tanımındaki hesaplama sütunu
 

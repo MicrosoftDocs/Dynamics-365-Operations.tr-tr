@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0b6683107f4b2dbe36af78749612ce950ea19582
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363373"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403249"
 ---
 # <a name="general-ledger"></a>Genel muhasebe 
 
@@ -53,21 +53,19 @@ Ayrıca, vergi dairesi gereksinimleri değiştirdiğinde kuralların düzenli ol
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="whats-new"></a>Yenilikler
+#### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Kullanıma sunulmuş yeni sürümleri görmek için [Sürüm notları](https://docs.microsoft.com/en-us/business-applications-release-notes/)'na gidin. 
+[Microsoft Dynamics 365 Sürüm Notları](https://go.microsoft.com/fwlink/?linkid=2010158)'na giderek hangi yeni özelliklerin planlandığını görün. 
+
+#### <a name="blogs"></a>Bloglar
+
+Görüşleri, haberler ve diğer bilgileri [Microsoft Dynamics 365 blogu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Finansal blogunda](https://community.dynamics.com/365/financeandoperations/b/financials) bulabilirsiniz.
+
+[Microsoft Dynamics Operations İş Ortağı Topluluk Bloğu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
 
 ### <a name="videos"></a>Videolar
 
 Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Kanalı](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)'nda bulunan nasıl yapılır videolarına hemen göz atın.
-
-### <a name="blogs"></a>Bloglar
-
-[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) Borç hesapları ve diğer çözümler hakkındaki fikir, haber ve diğer bilgilere ulaşabilirsiniz.
-
-[Microsoft Dynamics AX ürün ekibi bloğunda](https://blogs.msdn.microsoft.com/dax/) Genel muhasebe defteri hakkında pek çok gönderi bulunmaktadır. Bu gönderilerin bazıları Genel muhasebenin önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve yordamlar da geçerli sürümdekine benzerdir.
-
-[Microsoft Dynamics Operations İş Ortağı Topluluk Bloğu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
 
 #### <a name="community-blogs"></a>Topluluk blogları
 

@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: Microsoft Dynamics 365 for Finance and Operations belgeleri
 description: Microsoft Dynamics 365 for Finance and Operations belgeleri.
 author: margoc
 manager: AnnBe
-ms.date: 08/30/2018
+ms.date: 03/08/2019
 ms.topic: index-page
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: ''
+ms.technology: null
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: 'Core, Operations'
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9921883d952ebc42eff9f678bb300d8304e379
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
-ms.translationtype: HT
-ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302989"
 ---
+
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Microsoft Dynamics 365 for Finance and Operations belgeleri
 
 [!include [banner](includes/banner.md)]
@@ -44,12 +40,26 @@ Bu içeriğin büyük bir bölümü, Microsoft Dynamics 365 for Retail ve Micros
 <h3><a href="get-started/before-you-buy.md">Satın almadan önce</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Önizleme aboneliğine kaydolma</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Bir dağıtım seçeneği belirleme</a></p>
- <p><a href="get-started/purchase-on-premises.md">Finance and Operations (şirket içi) satın alma</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Finance and Operations (on-premises) satın alma</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Uygulama yaşam döngüsü</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">Dynamics 365 için FastTrack</a></p>
-<p><a href="imp-lifecycle/onboard.md">Bir projeyi işe alma</a></p>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="imp-lifecycle/onboard.md">Bir projeyi ekleme</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Servise almak için hazırlama</a></p>
+
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Bir Sürüm hizmet güncelleştirmeleri</a></h3>
+<p><a href="get-started/one-version.md">Bir Sürüm hizmet güncelleştirmeleriyle ilgili SSS</a></p>
+<p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Yazılım yaşam döngüsü ilkesi: Bulut</a></p>
+<p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Yazılım yaşam döngüsü ilkesi: Şirket içi</a></p>
+<p><a href="get-started/public-preview-releases.md">Standart ve İlk sürüm hizmet güncelleştirmeleri</a></p>
+<p><a href="get-started/whats-new-changed.md">Yenilikler veya değişiklikler</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Yükseltmeler, güncelleştirmeler ve düzeltmeler</a></p>
+<p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">Bulut ortamlarına güncelleştirmeleri uygulama</a></p>
+<p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Hizmet güncelleştirmelerini yapılandırma</a></p>
+<p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Hizmet güncelleştirmelerini duraklatma</a></p>
+<p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Hizmet güncelleştirmeleri hakkında bilgilendirilme</a></p>
+<p><a href="../dev-itpro/data-entities/data-task-automation.md">Veri görevi otomasyonu</a></p>
+<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
 
 <h3><a href="../financials/index.md">Mali yönetim</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Borç hesapları</a></p>
@@ -71,6 +81,8 @@ Bu içeriğin büyük bir bölümü, Microsoft Dynamics 365 for Retail ve Micros
 <p><a href="hr/manage-recruiting-process.md">İşe alma</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">ABD bordrosu</a></p>
 
+</td>
+<td>
 <h3><a href="../supply-chain/index.md">Tedarik zinciri yönetimi</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Maliyet yönetimi</a></p>
 <p><a href="../supply-chain/inventory/inventory-home-page.md">Stok yönetimi</a></p>
@@ -82,8 +94,7 @@ Bu içeriğin büyük bir bölümü, Microsoft Dynamics 365 for Retail ve Micros
 <p><a href="../supply-chain/transportation/transportation-management-overview.md">Taşıma yönetimi</a></p>
 <p><a href="../supply-chain/warehousing/warehouse-configuration.md">Ambar yönetimi</a></p>
 
-</td>
-<td>
+
 <h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">Zeka</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">Analiz</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">İş belgeleri</a></p>

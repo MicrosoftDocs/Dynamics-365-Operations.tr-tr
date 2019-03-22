@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5326642553c7efcebc6c6af953e2dafe9e62e9ec
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357945"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832207"
 ---
 # <a name="electronic-messaging"></a>Elektronik iletiler
 
@@ -69,6 +69,7 @@ Bir varlık paketini içe aktarmazsanız, Elektronik mesajlaşma işlevselliğin
 - [Ek alanlar](#additional-fields)
 - [Yürütülebilir sınıf ayrıntıları](#executable-class-settings)
 - [Kayıtları doldur eylemleri](#populate-records-actions)
+- [Web uygulamaları](#web-applications)
 - [Web hizmeti ayarları](#web-service-settings)
 - [İleti işleme eylemleri](#message-processing-actions)
 - [Elektronik ileti işleme](#electronic-message-processing)
@@ -85,27 +86,49 @@ Mesaj öğesi türü, elektronik mesajlarda kullanılacak kayıt türlerini tan�
 
 Mesaj öğesi durumları, ayarlamakta olduğunu işlemede mesaj öğelerine uygulanacak durumları belirler. Mesaj öğesi türlerini **Mesaj öğesi durumları** sayfasında ayarlayabilirsiniz (**Vergi** \> **Kurulum** \> **Elektronik mesajlar** \> **Mesaj öğesi durumları**).
 
+Bir ileti öğe durumunun **Silmeye izin ver** parametresi, kullanıcının bu durumdaki öğeyi **Elektronik iletiler** formu veya **Elektronik ileti öğeleri** formu üzerinden silmesine izin veril verilmeyeceğini belirler. 
+
 ### <a name="message-statuses"></a>İleti durumları
 
 Mesaj işlemede kullanılabilir olacak mesaj durumlarını ayarlamak. Mesaj durumlarını **Mesaj durumları** sayfasında ayarlayabilirsiniz (**Vergi** \> **Kurulum** \> **Elektronik mesajlar** \> **Mesaj durumları**).
+
+Alanların açıklaması:
+
+| Alan adı           | Tanım |
+|----------------------|-------------|
+|İleti durumu        | Her bir andaki iletinin durumunu karakterize elektronik ileti durumunun benzersiz adı. Bu ad, Elektronik iletiler formunda ve elektronik iletiyle ilişkili bir Kayıtta görüntülenir. |
+|Tanım           | Elektronik iletinin durumuna ilişkin açıklama      |
+|Yanıt türü         | Bir işlemedeki bazı eylemler birden fazla yanıt türüyle sonuçlanabilir. Örnek olarak, **Web servisi** türü eylem **Başarıyla tamamlandı** veya **Teknik hata** türü ile sonuçlanabilir, çalıştırılmasının sonucuna bağlı olarak. Bu durumda, her iki yanıt türü için vaka ileti durumunun tanımlanması gerekir. Eylem türleri ve ilgili yanıt türleri hakkında daha fazla bilgi için bkz. [İleti işleme eylem türleri](#message-processing-action-types). |
+|İleti maddesi durumu   |Elektronik ileti durumlarının ilgili ileti öğelerinin ilişkili durumlarına etki etmesi gereken durumlar vardır. Bu alandaki bu tür ileti öğeleri durumunu, bu aramadan seçerek ilişkilendirin. |
+|Silmeye izin ver          | Bir elektronik ileti durumunun **Silmeye izin** ver parametresi, kullanıcının bu durumdaki öğeyi Elektronik iletiler formu veya **Elektronik iletiler** formu üzerinden silmesine izin veril verilmeyeceğini belirler.            |
 
 ### <a name="additional-fields"></a>Ek alanlar
 
 Elektronik mesajlaşma işlevselliği, kayıtları bir işlem tablosundan doldurmanıza olanak sağlar. Bu şekilde, kayıtları raporlama için hazırlayabilir ve daha sonra raporlayabilirsiniz. Bazı durumlarda, rapor gereksinimlerine uygun biçimde bir kaydı raporlamak için işlem tablosunda yeterli bilgi olmayabilir. Bir kayıt için raporlanması gereken tüm bilgileri, ek alanlar ayarlayarak doldurabilirsiniz. Ek alanlar, hem mesajlar hem de mesaj öğeleri ile ilişkilendirilebilir. Ek alanları **Ek alanlar** sayfasında (**Vergi** \> **Kurum** \> **Elektronik mesajlar** \> **Ek alanlar**) ayarlayabilirsiniz.
 
-Aşağıdaki tablo **Ek alanlar** sayfasındaki alanları açıklar.
+Aşağıdaki tablo **Ek alanlar** sayfasındaki genel alanları açıklar:
 
 | Alan                | Tanım |
 |----------------------|-------------|
 | Alan adı           | İşlem ile ilgili olan mesaj öğeleri için ek öznitelikler için adı girin. Bu ad, işlemde çalışırken kullanıcı arabiriminde gösterilir. İşlemle ilişkili ER yapılandırmaları için de kullanılabilir. |
 | Tanım          | İşlem ile ilgili olan mesaj öğeleri için ek öznitelikler için bir açıklama girin. |
-| Alan değeri          | Raporlama sırasında bir mesaj ile ilişkili kullanılmak üzere bir alan değeri girin. |
+| Kullanıcı düzenleme            | Bir kullanıcının ek alanın değerini kullanıcı arabiriminden değiştirebilmesi gereken bir durumda, bu onay kutusunu **Evet** olarak belirleyin, aksi taktirde **Hayır**. |
+| Sayaç              | Ek alan, bir elektronik iletide bir sıra numarası içermek zorunda olduğunda, bu onay kutusunu işaretleyin. Ek alan değerlerini çalıştırma sırasında eylem "Dışa aktarma elektronik Raporlama" tipi otomatik olarak doldurulur.  |
+| Gizli               | Ek alanın kullanıcı arabiriminde gizli olması gerektiğinde, bu onay kutusunu işaretleyin.  |
+
+Her bir ek alan, işleme için farklı değerlere sahip olabilir. Bu değerleri, Değerler hızlı sekmesinde tanımlayabilirsiniz:
+
+| Alan                | Tanım |
+|----------------------|-------------|
+| Alan değeri          | Raporlama sırasında bir mesaj veya mesaj öğesi ile ilişkili kullanılmak üzere bir alan değeri girin. |
 | Alan açıklaması    | Raporlama sırasında bir mesaj ile ilişkili kullanılmak üzere bir alan değerinin açıklamasını girin. |
 | Hesap türü         | Bazı ek alanların değerleri sınırlı hesap türlerine sınırlı olabilir. Aşağıdaki değerlerden birini seçin: **Tümü**, **Müşteri** veya **Satıcı**. |
 | Hesap kodu         | **Müşteri** veya **Satıcı** seçeneklerini **Hesap türü** alanında seçerseniz, alan değerlerinin kullanımını belirli bir grup veya tabloya daha da fazla sınırlandırabilirsiniz. |
 | Hesap/Grup numarası | **Müşteri** veya **Satıcı** seçeneğini **Hesap türü** alanında seçtiyseniz ve, bir grup veya tabloyu **Hesap kodu** alanında girdiyseniz, bu alana belirli bir grup veya karşıt öğe girebilirsiniz. |
 | Yürürlüğe giriş            | Değerin dikkate alınması gereken başlangıç tarihini belirtin. |
 | Bitiş           | Değerin dikkate alınması gereken bitiş tarihini belirtin. |
+
+**Hesap/Grup numarası ekle**, **Hesap kodu**, **Efektif**, **Sona erme** içinde tanımlanan ölçüt kombinasyonları, ek alanlar için varsayılan seçimi etkilemez ancak bir ek alan değerinin hesaplaması için bazı özel mantık kombinasyonları gerçekleştirmede kullanılabilir.
 
 ### <a name="executable-class-settings"></a>Yürütülebilir sınıf ayrıntıları
 
@@ -120,6 +143,8 @@ Yürütülebilir sınıfı **Yürütülebilir sınıf ayarları** (**Vergi** \> 
 | Yürütülebilir sınıf adı | Bir X++ yürütülebilir sınıfı seçin. |
 | Yürütme düzeyi       | Bu alan otomatik olarak ayarlanır, çünkü değer seçilen yürütülebilir sınıf için önceden belirlenmiş olmalıdır. Bu alan, ilişkili değerlendirmenin yürütüleceği düzeyi sınırlar. |
 | Sınıf açıklaması     | Bu alan otomatik olarak ayarlanır, çünkü değer seçilen yürütülebilir sınıf için önceden belirlenmiş olmalıdır. |
+
+Bazı yürütülebilir sınıflar, yürütülebilir sınıf ilk defa çalıştırılmadan önce tanımlanması gereken zorunlu parametrelere sahip olabilir. Bu tür parametreleri tanımlamak için Eylem panosunda, **Parametreler** düğmesine tıklatın, karşılık gelen değerleri ve alanları iletişim kutusunda ayarlayın ve **Tamam** düğmesine tıklayın. Burada **Tamam** düğmesine tıklamak önemlidir, aksi taktirde parametreler tabana kaydedilmez ve yürütülebilir sınıf doğru biçimde çağrılmayacaktır.
 
 ### <a name="populate-records-actions"></a>Kayıtları doldur eylemleri
 
@@ -143,6 +168,37 @@ Doldurulmuş kayıt eylemlerini, Mesaj öğeleri tablosuna kayıtlar ekleyecek e
 | Belge hesabı alanı | Seçili tablodan belge hesabının alınacağı alanı seçin. |
 | Kullanıcı sorgusu             | Bu onay kutusu seçiliyse, kılavuzun üstündeki **Sorguyu düzenle**'yi seçerek bir sorgu ayarlayabilirsiniz. Aksi taktirde, tüm kayıtlar veri kaynağından doldurulur. |
 
+### <a name="web-applications"></a>Web uygulamaları
+
+Uygulamaya kendileri adına, erişim kimlik bilgilerini paylaşmadan "Güvenli temsilci olarak erişim" sağlayan açık standart OAuth 2.0 desteklemek için bir web uygulamasının parametrelerini ayarlamak için web uygulaması sayfasını kullanabilirsiniz. Bu sayfadan bir erişim kodu ve erişim belirteci alarak bir kimlik doğrulama işleminden geçebilirsiniz. **Web uygulamaları** sayfasında web uygulaması ayarlarını ayarlayabilirsiniz (**Vergi** \> **Kurulum** \> **Elektronik mesajlar** \> **Web uygulamaları**).
+
+Aşağıdaki tablo **Web uygulamaları** sayfasındaki alanları açıklar.
+
+| Alan                         | Tanım |
+|-------------------------------|-------------|
+| Uygulama adı              | Web uygulaması için bir ad girin. |
+| Tanım                   | Web uygulamasının açıklamasını girin. |
+| Temel URL                      | Web uygulaması taban internet adresini girin. |
+| Yetkilendirme URL'si yolu        | Yetkilendirme için URL oluşturma yolunu belirtin.  |
+| Belirteç URL'si yolu                | Belirteç için URL oluşturma yolunu belirtin.  |
+| Yeniden yönlendirme URL'si                  | Bir yönlendirme URL'si girin.  |
+| İstemci kodu                     | Web uygulamasının İstemci kimlik kodunu girin.  |
+| İstemci gizli anahtarı                 | Web uygulamasının İstemci sırrını girin.  |
+| Sunucu belirteci                  | Web uygulamasının sunucu belirtecini girin.  |
+| Yetkilendirme biçimi eşlemesi  | Yetkilendirme talebi oluşturmak için bir Elektronik Raporlama (ER) biçimi seçin.   |
+| Belirteç model eşlemesini içe aktar    | Erişim belirtecini depolamakta kullanılacak bir ER içe aktarma modeli eşleştirmesi seçin.  |
+| Verilen kapsam      Erişim belirtecinin geçersiz olacağı tarih  | Bu alan otomatik olarak güncelleştirilir. Değeri, web uygulamasına verilen kapsamın talebini gösterir.  |
+| Kabul et                        | Web talebi kabul etme varlığını belirtin. Örneğin, "application/vnd.hmrc.1.0+json"  |
+| İçerik türü           | İçerik türünü belirtin. Örneğin, "application/json".  |
+
+Aşağıdaki işlevler **Web uygulamaları** sayfasından, yetkilendirme işlemini desteklemek için bulunabilir:
+-   **Yetkilendirme kodunu alın** - web uygulamasının yetkilendirmesini başlatmak için.
+-   **Erişim belirtecini edin** - bir erişim belirtecini almak için.
+-   **Erişim belirtecini yenile** - bir erişim belirtecini yenilemek için.
+
+Bir erişim belirteci, veri tabanı olan şifrelenmiş biçimde sistemde depolanan bir web uygulaması için istekleri bir web hizmeti için kullanılabilir. Güvenlik amacıyla, erişim belirtecine erişimin yalnızca bu talepleri yanıtlamasına izni olan güvenlik rollerine kısıtlanması gerekir. Güvenlik grubu dışındaki bir kullanıcı bir talebe yanıt vermeye çalışırsa, bir özel durum kullanıcıya, seçili web uygulaması aracılığıyla birlikte çalışamayacağını bildirir.
+Vergi > Ayar > Elektronik iletiler > Web uygulamaları sayfasının **Güvelik rolleri** hızlı sekmesini kullanarak, erişim belirtecine erişime sahip olması gereken rolleri ayarlayın. Güvenlik rolleri bir web uygulaması için tanımlanmadığında, bir sistem yöneticisi yalnızca bu web uygulaması aracılığıyla birlikte çalışabilecektir.
+
 ### <a name="web-service-settings"></a>Web hizmeti ayarları
 
 Bir web hizmetine doğrudan veri aktarımı ayarlamak için web hizmeti ayarlarını kullanırsınız. **Web hizmeti ayarları** sayfasında web hizmeti ayarlarını ayarlayabilirsiniz (**Vergi** \> **Kurulum** \> **Elektronik mesajlar** \> **Web hizmeti ayarları**).
@@ -153,13 +209,17 @@ Aşağıdaki tablo **Web hizmeti ayarları** sayfasındaki alanları açıklar.
 |-------------------------|-------------|
 | Web hizmeti             | Web hizmeti için bir ad girin. |
 | Tanım             | Web hizmetinin açıklamasını girin. |
-| Internet adresi        | Web hizmetinin internet adresini girin. |
+| Internet adresi        | Web hizmetinin internet adresini girin. Bir web uygulaması bir web servisi için belirtildiyse ve internet adresi, seçilen web uygulamasında tanımlananla aynı olacaksa, **Taban URL'yi kopyala** düğmesine basarak **Taban URL'yi** web uygulamasından, web servisinin **İnternet adresi** alana kopyalayın.  |
 | Sertifika             | Önceden ayarlanmış bir Key Vault sertifikasını seçin. |
+| Web uygulaması         | Önceden ayarlanmış bir Key Vault sertifikasını seçin. |
 | Yanıt türü – XML | Yanıt türü XML ise bu seçeneği **Evet** olarak ayarlayın. |
 | İstek yöntemi          | Talep yöntemini belirtin. HTTP, belirli bir kaynak için gerçekleştirilmesini gereken talep yöntemlerinin kümesini belirtir. Yöntem **GET** **POST** veya başka bir HTTP yöntemi olabilir. |
 | İstek başlıkları         | Talep başlıklarını belirtin. Bir talep başlığı, bir HTTP talebinde kullanılabilen bir HTTP başlığıdır ve mesajın içeriğiyle ilişkili değildir. |
+| Kabul et                  | Web talebi kabul etme varlığını belirtin. |
 | Kodlamayı kabul et         | Kodlamayı kabul et'i belirtin. Kodlamayı kabul et talep HTTP başlığı, istemcinin anlayabileceği içerik kodlamasını tanıtır. Bu içerik kodlama genellikle bir sıkıştırma algoritmasıdır. |
 | İçerik türü            | İçerik türünü belirtin. İçerik türü varlık başlığı, kaynağın medya türünü belirtir. |
+| Başarılı yanıt kodu   | Talebin başarılı olduğunu belirten HTTP durum kodunu belirtin. |
+| İstek başlıkları biçim eşlemesi  | Web talebi başlıklarının oluşturulması için ER biçimini seçin. |
 
 ### <a name="message-processing-actions"></a>İleti işleme eylemleri
 
@@ -172,17 +232,21 @@ Aşağıdaki tablo, **Mesaj işleme eylemleri** sayfasındaki alanları açıkla
 | Alan                   | Tanım |
 |-------------------------|-------------|
 | Eylem türü             | Eylem türünü seçin. Kullanılabilir seçenekler hakkında bilgi için [Mesaj işleme eylem türleri](#message-processing-action-types) bölümüne bakın. |
-| Biçim eşleme          | Eylem için çağrılması gereken ER biçimini seçin. Bu alan yalnızca **Elektronik raporlama dışa aktarma**, **Elektronik raporlama içe aktarma** ve **Elektronik raporlama dışa aktarma mesajı** türleri için kullanılabilirdir. |
-| İleti maddesi türü       | Eylemin değerlendirileceği kayıt türlerini seçin. Bu alan **Mesaj öğesi yürütme seviyesi**, **Elektronik raporlama dışa aktarma** ve **Elektronik raporlama içe aktarma** türleri ve bazı diğer türler için kullanılabilirdir. Bu alanı boş bırakırsanız, mesaj işleme için tanımlanan tüm mesaj öğesi türleri değerlendirilir. |
+| Biçim eşleme          | Eylem için çağrılması gereken ER biçimini seçin. Bu alan yalnızca **Elektronik raporlama dışa aktarma**, **Elektronik raporlama içe aktarma**, **Elektronik raporlama dışa aktarma mesajı** türleri için kullanılabilirdir. |
+| URL yolu için biçim eşlemesi | Eylem için çağrılması gereken ER biçimini seçin. Bu alan yalnızca **Web servisi** türlerinin eylemleri için kullanılabilir ve seçilen web sunucusu için tanımlanmış taban internet adresine eklenecek URL adresinin oluşturmak için kullanılır. |
+| İleti maddesi türü       | Eylemin değerlendirileceği kayıt türlerini seçin. Bu alan **Mesaj öğesi yürütme seviyesi**, **Elektronik raporlama dışa aktarma** ve **Elektronik raporlama içe aktarma** türleri, **Web servisi** ve bazı diğer türler için kullanılabilirdir. Bu alanı boş bırakırsanız, mesaj işleme için tanımlanan tüm mesaj öğesi türleri değerlendirilir. |
 | Yürütülebilir sınıf        | Daha önceden oluşturulmuş yürütülebilir sınıf ayarlarını seçin. Bu alan, yalnızca **Mesaj öğesi yürütme düzeyi** ve **Mesaj öğesi yürütme düzeyi** yürleri için kullanılabilirdir. |
 | Kayıtları doldur eylemi | Daha önceden ayarlanmış bir kayıtları doldur eylemini seçin. Bu alan yalnızca **Kayıtları doldur** türünün eylemleri için kullanılabilirdir. |
+| Web hizmeti  | Daha önceden ayarlanmış bir web servisi seçin. Bu alan yalnızca **Web servisi** türünün eylemleri için kullanılabilirdir.  |
+| Dosya adı  | Yanıtı web sunucusundan veya bir raporun oluşturulmasından yanıt olarak sonuçlanacak dosyanın adını belirtin. Bu alan yalnızca **Web servisi** ve **Elektronik raporlama dışa aktarma iletisi** türünde eylemler için kullanılabilir.   |
+| İletişim kutusunu göster  | Bir iletişim kutusunun rapor oluşturmadan önce kullanıcıya gösterilmesi gerekiyorsa bu onay kutusunu işaretleyin. Bu alan yalnızca **Elektronik raporlama dışa aktarma iletisi** türünde eylemler için kullanılabilir.   |
 
 ##### <a name="message-processing-action-types"></a>Mesaj işleme eylem türleri
 
 Aşağıdaki seçenekler **Eylem türü** alanında kullanılabilir:
 
-- **Kayıtları doldur** - Bir **Kayıtları doldur** eyleminin önceden ayarlanmış olması gerekir. İşlemeye dahil edilmesi için **Kayıtları doldur** türünün eylemleri ile ilişkilendirin. Bu eylem türünün, mesaj işlemedeki ilk eylem için kullanılacağı varsayılır. Bu nedenle, yalnızca sonuç durumları bu tür bir eylem için ayarlanabilir. Bir başlangıç durumu ayarlanamaz.
 - **Mesaj oluştur** - Bu türü kullanıcıların **Elektronik mesaj** sayfasında el ile mesajlar oluşturmasına izn vermek için kullanın. Bir başlangıç durumu, bu tür bir eylem için ayarlanamaz.
+- **Kayıtları doldur** - Bir **Kayıtları doldur** eyleminin önceden ayarlanmış olması gerekir. İşlemeye dahil edilmesi için **Kayıtları doldur** türünün eylemleri ile ilişkilendirin. Bu eylem türünün ya mesaj işlemede ilk eylem için kullanıldığı (elektronik ileti önden oluşturulmadıysa) veya ileti öğelerini daha önceden oluşturulmuş bir iletiye ekleyen bir eylem olarak (**İleti oluştur** türünde bir eylem). Bu nedenle, yalnızca ileti öğelerinin sonuç durumu bu türde bir eylem için ayarlanabilir. Bir başlangıç durumu yalnızca ileti için ayarlanabilir.
 - **Mesaj yürütme düzeyi** - Bu türü, mesaj düzeyinde değerlendirilecek bir yürütülebilir sınıf ayarlamak için kullanın.
 - **Mesaj öğesi yürütme düzeyi** - Bu türü, mesaj öğesi düzeyinde değerlendirilecek bir yürütülebilir sınıf ayarlamak için kullanın.
 - **Elektronik rapor dışa aktarma** - Bu türü, mesaj öğesi düzeyinde dışa aktarılan bir ER yapılandırmasına dayanan bir rapor oluşturacak eylemler için kullanın.
@@ -190,13 +254,13 @@ Aşağıdaki seçenekler **Eylem türü** alanında kullanılabilir:
 - **Elektronik rapor içe aktarma** - Bu türü, içe aktarılan bir ER yapılandırmasına dayanan bir rapor oluşturacak eylemler için kullanın.
 - **Mesaj düzeyi kullanıcı işleme** -Bu türü, kullanıcı tarafından el ile bazı eylemler varsayılan eylemler için kullanın. Örneğin, kullanıcı, mesajların durumunu güncelleştirebilir.
 - **Kullanıcı işleme** -Bu türü, kullanıcı tarafından el ile bazı eylem varsayılan eylemler için kullanın. Örneğin, kullanıcı, mesajlar öğelerinin durumunu güncelleştirebilir.
-- **Web hizmeti** - Bu türü, oluşturulan bir raporu bir web hizmetine aktarmak için kullanın. Bu eylem türü, İtalyan Satın alma ve Satış Faturası İletişimi raporlaması için kullanılmaz.
+- **Web hizmeti** - Bu türü, oluşturulan bir raporu bir web hizmetine aktarmak için kullanın. Bu eylem türü, İtalyan Satın alma ve Satış Faturası İletişimi raporlaması için kullanılmaz. **Web servisi** türü eylemler için **İleti işleme eylemleri**'nin **Çeşitli ayrıntılar** hızlı sekmesinde bir **Onay metni** belirleyebilirsiniz. Bu onay metni, seçilen web servisine talep aktarılmadan önce kullanıcıya gösterilecektir.
 - **Talep doğrulama** - Bu türü, sunucudan bir doğrulama talep etmek için kullanın.
 
 #### <a name="initial-statuses-fasttab"></a>Başlangıç durumları FastTab
 
 > [!NOTE]
-> **İlk durumlar** FastTab'i, **Kayıtları doldur** veya **Mesaj oluştur** başlangıç türüne sahip eylemler için kullanılamaz.
+> **İlk durumlar** FastTab'i, **Mesaj oluştur** başlangıç türüne sahip eylemler için kullanılamaz.
 
 | Alan               | Tanım                                                                                         |
 |---------------------|-----------------------------------------------------------------------------------------------------|
@@ -212,11 +276,29 @@ Aşağıdaki seçenekler **Eylem türü** alanında kullanılabilir:
 | Yanıt türü       | Seçilen mesaj durumunun yanıt türü. |
 | İleti maddesi durumu | Seçili mesaj işleme eylemi değerlendirildikten sonra kullanılabilir olacak sonuçlanan durumları seçin. Bu alan, yalnızca mesaj öğesi düzeyinde değerlendirilecek mesaj işleme eylemleri için kullanılabilir. Örneğin,, **Kullanıcı işleme** ve **Mesaj öğesi yürütme düzeyi** türlerinin eylemleri için kullanılabilir. Mesaj düzeyinde değerlendirilecek işleme eylemleri için bu alan, seçilen mesaj durumunda ayarlanan mesaj düzeyi durumunu gösterir. |
 
+Aşağıdaki tablo, hangi sonuç durumlarının eylemlerin türüne karşılık ayarlanması gerektiğini gösterir:
+
+| Elektronik ileti eylem türü \ Yanıt türü  | Başarıyla yürütüldü  | İş hatası  | Teknik hata  | Kullanıcı tanımlı  | İptal et  |
+|-------------------------------------------------|--------------|---------|-------|-----|-----------------|
+| İleti oluştur                                  | X            |         |       |     |                 |
+| Elektronik raporlama dışa aktarma                     | X            |         |       |     |                 |
+| Elektronik raporlama içe aktarma                     |              |         |       |     |                 |
+| Web hizmeti                                     | X            |         | X     |     |                 |
+| Kullanıcı işleme                                 |              |         |       |     |                 |
+| İleti yürütme düzeyi                         |              |         |       |     |                 |
+| Kayıtları doldur                                |              |         |       |     |                 |
+| İleti maddesi yürütme düzeyi                    |              |         |       |     |                 |
+| İstek doğrulaması                            | X            |  X      | X     |     |                 |
+| Elektronik raporlama dışa aktarma iletisi             | X            |         |       |     |                 |
+| İleti düzeyinde kullanıcı işleme                   |              |         |       |     |                 |
+
 ### <a name="electronic-message-processing"></a>Elektronik ileti işleme
 
-Elektronik mesaj işleme, Elektronik mesaj işlevinin temel bir kavramıdır. Elektronik mesaj için değerlendirilecek eylemleri toplar. Eylemler, bir başlangıç durumu ve bir sonuç durumu ile ilişkilendirilebilir. Alternatif olarak, **Kullanıcı işleme** türünün eylemleri bağımsız olarak başlatılabilir. **Elektronik mesaj işleme** sayfasında (**Vergi** \> **Kurulum** \> **Elektronik mesajlar** \> **Elektronik mesaj işleme**), işleme için desteklenecek ek alanlar da seçebilirsiniz.
+Elektronik mesaj işleme, Elektronik mesaj işlevinin temel bir kavramıdır. Elektronik mesaj için değerlendirilecek eylemleri toplar. Eylemler, bir başlangıç durumu ve bir sonuç durumu ile ilişkilendirilebilir. Alternatif olarak, **Kullanıcı işleme** türünün eylemleri bağımsız olarak başlatılabilir. **Elektronik mesaj işleme** sayfasında (**Vergi** \> **Kurulum** \> **Elektronik mesajlar** \> **Elektronik mesaj işleme**), ileti düzeyinde veya ileti öğeleri düzeyinde işleme için desteklenecek ek alanlar da seçebilirsiniz.
 
-**Eylem** FastTab'i, işlemeye önceden belirlenmiş eylemler eklemenize olanak sağlar. Bir eylemin ayrı olarak mı çalıştırılacağı yoksa işleme ile mi başlatılacağını belirtebilirsiniz. (Kullanıcı eylemlerinin ayrı çalıştırılması gerekir.)
+**Eylem** FastTab'i, işlemeye önceden belirlenmiş eylemler eklemenize olanak sağlar. Bir eylemin ayrı olarak mı çalıştırılacağı yoksa işleme ile mi başlatılacağını belirtebilirsiniz. Eylemin yalnızca bir kullanıcı tarafından mı başlatılabileceğini tanımlamak için eylemin **Ayrı çalıştır** onay kutusunu işleme için işaretleyin. İletiler veya ileti öğeleri durumda bu eylem için ilk durum olarak tanımlanmışlarsa eylemi işleme için başlatılmasını istiyorsanız, **Ayrı çalıştır** parametresinin işaretini kaldırın. **Kullanıcı eylemi** türünün yalnızca ayrı çalıştırılması gerekir. 
+
+Bazı durumlarda, bunları ilk separably çalıştırmak için çift tanımlanmışsa bir sıra çok sayıda işlemi toplamak için gerekebilir. Gerektiğinde, rapor oluşturma, ancak bir kullanıcı tarafından web hizmetinden gelen yanıt sisteme yansıtılması gerekir ve bir web hizmeti için oluşturulan rapor anında gönderilmelidir başlatılmalıdır. Bu tür bir amaç için **Ayrılmaz seri** kullanabilirsiniz. Bunu yapmak için **Ayrılmaz seri** düğmesine **Elektronik raporlama** sayfasının **Eylem** eylem panosuna tıklayın, bir seri oluşturun ve her zaman birlikte çalıştırılması için **Ayrılmaz seri** sütununda bunu seçin. Bu durumdaki ilk eylem **Ayrı çalıştır** olarak ayarlanabilir ancak diğer hepsi olmaz.
 
 **Mesaj öğesi ek alanları** FastTab'i, mesaj öğeleriyle ilişkili önceden belirlenmiş ek alanlar eklemenize olanak sağlar. Alanın ilişkili olduğu her türde mesaj öğesi için ek alanlar eklemeniz gerekir.
 
@@ -238,16 +320,22 @@ Mesaj düzeyinde çalışıyorsanız, **Elektronik mesajlar** sayfası (**Vergi*
 
 - **Yeni** - Bu düğme, **Mesaj oluştur** türünün eylemleri ile ilişkilendirilmiştir.
 - **Sil** - Bu düğme, **Silmeye izin ver** onay kutusu seçili mesajın geçerli durumu için seçiliyse kullanılabilir olur.
+- **Veri topla** - Bu düğme, **Kayıtları doldur** türü eylemiyle ilişkilendirilmiştir.
 - **Rapor oluştur** - Bu düğme, **Elektronik raporlama dışa aktarma mesajı**nın eylemleri ile ilişkilendirilmiştir.
 - **Rapor gönder** - Bu düğme, **Web hizmeti** türünün eylemleri ile ilişkilendirilmiştir.
+- **Yanıt içe aktar** - Bu düğme, **Elektronik raporlama içe aktarma** türünün eylemleriyle ilişkilendirilmiştir.
 - **Güncelleştirme durumu** - Bu düğme, **Mesaj düzeyi kullanıcı işleme** türünün eylemleri ile ilişkilendirilmiştir.
 - **Mesaj öğeleri** - **Elektronik mesaj öğeleri** sayfasını açın.
 
-**Eylem günlüğü** FastTab'i, seçilen mesaj için yürütülmüş olan tüm eylemler hakkında bilgileri gösterir.
+**Eylem günlüğü** FastTab'i, seçilen mesaj için yürütülmüş olan tüm eylemler hakkında bilgileri gösterir. Bir eylem bir hata ile sonuçlanırsa, hata hakkındaki bilgi ilgili Eylem kayıt günlüğüne eklenecektir. Satırı seçin ve sayfanın sağ üst köşesindeki **klip** düğmesine tıklayarak hata hakkında bilgiyi görüntüleyin.
 
 **Mesaj ek alanları** FastTab'i işleme kurulumunda mesajlar için tanımlanmış tüm ek alanları gösterir. Ayrıca bu ek alanların değerlerini de gösterir.
 
-**Mesaj öğeleri** FastTab'i, seçilen mesaj ile ilişkili tüm mesaj öğelerini gösterir.
+**Mesaj öğeleri** FastTab'i, seçilen mesaj ile ilişkili tüm mesaj öğelerini gösterir. Eylemi takip eden her ileti öğesi için ileti öğesinin durumuna bağlı olarak kullanılabilir:
+
+- **Sil** - Bu düğme, **Silmeye izin ver** onay kutusu seçili mesaj öğesinin geçerli durumu için seçiliyse kullanılabilir olur.
+- **Güncelleştirme durumu** - Bu düğme, **Kullanıcı işleme** türünün eylemleri ile ilişkilendirilmiştir.
+- **Orijinal belge** - Bu düğme, kullanıcının bir sayfayı seçilen iletinin orijinal belgesi ile açmasına izin verir.
 
 Seçili iletinin tüm eklerini gözden geçirebilirsiniz. Bu ekler, halihazırda oluşturulmuş ve alınmış olan raporlardır. Eklerini görüntülemek istediğiniz mesajı seçin ve sonra Eylem Panosunda **Ek** düğmesine basın.
 

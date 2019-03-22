@@ -3,7 +3,7 @@ title: Çoklu kanal gelişmiş otomatik ücretleri
 description: Bu konu perakende kanal düzeni masraflar otomatik gelişmiş özelliklerini kullanmak için ek sipariş masrafları yönetmek için kullanılan özellikleri açıklar.
 author: hhaines
 manager: annbe
-ms.date: 01/22/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a980ae9571fb47522d3966dc172b2343641b827e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345571"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789783"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Çoklu kanal gelişmiş otomatik ücretleri
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Bu konu Dynamics 365 for Retail sürüm 10.0. içerisinde yapılandırma ve dağıtım içinde kullanılabilir olan gelişmiş otomatik masraflar özelliği hakkında bilgi sağlar.
@@ -49,7 +48,7 @@ Gelişmiş otomatik masraflar özelliğiyle, POS kullanıcıları tanımlanan he
 
 ![Gelişmiş Otomatik masraflar Parametresi](media/advancedchargesparameter.png)
 
-Gelişmiş otomatik masraflar etkin olduğunda, kullanıcıların bir sevkiyat masrafını POS terminalinde, tümünü sevk veya seçilen müşteri siparişini sevk seçeneği seçildiğinde sevkiyat masrafını el ile girmeleri gerekmez. POS sipariş masrafları sistematik olarak hesaplanır ve POS hareketine eklenir (oluşturulan siparişin kriteriyle eşleşen, karşılık gelen otomatik masraf tablosu bulunursa). Kullanıcılar ayrıca, POS ekranı düzenlerine eklenebilecek başlık veya satır düzeyi masrafları el ile yeni eklenen POS işlemleri üzerinden ekleyebilir veya koruyabilir.  
+Gelişmiş otomatik masraflar etkin olduğunda, kullanıcıların bir sevkiyat masrafını POS terminalinde, tümünü sevk veya seçilen müşteri siparişini sevk seçeneği seçildiğinde sevkiyat masrafını el ile girmeleri daha fazla gerekmez. POS sipariş masrafları sistematik olarak hesaplanır ve POS hareketine eklenir (oluşturulan siparişin kriteriyle eşleşen, karşılık gelen otomatik masraf tablosu bulunursa). Kullanıcılar ayrıca, POS ekranı düzenlerine eklenebilecek başlık veya satır düzeyi masrafları el ile yeni eklenen POS işlemleri üzerinden ekleyebilir veya koruyabilir.  
 
 Gelişmiş otomatik masraflar etkinleştiğinde, mevcut **Sevkiyat masrafları kodu** ve **Geri ödeme sevkiyat masrafları** için **Perakende parametreleri** artık kullanılmaz. Bu parametreler yalnızca **Gelişmiş otomatik masraflar kullan** parametresi **Hayır** olarak ayarlandığında uygulanabilir.
 
@@ -67,6 +66,8 @@ Yeni operasyonlar şu şekildedir.
 - **143 - masrafları yeniden hesapla** - Bu işlemi satış hareketi için masrafların tamamen yeniden hesaplanmasını gerçekleştirmek için kullanın. Daha önceden kullanıcı tarafından üzeri yazılan otomatik değişiklikler geçerli sepet yapılandırmasına dayanarak yeniden hesaplanır.  
 
 Tüm POS işlemlerinde olduğu gibi, güvenlik yapılandırmalarının işlemin gerçekleştirilebilmesi için yönetici onayına ihtiyaç duyması sağlanabilir.
+
+Yukarıda listelenen POS operasyonlarının ayrıca POS düzenine, **Gelişmiş otomatik masrafları kullan** parametresi devre dışıysa bile eklenebileceğini anımsamak önemlidir. Bu senaryoda, kuruluşlar, el ile eklenen masrafları görüntüleyebilme ve bunları **Masrafları yönet** işlemini kullanarak düzenleme faydalarına sahip olurlar. Kullanıcılar **Başlık masrafları ekle** ve **Satır masrafları ekle** operasyonlarını POS hareketler için **Gelişmiş otomatik masraflar kullan** parametresi devre dışıysa bile kullanabilirler. **Masrafları yeniden hesapla** işlemi, **Gelişmiş otomatik masrafları kullan** seçeneği devre dışı bırakılmışsa daha az işleve sahiptir. Bu senaryoda, hiçbir şey yeniden hesaplanmaz ve otomatik olarak harekete eklenen tüm masraflar 0,00 $ tutarına sıfırlanır.
 
 ## <a name="use-case-examples"></a>Kullanım örneği
 Bu bölümde, örnek kullanım vakaları size otomatik masraflar ve sair masrafların Perakende kanalı siparişleri bağlamında yapılandırılması ve kullanılmasını anlamanızda yardımcı olmak için sunulur. Bu örnekler, **Gelişmiş otomatik sair masraflar kullan** parametresi etkinleştirildiğinde uygulamanın davranışını gösterir.
@@ -207,3 +208,7 @@ Kuruluşun giriş altbilgisine serbest metin alanları eklemesi de önerilir, bu
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>Masrafların, POS siparişi tamamlanmadan hesaplanmasını engellemek
 
 Bazı kuruluşlar, masrafları hesaplamadan önce kullanıcının tüm satış satırlarını POS hareketine girmesini beklemeyi tercih etmektedirler. Öğeler POS hareketine eklenirken masraf öğelerinin hesaplanmasını engellemek için **El ile masraf hesaplaması** parametresini mağaza tarafından kullanılan **İşlev profili** içinde kapatın. Bu parametreyi etkinleştirmek, POS kullanıcısının **Toplamları hesapla** işlemini, ürünleri POS hareketine eklemeyi tamamladıklarında kullanmalarını gerektirmesine neden olur. **Toplamları hesapla** işlemi, sipariş başlığı veya satırları için otomatik masrafların hesaplanmasını tetikleyecektir.
+
+### <a name="charges-override-reports"></a>Masraf geçersiz kılma raporları
+
+Kullanıcılar hesaplanan masrafları el ile geçersiz kılarlarsa veya bir el ile masrafı harekete eklerlerse, bu veri **Masraf Geçersiz Kılma Geçmişi** raporunda denetleme için kullanılabilir olur. Bu rapor **Perakende \> Sorgular ve raporlar \> Masraf Geçersiz Kılma Geçmişi** üzerinden erişilebilir.  Bu rapor için ihtiyaç duyulan verinin kanal veritabanından HQ'ya "P" dağıtım zamanlama işleri üzerinden içe aktarılması gerektiğini unutmayın. Bu nedenle, POS içinde gerçekleştirilen geçersiz kılma hakkındaki bilgiler, bu iş mağaza hareketini HQ'ya karşıya yükleyene kadar bu raporda derhal kullanılabilir olmayabilirler. 

@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: Dynamics 365 for Talent'a hoş geldiniz
-description: Talent, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Bu işlemler personel tutma, kazanç yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir.
+description: 'Talent, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Bu işlemler personel tutma, kazanç yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir.'
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-365-talent
-ms.technology: ''
+ms.technology: null
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: 'Core, Operations, Talent'
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
-ms.translationtype: HT
-ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302985"
+ms.search.validFrom: '2016-02-28'
+ms.dyn365.ops.version: 'AX 7.0.0, Talent July 2017 update'
 ---
+
 # <a name="welcome-to-dynamics-365-for-talent"></a>Dynamics 365 for Talent'a hoş geldiniz
 
 [!include [banner](includes/banner.md)]
@@ -79,7 +75,7 @@ Dynamics 365 for Talent, kuruluşunuzun ihtiyacı olan becerilere sahip adaylar�
 
 ## <a name="develop-and-train-employees"></a>Çalışanları geliştirme ve eğitme
 
-Çalışanlarınızın kritik iş ihtiyaçlarını karşılarken kariyer hedeflerine ulaşmalarına yardımcı olmak için hedefler belirleyebilir, performans değerlendirmeleri oluşturabilir ve geri bildirimleri izleyebilirsiniz. Çalışanların gerekli becerileri geliştirmesine yardımcı olmak için bir derse eğitmen atamadan veya bir kişiyi kursa kaydetmeden önce eğitmenler, kurs türleri, kurslar, kurs tanımları, gündemler, izleme ve oturumlar ayarlayabilirsiniz. Eğitmenlerin zaten birer çalışan, başvuran veya ilgili kişi olarak bulunması gerekir.
+Personelinizin kariyer hedeflerine ulaşmasına yardımcı olmak için, işle ilgili önemli gereksinimlerini sağlarken hedefler ayarlayabilir, performans incelemeleri oluşturabilir ve geri bildirimleri izleyebilirsiniz. Personelinizin gerekli yetenekleri geliştirmesine yardımcı olmak için kursa bir eğitmen atamadan veya kursa birini kaydetmeden önce eğitmenler, kurs türleri, kurslar, kurs açıklamaları, gündemler, dersler ve oturumlar ayarlayabilirsiniz. Eğitmenlerin zaten birer çalışan, başvuran veya ilgili kişi olarak bulunması gerekir.
 
 -   [Performans yönetimi](performance-management-overview.md)
 -   [İş gücü becerilerini ve iş ihtiyaçlarını uyumlu hale getirme](skills.md)

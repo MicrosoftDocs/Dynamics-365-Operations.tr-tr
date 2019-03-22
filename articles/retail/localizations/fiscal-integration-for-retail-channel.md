@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377147"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773289"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Perakende kanalları için mali tümleştirme genel bakışı
 
@@ -30,7 +30,7 @@ ms.locfileid: "377147"
 
 ## <a name="introduction"></a>Giriş
 
-Bu konu, Microsoft Dynamics 365 for Retail içinde kullanılabilen mali tümleştirme yeterliliklerine bir genel bakıştır. Mali tümleştirme, perakende satışların yerel mali yasalar ile mali kaydını etkinleştiren ve perakende sektöründe veri kaçakçılığını önlemeyi amaçlayan çeşitli mali cihazlar ve servisler ile tümleştirmedir. Mali tümleştirme ile kapsanabilecek bazı tipik senaryolar şunlardır: 
+Bu konu, Microsoft Dynamics 365 for Retail içinde kullanılabilen mali tümleştirme yeterliliklerine bir genel bakıştır. Mali tümleştirme, perakende satışların yerel mali yasalar ile mali kaydını etkinleştiren ve perakende sektöründe veri kaçakçılığını önlemeyi amaçlayan çeşitli mali cihazlar ve servisler ile tümleştirmedir. Mali tümleştirme ile kapsanabilecek bazı tipik senaryolar şunlardır:
 
 - Perakende satış noktası (POS) ile bağlantılı bir mali cihazda bir perakende satışı kaydetmek, örneğin mali yazıcı gibi ve müşteriye bir mali giriş yazdırmak.
 - Retail POS içinde tamamlanan satışlar ve iadeler için veri dairesi tarafından işletilen harici bir web hizmetine güvenli bir biçimde bilgi göndermek.
@@ -87,6 +87,7 @@ Bir hareketin veya etkinliğin mali kaydı başarılı olursa, bir mali hareket 
 
 Mali hareketler Perakende Yönetim Merkezine *P-job* ile, perakende hareketleri ile birlikte aktarılır. **Perakende mağaza hareketleri** sayfasındaki **Mali hareketler** hızlı sekmesinde, perakende hareketleriyle bağlantılı mali hareketleri görüntüleyebilirsiniz.
 
+
 Bir mali hareket aşağıdaki ayrıntıları saklar:
 
 - Mali kayıt işlemi ayrıntıları (işlem, bağlantı grubu, bağlayıcı ve benzeri). Ayrıca, mali cihazın seri numarasını da **Kayıt numarası** alanında depolar, şayet bu bilgi mali yanıt içinde dahil edilmişse.
@@ -115,4 +116,5 @@ Aşağıdaki mali tümleştirme işlevi de ayrıca Retail SDK içinde kullanıla
 
 - [Fransa için dijital imza](emea-fra-cash-registers.md)
 - [Norveç için dijital imza](emea-nor-cash-registers.md)
-- [İsveç için kontrol birimi tümleştirmesi örneği](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+- [İsveç için kontrol birimi tümleştirmesi örneği](./retail-sdk-control-unit-sample.md)
+

@@ -3,7 +3,7 @@ title: Teklifleri oluşturma, onaylama ve imzalama
 description: Bu konu, Dynamics 365 for Talent kullanarak bir aday için teklif oluşturma, onaylama ve imzalama ayrıntılarını verir.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5ad7ce1e089d2a8b5c52e7cd01bb3d89070004b1
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306625"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768917"
 ---
 # <a name="creating-approving-and-signing-offers"></a>Teklif oluşturma, onaylama ve imzalama
 
@@ -104,15 +104,20 @@ Teklifi adaya göndermeden önce yapmanız gereken birkaç eylem vardır.
 
 -  Teklif onay işlemine dahil etmek istediğiniz ek belgeler olabilir. Gereken belge tipini listelemek için seçeneğiniz olacaktır.
 
-- e-İmza seçeneği: Bir Adobe Sign, tercih edilen e-imza seçeneği olarak seçildiyse, oluşturuculara Adobe Sign lisanslarını bağlama seçeneği sunun. Bunu yapmak için iki yol vardır. **Teklif** içindeki Kullanıcı **Ayarları**'na gidin, **Bağlantılar** altında **Adobe Sign**'a bağlanın. Alternatif olarak, bağlantının kullanıcı ayarlarına göre zaten kurulu olmayan teklif Gönder aday ekrana bağlanmak istenir. 
+- e-imza seçeneği: tercihiniz e-imza sağlayıcısına bağlanmak için iki yol vardır. **Teklif** altında **Kullanıcı Ayarları**'na gidin, **Bağlantılar** altında, **Adobe Sign** veya **DocuSign**'a bağlanın. Alternatif olarak, bağlantının kullanıcı ayarlarına göre zaten kurulu olmayan **Adaya teklifi gönder** sayfası bağlanmak istenir. E-imza hesabının yalnızca bir defa bağlanması gerekir Aynı kullanıcı lisansı aynı kullanıcı tarafından gönderilir indirim gelecekteki tüm paketler için kullanılır. 
 
-> [!NOTE]
-> Kullanıcılar yalnızca bir kez Adobe Sign hesaplarına bağlamanız gerekir. Aynı kullanıcı lisansı aynı kullanıcı tarafından gönderilir indirim gelecekteki tüm paketler için kullanılır. 
+### <a name="adobe-sign"></a>Adobe Sign
+Bir Adobe Sign, tercih edilen e-imza seçeneği olarak seçildiyse, oluşturuculara Adobe Sign lisanslarını bu adımda bağlama seçeneği sunun. 
+
+### <a name="docusign"></a>DocuSign
+Bir DocuSign, tercih edilen e-imza seçeneği olarak seçildiyse, oluşturuculara DocuSign lisanslarını bu adımda bağlama seçeneği sunun. Bir kez oturum açıldıktan sonra, kullanıcının DocuSign profiliyle ilişkilendirilmiş varsayılan hesap ve izinler Talent Attract'e bağlanır. 
 
 -  E-posta şablonu gerektiği gibi görüntüleyin ve düzenleyin.
 
 Teklif hazır oldğunda ve **Adaya gönder**'e tıkladığınızda aday, teklifin gözden geçirilmeyi beklediğini belirten e-posta alır.
 
+>[!NOTE]
+> Adobe Sign veya DocuSign kullanıyorsanız ve teklifi adaya gönderirken hata ile karşılaşıyorsanız, e-imza hesabını **Kullanıcı Ayarları** hesaplarından bağlantısını kesmeyi ve yeniden bağlamayı deneyin. Sorun devam ederse, lütfen **Bir sorun raporla** bağlantısını kullanarak destek ile iletişime geçin.
 
 ## <a name="candidates-actions-after-receiving-an-offer"></a>Teklif aldıktan sonra adayın eylemleri
 

@@ -3,7 +3,7 @@ title: Attract'ta iş oluşturun, onaylayın ve yayınlayın
 description: Bu konu, Attract'taki bir işin öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
 author: josaw
 manager: AnnBe
-ms.date: 12/21/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
+ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306603"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "772823"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Attract'ta iş oluşturun, onaylayın ve yayınlayın
 
@@ -76,8 +76,23 @@ Attract'ta varsayılan **Şirket sektörü** kümesi bulunur. Yeni şirket sekt�
 
 Bir iş etkinleştirildikten sonra yayınlanabilir. Yalnızca iş verenler ve yöneticiler, işleri yayınlayabilir. İş, Talent Careers (bir Microsoft Dynamics 365 for Talent kariyer sitesi) veya LinkedIn'de yayınlanabilir. 
 
+Attract ekibi, iş kurulu toplayıcılarıyla ortaklık için devamlı çalışmaktadır. Zaman içinde bu listeyi genişler.
+
+İş yayınları hakkında daha fazla bilgi için [Attract'taki kariyer sitesi işlevi](career-site.md).
+
 > [!NOTE]
-> LinkedIn'e iş ilanı verirken dikkate alınacak üç önemli şey vardır.
+> İş yayınlama işlevi yalnızca işe Attract için Kapsamlı İşe Alım Eklentisiyle kullanılabilir.
+
+### <a name="posting-jobs-to-linkedin"></a>LinkedIn'e iş ilanı vermek 
+
+Bir işi Attract'ten LinkedIn'e göndermeden önce yöneticinin LinkedIn Şirket Kimlik Kodunu ve LinkedIn Şirket adını **Yönetici ayarlarında** eklemesi gerekir. LinkedIn Şirket Kimlik Kodu, Attract'ten verdiğiniz iş ilanlarının doğru şirket sayfasına eşleştirildiğinden emin olunması için önemlidir.
+
+LinkedIn Şirket Kimlik Kodu, şirketinizi LinkedIn içinde benzersiz şekilde tanımlayan bir dizi sayıdır. LinkedIn şirket kimlik kodunuzu bulmak hakkında daha fazla bilgi için lütfen [LinkedIn sitesini](https://aka.ms/findID) ziyaret edin.
+
+LinkedIn şirketinizi güncelleştirmek için **Yönetim merkezi**'ni, **Ayarlar** menüsünden seçin (çark simgesi),  **LinkedIn Tümleştirmesi** sekmesini seçin. **LinkedIn'e Bağlan** sekmesi altında, LinkedIn Şirket Adınızı ve Şirket Kimlik Kodunuzu girin ve ayarları kaydedin.
+
+> [!NOTE]
+> LinkedIn'e iş ilanı verirken dikkate alınacak dört önemli şey vardır.
 > 1. LinkedIn'de ilan verilen işler "Sınırlı Listeleme" işleri olarak yayınlanır. Sınırlı listeleme işleri, LinkedIn sayfasının tamamında öne çıkarılamaz. LinkedIn'e Attract'tan yayınlanan sınırlı yayınlanmış işleri öne çıkarmak istiyorsanız, "İş Kaydırma" etkinleştirmek için LinkedIn ile birlikte çalışmalısınız. Daha fazla ayrıntı için aşağıdaki bağlantılara bakın ve LinkedIn destek ile iletişime geçin.
 >
 >    [Sınırlı Listelemeler - İş Kaydırma için Premium İş Alanları](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
@@ -90,14 +105,10 @@ Bir iş etkinleştirildikten sonra yayınlanabilir. Yalnızca iş verenler ve y�
 >
 >    Bu adımdan sonra sorun yaşarsanız, LinkedIn desteği ile iletişime geçin. 
 > 
+> 1. LinkedIn'e verilen iş ilanları LinkedIn sitesinde yayınlanır. LinkedIn'e iş ilanı vermek için test ortamı yoktur. 
+>
 > 1. Geçerli LinkedIn toplu iş işleme işlemi nedeniyle LinkedIn'e ilan verilen işlerin LinkedIn içerisindeki adaylara görünür hale gelmesi 24 saate kadar sürebilir.
 
-Attract ekibi, iş kurulu toplayıcılarıyla ortaklık için devamlı çalışmaktadır. Zaman içinde bu listeyi genişler.
-
-İş yayınları hakkında daha fazla bilgi için [Attract'taki kariyer sitesi işlevi](./career-site.md).
-
-> [!NOTE]
-> İş yayınlama işlevi yalnızca işe Attract için Kapsamlı İşe Alım Eklentisiyle kullanılabilir.
 
 ## <a name="activate"></a>Etkinleştir
 
