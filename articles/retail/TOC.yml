@@ -5,7 +5,9 @@ items:
   items:
   - name: Yenilikler veya değişiklikler
     href: get-started/whats-new.md
-  - name: Dynamics 365 for Retail 10.0.1'deki önizleme özellikleri
+  - name: Dynamics 365 for Retail 10.0.2'deki önizleme özellikleri
+    href: get-started/whats-new-10-0-2.md
+  - name: Dynamics 365 for Retail 10.0.1'deki yenilikler veya değişiklikler
     href: get-started/whats-new-10-0-1.md
   - name: Dynamics 365 for Retail'deki yenilikler ve değişiklikler (Nisan 2019)
     href: get-started/april-whats-new.md
@@ -116,7 +118,7 @@ items:
   items:
   - name: Gelişmiş otomatik masrafları yapılandırma ve kullanma
     href: omni-auto-charges.md
-  - name: Başlık otomatik masraflarını eşit dağıtma ve gruplandırma
+  - name: Başlık masraflarını eşleşen satış satırlarına eşit dağıtma
     href: pro-rate-charges-matching-lines.md
 - name: Çağrı merkezi
   items:
@@ -274,7 +276,7 @@ items:
     href: price-management.md
   - name: Fiyat ayarlamaları ve iskontolar
     href: price-adjustments-discounts.md
-  - name: Bir ürüne birden fazla Perakende iskontosu ekleme
+  - name: Bir ürüne birden fazla iskonto uygulama
     href: Apply-multiple-retail-discounts.md
   - name: Çakışan iskontolar için en uygun birleşimi belirleme
     href: optimal-combination-overlapping-discounts.md
@@ -282,6 +284,8 @@ items:
     href: define-channel-specific-discounts.md
   - name: Perakende ürün iskontolarını önlemek için seçenekler
     href: prevent-discounts.md
+  - name: Sevkiyat iskontosuna genel bakış
+    href: retail-shipping-discount.md
   - name: Perakende satışlar için kupon ayarlama
     href: retail-coupons.md
 - name: Ürünler ve alım satım
@@ -354,6 +358,10 @@ items:
     href: localizations/fiscal-integration-for-retail-channel.md
   - name: Perakende kanalı için mali tümleştirmeyi ayarlama
     href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+  - name: Avusturya
+    items:
+    - name: Avusturya için mali kayıt hizmeti tümleştirme örneği
+      href: localizations/emea-aut-fi-sample.md
   - name: Doğu Avrupa
     items:
     - name: Doğru Avrupa'ya yönelik Retail için avans faturaları
@@ -362,10 +370,12 @@ items:
       href: localizations/emea-eeu-petty-cash-for-retail.md
     - name: Doğru Avrupa ülkelerinde Retail müşteri faturaları ve satış siparişleri iadesi
       href: localizations/emea-eeu-retail-invoices.md
-    - name: Çekya, Macaristan ve Polonya için yazar kasalara ilişkin dağıtım kılavuzları
+    - name: Çek Cumhuriyeti, Macaristan ve Polonya için yazar kasalara ilişkin dağıtım kılavuzları
       href: localizations/emea-eeu-deployment.md
     - name: Polonya için yazar kasa tümleştirme örneği
       href: localizations/emea-pol-fpi-sample.md
+    - name: Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
+      href: localizations/emea-cze-fi-sample.md
   - name: Fransa
     items:
     - name: Yazar kasa işlevi
@@ -477,6 +487,8 @@ items:
       href: retail-components.md
     - name: Retail Server mimarisi
       href: dev-itpro/retail-server-architecture.md
+    - name: Mağaza içi topoloji seçme
+      href: dev-itpro/retail-in-store-topology.md
     - name: Commerce Data Exchange ve perakende kanalı iletişimleri
       href: dev-itpro/define-retail-channel-communications-cdx.md
     - name: Retail Modern POS mimarisi
@@ -562,7 +574,7 @@ items:
     - name: POS istek işleyicisini geçersiz kılma
       href: dev-itpro/pos-handler.md
     - name: POS uzantısı paket bilgisini görüntüleme
-      href: view-pos-extension-package-details.md
+      href: dev-itpro/view-pos-extension-package-details.md
   - name: Hardware Station ve genişletilebilirlik
     href: dev-itpro/hardware-station-extensibility.md
   - name: Retail Server genişletilebilirliği
@@ -669,9 +681,9 @@ items:
     items:
     - name: Bağlılık genişletme
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
-ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
+ms.openlocfilehash: 179295f4397120f46391885760c980b2c9baa028
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791650"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "975932"

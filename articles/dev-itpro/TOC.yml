@@ -276,9 +276,9 @@ items:
         href: extensibility/intrusive-customizations.md
       - name: Sınıf uzantı modeli
         href: extensibility/class-extensions.md
-      - name: Yöntem kaydırma ve Komut zinciriyle sınıf uzantısı
+      - name: Yöntem kaydırma ve Komut Zinciriyle sınıf uzantısı
         href: extensibility/method-wrapping-coc.md
-      - name: Model uzantıları için adlandırma kuralları
+      - name: Uzantılar için adlandırma kuralları
         href: extensibility/naming-guidelines-extensions.md
       - name: Katmanlamanın uzantılarda yeniden düzenlenmesi için model kısıtlamalarını hafifletme
         href: extensibility/refactoring-over-layering.md
@@ -354,7 +354,7 @@ items:
         href: extensibility/breaking-changes.md
   - name: Performans
     items:
-    - name: Trace parser kullanarak izlemeler yapma
+    - name: Trace Parser kullanarak izlemeler yapma
       href: perf-test/trace-trace-tutorial.md
     - name: Visual Studio Online ile Performans SDK ve çoklu kullanıcı testi
       href: perf-test/perfsdk-tutorial.md
@@ -374,6 +374,28 @@ items:
       href: perf-test/continuous-build-test-automation.md
     - name: Sınıf ve yöntem özniteliklerini kullanarak SysTest filtreleme
       href: perf-test/systest-filtering.md
+    - name: Kabul testi kitaplığı
+      href: perf-test/acceptance-test-library.md
+    - name: Gezinti kavramları
+      href: perf-test/concepts-navigation.md
+    - name: Test veri yöntemleri
+      href: perf-test/test-data-methods.md
+    - name: Kabul testi kitaplığındaki varlıklar
+      href: perf-test/concepts-entities.md
+    - name: Kabul testi kitaplığı komutları
+      href: perf-test/concepts-commands.md
+    - name: Kabul testi kitaplığındaki oluşturucular
+      href: perf-test/concepts-creators.md
+    - name: Kabul testi kitaplığındaki sorgular
+      href: perf-test/concepts-queries.md
+    - name: Belirtim sınıfları
+      href: perf-test/concepts-specifications.md
+    - name: Kabul testi kitaplığı kod oluşturma sihirbazı
+      href: perf-test/code-generation-wizard.md
+    - name: Kabul testi kitaplığı için en iyi uygulamalar
+      href: perf-test/atl-best-practices.md
+    - name: Sık sorulan sorular
+      href: perf-test/atl-faq.md
   - name: Tarih etkililiği
     href: dev-tools/date-effectivity.md
   - name: ISV lisanslaması
@@ -451,6 +473,8 @@ items:
       href: user-interface/control-checklist.md
   - name: İletiler
     items:
+    - name: Özellik açıklamaları
+      href: user-interface/feature-callouts.md
     - name: Kaydırıcı ve MessageBox iletişim kutuları
       href: user-interface/slider-messagebox.md
     - name: İleti merkezi, ileti çubuğu ve ileti ayrıntıları API'sı
@@ -920,7 +944,7 @@ items:
       href: deployment/apply-deployable-package-system.md
     - name: Bulutta barındırılan Retail kanalı bileşenlerine güncelleştirmeler ve uzantılar uygulama
       href: deployment/Update-retail-channel.md
-    - name: Bulutta barındırılan Retail kanalı bileşenlerini başlatma
+    - name: Retail Cloud Scale Unit başlatma
       href: deployment/Initialize-Retail-Channels.md
   - name: Şirket içi dağıtım
     href: deployment/on-premises-deployment-landing-page.md
@@ -1044,7 +1068,7 @@ items:
     items:
     - name: En son güncelleştirmeye geçme işlemi
       href: migration-upgrade/upgrade-latest-update.md
-    - name: Ortamları sürüm 8.0'dan 8.1'e yükseltme
+    - name: Ortamları sürüm 8.0'dan 8.1.X/10.X'e yükseltme
       href: migration-upgrade/appupdate-80-81.md
     - name: Yazılım yaşam döngüsü ilkesi ve bulut sürümleri
       href: migration-upgrade/versions-update-policy.md
@@ -1133,6 +1157,12 @@ items:
       href: sysadmin/runby.md
     - name: SQL dizin birleştirmeyi işlemek için toplu iş
       href: sysadmin/batch-job-SQL-defragmentation.md
+    - name: Toplu iş uyarılarını yapılandırma
+      href: sysadmin/alerts.md
+    - name: Geliştirilmiş toplu iş formları
+      href: sysadmin/enhanced-forms.md
+    - name: Toplu iş geçmişini temizleme
+      href: sysadmin/batch-history-cleanup.md
   - name: En iyi duruma getirme danışmanı
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1229,8 +1259,10 @@ items:
     items:
     - name: Eğitim amacıyla yenileme
       href: database/dbmovement-scenario-general-refresh.md
-    - name: Hata ayıklama ve tanılama
+    - name: Üretim veritabanı kopyasındaki hataları ayıklama
       href: database/dbmovement-scenario-debugdiag.md
+    - name: Standart kullanıcı kabul testi (UAT) veritabanının kopyasını dışa aktarma
+      href: database/dbmovement-scenario-exportuat.md
     - name: Altın yapılandırma promosyonu
       href: database/dbmovement-scenario-goldenconfig.md
     - name: Bozucu test
@@ -1251,9 +1283,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Finance and Operations destek deneyimlerini yönetme
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
-ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
+ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "773814"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "976024"
