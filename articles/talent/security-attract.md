@@ -1,7 +1,7 @@
 ---
 title: Attract'ta güvenlik ve rol yönetimi
 description: Bu konu, Microsoft Dynamics 365 for Talent - Attract içindeki rol güvenliği hakkında bilgi sağlar.
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: josaw1
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789709"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993703"
 ---
 # <a name="security-and-role-management-in-attract"></a>Attract'te güvenlik ve rol yönetimi
 
@@ -70,6 +70,16 @@ Bir Microsoft Azure Active Directory (Azure AD) hesabına kuruluş içinde sahip
 
 Salt okunur rolüne atanan kullanıcıların salt okunur tüm verileri Attract ortamında erişebilir. Bununla birlikte, veri oluşturamaz veya düzenleyemez.
 
+## <a name="find-out-which-roles-you-have"></a>Hangi rollere sahip olduğunuzu bulun
+
+1.  Attract içinde, sayfanın sağ üst köşesindeki soru işaretine (**?**) tıklayın.
+
+2.  **Hakkında** üzerine tıklayın.
+
+    Görüntülenen pencerede Attract için hangi rollere sahip olacağınızı görürsünüz:
+
+    ![Attract lisans türünüzü görüntüleyin](media/attract-license-types.png)
+    
 ## <a name="delegated-roles"></a>Temsilci olarak atanan roller
 
 İşe alma takımında oldukları her iş için işe alanlar ve işe alma yöneticileri, kendileri için en az bir temsilci atayabilir. Ancak, işe alma takımındaki diğer kişilerin temsilcilerini belirtemez.

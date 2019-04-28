@@ -1,7 +1,7 @@
 ---
 title: Soru formları tasarlama
 description: Bu konu bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun.
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 8d94cf24040e5f653bc053f2df0a45e1afa23adc
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306588"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "858319"
 ---
 # <a name="design-questionnaires"></a>Soru formları tasarlama
 

@@ -1,7 +1,7 @@
 ---
 title: İskonto tarihinden önce bir kısmi müşteri ödemesini ve nihai ödemeyi tam olarak kapatın
 description: Bu makalede, bir müşteri için nasıl kısmi ödeme kaydı yapılacağına ve nakit indirimi periyodu içinde nakit indirimler alınacağına yönelik senaryolar verilmektedir.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3154c109f3d6ba3af1ff88682fb9ff51bc3d0d70
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fc502ea4ac57bfe8ce0a8146df21ffdccefe12ef
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "326343"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896845"
 ---
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>İskonto tarihinden önce bir kısmi müşteri ödemesini ve nihai ödemeyi tam olarak kapatın
 

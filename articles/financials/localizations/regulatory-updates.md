@@ -3,7 +3,7 @@ title: Düzenleme güncelleştirmeleri
 description: Bu konu, planlanan ve yayınlanan mevzuat güncelleştirmelerini Microsoft Dynamics 365 for Finance and Operations için listeler.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/19/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
-ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
+ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832113"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992848"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -28,12 +28,18 @@ ms.locfileid: "832113"
 
 Bu konuda, Microsoft Dynamics 365 for Finance and Operations desteklenen yerelleştirmelerde yayınlanması planlanmış mevzuat güncelleştirmelerini listeler. Teslimat saatleri değişebilir, ve öngörülen işlevsellik değişebilir veya yayınlanmayabilir. Daha fazla bilgi için [Microsoft ilkesini](https://go.microsoft.com/fwlink/p/?linkid=2007332) okuyun. 
 
-Mevzuat güncelleştirmeleri mevzuat özelliklerinden farklıdır. Planlanan veya yayınlanan mevzuat özellikleri hakkında daha fazla bilgi almak için aşağıdaki kaynaklara başvurun.
+Mevzuat güncelleştirmeleri, yeni veya değişen ülkeye özel yasaları desteklemek için sunulan özelliklerdir. Planlanan ve yayınlanan ülkeye özel özellikler hakkında bilgi almak için aşağıdaki kaynakları gözden geçirin:
 
-- [Dynamics 365 ve Güç Platformu Yayınlanma Notları](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Dynamics 365 ve Power Platform Sürüm Notları](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Microsoft Dynamics 365 for Finance and Operations için yenilikler](../../fin-and-ops/get-started/whats-new-changed.md)
 
-Tarih sütununda bir ay kullanıldığında, mevzuat güncelleştirmesinin bu ay içinde bir noktada teslim edilmesi planlanır. Teslimat tarihi bu ay içinde herhangi bir gün olabilir, yalnızca ayın ilk günü değil.
+Microsoft, yeni mevzuat gereksinimlerini olabildiğince erken uygulamaya çalışır. Gerçek teslim tarihi yasanın duyurulma tarihi, yerel otoritelerden gereksinim ayrıntılarının alınabilmesi, değerleme araçlarının mevcut olması ve değişikliğin boyutu ve karmaşıklığına bağlıdır. 
+
+Mevzuat güncelleştirmelerini, müşterilerin uygulama tarihine (harekete dayalı mevzuat güncelleştirmeleri için) hazır olmaları veya raporlama son tarihi (raporlamaya ilişkin mevzuat güncelleştirmeleri) için zamanında yayınlanabilmeleri üzere Bir Sürüm servis güncelleştirmeler içinde teslim etmeyi amaçlıyoruz. Müşteriler ve ortaklar, yeni düzenleme güncelleştirmelerini Erken Uyum Programı Önizleme (PEAP) içinde önizleyebilirler.
+
+Geç duyurulma tarihi, gereksinim ayrıntılarının veya değerleme araçlarının geç kullanılabilir olması veya olağandışı büyük ve karmaşık değişiklikler olması durumunda, mevzuat güncelleştirmesini bir aylık güncelleştirmenin Genel Kullanılabilirlik tarihinde kullanılabilir kılmak mümkün olmayabilir. Bu gibi durumlarda, mevzuat güncelleştirmesi bazı kullanılabilir aylık güncelleştirmeler için düzeltme olarak yayınlanır.
+
+En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvurun. 
 
 |Planlanan yayımlanma tarihi|Yayın sürümü|Ülke/bölge|Düzenleme güncelleştirmesi|
 |--------------------|---------------|-------|-------|
@@ -47,7 +53,9 @@ Tarih sütununda bir ay kullanıldığında, mevzuat güncelleştirmesinin bu ay
 |      Nisan 2019          |   10.0.1      |    Birleşik Krallık     |[KDV beyannamesi gönderme değişiklikleri (Vergi Dijital Hale Getirme)](emea-gbr-mtd-vat-integration.md)    |    
 |      Nisan 2019          |   10.0.1      |    Brezilya     |NF-e yeni NT 2018.005         |
 |      Nisan 2019          |   10.0.1      |    Rusya     |2019'dan KDV beyannamesi biçimi değişiklikleri         |
-|      Nisan 2019          |   10.0.1      |    Rusya     |KDV beyanname biçimi değişiklikleri 2019'dan (Satış ve Satınalma kitabı biçimleri)  |
+|      Nisan 2019          |   10.0.1      |    Rusya     |KDV beyanname biçimi değişiklikleri 2019'dan (Satış ve Satınalma kitapları) 
+|      Mayıs 2019            |   10.0.2      | Brezilya      |   SPED ECD Düzen 7   |
+
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 - Planlanan ve yayınlanan tüm mevzuat güncelleştirmelerini [Lifecycle Service - Konu arama](https://lcs.dynamics.com/Logon/Index) üzerinde bulun.

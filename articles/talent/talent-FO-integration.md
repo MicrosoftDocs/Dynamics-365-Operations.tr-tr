@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 for Talent ile Dynamics 365 for Finance and Operations tümleştirmesi SSS
 description: Bu konu içinde bir tümleştirme ve Talent ve Finance and Operations işlemlerini hangi verilerin eşitleneceğini açıklar.
-author: negudava
+author: andreabichsel
 manager: AnnBe
 ms.date: 01/09/2019
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: negudava
+ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: aea025bc4898d6399e82030cf1f52b21949e014f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306611"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950095"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Dynamics 365 for Talent ile Dynamics 365 for Finance and Operations tümleştirmesi SSS
 
@@ -34,15 +34,15 @@ Bu konu, hangi verilerin Dynamics 365 for Talent, Dynamics 365 for Finance and O
 
 Core İnsan Kaynakları (HR) ile, verinin bir alt kümesi eşitlenir. Tüm varlıkların listesi için bkz. [Dynamics 365 for Talent'tan Dynamics 365 for Finance and Operations tümleştirmesi](talent-financeandoperations-integration.md).
 
-Attract ve Onboard için tüm veri Common Data Services (CDS) for Apps için yereldir.
+Attract ve Onboard için tüm veri Common Data Service için yereldir.
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Yeni bir eşlemeyi şablonları kullanmadan oluşturabilir miyim?
 
-Şablonları, başlangıç noktasıdır. Kendi şablonunuzu oluşturabilirsiniz, ancak şablon bir tümleştirme projesi oluşturma sırasında her zaman gereklidir. Veri tümleştirme (DI) şablonları ve projeleri hakkında daha fazla bilgi için bkz. [Common Data Service for Apps için veri tümleştirme](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+Şablonları, başlangıç noktasıdır. Kendi şablonunuzu oluşturabilirsiniz, ancak şablon bir tümleştirme projesi oluşturma sırasında her zaman gereklidir. Veri tümleştirme (DI) şablonları ve projeleri hakkında daha fazla bilgi için bkz. [Common Data Service için veri tümleştirme](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Talent ve Finance and Operations arasında aktarmak için finansal boyutlar eşleyebilir miyim?
 
-Mali boyutlar şu anda CDS for Apps içinde mevcut değildir ve bunu sonucunda varsayılan şablonun parçası değildir. Bu varlık planlanmıştır, ancak şu anda zaman çizelgesi mevcut değildir.
+Mali boyutlar şu anda Common Data Service içinde mevcut değildir ve bunu sonucunda varsayılan şablonun parçası değildir. Bu varlık planlanmıştır, ancak şu anda zaman çizelgesi mevcut değildir.
 
 Finance and Operations içinde bulunan ancak Talent içinde bulunmayan veri için iki sistemi birbirine Talent için **Bağlantıları yapılandır**'ı kullanarak bağlayın. Talent ve Finance and Operations arasındaki bağlantıları yapılandırma hakkında daha fazla bilgi için bkz [yeni veya değiştirilmiş olarak ne olduğunu Dynamics 365 for Talent Core HR (31 Ekim 2018)](whats-new-talent-october-31.md).
 
@@ -64,7 +64,7 @@ Veri eşitleme yürütme planını izler. Tümleştirme, alanın tümleştirme e
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Belirli bir varlık için hangi alanların Finance and Operations'a gönderileceğini belirtebilir miyim?
 
-Alanlar tümleştirme görevinden eklenebilir veya çıkartılabilir. CDS for Apps (CDS 2.0) içinde mevcut olan tüm veri alanları Core HR'dan doldurulmayacaktır.
+Alanlar tümleştirme görevinden eklenebilir veya çıkartılabilir. Common Data Service varlığı içinde mevcut olan tüm veri alanları Core HR'dan doldurulmayacaktır.
 Ek veriler PowerApps ile doldurulabilir.
 
 ![](media/SpecifyFieldsIncludedInIntegration.png)
@@ -83,7 +83,7 @@ Hayır, Veri Tümleştirici, silinen kayıtları veri aktarımı için yakalamay
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>Hatalı yürütmeyi yeniden çalıştırabilir miyim? Bu durumda, tam dosya mı gönderir yalnızca değişiklikleri mi?
 
-Veri Tümleştiricinin ilk çalıştırılması her zaman tam çalıştırmadır. Sonraki yürütmeler değişiklik izlemeye dayanır. Bir hatalı çalışma yürütülürse, yürütme kapsamdaki kayıtları çıkartır ve CDS'ten en güncel değişiklikleri gönderir.
+Veri Tümleştiricinin ilk çalıştırılması her zaman tam çalıştırmadır. Sonraki yürütmeler değişiklik izlemeye dayanır. Bir hatalı çalışma yürütülürse, yürütme kapsamdaki kayıtları çıkartır ve Common Data Service'ten en güncel değişiklikleri gönderir.
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>Proje kaydettiğimde, "Proje eşleme hatalarına sahip" hatasını alıyorum. Ne yapmam gerekir?
 
@@ -97,15 +97,15 @@ Evet, Finance and Operations içindeki her bir düzel varlık için, veri tümle
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Microsoft tarafından sağlanan varsayılan şablonun parçası olmayan verileri aktarmak gerekiyor. Bunu yapabilir miyim?
 
-Evet, varolan şablondan alanlar kaldırılabilir veya eklenebilir. Şablon diğer CDS for Apps varlıkları için ek verileri dahil etmek üzere değiştirilebilir. Varlığın, şablona dahil edilmesi için CDS for Apps içinde olması gerekir. 
+Evet, varolan şablondan alanlar kaldırılabilir veya eklenebilir. Şablon diğer Common Data Service varlıkları için ek verileri dahil etmek üzere değiştirilebilir. Varlığın, şablona dahil edilmesi için Common Data Service içinde olması gerekir. 
 
 ## <a name="i-just-created-new-finance-and-operations-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Yeni Finance and Operations ve Talent ortamları oluşturdum ve "Veri değeri tutarlılık kısıtlamalarını ihlal ediyor" hatasını alıyorum. Neden?
 
 Bu hatanın nedenleri arasında şunlar olabilir:
 
-- Veri aktarma, kaynakta (CDS) yinelenen kayıtların ayıklanmasıyla sonuçlandı.
+- Veri aktarma, kaynakta (Common Data Service) yinelenen kayıtların ayıklanmasıyla sonuçlandı.
 
-- Veri aktarımı, Finance and Operations'ta ihtiyaç duyulan alanlar için boş değerlere sahip. Verinin CDS içindeki olduğundan ve Finance and Operations gereksinimlerini karşıladığından emin olun.
+- Veri aktarımı, Finance and Operations'ta ihtiyaç duyulan alanlar için boş değerlere sahip. Verinin Common Data Service içindeki olduğundan ve Finance and Operations gereksinimlerini karşıladığından emin olun.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Yürütme hataları varsa ve Çalışan kimliği eşitlenmediyse, hatalı çalışan kaydına sahip geçmiş işi nasıl bulabilirim?
 
@@ -127,17 +127,17 @@ Veri Tümleştirici yürütme geçmişinden zamanı takip edin ve Finance and Op
 
 ## <a name="after-integrating-talent-and-finance-and-operations-i-dont-see-my-talent-data-in-finance-and-operations-what-do-i-do"></a>Talent ve Finance and Operations tümleştirmesinden sonra Talent verilerimi Finance and Operations içinde görmüyorum. Ne yapmam gerekir?
 
-Finance and Operations tümleştirmesi iki adımlı bir işlemdir. Öncelikle, Talent verisinin güncelleştirilmiş ve CDS içinde kullanılabilir olduğundan emin olun. Bu neredeyse gerçek zamanlı bir eşitlemedir ve PowerApps içinde veri girişleri içindeki veriye bakarak doğrulanabilir.
+Finance and Operations tümleştirmesi iki adımlı bir işlemdir. Öncelikle, Talent verisinin güncelleştirilmiş ve Common Data Service içinde kullanılabilir olduğundan emin olun. Bu neredeyse gerçek zamanlı bir eşitlemedir ve PowerApps içinde veri girişleri içindeki veriye bakarak doğrulanabilir.
 
-![CDS'teki veri](media/DataInCDS.png)
+![Common Data Service içindeki veri](media/DataInCDS.png)
 
-Veri CDS'te beklendiği gibi görüntülenmiyorsa, varlığın tümleştirme ile desteklendiğinden emin olun. CDS içine ek veri dahil etmek için Microsoft tarafından bir değişiklik gerekir.
+Veri Common Data Service'te beklendiği gibi görüntülenmiyorsa, varlığın tümleştirme ile desteklendiğinden emin olun. Common Data Service içine ek veri dahil etmek için Microsoft tarafından bir değişiklik gerekir.
 
-Varlık destekleniyorsa ve veri CDS içinde kullanılabilirse, Veri Tümleştiricisi içinde eşleştirmenin doğru olduğunu doğrulayın. Tümleştirme eşleştirmesi doğru gözüküyorsa, veri yönetimi işlerini başarıyla çalıştırıldığını doğrulayın. Toplu işlerin yürütülmesinde hatalar ortaya çıkabilir. Veri Yönetimi hakkında daha fazla bilgi için bkz. [Veri yönetimi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Varlık destekleniyorsa ve veri Common Data Service içinde kullanılabilirse, Veri Tümleştiricisi içinde eşleştirmenin doğru olduğunu doğrulayın. Tümleştirme eşleştirmesi doğru gözüküyorsa, veri yönetimi işlerini başarıyla çalıştırıldığını doğrulayın. Toplu işlerin yürütülmesinde hatalar ortaya çıkabilir. Veri Yönetimi hakkında daha fazla bilgi için bkz. [Veri yönetimi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Çalışanlarımın adresleri onları Finance and Operations'a aktardıktan sonra doğru değil. Ne yapmalıyım?
 
-**Konum Kimliği** için numara serisi, Talent ve Finance and Operations içinde aynı düzeni kullanır. Numara serisinin her iki tarafta da benzersiz olması gerekir, bu sayede veriyi CDS'ten Finance and Operations'a tümleştirirken adres çakışmaları gerçekleşmez.
+**Konum Kimliği** için numara serisi, Talent ve Finance and Operations içinde aynı düzeni kullanır. Numara serisinin her iki tarafta da benzersiz olması gerekir, bu sayede veriyi Common Data Service'ten Finance and Operations'a tümleştirirken adres çakışmaları gerçekleşmez.
 
 Talent tümleştirmesi sırasında, numara serilerinin Talent ve Finance and Operations içinde aynı olmadığını doğrulayın. Tüm numara serilerinin, verinin her iki sistemde de tutulabildiği yerlerde aynı olmadığını doğrulayın.
 
@@ -147,7 +147,7 @@ Bağlantılarınızı oluştururken Dynamics 365 for Finance and Operations (şu
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Çalışmaları eşitlerken “CompanyInfo_FK mevcut değil" veya “Değer 12/31/2154 11:59:59 pm', 'Çalışma sonlanma tarihi' ilgili 'Çalışma' tablosunda bulunamadı.” hatasını alıyorum. Ne yapmalıyım?
 
-Doğru tüzel varlıkları eşlediğinizden emin olun. Tüzel varlık eşitleme, varsayılan şablonun parçası değildir, bu nedenle Talent ve CDS'te bulunan her bir tüzel varlığın Finance and Operations'ta da mevcut olması beklenir.
+Doğru tüzel varlıkları eşlediğinizden emin olun. Tüzel varlık eşitleme, varsayılan şablonun parçası değildir, bu nedenle Talent ve Common Data Service bulunan her bir tüzel varlığın Finance and Operations'ta da mevcut olması beklenir.
 İlişkili Bağlantı Kümesi için doğru tüzel varlıkları seçtiğinizden emin olun.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-and-operations-appears-to-be-empty-what-should-i-do"></a>Projemi ayarladıktan sonra, Finance and Operations için alan eşlemenin boş olduğu gözüküyor. Ne yapmalıyım?
@@ -160,11 +160,11 @@ Finance and Operations içinde veri varlıklarını **Veri yönetimi \> Çerçev
 
 - Veri Tümleştirici (DI): 
 
-  - [Veriyi Common Data Service for Apps içine tümleştirmek](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [Veriyi Common Data Service içine tümleştir](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
 
   - [Veri Tümleştirici hata yönetimi ve sorun giderme](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
 
-  - [PowerApps, Microsoft Flow ve Common Data Service for Apps içinde sistem tarafından oluşturulan DSR taleplerine yanıt vermek](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [PowerApps, Microsoft Flow ve Common Data Service içinde sistem tarafından oluşturulan DSR taleplerine yanıt vermek](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Veri Yönetimi:
 

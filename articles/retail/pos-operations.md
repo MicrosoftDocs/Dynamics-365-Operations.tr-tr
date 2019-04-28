@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353828"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842734"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
@@ -93,7 +93,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 614 | Müşteri siparişini düzenle | POS'ta değiştirilebilmesi için seçili siparişi geri çağırın. | Hayır | Hayır | Hayır | Hayır | Hayır |
 | 615 | Teklifi düzenle | POS'ta değiştirilebilmesi için seçili teklifi geri çağırın. | Hayır | Hayır | Hayır | Hayır | Hayır |
 | 518 | Gider hesapları | Arada sırada oluşan giderler için para çekmecesinden çekilen parayı kaydedin. | Evet | Evet | Evet | Evet | Hayır |
-| 919 | Genişletilmiş oturum açma | Bir barkod tarayarak veya kart geçirerek oturum açma izni atayın veya kaldırın. | Evet | Evet | Evet | Hayır | Hayır |
+| 919 | Genişletilmiş oturum açma | Bir barkod tarayarak veya kart geçirerek oturum açma izni atayın veya kaldırın. | Evet | Evet | Evet | Evet | Hayır |
 | 1201 | Kasa devri girişi | Bu işlem kullanıcının geçerli çekmece veya vardiyaya ek para eklemesine izin verir. | Evet | Evet | Evet | Evet | Hayır |
 | 1218 | Çevre biriminin kilidini açmaya zorla | Sistem bu işlemi POS çevre birimlerinin kilidini açmak için dahili olarak kullanır. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Hayır |
 | 520 | Hediye kartı bakiyesi | Hediye kartı bakiyesini görüntüleyin. | Evet | Evet | Hayır | Hayır | Hayır |

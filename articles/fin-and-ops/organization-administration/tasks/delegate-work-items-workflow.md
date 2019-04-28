@@ -3,7 +3,7 @@ title: İş akışındaki iş öğelerini devretme
 description: Bir süreliğine ofis dışında olacaksanız ya da iş öğeleri ile ilgili uygulama yapamayacaksanız iş öğelerinizi diğer kullanıcılara devredebilir veya yeniden atayabilirsiniz.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 04/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,25 +16,26 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: feace647d7acef6abf86b13fcb8019c622c55ff6
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346261"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "976793"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>İş akışındaki iş öğelerini devretme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bir süreliğine ofis dışında olacaksanız ya da iş öğeleri ile ilgili uygulama yapamayacaksanız iş öğelerinizi diğer kullanıcılara devredebilir veya yeniden atayabilirsiniz. Bu yordam, iş öğelerinizi otomatik olarak bir başka kullanıcıya devretmeniz için sistemi yapılandırmanıza yardımcı olur.
+## <a name="manually-delegate-a-work-item"></a>Bir iş öğesini el ile devredin
 
+Bir tekil iş öğesini devretmek için **Devret** seçeneğini **İş akışı** menüsünde seçin ve daha sonra devredilecek kullanıcıyı bir yorum ile seçin. Bu, iş öğesini tamamlayabilmeleri için bu kullanıcıya yeniden atayacaktır.
 
+## <a name="automatically-delegate-work-items"></a>Otomatik olarak iş öğelerini devret
 
-Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+Bir süreliğine ofis dışında olmayı veya başka sebeple iş öğeleri üzerinde çalışamamayı planlıyorsanız, yeni iş öğelerini diğer kullanıcılara **Kullanıcı seçenekleri** sayfasını kullanarak otomatik olarak devredebilirsiniz.
 
-
-## <a name="set-up-automatic-delegation"></a>Otomatik temsil ayarlama
+### <a name="set-up-automatic-delegation"></a>Otomatik temsil ayarlama
 1. Ortak > Kurulum > Kullanıcı seçenekleri'ne gidin.
 2. İş Akışı sekmesine tıklayın.
     * Temsilci bölümünün genişletilmiş olduğundan emin olun.    Diğer kullanıcılar iş maddelerinize otomatik olarak temsilci olarak atanacak biçimde sistemi yapılandırmak için, hangi iş maddesi türlerine ne zaman temsilci atanacağını belirten temsilci kuralları oluşturmanız gerekir. Temsilci kuralı oluşturmak için aşağıdaki adımları izleyin.  

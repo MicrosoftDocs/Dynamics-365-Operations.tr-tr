@@ -1,7 +1,7 @@
 ---
 title: İzin ve devamsızlık konseptleri
 description: Bu konu, izin ve devamsızlık kavramlarını ve izin sürelerinin nasıl belirlediğini açıklar.
-author: jcart
+author: andreabichsel
 manager: AnnBe
 ms.date: 01/03/2019
 ms.topic: article
@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application user
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 563593d6c93b0488c681f5b43004f5c0d22cc004
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 96e3aa74e513a2421b04bac049400cf71042e2c8
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306647"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "857311"
 ---
 # <a name="leave-and-absence-concepts"></a>İzin ve devamsızlık konseptleri
 

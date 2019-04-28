@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6fae56d2feeec8e5c26fc86bdf89b8ab4c282144
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 80d62492d58a436c15fac82df0d000ab9efa6ea5
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306650"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949955"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (6 Aralık 2018)
 
@@ -135,7 +135,7 @@ Güncelleştirilmiş eşlemeler şu şekilde görünmelidir.
 
 Cinsiyet alanı dönüştürmenin de güncelleştirilmesi gerekir. **fn** (fonksiyon) eşleşme türünü Cinsiyet için seçin ve aşağıdaki değer eşleştirmelerini güncelleştirin.
 
-| CDS Değeri   | Finance and Operations değeri | | ------------|------------------ -----------| | 75440000    | Erkek                         | | 75440001    | Kadın                       | | 75440002    | Yok                         | | 75440003    | NonSpecific                  |
+| Common Data Service Değeri   | Finance and Operations değeri | | ------------|------------------ -----------| | 75440000    | Erkek                         | | 75440001    | Kadın                       | | 75440002    | Yok                         | | 75440003    | NonSpecific                  |
 
 Güncelleştirilmiş eşlemeler şu şekilde görünmelidir.
 

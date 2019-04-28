@@ -3,7 +3,7 @@ title: Rotalar ve operasyonlar
 description: Bu konu rotalar ve operasyonlar hakkında bilgi sağlar.
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
+ms.sourcegitcommit: dc90d56050d7353930d048476451542cce147e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333358"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "850680"
 ---
 # <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 
@@ -57,13 +57,12 @@ Basit rota sıralıdır ve rotanın yalnızca bir başlangıç noktası vardır.
 
 Üretim denetim parametrelerinde daha karmaşık rota ağlarını etkinleştirirseniz, birden çok başlangıç noktasının ve paralel işleyen operasyonların bulunduğu rotalar tanımlayabilirsiniz.  
 
-[![Rota ağı](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Rota zinciri](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
-**Notlar:**
-
--   Her operasyonun tek bir ardıl operasyonu olabilir ve tüm rota tek bir operasyonla bitmek zorundadır.
--   Birden fazla operasyonun paralel olarak çalışacak aynı ardıl operasyonu olacağının garantisi yoktur (örneğin önceki şekilde görülen 30 ve 40 operasyonları). Kaynakların kullanılabilirliği ve kapasitesi nedeniyle operasyonların zamanlanma yöntemine kısıtlamalar getirilebilir.
--   Operasyon numarası olarak 0 (sıfır) kullanamazsınız. Bu numara rezervedir ve rotadaki son operasyonun ardıl operasyonu olmadığını belirtmek için kullanılır.
+> [!NOTE]
+> -   Her operasyonun tek bir ardıl operasyonu olabilir ve tüm rota tek bir operasyonla bitmek zorundadır.
+> -   Birden fazla operasyonun paralel olarak çalışacak aynı ardıl operasyonu olacağının garanti etmez (örneğin önceki şekilde görülen 30 ve 40 operasyonları). Kaynakların kullanılabilirliği ve kapasitesi nedeniyle operasyonların zamanlanma yöntemine kısıtlamalar getirilebilir.
+> -   Operasyon numarası olarak 0 (sıfır) kullanamazsınız. Bu numara rezervedir ve rotadaki son operasyonun ardıl operasyonu olmadığını belirtmek için kullanılır.
 
 ### <a name="parallel-operations"></a>Paralel operasyonlar
 
@@ -122,7 +121,8 @@ Bir operasyon ilişkisinin bir tesise özgü olduğunu da belirtebilirsiniz. Bu 
 
 Operasyon ilişkileri, rotaları tanımlarken size çok esneklik sağlar. Ayrıca, varsayılan özellikleri tanımlayabilmek, yönetmeniz gereken ana veri miktarını azaltmaya yardımcı olur. Ancak, bu esneklik, bir operasyon ilişkisini değiştirdiğiniz bağlamı bilmeniz gerektiği anlamına gelir.  
 
-**Not:** Operasyonel özellikler rota başına her operasyon için operasyon ilişkilerinde depolandığından, aynı operasyonun (örneğin Montaj) tüm tekrarlarında aynı hazırlık süresi, çalışma süresi, kaynak gereksinimleri vb. kullanılır. Bu nedenle, bir operasyon aynı rotada iki kez uygulanıyorsa ama farklı çalışma süreleri varsa iki farklı operasyon oluşturmanız gerekir (Montaj1, Montaj2 gibi).
+> [!NOTE]
+> Operasyonel özellikler rota başına her operasyon için operasyon ilişkilerinde depolandığından, aynı operasyonun (örneğin Montaj) tüm tekrarlarında aynı hazırlık süresi, çalışma süresi, kaynak gereksinimleri vb. kullanılır. Bu nedenle, bir operasyon aynı rotada iki kez uygulanıyorsa ama farklı çalışma süreleri varsa iki ayrı operasyon oluşturmanız gerekir (Montaj1, Montaj2 gibi).
 
 ### <a name="modifying-product-specific-routes"></a>Ürüne özgü rotalarda değişiklik
 
@@ -132,7 +132,8 @@ Operasyon ilişkileri, rotaları tanımlarken size çok esneklik sağlar. Ayrıc
 
 Rotaya ve serbest bırakılan ürüne özgü bir operasyonu **İlişkiyi kopyala ve düzenle** işleviyle kendiniz oluşturabilirsiniz.  
 
-**Not:** **Rota** sayfasındaki bir rotaya yeni bir operasyon eklerseniz yalnızca mevcut serbest bırakılan ürün için bir operasyon ilişkisi oluşturulur. Bu nedenle, rota başka serbest bırakılan ürünleri üretmek için de kullanıldığı zaman o serbest bırakılan ürünler için geçerli bir operasyon ilişkisi olmaz rota artık o serbest bırakılan ürünler için kullanılamaz.
+> [!NOTE]
+> **Rota** sayfasındaki bir rotaya yeni bir operasyon eklerseniz yalnızca mevcut serbest bırakılan ürün için bir operasyon ilişkisi oluşturulur. Bu nedenle, rota başka serbest bırakılan ürünleri üretmek için de kullanıldığı zaman o serbest bırakılan ürünler için geçerli bir operasyon ilişkisi olmaz rota artık o serbest bırakılan ürünler için kullanılamaz.
 
 ### <a name="maintaining-operation-relations-per-route"></a>Rotanın operasyon ilişkilerini yönetme
 
@@ -228,17 +229,32 @@ Bir operasyonun kaynak gereksinimlerinin bir parçası olarak bir operasyon kayn
 -   **Parti** – Parti kapasitesi, operasyon ilişkisinden alınan bilgilerle hesaplanır. Parti sayısı ve dolayısıyla işlem süresi sipariş miktarına göre hesaplanabilir.
 -   **Kaynak parti** – Bu seçenek temelde **Parti** seçeneğiyle aynıdır. Ancak, hesaplamaya, operasyon kaynağındaki **Parti kapasitesi** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır.
 
+### <a name="set-up-route-groups"></a>Rota gruplarını ayarla
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+Rota gruplarını ve rota veya iş türü için kurulumunu **Üretim denetimi > Kurulum > Rotalar > Rota grupları** altında tanımlayabilirsiniz. Her bir rota grubundaki Rota/iş türü için, aşağıdaki seçenekleri seçebilir veya temizleyebilirsiniz:
 
-[Ürün reçeteleri ve formüller](bill-of-material-bom.md)
+- **Etkinleştirme** - Seçilen iş türü için hesaplamaları ve planlamayı etkinleştirmek ve iş planlamasını çalıştırdığınızda geribildirim almak için bu seçeneği seçin. Bu seçeneği iş türünü etkinleştirmek ve daha sonra, bu iş türü için seçeneklerin geri kalanını seçmek için seçmeniz gerekir. Etkinleştirme seçilmezse, bu iş türü etkinleştirilmeyecektir, diğer seçeneklerin ne olduğundan bağımsız olarak. 
+- **İş yönetimi** - İş planlamasını çalıştırdığınızda iş türünü iş yönetimine dahil etmek için bu seçeneği seçin. 
+- **Çalışma süresi** İşlem kaynakları için tanımlanan çalışma süresi takvimine göre iş türünü planlamak için bu seçeneği seçin, aksi taktirde Miladi takvim kullanılır. Çalışma zamanı, Miladi takvime göre veya tanımlanmış çalışma takvimine göre planlanabilir. Bu seçeneği seçerseniz, planlama tanımlanmış çalışma süresi takvimini temel alır. Ayrıca, iş türünün işi, işin başlangıç tarihi olarak tanımlanan tarihte gece yarısından itibaren planlanır.
+- **Kapasite** - İş planlamasını çalıştırdığınızda iş türü için kapasite rezerve etmek için bu seçeneği seçin. Bu seçeneği seçerseniz, seçili iş türü için iş planlama çalıştırıldığında kapasite rezerve edilir. Bu, işlem kaynaklarını her rota grubunda hangi iş türlerinin kullandığının özetini verir. Örneğin, kurutma kaynaklarının darboğazda kaynaklar olması durumunda, bu kaynaklar darboğaz olarak belirtilmelidir. Kuyruk süresi iş türlerine atanan kurutma işlemleri kurutma kaynaklarını rezerve edecektir. 
 
-[Üretim rotasında kullanılan maliyet kategorileri](../cost-management/cost-categories-used-production-routings.md)
+İş türlerinin her biri için, önce etkinleştirmeniz veya devre dışı bırakmanız gerekir. Devre dışı bırakıldığında, diğer kurulumdan hiçbiri (İş yönetimi, çalışma zamanı ve kapasite) dikkate alınmayacaktır, çünkü iş türü etkin olmayacaktır. 
 
-[Kaynak yetenekleri](resource-capabilities.md)
+İş türleri arasında Çakışma'yı bulabilirsiniz. Çakışma, farklı işlerin aynı anda gerçekleştirilmesine izin verir. İşler çakıştığında, kaynaklar kullanılabilir ancak belirli işler için rezerve edilemez.
+Bu nedenle, Etkinleştirme Çakışma için seçildiğinde, ayarların geri kalanı (İş yönetimi, Çalışma zamanı ve Kapasite), rota grubunda herhangi bir etki yapmaz. 
 
-[Elektronik imzalara genel bakış](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+> [!NOTE]
+> Sürüm yükselttiğinizde, aşağıdaki hatayla karşılaşabilirsiniz: **"CRL Hatası zamanlama altyapısı çağrılırken oluştu**. Bu hatayla karşılaşırsanız, **Rota grupları** sayfasına gidin ve **Çakışma**'yı etkinleştirdiğiniz tüm rotalar için **İş yönetimi**, **Çalışma süresi** ve **Kapasite** seçeneklerini temizleyin. 
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+- [Ürün reçeteleri ve formüller](bill-of-material-bom.md)
+
+- [Üretim rotasında kullanılan maliyet kategorileri](../cost-management/cost-categories-used-production-routings.md)
+
+- [Kaynak yetenekleri](resource-capabilities.md)
+
+- [Elektronik imzalara genel bakış](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 

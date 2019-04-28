@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773289"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950416"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Perakende kanalları için mali tümleştirme genel bakışı
 
@@ -81,12 +81,37 @@ Mali tümleştirme çerçevesi, mali kayıt sırasındaki başarısızlıkları 
 
 **Atla** ve **Kaydedildi olarak işaretle** seçenekleri, bilgi kodlarının başarısızlık hakkında bazı belirli bilgileri yakalamasına olanak sağlar, başarısızlık hata sebebi ve mali kaydı atlama nedeni veya hareketin kaydedildi olarak işaretlenmesi gibi. Hata el alma parametreleri hakkında daha fazla bilgi için bkz. [Hata ele alma ayarları ayarlama](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
+### <a name="optional-fiscal-registration"></a>İsteğe bağlı mali kayıt
+
+Mali kayıt, bazı işlemler için isteğe bağlı ancak bazı diğerleri için zorunlu olabilir. Örneğin, normal satışların ve iadelerin mali kaydı zorunlu olabilir ancak, müşteri mevduatıyla ilişkili operasyonların mali kaydı isteğe bağlı olabilir. Bu durumda, bir satışın mali kaydını tamamlama başarısızlığı, sonraki satışları engellemelidir, ancak bir müşteri mevduatının mali kaydını tamamlama başarısızlığı, sonraki satışları engellememelidir. Zorunlu ve isteğe bağlı operasyonlar arasında ayırt edebilmek için bunları farklı belge sağlayıcıları üzerinden gerçekleştirmenizi ve bu sağlayıcılar için mali kayıt işleminde farklı adımlar ayarlamanızı öneririz. **Hatada devam et** parametresi, isteğe bağlı mali kayıt ile ilişkili her adım için etkin olmalıdır. Hata el alma parametreleri hakkında daha fazla bilgi için bkz. [Hata ele alma ayarları ayarlama](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
+### <a name="manually-running-fiscal-registration"></a>Mali kaydı el ile çalıştırmak
+
+Bir hareket veya etkinliğin mali kaydı bir arızadan sonra ertelenirse (örneğin operatör hata işleme iletişim kutsunda **İptal** seçtiyse), mali kaydı karşılık gelen bir eylemi çağırarak el ile yeniden yürütebilirsiniz. Daha fazla bilgi için bkz. [Ertelenen mali kaydın el ile yürütülmesini etkinleştir](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+
+### <a name="fiscal-registration-health-check"></a>Mali kayıt sağlık denetimi
+
+Mali kayıt için sağlık denetimi prosedürü, mali cihaz veya servisin belirli etkinlikler ortaya çıktığında kullanılabilirliğini doğrular. Mali kayıt şu anda tamamlanamıyor, operatör önceden uyarıldı.
+
+POS, aşağıdaki etkinlikler gerçekleştiğinde sağlık denetimini çalıştırır:
+
+- Yeni bir hareket açılır.
+- Askıya alınmış bir hareket geri çağırılır.
+- Satış veya iade hareketi sonlandırılır.
+
+Sağlık denetimi başarısız olursa, POS, sağlık denetimi iletişim kutusunu gösterir. Bu iletişim kutusu, aşağıdaki düğmeleri sağlar:
+
+- **Tamam** - Bu düğme, operatörün bir sağlık denetimi hatasını göz ardı etmesini ve işlemi sürdürmey devam etmesine izin verir. Operatörler, bu düğmeyi yalnızca **Sağlık denetimi hatasını atlamaya izin ver** izni bunlar için etkinse seçebilirler.
+- **İptal** - Operatör bu düğmeyi seçerse, POS son eylemi iptal eder (örneğin, bir madde yeni bir harekete eklenmemişse).
+
+> [!NOTE]
+> Sağlık denetimi yalnızca güncel işlem mali kayıt gerektiriyorsa ve **Hatada devam et** parametresi mali kayı işleminin şu anki adımı için iptal edilmiştir. Daha fazla ayrıntı için bkz. [Hata işleme ayarlarını düzenle](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Mali hareket içinde mali yanıtları depolamak
 
 Bir hareketin veya etkinliğin mali kaydı başarılı olursa, bir mali hareket kanal veritabanında oluşturulur ve orijinal hareket veya etkinliğe bağlanır. Benzer şekilde, **Atla** veya **Kaydedildi olarak işaretle** seçeneği başarısız bir mali kayıt için seçilirse, bu bilgi mali kayıt içinde depolanır. Bir mali kayıt, mali cihaz veya hizmetin mali yanıtını bulundurur. Mali kayıt işlemi çok sayıda adımdan oluşuyorsa, başarılı veya başarısız kayıt ile sonuçlanan mali kayıt işlemin her bir adımı için oluşturulur.
 
-Mali hareketler Perakende Yönetim Merkezine *P-job* ile, perakende hareketleri ile birlikte aktarılır. **Perakende mağaza hareketleri** sayfasındaki **Mali hareketler** hızlı sekmesinde, perakende hareketleriyle bağlantılı mali hareketleri görüntüleyebilirsiniz.
-
+Mali hareketler Retail Headquarters *P-job* ile, perakende hareketleri ile birlikte aktarılır. **Perakende mağaza hareketleri** sayfasındaki **Mali hareketler** hızlı sekmesinde, perakende hareketleriyle bağlantılı mali hareketleri görüntüleyebilirsiniz.
 
 Bir mali hareket aşağıdaki ayrıntıları saklar:
 
@@ -111,10 +136,11 @@ Aşağıdaki mali tümleştirme örnekleri Perakende ile yayımlanmış Perakend
 
 - [İtalya için yazar kasa tümleştirme örneği](emea-ita-fpi-sample.md)
 - [Polonya için yazar kasa tümleştirme örneği](emea-pol-fpi-sample.md)
+- [Avusturya için mali kayıt hizmeti tümleştirme örneği](emea-aut-fi-sample.md)
+- [Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği](emea-cze-fi-sample.md)
 
 Aşağıdaki mali tümleştirme işlevi de ayrıca Retail SDK içinde kullanılabilir ancak mali tümleştirme çerçevesinin avantajlarından faydalanmaz. Bu işlevin mali tümleştirme çerçevesine geçirilmesi daha sonraki güncelleştirmeler için planlanmıştır.
 
 - [Fransa için dijital imza](emea-fra-cash-registers.md)
 - [Norveç için dijital imza](emea-nor-cash-registers.md)
 - [İsveç için kontrol birimi tümleştirmesi örneği](./retail-sdk-control-unit-sample.md)
-

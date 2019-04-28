@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773339"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "898989"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Perakende kanalları için mali tümleştirmeyi ayarlama
 
@@ -60,7 +60,7 @@ Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları yapıland�
 2. Mali bağlayıcılar ve mali belge sağlayıcıları.
 
     Bir mali belge sağlayıcısı, perakende işlemlerini temsil eden mali belgeleri ve POS içerisinde, mali cihaz veya servis ile etkileşimde kullanılan kayıtları oluşturmaktan sorumludur. Örneğin, bir mali belge sağlayıcı XML biçiminde bir mali giriş gösterimi oluşturabilir.
-    
+
     Bir mali cihaz veya hizmeti ile iletişim için mali bağlayıcı sorumludur. Örneğin, bir mali bağlayıcı, bir mali belge sağlayıcısının XML biçiminde oluşturudğu bir mali girişi, bir mali yazıcıya gönderebilir. Mali tümleştirme bileşenleri hakkında daha fazla bilgi için bkz. [Mali cihazlar için mali kayıt işlemi ve mali tümleştirme örnekleri](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
     1. **Mali bağlayıcılar** sayfasında (**Perakende \> Kanal kurulumu \> Mali tümleştirme \> Mali bağlayıcılar**), mali tümleştirme amacıyla kullanmayı planladığınız her bir cihaz veya servis için bir XML yapılandırması karşıya yükleyin.
@@ -150,7 +150,7 @@ Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları yapıland�
     - Mevcut bir mali kayıt işleminde değişiklik yaptıktan ve bu değişiklikler farklı mali bağlayıcının çalışma zamanında seçilmesine neden olabildikten sonra (örneğin, bir mali kayıt işlemi adımı için bağlayıcı grubu değiştirdiğinizde, bir bağlayıcı grubundaki bağlayıcı işlev profilini etkinleştirin veya yeni bir bağlayıcı işlev profilini bir bağlayıcı grubuna ekleyin).
     - Bağlayıcı teknik profillerin donanım profillerine atamasında değişiklikler yaptıktan sonra.
 
-8. **Dağıtım planlayıcısı** sayfasında, **1070** ve **1090** işlerini veriyi kanal veritabanına aktarmak için kullanın.
+8. **Dağıtım zamanlaması** sayfasında, **1070** ve **1090** işlerini veriyi kanal veritabanına aktarmak için kullanın.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>İskontolar mali metinleri ayarlama
 
@@ -185,8 +185,12 @@ Mali tümleştirme içinde kullanılabilen hata işleme seçenekleri, mali kayı
 
     - **Atlamaya izin ver** – Bu parametre **Atla** seçeneğini hata işleme iletişim kutusuna etkinleştirir.
     - **Kaydedildiği şekilde işaretlemeye izin ver** - Bu parametre **Kaydedildi olarak işaretle** seçeneğini hata işleme iletişim kutusunda etkinleştirir.
+    - **Hata durumunda devam** – Bu parametre etkinleştirilmişse, mali kayıt işlemi POS kaydında mali kayıt veya bir hareket veya etkinlik başarısız olursa devam edebilir. Aksi taktirde, bir sonraki kayıt veya etkinliğin mali kaydını yürütmek için operatörün başarısız mali kaydı yeniden denemesi, atlaması veya hareketi veya etkinliği kaydedildi olarak işaretlemesi gerekir. Daha fazla bilgi için bkz [İsteğe bağlı mali kayıt](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
-2. Hata işleme iletişim kutusundaki **Atla** ve **Kaydedildi olarak işaretle** seçenekleri, **Atlamaya izin ver veya kaydedildi olarak işaretle** iznine ihtiyaç duyar. Bu nedenle, **İzin grupları** sayfasında (**Perakende \> Çalışanlar \> İzin grupları**), **Atlamaya izin ver veya kaydedildi olarak işaretle** iznini etkinleştirin.
+    > [!NOTE]
+    > **Hatada devam et** parametresi etkinse, **Atlamaya izin ver** ve **Kaydedildi olarak işaretlenmeye izin ver** parametreleri otomatik olarak devre dışı bırakılır.
+
+2. Hata işleme iletişim kutusundaki **Atla** ve **Kaydedildi olarak işaretle** seçenekleri, **Kaydı atlamaya izin ver veya kaydedildi olarak işaretle** iznine ihtiyaç duyar. Bu nedenle, **İzin grupları** sayfasında (**Perakende \> Çalışanlar \> İzin grupları**), **Kaydı atlamaya izin ver veya kaydedildi olarak işaretle** iznini etkinleştirin.
 3. **Atla** ve **Kaydedildi olarak işaretle** seçenekleri, operatörlerin mali kayıt başarısız olduğunda ek bilgiler girmesine olanak sağlar. Bu işlevi kullanılabilir kılmak için **Atla** ve **Kaydedildi olarak işaretle** bilgi kodlarını bir mali bağlayıcı grubunda belirtmelisiniz. Operatörlerin girdiği bilgi, mali işleme bağlı bir bilgi kodu hareketi olarak kaydedilir. Bilgi kodları hakkında daha fazla bilgi için bkz. [Bilgi kodları ve bilgi kodu grupları](../info-codes-retail.md).
 
     > [!NOTE]
@@ -200,6 +204,8 @@ Mali tümleştirme içinde kullanılabilen hata işleme seçenekleri, mali kayı
     > - **Mali belge** - Başarıyla kaydedilmesi gereken zorunlu bir belge (örn. bir mali giriş).
     > - **Mali olmayan belge** - Hareket veya etkinlik için destekleyici bir belge (örn. bir hediye kartı fişi).
 
+4. Bir sağlık denetimi hatası ortaya çıktıktan sonra operatörün güncel işlemi işlemeye devam etmesi (örneğin, bir hareketin oluşturulması veya sonlandırılması) için **Sağlık denetimi hatasını atlamaya izin ver** iznini **İzin grupları** sayfasından etkinleştirmeniz gerekir (**Perakende \> Personeller \> İzin grupları**). Sağlık denetimi işlemi hakkında daha fazla bilgi için bkz. [Mali kayıt sağlık denetimi](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Mali X/Z raporlarını POS'tan ayarlamak
 
 Mali X/Z raporlarının POS'tan çalıştırılmasını etkinleştirmek için bir POS düzenine yeni düğmeler eklemelisiniz.
@@ -211,3 +217,12 @@ Mali X/Z raporlarının POS'tan çalıştırılmasını etkinleştirmek için bi
     3. Yeni bir düğme ekleyin ve **Mali Z yazdır** düğmesi özelliğini ayarlayın.
     4. **Dağıtım planlayıcısı** sayfasında **1090** işini çalıştırarak değişiklikleri kanal veritabanına aktarın.
 
+## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Ertelenen mali kaydın el ile yürütülmesini etkinleştir
+
+Ertelenen mali kaydın el ile yürütülmesini etkinleştirmek için POS düzenine yeni bir düğme eklemelisiniz.
+
+- **Düğme kılavuzlar** sayfasında, [Perakende yönetim merkezinde POS düzenine özel operasyon düğmeleri ekle](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) içindeki talimatları kullanarak tasarımcıyı yükleyin ve bir POS düzenini güncelleştirin.
+
+    1. Güncelleştirilecek düzeni seçin.
+    2. Yeni bir düğme ekleyin ve **Mali kayıt işlemini tamamla** düğmesi özelliğini ayarlayın.
+    3. **Dağıtım planlayıcısı** sayfasında **1090** işini çalıştırarak değişikliklerinizi kanal veritabanına aktarın.

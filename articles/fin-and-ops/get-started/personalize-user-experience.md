@@ -3,7 +3,7 @@ title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konu Microsoft Dynamics 365 for Finance and Operations nasıl özelleştirilebileceğinizi açıklar.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363488"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975863"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Bu konu Microsoft Dynamics 365 for Finance and Operations nasıl özelleştirilebileceğinizi açıklar.
 
@@ -47,6 +48,8 @@ Kullanıcının Finance and Operations'ta yaptığı her kişiselleştirme, kiş
 - **Tercihler** – Finance and Operations'ı her açtığınızda kullanılacak varsayılan değerleri seçin. Bu değerler şirket, ilk sayfa ve varsayılan görüntüleme/düzenleme modunu içerir. (Görüntüleme/düzenleme modu, sayfayı her açışınızda, görüntülemeye karşı kilitli olup olmadığını veya düzenlemeye açık olup olmadığını belirler.) Bu sekmede dil, saat dilimi, tarih, saat ve sayı biçimi için seçenekler de vardır. Son olarak, bu sekme sürümden sürüme değişiklik gösteren çeşitli tercihler içerir.
 - **Hesap** – Kullanıcı adınızı ve hesapla ilgili diğer seçenekleri ayarlayın.
 - **İş akışı** – İş akışıyla ilgili seçenekleri belirleyin.
+
+Kullanıcı ayarlarınızı değiştirmenin yanı sıra, kullanım verilerinizi ve kişiselleştirmelerinizi görüntüleyebilir ve silebilir ve **Kullanıcı verisi** düğmesine tıklayarak yapabilirsiniz. Uygulamayı kullandığınızda, seçimlerinizin pek çoğu sistemi gelecekte kullanmanızı kolaylaştırmak için hatırlanır. Özellikle **Kişiselleştirme** sekmesi sistemdeki sayfalarda yaptığınız kişisel değişiklikleri görüntülemenize ve yönetmenize olanak sağlar. Özellik açıklamaları, üründeki yeni özellikleri size açıklayan açılır pencereler (Platform güncelleştirmesi 26'da mevcut), bu sekmeden sıfırlanabilir ve önceden karşılaştığınız özellikler hakkında yeniden uyarılırsınız.  
 
 ## <a name="implicit-personalizations"></a>Dolaylı kişiselleştirmeler
 
@@ -160,7 +163,7 @@ Yönetici ayrıcalıklarına sahip kullanıcılar, bu kişi **Kişiselleştirme*
 
 - **Uygula** – Bir veya birden fazla kullanıcı için bir kişiselleştirmeyi içe aktarabilir veya seçebilirsiniz. Bir kişiselleştirmeyi bir veya daha fazla kullanıcıya uygulamak için önce bir rol ve o role sahip kullanıcıları seçin. Daha sonra, ya seçilen kullanıcılara uygulamak üzere mevcut bir kişiselleştirmeyi seçin veya bir kişiselleştirme dosyasını içe aktarın. Kişiselleştirme doğrulanır ve seçilen tüm kullanıcılara, seçili sayfayı bir dahaki açışlarında uygulanır.
 - **Temizle** – Bir sayfanın veya çalışma alanının tüm kişiselleştirmelerini bir veya birden fazla kullanıcı için temizleyebilirsiniz. Önce bir sayfayı veya çalışma alanını özelleştiren kullanıcıların listesini görmek için o sayfayı veya çalışma alanını seçin. Ardından, o sayfa veya çalışma alanı için kişiselleştirmelere sahip olması gereken kullanıcıları seçin ve **Temizle**'yi seçin. Seçili kullanıcıların seçili sayfaya veya çalışma alanına uyguladığı tüm kişiselleştirmeler silinir. Bu eylem geri alınamaz. Ancak, sayfa veya çalışma alanı için kaydedilmiş bir kişiselleştirme varsa, kişiselleştirme yeniden içe aktarılabilir.
-- **Kullanıcı başına yönetici** – Bir kullanıcı seçerek, kişiselleştirdiği sayfaların listesini görün. Bunun ardından, seçili kullanıcıların belirli sayfalar veya tüm sistem için kişiselleştirme kullanma yeteneklerini etkinleştirebilir veya devre dışı bırakabilirsiniz. Ayrıca, seçilen kullanıcı için bir kişiselleştirmeyi içe veya dışa aktarabilir ya da temizleyebilirsiniz.
+- **Kullanıcı başına yönetici** – Bir kullanıcı seçerek, kullanıcının kişiselleştirdiği sayfaların listesini görün. Bunun ardından, seçili kullanıcıların belirli sayfalar veya tüm sistem için kişiselleştirme kullanma yeteneklerini etkinleştirebilir veya devre dışı bırakabilirsiniz. Ayrıca, seçilen kullanıcı için bir kişiselleştirmeyi içe veya dışa aktarabilir ya da temizleyebilirsiniz. Ek olarak, özellik açıklamalarını seçili kullanıcı için sıfırlayabilirsiniz, bu da yeni özellikleri gösteren önceden kapatılan tüm açılır pencereleri, kullanıcı bu özelliklerle bir kere daha karşılaştığında tekrar görünür kılar.   
 - **Sistem:** Tüm kullanıcılar için tüm kişiselleştirmeleri geçici olarak devre dışı bırakabilirsiniz. Bu durumda, kişiselleştirmeler silinir. Tüm sayfalar hemen tüm kullanıcılar için varsayılan durumlarına sıfırlanır. Kişiselleştirmeyi daha sonra yeniden etkinleştirirseniz, tüm kişiselleştirmeler yeniden uygulanır. Ayrıca sistemdeki tüm kullanıcılar için tüm kişiselleştirmeleri kalıcı olarak silebilirsiniz. Silinmiş kişiselleştirmeler kurtarılamaz. Bu nedenle, bu görevi uygulamadan önce, daha sonra içeri aktarmak isteyebileceğiniz kişiselleştirmeleri dışa aktardığınızdan emin olun.
 
 ## <a name="personalization-of-inventory-dimensions"></a>Stok boyutlarının kişiselleştirilmesi

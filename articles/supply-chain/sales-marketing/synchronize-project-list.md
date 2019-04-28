@@ -3,7 +3,7 @@ title: Finance and Operations'tan Field Service'a proje listelerini eşitleme
 description: Bu konu projeleri Microsoft Dynamics 365 for Finance and Operations üzerinden Microsoft Dynamics 365 for Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b5aeb4c3925994d7488e8e113e88b9d06ee6b350
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312520"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842616"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>Proje listesini Finance and Operations'dan Field Service'a eşitleme
 
@@ -38,13 +38,13 @@ Bu konu projeleri Microsoft Dynamics 365 for Finance and Operations üzerinden M
 Aşağıdaki şablon ve görevler, Microsoft Dynamics 365 for Finance and Operations üzerinden Microsoft Dynamics 365 for Field Service üzerine projelerin eşitlenmesinde kullanılır.
 
 **Veri Tümleştirmesindeki Şablon**
-- Projeler (Finance and Operations'tan Field Service'a)
+- Projeler (Fin and Ops'tan Field Service'a)
 
 **Veri tümleştirme projesindeki görev**
 - Projeler
 
 Aşağıdaki eşitleme görevlerinin, proje listesinin eşitlemesinin gerçekleştirilebilmesi için gereklidir:
-- Hesaplar (Sales'tan Finance and Operations'a) 
+- Hesaplar (Sales'ten Fin and Ops'a) 
 
 ## <a name="entity-set"></a>Varlık kümesi
 | Field Service           | Finance and Operations  |
@@ -64,6 +64,6 @@ Veri varlığı projeleri için izlemeyi etkinleştir
 ## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşleme
 
 
-### <a name="projects-finance-and-operations-to-field-service-projects"></a>Projeler (Finance and Operations'tan Field Service'a): Projeler
+### <a name="projects-fin-and-ops-to-field-service-projects"></a>Projeler (Fin and Ops'tan Field Service'a): Projeler
 
 [![Veri tümleştirmede şablon eşleme](./media/FSProject1.png)](./media/FSProject1.png)

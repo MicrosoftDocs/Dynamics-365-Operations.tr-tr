@@ -3,7 +3,7 @@ title: Stok düzeyi bilgisini Finance and Operations'tan Field Service'a eşitle
 description: Bu konu stok düzey bilgisini Microsoft Dynamics 365 for Finance and Operations üzerinden Microsoft Dynamics 365 for Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356795"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842568"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Stok düzeyi bilgilerini Field Service'dan Finance and Operations'a eşitleme 
 
@@ -38,14 +38,14 @@ Bu konu stok düzey bilgisini Microsoft Dynamics 365 for Finance and Operations 
 Aşağıdaki şablon ve altındaki görevler, eldeki stok düzeylerini Microsoft Dynamics 365 for Finance and Operations üzerinden Microsoft Dynamics 365 for Field Service üzerine eşitlemekte kullanılır.
 
 **Veri Tümleştirmesindeki Şablon**
-- Ürün Stoku (Finance and Operations'tan Field Service'a)
+- Ürün envanteri (Fin and Ops'tan Field Service'a)
   
 **Veri tümleştirme projesindeki görev**
 - Ürün stoku
 
 Aşağıdaki eşitleme görevlerinin, stok düzeylerinin eşitlemesinin gerçekleştirilebilmesi için gereklidir:
-- Ambarlar (Finance and Operations'tan Field Service'a) 
-- Stok birimli Field Service ürünleri (Finance and Operations'tan Sales'a) 
+- Ambarlar (Fin and Ops'tan Field Service'a) 
+- Stok birimli Field Service ürünleri (Fin and Ops'tan Sales'a) 
 
 ## <a name="entity-set"></a>Varlık kümesi
 
@@ -80,6 +80,6 @@ Gelişmiş Sorgu ve Filtreleme ile filtreler uygulayabilirsiniz, böylece yalnı
 
 ## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşleme
 
-### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>Ürün stoku (Finance and Operations'tan Field Service'a): Ürün stoku
+### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Ürün stoku (Fin and Ops'tan Field Service'a): Ürün stoku
 
 [![Veri tümleştirmede şablon eşleme](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

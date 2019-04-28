@@ -1,9 +1,9 @@
 ---
 title: Satıcı faturalarına genel bakış
 description: Bu makalede, satıcı faturaları hakkında genel bilgiler verilmektedir. Satıcı faturaları, alınan ürün ve hizmetler için ödeme talepleridir. Satıcı faturaları, devam eden hizmetler için bir faturayı temsil edebileceği gibi, belirli madde ve hizmetler için satınalma siparişlerine de dayanabilir.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,24 @@ ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329770"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975814"
 ---
 # <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Bu makalede, satıcı faturaları hakkında genel bilgiler verilmektedir. Satıcı faturaları, alınan ürün ve hizmetler için ödeme talepleridir. Satıcı faturaları, devam eden hizmetler için bir faturayı temsil edebileceği gibi, belirli madde ve hizmetler için satınalma siparişlerine de dayanabilir. 
 
-<a name="vendor-invoices"></a>Satıcı faturaları
----------------
+## <a name="vendor-invoices"></a>Satıcı faturaları
 
 Bir satınalma siparişinden bir satıcı faturası, satıcıya verilmiş satınalma siparişine göre ürünler veya hizmetler alındığında, oluşturulan bir faturadır. Satıcı faturası, mallar veya hizmetler için bir başlık ve bir veya daha fazla satır içerir. Satıcı faturası, satınalma siparişinden ürün girişine ve oradan satıcı faturasına doğru oluşan döngüyü tamamlar. 
 
@@ -79,8 +79,15 @@ Daha fazla bilgi için bkz. [Satıcı faturasını kaydetme ve teslim alınan mi
 
 Aynı anda birden çok fatura ile çalışabilir ve bunların tümünü aynı anda deftere nakledebilirsiniz. Birden çok fatura oluşturmanız gerekiyorsa, **Bekleyen satıcı faturaları** sayfasını kullanın. Birden çok satıcı faturalarını deftere nakletmeniz ve yazdırmanız gerekiyorsa, fatura onay günlüğü sayfası kullanın. Fatura onay günlüğünü kullanıyorsanız, bu satınalma siparişi için en az bir ürün girişinin deftere nakledilmesi gerekir ve bir faturanın bu satınalma siparişi için fatura kaydına nakledilmesi gerekir. Faturanın mali bilgileri, deftere nakledilmiş faturadan gelir.
 
+## <a name="recovering-vendor-invoices-that-are-in-use"></a>Kullanımda olan satıcı faturalarını kurtarmak
 
-Daha fazla bilgi için bkz.:
+Bir satıcı faturası kullanımdayken başka bir kullanıcı tarafından düzenlenemez. Ancak, bir faturanın durumu bazen faturanın kullanımda olduğunu belirtiyor olabilir, aktif olarak düzenlenmiyor olsa bile. Örneğin, uygulama, fatura oluşturulurken yanıt vermeyi durdurmuş olabilir veya bir kullanıcı faturayı uygulamada açık unutmuş olabilir.
+
+**Satıcı faturalarını kurtar** sayfasını kullanarak dört saatten uzun süredir kullanımda olan satıcı faturalarını kurtarabilir veya serbest bırakabilirsiniz, böylece düzenlenebilirler. Bu sayfayı **Periyodik görev** gezintisinden veya **Satıcı fatura girişi** çalışma alanındaki bir kutucuktan açabilirsiniz. Bir fatura kurtarıldıktan sonra, **Satıcı faturası** sayfasında düzenlenmeye hazır olacaktır.
+
+**Satıcı faturalarını kurtar** sayfasına yalnızca **Kullanımdaki satıcı faturalarını kurtar** güvenlik ayrıcalığı size atanmışsa erişebilirsiniz. Ek olarak, **Satıcı faturası kurtarılmasına izin ver** parametresi, **Borç hesapları parametreleri** sayfasında açık olmalıdır.
+
+## <a name="additional-resources"></a>Ek kaynaklar
 
  - [Satıcı fatura ilkelerini ayarlama](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 

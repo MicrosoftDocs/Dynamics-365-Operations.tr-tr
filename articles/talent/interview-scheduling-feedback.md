@@ -1,25 +1,25 @@
 ---
 title: Mülakat planlama ve geri bildirim
 description: Bu konu, Attract içinde mülakat zamanlama ve geribildirim etkinlikleri hakkında bilgi sağlar.
-author: ''
+author: hasrivas
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
-ms.author: hasrivas
-ms.openlocfilehash: 7bc5a66bb221cb0ab2c69fcb1013ed48a7c664a6
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.author: shielas
+ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374996"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "989949"
 ---
 # <a name="interview-scheduling-and-feedback"></a>Mülakat planlama ve geri bildirim
 
@@ -28,6 +28,8 @@ ms.locfileid: "374996"
 ## <a name="scheduler-activity"></a>Planlayıcı faaliyeti
 
 Planlama etkinliği, isteğe bağlıdır ve iki bileşeni vardır: Aday uygunluk talebi ve Zamanlama. Aday erişilebilirliği bileşeni, adayın erişilebilirliğini istemek için e-posta kullanmanıza olanak sağlar. Zamanlama bileşeni, aday ve işe alma ekibiyle görüşmeler planlanma yeteneğini sağlar.
+
+Zamanlayıcı etkinliğini adayların zamanlanmasını dahil etmek veya sınırlamak için ayarlamak üzere, **Kimi zamanlıyorsunuz** alanında bir değer seçin. Kullanılabilir seçenekler **Tüm Adaylar**, **Harici Adaylar** ve **Dahili Adaylar**'dır. Örneğin, dahili adayları ilk tur zamanlamasında atlamak istiyorsanız, zamanlama etkinliğini yalnızca harici adaylara, **Kimi zamanlıyorsunuz**'u **Harici Adaylar** olarak ayarlayarak atayabilirsiniz.
 
 ### <a name="candidate-availability-request"></a>Aday uygunluk talebi
 
@@ -54,7 +56,7 @@ Mülakat döngüsünü hızlıca oluşturmak mülakatı yapanlara ve adaylara g�
 
 2. Her bir görüşme etkinliği için bir görüşme süresi seçin ve sonra zamanlamayı başlatmak için **Tamam** üzerine tıklayın.
 
-    **Öneriler** seçilirse, öneriler gösterilir ve görüşme kılavuzu önceden doldurulacaktır. Seçilen tüm görüşmecilerin geçerli takvim uygunluğunu görebileceksiniz. Dahili bir adaysa, adayın takvimini de görebileceksiniz.
+    **Öneriler** seçilirse, öneriler gösterilir ve görüşme kılavuzu önceden doldurulacaktır. Seçilen tüm görüşmecilerin geçerli takvim uygunluğunu görebileceksiniz. Dahili bir adaysa, adayın takvimini de görebileceksiniz. Mülakatçılar ve dahili adaylar için meşgul oldukları zaman aralıklarını, çalışma saatlerini, ofis dışı saatlerini görüntüleyebilir ve belirli zaman aralıkları için takvimlerinde başka yerde çalışıyor mu işaretlediklerini görebilirsiniz. 
 
 3. Öneri mevcut değilse, **Görüşmeciler** sekmesinde, bir zaman aralığına tıklayın, görüşme başlığını, ayrıntılarını girin ve konum ayrıntılarını gerektiği gibi doldurun. Görüşme için **Skype for Business** bağlantısını dahil etmeyi de seçebilirsiniz.
 
@@ -73,7 +75,7 @@ Mülakat döngüsünü hızlıca oluşturmak mülakatı yapanlara ve adaylara g�
 
     Görüşmeci yanıtları Attract içinde yakalanır ve gösterilir. Bir görüşmeci daveti reddederse, değişiklik yapmanız için size bildirilir. Yanıtlarını **Planlayıcı** kılavuz görünümünde görmek için kabarcık simgesine tıklayın.
 
-[![Attract bir işe alanın bir görüşmecinin yanıtını görmek için](./media/schedule-interviewer-response.png)](./media/schedule-interviewer-response.png)
+[![Attract bir işe alanın bir görüşmecinin yanıtını görmek için](./media/schedule-interviewer-response2.png)](./media/schedule-interviewer-response2.png)
 
 7. Görüşme planı hazırlandıktan ve aday ile paylaşılmaya hazır olduktan sonra **Adaya gönder** üzerine tıklayın. Görüşmeci adlarını ve sıralarını aday ile paylaşmayı veya gizlemeyi seçebilirsiniz.
 
@@ -82,10 +84,21 @@ Mülakat döngüsünü hızlıca oluşturmak mülakatı yapanlara ve adaylara g�
 >[!NOTE] 
 > Bir adayın takvim uygunluğu yalnızca aday dahiliyse gösterilir. Benzer şekilde, yalnızca dahili adaylar görüşme planı önerilerini geliştirmek için kullanılabilir. Şu anda, adaylar (dahili veya harici), e-posta toplantı daveti almazlar, bunun yerine adaylar yalnızca görüşmenin özetini alırlar.
 
-## <a name="feedback-activity"></a>Geri bildirim faaliyeti
+Adaylar, mülakat döngülerini özetleyen e-posta alırlar. E-postalar, kişisel takvimlerine daha hızlı erişim ve mülakatlar hakkında bilgilendirmeler için kişisel takvimlerine kaydedilebilecek bir .ics dosyası içerir.
 
-Geribildirim etkinliği bir iş şablonunda isteğe bağlıdır. Bu faaliyet, görüşmeye katılanların bir başvuran için öneriler veya geribildirim yorumları girmesine olanak tanır. **İşe Alım Ekbinden katılımcı geri bildirimi al** alanını seçerseniz, işe alımcı, işe alım yöneticisi ve görüşmeciler otomatik olarak geribildirim etkinliğine eklenir. Kuruluşlar, görüşmeye katılanların kendilerine ait geri bildirim göndermeden önce diğer kişilerin geri bildirimlerini görüntülemesine izin verebilir. Kuruluşlar ayrıca görüşmecilerin geri bildirimlerini gönderdikten sonra düzenlemesine de izin verir. Görüşmecilerin, gerçekleştirmiş oldukları görüşmeler için geribildirimlerini, bir iş şablonunun yapılandırma ön ayarı için girmeleri hatırlatılır. İşe alım müdür veya bir işe alımcı da görüşmecinin geribildirim girmesini hatırlatabilir.
+>[!TIP] 
+> Adaya mülakat zamanlamasını yeniden göndermeniz durumda, başka bir .ics dosya eki alırlar. Adayın mülakat özeti için, adayın önceki eklenen mülakat etkinliğini sildiğinden emin olmak ve takvimlerinde yinelenenler görmelerini engellemek için e-posta şablonlarını güncelleştirmeyi öneririz. 
+
+## <a name="feedback-activity"></a>Geribildirim faaliyeti
+
+Geribildirim etkinliği bir iş şablonunda isteğe bağlıdır. Bu faaliyet, görüşmeye katılanların bir başvuran için öneriler veya geribildirim yorumları girmesine olanak tanır. 
+
+Geribildirimde bulunacak adayları dahil etmek veya sınırlamak için **Mülakatçılar kime geribildirim sağlayacak** alanında bir değer seçin.  Kullanılabilir seçenekler **Tüm Adaylar**, **Harici Adaylar** ve **Dahili Adaylar**'dır. Örneğin, dahili adayları ilk tur zamanlamada atlamak istiyorsanız, **Mülakatçılar kime geribildirim versin**'i **Harici Adaylar**'a ayarlayın.
+
+**İşe Alım Ekbinden katılımcı geri bildirimi al** alanını seçerseniz, işe alımcı, işe alım yöneticisi ve görüşmeciler otomatik olarak geribildirim etkinliğine eklenir. Kuruluşlar, görüşmeye katılanların kendilerine ait geri bildirim göndermeden önce diğer kişilerin geri bildirimlerini görüntülemesine izin verebilir. Kuruluşlar ayrıca görüşmecilerin geri bildirimlerini gönderdikten sonra düzenlemesine de izin verir. Görüşmecilerin, gerçekleştirmiş oldukları görüşmeler için geribildirimlerini, bir iş şablonunun yapılandırma ön ayarı için girmeleri hatırlatılır. İşe alım müdür veya bir işe alımcı da görüşmecinin geribildirim girmesini hatırlatabilir.
 
 ## <a name="interview-activity"></a>Görüşme faaliyeti
 
-Görüşme etkinliği, üç bileşene sahip isteğe bağlı bir etkinliktir: Aday uygunluk talebi, Planlama ve Geribildirim. İş şablonunda görüşme etkinliğini, adayın uygun talebi, zamanlamasının tamamını istiyorsanız kullanın. ve geribildirim olarak, işlemin bir parçası olarak bunları işe alma sürecinin tekil parçası olarak kullanır.
+Görüşme etkinliği, üç bileşene sahip isteğe bağlı bir etkinliktir: **Aday uygunluk talebi**, **Planlama** ve **Geribildirim**. Adayın uygunluk talebini, zamanlamasını ve geribildiriminin tamamını tek tek kullanmak yerine işlemin parçası olarak dahil etmek istiyorsanız, iş şablonunda mülakat etkinliğini kullanın.
+
+Mülakata alınacak adayları dahil etmek veya sınırlamak için **Kime mülakat yapıyorsunuz** alanındaki değeri değiştirin. Kullanılabilir seçenekler **Tüm Adaylar**, **Harici Adaylar** ve **Dahili Adaylar**'dır. Örneğin, dahili adayları ilk tur mülakatta atlamak istiyorsanız, **Kime mülakat yapıyorsunuz**'u **Harici Adaylar**'a ayarlayın.
