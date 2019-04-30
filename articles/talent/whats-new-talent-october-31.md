@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c5acd09e25ecd5fefa637342f83d0ee0f1891402
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6942f8e4dc86f18a081b347df0567b1358a87ab
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306592"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "858802"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-31-2018"></a>Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (31 Ekim 2018)
 

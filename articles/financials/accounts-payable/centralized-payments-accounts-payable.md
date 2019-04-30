@@ -1,7 +1,7 @@
 ---
 title: Borç hesapları için merkezi ödemeler
 description: Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten tek bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı ödemelerin girilmesi gerekmez. Bu makalede, çeşitli senaryolarda deftere nakletmenin merkezi ödemeler için nasıl işlendiğini gösteren örnekler yer almaktadır.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 02/12/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b61320617dd85a880414b31ad6c88e611beca161
-ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
+ms.openlocfilehash: 41d94f4327268ef24388d97fc24804b650a84d57
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "390178"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "897167"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Borç hesapları için merkezi ödemeler
 

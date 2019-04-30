@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306506"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949863"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (14 Aralık 2018)
 
@@ -65,7 +65,7 @@ Bu değişikliğe göre artık gün için Power BI artık desteklenmektedir.
 
 ### <a name="integration-between-core-hr-and-attract"></a>Core HR ve Attract arasında tümleştirme
 
-İlgili adayların işe alınması için Core HR ve Attract arasındaki tümleştirmeyi güncelleştirmek için bir değişiklik yapıldı. İşe alınacak adayların **Personel Yönetimi** çalışma alanında görüntülenebilir olması için aşağıdaki CDS for Apps (CDS 2.0) varlıklarının kullanılır.
+İlgili adayların işe alınması için Core HR ve Attract arasındaki tümleştirmeyi güncelleştirmek için bir değişiklik yapıldı. İşe alınacak adayların **Personel Yönetimi** çalışma alanında görüntülenebilir olması için aşağıdaki Common Data Service varlıklarının kullanılır.
 
 İş Başvurusu
 - Durum Sebebinin, Teklif Kabul Edildi olarak ayarlanması gerekir
@@ -139,7 +139,7 @@ Güncelleştirilmiş eşlemeler aşağıdaki resimdeki gibi görünmelidir.
 
 Cinsiyet alanı dönüştürmenin de güncelleştirilmesi gerekir. **fn** (fonksiyon) eşleşme türünü Cinsiyet için seçin ve aşağıdaki değer eşleştirmelerini güncelleştirin.
 
-| CDS değeri                   | Finance and Operations değeri                     |
+| Common Data Service değeri                   | Finance and Operations değeri                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | Erkek                                             |
 | 75440001                    | Kadın                                           |

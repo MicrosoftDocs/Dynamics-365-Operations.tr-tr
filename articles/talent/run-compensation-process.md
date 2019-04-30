@@ -1,7 +1,7 @@
 ---
 title: Ücret işlemini çalıştırma
 description: Bu konu, müşterinin ücretlendirme işlemini Microsoft Dynamics 365 for Talent içinde çalıştırmaya çalışması ancak başarılı olamaması sorunun çözümünü açıklar.
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25340f1c6bcdd18b7f5c83feba77ec288d0d67a7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 865baedd66eb6d87d7c2ddef1b552cc831345842
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306573"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859540"
 ---
 # <a name="run-the-compensation-process"></a>Ücret işlemini çalıştırma
 

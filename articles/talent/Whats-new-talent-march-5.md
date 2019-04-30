@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "783037"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949817"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (5 Mart 2019)
 
@@ -35,7 +35,7 @@ Bu konuda, Talent'daki yeni veya değişen özellikler açıklanmaktadır
 
 ### <a name="extending-option-sets-in-attract"></a>Attract'te seçenek kümelerini genişletmek
 
-Attract, Common Data Service (CDS) içinde seçenek kümesi olan birden çok alan vardır. Yeni yeterlilikler, seçenek kümelerini genişletmek için sunulmuştur, **Reddetme** sebep alanı, **İstihdam türü** alanı ve **Kıdem türü** alanı.
+Attract, Common Data Service içinde seçenek kümesi olan birden çok alan vardır. Yeni yeterlilikler, seçenek kümelerini genişletmek için sunulmuştur, **Reddetme** sebep alanı, **İstihdam türü** alanı ve **Kıdem türü** alanı.
 
 > [!IMPORTANT]
 > LinkedIn'e iş ilanı verme özelliği, **İstihdam türü** ve **Kıdem türü** alanlarının **İş ayrıntıları** sayfasında kullanılmasını gerektirir. Bu alanlardaki varsayılan değerler, LinkedIn tarafından desteklenir ve iş ilanı verildiğinde görüntülenir. LinkedIn'e iş ilanları veriyorsanız ve mevcut seçenek kümesi değerlerini bu alanlar için değiştiriyorsanız, iş ilanı yine de verilecektir ancak LinkedIn, özel **İstihdam türü** ve **Kıdem türü** değerlerini görüntülemez.
@@ -70,8 +70,8 @@ Bu değişiklikle, mevcut konumlara bir değişiklik talebi yapılırsa, bordro 
 ### <a name="other-miscellaneous-bug-fixes"></a>Diğer çeşitli hata düzeltmeleri
 Bu sürüm ile diğer küçük hata gidermeleri vardır.
 
-### <a name="upgrade-to-cds-for-apps"></a>CDS for Apps'e yükseltin
-CDS for Apps'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezine oturum açarak veritabanınızın yükseltilmeye ihtiyacı olup olmadığını görün. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service for Apps'e yükseltme](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+### <a name="upgrade-to-common-data-service"></a>Common Data Service'a yükseltin
+Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezine oturum açarak veritabanınızın yükseltilmeye ihtiyacı olup olmadığını görün. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Çok yakında
 

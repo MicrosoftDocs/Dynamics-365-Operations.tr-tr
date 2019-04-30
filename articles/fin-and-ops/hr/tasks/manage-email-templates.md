@@ -1,7 +1,7 @@
 ---
 title: E-posta şablonlarını yönetme
 description: Yeni bir belgeye kuruluşunuzun bilgilerini vertabanından transfer edebilirve bunu başvuranlarla ve adaylarla etkili iletişim kurmak için şablonlarda kullanabilirsiniz.
-author: ShielaSogge
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplicationWordBookmark, HRMApplicationEmailTemplate
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shielas
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f8eface8fd47378e25c7baeca9a84fa41097dfbe
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4667d0506c5ae6bea87b982c7feebab8963797a6
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "309622"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859172"
 ---
 # <a name="manage-email-templates"></a>E-posta şablonlarını yönetme
 

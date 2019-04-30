@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-29
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ab43bab53afd979d64099425f0582f6c1bb5a8b0
-ms.sourcegitcommit: 383a344deb5abf48584ea2ee7774b8dbbbec49b3
+ms.openlocfilehash: d4504cebb7702c7163c94badeeb06d9af0e5467e
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "377862"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "857650"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-january-31-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (31 Ocak 2019)
 

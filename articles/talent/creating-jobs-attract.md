@@ -1,30 +1,30 @@
 ---
 title: Attract'ta iş oluşturun, onaylayın ve yayınlayın
 description: Bu konu, Attract'taki bir işin öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
-author: josaw
+author: hasrivas
 manager: AnnBe
-ms.date: 02/26/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
-ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
+ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "772823"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969361"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Attract'ta iş oluşturun, onaylayın ve yayınlayın
 
@@ -44,7 +44,7 @@ Attract'taki bir işin iş ayrıntıları, işe alma ekibi, bir işe alma işlem
 
 Varsayılan olarak **Boş pozisyon sayısı** **1** olarak ayarlanır. Ancak, değerde değişiklik yapabilirsiniz. Ne zaman iş için bir teklif hazırlanırsa **Mevcut boş pozisyon sayısı** alanının değeri azaltılır.
 
-Konum yönetimi Yönetim Merkezinde etkinleştirilirse **Pozisyonları güncelleştir** araması kullanılabilir. Bu arama Uygulamalar için Common Data Service'teki JobPosition varlığını okur ve iş için seçilebilecek pozisyonların bir listesini verir. Seçtiğiniz pozisyon sayısı açık pozisyon sayısını aşarsa, bir uyarı alırsınız. Pozisyon birden çok iş üzerinde kullanılırsa da uyarı alırsınız.
+Konum yönetimi Yönetim Merkezinde etkinleştirilirse **Pozisyonları güncelleştir** araması kullanılabilir. Bu arama Common Data Service'teki JobPosition varlığını okur ve iş için seçilebilecek pozisyonların bir listesini verir. Seçtiğiniz pozisyon sayısı açık pozisyon sayısını aşarsa, bir uyarı alırsınız. Pozisyon birden çok iş üzerinde kullanılırsa da uyarı alırsınız.
 
 > [!NOTE]
 > Pozisyon yönetimi, Kapsamlı işe alma eklentisinde kullanılabilir.
@@ -74,9 +74,7 @@ Attract'ta varsayılan **Şirket sektörü** kümesi bulunur. Yeni şirket sekt�
 
 ## <a name="postings"></a>Deftere nakil işlemleri
 
-Bir iş etkinleştirildikten sonra yayınlanabilir. Yalnızca iş verenler ve yöneticiler, işleri yayınlayabilir. İş, Talent Careers (bir Microsoft Dynamics 365 for Talent kariyer sitesi) veya LinkedIn'de yayınlanabilir. 
-
-Attract ekibi, iş kurulu toplayıcılarıyla ortaklık için devamlı çalışmaktadır. Zaman içinde bu listeyi genişler.
+Bir iş etkinleştirildikten sonra yayınlanabilir. Yalnızca iş verenler ve yöneticiler, işleri yayınlayabilir. İş, Talent Careers (bir Microsoft Dynamics 365 for Talent kariyer sitesi) veya LinkedIn'de yayınlanabilir. Attract ekibi, iş kurulu toplayıcılarıyla ortaklık için devamlı çalışmaktadır. Zaman içinde bu listeyi genişler. Bir iş yalnızca dahili olarak yayınlanırsa, adayların işi görüntülemeleri ve başvurmaları için bir AAD hesabına sahip olmaları gerekir. İş, herkese açık olarak listelenmişse, adaylar tüm kimlik doğrulama seçenekleriyle işleri görüntüleyebilir ve başvurabilirler. 
 
 İş yayınları hakkında daha fazla bilgi için [Attract'taki kariyer sitesi işlevi](career-site.md).
 
@@ -137,9 +135,14 @@ Bir iş kaydedildikten sonra onay için gönderilebilir. Onayları kullanan belg
 
 İş listesinde iş durumları üzerinde filtre uygulayabilirsiniz.
 
-Onaylar, şirket içindeki bir kullanıcıya doğrudan Microsoft Azure Active Directory (Azure AD) ile gönderilebilir. Onaylar, paralel şekilde onaylayanlar olarak listelenen tüm kişilere gönderilir. Bir iş onaylandıktan sonra etkinleştirilebilir.
+Onaylar, şirket içindeki bir kullanıcıya doğrudan Microsoft Azure Active Directory (Azure AD) ile gönderilebilir. Onaylar, paralel şekilde onaylayanlar olarak listelenen tüm kişilere gönderilir. Tüm onaylayıcıların ilerlemeden önce işi onaylaması gerekir. Tek bir onaylayıcı işi reddederse, iş **Reddedildi** durumu görüntüler. Bir iş onaylandıktan sonra etkinleştirilebilir.
 
-Onaylayanlar olarak listelenen kişiler, Attract'ta onaylamak için bir öğe olduğunu bildiren bir bildirim alır. Onay öğesi panodaki **Size atanan** bölümünde de görünür. Biri işi kabul edince veya onaylayınca işe alım ekibi bir bildirim alır. Son olarak, işe alım ekibi iş onaylandığında bildirim alır.
+Bir kullanıcı işi onayladıktan sonra ancak etkinleştirilmeden önce düzenlerse, iş durumu **Taslak** olarak geri çevrilir ve işin yeniden onaya gönderilmesi gerekir. Bir onaylanan iş etkinleştirildikten sonra bunu düzenleyemezsiniz.
+
+Onaylayanlar olarak listelenen kişiler, Attract ve bir epostayla onaylamak için bir öğe olduğunu bildiren bir bildirim alır.  E-posta içinde, onaylayıcılar işi açmak, ayrıntıları görüntülemek ve onaylamak veya reddetmek için bağlantıya tıklayabilirler. İşin durumu **Onaylandı** veya **Reddedildi** olarak ayarlandıktan sonra, yayınlayan Attract içinde bildirim alır ve bir e-posta da alırlar. Ayrıca, onaylayıcılar onay talebine 24 saat içinde yanıt vermedilerse bir anımsatma e-postası alırlar.
+
+> [!NOTE]
+> Onay e-postaları için özel e-posta şablonları oluşturabilirsiniz. Daha fazla bilgi için bkz. [E-posta şablonları oluşturmak ve yönetmek](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>İş oluşturma
 

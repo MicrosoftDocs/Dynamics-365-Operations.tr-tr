@@ -1,6 +1,6 @@
 ---
-title: Azaltma anahtarları
-description: Bu makalelerde bir azaltma anahtarının nasıl ayarlanacağını gösteren örnekler verilmiştir. Çeşitli azaltma anahtarı ayarları ve her birinin sonuçları hakkında da bilgiler içerir. Bir zzaltma anahtarını, tahmin gereksinimlerinin nasıl azaltılacağını tanımlamak için kullanabilirsiniz.
+title: Tahmin azaltma anahtarları
+description: Bu konuda bir azaltma anahtarının nasıl ayarlanacağını gösteren örnekler verilmiştir. Çeşitli azaltma anahtarı ayarları ve her birinin sonuçları hakkında da bilgiler içerir. Bir zzaltma anahtarını, tahmin gereksinimlerinin nasıl azaltılacağını tanımlamak için kullanabilirsiniz.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/28/2019
@@ -19,52 +19,83 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7457aca4ca4d5188bafb497d3052276cfc154ad1
-ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
+ms.openlocfilehash: b915570145a48db7a182b9fce34e1544e3600107
+ms.sourcegitcommit: a95ccf4cee8757c5fb2442a2aaeb45b1e33b6492
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "770928"
+ms.lasthandoff: 04/14/2019
+ms.locfileid: "993056"
 ---
-# <a name="reduction-keys"></a>Azaltma anahtarları
+# <a name="method-used-to-reduce-forecast-requirements"></a>Tahmin gereksinimlerini azaltmak için kullanılan yöntem
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalelerde bir azaltma anahtarının nasıl ayarlanacağını gösteren örnekler verilmiştir. Çeşitli azaltma anahtarı ayarları ve her birinin sonuçları hakkında da bilgiler içerir. Bir zzaltma anahtarını, tahmin gereksinimlerinin nasıl azaltılacağını tanımlamak için kullanabilirsiniz.
+Bu konu, tahmin gereksinimlerini azaltmak için kullanılan farklı yöntemleri hakkında bilgi sağlar. Her yöntemin sonuçlarının örneklerini içerir. Bu aynı zamanda tahmin azaltma anahtarı kullan oluşturmak ve ayarlamayı açıklar. Bazı yöntemler, bir azaltma anahtarını, tahmin gereksinimlerini azaltmak için kullanır.
 
-<a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>Örnek 1: Yüzde - Azaltma anahtarı tahmin azaltma ilkesi
----------------------------------------------------------------
+## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Tahmin gereksinimlerini azaltmak için kullanılan yöntemler
+
+Bir tahmini bir master planlama içine dahil ettiğinizde, fiili talep dahil edildiğinde tahmin taleplerinin nasıl azaltıldığını seçebilirsiniz.
+
+Bir tahmini bir master planlamaya dahil etmek ve tahmin gereksinimlerini azaltmakta kullanılan yöntemi seçmek iin **Master planlama \> Kurulum \> Planlar \> Master planlar**'a gidin. **Tahmin modeli** alanında bir tahmin modeli seçin. **Tahmin gereksinimlerini azaltmakta kullanılan yöntem** alanında bir yöntem seçin. Aşağıdaki seçenekler bulunur:
+
+- Hiçbiri
+- Yüzde - azaltma anahtarı
+- Hareketler - azaltma anahtarı
+- Hareketler - dinamik dönem
+
+Aşağıdaki bölümler her seçenek hakkında daha fazla bilgi sağlar.
+
+### <a name="none"></a>Hiçbiri
+
+**Hiçbiri**'ni seçerseniz, tahmin talepleri master planlama sırasında azaltılmaz. Bu durumda, master planlama planlanan siparişleri, tahmin edilen talebi (tahmin gereksinimleri) sağlamak için oluşturur. Bu planlı siparişler, önerilen miktarı tutar, diğer talep türlerinden bağımsız olarak. Örneğin, satış siparişleri verilirse, master planlama, satış siparişlerini desteklemek için ek planlanan siparişler oluşturur. Tahmin gereksiniminin miktarı azaltılmaz.
+
+### <a name="percent--reduction-key"></a>Yüzde - azaltma anahtarı
+
+**Yüzde - azaltma anahtarını seçerseniz**, tahmin gereksinimleri azaltma anahtarı tarafından tanımlanan yüzdelere ve dönemlere göre azaltılır. Bu durumda, master planlama, miktarın tahmin edilen miktar × azaltma anahtarı olarak her dönemde hesaplandığı planlanan siparişleri oluşturur. Başka türde talep varsa, master planlama bu talebi de karşılamak için planlanan siparişleri oluşturur.
+
+#### <a name="example-percent--reduction-key"></a>Örnek : Yüzde - azaltma anahtarı
 
 Bu örnek bir azaltma anahtarının, talep tahmini gereksinimlerini azaltma anahtarı tarafından tanımlanan yüzdelere ve dönemlere göre nasıl azalttığını gösterir.
 
-1. **Azaltma anahtarları** sayfasında aşağıdaki satırları ayarlayın.
+Bu örnek için aşağıdaki talep tahminini bir master planlamaya dahil edebilirsiniz.
 
-   | Değiştirme | Birim  | Yüzde |
-   |--------|-------|---------|
-   |   1    | Ay |   100   |
-   |   2    | Ay |   75    |
-   |   3    | Ay |   50    |
-   |   4    | Ay |   25    |
+| Ay    | Talep tahmini |
+|----------|-----------------|
+| Ocak  | 1,000           |
+| Şubat | 1,000           |
+| Mart    | 1,000           |
+| Nisan    | 1,000           |
 
+**Azaltma anahtarları** sayfasında aşağıdaki satırları ayarlayın.
 
-2. Azaltma anahtarını ürünün kapsam grubuna bağlayın.
-3. **Ana planlar** sayfasında, **Azaltma ilkesi** alanında **Yüzde - azaltma anahtarı**'nı seçin.
-4. Aylık 1.000 parçalık bir talep tahmini oluşturun.
+| Değiştirme | Birim  | Yüzde |
+|--------|-------|---------|
+| 1      | Ay | 100     |
+| 2      | Ay | 75      |
+| 3      | Ay | 50      |
+| 4      | Ay | 25      |
 
-Tahmin planını 1 Ocak'ta çalıştırırsanız, talep tahmini gereksinimleri **Azaltma anahtarları** sayfasında ayarladığınız yüzdelere göre tüketilir. Aşağıdaki gereksinim miktarları ana plana transfer edilir.
+Azaltma anahtarını ürünün kapsam grubuna atayın. Sonra, **Master planlar** sayfasında, **Tahmin gereksinimlerini azaltmak** alanında, **Yüzde - azaltma anahtarı**'nı seçin.
 
-| Ay                | Gerekli parça sayısı |
-|----------------------|---------------------------|
-| Ocak              | 0                         |
-| Şubat             | 250                       |
-| Mart                | 500                       |
-| Nisan                | 750                       |
-| Mayıs - Aralık arası | 1.000                     |
+Bu durumda, tahmin planını 1 Ocak'ta çalıştırırsanız, talep tahmini gereksinimleri **Azaltma anahtarları** sayfasında ayarladığınız yüzdelere göre tüketilir. Aşağıdaki gereksinim miktarları ana plana transfer edilir.
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Örnek 2: Hareketler azaltma anahtarı tahmini azaltma ilkesi
+| Ay                | Planlanan sipariş miktarı | Hesaplama    |
+|----------------------|------------------------|----------------|
+| Ocak              | 0                      | = %0 × 1.000   |
+| Şubat             | 250                    | = %25 × 1.000  |
+| Mart                | 500                    | = %50 × 1.000  |
+| Nisan                | 750                    | = %75 × 1.000  |
+| Mayıs - Aralık arası | 1,000                  | = %100 × 1.000 |
+
+### <a name="transactions--reduction-key"></a>Hareketler - azaltma anahtarı
+
+**Hareketler - azaltma anahtarını** seçerseniz: Tahmin gereksinimleri azaltma anahtarı tarafından tanımlanan meydana gelen hareketlere göre azaltılır.
+
+#### <a name="example-transactions--reduction-key"></a>Örnek: Hareketler - azaltma anahtarı
+
 Bu örnek, azaltma anahtarı tarafından tanımlanan dönemler boyunca gerçekleşen fiili siparişlerin talep tahmini gereksinimlerini nasıl azalttığını gösterir.
 
--   **Ana planlar** sayfasında, **Azaltma ilkesi** alanında **Hareketler - azaltma anahtarı**'nı seçin.
+Bu örnek için **Hareketler - azaltma anahtarı**'nı **Tahmin gereksinimlerini azaltma yöntemi** alanında, **Master planlamalar** sayfasında seçin.
 
 Aşağıdaki satış siparişleri 1 Ocak'tadır.
 
@@ -75,7 +106,7 @@ Aşağıdaki satış siparişleri 1 Ocak'tadır.
 | Mart    | 451                      |
 | Nisan    | 119                      |
 
-Aylık 1.000 parçalık aynı talep tahminini kullanıyorsanız, aşağıdaki gereksinim miktarları ana planlamaya aktarılır.
+Önceki örnekte kullanılan aylık 1.000 parçalık aynı talep tahminini kullanıyorsanız, aşağıdaki gereksinim miktarları ana planlamaya aktarılır.
 
 | Ay                | Gerekli parça sayısı |
 |----------------------|---------------------------|
@@ -83,58 +114,116 @@ Aylık 1.000 parçalık aynı talep tahminini kullanıyorsanız, aşağıdaki ge
 | Şubat             | 0                         |
 | Mart                | 549                       |
 | Nisan                | 881                       |
-| Mayıs - Aralık arası | 1.000                     |
+| Mayıs - Aralık arası | 1,000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Örnek 3: Hareketler dinamik dönem tahmini azaltma ilkesi
+### <a name="transactions--dynamic-period"></a>Hareketler - dinamik dönem
+
+**Hareketler - dinamik dönem**'i seçerseniz, tahmin gereksinimleri, dinamik dönemde gerçekleşen fiili sipariş hareketleri kadar azaltılır. Dinamik dönem, geçerli tahmin tarihlerini kapsar ve bir sonraki tahmin başlangıcında sona erer. Bu durumda, master planlama planlanan siparişleri, tahmin edilen talebi (tahmin gereksinimleri) sağlamak için oluşturur. Ancak, gerçek sipariş hareketleri yerleştirildiğinde, tahmin gereksinimleri azaltılır. Gerçek hareketler tahmin edilen gereksinimlerin bir kısmını tüketir.
+
+Bu seçenek kullanıldığında, aşağıdaki davranış ortaya çıkar:
+
+- Azaltma anahtarları gerekli değildir veya kullanılmaz. 
+- Tahmin tümüyle azaltıldıysa, geçerli tahminin tahmin gereksinimleri 0 (sıfır) olur.
+- Gelecekte başka bir tahmin yoksa, girilen son tahmindeki tahmin gereksinimleri azaltılır.
+- Zaman dilimleri, tahmin azaltma hesaplamasına eklenir.
+- Artı günler, tahmin azaltma hesaplamasına eklenir.
+- Fiili sipariş hareketlerinin tahmin gereksinimlerini aşması durumunda, kalan hareketler sonraki tahmin dönemine iletilmez.
+
+#### <a name="example-1-transactions--dynamic-period"></a>Örnek 1: Hareketler - dinamik dönem
+
+Burada **Hareketler - dinamik dönem** yönteminin asıl çalıştığını gösteren basit bir örnek vardır.
+
+Bu örnek için aşağıdaki talep tahminini bir master planlamaya dahil edebilirsiniz.
+
+| Tarih       | Talep tahmini |
+|------------|-----------------|
+| 1 Ocak  | 1,000           |
+| Şubat 1 | 500             |
+
+Aşağıdaki satış siparişlerini de oluşturabilirsiniz.
+
+| Tarih        | Satış siparişi miktarı |
+|-------------|----------------------|
+| 15 Ocak  | 500                  |
+| Şubat 15 | 100                  |
+
+Bu durumda, aşağıdaki planlı siparişleri oluşturulur.
+
+| Talep tahmini tarihi | Miktar | Açıklama                           |
+|--------------------- |----------|---------------------------------------|
+| 1 Ocak            | 800      | Tahmin gereksinimleri (= 1.000 – 200) |
+| 15 Ocak           | 200      | Satış siparişi gereksinimleri             |
+| Şubat 1           | 600      | Tahmin gereksinimleri (= 1.000 – 400) |
+| Şubat 15          | 400      | Satış siparişi gereksinimleri             |
+
+#### <a name="example-2-transactions--dynamic-period"></a>Örnek 2: Hareketler - dinamik dönem
+
 Çoğu durumda, hareketlerin haftalık, aylık ve benzeri tahmin dönemlerinde talep tahminini azaltabilmesi için sistemler ayarlanır. Bu dönemler azaltma anahtarında tanımlanır. Ancak, iki tahmin satırı arasındaki süre bir dönemi*gösterebilir*.
 
-1. Aşağıdaki tarihler ve miktarlar için bir talep tahmin oluşturun.
+Bu örnekte, aşağıdaki tarihler ve miktarlar için bir talep tahmin oluşturursunuz.
 
-   | Tarih       | Talep tahmini |
-   |------------|-----------------|
-   | 1 Ocak  | 1.000           |
-   | 5 Ocak  | 500             |
-   | 12 Ocak | 1.000           |
+| Tarih       | Talep tahmini |
+|------------|-----------------|
+| 1 Ocak  | 1,000           |
+| 5 Ocak  | 500             |
+| 12 Ocak | 1,000           |
 
-   Bu tahminde, tahmin tarihleri arasında açıkça bir dönem yoktur: birinci ve ikinci tarihler arasında dört günlük bir süre; ikinci ve üçüncü tarihler arasında yedi günlük bir süre vardır. Bu süre çeşitliliği dinamik periyotları oluşturur.
-2. Aşağıdaki satış siparişi satırlarını oluşturun.
+Bu tahminde, tahmin tarihleri arasında net bir dönem olmadığına dikkat edin. İlk ve ikinci tarihler arasında dört günlük bir aralık vardır ve ikinci ve üçüncü tarihler arasında yedi günlük bir aralık vardır. Bu aralıklar dinamik dönemdir.
 
-   | Tarih                             | Satış siparişi miktarı |
-   |----------------------------------|----------------------|
-   | Önceki yılın 15 Aralık tarihi | 500                  |
-   | 3 Ocak                        | 100                  |
-   | 10 Ocak                       | 200                  |
+Aşağıdaki satış siparişi satırlarını da oluşturabilirsiniz.
 
-Tahmin aşağıdaki gibi azaltılır:
+| Tarih                             | Satış siparişi miktarı |
+|----------------------------------|----------------------|
+| Önceki yılın 15 Aralık tarihi | 500                  |
+| 3 Ocak                        | 100                  |
+| 10 Ocak                       | 200                  |
 
--   İlk satış siparişi dönem içinde değildir, böylece hiçbir tahmini azaltmaz.
--   İkinci satış siparişi 1 Ocak - 5 Ocak aralığındadır, böylece 1 Ocak için tahmini 100 azaltır.
--   Üçüncü satış siparişi 5 Ocak - 12 Ocak aralığındadır, böylece 5 Ocak için tahmini 200 azaltır.
+Bu durumda, tahmin aşağıdaki şekilde azaltılır:
 
-Aşağıdaki planlı sipariş tahmini karşılamak için oluşturulur.
+- İlk satış siparişi herhangi bir dönemde olmadığı için herhangi bir tahmini azaltmaz.
+- İkinci satış siparişi 1 Ocak ve 5 Ocak arasında olduğu için 1 Ocak için olan tahmini 100 azaltır.
+- Üçüncü satış siparişi 5 Ocak ve 12 Ocak arasında olduğu için 5 Ocak için olan tahmini 200 azaltır.
 
-| Talep tahmini tarihi | Azaltılmış miktar |
-|----------------------|------------------|
-| 1 Ocak            | 900              |
-| 5 Ocak            | 300              |
-| 12 Ocak           | 1.000            |
+Bu nedenle, aşağıdaki planlı siparişleri oluşturulur.
 
-**Hareketler - dinamik dönem** azaltmasına ilişkin bir örnek şöyledir:
+| Talep tahmini tarihi             | Miktar | Açıklama                                                         |
+|----------------------------------|----------|---------------------------------------------------------------------|
+| Önceki yılın 15 Aralık tarihi | 500      | Satış sipariş gereksinimleri                                            |
+| 1 Ocak                        | 900      | Tahmin gereksinimleri dönemi 1 Ocak - 5 Ocak (= 1.000 - 100) |
+| 3 Ocak                        | 100      | Satış sipariş gereksinimleri                                            |
+| 5 Ocak                        | 300      | Tahmin gereksinimleri dönemi 5 Ocak - 10 Ocak (= 500 - 200)  |
+| 12 Ocak                       | 1,000    | Tahmin gereksinimleri dönemi Ocak 12'den sona kadar                      |
 
--   Tahmin gereksinimleri, dinamik dönem sırasında gerçekleşen fiili sipariş hareketleriyle azaltılır. Dinamik dönem, geçerli tahmin tarihlerini kapsar ve bir sonraki tahmin başlangıcında sona erer.
--   Bu yöntem bir azaltma anahtarı kullanmaz.
--   Bu seçenek kullanıldığında, aşağıdaki davranış ortaya çıkar:
-    -   Tahmin tümüyle azaltıldıysa, geçerli tahminin tahmin gereksinimleri 0 (sıfır) olur.
-    -   Gelecekte başka bir tahmin yoksa, girilen son tahmindeki tahmin gereksinimleri azaltılır.
-    -   Zaman dilimleri, tahmin azaltma hesaplamasına eklenir.
-    -   Artı günler, tahmin azaltma hesaplamasına eklenir.
-    -   Fiili sipariş hareketlerinin tahmin gereksinimlerini aşması durumunda, kalan hareketler sonraki tahmin dönemine iletilmez.
+## <a name="create-and-set-up-a-forecast-reduction-key"></a>Bir tahmin azaltma anahtarı oluşturun ve ayarlayın
 
+Bir tahmin azaltma anahtarı **Hareketler - azaltma anahtarı** ve **Yüzde - azaltma anahtarı** yöntemlerinde tahmin gereksinimlerini azaltmak için kullanılır. Bir azaltma anahtarı oluşturmak ve ayarlamak için bu adımları izleyin.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+1. **Master planlama \> Kurulum \> kapsam \> Azaltma anahtarları**'na gidin.
+2. **Yeni**'yi seçin veya bir azaltma anahtarı oluşturmak için **Ctrl+N**'ye basın.
+3. **Azaltma anahtarı** alanında, tahmin edilen azaltma anahtarı için benzersiz bir tanımlayıcı girin. Daha sonra **Adı** alanında, bir ad girin. 
+4. Her bir dönemdeki dönemleri ve azaltma anahtarı yüzdesini tanımlayın:
+
+    - **Efektif tarih** alanı, dönem başlangıçlarının oluşturulma tarihlerini belirtir. **Efektif tarihi kullan** seçeneği **Evet** olarak ayarlandığında, dönemler efektif tarihte başlar. **Hayır** olarak ayarlandığında, dönemler master planlamanın çalıştırıldığı tarihlerde başlar.
+    - Tahmin azaltmanın gerçekleşeceği dönemleri tanımlayın.
+    - Belirli bir dönem için tahmin gereksinimlerinin azaltılacağı yüzdeleri belirtin. Gereksinimlerini azaltmak için artı değerler ya da gereksinimleri artırmak için eksi değerler girebilirsiniz.
+
+## <a name="use-a-reduction-key"></a>Bir azaltma anahtarı kullanın
+
+Bir tahmin azaltma anahtarının, öğenin kapsama grubuna atanmış olması gerekir. Bir öğenin kapsama grubuna bir azaltma anahtarı atamak için şu adımları izleyin.
+
+1. **Master planlama \> Kurulum \> Kapsam \> Kapsam grupları**'na gidin.
+2. **Diğer** hızlı sekmesinde, **Azaltma anahtarı** alanında, kapsama grubunu atamak için azaltma anahtarını seçin. Azaltma anahtarı, daha sonra bu kapsama grubuna ait tüm öğelere uygulanır.
+3. Master planlama sırasında tahmin azaltmayı hesaplamak için bir azaltma anahtarını kullanmak için bu ayarı, tahmin planlama veya master planlama kurulumunda tanımlamanız gerekir. Aşağıdaki konumlarda birine gidin:
+
+    - Master planlama \> Kurulum \> Planlar \> Tahmin planları
+    - Master planlama \> Ayar \> Planlar \> Master planlar
+
+4. **Tahmin planları** veya **Master planlar** sayfasında, **Genel** hızlı sekmesinde, **Tahmin gereksinimlerini azaltmak için yöntem** alanında, **Yüzde - azaltma anahtarı** veya **Hareketler - azaltma anahtarı**'nı seçin.
+
+## <a name="reduce-a-forecast-by-transactions"></a>Bir tahmini hareketler ile azaltın
+
+**Hareketler - azaltma anahtarı**'nı veya **Hareketler - dinamik dönem**'i tahmin gereksinimlerini azaltmak için bir yöntem olarak seçerseniz, hangi hareketlerin tahmini azaltacağını seçersiniz. **Serbest bırakılan ürünler** sayfasında, **Diğer** Hızlı Sekmesinde, **Tahmini şunun üzerinden azalt** alanında, tüm hareketler tahmini azaltacaksa **Tüm tahminler**'i seçin veya yalnızca satış siparişleri tahmini azaltacaksa **Siparişler**'i seçin.
+
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Master planlar](master-plans.md)
-
-
-

@@ -1,7 +1,7 @@
 ---
 title: İnsan kaynakları
 description: İnsan kaynakları, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Ayrıca, insan kaynakları personelinin gözetim alanlarını yönetmek için de bir çerçeve sağlar. Bu alanlar personel işe alma ve saklama, kazançların yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir.
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c8b743e667413dfc263fe640b4c6c7350e887142
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341776"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859817"
 ---
 # <a name="human-resources"></a>İnsan kaynakları
 
@@ -64,7 +64,7 @@ Personeli işe aldıktan sonra ücret ile birlikte kuruluşunuzun çalışanlar�
 
 ## <a name="develop-and-train-employees"></a>Personeli geliştirme ve eğitme
 
-Personelinizin kariyer hedeflerine yardımcı olmak için, işle ilgili önemli gereksinimlerini sağlarken hedefler ayarlayabilir, performans incelemeleri oluşturabilir ve geri bildirimleri izleyebilirsiniz. Personelinizin gerekli yetenekleri geliştirmesine yardımcı olmak için kursa bir eğitmen atamadan veya kursa birini kaydetmeden önce eğitmenler, kurs tipleri, kurslar, kurs açıklamaları, gündemler, dersler ve oturumlar ayarlayabilirsiniz. Eğitmenlerin zaten birer çalışan, başvuran veya ilgili kişi olarak bulunması gerekir.
+Personelinizin kariyer hedeflerine yardımcı olmak için, işle ilgili önemli gereksinimlerini sağlarken hedefler ayarlayabilir, performans incelemeleri oluşturabilir ve geri bildirimleri izleyebilirsiniz. Personelinizin gerekli yetenekleri geliştirmesine yardımcı olmak için kursa bir eğitmen atamadan veya kursa birini kaydetmeden önce eğitmenler, kurs türleri, kurslar, kurs açıklamaları, gündemler, dersler ve oturumlar ayarlayabilirsiniz. Eğitmenlerin zaten birer çalışan, başvuran veya ilgili kişi olarak bulunması gerekir.
 
 - [Performans yönetimi](../../talent/performance-management-overview.md)
 - [İş gücü becerilerini ve iş ihtiyaçlarını ayarlama](../../talent/skills.md)

@@ -3,7 +3,7 @@ title: Mali raporları görüntüleme
 description: Bu konuda, Microsoft Dynamics 365 for Finance and Operations'de finansal raporların nasıl görüntüleneceği ve keşfedileceği açıklanmaktadır. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
 author: kweekley
 manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
-ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
+ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
+ms.sourcegitcommit: 1e8dfa62989dbd7601bafdc933558f6bea1638ae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791453"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894600"
 ---
 # <a name="view-financial-reports"></a>Mali raporları görüntüleme
 
@@ -46,12 +46,11 @@ Mali raporlar birden çok ayrıntı düzeyi içerebilir. Mali düzey bir mali ra
 Veriler bütçe verileri ise, bütçe hesabı girişlerini açmayı seçebilirsiniz. Raporun herhangi bir düzeyini kapatmak ve başladığınız yere dönmek için, Esc tuşuna basabilir veya sağ üst köşedeki **Kapat** düğmesini (**X**) tıklayabilirsiniz.
 
 ## <a name="change-report-options"></a>Rapor seçeneklerini değiştirme
-Bir **Fiili - bütçe** raporunda rapor tarihini değiştirebilir, öznitelik ve boyut filtreleri uygulayabilir veya bütçe senaryosunu değiştirebilirsiniz. Eylem Panosunda **Rapor seçenekleri** düğmesini tıklayın ve ardından bu adımlardan birini veya daha fazlasını takip edin:
+Bir **Fiili - bütçe**, öznitelik ve boyut filtreleri uygulayabilir veya bütçe senaryosunu değiştirebilirsiniz. Eylem Panosunda **Rapor seçenekleri** düğmesini tıklayın ve ardından bu adımlardan birini veya daha fazlasını takip edin:
 
--   Bir raporun taban dönemini ve taban yılını değiştirmek için bir taban dönemi ve bir taban yılı seçin ve ardından **Tamam** düğmesini tıklayın.
 -   Bir rapora özellik filtreleri uygulamak için **Bir öznitelik filtresi ekle** öğesini seçin. Özniteliği seçin, öznitelik değerini girin ve ardından **Tamam** düğmesini tıklayın. Örneğin, **Hesap Kategorisi** özniteliğini seçerseniz, öznitelik değeri olarak **SATIŞ** girin. Bir öznitelik filtresini kaldırmak için **Temizle** düğmesini tıklayın.
 -   Bir rapora boyut filtreleri uygulamak için **Boyut filtresi ekle** öğesini seçin. Boyutu seçin ve boyut kodunu yazın veya listeden boyutu seçin. Bir boyut filtresini kaldırmak için **Temizle** düğmesini tıklayın.
--   Bir **Fiili - bütçe** raporundaki senaryoyu değiştirmek için yeni bir senaryo seçin ve ardından **Tamam** düğmesini tıklayın. Seçilen senaryo farklı bir yıl için ise, taban yılı güncelleştirdiğinizden emin olun. Örneğin, geçerli senaryo, MY2015'e aitse ve MY2016 için olan yeni bir senaryo seçerseniz, taban yılını **2016** olarak değiştirmeniz gerekir.
+-   Bir **Fiili - bütçe** raporundaki senaryoyu değiştirmek için yeni bir senaryo seçin ve ardından **Tamam** düğmesini tıklayın. Seçilen senaryo farklı bir mali yıldaysa, herhangi bir sonuç döndürülmez. Örneğin, bir rapor FY2015 için oluşturulursa ve geçerli senaryo FY2015 içinse ve yeni senaryo FY2016 için seçilirse, hiçbir sonuç döndürülmez. Farklı bir mali yıl için yeni bir senaryo gerekliyse, senaryoyla ilişkili mali yıl için raporun yeni bir sürümünü oluşturun.
 
 **Tamam** düğmesini tıkladığınızda, seçtiğiniz tüm seçenekler rapora uygulanır. Seçilen seçenekleri uygulamak istemediğinize karar verirseniz **İptal** düğmesini tıklayın.
 

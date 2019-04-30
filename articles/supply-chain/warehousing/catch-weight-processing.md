@@ -3,7 +3,7 @@ title: Ambar yönetimi ile Fiili ağırlık ürün işlemi
 description: Bu konuda ambar içinde işin nasıl ve nerede gerçekleştirileceğini belirlemek için iş şablonları ve konum yönergelerinin nasıl kullanılacağı açıklanmaktadır.
 author: perlynne
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
+ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777284"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "946445"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile Fiili ağırlık ürün işlemi
 
@@ -97,7 +97,9 @@ Bir fiili ağırlık etiket izleme kullanılırsa, bir etiketin her zaman alına
 
 Fiili ağırlık etiketi kullanılmadığında, ağırlık her bir birim kümesi için yakalanabilir (örn. her bir plaka ve izleme boyutu için). Alternatif olarak, ağırlık birleştirilmiş düzeye dayanarak toplanabilir, örneğin beş plaka gibi (palet).
 
-Çıkış ağılığı yakalamak için yöntemler için tartımın her bir fiili ağırlık birimi için mi yapılacağını (yani kutu başın) yoksa ağırlığın çekilecek miktara dayanarak mı yapılacağını (örn. üç kutu) tanımlayabilirsiniz. Üretim hattı çekme işlemi için ortalama ağırlığın **Yakalanmadı** seçeneği kullanılırsa kullanılacağını unutmayın.
+Çıkış ağılığı yakalamak için yöntemler için tartımın her bir fiili ağırlık birimi için mi yapılacağını (yani kutu başın) yoksa ağırlığın çekilecek miktara dayanarak mı yapılacağını (örn. üç kutu) tanımlayabilirsiniz. Üretim hattı çekme ve dahili hareket işlemleri için ortalama ağırlığın **Yakalanmadı** seçeneği kullanılırsa kullanılacağını unutmayın.
+
+Fiili ağırlık kar/zarar ayarlamalarıyla sonuçlanan ağırlık yakalamadan ambar yönetimi çekme işlemlerini kısıtlamak için, Giden ağırlık farkı yöntemi kullanılabilir.
 
 ## <a name="supported-scenarios"></a>Desteklenen senaryolar
 
@@ -121,14 +123,12 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
  
 ### <a name="order-processing"></a>Sipariş işleme
 
-- Şirketlerarası sipariş işlemleri desteklenmiyor.
 - Ön sevkiyat bildirimi (ASN/sevk yapıları), ağırlık bilgisini desteklemiyor.
 - Sipariş miktarı fiili ağırlık birimine dayanarak korunmalıdır.
  
 ### <a name="inbound-warehouse-processing"></a>Giriş ambar işleme
 
 - Plakaları almak, ağırlıkların kayıt sırasında atanmasını gerektirir çünkü ağırlık bilgisi ön sevkiyat bildiriminin parası olarak desteklenmez. Fiili ağırlık etiket işlemleri kullanıldığında, fiili ağırlık birimi başına etiket numarası ile atanması gerekir.
-- Karışık plakaları almak fiili ağırlık ürünleri için desteklenmez.
  
 ### <a name="inventory-and-warehouse-operations"></a>Stok ve ambar operasyonları
 
@@ -169,7 +169,6 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
  
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile fiili ağırlık ürün işleme için diğer kısıtlamalar ve davranışlar
 
-- Fiili ağırlık etiketleri bir ambar uygulaması işlemenin parçası olarak yakalandığında, kullanıcı iş akışını iptal edemez.
 - Kullanıcının izleme boyutlarını belirlemesi istenmediği malzeme çekme işlemleri sırasında, ağırlık ataması ortalama ağırlığa dayalı olarak yapılır. Bu davranış, örneğin bir izleme boyutu kombinasyonu aynı konumda kullanıldığında ve bir kullanıcı çekmeyi işledikten sonra konumda yalnızca bir izleme boyutu değeri kalırsa ortaya çıkar.
 - Stok bir ambar yönetimi işleminde yapılandırılmış bir fiili ağırlık ürünü için rezerve edilirse, rezervasyon tanımlanan minimum ağırlığa dayanarak gerçekleştirilir, bu miktar eldeki son işlem miktarı olsa bile. Bu davranış, ambar yönetimi işlemleri için yapılandırılmamış ögelerin davranışından farklıdır.
 - Ağırlığı kapasite hesaplamalarının parçası olarak kullanan işlemlerde (dalga eşikleri, iş maksimum molalar, konteyner maksimumları, konum yük kapasiteleri ve benzeri), stokun gerçek ağırlığını kullanmayın. Bunun yerine, işlemler ürün için tanımlanmış fiziksel işleme ağırlığına dayanır.
@@ -193,3 +192,5 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
 - Konteynerler yeniden açıldığında.
 - Formül ürünleri ambar uygulaması kullanarak tamamlandı olarak raporlanırsa.
 - Taşıma yükleri ambar uygulaması kullanılarak işlendiğinde.
+
+Bir fiili ağırlık etiketi, bir ambar uygulaması işlemi kullanılarak veya form içinde el ile oluşturularak veya bir veri varlığı işlemi kullanılarak oluşturulabilir. Bir fiili ağırlık etiketi, bir gelen kaynak belgesi satırıyla ilişkilendirilirse, örneğin bir satınalma siparişi satırı gibi, etiket kaydedilir. Satır, giden işlem için kullanılıyorsa. Etiket, güncelleştirilir ve sevk edilir.

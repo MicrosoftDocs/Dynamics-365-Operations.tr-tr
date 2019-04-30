@@ -3,7 +3,7 @@ title: Kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 03/12/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836360"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992895"
 ---
 # <a name="removed-or-deprecated-features"></a>Kaldırılan veya kullanımına son verilen özellikler
 
@@ -41,45 +41,114 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 > [!NOTE]
 > Finance and Operations içindeki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) altından ulaşabilirsiniz. Finance and Operations'ın her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
+
+## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2, Platform güncelleştirmesi 26 ile
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.2 Platform Güncelleştirmesi 26 ile, bir önizleme sürümünün parçası olarak çeşitli kullanıcılara sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-default-action-behavior"></a>Eski varsayılan eylem davranışı
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Kılavuzlar içindeki varsayılan eylemler için eski davranış, beklenmeyen bir sütunun kılavuz sütunları kişiselleştirmeyle yeniden düzenlenmesinden sonra varsayılan eylem bağlantısına sahip olmasına neden olur. Yeni yapışkan varsayılan eylem özelliği bunu düzeltir. Daha fazla bilgi için [kılavuzları Yapışkan varsayılan eylemi](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Başka bir özellikle mi değiştirildi?**   | Platform güncelleştirmesi 21 itibariyle "yapışkan varsayılan eylemler" için bir özellik kullanıma sunulmuştur. Bu özellik, **İstemci performans seçenekleri** sayfasında etkinleştirilebilir. |
+| **Etkilenen ürün alanları**         | Web istemcisindeki kılavuzlar |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanımdan kalktı: Nisan 2020'den itibaren, yapışkan varsayılan eylemler varsayılan davranış olacaktır, eski davranışa dönme mekanizması sunulmayacaktır. |
+
+### <a name="legacy-is-one-of-filtering-experience"></a>Eski, "biri" filtreleme deneyimini en iyi duruma getirir
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | "Bunlardan biri" filtreleme deneyimi, Platform güncelleştirmesi 22'de yeniden tasarlandı ve bunun tek "bunlardan biri" filtreleme deneyimi olması planlandı. |
+| **Başka bir özellikle mi değiştirildi?**   | Platform güncelleştirmesi 22 ile başlayarak, geliştirilmiş bir "bunlardan biri" filtreleme deneyimi **İstemci performans seçenekleri** sayfasında kullanılabilir hale gelmiştir. Daha fazla bilgi için bkz. [En iyi duruma getirilen filtreleme deneyiminden biri](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Etkilenen ürün alanları**         | Web istemcisi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanımdan kalktı: Nisan 2020'den itibaren, iyileştirilmiş "bunlardan biri" deneyimi varsayılan davranış olacaktır, eski davranışa dönme mekanizması sunulmayacaktır. |
+
+### <a name="deriving-from-internal-classes-is-deprecated"></a>Dahili sınıftan türetme kalkmıştır
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Platform güncelleştirmesi 25'ten önce, bu tablo bir iç sınıf/başka bir paket/modülünde tanımlanmış tablosu türetilen bir sınıf veya oluşturulabilir. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile, derleyici bir uyarı görüntüler. |
+| **Başka bir özellikle mi değiştirildi?**   | Derleyici uyarısı, Platform güncelleştirmesi 26'da değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya üzerini kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler.|
+| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı: Uyarı, Platform güncelleştirmesi 26'da derleme hatası olarak değiştirilecektir. |
+
+### <a name="overriding-internal-methods-is-deprecated"></a>Dahili yöntemleri geçersiz kılma kalkmıştır
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Platform güncelleştirmesi 25'ten öncesinde, başka bir paket/modülde tanımlanan türetilen bir sınıftaki dahili bir yöntemi geçersiz kılmak mümkündü. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile, derleyici bir uyarı görüntüler. |
+| **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, Platform güncelleştirmesi 26'da bir derleme hatasıyla değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya üzerini kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler. |
+| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı: Uyarı, Platform güncelleştirmesi 26'da derleme hatası olarak değiştirilecektir. |
+
+### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Satış siparişlerini birden fazla proje sözleşme finansman kaynağı ile etkinleştirme parametreleri
+Proje tabanlı satış siparişlerini, proje sözleşmesi birden fazla finansman kaynağına sahip olduğunda, **Proje yönetimi parametreleri** ayarında, **Birden fazla finansman kaynağı projeler için satış siparişlerine izin ver** ile etkindir. Varsayılan olarak, bu parametre etkin değil. 
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev, parametre kaldırıldıktan sonra her zaman etkin olacaktır. |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır. Proje tabanlı satış siparişlerini birden fazla finansman kaynağı ile destekleme işlevi her zaman etkin olacaktır.   |
+| **Etkilenen ürün alanları**         |**Birden fazla finansman kaynağı olan projeler için satış siparişlerine izin ver** parametresi kaldırılacaktır. Aşağıdaki yöntemler, parametre kaldırıldığında değiştirilir: **ctrlSalesOrderTable** yöntemi, **ProjStatusType** sınıfında, **doğrula** yöntemi **ProjId** alanında ve **çalıştır** yöntemi **SalescreateOrder** formunda. Aşağıdaki yöntemler parametre kaldırıldığında kullanımdan kaldırılır: **IsSalesOrderAllowedForMultipleFundingSources**, **ProjTable** tablo dosyası içinde; **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** yöntemi, **ProjTable** tablo dosyası içinde; **AllowSalesOrdersForMultipleFundingSources** veri alanı, **ProjParameters** formunda ve **ProjParameterEntity** dosyaları, **IsAssociatedToMultipleFundingSourcesContract** özel yöntemi, **ProjTable** tablo dosyasında. |
+| **Dağıtım seçeneği**              | Tümü  |
+| **Durum**                         | Kullanımdan kaldırma Nisan 2020 sürüm dalgası için planlanmıştır. |
+
+### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>İzleme ve kurulum durumu için eski iş akışı raporları
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | İzleme ve kurulum durumu için eski iş akışı raporları, gezintiden daha fazla referans gösterilmedikleri için kullanımdan kaldırılmıştır. Rapor adları WorkflowWorkflowInstanceByStatusReport ve WorkflowWorkflowTrackingReport'tur. |
+| **Başka bir özellikle mi değiştirildi?**   | İş akışı geçmişi formu bunun yerine kullanılabilir. |
+| **Etkilenen ürün alanları**         | Web istemcisi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı: İşlevin kaldırılması hedeflenen zaman aralığı Nisan 2020'dir. |
+
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1, platform güncelleştirmesi 25 ile
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 Platform Güncelleştirmesi 25 ile, bir önizleme sürümünün parçası olarak çeşitli kullanıcılara sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Standart ve İlk sürüm servis güncelleştirmeleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+> Dynamics 365 for Finance and Operations 10.0.1 Platform Güncelleştirmesi 25 ile, bir önizleme sürümünün parçası olarak çeşitli kullanıcılara sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Kaldırılan API'ler ve potansiyel bozucu değişiklikler
+
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>Dahili sınıftan türetme kalkmıştır
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Platform öncesi sürümlerde 25 güncelleştirme, bu tablo bir iç sınıf/başka bir paket/modülünde tanımlanmış tablosu türetilen bir sınıf veya oluşturulabilir. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile başlayarak, derleyici bunu yapmaya çalışırsanız bir uyarı mesajı görüntüler.|
-| **Başka bir özellikle mi değiştirildi?**   | Derleyici uyarısı, gelecekteki bir platform güncelleştirmesinde değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya daha sonrasını kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler. |
-| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Platform güncelleştirmesi 25'ten önce, bu tablo bir iç sınıf/başka bir paket/modülünde tanımlanmış tablosu türetilen bir sınıf veya oluşturulabilir. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile, derleyici bir uyarı görüntüler. |
+| **Başka bir özellikle mi değiştirildi?**   | Derleyici uyarısı, Platform güncelleştirmesi 26'da değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya üzerini kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler.|
+| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kaldırıldı - Uyarı, gelecekteki bir platform güncelleştirmesinde derleme hatası olarak değiştirilecektir. |
+| **Durum**                         | Kaldırıldı: Uyarı, Platform güncelleştirmesi 26'da derleme hatası olarak değiştirilecektir. |
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>Dahili yöntemleri geçersiz kılma kalkmıştır
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Platform güncelleştirmesi 25'ten önceki sürümlerde, başka bir paket/modülde tanımlanan türetilen bir sınıftaki dahili bir yöntemi geçersiz kılmak mümkündü. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile başlayarak, derleyici bunu yapmaya çalışırsanız bir uyarı mesajı görüntüler.|
-| **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, gelecek platform güncelleştirmesinde bir derleme hatası ile değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya daha sonrasını kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler. |
-| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Platform güncelleştirmesi 25'ten öncesinde, başka bir paket/modülde tanımlanan türetilen bir sınıftaki dahili bir yöntemi geçersiz kılmak mümkündü. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile, derleyici bir uyarı görüntüler. |
+| **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, Platform güncelleştirmesi 26'da bir derleme hatasıyla değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya üzerini kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler. |
+| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kaldırıldı - Uyarı, gelecekteki bir platform güncelleştirmesinde derleme hatası olarak değiştirilecektir. |
+| **Durum**                         | Kaldırıldı: Uyarı, Platform güncelleştirmesi 26'da derleme hatası olarak değiştirilecektir. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3, platform güncelleştirmesi 23 ile
 
-### <a name="print-to-screen-functionality"></a>Ekrana yazdırma özelliği
-Müşteriler Rapor Görüntüleyici denetimi tarafından sağlanan **İçe aktarma** eylemini, Finance and Operations uygulamaları tarafından üretilen belgeleri indirme için kullanabilirler. Raporun HTML tabanlı sunumu, belgenin sayfalandırılmamış önizlemesini kullanıcılara sunar.
+### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server Reporting Services ReportViewer Denetimi
+Müşteriler katıştırılmış SQL Server Reporting Services (SSRS) ReportViewer denetimi tarafından sağlanan **Dışa aktarma** eylemini, Finance and Operations uygulamaları tarafından üretilen belgeleri indirme için kullanabilirler. Raporun HTML tabanlı sunumu, belgenin sayfalandırılmamış önizlemesini kullanıcılara sunar.
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | HTML tabanlı önizleme deneyiminin sayfalandırılmamış doğası, Finance and Operations tarafından nihai olarak üretilen fiziksel belgelerin doğruluğunu **sunmaz**. PDF'i iş operasyonları için standart biçim olarak benimseyerek, uygulama raporları ile kullanıcı etkileşimini önemli ölçüde basitleştirdik ve belge işleme sürecini hızlandırdık. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | HTML tabanlı önizleme deneyiminin sayfalandırılmamış doğası, Finance and Operations tarafından nihai olarak üretilen fiziksel belgelerin doğruluğunu **sunmaz**. PDF'i iş belgeleri için standart format olarak tümüyle benimseyerek, kullanıcılar, uygulama raporları oluştururken geliştirilmiş performansa sahip modern görüntüleme denetiminden faydalanabilmektedir. |
 | **Başka bir özellikle mi değiştirildi?**   | Gelecekte, PDF belgeleri Finance and Operations tarafından oluşturulan raporlar için varsayılan biçim olacaktır.   |
 | **Etkilenen ürün alanları**         | Bu değişiklik, raporların elektronik olarak dağıtıldığı veya doğrudan yazıcılara gönderildiği müşteri senaryolarını **etkilemez**.    |
 | **Dağıtım seçeneği**              | Tümü  |
-| **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi. Uygulama raporlarını otomatik olarak tarayıcıya PDF belgesi olarak indirme özelliği, Mayıs 2019 Platform güncelleştirmesi için planlanmıştır. <br><br>**Önemli:**  Ekrana yazdır özelliğine dayanan mevcut müşterilerin, Platform güncelleştirmesi 26'ya geçmeden önce [Destek](../lifecycle-services/lcs-support.md) ile iletişime geçmeleri önerilir. |
+| **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi. Katıştırılmış PDF görüntüleyici kullanarak uygulama raporlarını otomatik olarak önizleme özelliği, Mayıs 2019 platform güncelleştirmesi için planlanmaktadır. |
 
 ### <a name="client-kpi-controls"></a>İstemci KPI denetimleri
 Katıştırılmış kilit performans göstergeleri (KPI'ları), bir geliştirici tarafından Visual Studio içinde modellenebilir ve son kullanıcı tarafından daha da özelleştirilebilir.
@@ -102,7 +171,7 @@ Katıştırılmış kilit performans göstergeleri (KPI'ları), bir geliştirici
 | **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, gelecekte bir derleme hatası ile değiştirilecektir.  |
 | **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları. |
 | **Dağıtım seçeneği**              | Tümü. |
-| **Durum**                         | Kullanımdan kalktı - Uyarı, gelecekte bir derleme zamanı hatası olacaktır. Şu anda Platform güncelleştirmesi 30'u hedefliyoruz. |
+| **Durum**                         | Kullanımdan kalktı: Uyarı, gelecekte bir derleme zamanı hatası olacaktır. Şu anda Platform güncelleştirmesi 30'u hedefliyoruz. |
 
 #### <a name="complete-list"></a>Tam liste
 Kullanımdan kalkan API'lerin tam listesine erişmek için bkz. [Yöntemler ve meta veri öğelerinin kaldırılması](deprecation-deletion-apis.md).
@@ -110,7 +179,7 @@ Kullanımdan kalkan API'lerin tam listesine erişmek için bkz. [Yöntemler ve m
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1, platform güncelleştirmesi 20 ile
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Muavin defteri günlüğü hesap girişleri için toplu transfer kuralları
-Zaman uyumlu aktarım modunu genel muhasebe parametrelerinde kaldırılıyor.  Bu mod, halihazırda transfer için seçenek olarak mevcut olan Asenkron ve zamanlanan toplu iş ile değiştiriliyor. 
+Zaman uyumlu aktarım modunu genel muhasebe parametrelerinde kaldırılıyor.  Bu mod, halihazırda transfer için seçenek olarak mevcut olan Asenkron ve zamanlanan toplu iş ile değiştiriliyor. Ek bilgi için bkz [Genel muhasebe parametreleri – transfer toplu işi kuralları](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules) Web günlüğü.
 
 |   |  |
 |------------|--------------------|
@@ -172,7 +241,7 @@ Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakıl
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, platform güncelleştirmesi 12 ile
 
 ### <a name="personalized-product-recommendations"></a>Kişiselleştirilmiş ürün önerileri 
-15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Kişiselleştirilmiş ürün önerileri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Kişiselleştirilmiş ürün önerileri](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -277,7 +346,7 @@ Kullanıcılar bu formu resmi devlet portalından indirebilir.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Kişiselleştirilmiş ürün önerileri 
-15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Kişiselleştirilmiş ürün önerileri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Kişiselleştirilmiş ürün önerileri](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -309,7 +378,7 @@ Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için ama�
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tekrar eden işlevsellik.       |
-| **Başka bir özellik ile değiştirildi?**   | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşullar hakkında daha fazla bilgi için bkz. [Yükleme ve yapılandırma Microsoft Dynamics 365 for Finance and Operations - Ambarlama](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Başka bir özellik ile değiştirildi?**   | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşullar hakkında daha fazla bilgi için bkz. [Yükleme ve yapılandırma Microsoft Dynamics 365 for Finance and Operations - Ambarlama](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Etkilenen ürün alanları**         | Ambar yönetimi, Taşıma yönetimi     |
 | **Dağıtım seçeneği**              | Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için amaçlanmış bir tek bileşendir.               |
 | **Durum**                         | Kaldırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 2019 yılı 4. çeyreğidir.   |
@@ -687,6 +756,17 @@ Uygulama Tümleştirme Çerçevesi (AIF) içerisinde veriler, hizmetler olarak g
 | **Başka bir özellik ile değiştirildi?**   | Bu özelliğin yerini tekrar eden toplu içe aktarma/dışa aktarma işlemlerini destekleyen, Veri İçe Aktarma/Dışa Aktarma çerçevesi almıştır. AxBC için gerçek tabloları kullanmanızı öneririz. |
 | **Etkilenen ürün alanları**         | AxDs, AxBCs ve AIF   |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.   |
+
+### <a name="billing-code-rate-scripts"></a>Fatura kodu oran kodları
+
+Faturalama kodları, faturalama kodları için faturalama oranlarını hesaplamakta kullanılır. Bu kodlar, C Sharp veya Visual Basic programlama dillerinde özel geliştirme gerektirmekte. Dynamics AX'in güncel sürümünde, **faturalama kodu oran komut dosyaları** desteklenmemektedir.
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Özel C Sharp veya Visual Basic komut satırları için destek, Dynamics AX 7.0'a eklenmemişti. |
+| **Başka bir özellikle mi değiştirildi?**   | Hayır                                                                                      |
+| **Etkilenen ürün alanları**         | Kamu sektörü, Alacak hesapları                                    |
+| **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.                                                          |
 
 ### <a name="boms-without-bom-versions"></a>Ürün reçetesi sürümleri olmayan ürün reçeteleri
 
@@ -1068,7 +1148,7 @@ Stok ve Ambar günlükleri, günlüğün seçili kullanıcı için özel olarak 
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ürün Oluşturucu X ++ kodunu son kullanıcılara yansıtıyordu ve Dynamics AX'ın geçerli sürümünde desteklenmiyor. Büyük ve kesişen kod tabanlarında sürdürme çabalarının ikiye katlanmaması için kaldırıldı.  |
-| **Başka bir özellik ile değiştirildi?**   | Evet. Kısıtlama tabanlı yapılandırma Dynamics AX 2012'de sunuldu ve Ürün oluşturucunun gelecekteki sürümlerde kullanımdan kaldırılacağı zaten açıklandı. Kısıtlama tabanlı yapılandırma teknolojisi yapılandırmayı etkinleştirmek ana ürünlerde seçilir. Daha fazla bilgi için bkz. [Ürün yapılandırma modeli oluşturma](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
+| **Başka bir özellik ile değiştirildi?**   | Evet. Kısıtlama tabanlı yapılandırma Dynamics AX 2012'de sunuldu ve Ürün oluşturucunun gelecekteki sürümlerde kullanımdan kaldırılacağı zaten açıklandı. Kısıtlama tabanlı yapılandırma teknolojisi yapılandırmayı etkinleştirmek ana ürünlerde seçilir. Daha fazla bilgi için bkz. [Ürün yapılandırma modeli oluşturma](../../supply-chain/pim/build-product-configuration-model.md). |
 | **Etkilenen ürün alanları**         | Ürün bilgileri yönetimi, satış ve pazarlama  |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.      |
 

@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b622276000c56a5af1bb258dbc3c6c4a56af4d20
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "783038"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949909"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (27 Şubat 2019)
 
@@ -87,7 +87,7 @@ Kuruluşa katılan personelin gelecekte bir işe başlama tarihine sahip olması
 
 ## <a name="known-issues"></a>Bilinen sorunlar
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-for-apps-to-finance-and-operations"></a>Core HR tümleştirme şablonunda değişiklikler (Talent Common Data Service for Apps'ten Finance and Operations'a)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Core HR tümleştirme şablonunda değişiklikler (Talent Common Data Service'tan Finance and Operations'a)
 Core HR için şablon, "gelişmiş sorgu şablonuna" güncelleştirilmiştir. Bu nedenle, varsayılan olarak, gelişmiş sorgu bu şablonu kullanarak oluşturulan projeler için kullanılabilir olacaktır. Ek olarak, tüm varsayılan eşleştirme işlevleri yalnızca gelişmiş sorgu düzenleyicide görünür olacaktır. (Varsayılan eşleşme işlevi, eşleştirmelerde "FN" olarak görüntülenir.)
 
 Eşleştirme hataları hakkında daha fazla bilgi için bkz. [Dynamics 365 for Talent Core HR (14 Aralık 2018) içerisinde neler değişti](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
@@ -100,19 +100,19 @@ Varolan bir şablonu güncelleştirmek için şu adımları izleyin.
 
     - **Pozisyonlar için İş Pozisyonları:** Bu eşleştirmeyi kaldır.
     - **Ana İş Ataması Pozisyonlar için İş Pozisyonları:** Bu eşleştirmeyi kaldır.
-    - **Temel Pozisyona İş Pozisyonları:** **İş Pozisyonları** Common Data Service for Apps varlığından **Taban Pozisyon** Finance and Operations varlığına yeni bir eşleşme eklemek. Serideki 7. pozisyona taşıyın.
+    - **Temel Pozisyona İş Pozisyonları:** **İş Pozisyonları** Common Data Service varlığından **Taban Pozisyon** Finance and Operations varlığına yeni bir eşleşme eklemek. Serideki 7. pozisyona taşıyın.
 
         [![İş Pozisyonlarından Temel Pozisyona eşleme](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Pozisyon Ayrıntılarına İş Pozisyonları:** **İş Pozisyonları** Common Data Service for Apps varlığından **Pozisyon Ayrıntıları** Finance and Operations varlığına yeni bir eşleşme eklemek. Serideki 8. pozisyona taşıyın.
+    - **Pozisyon Ayrıntılarına İş Pozisyonları:** **İş Pozisyonları** Common Data Service varlığından **Pozisyon Ayrıntıları** Finance and Operations varlığına yeni bir eşleşme eklemek. Serideki 8. pozisyona taşıyın.
 
         [![İş Pozisyonlarından Pozisyon Ayrıntıları eşleme](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Pozisyon Süreleri İş Pozisyonları:** **İş Pozisyonları** Common Data Service for Apps varlığından **Pozisyon Süreleri** Finance and Operations varlığına yeni bir eşleşme eklemek.
+    - **Pozisyon Süreleri İş Pozisyonları:** **İş Pozisyonları** Common Data Service varlığından **Pozisyon Süreleri** Finance and Operations varlığına yeni bir eşleşme eklemek.
 
         [![İş Pozisyonlarından Pozisyon Süreleri eşleme](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Pozisyon Hiyerarşileri İş Pozisyonları:** **İş Pozisyonları** Common Data Service for Apps varlığından **Pozisyon Hiyerarşileri** Finance and Operations varlığına yeni bir eşleşme eklemek. **Gelişmiş Sorgu**'yu seçerek gelişmiş sorguları projenizde kullanılabilir yapın.
+    - **Pozisyon Hiyerarşileri İş Pozisyonları:** **İş Pozisyonları** Common Data Service varlığından **Pozisyon Hiyerarşileri** Finance and Operations varlığına yeni bir eşleşme eklemek. **Gelişmiş Sorgu**'yu seçerek gelişmiş sorguları projenizde kullanılabilir yapın.
 
        [![Gelişmiş Sorgu düğmesi](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 

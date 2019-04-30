@@ -1,7 +1,7 @@
 ---
 title: Çalışılan saatlere göre süre tahakkuk
 description: Bu konu, bırakma planlarının çalışılan saatlere dayanarak süre tahakkuk edilmesini yapılandırmayı anlatır.
-author: Jcart1106
+author: andreabichsel
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f6489b84c71f2ac5a492b2d19cf087a05de8a599
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 8589527f75f48c16244c93c3fdbe3ce7fcd4e366
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306543"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856911"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>Çalışılan saatlere göre süre tahakkuk
 

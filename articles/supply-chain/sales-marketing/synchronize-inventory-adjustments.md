@@ -3,7 +3,7 @@ title: Stok hareketlerini ve ayarlamaları Field Service'tan Finance and Operati
 description: Bu konu stok düzeltmelerini ve aktarmalarını Microsoft Dynamics 365 for Finance and Operations üzerinden Microsoft Dynamics 365 for Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: aa54945cea5821da163e1f6ea1747ac29b31a3ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75181661c41d238cdc06ffbb6969a2efd7d88d46
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308380"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842427"
 ---
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>Stok ayarlamalarını Field Service'tan Finance and Operations'a eşitlemek
 
@@ -38,8 +38,8 @@ Bu konu stok düzeltmelerini ve aktarmalarını Microsoft Dynamics 365 for Finan
 Aşağıdaki şablon ve altındaki görevler, stok düzeltmelerini ve aktarmalarını Microsoft Dynamics 365 for Field Service üzerinden Microsoft Dynamics 365 for Finance and Operations üzerine eşitlemekte kullanılır.
 
 **Veri Tümleştirmesindeki Şablonlar**
-- Stok Ayarlama (Field Service'ten Finance and Operations'a)
-- Stok Aktarma (Field Service'ten Finance and Operations'a)
+- Stok Ayarlama (Field Service'ten Fin and Ops'a)
+- Stok Aktarmaları (Field Service'ten Fin and Ops'a)
 
 **Veri tümleştirme projelerindeki görevler**
 - Stok Düzeltmeleri
@@ -71,11 +71,11 @@ Tümleştirme tarafından oluşturulan tümleştirme stok günlükleri, bir topl
 
 Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
 
-### <a name="inventory-adjustment-field-service-to-finance-and-operations-inventory-adjustment"></a>Stok ayarlama (Field Service'tan Finance and Operations'a): Stok ayarlama
+### <a name="inventory-adjustment-field-service-to-fin-and-ops-inventory-adjustment"></a>Stok ayarlama (Field Service'tan Fin and Ops'a): Stok ayarlama
 
 [![Veri tümleştirmede şablon eşleme](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-finance-and-operations-inventory-transfer"></a>Stok aktarma (Field Service'tan Finance and Operations'a): Stok aktarma
+### <a name="inventory-transfer-field-service-to-fin-and-ops-inventory-transfer"></a>Stok aktarma (Field Service'tan Fin and Ops'a): Stok aktarma
 
 [![Veri tümleştirmede şablon eşleme](./media/FSTrans1.png)](./media/FSTrans1.png)

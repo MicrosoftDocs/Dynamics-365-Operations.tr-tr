@@ -1,29 +1,29 @@
 ---
 title: Beceri havuzlarını kullanarak aday kaynağı bulma
 description: Bu konu Attract'ta beceri havuzları oluşturma ve ayarlamayı açıklar.
-author: ''
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/22/2018
+ms.date: 04/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306571"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949356"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Beceri havuzlarını kullanarak aday kaynağı bulma
 
@@ -44,7 +44,7 @@ Bir beceri havuzu oluşturma ve paylaşma için aşağıdaki adımları izleyin.
 
     **Benim beceri havuzlarım** sekmesi, erişiminiz olan beceri havuzlarını her biriyle ilgili ayrıntılı bilgilerle gösterir. Ayrıntılara havuzun sahibi ve adayların sayısı sahibi de dahildir.
 
-1. Sağ üstte **+ Yeni**'yi seçip **beceri havuzu oluşturma** iletişim kutusunu açın.
+1. Sayfanın sağ üstünde **+ Yeni**'yi seçip **beceri havuzu oluşturma** iletişim kutusunu açın.
 1. Beceri havuzu için benzersiz bir ad girin.
 1. Havuza katkıda bulunan kişiler eklemek için, Kişi Seçici'yi kullanarak adlarını bulun ve sonra bunları listeye ekleyin. Beceri havuzunu işveren, işe alma yöneticisi veya Attract yönetici rolüne sahip olan kullanıcılarla paylaşabilirsiniz.
 1. **Ekle**'yi seçip beceri havuzu oluşturun.
@@ -78,26 +78,35 @@ Beceri havuzu sahibi ve katkıda bulunanları beceri havuzuna adaylar ekler, ada
 
 ## <a name="search-and-view-candidate-profiles"></a>Aday profilleri arama ve görüntüleme
 
-Bir beceri havuzunun kullanıcıları adayın profilini, LinkedIn bilgilerini, ilgili belgeleri veya adayın tüm başvuru geçmişini görüntüleyebilir. Ayrıca kuruluşunuzdaki her iş şimdiye kadar başvurmuş ya da beceri havuzuna eklenmiş olan tüm aday veritabanınızı arayabilirsiniz.
+> [!NOTE] 
+> Bu özellik şu anda önizlemededir. Denemek isterseniz, [Attract yönetici ayarlarında açmanız gerekir](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
 
-1. Tüm aday veritabanınızı aramak için **Beceri havuzlarım** sekmesinin üst kısmındaki arama alanını kullanın.
-1. Çeşitli profil öznitelikleri arasında arayın. Arama özniteliği kategorisini seçin, bir arama sorgusu oluşturabilirsiniz ve sonra sağ ok düğmesini seçin (**-\>**), aramayı başlatın.
+Yetenek havuzu, bir adayın profilini, LinkedIn bilgisini, ilgili belgeleri ve başvuru geçmişini görüntülemenize olanak sağlar. Herhangi bir yetenek havuzuna eklenmiş tüm adayların tüm veritabanını arayabilirsiniz, kapalı ve aktif başvuranlar dahil olmak üzere.
 
-    Bu bilgileri profillerinde varsa adayları adları, çalıştığı kuruluş, etiketlendiği yetenekler, eğitim geçmişleri, geçerli iş unvanı veya kaznadığı dereceyle arayabilirsiniz.
+>[!NOTE]
+> Yeni adaylar veya başvuranlar eklediğinizde, yeni eklentilerin arama için endekslenmesi 15 dakika kadar sürebilir.
 
-    Ölçüt olarak iki veya daha fazla bu özniteliklerden kullanan bir arama sorgusu oluşturabilirsiniz. Ölçütleri bir **ve** işleci kullanarak birleştirin.
+Geliştirilmiş arama deneyimi ile, tüm aday belgeleri arasında arama yapabilir ve gümüş madalyalılar, kaynaklar, yetenekler, eğitim ve daha fazlası arasında filtreleyebilirsiniz. Önceki sürümlerde, aramak istediğiniz belirli varlığı belirtmeniz gerekmekteydi. Attract artık tüm adayla ilgili alanları arayabilir ve sonuçları sıralayabilir.
 
-    Arama sorgunuzla eşleşen aday varsa, bunlar arama sonuçları listesinde listelenir.
+1. Yeni bir aramayı aday veritabanından başlatmak için, **Yetenek havuzları** sekmesinde aramak istediğiniz metni arama kutusuna girin. 
 
-1. Sonuçları daraltmak için arama sorgusunu üst kısmındaki arama alanını kullanarak güncelleştirebilirsiniz.
+Adayın adını veya aradığınız herhangi başka bir özniteliği girebilirsiniz. Öznitelikleri ayırmak için boşluk kullanın.
 
-    Alternatif olarak, sağdaki akıllı filtreler listesini kullanın. Bu akıllı filtreler arama sonuçlarını temel alarak dinamik olarak çekilir.
+Sonuçları, arama sorgunuzu değiştirerek veya sayfanın sol tarafındaki akıllı filtreleri kullanarak daraltabilirsiniz.
 
-    Arama sonuçları, adaylar listesinde en çok bulunan ilk 20 yetenek, okul, kuruluş vb. gösterir. Arama sonuçlarını daha da daraltmak için bu özelliklerden herhangi birine daha fazla filtre ekleyebilirsiniz.
+Arama sonuçları, arama sorgunuzla eşleşen çeşitli öznitelikler için vurgulananları gösterir. Profilini görüntülemekle ilgilendiğiniz herhangi bir adayı seçin.
 
-1. Tanımladığınız bir adaydan sonra profilini görüntülemek için aday satırını seçin.
+### <a name="syntax-highlights"></a>Sözdizimi vurguları 
 
-Tüm kullanıcılarda, aday profillerinin aynı görünümü vardır. Adayın profilini görüntülemek için bir grup arama sonuçları veya beceri havuzunda aday satırını seçin. **Profil** sekmesi adayın kariyer portalından güncellendiği yetenekler, iş deneyimi ve eğitimiyle ilgili her bilgiyi gösterir.
+| İşleç | Kullanım                                                      | Örnek              |
+|----------|------------------------------------------------------------|----------------------|
+| \*       | Alt dizeler için arar, tüm kayıtları getirmek için kullanılabilir | Giriş: Mi\* <br></br> Sonuç: "Mi" ile başlayan alanlara sahip tüm kayıtlar, örneğin Microsoft, Micro systems, Midtown Enterprises veya Middleton <br></br>Giriş: \* <br></br> Sonuç: Veri tabanındaki tüm kayıtlar |
+| “”       | Tam bir eşleşme arar                                | Girişi: "Microsoft" <br></br> Sonuç: "Microsoft" içeren tüm kayıtları                    |
+
+>[!WARNING]
+> Common Data Service kurulumunuzun için ilgi aramayı kapatmayın. Bu Attract içinde arama deneyimini devre dışı bırakır.
+
+Tüm kullanıcılarda, aday profillerinin aynı görünümü vardır. **Profil** sekmesi adayın kariyer portalı kullanan uygulamaların parçası olarak sağlanan yetenekler, iş deneyimi ve eğitimiyle ilgili her bilgiyi gösterir.
 
 - Adayın iletişim ayrıntılarını görebilirsiniz. Ayrıca gereksinim duyduğunuz kadar **Ayrıntıları Düzenle** düğmesini kullanarak bilgileri düzenleyebilri ve güncelleyebilirsiniz.
 
@@ -109,7 +118,7 @@ Tüm kullanıcılarda, aday profillerinin aynı görünümü vardır. Adayın pr
 
     Bir belgeyi görüntülemek için belgeler listesinde belge adını seçin. Microsoft Word belgelerini uygulama içinde Microsoft Office 365 kullanarak görüntüleyebilirsiniz. Yerel bilgisayarınıza belgeleri yükleyebilirsiniz; her belge için **İndir** seçeneğini kullanın.
 
-- **LinkedIn** sekmesi adayın LinkedIn bilgileri gösterir. Bu sekmeyi kullanmak için kullanıcı ayarlarından LinkedIn hesabınıza bağlanın ve kendi ortamınızda LinkedIn İşveren bağlantısını kurun. Daha fazla bilgi için bkz [LinkedIn İşverenke kaynak bulma](./attract-linked-in-recruiter.md).
+- **LinkedIn** sekmesi adayın LinkedIn bilgileri gösterir. Bu sekmeyi kullanmak için kullanıcı ayarlarından LinkedIn hesabınıza bağlanın ve kendi ortamınızda LinkedIn Recruiter bağlantısını kurun. Daha fazla bilgi için bkz [LinkedIn Recruiter'te kaynak bulma](./attract-linked-in-recruiter.md).
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Beceri havuzundan bir işe aday ekleyin
 
@@ -117,7 +126,7 @@ Arama sonuçları veya beceri havuzundan işe alım yaptığınız aktif iş iç
 
 1. Arama seçeneğini kullanarak aday bulun ve profilini açın. Alternatif olarak, **Beceri havuzlarım** sekmesinden beceri havuzunu açın, beceri havuzunda adayı arayın ve profilini açın.
 
-1. Adayın profil sayfasında, sağ üstteki **+ İşe ekle**yi seçin. 
+1. Adayın profil sayfasında, sağ üstteki **İşe ekle**yi seçin. 
      
      Bir işveren veya işe alma müdürü olarak ait olduğunuz işe alım ekibinin işler listesi gösterilir.
 

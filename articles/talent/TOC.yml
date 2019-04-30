@@ -8,6 +8,14 @@ items:
     - name: Talent'taki yenilikler veya değişiklikler
       href: whats-new.md
       items:
+      - name: 2 Nisan 2019
+        href: whats-new-talent-april-2-2019.md
+      - name: 26 Mart 2019
+        href: whats-new-talent-march-26-2019.md
+      - name: 20 Mart 2019
+        href: whats-new-talent-march-20.md
+      - name: 14 Mart 2019
+        href: whats-new-talent-march-14.md
       - name: 5 Mart 2019
         href: whats-new-talent-march-5.md
       - name: 27 Şubat 2019
@@ -20,38 +28,42 @@ items:
         href: whats-new-talent-january-29.md
       - name: 23 Ocak 2019
         href: whats-new-talent-january-23.md
-      - name: 17 Ocak 2019
-        href: whats-new-talent-january-17.md
-      - name: 11 Ocak 2019
-        href: whats-new-talent-january-11.md
-      - name: 14 Aralık 2018
-        href: whats-new-talent-december-14.md
-      - name: 6 Aralık 2018
-        href: whats-new-talent-december-6.md
-      - name: 27 Kasım 2018
-        href: whats-new-talent-november-27.md
-      - name: 15 Kasım 2018
-        href: whats-new-talent-november-15.md
-      - name: 31 Ekim 2018
-        href: whats-new-talent-october-31.md
-      - name: 19 Ekim 2018
-        href: whats-new-talent-october-19.md
-      - name: 15 Ekim 2018
-        href: whats-new-talent-october-11.md
-      - name: 8 Ekim 2018
-        href: whats-new-talent-october-8.md
-      - name: 1 Ekim 2018
-        href: whats-new-talent-october-01.md
-      - name: 24 Eylül 2018
-        href: whats-new-talent-september-24.md
-      - name: 17 Eylül 2018
-        href: whats-new-talent-september-17-2018.md
-      - name: 10 Eylül 2018
-        href: whats-new-talent-september-10.md
-      - name: Ağustos 2018
-        href: whats-new-talent-august2018.md
-      - name: Temmuz 2018
-        href: whats-new-talent-july2018.md
+      - name: Yenilikler arşivleri 2019
+        items:
+        - name: 17 Ocak 2019
+          href: whats-new-talent-january-17.md
+        - name: 11 Ocak 2019
+          href: whats-new-talent-january-11.md
+      - name: Yenilikler arşivleri 2018
+        items:
+        - name: 14 Aralık 2018
+          href: whats-new-talent-december-14.md
+        - name: 6 Aralık 2018
+          href: whats-new-talent-december-6.md
+        - name: 27 Kasım 2018
+          href: whats-new-talent-november-27.md
+        - name: 15 Kasım 2018
+          href: whats-new-talent-november-15.md
+        - name: 31 Ekim 2018
+          href: whats-new-talent-october-31.md
+        - name: 19 Ekim 2018
+          href: whats-new-talent-october-19.md
+        - name: 15 Ekim 2018
+          href: whats-new-talent-october-11.md
+        - name: 8 Ekim 2018
+          href: whats-new-talent-october-8.md
+        - name: 1 Ekim 2018
+          href: whats-new-talent-october-01.md
+        - name: 24 Eylül 2018
+          href: whats-new-talent-september-24.md
+        - name: 17 Eylül 2018
+          href: whats-new-talent-september-17-2018.md
+        - name: 10 Eylül 2018
+          href: whats-new-talent-september-10.md
+        - name: Ağustos 2018
+          href: whats-new-talent-august2018.md
+        - name: Temmuz 2018
+          href: whats-new-talent-july2018.md
     - name: Sistem gereksinimleri ve güncelleştirme ilkesi
       href: talent-versions-update-policy.md
     - name: Talent sağlama
@@ -62,7 +74,7 @@ items:
       href: modular-app-tech-faq.md
     - name: PowerApps uygulamalarını katıştırma
       href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Uygulamalar için Core HR ve Common Data Service
+    - name: Core HR ve Common Data Service
       href: CoreHREntities.md
     - name: Önizleme özelliklerine erişme
       href: access-preview-feature.md
@@ -102,13 +114,15 @@ items:
       href: Process-templates-Attract.md
     - name: Attract'ta işleri oluşturma, onaylama ve yayınlama
       href: Creating-jobs-Attract.md
+    - name: Attract'tan harici sitelere iş yayınlama
+      href: posting-jobs-external.md
     - name: Yetenek Havuzlarıyla kaynak bulma
       href: attract-talent-pools.md
     - name: LinkedIn Recruiter ile kaynak bulma
       href: attract-linked-in-recruiter.md
     - name: Attract'taki İşe Alma Süreci faaliyetleri
       href: activities-attract.md
-    - name: Mülakat planlama ve geri bildirim
+    - name: Görüşme planlama ve geribildirim
       href: interview-scheduling-feedback.md
     - name: Genişletilebilirlik
       href: extensibility-attract.md
@@ -128,9 +142,11 @@ items:
       href: Intelligent-Recommendations.md
     - name: Etkileyici bir işe alım süreci deneyimi oluşturma
       href: create-onboarding-experience.md
-    - name: Kapsamlı Attract işe alma eklenti özellikleri
+    - name: Aday profilleri ve başvurular için kaynakları izleme
+      href: source-tracking.md
+    - name: Kapsamlı Attract işe alma eklentisi özellikleri
       href: attract-comprehensive-hiring.md
-  - name: Çalışanları motive etme
+  - name: Personeli motive etme
     items:
     - name: Ücret planları
       href: compensation-plans.md
@@ -203,6 +219,14 @@ items:
       href: talent-fo-integration.md
     - name: Azure Logic Apps kullanarak yinelenen verileri dışa aktarma
       href: tutorial-integration-recurring-export.md
+  - name: Genişletilebilirlik
+    items:
+    - name: PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek senaryolar
+      href: extensibility-examples.md
+    - name: Attract'ta genişletilebilirlik
+      href: extensibility-attract.md
+    - name: Core HR'deki özel alanlar
+      href: corehr-custom-fields.md
   - name: Office tümleştirmesi
     items:
     - name: Office tümleştirmesi eğitimi
@@ -322,7 +346,7 @@ items:
       href: save-play-task-guides-LCS.md
     - name: Güvenlik rolüne göre özel adreslere erişim
       href: security-roles-addresses.md
-    - name: Talent, Microsoft Dynamics 365 uygulamaları (CDS1.0) arasında görünmüyor
+    - name: Talent Microsoft Dynamics 365 uygulamaları (Common Data Service 1.0) arasında görünmüyor
       href: talent-not-in-home-CDS.md
     - name: Kullanıcı Core HR'a erişebiliyor ancak Onboard veya Attract uygulamasına erişemiyor
       href: user-access-core-hr.md
@@ -332,9 +356,9 @@ items:
       href: talent-FO-integration.md
     - name: Azure Active Directory kullanıcıları Kişi Seçici'de bulunamadı
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: 0454094f05b3e571a38b8361fa9573c929647551
+ms.sourcegitcommit: 594fd4c7b937695396a7154a906563f43293926a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782764"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "969459"

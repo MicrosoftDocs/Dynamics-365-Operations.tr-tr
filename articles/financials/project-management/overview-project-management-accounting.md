@@ -3,7 +3,7 @@ title: Proje yönetimi ve muhasebe
 description: Proje yönetimi ve muhasebe işlevi, birden çok sektörde hizmet almak, ürün üretmek veya bir sonuç elde etmek için kullanılabilir.
 author: KimANelson
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 82a2da882ba951c2ff6420b726e0546e9073d2e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "311347"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969412"
 ---
 # <a name="project-management-and-accounting"></a>Proje yönetimi ve muhasebe
 

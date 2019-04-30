@@ -1,7 +1,7 @@
 ---
 title: Ödeme teklifi kullanarak satıcı ödemeleri oluşturma
 description: Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekliflerinin nasıl çalıştığına dair bazı örnekler içerir.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 332a18eb98811505b38c023c97c22b86a9367af1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 54c3d2b6ecae1481fd9b979e5d4ced217a67f5aa
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327424"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896868"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Ödeme teklifi kullanarak satıcı ödemeleri oluşturma
 

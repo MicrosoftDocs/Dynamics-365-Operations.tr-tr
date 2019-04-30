@@ -1,7 +1,7 @@
 ---
 title: Etkileyici bir onboarding deneyimi oluşturmak
 description: Onboarding doğru yapıldığında, yeni çalışanlarda yeni kuruluşlarına ait oldukları hissini oluşturur.
-author: tbisaacs
+author: andreabichsel
 manager: ''
 ms.date: 11/14/2017
 ms.topic: article
@@ -10,18 +10,18 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
-ms.author: tbisaacs
+ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 0dbc3247e1a5a8134184c8fe98fa8692fbf27c94
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 805f74a0cf618254b7d5fb9a1195dc75832dc0ca
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306547"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859840"
 ---
 # <a name="create-an-engaging-onboarding-experience"></a>Etkileyici bir onboarding deneyimi oluşturmak
 

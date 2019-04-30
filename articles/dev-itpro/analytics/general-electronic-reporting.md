@@ -3,14 +3,14 @@ title: Elektronik raporlama (ER)
 description: Bu konu, Elektronik raporlama (ER) aracına genel bakış sağlar. Temel kavramlar, ER'nin desteklediği senaryolar ve çözümün bir parçası olarak tasarlanan ve yayınlanan biçimlerin listesini içermektedir.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bc544211891c19104b2b3cb704b55a074784d608
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310818"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902972"
 ---
 # <a name="electronic-reporting-er"></a>Elektronik raporlama (ER)
 
@@ -163,21 +163,33 @@ Yeni bir ER sağlayıcısını kaydetmeyi öğrenmek için **ER Bir yapılandır
 
 #### <a name="repository"></a>Depo
 
-ER havuzu ER konfigürasyonlarını depolar. Şu anda desteklenen ER depolarının dört türü şudur: **Operasyon kaynakları**, **LCS projesi (LCS)**, **Dosya sistemi** ve **Düzenleyici Yapılandırma Servisleri (RCS)**.
+ER havuzu ER konfigürasyonlarını depolar. Aşağıdaki ER havuzu türleri şu anda desteklenir: 
 
-**Operations kaynakları** havuzu Microsoft'un bir ER konfigürasyonu sağlayıcısı olarak Finance and Operations çözümünün parçası olarak yayımladığı konfigürasyonlar listesine erişim sağlar. Bu konfigürasyonlar geçerli Finance and Operations kurulumuna aktarılabilir ve elektronik raporlama için kullanılabilir. Bunlar ek yerelleştirmeler ve özelleştirmeler için de kullanılabilir.
+- LCS paylaşımlı kitaplık
+- LCS projesi
+- Dosya sistemi
+- Düzenleyici Yapılandırma Hizmeti (RCS)
+- İşlem kaynakları
+
+
+Bir **LCS paylaşımlı kitaplık** deposu Lifecycle Services (LCS) içindeki Paylaşılan varlık kitaplığındaki yapılandırmaların listesine erişim sağlar. Bu türde bir ER deposu, yalnızca Microsoft sağlayıcısı için kaydedilebilir. LCS Paylaşılan varlık kitaplığından ER yapılandırmalarının en güncel sürümlerini mevcut Finance and Operations kurulumuna içe aktarabilirsiniz.
 
 **LCS projesi** havuzu, havuz kayıt aşamasında seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli Finance and Operations kurulumundan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Konfigürasyonları bir **LCS projesi** deposundan geçerli Finance and Operations kurulumuna da aktarabilirsiniz.
 
-Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede xml dosyaları olarak yerel dosya sisteminin belirli bir klasöründe bulunan yapılandırmalar listesine erişim sağlar. Gerekli klasör, havuz kayıt aşamasında seçilir. Konfigürasyonları bir **Dosya sistemi** deposundan geçerli Finance and Operations kurulumuna da aktarabilirsiniz. Bu havuz türünün aşağıdaki Dynamics 365 for Finance and Operations ortamlarında erişilebilir olduğunu unutmayın:
-- geliştirme amaçlarıyla dağıtılmış bulutta barındırılan ortamlar (iliştirilmiş paketlerin test modellerini içeren)
-- dağıtılan yerel ortamlar (şirket içi veya yerel işletme veri dağıtımı (LBD))
+Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede xml dosyaları olarak yerel dosya sisteminin belirli bir klasöründe bulunan yapılandırmalar listesine erişim sağlar. Gerekli klasör, havuz kayıt aşamasında seçilir. Konfigürasyonları bir **Dosya sistemi** deposundan geçerli Finance and Operations kurulumuna da aktarabilirsiniz. 
 
-Bu konuda daha fazla ayrıntı için [Elektronik raporlama (ER) yapılandırmaları içe aktarma](./electronic-reporting-import-ger-configurations.md) konumunu ziyaret edin.
+Bu havuz türünün aşağıdaki Dynamics 365 for Finance and Operations ortamlarında erişilebilir olduğunu unutmayın:
 
-**RCS örneği** havuzu, havuz kayıt aşamasında seçilen belirli bir RCS örneği konfigürasyonlar listesine erişim sağlar. ER, tamamlanmış veya paylaşılan yapılandırmaları seçilen RCS örneğinden geçerli Finance and Operations örneklerini içe aktarmanıza olanak sağlar ve elektronik raporlama için kullanılır.
+- Geliştirme amaçlarıyla dağıtılmış bulutta barındırılan ortamlar (iliştirilmiş paketlerin test modellerini içeren)
+- Yerel depolanan ortamlar (şirket içi)
 
-Bu konuda daha fazla ayrıntı için [Düzenleyici Yapılandırma Hizmetleri (RCS) Elektronik raporlama (ER) yapılandırmaları içe aktarma](./rcs-download-configurations.md) konumunu ziyaret edin.
+Daha fazla bilgi için bkz: [Elektronik raporlama (ER) yapılandırmalarını içe aktarma](./electronic-reporting-import-ger-configurations.md).
+
+**RCS örneği** havuzu, havuz kayıt aşamasında seçilen belirli bir RCS örneği konfigürasyonlar listesine erişim sağlar. ER, tamamlanmış veya paylaşılan yapılandırmaları seçilen RCS örneğinden geçerli Finance and Operations örneklerini içe aktarmanıza ve böylece elektronik raporlama için kullanmanızı sağlar.
+
+Daha fazla bilgi için bkz. [Düzenleyici Yapılandırma Hizmeti'nden (RCS) Elektronik raporlama (ER) yapılandırmalarını içe aktarma](./rcs-download-configurations.md).
+
+**Operations kaynakları** havuzu Microsoft'un bir ER konfigürasyonu sağlayıcısı olarak ilk başta Finance and Operations çözümünün parçası olarak yayımladığı konfigürasyonlar listesine erişim sağlar. Bu yapılandırmalar geçerli Finance and Operations kurulumuna aktarılabilir ve elektronik raporlama veya basit görev kılavuzları için kullanılabilir. Bunlar ek yerelleştirmeler ve özelleştirmeler için de kullanılabilir. Microsoft ER yapılandırmaları tarafından sağlanan en güncel sürümlerin LCS Paylaşımlı varlık kitaplığından, karşılık gelen ER deposu kullanılarak içe aktarılması gerekir.
 
 Gerekli **LCS projesi**, **Dosya sistemi** ve **Düzenleyici Yapılandırma Servisleri (RCS)** depoları her bir geçerli Finance and Operations kurulumunun konfigürasyon sağlayıcısı için ayrı ayrı kaydedilebilir. Her depo belirli bir konfigürasyon sağlayıcısına ayrılabilir.
 
@@ -377,6 +389,5 @@ ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son s
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Yerelleştirme gereksinimleri: Elektronik raporlama konfigürasyon oluştur](electronic-reporting-configuration.md)
-
-[Elektronik raporlama yapılandırma yaşam döngüsünü yönetin](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Yerelleştirme gereksinimleri: Elektronik raporlama konfigürasyon oluştur](electronic-reporting-configuration.md)
+- [Elektronik raporlama yapılandırma yaşam döngüsünü yönetin](general-electronic-reporting-manage-configuration-lifecycle.md)
