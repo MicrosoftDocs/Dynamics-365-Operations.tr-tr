@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="1c3f5-101">Bu özellik şu anda yalnızca davet üzerine kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="1c3f5-101">This feature is currently available by invitation only.</span></span> <span data-ttu-id="1c3f5-102">Kuruluşunuzu katılmak üzere aday göstermek için lütfen [bu anketi](https://aka.ms/ax2012upgrade) doldurun.</span><span class="sxs-lookup"><span data-stu-id="1c3f5-102">To nominate your organization to participate, please complete [this survey](https://aka.ms/ax2012upgrade).</span></span> 
