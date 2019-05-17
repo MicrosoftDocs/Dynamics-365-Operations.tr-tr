@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 437c9ba7142dadcb49c9255b119586598511453d
-ms.sourcegitcommit: cbc5a4f0d752d4f147fe269e4d7a2460f772c95b
+ms.openlocfilehash: d57d3bdc5354823888d695ed6bf734584bff95d1
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "307952"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513277"
 ---
 # <a name="financial-management-home-page"></a>Mali yönetim giriş sayfası
 
@@ -44,7 +44,7 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
         - [Gider yönetimi](expense-management/expense-management.md)
         - [Mali raporlama](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Sabit kıymetler](fixed-assets/fixed-assets.md)
-        - [Defteri kebir](general-ledger/general-ledger.md) 
+        - [Genel muhasebe](general-ledger/general-ledger.md) 
         - [Proje yönetimi](project-management/overview-project-management-accounting.md)
         - [Kamu sektörü](public-sector/public-sector-functionality.md) 
     :::column-end:::

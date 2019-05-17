@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
-ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
+ms.openlocfilehash: 0251321f02d533326e1e8b642e30002a633b6871
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "380028"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512685"
 ---
 # <a name="distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM)
 

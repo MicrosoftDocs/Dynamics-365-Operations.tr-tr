@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
-ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
+ms.openlocfilehash: 5a0a6a060a1b4a4d5a80c797f61b212a828d2f04
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "379936"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517191"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Bir iade emrinde bir değişiklik yapılandırma ve işleme
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail'ın önceki sürümlerinde, müşteri siparişlerine göre iadeler Retail Headquarters'daki iade emri belgesi kullanılarak işlenmiştir. Ancak, iade emri belgesi yalnızca iade edilen ürünleri işlemek için kullanılabilir. İade edilen ürünler, iade emri satırlarında bir eksi miktarla belirtilir. Bunun aksine, satışlar ise artı bir miktarla gösterilir. Ancak, iade emri belgesi artı miktarları desteklemez. Bu kısıtlama nedeniyle, Retail'ın önceki sürümleri ürün değişikliklerinin iade emri belgesi kullanılarak yapıldığı senaryoları desteklememiştir.
+Microsoft Dynamics 365 for Retail'in önceki sürümlerinde, müşteri siparişlerine göre iadeler Retail Headquarters'daki iade emri belgesi kullanılarak işlenmiştir. Ancak, iade emri belgesi yalnızca iade edilen ürünleri işlemek için kullanılabilir. İade edilen ürünler, iade emri satırlarında bir eksi miktarla belirtilir. Bunun aksine, satışlar ise artı bir miktarla gösterilir. Ancak, iade emri belgesi artı miktarları desteklemez. Bu kısıtlama nedeniyle, Retail'ın önceki sürümleri ürün değişikliklerinin iade emri belgesi kullanılarak yapıldığı senaryoları desteklememiştir.
 
 Ancak, değişikliklerin iade emirlerinde yapıldığı senaryoları desteklemek için işlevler eklenmiştir. Retail artık bu tür hareketleri işlemek için iade emri belgesi yerine satış siparişi belgesini kullanmaktadır.
 
