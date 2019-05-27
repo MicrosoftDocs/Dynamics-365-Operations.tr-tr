@@ -16,11 +16,11 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b2d97a59ae782af0a3d5ab71903961ef244a8e62
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363327"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570728"
 ---
 # <a name="process-rebates-for-payment"></a>Ödeme için indirimleri işleme
 

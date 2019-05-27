@@ -16,11 +16,11 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: ee1a2d26c281086ac6dbe2e1693efc85a0c5b84b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327263"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548150"
 ---
 # <a name="analytical-workspaces"></a>Analitik çalışma alanları
 [!include[banner](../includes/banner.md)]

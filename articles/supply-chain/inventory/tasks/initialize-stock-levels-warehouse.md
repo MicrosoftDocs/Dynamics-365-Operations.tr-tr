@@ -18,11 +18,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4bfa40c19e34631edb68b8cff42e7f72eb9ce2ad
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "332300"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563026"
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>Ambardaki stok düzeylerini başlatma
 

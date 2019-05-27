@@ -19,11 +19,11 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "311646"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568178"
 ---
 # <a name="budget-planning"></a>Bütçe planlama
 
@@ -40,7 +40,7 @@ Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 fo
 <a name="prerequisites"></a>Ön koşullar 
 ------------------
 
-Bu eğitim için Contoso demo verileri ile birlikte Finance and Operations erişebiliyor ve örneğine bir yönetici olarak atanmış olmanız gerekir. Bu laboratuvar için Gizli tarayıcı modunu kullanmayın - gerekirse tarayıcıdaki diğer hesaplarda oturumunuzu kapatın ve Finance and Operations yönetici kimlik bilgilerinizle oturum açın. Finance and Operations içerisine oturum açarken "Oturumumu açık bırak" onay kutusunu **MUTLAKA** işaretlemeniz gerekir. Böylece Excel Uygulamasının şu anda gerektirdiği kalıcı bir tanımlama bilgisi üretmiş olursunuz. Finance and Operations'a Internet Explorer dışında bir tarayıcı kullanarak oturum açarsanız Excel Uygulamasında oturum açmanız istenir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda bir Internet Explorer açılır penceresi görüntülenir ve oturum açarken **MUTLAKA** "Oturumumu açık bırak" onay kutusunu işaretlemeniz gerekir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda hiçbir şey görüntülenmiyorsa IE tanımlama bilgisi önbelleğini temizlemeniz gerekir.
+Bu eğitim için Contoso demo verileri ile birlikte Finance and Operations erişebiliyor ve örneğine bir yönetici olarak atanmış olmanız gerekir. Bu laboratuvar için Gizli tarayıcı modunu kullanmayın - gerekirse tarayıcıdaki diğer hesaplarda oturumunuzu kapatın ve Finance and Operations yönetici kimlik bilgilerinizle oturum açın. Finance and Operations içerisine oturum açarken "Oturumumu açık bırak" onay kutusunu **MUTLAKA** işaretlemeniz gerekir. Böylece Excel Uygulamasının şu anda gerektirdiği kalıcı bir tanımlama bilgisi üretmiş olursunuz. Finance and Operations'a IE dışında bir tarayıcı kullanarak oturum açarsanız Excel Uygulamasında oturum açmanız istenir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda bir IE açılır penceresi görüntülenir ve oturum açarken **MUTLAKA** "Oturumumu açık bırak" onay kutusunu işaretlemeniz gerekir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda hiçbir şey görüntülenmiyorsa IE tanımlama bilgisi önbelleğini temizlemeniz gerekir.
 
 ## <a name="scenario-overview"></a>**Senaryoya genel bakış**
 Julia, Almanya'daki Contoso Entertainment Systems (DEMF) firmasında finans yöneticisi olarak çalışıyor. MY2016 yaklaşırken Julia'nın gelecek yıl için şirketin bütçesini oluşturmak için çalışmaya başlaması gerekiyor. Bütçe hazırlığı şu şekildedir:
@@ -155,7 +155,7 @@ Bütçe plan sütunları, bütçe plan belgesi düzeninde kullanılabilen Parasa
 ### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Görev 5: Bütçe planı belge düzenleri ve şablonları oluşturma
 Düzen; kullanıcı, bütçe planı belgesini açtığında bütçe planı belge satırları ızgarasının nasıl görüneceğini tanımlar. Aynı verileri farklı açılardan görmek için bütçe planı belge düzenine geçiş yapılması da mümkündür. Şimdi, bütçe planı belgesiyle kullanılmak üzere tanımlanan sütunlara sahip olan Julia'nın şimdi de bütçe verilerini oluşturmak için kullandığı Excel tablosuna oldukça benzer bir görünüme sahip olacak bir bütçe plan belgesi düzeni oluşturması gerekiyor (bu laboratuvardaki Senaryoya genel bakış bölümüne bakın) 
 
-5.1. Bütçeleme&gt; Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandırma altından Düzenler sayfasını açın. Aylık bütçe girişi için yeni bir düzen oluşturun:
+5.1. Bütçeleme&gt;Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandırma altından Düzenler sayfasını açın. Aylık bütçe girişi için yeni bir düzen oluşturun:
 
 -   Ana hesapları ve Ticari birimleri düzeye eklemek için MA+BU boyut setini seçin.
 -   Önceki adımda Öğeler bölümünde oluşturulan tüm bütçe planı sütunlarını listeleyin. Önceki yılık fiili tutarları dışındaki tüm sütunları düzenlenebilir hale getirin.

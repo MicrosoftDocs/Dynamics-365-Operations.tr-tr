@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "316131"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559198"
 ---
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Microsoft Dynamics 365 for Finance and Operations &#8211; Ambarlama yükleme ve yapılandırma
 
@@ -94,7 +94,7 @@ Azure AD uygulaması aracılığıyla Finance and Operations sunucusuna erişebi
     + **Azure Active directory istemci kodu** - İstemci kodu, "Active Directory'de bir web hizmeti uygulaması oluştur" içindeki 9. adımdan edinilir. 
     + **Azure Active directory istemci sırrı** - İstemci sırrı, "Active Directory'de bir web hizmeti uygulaması oluştur" içindeki 11. adımdan edinilir. 
     + **Azure Active directory kaynağı** - Azure AD dizini kaynağı, Finance and Operations kök URL'sini gösterir. **Not**: Bu alanı bir eğik çizgi (/) ile bitirmeyin. 
-    + **Azure Active Directory kiracısı** - Finance and Operations sunucusu ile kullanılan Azure AD dizini kiracısı: `https://login.windows.net/your-AD-tenant-ID`. Örnek olarak: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
+    + **Azure Active directory kiracısı** - Finance and Operations sunucusu ile kullanılan Azure AD dizini kiracısı: `https://login.windows.net/your-AD-tenant-ID`. Örnek olarak: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Not**: Bu alanı bir eğik çizgi (/) ile bitirmeyin. 
     + **Şirket** - Uygulamanın bağlanmasını istediğiniz tüzel varlığı, Finance and Operations içerisinde girin. <br>[![wh-12-uygulama-bağlantı-ayarları](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Uygulamanın sol üst köşesindeki **Geri** düğmesini seçin. Uygulama şimdi, Finance and Operations sunucunuza bağlanır ve ambar çalışanı için oturum açma ekranı görüntülenir. <br>[![wh-13-oturum-açma-ekranı](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)

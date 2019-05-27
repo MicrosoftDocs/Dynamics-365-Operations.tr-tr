@@ -1,9 +1,9 @@
 ---
 title: Gider yönetimi
-description: Gider yönetimi içinde ödeme yöntemi bilgilerini saklayabileceğiniz, kredi kartı hareketlerini içe aktarabileceğiniz ve işiniz için masraf yaptıklarında çalışanların harcadığı para miktarını izleyebileceğiniz tümleşik bir iş akışı kullanın.
+description: Bu konu, Gider yönetimi hakkında genel bilgi ve ek kaynaklara bağlantılar sağlar. Gider yönetimi içinde ödeme yöntemi bilgilerini saklayabileceğiniz, kredi kartı hareketlerini içe aktarabileceğiniz ve işiniz için masraf yaptıklarında çalışanların harcadığı para miktarını izleyebileceğiniz tümleşik bir iş akışı kullanabilirsiniz.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,41 +18,44 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
-ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
+ms.openlocfilehash: fe1e92dbf63d2683a53684b350f77c978b14c75e
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "403226"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538621"
 ---
 # <a name="expense-management"></a>Gider yönetimi
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Gider yönetimi içinde ödeme yöntemi bilgilerini saklayabileceğiniz, kredi kartı hareketlerini içe aktarabileceğiniz ve işiniz için masraf yaptıklarında çalışanların harcadığı para miktarını izleyebileceğiniz tümleşik bir iş akışı kullanın. Ayrıca, gider ilkelerini tanımlayabilir ve seyahat masraflarının geri ödemesini otomatikleştirebilirsiniz. 
+Gider yönetimi içinde ödeme yöntemi bilgilerini saklayabileceğiniz, kredi kartı hareketlerini içe aktarabileceğiniz ve işiniz için masraf yaptıklarında çalışanların harcadığı para miktarını izleyebileceğiniz tümleşik bir iş akışı kullanabilirsiniz. Ayrıca, gider ilkelerini tanımlayabilir ve seyahat masraflarının geri ödemesini otomatikleştirebilirsiniz.
 
-[Gider yönetiminin planlanması](plan-expense-management.md) 
+Daha fazla bilgi için bkz. [Gider yönetimi yapılandıma](plan-expense-management.md).
 
-### <a name="additional-resources"></a>Ek kaynaklar
+## <a name="additional-resources"></a>Ek kaynaklar
 
-#### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
+### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-[Microsoft Dynamics 365 Sürüm Notları](https://go.microsoft.com/fwlink/?linkid=2010158)'na giderek hangi yeni özelliklerin planlandığını görün. 
+Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm notlarına](https://go.microsoft.com/fwlink/?linkid=2010158) bakın.
 
-#### <a name="blogs"></a>Bloglar
+#### <a name="expense-report-entry"></a>Gider raporu girişi
 
-Görüşleri, haberler ve diğer bilgileri [Microsoft Dynamics 365 blogu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Finansal blogunda](https://community.dynamics.com/365/financeandoperations/b/financials) bulabilirsiniz.
+Gider raporu girişi, deneyimi basitleştirmek ve gider raporlarının tamamlanması için gereken zamanı azaltmak amacıyla yeniden tasarlanmıştır. Bu işlevi, Özellik yönetiminden açabilirsiniz. Gider alanlarının görünürlüğünü yapılandırmak için yeni bir kurulum sayfası ekleyebilir ve gider raporları girildiğinde hangi verilerin gerekli, isteğe bağlı veya kullanılamaz durumda olacağını belirtebilirsiniz. Bu işlev etkinleştirildiğinde, yeni bir gider çalışma alanı kullanılabilir. Bu çalışma alanı önceki gider çalışma alanının yerini alır ve geliştirilmiş giriş deneyimi için açılış sayfasıdır.
 
-[Microsoft Dynamics Operations İş Ortağı Topluluk Bloğu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır. 
+Daha fazla bilgi için bkz. [Yeniden tasarlanan gider raporları](ExpenseWorkspaceNew.md).
 
-#### <a name="task-guides"></a>Görev kılavuzları
-Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
+### <a name="blogs"></a>Bloglar
 
-#### <a name="videos"></a>Videolar
+[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Finansal bloğunda](https://community.dynamics.com/365/financeandoperations/b/financials) fikirler, haberler ve bilgiler bulabilirsiniz.
 
-Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Kanalı](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)'nda bulunan nasıl yapılır videolarına hemen göz atın.
+[Microsoft Dynamics Operations İş Ortağı Topluluğu blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
 
+### <a name="task-guides"></a>Görev kılavuzları
 
+Ek Yardım Microsoft Dynamics 365 for Finance and Operations içinde görev kılavuzları olarak mevcuttur. Görev kılavuzlarına erişmek için herhangi bir sayfada **Yardım** düğmesini seçin.
 
+### <a name="videos"></a>Videolar
 
-
+[Microsoft Dynamics 365 YouTube Kanalı](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)'nda bulunan nasıl yapılır videolarına hemen göz atın.

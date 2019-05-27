@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-17
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: d2c09bfb1ca96183541c937a3b641064fe82f8c6
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "855853"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1519277"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-17-2019"></a>Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (17 Ocak 2019)
 

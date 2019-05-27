@@ -19,11 +19,11 @@ ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
 ms.openlocfilehash: 5b0560a8be32962f94b24754458fb2cf714a15c8
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "969710"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1529983"
 ---
 # <a name="project-mobile-applications-overview"></a>Proje mobil uygulamalarına genel bakış
 

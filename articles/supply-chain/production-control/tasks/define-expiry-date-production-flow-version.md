@@ -18,11 +18,11 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: aa0bde90273f9392a36732ed79afdad2eea8bf86
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323537"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1573223"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Üretim akışı sürümü için bir bitiş tarihi tanımlama
 

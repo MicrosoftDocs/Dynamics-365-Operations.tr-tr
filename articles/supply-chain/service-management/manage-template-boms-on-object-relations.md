@@ -19,11 +19,11 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8f74e37039bde9e73b8ebea3eeb3ed4983b72704
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310979"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557465"
 ---
 # <a name="manage-template-boms-on-object-relations"></a>Nesne ilişkilerinde şablon ürün reçetelerini yönetme 
 

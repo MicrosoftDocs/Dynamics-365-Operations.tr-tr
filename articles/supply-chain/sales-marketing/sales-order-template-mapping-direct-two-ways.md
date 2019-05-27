@@ -3,7 +3,7 @@ title: Sales ile Finance and Operations arasında satış siparişlerini doğrud
 description: Bu konu, satış siparişlerini Microsoft Dynamics 365 for Sales'den Microsoft Dynamics 365 for Finance and Operations arsında eşitlemek için altta yatan görevleri ve şablonları açıklar.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339131"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539126"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
 
@@ -146,6 +146,16 @@ Satış siparişlerini eşitlemeden önce, sistemlerde aşağıdaki ayarları g�
 ### <a name="setup-in-finance-and-operations"></a>Finance and Operations'ta kurulum
 
 - **Satış ve pazarlama** &gt; **Periyodik görevler** &gt; **Satış toplamlarını hesapla**'ya gidin ve işi bir toplu iş olarak çalışacak şekilde ayarlayın. **Satış siparişleri için toplamları hesapla** seçeneğini **Evet** olarak ayarlayın. Bu adım önemlidir çünkü yalnızca satış toplamlarının hesaplandığı satış siparişleri Sales'a eşitlenir. Toplu işin sıklığı, satış siparişi eşitlemesinin sıklığı ile uyumlu olmalıdır.
+
+İş emri tümleştirmesini de kullanıyorsanız, satış menşeini ayarlamanız gerekir. Satış kaynağı Finance and Operations'ta Field Service'taki iş emirlerinden oluşturulmuş olan satış siparişlerinin ayrılması için kullanılır. Satış siparişinin **İş emri tümleştirmesi** türünde bir satış kaynağı olduğunda **Harici iş emri durumu** alanı satış siparişi başlığında görüntülenir. Ayrıca, satış kaynağı Field Service'taki iş emirlerinden oluşturulmuş olan satış siparişlerinin Finance and Operations'tan Field Service'a satış siparişi eşitlemesi sırasında filtrelenmesini sağlar.
+
+1. **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **Satış kaynağı** seçeneğine gidin.
+2. **Yeni**'yi seçerek yeni bir satış kaynağı oluşturun.
+3. **Satış kaynağı** alanına, satış kaynağı için **SalesOrder** gibi bir ad girin.
+4. **Açıklama** alanında, **Sales'den Satış Siparişi** gibi bir açıklama girin.
+5. **Kaynak türü ataması** onay kutusunu seçin.
+6. **Satış kaynağı türü** alanını **Satış siparişi tümleştirmesi** olarak ayarlayın.
+7. **Kaydet**'i seçin.
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Satış Siparişlerinde Ayarlama (Sales'tan Fin and Ops'a) - Doğrudan Veri tümleştirme projesi
 
