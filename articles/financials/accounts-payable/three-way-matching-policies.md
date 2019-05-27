@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 60a8858e6bd695672d67133b252e97eed3b95434
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "896937"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512205"
 ---
 # <a name="three-way-matching-policies"></a>Üç yönlü eşleştirme ilkeleri
 
@@ -114,7 +114,7 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
     -   Üç yönlü eşleştirme gerektiren maddeler için fatura satırındaki miktarın alınan miktarla eşleştiğini. Ürün girişinde belirtilen alınan miktarın faturayla eşleştiğini.
     -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için, fatura satırındaki fiyatlar Finance and Operations'ta tanımlanan toleranslar aralığındadır. Bu aşağıdaki fiyat eşleştirme türlerini içerir:
         -   Net birim fiyatı eşleştirme – Fatura satırındaki net birim fiyatı, satınalma siparişi satırındaki net birim fiyatla, tolerans yüzdesi aralığında eşleşir. Bu örnekte, net birim fiyat toleransı +%2'dir.
-        -   Fiyat toplamları eşleştirme – Fatura satırlarındaki net tutar, tolerans yüzdesi, tutarı veya yüzde ve tutarı kapsamında satınalma siparişi satırındaki net tutarla eşleşir. Bu örnekte, fiyat toplamları eşleştirme toleransı +%10'dir.
+        -   Fiyat toplamları eşleştirme – Fatura satırlarındaki net tutar, tolerans yüzdesi, tutarı veya yüzde ve tutarı kapsamında satınalma siparişi satırındaki net tutarla eşleşir. Bu örnekte, fiyat toplamları eşleştirme toleransı +%10'dur.
 
 Contoso'nun gönderdiği basılı fatura aşağıdaki bilgileri içerir.
 

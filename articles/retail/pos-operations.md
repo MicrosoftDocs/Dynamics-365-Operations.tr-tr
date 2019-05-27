@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842734"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505108"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
@@ -71,6 +71,8 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 640 | Satırdaki satış temsilcisini temizle | Komisyon satış grubunu (satış temsilcisi) seçili satırdan kaldırın. | Evet | Evet | Hayır | Evet | Hayır |
 | 121 | Satış temsilcisini sil | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Hayır |
 | 1055 | Vardiyayı kapat | Geçerli vardiyayı kapatın, Z raporu yazdırın ve kullanıcının sistemdeki oturumunu kapatın. | Evet | Evet | Evet | Hayır | Hayır |
+| 139 | Hareketi sonlandır | Kullanıcıdan ödeme yöntemini seçmesini ister | Evet | Evet | Hayır | Evet | Hayır |
+| 620 | Müşteri siparişi oluştur | POS hareketini bir müşteri siparişine dönüştürün. | Evet | Evet | Hayır | Evet\* | Hayır |
 | 925 | Banka çekini kopyala | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Evet |
 | 620 | Müşteri siparişi oluştur | POS hareketini bir müşteri siparişine dönüştürün. | Evet | Evet | Hayır | Evet\* | Hayır |
 | 621 | Teklif oluştur | POS hareketini bir satış teklifine dönüştürün. | Evet | Evet | Hayır | Evet\* | Hayır |

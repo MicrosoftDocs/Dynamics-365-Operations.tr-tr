@@ -3,7 +3,7 @@ title: Ambar işi için mobil cihazları ayarlama
 description: Bu konuda, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl konfigüre edileceği açıklanmaktadır.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2b6555086d6c86c17b501af9d4d8155e9c08a447
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347963"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1536561"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Ambar işi için mobil cihazları ayarlama
 
@@ -412,8 +412,6 @@ Aşağıdaki tabloda, iş doğrulamalarını birlikte kullanabileceğiniz çeşi
 
 <a name="additional-resources"></a>Ek kaynaklar
 --------
-
-[Ambar mobil cihaz görüntüleme ayarları](change-warehouse-mobile-device-displays.md)
 
 [Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama (Görev kılavuzu)](tasks/set-up-mobile-device-menu.md)
 

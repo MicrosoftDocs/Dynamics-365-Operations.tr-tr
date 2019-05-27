@@ -3,7 +3,7 @@ title: Satınalma ve harcama analizi Power BI içeriği
 description: Bu konu, Power BI Satınalma harcaması analizinde nelerin bulunduğunu açıklar. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3206573022c0f843b07a468987a112ca6ac435ef
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313854"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527729"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Satınalma ve harcama analizi Power BI içeriği
 
@@ -44,88 +44,88 @@ Bu konu, Microsoft Power BI **Satınalma harcaması analizinde** nelerin bulundu
 **Satınalma ve harcama analizi** Power BI içeriği **Satın alma ve harcama analizi** sayfasında gösterilir (**Tedarik ve kaynak atama** \> **Sorgular ve raporlar** \> **Satın alma performansı analizi** \> **Satın alma ve harcama analizi**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içerik paketinde bulunan ölçümler
-**Satın alma harcaması analizi** Power BI içeriği bir dizi ölçümden oluşan bir rapor içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. Aşağıdaki tabloda, görsellere yönelik genel bakış sunulur.
+**Satın alma harcaması analizi** Power BI içeriği bir dizi ölçümden oluşan bir rapor içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. 
 
-<table>
-<thead>
-<tr>
-<th>Rapor sayfası</th>
-<th>Grafikler</th>
-<th>Kutucuklar</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Satıcıya göre satınalma</td>
-<td><ul>
-<li>Satınalmaya göre en iyi 10 satıcı (yığılmış çubuk grafik)</li>
-<li>Satıcı grubuna / ülkeye / ada göre toplam satınalma (pasta grafik)</li>
-<li>Satıcı grubuna / ülkeye / ada göre satınalma (sütun grafik)</li>
-<li>Satıcı grubuna / ülkeye / ada göre ortalama satınalma (sütun grafik)</li>
-</ul></td>
-<td><ul>
-<li>Satınalma toplamı</li>
-<li>Yıllara göre satınalmadaki büyüme</li>
-<li>Toplam satıcı sayısı</li>
-<li>Toplam etkin satıcı sayısı</li>
-</ul></td>
-</tr>
-<tr>
-<td>Ürüne göre satın alma</td>
-<td><ul>
-<li>Tedarik kategorisine / ürün adına göre satınalma (sütun grafiği)</li>
-<li>Tedarik kategorisine / ürün adına göre toplam satınalma (pasta grafik)</li>
-<li>Satınalmaya göre en iyi 10 ürün (yığılmış çubuk grafik)</li>
-</ul></td>
-<td><ul>
-<li>Toplam ürün sayısı</li>
-<li>Etkin ürünlerin toplam sayısının toplam etkin ürünlere yüzdesi</li>
-<li>Satınalmanın %80'ini oluşturan ürünlerin sayısı</li>
-</ul></td>
-</tr>
-<tr>
-<td>Döneme göre satınalma*</td>
-<td><ul>
-<li>Aya / güne göre satınalma (sütun grafiği)</li>
-<li>Toplam satınalmanın yıllara görefarkı (şelale grafik)</li>
-<li>Toplam satınalmada yıllara göre büyüme (sütun grafik)</li>
-<li>Tedarik ekstresi (matriks)</li>
-</ul></td>
-<td><ul>
-<li>Yıllara göre satınalmadaki büyüme</li>
-<li>Yıllara göre satınalmadaki büyüme yüzdesi</li>
-</ul></td>
-</tr>
-<tr>
-<td>Satıcı konumuna göre satınalma</td>
-<td><ul>
-<li>Şehre göre satınalma</li>
-<li>Satınalmada yıldan yıla büyüme yüzdesi</li>
-<li>Ülkeye göre satınalma</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Zaman göre satınalma harcaması analizi</td>
-<td><ul>
-<li>Aya / güne göre geçerli yıldaki satın alma (çizgi grafiği)</li>
-<li>Geçerli yıl ve önceki yıldaki satınalma (satır ve sütun grafiği)</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Satıcıya göre satınalma harcaması analizi</td>
-<td><ul>
-<li>İlk 10 satıcı satınalmanın satınalmaya göre yüzdesi (huni)</li>
-<li>Yıllara göre artan harcamayla en iyi 10 satıcı</li>
-<li>Yıllara göre azalan harcamayla en iyi 10 satıcı</li>
-</ul></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+Aşağıdaki bölümde, görsellere yönelik genel bakış sunulur.
 
-\* Bu yılki ve geçen yılki satınalma ve tedarik kategorisine göre büyüme.
+### <a name="purchase-by-vendor-report-page"></a>Satıcı bazında satınalma rapor sayfası
+**Grafikler**
+- Satınalmaya göre en iyi 10 satıcı (yığılmış çubuk grafik)
+- Satıcı grubuna / ülkeye / ada göre toplam satınalma (pasta grafik)
+- Satıcı grubuna / ülkeye / ada göre satınalma (sütun grafik)
+- Satıcı grubuna / ülkeye / ada göre ortalama satınalma (sütun grafik)
+
+**Kutucuklar**
+- Satınalma toplamı
+- Yıllara göre satınalmadaki büyüme
+- Toplam satıcı sayısı
+- Toplam etkin satıcı sayısı
+
+**Örnek**
+<img src="media/spend1.PNG" alt="Purchase by vendor">
+
+### <a name="purchase-by-product-report-page"></a>Ürün bazında satınalma rapor sayfası
+
+**Grafikler**
+- Tedarik kategorisine / ürün adına göre satınalma (sütun grafiği)
+- Tedarik kategorisine / ürün adına göre toplam satınalma (pasta grafik)
+- Satınalmaya göre en iyi 10 ürün (yığılmış çubuk grafik)
+
+**Kutucuklar**
+- Toplam ürün sayısı</li>
+- Etkin ürünlerin toplam sayısının toplam etkin ürünlere yüzdesi
+- Satınalmanın %80'ini oluşturan ürünlerin sayısı
+
+**Örnek**
+
+
+<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+
+### <a name="purchase-by-period-report-page"></a>Dönem bazında satınalma rapor sayfası
+Bu sayfa bu yılki ve geçen yılki satınalmayı ve tedarik kategorisine göre büyümeyi gösterir.
+
+**Grafikler** 
+- Aya / güne göre satınalma (sütun grafiği)
+- Toplam satınalmanın yıllara görefarkı (şelale grafik)
+- Toplam satınalmada yıllara göre büyüme (sütun grafik)
+- Tedarik ekstresi (matriks)
+
+**Kutucuklar**
+- Yıllara göre satınalmadaki büyüme
+- Yıllara göre satınalmadaki büyüme yüzdesi
+
+**Örnek**
+<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+
+### <a name="purchase-by-vendor-location-report-page"></a>Satıcı konumu bazında satınalma rapor sayfası
+
+**Grafikler**
+- Şehre göre satınalma
+- Satınalmada yıldan yıla büyüme yüzdesi
+- Ülkeye göre satınalma
+
+**Örnek**
+<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+
+### <a name="purchase-spend-analysis-by-time-report-page"></a>Zamana göre satınalma harcaması analizi rapor sayfası
+
+**Grafikler** 
+- Aya / güne göre geçerli yıldaki satın alma (çizgi grafiği)
+- Geçerli yıl ve önceki yıldaki satınalma (satır ve sütun grafiği)
+
+**Örnek**
+<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+
+### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Satıcıya göre satınalma harcaması analizi rapor sayfası
+
+**Grafikler** 
+- İlk 10 satıcı satınalmanın satınalmaya göre yüzdesi (huni)
+- Yıllara göre artan harcamayla en iyi 10 satıcı
+- Yıllara göre azalan harcamayla en iyi 10 satıcı
+
+**Örnek** 
+<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+
 
 ## <a name="data-model-and-entities"></a>Veri modeli ve varlıklar
 Aşağıdaki veriler **Satınalma harcaması analizi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md).

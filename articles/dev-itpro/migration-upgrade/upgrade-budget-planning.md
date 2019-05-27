@@ -18,11 +18,11 @@ ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "342972"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554508"
 ---
 # <a name="upgrade-budget-planning"></a>Bütçe planlamayı yükselt
 
@@ -54,7 +54,7 @@ Düzenler, Excel şablonunun yerini alan yeni bir kavramdır. Düzenler, hangi b
 
 ### <a name="budget-planning-processes"></a>Bütçe planlama süreçleri
 
-Bütçe planlama işlemleri, AX 2012'dekiyle büyük ölçüde aynıdır. En önemli değişiklik, şablonlarla düzenlerin yer değiştirmesidir. Daha önce AX 2012'de herhangi bir işlem tamamlandıysa, işlemler değişikliklerin yapılabileceği işlem sürüyor durumuna güncelleştirilir. Plan, istemci içerisinde açıldığında hangi senaryo ve zaman dönemlerinin görüntüleneceğini belirtmek için her bir aşama kuralı için düzenler atamanız gerekir. Düzenler ayrıca, bütçeyi görebilmeniz için hangi Excel şablonunun Dynamics 365 for Finance and Operations dışında açılacağını belirtir. **Varsayılan hesap yapısı**, Bütçe planlama işlemi için yeni bir gerekli alandır. Her bir Bütçe planlama işlemi için, bütçeleme için kullanılacak birincil hesap yapısını atayın.
+Bütçe planlama işlemleri, AX 2012'dekiyle büyük ölçüde aynıdır. En önemli değişiklik, şablonlarla düzenlerin yer değiştirmesidir. Daha önce AX 2012'de herhangi bir işlem tamamlandıysa, işlemler değişikliklerin yapılabileceği işlem sürüyor durumuna güncelleştirilir. Plan, istemci içerisinde açıldığında hangi senaryo ve zaman dönemlerinin görüntüleneceğini belirtmek için her bir aşama kuralı için düzenler atamanız gerekir. Düzenler ayrıca, bütçeyi görebilmeniz için hangi Excel şablonunun Dynamic 365 for Finance and Operations dışında açılacağını belirtir. **Varsayılan hesap yapısı**, Bütçe planlama işlemi için yeni bir gerekli alandır. Her bir Bütçe planlama işlemi için, bütçeleme için kullanılacak birincil hesap yapısını atayın.
 
 ### <a name="attachments"></a>Ekler
 

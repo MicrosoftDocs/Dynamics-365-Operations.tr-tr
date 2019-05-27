@@ -17,11 +17,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
-ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "377561"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544783"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Biçim yapılandırması oluşturma (Kasım 2016)
 

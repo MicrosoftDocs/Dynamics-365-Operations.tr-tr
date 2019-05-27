@@ -18,11 +18,11 @@ ms.author: margoc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 2012 R3 CU8
 ms.openlocfilehash: 4f2edba4add691e9ad4c7829551c6f79b9804853
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357738"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555277"
 ---
 # <a name="quick-import-export"></a>Hızlı içe aktarma dışa aktarma
 

@@ -16,11 +16,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ad74f52682627d6164270de54e2dbcaeb57111fe
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356450"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547526"
 ---
 # <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a>Satınalma siparişini oluştururken satınalma sevk emri oluşturma
 

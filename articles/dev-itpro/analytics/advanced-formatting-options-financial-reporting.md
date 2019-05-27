@@ -1,16 +1,16 @@
 ---
 title: Finansal raporlamada gelişmiş biçimlendirme seçenekleri
 description: Finansal raporlamada bir rapor oluşturduğunuzda, ek biçimlendirme işlevleri mevcuttur; boyutlar için filtreler, sütunlar ve raporlama birimleri için kısıtlamalar, yazdırılmayan satırlar ve hesaplamalarda THEN/IF/ELSE deyimleri de dahil olmak üzere.
-author: ShylaThompson
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 70f69fdad3d9186886190c62fba08af06d2a24d6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335589"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502577"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Finansal raporlamada gelişmiş biçimlendirme seçenekleri
 
@@ -41,6 +41,7 @@ Aşağıdaki tablo, rapor tasarlarken kullanılabilir olan gelişmiş biçimlend
 | Sütun kısıtlama         | Satır tanımında sütun kısıtlaması yalnızca raporun bazı satırlarında ilgili değerleri gizlemek için yararlıdır. Bir satırda yüzde hesaplamaları gerçekleştirildiğinde, sütun kısıtlama toplam sütunları veya diğer sütunların, bu numaraları geçerli olmadığında yazdırılmasını önler. |
 | Sütun sonu               | Yan yana rapor bilgilerini göstermek için bir satır tanımına sütun sonları ekleyebilirsiniz. Tek bir satır tanımı içinde birden çok sütun sonları ekleyebilirsiniz ve sütun başlıkları sütun sonundan sonra her sütunun üstünde yinelenir. Bir rapor için açıklamalar sütun sonları arasında görüntülenir. |
 | IF/THEN/ELSE deyimi     | Bir satır tanımı veya bir sütun tanımında hesaplamaları değiştirebilirsiniz. |
+| Boyut değerleri için tek tırnak ('') ve ampersan (&) işaretini kullanın | Rapor tasarımı için ampersan işareti dahil boyut değerlerini kullanabilirsiniz. |
 
 ## <a name="advanced-cell-placement"></a>Gelişmiş hücre yerleştirme
 Gelişmiş hücre yerleştirme veya *zorlama*, belirli değerlerin belirli hücrelere yerleşimini içerir. Örneğin, zorlamak genellikle doğru bakiyeyi bir nakit akış tablosu içinde taşımak için kullanılır. Aşağıdaki amaçlarla zorlarsınız:
@@ -297,3 +298,9 @@ Bir **IF/THEN/ELSE** deyimi herhangi hesaplama sonuçlarının diğer bir sütun
 
 > [!NOTE]
 > Diğer bir sütuna bir hesaplamanın sonuçlarını koyamazsınız. Sonuçların formülü içeren sütunda olması gerekir.
+
+#### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Bir satır, sütun veya ağaçta boyut değerleri için tek tırnak ve ampersan (&) işaretini kullanın
+
+Ampersan işaretini (&) içeren boyut değerlerini kullanarak raporlar tasarlayabilirsiniz. 
+
+Herhangi bir **Mali Boyuta Bağlantı** alanına, **'P&L'** gibi bir değer girebilirsiniz. Boyut değerinin her iki tarafına tek tırnak işareti (' ') ekleme, (&) ampersan karakterlerini eklemek gibi gerçek değeri kullanmakta olduğunuz anlamına gelir. 

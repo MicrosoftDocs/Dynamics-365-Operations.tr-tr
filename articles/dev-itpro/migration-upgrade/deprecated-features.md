@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992895"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527683"
 ---
 # <a name="removed-or-deprecated-features"></a>Kaldırılan veya kullanımına son verilen özellikler
 
@@ -66,26 +66,6 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Etkilenen ürün alanları**         | Web istemcisi |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanımdan kalktı: Nisan 2020'den itibaren, iyileştirilmiş "bunlardan biri" deneyimi varsayılan davranış olacaktır, eski davranışa dönme mekanizması sunulmayacaktır. |
-
-### <a name="deriving-from-internal-classes-is-deprecated"></a>Dahili sınıftan türetme kalkmıştır
-
-|   |  |
-|------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Platform güncelleştirmesi 25'ten önce, bu tablo bir iç sınıf/başka bir paket/modülünde tanımlanmış tablosu türetilen bir sınıf veya oluşturulabilir. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile, derleyici bir uyarı görüntüler. |
-| **Başka bir özellikle mi değiştirildi?**   | Derleyici uyarısı, Platform güncelleştirmesi 26'da değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya üzerini kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler.|
-| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
-| **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kaldırıldı: Uyarı, Platform güncelleştirmesi 26'da derleme hatası olarak değiştirilecektir. |
-
-### <a name="overriding-internal-methods-is-deprecated"></a>Dahili yöntemleri geçersiz kılma kalkmıştır
-
-|   |  |
-|------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Platform güncelleştirmesi 25'ten öncesinde, başka bir paket/modülde tanımlanan türetilen bir sınıftaki dahili bir yöntemi geçersiz kılmak mümkündü. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile, derleyici bir uyarı görüntüler. |
-| **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, Platform güncelleştirmesi 26'da bir derleme hatasıyla değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya üzerini kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler. |
-| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
-| **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kaldırıldı: Uyarı, Platform güncelleştirmesi 26'da derleme hatası olarak değiştirilecektir. |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Satış siparişlerini birden fazla proje sözleşme finansman kaynağı ile etkinleştirme parametreleri
 Proje tabanlı satış siparişlerini, proje sözleşmesi birden fazla finansman kaynağına sahip olduğunda, **Proje yönetimi parametreleri** ayarında, **Birden fazla finansman kaynağı projeler için satış siparişlerine izin ver** ile etkindir. Varsayılan olarak, bu parametre etkin değil. 

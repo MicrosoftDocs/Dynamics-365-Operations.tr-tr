@@ -17,11 +17,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9c49000b09fdbac10dfa952718453bf82cbb1498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "332645"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545613"
 ---
 # <a name="create-an-operating-unit"></a>Bir çalışma birimi oluşturun
 

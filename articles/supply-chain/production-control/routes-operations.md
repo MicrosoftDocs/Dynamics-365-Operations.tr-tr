@@ -20,11 +20,11 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
-ms.sourcegitcommit: dc90d56050d7353930d048476451542cce147e37
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "850680"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1522209"
 ---
 # <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 

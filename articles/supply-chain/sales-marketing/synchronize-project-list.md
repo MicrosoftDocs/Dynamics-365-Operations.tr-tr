@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842616"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1525889"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>Proje listesini Finance and Operations'dan Field Service'a eşitleme
 

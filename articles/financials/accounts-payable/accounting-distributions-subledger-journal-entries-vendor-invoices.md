@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3b75b1c8d98c15579909bd8816f2f7df8e6a5ba0
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "896753"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1509257"
 ---
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Satıcı faturaları için hesap dağıtımları ve muavin defteri günlük girdileri
 

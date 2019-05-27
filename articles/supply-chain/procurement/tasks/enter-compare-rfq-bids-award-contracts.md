@@ -1,9 +1,9 @@
 ---
 title: RFQ tekliflerini girme ve karşılaştırma ve işi verme
-description: Bu prosedürde bir RFQ'ya yanıtların nasıl girileceği, tekliflerin nasıl puanlandırılacağı ve karşılaştırılacağı ve ardından teklif için satıcılardan birinin nasıl seçileceği gösterilmiştir.
+description: Bu prosedürde bir teklif talebine (RFQ) yanıtların nasıl girileceği, tekliflerin nasıl puanlandırılacağı ve karşılaştırılacağı ve ardından sözleşme için satıcılardan birinin nasıl seçileceği gösterilmiştir.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,130 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cd4876acfebcc9595abb358cfc9b355e93041d6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 45ddab03810b331bcd8965f6a2ba699ffb138910
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350010"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1533364"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>RFQ tekliflerini girme ve karşılaştırma ve işi verme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu prosedürde bir RFQ'ya yanıtların nasıl girileceği, tekliflerin nasıl puanlandırılacağı ve karşılaştırılacağı ve ardından teklif için satıcılardan birinin nasıl seçileceği gösterilmiştir. Bu prosedürü USMF demo veri şirketinde kullanabilirsiniz. Başlamadan önce, en az iki satıcıya gönderilmiş iki satır içeren bir RFQ'ya sahip olmanız gerekir. Bunun oluşturulması için bir ön şart olarak "Teklif için bir talep oluştur" prosedürünü yürütebilirsiniz. Bu prosedürü yürütmeden önce puanlama ölçütlerini belirlemeniz gerekir.
+Bu prosedürde bir teklif talebine (RFQ) yanıtların nasıl girileceği, aldığınız tekliflerin nasıl puanlandırılacağı ve karşılaştırılacağı ve ardından sözleşme için teklif gönderen satıcılardan birinin nasıl seçileceği gösterilmiştir. Bu yordamı **USMF** demo veri şirketinde kullanabilirsiniz.
 
+Bu yordama başlamadan önce, en az iki satıcıya gönderilmiş ve iki satır içeren bir RFQ'ya sahip olmanız gerekir. Bu RFQ'yu oluşturmak için [Teklif talebi oluşturma](create-request-quotation.md) yordamını tamamlayın. Bu prosedürü tamamlamadan önce puanlama ölçütlerini belirlemeniz gerekir.
 
-## <a name="enter-a-reply-from-a-vendor"></a>Bir satıcı yanıtı girin.
-1. Tedarik ve kaynak atama > Teklif talepleri > Tüm teklif talepleri öğesine gidin.
-2. Gönderilmiş durumuna sahip bir RFQ seçin ve Teklif talebi olay numarası üzerindeki bağlantıyı tıklayın.
-    * RFQ en az 2 satıcıya gönderilmiş olmalıdır.  
-3. Satıcıların listesine gitmek için Başlığı tıklayın.
-4. RFQ için bir yanıt girmek istediğiniz satıcıyı seçin.
-5. Yanıt gir düğmesini tıklayın.
-6. Eylem Bölmesinde, Yanıtla öğesine tıklayın.
-7. Verileri yanıta kopyala düğmesini tıklayın.
-    * Bu eylem seçili verileri, örneğin, RFQ olayındaki miktarları RFQ yanıtına kopyalar. Alternatif olarak, bu eylemi atlayabilir ve yanıtı düzenlerken tüm yanıt alanlarını el ile doldurabilirsiniz.  
-8. Düzenle öğesine tıklayın.
-9. Birim fiyatı alanına bir sayı girin.
-10. Başka bir teklif satırı seçin.
-11. Birim fiyatı alanına bir sayı girin.
+Teklifi satıcı veya tedarik uzmanı olarak girebilirsiniz. Daha fazla bilgi için bkz. [Satıcı işbirliğini ayarlama ve sürdürme](../set-up-maintain-vendor-collaboration.md).
 
-## <a name="score-the-bid"></a>Teklifi puanlama
-1. Teklif puanlamasına gitmek için Başlığı tıklayın.
-2. Teklif puanlama bölümünü genişletin.
-3. Puan alanına, bir puanlama ölçütü için bir sayı girin.
-    * Fare imlecini bir puanlama ölçütünün üzerine getirdiğinizde, puanınızın bulunması gereken aralığı gösteren bir araç ipucu açılır. Bu demoda tüm ölçütler için 1 ile 5 arasında bir sayı ekleyebilirsiniz.  
-4. Başka bir puanlama ölçütünü seçin.
-5. Puan alanına bir sayı girin.
-6. Anketler bölümünü genişletin.
-    * RFQ olayı, satıcılara gönderilen bir ankete sahipse, satıcıların yanıtlarını anket bölümüne girebilirsiniz.  
-7. Sayfayı kapatın.
+## <a name="enter-a-reply-as-a-vendor"></a>Bir satıcı olarak yanıt girme
 
-## <a name="enter-a-reply-for-another-vendor"></a>Başka bir satıcı için yanıt girme
-1. Bir az önce yanıt girdiğiniz satıcıyı silerek ve ardından bir sonraki satıcı için satırı seçerek bir sonraki satıcıyı seçin.
-2. Listede, istenen kaydı bulun ve seçin.
-3. Yanıt gir düğmesini tıklayın.
-4. Verileri yanıta kopyala düğmesini tıklayın.
-5. Düzenle öğesine tıklayın.
-6. Birim fiyatı alanına bir sayı girin.
-7. Başka bir teklif satırı seçin.
-8. Birim fiyatı alanına bir sayı girin.
+1. Panoda, **Satıcı teklifi**'ni seçin.
+2. **Yeni teklif davetleri** listesinde, henüz gönderilmiş bir RFQ bulun. Neyin istenmiş olduğunu incelemek için RFQ'yu seçin.
+3. Eklenmiş ekleri gözden geçirmek için **RFQ ekleri**'ni seçin.
+4. Alanları düzenlenebilir yapmak için **Teklif**'i seçin. **Teklif ilerlemesi** alanının **Satıcı güncelleştiriliyor**olarak ayarlandığından emin olun.
+5. Başlık ve satırlara, teklif yanıtındaki değerleri girin.
+6. Teklife ek eklenmesi gerekiyorsa, **Teklif ekleri**'ni seçin.
+7. Herhangi bir belge gerekip gerekmediğini görmek için **Teklif kılavuzu maddeleri** hızlı sekmesini seçin.
+8. RFQ'nun değiştirilip değiştirilmediğini görmek için **Değişiklikler** hızlı sekmesini seçin.
+9. **Soru formu** hızlı sekmesini seçin. Burada görünen soru formlarının yanıtlanması gerekir.
+10. Satırla ilgili genişletilmiş bilgileri görüntülemek için **Satır ayrıntıları** hızlı sekmesini seçin.
+11. Girilmiş değerleri orijinal RFQ değerlerine sıfırlamanız gerekiyorsa **RFQ'dan Sıfırla** seçeneğini belirleyin.
+12. Teklifi istediğiniz zaman kaydedebilir ve sona erme tarihi ve saatinin geçmemiş olması koşuluyla daha sonra ek işlem yapabilirsiniz. Bu durumda, teklifi **Satıcı teklifi** çalışma alanındaki **Devam eden teklifler** listesinde bulabilirsiniz.
+13. Teklif gönderilmeye hazır olduğunda **Gönder**'i seçin. Teklif vermek istemiyorsanız **Reddet**'i seçin
 
-## <a name="score-the-second-bid"></a>İkinci teklifi puanlama
-1. Teklif puanlamasına gitmek için Başlığı tıklayın.
-2. Puan alanına bir sayı girin.
-3. Listede, istenen kaydı bulun ve seçin.
-4. Puan alanına bir sayı girin.
+    Gönderilen teklifler **Satıcı teklifi** çalışma alanındaki **Gönderilen teklifler** listesinde bulunur.
+
+14. Teklif gönderildikten sonra, zaman aşımı tarihi ve saatinden önce istediğiniz zaman geri çağırabilirsiniz. Bir teklif geri çağrıldığında gönderilmiş olarak değerlendirilmez.
+
+    Teklif tedarik departmanı tarafından kabul edildiğinde veya reddedildiğinde **Satıcı teklifi** çalışma alanındaki **Kazanılan teklifler** veya **Kaybedilen teklifler** listesinde görünür.
+
+## <a name="enter-a-reply-from-a-vendor-as-a-procurement-professional"></a>Tedarik uzmanı olarak bir satıcıdan gelen yanıtı girme
+
+1. Satıcı tekliflerini düzenleme izninin ayarlandığından emin olun. **Tedarik ve kaynak atama \> Kurulum \> Tedarik ve kaynak atama parametrelerine** gidin. **Teklif talebi** sekmesinde, **Satınalmacı satıcı teklifini düzenleyebilir** seçeneğini **Evet**olarak ayarlayın.
+2. **Tedarik ve kaynak atama \> Teklif talepleri \> Tüm teklif talepleri**'ne gidin.
+3. **Gönderildi** durumuna sahip bir RFQ seçin ve **Teklif talebi olayı** alanındaki bağlantıyı seçin.
+4. **Yanıtları yönet**'i seçin. Beliren sayfa, teklife davet edilen her satıcı için bir RFQ gösterir.
+5. Yanıtmamış bir RFQ seçin. ( **Yanıt ilerlemesi** alanı **Başlatılmadı** olarak ayarlanmalıdır.)
+6. **Düzenle \> RFQ yanıtını düzenle**'yi seçin.
+
+    **RFQ yanıtı** sayfası görüntülenir. Tedarik uzmanı olarak, şimdi satıcı adına yanıt girebilirsiniz. **Teklif ilerlemesi** alanının **Satınalmacı güncelleştiriliyor** olarak ayarlandığından emin olun.
+
+7. Teklif verilerini girin. Tamamladıktan sonra **Gönder**'i seçin.
+
+## <a name="score-the-bids"></a>Teklifleri puanlama
+
+1. **Tüm teklif talepleri** sayfasında, yanıtlarını puanlamak istediğiniz RFQ olayını seçin.
+2. **Yanıtları yönet**'i seçin.
+3. Puanlanacak yanıtı seçin.
+4. Teklif için puanı görüntüleyebilmek üzere **Başlık**'ı seçin.
+5. **Teklif puanı** hızlı sekmesinde **Puan** alanına, bir puanlama ölçütü için bir sayı girin.
+
+    Fare imlecini bir puanlama ölçütünün üzerine getirdiğinizde, puanınızın yer alması gereken aralığı gösteren bir araç ipucu açılır. Bu demoda tüm puanlama ölçütleri için 1 ile 5 arasında bir sayı girebilirsiniz.
+
+6. Başka bir puan ölçütü için 5. adımı yineleyin.
+7. RFQ olayı, satıcılara gönderilen bir soru formuna sahipse, satıcıların yanıtlarını **Soru formları** hızlı sekmesinden girebilirsiniz.
+8. Sayfayı kapatın.
+9. Tüm diğer teklifler için 1 ile 8 arasındaki adımları yineleyin.
 
 ## <a name="compare-the-replies"></a>Teklifleri karşılaştırma
-1. Eylem Bölmesinde, Genel öğesine tıklayın.
-2. Yanıtları karşılaştır düğmesini tıklayın.
-3. Sıralama alanına bir sayı girin.
-    * Bu sayfada başlık ve satırlarıyla birlikte teklifler ve başlık seviyesinde toplam puan gösterilir. Satırları, karşılaştırabilir satırlar birbirinin yanına gelecek şekilde ızgarada sıralayarak karşılaştırabilirsiniz. Bu bilgiler ayrıca şunları içerir:   Miktar: Satıcı tarafından teklif edilen miktar. Bu miktar, RFQ tarafından belirtilen miktara eşit olmayabilir.   Net miktar: Bir satıcı tarafından satırda belirtilen maddeler için iskontolar çıkarıldıktan sonra teklif edilen fiyattır.   Sapma: Teklif başlığında veya satırında belirtilen teslimat tarihinin RFQ başlığında veya RFQ satırında talep edilen teslimat tarihine göre, gün cinsinden sapma miktarı.   Her bir teklif için bira aralık girebilirsiniz.  
-4. Sıralamak istediğiniz diğer tekliflerin başlık satırlarını seçin.
-5. Sıralama alanına bir sayı girin.
-6. Kaydet'e tıklayın.
+
+1. Eylem Bölmesi'ndeki **Genel** sekmesinde, **Yanıtları karşılaştır**'ı seçin.
+2. **Sıralama** alanına bir sayı girin.
+
+    Bu sayfada başlık ve satır bilgileriyle birlikte teklifler ve başlık seviyesinde toplam puan gösterilir. Satırları, karşılaştırabilir satırlar birbirinin yanına gelecek şekilde ızgarada sıralayarak karşılaştırabilirsiniz. Aşağıdaki bilgiler de eklenir:
+
+    - **Miktar**: Satıcı tarafından teklif edilen miktar. Bu miktar, RFQ'da belirtilen miktara eşit olmayabilir.
+    - **Net tutar**: Satıcı tarafından satırda belirtilen maddeler için iskontolar çıkarıldıktan sonra teklif edilen fiyat.
+    - **Sapma**: Teklif başlığında veya satırında belirtilen teslimat tarihinin RFQ başlığında veya satırında talep edilen teslimat tarihine göre, gün cinsinden sapma miktarı. Her bir teklif için bira aralık girebilirsiniz.
+
+3. Sıralamak istediğiniz diğer tekliflerin başlık satırlarını seçin.
+4. **Sıralama** alanına bir sayı girin.
+5. **Kaydet**'i seçin.
 
 ## <a name="reject-a-bid"></a>Bir teklifi reddetme
+
 1. Reddetmek istediğiniz teklifin başlık satırını seçin.
-    * Aynı anda sadece bir teklifi veya bir teklif içindeki satırları kabul edebilir, reddedebilir veya iade edebilirsiniz.  
-2. İşaret onay kutusunu seçin.
-    * Teklif başlığındaki seçim kutusunu İşaretle seçimini yaparsanız tüm satırlar işaretlenecektir. Ayrıca, reddetmek veya kabul etmek için bir teklif içindeki satırların bir alt kümesini de işaretlemeyi seçebilirsiniz. Bir satıcının teklifinin bir RFQ'nun bazı satırları için kabul edilmesi ve ardından diğer RFQ satırlarının başka bir satıcıya verilmesi mümkündür, ancak aynı anda bir teklif olacak şekilde bunu 2 adımda gerçekleştirmeniz gerekir. Başka satırlar varsa, sadece orijinal teklif satırını veya başka bir satırı kabule edebilirsiniz, her ikisini aynı anda kabul edemezsiniz.  
-3. Reddet düğmesini tıklayın.
-4. İletişim kutusunu açmak için Parametreler'i tıklatın
-5. Reddetme gerekçesi alanında, bir değer girin veya bir değer seçin.
-    * Reddetme nedeni cevaba kaydedilecektir.  
-6. Tamam'a tıklayın.
-7. Tamam'a tıklayın.
-8. Sayfayı kapatın.
-9. Sayfayı kapatın.
-10. Sayfayı yenileyin.
+
+    Aynı anda sadece bir teklifi veya bir teklifteki satırları kabul edebilir, reddedebilir veya iade edebilirsiniz.
+
+2. **İşaretle** onay kutusunu seçin.
+
+    Teklif başlığındaki **İşaretle** onay kutusunu seçerseniz tüm satırlar işaretlenecektir. Teklifteki bazı satırları reddetmek veya kabul etmek için, yalnızca bu satırları işaretleyebilirsiniz. Ek olarak, bir RFQ'daki bazı satırlar için bir satıcının teklifini kabul edebilir ve diğer RFQ satırlarını farklı bir satıcıya verebilirsiniz. Ancak, bir seferde tek bir teklif yapmanız gerekir.
+
+    Başka satırlar varsa, orijinal teklif satırını veya başka bir satırı kabule edebilirsiniz, her ikisini aynı anda kabul edemezsiniz.
+
+3. **Reddet**'i seçin.
+4. **Parametreleri**seçin ve ardından **Reddetme nedeni** alanında, teklifi reddetme nedeninizi girin veya seçin.
+
+    Neden yanıtta saklanır.
+
+5. **Tamam**'ı seçin.
+6. **Tamam**'ı seçin.
 
 ## <a name="accept-a-bid"></a>Bir teklifi kabul etme
-1. Kabul etmek istediğiniz teklifi seçin ve ardından Teklif talebi alanında bağlantıyı tıklayın.
-2. Eylem Bölmesinde, Yanıtla öğesine tıklayın.
-3. Kabul et düğmesini tıklatın.
-    * Belirli satırları işaretler ve belirli satırları işaretlemezseniz, kabul eylemi sadece işaretlenmiş satırları içerecektir. Teklifteki tüm satırları kabul etmek isterseniz, satırları işaretlemenize gerek yoktur.  
-4. İletişim kutusunu açmak için Parametreler'i tıklatın
-    * Bu da teklifin kabul edilmesi için bir gerekçe kaydetmenize olanak verir. Gerekçe, teklif üzerine kaydedilir.  
-5. Kabul gerekçesi alanında, bir değer girin veya bir değer seçin.
-6. Tamam'a tıklayın.
-7. Tamam'a tıklayın.
-    * Tamam düğmesini tıkladığınızda RFQ kabulüne dahil edilen satırlara dayalı olarak bir satın alma emri oluşturulur. Henüz işlenmemiş (kabul edilmiş, reddedilmiş veya iade edilmiş) başka teklifler varsa sistem, kalan teklifleri reddetmeniz için bir mesaj görüntüler.  
 
-## <a name="view-the-purchase-order-thats-been-generated"></a>Oluşturulmuş bir satın alma emrini görüntüleme
-1. Eylem Bölmesinde, Genel öğesine tıklayın.
-2. Satın alma siparişini tıklatın.
-    * Burada, teklifi kabul ettiğinizde oluşturulmuş olan satın alma emrini görebilirsiniz.  
-3. Sayfayı kapatın.
-4. Sayfayı kapatın.
-5. Sayfayı kapatın.
-6. Sayfayı kapatın.
+1. Kabul etmek istediğiniz teklifi seçin ve ardından **Teklif talebi** alanındaki bağlantıyı tıklayın.
 
+    **Teklif talebi yanıtlarını karşılaştır** sayfasında iseniz, vurgulanmış teklif sistemin Kabul etme eylemi sırasında göz önünde bulundurduğu tekliftir. Bir seferde yalnızca bir teklifin satırlarını kabul edebilirsiniz.
+
+2. Eylem Bölmesinde, **Yanıtla**'yı seçin.
+3. **Kabul et**'i seçin.
+
+    Yalnızca belirli satırları işaretlediyseniz, Kabul et eylemi yalnızca bu satırları dahil eder. Teklifteki tüm satırları kabul etmek isterseniz, satırları işaretlemenize gerek yoktur.
+
+4. **Parametreler**'i seçin ve ardından **Kabul etme nedeni** alanında, teklifi kabul etme nedeninizi girin veya seçin.
+
+    Neden teklifte saklanır.
+
+5. **Tamam**'ı seçin.
+6. **Tamam**'ı seçin.
+
+    **Tamam**'ı seçtiğinizde RFQ kabulüne dahil edilen satırlara dayalı olarak bir satın alma emri oluşturulur. Henüz işlenmemiş (kabul edilmiş, reddedilmiş veya iade edilmiş) başka teklifler varsa sistem bunları reddetmeniz için bir mesaj görüntüler.
+
+## <a name="view-the-purchase-order-that-is-generated"></a>Oluşturulmuş bir satın alma emrini görüntüleme
+
+- Eylem Bölmesi'ndeki **Genel** sekmesinde, **Satınalma emri**'ni seçin.
+
+    Görüntülenen sayfada teklifi kabul ettiğinizde oluşturulmuş olan satın alma emrini görebilirsiniz.

@@ -16,11 +16,11 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7ef094535214ecf4c65f95c36a93455446d7e388
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346767"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556150"
 ---
 # <a name="create-call-center-channels-and-define-channel-attributes"></a>Çağrı merkezi kanalları oluşturma ve kanal özniteliklerini tanımlama
 
