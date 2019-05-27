@@ -3,7 +3,7 @@ title: Satınalma ve harcama analizi Power BI içeriği
 description: Bu konu, Power BI Satınalma harcaması analizinde nelerin bulunduğunu açıklar. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,140 +18,141 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3206573022c0f843b07a468987a112ca6ac435ef
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313854"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527729"
 ---
-# <a name="purchase-spend-analysis-power-bi-content"></a><span data-ttu-id="6eb0a-104">Satınalma ve harcama analizi Power BI içeriği</span><span class="sxs-lookup"><span data-stu-id="6eb0a-104">Purchase spend analysis Power BI content</span></span>
+# <a name="purchase-spend-analysis-power-bi-content"></a><span data-ttu-id="3f829-104">Satınalma ve harcama analizi Power BI içeriği</span><span class="sxs-lookup"><span data-stu-id="3f829-104">Purchase spend analysis Power BI content</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6eb0a-105">Bu konu, Microsoft Power BI **Satınalma harcaması analizinde** nelerin bulunduğunu açıklar.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-105">This topic describes what is included in the **Purchase spend analysis** Microsoft Power BI content.</span></span> <span data-ttu-id="6eb0a-106">Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
+<span data-ttu-id="3f829-105">Bu konu, Microsoft Power BI **Satınalma harcaması analizinde** nelerin bulunduğunu açıklar.</span><span class="sxs-lookup"><span data-stu-id="3f829-105">This topic describes what is included in the **Purchase spend analysis** Microsoft Power BI content.</span></span> <span data-ttu-id="3f829-106">Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="3f829-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="6eb0a-107">Genel bakış</span><span class="sxs-lookup"><span data-stu-id="6eb0a-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="3f829-107">Genel bakış</span><span class="sxs-lookup"><span data-stu-id="3f829-107">Overview</span></span>
 
-<span data-ttu-id="6eb0a-108">**Satınalma harcaması analizi** Power BI içeriği satınalma yöneticilerine ve bütçelerden sorumlu yöneticilere satınalma harcamalarını izleme konusunda yardımcı olmak üzere tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-108">The **Purchase spend analysis** Power BI content was designed to help purchasing managers and managers who are responsible for budgets keep an eye on purchase spending.</span></span> <span data-ttu-id="6eb0a-109">Yöneticiler satınalma harcamasını aşağıdaki şekillerde analiz edebilirler:</span><span class="sxs-lookup"><span data-stu-id="6eb0a-109">Managers can analyze purchase spending in the following ways:</span></span>
+<span data-ttu-id="3f829-108">**Satınalma harcaması analizi** Power BI içeriği satınalma yöneticilerine ve bütçelerden sorumlu yöneticilere satınalma harcamalarını izleme konusunda yardımcı olmak üzere tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="3f829-108">The **Purchase spend analysis** Power BI content was designed to help purchasing managers and managers who are responsible for budgets keep track of purchase spending.</span></span> <span data-ttu-id="3f829-109">Yöneticiler satınalma harcamasını aşağıdaki şekillerde analiz edebilirler:</span><span class="sxs-lookup"><span data-stu-id="3f829-109">Managers can analyze purchase spending in the following ways:</span></span>
 
-- <span data-ttu-id="6eb0a-110">Yılbaşından bugüne satınalma (satıcı grubu ve tek tek satıcılara, tedarik kategorisine ve bireysel ürünlere ve satıcı konumuna göre)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-110">Year-to-date purchase (by vendor group and individual vendors, procurement category and individual products, and vendor location)</span></span>
-- <span data-ttu-id="6eb0a-111">Yıldan yıla satınalma değişikliği (satıcı grubu ve tedarik kategorisine göre)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-111">Year-over-year purchase change (by vendor group and procurement category)</span></span>
+- <span data-ttu-id="3f829-110">Yılbaşından bugüne satınalma (satıcı grubu ve tek tek satıcılara, tedarik kategorisine ve bireysel ürünlere ve satıcı konumuna göre)</span><span class="sxs-lookup"><span data-stu-id="3f829-110">Year-to-date purchase (by vendor group and individual vendors, procurement category and individual products, and vendor location)</span></span>
+- <span data-ttu-id="3f829-111">Yıldan yıla satınalma değişikliği (satıcı grubu ve tedarik kategorisine göre)</span><span class="sxs-lookup"><span data-stu-id="3f829-111">Year-over-year purchase change (by vendor group and procurement category)</span></span>
 
-<span data-ttu-id="6eb0a-112">İçerik, alınan satınalma hareketi verilerini kullanır ve hem şirket çapında satınalma rakamlarının toplam görünümünü hem de satıcı ve ürünler için satınalma harcamasının dağılımını verir.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-112">The content uses purchase transactional data, and provides both an aggregate view of the company-wide purchase figures and a breakdown of purchase spending by vendor and product.</span></span> <span data-ttu-id="6eb0a-113">Raporlar satınalma harcamalarında zaman içindeki değişiklikleri öne çıkarır.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-113">Reports highlight changes in purchase spending over time.</span></span> <span data-ttu-id="6eb0a-114">Bu nedenle, raporlar yöneticileri ayrı satıcılar ve ürünlerle ilgili olarak pozitif ve negatif harcama eğilimleri hakkında uyarmak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-114">Therefore, the reports can be used to alert managers about positive and negative spending trends for individual vendors and products.</span></span> <span data-ttu-id="6eb0a-115">Ek olarak grafikler farklı tedarik kategorileri ve satıcı grupları için satınalma harcamasını gösterir.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-115">Additionally, charts show purchase spending for different procurement categories and vendor groups.</span></span> <span data-ttu-id="6eb0a-116">Bu nedenle, kategori ve bölgesel yöneticiler, harcama davranışındaki değişiklikleri tanımlamaya yardımcı olması açısından bu grafikleri kullanabilirler.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-116">Therefore, category and regional managers can use the charts to help identify changes in spending behavior.</span></span>
+<span data-ttu-id="3f829-112">İçerik, alınan satınalma hareketi verilerini kullanır ve hem şirket çapında satınalma rakamlarının toplam görünümünü hem de satıcı ve ürünler için satınalma harcamasının dağılımını verir.</span><span class="sxs-lookup"><span data-stu-id="3f829-112">The content uses purchase transactional data, and provides both an aggregate view of the company-wide purchase figures and a breakdown of purchase spending by vendor and product.</span></span> <span data-ttu-id="3f829-113">Raporlar satınalma harcamalarında zaman içindeki değişiklikleri öne çıkarır.</span><span class="sxs-lookup"><span data-stu-id="3f829-113">Reports highlight changes in purchase spending over time.</span></span> <span data-ttu-id="3f829-114">Bu nedenle, raporlar yöneticileri ayrı satıcılar ve ürünlerle ilgili olarak pozitif ve negatif harcama eğilimleri hakkında uyarmak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="3f829-114">Therefore, the reports can be used to alert managers about positive and negative spending trends for individual vendors and products.</span></span> <span data-ttu-id="3f829-115">Ek olarak grafikler farklı tedarik kategorileri ve satıcı grupları için satınalma harcamasını gösterir.</span><span class="sxs-lookup"><span data-stu-id="3f829-115">Additionally, charts show purchase spending for different procurement categories and vendor groups.</span></span> <span data-ttu-id="3f829-116">Bu nedenle, kategori ve bölgesel yöneticiler, harcama davranışındaki değişiklikleri tanımlamaya yardımcı olması açısından bu grafikleri kullanabilirler.</span><span class="sxs-lookup"><span data-stu-id="3f829-116">Therefore, category and regional managers can use the charts to help identify changes in spending behavior.</span></span>
 
-## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="6eb0a-117">Power BI içeriğine erişim</span><span class="sxs-lookup"><span data-stu-id="6eb0a-117">Accessing the Power BI content</span></span>
-<span data-ttu-id="6eb0a-118">**Satınalma ve harcama analizi** Power BI içeriği **Satın alma ve harcama analizi** sayfasında gösterilir (**Tedarik ve kaynak atama** \> **Sorgular ve raporlar** \> **Satın alma performansı analizi** \> **Satın alma ve harcama analizi**).</span><span class="sxs-lookup"><span data-stu-id="6eb0a-118">The **Purchase spend analysis** Power BI content is shown on the **Purchase and spend analysis** page (**Procurement and sourcing** \> **Inquiries and reports** \> **Purchase performance analysis** \> **Purchase and spend analysis**).</span></span>
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="3f829-117">Power BI içeriğine erişim</span><span class="sxs-lookup"><span data-stu-id="3f829-117">Accessing the Power BI content</span></span>
+<span data-ttu-id="3f829-118">**Satınalma ve harcama analizi** Power BI içeriği **Satın alma ve harcama analizi** sayfasında gösterilir (**Tedarik ve kaynak atama** \> **Sorgular ve raporlar** \> **Satın alma performansı analizi** \> **Satın alma ve harcama analizi**).</span><span class="sxs-lookup"><span data-stu-id="3f829-118">The **Purchase spend analysis** Power BI content is shown on the **Purchase and spend analysis** page (**Procurement and sourcing** \> **Inquiries and reports** \> **Purchase performance analysis** \> **Purchase and spend analysis**).</span></span>
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="6eb0a-119">Power BI içerik paketinde bulunan ölçümler</span><span class="sxs-lookup"><span data-stu-id="6eb0a-119">Metrics that are included in the Power BI content</span></span>
-<span data-ttu-id="6eb0a-120">**Satın alma harcaması analizi** Power BI içeriği bir dizi ölçümden oluşan bir rapor içerir.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-120">The **Purchase spend analysis** Power BI content includes a report that consists of a set of metrics.</span></span> <span data-ttu-id="6eb0a-121">Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-121">These metrics are visualized as charts, tiles, and tables.</span></span> <span data-ttu-id="6eb0a-122">Aşağıdaki tabloda, görsellere yönelik genel bakış sunulur.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-122">The following table provides an overview of the visualizations.</span></span>
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="3f829-119">Power BI içerik paketinde bulunan ölçümler</span><span class="sxs-lookup"><span data-stu-id="3f829-119">Metrics that are included in the Power BI content</span></span>
+<span data-ttu-id="3f829-120">**Satın alma harcaması analizi** Power BI içeriği bir dizi ölçümden oluşan bir rapor içerir.</span><span class="sxs-lookup"><span data-stu-id="3f829-120">The **Purchase spend analysis** Power BI content includes a report that consists of a set of metrics.</span></span> <span data-ttu-id="3f829-121">Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="3f829-121">These metrics are visualized as charts, tiles, and tables.</span></span> 
 
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="6eb0a-123">Rapor sayfası</span><span class="sxs-lookup"><span data-stu-id="6eb0a-123">Report page</span></span></th>
-<th><span data-ttu-id="6eb0a-124">Grafikler</span><span class="sxs-lookup"><span data-stu-id="6eb0a-124">Charts</span></span></th>
-<th><span data-ttu-id="6eb0a-125">Kutucuklar</span><span class="sxs-lookup"><span data-stu-id="6eb0a-125">Tiles</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="6eb0a-126">Satıcıya göre satınalma</span><span class="sxs-lookup"><span data-stu-id="6eb0a-126">Purchase by vendor</span></span></td>
-<td><ul>
-<li><span data-ttu-id="6eb0a-127">Satınalmaya göre en iyi 10 satıcı (yığılmış çubuk grafik)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-127">Top 10 vendors by purchase (stacked bar chart)</span></span></li>
-<li><span data-ttu-id="6eb0a-128">Satıcı grubuna / ülkeye / ada göre toplam satınalma (pasta grafik)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-128">Total purchase by vendor group / country / name (pie chart)</span></span></li>
-<li><span data-ttu-id="6eb0a-129">Satıcı grubuna / ülkeye / ada göre satınalma (sütun grafik)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-129">Purchase by vendor group / country / name (column chart)</span></span></li>
-<li><span data-ttu-id="6eb0a-130">Satıcı grubuna / ülkeye / ada göre ortalama satınalma (sütun grafik)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-130">Average purchase by vendor group / country / name (column chart)</span></span></li>
-</ul></td>
-<td><ul>
-<li><span data-ttu-id="6eb0a-131">Satınalma toplamı</span><span class="sxs-lookup"><span data-stu-id="6eb0a-131">Total purchase</span></span></li>
-<li><span data-ttu-id="6eb0a-132">Yıllara göre satınalmadaki büyüme</span><span class="sxs-lookup"><span data-stu-id="6eb0a-132">YOY purchase growth</span></span></li>
-<li><span data-ttu-id="6eb0a-133">Toplam satıcı sayısı</span><span class="sxs-lookup"><span data-stu-id="6eb0a-133">Total # vendors</span></span></li>
-<li><span data-ttu-id="6eb0a-134">Toplam etkin satıcı sayısı</span><span class="sxs-lookup"><span data-stu-id="6eb0a-134">Total # of active vendors</span></span></li>
-</ul></td>
-</tr>
-<tr>
-<td><span data-ttu-id="6eb0a-135">Ürüne göre satın alma</span><span class="sxs-lookup"><span data-stu-id="6eb0a-135">Purchase by product</span></span></td>
-<td><ul>
-<li><span data-ttu-id="6eb0a-136">Tedarik kategorisine / ürün adına göre satınalma (sütun grafiği)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-136">Purchase by procurement category / product name (column chart)</span></span></li>
-<li><span data-ttu-id="6eb0a-137">Tedarik kategorisine / ürün adına göre toplam satınalma (pasta grafik)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-137">Total purchase by procurement category / product name (pie chart)</span></span></li>
-<li><span data-ttu-id="6eb0a-138">Satınalmaya göre en iyi 10 ürün (yığılmış çubuk grafik)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-138">Top 10 products by purchase (stacked bar chart)</span></span></li>
-</ul></td>
-<td><ul>
-<li><span data-ttu-id="6eb0a-139">Toplam ürün sayısı</span><span class="sxs-lookup"><span data-stu-id="6eb0a-139">Total # of products</span></span></li>
-<li><span data-ttu-id="6eb0a-140">Etkin ürünlerin toplam sayısının toplam etkin ürünlere yüzdesi</span><span class="sxs-lookup"><span data-stu-id="6eb0a-140">Total active products percentage of total # of products</span></span></li>
-<li><span data-ttu-id="6eb0a-141">Satınalmanın %80'ini oluşturan ürünlerin sayısı</span><span class="sxs-lookup"><span data-stu-id="6eb0a-141">Number of products accounting for 80% purchase</span></span></li>
-</ul></td>
-</tr>
-<tr>
-<td><span data-ttu-id="6eb0a-142">Döneme göre satınalma\*</span><span class="sxs-lookup"><span data-stu-id="6eb0a-142">Purchase by period\*</span></span></td>
-<td><ul>
-<li><span data-ttu-id="6eb0a-143">Aya / güne göre satınalma (sütun grafiği)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-143">Purchase by month / day (column chart)</span></span></li>
-<li><span data-ttu-id="6eb0a-144">Toplam satınalmanın yıllara görefarkı (şelale grafik)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-144">Cumulative purchase YOY variance (waterfall chart)</span></span></li>
-<li><span data-ttu-id="6eb0a-145">Toplam satınalmada yıllara göre büyüme (sütun grafik)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-145">Total purchase YOY growth (column chart)</span></span></li>
-<li><span data-ttu-id="6eb0a-146">Tedarik ekstresi (matriks)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-146">Procurement statement (matrix)</span></span></li>
-</ul></td>
-<td><ul>
-<li><span data-ttu-id="6eb0a-147">Yıllara göre satınalmadaki büyüme</span><span class="sxs-lookup"><span data-stu-id="6eb0a-147">YOY purchase growth</span></span></li>
-<li><span data-ttu-id="6eb0a-148">Yıllara göre satınalmadaki büyüme yüzdesi</span><span class="sxs-lookup"><span data-stu-id="6eb0a-148">YOY purchase growth %</span></span></li>
-</ul></td>
-</tr>
-<tr>
-<td><span data-ttu-id="6eb0a-149">Satıcı konumuna göre satınalma</span><span class="sxs-lookup"><span data-stu-id="6eb0a-149">Purchase by vendor location</span></span></td>
-<td><ul>
-<li><span data-ttu-id="6eb0a-150">Şehre göre satınalma</span><span class="sxs-lookup"><span data-stu-id="6eb0a-150">Purchase by city</span></span></li>
-<li><span data-ttu-id="6eb0a-151">Satınalmada yıldan yıla büyüme yüzdesi</span><span class="sxs-lookup"><span data-stu-id="6eb0a-151">Purchase YOY growth %</span></span></li>
-<li><span data-ttu-id="6eb0a-152">Ülkeye göre satınalma</span><span class="sxs-lookup"><span data-stu-id="6eb0a-152">Purchase by country</span></span></li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td><span data-ttu-id="6eb0a-153">Zaman göre satınalma harcaması analizi</span><span class="sxs-lookup"><span data-stu-id="6eb0a-153">Purchase spend analysis by time</span></span></td>
-<td><ul>
-<li><span data-ttu-id="6eb0a-154">Aya / güne göre geçerli yıldaki satın alma (çizgi grafiği)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-154">Purchase current year by month / day (line chart)</span></span></li>
-<li><span data-ttu-id="6eb0a-155">Geçerli yıl ve önceki yıldaki satınalma (satır ve sütun grafiği)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-155">Purchase current and last year (line and column chart)</span></span></li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td><span data-ttu-id="6eb0a-156">Satıcıya göre satınalma harcaması analizi</span><span class="sxs-lookup"><span data-stu-id="6eb0a-156">Purchase spend analysis by vendor</span></span></td>
-<td><ul>
-<li><span data-ttu-id="6eb0a-157">İlk 10 satıcı satınalmanın satınalmaya göre yüzdesi (huni)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-157">Top 10 vendor purchase % of purchase (funnel)</span></span></li>
-<li><span data-ttu-id="6eb0a-158">Yıllara göre artan harcamayla en iyi 10 satıcı</span><span class="sxs-lookup"><span data-stu-id="6eb0a-158">Top 10 vendors with increased spending YOY</span></span></li>
-<li><span data-ttu-id="6eb0a-159">Yıllara göre azalan harcamayla en iyi 10 satıcı</span><span class="sxs-lookup"><span data-stu-id="6eb0a-159">Top 10 vendors with decreased spending YOY</span></span></li>
-</ul></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<span data-ttu-id="3f829-122">Aşağıdaki bölümde, görsellere yönelik genel bakış sunulur.</span><span class="sxs-lookup"><span data-stu-id="3f829-122">The following sections provide an overview of the visualizations.</span></span>
 
-<span data-ttu-id="6eb0a-160">\* Bu yılki ve geçen yılki satınalma ve tedarik kategorisine göre büyüme.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-160">\* Purchase this year and last year, and growth by procurement category</span></span>
+### <a name="purchase-by-vendor-report-page"></a><span data-ttu-id="3f829-123">Satıcı bazında satınalma rapor sayfası</span><span class="sxs-lookup"><span data-stu-id="3f829-123">Purchase by vendor report page</span></span>
+<span data-ttu-id="3f829-124">**Grafikler**</span><span class="sxs-lookup"><span data-stu-id="3f829-124">**Charts**</span></span>
+- <span data-ttu-id="3f829-125">Satınalmaya göre en iyi 10 satıcı (yığılmış çubuk grafik)</span><span class="sxs-lookup"><span data-stu-id="3f829-125">Top 10 vendors by purchase (stacked bar chart)</span></span>
+- <span data-ttu-id="3f829-126">Satıcı grubuna / ülkeye / ada göre toplam satınalma (pasta grafik)</span><span class="sxs-lookup"><span data-stu-id="3f829-126">Total purchase by vendor group / country / name (pie chart)</span></span>
+- <span data-ttu-id="3f829-127">Satıcı grubuna / ülkeye / ada göre satınalma (sütun grafik)</span><span class="sxs-lookup"><span data-stu-id="3f829-127">Purchase by vendor group / country / name (column chart)</span></span>
+- <span data-ttu-id="3f829-128">Satıcı grubuna / ülkeye / ada göre ortalama satınalma (sütun grafik)</span><span class="sxs-lookup"><span data-stu-id="3f829-128">Average purchase by vendor group / country / name (column chart)</span></span>
 
-## <a name="data-model-and-entities"></a><span data-ttu-id="6eb0a-161">Veri modeli ve varlıklar</span><span class="sxs-lookup"><span data-stu-id="6eb0a-161">Data model and entities</span></span>
-<span data-ttu-id="6eb0a-162">Aşağıdaki veriler **Satınalma harcaması analizi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-162">The following data is used to fill the report pages in the **Purchase spend analysis** Power BI content.</span></span> <span data-ttu-id="6eb0a-163">Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-163">This data is represented as aggregate measurements that are staged in the Entity store.</span></span> <span data-ttu-id="6eb0a-164">Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-164">The Entity store is a Microsoft SQL Server database that is optimized for analytics.</span></span> <span data-ttu-id="6eb0a-165">Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md).</span><span class="sxs-lookup"><span data-stu-id="6eb0a-165">For more information, see [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span>
+<span data-ttu-id="3f829-129">**Kutucuklar**</span><span class="sxs-lookup"><span data-stu-id="3f829-129">**Tiles**</span></span>
+- <span data-ttu-id="3f829-130">Satınalma toplamı</span><span class="sxs-lookup"><span data-stu-id="3f829-130">Total purchase</span></span>
+- <span data-ttu-id="3f829-131">Yıllara göre satınalmadaki büyüme</span><span class="sxs-lookup"><span data-stu-id="3f829-131">YOY purchase growth</span></span>
+- <span data-ttu-id="3f829-132">Toplam satıcı sayısı</span><span class="sxs-lookup"><span data-stu-id="3f829-132">Total # vendors</span></span>
+- <span data-ttu-id="3f829-133">Toplam etkin satıcı sayısı</span><span class="sxs-lookup"><span data-stu-id="3f829-133">Total # of active vendors</span></span>
 
-<span data-ttu-id="6eb0a-166">Bu içerik paketindeki toplama ölçümler, Microsoft Dynamics AX 2012 ve Microsoft Dynamics AX 2012 R3'teki Satınalma Küpü'nde bulunan toplama ölçümlerin alt kümesidir.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-166">The aggregate measurements in this content are the subset of aggregate measurements that were available in the Purchase Cube in Microsoft Dynamics AX 2012 and Microsoft Dynamics AX 2012 R3.</span></span> <span data-ttu-id="6eb0a-167">Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-167">To stage the cube's aggregate measurements in the Entity store, you must make them deployable.</span></span> <span data-ttu-id="6eb0a-168">Daha fazla bilgi için, [Power BI ile Varlık deposu tümleştirmesine genel bakış bölümündeki toplanan ölçümleri Varlık Deposuna ekleme yordamına](power-bi-integration-entity-store.md) bakın.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-168">For more information, see the procedure for staging aggregate measurements in the Entity store in [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span> <span data-ttu-id="6eb0a-169">Aşağıda verilen önemli toplanan ölçümleri doğrudan Fatura satırları varlığından kullanılabilir ve içeriğin temeli olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-169">The following key aggregate measurements are available directly from the Invoice lines entity and are used as the basis of the content.</span></span>
+<span data-ttu-id="3f829-134">**Örnek**</span><span class="sxs-lookup"><span data-stu-id="3f829-134">**Example**</span></span>
+<img src="media/spend1.PNG" alt="Purchase by vendor">
 
-| <span data-ttu-id="6eb0a-170">Varlık</span><span class="sxs-lookup"><span data-stu-id="6eb0a-170">Entity</span></span>        | <span data-ttu-id="6eb0a-171">Önemli toplam ölçümler</span><span class="sxs-lookup"><span data-stu-id="6eb0a-171">Key aggregate measurements</span></span> | <span data-ttu-id="6eb0a-172">Veri kaynağı</span><span class="sxs-lookup"><span data-stu-id="6eb0a-172">Data source</span></span>                                 | <span data-ttu-id="6eb0a-173">Alan</span><span class="sxs-lookup"><span data-stu-id="6eb0a-173">Field</span></span>              | <span data-ttu-id="6eb0a-174">Açıklama</span><span class="sxs-lookup"><span data-stu-id="6eb0a-174">Description</span></span>                            |
+### <a name="purchase-by-product-report-page"></a><span data-ttu-id="3f829-135">Ürün bazında satınalma rapor sayfası</span><span class="sxs-lookup"><span data-stu-id="3f829-135">Purchase by product report page</span></span>
+
+<span data-ttu-id="3f829-136">**Grafikler**</span><span class="sxs-lookup"><span data-stu-id="3f829-136">**Charts**</span></span>
+- <span data-ttu-id="3f829-137">Tedarik kategorisine / ürün adına göre satınalma (sütun grafiği)</span><span class="sxs-lookup"><span data-stu-id="3f829-137">Purchase by procurement category / product name (column chart)</span></span>
+- <span data-ttu-id="3f829-138">Tedarik kategorisine / ürün adına göre toplam satınalma (pasta grafik)</span><span class="sxs-lookup"><span data-stu-id="3f829-138">Total purchase by procurement category / product name (pie chart)</span></span>
+- <span data-ttu-id="3f829-139">Satınalmaya göre en iyi 10 ürün (yığılmış çubuk grafik)</span><span class="sxs-lookup"><span data-stu-id="3f829-139">Top 10 products by purchase (stacked bar chart)</span></span>
+
+<span data-ttu-id="3f829-140">**Kutucuklar**</span><span class="sxs-lookup"><span data-stu-id="3f829-140">**Tiles**</span></span>
+- <span data-ttu-id="3f829-141">Toplam ürün sayısı</span><span class="sxs-lookup"><span data-stu-id="3f829-141">Total # of products</span></span></li>
+- <span data-ttu-id="3f829-142">Etkin ürünlerin toplam sayısının toplam etkin ürünlere yüzdesi</span><span class="sxs-lookup"><span data-stu-id="3f829-142">Total active products percentage of total # of products</span></span>
+- <span data-ttu-id="3f829-143">Satınalmanın %80'ini oluşturan ürünlerin sayısı</span><span class="sxs-lookup"><span data-stu-id="3f829-143">Number of products accounting for 80% purchase</span></span>
+
+<span data-ttu-id="3f829-144">**Örnek**</span><span class="sxs-lookup"><span data-stu-id="3f829-144">**Example**</span></span>
+
+
+<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+
+### <a name="purchase-by-period-report-page"></a><span data-ttu-id="3f829-145">Dönem bazında satınalma rapor sayfası</span><span class="sxs-lookup"><span data-stu-id="3f829-145">Purchase by period report page</span></span>
+<span data-ttu-id="3f829-146">Bu sayfa bu yılki ve geçen yılki satınalmayı ve tedarik kategorisine göre büyümeyi gösterir.</span><span class="sxs-lookup"><span data-stu-id="3f829-146">This page shows purchases this year and last year, and growth by procurement category.</span></span>
+
+<span data-ttu-id="3f829-147">**Grafikler**</span><span class="sxs-lookup"><span data-stu-id="3f829-147">**Charts**</span></span> 
+- <span data-ttu-id="3f829-148">Aya / güne göre satınalma (sütun grafiği)</span><span class="sxs-lookup"><span data-stu-id="3f829-148">Purchase by month / day (column chart)</span></span>
+- <span data-ttu-id="3f829-149">Toplam satınalmanın yıllara görefarkı (şelale grafik)</span><span class="sxs-lookup"><span data-stu-id="3f829-149">Cumulative purchase YOY variance (waterfall chart)</span></span>
+- <span data-ttu-id="3f829-150">Toplam satınalmada yıllara göre büyüme (sütun grafik)</span><span class="sxs-lookup"><span data-stu-id="3f829-150">Total purchase YOY growth (column chart)</span></span>
+- <span data-ttu-id="3f829-151">Tedarik ekstresi (matriks)</span><span class="sxs-lookup"><span data-stu-id="3f829-151">Procurement statement (matrix)</span></span>
+
+<span data-ttu-id="3f829-152">**Kutucuklar**</span><span class="sxs-lookup"><span data-stu-id="3f829-152">**Tiles**</span></span>
+- <span data-ttu-id="3f829-153">Yıllara göre satınalmadaki büyüme</span><span class="sxs-lookup"><span data-stu-id="3f829-153">YOY purchase growth</span></span>
+- <span data-ttu-id="3f829-154">Yıllara göre satınalmadaki büyüme yüzdesi</span><span class="sxs-lookup"><span data-stu-id="3f829-154">YOY purchase growth %</span></span>
+
+<span data-ttu-id="3f829-155">**Örnek**</span><span class="sxs-lookup"><span data-stu-id="3f829-155">**Example**</span></span>
+<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+
+### <a name="purchase-by-vendor-location-report-page"></a><span data-ttu-id="3f829-156">Satıcı konumu bazında satınalma rapor sayfası</span><span class="sxs-lookup"><span data-stu-id="3f829-156">Purchase by vendor location report page</span></span>
+
+<span data-ttu-id="3f829-157">**Grafikler**</span><span class="sxs-lookup"><span data-stu-id="3f829-157">**Charts**</span></span>
+- <span data-ttu-id="3f829-158">Şehre göre satınalma</span><span class="sxs-lookup"><span data-stu-id="3f829-158">Purchase by city</span></span>
+- <span data-ttu-id="3f829-159">Satınalmada yıldan yıla büyüme yüzdesi</span><span class="sxs-lookup"><span data-stu-id="3f829-159">Purchase YOY growth %</span></span>
+- <span data-ttu-id="3f829-160">Ülkeye göre satınalma</span><span class="sxs-lookup"><span data-stu-id="3f829-160">Purchase by country</span></span>
+
+<span data-ttu-id="3f829-161">**Örnek**</span><span class="sxs-lookup"><span data-stu-id="3f829-161">**Example**</span></span>
+<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+
+### <a name="purchase-spend-analysis-by-time-report-page"></a><span data-ttu-id="3f829-162">Zamana göre satınalma harcaması analizi rapor sayfası</span><span class="sxs-lookup"><span data-stu-id="3f829-162">Purchase spend analysis by time report page</span></span>
+
+<span data-ttu-id="3f829-163">**Grafikler**</span><span class="sxs-lookup"><span data-stu-id="3f829-163">**Charts**</span></span> 
+- <span data-ttu-id="3f829-164">Aya / güne göre geçerli yıldaki satın alma (çizgi grafiği)</span><span class="sxs-lookup"><span data-stu-id="3f829-164">Purchase current year by month / day (line chart)</span></span>
+- <span data-ttu-id="3f829-165">Geçerli yıl ve önceki yıldaki satınalma (satır ve sütun grafiği)</span><span class="sxs-lookup"><span data-stu-id="3f829-165">Purchase current and last year (line and column chart)</span></span>
+
+<span data-ttu-id="3f829-166">**Örnek**</span><span class="sxs-lookup"><span data-stu-id="3f829-166">**Example**</span></span>
+<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+
+### <a name="purchase-spend-analysis-by-vendor-report-page"></a><span data-ttu-id="3f829-167">Satıcıya göre satınalma harcaması analizi rapor sayfası</span><span class="sxs-lookup"><span data-stu-id="3f829-167">Purchase spend analysis by vendor report page</span></span>
+
+<span data-ttu-id="3f829-168">**Grafikler**</span><span class="sxs-lookup"><span data-stu-id="3f829-168">**Charts**</span></span> 
+- <span data-ttu-id="3f829-169">İlk 10 satıcı satınalmanın satınalmaya göre yüzdesi (huni)</span><span class="sxs-lookup"><span data-stu-id="3f829-169">Top 10 vendor purchase % of purchase (funnel)</span></span>
+- <span data-ttu-id="3f829-170">Yıllara göre artan harcamayla en iyi 10 satıcı</span><span class="sxs-lookup"><span data-stu-id="3f829-170">Top 10 vendors with increased spending YOY</span></span>
+- <span data-ttu-id="3f829-171">Yıllara göre azalan harcamayla en iyi 10 satıcı</span><span class="sxs-lookup"><span data-stu-id="3f829-171">Top 10 vendors with decreased spending YOY</span></span>
+
+<span data-ttu-id="3f829-172">**Örnek** 
+</span><span class="sxs-lookup"><span data-stu-id="3f829-172">**Example** 
+</span></span><img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+
+
+## <a name="data-model-and-entities"></a><span data-ttu-id="3f829-173">Veri modeli ve varlıklar</span><span class="sxs-lookup"><span data-stu-id="3f829-173">Data model and entities</span></span>
+<span data-ttu-id="3f829-174">Aşağıdaki veriler **Satınalma harcaması analizi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="3f829-174">The following data is used to fill the report pages in the **Purchase spend analysis** Power BI content.</span></span> <span data-ttu-id="3f829-175">Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur.</span><span class="sxs-lookup"><span data-stu-id="3f829-175">This data is represented as aggregate measurements that are staged in the Entity store.</span></span> <span data-ttu-id="3f829-176">Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır.</span><span class="sxs-lookup"><span data-stu-id="3f829-176">The Entity store is a Microsoft SQL Server database that is optimized for analytics.</span></span> <span data-ttu-id="3f829-177">Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md).</span><span class="sxs-lookup"><span data-stu-id="3f829-177">For more information, see [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span>
+
+<span data-ttu-id="3f829-178">Bu içerik paketindeki toplama ölçümler, Microsoft Dynamics AX 2012 ve Microsoft Dynamics AX 2012 R3'teki Satınalma Küpü'nde bulunan toplama ölçümlerin alt kümesidir.</span><span class="sxs-lookup"><span data-stu-id="3f829-178">The aggregate measurements in this content are the subset of aggregate measurements that were available in the Purchase Cube in Microsoft Dynamics AX 2012 and Microsoft Dynamics AX 2012 R3.</span></span> <span data-ttu-id="3f829-179">Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="3f829-179">To stage the cube's aggregate measurements in the Entity store, you must make them deployable.</span></span> <span data-ttu-id="3f829-180">Daha fazla bilgi için, [Power BI ile Varlık deposu tümleştirmesine genel bakış bölümündeki toplanan ölçümleri Varlık Deposuna ekleme yordamına](power-bi-integration-entity-store.md) bakın.</span><span class="sxs-lookup"><span data-stu-id="3f829-180">For more information, see the procedure for staging aggregate measurements in the Entity store in [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span> <span data-ttu-id="3f829-181">Aşağıda verilen önemli toplanan ölçümleri doğrudan Fatura satırları varlığından kullanılabilir ve içeriğin temeli olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="3f829-181">The following key aggregate measurements are available directly from the Invoice lines entity and are used as the basis of the content.</span></span>
+
+| <span data-ttu-id="3f829-182">Varlık</span><span class="sxs-lookup"><span data-stu-id="3f829-182">Entity</span></span>        | <span data-ttu-id="3f829-183">Önemli toplam ölçümler</span><span class="sxs-lookup"><span data-stu-id="3f829-183">Key aggregate measurements</span></span> | <span data-ttu-id="3f829-184">Veri kaynağı</span><span class="sxs-lookup"><span data-stu-id="3f829-184">Data source</span></span>                                 | <span data-ttu-id="3f829-185">Alan</span><span class="sxs-lookup"><span data-stu-id="3f829-185">Field</span></span>              | <span data-ttu-id="3f829-186">Açıklama</span><span class="sxs-lookup"><span data-stu-id="3f829-186">Description</span></span>                            |
 |---------------|----------------------------|---------------------------------------------|--------------------|----------------------------------------|
-| <span data-ttu-id="6eb0a-175">Fatura satırları</span><span class="sxs-lookup"><span data-stu-id="6eb0a-175">Invoice lines</span></span> | <span data-ttu-id="6eb0a-176">Satınalma</span><span class="sxs-lookup"><span data-stu-id="6eb0a-176">Purchase</span></span>                   | <span data-ttu-id="6eb0a-177">VendInvoiceTrans</span><span class="sxs-lookup"><span data-stu-id="6eb0a-177">VendInvoiceTrans</span></span>                            | <span data-ttu-id="6eb0a-178">SUM(LineAmountMST)</span><span class="sxs-lookup"><span data-stu-id="6eb0a-178">SUM(LineAmountMST)</span></span> | <span data-ttu-id="6eb0a-179">Muhasebe para birimi cinsinden tutar.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-179">The amount in the accounting currency.</span></span> |
+| <span data-ttu-id="3f829-187">Fatura satırları</span><span class="sxs-lookup"><span data-stu-id="3f829-187">Invoice lines</span></span> | <span data-ttu-id="3f829-188">Satınalma</span><span class="sxs-lookup"><span data-stu-id="3f829-188">Purchase</span></span>                   | <span data-ttu-id="3f829-189">VendInvoiceTrans</span><span class="sxs-lookup"><span data-stu-id="3f829-189">VendInvoiceTrans</span></span>                            | <span data-ttu-id="3f829-190">SUM(LineAmountMST)</span><span class="sxs-lookup"><span data-stu-id="3f829-190">SUM(LineAmountMST)</span></span> | <span data-ttu-id="3f829-191">Muhasebe para birimi cinsinden tutar.</span><span class="sxs-lookup"><span data-stu-id="3f829-191">The amount in the accounting currency.</span></span> |
 
-<span data-ttu-id="6eb0a-180">Aşağıdaki tablo içerikte Fatura satırları varlığından hesaplanan anahtar ölçümleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-180">The following table shows the key measurements in the content that are calculated from the Invoice lines entity.</span></span>
+<span data-ttu-id="3f829-192">Aşağıdaki tablo içerikte Fatura satırları varlığından hesaplanan anahtar ölçümleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="3f829-192">The following table shows the key measurements in the content that are calculated from the Invoice lines entity.</span></span>
 
-| <span data-ttu-id="6eb0a-181">Ölçü</span><span class="sxs-lookup"><span data-stu-id="6eb0a-181">Measure</span></span>               | <span data-ttu-id="6eb0a-182">Hesaplama</span><span class="sxs-lookup"><span data-stu-id="6eb0a-182">Calculation</span></span>                                                                                         |
+| <span data-ttu-id="3f829-193">Ölçü</span><span class="sxs-lookup"><span data-stu-id="3f829-193">Measure</span></span>               | <span data-ttu-id="3f829-194">Hesaplama</span><span class="sxs-lookup"><span data-stu-id="3f829-194">Calculation</span></span>                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="6eb0a-183">Geçerli yıldaki satınalma</span><span class="sxs-lookup"><span data-stu-id="6eb0a-183">Purchase current year</span></span> | <span data-ttu-id="6eb0a-184">Geçerli yıldaki satınalma = TOPLA('Fatura satırları'\[Satınalma\])</span><span class="sxs-lookup"><span data-stu-id="6eb0a-184">Purchase current year = SUM('Invoice lines'\[Purchase\])</span></span>                                            |
-| <span data-ttu-id="6eb0a-185">Geçen yılki satınalma</span><span class="sxs-lookup"><span data-stu-id="6eb0a-185">Purchase last year</span></span>    | <span data-ttu-id="6eb0a-186">Geçen yılki satınalma = HESAPLA(TOPLA('Fatura satırları'\[Satınalma\]), SAMEPERIODLASTYEAR (Tarihler\[Tarih\])</span><span class="sxs-lookup"><span data-stu-id="6eb0a-186">Purchase last year = CALCULATE(SUM('Invoice lines'\[Purchase\]), SAMEPERIODLASTYEAR(Dates\[Date\]))</span></span> |
-| <span data-ttu-id="6eb0a-187">Yıllara göre satınalmadaki büyüme</span><span class="sxs-lookup"><span data-stu-id="6eb0a-187">YOY purchase growth</span></span>   | <span data-ttu-id="6eb0a-188">Yıllara göre satınalmadaki büyüme = \[Geçerli yıldaki satınalma\]: \[Geçen yıldaki satınalma\]</span><span class="sxs-lookup"><span data-stu-id="6eb0a-188">YOY purchase growth = \[Purchase current year\] – \[Purchase last year\]</span></span>                            |
+| <span data-ttu-id="3f829-195">Geçerli yıldaki satınalma</span><span class="sxs-lookup"><span data-stu-id="3f829-195">Purchase current year</span></span> | <span data-ttu-id="3f829-196">Geçerli yıldaki satınalma = TOPLA('Fatura satırları'\[Satınalma\])</span><span class="sxs-lookup"><span data-stu-id="3f829-196">Purchase current year = SUM('Invoice lines'\[Purchase\])</span></span>                                            |
+| <span data-ttu-id="3f829-197">Geçen yılki satınalma</span><span class="sxs-lookup"><span data-stu-id="3f829-197">Purchase last year</span></span>    | <span data-ttu-id="3f829-198">Geçen yılki satınalma = HESAPLA(TOPLA('Fatura satırları'\[Satınalma\]), SAMEPERIODLASTYEAR (Tarihler\[Tarih\])</span><span class="sxs-lookup"><span data-stu-id="3f829-198">Purchase last year = CALCULATE(SUM('Invoice lines'\[Purchase\]), SAMEPERIODLASTYEAR(Dates\[Date\]))</span></span> |
+| <span data-ttu-id="3f829-199">Yıllara göre satınalmadaki büyüme</span><span class="sxs-lookup"><span data-stu-id="3f829-199">YOY purchase growth</span></span>   | <span data-ttu-id="3f829-200">Yıllara göre satınalmadaki büyüme = \[Geçerli yıldaki satınalma\]: \[Geçen yıldaki satınalma\]</span><span class="sxs-lookup"><span data-stu-id="3f829-200">YOY purchase growth = \[Purchase current year\] – \[Purchase last year\]</span></span>                            |
 
-<span data-ttu-id="6eb0a-189">İçerikte bulunan aşağıdaki temel boyutları, daha büyük hassasiyet ve daha derin analiz bilgileri elde edebilmeniz amacıyla toplama ölçümlerini bölmek üzere filtre olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-189">The following key dimensions in the content are used as filters to slice the aggregate measurements, so that you can achieve more granularity and gain deeper analytical insights.</span></span>
+<span data-ttu-id="3f829-201">İçerikte bulunan aşağıdaki temel boyutları, daha büyük hassasiyet ve daha derin analiz bilgileri elde edebilmeniz amacıyla toplama ölçümlerini bölmek üzere filtre olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="3f829-201">The following key dimensions in the content are used as filters to slice the aggregate measurements, so that you can achieve more granularity and gain deeper analytical insights.</span></span>
 
-| <span data-ttu-id="6eb0a-190">Varlık</span><span class="sxs-lookup"><span data-stu-id="6eb0a-190">Entity</span></span>                 | <span data-ttu-id="6eb0a-191">Öznitelik örnekleri</span><span class="sxs-lookup"><span data-stu-id="6eb0a-191">Examples of attributes</span></span>                                |
+| <span data-ttu-id="3f829-202">Varlık</span><span class="sxs-lookup"><span data-stu-id="3f829-202">Entity</span></span>                 | <span data-ttu-id="3f829-203">Öznitelik örnekleri</span><span class="sxs-lookup"><span data-stu-id="3f829-203">Examples of attributes</span></span>                                |
 |------------------------|-------------------------------------------------------|
-| <span data-ttu-id="6eb0a-192">Satıcılar</span><span class="sxs-lookup"><span data-stu-id="6eb0a-192">Vendors</span></span>                | <span data-ttu-id="6eb0a-193">Satıcı grupları, Satıcı ülkesi veya bölgeleri, Satıcı adı</span><span class="sxs-lookup"><span data-stu-id="6eb0a-193">Vendor groups, Vendor country or regions, Vendor name</span></span> |
-| <span data-ttu-id="6eb0a-194">Ürünler</span><span class="sxs-lookup"><span data-stu-id="6eb0a-194">Products</span></span>               | <span data-ttu-id="6eb0a-195">Ürün numarası, Ürün adı, Madde grupları adı</span><span class="sxs-lookup"><span data-stu-id="6eb0a-195">Product number, Product name, Item groups name</span></span>        |
-| <span data-ttu-id="6eb0a-196">Tedarik kategorileri</span><span class="sxs-lookup"><span data-stu-id="6eb0a-196">Procurement categories</span></span> | <span data-ttu-id="6eb0a-197">Tedarik kategorisi, Tedarik kategorisi adları</span><span class="sxs-lookup"><span data-stu-id="6eb0a-197">Procurement category, Procurement category names</span></span>      |
-| <span data-ttu-id="6eb0a-198">Tüzel kişilikler</span><span class="sxs-lookup"><span data-stu-id="6eb0a-198">Legal entities</span></span>         | <span data-ttu-id="6eb0a-199">Tüzel kişiliğin adı</span><span class="sxs-lookup"><span data-stu-id="6eb0a-199">Legal entity name</span></span>                                     |
-| <span data-ttu-id="6eb0a-200">Tarihler</span><span class="sxs-lookup"><span data-stu-id="6eb0a-200">Dates</span></span>                  | <span data-ttu-id="6eb0a-201">Tarihler, Yıl denkleştirme</span><span class="sxs-lookup"><span data-stu-id="6eb0a-201">Dates, Year offset</span></span>                                    |
+| <span data-ttu-id="3f829-204">Satıcılar</span><span class="sxs-lookup"><span data-stu-id="3f829-204">Vendors</span></span>                | <span data-ttu-id="3f829-205">Satıcı grupları, Satıcı ülkesi veya bölgeleri, Satıcı adı</span><span class="sxs-lookup"><span data-stu-id="3f829-205">Vendor groups, Vendor country or regions, Vendor name</span></span> |
+| <span data-ttu-id="3f829-206">Ürünler</span><span class="sxs-lookup"><span data-stu-id="3f829-206">Products</span></span>               | <span data-ttu-id="3f829-207">Ürün numarası, Ürün adı, Madde grupları adı</span><span class="sxs-lookup"><span data-stu-id="3f829-207">Product number, Product name, Item groups name</span></span>        |
+| <span data-ttu-id="3f829-208">Tedarik kategorileri</span><span class="sxs-lookup"><span data-stu-id="3f829-208">Procurement categories</span></span> | <span data-ttu-id="3f829-209">Tedarik kategorisi, Tedarik kategorisi adları</span><span class="sxs-lookup"><span data-stu-id="3f829-209">Procurement category, Procurement category names</span></span>      |
+| <span data-ttu-id="3f829-210">Tüzel kişilikler</span><span class="sxs-lookup"><span data-stu-id="3f829-210">Legal entities</span></span>         | <span data-ttu-id="3f829-211">Tüzel kişiliğin adı</span><span class="sxs-lookup"><span data-stu-id="3f829-211">Legal entity name</span></span>                                     |
+| <span data-ttu-id="3f829-212">Tarihler</span><span class="sxs-lookup"><span data-stu-id="3f829-212">Dates</span></span>                  | <span data-ttu-id="3f829-213">Tarihler, Yıl denkleştirme</span><span class="sxs-lookup"><span data-stu-id="3f829-213">Dates, Year offset</span></span>                                    |
 
-<span data-ttu-id="6eb0a-202">Varsayılan olarak, içerik geçerli takvim yılına ilişkin verileri gösterir.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-202">By default, the content shows data for the current calendar year.</span></span> <span data-ttu-id="6eb0a-203">Ancak, rapor filtreleri bölümünden tarih filtresini değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-203">However, you can change the date filter in the report filters section.</span></span> <span data-ttu-id="6eb0a-204">Şirket filtresini de değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6eb0a-204">You can also change the company filter.</span></span>
+<span data-ttu-id="3f829-214">Varsayılan olarak, içerik geçerli takvim yılına ilişkin verileri gösterir.</span><span class="sxs-lookup"><span data-stu-id="3f829-214">By default, the content shows data for the current calendar year.</span></span> <span data-ttu-id="3f829-215">Ancak, rapor filtreleri bölümünden tarih filtresini değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3f829-215">However, you can change the date filter in the report filters section.</span></span> <span data-ttu-id="3f829-216">Şirket filtresini de değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3f829-216">You can also change the company filter.</span></span>

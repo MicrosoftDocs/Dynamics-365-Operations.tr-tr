@@ -16,25 +16,25 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a9878a03181ccb1eb9e31edefae345cee84b40c5
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310220"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1543830"
 ---
-# <a name="create-a-cost-accounting-ledger"></a><span data-ttu-id="f9063-103">Maliyet muhasebesi genel muhasebesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="f9063-103">Create a cost accounting ledger</span></span>
+# <a name="create-a-cost-accounting-ledger"></a><span data-ttu-id="fa3dd-103">Maliyet muhasebesi genel muhasebesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="fa3dd-103">Create a cost accounting ledger</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="f9063-104">Bir maliyet muhasebesi defteri, genel raporlama birimini temsil eder.</span><span class="sxs-lookup"><span data-stu-id="f9063-104">A cost accounting ledger represents the overall reporting unit.</span></span> <span data-ttu-id="f9063-105">Maliyet öğesi boyutu, istatistiksel boyut, mali takvim ve para birimi tarafından tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="f9063-105">It is defined by a cost element dimension, statistical dimension, fiscal calendar, and currency.</span></span> <span data-ttu-id="f9063-106">Tüzel kişiler kavramına agnostiktir.</span><span class="sxs-lookup"><span data-stu-id="f9063-106">It is agnostic to the concept of legal entities.</span></span> <span data-ttu-id="f9063-107">Bir tüzel kişilik ve verisi birden fazla maliyet muhasebesi defteri ile ilişkili olabilir.</span><span class="sxs-lookup"><span data-stu-id="f9063-107">A legal entity and its data can be associated with many cost accounting ledgers.</span></span> <span data-ttu-id="f9063-108">Bu kayıt USP2 demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="f9063-108">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="fa3dd-104">Bir maliyet muhasebesi defteri, genel raporlama birimini temsil eder.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-104">A cost accounting ledger represents the overall reporting unit.</span></span> <span data-ttu-id="fa3dd-105">Maliyet öğesi boyutu, istatistiksel boyut, mali takvim ve para birimi tarafından tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-105">It is defined by a cost element dimension, statistical dimension, fiscal calendar, and currency.</span></span> <span data-ttu-id="fa3dd-106">Tüzel kişiler kavramına agnostiktir.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-106">It is agnostic to the concept of legal entities.</span></span> <span data-ttu-id="fa3dd-107">Bir tüzel kişilik ve verisi birden fazla maliyet muhasebesi defteri ile ilişkili olabilir.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-107">A legal entity and its data can be associated with many cost accounting ledgers.</span></span> <span data-ttu-id="fa3dd-108">Bu kayıt USP2 demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-108">This recording uses the USP2 demo data company.</span></span>
 
-1. <span data-ttu-id="f9063-109">Maliyet muhasebesi > Genel muhasebe kurulumu > Maliyet muhasebesi defterleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="f9063-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
-2. <span data-ttu-id="f9063-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f9063-110">Click New.</span></span>
-3. <span data-ttu-id="f9063-111">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="f9063-111">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="f9063-112">Maliyet öğesi boyutu alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f9063-112">In the Cost element dimension field, enter or select a value.</span></span>
-5. <span data-ttu-id="f9063-113">Mali takvim alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f9063-113">In the Fiscal calendar field, enter or select a value.</span></span>
-6. <span data-ttu-id="f9063-114">Muhasebe para birimi alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="f9063-114">In the Accounting currency field, enter or select a value.</span></span>
-7. <span data-ttu-id="f9063-115">Döviz kuru türü alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f9063-115">In the Exchange rate type field, enter or select a value.</span></span>
-8. <span data-ttu-id="f9063-116">İstatistiksel boyutu alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f9063-116">In the Statistical dimension field, enter or select a value.</span></span>
-9. <span data-ttu-id="f9063-117">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f9063-117">Click Save.</span></span>
+1. <span data-ttu-id="fa3dd-109">Maliyet muhasebesi > Genel muhasebe kurulumu > Maliyet muhasebesi defterleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="fa3dd-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-110">Click New.</span></span>
+3. <span data-ttu-id="fa3dd-111">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-111">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="fa3dd-112">Maliyet öğesi boyutu alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-112">In the Cost element dimension field, enter or select a value.</span></span>
+5. <span data-ttu-id="fa3dd-113">Mali takvim alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-113">In the Fiscal calendar field, enter or select a value.</span></span>
+6. <span data-ttu-id="fa3dd-114">Muhasebe para birimi alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-114">In the Accounting currency field, enter or select a value.</span></span>
+7. <span data-ttu-id="fa3dd-115">Döviz kuru türü alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-115">In the Exchange rate type field, enter or select a value.</span></span>
+8. <span data-ttu-id="fa3dd-116">İstatistiksel boyutu alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-116">In the Statistical dimension field, enter or select a value.</span></span>
+9. <span data-ttu-id="fa3dd-117">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fa3dd-117">Click Save.</span></span>
 
