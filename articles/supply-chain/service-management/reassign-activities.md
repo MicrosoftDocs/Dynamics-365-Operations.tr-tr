@@ -19,42 +19,42 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 215b10cc0733c1beab52fa39e09c83d40a6297a3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "352586"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557442"
 ---
-# <a name="reassign-activities"></a><span data-ttu-id="6a341-103">Faaliyetleri yeniden atama</span><span class="sxs-lookup"><span data-stu-id="6a341-103">Reassign activities</span></span> 
+# <a name="reassign-activities"></a><span data-ttu-id="1c958-103">Faaliyetleri yeniden atama</span><span class="sxs-lookup"><span data-stu-id="1c958-103">Reassign activities</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="6a341-104">Bu konu servis faaliyetlerinin bir çalışandan başka bir çalışana nasıl yeniden atanabileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="6a341-104">This topic describes how to reassign service activities from one worker to another worker.</span></span> <span data-ttu-id="6a341-105">Çalışanlar farklı gönderme ekiplerine atanmış olsa bile servis faaliyetlerini bir çalışandan başka bir çalışana yeniden atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6a341-105">You can reassign service activities from one worker to another worker even if those workers are assigned to different dispatch teams.</span></span>
+<span data-ttu-id="1c958-104">Bu konu servis faaliyetlerinin bir çalışandan başka bir çalışana nasıl yeniden atanabileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="1c958-104">This topic describes how to reassign service activities from one worker to another worker.</span></span> <span data-ttu-id="1c958-105">Çalışanlar farklı gönderme ekiplerine atanmış olsa bile servis faaliyetlerini bir çalışandan başka bir çalışana yeniden atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1c958-105">You can reassign service activities from one worker to another worker even if those workers are assigned to different dispatch teams.</span></span>
 
-<span data-ttu-id="6a341-106">Faaliyeti başka bir çalışana yeniden atamak için aşağıdaki adımları kullanın:</span><span class="sxs-lookup"><span data-stu-id="6a341-106">Use the following steps to reassign an activity to another worker:</span></span>
+<span data-ttu-id="1c958-106">Faaliyeti başka bir çalışana yeniden atamak için aşağıdaki adımları kullanın:</span><span class="sxs-lookup"><span data-stu-id="1c958-106">Use the following steps to reassign an activity to another worker:</span></span>
 
-1.  <span data-ttu-id="6a341-107">**Servis yönetimi** \> **Periyodik** \> **Gönderme panosu**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a341-107">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+1.  <span data-ttu-id="1c958-107">**Servis yönetimi** \> **Periyodik** \> **Gönderme panosu**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1c958-107">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-2.  <span data-ttu-id="6a341-108">**Başlangıç tarihi** ve **Bitiş tarihi** alanlarına, faaliyetleri görmek istediğiniz dönemi tanımlamak üzere tarih girin.</span><span class="sxs-lookup"><span data-stu-id="6a341-108">In the **From date** and **To date** fields, enter dates to define the time period to view activities for.</span></span>
+2.  <span data-ttu-id="1c958-108">**Başlangıç tarihi** ve **Bitiş tarihi** alanlarına, faaliyetleri görmek istediğiniz dönemi tanımlamak üzere tarih girin.</span><span class="sxs-lookup"><span data-stu-id="1c958-108">In the **From date** and **To date** fields, enter dates to define the time period to view activities for.</span></span>
 
-3.  <span data-ttu-id="6a341-109">Kapatılan faaliyetlerin ve ilgili ekipler için gönderme bilgilerinin görüntülenip görüntülenmeyeceğini seçin ve **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a341-109">Select whether to view closed activities and dispatch information for related teams, and then click **OK**.</span></span>
+3.  <span data-ttu-id="1c958-109">Kapatılan faaliyetlerin ve ilgili ekipler için gönderme bilgilerinin görüntülenip görüntülenmeyeceğini seçin ve **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1c958-109">Select whether to view closed activities and dispatch information for related teams, and then click **OK**.</span></span>
 
-4.  <span data-ttu-id="6a341-110">**Gönderme panosu** formunda, sayfanın üstünde yalnızca Gantt grafiğini görüntülemek için **Gelişmiş**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a341-110">In the **Dispatch board** form, click **Advanced** to display only the Gantt chart at the top of the page.</span></span> <span data-ttu-id="6a341-111">Gantt grafiğini ve formdaki sekmeleri görüntülemek için **Basit**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a341-111">Click **Simple** to display the Gantt chart and the tabs in the form.</span></span>
+4.  <span data-ttu-id="1c958-110">**Gönderme panosu** formunda, sayfanın üstünde yalnızca Gantt grafiğini görüntülemek için **Gelişmiş**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1c958-110">In the **Dispatch board** form, click **Advanced** to display only the Gantt chart at the top of the page.</span></span> <span data-ttu-id="1c958-111">Gantt grafiğini ve formdaki sekmeleri görüntülemek için **Basit**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1c958-111">Click **Simple** to display the Gantt chart and the tabs in the form.</span></span>
 
-5.  <span data-ttu-id="6a341-112">Her gönderilen ekip listesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="6a341-112">Expand each dispatch team list.</span></span>
+5.  <span data-ttu-id="1c958-112">Her gönderilen ekip listesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="1c958-112">Expand each dispatch team list.</span></span>
 
-6.  <span data-ttu-id="6a341-113">Faaliyeti yeniden atamak için aşağıdaki adımlardan birini kullanın:</span><span class="sxs-lookup"><span data-stu-id="6a341-113">Use either of the following steps to reassign an activity:</span></span>
+6.  <span data-ttu-id="1c958-113">Faaliyeti yeniden atamak için aşağıdaki adımlardan birini kullanın:</span><span class="sxs-lookup"><span data-stu-id="1c958-113">Use either of the following steps to reassign an activity:</span></span>
     
-      - <span data-ttu-id="6a341-114">Yeniden atanacak servis faaliyetini temsil eden renk kodlu grafik seçin.</span><span class="sxs-lookup"><span data-stu-id="6a341-114">Select a color-coded graphic that represents the service activity to reassign.</span></span> <span data-ttu-id="6a341-115">SHIFT tuşuna basın ve renk kodlu grafiği başka bir çalışanın satırına taşıyın.</span><span class="sxs-lookup"><span data-stu-id="6a341-115">Press the SHIFT key, and then move the color-coded graphic to the row for another employee.</span></span>
+      - <span data-ttu-id="1c958-114">Yeniden atanacak servis faaliyetini temsil eden renk kodlu grafik seçin.</span><span class="sxs-lookup"><span data-stu-id="1c958-114">Select a color-coded graphic that represents the service activity to reassign.</span></span> <span data-ttu-id="1c958-115">SHIFT tuşuna basın ve renk kodlu grafiği başka bir çalışanın satırına taşıyın.</span><span class="sxs-lookup"><span data-stu-id="1c958-115">Press the SHIFT key, and then move the color-coded graphic to the row for another employee.</span></span>
     
-      - <span data-ttu-id="6a341-116">**Tümü** sekmesinde, **Takım** sekmesinde, **Gönderilmemiş** sekmesinde veya **İlgili** sekmesindeki **Çalışan** alanında, faaliyet için geçerli çalışanın yerine geçecek olan çalışanın adını girin.</span><span class="sxs-lookup"><span data-stu-id="6a341-116">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, in the **Worker** field, enter the name of the worker who is replacing the current worker for the activity.</span></span>
+      - <span data-ttu-id="1c958-116">**Tümü** sekmesinde, **Takım** sekmesinde, **Gönderilmemiş** sekmesinde veya **İlgili** sekmesindeki **Çalışan** alanında, faaliyet için geçerli çalışanın yerine geçecek olan çalışanın adını girin.</span><span class="sxs-lookup"><span data-stu-id="1c958-116">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, in the **Worker** field, enter the name of the worker who is replacing the current worker for the activity.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="6a341-117">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="6a341-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1c958-117">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="1c958-117">See also</span></span>
 
-[<span data-ttu-id="6a341-118">Servis faaliyetleri</span><span class="sxs-lookup"><span data-stu-id="6a341-118">Service activities</span></span>](service-activities.md)
+[<span data-ttu-id="1c958-118">Servis faaliyetleri</span><span class="sxs-lookup"><span data-stu-id="1c958-118">Service activities</span></span>](service-activities.md)
 
-[<span data-ttu-id="6a341-119">Gönderme panosu</span><span class="sxs-lookup"><span data-stu-id="6a341-119">Dispatch board</span></span>](dispatch-board.md)
+[<span data-ttu-id="1c958-119">Gönderme panosu</span><span class="sxs-lookup"><span data-stu-id="1c958-119">Dispatch board</span></span>](dispatch-board.md)
 
 
 

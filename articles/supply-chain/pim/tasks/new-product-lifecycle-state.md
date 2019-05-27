@@ -16,22 +16,22 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 6e3293caa905eacaebc757a57ec5b104629b6a8d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "322410"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567688"
 ---
-# <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="53bf7-103">Yeni ürün yaşam döngüsü durumu oluşturma</span><span class="sxs-lookup"><span data-stu-id="53bf7-103">Create a new product lifecycle state</span></span>
+# <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="c88e5-103">Yeni ürün yaşam döngüsü durumu oluşturma</span><span class="sxs-lookup"><span data-stu-id="c88e5-103">Create a new product lifecycle state</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="53bf7-104">Bu prosedürde yeni bir ürün yaşam döngüsü durumunun nasıl oluşturulacağı gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="53bf7-104">This procedure shows how to create a new product lifecycle state.</span></span> <span data-ttu-id="53bf7-105">Ürün yaşam döngüsü durumu, serbest bırakılan bir ürünün veya ürün çeşidinin yaşam döngüsü durumunu belgeler.</span><span class="sxs-lookup"><span data-stu-id="53bf7-105">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="53bf7-106">Ürün yaşam döngüsü durumları genellikle bir ürün yöneticisi veya ürün ana verileri yöneticisi olan bir kullanıcı tarafından tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="53bf7-106">Product lifecycle states are defined by the user, typically a product manager, or a product master data manager.</span></span> <span data-ttu-id="53bf7-107">Master planlama gibi belirli iş süreçleri belirli bir yaşam döngüsü durumu tarafından etkilenebilir.</span><span class="sxs-lookup"><span data-stu-id="53bf7-107">Specific business processes, for example, Master planning, can be affected by a specific lifecycle state.</span></span>
+<span data-ttu-id="c88e5-104">Bu prosedürde yeni bir ürün yaşam döngüsü durumunun nasıl oluşturulacağı gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="c88e5-104">This procedure shows how to create a new product lifecycle state.</span></span> <span data-ttu-id="c88e5-105">Ürün yaşam döngüsü durumu, serbest bırakılan bir ürünün veya ürün çeşidinin yaşam döngüsü durumunu belgeler.</span><span class="sxs-lookup"><span data-stu-id="c88e5-105">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="c88e5-106">Ürün yaşam döngüsü durumları genellikle bir ürün yöneticisi veya ürün ana verileri yöneticisi olan bir kullanıcı tarafından tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="c88e5-106">Product lifecycle states are defined by the user, typically a product manager, or a product master data manager.</span></span> <span data-ttu-id="c88e5-107">Master planlama gibi belirli iş süreçleri belirli bir yaşam döngüsü durumu tarafından etkilenebilir.</span><span class="sxs-lookup"><span data-stu-id="c88e5-107">Specific business processes, for example, Master planning, can be affected by a specific lifecycle state.</span></span>
 
 
-## <a name="create-a-product-lifecycle-state"></a><span data-ttu-id="53bf7-108">Ürün yaşam döngüsü durumu oluşturma</span><span class="sxs-lookup"><span data-stu-id="53bf7-108">Create a product lifecycle state</span></span>
-1. <span data-ttu-id="53bf7-109">Ürün bilgileri yönetimi > Kurulum > Ürün yaşam döngüsü durumu seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="53bf7-109">Go to Product information management > Setup > Product lifecycle state.</span></span>
-2. <span data-ttu-id="53bf7-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="53bf7-110">Click New.</span></span>
-3. <span data-ttu-id="53bf7-111">Durum alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="53bf7-111">In the State field, type a value.</span></span>
-4. <span data-ttu-id="53bf7-112">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="53bf7-112">In the Description field, type a value.</span></span>
+## <a name="create-a-product-lifecycle-state"></a><span data-ttu-id="c88e5-108">Ürün yaşam döngüsü durumu oluşturma</span><span class="sxs-lookup"><span data-stu-id="c88e5-108">Create a product lifecycle state</span></span>
+1. <span data-ttu-id="c88e5-109">Ürün bilgileri yönetimi > Kurulum > Ürün yaşam döngüsü durumu seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="c88e5-109">Go to Product information management > Setup > Product lifecycle state.</span></span>
+2. <span data-ttu-id="c88e5-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c88e5-110">Click New.</span></span>
+3. <span data-ttu-id="c88e5-111">Durum alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="c88e5-111">In the State field, type a value.</span></span>
+4. <span data-ttu-id="c88e5-112">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="c88e5-112">In the Description field, type a value.</span></span>
 

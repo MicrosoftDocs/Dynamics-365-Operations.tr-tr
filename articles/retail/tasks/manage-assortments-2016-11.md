@@ -18,39 +18,39 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f96c79558c3248406a1b5988f9c9dc9783db4406
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363672"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564375"
 ---
-# <a name="manage-assortments-november-2016"></a><span data-ttu-id="a09ec-103">Ürün çeşitlerini yönetme (Kasım 2016)</span><span class="sxs-lookup"><span data-stu-id="a09ec-103">Manage assortments (November 2016)</span></span>
+# <a name="manage-assortments-november-2016"></a><span data-ttu-id="375ed-103">Ürün çeşitlerini yönetme (Kasım 2016)</span><span class="sxs-lookup"><span data-stu-id="375ed-103">Manage assortments (November 2016)</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="a09ec-104">Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandığını gösterir ve tanıtım verisi şirketi USRT'yi kullanır.</span><span class="sxs-lookup"><span data-stu-id="a09ec-104">This procedure demonstrates how to create and publish a new product assortment and uses the demo data company USRT.</span></span> <span data-ttu-id="a09ec-105">Bu yordam Dynamics AX uygulaması 7.0.1 veya sonraki bir sürümü ve Dynamics AX platformu 7.1'i gerektirir.</span><span class="sxs-lookup"><span data-stu-id="a09ec-105">This procedure requires Dynamics AX application 7.0.1 or later, and Dynamics AX platform 7.1.</span></span>  
+<span data-ttu-id="375ed-104">Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandığını gösterir ve tanıtım verisi şirketi USRT'yi kullanır.</span><span class="sxs-lookup"><span data-stu-id="375ed-104">This procedure demonstrates how to create and publish a new product assortment and uses the demo data company USRT.</span></span> <span data-ttu-id="375ed-105">Bu yordam Dynamics AX uygulaması 7.0.1 veya sonraki bir sürümü ve Dynamics AX platformu 7.1'i gerektirir.</span><span class="sxs-lookup"><span data-stu-id="375ed-105">This procedure requires Dynamics AX application 7.0.1 or later, and Dynamics AX platform 7.1.</span></span>  
 
-1. <span data-ttu-id="a09ec-106">Kategori ve ürün yönetimine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-106">Click Category and product management.</span></span>
+1. <span data-ttu-id="375ed-106">Kategori ve ürün yönetimine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="375ed-106">Click Category and product management.</span></span>
 
-## <a name="create-an-assortment"></a><span data-ttu-id="a09ec-107">Bir sınıflama seçin</span><span class="sxs-lookup"><span data-stu-id="a09ec-107">Create an assortment</span></span>
-1. <span data-ttu-id="a09ec-108">Sınıflamalar sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-108">Click the Assortments tab.</span></span>
-2. <span data-ttu-id="a09ec-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-109">Click New.</span></span>
-3. <span data-ttu-id="a09ec-110">Ürün çeşidi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-110">Click Assortment.</span></span>
-    * <span data-ttu-id="a09ec-111">Ürün Çeşidi Kodu gerekir ve benzersiz bir değer olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="a09ec-111">The Assortment ID is required and must be a unique value.</span></span>  
-4. <span data-ttu-id="a09ec-112">Sınıflama adı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-112">In the Assortment name field, type a value.</span></span>
-5. <span data-ttu-id="a09ec-113">Yürürlük tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="a09ec-113">In the Effective date field, enter a date.</span></span>
-6. <span data-ttu-id="a09ec-114">Bitiş tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="a09ec-114">In the Expiration date field, enter a date.</span></span>
-7. <span data-ttu-id="a09ec-115">Perakende kanalları bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="a09ec-115">Expand the Retail channels section.</span></span>
-8. <span data-ttu-id="a09ec-116">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-116">Click Add line.</span></span>
-9. <span data-ttu-id="a09ec-117">Ağaçta 'Contoso Retail\Electronics\Boston' seçin.</span><span class="sxs-lookup"><span data-stu-id="a09ec-117">In the tree, select 'Contoso Retail\Electronics\Boston'.</span></span>
-10. <span data-ttu-id="a09ec-118">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-118">Click Add.</span></span>
-11. <span data-ttu-id="a09ec-119">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-119">Click OK.</span></span>
-12. <span data-ttu-id="a09ec-120">Ürünler bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="a09ec-120">Expand the Products section.</span></span>
-13. <span data-ttu-id="a09ec-121">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-121">Click Add line.</span></span>
-14. <span data-ttu-id="a09ec-122">Kategori alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="a09ec-122">In the Category field, enter or select a value.</span></span>
-15. <span data-ttu-id="a09ec-123">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-123">Click Save.</span></span>
+## <a name="create-an-assortment"></a><span data-ttu-id="375ed-107">Bir sınıflama seçin</span><span class="sxs-lookup"><span data-stu-id="375ed-107">Create an assortment</span></span>
+1. <span data-ttu-id="375ed-108">Sınıflamalar sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="375ed-108">Click the Assortments tab.</span></span>
+2. <span data-ttu-id="375ed-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="375ed-109">Click New.</span></span>
+3. <span data-ttu-id="375ed-110">Ürün çeşidi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="375ed-110">Click Assortment.</span></span>
+    * <span data-ttu-id="375ed-111">Ürün Çeşidi Kodu gerekir ve benzersiz bir değer olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="375ed-111">The Assortment ID is required and must be a unique value.</span></span>  
+4. <span data-ttu-id="375ed-112">Sınıflama adı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="375ed-112">In the Assortment name field, type a value.</span></span>
+5. <span data-ttu-id="375ed-113">Yürürlük tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="375ed-113">In the Effective date field, enter a date.</span></span>
+6. <span data-ttu-id="375ed-114">Bitiş tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="375ed-114">In the Expiration date field, enter a date.</span></span>
+7. <span data-ttu-id="375ed-115">Perakende kanalları bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="375ed-115">Expand the Retail channels section.</span></span>
+8. <span data-ttu-id="375ed-116">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="375ed-116">Click Add line.</span></span>
+9. <span data-ttu-id="375ed-117">Ağaçta 'Contoso Retail\Electronics\Boston' seçin.</span><span class="sxs-lookup"><span data-stu-id="375ed-117">In the tree, select 'Contoso Retail\Electronics\Boston'.</span></span>
+10. <span data-ttu-id="375ed-118">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="375ed-118">Click Add.</span></span>
+11. <span data-ttu-id="375ed-119">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="375ed-119">Click OK.</span></span>
+12. <span data-ttu-id="375ed-120">Ürünler bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="375ed-120">Expand the Products section.</span></span>
+13. <span data-ttu-id="375ed-121">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="375ed-121">Click Add line.</span></span>
+14. <span data-ttu-id="375ed-122">Kategori alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="375ed-122">In the Category field, enter or select a value.</span></span>
+15. <span data-ttu-id="375ed-123">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="375ed-123">Click Save.</span></span>
 
-## <a name="publish-an-assortment"></a><span data-ttu-id="a09ec-124">Bir sınıflama yayınlayın</span><span class="sxs-lookup"><span data-stu-id="a09ec-124">Publish an assortment</span></span>
-1. <span data-ttu-id="a09ec-125">Yayımla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-125">Click Publish.</span></span>
-2. <span data-ttu-id="a09ec-126">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a09ec-126">Click Yes.</span></span>
+## <a name="publish-an-assortment"></a><span data-ttu-id="375ed-124">Bir sınıflama yayınlayın</span><span class="sxs-lookup"><span data-stu-id="375ed-124">Publish an assortment</span></span>
+1. <span data-ttu-id="375ed-125">Yayımla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="375ed-125">Click Publish.</span></span>
+2. <span data-ttu-id="375ed-126">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="375ed-126">Click Yes.</span></span>
 

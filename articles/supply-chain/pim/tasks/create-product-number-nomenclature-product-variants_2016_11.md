@@ -17,88 +17,88 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 800afdf075f0675185514158f3b712a0fe7675e3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336095"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567160"
 ---
-# <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a><span data-ttu-id="93ddd-103">Yapılandırılmış ürün çeşitleri için ürün numarası terminolojisi oluşturma</span><span class="sxs-lookup"><span data-stu-id="93ddd-103">Create a product number nomenclature for configured product variants</span></span>
+# <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a><span data-ttu-id="3c1e6-103">Yapılandırılmış ürün çeşitleri için ürün numarası terminolojisi oluşturma</span><span class="sxs-lookup"><span data-stu-id="3c1e6-103">Create a product number nomenclature for configured product variants</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="93ddd-104">Bu yordam, yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisinin nasıl ayarlanacağını ve yapılandırılabilir bir ana ürüne nasıl eklenebileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="93ddd-104">This procedure shows you how to set up a product number nomenclature for configured product variants, and how it can be attached to a configurable product master.</span></span> <span data-ttu-id="93ddd-105">Bu yordam ayrıca bir ürün yapılandırma model bileşeni için bir yapılandırma terminolojisini nasıl oluşturabileceğinizi de gösterir.</span><span class="sxs-lookup"><span data-stu-id="93ddd-105">This procedure also demonstrates how you can build a configuration nomenclature for a product configuration model component.</span></span> <span data-ttu-id="93ddd-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="93ddd-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="93ddd-107">Yeni ürün numarası terminolojisi D0004 ana ürününe atanmıştır.</span><span class="sxs-lookup"><span data-stu-id="93ddd-107">The new product number nomenclature is assigned to the D0004 product master.</span></span> <span data-ttu-id="93ddd-108">Bu görev genellikle bir ürün tasarımcısı tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="93ddd-108">This task would typically be done by a product designer.</span></span>
+<span data-ttu-id="3c1e6-104">Bu yordam, yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisinin nasıl ayarlanacağını ve yapılandırılabilir bir ana ürüne nasıl eklenebileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-104">This procedure shows you how to set up a product number nomenclature for configured product variants, and how it can be attached to a configurable product master.</span></span> <span data-ttu-id="3c1e6-105">Bu yordam ayrıca bir ürün yapılandırma model bileşeni için bir yapılandırma terminolojisini nasıl oluşturabileceğinizi de gösterir.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-105">This procedure also demonstrates how you can build a configuration nomenclature for a product configuration model component.</span></span> <span data-ttu-id="3c1e6-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="3c1e6-107">Yeni ürün numarası terminolojisi D0004 ana ürününe atanmıştır.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-107">The new product number nomenclature is assigned to the D0004 product master.</span></span> <span data-ttu-id="3c1e6-108">Bu görev genellikle bir ürün tasarımcısı tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-108">This task would typically be done by a product designer.</span></span>
 
 
-## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="93ddd-109">Ürün numara terminolojisi oluşturma</span><span class="sxs-lookup"><span data-stu-id="93ddd-109">Create a product number nomenclature</span></span>
-1. <span data-ttu-id="93ddd-110">Ürün varyantı model tanımı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-110">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="93ddd-111">Ürün terminolojisi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-111">Click Product nomenclature.</span></span>
-3. <span data-ttu-id="93ddd-112">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-112">Click New.</span></span>
-4. <span data-ttu-id="93ddd-113">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="93ddd-114">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-114">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="93ddd-115">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-115">Click Add.</span></span>
-7. <span data-ttu-id="93ddd-116">Ana ürün numarası'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-116">Click Product master number.</span></span>
-8. <span data-ttu-id="93ddd-117">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-117">Click Add.</span></span>
-9. <span data-ttu-id="93ddd-118">Metin sabiti'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-118">Click Text constant.</span></span>
-10. <span data-ttu-id="93ddd-119">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-119">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="93ddd-120">Metin alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-120">In the Text field, type a value.</span></span>
-12. <span data-ttu-id="93ddd-121">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-121">Click Add.</span></span>
-13. <span data-ttu-id="93ddd-122">Yapılandırma'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-122">Click Configuration.</span></span>
-14. <span data-ttu-id="93ddd-123">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-123">Close the page.</span></span>
+## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="3c1e6-109">Ürün numara terminolojisi oluşturma</span><span class="sxs-lookup"><span data-stu-id="3c1e6-109">Create a product number nomenclature</span></span>
+1. <span data-ttu-id="3c1e6-110">Ürün varyantı model tanımı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-110">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="3c1e6-111">Ürün terminolojisi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-111">Click Product nomenclature.</span></span>
+3. <span data-ttu-id="3c1e6-112">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-112">Click New.</span></span>
+4. <span data-ttu-id="3c1e6-113">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="3c1e6-114">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-114">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="3c1e6-115">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-115">Click Add.</span></span>
+7. <span data-ttu-id="3c1e6-116">Ana ürün numarası'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-116">Click Product master number.</span></span>
+8. <span data-ttu-id="3c1e6-117">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-117">Click Add.</span></span>
+9. <span data-ttu-id="3c1e6-118">Metin sabiti'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-118">Click Text constant.</span></span>
+10. <span data-ttu-id="3c1e6-119">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-119">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="3c1e6-120">Metin alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-120">In the Text field, type a value.</span></span>
+12. <span data-ttu-id="3c1e6-121">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-121">Click Add.</span></span>
+13. <span data-ttu-id="3c1e6-122">Yapılandırma'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-122">Click Configuration.</span></span>
+14. <span data-ttu-id="3c1e6-123">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-123">Close the page.</span></span>
 
-## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a><span data-ttu-id="93ddd-124">Ana ürüne, ürün numara terminolojisi atama</span><span class="sxs-lookup"><span data-stu-id="93ddd-124">Assign the product number nomenclature to a product master</span></span>
-1. <span data-ttu-id="93ddd-125">Ana ürünler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-125">Click Product masters.</span></span>
-2. <span data-ttu-id="93ddd-126">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-126">Use the Quick Filter to find records.</span></span> <span data-ttu-id="93ddd-127">Örneğin, Ürün numarası alanında "D" değeriyle filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-127">For example, filter on the Product number field with a value of 'D'.</span></span>
-3. <span data-ttu-id="93ddd-128">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-128">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="93ddd-129">Düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-129">Click Edit.</span></span>
-5. <span data-ttu-id="93ddd-130">Terminoloji kullan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-130">Select Yes in the Use nomenclature field.</span></span>
-6. <span data-ttu-id="93ddd-131">Ürün çeşidi numara terminolojisi alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-131">In the Product variant number nomenclature field, enter or select a value.</span></span>
-7. <span data-ttu-id="93ddd-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-132">Close the page.</span></span>
-8. <span data-ttu-id="93ddd-133">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-133">Close the page.</span></span>
+## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a><span data-ttu-id="3c1e6-124">Ana ürüne, ürün numara terminolojisi atama</span><span class="sxs-lookup"><span data-stu-id="3c1e6-124">Assign the product number nomenclature to a product master</span></span>
+1. <span data-ttu-id="3c1e6-125">Ana ürünler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-125">Click Product masters.</span></span>
+2. <span data-ttu-id="3c1e6-126">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-126">Use the Quick Filter to find records.</span></span> <span data-ttu-id="3c1e6-127">Örneğin, Ürün numarası alanında "D" değeriyle filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-127">For example, filter on the Product number field with a value of 'D'.</span></span>
+3. <span data-ttu-id="3c1e6-128">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-128">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="3c1e6-129">Düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-129">Click Edit.</span></span>
+5. <span data-ttu-id="3c1e6-130">Terminoloji kullan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-130">Select Yes in the Use nomenclature field.</span></span>
+6. <span data-ttu-id="3c1e6-131">Ürün çeşidi numara terminolojisi alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-131">In the Product variant number nomenclature field, enter or select a value.</span></span>
+7. <span data-ttu-id="3c1e6-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-132">Close the page.</span></span>
+8. <span data-ttu-id="3c1e6-133">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-133">Close the page.</span></span>
 
-## <a name="create-nomenclature-for-a-product-configuration-model-component"></a><span data-ttu-id="93ddd-134">Ürün yapılandırma model bileşeni için terminoloji oluşturma</span><span class="sxs-lookup"><span data-stu-id="93ddd-134">Create nomenclature for a product configuration model component</span></span>
-1. <span data-ttu-id="93ddd-135">Ürün yapılandırma modelleri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-135">Click Product configuration models.</span></span>
-2. <span data-ttu-id="93ddd-136">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-136">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="93ddd-137">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-137">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="93ddd-138">Düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-138">Click Edit.</span></span>
-5. <span data-ttu-id="93ddd-139">Konfigürasyon terminolojisini kullan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-139">Select Yes in the Use configuration nomenclature field.</span></span>
-6. <span data-ttu-id="93ddd-140">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-140">Click Add.</span></span>
-7. <span data-ttu-id="93ddd-141">Öznitelik değeri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-141">Click Attribute value.</span></span>
-8. <span data-ttu-id="93ddd-142">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-142">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="93ddd-143">Öznitelik alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-143">In the Attribute field, enter or select a value.</span></span>
-10. <span data-ttu-id="93ddd-144">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-144">Click Add.</span></span>
-11. <span data-ttu-id="93ddd-145">Metin sabiti'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-145">Click Text constant.</span></span>
-12. <span data-ttu-id="93ddd-146">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-146">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="93ddd-147">Metin alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-147">In the Text field, type a value.</span></span>
-14. <span data-ttu-id="93ddd-148">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-148">Click Add.</span></span>
-15. <span data-ttu-id="93ddd-149">Öznitelik değeri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-149">Click Attribute value.</span></span>
-16. <span data-ttu-id="93ddd-150">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-150">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="93ddd-151">Öznitelik alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-151">In the Attribute field, enter or select a value.</span></span>
-18. <span data-ttu-id="93ddd-152">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-152">Click Add.</span></span>
-19. <span data-ttu-id="93ddd-153">Metin sabiti'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-153">Click Text constant.</span></span>
-20. <span data-ttu-id="93ddd-154">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-154">In the list, mark the selected row.</span></span>
-21. <span data-ttu-id="93ddd-155">Metin alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-155">In the Text field, type a value.</span></span>
-22. <span data-ttu-id="93ddd-156">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-156">Click Add.</span></span>
-23. <span data-ttu-id="93ddd-157">Öznitelik değeri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-157">Click Attribute value.</span></span>
-24. <span data-ttu-id="93ddd-158">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-158">In the list, mark the selected row.</span></span>
-25. <span data-ttu-id="93ddd-159">Öznitelik alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-159">In the Attribute field, enter or select a value.</span></span>
-26. <span data-ttu-id="93ddd-160">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-160">Click Add.</span></span>
-27. <span data-ttu-id="93ddd-161">Metin sabiti'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-161">Click Text constant.</span></span>
-28. <span data-ttu-id="93ddd-162">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-162">In the list, mark the selected row.</span></span>
-29. <span data-ttu-id="93ddd-163">Metin alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-163">In the Text field, type a value.</span></span>
-30. <span data-ttu-id="93ddd-164">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-164">Click Add.</span></span>
-31. <span data-ttu-id="93ddd-165">Öznitelik değeri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-165">Click Attribute value.</span></span>
-32. <span data-ttu-id="93ddd-166">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-166">In the list, mark the selected row.</span></span>
-33. <span data-ttu-id="93ddd-167">Öznitelik alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-167">In the Attribute field, enter or select a value.</span></span>
-34. <span data-ttu-id="93ddd-168">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-168">Click Add.</span></span>
-35. <span data-ttu-id="93ddd-169">Metin sabiti'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-169">Click Text constant.</span></span>
-36. <span data-ttu-id="93ddd-170">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-170">In the list, mark the selected row.</span></span>
-37. <span data-ttu-id="93ddd-171">Metin alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-171">In the Text field, type a value.</span></span>
-38. <span data-ttu-id="93ddd-172">Ekle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-172">Click Add.</span></span>
-39. <span data-ttu-id="93ddd-173">Numara serisi değeri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-173">Click Number sequence value.</span></span>
-40. <span data-ttu-id="93ddd-174">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-174">In the list, mark the selected row.</span></span>
-41. <span data-ttu-id="93ddd-175">Numara sırası alanında, bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="93ddd-175">In the Number sequence field, enter or select a value.</span></span>
-42. <span data-ttu-id="93ddd-176">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-176">Close the page.</span></span>
-43. <span data-ttu-id="93ddd-177">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-177">Close the page.</span></span>
-44. <span data-ttu-id="93ddd-178">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="93ddd-178">Close the page.</span></span>
+## <a name="create-nomenclature-for-a-product-configuration-model-component"></a><span data-ttu-id="3c1e6-134">Ürün yapılandırma model bileşeni için terminoloji oluşturma</span><span class="sxs-lookup"><span data-stu-id="3c1e6-134">Create nomenclature for a product configuration model component</span></span>
+1. <span data-ttu-id="3c1e6-135">Ürün yapılandırma modelleri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-135">Click Product configuration models.</span></span>
+2. <span data-ttu-id="3c1e6-136">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-136">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="3c1e6-137">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-137">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="3c1e6-138">Düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-138">Click Edit.</span></span>
+5. <span data-ttu-id="3c1e6-139">Konfigürasyon terminolojisini kullan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-139">Select Yes in the Use configuration nomenclature field.</span></span>
+6. <span data-ttu-id="3c1e6-140">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-140">Click Add.</span></span>
+7. <span data-ttu-id="3c1e6-141">Öznitelik değeri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-141">Click Attribute value.</span></span>
+8. <span data-ttu-id="3c1e6-142">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-142">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="3c1e6-143">Öznitelik alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-143">In the Attribute field, enter or select a value.</span></span>
+10. <span data-ttu-id="3c1e6-144">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-144">Click Add.</span></span>
+11. <span data-ttu-id="3c1e6-145">Metin sabiti'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-145">Click Text constant.</span></span>
+12. <span data-ttu-id="3c1e6-146">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-146">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="3c1e6-147">Metin alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-147">In the Text field, type a value.</span></span>
+14. <span data-ttu-id="3c1e6-148">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-148">Click Add.</span></span>
+15. <span data-ttu-id="3c1e6-149">Öznitelik değeri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-149">Click Attribute value.</span></span>
+16. <span data-ttu-id="3c1e6-150">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-150">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="3c1e6-151">Öznitelik alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-151">In the Attribute field, enter or select a value.</span></span>
+18. <span data-ttu-id="3c1e6-152">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-152">Click Add.</span></span>
+19. <span data-ttu-id="3c1e6-153">Metin sabiti'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-153">Click Text constant.</span></span>
+20. <span data-ttu-id="3c1e6-154">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-154">In the list, mark the selected row.</span></span>
+21. <span data-ttu-id="3c1e6-155">Metin alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-155">In the Text field, type a value.</span></span>
+22. <span data-ttu-id="3c1e6-156">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-156">Click Add.</span></span>
+23. <span data-ttu-id="3c1e6-157">Öznitelik değeri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-157">Click Attribute value.</span></span>
+24. <span data-ttu-id="3c1e6-158">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-158">In the list, mark the selected row.</span></span>
+25. <span data-ttu-id="3c1e6-159">Öznitelik alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-159">In the Attribute field, enter or select a value.</span></span>
+26. <span data-ttu-id="3c1e6-160">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-160">Click Add.</span></span>
+27. <span data-ttu-id="3c1e6-161">Metin sabiti'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-161">Click Text constant.</span></span>
+28. <span data-ttu-id="3c1e6-162">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-162">In the list, mark the selected row.</span></span>
+29. <span data-ttu-id="3c1e6-163">Metin alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-163">In the Text field, type a value.</span></span>
+30. <span data-ttu-id="3c1e6-164">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-164">Click Add.</span></span>
+31. <span data-ttu-id="3c1e6-165">Öznitelik değeri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-165">Click Attribute value.</span></span>
+32. <span data-ttu-id="3c1e6-166">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-166">In the list, mark the selected row.</span></span>
+33. <span data-ttu-id="3c1e6-167">Öznitelik alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-167">In the Attribute field, enter or select a value.</span></span>
+34. <span data-ttu-id="3c1e6-168">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-168">Click Add.</span></span>
+35. <span data-ttu-id="3c1e6-169">Metin sabiti'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-169">Click Text constant.</span></span>
+36. <span data-ttu-id="3c1e6-170">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-170">In the list, mark the selected row.</span></span>
+37. <span data-ttu-id="3c1e6-171">Metin alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-171">In the Text field, type a value.</span></span>
+38. <span data-ttu-id="3c1e6-172">Ekle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-172">Click Add.</span></span>
+39. <span data-ttu-id="3c1e6-173">Numara serisi değeri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-173">Click Number sequence value.</span></span>
+40. <span data-ttu-id="3c1e6-174">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-174">In the list, mark the selected row.</span></span>
+41. <span data-ttu-id="3c1e6-175">Numara sırası alanında, bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-175">In the Number sequence field, enter or select a value.</span></span>
+42. <span data-ttu-id="3c1e6-176">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-176">Close the page.</span></span>
+43. <span data-ttu-id="3c1e6-177">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-177">Close the page.</span></span>
+44. <span data-ttu-id="3c1e6-178">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3c1e6-178">Close the page.</span></span>
 

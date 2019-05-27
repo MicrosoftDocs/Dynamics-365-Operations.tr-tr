@@ -17,41 +17,41 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 7c2e158d8cbad1f5d4f377f6a8eb43487b34ffdc
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "367513"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565633"
 ---
-# <a name="monitor-a-master-planning-run"></a><span data-ttu-id="e335a-103">Master planlama çalışmasını izleme</span><span class="sxs-lookup"><span data-stu-id="e335a-103">Monitor a master planning run</span></span>
+# <a name="monitor-a-master-planning-run"></a><span data-ttu-id="6458c-103">Master planlama çalışmasını izleme</span><span class="sxs-lookup"><span data-stu-id="6458c-103">Monitor a master planning run</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e335a-104">Üretim planlayıcısı, bir master planlama çalışmasının devam edip etmediğini görmek istiyor.</span><span class="sxs-lookup"><span data-stu-id="e335a-104">The production planner wants to see if a master planning run is in progress.</span></span> <span data-ttu-id="e335a-105">Bu prosedürü tamamlamak için USMF demo veri şirketini kullanın.</span><span class="sxs-lookup"><span data-stu-id="e335a-105">Use the demo data company USMF to complete this procedure.</span></span>
+<span data-ttu-id="6458c-104">Üretim planlayıcısı, bir master planlama çalışmasının devam edip etmediğini görmek istiyor.</span><span class="sxs-lookup"><span data-stu-id="6458c-104">The production planner wants to see if a master planning run is in progress.</span></span> <span data-ttu-id="6458c-105">Bu prosedürü tamamlamak için USMF demo veri şirketini kullanın.</span><span class="sxs-lookup"><span data-stu-id="6458c-105">Use the demo data company USMF to complete this procedure.</span></span>
 
 
-## <a name="run-master-planning"></a><span data-ttu-id="e335a-106">Master planlamayı çalıştırma</span><span class="sxs-lookup"><span data-stu-id="e335a-106">Run master planning</span></span>
-1. <span data-ttu-id="e335a-107">Master planlama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e335a-107">Click Master planning.</span></span>
-    * <span data-ttu-id="e335a-108">Bunu varsayılan panosunda bulabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e335a-108">You'll find this on the default dashboard.</span></span>  
-2. <span data-ttu-id="e335a-109">Plan alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="e335a-109">In the Plan field, enter or select a value.</span></span>
-    * <span data-ttu-id="e335a-110">Örnek: StaticPlan</span><span class="sxs-lookup"><span data-stu-id="e335a-110">Example: StaticPlan</span></span>  
-3. <span data-ttu-id="e335a-111">Çalıştır öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e335a-111">Click Run.</span></span>
-4. <span data-ttu-id="e335a-112">Takip işleme süresi alanından Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="e335a-112">Select Yes in the Track processing time field.</span></span>
-    * <span data-ttu-id="e335a-113">Alan zaten seçilmişse bu adımı atlayın.</span><span class="sxs-lookup"><span data-stu-id="e335a-113">If the field is already selected, skip this step.</span></span>  
-5. <span data-ttu-id="e335a-114">İş parçacığı sayısı alanına bir rakam girin.</span><span class="sxs-lookup"><span data-stu-id="e335a-114">In the Number of threads field, enter a number.</span></span>
-6. <span data-ttu-id="e335a-115">Eklenecek kayıtlar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="e335a-115">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="e335a-116">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e335a-116">Click Filter.</span></span>
-8. <span data-ttu-id="e335a-117">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="e335a-117">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="e335a-118">Alan = Madde numarası olan sırayı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="e335a-118">Mark the row where Field = Item number.</span></span>  
-9. <span data-ttu-id="e335a-119">Ölçütler alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="e335a-119">In the Criteria field, enter or select a value.</span></span>
-    * <span data-ttu-id="e335a-120">Örnek: T0001</span><span class="sxs-lookup"><span data-stu-id="e335a-120">Example: T0001</span></span>  
-10. <span data-ttu-id="e335a-121">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e335a-121">Click OK.</span></span>
-11. <span data-ttu-id="e335a-122">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e335a-122">Click OK.</span></span>
+## <a name="run-master-planning"></a><span data-ttu-id="6458c-106">Master planlamayı çalıştırma</span><span class="sxs-lookup"><span data-stu-id="6458c-106">Run master planning</span></span>
+1. <span data-ttu-id="6458c-107">Master planlama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6458c-107">Click Master planning.</span></span>
+    * <span data-ttu-id="6458c-108">Bunu varsayılan panosunda bulabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6458c-108">You'll find this on the default dashboard.</span></span>  
+2. <span data-ttu-id="6458c-109">Plan alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="6458c-109">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="6458c-110">Örnek: StaticPlan</span><span class="sxs-lookup"><span data-stu-id="6458c-110">Example: StaticPlan</span></span>  
+3. <span data-ttu-id="6458c-111">Çalıştır öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6458c-111">Click Run.</span></span>
+4. <span data-ttu-id="6458c-112">Takip işleme süresi alanından Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="6458c-112">Select Yes in the Track processing time field.</span></span>
+    * <span data-ttu-id="6458c-113">Alan zaten seçilmişse bu adımı atlayın.</span><span class="sxs-lookup"><span data-stu-id="6458c-113">If the field is already selected, skip this step.</span></span>  
+5. <span data-ttu-id="6458c-114">İş parçacığı sayısı alanına bir rakam girin.</span><span class="sxs-lookup"><span data-stu-id="6458c-114">In the Number of threads field, enter a number.</span></span>
+6. <span data-ttu-id="6458c-115">Eklenecek kayıtlar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="6458c-115">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="6458c-116">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6458c-116">Click Filter.</span></span>
+8. <span data-ttu-id="6458c-117">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6458c-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="6458c-118">Alan = Madde numarası olan sırayı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6458c-118">Mark the row where Field = Item number.</span></span>  
+9. <span data-ttu-id="6458c-119">Ölçütler alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="6458c-119">In the Criteria field, enter or select a value.</span></span>
+    * <span data-ttu-id="6458c-120">Örnek: T0001</span><span class="sxs-lookup"><span data-stu-id="6458c-120">Example: T0001</span></span>  
+10. <span data-ttu-id="6458c-121">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6458c-121">Click OK.</span></span>
+11. <span data-ttu-id="6458c-122">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6458c-122">Click OK.</span></span>
 
-## <a name="monitor-the-master-planning-run"></a><span data-ttu-id="e335a-123">Master planlama yürütmeyi izleme</span><span class="sxs-lookup"><span data-stu-id="e335a-123">Monitor the master planning run</span></span>
-1. <span data-ttu-id="e335a-124">Geçmiş öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e335a-124">Click History.</span></span>
-2. <span data-ttu-id="e335a-125">Sorgulamalar’ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="e335a-125">Click Inquiries.</span></span>
-3. <span data-ttu-id="e335a-126">İşlem görevi süresi öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e335a-126">Click Process task duration.</span></span>
-4. <span data-ttu-id="e335a-127">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="e335a-127">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="e335a-128">Her madde için, planlama adımlarının her birinin ne kadar sürede tamamlandığını görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e335a-128">For each item you can get an overview of how long it took to complete each planning step.</span></span>  
+## <a name="monitor-the-master-planning-run"></a><span data-ttu-id="6458c-123">Master planlama yürütmeyi izleme</span><span class="sxs-lookup"><span data-stu-id="6458c-123">Monitor the master planning run</span></span>
+1. <span data-ttu-id="6458c-124">Geçmiş öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6458c-124">Click History.</span></span>
+2. <span data-ttu-id="6458c-125">Sorgulamalar’ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6458c-125">Click Inquiries.</span></span>
+3. <span data-ttu-id="6458c-126">İşlem görevi süresi öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6458c-126">Click Process task duration.</span></span>
+4. <span data-ttu-id="6458c-127">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="6458c-127">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="6458c-128">Her madde için, planlama adımlarının her birinin ne kadar sürede tamamlandığını görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6458c-128">For each item you can get an overview of how long it took to complete each planning step.</span></span>  
 

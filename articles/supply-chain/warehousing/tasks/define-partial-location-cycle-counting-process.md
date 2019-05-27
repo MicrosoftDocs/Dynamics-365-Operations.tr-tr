@@ -16,59 +16,59 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3aafb42cea1664b0629f57fe4492736601902cc1
-ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373426"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568270"
 ---
-# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="7fc43-103">Kısmi konum döngü sayımı işlemini tanımlama </span><span class="sxs-lookup"><span data-stu-id="7fc43-103">Define partial location cycle counting process</span></span> 
+# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="c236d-103">Kısmi konum döngü sayımı işlemini tanımlama </span><span class="sxs-lookup"><span data-stu-id="c236d-103">Define partial location cycle counting process</span></span> 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="7fc43-104">Sayım işi oluştururken döngü sayımı planları kullanırsanız, gerçek sayma operasyonunu, konumda bulunan eldeki stokların yerine yalnızca çeşitli ürünler ve ürün çeşitlerinin sayılmasına yönlendirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="7fc43-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="7fc43-105">Belirli ürünleri filtreleyerek, ambar yöneticisi inceleme yükünü azaltabilir, konsolidasyon hatalarının önlemeye yardımcı olabilir ve zaman tasarruf edebilir.</span><span class="sxs-lookup"><span data-stu-id="7fc43-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="7fc43-106">Bir ambar yöneticisi tipik olarak kurulum görevlerini gerçekleştirir.</span><span class="sxs-lookup"><span data-stu-id="7fc43-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="7fc43-107">Bu yordamı demo verileri şirketi USMF veya kendi verilerinizi kullanarak yerine getirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="7fc43-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
+<span data-ttu-id="c236d-104">Sayım işi oluştururken döngü sayımı planları kullanırsanız, gerçek sayma operasyonunu, konumda bulunan eldeki stokların yerine yalnızca çeşitli ürünler ve ürün çeşitlerinin sayılmasına yönlendirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c236d-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="c236d-105">Belirli ürünleri filtreleyerek, ambar yöneticisi inceleme yükünü azaltabilir, konsolidasyon hatalarının önlemeye yardımcı olabilir ve zaman tasarruf edebilir.</span><span class="sxs-lookup"><span data-stu-id="c236d-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="c236d-106">Bir ambar yöneticisi tipik olarak kurulum görevlerini gerçekleştirir.</span><span class="sxs-lookup"><span data-stu-id="c236d-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="c236d-107">Bu yordamı demo verileri şirketi USMF veya kendi verilerinizi kullanarak yerine getirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c236d-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
 
 
-## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="7fc43-108">Bir döngü sayımı iş şablonu oluşturun</span><span class="sxs-lookup"><span data-stu-id="7fc43-108">Create a cycle counting work template</span></span>
-1. <span data-ttu-id="7fc43-109">Ambar yönetimi > Kurulum > İş > İş şablonları öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
-2. <span data-ttu-id="7fc43-110">İş siparişi türü alanında 'Döngü sayımı' seçin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-110">In the Work order type field, select 'Cycle counting'.</span></span>
-3. <span data-ttu-id="7fc43-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-111">Click New.</span></span>
-4. <span data-ttu-id="7fc43-112">Sıra numarası alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-112">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="7fc43-113">Sıralama düzeni en küçük sayıdan en büyük sayıyadır.</span><span class="sxs-lookup"><span data-stu-id="7fc43-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="7fc43-114">Değer 0'dan (sıfır) fazla olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="7fc43-114">The value must be more than 0 (zero).</span></span>  
-5. <span data-ttu-id="7fc43-115">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-115">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="7fc43-116">İş şablonu alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-116">In the Work template field, type a value.</span></span>
-7. <span data-ttu-id="7fc43-117">İş şablonu açıklaması alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-117">In the Work template description field, type a value.</span></span>
-8. <span data-ttu-id="7fc43-118">İş havuz kodu alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-118">In the Work pool ID field, enter or select a value.</span></span>
-9. <span data-ttu-id="7fc43-119">İş önceliği alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-119">In the Work priority field, enter a number.</span></span>
-10. <span data-ttu-id="7fc43-120">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-120">Click Save.</span></span>
-11. <span data-ttu-id="7fc43-121">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-121">Click New.</span></span>
-12. <span data-ttu-id="7fc43-122">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-122">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="7fc43-123">İş türü alanında 'Sayım'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-123">In the Work type field, select 'Counting'.</span></span>
-14. <span data-ttu-id="7fc43-124">İş sınıfı kodu alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-124">In the Work class ID field, enter or select a value.</span></span>
-15. <span data-ttu-id="7fc43-125">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-125">Click Save.</span></span>
-16. <span data-ttu-id="7fc43-126">İş satırı molaları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-126">Click Work line breaks.</span></span>
-17. <span data-ttu-id="7fc43-127">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-127">Click New.</span></span>
-18. <span data-ttu-id="7fc43-128">Sıra numarası alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-128">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="7fc43-129">Sıralama düzeni en küçük sayıdan en büyük sayıyadır.</span><span class="sxs-lookup"><span data-stu-id="7fc43-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="7fc43-130">Değer 0'dan (sıfır) fazla olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="7fc43-130">The value must be more than 0 (zero).</span></span>  
-19. <span data-ttu-id="7fc43-131">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-131">Click Save.</span></span>
-20. <span data-ttu-id="7fc43-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-132">Close the page.</span></span>
-21. <span data-ttu-id="7fc43-133">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-133">Close the page.</span></span>
+## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="c236d-108">Bir döngü sayımı iş şablonu oluşturun</span><span class="sxs-lookup"><span data-stu-id="c236d-108">Create a cycle counting work template</span></span>
+1. <span data-ttu-id="c236d-109">Ambar yönetimi > Kurulum > İş > İş şablonları öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="c236d-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+2. <span data-ttu-id="c236d-110">İş siparişi türü alanında 'Döngü sayımı' seçin.</span><span class="sxs-lookup"><span data-stu-id="c236d-110">In the Work order type field, select 'Cycle counting'.</span></span>
+3. <span data-ttu-id="c236d-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-111">Click New.</span></span>
+4. <span data-ttu-id="c236d-112">Sıra numarası alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="c236d-112">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="c236d-113">Sıralama düzeni en küçük sayıdan en büyük sayıyadır.</span><span class="sxs-lookup"><span data-stu-id="c236d-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="c236d-114">Değer 0'dan (sıfır) fazla olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c236d-114">The value must be more than 0 (zero).</span></span>  
+5. <span data-ttu-id="c236d-115">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="c236d-115">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="c236d-116">İş şablonu alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="c236d-116">In the Work template field, type a value.</span></span>
+7. <span data-ttu-id="c236d-117">İş şablonu açıklaması alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="c236d-117">In the Work template description field, type a value.</span></span>
+8. <span data-ttu-id="c236d-118">İş havuz kodu alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="c236d-118">In the Work pool ID field, enter or select a value.</span></span>
+9. <span data-ttu-id="c236d-119">İş önceliği alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="c236d-119">In the Work priority field, enter a number.</span></span>
+10. <span data-ttu-id="c236d-120">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-120">Click Save.</span></span>
+11. <span data-ttu-id="c236d-121">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-121">Click New.</span></span>
+12. <span data-ttu-id="c236d-122">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="c236d-122">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="c236d-123">İş türü alanında 'Sayım'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="c236d-123">In the Work type field, select 'Counting'.</span></span>
+14. <span data-ttu-id="c236d-124">İş sınıfı kodu alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="c236d-124">In the Work class ID field, enter or select a value.</span></span>
+15. <span data-ttu-id="c236d-125">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-125">Click Save.</span></span>
+16. <span data-ttu-id="c236d-126">İş satırı molaları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-126">Click Work line breaks.</span></span>
+17. <span data-ttu-id="c236d-127">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-127">Click New.</span></span>
+18. <span data-ttu-id="c236d-128">Sıra numarası alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="c236d-128">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="c236d-129">Sıralama düzeni en küçük sayıdan en büyük sayıyadır.</span><span class="sxs-lookup"><span data-stu-id="c236d-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="c236d-130">Değer 0'dan (sıfır) fazla olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c236d-130">The value must be more than 0 (zero).</span></span>  
+19. <span data-ttu-id="c236d-131">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-131">Click Save.</span></span>
+20. <span data-ttu-id="c236d-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c236d-132">Close the page.</span></span>
+21. <span data-ttu-id="c236d-133">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c236d-133">Close the page.</span></span>
 
-## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="7fc43-134">Bir döngü sayımı planı oluşturun</span><span class="sxs-lookup"><span data-stu-id="7fc43-134">Create a cycle counting plan</span></span>
-1. <span data-ttu-id="7fc43-135">Ambar yönetimi > Kurulum > Döngü sayımı > Döngü sayımı planları öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
-2. <span data-ttu-id="7fc43-136">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-136">Click New.</span></span>
-3. <span data-ttu-id="7fc43-137">Döngü sayımı planı numarası alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-137">In the Cycle counting plan ID field, type a value.</span></span>
-4. <span data-ttu-id="7fc43-138">Tanım alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-138">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="7fc43-139">Maksimum döngü sayımı miktarı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-139">In the Maximum number of cycle counts field, enter a number.</span></span>
-6. <span data-ttu-id="7fc43-140">İş şablonu alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-140">In the Work template field, enter or select a value.</span></span>
-7. <span data-ttu-id="7fc43-141">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-141">Click New.</span></span>
-8. <span data-ttu-id="7fc43-142">Sıra numarası alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-142">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="7fc43-143">Sıralama düzeni en küçük sayıdan en büyük sayıyadır.</span><span class="sxs-lookup"><span data-stu-id="7fc43-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="7fc43-144">Değer 0'dan (sıfır) fazla olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="7fc43-144">The value must be more than 0 (zero).</span></span>  
-9. <span data-ttu-id="7fc43-145">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-145">In the Description field, type a value.</span></span>
-10. <span data-ttu-id="7fc43-146">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-146">Click Save.</span></span>
-11. <span data-ttu-id="7fc43-147">Ürün sorgusu tanımla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-147">Click Define product query.</span></span>
-12. <span data-ttu-id="7fc43-148">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-148">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="7fc43-149">Ölçütler alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="7fc43-149">In the Criteria field, enter or select a value.</span></span>
-14. <span data-ttu-id="7fc43-150">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-150">Click OK.</span></span>
-15. <span data-ttu-id="7fc43-151">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7fc43-151">Close the page.</span></span>
+## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="c236d-134">Bir döngü sayımı planı oluşturun</span><span class="sxs-lookup"><span data-stu-id="c236d-134">Create a cycle counting plan</span></span>
+1. <span data-ttu-id="c236d-135">Ambar yönetimi > Kurulum > Döngü sayımı > Döngü sayımı planları öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="c236d-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
+2. <span data-ttu-id="c236d-136">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-136">Click New.</span></span>
+3. <span data-ttu-id="c236d-137">Döngü sayımı planı numarası alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="c236d-137">In the Cycle counting plan ID field, type a value.</span></span>
+4. <span data-ttu-id="c236d-138">Tanım alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="c236d-138">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="c236d-139">Maksimum döngü sayımı miktarı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="c236d-139">In the Maximum number of cycle counts field, enter a number.</span></span>
+6. <span data-ttu-id="c236d-140">İş şablonu alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="c236d-140">In the Work template field, enter or select a value.</span></span>
+7. <span data-ttu-id="c236d-141">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-141">Click New.</span></span>
+8. <span data-ttu-id="c236d-142">Sıra numarası alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="c236d-142">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="c236d-143">Sıralama düzeni en küçük sayıdan en büyük sayıyadır.</span><span class="sxs-lookup"><span data-stu-id="c236d-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="c236d-144">Değer 0'dan (sıfır) fazla olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c236d-144">The value must be more than 0 (zero).</span></span>  
+9. <span data-ttu-id="c236d-145">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="c236d-145">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="c236d-146">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-146">Click Save.</span></span>
+11. <span data-ttu-id="c236d-147">Ürün sorgusu tanımla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-147">Click Define product query.</span></span>
+12. <span data-ttu-id="c236d-148">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="c236d-148">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="c236d-149">Ölçütler alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c236d-149">In the Criteria field, enter or select a value.</span></span>
+14. <span data-ttu-id="c236d-150">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c236d-150">Click OK.</span></span>
+15. <span data-ttu-id="c236d-151">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c236d-151">Close the page.</span></span>
 
