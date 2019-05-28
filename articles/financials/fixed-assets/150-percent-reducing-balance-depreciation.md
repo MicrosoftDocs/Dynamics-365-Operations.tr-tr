@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ff4b40663f0da6bcc01b00f3f44cd8d8b43b56a1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331633"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568906"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Yüzde 150 azalan bakiyeli amortisman
 
@@ -31,7 +31,7 @@ ms.locfileid: "331633"
 
 Bu makale, amortismanın Yüzde 150 Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 
-Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **%150 azalan bakiye** seçeneğini belirlediğinizde, amortisman profiline atanan sabit kıymetlerin amortismanı her amortisman döneminde aynı yüzdeyi içerir. Bu yüzde, sabit kıymetin servis ömrü temel alınarak hesaplanır. Örneğin, bir sabit kıymetin beş yıllık servis ömrü varsa, yüzde %30 (%150 ÷ 5) olarak hesaplanır. 
+Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **%150 azalan bakiye** seçeneğini belirlediğinizde, amortisman profiline atanan sabit kıymetlerin amortismanı her amortisman döneminde aynı yüzdeyi içerir. Bu yüzde, sabit kıymetin servis ömrü temel alınarak hesaplanır. Örneğin, bir sabit kıymetin beş yıllık servis ömrü varsa, yüzde 30 (%150 ÷ 5) olarak hesaplanır. 
 
 %150 azalan bakiyeli amortisman ayarlamak için, **Amortisman profilleri** sayfasında **Amortisman yılı** alanı ve **Dönem sıklığı** alanındaki seçenekleri de belirlemeniz gerekir. **Dönem sıklığı** alanındaki kullanılabilir seçenekler, **Amortisman yılı** alanında seçili değere bağlı olarak değişir.
 
@@ -75,7 +75,7 @@ Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında 
 | Servis ömrü yıl sayısı             | 5      |
 | Yıllık amortisman yüzdesi | %30    |
 
-%150 azalan bakiye yöntemi, yüzde 150'ü servis ömrü yıl sayısına böler. Elde edilen yüzde, yıla ait amortisman tutarını belirlemek üzere, sabit kıymetin net defter değeriyle çarpılacaktır.
+%150 azalan bakiye yöntemi, yüzde 150'yi servis ömrü yıl sayısına böler. Elde edilen yüzde, yıla ait amortisman tutarını belirlemek üzere, sabit kıymetin net defter değeriyle çarpılacaktır.
 
 | Dönem | Yıllık amortisman miktarının hesaplaması | Defter değeri             | Yıl sonunda net defter değeri |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|

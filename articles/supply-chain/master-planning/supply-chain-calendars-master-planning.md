@@ -1,9 +1,9 @@
 ---
-title: Tedarik zinciri takvimleri ve bunların ana planlamayı etkileme şekli
+title: Takvimler ve master planlama
 description: Bu konu tedarik zinciri takvimleri ve master planlamayı nasıl etkiledikleri hakkında genel görünüm sağlar.
 author: t-benebo
 manager: AnnBe
-ms.date: 01/15/2019
+ms.date: 05/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4edcb6a48f705799041d0e29ab7f1a0e52cba434
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 266eec2bb870be270b7796b35903a402e014c67c
+ms.sourcegitcommit: 1f211ac6bd384fd8a2b5352104baf264d88f39b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363649"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538738"
 ---
-# <a name="supply-chain-calendars-and-how-they-affect-master-planning"></a>Tedarik zinciri takvimleri ve bunların ana planlamayı etkileme şekli
+# <a name="calendars-and-master-planning"></a>Takvimler ve master planlama
 
 [!include [banner](../includes/banner.md)]
 

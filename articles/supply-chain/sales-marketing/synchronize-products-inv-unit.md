@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: 080672b9a6acd9fd6137580b5b7e14d12cfccf19
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842474"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1535871"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Stok birimli ürünleri Finance and Operations'dan Field Service'a eşitleme
 

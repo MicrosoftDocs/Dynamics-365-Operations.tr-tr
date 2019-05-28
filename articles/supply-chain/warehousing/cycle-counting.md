@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323238"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560678"
 ---
 # <a name="cycle-counting"></a>Döngü sayımı
 
@@ -113,7 +113,7 @@ Hemen veya periyodik olarak döngü sayım işi oluşturmak için döngü sayım
 Döngü sayım işini el ile oluşturmak için, **Maddeye göre döngü sayım işi** veya **Konuma göre döngü sayım işi** sayfasını kullanabilirsiniz. Oluşturulacak maksimum döngü sayımı sayısını belirleyebilirsiniz. Örneğin ambar yöneticisi değeri **5** olarak belirlerse, madde 10 konumda olsa bile döngü sayım işi beş konum için oluşturulur. Oluşturulan döngü sayım işi kimliklerinin atandığı bir iş havuzu kimliği de seçebilirsiniz. Döngü sayımı için bir iş havuzu kimliği işlendiğinde, iş havuzuna atanan döngü sayım işi kimlikleri grup olarak işlenir.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Mobil cihaz kullanarak döngü sayımı gerçekleştirme
-Bir mobil cihazda Dynamics 365 for Finance and Operations kullanarak döngü sayım işi işlemenin birçok yöntemi vardır:
+Bir mobil cihazda Finance and Operations kullanarak döngü sayım işi işlemenin birçok yöntemi vardır:
 
 -   **Kullanıcı yönlendirmeli** – İşçi, **Açık** durumuna sahip bir döngü sayım işi kimliği belirtebilir.
 -   **Sistem yönlendirmesinde** – Finance and Operations işçiye bir döngü sayım işi kimliği atar.

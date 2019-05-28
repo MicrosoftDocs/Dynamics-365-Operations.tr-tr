@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d1d50f71f93e7d4bfff81aaceed408f976844fbd
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856012"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1510365"
 ---
 # <a name="enter-worker-information"></a>Çalışan bilgilerini girme
 

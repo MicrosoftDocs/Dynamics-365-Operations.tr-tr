@@ -1,5 +1,5 @@
 ---
-title: '%175 azalan bakiyeli amortisman'
+title: Yüzde 175 azalan bakiyeli amortisman
 description: Bu konu, amortismanın yüzde 175 azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 author: saraschi2
 manager: AnnBe
@@ -19,13 +19,13 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2a63293dbf24c27733f8013947aeab5792fa0db9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320179"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570211"
 ---
-# <a name="175-percent-reducing-balance-depreciation"></a>%175 azalan bakiyeli amortisman
+# <a name="175-percent-reducing-balance-depreciation"></a>Yüzde 175 azalan bakiyeli amortisman
 
 [!include [banner](../includes/banner.md)]
 

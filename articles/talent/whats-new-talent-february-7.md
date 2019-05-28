@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-02-07
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: b89fc15130755a80b56f26cf7c61674a26f43e36
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "858940"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1519280"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-7-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (7 Şubat 2019)
 

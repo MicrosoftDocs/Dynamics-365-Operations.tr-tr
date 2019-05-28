@@ -17,16 +17,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
-ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
+ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "946445"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1536722"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile Fiili ağırlık ürün işlemi
 
 [!include [banner](../includes/banner.md)]
+
+[!include [preview banner](../includes/pivate-preview-banner.md)]
+
 
 ## <a name="feature-exposure"></a>Özellik tanıtımı
 

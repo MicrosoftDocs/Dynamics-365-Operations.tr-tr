@@ -1,5 +1,5 @@
 ---
-title: ER Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 1 -  Biçimi tasarlama)
+title: ER Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 1 - Biçimi tasarlama)
 description: Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, gerekli sütunların yatay olarak genişletilebilir aralıklar şeklinde oluşturulabileceği OPENXML çalışma sayfası (Excel) dosyaları şeklinde raporlar oluşturmak amacıyla bir Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini açıklar.
 author: NickSelin
 manager: AnnBe
@@ -17,11 +17,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 7f0481a09e2ff4ae06fc53011067050c3373d6bc
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "319627"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544484"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format"></a>ER Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 1: Biçimi tasarlama)
 
@@ -59,7 +59,7 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 1. Tasarımcı'yı tıklatın.
 2. "Ayrıntıları göster" geçiş düğmesini açın.
 3. Eylem Bölmesinde, İçeri Al'a tıklayın.
-4. Microsoft Excel'den içe aktar'a tıklayın.
+4. Excel'den içe aktar'a tıklayın.
 5. Ekler'e tıklayın.
     * Raporun şablonunu içe aktarın. Bunun için indirdiğiniz Excel dosyasını kullanın.  
 6. Yeni'ye tıklayın.

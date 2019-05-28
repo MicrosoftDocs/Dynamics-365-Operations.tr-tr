@@ -17,11 +17,11 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 2c39b2fcf521106dfb58466bc45a316c0b506345
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355162"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560724"
 ---
 # <a name="register-sales-commissions"></a>Satış komisyonlarını kaydetme
 

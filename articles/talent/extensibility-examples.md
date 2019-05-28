@@ -3,14 +3,14 @@ title: PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek sen
 description: Bu konu, Microsoft PowerApps ve Microsoft Flow kullanan Microsoft Dynamics 365 for Talent için bazı örnek genişletilebilirlik senaryolarını açıklar.
 author: negudava
 manager: Annbe
-ms.date: 03/04/2018
+ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent;Core;Experience Apps
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "949932"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1519288"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek senaryolar
 
@@ -101,7 +101,21 @@ Bu şablon, SharePoint tümleştirmesi içeren herhangi bir senaryoda kullanılm
 
 **Akış - SharePoint Tümleştirmesi** şablonunu indirmek için [Akış - SharePoint Tümleştirmesi](https://go.microsoft.com/fwlink/?linkid=2082109)'ne Microsoft Download Center'dan gidin.
 
+## <a name="admin-console-to-manage-talent-pools"></a>Yetenek havuzlarını yönetmek için yönetici konsolu
 
+LinkedIn ile tümleştirmeyi etkinleştirdiğinizde, Attract otomatik olarak LinkedIn'de bir yetenek havuzu oluşturur. Bir işe alım görevlisi işe alınan kişiyle LinkedIn üzerinden InMail ile e-posta alış verişi yaptığında Attract işe alınan kişi için bir profil oluşturur ve yeni işe alınan LinkedIn yetenek havuzunun üyesi olur. Bu PowerApps uygulaması, yeteneğe dayalı olarak yetenek havuzlarındaki adayları yeniden düzenleme için yararlıdır.
+
+Aşağıdaki görevleri gerçekleştirmek için bu PowerApps uygulamasını yönetici konsolu olarak çalıştırın:
+
+- Yetenek havuzunda adayları listeleme
+- Yetenek havuzun aday ekleme veya kaldırma
+- Adayları bir yetenek havuzundan başka bir tanesine taşıma
+- Adayların taşımadan önce zaten bir yetenek havuzunun parçası olup olmadığını belirleme
+- Adayları diğer yetenek havuzlarına taşımadan önce niteliklerini denetleme
+
+Bu PowerApps uygulaması çok-çok ilişkilerin kullanır, böylece çok-çok ilişkisi olan kayıtları çıkarmanız gereken diğer senaryolar için şablon olarak kullanabilirsiniz.
+
+**Yetenek havuzlarını yönetmek için yönetici konsolu** şablonunu indirmek için Microsoft İndirme Merkezinde [Yetenek havuzlarını yönetmek için yönetici konsolu](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469)'na gidin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

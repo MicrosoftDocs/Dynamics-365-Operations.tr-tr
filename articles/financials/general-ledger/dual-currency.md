@@ -3,7 +3,7 @@ title: Çift para birimi
 description: Bu konu, raporlama para biriminin Microsoft Dynamics 365 for Finance and Operations için muhasebe para birimi olarak kullanıldığı çift para birimi hakkında bilgi sağlar.
 author: kweekley
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 05/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3665ec1cb15fc63e5707a4721699872fe81424a0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330322"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1532260"
 ---
 # <a name="dual-currency"></a>Çift para birimi
 
@@ -61,6 +61,9 @@ Değişiklikler iki şekilden birini izler:
 ## <a name="financial-journals"></a>Mali günlükler
 
 Genel günlük ve satıcı fatura günlüğü gibi mali günlükler, paporlama para birimi hakkındaki ek bilgileri içermesi için güncelleştirildi. Günlük ve fiş için toplamlar şimdi raporlama para birimi cinsinden gösterilir. Raporlama para biriminin döviz kuruyla ilgili bilgileri şimdi ek olarak, günlük satırlarının **Genel** sekmesinde görebilirsiniz. Bu nedenle, hareketleri girerken, raporlama para biriminin döviz kurunu devreden çıkarabilirsiniz.
+
+## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>Satıcı faturaları, satış siparişleri ve satış sözleşmeleri
+Satıcı faturaları, satış siparişleri ve satış sözleşmeleri, raporlama para birimi için sabit bir döviz kuru içerecek şekilde güncelleştirildi. Hareket para birimi farklı olduğunda, sabit bir döviz kuru hem muhasebe para birimi hem de raporlama para birimi için tanımlanabilir. Muhasebe para birimi ve raporlama para birimi aynıysa, sabit döviz kuru raporlama para biriminin sabit oranı olarak muhasebe para biriminin sabit oranı kullanılarak eşitlenmiş olarak tutulur. Bu yapılandırma için raporlama para birimi sabit döviz kuru değiştirilemez. Muhasebe para birimi ve raporlama para birimi farklı olduğunda, hareket girişi sırasında hem muhasebe para birimi hem de raporlama para birimi için sabit döviz kuru tanımlanabilir. Raporlama para birimi genel muhasebede tanımlanmazsa, **Raporlama para birimi sabit döviz kuru** alanı etkinleştirilmez ve raporlama para birimi tutarı hesaplanmaz.
 
 ## <a name="module-changes"></a>Modül değişiklikleri
 

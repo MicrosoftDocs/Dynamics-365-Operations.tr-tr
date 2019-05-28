@@ -19,11 +19,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "350447"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551613"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Finansal rapor tasarımcısında satır tanımları
 

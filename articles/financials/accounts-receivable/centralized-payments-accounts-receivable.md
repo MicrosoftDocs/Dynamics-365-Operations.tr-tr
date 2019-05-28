@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f6b8b1548bf70363431ad58482ba82cf11017332
-ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "390155"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1552045"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Alacaklar hesapları için merkezi ödemeler
 

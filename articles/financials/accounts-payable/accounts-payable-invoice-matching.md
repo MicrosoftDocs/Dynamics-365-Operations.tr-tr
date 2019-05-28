@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 74a1f7e16064a954bb22dc233a77bf28747f7f11
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "896960"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1509280"
 ---
 # <a name="accounts-payable-invoice-matching"></a>Borç hesapları fatura eşleşmesi
 

@@ -1,9 +1,9 @@
 ---
 title: Satış noktasında (POS) sipariş bildirimlerini görüntüleme
-description: Bu konu, satış noktasında sipariş bildirimlerinin etkinleştirilmesini ve bildirim çerçevesini açıklar. Sonuç olarak, geliştiriciler bu bildirimleri sipariş karşılama işlemlerinin yanı sıra işlemlere de genişletebileceklerdir.
+description: Bu konu, satış noktasında sipariş bildirimlerinin etkinleştirilmesini ve bildirim çerçevesini açıklar.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/13/2018
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361349"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530282"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Satış noktasında (POS) sipariş bildirimlerini görüntüleme
 
@@ -67,6 +67,10 @@ POS düğmeleri artık çalışanların hangi görevlerle hemen ilgilenilmesi ge
 Aşağıdaki örnek düğme grubu tasarımcısındaki canlı içerik ayarlarını göstermektedir.
 
 ![Düğme grubu tasarımcısındaki canlı içerik ayarları](./media/ButtonGridDesigner.png "Düğme grubu tasarımcısındaki canlı içerik ayarları")
+
+Bir düğmedeki bildirim sayımını göstermek için, doğru ekran düzeninin güncelleştirilmesini sağlamanız gerekir. POS tarafından kullanılan ekran düzenini belirlemek için, sağ üst köşedeki ayarlar **Ayarlar** simgesini seçin ve **Ekran düzeni kodunu** ve **Düzen çözünürlüğünü** not edin. Şimdi Edge tarayıcısını kullanarak, Dynamics 365 for Finance and Operations'daki **Ekran düzeni** sayfasına gidin, yukarıda tanımlanan **Ekran düzeni kodunu** ve **Düzen çözünürlüğünü** bulun ve **Canlı içeriği etkinleştir** onay kutusunu seçin. **Perakende > Perakende BT > Dağıtım zamanlaması**'na gidin ve düzen değişikliklerini eşitlemek için 1090 (Kayıtlar) işini çalıştırın. 
+
+![POS tarafından kullanılan ekran düzenini bulun](./media/Choose_screen_layout.png "Ekran düzenini bulun ")
 
 Aşağıdaki örnekte, farklı boyuttaki düğmeler için **İçerik hizalama** alanında **Sağ üst** ve **Merkez** seçimlerinin etkisini göstermektedir.
 

@@ -3,7 +3,7 @@ title: Yapılandırma anahtarları ve veri varlıkları
 description: Bu konu Microsoft Dynamics 365 for Finance and Operations içindeki yapılandırma anahtarları ve veri varlıkları arasındaki ilişkiyi açıklar.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 01/01/2018
+ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bf2bdd2eaf406750c885a151aa09468df8a5f4b7
+ms.sourcegitcommit: fd3db9f2052c76a5d906b9ec23cb16222452a362
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336486"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "1539956"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Yapılandırma anahtarları ve veri varlıkları
 
@@ -86,7 +86,7 @@ Yapılandırma anahtarlarının kullanmak istediğiniz veri varlıkları üzerin
 - Kullanıcı veri projesine bir şablon yüklediğinde
 - Mevcut bir veri projesi yüklendiğinde
 - Veri projesine bir şablon yüklendiğinde
-- Dışa aktarma/içe aktarma işi yürütülmeden önce (toplu iş, toplu iş olmayan, tekrarlayan, Odata)
+- Dışa aktarma/içe aktarma işi yürütülmeden önce (toplu iş, toplu iş olmayan, tekrarlayan, OData)
 - Kullanıcı eşleme oluşturduğunda
 - Kullanıcı eşleme kullanıcı arabiriminde alanları eşlediğinde
 - Kullanıcı yalnızca 'içe aktarılabilir alanlar' eklediğinde

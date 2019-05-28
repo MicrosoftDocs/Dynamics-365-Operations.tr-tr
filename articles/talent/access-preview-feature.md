@@ -1,12 +1,12 @@
 ---
 title: Talent'ta önizleme özelliklerine erişme
 description: Bu konu önizleme özelliklerini bir yöneticinin nasıl etkinleştirebileceğini tanımlar ve önizleme için etkin olan özellikleri listeler.
-author: andreabichsel
+author: tracykeya
 manager: AnnBe
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +15,15 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: trkeya
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
+ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856337"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1519346"
 ---
 # <a name="access-preview-features-in-talent"></a>Talent'ta önizleme özelliklerine erişme
 
@@ -72,6 +72,7 @@ Bu konu önizleme özelliklerini bir yöneticinin nasıl etkinleştirebileceğin
 
 - **Aday başvurusu** – Hem harici hem de dahili adaylar artık doğrudan kariyer sitesindeki iş sayfasından başvuruda bulunabilir.
 - **Teklif yönetimi** – Kullanıcılar artık yer tutucular içeren şablonlardan teklif mektupları oluşturabilir. Adaylar Teklif aşamasında ilerlediğinde, işe alanlar ve işe alım müdürleri aday için şablonlar aracılığıyla bir resmi teklif hazırlamak, teklifi dahili onaylayana gönderme ve son olarak teklifi imzalanmak üzere adaya göndermek için Teklif aracını kullanabilirler. Zaman içinde Teklif aracına birçok yeni özellik eklenecektir ve önizleme için yayımlamaya hazır olduğumuzda önizleme özelliği bu özelliklerle güncelleştirilecektir.
+- **[Analitik raporlar](analytic-reports.md)** – İşe alma takımları, tek bir projeyle ilgili temel ölçümleri İş Analitiklerinde veya tüm işler için toplu ölçümleri Analitik Merkezinde görüntüleyebilir.
 
 ### <a name="core-hr"></a>Temel İK
 

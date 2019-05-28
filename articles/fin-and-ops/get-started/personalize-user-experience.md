@@ -3,7 +3,7 @@ title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konu Microsoft Dynamics 365 for Finance and Operations nasıl özelleştirilebileceğinizi açıklar.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975863"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1528856"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -75,7 +75,7 @@ Bir sayfada yapılabilecek en tipik ve önemli değişikliklerden bazıları, k�
 
 Ayrıca, açık kişiselleştirmenin en temel türleri de bir öğeye sağ tıklayıp **Kişiselleştir**'i seçerek kullanılabilir. (Sayfanızdaki tüm öğelerin kişiselleştirilemeyeceğini unutmayın.) Bu kişiselleştirme yöntemini kullandığınızda, öğenin özellik penceresi görünür.
 
-[![Bir öğenin özelliklerini kişiselleştirme](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
+[![Bir öğenin özelliklerini kişiselleştirme](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
 
 Bir öğeyi aşağıdaki yöntemlerle kişiselleştirmek için özellik penceresini kullanabilirsiniz:
 
@@ -91,7 +91,7 @@ Bir öğeyi aşağıdaki yöntemlerle kişiselleştirmek için özellik penceres
 
 Bir sayfada birden çok değişiklik veya diğer mekanizmalar aracılığıyla gerçekleştirilemeyen değişiklikler yapmak istiyorsanız (öğeleri yeniden düzenlemek gibi), **Kişiselleştirme** araç çubuğunu kullanabilirsiniz. **Kişiselleştirme** araç çubuğunu açmak için, bir öğenin özellik penceresinde **Bu formu kişiselleştir**'i seçin. Her sayfanın Eylem Bölmesinin **Seçenekler** sekmesindeki **Kişiselleştir** grubunda bulunan **Bu formu kişiselleştir**'i de seçebilirsiniz.
 
-[![Kişiselleştirme araç çubuğu](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+[![Kişiselleştirme araç çubuğu](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Sayfada gezinme
 

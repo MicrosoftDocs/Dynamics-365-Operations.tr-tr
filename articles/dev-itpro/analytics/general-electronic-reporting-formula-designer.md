@@ -3,7 +3,7 @@ title: Elektronik raporlamada (ER) formül tasarımcısı
 description: Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar.
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331288"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541280"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
@@ -260,8 +260,8 @@ Giriş veya sınırlayıcı (boş) belirtilmezse, bir uygulama özel durum oluş
 <td>SPLITLIST (list, sayı)</td>
 <td>Belirtilen listeyi, her biri belirtilen sayıda kayıt içeren toplu işleri bölün. Sonucu, aşağıdaki öğeleri içeren yeni bir toplu iş listesi olarak döndürür:
 <ul>
-<li>Toplu işler düzenli listelerdir (<strong>Değer </strong>bileşen)</li>
-<li>Geçerli toplu iş numarası (<strong>BatchNumber</strong>bileşeni)</li>
+<li>Toplu işler düzenli listelerdir (<strong>Değer </strong> bileşen)</li>
+<li>Geçerli toplu iş numarası (<strong>BatchNumber</strong> bileşeni)</li>
 </ul>
 </td>
 <td>Aşağıdaki örnekte, üç kaydın kayıt listesi olarak <strong>Satırlar</strong> veri kaynağı oluşturulur. Bu liste her biri en çok iki kayıt içeren toplu işlere ayrılır.
@@ -344,8 +344,8 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <td>ENUMERATE (liste)</td>
 <td>Belirtilen listenin numaralandırılmış kayıtlarından oluşan ve aşağıdaki öğeleri gösteren yeni bir liste döndürür:
 <ul>
-<li>Belirtilen liste kayıtları, düzenli olarak (<strong>Değer </strong>bileşeni) listeler</li>
-<li>Geçerli kayıt dizini (<strong>Numara </strong>bileşeni)</li>
+<li>Belirtilen liste kayıtları, düzenli olarak (<strong>Değer </strong> bileşeni) listeler</li>
+<li>Geçerli kayıt dizini (<strong>Numara </strong> bileşeni)</li>
 </ul>
 </td>
 <td>Aşağıdaki örnekte, <strong>Numaralandırılan</strong> veri kaynağı, VendTable tablosuna başvuran <strong>Satıcılar</strong> veri kaynağındaki satıcı kayıtlarının numaralandırılmış bir listesi olarak oluşturulur.
@@ -439,6 +439,11 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>FİLTRE (liste, koşul)</td>
 <td>Sorgu belirtilen koşula göre filtre uygulayacak şekilde değiştirildikten sonra belirtilen listeyi döndürür. <strong>WHERE</strong> işlevinden farklı olarak bu işlev, belirtilen koşul <strong>Tablo kayıtları</strong> türünün herhangi bir ER veri kaynağına veritabanı düzeyinde uygulanabilir. Liste ve koşul tablolar ve ilişkiler kullanılarak tanımlanabilir.</td>
 <td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong>, yalnızca grup 40'a dahil olan satıcıların listesini döndürür. <strong>Satıcı</strong>, VendTable tablosuna başvuran bir ER veri kaynağı olarak yapılandırılırsa ve <strong>parmVendorBankGroup</strong>, <strong>Dize</strong> veri türünde bir değer döndüren ER veri kaynağı olarak yapılandırılırsa, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> yalnızca belirli bir banka grubuna ait satıcı hesaplarının bulunduğu bir liste döndürür.</td>
+</tr>
+<tr>
+<td>DİZİN (liste, dizin)</td>
+<td>Bu işlev, listedeki belirli bir sayısal dizinle seçilen bir kaydı döndürür. Dizin listedeki kayıtların aralığı dışında ise bir özel durum oluşur.</td>
+<td><strong>Hesaplanmış alan</strong> türü için veri kaynağı <strong>DS</strong>'yi girerseniz ve bu <strong>SPLIT ("A|B|C", “|”), 2)</strong> ifadesini içerirse , <strong>DS.Value</strong> ifadesi "B" metin değerini döndürür. <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> ifadesi de “B” metin değerini döndürür.</td>
 </tr>
 </tbody>
 </table>
@@ -645,7 +650,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <tr>
 <td>NUMBERFORMAT (sayı, biçim)</td>
 <td>Belirtilen sayının, belirtilen biçimdeki dize olarak temsilini döndür. (Desteklenen biçimler hakkında bilgi için bkz. <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standart</a> ve <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">özel</a>.) Bu işlevin çalıştırıldığı bağlam, sayıları biçimlendirmek için kullanılan kültürü belirler.</td>
-<td>TR-TR kültürü için <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong>, <strong>&quot;%45,00&quot;</strong> döndürür. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong>, <strong>&quot;10&quot;</strong> döndürür.</td>
+<td>TR-TR kültürü için <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong>, <strong>&quot;45,00&quot;</strong> döndürür. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong>, <strong>&quot;10&quot;</strong> döndürür.</td>
 </tr>
 <tr>
 <td>NUMERALSTOTEXT (sayı, dil, para birimi, para birimi adını yazdır bayrağı, ondalık basamaklar)</td>

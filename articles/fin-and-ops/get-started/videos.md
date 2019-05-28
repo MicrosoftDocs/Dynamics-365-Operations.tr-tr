@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "317833"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561680"
 ---
 # <a name="videos-for-finance-and-operations"></a>Finance and Operations için videolar
 
@@ -150,7 +150,7 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 
 - [CDS veri tümleştirici (DYN451PAL2)](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Tümleştirme (VIR806PAL)](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Dynamics 365 for Sales ve Dynamics 365 for Finance and Operations arasında CDS aracılığıyla tümleştirme (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Dynamics 365 for Sales ve Dynamics 365 for Finance & Operations arasında CDS aracılığıyla tümleştirme (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Dynamics 365 for Finance & Operations'daki tümleştirme altyapısı (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Veri yönetimi için görev otomasyonu altyapısı (DYN447PAL2)](https://youtu.be/KqnXjNpR4AY)
 

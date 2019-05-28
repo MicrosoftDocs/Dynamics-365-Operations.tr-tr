@@ -1,5 +1,5 @@
 ---
-title: '%200 azalan bakiyeli amortisman'
+title: Yüzde 200 azalan bakiyeli amortisman
 description: Bu makalede, yüzde 200 amortisman bilanço azaltma yöntemine genel bakış sunulmuştur.
 author: saraschi2
 manager: AnnBe
@@ -19,19 +19,19 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ec51f9e12e31e81c56fab9e82d0fc18d45beb5e6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "322732"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569325"
 ---
-# <a name="200-percent-reducing-balance-depreciation"></a>%200 azalan bakiyeli amortisman
+# <a name="200-percent-reducing-balance-depreciation"></a>Yüzde 200 azalan bakiyeli amortisman
 
 [!include [banner](../includes/banner.md)]
 
 Bu makalede, yüzde 200 amortisman bilanço azaltma yöntemine genel bakış sunulmuştur.
 
-Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **%200 azalan bakiye** seçeneğini belirlediğinizde, amortisman profiline atanan sabit kıymetlerin amortismanı her amortisman döneminde aynı yüzdeyi içerir. Yüzde, sabit kıymetin servis ömrü temel alınarak hesaplanır. Örneğin, bir sabit kıymetin beş yıllık servis ömrü varsa, yüzde %40 (%200 ÷ 5) olarak hesaplanır. 
+Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **%200 azalan bakiye** seçeneğini belirlediğinizde, amortisman profiline atanan sabit kıymetlerin amortismanı her amortisman döneminde aynı yüzdeyi içerir. Yüzde, sabit kıymetin servis ömrü temel alınarak hesaplanır. Örneğin, bir sabit kıymetin beş yıllık servis ömrü varsa, yüzde 40 (%200 ÷ 5) olarak hesaplanır. 
 
 Bu yöntem çift azalan bakiye olarak da bilinir.
 

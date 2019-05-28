@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355622"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561189"
 ---
 # <a name="transportation-management-overview"></a>Taşıma yönetimine genel bakış
 
@@ -73,12 +73,12 @@ Taşıma yönetiminde , taşıma planlaması için siparişler veya bu siparişl
 ![Yük çekme](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Gelen taşıma
-Bir satıcıya madde siparişi verdiğiniz zaman ve bu maddelerin sizin ambarınıza teslim edilmesi gerektiğinde maddeleri taşımayı kendiniz düzenlemek isteyebilirsiniz. Gelen yükün taşıma ve girişini planlamak için Dynamics 365 for Finance and Operations kullanabilirsiniz. Aşağıdaki şekilde, gelen yük için taşıma planlamasına ilişkin iş süreci akışı gösterilmektedir. 
+Bir satıcıya madde siparişi verdiğiniz zaman ve bu maddelerin sizin ambarınıza teslim edilmesi gerektiğinde maddeleri taşımayı kendiniz düzenlemek isteyebilirsiniz. Gelen yükün taşıma ve girişini planlamak için Finance and Operations kullanabilirsiniz. Aşağıdaki şekilde, gelen yük için taşıma planlamasına ilişkin iş süreci akışı gösterilmektedir. 
 
 ![Gelen yükün taşınmasına ilişkin iş süreci akışı](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Giden taşıma
-Belirli maddeleri şirketin ambarından müşteriye sevk etmek için giden yük planlaması yapabilir ve işleme koyabilirsiniz. Giden yükün nakliyesi ve sevkiyatını planlamak için Dynamics 365 for Finance and Operations kullanabilirsiniz. Aşağıdaki şekilde, giden yükün sevkiyat için planlaması ve işleme konmasına ilişkin iş süreci akışı gösterilmektedir. 
+Belirli maddeleri şirketin ambarından müşteriye sevk etmek için giden yük planlaması yapabilir ve işleme koyabilirsiniz. Giden yükün nakliyesi ve sevkiyatını planlamak için Finance and Operations kullanabilirsiniz. Aşağıdaki şekilde, giden yükün sevkiyat için planlaması ve işleme konmasına ilişkin iş süreci akışı gösterilmektedir. 
 
 ![Giden yükleri planlama ve işleme](./media/Planningandprocessingoutboundloads.jpg)
 

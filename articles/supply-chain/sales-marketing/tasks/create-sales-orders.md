@@ -17,11 +17,11 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8af0333d979ba3a4e12d4f22b1225f3b72d66a7a
-ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "352126"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563983"
 ---
 # <a name="create-sales-orders"></a>Satış siparişleri oluşturma
 

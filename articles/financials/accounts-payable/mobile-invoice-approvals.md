@@ -18,11 +18,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 5a48ea7b0c1faf5726de21a246e3d8b4d98f166a
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "897190"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1511672"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobil fatura onayları
 

@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 3bd4d6f8625c91f2190e994f04cbec4548272f04
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312911"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557837"
 ---
 # <a name="create-purchasing-policies"></a>Satınalma ilkeleri oluşturma
 

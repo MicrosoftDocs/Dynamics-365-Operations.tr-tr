@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8bc7705b7db46af8fbe8bf9e78a878a53249b452
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361395"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560921"
 ---
 # <a name="create-a-location-profile"></a>Yerleşim profili oluşturma
 

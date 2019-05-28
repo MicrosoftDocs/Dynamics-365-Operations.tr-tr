@@ -19,11 +19,11 @@ ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353368"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570562"
 ---
 # <a name="create-workflows"></a>İş akışları oluşturma
 

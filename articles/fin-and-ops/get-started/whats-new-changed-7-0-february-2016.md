@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334899"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561822"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 
@@ -119,7 +119,7 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 | Ortak Ara Dil'in (CIL) tüm özellikleri için derleyin. | X++ p-kod'a derlenir. | Yeni X ++ derleyicisi tüm özellikler için CIL oluşturur. CIL diğer .NET tabanlı diller tarafından kullanılan aynı ara dilidir. | CIL daha hızlıdır, verimli bir şekilde dinamik bağlantı kitaplıkları (DLL'ler) ile yönetilen sınıflarda referans yapabilir ve .NET'in geniş araç tabanında çalışabilir. |
 | İş Zekası (BI) raporlarını ve görsel öğelerini Microsoft Dynamics AX istemcisinde gömün. | Uygun değil | Son derece sezgisel ve akıcı görsel öğeler oluşturun. | BI temel alarak karar verme içgörüleri sağlar. |
 | Microsoft Office'le Tümleştir. | Uygun değil | Yeni yeteneklere Excel Veri Bağlayıcısı uygulaması **Çalışma Kitabı Tasarımcısı** sayfası, API dışa aktarma ve Belge yönetimi dahildir. | Son kullanıcılarınız için üretkenlik çözümleri oluşturabilirsiniz. |
-| Derleme, sınama ve dağıtımı otomatikleştirin. | Kısmen uygun | Geliştirici topolojisini, Geliştirici ve VM Derleme'sini kullanarak dağıtın. VM Derleme'sini otomatik olarak yapılandırın, Visual Studio Online (VSO) üzerinden modülleri oluşturun ve testleri çalıştırın. C\## ve X++ modül derlemesi ve referansları destekleniyor. | Bu, sınama ve doğrulama için maliyeti ve çabayı azaltarak geliştirici verimliliğini artırır. |
+| Derleme, sınama ve dağıtımı otomatikleştirin. | Kısmen uygun | Geliştirici topolojisini, Geliştirici ve VM Derleme'sini kullanarak dağıtın. Keşfedilecek VM Derlemesini otomatik olarak yapılandırın, Visual Studio Online (VSO) üzerinden modülleri oluşturun ve testleri çalıştırın. C\## ve X++ modül derlemesi ve referansları destekleniyor. | Bu, sınama ve doğrulama için maliyeti ve çabayı azaltarak geliştirici verimliliğini artırır. |
 | Üst katman oluşturma ve uzantılar ile özelleştirin. | Uzantılar mevcut değildir. | Dynamics AX'in geçerli sürümünün yeni bir özelleştirme modeli vardır. | Microsoft veya üçüncü taraf Microsoft iş ortakları tarafından sevk edilmiş olan model öğelerinin kaynak kodu ve meta verilerini özelleştirebilirsiniz. |
 | Yeni denetimleri ve kullanıcı arabirimi öğelerini X++ ve modern web çerçevesi kullanarak oluşturun. | Özel denetimler Microsoft ActiveX ve Windows Presentation Foundation (WPF) gibi dış çerçeveleri temel alır. | Geçerli sürümde denetimleri oluşturmak daha kolaydır. X++ framework uygulama davranışı ve iş mantığı için kullanılabilir ve bir HTML/JavaScript tabanlı istemci modern görseller sağlar. | Denetimleriniz, Dynamics AX kullanıma hazır (OOB) denetimleri gibi görünmek ve davranmak üzere tasarlanabilir. |
 | Yeni araçları kullanarak değerlendirme yapın performansı ayarlayın. | PerfSDK, Beri genişletme araç seti, Trace Parser WEb app ve PerfTimer kullanılamaz. | PerfSDK, Veri Genişletme Araç Seti, Trace Parser Web app ve PerfTimer yenidir. | Yazılım Geliştirme Seti (SDK), tüm önemli iş süreçlerini tek kullanıcı ve (varsa) çok kullanıcılı test çalışmasına test ve performans için doğrulama sağlar. Veri genişletme Toolkit, ana veri ve işlem verilerinin doğru şekilde genişletilmiş olması gereken tüm performans testlerini doğru olarak genişletmenizi sağlar. İzleme Ayrıştırıcısı, tek kullanıcılı performans testini veya çok kullanıcılı çalışmayı doğrulamanızı sağlar. PerfTimer, herhangi bir sorgunun veya herhangi bir özel yöntem çağrısının bir performans sorununa neden olup olmadığını görmenizi sağlar. Bu nedenle, bir izleme almanıza ve her şeyi ayrıntılı analiz etmenize gerek kalmaz. |

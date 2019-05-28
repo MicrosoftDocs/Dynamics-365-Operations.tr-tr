@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.openlocfilehash: 39133474b4a66e53a5525e7c90216342a6f9ed34
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859886"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517192"
 ---
 # <a name="welcome-to-dynamics-365-for-talent"></a>Dynamics 365 for Talent'a hoş geldiniz
 
@@ -92,7 +92,7 @@ Personelinize ücret, maaş ve ikramiye ödemeleri yapmanın yanı sıra sağlı
 
 -   [Kazanç programını yönetme](manage-benefit-program.md)
 -   [Kazanca uygunluk ilkeleri](benefit-eligibility-policies.md)
--   [Çalışanlara ödünç verilen öğeleri yönetme](loan-items.md)
+-   [Çalışanlara ödünç verilen maddeleri yönetme](loan-items.md)
 -   [Dynamics 365 for Talent'ta çalışan sosyal yardımları yönetimi (video)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Çalışma alanı güvenliğini ve uyumluluğu koruma

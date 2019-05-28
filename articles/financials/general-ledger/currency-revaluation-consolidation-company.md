@@ -19,11 +19,11 @@ ms.author: hminzner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 76290564037ab6f5c7a1cd4508a819bd603e8148
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "338763"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567295"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Konsolidasyon şirketinde para birimi yeniden değerleme
 
@@ -68,8 +68,8 @@ Verileri bir hesap para biriminden öbürüne birleştirdiğinizde, para birimin
 
 | Genel muhasebe hesabı | Para Birimi | Tutar  | Hesaplama                        |
 |----------------|----------|---------|------------------------------------|
-| 110110         | Euro      | 333.33  | Orijinal tutar 500 × %66.6667  |
-| 130100         | Euro      | -333.33 | Orijinal tutar -500 × %66.6667 |
+| 110110         | Euro      | 333.33  | Orijinal tutar 500 × %66,6667  |
+| 130100         | Euro      | -333.33 | Orijinal tutar -500 × %66,6667 |
 | 801400         | Euro      | 83.33   | 333.33 – 250                       |
 | 801600         | Euro      | -83.33  | -333.33 – (-250)                   |
 

@@ -18,11 +18,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
-ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373289"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550965"
 ---
 # <a name="on-premises-deployments-home-page"></a>Şirket içi dağıtımlar giriş sayfası
 

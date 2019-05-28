@@ -19,11 +19,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "379676"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551857"
 ---
 # <a name="modify-row-definition-cells"></a>Satır tanımı hücrelerini değiştirme
 

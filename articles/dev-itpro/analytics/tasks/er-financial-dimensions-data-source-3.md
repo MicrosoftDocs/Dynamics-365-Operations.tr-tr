@@ -17,11 +17,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 45096a728ad6f9e331b53b4e12ca0ff9317a3939
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363005"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544737"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3-design-the-report"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 3: Raporu tasarlama)
 

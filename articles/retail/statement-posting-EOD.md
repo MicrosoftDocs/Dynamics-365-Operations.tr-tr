@@ -3,7 +3,7 @@ title: Ekstre deftere nakil işlevi geliştirmeleri
 description: Bu konu ekstre deftere nakli özelliğinde yapılan geliştirmeleri tanımlar.
 author: josaw1
 manager: AnnBe
-ms.date: 04/26/2016
+ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321444"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541303"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Ekstre deftere nakil işlevi geliştirmeleri
 
@@ -43,7 +43,7 @@ Finance and Operations bu yapılandırma anahtarlarıyla ilgili aşağıdaki do�
 - Yaşam döngüsü süresince belirli bir ekstrede gerçekleştirilen tüm işlemler için aynı yapılandırma anahtarı kullanılmalıdır (Oluştur, Hesapla, Sil, Deftere naklet, vb.). Örneğin, **Perakende ekstresi (eski)** yapılandırma anahtarı açık olduğunda bir ekstreyi oluşturduktan ve hesapladıktan sonra aynı ekstreyi **Perakende ekstresi** yapılandırma anahtarını etkinleştirerek deftere nakledemezsiniz.
 
 > [!NOTE]
-> **Perakende ekstreleri (eski)** yapılandırma anahtarını kullanmanızı zorunlu kılan nedenler yoksa gelişmiş ekstre deftere nakil özelliği için **Perakende ekstreleri** yapılandırma anahtarını kullanmanızı öneririz. Microsoft yeni ve geliştirilmiş ekstre deftere nakil özelliğine yatırım yapmaya devam edecektir ve bundan yararlanmak için en kısa sürede buna geçmeniz önemlidir. Eski ekstre deftere nakli özelliği sonraki bir sürümde kullanım dışı bırakılacaktır.
+> **Perakende ekstreleri (eski)** yapılandırma anahtarını kullanmanızı zorunlu kılan nedenler yoksa gelişmiş ekstre deftere nakil özelliği için **Perakende ekstreleri** yapılandırma anahtarını kullanmanızı öneririz. Microsoft yeni ve geliştirilmiş ekstre deftere nakil özelliğine yatırım yapmaya devam edecektir ve bundan yararlanmak için en kısa sürede buna geçmeniz önemlidir. Eski ekstre deftere nakli özelliği 8.0 sürümü itibarıyla kullanım dışı bırakılmıştır.
 
 ## <a name="setup"></a>Ayarlama
 
@@ -56,11 +56,15 @@ Ekstre deftere nakli özelliğinde yapılan geliştirmelerin bir parçası olara
 
 - **Sayımın devre dışı bırakılması gerekli** – Bu seçenek **Evet** olarak ayarlandığında, sayılan tutar ile hareket tutarı arasındaki fark Perakende mağazaları için **Ekstre** hızlı sekmesinde belirtilen eşiğin dışında olsa bile ekstre deftere nakil işlemi devam eder.
 
-Ayrıca, **Paralel ekstre deftere nakil işlemi için maksimum sayı** alanı **Toplu işlem** hızlı sekmesinde sunulmuştur. Bu alan aynı anda çalışması gereken toplu iş görevlerinin sayısını tanımlar. Şu anda, bu alanın değerini el ile ayarlamanız gerekir.
+Ek olarak, aşağıdaki parametreler **Perakende parametleri** sayfasının **Deftere nakil** sekmesindeki **Toplu işleme** hızlı sekmesinde kullanıma sunulmuştur: 
 
-Ayrıca, yeni deftere nakil işleminde **Perakende parametreleri** sayfasının **Deftere nakil** sekmesindeki **Hediye kartı** hızlı sekmesinde bir **Hediye kartı ürünü** tanımlamak gerekiyor. Kuruluş Hediye kartları kullanmasa bile bu geçerlidir.
+- **Paralel ekstre deftere nakil maksimum sayısı** - Bu alan, çoklu ekstreleri deftere nakletmek için kullanılacak toplu iş görevlerini tanımlar. 
+- **Ekstre başına sipariş işleme için maksimum iş parçacığı** - Bu alan, tek bir ekstre için satış siparişleri oluşturmak ve faturalamak üzere ekstre deftere nakli toplu işi tarafından kullanılan maksimum iş parçacığı sayısını gösterir. Ekstre deftere nakil işlemi tarafından kullanılacak toplam iş parçacığı sayısı, bu parametredeki değer **Paralel ekstre deftere nakil maksimum sayısı**parametresindeki değerle çarpılarak hesaplanır. Bu parametrenin değerinin çok yüksek bir değere ayarlanması, ekstre deftere nakil işleminin performansını olumsuz etkileyebilir.
+- **Toplama dahil edilen maksimum hareket satırı** - Bu alan, yenisi oluşturulmadan önce tek bir toplam harekete dahil edilecek hareket satırlarının sayısını tanımlar. Toplu hareketler müşteri, iş tarihi veya mali boyutlar gibi farklı toplama ölçütleri temel alınarak oluşturulur. Tek bir perakende hareketindeki satırların, farklı toplu hareketler arasında bölünemeyeceğini unutmayın. Bu, toplu hareketteki satırların sayısının, farklı ürünlerin sayısı gibi etkenlere bağlı olarak biraz daha yüksek veya düşük olma olasılığı bulunduğu anlamına gelir.
+- **Mağaza hareketlerini doğrulamak için maksimum iş parçacığı sayısı** - Bu alan, perakende hareketlerini doğrulamak için kullanılacak iş parçacıklarının sayısını tanımlar. Perakende hareketlerinin doğrulanması, hareketler ekstrelerden çekilmeden önce gerçekleşmesi gereken bir adımdır. **Perakende parametreleri** sayfasının **Deftere nakil** sekmesindeki **Hediye kartı** hızlı sekmesinde bir **Hediye kartı ürünü** tanımlamanız gerekir. Kuruluş hediye kartları kullanmasa bile tanımlanması gerekir.
 
-Ekstre deftere nakilleriyle ilgili olan ve Perakende mağazaları ile **perakende parametreleri** sayfasında tanımlanan tüm ayarların ve parametrelerin, geliştirilmiş ekstre deftere nakil özelliğine uygulanabilir olduğunu unutmayın.
+> [!NOTE]
+> Ekstre deftere nakilleriyle ilgili olan ve Perakende mağazaları ile **Perakende parametreleri** sayfasında tanımlanan tüm ayarların ve parametreler, geliştirilmiş ekstre deftere nakil özelliğine uygulanabilir.
 
 ## <a name="processing"></a>İşleniyor
 

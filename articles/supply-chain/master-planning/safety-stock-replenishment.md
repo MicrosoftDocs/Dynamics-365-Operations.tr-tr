@@ -20,11 +20,11 @@ ms.author: roxanad
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
 ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341546"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558608"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Maddeler için emniyet stoğu karşılama
 

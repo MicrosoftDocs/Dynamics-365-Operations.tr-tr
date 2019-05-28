@@ -3,7 +3,7 @@ title: Banka yabancı para birimi yeniden değerleme işlemi
 description: Bu konu, banka yabancı para birimi yeniden değerleme işlemine bir genel bakış sağlar. Kurulum, işlemi yürütme, işlem için hesaplama ve değerleme hareketlerinin tersine çevrilmesi hakkında bilgi içerir.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/27/2019
+ms.date: 04/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3aed5a6c12e8dd39956f906f922bfbed1b8fb680
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "976713"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538644"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Banka yabancı para birimi yeniden değerleme işlemi
 
@@ -52,7 +52,7 @@ Banka yabancı para birimi yeniden değerleme işlemi özelliğini, yabancı par
 3. **Numara serileri** sekmesinde, yabancı para birimi yeniden değerleme işlemi için bir numara serisi ekleyin.
 4. **Yabancı para birimi yeniden değerleme işlemi**'ni alan sayfasının **Periyodik görevler** sekmesinde görmek için tarayıcıyı yenileyin.
 
-Yabancı para birimi yeniden değerleme işlemini kullanacak her tüzel kişilik için özelliği açmanız gerekir.
+Yabancı para birimi yeniden değerleme işlemini kullanacak her tüzel kişilik için özelliği açmanız gerekir. Sistem Yöneticisi rolüne veya Özellik Yöneticisi rolüne atanırsanız **Özellik Yönetimi** çalışma alanındaki **Bir parametre olmadan banka yeniden değerlemeyi etkinleştir** adlı özelliği etkinleştirerek bu adımı giderebilirsiniz.
 
 > [!NOTE]
 > Tüzel varlığınız Rus, Polonya veya Macar ülke/bölge kodu kullanıyorsa, banka yabancı para birimi yeniden değerleme işlemini zaten yapabilirsiniz. Diğer ülkeler veya bölgelerde kullanılan yabancı para birimi yeniden değerlemeyi kullanamazsınız.

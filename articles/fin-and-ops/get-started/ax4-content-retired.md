@@ -1,5 +1,5 @@
 ---
-title: AX Kullanımdan kaldırılan AX 4.0 içeriği
+title: Kullanımdan kaldırılan AX 4.0 içeriği
 description: TechNet ve MSDN'deki Dynamics AX 4.0 içeriği kaldırıldı.
 author: margoc
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: margoc
 ms.search.validFrom: 2018-04-10
 ms.dyn365.ops.version: AX 2012
 ms.openlocfilehash: 7455a10f3e2fc603b6699d77127376cde12f2144
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359279"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546928"
 ---
-# <a name="ax-40-content-that-has-been-retired"></a>AX Kullanımdan kaldırılan AX 4.0 içeriği
+# <a name="ax-40-content-that-has-been-retired"></a>Kullanımdan kaldırılan AX 4.0 içeriği
 
 [!include[banner](../includes/banner.md)]
 

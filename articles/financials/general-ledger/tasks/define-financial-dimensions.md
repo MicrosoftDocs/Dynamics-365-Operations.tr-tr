@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c5cfe92b8733a0a6d76e074cc31eec3f3935b512
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353805"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530880"
 ---
 # <a name="define-financial-dimensions"></a>Mali boyutları tanımlama
 
@@ -32,8 +32,8 @@ Bu görev kılavuzu, varlığa dayalı bir mali boyutun ve özel bir mali boyutu
 
 ## <a name="create-an-entity-backed-financial-dimension"></a>Bir varlığa dayalı mali boyut oluştur
 1. General ledger > Chart of accounts > Dimensions > Financial dimensions (Genel muhasebe > Hesap planı > Boyutlar > Mali boyutlar) menüsüne gidin.
-2. Yeni'ye tıklayın.
-3. Alandaki kullanıcı değerlerinde, mali boyuta temel oluşturacak sistem tanımlı bir varlık seçin. 
+2. Yeni'yi tıklatın.
+3. Kullanıcı değerleri formu alanında, mali boyuta temel oluşturacak sistem tanımlı bir varlık seçin. 
 4. Boyut adı alanında, mali boyutu tanımlamak için bir değer girin.
     * Ad, sistem tanımlı varlıktan farklı olabilir ancak boşluk veya özel karakterler içeremez.  
 5. Etkinleştir'i tıklatın.
@@ -46,8 +46,8 @@ Bu görev kılavuzu, varlığa dayalı bir mali boyutun ve özel bir mali boyutu
 
 ## <a name="create-a-custom-financial-dimension"></a>Bir özel mali boyut oluştur
 1. Sayfayı kapatın.
-2. Yeni'ye tıklayın.
-3. Şuradan alınan değerleri kullan alanında <Custom dimension> belirtin.
+2. Yeni'yi tıklatın.
+3. Şuradan alınan değerleri kullan alanında, Özel boyut öğesini seçin.
 4. Boyut adı alanında, mali boyutu tanımlamak için bir değer girin.
     * Ad, boşluk veya özel karakter içeremez.  
     * Boyut değerleri için girebileceğiniz bilgi miktarını ve türünü sınırlamak üzere bir hesap maskesi de belirtebilirsiniz.   

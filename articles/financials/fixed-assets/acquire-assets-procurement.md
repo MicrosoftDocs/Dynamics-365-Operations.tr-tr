@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ba3484e62caa790a5b05ae0693f69926514f6425
-ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "778236"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558941"
 ---
 # <a name="acquire-assets-through-procurement"></a>Kıymetleri tedarik yoluyla alma
 

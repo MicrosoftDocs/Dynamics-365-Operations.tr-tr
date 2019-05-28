@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b46b95a10d257c56fdf20b016fbb598225d1f930
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303015"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517187"
 ---
 # <a name="supply-chain-management-home-page"></a>Tedarik zinciri yönetimi giriş sayfası
 
@@ -59,7 +59,7 @@ Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations sürüm 8.0
 Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3'te (Aralık 2017) bulunan yeni özellikler hakkında bilgi edinmenize yardımcı olacaktır.
 
 -  [Müşteriden nakde tümleştirmesi](https://youtu.be/AVV9x5x-XCg) 
--  [İyileştirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [En iyi duruma getirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [Yapılandırmayı kopyalamak için ambar şablonu kullanma](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations Enterprise Edition'da (Temmuz 2017) bulunan yeni özellikler hakkında bilgi edinmenize yardımcı olacaktır.
@@ -84,7 +84,7 @@ Bu teknik konferans kayıtlarında Finance and Operations'ın önceki sürümün
 
 **Ürün bilgileri yönetimi**
 
--  [Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)'te ürün yapılandırıcısı
+-  [Microsoft Dynamics AX'te ürün yapılandırıcısı](https://youtu.be/zotrj3SbCl4)
 
 **Ambar yönetimi** 
 
@@ -92,7 +92,7 @@ Bu teknik konferans kayıtlarında Finance and Operations'ın önceki sürümün
 -  [Ambar yönetimi sisteminizden en iyi şekilde yararlanma](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
 -  [Gelişmiş R3 Ambar yönetimi: Gelen işleme ve minimum/maksimum stok yenileme](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
 -  [Gelişmiş R3 Ambar yönetimi - Yaşamdan bir gün, giden işleme ve talep stok yenilemesi](https://youtu.be/Og0gLlVp7jA)
--  [Yeni Microsoft Dynamics AX 2012 R3 Ambar yönetiminde](https://youtu.be/5w1MngVchBA) bulunan etiketler
+-  [Yeni Microsoft Dynamics AX 2012 R3 Ambar yönetiminde bulunan etiketler](https://youtu.be/5w1MngVchBA)
 -  [Dynamics AX 2012 R3: Gelişmiş ambar yönetimi - Süreç bazlı üretimde bir gün](https://www.youtube.com/embed/QUxXUrN-7n4)
 
 **Üretim denetimi**

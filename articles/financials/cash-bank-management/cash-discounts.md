@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dd15a021244e55ea988a95184a758a321ebeafb3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320041"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561627"
 ---
 # <a name="cash-discounts"></a>Nakit iskontoları
 
@@ -43,14 +43,14 @@ Bir fatura nakit iskontosu elde etmek için zamanında kapatılmışsa, nakit is
 3.  Kapatılmış faturadaki nakit iskontosu kodu için, Müşteri iskontoları için ana hesap alanı veya Satıcı iskontoları için ana hesap alan Nakit iskontosu sayfasındadır.
 4.  Nakit iskontoları için ana hesap, Otomatik hareketler için hesaplar sayfasında tanımlandığı gibi.
 
-## <a name="example-series-of-cash-discounts"></a> Örnek: Nakit iskontoları dizisi
+## <a name="example-series-of-cash-discounts"></a>Örnek: Nakit iskontoları dizisi
 Aşağıdaki gibi üç nakit iskontosu kodu ayarlayın:
 -   Kod 5D10% – Tutar 5 gün içinde ödendiğinde %10 oranında bir nakit iskontosu.
 -   Kod 10D5% – Tutar 10 gün içinde ödendiğinde %5 oranında bir nakit iskontosu.
 -   Kod 14D2% - Tutar 14 gün içinde ödendiğinde %2 oranında bir nakit iskontosu.
 
 Bir sonraki iskonto kodu alanına:
--   5G%1 kodu için 10G%5 seçimini yapın.
+-   5G%10 kodu için 10G%5 seçimini yapın.
 -   10G%5 kodu için 14G%2 seçimini yapın.
 -   14D2% kodu için Sonraki iskonto kodu alanını boş bırakın.
 
