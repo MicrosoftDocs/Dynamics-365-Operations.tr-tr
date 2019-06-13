@@ -1,371 +1,588 @@
-- name: Dynamics 365 for Talent
-  href: index.md
-  items:
-    - name: Başlayın
-      href: talent-get-started.md
-      items:
-        - name: Talent'taki yenilikler veya değişiklikler
-          href: whats-new.md
-          items:
-            - name: 6 Mayıs 2019
-              href: whats-new-talent-may-6-2019.md
-            - name: 30 Nisan 2019
-              href: whats-new-talent-april-30-2019.md
-            - name: 25 Nisan 2019
-              href: whats-new-talent-april-25-2019.md
-            - name: 16 Nisan 2019
-              href: whats-new-talent-april-16-2019.md
-            - name: 9 Nisan 2019
-              href: whats-new-talent-april-9-2019.md
-            - name: 2 Nisan 2019
-              href: whats-new-talent-april-2-2019.md
-            - name: 26 Mart 2019
-              href: whats-new-talent-march-26-2019.md
-            - name: 20 Mart 2019
-              href: whats-new-talent-march-20.md
-            - name: 14 Mart 2019
-              href: whats-new-talent-march-14.md
-            - name: 5 Mart 2019
-              href: whats-new-talent-march-5.md
-            - name: Yenilikler arşivleri 2019
-              items:
-                - name: 27 Şubat 2019
-                  href: whats-new-talent-feb-27.md
-                - name: 14 Şubat 2019
-                  href: whats-new-talent-feb14.md
-                - name: 7 Şubat 2019
-                  href: whats-new-talent-february-7.md
-                - name: 31 Ocak 2019
-                  href: whats-new-talent-january-29.md
-                - name: 23 Ocak 2019
-                  href: whats-new-talent-january-23.md
-                - name: 17 Ocak 2019
-                  href: whats-new-talent-january-17.md
-                - name: 11 Ocak 2019
-                  href: whats-new-talent-january-11.md
-            - name: Yenilikler arşivleri 2018
-              items:
-                - name: 14 Aralık 2018
-                  href: whats-new-talent-december-14.md
-                - name: 6 Aralık 2018
-                  href: whats-new-talent-december-6.md
-                - name: 27 Kasım 2018
-                  href: whats-new-talent-november-27.md
-                - name: 15 Kasım 2018
-                  href: whats-new-talent-november-15.md
-                - name: 31 Ekim 2018
-                  href: whats-new-talent-october-31.md
-                - name: 19 Ekim 2018
-                  href: whats-new-talent-october-19.md
-                - name: 15 Ekim 2018
-                  href: whats-new-talent-october-11.md
-                - name: 8 Ekim 2018
-                  href: whats-new-talent-october-8.md
-                - name: 1 Ekim 2018
-                  href: whats-new-talent-october-01.md
-                - name: 24 Eylül 2018
-                  href: whats-new-talent-september-24.md
-                - name: 17 Eylül 2018
-                  href: whats-new-talent-september-17-2018.md
-                - name: 10 Eylül 2018
-                  href: whats-new-talent-september-10.md
-                - name: Ağustos 2018
-                  href: whats-new-talent-august2018.md
-                - name: Temmuz 2018
-                  href: whats-new-talent-july2018.md
-        - name: Sistem gereksinimleri ve güncelleştirme ilkesi
-          href: talent-versions-update-policy.md
-        - name: Talent sağlama
-          href: provisioning-talent.md
-        - name: Talent ortamlarını kaldırma
-          href: remove-talent-environment.md
-        - name: Onboard uygulaması için sağlama
-          href: modular-app-tech-faq.md
-        - name: PowerApps uygulamalarını katıştırma
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR ve Common Data Service
-          href: CoreHREntities.md
-        - name: Önizleme özelliklerine erişme
-          href: access-preview-feature.md
-        - name: Talent için destek alma
-          href: talent-support.md
-    - name: 'Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme'
-      href: departments-jobs-positions.md
-      items:
-        - name: İşin bileşenlerini ayarlama
-          href: create-job.md
-        - name: Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme
-          href: create-department-add-department-hierarchy.md
-        - name: Tüzel kişilikler arasında İK parametreleri ayarlama
-          href: set-up-hr-parameters-across-legal-entities.md
-        - name: Şirkete özgü İK parametrelerini ayarlama
-          href: set-up-company-specific-hr-parameters.md
-        - name: Personel eylemleriyle ilgili SSS
-          href: personnel-actions-faq.md
-        - name: İş süreçlerini biçimlendirme
-          href: formalize-business-processes.md
-        - name: Personel bilgilerini yönetmek için iş akışları kullanma
-          href: workflow-manage-employee-information.md
-    - name: İzin ve devamsızlığı yönetme
-      href: leave-absence-overview.md
-      items:
-        - name: İzin ve devamsızlık kavramları
-          href: leave-absence-concepts.md
-        - name: Çalışılan saatlere göre tahakkuk eden süre
-          href: leave-accrue-hours-worked.md
-        - name: Çalışma zamanı takvimleri
-          href: working-time-calendars.md
-    - name: Kuruluşunuzun personelini belirleme
-      items:
-        - name: Attract'ın hangi sürümü?
-          href: attract-comprehensive-hiring.md
-        - name: Attract özellikleri ve yetenekleri
-          href: attract-overview.md
-        - name: Attract'ta süreç şablonu oluşturma
-          href: Process-templates-Attract.md
-        - name: 'Attract''ta iş oluşturma, onaylama ve yayımlama'
-          href: Creating-jobs-Attract.md
-        - name: Attract'tan harici sitelere iş yayımlama
-          href: posting-jobs-external.md
-        - name: Yetenek havuzlarıyla aday kaynağı bulma
-          href: attract-talent-pools.md
-        - name: LinkedIn Recruiter ile kaynak bulma
-          href: attract-linked-in-recruiter.md
-        - name: İşe alım süreçlerindeki faaliyetler
-          href: activities-attract.md
-        - name: Görüşme planlama ve geribildirim
-          href: interview-scheduling-feedback.md
-        - name: Genişletilebilirlik
-          href: extensibility-attract.md
-        - name: Attract'taki kariyer sitesi işlevi
-          href: career-site.md
-        - name: Teklif yönetimini ayarlama
-          href: offer-setup.md
-        - name: 'Teklif oluşturma, onaylama ve imzalama'
-          href: creating-offers.md
-        - name: E-posta şablonları
-          href: email-templates.md
-        - name: Attract'ta güvenlik ve rol yönetimi
-          href: security-attract.md
-        - name: Attract'ta yönetici ayarları
-          href: Admin-Settings-Attract.md
-        - name: Akıllı öneriler
-          href: Intelligent-Recommendations.md
-        - name: Etkileyici bir işe alım süreci deneyimi oluşturma
-          href: create-onboarding-experience.md
-        - name: Aday profilleri ve başvurular için kaynakları izleme
-          href: source-tracking.md
-        - name: İşe alım süreci öngörüleri için analitik raporları kullanma
-          href: analytic-reports.md
-    - name: Personeli motive etme
-      items:
-        - name: Ücret planları
-          href: compensation-plans.md
-        - name: Sabit ücret planları oluşturma
-          href: create-fixed-compensation-plans.md
-        - name: Değişken ücret planları oluşturma
-          href: create-variable-compensation-plans.md
-        - name: Ücreti işleme
-          href: process-compensation.md
-        - name: İşin bileşenlerini ayarlama
-          href: create-job.md
-    - name: Personeli geliştirme ve eğitme
-      items:
-        - name: Performans yönetimi
-          href: performance-management-overview.md
-        - name: İş gücü becerilerini iş ihtiyaçlarına uygun hale getirme
-          href: skills.md
-        - name: Eğitim kursları ayarlama
-          href: courses.md
-    - name: Kazanç programı tanımlama ve yönetme
-      items:
-        - name: Kazanç programı tanımlama ve yönetme
-          href: manage-benefit-program.md
-        - name: Kazanca uygunluk ilkeleri
-          href: benefit-eligibility-policies.md
-        - name: Uygun Bakım Yasası (ACA) raporları oluşturma
-          href: generate-aca-reports.md
-        - name: Çalışanlara ödünç verilen maddeleri yönetme
-          href: loan-items.md
-    - name: Soru formları
-      href: questionnaires.md
-      items:
-        - name: Soru formları tasarlama
-          href: design-questionnaires.md
-        - name: Soru formlarını dağıtma ve planlama
-          href: distribute-questionnaires.md
-        - name: Soru formlarının sonuçlarını görüntüleme ve değerlendirme
-          href: evaluate-questionnaire-results.md
-    - name: Çalışma alanı güvenliği ve uyumluluğu (ABD)
-      items:
-        - name: Talent'ta kişisel veri isteğini yanıtlama
-          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Form I-9 istihdam doğrulama
-          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: ADA ile uyumluluk
-          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Zeka
-      items:
-        - name: Çalışma alanlarında katıştırılmış Power BI
-          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Mobil uygulama
-      items:
-        - name: Mobil çalışma alanları
-          items:
-            - name: Şirket dizini mobil çalışma alanı
-              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Ekibim mobil çalışma alanı
-              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Mobil çalışma alanlarını yayımlama
-          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Tümleştirme
-      items:
-        - name: Dynamics 365 for Finance and Operations'a tümleştirme
-          href: talent-financeandoperations-integration.md
-        - name: Talent ve Dayforce arasında bordro tümleştirmeyi yapılandırma
-          href: configure-payroll-integration.md
-        - name: Dynamics 365 for Talent için veri tümleştirme kılavuzu
-          href: data-integration.md
-        - name: Tümleştirme ile ilgili SSS
-          href: talent-fo-integration.md
-        - name: Azure Logic Apps kullanarak yinelenen verileri dışa aktarma
-          href: tutorial-integration-recurring-export.md
-    - name: Genişletilebilirlik
-      items:
-        - name: PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek senaryolar
-          href: extensibility-examples.md
-        - name: İşe alma verilerindeki değişiklikleri izleme
-          href: process-auditing.md
-        - name: Attract'ta genişletilebilirlik
-          href: extensibility-attract.md
-        - name: Core HR'deki özel alanlar
-          href: corehr-custom-fields.md
-    - name: Office tümleştirmesi
-      items:
-        - name: Office tümleştirmesi eğitimi
-          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Excel 'de varlık verilerini güncelleştirme
-          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Excel'de Aç deneyimleri oluşturma
-          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Office tümleştirmesi ile ilgili sorunları giderme
-          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Kuruluş yönetimi
-      items:
-        - name: Numara serileri
-          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Bireysel olarak numara serileri ayarlama
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Sihirbaz kullanarak numara serilerini ayarlama
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Kuruluşlar ve kuruluş hiyerarşileri
-          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Kuruluş hiyerarşinizi planlama
-              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Kuruluş hiyerarşisi oluşturma
-              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Tüzel kişilik oluşturma
-              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Faaliyet birimi oluşturma
-              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Genel adres defteri
-          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Genel adres defteri ve diğer adres defterleri için planlama
-              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Genel adres defterini yapılandırma
-              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Adres defterleriyle ilgili SSS
-              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: İş akışı
-          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: İş akışı öğeleri
-              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: İş akışı onay süreçlerindeki eylemler
-              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: İş akışları oluşturma
-              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-              items:
-                - name: İş akışı özelliklerini yapılandırma
-                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: El ile girilen görevleri yapılandırma
-                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Otomatik görevleri yapılandırma
-                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Onay süreçlerini yapılandırma
-                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Onay adımlarını yapılandırma
-                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: El ile girilen kararları yapılandırma
-                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Koşullu kararları yapılandırma
-                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Paralel faaliyetleri yapılandırma
-                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Paralel dalları yapılandırma
-                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Satır maddesi iş akışlarını yapılandırma
-                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: İleti işleme toplu işini yapılandırma
-              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: İş akışındaki iş öğelerini devretme
-              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: İş akışı geçmişini görüntüleme
-              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Kullanıcıların iş akışı ile ilgili e-posta iletileri almasını etkinleştirme
-              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Uyarılar
-          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Uyarı kuralları oluşturma
-              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Uyarıların toplu işlenmesi
-              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Servis talebi yönetimi
-          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: 'Servis talebi güvenliğini, işlemlerini ve kategorilerini planlama'
-              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Belge yönetimi yapılandırma
-          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: E-posta yapılandırma ve gönderme
-          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Tarih/saat tarih ve saat dilimleri
-          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: İnsan kaynakları görevleri
-      items:
-        - name: Performans günlüğünüze ekleme ve birisine övgü gönderme
-          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Hedef oluşturma
-          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Performans değerlendirmesi oluşturma
-          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Talent'ta sorun giderme
-      items:
-        - name: Analitik raporlar güncelleştirilmedi
-          href: analytic-reports-not-updated.md
-        - name: PowerApps Yönetici merkezinde ortam oluşturulamıyor
-          href: create-envi-powerapps-admin-ctr.md
-        - name: Talent istemcisinin bağlantısı kesiliyor
-          href: client-disconnects.md
-        - name: Pozisyon hiyerarşisinde metin kesilmesini engelleme ve Visio'ya aktarma
-          href: avoid-text-truncation-position-hierarchy-visio.md
-        - name: Ücret işlemini çalıştırma
-          href: run-compensation-process.md
-        - name: Görev kılavuzlarını LCS'ye kaydetme ve yeniden oynatma
-          href: save-play-task-guides-LCS.md
-        - name: Güvenlik rolüne göre özel adreslere erişim
-          href: security-roles-addresses.md
-        - name: Talent Microsoft Dynamics 365 uygulamaları (Common Data Service 1.0) arasında görünmüyor
-          href: talent-not-in-home-CDS.md
-        - name: Kullanıcı Core HR'a erişebiliyor ancak Onboard veya Attract uygulamasına erişemiyor
-          href: user-access-core-hr.md
-        - name: Talent'taki raporlama seçenekleri
-          href: talent-reporting-options.md
-        - name: Tümleştirme ile ilgili SSS
-          href: talent-FO-integration.md
-        - name: Azure Active Directory kullanıcıları Kişi Seçici'de bulunamadı
-          href: people-picker-user-not-found.md
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="TOC.yml" target-language="tr-TR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>TOC.8820d6.dea47d376e4da04c15c94a8207856ec23522f4a7.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>dea47d376e4da04c15c94a8207856ec23522f4a7</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>7e223ddd04184fe5a9861be1405fcc0eb8dd166c</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>06/04/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\talent\TOC.yml</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101">
+          <source>Dynamics 365 for Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Dynamics 365 for Talent</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102">
+          <source>Get started</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Başlayın</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Get started with Talent</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">Talent kullanmaya başlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>What's new or changed in Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Talent'taki yenilikler veya değişiklikler</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>May 28, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">28 Mayıs 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>May 21, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">21 Mayıs 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>May 13, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">13 Mayıs 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>May 6, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">6 Mayıs 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>April 30, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">30 Nisan 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>April 25, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">25 Nisan 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>April 16, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">16 Nisan 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>April 9, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">9 Nisan 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>April 2, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2 Nisan 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>March 26, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">26 Mart 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>March 20, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20 Mart 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>March 14, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">14 Mart 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>March 5, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5 Mart 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>What's new archives 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yenilikler arşivleri 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>February 27, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">27 Şubat 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>February 14, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">14 Şubat 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>February 7, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7 Şubat 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>January 31, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">31 Ocak 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>January 23, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">23 Ocak 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>January 17, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">17 Ocak 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>January 11, 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">11 Ocak 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>What's new archives 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yenilikler arşivleri 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>December 14, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">14 Aralık 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>December 6, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6 Aralık 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>November 27, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">27 Kasım 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>November 15, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">15 Kasım 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>October 31, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">31 Ekim 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>October 19, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">19 Ekim 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>October 15, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">15 Ekim 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>October 8, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8 Ekim 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>October 1, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1 Ekim 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>September 24, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">24 Eylül 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>September 17, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">17 Eylül 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>September 10, 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10 Eylül 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>August 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ağustos 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>July 2018</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Temmuz 2018</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>System requirements and update policy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sistem gereksinimleri ve güncelleştirme ilkesi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Provision Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent sağlama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Remove Talent environments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent ortamlarını kaldırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Provisioning for the Onboard app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Onboard uygulaması için sağlama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Embed PowerApps apps</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">PowerApps uygulamalarını katıştırma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Core HR and Common Data Service</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Core HR ve Common Data Service</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Access preview features</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Önizleme özelliklerine erişme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Get support for Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Talent için destek alma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Staff your organization with Attract</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Attract ile kuruluşunuzun personelini belirleme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Which version of Attract?</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Attract'ın hangi sürümü?</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Attract features and capabilities</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Attract özellikleri ve yetenekleri</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Create a process template in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Attract'ta süreç şablonu oluşturma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Create, approve, and post jobs in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Attract'ta iş oluşturma, onaylama ve yayımlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Post jobs to external career sites from Attract</source><target logoport:matchpercent="86" state="translated" state-qualifier="fuzzy-match">Attract'tan harici kariyer sitelerine iş yayımlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Source candidates by using talent pools</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">Yetenek havuzlarını kullanarak aday kaynağı bulma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Sourcing with LinkedIn Recruiter</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">LinkedIn Recruiter ile kaynak bulma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Activities in the hiring processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">İşe alım süreçlerindeki faaliyetler</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Interview scheduling and feedback</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Görüşme planlama ve geribildirim</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Extensibility in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Attract'ta genişletilebilirlik</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Career site functionality in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Attract'taki kariyer sitesi işlevi</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Set up offer management</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Teklif yönetimini ayarlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Create, approve, and sign offers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teklif oluşturma, onaylama ve imzalama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Email templates</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E-posta şablonları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Security and role management in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Attract'ta güvenlik ve rol yönetimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>Admin settings in Attract</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Attract'ta yönetici ayarları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>Intelligent recommendations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Akıllı öneriler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Create an engaging onboarding experience</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Etkileyici bir işe alım süreci deneyimi oluşturma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Track sources for candidate profiles and applications</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Aday profilleri ve başvurular için kaynakları izleme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Use analytic reports for hiring process insights</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">İşe alım süreci öngörüleri için analitik raporları kullanma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Manage your workforce with Core HR</source><target logoport:matchpercent="0" state="translated">İş gücünüzü Core HR ile yönetme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Organize your workforce</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">İş gücünüzü düzenleme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Organize your workforce by using departments, jobs, and positions</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Set up the components of a job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşin bileşenlerini ayarlama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Create departments and include them in the department hierarchy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Set up HR parameters across legal entities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tüzel kişilikler arasında İK parametreleri ayarlama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Set up company-specific HR parameters</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Şirkete özgü İK parametrelerini ayarlama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Personnel actions FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personel eylemleriyle ilgili SSS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Formalize business processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">İş süreçlerini biçimlendirme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Use workflows to manage employee information</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Personel bilgilerini yönetmek için iş akışları kullanma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Set up number sequences</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Numara serileri ayarlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Number sequence overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Numara serisine genel bakış</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Set up number sequences on an individual basis</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Bireysel olarak numara serileri ayarlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Set up number sequences by using a wizard</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Sihirbaz kullanarak numara serileri ayarlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Configure organizations and organizational hierarchies</source><target logoport:matchpercent="84" state="translated" state-qualifier="fuzzy-match">Kuruluşları ve kuruluş hiyerarşilerini yapılandırma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Organizations overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">Kuruluşlara genel bakış</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Plan your organizational hierarchy</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kuruluş hiyerarşinizi planlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Create an organizational hierarchy</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kuruluş hiyerarşisi oluşturma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Create a legal entity</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Tüzel kişilik oluşturma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Create an operating unit</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Faaliyet birimi oluşturma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Set up a global address book</source><target logoport:matchpercent="70" state="translated" state-qualifier="fuzzy-match">Genel adres defteri ayarlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Global address book overview</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">Genel adres defterine genel bakış</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>Plan for the global address book and others</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Genel adres defteri ve diğer adres defterleri için planlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Configure the global address book</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Genel adres defterini yapılandırma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Address books FAQ</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Adres defterleriyle ilgili SSS</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Configure workflows</source><target logoport:matchpercent="81" state="translated" state-qualifier="fuzzy-match">İş akışlarını yapılandırma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Workflow overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">İş akışına genel bakış</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Workflow elements</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">İş akışı öğeleri</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Actions in workflow approval processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">İş akışı onay süreçlerindeki eylemler</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Create workflows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İş akışları oluşturma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Configure workflow properties</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İş akışı özelliklerini yapılandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Configure manual tasks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El ile girilen görevleri yapılandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Configure automated tasks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otomatik görevleri yapılandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Configure approval processes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Onay süreçlerini yapılandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Configure approval steps</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Onay adımlarını yapılandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Configure manual decisions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El ile girilen kararları yapılandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Configure conditional decisions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koşullu kararları yapılandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Configure parallel activities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paralel faaliyetleri yapılandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Configure parallel branches</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paralel dalları yapılandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Configure line-item workflows</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satır maddesi iş akışlarını yapılandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Configure the message processing batch job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İleti işleme toplu işini yapılandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Delegate work items in a workflow</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İş akışındaki iş öğelerini devretme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>View workflow history</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">İş akışı geçmişini görüntüleme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Enable users to receive workflow-related email messages</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kullanıcıların iş akışı ile ilgili e-posta iletileri almasını etkinleştirme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Set up alerts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Uyarıları ayarlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Alerts overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">Uyarılara genel bakış</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>Create alert rules</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Uyarı kuralları oluşturma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>Batch processing of alerts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Uyarıların toplu işlenmesi</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Manage cases</source><target logoport:matchpercent="69" state="translated" state-qualifier="fuzzy-match">Servis taleplerini yönetme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>Case management overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Servis talebi yönetimine genel bakış</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Plan case security, processes, and categories</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Servis talebi güvenliğini, işlemlerini ve kategorilerini planlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Configure document management</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Belge yönetimi yapılandırma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Configure and send email</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">E-posta yapılandırma ve gönderme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Date/time data and time zones</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Tarih/saat tarih ve saat dilimleri</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Set up leave and absence</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">İzin ve devamsızlık ayarlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>Manage leave and absence</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">İzin ve devamsızlığı yönetme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>Leave and absence concepts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">İzin ve devamsızlık kavramları</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Accrue time off based on hours worked</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Çalışılan saatlere göre tahakkuk eden süre</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Working time calendars</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Çalışma zamanı takvimleri</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Set up compensation plans</source><target logoport:matchpercent="79" state="translated" state-qualifier="fuzzy-match">Ücret planları ayarlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Compensation plans overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">Ücret planlarına genel bakış</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Create fixed compensation plans</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Sabit ücret planları oluşturma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Create variable compensation plans</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Değişken ücret planları oluşturma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Process compensation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ücreti işleme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Set up the components of a job</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşin bileşenlerini ayarlama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Develop and train employees</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personeli geliştirme ve eğitme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Performance management</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Performans yönetimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Align workforce skills with business needs</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">İş gücü becerilerini iş ihtiyaçlarına uygun hale getirme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>Set up training courses</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Eğitim kursları ayarlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>Add to your performance journal and send praise to someone</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Performans günlüğünüze ekleme ve birisine övgü gönderme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>Create a goal</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Hedef oluşturma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Create a performance review</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Performans değerlendirmesi oluşturma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Define and manage a benefits program</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kazanç programı tanımlama ve yönetme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Define and manage a benefits program</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">Kazanç programı tanımlama ve yönetme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>Benefit eligibility policies</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kazanca uygunluk ilkeleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Generate Affordable Care Act (ACA) reports</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Uygun Bakım Yasası (ACA) raporları oluşturma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Manage items lent to workers</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Çalışanlara ödünç verilen maddeleri yönetme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Evaluate key metrics with questionnaires</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Soru formlarıyla anahtar ölçümleri değerlendirme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Gather information with questionnaires</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Soru formlarıyla bilgi toplama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Design questionnaires</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Soru formları tasarlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Distribute and schedule questionnaires</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Soru formlarını dağıtma ve planlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>View and evaluate the results of questionnaires</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Soru formlarının sonuçlarını görüntüleme ve değerlendirme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Workplace safety and compliance (United States)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çalışma alanı güvenliği ve uyumluluğu (ABD)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Respond to a request for personal data in Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Talent'ta kişisel veri isteğini yanıtlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Form I-9 employment verification</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Form I-9 istihdam doğrulama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Comply with the ADA</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">ADA ile uyumluluk</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Integration</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Tümleştirme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Integrate with Dynamics 365 for Finance and Operations</source><target logoport:matchpercent="0" state="translated">Dynamics 365 for Finance and Operations ile tümleştirme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Configure the payroll integration between Talent and Dayforce</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Talent ve Dayforce arasında bordro tümleştirmeyi yapılandırma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Data integration guidance for Dynamics 365 for Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Talent için veri tümleştirme kılavuzu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Integration FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tümleştirme ile ilgili SSS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Recurring data export using Azure Logic apps</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Azure Logic Apps kullanarak yinelenen verileri dışa aktarma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Office integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Office tümleştirmesi</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Office integration tutorial</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Office tümleştirmesi eğitimi</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Update entity data in Excel</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Excel 'de varlık verilerini güncelleştirme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Create Open in Excel experiences</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Excel'de Aç deneyimleri oluşturma</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Troubleshoot the Office integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Office tümleştirmesi ile ilgili sorunları giderme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>Extensibility</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Genişletilebilirlik</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Embedded Power BI in workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Çalışma alanlarında katıştırılmış Power BI</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Extend Talent by using PowerApps and Microsoft Flow - Example scenarios</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek senaryolar</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>Mobile app</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mobil uygulama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>Mobile workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mobil çalışma alanları</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Company directory mobile workspace</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Şirket dizini mobil çalışma alanı</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>My team mobile workspace</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Ekibim mobil çalışma alanı</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>Publish mobile workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mobil çalışma alanlarını yayımlama</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>Track changes in recruiting data</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">İşe alma verilerindeki değişiklikleri izleme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>Extensibility in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Attract'ta genişletilebilirlik</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Custom fields in Core HR</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Core HR'deki özel alanlar</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Troubleshoot Talent</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Talent'ta sorun giderme</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Analytic reports aren't updated</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Analitik raporlar güncelleştirilmedi</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Can't create an environment in the PowerApps Admin center</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">PowerApps Yönetici merkezinde ortam oluşturulamıyor</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Talent client disconnects</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent istemcisinin bağlantısı kesiliyor</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Avoid text truncation on the position hierarchy and export to Visio</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pozisyon hiyerarşisinde metin kesilmesini engelleme ve Visio'ya aktarma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Run the compensation process</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ücret işlemini çalıştırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>Save task guides to LCS and replay them</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Görev kılavuzlarını LCS'ye kaydetme ve yeniden oynatma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>Access to private addresses by security role</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Güvenlik rolüne göre özel adreslere erişim</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Talent doesn't appear among the Microsoft Dynamics 365 apps (Common Data Service 1.0)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent Microsoft Dynamics 365 uygulamaları (Common Data Service 1.0) arasında görünmüyor</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>User can access Core HR but not the Onboard or Attract app</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kullanıcı Core HR'a erişebiliyor ancak Onboard veya Attract uygulamasına erişemiyor</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>Reporting options in Talent</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent'taki raporlama seçenekleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Integration FAQ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tümleştirme ile ilgili SSS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>Azure Active Directory users not found in People Picker</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Azure Active Directory kullanıcıları Kişi Seçici'de bulunamadı</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

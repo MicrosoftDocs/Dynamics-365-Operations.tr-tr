@@ -1,2 +1,24 @@
- [!IMPORTANT]
-> <span data-ttu-id="52be2-101">Bu konuda belirtilen işlev özel bir önizleme sürümünün bir parçası olarak hedeflenen kullanıcılara sunulur.</span><span class="sxs-lookup"><span data-stu-id="52be2-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="52be2-102">İçerik ve işlevde değişiklik yapılabilir.</span><span class="sxs-lookup"><span data-stu-id="52be2-102">The content and the functionality are subject to change.</span></span> 
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="private-preview-banner.md" target-language="tr-TR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>private-preview-banner.d8ff7b.86dfe1fb189e5d357805d2c12d980b507f7dbc21.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>86dfe1fb189e5d357805d2c12d980b507f7dbc21</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\includes\private-preview-banner.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101">
+          <source>Functionality noted in this topic is available to targeted users as part of a private preview release.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu konuda belirtilen işlev özel bir önizleme sürümünün bir parçası olarak hedeflenen kullanıcılara sunulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102">
+          <source>The content and the functionality are subject to change.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İçerik ve işlevde değişiklik yapılabilir.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
