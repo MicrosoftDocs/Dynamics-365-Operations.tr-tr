@@ -1,258 +1,699 @@
----
-title: Öznitelikler ve öznitelik grupları
-description: Bu konu, bir ürünü veya özelliklerini kullanıcı tanımlı alanlar aracılığıyla açıklamak için özniteliklerin nasıl kullanılacağını açıklar.
-author: ashishmsft
-manager: AnnBe
-ms.date: 04/28/2018
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: asharchw
-ms.search.validFrom: 2018-03-30
-ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552729"
----
-# <a name="attributes-and-attribute-groups"></a><span data-ttu-id="0d40c-103">Öznitelikler ve öznitelik grupları</span><span class="sxs-lookup"><span data-stu-id="0d40c-103">Attributes and attribute groups</span></span>
-
-[!include [banner](includes/banner.md)]
-
-<span data-ttu-id="0d40c-104">*Öznitelikler* kullanıcı tanımlı alanlar aracılığıyla bir ürünü ve özelliklerini daha fazla açıklamak için bir yol sağlar (**Bellek boyutu**, **Sabit disk kapasitesi**, **Energy star uyumluluğu**, vb.).</span><span class="sxs-lookup"><span data-stu-id="0d40c-104">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="0d40c-105">Microsoft Dynamics 365 for Finance and Operations içinde, öznitelikler, ürün kategorileri ve Retail kanalları gibi çeşitli perakende varlıklar ile ilişkili olabilir ve bunlar için varsayılan değerler ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-105">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="0d40c-106">Ürün kategorileri veya perakende kanalları ile ilişkili olduğunda ürünler özniteliklerini ve varsayılan değerleri devralır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-106">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="0d40c-107">Varsayılan değerler tek tek ürün düzeyinde, perakende kanal düzeyinde veya perakende kataloğu düzeyinde geçersiz kılınabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-107">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
-
-<span data-ttu-id="0d40c-108">Örneğin, tipik bir televizyon ürünü aşağıdaki özniteliklere sahip olabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-108">For example, a typical television product might have the following attributes.</span></span>
-
-| <span data-ttu-id="0d40c-109">Kategori</span><span class="sxs-lookup"><span data-stu-id="0d40c-109">Category</span></span>   | <span data-ttu-id="0d40c-110">Öznitelik</span><span class="sxs-lookup"><span data-stu-id="0d40c-110">Attribute</span></span>                | <span data-ttu-id="0d40c-111">İzin verilen değerler</span><span class="sxs-lookup"><span data-stu-id="0d40c-111">Permissible values</span></span>          | <span data-ttu-id="0d40c-112">Varsayılan değer</span><span class="sxs-lookup"><span data-stu-id="0d40c-112">Default value</span></span> |
-|------------|--------------------------|-----------------------------|---------------|
-| <span data-ttu-id="0d40c-113">TV ve Video</span><span class="sxs-lookup"><span data-stu-id="0d40c-113">TV & Video</span></span> | <span data-ttu-id="0d40c-114">Marka</span><span class="sxs-lookup"><span data-stu-id="0d40c-114">Brand</span></span>                    | <span data-ttu-id="0d40c-115">Herhangi bir geçerli marka değeri</span><span class="sxs-lookup"><span data-stu-id="0d40c-115">Any valid brand value</span></span>       | <span data-ttu-id="0d40c-116">Hiçbiri</span><span class="sxs-lookup"><span data-stu-id="0d40c-116">None</span></span>          |
-| <span data-ttu-id="0d40c-117">TV</span><span class="sxs-lookup"><span data-stu-id="0d40c-117">TV</span></span>         | <span data-ttu-id="0d40c-118">Ekran Boyutu</span><span class="sxs-lookup"><span data-stu-id="0d40c-118">Screen Size</span></span>              | <span data-ttu-id="0d40c-119">20–80 inç</span><span class="sxs-lookup"><span data-stu-id="0d40c-119">20–80 inches</span></span>                | <span data-ttu-id="0d40c-120">Hiçbiri</span><span class="sxs-lookup"><span data-stu-id="0d40c-120">None</span></span>          |
-|            | <span data-ttu-id="0d40c-121">Dikey Çözünürlük</span><span class="sxs-lookup"><span data-stu-id="0d40c-121">Vertical Resolution</span></span>      | <span data-ttu-id="0d40c-122">480i, 720p, 1080i veya 1080p</span><span class="sxs-lookup"><span data-stu-id="0d40c-122">480i, 720p, 1080i, or 1080p</span></span> | <span data-ttu-id="0d40c-123">1080p</span><span class="sxs-lookup"><span data-stu-id="0d40c-123">1080p</span></span>         |
-|            | <span data-ttu-id="0d40c-124">Ekran yenileme hızı</span><span class="sxs-lookup"><span data-stu-id="0d40c-124">Screen Refresh Rate</span></span>      | <span data-ttu-id="0d40c-125">60hz, 120hz veya 240hz</span><span class="sxs-lookup"><span data-stu-id="0d40c-125">60hz, 120hz, or 240hz</span></span>       | <span data-ttu-id="0d40c-126">60hz</span><span class="sxs-lookup"><span data-stu-id="0d40c-126">60hz</span></span>          |
-|            | <span data-ttu-id="0d40c-127">HDMI Girdileri</span><span class="sxs-lookup"><span data-stu-id="0d40c-127">HDMI Inputs</span></span>              | <span data-ttu-id="0d40c-128">0–10</span><span class="sxs-lookup"><span data-stu-id="0d40c-128">0–10</span></span>                        | <span data-ttu-id="0d40c-129">3</span><span class="sxs-lookup"><span data-stu-id="0d40c-129">3</span></span>             |
-|            | <span data-ttu-id="0d40c-130">DVI Girdileri</span><span class="sxs-lookup"><span data-stu-id="0d40c-130">DVI Inputs</span></span>               | <span data-ttu-id="0d40c-131">0–10</span><span class="sxs-lookup"><span data-stu-id="0d40c-131">0–10</span></span>                        | <span data-ttu-id="0d40c-132">1</span><span class="sxs-lookup"><span data-stu-id="0d40c-132">1</span></span>             |
-|            | <span data-ttu-id="0d40c-133">Bileşik Girdiler</span><span class="sxs-lookup"><span data-stu-id="0d40c-133">Composite Inputs</span></span>         | <span data-ttu-id="0d40c-134">0–10</span><span class="sxs-lookup"><span data-stu-id="0d40c-134">0–10</span></span>                        | <span data-ttu-id="0d40c-135">2</span><span class="sxs-lookup"><span data-stu-id="0d40c-135">2</span></span>             |
-|            | <span data-ttu-id="0d40c-136">Bileşen Girdileri</span><span class="sxs-lookup"><span data-stu-id="0d40c-136">Component Inputs</span></span>         | <span data-ttu-id="0d40c-137">0–10</span><span class="sxs-lookup"><span data-stu-id="0d40c-137">0–10</span></span>                        | <span data-ttu-id="0d40c-138">1</span><span class="sxs-lookup"><span data-stu-id="0d40c-138">1</span></span>             |
-| <span data-ttu-id="0d40c-139">LCD</span><span class="sxs-lookup"><span data-stu-id="0d40c-139">LCD</span></span>        | <span data-ttu-id="0d40c-140">3D Hazır</span><span class="sxs-lookup"><span data-stu-id="0d40c-140">3D Ready</span></span>                 | <span data-ttu-id="0d40c-141">Evet veya Hayır</span><span class="sxs-lookup"><span data-stu-id="0d40c-141">Yes or No</span></span>                   | <span data-ttu-id="0d40c-142">Evet</span><span class="sxs-lookup"><span data-stu-id="0d40c-142">Yes</span></span>           |
-|            | <span data-ttu-id="0d40c-143">3D etkin</span><span class="sxs-lookup"><span data-stu-id="0d40c-143">3D Enabled</span></span>               | <span data-ttu-id="0d40c-144">Evet veya Hayır</span><span class="sxs-lookup"><span data-stu-id="0d40c-144">Yes or No</span></span>                   | <span data-ttu-id="0d40c-145">Hayır</span><span class="sxs-lookup"><span data-stu-id="0d40c-145">No</span></span>            |
-| <span data-ttu-id="0d40c-146">Plazma</span><span class="sxs-lookup"><span data-stu-id="0d40c-146">Plasma</span></span>     | <span data-ttu-id="0d40c-147">Çalıştırma Sıcaklığı Başlangıç</span><span class="sxs-lookup"><span data-stu-id="0d40c-147">Operating Temp From</span></span>      | <span data-ttu-id="0d40c-148">32–110 derece</span><span class="sxs-lookup"><span data-stu-id="0d40c-148">32–110 degrees</span></span>              | <span data-ttu-id="0d40c-149">32</span><span class="sxs-lookup"><span data-stu-id="0d40c-149">32</span></span>            |
-|            | <span data-ttu-id="0d40c-150">Çalıştırma Sıcaklığı Son</span><span class="sxs-lookup"><span data-stu-id="0d40c-150">Operating Temp To</span></span>        | <span data-ttu-id="0d40c-151">32–110 derece</span><span class="sxs-lookup"><span data-stu-id="0d40c-151">32–110 degrees</span></span>              | <span data-ttu-id="0d40c-152">100</span><span class="sxs-lookup"><span data-stu-id="0d40c-152">100</span></span>           |
-| <span data-ttu-id="0d40c-153">Projeksiyon</span><span class="sxs-lookup"><span data-stu-id="0d40c-153">Projection</span></span> | <span data-ttu-id="0d40c-154">Projeksiyon tüp garanti</span><span class="sxs-lookup"><span data-stu-id="0d40c-154">Projection Tube Warranty</span></span> | <span data-ttu-id="0d40c-155">6, 12 veya 18 ay</span><span class="sxs-lookup"><span data-stu-id="0d40c-155">6, 12, or 18 months</span></span>         | <span data-ttu-id="0d40c-156">12</span><span class="sxs-lookup"><span data-stu-id="0d40c-156">12</span></span>            |
-|            | <span data-ttu-id="0d40c-157">\# Projeksiyon Tüplerinin sayısı</span><span class="sxs-lookup"><span data-stu-id="0d40c-157">\# of Projection Tubes</span></span>   | <span data-ttu-id="0d40c-158">1–5</span><span class="sxs-lookup"><span data-stu-id="0d40c-158">1–5</span></span>                         | <span data-ttu-id="0d40c-159">3</span><span class="sxs-lookup"><span data-stu-id="0d40c-159">3</span></span>             |
-
-## <a name="attributes-and-attribute-types"></a><span data-ttu-id="0d40c-160">Öznitelikler ve öznitelik türleri</span><span class="sxs-lookup"><span data-stu-id="0d40c-160">Attributes and attribute types</span></span>
-
-<span data-ttu-id="0d40c-161">Öznitelikler *öznitelik türlerini* temel alır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-161">Attributes are based on *attribute types*.</span></span> <span data-ttu-id="0d40c-162">Öznitelik türü, belirli bir öznitelik için girilebilen veri türünü tanımlar.</span><span class="sxs-lookup"><span data-stu-id="0d40c-162">The attribute type identifies the type of data that can be entered for a specific attribute.</span></span> <span data-ttu-id="0d40c-163">Finance and Operations şu anda aşağıdaki öznitelik türlerini desteklemektedir:</span><span class="sxs-lookup"><span data-stu-id="0d40c-163">Finance and Operations currently supports the following attribute types:</span></span>
-
-- <span data-ttu-id="0d40c-164">**Para birimi** – Bu tür bir para birimi değerini destekler.</span><span class="sxs-lookup"><span data-stu-id="0d40c-164">**Currency** – This type supports a currency value.</span></span> <span data-ttu-id="0d40c-165">Bağlı olabilir (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-165">It can be bounded (that is, it can support a range of values), or it can be left open.</span></span>
-- <span data-ttu-id="0d40c-166">**DateTime** – Bu tür, tarih ve saat değerini destekler.</span><span class="sxs-lookup"><span data-stu-id="0d40c-166">**DateTime** – This type supports a date and time value.</span></span> <span data-ttu-id="0d40c-167">Bağlı veya açık bırakılmış olabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-167">It can be bounded or left open.</span></span>
-- <span data-ttu-id="0d40c-168">**Ondalık** – Bu tür, ondalık basamak içeren sayısal değeri destekler.</span><span class="sxs-lookup"><span data-stu-id="0d40c-168">**Decimal** – This type supports a numerical value that includes decimal places.</span></span> <span data-ttu-id="0d40c-169">Ayrıca, ölçü birimini de destekler.</span><span class="sxs-lookup"><span data-stu-id="0d40c-169">It also supports a unit of measure.</span></span> <span data-ttu-id="0d40c-170">Bağlı veya açık bırakılmış olabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-170">It can be bounded or left open.</span></span>
-- <span data-ttu-id="0d40c-171">**Tamsayı** – Bu tür sayısal bir değeri destekler.</span><span class="sxs-lookup"><span data-stu-id="0d40c-171">**Integer** – This type supports a numerical value.</span></span> <span data-ttu-id="0d40c-172">Ayrıca, ölçü birimini de destekler.</span><span class="sxs-lookup"><span data-stu-id="0d40c-172">It also supports a unit of measure.</span></span> <span data-ttu-id="0d40c-173">Bağlı veya açık bırakılmış olabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-173">It can be bounded or left open.</span></span>
-- <span data-ttu-id="0d40c-174">**Metin** – Bu tür metin değerini destekler.</span><span class="sxs-lookup"><span data-stu-id="0d40c-174">**Text** – This type supports a text value.</span></span> <span data-ttu-id="0d40c-175">Ayrıca önceden tanımlanmış bir dizi olası değerleri de (*numaralandırma*) destekler.</span><span class="sxs-lookup"><span data-stu-id="0d40c-175">It also supports a predefined set of possible values (that is, an *enumeration*).</span></span>
-- <span data-ttu-id="0d40c-176">**Boole** – Bu tür ikili değeri destekler (**doğru** veya **yanlış**).</span><span class="sxs-lookup"><span data-stu-id="0d40c-176">**Boolean** – This type supports a binary value (**true** or **false**).</span></span>
-- <span data-ttu-id="0d40c-177">**Referans** – Bu tür diğer özniteliklere referansta bulunur.</span><span class="sxs-lookup"><span data-stu-id="0d40c-177">**Reference** – This type references other attributes.</span></span>
-
-### <a name="set-up-attribute-types-in-finance-and-operations"></a><span data-ttu-id="0d40c-178">Finance and Operations'da öznitelik türlerini ayarlama</span><span class="sxs-lookup"><span data-stu-id="0d40c-178">Set up attribute types in Finance and Operations</span></span>
-
-1. <span data-ttu-id="0d40c-179">Perakende alım satım yöneticisi olarak Finance and Operations arka ofis istemcisinde oturum açın.</span><span class="sxs-lookup"><span data-stu-id="0d40c-179">Sign in to the Finance and Operations back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="0d40c-180">**Ürün bilgi yönetimi** &gt; **Kurulum** &gt; **Kategoriler ve öznitelikler** &gt; **Öznitelik türleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-180">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attribute types**.</span></span>
-3. <span data-ttu-id="0d40c-181">**Metin** türünde iki öznitelik türü oluşturun, **Sabit liste** seçeneğini **Evet** olarak ayarlayın ve sonra değerler listesi ekleyin:</span><span class="sxs-lookup"><span data-stu-id="0d40c-181">Create two attribute types of the **Text** type, set the **Fixed list** option to **Yes**, and then add a list of values:</span></span>
-
-    - <span data-ttu-id="0d40c-182">Bir öznitelik türüne **Mercek şekli** adını verin ve şu değerleri ekleyin: **Oval**, **Kare** ve **Dikdörtgen**.</span><span class="sxs-lookup"><span data-stu-id="0d40c-182">Name one attribute type **Lens shape**, and add the following values: **Oval**, **Square**, and **Rectangle**.</span></span>
-    - <span data-ttu-id="0d40c-183">Diğer öznitelik türüne **Güneç gözlüğü markası** adını verin ve şu değerleri ekleyin: **Ray ban**, **Aviator** ve **Oakley**.</span><span class="sxs-lookup"><span data-stu-id="0d40c-183">Name the other attribute type **Sunglass brand**, and add the following values: **Ray ban**, **Aviator**, and **Oakley**.</span></span>
-
-![Öznitelik türleri](media/AttributeType.png)
-
-### <a name="set-up-an-attribute-in-finance-and-operations"></a><span data-ttu-id="0d40c-185">Finance and Operations'da öznitelik ayarlama</span><span class="sxs-lookup"><span data-stu-id="0d40c-185">Set up an attribute in Finance and Operations</span></span>
-
-1. <span data-ttu-id="0d40c-186">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</span><span class="sxs-lookup"><span data-stu-id="0d40c-186">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="0d40c-187">**Ürün bilgi yönetimi** &gt; **Kurulum** &gt; **Kategoriler ve öznitelikler** &gt; **Öznitelikler**'e gidin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-187">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attributes**.</span></span>
-3. <span data-ttu-id="0d40c-188">**Mercek** adında bir öznitelik oluşturun.</span><span class="sxs-lookup"><span data-stu-id="0d40c-188">Create an attribute that is named **Lens**.</span></span>
-4. <span data-ttu-id="0d40c-189">**Öznitelik türü** alanını **Mercek şekli** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="0d40c-189">Set the **Attribute type** field to **Lens shape**.</span></span>
-
-![Öznitelikler](media/Attribute.png)
-
-## <a name="attribute-metadata"></a><span data-ttu-id="0d40c-191">Öznitelik meta verileri</span><span class="sxs-lookup"><span data-stu-id="0d40c-191">Attribute metadata</span></span>
-
-<span data-ttu-id="0d40c-192">*Öznitelik meta verisi* her ürün için özniteliklerin nasıl davranacağını belirtebileceğiniz seçenekler belirlemenize olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-192">*Attribute metadata* lets you select options to specify how the attributes for each product should behave.</span></span> <span data-ttu-id="0d40c-193">Örneğin, özniteliklerin gerekli olup olmadığını, aramalar için kullanılıp kullanılamayacağını ve filtre olarak kullanılıp kullanılamayacağını belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0d40c-193">For example, you can specify whether attributes are required, whether they can be used for searches, and whether they can be used as a filter.</span></span>
-
-<span data-ttu-id="0d40c-194">Perakende ürünleri için, öznitelik meta verileri kanal düzeyinde geçersiz kılınabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-194">For retail products, the attribute metadata settings can be overridden at the channel level.</span></span> <span data-ttu-id="0d40c-195">Bu özellik bu konunun ilerleyen bölümlerinde açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-195">This capability will be discussed later in this topic.</span></span>
-
-<span data-ttu-id="0d40c-196">Sizin de göreceğiniz gibi **Öznitelikler** sayfası öznitelik meta verileriyle ilgili seçenekler içerir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-196">As you might notice, the **Attributes** page includes options that are related to attribute metadata.</span></span> <span data-ttu-id="0d40c-197">**POS için öznitelik değerleri** altında, **İyileştirilebilir** adına sahip bir seçenek perakende satış noktasındaki (POS) öznitelik değerlerinin davranışını veya sistemin bu öznitelik değerlerini ele alma şeklini etkiler.</span><span class="sxs-lookup"><span data-stu-id="0d40c-197">Under **Attribute metadata for POS**, one option that is named **Can be refined** affects the behavior of the attribute values in the retail point of sale (POS) or the way that the system handles those attribute values.</span></span> <span data-ttu-id="0d40c-198">Yalnızca, **İyileştirilebilir** seçeneğini **Evet** olarak ayarlayabileceğiniz öznitelikler retail POS'taki ürünleri iyileştirilmesi veya filtrelenmesi için gösterir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-198">Only attributes for which you may set the **Can be refined** option to **Yes**, will show up for refinement or filtering of products in the retail POS.</span></span>
-
-<span data-ttu-id="0d40c-199">**Öznitelikler** sayfasındaki diğer öznitelik meta veri seçenekleri şunlardır:</span><span class="sxs-lookup"><span data-stu-id="0d40c-199">Here are the remaining attribute metadata options on the **Attributes** page:</span></span>
-
-- <span data-ttu-id="0d40c-200">Aranabilir</span><span class="sxs-lookup"><span data-stu-id="0d40c-200">Searchable</span></span>
-- <span data-ttu-id="0d40c-201">Alınabilir</span><span class="sxs-lookup"><span data-stu-id="0d40c-201">Retrievable</span></span>
-- <span data-ttu-id="0d40c-202">Sorgulanabilir</span><span class="sxs-lookup"><span data-stu-id="0d40c-202">Can be queried</span></span>
-- <span data-ttu-id="0d40c-203">Sıralanabilir</span><span class="sxs-lookup"><span data-stu-id="0d40c-203">Sortable</span></span>
-- <span data-ttu-id="0d40c-204">Birden fazla değere izin ver</span><span class="sxs-lookup"><span data-stu-id="0d40c-204">Allow multiple values</span></span>
-- <span data-ttu-id="0d40c-205">Büyük-küçük harfi ve biçimi yok say</span><span class="sxs-lookup"><span data-stu-id="0d40c-205">Ignore case and format</span></span>
-- <span data-ttu-id="0d40c-206">Tam eşleşme</span><span class="sxs-lookup"><span data-stu-id="0d40c-206">Complete match</span></span>
-
-<span data-ttu-id="0d40c-207">Bu seçeneklerin temel amacı çevrimiçi mağaza için arama işlevini geliştirmektir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-207">These options were originally intended to improve the search functionality for the online storefront.</span></span> <span data-ttu-id="0d40c-208">Finance and Operations kullanıma hazır olarak çevrimiçi mağaza içermese de e-Ticaret Yayımlama Yazılım Geliştirme Seti (SDK) içerir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-208">Although Finance and Operations doesn't include the online storefront out of the box, it does include the eCommerce Publishing Software Development Kit (SDK).</span></span> <span data-ttu-id="0d40c-209">Müşteriler bu SDK'yı kullanarak ürünleri istedikleri arama dizinine koyabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-209">Customers can use this SDK to put products into a search index of their choice.</span></span> <span data-ttu-id="0d40c-210">Ürün verileri içe aktarılsa da müşteriler aranabilir verileri, sorgulanabilecek verileri, vb. birbirinden ayırabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-210">Although the product data is imported, customers should still be able to distinguish searchable data, data that can be queried, and so on.</span></span> <span data-ttu-id="0d40c-211">Bu şekilde, yalnızca *kendi görüşlerine göre* dizinlenmesi gereken öznitelikleri dizinlediklerinden emin olmak için optimum dizini oluşturabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-211">In that way, they can build an optimal index to make sure that they index only attributes that, *in their opinion*, should be indexed.</span></span>
-
-<span data-ttu-id="0d40c-212">Bu kalan seçeneklerin amacı hakkında bilgi için bkz. [SharePoint Server 2013'te arama şemasına genel bakış](https://technet.microsoft.com/library/jj219669.aspx).</span><span class="sxs-lookup"><span data-stu-id="0d40c-212">For information about the purpose of these remaining options, see [Overview of the search schema in SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).</span></span>
-
-## <a name="filter-settings-for-attributes"></a><span data-ttu-id="0d40c-213">Öznitelik filtre ayarları</span><span class="sxs-lookup"><span data-stu-id="0d40c-213">Filter settings for attributes</span></span>
-
-<span data-ttu-id="0d40c-214">Özniteliklerin filtre ayarları özniteliklerle ilgili filtrelerin perakende POS'ta nasıl görüneceğini tanımlamanıza olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-214">Filter settings for attributes let you define how the filters for attributes are shown in the retail POS.</span></span> <span data-ttu-id="0d40c-215">Bir özniteliğe ilişkin filtre ayarlarına erişmek için Finance and Operations'taki **Öznitelikler** sayfasında özniteliği seçin ve Eylem Bölmesine **Filtre ayarları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-215">To access the filter settings for an attribute, on the **Attributes** page in Finance and Operations, select the attribute, and then, on the Action Pane, select **Filter settings**.</span></span>
-
-<span data-ttu-id="0d40c-216">**Filtre görüntüleme tercihleri** sayfası, aşağıdaki alanları içerir:</span><span class="sxs-lookup"><span data-stu-id="0d40c-216">The **Filter display preferences** page includes the following fields:</span></span>
-
-- <span data-ttu-id="0d40c-217">**Ad** – Varsayılan olarak, bu alanın öznitelik adına ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-217">**Name** – By default, this field is set to the name of the attribute.</span></span> <span data-ttu-id="0d40c-218">Ancak, değerde değişiklik yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0d40c-218">However, you can change the value.</span></span>
-- <span data-ttu-id="0d40c-219">**Görüntüleme seçeneği** – Aşağıdaki seçenekler mevcuttur:</span><span class="sxs-lookup"><span data-stu-id="0d40c-219">**Display option** – The following options are available:</span></span>
-
-    - <span data-ttu-id="0d40c-220">**Tek bir değer** – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: **Boole**, **Para birimi**, **Ondalık**, **Tamsayı** ve **Metin**.</span><span class="sxs-lookup"><span data-stu-id="0d40c-220">**Single value** – This option is available for the following attribute types: **Boolean**, **Currency**, **Decimal**, **Integer**, and **Text**.</span></span> <span data-ttu-id="0d40c-221">Bu seçenek istemcide iyileştirme için bu özniteliklere yönelik tek bir değer seçimi sağlar.</span><span class="sxs-lookup"><span data-stu-id="0d40c-221">This option enables single value selection for these attributes in the client for refinement.</span></span>
-    - <span data-ttu-id="0d40c-222">**Birden fazla değer** – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: **Boole**, **Ondalık**, **Tamsayı** ve **Metin**.</span><span class="sxs-lookup"><span data-stu-id="0d40c-222">**Multi value** – This option is available for the following attribute types: **Currency**, **Decimal**, **Integer**, and **Text**.</span></span> <span data-ttu-id="0d40c-223">Bu seçenek istemcide iyileştirme için bu özniteliğe yönelik tek birden fazla değer seçimi sağlar.</span><span class="sxs-lookup"><span data-stu-id="0d40c-223">This option enables multi-value selection for this attribute in the client for refinement.</span></span>
-
-- <span data-ttu-id="0d40c-224">**Görüntüleme denetimi** – Aşağıdaki seçenekler mevcuttur:</span><span class="sxs-lookup"><span data-stu-id="0d40c-224">**Display control** – The following options are available:</span></span>
-
-    - <span data-ttu-id="0d40c-225">**Liste** – Bu seçenek tüm öznitelik türleri için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-225">**List** – This option is available for the all attribute types.</span></span>
-    - <span data-ttu-id="0d40c-226">**Aralık** – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: **Para birimi**, **Ondalık** ve **Tamsayı**.</span><span class="sxs-lookup"><span data-stu-id="0d40c-226">**Range** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
-    - <span data-ttu-id="0d40c-227">**Kaydırıcı** – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: **Para birimi**, **Ondalık** ve **Tamsayı**.</span><span class="sxs-lookup"><span data-stu-id="0d40c-227">**Slider** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
-    - <span data-ttu-id="0d40c-228">**Çubuklarla birlikte kaydırıcı** – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: **Para birimi**, **Ondalık** ve **Tamsayı**.</span><span class="sxs-lookup"><span data-stu-id="0d40c-228">**Slider with bars** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
-
-- <span data-ttu-id="0d40c-229">**Eşik değeri** – Bu ayar görüntüleme denetim türü olarak **Aralık** seçmeniz durumunda gereklidir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-229">**Threshold value** – This setting is required if you selected **Range** as the display control type.</span></span> <span data-ttu-id="0d40c-230">Sınırlayıcı olarak noktalı virgül (;) kullanarak değerleri tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0d40c-230">You can define values by using a semicolon (;) as a delimiter.</span></span>
-
-    <span data-ttu-id="0d40c-231">Örneğin, **Torba Hacmi** gibi bir filtre için eşik değeri **10; 20; 50; 100; 200; 500; 1000; 5000** olabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-231">For example, for the filter like **Bag Volume**, a threshold value can be **10; 20; 50; 100; 200; 500; 1000; 5000**.</span></span> <span data-ttu-id="0d40c-232">Bu durumda, perakende POS şu aralıkları gösterir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-232">In this case, the retail POS will show the following ranges.</span></span> <span data-ttu-id="0d40c-233">Sonuç kümesinde ürün bulunmayan aralıklar karartılmış olarak görünür.</span><span class="sxs-lookup"><span data-stu-id="0d40c-233">Any ranges that don't have any products in the result set will appear dimmed.</span></span>
-
-    - <span data-ttu-id="0d40c-234">10'den daha az</span><span class="sxs-lookup"><span data-stu-id="0d40c-234">Less than 10</span></span>
-    - <span data-ttu-id="0d40c-235">10 – 20</span><span class="sxs-lookup"><span data-stu-id="0d40c-235">10 – 20</span></span>
-    - <span data-ttu-id="0d40c-236">20 – 50</span><span class="sxs-lookup"><span data-stu-id="0d40c-236">20 – 50</span></span>
-    - <span data-ttu-id="0d40c-237">50 – 100</span><span class="sxs-lookup"><span data-stu-id="0d40c-237">50 – 100</span></span>
-    - <span data-ttu-id="0d40c-238">100 – 200</span><span class="sxs-lookup"><span data-stu-id="0d40c-238">100 – 200</span></span>
-    - <span data-ttu-id="0d40c-239">200 – 500</span><span class="sxs-lookup"><span data-stu-id="0d40c-239">200 – 500</span></span>
-    - <span data-ttu-id="0d40c-240">500 veya üzeri</span><span class="sxs-lookup"><span data-stu-id="0d40c-240">500 or more</span></span>
-
-![Öznitelik filtresi ayarları](media/AttributeFilterSettings.PNG)
-
-## <a name="attribute-groups"></a><span data-ttu-id="0d40c-242">Öznitelik grupları</span><span class="sxs-lookup"><span data-stu-id="0d40c-242">Attribute groups</span></span>
-
-<span data-ttu-id="0d40c-243">Öznitelikler tanımladıktan sonra öznitelik gruplarına atanabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-243">After attributes have been defined, they can be assigned to attribute groups.</span></span> <span data-ttu-id="0d40c-244">Bir *öznitelik grubu* bir ürün yapılandırma modelindeki bir bileşen veya alt bileşen için ayrı öznitelikleri gruplandırmak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-244">An *attribute group* is used to group the individual attributes for a component or subcomponent in a product configuration model.</span></span> <span data-ttu-id="0d40c-245">Bir öznitelik birden fazla öznitelik grubuna dahil edilebilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-245">An attribute can be included in more than one attribute group.</span></span> <span data-ttu-id="0d40c-246">Çeşitli seçenekler belirli bir bağlam içinde düzenlenmiş olduğundan öznitelik grupları kullanıcıların ürünleri yapılandırmasına yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="0d40c-246">Attribute groups can help users configure products, because the various selections are arranged in a specific context.</span></span> <span data-ttu-id="0d40c-247">Öznitelik grupları perakende kategorilerine veya perakende kanallarına atanabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-247">Attribute groups can be assigned to retail categories or retail channels.</span></span>
-
-<span data-ttu-id="0d40c-248">Bir öznitelik grubuna dahil olan öznitelikler için de varsayılan değerler ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0d40c-248">You can also set default values for attributes that are included in an attribute group.</span></span> <span data-ttu-id="0d40c-249">Örneğin, bir öznitelik grubuna renk için öznitelik ekleyebilir ve varsayılan öznitelik değeri olarak **Mavi** seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0d40c-249">For example, you add an attribute for color to an attribute group and select **Blue** as the default attribute value.</span></span> <span data-ttu-id="0d40c-250">Bu durumda, öznitelik grubu, özniteliklerinden biri olarak renk içeren bir perakende ürününe eklendiğinde **Mavi** bu ürün için varsayılan renk olarak görünür.</span><span class="sxs-lookup"><span data-stu-id="0d40c-250">In this case, when the attribute group is added to a retail product that includes color as one of its attributes, **Blue** appears as the default color for that product.</span></span>
-
-![Öznitelik grupları](media/AttributeGroup.png)
-
-### <a name="create-an-attribute-group"></a><span data-ttu-id="0d40c-252">Öznitelik grubu oluşturma</span><span class="sxs-lookup"><span data-stu-id="0d40c-252">Create an attribute group</span></span>
-
-1. <span data-ttu-id="0d40c-253">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</span><span class="sxs-lookup"><span data-stu-id="0d40c-253">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="0d40c-254">**Ürün bilgi yönetimi** &gt; **Kurulum** &gt; **Kategoriler ve öznitelikler** &gt; **Öznitelik grupları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-254">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attribute groups**.</span></span>
-3. <span data-ttu-id="0d40c-255">**Moda Güneş Gözlükleri** adında bir öznitelik grubu oluşturun.</span><span class="sxs-lookup"><span data-stu-id="0d40c-255">Create an attribute group that is named **Fashion Sunglasses**.</span></span>
-4. <span data-ttu-id="0d40c-256">Şu öznitelikleri ekleyin: **Mercek şekli** ve **Güneş gözlüğü markası**.</span><span class="sxs-lookup"><span data-stu-id="0d40c-256">Add the following attributes: **Lens shape** and **Sunglass brand**.</span></span>
-
-### <a name="assign-attribute-groups-to-retail-categories"></a><span data-ttu-id="0d40c-257">Öznitelik gruplarını perakende kategorilerine atama</span><span class="sxs-lookup"><span data-stu-id="0d40c-257">Assign attribute groups to retail categories</span></span>
-
-<span data-ttu-id="0d40c-258">Bir veya daha fazla öznitelik grubu, şu türdeki perakende kategorisi hiyerarşilerinde kategori düğümleri ile ilişkilendirilebilir: Perakende ürün hiyerarşisi, Kanal gezinti kategori hiyerarşisi ve Ek ürün kategori hiyerarşisi.</span><span class="sxs-lookup"><span data-stu-id="0d40c-258">One or more attribute groups can be associated with category nodes in the following types of retail category hierarchies: Retail product hierarchy, Channel navigation category hierarchy, and Supplemental product category hierarchy.</span></span> <span data-ttu-id="0d40c-259">Ürünler kategorize edildiğinde, öznitelik gruplarına dahil edilen öznitelikleri devralır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-259">Then, when products are categorized, they inherit the attributes that are included in the attribute groups.</span></span>
-
-![Perakende ürün hiyerarşisi – Ürün öznitelik grupları](media/AGRetailProdHierarchy.PNG)
-
-<span data-ttu-id="0d40c-261">Perakende ürün hiyerarşisinde kategorilere öznitelik grupları atamak için şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-261">Follow these steps to assign attribute groups to categories in the Retail product hierarchy.</span></span>
-
-1. <span data-ttu-id="0d40c-262">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</span><span class="sxs-lookup"><span data-stu-id="0d40c-262">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="0d40c-263">**Perakende** &gt; **Kategori ve ürün yönetimi** &gt; **Perakende ürün hiyerarşisi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-263">Go to **Retail** &gt; **Category and product management** &gt; **Retail product hierarchy**.</span></span>
-3. <span data-ttu-id="0d40c-264">**Moda gezinti hiyerarşi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-264">Select **Fashion navigation hierarchy**.</span></span>
-4. <span data-ttu-id="0d40c-265">**Erkek giyim** altından **Pantolonlar** kategorisini seçin ve daha sonra **Ürün öznitelik grupları** hızlı sekmesinde **Erkek kemeri** adında bir öznitelik grubu ekleyin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-265">Under **Menswear**, select the **Pants** category, and then, on the **Product attribute groups** FastTab, add an attribute group that is named **Men's belt**.</span></span>
-5. <span data-ttu-id="0d40c-266">**Moda güneş gözlükleri** kategorisini seçin ve **Öznitelikleri görüntüle**'yi seçerek **Moda Güneş Gözlükleri** öznitelik grubundaki yeni öznitelikleri doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="0d40c-266">Select the **Fashion sunglasses** category, and verify the new attributes in the **Fashion Sunglasses** attribute group by selecting **View attributes**.</span></span>
-
-    <span data-ttu-id="0d40c-267">Yeni öznitelik grubu yeni **Mercek şekli** ve **Güneş gözlüğü markası** özniteliklerini göstermelidir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-267">The attribute group should show the new **Lens shape** and **Sunglass brand** attributes.</span></span>
-
-6. <span data-ttu-id="0d40c-268">**Erkek giyim** altından **Pantolonlar** kategorisini seçin ve **Öznitelikleri görüntüle**'yi seçerek **Erkek kemeri** öznitelik grubu için öznitelikleri doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="0d40c-268">Under **Menswear**, select the **Pants** category, and verify the attributes for the **Men's belt** attribute group by selecting **View attributes**.</span></span>
-
-    <span data-ttu-id="0d40c-269">Öznitelik grubu **Erkek kemer markası**, **Kemer kumaşı** ve **Kemer boyu** özniteliklerini içermelidir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-269">The attribute group should show the **Men's belt brand**, **Belt fabric**, and **Belt size** attributes.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="0d40c-270">Bu yordam Kanal gezinti kategori hiyerarşisi ve Ek ürün kategori hiyerarşisinde kategorilere öznitelik grupları atamak için de kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-270">This procedure can also be used to assign attribute groups to categories in the Channel navigation category hierarchy and the Supplemental product category hierarchy.</span></span> <span data-ttu-id="0d40c-271">Adım 2'de, aşağıdaki gezinti yollarını kullanın:</span><span class="sxs-lookup"><span data-stu-id="0d40c-271">In step 2, use the following navigation paths:</span></span>
->
-> - <span data-ttu-id="0d40c-272">**Perakende** &gt; **Kategori ve ürün yönetimi** &gt; **Kanal gezinti kategorileri**</span><span class="sxs-lookup"><span data-stu-id="0d40c-272">**Retail** &gt; **Category and product management** &gt; **Channel navigation categories**</span></span>
-> - <span data-ttu-id="0d40c-273">**Perakende** &gt; **Kategori ve ürün yönetimi** &gt; **Ek ürün kategorileri**.</span><span class="sxs-lookup"><span data-stu-id="0d40c-273">**Retail** &gt; **Category and product management** &gt; **Supplemental product categories**</span></span>
-
-### <a name="assign-attribute-groups-to-retail-stores"></a><span data-ttu-id="0d40c-274">Öznitelik gruplarını perakende mağazalarına atama</span><span class="sxs-lookup"><span data-stu-id="0d40c-274">Assign attribute groups to retail stores</span></span>
-
-<span data-ttu-id="0d40c-275">Bir veya daha fazla öznitelik grubu perakende mağaza hiyerarşisindeki bir veya daha fazla perakende mağaza ile ilişkilendirilebilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-275">One or more attribute groups can be associated with one or more retail stores in the retail store hierarchy.</span></span> <span data-ttu-id="0d40c-276">Daha sonra, ürünler belirli perakende mağazaları için zenginleştirildiğinde, öznitelik gruplarına dahil edilen öznitelikleri devralır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-276">Then, when products are enriched for specific retail stores, they inherit the attributes that are included in the attribute groups.</span></span>
-
-1. <span data-ttu-id="0d40c-277">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</span><span class="sxs-lookup"><span data-stu-id="0d40c-277">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="0d40c-278">**Perakende** &gt; **Kanal Kurulumu** &gt; **Kanal kategorileri ve ürün nitelikleri** seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-278">Go to **Retail** &gt; **Channel setup** &gt; **Channel categories and product attributes**.</span></span>
-3. <span data-ttu-id="0d40c-279">Houston kanalına öznitelik grupları atayın:</span><span class="sxs-lookup"><span data-stu-id="0d40c-279">Assign attribute groups to the Houston channel:</span></span>
-
-    1. <span data-ttu-id="0d40c-280">**Houston** kanalını seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-280">Select the **Houston** channel.</span></span>
-    2. <span data-ttu-id="0d40c-281">**Öznitelik grubu** hızlı sekmesinde, **Ekle**'yi ve **Ad** alanında **SharePointProvisionedProductAttributeGroup** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-281">On the **Attribute group** FastTab, select **Add**, and then, in the **Name** field, select **SharePointProvisionedProductAttributeGroup**.</span></span>
-    3. <span data-ttu-id="0d40c-282">Yeniden **Ekle**'yi seçin ve **Ad** alanında **Erkek kemeri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-282">Select **Add** again, and then, in the **Name** field, select **Men's belt**.</span></span>
-    4. <span data-ttu-id="0d40c-283">Yeniden **Ekle**'yi seçin ve **Ad** alanında **Moda Güneç Gözlükleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-283">Select **Add** again, and then, in the **Name** field, select **Fashion Sunglasses**.</span></span>
-
-        > [!NOTE]
-        > <span data-ttu-id="0d40c-284">Bir seçenek bu kanalın öznitelik gruplarını hiyerarşideki üst kanalından alması gerektiğini belirtmenize olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-284">An option lets you specify that this channel should inherit the attribute groups from its parent channel in the hierarchy.</span></span> <span data-ttu-id="0d40c-285">**Devral** seçeneğini **Evet** olarak ayarlarsanız, alt kanal düğümü tüm öznitelik gruplarını ve bu öznitelik gruplarındaki tüm öznitelikleri devralır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-285">If you set the **Inherit** option to **Yes**, the child channel node inherits all the attribute groups and all the attributes in those attribute groups.</span></span>
-
-4. <span data-ttu-id="0d40c-286">Houston kanalında kullanılabilir olması için öznitelikleri etkinleştirin:</span><span class="sxs-lookup"><span data-stu-id="0d40c-286">Enable the attributes so that they are available in the Houston channel:</span></span>
-
-    1. <span data-ttu-id="0d40c-287">Eylem Bölmesinde **Öznitelik meta verisi ayarla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-287">On the Action Pane, select **Set attribute metadata**.</span></span>
-    2. <span data-ttu-id="0d40c-288">**Moda** kategori düğümünü ve ardından **Kanal ürün öznitelikleri** hızlı sekmesinde her öznitelik için **Özniteliği ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-288">Select the **Fashion** category node, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
-    3. <span data-ttu-id="0d40c-289">**Moda Aksesuarlar** kategori düğümünü, **Moda Güneş Gözlükleri** kategorisini ve ardından **Kanal ürün öznitelikleri** hızlı sekmesinde her öznitelik için **Özniteliği ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-289">Select the **Fashion Accessories** category node, select the **Fashion Sunglasses** category, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
-    4. <span data-ttu-id="0d40c-290">**Erkek giyim** kategori düğümünü, **Pantolonlar** kategorisini ve ardından **Kanal ürün öznitelikleri** hızlı sekmesinde her öznitelik için **Özniteliği ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-290">Select the **Menswear** category node, select the **Pants** category, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
-
-![Kanal kategorileri ve ürün öznitelikleri - Öznitelik grupları](media/CCPAttrGrp.png)
-
-## <a name="overriding-attribute-values"></a><span data-ttu-id="0d40c-292">Geçersiz kılınan öznitelik değerleri</span><span class="sxs-lookup"><span data-stu-id="0d40c-292">Overriding attribute values</span></span>
-
-<span data-ttu-id="0d40c-293">Özniteliklerinin varsayılan değerleri ayrı ürünler için ürün düzeyinde geçersiz kılınabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-293">The default values of attributes can be overridden for individual products at the product level.</span></span> <span data-ttu-id="0d40c-294">Varsayılan değerler belirli perakende kanallarında hedeflenen belirli kataloglardaki ayrı ürünler için de geçersiz kılınabilir.</span><span class="sxs-lookup"><span data-stu-id="0d40c-294">Default values can also be overridden for individual products in specific catalogs that are targeted at specific retail channels.</span></span>
-
-### <a name="override-the-attribute-values-of-an-individual-product"></a><span data-ttu-id="0d40c-295">Tek bir ürününü öznitelik değerlerini geçersiz kılma</span><span class="sxs-lookup"><span data-stu-id="0d40c-295">Override the attribute values of an individual product</span></span>
-
-1. <span data-ttu-id="0d40c-296">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</span><span class="sxs-lookup"><span data-stu-id="0d40c-296">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="0d40c-297">**Perakende** &gt; **Kategori ve ürün yönetimi** &gt; **Kategoriye göre serbest bırakılan ürünler**'e gidin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-297">Go to **Retail** &gt; **Category and product management** &gt; **Released products by category**.</span></span>
-3. <span data-ttu-id="0d40c-298">**Moda** &gt; **Moda Aksesuarlar** &gt; **Moda Güneş Gözlükleri** kategori düğümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-298">Select the **Fashion** &gt; **Fashion Accessories** &gt; **Fashion Sunglasses** category node.</span></span>
-4. <span data-ttu-id="0d40c-299">Izgaradan gerekli ürünü seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-299">Select the required product in the grid.</span></span> <span data-ttu-id="0d40c-300">Ardından Eylem Bölmesinde, **Ürün** sekmesindeki **Ayar** gurubunda **Ürün öznitelikleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-300">Then, on the Action Pane, on the **Product** tab, in the **Set up** group, select **Product attributes**.</span></span>
-5. <span data-ttu-id="0d40c-301">Sol bölmeden bir öznitelik seçin ve ardından sağ bölmede değerini güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-301">Select an attribute in the left pane, and then update its value in the right pane.</span></span>
-
-![Ürün ayrıntıları sayfası – Ürün öznitelik grupları](media/ProdDetailsProdAttrValues.png)
-
-### <a name="override-the-attribute-values-of-products-in-a-catalog"></a><span data-ttu-id="0d40c-303">Katalogdaki ürünlerin öznitelik değerlerini geçersiz kılma</span><span class="sxs-lookup"><span data-stu-id="0d40c-303">Override the attribute values of products in a catalog</span></span>
-
-1. <span data-ttu-id="0d40c-304">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</span><span class="sxs-lookup"><span data-stu-id="0d40c-304">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="0d40c-305">**Perakende** &gt; **Katalog yönetimi** &gt; **Tüm kataloglar**'a gidin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-305">Go to **Retail** &gt; **Catalog management** &gt; **All catalogs**.</span></span>
-3. <span data-ttu-id="0d40c-306">**Fabrikam Temel Kataloğu** kataloğunu seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-306">Select the **Fabrikam Base Catalog** catalog.</span></span>
-4. <span data-ttu-id="0d40c-307">**Moda** &gt; **Moda Aksesuarlar** &gt; **Moda Güneş Gözlükleri** kategori düğümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-307">Select the **Fashion** &gt; **Fashion Accessories** &gt; **Fashion Sunglasses** category node.</span></span>
-5. <span data-ttu-id="0d40c-308">**Ürünler** hızlı sekmesinde gerekli ürünü seçin ve ardından ızgaranın üstünden **Öznitelikler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-308">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
-6. <span data-ttu-id="0d40c-309">Aşağıdaki hızlı sekmelerde gereken özniteliklerin değerlerini güncelleştirin:</span><span class="sxs-lookup"><span data-stu-id="0d40c-309">On the following FastTabs, update the values of the required attributes:</span></span>
-
-    - <span data-ttu-id="0d40c-310">Paylaşılan ürün ortamı</span><span class="sxs-lookup"><span data-stu-id="0d40c-310">Shared product media</span></span>
-    - <span data-ttu-id="0d40c-311">Paylaşılan ürün öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="0d40c-311">Shared product attributes</span></span>
-    - <span data-ttu-id="0d40c-312">Kanal ortamı</span><span class="sxs-lookup"><span data-stu-id="0d40c-312">Channel media</span></span>
-    - <span data-ttu-id="0d40c-313">Kanal ürünü öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="0d40c-313">Channel product attributes</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="0d40c-314">Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-314">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
-
-![Katalog ürünü öznitelik grupları](media/CatalogProdAttrValues.png)
-
-### <a name="override-the-attribute-values-of-products-in-a-channel"></a><span data-ttu-id="0d40c-316">Kanaldaki ürünlerin öznitelik değerlerini geçersiz kılma</span><span class="sxs-lookup"><span data-stu-id="0d40c-316">Override the attribute values of products in a channel</span></span>
-
-1. <span data-ttu-id="0d40c-317">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</span><span class="sxs-lookup"><span data-stu-id="0d40c-317">Sign in to the back-office client as a retail merchandising manager.</span></span>
-2. <span data-ttu-id="0d40c-318">**Perakende** &gt; **Kanal Kurulumu** &gt; **Kanal kategorileri ve ürün nitelikleri** seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-318">Go to **Retail** &gt; **Channel setup** &gt; **Channel categories and product attributes**.</span></span>
-3. <span data-ttu-id="0d40c-319">**Houston** kanalını seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-319">Select the **Houston** channel.</span></span>
-4. <span data-ttu-id="0d40c-320">**Ürünler** hızlı sekmesinde gerekli ürünü seçin ve ardından ızgaranın üstünden **Öznitelikler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-320">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="0d40c-321">Kullanılabilir ürün yoksa **Ürünler** hızlı sekmesinde **Ekle**'yi ve daha sonra **Ürün ekle** iletişim kutusunda gerekli ürünleri seçerek ürün ekleyin.</span><span class="sxs-lookup"><span data-stu-id="0d40c-321">If no products are available, add products by selecting **Add** on the **Products** FastTab and then selecting the required products in the **Add products** dialog box.</span></span>
-
-5. <span data-ttu-id="0d40c-322">Aşağıdaki hızlı sekmelerde gereken özniteliklerin değerlerini güncelleştirin:</span><span class="sxs-lookup"><span data-stu-id="0d40c-322">On the following FastTabs, update the values of the required attributes:</span></span>
-
-    - <span data-ttu-id="0d40c-323">Paylaşılan ürün ortamı</span><span class="sxs-lookup"><span data-stu-id="0d40c-323">Shared product media</span></span>
-    - <span data-ttu-id="0d40c-324">Paylaşılan ürün öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="0d40c-324">Shared product attributes</span></span>
-    - <span data-ttu-id="0d40c-325">Kanal ortamı</span><span class="sxs-lookup"><span data-stu-id="0d40c-325">Channel media</span></span>
-    - <span data-ttu-id="0d40c-326">Kanal ürünü öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="0d40c-326">Channel product attributes</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="0d40c-327">Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.</span><span class="sxs-lookup"><span data-stu-id="0d40c-327">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="attribute-attributegroups-lifecycle.md" target-language="tr-TR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>attribute-attributegroups-lifecycle.90dcb9.7c722c311048258ce75170ac4276d397fe2828fe.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>7c722c311048258ce75170ac4276d397fe2828fe</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\attribute-attributegroups-lifecycle.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Attributes and attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelikler ve öznitelik grupları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes how to use attributes to provide a way to describe a product and its characteristics through user-defined fields.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu konu, bir ürünü veya özelliklerini kullanıcı tanımlı alanlar aracılığıyla açıklamak için özniteliklerin nasıl kullanılacağını açıklar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Attributes and attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelikler ve öznitelik grupları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source><bpt id="p1">*</bpt>Attributes<ept id="p1">*</ept> provide a way to further describe a product and its characteristics through user-defined fields (such as <bpt id="p2">**</bpt>Memory size<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Hard disk capacity<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Is Energy star compliant<ept id="p4">**</ept>, and so on).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>Öznitelikler<ept id="p1">*</ept> kullanıcı tanımlı alanlar aracılığıyla bir ürünü ve özelliklerini daha fazla açıklamak için bir yol sağlar (<bpt id="p2">**</bpt>Bellek boyutu<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Sabit disk kapasitesi<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Energy star uyumluluğu<ept id="p4">**</ept>, vb.).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations içinde, öznitelikler, ürün kategorileri ve Retail kanalları gibi çeşitli perakende varlıklar ile ilişkili olabilir ve bunlar için varsayılan değerler ayarlanabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürün kategorileri veya perakende kanalları ile ilişkili olduğunda ürünler özniteliklerini ve varsayılan değerleri devralır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varsayılan değerler tek tek ürün düzeyinde, perakende kanal düzeyinde veya perakende kataloğu düzeyinde geçersiz kılınabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>For example, a typical television product might have the following attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, tipik bir televizyon ürünü aşağıdaki özniteliklere sahip olabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Category</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kategori</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Attribute</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Permissible values</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İzin verilen değerler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Default value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varsayılan değer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>TV &amp; Video</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TV ve Video</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Brand</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marka</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Any valid brand value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Herhangi bir geçerli marka değeri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>None</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hiçbiri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>TV</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TV</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Screen Size</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekran Boyutu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>20–80 inches</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20–80 inç</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>None</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hiçbiri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Vertical Resolution</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dikey Çözünürlük</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>480i, 720p, 1080i, or 1080p</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">480i, 720p, 1080i veya 1080p</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>1080p</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1080p</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Screen Refresh Rate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekran yenileme hızı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>60hz, 120hz, or 240hz</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">60hz, 120hz veya 240hz</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>60hz</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">60hz</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>HDMI Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HDMI Girdileri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>DVI Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DVI Girdileri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Composite Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bileşik Girdiler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Component Inputs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bileşen Girdileri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>0–10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>LCD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LCD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>3D Ready</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3D Hazır</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Yes or No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Evet veya Hayır</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Yes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Evet</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>3D Enabled</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3D etkin</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Yes or No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Evet veya Hayır</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>No</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hayır</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Plasma</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plazma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Operating Temp From</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çalıştırma Sıcaklığı Başlangıç</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>32–110 degrees</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32–110 derece</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>32</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Operating Temp To</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çalıştırma Sıcaklığı Son</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>32–110 degrees</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32–110 derece</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>100</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">100</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Projection</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Projeksiyon</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Projection Tube Warranty</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Projeksiyon tüp garanti</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>6, 12, or 18 months</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6, 12 veya 18 ay</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>12</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">12</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source><ph id="ph1">\#</ph> of Projection Tubes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">\#</ph> Projeksiyon Tüplerinin sayısı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>1–5</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1–5</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Attributes and attribute types</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelikler ve öznitelik türleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Attributes are based on <bpt id="p1">*</bpt>attribute types<ept id="p1">*</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelikler <bpt id="p1">*</bpt>öznitelik türlerini<ept id="p1">*</ept> temel alır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>The attribute type identifies the type of data that can be entered for a specific attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik türü, belirli bir öznitelik için girilebilen veri türünü tanımlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Finance and Operations currently supports the following attribute types:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations şu anda aşağıdaki öznitelik türlerini desteklemektedir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source><bpt id="p1">**</bpt>Currency<ept id="p1">**</ept> – This type supports a currency value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Para birimi<ept id="p1">**</ept> – Bu tür bir para birimi değerini destekler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>It can be bounded (that is, it can support a range of values), or it can be left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bağlı olabilir (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source><bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> – This type supports a date and time value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> – Bu tür, tarih ve saat değerini destekler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>It can be bounded or left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bağlı veya açık bırakılmış olabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source><bpt id="p1">**</bpt>Decimal<ept id="p1">**</ept> – This type supports a numerical value that includes decimal places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ondalık<ept id="p1">**</ept> – Bu tür, ondalık basamak içeren sayısal değeri destekler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>It also supports a unit of measure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca, ölçü birimini de destekler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>It can be bounded or left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bağlı veya açık bırakılmış olabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source><bpt id="p1">**</bpt>Integer<ept id="p1">**</ept> – This type supports a numerical value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tamsayı<ept id="p1">**</ept> – Bu tür sayısal bir değeri destekler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>It also supports a unit of measure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca, ölçü birimini de destekler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>It can be bounded or left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bağlı veya açık bırakılmış olabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source><bpt id="p1">**</bpt>Text<ept id="p1">**</ept> – This type supports a text value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Metin<ept id="p1">**</ept> – Bu tür metin değerini destekler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>It also supports a predefined set of possible values (that is, an <bpt id="p1">*</bpt>enumeration<ept id="p1">*</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca önceden tanımlanmış bir dizi olası değerleri de (<bpt id="p1">*</bpt>numaralandırma<ept id="p1">*</ept>) destekler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source><bpt id="p1">**</bpt>Boolean<ept id="p1">**</ept> – This type supports a binary value (<bpt id="p2">**</bpt>true<ept id="p2">**</ept> or <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Boole<ept id="p1">**</ept> – Bu tür ikili değeri destekler (<bpt id="p2">**</bpt>doğru<ept id="p2">**</ept> veya <bpt id="p3">**</bpt>yanlış<ept id="p3">**</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source><bpt id="p1">**</bpt>Reference<ept id="p1">**</ept> – This type references other attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Referans<ept id="p1">**</ept> – Bu tür diğer özniteliklere referansta bulunur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Set up attribute types in Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations'da öznitelik türlerini ayarlama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Sign in to the Finance and Operations back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende alım satım yöneticisi olarak Finance and Operations arka ofis istemcisinde oturum açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attribute types<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ürün bilgi yönetimi<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kurulum<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Kategoriler ve öznitelikler<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Öznitelik türleri<ept id="p4">**</ept>'ne gidin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Create two attribute types of the <bpt id="p1">**</bpt>Text<ept id="p1">**</ept> type, set the <bpt id="p2">**</bpt>Fixed list<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept>, and then add a list of values:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Metin<ept id="p1">**</ept> türünde iki öznitelik türü oluşturun, <bpt id="p2">**</bpt>Sabit liste<ept id="p2">**</ept> seçeneğini <bpt id="p3">**</bpt>Evet<ept id="p3">**</ept> olarak ayarlayın ve sonra değerler listesi ekleyin:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Name one attribute type <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept>, and add the following values: <bpt id="p2">**</bpt>Oval<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Square<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Rectangle<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir öznitelik türüne <bpt id="p1">**</bpt>Mercek şekli<ept id="p1">**</ept> adını verin ve şu değerleri ekleyin: <bpt id="p2">**</bpt>Oval<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Kare<ept id="p3">**</ept> ve <bpt id="p4">**</bpt>Dikdörtgen<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Name the other attribute type <bpt id="p1">**</bpt>Sunglass brand<ept id="p1">**</ept>, and add the following values: <bpt id="p2">**</bpt>Ray ban<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Aviator<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Oakley<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diğer öznitelik türüne <bpt id="p1">**</bpt>Güneç gözlüğü markası<ept id="p1">**</ept> adını verin ve şu değerleri ekleyin: <bpt id="p2">**</bpt>Ray ban<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Aviator<ept id="p3">**</ept> ve <bpt id="p4">**</bpt>Oakley<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Attribute types</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik türleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Set up an attribute in Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations'da öznitelik ayarlama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attributes<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ürün bilgi yönetimi<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kurulum<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Kategoriler ve öznitelikler<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Öznitelikler<ept id="p4">**</ept>'e gidin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Create an attribute that is named <bpt id="p1">**</bpt>Lens<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Mercek<ept id="p1">**</ept> adında bir öznitelik oluşturun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Set the <bpt id="p1">**</bpt>Attribute type<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>Lens shape<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Öznitelik türü<ept id="p1">**</ept> alanını <bpt id="p2">**</bpt>Mercek şekli<ept id="p2">**</ept> olarak ayarlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelikler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Attribute metadata</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik meta verileri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source><bpt id="p1">*</bpt>Attribute metadata<ept id="p1">*</ept> lets you select options to specify how the attributes for each product should behave.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>Öznitelik meta verisi<ept id="p1">*</ept> her ürün için özniteliklerin nasıl davranacağını belirtebileceğiniz seçenekler belirlemenize olanak tanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>For example, you can specify whether attributes are required, whether they can be used for searches, and whether they can be used as a filter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, özniteliklerin gerekli olup olmadığını, aramalar için kullanılıp kullanılamayacağını ve filtre olarak kullanılıp kullanılamayacağını belirtebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>For retail products, the attribute metadata settings can be overridden at the channel level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende ürünleri için, öznitelik meta verileri kanal düzeyinde geçersiz kılınabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>This capability will be discussed later in this topic.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu özellik bu konunun ilerleyen bölümlerinde açıklanmıştır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>As you might notice, the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page includes options that are related to attribute metadata.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sizin de göreceğiniz gibi <bpt id="p1">**</bpt>Öznitelikler<ept id="p1">**</ept> sayfası öznitelik meta verileriyle ilgili seçenekler içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Under <bpt id="p1">**</bpt>Attribute metadata for POS<ept id="p1">**</ept>, one option that is named <bpt id="p2">**</bpt>Can be refined<ept id="p2">**</ept> affects the behavior of the attribute values in the retail point of sale (POS) or the way that the system handles those attribute values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>POS için öznitelik değerleri<ept id="p1">**</ept> altında, <bpt id="p2">**</bpt>İyileştirilebilir<ept id="p2">**</ept> adına sahip bir seçenek perakende satış noktasındaki (POS) öznitelik değerlerinin davranışını veya sistemin bu öznitelik değerlerini ele alma şeklini etkiler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Only attributes for which you may set the <bpt id="p1">**</bpt>Can be refined<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, will show up for refinement or filtering of products in the retail POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yalnızca, <bpt id="p1">**</bpt>İyileştirilebilir<ept id="p1">**</ept> seçeneğini <bpt id="p2">**</bpt>Evet<ept id="p2">**</ept> olarak ayarlayabileceğiniz öznitelikler retail POS'taki ürünleri iyileştirilmesi veya filtrelenmesi için gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Here are the remaining attribute metadata options on the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Öznitelikler<ept id="p1">**</ept> sayfasındaki diğer öznitelik meta veri seçenekleri şunlardır:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Searchable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aranabilir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Retrievable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alınabilir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Can be queried</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sorgulanabilir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Sortable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sıralanabilir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Allow multiple values</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birden fazla değere izin ver</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Ignore case and format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Büyük-küçük harfi ve biçimi yok say</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Complete match</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tam eşleşme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>These options were originally intended to improve the search functionality for the online storefront.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu seçeneklerin temel amacı çevrimiçi mağaza için arama işlevini geliştirmektir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Although Finance and Operations doesn't include the online storefront out of the box, it does include the eCommerce Publishing Software Development Kit (SDK).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations kullanıma hazır olarak çevrimiçi mağaza içermese de e-Ticaret Yayımlama Yazılım Geliştirme Seti (SDK) içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Customers can use this SDK to put products into a search index of their choice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müşteriler bu SDK'yı kullanarak ürünleri istedikleri arama dizinine koyabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Although the product data is imported, customers should still be able to distinguish searchable data, data that can be queried, and so on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürün verileri içe aktarılsa da müşteriler aranabilir verileri, sorgulanabilecek verileri, vb. birbirinden ayırabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>In that way, they can build an optimal index to make sure that they index only attributes that, <bpt id="p1">*</bpt>in their opinion<ept id="p1">*</ept>, should be indexed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu şekilde, yalnızca <bpt id="p1">*</bpt>kendi görüşlerine göre<ept id="p1">*</ept> dizinlenmesi gereken öznitelikleri dizinlediklerinden emin olmak için optimum dizini oluşturabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>For information about the purpose of these remaining options, see <bpt id="p1">[</bpt>Overview of the search schema in SharePoint Server 2013<ept id="p1">](https://technet.microsoft.com/library/jj219669.aspx)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu kalan seçeneklerin amacı hakkında bilgi için bkz. <bpt id="p1">[</bpt>SharePoint Server 2013'te arama şemasına genel bakış<ept id="p1">](https://technet.microsoft.com/library/jj219669.aspx)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Filter settings for attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik filtre ayarları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Filter settings for attributes let you define how the filters for attributes are shown in the retail POS.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Özniteliklerin filtre ayarları özniteliklerle ilgili filtrelerin perakende POS'ta nasıl görüneceğini tanımlamanıza olanak tanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>To access the filter settings for an attribute, on the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page in Finance and Operations, select the attribute, and then, on the Action Pane, select <bpt id="p2">**</bpt>Filter settings<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir özniteliğe ilişkin filtre ayarlarına erişmek için Finance and Operations'taki <bpt id="p1">**</bpt>Öznitelikler<ept id="p1">**</ept> sayfasında özniteliği seçin ve Eylem Bölmesine <bpt id="p2">**</bpt>Filtre ayarları<ept id="p2">**</ept>'nı seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>The <bpt id="p1">**</bpt>Filter display preferences<ept id="p1">**</ept> page includes the following fields:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Filtre görüntüleme tercihleri<ept id="p1">**</ept> sayfası, aşağıdaki alanları içerir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> – By default, this field is set to the name of the attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ad<ept id="p1">**</ept> – Varsayılan olarak, bu alanın öznitelik adına ayarlanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>However, you can change the value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ancak, değerde değişiklik yapabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source><bpt id="p1">**</bpt>Display option<ept id="p1">**</ept> – The following options are available:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Görüntüleme seçeneği<ept id="p1">**</ept> – Aşağıdaki seçenekler mevcuttur:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source><bpt id="p1">**</bpt>Single value<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Boolean<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Currency<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Decimal<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Integer<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Text<ept id="p6">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tek bir değer<ept id="p1">**</ept> – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: <bpt id="p2">**</bpt>Boole<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Para birimi<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Ondalık<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Tamsayı<ept id="p5">**</ept> ve <bpt id="p6">**</bpt>Metin<ept id="p6">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>This option enables single value selection for these attributes in the client for refinement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu seçenek istemcide iyileştirme için bu özniteliklere yönelik tek bir değer seçimi sağlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source><bpt id="p1">**</bpt>Multi value<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Text<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Birden fazla değer<ept id="p1">**</ept> – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: <bpt id="p2">**</bpt>Boole<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Ondalık<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Tamsayı<ept id="p4">**</ept> ve <bpt id="p5">**</bpt>Metin<ept id="p5">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>This option enables multi-value selection for this attribute in the client for refinement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu seçenek istemcide iyileştirme için bu özniteliğe yönelik tek birden fazla değer seçimi sağlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source><bpt id="p1">**</bpt>Display control<ept id="p1">**</ept> – The following options are available:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Görüntüleme denetimi<ept id="p1">**</ept> – Aşağıdaki seçenekler mevcuttur:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source><bpt id="p1">**</bpt>List<ept id="p1">**</ept> – This option is available for the all attribute types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Liste<ept id="p1">**</ept> – Bu seçenek tüm öznitelik türleri için kullanılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source><bpt id="p1">**</bpt>Range<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Aralık<ept id="p1">**</ept> – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: <bpt id="p2">**</bpt>Para birimi<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Ondalık<ept id="p3">**</ept> ve <bpt id="p4">**</bpt>Tamsayı<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source><bpt id="p1">**</bpt>Slider<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Kaydırıcı<ept id="p1">**</ept> – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: <bpt id="p2">**</bpt>Para birimi<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Ondalık<ept id="p3">**</ept> ve <bpt id="p4">**</bpt>Tamsayı<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source><bpt id="p1">**</bpt>Slider with bars<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Çubuklarla birlikte kaydırıcı<ept id="p1">**</ept> – Bu seçenek aşağıdaki öznitelik türleri için kullanılabilir: <bpt id="p2">**</bpt>Para birimi<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Ondalık<ept id="p3">**</ept> ve <bpt id="p4">**</bpt>Tamsayı<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source><bpt id="p1">**</bpt>Threshold value<ept id="p1">**</ept> – This setting is required if you selected <bpt id="p2">**</bpt>Range<ept id="p2">**</ept> as the display control type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Eşik değeri<ept id="p1">**</ept> – Bu ayar görüntüleme denetim türü olarak <bpt id="p2">**</bpt>Aralık<ept id="p2">**</ept> seçmeniz durumunda gereklidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>You can define values by using a semicolon (;) as a delimiter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sınırlayıcı olarak noktalı virgül (;) kullanarak değerleri tanımlayabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>For example, for the filter like <bpt id="p1">**</bpt>Bag Volume<ept id="p1">**</ept>, a threshold value can be <bpt id="p2">**</bpt>10; 20; 50; 100; 200; 500; 1000; 5000<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>Torba Hacmi<ept id="p1">**</ept> gibi bir filtre için eşik değeri <bpt id="p2">**</bpt>10; 20; 50; 100; 200; 500; 1000; 5000<ept id="p2">**</ept> olabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>In this case, the retail POS will show the following ranges.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu durumda, perakende POS şu aralıkları gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Any ranges that don't have any products in the result set will appear dimmed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sonuç kümesinde ürün bulunmayan aralıklar karartılmış olarak görünür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Less than 10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10'den daha az</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>10 – 20</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10 – 20</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>20 – 50</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20 – 50</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>50 – 100</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">50 – 100</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>100 – 200</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">100 – 200</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>200 – 500</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">200 – 500</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>500 or more</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">500 veya üzeri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Attribute filter settings</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik filtresi ayarları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik grupları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>After attributes have been defined, they can be assigned to attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelikler tanımladıktan sonra öznitelik gruplarına atanabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>An <bpt id="p1">*</bpt>attribute group<ept id="p1">*</ept> is used to group the individual attributes for a component or subcomponent in a product configuration model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir <bpt id="p1">*</bpt>öznitelik grubu<ept id="p1">*</ept> bir ürün yapılandırma modelindeki bir bileşen veya alt bileşen için ayrı öznitelikleri gruplandırmak için kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>An attribute can be included in more than one attribute group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir öznitelik birden fazla öznitelik grubuna dahil edilebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Attribute groups can help users configure products, because the various selections are arranged in a specific context.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çeşitli seçenekler belirli bir bağlam içinde düzenlenmiş olduğundan öznitelik grupları kullanıcıların ürünleri yapılandırmasına yardımcı olur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Attribute groups can be assigned to retail categories or retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik grupları perakende kategorilerine veya perakende kanallarına atanabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>You can also set default values for attributes that are included in an attribute group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir öznitelik grubuna dahil olan öznitelikler için de varsayılan değerler ayarlayabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>For example, you add an attribute for color to an attribute group and select <bpt id="p1">**</bpt>Blue<ept id="p1">**</ept> as the default attribute value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, bir öznitelik grubuna renk için öznitelik ekleyebilir ve varsayılan öznitelik değeri olarak <bpt id="p1">**</bpt>Mavi<ept id="p1">**</ept> seçebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>In this case, when the attribute group is added to a retail product that includes color as one of its attributes, <bpt id="p1">**</bpt>Blue<ept id="p1">**</ept> appears as the default color for that product.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu durumda, öznitelik grubu, özniteliklerinden biri olarak renk içeren bir perakende ürününe eklendiğinde <bpt id="p1">**</bpt>Mavi<ept id="p1">**</ept> bu ürün için varsayılan renk olarak görünür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>Attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik grupları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Create an attribute group</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik grubu oluşturma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attribute groups<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ürün bilgi yönetimi<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kurulum<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Kategoriler ve öznitelikler<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Öznitelik grupları<ept id="p4">**</ept>'na gidin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Create an attribute group that is named <bpt id="p1">**</bpt>Fashion Sunglasses<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Moda Güneş Gözlükleri<ept id="p1">**</ept> adında bir öznitelik grubu oluşturun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Add the following attributes: <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Sunglass brand<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Şu öznitelikleri ekleyin: <bpt id="p1">**</bpt>Mercek şekli<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Güneş gözlüğü markası<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Assign attribute groups to retail categories</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik gruplarını perakende kategorilerine atama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>One or more attribute groups can be associated with category nodes in the following types of retail category hierarchies: Retail product hierarchy, Channel navigation category hierarchy, and Supplemental product category hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir veya daha fazla öznitelik grubu, şu türdeki perakende kategorisi hiyerarşilerinde kategori düğümleri ile ilişkilendirilebilir: Perakende ürün hiyerarşisi, Kanal gezinti kategori hiyerarşisi ve Ek ürün kategori hiyerarşisi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Then, when products are categorized, they inherit the attributes that are included in the attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürünler kategorize edildiğinde, öznitelik gruplarına dahil edilen öznitelikleri devralır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Retail product hierarchy – Product attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende ürün hiyerarşisi – Ürün öznitelik grupları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Follow these steps to assign attribute groups to categories in the Retail product hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende ürün hiyerarşisinde kategorilere öznitelik grupları atamak için şu adımları izleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Category and product management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Retail product hierarchy<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Perakende<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kategori ve ürün yönetimi<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Perakende ürün hiyerarşisi<ept id="p3">**</ept>'ne gidin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Select <bpt id="p1">**</bpt>Fashion navigation hierarchy<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Moda gezinti hiyerarşi<ept id="p1">**</ept>'ni seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Under <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Product attribute groups<ept id="p3">**</ept> FastTab, add an attribute group that is named <bpt id="p4">**</bpt>Men's belt<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Erkek giyim<ept id="p1">**</ept> altından <bpt id="p2">**</bpt>Pantolonlar<ept id="p2">**</ept> kategorisini seçin ve daha sonra <bpt id="p3">**</bpt>Ürün öznitelik grupları<ept id="p3">**</ept> hızlı sekmesinde <bpt id="p4">**</bpt>Erkek kemeri<ept id="p4">**</ept> adında bir öznitelik grubu ekleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Select the <bpt id="p1">**</bpt>Fashion sunglasses<ept id="p1">**</ept> category, and verify the new attributes in the <bpt id="p2">**</bpt>Fashion Sunglasses<ept id="p2">**</ept> attribute group by selecting <bpt id="p3">**</bpt>View attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Moda güneş gözlükleri<ept id="p1">**</ept> kategorisini seçin ve <bpt id="p3">**</bpt>Öznitelikleri görüntüle<ept id="p3">**</ept>'yi seçerek <bpt id="p2">**</bpt>Moda Güneş Gözlükleri<ept id="p2">**</ept> öznitelik grubundaki yeni öznitelikleri doğrulayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>The attribute group should show the new <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Sunglass brand<ept id="p2">**</ept> attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni öznitelik grubu yeni <bpt id="p1">**</bpt>Mercek şekli<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Güneş gözlüğü markası<ept id="p2">**</ept> özniteliklerini göstermelidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Under <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and verify the attributes for the <bpt id="p3">**</bpt>Men's belt<ept id="p3">**</ept> attribute group by selecting <bpt id="p4">**</bpt>View attributes<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Erkek giyim<ept id="p1">**</ept> altından <bpt id="p2">**</bpt>Pantolonlar<ept id="p2">**</ept> kategorisini seçin ve <bpt id="p4">**</bpt>Öznitelikleri görüntüle<ept id="p4">**</ept>'yi seçerek <bpt id="p3">**</bpt>Erkek kemeri<ept id="p3">**</ept> öznitelik grubu için öznitelikleri doğrulayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>The attribute group should show the <bpt id="p1">**</bpt>Men's belt brand<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Belt fabric<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Belt size<ept id="p3">**</ept> attributes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik grubu <bpt id="p1">**</bpt>Erkek kemer markası<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Kemer kumaşı<ept id="p2">**</ept> ve <bpt id="p3">**</bpt>Kemer boyu<ept id="p3">**</ept> özniteliklerini içermelidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>This procedure can also be used to assign attribute groups to categories in the Channel navigation category hierarchy and the Supplemental product category hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu yordam Kanal gezinti kategori hiyerarşisi ve Ek ürün kategori hiyerarşisinde kategorilere öznitelik grupları atamak için de kullanılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>In step 2, use the following navigation paths:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Adım 2'de, aşağıdaki gezinti yollarını kullanın:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Retail <ph id="ph1">&amp;gt;</ph> Category and product management <ph id="ph2">&amp;gt;</ph> Channel navigation categories</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Retail <ph id="ph1">&amp;gt;</ph> Kategori ve ürün yönetimi <ph id="ph2">&amp;gt;</ph> Kanal gezinti kategorileri</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>Retail <ph id="ph1">&amp;gt;</ph> Category and product management <ph id="ph2">&amp;gt;</ph> Supplemental product categories</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Retail <ph id="ph1">&amp;gt;</ph> Kategori ve ürün yönetimi <ph id="ph2">&amp;gt;</ph> Ek ürün kategorileri.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>Assign attribute groups to retail stores</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik gruplarını perakende mağazalarına atama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>One or more attribute groups can be associated with one or more retail stores in the retail store hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir veya daha fazla öznitelik grubu perakende mağaza hiyerarşisindeki bir veya daha fazla perakende mağaza ile ilişkilendirilebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>Then, when products are enriched for specific retail stores, they inherit the attributes that are included in the attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Daha sonra, ürünler belirli perakende mağazaları için zenginleştirildiğinde, öznitelik gruplarına dahil edilen öznitelikleri devralır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Channel categories and product attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Perakende<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kanal Kurulumu<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Kanal kategorileri ve ürün nitelikleri<ept id="p3">**</ept> seçeneğine gidin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Assign attribute groups to the Houston channel:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Houston kanalına öznitelik grupları atayın:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Select the <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept> channel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Houston<ept id="p1">**</ept> kanalını seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>On the <bpt id="p1">**</bpt>Attribute group<ept id="p1">**</ept> FastTab, select <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, and then, in the <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> field, select <bpt id="p4">**</bpt>SharePointProvisionedProductAttributeGroup<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Öznitelik grubu<ept id="p1">**</ept> hızlı sekmesinde, <bpt id="p2">**</bpt>Ekle<ept id="p2">**</ept>'yi ve <bpt id="p3">**</bpt>Ad<ept id="p3">**</ept> alanında <bpt id="p4">**</bpt>SharePointProvisionedProductAttributeGroup<ept id="p4">**</ept> öğesini seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> again, and then, in the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Men's belt<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeniden <bpt id="p1">**</bpt>Ekle<ept id="p1">**</ept>'yi seçin ve <bpt id="p2">**</bpt>Ad<ept id="p2">**</ept> alanında <bpt id="p3">**</bpt>Erkek kemeri<ept id="p3">**</ept>'ni seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> again, and then, in the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeniden <bpt id="p1">**</bpt>Ekle<ept id="p1">**</ept>'yi seçin ve <bpt id="p2">**</bpt>Ad<ept id="p2">**</ept> alanında <bpt id="p3">**</bpt>Moda Güneç Gözlükleri<ept id="p3">**</ept>'ni seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>An option lets you specify that this channel should inherit the attribute groups from its parent channel in the hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir seçenek bu kanalın öznitelik gruplarını hiyerarşideki üst kanalından alması gerektiğini belirtmenize olanak tanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>If you set the <bpt id="p1">**</bpt>Inherit<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, the child channel node inherits all the attribute groups and all the attributes in those attribute groups.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Devral<ept id="p1">**</ept> seçeneğini <bpt id="p2">**</bpt>Evet<ept id="p2">**</ept> olarak ayarlarsanız, alt kanal düğümü tüm öznitelik gruplarını ve bu öznitelik gruplarındaki tüm öznitelikleri devralır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Enable the attributes so that they are available in the Houston channel:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Houston kanalında kullanılabilir olması için öznitelikleri etkinleştirin:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>On the Action Pane, select <bpt id="p1">**</bpt>Set attribute metadata<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eylem Bölmesinde <bpt id="p1">**</bpt>Öznitelik meta verisi ayarla<ept id="p1">**</ept>'yı seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> category node, and then, on the <bpt id="p2">**</bpt>Channel product attributes<ept id="p2">**</ept> FastTab, select <bpt id="p3">**</bpt>Include attribute<ept id="p3">**</ept> for each attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Moda<ept id="p1">**</ept> kategori düğümünü ve ardından <bpt id="p2">**</bpt>Kanal ürün öznitelikleri<ept id="p2">**</ept> hızlı sekmesinde her öznitelik için <bpt id="p3">**</bpt>Özniteliği ekle<ept id="p3">**</ept>'yi seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Select the <bpt id="p1">**</bpt>Fashion Accessories<ept id="p1">**</ept> category node, select the <bpt id="p2">**</bpt>Fashion Sunglasses<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Channel product attributes<ept id="p3">**</ept> FastTab, select <bpt id="p4">**</bpt>Include attribute<ept id="p4">**</ept> for each attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Moda Aksesuarlar<ept id="p1">**</ept> kategori düğümünü, <bpt id="p2">**</bpt>Moda Güneş Gözlükleri<ept id="p2">**</ept> kategorisini ve ardından <bpt id="p3">**</bpt>Kanal ürün öznitelikleri<ept id="p3">**</ept> hızlı sekmesinde her öznitelik için <bpt id="p4">**</bpt>Özniteliği ekle<ept id="p4">**</ept>'yi seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>Select the <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept> category node, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Channel product attributes<ept id="p3">**</ept> FastTab, select <bpt id="p4">**</bpt>Include attribute<ept id="p4">**</ept> for each attribute.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Erkek giyim<ept id="p1">**</ept> kategori düğümünü, <bpt id="p2">**</bpt>Pantolonlar<ept id="p2">**</ept> kategorisini ve ardından <bpt id="p3">**</bpt>Kanal ürün öznitelikleri<ept id="p3">**</ept> hızlı sekmesinde her öznitelik için <bpt id="p4">**</bpt>Özniteliği ekle<ept id="p4">**</ept>'yi seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>Channel categories and product attributes – Attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanal kategorileri ve ürün öznitelikleri - Öznitelik grupları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source>Overriding attribute values</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçersiz kılınan öznitelik değerleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source>The default values of attributes can be overridden for individual products at the product level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Özniteliklerinin varsayılan değerleri ayrı ürünler için ürün düzeyinde geçersiz kılınabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source>Default values can also be overridden for individual products in specific catalogs that are targeted at specific retail channels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varsayılan değerler belirli perakende kanallarında hedeflenen belirli kataloglardaki ayrı ürünler için de geçersiz kılınabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>Override the attribute values of an individual product</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tek bir ürününü öznitelik değerlerini geçersiz kılma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Category and product management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Released products by category<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Perakende<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kategori ve ürün yönetimi<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Kategoriye göre serbest bırakılan ürünler<ept id="p3">**</ept>'e gidin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="298">
+          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fashion Accessories<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept> category node.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Moda<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Moda Aksesuarlar<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Moda Güneş Gözlükleri<ept id="p3">**</ept> kategori düğümünü seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="299">
+          <source>Select the required product in the grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Izgaradan gerekli ürünü seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="300">
+          <source>Then, on the Action Pane, on the <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Set up<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Product attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ardından Eylem Bölmesinde, <bpt id="p1">**</bpt>Ürün<ept id="p1">**</ept> sekmesindeki <bpt id="p2">**</bpt>Ayar<ept id="p2">**</ept> gurubunda <bpt id="p3">**</bpt>Ürün öznitelikleri<ept id="p3">**</ept>'ni seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="301">
+          <source>Select an attribute in the left pane, and then update its value in the right pane.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sol bölmeden bir öznitelik seçin ve ardından sağ bölmede değerini güncelleştirin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="302">
+          <source>Product details page – Product attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürün ayrıntıları sayfası – Ürün öznitelik grupları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="303">
+          <source>Override the attribute values of products in a catalog</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katalogdaki ürünlerin öznitelik değerlerini geçersiz kılma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="304">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="305">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Catalog management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>All catalogs<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Perakende<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Katalog yönetimi<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Tüm kataloglar<ept id="p3">**</ept>'a gidin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="306">
+          <source>Select the <bpt id="p1">**</bpt>Fabrikam Base Catalog<ept id="p1">**</ept> catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Fabrikam Temel Kataloğu<ept id="p1">**</ept> kataloğunu seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="307">
+          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fashion Accessories<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept> category node.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Moda<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Moda Aksesuarlar<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Moda Güneş Gözlükleri<ept id="p3">**</ept> kategori düğümünü seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="308">
+          <source>On the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> FastTab, select the required product, and then select <bpt id="p2">**</bpt>Attributes<ept id="p2">**</ept> above the product grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ürünler<ept id="p1">**</ept> hızlı sekmesinde gerekli ürünü seçin ve ardından ızgaranın üstünden <bpt id="p2">**</bpt>Öznitelikler<ept id="p2">**</ept>'i seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="309">
+          <source>On the following FastTabs, update the values of the required attributes:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki hızlı sekmelerde gereken özniteliklerin değerlerini güncelleştirin:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="310">
+          <source>Shared product media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paylaşılan ürün ortamı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="311">
+          <source>Shared product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paylaşılan ürün öznitelikleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="312">
+          <source>Channel media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanal ortamı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="313">
+          <source>Channel product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanal ürünü öznitelikleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="314">
+          <source>If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="315">
+          <source>Catalog product attribute groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Katalog ürünü öznitelik grupları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="316">
+          <source>Override the attribute values of products in a channel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanaldaki ürünlerin öznitelik değerlerini geçersiz kılma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="317">
+          <source>Sign in to the back-office client as a retail merchandising manager.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="318">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Channel categories and product attributes<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Perakende<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kanal Kurulumu<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Kanal kategorileri ve ürün nitelikleri<ept id="p3">**</ept> seçeneğine gidin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="319">
+          <source>Select the <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept> channel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Houston<ept id="p1">**</ept> kanalını seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="320">
+          <source>On the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> FastTab, select the required product, and then select <bpt id="p2">**</bpt>Attributes<ept id="p2">**</ept> above the product grid.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ürünler<ept id="p1">**</ept> hızlı sekmesinde gerekli ürünü seçin ve ardından ızgaranın üstünden <bpt id="p2">**</bpt>Öznitelikler<ept id="p2">**</ept>'i seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="321">
+          <source>If no products are available, add products by selecting <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Products<ept id="p2">**</ept> FastTab and then selecting the required products in the <bpt id="p3">**</bpt>Add products<ept id="p3">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kullanılabilir ürün yoksa <bpt id="p2">**</bpt>Ürünler<ept id="p2">**</ept> hızlı sekmesinde <bpt id="p1">**</bpt>Ekle<ept id="p1">**</ept>'yi ve daha sonra <bpt id="p3">**</bpt>Ürün ekle<ept id="p3">**</ept> iletişim kutusunda gerekli ürünleri seçerek ürün ekleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="322">
+          <source>On the following FastTabs, update the values of the required attributes:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki hızlı sekmelerde gereken özniteliklerin değerlerini güncelleştirin:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="323">
+          <source>Shared product media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paylaşılan ürün ortamı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="324">
+          <source>Shared product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paylaşılan ürün öznitelikleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="325">
+          <source>Channel media</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanal ortamı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="326">
+          <source>Channel product attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanal ürünü öznitelikleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="327">
+          <source>If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

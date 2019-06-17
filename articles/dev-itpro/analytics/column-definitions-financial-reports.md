@@ -1,603 +1,2340 @@
----
-title: Finansal raporlarda sütun tanımları
-description: Bu makalede sütun tanımları hakkında bilgi verilmektedir. Bir sütun tanımı bir rapordaki sütunların içindekileri tanımlayan bir rapor bileşeni veya yapı taşıdır. Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-platform
-ms.technology: ''
-ms.search.form: FinancialReports
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 106601
-ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
-ms.search.region: Global
-ms.author: aolson
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502742"
----
-# <a name="column-definitions-in-financial-reports"></a><span data-ttu-id="2c434-105">Finansal raporlarda sütun tanımları</span><span class="sxs-lookup"><span data-stu-id="2c434-105">Column definitions in financial reports</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="2c434-106">Bu makalede sütun tanımları hakkında bilgi verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="2c434-106">This article provides information about column definitions.</span></span> <span data-ttu-id="2c434-107">Bir sütun tanımı bir rapordaki sütunların içindekileri tanımlayan bir rapor bileşeni veya yapı taşıdır.</span><span class="sxs-lookup"><span data-stu-id="2c434-107">A column definition is a report component, or building block, that defines the contents of columns on a report.</span></span> <span data-ttu-id="2c434-108">Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-108">Like row definitions, basic column definitions can be used on multiple reports.</span></span>
-
-## <a name="create-and-modify-a-column-definition"></a><span data-ttu-id="2c434-109">Bir sütun tanımı oluşturma ve değiştirme</span><span class="sxs-lookup"><span data-stu-id="2c434-109">Create and modify a column definition</span></span>
-
-<span data-ttu-id="2c434-110">Bir sütun tanımı iki ila 255 sütun içerebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-110">A column definition can contain two to 255 columns.</span></span>
-
-### <a name="create-a-column-definition"></a><span data-ttu-id="2c434-111">Sütun tanımı oluşturma</span><span class="sxs-lookup"><span data-stu-id="2c434-111">Create a column definition</span></span>
-
-1. <span data-ttu-id="2c434-112">Rapor Tasarımcısı'ndaki gezinti bölmesinde **Sütun Tanımları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-112">In Report Designer, in the navigation pane, click **Column Definitions**.</span></span>
-2. <span data-ttu-id="2c434-113">**Dosya** menüsünde, **Yeni**'ye ve ardından **Sütun Tanımı**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-113">On the **File** menu, click **New**, and then click **Column Definition**.</span></span>
-3. <span data-ttu-id="2c434-114">Sütun tanımının içeriklerini ekleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-114">Add the contents of the column definition.</span></span>
-
-### <a name="open-a-column-definition"></a><span data-ttu-id="2c434-115">Bir sütun tanımını açma</span><span class="sxs-lookup"><span data-stu-id="2c434-115">Open a column definition</span></span>
-
-1. <span data-ttu-id="2c434-116">Rapor Tasarımcısı'ndaki gezinti bölmesinde **Sütun Tanımları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-116">In Report Designer, in the navigation pane, click **Column Definitions**.</span></span>
-2. <span data-ttu-id="2c434-117">Açmak için bir sütun tanımına çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-117">Double-click a column definition to open it.</span></span>
-
-### <a name="add-a-column-to-a-column-definition"></a><span data-ttu-id="2c434-118">Bir sütun tanımına sütun ekleme</span><span class="sxs-lookup"><span data-stu-id="2c434-118">Add a column to a column definition</span></span>
-
-1. <span data-ttu-id="2c434-119">Rapor Tasarımcısı'nda, **Sütun Tanımları**'na tıklayın ve ardından değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-119">In Report Designer, click **Column Definitions**, and then open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-120">Yeni sütun eklenmesi gereken sütunu seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-120">Select the column where a new column should be inserted.</span></span>
-3. <span data-ttu-id="2c434-121">**Düzenle** menüsünde, **Sütun Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-121">On the **Edit** menu, click **Insert Column**.</span></span> <span data-ttu-id="2c434-122">Yeni sütun, seçtiğiniz sütunun solunda görünür.</span><span class="sxs-lookup"><span data-stu-id="2c434-122">The new column appears to the left of the column that you selected.</span></span>
-
-### <a name="delete-a-column-from-a-column-definition"></a><span data-ttu-id="2c434-123">Bir sütun tanımından sütun silme</span><span class="sxs-lookup"><span data-stu-id="2c434-123">Delete a column from a column definition</span></span>
-
-1. <span data-ttu-id="2c434-124">Rapor Tasarımcısı'nda, **Sütun Tanımları**'na tıklayın ve ardından değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-124">In Report Designer, click **Column Definitions**, and then open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-125">Silinecek sütunu seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-125">Select the column to delete.</span></span>
-3. <span data-ttu-id="2c434-126">**Düzenle** menüsünde, **Sütunu Sil**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-126">On the **Edit** menu, click **Delete Column**.</span></span>
-
-## <a name="contents-of-a-column-definition"></a><span data-ttu-id="2c434-127">Bir sütun tanımının içerikleri</span><span class="sxs-lookup"><span data-stu-id="2c434-127">Contents of a column definition</span></span>
-<span data-ttu-id="2c434-128">Bir sütun tanımı aşağıdaki bilgileri içerir:</span><span class="sxs-lookup"><span data-stu-id="2c434-128">A column definition includes the following information:</span></span>
-
-- <span data-ttu-id="2c434-129">Satır tanımının açıklamalarına ait bir sütun</span><span class="sxs-lookup"><span data-stu-id="2c434-129">A column of the descriptions for the row definition</span></span>
-- <span data-ttu-id="2c434-130">Mali veriler veya bir sütun tanımındaki diğer verileri esas alan hesaplamalara ait verileri gösteren tutar sütunları</span><span class="sxs-lookup"><span data-stu-id="2c434-130">Amount columns that show data from the financial data or calculations that are based on other data in the column definition</span></span>
-- <span data-ttu-id="2c434-131">Biçimlendirme sütunları</span><span class="sxs-lookup"><span data-stu-id="2c434-131">Formatting columns</span></span>
-- <span data-ttu-id="2c434-132">Öznitelik sütunları</span><span class="sxs-lookup"><span data-stu-id="2c434-132">Attribute columns</span></span>
-
-<span data-ttu-id="2c434-133">Bu bilgiler sütun tanımındaki şu alanlarda görünür:</span><span class="sxs-lookup"><span data-stu-id="2c434-133">This information appears in the following areas in the column definition:</span></span>
-
-- <span data-ttu-id="2c434-134">Sütun tanımının başlıklar alanı raporda görünen başlık metnini ve biçimlendirmesini içerir.</span><span class="sxs-lookup"><span data-stu-id="2c434-134">The headers area of the column definition contains the heading text and formatting that appears in the report.</span></span> <span data-ttu-id="2c434-135">Bir başlık tek bir veri sütununa uygulanabilir, birden fazla sütuna yayılabilir veya sütunlara koşula bağlı olarak uygulanabilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-135">A header can apply to a single column of data, can span multiple columns, or can apply to columns on a conditional basis.</span></span> <span data-ttu-id="2c434-136">Sütun tanımı ihtiyacınız olduğu kadar çok sütun başlığı satırı içerebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-136">The column definition can include as many column header rows as you require.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="2c434-137">Sütun başlıkları, rapordaki verilerin her sütununa uygulanır.</span><span class="sxs-lookup"><span data-stu-id="2c434-137">Column headers apply to each column of data on the report.</span></span> <span data-ttu-id="2c434-138">Rapor başlıkları ise tüm rapora uygulanır.</span><span class="sxs-lookup"><span data-stu-id="2c434-138">Report headers apply to the whole report.</span></span> <span data-ttu-id="2c434-139">Rapor tanımının **Üst Bilgiler ve Alt Bilgiler** sekmesinde rapor üst bilgilerini tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-139">You define report headers on the **Headers and Footers** tab of the report definition.</span></span>
-
-- <span data-ttu-id="2c434-140">Sütun ayrıntısı satırları sütun tanımındaki üst bilgi satırlarının altındaki satırlardır.</span><span class="sxs-lookup"><span data-stu-id="2c434-140">Column detail rows are the rows under the header rows in the column definition.</span></span> <span data-ttu-id="2c434-141">Sütun ayrıntısı satırları raporda yer alan bilgileri tanımlar.</span><span class="sxs-lookup"><span data-stu-id="2c434-141">Column detail rows define the information that is included on the report.</span></span> <span data-ttu-id="2c434-142">Aşağıdaki tabloda sütun ayrıntısı satırları belirtilip açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="2c434-142">The following table lists and describes the column detail rows.</span></span>
-
-    | <span data-ttu-id="2c434-143">Sütun ayrıntısı satırı adı</span><span class="sxs-lookup"><span data-stu-id="2c434-143">Column detail row name</span></span>                                                | <span data-ttu-id="2c434-144">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2c434-144">Description</span></span>                                                                                            |
-    |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-    | <span data-ttu-id="2c434-145">Sütun Türü</span><span class="sxs-lookup"><span data-stu-id="2c434-145">Column Type</span></span>                                                           | <span data-ttu-id="2c434-146">(Gerekli) Sütundaki veri türünü belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-146">(Required) Specify the type of data in the column.</span></span>                                                     |
-    | <span data-ttu-id="2c434-147">Defter Kodu/Öznitelik Kategorisi</span><span class="sxs-lookup"><span data-stu-id="2c434-147">Book Code/Attribute Category</span></span>                                          | <span data-ttu-id="2c434-148">**FD** ve **ATTR** türlerine ait sütunlar için mali veri bilgilerini belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-148">Specify financial data information for columns of the **FD** and **ATTR** types.</span></span>                       |
-    | <span data-ttu-id="2c434-149">Kapsanan Mali Yıl Dönemi Sayısı</span><span class="sxs-lookup"><span data-stu-id="2c434-149">Fiscal Year Period Periods Covered</span></span>                                    | <span data-ttu-id="2c434-150">**FD** türüne ait sütunlar için mali veri bilgilerini belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-150">Specify financial data information for columns of the **FD** type.</span></span>                                     |
-    | <span data-ttu-id="2c434-151">Formül</span><span class="sxs-lookup"><span data-stu-id="2c434-151">Formula</span></span>                                                               | <span data-ttu-id="2c434-152">**CALC** türüne ait sütunlar hesaplama formülü belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-152">Specify a calculation formula for columns of the **CALC** type.</span></span>                                        |
-    | <span data-ttu-id="2c434-153">Sütun Biçimi Geçersiz Kılma Yazdırma Denetiminden Önce Sütun Genişliği Fazladan Boşluk Sayısı</span><span class="sxs-lookup"><span data-stu-id="2c434-153">Column Width Extra Spaces Before Column Format Override Print Control</span></span> | <span data-ttu-id="2c434-154">Özel biçim seçenekleri belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-154">Specify special format options.</span></span>                                                                        |
-    | <span data-ttu-id="2c434-155">Sütun Kısıtlamaları</span><span class="sxs-lookup"><span data-stu-id="2c434-155">Column Restrictions</span></span>                                                   | <span data-ttu-id="2c434-156">Verileri kısıtlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-156">Restrict data.</span></span>                                                                                         |
-    | <span data-ttu-id="2c434-157">Raporlama Birimi</span><span class="sxs-lookup"><span data-stu-id="2c434-157">Reporting Unit</span></span>                                                        | <span data-ttu-id="2c434-158">Sütunu yalnızca belirtilen raporlama birimine ait verileri gösterecek şekilde kısıtlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-158">Restrict the column, so that it shows data only for the specified reporting unit.</span></span>                      |
-    | <span data-ttu-id="2c434-159">Para Birimi Ekranı Para Birimi Filtresi</span><span class="sxs-lookup"><span data-stu-id="2c434-159">Currency Display Currency Filter</span></span>                                      | <span data-ttu-id="2c434-160">Para birimini biçimlendirin.</span><span class="sxs-lookup"><span data-stu-id="2c434-160">Format currency.</span></span>                                                                                       |
-    | <span data-ttu-id="2c434-161">Boyut Filtresi</span><span class="sxs-lookup"><span data-stu-id="2c434-161">Dimension Filter</span></span>                                                      | <span data-ttu-id="2c434-162">Verileri belirli mali veri raporlama birimleriyle kısıtlamak için filtre belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-162">Specify a filter to restrict data to certain financial data reporting units.</span></span>                           |
-    | <span data-ttu-id="2c434-163">Öznitelik Filtresi</span><span class="sxs-lookup"><span data-stu-id="2c434-163">Attribute Filter</span></span>                                                      | <span data-ttu-id="2c434-164">Mali verileri kısıtlamak için filtre belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-164">Specify a filter to restrict the financial data.</span></span>                                                       |
-    | <span data-ttu-id="2c434-165">Başlangıç Tarihi Bitiş Tarihi</span><span class="sxs-lookup"><span data-stu-id="2c434-165">Start Date End Date</span></span>                                                   | <span data-ttu-id="2c434-166">Mali verileri belirli tarihlerle kısıtlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-166">Restrict the financial data to specific dates.</span></span>                                                         |
-    | <span data-ttu-id="2c434-167">Yaslama</span><span class="sxs-lookup"><span data-stu-id="2c434-167">Justification</span></span>                                                         | <span data-ttu-id="2c434-168">Satır tanımında belirtilen açıklama metnini sola hizalayın, ortaya hizalayın veya sağa hizalayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-168">Left-align, center-align, or right-align the description text that is specified in the row definition.</span></span> |
-
-## <a name="column-restrictions-in-a-column-definition"></a><span data-ttu-id="2c434-169">Bir sütun tanımındaki sütun kısıtlamaları</span><span class="sxs-lookup"><span data-stu-id="2c434-169">Column restrictions in a column definition</span></span>
-<span data-ttu-id="2c434-170">Bir sütun tanımının verileri nasıl kullandığını veya bilgileri nasıl hesapladığını belirtmek için sütun kısıtlamaları kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-170">You can use column restrictions to specify how a column definition uses data or calculates information.</span></span> <span data-ttu-id="2c434-171">Ayrıca bir rapor sütununu belirli bir birimle veya belirli tarihler için kısıtlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-171">You can also restrict a report column to a specific unit or for specific dates.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="2c434-172">**Sütun Kısıtlaması** kodu, satır tanımında atanan her türlü çakışan ayarı geçersiz kılar.</span><span class="sxs-lookup"><span data-stu-id="2c434-172">A **Column Restriction** code overrides any conflicting setting that is assigned in the row definition.</span></span>
-
-### <a name="column-restrictions-cell"></a><span data-ttu-id="2c434-173">Sütun Kısıtlamaları hücresi</span><span class="sxs-lookup"><span data-stu-id="2c434-173">Column Restrictions cell</span></span>
-
-<span data-ttu-id="2c434-174">**Sütun Kısıtlamaları** hücresi söz konusu sütuna ait satır biçimlendirmesi, ayrıntılar ve tutarlar gibi bilgileri kısıtlayan veya gizleyen kodlar içerebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-174">The **Column Restrictions** cell can include codes that restrict or suppress information, such as row formatting, details, and amounts, for that column.</span></span>
-
-#### <a name="add-a-column-restriction-in-a-column-definition"></a><span data-ttu-id="2c434-175">Bir sütun tanımına sütun kısıtlaması ekleme</span><span class="sxs-lookup"><span data-stu-id="2c434-175">Add a column restriction in a column definition</span></span>
-
-1. <span data-ttu-id="2c434-176">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-176">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-177">Kısıtlamak için sütunun **Sütun Kısıtlamaları** hücresine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-177">Double-click the **Column Restrictions** cell for the column to restrict.</span></span>
-3. <span data-ttu-id="2c434-178">**Sütun Kısıtlamaları** iletişim kutusundaki listeden bir veya daha fazla kod seçin ve ardından **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-178">In the **Column Restrictions** dialog box, select one or more codes in the list, and then click **OK**.</span></span>
-
-### <a name="column-restriction-codes"></a><span data-ttu-id="2c434-179">Sütun kısıtlaması kodları</span><span class="sxs-lookup"><span data-stu-id="2c434-179">Column restriction codes</span></span>
-
-<span data-ttu-id="2c434-180">Aşağıdaki tabloda sütun kısıtlaması kodları açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="2c434-180">The following table describes the column restriction codes.</span></span>
-
-| <span data-ttu-id="2c434-181">Sütun kısıtlaması kodu</span><span class="sxs-lookup"><span data-stu-id="2c434-181">Column restriction code</span></span> | <span data-ttu-id="2c434-182">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2c434-182">Description</span></span> |
-|-------------------------|-------------|
-| <span data-ttu-id="2c434-183">SU</span><span class="sxs-lookup"><span data-stu-id="2c434-183">SU</span></span>                      | <span data-ttu-id="2c434-184">Satır tanımında bir alt çizgi komutunun (**---**) veya bir çift alt çizgi komutun (**===**) girildiği bir sütun için alt çizgiyi baskılayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-184">Suppress the underscore for a column where either an underscore command (**---**) or a double underscore command (**===**) is entered in the row definition.</span></span> <span data-ttu-id="2c434-185">Örneğin, bir yüzde hesaplaması tarafından üretilen tutarları alt çizgili görüntülemek istemeyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-185">For example, you might not want to underline amounts that are produced by a percentage calculation.</span></span> |
-| <span data-ttu-id="2c434-186">ST</span><span class="sxs-lookup"><span data-stu-id="2c434-186">ST</span></span>                      | <span data-ttu-id="2c434-187">Sütunda (örneğin bir istatistik sütunu) yalnızca ayrıntıların gösterilmesi için toplamları gizleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-187">Suppress totals, so that only details are shown in the column (for example, a statistical column).</span></span> |
-| <span data-ttu-id="2c434-188">SD</span><span class="sxs-lookup"><span data-stu-id="2c434-188">SD</span></span>                      | <span data-ttu-id="2c434-189">Sütunda yalnızca **TOT** ve **CAL** satırlarının (satır tanımından) gösterilmesi için ayrıntıları gizleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-189">Suppress details, so that only **TOT** and **CAL** rows (from the row definition) are shown in the column.</span></span> |
-| <span data-ttu-id="2c434-190">DR</span><span class="sxs-lookup"><span data-stu-id="2c434-190">DR</span></span>                      | <span data-ttu-id="2c434-191">Bir **FD** sütunundaki tutarları borç tutarlarıyla kısıtlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-191">Restrict the amounts in an **FD** column to debit amounts.</span></span> |
-| <span data-ttu-id="2c434-192">CR</span><span class="sxs-lookup"><span data-stu-id="2c434-192">CR</span></span>                      | <span data-ttu-id="2c434-193">Bir **FD** sütunundaki tutarları alacak tutarlarıyla kısıtlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-193">Restrict the amounts in an **FD** column to credit amounts.</span></span> |
-| <span data-ttu-id="2c434-194">ADJ</span><span class="sxs-lookup"><span data-stu-id="2c434-194">ADJ</span></span>                     | <span data-ttu-id="2c434-195">Sütundaki tutarları dönem düzeltmesi tutarları varsa bu tutarlarla kısıtlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-195">Restrict the amounts in the column to period adjustment amounts, if these amounts are available.</span></span> |
-| <span data-ttu-id="2c434-196">XAD</span><span class="sxs-lookup"><span data-stu-id="2c434-196">XAD</span></span>                     | <span data-ttu-id="2c434-197">Sütundaki tutarları dönem düzeltmesi tutarları hariç tutulacak şekilde kısıtlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-197">Restrict the amounts in the column, so that period adjustment amounts are excluded.</span></span> |
-| <span data-ttu-id="2c434-198">PT</span><span class="sxs-lookup"><span data-stu-id="2c434-198">PT</span></span>                      | <span data-ttu-id="2c434-199">Sütundaki tutarları deftere nakledilmiş hareketler kullanılabiliyorsa yalnızca bu hareketler dahil edilecek şekilde kısıtlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-199">Restrict the amounts in the column, so that only posted transactions are included, if these transactions are available.</span></span> |
-| <span data-ttu-id="2c434-200">UPT</span><span class="sxs-lookup"><span data-stu-id="2c434-200">UPT</span></span>                     | <span data-ttu-id="2c434-201">Sütundaki tutarları deftere nakledilmemiş hareketler kullanılabiliyorsa yalnızca bu hareketler dahil edilecek şekilde kısıtlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-201">Restrict the amounts in the column, so that only unposted transactions are included, if these transactions are available.</span></span><blockquote>[!NOTE] <span data-ttu-id="2c434-202">Tüm veri sağlayıcılar deftere nakledilmemiş hareketleri desteklemez.</span><span class="sxs-lookup"><span data-stu-id="2c434-202">Not all data providers support unposted transactions.</span></span> <span data-ttu-id="2c434-203">Daha fazla bilgi için, Microsoft Dynamics ERP sisteminizin <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>veri tümleştirme kılavuzuna</a> bakın.</span><span class="sxs-lookup"><span data-stu-id="2c434-203">For more information, see the <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>data integration guide</a> for your Microsoft Dynamics ERP system.</span></span></blockquote> |
-
-### <a name="restrict-a-column-to-a-reporting-unit"></a><span data-ttu-id="2c434-204">Bir sütunu bir raporlama birimiyle kısıtlama</span><span class="sxs-lookup"><span data-stu-id="2c434-204">Restrict a column to a reporting unit</span></span>
-
-1. <span data-ttu-id="2c434-205">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-205">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-206">Kısıtlamak için sütunun **Raporlama Birimi** hücresine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-206">Double-click the **Reporting Unit** cell for the column to restrict.</span></span>
-3. <span data-ttu-id="2c434-207">**Raporlama Birimi Seçimi** iletişim kutusundaki **Raporlama ağacı** listesinden bir ağaç seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-207">In the **Reporting Unit Selection** dialog box, in the **Reporting tree** list, select a tree.</span></span>
-4. <span data-ttu-id="2c434-208">Birim listesini genişletin veya daraltın, bir raporlama birimi seçin ve ardından **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-208">Expand or collapse the list of units, select a reporting unit, and then click **OK**.</span></span>
-
-## <a name="format-column-headers"></a><span data-ttu-id="2c434-209">Biçim sütunu başlıkları</span><span class="sxs-lookup"><span data-stu-id="2c434-209">Format column headers</span></span>
-<span data-ttu-id="2c434-210">Bir rapordaki sütunların üst kısmında görünen başlıkları ekleyebilir, değiştirebilir ve silebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-210">You can add, modify, and delete the headers that appear at the top of the columns on a report.</span></span> <span data-ttu-id="2c434-211">Ayrıca sütun tanımlarındaki **Dönem** alanın ve rapor tanımlarındaki **Esas Dönem** alanına göre koşullu yayılan sütun başlıkları da yapılandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-211">You can also configure conditional spanning column headers, based on the **Period** field from column definitions and the **Base Period** field from report definitions.</span></span> <span data-ttu-id="2c434-212">Esas dönem özelliği toplanan tahmin raporları oluşturduğunuzda zaman kazanmanıza yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="2c434-212">The base period feature helps save you time when you create rolling forecast reports.</span></span>
-
-### <a name="create-and-manage-column-headers"></a><span data-ttu-id="2c434-213">Sütun başlıkları oluşturma ve yönetme</span><span class="sxs-lookup"><span data-stu-id="2c434-213">Create and manage column headers</span></span>
-
-<span data-ttu-id="2c434-214">Bir rapordaki sütunların üst kısmında görünen başlıkları eklemek, değiştirmek ve silmek için **Sütun Başlığı** iletişim kutusunu kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-214">You can use the **Column Header** dialog box to add, modify, and delete the headers that appear at the top of the columns on a report.</span></span> <span data-ttu-id="2c434-215">Aşağıdaki tabloda **Sütun Başlığı** iletişim kutusundaki alanlar açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="2c434-215">The following table describes the fields in the **Column Header** dialog box.</span></span>
-
-| <span data-ttu-id="2c434-216">Alan</span><span class="sxs-lookup"><span data-stu-id="2c434-216">Field</span></span>                 | <span data-ttu-id="2c434-217">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2c434-217">Description</span></span> |
-|-----------------------|-------------|
-| <span data-ttu-id="2c434-218">Sütun başlığı metni</span><span class="sxs-lookup"><span data-stu-id="2c434-218">Column header text</span></span>    | <span data-ttu-id="2c434-219">Bu metin sütun başlığında görünür.</span><span class="sxs-lookup"><span data-stu-id="2c434-219">This text appears in the column header.</span></span> <span data-ttu-id="2c434-220">Doğrudan bu alanın içine yazabilir ya da rapor her oluşturulduğunda sütun başlığını güncelleştiren bir seçenek seçmek için **Otomatik Metin Ekle**'ye tıklayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-220">You can type text directly in this field, or click **Insert AutoText** to select an option that updates the column header every time that the report is generated.</span></span> <span data-ttu-id="2c434-221">Birden fazla otomatik metin kodu eklemek için **Otomatik Metin Ekle**'ye yeniden tıklayın ve ardından listedeki başka bir koda tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-221">To include multiple autotext codes, click **Insert AutoText** again, and then click another code in the list.</span></span> |
-| <span data-ttu-id="2c434-222">Biçim seçenekleri</span><span class="sxs-lookup"><span data-stu-id="2c434-222">Format options</span></span>        | <span data-ttu-id="2c434-223">Bir sütun başlığına kutu veya alt çizgi gibi biçimlendirme uygulayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-223">Apply formatting to a column header, such as box or underline.</span></span> |
-| <span data-ttu-id="2c434-224">Yayılma başlangıcı Yayılma bitişi</span><span class="sxs-lookup"><span data-stu-id="2c434-224">Spread from Spread to</span></span> | <span data-ttu-id="2c434-225">Başlık metninin uygulandığı sütunu veya sütunları tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-225">Define the column or columns that the header text applies to.</span></span> |
-| <span data-ttu-id="2c434-226">Yaslama</span><span class="sxs-lookup"><span data-stu-id="2c434-226">Justification</span></span>         | <span data-ttu-id="2c434-227">**Yayılma başlangıcı** ve **Yayılma bitişi** alanlarında belirtilen sütun veya sütun aralığı için sütun başlığı metninin nasıl hizalanması gerektiğini belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-227">Specify how the column header text should be aligned for the column or range of columns that is specified in the **Spread from** and **Spread to** fields.</span></span> |
-
-### <a name="create-a-column-header"></a><span data-ttu-id="2c434-228">Sütun başlığı oluşturma</span><span class="sxs-lookup"><span data-stu-id="2c434-228">Create a column header</span></span>
-
-1. <span data-ttu-id="2c434-229">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-229">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-230">Bir başlık hücresine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-230">Double-click a header cell.</span></span>
-3. <span data-ttu-id="2c434-231">**Sütun Başlığı** iletişim kutusunda, sütun başlığı metnini girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-231">In the **Column Header** dialog box, enter the column header text.</span></span> <span data-ttu-id="2c434-232">Alternatif olarak **Otomatik Metin Ekle**'ye tıklayın ve bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-232">Alternatively, click **Insert AutoText**, and select an option.</span></span>
-4. <span data-ttu-id="2c434-233">**Biçim seçenekleri** alanında, başlık için bir biçim seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-233">In the **Format options** field, select a format for the header.</span></span>
-5. <span data-ttu-id="2c434-234">**Yayılma başlangıcı** alanına, sütun başlığının başlaması gereken sütunun harfini girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-234">In the **Spread from** field, enter the letter of the column that the column header should start over.</span></span> <span data-ttu-id="2c434-235">**Yayılma bitişi** alanına ise sütun başlığının bitmesi gereken sütunun harfini girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-235">In the **Spread to** field, enter the letter of the column that the column header should end over.</span></span>
-6. <span data-ttu-id="2c434-236">**Yaslama**'nın altında, sütun başlığının sola mı, ortaya mı yoksa sağa mı yaslanmış olması gerektiğini belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-236">Under **Justification**, select whether the column header text to should be left-justified, center-justified, or right-justified.</span></span>
-7. <span data-ttu-id="2c434-237">**Tamam** düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="2c434-237">Click **OK**.</span></span>
-
-### <a name="add-a-column-header-row"></a><span data-ttu-id="2c434-238">Sütun başlığı satırı ekleme</span><span class="sxs-lookup"><span data-stu-id="2c434-238">Add a column header row</span></span>
-
-1. <span data-ttu-id="2c434-239">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-239">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-240">Başlık satırında bir hücre seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-240">Select a cell in the header row.</span></span>
-3. <span data-ttu-id="2c434-241">**Düzenle** menüsünde, **Satır Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-241">On the **Edit** menu, click **Insert Row**.</span></span> <span data-ttu-id="2c434-242">Yeni satır, 2. adımda seçtiğiniz satırın üzerine eklenir.</span><span class="sxs-lookup"><span data-stu-id="2c434-242">The new row is inserted above the row that you selected in step 2.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="2c434-243">Bir raporda dört ya da daha fazla rapor üstbilgisi satırına sahipseniz üstbilgiler bir Excel çalışma sayfasına aktarıldığında üst üste binecektir.</span><span class="sxs-lookup"><span data-stu-id="2c434-243">If you have four or more rows of report headers on a report, the headers will overlap when the report is exported to an Excel worksheet.</span></span> <span data-ttu-id="2c434-244">Rapordaki tüm başlıkları görüntülemek için, rapor tanımındaki üst boşluğu artırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-244">To view all headers on the report, increase the top margin in the report definition.</span></span>
-
-### <a name="delete-a-column-header-row"></a><span data-ttu-id="2c434-245">Bir sütun başlığı satırını silme</span><span class="sxs-lookup"><span data-stu-id="2c434-245">Delete a column header row</span></span>
-
-1. <span data-ttu-id="2c434-246">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-246">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-247">Başlık satırında, silinecek hücreyi seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-247">In the header row, select the cell to delete.</span></span>
-3. <span data-ttu-id="2c434-248">**Düzenle** menüsündeki **Satır Sil** öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-248">On the **Edit** menu, click **Delete Row**.</span></span>
-
-### <a name="create-an-automatically-generated-header"></a><span data-ttu-id="2c434-249">Otomatik üretilen bir üstbilgi oluşturma</span><span class="sxs-lookup"><span data-stu-id="2c434-249">Create an automatically generated header</span></span>
-
-<span data-ttu-id="2c434-250">Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-250">Report designer can automatically generate column headers, based on autotext codes.</span></span> <span data-ttu-id="2c434-251">Otomatik metin kodları her rapor oluşturulduğunda güncelleştirilen değişkenlerdir.</span><span class="sxs-lookup"><span data-stu-id="2c434-251">Autotext codes are variables that are updated every time that a report is generated.</span></span> <span data-ttu-id="2c434-252">Her sütun başlığı tarihler ve dönem numaraları gibi değişebilen rapor bilgilerini belirtmek için bu kodları içerebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-252">Any column header can include these codes to specify report information that can vary, such as dates or period numbers.</span></span> <span data-ttu-id="2c434-253">Bu nedenle, birden fazla rapor tanımı, süre ve raporlama ağacı için bir sütun tanımı kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-253">Therefore, you can use one column definition for multiple report definitions, time periods, and reporting trees.</span></span> <span data-ttu-id="2c434-254">Otomatik metin kodları sütun tanımının ayrıntı satırlarındaki takvim bilgilerine dayandığından yalnızca **CALC** ve **FD** sütunları için desteklenir.</span><span class="sxs-lookup"><span data-stu-id="2c434-254">Because autotext codes rely on the calendar information from the detail rows of the column definition, they are supported only for **CALC** and **FD** columns.</span></span> <span data-ttu-id="2c434-255">Bir otomatik metin kodunun sütun başlığı hücresinde görünme şekli söz konusu bilgilerin raporda nasıl göründüğünü etkiler.</span><span class="sxs-lookup"><span data-stu-id="2c434-255">The way that an autotext code appears in the column header cell affects how that information appears on the report.</span></span> <span data-ttu-id="2c434-256">**Sütun Başlığı** iletişim kutusunda, otomatik metin kodları büyük-küçük harf karışık olarak görünür.</span><span class="sxs-lookup"><span data-stu-id="2c434-256">In the **Column Header** dialog box, the autotext codes appear in mixed case.</span></span> <span data-ttu-id="2c434-257">Bu nedenle, metin raporda da büyük-küçük harf karışık olarak görünür.</span><span class="sxs-lookup"><span data-stu-id="2c434-257">Therefore, the text appears in mixed case on the report.</span></span> <span data-ttu-id="2c434-258">Örneğin, standart bir takvim yılında, **@CalMonthLong** ayı **7** ila **Temmuz** olarak çözümler.</span><span class="sxs-lookup"><span data-stu-id="2c434-258">For example, in a standard calendar year, **@CalMonthLong** resolves month **7** to **July**.</span></span> <span data-ttu-id="2c434-259">Adı büyük harfle olması gereken ayın (örneğin **TEMMUZ**) adında, otomatik metin kodunu **Sütun başlığı metni** alanına büyük harflerle girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-259">If the name of the month should be uppercase (for example **JULY**), enter the autotext code in uppercase characters in the **Column header text** field.</span></span> <span data-ttu-id="2c434-260">Örneğin, **@CALMONTHLONG** girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-260">For example, enter **@CALMONTHLONG**.</span></span> <span data-ttu-id="2c434-261">Kodları ve metni karıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-261">You can mix codes and text.</span></span> <span data-ttu-id="2c434-262">Örneğin, şu başlık metnini girebilirsiniz: **Dönem @FiscalPeriod-@FiscalYear @StartDate ila @EndDate**</span><span class="sxs-lookup"><span data-stu-id="2c434-262">For example, you enter the following header text: **Period @FiscalPeriod-@FiscalYear from @StartDate to @EndDate**.</span></span> <span data-ttu-id="2c434-263">Oluşturulan rapor başlığı şu metne benzer: **Dönem 1-02 01/01/02 ila 01/31/02**.</span><span class="sxs-lookup"><span data-stu-id="2c434-263">The report heading that is generated resembles the following text: **Period 1-02 from 01/01/02 to 01/31/02**.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="2c434-264">Uzun tarih gibi bazı metin biçimleri Finance and Operations sunucunuzdaki bölgesel ayarlarınıza bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="2c434-264">The format of some of the text, such as the long date, depends on your regional settings on the Finance and Operations server.</span></span> <span data-ttu-id="2c434-265">Bu ayarları değiştirmek için **Başlat** düğmesini, **Denetim Masası** öğesini ve ardından **Bölge ve Dil** öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-265">To change these settings, click the **Start** button, click **Control Panel**, and then click **Region and Language**.</span></span> <span data-ttu-id="2c434-266">Aşağıdaki tabloda sütun başlıkları için kullanılabilen otomatik metin seçenekleri gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="2c434-266">The following table lists the available autotext options for column headers.</span></span>
-
-
-| <span data-ttu-id="2c434-267">Otomatik metin seçeneği ve kodu</span><span class="sxs-lookup"><span data-stu-id="2c434-267">Autotext option and code</span></span>                | <span data-ttu-id="2c434-268">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2c434-268">Description</span></span> |
-|-----------------------------------------|-------------|
-| <span data-ttu-id="2c434-269">Ay adı (@CalMonthLong)</span><span class="sxs-lookup"><span data-stu-id="2c434-269">Month name (@CalMonthLong)</span></span>              | <span data-ttu-id="2c434-270">Sütun başlığındaki geçerli ayın adını yazdırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-270">Print the name of the current month in the column heading.</span></span> <span data-ttu-id="2c434-271">Rapordaki tutarları binler, milyonlar veya milyarlara yuvarlamaya karar verirseniz ya da rapordaki sütun genişliğini dokuz karakterden daha az karaktere ayarlarsanız ayın adı ilk üç karakter olarak kısaltılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-271">If you decide to round the amounts in the report to thousands, millions, or billions, or if you set the column width on the report to fewer than nine characters, the name of the month is abbreviated to the first three characters.</span></span> |
-| <span data-ttu-id="2c434-272">Kısaltılmış ay adı (@CalMonthShort)</span><span class="sxs-lookup"><span data-stu-id="2c434-272">Abbreviated month name (@CalMonthShort)</span></span> | <span data-ttu-id="2c434-273">Seçilen mali dönem için ayın kısaltılmış adını yazdırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-273">Print the abbreviated name of the month for the selected fiscal period.</span></span> |
-| <span data-ttu-id="2c434-274">Dönem numarası (@FiscalPeriod)</span><span class="sxs-lookup"><span data-stu-id="2c434-274">Period number (@FiscalPeriod)</span></span>           | <span data-ttu-id="2c434-275">Söz konusu sütun için tanımlanan mali dönemin sayısal biçimini yazdırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-275">Print the numeric form of the fiscal period that is identified for that column.</span></span> <span data-ttu-id="2c434-276">Sütun birden fazla döneme yayılıyorsa aralıktaki son dönem yazdırılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-276">If the column spans multiple periods, the last period in the range is printed.</span></span> |
-| <span data-ttu-id="2c434-277">Dönem açıklaması (@FiscalPeriodName)</span><span class="sxs-lookup"><span data-stu-id="2c434-277">Period description (@FiscalPeriodName)</span></span>  | <span data-ttu-id="2c434-278">Mali verilerde tanımlanan mali dönem açıklamasını yazdırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-278">Print the fiscal period description that is identified in the financial data.</span></span> |
-| <span data-ttu-id="2c434-279">Mali yıl (@FiscalYear)</span><span class="sxs-lookup"><span data-stu-id="2c434-279">Fiscal year (@FiscalYear)</span></span>               | <span data-ttu-id="2c434-280">Sütunun mali yılı sayısal biçimde yazdırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-280">Print the fiscal year for the column in numeric form.</span></span> |
-| <span data-ttu-id="2c434-281">Takvim yılı (@CalYear)</span><span class="sxs-lookup"><span data-stu-id="2c434-281">Calendar year (@CalYear)</span></span>                | <span data-ttu-id="2c434-282">Sütunun takvim yılını sayısal biçimde yazdırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-282">Print the calendar year for the column in numeric form.</span></span> |
-| <span data-ttu-id="2c434-283">Başlangıç tarihi (@StartDate)</span><span class="sxs-lookup"><span data-stu-id="2c434-283">Start date (@StartDate)</span></span>                 | <span data-ttu-id="2c434-284">Sütunun başlangıç tarihini yazdırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-284">Print the start date for the column.</span></span> |
-| <span data-ttu-id="2c434-285">Bitiş Tarihi (@EndDate)</span><span class="sxs-lookup"><span data-stu-id="2c434-285">End Date (@EndDate)</span></span>                     | <span data-ttu-id="2c434-286">Sütunun bitiş tarihini yazdırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-286">Print the end date for the column.</span></span> |
-| <span data-ttu-id="2c434-287">Ağaçtaki birim adı (@UnitName)</span><span class="sxs-lookup"><span data-stu-id="2c434-287">Unit name from tree (@UnitName)</span></span>         | <span data-ttu-id="2c434-288">Bir sütunu belirli bir raporlama ağacı birimiyle kısıtlarsanız sütun başlığındaki birim adını yazdırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-288">If you restrict a column to a specific unit of the reporting tree, print the unit name in the column header.</span></span> |
-| <span data-ttu-id="2c434-289">Birim açıklaması (@UnitDesc)</span><span class="sxs-lookup"><span data-stu-id="2c434-289">Unit description (@UnitDesc)</span></span>            | <span data-ttu-id="2c434-290">Bir sütunu belirli bir raporlama ağacı birimiyle kısıtlarsanız sütun başlığındaki birim açıklamasını yazdırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-290">If you restrict a column to a specific unit of the reporting tree, print the unit description in the column header.</span></span> |
-| <span data-ttu-id="2c434-291">Defter Kodu (@BookCode)</span><span class="sxs-lookup"><span data-stu-id="2c434-291">Book Code (@BookCode)</span></span>                   | <span data-ttu-id="2c434-292">Sütunda belirtilen defter kodunu yazdırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-292">Print the book code that is specified in the column.</span></span> |
-| <span data-ttu-id="2c434-293">Boş satır (@Blank)</span><span class="sxs-lookup"><span data-stu-id="2c434-293">Blank line (@Blank)</span></span>                     | <span data-ttu-id="2c434-294">Sütun başlığına boş bir satır ekleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-294">Insert an empty line in the column header.</span></span> |
-
-### <a name="create-a-conditional-spanning-header"></a><span data-ttu-id="2c434-295">Koşullu kapsayıcı üst bilgi oluşturma</span><span class="sxs-lookup"><span data-stu-id="2c434-295">Create a conditional spanning header</span></span>
-
-<span data-ttu-id="2c434-296">Koşullu kapsayıcı üst bilgiler belirli dönem verilerini esas alan birden fazla sütuna yayılabilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-296">Conditional spanning headers can span multiple columns that are based on specific period data.</span></span> <span data-ttu-id="2c434-297">Örneğin, mali yıl için bir bütçe raporunuz varsa ve gelecek ayların öngörülen bütçeleriyle birlikte geçmiş ayların gerçek bütçelerini görüntülemek istiyorsanız rapor başlığını otomatik olarak güncelleştirmek için bir koşullu kapsayıcı üst bilgi kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-297">For example, if you have a budget report for the fiscal year and want to display the actual budgets of past months together with the projected budgets of future months, you can use a conditional spanning header to automatically update the report header.</span></span> <span data-ttu-id="2c434-298">Koşullu kapsayıcı üst bilgi oluşturduğunuzda aşağıdaki durumlara dikkat edin:</span><span class="sxs-lookup"><span data-stu-id="2c434-298">Be aware of the following situations when you create a conditional spanning header:</span></span>
-
-- <span data-ttu-id="2c434-299">Bir başlangıç koşulundan (**Yayılma başlangıcı** alanı) önce eşleşen herhangi bir koşul (**Yayılma bitişi** alanı) yok sayılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-299">Any stop condition (**Spread to** field) that is matched before a start condition (**Spread From** field) is ignored.</span></span> <span data-ttu-id="2c434-300">Örneğin, B sütunu BASE+1 ila BASE olarak tanımlanan yayılma koşuluna sahiptir, BASE C sütununda, BASE+1 ise D sütunundadır. Bu durumda, C sütunundaki durma koşulu yok sayılır ve başlığın yazdırılması D sütununda başlatılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-300">For example, column B has the spread condition defined as BASE+1 to BASE, BASE is in column C, and BASE+1 is in column D. In this case, the stop condition in column C is ignored, and the printing of the header starts at column D.</span></span>
-- <span data-ttu-id="2c434-301">Çakışan sütun başlıkları belirtirseniz bu başlıklar raporda yazdırıldıklarında çakışır.</span><span class="sxs-lookup"><span data-stu-id="2c434-301">If you specify column headers that overlap, they overlap when they are printed on the report.</span></span> <span data-ttu-id="2c434-302">Rapor oluşturulur ancak **Rapor Kuyruğu Durumu** alanında aşağıdaki uyarı görüntülenir: "Esas kullanılan sütun başlıkları diğer sütun başlıklarıyla kesişiyor ve çakışan metinlere neden olabilir."</span><span class="sxs-lookup"><span data-stu-id="2c434-302">The report is generated, but the following warning appears in the **Report Queue Status** field: "Column headers using Base intersect with other column headers and may cause overlapping text."</span></span> <span data-ttu-id="2c434-303">Örneğin, sütun B üzerindeki başlık tanımı B eşittir B'den TEMEL +1'edir ve sütun D üzerindeki başlık tanımı TEMEL+1'den F'yedir. Bu durumda, başlıklar birbirlerinin üstüne yazılır ve okunamaz durumda olurlar.</span><span class="sxs-lookup"><span data-stu-id="2c434-303">For example, the header definition on column B is B to BASE+1, and the header definition on column D is BASE+1 to F. In this case, the headers are printed on top of each other and are unreadable.</span></span> <span data-ttu-id="2c434-304">BASE **Yayılma başlangıcı/Yayılma bitişi** tanımında her kullanıldığında, başlıkların çakışıp çakışmadığını görmek için mutlaka oluşturulan raporu görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-304">Whenever BASE is used in a **Spread from/Spread to** definition, be sure to view the report that is generated, to see whether the headers overlap.</span></span>
-- <span data-ttu-id="2c434-305">Yayılma tanımındaki BASE'i bir Yazdırma (**NP**) sütununda belirtirseniz sütun tanımında belirtilenlerden bağımsız olarak yok sayılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-305">If you specify BASE in the spread definition in a No Print (**NP**) column, it's ignored, regardless of what is defined in the column definition.</span></span> <span data-ttu-id="2c434-306">Temel olarak, bu senaryo bir sütun üstbilgi tanımının oluşturulmamasıyla aynıdır.</span><span class="sxs-lookup"><span data-stu-id="2c434-306">Essentially, this scenario is the same as not creating a column header definition.</span></span>
-- <span data-ttu-id="2c434-307">Koşullu yazdırma sütunları (**P&lt;B,** **P&gt;=B**) için koşullu genişleyen üstbilgiler herhangi bir normal sütun üstbilgi tanımı gibi davranır.</span><span class="sxs-lookup"><span data-stu-id="2c434-307">For conditional printing columns (**P&lt;B**, **P&gt;=B**), conditional spanning headers behave like any regular column header definition.</span></span> <span data-ttu-id="2c434-308">Örneğin, koşul yanlışsa yayılma koşulu için eşleşen sonraki herhangi bir sütun başlığın yazdırılmasını başlatır.</span><span class="sxs-lookup"><span data-stu-id="2c434-308">For example, if the condition is false, any subsequent column matching for the spread condition starts the printing of the header.</span></span>
-
-#### <a name="create-a-conditional-spanning-header"></a><span data-ttu-id="2c434-309">Koşullu kapsayıcı üst bilgi oluşturma</span><span class="sxs-lookup"><span data-stu-id="2c434-309">Create a conditional spanning header</span></span>
-
-1. <span data-ttu-id="2c434-310">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-310">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-311">Bir başlık hücresine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-311">Double-click a header cell.</span></span>
-3. <span data-ttu-id="2c434-312">**Sütun Başlığı** iletişim kutusunda, sütun başlığı metnini girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-312">In the **Column Header** dialog box, enter the column header text.</span></span> <span data-ttu-id="2c434-313">Alternatif olarak **Otomatik Metin Ekle**'ye tıklayın ve bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-313">Alternatively, click **Insert AutoText**, and select an option.</span></span>
-4. <span data-ttu-id="2c434-314">**Biçim seçenekleri** alanında, başlık için bir biçimlendirme stili seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-314">In the **Format options** field, select a formatting style for the header.</span></span>
-5. <span data-ttu-id="2c434-315">Rapor oluşturulurken belirtilen esas dönemle ilgili bir dönem belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-315">Specify a period relative to the base period that is specified when the report is generated.</span></span> <span data-ttu-id="2c434-316">**Yayılma başlangıcı** ve **Yayılma bitişi** alanlarına şu değerlerden birini girin: **BASE**, **BASE-X** veya **BASE+X**. Burada X esas dönemden itibaren dönem sayısıdır.</span><span class="sxs-lookup"><span data-stu-id="2c434-316">In the **Spread from** and **Spread to** fields, enter one of the following values: **BASE**, **BASE-X** or **BASE+X**, where X is the number of periods from the base period.</span></span> <span data-ttu-id="2c434-317">Örneğin, **Yayılma başlangıcı** alanına **BASE** ifadesini girerseniz koşullu kapsayıcı sütun üst bilgisi metni rapor tanımının **Esas dönem** değeri sütun tanımının **Dönem** değerine eşit olduğunda sütun başlığında başlar.</span><span class="sxs-lookup"><span data-stu-id="2c434-317">For example, if you enter **BASE** in the **Spread from** field, the conditional spanning column header text starts in the column header where the report definition's **Base period** value equals the column definition's **Period** value.</span></span> <span data-ttu-id="2c434-318">**Yayılma bitişi** alanında belirtilen sütunda biter.</span><span class="sxs-lookup"><span data-stu-id="2c434-318">It ends in the column that is indicated in the **Spread to** field.</span></span> <span data-ttu-id="2c434-319">Bu nedenle yayılma BASE ila M ise rapor tanımının **Esas dönem** değeri **4**'tür, başlık dönemin **4** olarak ayarlandığı durumlarda sütunda başlar ve M sütununda biter. Başlıklar yalnızca yazdırma sütunlarında durur ve başlar.</span><span class="sxs-lookup"><span data-stu-id="2c434-319">Therefore, if the spread is BASE to M, and the report definition's **Base period** value is **4**, the header starts in the column where the period is set to **4** and ends at column M. Headers stop and start on printing columns only.</span></span>
-6. <span data-ttu-id="2c434-320">**Yaslama**'nın altında, sütun başlığının sola mı, ortaya mı yoksa sağa mı yaslanmış olması gerektiğini belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-320">Under **Justification**, select whether the column header text should be left-justified, center-justified, or right justified.</span></span>
-7. <span data-ttu-id="2c434-321">**Tamam** düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="2c434-321">Click **OK**.</span></span>
-
-#### <a name="example-of-a-conditional-spanning-header"></a><span data-ttu-id="2c434-322">Koşullu kapsayıcı üst bilgi örneği</span><span class="sxs-lookup"><span data-stu-id="2c434-322">Example of a conditional spanning header</span></span>
-
-<span data-ttu-id="2c434-323">Pelin dinamik bir altı aylık tahmin için bir rapor oluşturuyor.</span><span class="sxs-lookup"><span data-stu-id="2c434-323">Phyllis is creating a report for a dynamic six-month forecast.</span></span> <span data-ttu-id="2c434-324">Gerçek verileri içeren sütunların üzerine "Gerçek durum" ifadesinin, bütçe tahminlerini içeren sütunların üzerine ise "Bütçe" ifadesinin yazdırılmasını istiyor.</span><span class="sxs-lookup"><span data-stu-id="2c434-324">She wants the word "Actual" to be printed over the columns that contain actual data, and the word "Budget" to be printed over the columns that contain budget forecasts.</span></span> <span data-ttu-id="2c434-325">Raporun çalıştırıldığı her ay, bir fazla gerçek durum sütunu ve bir az bütçe sütunu vardır.</span><span class="sxs-lookup"><span data-stu-id="2c434-325">Each month that the report is run, there is one more actual column and one less budget column.</span></span> <span data-ttu-id="2c434-326">Pelin başlıkları ayarlamak için sütun tanımını rapor her oluşturulduğunda el ile değiştirebilse de, zamandan ve çabadan tasarruf etmek için rapor her çalıştırıldığında ilgili sütunların üzerinde otomatik olarak başlık oluşturacak koşullu kapsayıcı üst bilgiler oluşturmaya karar veriyor.</span><span class="sxs-lookup"><span data-stu-id="2c434-326">Although Phyllis can modify the column definition manually each time that the report is generated to adjust the headers, to save time and effort, she decides to create conditional spanning headers that will automatically create headers over the appropriate columns each time that the report is run.</span></span> <span data-ttu-id="2c434-327">Pelin Rapor Tasarımcısı'nı açıyor, gezinme bölmesindeki **Sütun Tanımı**'na tıklıyor ve raporun sütun tanımını açıyor.</span><span class="sxs-lookup"><span data-stu-id="2c434-327">Phyllis opens Report Designer, clicks **Column Definition** in the navigation pane, and opens the column definition for the report.</span></span> <span data-ttu-id="2c434-328">Ardından aşağıdaki bilgileri giriyor.</span><span class="sxs-lookup"><span data-stu-id="2c434-328">She then enters the following information.</span></span> <span data-ttu-id="2c434-329">Rapor tanımındaki esas dönem 4'tür.</span><span class="sxs-lookup"><span data-stu-id="2c434-329">The base period in the report definition is 4.</span></span>
-
-
-|                     |  <span data-ttu-id="2c434-330">A</span><span class="sxs-lookup"><span data-stu-id="2c434-330">A</span></span>   | <span data-ttu-id="2c434-331">B</span><span class="sxs-lookup"><span data-stu-id="2c434-331">B</span></span>             | <span data-ttu-id="2c434-332">C</span><span class="sxs-lookup"><span data-stu-id="2c434-332">C</span></span>             | <span data-ttu-id="2c434-333">D</span><span class="sxs-lookup"><span data-stu-id="2c434-333">D</span></span>             | <span data-ttu-id="2c434-334">E</span><span class="sxs-lookup"><span data-stu-id="2c434-334">E</span></span>             | <span data-ttu-id="2c434-335">F</span><span class="sxs-lookup"><span data-stu-id="2c434-335">F</span></span>             | <span data-ttu-id="2c434-336">G</span><span class="sxs-lookup"><span data-stu-id="2c434-336">G</span></span>             | <span data-ttu-id="2c434-337">H</span><span class="sxs-lookup"><span data-stu-id="2c434-337">H</span></span>             | <span data-ttu-id="2c434-338">I</span><span class="sxs-lookup"><span data-stu-id="2c434-338">I</span></span>             | <span data-ttu-id="2c434-339">J</span><span class="sxs-lookup"><span data-stu-id="2c434-339">J</span></span>             | <span data-ttu-id="2c434-340">K</span><span class="sxs-lookup"><span data-stu-id="2c434-340">K</span></span>             | <span data-ttu-id="2c434-341">L</span><span class="sxs-lookup"><span data-stu-id="2c434-341">L</span></span>             | <span data-ttu-id="2c434-342">M</span><span class="sxs-lookup"><span data-stu-id="2c434-342">M</span></span>             |
-|---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| <span data-ttu-id="2c434-343">Başlık 1</span><span class="sxs-lookup"><span data-stu-id="2c434-343">Header 1</span></span>            |      | <span data-ttu-id="2c434-344">Gerçek durum</span><span class="sxs-lookup"><span data-stu-id="2c434-344">Actual</span></span>        | <span data-ttu-id="2c434-345">Bütçe</span><span class="sxs-lookup"><span data-stu-id="2c434-345">Budget</span></span>        |               |               |               |               |               |               |               |               |               |               |
-| <span data-ttu-id="2c434-346">Başlık 2</span><span class="sxs-lookup"><span data-stu-id="2c434-346">Header 2</span></span>            |      | <span data-ttu-id="2c434-347">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-347">@CalMonthLong</span></span> | <span data-ttu-id="2c434-348">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-348">@CalMonthLong</span></span> | <span data-ttu-id="2c434-349">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-349">@CalMonthLong</span></span> | <span data-ttu-id="2c434-350">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-350">@CalMonthLong</span></span> | <span data-ttu-id="2c434-351">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-351">@CalMonthLong</span></span> | <span data-ttu-id="2c434-352">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-352">@CalMonthLong</span></span> | <span data-ttu-id="2c434-353">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-353">@CalMonthLong</span></span> | <span data-ttu-id="2c434-354">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-354">@CalMonthLong</span></span> | <span data-ttu-id="2c434-355">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-355">@CalMonthLong</span></span> | <span data-ttu-id="2c434-356">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-356">@CalMonthLong</span></span> | <span data-ttu-id="2c434-357">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-357">@CalMonthLong</span></span> | <span data-ttu-id="2c434-358">@CalMonthLong</span><span class="sxs-lookup"><span data-stu-id="2c434-358">@CalMonthLong</span></span> |
-| <span data-ttu-id="2c434-359">Başlık 3</span><span class="sxs-lookup"><span data-stu-id="2c434-359">Header 3</span></span>            |      |               |               |               |               |               |               |               |               |               |               |               |               |
-| <span data-ttu-id="2c434-360">Sütun Türü</span><span class="sxs-lookup"><span data-stu-id="2c434-360">Column Type</span></span>         | <span data-ttu-id="2c434-361">DESC</span><span class="sxs-lookup"><span data-stu-id="2c434-361">DESC</span></span> | <span data-ttu-id="2c434-362">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-362">FD</span></span>            | <span data-ttu-id="2c434-363">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-363">FD</span></span>            | <span data-ttu-id="2c434-364">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-364">FD</span></span>            | <span data-ttu-id="2c434-365">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-365">FD</span></span>            | <span data-ttu-id="2c434-366">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-366">FD</span></span>            | <span data-ttu-id="2c434-367">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-367">FD</span></span>            | <span data-ttu-id="2c434-368">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-368">FD</span></span>            | <span data-ttu-id="2c434-369">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-369">FD</span></span>            | <span data-ttu-id="2c434-370">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-370">FD</span></span>            | <span data-ttu-id="2c434-371">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-371">FD</span></span>            | <span data-ttu-id="2c434-372">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-372">FD</span></span>            | <span data-ttu-id="2c434-373">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-373">FD</span></span>            |
-| <span data-ttu-id="2c434-374">Defter Kodu/Öznitelik</span><span class="sxs-lookup"><span data-stu-id="2c434-374">Book Code/Attribute</span></span> |      | <span data-ttu-id="2c434-375">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="2c434-375">ACTUAL</span></span>        | <span data-ttu-id="2c434-376">BUDGET2012</span><span class="sxs-lookup"><span data-stu-id="2c434-376">BUDGET2012</span></span>    | <span data-ttu-id="2c434-377">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="2c434-377">ACTUAL</span></span>        | <span data-ttu-id="2c434-378">BUDGET2012</span><span class="sxs-lookup"><span data-stu-id="2c434-378">BUDGET2012</span></span>    | <span data-ttu-id="2c434-379">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="2c434-379">ACTUAL</span></span>        | <span data-ttu-id="2c434-380">BUDGET2012</span><span class="sxs-lookup"><span data-stu-id="2c434-380">BUDGET2012</span></span>    | <span data-ttu-id="2c434-381">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="2c434-381">ACTUAL</span></span>        | <span data-ttu-id="2c434-382">BUDGET2012</span><span class="sxs-lookup"><span data-stu-id="2c434-382">BUDGET2012</span></span>    | <span data-ttu-id="2c434-383">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="2c434-383">ACTUAL</span></span>        | <span data-ttu-id="2c434-384">BUDGET2012</span><span class="sxs-lookup"><span data-stu-id="2c434-384">BUDGET2012</span></span>    | <span data-ttu-id="2c434-385">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="2c434-385">ACTUAL</span></span>        | <span data-ttu-id="2c434-386">BUDGET2012</span><span class="sxs-lookup"><span data-stu-id="2c434-386">BUDGET2012</span></span>    |
-| <span data-ttu-id="2c434-387">Mali Yıl</span><span class="sxs-lookup"><span data-stu-id="2c434-387">Fiscal Year</span></span>         |      | <span data-ttu-id="2c434-388">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-388">BASE</span></span>          | <span data-ttu-id="2c434-389">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-389">BASE</span></span>          | <span data-ttu-id="2c434-390">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-390">BASE</span></span>          | <span data-ttu-id="2c434-391">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-391">BASE</span></span>          | <span data-ttu-id="2c434-392">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-392">BASE</span></span>          | <span data-ttu-id="2c434-393">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-393">BASE</span></span>          | <span data-ttu-id="2c434-394">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-394">BASE</span></span>          | <span data-ttu-id="2c434-395">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-395">BASE</span></span>          | <span data-ttu-id="2c434-396">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-396">BASE</span></span>          | <span data-ttu-id="2c434-397">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-397">BASE</span></span>          | <span data-ttu-id="2c434-398">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-398">BASE</span></span>          | <span data-ttu-id="2c434-399">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-399">BASE</span></span>          |
-| <span data-ttu-id="2c434-400">Dönem</span><span class="sxs-lookup"><span data-stu-id="2c434-400">Period</span></span>              |      | <span data-ttu-id="2c434-401">1</span><span class="sxs-lookup"><span data-stu-id="2c434-401">1</span></span>             | <span data-ttu-id="2c434-402">1</span><span class="sxs-lookup"><span data-stu-id="2c434-402">1</span></span>             | <span data-ttu-id="2c434-403">2</span><span class="sxs-lookup"><span data-stu-id="2c434-403">2</span></span>             | <span data-ttu-id="2c434-404">2</span><span class="sxs-lookup"><span data-stu-id="2c434-404">2</span></span>             | <span data-ttu-id="2c434-405">3</span><span class="sxs-lookup"><span data-stu-id="2c434-405">3</span></span>             | <span data-ttu-id="2c434-406">3</span><span class="sxs-lookup"><span data-stu-id="2c434-406">3</span></span>             | <span data-ttu-id="2c434-407">4</span><span class="sxs-lookup"><span data-stu-id="2c434-407">4</span></span>             | <span data-ttu-id="2c434-408">4</span><span class="sxs-lookup"><span data-stu-id="2c434-408">4</span></span>             | <span data-ttu-id="2c434-409">5</span><span class="sxs-lookup"><span data-stu-id="2c434-409">5</span></span>             | <span data-ttu-id="2c434-410">5</span><span class="sxs-lookup"><span data-stu-id="2c434-410">5</span></span>             | <span data-ttu-id="2c434-411">6</span><span class="sxs-lookup"><span data-stu-id="2c434-411">6</span></span>             | <span data-ttu-id="2c434-412">6</span><span class="sxs-lookup"><span data-stu-id="2c434-412">6</span></span>             |
-| <span data-ttu-id="2c434-413">Kapsanan Dönemler</span><span class="sxs-lookup"><span data-stu-id="2c434-413">Periods Covered</span></span>     |      | <span data-ttu-id="2c434-414">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-414">PERIODIC</span></span>      | <span data-ttu-id="2c434-415">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-415">PERIODIC</span></span>      | <span data-ttu-id="2c434-416">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-416">PERIODIC</span></span>      | <span data-ttu-id="2c434-417">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-417">PERIODIC</span></span>      | <span data-ttu-id="2c434-418">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-418">PERIODIC</span></span>      | <span data-ttu-id="2c434-419">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-419">PERIODIC</span></span>      | <span data-ttu-id="2c434-420">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-420">PERIODIC</span></span>      | <span data-ttu-id="2c434-421">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-421">PERIODIC</span></span>      | <span data-ttu-id="2c434-422">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-422">PERIODIC</span></span>      | <span data-ttu-id="2c434-423">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-423">PERIODIC</span></span>      | <span data-ttu-id="2c434-424">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-424">PERIODIC</span></span>      | <span data-ttu-id="2c434-425">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-425">PERIODIC</span></span>      |
-| <span data-ttu-id="2c434-426">Sütun Genişliği</span><span class="sxs-lookup"><span data-stu-id="2c434-426">Column Width</span></span>        | <span data-ttu-id="2c434-427">30</span><span class="sxs-lookup"><span data-stu-id="2c434-427">30</span></span>   | <span data-ttu-id="2c434-428">10</span><span class="sxs-lookup"><span data-stu-id="2c434-428">10</span></span>            | <span data-ttu-id="2c434-429">10</span><span class="sxs-lookup"><span data-stu-id="2c434-429">10</span></span>            | <span data-ttu-id="2c434-430">10</span><span class="sxs-lookup"><span data-stu-id="2c434-430">10</span></span>            | <span data-ttu-id="2c434-431">10</span><span class="sxs-lookup"><span data-stu-id="2c434-431">10</span></span>            | <span data-ttu-id="2c434-432">10</span><span class="sxs-lookup"><span data-stu-id="2c434-432">10</span></span>            | <span data-ttu-id="2c434-433">10</span><span class="sxs-lookup"><span data-stu-id="2c434-433">10</span></span>            | <span data-ttu-id="2c434-434">10</span><span class="sxs-lookup"><span data-stu-id="2c434-434">10</span></span>            | <span data-ttu-id="2c434-435">10</span><span class="sxs-lookup"><span data-stu-id="2c434-435">10</span></span>            | <span data-ttu-id="2c434-436">10</span><span class="sxs-lookup"><span data-stu-id="2c434-436">10</span></span>            | <span data-ttu-id="2c434-437">10</span><span class="sxs-lookup"><span data-stu-id="2c434-437">10</span></span>            | <span data-ttu-id="2c434-438">10</span><span class="sxs-lookup"><span data-stu-id="2c434-438">10</span></span>            | <span data-ttu-id="2c434-439">10</span><span class="sxs-lookup"><span data-stu-id="2c434-439">10</span></span>            |
-| <span data-ttu-id="2c434-440">Yazdırma Kontrolü</span><span class="sxs-lookup"><span data-stu-id="2c434-440">Print Control</span></span>       |      | <span data-ttu-id="2c434-441">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="2c434-441">P&lt;=B</span></span>       | <span data-ttu-id="2c434-442">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="2c434-442">P&gt;B</span></span>        | <span data-ttu-id="2c434-443">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="2c434-443">P&lt;=B</span></span>       | <span data-ttu-id="2c434-444">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="2c434-444">P&gt;B</span></span>        | <span data-ttu-id="2c434-445">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="2c434-445">P&lt;=B</span></span>       | <span data-ttu-id="2c434-446">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="2c434-446">P&gt;B</span></span>        | <span data-ttu-id="2c434-447">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="2c434-447">P&lt;=B</span></span>       | <span data-ttu-id="2c434-448">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="2c434-448">P&gt;B</span></span>        | <span data-ttu-id="2c434-449">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="2c434-449">P&lt;=B</span></span>       | <span data-ttu-id="2c434-450">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="2c434-450">P&gt;B</span></span>        | <span data-ttu-id="2c434-451">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="2c434-451">P&lt;=B</span></span>       | <span data-ttu-id="2c434-452">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="2c434-452">P&gt;B</span></span>        |
-
-<span data-ttu-id="2c434-453">Phyllis, **Sütun Üstbilgisi** iletişim kutusunu açmak üzere bir sütun üstbilgi hücresini çift tıklıyor ve buraya aşağıdaki bilgileri giriyor.</span><span class="sxs-lookup"><span data-stu-id="2c434-453">Phyllis double-clicks a column header cell to open the **Column Header** dialog box, where she enters the following information.</span></span>
-
-| <span data-ttu-id="2c434-454">Alan</span><span class="sxs-lookup"><span data-stu-id="2c434-454">Field</span></span>              | <span data-ttu-id="2c434-455">Değer</span><span class="sxs-lookup"><span data-stu-id="2c434-455">Value</span></span>                 |
-|--------------------|-----------------------|
-| <span data-ttu-id="2c434-456">Sütun başlığı metni</span><span class="sxs-lookup"><span data-stu-id="2c434-456">Column header text</span></span> | <span data-ttu-id="2c434-457">Gerçek Durum</span><span class="sxs-lookup"><span data-stu-id="2c434-457">Actual</span></span>                |
-| <span data-ttu-id="2c434-458">Otomatik Metin Ekle</span><span class="sxs-lookup"><span data-stu-id="2c434-458">Insert AutoText</span></span>    | <span data-ttu-id="2c434-459">Seçim yapılmadı.</span><span class="sxs-lookup"><span data-stu-id="2c434-459">No selection is made.</span></span> |
-| <span data-ttu-id="2c434-460">Biçim seçenekleri</span><span class="sxs-lookup"><span data-stu-id="2c434-460">Format options</span></span>     | <span data-ttu-id="2c434-461">Kutu</span><span class="sxs-lookup"><span data-stu-id="2c434-461">Box</span></span>                   |
-| <span data-ttu-id="2c434-462">Yaslama</span><span class="sxs-lookup"><span data-stu-id="2c434-462">Justification</span></span>      | <span data-ttu-id="2c434-463">Seçim yapılmadı.</span><span class="sxs-lookup"><span data-stu-id="2c434-463">No selection is made.</span></span> |
-| <span data-ttu-id="2c434-464">Yayılma başlangıcı</span><span class="sxs-lookup"><span data-stu-id="2c434-464">Spread from</span></span>        | <span data-ttu-id="2c434-465">B</span><span class="sxs-lookup"><span data-stu-id="2c434-465">B</span></span>                     |
-| <span data-ttu-id="2c434-466">Yayılma bitişi</span><span class="sxs-lookup"><span data-stu-id="2c434-466">Spread to</span></span>          | <span data-ttu-id="2c434-467">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-467">BASE</span></span>                  |
-| <span data-ttu-id="2c434-468">Bütçe başlığı</span><span class="sxs-lookup"><span data-stu-id="2c434-468">Budget header</span></span>      | <span data-ttu-id="2c434-469">BASE+1 ila bitiş sütunu</span><span class="sxs-lookup"><span data-stu-id="2c434-469">BASE+1 to end column</span></span>  |
-
-<span data-ttu-id="2c434-470">Pelin bilgileri girmeyi tamamladıktan sonra **Tamam**'a tıklıyor.</span><span class="sxs-lookup"><span data-stu-id="2c434-470">After she has finished entering information, Phyllis clicks **OK**.</span></span> <span data-ttu-id="2c434-471">Ardından aşağıdaki bilgileri girdiği **Sütun Başlığı** iletişim kutusunu açmak için C sütunundaki sütun başlığı hücresine çift tıklıyor.</span><span class="sxs-lookup"><span data-stu-id="2c434-471">She then double-clicks the column header cell in column C to open the **Column Header** dialog box, where she enters the following information.</span></span>
-
-| <span data-ttu-id="2c434-472">Alan</span><span class="sxs-lookup"><span data-stu-id="2c434-472">Field</span></span>              | <span data-ttu-id="2c434-473">Değer</span><span class="sxs-lookup"><span data-stu-id="2c434-473">Value</span></span>                 |
-|--------------------|-----------------------|
-| <span data-ttu-id="2c434-474">Sütun başlığı metni</span><span class="sxs-lookup"><span data-stu-id="2c434-474">Column header text</span></span> | <span data-ttu-id="2c434-475">Bütçe</span><span class="sxs-lookup"><span data-stu-id="2c434-475">Budget</span></span>                |
-| <span data-ttu-id="2c434-476">Otomatik Metin Ekle</span><span class="sxs-lookup"><span data-stu-id="2c434-476">Insert AutoText</span></span>    | <span data-ttu-id="2c434-477">Seçim yapılmadı.</span><span class="sxs-lookup"><span data-stu-id="2c434-477">No selection is made.</span></span> |
-| <span data-ttu-id="2c434-478">Biçim seçenekleri</span><span class="sxs-lookup"><span data-stu-id="2c434-478">Format options</span></span>     | <span data-ttu-id="2c434-479">Kutu</span><span class="sxs-lookup"><span data-stu-id="2c434-479">Box</span></span>                   |
-| <span data-ttu-id="2c434-480">Yaslama</span><span class="sxs-lookup"><span data-stu-id="2c434-480">Justification</span></span>      | <span data-ttu-id="2c434-481">Seçim yapılmadı.</span><span class="sxs-lookup"><span data-stu-id="2c434-481">No selection is made.</span></span> |
-| <span data-ttu-id="2c434-482">Yayılma başlangıcı</span><span class="sxs-lookup"><span data-stu-id="2c434-482">Spread from</span></span>        | <span data-ttu-id="2c434-483">C</span><span class="sxs-lookup"><span data-stu-id="2c434-483">C</span></span>                     |
-| <span data-ttu-id="2c434-484">Yayılma bitişi</span><span class="sxs-lookup"><span data-stu-id="2c434-484">Spread to</span></span>          | <span data-ttu-id="2c434-485">BASE+2</span><span class="sxs-lookup"><span data-stu-id="2c434-485">BASE+2</span></span>                |
-
-<span data-ttu-id="2c434-486">Artık bu rapor her oluşturulduğunda, gerçek verileri içeren sütunların üzerine "Gerçek durum" ifadesi, bütçe tahminlerini içeren sütunların üzerine ise "Bütçe" ifadesi yazdırılacaktır.</span><span class="sxs-lookup"><span data-stu-id="2c434-486">Now, every time that this report is generated, the word "Actual" will be printed over the columns that contain actual data, and the word "Budget" will be printed over the columns that contain budget forecasts.</span></span> <span data-ttu-id="2c434-487">Ayrıca, her ay sütunların sayısı ayarlanacaktır.</span><span class="sxs-lookup"><span data-stu-id="2c434-487">Additionally, the number of columns will be adjusted each month.</span></span>
-
-## <a name="apply-column-justification"></a><span data-ttu-id="2c434-488">Sütun yaslama uygulama</span><span class="sxs-lookup"><span data-stu-id="2c434-488">Apply column justification</span></span>
-<span data-ttu-id="2c434-489">Bir rapordaki açıklama sütununa yaslama biçimlendirmesi uygulamak için **Yaslama** hücresi kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-489">The **Justification** cell is used to apply justification formatting to a description column in a report.</span></span> <span data-ttu-id="2c434-490">Bu seçenek gerçek değerleri değil yalnızca sütun açıklamalarını etkiler.</span><span class="sxs-lookup"><span data-stu-id="2c434-490">This option affects only the column descriptions, not the actual values.</span></span>
-
-1. <span data-ttu-id="2c434-491">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-491">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-492">**Yaslama** hücresine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-492">Double-click the **Justification** cell.</span></span>
-3. <span data-ttu-id="2c434-493">Listeden aşağıdaki değerlerden birini seçin:</span><span class="sxs-lookup"><span data-stu-id="2c434-493">Select one of the following values in the list:</span></span>
-
-    - <span data-ttu-id="2c434-494">**Yok**: Yaslama uygulanmaz.</span><span class="sxs-lookup"><span data-stu-id="2c434-494">**None** – No justification is applied.</span></span>
-    - <span data-ttu-id="2c434-495">**Sol**: Sütun açıklamalarını sola hizalayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-495">**Left** – Left-align the column descriptions.</span></span>
-    - <span data-ttu-id="2c434-496">**Orta**: Sütun açıklamalarını ortaya hizalayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-496">**Center** – Center-align the column descriptions.</span></span>
-    - <span data-ttu-id="2c434-497">**Sağ**: Sütun açıklamalarını sağa hizalayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-497">**Right** – Right-align the column descriptions.</span></span>
-
-## <a name="add-special-formatting-options"></a><span data-ttu-id="2c434-498">Özel biçimlendirme seçenekleri ekleme</span><span class="sxs-lookup"><span data-stu-id="2c434-498">Add special formatting options</span></span>
-<span data-ttu-id="2c434-499">Sütun tanımında, biçimlendirme sütunu ayrıntı satırları seçilen sütunlara özel biçimlendirme uygular.</span><span class="sxs-lookup"><span data-stu-id="2c434-499">In the column definition, the formatting column detail rows apply special formatting to selected columns.</span></span> <span data-ttu-id="2c434-500">Bazı **Yazdırma Denetimi** seçenekleri ve **Sütun Kısıtlamaları** seçenekleri **FD** sütunlarına özel olsa da seçeneklerin çoğu tüm sütun türleri için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="2c434-500">Although some of the **Print Control** options and **Column Restrictions** options are specific to **FD** columns, most of the options apply to all column types.</span></span> <span data-ttu-id="2c434-501">Sütun tanımında belirtilen biçimlendirme rapor tanımında belirtilen biçimlendirmeyi geçersiz kılar.</span><span class="sxs-lookup"><span data-stu-id="2c434-501">The formatting that is specified in the column definition overrides the formatting that is specified in the report definition.</span></span> <span data-ttu-id="2c434-502">Ancak, satır tanımında belirtilen biçimlendirme sütun tanımında belirtilen biçimlendirmeyi geçersiz kılar.</span><span class="sxs-lookup"><span data-stu-id="2c434-502">However, the formatting that is specified in the row definition overrides the formatting that is specified in the column definition.</span></span> <span data-ttu-id="2c434-503">Aşağıdaki satırlar biçimlendirme satırları olarak değerlendirilir:</span><span class="sxs-lookup"><span data-stu-id="2c434-503">The following rows are considered formatting rows:</span></span>
-
-- <span data-ttu-id="2c434-504">Sütun Genişliği</span><span class="sxs-lookup"><span data-stu-id="2c434-504">Column Width</span></span>
-- <span data-ttu-id="2c434-505">Sütundan Önceki Fazladan Boşluklar</span><span class="sxs-lookup"><span data-stu-id="2c434-505">Extra Spaces Before Column</span></span>
-- <span data-ttu-id="2c434-506">Biçim/Para Birimi Geçersiz Kılma</span><span class="sxs-lookup"><span data-stu-id="2c434-506">Format/Currency Override</span></span>
-- <span data-ttu-id="2c434-507">Yazdırma Denetimi</span><span class="sxs-lookup"><span data-stu-id="2c434-507">Print Control</span></span>
-
-### <a name="changing-the-column-width"></a><span data-ttu-id="2c434-508">Sütun genişliğini değiştirme</span><span class="sxs-lookup"><span data-stu-id="2c434-508">Changing the column width</span></span>
-
-<span data-ttu-id="2c434-509">**Sütun Genişliği** hücresi yazdırılan raporda bu sütunun genişliği için kullanılacak karakter sayısını belirtir.</span><span class="sxs-lookup"><span data-stu-id="2c434-509">The **Column Width** cell specifies the number of characters to use for the width of this column on the printed report.</span></span> <span data-ttu-id="2c434-510">Sütun genişliği tutar (**CALC**, **WKS** veya **FD** türü sütunlar), açıklama (**DESC** türü sütunlar) veya dolgu (**FILL** türü sütunlar) içeren sütunlar için önemlidir.</span><span class="sxs-lookup"><span data-stu-id="2c434-510">Column width is important for columns that contain amounts (columns of the **CALC**, **WKS**, or **FD** type), descriptions (columns of the **DESC** type), or fill (columns of the **FILL** type).</span></span> <span data-ttu-id="2c434-511">Varsayılan olarak **Otomatik Sığdır** seçeneği seçilidir, böylece her sütunun genişliği otomatik olarak içeriklere uyacak şekilde ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="2c434-511">By default, the **AutoFit** option is selected, so that the width of each column is automatically adjusted to fit the contents.</span></span>
-
-#### <a name="specify-the-width-of-a-column-on-a-report"></a><span data-ttu-id="2c434-512">Bir rapordaki bir sütunun genişliğini belirtme</span><span class="sxs-lookup"><span data-stu-id="2c434-512">Specify the width of a column on a report</span></span>
-
-1. <span data-ttu-id="2c434-513">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-513">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-514">**Sütun Genişliği** sütunun genişliği için boşluk sayını girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-514">In the **Column Width** cell, enter the number of spaces for the width of the column.</span></span> <span data-ttu-id="2c434-515">Herhangi bir sütunun maksimum genişliği 255 karakterdir (Bu rakama kuruşlar, virgüller ve parantezler dahildir).</span><span class="sxs-lookup"><span data-stu-id="2c434-515">The maximum width of any column is 255 characters (this number includes cents, commas, and parentheses).</span></span> <span data-ttu-id="2c434-516">Alternatif olarak, sütun için hücre içeriğine göre uygun genişliği seçmek üzere rapor tasarımcısını etkinleştirmek için **Sütun Genişliği** hücresini çift tıklayın ve ardından **Otomatik Sığdırma** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-516">Alternatively, to enable report designer to select the appropriate width for the column, based on the cell content, double-click the **Column Width** cell, and then click **AutoFit**.</span></span>
-
-### <a name="add-space-between-columns"></a><span data-ttu-id="2c434-517">Sütunların arasına boşluk ekleme</span><span class="sxs-lookup"><span data-stu-id="2c434-517">Add space between columns</span></span>
-
-<span data-ttu-id="2c434-518">**Sütundan Önceki Fazladan Boşluklar** sütun tanımındaki bir sütun ile bitişik sütunlar arasındaki ayırıcının genişliğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2c434-518">The **Extra Spaces Before Column** cell specifies the width of the separator between one column and adjacent columns in the column definition.</span></span> <span data-ttu-id="2c434-519">**Sütundan Önceki Fazladan Boşluklar** ayarı sütun için tüm sütun ayrıntısı satırlarını etkiler, ancak sütun başlığı satırlarını etkilemez.</span><span class="sxs-lookup"><span data-stu-id="2c434-519">The **Extra Spaces Before Column** setting affects all column detail rows for the column, but not the column header rows.</span></span> <span data-ttu-id="2c434-520">Sütun gruplarını ayırmak veya açıklamadan önce birkaç boşluk eklemek için bu seçeneği kullanın, böylece açıklama sütunu rapordaki sola hizalanmış başlıklardan itibaren girintilendirilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-520">Use this option to separate groups of columns or to add a few spaces before the description, so that the description column is indented from the left-aligned titles on the report.</span></span> <span data-ttu-id="2c434-521">Her sütun arasındaki varsayılan boşluk sayısı ikidir.</span><span class="sxs-lookup"><span data-stu-id="2c434-521">The default number of spaces between each column is two.</span></span> <span data-ttu-id="2c434-522">Bu ayarı rapor tanımındaki **Ayarlar** sekmesinde değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-522">You can change this setting on the **Settings** tab in the report definition.</span></span>
-
-#### <a name="specify-the-space-between-columns"></a><span data-ttu-id="2c434-523">Sütunların arasındaki boşluğu belirtme</span><span class="sxs-lookup"><span data-stu-id="2c434-523">Specify the space between columns</span></span>
-
-1. <span data-ttu-id="2c434-524">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-524">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-525">**Sütundan Önceki Fazladan Boşluklar** hücresine sütunlar arasına girilecek boşluk sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-525">In the **Extra Spaces Before Column** cell, enter the number of spaces to insert between columns.</span></span>
-
-### <a name="specify-a-format-currency-override"></a><span data-ttu-id="2c434-526">Bir biçim para birimi geçersiz kılma belirleyin</span><span class="sxs-lookup"><span data-stu-id="2c434-526">Specify a format currency override</span></span>
-
-<span data-ttu-id="2c434-527">**Biçim/Para Birimi Geçersiz Kılma** hücresi sütundaki ondalık, para birimi ve yüzde tutarlarının biçimlendirmesini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2c434-527">The **Format/Currency Override** cell specifies the formatting of the decimal, currency, and percentage amounts in the column.</span></span> <span data-ttu-id="2c434-528">Bu biçimlendirme rapor tanımında veya sistem varsayılanlarında belirtilen her türlü biçimlendirmeyi geçersiz kılar.</span><span class="sxs-lookup"><span data-stu-id="2c434-528">This formatting overrides any formatting that is specified in the report definition or system defaults.</span></span>
-
-#### <a name="assign-a-format-currency-override-to-a-report-column"></a><span data-ttu-id="2c434-529">Bir rapor sütununa biçim para birimi geçersiz kılma işlemi atama</span><span class="sxs-lookup"><span data-stu-id="2c434-529">Assign a format currency override to a report column</span></span>
-
-1. <span data-ttu-id="2c434-530">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-530">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-531">Bir tutar sütunundaki bir **Biçim/Para Birimi Geçersiz Kalma** hücresine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-531">Double-click a **Format/Currency Override** cell in an amount column.</span></span>
-3. <span data-ttu-id="2c434-532">**Biçim Geçersiz Kılma** iletişim kutusunda, biçimlendirme seçeneklerini seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-532">In the **Format Override** dialog box, select formatting options.</span></span>
-
-### <a name="add-a-print-control-code"></a><span data-ttu-id="2c434-533">Yazdırma denetimi kodu ekleme</span><span class="sxs-lookup"><span data-stu-id="2c434-533">Add a print control code</span></span>
-
-<span data-ttu-id="2c434-534">**Yazdırma Denetimi** hücresi bir sütunun görüntüleme veya yazdırma özelliklerini ayarlayan kodlar içerebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-534">The **Print Control** cell can contain codes that adjust the display or the printing characteristics of a column.</span></span> <span data-ttu-id="2c434-535">İki tür yazdırma denetimi kodu vardır: normal yazdırma denetimi kodları ve koşullu yazdırma kontrol kodları.</span><span class="sxs-lookup"><span data-stu-id="2c434-535">There are two types of print control codes: regular print control codes and conditional print control codes.</span></span>
-
-#### <a name="regular-print-control-codes"></a><span data-ttu-id="2c434-536">Normal yazdırma denetimi kodları</span><span class="sxs-lookup"><span data-stu-id="2c434-536">Regular print control codes</span></span>
-
-| <span data-ttu-id="2c434-537">Yazdırma denetimi kodu</span><span class="sxs-lookup"><span data-stu-id="2c434-537">Print control code</span></span> | <span data-ttu-id="2c434-538">Çeviri</span><span class="sxs-lookup"><span data-stu-id="2c434-538">Translation</span></span>                                     | <span data-ttu-id="2c434-539">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2c434-539">Description</span></span> |
-|--------------------|-------------------------------------------------|-------------|
-| <span data-ttu-id="2c434-540">NP</span><span class="sxs-lookup"><span data-stu-id="2c434-540">NP</span></span>                 | <span data-ttu-id="2c434-541">Yazdırılmayan</span><span class="sxs-lookup"><span data-stu-id="2c434-541">Nonprinting</span></span>                                     | <span data-ttu-id="2c434-542">Yazdırılan rapordaki ve hesaplamalardaki tutarları bu sütunda hariç tutun.</span><span class="sxs-lookup"><span data-stu-id="2c434-542">Exclude the amounts in this column from the report that is printed and from calculations.</span></span> <span data-ttu-id="2c434-543">Bir hesaplamaya yazdırılmayan bir sütun eklemek için, doğrudan hesaplama formülündeki sütuna bakın.</span><span class="sxs-lookup"><span data-stu-id="2c434-543">To include a non-printing column in a calculation, refer to the column directly in the calculation formula.</span></span> <span data-ttu-id="2c434-544">Örneğin, şu hesaplamaya yazdırılmayan C sütunu dahil edilmiştir: **B+C+D**.</span><span class="sxs-lookup"><span data-stu-id="2c434-544">For example, the non-printing column C is included in the following calculation: **B+C+D**.</span></span> <span data-ttu-id="2c434-545">Ancak, şu hesaplamaya yazdırılmayan C sütunu dahil edilmemiştir: **B:D**.</span><span class="sxs-lookup"><span data-stu-id="2c434-545">However, the non-printing column C isn't included in the following calculation: **B:D**.</span></span> |
-| <span data-ttu-id="2c434-546">XCR</span><span class="sxs-lookup"><span data-stu-id="2c434-546">XCR</span></span>                | <span data-ttu-id="2c434-547">Normal satır bakiyesi alacaksa işareti değiştir</span><span class="sxs-lookup"><span data-stu-id="2c434-547">Change sign if typical balance of row is credit</span></span> | <span data-ttu-id="2c434-548">Her türlü istenmeyen varyansın (gelir açığı veya gider aşımı gibi) her zaman negatif olduğu durumlarda bir bütçe veya karşılaştırma raporu oluşturun.</span><span class="sxs-lookup"><span data-stu-id="2c434-548">Create a budget or comparative report where any unfavorable variance (such as a revenue shortfall or an expense overrun) is always negative.</span></span> <span data-ttu-id="2c434-549">Belirli bir satırın normal bakiyesi alacaksa (satır tanımının **Normal Bakiye** sütununda **C** ile tanımlanan) sütun tutarının işaretini ters çevirmek için bu kodu bir **CALC** sütununa uygulayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-549">Apply this code to a **CALC** column to reverse the sign of the column amount if the typical balance of a given row is a credit (as identified by a **C** in the **Normal Balance** column of the row definition).</span></span><blockquote>[!NOTE] <span data-ttu-id="2c434-550">Normalde bir alacak bakiyesi içeren <strong>TOT</strong> satırları ile </strong>CAL</strong> satırları için satır tanımındaki <strong>Normal Bakiye</strong> sütununa mutlaka bir <strong>C</strong> girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-550">For <strong>TOT</strong> rows and </strong>CAL</strong> rows that typically carry a credit balance, be sure to enter a <strong>C</strong> in the <strong>Normal Balance</strong> column in the row definition.</span></span></blockquote> |
-| <span data-ttu-id="2c434-551">X0</span><span class="sxs-lookup"><span data-stu-id="2c434-551">X0</span></span>                 | <span data-ttu-id="2c434-552">Tümü sıfırsa veya boşsa sütunu gizle</span><span class="sxs-lookup"><span data-stu-id="2c434-552">Suppress column if all zeros or blanks</span></span>          | <span data-ttu-id="2c434-553">Bir **FD** sütununu bu sütundaki tüm hücreler boşsa veya sıfır içeriyorsa rapordan çıkarın.</span><span class="sxs-lookup"><span data-stu-id="2c434-553">Exclude an **FD** column from the report if all cells in that column are either empty or contain zeros.</span></span> |
-| <span data-ttu-id="2c434-554">SR</span><span class="sxs-lookup"><span data-stu-id="2c434-554">SR</span></span>                 | <span data-ttu-id="2c434-555">Yuvarlamayı gizle</span><span class="sxs-lookup"><span data-stu-id="2c434-555">Suppress rounding</span></span>                               | <span data-ttu-id="2c434-556">Bu sütundaki tutarların yuvarlanmasını engelleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-556">Prevent the amounts in this column from being rounded.</span></span> |
-| <span data-ttu-id="2c434-557">XR</span><span class="sxs-lookup"><span data-stu-id="2c434-557">XR</span></span>                 | <span data-ttu-id="2c434-558">Toplamayı gizle</span><span class="sxs-lookup"><span data-stu-id="2c434-558">Suppress rollup</span></span>                                 | <span data-ttu-id="2c434-559">Bir toplamayı gizleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-559">Suppress a rollup.</span></span> <span data-ttu-id="2c434-560">Raporda bir raporlama ağacı kullanılıyorsa bu sütundaki tutarlar sonraki üst düğümlerde toplanmaz.</span><span class="sxs-lookup"><span data-stu-id="2c434-560">If the report uses a reporting tree, the amounts in this column aren't rolled up into subsequent parent nodes.</span></span> |
-| <span data-ttu-id="2c434-561">RP</span><span class="sxs-lookup"><span data-stu-id="2c434-561">RP</span></span>                 | <span data-ttu-id="2c434-562">Sütunu her sayfada yinele</span><span class="sxs-lookup"><span data-stu-id="2c434-562">Repeat column on each page</span></span>                      | <span data-ttu-id="2c434-563">Belirtilen bir sütunu bir raporun her sayfasında tekrarlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-563">Repeat a specified column on each page of a report.</span></span> <span data-ttu-id="2c434-564">Örneğin, her sayfadaki satır kodlarını alan **ROW** türü bir sütun eklemek için **RP** yazdırma denetimi kodunu kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-564">For example, you can use the **RP** print control code to include a column of the **ROW** type that pulls in row codes on every page.</span></span> |
-| <span data-ttu-id="2c434-565">WT</span><span class="sxs-lookup"><span data-stu-id="2c434-565">WT</span></span>                 |  <span data-ttu-id="2c434-566">Metni kaydır</span><span class="sxs-lookup"><span data-stu-id="2c434-566">Wrap text</span></span>                                      |  <span data-ttu-id="2c434-567">Bir sütundaki metin boşluğa sığmayacak kadar uzunsa tüm metni sütunda tutmak için metni kaydırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-567">If the text in a column is too long to fit the space, wrap the text to keep all the text in the column.</span></span> |
-
-#### <a name="conditional-print-control-codes"></a><span data-ttu-id="2c434-568">Koşullu yazdırma kontrol kodları</span><span class="sxs-lookup"><span data-stu-id="2c434-568">Conditional print control codes</span></span>
-
-| <span data-ttu-id="2c434-569">Koşullu yazdırma kontrol kodu</span><span class="sxs-lookup"><span data-stu-id="2c434-569">Conditional print control code</span></span> | <span data-ttu-id="2c434-570">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2c434-570">Description</span></span>                                                                             |
-|--------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="2c434-571">(yok)</span><span class="sxs-lookup"><span data-stu-id="2c434-571">(none)</span></span>                         | <span data-ttu-id="2c434-572">Koşullu yazdırma seçimini temizler.</span><span class="sxs-lookup"><span data-stu-id="2c434-572">Clear the conditional print selection.</span></span>                                                  |
-| <span data-ttu-id="2c434-573">P&lt;B</span><span class="sxs-lookup"><span data-stu-id="2c434-573">P&lt;B</span></span>                         | <span data-ttu-id="2c434-574">Belirtilen sütun sadece dönem, esas dönemden kısa ise görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-574">Display a specified column only if the period is less than the base period.</span></span>             |
-| <span data-ttu-id="2c434-575">P&gt;B</span><span class="sxs-lookup"><span data-stu-id="2c434-575">P&gt;B</span></span>                         | <span data-ttu-id="2c434-576">Belirtilen sütun sadece dönem, esas dönemden uzun ise görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-576">Display a specified column only if the period is more than the base period.</span></span>             |
-| <span data-ttu-id="2c434-577">P=B</span><span class="sxs-lookup"><span data-stu-id="2c434-577">P=B</span></span>                            | <span data-ttu-id="2c434-578">Belirtilen sütun sadece dönem, esas döneme eşit ise görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-578">Display a specified column only if the period is equal to the base period.</span></span>              |
-| <span data-ttu-id="2c434-579">P&lt;=B</span><span class="sxs-lookup"><span data-stu-id="2c434-579">P&lt;=B</span></span>                        | <span data-ttu-id="2c434-580">Belirtilen sütun sadece dönem, esas döneme eşit veya daha kısa ise görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-580">Display a specified column only if the period is less than or equal to the base period.</span></span> |
-| <span data-ttu-id="2c434-581">P&gt;=B</span><span class="sxs-lookup"><span data-stu-id="2c434-581">P&gt;=B</span></span>                        | <span data-ttu-id="2c434-582">Belirtilen sütun sadece dönem, esas döneme eşit veya daha uzun ise görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-582">Display a specified column only if the period is more than or equal to the base period.</span></span> |
-
-#### <a name="add-print-control-codes-to-a-report-column"></a><span data-ttu-id="2c434-583">Bir rapor sütununa yazdırma denetimi kodları ekleme</span><span class="sxs-lookup"><span data-stu-id="2c434-583">Add print control codes to a report column</span></span>
-
-1. <span data-ttu-id="2c434-584">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-584">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-585">**Yazdırma Denetimi** hücresine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-585">Double-click the **Print Control** cell.</span></span>
-3. <span data-ttu-id="2c434-586">**Yazdırma Denetimi** iletişim kutusundaki **Yazdırma denetimi seçeneklerini seç** listesinden bir kod seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-586">In the **Print Control** dialog box, select a code in the **Select print control options** list.</span></span> <span data-ttu-id="2c434-587">Birden fazla kod seçmek için, kodları seçerken Ctrl tuşunu basılı tutun.</span><span class="sxs-lookup"><span data-stu-id="2c434-587">To select more than one code, hold down the Ctrl key while you select the codes.</span></span>
-4. <span data-ttu-id="2c434-588">**Koşullu yazdırma seçenekleri** alanında bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-588">Select an option in the **Conditional print options** field.</span></span> <span data-ttu-id="2c434-589">Varsayılan olarak, **(yok)** seçilidir.</span><span class="sxs-lookup"><span data-stu-id="2c434-589">By default, **(none)** is selected.</span></span> <span data-ttu-id="2c434-590">Aynı anda sadece bir koşullu yazdırma kodu seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-590">You can select only one conditional print code at a time.</span></span>
-5. <span data-ttu-id="2c434-591">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="2c434-591">Click **OK**.</span></span>
-
-> [!TIP]
-> <span data-ttu-id="2c434-592">Ayrıca, yazdırma kontrol kodlarını doğrudan **Yazdırma Kontrol** hücresine de girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-592">You can also enter the print codes directly in the **Print Control** cell.</span></span> <span data-ttu-id="2c434-593">Birden fazla yazdırma denetimi kodunu virgülle ayırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-593">Separate multiple print control codes with a comma.</span></span>
-
-## <a name="column-types"></a><span data-ttu-id="2c434-594">Sütun türleri</span><span class="sxs-lookup"><span data-stu-id="2c434-594">Column types</span></span>
-<span data-ttu-id="2c434-595">Bir rapordaki her sütunun içerdiği bilgi türü, sütun tanımındaki **Sütun Türü** satırındaki değerle belirtilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-595">The type of information that each column on a report includes is specified by the value in the **Column Type** row in the column definition.</span></span> <span data-ttu-id="2c434-596">Her sütun tanımı en az bir açıklama (**DESC**) sütunu ve bir tutar (**FD**, **WKS** veya **CALC**) sütunu içermelidir.</span><span class="sxs-lookup"><span data-stu-id="2c434-596">Each column definition must contain at least one description (**DESC**) column and one amount (**FD**, **WKS**, or **CALC**) column.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="2c434-597">Sütun türü kodları tüm muhasebe sistemlerinde geçerli değildir.</span><span class="sxs-lookup"><span data-stu-id="2c434-597">The column type codes don't apply to all accounting systems.</span></span> <span data-ttu-id="2c434-598">Muhasebe sisteminiz için geçerli olmayan bir tür seçerseniz söz konusu sütun raporda boş olur.</span><span class="sxs-lookup"><span data-stu-id="2c434-598">If you select a type that isn't valid for your accounting system, that column is blank on the report.</span></span>
-
-### <a name="specify-a-column-type"></a><span data-ttu-id="2c434-599">Sütun türü belirtme</span><span class="sxs-lookup"><span data-stu-id="2c434-599">Specify a column type</span></span>
-
-1. <span data-ttu-id="2c434-600">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-600">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-601">İlgili sütunda, **Sütun Türü** satırındaki bir hücreye çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-601">In the appropriate column, double-click a cell in the **Column Type** row.</span></span>
-3. <span data-ttu-id="2c434-602">Listeden bir sütun türü seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-602">Select a column type in the list.</span></span> <span data-ttu-id="2c434-603">Aşağıdaki tabloda çeşitli sütun türleri açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="2c434-603">The following table describes the various column types.</span></span>
-
-    <table>
-    <thead>
-    <tr>
-    <th><span data-ttu-id="2c434-604">Sütun türü kodu</span><span class="sxs-lookup"><span data-stu-id="2c434-604">Column type code</span></span></th>
-    <th><span data-ttu-id="2c434-605">Tanım</span><span class="sxs-lookup"><span data-stu-id="2c434-605">Description</span></span></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td><span data-ttu-id="2c434-606">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-606">FD</span></span></td>
-    <td><span data-ttu-id="2c434-607">Satır tanımında bir <strong>Finansal Boyutlara Bağlantı</strong> kullandığınızda finansal verileri görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-607">Display financial data when you use a <strong>Link to Financial Dimensions</strong> column in the row definition.</span></span> <span data-ttu-id="2c434-608"><strong>FD</strong> sütun türünü seçtiğinizde, aşağıdaki satırlar için varsayılan ayarlar otomatik olarak belirtilir:</span><span class="sxs-lookup"><span data-stu-id="2c434-608">When you select the <strong>FD</strong> column type, default settings are automatically specified for the following rows:</span></span> <ul>
-    <li><span data-ttu-id="2c434-609"><strong>Defter Kodu/Öznitelik Kategorisi:</strong> ACTUAL</span><span class="sxs-lookup"><span data-stu-id="2c434-609"><strong>Book Code/Attribute Category:</strong> ACTUAL</span></span></li>
-    <li><span data-ttu-id="2c434-610"><strong>Defter Kodu/Öznitelik Kategorisi:</strong> ACTUAL</span><span class="sxs-lookup"><span data-stu-id="2c434-610"><strong>Book Code/Attribute Category:</strong> ACTUAL</span></span></li>
-    <li><span data-ttu-id="2c434-611"><strong>Mali Yıl:</strong> BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-611"><strong>Fiscal Year:</strong> BASE</span></span></li>
-    <li><span data-ttu-id="2c434-612"><strong>Dönem:</strong> BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-612"><strong>Period:</strong> BASE</span></span></li>
-    <li><span data-ttu-id="2c434-613"><strong>Kapsanan Dönemler:</strong> PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-613"><strong>Periods Covered:</strong> PERIODIC</span></span></li>
-    <li><span data-ttu-id="2c434-614"><strong>Sütun Genişliği:</strong> 14</span><span class="sxs-lookup"><span data-stu-id="2c434-614"><strong>Column Width:</strong> 14</span></span></li>
-    </ul>
-<span data-ttu-id="2c434-615">Bu varsayılan ayarları değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-615">You can change these default settings.</span></span></td>
-    </tr>
-    <tr>
-    <td><span data-ttu-id="2c434-616">CALC</span><span class="sxs-lookup"><span data-stu-id="2c434-616">CALC</span></span></td>
-    <td><span data-ttu-id="2c434-617"><strong>Formül</strong> hücresinde belirtilen basit veya karmaşık bir hesaplamanın sonucunu gösterir.</span><span class="sxs-lookup"><span data-stu-id="2c434-617">Display the result of a simple or complex calculation that is specified in the <strong>Formula</strong> cell.</span></span> <span data-ttu-id="2c434-618">Daha fazla bilgi için bkz. <a href="advanced-formatting-options-financial-reporting.md">Finansal raporlamadaki Gelişmiş biçimlendirme seçenekleri</a>.</span><span class="sxs-lookup"><span data-stu-id="2c434-618">For more information, see <a href="advanced-formatting-options-financial-reporting.md">Advanced formatting options in financial reporting</a>.</span></span></td>
-    </tr>
-    <tr>
-    <td><span data-ttu-id="2c434-619">DESC</span><span class="sxs-lookup"><span data-stu-id="2c434-619">DESC</span></span></td>
-    <td><span data-ttu-id="2c434-620">Satır tanımında satır açıklamasını gösterir.</span><span class="sxs-lookup"><span data-stu-id="2c434-620">Display the row description from the row definition.</span></span> <span data-ttu-id="2c434-621">Açıklama sütunu genellikle rapordaki ilk sütun olduğu halde, herhangi bir konumda olabilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-621">Although the description column is often the first column on the report, it can be in any position.</span></span></td>
-    </tr>
-    <tr>
-    <td><span data-ttu-id="2c434-622">ROW</span><span class="sxs-lookup"><span data-stu-id="2c434-622">ROW</span></span></td>
-    <td><span data-ttu-id="2c434-623">Satır tanımındaki <strong>Satır Kod</strong> sütunundaki mali satırlar için ayrı satır kodlarını gösterir.</span><span class="sxs-lookup"><span data-stu-id="2c434-623">Display the individual row codes for financial rows from the <strong>Row Code</strong> column in the row definition.</span></span> <span data-ttu-id="2c434-624">Daha fazla bilgi için bkz. <a href="row-definitions-financial-reporting.md">Finansal raporlamadaki satır tanımları</a>.</span><span class="sxs-lookup"><span data-stu-id="2c434-624">For more information, see <a href="row-definitions-financial-reporting.md">Row definitions in financial reporting</a>.</span></span></td>
-    </tr>
-    <tr>
-    <td><span data-ttu-id="2c434-625">ACCT (Hesap kodları)</span><span class="sxs-lookup"><span data-stu-id="2c434-625">ACCT (Account codes)</span></span></td>
-    <td><span data-ttu-id="2c434-626">Her bir satıra uygulanan mali veri segment değerlerini veya boyut değerlerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="2c434-626">Display the financial data segment values or dimension values that apply to each row.</span></span> <span data-ttu-id="2c434-627">Hesap ve hareket ayrıntısı raporları için, tamamen uygun bir hesap yazdırılır (örneğin, <strong>110140-070-0101</strong>).</span><span class="sxs-lookup"><span data-stu-id="2c434-627">For account and transaction detail reports, the fully qualified account is printed (for example, <strong>110140-070-0101</strong>).</span></span> <span data-ttu-id="2c434-628">İlişkili bir satır tanımındaki <strong>Mali Boyutlarla İlişkilendir</strong> sütununda aralıklar belirtildiyse aralık köşeli parantez içine alınır ve tek bir değer olarak işlem görür (örneğin, <strong>[110140:110700]-070-[0101:0200]</strong>).</span><span class="sxs-lookup"><span data-stu-id="2c434-628">If ranges have been specified in the <strong>Link to Financial Dimensions</strong> column in an associated row definition, the range is enclosed in square brackets and is treated as a single value (for example, <strong>[110140:110700]-070-[0101:0200]</strong>).</span></span> <span data-ttu-id="2c434-629">Birkaç hesabın birleşimi olan mali raporlar ve üst düzey raporlar için, satır tanımındaki mali veri bağlantısı yazdırılır (örneğin, <strong>1100:1200</strong>).</span><span class="sxs-lookup"><span data-stu-id="2c434-629">For financial reports and high-level reports that are a combination of several accounts, the financial data link from the row definition is printed (for example, <strong>1100:1200</strong>).</span></span></td>
-    </tr>
-    <tr>
-    <td><span data-ttu-id="2c434-630">FILL</span><span class="sxs-lookup"><span data-stu-id="2c434-630">FILL</span></span></td>
-    <td><span data-ttu-id="2c434-631">Hücreyi tek tırnak işaretleri arasına aldığınız bir karakterle doldurun.</span><span class="sxs-lookup"><span data-stu-id="2c434-631">Fill the cell with a character that you enclose in single quotation marks.</span></span> <span data-ttu-id="2c434-632">Bir karakter girmezseniz sütun boş olur.</span><span class="sxs-lookup"><span data-stu-id="2c434-632">If you don't enter a character, the column is empty.</span></span> <span data-ttu-id="2c434-633">Örneğin, bir sütunu üç nokta işaretiyle (...) doldurmak için <strong>FILL</strong> <strong>'.'</strong> ifadesini girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-633">For example, to fill a column with an ellipsis (...), enter <strong>FILL</strong> <strong>'.'</strong>.</span></span></td>
-    </tr>
-    <tr>
-    <td><span data-ttu-id="2c434-634">PAGE</span><span class="sxs-lookup"><span data-stu-id="2c434-634">PAGE</span></span></td>
-    <td><span data-ttu-id="2c434-635">Rapora dikey bir sayfa sonu ekleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-635">Insert a vertical page break in the report.</span></span> <span data-ttu-id="2c434-636"><strong>PAGE</strong> sütununun sağındaki sütunlar farklı bir sayfada görünür.</span><span class="sxs-lookup"><span data-stu-id="2c434-636">The columns that are to the right of the <strong>PAGE</strong> column appear on a different page.</span></span></td>
-    </tr>
-    <tr>
-    <td><span data-ttu-id="2c434-637">ATTR</span><span class="sxs-lookup"><span data-stu-id="2c434-637">ATTR</span></span></td>
-    <td><span data-ttu-id="2c434-638">Muhasebe sisteminiz öznitelikleri destekliyorsa sütundaki bir hesap veya hareket özniteliğini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-638">If your accounting system supports attributes, display an account or transaction attribute in the column.</span></span> <span data-ttu-id="2c434-639">Tek bir tam hesap için geçerli olması gereken bir öznitelik alttaki hesap veya hareket bilgilerini mali verilerden ayıklar.</span><span class="sxs-lookup"><span data-stu-id="2c434-639">An attribute, which must apply to a single full account, extracts underlying account or transaction information from the financial data.</span></span> <span data-ttu-id="2c434-640">Hesap düzeyi öznitelikler hesaptaki verileri görüntülerken, hareket düzeyi öznitelikler hareketin deftere nakledildiği zaman oluşan verileri görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-640">Account-level attributes display data from the account, and transaction-level attributes display data that occurred at the time that the transaction was posted.</span></span> <span data-ttu-id="2c434-641">Sütun türü olarak <strong>ATTR</strong>'yi seçerseniz sütun tanımının <strong>Defter Kodu/Öznitelik Kategorisi</strong> ayrıntı satırında öznitelik kategorisini belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-641">If you select <strong>ATTR</strong> as the column type, specify the attribute category in the <strong>Book Code/Attribute Category</strong> detail row of the column definition.</span></span></td>
-    </tr>
-    </tbody>
-    </table>
-
-### <a name="financial-dimensions-column"></a><span data-ttu-id="2c434-642">Mali Boyutlar sütunu</span><span class="sxs-lookup"><span data-stu-id="2c434-642">Financial Dimensions column</span></span>
-
-<span data-ttu-id="2c434-643">Aşağıdaki **Sütun Tanımı** satır tanımları **FD** (Mali boyutlardaki tutarlar) sütun türüne sahip sütunlara uygulanır.</span><span class="sxs-lookup"><span data-stu-id="2c434-643">The following **Column Definition** row definitions apply to columns that have a column type of **FD** (Amounts from financial dimensions).</span></span>
-
-#### <a name="book-codeattribute-category-cell"></a><span data-ttu-id="2c434-644">Defter Kodu/Öznitelik Kategorisi hücresi</span><span class="sxs-lookup"><span data-stu-id="2c434-644">Book Code/Attribute Category cell</span></span>
-
-<span data-ttu-id="2c434-645">**Defter Kodu/Öznitelik Kategorisi** hücresi **FD** sütunundaki veriler için defter kodunu tanımlar.</span><span class="sxs-lookup"><span data-stu-id="2c434-645">The **Book Code/Attribute Category** cell identifies the book code for the data in the **FD** column.</span></span> <span data-ttu-id="2c434-646">Bir sütun tanımı birden fazla gerçek durum, bütçe ve istatistik sütununu içerebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-646">A column definition can include multiple actual, budget, and statistical columns.</span></span> <span data-ttu-id="2c434-647">Ayrıca, bir sütun tanımı cari veya yılından beri gibi farklı dönemleri ve farklı tutarları da görüntüleyebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-647">A column definition can also display different periods, such as current or year-to-date, and different amounts.</span></span> <span data-ttu-id="2c434-648">Defter kodları listesi mali verilerinizde belirlenen gerçek durum, bütçe ve istatistik (mali olmayan) seçeneklerini yansıtır.</span><span class="sxs-lookup"><span data-stu-id="2c434-648">The list of book codes reflects the actual, budget, and statistical (non-financial) options that have been established in your financial data.</span></span>
-
-#### <a name="fiscal-year-cell"></a><span data-ttu-id="2c434-649">Mali Yıl hücresi</span><span class="sxs-lookup"><span data-stu-id="2c434-649">Fiscal Year cell</span></span>
-
-<span data-ttu-id="2c434-650">**Mali Yıl** hücresi sütunun içermesi gereken mali yılı tanımlar.</span><span class="sxs-lookup"><span data-stu-id="2c434-650">The **Fiscal Year** cell identifies the fiscal year that the column should include.</span></span> <span data-ttu-id="2c434-651">Yıl, rapor oluşturulurken belirtilen esas yılla ilgili olabilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-651">The year can be relative to the base year that is specified when the report is generated.</span></span> <span data-ttu-id="2c434-652">Aşağıdaki seçenekler kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-652">The following options are available.</span></span>
-
-| <span data-ttu-id="2c434-653">Seçenek</span><span class="sxs-lookup"><span data-stu-id="2c434-653">Option</span></span>  | <span data-ttu-id="2c434-654">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2c434-654">Description</span></span>                                                                                                                  |
-|---------|------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="2c434-655">TEMEL</span><span class="sxs-lookup"><span data-stu-id="2c434-655">BASE</span></span>    | <span data-ttu-id="2c434-656">Rapor zamanında belirtilen temel yıl kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-656">Use the base year that is specified at report time.</span></span>                                                                          |
-| <span data-ttu-id="2c434-657">TEMEL+\#</span><span class="sxs-lookup"><span data-stu-id="2c434-657">BASE+\#</span></span> | <span data-ttu-id="2c434-658">Temel yıldan \# yıl sonraki yıl kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-658">Use the year that is \# years after the base year.</span></span> <span data-ttu-id="2c434-659">Örneğin, temel yıldan sonraki üçüncü yılı kullanmak istiyorsanız **TEMEL+3** girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-659">For example, to use the third year after the base year, enter **BASE+3**.</span></span> |
-| <span data-ttu-id="2c434-660">TEMEL\#</span><span class="sxs-lookup"><span data-stu-id="2c434-660">BASE-\#</span></span> | <span data-ttu-id="2c434-661">Temel yıldan \# yıl önceki yıl kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-661">Use the year that is \# years before the base year.</span></span> <span data-ttu-id="2c434-662">Örneğin, geçen yılı kullanmak için **TEMEL-1** girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-662">For example, to use the previous year, enter **BASE-1**.</span></span>                 |
-| \#      | <span data-ttu-id="2c434-663">Fiili mali yılı girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-663">Enter the actual fiscal year.</span></span>                                                                                                |
-
-#### <a name="period-cell"></a><span data-ttu-id="2c434-664">Dönem hücresi</span><span class="sxs-lookup"><span data-stu-id="2c434-664">Period cell</span></span>
-
-<span data-ttu-id="2c434-665">**Dönem** hücresi, sütunun içermesi gereken mali dönemleri tanımlar.</span><span class="sxs-lookup"><span data-stu-id="2c434-665">The **Period** cell identifies the fiscal periods that the column should include.</span></span> <span data-ttu-id="2c434-666">Dönem rapor oluşturulurken belirtilen esas dönemle ilgili olabilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-666">The period can be relative to the base period that is specified when the report is generated.</span></span> <span data-ttu-id="2c434-667">Aşağıdaki seçenekler mevcuttur.</span><span class="sxs-lookup"><span data-stu-id="2c434-667">The following options are available.</span></span>
-
-| <span data-ttu-id="2c434-668">Seçenek</span><span class="sxs-lookup"><span data-stu-id="2c434-668">Option</span></span>          | <span data-ttu-id="2c434-669">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2c434-669">Description</span></span> |
-|-----------------|-------------|
-| <span data-ttu-id="2c434-670">TEMEL</span><span class="sxs-lookup"><span data-stu-id="2c434-670">BASE</span></span>            | <span data-ttu-id="2c434-671">Esas dönem kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-671">Use the base period.</span></span> |
-| <span data-ttu-id="2c434-672">TEMEL+\#</span><span class="sxs-lookup"><span data-stu-id="2c434-672">BASE+\#</span></span>         | <span data-ttu-id="2c434-673">Esas dönemden \# dönem sonraki dönem kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-673">Use the period that is \# periods after the base period.</span></span> <span data-ttu-id="2c434-674">Örneğin, esas dönemden sonraki üçüncü dönemi kullanmak istiyorsanız **TEMEL+3** girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-674">For example, to use the third period after the base period, enter **BASE+3**.</span></span> |
-| <span data-ttu-id="2c434-675">TEMEL\#</span><span class="sxs-lookup"><span data-stu-id="2c434-675">BASE-\#</span></span>         | <span data-ttu-id="2c434-676">Esas dönemden \# dönem önceki dönem kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-676">Use the period that is \# periods before the base period.</span></span> <span data-ttu-id="2c434-677">Örneğin, geçen dönemi kullanmak için **TEMEL-1** girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-677">For example, to use the previous period, enter **BASE-1**.</span></span> |
-| <span data-ttu-id="2c434-678">TEMEL\#:TEMEL</span><span class="sxs-lookup"><span data-stu-id="2c434-678">BASE-\#:BASE</span></span>    | <span data-ttu-id="2c434-679">Esas dönemden önceki birkaç dönemden esas döneme kadar, birden fazla dönem kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-679">Use multiple periods, from several periods before the base period through the base period.</span></span> <span data-ttu-id="2c434-680">Örneğin, önceki üç dönemi ve esas dönemi kullanmak için **TEMEL-3:TEMEL** girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-680">For example, to use the three previous periods and the base period, enter **BASE-3:BASE**.</span></span> |
-| <span data-ttu-id="2c434-681">TEMEL:TEMEL+\#</span><span class="sxs-lookup"><span data-stu-id="2c434-681">BASE:BASE+\#</span></span>    | <span data-ttu-id="2c434-682">Esas dönemden esas dönemden sonraki birkaç döneme kadar, birden fazla dönem kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-682">Use multiple periods, from the base period through several periods after the base period.</span></span> <span data-ttu-id="2c434-683">Örneğin, esas dönemi ve sonraki iki dönemi kullanmak için **TEMEL:TEMEL+2** girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-683">For example, to use the base period and the following two periods, enter **BASE:BASE+2**.</span></span> |
-| <span data-ttu-id="2c434-684">TEMEL-\#:TEMEL+\#</span><span class="sxs-lookup"><span data-stu-id="2c434-684">BASE-\#:BASE+\#</span></span> | <span data-ttu-id="2c434-685">Esas dönemden önceki birkaç dönemden esas dönemden sonraki birkaç döneme kadar, birden fazla dönem kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-685">Use multiple periods, from several periods before the base period to several periods after the base period.</span></span> <span data-ttu-id="2c434-686">Örneğin, önceki üç dönem, esas dönem ve sonraki iki dönemi kullanmak için, **BASE-3:BASE+2** ifadesini girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-686">For example, to use the three previous periods, the base period, and the following two periods, enter **BASE-3:BASE+2**.</span></span> |
-| <span data-ttu-id="2c434-687">1:BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-687">1:BASE</span></span>          | <span data-ttu-id="2c434-688">İlk dönemden esas döneme kadar, birden fazla dönem kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-688">Use multiple periods, from the first period through the base period.</span></span> |
-| \#              | <span data-ttu-id="2c434-689">Her zaman belirli bir dönem numarası kullan.</span><span class="sxs-lookup"><span data-stu-id="2c434-689">Always use a specific period number.</span></span> <span data-ttu-id="2c434-690">Sütun tanımının esnekliğini azalttığından bu seçeneği kullanmanızı önermiyoruz.</span><span class="sxs-lookup"><span data-stu-id="2c434-690">We don't recommend that you use this option, because it reduces the flexibility of the column definition.</span></span> |
-| <span data-ttu-id="2c434-691">\#:\#</span><span class="sxs-lookup"><span data-stu-id="2c434-691">\#:\#</span></span>           | <span data-ttu-id="2c434-692">Her zaman belirli bir dönem aralığı kullan.</span><span class="sxs-lookup"><span data-stu-id="2c434-692">Always use a specific range of periods.</span></span> <span data-ttu-id="2c434-693">Sütun tanımının esnekliğini azalttığından bu seçeneği kullanmanızı önermiyoruz.</span><span class="sxs-lookup"><span data-stu-id="2c434-693">We don't recommend that you use this option, because it reduces the flexibility of the column definition.</span></span> |
-
-<span data-ttu-id="2c434-694">Dönem özelliklerinin herhangi birinde mali yıl sınırlarının ötesine geçebilirsiniz ve yılları bir dönem aralığında karıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-694">You can go beyond fiscal year boundaries in any of the period specifications, and you can mix years in a range of periods.</span></span> <span data-ttu-id="2c434-695">Örneğin dönemi **TEMEL-5** (son altı ayı temsil etmek için) olarak belirtin ve esas dönemi 2 olan bir rapor çalıştırın.</span><span class="sxs-lookup"><span data-stu-id="2c434-695">For example, you specify the periods as **BASE-5** (to represent the past six periods) and run a report that has a base period of 2.</span></span> <span data-ttu-id="2c434-696">Bu durumda, rapor belirtilen mali yılın ilk iki dönemi ve önceki mali yılın son dört dönemi için verileri gösterir.</span><span class="sxs-lookup"><span data-stu-id="2c434-696">In this case, the report shows data for the first two periods of the specified fiscal year and the last four periods of the previous fiscal year.</span></span>
-
-### <a name="specify-the-periods-for-an-fd-column"></a><span data-ttu-id="2c434-697">Bir FD sütunu için dönemleri belirtme</span><span class="sxs-lookup"><span data-stu-id="2c434-697">Specify the periods for an FD column</span></span>
-
-1. <span data-ttu-id="2c434-698">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-698">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-699">Bir **FD** sütununda, **Dönem** satırındaki hücreye çift tıklayın ve ardından listeden bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-699">In an **FD** column, double-click the cell in the **Period** row, and then select an option in the list.</span></span>
-3. <span data-ttu-id="2c434-700">Gezinme çubuğunun üzerindeki formül çubuğunda veya **Dönem** hücresinde, formülü tamamlayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-700">In the formula bar above the navigation pane, or in the **Period** cell, complete the formula.</span></span> <span data-ttu-id="2c434-701">Varsa, sayı işaretlerini (\#) uygun değerle değiştirin.</span><span class="sxs-lookup"><span data-stu-id="2c434-701">Replace any number sign (\#) with the appropriate value.</span></span>
-
-#### <a name="periods-covered-cell"></a><span data-ttu-id="2c434-702">Kapsanan Dönemler hücresi</span><span class="sxs-lookup"><span data-stu-id="2c434-702">Periods Covered cell</span></span>
-
-<span data-ttu-id="2c434-703">**Kapsanan Dönemler** hücresi, sütunun görüntülemesi gereken tutarı tanımlar.</span><span class="sxs-lookup"><span data-stu-id="2c434-703">The **Periods Covered** cell identifies the amount that the column should display.</span></span> <span data-ttu-id="2c434-704">Bu tutar sütuna ait **Mali Yıl** ve **Dönem** hücrelerindeki değerle ilgilidir.</span><span class="sxs-lookup"><span data-stu-id="2c434-704">This amount is relative to the value in the **Fiscal Year** and **Period** cells for the column.</span></span> <span data-ttu-id="2c434-705">Aşağıdaki seçenekler kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-705">The following options are available.</span></span>
-
-| <span data-ttu-id="2c434-706">Seçenek</span><span class="sxs-lookup"><span data-stu-id="2c434-706">Option</span></span>      | <span data-ttu-id="2c434-707">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2c434-707">Description</span></span>                                                                 |
-|-------------|-----------------------------------------------------------------------------|
-| <span data-ttu-id="2c434-708">PERIODIC</span><span class="sxs-lookup"><span data-stu-id="2c434-708">PERIODIC</span></span>    | <span data-ttu-id="2c434-709">Geçerli dönem veya dönem aralığı için faaliyet toplamını görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-709">Display the sum of the activity for the current period or range of periods.</span></span> |
-| <span data-ttu-id="2c434-710">PERIODIC/BB</span><span class="sxs-lookup"><span data-stu-id="2c434-710">PERIODIC/BB</span></span> | <span data-ttu-id="2c434-711">Geçerli dönem veya dönem aralığı için başlangıç bakiyesini görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-711">Display the beginning balance for the current period or range of periods.</span></span>   |
-| <span data-ttu-id="2c434-712">YTD</span><span class="sxs-lookup"><span data-stu-id="2c434-712">YTD</span></span>         | <span data-ttu-id="2c434-713">Yılın başından beri olan faaliyetin toplamını görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-713">Display the sum of the year-to-date activity.</span></span>                               |
-| <span data-ttu-id="2c434-714">YTD/BB</span><span class="sxs-lookup"><span data-stu-id="2c434-714">YTD/BB</span></span>      | <span data-ttu-id="2c434-715">Yılın başlangıç bakiyesini görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-715">Display the beginning balance for the year.</span></span>                                 |
-
-### <a name="specify-the-periods-that-are-covered-for-an-fd-column"></a><span data-ttu-id="2c434-716">Bir FD sütunu için kapsanan dönemleri belirtme</span><span class="sxs-lookup"><span data-stu-id="2c434-716">Specify the periods that are covered for an FD column</span></span>
-
-1. <span data-ttu-id="2c434-717">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-717">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-718">Bir **FD** sütununda, **Kapsanan Dönemler** satırındaki hücreye çift tıklayın ve ardından listeden bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-718">In an **FD** column, double-click the cell in the **Periods Covered** row, and select an option in the list.</span></span>
-
-### <a name="attribute-filter-in-a-column-definition"></a><span data-ttu-id="2c434-719">Bir sütun tanımındaki öznitelik filtresi</span><span class="sxs-lookup"><span data-stu-id="2c434-719">Attribute filter in a column definition</span></span>
-
-<span data-ttu-id="2c434-720">Öznitelikler bir hesabı veya hareketi ayrıntılı olarak tanımlayan mali veri değerleridir.</span><span class="sxs-lookup"><span data-stu-id="2c434-720">Attributes are financial data values that further define an account or transaction.</span></span> <span data-ttu-id="2c434-721">Hesap öznitelikleri **Varlık**, **Borç**, **Gelir** ve **Gider**'dir.</span><span class="sxs-lookup"><span data-stu-id="2c434-721">The account attributes include **Asset**, **Liability**, **Revenue**, and **Expense**.</span></span> <span data-ttu-id="2c434-722">Hareket öznitelikleri ise **Hareket Açıklaması** ve **Hareket Uygulama Tarihi**'dir.</span><span class="sxs-lookup"><span data-stu-id="2c434-722">The transaction attributes include **Transaction Description** and **Transaction Apply Date**.</span></span> <span data-ttu-id="2c434-723">Öznitelik desteği Microsoft Dynamics ERP sistemleri arasında farklılık gösterebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-723">Attribute support might differ between Microsoft Dynamics ERP systems.</span></span> <span data-ttu-id="2c434-724">**Öznitelik Filtresi** hücresi **FD** sütunlarındaki verileri belirli değerlerle veya öznitelik kategorisi aralıklarıyla sınırlar.</span><span class="sxs-lookup"><span data-stu-id="2c434-724">The **Attribute Filter** cell restricts the data in **FD** columns to specific values or ranges for attribute categories.</span></span> <span data-ttu-id="2c434-725">Bu özellik bir **ATTR** sütunuyla birlikte kullanılabildiği halde, **ATTR** sütunu gerekli değildir.</span><span class="sxs-lookup"><span data-stu-id="2c434-725">Although this feature can be used together with an **ATTR** column, the **ATTR** column isn't required.</span></span> <span data-ttu-id="2c434-726">Bir **FD** sütununda raporun öznitelik filtresinden içereceği hesaplar veya hareketlerde bir sınır vardır.</span><span class="sxs-lookup"><span data-stu-id="2c434-726">In an **FD** column, there is a limit on the accounts or transactions that the report will include from the attribute filter.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="2c434-727">ERP sisteminizin hangi öznitelikleri desteklediğini görmek için sisteminize ait tümleştirme kılavuzuna bakın.</span><span class="sxs-lookup"><span data-stu-id="2c434-727">To see which attributes your ERP system supports, see the integration guide for your system.</span></span>
-
-#### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a><span data-ttu-id="2c434-728">Bir rapordaki bir FD sütunu için öznitelik filtresi uygulama</span><span class="sxs-lookup"><span data-stu-id="2c434-728">Apply an attribute filter for an FD column on a report</span></span>
-
-1. <span data-ttu-id="2c434-729">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-729">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-730">Bir **FD** sütununa ait **Öznitelik Filtresi** hücresine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-730">Double-click the **Attribute Filter** cell for an **FD** column.</span></span>
-3. <span data-ttu-id="2c434-731">**Öznitelik Filtresi** iletişim kutusunda, **Öznitelik** sütunundaki bir hücreye çift tıklayın ve ardından filtre türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-731">In the **Attribute Filter** dialog box, double-click a cell in the **Attribute** column, and then select the filter type.</span></span>
-4. <span data-ttu-id="2c434-732">Sonuçları daha da sınırlandırmak için **Başlangıç** ve **Bitiş** sütunlarına bir aralık girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-732">To further limit the results, enter a range in the **From** and **To** columns.</span></span> <span data-ttu-id="2c434-733">**Başlangıç** hücresi bir değer içermelidir.</span><span class="sxs-lookup"><span data-stu-id="2c434-733">The **From** cell must contain a value.</span></span>
-5. <span data-ttu-id="2c434-734">**Tamam** düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="2c434-734">Click **OK**.</span></span>
-
-#### <a name="example-of-an-attribute-filter"></a><span data-ttu-id="2c434-735">Öznitelik filtresi örneği</span><span class="sxs-lookup"><span data-stu-id="2c434-735">Example of an attribute filter</span></span>
-
-<span data-ttu-id="2c434-736">Aşağıdaki örnek **Defter Kodu/Öznitelik Kategorisi** satırında bir hesap özniteliği bulunan bir sütun açıklaması parçasını göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="2c434-736">The following example shows part of a column description that has an account attribute in the **Book Code/Attribute Category** row.</span></span> <span data-ttu-id="2c434-737">Bu sütuna ait öznitelik filtresi rapora eklenecek değer aralığını belirtir.</span><span class="sxs-lookup"><span data-stu-id="2c434-737">The attribute filter for this column specifies the range of values to include in the report.</span></span>
-
-|                              | <span data-ttu-id="2c434-738">A</span><span class="sxs-lookup"><span data-stu-id="2c434-738">A</span></span>    | <span data-ttu-id="2c434-739">B</span><span class="sxs-lookup"><span data-stu-id="2c434-739">B</span></span>                   |
-|------------------------------|------|---------------------|
-| <span data-ttu-id="2c434-740">Sütun Türü</span><span class="sxs-lookup"><span data-stu-id="2c434-740">Column Type</span></span>                  | <span data-ttu-id="2c434-741">DESC</span><span class="sxs-lookup"><span data-stu-id="2c434-741">DESC</span></span> | <span data-ttu-id="2c434-742">FD</span><span class="sxs-lookup"><span data-stu-id="2c434-742">FD</span></span>                  |
-| <span data-ttu-id="2c434-743">Defter Kodu/Öznitelik Kategorisi</span><span class="sxs-lookup"><span data-stu-id="2c434-743">Book Code/Attribute Category</span></span> |      | <span data-ttu-id="2c434-744">ACTUAL</span><span class="sxs-lookup"><span data-stu-id="2c434-744">ACTUAL</span></span>              |
-| <span data-ttu-id="2c434-745">Mali Yıl</span><span class="sxs-lookup"><span data-stu-id="2c434-745">Fiscal Year</span></span>                  |      | <span data-ttu-id="2c434-746">BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-746">BASE</span></span>                |
-| <span data-ttu-id="2c434-747">Dönem</span><span class="sxs-lookup"><span data-stu-id="2c434-747">Period</span></span>                       |      | <span data-ttu-id="2c434-748">1:BASE</span><span class="sxs-lookup"><span data-stu-id="2c434-748">1:BASE</span></span>              |
-| <span data-ttu-id="2c434-749">Kapsanan Dönemler</span><span class="sxs-lookup"><span data-stu-id="2c434-749">Periods Covered</span></span>              |      | <span data-ttu-id="2c434-750">DÖNEMSEL</span><span class="sxs-lookup"><span data-stu-id="2c434-750">PERIODIC</span></span>            |
-| <span data-ttu-id="2c434-751">...</span><span class="sxs-lookup"><span data-stu-id="2c434-751">...</span></span>                          |      |                     |
-| <span data-ttu-id="2c434-752">Sütun Genişliği</span><span class="sxs-lookup"><span data-stu-id="2c434-752">Column Width</span></span>                 | <span data-ttu-id="2c434-753">30</span><span class="sxs-lookup"><span data-stu-id="2c434-753">30</span></span>   |                     |
-| <span data-ttu-id="2c434-754">...</span><span class="sxs-lookup"><span data-stu-id="2c434-754">...</span></span>                          |      |                     |
-| <span data-ttu-id="2c434-755">Öznitelik Filtresi</span><span class="sxs-lookup"><span data-stu-id="2c434-755">Attribute Filter</span></span>             |      | <span data-ttu-id="2c434-756">Referans=\[01:10\]</span><span class="sxs-lookup"><span data-stu-id="2c434-756">Reference=\[01:10\]</span></span> |
-
-### <a name="dimension-filter-in-a-column-definition"></a><span data-ttu-id="2c434-757">Bir sütun tanımındaki boyut filtresi</span><span class="sxs-lookup"><span data-stu-id="2c434-757">Dimension filter in a column definition</span></span>
-
-<span data-ttu-id="2c434-758">Bir boyut filtresi, **FD** sütununu belirli boyut değerleriyle sınırlandırmak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-758">A dimension filter is used to restrict the **FD** column to specific dimension values.</span></span> <span data-ttu-id="2c434-759">Filtre tek bir boyut, bir boyut aralığı veya bir boyut grubu içerebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-759">The filter can include a single dimension, a range of dimensions, or a group of dimensions.</span></span> <span data-ttu-id="2c434-760">Ayrıca filtre, boyut değeri kümeleri içerebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-760">The filter can also include dimension value sets.</span></span> <span data-ttu-id="2c434-761">Boyut değerleri değişebilir olduğundan ..\\finansal-boyut\\boyut tabanlı bir sistemin tam bir uzunluğa karşılık gelmesine gerek yoktur.</span><span class="sxs-lookup"><span data-stu-id="2c434-761">Because dimension values can vary, a ..\\financial-dimensions\\dimension-based system doesn't have to correspond to an exact length.</span></span> <span data-ttu-id="2c434-762">Raporun bir raporlama ağacı içerip içermediğinden bağımsız olarak filtre uygulanır.</span><span class="sxs-lookup"><span data-stu-id="2c434-762">The filter is applied, regardless of whether the report includes a reporting tree.</span></span> <span data-ttu-id="2c434-763">Bir joker karakterini (\* veya?) herhangi bir konumda kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-763">You can use a wildcard character (\* or ?) in any position.</span></span> <span data-ttu-id="2c434-764">Birden fazla hesap belirttiğinizde, aşağıdaki örnekte gösterildiği gibi hesaplar arasında virgül koyun: +Hesap =\[1200\], +Hesap =\[1100\], Departman =\[01?\] Tüm bölümler için özel bir hesap almak için Departman boyutu Boyut Filtresi dışarıda bırakabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-764">When you specify multiple accounts, put a comma between accounts, as in the following example: +Account=\[1200\], +Account=\[1100\], Department=\[01?\] To receive all departments for a specific account, you can exclude the Department dimension from the dimension filter.</span></span> <span data-ttu-id="2c434-765">Örneğin, aşağıdaki boyut filtrelerinin her ikisi de aynı şekilde işlenir:</span><span class="sxs-lookup"><span data-stu-id="2c434-765">For example, both of the following dimension filters are handled in the same way:</span></span>
-
-- <span data-ttu-id="2c434-766">+Hesap=\[1100\],Departman</span><span class="sxs-lookup"><span data-stu-id="2c434-766">+Account=\[1100\],Department</span></span>
-- <span data-ttu-id="2c434-767">+Hesap=\[1100\]</span><span class="sxs-lookup"><span data-stu-id="2c434-767">+Account=\[1100\]</span></span>
-
-<span data-ttu-id="2c434-768">Ayrıca, tam eşleştirme için alfasayısal karakterlerin herhangi bir kombinasyonunu kullanabilir ve kısmi boyutlar tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-768">You can also use any combination of alphanumeric characters for exact matching, and you can define partial dimensions.</span></span> <span data-ttu-id="2c434-769">Örneğin, **Konum = \[10\*\*\]**, 10 ile başlayan tüm konum boyutu değerlerini içerir.</span><span class="sxs-lookup"><span data-stu-id="2c434-769">For example, **Location = \[10\*\]** includes all location dimension values that begin with 10.</span></span>
-
-#### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a><span data-ttu-id="2c434-770">Bir rapordaki bir sütun için boyut filtresi uygulama</span><span class="sxs-lookup"><span data-stu-id="2c434-770">Apply a dimension filter for a column on a report</span></span>
-
-1. <span data-ttu-id="2c434-771">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-771">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-772">Bir **FD** sütununa ait **Boyut Filtresi** hücresine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-772">Double-click the **Dimension Filter** cell for an **FD** column.</span></span>
-3. <span data-ttu-id="2c434-773">**Boyutlar** iletişim kutusunda, uygulanacak filtreleri girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-773">In the **Dimensions** dialog box, enter the filters to apply.</span></span>
-4. <span data-ttu-id="2c434-774">**Tamam** düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="2c434-774">Click **OK**.</span></span>
-
-### <a name="format-a-multiple-currency-report-in-a-column-definition"></a><span data-ttu-id="2c434-775">Bir sütun tanımındaki birden fazla para birimi içeren bir raporu biçimlendirme</span><span class="sxs-lookup"><span data-stu-id="2c434-775">Format a multiple-currency report in a column definition</span></span>
-
-<span data-ttu-id="2c434-776">Bir çoklu para birimi raporu, tutarları genel muhasebenin muhasebe para biriminde, başlatan hareket para biriminde veya çevrilmiş raporlama para biriminde görüntüleyebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-776">A multiple-currency report can display amounts in the ledger's accounting currency, the ledger's reporting, the originating transaction currency, or the translated reporting currency.</span></span> <span data-ttu-id="2c434-777">Bir şirketin muhasebe para birimi, Genel Muhasebe kurulumunda tanımlıdır.</span><span class="sxs-lookup"><span data-stu-id="2c434-777">A company's accounting currency is defined in the Ledgers setup.</span></span> <span data-ttu-id="2c434-778">Bu ayarı, raporlarda kullanılan varsayılan para birimi simgelerini yapılandırabileceğiniz, işletim sisteminin bölgesel seçenekler ayarıyla karıştırmayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-778">Don't confuse this setting with the operating system's regional options setting, where you can configure the default currency symbols that are used on reports.</span></span> <span data-ttu-id="2c434-779">Sütun tanımında aşağıdaki para birimiyle ilgili hücreler bulunur:</span><span class="sxs-lookup"><span data-stu-id="2c434-779">The following currency-related cells are available in the column definition:</span></span>
-
-- <span data-ttu-id="2c434-780">**Para Birimi Görüntüleme**: Hareketlerin gösterileceği para birimi türünü belirtin (muhasebe, raporlama, hareket veya çevrilmiş raporlama).</span><span class="sxs-lookup"><span data-stu-id="2c434-780">**Currency Display** – Specify the type of currency (accounting, reporting, transaction, or translated reporting) that the transactions are displayed in.</span></span> <span data-ttu-id="2c434-781">Bir raporlama işlevselliğine çevrilmiş, bazen para birimi çevirisi olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="2c434-781">Translated to a reporting currency functionality is sometimes referred to as currency translation.</span></span> <span data-ttu-id="2c434-782">Para birimi dönüştürme, genel muhasebe tutarlarını şirketin işlevsel veya raporlama para birimi ya da hareketin girildiği para birimi olmayabilecek bir para biriminde raporlama yeteneğidir.</span><span class="sxs-lookup"><span data-stu-id="2c434-782">Currency translation is the ability to report general ledger amounts in a currency that might not be the functional or reporting currency of the company or the currency that the transaction was entered in.</span></span>
-- <span data-ttu-id="2c434-783">**Para Birimi Filtresi**: Bir para birimi filtresi belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-783">**Currency Filter** – Specify a currency filter.</span></span> <span data-ttu-id="2c434-784">Raporda sadece seçilen para birimi cinsinden girilen hareketler görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="2c434-784">Only transactions that are entered in the selected currency are displayed on the report.</span></span>
-
-> 
-<span data-ttu-id="2c434-785">Bir şirketin muhasebe para birimini belirlemek için şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-785">To determine a company's accounting currency, follow these steps.</span></span>
-
-1. <span data-ttu-id="2c434-786">Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Şirketler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-786">In Report Designer, on the **Company** menu, click **Companies**.</span></span>
-2. <span data-ttu-id="2c434-787">**Şirketler** iletişim kutusunda, bir şirket seçin ve ardından **Görüntüle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-787">In the **Companies** dialog box, select a company, and then click **View**.</span></span>
-3. <span data-ttu-id="2c434-788">**Şirketi Görüntüle** iletişim kutusunda, **Bölgesel seçenekler**'in altında seçilen şirket için tanımlanan para birimini görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-788">In the **View Company** dialog box, under **Regional options**, you can view the currency that is defined for the selected company.</span></span>
-
-#### <a name="specify-the-currency-on-a-multiple-currency-report"></a><span data-ttu-id="2c434-789">Birden fazla para birimi içeren bir raporda para birimini belirtme</span><span class="sxs-lookup"><span data-stu-id="2c434-789">Specify the currency on a multiple-currency report</span></span>
-
-1. <span data-ttu-id="2c434-790">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-790">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-791">İlgili **FD** sütunundaki **Görüntülenen Para Birimi** öğesini çift tıklayın ve para birimi bilgilerinin görüntülenmesi seçeneğini seçin: **Genel muhasebe para birimi**, **Genel muhasebe raporlama**, işlem para birimi veya farklı bir raporlama para birimine dönüştürmek için seç.</span><span class="sxs-lookup"><span data-stu-id="2c434-791">Double-click the **Currency Display** cell in the appropriate **FD** column, and then select the option for displaying currency information: **Ledger accounting currency**, **Ledger reporting**, transaction currency, or select to translate to a different reporting currency.</span></span>
-3. <span data-ttu-id="2c434-792">İlgili **FD** sütunundaki **Para Birimi Filtresi** hücresine çift tıklayın ve ardından listeden uygun para birimi kodunu seçin.</span><span class="sxs-lookup"><span data-stu-id="2c434-792">Double-click the **Currency Filter** cell in the appropriate **FD** column, and then select the appropriate currency code in the list.</span></span> <span data-ttu-id="2c434-793">Raporda sadece bu para biriminde girilen hareketler görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="2c434-793">Only transactions that are entered in this currency are displayed on the report.</span></span>
-
-
-### <a name="example-for-currency-display-and-currency-filter-cells"></a><span data-ttu-id="2c434-794">Para Birimi Ekranı ve Para Birimi Filtresi hücreleri için örnek</span><span class="sxs-lookup"><span data-stu-id="2c434-794">Example for Currency Display and Currency Filter cells</span></span>
-
-<span data-ttu-id="2c434-795">Pelin, sütun tanımında aşağıdaki para birimi seçimlerini yaptı:</span><span class="sxs-lookup"><span data-stu-id="2c434-795">Phyllis has made the following currency selections in her column definition:</span></span>
-
-- <span data-ttu-id="2c434-796">**Para Birimi Filtresi:** Yen</span><span class="sxs-lookup"><span data-stu-id="2c434-796">**Currency Filter:** Yen</span></span>
-- <span data-ttu-id="2c434-797">**Para Birimi Görüntüleme:** Muhasebe para birimi Genel Muhasebeden (A.B.D doları)</span><span class="sxs-lookup"><span data-stu-id="2c434-797">**Currency Display:** Accounting currency from Ledger (U.S. dollars)</span></span>
-
-<span data-ttu-id="2c434-798">Pelinin seçtiği para birimi filtresi nedeniyle, rapor yalnızca Japon yeni (JPY) olarak girilen hareketleri içerir.</span><span class="sxs-lookup"><span data-stu-id="2c434-798">Because of the currency filter that Phyllis selected, the report includes only transactions that were entered in Japanese yen (JPY).</span></span> <span data-ttu-id="2c434-799">Seçtiği para birimi ekranı nedeniyle, rapor muhasebe para birimi olan ABD doları (USD) cinsinden olan hareketleri görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-799">Because of the currency display that she selected, the report displays those transactions in the accounting currency, U.S. dollars (USD).</span></span>
-
-#### <a name="currency-filter-and-currency-display-combinations"></a><span data-ttu-id="2c434-800">Para Birimi Filtresi ve Para Birimi Ekranı birleşimleri</span><span class="sxs-lookup"><span data-stu-id="2c434-800">Currency Filter and Currency Display combinations</span></span>
-
-<span data-ttu-id="2c434-801">Aşağıdaki tabloda, Pelin'in yaptığı seçimler nedeniyle **Para Birimi Ekranı** ve **Para Birimi Filtresi** hücrelerindeki çeşitli seçenek birleşimleri için oluşabilecek rapor sonuçlarını göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="2c434-801">The following table shows the report results that can occur for various combinations of the options in **Currency Display** and **Currency Filter** cells because of the selections that Phyllis made.</span></span> <span data-ttu-id="2c434-802">İşlevsel para birimi USD'dir.</span><span class="sxs-lookup"><span data-stu-id="2c434-802">The functional currency is USD.</span></span>
-
-
-| <span data-ttu-id="2c434-803">Para Birimi Ekranı hücresi</span><span class="sxs-lookup"><span data-stu-id="2c434-803">Currency Display cell</span></span>                        | <span data-ttu-id="2c434-804">Para Birimi Filtresi hücresi</span><span class="sxs-lookup"><span data-stu-id="2c434-804">Currency Filter cell</span></span> | <span data-ttu-id="2c434-805">Rapor sonucu</span><span class="sxs-lookup"><span data-stu-id="2c434-805">Report result</span></span> |
-|----------------------------------------------|----------------------|---------------|
-| <span data-ttu-id="2c434-806">Hareket para birimi</span><span class="sxs-lookup"><span data-stu-id="2c434-806">Transaction currency</span></span>                 | <span data-ttu-id="2c434-807">**YEN**</span><span class="sxs-lookup"><span data-stu-id="2c434-807">**YEN**</span></span>              | <span data-ttu-id="2c434-808">**6.000 Y**: Sonuç yalnızca JPY olarak girilen hareketleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="2c434-808">**Y6,000** – The result shows only transactions that were entered in JPY.</span></span> |
-| <span data-ttu-id="2c434-809">Genel Muhasebe için muhasebe para birimi</span><span class="sxs-lookup"><span data-stu-id="2c434-809">Accounting currency from Ledger</span></span> | <span data-ttu-id="2c434-810">**YEN**</span><span class="sxs-lookup"><span data-stu-id="2c434-810">**YEN**</span></span>              |<span data-ttu-id="2c434-811">**60 $**: Sonuç yalnızca JPY olarak girilen hareketleri gösterir ve ABD doları cinsinden olan hareketleri görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2c434-811">**$60** – The result shows only transactions that were entered in JPY and displays those transactions in USD.</span></span><blockquote>[!NOTE] <span data-ttu-id="2c434-812">Dönüşüm oranı USD başına yaklaşık 100 JPY'dir.</span><span class="sxs-lookup"><span data-stu-id="2c434-812">The conversion rate is approximately 100 JPY per USD.</span></span></blockquote> |
-| <span data-ttu-id="2c434-813">Genel Muhasebe için muhasebe para birimi</span><span class="sxs-lookup"><span data-stu-id="2c434-813">Accounting currency from Ledger</span></span> | <span data-ttu-id="2c434-814">Boş</span><span class="sxs-lookup"><span data-stu-id="2c434-814">Empty</span></span>                | <span data-ttu-id="2c434-815">**2.310 $** – Sonuç, tüm veriyi Genel Muhasebe defteri içinde belirtilen muhasebe para biriminde gösterir.</span><span class="sxs-lookup"><span data-stu-id="2c434-815">**$2,310** – The result shows all data in the accounting currency that is specified in the Ledger.</span></span><blockquote>[!NOTE] <span data-ttu-id="2c434-816">Bu tutar, muhasebe para birimindeki tüm işlemlerin toplamıdır.</span><span class="sxs-lookup"><span data-stu-id="2c434-816">This amount is the sum of all transactions in accounting currency.</span></span></blockquote> |
-| <span data-ttu-id="2c434-817">Hareket para birimi</span><span class="sxs-lookup"><span data-stu-id="2c434-817">Transaction currency</span></span>                 | <span data-ttu-id="2c434-818">Boş</span><span class="sxs-lookup"><span data-stu-id="2c434-818">Empty</span></span>                | <span data-ttu-id="2c434-819">**2.250 $**: Sonuç, hareketin gerçekleştirildiği para birimindeki tüm tutarları gösterir.</span><span class="sxs-lookup"><span data-stu-id="2c434-819">**$2,250** – The result shows all amounts in the currency that the transaction was performed in.</span></span> <span data-ttu-id="2c434-820">Bu, toplamın farklı para birimlerinden tutarlar ekleyerek oluştuğu anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="2c434-820">This means the total is adding together amounts from different currencies.</span></span> |
-
-### <a name="calculation-column-in-a-column-definition"></a><span data-ttu-id="2c434-821">Bir sütun tanımındaki hesaplama sütunu</span><span class="sxs-lookup"><span data-stu-id="2c434-821">Calculation column in a column definition</span></span>
-
-<span data-ttu-id="2c434-822">Bir sütun tanımındaki bir **CALC** sütun türü, **Formül** hücresinde karmaşık hesaplamaları destekler ve **+**, **-**, **\***, ve **/** operatörlerini ve ayrıca **IF/THEN/ELSE** deyimlerini içerebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-822">A column type of **CALC** in a column definition supports complex calculations in the **Formula** cell, and can include the **+**, **-**, **\***, and **/** operators, and also **IF/THEN/ELSE** statements.</span></span> <span data-ttu-id="2c434-823">Bir hesaplama sütunu, daha sonraki sütunları da dahil, herhangi diğer bir sütuna başvurabilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-823">A calculation column can also refer to any other column, even subsequent columns.</span></span> <span data-ttu-id="2c434-824">Ayrıca, bir hesaplama sütunu sütunun başlıklarını desteklemek için mali yılı ve dönemi de içerebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-824">Additionally, a calculation column can also include the fiscal year and period to support headers for the column.</span></span> <span data-ttu-id="2c434-825">Hesaplama formülü en fazla 1.024 karakter uzunluğunda olabilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-825">The calculation formula can be up to 1,024 characters long.</span></span> <span data-ttu-id="2c434-826">Hesaplama sonucunu yüzde olarak ifade etmek için özel bir biçim geçersiz kılma işlemi kullanın.</span><span class="sxs-lookup"><span data-stu-id="2c434-826">To express the calculation result as a percentage, use a special format override.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="2c434-827">Hesaplama formüllerinin sonuçları yazdırılmayan sütun aralıklarındaki değerleri içermez.</span><span class="sxs-lookup"><span data-stu-id="2c434-827">The results of calculation formulas don't include the values in non-printing column ranges.</span></span> <span data-ttu-id="2c434-828">Örneğin, **A:D** **0** (sıfır) yazdırırken, yazdırılmayan değerler için **A+B+C** değeri hesaplar.</span><span class="sxs-lookup"><span data-stu-id="2c434-828">For example, **A:D** prints **0** (zero), whereas **A+B+C** for non-printing values calculates the value.</span></span>
-
-#### <a name="operators-in-calculation-columns"></a><span data-ttu-id="2c434-829">Hesaplama sütunlarındaki işleçler</span><span class="sxs-lookup"><span data-stu-id="2c434-829">Operators in calculation columns</span></span>
-
-<span data-ttu-id="2c434-830">Sütunları toplamak, çıkarmak, çarpmak veya bölmek için sütun harflerini hesaplama sırasıyla girin ve ardından her sütun harfini ayırmak için ilgili işleci kullanın.</span><span class="sxs-lookup"><span data-stu-id="2c434-830">To add, subtract, multiply, or divide columns, enter the column letters in the order of computation, and then use the appropriate operator to separate each column letter.</span></span> <span data-ttu-id="2c434-831">Aşağıdaki tabloda bir hesaplama sütununda kullanılabilecek işleçler açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="2c434-831">The following table explains the operators that you can use in a calculation column.</span></span>
-
-| <span data-ttu-id="2c434-832">İşleç</span><span class="sxs-lookup"><span data-stu-id="2c434-832">Operator</span></span> | <span data-ttu-id="2c434-833">Örnek hesaplama</span><span class="sxs-lookup"><span data-stu-id="2c434-833">Example calculation</span></span> | <span data-ttu-id="2c434-834">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2c434-834">Description</span></span> |
-|----------|---------------------|-------------|
-| +        | <span data-ttu-id="2c434-835">A+C</span><span class="sxs-lookup"><span data-stu-id="2c434-835">A+C</span></span>                 | <span data-ttu-id="2c434-836">A sütunundaki tutarı C sütunundaki tutara ekleyin.</span><span class="sxs-lookup"><span data-stu-id="2c434-836">Add the amount in column A to the amount in column C.</span></span> |
-| <span data-ttu-id="2c434-837">:</span><span class="sxs-lookup"><span data-stu-id="2c434-837">:</span></span>        | <span data-ttu-id="2c434-838">A:C A:C-D</span><span class="sxs-lookup"><span data-stu-id="2c434-838">A:C A:C-D</span></span>           | <span data-ttu-id="2c434-839">Art arda gelen sütunlardan oluşan bir aralığı toplayın.</span><span class="sxs-lookup"><span data-stu-id="2c434-839">Add a range of consecutive columns.</span></span> <span data-ttu-id="2c434-840">Örneğin, **A:C** formülü, A ile C arasındaki sütunların toplamlarını eklerken, **A:C-D** formülü, A ile C arasındaki sütunların toplamlarını ekler ve ardından D sütunundaki tutarı çıkarır.</span><span class="sxs-lookup"><span data-stu-id="2c434-840">For example, the formula **A:C** adds the sums of columns A through C, and the formula **A:C-D** adds the sums of columns A through C, and then subtracts the amount in column D.</span></span> |
-| -        | <span data-ttu-id="2c434-841">A-C</span><span class="sxs-lookup"><span data-stu-id="2c434-841">A-C</span></span>                 | <span data-ttu-id="2c434-842">A sütunundaki tutarı, C sütunundaki tutardan çıkartın.</span><span class="sxs-lookup"><span data-stu-id="2c434-842">Subtract the amount in column A from the amount in column C.</span></span><blockquote>[!NOTE] <span data-ttu-id="2c434-843">Bir sütundaki işaretleri ters çevirmek için eksi işaretini (-) de kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-843">You can also use the minus sign (-) to reverse the signs in a column.</span></span> <span data-ttu-id="2c434-844">Örneğin, A sütunundaki tutarın tersini B sütunundaki tutara eklemek için <strong>-A+B</strong> formülü kullanın.</span><span class="sxs-lookup"><span data-stu-id="2c434-844">For example, use <strong>-A+B</strong> to add the reverse of the amount in column A to the amount in column B.</span></span></blockquote> |
-| \*       | <span data-ttu-id="2c434-845">A\*C</span><span class="sxs-lookup"><span data-stu-id="2c434-845">A\*C</span></span>                | <span data-ttu-id="2c434-846">A sütunundaki tutarı C sütunundaki tutara çarpın.</span><span class="sxs-lookup"><span data-stu-id="2c434-846">Multiply the amount in column A by the amount in column C.</span></span> |
-| /        | <span data-ttu-id="2c434-847">A/C</span><span class="sxs-lookup"><span data-stu-id="2c434-847">A/C</span></span>                 | <span data-ttu-id="2c434-848">A sütunundaki tutarı C sütunundaki tutara bölün.</span><span class="sxs-lookup"><span data-stu-id="2c434-848">Divide the amount in column A by the amount in column C.</span></span> |
-
-#### <a name="use-a-calculation-formula-in-a-column-definition"></a><span data-ttu-id="2c434-849">Bir sütun tanımında bir hesaplama formülü kullanma</span><span class="sxs-lookup"><span data-stu-id="2c434-849">Use a calculation formula in a column definition</span></span>
-
-1. <span data-ttu-id="2c434-850">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2c434-850">In Report Designer, open the column definition to modify.</span></span>
-2. <span data-ttu-id="2c434-851">İlgili **CALC** sütunundaki **Formül** hücresine bir formül girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-851">In the appropriate **CALC** column, enter a formula in the **Formula** cell.</span></span>
-
-#### <a name="complex-calculations"></a><span data-ttu-id="2c434-852">Karmaşık hesaplamalar</span><span class="sxs-lookup"><span data-stu-id="2c434-852">Complex calculations</span></span>
-
-<span data-ttu-id="2c434-853">Karmaşık bir hesaplama hücre referansları, işleçler, değerler ve iç içe parantez düzeylerinden oluşan herhangi bir birleşimi içerebilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-853">A complex calculation can contain any combination of cell references, operators, values, and levels of nested parentheses.</span></span> <span data-ttu-id="2c434-854">Örneğin, A ve B sütunlarının ortalamasını hesaplamak için **((A+B)/2)** hesaplama formülünü kullanın.</span><span class="sxs-lookup"><span data-stu-id="2c434-854">For example, to compute the average of columns A and B, use the calculation formula **((A+B)/2)**.</span></span>
-
-#### <a name="specify-report-cells-in-a-column-calculation"></a><span data-ttu-id="2c434-855">Bir sütun hesaplamasındaki rapor hücrelerini belirtme</span><span class="sxs-lookup"><span data-stu-id="2c434-855">Specify report cells in a column calculation</span></span>
-
-<span data-ttu-id="2c434-856">Bir sütun harfi ve bir satır kodu girerek belirli bir rapor hücresine başvurabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-856">You can refer to a specific report cell by entering a column letter and a row code.</span></span> <span data-ttu-id="2c434-857">Örneğin, **B.100** B sütunundaki 100 satır kodu anlamına gelir. Tam bir sütunu aynı sütundaki belirli bir rapor hücresi tutarına bölebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-857">For example, **B.100** refers to row code 100 in column B. You can divide a whole column by a specific report cell amount that is in the same column.</span></span> <span data-ttu-id="2c434-858">Örneğin, **B/B.100** hesaplaması B sütunundaki tutarın B sütununda 100 satır kodundaki değere bölünmesi gerektiği anlamına gelir. Hesaplama başka bir sütuna bağlı olan bir sütuna başvuruyorsa önce bağlı sütun çözülür.</span><span class="sxs-lookup"><span data-stu-id="2c434-858">For example, the calculation **B/B.100** means that the amount in column B should be divided by the value in row code 100 in column B. If the calculation refers to a column that depends on another column, the dependent column is resolved first.</span></span> <span data-ttu-id="2c434-859">Bir sütunu yeniden ilk sütuna başvuran başka bir sütuna yönlendirirseniz döngüsel bir referans hatasına neden olursunuz.</span><span class="sxs-lookup"><span data-stu-id="2c434-859">If you refer a column to another column that refers back to the first column, you will cause a circular reference error.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="2c434-860">Raporun hesaplama önceliğini değiştirirseniz hesaplama yanlış olabilir.</span><span class="sxs-lookup"><span data-stu-id="2c434-860">The calculation might be incorrect if you change the calculation priority for the report.</span></span> <span data-ttu-id="2c434-861">Hesaplama önceliğini, rapor tanımındaki **Ayarlar** sekmesinde ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-861">You can set the calculation priority on the **Settings** tab of the report definition.</span></span>
-
-#### <a name="multiply-or-divide-a-column-by-a-base-row"></a><span data-ttu-id="2c434-862">Bir sütunu bir temel satırla çarpma veya bu satıra bölme</span><span class="sxs-lookup"><span data-stu-id="2c434-862">Multiply or divide a column by a base row</span></span>
-
-<span data-ttu-id="2c434-863">Tüm değerleri belirli bir sütunda temel sayının yüzdesi olarak görüntüleyen bir sütun oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-863">You can create a column that displays all the values in a specified column as a percentage of a base number.</span></span> <span data-ttu-id="2c434-864">Bu nedenle, satırlar arasındaki ilişkileri bir satış satırının ya da bir toplam giderler satırının yüzdesi olarak gösterebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-864">Therefore, you can show relationships between rows, such as a percentage of a sales row or a percentage of a total expenses row.</span></span> <span data-ttu-id="2c434-865">Belirli bir sütundaki her bir satırı bir temel satırla çarpmak veya bir temel satıra bölmek için, hesaplamada kullanılacak sütunu girin ve ardından **\*BASEROW** veya **BASEROW** seçimini yapın.</span><span class="sxs-lookup"><span data-stu-id="2c434-865">To multiply or divide each row in a specific column by a base row, enter the column to use in the calculation, and then enter **\*BASEROW** or **/BASEROW**.</span></span> <span data-ttu-id="2c434-866">Örneğin, **C\*BASEROW** veya **C/BASEROW** girin.</span><span class="sxs-lookup"><span data-stu-id="2c434-866">For example, enter **C\*BASEROW** or **C/BASEROW**.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="2c434-867">Sütun tanımında bir temel satır hesaplaması kullandığınızda, bu sütun tanımında kullanılan her satır tanımının hesaplamalara ait en az bir temel satır içerdiğinden emin olun.</span><span class="sxs-lookup"><span data-stu-id="2c434-867">When you use a base row calculation in a column definition, make sure that each row definition that is used with this column definition contains at least one base row for calculations.</span></span>
-
-#### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a><span data-ttu-id="2c434-868">Bir sütundaki tutarı dönem sayısına bölme</span><span class="sxs-lookup"><span data-stu-id="2c434-868">Divide the amount in a column by the number of periods</span></span>
-
-<span data-ttu-id="2c434-869">Bir sütundaki tutarı belirtilen bir dönem sayısına bölebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2c434-869">You can divide the amount in a column by a specified number of periods.</span></span> <span data-ttu-id="2c434-870">Örneğin, **B/Dönem Sayısı**B sütunundaki değeri B sütunundaki dönem sayısına böler. Hesaplama birden fazla sütuna yayılıyorsa hesaplamada kullanılacak dönem sayısını belirtin.</span><span class="sxs-lookup"><span data-stu-id="2c434-870">For example, the formula **B/Periods** divides the value in column B by the number of periods in column B. If the calculation spans multiple columns, specify the number of periods to use in the calculation.</span></span> <span data-ttu-id="2c434-871">Örneğin, **(B+C)/Dönem Sayısı** formülü B ve C sütunlarındaki tutarları toplar ve ardından sonucu dönem değerine böler.</span><span class="sxs-lookup"><span data-stu-id="2c434-871">For example, the formula **(B+C)/Periods** adds the amounts in column B and column C, and then divides the result by the period value.</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="2c434-872">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="2c434-872">Additional resources</span></span>
-
-[<span data-ttu-id="2c434-873">Finansal raporlamada satır tanımları</span><span class="sxs-lookup"><span data-stu-id="2c434-873">Row definitions in financial reporting</span></span>](row-definitions-financial-reporting.md)
-
-[<span data-ttu-id="2c434-874">Finansal raporlamada gelişmiş biçimlendirme seçenekleri</span><span class="sxs-lookup"><span data-stu-id="2c434-874">Advanced formatting options in financial reporting</span></span>](advanced-formatting-options-financial-reporting.md)
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="column-definitions-financial-reports.md" target-language="tr-TR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>column-definitions-financial-reports.2311f7.bb08833cca843c370e2c845bce56d6f5a8b5f2ed.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>bb08833cca843c370e2c845bce56d6f5a8b5f2ed</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\dev-itpro\analytics\column-definitions-financial-reports.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Column definitions in financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finansal raporlarda sütun tanımları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This article provides information about column definitions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu makalede sütun tanımları hakkında bilgi verilmektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
+          <source>A column definition is a report component, or building block, that defines the contents of columns on a report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımı bir rapordaki sütunların içindekileri tanımlayan bir rapor bileşeni veya yapı taşıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104" restype="x-metadata">
+          <source>Like row definitions, basic column definitions can be used on multiple reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Column definitions in financial reports</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finansal raporlarda sütun tanımları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This article provides information about column definitions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu makalede sütun tanımları hakkında bilgi verilmektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>A column definition is a report component, or building block, that defines the contents of columns on a report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımı bir rapordaki sütunların içindekileri tanımlayan bir rapor bileşeni veya yapı taşıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Like row definitions, basic column definitions can be used on multiple reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Create and modify a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımı oluşturma ve değiştirme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>A column definition can contain two to 255 columns.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımı iki ila 255 sütun içerebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Create a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun tanımı oluşturma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In Report Designer, in the navigation pane, click <bpt id="p1">**</bpt>Column Definitions<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'ndaki gezinti bölmesinde <bpt id="p1">**</bpt>Sütun Tanımları<ept id="p1">**</ept>'na tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>On the <bpt id="p1">**</bpt>File<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>New<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Column Definition<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Dosya<ept id="p1">**</ept> menüsünde, <bpt id="p2">**</bpt>Yeni<ept id="p2">**</ept>'ye ve ardından <bpt id="p3">**</bpt>Sütun Tanımı<ept id="p3">**</ept>'na tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Add the contents of the column definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun tanımının içeriklerini ekleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Open a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımını açma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>In Report Designer, in the navigation pane, click <bpt id="p1">**</bpt>Column Definitions<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'ndaki gezinti bölmesinde <bpt id="p1">**</bpt>Sütun Tanımları<ept id="p1">**</ept>'na tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Double-click a column definition to open it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açmak için bir sütun tanımına çift tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Add a column to a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımına sütun ekleme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>In Report Designer, click <bpt id="p1">**</bpt>Column Definitions<ept id="p1">**</ept>, and then open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, <bpt id="p1">**</bpt>Sütun Tanımları<ept id="p1">**</ept>'na tıklayın ve ardından değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Select the column where a new column should be inserted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni sütun eklenmesi gereken sütunu seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>On the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Insert Column<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Düzenle<ept id="p1">**</ept> menüsünde, <bpt id="p2">**</bpt>Sütun Ekle<ept id="p2">**</ept>'ye tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>The new column appears to the left of the column that you selected.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni sütun, seçtiğiniz sütunun solunda görünür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Delete a column from a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımından sütun silme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>In Report Designer, click <bpt id="p1">**</bpt>Column Definitions<ept id="p1">**</ept>, and then open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, <bpt id="p1">**</bpt>Sütun Tanımları<ept id="p1">**</ept>'na tıklayın ve ardından değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Select the column to delete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Silinecek sütunu seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>On the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Delete Column<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Düzenle<ept id="p1">**</ept> menüsünde, <bpt id="p2">**</bpt>Sütunu Sil<ept id="p2">**</ept>'e tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Contents of a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımının içerikleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>A column definition includes the following information:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımı aşağıdaki bilgileri içerir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>A column of the descriptions for the row definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satır tanımının açıklamalarına ait bir sütun</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Amount columns that show data from the financial data or calculations that are based on other data in the column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mali veriler veya bir sütun tanımındaki diğer verileri esas alan hesaplamalara ait verileri gösteren tutar sütunları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Formatting columns</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçimlendirme sütunları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Attribute columns</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik sütunları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>This information appears in the following areas in the column definition:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu bilgiler sütun tanımındaki şu alanlarda görünür:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>The headers area of the column definition contains the heading text and formatting that appears in the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun tanımının başlıklar alanı raporda görünen başlık metnini ve biçimlendirmesini içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>A header can apply to a single column of data, can span multiple columns, or can apply to columns on a conditional basis.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir başlık tek bir veri sütununa uygulanabilir, birden fazla sütuna yayılabilir veya sütunlara koşula bağlı olarak uygulanabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>The column definition can include as many column header rows as you require.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun tanımı ihtiyacınız olduğu kadar çok sütun başlığı satırı içerebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Column headers apply to each column of data on the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun başlıkları, rapordaki verilerin her sütununa uygulanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Report headers apply to the whole report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor başlıkları ise tüm rapora uygulanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>You define report headers on the <bpt id="p1">**</bpt>Headers and Footers<ept id="p1">**</ept> tab of the report definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor tanımının <bpt id="p1">**</bpt>Üst Bilgiler ve Alt Bilgiler<ept id="p1">**</ept> sekmesinde rapor üst bilgilerini tanımlayabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Column detail rows are the rows under the header rows in the column definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun ayrıntısı satırları sütun tanımındaki üst bilgi satırlarının altındaki satırlardır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Column detail rows define the information that is included on the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun ayrıntısı satırları raporda yer alan bilgileri tanımlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The following table lists and describes the column detail rows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tabloda sütun ayrıntısı satırları belirtilip açıklanmaktadır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Column detail row name</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun ayrıntısı satırı adı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Column Type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun Türü</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>(Required) Specify the type of data in the column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Gerekli) Sütundaki veri türünü belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Book Code/Attribute Category</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Defter Kodu/Öznitelik Kategorisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Specify financial data information for columns of the <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> and <bpt id="p2">**</bpt>ATTR<ept id="p2">**</ept> types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>ATTR<ept id="p2">**</ept> türlerine ait sütunlar için mali veri bilgilerini belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Fiscal Year Period Periods Covered</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kapsanan Mali Yıl Dönemi Sayısı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Specify financial data information for columns of the <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> türüne ait sütunlar için mali veri bilgilerini belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Formula</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formül</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Specify a calculation formula for columns of the <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> türüne ait sütunlar hesaplama formülü belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Column Width Extra Spaces Before Column Format Override Print Control</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun Biçimi Geçersiz Kılma Yazdırma Denetiminden Önce Sütun Genişliği Fazladan Boşluk Sayısı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Specify special format options.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Özel biçim seçenekleri belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Column Restrictions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun Kısıtlamaları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Restrict data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verileri kısıtlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Reporting Unit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Raporlama Birimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Restrict the column, so that it shows data only for the specified reporting unit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunu yalnızca belirtilen raporlama birimine ait verileri gösterecek şekilde kısıtlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Currency Display Currency Filter</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para Birimi Ekranı Para Birimi Filtresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Format currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para birimini biçimlendirin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Dimension Filter</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Boyut Filtresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Specify a filter to restrict data to certain financial data reporting units.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verileri belirli mali veri raporlama birimleriyle kısıtlamak için filtre belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Attribute Filter</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik Filtresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Specify a filter to restrict the financial data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mali verileri kısıtlamak için filtre belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>Start Date End Date</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Başlangıç Tarihi Bitiş Tarihi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>Restrict the financial data to specific dates.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mali verileri belirli tarihlerle kısıtlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Justification</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yaslama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Left-align, center-align, or right-align the description text that is specified in the row definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satır tanımında belirtilen açıklama metnini sola hizalayın, ortaya hizalayın veya sağa hizalayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Column restrictions in a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımındaki sütun kısıtlamaları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>You can use column restrictions to specify how a column definition uses data or calculates information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımının verileri nasıl kullandığını veya bilgileri nasıl hesapladığını belirtmek için sütun kısıtlamaları kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>You can also restrict a report column to a specific unit or for specific dates.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca bir rapor sütununu belirli bir birimle veya belirli tarihler için kısıtlayabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>A <bpt id="p1">**</bpt>Column Restriction<ept id="p1">**</ept> code overrides any conflicting setting that is assigned in the row definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sütun Kısıtlaması<ept id="p1">**</ept> kodu, satır tanımında atanan her türlü çakışan ayarı geçersiz kılar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Column Restrictions cell</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun Kısıtlamaları hücresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>The <bpt id="p1">**</bpt>Column Restrictions<ept id="p1">**</ept> cell can include codes that restrict or suppress information, such as row formatting, details, and amounts, for that column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sütun Kısıtlamaları<ept id="p1">**</ept> hücresi söz konusu sütuna ait satır biçimlendirmesi, ayrıntılar ve tutarlar gibi bilgileri kısıtlayan veya gizleyen kodlar içerebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Add a column restriction in a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımına sütun kısıtlaması ekleme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Double-click the <bpt id="p1">**</bpt>Column Restrictions<ept id="p1">**</ept> cell for the column to restrict.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kısıtlamak için sütunun <bpt id="p1">**</bpt>Sütun Kısıtlamaları<ept id="p1">**</ept> hücresine çift tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>In the <bpt id="p1">**</bpt>Column Restrictions<ept id="p1">**</ept> dialog box, select one or more codes in the list, and then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sütun Kısıtlamaları<ept id="p1">**</ept> iletişim kutusundaki listeden bir veya daha fazla kod seçin ve ardından <bpt id="p2">**</bpt>Tamam<ept id="p2">**</ept>'a tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Column restriction codes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun kısıtlaması kodları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>The following table describes the column restriction codes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tabloda sütun kısıtlaması kodları açıklanmaktadır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Column restriction code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun kısıtlaması kodu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>SU</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SU</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Suppress the underscore for a column where either an underscore command (<bpt id="p1">**</bpt><ph id="ph1">---</ph><ept id="p1">**</ept>) or a double underscore command (<bpt id="p2">**</bpt><ph id="ph2">===</ph><ept id="p2">**</ept>) is entered in the row definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satır tanımında bir alt çizgi komutunun (<bpt id="p1">**</bpt><ph id="ph1">---</ph><ept id="p1">**</ept>) veya bir çift alt çizgi komutun (<bpt id="p2">**</bpt><ph id="ph2">===</ph><ept id="p2">**</ept>) girildiği bir sütun için alt çizgiyi baskılayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>For example, you might not want to underline amounts that are produced by a percentage calculation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, bir yüzde hesaplaması tarafından üretilen tutarları alt çizgili görüntülemek istemeyebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>ST</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ST</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Suppress totals, so that only details are shown in the column (for example, a statistical column).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunda (örneğin bir istatistik sütunu) yalnızca ayrıntıların gösterilmesi için toplamları gizleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>SD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Suppress details, so that only <bpt id="p1">**</bpt>TOT<ept id="p1">**</ept> and <bpt id="p2">**</bpt>CAL<ept id="p2">**</ept> rows (from the row definition) are shown in the column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunda yalnızca <bpt id="p1">**</bpt>TOT<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>CAL<ept id="p2">**</ept> satırlarının (satır tanımından) gösterilmesi için ayrıntıları gizleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>DR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Restrict the amounts in an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column to debit amounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> sütunundaki tutarları borç tutarlarıyla kısıtlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>CR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Restrict the amounts in an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column to credit amounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> sütunundaki tutarları alacak tutarlarıyla kısıtlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>ADJ</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ADJ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Restrict the amounts in the column to period adjustment amounts, if these amounts are available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütundaki tutarları dönem düzeltmesi tutarları varsa bu tutarlarla kısıtlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>XAD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">XAD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Restrict the amounts in the column, so that period adjustment amounts are excluded.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütundaki tutarları dönem düzeltmesi tutarları hariç tutulacak şekilde kısıtlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>PT</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PT</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Restrict the amounts in the column, so that only posted transactions are included, if these transactions are available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütundaki tutarları deftere nakledilmiş hareketler kullanılabiliyorsa yalnızca bu hareketler dahil edilecek şekilde kısıtlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>UPT</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UPT</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Restrict the amounts in the column, so that only unposted transactions are included, if these transactions are available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütundaki tutarları, mevcutsa sadece nakledilmeyen hareketleri içerecek şekilde sınırlandırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Not all data providers support unposted transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Not:<ept id="p1">&lt;/strong&gt;</ept> Nakledilmeyen hareketler tüm veri sağlayıcıları tarafından desteklenmemektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>For more information, see the <bpt id="p1">&lt;a href='https://go.microsoft.com/fwlink/?LinkID=162565'&gt;</bpt>data integration guide<ept id="p1">&lt;/a&gt;</ept> for your Microsoft Dynamics ERP system.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Daha fazla bilgi için, Microsoft Dynamics ERP sisteminizin <bpt id="p1">&lt;a href='https://go.microsoft.com/fwlink/?LinkID=162565'&gt;</bpt>veri tümleştirme kılavuzuna<ept id="p1">&lt;/a&gt;</ept> bakın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Restrict a column to a reporting unit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütunu bir raporlama birimiyle kısıtlama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Double-click the <bpt id="p1">**</bpt>Reporting Unit<ept id="p1">**</ept> cell for the column to restrict.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kısıtlamak için sütunun <bpt id="p1">**</bpt>Raporlama Birimi<ept id="p1">**</ept> hücresine çift tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>In the <bpt id="p1">**</bpt>Reporting Unit Selection<ept id="p1">**</ept> dialog box, in the <bpt id="p2">**</bpt>Reporting tree<ept id="p2">**</ept> list, select a tree.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Raporlama Birimi Seçimi<ept id="p1">**</ept> iletişim kutusundaki <bpt id="p2">**</bpt>Raporlama ağacı<ept id="p2">**</ept> listesinden bir ağaç seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Expand or collapse the list of units, select a reporting unit, and then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birim listesini genişletin veya daraltın, bir raporlama birimi seçin ve ardından <bpt id="p1">**</bpt>Tamam<ept id="p1">**</ept>'a tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Format column headers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçim sütunu başlıkları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>You can add, modify, and delete the headers that appear at the top of the columns on a report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir rapordaki sütunların üst kısmında görünen başlıkları ekleyebilir, değiştirebilir ve silebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>You can also configure conditional spanning column headers, based on the <bpt id="p1">**</bpt>Period<ept id="p1">**</ept> field from column definitions and the <bpt id="p2">**</bpt>Base Period<ept id="p2">**</ept> field from report definitions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca sütun tanımlarındaki <bpt id="p1">**</bpt>Dönem<ept id="p1">**</ept> alanın ve rapor tanımlarındaki <bpt id="p2">**</bpt>Esas Dönem<ept id="p2">**</ept> alanına göre koşullu yayılan sütun başlıkları da yapılandırabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>The base period feature helps save you time when you create rolling forecast reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esas dönem özelliği toplanan tahmin raporları oluşturduğunuzda zaman kazanmanıza yardımcı olur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Create and manage column headers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun başlıkları oluşturma ve yönetme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>You can use the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box to add, modify, and delete the headers that appear at the top of the columns on a report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir rapordaki sütunların üst kısmında görünen başlıkları eklemek, değiştirmek ve silmek için <bpt id="p1">**</bpt>Sütun Başlığı<ept id="p1">**</ept> iletişim kutusunu kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>The following table describes the fields in the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tabloda <bpt id="p1">**</bpt>Sütun Başlığı<ept id="p1">**</ept> iletişim kutusundaki alanlar açıklanmaktadır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alan</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Column header text</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun başlığı metni</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>This text appears in the column header.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu metin sütun başlığında görünür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>You can type text directly in this field, or click <bpt id="p1">**</bpt>Insert AutoText<ept id="p1">**</ept> to select an option that updates the column header every time that the report is generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Doğrudan bu alanın içine yazabilir ya da rapor her oluşturulduğunda sütun başlığını güncelleştiren bir seçenek seçmek için <bpt id="p1">**</bpt>Otomatik Metin Ekle<ept id="p1">**</ept>'ye tıklayabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>To include multiple autotext codes, click <bpt id="p1">**</bpt>Insert AutoText<ept id="p1">**</ept> again, and then click another code in the list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birden fazla otomatik metin kodu eklemek için <bpt id="p1">**</bpt>Otomatik Metin Ekle<ept id="p1">**</ept>'ye yeniden tıklayın ve ardından listedeki başka bir koda tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Format options</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçim seçenekleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Apply formatting to a column header, such as box or underline.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun başlığına kutu veya alt çizgi gibi biçimlendirme uygulayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Spread from Spread to</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yayılma başlangıcı Yayılma bitişi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>Define the column or columns that the header text applies to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Başlık metninin uygulandığı sütunu veya sütunları tanımlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>Justification</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yaslama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Specify how the column header text should be aligned for the column or range of columns that is specified in the <bpt id="p1">**</bpt>Spread from<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Spread to<ept id="p2">**</ept> fields.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yayılma başlangıcı<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Yayılma bitişi<ept id="p2">**</ept> alanlarında belirtilen sütun veya sütun aralığı için sütun başlığı metninin nasıl hizalanması gerektiğini belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Create a column header</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun başlığı oluşturma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Double-click a header cell.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir başlık hücresine çift tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>In the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box, enter the column header text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sütun Başlığı<ept id="p1">**</ept> iletişim kutusunda, sütun başlığı metnini girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Alternatively, click <bpt id="p1">**</bpt>Insert AutoText<ept id="p1">**</ept>, and select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alternatif olarak <bpt id="p1">**</bpt>Otomatik Metin Ekle<ept id="p1">**</ept>'ye tıklayın ve bir seçenek seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>In the <bpt id="p1">**</bpt>Format options<ept id="p1">**</ept> field, select a format for the header.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Biçim seçenekleri<ept id="p1">**</ept> alanında, başlık için bir biçim seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>In the <bpt id="p1">**</bpt>Spread from<ept id="p1">**</ept> field, enter the letter of the column that the column header should start over.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yayılma başlangıcı<ept id="p1">**</ept> alanına, sütun başlığının başlaması gereken sütunun harfini girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>In the <bpt id="p1">**</bpt>Spread to<ept id="p1">**</ept> field, enter the letter of the column that the column header should end over.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yayılma bitişi<ept id="p1">**</ept> alanına ise sütun başlığının bitmesi gereken sütunun harfini girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Under <bpt id="p1">**</bpt>Justification<ept id="p1">**</ept>, select whether the column header text to should be left-justified, center-justified, or right-justified.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yaslama<ept id="p1">**</ept>'nın altında, sütun başlığının sola mı, ortaya mı yoksa sağa mı yaslanmış olması gerektiğini belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tamam<ept id="p1">**</ept> düğmesini tıklatın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>Add a column header row</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun başlığı satırı ekleme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>Select a cell in the header row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Başlık satırında bir hücre seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>On the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Insert Row<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Düzenle<ept id="p1">**</ept> menüsünde, <bpt id="p2">**</bpt>Satır Ekle<ept id="p2">**</ept>'ye tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>The new row is inserted above the row that you selected in step 2.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni satır, 2. adımda seçtiğiniz satırın üzerine eklenir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>If you have four or more rows of report headers on a report, the headers will overlap when the report is exported to an Excel worksheet.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir raporda dört ya da daha fazla rapor üstbilgisi satırına sahipseniz üstbilgiler bir Excel çalışma sayfasına aktarıldığında üst üste binecektir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>To view all headers on the report, increase the top margin in the report definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapordaki tüm başlıkları görüntülemek için, rapor tanımındaki üst boşluğu artırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Delete a column header row</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun başlığı satırını silme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>In the header row, select the cell to delete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Başlık satırında, silinecek hücreyi seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>On the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Delete Row<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Düzenle<ept id="p1">**</ept> menüsündeki <bpt id="p2">**</bpt>Satır Sil<ept id="p2">**</ept> öğesini tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Create an automatically generated header</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otomatik üretilen bir üstbilgi oluşturma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Report designer can automatically generate column headers, based on autotext codes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>Autotext codes are variables that are updated every time that a report is generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otomatik metin kodları her rapor oluşturulduğunda güncelleştirilen değişkenlerdir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Any column header can include these codes to specify report information that can vary, such as dates or period numbers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Her sütun başlığı tarihler ve dönem numaraları gibi değişebilen rapor bilgilerini belirtmek için bu kodları içerebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Therefore, you can use one column definition for multiple report definitions, time periods, and reporting trees.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, birden fazla rapor tanımı, süre ve raporlama ağacı için bir sütun tanımı kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Because autotext codes rely on the calendar information from the detail rows of the column definition, they are supported only for <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> and <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> columns.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otomatik metin kodları sütun tanımının ayrıntı satırlarındaki takvim bilgilerine dayandığından yalnızca <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> sütunları için desteklenir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>The way that an autotext code appears in the column header cell affects how that information appears on the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir otomatik metin kodunun sütun başlığı hücresinde görünme şekli söz konusu bilgilerin raporda nasıl göründüğünü etkiler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>In the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box, the autotext codes appear in mixed case.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sütun Başlığı<ept id="p1">**</ept> iletişim kutusunda, otomatik metin kodları büyük-küçük harf karışık olarak görünür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Therefore, the text appears in mixed case on the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, metin raporda da büyük-küçük harf karışık olarak görünür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>For example, in a standard calendar year, <bpt id="p1">**</bpt>@CalMonthLong<ept id="p1">**</ept> resolves month <bpt id="p2">**</bpt>7<ept id="p2">**</ept> to <bpt id="p3">**</bpt>July<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, standart bir takvim yılında, <bpt id="p1">**</bpt>@CalMonthLong<ept id="p1">**</ept> ayı <bpt id="p2">**</bpt>7<ept id="p2">**</ept> ila <bpt id="p3">**</bpt>Temmuz<ept id="p3">**</ept> olarak çözümler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>If the name of the month should be uppercase (for example <bpt id="p1">**</bpt>JULY<ept id="p1">**</ept>), enter the autotext code in uppercase characters in the <bpt id="p2">**</bpt>Column header text<ept id="p2">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Adı büyük harfle olması gereken ayın (örneğin <bpt id="p1">**</bpt>TEMMUZ<ept id="p1">**</ept>) adında, otomatik metin kodunu <bpt id="p2">**</bpt>Sütun başlığı metni<ept id="p2">**</ept> alanına büyük harflerle girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>For example, enter <bpt id="p1">**</bpt>@CALMONTHLONG<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>@CALMONTHLONG<ept id="p1">**</ept> girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>You can mix codes and text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kodları ve metni karıştırabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>For example, you enter the following header text: <bpt id="p1">**</bpt>Period @FiscalPeriod-@FiscalYear from @StartDate to @EndDate<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, şu başlık metnini girebilirsiniz: <bpt id="p1">**</bpt>Dönem @FiscalPeriod-@FiscalYear @StartDate ila @EndDate<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>The report heading that is generated resembles the following text: <bpt id="p1">**</bpt>Period 1-02 from 01/01/02 to 01/31/02<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oluşturulan rapor başlığı şu metne benzer: <bpt id="p1">**</bpt>Dönem 1-02 01/01/02 ila 01/31/02<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>The format of some of the text, such as the long date, depends on your regional settings on the Finance and Operations server.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzun tarih gibi bazı metin biçimleri Finance and Operations sunucunuzdaki bölgesel ayarlarınıza bağlıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>To change these settings, click the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> button, click <bpt id="p2">**</bpt>Control Panel<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Region and Language<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu ayarları değiştirmek için <bpt id="p1">**</bpt>Başlat<ept id="p1">**</ept> düğmesini, <bpt id="p2">**</bpt>Denetim Masası<ept id="p2">**</ept> öğesini ve ardından <bpt id="p3">**</bpt>Bölge ve Dil<ept id="p3">**</ept> öğesini tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>The following table lists the available autotext options for column headers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tabloda sütun başlıkları için kullanılabilen otomatik metin seçenekleri gösterilmektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>Autotext option and code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otomatik metin seçeneği ve kodu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Month name (@CalMonthLong)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ay adı (@CalMonthLong)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>Print the name of the current month in the column heading.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun başlığındaki geçerli ayın adını yazdırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>If you decide to round the amounts in the report to thousands, millions, or billions, or if you set the column width on the report to fewer than nine characters, the name of the month is abbreviated to the first three characters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapordaki tutarları binler, milyonlar veya milyarlara yuvarlamaya karar verirseniz ya da rapordaki sütun genişliğini dokuz karakterden daha az karaktere ayarlarsanız ayın adı ilk üç karakter olarak kısaltılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Abbreviated month name (@CalMonthShort)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kısaltılmış ay adı (@CalMonthShort)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>Print the abbreviated name of the month for the selected fiscal period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seçilen mali dönem için ayın kısaltılmış adını yazdırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>Period number (@FiscalPeriod)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dönem numarası (@FiscalPeriod)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>Print the numeric form of the fiscal period that is identified for that column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Söz konusu sütun için tanımlanan mali dönemin sayısal biçimini yazdırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>If the column spans multiple periods, the last period in the range is printed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun birden fazla döneme yayılıyorsa aralıktaki son dönem yazdırılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Period description (@FiscalPeriodName)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dönem açıklaması (@FiscalPeriodName)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Print the fiscal period description that is identified in the financial data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mali verilerde tanımlanan mali dönem açıklamasını yazdırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Fiscal year (@FiscalYear)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mali yıl (@FiscalYear)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Print the fiscal year for the column in numeric form.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunun mali yılı sayısal biçimde yazdırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Calendar year (@CalYear)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Takvim yılı (@CalYear)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Print the calendar year for the column in numeric form.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunun takvim yılını sayısal biçimde yazdırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Start date (@StartDate)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Başlangıç tarihi (@StartDate)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>Print the start date for the column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunun başlangıç tarihini yazdırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>End Date (@EndDate)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bitiş Tarihi (@EndDate)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>Print the end date for the column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunun bitiş tarihini yazdırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>Unit name from tree (@UnitName)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ağaçtaki birim adı (@UnitName)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>If you restrict a column to a specific unit of the reporting tree, print the unit name in the column header.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütunu belirli bir raporlama ağacı birimiyle kısıtlarsanız sütun başlığındaki birim adını yazdırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>Unit description (@UnitDesc)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birim açıklaması (@UnitDesc)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>If you restrict a column to a specific unit of the reporting tree, print the unit description in the column header.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütunu belirli bir raporlama ağacı birimiyle kısıtlarsanız sütun başlığındaki birim açıklamasını yazdırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>Book Code (@BookCode)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Defter Kodu (@BookCode)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source>Print the book code that is specified in the column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunda belirtilen defter kodunu yazdırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source>Blank line (@Blank)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Boş satır (@Blank)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source>Insert an empty line in the column header.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun başlığına boş bir satır ekleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>Create a conditional spanning header</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koşullu kapsayıcı üst bilgi oluşturma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source>Conditional spanning headers can span multiple columns that are based on specific period data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koşullu kapsayıcı üst bilgiler belirli dönem verilerini esas alan birden fazla sütuna yayılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source>For example, if you have a budget report for the fiscal year and want to display the actual budgets of past months together with the projected budgets of future months, you can use a conditional spanning header to automatically update the report header.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, mali yıl için bir bütçe raporunuz varsa ve gelecek ayların öngörülen bütçeleriyle birlikte geçmiş ayların gerçek bütçelerini görüntülemek istiyorsanız rapor başlığını otomatik olarak güncelleştirmek için bir koşullu kapsayıcı üst bilgi kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="298">
+          <source>Be aware of the following situations when you create a conditional spanning header:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koşullu kapsayıcı üst bilgi oluşturduğunuzda aşağıdaki durumlara dikkat edin:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="299">
+          <source>Any stop condition (<bpt id="p1">**</bpt>Spread to<ept id="p1">**</ept> field) that is matched before a start condition (<bpt id="p2">**</bpt>Spread From<ept id="p2">**</ept> field) is ignored.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir başlangıç koşulundan (<bpt id="p2">**</bpt>Yayılma başlangıcı<ept id="p2">**</ept> alanı) önce eşleşen herhangi bir koşul (<bpt id="p1">**</bpt>Yayılma bitişi<ept id="p1">**</ept> alanı) yok sayılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="300">
+          <source>For example, column B has the spread condition defined as BASE+1 to BASE, BASE is in column C, and BASE+1 is in column D. In this case, the stop condition in column C is ignored, and the printing of the header starts at column D.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, B sütunu BASE+1 ila BASE olarak tanımlanan yayılma koşuluna sahiptir, BASE C sütununda, BASE+1 ise D sütunundadır. Bu durumda, C sütunundaki durma koşulu yok sayılır ve başlığın yazdırılması D sütununda başlatılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="301">
+          <source>If you specify column headers that overlap, they overlap when they are printed on the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çakışan sütun başlıkları belirtirseniz bu başlıklar raporda yazdırıldıklarında çakışır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="302">
+          <source>The report is generated, but the following warning appears in the <bpt id="p1">**</bpt>Report Queue Status<ept id="p1">**</ept> field: "Column headers using Base intersect with other column headers and may cause overlapping text."</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor oluşturulur ancak <bpt id="p1">**</bpt>Rapor Kuyruğu Durumu<ept id="p1">**</ept> alanında aşağıdaki uyarı görüntülenir: "Esas kullanılan sütun başlıkları diğer sütun başlıklarıyla kesişiyor ve çakışan metinlere neden olabilir."</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="303">
+          <source>For example, the header definition on column B is B to BASE+1, and the header definition on column D is BASE+1 to F. In this case, the headers are printed on top of each other and are unreadable.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, sütun B üzerindeki başlık tanımı B eşittir B'den TEMEL +1'edir ve sütun D üzerindeki başlık tanımı TEMEL+1'den F'yedir. Bu durumda, başlıklar birbirlerinin üstüne yazılır ve okunamaz durumda olurlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="304">
+          <source>Whenever BASE is used in a <bpt id="p1">**</bpt>Spread from/Spread to<ept id="p1">**</ept> definition, be sure to view the report that is generated, to see whether the headers overlap.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE <bpt id="p1">**</bpt>Yayılma başlangıcı/Yayılma bitişi<ept id="p1">**</ept> tanımında her kullanıldığında, başlıkların çakışıp çakışmadığını görmek için mutlaka oluşturulan raporu görüntüleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="305">
+          <source>If you specify BASE in the spread definition in a No Print (<bpt id="p1">**</bpt>NP<ept id="p1">**</ept>) column, it's ignored, regardless of what is defined in the column definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yayılma tanımındaki BASE'i bir Yazdırma (<bpt id="p1">**</bpt>NP<ept id="p1">**</ept>) sütununda belirtirseniz sütun tanımında belirtilenlerden bağımsız olarak yok sayılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="306">
+          <source>Essentially, this scenario is the same as not creating a column header definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Temel olarak, bu senaryo bir sütun üstbilgi tanımının oluşturulmamasıyla aynıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="307">
+          <source>For conditional printing columns (<bpt id="p1">**</bpt>P<ph id="ph1">&amp;lt;</ph>B<ept id="p1">**</ept>, <bpt id="p2">**</bpt>P<ph id="ph2">&amp;gt;</ph>=B<ept id="p2">**</ept>), conditional spanning headers behave like any regular column header definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koşullu yazdırma sütunları (<bpt id="p1">**</bpt>P<ph id="ph1">&amp;lt;</ph>B,<ept id="p1">**</ept> <bpt id="p2">**</bpt>P<ph id="ph2">&amp;gt;</ph>=B<ept id="p2">**</ept>) için koşullu genişleyen üstbilgiler herhangi bir normal sütun üstbilgi tanımı gibi davranır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="308">
+          <source>For example, if the condition is false, any subsequent column matching for the spread condition starts the printing of the header.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, koşul yanlışsa yayılma koşulu için eşleşen sonraki herhangi bir sütun başlığın yazdırılmasını başlatır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="309">
+          <source>Create a conditional spanning header</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koşullu kapsayıcı üst bilgi oluşturma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="310">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="311">
+          <source>Double-click a header cell.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir başlık hücresine çift tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="312">
+          <source>In the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box, enter the column header text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sütun Başlığı<ept id="p1">**</ept> iletişim kutusunda, sütun başlığı metnini girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="313">
+          <source>Alternatively, click <bpt id="p1">**</bpt>Insert AutoText<ept id="p1">**</ept>, and select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alternatif olarak <bpt id="p1">**</bpt>Otomatik Metin Ekle<ept id="p1">**</ept>'ye tıklayın ve bir seçenek seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="314">
+          <source>In the <bpt id="p1">**</bpt>Format options<ept id="p1">**</ept> field, select a formatting style for the header.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Biçim seçenekleri<ept id="p1">**</ept> alanında, başlık için bir biçimlendirme stili seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="315">
+          <source>Specify a period relative to the base period that is specified when the report is generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor oluşturulurken belirtilen esas dönemle ilgili bir dönem belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="316">
+          <source>In the <bpt id="p1">**</bpt>Spread from<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Spread to<ept id="p2">**</ept> fields, enter one of the following values: <bpt id="p3">**</bpt>BASE<ept id="p3">**</ept>, <bpt id="p4">**</bpt>BASE-X<ept id="p4">**</ept> or <bpt id="p5">**</bpt>BASE+X<ept id="p5">**</ept>, where X is the number of periods from the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yayılma başlangıcı<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Yayılma bitişi<ept id="p2">**</ept> alanlarına şu değerlerden birini girin: <bpt id="p3">**</bpt>BASE<ept id="p3">**</ept>, <bpt id="p4">**</bpt>BASE-X<ept id="p4">**</ept> veya <bpt id="p5">**</bpt>BASE+X<ept id="p5">**</ept>. Burada X esas dönemden itibaren dönem sayısıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="317">
+          <source>For example, if you enter <bpt id="p1">**</bpt>BASE<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Spread from<ept id="p2">**</ept> field, the conditional spanning column header text starts in the column header where the report definition's <bpt id="p3">**</bpt>Base period<ept id="p3">**</ept> value equals the column definition's <bpt id="p4">**</bpt>Period<ept id="p4">**</ept> value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>Yayılma başlangıcı<ept id="p1">**</ept> alanına <bpt id="p2">**</bpt>BASE<ept id="p2">**</ept> ifadesini girerseniz koşullu kapsayıcı sütun üst bilgisi metni rapor tanımının <bpt id="p3">**</bpt>Esas dönem<ept id="p3">**</ept> değeri sütun tanımının <bpt id="p4">**</bpt>Dönem<ept id="p4">**</ept> değerine eşit olduğunda sütun başlığında başlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="318">
+          <source>It ends in the column that is indicated in the <bpt id="p1">**</bpt>Spread to<ept id="p1">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yayılma bitişi<ept id="p1">**</ept> alanında belirtilen sütunda biter.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="319">
+          <source>Therefore, if the spread is BASE to M, and the report definition's <bpt id="p1">**</bpt>Base period<ept id="p1">**</ept> value is <bpt id="p2">**</bpt>4<ept id="p2">**</ept>, the header starts in the column where the period is set to <bpt id="p3">**</bpt>4<ept id="p3">**</ept> and ends at column M. Headers stop and start on printing columns only.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle yayılma BASE ila M ise rapor tanımının <bpt id="p1">**</bpt>Esas dönem<ept id="p1">**</ept> değeri <bpt id="p2">**</bpt>4<ept id="p2">**</ept>'tür, başlık dönemin <bpt id="p3">**</bpt>4<ept id="p3">**</ept> olarak ayarlandığı durumlarda sütunda başlar ve M sütununda biter. Başlıklar yalnızca yazdırma sütunlarında durur ve başlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="320">
+          <source>Under <bpt id="p1">**</bpt>Justification<ept id="p1">**</ept>, select whether the column header text should be left-justified, center-justified, or right justified.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yaslama<ept id="p1">**</ept>'nın altında, sütun başlığının sola mı, ortaya mı yoksa sağa mı yaslanmış olması gerektiğini belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="321">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tamam<ept id="p1">**</ept> düğmesini tıklatın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="322">
+          <source>Example of a conditional spanning header</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koşullu kapsayıcı üst bilgi örneği</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="323">
+          <source>Phyllis is creating a report for a dynamic six-month forecast.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pelin dinamik bir altı aylık tahmin için bir rapor oluşturuyor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="324">
+          <source>She wants the word "Actual" to be printed over the columns that contain actual data, and the word "Budget" to be printed over the columns that contain budget forecasts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gerçek verileri içeren sütunların üzerine "Gerçek durum" ifadesinin, bütçe tahminlerini içeren sütunların üzerine ise "Bütçe" ifadesinin yazdırılmasını istiyor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="325">
+          <source>Each month that the report is run, there is one more actual column and one less budget column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Raporun çalıştırıldığı her ay, bir fazla gerçek durum sütunu ve bir az bütçe sütunu vardır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="326">
+          <source>Although Phyllis can modify the column definition manually each time that the report is generated to adjust the headers, to save time and effort, she decides to create conditional spanning headers that will automatically create headers over the appropriate columns each time that the report is run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pelin başlıkları ayarlamak için sütun tanımını rapor her oluşturulduğunda el ile değiştirebilse de, zamandan ve çabadan tasarruf etmek için rapor her çalıştırıldığında ilgili sütunların üzerinde otomatik olarak başlık oluşturacak koşullu kapsayıcı üst bilgiler oluşturmaya karar veriyor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="327">
+          <source>Phyllis opens Report Designer, clicks <bpt id="p1">**</bpt>Column Definition<ept id="p1">**</ept> in the navigation pane, and opens the column definition for the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pelin Rapor Tasarımcısı'nı açıyor, gezinme bölmesindeki <bpt id="p1">**</bpt>Sütun Tanımı<ept id="p1">**</ept>'na tıklıyor ve raporun sütun tanımını açıyor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="328">
+          <source>She then enters the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ardından aşağıdaki bilgileri giriyor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="329">
+          <source>The base period in the report definition is 4.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor tanımındaki esas dönem 4'tür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="330">
+          <source>A</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="331">
+          <source>B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="332">
+          <source>C</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">C</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="333">
+          <source>D</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">D</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="334">
+          <source>E</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="335">
+          <source>F</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="336">
+          <source>G</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">G</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="337">
+          <source>H</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">H</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="338">
+          <source>I</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">I</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="339">
+          <source>J</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">J</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="340">
+          <source>K</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">K</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="341">
+          <source>L</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="342">
+          <source>M</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">M</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="343">
+          <source>Header 1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Başlık 1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="344">
+          <source>Actual</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gerçek durum</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="345">
+          <source>Budget</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bütçe</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="346">
+          <source>Header 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Başlık 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="347">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="348">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="349">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="350">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="351">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="352">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="353">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="354">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="355">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="356">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="357">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="358">
+          <source>@CalMonthLong</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">@CalMonthLong</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="359">
+          <source>Header 3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Başlık 3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="360">
+          <source>Column Type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun Türü</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="361">
+          <source>DESC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DESC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="362">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="363">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="364">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="365">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="366">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="367">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="368">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="369">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="370">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="371">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="372">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="373">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="374">
+          <source>Book Code/Attribute</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Defter Kodu/Öznitelik</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="375">
+          <source>ACTUAL</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="376">
+          <source>BUDGET2012</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BUDGET2012</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="377">
+          <source>ACTUAL</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="378">
+          <source>BUDGET2012</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BUDGET2012</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="379">
+          <source>ACTUAL</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="380">
+          <source>BUDGET2012</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BUDGET2012</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="381">
+          <source>ACTUAL</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="382">
+          <source>BUDGET2012</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BUDGET2012</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="383">
+          <source>ACTUAL</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="384">
+          <source>BUDGET2012</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BUDGET2012</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="385">
+          <source>ACTUAL</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="386">
+          <source>BUDGET2012</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BUDGET2012</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="387">
+          <source>Fiscal Year</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mali Yıl</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="388">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="389">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="390">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="391">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="392">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="393">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="394">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="395">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="396">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="397">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="398">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="399">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="400">
+          <source>Period</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dönem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="401">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="402">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="403">
+          <source>2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="404">
+          <source>2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="405">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="406">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="407">
+          <source>4</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="408">
+          <source>4</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="409">
+          <source>5</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="410">
+          <source>5</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="411">
+          <source>6</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="412">
+          <source>6</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="413">
+          <source>Periods Covered</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kapsanan Dönemler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="414">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="415">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="416">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="417">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="418">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="419">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="420">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="421">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="422">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="423">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="424">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="425">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="426">
+          <source>Column Width</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun Genişliği</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="427">
+          <source>30</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">30</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="428">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="429">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="430">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="431">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="432">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="433">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="434">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="435">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="436">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="437">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="438">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="439">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="440">
+          <source>Print Control</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazdırma Kontrolü</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="441">
+          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="442">
+          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="443">
+          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="444">
+          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="445">
+          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="446">
+          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="447">
+          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="448">
+          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="449">
+          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="450">
+          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="451">
+          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="452">
+          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="453">
+          <source>Phyllis double-clicks a column header cell to open the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box, where she enters the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Phyllis, <bpt id="p1">**</bpt>Sütun Üstbilgisi<ept id="p1">**</ept> iletişim kutusunu açmak üzere bir sütun üstbilgi hücresini çift tıklıyor ve buraya aşağıdaki bilgileri giriyor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="454">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alan</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="455">
+          <source>Value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Değer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="456">
+          <source>Column header text</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun başlığı metni</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="457">
+          <source>Actual</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gerçek Durum</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="458">
+          <source>Insert AutoText</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otomatik Metin Ekle</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="459">
+          <source>No selection is made.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seçim yapılmadı.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="460">
+          <source>Format options</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçim seçenekleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="461">
+          <source>Box</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kutu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="462">
+          <source>Justification</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yaslama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="463">
+          <source>No selection is made.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seçim yapılmadı.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="464">
+          <source>Spread from</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yayılma başlangıcı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="465">
+          <source>B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="466">
+          <source>Spread to</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yayılma bitişi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="467">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="468">
+          <source>Budget header</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bütçe başlığı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="469">
+          <source>BASE+1 to end column</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE+1 ila bitiş sütunu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="470">
+          <source>After she has finished entering information, Phyllis clicks <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pelin bilgileri girmeyi tamamladıktan sonra <bpt id="p1">**</bpt>Tamam<ept id="p1">**</ept>'a tıklıyor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="471">
+          <source>She then double-clicks the column header cell in column C to open the <bpt id="p1">**</bpt>Column Header<ept id="p1">**</ept> dialog box, where she enters the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ardından aşağıdaki bilgileri girdiği <bpt id="p1">**</bpt>Sütun Başlığı<ept id="p1">**</ept> iletişim kutusunu açmak için C sütunundaki sütun başlığı hücresine çift tıklıyor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="472">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alan</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="473">
+          <source>Value</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Değer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="474">
+          <source>Column header text</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun başlığı metni</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="475">
+          <source>Budget</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bütçe</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="476">
+          <source>Insert AutoText</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Otomatik Metin Ekle</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="477">
+          <source>No selection is made.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seçim yapılmadı.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="478">
+          <source>Format options</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçim seçenekleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="479">
+          <source>Box</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kutu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="480">
+          <source>Justification</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yaslama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="481">
+          <source>No selection is made.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seçim yapılmadı.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="482">
+          <source>Spread from</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yayılma başlangıcı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="483">
+          <source>C</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">C</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="484">
+          <source>Spread to</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yayılma bitişi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="485">
+          <source>BASE+2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE+2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="486">
+          <source>Now, every time that this report is generated, the word "Actual" will be printed over the columns that contain actual data, and the word "Budget" will be printed over the columns that contain budget forecasts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Artık bu rapor her oluşturulduğunda, gerçek verileri içeren sütunların üzerine "Gerçek durum" ifadesi, bütçe tahminlerini içeren sütunların üzerine ise "Bütçe" ifadesi yazdırılacaktır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="487">
+          <source>Additionally, the number of columns will be adjusted each month.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca, her ay sütunların sayısı ayarlanacaktır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="488">
+          <source>Apply column justification</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun yaslama uygulama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="489">
+          <source>The <bpt id="p1">**</bpt>Justification<ept id="p1">**</ept> cell is used to apply justification formatting to a description column in a report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir rapordaki açıklama sütununa yaslama biçimlendirmesi uygulamak için <bpt id="p1">**</bpt>Yaslama<ept id="p1">**</ept> hücresi kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="490">
+          <source>This option affects only the column descriptions, not the actual values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu seçenek gerçek değerleri değil yalnızca sütun açıklamalarını etkiler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="491">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="492">
+          <source>Double-click the <bpt id="p1">**</bpt>Justification<ept id="p1">**</ept> cell.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yaslama<ept id="p1">**</ept> hücresine çift tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="493">
+          <source>Select one of the following values in the list:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Listeden aşağıdaki değerlerden birini seçin:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="494">
+          <source><bpt id="p1">**</bpt>None<ept id="p1">**</ept> – No justification is applied.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yok<ept id="p1">**</ept>: Yaslama uygulanmaz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="495">
+          <source><bpt id="p1">**</bpt>Left<ept id="p1">**</ept> – Left-align the column descriptions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sol<ept id="p1">**</ept>: Sütun açıklamalarını sola hizalayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="496">
+          <source><bpt id="p1">**</bpt>Center<ept id="p1">**</ept> – Center-align the column descriptions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Orta<ept id="p1">**</ept>: Sütun açıklamalarını ortaya hizalayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="497">
+          <source><bpt id="p1">**</bpt>Right<ept id="p1">**</ept> – Right-align the column descriptions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sağ<ept id="p1">**</ept>: Sütun açıklamalarını sağa hizalayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="498">
+          <source>Add special formatting options</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Özel biçimlendirme seçenekleri ekleme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="499">
+          <source>In the column definition, the formatting column detail rows apply special formatting to selected columns.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun tanımında, biçimlendirme sütunu ayrıntı satırları seçilen sütunlara özel biçimlendirme uygular.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="500">
+          <source>Although some of the <bpt id="p1">**</bpt>Print Control<ept id="p1">**</ept> options and <bpt id="p2">**</bpt>Column Restrictions<ept id="p2">**</ept> options are specific to <bpt id="p3">**</bpt>FD<ept id="p3">**</ept> columns, most of the options apply to all column types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bazı <bpt id="p1">**</bpt>Yazdırma Denetimi<ept id="p1">**</ept> seçenekleri ve <bpt id="p2">**</bpt>Sütun Kısıtlamaları<ept id="p2">**</ept> seçenekleri <bpt id="p3">**</bpt>FD<ept id="p3">**</ept> sütunlarına özel olsa da seçeneklerin çoğu tüm sütun türleri için geçerlidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="501">
+          <source>The formatting that is specified in the column definition overrides the formatting that is specified in the report definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun tanımında belirtilen biçimlendirme rapor tanımında belirtilen biçimlendirmeyi geçersiz kılar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="502">
+          <source>However, the formatting that is specified in the row definition overrides the formatting that is specified in the column definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ancak, satır tanımında belirtilen biçimlendirme sütun tanımında belirtilen biçimlendirmeyi geçersiz kılar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="503">
+          <source>The following rows are considered formatting rows:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki satırlar biçimlendirme satırları olarak değerlendirilir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="504">
+          <source>Column Width</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun Genişliği</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="505">
+          <source>Extra Spaces Before Column</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütundan Önceki Fazladan Boşluklar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="506">
+          <source>Format/Currency Override</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçim/Para Birimi Geçersiz Kılma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="507">
+          <source>Print Control</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazdırma Denetimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="508">
+          <source>Changing the column width</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun genişliğini değiştirme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="509">
+          <source>The <bpt id="p1">**</bpt>Column Width<ept id="p1">**</ept> cell specifies the number of characters to use for the width of this column on the printed report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sütun Genişliği<ept id="p1">**</ept> hücresi yazdırılan raporda bu sütunun genişliği için kullanılacak karakter sayısını belirtir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="510">
+          <source>Column width is important for columns that contain amounts (columns of the <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WKS<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>FD<ept id="p3">**</ept> type), descriptions (columns of the <bpt id="p4">**</bpt>DESC<ept id="p4">**</ept> type), or fill (columns of the <bpt id="p5">**</bpt>FILL<ept id="p5">**</ept> type).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun genişliği tutar (<bpt id="p1">**</bpt>CALC<ept id="p1">**</ept>, <bpt id="p2">**</bpt>WKS<ept id="p2">**</ept> veya <bpt id="p3">**</bpt>FD<ept id="p3">**</ept> türü sütunlar), açıklama (<bpt id="p4">**</bpt>DESC<ept id="p4">**</ept> türü sütunlar) veya dolgu (<bpt id="p5">**</bpt>FILL<ept id="p5">**</ept> türü sütunlar) içeren sütunlar için önemlidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="511">
+          <source>By default, the <bpt id="p1">**</bpt>AutoFit<ept id="p1">**</ept> option is selected, so that the width of each column is automatically adjusted to fit the contents.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varsayılan olarak <bpt id="p1">**</bpt>Otomatik Sığdır<ept id="p1">**</ept> seçeneği seçilidir, böylece her sütunun genişliği otomatik olarak içeriklere uyacak şekilde ayarlanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="512">
+          <source>Specify the width of a column on a report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir rapordaki bir sütunun genişliğini belirtme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="513">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="514">
+          <source>In the <bpt id="p1">**</bpt>Column Width<ept id="p1">**</ept> cell, enter the number of spaces for the width of the column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sütun Genişliği<ept id="p1">**</ept> sütunun genişliği için boşluk sayını girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="515">
+          <source>The maximum width of any column is 255 characters (this number includes cents, commas, and parentheses).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Herhangi bir sütunun maksimum genişliği 255 karakterdir (Bu rakama kuruşlar, virgüller ve parantezler dahildir).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="516">
+          <source>Alternatively, to enable report designer to select the appropriate width for the column, based on the cell content, double-click the <bpt id="p1">**</bpt>Column Width<ept id="p1">**</ept> cell, and then click <bpt id="p2">**</bpt>AutoFit<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alternatif olarak, sütun için hücre içeriğine göre uygun genişliği seçmek üzere rapor tasarımcısını etkinleştirmek için <bpt id="p1">**</bpt>Sütun Genişliği<ept id="p1">**</ept> hücresini çift tıklayın ve ardından <bpt id="p2">**</bpt>Otomatik Sığdırma<ept id="p2">**</ept> öğesini seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="517">
+          <source>Add space between columns</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunların arasına boşluk ekleme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="518">
+          <source>The <bpt id="p1">**</bpt>Extra Spaces Before Column<ept id="p1">**</ept> cell specifies the width of the separator between one column and adjacent columns in the column definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sütundan Önceki Fazladan Boşluklar<ept id="p1">**</ept> sütun tanımındaki bir sütun ile bitişik sütunlar arasındaki ayırıcının genişliğini belirtir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="519">
+          <source>The <bpt id="p1">**</bpt>Extra Spaces Before Column<ept id="p1">**</ept> setting affects all column detail rows for the column, but not the column header rows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sütundan Önceki Fazladan Boşluklar<ept id="p1">**</ept> ayarı sütun için tüm sütun ayrıntısı satırlarını etkiler, ancak sütun başlığı satırlarını etkilemez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="520">
+          <source>Use this option to separate groups of columns or to add a few spaces before the description, so that the description column is indented from the left-aligned titles on the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun gruplarını ayırmak veya açıklamadan önce birkaç boşluk eklemek için bu seçeneği kullanın, böylece açıklama sütunu rapordaki sola hizalanmış başlıklardan itibaren girintilendirilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="521">
+          <source>The default number of spaces between each column is two.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Her sütun arasındaki varsayılan boşluk sayısı ikidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="522">
+          <source>You can change this setting on the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> tab in the report definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu ayarı rapor tanımındaki <bpt id="p1">**</bpt>Ayarlar<ept id="p1">**</ept> sekmesinde değiştirebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="523">
+          <source>Specify the space between columns</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunların arasındaki boşluğu belirtme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="524">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="525">
+          <source>In the <bpt id="p1">**</bpt>Extra Spaces Before Column<ept id="p1">**</ept> cell, enter the number of spaces to insert between columns.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sütundan Önceki Fazladan Boşluklar<ept id="p1">**</ept> hücresine sütunlar arasına girilecek boşluk sayısını girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="526">
+          <source>Specify a format currency override</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir biçim para birimi geçersiz kılma belirleyin</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="527">
+          <source>The <bpt id="p1">**</bpt>Format/Currency Override<ept id="p1">**</ept> cell specifies the formatting of the decimal, currency, and percentage amounts in the column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Biçim/Para Birimi Geçersiz Kılma<ept id="p1">**</ept> hücresi sütundaki ondalık, para birimi ve yüzde tutarlarının biçimlendirmesini belirtir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="528">
+          <source>This formatting overrides any formatting that is specified in the report definition or system defaults.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu biçimlendirme rapor tanımında veya sistem varsayılanlarında belirtilen her türlü biçimlendirmeyi geçersiz kılar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="529">
+          <source>Assign a format currency override to a report column</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir rapor sütununa biçim para birimi geçersiz kılma işlemi atama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="530">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="531">
+          <source>Double-click a <bpt id="p1">**</bpt>Format/Currency Override<ept id="p1">**</ept> cell in an amount column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir tutar sütunundaki bir <bpt id="p1">**</bpt>Biçim/Para Birimi Geçersiz Kalma<ept id="p1">**</ept> hücresine çift tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="532">
+          <source>In the <bpt id="p1">**</bpt>Format Override<ept id="p1">**</ept> dialog box, select formatting options.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Biçim Geçersiz Kılma<ept id="p1">**</ept> iletişim kutusunda, biçimlendirme seçeneklerini seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="533">
+          <source>Add a print control code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazdırma denetimi kodu ekleme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="534">
+          <source>The <bpt id="p1">**</bpt>Print Control<ept id="p1">**</ept> cell can contain codes that adjust the display or the printing characteristics of a column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yazdırma Denetimi<ept id="p1">**</ept> hücresi bir sütunun görüntüleme veya yazdırma özelliklerini ayarlayan kodlar içerebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="535">
+          <source>There are two types of print control codes: regular print control codes and conditional print control codes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İki tür yazdırma denetimi kodu vardır: normal yazdırma denetimi kodları ve koşullu yazdırma kontrol kodları.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="536">
+          <source>Regular print control codes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Normal yazdırma denetimi kodları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="537">
+          <source>Print control code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazdırma denetimi kodu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="538">
+          <source>Translation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çeviri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="539">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="540">
+          <source>NP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="541">
+          <source>Nonprinting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazdırılmayan</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="542">
+          <source>Exclude the amounts in this column from the report that is printed and from calculations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazdırılan rapordaki ve hesaplamalardaki tutarları bu sütunda hariç tutun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="543">
+          <source>To include a non-printing column in a calculation, refer to the column directly in the calculation formula.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir hesaplamaya yazdırılmayan bir sütun eklemek için, doğrudan hesaplama formülündeki sütuna bakın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="544">
+          <source>For example, the non-printing column C is included in the following calculation: <bpt id="p1">**</bpt>B+C+D<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, şu hesaplamaya yazdırılmayan C sütunu dahil edilmiştir: <bpt id="p1">**</bpt>B+C+D<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="545">
+          <source>However, the non-printing column C isn't included in the following calculation: <bpt id="p1">**</bpt>B:D<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ancak, şu hesaplamaya yazdırılmayan C sütunu dahil edilmemiştir: <bpt id="p1">**</bpt>B:D<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="546">
+          <source>XCR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">XCR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="547">
+          <source>Change sign if typical balance of row is credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Normal satır bakiyesi alacaksa işareti değiştir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="548">
+          <source>Create a budget or comparative report where any unfavorable variance (such as a revenue shortfall or an expense overrun) is always negative.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Her türlü istenmeyen varyansın (gelir açığı veya gider aşımı gibi) her zaman negatif olduğu durumlarda bir bütçe veya karşılaştırma raporu oluşturun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="549">
+          <source>Apply this code to a <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> column to reverse the sign of the column amount if the typical balance of a given row is a credit (as identified by a <bpt id="p2">**</bpt>C<ept id="p2">**</ept> in the <bpt id="p3">**</bpt>Normal Balance<ept id="p3">**</ept> column of the row definition).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlgili satırın bakiyesi genellikle borç ise (satır tanımının <bpt id="p1">**</bpt>Normal Bakiye<ept id="p1">**</ept> sütununda <bpt id="p2">**</bpt>C<ept id="p2">**</ept> olarak tanımlanır) sütun tutarının işaretini ters çevirmek için <bpt id="p3">**</bpt>CALC<ept id="p3">**</ept> sütununa bu kodu uygulayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="550">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> For <bpt id="p2">&lt;strong&gt;</bpt>TOT<ept id="p2">&lt;/strong&gt;</ept> rows and <ph id="ph1">&lt;/strong&gt;</ph>CAL<ph id="ph2">&lt;/strong&gt;</ph> rows that typically carry a credit balance, be sure to enter a <bpt id="p3">&lt;strong&gt;</bpt>C<ept id="p3">&lt;/strong&gt;</ept> in the <bpt id="p4">&lt;strong&gt;</bpt>Normal Balance<ept id="p4">&lt;/strong&gt;</ept> column in the row definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Not:<ept id="p1">&lt;/strong&gt;</ept> Tipik olarak bir alacak bakiyesi taşıyan <bpt id="p2">&lt;strong&gt;</bpt>TOT<ept id="p2">&lt;/strong&gt;</ept> satırları ve <ph id="ph1">&lt;/strong&gt;</ph>CAL<ph id="ph2">&lt;/strong&gt;</ph> satırları için, satır tanımında <bpt id="p3">&lt;strong&gt;</bpt>Normal Bakiye<ept id="p3">&lt;/strong&gt;</ept> sütununa <bpt id="p4">&lt;strong&gt;</bpt>C<ept id="p4">&lt;/strong&gt;</ept> girdiğinizden emin olun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="551">
+          <source>X0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="552">
+          <source>Suppress column if all zeros or blanks</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tümü sıfırsa veya boşsa sütunu gizle</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="553">
+          <source>Exclude an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column from the report if all cells in that column are either empty or contain zeros.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> sütununu bu sütundaki tüm hücreler boşsa veya sıfır içeriyorsa rapordan çıkarın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="554">
+          <source>SR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="555">
+          <source>Suppress rounding</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yuvarlamayı gizle</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="556">
+          <source>Prevent the amounts in this column from being rounded.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu sütundaki tutarların yuvarlanmasını engelleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="557">
+          <source>XR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">XR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="558">
+          <source>Suppress rollup</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplamayı gizle</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="559">
+          <source>Suppress a rollup.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir toplamayı gizleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="560">
+          <source>If the report uses a reporting tree, the amounts in this column aren't rolled up into subsequent parent nodes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Raporda bir raporlama ağacı kullanılıyorsa bu sütundaki tutarlar sonraki üst düğümlerde toplanmaz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="561">
+          <source>RP</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">RP</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="562">
+          <source>Repeat column on each page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunu her sayfada yinele</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="563">
+          <source>Repeat a specified column on each page of a report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen bir sütunu bir raporun her sayfasında tekrarlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="564">
+          <source>For example, you can use the <bpt id="p1">**</bpt>RP<ept id="p1">**</ept> print control code to include a column of the <bpt id="p2">**</bpt>ROW<ept id="p2">**</ept> type that pulls in row codes on every page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, her sayfadaki satır kodlarını alan <bpt id="p2">**</bpt>ROW<ept id="p2">**</ept> türü bir sütun eklemek için <bpt id="p1">**</bpt>RP<ept id="p1">**</ept> yazdırma denetimi kodunu kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="565">
+          <source>WT</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">WT</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="566">
+          <source>Wrap text</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Metni kaydır</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="567">
+          <source>If the text in a column is too long to fit the space, wrap the text to keep all the text in the column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütundaki metin boşluğa sığmayacak kadar uzunsa tüm metni sütunda tutmak için metni kaydırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="568">
+          <source>Conditional print control codes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koşullu yazdırma kontrol kodları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="569">
+          <source>Conditional print control code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koşullu yazdırma kontrol kodu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="570">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="571">
+          <source>(none)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(yok)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="572">
+          <source>Clear the conditional print selection.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Koşullu yazdırma seçimini temizler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="573">
+          <source>P<ph id="ph1">&amp;lt;</ph>B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="574">
+          <source>Display a specified column only if the period is less than the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sütun sadece dönem, esas dönemden kısa ise görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="575">
+          <source>P<ph id="ph1">&amp;gt;</ph>B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="576">
+          <source>Display a specified column only if the period is more than the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sütun sadece dönem, esas dönemden uzun ise görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="577">
+          <source>P=B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P=B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="578">
+          <source>Display a specified column only if the period is equal to the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sütun sadece dönem, esas döneme eşit ise görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="579">
+          <source>P<ph id="ph1">&amp;lt;</ph>=B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;lt;</ph>=B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="580">
+          <source>Display a specified column only if the period is less than or equal to the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sütun sadece dönem, esas döneme eşit veya daha kısa ise görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="581">
+          <source>P<ph id="ph1">&amp;gt;</ph>=B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">P<ph id="ph1">&amp;gt;</ph>=B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="582">
+          <source>Display a specified column only if the period is more than or equal to the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sütun sadece dönem, esas döneme eşit veya daha uzun ise görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="583">
+          <source>Add print control codes to a report column</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir rapor sütununa yazdırma denetimi kodları ekleme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="584">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="585">
+          <source>Double-click the <bpt id="p1">**</bpt>Print Control<ept id="p1">**</ept> cell.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yazdırma Denetimi<ept id="p1">**</ept> hücresine çift tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="586">
+          <source>In the <bpt id="p1">**</bpt>Print Control<ept id="p1">**</ept> dialog box, select a code in the <bpt id="p2">**</bpt>Select print control options<ept id="p2">**</ept> list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Yazdırma Denetimi<ept id="p1">**</ept> iletişim kutusundaki <bpt id="p2">**</bpt>Yazdırma denetimi seçeneklerini seç<ept id="p2">**</ept> listesinden bir kod seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="587">
+          <source>To select more than one code, hold down the Ctrl key while you select the codes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birden fazla kod seçmek için, kodları seçerken Ctrl tuşunu basılı tutun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="588">
+          <source>Select an option in the <bpt id="p1">**</bpt>Conditional print options<ept id="p1">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Koşullu yazdırma seçenekleri<ept id="p1">**</ept> alanında bir seçenek seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="589">
+          <source>By default, <bpt id="p1">**</bpt>(none)<ept id="p1">**</ept> is selected.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varsayılan olarak, <bpt id="p1">**</bpt>(yok)<ept id="p1">**</ept> seçilidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="590">
+          <source>You can select only one conditional print code at a time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aynı anda sadece bir koşullu yazdırma kodu seçebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="591">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tamam<ept id="p1">**</ept> seçeneğini tıklatın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="592">
+          <source>You can also enter the print codes directly in the <bpt id="p1">**</bpt>Print Control<ept id="p1">**</ept> cell.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca, yazdırma kontrol kodlarını doğrudan <bpt id="p1">**</bpt>Yazdırma Kontrol<ept id="p1">**</ept> hücresine de girebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="593">
+          <source>Separate multiple print control codes with a comma.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birden fazla yazdırma denetimi kodunu virgülle ayırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="594">
+          <source>Column types</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun türleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="595">
+          <source>The type of information that each column on a report includes is specified by the value in the <bpt id="p1">**</bpt>Column Type<ept id="p1">**</ept> row in the column definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir rapordaki her sütunun içerdiği bilgi türü, sütun tanımındaki <bpt id="p1">**</bpt>Sütun Türü<ept id="p1">**</ept> satırındaki değerle belirtilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="596">
+          <source>Each column definition must contain at least one description (<bpt id="p1">**</bpt>DESC<ept id="p1">**</ept>) column and one amount (<bpt id="p2">**</bpt>FD<ept id="p2">**</ept>, <bpt id="p3">**</bpt>WKS<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>CALC<ept id="p4">**</ept>) column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Her sütun tanımı en az bir açıklama (<bpt id="p1">**</bpt>DESC<ept id="p1">**</ept>) sütunu ve bir tutar (<bpt id="p2">**</bpt>FD<ept id="p2">**</ept>, <bpt id="p3">**</bpt>WKS<ept id="p3">**</ept> veya <bpt id="p4">**</bpt>CALC<ept id="p4">**</ept>) sütunu içermelidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="597">
+          <source>The column type codes don't apply to all accounting systems.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun türü kodları tüm muhasebe sistemlerinde geçerli değildir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="598">
+          <source>If you select a type that isn't valid for your accounting system, that column is blank on the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Muhasebe sisteminiz için geçerli olmayan bir tür seçerseniz söz konusu sütun raporda boş olur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="599">
+          <source>Specify a column type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun türü belirtme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="600">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="601">
+          <source>In the appropriate column, double-click a cell in the <bpt id="p1">**</bpt>Column Type<ept id="p1">**</ept> row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlgili sütunda, <bpt id="p1">**</bpt>Sütun Türü<ept id="p1">**</ept> satırındaki bir hücreye çift tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="602">
+          <source>Select a column type in the list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Listeden bir sütun türü seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="603">
+          <source>The following table describes the various column types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tabloda çeşitli sütun türleri açıklanmaktadır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="604">
+          <source>Column type code</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun türü kodu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="605">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="606">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="607">
+          <source>Display financial data when you use a <bpt id="p1">&lt;strong&gt;</bpt>Link to Financial Dimensions<ept id="p1">&lt;/strong&gt;</ept> column in the row definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satır tanımında bir <bpt id="p1">&lt;strong&gt;</bpt>Finansal Boyutlara Bağlantı<ept id="p1">&lt;/strong&gt;</ept> kullandığınızda finansal verileri görüntüleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="608">
+          <source>When you select the <bpt id="p1">&lt;strong&gt;</bpt>FD<ept id="p1">&lt;/strong&gt;</ept> column type, default settings are automatically specified for the following rows:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>FD<ept id="p1">&lt;/strong&gt;</ept> sütun türünü seçtiğinizde, aşağıdaki satırlar için varsayılan ayarlar otomatik olarak belirtilir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="609">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Book Code/Attribute Category:<ept id="p1">&lt;/strong&gt;</ept> ACTUAL</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Defter Kodu/Öznitelik Kategorisi:<ept id="p1">&lt;/strong&gt;</ept> ACTUAL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="610">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Book Code/Attribute Category:<ept id="p1">&lt;/strong&gt;</ept> ACTUAL</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Defter Kodu/Öznitelik Kategorisi:<ept id="p1">&lt;/strong&gt;</ept> ACTUAL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="611">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Fiscal Year:<ept id="p1">&lt;/strong&gt;</ept> BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Mali Yıl:<ept id="p1">&lt;/strong&gt;</ept> BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="612">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Period:<ept id="p1">&lt;/strong&gt;</ept> BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Dönem:<ept id="p1">&lt;/strong&gt;</ept> BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="613">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Periods Covered:<ept id="p1">&lt;/strong&gt;</ept> PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Kapsanan Dönemler:<ept id="p1">&lt;/strong&gt;</ept> PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="614">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Column Width:<ept id="p1">&lt;/strong&gt;</ept> 14</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Sütun Genişliği:<ept id="p1">&lt;/strong&gt;</ept> 14</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="615">
+          <source>You can change these default settings.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu varsayılan ayarları değiştirebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="616">
+          <source>CALC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CALC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="617">
+          <source>Display the result of a simple or complex calculation that is specified in the <bpt id="p1">&lt;strong&gt;</bpt>Formula<ept id="p1">&lt;/strong&gt;</ept> cell.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Formül<ept id="p1">&lt;/strong&gt;</ept> hücresinde belirtilen basit veya karmaşık bir hesaplamanın sonucunu gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="618">
+          <source>For more information, see <bpt id="p1">&lt;a href="advanced-formatting-options-financial-reporting.md"&gt;</bpt>Advanced formatting options in financial reporting<ept id="p1">&lt;/a&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Daha fazla bilgi için bkz. <bpt id="p1">&lt;a href="advanced-formatting-options-financial-reporting.md"&gt;</bpt>Finansal raporlamadaki Gelişmiş biçimlendirme seçenekleri<ept id="p1">&lt;/a&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="619">
+          <source>DESC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DESC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="620">
+          <source>Display the row description from the row definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satır tanımında satır açıklamasını gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="621">
+          <source>Although the description column is often the first column on the report, it can be in any position.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama sütunu genellikle rapordaki ilk sütun olduğu halde, herhangi bir konumda olabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="622">
+          <source>ROW</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ROW</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="623">
+          <source>Display the individual row codes for financial rows from the <bpt id="p1">&lt;strong&gt;</bpt>Row Code<ept id="p1">&lt;/strong&gt;</ept> column in the row definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satır tanımındaki <bpt id="p1">&lt;strong&gt;</bpt>Satır Kod<ept id="p1">&lt;/strong&gt;</ept> sütunundaki mali satırlar için ayrı satır kodlarını gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="624">
+          <source>For more information, see <bpt id="p1">&lt;a href="row-definitions-financial-reporting.md"&gt;</bpt>Row definitions in financial reporting<ept id="p1">&lt;/a&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Daha fazla bilgi için bkz. <bpt id="p1">&lt;a href="row-definitions-financial-reporting.md"&gt;</bpt>Finansal raporlamadaki satır tanımları<ept id="p1">&lt;/a&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="625">
+          <source>ACCT (Account codes)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACCT (Hesap kodları)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="626">
+          <source>Display the financial data segment values or dimension values that apply to each row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Her bir satıra uygulanan mali veri segment değerlerini veya boyut değerlerini gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="627">
+          <source>For account and transaction detail reports, the fully qualified account is printed (for example, <bpt id="p1">&lt;strong&gt;</bpt>110140-070-0101<ept id="p1">&lt;/strong&gt;</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hesap ve hareket ayrıntısı raporları için, tamamen uygun bir hesap yazdırılır (örneğin, <bpt id="p1">&lt;strong&gt;</bpt>110140-070-0101<ept id="p1">&lt;/strong&gt;</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="628">
+          <source>If ranges have been specified in the <bpt id="p1">&lt;strong&gt;</bpt>Link to Financial Dimensions<ept id="p1">&lt;/strong&gt;</ept> column in an associated row definition, the range is enclosed in square brackets and is treated as a single value (for example, <bpt id="p2">&lt;strong&gt;</bpt>[110140:110700]-070-[0101:0200]<ept id="p2">&lt;/strong&gt;</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlişkili bir satır tanımındaki <bpt id="p1">&lt;strong&gt;</bpt>Mali Boyutlarla İlişkilendir<ept id="p1">&lt;/strong&gt;</ept> sütununda aralıklar belirtildiyse aralık köşeli parantez içine alınır ve tek bir değer olarak işlem görür (örneğin, <bpt id="p2">&lt;strong&gt;</bpt>[110140:110700]-070-[0101:0200]<ept id="p2">&lt;/strong&gt;</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="629">
+          <source>For financial reports and high-level reports that are a combination of several accounts, the financial data link from the row definition is printed (for example, <bpt id="p1">&lt;strong&gt;</bpt>1100:1200<ept id="p1">&lt;/strong&gt;</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birkaç hesabın birleşimi olan mali raporlar ve üst düzey raporlar için, satır tanımındaki mali veri bağlantısı yazdırılır (örneğin, <bpt id="p1">&lt;strong&gt;</bpt>1100:1200<ept id="p1">&lt;/strong&gt;</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="630">
+          <source>FILL</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FILL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="631">
+          <source>Fill the cell with a character that you enclose in single quotation marks.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hücreyi tek tırnak işaretleri arasına aldığınız bir karakterle doldurun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="632">
+          <source>If you don't enter a character, the column is empty.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir karakter girmezseniz sütun boş olur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="633">
+          <source>For example, to fill a column with an ellipsis (...), enter <bpt id="p1">&lt;strong&gt;</bpt>FILL<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt>'.'<ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, bir sütunu üç nokta işaretiyle (...) doldurmak için <bpt id="p1">&lt;strong&gt;</bpt>FILL<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt>'.'<ept id="p2">&lt;/strong&gt;</ept> ifadesini girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="634">
+          <source>PAGE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PAGE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="635">
+          <source>Insert a vertical page break in the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapora dikey bir sayfa sonu ekleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="636">
+          <source>The columns that are to the right of the <bpt id="p1">&lt;strong&gt;</bpt>PAGE<ept id="p1">&lt;/strong&gt;</ept> column appear on a different page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>PAGE<ept id="p1">&lt;/strong&gt;</ept> sütununun sağındaki sütunlar farklı bir sayfada görünür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="637">
+          <source>ATTR</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ATTR</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="638">
+          <source>If your accounting system supports attributes, display an account or transaction attribute in the column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Muhasebe sisteminiz öznitelikleri destekliyorsa sütundaki bir hesap veya hareket özniteliğini görüntüleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="639">
+          <source>An attribute, which must apply to a single full account, extracts underlying account or transaction information from the financial data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tek bir tam hesap için geçerli olması gereken bir öznitelik alttaki hesap veya hareket bilgilerini mali verilerden ayıklar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="640">
+          <source>Account-level attributes display data from the account, and transaction-level attributes display data that occurred at the time that the transaction was posted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hesap düzeyi öznitelikler hesaptaki verileri görüntülerken, hareket düzeyi öznitelikler hareketin deftere nakledildiği zaman oluşan verileri görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="641">
+          <source>If you select <bpt id="p1">&lt;strong&gt;</bpt>ATTR<ept id="p1">&lt;/strong&gt;</ept> as the column type, specify the attribute category in the <bpt id="p2">&lt;strong&gt;</bpt>Book Code/Attribute Category<ept id="p2">&lt;/strong&gt;</ept> detail row of the column definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun türü olarak <bpt id="p1">&lt;strong&gt;</bpt>ATTR<ept id="p1">&lt;/strong&gt;</ept>'yi seçerseniz sütun tanımının <bpt id="p2">&lt;strong&gt;</bpt>Defter Kodu/Öznitelik Kategorisi<ept id="p2">&lt;/strong&gt;</ept> ayrıntı satırında öznitelik kategorisini belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="642">
+          <source>Financial Dimensions column</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mali Boyutlar sütunu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="643">
+          <source>The following <bpt id="p1">**</bpt>Column Definition<ept id="p1">**</ept> row definitions apply to columns that have a column type of <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> (Amounts from financial dimensions).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki <bpt id="p1">**</bpt>Sütun Tanımı<ept id="p1">**</ept> satır tanımları <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> (Mali boyutlardaki tutarlar) sütun türüne sahip sütunlara uygulanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="644">
+          <source>Book Code/Attribute Category cell</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Defter Kodu/Öznitelik Kategorisi hücresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="645">
+          <source>The <bpt id="p1">**</bpt>Book Code/Attribute Category<ept id="p1">**</ept> cell identifies the book code for the data in the <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Defter Kodu/Öznitelik Kategorisi<ept id="p1">**</ept> hücresi <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> sütunundaki veriler için defter kodunu tanımlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="646">
+          <source>A column definition can include multiple actual, budget, and statistical columns.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımı birden fazla gerçek durum, bütçe ve istatistik sütununu içerebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="647">
+          <source>A column definition can also display different periods, such as current or year-to-date, and different amounts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca, bir sütun tanımı cari veya yılından beri gibi farklı dönemleri ve farklı tutarları da görüntüleyebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="648">
+          <source>The list of book codes reflects the actual, budget, and statistical (non-financial) options that have been established in your financial data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Defter kodları listesi mali verilerinizde belirlenen gerçek durum, bütçe ve istatistik (mali olmayan) seçeneklerini yansıtır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="649">
+          <source>Fiscal Year cell</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mali Yıl hücresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="650">
+          <source>The <bpt id="p1">**</bpt>Fiscal Year<ept id="p1">**</ept> cell identifies the fiscal year that the column should include.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Mali Yıl<ept id="p1">**</ept> hücresi sütunun içermesi gereken mali yılı tanımlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="651">
+          <source>The year can be relative to the base year that is specified when the report is generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yıl, rapor oluşturulurken belirtilen esas yılla ilgili olabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="652">
+          <source>The following options are available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki seçenekler kullanılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="653">
+          <source>Option</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seçenek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="654">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="655">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TEMEL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="656">
+          <source>Use the base year that is specified at report time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor zamanında belirtilen temel yıl kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="657">
+          <source>BASE+<ph id="ph1">\#</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TEMEL+<ph id="ph1">\#</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="658">
+          <source>Use the year that is <ph id="ph1">\#</ph> years after the base year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Temel yıldan <ph id="ph1">\#</ph> yıl sonraki yıl kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="659">
+          <source>For example, to use the third year after the base year, enter <bpt id="p1">**</bpt>BASE+3<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, temel yıldan sonraki üçüncü yılı kullanmak istiyorsanız <bpt id="p1">**</bpt>TEMEL+3<ept id="p1">**</ept> girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="660">
+          <source>BASE-<ph id="ph1">\#</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TEMEL<ph id="ph1">\#</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="661">
+          <source>Use the year that is <ph id="ph1">\#</ph> years before the base year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Temel yıldan <ph id="ph1">\#</ph> yıl önceki yıl kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="662">
+          <source>For example, to use the previous year, enter <bpt id="p1">**</bpt>BASE-1<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, geçen yılı kullanmak için <bpt id="p1">**</bpt>TEMEL-1<ept id="p1">**</ept> girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="663">
+          <source>Enter the actual fiscal year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiili mali yılı girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="664">
+          <source>Period cell</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dönem hücresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="665">
+          <source>The <bpt id="p1">**</bpt>Period<ept id="p1">**</ept> cell identifies the fiscal periods that the column should include.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Dönem<ept id="p1">**</ept> hücresi, sütunun içermesi gereken mali dönemleri tanımlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="666">
+          <source>The period can be relative to the base period that is specified when the report is generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dönem rapor oluşturulurken belirtilen esas dönemle ilgili olabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="667">
+          <source>The following options are available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki seçenekler mevcuttur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="668">
+          <source>Option</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seçenek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="669">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="670">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TEMEL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="671">
+          <source>Use the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esas dönem kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="672">
+          <source>BASE+<ph id="ph1">\#</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TEMEL+<ph id="ph1">\#</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="673">
+          <source>Use the period that is <ph id="ph1">\#</ph> periods after the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esas dönemden <ph id="ph1">\#</ph> dönem sonraki dönem kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="674">
+          <source>For example, to use the third period after the base period, enter <bpt id="p1">**</bpt>BASE+3<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, esas dönemden sonraki üçüncü dönemi kullanmak istiyorsanız <bpt id="p1">**</bpt>TEMEL+3<ept id="p1">**</ept> girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="675">
+          <source>BASE-<ph id="ph1">\#</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TEMEL<ph id="ph1">\#</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="676">
+          <source>Use the period that is <ph id="ph1">\#</ph> periods before the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esas dönemden <ph id="ph1">\#</ph> dönem önceki dönem kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="677">
+          <source>For example, to use the previous period, enter <bpt id="p1">**</bpt>BASE-1<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, geçen dönemi kullanmak için <bpt id="p1">**</bpt>TEMEL-1<ept id="p1">**</ept> girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="678">
+          <source>BASE-<ph id="ph1">\#</ph>:BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TEMEL<ph id="ph1">\#</ph>:TEMEL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="679">
+          <source>Use multiple periods, from several periods before the base period through the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esas dönemden önceki birkaç dönemden esas döneme kadar, birden fazla dönem kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="680">
+          <source>For example, to use the three previous periods and the base period, enter <bpt id="p1">**</bpt>BASE-3:BASE<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, önceki üç dönemi ve esas dönemi kullanmak için <bpt id="p1">**</bpt>TEMEL-3:TEMEL<ept id="p1">**</ept> girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="681">
+          <source>BASE:BASE+<ph id="ph1">\#</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TEMEL:TEMEL+<ph id="ph1">\#</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="682">
+          <source>Use multiple periods, from the base period through several periods after the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esas dönemden esas dönemden sonraki birkaç döneme kadar, birden fazla dönem kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="683">
+          <source>For example, to use the base period and the following two periods, enter <bpt id="p1">**</bpt>BASE:BASE+2<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, esas dönemi ve sonraki iki dönemi kullanmak için <bpt id="p1">**</bpt>TEMEL:TEMEL+2<ept id="p1">**</ept> girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="684">
+          <source>BASE-<ph id="ph1">\#</ph>:BASE+<ph id="ph2">\#</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TEMEL-<ph id="ph1">\#</ph>:TEMEL+<ph id="ph2">\#</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="685">
+          <source>Use multiple periods, from several periods before the base period to several periods after the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esas dönemden önceki birkaç dönemden esas dönemden sonraki birkaç döneme kadar, birden fazla dönem kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="686">
+          <source>For example, to use the three previous periods, the base period, and the following two periods, enter <bpt id="p1">**</bpt>BASE-3:BASE+2<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, önceki üç dönem, esas dönem ve sonraki iki dönemi kullanmak için, <bpt id="p1">**</bpt>BASE-3:BASE+2<ept id="p1">**</ept> ifadesini girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="687">
+          <source>1:BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1:BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="688">
+          <source>Use multiple periods, from the first period through the base period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlk dönemden esas döneme kadar, birden fazla dönem kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="689">
+          <source>Always use a specific period number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Her zaman belirli bir dönem numarası kullan.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="690">
+          <source>We don't recommend that you use this option, because it reduces the flexibility of the column definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun tanımının esnekliğini azalttığından bu seçeneği kullanmanızı önermiyoruz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="691">
+          <source><ph id="ph1">\#</ph>:<ph id="ph2">\#</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">\#</ph>:<ph id="ph2">\#</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="692">
+          <source>Always use a specific range of periods.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Her zaman belirli bir dönem aralığı kullan.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="693">
+          <source>We don't recommend that you use this option, because it reduces the flexibility of the column definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun tanımının esnekliğini azalttığından bu seçeneği kullanmanızı önermiyoruz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="694">
+          <source>You can go beyond fiscal year boundaries in any of the period specifications, and you can mix years in a range of periods.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dönem özelliklerinin herhangi birinde mali yıl sınırlarının ötesine geçebilirsiniz ve yılları bir dönem aralığında karıştırabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="695">
+          <source>For example, you specify the periods as <bpt id="p1">**</bpt>BASE-5<ept id="p1">**</ept> (to represent the past six periods) and run a report that has a base period of 2.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin dönemi <bpt id="p1">**</bpt>TEMEL-5<ept id="p1">**</ept> (son altı ayı temsil etmek için) olarak belirtin ve esas dönemi 2 olan bir rapor çalıştırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="696">
+          <source>In this case, the report shows data for the first two periods of the specified fiscal year and the last four periods of the previous fiscal year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu durumda, rapor belirtilen mali yılın ilk iki dönemi ve önceki mali yılın son dört dönemi için verileri gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="697">
+          <source>Specify the periods for an FD column</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir FD sütunu için dönemleri belirtme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="698">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="699">
+          <source>In an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column, double-click the cell in the <bpt id="p2">**</bpt>Period<ept id="p2">**</ept> row, and then select an option in the list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> sütununda, <bpt id="p2">**</bpt>Dönem<ept id="p2">**</ept> satırındaki hücreye çift tıklayın ve ardından listeden bir seçenek seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="700">
+          <source>In the formula bar above the navigation pane, or in the <bpt id="p1">**</bpt>Period<ept id="p1">**</ept> cell, complete the formula.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gezinme çubuğunun üzerindeki formül çubuğunda veya <bpt id="p1">**</bpt>Dönem<ept id="p1">**</ept> hücresinde, formülü tamamlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="701">
+          <source>Replace any number sign (<ph id="ph1">\#</ph>) with the appropriate value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varsa, sayı işaretlerini (<ph id="ph1">\#</ph>) uygun değerle değiştirin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="702">
+          <source>Periods Covered cell</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kapsanan Dönemler hücresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="703">
+          <source>The <bpt id="p1">**</bpt>Periods Covered<ept id="p1">**</ept> cell identifies the amount that the column should display.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Kapsanan Dönemler<ept id="p1">**</ept> hücresi, sütunun görüntülemesi gereken tutarı tanımlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="704">
+          <source>This amount is relative to the value in the <bpt id="p1">**</bpt>Fiscal Year<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Period<ept id="p2">**</ept> cells for the column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu tutar sütuna ait <bpt id="p1">**</bpt>Mali Yıl<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Dönem<ept id="p2">**</ept> hücrelerindeki değerle ilgilidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="705">
+          <source>The following options are available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki seçenekler kullanılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="706">
+          <source>Option</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seçenek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="707">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="708">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="709">
+          <source>Display the sum of the activity for the current period or range of periods.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli dönem veya dönem aralığı için faaliyet toplamını görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="710">
+          <source>PERIODIC/BB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PERIODIC/BB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="711">
+          <source>Display the beginning balance for the current period or range of periods.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli dönem veya dönem aralığı için başlangıç bakiyesini görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="712">
+          <source>YTD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">YTD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="713">
+          <source>Display the sum of the year-to-date activity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yılın başından beri olan faaliyetin toplamını görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="714">
+          <source>YTD/BB</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">YTD/BB</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="715">
+          <source>Display the beginning balance for the year.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yılın başlangıç bakiyesini görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="716">
+          <source>Specify the periods that are covered for an FD column</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir FD sütunu için kapsanan dönemleri belirtme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="717">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="718">
+          <source>In an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column, double-click the cell in the <bpt id="p2">**</bpt>Periods Covered<ept id="p2">**</ept> row, and select an option in the list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> sütununda, <bpt id="p2">**</bpt>Kapsanan Dönemler<ept id="p2">**</ept> satırındaki hücreye çift tıklayın ve ardından listeden bir seçenek seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="719">
+          <source>Attribute filter in a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımındaki öznitelik filtresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="720">
+          <source>Attributes are financial data values that further define an account or transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelikler bir hesabı veya hareketi ayrıntılı olarak tanımlayan mali veri değerleridir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="721">
+          <source>The account attributes include <bpt id="p1">**</bpt>Asset<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Liability<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Revenue<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Expense<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hesap öznitelikleri <bpt id="p1">**</bpt>Varlık<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Borç<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Gelir<ept id="p3">**</ept> ve <bpt id="p4">**</bpt>Gider<ept id="p4">**</ept>'dir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="722">
+          <source>The transaction attributes include <bpt id="p1">**</bpt>Transaction Description<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Transaction Apply Date<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hareket öznitelikleri ise <bpt id="p1">**</bpt>Hareket Açıklaması<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Hareket Uygulama Tarihi<ept id="p2">**</ept>'dir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="723">
+          <source>Attribute support might differ between Microsoft Dynamics ERP systems.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik desteği Microsoft Dynamics ERP sistemleri arasında farklılık gösterebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="724">
+          <source>The <bpt id="p1">**</bpt>Attribute Filter<ept id="p1">**</ept> cell restricts the data in <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> columns to specific values or ranges for attribute categories.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Öznitelik Filtresi<ept id="p1">**</ept> hücresi <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> sütunlarındaki verileri belirli değerlerle veya öznitelik kategorisi aralıklarıyla sınırlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="725">
+          <source>Although this feature can be used together with an <bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept> column, the <bpt id="p2">**</bpt>ATTR<ept id="p2">**</ept> column isn't required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu özellik bir <bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept> sütunuyla birlikte kullanılabildiği halde, <bpt id="p2">**</bpt>ATTR<ept id="p2">**</ept> sütunu gerekli değildir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="726">
+          <source>In an <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column, there is a limit on the accounts or transactions that the report will include from the attribute filter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> sütununda raporun öznitelik filtresinden içereceği hesaplar veya hareketlerde bir sınır vardır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="727">
+          <source>To see which attributes your ERP system supports, see the integration guide for your system.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ERP sisteminizin hangi öznitelikleri desteklediğini görmek için sisteminize ait tümleştirme kılavuzuna bakın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="728">
+          <source>Apply an attribute filter for an FD column on a report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir rapordaki bir FD sütunu için öznitelik filtresi uygulama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="729">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="730">
+          <source>Double-click the <bpt id="p1">**</bpt>Attribute Filter<ept id="p1">**</ept> cell for an <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> sütununa ait <bpt id="p2">**</bpt>Öznitelik Filtresi<ept id="p2">**</ept> hücresine çift tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="731">
+          <source>In the <bpt id="p1">**</bpt>Attribute Filter<ept id="p1">**</ept> dialog box, double-click a cell in the <bpt id="p2">**</bpt>Attribute<ept id="p2">**</ept> column, and then select the filter type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Öznitelik Filtresi<ept id="p1">**</ept> iletişim kutusunda, <bpt id="p2">**</bpt>Öznitelik<ept id="p2">**</ept> sütunundaki bir hücreye çift tıklayın ve ardından filtre türünü seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="732">
+          <source>To further limit the results, enter a range in the <bpt id="p1">**</bpt>From<ept id="p1">**</ept> and <bpt id="p2">**</bpt>To<ept id="p2">**</ept> columns.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sonuçları daha da sınırlandırmak için <bpt id="p1">**</bpt>Başlangıç<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Bitiş<ept id="p2">**</ept> sütunlarına bir aralık girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="733">
+          <source>The <bpt id="p1">**</bpt>From<ept id="p1">**</ept> cell must contain a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Başlangıç<ept id="p1">**</ept> hücresi bir değer içermelidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="734">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tamam<ept id="p1">**</ept> düğmesini tıklatın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="735">
+          <source>Example of an attribute filter</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik filtresi örneği</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="736">
+          <source>The following example shows part of a column description that has an account attribute in the <bpt id="p1">**</bpt>Book Code/Attribute Category<ept id="p1">**</ept> row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnek <bpt id="p1">**</bpt>Defter Kodu/Öznitelik Kategorisi<ept id="p1">**</ept> satırında bir hesap özniteliği bulunan bir sütun açıklaması parçasını göstermektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="737">
+          <source>The attribute filter for this column specifies the range of values to include in the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu sütuna ait öznitelik filtresi rapora eklenecek değer aralığını belirtir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="738">
+          <source>A</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="739">
+          <source>B</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">B</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="740">
+          <source>Column Type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun Türü</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="741">
+          <source>DESC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DESC</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="742">
+          <source>FD</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FD</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="743">
+          <source>Book Code/Attribute Category</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Defter Kodu/Öznitelik Kategorisi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="744">
+          <source>ACTUAL</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ACTUAL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="745">
+          <source>Fiscal Year</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mali Yıl</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="746">
+          <source>BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="747">
+          <source>Period</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dönem</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="748">
+          <source>1:BASE</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1:BASE</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="749">
+          <source>Periods Covered</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kapsanan Dönemler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="750">
+          <source>PERIODIC</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DÖNEMSEL</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="751">
+          <source>...</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">...</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="752">
+          <source>Column Width</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun Genişliği</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="753">
+          <source>30</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">30</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="754">
+          <source>...</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">...</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="755">
+          <source>Attribute Filter</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelik Filtresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="756">
+          <source>Reference=<ph id="ph1">\[</ph>01:10<ph id="ph2">\]</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Referans=<ph id="ph1">\[</ph>01:10<ph id="ph2">\]</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="757">
+          <source>Dimension filter in a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımındaki boyut filtresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="758">
+          <source>A dimension filter is used to restrict the <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> column to specific dimension values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir boyut filtresi, <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> sütununu belirli boyut değerleriyle sınırlandırmak için kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="759">
+          <source>The filter can include a single dimension, a range of dimensions, or a group of dimensions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Filtre tek bir boyut, bir boyut aralığı veya bir boyut grubu içerebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="760">
+          <source>The filter can also include dimension value sets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca filtre, boyut değeri kümeleri içerebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="761">
+          <source>Because dimension values can vary, a ..<ph id="ph1">\\</ph>financial-dimensions<ph id="ph2">\\</ph>dimension-based system doesn't have to correspond to an exact length.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Boyut değerleri değişebilir olduğundan ..<ph id="ph1">\\</ph>finansal-boyut<ph id="ph2">\\</ph>boyut tabanlı bir sistemin tam bir uzunluğa karşılık gelmesine gerek yoktur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="762">
+          <source>The filter is applied, regardless of whether the report includes a reporting tree.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Raporun bir raporlama ağacı içerip içermediğinden bağımsız olarak filtre uygulanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="763">
+          <source>You can use a wildcard character (<ph id="ph1">\*</ph> or ?) in any position.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir joker karakterini (<ph id="ph1">\*</ph> veya?) herhangi bir konumda kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="764">
+          <source>When you specify multiple accounts, put a comma between accounts, as in the following example: +Account=<ph id="ph1">\[</ph>1200<ph id="ph2">\]</ph>, +Account=<ph id="ph3">\[</ph>1100<ph id="ph4">\]</ph>, Department=<ph id="ph5">\[</ph>01?<ph id="ph6">\]</ph> To receive all departments for a specific account, you can exclude the Department dimension from the dimension filter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birden fazla hesap belirttiğinizde, aşağıdaki örnekte gösterildiği gibi hesaplar arasında virgül koyun: +Hesap =<ph id="ph1">\[</ph>1200<ph id="ph2">\]</ph>, +Hesap =<ph id="ph3">\[</ph>1100<ph id="ph4">\]</ph>, Departman =<ph id="ph5">\[</ph>01?<ph id="ph6">\]</ph> Tüm bölümler için özel bir hesap almak için Departman boyutu Boyut Filtresi dışarıda bırakabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="765">
+          <source>For example, both of the following dimension filters are handled in the same way:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, aşağıdaki boyut filtrelerinin her ikisi de aynı şekilde işlenir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="766">
+          <source>+Account=<ph id="ph1">\[</ph>1100<ph id="ph2">\]</ph>,Department</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">+Hesap=<ph id="ph1">\[</ph>1100<ph id="ph2">\]</ph>,Departman</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="767">
+          <source>+Account=<ph id="ph1">\[</ph>1100<ph id="ph2">\]</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">+Hesap=<ph id="ph1">\[</ph>1100<ph id="ph2">\]</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="768">
+          <source>You can also use any combination of alphanumeric characters for exact matching, and you can define partial dimensions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca, tam eşleştirme için alfasayısal karakterlerin herhangi bir kombinasyonunu kullanabilir ve kısmi boyutlar tanımlayabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="769">
+          <source>For example, <bpt id="p1">**</bpt>Location = <ph id="ph1">\[</ph>10<ph id="ph2">\*</ph><ph id="ph3">\]</ph><ept id="p1">**</ept> includes all location dimension values that begin with 10.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>Konum = <ph id="ph1">\[</ph>10*<ph id="ph2">\*</ph><ph id="ph3">\]</ph><ept id="p1">**</ept>, 10 ile başlayan tüm konum boyutu değerlerini içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="770">
+          <source>Apply a dimension filter for a column on a report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir rapordaki bir sütun için boyut filtresi uygulama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="771">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="772">
+          <source>Double-click the <bpt id="p1">**</bpt>Dimension Filter<ept id="p1">**</ept> cell for an <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> sütununa ait <bpt id="p2">**</bpt>Boyut Filtresi<ept id="p2">**</ept> hücresine çift tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="773">
+          <source>In the <bpt id="p1">**</bpt>Dimensions<ept id="p1">**</ept> dialog box, enter the filters to apply.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Boyutlar<ept id="p1">**</ept> iletişim kutusunda, uygulanacak filtreleri girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="774">
+          <source>Click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tamam<ept id="p1">**</ept> düğmesini tıklatın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="775">
+          <source>Format a multiple-currency report in a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımındaki birden fazla para birimi içeren bir raporu biçimlendirme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="776">
+          <source>A multiple-currency report can display amounts in the ledger's accounting currency, the ledger's reporting, the originating transaction currency, or the translated reporting currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir çoklu para birimi raporu, tutarları genel muhasebenin muhasebe para biriminde, başlatan hareket para biriminde veya çevrilmiş raporlama para biriminde görüntüleyebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="777">
+          <source>A company's accounting currency is defined in the Ledgers setup.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir şirketin muhasebe para birimi, Genel Muhasebe kurulumunda tanımlıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="778">
+          <source>Don't confuse this setting with the operating system's regional options setting, where you can configure the default currency symbols that are used on reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu ayarı, raporlarda kullanılan varsayılan para birimi simgelerini yapılandırabileceğiniz, işletim sisteminin bölgesel seçenekler ayarıyla karıştırmayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="779">
+          <source>The following currency-related cells are available in the column definition:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun tanımında aşağıdaki para birimiyle ilgili hücreler bulunur:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="780">
+          <source><bpt id="p1">**</bpt>Currency Display<ept id="p1">**</ept> – Specify the type of currency (accounting, reporting, transaction, or translated reporting) that the transactions are displayed in.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Para Birimi Görüntüleme<ept id="p1">**</ept>: Hareketlerin gösterileceği para birimi türünü belirtin (muhasebe, raporlama, hareket veya çevrilmiş raporlama).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="781">
+          <source>Translated to a reporting currency functionality is sometimes referred to as currency translation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir raporlama işlevselliğine çevrilmiş, bazen para birimi çevirisi olarak adlandırılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="782">
+          <source>Currency translation is the ability to report general ledger amounts in a currency that might not be the functional or reporting currency of the company or the currency that the transaction was entered in.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para birimi dönüştürme, genel muhasebe tutarlarını şirketin işlevsel veya raporlama para birimi ya da hareketin girildiği para birimi olmayabilecek bir para biriminde raporlama yeteneğidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="783">
+          <source><bpt id="p1">**</bpt>Currency Filter<ept id="p1">**</ept> – Specify a currency filter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Para Birimi Filtresi<ept id="p1">**</ept>: Bir para birimi filtresi belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="784">
+          <source>Only transactions that are entered in the selected currency are displayed on the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Raporda sadece seçilen para birimi cinsinden girilen hareketler görüntülenir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="785">
+          <source>To determine a company's accounting currency, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir şirketin muhasebe para birimini belirlemek için şu adımları izleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="786">
+          <source>In Report Designer, on the <bpt id="p1">**</bpt>Company<ept id="p1">**</ept> menu, click <bpt id="p2">**</bpt>Companies<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, <bpt id="p1">**</bpt>Şirket<ept id="p1">**</ept> menüsünde, <bpt id="p2">**</bpt>Şirketler<ept id="p2">**</ept>'e tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="787">
+          <source>In the <bpt id="p1">**</bpt>Companies<ept id="p1">**</ept> dialog box, select a company, and then click <bpt id="p2">**</bpt>View<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Şirketler<ept id="p1">**</ept> iletişim kutusunda, bir şirket seçin ve ardından <bpt id="p2">**</bpt>Görüntüle<ept id="p2">**</ept>'ye tıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="788">
+          <source>In the <bpt id="p1">**</bpt>View Company<ept id="p1">**</ept> dialog box, under <bpt id="p2">**</bpt>Regional options<ept id="p2">**</ept>, you can view the currency that is defined for the selected company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Şirketi Görüntüle<ept id="p1">**</ept> iletişim kutusunda, <bpt id="p2">**</bpt>Bölgesel seçenekler<ept id="p2">**</ept>'in altında seçilen şirket için tanımlanan para birimini görüntüleyebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="789">
+          <source>Specify the currency on a multiple-currency report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birden fazla para birimi içeren bir raporda para birimini belirtme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="790">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="791">
+          <source>Double-click the <bpt id="p1">**</bpt>Currency Display<ept id="p1">**</ept> cell in the appropriate <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> column, and then select the option for displaying currency information: <bpt id="p3">**</bpt>Ledger accounting currency<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Ledger reporting<ept id="p4">**</ept>, transaction currency, or select to translate to a different reporting currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlgili <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> sütunundaki <bpt id="p2">**</bpt>Görüntülenen Para Birimi<ept id="p2">**</ept> öğesini çift tıklayın ve para birimi bilgilerinin görüntülenmesi seçeneğini seçin: <bpt id="p3">**</bpt>Genel muhasebe para birimi<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Genel muhasebe raporlama<ept id="p4">**</ept>, işlem para birimi veya farklı bir raporlama para birimine dönüştürmek için seç.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="792">
+          <source>Double-click the <bpt id="p1">**</bpt>Currency Filter<ept id="p1">**</ept> cell in the appropriate <bpt id="p2">**</bpt>FD<ept id="p2">**</ept> column, and then select the appropriate currency code in the list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlgili <bpt id="p1">**</bpt>FD<ept id="p1">**</ept> sütunundaki <bpt id="p2">**</bpt>Para Birimi Filtresi<ept id="p2">**</ept> hücresine çift tıklayın ve ardından listeden uygun para birimi kodunu seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="793">
+          <source>Only transactions that are entered in this currency are displayed on the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Raporda sadece bu para biriminde girilen hareketler görüntülenir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="794">
+          <source>Example for Currency Display and Currency Filter cells</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para Birimi Ekranı ve Para Birimi Filtresi hücreleri için örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="795">
+          <source>Phyllis has made the following currency selections in her column definition:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pelin, sütun tanımında aşağıdaki para birimi seçimlerini yaptı:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="796">
+          <source><bpt id="p1">**</bpt>Currency Filter:<ept id="p1">**</ept> Yen</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Para Birimi Filtresi:<ept id="p1">**</ept>Yen</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="797">
+          <source><bpt id="p1">**</bpt>Currency Display:<ept id="p1">**</ept> Accounting currency from Ledger (U.S. dollars)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Para Birimi Görüntüleme:<ept id="p1">**</ept> Muhasebe para birimi Genel Muhasebeden (A.B.D doları)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="798">
+          <source>Because of the currency filter that Phyllis selected, the report includes only transactions that were entered in Japanese yen (JPY).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pelinin seçtiği para birimi filtresi nedeniyle, rapor yalnızca Japon yeni (JPY) olarak girilen hareketleri içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="799">
+          <source>Because of the currency display that she selected, the report displays those transactions in the accounting currency, U.S. dollars (USD).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seçtiği para birimi ekranı nedeniyle, rapor muhasebe para birimi olan ABD doları (USD) cinsinden olan hareketleri görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="800">
+          <source>Currency Filter and Currency Display combinations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para Birimi Filtresi ve Para Birimi Ekranı birleşimleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="801">
+          <source>The following table shows the report results that can occur for various combinations of the options in <bpt id="p1">**</bpt>Currency Display<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Currency Filter<ept id="p2">**</ept> cells because of the selections that Phyllis made.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tabloda, Pelin'in yaptığı seçimler nedeniyle <bpt id="p1">**</bpt>Para Birimi Ekranı<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Para Birimi Filtresi<ept id="p2">**</ept> hücrelerindeki çeşitli seçenek birleşimleri için oluşabilecek rapor sonuçlarını göstermektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="802">
+          <source>The functional currency is USD.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlevsel para birimi USD'dir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="803">
+          <source>Currency Display cell</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para Birimi Ekranı hücresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="804">
+          <source>Currency Filter cell</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para Birimi Filtresi hücresi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="805">
+          <source>Report result</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor sonucu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="806">
+          <source>Transaction currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hareket para birimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="807">
+          <source><bpt id="p1">**</bpt>YEN<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>YEN<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="808">
+          <source><bpt id="p1">**</bpt>Y6,000<ept id="p1">**</ept> – The result shows only transactions that were entered in JPY.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>6.000 Y<ept id="p1">**</ept>: Sonuç yalnızca JPY olarak girilen hareketleri gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="809">
+          <source>Accounting currency from Ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Genel Muhasebe için muhasebe para birimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="810">
+          <source><bpt id="p1">**</bpt>YEN<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>YEN<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="811">
+          <source><bpt id="p1">**</bpt>$60<ept id="p1">**</ept> – The result shows only transactions that were entered in JPY and displays those transactions in USD.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>60 $<ept id="p1">**</ept>: Sonuç yalnızca JPY olarak girilen hareketleri gösterir ve ABD doları cinsinden olan hareketleri görüntüler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="812">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> The conversion rate is approximately 100 JPY per USD.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Not:<ept id="p1">&lt;/strong&gt;</ept> Döviz kuru 1 Amerikan Doları için yaklaşık 100 JPY'dir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="813">
+          <source>Accounting currency from Ledger</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Genel Muhasebe için muhasebe para birimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="814">
+          <source>Empty</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Boş</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="815">
+          <source><bpt id="p1">**</bpt>$2,310<ept id="p1">**</ept> – The result shows all data in the accounting currency that is specified in the Ledger.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>2.310 $<ept id="p1">**</ept> – Sonuç, tüm veriyi Genel Muhasebe defteri içinde belirtilen muhasebe para biriminde gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="816">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> This amount is the sum of all transactions in accounting currency.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;strong&gt;</bpt>Not:<ept id="p1">&lt;/strong&gt;</ept> Bu tutar, muhasebe para birimindeki tüm işlemlerin toplamıdır.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="817">
+          <source>Transaction currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hareket para birimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="818">
+          <source>Empty</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Boş</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="819">
+          <source><bpt id="p1">**</bpt>$2,250<ept id="p1">**</ept> – The result shows all amounts in the currency that the transaction was performed in.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>2.250 $<ept id="p1">**</ept>: Sonuç, hareketin gerçekleştirildiği para birimindeki tüm tutarları gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="820">
+          <source>This means the total is adding together amounts from different currencies.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu, toplamın farklı para birimlerinden tutarlar ekleyerek oluştuğu anlamına gelir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="821">
+          <source>Calculation column in a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımındaki hesaplama sütunu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="822">
+          <source>A column type of <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> in a column definition supports complex calculations in the <bpt id="p2">**</bpt>Formula<ept id="p2">**</ept> cell, and can include the <bpt id="p3">**</bpt><ph id="ph1">+</ph><ept id="p3">**</ept>, <bpt id="p4">**</bpt><ph id="ph2">-</ph><ept id="p4">**</ept>, <bpt id="p5">**</bpt><ph id="ph3">\*</ph><ept id="p5">**</ept>, and <bpt id="p6">**</bpt><ph id="ph4">/</ph><ept id="p6">**</ept> operators, and also <bpt id="p7">**</bpt>IF/THEN/ELSE<ept id="p7">**</ept> statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımındaki bir <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> sütun türü, <bpt id="p2">**</bpt>Formül<ept id="p2">**</ept> hücresinde karmaşık hesaplamaları destekler ve <bpt id="p3">**</bpt><ph id="ph1">+</ph><ept id="p3">**</ept>, <bpt id="p4">**</bpt><ph id="ph2">-</ph><ept id="p4">**</ept>, <bpt id="p5">**</bpt><ph id="ph3">\*</ph><ept id="p5">**</ept>, ve <bpt id="p6">**</bpt><ph id="ph4">/</ph><ept id="p6">**</ept> operatörlerini ve ayrıca <bpt id="p7">**</bpt>IF/THEN/ELSE<ept id="p7">**</ept> deyimlerini içerebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="823">
+          <source>A calculation column can also refer to any other column, even subsequent columns.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir hesaplama sütunu, daha sonraki sütunları da dahil, herhangi diğer bir sütuna başvurabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="824">
+          <source>Additionally, a calculation column can also include the fiscal year and period to support headers for the column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca, bir hesaplama sütunu sütunun başlıklarını desteklemek için mali yılı ve dönemi de içerebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="825">
+          <source>The calculation formula can be up to 1,024 characters long.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hesaplama formülü en fazla 1.024 karakter uzunluğunda olabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="826">
+          <source>To express the calculation result as a percentage, use a special format override.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hesaplama sonucunu yüzde olarak ifade etmek için özel bir biçim geçersiz kılma işlemi kullanın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="827">
+          <source>The results of calculation formulas don't include the values in non-printing column ranges.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hesaplama formüllerinin sonuçları yazdırılmayan sütun aralıklarındaki değerleri içermez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="828">
+          <source>For example, <bpt id="p1">**</bpt>A:D<ept id="p1">**</ept> prints <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (zero), whereas <bpt id="p3">**</bpt>A+B+C<ept id="p3">**</ept> for non-printing values calculates the value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>A:D<ept id="p1">**</ept> <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (sıfır) yazdırırken, yazdırılmayan değerler için <bpt id="p3">**</bpt>A+B+C<ept id="p3">**</ept> değeri hesaplar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="829">
+          <source>Operators in calculation columns</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hesaplama sütunlarındaki işleçler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="830">
+          <source>To add, subtract, multiply, or divide columns, enter the column letters in the order of computation, and then use the appropriate operator to separate each column letter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütunları toplamak, çıkarmak, çarpmak veya bölmek için sütun harflerini hesaplama sırasıyla girin ve ardından her sütun harfini ayırmak için ilgili işleci kullanın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="831">
+          <source>The following table explains the operators that you can use in a calculation column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tabloda bir hesaplama sütununda kullanılabilecek işleçler açıklanmıştır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="832">
+          <source>Operator</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşleç</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="833">
+          <source>Example calculation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek hesaplama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="834">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="835">
+          <source>A+C</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A+C</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="836">
+          <source>Add the amount in column A to the amount in column C.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A sütunundaki tutarı C sütunundaki tutara ekleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="837">
+          <source>:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="838">
+          <source>A:C A:C-D</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A:C A:C-D</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="839">
+          <source>Add a range of consecutive columns.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Art arda gelen sütunlardan oluşan bir aralığı toplayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="840">
+          <source>For example, the formula <bpt id="p1">**</bpt>A:C<ept id="p1">**</ept> adds the sums of columns A through C, and the formula <bpt id="p2">**</bpt>A:C-D<ept id="p2">**</ept> adds the sums of columns A through C, and then subtracts the amount in column D.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>A:C<ept id="p1">**</ept> formülü, A ile C arasındaki sütunların toplamlarını eklerken, <bpt id="p2">**</bpt>A:C-D<ept id="p2">**</ept> formülü, A ile C arasındaki sütunların toplamlarını ekler ve ardından D sütunundaki tutarı çıkarır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="841">
+          <source>A-C</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">A-C</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="842">
+          <source>Subtract the amount in column A from the amount in column C.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">A sütunundaki tutarı, C sütunundaki tutardan çıkartın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="843">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> You can also use the minus sign (-) to reverse the signs in a column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Not:<ept id="p1">&lt;/strong&gt;</ept> Bir sütundaki işaretleri ters çevirmek için eksi işaretini (-) de kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="844">
+          <source>For example, use <bpt id="p1">&lt;strong&gt;</bpt>-A+B<ept id="p1">&lt;/strong&gt;</ept> to add the reverse of the amount in column A to the amount in column B.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, A sütunundaki tutarın tersini B sütunundaki tutara eklemek için <bpt id="p1">&lt;strong&gt;</bpt>-A+B<ept id="p1">&lt;/strong&gt;</ept> formülü kullanın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="845">
+          <source>A<ph id="ph1">\*</ph>C</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A<ph id="ph1">\*</ph>C</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="846">
+          <source>Multiply the amount in column A by the amount in column C.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A sütunundaki tutarı C sütunundaki tutara çarpın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="847">
+          <source>A/C</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A/C</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="848">
+          <source>Divide the amount in column A by the amount in column C.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A sütunundaki tutarı C sütunundaki tutara bölün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="849">
+          <source>Use a calculation formula in a column definition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun tanımında bir hesaplama formülü kullanma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="850">
+          <source>In Report Designer, open the column definition to modify.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="851">
+          <source>In the appropriate <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> column, enter a formula in the <bpt id="p2">**</bpt>Formula<ept id="p2">**</ept> cell.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlgili <bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> sütunundaki <bpt id="p2">**</bpt>Formül<ept id="p2">**</ept> hücresine bir formül girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="852">
+          <source>Complex calculations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Karmaşık hesaplamalar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="853">
+          <source>A complex calculation can contain any combination of cell references, operators, values, and levels of nested parentheses.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Karmaşık bir hesaplama hücre referansları, işleçler, değerler ve iç içe parantez düzeylerinden oluşan herhangi bir birleşimi içerebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="854">
+          <source>For example, to compute the average of columns A and B, use the calculation formula <bpt id="p1">**</bpt>((A+B)/2)<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, A ve B sütunlarının ortalamasını hesaplamak için <bpt id="p1">**</bpt>((A+B)/2)<ept id="p1">**</ept> hesaplama formülünü kullanın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="855">
+          <source>Specify report cells in a column calculation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun hesaplamasındaki rapor hücrelerini belirtme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="856">
+          <source>You can refer to a specific report cell by entering a column letter and a row code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütun harfi ve bir satır kodu girerek belirli bir rapor hücresine başvurabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="857">
+          <source>For example, <bpt id="p1">**</bpt>B.100<ept id="p1">**</ept> refers to row code 100 in column B. You can divide a whole column by a specific report cell amount that is in the same column.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>B.100<ept id="p1">**</ept> B sütunundaki 100 satır kodu anlamına gelir. Tam bir sütunu aynı sütundaki belirli bir rapor hücresi tutarına bölebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="858">
+          <source>For example, the calculation <bpt id="p1">**</bpt>B/B.100<ept id="p1">**</ept> means that the amount in column B should be divided by the value in row code 100 in column B. If the calculation refers to a column that depends on another column, the dependent column is resolved first.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>B/B.100<ept id="p1">**</ept> hesaplaması B sütunundaki tutarın B sütununda 100 satır kodundaki değere bölünmesi gerektiği anlamına gelir. Hesaplama başka bir sütuna bağlı olan bir sütuna başvuruyorsa önce bağlı sütun çözülür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="859">
+          <source>If you refer a column to another column that refers back to the first column, you will cause a circular reference error.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütunu yeniden ilk sütuna başvuran başka bir sütuna yönlendirirseniz döngüsel bir referans hatasına neden olursunuz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="860">
+          <source>The calculation might be incorrect if you change the calculation priority for the report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Raporun hesaplama önceliğini değiştirirseniz hesaplama yanlış olabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="861">
+          <source>You can set the calculation priority on the <bpt id="p1">**</bpt>Settings<ept id="p1">**</ept> tab of the report definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hesaplama önceliğini, rapor tanımındaki <bpt id="p1">**</bpt>Ayarlar<ept id="p1">**</ept> sekmesinde ayarlayabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="862">
+          <source>Multiply or divide a column by a base row</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütunu bir temel satırla çarpma veya bu satıra bölme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="863">
+          <source>You can create a column that displays all the values in a specified column as a percentage of a base number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tüm değerleri belirli bir sütunda temel sayının yüzdesi olarak görüntüleyen bir sütun oluşturabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="864">
+          <source>Therefore, you can show relationships between rows, such as a percentage of a sales row or a percentage of a total expenses row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, satırlar arasındaki ilişkileri bir satış satırının ya da bir toplam giderler satırının yüzdesi olarak gösterebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="865">
+          <source>To multiply or divide each row in a specific column by a base row, enter the column to use in the calculation, and then enter <bpt id="p1">**</bpt><ph id="ph1">\*</ph>BASEROW<ept id="p1">**</ept> or <bpt id="p2">**</bpt>/BASEROW<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirli bir sütundaki her bir satırı bir temel satırla çarpmak veya bir temel satıra bölmek için, hesaplamada kullanılacak sütunu girin ve ardından <bpt id="p1">**</bpt><ph id="ph1">\*</ph>BASEROW<ept id="p1">**</ept> veya <bpt id="p2">**</bpt>BASEROW<ept id="p2">**</ept> seçimini yapın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="866">
+          <source>For example, enter <bpt id="p1">**</bpt>C<ph id="ph1">\*</ph>BASEROW<ept id="p1">**</ept> or <bpt id="p2">**</bpt>C/BASEROW<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>C<ph id="ph1">\*</ph>BASEROW<ept id="p1">**</ept> veya <bpt id="p2">**</bpt>C/BASEROW<ept id="p2">**</ept> girin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="867">
+          <source>When you use a base row calculation in a column definition, make sure that each row definition that is used with this column definition contains at least one base row for calculations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sütun tanımında bir temel satır hesaplaması kullandığınızda, bu sütun tanımında kullanılan her satır tanımının hesaplamalara ait en az bir temel satır içerdiğinden emin olun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="868">
+          <source>Divide the amount in a column by the number of periods</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütundaki tutarı dönem sayısına bölme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="869">
+          <source>You can divide the amount in a column by a specified number of periods.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir sütundaki tutarı belirtilen bir dönem sayısına bölebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="870">
+          <source>For example, the formula <bpt id="p1">**</bpt>B/Periods<ept id="p1">**</ept> divides the value in column B by the number of periods in column B. If the calculation spans multiple columns, specify the number of periods to use in the calculation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>B/Dönem Sayısı<ept id="p1">**</ept>B sütunundaki değeri B sütunundaki dönem sayısına böler. Hesaplama birden fazla sütuna yayılıyorsa hesaplamada kullanılacak dönem sayısını belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="871">
+          <source>For example, the formula <bpt id="p1">**</bpt>(B+C)/Periods<ept id="p1">**</ept> adds the amounts in column B and column C, and then divides the result by the period value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>(B+C)/Dönem Sayısı<ept id="p1">**</ept> formülü B ve C sütunlarındaki tutarları toplar ve ardından sonucu dönem değerine böler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="872">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ek kaynaklar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="873">
+          <source><bpt id="p1">[</bpt>Row definitions in financial reporting<ept id="p1">](row-definitions-financial-reporting.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Finansal raporlamada satır tanımları<ept id="p1">](row-definitions-financial-reporting.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="874">
+          <source><bpt id="p1">[</bpt>Advanced formatting options in financial reporting<ept id="p1">](advanced-formatting-options-financial-reporting.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Finansal raporlamada gelişmiş biçimlendirme seçenekleri<ept id="p1">](advanced-formatting-options-financial-reporting.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

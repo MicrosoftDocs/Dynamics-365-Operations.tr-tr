@@ -1,749 +1,2505 @@
----
-title: Elektronik raporlamada (ER) formül tasarımcısı
-description: Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar.
-author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-platform
-ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
-audience: Application User, IT Pro
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
-ms.search.region: Global
-ms.author: nselin
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: tr-TR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541280"
----
-# <a name="formula-designer-in-electronic-reporting-er"></a><span data-ttu-id="c6131-103">Elektronik raporlamada (ER) formül tasarımcısı</span><span class="sxs-lookup"><span data-stu-id="c6131-103">Formula designer in Electronic reporting (ER)</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="c6131-104">Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="c6131-104">This topic explains how to use the formula designer in Electronic reporting (ER).</span></span> <span data-ttu-id="c6131-105">Belirli bir elektronik belge için ER içerisinde bir biçim tasarladığınızda, belgenin gereksinimlerini karşılamak ve biçimlendirmek üzere formülleri veri dönüştürme için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-105">When you design a format for a specific electronic document in ER, you can use formulas to transform data so that it meets the requirements for the document's fulfillment and formatting.</span></span> <span data-ttu-id="c6131-106">Bu formüller Microsoft Excel'deki formüllere benzer.</span><span class="sxs-lookup"><span data-stu-id="c6131-106">These formulas resemble formulas in Microsoft Excel.</span></span> <span data-ttu-id="c6131-107">Formüllerde farklı türde işlevler desteklenmektedir: metin, tarih ve saat, matematiksel mantıksal, bilgi, veri türü dönüştürme ve diğer (iş etki alanına özel işlevler).</span><span class="sxs-lookup"><span data-stu-id="c6131-107">Various types of functions are supported in the formulas: text, date and time, mathematical, logical, information, data type conversion, and other (business domain–specific functions).</span></span>
-
-## <a name="formula-designer-overview"></a><span data-ttu-id="c6131-108">Formül tasarımcısına genel bakış</span><span class="sxs-lookup"><span data-stu-id="c6131-108">Formula designer overview</span></span>
-
-<span data-ttu-id="c6131-109">ER formül tasarımcısını destekler.</span><span class="sxs-lookup"><span data-stu-id="c6131-109">ER supports the formula designer.</span></span> <span data-ttu-id="c6131-110">Bu nedenle, tasarım zamanında aşağıdaki görevler için çalışma zamanında kullanılabilecek ifadeler yapılandırabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="c6131-110">Therefore, at design time, you can configure expressions that can be used for the following tasks at runtime:</span></span>
-
-- <span data-ttu-id="c6131-111">Microsoft Dynamics 365 for Finance and Operations veritabanından alınan veriyi dönüştürün ve bu, bir ER biçimleri için veri kaynağı olması üzerine tasarlanan bir ER veri modeline girilmelidir.</span><span class="sxs-lookup"><span data-stu-id="c6131-111">Transform data that is received from a Microsoft Dynamics 365 for Finance and Operations database, and that should be entered in an ER data model that is designed to be a data source for ER formats.</span></span> <span data-ttu-id="c6131-112">(Örneğin, bu dönüştürme işlemleri filtrelemeyi, gruplandırmayı ve veri türü dönüşümünü içerebilir.)</span><span class="sxs-lookup"><span data-stu-id="c6131-112">(For example, these transformations might include filtering, grouping, and data type conversion.)</span></span>
-- <span data-ttu-id="c6131-113">Oluşturulan bir elektronik belgeye belirli bir ER biçiminin düzenine ve koşullarına uygun olarak gönderilmesi gereken verileri biçimlendirin.</span><span class="sxs-lookup"><span data-stu-id="c6131-113">Format data that must be sent to a generating electronic document in accordance with the layout and conditions of a specific ER format.</span></span> <span data-ttu-id="c6131-114">(Örneğin, biçimlendirme istenen dil veya kültüre ya da kodlamaya uygun olarak yapılabilir).</span><span class="sxs-lookup"><span data-stu-id="c6131-114">(For example, the formatting might be done in accordance with the requested language or culture, or the encoding).</span></span>
-- <span data-ttu-id="c6131-115">Elektronik belge oluşturma işlemini kontrol edin.</span><span class="sxs-lookup"><span data-stu-id="c6131-115">Control the process of creating electronic documents.</span></span> <span data-ttu-id="c6131-116">(Örneğin, ifadeler veri işlemeye bağlı olarak biçimin belirli öğelerinin çıkışını etkinleştirebilir veya devre dışı bırakabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-116">(For example, the expressions can enable or disable the output of specific elements of the format, depending on processing data.</span></span> <span data-ttu-id="c6131-117">Aynı zamanda, belge oluşturma işlemini durdurabilir veya kullanıcılara ileti gönderebilir.)</span><span class="sxs-lookup"><span data-stu-id="c6131-117">They can also interrupt the document creation process or throw messages to users.)</span></span>
-
-<span data-ttu-id="c6131-118">**Formül tasarımcısı** sayfasını aşağıdaki eylemlerden birini gerçekleştirirken açabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="c6131-118">You can open the **Formula designer** page when you perform any of the following actions:</span></span>
-
-- <span data-ttu-id="c6131-119">Veri kaynağı maddelerini veri modeli bileşenlerine bağlayın.</span><span class="sxs-lookup"><span data-stu-id="c6131-119">Bind data source items to data model components.</span></span>
-- <span data-ttu-id="c6131-120">Veri kaynağı maddelerini biçim bileşenlerine bağlayın.</span><span class="sxs-lookup"><span data-stu-id="c6131-120">Bind data source items to format components.</span></span>
-- <span data-ttu-id="c6131-121">Veri kaynaklarının parçası olan hesaplanan alanların bakımını tamamlayın.</span><span class="sxs-lookup"><span data-stu-id="c6131-121">Complete maintenance of calculated fields that are part of data sources.</span></span>
-- <span data-ttu-id="c6131-122">Kullanıcı giriş parametreleri için görünürlük koşullarını tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="c6131-122">Define the visibility conditions for user input parameters.</span></span>
-- <span data-ttu-id="c6131-123">Biçimin dönüşümlerini tasarlayın.</span><span class="sxs-lookup"><span data-stu-id="c6131-123">Design a format's transformations.</span></span>
-- <span data-ttu-id="c6131-124">Biçimin bileşenlerinin etkinleştirme koşullarını tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="c6131-124">Define the enabling conditions for the format's components.</span></span>
-- <span data-ttu-id="c6131-125">Biçimin DOSYA bileşenleri için dosya adlarını tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="c6131-125">Define the file names for the format's FILE components.</span></span>
-- <span data-ttu-id="c6131-126">İşlem denetimi doğrulamaları için koşulları tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="c6131-126">Define the conditions for process control validations.</span></span>
-- <span data-ttu-id="c6131-127">İşlem denetimi doğrulamaları için ileti metnini tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="c6131-127">Define the message text for process control validations.</span></span>
-
-## <a name="designing-er-formulas"></a><span data-ttu-id="c6131-128">ER formülleri tasarlama</span><span class="sxs-lookup"><span data-stu-id="c6131-128">Designing ER formulas</span></span>
-
-### <a name="data-binding"></a><span data-ttu-id="c6131-129">Veri ilişkilendirme</span><span class="sxs-lookup"><span data-stu-id="c6131-129">Data binding</span></span>
-
-<span data-ttu-id="c6131-130">ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu veri veri tüketicisinde çalışma zamanında girilebilecek şekilde dönüştürecek bir ifade tanımlamak için kullanılabilir:</span><span class="sxs-lookup"><span data-stu-id="c6131-130">The ER formula designer can be used to define an expression that transforms data that is received from data sources, so that the data can be entered in the data consumer at runtime:</span></span>
-
-- <span data-ttu-id="c6131-131">Finance and Operations veri kaynaklarından ve çalışma zamanı parametrelerinden ER veri modeline</span><span class="sxs-lookup"><span data-stu-id="c6131-131">From Finance and Operations data sources and runtime parameters to an ER data model</span></span>
-- <span data-ttu-id="c6131-132">Bir ER veri modelinden ER biçimine</span><span class="sxs-lookup"><span data-stu-id="c6131-132">From an ER data model to an ER format</span></span>
-- <span data-ttu-id="c6131-133">Finance and Operations veri kaynaklarından ve çalışma zamanı parametrelerinden ER biçimine</span><span class="sxs-lookup"><span data-stu-id="c6131-133">From Finance and Operations data sources and runtime parameters to an ER format</span></span>
-
-<span data-ttu-id="c6131-134">Bu tür bir ifadenin tasarımı aşağıda gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="c6131-134">The following illustration shows the design of an expression of this type.</span></span> <span data-ttu-id="c6131-135">Bu örnekte ifade, Finance and Operations Intrastat tablosunun **Intrastat.AmountMST** alanının değerini iki ondalık basamağa yuvarlar ve yuvarlanan değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-135">In this example, the expression rounds the value of the **Intrastat.AmountMST** field the Intrastat table in Finance and Operations to two decimal places and then returns the rounded value.</span></span>
-
-<span data-ttu-id="c6131-136">[![Veri ilişkilendirme](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)</span><span class="sxs-lookup"><span data-stu-id="c6131-136">[![Data binding](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)</span></span>
-
-<span data-ttu-id="c6131-137">Aşağıdaki çizim bu tür bir ifadenin nasıl kullanılabileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-137">The following illustration shows how an expression of this type can be used.</span></span> <span data-ttu-id="c6131-138">Bu örnekte, tasarlanmış ifadenin sonucu, **Vergi raporlama modeli** veri modelinin **Transaction.InvoicedAmount** bileşenine girilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-138">In this example, the result of the designed expression is entered in the **Transaction.InvoicedAmount** component of the **Tax reporting model** data model.</span></span>
-
-<span data-ttu-id="c6131-139">[![Kullanılan veri bağlama](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)</span><span class="sxs-lookup"><span data-stu-id="c6131-139">[![Data binding being used](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)</span></span>
-
-<span data-ttu-id="c6131-140">Çalışma zamanında, tasarlanan formül olan **ROUND (Intrastat.AmountMST, 2)** **AmountMST** alanındaki değeri Intrastat tablosundaki her kayıt için iki ondalık basamağa yuvarlar.</span><span class="sxs-lookup"><span data-stu-id="c6131-140">At runtime, the designed formula, **ROUND (Intrastat.AmountMST, 2)**, rounds the value of the **AmountMST** field for each record in the Intrastat table to two decimal places.</span></span> <span data-ttu-id="c6131-141">Daha sonra yuvarlanan değeri **Vergi raporlama** veri modelinin **Transaction.InvoicedAmount** bileşenine girer.</span><span class="sxs-lookup"><span data-stu-id="c6131-141">It then enters the rounded value in the **Transaction.InvoicedAmount** component of the **Tax reporting** data model.</span></span>
-
-### <a name="data-formatting"></a><span data-ttu-id="c6131-142">Veri biçimlendirme</span><span class="sxs-lookup"><span data-stu-id="c6131-142">Data formatting</span></span>
-
-<span data-ttu-id="c6131-143">ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu veri, elektronik belgenin oluşturulmasında kullanılabilecek şekilde biçimlendirecek bir ifade tanımlamak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-143">The ER formula designer can be used to define an expression that formats data that is received from data sources, so that the data can be sent as part of the generating electronic document.</span></span> <span data-ttu-id="c6131-144">Bir biçim için yeniden kullanılması gereken tipik bir kural olarak uygulanması gereken bir biçimlendirmeniz olabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-144">You might have formatting that must be applied as a typical rule that should be reused for a format.</span></span> <span data-ttu-id="c6131-145">Bu durumda, bu biçimlendirmeyi biçim yapılandırmasına, biçimlendirme ifadesine sahip adlandırılmış bir dönüştürme olarak bir kez girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-145">In this case, you can introduce that formatting one time in the format configuration, as a named transformation that has a formatting expression.</span></span> <span data-ttu-id="c6131-146">Daha sonra, bu adlandırılmış dönüşüm, oluşturduğunuz biçimlendirme ifadesine çıktının biçimlendirilmesi gereken birçok biçim bileşenine bağlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-146">This named transformation can then be linked to many format components where the output must be formatted according to the formatting expression that you created.</span></span>
-
-<span data-ttu-id="c6131-147">Bu tür bir dönüştürmenin tasarımı aşağıda gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="c6131-147">The following illustration shows the design of a transformation of this type.</span></span> <span data-ttu-id="c6131-148">Bu örnekte, **TrimmedString** dönüşümü, **Dize** veri türünden gelen verileri baştaki ve sondaki boşlukları kaldırarak keser.</span><span class="sxs-lookup"><span data-stu-id="c6131-148">In this example, the **TrimmedString** transformation truncates incoming data of the **String** data type by removing leading and trailing spaces.</span></span> <span data-ttu-id="c6131-149">Bunun ardından, kesilmiş dize değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-149">It then returns the truncated string value.</span></span>
-
-<span data-ttu-id="c6131-150">[![Dönüşüm](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)</span><span class="sxs-lookup"><span data-stu-id="c6131-150">[![Transformation](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)</span></span>
-
-<span data-ttu-id="c6131-151">Aşağıdaki çizim bu tür bir dönüştürmenin nasıl kullanılabileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-151">The following illustration shows how a transformation of this type can be used.</span></span> <span data-ttu-id="c6131-152">Bu örnekte, birçok biçim bileşeni metni çıktı olarak çalışma zamanında oluşturulan elektronik belgeye gönderir.</span><span class="sxs-lookup"><span data-stu-id="c6131-152">In this example, several format components send text as output to the generating electronic document at runtime.</span></span> <span data-ttu-id="c6131-153">Bu biçim bileşenlerinin tümü ada göre **TrimmedString** dönüştürmesine başvurur.</span><span class="sxs-lookup"><span data-stu-id="c6131-153">All these format components refer to the **TrimmedString** transformation by name.</span></span>
-
-<span data-ttu-id="c6131-154">[![Kullanılan dönüştürme](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)</span><span class="sxs-lookup"><span data-stu-id="c6131-154">[![Transformation being used](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)</span></span>
-
-<span data-ttu-id="c6131-155">Önceki örnekte yer alan **partyName** gibi biçim bileşenleri **TrimmedString** dönüşümüne referansta bulunur, dönüştürme metni çıktı olarak oluşturulan elektronik belgeye gönderir.</span><span class="sxs-lookup"><span data-stu-id="c6131-155">When format components, such as the **partyName** component in the preceding illustration, refer to the **TrimmedString** transformation, the transformation sends text as output to the generating electronic document.</span></span> <span data-ttu-id="c6131-156">Bu metin baştaki ve sondaki boşlukları içermez.</span><span class="sxs-lookup"><span data-stu-id="c6131-156">This text doesn't include leading and trailing spaces.</span></span>
-
-<span data-ttu-id="c6131-157">Tek tek uygulanması zorunlu olan bir biçimlendirmeniz varsa, bu biçimlendirmeyi belirli bir biçim bileşeninin bir bağlamasının tekil ifadesi olarak tanıtabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-157">If you have formatting that must be applied individually, you can introduce that formatting as an individual expression of a binding of a specific format component.</span></span> <span data-ttu-id="c6131-158">Aşağıdaki çizim bu türde bir ifadeyi gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-158">The following illustration shows an expression of this type.</span></span> <span data-ttu-id="c6131-159">Bu örnekte **partyType** biçim bileşeni veri kaynağındaki **Model.Company.RegistrationType** alanından gelen veriyi büyük harfe dönüştüren bir ifade aracılığıyla veri kaynağına bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="c6131-159">In this example, the **partyType** format component is bound to the data source via an expression that converts incoming data from the **Model.Company.RegistrationType** field in the data source to uppercase text.</span></span> <span data-ttu-id="c6131-160">Sonra ifade metni çıktı olarak elektronik belgeye gönderir.</span><span class="sxs-lookup"><span data-stu-id="c6131-160">The expression then sends that text as output to the electronic document.</span></span>
-
-<span data-ttu-id="c6131-161">[![Ayrı bir bileşene biçimlendirme uygulama](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)</span><span class="sxs-lookup"><span data-stu-id="c6131-161">[![Applying formatting to an individual component](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)</span></span>
-
-### <a name="process-flow-control"></a><span data-ttu-id="c6131-162">İşlem akış denetimi</span><span class="sxs-lookup"><span data-stu-id="c6131-162">Process flow control</span></span>
-
-<span data-ttu-id="c6131-163">ER formül tasarımcısı, elektronik belge oluşturma işlem akışını denetleyen ifadeleri tanımlamak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-163">The ER formula designer can be used to define expressions that control the process flow of generating electronic documents.</span></span> <span data-ttu-id="c6131-164">Aşağıdaki görevlerini yerine getirebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="c6131-164">You can perform the following tasks:</span></span>
-
-- <span data-ttu-id="c6131-165">Bir belge oluşturma işleminin ne zaman durdurulması gerektiği koşullarını tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="c6131-165">Define conditions that determine when a document creation process must be stopped.</span></span>
-- <span data-ttu-id="c6131-166">Durdurulan işlemler hakkında kullanıcıya iletiler oluşturan veya devam eden rapor oluşturma işlemleri hakkında yürütme günlüğü iletileri oluşturan ifadeleri belirtin.</span><span class="sxs-lookup"><span data-stu-id="c6131-166">Specify expressions that either create messages for the user about stopped processes or throw execution log messages about the continuing process of report generation.</span></span>
-- <span data-ttu-id="c6131-167">Oluşturulan elektronik belgelerinin dosya adlarını belirtin ve bunların oluşturulma koşullarını denetleyin.</span><span class="sxs-lookup"><span data-stu-id="c6131-167">Specify the file names of generating electronic documents, and control the conditions of their creation.</span></span>
-
-<span data-ttu-id="c6131-168">İşlem akışı denetiminin her kuralı ayrı ayrı bir doğrulama olarak tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="c6131-168">Each rule of the process flow control is designed as an individual validation.</span></span> <span data-ttu-id="c6131-169">Aşağıdaki çizim bu türde bir doğrulamayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-169">The following illustration shows a validation of this type.</span></span> <span data-ttu-id="c6131-170">u örnekteki yapılandırmanın bir açıklaması aşağıdadır:</span><span class="sxs-lookup"><span data-stu-id="c6131-170">Here is an explanation of the configuration in this example:</span></span>
-
-- <span data-ttu-id="c6131-171">Doğrulama, XML dosyasının oluşturulduğu sırada **INSTAT** düğümü oluşturulurken değerlendirilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-171">The validation is evaluated when the **INSTAT** node is created during generation of the XML file.</span></span>
-- <span data-ttu-id="c6131-172">Hareketin listesi boşsa, doğrulama işlem yürütmesini durdurur ve **YANLIŞ** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-172">If the list of transactions is empty, the validation stops the execution process and returns **FALSE**.</span></span>
-- <span data-ttu-id="c6131-173">Doğrulama, kullanıcının tercih ettiği dilde Finance and Operations SYS70894 etiket metnini içeren bir hata iletisi döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-173">The validation returns an error message that includes the text of Finance and Operations label SYS70894 in the user's preferred language.</span></span>
-
-<span data-ttu-id="c6131-174">[![Doğrulama](./media/picture-validation.jpg)](./media/picture-validation.jpg)</span><span class="sxs-lookup"><span data-stu-id="c6131-174">[![Validation](./media/picture-validation.jpg)](./media/picture-validation.jpg)</span></span>
-
-<span data-ttu-id="c6131-175">ER formül tasarımcısı elektronik belgenin oluşturulması ve dosya oluşturma işlemini denetlemek için bir dosya adı oluşturmak için de kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-175">The ER formula designer can also be used to generate a file name for a generating electronic document and control the file creation process.</span></span> <span data-ttu-id="c6131-176">Aşağıdaki çizim, bu türdeki bir işlem akış denetiminin tasarımını gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-176">The following illustration shows the design of a process flow control of this type.</span></span> <span data-ttu-id="c6131-177">u örnekteki yapılandırmanın bir açıklaması aşağıdadır:</span><span class="sxs-lookup"><span data-stu-id="c6131-177">Here is an explanation of the configuration in this example:</span></span>
-
-- <span data-ttu-id="c6131-178">**model.Intrastat** veri kaynağındaki kayıtların listesi toplu işlere bölünür.</span><span class="sxs-lookup"><span data-stu-id="c6131-178">The list of records from the **model.Intrastat** data source is divided into batches.</span></span> <span data-ttu-id="c6131-179">Her toplu iş en çok 1000 kayıt içerir.</span><span class="sxs-lookup"><span data-stu-id="c6131-179">Each batch contains up to 1,000 records.</span></span>
-- <span data-ttu-id="c6131-180">Çıktı her toplu işlem için XML biçiminde oluşturulmuş bir dosya içeren bir zip dosyası oluşturur.</span><span class="sxs-lookup"><span data-stu-id="c6131-180">The output creates a zip file that contains one file in XML format for every batch that was created.</span></span>
-- <span data-ttu-id="c6131-181">Bir ifade, elektronik belge oluşturması için dosya adı ve dosya adı uzantısını birleştirerek bir dosya adı döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-181">An expression returns a file name for generating electronic documents by concatenating the file name and the file name extension.</span></span> <span data-ttu-id="c6131-182">İkinci toplu iş ve tüm sonraki toplu işler için, dosya adı toplu iş kimliğini bir sonek olarak içerir.</span><span class="sxs-lookup"><span data-stu-id="c6131-182">For the second batch and all subsequent batches, the file name contains the batch ID as a suffix.</span></span>
-- <span data-ttu-id="c6131-183">Bir ifade (**DOĞRU** döndürerek) en az bir kayıt içeren toplu işler için dosya oluşturma işlemini etkinleştirir.</span><span class="sxs-lookup"><span data-stu-id="c6131-183">An expression enables (by returning **TRUE**) the file creation process for batches that contain at least one record.</span></span>
-
-<span data-ttu-id="c6131-184">[![Dosya denetimi](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)</span><span class="sxs-lookup"><span data-stu-id="c6131-184">[![File control](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)</span></span>
-
-### <a name="basic-syntax"></a><span data-ttu-id="c6131-185">Temel sözdizimi</span><span class="sxs-lookup"><span data-stu-id="c6131-185">Basic syntax</span></span>
-
-<span data-ttu-id="c6131-186">ER ifadeleri aşağıdaki öğelerden birini veya tümünü içerebilirler:</span><span class="sxs-lookup"><span data-stu-id="c6131-186">ER expressions can contain any or all of the following elements:</span></span>
-
-- <span data-ttu-id="c6131-187">Sabitler</span><span class="sxs-lookup"><span data-stu-id="c6131-187">Constants</span></span>
-- <span data-ttu-id="c6131-188">İşleçler</span><span class="sxs-lookup"><span data-stu-id="c6131-188">Operators</span></span>
-- <span data-ttu-id="c6131-189">Referanslar</span><span class="sxs-lookup"><span data-stu-id="c6131-189">References</span></span>
-- <span data-ttu-id="c6131-190">Yollar</span><span class="sxs-lookup"><span data-stu-id="c6131-190">Paths</span></span>
-- <span data-ttu-id="c6131-191">İşlevler</span><span class="sxs-lookup"><span data-stu-id="c6131-191">Functions</span></span>
-
-#### <a name="constants"></a><span data-ttu-id="c6131-192">Sabitler</span><span class="sxs-lookup"><span data-stu-id="c6131-192">Constants</span></span>
-
-<span data-ttu-id="c6131-193">İfadeleri tasarlarken metin ve sayısal sabitler (hesaplanmayan değerler) içeren ifadeler kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-193">When you design expressions, you can use text and numeric constants (that is, values that aren't calculated).</span></span> <span data-ttu-id="c6131-194">Örneğin **VALUE ("100") + 20** ifadesi, sayısal sabit olarak **20** ve dize sabiti olarak **"100"** kullanır ve **120** sayısal değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-194">For example, the expression **VALUE ("100") + 20** uses the numeric constant **20** and the string constant **"100"**, and returns the numeric value **120**.</span></span> <span data-ttu-id="c6131-195">ER formül tasarımcısı kaçış sıralarını destekler.</span><span class="sxs-lookup"><span data-stu-id="c6131-195">The ER formula designer supports escape sequences.</span></span> <span data-ttu-id="c6131-196">Bu nedenle, farklı şekilde ele alınması gereken bir ifade dizesi belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-196">Therefore, you can specify an expression string that should be handled differently.</span></span> <span data-ttu-id="c6131-197">Örneğin **"Leo Tolstoy ""Savaş ve Barış"" Cilt 1""** ifadesi aşağıdaki metin dizesini döndürür: **Leo Tolstoy "Savaş ve Barış" Cilt 1**.</span><span class="sxs-lookup"><span data-stu-id="c6131-197">For example, the expression **"Leo Tolstoy ""War and Peace"" Volume 1"** returns the text string **Leo Tolstoy "War and Peace" Volume 1**.</span></span>
-
-#### <a name="operators"></a><span data-ttu-id="c6131-198">İşleçler</span><span class="sxs-lookup"><span data-stu-id="c6131-198">Operators</span></span>
-
-<span data-ttu-id="c6131-199">Aşağıdaki tablo, toplama, çıkarma, bölme ve çarpma gibi temel matematik işlemleri gerçekleştirmek için kullanabileceğiniz aritmetik işleçleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-199">The following table shows the arithmetic operators that you can use to do basic mathematical operations, such as addition, subtraction, multiplication, and division.</span></span>
-
-| <span data-ttu-id="c6131-200">İşleç</span><span class="sxs-lookup"><span data-stu-id="c6131-200">Operator</span></span> | <span data-ttu-id="c6131-201">Anlamı</span><span class="sxs-lookup"><span data-stu-id="c6131-201">Meaning</span></span>               | <span data-ttu-id="c6131-202">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-202">Example</span></span> |
-|----------|-----------------------|---------|
-| +        | <span data-ttu-id="c6131-203">Fark hesap eki</span><span class="sxs-lookup"><span data-stu-id="c6131-203">Addition</span></span>              | <span data-ttu-id="c6131-204">1+2</span><span class="sxs-lookup"><span data-stu-id="c6131-204">1+2</span></span>     |
-| -        | <span data-ttu-id="c6131-205">Çıkartma, olumsuzluk</span><span class="sxs-lookup"><span data-stu-id="c6131-205">Subtraction, negation</span></span> | <span data-ttu-id="c6131-206">5-2, -1</span><span class="sxs-lookup"><span data-stu-id="c6131-206">5-2, -1</span></span> |
-| \*       | <span data-ttu-id="c6131-207">Çarpma</span><span class="sxs-lookup"><span data-stu-id="c6131-207">Multiplication</span></span>        | <span data-ttu-id="c6131-208">7\*8</span><span class="sxs-lookup"><span data-stu-id="c6131-208">7\*8</span></span>    |
-| /        | <span data-ttu-id="c6131-209">Bölüm</span><span class="sxs-lookup"><span data-stu-id="c6131-209">Division</span></span>              | <span data-ttu-id="c6131-210">9/3</span><span class="sxs-lookup"><span data-stu-id="c6131-210">9/3</span></span>     |
-
-<span data-ttu-id="c6131-211">Aşağıdaki tablo desteklenen karşılaştırma işleçlerini göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="c6131-211">The following table shows the comparison operators that are supported.</span></span> <span data-ttu-id="c6131-212">Bu işleçleri iki değeri karşılaştırmak için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-212">You can use these operators to compare two values.</span></span>
-
-| <span data-ttu-id="c6131-213">İşleç</span><span class="sxs-lookup"><span data-stu-id="c6131-213">Operator</span></span> | <span data-ttu-id="c6131-214">Anlamı</span><span class="sxs-lookup"><span data-stu-id="c6131-214">Meaning</span></span>                  | <span data-ttu-id="c6131-215">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-215">Example</span></span>    |
-|----------|--------------------------|------------|
-| =        | <span data-ttu-id="c6131-216">Eşittir</span><span class="sxs-lookup"><span data-stu-id="c6131-216">Equal</span></span>                    | <span data-ttu-id="c6131-217">X=Y</span><span class="sxs-lookup"><span data-stu-id="c6131-217">X=Y</span></span>        |
-| &gt;     | <span data-ttu-id="c6131-218">Büyüktür</span><span class="sxs-lookup"><span data-stu-id="c6131-218">Greater than</span></span>             | <span data-ttu-id="c6131-219">X&gt;Y</span><span class="sxs-lookup"><span data-stu-id="c6131-219">X&gt;Y</span></span>     |
-| &lt;     | <span data-ttu-id="c6131-220">Küçüktür</span><span class="sxs-lookup"><span data-stu-id="c6131-220">Less than</span></span>                | <span data-ttu-id="c6131-221">X&lt;Y</span><span class="sxs-lookup"><span data-stu-id="c6131-221">X&lt;Y</span></span>     |
-| &gt;=    | <span data-ttu-id="c6131-222">Büyüktür veya eşittir</span><span class="sxs-lookup"><span data-stu-id="c6131-222">Greater than or equal to</span></span> | <span data-ttu-id="c6131-223">X&gt;=Y</span><span class="sxs-lookup"><span data-stu-id="c6131-223">X&gt;=Y</span></span>    |
-| &lt;=    | <span data-ttu-id="c6131-224">Küçüktür veya eşittir</span><span class="sxs-lookup"><span data-stu-id="c6131-224">Less than or equal to</span></span>    | <span data-ttu-id="c6131-225">X&lt;=Y</span><span class="sxs-lookup"><span data-stu-id="c6131-225">X&lt;=Y</span></span>    |
-| &lt;&gt; | <span data-ttu-id="c6131-226">Eşit değil</span><span class="sxs-lookup"><span data-stu-id="c6131-226">Not equal to</span></span>             | <span data-ttu-id="c6131-227">X&lt;&gt;Y</span><span class="sxs-lookup"><span data-stu-id="c6131-227">X&lt;&gt;Y</span></span> |
-
-<span data-ttu-id="c6131-228">Ayrıca, bir metin birleştirme işleci olarak (&) işareti kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-228">Additionally, you can use an ampersand (&) as a text concatenation operator.</span></span> <span data-ttu-id="c6131-229">Bu şekilde, bir veya daha fazla metin dizesini tek bir metin içinde birleştirebilir veya art arda ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-229">In this way, you can join, or concatenate, one or more text strings into a single piece of text.</span></span>
-
-| <span data-ttu-id="c6131-230">İşleç</span><span class="sxs-lookup"><span data-stu-id="c6131-230">Operator</span></span> | <span data-ttu-id="c6131-231">Anlamı</span><span class="sxs-lookup"><span data-stu-id="c6131-231">Meaning</span></span>     | <span data-ttu-id="c6131-232">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-232">Example</span></span>                                             |
-|----------|-------------|-----------------------------------------------------|
-| &        | <span data-ttu-id="c6131-233">Art arda eklemek</span><span class="sxs-lookup"><span data-stu-id="c6131-233">Concatenate</span></span> | <span data-ttu-id="c6131-234">"Yazdırılacak bir şey yok" & ":&nbsp;" & "kayıt bulunamadı"</span><span class="sxs-lookup"><span data-stu-id="c6131-234">"Nothing to print" & ":&nbsp;" & "no records found"</span></span> |
-
-##### <a name="operator-precedence"></a><span data-ttu-id="c6131-235">İşleç önceliği</span><span class="sxs-lookup"><span data-stu-id="c6131-235">Operator precedence</span></span>
-
-<span data-ttu-id="c6131-236">Bir bileşik ifadenin parçalarının hangi sırada değerlendirilecekleri önemlidir.</span><span class="sxs-lookup"><span data-stu-id="c6131-236">The order that the parts of a compound expression are evaluated in is important.</span></span> <span data-ttu-id="c6131-237">Örneğin, **1 + 4 / 2** deyiminin sonucu, bölme işleminin mi yoksa toplama işleminin mi önce gerçekleşeceğine göre farklılık göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="c6131-237">For example, the result of the expression **1 + 4 / 2** varies, depending on whether the addition operation or the division operation is done first.</span></span> <span data-ttu-id="c6131-238">Bir ifadenin nasıl değerlendirileceğini açıkça tanımlamak için parantezleri kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-238">You can use parentheses to explicitly define how an expression is evaluated.</span></span> <span data-ttu-id="c6131-239">Örneğin, toplama işleminin önce yapılması gerektiğini belirtmek için yukarıdaki ifadeyi şuna değiştirebilirsiniz: **(1 + 4) / 2**.</span><span class="sxs-lookup"><span data-stu-id="c6131-239">For example, to indicate that the addition operation should be done first, you can change the preceding expression to **(1 + 4) / 2**.</span></span> <span data-ttu-id="c6131-240">Bir ifadede gerçekleştirilmesi gereken işleçlerin sırasını özellikle belirtmezseniz sıralama, desteklenen işleçlerin varsayılan önceliğine dayandırılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-240">If you don't explicitly indicate the order of operations in an expression, the order is based on the default precedence that is assigned to the supported operators.</span></span> <span data-ttu-id="c6131-241">Aşağıdaki tablo, işleçlerin her birine atanan önceliği gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-241">The following table shows the precedence that is assigned to each operator.</span></span> <span data-ttu-id="c6131-242">Daha yüksek bir önceliğe sahip işleçler (örneğin, 7) daha düşük önceliğe sahip işleçlerden önce değerlendirilirler (örneğin, 1).</span><span class="sxs-lookup"><span data-stu-id="c6131-242">Operators that have a higher precedence (for example, 7) are evaluated before operators that have a lower precedence (for example, 1).</span></span>
-
-| <span data-ttu-id="c6131-243">Öncelik</span><span class="sxs-lookup"><span data-stu-id="c6131-243">Precedence</span></span> | <span data-ttu-id="c6131-244">İşleçler</span><span class="sxs-lookup"><span data-stu-id="c6131-244">Operators</span></span>      | <span data-ttu-id="c6131-245">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="c6131-245">Syntax</span></span>                                                                  |
-|------------|----------------|-------------------------------------------------------------------------|
-| <span data-ttu-id="c6131-246">7</span><span class="sxs-lookup"><span data-stu-id="c6131-246">7</span></span>          | <span data-ttu-id="c6131-247">Gruplama</span><span class="sxs-lookup"><span data-stu-id="c6131-247">Grouping</span></span>       | <span data-ttu-id="c6131-248">( …</span><span class="sxs-lookup"><span data-stu-id="c6131-248">( …</span></span> <span data-ttu-id="c6131-249">)</span><span class="sxs-lookup"><span data-stu-id="c6131-249">)</span></span>                                                                   |
-| <span data-ttu-id="c6131-250">6</span><span class="sxs-lookup"><span data-stu-id="c6131-250">6</span></span>          | <span data-ttu-id="c6131-251">Üye erişimi</span><span class="sxs-lookup"><span data-stu-id="c6131-251">Member access</span></span>  | <span data-ttu-id="c6131-252">…</span><span class="sxs-lookup"><span data-stu-id="c6131-252">…</span></span> <span data-ttu-id="c6131-253">'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c6131-253">.</span></span> <span data-ttu-id="c6131-254">…</span><span class="sxs-lookup"><span data-stu-id="c6131-254">…</span></span>                                                                   |
-| <span data-ttu-id="c6131-255">5</span><span class="sxs-lookup"><span data-stu-id="c6131-255">5</span></span>          | <span data-ttu-id="c6131-256">İşlev çağrısı</span><span class="sxs-lookup"><span data-stu-id="c6131-256">Function call</span></span>  | <span data-ttu-id="c6131-257">…</span><span class="sxs-lookup"><span data-stu-id="c6131-257">…</span></span> <span data-ttu-id="c6131-258">( …</span><span class="sxs-lookup"><span data-stu-id="c6131-258">( …</span></span> <span data-ttu-id="c6131-259">)</span><span class="sxs-lookup"><span data-stu-id="c6131-259">)</span></span>                                                                 |
-| <span data-ttu-id="c6131-260">4</span><span class="sxs-lookup"><span data-stu-id="c6131-260">4</span></span>          | <span data-ttu-id="c6131-261">Çarpımsal</span><span class="sxs-lookup"><span data-stu-id="c6131-261">Multiplicative</span></span> | <span data-ttu-id="c6131-262">…</span><span class="sxs-lookup"><span data-stu-id="c6131-262">…</span></span> <span data-ttu-id="c6131-263">\* …</span><span class="sxs-lookup"><span data-stu-id="c6131-263">\* …</span></span><br><span data-ttu-id="c6131-264">…</span><span class="sxs-lookup"><span data-stu-id="c6131-264">…</span></span> <span data-ttu-id="c6131-265">/ …</span><span class="sxs-lookup"><span data-stu-id="c6131-265">/ …</span></span>                                                         |
-| <span data-ttu-id="c6131-266">3</span><span class="sxs-lookup"><span data-stu-id="c6131-266">3</span></span>          | <span data-ttu-id="c6131-267">Eklenecek</span><span class="sxs-lookup"><span data-stu-id="c6131-267">Additive</span></span>       | <span data-ttu-id="c6131-268">…</span><span class="sxs-lookup"><span data-stu-id="c6131-268">…</span></span> <span data-ttu-id="c6131-269">+ …</span><span class="sxs-lookup"><span data-stu-id="c6131-269">+ …</span></span><br><span data-ttu-id="c6131-270">…</span><span class="sxs-lookup"><span data-stu-id="c6131-270">…</span></span> <span data-ttu-id="c6131-271">- …</span><span class="sxs-lookup"><span data-stu-id="c6131-271">- …</span></span>                                                          |
-| <span data-ttu-id="c6131-272">2</span><span class="sxs-lookup"><span data-stu-id="c6131-272">2</span></span>          | <span data-ttu-id="c6131-273">Karşılaştırma</span><span class="sxs-lookup"><span data-stu-id="c6131-273">Comparison</span></span>     | <span data-ttu-id="c6131-274">…</span><span class="sxs-lookup"><span data-stu-id="c6131-274">…</span></span> <span data-ttu-id="c6131-275">&lt; …</span><span class="sxs-lookup"><span data-stu-id="c6131-275">&lt; …</span></span><br><span data-ttu-id="c6131-276">…</span><span class="sxs-lookup"><span data-stu-id="c6131-276">…</span></span> <span data-ttu-id="c6131-277">&lt;= …</span><span class="sxs-lookup"><span data-stu-id="c6131-277">&lt;= …</span></span><br><span data-ttu-id="c6131-278">…</span><span class="sxs-lookup"><span data-stu-id="c6131-278">…</span></span><span data-ttu-id="c6131-279"> =&gt; …</span><span class="sxs-lookup"><span data-stu-id="c6131-279"> =&gt; …</span></span><br><span data-ttu-id="c6131-280">…</span><span class="sxs-lookup"><span data-stu-id="c6131-280">…</span></span> <span data-ttu-id="c6131-281">&gt; …</span><span class="sxs-lookup"><span data-stu-id="c6131-281">&gt; …</span></span><br><span data-ttu-id="c6131-282">…</span><span class="sxs-lookup"><span data-stu-id="c6131-282">…</span></span> <span data-ttu-id="c6131-283">= …</span><span class="sxs-lookup"><span data-stu-id="c6131-283">= …</span></span><br><span data-ttu-id="c6131-284">…</span><span class="sxs-lookup"><span data-stu-id="c6131-284">…</span></span> <span data-ttu-id="c6131-285">&lt;&gt; …</span><span class="sxs-lookup"><span data-stu-id="c6131-285">&lt;&gt; …</span></span> |
-| <span data-ttu-id="c6131-286">1</span><span class="sxs-lookup"><span data-stu-id="c6131-286">1</span></span>          | <span data-ttu-id="c6131-287">Ayrılma</span><span class="sxs-lookup"><span data-stu-id="c6131-287">Separation</span></span>     | <span data-ttu-id="c6131-288">…</span><span class="sxs-lookup"><span data-stu-id="c6131-288">…</span></span> <span data-ttu-id="c6131-289">, …</span><span class="sxs-lookup"><span data-stu-id="c6131-289">, …</span></span>                                                                   |
-
-<span data-ttu-id="c6131-290">Bir ifadenin aynı önceliğe sahip birden çok işleç içeriyorsa, bu işleçler soldan sağa doğru değerlendirilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-290">If an expression includes multiple consecutive operators that have the same precedence, those operations are evaluated from left to right.</span></span> <span data-ttu-id="c6131-291">Örneğin, **1 + 6 / 2 \* 3 &gt; 5** ifadesi, **doğru** sonucunu verir.</span><span class="sxs-lookup"><span data-stu-id="c6131-291">For example, the expression **1 + 6 / 2 \* 3 &gt; 5** returns **true**.</span></span> <span data-ttu-id="c6131-292">Deyimlerin okunmasını ve bakımını daha kolay hale getirmek için, deyimlerin ifadedeki arzu edilen işlem sıralarını, parantezler kullanarak açıkça belirtmenizi tavsiye ederiz.</span><span class="sxs-lookup"><span data-stu-id="c6131-292">We recommend that you use parentheses to explicitly indicate the desired order of operations in expressions, so that the expressions are easier to read and maintain.</span></span>
-
-#### <a name="references"></a><span data-ttu-id="c6131-293">Referanslar</span><span class="sxs-lookup"><span data-stu-id="c6131-293">References</span></span>
-
-<span data-ttu-id="c6131-294">Bir ifadenin tasarımında kullanılabilir olan bir mevcut ER bileşeninin tüm veri kaynakları, adlandırılmış referanslar olarak kullanılabilirler.</span><span class="sxs-lookup"><span data-stu-id="c6131-294">All data sources of the current ER component that are available during the design of an expression can be used as named references.</span></span> <span data-ttu-id="c6131-295">(Geçerli ER bileşeni bir model veya biçim olabilir.) Örneğin, geçerli ER veri modeli **ReportingDate** veri kaynağını içerir ve bu veri kaynağı **DATETIME** veri türünde bir değer döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-295">(The current ER component can be either a model or a format.) For example, the current ER data model contains the **ReportingDate** data source, and this data source returns a value of the **DATETIME** data type.</span></span> <span data-ttu-id="c6131-296">Oluşturulan belgede bu değeri uygun şekilde biçimlendirmek için ifadedeki veri kaynağına başvurabilirsiniz: **DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")**.</span><span class="sxs-lookup"><span data-stu-id="c6131-296">To correctly format that value in the generating document, you can reference the data source in the expression as **DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")**.</span></span>
-
-<span data-ttu-id="c6131-297">Referansta bulunan veri kaynağının adında yer alan ve alfabedeki bir harfi temsil etmeyen tüm karakterlerin önünde tek bir tırnak işareti (') olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c6131-297">All characters in the name of a referencing data source that don't represent a letter of the alphabet must be preceded by a single quotation mark (').</span></span> <span data-ttu-id="c6131-298">Referans gösterilen veri kaynağı adı alfabede temsil edilmeyen en az bir simgeyi içeriyorsa, adın tekli tırnak işaretleri içerisine alınması gerekir.</span><span class="sxs-lookup"><span data-stu-id="c6131-298">If the name of a referencing data source contains at least one symbol that doesn't represent a letter of the alphabet, the name must be enclosed in single quotation marks.</span></span> <span data-ttu-id="c6131-299">(Örneğin, alfabetik olmayan simgeler noktalama işaretleri veya diğer yazılı simgeleri olabilir.) Bazı örnekler şunlardır:</span><span class="sxs-lookup"><span data-stu-id="c6131-299">(For example, these non-alphabetic symbols can be punctuation marks or other written symbols.) Here are some examples:</span></span>
-
-- <span data-ttu-id="c6131-300">**Bugünün tarihi ve saati** veri kaynağının bir ER deyiminde şu şekilde referans gösterilmiş olması gerekir: **'Bugünün tarihi ve saati'**.</span><span class="sxs-lookup"><span data-stu-id="c6131-300">The **Today's date & time** data source must be referred to in an ER expression as **'Today''s date & time'**.</span></span>
-- <span data-ttu-id="c6131-301">**Müşteriler** veri kaynağının **name()** yöntemi, bir ER deyimi içerisinde aşağıdaki gibi referans gösterilmelidir: **Customers.'name()'**.</span><span class="sxs-lookup"><span data-stu-id="c6131-301">The **name()** method of the **Customers** data source must be referred to in an ER expression as **Customers.'name()'**.</span></span>
-
-<span data-ttu-id="c6131-302">Finance and Operations veri kaynaklarının yöntemlerinde parametreler varsa, yöntemleri çağırmak için aşağıdaki sözdizimi kullanılır:</span><span class="sxs-lookup"><span data-stu-id="c6131-302">If the methods of Finance and Operations data sources have parameters, the following syntax is used to call those methods:</span></span>
-
-- <span data-ttu-id="c6131-303">**Sistem** veri kaynağının **isLanguageRTL** yönteminde **Dize** veri türünün **EN-US** parametresi varsa, bu yönteme bir ER deyiminde **System.'isLanguageRTL'("EN-US")** olarak referans verilmelidir.</span><span class="sxs-lookup"><span data-stu-id="c6131-303">If the **isLanguageRTL** method of the **System** data source has an **EN-US** parameter of the **String** data type, this method must be referred to in an ER expression as **System.'isLanguageRTL'("EN-US")**.</span></span>
-- <span data-ttu-id="c6131-304">Bir yöntem adı yalnızca alfasayısal simgelerden oluşuyorsa tırnak işaretleri zorunlu değildir.</span><span class="sxs-lookup"><span data-stu-id="c6131-304">Quotation marks aren't required when a method name contains only alphanumeric symbols.</span></span> <span data-ttu-id="c6131-305">Ancak, bir tablonun bir yönteminin adı köşeli parantez içerdiğinde zorunludur.</span><span class="sxs-lookup"><span data-stu-id="c6131-305">However, they are required for a method of a table if the name includes brackets.</span></span>
-
-<span data-ttu-id="c6131-306">**Sistem** veri kaynağı **Global** Finance and Operations uygulama sınıfına referansta bulunan bir ER eşlemesine eklendiğinde, ifade **YANLIŞ** Boole değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-306">When the **System** data source is added to an ER mapping that refers to the **Global** Finance and Operations application class, the expression returns the Boolean value **FALSE**.</span></span> <span data-ttu-id="c6131-307">Değiştirilen ifade **System.' isLanguageRTL'("AR")** **DOĞRU** Boole değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-307">The modified expression **System.' isLanguageRTL'("AR")** returns the Boolean value **TRUE**.</span></span>
-
-<span data-ttu-id="c6131-308">Değerlerin bu yöntem türünün parametrelerine geçiş şeklini sınırlandırabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="c6131-308">You can limit the way that values are passed to the parameters of this type of method:</span></span>
-
-- <span data-ttu-id="c6131-309">Bu tür yöntemlere yalnızca sabitler geçirilebilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-309">Only constants can be passed to methods of this type.</span></span> <span data-ttu-id="c6131-310">Sabitlerin değerleri tasarım zamanında tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="c6131-310">The values of the constants are defined at design time.</span></span>
-- <span data-ttu-id="c6131-311">Yalnızca basit (temel) veri türleri bu tür parametreler için desteklenir.</span><span class="sxs-lookup"><span data-stu-id="c6131-311">Only primitive (basic) data types are supported for parameters of this type.</span></span> <span data-ttu-id="c6131-312">(Temel veri türleri şunlardır: tamsayı, gerçek, Boole, dize, vb.)</span><span class="sxs-lookup"><span data-stu-id="c6131-312">(The primitive data types are integer, real, Boolean, string, and so on.)</span></span>
-
-#### <a name="paths"></a><span data-ttu-id="c6131-313">Yollar</span><span class="sxs-lookup"><span data-stu-id="c6131-313">Paths</span></span>
-
-<span data-ttu-id="c6131-314">Bir ifade yapılandırılmış bir veri kaynağına başvurduğunda, bu veri kaynağının belirli bir temel öğesini seçmek için bir yol tanımı kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-314">When an expression references a structured data source, you can use the path definition to select a specific primitive element of that data source.</span></span> <span data-ttu-id="c6131-315">Yapılandırılmış veri kaynağının öğelerini tek tek ayırmak için bir nokta karakteri (.) kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-315">A dot character (.) is used to separate individual elements of a structured data source.</span></span> <span data-ttu-id="c6131-316">Örneğin, mevcut ER veri modeli **InvoiceTransactions** veri kaynağını içerir ve bu veri kaynağı kayıtların listesini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-316">For example, the current ER data model contains the **InvoiceTransactions** data source, and this data source returns a list of records.</span></span> <span data-ttu-id="c6131-317">**InvoiceTransactions** kayıt yapısı her ikisi de sayısal değerler döndüren **AmountDebit** ve **AmountCredit** alanlarını içerir.</span><span class="sxs-lookup"><span data-stu-id="c6131-317">The **InvoiceTransactions** record structure contains the **AmountDebit** and **AmountCredit** fields, and both these fields return numeric values.</span></span> <span data-ttu-id="c6131-318">Bu nedenle, faturalanan tutarı hesaplamak için şu deyimi tasarlayabilirsiniz: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**.</span><span class="sxs-lookup"><span data-stu-id="c6131-318">Therefore, you can design the following expression to calculate the invoiced amount: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**.</span></span>
-
-#### <a name="functions"></a><span data-ttu-id="c6131-319">İşlevler</span><span class="sxs-lookup"><span data-stu-id="c6131-319">Functions</span></span>
-
-<span data-ttu-id="c6131-320">Sonraki bölüm, ER deyimlerinde kullanılabilecek işlevleri açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="c6131-320">The next section describes the functions that can be used in ER expressions.</span></span> <span data-ttu-id="c6131-321">İfade bağlamının tüm veri kaynakları (geçerli ER veri modeli ya da ER biçimi ) çağırma işlevlerinin bağımsız değişkenleri listesine uygun işlevleri çağırma parametreleri olarak kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-321">All data sources of the expression context (the current ER data model or ER format) can be used as parameters of calling functions, in accordance with the list of arguments for calling functions.</span></span> <span data-ttu-id="c6131-322">Sabitler çağırma işlevleri parametreleri olarak da kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-322">Constants can also be used as parameters of calling functions.</span></span> <span data-ttu-id="c6131-323">Örneğin, mevcut ER veri modeli **InvoiceTransactions** veri kaynağını içerir ve bu veri kaynağı kayıtların listesini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-323">For example, the current ER data model contains the **InvoiceTransactions** data source, and this data source returns a list of records.</span></span> <span data-ttu-id="c6131-324">**InvoiceTransactions** kayıt yapısı her ikisi de sayısal değerler döndüren **AmountDebit** ve **AmountCredit** alanlarını içerir.</span><span class="sxs-lookup"><span data-stu-id="c6131-324">The **InvoiceTransactions** record structure contains the **AmountDebit** and **AmountCredit** fields, and both these fields return numeric values.</span></span> <span data-ttu-id="c6131-325">Bu sebeple, faturalanan tutarı hesaplamak için, dahili ER yuvarlama işlevini kullanan şu deyimi tasarlayabilirsiniz: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**.</span><span class="sxs-lookup"><span data-stu-id="c6131-325">Therefore, to calculate the invoiced amount, you can design the following expression that uses the built-in ER rounding function: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**.</span></span>
-
-## <a name="supported-functions"></a><span data-ttu-id="c6131-326">Desteklenen işlevler</span><span class="sxs-lookup"><span data-stu-id="c6131-326">Supported functions</span></span>
-
-<span data-ttu-id="c6131-327">Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kullanabileceğiniz veri düzenleme işlevleri açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="c6131-327">The following tables describe the data manipulation functions that you can use to design ER data models and ER reports.</span></span> <span data-ttu-id="c6131-328">İşlevlerin listesi sabit değildir.</span><span class="sxs-lookup"><span data-stu-id="c6131-328">The list of functions isn't fixed.</span></span> <span data-ttu-id="c6131-329">Geliştiriciler listeyi genişletebilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-329">Developers can extend it.</span></span> <span data-ttu-id="c6131-330">Kullanabileceğiniz işlevlerin listesini görmek için ER formül tasarımcısında işlevler bölmesini açın.</span><span class="sxs-lookup"><span data-stu-id="c6131-330">To see the list of functions that you can use, open the functions pane in the ER formula designer.</span></span>
-
-### <a name="date-and-time-functions"></a><span data-ttu-id="c6131-331">Tarih ve saat işlevleri</span><span class="sxs-lookup"><span data-stu-id="c6131-331">Date and time functions</span></span>
-
-| <span data-ttu-id="c6131-332">İşlev</span><span class="sxs-lookup"><span data-stu-id="c6131-332">Function</span></span> | <span data-ttu-id="c6131-333">Açıklama</span><span class="sxs-lookup"><span data-stu-id="c6131-333">Description</span></span> | <span data-ttu-id="c6131-334">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-334">Example</span></span> |
-|----------|-------------|---------|
-| <span data-ttu-id="c6131-335">ADDDAYS (datetime, gün)</span><span class="sxs-lookup"><span data-stu-id="c6131-335">ADDDAYS (datetime, days)</span></span> | <span data-ttu-id="c6131-336">Belirtilen gün sayısını belirtilen tarih/saat değerine ekleyin.</span><span class="sxs-lookup"><span data-stu-id="c6131-336">Add the specified number of days to the specified date/time value.</span></span> | <span data-ttu-id="c6131-337">**ADDDAYS (NOW(), 7)** bugünden yedi gün sonraki tarih ve saati döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-337">**ADDDAYS (NOW(), 7)** returns the date and time seven days in the future.</span></span> |
-| <span data-ttu-id="c6131-338">DATETODATETIME (tarih)</span><span class="sxs-lookup"><span data-stu-id="c6131-338">DATETODATETIME (date)</span></span> | <span data-ttu-id="c6131-339">Belirtilen tarih değerini tarih/saat değerine dönüştürün.</span><span class="sxs-lookup"><span data-stu-id="c6131-339">Convert the specified date value to a date/time value.</span></span> | <span data-ttu-id="c6131-340">**DATETODATETIME (CompInfo. 'getCurrentDate()')** geçerli Finance and Operations oturum tarihi olan Aralık 24, 2015'i **12/24/2015 12:00:00 AM** olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-340">**DATETODATETIME (CompInfo. 'getCurrentDate()')** returns the current Finance and Operations session date, December 24, 2015, as **12/24/2015 12:00:00 AM**.</span></span> <span data-ttu-id="c6131-341">Bu örnekte, **CompInfo** **Finance and Operations/Table** türünde bir ER veri kaynağıdır ve CompanyInfo tablosuna referans verir.</span><span class="sxs-lookup"><span data-stu-id="c6131-341">In this example, **CompInfo** is an ER data source of the **Finance and Operations/Table** type and refers to the CompanyInfo table.</span></span> |
-| <span data-ttu-id="c6131-342">NOW ()</span><span class="sxs-lookup"><span data-stu-id="c6131-342">NOW ()</span></span> | <span data-ttu-id="c6131-343">Geçerli Finance and Operations uygulama sunucusu tarihi ve saatini bir tarih/saat değeri olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-343">Return the current Finance and Operations application server date and time as a date/time value.</span></span> | |
-| <span data-ttu-id="c6131-344">TODAY ()</span><span class="sxs-lookup"><span data-stu-id="c6131-344">TODAY ()</span></span> | <span data-ttu-id="c6131-345">Geçerli Finance and Operations uygulama sunucusu tarih ve saatini bir tarih değeri olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-345">Return the current Finance and Operations application server date as a date value.</span></span> | |
-| <span data-ttu-id="c6131-346">NULLDATE ()</span><span class="sxs-lookup"><span data-stu-id="c6131-346">NULLDATE ()</span></span> | <span data-ttu-id="c6131-347">Bir **null** tarih değeri döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-347">Return a **null** date value.</span></span> | |
-| <span data-ttu-id="c6131-348">NULLDATETIME ()</span><span class="sxs-lookup"><span data-stu-id="c6131-348">NULLDATETIME ()</span></span> | <span data-ttu-id="c6131-349">Bir **boş** tarih/saat değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-349">Return a **null** date/time value.</span></span> | |
-| <span data-ttu-id="c6131-350">DATETIMEFORMAT (datetime, biçim)</span><span class="sxs-lookup"><span data-stu-id="c6131-350">DATETIMEFORMAT (datetime, format)</span></span> | <span data-ttu-id="c6131-351">Belirtilen tarih/saat değerini belirtilen bir biçimdeki dizeye dönüştürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-351">Convert the specified date/time value to a string in the specified format.</span></span> <span data-ttu-id="c6131-352">(Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)</span><span class="sxs-lookup"><span data-stu-id="c6131-352">(For information about the supported formats, see [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)</span></span> | <span data-ttu-id="c6131-353">**DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** Aralık 24, 2015 olan Finance and Operations uygulama sunucusu tarihini belirtilen özel biçimi temel alarak **"24-12-2015"** olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-353">**DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** returns the current Finance and Operations application server date, December 24, 2015, as **"24-12-2015"**, based on the specified custom format.</span></span> |
-| <span data-ttu-id="c6131-354">DATETIMEFORMAT (datetime, biçim, kültür)</span><span class="sxs-lookup"><span data-stu-id="c6131-354">DATETIMEFORMAT (datetime, format, culture)</span></span> | <span data-ttu-id="c6131-355">Belirtilen tarih/saat değerini ve [kültürü](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) belirtilen bir biçimdeki dizeye dönüştürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-355">Convert the specified date/time value to a string in the specified format and [culture](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx).</span></span> <span data-ttu-id="c6131-356">(Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)</span><span class="sxs-lookup"><span data-stu-id="c6131-356">(For information about the supported formats, see [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)</span></span> | <span data-ttu-id="c6131-357">**DATETIMEFORMAT (NOW(), "d", "de")** Aralık 24, 2015 olan geçerli Finance and Operations uygulama sunucusu tarihini seçilen Alman kültürünü temel alarak **"24.12.2015"** olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-357">**DATETIMEFORMAT (NOW(), "d", "de")** returns the current Finance and Operations application server date, December 24, 2015, as **"24.12.2015"**, based on the selected German culture.</span></span> |
-| <span data-ttu-id="c6131-358">SESSIONTODAY ()</span><span class="sxs-lookup"><span data-stu-id="c6131-358">SESSIONTODAY ()</span></span> | <span data-ttu-id="c6131-359">Geçerli Finance and Operations oturumu tarih ve saatini bir tarih değeri olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-359">Return the current Finance and Operations session date as a date value.</span></span> | |
-| <span data-ttu-id="c6131-360">SESSIONNOW ()</span><span class="sxs-lookup"><span data-stu-id="c6131-360">SESSIONNOW ()</span></span> | <span data-ttu-id="c6131-361">Geçerli Finance and Operations oturum tarihi ve saatini bir tarih/saat değeri olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-361">Return the current Finance and Operations session date and time as a date/time value.</span></span> | |
-| <span data-ttu-id="c6131-362">DATEFORMAT (tarih, biçim)</span><span class="sxs-lookup"><span data-stu-id="c6131-362">DATEFORMAT (date, format)</span></span> | <span data-ttu-id="c6131-363">Belirtilen tarihin, belirtilen biçimdeki dize olarak temsilini döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-363">Return a string representation of the specified date in the specified format.</span></span> | <span data-ttu-id="c6131-364">**DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** Aralık 24, 2015 olan Finance and Operations oturum tarihini belirtilen özel biçimi temel alarak **"24-12-2015"** olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-364">**DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** returns the current Finance and Operations session date, December 24, 2015, as **"24-12-2015"**, based on the specified custom format.</span></span> |
-| <span data-ttu-id="c6131-365">DATEFORMAT (tarih, biçim, kültür)</span><span class="sxs-lookup"><span data-stu-id="c6131-365">DATEFORMAT (date, format, culture)</span></span> | <span data-ttu-id="c6131-366">Belirtilen tarih değerini, belirtilen biçimde ve [kültür](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)'de bir dizeye dönüştürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-366">Convert the specified date value to a string in the specified format and [culture](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx).</span></span> <span data-ttu-id="c6131-367">(Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)</span><span class="sxs-lookup"><span data-stu-id="c6131-367">(For information about the supported formats, see [standard](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)</span></span> | <span data-ttu-id="c6131-368">**DATETIMEFORMAT (SESSIONNOW (), "d", "de")** Aralık 24, 2015 olan geçerli Finance and Operations oturumu tarihini seçilen Alman kültürünü temel alarak **"24.12.2015"** olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-368">**DATETIMEFORMAT (SESSIONNOW (), "d", "de")** returns the current Finance and Operations session date, December 24, 2015, as **"24.12.2015"**, based on the selected German culture.</span></span> |
-| <span data-ttu-id="c6131-369">DAYOFYEAR (tarih)</span><span class="sxs-lookup"><span data-stu-id="c6131-369">DAYOFYEAR (date)</span></span> | <span data-ttu-id="c6131-370">Ocak 1 ve belirtilen tarih arasındaki günlerin sayısının bir tamsayı temsilini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-370">Return an integer representation of the number of days between January 1 and the specified date.</span></span> | <span data-ttu-id="c6131-371">**DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** **61** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-371">**DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** returns **61**.</span></span> <span data-ttu-id="c6131-372">**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** **1** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-372">**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** returns **1**.</span></span> |
-| <span data-ttu-id="c6131-373">GÜN (tarih 1, tarih 2)</span><span class="sxs-lookup"><span data-stu-id="c6131-373">DAYS (date 1, date 2)</span></span> | <span data-ttu-id="c6131-374">İlk belirtilen tarih ile ikinci belirtilen tarih arasındaki gün sayısını döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-374">Return the number of days between the first specified date and the second specified date.</span></span> <span data-ttu-id="c6131-375">İlk tarih ikinci tarihten sonra olduğunda pozitif bir değer döndürür; ilk tarih ikinci tarihle aynı olduğunda **0** (sıfır) değerini döndürür veya ilk tarih ikinci tarihten önceyse, negatif değer döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-375">Return a positive value when the first date is later than the second date, return **0** (zero) when the first date equals the second date, or return a negative value when the first date is earlier than the second date.</span></span> | <span data-ttu-id="c6131-376">**DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** **-1** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-376">**DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** returns **-1**.</span></span> |
-
-### <a name="data-conversion-functions"></a><span data-ttu-id="c6131-377">Veri dönüştürme işlemleri</span><span class="sxs-lookup"><span data-stu-id="c6131-377">Data conversion functions</span></span>
-
-| <span data-ttu-id="c6131-378">İşlev</span><span class="sxs-lookup"><span data-stu-id="c6131-378">Function</span></span> | <span data-ttu-id="c6131-379">Tanım</span><span class="sxs-lookup"><span data-stu-id="c6131-379">Description</span></span> | <span data-ttu-id="c6131-380">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-380">Example</span></span> |
-|----------|-------------|---------|
-| <span data-ttu-id="c6131-381">DATETODATETIME (tarih)</span><span class="sxs-lookup"><span data-stu-id="c6131-381">DATETODATETIME (date)</span></span> | <span data-ttu-id="c6131-382">Belirtilen tarih değerini tarih/saat değerine dönüştürün.</span><span class="sxs-lookup"><span data-stu-id="c6131-382">Convert the specified date value to a date/time value.</span></span> | <span data-ttu-id="c6131-383">**DATETODATETIME (CompInfo. 'getCurrentDate()')** geçerli Finance and Operations oturum tarihi olan Aralık 24, 2015'i **12/24/2015 12:00:00 AM** olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-383">**DATETODATETIME (CompInfo. 'getCurrentDate()')** returns the current Finance and Operations session date, December 24, 2015, as **12/24/2015 12:00:00 AM**.</span></span> <span data-ttu-id="c6131-384">Bu örnekte, **CompInfo** **Finance and Operations/Table** türünde bir ER veri kaynağıdır ve CompanyInfo tablosuna referans verir.</span><span class="sxs-lookup"><span data-stu-id="c6131-384">In this example, **CompInfo** is an ER data source of the **Finance and Operations/Table** type and refers to the CompanyInfo table.</span></span> |
-| <span data-ttu-id="c6131-385">DATEVALUE (dize, biçim)</span><span class="sxs-lookup"><span data-stu-id="c6131-385">DATEVALUE (string, format)</span></span> | <span data-ttu-id="c6131-386">Belirtilen dizenin, belirtilen biçimdeki tarih olarak temsilini döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-386">Return a date representation of the specified string in the specified format.</span></span> | <span data-ttu-id="c6131-387">**DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** belirtilen özel biçimi ve varsayılan uygulamanın **EN-US** kültürünü temel alarak Aralık 21, 2016 tarihini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-387">**DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** returns the date December 21, 2016, based on specified custom format and the default application's **EN-US** culture.</span></span> |
-| <span data-ttu-id="c6131-388">DATEVALUE (dize, biçim, kültür)</span><span class="sxs-lookup"><span data-stu-id="c6131-388">DATEVALUE (string, format, culture)</span></span> | <span data-ttu-id="c6131-389">Belirtilen dizenin, belirtilen biçim ve kültürdeki tarih olarak temsilini döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-389">Return a date representation of the specified string in the specified format and culture.</span></span> | <span data-ttu-id="c6131-390">**DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")** belirtilen özel biçim ve kültürü temel alarak Ocak 21, 2016 tarihini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-390">**DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")** returns the date January 21, 2016, based on the specified custom format and culture.</span></span> <span data-ttu-id="c6131-391">Bununla birlikte, **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")** belirtilen dizenin geçerli bir tarih olarak tanınmadığını kullanıcıya bildirmek için bir özel durum oluşturur.</span><span class="sxs-lookup"><span data-stu-id="c6131-391">However, **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")** throws an exception to inform the user that the specified string isn't recognized as a valid date.</span></span> |
-| <span data-ttu-id="c6131-392">DATETIMEVALUE (dize, biçim)</span><span class="sxs-lookup"><span data-stu-id="c6131-392">DATETIMEVALUE (string, format)</span></span> | <span data-ttu-id="c6131-393">Belirtilen dizenin, belirtilen biçimdeki tarih/saat olarak temsilini döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-393">Return a date/time representation of the specified string in the specified format.</span></span> | <span data-ttu-id="c6131-394">**DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")** belirtilen özel biçimi ve varsayılan uygulamanın **EN-US** kültürünü temel alarak 2:55:00 AM, Aralık 21, 2016 değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-394">**DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")** returns 2:55:00 AM on December 21, 2016, based on the specified custom format and the default application's **EN-US** culture.</span></span> |
-| <span data-ttu-id="c6131-395">DATETIMEVALUE (dize, biçim, kültür)</span><span class="sxs-lookup"><span data-stu-id="c6131-395">DATETIMEVALUE (string, format, culture)</span></span> | <span data-ttu-id="c6131-396">Belirtilen dizenin, belirtilen biçim ve kültürdeki tarih/saat olarak temsilini döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-396">Return a date/time representation of the specified string in the specified format and culture.</span></span> | <span data-ttu-id="c6131-397">**DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")** belirtilen özel biçimi ve kültürü temel alarak 2:55:00 AM Aralık 21, 2016 değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-397">**DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")** returns 2:55:00 AM on December 21, 2016, based on the specified custom format and culture.</span></span> <span data-ttu-id="c6131-398">Bununla birlikte **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")** belirtilen dizenin geçerli bir tarih olarak tanınmadığını kullanıcıya bildirmek için bir özel durum oluşturur.</span><span class="sxs-lookup"><span data-stu-id="c6131-398">However, **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")** throws an exception to inform the user that the specified string isn't recognized as a valid date/time.</span></span> |
-
-### <a name="list-functions"></a><span data-ttu-id="c6131-399">Liste işlevleri</span><span class="sxs-lookup"><span data-stu-id="c6131-399">List functions</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="c6131-400">İşlev</span><span class="sxs-lookup"><span data-stu-id="c6131-400">Function</span></span></th>
-<th><span data-ttu-id="c6131-401">Tanım</span><span class="sxs-lookup"><span data-stu-id="c6131-401">Description</span></span></th>
-<th><span data-ttu-id="c6131-402">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-402">Example</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="c6131-403">SPLIT (input, uzunluk)</span><span class="sxs-lookup"><span data-stu-id="c6131-403">SPLIT (input, length)</span></span></td>
-<td><span data-ttu-id="c6131-404">Belirtilen giriş dizesini her biri belirli uzunlukta alt dizelere bölün.</span><span class="sxs-lookup"><span data-stu-id="c6131-404">Split the specified input string into substrings, each of which has the specified length.</span></span> <span data-ttu-id="c6131-405">Sonucu yeni bir liste olarak döndürün.</span><span class="sxs-lookup"><span data-stu-id="c6131-405">Return the result as a new list.</span></span></td>
-<td><span data-ttu-id="c6131-406"><strong>SPLIT (&quot;abcd&quot;, 3)</strong> <strong>STRING</strong> alanına sahip iki kaydı içeren yeni bir listeyi döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-406"><strong>SPLIT (&quot;abcd&quot;, 3)</strong> returns a new list that consists of two records that have a <strong>STRING</strong> field.</span></span> <span data-ttu-id="c6131-407">İlk kayıttaki alan <strong>&quot;abc&quot;</strong> metnini içeriyor ve ikinci kayıttaki alan <strong>&quot;d&quot;</strong> metnini içeriyorsa.</span><span class="sxs-lookup"><span data-stu-id="c6131-407">The field in the first record contains the text <strong>&quot;abc&quot;</strong>, and the field in the second record contains the text <strong>&quot;d&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-408">BÖLME (giriş, ayırıcı)</span><span class="sxs-lookup"><span data-stu-id="c6131-408">SPLIT (input, delimiter)</span></span></td>
-<td><span data-ttu-id="c6131-409">Belirtilen giriş dizesini belirli sınırlayıcıya dayanarak alt dizelere bölün.</span><span class="sxs-lookup"><span data-stu-id="c6131-409">Split the specified input string into substrings, based on the specified delimiter.</span></span></td>
-<td><span data-ttu-id="c6131-410"><strong>BÖL (&quot;XAb aBy&quot;, &quot;aB&quot;)</strong>, <strong>DİZE</strong> alanına sahip üç kaydı içeren yeni bir listeyi döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-410"><strong>SPLIT (&quot;XAb aBy&quot;, &quot;aB&quot;)</strong> returns a new list that consists of three records that have a <strong>STRING</strong> field.</span></span> <span data-ttu-id="c6131-411">İlk kayıttaki alan, <strong>&quot;X&quot;</strong> metni, ikinci kayıttaki alan &quot;&nbsp;&quot; metni, üçüncü kayıttaki alan <strong>&quot;y&quot;</strong> metni içerir.</span><span class="sxs-lookup"><span data-stu-id="c6131-411">The field in the first record contains the text <strong>&quot;X&quot;</strong>, the field in the second record contains the text &quot;&nbsp;&quot;, and the field in the third record contains the text <strong>&quot;y&quot;</strong>.</span></span> <span data-ttu-id="c6131-412">Sınırlayıcı boşsa bir kayıt içeren yeni bir liste döner; kayıtta giriş metnini içeren <strong>DİZE</strong> alanı vardır.</span><span class="sxs-lookup"><span data-stu-id="c6131-412">If the delimiter is empty, a new list is returned that consists of one record that has a <strong>STRING</strong> field that contains the input text.</span></span> <span data-ttu-id="c6131-413">Giriş boşsa, yeni boş bir liste döner.</span><span class="sxs-lookup"><span data-stu-id="c6131-413">If the input is empty, a new empty list is returned.</span></span>
-<span data-ttu-id="c6131-414">Giriş veya sınırlayıcı (boş) belirtilmezse, bir uygulama özel durum oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="c6131-414">If either the input or the delimiter is unspecified (null), an application exception is thrown.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-415">SPLITLIST (list, sayı)</span><span class="sxs-lookup"><span data-stu-id="c6131-415">SPLITLIST (list, number)</span></span></td>
-<td><span data-ttu-id="c6131-416">Belirtilen listeyi, her biri belirtilen sayıda kayıt içeren toplu işleri bölün.</span><span class="sxs-lookup"><span data-stu-id="c6131-416">Split the specified list into batches, each of which contains the specified number of records.</span></span> <span data-ttu-id="c6131-417">Sonucu, aşağıdaki öğeleri içeren yeni bir toplu iş listesi olarak döndürür:</span><span class="sxs-lookup"><span data-stu-id="c6131-417">Return the result as a new list of batches that contains the following elements:</span></span>
-<ul>
-<li><span data-ttu-id="c6131-418">Toplu işler düzenli listelerdir (<strong>Değer </strong> bileşen)</span><span class="sxs-lookup"><span data-stu-id="c6131-418">Batches as regular lists (<strong>Value</strong> component)</span></span></li>
-<li><span data-ttu-id="c6131-419">Geçerli toplu iş numarası (<strong>BatchNumber</strong> bileşeni)</span><span class="sxs-lookup"><span data-stu-id="c6131-419">The current batch number (<strong>BatchNumber</strong> component)</span></span></li>
-</ul>
-</td>
-<td><span data-ttu-id="c6131-420">Aşağıdaki örnekte, üç kaydın kayıt listesi olarak <strong>Satırlar</strong> veri kaynağı oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="c6131-420">In the following illustration, a <strong>Lines</strong> data source is created as a record list of three records.</span></span> <span data-ttu-id="c6131-421">Bu liste her biri en çok iki kayıt içeren toplu işlere ayrılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-421">This list is divided into batches, each of which contains up to two records.</span></span>
-<p><a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
-<p><span data-ttu-id="c6131-422">Aşağıdaki örnekte tasarlanmış biçim düzeni gösterilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-422">The following illustration shows the designed format layout.</span></span> <span data-ttu-id="c6131-423">Bu biçim düzeninde, <strong>Satırlar</strong> veri kaynağına bağlamalar XML biçiminde çıktı üretmek için oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="c6131-423">In this format layout, bindings to the <strong>Lines</strong> data source are created to generate output in XML format.</span></span> <span data-ttu-id="c6131-424">Bu çıktı her toplu iş ve içindeki kayıtlar için ayrı ayrı düğümleri sunar.</span><span class="sxs-lookup"><span data-stu-id="c6131-424">This output presents individual nodes for each batch and the records in it.</span></span></p>
-<p><a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a></p>
-<p><span data-ttu-id="c6131-425">Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-425">The following illustration shows the result when the designed format is run.</span></span></p>
-<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-426">LIST (record 1 [, record 2, …])</span><span class="sxs-lookup"><span data-stu-id="c6131-426">LIST (record 1 [, record 2, …])</span></span></td>
-<td><span data-ttu-id="c6131-427">Belirtilen değişkenlerden oluşturulan yeni bir liste döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-427">Return a new list that is created from the specified arguments.</span></span></td>
-<td><span data-ttu-id="c6131-428"><strong>LIST (model.MainData, model.OtherData)</strong>, <strong>MainData</strong> ve <strong>OtherData</strong> alan listesinin, kayıt listelerinin tüm alanlarını içeren boş bir kaydı döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-428"><strong>LIST (model.MainData, model.OtherData)</strong> returns an empty record, where the list of fields contains all fields of the <strong>MainData</strong> and <strong>OtherData</strong> record lists.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-429">LISTJOIN (list 1, list 2, …)</span><span class="sxs-lookup"><span data-stu-id="c6131-429">LISTJOIN (list 1, list 2, …)</span></span></td>
-<td><span data-ttu-id="c6131-430">Belirtilen değişkenlerin listesinden oluşturulan birleştirilmiş bir liste döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-430">Return a joined list that is created from lists of specified arguments.</span></span></td>
-<td><span data-ttu-id="c6131-431"><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> altı kaydın listesini döndürür; <strong>DİZE</strong> veri türündeki alanlardan biri tek harfler içerir.</span><span class="sxs-lookup"><span data-stu-id="c6131-431"><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> returns a list of six records, where one field of the <strong>STRING</strong> data type contains single letters.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-432">ISEMPTY (liste)</span><span class="sxs-lookup"><span data-stu-id="c6131-432">ISEMPTY (list)</span></span></td>
-<td><span data-ttu-id="c6131-433">Belirtilen liste herhangi bir öğe içermiyorsa <strong>DOĞRU</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-433">Return <strong>TRUE</strong> if the specified list contains no elements.</span></span> <span data-ttu-id="c6131-434">Aksi takdirde <strong>YANLIŞ</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-434">Otherwise, return <strong>FALSE</strong>.</span></span></td>
-<td></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-435">EMPTYLIST (liste)</span><span class="sxs-lookup"><span data-stu-id="c6131-435">EMPTYLIST (list)</span></span></td>
-<td><span data-ttu-id="c6131-436">Belirtilmiş olan listeyi, liste yapısı için bir kaynak olarak kullanarak boş bir liste döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-436">Return an empty list by using the specified list as a source for the list structure.</span></span></td>
-<td><span data-ttu-id="c6131-437"><strong>EMPTYLIST (SPLIT (&quot;abc&quot;, 1))</strong> <strong>SPLIT</strong> işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir liste döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-437"><strong>EMPTYLIST (SPLIT (&quot;abc&quot;, 1))</strong> returns a new empty list that has the same structure as the list that is returned by the <strong>SPLIT</strong> function.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-438">FIRST (liste)</span><span class="sxs-lookup"><span data-stu-id="c6131-438">FIRST (list)</span></span></td>
-<td><span data-ttu-id="c6131-439">Eğer kayıt boş değilse, belirtilen listedeki ilk kaydı döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-439">Return the first record of the specified list, if that record isn't empty.</span></span> <span data-ttu-id="c6131-440">Aksi takdirde, bir özel durum ilan et.</span><span class="sxs-lookup"><span data-stu-id="c6131-440">Otherwise, throw an exception.</span></span></td>
-<td></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-441">FIRSTORNULL (liste)</span><span class="sxs-lookup"><span data-stu-id="c6131-441">FIRSTORNULL (list)</span></span></td>
-<td><span data-ttu-id="c6131-442">Eğer kayıt boş değilse, belirtilen listedeki ilk kaydı döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-442">Return the first record of the specified list, if that record isn't empty.</span></span> <span data-ttu-id="c6131-443">Aksi takdirde bir <strong>null</strong> kaydı döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-443">Otherwise, return a <strong>null</strong> record.</span></span></td>
-<td></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-444">LISTOFFIRSTITEM (liste)</span><span class="sxs-lookup"><span data-stu-id="c6131-444">LISTOFFIRSTITEM (list)</span></span></td>
-<td><span data-ttu-id="c6131-445">Belirtilen listenin sadece ilk öğesini içeren bir liste döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-445">Return a list that contains only the first item of the specified list.</span></span></td>
-<td></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-446">ALLITEMS (yol)</span><span class="sxs-lookup"><span data-stu-id="c6131-446">ALLITEMS (path)</span></span></td>
-<td><span data-ttu-id="c6131-447">Bu işlev bir bellek içi seçim olarak çalışır.</span><span class="sxs-lookup"><span data-stu-id="c6131-447">This function runs as an in-memory selection.</span></span> <span data-ttu-id="c6131-448">Belirtilen yolla eşleşen tüm öğelerin temsil edildiği yeni bir düzleştirilmiş liste döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-448">It returns a new flattened list that represents all items that match the specified path.</span></span> <span data-ttu-id="c6131-449">Yol, kayıt listesi veri türünün veri kaynağı öğesine geçerli veri kaynağı yolu olarak tanımlanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c6131-449">The path must be defined as a valid data source path of a data source element of a record list data type.</span></span> <span data-ttu-id="c6131-450">Dize yolu ve tarih gibi veri öğeleri, ER ifade oluşturucuda tasarım zamanında hata vermelidir.</span><span class="sxs-lookup"><span data-stu-id="c6131-450">Data elements such as the path string and date should raise an error in the ER expression builder at design time.</span></span></td>
-<td><span data-ttu-id="c6131-451">Eğer <strong>SPLIT(&quot;abcdef&quot; , 2)</strong> veri kaynağı (DS) olarak girerseniz, <strong>COUNT( ALLITEMS (DS.Value))</strong>, <strong>3</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-451">If you enter <strong>SPLIT(&quot;abcdef&quot; , 2)</strong> as a data source (DS), <strong>COUNT( ALLITEMS (DS.Value))</strong> returns <strong>3</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-452">ALLITEMSQUERY (yol)</span><span class="sxs-lookup"><span data-stu-id="c6131-452">ALLITEMSQUERY (path)</span></span></td>
-<td><span data-ttu-id="c6131-453">Bu işlev birleşik bir SQL sorgusu olarak çalışır.</span><span class="sxs-lookup"><span data-stu-id="c6131-453">This function runs as a joined SQL query.</span></span> <span data-ttu-id="c6131-454">Belirtilen yolla eşleşen tüm öğelerin temsil edildiği yeni bir düzleştirilmiş liste döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-454">It returns a new flattened list that represents all items that match the specified path.</span></span> <span data-ttu-id="c6131-455">Belirtilen yol, kayıt listesi veri türünün veri kaynağı öğesine geçerli veri kaynağı yolu olarak tanımlanmalı ve en az bir ilişki içermelidir.</span><span class="sxs-lookup"><span data-stu-id="c6131-455">The specified path must be defined as a valid data source path of a data source element of a record list data type, and it must contain at least one relation.</span></span> <span data-ttu-id="c6131-456">Dize yolu ve tarih gibi veri öğeleri, ER ifade oluşturucuda tasarım zamanında hata vermelidir.</span><span class="sxs-lookup"><span data-stu-id="c6131-456">Data elements such as the path string and date should raise an error in the ER expression builder at design time.</span></span></td>
-<td><span data-ttu-id="c6131-457">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</span><span class="sxs-lookup"><span data-stu-id="c6131-457">Define the following data sources in your model mapping:</span></span>
-<ul>
-<li><span data-ttu-id="c6131-458">CustInvoiceTable tablosuna başvuran <strong>CustInv</strong> (<strong>Tablo kayıtları</strong> türü)</span><span class="sxs-lookup"><span data-stu-id="c6131-458"><strong>CustInv</strong> (<strong>Table records</strong> type), which refers to the CustInvoiceTable table</span></span></li> 
-<li><span data-ttu-id="c6131-459"><strong>FILTER (CustInv, CustInv.InvoiceAccount = &quot;US-001&quot;)</strong> ifadesini içeren <strong>FilteredInv</strong> (<strong>Hesaplanan alan</strong> türü)</span><span class="sxs-lookup"><span data-stu-id="c6131-459"><strong>FilteredInv</strong> (<strong>Calculated field</strong> type), which contains the expression <strong>FILTER (CustInv, CustInv.InvoiceAccount = &quot;US-001&quot;)</strong></span></span></li>
-<li><span data-ttu-id="c6131-460"><strong>ALLITEMSQUERY (FilteredInv.'&lt;Relations'.CustInvoiceJour.'&lt;Relations'.CustInvoiceTrans)</strong> ifadesini içeren <strong>JourLines</strong> (<strong>Hesaplanan alan</strong> türü)</span><span class="sxs-lookup"><span data-stu-id="c6131-460"><strong>JourLines</strong> (<strong>Calculated field</strong> type), which contains the expression <strong>ALLITEMSQUERY (FilteredInv.'&lt;Relations'.CustInvoiceJour.'&lt;Relations'.CustInvoiceTrans)</strong></span></span></li>
-</ul>
-<p><span data-ttu-id="c6131-461"><strong>JourLines</strong> veri kaynağını çağırmak için model eşlemenizi çalıştırırken aşağıdaki SQL deyimi çalıştırılır:</span><span class="sxs-lookup"><span data-stu-id="c6131-461">When you run your model mapping to call the <strong>JourLines</strong> data source, the following SQL statement is run:</span></span></p>
-<span data-ttu-id="c6131-462">SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUSTINVOICETRANS T3 WHERE...</span><span class="sxs-lookup"><span data-stu-id="c6131-462">SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUSTINVOICETRANS T3 WHERE...</span></span>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-463">ORDERBY (liste [ifade 1, ifade 2,...])</span><span class="sxs-lookup"><span data-stu-id="c6131-463">ORDERBY (list [, expression 1, expression 2, …])</span></span></td>
-<td><span data-ttu-id="c6131-464">Belirtilen bağımsız değişkenlere göre sıralandıktan sonra belirtilen listeyi döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-464">Return the specified list after it has been sorted according to the specified arguments.</span></span> <span data-ttu-id="c6131-465">Bu bağımsız değişkenler ifadeler olarak tanımlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-465">These arguments can be defined as expressions.</span></span></td>
-<td><span data-ttu-id="c6131-466"><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılsa,<strong>ORDERBY (Vendors, Vendors.'name()')</strong>, satıcıların isme göre sıralanan listesini artan sıraya göre dizilmiş şekilde döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-466">If <strong>Vendor</strong> is configured as an ER data source that refers to the VendTable table, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> returns a list of vendors that is sorted by name in ascending order.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-467">REVERSE (liste)</span><span class="sxs-lookup"><span data-stu-id="c6131-467">REVERSE (list)</span></span></td>
-<td><span data-ttu-id="c6131-468">Belirtilen listeyi ters sıralama düzeninde döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-468">Return the specified list in reversed sort order.</span></span></td>
-<td><span data-ttu-id="c6131-469"><strong>Satıcı </strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong>, satıcıların isme göre sıralanan listesini azalan sıraya göre dizilmiş şekilde döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-469">If <strong>Vendor</strong> is configured as an ER data source that refers to the VendTable table, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> returns a list of vendors that is sorted by name in descending order.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-470">WHERE (liste, koşul)</span><span class="sxs-lookup"><span data-stu-id="c6131-470">WHERE (list, condition)</span></span></td>
-<td><span data-ttu-id="c6131-471">Belirtilen koşula göre filtrelendikten sonra belirtilen listeyi döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-471">Return the specified list after it has been filtered according to the specified condition.</span></span> <span data-ttu-id="c6131-472">Belirtilen koşul bellekteki listeye uygulanır.</span><span class="sxs-lookup"><span data-stu-id="c6131-472">The specified condition is applied to the list in memory.</span></span> <span data-ttu-id="c6131-473">Bu şekilde, <strong>WHERE</strong> işlevi <strong>FILTER</strong> işlevinden ayrılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-473">In this way, the <strong>WHERE</strong> function differs from the <strong>FILTER</strong> function.</span></span></td>
-<td><span data-ttu-id="c6131-474"><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>WHERE(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong>, yalnızca grup 40'a dahil olan satıcıların listesini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-474">If <strong>Vendor</strong> is configured as an ER data source that refers to the VendTable table, <strong>WHERE(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> returns a list of just the vendors that belong to vendor group 40.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-475">ENUMERATE (liste)</span><span class="sxs-lookup"><span data-stu-id="c6131-475">ENUMERATE (list)</span></span></td>
-<td><span data-ttu-id="c6131-476">Belirtilen listenin numaralandırılmış kayıtlarından oluşan ve aşağıdaki öğeleri gösteren yeni bir liste döndürür:</span><span class="sxs-lookup"><span data-stu-id="c6131-476">Return a new list that consists of enumerated records of the specified list, and that exposes the following elements:</span></span>
-<ul>
-<li><span data-ttu-id="c6131-477">Belirtilen liste kayıtları, düzenli olarak (<strong>Değer </strong> bileşeni) listeler</span><span class="sxs-lookup"><span data-stu-id="c6131-477">Specified list records as regular lists (<strong>Value</strong> component)</span></span></li>
-<li><span data-ttu-id="c6131-478">Geçerli kayıt dizini (<strong>Numara </strong> bileşeni)</span><span class="sxs-lookup"><span data-stu-id="c6131-478">The current record index (<strong>Number</strong> component)</span></span></li>
-</ul>
-</td>
-<td><span data-ttu-id="c6131-479">Aşağıdaki örnekte, <strong>Numaralandırılan</strong> veri kaynağı, VendTable tablosuna başvuran <strong>Satıcılar</strong> veri kaynağındaki satıcı kayıtlarının numaralandırılmış bir listesi olarak oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="c6131-479">In the following illustration, an <strong>Enumerated</strong> data source is created as an enumerated list of vendor records from the <strong>Vendors</strong> data source that refers to the VendTable table.</span></span>
-<p><a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a></p>
-<p><span data-ttu-id="c6131-480">Aşağıdaki örnekte biçim gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="c6131-480">The following illustration shows the format.</span></span> <span data-ttu-id="c6131-481">Bu biçimde, veri bağlamaları XML biçiminde çıktı üretmek için oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="c6131-481">In this format, data bindings are created to generate output in XML format.</span></span> <span data-ttu-id="c6131-482">Bu çıktı ayrı ayrı satıcıları numaralandırılmış düğümler olarak gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-482">This output presents individual vendors as enumerated nodes.</span></span></p>
-<p><a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a></p>
-<p><span data-ttu-id="c6131-483">Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-483">The following illustration shows the result when the designed format is run.</span></span></p>
-<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-484">COUNT (liste)</span><span class="sxs-lookup"><span data-stu-id="c6131-484">COUNT (list)</span></span></td>
-<td><span data-ttu-id="c6131-485">Eğer liste boş değilse, belirtilen listedeki kayıtların sayısını döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-485">Return the number of records in the specified list, if the list isn't empty.</span></span> <span data-ttu-id="c6131-486">Aksi takdirde <strong>0</strong> (sıfır) döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-486">Otherwise, return <strong>0</strong> (zero).</span></span></td>
-<td><span data-ttu-id="c6131-487"><strong>SPLIT</strong> işlevi iki kayıttan oluşan bir liste oluşturduğu için, <strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> <strong>2</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-487"><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> returns <strong>2</strong>, because the <strong>SPLIT</strong> function creates a list that consists of two records.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-488">LISTOFFIELDS (yol)</span><span class="sxs-lookup"><span data-stu-id="c6131-488">LISTOFFIELDS (path)</span></span></td>
-<td><span data-ttu-id="c6131-489">Aşağıdaki türlerden birinin bağımsız değişkeninden oluşturulan kayıtlar listesini döndürür:</span><span class="sxs-lookup"><span data-stu-id="c6131-489">Return a record list that is created from an argument of one of the following types:</span></span>
-<ul>
-<li><span data-ttu-id="c6131-490">Model numaralandırma</span><span class="sxs-lookup"><span data-stu-id="c6131-490">Model enumeration</span></span></li>
-<li><span data-ttu-id="c6131-491">Biçim numaralandırma</span><span class="sxs-lookup"><span data-stu-id="c6131-491">Format enumeration</span></span></li>
-<li><span data-ttu-id="c6131-492">Kapsayıcı</span><span class="sxs-lookup"><span data-stu-id="c6131-492">Container</span></span></li>
-</ul>
-<p><span data-ttu-id="c6131-493">Oluşturulan liste aşağıdaki alanlara sahip kayıtları içerir:</span><span class="sxs-lookup"><span data-stu-id="c6131-493">The list that is created consists of records that have the following fields:</span></span></p>
-<ul>
-<li><span data-ttu-id="c6131-494">Dosya Adı</span><span class="sxs-lookup"><span data-stu-id="c6131-494">Name</span></span></li>
-<li><span data-ttu-id="c6131-495">Etiket</span><span class="sxs-lookup"><span data-stu-id="c6131-495">Label</span></span></li>
-<li><span data-ttu-id="c6131-496">Tanım</span><span class="sxs-lookup"><span data-stu-id="c6131-496">Description</span></span></li>
-</ul>
-<span data-ttu-id="c6131-497">Çalışma zamanında, <strong>Etiket</strong> ve <strong>Açıklama</strong> alanları, biçimin dil ayarlarını temel alan değerler döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-497">At runtime, the <strong>Label</strong> and <strong>Description</strong> fields return values that are based on the format's language settings.</span></span>
-</td>
-<td><span data-ttu-id="c6131-498">Aşağıdaki örnekte, bir veri modelinde oluşturulan numaralandırma gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="c6131-498">In the following illustration, an enumeration is introduced in a data model.</span></span>
-<p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
-<p><span data-ttu-id="c6131-499">Aşağıdaki örnek ayrıntıları göstermektedir:</span><span class="sxs-lookup"><span data-stu-id="c6131-499">The following illustration shows these details:</span></span></p>
-<ul>
-<li><span data-ttu-id="c6131-500">Veri kaynağı olarak bir rapora eklenen model numaralandırma.</span><span class="sxs-lookup"><span data-stu-id="c6131-500">The model enumeration is inserted into a report as a data source.</span></span></li>
-<li><span data-ttu-id="c6131-501">Bir ER ifadesi <strong>LISTOFFIELDS</strong> işlevi parametresi olarak bir model numaralandırma kullanır.</span><span class="sxs-lookup"><span data-stu-id="c6131-501">An ER expression uses the model enumeration as a parameter of the <strong>LISTOFFIELDS</strong> function.</span></span></li>
-<li><span data-ttu-id="c6131-502">Oluşturulan ER ifadesini kullanarak bir rapora eklenen kayıt listesi türünün veri kaynağı.</span><span class="sxs-lookup"><span data-stu-id="c6131-502">A data source of the record list type is inserted into a report by using the ER expression that is created.</span></span></li>
-</ul>
-<p><a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="Format" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a></p>
-<p><span data-ttu-id="c6131-503">Aşağıdaki örnek <strong>LISTOFFIELDS</strong> işlevi kullanılarak oluşturulan ve kayıt listesi türündeki veri kaynağına bağlı olan ER biçim öğelerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-503">The following example shows the ER format elements that are bound to the data source of the record list type that was created by using the <strong>LISTOFFIELDS</strong> function.</span></span></p>
-<p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
-<p><span data-ttu-id="c6131-504">Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-504">The following illustration shows the result when the designed format is run.</span></span></p>
-<p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE] <span data-ttu-id="c6131-505">Ana DOSYA ve KLASÖR biçim öğelerinin dil ayarlarına uygun olarak, etiketler ve açıklamalar için çevrilen metin ER biçiminin çıktısına girilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-505">Based on the language settings of the parent FILE and FOLDER format elements, translated text for labels and descriptions is entered in the output of the ER format.</span></span></blockquote>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-506">LISTOFFIELDS (yol, dil)</span><span class="sxs-lookup"><span data-stu-id="c6131-506">LISTOFFIELDS (path, language)</span></span></td>
-<td><span data-ttu-id="c6131-507">Model numaralandırması, biçim numaralandırması veya kapsayıcı gibi bir bağımsız değişkenden oluşturulan bir kayıt listesi döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-507">Return a record list that is created from an argument, such as a model enumeration, a format enumeration, or a container.</span></span> <span data-ttu-id="c6131-508">Oluşturulan liste aşağıdaki alanlara sahip kayıtları içerir:</span><span class="sxs-lookup"><span data-stu-id="c6131-508">The list that is created consists of records that have the following fields:</span></span>
-<ul>
-<li><span data-ttu-id="c6131-509">Dosya Adı</span><span class="sxs-lookup"><span data-stu-id="c6131-509">Name</span></span></li>
-<li><span data-ttu-id="c6131-510">Etiket</span><span class="sxs-lookup"><span data-stu-id="c6131-510">Label</span></span></li>
-<li><span data-ttu-id="c6131-511">Tanım</span><span class="sxs-lookup"><span data-stu-id="c6131-511">Description</span></span></li>
-<li><span data-ttu-id="c6131-512">Çevrildi</span><span class="sxs-lookup"><span data-stu-id="c6131-512">Is translated</span></span></li>
-</ul>
-<span data-ttu-id="c6131-513">Çalışma zamanında, <strong>Etiket</strong> ve <strong>Açıklama</strong> alanları, biçimin dil ayarlarını ve belirtilen dili temel alan değerler döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-513">At runtime, the <strong>Label</strong> and <strong>Description</strong> fields return values that are based on the format's language settings and the specified language.</span></span> <span data-ttu-id="c6131-514"><strong>Çevrildi</strong> alanı <strong>Etiket</strong> alanının belirtilen dile çevrilmiş olduğunu belirtir.</span><span class="sxs-lookup"><span data-stu-id="c6131-514">The <strong>Is translated</strong> field indicates that the <strong>Label</strong> field has been translated into the specified language.</span></span>
-</td>
-<td><span data-ttu-id="c6131-515">Örneğin, <strong>enumType</strong> veri modeli numaralandırması için <strong>enumType_de</strong> ve <strong>enumType_deCH</strong> veri kaynaklarını yapılandırmak üzere <strong>Hesaplanan alan</strong> veri kaynağı türünü kullanırsınız.</span><span class="sxs-lookup"><span data-stu-id="c6131-515">For example, you use the <strong>Calculated field</strong> data source type to configure the <strong>enumType_de</strong> and <strong>enumType_deCH</strong> data sources for the <strong>enumType</strong> data model enumeration.</span></span>
-<ul>
-<li><span data-ttu-id="c6131-516">enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</span><span class="sxs-lookup"><span data-stu-id="c6131-516">enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</span></span></li>
-<li><span data-ttu-id="c6131-517">enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</span><span class="sxs-lookup"><span data-stu-id="c6131-517">enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</span></span></li>
-</ul>
-<p><span data-ttu-id="c6131-518">Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma değeri etiketiki İsviçre Almancası dilinde almak için aşağıdaki ifadeyi kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-518">In this case, you can use the following expression to get the label of the enumeration value in Swiss German, if this translation is available.</span></span> <span data-ttu-id="c6131-519">İsviçre Almanca çeviri kullanılamıyorsa, Almanca etiketi olur.</span><span class="sxs-lookup"><span data-stu-id="c6131-519">If the Swiss German translation isn't available, the label is in German.</span></span></p>
-<span data-ttu-id="c6131-520">IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</span><span class="sxs-lookup"><span data-stu-id="c6131-520">IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</span></span>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-521">STRINGJOIN (liste, alan adı, ayırıcı)</span><span class="sxs-lookup"><span data-stu-id="c6131-521">STRINGJOIN (list, field name, delimiter)</span></span></td>
-<td><span data-ttu-id="c6131-522">Belirtilen listedeki belirtilen alanın art arda eklenmiş değerlerinden oluşan bir dize döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-522">Return a string that consists of concatenated values of the specified field from the specified list.</span></span> <span data-ttu-id="c6131-523">Değerler belirtilen sınırlayıcı ile ayrılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-523">The values are separated by the specified delimiter.</span></span></td>
-<td><span data-ttu-id="c6131-524">Veri kaynağı (DS) olarak <strong>SPLIT(&quot;abc&quot; , 1)</strong> girerseniz, <strong>STRINGJOIN (DS, DS.Value, &quot;-&quot;)</strong> <strong>&quot;a-b-c&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-524">If you enter <strong>SPLIT(&quot;abc&quot; , 1)</strong> as a data source (DS), <strong>STRINGJOIN (DS, DS.Value, &quot;-&quot;)</strong> returns <strong>&quot;a-b-c&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-525">SPLITLISTBYLIMIT (liste, sınır değeri, sınır kaynağı)</span><span class="sxs-lookup"><span data-stu-id="c6131-525">SPLITLISTBYLIMIT (list, limit value, limit source)</span></span></td>
-<td><span data-ttu-id="c6131-526">Belirtilen listeyi alt listelerin yeni listesine ayırır ve kayıt listesi içeriğinde sonucu verir.</span><span class="sxs-lookup"><span data-stu-id="c6131-526">Split the specified list into a new list of sub-lists, and return the result in record list content.</span></span> <span data-ttu-id="c6131-527"><strong>Sınır değeri</strong> parametresi, orijinal listeyi bölmek için sınırın değerini tanımlar.</span><span class="sxs-lookup"><span data-stu-id="c6131-527">The <strong>limit value</strong> parameter defines the value of the limit for splitting the original list.</span></span> <span data-ttu-id="c6131-528"><strong>Sınır kaynağı</strong> parametresi toplamın artırıldığı adımı tanımlar.</span><span class="sxs-lookup"><span data-stu-id="c6131-528">The <strong>limit source</strong> parameter defines the step that the total sum is increased on.</span></span> <span data-ttu-id="c6131-529">Sınır kaynağı tanımlanan sınırı aştığında sınır, kaynak listedeki tek bir öğeye uygulanmaz.</span><span class="sxs-lookup"><span data-stu-id="c6131-529">The limit isn't applied to a single item of the original list if the limit source exceeds the defined limit.</span></span></td>
-<td><span data-ttu-id="c6131-530">Aşağıdaki şekilde bir biçim gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="c6131-530">The following illustration shows a format.</span></span> 
-<p><a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="Format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a></p>
-<p><span data-ttu-id="c6131-531">Aşağıdaki şekilde, biçim için kullanılan veri kaynakları gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="c6131-531">The following illustration shows the data sources that are used for the format.</span></span></p>
-<p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
-<p><span data-ttu-id="c6131-532">Aşağıdaki örnekte biçim çalıştırıldığında elde edilen sonuç gösterilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-532">The following illustration shows the result when the format is run.</span></span> <span data-ttu-id="c6131-533">Bu durumda, çıktı emtia maddelerinin düz listesi olur.</span><span class="sxs-lookup"><span data-stu-id="c6131-533">In this case, the output is a flat list of commodity items.</span></span></p>
-<p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
-<p><span data-ttu-id="c6131-534">Aşağıdaki örneklerde, tek bir toplu iş 9 limitini geçmemesi gereken toplam ağırlığa sahip emtiaları içerdiğinde, emtia maddelerinin listesini toplu işlerde ayarlananla aynı biçimde gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-534">In the following illustrations, the same format has been adjusted so that it presents the list of commodity items in batches when a single batch must include commodities and the total weight should not exceed the limit of 9.</span></span></p>
-<p><a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="Adjusted format" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a></p>
-<p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
-<p><span data-ttu-id="c6131-535">Aşağıdaki örnekte düzeltilen biçim çalıştırıldığında elde edilen sonuç gösterilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-535">The following illustration shows the result when the adjusted format is run.</span></span></p>
-<p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE] <span data-ttu-id="c6131-536">Sınırının kaynak (ağırlık) değeri (11) tanımlanan sınırı (9) geçtiğinden sınır, kaynak listedeki son maddeye uygulanmaz.</span><span class="sxs-lookup"><span data-stu-id="c6131-536">The limit isn't applied to the last item of the original list, because the value (11) of the limit source (weight) exceeds the defined limit (9).</span></span> <span data-ttu-id="c6131-537">Rapor oluştururken gerekirse alt listeleri yok saymak (atlamak) için <strong>WHERE</strong> işlevini veya ilgili biçim öğesinin <strong>Etkinleştirildi</strong> ifadesini kullanın.</span><span class="sxs-lookup"><span data-stu-id="c6131-537">Use either the <strong>WHERE</strong> function or the <strong>Enabled</strong> expression of the corresponding format element to ignore (skip) sub-lists during report generation, as required.</span></span></blockquote>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-538">FİLTRE (liste, koşul)</span><span class="sxs-lookup"><span data-stu-id="c6131-538">FILTER (list, condition)</span></span></td>
-<td><span data-ttu-id="c6131-539">Sorgu belirtilen koşula göre filtre uygulayacak şekilde değiştirildikten sonra belirtilen listeyi döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-539">Return the specified list after the query has been modified to filter for the specified condition.</span></span> <span data-ttu-id="c6131-540"><strong>WHERE</strong> işlevinden farklı olarak bu işlev, belirtilen koşul <strong>Tablo kayıtları</strong> türünün herhangi bir ER veri kaynağına veritabanı düzeyinde uygulanabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-540">This function differs from the <strong>WHERE</strong> function, because the specified condition is applied to any ER data source of the <strong>Table records</strong> type at the database level.</span></span> <span data-ttu-id="c6131-541">Liste ve koşul tablolar ve ilişkiler kullanılarak tanımlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-541">The list and condition can be defined by using tables and relations.</span></span></td>
-<td><span data-ttu-id="c6131-542"><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong>, yalnızca grup 40'a dahil olan satıcıların listesini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-542">If <strong>Vendor</strong> is configured as an ER data source that refers to the VendTable table, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> returns a list of just the vendors that belong to vendor group 40.</span></span> <span data-ttu-id="c6131-543"><strong>Satıcı</strong>, VendTable tablosuna başvuran bir ER veri kaynağı olarak yapılandırılırsa ve <strong>parmVendorBankGroup</strong>, <strong>Dize</strong> veri türünde bir değer döndüren ER veri kaynağı olarak yapılandırılırsa, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> yalnızca belirli bir banka grubuna ait satıcı hesaplarının bulunduğu bir liste döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-543">If <strong>Vendor</strong> is configured as an ER data source that refers to the VendTable table, and if <strong>parmVendorBankGroup</strong> is configured as an ER data source that returns a value of the <strong>String</strong> data type, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> returns a list of just the vendor accounts that belong to a specific bank group.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-544">DİZİN (liste, dizin)</span><span class="sxs-lookup"><span data-stu-id="c6131-544">INDEX (list, index)</span></span></td>
-<td><span data-ttu-id="c6131-545">Bu işlev, listedeki belirli bir sayısal dizinle seçilen bir kaydı döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-545">This function returns a record that is selected by a specific numeric index in the list.</span></span> <span data-ttu-id="c6131-546">Dizin listedeki kayıtların aralığı dışında ise bir özel durum oluşur.</span><span class="sxs-lookup"><span data-stu-id="c6131-546">An exception is thrown if the index is out of range of the records in the list.</span></span></td>
-<td><span data-ttu-id="c6131-547"><strong>Hesaplanmış alan</strong> türü için veri kaynağı <strong>DS</strong>'yi girerseniz ve bu <strong>SPLIT ("A|B|C", “|”), 2)</strong> ifadesini içerirse , <strong>DS.Value</strong> ifadesi "B" metin değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-547">If you enter the data source <strong>DS</strong> for the <strong>Calculated field</strong> type and it contains the expression <strong>SPLIT ("A|B|C", “|”), 2)</strong>, the expression <strong>DS.Value</strong> returns the text value, “B”.</span></span> <span data-ttu-id="c6131-548"><strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> ifadesi de “B” metin değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-548">The expression <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> also returns the “B” text value.</span></span></td>
-</tr>
-</tbody>
-</table>
-
-### <a name="logical-functions"></a><span data-ttu-id="c6131-549">Mantıksal işlevler</span><span class="sxs-lookup"><span data-stu-id="c6131-549">Logical functions</span></span>
-
-| <span data-ttu-id="c6131-550">İşlev</span><span class="sxs-lookup"><span data-stu-id="c6131-550">Function</span></span> | <span data-ttu-id="c6131-551">Tanım</span><span class="sxs-lookup"><span data-stu-id="c6131-551">Description</span></span> | <span data-ttu-id="c6131-552">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-552">Example</span></span> |
-|----------|-------------|---------|
-| <span data-ttu-id="c6131-553">CASE (ifade, seçenek 1, sonuç 1 \[, seçenek 2, sonuç 2\] …</span><span class="sxs-lookup"><span data-stu-id="c6131-553">CASE (expression, option 1, result 1 \[, option 2, result 2\] …</span></span> <span data-ttu-id="c6131-554">\[, varsayılan sonuç\])</span><span class="sxs-lookup"><span data-stu-id="c6131-554">\[, default result\])</span></span> | <span data-ttu-id="c6131-555">Belirtilen ifade değerini, belirtilen alternatif seçeneklere karşı değerlendirin.</span><span class="sxs-lookup"><span data-stu-id="c6131-555">Evaluate the specified expression value against the specified alternative options.</span></span> <span data-ttu-id="c6131-556">İfadenin değerine eşit olan seçeneğin sonucunu döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-556">Return the result of the option that equals the value of the expression.</span></span> <span data-ttu-id="c6131-557">Aksi takdirde, varsayılan sonuç belirtilmişse, isteğe bağlı varsayılan sonucu döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-557">Otherwise, return the optional default result, if a default result is specified.</span></span> <span data-ttu-id="c6131-558">(Varsayılan sonuç öncesinde bir seçenek olmayan son parametredir).</span><span class="sxs-lookup"><span data-stu-id="c6131-558">(The default result is the last parameter that isn't preceded by an option.)</span></span> | <span data-ttu-id="c6131-559">**CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "KIŞ", "11", "KIŞ", "12", "KIŞ", "")**, eğer geçerli Finance and Operations oturum tarihi Ekim ve Aralık arasındaysa, **KIŞ** dizesini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-559">**CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** returns the string **"WINTER"** when the current Finance and Operations session date is between October and December.</span></span> <span data-ttu-id="c6131-560">Aksi halde, boş bir dize döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-560">Otherwise, it returns a blank string.</span></span> |
-| <span data-ttu-id="c6131-561">IF (koşul, değer 1, değer 2)</span><span class="sxs-lookup"><span data-stu-id="c6131-561">IF (condition, value 1, value 2)</span></span> | <span data-ttu-id="c6131-562">Belirtilen koşul karşılandığında ilk belirtilen değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-562">Return the first specified value when the specified condition is met.</span></span> <span data-ttu-id="c6131-563">Aksi takdirde, ikinci belirtilen değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-563">Otherwise, return the second specified value.</span></span> <span data-ttu-id="c6131-564">Değer 1 ve değer 2, kayıt veya kayıt listeleriyse, sonuç sadece her iki listede de mevcut olan alanları içerir.</span><span class="sxs-lookup"><span data-stu-id="c6131-564">If value 1 and value 2 are records or record lists, the result has only the fields that exist in both lists.</span></span> | <span data-ttu-id="c6131-565">**IF (1=2, "koşul karşılandı", "koşul karşılanmadı")**, **"koşul karşılanmadı"** dizesini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-565">**IF (1=2, "condition is met", "condition is not met")** returns the string **"condition is not met"**.</span></span> |
-| <span data-ttu-id="c6131-566">NOT (koşul)</span><span class="sxs-lookup"><span data-stu-id="c6131-566">NOT (condition)</span></span> | <span data-ttu-id="c6131-567">Belirtilen koşulun ters mantıksal değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-567">Return the reversed logical value of the specified condition.</span></span> | <span data-ttu-id="c6131-568">**DEĞİL (DOĞRU)**, **YANLIŞ** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-568">**NOT (TRUE)** returns **FALSE**.</span></span> |
-| <span data-ttu-id="c6131-569">AND (koşul 1\[, koşul 2, …\])</span><span class="sxs-lookup"><span data-stu-id="c6131-569">AND (condition 1\[, condition 2, …\])</span></span> | <span data-ttu-id="c6131-570">*Tüm* belirtilen koşullar doğruysa, **DOĞRU** döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-570">Return **TRUE** if *all* specified conditions are true.</span></span> <span data-ttu-id="c6131-571">Aksi takdirde **YANLIŞ** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-571">Otherwise, return **FALSE**.</span></span> | <span data-ttu-id="c6131-572">**VE (1=1, "a"="a")**,**DOĞRU** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-572">**AND (1=1, "a"="a")** returns **TRUE**.</span></span> <span data-ttu-id="c6131-573">**AND (1=2, "a"="a")** **YANLIŞ** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-573">**AND (1=2, "a"="a")** returns **FALSE**.</span></span> |
-| <span data-ttu-id="c6131-574">OR (koşul 1\[, koşul 2, …\])</span><span class="sxs-lookup"><span data-stu-id="c6131-574">OR (condition 1\[, condition 2, …\])</span></span> | <span data-ttu-id="c6131-575">*Tüm* belirtilen koşullar yanlışsa, **YANLIŞ** döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-575">Return **FALSE** if *all* specified conditions are false.</span></span> <span data-ttu-id="c6131-576">*Herhangi bir* belirtilen koşul doğruysa **DOĞRU** döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-576">Return **TRUE** if *any* specified condition is true.</span></span> | <span data-ttu-id="c6131-577">**VEYA (1=2, "a"="a")**,**DOĞRU** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-577">**OR (1=2, "a"="a")** returns **TRUE**.</span></span> |
-| <span data-ttu-id="c6131-578">VALUEIN (giriş listesi, liste öğe ifadesi)</span><span class="sxs-lookup"><span data-stu-id="c6131-578">VALUEIN (input, list, list item expression)</span></span> | <span data-ttu-id="c6131-579">Belirtilen girişin, belirtilen listede belirli bir öğe değerinin eşleşip eşleşmediğini belirler.</span><span class="sxs-lookup"><span data-stu-id="c6131-579">Determine whether the specified input matches any value of an item in the specified list.</span></span> <span data-ttu-id="c6131-580">Belirtilen girdi en az bir kayıt için çalışan belirtilen ifade sonucuyla eşleşiyorsa **DOĞRU** döner.</span><span class="sxs-lookup"><span data-stu-id="c6131-580">Return **TRUE** if the specified input matches the result of running the specified expression for at least one record.</span></span> <span data-ttu-id="c6131-581">Aksi takdirde **YANLIŞ** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-581">Otherwise, return **FALSE**.</span></span> <span data-ttu-id="c6131-582">**Giriş** parametresi bir veri kaynağı öğesinin yolunu gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-582">The **input** parameter represents the path of a data source element.</span></span> <span data-ttu-id="c6131-583">Bu öğenin değeri eşleşir.</span><span class="sxs-lookup"><span data-stu-id="c6131-583">The value of this element will be matched.</span></span> <span data-ttu-id="c6131-584">**Liste** parametresi, bir ifade içeren kayıtların listesi olarak kayıt listesi türünün bir veri kaynağı öğesinin yolunu gösterir.</span><span class="sxs-lookup"><span data-stu-id="c6131-584">The **list** parameter represents the path of a data source element of the record list type as a list of records that contains an expression.</span></span> <span data-ttu-id="c6131-585">Bu öğenin değeri belirtilen giriş ile karşılaştırılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-585">The value of this element will be compared with the specified input.</span></span> <span data-ttu-id="c6131-586">**Liste öğe ifadesi** bağımsız değişkeni işaret eden ya da belirtilen listenin eşleştirmek için kullanılacak tek bir alan içeren bir ifadeyi temsil eder.</span><span class="sxs-lookup"><span data-stu-id="c6131-586">The **list item expression** argument represents an expression that either points to or contains a single field of the specified list that should be used for the matching.</span></span> | <span data-ttu-id="c6131-587">Örnek için sonra bölüme [Örnek: VALUEIN (giriş, liste, liste öğesi ifadesi)](#examples-valuein-input-list-list-item-expression) bakın.</span><span class="sxs-lookup"><span data-stu-id="c6131-587">For examples, see the [Examples: VALUEIN (input, list, list item expression)](#examples-valuein-input-list-list-item-expression) section that follows.</span></span> |
-
-#### <a name="examples-valuein-input-list-list-item-expression"></a><span data-ttu-id="c6131-588">Örnekler: VALUEIN (giriş listesi, liste öğe ifadesi)</span><span class="sxs-lookup"><span data-stu-id="c6131-588">Examples: VALUEIN (input, list, list item expression)</span></span>
-<span data-ttu-id="c6131-589">Genel olarak, **VALUEIN** işlevi bir dizi **OR** koşuluna çevrilir:</span><span class="sxs-lookup"><span data-stu-id="c6131-589">In general, the **VALUEIN** function is translated to a set of **OR** conditions:</span></span>
-
-<span data-ttu-id="c6131-590">(input = list.item1.value) OR (input = list.item2.value) OR …</span><span class="sxs-lookup"><span data-stu-id="c6131-590">(input = list.item1.value) OR (input = list.item2.value) OR …</span></span>
-
-##### <a name="example-1"></a><span data-ttu-id="c6131-591">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="c6131-591">Example 1</span></span>
-<span data-ttu-id="c6131-592">Model eşlemeniz içinde şu veri kaynağını tanımladınız: **Liste** (**Hesaplanan alan** türü).</span><span class="sxs-lookup"><span data-stu-id="c6131-592">You define the following data source in your model mapping: **List** (**Calculated field** type).</span></span> <span data-ttu-id="c6131-593">Bu veri kaynağı **SPLIT ("a,b,c", ",")** ifadesini içeriyor.</span><span class="sxs-lookup"><span data-stu-id="c6131-593">This data source contains the expression **SPLIT ("a,b,c", ",")**.</span></span>
-
-<span data-ttu-id="c6131-594">**VALUEIN ("B", List, List.Value)** ifadesi olarak yapılandırılmış bir veri kaynağı çağrılıysa **TRUE** olarak döner.</span><span class="sxs-lookup"><span data-stu-id="c6131-594">When a data source is called that is configured as the **VALUEIN ("B", List, List.Value)** expression, it returns **TRUE**.</span></span> <span data-ttu-id="c6131-595">Bu durumda, **VALUEIN** işlevi aşağıdaki bir dizi koşula çevrilir:</span><span class="sxs-lookup"><span data-stu-id="c6131-595">In this case, the **VALUEIN** function is translated to the following set of conditions:</span></span>
-
-<span data-ttu-id="c6131-596">**(("B" = "a") or ("B" = "b") or ("B" = "c"))**, where **("B" = "b")**, şuna eşit: **TRUE**</span><span class="sxs-lookup"><span data-stu-id="c6131-596">**(("B" = "a") or ("B" = "b") or ("B" = "c"))**, where **("B" = "b")** is equal to **TRUE**</span></span>
-
-<span data-ttu-id="c6131-597">**VALUEIN ("B", List, LEFT(List.Value, 0))** ifadesi olarak yapılandırılmış bir veri kaynağı çağrılıysa **FALSE** olarak döner.</span><span class="sxs-lookup"><span data-stu-id="c6131-597">When a data source is called that is configured as the **VALUEIN ("B", List, LEFT(List.Value, 0))** expression, it returns **FALSE**.</span></span> <span data-ttu-id="c6131-598">Bu durumda, **VALUEIN** işlevi aşağıdaki koşula çevrilir:</span><span class="sxs-lookup"><span data-stu-id="c6131-598">In this case, the **VALUEIN** function is translated to the following condition:</span></span>
-
-<span data-ttu-id="c6131-599">**("B" = "")**, which isn't equal to **TRUE**</span><span class="sxs-lookup"><span data-stu-id="c6131-599">**("B" = "")**, which isn't equal to **TRUE**</span></span>
-
-<span data-ttu-id="c6131-600">Böyle bir koşul metninde karakter sayısı üst sınırının 32.768 karakter olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="c6131-600">Note that the upper limit for the number of characters in the text of such a condition is 32,768 characters.</span></span> <span data-ttu-id="c6131-601">Bu nedenle, çalışma zamanında bu sınırı aşan veri kaynakları oluşturmamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="c6131-601">Therefore, you should not create data sources that might exceed this limit at runtime.</span></span> <span data-ttu-id="c6131-602">Sınır aşılırsa uygulama çalışmayı durdurur ve bir özel durum gönderilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-602">If the limit is exceeded, the application will stop running, and an exception will be thrown.</span></span> <span data-ttu-id="c6131-603">Örneğin, veri kaynağı **WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)** olarak yapılandırılmışsa ve **List1** ve **List2** listeleri büyük miktarda kayıt içeriyorsa bu durum ortaya çıkabilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-603">For example, this situation can occur if the data source is configured as **WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)**, and the **List1** and **List2** lists contain a large volume of records.</span></span>
-
-<span data-ttu-id="c6131-604">Bazı durumlarda, **VALUEIN** işlevi **EXISTS JOIN** işleci kullanarak bir veritabanı ifadesi çevrilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-604">In some cases, the **VALUEIN** function is translated to a database statement by using the **EXISTS JOIN** operator.</span></span> <span data-ttu-id="c6131-605">Bu davranış, **FİLTRE** işlevi kullanıldığında ve aşağıdaki koşullar sağlandığında olur:</span><span class="sxs-lookup"><span data-stu-id="c6131-605">This behavior occurs when the **FILTER** function is used and the following conditions are met:</span></span>
-
-- <span data-ttu-id="c6131-606">**SORGU İSTE** seçeneği kayıtlar listesi anlamına gelen **VALUEIN** işlevinin veri kaynağı için kapatılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-606">The **ASK FOR QUERY** option is turned off for the data source of the **VALUEIN** function that refers to the list of records.</span></span> <span data-ttu-id="c6131-607">(Hiçbir ek koşul, çalışma zamanında bu veri kaynağına uygulanmaz.)</span><span class="sxs-lookup"><span data-stu-id="c6131-607">(No additional conditions will be applied to this data source at runtime.)</span></span>
-- <span data-ttu-id="c6131-608">Kayıtlar listesi anlamına gelen **VALUEIN** işlevinin veri kaynağı için hiçbir iç içe ifade yapılandırılmaz.</span><span class="sxs-lookup"><span data-stu-id="c6131-608">No nested expressions are configured for the data source of the **VALUEIN** function that refers to the list of records.</span></span>
-- <span data-ttu-id="c6131-609">**VALUEIN** işlevinin bir liste öğesi belirtilen veri kaynağının bir alanını belirtilir (bir ifade veya bir yöntem değil).</span><span class="sxs-lookup"><span data-stu-id="c6131-609">A list item of the **VALUEIN** function refers to a field (not an expression or a method) of the specified data source.</span></span>
-
-<span data-ttu-id="c6131-610">Bu örnekte daha önce açıklandığı gibi **WHERE** işlevi yerine bu seçeneği kullanmayı düşünün.</span><span class="sxs-lookup"><span data-stu-id="c6131-610">Consider using this option instead of the **WHERE** function as described earlier in this example.</span></span>
-
-##### <a name="example-2"></a><span data-ttu-id="c6131-611">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="c6131-611">Example 2</span></span>
-
-<span data-ttu-id="c6131-612">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</span><span class="sxs-lookup"><span data-stu-id="c6131-612">You define the following data sources in your model mapping:</span></span>
-
-- <span data-ttu-id="c6131-613">Intrastat tablosuna başvuran **In** (**Tablo kayıtları** türü)</span><span class="sxs-lookup"><span data-stu-id="c6131-613">**In** (**Table records** type), which refers to the Intrastat table</span></span>
-- <span data-ttu-id="c6131-614">IntrastatPort tablosuna başvuran **Port** (**Tablo kayıtları** türü)</span><span class="sxs-lookup"><span data-stu-id="c6131-614">**Port** (**Table records** type), which refers to the IntrastatPort table</span></span>
-
-<span data-ttu-id="c6131-615">**FILTER (In, VALUEIN(In.Port, Port, Port.PortId)** olarak yapılandırılmış bir veri kaynağı çağrıldığında aşağıdaki SQL ifadesi Intrastat tablosunun filtre uygulanan kayıtlarını döndürmek için oluşturulur:</span><span class="sxs-lookup"><span data-stu-id="c6131-615">When a data source is called that is configured as the **FILTER (In, VALUEIN(In.Port, Port, Port.PortId)** expression, the following SQL statement is generated to return filtered records of the Intrastat table:</span></span>
-
-```
-select … from Intrastat
-exists join TableId from IntrastatPort
-where IntrastatPort.PortId = Intrastat.Port
-```
-
-<span data-ttu-id="c6131-616">**dataAreaId** alanları için nihai SQL deyimi **IN** işleci kullanılarak oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="c6131-616">For **dataAreaId** fields, the final SQL statement is generated by the using **IN** operator.</span></span>
-
-##### <a name="example-3"></a><span data-ttu-id="c6131-617">Örnek 3</span><span class="sxs-lookup"><span data-stu-id="c6131-617">Example 3</span></span>
-
-<span data-ttu-id="c6131-618">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</span><span class="sxs-lookup"><span data-stu-id="c6131-618">You define the following data sources in your model mapping:</span></span>
-
-- <span data-ttu-id="c6131-619">**Le** (**Hesaplanan alan** türü), **SPLIT ("DEMF,GBSI,USMF", ",")** ifadesini içerir</span><span class="sxs-lookup"><span data-stu-id="c6131-619">**Le** (**Calculated field** type), which contains the expression **SPLIT ("DEMF,GBSI,USMF", ",")**</span></span>
-- <span data-ttu-id="c6131-620">**In** (**Tablo kayıtları** türü), Intrastat tablosu anlamına gelir ve **Şirketler arası** seçeneği açıktır</span><span class="sxs-lookup"><span data-stu-id="c6131-620">**In** (**Table records** type), which refers to the Intrastat table and for which the **Cross-company** option is turned on</span></span>
-
-<span data-ttu-id="c6131-621">**FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)** ifadesi olarak yapılandırılmış bir veri kaynağı çağrıldığında son SQL deyimi aşağıdaki koşulu içerir:</span><span class="sxs-lookup"><span data-stu-id="c6131-621">When a data source is called that is configured as the **FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)** expression, the final SQL statement contains the following condition:</span></span>
-
-```
-Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
-```
-
-### <a name="mathematical-functions"></a><span data-ttu-id="c6131-622">Matematik işlevi</span><span class="sxs-lookup"><span data-stu-id="c6131-622">Mathematical functions</span></span>
-
-| <span data-ttu-id="c6131-623">İşlev</span><span class="sxs-lookup"><span data-stu-id="c6131-623">Function</span></span> | <span data-ttu-id="c6131-624">Tanım</span><span class="sxs-lookup"><span data-stu-id="c6131-624">Description</span></span> | <span data-ttu-id="c6131-625">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-625">Example</span></span> |
-|----------|-------------|---------|
-| <span data-ttu-id="c6131-626">ABS (numara)</span><span class="sxs-lookup"><span data-stu-id="c6131-626">ABS (number)</span></span> | <span data-ttu-id="c6131-627">Belirtilen sayının mutlak değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-627">Return the absolute value of the specified number.</span></span> <span data-ttu-id="c6131-628">(Diğer bir deyişle, işareti olmadan sayıyı döndürür.)</span><span class="sxs-lookup"><span data-stu-id="c6131-628">(In other words, return the number without its sign.)</span></span> | <span data-ttu-id="c6131-629">**ABS (-1)**, **1** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-629">**ABS (-1)** returns **1**.</span></span> |
-| <span data-ttu-id="c6131-630">KUVVET (sayı, kuvvet)</span><span class="sxs-lookup"><span data-stu-id="c6131-630">POWER (number, power)</span></span> | <span data-ttu-id="c6131-631">Belirtilen pozitif sayının, belirtilen kuvvetine yükseltilmesinin sonucunu döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-631">Return the result of raising the specified positive number to the specified power.</span></span> | <span data-ttu-id="c6131-632">**KUVVET (10, 2)**, **100** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-632">**POWER (10, 2)** returns **100**.</span></span> |
-| <span data-ttu-id="c6131-633">NUMBERVALUE (dize, ondalık ayırıcı, basamak gruplandırma ayırıcı)</span><span class="sxs-lookup"><span data-stu-id="c6131-633">NUMBERVALUE (string, decimal separator, digit grouping separator)</span></span> | <span data-ttu-id="c6131-634">Belirtilen dizeyi sayıya dönüştürün.</span><span class="sxs-lookup"><span data-stu-id="c6131-634">Convert the specified string to a number.</span></span> <span data-ttu-id="c6131-635">Belirtilen ondalık basamak ayırıcısı ondalık sayısının tam sayısı ile kesirli sayıları arasında kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-635">The specified decimal separator is used between the integer and fractional parts of a decimal number.</span></span> <span data-ttu-id="c6131-636">Belirtilen basamak gruplandırma ayırıcısı binler basamağı ayırıcısı olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-636">The specified digit grouping separator is used as the thousands separator.</span></span> | <span data-ttu-id="c6131-637">**NUMBERVALUE("1 234,56", ",", " ")**, **1234.56** değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-637">**NUMBERVALUE("1 234,56", ",", " ")** returns the value **1234.56**.</span></span> |
-| <span data-ttu-id="c6131-638">VALUE (dize)</span><span class="sxs-lookup"><span data-stu-id="c6131-638">VALUE (string)</span></span> | <span data-ttu-id="c6131-639">Belirtilen dizeyi sayıya dönüştürün.</span><span class="sxs-lookup"><span data-stu-id="c6131-639">Convert the specified string to a number.</span></span> <span data-ttu-id="c6131-640">Virgül ve nokta karakterleri (.) ondalık ayırıcı olarak kabul edilir ve önde gelen bir tire (-), bir eksi işareti olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-640">Commas and dot characters (.) are considered decimal separators, and a leading hyphen (-) is used as a negative sign.</span></span> <span data-ttu-id="c6131-641">Belirtilen dizenin sayısal olmayan karakterler içermesi durumunda bir özel durum oluşturur.</span><span class="sxs-lookup"><span data-stu-id="c6131-641">Throw an exception if the specified string contains other non-numeric characters.</span></span> | <span data-ttu-id="c6131-642">**DEĞER ("1 234,56")** bir istisna oluşturur.</span><span class="sxs-lookup"><span data-stu-id="c6131-642">**VALUE ("1 234,56")** throws an exception.</span></span> |
-| <span data-ttu-id="c6131-643">ROUND (sayı, ondalık basamak)</span><span class="sxs-lookup"><span data-stu-id="c6131-643">ROUND (number, decimals)</span></span> | <span data-ttu-id="c6131-644">Belirtilen sayıyı, ondalık basamağındaki sayısı yuvarladıktan sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-644">Return the specified number after it has been rounded to the specified number of decimal places:</span></span><ul><li><span data-ttu-id="c6131-645">**Ondalık** parametresinin değeri 0'dan (sıfır) büyükse, belirtilen sayı birçok ondalık basamağa yuvarlanır.</span><span class="sxs-lookup"><span data-stu-id="c6131-645">If the value of the **decimals** parameter is more than 0 (zero), the specified number is rounded to that many decimal places.</span></span></li><li><span data-ttu-id="c6131-646">**Ondalık** parametresinin değeri **0** (sıfır) ise, belirtilen sayı en yakın tamsayıya yuvarlanır.</span><span class="sxs-lookup"><span data-stu-id="c6131-646">If the value of the **decimals** parameter is **0** (zero), the specified number is rounded to the nearest integer.</span></span></li><li><span data-ttu-id="c6131-647">**Ondalık** parametresinin değeri 0'dan (sıfır) küçükse, belirtilen sayı ondalık basamağın soluna yuvarlanır.</span><span class="sxs-lookup"><span data-stu-id="c6131-647">If the value of the **decimals** parameter is less than 0 (zero), the specified number is rounded to the left of the decimal point.</span></span></li></ul> | <span data-ttu-id="c6131-648">**ROUND (1200.767, 2)** iki ondalık basamağa yuvarlar ve **1200.77** sonucunu döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-648">**ROUND (1200.767, 2)** rounds to two decimal places and returns **1200.77**.</span></span> <span data-ttu-id="c6131-649">**ROUND (1200.767, -3)** 1.000'in en yakın katına yuvarlar ve **1000** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-649">**ROUND (1200.767, -3)** rounds to the nearest multiple of 1,000 and returns **1000**.</span></span> |
-| <span data-ttu-id="c6131-650">ROUNDDOWN (sayı, ondalık basamak)</span><span class="sxs-lookup"><span data-stu-id="c6131-650">ROUNDDOWN (number, decimals)</span></span> | <span data-ttu-id="c6131-651">Belirtilen sayıyı, ondalık basamağındaki sayısı aşağı yuvarladıktan sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-651">Return the specified number after it has been rounded down to the specified number of decimal places.</span></span><blockquote>[!NOTE] <span data-ttu-id="c6131-652">Bu işlev **YUVARLA** işlevi gibi davranır ancak belirtilen sayıyı daima aşağı doğru (sıfıra doğru) yuvarlar.</span><span class="sxs-lookup"><span data-stu-id="c6131-652">This function behaves like **ROUND**, but it always rounds the specified number down (toward zero).</span></span></blockquote> | <span data-ttu-id="c6131-653">**ROUNDDOWN (1200.767, 2)** iki ondalık basamağa aşağı yuvarlar ve **1200.76** sonucunu döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-653">**ROUNDDOWN (1200.767, 2)** rounds down to two decimal places and returns **1200.76**.</span></span> <span data-ttu-id="c6131-654">**ROUNDDOWN (1700.767, -3)** 1.000'in en yakın katına aşağı yuvarlar ve **1000** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-654">**ROUNDDOWN (1700.767, -3)** rounds down to the nearest multiple of 1,000 and returns **1000**.</span></span> |
-| <span data-ttu-id="c6131-655">ROUNDUP (sayı, ondalık basamak)</span><span class="sxs-lookup"><span data-stu-id="c6131-655">ROUNDUP (number, decimals)</span></span> | <span data-ttu-id="c6131-656">Belirtilen sayıyı, ondalık basamağındaki sayı yukarı yuvarladıktan sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-656">Return the specified number after it has been rounded up to the specified number of decimal places.</span></span><blockquote>[!NOTE] <span data-ttu-id="c6131-657">Bu işlev **YUVARLA** işlevi gibi davranır ancak belirtilen sayıyı daima yukarı doğru (sıfırdan uzağa doğru) yuvarlar.</span><span class="sxs-lookup"><span data-stu-id="c6131-657">This function behaves like **ROUND**, but it always rounds the specified number up (away from zero).</span></span></blockquote> | <span data-ttu-id="c6131-658">**ROUNDUP (1200.763, 2)** iki ondalık basamağa yukarı yuvarlar ve **1200.77** sonucunu döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-658">**ROUNDUP (1200.763, 2)** rounds up to two decimal places and returns **1200.77**.</span></span> <span data-ttu-id="c6131-659">**ROUNDUP (1200.767, -3)** 1.000'in en yakın katına yukarı yuvarlar ve **2000** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-659">**ROUNDUP (1200.767, -3)** rounds up to the nearest multiple of 1,000 and returns **2000**.</span></span> |
-
-### <a name="data-conversion-functions"></a><span data-ttu-id="c6131-660">Veri dönüştürme işlemleri</span><span class="sxs-lookup"><span data-stu-id="c6131-660">Data conversion functions</span></span>
-
-| <span data-ttu-id="c6131-661">İşlev</span><span class="sxs-lookup"><span data-stu-id="c6131-661">Function</span></span> | <span data-ttu-id="c6131-662">Açıklama</span><span class="sxs-lookup"><span data-stu-id="c6131-662">Description</span></span> | <span data-ttu-id="c6131-663">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-663">Example</span></span> |
-|----------|-------------|---------|
-| <span data-ttu-id="c6131-664">VALUE (dize)</span><span class="sxs-lookup"><span data-stu-id="c6131-664">VALUE (string)</span></span> | <span data-ttu-id="c6131-665">Belirtilen dizeyi sayıya dönüştürün.</span><span class="sxs-lookup"><span data-stu-id="c6131-665">Convert the specified string to a number.</span></span> <span data-ttu-id="c6131-666">Virgül ve nokta karakterleri (.) ondalık ayırıcı olarak kabul edilir ve önde gelen bir tire (-), bir eksi işareti olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-666">Commas and dot characters (.) are considered decimal separators, and a leading hyphen (-) is used as a negative sign.</span></span> <span data-ttu-id="c6131-667">Belirtilen dizenin sayısal olmayan karakterler içermesi durumunda bir özel durum oluşturur.</span><span class="sxs-lookup"><span data-stu-id="c6131-667">Throw an exception if the specified string contains other non-numeric characters.</span></span> | <span data-ttu-id="c6131-668">**DEĞER ("1 234,56")** bir istisna oluşturur.</span><span class="sxs-lookup"><span data-stu-id="c6131-668">**VALUE ("1 234,56")** throws an exception.</span></span> |
-| <span data-ttu-id="c6131-669">NUMBERVALUE (dize, ondalık ayırıcı, basamak gruplandırma ayırıcı)</span><span class="sxs-lookup"><span data-stu-id="c6131-669">NUMBERVALUE (string, decimal separator, digit grouping separator)</span></span> | <span data-ttu-id="c6131-670">Belirtilen dizeyi sayıya dönüştürün.</span><span class="sxs-lookup"><span data-stu-id="c6131-670">Convert the specified string to a number.</span></span> <span data-ttu-id="c6131-671">Belirtilen ondalık basamak ayırıcısı ondalık sayısının tam sayısı ile kesirli sayıları arasında kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-671">The specified decimal separator is used between the integer and fractional parts of a decimal number.</span></span> <span data-ttu-id="c6131-672">Belirtilen basamak gruplandırma ayırıcısı binler basamağı ayırıcısı olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-672">The specified digit grouping separator is used as the thousands separator.</span></span> | <span data-ttu-id="c6131-673">**NUMBERVALUE("1 234,56", ",", " ")** **1234.56** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-673">**NUMBERVALUE("1 234,56", ",", " ")** returns **1234.56**.</span></span> |
-| <span data-ttu-id="c6131-674">INTVALUE (dize)</span><span class="sxs-lookup"><span data-stu-id="c6131-674">INTVALUE (string)</span></span> | <span data-ttu-id="c6131-675">Belirtilen dizenin tamsayı temsilini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-675">Return an integer representation of the specified string.</span></span> <span data-ttu-id="c6131-676">Ondalık basamaklar kesilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-676">Any decimal places are truncated.</span></span> | <span data-ttu-id="c6131-677">**INTVALUE ("100.77")** **100** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-677">**INTVALUE ("100.77")** returns **100**.</span></span> |
-| <span data-ttu-id="c6131-678">INTVALUE (sayı)</span><span class="sxs-lookup"><span data-stu-id="c6131-678">INTVALUE (number)</span></span> | <span data-ttu-id="c6131-679">Belirtilen sayının tamsayı temsilini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-679">Return an integer representation of the specified number.</span></span> <span data-ttu-id="c6131-680">Ondalık basamaklar kesilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-680">Any decimal places are truncated.</span></span> | <span data-ttu-id="c6131-681">**INTVALUE (-100.77)** **-100** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-681">**INTVALUE (-100.77)** returns **-100**.</span></span> |
-| <span data-ttu-id="c6131-682">INT64VALUE (dize)</span><span class="sxs-lookup"><span data-stu-id="c6131-682">INT64VALUE (string)</span></span> | <span data-ttu-id="c6131-683">Belirtilen dizenin int64 temsilini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-683">Return an int64 representation of the specified string.</span></span> <span data-ttu-id="c6131-684">Ondalık basamaklar kesilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-684">Any decimal places are truncated.</span></span> | <span data-ttu-id="c6131-685">**INT64VALUE ("22565422744")** **22565422744** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-685">**INT64VALUE ("22565422744")** returns **22565422744**.</span></span> |
-| <span data-ttu-id="c6131-686">INT64VALUE (numara)</span><span class="sxs-lookup"><span data-stu-id="c6131-686">INT64VALUE (number)</span></span> | <span data-ttu-id="c6131-687">Belirtilen sayının int64 temsilini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-687">Return an int64 representation of the specified number.</span></span> <span data-ttu-id="c6131-688">Ondalık basamaklar kesilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-688">Any decimal places are truncated.</span></span> | <span data-ttu-id="c6131-689">**INT64VALUE (22565422744.00)** **22565422744** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-689">**INT64VALUE (22565422744.00)** returns **22565422744**.</span></span> |
-
-### <a name="record-functions"></a><span data-ttu-id="c6131-690">Kayıt işlevleri</span><span class="sxs-lookup"><span data-stu-id="c6131-690">Record functions</span></span>
-
-| <span data-ttu-id="c6131-691">İşlev</span><span class="sxs-lookup"><span data-stu-id="c6131-691">Function</span></span> | <span data-ttu-id="c6131-692">Açıklama</span><span class="sxs-lookup"><span data-stu-id="c6131-692">Description</span></span> | <span data-ttu-id="c6131-693">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-693">Example</span></span> |
-|----------|-------------|---------|
-| <span data-ttu-id="c6131-694">NULLCONTAINER (liste)</span><span class="sxs-lookup"><span data-stu-id="c6131-694">NULLCONTAINER (list)</span></span> | <span data-ttu-id="c6131-695">Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir **null** kaydı döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-695">Return a **null** record that has the same structure as the specified record list or record.</span></span><blockquote>[!NOTE] <span data-ttu-id="c6131-696">Bu işlev artık kullanılmamaktadır.</span><span class="sxs-lookup"><span data-stu-id="c6131-696">This function is obsolete.</span></span> <span data-ttu-id="c6131-697">Bunun yerine **EMPTYRECORD** kullanın.</span><span class="sxs-lookup"><span data-stu-id="c6131-697">Use **EMPTYRECORD** instead.</span></span></blockquote> | <span data-ttu-id="c6131-698">**NULLCONTAINER (SPLIT ("abc", 1))**, **SPLIT** işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-698">**NULLCONTAINER (SPLIT ("abc", 1))** returns a new empty record that has the same structure as the list that is returned by the **SPLIT** function.</span></span> |
-| <span data-ttu-id="c6131-699">EMPTYRECORD (kayıt)</span><span class="sxs-lookup"><span data-stu-id="c6131-699">EMPTYRECORD (record)</span></span> | <span data-ttu-id="c6131-700">Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir **null** kaydı döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-700">Return a **null** record that has the same structure as the specified record list or record.</span></span><blockquote>[!NOTE] <span data-ttu-id="c6131-701">**Boş** kayıt, tüm alanlarda boş değeri bulunan kayıttır.</span><span class="sxs-lookup"><span data-stu-id="c6131-701">A **null** record is a record where all fields have an empty value.</span></span> <span data-ttu-id="c6131-702">Boş değer sayılar için **0** (sıfır), dizeler için boş bir dize vb.'dir.</span><span class="sxs-lookup"><span data-stu-id="c6131-702">An empty value is **0** (zero) for numbers, an empty string for strings, and so on.</span></span></blockquote> | <span data-ttu-id="c6131-703">**EMPTYRECORD (SPLIT ("abc", 1))**, **SPLIT** işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-703">**EMPTYRECORD (SPLIT ("abc", 1))** returns a new empty record that has the same structure as the list that is returned by the **SPLIT** function.</span></span> |
-
-### <a name="text-functions"></a><span data-ttu-id="c6131-704">Metin işlevleri</span><span class="sxs-lookup"><span data-stu-id="c6131-704">Text functions</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="c6131-705">İşlev</span><span class="sxs-lookup"><span data-stu-id="c6131-705">Function</span></span></th>
-<th><span data-ttu-id="c6131-706">Tanım</span><span class="sxs-lookup"><span data-stu-id="c6131-706">Description</span></span></th>
-<th><span data-ttu-id="c6131-707">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-707">Example</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="c6131-708">UPPER (dize)</span><span class="sxs-lookup"><span data-stu-id="c6131-708">UPPER (string)</span></span></td>
-<td><span data-ttu-id="c6131-709">Belirtilen dizeyi büyük harfe dönüştürdükten sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-709">Return the specified string after it has been converted to uppercase letters.</span></span></td>
-<td><span data-ttu-id="c6131-710"><strong>UPPER(&quot;Örnek&quot;)</strong>, <strong>&quot;ÖRNEK&quot;</strong> sonucunu döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-710"><strong>UPPER(&quot;Sample&quot;)</strong> returns <strong>&quot;SAMPLE&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-711">LOWER (dize)</span><span class="sxs-lookup"><span data-stu-id="c6131-711">LOWER (string)</span></span></td>
-<td><span data-ttu-id="c6131-712">Belirtilen dizeyi küçük harfe dönüştürdükten sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-712">Return the specified string after it has been converted to lowercase letters.</span></span></td>
-<td><span data-ttu-id="c6131-713"><strong>LOWER(&quot;Örnek&quot;)</strong>, <strong>&quot;örnek&quot;</strong> sonucunu döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-713"><strong>LOWER (&quot;Sample&quot;)</strong> returns <strong>&quot;sample&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-714">LEFT (dize, karakter sayısı)</span><span class="sxs-lookup"><span data-stu-id="c6131-714">LEFT (string, number of characters)</span></span></td>
-<td><span data-ttu-id="c6131-715">Belirtilen dizenin başından belirtilen sayıda karakteri döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-715">Return the specified number of characters from the start of the specified string.</span></span></td>
-<td><span data-ttu-id="c6131-716"><strong>LEFT (&quot;Örnek&quot;, 3)</strong>, <strong>&quot;Örn&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-716"><strong>LEFT (&quot;Sample&quot;, 3)</strong> returns <strong>&quot;Sam&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-717">RIGHT (dize, karakter sayısı)</span><span class="sxs-lookup"><span data-stu-id="c6131-717">RIGHT (string, number of characters)</span></span></td>
-<td><span data-ttu-id="c6131-718">Belirtilen dizenin sonundan belirtilen sayıda karakteri döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-718">Return the specified number of characters from the end of the specified string.</span></span></td>
-<td><span data-ttu-id="c6131-719"><strong>SAĞ ("&quot;Örnek&quot;, 3)</strong>, <strong>&quot;nek&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-719"><strong>RIGHT (&quot;Sample&quot;, 3)</strong> returns <strong>&quot;ple&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-720">MID (dize, Başlangıç pozisyonu, karakter sayısı)</span><span class="sxs-lookup"><span data-stu-id="c6131-720">MID (string, starting position, number of characters)</span></span></td>
-<td><span data-ttu-id="c6131-721">Belirtilen dizenin, belirtilen konumdan başlayarak, belirtilen sayıdaki karakterini döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-721">Return the specified number of characters from the specified string, starting at the specified position.</span></span></td>
-<td><span data-ttu-id="c6131-722"><strong>MID (&quot;Örnek&quot;, 2, 3)</strong>, <strong>&quot;rne&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-722"><strong>MID (&quot;Sample&quot;, 2, 3)</strong> returns <strong>&quot;amp&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-723">LEN (dize)</span><span class="sxs-lookup"><span data-stu-id="c6131-723">LEN (string)</span></span></td>
-<td><span data-ttu-id="c6131-724">Belirtilen dizedeki karakterlerin sayısını döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-724">Return the number of characters in the specified string.</span></span></td>
-<td><span data-ttu-id="c6131-725"><strong>LEN (&quot;Örnek&quot;)</strong>, <strong>6</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-725"><strong>LEN (&quot;Sample&quot;)</strong> returns <strong>6</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-726">CHAR (numara)</span><span class="sxs-lookup"><span data-stu-id="c6131-726">CHAR (number)</span></span></td>
-<td><span data-ttu-id="c6131-727">Belirtilen Unicode numarası tarafından başvuruda bulunulan karakter dizesini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-727">Return the string of characters that is referenced by the specified Unicode number.</span></span></td>
-<td><span data-ttu-id="c6131-728"><strong>CHAR (255)</strong>, <strong>&quot;ÿ&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-728"><strong>CHAR (255)</strong> returns <strong>&quot;ÿ&quot;</strong>.</span></span>
-<blockquote>[!NOTE] <span data-ttu-id="c6131-729">Bu işlevin döndürdüğü dize DOSYA biçimi üst öğesinde seçtiğiniz kodlamaya bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="c6131-729">The string that this function returns depends on the encoding that is selected in the parent FILE format element.</span></span> <span data-ttu-id="c6131-730">Desteklenen kodlamalar listesi için bkz. <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodlama sınıfı</a>.</span><span class="sxs-lookup"><span data-stu-id="c6131-730">For the list of supported encodings, see <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Encoding class</a>.</span></span></blockquote>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-731">CONCATENATE (dize 1 [, dize 2, …])</span><span class="sxs-lookup"><span data-stu-id="c6131-731">CONCATENATE (string 1 [, string 2, …])</span></span></td>
-<td><span data-ttu-id="c6131-732">Tüm belirtilen metin dizelerini bir dizeye bağlandıktan sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-732">Return all specified text strings after they have been joined into one string.</span></span></td>
-<td><span data-ttu-id="c6131-733"><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong>, <strong>&quot;abcdef&quot;</strong>döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-733"><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> returns <strong>&quot;abcdef&quot;</strong>.</span></span>
-<blockquote>[!NOTE] <span data-ttu-id="c6131-734"><strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> ifadesi ayrıca <strong>&quot;abcdef&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-734">The expression <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> also returns <strong>&quot;abcdef&quot;</strong>.</span></span></blockquote>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-735">TRANSLATE (dize, kalıp, değiştirme)</span><span class="sxs-lookup"><span data-stu-id="c6131-735">TRANSLATE (string, pattern, replacement)</span></span></td>
-<td><span data-ttu-id="c6131-736">Belirtilen desen dizesindeki tüm karakterlerin, belirtilen değiştirme dizesindeki karakterlerle değiştirildiği, belirtilmiş olan dizeyi döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-736">Return the specified string after all occurrences of the characters in the specified pattern string have been replaced by the characters at the corresponding position in the specified replacement string.</span></span></td>
-<td><span data-ttu-id="c6131-737"><strong>TRANSLATE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;)</strong> deseni değiştirir <strong>&quot;cd&quot;</strong>, şunun ile: <strong>&quot;GH&quot;</strong> ve bunu döndürür: <strong>&quot;abGHef&quot;</strong>.</span><span class="sxs-lookup"><span data-stu-id="c6131-737"><strong>TRANSLATE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;)</strong> replaces the pattern <strong>&quot;cd&quot;</strong> with the string <strong>&quot;GH&quot;</strong> and returns <strong>&quot;abGHef&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-738">REPLACE (dize, desen, değiştirme, normal ifade işareti)</span><span class="sxs-lookup"><span data-stu-id="c6131-738">REPLACE (string, pattern, replacement, regular expression flag)</span></span></td>
-<td><span data-ttu-id="c6131-739">Belirtilen <strong>normal ifade bayrağı</strong> parametresi <strong>doğru</strong> olduğunda, belirtilen dizeyi bu işlev için <strong>desen</strong> bağımsız değişkeni olarak belirtilen normal ifadeyi uygulayarak değiştirdikten sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-739">When the specified <strong>regular expression flag</strong> parameter is <strong>true</strong>, return the specified string after it has been modified by applying the regular expression that is specified as the <strong>pattern</strong> argument for this function.</span></span> <span data-ttu-id="c6131-740">Bu ifade, değiştirilmesi gereken karakterleri bulmakta kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-740">This expression is used to find characters that must be replaced.</span></span> <span data-ttu-id="c6131-741">Belirtilen <strong>değiştirme</strong> bağımsız değişkenindeki karakterler, bulunan karakterleri değiştirmek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-741">Characters of the specified <strong>replacement</strong> argument are used to replace characters that are found.</span></span> <span data-ttu-id="c6131-742">Belirtilen <strong>normal ifade bayrağı</strong> parametresi <strong>yanlış</strong> ise, bu işlev <strong>TRANSLATE</strong> gibi davranır.</span><span class="sxs-lookup"><span data-stu-id="c6131-742">When the specified <strong>regular expression flag</strong> parameter is <strong>false</strong>, this function behaves like <strong>TRANSLATE</strong>.</span></span></td>
-<td><span data-ttu-id="c6131-743"><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> üm sayısal olmayan karakterleri kaldıran bir normal ifade uygular ve <strong>&quot;19234564971&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-743"><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> applies a regular expression that removes all non-numeric symbols, and returns <strong>&quot;19234564971&quot;</strong>.</span></span> <span data-ttu-id="c6131-744"><strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, yanlış)</strong> <strong>&quot;cd&quot;</strong> desenini <strong>&quot;GH&quot;</strong> satırı ile değiştirir ve <strong>&quot;abGHef&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-744"><strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> replaces the pattern <strong>&quot;cd&quot;</strong> with the string <strong>&quot;GH&quot;</strong> and returns <strong>&quot;abGHef&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-745">TEXT (giriş)</span><span class="sxs-lookup"><span data-stu-id="c6131-745">TEXT (input)</span></span></td>
-<td><span data-ttu-id="c6131-746">Belirtilen giriş geçerli Finance and Operations örneğinin sunucu yerel ayarlarına göre biçimlendirilmiş bir metin dizesine çevrildikten sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-746">Return the specified input after it has been converted to a text string that is formatted according to the server locale settings of the current Finance and Operations instance.</span></span> <span data-ttu-id="c6131-747"><strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</span><span class="sxs-lookup"><span data-stu-id="c6131-747">For values of the <strong>real</strong> type, the string conversion is limited to two decimal places.</span></span></td>
-<td><span data-ttu-id="c6131-748">Finance and Operations örneğinin sunucu yerel ayarı <strong>EN-US</strong> olarak tanımlanırsa, <strong>TEXT (NOW ())</strong> geçerli Finance and Operations oturum tarihi olan Aralık 17, 2015 değerini <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong> metin dizesi olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-748">If the server locale of the Finance and Operations instance is defined as <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong> returns the current Finance and Operations session date, December 17, 2015, as the text string <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>.</span></span> <span data-ttu-id="c6131-749"><strong>TEXT (1/3)</strong> <strong>&quot;0.33&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-749"><strong>TEXT (1/3)</strong> returns <strong>&quot;0.33&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-750">FORMAT (dize 1, dize 2[, dize 3, …])</span><span class="sxs-lookup"><span data-stu-id="c6131-750">FORMAT (string 1, string 2[, string 3, …])</span></span></td>
-<td><span data-ttu-id="c6131-751">Belirtilen dizeyi, tüm <strong>%N</strong> oluşumlarını <em>n</em>'ci bağımsız değişken ile değiştirerek biçimlendirdikten sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-751">Return the specified string after it has been formatted by substituting any occurrences of <strong>%N</strong> with the <em>n</em>th argument.</span></span> <span data-ttu-id="c6131-752">Bağımsız değişkenler, dizelerdir.</span><span class="sxs-lookup"><span data-stu-id="c6131-752">The arguments are strings.</span></span> <span data-ttu-id="c6131-753">Bir parametre için bir bağımsız değişken sağlanmamışsa, parametre izede <strong>&quot;%N&quot;</strong> olarak döndürülür.</span><span class="sxs-lookup"><span data-stu-id="c6131-753">If an argument isn't provided for a parameter, the parameter is returned as <strong>&quot;%N&quot;</strong> in the string.</span></span> <span data-ttu-id="c6131-754"><strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</span><span class="sxs-lookup"><span data-stu-id="c6131-754">For values of the <strong>real</strong> type, the string conversion is limited to two decimal places.</span></span></td>
-<td><span data-ttu-id="c6131-755">Aşağıdaki örnekte, <strong>PaymentModel</strong> veri kaynağı müşteri kayıtlarının listesini <strong>Müşteri</strong> bileşeni ve işleme tarihi değerini <strong>ProcessingDate</strong> alanı üzerinden döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-755">In the following illustration, the <strong>PaymentModel</strong> data source returns the list of customer records via the <strong>Customer</strong> component and the processing date value via the <strong>ProcessingDate</strong> field.</span></span>
-<p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
-<p><span data-ttu-id="c6131-756">Seçilen müşteriler için elektronik dosya oluşturmak üzere tasarlanmış ER biçiminde veri kaynağı olarak <strong>PaymentModel</strong> seçilir ve işlem akışını denetler.</span><span class="sxs-lookup"><span data-stu-id="c6131-756">In the ER format that is designed to generate an electronic file for selected customers, <strong>PaymentModel</strong> is selected as a data source and controls the process flow.</span></span> <span data-ttu-id="c6131-757">Seçilmiş bir müşteri raporun işlendiği tarihte durdurulmuşsa, kullanıcıyı bilgilendirmek için bir özel durum oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="c6131-757">An exception is thrown to inform the user when a selected customer is stopped for the date when the report is processed.</span></span> <span data-ttu-id="c6131-758">Bu tür bir işleme denetimi için tasarlanmış formül aşağıdaki kaynakları kullanabilir:</span><span class="sxs-lookup"><span data-stu-id="c6131-758">The formula that is designed for this type of processing control can use the following resources:</span></span></p>
-<ul>
-<li><span data-ttu-id="c6131-759">Aşağıdaki metne sahip Finance and Operations SYS70894 etiketi:</span><span class="sxs-lookup"><span data-stu-id="c6131-759">Finance and Operations label SYS70894, which has the following text:</span></span>
-<ul>
-<li><span data-ttu-id="c6131-760"><strong>TR-TR dili için:</strong> &quot;Yazdırılacak hiçbir şey yok&quot;</span><span class="sxs-lookup"><span data-stu-id="c6131-760"><strong>For the EN-US language:</strong> &quot;Nothing to print&quot;</span></span></li>
-<li><span data-ttu-id="c6131-761"><strong>DE dili için:</strong> &quot;Nichts zu drucken&quot;</span><span class="sxs-lookup"><span data-stu-id="c6131-761"><strong>For the DE language:</strong> &quot;Nichts zu drucken&quot;</span></span></li>
-</ul></li>
-<li><span data-ttu-id="c6131-762">Aşağıdaki metne sahip Finance and Operations SYS18389 etiketi:</span><span class="sxs-lookup"><span data-stu-id="c6131-762">Finance and Operations label SYS18389, which has the following text:</span></span>
-<ul>
-<li><span data-ttu-id="c6131-763"><strong>TR-TR dili için:</strong> &quot;Müşteri %1 şunun için durduruldu: %2.&quot;</span><span class="sxs-lookup"><span data-stu-id="c6131-763"><strong>For the EN-US language:</strong> &quot;Customer %1 is stopped for %2.&quot;</span></span></li>
-<li><span data-ttu-id="c6131-764"><strong>DE dili için:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</span><span class="sxs-lookup"><span data-stu-id="c6131-764"><strong>For the DE language:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</span></span></li>
-</ul></li>
-</ul>
-<p><span data-ttu-id="c6131-765">Tasarlanabilen formül şudur:</span><span class="sxs-lookup"><span data-stu-id="c6131-765">Here is the formula that can be designed:</span></span></p>
-<p><span data-ttu-id="c6131-766">FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;.</span><span class="sxs-lookup"><span data-stu-id="c6131-766">FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;.</span></span> <span data-ttu-id="c6131-767">&quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</span><span class="sxs-lookup"><span data-stu-id="c6131-767">&quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</span></span></p>
-<p><span data-ttu-id="c6131-768">Rapor <strong>Litware Retail</strong> müşterisi için Aralık 17, 2015 tarihinde <strong>EN-US</strong> kültüründe ve <strong>EN-US</strong> dilinde işlenmişse bu formül son kullanıcıya özel durum iletisi olarak sunulabilecek aşağıdaki metni içerir:</span><span class="sxs-lookup"><span data-stu-id="c6131-768">If a report is processed for the <strong>Litware Retail</strong> customer on December 17, 2015, in the <strong>EN-US</strong> culture and the <strong>EN-US</strong> language, this formula returns the following text, which can be presented to the user as an exception message:</span></span></p>
-<p><span data-ttu-id="c6131-769">&quot;Yazdırılacak hiçbir şey yok.</span><span class="sxs-lookup"><span data-stu-id="c6131-769">&quot;Nothing to print.</span></span> <span data-ttu-id="c6131-770">Müşteri Litware perakende 17/12/2015 için durduruldu.&quot;</span><span class="sxs-lookup"><span data-stu-id="c6131-770">Customer Litware Retail is stopped for 12/17/2015.&quot;</span></span></p>
-<p><span data-ttu-id="c6131-771">Aynı rapor <strong>Litware Retail</strong> müşterisi için Aralık 17, 2015 tarihinde <strong>DE</strong> kültürü ve <strong>DE</strong> dilinde işlenmişse, formül başka bir tarih biçimini kullanan aşağıdaki metni döndürür:</span><span class="sxs-lookup"><span data-stu-id="c6131-771">If the same report is processed for the <strong>Litware Retail</strong> customer on December 17, 2015, in the <strong>DE</strong> culture and the <strong>DE</strong> language, the formula returns the following text, which uses a different date format:</span></span></p>
-<p><span data-ttu-id="c6131-772">&quot;Nichts zu drucken.</span><span class="sxs-lookup"><span data-stu-id="c6131-772">&quot;Nichts zu drucken.</span></span> <span data-ttu-id="c6131-773">Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</span><span class="sxs-lookup"><span data-stu-id="c6131-773">Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</span></span></p>
-<blockquote>[!NOTE] <span data-ttu-id="c6131-774">Aşağıdaki sözdizimi, etiketler için ER formüllerinde kullanılır:</span><span class="sxs-lookup"><span data-stu-id="c6131-774">The following syntax is applied in ER formulas for labels:</span></span>
-<ul>
-<li><span data-ttu-id="c6131-775"><strong>Finance and Operations kaynaklarından etiketler için:</strong> <strong>@&quot;X&quot;</strong>, burada <strong>X</strong> Uygulama Nesne Ağacı (AOT) etiket kimliğidir.</span><span class="sxs-lookup"><span data-stu-id="c6131-775"><strong>For labels from Finance and Operations resources:</strong> <strong>@&quot;X&quot;</strong>, where <strong>X</strong> is the label ID in the Application Object Tree (AOT)</span></span></li>
-<li><span data-ttu-id="c6131-776"><strong>ER yapılandırmaları içinde bulunan etiketler için:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, burada <strong>X</strong>, ER yapılandırma etiket kimliğidir.</span><span class="sxs-lookup"><span data-stu-id="c6131-776"><strong>For labels that reside in ER configurations:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, where <strong>X</strong> is the label ID in the ER configuration</span></span></li>
-</ul>
-</blockquote>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-777">NUMBERFORMAT (sayı, biçim)</span><span class="sxs-lookup"><span data-stu-id="c6131-777">NUMBERFORMAT (number, format)</span></span></td>
-<td><span data-ttu-id="c6131-778">Belirtilen sayının, belirtilen biçimdeki dize olarak temsilini döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-778">Return a string representation of the specified number in the specified format.</span></span> <span data-ttu-id="c6131-779">(Desteklenen biçimler hakkında bilgi için bkz. <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standart</a> ve <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">özel</a>.) Bu işlevin çalıştırıldığı bağlam, sayıları biçimlendirmek için kullanılan kültürü belirler.</span><span class="sxs-lookup"><span data-stu-id="c6131-779">(For information about the supported formats, see <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standard</a> and <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">custom</a>.) The context that this function is run in determines the culture that is used to format numbers.</span></span></td>
-<td><span data-ttu-id="c6131-780">TR-TR kültürü için <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong>, <strong>&quot;45,00&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-780">For the EN-US culture, <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> returns <strong>&quot;45.00 %&quot;</strong>.</span></span> <span data-ttu-id="c6131-781"><strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong>, <strong>&quot;10&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-781"><strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> returns <strong>&quot;10&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-782">NUMERALSTOTEXT (sayı, dil, para birimi, para birimi adını yazdır bayrağı, ondalık basamaklar)</span><span class="sxs-lookup"><span data-stu-id="c6131-782">NUMERALSTOTEXT (number, language, currency, print currency name flag, decimal points)</span></span></td>
-<td><span data-ttu-id="c6131-783">Belirtilen sayıyı, belirtilen dilde yazıldıktan (metin dizelerine dönüştürüldükten) sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-783">Return the specified number after it has been spelled out (converted to text strings) in the specified language.</span></span> <span data-ttu-id="c6131-784">Dil kodu isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="c6131-784">The language code is optional.</span></span> <span data-ttu-id="c6131-785">Boş dize olarak tanımlandığında, çalışma bağlamının dil kodu kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-785">When it's defined as an empty string, the language code for the running context is used.</span></span> <span data-ttu-id="c6131-786">(Çalışılan bağlamın dil kodu oluşturulan klasör veya dosya için tanımlanır.) Para birimi kodu da isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="c6131-786">(The language code for the running context is defined for a generating folder or file.) The currency code is also optional.</span></span> <span data-ttu-id="c6131-787">Boş dize olarak tanımlandığında, şirket para birimi kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-787">When it's defined as an empty string, the company currency is used.</span></span>
-<blockquote>[!NOTE] <span data-ttu-id="c6131-788"><strong>Para birimi adını yazdır bayrağı</strong> ve <strong>ondalık basamak</strong> parametreleri yalnızca şu dil kodları için analiz edilir: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> ve <strong>RU</strong>.</span><span class="sxs-lookup"><span data-stu-id="c6131-788">The <strong>print currency name flag</strong> and <strong>decimal points</strong> parameters are analyzed only for the following language codes: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong>, and <strong>RU</strong>.</span></span> <span data-ttu-id="c6131-789">Ek olarak, <strong>para birimi adını yazdır bayrağı</strong> parametresi yalnızca ülke veya bölge bağlamının para birimi adlarının gerilemesini destekleyen Finance and Operations şirketleri için analiz edilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-789">Additionally, the <strong>print currency name flag</strong> parameter is analyzed only for Finance and Operations companies where the country's or region's context supports declension of currency names.</span></span></blockquote>
-</td>
-<td><span data-ttu-id="c6131-790"><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-790"><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> returns <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>.</span></span> <span data-ttu-id="c6131-791"><strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> <strong>&quot;Sto dwadzieścia&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-791"><strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> returns <strong>&quot;Sto dwadzieścia&quot;</strong>.</span></span> <span data-ttu-id="c6131-792"><strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-792"><strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> returns <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-793">PADLEFT (dize, uzunluk, doldurma karakterleri)</span><span class="sxs-lookup"><span data-stu-id="c6131-793">PADLEFT (string, length, padding chars)</span></span></td>
-<td><span data-ttu-id="c6131-794">Belirtilen dizenin başlangıcının belirtilen karakterlerle doldurulduğu belirtilen uzunlukta bir dize döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-794">Return a string of the specified length, where the start of the specified string is padded with the specified characters.</span></span></td>
-<td><span data-ttu-id="c6131-795"><strong>PADLEFT (&quot;1234&quot;, 10, &quot;&nbsp;&quot;)</strong> <strong>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234&quot;</strong> metin dizesini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-795"><strong>PADLEFT (&quot;1234&quot;, 10, &quot;&nbsp;&quot;)</strong> returns the text string <strong>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-796">TRIM (dize)</span><span class="sxs-lookup"><span data-stu-id="c6131-796">TRIM (string)</span></span></td>
-<td><span data-ttu-id="c6131-797">Belirtilen metin dizesini baştaki ve sondaki boşluklar kesildikten ve sözcükler arasındaki birden fazla boşluk kaldırıldıktan sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-797">Return the specified text string after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</span></span></td>
-<td><span data-ttu-id="c6131-798"><strong>TRIM (&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sample&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;)</strong>  <strong>&quot;Örnek metin&quot;</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-798"><strong>TRIM (&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sample&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;)</strong> returns <strong>&quot;Sample text&quot;</strong>.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-799">GETENUMVALUEBYNAME (veri kaynağı yolu numaralandırması, değer etiket metni numaralandırması)</span><span class="sxs-lookup"><span data-stu-id="c6131-799">GETENUMVALUEBYNAME (enumeration data source path, enumeration value label text)</span></span></td>
-<td><span data-ttu-id="c6131-800">Belirli bir numaralandırma veri kaynağının değerini, numaralandırma etiketinin belirtilen metnini temel alarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-800">Return a value of the specified enumeration data source, based on the specified text of the enumeration label.</span></span></td>
-<td><span data-ttu-id="c6131-801">Aşağıdaki örnekte, bir veri modelinde oluşturulan <strong>ReportDirection</strong> numaralandırması gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="c6131-801">In the following illustration, the <strong>ReportDirection</strong> enumeration is introduced in a data model.</span></span> <span data-ttu-id="c6131-802">Etiketlerin numaralandırma değerleri ile tanımlandığını unutmayın.</span><span class="sxs-lookup"><span data-stu-id="c6131-802">Note that labels are defined for enumeration values.</span></span>
-<p><a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
-<p><span data-ttu-id="c6131-803">Aşağıdaki örnek ayrıntıları göstermektedir:</span><span class="sxs-lookup"><span data-stu-id="c6131-803">The following illustration shows these details:</span></span></p>
-<ul>
-<li><span data-ttu-id="c6131-804">Veri kaynağı <strong>$Direction</strong> olarak bir rapora eklenen <strong>ReportDirection</strong> model numaralandırması.</span><span class="sxs-lookup"><span data-stu-id="c6131-804">The <strong>ReportDirection</strong> model enumeration is inserted into a report as a data source, <strong>$Direction</strong>.</span></span></li>
-<li><span data-ttu-id="c6131-805">Bu işlevin parametresi olarak model numaralandırma kullanmak için tasarlanan <strong>$IsArrivals</strong> ER ifadesi.</span><span class="sxs-lookup"><span data-stu-id="c6131-805">An ER expression, <strong>$IsArrivals</strong>, is designed to use the model enumeration as a parameter of this function.</span></span> <span data-ttu-id="c6131-806">Bu ifadenin değeri <strong>DOĞRU</strong>'dur.</span><span class="sxs-lookup"><span data-stu-id="c6131-806">The value of this expression is <strong>TRUE</strong>.</span></span></li>
-</ul>
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-807">GUIDVALUE (giriş)</span><span class="sxs-lookup"><span data-stu-id="c6131-807">GUIDVALUE (input)</span></span></td>
-<td><span data-ttu-id="c6131-808">Belirtilen <strong>Dize</strong> veri türündeki girişi <strong>GUID</strong> veri türünde bir veri öğesine dönüştürün.</span><span class="sxs-lookup"><span data-stu-id="c6131-808">Convert the specified input of the <strong>String</strong> data type to a data item of the <strong>GUID</strong> data type.</span></span><blockquote>[!NOTE] <span data-ttu-id="c6131-809">Ters yönde dönüştürme yapmak için (diğer bir deyişle, <strong>GUID</strong> veri türünün belirtilen girişini <strong>Dize</strong> veri türünün veri öğesine dönüştürmek için), <strong>TEXT()</strong> işlevini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-809">To do a conversion in the opposite direction (that is, to convert specified input of the <strong>GUID</strong> data type to a data item of the <strong>String</strong> data type), you can use the <strong>TEXT()</strong> function.</span></span></blockquote></td>
-<td><span data-ttu-id="c6131-810">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</span><span class="sxs-lookup"><span data-stu-id="c6131-810">You define the following data sources in your model mapping:</span></span>
-<ul>
-<li><span data-ttu-id="c6131-811"><strong>GUIDVALUE (&quot;AF5CCDAC-F728-4609-8C8B-A4B30B0C0AA0&quot;)</strong> ifadesini içeren <strong>myID</strong> (<strong>Hesaplanan alan</strong> türü)</span><span class="sxs-lookup"><span data-stu-id="c6131-811"><strong>myID</strong> (<strong>Calculated field</strong> type), which contains the expression <strong>GUIDVALUE(&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></span></span></li>
-<li><span data-ttu-id="c6131-812">UserInfo tablosuna başvuran <strong>Users</strong> (<strong>Tablo kayıtları</strong> türü)</span><span class="sxs-lookup"><span data-stu-id="c6131-812"><strong>Users</strong> (<strong>Table records</strong> type), which refers to the UserInfo table</span></span></li>
-</ul>
-<span data-ttu-id="c6131-813">Bu veri kaynakları tanımlandığında, UserInfo tablosunu <strong>GUID</strong> veri türünde <strong>objectId</strong> alanıyla filtrelemek için <strong>FILTER (Users, Users.objectId = myID)</strong> gibi bir ifade kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c6131-813">When these data sources are defined, you can use an expression such as <strong>FILTER (Users, Users.objectId = myID)</strong> to filter the UserInfo table by the <strong>objectId</strong> field of the <strong>GUID</strong> data type.</span></span>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="c6131-814">JSONVALUE (kod, yol)</span><span class="sxs-lookup"><span data-stu-id="c6131-814">JSONVALUE (id, path)</span></span></td>
-<td><span data-ttu-id="c6131-815">Verileri, belirtilen koda göre skaler bir değer çıkarmak için belirtilen yolla erişilen JavaScript Nesne Gösterimi (JSON) biçiminde ayrıştırın.</span><span class="sxs-lookup"><span data-stu-id="c6131-815">Parse data in JavaScript Object Notation (JSON) format that is accessed by the specified path to extract a scalar value that is based on the specified ID.</span></span></td>
-<td><span data-ttu-id="c6131-816">Veri kaynağı <strong>$JsonField</strong> aşağıdaki veriyi JSON biçiminde içerir: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>.</span><span class="sxs-lookup"><span data-stu-id="c6131-816">The data source <strong>$JsonField</strong> contains the following data in JSON format: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>.</span></span> <span data-ttu-id="c6131-817">Bu veri kaynağı için, </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong>, <strong>Dize</strong> veri türünde <strong>7.3.1234.1</strong> döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-817">For this data source, </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> returns the value <strong>7.3.1234.1</strong> of the <strong>String</strong> data type.</span></span></td>
-</tr>
-</tbody>
-</table>
-
-### <a name="data-conversion-functions"></a><span data-ttu-id="c6131-818">Veri dönüştürme işlemleri</span><span class="sxs-lookup"><span data-stu-id="c6131-818">Data conversion functions</span></span>
-
-| <span data-ttu-id="c6131-819">İşlev</span><span class="sxs-lookup"><span data-stu-id="c6131-819">Function</span></span> | <span data-ttu-id="c6131-820">Tanım</span><span class="sxs-lookup"><span data-stu-id="c6131-820">Description</span></span> | <span data-ttu-id="c6131-821">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-821">Example</span></span> |
-|----------|-------------|---------|
-| <span data-ttu-id="c6131-822">TEXT (giriş)</span><span class="sxs-lookup"><span data-stu-id="c6131-822">TEXT (input)</span></span> | <span data-ttu-id="c6131-823">Belirtilen giriş geçerli Finance and Operations örneğinin sunucu yerel ayarlarına göre biçimlendirilmiş bir metin dizesine çevrildikten sonra döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-823">Return the specified input after it has been converted to a text string that is formatted according to the server locale settings of the current Finance and Operations instance.</span></span> <span data-ttu-id="c6131-824">**gerçek** türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</span><span class="sxs-lookup"><span data-stu-id="c6131-824">For values of the **real** type, the string conversion is limited to two decimal places.</span></span> | <span data-ttu-id="c6131-825">Finance and Operations örneğinin sunucu yerel ayarı **EN-US** olarak tanımlanırsa, **TEXT (NOW ())** geçerli Finance and Operations oturum tarihi olan Aralık 17, 2015 değerini **12/17/2015 07:59:23 AM** metin dizesi olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-825">If the server locale of the Finance and Operations instance is defined as **EN-US**, **TEXT (NOW ())** returns the current Finance and Operations session date, December 17, 2015, as the text string **"12/17/2015 07:59:23 AM"**.</span></span> <span data-ttu-id="c6131-826">**TEXT (1/3)**, **"0.33"** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-826">**TEXT (1/3)** returns **"0.33"**.</span></span> |
-| <span data-ttu-id="c6131-827">QRCODE (dize)</span><span class="sxs-lookup"><span data-stu-id="c6131-827">QRCODE (string)</span></span> | <span data-ttu-id="c6131-828">Belirtilen dize için base64 ikili biçiminde Hızlı Yanıt Kodu (QR kodu) görüntüsü döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-828">Return a Quick Response Code (QR code) image in base64 binary format for the specified string.</span></span> | <span data-ttu-id="c6131-829">**QRCODE ("Örnek metin")** **U2FtcGxlIHRleHQ=** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-829">**QRCODE ("Sample text")** returns **U2FtcGxlIHRleHQ=**.</span></span> |
-
-### <a name="data-collection-functions"></a><span data-ttu-id="c6131-830">Veri toplama işlevleri</span><span class="sxs-lookup"><span data-stu-id="c6131-830">Data collection functions</span></span>
-
-| <span data-ttu-id="c6131-831">İşlev</span><span class="sxs-lookup"><span data-stu-id="c6131-831">Function</span></span> | <span data-ttu-id="c6131-832">Tanım</span><span class="sxs-lookup"><span data-stu-id="c6131-832">Description</span></span> | <span data-ttu-id="c6131-833">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-833">Example</span></span> |
-|----------|-------------|---------|
-| <span data-ttu-id="c6131-834">FORMATELEMENTNAME ()</span><span class="sxs-lookup"><span data-stu-id="c6131-834">FORMATELEMENTNAME ()</span></span> | <span data-ttu-id="c6131-835">Geçerli biçimin öğesinin adını döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-835">Return the name of the current format's element.</span></span> <span data-ttu-id="c6131-836">Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında boş bir size döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-836">Return an empty string when the **Collect output details** flag of the current files is turned off.</span></span> | <span data-ttu-id="c6131-837">Bu işlevlerin kullanımı hakkında daha fazla bilgi edinmek için **ER Sayma ve toplama için çıktı biçiminde verileri kullanma** görev kılavuzuna (**BT hizmeti/çözüm bileşenleri alma/geliştirme** iş sürecinin parçasıdır) başvurun.</span><span class="sxs-lookup"><span data-stu-id="c6131-837">To learn more about how to use this function, see the **ER Use data of format output for counting and summing** task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span> |
-| <span data-ttu-id="c6131-838">SUMIFS (toplamı alınacak temel dize, ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\])</span><span class="sxs-lookup"><span data-stu-id="c6131-838">SUMIFS (key string for summing, criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\])</span></span> | <span data-ttu-id="c6131-839">Bu biçimi yürütme sırasında toplanan ve belirtilen koşulları (aralık ve değer çiftleri) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-839">Return the sum of values  that was collected for XML nodes (where the name is defined as a key) when the format was run, and that satisfies the specified conditions (pairs of ranges and values).</span></span> <span data-ttu-id="c6131-840">Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-840">Return a **0** (zero) value when the **Collect output details** flag of the current files is turned off.</span></span> | |
-| <span data-ttu-id="c6131-841">SUMIF (toplama için temel dize, ölçüt aralığı dizesi, ölçüt değeri dizesi)</span><span class="sxs-lookup"><span data-stu-id="c6131-841">SUMIF (key string for summing, criteria range string, criteria value string)</span></span> | <span data-ttu-id="c6131-842">Bu biçimi yürütme sırasında toplanan ve belirtilen koşulu (aralık ve değer) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-842">Return the sum of values that was collected for XML nodes (where the name is defined as a key) when the format was run, and that satisfies the specified condition (a range and value).</span></span> <span data-ttu-id="c6131-843">Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-843">Return a **0** (zero) value when the **Collect output details** flag of the current files is turned off.</span></span> | |
-| <span data-ttu-id="c6131-844">COUNTIFS (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\])</span><span class="sxs-lookup"><span data-stu-id="c6131-844">COUNTIFS (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\])</span></span> | <span data-ttu-id="c6131-845">Biçimi yürütme sırasında toplanan ve belirtilen koşulları (aralık ve değer çiftleri) karşılayan XML düğüm sayısını döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-845">Return the number of XML nodes that was collected when the format was run, and that satisfies the specified conditions (pairs of ranges and values).</span></span> <span data-ttu-id="c6131-846">Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-846">Return a **0** (zero) value when the **Collect output details** flag of the current files is turned off.</span></span> | |
-| <span data-ttu-id="c6131-847">COUNTIF (ölçüt aralığı dizesi, ölçüt değeri dizesi)</span><span class="sxs-lookup"><span data-stu-id="c6131-847">COUNTIF (criteria range string, criteria value string)</span></span> | <span data-ttu-id="c6131-848">Biçimi yürütme sırasında toplanan ve belirtilen koşulu (aralık ve değer) karşılayan XML düğüm sayısını döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-848">Return the number of XML nodes that was collected when the format was run, and that satisfies the specified condition (a range and value).</span></span> <span data-ttu-id="c6131-849">Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-849">Return a **0** (zero) value the flag **Collect output details** flag of the current files is turned off.</span></span> | |
-| <span data-ttu-id="c6131-850">COLLECTEDLIST (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\])</span><span class="sxs-lookup"><span data-stu-id="c6131-850">COLLECTEDLIST (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\])</span></span> | <span data-ttu-id="c6131-851">Biçimi yürütme sırasında toplanan ve belirtilen koşulları (aralık ve değer) karşılayan XML düğümleri için toplanmış değerler listesini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-851">Return the list of values that was collected for XML nodes when the format was run, and that satisfies the specified conditions (a range and value).</span></span> <span data-ttu-id="c6131-852">Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında boş liste döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-852">Return an empty list when the **Collect output details** flag of the current files is turned off.</span></span> | |
-
-### <a name="other-business-domainspecific-functions"></a><span data-ttu-id="c6131-853">Diğer (belirli iş etki alanı) işlevleri</span><span class="sxs-lookup"><span data-stu-id="c6131-853">Other (business domain–specific) functions</span></span>
-
-| <span data-ttu-id="c6131-854">İşlev</span><span class="sxs-lookup"><span data-stu-id="c6131-854">Function</span></span> | <span data-ttu-id="c6131-855">Açıklama</span><span class="sxs-lookup"><span data-stu-id="c6131-855">Description</span></span> | <span data-ttu-id="c6131-856">Örnek</span><span class="sxs-lookup"><span data-stu-id="c6131-856">Example</span></span> |
-|----------|-------------|---------|
-| <span data-ttu-id="c6131-857">CONVERTCURRENCY (tutar, kaynak para birimi, hedef para birimi, tarih, şirket)</span><span class="sxs-lookup"><span data-stu-id="c6131-857">CONVERTCURRENCY (amount, source currency, target currency, date, company)</span></span> | <span data-ttu-id="c6131-858">Belirtilen parasal tutarı kaynak para biriminden, belirtilen tarihte belirtilen Finance and Operations şirketinin ayarlarını kullanarak belirtilen hedef para birimine dönüştürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-858">Convert the specified monetary amount from the specified source currency to the specified target currency by using the settings of the specified Finance and Operations company on the specified date.</span></span> | <span data-ttu-id="c6131-859">**CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")**, şimdiki oturum tarihinde, DEMF şirket ayarlarına dayalı olarak bir euro'nun ABD doları olarak karşılığını döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-859">**CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** returns the equivalent of one euro in US dollars on the current session date, based on settings for the DEMF company.</span></span> |
-| <span data-ttu-id="c6131-860">ROUNDAMOUNT (sayı, ondalık, yuvarlama kuralı)</span><span class="sxs-lookup"><span data-stu-id="c6131-860">ROUNDAMOUNT (number, decimals, round rule)</span></span> | <span data-ttu-id="c6131-861">Belirtilen yuvarlama kuralına göre belirtilen tutarı belirtilen ondalık basamak sayısına yuvarlar.</span><span class="sxs-lookup"><span data-stu-id="c6131-861">Round the specified amount to the specified number of decimal places according to the specified rounding rule.</span></span><blockquote>[!NOTE] <span data-ttu-id="c6131-862">Yuvarlama kuralı Finance and Operations **RoundOffType** numaralandırmasının bir değeri olarak belirtilmelidir.</span><span class="sxs-lookup"><span data-stu-id="c6131-862">The rounding rule must be specified as a value of the Finance and Operations **RoundOffType** enumeration.</span></span></blockquote> | <span data-ttu-id="c6131-863">**model.RoundOff** parametresi **Aşağıya** olarak ayarlanırsa, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** **1000.78** değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-863">If the **model.RoundOff** parameter is set to **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** returns the value **1000.78**.</span></span> <span data-ttu-id="c6131-864">Eğer **model.RoundOff** parametresi **Normal** ya da **Yukarıya yuvarla** olarak ayarlanmışsa, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)**, **1000,79** değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-864">If the **model.RoundOff** parameter is set to either **Normal** or **Rounding-up**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** returns the value **1000.79**.</span></span> |
-| <span data-ttu-id="c6131-865">CURCredRef (basamak)</span><span class="sxs-lookup"><span data-stu-id="c6131-865">CURCredRef (digits)</span></span> | <span data-ttu-id="c6131-866">Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusu döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-866">Return a creditor reference, based on the digits of the specified invoice number.</span></span> | <span data-ttu-id="c6131-867">**CURCredRef ("Satıcı-200002")**, **"2200002"** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-867">**CURCredRef ("VEND-200002")** returns **"2200002"**.</span></span> |
-| <span data-ttu-id="c6131-868">MOD\_97 (basamak)</span><span class="sxs-lookup"><span data-stu-id="c6131-868">MOD\_97 (digits)</span></span> | <span data-ttu-id="c6131-869">Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusunu bir MOD97 ifadesi olarak döndür.</span><span class="sxs-lookup"><span data-stu-id="c6131-869">Return a creditor reference as a MOD97 expression, based on the digits of the specified invoice number.</span></span> | <span data-ttu-id="c6131-870">**MOD\_97 ("VEND-200002")**, **"20000285"** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-870">**MOD\_97 ("VEND-200002")** returns **"20000285"**.</span></span> |
-| <span data-ttu-id="c6131-871">ISOCredRef (basamak)</span><span class="sxs-lookup"><span data-stu-id="c6131-871">ISOCredRef (digits)</span></span> | <span data-ttu-id="c6131-872">Bir Uluslararası Standartlar Kuruluşu (ISO) alacaklı başvurusunu, belirtilen fatura numarasının basamakları ve alfabetik sembollerine dayalı olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-872">Return an International Organization for Standardization (ISO) creditor reference, based on the digits and alphabetic symbols of the specified invoice number.</span></span><blockquote>[!NOTE] <span data-ttu-id="c6131-873">ISO uyumlu olmayan alfabelerden sembolleri elemek için, giriş parametresinin işleve gönderilmeden önce çevrilmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="c6131-873">To eliminate symbols from alphabets that aren't ISO-compliant, the input parameter must be translated before it's passed to this function.</span></span></blockquote> | <span data-ttu-id="c6131-874">**ISOCredRef ("VEND-200002")**, **"RF23VEND-200002"** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-874">**ISOCredRef ("VEND-200002")** returns **"RF23VEND-200002"**.</span></span> |
-| <span data-ttu-id="c6131-875">CN\_GBT\_AdditionalDimensionID (dize, sayı)</span><span class="sxs-lookup"><span data-stu-id="c6131-875">CN\_GBT\_AdditionalDimensionID (string, number)</span></span> | <span data-ttu-id="c6131-876">Belirtilen ek mali boyut kodunu alın.</span><span class="sxs-lookup"><span data-stu-id="c6131-876">Get the specified additional financial dimension ID.</span></span> <span data-ttu-id="c6131-877">**Dize** parametresinde, boyutlar virgülle ayrılmış kodlar olarak gösterilir.</span><span class="sxs-lookup"><span data-stu-id="c6131-877">In the **string** parameter, dimensions are represented as IDs that are separated by commas.</span></span> <span data-ttu-id="c6131-878">**Sayı** parametresi, dizedeki istenen boyutun sıra kodunu tanımlar.</span><span class="sxs-lookup"><span data-stu-id="c6131-878">The **number** parameter defines the sequence code of the requested dimension in the string.</span></span> | <span data-ttu-id="c6131-879">**CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** **"CC"** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-879">**CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** returns **"CC"**.</span></span> |
-| <span data-ttu-id="c6131-880">GetCurrentCompany ()</span><span class="sxs-lookup"><span data-stu-id="c6131-880">GetCurrentCompany ()</span></span> | <span data-ttu-id="c6131-881">Bir kullanıcının oturum açmış olduğu tüzel kişiliğin (şirket) kodunun metin olarak gösterimini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-881">Return a text representation of the code for the legal entity (company) that a user is currently signed in to.</span></span> | <span data-ttu-id="c6131-882">**GETCURRENTCOMPANY ()**, Finance and Operations'da **Contoso Entertainment System USA** şirketinde oturum açmış bir kullanıcı için **USMF** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-882">**GETCURRENTCOMPANY ()** returns **USMF** for a user who is signed in to the **Contoso Entertainment System USA** company in Finance and Operations.</span></span> |
-| <span data-ttu-id="c6131-883">CH\_BANK\_MOD\_10 (basamaklar)</span><span class="sxs-lookup"><span data-stu-id="c6131-883">CH\_BANK\_MOD\_10 (digits)</span></span> | <span data-ttu-id="c6131-884">Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusunu bir MOD10 ifadesi olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-884">Return a creditor reference as an MOD10 expression, based on the digits of the specified invoice number.</span></span> | <span data-ttu-id="c6131-885">**CH\_BANK\_MOD\_10 ("VEND-200002")** **3** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-885">**CH\_BANK\_MOD\_10 ("VEND-200002")** returns **3**.</span></span> |
-| <span data-ttu-id="c6131-886">FA\_SUM (sabit kıymet kodu, değer modeli kodu, başlangıç tarihi, bitiş tarihi)</span><span class="sxs-lookup"><span data-stu-id="c6131-886">FA\_SUM (fixed asset code, value model code, start date, end date)</span></span> | <span data-ttu-id="c6131-887">Belirtilen dönem için sabit kıymet tutarının hazırlanan veri kapsayıcısını döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-887">Return the prepared data container of the fixed asset amount for the specified period.</span></span> | <span data-ttu-id="c6131-888">**FA\_SUM ("COMP-000001", "Current", Date1, Date2)** **Date1** ile **Date2** arasındaki dönem için **"Current"**  değer modeline sahip **"COMP-000001"** sabit kıymet için hazırlanan veri kapsayıcısını döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-888">**FA\_SUM ("COMP-000001", "Current", Date1, Date2)** returns the prepared data container of fixed asset **"COMP-000001"** that has the **"Current"** value model for a period from **Date1** to **Date2**.</span></span> |
-| <span data-ttu-id="c6131-889">FA\_BALANCE (sabit kıymet kodu, değer modeli kodu, raporlama yılı, raporlama tarihi)</span><span class="sxs-lookup"><span data-stu-id="c6131-889">FA\_BALANCE (fixed asset code, value model code, reporting year, reporting date)</span></span> | <span data-ttu-id="c6131-890">Sabit kıymet bakiyesinin hazırlanan veri kapsayıcısını döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-890">Return the prepared data container of the fixed asset balance.</span></span> <span data-ttu-id="c6131-891">Raporlama yılı, Finance and Operations'daki **AssetYear** numaralandırması değeri olarak belirtilmelidir.</span><span class="sxs-lookup"><span data-stu-id="c6131-891">The reporting year must be specified as a value of the **AssetYear** enumeration in Finance and Operations.</span></span> | <span data-ttu-id="c6131-892">**FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** geçerli Finance and Operations oturum tarihinde **"Current"** değer modeline sahip **"COMP-000001"** sabit kıymet bakiyeleri için hazırlanan veri kapsayıcısını döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-892">**FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** returns the prepared data container of balances for fixed asset **"COMP-000001"** that has the **"Current"** value model on the current Finance and Operations session date.</span></span> |
-| <span data-ttu-id="c6131-893">TABLENAME2ID (dize)</span><span class="sxs-lookup"><span data-stu-id="c6131-893">TABLENAME2ID (string)</span></span> | <span data-ttu-id="c6131-894">Belirtilen tablo adı için tablo kodunun tam sayı olarak gösterimini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-894">Return an integer representation of a table ID for the specified table name.</span></span> | <span data-ttu-id="c6131-895">**TABLENAME2ID ("Intrastat")** **1510** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-895">**TABLENAME2ID ("Intrastat")** returns **1510**.</span></span> |
-| <span data-ttu-id="c6131-896">ISVALIDCHARACTERISO7064 (dize)</span><span class="sxs-lookup"><span data-stu-id="c6131-896">ISVALIDCHARACTERISO7064 (string)</span></span> | <span data-ttu-id="c6131-897">Belirtilen dize, geçerli bir uluslararası banka hesap numarasını (IBAN) temsil ediyorsa, **DOĞRU** boole değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-897">Return the Boolean value **TRUE** when the specified string represents a valid international bank account number (IBAN).</span></span> <span data-ttu-id="c6131-898">Aksi takdirde, **YANLIŞ** Boole değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-898">Otherwise, return the Boolean value **FALSE**.</span></span> | <span data-ttu-id="c6131-899">**ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")**, **DOĞRU** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-899">**ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** returns **TRUE**.</span></span> <span data-ttu-id="c6131-900">**ISVALIDCHARACTERISO7064 ("AT61")** **YANLIŞ** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-900">**ISVALIDCHARACTERISO7064 ("AT61")** returns **FALSE**.</span></span> |
-| <span data-ttu-id="c6131-901">NUMSEQVALUE (numara serisi kodu, kapsamı, kapsam kimliği)</span><span class="sxs-lookup"><span data-stu-id="c6131-901">NUMSEQVALUE (number sequence code, scope, scope id)</span></span> | <span data-ttu-id="c6131-902">Belirtilen numara serisi kodu, kapsamı ve kapsam kimliğine dayalı bir numara serisinin yeni oluşturulan değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-902">Return the new generated value of a number sequence, based on the specified number sequence code, scope, and scope ID.</span></span> <span data-ttu-id="c6131-903">Kapsamın **ERExpressionNumberSequenceScopeType** sabit listesi (**paylaşılan**, **Tüzel kişilik**, veya **şirket**) değeri olarak belirtilmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="c6131-903">The scope must be specified as a value of the **ERExpressionNumberSequenceScopeType** enumeration (**Shared**, **Legal entity**, or **Company**).</span></span> <span data-ttu-id="c6131-904">**Paylaşılan** kapsamı için, kapsam kimliği olarak boş bir dize belirtin.</span><span class="sxs-lookup"><span data-stu-id="c6131-904">For the **Shared** scope, specify an empty string as the scope ID.</span></span> <span data-ttu-id="c6131-905">**Şirket** ve **Tüzel kişilik** kapsamları için, kapsam kimliği olarak şirket kodu belirtin.</span><span class="sxs-lookup"><span data-stu-id="c6131-905">For the **Company** and **Legal entity** scopes, specify the company code as the scope ID.</span></span> <span data-ttu-id="c6131-906">**Şirket** ve **Tüzel kişilik** kapsamları için, kapsam kimliği olarak boş bir dize belirtirseniz geçerli şirket kodu kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c6131-906">For the **Company** and **Legal entity** scopes, if you specify an empty string as the scope ID, the current company code is used.</span></span> | <span data-ttu-id="c6131-907">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</span><span class="sxs-lookup"><span data-stu-id="c6131-907">You define the following data sources in your model mapping:</span></span><ul><li><span data-ttu-id="c6131-908">**enumScope** (**Dynamics 365 for Operations numaralandırma** türü), başvuran için **ERExpressionNumberSequenceScopeType** numaralandırmaya karşılık gelir</span><span class="sxs-lookup"><span data-stu-id="c6131-908">**enumScope** (**Dynamics 365 for Operations enumeration** type), which refers to the **ERExpressionNumberSequenceScopeType** enumeration</span></span></li><li><span data-ttu-id="c6131-909">**NumSeq** (**Hesaplanan alan** türü), **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")** ifadesini içerir</span><span class="sxs-lookup"><span data-stu-id="c6131-909">**NumSeq** (**Calculated field** type), which contains the expression **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</span></span></li></ul><span data-ttu-id="c6131-910">**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış **Gene\_1** numara serisinin yeni oluşturulan değeri geri döner.</span><span class="sxs-lookup"><span data-stu-id="c6131-910">When the **NumSeq** data source is called, it returns the new generated value of the **Gene\_1** number sequence that has been configured for the company that supplies the context that the ER format is run under.</span></span> |
-| <span data-ttu-id="c6131-911">NUMSEQVALUE (numara sıra kodu)</span><span class="sxs-lookup"><span data-stu-id="c6131-911">NUMSEQVALUE (number sequence code)</span></span> | <span data-ttu-id="c6131-912">Bir numara sırasının belirtilen numara sırasına bağlı olarak yeni oluşturulan değeri, **Şirket** kapsamı ve (kapsam kimliği olarak) altında ER biçimi çalışan bağlam sağlayan şirketin kodu döner.</span><span class="sxs-lookup"><span data-stu-id="c6131-912">Return the new generated value of a number sequence, based on the specified number sequence, the **Company** scope, and (as the scope ID) the code of the company that supplies the context that is ER format is run under.</span></span> | <span data-ttu-id="c6131-913">Model eşlemeniz içinde şu veri kaynağını tanımladınız: **NumSeq** (**Hesaplanan alan** türü).</span><span class="sxs-lookup"><span data-stu-id="c6131-913">You define the following data source in your model mapping: **NumSeq** (**Calculated field** type).</span></span> <span data-ttu-id="c6131-914">Bu veri kaynağı **NUMSEQVALUE ("Gene\_1")** ifadesini içeriyor.</span><span class="sxs-lookup"><span data-stu-id="c6131-914">This data source contains the expression **NUMSEQVALUE ("Gene\_1")**.</span></span> <span data-ttu-id="c6131-915">**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış **Gene\_1** numara serisinin yeni oluşturulan değeri geri döner.</span><span class="sxs-lookup"><span data-stu-id="c6131-915">When the **NumSeq** data source is called, it returns the new generated value of the **Gene\_1** number sequence that has been configured for the company that supplies the context that the ER format is run under.</span></span> |
-| <span data-ttu-id="c6131-916">NUMSEQVALUE (numara sıra kodu kayıt kimliği)</span><span class="sxs-lookup"><span data-stu-id="c6131-916">NUMSEQVALUE (number sequence record ID)</span></span> | <span data-ttu-id="c6131-917">Belirtilen numara serisi kayıt kimliğine dayalı bir numara serisinin yeni oluşturulan değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="c6131-917">Return the new generated value of a number sequence, based on the specified number sequence record ID.</span></span> | <span data-ttu-id="c6131-918">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</span><span class="sxs-lookup"><span data-stu-id="c6131-918">You define the following data sources in your model mapping:</span></span><ul><li><span data-ttu-id="c6131-919">LedgerParameters tablosuna başvuran **LedgerParms** (**Tablo** türü)</span><span class="sxs-lookup"><span data-stu-id="c6131-919">**LedgerParms** (**Table** type), which refers to the LedgerParameters table</span></span></li><li><span data-ttu-id="c6131-920">**NumSeq** (**Hesaplanan alan** türü), **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)** ifadesini içerir</span><span class="sxs-lookup"><span data-stu-id="c6131-920">**NumSeq** (**Calculated field** type), which contains the expression **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</span></span></li></ul><span data-ttu-id="c6131-921">**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için Genel muhasebe parametrelerinde yapılandırılmış Gene1 numara serisinin yeni oluşturulan değeri geri döner.</span><span class="sxs-lookup"><span data-stu-id="c6131-921">When the **NumSeq** data source is called, it returns the new generated value of the number sequence that has been configured in the General ledger parameters for the company that supplies the context that the ER format is run under.</span></span> <span data-ttu-id="c6131-922">Bu numara serisi benzersiz biçimde günlükleri tanıtır ve hareketleri birbirine bağlayan toplu iş numarası görevi görür.</span><span class="sxs-lookup"><span data-stu-id="c6131-922">This number sequence uniquely identifies journals and acts as a batch number that links the transactions together.</span></span> |
-
-### <a name="functions-list-extension"></a><span data-ttu-id="c6131-923">Liste uzantı işlevleri</span><span class="sxs-lookup"><span data-stu-id="c6131-923">Functions list extension</span></span>
-
-<span data-ttu-id="c6131-924">ER, ER ifadelerinde kullanılan işlevlerin listesini genişletmenize olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="c6131-924">ER lets you extend the list of functions that are used in ER expressions.</span></span> <span data-ttu-id="c6131-925">Bazı mühendislik çabaları gereklidir.</span><span class="sxs-lookup"><span data-stu-id="c6131-925">Some engineering effort is required.</span></span> <span data-ttu-id="c6131-926">Ayrıntılı bilgi için bkz: [Elektronik raporlama işlevlerinin listesini genişletme](general-electronic-reporting-formulas-list-extension.md).</span><span class="sxs-lookup"><span data-stu-id="c6131-926">For detailed information, see [Extending the list of Electronic reporting functions](general-electronic-reporting-formulas-list-extension.md).</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="c6131-927">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="c6131-927">Additional resources</span></span>
-
-- [<span data-ttu-id="c6131-928">Elektronik Raporlamaya genel bakış</span><span class="sxs-lookup"><span data-stu-id="c6131-928">Electronic Reporting overview</span></span>](general-electronic-reporting.md)
-- [<span data-ttu-id="c6131-929">Elektronik raporlama (ER) işlev listesini genişletme</span><span class="sxs-lookup"><span data-stu-id="c6131-929">Extend the list of Electronic reporting (ER) functions</span></span>](general-electronic-reporting-formulas-list-extension.md)
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="general-electronic-reporting-formula-designer.md" target-language="tr-TR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>general-electronic-reporting-formula-designer.d3f1ab.85d2370353520ee588dfe2aedf9998d707f0eda6.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>85d2370353520ee588dfe2aedf9998d707f0eda6</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>97ed74889a09ef385f6ecbab69e84a05ff42ee41</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/20/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\dev-itpro\analytics\general-electronic-reporting-formula-designer.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Formula designer in Electronic reporting (ER)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektronik raporlamada (ER) formül tasarımcısı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains how to use the formula designer in Electronic reporting (ER).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Formula designer in Electronic reporting (ER)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektronik raporlamada (ER) formül tasarımcısı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic explains how to use the formula designer in Electronic reporting (ER).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>When you design a format for a specific electronic document in ER, you can use formulas to transform data so that it meets the requirements for the document's fulfillment and formatting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirli bir elektronik belge için ER içerisinde bir biçim tasarladığınızda, belgenin gereksinimlerini karşılamak ve biçimlendirmek üzere formülleri veri dönüştürme için kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>These formulas resemble formulas in Microsoft Excel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu formüller Microsoft Excel'deki formüllere benzer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Various types of functions are supported in the formulas: text, date and time, mathematical, logical, information, data type conversion, and other (business domain–specific functions).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formüllerde farklı türde işlevler desteklenmektedir: metin, tarih ve saat, matematiksel mantıksal, bilgi, veri türü dönüştürme ve diğer (iş etki alanına özel işlevler).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Formula designer overview</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formül tasarımcısına genel bakış</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>ER supports the formula designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER formül tasarımcısını destekler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Therefore, at design time, you can configure expressions that can be used for the following tasks at runtime:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, tasarım zamanında aşağıdaki görevler için çalışma zamanında kullanılabilecek ifadeler yapılandırabilirsiniz:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Transform data that is received from a Microsoft Dynamics 365 for Finance and Operations database, and that should be entered in an ER data model that is designed to be a data source for ER formats.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations veritabanından alınan veriyi dönüştürün ve bu, bir ER biçimleri için veri kaynağı olması üzerine tasarlanan bir ER veri modeline girilmelidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>(For example, these transformations might include filtering, grouping, and data type conversion.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Örneğin, bu dönüştürme işlemleri filtrelemeyi, gruplandırmayı ve veri türü dönüşümünü içerebilir.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Format data that must be sent to a generating electronic document in accordance with the layout and conditions of a specific ER format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oluşturulan bir elektronik belgeye belirli bir ER biçiminin düzenine ve koşullarına uygun olarak gönderilmesi gereken verileri biçimlendirin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>(For example, the formatting might be done in accordance with the requested language or culture, or the encoding).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Örneğin, biçimlendirme istenen dil veya kültüre ya da kodlamaya uygun olarak yapılabilir).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Control the process of creating electronic documents.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektronik belge oluşturma işlemini kontrol edin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>(For example, the expressions can enable or disable the output of specific elements of the format, depending on processing data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Örneğin, ifadeler veri işlemeye bağlı olarak biçimin belirli öğelerinin çıkışını etkinleştirebilir veya devre dışı bırakabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>They can also interrupt the document creation process or throw messages to users.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aynı zamanda, belge oluşturma işlemini durdurabilir veya kullanıcılara ileti gönderebilir.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>You can open the <bpt id="p1">**</bpt>Formula designer<ept id="p1">**</ept> page when you perform any of the following actions:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Formül tasarımcısı<ept id="p1">**</ept> sayfasını aşağıdaki eylemlerden birini gerçekleştirirken açabilirsiniz:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Bind data source items to data model components.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri kaynağı maddelerini veri modeli bileşenlerine bağlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Bind data source items to format components.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri kaynağı maddelerini biçim bileşenlerine bağlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Complete maintenance of calculated fields that are part of data sources.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri kaynaklarının parçası olan hesaplanan alanların bakımını tamamlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Define the visibility conditions for user input parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kullanıcı giriş parametreleri için görünürlük koşullarını tanımlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Design a format's transformations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçimin dönüşümlerini tasarlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Define the enabling conditions for the format's components.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçimin bileşenlerinin etkinleştirme koşullarını tanımlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Define the file names for the format's FILE components.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçimin DOSYA bileşenleri için dosya adlarını tanımlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Define the conditions for process control validations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlem denetimi doğrulamaları için koşulları tanımlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Define the message text for process control validations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlem denetimi doğrulamaları için ileti metnini tanımlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Designing ER formulas</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER formülleri tasarlama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Data binding</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri ilişkilendirme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>The ER formula designer can be used to define an expression that transforms data that is received from data sources, so that the data can be entered in the data consumer at runtime:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu veri veri tüketicisinde çalışma zamanında girilebilecek şekilde dönüştürecek bir ifade tanımlamak için kullanılabilir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>From Finance and Operations data sources and runtime parameters to an ER data model</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations veri kaynaklarından ve çalışma zamanı parametrelerinden ER veri modeline</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>From an ER data model to an ER format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir ER veri modelinden ER biçimine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>From Finance and Operations data sources and runtime parameters to an ER format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations veri kaynaklarından ve çalışma zamanı parametrelerinden ER biçimine</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>The following illustration shows the design of an expression of this type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu tür bir ifadenin tasarımı aşağıda gösterilmiştir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>In this example, the expression rounds the value of the <bpt id="p1">**</bpt>Intrastat.AmountMST<ept id="p1">**</ept> field the Intrastat table in Finance and Operations to two decimal places and then returns the rounded value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu örnekte ifade, Finance and Operations Intrastat tablosunun <bpt id="p1">**</bpt>Intrastat.AmountMST<ept id="p1">**</ept> alanının değerini iki ondalık basamağa yuvarlar ve yuvarlanan değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Data binding<ept id="p1">](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Veri ilişkilendirme<ept id="p1">](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The following illustration shows how an expression of this type can be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki çizim bu tür bir ifadenin nasıl kullanılabileceğini gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In this example, the result of the designed expression is entered in the <bpt id="p1">**</bpt>Transaction.InvoicedAmount<ept id="p1">**</ept> component of the <bpt id="p2">**</bpt>Tax reporting model<ept id="p2">**</ept> data model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu örnekte, tasarlanmış ifadenin sonucu, <bpt id="p2">**</bpt>Vergi raporlama modeli<ept id="p2">**</ept> veri modelinin <bpt id="p1">**</bpt>Transaction.InvoicedAmount<ept id="p1">**</ept> bileşenine girilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Data binding being used<ept id="p1">](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Kullanılan veri bağlama<ept id="p1">](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>At runtime, the designed formula, <bpt id="p1">**</bpt>ROUND (Intrastat.AmountMST, 2)<ept id="p1">**</ept>, rounds the value of the <bpt id="p2">**</bpt>AmountMST<ept id="p2">**</ept> field for each record in the Intrastat table to two decimal places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çalışma zamanında, tasarlanan formül olan <bpt id="p1">**</bpt>ROUND (Intrastat.AmountMST, 2)<ept id="p1">**</ept> <bpt id="p2">**</bpt>AmountMST<ept id="p2">**</ept> alanındaki değeri Intrastat tablosundaki her kayıt için iki ondalık basamağa yuvarlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>It then enters the rounded value in the <bpt id="p1">**</bpt>Transaction.InvoicedAmount<ept id="p1">**</ept> component of the <bpt id="p2">**</bpt>Tax reporting<ept id="p2">**</ept> data model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Daha sonra yuvarlanan değeri <bpt id="p2">**</bpt>Vergi raporlama<ept id="p2">**</ept> veri modelinin <bpt id="p1">**</bpt>Transaction.InvoicedAmount<ept id="p1">**</ept> bileşenine girer.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Data formatting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri biçimlendirme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>The ER formula designer can be used to define an expression that formats data that is received from data sources, so that the data can be sent as part of the generating electronic document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu veri, elektronik belgenin oluşturulmasında kullanılabilecek şekilde biçimlendirecek bir ifade tanımlamak için kullanılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>You might have formatting that must be applied as a typical rule that should be reused for a format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir biçim için yeniden kullanılması gereken tipik bir kural olarak uygulanması gereken bir biçimlendirmeniz olabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>In this case, you can introduce that formatting one time in the format configuration, as a named transformation that has a formatting expression.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu durumda, bu biçimlendirmeyi biçim yapılandırmasına, biçimlendirme ifadesine sahip adlandırılmış bir dönüştürme olarak bir kez girebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>This named transformation can then be linked to many format components where the output must be formatted according to the formatting expression that you created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Daha sonra, bu adlandırılmış dönüşüm, oluşturduğunuz biçimlendirme ifadesine çıktının biçimlendirilmesi gereken birçok biçim bileşenine bağlanabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>The following illustration shows the design of a transformation of this type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu tür bir dönüştürmenin tasarımı aşağıda gösterilmiştir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>In this example, the <bpt id="p1">**</bpt>TrimmedString<ept id="p1">**</ept> transformation truncates incoming data of the <bpt id="p2">**</bpt>String<ept id="p2">**</ept> data type by removing leading and trailing spaces.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu örnekte, <bpt id="p1">**</bpt>TrimmedString<ept id="p1">**</ept> dönüşümü, <bpt id="p2">**</bpt>Dize<ept id="p2">**</ept> veri türünden gelen verileri baştaki ve sondaki boşlukları kaldırarak keser.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>It then returns the truncated string value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bunun ardından, kesilmiş dize değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Transformation<ept id="p1">](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Dönüşüm<ept id="p1">](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>The following illustration shows how a transformation of this type can be used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki çizim bu tür bir dönüştürmenin nasıl kullanılabileceğini gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>In this example, several format components send text as output to the generating electronic document at runtime.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu örnekte, birçok biçim bileşeni metni çıktı olarak çalışma zamanında oluşturulan elektronik belgeye gönderir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>All these format components refer to the <bpt id="p1">**</bpt>TrimmedString<ept id="p1">**</ept> transformation by name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu biçim bileşenlerinin tümü ada göre <bpt id="p1">**</bpt>TrimmedString<ept id="p1">**</ept> dönüştürmesine başvurur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Transformation being used<ept id="p1">](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Kullanılan dönüştürme<ept id="p1">](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>When format components, such as the <bpt id="p1">**</bpt>partyName<ept id="p1">**</ept> component in the preceding illustration, refer to the <bpt id="p2">**</bpt>TrimmedString<ept id="p2">**</ept> transformation, the transformation sends text as output to the generating electronic document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Önceki örnekte yer alan <bpt id="p1">**</bpt>partyName<ept id="p1">**</ept> gibi biçim bileşenleri <bpt id="p2">**</bpt>TrimmedString<ept id="p2">**</ept> dönüşümüne referansta bulunur, dönüştürme metni çıktı olarak oluşturulan elektronik belgeye gönderir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>This text doesn't include leading and trailing spaces.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu metin baştaki ve sondaki boşlukları içermez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>If you have formatting that must be applied individually, you can introduce that formatting as an individual expression of a binding of a specific format component.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tek tek uygulanması zorunlu olan bir biçimlendirmeniz varsa, bu biçimlendirmeyi belirli bir biçim bileşeninin bir bağlamasının tekil ifadesi olarak tanıtabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>The following illustration shows an expression of this type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki çizim bu türde bir ifadeyi gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>In this example, the <bpt id="p1">**</bpt>partyType<ept id="p1">**</ept> format component is bound to the data source via an expression that converts incoming data from the <bpt id="p2">**</bpt>Model.Company.RegistrationType<ept id="p2">**</ept> field in the data source to uppercase text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu örnekte <bpt id="p1">**</bpt>partyType<ept id="p1">**</ept> biçim bileşeni veri kaynağındaki <bpt id="p2">**</bpt>Model.Company.RegistrationType<ept id="p2">**</ept> alanından gelen veriyi büyük harfe dönüştüren bir ifade aracılığıyla veri kaynağına bağlıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>The expression then sends that text as output to the electronic document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sonra ifade metni çıktı olarak elektronik belgeye gönderir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Applying formatting to an individual component<ept id="p1">](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Ayrı bir bileşene biçimlendirme uygulama<ept id="p1">](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Process flow control</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlem akış denetimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>The ER formula designer can be used to define expressions that control the process flow of generating electronic documents.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER formül tasarımcısı, elektronik belge oluşturma işlem akışını denetleyen ifadeleri tanımlamak için kullanılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>You can perform the following tasks:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki görevlerini yerine getirebilirsiniz:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>Define conditions that determine when a document creation process must be stopped.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir belge oluşturma işleminin ne zaman durdurulması gerektiği koşullarını tanımlayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>Specify expressions that either create messages for the user about stopped processes or throw execution log messages about the continuing process of report generation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Durdurulan işlemler hakkında kullanıcıya iletiler oluşturan veya devam eden rapor oluşturma işlemleri hakkında yürütme günlüğü iletileri oluşturan ifadeleri belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>Specify the file names of generating electronic documents, and control the conditions of their creation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oluşturulan elektronik belgelerinin dosya adlarını belirtin ve bunların oluşturulma koşullarını denetleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Each rule of the process flow control is designed as an individual validation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlem akışı denetiminin her kuralı ayrı ayrı bir doğrulama olarak tasarlanmıştır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>The following illustration shows a validation of this type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki çizim bu türde bir doğrulamayı gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Here is an explanation of the configuration in this example:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">u örnekteki yapılandırmanın bir açıklaması aşağıdadır:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>The validation is evaluated when the <bpt id="p1">**</bpt>INSTAT<ept id="p1">**</ept> node is created during generation of the XML file.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Doğrulama, XML dosyasının oluşturulduğu sırada <bpt id="p1">**</bpt>INSTAT<ept id="p1">**</ept> düğümü oluşturulurken değerlendirilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>If the list of transactions is empty, the validation stops the execution process and returns <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hareketin listesi boşsa, doğrulama işlem yürütmesini durdurur ve <bpt id="p1">**</bpt>YANLIŞ<ept id="p1">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>The validation returns an error message that includes the text of Finance and Operations label SYS70894 in the user's preferred language.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Doğrulama, kullanıcının tercih ettiği dilde Finance and Operations SYS70894 etiket metnini içeren bir hata iletisi döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Validation<ept id="p1">](./media/picture-validation.jpg)](./media/picture-validation.jpg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Doğrulama<ept id="p1">](./media/picture-validation.jpg)](./media/picture-validation.jpg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>The ER formula designer can also be used to generate a file name for a generating electronic document and control the file creation process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER formül tasarımcısı elektronik belgenin oluşturulması ve dosya oluşturma işlemini denetlemek için bir dosya adı oluşturmak için de kullanılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>The following illustration shows the design of a process flow control of this type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki çizim, bu türdeki bir işlem akış denetiminin tasarımını gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Here is an explanation of the configuration in this example:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">u örnekteki yapılandırmanın bir açıklaması aşağıdadır:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>The list of records from the <bpt id="p1">**</bpt>model.Intrastat<ept id="p1">**</ept> data source is divided into batches.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>model.Intrastat<ept id="p1">**</ept> veri kaynağındaki kayıtların listesi toplu işlere bölünür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Each batch contains up to 1,000 records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Her toplu iş en çok 1000 kayıt içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>The output creates a zip file that contains one file in XML format for every batch that was created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çıktı her toplu işlem için XML biçiminde oluşturulmuş bir dosya içeren bir zip dosyası oluşturur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>An expression returns a file name for generating electronic documents by concatenating the file name and the file name extension.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir ifade, elektronik belge oluşturması için dosya adı ve dosya adı uzantısını birleştirerek bir dosya adı döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>For the second batch and all subsequent batches, the file name contains the batch ID as a suffix.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İkinci toplu iş ve tüm sonraki toplu işler için, dosya adı toplu iş kimliğini bir sonek olarak içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>An expression enables (by returning <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept>) the file creation process for batches that contain at least one record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir ifade (<bpt id="p1">**</bpt>DOĞRU<ept id="p1">**</ept> döndürerek) en az bir kayıt içeren toplu işler için dosya oluşturma işlemini etkinleştirir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>File control<ept id="p1">](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Dosya denetimi<ept id="p1">](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Basic syntax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Temel sözdizimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>ER expressions can contain any or all of the following elements:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER ifadeleri aşağıdaki öğelerden birini veya tümünü içerebilirler:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Constants</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sabitler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Operators</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşleçler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>References</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Referanslar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Paths</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yollar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlevler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>Constants</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sabitler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>When you design expressions, you can use text and numeric constants (that is, values that aren't calculated).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İfadeleri tasarlarken metin ve sayısal sabitler (hesaplanmayan değerler) içeren ifadeler kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>For example, the expression <bpt id="p1">**</bpt>VALUE ("100") + 20<ept id="p1">**</ept> uses the numeric constant <bpt id="p2">**</bpt>20<ept id="p2">**</ept> and the string constant <bpt id="p3">**</bpt>"100"<ept id="p3">**</ept>, and returns the numeric value <bpt id="p4">**</bpt>120<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin <bpt id="p1">**</bpt>VALUE ("100") + 20<ept id="p1">**</ept> ifadesi, sayısal sabit olarak <bpt id="p2">**</bpt>20<ept id="p2">**</ept> ve dize sabiti olarak <bpt id="p3">**</bpt>"100"<ept id="p3">**</ept> kullanır ve <bpt id="p4">**</bpt>120<ept id="p4">**</ept> sayısal değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>The ER formula designer supports escape sequences.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER formül tasarımcısı kaçış sıralarını destekler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Therefore, you can specify an expression string that should be handled differently.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, farklı şekilde ele alınması gereken bir ifade dizesi belirtebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>For example, the expression <bpt id="p1">**</bpt>"Leo Tolstoy ""War and Peace"" Volume 1"<ept id="p1">**</ept> returns the text string <bpt id="p2">**</bpt>Leo Tolstoy "War and Peace" Volume 1<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin <bpt id="p1">**</bpt>"Leo Tolstoy ""Savaş ve Barış"" Cilt 1""<ept id="p1">**</ept> ifadesi aşağıdaki metin dizesini döndürür: <bpt id="p2">**</bpt>Leo Tolstoy "Savaş ve Barış" Cilt 1<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Operators</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşleçler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>The following table shows the arithmetic operators that you can use to do basic mathematical operations, such as addition, subtraction, multiplication, and division.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tablo, toplama, çıkarma, bölme ve çarpma gibi temel matematik işlemleri gerçekleştirmek için kullanabileceğiniz aritmetik işleçleri gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Operator</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşleç</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Meaning</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Anlamı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Addition</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fark hesap eki</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>1+2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1+2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Subtraction, negation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çıkartma, olumsuzluk</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>5-2, -1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5-2, -1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Multiplication</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çarpma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>7<ph id="ph1">\*</ph>8</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7<ph id="ph1">\*</ph>8</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Division</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bölüm</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>9/3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">9/3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>The following table shows the comparison operators that are supported.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tablo desteklenen karşılaştırma işleçlerini göstermektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>You can use these operators to compare two values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu işleçleri iki değeri karşılaştırmak için kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Operator</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşleç</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Meaning</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Anlamı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>Equal</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eşittir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>X=Y</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X=Y</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Greater than</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Büyüktür</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>X<ph id="ph1">&amp;gt;</ph>Y</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X<ph id="ph1">&amp;gt;</ph>Y</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Less than</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Küçüktür</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>X<ph id="ph1">&amp;lt;</ph>Y</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X<ph id="ph1">&amp;lt;</ph>Y</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Greater than or equal to</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Büyüktür veya eşittir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>X<ph id="ph1">&amp;gt;</ph>=Y</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X<ph id="ph1">&amp;gt;</ph>=Y</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Less than or equal to</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Küçüktür veya eşittir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>X<ph id="ph1">&amp;lt;</ph>=Y</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X<ph id="ph1">&amp;lt;</ph>=Y</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>Not equal to</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eşit değil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>X<ph id="ph1">&amp;lt;</ph><ph id="ph2">&amp;gt;</ph>Y</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">X<ph id="ph1">&amp;lt;</ph><ph id="ph2">&amp;gt;</ph>Y</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Additionally, you can use an ampersand (&amp;) as a text concatenation operator.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca, bir metin birleştirme işleci olarak (&amp;) işareti kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>In this way, you can join, or concatenate, one or more text strings into a single piece of text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu şekilde, bir veya daha fazla metin dizesini tek bir metin içinde birleştirebilir veya art arda ekleyebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Operator</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşleç</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Meaning</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Anlamı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Concatenate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Art arda eklemek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>"Nothing to print" &amp; ":<ph id="ph1">&amp;nbsp;</ph>" &amp; "no records found"</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">"Yazdırılacak bir şey yok" &amp; ":<ph id="ph1">&amp;nbsp;</ph>" &amp; "kayıt bulunamadı"</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Operator precedence</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşleç önceliği</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>The order that the parts of a compound expression are evaluated in is important.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir bileşik ifadenin parçalarının hangi sırada değerlendirilecekleri önemlidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>For example, the result of the expression <bpt id="p1">**</bpt>1 + 4 / 2<ept id="p1">**</ept> varies, depending on whether the addition operation or the division operation is done first.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>1 + 4 / 2<ept id="p1">**</ept> deyiminin sonucu, bölme işleminin mi yoksa toplama işleminin mi önce gerçekleşeceğine göre farklılık göstermektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>You can use parentheses to explicitly define how an expression is evaluated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir ifadenin nasıl değerlendirileceğini açıkça tanımlamak için parantezleri kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>For example, to indicate that the addition operation should be done first, you can change the preceding expression to <bpt id="p1">**</bpt>(1 + 4) / 2<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, toplama işleminin önce yapılması gerektiğini belirtmek için yukarıdaki ifadeyi şuna değiştirebilirsiniz: <bpt id="p1">**</bpt>(1 + 4) / 2<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>If you don't explicitly indicate the order of operations in an expression, the order is based on the default precedence that is assigned to the supported operators.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir ifadede gerçekleştirilmesi gereken işleçlerin sırasını özellikle belirtmezseniz sıralama, desteklenen işleçlerin varsayılan önceliğine dayandırılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>The following table shows the precedence that is assigned to each operator.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tablo, işleçlerin her birine atanan önceliği gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Operators that have a higher precedence (for example, 7) are evaluated before operators that have a lower precedence (for example, 1).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Daha yüksek bir önceliğe sahip işleçler (örneğin, 7) daha düşük önceliğe sahip işleçlerden önce değerlendirilirler (örneğin, 1).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Precedence</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öncelik</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>Operators</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşleçler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Syntax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sözdizimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>7</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Grouping</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gruplama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>( …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">( …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>6</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>Member access</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üye erişimi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">'i tıklatın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>5</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Function call</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev çağrısı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>( …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">( …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>4</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Multiplicative</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çarpımsal</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source><ph id="ph1">\*</ph> …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">\*</ph> …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>/ …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">/ …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>Additive</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eklenecek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>+ …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">+ …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>- …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>Comparison</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Karşılaştırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source><ph id="ph1">&amp;lt;</ph> …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">&amp;lt;</ph> …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source><ph id="ph1">&amp;lt;</ph>= …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">&amp;lt;</ph>= …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source><ph id="ph1"> =</ph><ph id="ph2">&amp;gt;</ph> …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1"> =</ph><ph id="ph2">&amp;gt;</ph> …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source><ph id="ph1">&amp;gt;</ph> …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">&amp;gt;</ph> …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>= …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">= …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source><ph id="ph1">&amp;lt;</ph><ph id="ph2">&amp;gt;</ph> …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">&amp;lt;</ph><ph id="ph2">&amp;gt;</ph> …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>Separation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrılma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>…</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">…</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>, …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">, …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>If an expression includes multiple consecutive operators that have the same precedence, those operations are evaluated from left to right.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir ifadenin aynı önceliğe sahip birden çok işleç içeriyorsa, bu işleçler soldan sağa doğru değerlendirilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>For example, the expression <bpt id="p1">**</bpt>1 + 6 / 2 <ph id="ph1">\*</ph> 3 <ph id="ph2">&amp;gt;</ph> 5<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>true<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>1 + 6 / 2 <ph id="ph1">\*</ph> 3 <ph id="ph2">&amp;gt;</ph> 5<ept id="p1">**</ept> ifadesi, <bpt id="p2">**</bpt>doğru<ept id="p2">**</ept> sonucunu verir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source>We recommend that you use parentheses to explicitly indicate the desired order of operations in expressions, so that the expressions are easier to read and maintain.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deyimlerin okunmasını ve bakımını daha kolay hale getirmek için, deyimlerin ifadedeki arzu edilen işlem sıralarını, parantezler kullanarak açıkça belirtmenizi tavsiye ederiz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source>References</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Referanslar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source>All data sources of the current ER component that are available during the design of an expression can be used as named references.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir ifadenin tasarımında kullanılabilir olan bir mevcut ER bileşeninin tüm veri kaynakları, adlandırılmış referanslar olarak kullanılabilirler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>(The current ER component can be either a model or a format.) For example, the current ER data model contains the <bpt id="p1">**</bpt>ReportingDate<ept id="p1">**</ept> data source, and this data source returns a value of the <bpt id="p2">**</bpt>DATETIME<ept id="p2">**</ept> data type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Geçerli ER bileşeni bir model veya biçim olabilir.) Örneğin, geçerli ER veri modeli <bpt id="p1">**</bpt>ReportingDate<ept id="p1">**</ept> veri kaynağını içerir ve bu veri kaynağı <bpt id="p2">**</bpt>DATETIME<ept id="p2">**</ept> veri türünde bir değer döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source>To correctly format that value in the generating document, you can reference the data source in the expression as <bpt id="p1">**</bpt>DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oluşturulan belgede bu değeri uygun şekilde biçimlendirmek için ifadedeki veri kaynağına başvurabilirsiniz: <bpt id="p1">**</bpt>DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source>All characters in the name of a referencing data source that don't represent a letter of the alphabet must be preceded by a single quotation mark (').</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Referansta bulunan veri kaynağının adında yer alan ve alfabedeki bir harfi temsil etmeyen tüm karakterlerin önünde tek bir tırnak işareti (') olmalıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="298">
+          <source>If the name of a referencing data source contains at least one symbol that doesn't represent a letter of the alphabet, the name must be enclosed in single quotation marks.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Referans gösterilen veri kaynağı adı alfabede temsil edilmeyen en az bir simgeyi içeriyorsa, adın tekli tırnak işaretleri içerisine alınması gerekir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="299">
+          <source>(For example, these non-alphabetic symbols can be punctuation marks or other written symbols.) Here are some examples:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Örneğin, alfabetik olmayan simgeler noktalama işaretleri veya diğer yazılı simgeleri olabilir.) Bazı örnekler şunlardır:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="300">
+          <source>The <bpt id="p1">**</bpt>Today's date &amp; time<ept id="p1">**</ept> data source must be referred to in an ER expression as <bpt id="p2">**</bpt>'Today''s date &amp; time'<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Bugünün tarihi ve saati<ept id="p1">**</ept> veri kaynağının bir ER deyiminde şu şekilde referans gösterilmiş olması gerekir: <bpt id="p2">**</bpt>'Bugünün tarihi ve saati'<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="301">
+          <source>The <bpt id="p1">**</bpt>name()<ept id="p1">**</ept> method of the <bpt id="p2">**</bpt>Customers<ept id="p2">**</ept> data source must be referred to in an ER expression as <bpt id="p3">**</bpt>Customers.'name()'<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p2">**</bpt>Müşteriler<ept id="p2">**</ept> veri kaynağının <bpt id="p1">**</bpt>name()<ept id="p1">**</ept> yöntemi, bir ER deyimi içerisinde aşağıdaki gibi referans gösterilmelidir: <bpt id="p3">**</bpt>Customers.'name()'<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="302">
+          <source>If the methods of Finance and Operations data sources have parameters, the following syntax is used to call those methods:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations veri kaynaklarının yöntemlerinde parametreler varsa, yöntemleri çağırmak için aşağıdaki sözdizimi kullanılır:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="303">
+          <source>If the <bpt id="p1">**</bpt>isLanguageRTL<ept id="p1">**</ept> method of the <bpt id="p2">**</bpt>System<ept id="p2">**</ept> data source has an <bpt id="p3">**</bpt>EN-US<ept id="p3">**</ept> parameter of the <bpt id="p4">**</bpt>String<ept id="p4">**</ept> data type, this method must be referred to in an ER expression as <bpt id="p5">**</bpt>System.'isLanguageRTL'("EN-US")<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p2">**</bpt>Sistem<ept id="p2">**</ept> veri kaynağının <bpt id="p1">**</bpt>isLanguageRTL<ept id="p1">**</ept> yönteminde <bpt id="p4">**</bpt>Dize<ept id="p4">**</ept> veri türünün <bpt id="p3">**</bpt>EN-US<ept id="p3">**</ept> parametresi varsa, bu yönteme bir ER deyiminde <bpt id="p5">**</bpt>System.'isLanguageRTL'("EN-US")<ept id="p5">**</ept> olarak referans verilmelidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="304">
+          <source>Quotation marks aren't required when a method name contains only alphanumeric symbols.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir yöntem adı yalnızca alfasayısal simgelerden oluşuyorsa tırnak işaretleri zorunlu değildir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="305">
+          <source>However, they are required for a method of a table if the name includes brackets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ancak, bir tablonun bir yönteminin adı köşeli parantez içerdiğinde zorunludur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="306">
+          <source>When the <bpt id="p1">**</bpt>System<ept id="p1">**</ept> data source is added to an ER mapping that refers to the <bpt id="p2">**</bpt>Global<ept id="p2">**</ept> Finance and Operations application class, the expression returns the Boolean value <bpt id="p3">**</bpt>FALSE<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sistem<ept id="p1">**</ept> veri kaynağı <bpt id="p2">**</bpt>Global<ept id="p2">**</ept> Finance and Operations uygulama sınıfına referansta bulunan bir ER eşlemesine eklendiğinde, ifade <bpt id="p3">**</bpt>YANLIŞ<ept id="p3">**</ept> Boole değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="307">
+          <source>The modified expression <bpt id="p1">**</bpt>System.' isLanguageRTL'("AR")<ept id="p1">**</ept> returns the Boolean value <bpt id="p2">**</bpt>TRUE<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Değiştirilen ifade <bpt id="p1">**</bpt>System.' isLanguageRTL'("AR")<ept id="p1">**</ept> <bpt id="p2">**</bpt>DOĞRU<ept id="p2">**</ept> Boole değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="308">
+          <source>You can limit the way that values are passed to the parameters of this type of method:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Değerlerin bu yöntem türünün parametrelerine geçiş şeklini sınırlandırabilirsiniz:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="309">
+          <source>Only constants can be passed to methods of this type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu tür yöntemlere yalnızca sabitler geçirilebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="310">
+          <source>The values of the constants are defined at design time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sabitlerin değerleri tasarım zamanında tanımlanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="311">
+          <source>Only primitive (basic) data types are supported for parameters of this type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yalnızca basit (temel) veri türleri bu tür parametreler için desteklenir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="312">
+          <source>(The primitive data types are integer, real, Boolean, string, and so on.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Temel veri türleri şunlardır: tamsayı, gerçek, Boole, dize, vb.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="313">
+          <source>Paths</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yollar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="314">
+          <source>When an expression references a structured data source, you can use the path definition to select a specific primitive element of that data source.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir ifade yapılandırılmış bir veri kaynağına başvurduğunda, bu veri kaynağının belirli bir temel öğesini seçmek için bir yol tanımı kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="315">
+          <source>A dot character (.) is used to separate individual elements of a structured data source.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yapılandırılmış veri kaynağının öğelerini tek tek ayırmak için bir nokta karakteri (.) kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="316">
+          <source>For example, the current ER data model contains the <bpt id="p1">**</bpt>InvoiceTransactions<ept id="p1">**</ept> data source, and this data source returns a list of records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, mevcut ER veri modeli <bpt id="p1">**</bpt>InvoiceTransactions<ept id="p1">**</ept> veri kaynağını içerir ve bu veri kaynağı kayıtların listesini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="317">
+          <source>The <bpt id="p1">**</bpt>InvoiceTransactions<ept id="p1">**</ept> record structure contains the <bpt id="p2">**</bpt>AmountDebit<ept id="p2">**</ept> and <bpt id="p3">**</bpt>AmountCredit<ept id="p3">**</ept> fields, and both these fields return numeric values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>InvoiceTransactions<ept id="p1">**</ept> kayıt yapısı her ikisi de sayısal değerler döndüren <bpt id="p2">**</bpt>AmountDebit<ept id="p2">**</ept> ve <bpt id="p3">**</bpt>AmountCredit<ept id="p3">**</ept> alanlarını içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="318">
+          <source>Therefore, you can design the following expression to calculate the invoiced amount: <bpt id="p1">**</bpt>InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, faturalanan tutarı hesaplamak için şu deyimi tasarlayabilirsiniz: <bpt id="p1">**</bpt>InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="319">
+          <source>Functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlevler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="320">
+          <source>The next section describes the functions that can be used in ER expressions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sonraki bölüm, ER deyimlerinde kullanılabilecek işlevleri açıklamaktadır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="321">
+          <source>All data sources of the expression context (the current ER data model or ER format) can be used as parameters of calling functions, in accordance with the list of arguments for calling functions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İfade bağlamının tüm veri kaynakları (geçerli ER veri modeli ya da ER biçimi ) çağırma işlevlerinin bağımsız değişkenleri listesine uygun işlevleri çağırma parametreleri olarak kullanılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="322">
+          <source>Constants can also be used as parameters of calling functions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sabitler çağırma işlevleri parametreleri olarak da kullanılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="323">
+          <source>For example, the current ER data model contains the <bpt id="p1">**</bpt>InvoiceTransactions<ept id="p1">**</ept> data source, and this data source returns a list of records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, mevcut ER veri modeli <bpt id="p1">**</bpt>InvoiceTransactions<ept id="p1">**</ept> veri kaynağını içerir ve bu veri kaynağı kayıtların listesini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="324">
+          <source>The <bpt id="p1">**</bpt>InvoiceTransactions<ept id="p1">**</ept> record structure contains the <bpt id="p2">**</bpt>AmountDebit<ept id="p2">**</ept> and <bpt id="p3">**</bpt>AmountCredit<ept id="p3">**</ept> fields, and both these fields return numeric values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>InvoiceTransactions<ept id="p1">**</ept> kayıt yapısı her ikisi de sayısal değerler döndüren <bpt id="p2">**</bpt>AmountDebit<ept id="p2">**</ept> ve <bpt id="p3">**</bpt>AmountCredit<ept id="p3">**</ept> alanlarını içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="325">
+          <source>Therefore, to calculate the invoiced amount, you can design the following expression that uses the built-in ER rounding function: <bpt id="p1">**</bpt>ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu sebeple, faturalanan tutarı hesaplamak için, dahili ER yuvarlama işlevini kullanan şu deyimi tasarlayabilirsiniz: <bpt id="p1">**</bpt>ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="326">
+          <source>Supported functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Desteklenen işlevler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="327">
+          <source>The following tables describe the data manipulation functions that you can use to design ER data models and ER reports.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kullanabileceğiniz veri düzenleme işlevleri açıklamaktadır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="328">
+          <source>The list of functions isn't fixed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlevlerin listesi sabit değildir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="329">
+          <source>Developers can extend it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geliştiriciler listeyi genişletebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="330">
+          <source>To see the list of functions that you can use, open the functions pane in the ER formula designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kullanabileceğiniz işlevlerin listesini görmek için ER formül tasarımcısında işlevler bölmesini açın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="331">
+          <source>Date and time functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tarih ve saat işlevleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="332">
+          <source>Function</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="333">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="334">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="335">
+          <source>ADDDAYS (datetime, days)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ADDDAYS (datetime, gün)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="336">
+          <source>Add the specified number of days to the specified date/time value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen gün sayısını belirtilen tarih/saat değerine ekleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="337">
+          <source><bpt id="p1">**</bpt>ADDDAYS (NOW(), 7)<ept id="p1">**</ept> returns the date and time seven days in the future.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ADDDAYS (NOW(), 7)<ept id="p1">**</ept> bugünden yedi gün sonraki tarih ve saati döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="338">
+          <source>DATETODATETIME (date)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DATETODATETIME (tarih)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="339">
+          <source>Convert the specified date value to a date/time value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen tarih değerini tarih/saat değerine dönüştürün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="340">
+          <source><bpt id="p1">**</bpt>DATETODATETIME (CompInfo. 'getCurrentDate()')<ept id="p1">**</ept> returns the current Finance and Operations session date, December 24, 2015, as <bpt id="p2">**</bpt>12/24/2015 12:00:00 AM<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DATETODATETIME (CompInfo. 'getCurrentDate()')<ept id="p1">**</ept> geçerli Finance and Operations oturum tarihi olan Aralık 24, 2015'i <bpt id="p2">**</bpt>12/24/2015 12:00:00 AM<ept id="p2">**</ept> olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="341">
+          <source>In this example, <bpt id="p1">**</bpt>CompInfo<ept id="p1">**</ept> is an ER data source of the <bpt id="p2">**</bpt>Finance and Operations/Table<ept id="p2">**</ept> type and refers to the CompanyInfo table.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu örnekte, <bpt id="p1">**</bpt>CompInfo<ept id="p1">**</ept> <bpt id="p2">**</bpt>Finance and Operations/Table<ept id="p2">**</ept> türünde bir ER veri kaynağıdır ve CompanyInfo tablosuna referans verir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="342">
+          <source>NOW ()</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NOW ()</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="343">
+          <source>Return the current Finance and Operations application server date and time as a date/time value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli Finance and Operations uygulama sunucusu tarihi ve saatini bir tarih/saat değeri olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="344">
+          <source>TODAY ()</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TODAY ()</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="345">
+          <source>Return the current Finance and Operations application server date as a date value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli Finance and Operations uygulama sunucusu tarih ve saatini bir tarih değeri olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="346">
+          <source>NULLDATE ()</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NULLDATE ()</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="347">
+          <source>Return a <bpt id="p1">**</bpt>null<ept id="p1">**</ept> date value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir <bpt id="p1">**</bpt>null<ept id="p1">**</ept> tarih değeri döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="348">
+          <source>NULLDATETIME ()</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NULLDATETIME ()</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="349">
+          <source>Return a <bpt id="p1">**</bpt>null<ept id="p1">**</ept> date/time value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir <bpt id="p1">**</bpt>boş<ept id="p1">**</ept> tarih/saat değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="350">
+          <source>DATETIMEFORMAT (datetime, format)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DATETIMEFORMAT (datetime, biçim)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="351">
+          <source>Convert the specified date/time value to a string in the specified format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen tarih/saat değerini belirtilen bir biçimdeki dizeye dönüştürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="352">
+          <source>(For information about the supported formats, see <bpt id="p1">[</bpt>standard<ept id="p1">](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)</ept> and <bpt id="p2">[</bpt>custom<ept id="p2">](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)</ept>.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Desteklenen biçimler hakkında daha fazla bilgi için bkz. <bpt id="p1">[</bpt>standart<ept id="p1">](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)</ept> ve <bpt id="p2">[</bpt>özel<ept id="p2">](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)</ept>.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="353">
+          <source><bpt id="p1">**</bpt>DATETIMEFORMAT (NOW(), "dd-MM-yyyy")<ept id="p1">**</ept> returns the current Finance and Operations application server date, December 24, 2015, as <bpt id="p2">**</bpt>"24-12-2015"<ept id="p2">**</ept>, based on the specified custom format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DATETIMEFORMAT (NOW(), "dd-MM-yyyy")<ept id="p1">**</ept> Aralık 24, 2015 olan Finance and Operations uygulama sunucusu tarihini belirtilen özel biçimi temel alarak <bpt id="p2">**</bpt>"24-12-2015"<ept id="p2">**</ept> olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="354">
+          <source>DATETIMEFORMAT (datetime, format, culture)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DATETIMEFORMAT (datetime, biçim, kültür)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="355">
+          <source>Convert the specified date/time value to a string in the specified format and <bpt id="p1">[</bpt>culture<ept id="p1">](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen tarih/saat değerini ve <bpt id="p1">[</bpt>kültürü<ept id="p1">](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)</ept> belirtilen bir biçimdeki dizeye dönüştürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="356">
+          <source>(For information about the supported formats, see <bpt id="p1">[</bpt>standard<ept id="p1">](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)</ept> and <bpt id="p2">[</bpt>custom<ept id="p2">](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)</ept>.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Desteklenen biçimler hakkında daha fazla bilgi için bkz. <bpt id="p1">[</bpt>standart<ept id="p1">](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)</ept> ve <bpt id="p2">[</bpt>özel<ept id="p2">](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)</ept>.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="357">
+          <source><bpt id="p1">**</bpt>DATETIMEFORMAT (NOW(), "d", "de")<ept id="p1">**</ept> returns the current Finance and Operations application server date, December 24, 2015, as <bpt id="p2">**</bpt>"24.12.2015"<ept id="p2">**</ept>, based on the selected German culture.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DATETIMEFORMAT (NOW(), "d", "de")<ept id="p1">**</ept> Aralık 24, 2015 olan geçerli Finance and Operations uygulama sunucusu tarihini seçilen Alman kültürünü temel alarak <bpt id="p2">**</bpt>"24.12.2015"<ept id="p2">**</ept> olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="358">
+          <source>SESSIONTODAY ()</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SESSIONTODAY ()</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="359">
+          <source>Return the current Finance and Operations session date as a date value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli Finance and Operations oturumu tarih ve saatini bir tarih değeri olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="360">
+          <source>SESSIONNOW ()</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SESSIONNOW ()</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="361">
+          <source>Return the current Finance and Operations session date and time as a date/time value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli Finance and Operations oturum tarihi ve saatini bir tarih/saat değeri olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="362">
+          <source>DATEFORMAT (date, format)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DATEFORMAT (tarih, biçim)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="363">
+          <source>Return a string representation of the specified date in the specified format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen tarihin, belirtilen biçimdeki dize olarak temsilini döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="364">
+          <source><bpt id="p1">**</bpt>DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")<ept id="p1">**</ept> returns the current Finance and Operations session date, December 24, 2015, as <bpt id="p2">**</bpt>"24-12-2015"<ept id="p2">**</ept>, based on the specified custom format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")<ept id="p1">**</ept> Aralık 24, 2015 olan Finance and Operations oturum tarihini belirtilen özel biçimi temel alarak <bpt id="p2">**</bpt>"24-12-2015"<ept id="p2">**</ept> olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="365">
+          <source>DATEFORMAT (date, format, culture)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DATEFORMAT (tarih, biçim, kültür)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="366">
+          <source>Convert the specified date value to a string in the specified format and <bpt id="p1">[</bpt>culture<ept id="p1">](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen tarih değerini, belirtilen biçimde ve <bpt id="p1">[</bpt>kültür<ept id="p1">](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)</ept>'de bir dizeye dönüştürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="367">
+          <source>(For information about the supported formats, see <bpt id="p1">[</bpt>standard<ept id="p1">](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)</ept> and <bpt id="p2">[</bpt>custom<ept id="p2">](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)</ept>.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Desteklenen biçimler hakkında daha fazla bilgi için bkz. <bpt id="p1">[</bpt>standart<ept id="p1">](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)</ept> ve <bpt id="p2">[</bpt>özel<ept id="p2">](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)</ept>.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="368">
+          <source><bpt id="p1">**</bpt>DATETIMEFORMAT (SESSIONNOW (), "d", "de")<ept id="p1">**</ept> returns the current Finance and Operations session date, December 24, 2015, as <bpt id="p2">**</bpt>"24.12.2015"<ept id="p2">**</ept>, based on the selected German culture.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DATETIMEFORMAT (SESSIONNOW (), "d", "de")<ept id="p1">**</ept> Aralık 24, 2015 olan geçerli Finance and Operations oturumu tarihini seçilen Alman kültürünü temel alarak <bpt id="p2">**</bpt>"24.12.2015"<ept id="p2">**</ept> olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="369">
+          <source>DAYOFYEAR (date)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DAYOFYEAR (tarih)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="370">
+          <source>Return an integer representation of the number of days between January 1 and the specified date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ocak 1 ve belirtilen tarih arasındaki günlerin sayısının bir tamsayı temsilini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="371">
+          <source><bpt id="p1">**</bpt>DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>61<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))<ept id="p1">**</ept> <bpt id="p2">**</bpt>61<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="372">
+          <source><bpt id="p1">**</bpt>DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))<ept id="p1">**</ept> <bpt id="p2">**</bpt>1<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="373">
+          <source>DAYS (date 1, date 2)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">GÜN (tarih 1, tarih 2)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="374">
+          <source>Return the number of days between the first specified date and the second specified date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlk belirtilen tarih ile ikinci belirtilen tarih arasındaki gün sayısını döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="375">
+          <source>Return a positive value when the first date is later than the second date, return <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (zero) when the first date equals the second date, or return a negative value when the first date is earlier than the second date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlk tarih ikinci tarihten sonra olduğunda pozitif bir değer döndürür; ilk tarih ikinci tarihle aynı olduğunda <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (sıfır) değerini döndürür veya ilk tarih ikinci tarihten önceyse, negatif değer döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="376">
+          <source><bpt id="p1">**</bpt>DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>-1<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))<ept id="p1">**</ept> <bpt id="p2">**</bpt>-1<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="377">
+          <source>Data conversion functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri dönüştürme işlemleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="378">
+          <source>Function</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="379">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="380">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="381">
+          <source>DATETODATETIME (date)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DATETODATETIME (tarih)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="382">
+          <source>Convert the specified date value to a date/time value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen tarih değerini tarih/saat değerine dönüştürün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="383">
+          <source><bpt id="p1">**</bpt>DATETODATETIME (CompInfo. 'getCurrentDate()')<ept id="p1">**</ept> returns the current Finance and Operations session date, December 24, 2015, as <bpt id="p2">**</bpt>12/24/2015 12:00:00 AM<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DATETODATETIME (CompInfo. 'getCurrentDate()')<ept id="p1">**</ept> geçerli Finance and Operations oturum tarihi olan Aralık 24, 2015'i <bpt id="p2">**</bpt>12/24/2015 12:00:00 AM<ept id="p2">**</ept> olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="384">
+          <source>In this example, <bpt id="p1">**</bpt>CompInfo<ept id="p1">**</ept> is an ER data source of the <bpt id="p2">**</bpt>Finance and Operations/Table<ept id="p2">**</ept> type and refers to the CompanyInfo table.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu örnekte, <bpt id="p1">**</bpt>CompInfo<ept id="p1">**</ept> <bpt id="p2">**</bpt>Finance and Operations/Table<ept id="p2">**</ept> türünde bir ER veri kaynağıdır ve CompanyInfo tablosuna referans verir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="385">
+          <source>DATEVALUE (string, format)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DATEVALUE (dize, biçim)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="386">
+          <source>Return a date representation of the specified string in the specified format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin, belirtilen biçimdeki tarih olarak temsilini döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="387">
+          <source><bpt id="p1">**</bpt>DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")<ept id="p1">**</ept> returns the date December 21, 2016, based on specified custom format and the default application's <bpt id="p2">**</bpt>EN-US<ept id="p2">**</ept> culture.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")<ept id="p1">**</ept> belirtilen özel biçimi ve varsayılan uygulamanın <bpt id="p2">**</bpt>EN-US<ept id="p2">**</ept> kültürünü temel alarak Aralık 21, 2016 tarihini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="388">
+          <source>DATEVALUE (string, format, culture)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DATEVALUE (dize, biçim, kültür)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="389">
+          <source>Return a date representation of the specified string in the specified format and culture.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin, belirtilen biçim ve kültürdeki tarih olarak temsilini döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="390">
+          <source><bpt id="p1">**</bpt>DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")<ept id="p1">**</ept> returns the date January 21, 2016, based on the specified custom format and culture.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")<ept id="p1">**</ept> belirtilen özel biçim ve kültürü temel alarak Ocak 21, 2016 tarihini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="391">
+          <source>However, <bpt id="p1">**</bpt>DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")<ept id="p1">**</ept> throws an exception to inform the user that the specified string isn't recognized as a valid date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bununla birlikte, <bpt id="p1">**</bpt>DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")<ept id="p1">**</ept> belirtilen dizenin geçerli bir tarih olarak tanınmadığını kullanıcıya bildirmek için bir özel durum oluşturur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="392">
+          <source>DATETIMEVALUE (string, format)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DATETIMEVALUE (dize, biçim)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="393">
+          <source>Return a date/time representation of the specified string in the specified format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin, belirtilen biçimdeki tarih/saat olarak temsilini döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="394">
+          <source><bpt id="p1">**</bpt>DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")<ept id="p1">**</ept> returns 2:55:00 AM on December 21, 2016, based on the specified custom format and the default application's <bpt id="p2">**</bpt>EN-US<ept id="p2">**</ept> culture.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")<ept id="p1">**</ept> belirtilen özel biçimi ve varsayılan uygulamanın <bpt id="p2">**</bpt>EN-US<ept id="p2">**</ept> kültürünü temel alarak 2:55:00 AM, Aralık 21, 2016 değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="395">
+          <source>DATETIMEVALUE (string, format, culture)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DATETIMEVALUE (dize, biçim, kültür)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="396">
+          <source>Return a date/time representation of the specified string in the specified format and culture.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin, belirtilen biçim ve kültürdeki tarih/saat olarak temsilini döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="397">
+          <source><bpt id="p1">**</bpt>DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")<ept id="p1">**</ept> returns 2:55:00 AM on December 21, 2016, based on the specified custom format and culture.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")<ept id="p1">**</ept> belirtilen özel biçimi ve kültürü temel alarak 2:55:00 AM Aralık 21, 2016 değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="398">
+          <source>However, <bpt id="p1">**</bpt>DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")<ept id="p1">**</ept> throws an exception to inform the user that the specified string isn't recognized as a valid date/time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bununla birlikte <bpt id="p1">**</bpt>DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")<ept id="p1">**</ept> belirtilen dizenin geçerli bir tarih olarak tanınmadığını kullanıcıya bildirmek için bir özel durum oluşturur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="399">
+          <source>List functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Liste işlevleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="400">
+          <source>Function</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="401">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="402">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="403">
+          <source>SPLIT (input, length)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SPLIT (input, uzunluk)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="404">
+          <source>Split the specified input string into substrings, each of which has the specified length.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen giriş dizesini her biri belirli uzunlukta alt dizelere bölün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="405">
+          <source>Return the result as a new list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sonucu yeni bir liste olarak döndürün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="406">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>SPLIT (<ph id="ph1">&amp;quot;</ph>abcd<ph id="ph2">&amp;quot;</ph>, 3)<ept id="p1">&lt;/strong&gt;</ept> returns a new list that consists of two records that have a <bpt id="p2">&lt;strong&gt;</bpt>STRING<ept id="p2">&lt;/strong&gt;</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>SPLIT (<ph id="ph1">&amp;quot;</ph>abcd<ph id="ph2">&amp;quot;</ph>, 3)<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt>STRING<ept id="p2">&lt;/strong&gt;</ept> alanına sahip iki kaydı içeren yeni bir listeyi döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="407">
+          <source>The field in the first record contains the text <bpt id="p1">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph><ept id="p1">&lt;/strong&gt;</ept>, and the field in the second record contains the text <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>d<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlk kayıttaki alan <bpt id="p1">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph><ept id="p1">&lt;/strong&gt;</ept> metnini içeriyor ve ikinci kayıttaki alan <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>d<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> metnini içeriyorsa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="408">
+          <source>SPLIT (input, delimiter)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BÖLME (giriş, ayırıcı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="409">
+          <source>Split the specified input string into substrings, based on the specified delimiter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen giriş dizesini belirli sınırlayıcıya dayanarak alt dizelere bölün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="410">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>SPLIT (<ph id="ph1">&amp;quot;</ph>XAb aBy<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>aB<ph id="ph4">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> returns a new list that consists of three records that have a <bpt id="p2">&lt;strong&gt;</bpt>STRING<ept id="p2">&lt;/strong&gt;</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>BÖL (<ph id="ph1">&amp;quot;</ph>XAb aBy<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>aB<ph id="ph4">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt>DİZE<ept id="p2">&lt;/strong&gt;</ept> alanına sahip üç kaydı içeren yeni bir listeyi döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="411">
+          <source>The field in the first record contains the text <bpt id="p1">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>X<ph id="ph2">&amp;quot;</ph><ept id="p1">&lt;/strong&gt;</ept>, the field in the second record contains the text <ph id="ph3">&amp;quot;</ph><ph id="ph4">&amp;nbsp;</ph><ph id="ph5">&amp;quot;</ph>, and the field in the third record contains the text <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph6">&amp;quot;</ph>y<ph id="ph7">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlk kayıttaki alan, <bpt id="p1">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>X<ph id="ph2">&amp;quot;</ph><ept id="p1">&lt;/strong&gt;</ept> metni, ikinci kayıttaki alan <ph id="ph3">&amp;quot;</ph><ph id="ph4">&amp;nbsp;</ph><ph id="ph5">&amp;quot;</ph> metni, üçüncü kayıttaki alan <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph6">&amp;quot;</ph>y<ph id="ph7">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> metni içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="412">
+          <source>If the delimiter is empty, a new list is returned that consists of one record that has a <bpt id="p1">&lt;strong&gt;</bpt>STRING<ept id="p1">&lt;/strong&gt;</ept> field that contains the input text.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sınırlayıcı boşsa bir kayıt içeren yeni bir liste döner; kayıtta giriş metnini içeren <bpt id="p1">&lt;strong&gt;</bpt>DİZE<ept id="p1">&lt;/strong&gt;</ept> alanı vardır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="413">
+          <source>If the input is empty, a new empty list is returned.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Giriş boşsa, yeni boş bir liste döner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="414">
+          <source>If either the input or the delimiter is unspecified (null), an application exception is thrown.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Giriş veya sınırlayıcı (boş) belirtilmezse, bir uygulama özel durum oluşturulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="415">
+          <source>SPLITLIST (list, number)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SPLITLIST (list, sayı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="416">
+          <source>Split the specified list into batches, each of which contains the specified number of records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen listeyi, her biri belirtilen sayıda kayıt içeren toplu işleri bölün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="417">
+          <source>Return the result as a new list of batches that contains the following elements:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sonucu, aşağıdaki öğeleri içeren yeni bir toplu iş listesi olarak döndürür:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="418">
+          <source>Batches as regular lists (<bpt id="p1">&lt;strong&gt;</bpt>Value<ept id="p1">&lt;/strong&gt;</ept> component)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplu işler düzenli listelerdir (<bpt id="p1">&lt;strong&gt;</bpt>Değer <ept id="p1">&lt;/strong&gt;</ept> bileşen)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="419">
+          <source>The current batch number (<bpt id="p1">&lt;strong&gt;</bpt>BatchNumber<ept id="p1">&lt;/strong&gt;</ept> component)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli toplu iş numarası (<bpt id="p1">&lt;strong&gt;</bpt>BatchNumber<ept id="p1">&lt;/strong&gt;</ept> bileşeni)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="420">
+          <source>In the following illustration, a <bpt id="p1">&lt;strong&gt;</bpt>Lines<ept id="p1">&lt;/strong&gt;</ept> data source is created as a record list of three records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte, üç kaydın kayıt listesi olarak <bpt id="p1">&lt;strong&gt;</bpt>Satırlar<ept id="p1">&lt;/strong&gt;</ept> veri kaynağı oluşturulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="421">
+          <source>This list is divided into batches, each of which contains up to two records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu liste her biri en çok iki kayıt içeren toplu işlere ayrılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="422">
+          <source>The following illustration shows the designed format layout.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte tasarlanmış biçim düzeni gösterilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="423">
+          <source>In this format layout, bindings to the <bpt id="p1">&lt;strong&gt;</bpt>Lines<ept id="p1">&lt;/strong&gt;</ept> data source are created to generate output in XML format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu biçim düzeninde, <bpt id="p1">&lt;strong&gt;</bpt>Satırlar<ept id="p1">&lt;/strong&gt;</ept> veri kaynağına bağlamalar XML biçiminde çıktı üretmek için oluşturulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="424">
+          <source>This output presents individual nodes for each batch and the records in it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu çıktı her toplu iş ve içindeki kayıtlar için ayrı ayrı düğümleri sunar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="425">
+          <source>The following illustration shows the result when the designed format is run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="426">
+          <source>LIST (record 1 [, record 2, …])</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LIST (record 1 [, record 2, …])</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="427">
+          <source>Return a new list that is created from the specified arguments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen değişkenlerden oluşturulan yeni bir liste döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="428">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>LIST (model.MainData, model.OtherData)<ept id="p1">&lt;/strong&gt;</ept> returns an empty record, where the list of fields contains all fields of the <bpt id="p2">&lt;strong&gt;</bpt>MainData<ept id="p2">&lt;/strong&gt;</ept> and <bpt id="p3">&lt;strong&gt;</bpt>OtherData<ept id="p3">&lt;/strong&gt;</ept> record lists.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>LIST (model.MainData, model.OtherData)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt>MainData<ept id="p2">&lt;/strong&gt;</ept> ve <bpt id="p3">&lt;strong&gt;</bpt>OtherData<ept id="p3">&lt;/strong&gt;</ept> alan listesinin, kayıt listelerinin tüm alanlarını içeren boş bir kaydı döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="429">
+          <source>LISTJOIN (list 1, list 2, …)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LISTJOIN (list 1, list 2, …)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="430">
+          <source>Return a joined list that is created from lists of specified arguments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen değişkenlerin listesinden oluşturulan birleştirilmiş bir liste döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="431">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>LISTJOIN (SPLIT (<ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph>, 1), SPLIT (<ph id="ph3">&amp;quot;</ph>def<ph id="ph4">&amp;quot;</ph>, 1))<ept id="p1">&lt;/strong&gt;</ept> returns a list of six records, where one field of the <bpt id="p2">&lt;strong&gt;</bpt>STRING<ept id="p2">&lt;/strong&gt;</ept> data type contains single letters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>LISTJOIN (SPLIT (<ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph>, 1), SPLIT (<ph id="ph3">&amp;quot;</ph>def<ph id="ph4">&amp;quot;</ph>, 1))<ept id="p1">&lt;/strong&gt;</ept> altı kaydın listesini döndürür; <bpt id="p2">&lt;strong&gt;</bpt>DİZE<ept id="p2">&lt;/strong&gt;</ept> veri türündeki alanlardan biri tek harfler içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="432">
+          <source>ISEMPTY (list)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ISEMPTY (liste)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="433">
+          <source>Return <bpt id="p1">&lt;strong&gt;</bpt>TRUE<ept id="p1">&lt;/strong&gt;</ept> if the specified list contains no elements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen liste herhangi bir öğe içermiyorsa <bpt id="p1">&lt;strong&gt;</bpt>DOĞRU<ept id="p1">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="434">
+          <source>Otherwise, return <bpt id="p1">&lt;strong&gt;</bpt>FALSE<ept id="p1">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aksi takdirde <bpt id="p1">&lt;strong&gt;</bpt>YANLIŞ<ept id="p1">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="435">
+          <source>EMPTYLIST (list)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EMPTYLIST (liste)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="436">
+          <source>Return an empty list by using the specified list as a source for the list structure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilmiş olan listeyi, liste yapısı için bir kaynak olarak kullanarak boş bir liste döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="437">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>EMPTYLIST (SPLIT (<ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph>, 1))<ept id="p1">&lt;/strong&gt;</ept> returns a new empty list that has the same structure as the list that is returned by the <bpt id="p2">&lt;strong&gt;</bpt>SPLIT<ept id="p2">&lt;/strong&gt;</ept> function.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>EMPTYLIST (SPLIT (<ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph>, 1))<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt>SPLIT<ept id="p2">&lt;/strong&gt;</ept> işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir liste döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="438">
+          <source>FIRST (list)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FIRST (liste)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="439">
+          <source>Return the first record of the specified list, if that record isn't empty.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eğer kayıt boş değilse, belirtilen listedeki ilk kaydı döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="440">
+          <source>Otherwise, throw an exception.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aksi takdirde, bir özel durum ilan et.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="441">
+          <source>FIRSTORNULL (list)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FIRSTORNULL (liste)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="442">
+          <source>Return the first record of the specified list, if that record isn't empty.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eğer kayıt boş değilse, belirtilen listedeki ilk kaydı döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="443">
+          <source>Otherwise, return a <bpt id="p1">&lt;strong&gt;</bpt>null<ept id="p1">&lt;/strong&gt;</ept> record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aksi takdirde bir <bpt id="p1">&lt;strong&gt;</bpt>null<ept id="p1">&lt;/strong&gt;</ept> kaydı döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="444">
+          <source>LISTOFFIRSTITEM (list)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LISTOFFIRSTITEM (liste)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="445">
+          <source>Return a list that contains only the first item of the specified list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen listenin sadece ilk öğesini içeren bir liste döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="446">
+          <source>ALLITEMS (path)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ALLITEMS (yol)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="447">
+          <source>This function runs as an in-memory selection.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu işlev bir bellek içi seçim olarak çalışır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="448">
+          <source>It returns a new flattened list that represents all items that match the specified path.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen yolla eşleşen tüm öğelerin temsil edildiği yeni bir düzleştirilmiş liste döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="449">
+          <source>The path must be defined as a valid data source path of a data source element of a record list data type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yol, kayıt listesi veri türünün veri kaynağı öğesine geçerli veri kaynağı yolu olarak tanımlanmalıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="450">
+          <source>Data elements such as the path string and date should raise an error in the ER expression builder at design time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dize yolu ve tarih gibi veri öğeleri, ER ifade oluşturucuda tasarım zamanında hata vermelidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="451">
+          <source>If you enter <bpt id="p1">&lt;strong&gt;</bpt>SPLIT(<ph id="ph1">&amp;quot;</ph>abcdef<ph id="ph2">&amp;quot;</ph> , 2)<ept id="p1">&lt;/strong&gt;</ept> as a data source (DS), <bpt id="p2">&lt;strong&gt;</bpt>COUNT( ALLITEMS (DS.Value))<ept id="p2">&lt;/strong&gt;</ept> returns <bpt id="p3">&lt;strong&gt;</bpt>3<ept id="p3">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eğer <bpt id="p1">&lt;strong&gt;</bpt>SPLIT(<ph id="ph1">&amp;quot;</ph>abcdef<ph id="ph2">&amp;quot;</ph> , 2)<ept id="p1">&lt;/strong&gt;</ept> veri kaynağı (DS) olarak girerseniz, <bpt id="p2">&lt;strong&gt;</bpt>COUNT( ALLITEMS (DS.Value))<ept id="p2">&lt;/strong&gt;</ept>, <bpt id="p3">&lt;strong&gt;</bpt>3<ept id="p3">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="452">
+          <source>ALLITEMSQUERY (path)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ALLITEMSQUERY (yol)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="453">
+          <source>This function runs as a joined SQL query.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu işlev birleşik bir SQL sorgusu olarak çalışır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="454">
+          <source>It returns a new flattened list that represents all items that match the specified path.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen yolla eşleşen tüm öğelerin temsil edildiği yeni bir düzleştirilmiş liste döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="455">
+          <source>The specified path must be defined as a valid data source path of a data source element of a record list data type, and it must contain at least one relation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen yol, kayıt listesi veri türünün veri kaynağı öğesine geçerli veri kaynağı yolu olarak tanımlanmalı ve en az bir ilişki içermelidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="456">
+          <source>Data elements such as the path string and date should raise an error in the ER expression builder at design time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dize yolu ve tarih gibi veri öğeleri, ER ifade oluşturucuda tasarım zamanında hata vermelidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="457">
+          <source>Define the following data sources in your model mapping:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="458">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>CustInv<ept id="p1">&lt;/strong&gt;</ept> (<bpt id="p2">&lt;strong&gt;</bpt>Table records<ept id="p2">&lt;/strong&gt;</ept> type), which refers to the CustInvoiceTable table</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CustInvoiceTable tablosuna başvuran <bpt id="p1">&lt;strong&gt;</bpt>CustInv<ept id="p1">&lt;/strong&gt;</ept> (<bpt id="p2">&lt;strong&gt;</bpt>Tablo kayıtları<ept id="p2">&lt;/strong&gt;</ept> türü)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="459">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>FilteredInv<ept id="p1">&lt;/strong&gt;</ept> (<bpt id="p2">&lt;strong&gt;</bpt>Calculated field<ept id="p2">&lt;/strong&gt;</ept> type), which contains the expression <bpt id="p3">&lt;strong&gt;</bpt>FILTER (CustInv, CustInv.InvoiceAccount = <ph id="ph1">&amp;quot;</ph>US-001<ph id="ph2">&amp;quot;</ph>)<ept id="p3">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p3">&lt;strong&gt;</bpt>FILTER (CustInv, CustInv.InvoiceAccount = <ph id="ph1">&amp;quot;</ph>US-001<ph id="ph2">&amp;quot;</ph>)<ept id="p3">&lt;/strong&gt;</ept> ifadesini içeren <bpt id="p1">&lt;strong&gt;</bpt>FilteredInv<ept id="p1">&lt;/strong&gt;</ept> (<bpt id="p2">&lt;strong&gt;</bpt>Hesaplanan alan<ept id="p2">&lt;/strong&gt;</ept> türü)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="460">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>JourLines<ept id="p1">&lt;/strong&gt;</ept> (<bpt id="p2">&lt;strong&gt;</bpt>Calculated field<ept id="p2">&lt;/strong&gt;</ept> type), which contains the expression <bpt id="p3">&lt;strong&gt;</bpt>ALLITEMSQUERY (FilteredInv.'<ph id="ph1">&amp;lt;</ph>Relations'.CustInvoiceJour.'<ph id="ph2">&amp;lt;</ph>Relations'.CustInvoiceTrans)<ept id="p3">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p3">&lt;strong&gt;</bpt>ALLITEMSQUERY (FilteredInv.'<ph id="ph1">&amp;lt;</ph>Relations'.CustInvoiceJour.'<ph id="ph2">&amp;lt;</ph>Relations'.CustInvoiceTrans)<ept id="p3">&lt;/strong&gt;</ept> ifadesini içeren <bpt id="p1">&lt;strong&gt;</bpt>JourLines<ept id="p1">&lt;/strong&gt;</ept> (<bpt id="p2">&lt;strong&gt;</bpt>Hesaplanan alan<ept id="p2">&lt;/strong&gt;</ept> türü)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="461">
+          <source>When you run your model mapping to call the <bpt id="p1">&lt;strong&gt;</bpt>JourLines<ept id="p1">&lt;/strong&gt;</ept> data source, the following SQL statement is run:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>JourLines<ept id="p1">&lt;/strong&gt;</ept> veri kaynağını çağırmak için model eşlemenizi çalıştırırken aşağıdaki SQL deyimi çalıştırılır:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="462">
+          <source>SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUSTINVOICETRANS T3 WHERE...</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUSTINVOICETRANS T3 WHERE...</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="463">
+          <source>ORDERBY (list [, expression 1, expression 2, …])</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ORDERBY (liste [ifade 1, ifade 2,...])</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="464">
+          <source>Return the specified list after it has been sorted according to the specified arguments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen bağımsız değişkenlere göre sıralandıktan sonra belirtilen listeyi döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="465">
+          <source>These arguments can be defined as expressions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu bağımsız değişkenler ifadeler olarak tanımlanabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="466">
+          <source>If <bpt id="p1">&lt;strong&gt;</bpt>Vendor<ept id="p1">&lt;/strong&gt;</ept> is configured as an ER data source that refers to the VendTable table, <bpt id="p2">&lt;strong&gt;</bpt>ORDERBY (Vendors, Vendors.'name()')<ept id="p2">&lt;/strong&gt;</ept> returns a list of vendors that is sorted by name in ascending order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Satıcı<ept id="p1">&lt;/strong&gt;</ept>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılsa,<bpt id="p2">&lt;strong&gt;</bpt>ORDERBY (Vendors, Vendors.'name()')<ept id="p2">&lt;/strong&gt;</ept>, satıcıların isme göre sıralanan listesini artan sıraya göre dizilmiş şekilde döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="467">
+          <source>REVERSE (list)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">REVERSE (liste)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="468">
+          <source>Return the specified list in reversed sort order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen listeyi ters sıralama düzeninde döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="469">
+          <source>If <bpt id="p1">&lt;strong&gt;</bpt>Vendor<ept id="p1">&lt;/strong&gt;</ept> is configured as an ER data source that refers to the VendTable table, <bpt id="p2">&lt;strong&gt;</bpt>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )<ept id="p2">&lt;/strong&gt;</ept> returns a list of vendors that is sorted by name in descending order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Satıcı <ept id="p1">&lt;/strong&gt;</ept>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <bpt id="p2">&lt;strong&gt;</bpt>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )<ept id="p2">&lt;/strong&gt;</ept>, satıcıların isme göre sıralanan listesini azalan sıraya göre dizilmiş şekilde döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="470">
+          <source>WHERE (list, condition)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">WHERE (liste, koşul)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="471">
+          <source>Return the specified list after it has been filtered according to the specified condition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen koşula göre filtrelendikten sonra belirtilen listeyi döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="472">
+          <source>The specified condition is applied to the list in memory.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen koşul bellekteki listeye uygulanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="473">
+          <source>In this way, the <bpt id="p1">&lt;strong&gt;</bpt>WHERE<ept id="p1">&lt;/strong&gt;</ept> function differs from the <bpt id="p2">&lt;strong&gt;</bpt>FILTER<ept id="p2">&lt;/strong&gt;</ept> function.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu şekilde, <bpt id="p1">&lt;strong&gt;</bpt>WHERE<ept id="p1">&lt;/strong&gt;</ept> işlevi <bpt id="p2">&lt;strong&gt;</bpt>FILTER<ept id="p2">&lt;/strong&gt;</ept> işlevinden ayrılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="474">
+          <source>If <bpt id="p1">&lt;strong&gt;</bpt>Vendor<ept id="p1">&lt;/strong&gt;</ept> is configured as an ER data source that refers to the VendTable table, <bpt id="p2">&lt;strong&gt;</bpt>WHERE(Vendors, Vendors.VendGroup = <ph id="ph1">&amp;quot;</ph>40<ph id="ph2">&amp;quot;</ph>)<ept id="p2">&lt;/strong&gt;</ept> returns a list of just the vendors that belong to vendor group 40.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Satıcı<ept id="p1">&lt;/strong&gt;</ept>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <bpt id="p2">&lt;strong&gt;</bpt>WHERE(Vendors, Vendors.VendGroup = <ph id="ph1">&amp;quot;</ph>40<ph id="ph2">&amp;quot;</ph>)<ept id="p2">&lt;/strong&gt;</ept>, yalnızca grup 40'a dahil olan satıcıların listesini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="475">
+          <source>ENUMERATE (list)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ENUMERATE (liste)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="476">
+          <source>Return a new list that consists of enumerated records of the specified list, and that exposes the following elements:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen listenin numaralandırılmış kayıtlarından oluşan ve aşağıdaki öğeleri gösteren yeni bir liste döndürür:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="477">
+          <source>Specified list records as regular lists (<bpt id="p1">&lt;strong&gt;</bpt>Value<ept id="p1">&lt;/strong&gt;</ept> component)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen liste kayıtları, düzenli olarak (<bpt id="p1">&lt;strong&gt;</bpt>Değer <ept id="p1">&lt;/strong&gt;</ept> bileşeni) listeler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="478">
+          <source>The current record index (<bpt id="p1">&lt;strong&gt;</bpt>Number<ept id="p1">&lt;/strong&gt;</ept> component)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli kayıt dizini (<bpt id="p1">&lt;strong&gt;</bpt>Numara <ept id="p1">&lt;/strong&gt;</ept> bileşeni)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="479">
+          <source>In the following illustration, an <bpt id="p1">&lt;strong&gt;</bpt>Enumerated<ept id="p1">&lt;/strong&gt;</ept> data source is created as an enumerated list of vendor records from the <bpt id="p2">&lt;strong&gt;</bpt>Vendors<ept id="p2">&lt;/strong&gt;</ept> data source that refers to the VendTable table.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte, <bpt id="p1">&lt;strong&gt;</bpt>Numaralandırılan<ept id="p1">&lt;/strong&gt;</ept> veri kaynağı, VendTable tablosuna başvuran <bpt id="p2">&lt;strong&gt;</bpt>Satıcılar<ept id="p2">&lt;/strong&gt;</ept> veri kaynağındaki satıcı kayıtlarının numaralandırılmış bir listesi olarak oluşturulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="480">
+          <source>The following illustration shows the format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte biçim gösterilmiştir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="481">
+          <source>In this format, data bindings are created to generate output in XML format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu biçimde, veri bağlamaları XML biçiminde çıktı üretmek için oluşturulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="482">
+          <source>This output presents individual vendors as enumerated nodes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu çıktı ayrı ayrı satıcıları numaralandırılmış düğümler olarak gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="483">
+          <source>The following illustration shows the result when the designed format is run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="484">
+          <source>COUNT (list)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">COUNT (liste)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="485">
+          <source>Return the number of records in the specified list, if the list isn't empty.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eğer liste boş değilse, belirtilen listedeki kayıtların sayısını döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="486">
+          <source>Otherwise, return <bpt id="p1">&lt;strong&gt;</bpt>0<ept id="p1">&lt;/strong&gt;</ept> (zero).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aksi takdirde <bpt id="p1">&lt;strong&gt;</bpt>0<ept id="p1">&lt;/strong&gt;</ept> (sıfır) döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="487">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>COUNT (SPLIT(<ph id="ph1">&amp;quot;</ph>abcd<ph id="ph2">&amp;quot;</ph> , 3))<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt>2<ept id="p2">&lt;/strong&gt;</ept>, because the <bpt id="p3">&lt;strong&gt;</bpt>SPLIT<ept id="p3">&lt;/strong&gt;</ept> function creates a list that consists of two records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p3">&lt;strong&gt;</bpt>SPLIT<ept id="p3">&lt;/strong&gt;</ept> işlevi iki kayıttan oluşan bir liste oluşturduğu için, <bpt id="p1">&lt;strong&gt;</bpt>COUNT (SPLIT(<ph id="ph1">&amp;quot;</ph>abcd<ph id="ph2">&amp;quot;</ph> , 3))<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt>2<ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="488">
+          <source>LISTOFFIELDS (path)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LISTOFFIELDS (yol)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="489">
+          <source>Return a record list that is created from an argument of one of the following types:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki türlerden birinin bağımsız değişkeninden oluşturulan kayıtlar listesini döndürür:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="490">
+          <source>Model enumeration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Model numaralandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="491">
+          <source>Format enumeration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçim numaralandırma</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="492">
+          <source>Container</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kapsayıcı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="493">
+          <source>The list that is created consists of records that have the following fields:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oluşturulan liste aşağıdaki alanlara sahip kayıtları içerir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="494">
+          <source>Name</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dosya Adı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="495">
+          <source>Label</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Etiket</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="496">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="497">
+          <source>At runtime, the <bpt id="p1">&lt;strong&gt;</bpt>Label<ept id="p1">&lt;/strong&gt;</ept> and <bpt id="p2">&lt;strong&gt;</bpt>Description<ept id="p2">&lt;/strong&gt;</ept> fields return values that are based on the format's language settings.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çalışma zamanında, <bpt id="p1">&lt;strong&gt;</bpt>Etiket<ept id="p1">&lt;/strong&gt;</ept> ve <bpt id="p2">&lt;strong&gt;</bpt>Açıklama<ept id="p2">&lt;/strong&gt;</ept> alanları, biçimin dil ayarlarını temel alan değerler döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="498">
+          <source>In the following illustration, an enumeration is introduced in a data model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte, bir veri modelinde oluşturulan numaralandırma gösterilmektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="499">
+          <source>The following illustration shows these details:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnek ayrıntıları göstermektedir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="500">
+          <source>The model enumeration is inserted into a report as a data source.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri kaynağı olarak bir rapora eklenen model numaralandırma.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="501">
+          <source>An ER expression uses the model enumeration as a parameter of the <bpt id="p1">&lt;strong&gt;</bpt>LISTOFFIELDS<ept id="p1">&lt;/strong&gt;</ept> function.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir ER ifadesi <bpt id="p1">&lt;strong&gt;</bpt>LISTOFFIELDS<ept id="p1">&lt;/strong&gt;</ept> işlevi parametresi olarak bir model numaralandırma kullanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="502">
+          <source>A data source of the record list type is inserted into a report by using the ER expression that is created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oluşturulan ER ifadesini kullanarak bir rapora eklenen kayıt listesi türünün veri kaynağı.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="503">
+          <source>The following example shows the ER format elements that are bound to the data source of the record list type that was created by using the <bpt id="p1">&lt;strong&gt;</bpt>LISTOFFIELDS<ept id="p1">&lt;/strong&gt;</ept> function.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnek <bpt id="p1">&lt;strong&gt;</bpt>LISTOFFIELDS<ept id="p1">&lt;/strong&gt;</ept> işlevi kullanılarak oluşturulan ve kayıt listesi türündeki veri kaynağına bağlı olan ER biçim öğelerini gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="504">
+          <source>The following illustration shows the result when the designed format is run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="505">
+          <source>Based on the language settings of the parent FILE and FOLDER format elements, translated text for labels and descriptions is entered in the output of the ER format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ana DOSYA ve KLASÖR biçim öğelerinin dil ayarlarına uygun olarak, etiketler ve açıklamalar için çevrilen metin ER biçiminin çıktısına girilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="506">
+          <source>LISTOFFIELDS (path, language)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LISTOFFIELDS (yol, dil)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="507">
+          <source>Return a record list that is created from an argument, such as a model enumeration, a format enumeration, or a container.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Model numaralandırması, biçim numaralandırması veya kapsayıcı gibi bir bağımsız değişkenden oluşturulan bir kayıt listesi döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="508">
+          <source>The list that is created consists of records that have the following fields:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Oluşturulan liste aşağıdaki alanlara sahip kayıtları içerir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="509">
+          <source>Name</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dosya Adı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="510">
+          <source>Label</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Etiket</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="511">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="512">
+          <source>Is translated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çevrildi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="513">
+          <source>At runtime, the <bpt id="p1">&lt;strong&gt;</bpt>Label<ept id="p1">&lt;/strong&gt;</ept> and <bpt id="p2">&lt;strong&gt;</bpt>Description<ept id="p2">&lt;/strong&gt;</ept> fields return values that are based on the format's language settings and the specified language.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çalışma zamanında, <bpt id="p1">&lt;strong&gt;</bpt>Etiket<ept id="p1">&lt;/strong&gt;</ept> ve <bpt id="p2">&lt;strong&gt;</bpt>Açıklama<ept id="p2">&lt;/strong&gt;</ept> alanları, biçimin dil ayarlarını ve belirtilen dili temel alan değerler döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="514">
+          <source>The <bpt id="p1">&lt;strong&gt;</bpt>Is translated<ept id="p1">&lt;/strong&gt;</ept> field indicates that the <bpt id="p2">&lt;strong&gt;</bpt>Label<ept id="p2">&lt;/strong&gt;</ept> field has been translated into the specified language.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Çevrildi<ept id="p1">&lt;/strong&gt;</ept> alanı <bpt id="p2">&lt;strong&gt;</bpt>Etiket<ept id="p2">&lt;/strong&gt;</ept> alanının belirtilen dile çevrilmiş olduğunu belirtir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="515">
+          <source>For example, you use the <bpt id="p1">&lt;strong&gt;</bpt>Calculated field<ept id="p1">&lt;/strong&gt;</ept> data source type to configure the <bpt id="p2">&lt;strong&gt;</bpt>enumType_de<ept id="p2">&lt;/strong&gt;</ept> and <bpt id="p3">&lt;strong&gt;</bpt>enumType_deCH<ept id="p3">&lt;/strong&gt;</ept> data sources for the <bpt id="p4">&lt;strong&gt;</bpt>enumType<ept id="p4">&lt;/strong&gt;</ept> data model enumeration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p4">&lt;strong&gt;</bpt>enumType<ept id="p4">&lt;/strong&gt;</ept> veri modeli numaralandırması için <bpt id="p2">&lt;strong&gt;</bpt>enumType_de<ept id="p2">&lt;/strong&gt;</ept> ve <bpt id="p3">&lt;strong&gt;</bpt>enumType_deCH<ept id="p3">&lt;/strong&gt;</ept> veri kaynaklarını yapılandırmak üzere <bpt id="p1">&lt;strong&gt;</bpt>Hesaplanan alan<ept id="p1">&lt;/strong&gt;</ept> veri kaynağı türünü kullanırsınız.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="516">
+          <source>enumType_de = <bpt id="p1">&lt;strong&gt;</bpt>LISTOFFIELDS<ept id="p1">&lt;/strong&gt;</ept> (enumType, <ph id="ph1">&amp;quot;</ph>de<ph id="ph2">&amp;quot;</ph>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">enumType_de = <bpt id="p1">&lt;strong&gt;</bpt>LISTOFFIELDS<ept id="p1">&lt;/strong&gt;</ept> (enumType, <ph id="ph1">&amp;quot;</ph>de<ph id="ph2">&amp;quot;</ph>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="517">
+          <source>enumType_deCH = <bpt id="p1">&lt;strong&gt;</bpt>LISTOFFIELDS<ept id="p1">&lt;/strong&gt;</ept> (enumType, <ph id="ph1">&amp;quot;</ph>de-CH<ph id="ph2">&amp;quot;</ph>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">enumType_deCH = <bpt id="p1">&lt;strong&gt;</bpt>LISTOFFIELDS<ept id="p1">&lt;/strong&gt;</ept> (enumType, <ph id="ph1">&amp;quot;</ph>de-CH<ph id="ph2">&amp;quot;</ph>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="518">
+          <source>In this case, you can use the following expression to get the label of the enumeration value in Swiss German, if this translation is available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma değeri etiketiki İsviçre Almancası dilinde almak için aşağıdaki ifadeyi kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="519">
+          <source>If the Swiss German translation isn't available, the label is in German.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İsviçre Almanca çeviri kullanılamıyorsa, Almanca etiketi olur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="520">
+          <source>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="521">
+          <source>STRINGJOIN (list, field name, delimiter)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">STRINGJOIN (liste, alan adı, ayırıcı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="522">
+          <source>Return a string that consists of concatenated values of the specified field from the specified list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen listedeki belirtilen alanın art arda eklenmiş değerlerinden oluşan bir dize döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="523">
+          <source>The values are separated by the specified delimiter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Değerler belirtilen sınırlayıcı ile ayrılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="524">
+          <source>If you enter <bpt id="p1">&lt;strong&gt;</bpt>SPLIT(<ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph> , 1)<ept id="p1">&lt;/strong&gt;</ept> as a data source (DS), <bpt id="p2">&lt;strong&gt;</bpt>STRINGJOIN (DS, DS.Value, <ph id="ph3">&amp;quot;</ph><ph id="ph4">-</ph><ph id="ph5">&amp;quot;</ph>)<ept id="p2">&lt;/strong&gt;</ept> returns <bpt id="p3">&lt;strong&gt;</bpt><ph id="ph6">&amp;quot;</ph>a-b-c<ph id="ph7">&amp;quot;</ph><ept id="p3">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri kaynağı (DS) olarak <bpt id="p1">&lt;strong&gt;</bpt>SPLIT(<ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph> , 1)<ept id="p1">&lt;/strong&gt;</ept> girerseniz, <bpt id="p2">&lt;strong&gt;</bpt>STRINGJOIN (DS, DS.Value, <ph id="ph3">&amp;quot;</ph><ph id="ph4">-</ph><ph id="ph5">&amp;quot;</ph>)<ept id="p2">&lt;/strong&gt;</ept> <bpt id="p3">&lt;strong&gt;</bpt><ph id="ph6">&amp;quot;</ph>a-b-c<ph id="ph7">&amp;quot;</ph><ept id="p3">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="525">
+          <source>SPLITLISTBYLIMIT (list, limit value, limit source)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SPLITLISTBYLIMIT (liste, sınır değeri, sınır kaynağı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="526">
+          <source>Split the specified list into a new list of sub-lists, and return the result in record list content.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen listeyi alt listelerin yeni listesine ayırır ve kayıt listesi içeriğinde sonucu verir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="527">
+          <source>The <bpt id="p1">&lt;strong&gt;</bpt>limit value<ept id="p1">&lt;/strong&gt;</ept> parameter defines the value of the limit for splitting the original list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Sınır değeri<ept id="p1">&lt;/strong&gt;</ept> parametresi, orijinal listeyi bölmek için sınırın değerini tanımlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="528">
+          <source>The <bpt id="p1">&lt;strong&gt;</bpt>limit source<ept id="p1">&lt;/strong&gt;</ept> parameter defines the step that the total sum is increased on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Sınır kaynağı<ept id="p1">&lt;/strong&gt;</ept> parametresi toplamın artırıldığı adımı tanımlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="529">
+          <source>The limit isn't applied to a single item of the original list if the limit source exceeds the defined limit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sınır kaynağı tanımlanan sınırı aştığında sınır, kaynak listedeki tek bir öğeye uygulanmaz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="530">
+          <source>The following illustration shows a format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki şekilde bir biçim gösterilmektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="531">
+          <source>The following illustration shows the data sources that are used for the format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki şekilde, biçim için kullanılan veri kaynakları gösterilmektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="532">
+          <source>The following illustration shows the result when the format is run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte biçim çalıştırıldığında elde edilen sonuç gösterilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="533">
+          <source>In this case, the output is a flat list of commodity items.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu durumda, çıktı emtia maddelerinin düz listesi olur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="534">
+          <source>In the following illustrations, the same format has been adjusted so that it presents the list of commodity items in batches when a single batch must include commodities and the total weight should not exceed the limit of 9.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örneklerde, tek bir toplu iş 9 limitini geçmemesi gereken toplam ağırlığa sahip emtiaları içerdiğinde, emtia maddelerinin listesini toplu işlerde ayarlananla aynı biçimde gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="535">
+          <source>The following illustration shows the result when the adjusted format is run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte düzeltilen biçim çalıştırıldığında elde edilen sonuç gösterilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="536">
+          <source>The limit isn't applied to the last item of the original list, because the value (11) of the limit source (weight) exceeds the defined limit (9).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sınırının kaynak (ağırlık) değeri (11) tanımlanan sınırı (9) geçtiğinden sınır, kaynak listedeki son maddeye uygulanmaz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="537">
+          <source>Use either the <bpt id="p1">&lt;strong&gt;</bpt>WHERE<ept id="p1">&lt;/strong&gt;</ept> function or the <bpt id="p2">&lt;strong&gt;</bpt>Enabled<ept id="p2">&lt;/strong&gt;</ept> expression of the corresponding format element to ignore (skip) sub-lists during report generation, as required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor oluştururken gerekirse alt listeleri yok saymak (atlamak) için <bpt id="p1">&lt;strong&gt;</bpt>WHERE<ept id="p1">&lt;/strong&gt;</ept> işlevini veya ilgili biçim öğesinin <bpt id="p2">&lt;strong&gt;</bpt>Etkinleştirildi<ept id="p2">&lt;/strong&gt;</ept> ifadesini kullanın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="538">
+          <source>FILTER (list, condition)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FİLTRE (liste, koşul)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="539">
+          <source>Return the specified list after the query has been modified to filter for the specified condition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sorgu belirtilen koşula göre filtre uygulayacak şekilde değiştirildikten sonra belirtilen listeyi döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="540">
+          <source>This function differs from the <bpt id="p1">&lt;strong&gt;</bpt>WHERE<ept id="p1">&lt;/strong&gt;</ept> function, because the specified condition is applied to any ER data source of the <bpt id="p2">&lt;strong&gt;</bpt>Table records<ept id="p2">&lt;/strong&gt;</ept> type at the database level.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>WHERE<ept id="p1">&lt;/strong&gt;</ept> işlevinden farklı olarak bu işlev, belirtilen koşul <bpt id="p2">&lt;strong&gt;</bpt>Tablo kayıtları<ept id="p2">&lt;/strong&gt;</ept> türünün herhangi bir ER veri kaynağına veritabanı düzeyinde uygulanabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="541">
+          <source>The list and condition can be defined by using tables and relations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Liste ve koşul tablolar ve ilişkiler kullanılarak tanımlanabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="542">
+          <source>If <bpt id="p1">&lt;strong&gt;</bpt>Vendor<ept id="p1">&lt;/strong&gt;</ept> is configured as an ER data source that refers to the VendTable table, <bpt id="p2">&lt;strong&gt;</bpt>FILTER (Vendors, Vendors.VendGroup = <ph id="ph1">&amp;quot;</ph>40<ph id="ph2">&amp;quot;</ph>)<ept id="p2">&lt;/strong&gt;</ept> returns a list of just the vendors that belong to vendor group 40.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Satıcı<ept id="p1">&lt;/strong&gt;</ept>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <bpt id="p2">&lt;strong&gt;</bpt>FILTER (Vendors, Vendors.VendGroup = <ph id="ph1">&amp;quot;</ph>40<ph id="ph2">&amp;quot;</ph>)<ept id="p2">&lt;/strong&gt;</ept>, yalnızca grup 40'a dahil olan satıcıların listesini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="543">
+          <source>If <bpt id="p1">&lt;strong&gt;</bpt>Vendor<ept id="p1">&lt;/strong&gt;</ept> is configured as an ER data source that refers to the VendTable table, and if <bpt id="p2">&lt;strong&gt;</bpt>parmVendorBankGroup<ept id="p2">&lt;/strong&gt;</ept> is configured as an ER data source that returns a value of the <bpt id="p3">&lt;strong&gt;</bpt>String<ept id="p3">&lt;/strong&gt;</ept> data type, <bpt id="p4">&lt;strong&gt;</bpt>FILTER (Vendor.'<ph id="ph1">&amp;lt;</ph>Relations'.VendBankAccount, Vendor.'<ph id="ph2">&amp;lt;</ph>Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)<ept id="p4">&lt;/strong&gt;</ept> returns a list of just the vendor accounts that belong to a specific bank group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Satıcı<ept id="p1">&lt;/strong&gt;</ept>, VendTable tablosuna başvuran bir ER veri kaynağı olarak yapılandırılırsa ve <bpt id="p2">&lt;strong&gt;</bpt>parmVendorBankGroup<ept id="p2">&lt;/strong&gt;</ept>, <bpt id="p3">&lt;strong&gt;</bpt>Dize<ept id="p3">&lt;/strong&gt;</ept> veri türünde bir değer döndüren ER veri kaynağı olarak yapılandırılırsa, <bpt id="p4">&lt;strong&gt;</bpt>FILTER (Vendor.'<ph id="ph1">&amp;lt;</ph>Relations'.VendBankAccount, Vendor.'<ph id="ph2">&amp;lt;</ph>Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)<ept id="p4">&lt;/strong&gt;</ept> yalnızca belirli bir banka grubuna ait satıcı hesaplarının bulunduğu bir liste döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="544">
+          <source>INDEX (list, index)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DİZİN (liste, dizin)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="545">
+          <source>This function returns a record that is selected by a specific numeric index in the list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu işlev, listedeki belirli bir sayısal dizinle seçilen bir kaydı döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="546">
+          <source>An exception is thrown if the index is out of range of the records in the list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dizin listedeki kayıtların aralığı dışında ise bir özel durum oluşur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="547">
+          <source>If you enter the data source <bpt id="p1">&lt;strong&gt;</bpt>DS<ept id="p1">&lt;/strong&gt;</ept> for the <bpt id="p2">&lt;strong&gt;</bpt>Calculated field<ept id="p2">&lt;/strong&gt;</ept> type and it contains the expression <bpt id="p3">&lt;strong&gt;</bpt>SPLIT ("A|B|C", “|”), 2<ept id="p3">&lt;/strong&gt;</ept>, the expression <bpt id="p4">&lt;strong&gt;</bpt>DS.Value<ept id="p4">&lt;/strong&gt;</ept> returns the text value, “B”.</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match"><bpt id="p2">&lt;strong&gt;</bpt>Hesaplanmış alan<ept id="p2">&lt;/strong&gt;</ept> türü için veri kaynağı <bpt id="p1">&lt;strong&gt;</bpt>DS<ept id="p1">&lt;/strong&gt;</ept>'yi girerseniz ve bu <bpt id="p3">&lt;strong&gt;</bpt>SPLIT ("A|B|C", “|”), 2<ept id="p3">&lt;/strong&gt;</ept> ifadesini içerirse , <bpt id="p4">&lt;strong&gt;</bpt>DS.Value<ept id="p4">&lt;/strong&gt;</ept> ifadesi "B" metin değerini döndürür.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="548">
+          <source>The expression <bpt id="p1">&lt;strong&gt;</bpt>INDEX (SPLIT ("A|B|C", “|”), 2).Value<ept id="p1">&lt;/strong&gt;</ept> also returns the “B” text value.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>INDEX (SPLIT ("A|B|C", “|”), 2).Value<ept id="p1">&lt;/strong&gt;</ept> ifadesi de “B” metin değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="549">
+          <source>Logical functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mantıksal işlevler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="550">
+          <source>Function</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="551">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="552">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="553">
+          <source>CASE (expression, option 1, result 1 <ph id="ph1">\[</ph>, option 2, result 2<ph id="ph2">\]</ph> …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CASE (ifade, seçenek 1, sonuç 1 <ph id="ph1">\[</ph>, seçenek 2, sonuç 2<ph id="ph2">\]</ph> …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="554">
+          <source><ph id="ph1">\[</ph>, default result<ph id="ph2">\]</ph>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">\[</ph>, varsayılan sonuç<ph id="ph2">\]</ph>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="555">
+          <source>Evaluate the specified expression value against the specified alternative options.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen ifade değerini, belirtilen alternatif seçeneklere karşı değerlendirin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="556">
+          <source>Return the result of the option that equals the value of the expression.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İfadenin değerine eşit olan seçeneğin sonucunu döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="557">
+          <source>Otherwise, return the optional default result, if a default result is specified.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aksi takdirde, varsayılan sonuç belirtilmişse, isteğe bağlı varsayılan sonucu döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="558">
+          <source>(The default result is the last parameter that isn't preceded by an option.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Varsayılan sonuç öncesinde bir seçenek olmayan son parametredir).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="559">
+          <source><bpt id="p1">**</bpt>CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")<ept id="p1">**</ept> returns the string <bpt id="p2">**</bpt>"WINTER"<ept id="p2">**</ept> when the current Finance and Operations session date is between October and December.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "KIŞ", "11", "KIŞ", "12", "KIŞ", "")<ept id="p1">**</ept>, eğer geçerli Finance and Operations oturum tarihi Ekim ve Aralık arasındaysa, <bpt id="p2">**</bpt>KIŞ<ept id="p2">**</ept> dizesini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="560">
+          <source>Otherwise, it returns a blank string.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aksi halde, boş bir dize döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="561">
+          <source>IF (condition, value 1, value 2)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IF (koşul, değer 1, değer 2)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="562">
+          <source>Return the first specified value when the specified condition is met.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen koşul karşılandığında ilk belirtilen değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="563">
+          <source>Otherwise, return the second specified value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aksi takdirde, ikinci belirtilen değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="564">
+          <source>If value 1 and value 2 are records or record lists, the result has only the fields that exist in both lists.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Değer 1 ve değer 2, kayıt veya kayıt listeleriyse, sonuç sadece her iki listede de mevcut olan alanları içerir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="565">
+          <source><bpt id="p1">**</bpt>IF (1=2, "condition is met", "condition is not met")<ept id="p1">**</ept> returns the string <bpt id="p2">**</bpt>"condition is not met"<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>IF (1=2, "koşul karşılandı", "koşul karşılanmadı")<ept id="p1">**</ept>, <bpt id="p2">**</bpt>"koşul karşılanmadı"<ept id="p2">**</ept> dizesini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="566">
+          <source>NOT (condition)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NOT (koşul)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="567">
+          <source>Return the reversed logical value of the specified condition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen koşulun ters mantıksal değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="568">
+          <source><bpt id="p1">**</bpt>NOT (TRUE)<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>FALSE<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DEĞİL (DOĞRU)<ept id="p1">**</ept>, <bpt id="p2">**</bpt>YANLIŞ<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="569">
+          <source>AND (condition 1<ph id="ph1">\[</ph>, condition 2, …<ph id="ph2">\]</ph>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AND (koşul 1<ph id="ph1">\[</ph>, koşul 2, …<ph id="ph2">\]</ph>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="570">
+          <source>Return <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> if <bpt id="p2">*</bpt>all<ept id="p2">*</ept> specified conditions are true.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p2">*</bpt>Tüm<ept id="p2">*</ept> belirtilen koşullar doğruysa, <bpt id="p1">**</bpt>DOĞRU<ept id="p1">**</ept> döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="571">
+          <source>Otherwise, return <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aksi takdirde <bpt id="p1">**</bpt>YANLIŞ<ept id="p1">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="572">
+          <source><bpt id="p1">**</bpt>AND (1=1, "a"="a")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>TRUE<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>VE (1=1, "a"="a")<ept id="p1">**</ept>,<bpt id="p2">**</bpt>DOĞRU<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="573">
+          <source><bpt id="p1">**</bpt>AND (1=2, "a"="a")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>FALSE<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>AND (1=2, "a"="a")<ept id="p1">**</ept> <bpt id="p2">**</bpt>YANLIŞ<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="574">
+          <source>OR (condition 1<ph id="ph1">\[</ph>, condition 2, …<ph id="ph2">\]</ph>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OR (koşul 1<ph id="ph1">\[</ph>, koşul 2, …<ph id="ph2">\]</ph>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="575">
+          <source>Return <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept> if <bpt id="p2">*</bpt>all<ept id="p2">*</ept> specified conditions are false.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p2">*</bpt>Tüm<ept id="p2">*</ept> belirtilen koşullar yanlışsa, <bpt id="p1">**</bpt>YANLIŞ<ept id="p1">**</ept> döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="576">
+          <source>Return <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> if <bpt id="p2">*</bpt>any<ept id="p2">*</ept> specified condition is true.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p2">*</bpt>Herhangi bir<ept id="p2">*</ept> belirtilen koşul doğruysa <bpt id="p1">**</bpt>DOĞRU<ept id="p1">**</ept> döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="577">
+          <source><bpt id="p1">**</bpt>OR (1=2, "a"="a")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>TRUE<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>VEYA (1=2, "a"="a")<ept id="p1">**</ept>,<bpt id="p2">**</bpt>DOĞRU<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="578">
+          <source>VALUEIN (input, list, list item expression)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VALUEIN (giriş listesi, liste öğe ifadesi)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="579">
+          <source>Determine whether the specified input matches any value of an item in the specified list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen girişin, belirtilen listede belirli bir öğe değerinin eşleşip eşleşmediğini belirler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="580">
+          <source>Return <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> if the specified input matches the result of running the specified expression for at least one record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen girdi en az bir kayıt için çalışan belirtilen ifade sonucuyla eşleşiyorsa <bpt id="p1">**</bpt>DOĞRU<ept id="p1">**</ept> döner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="581">
+          <source>Otherwise, return <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aksi takdirde <bpt id="p1">**</bpt>YANLIŞ<ept id="p1">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="582">
+          <source>The <bpt id="p1">**</bpt>input<ept id="p1">**</ept> parameter represents the path of a data source element.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Giriş<ept id="p1">**</ept> parametresi bir veri kaynağı öğesinin yolunu gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="583">
+          <source>The value of this element will be matched.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu öğenin değeri eşleşir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="584">
+          <source>The <bpt id="p1">**</bpt>list<ept id="p1">**</ept> parameter represents the path of a data source element of the record list type as a list of records that contains an expression.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Liste<ept id="p1">**</ept> parametresi, bir ifade içeren kayıtların listesi olarak kayıt listesi türünün bir veri kaynağı öğesinin yolunu gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="585">
+          <source>The value of this element will be compared with the specified input.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu öğenin değeri belirtilen giriş ile karşılaştırılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="586">
+          <source>The <bpt id="p1">**</bpt>list item expression<ept id="p1">**</ept> argument represents an expression that either points to or contains a single field of the specified list that should be used for the matching.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Liste öğe ifadesi<ept id="p1">**</ept> bağımsız değişkeni işaret eden ya da belirtilen listenin eşleştirmek için kullanılacak tek bir alan içeren bir ifadeyi temsil eder.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="587">
+          <source>For examples, see the <bpt id="p1">[</bpt>Examples: VALUEIN (input, list, list item expression)<ept id="p1">](#examples-valuein-input-list-list-item-expression)</ept> section that follows.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek için sonra bölüme <bpt id="p1">[</bpt>Örnek: VALUEIN (giriş, liste, liste öğesi ifadesi)<ept id="p1">](#examples-valuein-input-list-list-item-expression)</ept> bakın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="588">
+          <source>Examples: VALUEIN (input, list, list item expression)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnekler: VALUEIN (giriş listesi, liste öğe ifadesi)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="589">
+          <source>In general, the <bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> function is translated to a set of <bpt id="p2">**</bpt>OR<ept id="p2">**</ept> conditions:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Genel olarak, <bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> işlevi bir dizi <bpt id="p2">**</bpt>OR<ept id="p2">**</ept> koşuluna çevrilir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="590">
+          <source>(input = list.item1.value) OR (input = list.item2.value) OR …</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(input = list.item1.value) OR (input = list.item2.value) OR …</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="591">
+          <source>Example 1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek 1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="592">
+          <source>You define the following data source in your model mapping: <bpt id="p1">**</bpt>List<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Calculated field<ept id="p2">**</ept> type).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Model eşlemeniz içinde şu veri kaynağını tanımladınız: <bpt id="p1">**</bpt>Liste<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Hesaplanan alan<ept id="p2">**</ept> türü).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="593">
+          <source>This data source contains the expression <bpt id="p1">**</bpt>SPLIT ("a,b,c", ",")<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu veri kaynağı <bpt id="p1">**</bpt>SPLIT ("a,b,c", ",")<ept id="p1">**</ept>ifadesini içeriyor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="594">
+          <source>When a data source is called that is configured as the <bpt id="p1">**</bpt>VALUEIN ("B", List, List.Value)<ept id="p1">**</ept> expression, it returns <bpt id="p2">**</bpt>TRUE<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>VALUEIN ("B", List, List.Value)<ept id="p1">**</ept> ifadesi olarak yapılandırılmış bir veri kaynağı çağrılıysa <bpt id="p2">**</bpt>TRUE<ept id="p2">**</ept> olarak döner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="595">
+          <source>In this case, the <bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> function is translated to the following set of conditions:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu durumda, <bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> işlevi aşağıdaki bir dizi koşula çevrilir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="596">
+          <source><bpt id="p1">**</bpt>(("B" = "a") or ("B" = "b") or ("B" = "c"))<ept id="p1">**</ept>, where <bpt id="p2">**</bpt>("B" = "b")<ept id="p2">**</ept> is equal to <bpt id="p3">**</bpt>TRUE<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>(("B" = "a") or ("B" = "b") or ("B" = "c"))<ept id="p1">**</ept>, where <bpt id="p2">**</bpt>("B" = "b")<ept id="p2">**</ept>, şuna eşit: <bpt id="p3">**</bpt>TRUE<ept id="p3">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="597">
+          <source>When a data source is called that is configured as the <bpt id="p1">**</bpt>VALUEIN ("B", List, LEFT(List.Value, 0))<ept id="p1">**</ept> expression, it returns <bpt id="p2">**</bpt>FALSE<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>VALUEIN ("B", List, LEFT(List.Value, 0))<ept id="p1">**</ept> ifadesi olarak yapılandırılmış bir veri kaynağı çağrılıysa <bpt id="p2">**</bpt>FALSE<ept id="p2">**</ept> olarak döner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="598">
+          <source>In this case, the <bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> function is translated to the following condition:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu durumda, <bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> işlevi aşağıdaki koşula çevrilir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="599">
+          <source><bpt id="p1">**</bpt>("B" = "")<ept id="p1">**</ept>, which isn't equal to <bpt id="p2">**</bpt>TRUE<ept id="p2">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>("B" = "")<ept id="p1">**</ept>, which isn't equal to <bpt id="p2">**</bpt>TRUE<ept id="p2">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="600">
+          <source>Note that the upper limit for the number of characters in the text of such a condition is 32,768 characters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Böyle bir koşul metninde karakter sayısı üst sınırının 32.768 karakter olduğuna dikkat edin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="601">
+          <source>Therefore, you should not create data sources that might exceed this limit at runtime.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, çalışma zamanında bu sınırı aşan veri kaynakları oluşturmamanız gerekir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="602">
+          <source>If the limit is exceeded, the application will stop running, and an exception will be thrown.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sınır aşılırsa uygulama çalışmayı durdurur ve bir özel durum gönderilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="603">
+          <source>For example, this situation can occur if the data source is configured as <bpt id="p1">**</bpt>WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)<ept id="p1">**</ept>, and the <bpt id="p2">**</bpt>List1<ept id="p2">**</ept> and <bpt id="p3">**</bpt>List2<ept id="p3">**</ept> lists contain a large volume of records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, veri kaynağı <bpt id="p1">**</bpt>WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)<ept id="p1">**</ept> olarak yapılandırılmışsa ve <bpt id="p2">**</bpt>List1<ept id="p2">**</ept> ve <bpt id="p3">**</bpt>List2<ept id="p3">**</ept> listeleri büyük miktarda kayıt içeriyorsa bu durum ortaya çıkabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="604">
+          <source>In some cases, the <bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> function is translated to a database statement by using the <bpt id="p2">**</bpt>EXISTS JOIN<ept id="p2">**</ept> operator.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bazı durumlarda, <bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> işlevi <bpt id="p2">**</bpt>EXISTS JOIN<ept id="p2">**</ept> işleci kullanarak bir veritabanı ifadesi çevrilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="605">
+          <source>This behavior occurs when the <bpt id="p1">**</bpt>FILTER<ept id="p1">**</ept> function is used and the following conditions are met:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu davranış, <bpt id="p1">**</bpt>FİLTRE<ept id="p1">**</ept> işlevi kullanıldığında ve aşağıdaki koşullar sağlandığında olur:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="606">
+          <source>The <bpt id="p1">**</bpt>ASK FOR QUERY<ept id="p1">**</ept> option is turned off for the data source of the <bpt id="p2">**</bpt>VALUEIN<ept id="p2">**</ept> function that refers to the list of records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>SORGU İSTE<ept id="p1">**</ept> seçeneği kayıtlar listesi anlamına gelen <bpt id="p2">**</bpt>VALUEIN<ept id="p2">**</ept> işlevinin veri kaynağı için kapatılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="607">
+          <source>(No additional conditions will be applied to this data source at runtime.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Hiçbir ek koşul, çalışma zamanında bu veri kaynağına uygulanmaz.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="608">
+          <source>No nested expressions are configured for the data source of the <bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> function that refers to the list of records.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kayıtlar listesi anlamına gelen <bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> işlevinin veri kaynağı için hiçbir iç içe ifade yapılandırılmaz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="609">
+          <source>A list item of the <bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> function refers to a field (not an expression or a method) of the specified data source.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>VALUEIN<ept id="p1">**</ept> işlevinin bir liste öğesi belirtilen veri kaynağının bir alanını belirtilir (bir ifade veya bir yöntem değil).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="610">
+          <source>Consider using this option instead of the <bpt id="p1">**</bpt>WHERE<ept id="p1">**</ept> function as described earlier in this example.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu örnekte daha önce açıklandığı gibi <bpt id="p1">**</bpt>WHERE<ept id="p1">**</ept> işlevi yerine bu seçeneği kullanmayı düşünün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="611">
+          <source>Example 2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek 2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="612">
+          <source>You define the following data sources in your model mapping:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="613">
+          <source><bpt id="p1">**</bpt>In<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Table records<ept id="p2">**</ept> type), which refers to the Intrastat table</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Intrastat tablosuna başvuran <bpt id="p1">**</bpt>In<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Tablo kayıtları<ept id="p2">**</ept> türü)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="614">
+          <source><bpt id="p1">**</bpt>Port<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Table records<ept id="p2">**</ept> type), which refers to the IntrastatPort table</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IntrastatPort tablosuna başvuran <bpt id="p1">**</bpt>Port<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Tablo kayıtları<ept id="p2">**</ept> türü)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="615">
+          <source>When a data source is called that is configured as the <bpt id="p1">**</bpt>FILTER (In, VALUEIN(In.Port, Port, Port.PortId)<ept id="p1">**</ept> expression, the following SQL statement is generated to return filtered records of the Intrastat table:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FILTER (In, VALUEIN(In.Port, Port, Port.PortId)<ept id="p1">**</ept> olarak yapılandırılmış bir veri kaynağı çağrıldığında aşağıdaki SQL ifadesi Intrastat tablosunun filtre uygulanan kayıtlarını döndürmek için oluşturulur:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="616">
+          <source>For <bpt id="p1">**</bpt>dataAreaId<ept id="p1">**</ept> fields, the final SQL statement is generated by the using <bpt id="p2">**</bpt>IN<ept id="p2">**</ept> operator.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>dataAreaId<ept id="p1">**</ept> alanları için nihai SQL deyimi <bpt id="p2">**</bpt>IN<ept id="p2">**</ept> işleci kullanılarak oluşturulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="617">
+          <source>Example 3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek 3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="618">
+          <source>You define the following data sources in your model mapping:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="619">
+          <source><bpt id="p1">**</bpt>Le<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Calculated field<ept id="p2">**</ept> type), which contains the expression <bpt id="p3">**</bpt>SPLIT ("DEMF,GBSI,USMF", ",")<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Le<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Hesaplanan alan<ept id="p2">**</ept> türü), <bpt id="p3">**</bpt>SPLIT ("DEMF,GBSI,USMF", ",")<ept id="p3">**</ept> ifadesini içerir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="620">
+          <source><bpt id="p1">**</bpt>In<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Table records<ept id="p2">**</ept> type), which refers to the Intrastat table and for which the <bpt id="p3">**</bpt>Cross-company<ept id="p3">**</ept> option is turned on</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>In<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Tablo kayıtları<ept id="p2">**</ept> türü), Intrastat tablosu anlamına gelir ve <bpt id="p3">**</bpt>Şirketler arası<ept id="p3">**</ept> seçeneği açıktır</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="621">
+          <source>When a data source is called that is configured as the <bpt id="p1">**</bpt>FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)<ept id="p1">**</ept> expression, the final SQL statement contains the following condition:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)<ept id="p1">**</ept> ifadesi olarak yapılandırılmış bir veri kaynağı çağrıldığında son SQL deyimi aşağıdaki koşulu içerir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="622">
+          <source>Mathematical functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Matematik işlevi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="623">
+          <source>Function</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="624">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="625">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="626">
+          <source>ABS (number)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ABS (numara)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="627">
+          <source>Return the absolute value of the specified number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sayının mutlak değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="628">
+          <source>(In other words, return the number without its sign.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Diğer bir deyişle, işareti olmadan sayıyı döndürür.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="629">
+          <source><bpt id="p1">**</bpt>ABS (-1)<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ABS (-1)<ept id="p1">**</ept>, <bpt id="p2">**</bpt>1<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="630">
+          <source>POWER (number, power)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">KUVVET (sayı, kuvvet)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="631">
+          <source>Return the result of raising the specified positive number to the specified power.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen pozitif sayının, belirtilen kuvvetine yükseltilmesinin sonucunu döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="632">
+          <source><bpt id="p1">**</bpt>POWER (10, 2)<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>100<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>KUVVET (10, 2)<ept id="p1">**</ept>, <bpt id="p2">**</bpt>100<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="633">
+          <source>NUMBERVALUE (string, decimal separator, digit grouping separator)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NUMBERVALUE (dize, ondalık ayırıcı, basamak gruplandırma ayırıcı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="634">
+          <source>Convert the specified string to a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizeyi sayıya dönüştürün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="635">
+          <source>The specified decimal separator is used between the integer and fractional parts of a decimal number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen ondalık basamak ayırıcısı ondalık sayısının tam sayısı ile kesirli sayıları arasında kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="636">
+          <source>The specified digit grouping separator is used as the thousands separator.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen basamak gruplandırma ayırıcısı binler basamağı ayırıcısı olarak kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="637">
+          <source><bpt id="p1">**</bpt>NUMBERVALUE("1 234,56", ",", " ")<ept id="p1">**</ept> returns the value <bpt id="p2">**</bpt>1234.56<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>NUMBERVALUE("1 234,56", ",", " ")<ept id="p1">**</ept>, <bpt id="p2">**</bpt>1234.56<ept id="p2">**</ept> değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="638">
+          <source>VALUE (string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VALUE (dize)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="639">
+          <source>Convert the specified string to a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizeyi sayıya dönüştürün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="640">
+          <source>Commas and dot characters (.) are considered decimal separators, and a leading hyphen (-) is used as a negative sign.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virgül ve nokta karakterleri (.) ondalık ayırıcı olarak kabul edilir ve önde gelen bir tire (-), bir eksi işareti olarak kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="641">
+          <source>Throw an exception if the specified string contains other non-numeric characters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin sayısal olmayan karakterler içermesi durumunda bir özel durum oluşturur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="642">
+          <source><bpt id="p1">**</bpt>VALUE ("1 234,56")<ept id="p1">**</ept> throws an exception.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DEĞER ("1 234,56")<ept id="p1">**</ept> bir istisna oluşturur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="643">
+          <source>ROUND (number, decimals)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ROUND (sayı, ondalık basamak)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="644">
+          <source>Return the specified number after it has been rounded to the specified number of decimal places:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sayıyı, ondalık basamağındaki sayısı yuvarladıktan sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="645">
+          <source>If the value of the <bpt id="p1">**</bpt>decimals<ept id="p1">**</ept> parameter is more than 0 (zero), the specified number is rounded to that many decimal places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ondalık<ept id="p1">**</ept> parametresinin değeri 0'dan (sıfır) büyükse, belirtilen sayı birçok ondalık basamağa yuvarlanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="646">
+          <source>If the value of the <bpt id="p1">**</bpt>decimals<ept id="p1">**</ept> parameter is <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (zero), the specified number is rounded to the nearest integer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ondalık<ept id="p1">**</ept> parametresinin değeri <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (sıfır) ise, belirtilen sayı en yakın tamsayıya yuvarlanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="647">
+          <source>If the value of the <bpt id="p1">**</bpt>decimals<ept id="p1">**</ept> parameter is less than 0 (zero), the specified number is rounded to the left of the decimal point.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ondalık<ept id="p1">**</ept> parametresinin değeri 0'dan (sıfır) küçükse, belirtilen sayı ondalık basamağın soluna yuvarlanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="648">
+          <source><bpt id="p1">**</bpt>ROUND (1200.767, 2)<ept id="p1">**</ept> rounds to two decimal places and returns <bpt id="p2">**</bpt>1200.77<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ROUND (1200.767, 2)<ept id="p1">**</ept> iki ondalık basamağa yuvarlar ve <bpt id="p2">**</bpt>1200.77<ept id="p2">**</ept> sonucunu döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="649">
+          <source><bpt id="p1">**</bpt>ROUND (1200.767, -3)<ept id="p1">**</ept> rounds to the nearest multiple of 1,000 and returns <bpt id="p2">**</bpt>1000<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ROUND (1200.767, -3)<ept id="p1">**</ept> 1.000'in en yakın katına yuvarlar ve <bpt id="p2">**</bpt>1000<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="650">
+          <source>ROUNDDOWN (number, decimals)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ROUNDDOWN (sayı, ondalık basamak)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="651">
+          <source>Return the specified number after it has been rounded down to the specified number of decimal places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sayıyı, ondalık basamağındaki sayısı aşağı yuvarladıktan sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="652">
+          <source>This function behaves like <bpt id="p1">**</bpt>ROUND<ept id="p1">**</ept>, but it always rounds the specified number down (toward zero).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu işlev <bpt id="p1">**</bpt>YUVARLA<ept id="p1">**</ept> işlevi gibi davranır ancak belirtilen sayıyı daima aşağı doğru (sıfıra doğru) yuvarlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="653">
+          <source><bpt id="p1">**</bpt>ROUNDDOWN (1200.767, 2)<ept id="p1">**</ept> rounds down to two decimal places and returns <bpt id="p2">**</bpt>1200.76<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ROUNDDOWN (1200.767, 2)<ept id="p1">**</ept> iki ondalık basamağa aşağı yuvarlar ve <bpt id="p2">**</bpt>1200.76<ept id="p2">**</ept> sonucunu döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="654">
+          <source><bpt id="p1">**</bpt>ROUNDDOWN (1700.767, -3)<ept id="p1">**</ept> rounds down to the nearest multiple of 1,000 and returns <bpt id="p2">**</bpt>1000<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ROUNDDOWN (1700.767, -3)<ept id="p1">**</ept> 1.000'in en yakın katına aşağı yuvarlar ve <bpt id="p2">**</bpt>1000<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="655">
+          <source>ROUNDUP (number, decimals)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ROUNDUP (sayı, ondalık basamak)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="656">
+          <source>Return the specified number after it has been rounded up to the specified number of decimal places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sayıyı, ondalık basamağındaki sayı yukarı yuvarladıktan sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="657">
+          <source>This function behaves like <bpt id="p1">**</bpt>ROUND<ept id="p1">**</ept>, but it always rounds the specified number up (away from zero).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu işlev <bpt id="p1">**</bpt>YUVARLA<ept id="p1">**</ept> işlevi gibi davranır ancak belirtilen sayıyı daima yukarı doğru (sıfırdan uzağa doğru) yuvarlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="658">
+          <source><bpt id="p1">**</bpt>ROUNDUP (1200.763, 2)<ept id="p1">**</ept> rounds up to two decimal places and returns <bpt id="p2">**</bpt>1200.77<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ROUNDUP (1200.763, 2)<ept id="p1">**</ept> iki ondalık basamağa yukarı yuvarlar ve <bpt id="p2">**</bpt>1200.77<ept id="p2">**</ept> sonucunu döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="659">
+          <source><bpt id="p1">**</bpt>ROUNDUP (1200.767, -3)<ept id="p1">**</ept> rounds up to the nearest multiple of 1,000 and returns <bpt id="p2">**</bpt>2000<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ROUNDUP (1200.767, -3)<ept id="p1">**</ept> 1.000'in en yakın katına yukarı yuvarlar ve <bpt id="p2">**</bpt>2000<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="660">
+          <source>Data conversion functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri dönüştürme işlemleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="661">
+          <source>Function</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="662">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="663">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="664">
+          <source>VALUE (string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">VALUE (dize)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="665">
+          <source>Convert the specified string to a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizeyi sayıya dönüştürün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="666">
+          <source>Commas and dot characters (.) are considered decimal separators, and a leading hyphen (-) is used as a negative sign.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virgül ve nokta karakterleri (.) ondalık ayırıcı olarak kabul edilir ve önde gelen bir tire (-), bir eksi işareti olarak kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="667">
+          <source>Throw an exception if the specified string contains other non-numeric characters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin sayısal olmayan karakterler içermesi durumunda bir özel durum oluşturur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="668">
+          <source><bpt id="p1">**</bpt>VALUE ("1 234,56")<ept id="p1">**</ept> throws an exception.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DEĞER ("1 234,56")<ept id="p1">**</ept> bir istisna oluşturur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="669">
+          <source>NUMBERVALUE (string, decimal separator, digit grouping separator)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NUMBERVALUE (dize, ondalık ayırıcı, basamak gruplandırma ayırıcı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="670">
+          <source>Convert the specified string to a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizeyi sayıya dönüştürün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="671">
+          <source>The specified decimal separator is used between the integer and fractional parts of a decimal number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen ondalık basamak ayırıcısı ondalık sayısının tam sayısı ile kesirli sayıları arasında kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="672">
+          <source>The specified digit grouping separator is used as the thousands separator.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen basamak gruplandırma ayırıcısı binler basamağı ayırıcısı olarak kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="673">
+          <source><bpt id="p1">**</bpt>NUMBERVALUE("1 234,56", ",", " ")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>1234.56<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>NUMBERVALUE("1 234,56", ",", " ")<ept id="p1">**</ept> <bpt id="p2">**</bpt>1234.56<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="674">
+          <source>INTVALUE (string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">INTVALUE (dize)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="675">
+          <source>Return an integer representation of the specified string.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin tamsayı temsilini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="676">
+          <source>Any decimal places are truncated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ondalık basamaklar kesilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="677">
+          <source><bpt id="p1">**</bpt>INTVALUE ("100.77")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>100<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>INTVALUE ("100.77")<ept id="p1">**</ept> <bpt id="p2">**</bpt>100<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="678">
+          <source>INTVALUE (number)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">INTVALUE (sayı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="679">
+          <source>Return an integer representation of the specified number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sayının tamsayı temsilini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="680">
+          <source>Any decimal places are truncated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ondalık basamaklar kesilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="681">
+          <source><bpt id="p1">**</bpt>INTVALUE (-100.77)<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>-100<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>INTVALUE (-100.77)<ept id="p1">**</ept> <bpt id="p2">**</bpt>-100<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="682">
+          <source>INT64VALUE (string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">INT64VALUE (dize)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="683">
+          <source>Return an int64 representation of the specified string.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin int64 temsilini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="684">
+          <source>Any decimal places are truncated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ondalık basamaklar kesilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="685">
+          <source><bpt id="p1">**</bpt>INT64VALUE ("22565422744")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>22565422744<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>INT64VALUE ("22565422744")<ept id="p1">**</ept> <bpt id="p2">**</bpt>22565422744<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="686">
+          <source>INT64VALUE (number)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">INT64VALUE (numara)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="687">
+          <source>Return an int64 representation of the specified number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sayının int64 temsilini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="688">
+          <source>Any decimal places are truncated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ondalık basamaklar kesilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="689">
+          <source><bpt id="p1">**</bpt>INT64VALUE (22565422744.00)<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>22565422744<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>INT64VALUE (22565422744.00)<ept id="p1">**</ept> <bpt id="p2">**</bpt>22565422744<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="690">
+          <source>Record functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kayıt işlevleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="691">
+          <source>Function</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="692">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="693">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="694">
+          <source>NULLCONTAINER (list)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NULLCONTAINER (liste)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="695">
+          <source>Return a <bpt id="p1">**</bpt>null<ept id="p1">**</ept> record that has the same structure as the specified record list or record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir <bpt id="p1">**</bpt>null<ept id="p1">**</ept> kaydı döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="696">
+          <source>This function is obsolete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu işlev artık kullanılmamaktadır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="697">
+          <source>Use <bpt id="p1">**</bpt>EMPTYRECORD<ept id="p1">**</ept> instead.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bunun yerine <bpt id="p1">**</bpt>EMPTYRECORD<ept id="p1">**</ept> kullanın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="698">
+          <source><bpt id="p1">**</bpt>NULLCONTAINER (SPLIT ("abc", 1))<ept id="p1">**</ept> returns a new empty record that has the same structure as the list that is returned by the <bpt id="p2">**</bpt>SPLIT<ept id="p2">**</ept> function.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>NULLCONTAINER (SPLIT ("abc", 1))<ept id="p1">**</ept>, <bpt id="p2">**</bpt>SPLIT<ept id="p2">**</ept> işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="699">
+          <source>EMPTYRECORD (record)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EMPTYRECORD (kayıt)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="700">
+          <source>Return a <bpt id="p1">**</bpt>null<ept id="p1">**</ept> record that has the same structure as the specified record list or record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir <bpt id="p1">**</bpt>null<ept id="p1">**</ept> kaydı döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="701">
+          <source>A <bpt id="p1">**</bpt>null<ept id="p1">**</ept> record is a record where all fields have an empty value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Boş<ept id="p1">**</ept> kayıt, tüm alanlarda boş değeri bulunan kayıttır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="702">
+          <source>An empty value is <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (zero) for numbers, an empty string for strings, and so on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Boş değer sayılar için <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (sıfır), dizeler için boş bir dize vb.'dir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="703">
+          <source><bpt id="p1">**</bpt>EMPTYRECORD (SPLIT ("abc", 1))<ept id="p1">**</ept> returns a new empty record that has the same structure as the list that is returned by the <bpt id="p2">**</bpt>SPLIT<ept id="p2">**</ept> function.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>EMPTYRECORD (SPLIT ("abc", 1))<ept id="p1">**</ept>, <bpt id="p2">**</bpt>SPLIT<ept id="p2">**</ept> işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="704">
+          <source>Text functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Metin işlevleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="705">
+          <source>Function</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="706">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="707">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="708">
+          <source>UPPER (string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UPPER (dize)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="709">
+          <source>Return the specified string after it has been converted to uppercase letters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizeyi büyük harfe dönüştürdükten sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="710">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>UPPER(<ph id="ph1">&amp;quot;</ph>Sample<ph id="ph2">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>SAMPLE<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>UPPER(<ph id="ph1">&amp;quot;</ph>Örnek<ph id="ph2">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>ÖRNEK<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> sonucunu döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="711">
+          <source>LOWER (string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LOWER (dize)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="712">
+          <source>Return the specified string after it has been converted to lowercase letters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizeyi küçük harfe dönüştürdükten sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="713">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>LOWER (<ph id="ph1">&amp;quot;</ph>Sample<ph id="ph2">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>sample<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>LOWER(<ph id="ph1">&amp;quot;</ph>Örnek<ph id="ph2">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>örnek<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> sonucunu döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="714">
+          <source>LEFT (string, number of characters)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LEFT (dize, karakter sayısı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="715">
+          <source>Return the specified number of characters from the start of the specified string.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin başından belirtilen sayıda karakteri döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="716">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>LEFT (<ph id="ph1">&amp;quot;</ph>Sample<ph id="ph2">&amp;quot;</ph>, 3)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>Sam<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>LEFT (<ph id="ph1">&amp;quot;</ph>Örnek<ph id="ph2">&amp;quot;</ph>, 3)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>Örn<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="717">
+          <source>RIGHT (string, number of characters)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">RIGHT (dize, karakter sayısı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="718">
+          <source>Return the specified number of characters from the end of the specified string.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin sonundan belirtilen sayıda karakteri döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="719">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>RIGHT (<ph id="ph1">&amp;quot;</ph>Sample<ph id="ph2">&amp;quot;</ph>, 3)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>ple<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>SAĞ ("<ph id="ph1">&amp;quot;</ph>Örnek<ph id="ph2">&amp;quot;</ph>, 3)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>nek<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="720">
+          <source>MID (string, starting position, number of characters)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MID (dize, Başlangıç pozisyonu, karakter sayısı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="721">
+          <source>Return the specified number of characters from the specified string, starting at the specified position.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin, belirtilen konumdan başlayarak, belirtilen sayıdaki karakterini döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="722">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>MID (<ph id="ph1">&amp;quot;</ph>Sample<ph id="ph2">&amp;quot;</ph>, 2, 3)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>amp<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>MID (<ph id="ph1">&amp;quot;</ph>Örnek<ph id="ph2">&amp;quot;</ph>, 2, 3)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>rne<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="723">
+          <source>LEN (string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LEN (dize)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="724">
+          <source>Return the number of characters in the specified string.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizedeki karakterlerin sayısını döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="725">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>LEN (<ph id="ph1">&amp;quot;</ph>Sample<ph id="ph2">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt>6<ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>LEN (<ph id="ph1">&amp;quot;</ph>Örnek<ph id="ph2">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt>6<ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="726">
+          <source>CHAR (number)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CHAR (numara)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="727">
+          <source>Return the string of characters that is referenced by the specified Unicode number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen Unicode numarası tarafından başvuruda bulunulan karakter dizesini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="728">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>CHAR (255)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>ÿ<ph id="ph2">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>CHAR (255)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>ÿ<ph id="ph2">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="729">
+          <source>The string that this function returns depends on the encoding that is selected in the parent FILE format element.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu işlevin döndürdüğü dize DOSYA biçimi üst öğesinde seçtiğiniz kodlamaya bağlıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="730">
+          <source>For the list of supported encodings, see <bpt id="p1">&lt;a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx"&gt;</bpt>Encoding class<ept id="p1">&lt;/a&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Desteklenen kodlamalar listesi için bkz. <bpt id="p1">&lt;a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx"&gt;</bpt>Kodlama sınıfı<ept id="p1">&lt;/a&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="731">
+          <source>CONCATENATE (string 1 [, string 2, …])</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CONCATENATE (dize 1 [, dize 2, …])</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="732">
+          <source>Return all specified text strings after they have been joined into one string.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tüm belirtilen metin dizelerini bir dizeye bağlandıktan sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="733">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>CONCATENATE (<ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>def<ph id="ph4">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph5">&amp;quot;</ph>abcdef<ph id="ph6">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>CONCATENATE (<ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>def<ph id="ph4">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph5">&amp;quot;</ph>abcdef<ph id="ph6">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="734">
+          <source>The expression <bpt id="p1">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph> <ph id="ph3">&amp;amp;</ph> <ph id="ph4">&amp;quot;</ph>def<ph id="ph5">&amp;quot;</ph><ept id="p1">&lt;/strong&gt;</ept> also returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph6">&amp;quot;</ph>abcdef<ph id="ph7">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>abc<ph id="ph2">&amp;quot;</ph> <ph id="ph3">&amp;amp;</ph> <ph id="ph4">&amp;quot;</ph>def<ph id="ph5">&amp;quot;</ph><ept id="p1">&lt;/strong&gt;</ept> ifadesi ayrıca <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph6">&amp;quot;</ph>abcdef<ph id="ph7">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="735">
+          <source>TRANSLATE (string, pattern, replacement)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TRANSLATE (dize, kalıp, değiştirme)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="736">
+          <source>Return the specified string after all occurrences of the characters in the specified pattern string have been replaced by the characters at the corresponding position in the specified replacement string.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen desen dizesindeki tüm karakterlerin, belirtilen değiştirme dizesindeki karakterlerle değiştirildiği, belirtilmiş olan dizeyi döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="737">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>TRANSLATE (<ph id="ph1">&amp;quot;</ph>abcdef<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>cd<ph id="ph4">&amp;quot;</ph>, <ph id="ph5">&amp;quot;</ph>GH<ph id="ph6">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> replaces the pattern <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph7">&amp;quot;</ph>cd<ph id="ph8">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> with the string <bpt id="p3">&lt;strong&gt;</bpt><ph id="ph9">&amp;quot;</ph>GH<ph id="ph10">&amp;quot;</ph><ept id="p3">&lt;/strong&gt;</ept> and returns <bpt id="p4">&lt;strong&gt;</bpt><ph id="ph11">&amp;quot;</ph>abGHef<ph id="ph12">&amp;quot;</ph><ept id="p4">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>TRANSLATE (<ph id="ph1">&amp;quot;</ph>abcdef<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>cd<ph id="ph4">&amp;quot;</ph>, <ph id="ph5">&amp;quot;</ph>GH<ph id="ph6">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> deseni değiştirir <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph7">&amp;quot;</ph>cd<ph id="ph8">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>, şunun ile: <bpt id="p3">&lt;strong&gt;</bpt><ph id="ph9">&amp;quot;</ph>GH<ph id="ph10">&amp;quot;</ph><ept id="p3">&lt;/strong&gt;</ept> ve bunu döndürür: <bpt id="p4">&lt;strong&gt;</bpt><ph id="ph11">&amp;quot;</ph>abGHef<ph id="ph12">&amp;quot;</ph><ept id="p4">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="738">
+          <source>REPLACE (string, pattern, replacement, regular expression flag)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">REPLACE (dize, desen, değiştirme, normal ifade işareti)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="739">
+          <source>When the specified <bpt id="p1">&lt;strong&gt;</bpt>regular expression flag<ept id="p1">&lt;/strong&gt;</ept> parameter is <bpt id="p2">&lt;strong&gt;</bpt>true<ept id="p2">&lt;/strong&gt;</ept>, return the specified string after it has been modified by applying the regular expression that is specified as the <bpt id="p3">&lt;strong&gt;</bpt>pattern<ept id="p3">&lt;/strong&gt;</ept> argument for this function.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen <bpt id="p1">&lt;strong&gt;</bpt>normal ifade bayrağı<ept id="p1">&lt;/strong&gt;</ept> parametresi <bpt id="p2">&lt;strong&gt;</bpt>doğru<ept id="p2">&lt;/strong&gt;</ept> olduğunda, belirtilen dizeyi bu işlev için <bpt id="p3">&lt;strong&gt;</bpt>desen<ept id="p3">&lt;/strong&gt;</ept> bağımsız değişkeni olarak belirtilen normal ifadeyi uygulayarak değiştirdikten sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="740">
+          <source>This expression is used to find characters that must be replaced.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu ifade, değiştirilmesi gereken karakterleri bulmakta kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="741">
+          <source>Characters of the specified <bpt id="p1">&lt;strong&gt;</bpt>replacement<ept id="p1">&lt;/strong&gt;</ept> argument are used to replace characters that are found.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen <bpt id="p1">&lt;strong&gt;</bpt>değiştirme<ept id="p1">&lt;/strong&gt;</ept> bağımsız değişkenindeki karakterler, bulunan karakterleri değiştirmek için kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="742">
+          <source>When the specified <bpt id="p1">&lt;strong&gt;</bpt>regular expression flag<ept id="p1">&lt;/strong&gt;</ept> parameter is <bpt id="p2">&lt;strong&gt;</bpt>false<ept id="p2">&lt;/strong&gt;</ept>, this function behaves like <bpt id="p3">&lt;strong&gt;</bpt>TRANSLATE<ept id="p3">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen <bpt id="p1">&lt;strong&gt;</bpt>normal ifade bayrağı<ept id="p1">&lt;/strong&gt;</ept> parametresi <bpt id="p2">&lt;strong&gt;</bpt>yanlış<ept id="p2">&lt;/strong&gt;</ept> ise, bu işlev <bpt id="p3">&lt;strong&gt;</bpt>TRANSLATE<ept id="p3">&lt;/strong&gt;</ept> gibi davranır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="743">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>REPLACE (<ph id="ph1">&amp;quot;</ph>+1 923 456 4971<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>[^0-9]<ph id="ph4">&amp;quot;</ph>, <ph id="ph5">&amp;quot;</ph><ph id="ph6">&amp;quot;</ph>, true)<ept id="p1">&lt;/strong&gt;</ept> applies a regular expression that removes all non-numeric symbols, and returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph7">&amp;quot;</ph>19234564971<ph id="ph8">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>REPLACE (<ph id="ph1">&amp;quot;</ph>+1 923 456 4971<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>[^0-9]<ph id="ph4">&amp;quot;</ph>, <ph id="ph5">&amp;quot;</ph><ph id="ph6">&amp;quot;</ph>, true)<ept id="p1">&lt;/strong&gt;</ept> üm sayısal olmayan karakterleri kaldıran bir normal ifade uygular ve <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph7">&amp;quot;</ph>19234564971<ph id="ph8">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="744">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>REPLACE (<ph id="ph1">&amp;quot;</ph>abcdef<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>cd<ph id="ph4">&amp;quot;</ph>, <ph id="ph5">&amp;quot;</ph>GH<ph id="ph6">&amp;quot;</ph>, false)<ept id="p1">&lt;/strong&gt;</ept> replaces the pattern <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph7">&amp;quot;</ph>cd<ph id="ph8">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> with the string <bpt id="p3">&lt;strong&gt;</bpt><ph id="ph9">&amp;quot;</ph>GH<ph id="ph10">&amp;quot;</ph><ept id="p3">&lt;/strong&gt;</ept> and returns <bpt id="p4">&lt;strong&gt;</bpt><ph id="ph11">&amp;quot;</ph>abGHef<ph id="ph12">&amp;quot;</ph><ept id="p4">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>REPLACE (<ph id="ph1">&amp;quot;</ph>abcdef<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>cd<ph id="ph4">&amp;quot;</ph>, <ph id="ph5">&amp;quot;</ph>GH<ph id="ph6">&amp;quot;</ph>, yanlış)<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph7">&amp;quot;</ph>cd<ph id="ph8">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> desenini <bpt id="p3">&lt;strong&gt;</bpt><ph id="ph9">&amp;quot;</ph>GH<ph id="ph10">&amp;quot;</ph><ept id="p3">&lt;/strong&gt;</ept> satırı ile değiştirir ve <bpt id="p4">&lt;strong&gt;</bpt><ph id="ph11">&amp;quot;</ph>abGHef<ph id="ph12">&amp;quot;</ph><ept id="p4">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="745">
+          <source>TEXT (input)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TEXT (giriş)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="746">
+          <source>Return the specified input after it has been converted to a text string that is formatted according to the server locale settings of the current Finance and Operations instance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen giriş geçerli Finance and Operations örneğinin sunucu yerel ayarlarına göre biçimlendirilmiş bir metin dizesine çevrildikten sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="747">
+          <source>For values of the <bpt id="p1">&lt;strong&gt;</bpt>real<ept id="p1">&lt;/strong&gt;</ept> type, the string conversion is limited to two decimal places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>gerçek<ept id="p1">&lt;/strong&gt;</ept> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="748">
+          <source>If the server locale of the Finance and Operations instance is defined as <bpt id="p1">&lt;strong&gt;</bpt>EN-US<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt>TEXT (NOW ())<ept id="p2">&lt;/strong&gt;</ept> returns the current Finance and Operations session date, December 17, 2015, as the text string <bpt id="p3">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>12/17/2015 07:59:23 AM<ph id="ph2">&amp;quot;</ph><ept id="p3">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations örneğinin sunucu yerel ayarı <bpt id="p1">&lt;strong&gt;</bpt>EN-US<ept id="p1">&lt;/strong&gt;</ept> olarak tanımlanırsa, <bpt id="p2">&lt;strong&gt;</bpt>TEXT (NOW ())<ept id="p2">&lt;/strong&gt;</ept> geçerli Finance and Operations oturum tarihi olan Aralık 17, 2015 değerini <bpt id="p3">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>12/17/2015 07:59:23 AM<ph id="ph2">&amp;quot;</ph><ept id="p3">&lt;/strong&gt;</ept> metin dizesi olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="749">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>TEXT (1/3)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>0.33<ph id="ph2">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>TEXT (1/3)<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>0.33<ph id="ph2">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="750">
+          <source>FORMAT (string 1, string 2[, string 3, …])</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FORMAT (dize 1, dize 2[, dize 3, …])</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="751">
+          <source>Return the specified string after it has been formatted by substituting any occurrences of <bpt id="p1">&lt;strong&gt;</bpt>%N<ept id="p1">&lt;/strong&gt;</ept> with the <bpt id="p2">&lt;em&gt;</bpt>n<ept id="p2">&lt;/em&gt;</ept>th argument.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizeyi, tüm <bpt id="p1">&lt;strong&gt;</bpt>%N<ept id="p1">&lt;/strong&gt;</ept> oluşumlarını <bpt id="p2">&lt;em&gt;</bpt>n<ept id="p2">&lt;/em&gt;</ept>'ci bağımsız değişken ile değiştirerek biçimlendirdikten sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="752">
+          <source>The arguments are strings.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bağımsız değişkenler, dizelerdir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="753">
+          <source>If an argument isn't provided for a parameter, the parameter is returned as <bpt id="p1">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>%N<ph id="ph2">&amp;quot;</ph><ept id="p1">&lt;/strong&gt;</ept> in the string.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir parametre için bir bağımsız değişken sağlanmamışsa, parametre izede <bpt id="p1">&lt;strong&gt;</bpt><ph id="ph1">&amp;quot;</ph>%N<ph id="ph2">&amp;quot;</ph><ept id="p1">&lt;/strong&gt;</ept> olarak döndürülür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="754">
+          <source>For values of the <bpt id="p1">&lt;strong&gt;</bpt>real<ept id="p1">&lt;/strong&gt;</ept> type, the string conversion is limited to two decimal places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>gerçek<ept id="p1">&lt;/strong&gt;</ept> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="755">
+          <source>In the following illustration, the <bpt id="p1">&lt;strong&gt;</bpt>PaymentModel<ept id="p1">&lt;/strong&gt;</ept> data source returns the list of customer records via the <bpt id="p2">&lt;strong&gt;</bpt>Customer<ept id="p2">&lt;/strong&gt;</ept> component and the processing date value via the <bpt id="p3">&lt;strong&gt;</bpt>ProcessingDate<ept id="p3">&lt;/strong&gt;</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte, <bpt id="p1">&lt;strong&gt;</bpt>PaymentModel<ept id="p1">&lt;/strong&gt;</ept> veri kaynağı müşteri kayıtlarının listesini <bpt id="p2">&lt;strong&gt;</bpt>Müşteri<ept id="p2">&lt;/strong&gt;</ept> bileşeni ve işleme tarihi değerini <bpt id="p3">&lt;strong&gt;</bpt>ProcessingDate<ept id="p3">&lt;/strong&gt;</ept> alanı üzerinden döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="756">
+          <source>In the ER format that is designed to generate an electronic file for selected customers, <bpt id="p1">&lt;strong&gt;</bpt>PaymentModel<ept id="p1">&lt;/strong&gt;</ept> is selected as a data source and controls the process flow.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seçilen müşteriler için elektronik dosya oluşturmak üzere tasarlanmış ER biçiminde veri kaynağı olarak <bpt id="p1">&lt;strong&gt;</bpt>PaymentModel<ept id="p1">&lt;/strong&gt;</ept> seçilir ve işlem akışını denetler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="757">
+          <source>An exception is thrown to inform the user when a selected customer is stopped for the date when the report is processed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seçilmiş bir müşteri raporun işlendiği tarihte durdurulmuşsa, kullanıcıyı bilgilendirmek için bir özel durum oluşturulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="758">
+          <source>The formula that is designed for this type of processing control can use the following resources:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu tür bir işleme denetimi için tasarlanmış formül aşağıdaki kaynakları kullanabilir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="759">
+          <source>Finance and Operations label SYS70894, which has the following text:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki metne sahip Finance and Operations SYS70894 etiketi:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="760">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>For the EN-US language:<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;quot;</ph>Nothing to print<ph id="ph2">&amp;quot;</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>TR-TR dili için:<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;quot;</ph>Yazdırılacak hiçbir şey yok<ph id="ph2">&amp;quot;</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="761">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>For the DE language:<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;quot;</ph>Nichts zu drucken<ph id="ph2">&amp;quot;</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>DE dili için:<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;quot;</ph>Nichts zu drucken<ph id="ph2">&amp;quot;</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="762">
+          <source>Finance and Operations label SYS18389, which has the following text:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki metne sahip Finance and Operations SYS18389 etiketi:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="763">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>For the EN-US language:<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;quot;</ph>Customer %1 is stopped for %2.<ph id="ph2">&amp;quot;</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>TR-TR dili için:<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;quot;</ph>Müşteri %1 şunun için durduruldu: %2.<ph id="ph2">&amp;quot;</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="764">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>For the DE language:<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;quot;</ph>Debitor '%1' wird für %2 gesperrt.<ph id="ph2">&amp;quot;</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>DE dili için:<ept id="p1">&lt;/strong&gt;</ept> <ph id="ph1">&amp;quot;</ph>Debitor '%1' wird für %2 gesperrt.<ph id="ph2">&amp;quot;</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="765">
+          <source>Here is the formula that can be designed:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tasarlanabilen formül şudur:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="766">
+          <source>FORMAT (CONCATENATE (@<ph id="ph1">&amp;quot;</ph>SYS70894<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FORMAT (CONCATENATE (@<ph id="ph1">&amp;quot;</ph>SYS70894<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="767">
+          <source><ph id="ph1">&amp;quot;</ph>, @<ph id="ph2">&amp;quot;</ph>SYS18389<ph id="ph3">&amp;quot;</ph>), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, <ph id="ph4">&amp;quot;</ph>d<ph id="ph5">&amp;quot;</ph>))</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">&amp;quot;</ph>, @<ph id="ph2">&amp;quot;</ph>SYS18389<ph id="ph3">&amp;quot;</ph>), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, <ph id="ph4">&amp;quot;</ph>d<ph id="ph5">&amp;quot;</ph>))</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="768">
+          <source>If a report is processed for the <bpt id="p1">&lt;strong&gt;</bpt>Litware Retail<ept id="p1">&lt;/strong&gt;</ept> customer on December 17, 2015, in the <bpt id="p2">&lt;strong&gt;</bpt>EN-US<ept id="p2">&lt;/strong&gt;</ept> culture and the <bpt id="p3">&lt;strong&gt;</bpt>EN-US<ept id="p3">&lt;/strong&gt;</ept> language, this formula returns the following text, which can be presented to the user as an exception message:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rapor <bpt id="p1">&lt;strong&gt;</bpt>Litware Retail<ept id="p1">&lt;/strong&gt;</ept> müşterisi için Aralık 17, 2015 tarihinde <bpt id="p2">&lt;strong&gt;</bpt>EN-US<ept id="p2">&lt;/strong&gt;</ept> kültüründe ve <bpt id="p3">&lt;strong&gt;</bpt>EN-US<ept id="p3">&lt;/strong&gt;</ept> dilinde işlenmişse bu formül son kullanıcıya özel durum iletisi olarak sunulabilecek aşağıdaki metni içerir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="769">
+          <source><ph id="ph1">&amp;quot;</ph>Nothing to print.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">&amp;quot;</ph>Yazdırılacak hiçbir şey yok.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="770">
+          <source>Customer Litware Retail is stopped for 12/17/2015.<ph id="ph1">&amp;quot;</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müşteri Litware perakende 17/12/2015 için durduruldu.<ph id="ph1">&amp;quot;</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="771">
+          <source>If the same report is processed for the <bpt id="p1">&lt;strong&gt;</bpt>Litware Retail<ept id="p1">&lt;/strong&gt;</ept> customer on December 17, 2015, in the <bpt id="p2">&lt;strong&gt;</bpt>DE<ept id="p2">&lt;/strong&gt;</ept> culture and the <bpt id="p3">&lt;strong&gt;</bpt>DE<ept id="p3">&lt;/strong&gt;</ept> language, the formula returns the following text, which uses a different date format:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aynı rapor <bpt id="p1">&lt;strong&gt;</bpt>Litware Retail<ept id="p1">&lt;/strong&gt;</ept> müşterisi için Aralık 17, 2015 tarihinde <bpt id="p2">&lt;strong&gt;</bpt>DE<ept id="p2">&lt;/strong&gt;</ept> kültürü ve <bpt id="p3">&lt;strong&gt;</bpt>DE<ept id="p3">&lt;/strong&gt;</ept> dilinde işlenmişse, formül başka bir tarih biçimini kullanan aşağıdaki metni döndürür:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="772">
+          <source><ph id="ph1">&amp;quot;</ph>Nichts zu drucken.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">&amp;quot;</ph>Nichts zu drucken.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="773">
+          <source>Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.<ph id="ph1">&amp;quot;</ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.<ph id="ph1">&amp;quot;</ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="774">
+          <source>The following syntax is applied in ER formulas for labels:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki sözdizimi, etiketler için ER formüllerinde kullanılır:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="775">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>For labels from Finance and Operations resources:<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph1">@</ph><ph id="ph2">&amp;quot;</ph>X<ph id="ph3">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>, where <bpt id="p3">&lt;strong&gt;</bpt>X<ept id="p3">&lt;/strong&gt;</ept> is the label ID in the Application Object Tree (AOT)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Finance and Operations kaynaklarından etiketler için:<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph1">@</ph><ph id="ph2">&amp;quot;</ph>X<ph id="ph3">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>, burada <bpt id="p3">&lt;strong&gt;</bpt>X<ept id="p3">&lt;/strong&gt;</ept> Uygulama Nesne Ağacı (AOT) etiket kimliğidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="776">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>For labels that reside in ER configurations:<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph1">@</ph><ph id="ph2">&amp;quot;</ph>GER_LABEL:X<ph id="ph3">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>, where <bpt id="p3">&lt;strong&gt;</bpt>X<ept id="p3">&lt;/strong&gt;</ept> is the label ID in the ER configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>ER yapılandırmaları içinde bulunan etiketler için:<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph1">@</ph><ph id="ph2">&amp;quot;</ph>GER_LABEL:X<ph id="ph3">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>, burada <bpt id="p3">&lt;strong&gt;</bpt>X<ept id="p3">&lt;/strong&gt;</ept>, ER yapılandırma etiket kimliğidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="777">
+          <source>NUMBERFORMAT (number, format)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NUMBERFORMAT (sayı, biçim)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="778">
+          <source>Return a string representation of the specified number in the specified format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sayının, belirtilen biçimdeki dize olarak temsilini döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="779">
+          <source>(For information about the supported formats, see <bpt id="p1">&lt;a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx"&gt;</bpt>standard<ept id="p1">&lt;/a&gt;</ept> and <bpt id="p2">&lt;a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx"&gt;</bpt>custom<ept id="p2">&lt;/a&gt;</ept>.) The context that this function is run in determines the culture that is used to format numbers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Desteklenen biçimler hakkında bilgi için bkz. <bpt id="p1">&lt;a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx"&gt;</bpt>standart<ept id="p1">&lt;/a&gt;</ept> ve <bpt id="p2">&lt;a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx"&gt;</bpt>özel<ept id="p2">&lt;/a&gt;</ept>.) Bu işlevin çalıştırıldığı bağlam, sayıları biçimlendirmek için kullanılan kültürü belirler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="780">
+          <source>For the EN-US culture, <bpt id="p1">&lt;strong&gt;</bpt>NUMBERFORMAT (0.45, <ph id="ph1">&amp;quot;</ph>p<ph id="ph2">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>45.00 %<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TR-TR kültürü için <bpt id="p1">&lt;strong&gt;</bpt>NUMBERFORMAT (0.45, <ph id="ph1">&amp;quot;</ph>p<ph id="ph2">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph3">&amp;quot;</ph>45,00<ph id="ph4">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="781">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>NUMBERFORMAT (10.45, <ph id="ph1">&amp;quot;</ph><ph id="ph2">#</ph><ph id="ph3">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph4">&amp;quot;</ph>10<ph id="ph5">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>NUMBERFORMAT (10.45, <ph id="ph1">&amp;quot;</ph><ph id="ph2">#</ph><ph id="ph3">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept>, <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph4">&amp;quot;</ph>10<ph id="ph5">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="782">
+          <source>NUMERALSTOTEXT (number, language, currency, print currency name flag, decimal points)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NUMERALSTOTEXT (sayı, dil, para birimi, para birimi adını yazdır bayrağı, ondalık basamaklar)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="783">
+          <source>Return the specified number after it has been spelled out (converted to text strings) in the specified language.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen sayıyı, belirtilen dilde yazıldıktan (metin dizelerine dönüştürüldükten) sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="784">
+          <source>The language code is optional.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dil kodu isteğe bağlıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="785">
+          <source>When it's defined as an empty string, the language code for the running context is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Boş dize olarak tanımlandığında, çalışma bağlamının dil kodu kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="786">
+          <source>(The language code for the running context is defined for a generating folder or file.) The currency code is also optional.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Çalışılan bağlamın dil kodu oluşturulan klasör veya dosya için tanımlanır.) Para birimi kodu da isteğe bağlıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="787">
+          <source>When it's defined as an empty string, the company currency is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Boş dize olarak tanımlandığında, şirket para birimi kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="788">
+          <source>The <bpt id="p1">&lt;strong&gt;</bpt>print currency name flag<ept id="p1">&lt;/strong&gt;</ept> and <bpt id="p2">&lt;strong&gt;</bpt>decimal points<ept id="p2">&lt;/strong&gt;</ept> parameters are analyzed only for the following language codes: <bpt id="p3">&lt;strong&gt;</bpt>CS<ept id="p3">&lt;/strong&gt;</ept>, <bpt id="p4">&lt;strong&gt;</bpt>ET<ept id="p4">&lt;/strong&gt;</ept>, <bpt id="p5">&lt;strong&gt;</bpt>HU<ept id="p5">&lt;/strong&gt;</ept>, <bpt id="p6">&lt;strong&gt;</bpt>LT<ept id="p6">&lt;/strong&gt;</ept>, <bpt id="p7">&lt;strong&gt;</bpt>LV<ept id="p7">&lt;/strong&gt;</ept>, <bpt id="p8">&lt;strong&gt;</bpt>PL<ept id="p8">&lt;/strong&gt;</ept>, and <bpt id="p9">&lt;strong&gt;</bpt>RU<ept id="p9">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Para birimi adını yazdır bayrağı<ept id="p1">&lt;/strong&gt;</ept> ve <bpt id="p2">&lt;strong&gt;</bpt>ondalık basamak<ept id="p2">&lt;/strong&gt;</ept> parametreleri yalnızca şu dil kodları için analiz edilir: <bpt id="p3">&lt;strong&gt;</bpt>CS<ept id="p3">&lt;/strong&gt;</ept>, <bpt id="p4">&lt;strong&gt;</bpt>ET<ept id="p4">&lt;/strong&gt;</ept>, <bpt id="p5">&lt;strong&gt;</bpt>HU<ept id="p5">&lt;/strong&gt;</ept>, <bpt id="p6">&lt;strong&gt;</bpt>LT<ept id="p6">&lt;/strong&gt;</ept>, <bpt id="p7">&lt;strong&gt;</bpt>LV<ept id="p7">&lt;/strong&gt;</ept>, <bpt id="p8">&lt;strong&gt;</bpt>PL<ept id="p8">&lt;/strong&gt;</ept> ve <bpt id="p9">&lt;strong&gt;</bpt>RU<ept id="p9">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="789">
+          <source>Additionally, the <bpt id="p1">&lt;strong&gt;</bpt>print currency name flag<ept id="p1">&lt;/strong&gt;</ept> parameter is analyzed only for Finance and Operations companies where the country's or region's context supports declension of currency names.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ek olarak, <bpt id="p1">&lt;strong&gt;</bpt>para birimi adını yazdır bayrağı<ept id="p1">&lt;/strong&gt;</ept> parametresi yalnızca ülke veya bölge bağlamının para birimi adlarının gerilemesini destekleyen Finance and Operations şirketleri için analiz edilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="790">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>NUMERALSTOTEXT (1234.56, <ph id="ph1">&amp;quot;</ph>EN<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph><ph id="ph4">&amp;quot;</ph>, false, 2)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph5">&amp;quot;</ph>One Thousand Two Hundred Thirty Four and 56<ph id="ph6">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>NUMERALSTOTEXT (1234.56, <ph id="ph1">&amp;quot;</ph>EN<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph><ph id="ph4">&amp;quot;</ph>, false, 2)<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph5">&amp;quot;</ph>One Thousand Two Hundred Thirty Four and 56<ph id="ph6">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="791">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>NUMERALSTOTEXT (120, <ph id="ph1">&amp;quot;</ph>PL<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph><ph id="ph4">&amp;quot;</ph>, false, 0)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph5">&amp;quot;</ph>Sto dwadzieścia<ph id="ph6">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>NUMERALSTOTEXT (120, <ph id="ph1">&amp;quot;</ph>PL<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph><ph id="ph4">&amp;quot;</ph>, false, 0)<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph5">&amp;quot;</ph>Sto dwadzieścia<ph id="ph6">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="792">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>NUMERALSTOTEXT (120.21, <ph id="ph1">&amp;quot;</ph>RU<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>EUR<ph id="ph4">&amp;quot;</ph>, true, 2)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph5">&amp;quot;</ph>Сто двадцать евро 21 евроцент<ph id="ph6">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>NUMERALSTOTEXT (120.21, <ph id="ph1">&amp;quot;</ph>RU<ph id="ph2">&amp;quot;</ph>, <ph id="ph3">&amp;quot;</ph>EUR<ph id="ph4">&amp;quot;</ph>, true, 2)<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph5">&amp;quot;</ph>Сто двадцать евро 21 евроцент<ph id="ph6">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="793">
+          <source>PADLEFT (string, length, padding chars)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PADLEFT (dize, uzunluk, doldurma karakterleri)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="794">
+          <source>Return a string of the specified length, where the start of the specified string is padded with the specified characters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dizenin başlangıcının belirtilen karakterlerle doldurulduğu belirtilen uzunlukta bir dize döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="795">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>PADLEFT (<ph id="ph1">&amp;quot;</ph>1234<ph id="ph2">&amp;quot;</ph>, 10, <ph id="ph3">&amp;quot;</ph><ph id="ph4">&amp;nbsp;</ph><ph id="ph5">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> returns the text string <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph6">&amp;quot;</ph><ph id="ph7">&amp;nbsp;</ph><ph id="ph8">&amp;nbsp;</ph><ph id="ph9">&amp;nbsp;</ph><ph id="ph10">&amp;nbsp;</ph><ph id="ph11">&amp;nbsp;</ph><ph id="ph12">&amp;nbsp;</ph>1234<ph id="ph13">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>PADLEFT (<ph id="ph1">&amp;quot;</ph>1234<ph id="ph2">&amp;quot;</ph>, 10, <ph id="ph3">&amp;quot;</ph><ph id="ph4">&amp;nbsp;</ph><ph id="ph5">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph6">&amp;quot;</ph><ph id="ph7">&amp;nbsp;</ph><ph id="ph8">&amp;nbsp;</ph><ph id="ph9">&amp;nbsp;</ph><ph id="ph10">&amp;nbsp;</ph><ph id="ph11">&amp;nbsp;</ph><ph id="ph12">&amp;nbsp;</ph>1234<ph id="ph13">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> metin dizesini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="796">
+          <source>TRIM (string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TRIM (dize)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="797">
+          <source>Return the specified text string after leading and trailing spaces have been truncated, and after multiple spaces between words have been removed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen metin dizesini baştaki ve sondaki boşluklar kesildikten ve sözcükler arasındaki birden fazla boşluk kaldırıldıktan sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="798">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>TRIM (<ph id="ph1">&amp;quot;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph><ph id="ph4">&amp;nbsp;</ph><ph id="ph5">&amp;nbsp;</ph><ph id="ph6">&amp;nbsp;</ph>Sample<ph id="ph7">&amp;nbsp;</ph><ph id="ph8">&amp;nbsp;</ph><ph id="ph9">&amp;nbsp;</ph><ph id="ph10">&amp;nbsp;</ph><ph id="ph11">&amp;nbsp;</ph>text<ph id="ph12">&amp;nbsp;</ph><ph id="ph13">&amp;nbsp;</ph><ph id="ph14">&amp;nbsp;</ph><ph id="ph15">&amp;nbsp;</ph><ph id="ph16">&amp;nbsp;</ph><ph id="ph17">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept> returns <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph18">&amp;quot;</ph>Sample text<ph id="ph19">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>TRIM (<ph id="ph1">&amp;quot;</ph><ph id="ph2">&amp;nbsp;</ph><ph id="ph3">&amp;nbsp;</ph><ph id="ph4">&amp;nbsp;</ph><ph id="ph5">&amp;nbsp;</ph><ph id="ph6">&amp;nbsp;</ph>Sample<ph id="ph7">&amp;nbsp;</ph><ph id="ph8">&amp;nbsp;</ph><ph id="ph9">&amp;nbsp;</ph><ph id="ph10">&amp;nbsp;</ph><ph id="ph11">&amp;nbsp;</ph>text<ph id="ph12">&amp;nbsp;</ph><ph id="ph13">&amp;nbsp;</ph><ph id="ph14">&amp;nbsp;</ph><ph id="ph15">&amp;nbsp;</ph><ph id="ph16">&amp;nbsp;</ph><ph id="ph17">&amp;quot;</ph>)<ept id="p1">&lt;/strong&gt;</ept>  <bpt id="p2">&lt;strong&gt;</bpt><ph id="ph18">&amp;quot;</ph>Örnek metin<ph id="ph19">&amp;quot;</ph><ept id="p2">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="799">
+          <source>GETENUMVALUEBYNAME (enumeration data source path, enumeration value label text)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">GETENUMVALUEBYNAME (veri kaynağı yolu numaralandırması, değer etiket metni numaralandırması)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="800">
+          <source>Return a value of the specified enumeration data source, based on the specified text of the enumeration label.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirli bir numaralandırma veri kaynağının değerini, numaralandırma etiketinin belirtilen metnini temel alarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="801">
+          <source>In the following illustration, the <bpt id="p1">&lt;strong&gt;</bpt>ReportDirection<ept id="p1">&lt;/strong&gt;</ept> enumeration is introduced in a data model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnekte, bir veri modelinde oluşturulan <bpt id="p1">&lt;strong&gt;</bpt>ReportDirection<ept id="p1">&lt;/strong&gt;</ept> numaralandırması gösterilmektedir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="802">
+          <source>Note that labels are defined for enumeration values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Etiketlerin numaralandırma değerleri ile tanımlandığını unutmayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="803">
+          <source>The following illustration shows these details:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki örnek ayrıntıları göstermektedir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="804">
+          <source>The <bpt id="p1">&lt;strong&gt;</bpt>ReportDirection<ept id="p1">&lt;/strong&gt;</ept> model enumeration is inserted into a report as a data source, <bpt id="p2">&lt;strong&gt;</bpt>$Direction<ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri kaynağı <bpt id="p2">&lt;strong&gt;</bpt>$Direction<ept id="p2">&lt;/strong&gt;</ept> olarak bir rapora eklenen <bpt id="p1">&lt;strong&gt;</bpt>ReportDirection<ept id="p1">&lt;/strong&gt;</ept> model numaralandırması.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="805">
+          <source>An ER expression, <bpt id="p1">&lt;strong&gt;</bpt>$IsArrivals<ept id="p1">&lt;/strong&gt;</ept>, is designed to use the model enumeration as a parameter of this function.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu işlevin parametresi olarak model numaralandırma kullanmak için tasarlanan <bpt id="p1">&lt;strong&gt;</bpt>$IsArrivals<ept id="p1">&lt;/strong&gt;</ept> ER ifadesi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="806">
+          <source>The value of this expression is <bpt id="p1">&lt;strong&gt;</bpt>TRUE<ept id="p1">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu ifadenin değeri <bpt id="p1">&lt;strong&gt;</bpt>DOĞRU<ept id="p1">&lt;/strong&gt;</ept>'dur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="807">
+          <source>GUIDVALUE (input)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">GUIDVALUE (giriş)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="808">
+          <source>Convert the specified input of the <bpt id="p1">&lt;strong&gt;</bpt>String<ept id="p1">&lt;/strong&gt;</ept> data type to a data item of the <bpt id="p2">&lt;strong&gt;</bpt>GUID<ept id="p2">&lt;/strong&gt;</ept> data type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen <bpt id="p1">&lt;strong&gt;</bpt>Dize<ept id="p1">&lt;/strong&gt;</ept> veri türündeki girişi <bpt id="p2">&lt;strong&gt;</bpt>GUID<ept id="p2">&lt;/strong&gt;</ept> veri türünde bir veri öğesine dönüştürün.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="809">
+          <source>To do a conversion in the opposite direction (that is, to convert specified input of the <bpt id="p1">&lt;strong&gt;</bpt>GUID<ept id="p1">&lt;/strong&gt;</ept> data type to a data item of the <bpt id="p2">&lt;strong&gt;</bpt>String<ept id="p2">&lt;/strong&gt;</ept> data type), you can use the <bpt id="p3">&lt;strong&gt;</bpt>TEXT()<ept id="p3">&lt;/strong&gt;</ept> function.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ters yönde dönüştürme yapmak için (diğer bir deyişle, <bpt id="p1">&lt;strong&gt;</bpt>GUID<ept id="p1">&lt;/strong&gt;</ept> veri türünün belirtilen girişini <bpt id="p2">&lt;strong&gt;</bpt>Dize<ept id="p2">&lt;/strong&gt;</ept> veri türünün veri öğesine dönüştürmek için), <bpt id="p3">&lt;strong&gt;</bpt>TEXT()<ept id="p3">&lt;/strong&gt;</ept> işlevini kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="810">
+          <source>You define the following data sources in your model mapping:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="811">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>myID<ept id="p1">&lt;/strong&gt;</ept> (<bpt id="p2">&lt;strong&gt;</bpt>Calculated field<ept id="p2">&lt;/strong&gt;</ept> type), which contains the expression <bpt id="p3">&lt;strong&gt;</bpt>GUIDVALUE(<ph id="ph1">&amp;quot;</ph>AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0<ph id="ph2">&amp;quot;</ph>)<ept id="p3">&lt;/strong&gt;</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p3">&lt;strong&gt;</bpt>GUIDVALUE (<ph id="ph1">&amp;quot;</ph>AF5CCDAC-F728-4609-8C8B-A4B30B0C0AA0<ph id="ph2">&amp;quot;</ph>)<ept id="p3">&lt;/strong&gt;</ept> ifadesini içeren <bpt id="p1">&lt;strong&gt;</bpt>myID<ept id="p1">&lt;/strong&gt;</ept> (<bpt id="p2">&lt;strong&gt;</bpt>Hesaplanan alan<ept id="p2">&lt;/strong&gt;</ept> türü)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="812">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Users<ept id="p1">&lt;/strong&gt;</ept> (<bpt id="p2">&lt;strong&gt;</bpt>Table records<ept id="p2">&lt;/strong&gt;</ept> type), which refers to the UserInfo table</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UserInfo tablosuna başvuran <bpt id="p1">&lt;strong&gt;</bpt>Users<ept id="p1">&lt;/strong&gt;</ept> (<bpt id="p2">&lt;strong&gt;</bpt>Tablo kayıtları<ept id="p2">&lt;/strong&gt;</ept> türü)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="813">
+          <source>When these data sources are defined, you can use an expression such as <bpt id="p1">&lt;strong&gt;</bpt>FILTER (Users, Users.objectId = myID)<ept id="p1">&lt;/strong&gt;</ept> to filter the UserInfo table by the <bpt id="p2">&lt;strong&gt;</bpt>objectId<ept id="p2">&lt;/strong&gt;</ept> field of the <bpt id="p3">&lt;strong&gt;</bpt>GUID<ept id="p3">&lt;/strong&gt;</ept> data type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu veri kaynakları tanımlandığında, UserInfo tablosunu <bpt id="p3">&lt;strong&gt;</bpt>GUID<ept id="p3">&lt;/strong&gt;</ept> veri türünde <bpt id="p2">&lt;strong&gt;</bpt>objectId<ept id="p2">&lt;/strong&gt;</ept> alanıyla filtrelemek için <bpt id="p1">&lt;strong&gt;</bpt>FILTER (Users, Users.objectId = myID)<ept id="p1">&lt;/strong&gt;</ept> gibi bir ifade kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="814">
+          <source>JSONVALUE (id, path)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">JSONVALUE (kod, yol)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="815">
+          <source>Parse data in JavaScript Object Notation (JSON) format that is accessed by the specified path to extract a scalar value that is based on the specified ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verileri, belirtilen koda göre skaler bir değer çıkarmak için belirtilen yolla erişilen JavaScript Nesne Gösterimi (JSON) biçiminde ayrıştırın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="816">
+          <source>The data source <bpt id="p1">&lt;strong&gt;</bpt>$JsonField<ept id="p1">&lt;/strong&gt;</ept> contains the following data in JSON format: <bpt id="p2">&lt;strong&gt;</bpt>{<ph id="ph1">&amp;quot;</ph>BuildNumber<ph id="ph2">&amp;quot;</ph>:<ph id="ph3">&amp;quot;</ph>7.3.1234.1<ph id="ph4">&amp;quot;</ph>, <ph id="ph5">&amp;quot;</ph>KeyThumbprint<ph id="ph6">&amp;quot;</ph>:<ph id="ph7">&amp;quot;</ph>7366E<ph id="ph8">&amp;quot;</ph>}<ept id="p2">&lt;/strong&gt;</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri kaynağı <bpt id="p1">&lt;strong&gt;</bpt>$JsonField<ept id="p1">&lt;/strong&gt;</ept> aşağıdaki veriyi JSON biçiminde içerir: <bpt id="p2">&lt;strong&gt;</bpt>{<ph id="ph1">&amp;quot;</ph>BuildNumber<ph id="ph2">&amp;quot;</ph>:<ph id="ph3">&amp;quot;</ph>7.3.1234.1<ph id="ph4">&amp;quot;</ph>, <ph id="ph5">&amp;quot;</ph>KeyThumbprint<ph id="ph6">&amp;quot;</ph>:<ph id="ph7">&amp;quot;</ph>7366E<ph id="ph8">&amp;quot;</ph>}<ept id="p2">&lt;/strong&gt;</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="817">
+          <source>For this data source, <ph id="ph1">&lt;/strong&gt;</ph>JSONVALUE ( <ph id="ph2">&amp;quot;</ph>BuildNumber<ph id="ph3">&amp;quot;</ph>, $JsonField)<ph id="ph4">&lt;/strong&gt;</ph> returns the value <bpt id="p1">&lt;strong&gt;</bpt>7.3.1234.1<ept id="p1">&lt;/strong&gt;</ept> of the <bpt id="p2">&lt;strong&gt;</bpt>String<ept id="p2">&lt;/strong&gt;</ept> data type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu veri kaynağı için, <ph id="ph1">&lt;/strong&gt;</ph>JSONVALUE ( <ph id="ph2">&amp;quot;</ph>BuildNumber<ph id="ph3">&amp;quot;</ph>, $JsonField)<ph id="ph4">&lt;/strong&gt;</ph>, <bpt id="p2">&lt;strong&gt;</bpt>Dize<ept id="p2">&lt;/strong&gt;</ept> veri türünde <bpt id="p1">&lt;strong&gt;</bpt>7.3.1234.1<ept id="p1">&lt;/strong&gt;</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="818">
+          <source>Data conversion functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri dönüştürme işlemleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="819">
+          <source>Function</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="820">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="821">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="822">
+          <source>TEXT (input)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TEXT (giriş)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="823">
+          <source>Return the specified input after it has been converted to a text string that is formatted according to the server locale settings of the current Finance and Operations instance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen giriş geçerli Finance and Operations örneğinin sunucu yerel ayarlarına göre biçimlendirilmiş bir metin dizesine çevrildikten sonra döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="824">
+          <source>For values of the <bpt id="p1">**</bpt>real<ept id="p1">**</ept> type, the string conversion is limited to two decimal places.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>gerçek<ept id="p1">**</ept> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="825">
+          <source>If the server locale of the Finance and Operations instance is defined as <bpt id="p1">**</bpt>EN-US<ept id="p1">**</ept>, <bpt id="p2">**</bpt>TEXT (NOW ())<ept id="p2">**</ept> returns the current Finance and Operations session date, December 17, 2015, as the text string <bpt id="p3">**</bpt>"12/17/2015 07:59:23 AM"<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations örneğinin sunucu yerel ayarı <bpt id="p1">**</bpt>EN-US<ept id="p1">**</ept> olarak tanımlanırsa, <bpt id="p2">**</bpt>TEXT (NOW ())<ept id="p2">**</ept> geçerli Finance and Operations oturum tarihi olan Aralık 17, 2015 değerini <bpt id="p3">**</bpt>12/17/2015 07:59:23 AM<ept id="p3">**</ept> metin dizesi olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="826">
+          <source><bpt id="p1">**</bpt>TEXT (1/3)<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>"0.33"<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>TEXT (1/3)<ept id="p1">**</ept>, <bpt id="p2">**</bpt>"0.33"<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="827">
+          <source>QRCODE (string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QRCODE (dize)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="828">
+          <source>Return a Quick Response Code (QR code) image in base64 binary format for the specified string.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dize için base64 ikili biçiminde Hızlı Yanıt Kodu (QR kodu) görüntüsü döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="829">
+          <source><bpt id="p1">**</bpt>QRCODE ("Sample text")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>U2FtcGxlIHRleHQ=<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>QRCODE ("Örnek metin")<ept id="p1">**</ept> <bpt id="p2">**</bpt>U2FtcGxlIHRleHQ=<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="830">
+          <source>Data collection functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veri toplama işlevleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="831">
+          <source>Function</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="832">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="833">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="834">
+          <source>FORMATELEMENTNAME ()</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FORMATELEMENTNAME ()</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="835">
+          <source>Return the name of the current format's element.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli biçimin öğesinin adını döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="836">
+          <source>Return an empty string when the <bpt id="p1">**</bpt>Collect output details<ept id="p1">**</ept> flag of the current files is turned off.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli dosyaların <bpt id="p1">**</bpt>Çıkış ayrıntılarını topla<ept id="p1">**</ept> bayrağı kapatıldığında boş bir size döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="837">
+          <source>To learn more about how to use this function, see the <bpt id="p1">**</bpt>ER Use data of format output for counting and summing<ept id="p1">**</ept> task guide, which is part of the <bpt id="p2">**</bpt>Acquire/Develop IT service/solution components<ept id="p2">**</ept> business process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu işlevlerin kullanımı hakkında daha fazla bilgi edinmek için <bpt id="p1">**</bpt>ER Sayma ve toplama için çıktı biçiminde verileri kullanma<ept id="p1">**</ept> görev kılavuzuna (<bpt id="p2">**</bpt>BT hizmeti/çözüm bileşenleri alma/geliştirme<ept id="p2">**</ept> iş sürecinin parçasıdır) başvurun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="838">
+          <source>SUMIFS (key string for summing, criteria range1 string, criteria value1 string <ph id="ph1">\[</ph>, criteria range2 string, criteria value2 string, …<ph id="ph2">\]</ph>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SUMIFS (toplamı alınacak temel dize, ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi <ph id="ph1">\[</ph>, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...<ph id="ph2">\]</ph>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="839">
+          <source>Return the sum of values  that was collected for XML nodes (where the name is defined as a key) when the format was run, and that satisfies the specified conditions (pairs of ranges and values).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu biçimi yürütme sırasında toplanan ve belirtilen koşulları (aralık ve değer çiftleri) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="840">
+          <source>Return a <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (zero) value when the <bpt id="p2">**</bpt>Collect output details<ept id="p2">**</ept> flag of the current files is turned off.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli dosyaların <bpt id="p2">**</bpt>Çıkış ayrıntılarını topla<ept id="p2">**</ept> bayrağı kapatıldığında <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (sıfır) değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="841">
+          <source>SUMIF (key string for summing, criteria range string, criteria value string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SUMIF (toplama için temel dize, ölçüt aralığı dizesi, ölçüt değeri dizesi)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="842">
+          <source>Return the sum of values that was collected for XML nodes (where the name is defined as a key) when the format was run, and that satisfies the specified condition (a range and value).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu biçimi yürütme sırasında toplanan ve belirtilen koşulu (aralık ve değer) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="843">
+          <source>Return a <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (zero) value when the <bpt id="p2">**</bpt>Collect output details<ept id="p2">**</ept> flag of the current files is turned off.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli dosyaların <bpt id="p2">**</bpt>Çıkış ayrıntılarını topla<ept id="p2">**</ept> bayrağı kapatıldığında <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (sıfır) değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="844">
+          <source>COUNTIFS (criteria range1 string, criteria value1 string <ph id="ph1">\[</ph>, criteria range2 string, criteria value2 string, …<ph id="ph2">\]</ph>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">COUNTIFS (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi <ph id="ph1">\[</ph>, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...<ph id="ph2">\]</ph>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="845">
+          <source>Return the number of XML nodes that was collected when the format was run, and that satisfies the specified conditions (pairs of ranges and values).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçimi yürütme sırasında toplanan ve belirtilen koşulları (aralık ve değer çiftleri) karşılayan XML düğüm sayısını döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="846">
+          <source>Return a <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (zero) value when the <bpt id="p2">**</bpt>Collect output details<ept id="p2">**</ept> flag of the current files is turned off.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli dosyaların <bpt id="p2">**</bpt>Çıkış ayrıntılarını topla<ept id="p2">**</ept> bayrağı kapatıldığında <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (sıfır) değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="847">
+          <source>COUNTIF (criteria range string, criteria value string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">COUNTIF (ölçüt aralığı dizesi, ölçüt değeri dizesi)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="848">
+          <source>Return the number of XML nodes that was collected when the format was run, and that satisfies the specified condition (a range and value).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçimi yürütme sırasında toplanan ve belirtilen koşulu (aralık ve değer) karşılayan XML düğüm sayısını döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="849">
+          <source>Return a <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (zero) value the flag <bpt id="p2">**</bpt>Collect output details<ept id="p2">**</ept> flag of the current files is turned off.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli dosyaların <bpt id="p2">**</bpt>Çıkış ayrıntılarını topla<ept id="p2">**</ept> bayrağı kapatıldığında <bpt id="p1">**</bpt>0<ept id="p1">**</ept> (sıfır) değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="850">
+          <source>COLLECTEDLIST (criteria range1 string, criteria value1 string <ph id="ph1">\[</ph>, criteria range2 string, criteria value2 string, …<ph id="ph2">\]</ph>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">COLLECTEDLIST (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi <ph id="ph1">\[</ph>, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...<ph id="ph2">\]</ph>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="851">
+          <source>Return the list of values that was collected for XML nodes when the format was run, and that satisfies the specified conditions (a range and value).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biçimi yürütme sırasında toplanan ve belirtilen koşulları (aralık ve değer) karşılayan XML düğümleri için toplanmış değerler listesini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="852">
+          <source>Return an empty list when the <bpt id="p1">**</bpt>Collect output details<ept id="p1">**</ept> flag of the current files is turned off.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçerli dosyaların <bpt id="p1">**</bpt>Çıkış ayrıntılarını topla<ept id="p1">**</ept> bayrağı kapatıldığında boş liste döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="853">
+          <source>Other (business domain–specific) functions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diğer (belirli iş etki alanı) işlevleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="854">
+          <source>Function</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlev</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="855">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Açıklama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="856">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örnek</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="857">
+          <source>CONVERTCURRENCY (amount, source currency, target currency, date, company)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CONVERTCURRENCY (tutar, kaynak para birimi, hedef para birimi, tarih, şirket)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="858">
+          <source>Convert the specified monetary amount from the specified source currency to the specified target currency by using the settings of the specified Finance and Operations company on the specified date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen parasal tutarı kaynak para biriminden, belirtilen tarihte belirtilen Finance and Operations şirketinin ayarlarını kullanarak belirtilen hedef para birimine dönüştürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="859">
+          <source><bpt id="p1">**</bpt>CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")<ept id="p1">**</ept> returns the equivalent of one euro in US dollars on the current session date, based on settings for the DEMF company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")<ept id="p1">**</ept>, şimdiki oturum tarihinde, DEMF şirket ayarlarına dayalı olarak bir euro'nun ABD doları olarak karşılığını döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="860">
+          <source>ROUNDAMOUNT (number, decimals, round rule)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ROUNDAMOUNT (sayı, ondalık, yuvarlama kuralı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="861">
+          <source>Round the specified amount to the specified number of decimal places according to the specified rounding rule.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen yuvarlama kuralına göre belirtilen tutarı belirtilen ondalık basamak sayısına yuvarlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="862">
+          <source>The rounding rule must be specified as a value of the Finance and Operations <bpt id="p1">**</bpt>RoundOffType<ept id="p1">**</ept> enumeration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yuvarlama kuralı Finance and Operations <bpt id="p1">**</bpt>RoundOffType<ept id="p1">**</ept> numaralandırmasının bir değeri olarak belirtilmelidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="863">
+          <source>If the <bpt id="p1">**</bpt>model.RoundOff<ept id="p1">**</ept> parameter is set to <bpt id="p2">**</bpt>Downward<ept id="p2">**</ept>, <bpt id="p3">**</bpt>ROUNDAMOUNT (1000.787, 2, model.RoundOff)<ept id="p3">**</ept> returns the value <bpt id="p4">**</bpt>1000.78<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>model.RoundOff<ept id="p1">**</ept> parametresi <bpt id="p2">**</bpt>Aşağıya<ept id="p2">**</ept> olarak ayarlanırsa, <bpt id="p3">**</bpt>ROUNDAMOUNT (1000.787, 2, model.RoundOff)<ept id="p3">**</ept> <bpt id="p4">**</bpt>1000.78<ept id="p4">**</ept> değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="864">
+          <source>If the <bpt id="p1">**</bpt>model.RoundOff<ept id="p1">**</ept> parameter is set to either <bpt id="p2">**</bpt>Normal<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Rounding-up<ept id="p3">**</ept>, <bpt id="p4">**</bpt>ROUNDAMOUNT (1000.787, 2, model.RoundOff)<ept id="p4">**</ept> returns the value <bpt id="p5">**</bpt>1000.79<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eğer <bpt id="p1">**</bpt>model.RoundOff<ept id="p1">**</ept> parametresi <bpt id="p2">**</bpt>Normal<ept id="p2">**</ept> ya da <bpt id="p3">**</bpt>Yukarıya yuvarla<ept id="p3">**</ept> olarak ayarlanmışsa, <bpt id="p4">**</bpt>ROUNDAMOUNT (1000.787, 2, model.RoundOff)<ept id="p4">**</ept>, <bpt id="p5">**</bpt>1000,79<ept id="p5">**</ept> değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="865">
+          <source>CURCredRef (digits)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CURCredRef (basamak)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="866">
+          <source>Return a creditor reference, based on the digits of the specified invoice number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusu döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="867">
+          <source><bpt id="p1">**</bpt>CURCredRef ("VEND-200002")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>"2200002"<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CURCredRef ("Satıcı-200002")<ept id="p1">**</ept>, <bpt id="p2">**</bpt>"2200002"<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="868">
+          <source>MOD<ph id="ph1">\_</ph>97 (digits)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MOD<ph id="ph1">\_</ph>97 (basamak)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="869">
+          <source>Return a creditor reference as a MOD97 expression, based on the digits of the specified invoice number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusunu bir MOD97 ifadesi olarak döndür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="870">
+          <source><bpt id="p1">**</bpt>MOD<ph id="ph1">\_</ph>97 ("VEND-200002")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>"20000285"<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>MOD<ph id="ph1">\_</ph>97 ("VEND-200002")<ept id="p1">**</ept>, <bpt id="p2">**</bpt>"20000285"<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="871">
+          <source>ISOCredRef (digits)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ISOCredRef (basamak)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="872">
+          <source>Return an International Organization for Standardization (ISO) creditor reference, based on the digits and alphabetic symbols of the specified invoice number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir Uluslararası Standartlar Kuruluşu (ISO) alacaklı başvurusunu, belirtilen fatura numarasının basamakları ve alfabetik sembollerine dayalı olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="873">
+          <source>To eliminate symbols from alphabets that aren't ISO-compliant, the input parameter must be translated before it's passed to this function.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ISO uyumlu olmayan alfabelerden sembolleri elemek için, giriş parametresinin işleve gönderilmeden önce çevrilmesi gerekir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="874">
+          <source><bpt id="p1">**</bpt>ISOCredRef ("VEND-200002")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>"RF23VEND-200002"<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ISOCredRef ("VEND-200002")<ept id="p1">**</ept>, <bpt id="p2">**</bpt>"RF23VEND-200002"<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="875">
+          <source>CN<ph id="ph1">\_</ph>GBT<ph id="ph2">\_</ph>AdditionalDimensionID (string, number)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CN<ph id="ph1">\_</ph>GBT<ph id="ph2">\_</ph>AdditionalDimensionID (dize, sayı)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="876">
+          <source>Get the specified additional financial dimension ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen ek mali boyut kodunu alın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="877">
+          <source>In the <bpt id="p1">**</bpt>string<ept id="p1">**</ept> parameter, dimensions are represented as IDs that are separated by commas.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Dize<ept id="p1">**</ept> parametresinde, boyutlar virgülle ayrılmış kodlar olarak gösterilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="878">
+          <source>The <bpt id="p1">**</bpt>number<ept id="p1">**</ept> parameter defines the sequence code of the requested dimension in the string.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sayı<ept id="p1">**</ept> parametresi, dizedeki istenen boyutun sıra kodunu tanımlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="879">
+          <source><bpt id="p1">**</bpt>CN<ph id="ph1">\_</ph>GBT<ph id="ph2">\_</ph>AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>"CC"<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CN<ph id="ph1">\_</ph>GBT<ph id="ph2">\_</ph>AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)<ept id="p1">**</ept> <bpt id="p2">**</bpt>"CC"<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="880">
+          <source>GetCurrentCompany ()</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">GetCurrentCompany ()</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="881">
+          <source>Return a text representation of the code for the legal entity (company) that a user is currently signed in to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir kullanıcının oturum açmış olduğu tüzel kişiliğin (şirket) kodunun metin olarak gösterimini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="882">
+          <source><bpt id="p1">**</bpt>GETCURRENTCOMPANY ()<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>USMF<ept id="p2">**</ept> for a user who is signed in to the <bpt id="p3">**</bpt>Contoso Entertainment System USA<ept id="p3">**</ept> company in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>GETCURRENTCOMPANY ()<ept id="p1">**</ept>, Finance and Operations'da <bpt id="p3">**</bpt>Contoso Entertainment System USA<ept id="p3">**</ept> şirketinde oturum açmış bir kullanıcı için <bpt id="p2">**</bpt>USMF<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="883">
+          <source>CH<ph id="ph1">\_</ph>BANK<ph id="ph2">\_</ph>MOD<ph id="ph3">\_</ph>10 (digits)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CH<ph id="ph1">\_</ph>BANK<ph id="ph2">\_</ph>MOD<ph id="ph3">\_</ph>10 (basamaklar)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="884">
+          <source>Return a creditor reference as an MOD10 expression, based on the digits of the specified invoice number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusunu bir MOD10 ifadesi olarak döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="885">
+          <source><bpt id="p1">**</bpt>CH<ph id="ph1">\_</ph>BANK<ph id="ph2">\_</ph>MOD<ph id="ph3">\_</ph>10 ("VEND-200002")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>3<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CH<ph id="ph1">\_</ph>BANK<ph id="ph2">\_</ph>MOD<ph id="ph3">\_</ph>10 ("VEND-200002")<ept id="p1">**</ept> <bpt id="p2">**</bpt>3<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="886">
+          <source>FA<ph id="ph1">\_</ph>SUM (fixed asset code, value model code, start date, end date)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FA<ph id="ph1">\_</ph>SUM (sabit kıymet kodu, değer modeli kodu, başlangıç tarihi, bitiş tarihi)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="887">
+          <source>Return the prepared data container of the fixed asset amount for the specified period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dönem için sabit kıymet tutarının hazırlanan veri kapsayıcısını döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="888">
+          <source><bpt id="p1">**</bpt>FA<ph id="ph1">\_</ph>SUM ("COMP-000001", "Current", Date1, Date2)<ept id="p1">**</ept> returns the prepared data container of fixed asset <bpt id="p2">**</bpt>"COMP-000001"<ept id="p2">**</ept> that has the <bpt id="p3">**</bpt>"Current"<ept id="p3">**</ept> value model for a period from <bpt id="p4">**</bpt>Date1<ept id="p4">**</ept> to <bpt id="p5">**</bpt>Date2<ept id="p5">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FA<ph id="ph1">\_</ph>SUM ("COMP-000001", "Current", Date1, Date2)<ept id="p1">**</ept> <bpt id="p4">**</bpt>Date1<ept id="p4">**</ept> ile <bpt id="p5">**</bpt>Date2<ept id="p5">**</ept> arasındaki dönem için <bpt id="p3">**</bpt>"Current"<ept id="p3">**</ept>  değer modeline sahip <bpt id="p2">**</bpt>"COMP-000001"<ept id="p2">**</ept> sabit kıymet için hazırlanan veri kapsayıcısını döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="889">
+          <source>FA<ph id="ph1">\_</ph>BALANCE (fixed asset code, value model code, reporting year, reporting date)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FA<ph id="ph1">\_</ph>BALANCE (sabit kıymet kodu, değer modeli kodu, raporlama yılı, raporlama tarihi)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="890">
+          <source>Return the prepared data container of the fixed asset balance.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sabit kıymet bakiyesinin hazırlanan veri kapsayıcısını döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="891">
+          <source>The reporting year must be specified as a value of the <bpt id="p1">**</bpt>AssetYear<ept id="p1">**</ept> enumeration in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Raporlama yılı, Finance and Operations'daki <bpt id="p1">**</bpt>AssetYear<ept id="p1">**</ept> numaralandırması değeri olarak belirtilmelidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="892">
+          <source><bpt id="p1">**</bpt>FA<ph id="ph1">\_</ph>SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())<ept id="p1">**</ept> returns the prepared data container of balances for fixed asset <bpt id="p2">**</bpt>"COMP-000001"<ept id="p2">**</ept> that has the <bpt id="p3">**</bpt>"Current"<ept id="p3">**</ept> value model on the current Finance and Operations session date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FA<ph id="ph1">\_</ph>SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())<ept id="p1">**</ept> geçerli Finance and Operations oturum tarihinde <bpt id="p3">**</bpt>"Current"<ept id="p3">**</ept> değer modeline sahip <bpt id="p2">**</bpt>"COMP-000001"<ept id="p2">**</ept> sabit kıymet bakiyeleri için hazırlanan veri kapsayıcısını döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="893">
+          <source>TABLENAME2ID (string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TABLENAME2ID (dize)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="894">
+          <source>Return an integer representation of a table ID for the specified table name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen tablo adı için tablo kodunun tam sayı olarak gösterimini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="895">
+          <source><bpt id="p1">**</bpt>TABLENAME2ID ("Intrastat")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>1510<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>TABLENAME2ID ("Intrastat")<ept id="p1">**</ept> <bpt id="p2">**</bpt>1510<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="896">
+          <source>ISVALIDCHARACTERISO7064 (string)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ISVALIDCHARACTERISO7064 (dize)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="897">
+          <source>Return the Boolean value <bpt id="p1">**</bpt>TRUE<ept id="p1">**</ept> when the specified string represents a valid international bank account number (IBAN).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen dize, geçerli bir uluslararası banka hesap numarasını (IBAN) temsil ediyorsa, <bpt id="p1">**</bpt>DOĞRU<ept id="p1">**</ept> boole değerini döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="898">
+          <source>Otherwise, return the Boolean value <bpt id="p1">**</bpt>FALSE<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aksi takdirde, <bpt id="p1">**</bpt>YANLIŞ<ept id="p1">**</ept> Boole değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="899">
+          <source><bpt id="p1">**</bpt>ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>TRUE<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")<ept id="p1">**</ept>, <bpt id="p2">**</bpt>DOĞRU<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="900">
+          <source><bpt id="p1">**</bpt>ISVALIDCHARACTERISO7064 ("AT61")<ept id="p1">**</ept> returns <bpt id="p2">**</bpt>FALSE<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ISVALIDCHARACTERISO7064 ("AT61")<ept id="p1">**</ept> <bpt id="p2">**</bpt>YANLIŞ<ept id="p2">**</ept> döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="901">
+          <source>NUMSEQVALUE (number sequence code, scope, scope id)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NUMSEQVALUE (numara serisi kodu, kapsamı, kapsam kimliği)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="902">
+          <source>Return the new generated value of a number sequence, based on the specified number sequence code, scope, and scope ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen numara serisi kodu, kapsamı ve kapsam kimliğine dayalı bir numara serisinin yeni oluşturulan değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="903">
+          <source>The scope must be specified as a value of the <bpt id="p1">**</bpt>ERExpressionNumberSequenceScopeType<ept id="p1">**</ept> enumeration (<bpt id="p2">**</bpt>Shared<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Legal entity<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>Company<ept id="p4">**</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kapsamın <bpt id="p1">**</bpt>ERExpressionNumberSequenceScopeType<ept id="p1">**</ept> sabit listesi (<bpt id="p2">**</bpt>paylaşılan<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Tüzel kişilik<ept id="p3">**</ept>, veya <bpt id="p4">**</bpt>şirket<ept id="p4">**</ept>) değeri olarak belirtilmesi gerekir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="904">
+          <source>For the <bpt id="p1">**</bpt>Shared<ept id="p1">**</ept> scope, specify an empty string as the scope ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Paylaşılan<ept id="p1">**</ept> kapsamı için, kapsam kimliği olarak boş bir dize belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="905">
+          <source>For the <bpt id="p1">**</bpt>Company<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Legal entity<ept id="p2">**</ept> scopes, specify the company code as the scope ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Şirket<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Tüzel kişilik<ept id="p2">**</ept> kapsamları için, kapsam kimliği olarak şirket kodu belirtin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="906">
+          <source>For the <bpt id="p1">**</bpt>Company<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Legal entity<ept id="p2">**</ept> scopes, if you specify an empty string as the scope ID, the current company code is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Şirket<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Tüzel kişilik<ept id="p2">**</ept> kapsamları için, kapsam kimliği olarak boş bir dize belirtirseniz geçerli şirket kodu kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="907">
+          <source>You define the following data sources in your model mapping:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="908">
+          <source><bpt id="p1">**</bpt>enumScope<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Dynamics 365 for Operations enumeration<ept id="p2">**</ept> type), which refers to the <bpt id="p3">**</bpt>ERExpressionNumberSequenceScopeType<ept id="p3">**</ept> enumeration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>enumScope<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Dynamics 365 for Operations numaralandırma<ept id="p2">**</ept> türü), başvuran için <bpt id="p3">**</bpt>ERExpressionNumberSequenceScopeType<ept id="p3">**</ept> numaralandırmaya karşılık gelir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="909">
+          <source><bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Calculated field<ept id="p2">**</ept> type), which contains the expression <bpt id="p3">**</bpt>NUMSEQVALUE ("Gene<ph id="ph1">\_</ph>1", enumScope.Company, "")<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Hesaplanan alan<ept id="p2">**</ept> türü), <bpt id="p3">**</bpt>NUMSEQVALUE ("Gene<ph id="ph1">\_</ph>1", enumScope.Company, "")<ept id="p3">**</ept> ifadesini içerir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="910">
+          <source>When the <bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> data source is called, it returns the new generated value of the <bpt id="p2">**</bpt>Gene<ph id="ph1">\_</ph>1<ept id="p2">**</ept> number sequence that has been configured for the company that supplies the context that the ER format is run under.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış <bpt id="p2">**</bpt>Gene<ph id="ph1">\_</ph>1<ept id="p2">**</ept> numara serisinin yeni oluşturulan değeri geri döner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="911">
+          <source>NUMSEQVALUE (number sequence code)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NUMSEQVALUE (numara sıra kodu)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="912">
+          <source>Return the new generated value of a number sequence, based on the specified number sequence, the <bpt id="p1">**</bpt>Company<ept id="p1">**</ept> scope, and (as the scope ID) the code of the company that supplies the context that is ER format is run under.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir numara sırasının belirtilen numara sırasına bağlı olarak yeni oluşturulan değeri, <bpt id="p1">**</bpt>Şirket<ept id="p1">**</ept> kapsamı ve (kapsam kimliği olarak) altında ER biçimi çalışan bağlam sağlayan şirketin kodu döner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="913">
+          <source>You define the following data source in your model mapping: <bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Calculated field<ept id="p2">**</ept> type).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Model eşlemeniz içinde şu veri kaynağını tanımladınız: <bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Hesaplanan alan<ept id="p2">**</ept> türü).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="914">
+          <source>This data source contains the expression <bpt id="p1">**</bpt>NUMSEQVALUE ("Gene<ph id="ph1">\_</ph>1")<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu veri kaynağı <bpt id="p1">**</bpt>NUMSEQVALUE ("Gene<ph id="ph1">\_</ph>1")<ept id="p1">**</ept> ifadesini içeriyor.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="915">
+          <source>When the <bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> data source is called, it returns the new generated value of the <bpt id="p2">**</bpt>Gene<ph id="ph1">\_</ph>1<ept id="p2">**</ept> number sequence that has been configured for the company that supplies the context that the ER format is run under.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış <bpt id="p2">**</bpt>Gene<ph id="ph1">\_</ph>1<ept id="p2">**</ept> numara serisinin yeni oluşturulan değeri geri döner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="916">
+          <source>NUMSEQVALUE (number sequence record ID)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">NUMSEQVALUE (numara sıra kodu kayıt kimliği)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="917">
+          <source>Return the new generated value of a number sequence, based on the specified number sequence record ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Belirtilen numara serisi kayıt kimliğine dayalı bir numara serisinin yeni oluşturulan değeri döndürür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="918">
+          <source>You define the following data sources in your model mapping:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="919">
+          <source><bpt id="p1">**</bpt>LedgerParms<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Table<ept id="p2">**</ept> type), which refers to the LedgerParameters table</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LedgerParameters tablosuna başvuran <bpt id="p1">**</bpt>LedgerParms<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Tablo<ept id="p2">**</ept> türü)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="920">
+          <source><bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Calculated field<ept id="p2">**</ept> type), which contains the expression <bpt id="p3">**</bpt>NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)<ept id="p3">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> (<bpt id="p2">**</bpt>Hesaplanan alan<ept id="p2">**</ept> türü), <bpt id="p3">**</bpt>NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)<ept id="p3">**</ept> ifadesini içerir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="921">
+          <source>When the <bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> data source is called, it returns the new generated value of the number sequence that has been configured in the General ledger parameters for the company that supplies the context that the ER format is run under.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>NumSeq<ept id="p1">**</ept> veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için Genel muhasebe parametrelerinde yapılandırılmış Gene1 numara serisinin yeni oluşturulan değeri geri döner.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="922">
+          <source>This number sequence uniquely identifies journals and acts as a batch number that links the transactions together.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu numara serisi benzersiz biçimde günlükleri tanıtır ve hareketleri birbirine bağlayan toplu iş numarası görevi görür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="923">
+          <source>Functions list extension</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Liste uzantı işlevleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="924">
+          <source>ER lets you extend the list of functions that are used in ER expressions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ER, ER ifadelerinde kullanılan işlevlerin listesini genişletmenize olanak sağlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="925">
+          <source>Some engineering effort is required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bazı mühendislik çabaları gereklidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="926">
+          <source>For detailed information, see <bpt id="p1">[</bpt>Extending the list of Electronic reporting functions<ept id="p1">](general-electronic-reporting-formulas-list-extension.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıntılı bilgi için bkz: <bpt id="p1">[</bpt>Elektronik raporlama işlevlerinin listesini genişletme<ept id="p1">](general-electronic-reporting-formulas-list-extension.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="927">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ek kaynaklar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="928">
+          <source><bpt id="p1">[</bpt>Electronic Reporting overview<ept id="p1">](general-electronic-reporting.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Elektronik Raporlamaya genel bakış<ept id="p1">](general-electronic-reporting.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="929">
+          <source><bpt id="p1">[</bpt>Extend the list of Electronic reporting (ER) functions<ept id="p1">](general-electronic-reporting-formulas-list-extension.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Elektronik raporlama (ER) işlev listesini genişletme<ept id="p1">](general-electronic-reporting-formulas-list-extension.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

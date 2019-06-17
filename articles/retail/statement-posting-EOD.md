@@ -1,176 +1,609 @@
----
-title: Ekstre deftere nakil işlevi geliştirmeleri
-description: Bu konu ekstre deftere nakli özelliğinde yapılan geliştirmeleri tanımlar.
-author: josaw1
-manager: AnnBe
-ms.date: 05/14/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.search.region: Global
-ms.search.industry: retail
-ms.author: anpurush
-ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: tr-TR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541303"
----
-# <a name="improvements-to-statement-posting-functionality"></a><span data-ttu-id="92181-103">Ekstre deftere nakil işlevi geliştirmeleri</span><span class="sxs-lookup"><span data-stu-id="92181-103">Improvements to statement posting functionality</span></span>
-
-[!include[banner](includes/banner.md)]
-
-<span data-ttu-id="92181-104">Bu konu ekstre deftere nakli özelliğinde yapılan ilk geliştirme kümesini açıklar.</span><span class="sxs-lookup"><span data-stu-id="92181-104">This topic describes the first set of improvements that have been made to the statement posting feature.</span></span> <span data-ttu-id="92181-105">Bu iyileştirmeler Microsoft Dynamics 365 for Finance and Operations 7.3.2 içinde kullanılabilirdir.</span><span class="sxs-lookup"><span data-stu-id="92181-105">These improvements are available in Microsoft Dynamics 365 for Finance and Operations 7.3.2.</span></span>
-
-## <a name="activation"></a><span data-ttu-id="92181-106">Etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="92181-106">Activation</span></span>
-
-<span data-ttu-id="92181-107">Varsayılan olarak, Finance and Operations 7.3.2 dağıtımı sırasında program eski ekstre deftere nakil özelliğini kullanacak şekilde ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="92181-107">By default, during deployment of Finance and Operations 7.3.2, the program is set up to use the legacy feature for statement postings.</span></span> <span data-ttu-id="92181-108">Geliştirilmiş ekstre deftere nakil özelliğini etkinleştirmek için buna ilişkin yapılandırma anahtarını etkinleştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="92181-108">To enable the improved statement posting feature, you must turn on the configuration key for it.</span></span>
-
-- <span data-ttu-id="92181-109">**Sistem Yönetimi** \> **Kurulum** \> **Lisans yapılandırması**'na gidin ve daha sonra **Perakende** düğümü altından **Perakende ekstreleri (eski)** onay kutusunun seçimini kaldırın ve **Perakende ekstreleri** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="92181-109">Go to **System administration** \> **Setup** \> **License configuration**, and then, under the **Retail** node, clear the **Retail statements (legacy)** check box, and select the **Retail statements** check box.</span></span>
-
-<span data-ttu-id="92181-110">Yeni **Perakende ekstreleri** yapılandırma anahtarı etkinleştirildiğinde, **Perakende ekstreleri** adındaki yeni menü kullanılabilir olur.</span><span class="sxs-lookup"><span data-stu-id="92181-110">When the new **Retail statements** configuration key is turned on, a new menu item that is named **Retail statements** is available.</span></span> <span data-ttu-id="92181-111">Bu menü öğesi ekstreleri el ile oluşturmanızı, hesaplamanızı ve deftere nakletmenizi sağlar.</span><span class="sxs-lookup"><span data-stu-id="92181-111">This menu item lets you manually create, calculate, and post statements.</span></span> <span data-ttu-id="92181-112">Toplu olarak deftere nakletme işlemi kullanıldığında hataya neden olan bir ekstre de bu menü öğesi ile kullanılabilir olacaktır.</span><span class="sxs-lookup"><span data-stu-id="92181-112">Any statement that causes an error when the batch posting process is used will also be available through this menu item.</span></span> <span data-ttu-id="92181-113">(**Perakende ekstreleri (eski)** yapılandırma anahtarı etkinleştirildiğinde, menü öğesi adı **Açık ekstreler** olur.)</span><span class="sxs-lookup"><span data-stu-id="92181-113">(When the **Retail statements (legacy)** configuration key is turned on, the menu item is named **Open statements**.)</span></span>
-
-<span data-ttu-id="92181-114">Finance and Operations bu yapılandırma anahtarlarıyla ilgili aşağıdaki doğrulamaları içerir:</span><span class="sxs-lookup"><span data-stu-id="92181-114">Finance and Operations includes the following validations that are related to these configuration keys:</span></span>
-
-- <span data-ttu-id="92181-115">İki yapılandırma anahtarı aynı anda açılamaz.</span><span class="sxs-lookup"><span data-stu-id="92181-115">Both configuration keys can't be turned on at the same time.</span></span>
-- <span data-ttu-id="92181-116">Yaşam döngüsü süresince belirli bir ekstrede gerçekleştirilen tüm işlemler için aynı yapılandırma anahtarı kullanılmalıdır (Oluştur, Hesapla, Sil, Deftere naklet, vb.).</span><span class="sxs-lookup"><span data-stu-id="92181-116">The same configuration keys must be used for all the operations that are performed on a given statement during its lifecycle (Create, Calculate, Clear, Post, and so on).</span></span> <span data-ttu-id="92181-117">Örneğin, **Perakende ekstresi (eski)** yapılandırma anahtarı açık olduğunda bir ekstreyi oluşturduktan ve hesapladıktan sonra aynı ekstreyi **Perakende ekstresi** yapılandırma anahtarını etkinleştirerek deftere nakledemezsiniz.</span><span class="sxs-lookup"><span data-stu-id="92181-117">For example, you can't create and calculate a statement while the **Retail statement (legacy)** configuration key is turned on, and then try to post the same statement while the **Retail statement** configuration key is turned on.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="92181-118">**Perakende ekstreleri (eski)** yapılandırma anahtarını kullanmanızı zorunlu kılan nedenler yoksa gelişmiş ekstre deftere nakil özelliği için **Perakende ekstreleri** yapılandırma anahtarını kullanmanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="92181-118">We recommend that you use the **Retail statements** configuration key for the improved statement posting feature, unless you have compelling reasons to use the **Retail statements (legacy)** configuration key instead.</span></span> <span data-ttu-id="92181-119">Microsoft yeni ve geliştirilmiş ekstre deftere nakil özelliğine yatırım yapmaya devam edecektir ve bundan yararlanmak için en kısa sürede buna geçmeniz önemlidir.</span><span class="sxs-lookup"><span data-stu-id="92181-119">Microsoft will continue to invest in the new and improved statement posting feature, and it's important that you switch to it at the earliest opportunity to benefit from it.</span></span> <span data-ttu-id="92181-120">Eski ekstre deftere nakli özelliği 8.0 sürümü itibarıyla kullanım dışı bırakılmıştır.</span><span class="sxs-lookup"><span data-stu-id="92181-120">The legacy statement posting feature is deprecated starting in 8.0 release.</span></span>
-
-## <a name="setup"></a><span data-ttu-id="92181-121">Ayarlama</span><span class="sxs-lookup"><span data-stu-id="92181-121">Setup</span></span>
-
-<span data-ttu-id="92181-122">Ekstre deftere nakli özelliğinde yapılan geliştirmelerin bir parçası olarak, **Perakende parametreleri** sayfasının **Deftere nakil** sekmesindeki **Ekstre** hızlı sekmesinde üç yeni parametre bulunmaktadır:</span><span class="sxs-lookup"><span data-stu-id="92181-122">As part of the improvements to the statement posting feature, three new parameters have been introduced on the **Statement** FastTab on the **Posting** tab of the **Retail parameters** page:</span></span>
-
-- <span data-ttu-id="92181-123">**Ekstre içeriğini sil işlevini devre dışı bırak** – Bu seçenek yalnızca eski ekstre deftere nakil özelliği için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="92181-123">**Disable clear statement** – This option is applicable only for the legacy statement posting feature.</span></span> <span data-ttu-id="92181-124">Kullanıcıların yarı deftere nakledilmiş durumdaki ekstreleri silmelerini önlemek için bu seçeneği **Hayır** olarak ayarlamanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="92181-124">We recommend that you set this option to **No** to prevent users from clearing statements that are in a semi-posted state.</span></span> <span data-ttu-id="92181-125">Yarı deftere nakledilmiş durumdaki ekstrelerin içeriği silinirse, veriler bozulur.</span><span class="sxs-lookup"><span data-stu-id="92181-125">If statements that are in a semi-posted state are cleared, data becomes corrupted.</span></span> <span data-ttu-id="92181-126">Bu seçeneği yalnızca özel durumlar için **Evet** olarak ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="92181-126">You should set this option to **Yes** only in exceptional circumstances.</span></span>
-- <span data-ttu-id="92181-127">**Hesaplama sırasında stoğu rezerve et** – Stok rezervasyonu için **Stok deftere nakil** toplu işini kullanmanızı ve bu seçeneği **Hayır** olarak ayarlamanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="92181-127">**Reserve inventory during calculation** – We recommend that you use the **Post inventory** batch job for inventory reservation, and that you set this option to **No**.</span></span> <span data-ttu-id="92181-128">Bu seçenek **Hayır** olarak ayarlandığında, gelişmiş ekstre deftere nakil özelliği hesaplama sırasında stok rezervasyon girişleri oluşturmaya çalışmaz (girişler daha önceden **Stok deftere nakil** toplu işlemi aracılığıyla ayarlanmadıysa).</span><span class="sxs-lookup"><span data-stu-id="92181-128">When this option is set to **No**, the improved statement posting feature doesn't try to create inventory reservation entries at the time of calculation (if entries weren't already created through the **Post inventory** batch job).</span></span> <span data-ttu-id="92181-129">Bunun yerine, özellik stok rezervasyon girişlerini yalnızca deftere nakil sırasında oluşturur.</span><span class="sxs-lookup"><span data-stu-id="92181-129">Instead, the feature creates inventory reservation entries only at the time of posting.</span></span> <span data-ttu-id="92181-130">Bu uygulama bir tasarım seçimiydi ve hesaplama işlemi ile deftere nakil işlemi arasındaki zaman aralığının tipik olarak kısa olması olgusunu temel almaktaydı.</span><span class="sxs-lookup"><span data-stu-id="92181-130">This implementation was a design choice and was based on the fact that the time window between the calculation process and the posting process is typically small.</span></span> <span data-ttu-id="92181-131">Bununla birlikte, stoğu hesaplama sırasında rezerve etmek istiyorsanız, bu seçeneği **Evet** olarak ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="92181-131">However, if you want to reserve inventory at the time of calculation, you can set this option to **Yes**.</span></span>
-
-    <span data-ttu-id="92181-132">Eski ekstre deftere nakli özelliği, bu seçeneğin ayarının ne olduğuna bakılmaksızın, stoğu daima ekstre hesaplama işlemi sırasında rezerve eder (rezervasyonun daha önce **Stok deftere nakil** toplu işlemi aracılığıyla yapılmamış olması durumunda).</span><span class="sxs-lookup"><span data-stu-id="92181-132">The legacy statement posting feature always reserves inventory during the statement calculation process (if reservation wasn't already done through the **Post inventory** batch job), regardless of the setting of this option.</span></span>
-
-- <span data-ttu-id="92181-133">**Sayımın devre dışı bırakılması gerekli** – Bu seçenek **Evet** olarak ayarlandığında, sayılan tutar ile hareket tutarı arasındaki fark Perakende mağazaları için **Ekstre** hızlı sekmesinde belirtilen eşiğin dışında olsa bile ekstre deftere nakil işlemi devam eder.</span><span class="sxs-lookup"><span data-stu-id="92181-133">**Disable counting required** – When this option is set to **Yes**, the posting process for a statement continues, even if the difference between the counted amount and the transaction amount on the statement is outside the threshold that is defined on the **Statement** FastTab for Retail stores.</span></span>
-
-<span data-ttu-id="92181-134">Ek olarak, aşağıdaki parametreler **Perakende parametleri** sayfasının **Deftere nakil** sekmesindeki **Toplu işleme** hızlı sekmesinde kullanıma sunulmuştur:</span><span class="sxs-lookup"><span data-stu-id="92181-134">Additionally, the following parameters have been introduced on the **Batch processing** FastTab on the **Posting** tab of the **Retail parameters** page:</span></span> 
-
-- <span data-ttu-id="92181-135">**Paralel ekstre deftere nakil maksimum sayısı** - Bu alan, çoklu ekstreleri deftere nakletmek için kullanılacak toplu iş görevlerini tanımlar.</span><span class="sxs-lookup"><span data-stu-id="92181-135">**Maximum number of parallel statement posting** - This field defines the number of batch tasks that will be used to post multiple statements.</span></span> 
-- <span data-ttu-id="92181-136">**Ekstre başına sipariş işleme için maksimum iş parçacığı** - Bu alan, tek bir ekstre için satış siparişleri oluşturmak ve faturalamak üzere ekstre deftere nakli toplu işi tarafından kullanılan maksimum iş parçacığı sayısını gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-136">**Max thread for order processing per statement** - This field represents the maximum number of threads used by the statement posting batch job to create and invoice sales orders for a single statement.</span></span> <span data-ttu-id="92181-137">Ekstre deftere nakil işlemi tarafından kullanılacak toplam iş parçacığı sayısı, bu parametredeki değer **Paralel ekstre deftere nakil maksimum sayısı**parametresindeki değerle çarpılarak hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="92181-137">The total number of threads that will be used by the statement posting process will be computed based on the value in this parameter multiplied by the value in the **Maximum number of parallel statement posting** parameter.</span></span> <span data-ttu-id="92181-138">Bu parametrenin değerinin çok yüksek bir değere ayarlanması, ekstre deftere nakil işleminin performansını olumsuz etkileyebilir.</span><span class="sxs-lookup"><span data-stu-id="92181-138">Setting the value of this parameter too high can negatively impact the performance of the statement posting process.</span></span>
-- <span data-ttu-id="92181-139">**Toplama dahil edilen maksimum hareket satırı** - Bu alan, yenisi oluşturulmadan önce tek bir toplam harekete dahil edilecek hareket satırlarının sayısını tanımlar.</span><span class="sxs-lookup"><span data-stu-id="92181-139">**Max transaction lines included in aggregation** - This field defines the number of transaction lines that will be included in a single aggregated transaction before a new one is created.</span></span> <span data-ttu-id="92181-140">Toplu hareketler müşteri, iş tarihi veya mali boyutlar gibi farklı toplama ölçütleri temel alınarak oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="92181-140">Aggregated transactions are created based on different aggregation criteria such as customer, business date, or financial dimensions.</span></span> <span data-ttu-id="92181-141">Tek bir perakende hareketindeki satırların, farklı toplu hareketler arasında bölünemeyeceğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="92181-141">It is important to note that the lines from a single retail transaction will not be split across different aggregated transactions.</span></span> <span data-ttu-id="92181-142">Bu, toplu hareketteki satırların sayısının, farklı ürünlerin sayısı gibi etkenlere bağlı olarak biraz daha yüksek veya düşük olma olasılığı bulunduğu anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="92181-142">This means that there is a possibility that the number of lines in a aggregated transaction is slightly higher or lower based on factors such as number of distinct products.</span></span>
-- <span data-ttu-id="92181-143">**Mağaza hareketlerini doğrulamak için maksimum iş parçacığı sayısı** - Bu alan, perakende hareketlerini doğrulamak için kullanılacak iş parçacıklarının sayısını tanımlar.</span><span class="sxs-lookup"><span data-stu-id="92181-143">**Maximum number of threads to validate store transactions** - This field defines the number of threads that will be used to validate retail transactions.</span></span> <span data-ttu-id="92181-144">Perakende hareketlerinin doğrulanması, hareketler ekstrelerden çekilmeden önce gerçekleşmesi gereken bir adımdır.</span><span class="sxs-lookup"><span data-stu-id="92181-144">Validating retail transactions is a required step that needs to occur before the transactions can be pulled into the statements.</span></span> <span data-ttu-id="92181-145">**Perakende parametreleri** sayfasının **Deftere nakil** sekmesindeki **Hediye kartı** hızlı sekmesinde bir **Hediye kartı ürünü** tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="92181-145">You also need to define a **Gift card product** on the **Gift card** FastTab on the **Posting** tab of the **Retail parameters** page.</span></span> <span data-ttu-id="92181-146">Kuruluş hediye kartları kullanmasa bile tanımlanması gerekir.</span><span class="sxs-lookup"><span data-stu-id="92181-146">This needs to defined even if gift cards are not used by the organization.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="92181-147">Ekstre deftere nakilleriyle ilgili olan ve Perakende mağazaları ile **Perakende parametreleri** sayfasında tanımlanan tüm ayarların ve parametreler, geliştirilmiş ekstre deftere nakil özelliğine uygulanabilir.</span><span class="sxs-lookup"><span data-stu-id="92181-147">All settings and parameters that are related to statement postings, and that are defined on Retail stores and on the **Retail parameters** page, are applicable to the improved statement posting feature.</span></span>
-
-## <a name="processing"></a><span data-ttu-id="92181-148">İşleniyor</span><span class="sxs-lookup"><span data-stu-id="92181-148">Processing</span></span>
-
-<span data-ttu-id="92181-149">**Ekstreleri toplu işle hesapla** ve **Ekstreleri toplu işle deftere naklet** menü öğeleri kullanılarak ekstreler toplu şekilde hesaplanabilir ve deftere nakledilebilir.</span><span class="sxs-lookup"><span data-stu-id="92181-149">Statements can be calculated and posted in batch using the menu items **Calculate statements in batch** and **Post statements in batch**.</span></span> <span data-ttu-id="92181-150">Alternatif olarak, geliştirilmiş ekstre deftere nakil özelliğinin sağladığı **Perakende ekstreleri** menü öğesi kullanılarak ekstreler el ile hesaplanabilir ve deftere nakledilebilir.</span><span class="sxs-lookup"><span data-stu-id="92181-150">Alternatively, statements can be manually calculated and posted by using the **Retail statements** menu item that the improved statement posting feature provides.</span></span>
-
-<span data-ttu-id="92181-151">Toplı ekstre hesaplama ve deftere nakletme adımları eski ekstre deftere nakil özelliğindeki adımlarla aynıdır.</span><span class="sxs-lookup"><span data-stu-id="92181-151">The process and steps for calculating and posting statements in a batch are the same as they were in the legacy statement posting feature.</span></span> <span data-ttu-id="92181-152">Bununla birlikte, ekstreleri arka uçta işleme temel işleminde önemli geliştirmeler yapılmıştır.</span><span class="sxs-lookup"><span data-stu-id="92181-152">However, significant improvements have been made in the core back-end processing of the statements.</span></span> <span data-ttu-id="92181-153">Bu geliştirmeler işlemi daha esnek hale getirir ve durum ve hata bilgileri için daha fazla görünürlük sağlar.</span><span class="sxs-lookup"><span data-stu-id="92181-153">These improvements make the process more resilient, and provide for better visibility into the states and error information.</span></span> <span data-ttu-id="92181-154">Bu nedenle, kullanıcılar hataların kök nedenine gidebilir ve veri bozulmasına neden olmadan ve verilerin düzeltilmesine gerek kalmadan deftere nakil işlemine devam edebilir.</span><span class="sxs-lookup"><span data-stu-id="92181-154">Therefore, users can address the root cause of errors and then continue the posting process without causing data corruption and without causing data fixes to be required.</span></span>
-
-<span data-ttu-id="92181-155">Aşağıdaki bölümlerde perakende ekstreler ve deftere nakledilen ekstreler için kullanıcı arabiriminde görünen deftere nakil özelliğindeki bazı önemli geliştirmeleri açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="92181-155">The following sections describe some of the major improvements for the statement posting feature that appear in the user interface for retail statements and posted statements.</span></span>
-
-### <a name="status-details"></a><span data-ttu-id="92181-156">Durum ayrıntıları</span><span class="sxs-lookup"><span data-stu-id="92181-156">Status details</span></span>
-
-<span data-ttu-id="92181-157">Hesaplama ve deftere nakil işlemlerinde ekstre deftere nakil rutinine yeni bir durum modeli eklenmiştir.</span><span class="sxs-lookup"><span data-stu-id="92181-157">A new state model has been introduced in the statement posting routine across the calculation and posting processes.</span></span>
-
-<span data-ttu-id="92181-158">Aşağıdaki tabloda hesaplama işlemi sırasındaki çeşitli durumlar ve bunların sırası açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="92181-158">The following table describes the various states and their order during the calculation process.</span></span>
-
-| <span data-ttu-id="92181-159">Durum sırası</span><span class="sxs-lookup"><span data-stu-id="92181-159">State order</span></span> | <span data-ttu-id="92181-160">İl</span><span class="sxs-lookup"><span data-stu-id="92181-160">State</span></span>      | <span data-ttu-id="92181-161">Tanım</span><span class="sxs-lookup"><span data-stu-id="92181-161">Description</span></span> |
-|-------------|------------|-------------|
-| <span data-ttu-id="92181-162">1</span><span class="sxs-lookup"><span data-stu-id="92181-162">1</span></span>           | <span data-ttu-id="92181-163">Başlatıldı</span><span class="sxs-lookup"><span data-stu-id="92181-163">Started</span></span>    | <span data-ttu-id="92181-164">Ekstre oluşturuldu ve hesaplanmaya hazır.</span><span class="sxs-lookup"><span data-stu-id="92181-164">The statement was created and is ready to be calculated.</span></span> |
-| <span data-ttu-id="92181-165">2</span><span class="sxs-lookup"><span data-stu-id="92181-165">2</span></span>           | <span data-ttu-id="92181-166">İşaretli</span><span class="sxs-lookup"><span data-stu-id="92181-166">Marked</span></span>     | <span data-ttu-id="92181-167">Ekstre için kapsamda olan hareketler ekstre parametreleri temel alınarak tanımlanır ve bunlar ekstre kodu ile işaretlenir.</span><span class="sxs-lookup"><span data-stu-id="92181-167">The transactions that are in scope for the statement are identified based on the statement parameters, and they are marked with the statement ID.</span></span> |
-| <span data-ttu-id="92181-168">3</span><span class="sxs-lookup"><span data-stu-id="92181-168">3</span></span>           | <span data-ttu-id="92181-169">Hesaplandı</span><span class="sxs-lookup"><span data-stu-id="92181-169">Calculated</span></span> | <span data-ttu-id="92181-170">Ekstre satırları hesaplanır ve gösterilir.</span><span class="sxs-lookup"><span data-stu-id="92181-170">The statement lines are computed and shown.</span></span> |
-
-<span data-ttu-id="92181-171">Aşağıdaki tabloda deftere nakil işlemi sırasındaki çeşitli durumlar ve bunların sırası açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="92181-171">The following table describes the various states and their order during the posting process.</span></span>
-
-| <span data-ttu-id="92181-172">Durum sırası</span><span class="sxs-lookup"><span data-stu-id="92181-172">State order</span></span> | <span data-ttu-id="92181-173">İl</span><span class="sxs-lookup"><span data-stu-id="92181-173">State</span></span>                   | <span data-ttu-id="92181-174">Tanım</span><span class="sxs-lookup"><span data-stu-id="92181-174">Description</span></span> |
-|-------------|-------------------------|-------------|
-| <span data-ttu-id="92181-175">1</span><span class="sxs-lookup"><span data-stu-id="92181-175">1</span></span>           | <span data-ttu-id="92181-176">Denetlendi</span><span class="sxs-lookup"><span data-stu-id="92181-176">Checked</span></span>                 | <span data-ttu-id="92181-177">Parametrelerle (örneğin değerlendirme masrafı) ve ekstre ve ekstre satırlarıyla (örneğin, sayılan tutar ile hareket tutarı arasındaki fark) ilgili birden fazla doğrulama yapıldı</span><span class="sxs-lookup"><span data-stu-id="92181-177">Multiple validations are done that are related to parameters (for example, the disposition charge), and to the statement and statement lines (for example, the difference between the counted amount and the transaction amount).</span></span> |
-| <span data-ttu-id="92181-178">2</span><span class="sxs-lookup"><span data-stu-id="92181-178">2</span></span>           | <span data-ttu-id="92181-179">Toplanan</span><span class="sxs-lookup"><span data-stu-id="92181-179">Aggregated</span></span>              | <span data-ttu-id="92181-180">Adlandırılmış ve adlandırılmamış müşteriler için satış hareketleri yapılandırmaya göre toplanır.</span><span class="sxs-lookup"><span data-stu-id="92181-180">Sales transactions for named and unnamed customers are aggregated based on the configuration.</span></span> <span data-ttu-id="92181-181">Toplanan her hareket sonunda bir satış siparişine dönüştürülür.</span><span class="sxs-lookup"><span data-stu-id="92181-181">Every aggregated transaction is eventually converted to a sales order.</span></span> |
-| <span data-ttu-id="92181-182">3</span><span class="sxs-lookup"><span data-stu-id="92181-182">3</span></span>           | <span data-ttu-id="92181-183">Müşteri siparişi oluşturuldu</span><span class="sxs-lookup"><span data-stu-id="92181-183">Customer order created</span></span>  | <span data-ttu-id="92181-184">Toplanan hareket temel alınarak sistemde satış siparişleri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="92181-184">Based on the aggregated transaction, sales orders are created in the system.</span></span> |
-| <span data-ttu-id="92181-185">4</span><span class="sxs-lookup"><span data-stu-id="92181-185">4</span></span>           | <span data-ttu-id="92181-186">Müşteri faturası oluşturuldu</span><span class="sxs-lookup"><span data-stu-id="92181-186">Customer order invoiced</span></span> | <span data-ttu-id="92181-187">Satış siparişleri faturalandı.</span><span class="sxs-lookup"><span data-stu-id="92181-187">Sales orders are invoiced.</span></span> |
-| <span data-ttu-id="92181-188">5</span><span class="sxs-lookup"><span data-stu-id="92181-188">5</span></span>           | <span data-ttu-id="92181-189">İskontolar deftere nakledildi</span><span class="sxs-lookup"><span data-stu-id="92181-189">Discounts posted</span></span>        | <span data-ttu-id="92181-190">Periyodik iskonto günlükleri yapılandırmaya göre deftere nakledilir.</span><span class="sxs-lookup"><span data-stu-id="92181-190">Periodic discount journals are posted based on the configuration.</span></span> |
-| <span data-ttu-id="92181-191">6</span><span class="sxs-lookup"><span data-stu-id="92181-191">6</span></span>           | <span data-ttu-id="92181-192">Gelir/gider deftere nakledildi</span><span class="sxs-lookup"><span data-stu-id="92181-192">Income/expense posted</span></span>   | <span data-ttu-id="92181-193">Gelir/gider hareketleri fiş olarak deftere nakledilir.</span><span class="sxs-lookup"><span data-stu-id="92181-193">Income/expense transactions are posted as vouchers.</span></span> |
-| <span data-ttu-id="92181-194">7</span><span class="sxs-lookup"><span data-stu-id="92181-194">7</span></span>           | <span data-ttu-id="92181-195">Fişler bağlandı</span><span class="sxs-lookup"><span data-stu-id="92181-195">Vouchers linked</span></span>         | <span data-ttu-id="92181-196">Ödeme günlükleri oluşturulur ve ilgili faturaya bağlanır.</span><span class="sxs-lookup"><span data-stu-id="92181-196">Payment journals are created and linked to the corresponding invoice.</span></span> |
-| <span data-ttu-id="92181-197">8</span><span class="sxs-lookup"><span data-stu-id="92181-197">8</span></span>           | <span data-ttu-id="92181-198">Ödemeler deftere nakledildi</span><span class="sxs-lookup"><span data-stu-id="92181-198">Payments posted</span></span>         | <span data-ttu-id="92181-199">Ödeme günlükleri deftere nakledilir.</span><span class="sxs-lookup"><span data-stu-id="92181-199">Payment journals are posted.</span></span> |
-| <span data-ttu-id="92181-200">9</span><span class="sxs-lookup"><span data-stu-id="92181-200">9</span></span>           | <span data-ttu-id="92181-201">Hediye kartları deftere nakledildi</span><span class="sxs-lookup"><span data-stu-id="92181-201">Gift cards posted</span></span>       | <span data-ttu-id="92181-202">Hediye kartı hareketleri fiş olarak deftere nakledilir.</span><span class="sxs-lookup"><span data-stu-id="92181-202">Gift card transactions are posted as vouchers.</span></span> |
-| <span data-ttu-id="92181-203">10</span><span class="sxs-lookup"><span data-stu-id="92181-203">10</span></span>          | <span data-ttu-id="92181-204">Gönderildi</span><span class="sxs-lookup"><span data-stu-id="92181-204">Posted</span></span>                  | <span data-ttu-id="92181-205">Ekstre deftere nakledildi olarak işaretlenir.</span><span class="sxs-lookup"><span data-stu-id="92181-205">The statement is marked as posted.</span></span> |
-
-<span data-ttu-id="92181-206">Önceki tablodaki her durum normalde bağımsızdır ve durumlar arasında hiyerarşik bir bağımlılık oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="92181-206">Every state in the preceding tables is independent in nature, and a hierarchical dependency is built between the states.</span></span> <span data-ttu-id="92181-207">Bu bağımlılık yukarıdan aşağıya doğru akar.</span><span class="sxs-lookup"><span data-stu-id="92181-207">This dependency flows from top to bottom.</span></span> <span data-ttu-id="92181-208">Sistem bir durumu işlerken hatalarla karşılaşırsa, ekstre durumu önceki durumuna geri döndürülür.</span><span class="sxs-lookup"><span data-stu-id="92181-208">If the system encounters any errors while it's processing a state, the status of the statement is reverted to the previous state.</span></span> <span data-ttu-id="92181-209">İşlemin bir sonraki yeniden denemesi başarısız olan durumdan sürdürülür ve ileri doğru devam eder.</span><span class="sxs-lookup"><span data-stu-id="92181-209">Any subsequent reattempt of the process resumes from the state that failed and continues to move forward.</span></span> <span data-ttu-id="92181-210">Bu yöntemin aşağıdaki faydaları vardır:</span><span class="sxs-lookup"><span data-stu-id="92181-210">This approach has the following benefits:</span></span>
-
-- <span data-ttu-id="92181-211">Kullanıcı hatanın oluştuğu durumu tam olarak görebilir.</span><span class="sxs-lookup"><span data-stu-id="92181-211">The user has complete visibility into the state where the error occurred.</span></span>
-- <span data-ttu-id="92181-212">Verilerin bozulması önlenmiş olur.</span><span class="sxs-lookup"><span data-stu-id="92181-212">Data corruption is avoided.</span></span> <span data-ttu-id="92181-213">Örneğin, eski ekstre deftere nakil özelliğinde, bazı satış siparişlerinin faturalandığı ancak diğerlerinin açık bırakıldığı örnekler vardı.</span><span class="sxs-lookup"><span data-stu-id="92181-213">For example, in the legacy statement posting feature, there were instances where some sales orders were invoiced but others were left open.</span></span> <span data-ttu-id="92181-214">Ayrıca, fatura deftere naklinde hata oluştuğundan, bazı ödeme günlüklerinin kapatılacak ilgili faturaya sahip olmadığı örnekler de görülüyordu.</span><span class="sxs-lookup"><span data-stu-id="92181-214">There were also instances where some payment journals didn't have a corresponding invoice to settle, because the invoice posting had an error.</span></span>
-- <span data-ttu-id="92181-215">Kullanıcılar ekstrenin geçerli durumunu ekstrenin **Yürütme ayrıntıları** grubundaki **Durum ayrıntıları** düğmesini kullanarak görebilirler.</span><span class="sxs-lookup"><span data-stu-id="92181-215">Users can see the current state of a statement by using the **Status details** button in the **Execution details** group of the statement.</span></span> <span data-ttu-id="92181-216">Durum ayrıntıları sayfasında üç bölüm bulunur:</span><span class="sxs-lookup"><span data-stu-id="92181-216">The status details page has three sections:</span></span>
-
-    - <span data-ttu-id="92181-217">İlk bölüm ekstrenin geçerli durumunu ve bir hata oluşmuşsa hata kodu ile ayrıntılı hata iletisini gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-217">The first section shows the current status of the statement, together with the error code and a detailed error message, if an error occurred.</span></span>
-    - <span data-ttu-id="92181-218">İkinci bölüm hesaplama işleminin çeşitli durumlarını gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-218">The second section shows the various states of the calculation process.</span></span> <span data-ttu-id="92181-219">Görsel ipuçları başarılı şekilde çalıştırılan durumlar, hata nedeniyle çalıştırılamayan durumları ve henüz çalıştırılmamış olan durumları gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-219">Visual cues indicate states that have been successfully run, states that could not be run because of errors, and states that haven't yet been run.</span></span>
-    - <span data-ttu-id="92181-220">Üçüncü bölüm deftere nakil işleminin çeşitli durumlarını gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-220">The third section shows the various states of the posting process.</span></span> <span data-ttu-id="92181-221">Görsel ipuçları başarılı şekilde çalıştırılan durumlar, hata nedeniyle çalıştırılamayan durumları ve henüz çalıştırılmamış olan durumları gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-221">Visual cues indicate states that have been successfully run, states that could not be run because of errors, and states that haven't yet been run.</span></span>
-
-<span data-ttu-id="92181-222">Ayrıca, ikinci ve üçüncü bölüm başlığı ilgili işlemin genel durumunu gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-222">Additionally, the header of the second and third sections shows the overall status of the relevant process.</span></span>
-
-### <a name="event-logs"></a><span data-ttu-id="92181-223">Olay günlükleri</span><span class="sxs-lookup"><span data-stu-id="92181-223">Event logs</span></span>
-
-<span data-ttu-id="92181-224">Bir ekstre çeşitli işlemlerden geçer (örneğin Oluştur, Hesapla, Temizle ve Deftere naklet) ve aynı işlemin birden fazla örneği ekstrenin yaşam döngüsü süresince çağrılabilir.</span><span class="sxs-lookup"><span data-stu-id="92181-224">A statement goes through various operations (for example, Create, Calculate, Clear, and Post), and multiple instances of the same operation might be called during the statement's lifecycle.</span></span> <span data-ttu-id="92181-225">Örneğin, bir ekstre oluşturulduktan veya hesaplandıktan sonra bir kullanıcı ekstre içeriğini temizleyip ekstreyi yeniden hesaplayabilir.</span><span class="sxs-lookup"><span data-stu-id="92181-225">For example, after a statement is created and calculated, a user can clear the statement and calculate it again.</span></span> <span data-ttu-id="92181-226">Ekstrenin **Yürütme ayrıntıları** grubundaki **Olay günlükleri** düğmesi, bir ekstrede çağrılan çeşitli işlemlerin denetim kılavuzunu bu işlemlerin ne zaman çağrıldığı bilgisiyle birlikte verir.</span><span class="sxs-lookup"><span data-stu-id="92181-226">The **Event logs** button in the **Execution details** group of the statement provides a complete audit trail of the various operations that were called on a statement, together with information about when those operations were called.</span></span>
-
-### <a name="aggregated-transactions"></a><span data-ttu-id="92181-227">Toplanan hareketler</span><span class="sxs-lookup"><span data-stu-id="92181-227">Aggregated transactions</span></span>
-
-<span data-ttu-id="92181-228">Deftere nakil işlemi sırasında satış hareketleri yapılandırmaya göre toplanır.</span><span class="sxs-lookup"><span data-stu-id="92181-228">During the posting process, the sales transactions are aggregated based on the configuration.</span></span> <span data-ttu-id="92181-229">Toplanan bu hareketler sistemde saklanır ve satış siparişleri oluşturmak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="92181-229">These aggregated transactions are stored in the system and used to create sales orders.</span></span> <span data-ttu-id="92181-230">Toplanan her hareket sistemde karşılık gelen bir satış siparişi oluşturur.</span><span class="sxs-lookup"><span data-stu-id="92181-230">Every aggregated transaction creates one corresponding sales order in the system.</span></span> <span data-ttu-id="92181-231">Toplanan hareketleri **Yürütme ayrıntıları** grubundaki **Toplanan hareketler** düğmesini kullanarak görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="92181-231">You can view the aggregated transactions by using the **Aggregated transactions** button in the **Execution details** group of the statement.</span></span>
-
-<span data-ttu-id="92181-232">Toplanan hareketin **Satış siparişi ayrıntısı** sekmesi aşağıdaki bilgileri gösterir:</span><span class="sxs-lookup"><span data-stu-id="92181-232">The **Sales order detail** tab of an aggregated transaction shows the following information:</span></span>
-
-- <span data-ttu-id="92181-233">**Kayıt kodu** - Toplanan hareketin kodu.</span><span class="sxs-lookup"><span data-stu-id="92181-233">**Record ID** – The ID of the aggregated transaction.</span></span>
-- <span data-ttu-id="92181-234">**Ekstre numarası** – Toplanan hareketin ait olduğu ekstre.</span><span class="sxs-lookup"><span data-stu-id="92181-234">**Statement number** – The statement that the aggregated transaction belongs to.</span></span>
-- <span data-ttu-id="92181-235">**Tarih** - Toplanan hareketin oluşturulduğu tarih.</span><span class="sxs-lookup"><span data-stu-id="92181-235">**Date** – The date when the aggregated transaction was created.</span></span>
-- <span data-ttu-id="92181-236">**Satış kodu** – Toplanan hareketten bir satış siparişi oluşturulduğunda, satış siparişinin kodu.</span><span class="sxs-lookup"><span data-stu-id="92181-236">**Sales ID** – When a sales order is created from the aggregated transaction, the sales order ID.</span></span> <span data-ttu-id="92181-237">Bu alan boşsa, ilgili satış siparişi oluşturulmamıştır.</span><span class="sxs-lookup"><span data-stu-id="92181-237">If this field is blank, the corresponding sales order hasn't been created.</span></span>
-- <span data-ttu-id="92181-238">**Toplanan satır sayısı** – Toplanan hareket ve satış siparişi için toplam satır sayısı.</span><span class="sxs-lookup"><span data-stu-id="92181-238">**Number of aggregated lines** – The total number of lines for the aggregated transaction and sales order.</span></span>
-- <span data-ttu-id="92181-239">**Durum** – Toplanan işlemin son durumu.</span><span class="sxs-lookup"><span data-stu-id="92181-239">**Status** – The last status of the aggregated transaction.</span></span>
-- <span data-ttu-id="92181-240">**Fatura kodu** – Toplanan hareket için satış siparişi faturalandığında, satış faturası kodu.</span><span class="sxs-lookup"><span data-stu-id="92181-240">**Invoice ID** – When the sales order for the aggregated transaction is invoiced, the sales invoice ID.</span></span> <span data-ttu-id="92181-241">Bu alan boşsa, satış siparişi için fatura deftere nakledilmemiştir.</span><span class="sxs-lookup"><span data-stu-id="92181-241">If this field is blank, the invoice for the sales order hasn't been posted.</span></span>
-
-<span data-ttu-id="92181-242">Toplanan hareketin **Hareket ayrıntıları** sekmesi toplanan harekete çekilmiş olan tüm perakende hareketleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-242">The **Transaction details** tab of an aggregated transaction shows all the retail transactions that have been pulled into the aggregated transaction.</span></span> <span data-ttu-id="92181-243">Toplanan hareketteki toplanan satırlar perakende hareketlerinden toplanan tüm kayıtları gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-243">The aggregated lines on the aggregated transaction show all the aggregated records from the retail transactions.</span></span> <span data-ttu-id="92181-244">Toplanan satırlar ayrıca madde, çeşit, miktar, fiyat, net tutar, birim ve ambar gibi ayrıntıları gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-244">The aggregated lines also show details such as the item, variant, quantity, price, net amount, unit, and warehouse.</span></span> <span data-ttu-id="92181-245">Temel olarak, toplanan her satır bir satış siparişi satırına karşılık gelir.</span><span class="sxs-lookup"><span data-stu-id="92181-245">Basically, each aggregated line corresponds to one sales order line.</span></span>
-
-<span data-ttu-id="92181-246">**Toplanan hareketler** sayfasından, **Satış siparişini XML'e aktar** düğmesini kullanarak belirli bir toplanan hareket için XML indirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="92181-246">From the **Aggregated transactions** page, you can download the XML for a specific aggregated transaction by using the **Export sales order XML** button.</span></span> <span data-ttu-id="92181-247">XML dosyasını, satış siparişi oluşturma ve deftere nakletmeyle ilgili hata ayıklama sorunları için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="92181-247">You can use the XML to debug issues that involve sales order creation and posting.</span></span> <span data-ttu-id="92181-248">XML dosyasını indirin, test ortamına yükleyin ve sorunu test ortamında ayıklayın.</span><span class="sxs-lookup"><span data-stu-id="92181-248">Just download the XML, upload it to a test environment, and debug the issue in the test environment.</span></span> <span data-ttu-id="92181-249">Toplanan hareketler için XML dosyası indirme işlevi deftere nakledilmiş olan ekstreler için kullanılamaz.</span><span class="sxs-lookup"><span data-stu-id="92181-249">The functionality for downloading the XML for aggregated transactions isn't available for statements that have been posted.</span></span>
-
-<span data-ttu-id="92181-250">Toplanan hareket görünümü aşağıdaki faydaları sağlar:</span><span class="sxs-lookup"><span data-stu-id="92181-250">The aggregated transaction view provides the following benefits:</span></span>
-
-- <span data-ttu-id="92181-251">Kullanıcı satış siparişi oluşturma sırasında başarısız olan toplanan hareketleri ve faturalama sırasında başarısız olan satış siparişlerini görebilir.</span><span class="sxs-lookup"><span data-stu-id="92181-251">The user has visibility into the aggregated transactions that failed during sales order creation and the sales orders that failed during invoicing.</span></span>
-- <span data-ttu-id="92181-252">Kullanıcı hareketlerin nasıl toplandığını görebilir.</span><span class="sxs-lookup"><span data-stu-id="92181-252">The user has visibility into how transactions are aggregated.</span></span>
-- <span data-ttu-id="92181-253">Kullanıcı perakende hareketlerinden satış siparişlerine ve satış faturalarına kadar eksiksiz bir denetim kılavuzuna sahip olur.</span><span class="sxs-lookup"><span data-stu-id="92181-253">The user has a complete audit trail, from retail transactions, to sales orders, to sales invoices.</span></span> <span data-ttu-id="92181-254">Bu denetimi kılavuzu eski ekstre deftere nakil özelliğinde kullanılamaz.</span><span class="sxs-lookup"><span data-stu-id="92181-254">This audit trail wasn't available in the legacy statement posting feature.</span></span>
-- <span data-ttu-id="92181-255">Toplanan XML dosyası satış siparişi oluşturma ve faturalama sırasındaki sorunların daha kolay tanımlanmasını sağlar.</span><span class="sxs-lookup"><span data-stu-id="92181-255">Aggregated XML file make it easier to identify issues during sales order creation and invoicing.</span></span>
-
-### <a name="journal-vouchers"></a><span data-ttu-id="92181-256">Günlük fişleri</span><span class="sxs-lookup"><span data-stu-id="92181-256">Journal vouchers</span></span>
-
-<span data-ttu-id="92181-257">Ekstrenin **Yürütme ayrıntıları** grubundaki **Günlük fişleri** düğmesi bir ekstre için oluşturulan ve iskontolat, gelir/gider hesaplar, hediye kartları vb. ile ilgili olan tüm fiş hareketlerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-257">The **Journal vouchers** button in the **Execution details** group of the statement shows all the various voucher transactions that are created for a statement, and that are related to discounts, income/expense accounts, gift cards, and so on.</span></span>
-
-<span data-ttu-id="92181-258">Şu anda, program yalnızca deftere nakledilen ekstreler için bu verileri gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-258">Currently, the program shows this data only for posted statements.</span></span>
-
-### <a name="payment-journals"></a><span data-ttu-id="92181-259">Ödeme günlükleri</span><span class="sxs-lookup"><span data-stu-id="92181-259">Payment journals</span></span>
-
-<span data-ttu-id="92181-260">Ekstrenin **Yürütme ayrıntıları** grubundaki **Ödeme günlükleri** düğmesi, bir ekstre için oluşturulan tüm çeşitli ödeme günlüklerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-260">The **Payment journals** button in the **Execution details** group of the statement shows all the various payment journals that are created for a statement.</span></span>
-
-<span data-ttu-id="92181-261">Şu anda, program yalnızca deftere nakledilen ekstreler için bu verileri gösterir.</span><span class="sxs-lookup"><span data-stu-id="92181-261">Currently, the program shows this data only for posted statements.</span></span>
-
-## <a name="other-improvements"></a><span data-ttu-id="92181-262">Diğer geliştirmeler</span><span class="sxs-lookup"><span data-stu-id="92181-262">Other improvements</span></span>
-
-<span data-ttu-id="92181-263">Kullanıcının görebileceği diğer arka uç geliştirmeleri ekstre deftere nakil özelliğinde yapılmıştır.</span><span class="sxs-lookup"><span data-stu-id="92181-263">Other, back-end improvements that users can see have been made to the statement posting feature.</span></span> <span data-ttu-id="92181-264">Burada bazı örnekler verilmiştir:</span><span class="sxs-lookup"><span data-stu-id="92181-264">Here are some examples:</span></span>
-
-- <span data-ttu-id="92181-265">Toplam personel, terminal ve vardiya varlıklarını dikkate almaz.</span><span class="sxs-lookup"><span data-stu-id="92181-265">The aggregation doesn't consider the staff, terminal, and shift entities.</span></span> <span data-ttu-id="92181-266">Daha az toplama parametresi olduğundan, daha az satış siparişi satırının işlenmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="92181-266">Because there are fewer aggregation parameters, fewer sales order lines must be processed.</span></span>
-- <span data-ttu-id="92181-267">Perakende hareketi tablolarındaki kilitlenme durumları ek uzantı tablolarıyla ve işlemleri perakende hareket tablolarında güncelleştirmek yerine ekleme işlemleri yapılarak azaltılmıştır.</span><span class="sxs-lookup"><span data-stu-id="92181-267">The occurrence of deadlock on retail transaction tables is reduced by introducing additional extension tables and by doing insert operations instead of update operations on the retail transaction tables.</span></span>
-- <span data-ttu-id="92181-268">Çalışan toplu iş görevlerinin sayısı parametreye dönüştürülmüş ve sınırlandırılmıştır.</span><span class="sxs-lookup"><span data-stu-id="92181-268">The number of running batch tasks has been parameterized and limited.</span></span> <span data-ttu-id="92181-269">Bu nedenle, bu sayı müşterinin ortamına göre özel olarak ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="92181-269">Therefore, this number can be fine-tuned specifically to a customer's environment.</span></span> <span data-ttu-id="92181-270">Eski ekstre deftere nakil özelliğinde, aynı anda sınırsız sayıda toplu iş görevi oluşturuldu.</span><span class="sxs-lookup"><span data-stu-id="92181-270">In the legacy statement posting feature, an unlimited number of batch tasks was created at the same time.</span></span> <span data-ttu-id="92181-271">Bunun sonucu yönetilemeyen yükler, genel gider ve toplu iş sunucusunda tıkanmalar oluyordu.</span><span class="sxs-lookup"><span data-stu-id="92181-271">The results were unmanageable loads, overhead, and bottlenecks on the batch server.</span></span>
-- <span data-ttu-id="92181-272">Ekstreler, maksimum hareket sayısına sahip ekstrelere öncelik verilerek işlenmek üzere etkin şekilde sıraya alınır.</span><span class="sxs-lookup"><span data-stu-id="92181-272">Statements are efficiently queued for processing by prioritizing the statements that have the maximum number of transactions.</span></span>
-- <span data-ttu-id="92181-273">**Ekstreleri toplu işle hesapla** ve **Ekstreleri toplu işle deftere naklet** gibi toplu iş işlemleri yalnızca toplu iş modunda çalışır.</span><span class="sxs-lookup"><span data-stu-id="92181-273">Batch processes such as **Calculate statements in batch** and **Post statements in batch** are run only in batch mode.</span></span> <span data-ttu-id="92181-274">Eski ekstre deftere nakil özelliğinde kullanıcılar bu toplu işleri çok parçacıklı olan toplu işlemlerin aksine tek parçacıklı bir işlem olan etkileşimli modda çalıştırmayı seçebiliyordu.</span><span class="sxs-lookup"><span data-stu-id="92181-274">In the legacy statement posting feature, users could choose to run these batch processes in an interactive mode which is s single threaded operation unlike batch processes which are multi-threaded.</span></span>
-- <span data-ttu-id="92181-275">Eski ekstre deftere nakil özelliğinde, toplu işteki herhangi bir hata tüm toplu işin hatalı durumda olmasına neden oluyordu.</span><span class="sxs-lookup"><span data-stu-id="92181-275">In the legacy statement posting feature, any failure of a batch task put the whole batch job in an error state.</span></span> <span data-ttu-id="92181-276">Geliştirilen özellikte, diğer toplu iş görevlerinin başarıyla tamamlanmış olması durumunda toplu iş görevi hataları toplu işi hatalı duruma sokmaz.</span><span class="sxs-lookup"><span data-stu-id="92181-276">In the improved feature, batch task failures don't put the batch job in an error state if other batch tasks are successfully completed.</span></span> <span data-ttu-id="92181-277">Hatalar nedeniyle deftere nakledilmeyen ekstreleri görebileceğiniz **Perakende ekstreleri** sayfasını kullanarak bir toplu iş yürütme çalışmasının deftere nakil durumunu değerlendirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="92181-277">You should assess the posting status for a batch execution run by using the **Retail statements** page, where you can see any statements that weren't posted because of errors.</span></span>
-- <span data-ttu-id="92181-278">Eski ekstre deftere nakil özelliğinde, ekstre hatası ilk gerçekleştiğinde tüm toplu işin başarısız olmasına neden oluyordu.</span><span class="sxs-lookup"><span data-stu-id="92181-278">In the legacy statement posting feature, the first occurrence of a statement failure causes the whole batch to fail.</span></span> <span data-ttu-id="92181-279">Kalan ekstreler işlenmiyordu.</span><span class="sxs-lookup"><span data-stu-id="92181-279">The remaining statements aren't processed.</span></span> <span data-ttu-id="92181-280">Gelişmiş özellikte, bazı ekstreler başarısız olsa bile toplu işlem tüm ekstreleri işlemeye devam eder.</span><span class="sxs-lookup"><span data-stu-id="92181-280">In the improved feature, the batch process continues to process all statements, even if some of the statements fail.</span></span> <span data-ttu-id="92181-281">Bir diğer avantaj ise kullanıcıların hatalı ekstre sayısını tam olarak görebilmesidir.</span><span class="sxs-lookup"><span data-stu-id="92181-281">One benefit is that users gain visibility into the exact number of statements that have errors.</span></span> <span data-ttu-id="92181-282">Bu nedenle, kullanıcıların sürekli hataları düzeltme ve deftere nakil işlemini tüm ekstreler deftere nakledilene kadar çalıştırma döngüsüne takılması gerekmez.</span><span class="sxs-lookup"><span data-stu-id="92181-282">Therefore, users don't have to be stuck in a continuous loop of fixing the errors and running the post statement process till all statements are posted.</span></span>
-
-## <a name="general-guidance-about-the-statement-posting-process"></a><span data-ttu-id="92181-283">Ekstre deftere nakil işlemine yönelik genel bir kılavuz</span><span class="sxs-lookup"><span data-stu-id="92181-283">General guidance about the statement posting process</span></span>
-
-- <span data-ttu-id="92181-284">Ekstre deftere nakil işlemini toplu işte çalıştırmanızı öneririz. Çünkü toplu iş çalıştırma çok parçacıklı işleme konusunda toplu iş altyapısının gücünden faydalanır.</span><span class="sxs-lookup"><span data-stu-id="92181-284">We recommend that you run the statement posting process in a batch, because batch runs take advantage of the power of the batch framework in terms of multithreading.</span></span> <span data-ttu-id="92181-285">Çoklu iş parçacığı kullanımı, ekstre deftere nakillerinde normal olarak görülen çok büyük hacimli hareketlerin işlenmesi için gereklidir.</span><span class="sxs-lookup"><span data-stu-id="92181-285">Multithreading is required in order to handle the huge volumes of transactions that are normally seen in statement postings.</span></span>
-- <span data-ttu-id="92181-286">Sorunsuz bir deftere nakil deneyimi yaşamanız için madde model grubundaki negatif fiziksel stoğu açmanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="92181-286">We recommend that you turn on negative physical inventory on the item model group, so that you have a seamless posting experience.</span></span> <span data-ttu-id="92181-287">Bazı senaryolarda, negatif fiziksel stok olmadığında negatif ekstrelerin deftere nakledilmesi mümkün olmayabilir.</span><span class="sxs-lookup"><span data-stu-id="92181-287">In some scenarios, negative statements might not be able to be posted unless there is negative physical inventory.</span></span> <span data-ttu-id="92181-288">Örneğin, teorik olarak, stokta yalnızca tek bir maddenin birimi varsa ve madde için bir satış hareketi ve iade hareketi gerçekleştiyse, hareketin negatif stok açık olmasa bile deftere nakledilebilmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="92181-288">For example, in theory, if there is only one unit of an item in inventory, and there have been a sales transaction and a return transaction for the item, the transaction should be able to be posted even if negative inventory isn't turned on.</span></span> <span data-ttu-id="92181-289">Ancak, ekstre deftere nakil işlemi tek bir müşteri siparişindeki hem satış hem de iade hareketini çektiğinden, önce satış satırının ve ardından iade satırının deftere nakledileceğinin garantisi yoktur.</span><span class="sxs-lookup"><span data-stu-id="92181-289">However, because the statement posting process pulls both the sales transaction and the return transaction in a single customer order, there is no guarantee that the sales line will be posted first, followed by the return line.</span></span> <span data-ttu-id="92181-290">Bu nedenle, hatalar oluşabilir.</span><span class="sxs-lookup"><span data-stu-id="92181-290">Therefore, errors can occur.</span></span> <span data-ttu-id="92181-291">Bu senaryoda negatif stok açık olursa, hareket deftere nakli negatif olarak etkilenmez ve sistem stoğu doğru şekilde yansıtır.</span><span class="sxs-lookup"><span data-stu-id="92181-291">If negative inventory is turned on in this scenario, the transaction posting isn't negatively affected, and the system will correctly reflect the inventory.</span></span>
-- <span data-ttu-id="92181-292">Ekstreleri hesaplarken ve deftere naklederken toplamı kullanmanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="92181-292">We recommend that you use aggregation while you calculate and post statements.</span></span> <span data-ttu-id="92181-293">Bu nedenle, aşağıdaki ayarlar bazı toplam parametreleri için önerilir:</span><span class="sxs-lookup"><span data-stu-id="92181-293">Therefore, the following settings are recommended for some of the aggregation parameters:</span></span>
-
-    - <span data-ttu-id="92181-294">**Perakende** \> **Genel merkez kurulumu** \> **Parametreler** \> **Perakende parametreleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="92181-294">Go to **Retail** \> **Headquarters setup** \> **Parameters** \> **Retail parameters**.</span></span> <span data-ttu-id="92181-295">Ardından **Deftere nakil** sekmesinde, **Stok güncelleştirme** hızlı sekmesindeki **Ayrıntı düzeyi** alanında **Özet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="92181-295">Then, on the **Posting** tab, on the **Inventory update** FastTab, in the **Detail level** field, select **Summary**.</span></span>
-    - <span data-ttu-id="92181-296">**Perakende** \> **Genel merkez kurulumu** \> **Parametreler** \> **Perakende parametreleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="92181-296">Go to **Retail** \> **Headquarters setup** \> **Parameters** \> **Retail parameters**.</span></span> <span data-ttu-id="92181-297">Ardından **Deftere nakil** sekmesinde **Toplam** hızlı sekmesinde **Fiş hareketleri** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="92181-297">Then, on the **Posting** tab, on the **Aggregation** FastTab, set the **Voucher transactions** option to **Yes**.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="statement-posting-EOD.md" target-language="tr-TR">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>statement-posting-EOD.a9ca30.8c22137ad29bf947bc7a9e4c9a4d1332e03b1298.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>8c22137ad29bf947bc7a9e4c9a4d1332e03b1298</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\statement-posting-EOD.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Improvements to statement posting functionality</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstre deftere nakil işlevi geliştirmeleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes improvements that have been made to the statement posting feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu konu ekstre deftere nakli özelliğinde yapılan geliştirmeleri tanımlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Improvements to statement posting functionality</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstre deftere nakil işlevi geliştirmeleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic describes the first set of improvements that have been made to the statement posting feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu konu ekstre deftere nakli özelliğinde yapılan ilk geliştirme kümesini açıklar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>These improvements are available in Microsoft Dynamics 365 for Finance and Operations 7.3.2.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu iyileştirmeler Microsoft Dynamics 365 for Finance and Operations 7.3.2 içinde kullanılabilirdir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Activation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Etkinleştirme</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>By default, during deployment of Finance and Operations 7.3.2, the program is set up to use the legacy feature for statement postings.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varsayılan olarak, Finance and Operations 7.3.2 dağıtımı sırasında program eski ekstre deftere nakil özelliğini kullanacak şekilde ayarlanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>To enable the improved statement posting feature, you must turn on the configuration key for it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geliştirilmiş ekstre deftere nakil özelliğini etkinleştirmek için buna ilişkin yapılandırma anahtarını etkinleştirmeniz gerekir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Go to <bpt id="p1">**</bpt>System administration<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>License configuration<ept id="p3">**</ept>, and then, under the <bpt id="p4">**</bpt>Retail<ept id="p4">**</ept> node, clear the <bpt id="p5">**</bpt>Retail statements (legacy)<ept id="p5">**</ept> check box, and select the <bpt id="p6">**</bpt>Retail statements<ept id="p6">**</ept> check box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sistem Yönetimi<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Kurulum<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Lisans yapılandırması<ept id="p3">**</ept>'na gidin ve daha sonra <bpt id="p4">**</bpt>Perakende<ept id="p4">**</ept> düğümü altından <bpt id="p5">**</bpt>Perakende ekstreleri (eski)<ept id="p5">**</ept> onay kutusunun seçimini kaldırın ve <bpt id="p6">**</bpt>Perakende ekstreleri<ept id="p6">**</ept> onay kutusunu işaretleyin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>When the new <bpt id="p1">**</bpt>Retail statements<ept id="p1">**</ept> configuration key is turned on, a new menu item that is named <bpt id="p2">**</bpt>Retail statements<ept id="p2">**</ept> is available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni <bpt id="p1">**</bpt>Perakende ekstreleri<ept id="p1">**</ept> yapılandırma anahtarı etkinleştirildiğinde, <bpt id="p2">**</bpt>Perakende ekstreleri<ept id="p2">**</ept> adındaki yeni menü kullanılabilir olur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>This menu item lets you manually create, calculate, and post statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu menü öğesi ekstreleri el ile oluşturmanızı, hesaplamanızı ve deftere nakletmenizi sağlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Any statement that causes an error when the batch posting process is used will also be available through this menu item.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplu olarak deftere nakletme işlemi kullanıldığında hataya neden olan bir ekstre de bu menü öğesi ile kullanılabilir olacaktır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>(When the <bpt id="p1">**</bpt>Retail statements (legacy)<ept id="p1">**</ept> configuration key is turned on, the menu item is named <bpt id="p2">**</bpt>Open statements<ept id="p2">**</ept>.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(<bpt id="p1">**</bpt>Perakende ekstreleri (eski)<ept id="p1">**</ept> yapılandırma anahtarı etkinleştirildiğinde, menü öğesi adı <bpt id="p2">**</bpt>Açık ekstreler<ept id="p2">**</ept> olur.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Finance and Operations includes the following validations that are related to these configuration keys:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations bu yapılandırma anahtarlarıyla ilgili aşağıdaki doğrulamaları içerir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Both configuration keys can't be turned on at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İki yapılandırma anahtarı aynı anda açılamaz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>The same configuration keys must be used for all the operations that are performed on a given statement during its lifecycle (Create, Calculate, Clear, Post, and so on).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yaşam döngüsü süresince belirli bir ekstrede gerçekleştirilen tüm işlemler için aynı yapılandırma anahtarı kullanılmalıdır (Oluştur, Hesapla, Sil, Deftere naklet, vb.).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>For example, you can't create and calculate a statement while the <bpt id="p1">**</bpt>Retail statement (legacy)<ept id="p1">**</ept> configuration key is turned on, and then try to post the same statement while the <bpt id="p2">**</bpt>Retail statement<ept id="p2">**</ept> configuration key is turned on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, <bpt id="p1">**</bpt>Perakende ekstresi (eski)<ept id="p1">**</ept> yapılandırma anahtarı açık olduğunda bir ekstreyi oluşturduktan ve hesapladıktan sonra aynı ekstreyi <bpt id="p2">**</bpt>Perakende ekstresi<ept id="p2">**</ept> yapılandırma anahtarını etkinleştirerek deftere nakledemezsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>We recommend that you use the <bpt id="p1">**</bpt>Retail statements<ept id="p1">**</ept> configuration key for the improved statement posting feature, unless you have compelling reasons to use the <bpt id="p2">**</bpt>Retail statements (legacy)<ept id="p2">**</ept> configuration key instead.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p2">**</bpt>Perakende ekstreleri (eski)<ept id="p2">**</ept> yapılandırma anahtarını kullanmanızı zorunlu kılan nedenler yoksa gelişmiş ekstre deftere nakil özelliği için <bpt id="p1">**</bpt>Perakende ekstreleri<ept id="p1">**</ept> yapılandırma anahtarını kullanmanızı öneririz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Microsoft will continue to invest in the new and improved statement posting feature, and it's important that you switch to it at the earliest opportunity to benefit from it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft yeni ve geliştirilmiş ekstre deftere nakil özelliğine yatırım yapmaya devam edecektir ve bundan yararlanmak için en kısa sürede buna geçmeniz önemlidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>The legacy statement posting feature is deprecated starting in 8.0 release.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eski ekstre deftere nakli özelliği 8.0 sürümü itibarıyla kullanım dışı bırakılmıştır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Setup</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayarlama</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>As part of the improvements to the statement posting feature, three new parameters have been introduced on the <bpt id="p1">**</bpt>Statement<ept id="p1">**</ept> FastTab on the <bpt id="p2">**</bpt>Posting<ept id="p2">**</ept> tab of the <bpt id="p3">**</bpt>Retail parameters<ept id="p3">**</ept> page:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstre deftere nakli özelliğinde yapılan geliştirmelerin bir parçası olarak, <bpt id="p3">**</bpt>Perakende parametreleri<ept id="p3">**</ept> sayfasının <bpt id="p2">**</bpt>Deftere nakil<ept id="p2">**</ept> sekmesindeki <bpt id="p1">**</bpt>Ekstre<ept id="p1">**</ept> hızlı sekmesinde üç yeni parametre bulunmaktadır:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source><bpt id="p1">**</bpt>Disable clear statement<ept id="p1">**</ept> – This option is applicable only for the legacy statement posting feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ekstre içeriğini sil işlevini devre dışı bırak<ept id="p1">**</ept> – Bu seçenek yalnızca eski ekstre deftere nakil özelliği için kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>We recommend that you set this option to <bpt id="p1">**</bpt>No<ept id="p1">**</ept> to prevent users from clearing statements that are in a semi-posted state.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kullanıcıların yarı deftere nakledilmiş durumdaki ekstreleri silmelerini önlemek için bu seçeneği <bpt id="p1">**</bpt>Hayır<ept id="p1">**</ept> olarak ayarlamanızı öneririz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>If statements that are in a semi-posted state are cleared, data becomes corrupted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yarı deftere nakledilmiş durumdaki ekstrelerin içeriği silinirse, veriler bozulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>You should set this option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> only in exceptional circumstances.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu seçeneği yalnızca özel durumlar için <bpt id="p1">**</bpt>Evet<ept id="p1">**</ept> olarak ayarlamanız gerekir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">**</bpt>Reserve inventory during calculation<ept id="p1">**</ept> – We recommend that you use the <bpt id="p2">**</bpt>Post inventory<ept id="p2">**</ept> batch job for inventory reservation, and that you set this option to <bpt id="p3">**</bpt>No<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Hesaplama sırasında stoğu rezerve et<ept id="p1">**</ept> – Stok rezervasyonu için <bpt id="p2">**</bpt>Stok deftere nakil<ept id="p2">**</ept> toplu işini kullanmanızı ve bu seçeneği <bpt id="p3">**</bpt>Hayır<ept id="p3">**</ept> olarak ayarlamanızı öneririz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>When this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>, the improved statement posting feature doesn't try to create inventory reservation entries at the time of calculation (if entries weren't already created through the <bpt id="p2">**</bpt>Post inventory<ept id="p2">**</ept> batch job).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu seçenek <bpt id="p1">**</bpt>Hayır<ept id="p1">**</ept> olarak ayarlandığında, gelişmiş ekstre deftere nakil özelliği hesaplama sırasında stok rezervasyon girişleri oluşturmaya çalışmaz (girişler daha önceden <bpt id="p2">**</bpt>Stok deftere nakil<ept id="p2">**</ept> toplu işlemi aracılığıyla ayarlanmadıysa).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Instead, the feature creates inventory reservation entries only at the time of posting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bunun yerine, özellik stok rezervasyon girişlerini yalnızca deftere nakil sırasında oluşturur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>This implementation was a design choice and was based on the fact that the time window between the calculation process and the posting process is typically small.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu uygulama bir tasarım seçimiydi ve hesaplama işlemi ile deftere nakil işlemi arasındaki zaman aralığının tipik olarak kısa olması olgusunu temel almaktaydı.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>However, if you want to reserve inventory at the time of calculation, you can set this option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bununla birlikte, stoğu hesaplama sırasında rezerve etmek istiyorsanız, bu seçeneği <bpt id="p1">**</bpt>Evet<ept id="p1">**</ept> olarak ayarlayabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>The legacy statement posting feature always reserves inventory during the statement calculation process (if reservation wasn't already done through the <bpt id="p1">**</bpt>Post inventory<ept id="p1">**</ept> batch job), regardless of the setting of this option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eski ekstre deftere nakli özelliği, bu seçeneğin ayarının ne olduğuna bakılmaksızın, stoğu daima ekstre hesaplama işlemi sırasında rezerve eder (rezervasyonun daha önce <bpt id="p1">**</bpt>Stok deftere nakil<ept id="p1">**</ept> toplu işlemi aracılığıyla yapılmamış olması durumunda).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">**</bpt>Disable counting required<ept id="p1">**</ept> – When this option is set to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, the posting process for a statement continues, even if the difference between the counted amount and the transaction amount on the statement is outside the threshold that is defined on the <bpt id="p3">**</bpt>Statement<ept id="p3">**</ept> FastTab for Retail stores.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Sayımın devre dışı bırakılması gerekli<ept id="p1">**</ept> – Bu seçenek <bpt id="p2">**</bpt>Evet<ept id="p2">**</ept> olarak ayarlandığında, sayılan tutar ile hareket tutarı arasındaki fark Perakende mağazaları için <bpt id="p3">**</bpt>Ekstre<ept id="p3">**</ept> hızlı sekmesinde belirtilen eşiğin dışında olsa bile ekstre deftere nakil işlemi devam eder.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Additionally, the following parameters have been introduced on the <bpt id="p1">**</bpt>Batch processing<ept id="p1">**</ept> FastTab on the <bpt id="p2">**</bpt>Posting<ept id="p2">**</ept> tab of the <bpt id="p3">**</bpt>Retail parameters<ept id="p3">**</ept> page:</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Ek olarak, aşağıdaki parametreler <bpt id="p3">**</bpt>Perakende parametleri<ept id="p3">**</ept> sayfasının <bpt id="p2">**</bpt>Deftere nakil<ept id="p2">**</ept> sekmesindeki <bpt id="p1">**</bpt>Toplu işleme<ept id="p1">**</ept> hızlı sekmesinde kullanıma sunulmuştur:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">**</bpt>Maximum number of parallel statement posting<ept id="p1">**</ept> – This field defines the number of batch tasks that will be used to post multiple statements.</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited"><bpt id="p1">**</bpt>Paralel ekstre deftere nakil maksimum sayısı<ept id="p1">**</ept> - Bu alan, çoklu ekstreleri deftere nakletmek için kullanılacak toplu iş görevlerini tanımlar.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">**</bpt>Max thread for order processing per statement<ept id="p1">**</ept> – This field represents the maximum number of threads used by the statement posting batch job to create and invoice sales orders for a single statement.</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited"><bpt id="p1">**</bpt>Ekstre başına sipariş işleme için maksimum iş parçacığı<ept id="p1">**</ept> - Bu alan, tek bir ekstre için satış siparişleri oluşturmak ve faturalamak üzere ekstre deftere nakli toplu işi tarafından kullanılan maksimum iş parçacığı sayısını gösterir.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The total number of threads that will be used by the statement posting process will be computed based on the value in this parameter multiplied by the value in the <bpt id="p1">**</bpt>Maximum number of parallel statement posting<ept id="p1">**</ept> parameter.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstre deftere nakil işlemi tarafından kullanılacak toplam iş parçacığı sayısı, bu parametredeki değer <bpt id="p1">**</bpt>Paralel ekstre deftere nakil maksimum sayısı<ept id="p1">**</ept>parametresindeki değerle çarpılarak hesaplanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Setting the value of this parameter too high can negatively impact the performance of the statement posting process.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Bu parametrenin değerinin çok yüksek bir değere ayarlanması, ekstre deftere nakil işleminin performansını olumsuz etkileyebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">**</bpt>Max transaction lines included in aggregation<ept id="p1">**</ept> – This field defines the number of transaction lines that will be included in a single aggregated transaction before a new one is created.</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited"><bpt id="p1">**</bpt>Toplama dahil edilen maksimum hareket satırı<ept id="p1">**</ept> - Bu alan, yenisi oluşturulmadan önce tek bir toplam harekete dahil edilecek hareket satırlarının sayısını tanımlar.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Aggregated transactions are created based on different aggregation criteria such as customer, business date, or financial dimensions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplu hareketler müşteri, iş tarihi veya mali boyutlar gibi farklı toplama ölçütleri temel alınarak oluşturulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>It is important to note that the lines from a single retail transaction will not be split across different aggregated transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tek bir perakende hareketindeki satırların, farklı toplu hareketler arasında bölünemeyeceğini unutmayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>This means that there is a possibility that the number of lines in a aggregated transaction is slightly higher or lower based on factors such as number of distinct products.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Bu, toplu hareketteki satırların sayısının, farklı ürünlerin sayısı gibi etkenlere bağlı olarak biraz daha yüksek veya düşük olma olasılığı bulunduğu anlamına gelir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">**</bpt>Maximum number of threads to validate store transactions<ept id="p1">**</ept> – This field defines the number of threads that will be used to validate retail transactions.</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited"><bpt id="p1">**</bpt>Mağaza hareketlerini doğrulamak için maksimum iş parçacığı sayısı<ept id="p1">**</ept> - Bu alan, perakende hareketlerini doğrulamak için kullanılacak iş parçacıklarının sayısını tanımlar.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Validating retail transactions is a required step that needs to occur before the transactions can be pulled into the statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende hareketlerinin doğrulanması, hareketler ekstrelerden çekilmeden önce gerçekleşmesi gereken bir adımdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>You also need to define a <bpt id="p1">**</bpt>Gift card product<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Gift card<ept id="p2">**</ept> FastTab on the <bpt id="p3">**</bpt>Posting<ept id="p3">**</ept> tab of the <bpt id="p4">**</bpt>Retail parameters<ept id="p4">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Perakende parametreleri<ept id="p1">**</ept> sayfasının <bpt id="p2">**</bpt>Deftere nakil<ept id="p2">**</ept> sekmesindeki <bpt id="p3">**</bpt>Hediye kartı<ept id="p3">**</ept> hızlı sekmesinde bir <bpt id="p4">**</bpt>Hediye kartı ürünü<ept id="p4">**</ept> tanımlamanız gerekir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>This needs to defined even if gift cards are not used by the organization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuruluş hediye kartları kullanmasa bile tanımlanması gerekir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>All settings and parameters that are related to statement postings, and that are defined on Retail stores and on the <bpt id="p1">**</bpt>Retail parameters<ept id="p1">**</ept> page, are applicable to the improved statement posting feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstre deftere nakilleriyle ilgili olan ve Perakende mağazaları ile <bpt id="p1">**</bpt>Perakende parametreleri<ept id="p1">**</ept> sayfasında tanımlanan tüm ayarların ve parametreler, geliştirilmiş ekstre deftere nakil özelliğine uygulanabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Processing</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşleniyor</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Statements can be calculated and posted in batch using the menu items <bpt id="p1">**</bpt>Calculate statements in batch<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Post statements in batch<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ekstreleri toplu işle hesapla<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Ekstreleri toplu işle deftere naklet<ept id="p2">**</ept> menü öğeleri kullanılarak ekstreler toplu şekilde hesaplanabilir ve deftere nakledilebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Alternatively, statements can be manually calculated and posted by using the <bpt id="p1">**</bpt>Retail statements<ept id="p1">**</ept> menu item that the improved statement posting feature provides.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alternatif olarak, geliştirilmiş ekstre deftere nakil özelliğinin sağladığı <bpt id="p1">**</bpt>Perakende ekstreleri<ept id="p1">**</ept> menü öğesi kullanılarak ekstreler el ile hesaplanabilir ve deftere nakledilebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>The process and steps for calculating and posting statements in a batch are the same as they were in the legacy statement posting feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplı ekstre hesaplama ve deftere nakletme adımları eski ekstre deftere nakil özelliğindeki adımlarla aynıdır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>However, significant improvements have been made in the core back-end processing of the statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bununla birlikte, ekstreleri arka uçta işleme temel işleminde önemli geliştirmeler yapılmıştır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>These improvements make the process more resilient, and provide for better visibility into the states and error information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu geliştirmeler işlemi daha esnek hale getirir ve durum ve hata bilgileri için daha fazla görünürlük sağlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Therefore, users can address the root cause of errors and then continue the posting process without causing data corruption and without causing data fixes to be required.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, kullanıcılar hataların kök nedenine gidebilir ve veri bozulmasına neden olmadan ve verilerin düzeltilmesine gerek kalmadan deftere nakil işlemine devam edebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>The following sections describe some of the major improvements for the statement posting feature that appear in the user interface for retail statements and posted statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki bölümlerde perakende ekstreler ve deftere nakledilen ekstreler için kullanıcı arabiriminde görünen deftere nakil özelliğindeki bazı önemli geliştirmeleri açıklamaktadır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Status details</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Durum ayrıntıları</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>A new state model has been introduced in the statement posting routine across the calculation and posting processes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hesaplama ve deftere nakil işlemlerinde ekstre deftere nakil rutinine yeni bir durum modeli eklenmiştir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>The following table describes the various states and their order during the calculation process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tabloda hesaplama işlemi sırasındaki çeşitli durumlar ve bunların sırası açıklanmaktadır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>State order</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Durum sırası</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>State</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İl</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Started</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Başlatıldı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>The statement was created and is ready to be calculated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstre oluşturuldu ve hesaplanmaya hazır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>Marked</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşaretli</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>The transactions that are in scope for the statement are identified based on the statement parameters, and they are marked with the statement ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstre için kapsamda olan hareketler ekstre parametreleri temel alınarak tanımlanır ve bunlar ekstre kodu ile işaretlenir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Calculated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hesaplandı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>The statement lines are computed and shown.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstre satırları hesaplanır ve gösterilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>The following table describes the various states and their order during the posting process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki tabloda deftere nakil işlemi sırasındaki çeşitli durumlar ve bunların sırası açıklanmaktadır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>State order</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Durum sırası</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>State</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İl</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Checked</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Denetlendi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Multiple validations are done that are related to parameters (for example, the disposition charge), and to the statement and statement lines (for example, the difference between the counted amount and the transaction amount).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parametrelerle (örneğin değerlendirme masrafı) ve ekstre ve ekstre satırlarıyla (örneğin, sayılan tutar ile hareket tutarı arasındaki fark) ilgili birden fazla doğrulama yapıldı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Aggregated</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Sales transactions for named and unnamed customers are aggregated based on the configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Adlandırılmış ve adlandırılmamış müşteriler için satış hareketleri yapılandırmaya göre toplanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Every aggregated transaction is eventually converted to a sales order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan her hareket sonunda bir satış siparişine dönüştürülür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Customer order created</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müşteri siparişi oluşturuldu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Based on the aggregated transaction, sales orders are created in the system.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan hareket temel alınarak sistemde satış siparişleri oluşturulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>4</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Customer order invoiced</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müşteri faturası oluşturuldu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Sales orders are invoiced.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satış siparişleri faturalandı.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>5</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">5</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Discounts posted</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İskontolar deftere nakledildi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Periodic discount journals are posted based on the configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Periyodik iskonto günlükleri yapılandırmaya göre deftere nakledilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>6</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>Income/expense posted</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gelir/gider deftere nakledildi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Income/expense transactions are posted as vouchers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gelir/gider hareketleri fiş olarak deftere nakledilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>7</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Vouchers linked</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fişler bağlandı</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Payment journals are created and linked to the corresponding invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme günlükleri oluşturulur ve ilgili faturaya bağlanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>8</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Payments posted</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödemeler deftere nakledildi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Payment journals are posted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme günlükleri deftere nakledilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>9</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">9</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Gift cards posted</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hediye kartları deftere nakledildi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Gift card transactions are posted as vouchers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hediye kartı hareketleri fiş olarak deftere nakledilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>10</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Posted</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gönderildi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>The statement is marked as posted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstre deftere nakledildi olarak işaretlenir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Every state in the preceding tables is independent in nature, and a hierarchical dependency is built between the states.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Önceki tablodaki her durum normalde bağımsızdır ve durumlar arasında hiyerarşik bir bağımlılık oluşturulur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>This dependency flows from top to bottom.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu bağımlılık yukarıdan aşağıya doğru akar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>If the system encounters any errors while it's processing a state, the status of the statement is reverted to the previous state.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sistem bir durumu işlerken hatalarla karşılaşırsa, ekstre durumu önceki durumuna geri döndürülür.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>Any subsequent reattempt of the process resumes from the state that failed and continues to move forward.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşlemin bir sonraki yeniden denemesi başarısız olan durumdan sürdürülür ve ileri doğru devam eder.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>This approach has the following benefits:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu yöntemin aşağıdaki faydaları vardır:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>The user has complete visibility into the state where the error occurred.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kullanıcı hatanın oluştuğu durumu tam olarak görebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Data corruption is avoided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verilerin bozulması önlenmiş olur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>For example, in the legacy statement posting feature, there were instances where some sales orders were invoiced but others were left open.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, eski ekstre deftere nakil özelliğinde, bazı satış siparişlerinin faturalandığı ancak diğerlerinin açık bırakıldığı örnekler vardı.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>There were also instances where some payment journals didn't have a corresponding invoice to settle, because the invoice posting had an error.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca, fatura deftere naklinde hata oluştuğundan, bazı ödeme günlüklerinin kapatılacak ilgili faturaya sahip olmadığı örnekler de görülüyordu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Users can see the current state of a statement by using the <bpt id="p1">**</bpt>Status details<ept id="p1">**</ept> button in the <bpt id="p2">**</bpt>Execution details<ept id="p2">**</ept> group of the statement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kullanıcılar ekstrenin geçerli durumunu ekstrenin <bpt id="p2">**</bpt>Yürütme ayrıntıları<ept id="p2">**</ept> grubundaki <bpt id="p1">**</bpt>Durum ayrıntıları<ept id="p1">**</ept> düğmesini kullanarak görebilirler.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>The status details page has three sections:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Durum ayrıntıları sayfasında üç bölüm bulunur:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>The first section shows the current status of the statement, together with the error code and a detailed error message, if an error occurred.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlk bölüm ekstrenin geçerli durumunu ve bir hata oluşmuşsa hata kodu ile ayrıntılı hata iletisini gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>The second section shows the various states of the calculation process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İkinci bölüm hesaplama işleminin çeşitli durumlarını gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>Visual cues indicate states that have been successfully run, states that could not be run because of errors, and states that haven't yet been run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Görsel ipuçları başarılı şekilde çalıştırılan durumlar, hata nedeniyle çalıştırılamayan durumları ve henüz çalıştırılmamış olan durumları gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>The third section shows the various states of the posting process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Üçüncü bölüm deftere nakil işleminin çeşitli durumlarını gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Visual cues indicate states that have been successfully run, states that could not be run because of errors, and states that haven't yet been run.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Görsel ipuçları başarılı şekilde çalıştırılan durumlar, hata nedeniyle çalıştırılamayan durumları ve henüz çalıştırılmamış olan durumları gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Additionally, the header of the second and third sections shows the overall status of the relevant process.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ayrıca, ikinci ve üçüncü bölüm başlığı ilgili işlemin genel durumunu gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Event logs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Olay günlükleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>A statement goes through various operations (for example, Create, Calculate, Clear, and Post), and multiple instances of the same operation might be called during the statement's lifecycle.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir ekstre çeşitli işlemlerden geçer (örneğin Oluştur, Hesapla, Temizle ve Deftere naklet) ve aynı işlemin birden fazla örneği ekstrenin yaşam döngüsü süresince çağrılabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>For example, after a statement is created and calculated, a user can clear the statement and calculate it again.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, bir ekstre oluşturulduktan veya hesaplandıktan sonra bir kullanıcı ekstre içeriğini temizleyip ekstreyi yeniden hesaplayabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>The <bpt id="p1">**</bpt>Event logs<ept id="p1">**</ept> button in the <bpt id="p2">**</bpt>Execution details<ept id="p2">**</ept> group of the statement provides a complete audit trail of the various operations that were called on a statement, together with information about when those operations were called.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstrenin <bpt id="p2">**</bpt>Yürütme ayrıntıları<ept id="p2">**</ept> grubundaki <bpt id="p1">**</bpt>Olay günlükleri<ept id="p1">**</ept> düğmesi, bir ekstrede çağrılan çeşitli işlemlerin denetim kılavuzunu bu işlemlerin ne zaman çağrıldığı bilgisiyle birlikte verir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Aggregated transactions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan hareketler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>During the posting process, the sales transactions are aggregated based on the configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Deftere nakil işlemi sırasında satış hareketleri yapılandırmaya göre toplanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>These aggregated transactions are stored in the system and used to create sales orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan bu hareketler sistemde saklanır ve satış siparişleri oluşturmak için kullanılır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Every aggregated transaction creates one corresponding sales order in the system.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan her hareket sistemde karşılık gelen bir satış siparişi oluşturur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>You can view the aggregated transactions by using the <bpt id="p1">**</bpt>Aggregated transactions<ept id="p1">**</ept> button in the <bpt id="p2">**</bpt>Execution details<ept id="p2">**</ept> group of the statement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan hareketleri <bpt id="p2">**</bpt>Yürütme ayrıntıları<ept id="p2">**</ept> grubundaki <bpt id="p1">**</bpt>Toplanan hareketler<ept id="p1">**</ept> düğmesini kullanarak görebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>The <bpt id="p1">**</bpt>Sales order detail<ept id="p1">**</ept> tab of an aggregated transaction shows the following information:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan hareketin <bpt id="p1">**</bpt>Satış siparişi ayrıntısı<ept id="p1">**</ept> sekmesi aşağıdaki bilgileri gösterir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source><bpt id="p1">**</bpt>Record ID<ept id="p1">**</ept> – The ID of the aggregated transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Kayıt kodu<ept id="p1">**</ept> - Toplanan hareketin kodu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source><bpt id="p1">**</bpt>Statement number<ept id="p1">**</ept> – The statement that the aggregated transaction belongs to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ekstre numarası<ept id="p1">**</ept> – Toplanan hareketin ait olduğu ekstre.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source><bpt id="p1">**</bpt>Date<ept id="p1">**</ept> – The date when the aggregated transaction was created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tarih<ept id="p1">**</ept> - Toplanan hareketin oluşturulduğu tarih.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source><bpt id="p1">**</bpt>Sales ID<ept id="p1">**</ept> – When a sales order is created from the aggregated transaction, the sales order ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Satış kodu<ept id="p1">**</ept> – Toplanan hareketten bir satış siparişi oluşturulduğunda, satış siparişinin kodu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>If this field is blank, the corresponding sales order hasn't been created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu alan boşsa, ilgili satış siparişi oluşturulmamıştır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source><bpt id="p1">**</bpt>Number of aggregated lines<ept id="p1">**</ept> – The total number of lines for the aggregated transaction and sales order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Toplanan satır sayısı<ept id="p1">**</ept> – Toplanan hareket ve satış siparişi için toplam satır sayısı.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept> – The last status of the aggregated transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Durum<ept id="p1">**</ept> – Toplanan işlemin son durumu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source><bpt id="p1">**</bpt>Invoice ID<ept id="p1">**</ept> – When the sales order for the aggregated transaction is invoiced, the sales invoice ID.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Fatura kodu<ept id="p1">**</ept> – Toplanan hareket için satış siparişi faturalandığında, satış faturası kodu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>If this field is blank, the invoice for the sales order hasn't been posted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu alan boşsa, satış siparişi için fatura deftere nakledilmemiştir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>The <bpt id="p1">**</bpt>Transaction details<ept id="p1">**</ept> tab of an aggregated transaction shows all the retail transactions that have been pulled into the aggregated transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan hareketin <bpt id="p1">**</bpt>Hareket ayrıntıları<ept id="p1">**</ept> sekmesi toplanan harekete çekilmiş olan tüm perakende hareketleri gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>The aggregated lines on the aggregated transaction show all the aggregated records from the retail transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan hareketteki toplanan satırlar perakende hareketlerinden toplanan tüm kayıtları gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>The aggregated lines also show details such as the item, variant, quantity, price, net amount, unit, and warehouse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan satırlar ayrıca madde, çeşit, miktar, fiyat, net tutar, birim ve ambar gibi ayrıntıları gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Basically, each aggregated line corresponds to one sales order line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Temel olarak, toplanan her satır bir satış siparişi satırına karşılık gelir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>From the <bpt id="p1">**</bpt>Aggregated transactions<ept id="p1">**</ept> page, you can download the XML for a specific aggregated transaction by using the <bpt id="p2">**</bpt>Export sales order XML<ept id="p2">**</ept> button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Toplanan hareketler<ept id="p1">**</ept> sayfasından, <bpt id="p2">**</bpt>Satış siparişini XML'e aktar<ept id="p2">**</ept> düğmesini kullanarak belirli bir toplanan hareket için XML indirebilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>You can use the XML to debug issues that involve sales order creation and posting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">XML dosyasını, satış siparişi oluşturma ve deftere nakletmeyle ilgili hata ayıklama sorunları için kullanabilirsiniz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Just download the XML, upload it to a test environment, and debug the issue in the test environment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">XML dosyasını indirin, test ortamına yükleyin ve sorunu test ortamında ayıklayın.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>The functionality for downloading the XML for aggregated transactions isn't available for statements that have been posted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan hareketler için XML dosyası indirme işlevi deftere nakledilmiş olan ekstreler için kullanılamaz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>The aggregated transaction view provides the following benefits:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan hareket görünümü aşağıdaki faydaları sağlar:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>The user has visibility into the aggregated transactions that failed during sales order creation and the sales orders that failed during invoicing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kullanıcı satış siparişi oluşturma sırasında başarısız olan toplanan hareketleri ve faturalama sırasında başarısız olan satış siparişlerini görebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>The user has visibility into how transactions are aggregated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kullanıcı hareketlerin nasıl toplandığını görebilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>The user has a complete audit trail, from retail transactions, to sales orders, to sales invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kullanıcı perakende hareketlerinden satış siparişlerine ve satış faturalarına kadar eksiksiz bir denetim kılavuzuna sahip olur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>This audit trail wasn't available in the legacy statement posting feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu denetimi kılavuzu eski ekstre deftere nakil özelliğinde kullanılamaz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Aggregated XML file make it easier to identify issues during sales order creation and invoicing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplanan XML dosyası satış siparişi oluşturma ve faturalama sırasındaki sorunların daha kolay tanımlanmasını sağlar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Journal vouchers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Günlük fişleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>The <bpt id="p1">**</bpt>Journal vouchers<ept id="p1">**</ept> button in the <bpt id="p2">**</bpt>Execution details<ept id="p2">**</ept> group of the statement shows all the various voucher transactions that are created for a statement, and that are related to discounts, income/expense accounts, gift cards, and so on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstrenin <bpt id="p2">**</bpt>Yürütme ayrıntıları<ept id="p2">**</ept> grubundaki <bpt id="p1">**</bpt>Günlük fişleri<ept id="p1">**</ept> düğmesi bir ekstre için oluşturulan ve iskontolat, gelir/gider hesaplar, hediye kartları vb. ile ilgili olan tüm fiş hareketlerini gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Currently, the program shows this data only for posted statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Şu anda, program yalnızca deftere nakledilen ekstreler için bu verileri gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Payment journals</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme günlükleri</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>The <bpt id="p1">**</bpt>Payment journals<ept id="p1">**</ept> button in the <bpt id="p2">**</bpt>Execution details<ept id="p2">**</ept> group of the statement shows all the various payment journals that are created for a statement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstrenin <bpt id="p2">**</bpt>Yürütme ayrıntıları<ept id="p2">**</ept> grubundaki <bpt id="p1">**</bpt>Ödeme günlükleri<ept id="p1">**</ept> düğmesi, bir ekstre için oluşturulan tüm çeşitli ödeme günlüklerini gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Currently, the program shows this data only for posted statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Şu anda, program yalnızca deftere nakledilen ekstreler için bu verileri gösterir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Other improvements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diğer geliştirmeler</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>Other, back-end improvements that users can see have been made to the statement posting feature.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kullanıcının görebileceği diğer arka uç geliştirmeleri ekstre deftere nakil özelliğinde yapılmıştır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>Here are some examples:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Burada bazı örnekler verilmiştir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>The aggregation doesn't consider the staff, terminal, and shift entities.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Toplam personel, terminal ve vardiya varlıklarını dikkate almaz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Because there are fewer aggregation parameters, fewer sales order lines must be processed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Daha az toplama parametresi olduğundan, daha az satış siparişi satırının işlenmesi gerekir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>The occurrence of deadlock on retail transaction tables is reduced by introducing additional extension tables and by doing insert operations instead of update operations on the retail transaction tables.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende hareketi tablolarındaki kilitlenme durumları ek uzantı tablolarıyla ve işlemleri perakende hareket tablolarında güncelleştirmek yerine ekleme işlemleri yapılarak azaltılmıştır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>The number of running batch tasks has been parameterized and limited.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çalışan toplu iş görevlerinin sayısı parametreye dönüştürülmüş ve sınırlandırılmıştır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Therefore, this number can be fine-tuned specifically to a customer's environment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, bu sayı müşterinin ortamına göre özel olarak ayarlanabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>In the legacy statement posting feature, an unlimited number of batch tasks was created at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eski ekstre deftere nakil özelliğinde, aynı anda sınırsız sayıda toplu iş görevi oluşturuldu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>The results were unmanageable loads, overhead, and bottlenecks on the batch server.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bunun sonucu yönetilemeyen yükler, genel gider ve toplu iş sunucusunda tıkanmalar oluyordu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Statements are efficiently queued for processing by prioritizing the statements that have the maximum number of transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstreler, maksimum hareket sayısına sahip ekstrelere öncelik verilerek işlenmek üzere etkin şekilde sıraya alınır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>Batch processes such as <bpt id="p1">**</bpt>Calculate statements in batch<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Post statements in batch<ept id="p2">**</ept> are run only in batch mode.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ekstreleri toplu işle hesapla<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Ekstreleri toplu işle deftere naklet<ept id="p2">**</ept> gibi toplu iş işlemleri yalnızca toplu iş modunda çalışır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>In the legacy statement posting feature, users could choose to run these batch processes in an interactive mode which is s single threaded operation unlike batch processes which are multi-threaded.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eski ekstre deftere nakil özelliğinde kullanıcılar bu toplu işleri çok parçacıklı olan toplu işlemlerin aksine tek parçacıklı bir işlem olan etkileşimli modda çalıştırmayı seçebiliyordu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>In the legacy statement posting feature, any failure of a batch task put the whole batch job in an error state.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eski ekstre deftere nakil özelliğinde, toplu işteki herhangi bir hata tüm toplu işin hatalı durumda olmasına neden oluyordu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>In the improved feature, batch task failures don't put the batch job in an error state if other batch tasks are successfully completed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geliştirilen özellikte, diğer toplu iş görevlerinin başarıyla tamamlanmış olması durumunda toplu iş görevi hataları toplu işi hatalı duruma sokmaz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>You should assess the posting status for a batch execution run by using the <bpt id="p1">**</bpt>Retail statements<ept id="p1">**</ept> page, where you can see any statements that weren't posted because of errors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hatalar nedeniyle deftere nakledilmeyen ekstreleri görebileceğiniz <bpt id="p1">**</bpt>Perakende ekstreleri<ept id="p1">**</ept> sayfasını kullanarak bir toplu iş yürütme çalışmasının deftere nakil durumunu değerlendirmeniz gerekir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>In the legacy statement posting feature, the first occurrence of a statement failure causes the whole batch to fail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eski ekstre deftere nakil özelliğinde, ekstre hatası ilk gerçekleştiğinde tüm toplu işin başarısız olmasına neden oluyordu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>The remaining statements aren't processed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kalan ekstreler işlenmiyordu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>In the improved feature, the batch process continues to process all statements, even if some of the statements fail.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gelişmiş özellikte, bazı ekstreler başarısız olsa bile toplu işlem tüm ekstreleri işlemeye devam eder.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>One benefit is that users gain visibility into the exact number of statements that have errors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir diğer avantaj ise kullanıcıların hatalı ekstre sayısını tam olarak görebilmesidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Therefore, users don't have to be stuck in a continuous loop of fixing the errors and running the post statement process till all statements are posted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, kullanıcıların sürekli hataları düzeltme ve deftere nakil işlemini tüm ekstreler deftere nakledilene kadar çalıştırma döngüsüne takılması gerekmez.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>General guidance about the statement posting process</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstre deftere nakil işlemine yönelik genel bir kılavuz</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>We recommend that you run the statement posting process in a batch, because batch runs take advantage of the power of the batch framework in terms of multithreading.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstre deftere nakil işlemini toplu işte çalıştırmanızı öneririz. Çünkü toplu iş çalıştırma çok parçacıklı işleme konusunda toplu iş altyapısının gücünden faydalanır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>Multithreading is required in order to handle the huge volumes of transactions that are normally seen in statement postings.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çoklu iş parçacığı kullanımı, ekstre deftere nakillerinde normal olarak görülen çok büyük hacimli hareketlerin işlenmesi için gereklidir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>We recommend that you turn on negative physical inventory on the item model group, so that you have a seamless posting experience.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sorunsuz bir deftere nakil deneyimi yaşamanız için madde model grubundaki negatif fiziksel stoğu açmanızı öneririz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>In some scenarios, negative statements might not be able to be posted unless there is negative physical inventory.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bazı senaryolarda, negatif fiziksel stok olmadığında negatif ekstrelerin deftere nakledilmesi mümkün olmayabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>For example, in theory, if there is only one unit of an item in inventory, and there have been a sales transaction and a return transaction for the item, the transaction should be able to be posted even if negative inventory isn't turned on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Örneğin, teorik olarak, stokta yalnızca tek bir maddenin birimi varsa ve madde için bir satış hareketi ve iade hareketi gerçekleştiyse, hareketin negatif stok açık olmasa bile deftere nakledilebilmesi gerekir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>However, because the statement posting process pulls both the sales transaction and the return transaction in a single customer order, there is no guarantee that the sales line will be posted first, followed by the return line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ancak, ekstre deftere nakil işlemi tek bir müşteri siparişindeki hem satış hem de iade hareketini çektiğinden, önce satış satırının ve ardından iade satırının deftere nakledileceğinin garantisi yoktur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>Therefore, errors can occur.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, hatalar oluşabilir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>If negative inventory is turned on in this scenario, the transaction posting isn't negatively affected, and the system will correctly reflect the inventory.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu senaryoda negatif stok açık olursa, hareket deftere nakli negatif olarak etkilenmez ve sistem stoğu doğru şekilde yansıtır.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source>We recommend that you use aggregation while you calculate and post statements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstreleri hesaplarken ve deftere naklederken toplamı kullanmanızı öneririz.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source>Therefore, the following settings are recommended for some of the aggregation parameters:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu nedenle, aşağıdaki ayarlar bazı toplam parametreleri için önerilir:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Headquarters setup<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Parameters<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>Retail parameters<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Perakende<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Genel merkez kurulumu<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Parametreler<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>Perakende parametreleri<ept id="p4">**</ept>'ne gidin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>Then, on the <bpt id="p1">**</bpt>Posting<ept id="p1">**</ept> tab, on the <bpt id="p2">**</bpt>Inventory update<ept id="p2">**</ept> FastTab, in the <bpt id="p3">**</bpt>Detail level<ept id="p3">**</ept> field, select <bpt id="p4">**</bpt>Summary<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ardından <bpt id="p1">**</bpt>Deftere nakil<ept id="p1">**</ept> sekmesinde, <bpt id="p2">**</bpt>Stok güncelleştirme<ept id="p2">**</ept> hızlı sekmesindeki <bpt id="p3">**</bpt>Ayrıntı düzeyi<ept id="p3">**</ept> alanında <bpt id="p4">**</bpt>Özet<ept id="p4">**</ept>'i seçin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Headquarters setup<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Parameters<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>Retail parameters<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Perakende<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Genel merkez kurulumu<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Parametreler<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>Perakende parametreleri<ept id="p4">**</ept>'ne gidin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source>Then, on the <bpt id="p1">**</bpt>Posting<ept id="p1">**</ept> tab, on the <bpt id="p2">**</bpt>Aggregation<ept id="p2">**</ept> FastTab, set the <bpt id="p3">**</bpt>Voucher transactions<ept id="p3">**</ept> option to <bpt id="p4">**</bpt>Yes<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ardından <bpt id="p1">**</bpt>Deftere nakil<ept id="p1">**</ept> sekmesinde <bpt id="p2">**</bpt>Toplam<ept id="p2">**</ept> hızlı sekmesinde <bpt id="p3">**</bpt>Fiş hareketleri<ept id="p3">**</ept> seçeneğini <bpt id="p4">**</bpt>Evet<ept id="p4">**</ept> olarak ayarlayın.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
