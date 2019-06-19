@@ -76,7 +76,7 @@ ms.locfileid: "1555073"
 
 <span data-ttu-id="c5fbc-153">Bir kullanıcının devre dışı bırakılmasını talep etmek için:</span><span class="sxs-lookup"><span data-stu-id="c5fbc-153">To request that a user is inactivated:</span></span>
 
-1.  <span data-ttu-id="c5fbc-154"> *\*Tüm kişiler** sayfasındaki *\*Satıcı kullanıcısını** *\*devre dışı bırak*\*'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5fbc-154">On the **All contacts** page, click **Inactivate** **vendor user**.</span></span>
+1.  <span data-ttu-id="c5fbc-154"> **Tüm kişiler** sayfasındaki **Satıcı kullanıcısını** **devre dışı bırak**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5fbc-154">On the **All contacts** page, click **Inactivate** **vendor user**.</span></span>
 2.  <span data-ttu-id="c5fbc-155">**İş gerekçesi** alanına bir yorum yazın.</span><span class="sxs-lookup"><span data-stu-id="c5fbc-155">Write a comment in the **Business justification** field.</span></span>
 3.  <span data-ttu-id="c5fbc-156">**Gönder**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5fbc-156">Click **Submit**.</span></span>
 
