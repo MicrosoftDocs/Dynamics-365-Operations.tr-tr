@@ -1,219 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="ExpenseWorkspaceNew.md" target-language="tr-TR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>ExpenseWorkspaceNew.43d6f6.c7a2b95456e812970b135d83f0f7e503310ce185.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>c7a2b95456e812970b135d83f0f7e503310ce185</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>97ed74889a09ef385f6ecbab69e84a05ff42ee41</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/20/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\expense-management\ExpenseWorkspaceNew.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Expense reports reimagined</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gider raporları yeniden tasarlandı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides information about the redesigned and reimagined experience for expense report entry in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu konu, Microsoft Dynamics 365 for Finance and Operations'daki gider raporu girişi için yeniden tasarlanan ve yenilenmiş olan deneyim hakkında bilgi sağlar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
-          <source>The new experience simplifies the process of completing expense reports and decreases the time that is required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni deneyim, gider raporlarını tamamlama sürecini basitleştirir ve gerekli zamanı azaltır.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Expense reports reimagined</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gider raporları yeniden tasarlandı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Expense report entry has been redesigned to simplify the process of completing expense reports and decrease the time that is required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gider raporu girişi, gider raporlarının tamamlanmasını basitleştirmek ve gereken zamanı azaltmak amacıyla yeniden tasarlanmıştır.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Here are the major components of the new expense experience:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni gider deneyiminin ana bileşenleri aşağıdadır:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>A new expense management workspace that lets you access your delegate's expenses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Temsilcinizin giderlerine erişmenize olanak tanıyan yeni bir gider yönetimi çalışma alanı.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Başlık düzeyi girişlerini daha iyi göstermek ve gider satırlarına giriş ekleme sürecini basitleştirmek için yeni bir giriş eşleştirme deneyimi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>A new read-only grid that lets you view many more expense lines and additional columns of data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birçok başka gider satırı ve ek veri sütunu görüntülemenizi sağlayan, salt okunur yeni bir ızgara.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>You can now see all itemized and split lines, together with their parent expenses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Artık tüm dökümü yapılmış ve bölünmüş satırları ana giderlerle birlikte görebilirsiniz.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>A simplified pane for editing expenses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Giderleri düzenlemek için basitleştirilmiş bölme.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Redesigned error, warning, and policy messages to help guarantee that you have the correct context to understand what the issue is and how to resolve it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sorunun ne olduğunu ve nasıl çözümleneceğini anlamak için doğru içeriğe sahip olmanızı sağlamaya yardımcı olacak şekilde yeniden tasarlanan hata, uyarı ve ilke iletileri.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Microsoft has removed many messages that appeared before users had an opportunity to complete their tasks and address the issues, such as the incomplete itemization message.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft, kullanıcıların görevlerini tamamlama ve sorunları bildirme fırsatı olmadan önce görüntülenen tamamlanmamış döküm mesajı gibi birçok iletiyi kaldırmıştır.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>A new page for specifying which fields are required by your organization, which fields are optional, and which fields should not be captured.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuruluşunuz tarafından hangi alanların gerekli olduğunu, hangi alanların isteğe bağlı olduğunu ve hangi alanların yakalanmaması gerektiğini belirtmek için yeni bir sayfa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>This page will help reduce the number of fields that users must to set.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu sayfa, kullanıcıların ayarlaması gereken alan sayısını azaltmaya yardımcı olur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gider raporları için yeni bir görünüm; böylece raporlar artık muhasebe personeli için tasarlandıkları şekilde görünmez.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>To turn on the new experience, use the <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> workspace to turn on the <bpt id="p2">**</bpt>Expense reports re-imagined<ept id="p2">**</ept> feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni deneyimi açmak için <bpt id="p1">**</bpt>Özellik yönetimi<ept id="p1">**</ept> çalışma alanını kullanarak <bpt id="p2">**</bpt>Gider raporları yeniden tasarlandı<ept id="p2">**</ept> özelliğini açın.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>When you turn on this feature, the following actions occur:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu özelliği etkinleştirdiğinizde, aşağıdaki eylemler gerçekleşir:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>The existing expense workspace is replaced with the new workspace.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mevcut gider çalışma alanı yeni çalışma alanıyla değiştirilir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>A new menu item for expense field visibility is added.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gider alanı görünürlüğü için yeni bir menü öğesi eklenir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>No existing menu items for expense reports (the existing page) or expense report fields are removed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gider raporları için varolan menü öğeleri (varolan sayfa) veya gider raporu alanları kaldırılmaz.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Workflows and any approvals still take you to the existing expense reports page.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">İş akışları ve onayların sizi varolan gider raporları sayfasına götürmeye devam eder.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Getting started video for new users</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Yeni kullanıcılar için Başlarken videosu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>The <bpt id="p1">[</bpt>Expense experience in Dynamics 365 for Finance and Operations<ept id="p1">](https://youtu.be/Ocy-MsTvEE0)</ept> video (shown above) is included in the <bpt id="p2">[</bpt>Finance and Operations playlist<ept id="p2">](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)</ept> available on YouTube.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Dynamics 365 for Finance and Operations içinde gider deneyimi<ept id="p1">](https://youtu.be/Ocy-MsTvEE0)</ept> videosu (yukarıda gösterilen), YouTube'da bulunan <bpt id="p2">[</bpt>Finance and Operations oynatma listesinde<ept id="p2">](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)</ept> bulunmaktadır.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>New features</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Yeni özellikler</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>New feature</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Yeni özellik</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Description</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Tanım</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Expense field visibility</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Gider alanı görünürlüğü</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni bir kurulum sayfası bir kuruluş için hangi alanların devre dışı bırakılacağını, hangi alanların gerekli olacağını ve hangi alanların önerildiğini belirtmenize olanak tanır.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Required fields</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gerekli alanlar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>New simple configuration lets you make some fields required without having to use the policy framework.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni basit yapılandırma, ilke çerçevesini kullanmak zorunda kalmadan gerekli bazı alanları yapmanızı sağlar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Optional fields</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İsteğe bağlı alanlar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>A second page for optional fields is added.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İsteğe bağlı alanlar için ikinci bir sayfa eklendi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu şekilde, çalışanlar alanları ayarlamaları gerektiğini hissetmeyecek, ancak alanlara hala kolaylıkla erişilebilecek.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Add unattached receipts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İliştirilmemiş girişler ekleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gider raporuna iliştirilmemiş girişler ekleme yeteneği çalışma alanından ve gider raporunda daha görünür hale geldi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Improved messaging</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İyileştirilmiş ileti</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>There is better visibility into expense lines that have warnings or errors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uyarıları veya hataları olan gider satırları için daha iyi görünürlük.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Reduction in messages in the message bar</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İleti çubuğundaki iletilerde azaltma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilgi günlüğü iletisi sayısı düşürüldü ve birçok durumda tekrarlanan iletilerin görünmesini engellemeye yönelik çalışma yapıldı.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Grouped together common actions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birlikte gruplanan genel eylemler</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En yaygın satır düzeyinde eylemler için yeni eylemler düğmesi ve başlık ve diğer daha az sık kullanılan eylemler için üç nokta düğmesi (...) eklenerek arabirim temizlendi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>New workspace to increase visibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Görünürlüğü artırmak için yeni çalışma alanı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>A new workspace unifies features and links that let users move to different areas.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni bir çalışma alanı, kullanıcıların farklı alanlara gitmesine izin veren özellikleri ve bağlantıları birleştiriyor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Add existing expenses and receipts during expense creation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gider oluşturulurken mevcut giderleri ve girişleri ekleyin</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>When you create expense reports, you can add all or selected expenses and receipts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gider raporları oluştururken, tüm veya seçilmiş giderleri ve girişleri ekleyebilirsiniz.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Exchange rate calculator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Döviz kuru hesaplayıcı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cepten çok para birimli hareketler için döviz kurunu hesaplamanızı sağlayan bir döviz kuru hesap makinesi eklendi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Save and add new expense lines</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaydet ve yeni gider satırları ekle</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source><bpt id="p1">**</bpt>Save<ept id="p1">**</ept> and <bpt id="p2">**</bpt>New<ept id="p2">**</ept> buttons are available when new expenses are entered, to help you quickly enter expense lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni giderler girildiğinde, gider satırlarını hızlı bir şekilde girebilmenize yardımcı olmak için <bpt id="p1">**</bpt>Kaydet<ept id="p1">**</ept> ve <bpt id="p2">**</bpt>Yeni<ept id="p2">**</ept> düğmeleri kullanıma sunuldu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Better visibility into split and itemized lines</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bölünmüş ve dökümü yapılmış satırlar üzerinde daha fazla görünürlük</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Itemized and split lines are added directly to the list of expenses, to increase visibility and help you easily determine whether there are policy errors or other errors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dökümü yapılmış ve bölünmüş satırlar doğrudan gider listesine eklenerek görünürlüğü artırır ve ilke hataları veya başka hatalar olup olmadığını kolayca belirlemenize yardımcı olur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Show receipts during itemization</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Döküm sırasında girişleri göster</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Receipts can be shown during itemization.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Döküm sırasında girişler gösterilebilir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>The initial release is focused on expense entry scenarios.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İlk sürüm, gider girişi senaryolarına odaklanmıştır.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Any expense report review or approval scenario will continue to use the existing expense entry page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gider raporu inceleme veya onay senaryosu varolan gider girişi sayfasını kullanmaya devam edecektir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>The following features are present on the existing page but aren't yet present on the new page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşağıdaki özellikler mevcut sayfada bulunur ancak henüz yeni sayfada yer almamaktadır.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>These features will be reintroduced over the next several releases:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bu özellikler sonraki birkaç sürümde yeniden tanıtılacaktır:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Approvals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Onaylar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Accounts payable approvals and the ability to edit the accounting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Borç hesapları onayları ve muhasebe hesaplarını düzenleme yeteneği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Multiple entry points</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çoklu giriş noktaları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Travel requisition integration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seyahat talebi tümleştirmesi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Data entity for expense field visibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gider alanı görünürlüğü için veri varlığı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Entry for per-diem expenses</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Harcırah giderleri girişi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Line-level workflow</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satır düzeyinde iş akışı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Interim approver support</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Geçici onaylayan desteği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Advanced itemization</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gelişmiş döküm</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Gider raporları yeniden tasarlandı
+description: Bu konu, Microsoft Dynamics 365 for Finance and Operations'daki gider raporu girişi için yeniden tasarlanan ve yenilenmiş olan deneyim hakkında bilgi sağlar. Yeni deneyim, gider raporlarını tamamlama sürecini basitleştirir ve gerekli zamanı azaltır.
+author: ryansandness
+manager: AnnBe
+ms.date: 05/20/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Operations, Core
+ms.search.region: Global
+ms.author: ryansand
+ms.search.validFrom: 2019-6-30
+ms.dyn365.ops.version: 10.0.3
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592649"
+---
+# <a name="expense-reports-reimagined"></a><span data-ttu-id="8d8b1-104">Gider raporları yeniden tasarlandı</span><span class="sxs-lookup"><span data-stu-id="8d8b1-104">Expense reports reimagined</span></span>
+
+[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="8d8b1-105">Gider raporu girişi, gider raporlarının tamamlanmasını basitleştirmek ve gereken zamanı azaltmak amacıyla yeniden tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-105">Expense report entry has been redesigned to simplify the process of completing expense reports and decrease the time that is required.</span></span> <span data-ttu-id="8d8b1-106">Yeni gider deneyiminin ana bileşenleri aşağıdadır:</span><span class="sxs-lookup"><span data-stu-id="8d8b1-106">Here are the major components of the new expense experience:</span></span>
+
+- <span data-ttu-id="8d8b1-107">Temsilcinizin giderlerine erişmenize olanak tanıyan yeni bir gider yönetimi çalışma alanı.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-107">A new expense management workspace that lets you access your delegate's expenses.</span></span>
+- <span data-ttu-id="8d8b1-108">Başlık düzeyi girişlerini daha iyi göstermek ve gider satırlarına giriş ekleme sürecini basitleştirmek için yeni bir giriş eşleştirme deneyimi.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-108">A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.</span></span>
+- <span data-ttu-id="8d8b1-109">Birçok başka gider satırı ve ek veri sütunu görüntülemenizi sağlayan, salt okunur yeni bir ızgara.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-109">A new read-only grid that lets you view many more expense lines and additional columns of data.</span></span> <span data-ttu-id="8d8b1-110">Artık tüm dökümü yapılmış ve bölünmüş satırları ana giderlerle birlikte görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-110">You can now see all itemized and split lines, together with their parent expenses.</span></span>
+- <span data-ttu-id="8d8b1-111">Giderleri düzenlemek için basitleştirilmiş bölme.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-111">A simplified pane for editing expenses.</span></span>
+- <span data-ttu-id="8d8b1-112">Sorunun ne olduğunu ve nasıl çözümleneceğini anlamak için doğru içeriğe sahip olmanızı sağlamaya yardımcı olacak şekilde yeniden tasarlanan hata, uyarı ve ilke iletileri.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-112">Redesigned error, warning, and policy messages to help guarantee that you have the correct context to understand what the issue is and how to resolve it.</span></span> <span data-ttu-id="8d8b1-113">Microsoft, kullanıcıların görevlerini tamamlama ve sorunları bildirme fırsatı olmadan önce görüntülenen tamamlanmamış döküm mesajı gibi birçok iletiyi kaldırmıştır.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-113">Microsoft has removed many messages that appeared before users had an opportunity to complete their tasks and address the issues, such as the incomplete itemization message.</span></span>
+- <span data-ttu-id="8d8b1-114">Kuruluşunuz tarafından hangi alanların gerekli olduğunu, hangi alanların isteğe bağlı olduğunu ve hangi alanların yakalanmaması gerektiğini belirtmek için yeni bir sayfa.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-114">A new page for specifying which fields are required by your organization, which fields are optional, and which fields should not be captured.</span></span> <span data-ttu-id="8d8b1-115">Bu sayfa, kullanıcıların ayarlaması gereken alan sayısını azaltmaya yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-115">This page will help reduce the number of fields that users must to set.</span></span>
+- <span data-ttu-id="8d8b1-116">Gider raporları için yeni bir görünüm; böylece raporlar artık muhasebe personeli için tasarlandıkları şekilde görünmez.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-116">A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.</span></span>
+
+<span data-ttu-id="8d8b1-117">Yeni deneyimi açmak için **Özellik yönetimi** çalışma alanını kullanarak **Gider raporları yeniden tasarlandı** özelliğini açın.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-117">To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports re-imagined** feature.</span></span> <span data-ttu-id="8d8b1-118">Bu özelliği etkinleştirdiğinizde, aşağıdaki eylemler gerçekleşir:</span><span class="sxs-lookup"><span data-stu-id="8d8b1-118">When you turn on this feature, the following actions occur:</span></span>
+
+- <span data-ttu-id="8d8b1-119">Mevcut gider çalışma alanı yeni çalışma alanıyla değiştirilir.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-119">The existing expense workspace is replaced with the new workspace.</span></span>
+- <span data-ttu-id="8d8b1-120">Gider alanı görünürlüğü için yeni bir menü öğesi eklenir.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-120">A new menu item for expense field visibility is added.</span></span>
+- <span data-ttu-id="8d8b1-121">Gider raporları için varolan menü öğeleri (varolan sayfa) veya gider raporu alanları kaldırılmaz.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-121">No existing menu items for expense reports (the existing page) or expense report fields are removed.</span></span>
+- <span data-ttu-id="8d8b1-122">İş akışları ve onayların sizi varolan gider raporları sayfasına götürmeye devam eder.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-122">Workflows and any approvals still take you to the existing expense reports page.</span></span>
+
+## <a name="getting-started-video-for-new-users"></a><span data-ttu-id="8d8b1-123">Yeni kullanıcılar için Başlarken videosu</span><span class="sxs-lookup"><span data-stu-id="8d8b1-123">Getting started video for new users</span></span>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
+
+<span data-ttu-id="8d8b1-124">[Dynamics 365 for Finance and Operations içinde gider deneyimi](https://youtu.be/Ocy-MsTvEE0) videosu (yukarıda gösterilen), YouTube'da bulunan [Finance and Operations oynatma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) bulunmaktadır.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-124">The [Expense experience in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) video (shown above) is included in the [Finance and Operations playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.</span></span>
+
+## <a name="new-features"></a><span data-ttu-id="8d8b1-125">Yeni özellikler</span><span class="sxs-lookup"><span data-stu-id="8d8b1-125">New features</span></span>
+
+| <span data-ttu-id="8d8b1-126">Yeni özellik</span><span class="sxs-lookup"><span data-stu-id="8d8b1-126">New feature</span></span> | <span data-ttu-id="8d8b1-127">Tanım</span><span class="sxs-lookup"><span data-stu-id="8d8b1-127">Description</span></span> |
+|---|----|
+| <span data-ttu-id="8d8b1-128">Gider alanı görünürlüğü</span><span class="sxs-lookup"><span data-stu-id="8d8b1-128">Expense field visibility</span></span> | <span data-ttu-id="8d8b1-129">Yeni bir kurulum sayfası bir kuruluş için hangi alanların devre dışı bırakılacağını, hangi alanların gerekli olacağını ve hangi alanların önerildiğini belirtmenize olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-129">A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended.</span></span> |
+| <span data-ttu-id="8d8b1-130">Gerekli alanlar</span><span class="sxs-lookup"><span data-stu-id="8d8b1-130">Required fields</span></span> | <span data-ttu-id="8d8b1-131">Yeni basit yapılandırma, ilke çerçevesini kullanmak zorunda kalmadan gerekli bazı alanları yapmanızı sağlar.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-131">New simple configuration lets you make some fields required without having to use the policy framework.</span></span> |
+| <span data-ttu-id="8d8b1-132">İsteğe bağlı alanlar</span><span class="sxs-lookup"><span data-stu-id="8d8b1-132">Optional fields</span></span> | <span data-ttu-id="8d8b1-133">İsteğe bağlı alanlar için ikinci bir sayfa eklendi.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-133">A second page for optional fields is added.</span></span> <span data-ttu-id="8d8b1-134">Bu şekilde, çalışanlar alanları ayarlamaları gerektiğini hissetmeyecek, ancak alanlara hala kolaylıkla erişilebilecek.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-134">In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible.</span></span> |
+| <span data-ttu-id="8d8b1-135">İliştirilmemiş girişler ekleme</span><span class="sxs-lookup"><span data-stu-id="8d8b1-135">Add unattached receipts</span></span> | <span data-ttu-id="8d8b1-136">Gider raporuna iliştirilmemiş girişler ekleme yeteneği çalışma alanından ve gider raporunda daha görünür hale geldi.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-136">The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report.</span></span> |
+| <span data-ttu-id="8d8b1-137">İyileştirilmiş ileti</span><span class="sxs-lookup"><span data-stu-id="8d8b1-137">Improved messaging</span></span> | <span data-ttu-id="8d8b1-138">Uyarıları veya hataları olan gider satırları için daha iyi görünürlük.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-138">There is better visibility into expense lines that have warnings or errors.</span></span> |
+| <span data-ttu-id="8d8b1-139">İleti çubuğundaki iletilerde azaltma</span><span class="sxs-lookup"><span data-stu-id="8d8b1-139">Reduction in messages in the message bar</span></span>| <span data-ttu-id="8d8b1-140">Bilgi günlüğü iletisi sayısı düşürüldü ve birçok durumda tekrarlanan iletilerin görünmesini engellemeye yönelik çalışma yapıldı.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-140">The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases.</span></span> |
+| <span data-ttu-id="8d8b1-141">Birlikte gruplanan genel eylemler</span><span class="sxs-lookup"><span data-stu-id="8d8b1-141">Grouped together common actions</span></span> | <span data-ttu-id="8d8b1-142">En yaygın satır düzeyinde eylemler için yeni eylemler düğmesi ve başlık ve diğer daha az sık kullanılan eylemler için üç nokta düğmesi (...) eklenerek arabirim temizlendi.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-142">The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions.</span></span> |
+| <span data-ttu-id="8d8b1-143">Görünürlüğü artırmak için yeni çalışma alanı</span><span class="sxs-lookup"><span data-stu-id="8d8b1-143">New workspace to increase visibility</span></span> | <span data-ttu-id="8d8b1-144">Yeni bir çalışma alanı, kullanıcıların farklı alanlara gitmesine izin veren özellikleri ve bağlantıları birleştiriyor.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-144">A new workspace unifies features and links that let users move to different areas.</span></span> |
+| <span data-ttu-id="8d8b1-145">Gider oluşturulurken mevcut giderleri ve girişleri ekleyin</span><span class="sxs-lookup"><span data-stu-id="8d8b1-145">Add existing expenses and receipts during expense creation</span></span> | <span data-ttu-id="8d8b1-146">Gider raporları oluştururken, tüm veya seçilmiş giderleri ve girişleri ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-146">When you create expense reports, you can add all or selected expenses and receipts.</span></span> |
+| <span data-ttu-id="8d8b1-147">Döviz kuru hesaplayıcı</span><span class="sxs-lookup"><span data-stu-id="8d8b1-147">Exchange rate calculator</span></span> | <span data-ttu-id="8d8b1-148">Cepten çok para birimli hareketler için döviz kurunu hesaplamanızı sağlayan bir döviz kuru hesap makinesi eklendi.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-148">An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions.</span></span> |
+| <span data-ttu-id="8d8b1-149">Kaydet ve yeni gider satırları ekle</span><span class="sxs-lookup"><span data-stu-id="8d8b1-149">Save and add new expense lines</span></span> | <span data-ttu-id="8d8b1-150">Yeni giderler girildiğinde, gider satırlarını hızlı bir şekilde girebilmenize yardımcı olmak için **Kaydet** ve **Yeni** düğmeleri kullanıma sunuldu.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-150">**Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines.</span></span> |
+| <span data-ttu-id="8d8b1-151">Bölünmüş ve dökümü yapılmış satırlar üzerinde daha fazla görünürlük</span><span class="sxs-lookup"><span data-stu-id="8d8b1-151">Better visibility into split and itemized lines</span></span> | <span data-ttu-id="8d8b1-152">Dökümü yapılmış ve bölünmüş satırlar doğrudan gider listesine eklenerek görünürlüğü artırır ve ilke hataları veya başka hatalar olup olmadığını kolayca belirlemenize yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-152">Itemized and split lines are added directly to the list of expenses, to increase visibility and help you easily determine whether there are policy errors or other errors.</span></span> |
+| <span data-ttu-id="8d8b1-153">Döküm sırasında girişleri göster</span><span class="sxs-lookup"><span data-stu-id="8d8b1-153">Show receipts during itemization</span></span> | <span data-ttu-id="8d8b1-154">Döküm sırasında girişler gösterilebilir.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-154">Receipts can be shown during itemization.</span></span> |
+
+<span data-ttu-id="8d8b1-155">İlk sürüm, gider girişi senaryolarına odaklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-155">The initial release is focused on expense entry scenarios.</span></span> <span data-ttu-id="8d8b1-156">Gider raporu inceleme veya onay senaryosu varolan gider girişi sayfasını kullanmaya devam edecektir.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-156">Any expense report review or approval scenario will continue to use the existing expense entry page.</span></span>
+
+<span data-ttu-id="8d8b1-157">Aşağıdaki özellikler mevcut sayfada bulunur ancak henüz yeni sayfada yer almamaktadır.</span><span class="sxs-lookup"><span data-stu-id="8d8b1-157">The following features are present on the existing page but aren't yet present on the new page.</span></span> <span data-ttu-id="8d8b1-158">Bu özellikler sonraki birkaç sürümde yeniden tanıtılacaktır:</span><span class="sxs-lookup"><span data-stu-id="8d8b1-158">These features will be reintroduced over the next several releases:</span></span>
+
+- <span data-ttu-id="8d8b1-159">Onaylar</span><span class="sxs-lookup"><span data-stu-id="8d8b1-159">Approvals</span></span>
+- <span data-ttu-id="8d8b1-160">Borç hesapları onayları ve muhasebe hesaplarını düzenleme yeteneği</span><span class="sxs-lookup"><span data-stu-id="8d8b1-160">Accounts payable approvals and the ability to edit the accounting</span></span>
+- <span data-ttu-id="8d8b1-161">Çoklu giriş noktaları</span><span class="sxs-lookup"><span data-stu-id="8d8b1-161">Multiple entry points</span></span>
+- <span data-ttu-id="8d8b1-162">Seyahat talebi tümleştirmesi</span><span class="sxs-lookup"><span data-stu-id="8d8b1-162">Travel requisition integration</span></span>
+- <span data-ttu-id="8d8b1-163">Gider alanı görünürlüğü için veri varlığı</span><span class="sxs-lookup"><span data-stu-id="8d8b1-163">Data entity for expense field visibility</span></span>
+- <span data-ttu-id="8d8b1-164">Harcırah giderleri girişi</span><span class="sxs-lookup"><span data-stu-id="8d8b1-164">Entry for per-diem expenses</span></span>
+- <span data-ttu-id="8d8b1-165">Satır düzeyinde iş akışı</span><span class="sxs-lookup"><span data-stu-id="8d8b1-165">Line-level workflow</span></span>
+- <span data-ttu-id="8d8b1-166">Geçici onaylayan desteği</span><span class="sxs-lookup"><span data-stu-id="8d8b1-166">Interim approver support</span></span>
+- <span data-ttu-id="8d8b1-167">Gelişmiş döküm</span><span class="sxs-lookup"><span data-stu-id="8d8b1-167">Advanced itemization</span></span>

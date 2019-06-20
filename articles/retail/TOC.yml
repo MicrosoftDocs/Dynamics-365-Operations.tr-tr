@@ -1,1056 +1,696 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="TOC.yml" target-language="tr-TR">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>TOC.1b20fc.88485598ac4a9d5d2829a3021361885065ad76a4.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>88485598ac4a9d5d2829a3021361885065ad76a4</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>bbc9aa0d6b94a942e1f4d5b038601509dcc87937</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\TOC.yml</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101">
-          <source>Welcome to Dynamics 365 for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Retail'e hoş geldiniz</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102">
-          <source>Get started</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Başlayın</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>What's new or changed</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Yenilikler veya değişiklikler</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Preview features in Dynamics 365 for Retail 10.0.3</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Dynamics 365 for Retail 10.0.3'deki önizleme özellikleri</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>What's new or changed in Dynamics 365 for Retail 10.0.2</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Dynamics 365 for Retail 10.0.2'deki yenilikler veya değişiklikler</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>What's new ot changed in Dynamics 365 for Retail 10.0.1</source><target logoport:matchpercent="87" state="translated" state-qualifier="x-fuzzy-match-unedited">Dynamics 365 for Retail 10.0.1'deki yenilikler veya değişiklikler</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>What's new or changed in Dynamics 365 for Retail (April 2019)</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Dynamics 365 for Retail'deki yenilikler veya değişiklikler (Nisan 2019)</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Before you buy Retail</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Retail satın almadan önce</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Sign up for a preview subscription</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Önizleme aboneliğine kaydolma</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Deploy a demo environment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanıtım ortamını dağıtma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Deployment options</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dağıtım seçenekleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Get support for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail için destek alma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>One Version service updates FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir Sürüm hizmet güncelleştirmeleriyle ilgili SSS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Understand the implementation lifecycle</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uygulama yaşam döngüsünü anlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Microsoft FastTrack for Dynamics 365</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft FastTrack for Dynamics 365</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Onboarding</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşe alım süreci</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Preparing for go-live</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Servise almak için hazırlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Go-live FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Servise almayla ilgili SSS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Submit a service request</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Servis isteği gönderme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Subscriptions, LCS projects, and Azure Active Directory tenants FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Abonelikler, LCS projeleri ve Azure Active Directory kiracılarıyla ilgili SSS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Move environments between data centers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ortamları veri merkezleri arasında taşıma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Move licenses between agreement types</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lisansları sözleşme türleri arasında taşıma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Move an LCS Implementation project to another Azure Active Directory tenant</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LCS Uygulama projesini başka bir Azure Active Directory kiracısına taşıma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Implement multiple LCS projects and production environments on the same Azure Active Directory tenant</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aynı Azure Active Directory kiracısında birden fazla LCS projesi ve üretim ortamı uygulama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Implement Finance and Operations Retail projects</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Finance and Operations Retail projeleri uygulama</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Set up new environments, Azure DevOps, and branches for Retail projects</source><target logoport:matchpercent="94" state="translated" state-qualifier="fuzzy-match">Retail projeleri için yeni ortamlar, Azure DevOps ve dallar ayarlama</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Update code and environments for Retail projects</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Retail projeleri için kodu ve ortamları güncelleştirme</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Testing and performance issues</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Test ve performans sorunları</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Distributed order management (DOM)</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Dağıtılmış sipariş yönetimi (DOM)</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>DOM overview</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">DOM genel bakış</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Cost configuration</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Maliyet yapılandırması</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Payments</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Ödemeler</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Payment methods</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Ödeme yöntemleri</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Credit card setup, authorization, and capture</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Kredi kartı ayarı, onayı ve çekimi</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Configure cash denominations for the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">POS için nakit kupürlerini yapılandırma</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Dynamics 365 Payment Connector for Adyen</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Adyen için Dynamics 365 Ödeme Bağlayıcısı</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Saving online payment instruments with the Adyen connector</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Adyen bağlayıcısı ile çevrimiçi ödeme araçlarının kaydedilmesi</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Set up pay invoice scenarios</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Fatura ödeme senaryolarını ayarlama</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Payments FAQ</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Ödemeler ile ilgili SSS</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Duplicate payments prevention</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Yinelenen ödemeleri engelleme</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satın alma siparişleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Purchase order overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satın alma siparişine genel bakış</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Create purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satın alma siparişleri oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Product receipt against purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürün girişi ve satınalma siparişleri karşılaştırması</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Approve and confirm purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satınalma siparişlerini onaylama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Purchase order approval mobile workspace</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satın alma sipariş onayı mobil çalışma alanı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstreler</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende ekstreleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Retail transaction consistency checker</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende işlem tutarlılık denetleyicisi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Create, calculate, and post statements for a retail store</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Perakende mağazasına yönelik ekstreler oluşturma, hesaplama ve deftere nakletme</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Improvements to statement posting functionality</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Ekstre deftere nakil işlevine yönelik iyileştirmeler</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Improved handling of batch tracked items</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited">Toplu işle izlenen maddelerin işlenmesi geliştirildi</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Configure Retail parameters that affect retail statements</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Perakende ekstrelerini etkileyen Perakende parametrelerini yapılandırma</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Configure payment method settings that affect retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende ekstrelerini etkileyen ödeme yöntemi ayarlarını yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Configure and run a job to calculate statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstreleri hesaplamak için işi yapılandırma ve çalıştırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Configure and run a job to post statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekstreleri deftere nakletmek için işi yapılandırma ve çalıştırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Configure store settings that affect retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende ekstrelerini etkileyen mağaza ayarlarını yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Sales tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satış vergisi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Sales tax overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satış vergisine genel bakış</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Sales tax calculation methods in the Origin field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kaynak alanında satış vergisi hesaplama yöntemleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Sales tax assignment and overrides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Satış vergisi atama ve geçersiz kılma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Whole amount and Interval calculation options for sales tax codes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Satış vergisi kodları için Tam tutar ve Aralık hesaplama seçenekleri</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Omni-channel payments overview</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Çok yönlü kanal ödemelerine genel bakış</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Omni-channel advanced auto charges</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Çok yönlü kanal gelişmiş otomatik masrafları</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Configure and use advanced auto charges</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Gelişmiş otomatik masrafları yapılandırma ve kullanma</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Prorate header charges to matching sales lines</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Başlık masraflarını eşleşen satış satırlarına eşit dağıtma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Call center</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çağrı merkezi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Call center sales functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çağrı merkezi satış işlevi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Call center catalogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çağrı merkezi katalogları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Configure delivery modes and charges</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Teslimat şekillerini ve masrafları yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Set up and work with fraud alerts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sahtekarlık uyarılarını ayarlama ve bunlarla çalışma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Set up call center channels</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çağrı merkezi kanalları ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Set up continuity programs for call centers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çağrı merkezleri için süreklilik programları ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Configure and work with call center order holds</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çağrı merkezi sipariş tutmalarını yapılandırma ve bunlarla çalışma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Payment methods</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme yöntemleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Channel setup and management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanal kurulumu ve yönetimi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Initialize seed data in new Retail environments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yeni Retail ortamlarında çekirdek verileri başlatma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Define and maintain retail channels</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende kanallarını tanımlama ve koruma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Assortment management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürün çeşidi yönetimi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Set up online stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çevrimiçi mağazalar ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Configure and install Retail hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail hardware station'ı yapılandırma ve yükleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Time and attendance in Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail'de saat ve işe devam</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Modern Point of Sale (MPOS) and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern Point of Sale (MPOS) ve Cloud POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Choose between MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS ile Cloud POS arasında seçim yapma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Online and offline POS operations</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Çevrimiçi ve çevrimdışı POS işlemleri</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Device activation of a customized Retail MPOS</source><target logoport:matchpercent="83" state="translated" state-qualifier="fuzzy-match">Özelleştirilmiş bir Retail MPOS için cihaz etkinleştirme</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Demo data screen layouts in MPOS and Cloud POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">MPOS ve Bulut POS'taki tanıtım verileri ekranı düzenleri</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Product and customer search in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">POS'ta ürün ve müşteri arama</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Cash management improvements</source><target logoport:matchpercent="68" state="translated" state-qualifier="fuzzy-match">Nakit yönetimine yönelik geliştirmeler</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Inventory lookup in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">POS'ta stok araması</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Suspend and resume transactions in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">POS'ta hareketleri askıya alma ve sürdürme</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>Hardware peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Donanım çevre birimleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Retail peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail çevre birimleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>Retail peripheral simulator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail çevre birimi benzeticisi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Connect peripherals to the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çevre birimlerini POS'a bağlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Screen layouts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekran düzenleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Demo data screen layouts in MPOS/CPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS/CPOS'taki tanıtım verileri ekranı düzenleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Screen layouts for the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS için ekran düzenleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Install the Retail POS layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail POS düzeni tasarımcısını yükleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>Choose notification settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bildirim ayarlarını seçme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>POS application and user language settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS uygulaması ve kullanıcı dili ayarları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Set up and manage images for MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS için resimleri ayarlama ve yönetme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>Info codes and info code groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bilgi kodları ve bilgi kodu grupları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>POS improvements for serialized products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Serileştirilen ürünler için POS geliştirmeleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürün önerileri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Personalized product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kişiselleştirilmiş ürün önerileri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Add a recommendations control on POS devices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS cihazlarına öneriler denetimi ekleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Offline POS functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çevrimdışı POS işlevi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Shift and cash drawer management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vardiya ve kasa çekmecesi yönetimi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Cash out gift card balance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hediye kartı bakiyesini nakde çevirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Customer orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müşteri siparişleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Customer orders in MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS'taki müşteri siparişleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Hybrid customer orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Karma müşteri siparişleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Sales associates</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satış yetkilileri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Track commissions in the POS using sales groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satış gruplarını kullanarak POS'taki komisyonları izleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Ship orders from another store</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Siparişleri başka bir mağazadan sevk etme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>Device activation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cihaz etkinleştirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>Configure, install and activate MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS'u yapılandırma, yükleme ve etkinleştirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>Set up extended logon functionality for MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS ve Cloud POS için genişletilmiş oturum açma işlevini ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>Manage Retail activation accounts and validate devices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail etkinleştirme hesaplarını yönetme ve cihazları doğrulama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>Receipts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makbuzlar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Set up and design receipt formats</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makbuz biçimleri ayarlama ve tasarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>Send email receipts from MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS'tan e-posta makbuzları gönderme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Task recorder and Help for MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS ve Cloud POS için görev kaydedici ve Yardım</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Order fulfillment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sipariş karşılama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Store order fulfillment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mağaza sipariş karşılama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Set up order fulfillment for stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mağazalar için sipariş karşılamayı ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Show order notifications in the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS'ta sipariş bildirimlerini gösterme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>Returns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İadeler</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Sell and return products not included in a store's assortment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mağazanın ürün çeşitlerine dahil olamayan ürünleri satma ve iade etme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Configure and process an exchange on a return order</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir iade emrinde bir değişiklik yapılandırma ve işleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Restrict payment methods for returns without a receipt</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İadeler için fişsiz ödeme yöntemlerini kısıtlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Return items across multiple customer orders and invoices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birden fazla müşteri siparişi ve faturası arasında iade kalemleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>Monitoring and analysis</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İzleme ve analiz</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Monitor sales and margin performance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satış ve kar performansını izleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Analyze sales trends and patterns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satış eğilimlerini ve modellerini analiz etme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Assess sales performance by product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satış performansını ürüne göre değerlendirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>Assess customer and product profitability</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müşteri ve ürün karlılığını değerlendirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Analyze store performance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mağaza performansını analiz etme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>Set up Recency, Frequency, and Monetary (RFM) analysis</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yenilik, Sıklık ve Parasal (RFM) analiz ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Retail price reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende satış fiyatı raporları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>Pricing and discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiyatlandırma ve iskontolar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Retail discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende iskontoları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>Retail sales price management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende satış fiyatı yönetimi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Price adjustments and discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiyat ayarlamaları ve iskontolar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>Apply multiple discounts to a product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bir ürüne birden fazla iskonto uygulama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>Determine the optimal combination of overlapping discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çakışan iskontolar için en uygun birleşimi belirleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>Define channel-specific discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanala özel iskontolar tanımlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>Options for preventing discounts for retail products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende ürün iskontolarını önlemek için seçenekler</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>Shipping discount overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sevkiyat iskontosuna genel bakış</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>Set up coupons for retail sales</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende satışlar için kupon ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>Products and merchandising</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürünler ve alım satım</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>Product information overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürün bilgilerine genel bakış</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Retail hierarchies</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende hiyerarşileri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>Attributes and attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelikler ve öznitelik grupları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>Create and manage attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öznitelikler oluşturma ve yönetme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Set up retail products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende ürünleri ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>Manage Retail product categories and products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail ürün kategorilerini ve ürünleri yönetme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>Product dimensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürün boyutları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>Set up bar codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Barkodlar ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>Set up bar code masks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Barkod maskeleri ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Set up assortments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürün çeşitleri ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>Sell and return products not included in a store's assortment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mağazanın ürün çeşitlerine dahil olamayan ürünleri satma ve iade etme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>Default order settings for dimensions and product variants</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Search for products and product variants during order entry</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>Loyalty</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bağlılık</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>Loyalty overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bağlılık programına genel bakış</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>Inventory</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stok</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>Store inventory management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mağaza stok yönetimi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>Register serial numbers in the sales process</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satış işleminde seri numaralarını kaydetme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>Inventory journals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stok günlükleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>Inventory tag counting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stok etiket sayımı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>FIFO with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiziksel değer ve işaretleme ile FIFO</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>LIFO Date with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiziksel değer ve işaretleme ile LIFO Tarihi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>LIFO with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiziksel değer ve işaretleme ile LIFO</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>Weighted average date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ağırlıklı ortalama tarihi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>Weighted average with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiziksel değer ve işaretleme ile ağırlıklı ortalama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>Quarantine orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Karantina emirleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>Running average cost price</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yürütülen ortalama maliyet fiyatı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>Track running average cost per inventory dimension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stok boyutu başına cari ortalama maliyeti izleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>Human resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İnsan kaynakları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Organize your workforce using departments, jobs, and positions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Set up the components of a job</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İşin bileşenlerini ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>Localization and regulatory features</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yerelleştirme ve mevzuat özellikleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>Fiscal integration overview for Retail channel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende kanalı için mali tümleştirmeye genel bakış</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Set up fiscal integration for Retail channel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende kanalı için mali tümleştirmeyi ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>Austria</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avusturya</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>Fiscal registration service integration sample for Austria</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Avusturya için mali kayıt hizmeti tümleştirme örneği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Doğu Avrupa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>Advance invoices for Retail for Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Doğru Avrupa'ya yönelik Retail için avans faturaları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>Petty cash management for Retail for Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Doğu Avrupa için Retail için kasa yönetimi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source>Retail customer invoices and return sales orders in Eastern European countries</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Doğru Avrupa ülkelerinde Retail müşteri faturaları ve satış siparişleri iadesi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source>Deployment guidelines for cash registers for Czech Republic, Hungary, and Poland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çek Cumhuriyeti, Macaristan ve Polonya için yazar kasalara ilişkin dağıtım kılavuzları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source>Fiscal printer integration sample for Poland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Polonya için yazar kasa tümleştirme örneği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>Fiscal registration service integration sample for Czech Republic</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source>France</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fransa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazar kasa işlevi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazar kasalara ilişkin dağıtım kılavuzları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source>India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hindistan</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source>Goods and Services Tax (GST) integration for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazar kasalar için Ürün ve Hizmet Vergisi (GST) tümleştirmesi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazar kasalara ilişkin dağıtım kılavuzları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source>Support for upgrade and N-1 for India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hindistan için yükseltme ve N-1 desteği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>Italy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İtalya</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source>Fiscal printer integration sample for Italy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İtalya için yazar kasa tümleştirme örneği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source>Norway</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norveç</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazar kasa işlevi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="307">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazar kasalara ilişkin dağıtım kılavuzları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="308">
-          <source>Sweden</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">İsveç</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="309">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yazar kasa işlevi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="310">
-          <source>Sample for Retail POS integration with control units</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kontrol birimleriyle Retail POS tümleştirmesi örneği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="311">
-          <source>Retail tasks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail görevleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="312">
-          <source>Create a product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürün oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="313">
-          <source>Configure linked products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bağlı ürünleri yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="314">
-          <source>Release a product/product master to legal entities</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürünü/ana ürünü tüzel kişiliklere serbest bırakma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="315">
-          <source>Create channel-specific trade agreements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanala özel ticari sözleşmeler oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="316">
-          <source>Create trade agreements using category pricing rules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kategori fiyatlandırma kuralları kullanarak ticaret sözleşmeleri oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="317">
-          <source>Configure credit card processing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kredi kartı işlemlerini yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="318">
-          <source>Configure functionality profiles for sales representatives</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satış temsilcileri için işlevsellik profillerini yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="319">
-          <source>Configure machine learning-powered product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Makine öğrenimi destekli ürün önerilerini yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="320">
-          <source>Create devices and associate them with registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cihazlar oluşturma ve bunları kayıtlarla ilişkilendirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="321">
-          <source>Create hardware stations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Donanım istasyonları oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="322">
-          <source>Create POS registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS kayıtları oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="323">
-          <source>Create call center orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çağrı merkezi siparişleri oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="324">
-          <source>Create financial dimensions for POS registers and configure dimension values on registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS kayıtları için mali boyutlar oluşturma ve kayıtlardaki boyut değerlerini yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="325">
-          <source>Create financial dimensions for retail channels and configure dimension values on stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende kanalları için mali boyutlar oluşturma ve mağazalardaki boyut değerlerini yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="326">
-          <source>Create online channels and define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çevrimiçi kanallar oluşturma ve kanal özniteliklerini tanımlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="327">
-          <source>Create POS permission groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS izin grupları oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="328">
-          <source>Create POS visual profiles</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS görsel profilleri oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="329">
-          <source>Create product packages for purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satınalma siparişleri için ürün paketleri oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="330">
-          <source>Create call center channels and define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çağrı merkezi kanalları oluşturma ve kanal öznitelikleri tanımlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="331">
-          <source>Define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanal özniteliklerini tanımlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="332">
-          <source>Define continuity schedules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Süreklilik zamanlamaları tanımlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="333">
-          <source>Define loyalty programs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bağlılık programları tanımlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="334">
-          <source>Define loyalty reward points</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Bağlılık ödül puanlarını tanımlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="335">
-          <source>Define loyalty schemes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Bağlılık şemalarını tanımlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="336">
-          <source>Design the relationships between organizational units</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuruluş birimleri arasındaki ilişkileri tasarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="337">
-          <source>Manage assortments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ürün çeşitlerini yönetme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="338">
-          <source>Download hardware stations by using self-service</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Self servis kullanarak donanım istasyonları indirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="339">
-          <source>Post online sales and payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çevrimiçi satışları ve ödemeleri deftere nakletme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="340">
-          <source>Process adjustments of loyalty reward points</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bağlılık ödül puanı ayarlamalarını işleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="341">
-          <source>Push products from distribution centers to stores via buyer's push</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Merkezi alım kullanarak ürünleri dağıtım merkezlerinden mağazalara gönderme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="342">
-          <source>Create retail price adjustments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende fiyat ayarlamaları oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="343">
-          <source>Generate and run out-of-box reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hazır raporlar oluşturma ve çalıştırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="344">
-          <source>Set up rules and parameters for cross-docking and buyer's push</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çapraz sevk ve merkezi alım için kurallar ve parametreler ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="345">
-          <source>Selling continuity programs and processing sales orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Süreklilik programları satma ve satış siparişlerini işleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="346">
-          <source>Configure retail workers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende çalışanlarını yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="347">
-          <source>Retail development and administration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende geliştirme ve yönetimi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="348">
-          <source>Architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mimari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="349">
-          <source>Retail components</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail bileşenleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="350">
-          <source>Retail Server architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Server mimarisi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="351">
-          <source>Select an in-store topology</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mağaza içi topoloji seçme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="352">
-          <source>Commerce Data Exchange and retail channel communications</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Commerce Data Exchange ve perakende kanalı iletişimleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="353">
-          <source>Retail Modern POS architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS mimarisi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="354">
-          <source>Retail online store publishing architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail çevrimiçi mağaza yayımlama mimarisi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="355">
-          <source>Retail Channel Performance Power BI content</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Channel Performance Power BI içeriği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="356">
-          <source>Payment Application Data Security Standards (PA-DSS) certification</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme Uygulaması Veri Güvenliği Standartları (PA-DSS) sertifikası</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="357">
-          <source>Retail capabilities available in on-premises deployments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Şirket içi dağıtımlarda kullanılabilen perakende özellikleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="358">
-          <source>Deployment and hotfixes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dağıtım ve düzeltmeler</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="359">
-          <source>Retail Store Scale Unit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Store Scale Unit</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="360">
-          <source>Configure and install Retail Store Scale Unit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Store Scale Unit yapılandırması ve kurulumu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="361">
-          <source>Retail Modern POS configuration and installation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS yapılandırma ve kurulum</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="362">
-          <source>Manage Retail accounts and devices from headquarters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail hesaplarını ve cihazlarını genel merkezden yönetme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="363">
-          <source>Retail POS device activation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail POS cihazını etkinleştirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="364">
-          <source>Help secure Cloud POS in shared environments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paylaşılan ortamlarda Cloud POS güvenliğini sağlamaya yardımcı olma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="365">
-          <source>Retail Hardware Station configuration and installation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Hardware Station yapılandırma ve yükleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="366">
-          <source>Mass deployment of Retail self-service components</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail self servis bileşenlerinin toplu dağıtımı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="367">
-          <source>Retail component events for diagnostics and troubleshooting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tanılama ve sorun giderme için Retail bileşeni olayları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="368">
-          <source>Apply a deployable package</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dağıtılabilir paket uygulama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="369">
-          <source>Upgrade and N-1 support</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yükseltme ve N-1 desteği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="370">
-          <source>Upgrade and N-1 support for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail için yükseltme ve N-1 desteği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="371">
-          <source>Phased Rollout (N-1) installation, configuration, and cutover</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aşamalı Kullanıma Sunma (N-1) yüklemesi, yapılandırması ve kesin bitişi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="372">
-          <source>Upgrade the Retail channel extension to the latest Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail kanalı uzantısını en son Retail SDK'ya yükseltme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="373">
-          <source>Implementation guidance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uygulama kılavuzu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="374">
-          <source>Device management implementation guidance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cihaz yönetimi uygulama kılavuzu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="375">
-          <source>Environment configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ortam yapılandırması</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="376">
-          <source>Add links to your organization's legal terms and privacy statement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kuruluşunuzun yasal koşullarına ve gizlilik bildirimine bağlantı ekleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="377">
-          <source>Manage Bing Maps</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bing Haritaları Yönetme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="378">
-          <source>Localize Retail extension resources and label files</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail uzantı kaynaklarını ve etiket dosyalarını yerelleştirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="379">
-          <source>Point of sale extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Satış noktası genişletilebilirliği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="380">
-          <source>Retail POS screen layouts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail POS ekran düzenleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="381">
-          <source>Open URL in POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">URL'yi POS'ta açma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="382">
-          <source>Install the POS Layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS Düzeni tasarımcısını yükleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="383">
-          <source>Retail Modern POS in offline mode</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çevrimdışı modda Retail Modern POS kullanımı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="384">
-          <source>Extend the POS Dual display view</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS Dual ekran görünümünü genişletme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="385">
-          <source>Retail Modern POS and Cloud POS trigger extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS ve Bulut POS tetikleyici genişletilebilirliği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="386">
-          <source>Add custom controls to POS views</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS görünümlerine özel denetimler ekleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="387">
-          <source>Add POS operations to POS layouts using Button grid designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Düğme grubu tasarımcısını kullanarak POS düzenlerine POS işlemleri ekleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="388">
-          <source>Retail POS APIs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail POS API'ları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="389">
-          <source>POS payment extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS ödemesi uzantısı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="390">
-          <source>Support for external gift cards</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Harici hediye kartları için destek</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="391">
-          <source>Create and apply branding to the Retail Experience app</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Markalama oluşturma ve Retail Experience uygulamasına uygulama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="392">
-          <source>Set up POS Hybrid app on Android and iOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Android ve iOS'ta POS Hybrid uygulamasını ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="393">
-          <source>Override POS request handler</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS istek işleyicisini geçersiz kılma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="394">
-          <source>View POS extension package information</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS uzantısı paket bilgisini görüntüleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="395">
-          <source>Hardware Station and extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hardware Station ve genişletilebilirlik</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="396">
-          <source>Retail Server extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Server genişletilebilirliği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="397">
-          <source>Extend a Retail Server OData controller</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Server OData denetleyicisini genişletme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="398">
-          <source>Create a Web API controller for Retail Server</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Server için Web API'sı denetleyici oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="399">
-          <source>Retail Server customer and consumer APIs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Server müşteri ve tüketici API'ları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="400">
-          <source>Extend the default Retail Server metadata controller</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Varsayılan Retail Server meta veri denetleyicisini genişletme</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="401">
-          <source>Call the CRT service in offline mode</source><target logoport:matchpercent="96" state="translated" state-qualifier="fuzzy-match">Çevrimdışı modda CRT hizmetini çağırma</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="402">
-          <source>Commerce runtime (CRT) extensibility</source><target logoport:matchpercent="96" state="translated" state-qualifier="fuzzy-match">Commerce Runtime (CRT) genişletilebilirliği</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="403">
-          <source>CRT architecture and configuration</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">CRT mimarisi ve yapılandırması</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="404">
-          <source>CRT services</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">CRT hizmetleri</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="405">
-          <source>CRT and Retail Server extensibility</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">CRT ve Retail Server genişletilebilirliği</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="406">
-          <source>Add customer preference data to channel databases</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Müşteri tercihi verilerini kanal veritabanlarına ekleme</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="407">
-          <source>Add properties to sales orders</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Satış siparişlerine özellik ekleme</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="408">
-          <source>CRT extensibility and triggers</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">CRT genişletilebilirliği ve tetikleyiciler</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="409">
-          <source>Block transactions using triggers</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Tetikleyicileri kullanarak hareketleri engelleme</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="410">
-          <source>Implement a return policy using triggers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tetikleyicileri kullanarak bir iade ilkesi uygulama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="411">
-          <source>e-Commerce extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">e-Ticaret genişletilebilirliği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="412">
-          <source>Configure online stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Çevrimiçi mağazaları yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="413">
-          <source>Configure authentication providers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kimlik doğrulama sağlayıcılarını yapılandırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="414">
-          <source>e-Commerce platform</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">e-Ticaret platformu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="415">
-          <source>e-Commerce platform SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">e-Ticaret platformu SDK'sı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="416">
-          <source>Payment connector extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme bağlayıcısı genişletilebilirliği</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="417">
-          <source>Create a payment integration for a payment terminal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme terminali için ödeme tümleştirmesi oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="418">
-          <source>Implementing a payment connector and payment device (white paper)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme bağlayıcısı ve ödeme cihazı uygulama (teknik rapor)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="419">
-          <source>Deploy payment connectors</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme bağlayıcıları dağıtma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="420">
-          <source>Create custom localized error messages for payment terminal extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme terminali uzantıları için yerelleştirilmiş özel hata iletileri oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="421">
-          <source>Create Windows installers for payment connectors</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme bağlayıcıları için Windows yükleyicileri oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="422">
-          <source>Payment data use</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme verileri kullanımı</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="423">
-          <source>Enable duplicate payment protection for payment connector</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ödeme bağlayıcısı için yinelenen ödeme koruyucusunu etkinleştirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="424">
-          <source>Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail SDK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="425">
-          <source>Upcoming changes in the Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yakında Retail SDK'de yapılacak değişiklikler</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="426">
-          <source>Merge the build systems for Retail and Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail ve Finance and Operations için yapı sistemlerini birleştirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="427">
-          <source>Retail SDK extensibility samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail SDK genişletilebilirlik örnekleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="428">
-          <source>Create retail deployable packages</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perakende dağıtılabilir paketleri oluşturma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="429">
-          <source>Retail SDK samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail SDK örnekleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="430">
-          <source>Extension points for packing slips</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sevk irsaliyeleri için genişletme noktaları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="431">
-          <source>Channel database extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanal veritabanı uzantıları</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="432">
-          <source>Enable custom CDX synchronization via extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uzantıyla özel CDX eşitlemesini etkinleştirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="433">
-          <source>Add custom fields to the POS Totals panel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS Toplamlar paneline özel alanlar ekleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="434">
-          <source>Define and set order attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sipariş özniteliklerini tanımlama ve ayarlama</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="435">
-          <source>Customer attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Müşteri öznitelikleri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="436">
-          <source>Retail Typescript and C# proxies</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Typescript ve C# proxy'leri</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="437">
-          <source>Run the Retail POS samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail POS örnekleri çalıştırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="438">
-          <source>Extend POS views to add custom columns and app bar buttons</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Özel sütunlar ve uygulama çubuğu düğmeleri eklemek için POS görünümleri genişletme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="439">
-          <source>Add custom controls to Retail Modern POS transaction pages</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS işlem sayfalarına özel denetimler ekleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="440">
-          <source>Add custom columns to a POS transaction grid</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS işlem kılavuzuna özel sütunlar ekleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="441">
-          <source>Call POS APIs or operations from POS extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS uzantılarından POS API'larını veya işlemlerini çağırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="442">
-          <source>Retail Modern POS triggers and printing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS tetikleyicileri ve yazdırma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="443">
-          <source>Add custom controls to non-screen designer-based POS views</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekran tasarımcısı tabanlı olmayan POS görünümlerine özel denetimler ekleme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="444">
-          <source>Development in cloud-hosted dev environments without admin access</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yönetici erişimi olmadan bulutta barındırılan geliştirme ortamlarında geliştirme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="445">
-          <source>Commerce runtime</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Commerce runtime</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="446">
-          <source>Loyalty extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bağlılık genişletme</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+- name: Dynamics 365 for Retail'e hoş geldiniz
+  href: index.md
+- name: Başlayın
+  items:
+    - name: Yenilikler veya değişiklikler
+      href: get-started/whats-new.md
+    - name: Dynamics 365 for Retail 10.0.3'deki önizleme özellikleri
+      href: get-started/whats-new-10-0-3.md
+    - name: Dynamics 365 for Retail 10.0.2'deki yenilikler veya değişiklikler
+      href: get-started/whats-new-10-0-2.md
+    - name: Dynamics 365 for Retail 10.0.1'deki yenilikler veya değişiklikler
+      href: get-started/whats-new-10-0-1.md
+    - name: Dynamics 365 for Retail'deki yenilikler veya değişiklikler (Nisan 2019)
+      href: get-started/april-whats-new.md
+    - name: Retail satın almadan önce
+      href: get-started/before-you-buy.md
+    - name: Önizleme aboneliğine kaydolma
+      href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
+    - name: Tanıtım ortamını dağıtma
+      href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
+    - name: Dağıtım seçenekleri
+      href: dev-itpro/choose-deployment.md
+    - name: Retail için destek alma
+      href: retail-support.md
+    - name: Bir Sürüm hizmet güncelleştirmeleriyle ilgili SSS
+      href: ../fin-and-ops/get-started/one-version.md
+- name: Uygulama yaşam döngüsünü anlama
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: Microsoft FastTrack for Dynamics 365
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: İşe alım süreci
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: Servise almak için hazırlama
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: Servise almayla ilgili SSS
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: Servis isteği gönderme
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: 'Abonelikler, LCS projeleri ve Azure Active Directory kiracılarıyla ilgili SSS'
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: Ortamları veri merkezleri arasında taşıma
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: Lisansları sözleşme türleri arasında taşıma
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: LCS Uygulama projesini başka bir Azure Active Directory kiracısına taşıma
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: Aynı Azure Active Directory kiracısında birden fazla LCS projesi ve üretim ortamı uygulama
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: Finance and Operations Retail projeleri uygulama
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: 'Retail projeleri için yeni ortamlar, Azure DevOps ve dallar ayarlama'
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: Retail projeleri için kodu ve ortamları güncelleştirme
+      href: dev-itpro/updating-environments.md
+    - name: Test ve performans sorunları
+      href: dev-itpro/retail-implementation-testing-performance.md
+- name: Dağıtılmış sipariş yönetimi (DOM)
+  items:
+    - name: DOM genel bakış
+      href: dom.md
+    - name: Maliyet yapılandırması
+      href: cost.md
+- name: Ödemeler
+  items:
+    - name: Ödeme yöntemleri
+      href: payment-methods.md
+    - name: 'Kredi kartı ayarı, onayı ve çekimi'
+      href: ../financials/accounts-receivable/credit-card-authorizations.md
+    - name: POS için nakit kupürlerini yapılandırma
+      href: cash-denominations.md
+    - name: Adyen için Dynamics 365 Ödeme Bağlayıcısı
+      href: dev-itpro/adyen-connector.md
+    - name: Adyen bağlayıcısı ile çevrimiçi ödeme araçlarının kaydedilmesi
+      href: dev-itpro/adyen-connector-listPI.md
+    - name: Fatura ödeme senaryolarını ayarlama
+      href: payinvoice.md
+    - name: Ödemeler ile ilgili SSS
+      href: dev-itpro/payments-retail.md
+    - name: Yinelenen ödemeleri engelleme
+      href: duplicate-payment-protection.md
+- name: Satın alma siparişleri
+  items:
+    - name: Satın alma siparişine genel bakış
+      href: ../supply-chain/procurement/purchase-order-overview.md
+    - name: Satın alma siparişleri oluşturma
+      href: ../supply-chain/procurement/purchase-order-creation.md
+    - name: Ürün girişi ve satınalma siparişleri karşılaştırması
+      href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md
+    - name: Satınalma siparişlerini onaylama
+      href: ../supply-chain/procurement/purchase-order-approval-confirmation.md
+    - name: Satın alma sipariş onayı mobil çalışma alanı
+      href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
+- name: Ekstreler
+  items:
+    - name: Perakende ekstreleri
+      href: retail-statements.md
+    - name: Perakende işlem tutarlılık denetleyicisi
+      href: valid-checker.md
+    - name: 'Perakende mağazasına yönelik ekstreler oluşturma, hesaplama ve deftere nakletme'
+      href: tasks/create-calculate-post-statement-retail-store.md
+    - name: Ekstre deftere nakil işlevine yönelik iyileştirmeler
+      href: statement-posting-EOD.md
+    - name: Toplu işle izlenen maddelerin işlenmesi geliştirildi
+      href: batch.md
+    - name: Perakende ekstrelerini etkileyen Perakende parametrelerini yapılandırma
+      href: tasks/parameter-configurations-retail-statements.md
+    - name: Perakende ekstrelerini etkileyen ödeme yöntemi ayarlarını yapılandırma
+      href: tasks/payment-configurations-retail-statements.md
+    - name: Ekstreleri hesaplamak için işi yapılandırma ve çalıştırma
+      href: tasks/run-job-calculate-statements.md
+    - name: Ekstreleri deftere nakletmek için işi yapılandırma ve çalıştırma
+      href: tasks/run-job-post-statements.md
+    - name: Perakende ekstrelerini etkileyen mağaza ayarlarını yapılandırma
+      href: tasks/store-configurations-retail-statements.md
+- name: Satış vergisi
+  items:
+    - name: Satış vergisine genel bakış
+      href: ../financials/general-ledger/indirect-taxes-overview.md
+    - name: Kaynak alanında satış vergisi hesaplama yöntemleri
+      href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+    - name: ' Satış vergisi atama ve geçersiz kılma'
+      href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
+    - name: Satış vergisi kodları için Tam tutar ve Aralık hesaplama seçenekleri
+      href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: Çok yönlü kanal ödemelerine genel bakış
+  href: omni-channel-payments.md
+- name: Çok yönlü kanal gelişmiş otomatik masrafları
+  items:
+    - name: Gelişmiş otomatik masrafları yapılandırma ve kullanma
+      href: omni-auto-charges.md
+    - name: Başlık masraflarını eşleşen satış satırlarına eşit dağıtma
+      href: pro-rate-charges-matching-lines.md
+- name: Çağrı merkezi
+  items:
+    - name: Çağrı merkezi satış işlevi
+      href: call-center-functionality.md
+    - name: Çağrı merkezi katalogları
+      href: call-center-catalogs.md
+    - name: Teslimat şekillerini ve masrafları yapılandırma
+      href: configure-call-center-delivery.md
+    - name: Sahtekarlık uyarılarını ayarlama ve bunlarla çalışma
+      href: set-up-fraud-alerts.md
+    - name: Çağrı merkezi kanalları ayarlama
+      href: set-up-order-processing-options.md
+    - name: Çağrı merkezleri için süreklilik programları ayarlama
+      href: set-up-continuity-program.md
+    - name: Çağrı merkezi sipariş tutmalarını yapılandırma ve bunlarla çalışma
+      href: work-with-order-holds.md
+    - name: Ödeme yöntemleri
+      href: work-with-payments.md
+- name: Kanal kurulumu ve yönetimi
+  items:
+    - name: Yeni Retail ortamlarında çekirdek verileri başlatma
+      href: enable-configure-retail-functionality.md
+    - name: Perakende kanallarını tanımlama ve koruma
+      href: define-maintain-retail-channels.md
+    - name: Ürün çeşidi yönetimi
+      href: assortments.md
+    - name: Çevrimiçi mağazalar ayarlama
+      href: online-stores.md
+    - name: Retail hardware station'ı yapılandırma ve yükleme
+      href: retail-hardware-station-configuration-installation.md
+    - name: Retail'de saat ve işe devam
+      href: retail-time-attendance.md
+- name: Modern Point of Sale (MPOS) ve Cloud POS
+  items:
+    - name: MPOS ile Cloud POS arasında seçim yapma
+      href: MPOS-or-CPOS.md
+    - name: Çevrimiçi ve çevrimdışı POS işlemleri
+      href: pos-operations.md
+    - name: Özelleştirilmiş bir Retail MPOS için cihaz etkinleştirme
+      href: dev-itpro/retail-POS-activation-changes.md
+    - name: MPOS ve Bulut POS'taki tanıtım verileri ekranı düzenleri
+      href: demo-data.md
+    - name: POS'ta ürün ve müşteri arama
+      href: POS-search-improvements.md
+    - name: Nakit yönetimine yönelik geliştirmeler
+      href: cash-mgmt.md
+    - name: POS'ta stok araması
+      href: product-variants-POS.md
+    - name: POS'ta hareketleri askıya alma ve sürdürme
+      href: pos-suspend-recall-transactions.md
+    - name: Donanım çevre birimleri
+      items:
+        - name: Retail çevre birimleri
+          href: retail-peripherals-overview.md
+        - name: Retail çevre birimi benzeticisi
+          href: dev-itpro/retail-peripheral-simulator.md
+        - name: Çevre birimlerini POS'a bağlama
+          href: define-maintain-channel-clients-registers-hw-stations.md
+    - name: Ekran düzenleri
+      items:
+        - name: MPOS/CPOS'taki tanıtım verileri ekranı düzenleri
+          href: demo-data.md
+        - name: POS için ekran düzenleri
+          href: pos-screen-layouts.md
+        - name: Retail POS düzeni tasarımcısını yükleme
+          href: install-pos-layout-designer.md
+        - name: Bildirim ayarlarını seçme
+          href: Notifications-POS.md
+        - name: POS uygulaması ve kullanıcı dili ayarları
+          href: pos-application-user-language-settings.md
+        - name: MPOS için resimleri ayarlama ve yönetme
+          href: set-up-manage-images-retail-mpos.md
+    - name: Bilgi kodları ve bilgi kodu grupları
+      href: info-codes-retail.md
+    - name: Serileştirilen ürünler için POS geliştirmeleri
+      href: serialized-inventory.md
+    - name: Ürün önerileri
+      items:
+        - name: Kişiselleştirilmiş ürün önerileri
+          href: personalized-product-recommendations.md
+        - name: POS cihazlarına öneriler denetimi ekleme
+          href: add-recommendations-control-pos-screen.md
+    - name: Çevrimdışı POS işlevi
+      href: pos-offline-functionality.md
+    - name: Vardiya ve kasa çekmecesi yönetimi
+      href: shift-drawer-management.md
+    - name: Hediye kartı bakiyesini nakde çevirme
+      href: dev-itpro/gift-card-cash-out.md
+    - name: Müşteri siparişleri
+      items:
+        - name: MPOS'taki müşteri siparişleri
+          href: customer-orders-overview.md
+        - name: Karma müşteri siparişleri
+          href: hybrid-customer-orders.md
+    - name: Satış yetkilileri
+      items:
+        - name: Satış gruplarını kullanarak POS'taki komisyonları izleme
+          href: pos-sales-groups-track-commissions.md
+    - name: Siparişleri başka bir mağazadan sevk etme
+      href: charge-send.md
+    - name: Cihaz etkinleştirme
+      items:
+        - name: 'MPOS''u yapılandırma, yükleme ve etkinleştirme'
+          href: retail-modern-pos-device-activation.md
+        - name: MPOS ve Cloud POS için genişletilmiş oturum açma işlevini ayarlama
+          href: extended-logon.md
+        - name: Retail etkinleştirme hesaplarını yönetme ve cihazları doğrulama
+          href: set-up-activation-accounts-validate-devices-hq.md
+    - name: Makbuzlar
+      items:
+        - name: Makbuz biçimleri ayarlama ve tasarlama
+          href: receipt-templates-printing.md
+        - name: MPOS'tan e-posta makbuzları gönderme
+          href: email-receipts.md
+    - name: MPOS ve Cloud POS için görev kaydedici ve Yardım
+      href: task-recorder-retail-pos.md
+- name: Sipariş karşılama
+  items:
+    - name: Mağaza sipariş karşılama
+      href: Order-fulfillment-overview.md
+    - name: Mağazalar için sipariş karşılamayı ayarlama
+      href: Order-fulfillment-POS-setup.md
+    - name: POS'ta sipariş bildirimlerini gösterme
+      href: Notifications-POS.md
+- name: İadeler
+  items:
+    - name: Mağazanın ürün çeşitlerine dahil olamayan ürünleri satma ve iade etme
+      href: sell-return-outside-assortments.md
+    - name: Bir iade emrinde bir değişiklik yapılandırma ve işleme
+      href: orderexchanges.md
+    - name: İadeler için fişsiz ödeme yöntemlerini kısıtlama
+      href: payment-methods-restrictions.md
+    - name: Birden fazla müşteri siparişi ve faturası arasında iade kalemleri
+      href: multireturn.md
+- name: İzleme ve analiz
+  items:
+    - name: Satış ve kar performansını izleme
+      href: monitor-sales-margin-performance.md
+    - name: Satış eğilimlerini ve modellerini analiz etme
+      href: analyze-sales-trends-patterns.md
+    - name: Satış performansını ürüne göre değerlendirme
+      href: sales-performance-products.md
+    - name: Müşteri ve ürün karlılığını değerlendirme
+      href: assess-customer-product-profitability.md
+    - name: Mağaza performansını analiz etme
+      href: store-performance-information.md
+    - name: 'Yenilik, Sıklık ve Parasal (RFM) analiz ayarlama'
+      href: set-up-rfm-analysis.md
+- name: Perakende satış fiyatı raporları
+  href: price-report.md
+- name: Fiyatlandırma ve iskontolar
+  items:
+    - name: Perakende iskontoları
+      href: retail-discounts-overview.md
+    - name: Perakende satış fiyatı yönetimi
+      href: price-management.md
+    - name: Fiyat ayarlamaları ve iskontolar
+      href: price-adjustments-discounts.md
+    - name: Bir ürüne birden fazla iskonto uygulama
+      href: Apply-multiple-retail-discounts.md
+    - name: Çakışan iskontolar için en uygun birleşimi belirleme
+      href: optimal-combination-overlapping-discounts.md
+    - name: Kanala özel iskontolar tanımlama
+      href: define-channel-specific-discounts.md
+    - name: Perakende ürün iskontolarını önlemek için seçenekler
+      href: prevent-discounts.md
+    - name: Sevkiyat iskontosuna genel bakış
+      href: retail-shipping-discount.md
+    - name: Perakende satışlar için kupon ayarlama
+      href: retail-coupons.md
+- name: Ürünler ve alım satım
+  items:
+    - name: Ürün bilgilerine genel bakış
+      href: ../supply-chain/pim/product-information.md
+    - name: Perakende hiyerarşileri
+      href: retail-hierarchies.md
+    - name: Öznitelikler ve öznitelik grupları
+      href: attribute-attributegroups-lifecycle.md
+    - name: Öznitelikler oluşturma ve yönetme
+      href: create-manage-attributes.md
+    - name: Perakende ürünleri ayarlama
+      href: set-up-retail-products.md
+    - name: Retail ürün kategorilerini ve ürünleri yönetme
+      href: category-management-product-creation.md
+    - name: Ürün boyutları
+      href: ../supply-chain/pim/product-dimensions.md
+    - name: Barkodlar ayarlama
+      href: set-up-bar-codes.md
+    - name: Barkod maskeleri ayarlama
+      href: set-up-bar-code-masks.md
+    - name: Ürün çeşitleri ayarlama
+      href: set-up-assortments.md
+    - name: Mağazanın ürün çeşitlerine dahil olamayan ürünleri satma ve iade etme
+      href: sell-return-outside-assortments.md
+    - name: Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları
+      href: ../supply-chain/production-control/default-order-settings.md
+    - name: Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama
+      href: ../supply-chain/pim/search-products-product-variants.md
+- name: Bağlılık
+  items:
+    - name: Bağlılık programına genel bakış
+      href: set-up-customer-loyalty-program.md
+- name: Stok
+  items:
+    - name: Mağaza stok yönetimi
+      href: work-with-store-inventory.md
+    - name: Satış işleminde seri numaralarını kaydetme
+      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
+    - name: Stok günlükleri
+      href: ../supply-chain/inventory/inventory-journals.md
+    - name: Stok etiket sayımı
+      href: ../supply-chain/inventory/inventory-tag-counting.md
+    - name: Fiziksel değer ve işaretleme ile FIFO
+      href: ../supply-chain/cost-management/fifo-physical-value-marking.md
+    - name: Fiziksel değer ve işaretleme ile LIFO Tarihi
+      href: ../supply-chain/cost-management/lifo-date-physical-value-marking.md
+    - name: Fiziksel değer ve işaretleme ile LIFO
+      href: ../supply-chain/cost-management/lifo-physical-value-marking.md
+    - name: Ağırlıklı ortalama tarihi
+      href: ../supply-chain/cost-management/weighted-average-date.md
+    - name: Fiziksel değer ve işaretleme ile ağırlıklı ortalama
+      href: ../supply-chain/cost-management/weighted-average-physical-value-marking.md
+    - name: Karantina emirleri
+      href: ../supply-chain/inventory/quarantine-orders.md
+    - name: Yürütülen ortalama maliyet fiyatı
+      href: ../supply-chain/cost-management/running-average-cost-price.md
+    - name: Stok boyutu başına cari ortalama maliyeti izleme
+      href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+- name: İnsan kaynakları
+  items:
+    - name: 'Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme'
+      href: ../talent/departments-jobs-positions.md
+    - name: İşin bileşenlerini ayarlama
+      href: ../talent/create-job.md
+- name: Yerelleştirme ve mevzuat özellikleri
+  items:
+    - name: Perakende kanalı için mali tümleştirmeye genel bakış
+      href: localizations/fiscal-integration-for-retail-channel.md
+    - name: Perakende kanalı için mali tümleştirmeyi ayarlama
+      href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+    - name: Avusturya
+      items:
+        - name: Avusturya için mali kayıt hizmeti tümleştirme örneği
+          href: localizations/emea-aut-fi-sample.md
+    - name: Doğu Avrupa
+      items:
+        - name: Doğru Avrupa'ya yönelik Retail için avans faturaları
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: Doğu Avrupa için Retail için kasa yönetimi
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: Doğru Avrupa ülkelerinde Retail müşteri faturaları ve satış siparişleri iadesi
+          href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Çek Cumhuriyeti, Macaristan ve Polonya için yazar kasalara ilişkin dağıtım kılavuzları'
+          href: localizations/emea-eeu-deployment.md
+        - name: Polonya için yazar kasa tümleştirme örneği
+          href: localizations/emea-pol-fpi-sample.md
+        - name: Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
+          href: localizations/emea-cze-fi-sample.md
+    - name: Fransa
+      items:
+        - name: Yazar kasa işlevi
+          href: localizations/emea-fra-cash-registers.md
+        - name: Yazar kasalara ilişkin dağıtım kılavuzları
+          href: localizations/emea-fra-deployment.md
+    - name: Hindistan
+      items:
+        - name: Yazar kasalar için Ürün ve Hizmet Vergisi (GST) tümleştirmesi
+          href: localizations/apac-ind-cash-registers.md
+        - name: Yazar kasalara ilişkin dağıtım kılavuzları
+          href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: Hindistan için yükseltme ve N-1 desteği
+          href: localizations/apac-ind-n-1-for-india.md
+    - name: İtalya
+      items:
+        - name: İtalya için yazar kasa tümleştirme örneği
+          href: localizations/emea-ita-fpi-sample.md
+    - name: Norveç
+      items:
+        - name: Yazar kasa işlevi
+          href: localizations/emea-nor-cash-registers.md
+        - name: Yazar kasalara ilişkin dağıtım kılavuzları
+          href: localizations/emea-nor-loc-deployment-guidelines.md
+    - name: İsveç
+      items:
+        - name: Yazar kasa işlevi
+          href: localizations/emea-swe-cash-registers.md
+        - name: Kontrol birimleriyle Retail POS tümleştirmesi örneği
+          href: localizations/retail-sdk-control-unit-sample.md
+- name: Retail görevleri
+  items:
+    - name: Ürün oluşturma
+      href: ../supply-chain/pim/tasks/create-product.md
+    - name: Bağlı ürünleri yapılandırma
+      href: ../supply-chain/pim/tasks/configure-linked-products.md
+    - name: Ürünü/ana ürünü tüzel kişiliklere serbest bırakma
+      href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
+    - name: Kanala özel ticari sözleşmeler oluşturma
+      href: tasks/base-price-trade-agreements.md
+    - name: Kategori fiyatlandırma kuralları kullanarak ticaret sözleşmeleri oluşturma
+      href: tasks/category-pricing-rules-trade-agreements.md
+    - name: Kredi kartı işlemlerini yapılandırma
+      href: tasks/configure-credit-card-processing.md
+    - name: Satış temsilcileri için işlevsellik profillerini yapılandırma
+      href: tasks/configure-functionality-profile-sales-representative.md
+    - name: Makine öğrenimi destekli ürün önerilerini yapılandırma
+      href: tasks/configure-machine-learning-product-recommendations.md
+    - name: Cihazlar oluşturma ve bunları kayıtlarla ilişkilendirme
+      href: tasks/create-associate-device.md
+    - name: Donanım istasyonları oluşturma
+      href: tasks/create-associate-hardware-station.md
+    - name: POS kayıtları oluşturma
+      href: tasks/create-associate-registers.md
+    - name: Çağrı merkezi siparişleri oluşturma
+      href: tasks/create-call-center-orders.md
+    - name: POS kayıtları için mali boyutlar oluşturma ve kayıtlardaki boyut değerlerini yapılandırma
+      href: tasks/create-financial-dimensions-pos.md
+    - name: Perakende kanalları için mali boyutlar oluşturma ve mağazalardaki boyut değerlerini yapılandırma
+      href: tasks/create-financial-dimensions-retail-channels.md
+    - name: Çevrimiçi kanallar oluşturma ve kanal özniteliklerini tanımlama
+      href: tasks/create-online-channel-define-channel-attributes.md
+    - name: POS izin grupları oluşturma
+      href: tasks/create-pos-permission-groups.md
+    - name: POS görsel profilleri oluşturma
+      href: tasks/create-pos-visual-profile-2016-02.md
+    - name: Satınalma siparişleri için ürün paketleri oluşturma
+      href: tasks/create-product-packages-purchase-orders.md
+    - name: Çağrı merkezi kanalları oluşturma ve kanal öznitelikleri tanımlama
+      href: tasks/define-call-center-channel-channel-attributes.md
+    - name: Kanal özniteliklerini tanımlama
+      href: tasks/define-channel-attributes.md
+    - name: Süreklilik zamanlamaları tanımlama
+      href: tasks/define-continuity-schedules.md
+    - name: Bağlılık programları tanımlama
+      href: tasks/define-loyalty-programs.md
+    - name: ' Bağlılık ödül puanlarını tanımlama'
+      href: tasks/define-loyalty-reward-points.md
+    - name: ' Bağlılık şemalarını tanımlama'
+      href: tasks/define-loyalty-schemes.md
+    - name: Kuruluş birimleri arasındaki ilişkileri tasarlama
+      href: tasks/design-relationships-between-organizational-units.md
+    - name: Ürün çeşitlerini yönetme
+      href: tasks/manage-assortments-2016-11.md
+    - name: Self servis kullanarak donanım istasyonları indirme
+      href: tasks/perform-self-service-download-hardware-station.md
+    - name: Çevrimiçi satışları ve ödemeleri deftere nakletme
+      href: tasks/posting-online-sales-payments.md
+    - name: Bağlılık ödül puanı ayarlamalarını işleme
+      href: tasks/process-loyalty-reward-point-adjustments.md
+    - name: Merkezi alım kullanarak ürünleri dağıtım merkezlerinden mağazalara gönderme
+      href: tasks/push-products-distribution-center-store-buyers-push.md
+    - name: Perakende fiyat ayarlamaları oluşturma
+      href: tasks/retail-price-adjustments.md
+    - name: Hazır raporlar oluşturma ve çalıştırma
+      href: tasks/run-out-box-reports.md
+    - name: Çapraz sevk ve merkezi alım için kurallar ve parametreler ayarlama
+      href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+    - name: Süreklilik programları satma ve satış siparişlerini işleme
+      href: tasks/use-continuity-program.md
+    - name: Perakende çalışanlarını yapılandırma
+      href: tasks/worker.md
+- name: Perakende geliştirme ve yönetimi
+  href: dev-itpro/dev-retail-home-page.md
+  items:
+    - name: Mimari
+      items:
+        - name: Retail bileşenleri
+          href: retail-components.md
+        - name: Retail Server mimarisi
+          href: dev-itpro/retail-server-architecture.md
+        - name: Mağaza içi topoloji seçme
+          href: dev-itpro/retail-in-store-topology.md
+        - name: Commerce Data Exchange ve perakende kanalı iletişimleri
+          href: dev-itpro/define-retail-channel-communications-cdx.md
+        - name: Retail Modern POS mimarisi
+          href: dev-itpro/retail-modern-pos-architecture.md
+        - name: Retail çevrimiçi mağaza yayımlama mimarisi
+          href: dev-itpro/retail-online-store-publishing-architecture.md
+        - name: Retail Channel Performance Power BI içeriği
+          href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
+        - name: Ödeme Uygulaması Veri Güvenliği Standartları (PA-DSS) sertifikası
+          href: dev-itpro/PA-DSS-Certification.md
+        - name: Şirket içi dağıtımlarda kullanılabilen perakende özellikleri
+          href: retail-onprem.md
+    - name: Dağıtım ve düzeltmeler
+      items:
+        - name: Retail Store Scale Unit
+          href: dev-itpro/retail-store-system-begin.md
+        - name: Retail Store Scale Unit yapılandırması ve kurulumu
+          href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+        - name: Retail Modern POS yapılandırma ve kurulum
+          href: retail-modern-pos-device-activation.md
+        - name: Retail hesaplarını ve cihazlarını genel merkezden yönetme
+          href: set-up-activation-accounts-validate-devices-hq.md
+        - name: Retail POS cihazını etkinleştirme
+          href: dev-itpro/retail-device-activation.md
+        - name: Paylaşılan ortamlarda Cloud POS güvenliğini sağlamaya yardımcı olma
+          href: dev-itpro/secure-retail-cloud-pos.md
+        - name: Retail Hardware Station yapılandırma ve yükleme
+          href: retail-hardware-station-configuration-installation.md
+        - name: Retail self servis bileşenlerinin toplu dağıtımı
+          href: dev-itpro/retail-mass-deployment.md
+        - name: Tanılama ve sorun giderme için Retail bileşeni olayları
+          href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+        - name: Dağıtılabilir paket uygulama
+          href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
+    - name: Yükseltme ve N-1 desteği
+      items:
+        - name: Retail için yükseltme ve N-1 desteği
+          href: dev-itpro/overview-upgrade-n-minus1.md
+        - name: 'Aşamalı Kullanıma Sunma (N-1) yüklemesi, yapılandırması ve kesin bitişi'
+          href: dev-itpro/n-1-installation-configuration.md
+        - name: Retail kanalı uzantısını en son Retail SDK'ya yükseltme
+          href: dev-itpro/retailSDK-update.md
+    - name: Uygulama kılavuzu
+      items:
+        - name: Cihaz yönetimi uygulama kılavuzu
+          href: implementation-considerations-devices.md
+    - name: Ortam yapılandırması
+      items:
+        - name: Kuruluşunuzun yasal koşullarına ve gizlilik bildirimine bağlantı ekleme
+          href: ../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json
+        - name: Bing Haritaları Yönetme
+          href: dev-itpro/manage-bing-maps.md
+    - name: Retail uzantı kaynaklarını ve etiket dosyalarını yerelleştirme
+      href: dev-itpro/extension-resource-localization.md
+    - name: Satış noktası genişletilebilirliği
+      items:
+        - name: Retail POS ekran düzenleri
+          href: pos-screen-layouts.md
+        - name: URL'yi POS'ta açma
+          href: Open-URL-in-POS.md
+        - name: POS Düzeni tasarımcısını yükleme
+          href: install-pos-layout-designer.md
+        - name: Çevrimdışı modda Retail Modern POS kullanımı
+          href: dev-itpro/retail-modern-pos-offline.md
+        - name: POS Dual ekran görünümünü genişletme
+          href: dev-itpro/pos-dual-display-extension.md
+        - name: Retail Modern POS ve Bulut POS tetikleyici genişletilebilirliği
+          href: dev-itpro/modern-pos-trigger-extensibility.md
+        - name: POS görünümlerine özel denetimler ekleme
+          href: dev-itpro/pos-custom-control.md
+        - name: Düğme grubu tasarımcısını kullanarak POS düzenlerine POS işlemleri ekleme
+          href: dev-itpro/add-POS-operations.md
+        - name: Retail POS API'ları
+          href: dev-itpro/POS-APIs.md
+        - name: POS ödemesi uzantısı
+          href: dev-itpro/pos-payment-extension.md
+        - name: Harici hediye kartları için destek
+          href: dev-itpro/gift-card.md
+        - name: Markalama oluşturma ve Retail Experience uygulamasına uygulama
+          href: dev-itpro/create-retail-experience-app.md
+        - name: Android ve iOS'ta POS Hybrid uygulamasını ayarlama
+          href: dev-itpro/hybridApp.md
+        - name: POS istek işleyicisini geçersiz kılma
+          href: dev-itpro/pos-handler.md
+        - name: POS uzantısı paket bilgisini görüntüleme
+          href: dev-itpro/view-pos-extension-package-details.md
+    - name: Hardware Station ve genişletilebilirlik
+      href: dev-itpro/hardware-station-extensibility.md
+    - name: Retail Server genişletilebilirliği
+      items:
+        - name: Retail Server OData denetleyicisini genişletme
+          href: dev-itpro/extend-retail-server-odata-controller.md
+        - name: Retail Server için Web API'sı denetleyici oluşturma
+          href: dev-itpro/odata-controllers-api.md
+        - name: Retail Server müşteri ve tüketici API'ları
+          href: dev-itpro/retail-server-customer-consumer-api.md
+        - name: Varsayılan Retail Server meta veri denetleyicisini genişletme
+          href: dev-itpro/extend-metadata.md
+        - name: Çevrimdışı modda CRT hizmetini çağırma
+          href: dev-itpro/call-crt-service-offline.md
+    - name: Commerce Runtime (CRT) genişletilebilirliği
+      items:
+        - name: CRT mimarisi ve yapılandırması
+          href: dev-itpro/commerce-runtime-overview.md
+        - name: CRT hizmetleri
+          href: dev-itpro/crt-services.md
+        - name: CRT ve Retail Server genişletilebilirliği
+          href: dev-itpro/commerce-runtime-extensibility.md
+        - name: Müşteri tercihi verilerini kanal veritabanlarına ekleme
+          href: dev-itpro/add-customer-preference-channel.md
+        - name: Satış siparişlerine özellik ekleme
+          href: dev-itpro/add-properties-sales-order.md
+        - name: CRT genişletilebilirliği ve tetikleyiciler
+          href: dev-itpro/commerce-runtime-extensibility-trigger.md
+        - name: Tetikleyicileri kullanarak hareketleri engelleme
+          href: dev-itpro/trigger-example-blocking-transaction.md
+        - name: Tetikleyicileri kullanarak bir iade ilkesi uygulama
+          href: dev-itpro/trigger-example-return-policy.md
+    - name: e-Ticaret genişletilebilirliği
+      items:
+        - name: Çevrimiçi mağazaları yapılandırma
+          href: dev-itpro/configure-online-store.md
+        - name: Kimlik doğrulama sağlayıcılarını yapılandırma
+          href: dev-itpro/configure-authentication-providers.md
+        - name: e-Ticaret platformu
+          href: dev-itpro/ecommerce-platform.md
+        - name: e-Ticaret platformu SDK'sı
+          href: dev-itpro/ecommerce-platform-sdk.md
+    - name: Ödeme bağlayıcısı genişletilebilirliği
+      items:
+        - name: Ödeme terminali için ödeme tümleştirmesi oluşturma
+          href: dev-itpro/end-to-end-payment-extension.md
+        - name: Ödeme bağlayıcısı ve ödeme cihazı uygulama (teknik rapor)
+          href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
+        - name: Ödeme bağlayıcıları dağıtma
+          href: dev-itpro/deploy-payment-connector.md
+        - name: Ödeme terminali uzantıları için yerelleştirilmiş özel hata iletileri oluşturma
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: Ödeme bağlayıcıları için Windows yükleyicileri oluşturma
+          href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Ödeme verileri kullanımı
+          href: payment-connector-data-fields.md
+        - name: Ödeme bağlayıcısı için yinelenen ödeme koruyucusunu etkinleştirme
+          href: dev-itpro/duplicate-payment-protection.md
+    - name: Retail SDK
+      href: dev-itpro/retail-sdk/retail-sdk-overview.md
+      items:
+        - name: Yakında Retail SDK'de yapılacak değişiklikler
+          href: dev-itpro/UpcomingSDKChanges.md
+        - name: Retail ve Finance and Operations için yapı sistemlerini birleştirme
+          href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+        - name: Retail SDK genişletilebilirlik örnekleri
+          href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+        - name: Perakende dağıtılabilir paketleri oluşturma
+          href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+        - name: Retail SDK örnekleri
+          href: dev-itpro/retail-sdk/retail-sdk-samples.md
+          items:
+            - name: Sevk irsaliyeleri için genişletme noktaları
+              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Kanal veritabanı uzantıları
+          href: dev-itpro/channel-db-extensions.md
+        - name: Uzantıyla özel CDX eşitlemesini etkinleştirme
+          href: dev-itpro/cdx-extensibility.md
+        - name: POS Toplamlar paneline özel alanlar ekleme
+          href: dev-itpro/custom-field-pos-totals.md
+        - name: Sipariş özniteliklerini tanımlama ve ayarlama
+          href: dev-itpro/order-attributes.md
+        - name: Müşteri öznitelikleri
+          href: dev-itpro/customer-attributes.md
+        - name: 'Retail Typescript ve C# proxy''leri'
+          href: dev-itpro/typescript-proxy-retail-pos.md
+        - name: Retail POS örnekleri çalıştırma
+          href: dev-itpro/pos-run-samples.md
+        - name: Özel sütunlar ve uygulama çubuğu düğmeleri eklemek için POS görünümleri genişletme
+          href: dev-itpro/pos-view-extension.md
+        - name: Retail Modern POS işlem sayfalarına özel denetimler ekleme
+          href: dev-itpro/pos-custom-transaction.md
+        - name: POS işlem kılavuzuna özel sütunlar ekleme
+          href: dev-itpro/pos-custom-transaction-column.md
+        - name: POS uzantılarından POS API'larını veya işlemlerini çağırma
+          href: dev-itpro/pos-api-extension.md
+        - name: Retail Modern POS tetikleyicileri ve yazdırma
+          href: dev-itpro/pos-trigger-printing.md
+        - name: Ekran tasarımcısı tabanlı olmayan POS görünümlerine özel denetimler ekleme
+          href: dev-itpro/pos-control-non-screen.md
+        - name: Yönetici erişimi olmadan bulutta barındırılan geliştirme ortamlarında geliştirme
+          href: dev-itpro/cloud-dev-box.md
+    - name: Commerce runtime
+      items:
+        - name: Bağlılık genişletme
+          href: dev-itpro/retail-sdk/loyalty-extension-sample.md
