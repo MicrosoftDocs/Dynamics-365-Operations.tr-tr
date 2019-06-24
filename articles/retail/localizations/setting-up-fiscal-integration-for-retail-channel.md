@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525337"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577912"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Perakende kanalları için mali tümleştirmeyi ayarlama
 
@@ -88,7 +88,7 @@ Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları yapıland�
         Bir bağlayıcı işlev profilinde veri eşleme parametrelerini değiştirebilirsiniz. Mali belge sağlayıcı yapılandırmasındaki varsayılan parametreleri geri yüklemek için **Güncelleştir**'i seçin.
 
         **Örnekler**
-    
+
         |   | Biçim | Örnek |
         |---|--------|---------|
         | **KDV oranı ayarları** | değer: VATrate | 1 : 2000, 2 : 1800 |
@@ -111,7 +111,7 @@ Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları yapıland�
 4. Mali bağlayıcı grupları oluşturun.
 
     Bir mali bağlayıcı grubu, aynı işlevleri gerçekleştiren ve mali kayıt işleminin aynı adımında kullanılan mali bağlayıcıların fonksiyonel profillerini birleştirir. Örneğin, çok sayıda mali yazıcı modeli bir perakende mağazasında kullanılabiliyorsa, bu mali yazıcılar için mali bağlayıcılar bir mali bağlayıcı grubunda birleştirilebilir.
-    
+
     1. **Mali bağlayıcı grubu** sayfasında (**Perakende \> Kanal kurulumu \> Mali tümleştirme \> Mali bağlayıcı gruplar**), yeni bir mali bağlayıcı grubu oluşturun.
     2. Konnektör grubuna işlevsel profiller ekleyin. **İşlev profilleri** sekmesinde, **Ekle**'yi seçin ve bir profil numarası seçin. Bir mali bağlayıcı grubundaki her bir mali bağlayıcı yalnızca bir fonksiyonel profile sahip olabilir.
     3. Fonksiyonel profilinin kullanımını durdurmak için **Devre dışı bırak** seçeneğini **Evet** olarak seçin. Bu değişiklik yalnızca geçerli bağlayıcı grubu etkiler. Bağlayıcı başka gruplarda aynı işlev profili kullanmak için devam edebilirsiniz.
@@ -119,7 +119,7 @@ Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları yapıland�
 5. Bir mali kayıt işlemi oluşturun.
 
     Bir mali kayıt işlemi, kayıt adımlarının sıralaması ve her bir adım için kullanılacak mali bağlayıcı grubu ile tanımlanır.
-    
+
     1. **Mali kayıt işlemi** sayfasında (**Perakende \> Kanal kurulumu \> Mali tümleştirme \> Mali kayıt işlemi**), mali kaydın her bir benzersiz işlemi için yeni bir kayıt oluşturun.
     2. İşlem için kayıt adımları ekleyin:
 
@@ -145,7 +145,7 @@ Mali tümleştirme işlevini kullanmadan önce aşağıdaki ayarları yapıland�
 7. **Mali kayıt işlemi** sayfasında (**Perakende \> Kanal kurulumu \> Mali tümleştirme \> Mali kayıt işlemi**), mali kayıt işlemini doğrulamak için **Doğrula**'yı seçin.
 
     Aşağıdaki durumlarda, bu tür doğrulama çalıştırmanız önerilir:
-    
+
     - Yeni kayıt işlemi için tüm ayarları tamamladıktan sonra, kayıt işlemlerini POS işlev profillerine ve donanım profillerine atadığınızda da dahil olmak üzere.
     - Mevcut bir mali kayıt işleminde değişiklik yaptıktan ve bu değişiklikler farklı mali bağlayıcının çalışma zamanında seçilmesine neden olabildikten sonra (örneğin, bir mali kayıt işlemi adımı için bağlayıcı grubu değiştirdiğinizde, bir bağlayıcı grubundaki bağlayıcı işlev profilini etkinleştirin veya yeni bir bağlayıcı işlev profilini bir bağlayıcı grubuna ekleyin).
     - Bağlayıcı teknik profillerin donanım profillerine atamasında değişiklikler yaptıktan sonra.

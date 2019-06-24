@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546853"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595697"
 ---
 # <a name="before-you-buy"></a>Satın almadan önce
 
@@ -63,7 +63,7 @@ Bir şirket içi dağıtım aboneliği satın almanın iki yolu vardır.
 
 ### <a name="buy-through-volume-licensing"></a>Toplu lisans aracılığıyla satın almak
 
-Kuruluşunuz 250 veya daha fazla Dynamics 365 kullanıcısına sahipse, [Toplu lisans anlaşması](https://www.microsoft.com/en-us/Licensing/product-licensing/dynamics365) ilginizi çekebilir.
+Kuruluşunuz 250 veya daha fazla Dynamics 365 kullanıcısına sahipse, [Toplu lisans anlaşması](https://www.microsoft.com/Licensing/product-licensing/dynamics365) ilginizi çekebilir.
 
 Toplu Lisanslama'da, Finance and Operations şu şekilde kullanılabilir:
 
@@ -87,7 +87,7 @@ Microsoft, kullanıcılarının teknik sorunları hızlı şekilde çözebilmele
 Daha fazla bilgi:
 
 - [Dynamics 365 Destek](https://www.microsoft.com/dynamics365/support)
-- [Microsoft Dynamics Bulut Hizmet Destek Faydaları için Hızlı Başlangıç Kılavuzu](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [Microsoft Dynamics Bulut Hizmet Destek Faydaları için Hızlı Başlangıç Kılavuzu](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Adım dört: FastTrack hakkında bilgi alın ve dağıtımınızı planlayın
 

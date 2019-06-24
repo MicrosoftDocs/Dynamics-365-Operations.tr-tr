@@ -3,7 +3,7 @@ title: Gider raporları yeniden tasarlandı
 description: Bu konu, Microsoft Dynamics 365 for Finance and Operations'daki gider raporu girişi için yeniden tasarlanan ve yenilenmiş olan deneyim hakkında bilgi sağlar. Yeni deneyim, gider raporlarını tamamlama sürecini basitleştirir ve gerekli zamanı azaltır.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3039cda3f2cf9259ca06207bdf941bc6b0fb28e1
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538714"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592649"
 ---
 # <a name="expense-reports-reimagined"></a>Gider raporları yeniden tasarlandı
 
@@ -46,10 +46,9 @@ Yeni deneyimi açmak için **Özellik yönetimi** çalışma alanını kullanara
 
 ## <a name="getting-started-video-for-new-users"></a>Yeni kullanıcılar için Başlarken videosu
 
-Gider girişinin ana özelliklerini gösteren kısa bir video izleyebilirsiniz.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
 
-> [!NOTE]
-> Video henüz kullanılamaz. Video kullanılabilir olduğunda bu konu güncelleştirilecektir.
+[Dynamics 365 for Finance and Operations içinde gider deneyimi](https://youtu.be/Ocy-MsTvEE0) videosu (yukarıda gösterilen), YouTube'da bulunan [Finance and Operations oynatma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) bulunmaktadır.
 
 ## <a name="new-features"></a>Yeni özellikler
 

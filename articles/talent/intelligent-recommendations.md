@@ -3,7 +3,7 @@ title: Akıllı öneriler
 description: Bu konu, makine öğreniminin işler ve iş adayları konusunda öneriler sağlamak için nasıl kullanılabileceğini açıklar.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/25/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519291"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620632"
 ---
 # <a name="intelligent-recommendations"></a>Akıllı öneriler
 
@@ -33,7 +33,7 @@ Makine öğrenimi, işe alanlar ve işe alım yöneticilerinin bir pozisyon içi
 
 > [!NOTE] 
 > - Akıllı öneri özellikleri, yalnızca [Kapsamlı işe alım eklentisinde](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring) kullanılabilir.
-> - Bu konuda belirtilen işlev önizleme sürümünün bir parçası kullanılabilir. İçerik ve işlevde değişiklik yapılabilir. Bu özelliği kullanmak için bir yöneticinin Attract içinde **Yönetim ayarları**'nı kullanarak etkinleştirmesini isteyin. **Aday önerisi**, **İş önerisi** ve **Müşteri adayı önerisi**, **Açık**. Daha fazla bilgi için bkz [Talent içinde önizleme özelliklerine erişin](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> - Bu konuda belirtilen işlev önizleme sürümünün bir parçası kullanılabilir. İçerik ve işlevde değişiklik yapılabilir. Bu özelliği kullanmak için bir yöneticinin Attract içinde **Yönetim merkezi**'ni kullanarak etkinleştirmesini isteyin. **Aday önerisi**, **İş önerisi** ve **Müşteri adayı önerisi**, **Açık**. Daha fazla bilgi için bkz [Talent içinde önizleme özelliklerine erişin](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Aday önerileri

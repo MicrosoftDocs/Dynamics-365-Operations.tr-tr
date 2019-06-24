@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530282"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577992"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Satış noktasında (POS) sipariş bildirimlerini görüntüleme
 
@@ -68,7 +68,7 @@ Aşağıdaki örnek düğme grubu tasarımcısındaki canlı içerik ayarların�
 
 ![Düğme grubu tasarımcısındaki canlı içerik ayarları](./media/ButtonGridDesigner.png "Düğme grubu tasarımcısındaki canlı içerik ayarları")
 
-Bir düğmedeki bildirim sayımını göstermek için, doğru ekran düzeninin güncelleştirilmesini sağlamanız gerekir. POS tarafından kullanılan ekran düzenini belirlemek için, sağ üst köşedeki ayarlar **Ayarlar** simgesini seçin ve **Ekran düzeni kodunu** ve **Düzen çözünürlüğünü** not edin. Şimdi Edge tarayıcısını kullanarak, Dynamics 365 for Finance and Operations'daki **Ekran düzeni** sayfasına gidin, yukarıda tanımlanan **Ekran düzeni kodunu** ve **Düzen çözünürlüğünü** bulun ve **Canlı içeriği etkinleştir** onay kutusunu seçin. **Perakende > Perakende BT > Dağıtım zamanlaması**'na gidin ve düzen değişikliklerini eşitlemek için 1090 (Kayıtlar) işini çalıştırın. 
+Bir düğmedeki bildirim sayımını göstermek için, doğru ekran düzeninin güncelleştirilmesini sağlamanız gerekir. POS tarafından kullanılan ekran düzenini belirlemek için, sağ üst köşedeki ayarlar **Ayarlar** simgesini seçin ve **Ekran düzeni kodunu** ve **Düzen çözünürlüğünü** not edin. Şimdi Edge tarayıcısını kullanarak, Dynamics 365 for Finance and Operations'daki **Ekran düzeni** sayfasına gidin, yukarıda tanımlanan **Ekran düzeni kodunu** ve **Düzen çözünürlüğünü** bulun ve **Canlı içeriği etkinleştir** onay kutusunu seçin. **Perakende \> Perakende BT \> Dağıtım zamanlaması**'na gidin ve düzen değişikliklerini eşitlemek için 1090 (Kayıtlar) işini çalıştırın.
 
 ![POS tarafından kullanılan ekran düzenini bulun](./media/Choose_screen_layout.png "Ekran düzenini bulun ")
 

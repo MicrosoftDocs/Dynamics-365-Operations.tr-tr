@@ -3,7 +3,7 @@ title: Talent sağlama
 description: Bu konuda, Dynamics 365 for Talent için yeni bir ortam sağlama işlemi adım adım anlatılmaktadır.
 author: andreabichsel
 manager: AnnBe
-ms.date: 00/05/2019
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 98f60e466b8b97215fdba0f48ca53ca57157283b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
+ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519313"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1576933"
 ---
 # <a name="provision-talent"></a>Talent sağlama
 
@@ -47,13 +47,14 @@ Talent'ı kullanmaya başlamayla ilgili bilgiler için yeni projede oluşturduğ
 Bir LCS projesi oluşturduktan sonra, bir ortama Talent sağlayabilirsiniz.
 
 1. LCS projenizde **Talent Uygulama Yöneticisi** kutucuğunu seçin.
-2. Talent, PowerApps tümleştirmesi ve genişletilebilirliği sağlamak amacıyla daima bir Microsoft PowerApps ortamında sağlanır. Devam etmeden önce bu konudaki "PowerApps ortamı seçme" bölümünü okuyun. PowerApps ortamınız yoksa, LCS'de Ortamları yöneti seçin veya PowerApps Yönetim Merkezi'ne gidin. Ardından [PowerApps ortamı oluşturma](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment) adımlarını izleyin.
+2. Bunun bir sanal alanda mı yoksa bir Talent üretim örneği olup olmadığını belirtin. Erken geri bildirim ve sınamaya izin vermek için korumalı alan örneklerinde önceki Önizleme özellikleri kullanılabilir olabilir. 
+3. Ortamınızın Talent Test Sürümü deneyiminde kullanılan aynı tanıtım verileri kümesini içermesini istiyorsanız **Tanıtım Verilerini Ekle** seçeneğini seçin. Bu uzun vadeli tanıtım veya eğitim ortamları için yararlıdır ve üretim ortamları için hiçbir zaman kullanılmamalıdır.  Not ilk dağıtım sırasında bu seçeneği seçmeniz gerekir. Varolan bir dağıtımı sonra güncelleştiremezsiniz.
+4. Talent, PowerApps tümleştirmesi ve genişletilebilirliği sağlamak amacıyla daima bir Microsoft PowerApps ortamında sağlanır. Devam etmeden önce bu konudaki "PowerApps ortamı seçme" bölümünü okuyun. PowerApps ortamınız yoksa, LCS'de Ortamları yöneti seçin veya PowerApps Yönetim Merkezi'ne gidin. Ardından [PowerApps ortamı oluşturma](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment) adımlarını izleyin.
 
     > [!NOTE]
     > Varolan ortamları görüntülemek veya yeni ortamlar oluşturmak için, Talent'ı sağlayan kiracı yöneticisine PowerApps P2 lisansı atanması gerekir. Kuruluşunuzun PowerApps P2 lisansı yoksa, bir CSP'den veya [PowerApps fiyatlandırma sayfasından](https://powerapps.microsoft.com/en-us/pricing/) bir lisans satın alabilirsiniz.
 
-4. **Ekle**'yi ve ardından Talent sağlayacağınız ortamı seçin.
-5. Ortamınızın Talent Test Sürümü deneyiminde kullanılan aynı tanıtım verileri kümesini içermesini istiyorsanız **Tanıtım Verilerini Ekle** seçeneğini seçin. Bu uzun vadeli tanıtım veya eğitim ortamları için yararlıdır ve üretim ortamları için hiçbir zaman kullanılmamalıdır.  Not ilk dağıtım sırasında bu seçeneği seçmeniz gerekir. Varolan bir dağıtımı sonra güncelleştiremezsiniz.
+5. Talent'in tedarik edileceği ortamı seçin.
 6. Koşulları kabul etmek için **Evet**'i seçin ve dağıtıma başlayın.
 
     Yeni ortamınız, soldaki gezinti bölmesinde bulunan ortam listesinde görüntülenir. Bununla birlikte, dağıtım durumunu **Dağıtıldı** olarak güncelleştirilene kadar ortamı kullanmaya başlayamazsınız. Tipik olarak bu işlem birkaç dakika sürebilir. Sağlama işlemi başarısız olursa Desteğe başvurmanız gerekir.

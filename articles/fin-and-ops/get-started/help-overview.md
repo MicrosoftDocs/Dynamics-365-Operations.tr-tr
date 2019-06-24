@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538968"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595651"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operations Yardım sistemi
 
@@ -192,7 +192,7 @@ Aşağıdaki tablo web sitelerimizi listeler. Adının yanında bir yıldız iş
 | [Docs.microsoft.com adresindeki yardım](/dynamics365/)                                                            | Dynamics için tüm ürün belgeleri barındırır veya bağlantı kurar. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Microsoft'un ücretsiz e-Eğitim sitesi. |
 | [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Müşteriler ve ortakların satış öncesi uygulama ve işlemlerden Dynamics 365 for Finance and Operations projelerini yönetebilmesi için bulut tabanlı işbirliğine dayalı çalışma alanı sağlar. Bu site uygulamanın tüm aşamalarında yararlıdır. |
-| [Destek blogu](http://aka.ms/AXSupportBlog)                                                    | Dynamics 365 for Finance and Operations Destek ekibi tarafından yayınlanan ipuçları ve püf noktalar sağlar. |
+| [Destek blogu](https://aka.ms/AXSupportBlog)                                                    | Dynamics 365 for Finance and Operations Destek ekibi tarafından yayınlanan ipuçları ve püf noktalar sağlar. |
 | [Docs.microsoft.com/previous sürümleri](https://docs.microsoft.com/previous-versions/dynamics/) | Önceki sürümlerden içerik barındırır. |
 | [Dynamics Topluluğu](https://community.dynamics.com/)                                          | Bloglar, forumlar ve videoları barındırır. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Değerlendirme ve satış bilgileri sağlar. |

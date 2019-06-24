@@ -3,7 +3,7 @@ title: Perakende satış fiyatı yönetimi
 description: Bu konu Microsoft Dynamics 365 for Retail'de satış fiyatları oluşturma ve yönetme kavramlarını açıklar.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 04/20/2018
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afa553fd0562b306f720f2a30c7f901db7ad1b3a
+ms.sourcegitcommit: 0fbfb9b0ab78c804f3931a083028d2ce313d6521
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549417"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1594082"
 ---
 # <a name="retail-sales-price-management"></a>Retail satış fiyatı yönetimi
 
@@ -231,3 +231,9 @@ Ayrıca, **yalnızca** perakende fiyatlandırma altyapısı şu fiyatlandırma �
 
 - Fiyat, ana ürün fiyatına doğru en belirgin ürün çeşidi fiyatından en az belirgin ürün çeşidi fiyatına giden sırayla, ürün boyutlarını temel alır. İki ürün boyutu (örneğin, renk ve boyut) kullanılarak ayarlanan fiyat yalnızca bir ürün boyutu (örneğin boyut) kullanılarak ayarlanan fiyattan önce kullanılır.
 - Aynı fiyat grubu, fiyat ve iskontoları denetlemek için kullanılabilir.
+
+## <a name="pricing-api-enhancements"></a>Fiyatlandırma API geliştirmeleri
+
+Fiyat, birçok müşterinin satın alma kararlarını yöneten en önemli etkilerinden biridir ve birçok müşteri satın almadan önce çeşitli sitelerdeki fiyatları karşılaştırır. Perakendeciler, rekabetçi fiyatları sağlamalarının sağlanmasına yardımcı olmak için, rakiplerini gözlemler ve genellikle promosyonlar yapar. Bu nedenle, bu perakendecilere müşteriler çekmenize yardımcı olmak amacıyla ürün aramasının, Gözat özelliğinin, listelerin ve Ürün Ayrıntıları sayfasının en doğru fiyatları göstermesi çok önemlidir.
+
+Perakende satış sürümünde, **GetActivePrices** uygulama programlama arabirimi (API), basit iskontolar (örneğin, sepetteki diğer maddelere bağımlı olmayan tek satırlı iskontolar) içeren fiyatları döndürür. Bu şekilde, gösterilen fiyatlar müşterilerin maddeler için ödeyeceği gerçek tutara yakın bir yöntemdir. Bu API, tüm basit iskonto türlerini içerir: bağlantı tabanlı, bağlılık programı tabanlı, katalog tabanlı ve kanal tabanlı indirimler. Ek olarak, satıcılar, uygulanan indirimlerle ilgili adları ve geçerlilik bilgilerini döndürür ve böylece perakendeciler fiyat için daha ayrıntılı bir açıklama sağlayabilir ve iskontonun geçerliliği yakında sona erdiğinde acilinin bir fikir yaratmasını sağlar.

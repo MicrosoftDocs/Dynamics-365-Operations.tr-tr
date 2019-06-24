@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502742"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595351"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansal raporlarda sütun tanımları
 
@@ -120,7 +120,7 @@ Aşağıdaki tabloda sütun kısıtlaması kodları açıklanmaktadır.
 | ADJ                     | Sütundaki tutarları dönem düzeltmesi tutarları varsa bu tutarlarla kısıtlayın. |
 | XAD                     | Sütundaki tutarları dönem düzeltmesi tutarları hariç tutulacak şekilde kısıtlayın. |
 | PT                      | Sütundaki tutarları deftere nakledilmiş hareketler kullanılabiliyorsa yalnızca bu hareketler dahil edilecek şekilde kısıtlayın. |
-| UPT                     | Sütundaki tutarları deftere nakledilmemiş hareketler kullanılabiliyorsa yalnızca bu hareketler dahil edilecek şekilde kısıtlayın.<blockquote>[!NOTE] Tüm veri sağlayıcılar deftere nakledilmemiş hareketleri desteklemez. Daha fazla bilgi için, Microsoft Dynamics ERP sisteminizin <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>veri tümleştirme kılavuzuna</a> bakın.</blockquote> |
+| UPT                     | Sütundaki tutarları, mevcutsa sadece nakledilmeyen hareketleri içerecek şekilde sınırlandırın.<p><strong>Not:</strong> Nakledilmeyen hareketler tüm veri sağlayıcıları tarafından desteklenmemektedir. Daha fazla bilgi için, Microsoft Dynamics ERP sisteminizin <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>veri tümleştirme kılavuzuna</a> bakın.</p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Bir sütunu bir raporlama birimiyle kısıtlama
 
@@ -310,7 +310,7 @@ Sütun tanımında, biçimlendirme sütunu ayrıntı satırları seçilen sütun
 | Yazdırma denetimi kodu | Çeviri                                     | Açıklama |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Yazdırılmayan                                     | Yazdırılan rapordaki ve hesaplamalardaki tutarları bu sütunda hariç tutun. Bir hesaplamaya yazdırılmayan bir sütun eklemek için, doğrudan hesaplama formülündeki sütuna bakın. Örneğin, şu hesaplamaya yazdırılmayan C sütunu dahil edilmiştir: **B+C+D**. Ancak, şu hesaplamaya yazdırılmayan C sütunu dahil edilmemiştir: **B:D**. |
-| XCR                | Normal satır bakiyesi alacaksa işareti değiştir | Her türlü istenmeyen varyansın (gelir açığı veya gider aşımı gibi) her zaman negatif olduğu durumlarda bir bütçe veya karşılaştırma raporu oluşturun. Belirli bir satırın normal bakiyesi alacaksa (satır tanımının **Normal Bakiye** sütununda **C** ile tanımlanan) sütun tutarının işaretini ters çevirmek için bu kodu bir **CALC** sütununa uygulayın.<blockquote>[!NOTE] Normalde bir alacak bakiyesi içeren <strong>TOT</strong> satırları ile </strong>CAL</strong> satırları için satır tanımındaki <strong>Normal Bakiye</strong> sütununa mutlaka bir <strong>C</strong> girin.</blockquote> |
+| XCR                | Normal satır bakiyesi alacaksa işareti değiştir | Her türlü istenmeyen varyansın (gelir açığı veya gider aşımı gibi) her zaman negatif olduğu durumlarda bir bütçe veya karşılaştırma raporu oluşturun. İlgili satırın bakiyesi genellikle borç ise (satır tanımının **Normal Bakiye** sütununda **C** olarak tanımlanır) sütun tutarının işaretini ters çevirmek için **CALC** sütununa bu kodu uygulayın.<p><strong>Not:</strong> Tipik olarak bir alacak bakiyesi taşıyan <strong>TOT</strong> satırları ve </strong>CAL</strong> satırları için, satır tanımında <strong>Normal Bakiye</strong> sütununa <strong>C</strong> girdiğinizden emin olun.</p> |
 | X0                 | Tümü sıfırsa veya boşsa sütunu gizle          | Bir **FD** sütununu bu sütundaki tüm hücreler boşsa veya sıfır içeriyorsa rapordan çıkarın. |
 | SR                 | Yuvarlamayı gizle                               | Bu sütundaki tutarların yuvarlanmasını engelleyin. |
 | XR                 | Toplamayı gizle                                 | Bir toplamayı gizleyin. Raporda bir raporlama ağacı kullanılıyorsa bu sütundaki tutarlar sonraki üst düğümlerde toplanmaz. |
@@ -546,8 +546,8 @@ Aşağıdaki tabloda, Pelin'in yaptığı seçimler nedeniyle **Para Birimi Ekra
 | Para Birimi Ekranı hücresi                        | Para Birimi Filtresi hücresi | Rapor sonucu |
 |----------------------------------------------|----------------------|---------------|
 | Hareket para birimi                 | **YEN**              | **6.000 Y**: Sonuç yalnızca JPY olarak girilen hareketleri gösterir. |
-| Genel Muhasebe için muhasebe para birimi | **YEN**              |**60 $**: Sonuç yalnızca JPY olarak girilen hareketleri gösterir ve ABD doları cinsinden olan hareketleri görüntüler.<blockquote>[!NOTE] Dönüşüm oranı USD başına yaklaşık 100 JPY'dir.</blockquote> |
-| Genel Muhasebe için muhasebe para birimi | Boş                | **2.310 $** – Sonuç, tüm veriyi Genel Muhasebe defteri içinde belirtilen muhasebe para biriminde gösterir.<blockquote>[!NOTE] Bu tutar, muhasebe para birimindeki tüm işlemlerin toplamıdır.</blockquote> |
+| Genel Muhasebe için muhasebe para birimi | **YEN**              |**60 $**: Sonuç yalnızca JPY olarak girilen hareketleri gösterir ve ABD doları cinsinden olan hareketleri görüntüler.<p><strong>Not:</strong> Döviz kuru 1 Amerikan Doları için yaklaşık 100 JPY'dir.</p> |
+| Genel Muhasebe için muhasebe para birimi | Boş                | **2.310 $** – Sonuç, tüm veriyi Genel Muhasebe defteri içinde belirtilen muhasebe para biriminde gösterir.<p><strong>Not:</strong> Bu tutar, muhasebe para birimindeki tüm işlemlerin toplamıdır.</p> |
 | Hareket para birimi                 | Boş                | **2.250 $**: Sonuç, hareketin gerçekleştirildiği para birimindeki tüm tutarları gösterir. Bu, toplamın farklı para birimlerinden tutarlar ekleyerek oluştuğu anlamına gelir. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Bir sütun tanımındaki hesaplama sütunu
@@ -565,7 +565,7 @@ Sütunları toplamak, çıkarmak, çarpmak veya bölmek için sütun harflerini 
 |----------|---------------------|-------------|
 | +        | A+C                 | A sütunundaki tutarı C sütunundaki tutara ekleyin. |
 | :        | A:C A:C-D           | Art arda gelen sütunlardan oluşan bir aralığı toplayın. Örneğin, **A:C** formülü, A ile C arasındaki sütunların toplamlarını eklerken, **A:C-D** formülü, A ile C arasındaki sütunların toplamlarını ekler ve ardından D sütunundaki tutarı çıkarır. |
-| -        | A-C                 | A sütunundaki tutarı, C sütunundaki tutardan çıkartın.<blockquote>[!NOTE] Bir sütundaki işaretleri ters çevirmek için eksi işaretini (-) de kullanabilirsiniz. Örneğin, A sütunundaki tutarın tersini B sütunundaki tutara eklemek için <strong>-A+B</strong> formülü kullanın.</blockquote> |
+| -        | A-C                 | A sütunundaki tutarı, C sütunundaki tutardan çıkartın.<p><strong>Not:</strong> Bir sütundaki işaretleri ters çevirmek için eksi işaretini (-) de kullanabilirsiniz. Örneğin, A sütunundaki tutarın tersini B sütunundaki tutara eklemek için <strong>-A+B</strong> formülü kullanın.</p> |
 | \*       | A\*C                | A sütunundaki tutarı C sütunundaki tutara çarpın. |
 | /        | A/C                 | A sütunundaki tutarı C sütunundaki tutara bölün. |
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4832a056a99e0f7521e022982b7db7b16d7064a3
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562010"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595505"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 
@@ -99,7 +99,7 @@ SQL Server'ı her zaman bir küme veya yansıtma kurulumunda kullanmanızı öne
 
 AD FS boyutlandırma için bkz [AD FS Sunucu Kapasite belgeleri](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
-Bir [boyutlandırma elektronik tablosu](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) dağıtımınızdaki örneklerin sayısını planlamak için kullanılabilir.
+Bir [boyutlandırma elektronik tablosu](https://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) dağıtımınızdaki örneklerin sayısını planlamak için kullanılabilir.
 
 ## <a name="aos-online-and-batch"></a>AOS (Çevrimiçi ve toplu iş)
 

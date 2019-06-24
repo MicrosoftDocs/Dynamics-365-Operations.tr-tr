@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
+ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536722"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "1617985"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile Fiili ağırlık ürün işlemi
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/pivate-preview-banner.md)]
+[!include [banner](../includes/pivate-preview-banner.md)]
 
 
 ## <a name="feature-exposure"></a>Özellik tanıtımı
@@ -138,10 +138,6 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
 - Karantina emirlerinin el ile oluşturulması fiili ağırlık ürünleri için desteklenmiyor.
 - İş ile ilgili olan stokun el ile taşıması fiili ağırlık ürünleri için desteklenmiyor.
 - Plakaların birleştirilmesi fiili ağırlık ürünleri için desteklenmiyor.
-- Ambar stok durumuna periyodik görevin parçası olarak değişiklikler fiili ağırlık ürünleri için desteklenmiyor.
-- Bir sorgu tarafından tanımlanan stok durumunda değişiklikler fiili ağırlık ürünleri için desteklenmiyor. (Kalite emri stok durumuna değişiklikler de desteklenmiyor.)
-- Fiili ağırlık ürünleri için stok durumu **Konuma göre eldeki** sayfasından değiştirilemez.
-- Fiili ağırlık ürünleri için stok durumu ambar uygulaması hareket işinin parçası olarak değiştirilemez.
 - Ambar stokunu başlatmak için plaka yükleme fiili ağırlık ürünleri için desteklenmiyor.
 - Toplu iş dengelemesi işlemleri fiili ağırlık ürünleri için desteklenmiyor.
 - Negatif fiziksel stokun işlenmesi fiili ağırlık ürünleri için desteklenmiyor.
@@ -151,7 +147,6 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
 
 - Küme çekme için işlev fiili ağırlık ürünleri için desteklenmiyor.
 - Çekme ve paketleme amber işleme fiili ağırlık ürünleri için desteklenmiyor.
-- Fiili ağırlık ürünleri için iş **İş** sayfasından tamamlanamaz.
 - Fiili ağırlık ürünleri için bir iş şablonunda tanımlanan bir iş otomatik olarak yürütülebilir.
 - İş ters işlem için işlev fiili ağırlık ürünleri için desteklenmiyor.
 - Fiili ağırlık ürünleri için el ile işleme istasyon işleme, işin konteynerler kapatıldıktan sonra oluşturulduğu durumlarda desteklenmiyor.
@@ -163,7 +158,7 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
 - Kanban işlevi fiili ağırlık ürünleri için desteklenmiyor.
 - Fiili ağırlık ürünleri için seri numaralar tüketimden önce kaydedilemez.
 - Plaka ters işlem için işlev fiili ağırlık ürünleri için desteklenmiyor.
-- Fiili ağırlık ürünleri için tamamlandı olarak raporlamak bir seri numarası olarak kaydedilebilir.
+- Fiili ağırlık ürünleri için tamamlandı olarak raporlamak bir seri numarası olarak kaydedilemez.
 
 ### <a name="transportation-management-processing"></a>Taşıma yönetimi işleme
 

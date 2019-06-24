@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541280"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592672"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
@@ -443,7 +443,7 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <tr>
 <td>DİZİN (liste, dizin)</td>
 <td>Bu işlev, listedeki belirli bir sayısal dizinle seçilen bir kaydı döndürür. Dizin listedeki kayıtların aralığı dışında ise bir özel durum oluşur.</td>
-<td><strong>Hesaplanmış alan</strong> türü için veri kaynağı <strong>DS</strong>'yi girerseniz ve bu <strong>SPLIT ("A|B|C", “|”), 2)</strong> ifadesini içerirse , <strong>DS.Value</strong> ifadesi "B" metin değerini döndürür. <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> ifadesi de “B” metin değerini döndürür.</td>
+<td><strong>Hesaplanmış alan</strong> türü için veri kaynağı <strong>DS</strong>'yi girerseniz ve bu <strong>SPLIT ("A|B|C", “|”), 2</strong> ifadesini içerirse , <strong>DS.Value</strong> ifadesi "B" metin değerini döndürür. <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> ifadesi de “B” metin değerini döndürür.</td>
 </tr>
 </tbody>
 </table>

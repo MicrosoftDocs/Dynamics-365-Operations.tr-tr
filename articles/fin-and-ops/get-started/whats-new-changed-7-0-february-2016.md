@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5fb6b23d11ab263ed158a0a4476f77ed22b5084
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561822"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595674"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 
@@ -721,7 +721,7 @@ Perakende sunucu ve veri yönetimi, tüketicilerin ve işletmelerin çevrimiçi,
 </thead>
 <tbody>
 <tr>
-<td>CRT hizmetlerini kullanarak kanalı için iş verilerini depolayan bir ticaret çalışma zamanı (CRT) veritabanına bağlanın.</td>
+<td>CRT hizmetlerini kullanarak kanalı için iş verilerini depolayan bir commerce runtime (CRT) veritabanına bağlanın.</td>
 <td>OData V3 desteklenir.</td>
 <td>OData V4 desteklenir.</td>
 <td>Bu, müşterilerin OData standartları ile güncel kalmalarına yardımcı olur. Ayrıca satışları mağaza içi, mobil ve çevrimiçi kanallar arası tümleşik duruma getirerek sağlam bir omni-kanal deneyimi oluşturur.</td>
@@ -971,7 +971,7 @@ Kendi kendine kurulum aracılığıyla "low-touch" istemci bileşeni mevcuttur:
 </tr>
 <tr>
 <td>Sistem durumunu izleyin ve hataları ve sorunları tanımlayın.</td>
-<td>Bu işlevsellik <a href="http://www.microsoft.com/download/details.aspx?id=42636">Microsoft Dynamics AX 2012 R3 CU8 Perakende için System Center 2012 Yönetim Paketi gerektirir</a>.</td>
+<td>Bu işlevsellik <a href="https://www.microsoft.com/download/details.aspx?id=42636">Microsoft Dynamics AX 2012 R3 CU8 Perakende için System Center 2012 Yönetim Paketi gerektirir</a>.</td>
 <td>Perakende bileşenleri izleme ve tanılama şimdi LCS'deki <strong>Operasyonel Öngörüler</strong> Panosunda üzerinden kullanılabilir.</td>
 <td><strong>Operasyonel Öngörüler</strong> panosu, Sistem Merkezi İşlem Yöneticisi (SCOM) altyapısını kurma ihtiyacının yerini alan bir bulut tabanlı izleme portalıdır.</td>
 </tr>

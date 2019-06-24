@@ -1,9 +1,9 @@
 ---
-title: Talent'ta önizleme özelliklerine erişme
-description: Bu konu önizleme özelliklerini bir yöneticinin nasıl etkinleştirebileceğini tanımlar ve önizleme için etkin olan özellikleri listeler.
+title: Microsoft Dynamics 365 for Talent önizleme özelliklerine erişme
+description: Bu konu Microsoft Dynamics 365 for Talent içindeki önizleme özelliklerini bir yöneticinin nasıl etkinleştirebileceğini tanımlar ve önizleme için etkin olan özellikleri listeler.
 author: tracykeya
 manager: AnnBe
-ms.date: 04/29/2019
+ms.date: 05/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,77 +18,105 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2858451435c358380503c8edc5cb162e6834894a
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519346"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620608"
 ---
 # <a name="access-preview-features-in-talent"></a>Talent'ta önizleme özelliklerine erişme
 
 [!include[banner](../includes/banner.md)]
 
-Sürekli olarak kullanıma sunduğumuz ürün özelliklerinin bir parçası olarak, müşterilerimizin yeni özellikleri mümkün olan en kısa sürede deneyimlemesini istiyoruz. Yöneticiler önizleme özelliklerini kendi ortamlarında görebilir ve kullanabilir. Bu özellikler neredeyse genel kullanıma sunulmak üzere hazır durumdadır ve kapsamlı bir sınamadan geçirilmiştir. Bu özellikleri genel kullanım için yayımlamadan önce müşterilerimizden son kez geribildirim almak istiyoruz.
+Microsoft Dynamics 365 for Talent için sürekli olarak kullanıma sunduğumuz insan sermayesi yönetim döngüsü (HCM) özelliklerinin bir parçası olarak, müşterilerimizin yeni özellikleri mümkün olan en kısa sürede deneyimlemesini istiyoruz. Yöneticiler önizleme özelliklerini kendi ortamlarında görebilir ve kullanabilir. Bu özellikler neredeyse genel kullanıma sunulmak üzere hazır durumdadır ve kapsamlı bir sınamadan geçirilmiştir. Bu özellikleri genel kullanım için yayımlamadan önce müşterilerimizden son kez geribildirim almak istiyoruz.
 
-Bu konu önizleme özelliklerini bir yöneticinin nasıl etkinleştirebileceğini tanımlar ve önizleme için kullanılabilir olan özellikleri listeler. Bu liste özellikler genel kullanım için yayımladıkça ve yeni özellikler önizleme için yayımlandıkça güncelleştirilecektir. Yeni özellikler önizleme için yayımlandığında bildirim gönderilmeyecektir. Kullanıcılar özellikleri görmeye başlayacaktır.
+Bu konu önizleme özelliklerini nasıl etkinleştirebileceğinizi tanımlar ve önizleme için kullanılabilir olan özellikleri listeler. Bu liste özellikler genel kullanım için yayımladıkça ve yeni özellikler önizleme için yayımlandıkça güncelleştirilecektir. Yeni özellikler önizleme için yayımlandığında bildirim gönderilmeyecektir. Kullanıcılar özellikleri görmeye başlayacaktır. Talent içindeki yeni özellikler hakkında daha fazla bilgi için bkz. [Dynamics 365 for Talent içinde neler yeni veya değişti](./whats-new.md) ve [Dynamics 365 ve Power Platform Sürüm Notları](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Önizleme özelliklerini etkinleştirme veya devre dışı bırakma
 
-**Önizleme özelliklerini** etkinleştirmek veya devre dışı bırakmak için Microsoft Dynamics 365 for Talent yönetim merkezindeki Önizleme özellikleri ayarını kullanabilirsiniz. Varsayılan olarak, bu ayar kapalıdır. Önizleme özelliklerini devre dışı bırakma veya etkinleştirme ortama özgü bir eylemdir.
+Önizleme özelliklerine erişmek için, önce ortamınızda etkinleştirmeniz gerekir. Önizleme özelliklerini devre dışı bırakma veya etkinleştirme ortama özgüdür.
 
 > [!IMPORTANT]
-> **Önizleme özellikleri** ayarını açarak, kuruluşunuzda bulunan bu ortamdaki tüm kullanıcılar için önizleme özelliklerini etkinleştirirsiniz. Ayarı kapattığınızda, önizleme özelliklerini devre dışı bırakırsınız ve kullanıcılarınız bu özelliklere erişemez. Önizleme özellikleri Talent'ta sınırlı şekilde desteklenir. Daha az gizlilik ve güvenlik önemi kullanabilirler ve Talent hizmet düzeyi sözleşmene dahil değildirler. Kişisel verileri (diğer bir deyişle, sizi tanımlamaya yardımcı olabilecek tüm bilgileri) işlemek ya da yasa veya düzenlemelerle uyumluluk gereksinimlerine tabi olan diğer verileri işlemek için önizleme özelliklerini kullanmamanız gerekir.
+> **Önizleme özellikleri** ayarını açtığınızda, kuruluşunuzda bulunan bu ortamdaki tüm kullanıcılar için önizleme özelliklerini etkinleştirirsiniz. Ayarı kapattığınızda, önizleme özelliklerini devre dışı bırakırsınız ve kullanıcılarınız bu özelliklere erişemez. Önizleme özellikleri Talent'ta sınırlı şekilde desteklenir. Daha az gizlilik ve güvenlik önemi kullanabilirler ve Talent hizmet düzeyi sözleşmene (SLA) dahil değildirler. Kişisel verileri (diğer bir deyişle, sizi tanımlamaya yardımcı olabilecek tüm bilgileri) işlemek ya da yasa veya düzenlemelerle uyumluluk gereksinimlerine tabi olan diğer verileri işlemek için önizleme özelliklerini kullanmamanız gerekir.
 
-### <a name="enable-or-disable-preview-features-for-your-organization"></a>Kuruluşunuz için önizleme özellikleri devre dışı bırakma veya etkinleştirme
-
-#### <a name="attract"></a>İlgi çek
+### <a name="attract"></a>İlgi çek
 
 1. Microsoft Dynamics 365 for Talent: Attract'e oturum aç.
-2. Sağ üst köşedeki **Kurulum** menüsünden (çark simgesi) **Yönetici ayarları**'nı seçin.
-3. **Özellik yönetimi** sekmesinde **Önizleme özellikleri** yanındaki seçeneği seçin. Seçildiğinde mavi renge dönecektir.
-4. Bu sayfadaki bazı özellikleri etkinleştirip/devre dışı bırakarak ayrı ayrı özellikleri isteğe bağlı olarak kontrol edebilirsiniz.
-5. Yeni özellikleri görmek için tarayıcınızı yenileyin. (Zaten oturum açmış kullanıcılar özellikleri daha sonra yeniden oturum açtıklarında görürler veya özellikleri hemen görmek için tarayıcıyı yenileyebilirler.)
+2. Sağ üst köşedeki **Kurulum** menüsünden (çark simgesi) **Yönetici merkezi**'ni seçin.
+3. **Özellik yönetimi** sekmesinde **Önizleme özellikleri** yanındaki seçeneği seçin. Seçildiğinde mavi renge dönecektir ve **Açık** ibaresini görüntüleyecektir.
 
-#### <a name="core-hr"></a>Temel İK
+    ![Attract içinde önizleme özelliklerini etkinleştirme](./media/attract-enable-preview-features.png)
 
-1. Talent'ta oturum açın. Kalan adımları tamamlayabileceğiniz temel İnsan kaynakları çalışma alanı açılır. 
-2. **Sistem yönetimi \> Bağlantılar Sistem parametreleri**'ni seçin.
-3. **Sistem Parametreleri sayfasında**, **Önizleme özellikleri** sekmesinde **Önizleme modunu tüm kullanıcılar için etkinleştir** seçeneğini **Evet** olarak seçip önizleme özelliklerinin kullanılabilir olmasını sağlayın.
+4. Bireysel önizleme özellikleri seçimini seçin veya iptal edin. Hiçbir şey yapmazsanız, varolan tüm önizleme özellikleri etkinleştirilir.
+5. Yeni özellikleri görmek için tarayıcınızı yenileyin. Zaten oturum açmış kullanıcılar özellikleri daha sonra yeniden oturum açtıklarında görürler veya özellikleri hemen görmek için tarayıcıyı yenileyebilirler.
 
 > [!NOTE]
-> Önizleme özelliklerini devre dışı bırakmak için aynı temel adımları kullanın. Önizleme özelliklerini devre dışı bıraktığınızda, kullanıcılar bu özelliklere erişemez ve özelliklerle ilişkilendirilmiş işlemlerde hatalar meydana gelebilir.
+> Bazı önizleme özellikleri için ek konfigürasyon gerekebilir. Kurulum işleminin tamamlanması için önizleme özelliğinin yanındaki bağlantıları izleyin.
+
+### <a name="core-hr"></a>Temel İK
+
+1. Talent'ta oturum açın.
+2. **Sistem yönetimi**'ni ve sonra **Bağlantılar** sekmesini seçin.
+3. **Sistem yönetimi** sayfasında, **Kurulum** altında **Sistem parametreleri**'ni seçin.
+4. **Sistem parametreleri** sayfasında **Önizleme özellikleri** sekmesini seçin.
+5. **Tüm kullanıcılar için önizleme modunu etkinleştir** seçeneğini **Evet** olarak ayarlayarak önizleme özelliğini kullanılabilir kılın.
+
+    ![Core HR içinde önizleme özelliklerini etkinleştirme](./media/corehr-enable-preview-features.png)
+
+> [!NOTE]
+> Önizleme özelliklerini devre dışı bırakmak için aynı adımları kullanın ama **Tüm kullanıcılar için önizleme modunu etkinleştir** seçeneğini **Hayır** olarak ayarlayın. Önizleme özelliklerini devre dışı bıraktığınızda, kullanıcılar bu özelliklere erişemez ve özelliklerle ilişkilendirilmiş işlemlerde hatalar meydana gelebilir.
+
+### <a name="onboard"></a>İşe al
+
+Şu anda Microsoft Dynamics 365 for Talent: Onboard için önizleme özelliği yoktur.
 
 ## <a name="features-that-are-currently-in-preview"></a>Şu anda önizlemede olan özellikler
 
 ### <a name="attract"></a>İlgi çek
 
-- **Bir İşteki İlgili Adaylar** – İşe alanlar ve işe alma müdürleri, tüm başvuranların arasından hangi adayın işe en uygun olduğunu kolayca görebilir. İlk 5 başvuran gösterilir; özgeçmiş/profillerinin iş açıklamasına ilgisine bağlı olarak.
-- **İlgili İşler** – Adaylar artık özgeçmiş/profilleri ve iş tanımlarına dayalı olarak ilgili diğer işlerin bir listesini görebilir.  Şu anda bu, başka fırsatları yönelik bir önerilere başvurduklarında adaylara gösterilir.
-- **EEO/OFCCP Desteği** – Yeni aktivite türleri, adaydan Eşit Çalışma Fırsatı (EEO) ve Federal Sözleşme Ofsi Uyumluluk Programı (OFCCP) verilerini toplaması için önceden tanımlanmış bir form kullanımını etkinleştirin.  Bu önceden tanımlı bir formdur ve düzenlenemez.
-
-    > [!NOTE]
-    > Yayınlanan işler yalnızca bir veya daha fazla LinkedIn iş listeme ürününe abone olan müşteriler tarafından görülebilir. Aksi takdirde, müşteriler yalnızca özellikle aradıkları bir işi görebilirler. İşler LinkedIn'de yayınlandığında bir gecikme olur. Bir işin Attract'tan yayınladıktan sonra görünür olması birkaç saat alabilir.
-
-- **Aday başvurusu** – Hem harici hem de dahili adaylar artık doğrudan kariyer sitesindeki iş sayfasından başvuruda bulunabilir.
-- **Teklif yönetimi** – Kullanıcılar artık yer tutucular içeren şablonlardan teklif mektupları oluşturabilir. Adaylar Teklif aşamasında ilerlediğinde, işe alanlar ve işe alım müdürleri aday için şablonlar aracılığıyla bir resmi teklif hazırlamak, teklifi dahili onaylayana gönderme ve son olarak teklifi imzalanmak üzere adaya göndermek için Teklif aracını kullanabilirler. Zaman içinde Teklif aracına birçok yeni özellik eklenecektir ve önizleme için yayımlamaya hazır olduğumuzda önizleme özelliği bu özelliklerle güncelleştirilecektir.
-- **[Analitik raporlar](analytic-reports.md)** – İşe alma takımları, tek bir projeyle ilgili temel ölçümleri İş Analitiklerinde veya tüm işler için toplu ölçümleri Analitik Merkezinde görüntüleyebilir.
+- [Aday önerisi](./intelligent-recommendations.md#candidate-recommendations) - Özgeçmiş veya tam profili olan ondan fazla aday veya müşteri adayı varsa, bu durumdaki her iş için, işin gerekliliklerine en yakın adaylar veya müşteri adayları, işin sayfasındaki **Dikkate alınacak adaylar** bölümünde görüntülenir.
+- [İş önerisi](./intelligent-recommendations.md#job-recommendations) – Kariyer sitenizde 10'dan fazla iş nakledilmişse, Attract, aday müşteri adayları için iş önerileri sağlar.
+- [Broadbean tümleştirmesi](./posting-jobs-external.md#post-jobs-to-broadbean) – İşleri Attract'ten harici bir iş ilanı sitesi olan Broadbean'a aktarabilirsiniz. Bu önizleme özelliğini etkinleştirdikten sonra, Broadbean Kullanıcı adı, istemci kimliği ve şifreleme belirtecinizi girerek kurulumu tamamlamanız gerekir.
+- [Analitikler](./analytic-reports.md) - Analitik Merkezinde, işe alma ekipleri tek bir iş için temel ölçümleri görebilirler, ayrıca tüm işlerdeki toplanmış ölçümleri de görebilirler.
+- [EEO](./activities-attract.md) – Yeni aktivite türleri, adaydan Eşit Çalışma Fırsatı (EEO) ve Federal Sözleşme Ofsi Uyumluluk Programı (OFCCP) verilerini toplaması için önceden tanımlanmış bir form kullanımını etkinleştirin. Önceden tanımlı form düzenlenemiyor.
+- [Aday önerisi](./intelligent-recommendations.md#prospect-recommendations) - Attract, geçmiş başvuruları ve güncel adayları değerlendirerek işiniz için en iyi uyuma sahip adayların listesini sağlar.
+- [İlgi arama](./attract-talent-pools.md#search-and-view-candidate-profiles) - Tüm aday veritabanınızı belirli yetenekler, adlar veya eğitim geçmişine dayanarak arayabilirsiniz. Attract, profilin tamamını arar ve bulunan tüm eşleşmeleri vurgular. Attract ayrıca bir aday için bir aday için mevcut olan tüm belgeleri arar ve arama sonuçlarını akıllıca sıralar.
+- [Etkinlik kitlesi](./whats-new-talent-march-20.md#setting-the-audience-on-activities) - Etkinlikler (örneğin Mülakat, Toplantı veya Geri bildirim) için kitleyi **Tüm adaylar**, **Dahili adaylar** veya **Harici adaylar** olarak ayarlayabilirsiniz. Müşteri etkinlikleri, örneğin YouTube videoları, web içeriği ve Microsoft Formları'nı tüm adaylara, yalnızca dahili adaylara, yalnızca harici adaylara veya işe alma ekibine aktarabilirsiniz.
+- [LinkedIn ile başvur](./career-site.md#enable-applying-for-jobs-with-linkedin-profiles) - İş adaylarının LinkedIn kullanarak başvurmaları için Attract kariyer sitenizde bir seçenek ayarlayabilirsiniz. Bu özellik, adaylarınızın kendi LinkedIn profillerini kullanmasına izin vermek yoluyla, aday profilinizi onlara otomatik olarak doldurmak için uygulama işlemini kolaylaştırır.
+- [Kaynak izleme](./source-tracking.md) - Attract, aday başvurularının kaynağını izleyerek, işe alım çabalarınızı yönlendirmek için değerli bilgiler sağlayabilir. Bir adayı bir işe veya yetenek havuzuna eklerken bir başvuru kaynağı seçebilirsiniz.
+- [Gümüş madalyalı](./whats-new-talent-march-20.md#designate-silver-medalists-to-assign-high-value-applicants-for-future-positions) - Bir adaya kuruluşunuza çok uygunsa ancak geçerli pozisyon için kendisine bir teklifte bulunmadıysanız, bunları gümüş madalyalı olarak tanımlayabilirsiniz. Bu özellik, bir sonraki benzer pozisyona sahip olduğunuz zamandan sonra işe alma süresinin azaltılmasına yardımcı olur.
 
 ### <a name="core-hr"></a>Temel İK
 
-- **Açık Kayıt** – Açık kayıt kazançları çalışanlara kazançlarını seçmeleri için kolay, self-servis deneyimi sunar. İnsan Kaynakları (İK) yöneticileri kuruluşları için kazanç açık kayıt sürecini ve çalışanlara yönelik kayıt deneyimini, kolay izlenebilen kılavuzlu çözümleri kullanarak yapılandırabilir.
+- [Konum hiyerarşisi verisini doğrula](./whats-new-talent-may-13-2019.md#new-page-to-validate-position-hierarchy-data) - İçe aktarılan herhangi bir döngüsel referans için yönetim hiyerarşisini doğrulayabilirsiniz.
+- [İzin türlerinde neden kodları belirtin](./whats-new-talent-may-13-2019.md#specify-reason-codes-on-leave-types) - İzin türleri için neden kodları belirtebilirsiniz.
+- [İzin taleplerinde sebep kodları gerektir](./whats-new-talent-may-13-2019.md#require-reason-codes-for-specific-leave-types-on-time-off-requests) - İzin türleri için sebep kodları gerektirmenin yanı sıra, izin talepleri için de sebep kodları gerektirebilirsiniz.
+- [İK için izin ve devamsızlık listesi sağlayın](./whats-new-talent-may-13-2019.md#provide-a-leave-and-absence-transaction-list-for-hr) - İzin bakiyelerine içgörü sağlamak için izin ve devamsızlık listesini görüntüleyebilirsiniz.
 
-## <a name="feedback"></a>Geribildirim
+### <a name="onboard"></a>İşe al
 
-Geribildirimin pozitif veya negatif olmasına bakılmaksızın, önizleme özellikleri kullanımınıza ilişkin düşüncelerinizi öğrenmek istiyoruz. Bu özellikleri veya diğer yeni özellikleri kullandıkça aşağıdaki sitelerden bize düzenli olarak geribildirim göndermenizi rica ediyoruz.
+Şu anda Onboard için önizleme özelliği yoktur.
+
+## <a name="feedback"></a>Bildirim
+
+Bu önizleme özelliklerinden herhangi biriyle ilgili deneyiminizden haberdar olmak istiyoruz. Bu özellikleri veya diğer yeni özellikleri kullandıkça aşağıdaki sitelerden bize düzenli olarak geribildirim göndermenizi rica ediyoruz:
 
 - [Topluluk](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) – Bu, kullanıcıların olayları tartışabileceği, sorular sorabileceği ve topluluktan yardım alabileceği yararlı bir kaynaktır.
-- Ürün fikirlerini önermek için aşağıdaki siteleri kullanın. Üründe görmek istediğiniz özellikleri ve mevcut özellikler için yapılması gerektiğini düşündüğünüz herhangi bir değişikliği bize bildirin.
+- Üründe görmek istediğiniz özellikleri ve mevcut özellikler için yapmamız gerektiğini düşündüğünüz herhangi bir değişikliği bize bildirin. Aşağıdaki sitelerde ürün fikirleri önerin:
 
-    - [Fikirleri Çekmek](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
-    - [Temel İK](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+    - [Attract fikirleri](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
+    - [Core HR fikirleri](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+    - [Onboard fikirleri](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard)
 
-Kişisel verilerinizi (sizi tanımlamaya yardımcı olabilecek bilgiler) geribildiriminize veya ürün incelemesi gönderimlerinize eklemeyin. Toplanan bilgiler daha ayrıntılı incelenebilir ve yürürlükteki gizlilik yasaları kapsamında talepleri yanıtlamak için kullanılmayacaktır. Bu programlar altında ayrı olarak toplanan kişisel veriler [Microsoft Gizlilik Bildirimi](https://privacy.microsoft.com/privacystatement)'ne tabidir.
+Kişisel verilerinizi (sizi tanımlamaya yardımcı olabilecek bilgiler) geribildiriminize veya ürün incelemesi gönderimlerinize eklemediğinizden emin olun. Toplanan bilgiler daha ayrıntılı incelenebilir ve yürürlükteki gizlilik yasaları kapsamında talepleri yanıtlamak için kullanılamaz. Bu programlar altında ayrı olarak toplanan kişisel veriler [Microsoft Gizlilik Bildirimi](https://privacy.microsoft.com/privacystatement)'ne tabidir.
 
 > [!TIP]
 > Bu konuyu işaretleyin ve yayımladığımızda yeni önizleme özelliklerinden haberdar olmak için sık sık kontrol edin.
+
+## <a name="see-also"></a>Ayrıca bkz.
+
+- [Talent uygulamaları deneyin vey asatın alın](https://dynamics.microsoft.com/talent/overview/)
+- [Yenilikler](./whats-new.md)
+- [Sürüm notları](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Talent için destek alma](./talent-support.md)

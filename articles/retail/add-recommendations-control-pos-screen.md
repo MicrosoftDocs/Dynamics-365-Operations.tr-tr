@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573384"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606861"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>POS cihazlarında hareket ekranına öneriler denetimi ekleme
 
@@ -40,13 +40,13 @@ Microsoft Dynamics 365 for Retail kullanırken ürün önerilerini POS cihazın�
 ## <a name="open-layout-designer"></a>Açık Düzen tasarımcısı
 
 1. **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS** &gt; **Ekran düzenleri** öğelerini seçin.
-2. Denetimi eklemek istediğiniz ekranı bulmak için Hızlı Filtre'yi kullanın. Örneğin **Ekran düzeni kimliği** üzerinde, 'F2CP16:9M' kullanarak filtrele.
-3. Listede, istenen kaydı bulun ve seçin. Örneğin, ‘Ad: F2CP16:9M Ekran Düzeni Kimliği: F2CP16:9M’ seçin.
+2. Denetimi eklemek istediğiniz ekranı bulmak için Hızlı Filtre'yi kullanın. **Örneğin Ekran düzeni kimliği** üzerinde, **F2CP16:9M** kullanarak filtrele.
+3. Listede, istenen kaydı bulun ve seçin. Örneğin, **Ad: F2CP16:9M Ekran Düzeni Kimliği: F2CP16:9M** seçin.
 4. **Düzen tasarımcısı**'na tıklayın.
 5. Düzeni tasarımcısını başlatmak için istemleri izleyin. Kimlik bilgileri istendiğinde, Düzen tasarımcısı **Ekran düzenleri** sayfasından başlatıldığında girilenle aynı kimlik bilgilerini girin.
 6. Oturum açtığınızda, aşağıdakine benzer bir sayfa görüntülenir. Düzen, mağazanız için yapılan özelleştirmelere bağlı olarak farklı olacaktır.
 
-    [![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Düzen tasarımcısı](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Bir görüntüleme seçeneği seçin
 
@@ -59,11 +59,11 @@ Microsoft Dynamics 365 for Retail kullanırken ürün önerilerini POS cihazın�
 
 1. Hareket satırı ayrıntıları alanının yüksekliğini, solundaki müşteri paneliyle aynı boyda olacak şekilde azaltın.
 
-    [![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Hareket satırlarının yüksekliği ayrıntıları alanı azaltıldı](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Soldaki menüden, öneriler denetimini hareket satırı ayrıntıları alanı ve hareket erkanının alt ortasındaki düğme kılavuzu arasında sürükleyip bırakın. Bu alana sığacak şekilde yeniden boyutlandırın.
 
-    [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Öneriler denetimi düzene eklendi](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. Kaydedip Düzen tasarımcısından çıkmak için **X**'i tıklatın.
 4. Dynamics 365 for Retail içinde, **Retail** &gt; **Retail IT** &gt; **Dağıtım planları**.
@@ -75,13 +75,13 @@ Microsoft Dynamics 365 for Retail kullanırken ürün önerilerini POS cihazın�
 1. Sayfanın sağ tarafında bulunan düğme kılavuzundaki son sekmenin altındaki boş alana sağ tıklayın.
 2. Tıklatın  **Özelleştirme**.
 
-    [![pic-5](./media/pic-5.png)](./media/pic-5.png)
+    [![Özelleştirme - Sekme denetimi iletişim kutusu](./media/pic-5.png)](./media/pic-5.png)
 
 3. **Yeni sekme** üzerine tıklayın.
 4. Şimdi eklemiş olduğunuz yeni sekmeyi bulun. Aşağı doğru gitmeniz gerekebilir.
 5. **İçerikler** açılır listesinde, **Önerilen ürünler**'i seçin.
 
-    [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+    [![Önerilen ürünleri İçerik alanında seçmek](./media/pic-6.png)](./media/pic-6.png)
 
 6. **Etiket** alanı içinde, öneriler sekmesi için bir ad girin. Örneğin, 'Önerilen ürünler' yazın.
 7. **Resim** alanında, sekme üzerinde görünecek resmi seçin.

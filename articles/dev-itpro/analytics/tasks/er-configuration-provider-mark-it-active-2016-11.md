@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544921"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595407"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme
 
@@ -34,11 +34,11 @@ Aşağıdaki adımlar Sistem Yöneticisi veya Elektronik Raporlama Geliştiricis
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
 2. Yapılandırma sağlayıcılar'a tıklayın.
 3. Yeni'ye tıklayın.
-    * Sağlayıcı kaydı benzersiz bir ada ve URL'ye sahiptir. Bu sayfanın içeriğini gözden geçirin ve Litware, Inc. (http://www.litware.com) için bir kayıt zaten varsa bu yordamı atlayın.  
+    * Sağlayıcı kaydı benzersiz bir ada ve URL'ye sahiptir. Bu sayfanın içeriğini gözden geçirin ve Litware, Inc. (https://www.litware.com) için bir kayıt zaten varsa bu yordamı atlayın.  
 4. Ad alanına "Litware, Inc." yazın.
     * Litware, Inc.  
-5. İnternet adresi alanına 'http://www.litware.com' yazın.
-    * http://www.litware.com  
+5. İnternet adresi alanına 'https://www.litware.com' yazın.
+    * https://www.litware.com  
 6. Kaydet'e tıklayın.
 7. Sayfayı kapatın.
 

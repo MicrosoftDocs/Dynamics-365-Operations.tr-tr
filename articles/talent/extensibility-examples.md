@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519288"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577807"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek senaryolar
 
@@ -115,7 +115,7 @@ Aşağıdaki görevleri gerçekleştirmek için bu PowerApps uygulamasını yön
 
 Bu PowerApps uygulaması çok-çok ilişkilerin kullanır, böylece çok-çok ilişkisi olan kayıtları çıkarmanız gereken diğer senaryolar için şablon olarak kullanabilirsiniz.
 
-**Yetenek havuzlarını yönetmek için yönetici konsolu** şablonunu indirmek için Microsoft İndirme Merkezinde [Yetenek havuzlarını yönetmek için yönetici konsolu](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469)'na gidin.
+**Yetenek havuzlarını yönetmek için yönetici konsolu** şablonunu indirmek için Microsoft İndirme Merkezinde [Yetenek havuzlarını yönetmek için yönetici konsolu](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469)'na gidin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

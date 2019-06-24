@@ -3,7 +3,7 @@ title: Banka yabancı para birimi yeniden değerleme işlemi
 description: Bu konu, banka yabancı para birimi yeniden değerleme işlemine bir genel bakış sağlar. Kurulum, işlemi yürütme, işlem için hesaplama ve değerleme hareketlerinin tersine çevrilmesi hakkında bilgi içerir.
 author: mikefalkner
 manager: AnnBe
-ms.date: 04/16/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: 353153a3a5cbcb27749f21582fcf83ac4f3a8f36
+ms.sourcegitcommit: 56ec43e459ba93f495bc76fed23d6737218ef37e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538644"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "1591772"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Banka yabancı para birimi yeniden değerleme işlemi
 
 [!include [banner](../includes/banner.md)]
-[!include [preview-banner](../includes/preview-banner.md)]
+
 
 Bu konu, banka yabancı para birimi yeniden değerleme işlemine bir genel bakış sağlar. İşlemi ayarlamayı ve yürütmeyi açıklar ve işlem için hesaplama hakkında bilgi sağlar. Tersine yeniden değerlendirme hareketlerini de açıklar, eğer tersine çevirme gerekliyse.
 

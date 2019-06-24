@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571661"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595623"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>PunchOut eProcurement için harici katalog ayarlama
 
@@ -59,8 +59,10 @@ Bu bölüm önceki bölümdeki görev 4 hakkında daha fazla ayrıntı içerir.
 4. Katalog için satıcıyı seçin. **Tüzel kişilikler** listesinde, satıcının ayarlandığı her tüzel kişilik için bir satır bulunur. Kullanıcıların nazı tüzel kişiliklerde ürünleri doğrudan satıcının kataloğundan talep etmelerine olanak tanımak ancak bazı tüzel kişiliklerde buna izin vermemek üzere, kataloğun kullanılabilir veya kullanılamaz olmasını istediğiniz her tüzel kişilik için **Erişimi engelle** veya **Erişime izin ver** düğmesini kullanılabilirsiniz.
 5. **Varsayılan süre sonu (Gün)** alanında, harici katalogdan alınan bir teklifin geçerli olacağı ve harici satıcıdan satınalmak için kullanılabileceği gün sayısını girin. Bir teklif oluşturulduğunda ve satıcının harici katalog sitesinden alındığında, teklif geçerli sistem tarihi itibarıyla geçerli olur bu alana girdiğiniz gün sayısı boyunca geçerli kalır.
 6. Tedarik kategorilerini harici katalogla eşleştirmek için **Ekle** düğmesini tıklayın. Ardından Kategori adı listesinden bir kategori seçin. Kategori listesi, satıcının satıcı için ayarlanan tüm tüzel kişiliklerde eşlendiği bir tedarik kategorileri üst kümesidir.
-[!NOTE]
-Tedarik ilkeleri, satın alan bir tüzel kişilik veya alan işletme birimi için kategorilere erişim izni vermek veya erişimi engellemek için kullanılır. Harici bir kataloğa çıkış, erişime katalogla eşlenen en az bir tedarik kategorisi için izin verilmiş olmasını gerektirir.
+
+    > [!NOTE]
+    > Tedarik ilkeleri, satın alan bir tüzel kişilik veya alan işletme birimi için kategorilere erişim izni vermek veya erişimi engellemek için kullanılır. Harici bir kataloğa çıkış, erişime katalogla eşlenen en az bir tedarik kategorisi için izin verilmiş olmasını gerektirir.
+
 7. Satıcıya gönderilecek cXML kurulum talebi iletisini ayarlayın. Otomatik olarak oluşturulan ileti biçimi, bir oturumu başlatmak için gerekli olan minimum şablondur. Etiketler için değerleri girin.
 
 İstediğiniz zaman, sistem tarafından oluşturulan ileti şablonunu **İleti biçimi geri yükle**  üzerine tıklayarak yeniden yükleyebilirsiniz.
@@ -85,7 +87,7 @@ Aşağıda şablonda bulunan etiketlerin açıklamasını bulabilirsiniz:
 
 İkincil öğe, çıkış yapan kullanıcının adına dayanan kullanıcı adı gibi bir ek bilgidir. İkincil öğe, çıkış yapma gerçekleştiğinde ayarlanır ve talep kurulum iletisinde gönderilebilir.
 Satıcınızın kurulum isteğinde bir ikincil öğe almak gibi bir gereksinimi olabilir. Bu durumda, **Harici katalog** sayfasının **İleti biçimi** bölümündeki ikincil öğeler listesine ikincil öğe eklemeniz gerekir. İkincil öğe için satıcının tanıyabileceği ve bir değerle eşleyebileceği için bir ad belirtin. Değerler için seçenekler şunlardır: Kullanıcı adı, Kullanıcı e-postası veya Rasgele değer.
-cXML protokolü hakkında daha fazla bilgi için bkz. http://cxml.org/.
+CXML protokolü hakkında daha fazla bilgi için bkz: [cXML.org websitesi](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Geri gönderme iletisi
 Geri gönderme iletisi, kullanıcı harici siteden çıkış yapıp Finance and Operations'a döndüğünde satıcı tarafından gönderilen iletidir. Geri gönderme iletileri yapılandırılamaz. İletiler cXML protokolü tanımını temel alır. Bir talep satırında alınan geri gönderme iletisinin parçası olabilecek bilgiler aşağıda verilmektedir:

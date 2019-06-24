@@ -227,9 +227,10 @@
             - name: X sınıfları
               href: dev-ref/x-classes.md
     - name: Genişletilebilirlik
-      href: extensibility/extensibility-home-page.md
       items:
-        - name: Giriş ve çalışmaya başlama
+        - name: Genişletilebilirlik ana sayfası
+          href: extensibility/extensibility-home-page.md
+        - name: Giriş ve kullanmaya başlama
           items:
             - name: Uygulama genişletilebilirliği planı
               href: extensibility/extensibility-roadmap.md
@@ -245,36 +246,38 @@
               href: extensibility/customization-overlayering-extensions.md
         - name: Yenilikler
           items:
-            - name: Genişletilebilirlik değişiklikleri Temmuz 2017
-              href: extensibility/changes-july-2017.md
-            - name: Sürüm 7.3'teki genişletilebilirlik değişiklikleri
-              href: extensibility/extensibility-changes-73.md
-            - name: Sürüm 8.0'daki genişletilebilirlik değişiklikleri
-              href: extensibility/changes-80.md
-            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.1
-              href: extensibility/extensibility-changes-801.md
-            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.2
-              href: extensibility/extensibility-changes-802.md
-            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.3
-              href: extensibility/extensibility-changes-803.md
-            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.4
-              href: extensibility/extensibility-changes-804.md
-            - name: Genişletilebilirlik değişiklikleri sürüm 8.1
-              href: extensibility/extensibility-changes-81.md
-            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.1
-              href: extensibility/extensibility-changes-811.md
-            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.2
-              href: extensibility/extensibility-changes-812.md
-            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.3
-              href: extensibility/extensibility-changes-813.md
-            - name: Genişletilebilirlik değişiklikleri sürüm 10.0
-              href: extensibility/extensibility-changes-10.md
-            - name: Genişletilebilirlik değişiklikleri sürüm 10.0.1
-              href: extensibility/extensibility-changes-10-1.md
-            - name: Genişletilebilirlik değişiklikleri sürüm 10.0.2
-              href: extensibility/extensibility-changes-10-2.md
+            - name: Genişletilebilirlik konusundaki yenilikler veya değişiklikler
+              href: extensibility/extensibility-new.md
             - name: Genişletilebilirlik değişiklikleri sürüm 10.0.3
               href: extensibility/extensibility-changes-10-3.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 10.0.2
+              href: extensibility/extensibility-changes-10-2.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 10.0.1
+              href: extensibility/extensibility-changes-10-1.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 10.0
+              href: extensibility/extensibility-changes-10.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.3
+              href: extensibility/extensibility-changes-813.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.2
+              href: extensibility/extensibility-changes-812.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1
+              href: extensibility/extensibility-changes-81.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.3
+              href: extensibility/extensibility-changes-803.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: Sürüm 8.0'daki genişletilebilirlik değişiklikleri
+              href: extensibility/changes-80.md
+            - name: Sürüm 7.3'teki genişletilebilirlik değişiklikleri
+              href: extensibility/extensibility-changes-73.md
+            - name: Genişletilebilirlik değişiklikleri Temmuz 2017
+              href: extensibility/changes-july-2017.md
         - name: Temel bilgiler
           items:
             - name: Kullanışsız özelleştirmeler
@@ -361,8 +364,14 @@
       items:
         - name: Trace Parser kullanarak izlemeler yapma
           href: perf-test/trace-trace-tutorial.md
-        - name: Visual Studio Online ile Performans SDK ve çoklu kullanıcı testi
-          href: perf-test/perfsdk-tutorial.md
+        - name: Görev kaydedici ve Performans SDK ile tek kullanıcı testi
+          href: perf-test/single-user-test-perf-sdk.md
+        - name: Performans SDK ve yerel test denetleyicisiyle çoklu kullanıcı testi
+          href: perf-test/multi-user-testing-local-test-controller.md
+        - name: Performans SDK ve Azure DevOps ile çoklu kullanıcı testi
+          href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+        - name: Performans SDK ile tek kullanıcılı veya çok kullanıcılı test için sorun giderme kılavuzu
+          href: perf-test/troubleshoot-perf-sdk-user-testing.md
         - name: Şirket içi ortamlarda Performans SDK ve çoklu kullanıcı testi
           href: perf-test/perfsdk-tutorial-lbd.md
         - name: Trace ayrıştırıcısını kullanarak sorunları tanılama ve performansı analiz etme
@@ -922,6 +931,8 @@
           href: financial/create-exchange-rate-providers.md
         - name: Finance and Operations sürüm 8.0'da döviz kuru sağlayıcıları oluşturma
           href: financial/create-exchange-rate-8.md
+    - name: 'CustTrans::settleTransaction kullanarak hareketleri kapatma'
+      href: financial/settletransact-obsolete.md
 - name: Tedarik zinciri geliştirme
   items:
     - name: Gantt denetimi geliştirme kılavuzu
@@ -1076,7 +1087,7 @@
       items:
         - name: Kod geçişine hazırlanma
           href: migration-upgrade/prepare-migration.md
-        - name: Azure DevOps eşlemesini yapılandırma
+        - name: Azure DevOps eşlemeyi yapılandırma
           href: migration-upgrade/configure-vso-solution.md
         - name: Model bölme
           href: dev-tools/model-split.md

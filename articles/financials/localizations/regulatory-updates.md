@@ -3,7 +3,7 @@ title: Düzenleme güncelleştirmeleri
 description: Bu konu, planlanan ve yayınlanan mevzuat güncelleştirmelerini Microsoft Dynamics 365 for Finance and Operations için listeler.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
+ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530719"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593355"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -52,12 +52,23 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 |      Nisan 2019          |   10.0.1      |   Almanya     |E-faturalama - Müşteri faturaları xRechnung 1.1 biçiminde dışa aktarılır         |
 |      Nisan 2019          |   10.0.1      |    Birleşik Krallık     |[KDV beyannamesi gönderme değişiklikleri (Vergi Dijital Hale Getirme)](emea-gbr-mtd-vat-integration.md)    |    
 |      Nisan 2019          |   10.0.1      |    Brezilya     |NF-e yeni NT 2018.005         |
-|      Nisan 2019          |   10.0.1      |    Rusya     |2019'dan KDV beyannamesi biçimi değişiklikleri         |
-|      Nisan 2019          |   10.0.1      |    Rusya     |KDV beyanname biçimi değişiklikleri 2019'dan (Satış ve Satınalma kitapları) 
+|      Nisan 2019          |   10.0.1      |    Rusya     |[2019'dan KDV beyannamesi biçimi değişiklikleri](rus-VAT-declaration.md) |
+|      Nisan 2019          |   10.0.1      |    Rusya     |KDV beyanname biçimi değişiklikleri 2019'dan (Satış ve Satınalma kitapları) |
+|      Nisan 2019          |   10.0.1      |    Rusya     |Toprak vergisi beyanı 2018 tarihinde değişiyor |
+|      Nisan 2019          |   10.0.1      |    Rusya     |[Mülk vergisi beyanı 2019 tarihinde değişiyor](rus-assessed-tax-declaration.md)|
+|      Nisan 2019          |   10.0.1      |    Rusya     |Taşıt vergisi beyanı 2019 tarihinde değişiyor  |
+|      Nisan 2019            |   10.0.1      | Macaristan      |  Macaristan: Microsoft Dynamics 365 for Finance and Operations içinde çevrimiçi faturalama v.1.1 2019  |
 |      Mayıs 2019            |   10.0.2      | Brezilya      |   SPED ECD Düzen 7   |
+|      Bekleyen            |   10.0.3      | Brezilya      |   NF-e yeni NT 2018.005 - v.1.20   |
+|      Bekleyen            |   10.0.3      | Brezilya      |   SPED ECD Düzen 7   |
+|      Bekleyen            |   10.0.3      | Brezilya      |   SPED ECF- 2019 için Düzen 5   |
+|      Bekleyen            |   10.0.3      | Litvanya    |   i.SAF raporu kullanıcıların, yasal vergi kodlarıyla ilişkilendirmede sistem satış vergisi kodlarını tanımlamasını sağlar    |
+|      Bekleyen            |   10.0.3      | Polonya     |   SAF faturaları (JPK_FA) v.2, 1Jul2019'dan itibaren  |
+|      Bekleyen            |   10.0.3      | Brezilya   |   ICMS mali belge düzeltmeleri Tablo 5.2 etkinleştirir   |
+|      Bekleyen            |   10.0.3      | Brezilya    |   NF-e Decree 54.308/18 (RS)   |
 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-- Planlanan ve yayınlanan tüm mevzuat güncelleştirmelerini [Lifecycle Service - Konu arama](https://lcs.dynamics.com/Logon/Index) üzerinde bulun.
+- Planlanan ve yayınlanan tüm mevzuat güncelleştirmelerini [Lifecycle Service - Konu arama](https://lcs.dynamics.com/Logon/Index) üzerinde bulun (oturum açma gerekli).
 - Dynamics 365 for Finance and Operations için desteklenen yerelleştirmelerin listesi için [Uluslararası kullanılabilirlik kılavuzuna](https://aka.ms/dynamics_365_international_availability_deck) göz atın.
 

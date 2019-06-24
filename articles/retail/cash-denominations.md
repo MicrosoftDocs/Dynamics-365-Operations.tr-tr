@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558585"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606768"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Satış noktası (POS) için nakit kupürlerini yapılandırma
 
@@ -34,17 +34,17 @@ Banknotlar ve bozuk paralar için arka ofiste tanımlana nakit para birimleri, k
 
 ## <a name="define-denominations"></a>Para birimlerini tanımla
 
-Para birimleri mağaza başına **Ayarlama** \> **Mağaza özelliğinden nakit ara birimi seçeneği** üzerinde ayarlanır.
+Para birimleri mağaza başına **Ayarlama** \> **Nakit bildirimi** seçeneğine mağaza varlığı üzerinde ayarlanır.
 
-![nakit para birimleri](./media/image1-denomination.png)
+![Nakit bildirimi seçeneği](./media/image1-denomination.png)
 
 Bir para birimini tanımlamak için:
 
-1. **Yeni**'yi tıklatın.
+1. **Yeni**'ye tıklayın.
 1. Türü belirtin (bozuk para veya banknot).
 1. Tutarı (değeri) belirtin.
 
-![nakit para birimleri](./media/image2-denomination.png)
+![Nakit bildirimi kupürleri sayfası](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>İşlev profilini yapılandırın
 

@@ -3,7 +3,7 @@ title: Finance and Operations videoları
 description: Bu sayfa Dynamics 365 for Finance and Operations için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşmalar videolarını listeler.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2018
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
+ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561680"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1591560"
 ---
 # <a name="videos-for-finance-and-operations"></a>Finance and Operations için videolar
 
@@ -50,7 +50,7 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 - [İyileştirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Geliştirme dalı ve yapısı ayarlama](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [Geliştirme makinesi ayarlama](https://www.youtube.com/watch?v=cqp9MetfiyM)
-- [Azure DevOps Lifecycle Services ile tümleştirme](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
+- [Azure DevOps Lifecycle Services tümleştirmesi](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
 
 #### <a name="explore-the-user-interface"></a>Kullanıcı arabirimini keşfetme
 
@@ -63,6 +63,7 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 - [Maliyet kontrolü mobil çalışma alanı](https://youtu.be/imsuTg8rUVk)
 - [Maliyet muhasebesine giriş](https://youtu.be/1pUDtJQZ8FU)
 - [Maliyet analizi için Excel'i kullanma](https://youtu.be/-HKHYdClvx8)
+- [Gider deneyimi](https://youtu.be/Ocy-MsTvEE0)
 
 #### <a name="intelligence"></a>Zeka
 

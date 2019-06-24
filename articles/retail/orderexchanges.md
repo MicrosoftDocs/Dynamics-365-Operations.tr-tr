@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a0a6a060a1b4a4d5a80c797f61b212a828d2f04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517191"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561399"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Bir iade emrinde bir değişiklik yapılandırma ve işleme
 
@@ -37,7 +37,7 @@ Ancak, değişikliklerin iade emirlerinde yapıldığı senaryoları desteklemek
 
 Sistemi, iade emirlerinde değişiklikleri destekleyecek şekilde yapılandırmak için bu adımları izleyin.
 
-1. **Retail \> Headquarters ayarı \> Parametreler \> Retail parametreleri**'ne gidin. **Müşteri siparişleri** hızlı sekmesinde, **İade emirlerine satış siparişleri olarak işlem yap** seçeneğini **Evet** olarak ayarlayın.
+1. **Retail \> Headquarters ayarı \> Parametreler \> Perakende parametreleri**'ne gidin. **Müşteri siparişleri** hızlı sekmesinde, **İade emirlerine satış siparişleri olarak işlem yap** seçeneğini **Evet** olarak ayarlayın.
 2. **Genel yapılandırma dağıtım planı** işini (**1110**) çalıştırın.
 
 ## <a name="make-an-exchange"></a>Değişiklik yapma

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9e8c16724364df4dd62150056299e818470aa63
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cd500c2880545ccae3cde7e2ead2fc5b83167d32
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553703"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595374"
 ---
 # <a name="trial-balance-financial-reports"></a>Mizan mali raporları
 
@@ -106,7 +106,7 @@ Her bir mizan raporunu farklı bir sütun tanımı kullanır. Bu sütun tanımla
 
 [Mali raporları görüntüleme](view-financial-reports.md)
 
-[Dynamics Mali Raporlama Blogu](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics Mali Raporlama Blogu](https://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

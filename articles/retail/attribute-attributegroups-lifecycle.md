@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552729"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606907"
 ---
 # <a name="attributes-and-attribute-groups"></a>Öznitelikler ve öznitelik grupları
 
@@ -176,8 +176,8 @@ Perakende ürün hiyerarşisinde kategorilere öznitelik grupları atamak için 
 > [!NOTE]
 > Bu yordam Kanal gezinti kategori hiyerarşisi ve Ek ürün kategori hiyerarşisinde kategorilere öznitelik grupları atamak için de kullanılabilir. Adım 2'de, aşağıdaki gezinti yollarını kullanın:
 >
-> - **Perakende** &gt; **Kategori ve ürün yönetimi** &gt; **Kanal gezinti kategorileri**
-> - **Perakende** &gt; **Kategori ve ürün yönetimi** &gt; **Ek ürün kategorileri**.
+> - Retail &gt; Kategori ve ürün yönetimi &gt; Kanal gezinti kategorileri
+> - Retail &gt; Kategori ve ürün yönetimi &gt; Ek ürün kategorileri.
 
 ### <a name="assign-attribute-groups-to-retail-stores"></a>Öznitelik gruplarını perakende mağazalarına atama
 

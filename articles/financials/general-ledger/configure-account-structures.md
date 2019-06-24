@@ -3,7 +3,7 @@ title: Hesap yapıları yapılandır
 description: Bu konu, hesap yapıları ve mali boyutlar hakkında bilgi sağlamaktadır.
 author: aprilolson
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5fbd4b34d09b4ba8e1d34234c8e32268bba18778
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552040"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617308"
 ---
 # <a name="configure-account-structures"></a>Hesap yapıları yapılandır
 
@@ -70,6 +70,16 @@ Bu basitleştirilmiş örnekte tüm değerlere ve boş bırakmaya izin verildiğ
 
 [![İzin verilen değerler](./media/account.png)](./media/account.png) 
 
+İzin verilen değerler, hesap yapısı kurulumuna göre seçilecek başka olası değerler olmadığında varsayılan olarak bir günlük veya muhasebe dağıtım girişi sayfasında olacaktır.
+
+Aşağıda, **Kar ve zarar hesap yapısına**bir örnek verilmiştir.
+
+|Ana hesap          | İş birimi    |Departman          | Maliyet merkezi    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | 002 | 022 | 014 |
+
+Bir günlük girerken ve kar ve zarar aralığında bir hesap seçtiğinizde, departman '002' seçilmesi, hesap denetiminde 022 ve 014 değerlerinin varsayılan değer olarak görüntülenmesine neden olur. Bu davranış, muhasebe dağıtım sayfası ile de gerçekleştirilir. 
+
 ## <a name="more-than-7-criteria-needed"></a>7'den fazla ölçüt gerekli
 
 7'den fazla ölçüte gereksiniminiz varsa, sonraki satırda ölçüt eklemeye devam edebilirsiniz. **İzin verilen değer ayrıntıları** bölümünde çalışırken, yedinci ölçütü girdikten sonra **+Yeni ölçütler ekle** işlevinin artık etkin olmadığı dikkatinizi çekecektir. Bu birçok etkene bağlıdır. Örneğin: 
@@ -79,8 +89,6 @@ Bu basitleştirilmiş örnekte tüm değerlere ve boş bırakmaya izin verildiğ
  - Kullanılabilirlik  
  
 Ölçüt eklemeye devam etmek için **Segmentte çoğalt** ve **İzin verilen değerler bölümüne** tıklayın. Bu, ölçütleri yeni bir satıra kopyalar. Daha sonra **İzin verilen değer ayrıntıları** bölümünde yazabilir veya değişiklik yapabilirsiniz.
-
-(LINK TO VIDEO THAT WILL BE CREATED)
 
 ## <a name="best-practices"></a>Önerilen yöntemler
 Hesap yapılarınızı ayarlarken takip edebileceğiniz bazı iyi uygulama örnekleri vardır. Ancak, iş bu yalnızca bir kılavuz niteliği taşımakta olup, işletmeniz, büyüme planınız ve bakım planınız hakkındaki bütünsel bir tartışma, o tartışmanın bir parçası olarak değerlendirilmelidir.

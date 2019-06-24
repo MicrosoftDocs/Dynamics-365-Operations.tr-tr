@@ -3,7 +3,7 @@ title: Mali Bilgiler
 description: Mali Bilgiler mali anahtar performans göstergeleri (KPI'lar), mali tablolar ve grafikleri bir araya getirmek için Microsoft Power BI kullanır.
 author: kweekley
 manager: AnnBe
-ms.date: 08/14/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9edcb192d2fac5acb954d8b87be691f0943e0db7
+ms.sourcegitcommit: 23ab3c99d05869ea2c73514754608e8684697d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554104"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595088"
 ---
 # <a name="financial-insights"></a>Mali Bilgiler
 
@@ -67,10 +67,9 @@ Mali tablolarda görünmesi ve KPI'lar gibi çeşitli diğer görsellere dahil e
 
 **Mali Bilgiler** ve **CFO'ya genel bakış** çalışma alanlarında verileri görmek için aşağıdaki varlıkları güncelleştirmeniz gerekir:
 
+- Mali raporlama hareket verileri sürüm 2 (**Not:** bu sürüm 10.0.1 ile yenidir ve önceki varlığın yerini alır.)
+- Mali raporlama hareketi verisi
 - CustCollectionsBIMeasurements
-- FinancialReportingOtherData
-- FinancialReportingReferenceData
-- FinancialReportingTransactionData
 - LedgerCovLiquidityMeasurement
 - Satınalma küpü
 - Satış küpü

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519357"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617355"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Dynamics 365 for Talent ile Dynamics 365 for Finance and Operations tümleştirmesi SSS
 
@@ -46,7 +46,7 @@ Mali boyutlar şu anda Common Data Service içinde mevcut değildir ve bunu sonu
 
 Finance and Operations içinde bulunan ancak Talent içinde bulunmayan veri için iki sistemi birbirine Talent için **Bağlantıları yapılandır**'ı kullanarak bağlayın. Talent ve Finance and Operations arasındaki bağlantıları yapılandırma hakkında daha fazla bilgi için bkz [yeni veya değiştirilmiş olarak ne olduğunu Dynamics 365 for Talent Core HR (31 Ekim 2018)](whats-new-talent-october-31.md).
 
-![](media/MapFinancialDimensions.png)
+![Mali boyutları eşle](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Bazı durumlarda çalışanlar aldığımda, Finance and Operations içinde devre dışı çalışanlar haline gelirler. Neden?
 
@@ -60,14 +60,14 @@ Veri eşitleme yürütme planını izler. Tümleştirme, alanın tümleştirme e
 
 "Gelişmiş sorgu" kullanarak, kaynak verisini hedefe aktarmadan önce filtreleyebilir ve şekillendirebilirsiniz.
 
-![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Etkin çalışan gelişmiş sorgusu](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Belirli bir varlık için hangi alanların Finance and Operations'a gönderileceğini belirtebilir miyim?
 
 Alanlar tümleştirme görevinden eklenebilir veya çıkartılabilir. Common Data Service varlığı içinde mevcut olan tüm veri alanları Core HR'dan doldurulmayacaktır.
 Ek veriler PowerApps ile doldurulabilir.
 
-![](media/SpecifyFieldsIncludedInIntegration.png)
+![Bir tümleştirme görevinden alanları ekleyin veya çıkartın](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Tümleştirmeyi bir toplu iş olarak ayarlıyorum, ancak hedef sisteme Talent bağlantıyı kaybetti. Aynı değişiklik kümesini hedef sisteme nasıl gönderebilirim?
 
