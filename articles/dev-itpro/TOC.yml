@@ -997,6 +997,8 @@
               href: deployment/deploy-retail-onprem.md
         - name: Özel modeller geliştirme ve şirket içi ortamlara dağıtma
           href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: Şirket içi ortamlarla PowerBI.com tümleştirmesi
+          href: analytics/entity-store-on-prem.md
         - name: Şirket içi ortamlar için ters proxy'ler yapılandırma
           href: deployment/onprem-reverseproxy.md
         - name: Şirket içi dağıtıma güncelleştirmeler uygulama
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: Şirket içi dağıtımlardaki sorunları giderme
           href: deployment/troubleshoot-on-prem.md
+        - name: Sertifika rotasyonu
+          href: deployment/certificate-rotation-on-prem.md
     - name: Özel kod dağıtma
       items:
         - name: Dağıtılabilir model paketleri oluşturma
