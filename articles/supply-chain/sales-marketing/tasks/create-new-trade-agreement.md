@@ -3,7 +3,7 @@ title: Yeni bir ticari sözleşme oluşturma
 description: Bu yordam belirli bir müşteri ile üzerinde anlaştığınız yeni bir ürün satış fiyatını kaydetmek için bir ticari sözleşmenin nasıl oluşturulacağını gösterir.
 author: omulvad
 manager: AnnBe
-ms.date: 11/16/2018
+ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e132cd20437b7929e81fcaa123d70bb57fb320c8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e42383b237a60d41d3b4e09ffbbe1c1bb5ebbfd7
+ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549279"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711213"
 ---
 # <a name="create-a-new-trade-agreement"></a>Yeni bir ticari sözleşme oluşturma
 
@@ -30,40 +30,43 @@ Bu yordam belirli bir müşteri ile üzerinde anlaştığınız yeni bir ürün 
 
 
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Yeni bir ticari sözleşme günlüğü oluşturun ve deftere nakledin.
-1. Sales and marketing > Prices and discounts > Trade agreement journals (Satış ve pazarlama > Fiyatlar ve iskontolar > Ticari anlaşma günlükleri) menüsüne gidin.
-2. Yeni'ye tıklayın.
-3. Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.
+1. **Gezinti bölmesi > Modüller > Satış ve pazarlama > Fiyatlar ve indirimler > Ticari sözleşme günlükleri**'ne gidin.
+2. **Yeni**'ye tıklayın.
+3. **Ad** alanında, açılır menü düğmesine tıklayarak aramayı açın.
 4. Listede, istenen kaydı bulun ve seçin.
-5. Listede, seçili satırdaki bağlantıya tıklayın.
-6. Satırlar seçeneğine tıklayın.
-7. Hesap kodu alanında 'Tablo'yu seçin.
-    * Bu örnekte, belirli bir müşteri için fiyat güncelleştirmesi yapıyorsunuz bu yüzden de Tablo seçmeniz lazım. Ürünün liste fiyatını güncelleştiriyor olsaydınız, yeni fiyatın tüm müşteriler için geçerli olmasını sağlamak için, Tümü seçeneğini seçecektiniz. Müşteri segmentleri arasında fiyat farklılaştırması yapacak olsaydınız, Grup seçeneğini seçmeniz gerekirdi. Grup'u seçmek için müşteri fiyat grupları ayarlamış olmanız gerekir.  
-8. Hesap seçimi alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-9. Listede, istenen kaydı bulun ve seçin.
-10. Madde kodu alanında 'Tablo'yu seçin.
-    * "Fiyat (satışlar)" türünde bir ticari anlaşmaya girecek olduğunuzda, madde kodu alanında sadece Tablo'yu seçmelisiniz. Bunun sebebi bir fiyatın mutlak değerde olmasıdır ve tüm ürünler veya ürün grupları için aynı olamayışıdır.  
-11. Madde ilişkisi alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-12. Listede, sözleşmeye dahil etmek istediğiniz ürünü seçin.
-    * Hangi ürünü seçtiğinizi not alın.  
-13. Listede, seçili satırdaki bağlantıya tıklayın.
-14. Başlangıç alanında bir minimum miktar girin.
-    * Eğer müşterinin yeni bir fiyata hak kazanmadan önce sipariş etmesi gereken minimum bir miktar varsa, bu miktarı burada belirtin.  
-    * Anlaşması fiyatının daha fazlasında geçerli olmayacağı bir maksimum miktar belirtmek için Bitiş alanına bir değer girin. Fiyatlar ve indirimleri temel alan birden fazla miktar kırılması sunacaksanız, her miktari aralığını bir çift minimum ve maksimum miktar olarak 'Başlangıç' ve 'Bitiş' alanları ile belirtin.  
-15. Para birimi miktarı alanına bir fiyat girin.
-16. Başlangıç tarihi alanına bu sözleşmenin geçerliliğin başlayacağı tarihi girin.
-17. Kaydet'e tıklayın.
-18. Doğrula'ya tıklayın.
-19. Seçilen satırları doğrula'ya tıklayın.
-20. Tamam'a tıklayın.
-21. Deftere Naklet öğesine tıklayın.
-22. Tamam'a tıklayın.
+5. **Eylem bölmesi**'nde, **Satırlar**'a tıklayın.
+6. **Hesap kodu** alanında "Tablo" seçeneğini seçin.
+    
+    Bu örnekte, belirli bir müşteri için fiyat güncelleştirmesi yapıyorsunuz bu yüzden de Tablo seçmeniz lazım. Ürünün liste fiyatını güncelleştiriyor olsaydınız yeni fiyatın tüm müşteriler için geçerli olmasını sağlamak için "Tümü" seçeneğini seçecektiniz. Müşteri segmentleri arasında fiyat farklılaştırması yapacak olsaydınız, Grup seçeneğini seçmeniz gerekirdi. Grup'u seçmek için müşteri fiyat grupları ayarlamış olmanız gerekir.  
+
+7. **Hesap seçimi** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+8. Listede, istenen kaydı bulun ve seçin.
+9. **Madde kodu** alanında "Tablo" seçeneğini seçin.
+    
+    "Fiyat (satışlar)" türünde bir ticari anlaşmaya girecek olduğunuzda, **Item code** alanında sadece "Tablo" seçeneğini seçmelisiniz. Bunun sebebi bir fiyatın mutlak değerde olmasıdır ve tüm ürünler veya ürün grupları için aynı olamayışıdır.
+    
+10. **Madde ilişkisi** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+11. Listede, sözleşmeye dahil etmek istediğiniz ürünü seçin. Hangi ürünü seçtiğinizi not alın.  
+12. **Başlangıç** alanında bir minimum miktar girin.
+    - Müşterinin yeni fiyata hak kazanmadan önce sipariş etmesi gereken minimum bir miktar varsa, bu miktarı burada belirtmeniz gerekir.  
+    - Anlaşması fiyatının daha fazlasında geçerli olmayacağı bir maksimum miktar belirtmek için **Bitiş** alanına bir değer girin. Fiyatlar ve indirimleri temel alan birden fazla miktar kırılması sunacaksanız her miktar aralığını bir çift minimum ve maksimum miktar olarak **Başlangıç** ve **Bitiş** alanları ile belirtin.
+13. **Para birimi cinsinden tutar alanına** bir fiyat girin.
+14. **Ayrıntılar** bölümünün altındaki **Başlangıç tarihi** alanına bu anlaşmanın geçerliliğinin başlayacağı tarihi girin.
+15. **Kaydet**'e tıklayın.
+16. **Doğrula**'ya tıklayın.
+17. **Seçilen satırları doğrula**'ya tıklayın.
+18. **Tamam**'a tıklayın.
+19. **Naklet**'e tıklayın.
+20. **Tamam**'a tıklayın.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Bir ürün için ticari sözleşmeleri görüntüleyin
-1. Product information management > Products > Released products (Ürün bilgi yönetimi > Ürünler > Piyasaya sürülmüş ürünler) menüsüne gidin.
+1. **Gezinti bölmesi > Modüller > Ürün bilgileri yönetimi > Ürünler > Serbest bırakılan ürünler**'e gidin.
 2. Listede, fiyatını az önce güncelleştirdiğiniz ürünü bulun ve seçin.
-3. Eylem Bölmesinde, Satış'a tıklayın.
-4. Ticari sözleşmeleri görüntüle'ye tıklayın.
-    * Yeni oluşturduğunuz fiyat ticari sözleşmesinin ayrıntılarını gözden geçirin.    
+3. **Eylem bölmesi**'nde, **Satış**'a tıklayın.
+4. **Ticaret anlaşmalarını görüntüle**'ye tıklayın.
+    
+    Yeni oluşturduğunuz fiyat ticari sözleşmesinin ayrıntılarını gözden geçirin.    
+
 5. Sayfayı kapatın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar

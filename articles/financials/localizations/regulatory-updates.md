@@ -3,7 +3,7 @@ title: Düzenleme güncelleştirmeleri
 description: Bu konu, planlanan ve yayınlanan mevzuat güncelleştirmelerini Microsoft Dynamics 365 for Finance and Operations için listeler.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/16/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
-ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
+ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593355"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624323"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -66,6 +66,13 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 |      Bekleyen            |   10.0.3      | Polonya     |   SAF faturaları (JPK_FA) v.2, 1Jul2019'dan itibaren  |
 |      Bekleyen            |   10.0.3      | Brezilya   |   ICMS mali belge düzeltmeleri Tablo 5.2 etkinleştirir   |
 |      Bekleyen            |   10.0.3      | Brezilya    |   NF-e Decree 54.308/18 (RS)   |
+  | Bekleyen            |   10.0.4      | Brezilya    |   Gelen mali belge modeli 66   |
+   | Bekleyen            |   10.0.4      | Brezilya    |   NF-e ve NFC-e - Çözüm 13/2019 ve Ordinance SUCIEF 55/2019- RJ - NF-e içindeki muaf etiketler çıktısı için yeni koşullar.   |
+   | Bekleyen            |   10.0.4      | Hindistan   |   GST Vergi Faturası'nda "Tedarik yeri" ve "Eyalet" gösterimi  |
+   | Bekleyen            |   10.0.4      | Meksika   |  DIOT üçüncü taraf bildirimi - düzendeki değişiklikler 2019   |
+   | Bekleyen            |   10.0.4      | Brezilya    |   NF-e ICMS-ST - SP durumu için CAT 42/18 kuralı - CAT 42/18
+   | Bekleyen            |   10.0.4      | Brezilya    |   NF-e Kararı 54.308/18 - RS NF   |
+   
 
 
 ## <a name="additional-resources"></a>Ek kaynaklar

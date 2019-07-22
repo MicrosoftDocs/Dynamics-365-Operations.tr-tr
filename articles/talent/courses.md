@@ -3,7 +3,7 @@ title: Eğitim kursları ayarlama
 description: İnsan Kaynakları yöneticileri ve yöneticileri, kursları özelliğini kullanarak işçilere sunulan eğitim hakkındaki bilgileri tutabilirler.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 83f88d17c744bb53dad975b77d169a09375d20d1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 26e76d68c6d5c8bd965e65e65d57f239fb8a2918
+ms.sourcegitcommit: 87e8b811680b1f87a973ce1680f07d657fa23046
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519265"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701402"
 ---
 # <a name="set-up-training-courses"></a>Eğitim kursları ayarlama
 
@@ -128,12 +128,12 @@ Aşağıdaki tabloda olası kurs durumları ve kursun belirli bir durumu varsa t
 </table>
 
 ## <a name="course-participants"></a>Kurs katılımcıları
-Kurs katılımcıları, bir eğitim kursuna veya etkinliğe katılım gösteren çalışanlar, başvuranlar veya ilgili kişilerdir. Yalnızca açık kurslara katılımcıları kayıt yaptırabilirsiniz. Bir kursa kaydedebileceğiniz en az ve en çok katılımcı sayısı, **Kurslar** sayfasının **Genel** hızlı sekmesinde tanımlanır.
+Kurs katılımcıları, bir eğitim kursuna veya etkinliğine katılım gösteren çalışanlardır. Yalnızca açık kurslara katılımcıları kayıt yaptırabilirsiniz. Bir kursa kaydedebileceğiniz en az ve en çok katılımcı sayısı, **Kurslar** sayfasının **Genel** hızlı sekmesinde tanımlanır.
 
 <a name="workflow"></a>İş Akışı
 --------
 
-**Personel self servis** sayfası üzerinden bir kursa kayıt olan personeller, kayıtlarını onay için çalışma akışından yönlendirebilirler.  Bir iş akışı, **Kurslar** sayfasında **Genel** hızlı sekmesinde bir kursa atanabilir.
+**Personel self servis** sayfası üzerinden bir kursa kayıt olan personeller, kayıtlarını onay için çalışma akışından yönlendirebilirler. Bir kursu bir iş akışına, **Kurslar** sayfasında **Genel** hızlı sekmesinden atayabilirsiniz.
 
 
 

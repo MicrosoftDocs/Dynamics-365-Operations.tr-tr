@@ -3,7 +3,7 @@ title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konu Microsoft Dynamics 365 for Finance and Operations nasıl özelleştirilebileceğinizi açıklar.
 author: jasongre
 manager: AnnBe
-ms.date: 05/17/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
-ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
+ms.openlocfilehash: 51c4cbbba36ed4c93fbbba907031023060d51495
+ms.sourcegitcommit: 0273905ceb371ba17d3a37d690e1f568aa968b4f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620026"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625023"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -169,6 +169,6 @@ Yönetici ayrıcalıklarına sahip kullanıcılar, bu kişi **Kişiselleştirme*
 
 Bir sayfadaki stok boyutlarının ayarlamasını kişiselleştirirseniz, **Görüntü boyutları** seçeneği kullanılarak oluşturulan ayarları dikkate alın. Örneğin, Toplu iş numarası stok boyutu için bir sütunu gizlemek amacıyla kişiselleştirme kullanıyorsunuz ancak sayfa bir daha açıldığında sütun görünüyor. Bu davranış, gösterilen stok boyutu sütunlarını **Boyutların görünümü** ayarlarının kontrol etmesinden kaynaklanır.
 
-**Boyutların görünümü** ayarları tüm sayfalar için geçerlidir ve stok boyutu alanlarının ayrı sayfalardaki kişiselleştirme ayarlarını geçersiz kılar.
+**Boyutların görünümü** ayarları tüm sayfalar için geçerlidir ve stok boyutu alanlarının her sayfadaki kişiselleştirme ayarlarını geçersiz kılar.
 
-Bunun sonucunda, önceki örnekteki Toplu iş numarası stok boyutu için sütunun istemiyorsanız, o boyutu, tablonun **Boyutların görünümü** seçeneğinin bir parçası olarak temizlemeniz gerekir. Sonuç olarak, bu değişiklik yalnızca belirli bir sayfaya değil, tüm sayfalara uygulanır.
+Bunun sonucunda, önceki örnekteki Toplu iş numarası stok boyutu için sütunun bir sayfada istemiyorsanız o boyutu, tablonun **Boyutların görünümü** seçeneğinin bir parçası olarak sayfadan temizlemeniz gerekir.

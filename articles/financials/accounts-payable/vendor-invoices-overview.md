@@ -3,7 +3,7 @@ title: Satıcı faturalarına genel bakış
 description: Bu konuda, satıcı faturaları hakkında genel bilgiler verilmektedir. Satıcı faturaları, alınan ürün ve hizmetler için ödeme talepleridir. Satıcı faturaları, devam eden hizmetler için bir faturayı temsil edebileceği gibi, belirli madde ve hizmetler için satınalma siparişlerine de dayanabilir.
 author: abruer
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b57c18b5b2cf690111511e4c5a92d51fc23dd68c
-ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
+ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
+ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1618285"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625091"
 ---
 # <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
 
@@ -91,13 +91,6 @@ Bir satıcı faturası kullanımdayken başka bir kullanıcı tarafından düzen
 
 **Satıcı faturalarını kurtar** sayfasına yalnızca **Kullanımdaki satıcı faturalarını kurtar** güvenlik ayrıcalığı size atanmışsa erişebilirsiniz. Ek olarak, **Satıcı faturası kurtarılmasına izin ver** parametresi, **Borç hesapları parametreleri** sayfasında açık olmalıdır.
 
-## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Satıcı faturalarının iş akışı durumu düzeltilemez durumundan taslakta sıfırlanıyor
-
-Kurtarılamayan bir hata nedeniyle durdurulan bir iş akışı örneği, iş akışı durumu **Düzeltilemez**olacaktır. Satıcı faturası iş akışının durumu **Kurtarılamaz** ise, bunu **Taslak** olarak sıfırlayabilirsiniz. Daha sonra satıcı faturasını düzenleyebilirsiniz. Bu özellik, **Özellik yönetimi** sayfasında parametre açıksa, **Satıcı fatura iş akışı için taslak durumunu sıfırla** parametresinde bulunur.
-
-**Satıcı faturaları iş akışı durumunu sıfırla** sayfasını kullanarak iş akışı durumunu **Taslak** olarak sıfırlayabilirsiniz. Bu sayfayı **Periyodik görev** sayfasından açabilirsiniz. Sayfa, geçerli tüzel varlıkta **Kurtarılamaz** iş akışı durumuna sahip tüm satıcı faturalarını gösterir. Ayrıca, her faturayı iş akışına ve fatura tanımlayıcısına gönderen kullanıcıyı gösterir ve iş akışı geçmişine bir bağlantı sağlar. İş akışı durumunu **Taslak** durumuna sıfırlamak için bir veya birden fazla faturayı işaretleyin ve **Taslak olarak güncelleştir**'i seçin. İş akışı durumu **Taslak** olarak sıfırlandıktan sonra, **Satıcı faturası** sayfasında düzenlenmeye açık hale gelir.
-
-**Satıcı faturalarının iş akışı durumunu sıfırla** sayfasına, yalnızca **Satıcı faturaları iş akışı için durumu yönet** güvenlik görevi ve **Satıcı faturaları iş akışı için durumu sıfırla** ayrıcalığı size atanmışsa erişebilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -3,7 +3,7 @@ title: Beceri havuzlarını kullanarak aday kaynağı bulma
 description: Bu konu Attract'ta beceri havuzları oluşturma ve ayarlamayı açıklar.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/02/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
+ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519271"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "1711306"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Beceri havuzlarını kullanarak aday kaynağı bulma
 
@@ -110,15 +110,16 @@ Tüm kullanıcılarda, aday profillerinin aynı görünümü vardır. **Profil**
 
 - Adayın iletişim ayrıntılarını görebilirsiniz. Ayrıca gereksinim duyduğunuz kadar **Ayrıntıları Düzenle** düğmesini kullanarak bilgileri düzenleyebilri ve güncelleyebilirsiniz.
 
-- Adayın yeteneklerini tanımlamak için daha fazla yetenekler etiketi ekleyebilirsiniz.
-
 - Adayın tüm başvuru geçmişini görebilirsiniz. Adayın kuruluşunuzda başvurduğu tüm işleri ve bu başvuruların durumunu görebilirsiniz. İşe alma ekibinin bir parçasıysanz başvuruya ayrıntılı şekilde bakmak için **Görüntüle**'yi seçin.
 
-- **Belgeler** sekmesi, adayın kendi profilinden ya da iş başvuruları sırasında eklediği tüm belgeleri gösterir. Bu sekme adayın özgeçmiş, kapak mektupların, portföy çalışması vb. yönetmek için kullanılabilir. Belge eklemek için bu sekmeyi de kullanabilirsiniz.
+- **Belgeler** sekmesi, adayın kendi profilinden ya da iş başvuruları sırasında eklediği tüm belgeleri gösterir. Bu sekmeyi adayın özgeçmiş, kapak mektupların, portföy çalışması vb. yönetmek için kullanabilirsiniz. Belge eklemek için bu sekmeyi de kullanabilirsiniz.
 
     Bir belgeyi görüntülemek için belgeler listesinde belge adını seçin. Microsoft Word belgelerini uygulama içinde Microsoft Office 365 kullanarak görüntüleyebilirsiniz. Yerel bilgisayarınıza belgeleri yükleyebilirsiniz; her belge için **İndir** seçeneğini kullanın.
 
 - **LinkedIn** sekmesi adayın LinkedIn bilgileri gösterir. Bu sekmeyi kullanmak için kullanıcı ayarlarından LinkedIn hesabınıza bağlanın ve kendi ortamınızda LinkedIn Recruiter bağlantısını kurun. Daha fazla bilgi için bkz [LinkedIn Recruiter'te kaynak bulma](./attract-linked-in-recruiter.md).
+
+> [!NOTE]
+> Yalnızca adaylar yeteneklerini, eğitim geçmişlerini ve iş deneyimlerini güncelleştirebilir.
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Beceri havuzundan bir işe aday ekleyin
 

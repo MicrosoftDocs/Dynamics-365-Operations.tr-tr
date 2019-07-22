@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7eff0ce166785cb777fbf58ecf08ca8915be5af
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557341"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624896"
 ---
-# <a name="project-timesheets-on-a-mobile-device"></a>Bir mobil cihazda proje zaman çizelgeleri
+# <a name="project-timesheets-on-a-mobile-device"></a>Mobil cihazda proje zaman çizelgeleri
 
 [!include [banner](../includes/banner.md)]
-
-# <a name="overview"></a>Özet
 
 **Zaman çizelgelerim (Mobil için iyileştirilmiş)** çalışanların belirli bir proje için saatlerini kaydetmek üzere bir mobil cihazda proje zaman çizelgeleri oluşturmasına ve göndermesine olanak tanır. Çalışanlar yeni bir zaman çizelgesi oluşturabilir veya hızlı, doğru zaman girişi sağlamak için mevcut bir zaman çizelgesinden veri kopyalayabilir. Temsilci olarak atandıysanız, başka bir çalışan için de bir zaman çizelgesi girebilirsiniz. Uygulama çalışanlara hızlı şekilde bulmak ve bir zaman çizelgesi seçmek üzere proje, kaynak veya onay durumuna göre filtreleme yapma olanağı sağlar. Ayrıca çalışanlara zaman çizelgesindeki proje ve faaliyet bilgilerini kaydeden sık kullanılanları kaydetme olanağı sağlar. Kaydedilen sık kullanılanlar, zaman giriş işlemini hızlandırarak gelecekteki zaman çizelgelerini oluşturmak için kullanılabilir. Mali boyut bilgisini düzenleme veya görüntüleme mobil uygulamadan desteklenmez. **Zaman çizelgelerim (Mobil için iyileştirilmiş)** öğesine mobil cihazınızdaki web tarayıcısından erişebilirsiniz.
 
@@ -35,8 +33,7 @@ ms.locfileid: "1557341"
 Bu mobil uygulama iPhone ile Dynamics 365 for Finance and Operations platform güncelleştirmesi 15 ile uyumludur.
 Android kullanıma sunulduğunda Platform Güncelleştirmesi 16 ile uyumlu hale gelecektir.
 
-<a name="create-a-project-timesheet-on-your-mobile-device"></a>Mobil cihazınızda bir proje zaman çizelgesi oluşturma
-------------------------------------------------
+## <a name="create-a-project-timesheet-on-your-mobile-device"></a>Mobil cihazınızda bir proje zaman çizelgesi oluşturma
 
 1.  **Proje yönetimi ve muhasebe** \> **Zaman çizelgeleri** \> **Zaman çizelgelerim (Mobil için iyileştirilmiş)** sayfası için Dynamics 365 URL'sini not edin.
 

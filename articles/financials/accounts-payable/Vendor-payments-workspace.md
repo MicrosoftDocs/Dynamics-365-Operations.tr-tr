@@ -3,7 +3,7 @@ title: Satıcı ödemeleri çalışma alanı
 description: Bu konu Satıcı ödemeleri çalışma alanı hakkında bilgiler sağlar. Satıcı ödemeleri çalışma alanı satıcı ödemelerinin işlenmesiyle ilgili bilgileri gösterir.
 author: abruer
 manager: AnnBe
-ms.date: 05/09/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 789acd3f403e322ec00388ca8184ccd30c3ea436
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6f5ffe65b2f9be7423f1fe420594c936e15550fb
+ms.sourcegitcommit: 6f0e5bf82a5f61bab52c3cf4c82849fae5c5d50b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509234"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702947"
 ---
 # <a name="vendor-payments-workspace"></a>Satıcı ödemeleri çalışma alanı
 
 [!include [banner](../includes/banner.md)]
 
 **Satıcı ödemeleri** çalışma alanı satıcı ödemelerinin işlenmesiyle ilgili bilgileri gösterir. Bu çalışma alanı bir **İşim** görünümü ve bir **Analiz** sayfası içerir. **İşim** görünümü özet kutucuklarını, satıcı hareketi ızgaralarını ve ilgili satıcı bilgilerini gösterir. **Analiz** sayfası, Microsoft Power BI yeteneklerini, satıcı ödemeleriyle ilgili görselleri göstermek için kullanır.
+
+## <a name="setup-needed-to-view-power-bi-content"></a>Power BI içeriğini görüntülemek için kurulum gerekiyor
+
+Verilerin **Satıcı ödemeleri** Power BI görsellerinde görüntülenmesi için aşağıdaki kurulumun tamamlanması gereklidir.
+1. **Sistem para birimi** ve **Sistem döviz kuru**'nu ayarlamak için **Sistem yönetimi > Kurulum > Sistem Paramatreleri**'ne gidin.
+2. **Muhasebe Para Birimi** ve **Döviz Kuru Türü**'nü ayarlamak için **Genel Muhasebe > Ayarlar > Muhasebe**'ye gidin 
+2. Hareket para birimleri ile muhasebe para birimi, muhasebe para birimi ve sistem para birimi arasındaki döviz kurlarını tanımlayın. Bunu yapmak için **Genel Muhasebe > Para Birimleri > Para birimi döviz kurları**'na gidin.
+3. **VendPaymentBIMeasure** toplam ölçümünü Varlık Deposu sayfası üzerinde yenilemek için **Sistem yönetimi > Ayarlar > Varlık Deposu**'na gidin 
 
 ## <a name="my-work-view"></a>İşim görünümü
 

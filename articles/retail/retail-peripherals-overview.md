@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577941"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624824"
 ---
 # <a name="retail-peripherals"></a>Perakende çevre birimleri
 
@@ -156,13 +156,13 @@ Yerel (veya donanım profilinde türü "Cihaz" olarak adlandırılır) yazıcıl
 
 ### <a name="network"></a>Ağ
 
-Ağa adreslenebilir kasa çekmeceleri, makbuz yazıcıları ve ödeme terminalleri, doğrudan Windows için Modern POS uygulaması içinde kurulan İşlemler Arası İletişim (IPC) donanım istasyonu veya diğer Modern POS istemcileri için IIS donanım istasyonu aracılığıyla bir ağ üzerinden kullanılabilir.
+Ağa adreslenebilir kasa çekmeceleri, makbuz yazıcıları ve ödeme terminalleri, doğrudan Windows için Modern POS uygulaması içinde kurulan İşlemler Arası İletişim (IPC) donanım istasyonu veya diğer Modern POS for Windows ve Modern POS for Android istemcileri için IIS donanım istasyonu aracılığıyla bir ağ üzerinden kullanılabilir.
 
 ## <a name="hardware-station-deployment-options"></a>Donanım istasyonu dağıtma seçenekleri
 
 ### <a name="ipc-built-in"></a>IPC (yerleşik)
 
-İşlemler Arası İletişim (IPC) donanım istasyonu Modern POS for Windows uygulamasına yerleşiktir. IPC donanım istasyonunu kullanmak için, Windows için Modern POS uygulamasını kullanacak bir kasaya bir donanım profili atayın. Sonra kasanın kullanılacağı mağaza için **Adanmış** türde bir donanım istasyonu oluşturun. Modern POS'u başlattığınızda, IPC donanım istasyonu etkin olacaktır ve yapılandırılmış POS çevre birimleri kullanıma hazır olacaktır. Herhangi bir nedenle geçici olarak yerel donanım gerekli değilse, **Donanım istasyonlarını yönet** işlemini kullanarak donanım istasyonu özelliklerini kapatın. Modern POS, IPC donanım istasyonunu ağ çevre birimleriyle doğrudan iletişim kurmak için de kullanabilir.
+İşlemler Arası İletişim (IPC) donanım istasyonu Modern POS for Windows ve Modern POS for Android uygulamasına yerleşiktir. IPC donanım istasyonunu kullanmak için, Windows için Modern POS uygulamasını kullanacak bir kasaya bir donanım profili atayın. Sonra kasanın kullanılacağı mağaza için **Adanmış** türde bir donanım istasyonu oluşturun. Modern POS'u başlattığınızda, IPC donanım istasyonu etkin olacaktır ve yapılandırılmış POS çevre birimleri kullanıma hazır olacaktır. Herhangi bir nedenle geçici olarak yerel donanım gerekli değilse, **Donanım istasyonlarını yönet** işlemini kullanarak donanım istasyonu özelliklerini kapatın. Modern POS, IPC donanım istasyonunu ağ çevre birimleriyle doğrudan iletişim kurmak için de kullanabilir.
 
 ### <a name="iis"></a>IIS
 
@@ -190,7 +190,11 @@ Donanım profilindeki cihazlar için ağ tanımlaması kasa çekmecelerinin, mak
 
 Ağ çevre birimleri için IP adreslerini iki yerde belirtebilirsiniz. Modern POS Windows istemcisi tek bir ağ çevre birimleri kümesi kullanıyorsa, bu cihazların IP adreslerini kasanın kendi Eylem Bölmesinde **IP yapılandırması** seçeneğini kullanarak ayarlamanız gerekir. Ağ cihazlarının POS kasaları arasında paylaştırılacak olması durumunda, kendisine atanmış ağ cihazları olan bir donanım profili doğrudan paylaşılan donanım istasyonuyla eşlenebilir. IP adreslerini atamak için, **Perakende mağazalar** sayfasında bu donanım istasyonunu seçin ve sonra **Donanım istasyonları** bölümündeki **IP yapılandırması** seçeneğini seçerek bu donanım istasyonuna atanan ağ cihazlarını belirtin. Yalnızca ağ cihazlarına sahip donanım istasyonları için, donanım istasyonunun kendisini dağıtmak zorunda değilsiniz. Bu durumda, donanım istasyonu yalnızca ağa adreslenebilir cihazları perakende mağazadaki konumlarına göre kavramsal olarak gruplamak için gereklidir.
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Bulut POS, iOS için Modern POS ve Android için Modern POS
+#### <a name="modern-pos-for-android"></a>Modern POS for Android
+
+8.1.3 Dynamics 365 for Retail sürümü itibariyle, Modern POS for Android uygulaması yerleşik bir IPC donanım istasyonunu içerir. Bu donanım İstasyonu ağ yazıcıları ve ödeme bağlayıcılarıyla iletişim kurmayı destekler. Daha fazla bilgi için [Android için Hybrid uygulaması docs makalesi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app)'ı ziyaret edin. 
+
+#### <a name="cloud-pos-and-modern-pos-for-ios"></a>İOS için Bulut ve Modern POS
 
 Fiziksel olarak bağlı olan ve ağa adreslenebilir çevre birimleri yöneten mantık donanım istasyonunda yer alır. Bu nedenle, Modern POS için Windows dışındaki tüm POS istemcileri için bir IIS donanım istasyonunun dağıtılmış ve POS'un çevre birimlerle, bu çevre birimlerin fiziksel olarak donanım istasyonuna bağlı olmasına veya ağ üzerinden adreslenmiş olmasına bakılmaksızın, iletişim kurmasını sağlamak üzere etkinleştirilmiş olması gerekir.
 
@@ -223,7 +227,7 @@ Aşağıdaki tabloda desteklenen topolojiler ve dağıtım senaryoları gösteri
 |-------------|----------------------|----------------------|
 | Windows uygulaması | Evet                  | Evet                  |
 | Bulut POS   | Hayır                   | Evet                  |
-| Android     | Hayır                   | Evet                  |
+| Android     | Evet                  | Evet                  |
 | iOS         | Hayır                   | Evet                  |
 
 ### <a name="network-peripherals"></a>Ağ çevre birimleri
@@ -234,7 +238,7 @@ Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik 
 |-------------|----------------------|----------------------|
 | Windows uygulaması | Evet                  | Evet                  |
 | Bulut POS   | Hayır                   | Evet                  |
-| Android     | Hayır                   | Evet                  |
+| Android     | Evet                  | Evet                  |
 | iOS         | Hayır                   | Evet                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Donanım istasyon türü tarafından desteklenen cihaz türleri
@@ -661,14 +665,15 @@ Aşağıdaki çevre birimler Windows için Modern POS içine yerleşik olan IPC 
 
 #### <a name="printer"></a>Yazıcı
 
-| Üretici | Model    | Arabirim | Yorumlar                |
-|--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | Özel    | Ağ üzerinden bağlı   |
-| Star         | mPOP     | OPOS      | Bluetooth ile bağlı |
-| HP           | F7M67AA  | OPOS      | Güç beslemeli USB             |
+| Üretici | Model      | Arabirim | Yorumlar                |
+|--------------|------------|-----------|-------------------------|
+| Epson        | Tm-T88IV   | OPOS      |                         |
+| Epson        | TM-T88V    | OPOS      |                         |
+| Epson        | ePOS-Yazdır | Özel    | Ağ üzerinden bağlı   |
+| Star         | TSP650II   | OPOS      |                         |
+| Star         | TSP650II   | Özel    | Ağ üzerinden bağlı   |
+| Star         | mPOP       | OPOS      | Bluetooth ile bağlı |
+| HP           | F7M67AA    | OPOS      | Güç beslemeli USB             |
 
 #### <a name="bar-code-scanner"></a>Barkod tarayıcısı
 
@@ -688,15 +693,16 @@ Aşağıdaki çevre birimler Windows için Modern POS içine yerleşik olan IPC 
 
 #### <a name="payment-terminal"></a>Ödeme terminali 
 
-| Üretici | Model | Arabirim | Yorumlar                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir                                |
-| VeriFone     | MX925 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
-| VeriFone     | MX915 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
+| Üretici | Model        | Arabirim | Yorumlar                                                                       |
+|--------------|--------------|-----------|--------------------------------------------------------------------------------|
+| Equinox      | L5300        | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir                                |
+| VeriFone     | MX925        | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
+| VeriFone     | MX915        | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
+| Verifone     | Açıklamaları gör | Adyen     | Adyen konektörü [burada](https://www.adyen.com/pos-payments/terminals)'ta listenen tüm aygıtları destekler |
 
 #### <a name="cash-drawer"></a>Kasa çekmecesi
 
-| Üretici | Model     | Arabirim | Yorumlar                |
+| İmalatçı | Model     | Arabirim | Yorumlar                |
 |--------------|-----------|-----------|-------------------------|
 | Star         | mPOP      | OPOS      | Bluetooth ile bağlı |
 | APG          | Atwood    | Özel    | Ağ üzerinden bağlı   |

@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b88ba4386dbf3513d75990acca1c07fa6f0dc9b0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519325"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729738"
 ---
 # <a name="email-templates"></a>E-posta şablonları
 [!include[banner](../includes/banner.md)]
 
-E-posta şablonu kitaplığı kullanarak, yöneticiler Microsoft Dynamics 365 for Talent: Attract aracılığıyla gönderilen tek tip bir tema ve tüm e-postaları için markalama oluşturabilir. Yöneticiler, diğer kullanıcıların yararlanacağı e-posta içerik şablonları koleksiyonu oluşturabilir. İşe alma ekibi, e-postaları etkili bir şekilde göndermek için bu şablonları iş akışında kullanabilir. Attract'taki bazı e-postalar otomatik olarak gönderilmesi yapılandırılmış ve yönetici e-posta şablonu kitaplığını kullanarak bu e-postaların içeriğini özelleştirebilir.
+E-posta şablonu kitaplığı kullanarak, yöneticiler Microsoft Dynamics 365 for Talent: Attract and Offer aracılığıyla gönderilen tek tip bir tema ve tüm e-postaları için markalama oluşturabilir. Yöneticiler, diğer kullanıcıların yararlanacağı e-posta içerik şablonları koleksiyonu oluşturabilir. İşe alma ekibi, e-postaları etkili bir şekilde göndermek için bu şablonları iş akışında kullanabilir. Bazı e-postalar otomatik olarak gönderilmesi yapılandırılmış ve yönetici e-posta şablonu kitaplığını kullanarak bu e-postaların içeriğini özelleştirebilir.
 
 > [!NOTE]
 > E-posta şablonları kullanmak için kuruluşunuzun işe alma kapsamlı eklentisinin olması gerekir.
@@ -37,7 +37,7 @@ E-posta şablonu kitaplığı kullanarak, yöneticiler Microsoft Dynamics 365 fo
 
 Tüm e-posta iletişimi için tutarlı markalama oluşturmak için yönetici, tüm e-posta şablonları için önce genel üstbilgi ve altbilgi ayarlamalıdır. Yönetici Merkezi içinde **E-posta şablonu ayarları** sekmesindeki **Üstbilgi** bölümünde, yönetici tüm e-postalar için üstbilgi veya başlık olarak kullanmak üzere görüntü yükleyebilir. Görüntü şirket logosu, antet veya diğer tanıtım resmi olabilir. Genişliğin 25 ve 800 piksel arasında olmasını, yüksekliğin 25 ve 150 piksel arasında olmasını öneririz çünkü bu boyutlar Microsoft Outlook gibi birçok e-posta istemcisi için idealdir. Görüntü JPEG, JPG, PNG veya SVG dosyası olmalıdır ve dosya boyutu 1 megabayttan (MB) az olmalıdır. Resim karşıya yüklendikten sonra üstbilginin önizlemesi oluşturulur ve gösterilir. Üstbilgi resmi kaldırılmış veya değiştirilmişse yönetici, önizlemenin üzerindeki **Kaldır** seçeneğini kullanabilir.
 
-**Altbilgi** bölümünde yönetici, iletişimler için şirketin gizlilik ilkesi ile şartlar ve koşullar bağlantılarını sağlar. Bu bağlantılar, otomatik olarak oluşturulan altbilgiye dahil edilir. Daha sonra bu altbilgi önizlemesi gösterilir.
+**Altbilgi** bölümünde yönetici, iletişimler için şirketin gizlilik ilkesi ile şartlar ve koşullar bağlantılarını sağlar. Bu bağlantılar, otomatik olarak oluşturulan altbilgiye dahil edilir. Daha sonra bu altbilgi önizlemesi gösterilir. Yönetici ayrıca e-posta altbilgilerinde tüm e-postaların bir parçası olarak gönderilecek belirli bir dili de seçebilir. Aynı dil yapılandırması aynı zamanda görüşme özeti tablosunun bir araya getirilmesi için de kullanılacaktır. 
 
 Yönetici Merkezi kapatmadan önce değişiklikleri kaydettiğinizden emin olun.
 
@@ -46,7 +46,7 @@ Yönetici Merkezi kapatmadan önce değişiklikleri kaydettiğinizden emin olun.
 
 ## <a name="email-template-library"></a>E-posta şablonu kitaplığı 
 
-Genel şablon konfigürasyonları ayarlandıktan sonra yönetici, Attract'tan gönderilen tüm e-posta şablonlarını oluşturma ve yönetmeye başlayabilir. E-posta şablonu kitaplığı yalnızca yöneticiler için kullanılabilir. Ana gezinti menüsünden kitaplığı açmak için **E-posta şablonları** sekmesini seçin. Kitaplık, planlama, değerlendirme ve iş oluşturma gibi e-postaların gönderme amacıyla Attract'taki çeşitli faaliyetlerle kategorilere ayrılmıştır. Yönetici, faaliyetle ilişkili olan tüm e-posta türlerini görüntülemek için herhangi bir kategoriyi seçebilir. Örneğin, planlama işlemi sırasında gönderilen çeşitli e-postaları ve her e-posta türü için mevcut olan şablonları görüntülemek için **Planlama**'yı seçin. Bir kategoride her alt bölüm bir tür e-postayı temsil eder.
+Genel şablon konfigürasyonları ayarlandıktan sonra yönetici, Attract and Offer'dan gönderilen tüm e-posta şablonlarını oluşturma ve yönetmeye başlayabilir. E-posta şablonu kitaplığı yalnızca yöneticiler için kullanılabilir. Ana gezinti menüsünden kitaplığı açmak için **E-posta şablonları** sekmesini seçin. Kitaplık, planlama, değerlendirme ve iş oluşturma ve teklifi gibi e-postaların gönderme amacıyla Attract'taki çeşitli faaliyetlerle kategorilere ayrılmıştır. Yönetici, faaliyetle ilişkili olan tüm e-posta türlerini görüntülemek için herhangi bir kategoriyi seçebilir. Örneğin, planlama işlemi sırasında gönderilen çeşitli e-postaları ve her e-posta türü için mevcut olan şablonları görüntülemek için **Planlama**'yı seçin. Bir kategoride her alt bölüm bir tür e-postayı temsil eder.
 
 Bazı e-posta türleri birden çok alıcı içerebilir. Örneğin, **Planlama** kategorisinde, görüşme çizelgesi özeti gerekli olduğunda gönderilen e-postalar hem adaylara hem görüşmecilere gönderilir. Her bölümün ana iki sütunu vardır: **Şablon başlığı** ve **Alıcı**. Bir bölümdeki her satır, bir e-posta türünü temsil eder. Başlangıçta, her şablon için satırda bir kilit simgesi görüntülenir. Bu simge, şablonun Attract'ta sağlanan standart şablon olduğunu ve silinemez olduğunu gösterir. Her şablon için yönetici, üç nokta düğmesini (**...**) kullanarak şablonu yineleyebilir, varsayılan şablon olarak ayarlayabilir veya silebilir. Bir şablon varsayılan şablon olarak ayarlandığında, iki davranıştan biri oluşabilir. Şablonun satırında gösterilen rozet veya rozetler davranışı belirtir:
 
