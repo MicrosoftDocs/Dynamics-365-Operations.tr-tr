@@ -3,7 +3,7 @@ title: Performans sorunlarını gidermek için ER biçimi yürütülmesini izle
 description: Bu konu, performans sorunlarını gidermek amacıyla elektronik raporlama (ER) içindeki performans izleme özelliğinin nasıl kullanılacağı hakkında bilgi sağlar.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/08/2019
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: aa71db2752889bc905c22bab1cf2fa46d7ee07c7
-ms.sourcegitcommit: 67d00b95952faf0db580d341249d4e50be59119c
+ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
+ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576558"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "1703887"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izle
 
@@ -346,3 +346,29 @@ Finance and Operations'un bu sürümlerinden birini kullanıyorsanız, oluşturu
 Yeni bir performans izleme oluşturmak için bu konuda daha önce işlenen [ER biçimini çalıştır](#run-format) bölümündeki adımları tekrar edin.
 
 Web tarayıcısının karşıdan yüklenmek üzere bir zip dosyası sunduğuna dikkat edin. Bu dosya, PerfView biçiminde performans izlemesini içerir. Daha sonra, PerfView performans analizi aracını, ER biçimi yürütmesinin ayrıntılarını analiz etmek için kullanabilirsiniz.
+
+![PerfView'da yürütülen ER formatı için izleme bilgileri](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+
+## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Veritabanı sorgularını içeren bir yürütme izlemesini gözden geçirmek için harici araçlar kullanın
+
+ER çerçevesinde yapılan geliştirmeler sayesinde, PerfView formatında oluşturulan performans izleme, şimdi ER biçimi yürütme hakkında daha ayrıntılı bilgi sunmaktadır. Microsoft Dynamics 365 for Finance and Operations 10.0.4 sürümünde (2019 Temmuz) yürütülen bu izleme, SQL sorgularının ayrıntılarını uygulama veritabanına da ekleyebilir.
+
+### <a name="configure-user-parameters"></a>Kullanıcı parametrelerini yapılandırma
+
+1. Finance and Operations içinde, **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**'a gidin.
+2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
+3. **Kullanıcı parametreleri**iletişim kutusunda, **Yürütme izleme** bölümünde aşağıdaki parametreleri ayarlayın:
+
+    - **Yürütme izleme biçimi** alanında, **PerfView XML** öğesini seçin.
+    - **Sorgu istatistiklerini** topla seçeneğini **Evet** olarak ayarlayın.
+    - **Sorguyu izle** seçeneğini **Evet** olarak ayarlayın.
+
+    ![Finance and Operations içinde kullanıcı parametreleri iletişim kutusu](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+
+### <a name="run-the-er-format"></a>ER biçimini çalıştır
+
+Yeni bir performans izleme oluşturmak için bu konuda daha önce işlenen [ER biçimini çalıştır](#run-format) bölümündeki adımları tekrar edin.
+
+Web tarayıcısının karşıdan yüklenmek üzere bir zip dosyası sunduğuna dikkat edin. Bu dosya, PerfView biçiminde performans izlemesini içerir. Daha sonra, PerfView performans analizi aracını, ER biçimi yürütmesinin ayrıntılarını analiz etmek için kullanabilirsiniz. Bu izleme şimdi, ER biçiminin yürütülmesi sırasında SQL veritabanı erişimi ayrıntılarını içermektedir.
+
+![PerfView'da yürütülen ER formatı için izleme bilgileri](./media/GER-PerfTrace2-PerfViewTrace2.PNG)

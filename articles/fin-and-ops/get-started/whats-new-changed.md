@@ -3,7 +3,7 @@ title: Yeni veya değişenler nedir
 description: Bu sayfa Microsoft Dynamics 365 for Finance and Operations'ın son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara sizi yönlendirir.
 author: josaw1
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: bc13efe11f383157338ccd6b2ae378ee1f92a698
-ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
+ms.openlocfilehash: 42c31195a0b1a785afadfefc33f5cf7e1a6fce1f
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1619204"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1632017"
 ---
 # <a name="whats-new-or-changed"></a>Yenilikler veya değişiklikler
 
@@ -63,7 +63,7 @@ Bu tablo uygulamanın ana sürümlerini listeler. Aylık bulut güncelleştirmel
 <td>10.0.3</td>
 <td>10.0.107</td>
 <td>2019 Haziran</td>
-<td><a href="whats-new-changed-10-0-3.md">Dynamics 365 for Finance and Operations sürüm 10.0.3 (Haziran 2019) içindeki önizleme özellikleri</a></td>
+<td><a href="whats-new-changed-10-0-3.md"> Dynamics 365 for Finance and Operations sürüm 10.0.3'teki yenilikler ve değişiklikler (Haziran 2019)</a></td>
 </tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.2</td>
@@ -183,7 +183,7 @@ Bu tablo uygulamanın ana sürümlerini listeler. Aylık bulut güncelleştirmel
 <td>Platform güncelleştirmesi 27</td>
 <td>7.0.5286</td>
 <td>2019 Haziran</td>
-<td><a href="whats-new-platform-update-27.md">Dynamics 365 for Finance and Operations platform güncelleştirmesi 27'teki (Haziran 2019) önizleme özellikleri</a></td>
+<td><a href="whats-new-platform-update-27.md">Dynamics 365 for Finance and Operations platform güncelleştirmesi 27'deki yenilikler ve değişiklikler (Haziran 2019)</a></td>
 </tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Platform güncelleştirmesi 26</td>

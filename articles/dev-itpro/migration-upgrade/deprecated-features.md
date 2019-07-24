@@ -3,7 +3,7 @@ title: Kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620657"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624919"
 ---
 # <a name="removed-or-deprecated-features"></a>Kaldırılan veya kullanımına son verilen özellikler
 
@@ -40,7 +40,10 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 > Finance and Operations içindeki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) altından ulaşabilirsiniz. Finance and Operations'ın her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
-## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4, Platform güncelleştirmesi 28 ile
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.4 Platform Güncelleştirmesi 28 ile, bir önizleme sürümünün parçası olarak çeşitli kullanıcılara sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Fransa: XML'de FEC Muhasebe veri dışa aktarma
 
@@ -52,17 +55,12 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kaldırıldı. İşlevin kaldırılması hedeflenen zaman aralığı Temmuz 2020'dir. |
 
-=======
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4, Platform güncelleştirmesi 28 ile
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 Platform Güncelleştirmesi 28 ile, bir önizleme sürümünün parçası olarak çeşitli kullanıcılara sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-navigation-bar"></a>Eski gezinti çubuğu
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Diğer Dynamics ve Office ürünleriyle başlık hizalaması. Daha fazla ayrıntı için, [Office başlığı ile hizalanan güncelleştirilmiş gezinti çubuğu](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Kullanımı sonlandırma/kaldırma nedeni** | Diğer Dynamics ve Office ürünleriyle başlık hizalaması. Daha fazla ayrıntı için, [Office başlığı ile hizalanan güncelleştirilmiş gezinti çubuğu](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Başka bir özellikle mi değiştirildi?**   | 24 platform güncelleştirmesinde başlayarak, arama özelliklerinin bulunduğu yeniden tasarlanmış bir gezinti çubuğu sunulmuştur. |
 | **Etkilenen ürün alanları**         | Web istemcisi |
 | **Dağıtım seçeneği**              | Tümü |
@@ -71,8 +69,6 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2, Platform güncelleştirmesi 26 ile
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.2 Platform Güncelleştirmesi 26 ile, bir önizleme sürümünün parçası olarak çeşitli kullanıcılara sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-default-action-behavior"></a>Eski varsayılan eylem davranışı
 
@@ -116,9 +112,6 @@ Proje tabanlı satış siparişlerini, proje sözleşmesi birden fazla finansman
 | **Durum**                         | Kaldırıldı: İşlevin kaldırılması hedeflenen zaman aralığı Nisan 2020'dir. |
 
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1, platform güncelleştirmesi 25 ile
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 Platform Güncelleştirmesi 25 ile, bir önizleme sürümünün parçası olarak çeşitli kullanıcılara sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Kaldırılan API'ler ve potansiyel bozucu değişiklikler
 

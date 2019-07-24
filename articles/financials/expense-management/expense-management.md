@@ -3,7 +3,7 @@ title: Gider yönetimi
 description: Bu konu, Gider yönetimi hakkında genel bilgi ve ek kaynaklara bağlantılar sağlar. Gider yönetimi içinde ödeme yöntemi bilgilerini saklayabileceğiniz, kredi kartı hareketlerini içe aktarabileceğiniz ve işiniz için masraf yaptıklarında çalışanların harcadığı para miktarını izleyebileceğiniz tümleşik bir iş akışı kullanabilirsiniz.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 06/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe1e92dbf63d2683a53684b350f77c978b14c75e
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: 7509553df57b9cba206e606b78c70732da32074d
+ms.sourcegitcommit: 169b593b0d9afb228d2cfb0f3b742e4777ec81af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538621"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "1633987"
 ---
 # <a name="expense-management"></a>Gider yönetimi
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Gider yönetimi içinde ödeme yöntemi bilgilerini saklayabileceğiniz, kredi kartı hareketlerini içe aktarabileceğiniz ve işiniz için masraf yaptıklarında çalışanların harcadığı para miktarını izleyebileceğiniz tümleşik bir iş akışı kullanabilirsiniz. Ayrıca, gider ilkelerini tanımlayabilir ve seyahat masraflarının geri ödemesini otomatikleştirebilirsiniz.
 

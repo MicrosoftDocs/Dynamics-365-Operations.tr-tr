@@ -8,6 +8,16 @@
         - name: Talent'taki yenilikler veya değişiklikler
           href: whats-new.md
           items:
+            - name: 2 Temmuz 2019
+              href: whats-new-talent-july-2-2019.md
+            - name: 25 Haziran 2019
+              href: whats-new-talent-june-25-2019.md
+            - name: 18 Haziran 2019
+              href: whats-new-talent-june-18-2019.md
+            - name: 11 Haziran 2019
+              href: whats-new-talent-june-11-2019.md
+            - name: 4 Haziran 2019
+              href: whats-new-talent-june-4-2019.md
             - name: 28 Mayıs 2019
               href: whats-new-talent-may-28-2019.md
             - name: 21 Mayıs 2019
@@ -16,26 +26,26 @@
               href: whats-new-talent-may-13-2019.md
             - name: 6 Mayıs 2019
               href: whats-new-talent-may-6-2019.md
-            - name: 30 Nisan 2019
-              href: whats-new-talent-april-30-2019.md
-            - name: 25 Nisan 2019
-              href: whats-new-talent-april-25-2019.md
-            - name: 16 Nisan 2019
-              href: whats-new-talent-april-16-2019.md
-            - name: 9 Nisan 2019
-              href: whats-new-talent-april-9-2019.md
-            - name: 2 Nisan 2019
-              href: whats-new-talent-april-2-2019.md
-            - name: 26 Mart 2019
-              href: whats-new-talent-march-26-2019.md
-            - name: 20 Mart 2019
-              href: whats-new-talent-march-20.md
-            - name: 14 Mart 2019
-              href: whats-new-talent-march-14.md
-            - name: 5 Mart 2019
-              href: whats-new-talent-march-5.md
             - name: Yenilikler arşivleri 2019
               items:
+                - name: 30 Nisan 2019
+                  href: whats-new-talent-april-30-2019.md
+                - name: 25 Nisan 2019
+                  href: whats-new-talent-april-25-2019.md
+                - name: 16 Nisan 2019
+                  href: whats-new-talent-april-16-2019.md
+                - name: 9 Nisan 2019
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2 Nisan 2019
+                  href: whats-new-talent-april-2-2019.md
+                - name: 26 Mart 2019
+                  href: whats-new-talent-march-26-2019.md
+                - name: 20 Mart 2019
+                  href: whats-new-talent-march-20.md
+                - name: 14 Mart 2019
+                  href: whats-new-talent-march-14.md
+                - name: 5 Mart 2019
+                  href: whats-new-talent-march-5.md
                 - name: 27 Şubat 2019
                   href: whats-new-talent-feb-27.md
                 - name: 14 Şubat 2019
@@ -102,16 +112,24 @@
           href: attract-comprehensive-hiring.md
         - name: Attract özellikleri ve yetenekleri
           href: attract-overview.md
+        - name: LinkedIn SSS
+          href: attract-linkedin-faq.md
+        - name: E-posta ayarlarını yapılandırma
+          href: attract-configure-email-settings.md
         - name: Attract'ta süreç şablonu oluşturma
           href: Process-templates-Attract.md
-        - name: 'Attract''ta iş oluşturma, onaylama ve yayımlama'
+        - name: İş oluşturma ve yayınlama
           href: Creating-jobs-Attract.md
-        - name: Attract'tan harici kariyer sitelerine iş yayımlama
+        - name: LinkedIn ile tümleştirmeyi ayarlama
+          href: attract-admin-linkedin.md
+        - name: Attract'tan LinkedIn'e iş yayınlama
+          href: attract-post-jobs-to-linkedin.md
+        - name: Attract'tan Broadbean'e iş yayınlama
           href: posting-jobs-external.md
         - name: Yetenek havuzlarını kullanarak aday kaynağı bulma
           href: attract-talent-pools.md
-        - name: LinkedIn Recruiter ile kaynak bulma
-          href: attract-linked-in-recruiter.md
+        - name: LinkedIn Recruiter ile aday kaynağı bulma
+          href: attract-linkedin-recruiter.md
         - name: İşe alım süreçlerindeki faaliyetler
           href: activities-attract.md
         - name: Görüşme planlama ve geribildirim
@@ -132,12 +150,28 @@
           href: Admin-Settings-Attract.md
         - name: Akıllı öneriler
           href: Intelligent-Recommendations.md
-        - name: Etkileyici bir işe alım süreci deneyimi oluşturma
-          href: create-onboarding-experience.md
         - name: Aday profilleri ve başvurular için kaynakları izleme
           href: source-tracking.md
         - name: İşe alım süreci öngörüleri için analitik raporları kullanma
           href: analytic-reports.md
+    - name: Yeni işe alınan kişileri Onboard ile karşılama
+      items:
+        - name: Onboard kullanmaya başlama
+          href: create-onboarding-experience.md
+        - name: Onboard uygulamasını edinme
+          href: onboard-get-app.md
+        - name: İşe alım süreci kılavuzu oluşturma ve gönderme
+          href: onboard-create-guide.md
+        - name: İşe alım süreci şablonu oluşturma
+          href: onboard-create-template.md
+        - name: Kılavuzları ve şablonları düzenleme
+          href: onboard-edit-guides-templates.md
+        - name: İçerik paylaşma
+          href: onboard-share-template.md
+        - name: Durumu görüntüleme
+          href: onboard-view-status.md
+        - name: İşe alım takımı oluşturma
+          href: onboard-create-team.md
     - name: İş gücünüzü Core HR ile yönetme
       items:
         - name: İş gücünüzü düzenleme
@@ -357,9 +391,11 @@
           href: corehr-custom-fields.md
     - name: Talent'ta sorun giderme
       items:
+        - name: LinkedIn'de iş yayınlama sorunlarını giderme
+          href: attract-troubleshoot-linkedin.md
         - name: Analitik raporlar güncelleştirilmedi
           href: analytic-reports-not-updated.md
-        - name: PowerApps Yönetici merkezinde ortam oluşturulamıyor
+        - name: PowerApps Yönetim merkezinde ortam oluşturulamıyor
           href: create-envi-powerapps-admin-ctr.md
         - name: Talent istemcisinin bağlantısı kesiliyor
           href: client-disconnects.md

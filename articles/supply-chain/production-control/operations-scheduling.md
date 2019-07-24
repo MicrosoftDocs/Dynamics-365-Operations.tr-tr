@@ -3,7 +3,7 @@ title: Operasyon planlama çizelgeleme
 description: Bu konu operasyon planlaması hakkındaki bilgileri sağlar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560284"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691474"
 ---
 # <a name="operations-scheduling"></a>Operasyon planlama çizelgeleme
 
@@ -67,6 +67,9 @@ Operasyon planlama master planlamayı da destekler ve malzeme gereksinimi hesapl
 -   **Bekleme listesine alınan üretimler** – Planlanan, serbest bırakılan veya başlatılan ürünler
 -   **Malzeme kullanılabilirliği** – Stok, alt üretimler, tedarikçiler ve satıcılar
 -   **Kapasite kullanılabilirliği** – Üretim için gerekli olan kaynaklar
+
+> [!NOTE]
+> Çoklu iş parçacıklı master planlama ve operasyon planlama kullanıyorsanız sınırlı kapasite dikkate alınmayacaktır. 
 
 ## <a name="cancellations"></a>İptaller
 Operasyon planlamasını çalıştırdığınızda, rotanın belirli kısımlarını iptal edebilirsiniz. Bu kısımlar kuyruk süresi, hazırlık süresi, işlem süresi, çakışma süresi ve taşıma süresi olabilir.

@@ -3,7 +3,7 @@ title: Talent ile Dayforce arasında bordro tümleştirmesini yapılandırma
 description: Bu konuda, bir ödeme işlemini işlemek üzere Microsoft Dynamics 365 for Talent ile Ceridian Dayforce arasındaki tümleştirmeyi nasıl yapılandıracağınız açıklanmaktadır.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/26/2019
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519266"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702830"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Talent ve Dayforce arasında bordro tümleştirmeyi yapılandırma
 
@@ -54,6 +54,16 @@ Azure depolama hesapları ve Azure Depolama bağlantı dizeleri hakkında daha f
 
 - [Azure depolama hesapları hakkında](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Azure Depolama bağlantı dizelerini yapılandırma](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+
+### <a name="technical-details-when-payroll-integration-is-enabled"></a>Bordro tümleştirmesinin etkinleştirilmesinin teknik ayrıntıları
+
+Bordro tümleştirmesinin açılmasının iki temel etkisi vardır:
+
+- "Bordro tümleştirmesini dışa aktar" adlı dışa veri aktarma projesi oluşturulur. Bu proje, bordro tümleştirmesi için gerekli olan varlıkları ve alanları içerir. Projeyi incelemek için **Sistem yönetimi**'ne gidin, **Veri yönetimi** kutucuğunu seçin ve ardından projeler listesinden veri projesini açın.
+- Bu toplu iş, veri dışa aktarma projesini yürütür, sonuçta elde edilen veri paketini şifreler ve veri paketi dosyasını **Tümleştirme Yapılandırması** ekranında yapılandırılan SFTP son noktasına aktarır.
+
+> [!NOTE]
+> SFTP son noktasına aktarılan veri paketi, pakette benzersiz bir anahtar kullanılarak şifrelenir. Anahtar yalnızca Ceridian tarafından erişilebilen bir Azure Key Vault'ta yer alır. Veri paketi içeriğinin şifresini çözmek ve içeriği incelemek mümkün değildir. Veri paketinin içeriğini incelemeniz gerekiyorsa "Bordro tümleştirmesini dışa aktar" veri projesini el ile dışa aktarmanız, indirmeniz ve sonra açmanız gerekir. El ile dışa aktarmada şifreleme uygulanmaz veya paket transfer edilmez.
 
 ## <a name="configure-your-data"></a>Verilerinizi yapılandırma 
 

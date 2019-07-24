@@ -3,7 +3,7 @@ title: Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 description: Bu konu, Microsoft Dynamics 365 for Retail içinde satış noktası (POS operasyonları hakkında bilgi verir). Uygulamada işlemlerin nereden çağrılabileceğini ve çevrimdışı modda kullanılabilir olup olmadığını belirtir.
 author: jblucher
 manager: AnnBe
-ms.date: 10/12/2017
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505108"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625677"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
@@ -160,8 +160,8 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 1211 | Kasaya para nakli | Yazar kasadan kasaya para taşımak için kasaya para nakli işlemi yapın. | Evet | Evet | Evet | Evet | Hayır |
 | 516 | Satış faturası | Bu işlem müşterinin seçili satış faturası için ödeme yapmasına izin verir. | Evet | Evet | Hayır | Hayır | Hayır |
 | 502 | Satış temsilcisi | Bu işlem kullanıcının POS'taki müşteri siparişleri için satış siparişindeki **Satış alıcısı** değerini ayarlamasına olanak tanır. | Evet | Evet | Hayır | Evet\* | Hayır |
-| 2000 | Planlama yönetimi | Bu işlem kullanıcının personel planlamalarını oluşturmasına, değiştirmesine veya görüntülemesine olanak tanır. | Evet | Evet | Evet | Hayır | Hayır |
-| 2001 | Planlama talepleri | Bu işlem kullanıcının izin istemesine, vardiyaları değiştirmesine ve diğer personele vardiya sunmasına olanak tanır. | Evet | Evet | Evet | Hayır | Hayır |
+| 2000 | Planlama yönetimi | Bu işlem henüz desteklenmiyor. | Evet | Evet | Evet | Hayır | Hayır |
+| 2001 | Planlama talepleri | Bu işlem henüz desteklenmiyor. | Evet | Evet | Evet | Hayır | Hayır |
 | 622 | Ara | Bu işlem kullanıcıların maddeye, müşteriye veya kategoriye göre arama yapmak üzere POS düğmelerini yeniden yapılandırmasına olanak tanır. | Evet | Evet | Evet | Evet | Hayır |
 | 1213 | Sevkiyat adresi ara | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Hayır |
 | 709 | Donanım istasyonu seç | Bu işlem kullanıcının kullanılabilir donanım istasyonları listesinden bir donanım istasyonu seçmesine olanak tanır. | Evet | Evet | Evet | Evet | Hayır |

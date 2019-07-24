@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 13cfe68e3d06001c56770fa60838404c43d0b38d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519284"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624593"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Dynamics 365 for Talent'deki yenilikler veya değişiklikler (23 Nisan 2019)
 
@@ -46,7 +46,7 @@ Bu haftaki sürümle, aşağıdaki varlıklar özel alanları destekler: Ücret 
 ### <a name="additional-odata-entities-302992"></a>Ek OData varlıkları (302992)
 Şu varlıklar artık OData içinde desteklenir: Çalışanın profesyonel deneyimi ve Çalışan eğitimi.
    
-### <a name="performance-journal-attachments-for-nanagers-and-employees-308248"></a>Yöneticiler ve çalışanlar için performans günlüğü ekleri (308248)
+### <a name="performance-journal-attachments-for-managers-and-employees-308248"></a>Yöneticiler ve çalışanlar için performans günlüğü ekleri (308248)
 Bu sürümle birlikte artık performans günlüğü girişlerini oluştururken ve güncelleştirirken, Yöneticiler ve çalışanlar için ekler kullanılabilir.
 
 ### <a name="employee-rehire-flag-always-available-310047"></a>Çalışan yeniden işe alma bayrağı her zaman kullanılabilir (310047)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592672"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625884"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
@@ -651,6 +651,11 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <td>NUMBERFORMAT (sayı, biçim)</td>
 <td>Belirtilen sayının, belirtilen biçimdeki dize olarak temsilini döndür. (Desteklenen biçimler hakkında bilgi için bkz. <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standart</a> ve <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">özel</a>.) Bu işlevin çalıştırıldığı bağlam, sayıları biçimlendirmek için kullanılan kültürü belirler.</td>
 <td>TR-TR kültürü için <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong>, <strong>&quot;45,00&quot;</strong> döndürür. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong>, <strong>&quot;10&quot;</strong> döndürür.</td>
+</tr>
+<tr>
+<td>NUMBERFORMAT (sayı, biçim, kültür)</td>
+<td>Belirtilen sayının, belirtilen saıtr ve kültürdeki tarih/saat olarak temsilini döndür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">standart</a> ve <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">özel</a>.).</td>
+<td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> <strong>3,33</strong> iade edilirken <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> <strong>3.33</strong> iade ediliyor.</td>
 </tr>
 <tr>
 <td>NUMERALSTOTEXT (sayı, dil, para birimi, para birimi adını yazdır bayrağı, ondalık basamaklar)</td>

@@ -3,7 +3,7 @@ title: Kullanıcıları güvenlik rollerine atama
 description: Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'a erişmek için kullanıcıların güvenlik rolleri atanmış olmalıdır.
 author: maertenm
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ab9f2f5ea07ae1d616c48dffa8810b966f7dbb2f
+ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556721"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711143"
 ---
 # <a name="assign-users-to-security-roles"></a>Kullanıcıları güvenlik rollerine atama
 
@@ -31,25 +31,20 @@ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'a erişmek
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Kullanıcıları rollere otomatik olarak ata
-1. Sistem Yönetimi > Güvenlik > Kullanıcılara roller atayın'a gidin.
-2. Ağaçta, 'Muhasebe yöneticisi' seçin.
-    * Kuralı yapılandırmak istediğiniz rolü seçin. Bu örnekte, Muhasebe yöneticisi'ni seçin.  
-3. İletişim kutusunu açmak için Kural ekle'yi tıklatın.
-4. Listede, istenen kaydı bulun ve seçin.
-    * Bu kuralda kullanılacak sorguyu seçin.  
-5. Listede, seçili satırdaki bağlantıya tıklayın.
-6. Sorguyu düzenle'ye tıklayın.
-    * Sorguyu gerektiği gibi düzenleyin.  
-7. Tamam'a tıklayın.
+1. **Gezinti bölmesi > Modüller > Sistem yönetimi > Güvenlik > Kullanıcılara roller atayın**'a gidin.
+2. Ağaçta, 'Muhasebe yöneticisi' seçin. Kuralı yapılandırmak istediğiniz rolü seçin. Bu örnekte, Muhasebe yöneticisi'ni seçin. 
+3. İletişim kutusunu açmak için **Kural ekle**'ye tıklayın.
+4. **Sorgu seçin**listesinde, istenen kaydı bulun ve seçin. Bu kuralda kullanılacak sorguyu seçin.  
+5. **Üyelik kuralı adı** listesinde, seçili satırdaki bağlantıya tıklayın.
+6. **Sorguyu düzenle**'ye tıklayın. Sorguyu gerektiği gibi düzenleyin.  
+7. **Tamam**'a tıklayın.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Kullanıcıları otomatik rol atamasının dışında bırakmak
 1. Sayfayı kapatın.
-2. Sistem Yönetimi > Güvenlik > Kullanıcılara roller atayın'a gidin.
-3. Ağaçta, 'Muhasebe yöneticisi' seçin.
-    * Bir rol seçin. Bu örnek için, Muhasebe yöneticisi'ni seçin.  
-4. Kullanıcıları el ile ata / dışarıda tut seçeneğini tıklatın.
-5. Listede, seçili satırı işaretleyin.
-    * Bir kullanıcı seçin.  
-6. Rol dışında tut seçeneğini tıklatın.
-    * Seçili kullanıcıları, rolün dışında bırakmak için, Rolün dışında bırak'ı tıklayın. Dışarıda bırakmaları kaldırmak için, hariç tutulma durumunu kaldırmak istediğiniz kullanıcıları seçin ve sonra Durum sıfırla'ya basın. Bir kullanıcının durumunu sıfırlayarak bir hariç tutmayı kaldırdığınızda, kullanıcının rolü otomatik olarak atanır. Ancak, durumunu sıfırladığınızda, kullanıcı hemen role atanmaz veya rolden hariç tutulmaz. Bunun yerine kullanıcı otomatik rol atama bir sonraki çalıştığında rolüne eklenir veya çıkartılır.  
-
+2. **Gezinti bölmesi > Modüller > Sistem yönetimi > Güvenlik > Kullanıcılara roller atayın**'a gidin.
+3. Ağaçta, 'Muhasebe yöneticisi' seçin. Bir rol seçin. Bu örnek için, Muhasebe yöneticisi'ni seçin.  
+4. **Role atanmış kullanıcılar** menüsünde, **Kullanıcıları el ile ata/dışarıda tut**'u seçin.
+5. **Kullanıcıları role atayın veya rol dışında bırakın** listesinde, seçili satırları işaretleyin. Bir kullanıcı seçin.  
+6. **Eylem bölmesi**'nde, **Rol dışında bırakın**'ı seçin.
+    
+    Seçili kullanıcıları rolün dışında bırakmak için **Rol dışında bırakın**'ı seçin. Dışarıda bırakmaları kaldırmak için, hariç tutulma durumunu kaldırmak istediğiniz kullanıcıları seçin ve sonra **Durumu sıfırla**'ya tıklayın. Bir kullanıcının durumunu sıfırlayarak bir hariç tutmayı kaldırdığınızda, kullanıcının rolü otomatik olarak atanır. Ancak, durumunu sıfırladığınızda, kullanıcı hemen role atanmaz veya rolden hariç tutulmaz. Bunun yerine kullanıcı otomatik rol atama bir sonraki çalıştığında rolüne eklenir veya çıkartılır.  

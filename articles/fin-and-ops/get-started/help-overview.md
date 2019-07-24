@@ -3,7 +3,7 @@ title: Finance and Operations Yardım sistemi
 description: Bu konu Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış verilmektedir.
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2018
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
+ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595651"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625341"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operations Yardım sistemi
 
@@ -95,16 +95,18 @@ Bir konuyla ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmınd
 
     ![Yorumu gönderin](./media/feedback.png)
 
-##### <a name="suggest-a-change-or-contribute-content-through-github"></a>GitHub aracılığıyla değişiklik önerin veya içeriğe katkıda bulunun
+### <a name="contribute-to-the-documentation"></a>Belgelere katkıda bulunma
 
-Bir değişiklik önermek için GitHub hesabınız olması ve Katılımcı Lisansı Sözleşmesi imzalamanız gerekir. Talebinizi gönderdikten sonra önerilen değişiklikleri gözden geçiririz. Gerekirse, içeride bu konuyu tartışır ve size geri döneriz.
+Finance and Operations belgelerine katkıda bulunabilir ve düzenlemeler yapabilirsiniz. Başlamak için bir konudaki **Düzenle** (Kalem) düğmesine tıklayın veya <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public> adresine gidin. Aşağıdaki video, belgelerimize nasıl katkıda bulunabileceğinizi gösterir.
 
-Başlamak için bir konudaki **Düzenle** (Kalem) düğmesine tıklayın veya <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public> adresine gidin.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
 
-Daha fazla bilgi için lütfen katılımcı kılavuzumuza başvurun: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
+[Microsoft Dynamics 365 belgeseline nasıl katkıda bulunulur](https://youtu.be/m5djioozRbg) video'su (aşağıda gösteriliyor) [Dynamics 365 oynatma listesinde neler yeni](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9) YouTube'da yayınlanmaktadır.
+
+Daha fazla bilgi için lütfen <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md> adresindeki katılımcı kılavuzumuza başvurun.
 
 > [!NOTE]
-> Şu anda yalnızca İngilizce içerik kümemize katılımları kabul ediyoruz.
+> Şu anda yalnızca İngilizce içerik katılımlarını kabul ediyoruz.
 
 ## <a name="task-guides"></a>Görev kılavuzları
 

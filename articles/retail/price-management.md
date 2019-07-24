@@ -3,7 +3,7 @@ title: Perakende satış fiyatı yönetimi
 description: Bu konu Microsoft Dynamics 365 for Retail'de satış fiyatları oluşturma ve yönetme kavramlarını açıklar.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 05/21/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afa553fd0562b306f720f2a30c7f901db7ad1b3a
-ms.sourcegitcommit: 0fbfb9b0ab78c804f3931a083028d2ce313d6521
+ms.openlocfilehash: 813547f522f5c69920eadf9df61e7f01b13ecd36
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1594082"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624801"
 ---
 # <a name="retail-sales-price-management"></a>Retail satış fiyatı yönetimi
 
@@ -234,6 +234,6 @@ Ayrıca, **yalnızca** perakende fiyatlandırma altyapısı şu fiyatlandırma �
 
 ## <a name="pricing-api-enhancements"></a>Fiyatlandırma API geliştirmeleri
 
-Fiyat, birçok müşterinin satın alma kararlarını yöneten en önemli etkilerinden biridir ve birçok müşteri satın almadan önce çeşitli sitelerdeki fiyatları karşılaştırır. Perakendeciler, rekabetçi fiyatları sağlamalarının sağlanmasına yardımcı olmak için, rakiplerini gözlemler ve genellikle promosyonlar yapar. Bu nedenle, bu perakendecilere müşteriler çekmenize yardımcı olmak amacıyla ürün aramasının, Gözat özelliğinin, listelerin ve Ürün Ayrıntıları sayfasının en doğru fiyatları göstermesi çok önemlidir.
+Fiyat, birçok müşterinin satın alma kararlarını kontrol eden en önemli etkilerinden biridir ve birçok müşteri satın almadan önce çeşitli sitelerdeki fiyatları karşılaştırır. Perakendeciler, rekabetçi fiyatları sağlamalarının sağlanmasına yardımcı olmak için, rakiplerini gözlemler ve genellikle promosyonlar yapar. Bu perakendecilere müşteriler çekmenize yardımcı olmak amacıyla ürün aramasının, Gözat özelliğinin, listelerin ve Ürün Ayrıntıları sayfasının en doğru fiyatları göstermesi çok önemlidir.
 
 Perakende satış sürümünde, **GetActivePrices** uygulama programlama arabirimi (API), basit iskontolar (örneğin, sepetteki diğer maddelere bağımlı olmayan tek satırlı iskontolar) içeren fiyatları döndürür. Bu şekilde, gösterilen fiyatlar müşterilerin maddeler için ödeyeceği gerçek tutara yakın bir yöntemdir. Bu API, tüm basit iskonto türlerini içerir: bağlantı tabanlı, bağlılık programı tabanlı, katalog tabanlı ve kanal tabanlı indirimler. Ek olarak, satıcılar, uygulanan indirimlerle ilgili adları ve geçerlilik bilgilerini döndürür ve böylece perakendeciler fiyat için daha ayrıntılı bir açıklama sağlayabilir ve iskontonun geçerliliği yakında sona erdiğinde acilinin bir fikir yaratmasını sağlar.

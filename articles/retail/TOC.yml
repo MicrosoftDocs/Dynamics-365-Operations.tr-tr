@@ -4,7 +4,7 @@
   items:
     - name: Yenilikler veya değişiklikler
       href: get-started/whats-new.md
-    - name: Dynamics 365 for Retail 10.0.3'deki önizleme özellikleri
+    - name: Dynamics 365 for Retail 10.0.3'deki yenilikler veya değişiklikler
       href: get-started/whats-new-10-0-3.md
     - name: Dynamics 365 for Retail 10.0.2'deki yenilikler veya değişiklikler
       href: get-started/whats-new-10-0-2.md
@@ -407,6 +407,10 @@
       items:
         - name: İtalya için yazar kasa tümleştirme örneği
           href: localizations/emea-ita-fpi-sample.md
+    - name: Meksika
+      items:
+        - name: Meksika için genel CFDI e-faturaları
+          href: ../financials/localizations/latam-mex-global-cfdi-3-3.md
     - name: Norveç
       items:
         - name: Yazar kasa işlevi

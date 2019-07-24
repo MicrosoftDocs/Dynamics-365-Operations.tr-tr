@@ -3,7 +3,7 @@ title: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle e
 description: Bu konu ürünleri, Microsoft Dynamics 365 for Finance and Operations üzerinden Microsoft Dynamics 365 for Sales üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2018
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: feb9fbc066162e2caa9fc5dbaeec2c063ae23060
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff284585a2eb4c5cf55d2e3a3e0f317d1fb218bb
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572616"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624347"
 ---
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
 
@@ -43,7 +43,7 @@ Aday müşteriden nakde çözümü Finance and Operations ve Sales örnekleri ar
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 
-Kullanılabilir şablonlara erişmek için [PowerApps Yönetim Merkezi](https://preview.admin.powerapps.com/dataintegration)'ni açın. **Projeler**'i seçin ve ardından genel şablonları seçmek için sağ üst köşeden **Yeni proje**'yi seçin.
+Kullanılabilir şablonlara erişmek için [PowerApps Yönetim Merkezi](https://admin.powerapps.com/dataintegration)'ni açın. **Projeler**'i seçin ve ardından genel şablonları seçmek için sağ üst köşeden **Yeni proje**'yi seçin.
 
 Aşağıdaki şablon ve altta yatan görevler, ürünleri Finance and Operations'dan Sales'e eşitlemekte kullanılır:
 

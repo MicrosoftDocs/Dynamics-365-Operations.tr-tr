@@ -3,7 +3,7 @@ title: Alacak ve tahsilat yönetimi Power BI içeriği
 description: Bu konu, Power BI Kredi ve Tahsilatlar Yönetimi'nde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547244"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702784"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Alacak ve tahsilat yönetimi Power BI içeriği
 
@@ -42,7 +42,17 @@ Gösterilen tüm tutarlar sistem para birimi cinsindendir. Sistem para birimini 
 
 Şirket için kredi ve tahsilatlar verisi varsayılan olarak gösterilir. Tüm şirketler arasında veriyi görmek için **CustCollectionsBICrossCompany** görevini role ekleyin.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Power BI içeriğini görüntülemek için kurulum gerekiyor
+
+Verilerin **müşteri alacak ve tahsilatları** Power BI görsellerinde görüntülenmesi için aşağıdaki kurulumun tamamlanması gereklidir.
+
+1. **Sistem para birimi** ve **Sistem döviz kuru**'nu ayarlamak için **Sistem yönetimi > Kurulum > Sistem Paramatreleri**'ne gidin.
+2. **Genel Muhasebe > Ayarlar > Muhasebe**'ye gidin ve **Muhasebe Para Birimi** ve **Döviz Kuru Türü**'nü ayarlayın.
+3. Hareket para birimleri ile muhasebe para birimi, muhasebe para birimi ve sistem para birimi arasındaki döviz kurlarını tanımlayın. Bunu yapmak için **Genel Muhasebe > Para Birimleri > Para birimi döviz kurları**'na gidin.
+4. **CustCollectionsBIMeasurements** toplam ölçümünü Varlık Deposu sayfası üzerinde yenilemek için **Sistem yönetimi > Ayarlar > Varlık Deposu**'na gidin
+
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim
+
 **Alacak ve tahsilatlar yönetimi** Power BI içeriği **Müşteri alacak ve tahsilatları** çalışma alanında gösterilir.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içerik paketinde bulunan raporlar
@@ -63,28 +73,3 @@ The **CustCollectionsBICrossCompany** Power BI içeriği, bir dizi ölçümden o
 | Tahsilatlar mektupları         | <ul><li>Tahsilat kodu tutarları</li><li>Tahsilatlar kodu tutar ayrıntıları</li><li>Şirkete göre tahsilat mektubu tutarı</li><li>Müşteri grubuna göre tahsilat mektubu tutarı</li><li>Bölgeye göre tahsilat mektup tutarı</li></ul> |
 
 Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Altta yatan veriyi Dışa aktar işlevini de görselleştirmede özetlenen altta yatan veriyi dışa aktarmak için kullanabilirsiniz.
-
-## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-
-Aşağıdaki veriler **Kredi ve tahsilatlar yönetimi** Power BI içeriğindeki raporu doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
-
-
-|                   Varlık                    |      Önemli toplam ölçümler      |             Veri kaynağı              |                           Alan                            |                                    Açıklama                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     Kapalı etkinliklerin sayısı ve bu etkinlikleri kapamak için ortalama süre.     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           Açık aktivitelerin sayısı.                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 SUM(SystemCurrencyBalance)                 |                             Yaşlandırılmış bakiyelerin toplamı.                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Vadesi geçmiş tutarlar.                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        Kapalı vakaların sayısı ve bu vakaları kapamak için ortalama süre.        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              Açık vakaların sayısı.                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       Açık tahsilat mektuplarının sayısı.                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     Nakledilen tahsilat mektuplarının bakiyesi.                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                Tahsilat durumundaki hareketlerin bakiyesi.                 |
-|           CustCollectionsBICredit           | CreditExposed, AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | Kredi riski ve müşterilerin kredi limitlerinin üzerinde oldukları tutarların toplamı. |
-|         CustCollectionsBICustOnHold         |               Bloke edilmiş                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     Beklemede olan müşterilerin sayısı.                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        30 gün için bekleyen satış gün sayısı.                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 Sonraki yılda beklenen ödemelerin toplamı.                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Oluşturulmuş olan vade farkı dekontlarının sayısı.                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Bekleme olan toplam satış siparişlerinin sayısı.                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Silinmiş olan hareketlerin toplamı.                 |
-

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519349"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729715"
 ---
 # <a name="career-site-functionality-in-attract"></a>Attract'ta kariyer sitesi işlevi
 
@@ -48,11 +48,14 @@ Aşağıdaki öğeler için değerleri ayarlamak üzere, Attract'ta yönetici ol
  
 Aşağıdaki öğeler için değerleri ayarlamak üzere, Attract'ta yönetici olarak oturum açın; **Ayarlar** menüsündeki **Yönetim Merkezi**'ni seçin ve **Kariyer sitesi yönetimi** sekmesini seçin.
 
--   **Arama Motoru Optimizasyonu** - Etkinleştirildiğinde, Attract kariyer sitesine gönderilen tüm ortak iş ilanları, Bing ve Google gibi arama motorları kullanılarak aranabilir olacaktır.
+-   **Arama Motoru Optimizasyonu** - Etkinleştirildiğinde, Attract kariyer sitesine gönderilen tüm ortak iş ilanları, Bing ve Google gibi arama motorları kullanılarak aranabilir olacaktır. 
 
     > [!NOTE] 
     > Bu ayarın etkinleştirilmesiyle, arama sonuçlarının görüntülenmesi arasında bir gecikme olabilir, kullandığınız arama motoruna bağlı olarak.
-         
+    
+-   **Hüküm ve koşullar** - etkinleştirildiğinde, tüm adaylar, herhangi bir iş başvurusu yaparken kuruluşun hüküm ve koşullarını kabul etmek zorundadır. Attract yöneticisi, kendi Onay metnini ve ayrıca Hükün ve Koşullar sayfasına olan bağlantıyı yapılandırabilir. 
+
+        
 ## <a name="career-site-urls"></a>Kariyer sitesi URL'leri
 
 Aşağıdaki liste, sık kullanılan kariyer sitesi URL'leri ve bunlara nasıl erişileceğini içerir.

@@ -3,7 +3,7 @@ title: Finance and Operations videoları
 description: Bu sayfa Dynamics 365 for Finance and Operations için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşmalar videolarını listeler.
 author: josaw1
 manager: AnnBe
-ms.date: 05/15/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: 5ede5bfa3b7a61461adb1514b7e96c4eba5a75c7
+ms.sourcegitcommit: fdc37a3c2ca2bac5741e7017fb225344e64f041a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591560"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625409"
 ---
 # <a name="videos-for-finance-and-operations"></a>Finance and Operations için videolar
 
@@ -64,6 +64,10 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 - [Maliyet muhasebesine giriş](https://youtu.be/1pUDtJQZ8FU)
 - [Maliyet analizi için Excel'i kullanma](https://youtu.be/-HKHYdClvx8)
 - [Gider deneyimi](https://youtu.be/Ocy-MsTvEE0)
+
+#### <a name="help-system"></a>Yardım sistemi
+
+- [Microsoft Dynamics 365 belgelerine nasıl katkıda bulunulur](https://youtu.be/m5djioozRbg)
 
 #### <a name="intelligence"></a>Zeka
 
