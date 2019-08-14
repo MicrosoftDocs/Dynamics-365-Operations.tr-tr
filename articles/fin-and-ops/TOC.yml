@@ -27,6 +27,8 @@
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
                 - name: Çin'de 21Vianet tarafından işletilen Finance and Operations
                   href: ../dev-itpro/deployment/china-local-deployment.md
+                - name: Fransa'da Finance and Operations
+                  href: ../dev-itpro/deployment/france-local-deployment.md
             - name: Hizmet güncelleştirmesi kullanılabilirliği
               href: get-started/public-preview-releases.md
             - name: Finance and Operations satın alma
@@ -44,6 +46,8 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Şirket içi dağıtımlarda uygulanmayan özellikler
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations sürüm 10.0.5'teki önizleme özellikleri (Ekim 2019)
+              href: get-started/whats-new-changed-10-0-5.md
             - name: Finance and Operations sürüm 10.0.4 (Temmuz 2019)
               href: get-started/whats-new-changed-10-0-4.md
             - name: Finance and Operations sürüm 10.0.3 (Haziran 2019)
@@ -56,6 +60,8 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations sürüm 8.1.3 (Ocak 2019)
               href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 29'daki önizleme özellikleri (Ekim 2019)
+              href: get-started/whats-new-platform-update-29.md
             - name: Platform update 28 (Temmuz 2019)
               href: get-started/whats-new-platform-update-28.md
             - name: Platform update 27 (Haziran 2019)
@@ -156,6 +162,8 @@
               href: get-started/navigation-search.md
             - name: Kullanıcı deneyimini kişiselleştirme
               href: get-started/personalize-user-experience.md
+            - name: Kayıtlı görünümler
+              href: get-started/saved-views.md
             - name: Özel alanlar oluşturma ve bunlarla çalışma
               href: get-started/user-defined-fields.md
             - name: PowerApps uygulamalarını katıştırma
@@ -267,14 +275,14 @@
           items:
             - name: Microsoft Flow ile iş olayları kullanma
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-    - name: Uyumluluk
-      items:
-        - name: Denetim ilkesi kuralları
-          href: ../financials/general-ledger/audit-policy-rules.md
-        - name: Denetim ilkesi ihlalleri ve olayları
-          href: ../financials/general-ledger/audit-policy-violations-cases.md
-        - name: Kaynak belgeler için denetim ilkeleri tanımlama
-          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: Azure Event Grid kullanarak iş olaylarını kullanma
+              href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
+            - name: Azure Service Bus kullanarak iş olaylarını kullanma
+              href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
+            - name: İş akışı onayı iş olaylarını kullanma
+              href: ../dev-itpro/business-events/how-to/how-to-workflow.md
+            - name: Microsoft Forms Pro ile iş olayları kullanma
+              href: ../dev-itpro/business-events/how-to/FormsPro.md
     - name: Maliyet yönetimi
       href: ../supply-chain/cost-management/cost-management-home-page.md
       items:
@@ -419,61 +427,85 @@
                 - name: Kayıt şablonlarını kullanarak kayıt oluşturma
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Common Data Service kullanarak veri tümleştirme
-              href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Aday müşteriden nakde senaryosunu yapılandırma
-                  href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                - name: Veri tümleştirmeye genel bakış
+                  href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
+                - name: 'Eşzamanlı, çift yönlü tümleştirme'
                   items:
-                    - name: Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
-                      href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                    - name: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
-                      href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                    - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
-                      href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                    - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
-                      href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                    - name: Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
-                      href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                    - name: Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
-                      href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                - name: Field Service ile tümleştirmeyi yapılandırma
-                  href: ../supply-chain/sales-marketing/field-service.md
+                    - name: Yakın gerçek zamanlı veri tümleştirmesi
+                      href: ../dev-itpro/data-entities/dual-write-overview.md?toc=/fin-and-ops/toc.json
+                    - name: Common Data Service'da kuruluş hiyerarşisi
+                      href: ../dev-itpro/data-entities/dual-write-organization.md?toc=/fin-and-ops/toc.json
+                    - name: Common Data Service'da şirket kavramı
+                      href: ../dev-itpro/data-entities/dual-write-company.md?toc=/fin-and-ops/toc.json
+                    - name: Tümleşik Müşteri Aslı
+                      href: ../dev-itpro/data-entities/dual-write-customer.md?toc=/fin-and-ops/toc.json
+                    - name: Tümleşik Satıcı Aslı
+                      href: ../dev-itpro/data-entities/dual-write-vendor.md?toc=/fin-and-ops/toc.json
+                    - name: Başlangıç eşitlemesi
+                      href: ../dev-itpro/data-entities/dual-write-initial.md?toc=/fin-and-ops/toc.json
+                    - name: Veri tümleştirme sorunlarını giderme
+                      href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
+                - name: 'Zaman uyumsuz, tek yönlü tümleştirme'
                   items:
-                    - name: Finance and Operations'taki ürünleri Field Service'daki ürünlerle eşitleme
-                      href: ../supply-chain/sales-marketing/field-service-product.md
-                    - name: Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
-                      href: ../supply-chain/sales-marketing/field-service-work-order.md
-                    - name: Field Service'daki sözleşme faturalarını Finance and Operations'daki serbest metin faturalarıyla eşitleme
-                      href: ../supply-chain/sales-marketing/field-service-invoice.md
-                    - name: Stok transferlerini ve ayarlamalarını Field Service'dan Finance and Operations'a eşitleme
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                    - name: Stok düzeyi bilgilerini Field Service'dan Finance and Operations'a eşitleme
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                    - name: Stok birimli ürünleri Finance and Operations'dan Field Service'a eşitleme
-                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                    - name: Proje listesini Finance and Operations'dan Field Service'a eşitleme
-                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
-                    - name: Ambarları Finance and Operations'dan Field Service'a eşitleme
-                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-                    - name: Proje içeren iş emirlerini Field Service'tan Finance and Operations'a eşitleme
-                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                - name: Project Service Automation tümleştirmesi yapılandırma
-                  href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
-                  items:
-                    - name: Project Service Automation tümleştirmesi parametreleri
-                      href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
-                    - name: Proje sözleşmeleri ile projeleri eşitleme
-                      href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Proje görevlerini eşitleme
-                      href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
-                    - name: Proje gider kategorilerini eşitleme
-                      href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Proje tahminleri için proje tahminleriyle eşitleme
-                      href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Proje gerçek değerlerini proje tümleştirme günlüğüyle eşitleme
-                      href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Aday müşteriden nakde
+                      items:
+                        - name: Aday müşteriden nakde senaryosu yapılandırma
+                          href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
+                          href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
+                          href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
+                          href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
+                          href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
+                          href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
+                          href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Field Service
+                      items:
+                        - name: Field Service ile tümleştirmeyi yapılandırma
+                          href: ../supply-chain/sales-marketing/field-service.md
+                        - name: Finance and Operations'taki ürünleri Field Service'daki ürünlerle eşitleme
+                          href: ../supply-chain/sales-marketing/field-service-product.md
+                        - name: Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
+                          href: ../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Field Service'daki sözleşme faturalarını Finance and Operations'daki serbest metin faturalarıyla eşitleme
+                          href: ../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Stok transferlerini ve ayarlamalarını Field Service'dan Finance and Operations'a eşitleme
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Stok düzeyi bilgilerini Field Service'dan Finance and Operations'a eşitleme
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Stok birimli ürünleri Finance and Operations'dan Field Service'a eşitleme
+                          href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Proje listesini Finance and Operations'dan Field Service'a eşitleme
+                          href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Ambarları Finance and Operations'dan Field Service'a eşitleme
+                          href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Proje içeren iş emirlerini Field Service'dan Finance and Operations'a eşitleme
+                          href: ../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Project Service Automation
+                      items:
+                        - name: Project Service Automation tümleştirmesi yapılandırma
+                          href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
+                        - name: Project Service Automation tümleştirmesi parametreleri
+                          href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
+                        - name: Proje sözleşmeleri ile projeleri eşitleme
+                          href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Proje görevlerini eşitleme
+                          href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
+                        - name: Proje gider kategorilerini eşitleme
+                          href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Proje tahminleri için proje tahminleriyle eşitleme
+                          href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Proje gerçek değerlerini proje tümleştirme günlüğüyle eşitleme
+                          href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
         - name: Harici web hizmetleri kullanma
           href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Elektronik mesajlaşma
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: Veri yönetimi
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -666,9 +698,11 @@
               href: ../financials/accounts-receivable/set-up-collections.md
             - name: Tahsilat bilgilerini gözden geçirme
               href: ../financials/accounts-receivable/tasks/review-collections-information.md
-            - name: Yinelenen faturalar oluşturma ve işleme
+            - name: Gelir kabulüne genel bakış
+              href: ../financials/accounts-receivable/revenue-recognition-overview.md
+            - name: Yinelenen faturalar ayarlama ve işleme
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
-            - name: Serbest metin faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girdileri
+            - name: Serbest metin faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girişleri
               href: ../financials/accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Müşteri deftere nakil profilleri
               href: ../financials/accounts-receivable/customer-posting-profiles.md
@@ -1067,166 +1101,6 @@
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
         - name: Genel muhasebe
           href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: Hesaplar
-              items:
-                - name: Tahakkuklara genel bakış
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: Eleme kuralları
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: Hesap ve boyut birleşimleri
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: interunit muhasebe için dengelenmiş günlükler
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: Deftere nakil tanımları
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: Deftere nakil tanımı örnekleri
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: Genel muhasebe hesap bakiyeleri
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: Mali boyutları tanımlama
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: Mali boyut varsayılan şablonlarını koruma
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: Hesap yapıları oluşturma
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: Mali boyutlar ve deftere nakletme
-                  href: ../financials/general-ledger/default-dimensions.md
-                - name: Tahakkuk planları oluşturma
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Mali konsolidasyonlar ve para birimi dönüştürme
-                  href: ../financials/general-ledger/financial-consolidations-currency-translation.md
-                  items:
-                    - name: Çevrimiçi olarak konsolide etme
-                      href: ../financials/general-ledger/consolidate-online.md
-                    - name: Konsolide mali tablolar oluşturma
-                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
-                - name: Konsolidasyon grupları ve ek konsolidasyon hesabı oluşturma
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: Ana hesap türleri
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: Ana hesap oluşturma
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: Hesap planınızı planlama
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: Genel muhasebe hesapları arasındaki hareketleri kapatma
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: Genel muhasebe hesabı diğer adlarını ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: Ana hesap kategorilerini ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: Muhasebe kaynağı gezgini
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: Muhasebe dağılımları
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: Tahsisatları işleme
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: Mali boyutlar
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: Muhasebe veya raporlama para birimlerini dönüştürme
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: Konsolidasyon hesabı grupları ve hesapları
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Konsolidasyon ve elemeye genel bakış
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 'Mali takvimler, mali yıllar ve dönemler'
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-                - name: Hesap yapılarını yapılandırma
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: Çift para birimi
-                  href: ../financials/general-ledger/dual-currency.md
-            - name: Günlükler ve genel muhasebe defterleri
-              items:
-                - name: Genel günlük işleme
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: Periyodik günlükleri deftere nakletme
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Genel muhasebe tahsisat günlüğünü işleme
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Şirketlerarası muhasebe ayarı
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: Genel muhasebe tahsisat kuralları
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: Günlükler için gelişmiş kurallar oluşturma
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: Gelişmiş kural yapıları oluşturma ve atama
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: Genel muhasebe günlük türleri
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: Günlükler oluşturma ve doğrulama
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: Günlük girişlerini veya hareketlerini görüntüleme
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: Günlükten ilgili şirketlerarası fişi görüntüleme
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: Şablon kullanarak günlük girişi oluşturma
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: Genel muhasebe tahakkuk hareketleri oluşturma
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: Excel'den günlük satırlarını ve belgeleri yayımlama
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: Günlük girişlerini ve hareketlerini görüntüleme
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: Deftere nakledilen günlük girişlerini günlüğe aktarma
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: Konsolidasyon şirketinde para birimi yeniden değerleme
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: Genel muhasebe için yabancı para birimi yeniden değerleme işlemi
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Para birimi döviz kurlarını içe aktarma
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-                - name: Bir fiş
-                  href: ../financials/general-ledger/one-voucher.md
-                - name: Genel muhasebe hesabı kapatmaları
-                  href: ../financials/general-ledger/ledger-settlements.md
-            - name: Dönem sonu kapanışı
-              items:
-                - name: Genel muhasebeyi dönem sonunda kapatma
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: Mali dönem kapatma çalışma alanı
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: Yıl sonu kapanışı
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: Mali yılı kapatma
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: Toplu mali dönem kapatma
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: Satış vergisi
-              items:
-                - name: Satış vergisine genel bakış
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: Marjinal taban ve hesaplama yöntemlerine dayalı satış vergisi oranları
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: Satış vergisi ödemeleri ve yuvarlama kuralları
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: Kaynak alanında satış vergisi hesaplama yöntemleri
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Satış vergisi kodları için tam tutar ve aralık hesaplama seçenekleri
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Satış vergisi ödemesi oluşturma
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: Belgelerde satış vergisi hareketleri oluşturma
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Satış vergisi için genel muhasebe deftere nakil grupları ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Satış vergisi makamlarını ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Satış vergisi kodlarını ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Satış vergisi raporlama kodlarını ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Satış vergisi kapatma dönemlerini ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Stopaj vergisini ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: Deftere nakledilen satış vergisi hareketlerini görüntüleme
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
-        - name: Kamu sektörü
-          href: ../financials/public-sector/public-sector-functionality.md
           items:
             - name: Kamu sektörü işlevi için planlama
               href: ../financials/public-sector/plan-public-sector-functionality.md
@@ -2038,7 +1912,7 @@
                       href: ../financials/localizations/apac-ind-GST-credit-note-against-sales-invoice.md
                     - name: Teslimat adreslerine göre bölünen satış faturaları
                       href: ../financials/localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
-                    - name: İade siparişler
+                    - name: Sipariş iadeleri
                       href: ../financials/localizations/apac-ind-GST-return-order-form.md
                 - name: Yabancı hareketler
                   items:
@@ -2429,7 +2303,8 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: Para birimi hareketleri için döviz kurlarını ayarlama
                   href: ../financials/localizations/rus-exchange-difference.md
-                - name: CBRF'den para birimi döviz kurlarını içe aktarma .. /finanals/General-Ledger/import-currency-exchange-rates.md
+                - name: Para birimi döviz kurlarını CBRF'den içe aktarma
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Avans sahipleri
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2453,11 +2328,13 @@
                   href: ../financials/localizations/rus-currency-sale-purchase.md
             - name: KDV
               items:
+                - name: Satış KDV'sinin yerel olarak özel deftere nakil işlemi
+                  href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
                 - name: Vergi temsilcileri için katma değer vergisi (KDV)
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: KDV beyannamesi
                   href: ../financials/localizations/rus-VAT-declaration.md
-                - name: 'Satış defterleri, satınalma defterleri ve fatura hazırlama günlükleri'
+                - name: 'Satış defterleri, satınalma defterleri ve fatura günlükleri'
                   href: ../financials/localizations/rus-sales-books-purchase-books.md
             - name: Sabit kıymetler
               items:
@@ -2535,6 +2412,22 @@
                   href: ../financials/localizations/rus-officials.md
                 - name: Şirket bölümleri
                   href: ../financials/localizations/rus-company-divisions.md
+            - name: Ertelemeler
+              items:
+                - name: Ertelemeleri ayarlama
+                  href: ../financials/localizations/rus-set-up-deferrals.md
+                - name: Ertelemeler oluşturma
+                  href: ../financials/localizations/rus-create-generate-deferrals.md
+                - name: Erteleme girişi
+                  href: ../financials/localizations/rus-deferral-transactions.md
+                - name: Ertelemeleri silme
+                  href: ../financials/localizations/rus-write-off-deferral.md
+                - name: Ertelemeleri elden çıkarma
+                  href: ../financials/localizations/rus-dispose-deferrals.md
+                - name: Erteleme sayımı
+                  href: ../financials/localizations/rus-counting-deferrals.md
+                - name: Erteleme için raporlama
+                  href: ../financials/localizations/rus-reporting-deferrals.md
         - name: Suudi Arabistan
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2949,204 +2842,204 @@
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
             - name: Katıştırılmış görüntüleyiciyle PDF belgelerini önizleme
               href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
-    - name: Elektronik raporlama
-      items:
-        - name: Elektronik raporlamaya genel bakış
-          href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Yapılandırmalar
+        - name: Elektronik raporlama
           items:
-            - name: Yapılandırmalar oluşturma
-              href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
-            - name: Elektronik raporlama çözümü bileşenleri hazırlama
+            - name: Elektronik raporlamaya genel bakış
+              href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Yapılandırmalar
               items:
-                - name: Etki alanına özel veri modeli tasarlama
-                  href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Uygulamaya özel meta veriler hazırlama
+                - name: Yapılandırmalar oluşturma
+                  href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+                - name: Elektronik raporlama çözümü bileşenleri hazırlama
                   items:
-                    - name: (ER) RCS'de kullanılacak uygulama meta verileri hazırlama
-                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) ER yapılandırması kullanarak uygulama meta verilerine erişme
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) Bağlı uygulamalar kullanarak uygulama meta verilerine erişme
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
-                - name: Model eşlemelerini tanımlama ve veri kaynaklarını seçme
-                  href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Veri modelini seçili veri kaynaklarına eşleme
-                  href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Biçim yapılandırması oluşturma
-                  href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Oluşturulan biçimin bileşenlerini veri modeli öğelerine eşleme
-                  href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Hazırlanan ER çözümünü hedef uygulamada test etme
+                    - name: Etki alanına özel veri modeli tasarlama
+                      href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Uygulamaya özel meta veriler hazırlama
+                      items:
+                        - name: (ER) RCS'de kullanılacak uygulama meta verileri hazırlama
+                          href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) ER yapılandırması kullanarak uygulama meta verilerine erişme
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) Bağlı uygulamalar kullanarak uygulama meta verilerine erişme
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
+                    - name: Model eşlemelerini tanımlama ve veri kaynaklarını seçme
+                      href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Veri modelini seçili veri kaynaklarına eşleme
+                      href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Biçim yapılandırması oluşturma
+                      href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Oluşturulan biçimin bileşenlerini veri modeli öğelerine eşleme
+                      href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Hazırlanan ER çözümünü hedef uygulamada test etme
+                  items:
+                    - name: (ER) Yapılandırmaları RCS'den içe aktarma
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: Biçim yapılandırması kullanarak ödemeler için elektronik belgeler oluşturma
+                      href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
+                - name: Biçimin yeni bir temel sürümünü benimseyerek biçimi yükseltme
+                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+            - name: Elektronik raporlamada formül tasarımcısı
+              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+            - name: Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
+              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Biçim oluştururken veri modeli tanımlarını seçme
+              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: İçeriği ham XML olarak ekleyerek raporlar oluşturma
+              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+            - name: (ER) Elektronik raporlamada şirketler arası veri kaynakları
+              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+            - name: Farklı biçimlerde giden elektronik belgeler oluşturmak için ER biçimleri tasarlama
               items:
-                - name: (ER) Yapılandırmaları RCS'den içe aktarma
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
-                - name: Biçim yapılandırması kullanarak ödemeler için elektronik belgeler oluşturma
-                  href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-            - name: Biçimin yeni bir temel sürümünü benimseyerek biçimi yükseltme
-              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-        - name: Elektronik raporlamada formül tasarımcısı
-          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-        - name: Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
-          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: Biçim oluştururken veri modeli tanımlarını seçme
-          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: İçeriği ham XML olarak ekleyerek raporlar oluşturma
-          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-        - name: (ER) Elektronik raporlamada şirketler arası veri kaynakları
-          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-        - name: Farklı biçimlerde giden elektronik belgeler oluşturmak için ER biçimleri tasarlama
-          items:
-            - name: (ER) OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama
-              href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: (ER) Word biçiminde raporlar oluşturmak için yapılandırmalar tasarlama
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: PDF şablonlarını doldurmak için yapılandırmalar tasarlama
-              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
-        - name: Resimler ve şekiller katıştırma
-          items:
-            - name: (ER) Oluşturduğunuz belgelere resimler ve şekiller katıştırma
-              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: Resim ve şekil katıştırma örneği
+                - name: (ER) OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama
+                  href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: (ER) Word biçiminde raporlar oluşturmak için yapılandırmalar tasarlama
+                  href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: PDF şablonlarını doldurmak için yapılandırmalar tasarlama
+                  href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+            - name: Resimler ve şekiller katıştırma
               items:
-                - name: Katıştırılmış resimlere sahip Office biçimlerinde raporlar oluşturmak için yapılandırmalar tasarlama
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: Katıştırılmış resimlere sahip Office biçimlerinde raporlar oluşturmak için yapılandırmaları gözden geçirme
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Katıştırılmış resimlere sahip Office biçimlerinde rapor oluşturma
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-        - name: Excel şablonlarını yeniden uygulayarak Elektronik raporlama biçimlerini değiştirme
-          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-        - name: Finance and Operation sürümüne bağımlı ER yapılandırmaları tasarlama
-          items:
-            - name: ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: Mali boyutları kullanmak için ER çözümü tasarlama
-          items:
-            - name: Mali boyutları veri kaynakları olarak kullanmak üzere veri modelleri tasarlama
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-            - name: Mali boyutları veri kaynağı olarak kullanmak üzere modelleri eşleme
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-            - name: Mali boyutları veri kaynağı olarak kullanan raporlar tasarlama
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-            - name: Mali boyutları veri kaynağı olarak kullanan raporları çalıştırma
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-        - name: Oluşturulan çıkıştan alınan bilgileri kullanarak sayım ve toplama yapmak için ER biçimleri tasarlama
-          items:
-            - name: Sayım ve toplama yapmak için biçimler oluşturma
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-            - name: Sayım ve toplama yapmak için biçim yapılandırma
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-            - name: Sayım ve toplama çıktısı oluşturmak için hesaplamaları kullanma
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-            - name: Sayım ve toplama yapmak için biçimleri çalıştırma
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-        - name: Excel raporlarına sütunları yatay yönlü genişletilebilir aralıklar olarak dinamik şekilde ekleme
-          items:
-            - name: Sütunları Excel raporlarına dinamik bir şekilde yatay yönlü genişletilebilir aralıklar olarak eklemek için biçimler tasarlama
-              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-            - name: Sütunları Excel raporlarına dinamik bir şekilde yatay yönlü genişletilebilir aralıklar olarak eklemek için biçimleri çalıştırma
-              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-        - name: Biçim çıktılarında Belge yönetimi dosyaları kullanma
-          items:
-            - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak için veri modelleri hazırlama
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-            - name: ER çıktılarında Belge Yönetimi dosyalarını kullanmak için veri modellerini genişletme
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-            - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak üzere biçimler oluşturma
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-            - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak üzere biçimleri çalıştırma
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-            - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak üzere biçimleri değiştirme ve çalıştırma
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-        - name: Elektronik raporlama kullanarak uygulama verilerini güncelleştirme
-          items:
-            - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
-              href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
-            - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içe aktarma
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmalar tasarlama
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-            - name: Uygulama verileri içeren belgeler oluşturmak için modelleri ve eşlemeleri değiştirme
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-            - name: Uygulama verileri içeren belgeler oluşturmak için biçimleri değiştirme
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-            - name: Uygulama verileri içeren belgeler oluşturma
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-        - name: ER çözümleri kullanarak gelen dosyalardan verileri içe aktarma
-          items:
-            - name: Genel belgeleri farklı biçimlerde ayrıştırma
-              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
-            - name: El ile seçilen dosyalardan veri içe aktarmayı yapılandırma
+                - name: (ER) Oluşturduğunuz belgelere resimler ve şekiller katıştırma
+                  href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+                - name: Resim ve şekil katıştırma örneği
+                  items:
+                    - name: Katıştırılmış resimlere sahip Office biçimlerinde raporlar oluşturmak için yapılandırmalar tasarlama
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
+                    - name: Katıştırılmış resimlere sahip Office biçimlerinde raporlar oluşturmak için yapılandırmaları gözden geçirme
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: Katıştırılmış resimlere sahip Office biçimlerinde rapor oluşturma
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+            - name: Excel şablonlarını yeniden uygulayarak Elektronik raporlama biçimlerini değiştirme
+              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+            - name: Finance and Operation sürümüne bağımlı ER yapılandırmaları tasarlama
               items:
-                - name: Harici XML dosyasından veri aktarmak için yapılandırmalar oluşturma
-                  href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-            - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içe aktarmayı yapılandırma
-              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Dosyaları XML biçiminde içe aktarma
+                - name: ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
+                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Mali boyutları kullanmak için ER çözümü tasarlama
               items:
-                - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
-                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
-                - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içe aktarmak için ER biçimleri yapılandırma
-                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                - name: Mali boyutları veri kaynakları olarak kullanmak üzere veri modelleri tasarlama
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+                - name: Mali boyutları veri kaynağı olarak kullanmak üzere modelleri eşleme
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+                - name: Mali boyutları veri kaynağı olarak kullanan raporlar tasarlama
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+                - name: Mali boyutları veri kaynağı olarak kullanan raporları çalıştırma
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+            - name: Oluşturulan çıkıştan alınan bilgileri kullanarak sayım ve toplama yapmak için ER biçimleri tasarlama
+              items:
+                - name: Sayım ve toplama yapmak için biçimler oluşturma
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+                - name: Sayım ve toplama yapmak için biçim yapılandırma
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+                - name: Sayım ve toplama çıktısı oluşturmak için hesaplamaları kullanma
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+                - name: Sayım ve toplama yapmak için biçimleri çalıştırma
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+            - name: Excel raporlarına sütunları yatay yönlü genişletilebilir aralıklar olarak dinamik şekilde ekleme
+              items:
+                - name: Sütunları Excel raporlarına dinamik bir şekilde yatay yönlü genişletilebilir aralıklar olarak eklemek için biçimler tasarlama
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+                - name: Sütunları Excel raporlarına dinamik bir şekilde yatay yönlü genişletilebilir aralıklar olarak eklemek için biçimleri çalıştırma
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+            - name: Biçim çıktılarında Belge yönetimi dosyaları kullanma
+              items:
+                - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak için veri modelleri hazırlama
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+                - name: ER çıktılarında Belge Yönetimi dosyalarını kullanmak için veri modellerini genişletme
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+                - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak üzere biçimler oluşturma
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+                - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak üzere biçimleri çalıştırma
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+                - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak üzere biçimleri değiştirme ve çalıştırma
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+            - name: Elektronik raporlama kullanarak uygulama verilerini güncelleştirme
+              items:
+                - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
+                  href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içe aktarma
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+                - name: Uygulama verileri içeren belgeler oluşturmak için yapılandırmalar tasarlama
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+                - name: Uygulama verileri içeren belgeler oluşturmak için modelleri ve eşlemeleri değiştirme
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+                - name: Uygulama verileri içeren belgeler oluşturmak için biçimleri değiştirme
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+                - name: Uygulama verileri içeren belgeler oluşturma
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+            - name: ER çözümleri kullanarak gelen dosyalardan verileri içe aktarma
+              items:
+                - name: Genel belgeleri farklı biçimlerde ayrıştırma
+                  href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+                - name: El ile seçilen dosyalardan veri içe aktarmayı yapılandırma
+                  items:
+                    - name: Harici XML dosyasından veri aktarmak için yapılandırmalar oluşturma
+                      href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
+                - name: SharePoint'te bulunan dosyalardan toplu iş modunda veri içe aktarmayı yapılandırma
+                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+                - name: Dosyaları XML biçiminde içe aktarma
+                  items:
+                    - name: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
+                      href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                    - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içe aktarmak için ER biçimleri yapılandırma
+                      href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: Oluşturulan XML dosyalarını dosya boyutu ve içerik miktarına göre bölme
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
-        - name: Yapılandırma yaşam döngüsü
-          items:
-            - name: Yapılandırma yaşam döngüsünü yönetme
-              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
-            - name: Lifecycle Services'a yapılandırma yükleme
-              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: Lifecycle Services'dan yapılandırma içe aktarma
-              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: Lifecycle Services'dan yapılandırma indirme
-              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-            - name: Yapılandırma içe aktarma
-              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: RCS deposundan ER yapılandırmalarını indirme
+            - name: Yapılandırma yaşam döngüsü
               items:
-                - name: RCS türü için ER deposundan yapılandırmaları indirme
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Yapılandırmaları RCS'den içe aktarma
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
-        - name: Finance and Operations'da Elektronik raporlama çözümlerini kullanma
-          items:
-            - name: Çerçeveyi yapılandırma
+                - name: Yapılandırma yaşam döngüsünü yönetme
+                  href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+                - name: Lifecycle Services'a yapılandırma yükleme
+                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Lifecycle Services'dan yapılandırma içe aktarma
+                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Lifecycle Services'dan yapılandırma indirme
+                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+                - name: Yapılandırma içe aktarma
+                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+                - name: RCS deposundan ER yapılandırmalarını indirme
+                  items:
+                    - name: RCS türündeki ER deposundan yapılandırmaları indirme
+                      href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: Yapılandırmaları RCS'den içe aktarma
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+            - name: Finance and Operations'da Elektronik raporlama çözümlerini kullanma
               items:
-                - name: Elektronik raporlama çerçevesini yapılandırma
-                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
-                - name: Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Hedefler
+                - name: Altyapıyı yapılandırma
+                  items:
+                    - name: Elektronik raporlama altyapısını yapılandırma
+                      href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                    - name: Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme
+                      href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Hedefler
+                  items:
+                    - name: Hedeflere genel bakış
+                      href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                    - name: Hedefleri yapılandırma
+                      href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Oluşturulan raporları otomatik olarak doğrulama
+                  items:
+                    - name: Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                    - name: Oluşturulan ER raporları sonuçlarının izlenmesi ve temel değerlerle karşılaştırılmasına ilişkin geliştirmeler
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                    - name: Elektronik raporlama ile testi otomatikleştirme
+                      href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+                - name: Elektronik raporlama yapılandırmalarını kullanarak iş süreçlerini otomatikleştirme
+                  items:
+                    - name: Power BI'ya veri çekmek için Elektronik raporlamayı yapılandırma
+                      href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                    - name: Yazdırılabilir serbest metin faturası (FTI) formları oluşturma
+                      href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+                - name: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
+                  href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+            - name: ER altyapısı API'sı
               items:
-                - name: Hedeflere genel bakış
-                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-                - name: Hedefleri yapılandırma
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Oluşturulan raporları otomatik olarak doğrulama
-              items:
-                - name: Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-                - name: Oluşturulan ER raporları sonuçlarının izlenmesi ve temel değerlerle karşılaştırılmasına ilişkin geliştirmeler
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
-                - name: Elektronik raporlama ile testi otomatikleştirme
-                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
-            - name: Elektronik raporlama yapılandırmalarını kullanarak iş süreçlerini otomatikleştirme
-              items:
-                - name: Power BI'ya veri çekmek için Elektronik raporlamayı yapılandırma
-                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-                - name: Yazdırılabilir serbest metin faturası (FTI) formları oluşturma
-                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
-        - name: ER çerçevesi API'sı
-          items:
-            - name: Elektronik raporlama işlev listesini genişletme
-              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-            - name: Application update 7.3 için elektronik raporlama çerçevesi API değişiklikleri
-              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-            - name: Oluşturulan belgeler için özel depolama konumu belirtme
-              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+                - name: Elektronik raporlama işlev listesini genişletme
+                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+                - name: Application update 7.3 için elektronik raporlama çerçevesi API değişiklikleri
+                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+                - name: Oluşturulan belgeler için özel depolama konumu belirtme
+                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: Katıştırılmış analiz çözümleri
           items:
             - name: Çalışma alanlarında katıştırılmış Power BI
@@ -3281,6 +3174,97 @@
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
     - name: Tedarik zinciri
       href: ../supply-chain/index.md
+    - name: Varlık yönetimi
+      items:
+        - name: Varlık yönetimine genel bakış
+          href: ../supply-chain/asset-management/index.md
+          items:
+            - name: İşlem yapılacak yerleşimler ve varlıklar
+              href: ../supply-chain/asset-management/overview/functional-locations-and-objects.md
+            - name: Varlıklar ve iş emirleri
+              href: ../supply-chain/asset-management/overview/objects-and-work-orders.md
+        - name: İşlem yapılacak yerleşim için kurulum
+          items:
+            - name: İşlem yapılacak yerleşimin yaşam döngüsü durumları
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-stages.md
+            - name: Bakım öznitelik türleri
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-types.md
+            - name: İşlem yapılacak yerleşim türleri
+              href: ../supply-chain/asset-management/setup-for-functional-locations/specification-types.md
+        - name: İşlem yapılacak yerleşimler
+          items:
+            - name: İşlem yapılacak yerleşimlere giriş
+              href: ../supply-chain/asset-management/functional-locations/introduction-to-functional-locations.md
+            - name: İşlem yapılacak yerleşimler oluşturma
+              href: ../supply-chain/asset-management/functional-locations/create-functional-locations.md
+            - name: İşlem yapılacak yerleşimlerde varlıkları kurma
+              href: ../supply-chain/asset-management/functional-locations/install-objects-on-functional-locations.md
+        - name: Varlıkları ayarlama
+          items:
+            - name: Varlık türleri
+              href: ../supply-chain/asset-management/setup-for-objects/object-types.md
+            - name: Koşul değerlendirme
+              href: ../supply-chain/asset-management/setup-for-objects/condition-assessment.md
+            - name: Varlık üreticisi ve modeli
+              href: ../supply-chain/asset-management/setup-for-objects/product-and-model.md
+            - name: Sayaçlar
+              href: ../supply-chain/asset-management/setup-for-objects/counters.md
+            - name: Varlık yönetimi parametreleri
+              href: ../supply-chain/asset-management/setup-for-objects/enterprise-asset-management-parameters.md
+            - name: Varlık yaşam döngüsü durumları
+              href: ../supply-chain/asset-management/setup-for-objects/object-stages.md
+            - name: Varlık hizmet düzeyleri
+              href: ../supply-chain/asset-management/setup-for-objects/object-priorities.md
+            - name: Varlıkla ilgili kritik durumlar
+              href: ../supply-chain/asset-management/setup-for-objects/object-criticalities.md
+            - name: Varlık belgeleri
+              href: ../supply-chain/asset-management/setup-for-objects/object-documents.md
+            - name: Bakım görevlileri ve çalışan grupları
+              href: ../supply-chain/asset-management/setup-for-objects/workers-and-worker-groups.md
+        - name: Varlıklar
+          items:
+            - name: Varlıklara giriş
+              href: ../supply-chain/asset-management/objects/introduction-to-objects.md
+            - name: Varlık oluşturma
+              href: ../supply-chain/asset-management/objects/create-an-object.md
+            - name: Çok düzeyli varlıklar
+              href: ../supply-chain/asset-management/objects/multi-level-objects.md
+            - name: 'Varlıkları taşıma, değiştirme ve kurma'
+              href: ../supply-chain/asset-management/objects/move-replace-and-install-objects.md
+            - name: Satınalma siparişlerine dayalı olarak varlık oluşturma
+              href: ../supply-chain/asset-management/objects/create-objects-based-on-purchase-orders.md
+            - name: Varlık ürün reçetesi
+              href: ../supply-chain/asset-management/objects/object-bom.md
+            - name: Varlık olay geçmişi
+              href: ../supply-chain/asset-management/objects/object-timeline.md
+            - name: Varlık görünümü
+              href: ../supply-chain/asset-management/objects/object-view.md
+            - name: Varlık özniteliğine genel bakış
+              href: ../supply-chain/asset-management/objects/object-specification-overview.md
+        - name: Bakım talepleri için ayarlama
+          items:
+            - name: Bakım talepleri
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/requests.md
+            - name: Bakım talebi yaşam döngüsü durumları
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-stages.md
+            - name: Bakım talebi türleri
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-types.md
+            - name: Sorumlu bakım görevlileri
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/responsible-workers.md
+        - name: Bakım taleplerini yönetme
+          items:
+            - name: Bakım talepleri
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-overview.md
+            - name: Bakım talebi oluşturma
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-a-maintenance-request.md
+            - name: Bakım talebinden iş emri oluşturma
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-work-order-from-a-maintenance-request.md
+            - name: Ödünç varlıklar
+              href: ../supply-chain/asset-management/manage-maintenance-requests/asset-loan.md
+            - name: Gelen ve giden varlıklar
+              href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
+            - name: Bakım talebi raporları
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
     - name: Master planlama
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
@@ -3289,6 +3273,8 @@
           items:
             - name: Master planları ayarlama
               href: ../supply-chain/master-planning/master-planning-setup.md
+            - name: Master planlama kurulum sihirbazı
+              href: ../supply-chain/master-planning/master-planning-setup-wizard.md
             - name: Kapsama ayarları
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: Maddeler için kapsama kurallarını tanımlama
@@ -3363,7 +3349,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Talep tahminini el ile değiştirme
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Dynamics 365 for Unified Operations Mobile uygulaması
+    - name: Mobil uygulama
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Kullanılabilir mobil çalışma alanları
@@ -3615,6 +3601,24 @@
               href: organization-administration/tasks/view-workflow-history.md
             - name: Sistemi iş akışıyla ilgili e-postayı kullanıcılara gönderecek şekilde yapılandırma
               href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
+            - name: İş akışı türleri
+              items:
+                - name: İş akışı türü oluşturma
+                  href: organization-administration/workflow-type-create.md
+                - name: İş akışı türü kontrol listesi
+                  href: organization-administration/workflow-type-checklist.md
+                - name: İş akışı kategorisi oluşturma
+                  href: organization-administration/workflow-type-category.md
+                - name: İş akışı türü için sorgu oluşturma
+                  href: organization-administration/workflow-type-query.md
+                - name: Yeni iş akışı türü oluşturma
+                  href: organization-administration/workflow-type-create-new.md
+                - name: İş akışı belgesi sınıfı oluşturma
+                  href: organization-administration/workflow-type-document-create.md
+                - name: SubmitToWorkflow sınıfı oluşturma
+                  href: organization-administration/workflow-type-submit-to-workflow.md
+                - name: İş akışı belgesi sınıfını iş akışı türüyle ilişkilendirme
+                  href: organization-administration/workflow-type-associate-document.md
             - name: İş akışı türleri raporu
               href: organization-administration/workflow-types-report.md
             - name: İş akışıyla ilgili SSS
@@ -4491,6 +4495,8 @@
               href: ../supply-chain/warehousing/tasks/create-work-class.md
             - name: Ambar çalışanlarını yönetme
               href: ../supply-chain/warehousing/manage-warehouse-workers.md
+            - name: Ambar işi için ertelenmiş işleme
+              href: ../supply-chain/warehousing/deferred-put.md
         - name: Kısmi serbest bırakma ve kısmi sevkiyat
           items:
             - name: Taşıma yükü kısmi sevkiyatı

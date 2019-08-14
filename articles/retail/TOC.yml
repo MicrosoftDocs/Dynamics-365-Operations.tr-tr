@@ -4,7 +4,9 @@
   items:
     - name: Yenilikler veya değişiklikler
       href: get-started/whats-new.md
-    - name: Dynamics 365 for Retail 10.0.3'deki yenilikler veya değişiklikler
+    - name: Dynamics 365 for Retail 10.0.5'teki önizleme özellikleri
+      href: get-started/whats-new-10-0-5.md
+    - name: Dynamics 365 for Retail 10.0.3'teki yenilikler veya değişiklikler
       href: get-started/whats-new-10-0-3.md
     - name: Dynamics 365 for Retail 10.0.2'deki yenilikler veya değişiklikler
       href: get-started/whats-new-10-0-2.md
@@ -257,7 +259,9 @@
       href: Notifications-POS.md
 - name: İadeler
   items:
-    - name: Mağazanın ürün çeşitlerine dahil olamayan ürünleri satma ve iade etme
+    - name: Bağlantılı para iadeleri
+      href: dev-itpro/linked-refunds.md
+    - name: Mağazanın ürün çeşitlerine dahil olmayan ürünleri satma ve iade etme
       href: sell-return-outside-assortments.md
     - name: Bir iade emrinde bir değişiklik yapılandırma ve işleme
       href: orderexchanges.md
@@ -323,7 +327,7 @@
       href: set-up-bar-code-masks.md
     - name: Ürün çeşitleri ayarlama
       href: set-up-assortments.md
-    - name: Mağazanın ürün çeşitlerine dahil olamayan ürünleri satma ve iade etme
+    - name: Mağazanın ürün çeşitlerine dahil olmayan ürünleri satma ve iade etme
       href: sell-return-outside-assortments.md
     - name: Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları
       href: ../supply-chain/production-control/default-order-settings.md
