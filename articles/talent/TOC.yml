@@ -8,6 +8,12 @@
         - name: Talent'taki yenilikler veya değişiklikler
           href: whats-new.md
           items:
+            - name: 23 Temmuz 2019
+              href: whats-new-talent-july-24-2019.md
+            - name: 16 Temmuz 2019
+              href: whats-new-talent-july-16-2019.md
+            - name: 9 Temmuz 2019
+              href: whats-new-talent-july-9-2019.md
             - name: 2 Temmuz 2019
               href: whats-new-talent-july-2-2019.md
             - name: 25 Haziran 2019
@@ -102,8 +108,6 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR ve Common Data Service
           href: CoreHREntities.md
-        - name: Önizleme özelliklerine erişme
-          href: access-preview-feature.md
         - name: Talent için destek alma
           href: talent-support.md
     - name: Attract ile kuruluşunuzun personelini belirleme
@@ -112,48 +116,68 @@
           href: attract-comprehensive-hiring.md
         - name: Attract özellikleri ve yetenekleri
           href: attract-overview.md
-        - name: LinkedIn SSS
-          href: attract-linkedin-faq.md
-        - name: E-posta ayarlarını yapılandırma
-          href: attract-configure-email-settings.md
-        - name: Attract'ta süreç şablonu oluşturma
-          href: Process-templates-Attract.md
+        - name: Sık sorulan sorular
+          items:
+            - name: LinkedIn tümleştirmesiyle ilgili SSS
+              href: attract-linkedin-faq.md
+        - name: Sistem ayarlarını yapılandırma
+          items:
+            - name: Şirket bilgilerini yapılandırma
+              href: admin-settings-attract.md
+            - name: Kullanıcı izinlerini ayarlama
+              href: security-attract.md
+            - name: Özellikleri yönetme
+              href: access-preview-feature.md
+            - name: Kariyer sitenizi ayarlama
+              href: career-site.md
+            - name: Broadbean tümleştirmesini etkinleştirme
+              href: attract-admin-job-board-settings.md
+            - name: E-posta ayarlarını yapılandırma
+              href: attract-configure-email-settings.md
+            - name: LinkedIn tümleştirmesini ayarlama
+              href: attract-admin-linkedin.md
+        - name: İşe alım süreci oluşturma
+          items:
+            - name: Süreç şablonu oluşturma
+              href: process-templates-attract.md
+            - name: İşe alım süreçlerindeki faaliyetler
+              href: activities-attract.md
+            - name: E-posta şablonları
+              href: email-templates.md
+            - name: Analitik raporları kullanma
+              href: analytic-reports.md
         - name: İş oluşturma ve yayınlama
-          href: Creating-jobs-Attract.md
-        - name: LinkedIn ile tümleştirmeyi ayarlama
-          href: attract-admin-linkedin.md
-        - name: Attract'tan LinkedIn'e iş yayınlama
-          href: attract-post-jobs-to-linkedin.md
-        - name: Attract'tan Broadbean'e iş yayınlama
-          href: posting-jobs-external.md
-        - name: Yetenek havuzlarını kullanarak aday kaynağı bulma
-          href: attract-talent-pools.md
-        - name: LinkedIn Recruiter ile aday kaynağı bulma
-          href: attract-linkedin-recruiter.md
-        - name: İşe alım süreçlerindeki faaliyetler
-          href: activities-attract.md
-        - name: Görüşme planlama ve geribildirim
-          href: interview-scheduling-feedback.md
+          items:
+            - name: İş oluşturma
+              href: creating-jobs-attract.md
+            - name: LinkedIn'de iş ilanları yayınlama
+              href: attract-post-jobs-to-linkedin.md
+            - name: Broadbean'de iş ilanları yayınlama
+              href: posting-jobs-external.md
+            - name: İşi kapatma
+              href: attract-close-job.md
+        - name: Aday kaynağı bulma
+          items:
+            - name: Yetenek havuzlarıyla aday kaynağı bulma
+              href: attract-talent-pools.md
+            - name: LinkedIn Recruiter ile aday kaynağı bulma
+              href: attract-linkedin-recruiter.md
+            - name: Aday kaynaklarını izleme
+              href: source-tracking.md
+            - name: Akıllı öneriler
+              href: Intelligent-Recommendations.md
+        - name: Görüşmeler ayarlama
+          items:
+            - name: Görüşme planlama ve geribildirim
+              href: interview-scheduling-feedback.md
+        - name: Teklif yapma
+          items:
+            - name: Teklif yönetimini ayarlama
+              href: offer-setup.md
+            - name: 'Teklif oluşturma, onaylama ve imzalama'
+              href: creating-offers.md
         - name: Attract'ta genişletilebilirlik
           href: extensibility-attract.md
-        - name: Attract'taki kariyer sitesi işlevi
-          href: career-site.md
-        - name: Teklif yönetimini ayarlama
-          href: offer-setup.md
-        - name: 'Teklif oluşturma, onaylama ve imzalama'
-          href: creating-offers.md
-        - name: E-posta şablonları
-          href: email-templates.md
-        - name: Attract'ta güvenlik ve rol yönetimi
-          href: security-attract.md
-        - name: Attract'ta yönetici ayarları
-          href: Admin-Settings-Attract.md
-        - name: Akıllı öneriler
-          href: Intelligent-Recommendations.md
-        - name: Aday profilleri ve başvurular için kaynakları izleme
-          href: source-tracking.md
-        - name: İşe alım süreci öngörüleri için analitik raporları kullanma
-          href: analytic-reports.md
     - name: Yeni işe alınan kişileri Onboard ile karşılama
       items:
         - name: Onboard kullanmaya başlama
@@ -184,8 +208,10 @@
               href: create-department-add-department-hierarchy.md
             - name: Tüzel kişilikler arasında İK parametreleri ayarlama
               href: set-up-hr-parameters-across-legal-entities.md
-            - name: Şirkete özgü İK parametrelerini ayarlama
+            - name: Şirkete özgü İK parametreleri ayarlama
               href: set-up-company-specific-hr-parameters.md
+            - name: Talent'taki Tarih ve Saat alanları
+              href: date-time-fields-in-talent.md
             - name: Personel eylemleriyle ilgili SSS
               href: personnel-actions-faq.md
             - name: İş süreçlerini biçimlendirme

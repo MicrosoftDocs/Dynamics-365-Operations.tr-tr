@@ -106,10 +106,28 @@
           items:
             - name: X++ dil referansı
               href: dev-ref/xpp-language-reference.md
-            - name: X++ değişkenleri ve veri türleri
-              href: dev-ref/xpp-variables-data-types.md
-            - name: 'X++ ifadeleri, döngüler ve özel durumları ele alma'
-              href: dev-ref/xpp-statements-loops.md
+            - name: Değişkenler ve veri türleri
+              items:
+                - name: Değişkenler
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: Temel veri türleri
+                  href: dev-ref/xpp-data-primitive.md
+                - name: Bileşik veri türleri
+                  href: dev-ref/xpp-data-composite.md
+                - name: Koleksiyon sınıfları
+                  href: dev-ref/xpp-data-collection.md
+                - name: Genişletilmiş veri türleri
+                  href: dev-ref/xpp-data-edt.md
+            - name: 'İfadeler, döngüler ve özel durumları işleme'
+              items:
+                - name: 'Açıklamalar, kullanma ve yazdırma'
+                  href: dev-ref/xpp-statements-loops.md
+                - name: Koşullu ifadeler
+                  href: dev-ref/xpp-conditional.md
+                - name: Döngü ifadeleri
+                  href: dev-ref/xpp-loops.md
+                - name: Özel durumları işleme
+                  href: dev-ref/xpp-exceptions.md
             - name: SQL bağlantı hatası X++ özel durumu
               href: dev-ref/sql-connection-error.md
             - name: X++ işleçleri
@@ -120,6 +138,8 @@
               href: dev-ref/xpp-classes-methods.md
             - name: X++ verilerini seçme ve değiştirme
               href: dev-ref/xpp-data-query.md
+            - name: SysDa API kullanarak veri erişimi
+              href: dev-ref/sysda.md
             - name: X++ makroları
               href: dev-ref/xpp-macros.md
             - name: X++ öznitelik sınıfları
@@ -438,6 +458,10 @@
           href: user-interface/page-layout.md
         - name: Dynamics Simgesi yazı tipi
           href: user-interface/symbol-font.md
+        - name: Kayıtlı görünümler
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: Kayıtlı görünümleri tamamen kullanan formlar oluşturma
+          href: user-interface/understanding-saved-views.md
         - name: Özel modeller kullanan test formları
           href: user-interface/testing-forms-custom-patterns.md
         - name: 'Paylaşılabilir, güvenli URL''ler oluşturma (ayrıntılı bağlantılar)'
@@ -496,7 +520,7 @@
           href: user-interface/messaging-api-center-bar-details.md
         - name: 'İleti merkezi, ileti çubuğu ve ileti ayrıntılarıyla ilgili SSS'
           href: user-interface/messaging-user.md
-    - name: Birincil form modeli kuralları
+    - name: Form modeli kuralları
       items:
         - name: Taşınan formlar için form modelleri
           href: user-interface/select-form-pattern.md
@@ -1129,7 +1153,7 @@
           href: migration-upgrade/on-prem-upgrade.md
     - name: Düzeltmeler
       items:
-        - name: Lifecycle Services'dan düzeltme indirme
+        - name: Lifecycle Services'dan güncelleştirmeler alma
           href: migration-upgrade/download-hotfix-lcs.md
         - name: Bulut ortamlarına güncelleştirmeleri uygulama
           href: deployment/apply-deployable-package-system.md
@@ -1162,12 +1186,14 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: B2B kullanıcılarını Azure AD'ye aktarma
       href: sysadmin/implement-b2b.md
+    - name: Oturumun boşta kalma zaman aşımını ayarlama
+      href: sysadmin/session-idle-timeout.md
     - name: Rol tabanlı güvenlik
       href: sysadmin/role-based-security.md
       items:
         - name: Güvenlik mimarisi
           href: sysadmin/security-architecture.md
-        - name: Hazır güvenlik raporları
+        - name: Kullanıma hazır güvenlik raporları
           href: sysadmin/security-reports.md
         - name: Yeni kullanıcılar oluşturma
           href: sysadmin/tasks/create-new-users.md
@@ -1310,6 +1336,8 @@
   items:
     - name: Finance and Operations ve Lifecycle Services için destek alma
       href: lifecycle-services/lcs-support.md
+    - name: Dynamics 365 desteğine genel bakış
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: Çin'de 21Vianet tarafından işletilen Finance and Operations için destek alma
       href: lifecycle-services/21vianet-support.md
     - name: Premier destek bileti kaydetme
