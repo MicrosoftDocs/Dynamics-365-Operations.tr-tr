@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
+ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617332"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "1790433"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Perakende işlem tutarlılık denetleyicisi
 
@@ -50,6 +50,7 @@ Aşağıdaki çizelgede işlem tutarlılık denetleyicisi ile gerçekleştirilen
 - **Müşteri hesabı**: Perakende hareket tablolarındaki müşteri hesabının Genel Merkez müşteri yöneticisinde de bulunduğunu doğrular.
 - **Satır sayısı**: Hareket başlığı tablosundan alındığı şekilde satır sayısının satış hareket tablolarındaki satır sayısıyla eşleştiğini doğrular.
 - **Fiyata vergi dahil**: **Fiyata vergi dahil** parametresinin hareket satırları arasında tutarlı olduğunu doğrular.
+- **Ödeme tutarı**: Ödeme kayıtlarının başlıktaki ödeme tutarıyla eşleştiğini doğrular.
 - **Brüt tutar**: Başlıktaki brüt tutarın, satırlardaki net tutarlar ile vergi tutarının toplamı olduğunu doğrular.
 - **Net tutar**: Başlıktaki net tutarın, satırlardaki net tutarların toplamı olduğunu doğrular.
 - **Eksik/Fazla ödeme**: Başlıktaki brüt tutar ile ödeme tutarı arasındaki farkın maksimum eksik ödeme/fazla ödeme yapılandırmasını aşmadığını doğrular.
@@ -58,10 +59,11 @@ Aşağıdaki çizelgede işlem tutarlılık denetleyicisi ile gerçekleştirilen
 - **Hediye kartı maddesi**: Retail hediye kartı maddelerinin iadesini desteklemez. Ancak, bir hediye kartının bakiyesi nakde çevrilebilir. Nakde çevirme satırı yerine iade satırı olarak işlenen bir hediye kartı maddesi için ekstre deftere nakil işlemi başarısız olur. Hediye kartı maddeleri için doğrulama işlemi, perakende hareket tablolarındaki yalnızca hediye kartı satır maddelerinin hediye kartı nakde çevirme satırları olmasını sağlamaya yardımcı olur.
 - **Negatif fiyat**: Negatif fiyat hareketi satırı olmadığını doğrular.
 - **Madde ve Ürün Çeşidi**: Hareket satırlarındaki maddelerin ve ürün çeşitlerinin madde ve ürün çeşidi ana dosyasında bulunduğunu doğrular.
+- **Vergi tutarı**: Vergi kayıtlarının satırlardaki vergi tutarlarıyla eşleştiğini doğrular. 
 
 ## <a name="set-up-the-consistency-checker"></a>Tutarlılık denetleyicisini ayarlama
 
-**Perakende \> Perakende BT \> POS deftere nakil** bölümünde "Mağaza hareketlerini doğrula" toplu işlemini düzenli aralıklar için yapılandırın. Toplu iş, "Ekstreyi toplu olarak hesaplama" ve "Ekstreyi toplu olarak deftere nakletme" işlemlerinin ayarlanmasına benzer şekilde, mağaza organizasyon hiyerarşisine göre zamanlanabilir. Bu toplu işlemi günde birden fazla kez yürütülecek şekilde yapılandırmanızı ve her P işi uygulamasının sonunda çalıştırılacak şekilde zamanlamanızı öneririz.
+**Perakende \> Perakende BT'si \> POS deftere nakil** bölümünden "Mağaza hareketlerini doğrula" toplu işlemini düzenli aralıklarla çalıştırılacak şekilde yapılandırın. Toplu iş, "Ekstreyi toplu olarak hesaplama" ve "Ekstreyi toplu olarak deftere nakletme" işlemlerinin ayarlanmasına benzer şekilde, mağaza organizasyon hiyerarşisine göre zamanlanabilir. Bu toplu işlemi günde birden fazla kez yürütülecek şekilde yapılandırmanızı ve her P işi uygulamasının sonunda çalıştırılacak şekilde zamanlamanızı öneririz.
 
 ## <a name="results-of-validation-process"></a>Doğrulama işleminin sonuçları
 

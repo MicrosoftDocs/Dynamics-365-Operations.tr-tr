@@ -1,7 +1,7 @@
 ---
 title: Mali yönetim giriş sayfası
 description: Bu konuda Microsoft Dynamics 365 for Finance and Operations'ta mali yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
-author: ShylaThompson
+author: roschlom
 manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 437c9ba7142dadcb49c9255b119586598511453d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3cdfa6291f106afe90551fcc21950d5b13f85603
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559721"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846159"
 ---
 # <a name="financial-management-home-page"></a>Mali yönetim giriş sayfası
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 21901
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f1acf2bade2bb279a35fdf4689bbbcc49e64101f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 61599e13e783fef9753aadb768cf8e6cf6b5b6a6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559469"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837458"
 ---
 # <a name="accounts-payable-home-page"></a>Borç hesapları giriş sayfası
 
