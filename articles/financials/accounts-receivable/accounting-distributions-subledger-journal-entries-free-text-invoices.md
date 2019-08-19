@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
@@ -18,32 +18,32 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d1546e8537110daec5d6655f68d3328a58ca1cb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 515d0a9c35507fad04b776e1f0b6225ac5a162d3
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571201"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836887"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a><span data-ttu-id="a8829-104">Serbest metin faturaları için hesap dağıtımları ve muavin defteri günlük girdileri</span><span class="sxs-lookup"><span data-stu-id="a8829-104">Accounting distributions and subledger journal entries for free text invoices</span></span>
+# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a><span data-ttu-id="940f2-104">Serbest metin faturaları için hesap dağıtımları ve muavin defteri günlük girdileri</span><span class="sxs-lookup"><span data-stu-id="940f2-104">Accounting distributions and subledger journal entries for free text invoices</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a8829-105">Muhasebe dağılımları, bir tutarın, örneğin gelirin, verginin veya masrafların bir serbest metin faturasında nasıl hesaba katılacağını tanımlamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="a8829-105">Accounting distributions are used to define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span> <span data-ttu-id="a8829-106">Serbest metin faturası günlüğe kaydedildiğinde hesaba katılması gereken tüm tutarlar, bir veya daha fazla muhasebe dağıtımına sahip olacaktır.</span><span class="sxs-lookup"><span data-stu-id="a8829-106">Every amount that must be accounted for when the free text invoice is journalized will have one or more accounting distributions.</span></span>
+<span data-ttu-id="940f2-105">Muhasebe dağılımları, bir tutarın, örneğin gelirin, verginin veya masrafların bir serbest metin faturasında nasıl hesaba katılacağını tanımlamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="940f2-105">Accounting distributions are used to define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span> <span data-ttu-id="940f2-106">Serbest metin faturası günlüğe kaydedildiğinde hesaba katılması gereken tüm tutarlar, bir veya daha fazla muhasebe dağıtımına sahip olacaktır.</span><span class="sxs-lookup"><span data-stu-id="940f2-106">Every amount that must be accounted for when the free text invoice is journalized will have one or more accounting distributions.</span></span>
 
-<a name="accounting-distributions"></a><span data-ttu-id="a8829-107">Muhasebe dağılımları</span><span class="sxs-lookup"><span data-stu-id="a8829-107">Accounting distributions</span></span>
+<a name="accounting-distributions"></a><span data-ttu-id="940f2-107">Muhasebe dağılımları</span><span class="sxs-lookup"><span data-stu-id="940f2-107">Accounting distributions</span></span>
 ------------------------
 
-<span data-ttu-id="a8829-108">Serbest metin faturası sayfasında aşağıdaki düğmeleri kullanarak serbest metin faturası üzerindeki her bir satır için muhasebe dağılımlarını görüntüleyebilir ve değiştirebilirsiniz</span><span class="sxs-lookup"><span data-stu-id="a8829-108">You can use the following buttons in the Free text invoice page to view, and possibly change, the accounting distributions for each amount on the free text invoice.</span></span>
+<span data-ttu-id="940f2-108">Serbest metin faturası sayfasında aşağıdaki düğmeleri kullanarak serbest metin faturası üzerindeki her bir satır için muhasebe dağılımlarını görüntüleyebilir ve değiştirebilirsiniz</span><span class="sxs-lookup"><span data-stu-id="940f2-108">You can use the following buttons in the Free text invoice page to view, and possibly change, the accounting distributions for each amount on the free text invoice.</span></span>
 
--   <span data-ttu-id="a8829-109">**Tutarları dağıtmak**—Vergiler ve masraflar gibi tek bir satır ve tüm alt satırların muhasebe dağılımlarını görüntüleyip, değiştirin.</span><span class="sxs-lookup"><span data-stu-id="a8829-109">**Distribute amounts**—View and change the accounting distributions for an individual line and any child lines, such as taxes or charges.</span></span> <span data-ttu-id="a8829-110">Alt satır için muhasebe dağılımlarını da doğrudan satış vergisi hareketleri sayfasından veya Gider hareketlerini görüntüleyebilir ve değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a8829-110">You can also view and change the accounting distributions for the child line directly from the Sales tax transactions page or the Charges transactions page.</span></span>
-    -   <span data-ttu-id="a8829-111">Serbest metin faturası başlığındaki tutarlar, örneğin gider veya para birimi yuvarlama tutarlarını, değiştirin.</span><span class="sxs-lookup"><span data-stu-id="a8829-111">Change free text invoice header amounts, such as charges or currency rounding amounts.</span></span>
-    -   <span data-ttu-id="a8829-112">Serbest metin faturası satır tutarlarını değiştirme</span><span class="sxs-lookup"><span data-stu-id="a8829-112">Change free text invoice line amounts.</span></span>
--   <span data-ttu-id="a8829-113">**Dağılımları görüntülemek**— Belge üzerindeki tüm satırların muhasebe dağılımlarını görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="a8829-113">**View distributions**—View the accounting distributions for all lines on the document.</span></span> <span data-ttu-id="a8829-114">Muhasebe dağılımlarını bu görünümden değiştiremezsiniz.</span><span class="sxs-lookup"><span data-stu-id="a8829-114">You can't change the accounting distributions from this view.</span></span>
-    -   <span data-ttu-id="a8829-115">Başlığı ve satır tutarlarını görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="a8829-115">View header and line amounts.</span></span>
+-   <span data-ttu-id="940f2-109">**Tutarları dağıtmak**—Vergiler ve masraflar gibi tek bir satır ve tüm alt satırların muhasebe dağılımlarını görüntüleyip, değiştirin.</span><span class="sxs-lookup"><span data-stu-id="940f2-109">**Distribute amounts**—View and change the accounting distributions for an individual line and any child lines, such as taxes or charges.</span></span> <span data-ttu-id="940f2-110">Alt satır için muhasebe dağılımlarını da doğrudan satış vergisi hareketleri sayfasından veya Gider hareketlerini görüntüleyebilir ve değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="940f2-110">You can also view and change the accounting distributions for the child line directly from the Sales tax transactions page or the Charges transactions page.</span></span>
+    -   <span data-ttu-id="940f2-111">Serbest metin faturası başlığındaki tutarlar, örneğin gider veya para birimi yuvarlama tutarlarını, değiştirin.</span><span class="sxs-lookup"><span data-stu-id="940f2-111">Change free text invoice header amounts, such as charges or currency rounding amounts.</span></span>
+    -   <span data-ttu-id="940f2-112">Serbest metin faturası satır tutarlarını değiştirme</span><span class="sxs-lookup"><span data-stu-id="940f2-112">Change free text invoice line amounts.</span></span>
+-   <span data-ttu-id="940f2-113">**Dağılımları görüntülemek**— Belge üzerindeki tüm satırların muhasebe dağılımlarını görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="940f2-113">**View distributions**—View the accounting distributions for all lines on the document.</span></span> <span data-ttu-id="940f2-114">Muhasebe dağılımlarını bu görünümden değiştiremezsiniz.</span><span class="sxs-lookup"><span data-stu-id="940f2-114">You can't change the accounting distributions from this view.</span></span>
+    -   <span data-ttu-id="940f2-115">Başlığı ve satır tutarlarını görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="940f2-115">View header and line amounts.</span></span>
 
-## <a name="distributing-amounts"></a><span data-ttu-id="a8829-116">Dağılım tutarları</span><span class="sxs-lookup"><span data-stu-id="a8829-116">Distributing amounts</span></span>
-<span data-ttu-id="a8829-117">Serbest metin faturası girdiğinizde, her tutar aşağıdaki şekilde dağılır.</span><span class="sxs-lookup"><span data-stu-id="a8829-117">When you enter a free text invoice, each amount will be distributed as follows.</span></span>
+## <a name="distributing-amounts"></a><span data-ttu-id="940f2-116">Dağılım tutarları</span><span class="sxs-lookup"><span data-stu-id="940f2-116">Distributing amounts</span></span>
+<span data-ttu-id="940f2-117">Serbest metin faturası girdiğinizde, her tutar aşağıdaki şekilde dağılır.</span><span class="sxs-lookup"><span data-stu-id="940f2-117">When you enter a free text invoice, each amount will be distributed as follows.</span></span>
 
 <table>
 <colgroup>
@@ -53,86 +53,86 @@ ms.locfileid: "1571201"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a8829-118">Parasal tutarın türü</span><span class="sxs-lookup"><span data-stu-id="a8829-118">Type of monetary amount</span></span></th>
-<th><span data-ttu-id="a8829-119">Ana hesabın nereden görüntüleneceği</span><span class="sxs-lookup"><span data-stu-id="a8829-119">Where the main account is displayed from</span></span></th>
-<th><span data-ttu-id="a8829-120">Hangi varsayılan mali boyutun görüntüleneceğini belirleyen öncelik sırası</span><span class="sxs-lookup"><span data-stu-id="a8829-120">Order of priority that determines which default financial dimension is displayed</span></span></th>
+<th><span data-ttu-id="940f2-118">Parasal tutarın türü</span><span class="sxs-lookup"><span data-stu-id="940f2-118">Type of monetary amount</span></span></th>
+<th><span data-ttu-id="940f2-119">Ana hesabın nereden görüntüleneceği</span><span class="sxs-lookup"><span data-stu-id="940f2-119">Where the main account is displayed from</span></span></th>
+<th><span data-ttu-id="940f2-120">Hangi varsayılan mali boyutun görüntüleneceğini belirleyen öncelik sırası</span><span class="sxs-lookup"><span data-stu-id="940f2-120">Order of priority that determines which default financial dimension is displayed</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="a8829-121">Serbest metin faturası satırı</span><span class="sxs-lookup"><span data-stu-id="a8829-121">Free text invoice line</span></span></td>
-<td><span data-ttu-id="a8829-122">Serbest metin fatura satırındaki genel muhasebe hesabı.</span><span class="sxs-lookup"><span data-stu-id="a8829-122">The ledger account on the free text invoice line.</span></span></td>
+<td><span data-ttu-id="940f2-121">Serbest metin faturası satırı</span><span class="sxs-lookup"><span data-stu-id="940f2-121">Free text invoice line</span></span></td>
+<td><span data-ttu-id="940f2-122">Serbest metin fatura satırındaki genel muhasebe hesabı.</span><span class="sxs-lookup"><span data-stu-id="940f2-122">The ledger account on the free text invoice line.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="a8829-123">Ana hesap bir tahsisat hesabıysa, tahsisat hesap tanımından varsayılan değeri kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-123">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
-<li><span data-ttu-id="a8829-124">Ana hesap tahsisat hesabı değilse, serbest metin faturası satırındaki mali boyut varsayılan şablonunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-124">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="a8829-125">Serbest metin faturası satırındaki varsayılan mali boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-125">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="a8829-126">Hesap planı sayfasındaki genel muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-126">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="940f2-123">Ana hesap bir tahsisat hesabıysa, tahsisat hesap tanımından varsayılan değeri kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-123">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="940f2-124">Ana hesap tahsisat hesabı değilse, serbest metin faturası satırındaki mali boyut varsayılan şablonunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-124">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="940f2-125">Serbest metin faturası satırındaki varsayılan mali boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-125">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="940f2-126">Hesap planı sayfasındaki genel muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-126">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="a8829-127">Sabit kıymet numarası ve değer modeli birleşimi için serbest metinli fatura satırı</span><span class="sxs-lookup"><span data-stu-id="a8829-127">Free text invoice line for a fixed asset number and value model combination</span></span>
+<td><span data-ttu-id="940f2-127">Sabit kıymet numarası ve değer modeli birleşimi için serbest metinli fatura satırı</span><span class="sxs-lookup"><span data-stu-id="940f2-127">Free text invoice line for a fixed asset number and value model combination</span></span>
 <div class="alert">
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a8829-128"><strong>Not </strong></span><span class="sxs-lookup"><span data-stu-id="a8829-128"><strong>Note</strong></span></span></th>
+<th><span data-ttu-id="940f2-128"><strong>Not </strong></span><span class="sxs-lookup"><span data-stu-id="940f2-128"><strong>Note</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="a8829-129">Serbest metin faturası satırındaki ana hesap, sabit kıymet elden hesabı olacaktır.</span><span class="sxs-lookup"><span data-stu-id="a8829-129">The main account on the free text invoice line will be the fixed asset disposal account.</span></span></td>
+<td><span data-ttu-id="940f2-129">Serbest metin faturası satırındaki ana hesap, sabit kıymet elden hesabı olacaktır.</span><span class="sxs-lookup"><span data-stu-id="940f2-129">The main account on the free text invoice line will be the fixed asset disposal account.</span></span></td>
 </tr>
 </tbody>
 </table>
 </div></td>
-<td><span data-ttu-id="a8829-130">Serbest metin fatura satırındaki genel muhasebe hesabı.</span><span class="sxs-lookup"><span data-stu-id="a8829-130">The ledger account on the free text invoice line.</span></span></td>
+<td><span data-ttu-id="940f2-130">Serbest metin fatura satırındaki genel muhasebe hesabı.</span><span class="sxs-lookup"><span data-stu-id="940f2-130">The ledger account on the free text invoice line.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="a8829-131">Serbest metin faturası satırındaki varsayılan mali boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-131">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="a8829-132">Hesap planı sayfasındaki genel muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-132">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="940f2-131">Serbest metin faturası satırındaki varsayılan mali boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-131">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="940f2-132">Hesap planı sayfasındaki genel muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-132">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="a8829-133">Serbest metinli fatura iskonto tutarı</span><span class="sxs-lookup"><span data-stu-id="a8829-133">Free text invoice discount amount</span></span></td>
-<td><span data-ttu-id="a8829-134">Ana hesap müşteri nakit iskontolarının sayfa alanında iskontoları.</span><span class="sxs-lookup"><span data-stu-id="a8829-134">The Main account for customer discounts field in the Cash discounts page.</span></span></td>
+<td><span data-ttu-id="940f2-133">Serbest metinli fatura iskonto tutarı</span><span class="sxs-lookup"><span data-stu-id="940f2-133">Free text invoice discount amount</span></span></td>
+<td><span data-ttu-id="940f2-134">Ana hesap müşteri nakit iskontolarının sayfa alanında iskontoları.</span><span class="sxs-lookup"><span data-stu-id="940f2-134">The Main account for customer discounts field in the Cash discounts page.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="a8829-135">Ana hesap bir tahsisat hesabıysa, tahsisat hesap tanımından varsayılan değeri kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-135">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
-<li><span data-ttu-id="a8829-136">Ana hesap tahsisat hesabı değilse, serbest metin faturası satırındaki mali boyut varsayılan şablonunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-136">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="a8829-137">Serbest metin faturası satırındaki varsayılan mali boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-137">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="a8829-138">Hesap planı sayfasındaki genel muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-138">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="940f2-135">Ana hesap bir tahsisat hesabıysa, tahsisat hesap tanımından varsayılan değeri kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-135">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="940f2-136">Ana hesap tahsisat hesabı değilse, serbest metin faturası satırındaki mali boyut varsayılan şablonunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-136">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="940f2-137">Serbest metin faturası satırındaki varsayılan mali boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-137">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="940f2-138">Hesap planı sayfasındaki genel muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-138">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="a8829-139">Serbest metin faturası satış vergisi tutarı</span><span class="sxs-lookup"><span data-stu-id="a8829-139">Free text invoice sales tax amount</span></span></td>
-<td><span data-ttu-id="a8829-140">Genel muhasebe deftere nakil grupları sayfasındaki satış vergisi borcu alanı.</span><span class="sxs-lookup"><span data-stu-id="a8829-140">The Sales tax payable field in the Ledger posting groups page.</span></span></td>
+<td><span data-ttu-id="940f2-139">Serbest metin faturası satış vergisi tutarı</span><span class="sxs-lookup"><span data-stu-id="940f2-139">Free text invoice sales tax amount</span></span></td>
+<td><span data-ttu-id="940f2-140">Genel muhasebe deftere nakil grupları sayfasındaki satış vergisi borcu alanı.</span><span class="sxs-lookup"><span data-stu-id="940f2-140">The Sales tax payable field in the Ledger posting groups page.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="a8829-141">Serbest metin faturası satır tutarında veya satır tutarı dağıtım giderinde tanımlanan mali boyutları kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-141">Use the financial dimensions that are defined on the free text invoice line amount or the distributions for the charge line amount.</span></span></li>
-<li><span data-ttu-id="a8829-142">Serbest metin faturası satırındaki varsayılan mali boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-142">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="a8829-143">Hesap planı sayfasındaki genel muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-143">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="940f2-141">Serbest metin faturası satır tutarında veya satır tutarı dağıtım giderinde tanımlanan mali boyutları kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-141">Use the financial dimensions that are defined on the free text invoice line amount or the distributions for the charge line amount.</span></span></li>
+<li><span data-ttu-id="940f2-142">Serbest metin faturası satırındaki varsayılan mali boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-142">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="940f2-143">Hesap planı sayfasındaki genel muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-143">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="a8829-144">Serbest metin faturası masraf satır tutarı</span><span class="sxs-lookup"><span data-stu-id="a8829-144">Free text invoice charge line amount</span></span></td>
-<td><span data-ttu-id="a8829-145">Masraflar kodu sayfasındaki alacak hesabı alanı.</span><span class="sxs-lookup"><span data-stu-id="a8829-145">The Credit account field in the Charges code page.</span></span></td>
+<td><span data-ttu-id="940f2-144">Serbest metin faturası masraf satır tutarı</span><span class="sxs-lookup"><span data-stu-id="940f2-144">Free text invoice charge line amount</span></span></td>
+<td><span data-ttu-id="940f2-145">Masraflar kodu sayfasındaki alacak hesabı alanı.</span><span class="sxs-lookup"><span data-stu-id="940f2-145">The Credit account field in the Charges code page.</span></span></td>
 <td><ol>
-<li><span data-ttu-id="a8829-146">Ana hesap bir tahsisat hesabıysa, tahsisat hesap tanımından varsayılan değeri kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-146">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
-<li><span data-ttu-id="a8829-147">Ana hesap tahsisat hesabı değilse, serbest metin faturası satırındaki mali boyut varsayılan şablonunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-147">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="a8829-148">Serbest metin faturası satırındaki varsayılan mali boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-148">Use the default financial dimension values on the free text invoice line.</span></span></li>
-<li><span data-ttu-id="a8829-149">Hesap planı sayfasındaki genel muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a8829-149">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
+<li><span data-ttu-id="940f2-146">Ana hesap bir tahsisat hesabıysa, tahsisat hesap tanımından varsayılan değeri kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-146">If the main account is an allocation account, use the default value from the allocation account definition.</span></span></li>
+<li><span data-ttu-id="940f2-147">Ana hesap tahsisat hesabı değilse, serbest metin faturası satırındaki mali boyut varsayılan şablonunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-147">If the main account is not an allocation account, use the financial dimension default template on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="940f2-148">Serbest metin faturası satırındaki varsayılan mali boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-148">Use the default financial dimension values on the free text invoice line.</span></span></li>
+<li><span data-ttu-id="940f2-149">Hesap planı sayfasındaki genel muhasebe hesabının varsayılan finansal boyut değerlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="940f2-149">Use the default financial dimension values from the ledger account in the Chart of accounts page.</span></span></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="distributing-taxes"></a><span data-ttu-id="a8829-150">Vergileri dağıtma</span><span class="sxs-lookup"><span data-stu-id="a8829-150">Distributing taxes</span></span>
-<span data-ttu-id="a8829-151">Vergiler için muhasebe dağılımları, vergiler hesaplanana dek oluşturulamaz.</span><span class="sxs-lookup"><span data-stu-id="a8829-151">Accounting distributions for taxes cannot be created until taxes are calculated.</span></span> <span data-ttu-id="a8829-152">Satış vergilerini hesaplamak için serbest metin faturası formunda aşağıdaki görevleri tamamlamanız gerekir:</span><span class="sxs-lookup"><span data-stu-id="a8829-152">To calculate sales taxes, you must complete one of the following tasks in the Free text invoice form:</span></span>
--   <span data-ttu-id="a8829-153">Satış vergisini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="a8829-153">View the sales tax.</span></span>
--   <span data-ttu-id="a8829-154">Fatura toplamını görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="a8829-154">View the invoice total.</span></span>
--   <span data-ttu-id="a8829-155">Nakit akışı tahminini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="a8829-155">View the cash flow.</span></span>
--   <span data-ttu-id="a8829-156">Serbest metin faturasının tamamının içindeki muhasebe dağılımlarını görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="a8829-156">View accounting distributions for the whole free text invoice.</span></span>
--   <span data-ttu-id="a8829-157">Yardımcı defter günlüğünü görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="a8829-157">View the subledger journal.</span></span>
+## <a name="distributing-taxes"></a><span data-ttu-id="940f2-150">Vergileri dağıtma</span><span class="sxs-lookup"><span data-stu-id="940f2-150">Distributing taxes</span></span>
+<span data-ttu-id="940f2-151">Vergiler için muhasebe dağılımları, vergiler hesaplanana dek oluşturulamaz.</span><span class="sxs-lookup"><span data-stu-id="940f2-151">Accounting distributions for taxes cannot be created until taxes are calculated.</span></span> <span data-ttu-id="940f2-152">Satış vergilerini hesaplamak için serbest metin faturası formunda aşağıdaki görevleri tamamlamanız gerekir:</span><span class="sxs-lookup"><span data-stu-id="940f2-152">To calculate sales taxes, you must complete one of the following tasks in the Free text invoice form:</span></span>
+-   <span data-ttu-id="940f2-153">Satış vergisini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="940f2-153">View the sales tax.</span></span>
+-   <span data-ttu-id="940f2-154">Fatura toplamını görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="940f2-154">View the invoice total.</span></span>
+-   <span data-ttu-id="940f2-155">Nakit akışı tahminini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="940f2-155">View the cash flow.</span></span>
+-   <span data-ttu-id="940f2-156">Serbest metin faturasının tamamının içindeki muhasebe dağılımlarını görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="940f2-156">View accounting distributions for the whole free text invoice.</span></span>
+-   <span data-ttu-id="940f2-157">Yardımcı defter günlüğünü görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="940f2-157">View the subledger journal.</span></span>
 
-## <a name="subledger-journals-for-free-text-invoices"></a><span data-ttu-id="a8829-158"> Serbest metin faturaları için muavin defter günlükleri</span><span class="sxs-lookup"><span data-stu-id="a8829-158">Subledger journals for free text invoices</span></span>
-<span data-ttu-id="a8829-159">Tam bir serbest metin faturasını deftere nakletmeden önce, faturanın doğru hesaplara nakledildiğini teyit etmek için, borçlar ve alacaklar dahil, faturanun tüm muhasebe girdisini görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a8829-159">Before you post a free text invoice, you can view the full accounting entry of the invoice, which includes debits and credits, to verify that the invoice is being posted to the correct accounts.</span></span> <span data-ttu-id="a8829-160">Bu tam görünümün muavin defteri günlük hesap girişi olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="a8829-160">This view of the full accounting entry is called a subledger journal.</span></span> <span data-ttu-id="a8829-161">Serbest metin faturasını günlüğe geçirmeden önce önizlemesini görüntülediğinizde muavin defteri günlük girdisi yanlış ise, muavin defteri günlük girdisi değiştiremezsiniz.</span><span class="sxs-lookup"><span data-stu-id="a8829-161">If the subledger journal entry is incorrect when you preview it before you journalize the free text invoice, you can't change the subledger journal entry.</span></span> <span data-ttu-id="a8829-162">Bunun yerine, hesap dağıtımları veya deftere nakil profili değiştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="a8829-162">Instead, you must change the accounting distributions or the posting profile.</span></span> <span data-ttu-id="a8829-163">Hesap dağıtımları muhasebe girişi, Borç veya alacak bir tarafı tanımlamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="a8829-163">The accounting distributions are used to define one side of the accounting entry, the debit or the credit.</span></span> <span data-ttu-id="a8829-164">Muavin defteri günlük mahsuplaştırma hesabı girişi deftere nakil profilleri gibi müşteri hesabı ya da vergi oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a8829-164">The offsetting subledger journal account entry is created from the posting profiles, such as from the customer account or the tax.</span></span>
+## <a name="subledger-journals-for-free-text-invoices"></a><span data-ttu-id="940f2-158"> Serbest metin faturaları için muavin defter günlükleri</span><span class="sxs-lookup"><span data-stu-id="940f2-158">Subledger journals for free text invoices</span></span>
+<span data-ttu-id="940f2-159">Tam bir serbest metin faturasını deftere nakletmeden önce, faturanın doğru hesaplara nakledildiğini teyit etmek için, borçlar ve alacaklar dahil, faturanun tüm muhasebe girdisini görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="940f2-159">Before you post a free text invoice, you can view the full accounting entry of the invoice, which includes debits and credits, to verify that the invoice is being posted to the correct accounts.</span></span> <span data-ttu-id="940f2-160">Bu tam görünümün muavin defteri günlük hesap girişi olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="940f2-160">This view of the full accounting entry is called a subledger journal.</span></span> <span data-ttu-id="940f2-161">Serbest metin faturasını günlüğe geçirmeden önce önizlemesini görüntülediğinizde muavin defteri günlük girdisi yanlış ise, muavin defteri günlük girdisi değiştiremezsiniz.</span><span class="sxs-lookup"><span data-stu-id="940f2-161">If the subledger journal entry is incorrect when you preview it before you journalize the free text invoice, you can't change the subledger journal entry.</span></span> <span data-ttu-id="940f2-162">Bunun yerine, hesap dağıtımları veya deftere nakil profili değiştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="940f2-162">Instead, you must change the accounting distributions or the posting profile.</span></span> <span data-ttu-id="940f2-163">Hesap dağıtımları muhasebe girişi, Borç veya alacak bir tarafı tanımlamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="940f2-163">The accounting distributions are used to define one side of the accounting entry, the debit or the credit.</span></span> <span data-ttu-id="940f2-164">Muavin defteri günlük mahsuplaştırma hesabı girişi deftere nakil profilleri gibi müşteri hesabı ya da vergi oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="940f2-164">The offsetting subledger journal account entry is created from the posting profiles, such as from the customer account or the tax.</span></span>
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Satış vergisi kodlarını ayarla
-description: Tüzel kişiliğin hesaplamak, tahsil etmek ve vergi dairelerine ödemekle yükümlü olduğu her dolaylı vergi ve harç için satış vergisi kodları oluşturulur.
+title: Satış vergisi kodlarını ayarlama
+description: Bu konuda, Dynamics 365 for Finance and Operations'da satış vergisi kodlarının nasıl ayarlanacağı açıklanmaktadır.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
@@ -10,46 +10,39 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f29442c2ef2e3d0008a74298fda218e4cbd93f8e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3419c6b569093d717158e80bd9bc01054d82bff9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571595"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834842"
 ---
-# <a name="set-up-sales-tax-codes"></a><span data-ttu-id="2fdf6-103">Satış vergisi kodlarını ayarla</span><span class="sxs-lookup"><span data-stu-id="2fdf6-103">Set up sales tax codes</span></span>
+# <a name="set-up-sales-tax-codes"></a><span data-ttu-id="4ca11-103">Satış vergisi kodlarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="4ca11-103">Set up sales tax codes</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="2fdf6-104">Tüzel kişiliğin hesaplamak, tahsil etmek ve vergi dairelerine ödemekle yükümlü olduğu her dolaylı vergi ve harç için satış vergisi kodları oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-104">Sales tax codes are created for every indirect tax or duty that the legal entity is obligated to calculate, collect, and pay to sales tax authorities.</span></span>
+<span data-ttu-id="4ca11-104">Bu konuda, Dynamics 365 for Finance and Operations'da satış vergisi kodlarının nasıl ayarlanacağı açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="4ca11-104">This topic explains how to set up sales tax codes in Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="4ca11-105">Tüzel kişiliğin hesaplamak, tahsil etmek ve vergi dairelerine ödemekle yükümlü olduğu her dolaylı vergi ve harç için satış vergisi kodları oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="4ca11-105">Sales tax codes are created for every indirect tax or duty that the legal entity is obligated to calculate, collect, and pay to sales tax authorities.</span></span>
 
-<span data-ttu-id="2fdf6-105">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="4ca11-106">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="4ca11-106">This task uses the USMF demo company.</span></span>
 
-
-
-1. <span data-ttu-id="2fdf6-106">Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi kodları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-106">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
-2. <span data-ttu-id="2fdf6-107">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-107">Click New.</span></span>
-3. <span data-ttu-id="2fdf6-108">Satış vergisi kodu alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-108">In the Sales tax code field, type a value.</span></span>
-4. <span data-ttu-id="2fdf6-109">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-109">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="2fdf6-110">Bu satış vergisinin hangi vergi dairesine, hangi aralıklarda bildirilip ödenmesi gerektiğini belirtmek üzere bir Kapatma dönemi seçin.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-110">Select a Settlement period to specify which Sales tax authority and in which intervals this sales tax needs to be reported and paid.</span></span>
-6. <span data-ttu-id="2fdf6-111">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-111">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="2fdf6-112">Satış vergisinin genel muhasebeye nakledileceği ana hesapları belirtmek için bir Genel muhasebe deftere nakil grubu seçin.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-112">Select a Ledger posting group to specify the main accounts to post sales tax to the general ledger.</span></span>
-8. <span data-ttu-id="2fdf6-113">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-113">In the list, find and select the desired record.</span></span>
-9. <span data-ttu-id="2fdf6-114">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-114">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="2fdf6-115">Hesaplama hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-115">Expand the Calculation FastTab.</span></span>
-    * <span data-ttu-id="2fdf6-116">Hesaplama hızlı sekmesinde, satış vergisi tutarlarının nasıl hesaplanacağını denetleyen birden çok alan vardır.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-116">The Calculation FastTab has multiple fields that control how sales tax amounts will be calculated.</span></span>  
-11. <span data-ttu-id="2fdf6-117">Eylem Bölmesinde, Satış vergisi kodu'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-117">On the Action Pane, click Sales tax code.</span></span>
-12. <span data-ttu-id="2fdf6-118">Değerler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-118">Click Values.</span></span>
-13. <span data-ttu-id="2fdf6-119">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-119">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="2fdf6-120">Bu vergi kodunun değerini girin.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-120">Enter the value for this tax code.</span></span>
-    * <span data-ttu-id="2fdf6-121">Hesaplama hızlı sekmesindeki Kaynak alanında Birim başına tutar seçiliyse, değer, hareketteki miktarla çarpılarak satış vergisi tutarı hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-121">On the Calculation FastTab, in the Origin field, if Amount per unit is selected, the value will be multiplied by the quantity on the transaction to calculate the sales tax amount.</span></span>  <span data-ttu-id="2fdf6-122">Vergi kodu birim tabanlı bir vergi değilse, değer, satış vergisi tutarını hesaplamak için bu vergi kodunun Kaynağına uygulanan yüzdedir.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-122">If the tax code is not a unit based tax, the value is a percentage that is applied on the Origin for this tax code to calculate the sales tax amount.</span></span>     
-15. <span data-ttu-id="2fdf6-123">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-123">Click Save.</span></span>
-16. <span data-ttu-id="2fdf6-124">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-124">Close the page.</span></span>
-17. <span data-ttu-id="2fdf6-125">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2fdf6-125">Click Save.</span></span>
+1. <span data-ttu-id="4ca11-107">**Gezinme bölmesi > Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi kodları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="4ca11-107">Go to **Navigation pane > Tax > Indirect taxes > Sales tax > Sales tax codes**.</span></span>
+2. <span data-ttu-id="4ca11-108">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="4ca11-108">Select **New**.</span></span>
+3. <span data-ttu-id="4ca11-109">**Satış vergisi kodu** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="4ca11-109">In the **Sales tax code** field, type a value.</span></span>
+4. <span data-ttu-id="4ca11-110">**Ad** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="4ca11-110">In the **Name** field, type a value.</span></span>
+5. <span data-ttu-id="4ca11-111">Bu satış vergisinin hangi vergi dairesine, hangi aralıklarda bildirilip ödenmesi gerektiğini belirtmek üzere açılır listeyi açarak bir **Kapatma dönemi** seçin.</span><span class="sxs-lookup"><span data-stu-id="4ca11-111">Select a **Settlement period** by opening the pull-down list to specify which Sales tax authority and in which intervals this sales tax needs to be reported and paid.</span></span>
+6. <span data-ttu-id="4ca11-112">Satış vergisinin genel muhasebeye nakledileceği ana hesapları belirtmek için bir **Genel muhasebe deftere nakil grubu** seçin.</span><span class="sxs-lookup"><span data-stu-id="4ca11-112">Select a **Ledger posting group** to specify the main accounts to post sales tax to the general ledger.</span></span>
+7. <span data-ttu-id="4ca11-113">**Hesaplama** hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="4ca11-113">Expand the **Calculation** FastTab.</span></span> <span data-ttu-id="4ca11-114">Burada, satış vergisi tutarlarının nasıl hesaplanacağını denetleyen birden çok alan vardır.</span><span class="sxs-lookup"><span data-stu-id="4ca11-114">This includes multiple fields that control how sales tax amounts will be calculated.</span></span> <span data-ttu-id="4ca11-115">Bu alanları gerektiği gibi doldurun.</span><span class="sxs-lookup"><span data-stu-id="4ca11-115">Fill these fields out as needed.</span></span>  
+8. <span data-ttu-id="4ca11-116">Arabirimin üst kısmındaki **Eylem Bölmesinde**, **Satış vergisi kodunu** seçin.</span><span class="sxs-lookup"><span data-stu-id="4ca11-116">On the **Action Pane** at the top of the interface, select **Sales tax code**.</span></span>
+9. <span data-ttu-id="4ca11-117">**Değerler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="4ca11-117">Select **Values**.</span></span>
+10. <span data-ttu-id="4ca11-118">Bu vergi kodunun değerini **değer** sütununa girin.</span><span class="sxs-lookup"><span data-stu-id="4ca11-118">Enter the value for this tax code in the **value** column.</span></span>
+    - <span data-ttu-id="4ca11-119">**Hesaplama** hızlı sekmesindeki Kaynak alanında Birim başına tutar seçiliyse, değer, hareketteki miktarla çarpılarak satış vergisi tutarı hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="4ca11-119">On the **Calculation** FastTab, in the Origin field, if Amount per unit is selected, the value will be multiplied by the quantity on the transaction to calculate the sales tax amount.</span></span>  <span data-ttu-id="4ca11-120">Vergi kodu birim tabanlı bir vergi değilse, değer, satış vergisi tutarını hesaplamak için bu vergi kodunun Kaynağına uygulanan yüzdedir.</span><span class="sxs-lookup"><span data-stu-id="4ca11-120">If the tax code is not a unit based tax, the value is a percentage that is applied on the Origin for this tax code to calculate the sales tax amount.</span></span>     
+11. <span data-ttu-id="4ca11-121">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="4ca11-121">Select **Save**.</span></span>
+12. <span data-ttu-id="4ca11-122">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="4ca11-122">Close the page.</span></span>
+13. <span data-ttu-id="4ca11-123">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="4ca11-123">Select **Save**.</span></span>
 

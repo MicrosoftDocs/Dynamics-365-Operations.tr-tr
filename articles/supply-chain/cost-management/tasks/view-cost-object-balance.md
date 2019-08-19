@@ -10,33 +10,33 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, InventCostDimParmFixed
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eff5e25e6a79da57e10489c86e134a2cc01d1396
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d01ca4f533fb89f280712d842fc260867264ca30
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563147"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838939"
 ---
-# <a name="view-cost-object-balance"></a><span data-ttu-id="8b30d-103">Maliyet nesnesi bakiyesini görüntüleme</span><span class="sxs-lookup"><span data-stu-id="8b30d-103">View cost object balance</span></span>
+# <a name="view-cost-object-balance"></a><span data-ttu-id="6fa9e-103">Maliyet nesnesi bakiyesini görüntüleme</span><span class="sxs-lookup"><span data-stu-id="6fa9e-103">View cost object balance</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="8b30d-104">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="8b30d-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="8b30d-105">Bu yordam maliyet denetleyicisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="8b30d-105">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="6fa9e-104">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="6fa9e-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="6fa9e-105">Bu yordam maliyet denetleyicisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="6fa9e-105">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="8b30d-106">Maliyet yönetimi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8b30d-106">Click Cost administration.</span></span>
-2. <span data-ttu-id="8b30d-107">Sevk edilen ürünler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8b30d-107">Click Released products.</span></span>
-3. <span data-ttu-id="8b30d-108">'m0004' değerine sahip ürün numaralarına filtre uygulamak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="8b30d-108">Use the Quick Filter to filter on the Item number field with a value of 'm0004'.</span></span>
-4. <span data-ttu-id="8b30d-109">Eylem Bölmesinde Yönet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8b30d-109">On the Action Pane, click Manage costs.</span></span>
-5. <span data-ttu-id="8b30d-110">Maliyet nesneleri'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="8b30d-110">Click Cost objects.</span></span>
-6. <span data-ttu-id="8b30d-111">Fiziksel miktar'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="8b30d-111">Click Physical quantity.</span></span>
-7. <span data-ttu-id="8b30d-112">Boyutların görünümü'nü tıklatın.</span><span class="sxs-lookup"><span data-stu-id="8b30d-112">Click Dimensions display.</span></span>
-8. <span data-ttu-id="8b30d-113">Yerleşim onay kutusunu temizleyin.</span><span class="sxs-lookup"><span data-stu-id="8b30d-113">Clear the Location check box.</span></span>
-9. <span data-ttu-id="8b30d-114">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8b30d-114">Click OK.</span></span>
+1. <span data-ttu-id="6fa9e-106">Maliyet yönetimi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6fa9e-106">Click Cost administration.</span></span>
+2. <span data-ttu-id="6fa9e-107">Sevk edilen ürünler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6fa9e-107">Click Released products.</span></span>
+3. <span data-ttu-id="6fa9e-108">'m0004' değerine sahip ürün numaralarına filtre uygulamak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="6fa9e-108">Use the Quick Filter to filter on the Item number field with a value of 'm0004'.</span></span>
+4. <span data-ttu-id="6fa9e-109">Eylem Bölmesinde Yönet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6fa9e-109">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="6fa9e-110">Maliyet nesneleri'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6fa9e-110">Click Cost objects.</span></span>
+6. <span data-ttu-id="6fa9e-111">Fiziksel miktar'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6fa9e-111">Click Physical quantity.</span></span>
+7. <span data-ttu-id="6fa9e-112">Boyutların görünümü'nü tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6fa9e-112">Click Dimensions display.</span></span>
+8. <span data-ttu-id="6fa9e-113">Yerleşim onay kutusunu temizleyin.</span><span class="sxs-lookup"><span data-stu-id="6fa9e-113">Clear the Location check box.</span></span>
+9. <span data-ttu-id="6fa9e-114">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6fa9e-114">Click OK.</span></span>
 

@@ -9,46 +9,46 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 8111601cb2948c66097b0f5b2f261b7462b279f9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 91db6e8f921bd674211f6d478b6d0f0a832c983c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567090"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1847027"
 ---
-# <a name="set-up-warehouses-for-transfer-orders"></a><span data-ttu-id="54942-103">Transfer emirleri için ambarlar ayarlama</span><span class="sxs-lookup"><span data-stu-id="54942-103">Set up warehouses for transfer orders</span></span> 
+# <a name="set-up-warehouses-for-transfer-orders"></a><span data-ttu-id="703f1-103">Transfer emirleri için ambarlar ayarlama</span><span class="sxs-lookup"><span data-stu-id="703f1-103">Set up warehouses for transfer orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="54942-104">Ambarlar arası transfer emirlerini destekleyen bir hiyerarşi oluşturmak için ambar düzeylerini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="54942-104">You can use warehouse levels to create a hierarchy that supports transfer orders between warehouses.</span></span> <span data-ttu-id="54942-105">Master planlama, bu kurulumu temel alarak madde gereksinimlerini tek tek ambar düzeyinde hesaplar ve bunları karşılamak üzere, atanmış bir kaynak ambardan planlı transfer emirleri oluşturur.</span><span class="sxs-lookup"><span data-stu-id="54942-105">Based on this setup, master scheduling calculates item requirements at the individual warehouse level and generates planned transfer orders from an assigned source warehouse to fulfill them.</span></span>
+<span data-ttu-id="703f1-104">Ambarlar arası transfer emirlerini destekleyen bir hiyerarşi oluşturmak için ambar düzeylerini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="703f1-104">You can use warehouse levels to create a hierarchy that supports transfer orders between warehouses.</span></span> <span data-ttu-id="703f1-105">Master planlama, bu kurulumu temel alarak madde gereksinimlerini tek tek ambar düzeyinde hesaplar ve bunları karşılamak üzere, atanmış bir kaynak ambardan planlı transfer emirleri oluşturur.</span><span class="sxs-lookup"><span data-stu-id="703f1-105">Based on this setup, master scheduling calculates item requirements at the individual warehouse level and generates planned transfer orders from an assigned source warehouse to fulfill them.</span></span>
 
-1.  <span data-ttu-id="54942-106">**Stok yönetimi > Kurulum > Stok dökümü > Ambarlar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="54942-106">Click **Inventory management > Setup > Inventory breakdown > Warehouses**.</span></span>
+1.  <span data-ttu-id="703f1-106">**Stok yönetimi > Kurulum > Stok dökümü > Ambarlar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="703f1-106">Click **Inventory management > Setup > Inventory breakdown > Warehouses**.</span></span>
 
-2.  <span data-ttu-id="54942-107">Stok yenilemesi yapmak istediğiniz ambarı seçin.</span><span class="sxs-lookup"><span data-stu-id="54942-107">Select the warehouse that you want to refill.</span></span>
+2.  <span data-ttu-id="703f1-107">Stok yenilemesi yapmak istediğiniz ambarı seçin.</span><span class="sxs-lookup"><span data-stu-id="703f1-107">Select the warehouse that you want to refill.</span></span>
 
-3.  <span data-ttu-id="54942-108">**Master planlama** hızlı sekmesinde, **Yeniden doldurma** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="54942-108">On the **Master planning** FastTab, select the **Refilling** check box.</span></span>
+3.  <span data-ttu-id="703f1-108">**Master planlama** hızlı sekmesinde, **Yeniden doldurma** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="703f1-108">On the **Master planning** FastTab, select the **Refilling** check box.</span></span>
 
-4.  <span data-ttu-id="54942-109">**Ana ambar** alanında, stok yenileme ambarı olarak atamak istediğiniz ambarı seçin.</span><span class="sxs-lookup"><span data-stu-id="54942-109">In the **Main warehouse** field, select the warehouse that you want to assign as the refilling warehouse.</span></span> <span data-ttu-id="54942-110">Master planlama seçilen ambara ait transfer gereksinimini hesaplayıp atanmış **Ana ambar** noktasından bir planlı transfer emri oluşturur.</span><span class="sxs-lookup"><span data-stu-id="54942-110">Master scheduling calculates a transfer requirement for the selected warehouse and generates a planned transfer order from the assigned **Main warehouse**.</span></span>
+4.  <span data-ttu-id="703f1-109">**Ana ambar** alanında, stok yenileme ambarı olarak atamak istediğiniz ambarı seçin.</span><span class="sxs-lookup"><span data-stu-id="703f1-109">In the **Main warehouse** field, select the warehouse that you want to assign as the refilling warehouse.</span></span> <span data-ttu-id="703f1-110">Master planlama seçilen ambara ait transfer gereksinimini hesaplayıp atanmış **Ana ambar** noktasından bir planlı transfer emri oluşturur.</span><span class="sxs-lookup"><span data-stu-id="703f1-110">Master scheduling calculates a transfer requirement for the selected warehouse and generates a planned transfer order from the assigned **Main warehouse**.</span></span>
    
     > [!NOTE]
-    > <P><span data-ttu-id="54942-111"><STRONG>Dolum</STRONG> onay kutusunu alanını silerseniz, seçili ambara <STRONG>Ana ambar</STRONG>'a göre bir ambar düzeyi atanır, ancak <STRONG>Ana ambar</STRONG> bir dolum ambarı olarak ayarlanmaz.</span><span class="sxs-lookup"><span data-stu-id="54942-111">If you clear the <STRONG>Refilling</STRONG> check box, the selected warehouse is assigned a warehouse level in regard to the <STRONG>Main warehouse</STRONG>, but the <STRONG>Main warehouse</STRONG> is not set up as a refilling warehouse.</span></span></P>
+    > <P><span data-ttu-id="703f1-111"><STRONG>Dolum</STRONG> onay kutusunu alanını silerseniz, seçili ambara <STRONG>Ana ambar</STRONG>'a göre bir ambar düzeyi atanır, ancak <STRONG>Ana ambar</STRONG> bir dolum ambarı olarak ayarlanmaz.</span><span class="sxs-lookup"><span data-stu-id="703f1-111">If you clear the <STRONG>Refilling</STRONG> check box, the selected warehouse is assigned a warehouse level in regard to the <STRONG>Main warehouse</STRONG>, but the <STRONG>Main warehouse</STRONG> is not set up as a refilling warehouse.</span></span></P>
 
-5.  <span data-ttu-id="54942-112">Yeni kurulumu uygulamak için sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="54942-112">Close the page to apply the new setup.</span></span>
+5.  <span data-ttu-id="703f1-112">Yeni kurulumu uygulamak için sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="703f1-112">Close the page to apply the new setup.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="54942-113">Yeniden dolum için ambar atamak isterseniz, önce bu ambarı bir stok boyutu olarak <STRONG>Stok boyutu grupları</STRONG> sayfasında ayarlamalısınız.</span><span class="sxs-lookup"><span data-stu-id="54942-113">If you want to assign a warehouse for refilling, you must first set up the warehouse as a storage dimension on the <STRONG>Storage dimension groups</STRONG> page.</span></span> <span data-ttu-id="54942-114">Bu sayfada <STRONG>Etkin</STRONG> alanını ve <STRONG>Boyuta göre kapsama planı</STRONG> alanını ambar için seçin.</span><span class="sxs-lookup"><span data-stu-id="54942-114">On this page, select the <STRONG>Active</STRONG> field and the <STRONG>Coverage plan by dimension</STRONG> field for the warehouse.</span></span></P>
+> <P><span data-ttu-id="703f1-113">Yeniden dolum için ambar atamak isterseniz, önce bu ambarı bir stok boyutu olarak <STRONG>Stok boyutu grupları</STRONG> sayfasında ayarlamalısınız.</span><span class="sxs-lookup"><span data-stu-id="703f1-113">If you want to assign a warehouse for refilling, you must first set up the warehouse as a storage dimension on the <STRONG>Storage dimension groups</STRONG> page.</span></span> <span data-ttu-id="703f1-114">Bu sayfada <STRONG>Etkin</STRONG> alanını ve <STRONG>Boyuta göre kapsama planı</STRONG> alanını ambar için seçin.</span><span class="sxs-lookup"><span data-stu-id="703f1-114">On this page, select the <STRONG>Active</STRONG> field and the <STRONG>Coverage plan by dimension</STRONG> field for the warehouse.</span></span></P>
 
-## <a name="set-up-transport-lead-time"></a><span data-ttu-id="54942-115">Taşıma sağlama süresi ayarlama</span><span class="sxs-lookup"><span data-stu-id="54942-115">Set up transport lead time</span></span>
+## <a name="set-up-transport-lead-time"></a><span data-ttu-id="703f1-115">Taşıma sağlama süresi ayarlama</span><span class="sxs-lookup"><span data-stu-id="703f1-115">Set up transport lead time</span></span>
 
-<span data-ttu-id="54942-116">**Taşıma günü** sayfasında ambarlar arasındaki taşıma sağlama sürelerini de ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="54942-116">You must also set up the transport lead time between the warehouses on the **Transport days** page.</span></span> 
-1. <span data-ttu-id="54942-117">**Stok yönetimi > Kurulum > Dağıtım > Taşıma günleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="54942-117">Go to **Inventory management > Setup > Distribution > Transport days**.</span></span>
-2. <span data-ttu-id="54942-118">**Alım noktası** alanında, **ambar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="54942-118">In the **Receiving point** field, select **warehouse**.</span></span>
-3. <span data-ttu-id="54942-119">**Sevkiyat ambarı**, **Alım ambarı** ve **Taşıma günleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="54942-119">Select the **Shipping warehouse**, **Receiving warehouse**, and **Transport days**.</span></span> 
-4. <span data-ttu-id="54942-120">(İsteğe bağlı) Taşıma şekline bağlı olarak taşıma süresini de **Teslimat türüne göre taşıma günleri** sekmesinde ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="54942-120">(Optional) You can also set transport time, depending on the mode of delivery, under the **Transport days per mode of delivery** tab.</span></span>
+<span data-ttu-id="703f1-116">**Taşıma günü** sayfasında ambarlar arasındaki taşıma sağlama sürelerini de ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="703f1-116">You must also set up the transport lead time between the warehouses on the **Transport days** page.</span></span> 
+1. <span data-ttu-id="703f1-117">**Stok yönetimi > Kurulum > Dağıtım > Taşıma günleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="703f1-117">Go to **Inventory management > Setup > Distribution > Transport days**.</span></span>
+2. <span data-ttu-id="703f1-118">**Alım noktası** alanında, **ambar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="703f1-118">In the **Receiving point** field, select **warehouse**.</span></span>
+3. <span data-ttu-id="703f1-119">**Sevkiyat ambarı**, **Alım ambarı** ve **Taşıma günleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="703f1-119">Select the **Shipping warehouse**, **Receiving warehouse**, and **Transport days**.</span></span> 
+4. <span data-ttu-id="703f1-120">(İsteğe bağlı) Taşıma şekline bağlı olarak taşıma süresini de **Teslimat türüne göre taşıma günleri** sekmesinde ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="703f1-120">(Optional) You can also set transport time, depending on the mode of delivery, under the **Transport days per mode of delivery** tab.</span></span>

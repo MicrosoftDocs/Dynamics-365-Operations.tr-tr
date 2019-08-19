@@ -1,9 +1,9 @@
 ---
 title: Yük planlama çalışma ekranını kullanarak yükleri ve sevkiyatları planlama
-description: Bu yordam, yük planlama çalışma alanını, bir satış siparişi için bir yükleme oluşturmada nasıl kullanacağınızı gösterir.
+description: Bu konuda yük planlama çalışma alanını, bir satış siparişi için bir yükleme oluşturmada kullanma açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,53 +16,47 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5e20eef8aa748bb64c6c14dd7e1d92ccf6592e0
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564820"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1739077"
 ---
-# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="66218-103">Yük planlama çalışma ekranını kullanarak yükleri ve sevkiyatları planlama</span><span class="sxs-lookup"><span data-stu-id="66218-103">Plan loads and shipments using the Load planning workbench</span></span>
+# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="19f52-103">Yük planlama çalışma ekranını kullanarak yükleri ve sevkiyatları planlama</span><span class="sxs-lookup"><span data-stu-id="19f52-103">Plan loads and shipments using the Load planning workbench</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="66218-104">Bu yordam, yük planlama çalışma alanını, bir satış siparişi için bir yükleme oluşturmada nasıl kullanacağınızı gösterir.</span><span class="sxs-lookup"><span data-stu-id="66218-104">This procedure shows how to use the load planning workbench to create a load for a sales order.</span></span> <span data-ttu-id="66218-105">Bir önkoşul olarak satış siparişi ilk oluşturacağız.</span><span class="sxs-lookup"><span data-stu-id="66218-105">As a prerequisite we'll create the sales order first.</span></span> <span data-ttu-id="66218-106">Bu yordamı ulaşım koordinatörü için günlük çalışmanın bir parçasıdır.</span><span class="sxs-lookup"><span data-stu-id="66218-106">This procedure is part of the daily work for the transportation coordinator.</span></span> <span data-ttu-id="66218-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="66218-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="19f52-104">Bu konuda yük planlama çalışma alanını, bir satış siparişi için bir yükleme oluşturmada kullanma açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="19f52-104">This topic shows how to use the load planning workbench to create a load for a sales order.</span></span> <span data-ttu-id="19f52-105">Bir önkoşul olarak satış siparişi ilk oluşturacağız.</span><span class="sxs-lookup"><span data-stu-id="19f52-105">As a prerequisite we'll create the sales order first.</span></span> <span data-ttu-id="19f52-106">Bu yordamı ulaşım koordinatörü için günlük çalışmanın bir parçasıdır.</span><span class="sxs-lookup"><span data-stu-id="19f52-106">This procedure is part of the daily work for the transportation coordinator.</span></span> <span data-ttu-id="19f52-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="19f52-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-sales-order"></a><span data-ttu-id="66218-108">Satış siparişi oluştur</span><span class="sxs-lookup"><span data-stu-id="66218-108">Create a sales order</span></span>
-1. <span data-ttu-id="66218-109">Alacak hesapları > Siparişler > Tüm satış siparişleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="66218-109">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="66218-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="66218-110">Click New.</span></span>
-3. <span data-ttu-id="66218-111">Müşteri hesabı alanında, açılır menü düğmesine tıklayarak açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="66218-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="66218-112">Hesap US-004'ü seçin.</span><span class="sxs-lookup"><span data-stu-id="66218-112">Select account US-004.</span></span>
-5. <span data-ttu-id="66218-113">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="66218-113">Click OK.</span></span>
-6. <span data-ttu-id="66218-114">Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="66218-114">In the Item number field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="66218-115">Madde A0001'i seçin.</span><span class="sxs-lookup"><span data-stu-id="66218-115">Select item A0001.</span></span>
-    * <span data-ttu-id="66218-116">A0001, taşıma yönetimi için etkindir.</span><span class="sxs-lookup"><span data-stu-id="66218-116">A0001 is enabled for transportation management.</span></span>  
-8. <span data-ttu-id="66218-117">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="66218-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="66218-118">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="66218-118">In the Quantity field, enter a number.</span></span>
-10. <span data-ttu-id="66218-119">Ambar alanına '24' yazın.</span><span class="sxs-lookup"><span data-stu-id="66218-119">In the Warehouse field, type '24'.</span></span>
-    * <span data-ttu-id="66218-120">Bu örnekte ambar 24'ü seçin.</span><span class="sxs-lookup"><span data-stu-id="66218-120">In this example select warehouse 24.</span></span> <span data-ttu-id="66218-121">Bu ambar taşımacılık ve gelişmiş ambar yönetimi için etkinleştirilir.</span><span class="sxs-lookup"><span data-stu-id="66218-121">This warehouse is enabled for transportation management and advanced warehouse management.</span></span>  
-11. <span data-ttu-id="66218-122">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="66218-122">Click Save.</span></span>
-12. <span data-ttu-id="66218-123">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="66218-123">Close the page.</span></span>
+## <a name="create-a-sales-order"></a><span data-ttu-id="19f52-108">Satış siparişi oluştur</span><span class="sxs-lookup"><span data-stu-id="19f52-108">Create a sales order</span></span>
+1. <span data-ttu-id="19f52-109">**Gezinti bölmesi > Modüller > Alacak hesapları > Siparişler > Tüm satış siparişleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="19f52-109">Go to the **Navigation pane > Modules > Accounts receivable > Orders > All sales orders**.</span></span>
+2. <span data-ttu-id="19f52-110">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-110">Select **New**.</span></span>
+3. <span data-ttu-id="19f52-111">**Müşteri hesabı** alanında, aramayı açmak için açılır menü düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-111">In the **Customer account** field, select the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="19f52-112">**US-004** hesabını seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-112">Select account **US-004**.</span></span>
+5. <span data-ttu-id="19f52-113">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-113">Select **OK**.</span></span>
+6. <span data-ttu-id="19f52-114">**Madde numarası** alanında, açılır menü düğmesini seçerek aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="19f52-114">In the **Item number** field, select the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="19f52-115">**A0001** maddesini seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-115">Select item **A0001**.</span></span> <span data-ttu-id="19f52-116">**A0001** taşıma yönetimi için etkindir.</span><span class="sxs-lookup"><span data-stu-id="19f52-116">**A0001** is enabled for transportation management.</span></span>  
+8. <span data-ttu-id="19f52-117">**Tesis** alanında, açılır menü düğmesini seçerek aramayı açın, ardından bir öğe seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-117">In the **Site** field, select the drop-down button to open the lookup, then select an item.</span></span>
+9. <span data-ttu-id="19f52-118">**Miktar** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="19f52-118">In the **Quantity** field, enter a number.</span></span>
+10. <span data-ttu-id="19f52-119">**ambar** alanına bu örnek için '24' yazın.</span><span class="sxs-lookup"><span data-stu-id="19f52-119">In the **Warehouse** field, type '24' for this example.</span></span> <span data-ttu-id="19f52-120">Bu ambar taşımacılık ve gelişmiş ambar yönetimi için etkinleştirilir.</span><span class="sxs-lookup"><span data-stu-id="19f52-120">This warehouse is enabled for transportation management and advanced warehouse management.</span></span>  
+11. <span data-ttu-id="19f52-121">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-121">Select **Save**.</span></span>
+12. <span data-ttu-id="19f52-122">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="19f52-122">Close the page.</span></span>
 
-## <a name="create-a-new-load"></a><span data-ttu-id="66218-124">Yeni bir yük oluştur</span><span class="sxs-lookup"><span data-stu-id="66218-124">Create a new load</span></span>
-1. <span data-ttu-id="66218-125">Taşıma yönetimi > Planlama > Yük planlama çalışma ekranına gidin.</span><span class="sxs-lookup"><span data-stu-id="66218-125">Go to Transportation management > Planning > Load planning workbench.</span></span>
-2. <span data-ttu-id="66218-126">Satış vergisi satırını tıklatın.</span><span class="sxs-lookup"><span data-stu-id="66218-126">Click the Sales lines tab.</span></span>
-    * <span data-ttu-id="66218-127">Şimdi oluşturduğunuz satış siparişi için yük oluşturacaksınız.</span><span class="sxs-lookup"><span data-stu-id="66218-127">Now you'll build the load for the sales order that you just created.</span></span> <span data-ttu-id="66218-128">Yükler satınalma siparişlerinin, transfer emirleri ve satış siparişlerinin arz ve talebine göre oluşturulabilirler</span><span class="sxs-lookup"><span data-stu-id="66218-128">Loads can be built based on supply and demand from purchase orders, transfer orders, and sales orders.</span></span>  
-3. <span data-ttu-id="66218-129">Eylem Bölmesinde, Arz ve Talep'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="66218-129">On the Action Pane, click Supply and demand.</span></span>
-4. <span data-ttu-id="66218-130">Yeni yüke'ye tılayın.</span><span class="sxs-lookup"><span data-stu-id="66218-130">Click To new load.</span></span>
-5. <span data-ttu-id="66218-131">Şablon kimliği yükle alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="66218-131">In the Load template ID field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="66218-132">Yük şablonu, ağırlık ve hacim için tüm yükte geçerli olacak maksimum ölçümleri belirler.</span><span class="sxs-lookup"><span data-stu-id="66218-132">The Load template defines maximum measurements for weight and volume of the entire load.</span></span> <span data-ttu-id="66218-133">Yük şablonu örneğin bir konteyner veya kamyonun boyutunu temsil edebilir.</span><span class="sxs-lookup"><span data-stu-id="66218-133">For example, the load template might represent the size of a container or truck.</span></span>  
-6. <span data-ttu-id="66218-134">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="66218-134">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="66218-135">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="66218-135">Click OK.</span></span>
+## <a name="create-a-new-load"></a><span data-ttu-id="19f52-123">Yeni bir yük oluştur</span><span class="sxs-lookup"><span data-stu-id="19f52-123">Create a new load</span></span>
+1. <span data-ttu-id="19f52-124">**Gezinti bölmesi > Modüller > Taşıma yönetimi > Planlama > Yük planlama çalışma ekranı**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="19f52-124">Go to the **Navigation pane > Modules > Transportation management > Planning > Load planning workbench**.</span></span>
+2. <span data-ttu-id="19f52-125">**Satış satırları** sekmesini seçin. Şimdi oluşturduğunuz satış siparişi için yük oluşturun.</span><span class="sxs-lookup"><span data-stu-id="19f52-125">Select the **Sales lines** tab. Now you'll build the load for the sales order that you just created.</span></span> <span data-ttu-id="19f52-126">Yükler satınalma siparişlerinin, transfer emirleri ve satış siparişlerinin arz ve talebine göre oluşturulabilirler</span><span class="sxs-lookup"><span data-stu-id="19f52-126">Loads can be built based on supply and demand from purchase orders, transfer orders, and sales orders.</span></span>  
+3. <span data-ttu-id="19f52-127">Eylem Bölmesinde **Arz ve talep**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-127">On the Action Pane, select **Supply and demand**.</span></span>
+4. <span data-ttu-id="19f52-128">**Yeni yüke**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-128">Select **To new load**.</span></span>
+5. <span data-ttu-id="19f52-129">**Yük şablonu kodu** alanında aramayı açmak için açılır menü düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-129">In the **Load template ID** field, select the drop-down button to open the lookup.</span></span> <span data-ttu-id="19f52-130">Yük şablonu, ağırlık ve hacim için tüm yükte geçerli olacak maksimum ölçümleri belirler.</span><span class="sxs-lookup"><span data-stu-id="19f52-130">The Load template defines maximum measurements for weight and volume of the entire load.</span></span> <span data-ttu-id="19f52-131">Yük şablonu örneğin bir konteyner veya kamyonun boyutunu temsil edebilir.</span><span class="sxs-lookup"><span data-stu-id="19f52-131">For example, the load template might represent the size of a container or truck.</span></span> <span data-ttu-id="19f52-132">Bir madde seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-132">Select an item.</span></span>
+6. <span data-ttu-id="19f52-133">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-133">Select **OK**.</span></span>
 
-## <a name="rate-and-route-the-load"></a><span data-ttu-id="66218-136">Yük için orana ve rota</span><span class="sxs-lookup"><span data-stu-id="66218-136">Rate and route the load</span></span>
-1. <span data-ttu-id="66218-137">Oran ve rota'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="66218-137">Click Rating and routing.</span></span>
-2. <span data-ttu-id="66218-138">Rota çalışma ekranı oranı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="66218-138">Click Rate route workbench.</span></span>
-3. <span data-ttu-id="66218-139">Atölye oranı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="66218-139">Click Rate shop.</span></span>
-4. <span data-ttu-id="66218-140">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="66218-140">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="66218-141">Atama'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="66218-141">Click Assign.</span></span>
-6. <span data-ttu-id="66218-142">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="66218-142">Close the page.</span></span>
-7. <span data-ttu-id="66218-143">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="66218-143">Close the page.</span></span>
+## <a name="rate-and-route-the-load"></a><span data-ttu-id="19f52-134">Yük için orana ve rota</span><span class="sxs-lookup"><span data-stu-id="19f52-134">Rate and route the load</span></span>
+1. <span data-ttu-id="19f52-135">**Oran ve rota**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-135">Select **Rating and routing**.</span></span>
+2. <span data-ttu-id="19f52-136">**Rota çalışma ekranı oranı**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-136">Select **Rate route workbench**.</span></span>
+3. <span data-ttu-id="19f52-137">**Atölye oranı**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-137">Select **Rate shop**.</span></span>
+4. <span data-ttu-id="19f52-138">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-138">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="19f52-139">**Ata**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="19f52-139">Select **Assign**.</span></span>
+6. <span data-ttu-id="19f52-140">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="19f52-140">Close the page.</span></span>
 

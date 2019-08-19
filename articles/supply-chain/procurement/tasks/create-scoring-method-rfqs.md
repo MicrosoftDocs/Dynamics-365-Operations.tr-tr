@@ -10,40 +10,40 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQScoringMethod
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 98bcffdf63e20a0a620aa87b44449ce13a5df2fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6cbbc941b810cd8e5db5ba15a23dc6bd72a29506
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565289"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838082"
 ---
-# <a name="create-a-scoring-method-for-rfqs"></a><span data-ttu-id="22446-103">RFQ'lar için puanlama yöntemi oluşturma</span><span class="sxs-lookup"><span data-stu-id="22446-103">Create a scoring method for RFQs</span></span>
+# <a name="create-a-scoring-method-for-rfqs"></a><span data-ttu-id="03b51-103">RFQ'lar için puanlama yöntemi oluşturma</span><span class="sxs-lookup"><span data-stu-id="03b51-103">Create a scoring method for RFQs</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="22446-104">Bu prosedür, size bir puanlama yönteminin nasıl oluşturulacağını göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="22446-104">This procedure shows you how to create a scoring method.</span></span> <span data-ttu-id="22446-105">Puanlama yöntemi resmi teklif talebine (RFQ) yanıt olarak gönderilen tekliflerin karşılaştırılabilmesi için kullanılan bir ölçüt kümesidir.</span><span class="sxs-lookup"><span data-stu-id="22446-105">A scoring method is a set of criteria that can be used to compare bids that are sent in reply to a request for quotation (RFQ).</span></span> <span data-ttu-id="22446-106">Örneğin, bir satıcıyı geçmiş performansı üzerinden değerlendirmek veya şirketin çevre dostu veya iyi bir işbirlikçi olup olmadığını değerlendirmek isteyebilir veya fiyata göre teklifleri karşılaştırmak isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="22446-106">For example, you might want to rate a vendor on past performance, or rate whether the company is environmentally friendly or a good collaborator, or you might want to compare bids based on price.</span></span> <span data-ttu-id="22446-107">Bu türe ait RFQ'ler için varsayılan puanlama yöntemi olduğundan talep türüyle bir puanlama yöntemini ilişkilendirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="22446-107">The scoring method can be associated with a solicitation type as the default scoring method for RFQs of that type.</span></span> <span data-ttu-id="22446-108">Bu görevler genellikle satınalma yöneticisi tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="22446-108">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="22446-109">Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="22446-109">You can use this procedure in demo data company USMF or on your own data.</span></span>
+<span data-ttu-id="03b51-104">Bu prosedür, size bir puanlama yönteminin nasıl oluşturulacağını göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="03b51-104">This procedure shows you how to create a scoring method.</span></span> <span data-ttu-id="03b51-105">Puanlama yöntemi resmi teklif talebine (RFQ) yanıt olarak gönderilen tekliflerin karşılaştırılabilmesi için kullanılan bir ölçüt kümesidir.</span><span class="sxs-lookup"><span data-stu-id="03b51-105">A scoring method is a set of criteria that can be used to compare bids that are sent in reply to a request for quotation (RFQ).</span></span> <span data-ttu-id="03b51-106">Örneğin, bir satıcıyı geçmiş performansı üzerinden değerlendirmek veya şirketin çevre dostu veya iyi bir işbirlikçi olup olmadığını değerlendirmek isteyebilir veya fiyata göre teklifleri karşılaştırmak isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="03b51-106">For example, you might want to rate a vendor on past performance, or rate whether the company is environmentally friendly or a good collaborator, or you might want to compare bids based on price.</span></span> <span data-ttu-id="03b51-107">Bu türe ait RFQ'ler için varsayılan puanlama yöntemi olduğundan talep türüyle bir puanlama yöntemini ilişkilendirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="03b51-107">The scoring method can be associated with a solicitation type as the default scoring method for RFQs of that type.</span></span> <span data-ttu-id="03b51-108">Bu görevler genellikle satınalma yöneticisi tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="03b51-108">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="03b51-109">Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="03b51-109">You can use this procedure in demo data company USMF or on your own data.</span></span>
 
-1. <span data-ttu-id="22446-110">Tedarik ve kaynak atama > Ayarlar > Teklif talebi > Skor yöntemi'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="22446-110">Go to Procurement and sourcing > Setup > Request for quotation > Scoring method.</span></span>
-2. <span data-ttu-id="22446-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="22446-111">Click New.</span></span>
-3. <span data-ttu-id="22446-112">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="22446-112">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="22446-113">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="22446-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="22446-114">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="22446-114">Click Save.</span></span>
-6. <span data-ttu-id="22446-115">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="22446-115">Click New.</span></span>
-7. <span data-ttu-id="22446-116">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="22446-116">In the Name field, type a value.</span></span>
-8. <span data-ttu-id="22446-117">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="22446-117">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="22446-118">RFQ için bir puanlama yöntemi seçildiğinde bu tanım puanlama yöntemi adı ile birlikte görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="22446-118">This description is shown along with the scoring method name when a scoring method is selected for an RFQ.</span></span>  
-9. <span data-ttu-id="22446-119">Aralık başlangıcı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="22446-119">In the Range from field, enter a number.</span></span>
-    * <span data-ttu-id="22446-120">Aralık, tedarik profesyonelinin puan olarak girebileceği değerleri sınırlar.</span><span class="sxs-lookup"><span data-stu-id="22446-120">The range limits what the procurement professional can enter as a score.</span></span> <span data-ttu-id="22446-121">RFQ üzerinde birden çok puanlama kriteri varsa girilen puanlar birbirlerine eklenir ve toplam, tekliflerin karşılaştırılmasını sağlayacak şekilde kullanılabilir duruma getirilir.</span><span class="sxs-lookup"><span data-stu-id="22446-121">When there are multiple scoring criteria on an RFQ, the scores that have been entered are added to each other and the sum is made available to allow the bids to be compared.</span></span>  
-10. <span data-ttu-id="22446-122">Aralık bitişi alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="22446-122">In the Range to field, enter a number.</span></span>
-11. <span data-ttu-id="22446-123">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="22446-123">Click New.</span></span>
-12. <span data-ttu-id="22446-124">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="22446-124">In the Name field, type a value.</span></span>
-13. <span data-ttu-id="22446-125">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="22446-125">In the Description field, type a value.</span></span>
-14. <span data-ttu-id="22446-126">Aralık başlangıcı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="22446-126">In the Range from field, enter a number.</span></span>
-15. <span data-ttu-id="22446-127">Aralık bitişi alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="22446-127">In the Range to field, enter a number.</span></span>
+1. <span data-ttu-id="03b51-110">Tedarik ve kaynak atama > Ayarlar > Teklif talebi > Skor yöntemi'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="03b51-110">Go to Procurement and sourcing > Setup > Request for quotation > Scoring method.</span></span>
+2. <span data-ttu-id="03b51-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="03b51-111">Click New.</span></span>
+3. <span data-ttu-id="03b51-112">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="03b51-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="03b51-113">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="03b51-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="03b51-114">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="03b51-114">Click Save.</span></span>
+6. <span data-ttu-id="03b51-115">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="03b51-115">Click New.</span></span>
+7. <span data-ttu-id="03b51-116">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="03b51-116">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="03b51-117">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="03b51-117">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="03b51-118">RFQ için bir puanlama yöntemi seçildiğinde bu tanım puanlama yöntemi adı ile birlikte görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="03b51-118">This description is shown along with the scoring method name when a scoring method is selected for an RFQ.</span></span>  
+9. <span data-ttu-id="03b51-119">Aralık başlangıcı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="03b51-119">In the Range from field, enter a number.</span></span>
+    * <span data-ttu-id="03b51-120">Aralık, tedarik profesyonelinin puan olarak girebileceği değerleri sınırlar.</span><span class="sxs-lookup"><span data-stu-id="03b51-120">The range limits what the procurement professional can enter as a score.</span></span> <span data-ttu-id="03b51-121">RFQ üzerinde birden çok puanlama kriteri varsa girilen puanlar birbirlerine eklenir ve toplam, tekliflerin karşılaştırılmasını sağlayacak şekilde kullanılabilir duruma getirilir.</span><span class="sxs-lookup"><span data-stu-id="03b51-121">When there are multiple scoring criteria on an RFQ, the scores that have been entered are added to each other and the sum is made available to allow the bids to be compared.</span></span>  
+10. <span data-ttu-id="03b51-122">Aralık bitişi alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="03b51-122">In the Range to field, enter a number.</span></span>
+11. <span data-ttu-id="03b51-123">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="03b51-123">Click New.</span></span>
+12. <span data-ttu-id="03b51-124">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="03b51-124">In the Name field, type a value.</span></span>
+13. <span data-ttu-id="03b51-125">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="03b51-125">In the Description field, type a value.</span></span>
+14. <span data-ttu-id="03b51-126">Aralık başlangıcı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="03b51-126">In the Range from field, enter a number.</span></span>
+15. <span data-ttu-id="03b51-127">Aralık bitişi alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="03b51-127">In the Range to field, enter a number.</span></span>
 

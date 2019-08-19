@@ -10,42 +10,42 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 38d9ff0a7d6aeb0a589fd6b9ab34b818c46644cc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c036f6aad79e33df6009913d1e21ff6176f22593
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554288"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843805"
 ---
-# <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="b964b-103">Süreç işi için kanban kurallarını değiştirme</span><span class="sxs-lookup"><span data-stu-id="b964b-103">Change kanban rules for a process job</span></span>
+# <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="72068-103">Süreç işi için kanban kurallarını değiştirme</span><span class="sxs-lookup"><span data-stu-id="72068-103">Change kanban rules for a process job</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b964b-104">Bu yordam, belirli bir kanban için kullanılan kanban kuralını değiştirmeye odaklanır.</span><span class="sxs-lookup"><span data-stu-id="b964b-104">This procedure focuses on changing the used kanban rule for a given kanban.</span></span> <span data-ttu-id="b964b-105">Bu, yük kaynaklarını eşitlemek için veya döküm sırasında yararlıdır.</span><span class="sxs-lookup"><span data-stu-id="b964b-105">This is useful to level load resources or in case of breakdown.</span></span> <span data-ttu-id="b964b-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="b964b-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b964b-107">Bu yordam, bir yalın üretim şirketinde çalışan ve değer akışından sorumlu planlayıcı için tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="b964b-107">This procedure is intended for the planner, working at a lean manufacturing company, responsible for the value stream.</span></span>
+<span data-ttu-id="72068-104">Bu yordam, belirli bir kanban için kullanılan kanban kuralını değiştirmeye odaklanır.</span><span class="sxs-lookup"><span data-stu-id="72068-104">This procedure focuses on changing the used kanban rule for a given kanban.</span></span> <span data-ttu-id="72068-105">Bu, yük kaynaklarını eşitlemek için veya döküm sırasında yararlıdır.</span><span class="sxs-lookup"><span data-stu-id="72068-105">This is useful to level load resources or in case of breakdown.</span></span> <span data-ttu-id="72068-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="72068-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="72068-107">Bu yordam, bir yalın üretim şirketinde çalışan ve değer akışından sorumlu planlayıcı için tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="72068-107">This procedure is intended for the planner, working at a lean manufacturing company, responsible for the value stream.</span></span>
 
 
-## <a name="copy-kanban-rule"></a><span data-ttu-id="b964b-108">Kanban kuralını kopyalama</span><span class="sxs-lookup"><span data-stu-id="b964b-108">Copy kanban rule</span></span>
-1. <span data-ttu-id="b964b-109">Kanban kuralları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="b964b-109">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="b964b-110">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="b964b-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="b964b-111">L0001 için 000022 Kanban olayı kuralını seçin.</span><span class="sxs-lookup"><span data-stu-id="b964b-111">Select Event Kanban rule 000022 for L0001.</span></span>  
-3. <span data-ttu-id="b964b-112">Kanban kuralını çoğalt'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="b964b-112">Click Duplicate kanban rule.</span></span>
-4. <span data-ttu-id="b964b-113">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b964b-113">Click OK.</span></span>
+## <a name="copy-kanban-rule"></a><span data-ttu-id="72068-108">Kanban kuralını kopyalama</span><span class="sxs-lookup"><span data-stu-id="72068-108">Copy kanban rule</span></span>
+1. <span data-ttu-id="72068-109">Kanban kuralları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="72068-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="72068-110">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="72068-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="72068-111">L0001 için 000022 Kanban olayı kuralını seçin.</span><span class="sxs-lookup"><span data-stu-id="72068-111">Select Event Kanban rule 000022 for L0001.</span></span>  
+3. <span data-ttu-id="72068-112">Kanban kuralını çoğalt'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="72068-112">Click Duplicate kanban rule.</span></span>
+4. <span data-ttu-id="72068-113">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="72068-113">Click OK.</span></span>
 
-## <a name="change-kanban-rule"></a><span data-ttu-id="b964b-114">Kanban kuralını değiştirme</span><span class="sxs-lookup"><span data-stu-id="b964b-114">Change kanban rule</span></span>
-1. <span data-ttu-id="b964b-115">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="b964b-115">Close the page.</span></span>
-2. <span data-ttu-id="b964b-116">Kanban işi planlaması'na gidin.</span><span class="sxs-lookup"><span data-stu-id="b964b-116">Go to Kanban job scheduling.</span></span>
-3. <span data-ttu-id="b964b-117">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="b964b-117">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="b964b-118">Kanban 000177 içeren satırı seçin.</span><span class="sxs-lookup"><span data-stu-id="b964b-118">Select line with Kanban 000177.</span></span>  
-4. <span data-ttu-id="b964b-119">Alternatif kanban kuralı kullan'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="b964b-119">Click Use alternative kanban rule.</span></span>
-5. <span data-ttu-id="b964b-120">İleri düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="b964b-120">Click Next.</span></span>
-6. <span data-ttu-id="b964b-121">Kanban kuralı alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="b964b-121">In the Kanban rule field, enter or select a value.</span></span>
-    * <span data-ttu-id="b964b-122">Daha önce oluşturulan kanban kuralını seçin.</span><span class="sxs-lookup"><span data-stu-id="b964b-122">Select the kanban rule that was created earlier.</span></span> <span data-ttu-id="b964b-123">Bu, en büyük sayıya sahip kanban kuralıdır.</span><span class="sxs-lookup"><span data-stu-id="b964b-123">This is the kanban rule with the highest number.</span></span>  
-7. <span data-ttu-id="b964b-124">Son düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="b964b-124">Click Finish.</span></span>
-    * <span data-ttu-id="b964b-125">Kanban işi şimdi artık başka bir kanban kuralını kullanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="b964b-125">Now the kanban job is using an another kanban rule.</span></span> <span data-ttu-id="b964b-126">Bu, yük iş hücrelerini eşitlemek için yararlı olabilir.</span><span class="sxs-lookup"><span data-stu-id="b964b-126">This can be useful to level load work cells.</span></span>  
+## <a name="change-kanban-rule"></a><span data-ttu-id="72068-114">Kanban kuralını değiştirme</span><span class="sxs-lookup"><span data-stu-id="72068-114">Change kanban rule</span></span>
+1. <span data-ttu-id="72068-115">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="72068-115">Close the page.</span></span>
+2. <span data-ttu-id="72068-116">Kanban işi planlaması'na gidin.</span><span class="sxs-lookup"><span data-stu-id="72068-116">Go to Kanban job scheduling.</span></span>
+3. <span data-ttu-id="72068-117">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="72068-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="72068-118">Kanban 000177 içeren satırı seçin.</span><span class="sxs-lookup"><span data-stu-id="72068-118">Select line with Kanban 000177.</span></span>  
+4. <span data-ttu-id="72068-119">Alternatif kanban kuralı kullan'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="72068-119">Click Use alternative kanban rule.</span></span>
+5. <span data-ttu-id="72068-120">İleri düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="72068-120">Click Next.</span></span>
+6. <span data-ttu-id="72068-121">Kanban kuralı alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="72068-121">In the Kanban rule field, enter or select a value.</span></span>
+    * <span data-ttu-id="72068-122">Daha önce oluşturulan kanban kuralını seçin.</span><span class="sxs-lookup"><span data-stu-id="72068-122">Select the kanban rule that was created earlier.</span></span> <span data-ttu-id="72068-123">Bu, en büyük sayıya sahip kanban kuralıdır.</span><span class="sxs-lookup"><span data-stu-id="72068-123">This is the kanban rule with the highest number.</span></span>  
+7. <span data-ttu-id="72068-124">Son düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="72068-124">Click Finish.</span></span>
+    * <span data-ttu-id="72068-125">Kanban işi şimdi artık başka bir kanban kuralını kullanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="72068-125">Now the kanban job is using an another kanban rule.</span></span> <span data-ttu-id="72068-126">Bu, yük iş hücrelerini eşitlemek için yararlı olabilir.</span><span class="sxs-lookup"><span data-stu-id="72068-126">This can be useful to level load work cells.</span></span>  
 

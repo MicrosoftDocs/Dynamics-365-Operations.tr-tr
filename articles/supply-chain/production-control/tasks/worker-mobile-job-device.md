@@ -1,72 +1,70 @@
 ---
 title: Mobil iş cihazını kullanarak çalışanı yapılandırma
-description: Bu yordam, çalışanın kullanıcı hesabına doğru rollerin nasıl atanacağını ve atölye kayıtları yapacak çalışanın nasıl etkinleştirileceğini gösterir.
+description: Bu konu, çalışanın kullanıcı hesabına doğru rollerin nasıl atanacağını ve atölye kayıtları yapacak çalışanın nasıl etkinleştirileceğini gösterir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bb4d806810660e55ef13a9ff21c07e0ce194496
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a6e45ea8fdbe30436badd88d4972fda970755275
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571371"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835799"
 ---
-# <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="89c14-103">Mobil iş cihazını kullanarak çalışanı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="89c14-103">Configure a worker using the mobile job device</span></span>
+# <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="aa1d8-103">Mobil iş cihazını kullanarak çalışanı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="aa1d8-103">Configure a worker using the mobile job device</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="89c14-104">Bu yordam, çalışanın kullanıcı hesabına doğru rollerin nasıl atanacağını ve atölye kayıtları yapacak çalışanın nasıl etkinleştirileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="89c14-104">This procedure shows you how to assign the correct roles to the user account of a worker, and then enable the worker to do shop floor registrations.</span></span>
+<span data-ttu-id="aa1d8-104">Bu konu, çalışanın kullanıcı hesabına doğru rollerin nasıl atanacağını ve atölye kayıtları yapacak çalışanın nasıl etkinleştirileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-104">This topic explains how to assign the correct roles to the user account of a worker, and then enable the worker to do shop floor registrations.</span></span>
 
+## <a name="verify-that-a-worker-is-assigned-a-certain-role"></a><span data-ttu-id="aa1d8-105">Bir çalışanın belirli bir role atanmasını doğrulayın</span><span class="sxs-lookup"><span data-stu-id="aa1d8-105">Verify that a worker is assigned a certain role</span></span>
 
-## <a name="assign-roles-to-user-account"></a><span data-ttu-id="89c14-105">Kullanıcı hesabına roller atama</span><span class="sxs-lookup"><span data-stu-id="89c14-105">Assign roles to user account</span></span>
-1. <span data-ttu-id="89c14-106">Sistem Yönetimi > Kullanıcılar > Kullanıcılar'a git.</span><span class="sxs-lookup"><span data-stu-id="89c14-106">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="89c14-107">Kullanıcı hesabının makine operatörü rolüyle ilişkili olduğu çalışanın adına filtre uygulamak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="89c14-107">Use the Quick Filter to filter on the name of a worker where the user account is associated with the machine operator role.</span></span> <span data-ttu-id="89c14-108">Örnek verilerde çalışanın adı Shannon olacaktır.</span><span class="sxs-lookup"><span data-stu-id="89c14-108">In the sample data, the name would be Shannon.</span></span>
-3. <span data-ttu-id="89c14-109">Kullanıcı hesabı kaydını vurgulayın.</span><span class="sxs-lookup"><span data-stu-id="89c14-109">Highlight the user account record.</span></span>
-4. <span data-ttu-id="89c14-110">Listede, kullanıcı hesabının ayrıntılarını görüntülemek için seçili satırdaki "Ad" bağlantısını tıklatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-110">In the list, click the "Name" link in the selected row to view the details of the user account.</span></span>
-5. <span data-ttu-id="89c14-111">Ağaçta, 'Roller\Makine operatörü' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="89c14-111">In the tree, select 'Roles\Machine operator'.</span></span>
-6. <span data-ttu-id="89c14-112">Kullanıcı hesabı ayrıntıları sayfasını kapatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-112">Close the user account details page.</span></span>
-7. <span data-ttu-id="89c14-113">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-113">Close the page.</span></span>
+<span data-ttu-id="aa1d8-106">Bu örnekte, çalışan hesabı yapılandırmadan önce "SHANNON" kullanıcısının makine operatörü rolüne atanacağını doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-106">For this example, verify that user "SHANNON" is assigned the machine operator role before you configure the worker account.</span></span>
 
-## <a name="configure-worker-account"></a><span data-ttu-id="89c14-114">Çalışan hesabını yapılandırın.</span><span class="sxs-lookup"><span data-stu-id="89c14-114">Configure worker account.</span></span>
-1. <span data-ttu-id="89c14-115">İnsan kaynakları > Çalışanlar > Çalışanlar'a gidin.</span><span class="sxs-lookup"><span data-stu-id="89c14-115">Go to Human resources > Workers > Workers.</span></span>
-2. <span data-ttu-id="89c14-116">Kullanıcı hesabının makine operatörü rolüyle ilişkili olduğu çalışanın adına filtre uygulamak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="89c14-116">Use the Quick Filter to filter on the name of a worker where the user account is associated with the machine operator role.</span></span> <span data-ttu-id="89c14-117">Örnek verilerde çalışanın adı Shannon olacaktır.</span><span class="sxs-lookup"><span data-stu-id="89c14-117">In the sample data, the name would be Shannon.</span></span>
-3. <span data-ttu-id="89c14-118">Kullanıcı hesabı kaydını vurgulayın.</span><span class="sxs-lookup"><span data-stu-id="89c14-118">Highlight the user account record.</span></span>
-4. <span data-ttu-id="89c14-119">Listede, kullanıcı hesabının ayrıntılarını görüntülemek için seçili satırdaki "Ad" bağlantısını tıklatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-119">In the list, click the "Name" link in the selected row to view the details of the user account.</span></span>
-5. <span data-ttu-id="89c14-120">İstihdam sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89c14-120">Click the Employment tab.</span></span>
-6. <span data-ttu-id="89c14-121">Saat kayıt FastTab'ini genişletin ve kayıt terminallerinde etkinleştir'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-121">Expand the Time registration FastTab and click Activate on registration terminals.</span></span>
-7. <span data-ttu-id="89c14-122">Kayıt terminallerinde etkinleştir'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-122">Click Activate on registration terminals.</span></span>
-8. <span data-ttu-id="89c14-123">Hesaplama grubu alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="89c14-123">In the Calculation group field, enter or select a value.</span></span>
-9. <span data-ttu-id="89c14-124">Varsayılan hesaplama grubu alanında +bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="89c14-124">In the Default calculation group field, enter or select a value.</span></span>
-10. <span data-ttu-id="89c14-125">Onay grubu alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="89c14-125">In the Approval group field, enter or select a value.</span></span>
-11. <span data-ttu-id="89c14-126">Standart profil alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="89c14-126">In the Standard profile field, enter or select a value.</span></span>
-12. <span data-ttu-id="89c14-127">Profil grubu alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="89c14-127">In the Profile group field, enter or select a value.</span></span>
-13. <span data-ttu-id="89c14-128">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-128">Click OK.</span></span>
-14. <span data-ttu-id="89c14-129">Yeni zaman kayıt çalışanı için bir rozet numarası girmek için Düzenle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-129">Click Edit to enter a badge number for the new time registration worker.</span></span>
-15. <span data-ttu-id="89c14-130">Rozet Kodu alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="89c14-130">In the Badge ID field, type a value.</span></span>
-16. <span data-ttu-id="89c14-131">Kaydet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-131">Click Save.</span></span>
-17. <span data-ttu-id="89c14-132">SaveRecord kısayolunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="89c14-132">Use the SaveRecord shortcut.</span></span>
-18. <span data-ttu-id="89c14-133">Çalışan ayrıntıları sayfasını kapatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-133">Close the worker details page.</span></span>
-19. <span data-ttu-id="89c14-134">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-134">Close the page.</span></span>
+1. <span data-ttu-id="aa1d8-107">**Gezinti bölmesi > Modüller > Sistem yönetimi > Kullanıcılar > Kullanıcılar**'a gidin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-107">Go to **Navigation pane > Modules > System administration > Users > Users**.</span></span>
+2. <span data-ttu-id="aa1d8-108">Hızlı filtrede bir kullanıcı arayın.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-108">Search for a user in the quick filter.</span></span> <span data-ttu-id="aa1d8-109">Bu örnek için, `shannon` girin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-109">For this example, enter `shannon`.</span></span>
+3. <span data-ttu-id="aa1d8-110">Görüntülenen kullanıcı hesabının **Kullanıcı kimliği** sütununda bağlantıyı seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-110">Select the link in the **User ID** column of the user account that appears.</span></span>
+4. <span data-ttu-id="aa1d8-111">**Kullanıcı rolleri** ağacında **Roller > Makine operatörü** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-111">In the **User's roles** tree, select **Roles > Machine operator**.</span></span>
+5. <span data-ttu-id="aa1d8-112">Giriş sayfasına dönmek için **Kullanıcı ayrıntıları** ve **kullanıcılar** sayfalarını kapatın.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-112">Close the **user details** and **users** pages to return to the home page.</span></span>
 
-## <a name="assign-worker-to-device-group"></a><span data-ttu-id="89c14-135">Cihaz grubuna çalışan atayın.</span><span class="sxs-lookup"><span data-stu-id="89c14-135">Assign worker to device group.</span></span>
-1. <span data-ttu-id="89c14-136">Üretim denetimi > Ayarlar > Üretim yürütme > Cihazlar için iş kartını konfigüre et'e gidin.</span><span class="sxs-lookup"><span data-stu-id="89c14-136">Go to Production control > Setup > Manufacturing execution > Configure job card for devices.</span></span>
-2. <span data-ttu-id="89c14-137">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-137">Click Add.</span></span>
-3. <span data-ttu-id="89c14-138">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="89c14-138">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="89c14-139">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89c14-139">Click OK.</span></span>
-5. <span data-ttu-id="89c14-140">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89c14-140">Click Edit.</span></span>
-6. <span data-ttu-id="89c14-141">Üretim birimi alanında çalışanın varsayılan filtresini ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="89c14-141">In the Production unit field, you can set the default filter for the worker.</span></span> <span data-ttu-id="89c14-142">Bu, çalışan bu cihazda oturum açtığında yalnızca seçili üretim biriminin üretim işlerinin gösterilmesini sağlar.</span><span class="sxs-lookup"><span data-stu-id="89c14-142">This will ensure that only production jobs for the selected production unit are shown when the worker logs on to the device.</span></span>
-7. <span data-ttu-id="89c14-143">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="89c14-143">Close the page.</span></span>
+## <a name="configure-worker-account"></a><span data-ttu-id="aa1d8-113">Çalışan hesabını yapılandırın</span><span class="sxs-lookup"><span data-stu-id="aa1d8-113">Configure worker account</span></span>
+1. <span data-ttu-id="aa1d8-114">**Gezinti bölmesi > Modüller > İnsan kaynakları > İşçiler > İşçiler**'e gidin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-114">Go to **Navigation pane > Modules > Human resources > Workers > Workers**.</span></span>
+2. <span data-ttu-id="aa1d8-115">Hızlı filtrede bir kullanıcı arayın.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-115">Search for a user in the quick filter.</span></span> <span data-ttu-id="aa1d8-116">Bu örnek için, `shannon` girin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-116">For this example, enter `shannon`.</span></span>
+3. <span data-ttu-id="aa1d8-117">Görüntülenen kullanıcı hesabının **Ad** sütununda bağlantıyı seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-117">Select the link in the **Name** column of the user account that appears.</span></span>
+4. <span data-ttu-id="aa1d8-118">**Saat kaydı** sekmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-118">Select the **Time registration** tab.</span></span>
+5. <span data-ttu-id="aa1d8-119">**Kayıt terminallerinde etkinleştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-119">Select **Activate on registration terminals**.</span></span>
+6. <span data-ttu-id="aa1d8-120">Aşağıdaki alanlara değerleri girin vey seçin:</span><span class="sxs-lookup"><span data-stu-id="aa1d8-120">Enter or select values in the following fields:</span></span>  
+
+    - <span data-ttu-id="aa1d8-121">**Hesaplama grubu**</span><span class="sxs-lookup"><span data-stu-id="aa1d8-121">**Calculation group**</span></span>  
+    - <span data-ttu-id="aa1d8-122">**Varsayılan hesaplama grubu**</span><span class="sxs-lookup"><span data-stu-id="aa1d8-122">**Default calculation group**</span></span>  
+    - <span data-ttu-id="aa1d8-123">**Onay grubu**</span><span class="sxs-lookup"><span data-stu-id="aa1d8-123">**Approval group**</span></span>  
+    - <span data-ttu-id="aa1d8-124">**Standart profil**</span><span class="sxs-lookup"><span data-stu-id="aa1d8-124">**Standard profile**</span></span>  
+    - <span data-ttu-id="aa1d8-125">**Profil grubu**</span><span class="sxs-lookup"><span data-stu-id="aa1d8-125">**Profile group**</span></span>  
+
+7. <span data-ttu-id="aa1d8-126">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-126">Select **OK**.</span></span>
+8. <span data-ttu-id="aa1d8-127">Yeni zaman kayıt çalışanı için bir rozet numarası girmek için **Düzenle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-127">Select **Edit** to enter a badge number for the new time registration worker.</span></span> <span data-ttu-id="aa1d8-128">**Rozet kodu** alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-128">Enter a value in the **Badge ID** field.</span></span>
+9. <span data-ttu-id="aa1d8-129">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-129">Select **Save**.</span></span>
+10. <span data-ttu-id="aa1d8-130">**Çalışan ayrıntıları** ve **İşçiler** sayfalarını kapatın.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-130">Close the **Worker details** and **Workers** pages.</span></span>
+
+## <a name="assign-worker-to-device-group"></a><span data-ttu-id="aa1d8-131">Cihaz grubuna çalışan atayın</span><span class="sxs-lookup"><span data-stu-id="aa1d8-131">Assign worker to device group</span></span>
+1. <span data-ttu-id="aa1d8-132">**Üretim denetimi > Ayarlar > Üretim yürütme > Cihazlar için iş kartını konfigüre et**'e gidin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-132">Go to **Production control > Setup > Manufacturing execution > Configure job card for devices**.</span></span>
+2. <span data-ttu-id="aa1d8-133">**Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-133">Select **Add**.</span></span>
+3. <span data-ttu-id="aa1d8-134">Listede, istediğiniz çalışanı seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-134">In the list, select the desired worker.</span></span> <span data-ttu-id="aa1d8-135">Bu örnek için **SHANNON** seçeneğini belirtin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-135">For this example, select **SHANNON**.</span></span>
+4. <span data-ttu-id="aa1d8-136">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-136">Select **OK**.</span></span>
+5. <span data-ttu-id="aa1d8-137">**Düzenle** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-137">Select **Edit**.</span></span>
+6. <span data-ttu-id="aa1d8-138">**Üretim birimi** alanında çalışanın varsayılan filtresini ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-138">In the **Production unit** field, you can set the default filter for the worker.</span></span> <span data-ttu-id="aa1d8-139">Bu, çalışan bu cihazda oturum açtığında yalnızca seçili üretim biriminin üretim işlerinin gösterilmesini sağlar.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-139">This will ensure that only production jobs for the selected production unit are shown when the worker logs on to the device.</span></span> <span data-ttu-id="aa1d8-140">İstenen değeri girin.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-140">Enter the desired value.</span></span>
+7. <span data-ttu-id="aa1d8-141">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="aa1d8-141">Close the page.</span></span>
 

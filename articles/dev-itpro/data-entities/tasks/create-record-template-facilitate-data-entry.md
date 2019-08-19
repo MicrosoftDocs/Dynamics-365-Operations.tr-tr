@@ -10,43 +10,43 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36d14c386322adab0cc0ba9b7b47c874aefbe519
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b2ba56b6146f2495fb6a53c3cef9f549b1ad837
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544264"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848219"
 ---
-# <a name="create-a-record-template-to-facilitate-data-entry"></a><span data-ttu-id="1a364-103">Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma</span><span class="sxs-lookup"><span data-stu-id="1a364-103">Create a record template to facilitate data entry</span></span>
+# <a name="create-a-record-template-to-facilitate-data-entry"></a><span data-ttu-id="0caa7-103">Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma</span><span class="sxs-lookup"><span data-stu-id="0caa7-103">Create a record template to facilitate data entry</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="1a364-104">Bu yordam, sıklıkla kullanılan alan değerlerinin her yeni kayıt için açık olarak girilmesi gerekmeden bir kayıt şablonunun nasıl oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="1a364-104">This procedure demonstrates how to create a record template so that field values that are used often do not have to be entered explicitly for each new record.</span></span> <span data-ttu-id="1a364-105">Bu yordamda, sabit kıymetlerinize eklenmesi gereken yeni dizüstü bilgisayarlar için yeni bir kayıt oluşturacaksınız.</span><span class="sxs-lookup"><span data-stu-id="1a364-105">In this procedure, you’ll create a new record for new laptops that should be added to your fixed assets.</span></span> <span data-ttu-id="1a364-106">Bu yordamda, USMF örnek şirketi kullanılır.</span><span class="sxs-lookup"><span data-stu-id="1a364-106">This procedure uses the USMF sample company.</span></span>
+<span data-ttu-id="0caa7-104">Bu yordam, sıklıkla kullanılan alan değerlerinin her yeni kayıt için açık olarak girilmesi gerekmeden bir kayıt şablonunun nasıl oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="0caa7-104">This procedure demonstrates how to create a record template so that field values that are used often do not have to be entered explicitly for each new record.</span></span> <span data-ttu-id="0caa7-105">Bu yordamda, sabit kıymetlerinize eklenmesi gereken yeni dizüstü bilgisayarlar için yeni bir kayıt oluşturacaksınız.</span><span class="sxs-lookup"><span data-stu-id="0caa7-105">In this procedure, you’ll create a new record for new laptops that should be added to your fixed assets.</span></span> <span data-ttu-id="0caa7-106">Bu yordamda, USMF örnek şirketi kullanılır.</span><span class="sxs-lookup"><span data-stu-id="0caa7-106">This procedure uses the USMF sample company.</span></span>
 
-1. <span data-ttu-id="1a364-107">Sabit kıymetler > Sabit kıymetler > Sabit kıymetler menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="1a364-107">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
-2. <span data-ttu-id="1a364-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a364-108">Click New.</span></span>
-3. <span data-ttu-id="1a364-109">Sabit kıymet grubu alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="1a364-109">In the Fixed asset group field, enter or select a value.</span></span>
-4. <span data-ttu-id="1a364-110">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="1a364-110">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="1a364-111">Örneğin, "Şirket lideri dizüstü bilgisayarı" yazın.</span><span class="sxs-lookup"><span data-stu-id="1a364-111">For example, enter 'Corporate lead laptop'.</span></span>  
-5. <span data-ttu-id="1a364-112">Arama adı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="1a364-112">In the Search name field, type a value.</span></span>
-    * <span data-ttu-id="1a364-113">Örneğin, "dizüstü bilgisayar" yazın.</span><span class="sxs-lookup"><span data-stu-id="1a364-113">For example, enter 'laptop.'</span></span>  
-6. <span data-ttu-id="1a364-114">Teknik bilgi bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="1a364-114">Expand the Technical information section.</span></span>
-7. <span data-ttu-id="1a364-115">Marka alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="1a364-115">In the Make field, type a value.</span></span>
-8. <span data-ttu-id="1a364-116">Model alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="1a364-116">In the Model field, type a value.</span></span>
-9. <span data-ttu-id="1a364-117">Model yılı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="1a364-117">In the Model year field, type a value.</span></span>
-10. <span data-ttu-id="1a364-118">Eylem Bölmesinde, Seçenekler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a364-118">On the Action Pane, click Options.</span></span>
-11. <span data-ttu-id="1a364-119">Kayıt bilgileri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a364-119">Click Record info.</span></span>
-12. <span data-ttu-id="1a364-120">Kullanıcı şablonu'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a364-120">Click User template.</span></span>
-13. <span data-ttu-id="1a364-121">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="1a364-121">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="1a364-122">Örneğin, "Şirket dizüstü bilgisayarı" yazın.</span><span class="sxs-lookup"><span data-stu-id="1a364-122">For example, enter 'Corporate laptop.'</span></span>  
-14. <span data-ttu-id="1a364-123">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="1a364-123">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="1a364-124">Örneğin, "Şirket dizüstü bilgisayarı" yazın.</span><span class="sxs-lookup"><span data-stu-id="1a364-124">For example, enter 'Corporate laptop'.</span></span>  
-15. <span data-ttu-id="1a364-125">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a364-125">Click OK.</span></span>
-16. <span data-ttu-id="1a364-126">Kapat’a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a364-126">Click Close.</span></span>
+1. <span data-ttu-id="0caa7-107">Sabit kıymetler > Sabit kıymetler > Sabit kıymetler menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="0caa7-107">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
+2. <span data-ttu-id="0caa7-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-108">Click New.</span></span>
+3. <span data-ttu-id="0caa7-109">Sabit kıymet grubu alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="0caa7-109">In the Fixed asset group field, enter or select a value.</span></span>
+4. <span data-ttu-id="0caa7-110">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-110">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="0caa7-111">Örneğin, "Şirket lideri dizüstü bilgisayarı" yazın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-111">For example, enter 'Corporate lead laptop'.</span></span>  
+5. <span data-ttu-id="0caa7-112">Arama adı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-112">In the Search name field, type a value.</span></span>
+    * <span data-ttu-id="0caa7-113">Örneğin, "dizüstü bilgisayar" yazın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-113">For example, enter 'laptop.'</span></span>  
+6. <span data-ttu-id="0caa7-114">Teknik bilgi bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="0caa7-114">Expand the Technical information section.</span></span>
+7. <span data-ttu-id="0caa7-115">Marka alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-115">In the Make field, type a value.</span></span>
+8. <span data-ttu-id="0caa7-116">Model alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-116">In the Model field, type a value.</span></span>
+9. <span data-ttu-id="0caa7-117">Model yılı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-117">In the Model year field, type a value.</span></span>
+10. <span data-ttu-id="0caa7-118">Eylem Bölmesinde, Seçenekler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-118">On the Action Pane, click Options.</span></span>
+11. <span data-ttu-id="0caa7-119">Kayıt bilgileri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-119">Click Record info.</span></span>
+12. <span data-ttu-id="0caa7-120">Kullanıcı şablonu'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-120">Click User template.</span></span>
+13. <span data-ttu-id="0caa7-121">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-121">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="0caa7-122">Örneğin, "Şirket dizüstü bilgisayarı" yazın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-122">For example, enter 'Corporate laptop.'</span></span>  
+14. <span data-ttu-id="0caa7-123">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="0caa7-123">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="0caa7-124">Örneğin, "Şirket dizüstü bilgisayarı" yazın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-124">For example, enter 'Corporate laptop'.</span></span>  
+15. <span data-ttu-id="0caa7-125">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-125">Click OK.</span></span>
+16. <span data-ttu-id="0caa7-126">Kapat’a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0caa7-126">Click Close.</span></span>
 

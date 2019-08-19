@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 221594
 ms.assetid: dddc99ae-56ae-48df-856a-131079c17dcb
@@ -17,49 +17,49 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c0eeb59726422177ed1122767b9d3142a1311a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 88eb5b3c408d36620ab550b29d2e5a3278d25d8a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554863"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842677"
 ---
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a><span data-ttu-id="8602d-103">Gelişmiş banka mutabakatı MT940 İçe Aktarma – Bileşik veri varlığı yükseltme</span><span class="sxs-lookup"><span data-stu-id="8602d-103">Advanced bank reconciliation MT940 Import – Composite data entity upgrade</span></span>
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a><span data-ttu-id="68173-103">Gelişmiş banka mutabakatı MT940 İçe Aktarma – Bileşik veri varlığı yükseltme</span><span class="sxs-lookup"><span data-stu-id="68173-103">Advanced bank reconciliation MT940 Import – Composite data entity upgrade</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8602d-104">MT940 biçimini desteklemek için banka ekstresi içe aktarma varlığına bir sıra numarası eklenmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="8602d-104">A sequence number needs to be added to the bank statement import entity to support the MT940 format.</span></span> 
+<span data-ttu-id="68173-104">MT940 biçimini desteklemek için banka ekstresi içe aktarma varlığına bir sıra numarası eklenmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="68173-104">A sequence number needs to be added to the bank statement import entity to support the MT940 format.</span></span> 
 
-<span data-ttu-id="8602d-105">MT940 biçimini desteklemesi için banka ekstresi içe aktarma varlığını eklemek amacıyla aşağıdaki adımları kullanın.</span><span class="sxs-lookup"><span data-stu-id="8602d-105">Use the following steps to add the bank statement import entity to support the MT940 format.</span></span>
+<span data-ttu-id="68173-105">MT940 biçimini desteklemesi için banka ekstresi içe aktarma varlığını eklemek amacıyla aşağıdaki adımları kullanın.</span><span class="sxs-lookup"><span data-stu-id="68173-105">Use the following steps to add the bank statement import entity to support the MT940 format.</span></span>
 
-1.  <span data-ttu-id="8602d-106">Aşağıdakileri derleyin ve eşitleyin:</span><span class="sxs-lookup"><span data-stu-id="8602d-106">Compile and synchronize the following:</span></span>
-    -   <span data-ttu-id="8602d-107">Birleşik Varlık\\BankStatementImportEntity</span><span class="sxs-lookup"><span data-stu-id="8602d-107">Composite Entity\\BankStatementImportEntity</span></span>
-    -   <span data-ttu-id="8602d-108">Varlık\\BankStatementBalanceEntity</span><span class="sxs-lookup"><span data-stu-id="8602d-108">Entity\\BankStatementBalanceEntity</span></span>
-    -   <span data-ttu-id="8602d-109">Varlık\\BankStatementDocumentEntity</span><span class="sxs-lookup"><span data-stu-id="8602d-109">Entity\\BankStatementDocumentEntity</span></span>
-    -   <span data-ttu-id="8602d-110">Varlık\\BankStatementEntity</span><span class="sxs-lookup"><span data-stu-id="8602d-110">Entity\\BankStatementEntity</span></span>
-    -   <span data-ttu-id="8602d-111">Varlık\\BankStatementLineEntity</span><span class="sxs-lookup"><span data-stu-id="8602d-111">Entity\\BankStatementLineEntity</span></span>
-    -   <span data-ttu-id="8602d-112">Tablolar\\BankStatementStaging</span><span class="sxs-lookup"><span data-stu-id="8602d-112">Tables\\BankStatementStaging</span></span>
+1.  <span data-ttu-id="68173-106">Aşağıdakileri derleyin ve eşitleyin:</span><span class="sxs-lookup"><span data-stu-id="68173-106">Compile and synchronize the following:</span></span>
+    -   <span data-ttu-id="68173-107">Birleşik Varlık\\BankStatementImportEntity</span><span class="sxs-lookup"><span data-stu-id="68173-107">Composite Entity\\BankStatementImportEntity</span></span>
+    -   <span data-ttu-id="68173-108">Varlık\\BankStatementBalanceEntity</span><span class="sxs-lookup"><span data-stu-id="68173-108">Entity\\BankStatementBalanceEntity</span></span>
+    -   <span data-ttu-id="68173-109">Varlık\\BankStatementDocumentEntity</span><span class="sxs-lookup"><span data-stu-id="68173-109">Entity\\BankStatementDocumentEntity</span></span>
+    -   <span data-ttu-id="68173-110">Varlık\\BankStatementEntity</span><span class="sxs-lookup"><span data-stu-id="68173-110">Entity\\BankStatementEntity</span></span>
+    -   <span data-ttu-id="68173-111">Varlık\\BankStatementLineEntity</span><span class="sxs-lookup"><span data-stu-id="68173-111">Entity\\BankStatementLineEntity</span></span>
+    -   <span data-ttu-id="68173-112">Tablolar\\BankStatementStaging</span><span class="sxs-lookup"><span data-stu-id="68173-112">Tables\\BankStatementStaging</span></span>
 
-2.  <span data-ttu-id="8602d-113">Veri yönetimi\\veri projeleri.</span><span class="sxs-lookup"><span data-stu-id="8602d-113">Data management\\data projects.</span></span>
-    1.  <span data-ttu-id="8602d-114">MT940 içe aktarma projeleri</span><span class="sxs-lookup"><span data-stu-id="8602d-114">Load MT940 import project(s)</span></span>
-        1.  <span data-ttu-id="8602d-115">XSLT'yi değiştirin.</span><span class="sxs-lookup"><span data-stu-id="8602d-115">Change XSLT.</span></span>
-            -   <span data-ttu-id="8602d-116">**Eşlemeyi görüntüle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8602d-116">Click **View map**.</span></span>
-            -   <span data-ttu-id="8602d-117">Banka ekstresi belgesinde **Eşlemeyi görüntüle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8602d-117">Click **View map** on the bank statement document.</span></span>
-            -   <span data-ttu-id="8602d-118">**Dönüşümler**'e tıklayın</span><span class="sxs-lookup"><span data-stu-id="8602d-118">Click **Transformations**</span></span>
-            -   <span data-ttu-id="8602d-119">BankReconciliation-to-Composite.xslt dosyasını silin.</span><span class="sxs-lookup"><span data-stu-id="8602d-119">Delete the BankReconiliation-to-Composite.xslt file.</span></span>
-            -   <span data-ttu-id="8602d-120">BankReconiliation-to-Composite.xsl dosyasının yeni sürümünü ekleyin.</span><span class="sxs-lookup"><span data-stu-id="8602d-120">Add the new version of BankReconiliation-to-Composite.xsl.</span></span>
+2.  <span data-ttu-id="68173-113">Veri yönetimi\\veri projeleri.</span><span class="sxs-lookup"><span data-stu-id="68173-113">Data management\\data projects.</span></span>
+    1.  <span data-ttu-id="68173-114">MT940 içe aktarma projeleri</span><span class="sxs-lookup"><span data-stu-id="68173-114">Load MT940 import project(s)</span></span>
+        1.  <span data-ttu-id="68173-115">XSLT'yi değiştirin.</span><span class="sxs-lookup"><span data-stu-id="68173-115">Change XSLT.</span></span>
+            -   <span data-ttu-id="68173-116">**Eşlemeyi görüntüle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="68173-116">Click **View map**.</span></span>
+            -   <span data-ttu-id="68173-117">Banka ekstresi belgesinde **Eşlemeyi görüntüle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="68173-117">Click **View map** on the bank statement document.</span></span>
+            -   <span data-ttu-id="68173-118">**Dönüşümler**'e tıklayın</span><span class="sxs-lookup"><span data-stu-id="68173-118">Click **Transformations**</span></span>
+            -   <span data-ttu-id="68173-119">BankReconciliation-to-Composite.xslt dosyasını silin.</span><span class="sxs-lookup"><span data-stu-id="68173-119">Delete the BankReconiliation-to-Composite.xslt file.</span></span>
+            -   <span data-ttu-id="68173-120">BankReconiliation-to-Composite.xsl dosyasının yeni sürümünü ekleyin.</span><span class="sxs-lookup"><span data-stu-id="68173-120">Add the new version of BankReconiliation-to-Composite.xsl.</span></span>
 
-        2.  <span data-ttu-id="8602d-121">**Kaynak Veri** düzeninde **Sıra numarası**'nı gösterin.</span><span class="sxs-lookup"><span data-stu-id="8602d-121">Expose the **Sequence Number** on **Source Data** layout.</span></span>
-            1.  <span data-ttu-id="8602d-122">Kaynak veri biçimi = XML Öğesi.</span><span class="sxs-lookup"><span data-stu-id="8602d-122">Source data format = XML-Element.</span></span>
-            2.  <span data-ttu-id="8602d-123">Varlık adı = Banka ekstreleri.</span><span class="sxs-lookup"><span data-stu-id="8602d-123">Entity name = Bank statements.</span></span>
-            3.  <span data-ttu-id="8602d-124">Yükleme veri dosyası = yeni sürüm ÖrnekBankaBirleşikVarlığı.xml.</span><span class="sxs-lookup"><span data-stu-id="8602d-124">Upload data file = new version SampleBankCompositeEntity.xml.</span></span>
-            4.  <span data-ttu-id="8602d-125">Mevcut dosyanın üzerine yazmak için **Evet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8602d-125">Click **Yes** to overwrite the existing file.</span></span>
-            5.  <span data-ttu-id="8602d-126">Yeni bir eşleme oluşturmak için **Evet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8602d-126">Click **Yes** to generate a new mapping.</span></span>
-            6.  <span data-ttu-id="8602d-127">**SıraNumarası**'nın eşleştiğini doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="8602d-127">Verify that S**equenceNumber** is mapped.</span></span>
-                -   <span data-ttu-id="8602d-128">Ekstre varlığında **Eşlemeyi Görüntüle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8602d-128">Click **View Map** on the statement entity.</span></span>
-                -   <span data-ttu-id="8602d-129">**SıraNumarası**'nın Kaynak'tan Aşamalandırma'ya eşleştiğini doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="8602d-129">Verify that **SequenceNumber** is mapped from Source to Staging.</span></span>
+        2.  <span data-ttu-id="68173-121">**Kaynak Veri** düzeninde **Sıra numarası**'nı gösterin.</span><span class="sxs-lookup"><span data-stu-id="68173-121">Expose the **Sequence Number** on **Source Data** layout.</span></span>
+            1.  <span data-ttu-id="68173-122">Kaynak veri biçimi = XML Öğesi.</span><span class="sxs-lookup"><span data-stu-id="68173-122">Source data format = XML-Element.</span></span>
+            2.  <span data-ttu-id="68173-123">Varlık adı = Banka ekstreleri.</span><span class="sxs-lookup"><span data-stu-id="68173-123">Entity name = Bank statements.</span></span>
+            3.  <span data-ttu-id="68173-124">Yükleme veri dosyası = yeni sürüm ÖrnekBankaBirleşikVarlığı.xml.</span><span class="sxs-lookup"><span data-stu-id="68173-124">Upload data file = new version SampleBankCompositeEntity.xml.</span></span>
+            4.  <span data-ttu-id="68173-125">Mevcut dosyanın üzerine yazmak için **Evet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="68173-125">Click **Yes** to overwrite the existing file.</span></span>
+            5.  <span data-ttu-id="68173-126">Yeni bir eşleme oluşturmak için **Evet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="68173-126">Click **Yes** to generate a new mapping.</span></span>
+            6.  <span data-ttu-id="68173-127">**SıraNumarası**'nın eşleştiğini doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="68173-127">Verify that S**equenceNumber** is mapped.</span></span>
+                -   <span data-ttu-id="68173-128">Ekstre varlığında **Eşlemeyi Görüntüle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="68173-128">Click **View Map** on the statement entity.</span></span>
+                -   <span data-ttu-id="68173-129">**SıraNumarası**'nın Kaynak'tan Aşamalandırma'ya eşleştiğini doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="68173-129">Verify that **SequenceNumber** is mapped from Source to Staging.</span></span>
 
-3.  <span data-ttu-id="8602d-130">Yeni ekstreyi içe aktarın.</span><span class="sxs-lookup"><span data-stu-id="8602d-130">Import the new statement.</span></span>
+3.  <span data-ttu-id="68173-130">Yeni ekstreyi içe aktarın.</span><span class="sxs-lookup"><span data-stu-id="68173-130">Import the new statement.</span></span>
 
 
 

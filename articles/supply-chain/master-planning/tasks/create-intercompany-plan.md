@@ -10,54 +10,54 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup,  ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d378a89bbb4de6d67db0019dc72a27945d50c4e9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 194bb78eed5a673030f7cead031cf286cddbe77c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555989"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845221"
 ---
-# <a name="create-an-intercompany-plan"></a><span data-ttu-id="075b9-103">Şirketlerarası plan oluşturma</span><span class="sxs-lookup"><span data-stu-id="075b9-103">Create an intercompany plan</span></span>
+# <a name="create-an-intercompany-plan"></a><span data-ttu-id="79671-103">Şirketlerarası plan oluşturma</span><span class="sxs-lookup"><span data-stu-id="79671-103">Create an intercompany plan</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="075b9-104">Bu yordam şirketlerarası plan oluşturmayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="075b9-104">This procedure shows how to create an intercompany plan.</span></span> <span data-ttu-id="075b9-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="075b9-105">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="79671-104">Bu yordam şirketlerarası plan oluşturmayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="79671-104">This procedure shows how to create an intercompany plan.</span></span> <span data-ttu-id="79671-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="79671-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="set-up-an-intercompany-planning-group"></a><span data-ttu-id="075b9-106">Şirketlerarası planlama grubu ayarlama</span><span class="sxs-lookup"><span data-stu-id="075b9-106">Set up an intercompany planning group</span></span> 
-1. <span data-ttu-id="075b9-107">Şirketlerarası planlama grupları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="075b9-107">Go to Intercompany planning groups.</span></span>
-    * <span data-ttu-id="075b9-108">Master planlama > Kurulum > Şirketlerarası planlama grupları</span><span class="sxs-lookup"><span data-stu-id="075b9-108">Master planning > Setup > Intercompany planning groups</span></span>  
-2. <span data-ttu-id="075b9-109">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="075b9-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="075b9-110">Örneğin, İsim alanı üzerinde '10' değerini girerek filtreleme yapın.</span><span class="sxs-lookup"><span data-stu-id="075b9-110">For example, filter on the Name field with a value of '10'.</span></span>
-3. <span data-ttu-id="075b9-111">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="075b9-111">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="075b9-112">Sil'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="075b9-112">Click Delete.</span></span>
-    * <span data-ttu-id="075b9-113">Bu adım, şirketlerarası planlama çalışmasını kısaltmak için gereklidir.</span><span class="sxs-lookup"><span data-stu-id="075b9-113">This step is necessary in order to shorten the intercompany planning run.</span></span>   <span data-ttu-id="075b9-114">Şirketlerarası planlama, en düşük planlama serisinden başlayarak bir planlama grubu içindeki tüm şirketlerde master planlamayı çalıştırır.</span><span class="sxs-lookup"><span data-stu-id="075b9-114">Intercompany planning will run master planning in all the companies in a planning group, starting from the lowest scheduling sequence.</span></span>  
-5. <span data-ttu-id="075b9-115">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="075b9-115">Click Yes.</span></span>
-6. <span data-ttu-id="075b9-116">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="075b9-116">Close the page.</span></span>
+## <a name="set-up-an-intercompany-planning-group"></a><span data-ttu-id="79671-106">Şirketlerarası planlama grubu ayarlama</span><span class="sxs-lookup"><span data-stu-id="79671-106">Set up an intercompany planning group</span></span> 
+1. <span data-ttu-id="79671-107">Şirketlerarası planlama grupları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="79671-107">Go to Intercompany planning groups.</span></span>
+    * <span data-ttu-id="79671-108">Master planlama > Kurulum > Şirketlerarası planlama grupları</span><span class="sxs-lookup"><span data-stu-id="79671-108">Master planning > Setup > Intercompany planning groups</span></span>  
+2. <span data-ttu-id="79671-109">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="79671-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="79671-110">Örneğin, İsim alanı üzerinde '10' değerini girerek filtreleme yapın.</span><span class="sxs-lookup"><span data-stu-id="79671-110">For example, filter on the Name field with a value of '10'.</span></span>
+3. <span data-ttu-id="79671-111">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="79671-111">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="79671-112">Sil'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="79671-112">Click Delete.</span></span>
+    * <span data-ttu-id="79671-113">Bu adım, şirketlerarası planlama çalışmasını kısaltmak için gereklidir.</span><span class="sxs-lookup"><span data-stu-id="79671-113">This step is necessary in order to shorten the intercompany planning run.</span></span>   <span data-ttu-id="79671-114">Şirketlerarası planlama, en düşük planlama serisinden başlayarak bir planlama grubu içindeki tüm şirketlerde master planlamayı çalıştırır.</span><span class="sxs-lookup"><span data-stu-id="79671-114">Intercompany planning will run master planning in all the companies in a planning group, starting from the lowest scheduling sequence.</span></span>  
+5. <span data-ttu-id="79671-115">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="79671-115">Click Yes.</span></span>
+6. <span data-ttu-id="79671-116">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="79671-116">Close the page.</span></span>
 
-## <a name="create-an-intercompany-plan"></a><span data-ttu-id="075b9-117">Şirketlerarası plan oluşturma</span><span class="sxs-lookup"><span data-stu-id="075b9-117">Create an intercompany plan</span></span>
-1. <span data-ttu-id="075b9-118">Şirketlerarası master planlama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="075b9-118">Click Intercompany master planning.</span></span>
-    * <span data-ttu-id="075b9-119">Bu, Master planlama çalışma alanında olur.</span><span class="sxs-lookup"><span data-stu-id="075b9-119">This is on the Master planning workspace.</span></span>  
-2. <span data-ttu-id="075b9-120">Şirketlerarası planlama grubu alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="075b9-120">In the Intercompany planning group field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="075b9-121">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="075b9-121">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="075b9-122">Şirketlerarası planlama grubu 10'u seçin.</span><span class="sxs-lookup"><span data-stu-id="075b9-122">Select intercompany planning group 10.</span></span>  
-4. <span data-ttu-id="075b9-123">Şirketlerarası planlama tekrar sayısı alanına '2' yazın.</span><span class="sxs-lookup"><span data-stu-id="075b9-123">In the Number of intercompany planning iterations field, enter '2'.</span></span>
-    * <span data-ttu-id="075b9-124">Şirketlerarası planlama grubu 10 iki üyeye sahip.</span><span class="sxs-lookup"><span data-stu-id="075b9-124">Intercompany planning group 10 has two members.</span></span> <span data-ttu-id="075b9-125">Gecikmeleri kaynak şirketten (USMF) müşteri şirkete (DEMF) yaymak için, iki şirkette de şirketlerarası işlevini iki kez çalıştırmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="075b9-125">In order to propagate the delays from the source company (USMF) to the customer company (DEMF), you will need to run intercompany in both companies two times.</span></span> <span data-ttu-id="075b9-126">İlk tekrar, talebi yayar ve kaynak şirketteki (USMF) gecikmeleri tanımlar.</span><span class="sxs-lookup"><span data-stu-id="075b9-126">The first iteration will propagate the demand and identify the delays in the source company (USMF).</span></span> <span data-ttu-id="075b9-127">İkinci tekrar, gecikmeleri USMF'den DEMF'ye yayar.</span><span class="sxs-lookup"><span data-stu-id="075b9-127">The second iteration will propagate the delays from USMF to DEMF.</span></span>  
-5. <span data-ttu-id="075b9-128">İlk tekrarlama alanında bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="075b9-128">In the First iteration field, select an option.</span></span>
-6. <span data-ttu-id="075b9-129">İlk tekrarlama alanında 'Yeniden oluşturma' seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="075b9-129">In the First iteration field, select 'Regeneration'.</span></span>
-7. <span data-ttu-id="075b9-130">Sonraki tekrarlamalar alanında 'Yeniden oluşturma' seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="075b9-130">In the Subsequent iterations field, select 'Regeneration'.</span></span>
-8. <span data-ttu-id="075b9-131">İş parçacığı sayısı alanına bir rakam girin.</span><span class="sxs-lookup"><span data-stu-id="075b9-131">In the Number of threads field, enter a number.</span></span>
-    * <span data-ttu-id="075b9-132">Bu, planlama için kullanılan paralel iş parçacıklarının sayısını temsil eder.</span><span class="sxs-lookup"><span data-stu-id="075b9-132">This represents the number of parallel threads used for planning.</span></span>  
-9. <span data-ttu-id="075b9-133">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="075b9-133">Click OK.</span></span>
+## <a name="create-an-intercompany-plan"></a><span data-ttu-id="79671-117">Şirketlerarası plan oluşturma</span><span class="sxs-lookup"><span data-stu-id="79671-117">Create an intercompany plan</span></span>
+1. <span data-ttu-id="79671-118">Şirketlerarası master planlama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="79671-118">Click Intercompany master planning.</span></span>
+    * <span data-ttu-id="79671-119">Bu, Master planlama çalışma alanında olur.</span><span class="sxs-lookup"><span data-stu-id="79671-119">This is on the Master planning workspace.</span></span>  
+2. <span data-ttu-id="79671-120">Şirketlerarası planlama grubu alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="79671-120">In the Intercompany planning group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="79671-121">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="79671-121">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="79671-122">Şirketlerarası planlama grubu 10'u seçin.</span><span class="sxs-lookup"><span data-stu-id="79671-122">Select intercompany planning group 10.</span></span>  
+4. <span data-ttu-id="79671-123">Şirketlerarası planlama tekrar sayısı alanına '2' yazın.</span><span class="sxs-lookup"><span data-stu-id="79671-123">In the Number of intercompany planning iterations field, enter '2'.</span></span>
+    * <span data-ttu-id="79671-124">Şirketlerarası planlama grubu 10 iki üyeye sahip.</span><span class="sxs-lookup"><span data-stu-id="79671-124">Intercompany planning group 10 has two members.</span></span> <span data-ttu-id="79671-125">Gecikmeleri kaynak şirketten (USMF) müşteri şirkete (DEMF) yaymak için, iki şirkette de şirketlerarası işlevini iki kez çalıştırmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="79671-125">In order to propagate the delays from the source company (USMF) to the customer company (DEMF), you will need to run intercompany in both companies two times.</span></span> <span data-ttu-id="79671-126">İlk tekrar, talebi yayar ve kaynak şirketteki (USMF) gecikmeleri tanımlar.</span><span class="sxs-lookup"><span data-stu-id="79671-126">The first iteration will propagate the demand and identify the delays in the source company (USMF).</span></span> <span data-ttu-id="79671-127">İkinci tekrar, gecikmeleri USMF'den DEMF'ye yayar.</span><span class="sxs-lookup"><span data-stu-id="79671-127">The second iteration will propagate the delays from USMF to DEMF.</span></span>  
+5. <span data-ttu-id="79671-128">İlk tekrarlama alanında bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="79671-128">In the First iteration field, select an option.</span></span>
+6. <span data-ttu-id="79671-129">İlk tekrarlama alanında 'Yeniden oluşturma' seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="79671-129">In the First iteration field, select 'Regeneration'.</span></span>
+7. <span data-ttu-id="79671-130">Sonraki tekrarlamalar alanında 'Yeniden oluşturma' seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="79671-130">In the Subsequent iterations field, select 'Regeneration'.</span></span>
+8. <span data-ttu-id="79671-131">İş parçacığı sayısı alanına bir rakam girin.</span><span class="sxs-lookup"><span data-stu-id="79671-131">In the Number of threads field, enter a number.</span></span>
+    * <span data-ttu-id="79671-132">Bu, planlama için kullanılan paralel iş parçacıklarının sayısını temsil eder.</span><span class="sxs-lookup"><span data-stu-id="79671-132">This represents the number of parallel threads used for planning.</span></span>  
+9. <span data-ttu-id="79671-133">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="79671-133">Click OK.</span></span>
 
-## <a name="view-the-result-of-the-plan"></a><span data-ttu-id="075b9-134">Planın sonucunu görüntüleme</span><span class="sxs-lookup"><span data-stu-id="075b9-134">View the result of the plan</span></span>
-1. <span data-ttu-id="075b9-135">Plan alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="075b9-135">In the Plan field, click the drop-down button to open the lookup.</span></span>
-2. <span data-ttu-id="075b9-136">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="075b9-136">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="075b9-137">StaticPlan için bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="075b9-137">Click the link for StaticPlan.</span></span> <span data-ttu-id="075b9-138">USMF şirketinde olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="075b9-138">You need to be in company USMF.</span></span>  
-3. <span data-ttu-id="075b9-139">Planlı siparişler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="075b9-139">Click Planned orders.</span></span>
+## <a name="view-the-result-of-the-plan"></a><span data-ttu-id="79671-134">Planın sonucunu görüntüleme</span><span class="sxs-lookup"><span data-stu-id="79671-134">View the result of the plan</span></span>
+1. <span data-ttu-id="79671-135">Plan alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="79671-135">In the Plan field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="79671-136">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="79671-136">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="79671-137">StaticPlan için bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="79671-137">Click the link for StaticPlan.</span></span> <span data-ttu-id="79671-138">USMF şirketinde olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="79671-138">You need to be in company USMF.</span></span>  
+3. <span data-ttu-id="79671-139">Planlı siparişler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="79671-139">Click Planned orders.</span></span>
 

@@ -10,46 +10,46 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, EcoResDimensionBasedConfiguration, ConfigChooseFromRoute, ConfigChooseFromGroup, ConfigChoiceApprove
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9190d6dfd4b3f6cf0634e86845e7de028631bdd4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3fcb7b1b12dbf0e49e15aa594b0048a9b9216260
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568501"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844885"
 ---
-# <a name="create-dimension-based-configurations"></a><span data-ttu-id="21846-103">Boyut tabanlı yapılandırmalar oluşturma</span><span class="sxs-lookup"><span data-stu-id="21846-103">Create dimension-based configurations</span></span>
+# <a name="create-dimension-based-configurations"></a><span data-ttu-id="b6e90-103">Boyut tabanlı yapılandırmalar oluşturma</span><span class="sxs-lookup"><span data-stu-id="b6e90-103">Create dimension-based configurations</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="21846-104">Bu prosedürde bir boyut tabanlı ürün için bir yapılandırmanın nasıl tanımlanacağı açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="21846-104">This procedure shows how to define a configuration for a dimension-based product.</span></span> <span data-ttu-id="21846-105">Bu prosedür, boyut tabanlı yapılandırma kombinasyonlarının nasıl oluşturacağını açıklayan serinin son prosedürüdür.</span><span class="sxs-lookup"><span data-stu-id="21846-105">This is the last procedure in the series that explains how to build combinations for dimension-based configuration.</span></span> <span data-ttu-id="21846-106">Bu prosedürün uygulanması önceki yedi kayıtta oluşturulan verilere bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="21846-106">The execution of this procedure is dependent on the data created in the previous seven recordings.</span></span> <span data-ttu-id="21846-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="21846-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="b6e90-104">Bu prosedürde bir boyut tabanlı ürün için bir yapılandırmanın nasıl tanımlanacağı açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="b6e90-104">This procedure shows how to define a configuration for a dimension-based product.</span></span> <span data-ttu-id="b6e90-105">Bu prosedür, boyut tabanlı yapılandırma kombinasyonlarının nasıl oluşturacağını açıklayan serinin son prosedürüdür.</span><span class="sxs-lookup"><span data-stu-id="b6e90-105">This is the last procedure in the series that explains how to build combinations for dimension-based configuration.</span></span> <span data-ttu-id="b6e90-106">Bu prosedürün uygulanması önceki yedi kayıtta oluşturulan verilere bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="b6e90-106">The execution of this procedure is dependent on the data created in the previous seven recordings.</span></span> <span data-ttu-id="b6e90-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="b6e90-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="find-the-dimension-based-product-master"></a><span data-ttu-id="21846-108">Boyut tabanlı ürün mastarını bulma</span><span class="sxs-lookup"><span data-stu-id="21846-108">Find the dimension-based product master</span></span>
-1. <span data-ttu-id="21846-109">Serbest bırakılan ürün bakımı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="21846-109">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="21846-110">Sevk edilen ürünler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="21846-110">Click Released products.</span></span>
-3. <span data-ttu-id="21846-111">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="21846-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="21846-112">Bu 8 kayıtlı dizinde ilk kayıtta oluşturduğunuz boyut tabanlı ürün mastarını seçin.</span><span class="sxs-lookup"><span data-stu-id="21846-112">Select the dimension-based product master that you created in the first recording in this sequence of 8 recordings.</span></span>  
+## <a name="find-the-dimension-based-product-master"></a><span data-ttu-id="b6e90-108">Boyut tabanlı ürün mastarını bulma</span><span class="sxs-lookup"><span data-stu-id="b6e90-108">Find the dimension-based product master</span></span>
+1. <span data-ttu-id="b6e90-109">Serbest bırakılan ürün bakımı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b6e90-109">Click Released product maintenance.</span></span>
+2. <span data-ttu-id="b6e90-110">Sevk edilen ürünler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b6e90-110">Click Released products.</span></span>
+3. <span data-ttu-id="b6e90-111">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="b6e90-112">Bu 8 kayıtlı dizinde ilk kayıtta oluşturduğunuz boyut tabanlı ürün mastarını seçin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-112">Select the dimension-based product master that you created in the first recording in this sequence of 8 recordings.</span></span>  
 
-## <a name="create-configurations"></a><span data-ttu-id="21846-113">Yapılandırmalar oluşturma</span><span class="sxs-lookup"><span data-stu-id="21846-113">Create configurations</span></span>
-1. <span data-ttu-id="21846-114">Mühendislik Eylem Bölmesinde, Yapılandırmaları yönet düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="21846-114">On the Engineering Action Pane, click Maintain configurations.</span></span>
-2. <span data-ttu-id="21846-115">Yapılandır düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="21846-115">Click Configure.</span></span>
-3. <span data-ttu-id="21846-116">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="21846-116">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="21846-117">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="21846-117">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="21846-118">İlk yapılandırma grubundaki maddelerden herhangi birini seçin.</span><span class="sxs-lookup"><span data-stu-id="21846-118">Select any of the items in the first configuration group.</span></span>  
-5. <span data-ttu-id="21846-119">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="21846-119">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="21846-120">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="21846-120">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="21846-121">İkinci yapılandırma grubundan herhangi bir maddeyi seçin.</span><span class="sxs-lookup"><span data-stu-id="21846-121">Select any item from the second configuration group.</span></span>  
-7. <span data-ttu-id="21846-122">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="21846-122">Click OK.</span></span>
-8. <span data-ttu-id="21846-123">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="21846-123">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="21846-124">Yapılandırma alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="21846-124">In the Configuration field, type a value.</span></span>
-    * <span data-ttu-id="21846-125">Yapılandırmayı kolayca tanımlamanıza yardımcı olacak bir yapılandırma adı girin.</span><span class="sxs-lookup"><span data-stu-id="21846-125">Enter a configuration name that will make it easy to identify the configuration.</span></span>  
-10. <span data-ttu-id="21846-126">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="21846-126">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="21846-127">İçeriğini açıklamak için bir yapılandırma açıklaması girin.</span><span class="sxs-lookup"><span data-stu-id="21846-127">Enter a description of the configuration to explain what it contains.</span></span>  
-11. <span data-ttu-id="21846-128">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="21846-128">Click OK.</span></span>
+## <a name="create-configurations"></a><span data-ttu-id="b6e90-113">Yapılandırmalar oluşturma</span><span class="sxs-lookup"><span data-stu-id="b6e90-113">Create configurations</span></span>
+1. <span data-ttu-id="b6e90-114">Mühendislik Eylem Bölmesinde, Yapılandırmaları yönet düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b6e90-114">On the Engineering Action Pane, click Maintain configurations.</span></span>
+2. <span data-ttu-id="b6e90-115">Yapılandır düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b6e90-115">Click Configure.</span></span>
+3. <span data-ttu-id="b6e90-116">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-116">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="b6e90-117">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="b6e90-118">İlk yapılandırma grubundaki maddelerden herhangi birini seçin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-118">Select any of the items in the first configuration group.</span></span>  
+5. <span data-ttu-id="b6e90-119">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-119">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="b6e90-120">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-120">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="b6e90-121">İkinci yapılandırma grubundan herhangi bir maddeyi seçin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-121">Select any item from the second configuration group.</span></span>  
+7. <span data-ttu-id="b6e90-122">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b6e90-122">Click OK.</span></span>
+8. <span data-ttu-id="b6e90-123">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-123">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="b6e90-124">Yapılandırma alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="b6e90-124">In the Configuration field, type a value.</span></span>
+    * <span data-ttu-id="b6e90-125">Yapılandırmayı kolayca tanımlamanıza yardımcı olacak bir yapılandırma adı girin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-125">Enter a configuration name that will make it easy to identify the configuration.</span></span>  
+10. <span data-ttu-id="b6e90-126">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-126">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="b6e90-127">İçeriğini açıklamak için bir yapılandırma açıklaması girin.</span><span class="sxs-lookup"><span data-stu-id="b6e90-127">Enter a description of the configuration to explain what it contains.</span></span>  
+11. <span data-ttu-id="b6e90-128">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b6e90-128">Click OK.</span></span>
 

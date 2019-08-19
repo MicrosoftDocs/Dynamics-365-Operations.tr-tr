@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: 875dcebb-1bbb-4841-a8c6-9e134da07e96
@@ -17,28 +17,28 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9609c052083dc3157618584da9311211ea036eba
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 36e0af4f1b4fa0013490a2acc2bfcac0de05f5dd
+ms.sourcegitcommit: 27a98a7a0f1d2623f5236a88066f483def30889c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555606"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1833350"
 ---
-# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a><span data-ttu-id="211f9-103">Sağdan sola doğru okunan dillerde mali boyutlar ve ana hesaplar</span><span class="sxs-lookup"><span data-stu-id="211f9-103">Financial dimensions and main accounts in right-to-left languages</span></span>
+# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a><span data-ttu-id="1799f-103">Sağdan sola doğru okunan dillerde mali boyutlar ve ana hesaplar</span><span class="sxs-lookup"><span data-stu-id="1799f-103">Financial dimensions and main accounts in right-to-left languages</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="211f9-104">Bu konu, sağdan sola doğru okunan bir dil kullandığınızda ve finansal boyutlar ve ana hesaplar ayarlamanız gerektiğinde değerlendirmeniz gereken bazı uygulama kararlarını açıklar.</span><span class="sxs-lookup"><span data-stu-id="211f9-104">This topic describes some of the implementation decisions that you should consider when you use a right-to-left language, and you must set up financial dimensions and main accounts.</span></span>
+<span data-ttu-id="1799f-104">Bu konu, sağdan sola doğru okunan bir dil kullandığınızda ve finansal boyutlar ve ana hesaplar ayarlamanız gerektiğinde değerlendirmeniz gereken bazı uygulama kararlarını açıklar.</span><span class="sxs-lookup"><span data-stu-id="1799f-104">This topic describes some of the implementation decisions that you should consider when you use a right-to-left language, and you must set up financial dimensions and main accounts.</span></span>
 
-<span data-ttu-id="211f9-105">Mali boyutları ve ana hesaplar bir uygulama için planlama aşamasının anahtar bileşenleridir.</span><span class="sxs-lookup"><span data-stu-id="211f9-105">Financial dimensions and main accounts are key components of the planning phase for an implementation.</span></span> <span data-ttu-id="211f9-106">Mali boyutlar ve ana hesaplar sistemde oluşturulduktan sonra **Hesap yapıları yapılandır**, **Gelişmiş kural yapıları** ve **Uygulamaları tümleştirmek için mali boyut yapılandırması** sayfalarında kullanılır.</span><span class="sxs-lookup"><span data-stu-id="211f9-106">After financial dimensions and main accounts are created in the system, they are used on the **Configure account structures**, **Advanced rule structures**, and **Financial dimension configuration for integrating applications** pages.</span></span> <span data-ttu-id="211f9-107">Bu sayfalarda tanımlanan sıra, sistemde veri girişi ve tüketim için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="211f9-107">The order that is defined on those pages is used in the system for data entry and consumption.</span></span> <span data-ttu-id="211f9-108">Sistemdeki bazı yerlerde mali boyutlar ve ana hesaplar ayrı alanlarda görünür.</span><span class="sxs-lookup"><span data-stu-id="211f9-108">In some places in the system, the financial dimensions and main accounts appear in separate fields.</span></span> <span data-ttu-id="211f9-109">Ancak, günlükler gibi diğer yerlerde mali boyutlar ve ana hesaplar tek bir dize olarak görünür.</span><span class="sxs-lookup"><span data-stu-id="211f9-109">However, in other places, such as journals, the financial dimensions and main accounts appear as a single string.</span></span>
+<span data-ttu-id="1799f-105">Mali boyutları ve ana hesaplar bir uygulama için planlama aşamasının anahtar bileşenleridir.</span><span class="sxs-lookup"><span data-stu-id="1799f-105">Financial dimensions and main accounts are key components of the planning phase for an implementation.</span></span> <span data-ttu-id="1799f-106">Mali boyutlar ve ana hesaplar sistemde oluşturulduktan sonra **Hesap yapıları yapılandır**, **Gelişmiş kural yapıları** ve **Uygulamaları tümleştirmek için mali boyut yapılandırması** sayfalarında kullanılır.</span><span class="sxs-lookup"><span data-stu-id="1799f-106">After financial dimensions and main accounts are created in the system, they are used on the **Configure account structures**, **Advanced rule structures**, and **Financial dimension configuration for integrating applications** pages.</span></span> <span data-ttu-id="1799f-107">Bu sayfalarda tanımlanan sıra, sistemde veri girişi ve tüketim için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="1799f-107">The order that is defined on those pages is used in the system for data entry and consumption.</span></span> <span data-ttu-id="1799f-108">Sistemdeki bazı yerlerde mali boyutlar ve ana hesaplar ayrı alanlarda görünür.</span><span class="sxs-lookup"><span data-stu-id="1799f-108">In some places in the system, the financial dimensions and main accounts appear in separate fields.</span></span> <span data-ttu-id="1799f-109">Ancak, günlükler gibi diğer yerlerde mali boyutlar ve ana hesaplar tek bir dize olarak görünür.</span><span class="sxs-lookup"><span data-stu-id="1799f-109">However, in other places, such as journals, the financial dimensions and main accounts appear as a single string.</span></span>
 
-### <a name="best-practices-for-setting-up-financial-dimensions-and-main-accounts-in-a-right-to-left-system"></a><span data-ttu-id="211f9-110">Sağdan sola doğru okunan bir sistemde mali boyutları ve ana hesapları ayarlamanın en iyi yöntemleri</span><span class="sxs-lookup"><span data-stu-id="211f9-110">Best practices for setting up financial dimensions and main accounts in a right-to-left system</span></span>
+### <a name="best-practices-for-setting-up-financial-dimensions-and-main-accounts-in-a-right-to-left-system"></a><span data-ttu-id="1799f-110">Sağdan sola doğru okunan bir sistemde mali boyutları ve ana hesapları ayarlamanın en iyi yöntemleri</span><span class="sxs-lookup"><span data-stu-id="1799f-110">Best practices for setting up financial dimensions and main accounts in a right-to-left system</span></span>
 
--   <span data-ttu-id="211f9-111">Hesap planları için ayraç seçtiğinizde çift ayraç seçeneklerinden birini belirleyin: çift tire (--), çift çubuk (||) veya çift nokta (..) veya çift alt çizgi (\_\_).</span><span class="sxs-lookup"><span data-stu-id="211f9-111">When you select the delimiter for charts of accounts, select one of the double delimiter options: double hyphen (--), double bar (||) or double period (..), or double underscore (\_\_).</span></span>
--   <span data-ttu-id="211f9-112">Mali boyut ve ana hesap değerleri oluşturduğunuzda yalnızca sayıları ve sağdan sola dil karakterlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="211f9-112">When you create financial dimension and main account values, use only numbers and right-to-left language characters.</span></span>
--   <span data-ttu-id="211f9-113">Seçili hesap planı ayracını mali boyut ve ana hesap değerlerinde kullanmaktan kaçının.</span><span class="sxs-lookup"><span data-stu-id="211f9-113">Avoid using the selected chart of accounts delimiter in financial dimension and main account values.</span></span>
+-   <span data-ttu-id="1799f-111">Hesap planları için ayraç seçtiğinizde çift ayraç seçeneklerinden birini belirleyin: çift tire (--), çift çubuk (||) veya çift nokta (..) veya çift alt çizgi (\_\_).</span><span class="sxs-lookup"><span data-stu-id="1799f-111">When you select the delimiter for charts of accounts, select one of the double delimiter options: double hyphen (--), double bar (||) or double period (..), or double underscore (\_\_).</span></span>
+-   <span data-ttu-id="1799f-112">Mali boyut ve ana hesap değerleri oluşturduğunuzda yalnızca sayıları ve sağdan sola dil karakterlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="1799f-112">When you create financial dimension and main account values, use only numbers and right-to-left language characters.</span></span>
+-   <span data-ttu-id="1799f-113">Seçili hesap planı ayracını mali boyut ve ana hesap değerlerinde kullanmaktan kaçının.</span><span class="sxs-lookup"><span data-stu-id="1799f-113">Avoid using the selected chart of accounts delimiter in financial dimension and main account values.</span></span>
 
-<span data-ttu-id="211f9-114">Bu en iyi yöntemleri izleyerek sistemde kullanıcı tanımlı sıranın tutarlı gösterimini garanti altına almaya yardımcı olursunuz.</span><span class="sxs-lookup"><span data-stu-id="211f9-114">By following these best practices, you help guarantee consistent representation of the user defined-order throughout the system.</span></span>
+<span data-ttu-id="1799f-114">Bu en iyi yöntemleri izleyerek sistemde kullanıcı tanımlı sıranın tutarlı gösterimini garanti altına almaya yardımcı olursunuz.</span><span class="sxs-lookup"><span data-stu-id="1799f-114">By following these best practices, you help guarantee consistent representation of the user defined-order throughout the system.</span></span>
 
 
 

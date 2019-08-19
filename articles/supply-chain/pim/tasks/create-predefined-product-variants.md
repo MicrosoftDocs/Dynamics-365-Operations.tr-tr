@@ -10,65 +10,65 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab4f43957f7c661349714dbb0933ac3c1d19ab0e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: baf1e41d0071a4c78d2a0f43548e44ae9d426580
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550664"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844789"
 ---
-# <a name="create-predefined-product-variants"></a><span data-ttu-id="61e51-103">Önceden tanımlanmış ürün çeşitleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="61e51-103">Create predefined product variants</span></span>
+# <a name="create-predefined-product-variants"></a><span data-ttu-id="9f1f6-103">Önceden tanımlanmış ürün çeşitleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="9f1f6-103">Create predefined product variants</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="61e51-104">Bu prosedürde ürün boyutları kombinasyonları kullanılarak bir ana ürün için ürün seçeneklerinin nasıl oluşturulacağı adım adım açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="61e51-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="61e51-105">Bu yöntemi oluşturmak için kullanılan demo şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="61e51-105">The demo company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="9f1f6-104">Bu prosedürde ürün boyutları kombinasyonları kullanılarak bir ana ürün için ürün seçeneklerinin nasıl oluşturulacağı adım adım açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="9f1f6-105">Bu yöntemi oluşturmak için kullanılan demo şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-105">The demo company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-product-master"></a><span data-ttu-id="61e51-106">Ana ürün oluşturma</span><span class="sxs-lookup"><span data-stu-id="61e51-106">Create a product master</span></span>
-1. <span data-ttu-id="61e51-107">Ürün bilgi yönetimi > Ürünler > Ana ürünler'e git.</span><span class="sxs-lookup"><span data-stu-id="61e51-107">Go to Product information management > Products > Product masters.</span></span>
-2. <span data-ttu-id="61e51-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="61e51-108">Click New.</span></span>
-3. <span data-ttu-id="61e51-109">Ürün numarası alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="61e51-109">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="61e51-110">Bir ürün numarasının el ile girilmesi sadece ürün numarası alanı için hiçbir numarası dizisi ayarlanmamışsa gereklidir.</span><span class="sxs-lookup"><span data-stu-id="61e51-110">Entering a product number manually is only required if no number sequence has been set for the product number field.</span></span> <span data-ttu-id="61e51-111">Diğer bir deyişle, alan için bir numara serisi ayarlanmışsa bu adımı atlayın.</span><span class="sxs-lookup"><span data-stu-id="61e51-111">In other words, skip the step if number sequence has been set for the field.</span></span>  
-4. <span data-ttu-id="61e51-112">Ürün adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="61e51-112">In the Product name field, type a value.</span></span>
-5. <span data-ttu-id="61e51-113">Ürün boyutu grubu alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="61e51-113">In the Product dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="61e51-114">SizeCol (Boyut ve Renk) ürün boyut grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="61e51-114">Select the product dimension group SizeCol (Size and Color).</span></span>  
-6. <span data-ttu-id="61e51-115">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="61e51-115">Click OK.</span></span>
+## <a name="create-a-product-master"></a><span data-ttu-id="9f1f6-106">Ana ürün oluşturma</span><span class="sxs-lookup"><span data-stu-id="9f1f6-106">Create a product master</span></span>
+1. <span data-ttu-id="9f1f6-107">Ürün bilgi yönetimi > Ürünler > Ana ürünler'e git.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-107">Go to Product information management > Products > Product masters.</span></span>
+2. <span data-ttu-id="9f1f6-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-108">Click New.</span></span>
+3. <span data-ttu-id="9f1f6-109">Ürün numarası alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-109">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="9f1f6-110">Bir ürün numarasının el ile girilmesi sadece ürün numarası alanı için hiçbir numarası dizisi ayarlanmamışsa gereklidir.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-110">Entering a product number manually is only required if no number sequence has been set for the product number field.</span></span> <span data-ttu-id="9f1f6-111">Diğer bir deyişle, alan için bir numara serisi ayarlanmışsa bu adımı atlayın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-111">In other words, skip the step if number sequence has been set for the field.</span></span>  
+4. <span data-ttu-id="9f1f6-112">Ürün adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-112">In the Product name field, type a value.</span></span>
+5. <span data-ttu-id="9f1f6-113">Ürün boyutu grubu alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-113">In the Product dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="9f1f6-114">SizeCol (Boyut ve Renk) ürün boyut grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-114">Select the product dimension group SizeCol (Size and Color).</span></span>  
+6. <span data-ttu-id="9f1f6-115">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-115">Click OK.</span></span>
 
-## <a name="add-product-dimensions"></a><span data-ttu-id="61e51-116">Ürün boyutları ekleme</span><span class="sxs-lookup"><span data-stu-id="61e51-116">Add product dimensions</span></span>
-1. <span data-ttu-id="61e51-117">Ürün boyutları öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="61e51-117">Click Product dimensions.</span></span>
-    * <span data-ttu-id="61e51-118">Bu örnekte ürün boyutlarının nasıl el ile girileceği gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="61e51-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="61e51-119">Ayrıca, kullanmak istediğiniz ürün boyutu değerlerini içeren boyut, renk veya tarz grubunu seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="61e51-119">You can also choose to select a size, color or style group that includes the product dimension values you want to use.</span></span>  
-2. <span data-ttu-id="61e51-120">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="61e51-120">Click New.</span></span>
-3. <span data-ttu-id="61e51-121">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="61e51-121">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="61e51-122">Ebat alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="61e51-122">In the Size field, enter or select a value.</span></span>
-5. <span data-ttu-id="61e51-123">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="61e51-123">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="61e51-124">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="61e51-124">Click New.</span></span>
-7. <span data-ttu-id="61e51-125">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="61e51-125">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="61e51-126">Ebat alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="61e51-126">In the Size field, enter or select a value.</span></span>
-9. <span data-ttu-id="61e51-127">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="61e51-127">In the Name field, type a value.</span></span>
-10. <span data-ttu-id="61e51-128">Renkler sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="61e51-128">Click the Colors tab.</span></span>
-11. <span data-ttu-id="61e51-129">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="61e51-129">Click New.</span></span>
-12. <span data-ttu-id="61e51-130">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="61e51-130">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="61e51-131">Renk alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="61e51-131">In the Color field, enter or select a value.</span></span>
-14. <span data-ttu-id="61e51-132">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="61e51-132">In the Name field, type a value.</span></span>
-15. <span data-ttu-id="61e51-133">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="61e51-133">Click New.</span></span>
-16. <span data-ttu-id="61e51-134">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="61e51-134">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="61e51-135">Renk alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="61e51-135">In the Color field, enter or select a value.</span></span>
-18. <span data-ttu-id="61e51-136">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="61e51-136">In the Name field, type a value.</span></span>
-19. <span data-ttu-id="61e51-137">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="61e51-137">Click Save.</span></span>
-20. <span data-ttu-id="61e51-138">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="61e51-138">Close the page.</span></span>
+## <a name="add-product-dimensions"></a><span data-ttu-id="9f1f6-116">Ürün boyutları ekleme</span><span class="sxs-lookup"><span data-stu-id="9f1f6-116">Add product dimensions</span></span>
+1. <span data-ttu-id="9f1f6-117">Ürün boyutları öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-117">Click Product dimensions.</span></span>
+    * <span data-ttu-id="9f1f6-118">Bu örnekte ürün boyutlarının nasıl el ile girileceği gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="9f1f6-119">Ayrıca, kullanmak istediğiniz ürün boyutu değerlerini içeren boyut, renk veya tarz grubunu seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-119">You can also choose to select a size, color or style group that includes the product dimension values you want to use.</span></span>  
+2. <span data-ttu-id="9f1f6-120">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-120">Click New.</span></span>
+3. <span data-ttu-id="9f1f6-121">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-121">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="9f1f6-122">Ebat alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-122">In the Size field, enter or select a value.</span></span>
+5. <span data-ttu-id="9f1f6-123">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-123">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="9f1f6-124">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-124">Click New.</span></span>
+7. <span data-ttu-id="9f1f6-125">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-125">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="9f1f6-126">Ebat alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-126">In the Size field, enter or select a value.</span></span>
+9. <span data-ttu-id="9f1f6-127">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-127">In the Name field, type a value.</span></span>
+10. <span data-ttu-id="9f1f6-128">Renkler sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-128">Click the Colors tab.</span></span>
+11. <span data-ttu-id="9f1f6-129">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-129">Click New.</span></span>
+12. <span data-ttu-id="9f1f6-130">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-130">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="9f1f6-131">Renk alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-131">In the Color field, enter or select a value.</span></span>
+14. <span data-ttu-id="9f1f6-132">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-132">In the Name field, type a value.</span></span>
+15. <span data-ttu-id="9f1f6-133">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-133">Click New.</span></span>
+16. <span data-ttu-id="9f1f6-134">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-134">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="9f1f6-135">Renk alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-135">In the Color field, enter or select a value.</span></span>
+18. <span data-ttu-id="9f1f6-136">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-136">In the Name field, type a value.</span></span>
+19. <span data-ttu-id="9f1f6-137">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-137">Click Save.</span></span>
+20. <span data-ttu-id="9f1f6-138">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-138">Close the page.</span></span>
 
-## <a name="generate-product-variants"></a><span data-ttu-id="61e51-139">Ürün seçenekleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="61e51-139">Generate product variants</span></span>
-1. <span data-ttu-id="61e51-140">Ürün çeşitleri öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="61e51-140">Click Product variants.</span></span>
-2. <span data-ttu-id="61e51-141">Çeşit önerilerini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="61e51-141">Click Variant suggestions.</span></span>
-3. <span data-ttu-id="61e51-142">Tümünü seç'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="61e51-142">Click Select all.</span></span>
-    * <span data-ttu-id="61e51-143">Bu örnekte tüm olası seçenekler dahil edilmiştir.</span><span class="sxs-lookup"><span data-stu-id="61e51-143">In this example, all possible variants are selected.</span></span> <span data-ttu-id="61e51-144">Bu seçeneklerin oluşturulması için sadece olası ürün boyutu kombinasyonlarının bir alt kümesi kullanılacaksa, bireysel girişleri seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="61e51-144">If only a subset of the possible product dimension combinations will be used to create variants, you can select the individual entries.</span></span>  
-4. <span data-ttu-id="61e51-145">Oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="61e51-145">Click Create.</span></span>
-    * <span data-ttu-id="61e51-146">Ürün boyutu değerlerinin kombinasyonuna dayalı olarak tüm seçenekleriniz için açıklamalar oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="61e51-146">You can generate descriptions for all your variants based on the combination of product dimension values.</span></span> <span data-ttu-id="61e51-147">Açıklamalar isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="61e51-147">The descriptions are optional.</span></span>  
-5. <span data-ttu-id="61e51-148">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="61e51-148">Click Save.</span></span>
+## <a name="generate-product-variants"></a><span data-ttu-id="9f1f6-139">Ürün seçenekleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="9f1f6-139">Generate product variants</span></span>
+1. <span data-ttu-id="9f1f6-140">Ürün çeşitleri öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-140">Click Product variants.</span></span>
+2. <span data-ttu-id="9f1f6-141">Çeşit önerilerini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-141">Click Variant suggestions.</span></span>
+3. <span data-ttu-id="9f1f6-142">Tümünü seç'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-142">Click Select all.</span></span>
+    * <span data-ttu-id="9f1f6-143">Bu örnekte tüm olası seçenekler dahil edilmiştir.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-143">In this example, all possible variants are selected.</span></span> <span data-ttu-id="9f1f6-144">Bu seçeneklerin oluşturulması için sadece olası ürün boyutu kombinasyonlarının bir alt kümesi kullanılacaksa, bireysel girişleri seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-144">If only a subset of the possible product dimension combinations will be used to create variants, you can select the individual entries.</span></span>  
+4. <span data-ttu-id="9f1f6-145">Oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-145">Click Create.</span></span>
+    * <span data-ttu-id="9f1f6-146">Ürün boyutu değerlerinin kombinasyonuna dayalı olarak tüm seçenekleriniz için açıklamalar oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-146">You can generate descriptions for all your variants based on the combination of product dimension values.</span></span> <span data-ttu-id="9f1f6-147">Açıklamalar isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-147">The descriptions are optional.</span></span>  
+5. <span data-ttu-id="9f1f6-148">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9f1f6-148">Click Save.</span></span>
 
