@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9cba30560762b5f647621aafb8db19241523f904
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 15a645c98fe38e8ddaa34c0c21581eac6636502f
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561939"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852009"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)
 

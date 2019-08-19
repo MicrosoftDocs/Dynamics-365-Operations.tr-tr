@@ -1,5 +1,5 @@
 ---
-title: RCS ve ER için uygulamaya özel meta verileri hazırlama
+title: Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
 description: Bu konu, gelen elektronik belgelerin XML biçiminde ayrıştırılacağı XML özniteliklerini belirleyen ER biçimleri tasarlama hakkında bilgi sağlar.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726587"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850007"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>RCS ve ER için uygulamaya özel meta verileri hazırlama
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
 
 XML biçiminde gelen elektronik belgeleri ayrıştırmak için Elektronik raporlama (ER) biçimleri tasarlayabilirsiniz. XML öğelerinin belirli öznitelikleri, tasarlanan ER biçiminde isteğe bağlı olarak belirtilebilir. Bu tür XML özniteliklerine sahip olan ve olmayan gelen dosyaları doğru şekilde kullanmanıza izin verecektir. Bunun ardından, uygulama verilerini güncelleştirmek için bu dosyalardaki içeriği kullanabilirsiniz.
 
@@ -98,10 +98,10 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 6.  **Tasarımcı**'yı tıklatın.
 7.  Ağaçta, **biçim**'i genişletin.
 8.  Ağaçta **biçim\root: XML Element(root)**'u genişletin.
-9.  Ağaçta **biçim\root: XML Element(root)\document: XML Element 1..*'i seçin. (belge)**.
+9.  Ağaçta **biçim\kök: XML Element(root)\document: XML Element 1..*'i seçin. (belge)**.
 10. **Bağla**'ya tıklayın.
 11. Ağaçta **biçim\root: XML Element(root)\document: XML Element 1..*'i genişletin. (belge)**.
-12. Ağaçta **biçim\root: XML Element(root)\document: XML Element 1..*'i seçin. (belge)\kimlik**.
+12. Ağaçta **biçim\kök: XML Element(root)\document: XML Element 1..*'i seçin. (belge)\kimlik**.
 13. Ağaçta **List = format.root.document**'i genişletin.
 14. Ağaçta **List = format.root.document\Code**'u seçin.
 15. **Bağla**'ya tıklayın.

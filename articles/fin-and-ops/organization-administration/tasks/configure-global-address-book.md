@@ -3,25 +3,25 @@ title: Genel adres defterini yapılandır
 description: Genel adres defteri için güvenlik ilkeleri ve varsayılan değerleri ayarlamak için bu yordamı kullanın.
 author: kfend
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/23/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 230d3c089189ddb6186bc2ca4b647b8ad5b003ce
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3994c7bb77e9821a880dc009681e113013129850
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545705"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1851883"
 ---
 # <a name="configure-the-global-address-book"></a>Genel adres defterini yapılandır
 
@@ -31,19 +31,18 @@ Genel adres defteri için güvenlik ilkeleri ve varsayılan değerleri ayarlamak
 
 Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev planlama ve yapılandırma takımı için tasarlanmıştır.
 
-1. Kuruluş yönetimi > Genel adres defteri > Genel adres defteri parametreleri seçeneğine gidin.
-2. Ad sırası alanında adların nasıl gösterileceğini seçin.
-3. Rol atanmamış tarafları silip silmeyeceğinizi seçin.
-4. Yinelenen kayıtların denetlenip denetlenmeyeceğini seçin.
-5. Adreslerde DUNS numarasının görüntülenip görüntülenmeyeceğini seçin.
-6. Benzersiz DUNS numaralarının denetlenip denetlenmeyeceğini seçin.
-7. Taraf alanında, bir seçenek seçin.
-8. Müşteri alanında, bir seçenek seçin.
-9. Satıcı alanında, bir seçenek seçin.
-10. Potansiyel alanında, bir seçenek seçin.
-11. Rekabetçi alanında, bir seçenek seçin.
-12. Özel konum güvenliği sekmesini tıklayın.
-13. Listede, istenen kaydı bulun ve seçin.
-    * Seçili rolleri eklemek için oku tıklatın ve Seçilen rolleri bölmesine eklemek üzere birden çok rol seçmek için Shift tuşuna basın.  
-14. Kaydet'e tıklayın.
+1. Gezinti bölmesinde **Modüller > Kuruluş yönetimi > Genel adres defteri > Genel adres defteri parametreleri**'ne gidin.
+2. **Ad sırası** alanında adların nasıl gösterileceğini seçin.
+3. **Rolü olmayan tarafları sil** alanında, rol atanmamış olan tarafların silinip silinmeyeceğini seçin.
+4. **Tekrarlanan öğe denetimi kullan**'da yinelenen kayıtların denetlenip denetlenmeyeceğini seçin.
+5. **Adreslerde DUNS numarasını görüntüle**'de adreslerde DUNS numarasının görüntülenip görüntülenmeyeceğini seçin.
+6. **Benzersiz DUNS numarasını denetle**'de benzersiz DUNS numaralarının kontrol edilip edilmeyeceğini seçin.
+7. **Taraf** alanında, bir seçenek seçin.
+8. **Müşteri** alanında, bir seçenek seçin.
+9. **Satıcı** alanında, bir seçenek seçin.
+10. **Potansiyel** alanında, bir seçenek seçin.
+11. **Rekabetçi** alanında, bir seçenek seçin.
+12. **Özel konum güvenliği** sekmesine tıklayın.
+13. Listede, istenen kaydı bulun ve seçin. **Seçilen roller**'i bölmesine eklemek üzere birden çok rol seçmek için Shift tuşuna basın ve seçili rolleri eklemek için oka tıklayın.  
+14. **Kaydet**'e tıklayın.
 

@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: ab81e95c2e31adfefd4e5c4367a61baa7c251c43
-ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
+ms.openlocfilehash: e2287cb0281e920de219cb88d41cd69264911f93
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "1703841"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850885"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool eğitimi ayarlama ve yükleme
 Bu konu, RSAT ve RSAT kullanmayla ilgili araçları almanıza ve bu kurulumu başlatmanıza yardımcı olan bir eğitimdir. 
@@ -705,7 +705,7 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
     ![Yeni adım eklendi](./media/setup_rsa_tool_93.png)
 
 12. **Düzenlemeyi bitir**'i seçin.
-13.  **Save to Lifecycle Services**'e kaydeti seçin ve yeni görev kaydını, özgün görev kaydının ilişkilendirildiği aynı BPM kitaplığıyla ve iş süreciyle ilişkilendirin. Daha fazla bilgi için [Create a task recording and save it to the BPM library](#create-a-task-recording-and-save-it-to-the-bpm-library)bölümüne bakın.
+13.  **Save to Lifecycle Services**'e kaydeti seçin ve yeni görev kaydını, özgün görev kaydının ilişkilendirildiği aynı BPM kitaplığıyla ve iş süreciyle ilişkilendirin. Daha fazla bilgi için [Görev kaydı oluşturma ve bunu BPM kitaplığına kaydetme](#create-a-task-recording-and-save-it-to-the-bpm-library)bölümüne bakın.
 14. BPM kitaplığına gidin ve **Test olaylarını eşitle**'yi [BPM ile Azure DevOps eşitlemesini test etme](#test-the-synchronization-from-bpm-to-azure-devops) bölümünde açıklandığı gibi Azure DevOps'a iliştirin.
 15. RSAT'ı açın ve test paketindeki tüm test olaylarını yeniden yüklemek için **Yükle**'yi seçin. Test olayını seçerek ve [Test olaylarını yükleme ve çalıştırma](#load-and-run-test-cases) bölümünde açıklandığı gibi **Yeni \> Test Yürütme ve Parametre dosyaları**'nı seçerek uygun test olayı için otomasyon ve parametre dosyalarını yeniden oluşturmalısınız.
 
@@ -726,7 +726,7 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
 
 #### <a name="create-a-new-task-recording-that-has-a-validate-function"></a>Doğrulama işlevi olan yeni bir görev kaydı oluşturma
 
-- Daha önce USRT tüzel kişiliği tarafından oluşturulan ürünü serbest bırakmak için bir görev kaydı oluşturun. Daha fazla bilgi için [Create a task recording and save it to the BPM library](#create-a-task-recording-and-save-it-to-the-bpm-library)bölümüne bakın.
+- Daha önce USRT tüzel kişiliği tarafından oluşturulan ürünü serbest bırakmak için bir görev kaydı oluşturun. Daha fazla bilgi için [Görev kaydı oluşturma ve bunu BPM kitaplığına kaydetme](#create-a-task-recording-and-save-it-to-the-bpm-library)bölümüne bakın.
 
     > [!NOTE]
     > Zincirleme test olayları için, *alan değerini el ile yazarak* gereksinim duyduğunuz kaydı bulmanız veya filtreleyerek her zaman önerilir. Bu şekilde, söz konusu eylem, sonraki test olayında dikkate alınması gereken kaydı belirleyebilir.

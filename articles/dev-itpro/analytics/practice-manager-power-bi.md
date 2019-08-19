@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551683"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850109"
 ---
 # <a name="practice-manager-power-bi-content"></a>Uygulama yöneticisi Power BI içeriği
 
@@ -54,7 +54,7 @@ Aşağı tablo, **Uygulama yöneticisi** Power BI içeriğinin her bir rapor say
 | EVM               | Projeye göre maliyet ve planlama performans endeksi |
 | Saatler             | <ul><li>Fiili faturalanabilir çalışılan saatler - fiili faturalanabilir yük saati sayısı - bütçe saatleri karşılaştırması</li><li>Projeye göre fiili faturalanabilir çalışılan saatler - fiili faturalanabilir yük saati sayısı karşılaştırması</li><li>Kaynağa göre fiili faturalanabilir çalışılan saatler - fiili faturalanabilir yük saatleri karşılaştırması</li><li>Projeye göre gerçek faturalanabilir saatlerin oranı</li><li>Kaynağa göre gerçek faturalanabilir saatlerin oranı</li></ul> |
 
-Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Altta yatan veriyi dışa aktar işlevini de görselleştirme içerisinde özetlenen altta yatan veriyi dışa aktarmak için kullanabilirsiniz.
+Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Altta yatan veriyi dışa aktar işlevini de görselleştirme içerisinde özetlenen altta yatan veriyi dışa aktarmak için kullanabilirsiniz.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 
@@ -62,7 +62,7 @@ Aşağıdaki veriler **Uygulama yöneticisi** Power BI içeriğindeki rapor sayf
 
 Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri açıklar.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Varlık: ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>Varlık: ProjectAccountingCube\_ActualHourUtilization
 **Veri kaynağı:** ProjEmplTrans
 
 | Kilit toplam ölçüm      | Alan                              | Açıklama |
@@ -70,7 +70,7 @@ Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri aç
 | Fiili faturalanabilir kullanılan saat sayısı | Sum(ActualUtilizationBillableRate) | Fiili faturalanabilir çalışılan saatlerin toplamı. |
 | Fiili faturalanabilir yük saat sayısı   | Sum(ActualBurdenBillableRate)      | Fiili yük oranının toplamı. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Varlık: ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>Varlık: ProjectAccountingCube\_Actuals
 **Veri kaynağı:** ProjTransPosting
 
 | Kilit toplam ölçüm | Alan              | Açıklama |
@@ -78,14 +78,14 @@ Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri aç
 | Gerçek gelir            | Sum(ActualRevenue) | Tüm hareketler için deftere nakledilen gelirin toplamı. |
 | Gerçek maliyet               | Sum(ActualCost)    | Tüm hareket türleri için deftere nakledilen maliyetin toplamı. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Varlık: ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>Varlık: ProjectAccountingCube\_Customer
 **Veri kaynağı:** CustTable
 
 | Kilit toplam ölçüm | Alan                                             | Tanım |
 |---------------------------|---------------------------------------------------|-------------|
 | Projelerin sayısı        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Kullanılabilir projelerin sayısı. |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Varlık: ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>Varlık: ProjectAccountingCube\_Forecasts
 **Veri kaynağı:** ProjTransBudget
 
 | Kilit toplam ölçüm | Alan                  | Açıklama |
@@ -94,14 +94,14 @@ Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri aç
 | Bütçe geliri            | Sum(BudgetRevenue)     | Tahmini tahakkuk eden/faturalanan gelir toplamı. |
 | Bütçedeki brüt kar       | Sum(BudgetGrossMargin) | Toplam tahmin edilen gelir toplamı ve toplam tahmin edilen maliyet toplamının farkı. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Varlık: ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>Varlık: ProjectAccountingCube\_ProjectPlanCostsView
 **Veri kaynağı:** Proje
 
 | Kilit toplam ölçüm | Alan                    | Açıklama |
 |---------------------------|--------------------------|-------------|
 | Planlanan maliyet              | Sum(SumOfTotalCostPrice) | Planlanan görevlere sahip tüm proje hareket türleri için toplam maliyet fiyatı tahmini. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Varlık: ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>Varlık: ProjectAccountingCube\_Projects
 **Veri kaynağı:** Proje
 
 | Kilit toplam ölçüm    | Alan | Tanım |
@@ -112,7 +112,7 @@ Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri aç
 | Fiili faturalanabilir saat oranı  | ProjectAccountingCube\_Projects\[Projedeki toplam fiili faturalanabilir çalışılan saat sayısı\] ÷ (ProjectAccountingCube\_Projects\[Projedeki toplam fiili faturalanabilir çalışılan saat sayısı\] + ProjectAccountingCube\_Projects\[Projedeki toplam fiili faturalanabilir yük saati sayısı\]) | Çalışılan saat ve yük saati sayısını temel alan toplam fiili faturalanabilir saat. |
 | Kazanılan değer                 | ProjectAccountingCube\_Projects\[Projenin toplam planlanan maliyeti\] × ProjectAccountingCube\_Projects\[Tamamlanan işin yüzdesi\] | Tamamlanan işin yüzdesiyle çarpılan toplam planlanan maliyet. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Varlık: ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Varlık: ProjectAccountingCube\_TotalEstimatedCosts 
 **Veri kaynağı:** ProjTable
 
 | Kilit toplam ölçüm       | Alan               | Açıklama |

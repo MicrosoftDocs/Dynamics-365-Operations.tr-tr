@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0f7d63fa0566cfc2a23b3228d687d7f85d848c9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549595"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840757"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Sabit kıymet ileri taşıma raporu
 
@@ -31,7 +31,7 @@ ms.locfileid: "1549595"
 
 **Sabit kıymet ileri taşıma** raporu dönem kapanışı, mali tablolar ve vergi raporlama için gerekli olarak ayrıntılı sabit kıymet verilerini okunması kolay Microsoft Excel biçiminde sunar. Rapor sabit kıymetlere ilişkin başlangıç ve bitiş bakiyelerini, döneme ait değerleme hareketlerini ve dönem süresinde gerçekleşen yeni kıymet alımlarını ve elden çıkarmaları içerir. Veriler her sabit kıymet için ayrı olarak rapor edilir ve değerler sabit kıymet grupları ve tüzel kişilik için özetlenir.
 
-**Sabit kıymet ileri taşıma** raporu Elektronik raporlama (ER) altyapısını kullanır. Raporu çalıştırmadan önce Sabit kıymet modeli ve Sabit kıymet ileri taşıma yapılandırmalarının Microsoft Dynamics Lifecycle Services'dan (LCS) içe aktarılması gerekir. Yönergeler için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+**Sabit kıymet ileri taşıma** raporu Elektronik raporlama (ER) altyapısını kullanır. Raporu çalıştırmadan önce Sabit kıymet modeli ve Sabit kıymet ileri taşıma yapılandırmalarının Microsoft Dynamics Lifecycle Services'dan (LCS) içe aktarılması gerekir. Yönergeler için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 Bu rapor, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 içinde veya bir düzeltme olarak Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017)'de kullanılabilir. Temmuz 2017 sürümüne sahip ortamlara üç düzeltme uygulanması gerekir:
 

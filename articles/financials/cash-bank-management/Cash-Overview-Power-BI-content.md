@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 553a4a5d25e126923576569b48414c46aab991ec
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702807"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842701"
 ---
 # <a name="cash-overview-power-bi-content"></a>Nakde genel bakış Power BI içeriği
 
@@ -40,7 +40,7 @@ Bu konu, **Nakide genel bakış** Microsoft Power BI içeriğini açıklar. Bu a
 1. **Sistem para birimi** ve **Sistem döviz kuru**'nu ayarlamak için **Sistem yönetimi > Kurulum > Sistem Paramatreleri**'ne gidin.
 2. **Muhasebe Para Birimi** ve **Döviz Kuru Türü**'nü ayarlamak için **Genel Muhasebe > Ayarlar > Muhasebe**'ye gidin
 2. Hareket para birimleri ile muhasebe para birimi, muhasebe para birimi ve sistem para birimi ve muhasebe para birimi ile banka para birimleri arasındaki döviz kurlarını tanımlayın. Bunu yapmak için **Genel Muhasebe > Para Birimleri > Para birimi döviz kurları**'na gidin.
-3. Nakit Akışı tahminini yapılandırın ve çalıştırın. Nakit akışı tahmini ayarlamak hakkında daha fazla bilgi için bkz: <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+3. Nakit Akışı tahminini yapılandırın ve çalıştırın. Nakit akışı tahmini ayarlamak hakkında daha fazla bilgi için bkz: <a href="https://docs.microsoft.com/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
 ">Nakit akışı tahmini</a>. 
 4. **LedgerCovLiquidityMeasurement** toplam ölçümünü Varlık Deposu sayfası üzerinde yenilemek için **Sistem yönetimi > Ayarlar > Varlık Deposu**'na gidin
 

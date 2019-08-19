@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c49000b09fdbac10dfa952718453bf82cbb1498
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ef03329cfe477256cfbe1dde1dc18df52137286f
+ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545613"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755581"
 ---
 # <a name="create-an-operating-unit"></a>Bir çalışma birimi oluşturun
 
@@ -29,17 +29,16 @@ ms.locfileid: "1545613"
 
 Bir işletme birimi bir işletmenin ekonomik kaynaklarının ve yönetimsel işlemlerinin kontrolünü bölmek için kullanılan bir kuruluştur. Bir işletme birimindeki kişiler az bulunur kaynakların kullanımını en üst düzeye çıkarmak, süreçleri geliştirmek ve performansları için hesap verme görevlerine sahiptirler. Maliyet merkezleri, departmanlar, iş birimleri ve değer akış türündeki işletme birimlerini içerir. İşletme birimi oluşturmak için aşağıdaki yordamı kullanın. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
-1. Kuruluş yönetim > Organizasyonlar > İşletme birimleri seçeneğine gidin.
-2. Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.
-3. Listede, istenen kaydı bulun ve seçin.
-    * Oluşturmak istediğiniz işlem birimi tipini seçin.  
+1. **Gezinti bölmesi > Modüller > Kuruluş Yönetimi > Kuruluşlar > İşletme birimleri**'ne gidin.
+2. Açılır iletişim kutusunu açmak için **Yeni** öğesine tıklayın.
+3. Listede, istenen kaydı bulun ve seçin. Oluşturmak istediğiniz işlem birimi tipini seçin.  
 4. Listede, seçili satırdaki bağlantıya tıklayın.
-5. İsim alanına bir değer yazın.
-    * Genel bölümünü, gerekirse genişletin.  
-    * İşlem birimi hakkında kimlik numarası, DUNS numarası ve yönetici gibi genel bilgiler verin.    
-    * Adresler bölümünü, gerekirse genişletin.  
-    * Caddenin adı ve numarası, posta kodu ve şehir gibi adres bilgilerini girin. Bir adres kaydı girmek için Ekle'yi tıklatın veya varolan bir adres kaydı değiştirmek için Düzenle'yi tıklatın.   
-    * İletişim bilgisi bölümünü, gerekirse genişletin.  
-    * E-posta adresleri, URL'ler ve telefon numaraları gibi iletişim yöntemleri hakkında bilgi girin. Yeni bir iletişim kaydı girmek için Yeni'yi tıklatın. Varolan bir iletişim kaydını değiştirmek için Daha fazla seçenekler > Gelişmiş'e tıklayın.   
-6. Kaydet'e tıklayın.
+5. **Ad** alanına bir değer yazın.
+    + Gerekirse **Genel** bölümünü genişletin.  
+    + İşlem birimi hakkında kimlik numarası, DUNS numarası ve yönetici gibi genel bilgiler verin.    
+    + Gerekirse **Adresler** bölümünü genişletin.  
+    + Caddenin adı ve numarası, posta kodu ve şehir gibi adres bilgilerini girin. Yeni bir adres kaydı girmek için **Ekle**'ye, var olan bir adres kaydını değiştirmek için Düzenle'ye tıklayın.   
+    + Gerekirse **İletişim bilgisi** bölümünü genişletin.  
+    + E-posta adresleri, URL'ler ve telefon numaraları gibi iletişim yöntemleri hakkında bilgi girin. Yeni bir iletişim kaydı girmek için Yeni'yi tıklatın. Var olan bir iletişim kaydını değiştirmek için **Diğer seçenekler > Gelişmiş**'e tıklayın.   
+6. **Kaydet**'e tıklayın.
 

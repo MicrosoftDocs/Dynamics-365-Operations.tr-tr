@@ -3,25 +3,25 @@ title: Ürün sınıflandırması için hiyerarşi oluşturma
 description: Bu yordam yeni bir kategori hiyerarşisi oluşturmayı ve emtia kodu hiyerarşi türü atamayı gösterir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb49f5f3f8a5a788cb4c6d1be69534ba808e3675
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: faf43eb15283ffd7e36ad38728f166884dddcd85
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568432"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844837"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Ürün sınıflandırması için hiyerarşi oluşturma
 
@@ -31,39 +31,38 @@ Bu yordam yeni bir kategori hiyerarşisi oluşturmayı ve emtia kodu hiyerarşi 
 
 
 ## <a name="create-the-new-category-hierarchy"></a>Yeni kategori hiyerarşisini oluştur
-1. Ürün bilgi yönetimi > Kurulum > Kategoriler ve öznitelikler > Kategori hiyerarşisi'ne gidin.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-4. Açıklama alanına bir değer girin.
-5. Oluştur'a tıklayın.
+1. **Gezinti bölmesi > Modüller > Ürün bilgi yönetimi > Kurulum > Kategoriler ve öznitelikler > Kategori hiyerarşisi**'ne gidin.
+2. **Yeni**'ye tıklayın.
+3. **Ad** alanına bir değer yazın.
+4. **Tanım** alanına bir değer girin.
+5. **Oluştur**'a tıklayın.
 
 ## <a name="build-the-hierarchy"></a>Hiyerarşisi oluştur
-1. Yeni kategori düğümü'ne tıklayın.
-2. İsim alanına bir değer yazın.
-3. Kod alanına bir değer yazın.
-4. Kolay ad alanına bir değer girin.
-5. Yeni kategori düğümü'ne tıklayın.
-6. İsim alanına bir değer yazın.
-7. Kod alanına bir değer yazın.
-8. Kolay ad alanına bir değer girin.
-9. Yeni kategori düğümü'ne tıklayın.
-10. İsim alanına bir değer yazın.
-11. Kod alanına bir değer yazın.
-12. Kolay ad alanına bir değer girin.
-13. Yeni kategori düğümü'ne tıklayın.
-14. İsim alanına bir değer yazın.
-15. Kod alanına bir değer yazın.
-16. Kolay ad alanına bir değer girin.
+1. **Yeni** kategori düğümüne tıklayın.
+2. **Ad** alanına bir değer yazın.
+3. **Kod** alanına bir değer yazın.
+4. **Kolay ad** alanına bir değer girin.
+5. **Yeni** kategori düğümüne tıklayın.
+6. **Ad** alanına bir değer yazın.
+7. **Kod** alanına bir değer yazın.
+8. **Kolay ad** alanına bir değer girin.
+9. **Yeni** kategori düğümüne tıklayın.
+10. **Ad** alanına bir değer yazın.
+11. **Kod** alanına bir değer yazın.
+12. **Kolay ad** alanına bir değer girin.
+13. **Yeni** kategori düğümüne tıklayın.
+14. **Ad** alanına bir değer yazın.
+15. **Kod** alanına bir değer yazın.
+16. **Kolay ad** alanına bir değer girin.
 17. Sayfayı kapatın.
 
 ## <a name="classify-the-hierarchy"></a>Hiyerarşi sınıflandır
 1. Listede, istenen kaydı bulun ve seçin.
-2. Eylem Bölmesinde, Kategori hiyerarşisi'ne tıklayın.
-3. Hiyerarşi türü ilişkilendir'e tıklayın.
-4. Yeni'ye tıklayın.
-5. Kategori hiyerarşi türü alanında, bir seçenek seçin.
-    * Ürün sınıflandırması için Emtia kodu kategori hiyerarşi türünü seçin.  
-6. Kategori hiyerarşisi alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+2. **Eylem Bölmesi**'nde, **Kategori hiyerarşisi**'ne tıklayın.
+3. **Hiyerarşi türü ilişkilendir**'e tıklayın.
+4. **Yeni**'ye tıklayın.
+5. **Kategori hiyerarşi türü** alanında, bir seçenek seçin. **Ürün sınıflandırması için Emtia kodu kategori hiyerarşi türü**'nü seçin.  
+6. **Kategori hiyerarşisi** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 7. Listede, istenen kaydı bulun ve seçin.
 8. Listede, seçili satırdaki bağlantıya tıklayın.
 9. Sayfayı kapatın.

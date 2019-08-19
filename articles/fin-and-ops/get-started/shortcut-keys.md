@@ -3,7 +3,7 @@ title: Klavye kısayolları
 description: Dynamics 365 for Finance and Operations'ta aşağıdaki klavye kısayolları geçerlidir.
 author: jasongre
 manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 07/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
+ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561845"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1780070"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
@@ -138,9 +138,13 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Bir satır aralığını seçilen kümeye ekle<blockquote>[!NOTE] Bu kısayol yalnızca çoklu seçim senaryoları için geçerlidir.</blockquote>         | Shift+Tıklama                     |
 | Sonraki/önceki veri sayfasına gitme                                                                                   | Sayfa yukarı / Sayfa aşağı             |
 | Kılavuzun altında yeni bir satır oluştur                                                                             | Aşağı ok (son satırdan)  |
-| Tüm satırları seç veya temizle                                                                                               | Ctrl+Shift+M                    |
 | İlk kayda taşı                                                                                               | Ctrl+Home                       |
 | Son kayda taşı                                                                                                | Ctrl+End                        |
+| Tüm satırları seç veya temizle                                                                                               | Ctrl+Shift+M                    |
+| İlk işaretli satıra taşı                                                                                           | Alt+Shift+M, F                    |
+| Sonraki işaretli satıra taşı                                                                                            | Alt+Shift+M, L                    |
+| Önceki işaretli satıra taşı                                                                                        | Alt+Shift+M, P                    |
+| Son işaretli satıra taşındı                                                                                           | Alt+Shift+M, N                    |
 | Bir kılavuzda varsayılan eylemi yürüt<blockquote>[!NOTE] Bu kısayol odak köprü içeren bir hücre ve o sütundaki tüm hücreleri köprüler etkinleştirilir.</blockquote> | Gir                           |
 | Seçilen satır ile başlık satırı arasında odağı değiştirme                                                               | Alt+Shift+H                     |
 | Geçerli sütunu daha büyük/daha küçük yapma (odakta başlık satırı varken)                                                  | Sağ ok / Sol ok        |

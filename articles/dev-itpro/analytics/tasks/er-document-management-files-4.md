@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e87dbb0fa890f4d554c3e2ff09566fb2b1f3206b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d8dc541af4d26b61ff9b90e08a8ca2c6a6bb8e70
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544827"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850267"
 ---
-# <a name="run-formats-to-use-document-management-files-in-er-output"></a>ER çıktısında Belge Yönetimi dosyalarını kullanmak için biçimleri çalıştırma
+# <a name="er-use-document-management-files-in-format-outputs-part-4-run-format"></a>ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 4: Biçimi çalıştırma)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
-ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
+ms.openlocfilehash: 7a55c0a1ac8ac833315afa179c1b6d4eb78195fc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594972"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839219"
 ---
 # <a name="financial-reporting"></a>Mali raporlama
 
@@ -117,7 +117,7 @@ Finansal raporlama 22 varsayılan mali rapor sağlar. Her rapor, Finance and Ope
 Finansal raporlar listesinden yeni bir rapor oluşturabilir veya varolan bir raporu değiştirebilirsiniz. Uygun izinlere sahipseniz, Eylem Bölmesinde **Yeni** üzerine tıklayarak yeni bir mali rapor oluşturabilirsiniz. Bir rapor tasarımcısı programı cihazınıza indirilir. Rapor tasarımcısı çalıştıktan sonra, yeni raporu oluşturabilirsiniz. Yeni raporu kaydettikten sonra, mali raporlar listesinde görünür. Liste yalnızca Finance and Operations'da kullanmakta olduğunuz şirket için oluşturulan raporları gösterir. 
 
 > [!NOTE] 
-> Rapor tasarımcısı istemcisini indirdiğiniz bilgisayarın Microsoft .NET Framework'ün 4.6.2 sürümüne sahip olması gerekir. Microsoft .NET Framework'ün bu sürümünü [Microsoft Download Center'dan](https://www.microsoft.com/en-us/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz. Chrome kullanıyorsanız, rapor tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun. Ayrıca mali rapor listesinde görünen bir raporu değiştirebilirsiniz. Rapor adı etrafındaki alan seçildiğinde, Eylem Bölmesinden **Düzenleme** tıklatın. Rapor tasarımcısı programı başlar.
+> Rapor tasarımcısı istemcisini indirdiğiniz bilgisayarın Microsoft .NET Framework'ün 4.6.2 sürümüne sahip olması gerekir. Microsoft .NET Framework'ün bu sürümünü [Microsoft Download Center'dan](https://www.microsoft.com/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz. Chrome kullanıyorsanız, rapor tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun. Ayrıca mali rapor listesinde görünen bir raporu değiştirebilirsiniz. Rapor adı etrafındaki alan seçildiğinde, Eylem Bölmesinden **Düzenleme** tıklatın. Rapor tasarımcısı programı başlar.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 - [Mali raporları görüntüleme](view-financial-reports.md)

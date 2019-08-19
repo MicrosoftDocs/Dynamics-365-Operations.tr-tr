@@ -19,19 +19,19 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 5363c64cd1a475f0047c079d9166718ddc765f02
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fbc75702c9db1e877addc4605dcb444c344dfa5c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562381"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742459"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-finance-and-operations"></a>Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Aday'dan nakde çözümünü kullanmadan önce [Common Data Service for Apps için veri tümleştirme](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
+> Aday'dan nakde çözümünü kullanmadan önce [Common Data Service for Apps için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
 
 Bu konu, Kişiler (Kişiler) ve Kişiler (Müşteriler) varlıklarını doğrudan Microsoft Dynamics 365 for Sales üzerinden Microsoft Dynamics 365 for Finance and Operations üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 

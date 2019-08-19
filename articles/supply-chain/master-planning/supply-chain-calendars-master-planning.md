@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 266eec2bb870be270b7796b35903a402e014c67c
-ms.sourcegitcommit: 1f211ac6bd384fd8a2b5352104baf264d88f39b0
+ms.openlocfilehash: ca473de65135ddddea12ddc72e902056cc7b1db7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538738"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845329"
 ---
 # <a name="calendars-and-master-planning"></a>Takvimler ve master planlama
 
@@ -93,7 +93,7 @@ Bir müşterinin teslimat kabul edebileceği tarihleri belirtmek için bir giri�
 
 Müşteri başına yalnızca bir takvim dahil etmenin mümkün olduğuna dikkat edin. Bir takvimi her bir farklı müşteri adresi için dahil etmeniz gerekirse, adres başına bir müşteri oluşturabilir ve karşılık gelen takvimini atayabilirsiniz. 
 
-Satış siparişi satırındaki talep edilen alındı tarihi müşterinin takviminden ve teslimat tarihi denetim modundan etkilenir. En erken teslimat tarihinin nasıl hesaplandığına dair daha fazla bilgiyi [Sipariş Taahhüt](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations) içinde okuyabilirsiniz.
+Satış siparişi satırındaki talep edilen alındı tarihi müşterinin takviminden ve teslimat tarihi denetim modundan etkilenir. En erken teslimat tarihinin nasıl hesaplandığına dair daha fazla bilgiyi [Sipariş Taahhüt](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations) içinde okuyabilirsiniz.
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Tüzel bir varlık için sevkiyat takvimi
 Bir tüzel varlığın malları sevk edebileceği tarihleri belirtmek için bir teslimat takvimini **Kuruluş yönetimi > Kuruluşlar > Tüzel varlıklar** altında ayarlayabilirsiniz. Tüzel varlığı seçin ve takvimi **Sevkiyat takvimi** alanında bulunan **Dış ticaret ve lojistik** sekmesinde ekleyin. Sevkiyat takvimi tüzel varlık içindeki tüm ambar takvimleri için varsayılanların bir kaynağı olarak iş görür. 

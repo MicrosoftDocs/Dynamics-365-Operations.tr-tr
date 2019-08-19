@@ -1,79 +1,68 @@
 ---
 title: Tedarik kataloğu oluşturma
-description: Bu kılavuzda bir tedarik kataloğunu nasıl oluşturacağınız gösterilir.
+description: Bu konu tedarik kataloğunun nasıl oluşturulacağını açıklar.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProcCategoryHierarchyManagement, CatProcureCatalogListPage, CatProcureCatalogCreate, CatProcureCatalogEdit, SysPolicyListPage, SysPolicy, CatCatalogPolicyRule, PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqAddItem
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f2a010e21f16b3908a6ee5f18d8f144c5130be7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55bc7479ca9ba3ca86e23b5bee106ef169c40077
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547664"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836412"
 ---
 # <a name="create-a-procurement-catalog"></a>Tedarik kataloğu oluşturma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu kılavuzda bir tedarik kataloğunu nasıl oluşturacağınız gösterilir. Bu görev genellikle bir tedarik profesyoneli tarafından gerçekleştirilir. Ayrıca talep oluşturduklarında çalışanların kataloğu nasıl kullanabileceğini öğreneceksiniz. Katalog oluşturmadan önce sisteminizde bir tedarik kategorisi hiyerarşisi olması gerekir. Hiyerarşi, dahil olan tüm ürünlerle birlikte yeni katalog tarafından devralınır. Bu kılavuzu tedarik kategorisinin kullanılabilir olduğu demo veri şirketi USMF'de ve prosedür adımlarında kullanılan örneklerde kullanabilirsiniz.
+Bu konu tedarik kataloğunun nasıl oluşturulacağını açıklar. Bu görev genellikle bir tedarik profesyoneli tarafından gerçekleştirilir. Ayrıca talep oluşturduklarında çalışanların kataloğu nasıl kullanabileceğini öğreneceksiniz. Katalog oluşturmadan önce sisteminizde bir tedarik kategorisi hiyerarşisi olması gerekir. Hiyerarşi, dahil olan tüm ürünlerle birlikte yeni katalog tarafından devralınır. Bu kılavuzu tedarik kategorisinin kullanılabilir olduğu demo veri şirketi USMF'de ve prosedür adımlarında kullanılan örneklerde kullanabilirsiniz.
 
 
 ## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Tedarik kategorisi hiyerarşisinin var olduğundan emin olun
-1. Tedarik ve kaynak > Tedarik kategorileri'ne gidin.
-    * Tedarik kategorisi hiyerarşisi USMF demo veri şirketinde kullanılabilir ve ürünler Ofis makineleri/Bilgisayarlar kategorisine eklenmiştir. Bu prosedürü bir görev kılavuzu olarak çalıştırıyorsanız kategoride gezinmek istediğinizde kılavuzun kilidini açmanız gerekebilir. Bir hiyerarşi kullanılabilir değilse Yeni'ye tıklayarak oluşturun. Bu yalnızca bir defa yapılabilir.  
+1. **Gezinti bölmesi > Modüller > Tedarik ve kaynak atama > Tedarik kategorileri**'ne gidin. Tedarik kategorisi hiyerarşisi USMF demo veri şirketinde kullanılabilir ve ürünler **Ofis makineleri/Bilgisayarlar** kategorisine eklenmiştir. Bu prosedürü bir görev kılavuzu olarak çalıştırıyorsanız kategoride gezinmek istediğinizde kılavuzun kilidini açmanız gerekebilir. Bir hiyerarşi kullanılabilir değilse **Yeni**'ye tıklayarak oluşturun. Bu yalnızca bir defa yapılabilir.  
 2. Sayfayı kapatın.
 
 ## <a name="create-a-catalog"></a>Katalog oluşturma
-1. Tedarik ve kaynak atama > Kataloglar > Tedarik katalogları'na gidin.
-2. Açılır iletişim kutusunu açmak için Yeni tedarik kataloğu'na tıklayın.
-3. İsim alanına bir değer yazın.
-4. Tamam'ı tıklatın.
-5. Ağaçtan 'CORP PROCUREMENT CATEGORIES'i genişletin.
-6. Ağaçtan, 'OFFICE MACHINES'i genişletin.
-7. Ağaçtan 'Bilgisayarlar'ı seçin.
-    * Tedarik kategorisindeki ürünler listede görüntülenir. Kategoriye bir ürün eklemek isterseniz bunu Tedarik kategorisi hiyerarşisi sayfasından veya Madde ayrıntıları sayfasından yapmanız gerekir.  
-    * Varsayılan güncelleştirme türü, tedarik kategorisi hiyerarşisine eklenen yeni ürünlerin katalogda anında görünür olup olmayacaklarını belirler. Güncelleştirme türü Dinamik olarak ayarlanmışsa değişiklikler anında görünür. Güncelleştirme türü Statik ise yeni ürünler, yalnızca katalog yeniden yayınlandıktan sonra kataloğu kullanan kişilerce görüntülenebilir. Yayımla eylemi sayfanın en üstündeki Eylem Bölmesi'nden kullanılabilir. Ürünler tedarik kategorisi hiyerarşisinden kaldırılırsa Varsayılan güncelleştirme türü alanındaki değerden bağımsız olarak değişiklik hemen görünür.  
-8. Listede, istenen kaydı bulun ve seçin.
-9. Gizle'ye tıklayın.
-10. Eylem Bölmesi'nde, Kategori gezinmesi'ne tıklayın.
-11. Devre dışı bırak'a tıklayın.
-12. Eylem Bölmesi'nde, Kategori gezinmesi'ne tıklayın.
-13. Etkinleştir'i tıklatın.
-14. Kataloğu etkinleştir'e tıklayın.
-15. Sayfayı kapatın.
+1. **Gezinti bölmesi > Modüller > Tedarik ve kaynak atama > Kataloglar > Tedarik katalogları**'na gidin.
+2. Açılır iletişim kutusunu açmak için **Yeni tedarik kataloğu**'nu seçin.
+3. **Ad** alanına bir değer yazın.
+4. **Tamam**'ı seçin.
+5. Ağaçtan **CORP PROCUREMENT CATEGORIES**'i genişletin.
+6. Ağaçtan, **OFFICE MACHINES**'i genişletin.
+7. Ağaçtan **Bilgisayarlar**'ı seçin.
+
+  - Tedarik kategorisindeki ürünler listede görüntülenir. Kategoriye bir ürün eklemek isterseniz bunu **Tedarik kategorisi hiyerarşisi** sayfasından veya **Madde ayrıntıları** sayfasından yapmanız gerekir.  
+  - **Varsayılan** güncelleştirme türü, tedarik kategorisi hiyerarşisine eklenen yeni ürünlerin katalogda anında görünür olup olmayacaklarını belirler. Güncelleştirme türü **Dinamik** olarak ayarlanmışsa değişiklikler anında görünür. Güncelleştirme türü **Statik** ise yeni ürünler, yalnızca katalog yeniden yayınlandıktan sonra kataloğu kullanan kişilerce görüntülenebilir. **Yayımla** eylemi sayfanın en üstündeki Eylem Bölmesi'nden kullanılabilir. Ürünler tedarik kategorisi hiyerarşisinden kaldırılırsa **Varsayılan** güncelleştirme türü alanındaki değerden bağımsız olarak değişiklik hemen görünür.  
+
+8. Eylem bölmesinde **Kategori gezinmesi**'ni seçin ve **Etkin**'in seçili olduğundan emin olun.
+9. **Kataloğı etkinleştir**'i seçin.
+10. Sayfayı kapatın.
 
 ## <a name="make-the-catalog-visible"></a>Kataloğu görünür yapın
-1. Tedarik ve kaynak atama > Ayarlar > İlkeler > Satınalma ilkeleri'ne tıklayın.
-2. Tedarik İlkesi USMF'yi seçin.
-    * Tüzel kişilik için kullanıcı profilinize bağlanan çalışanın profilinizdeki ürünleri sipariş etmesine izin veren satınalma ilkesini seçmeniz gerekir. USMF demo verilerinde Yönetici kullanıcı Julia Funderburk adlı çalışana bağlanır ve USMF'de varsayılan olarak ürünleri sipariş eder.  
-3. Listede, seçili satırdaki bağlantıya tıklayın.
-4. Yeni oluşturduğunuz kataloğu seçin.
-5. Tamam'a tıklayın.
-6. Sayfayı kapatın.
-7. Sayfayı kapatın.
+1. **Gezinti bölmesi > Modüller > Tedarik ve kaynak atama > Kurulum > İlkeler > Satın alma ilkeleri**'ne gidin.
+2. **Tedarik İlkesi USMF**'yi seçin. Tüzel kişilik için kullanıcı profilinize bağlanan çalışanın profilinizdeki ürünleri sipariş etmesine izin veren satınalma ilkesini seçmeniz gerekir. USMF demo verilerinde Yönetici kullanıcı **Julia Funderburk** adlı çalışana bağlanır ve USMF'de varsayılan olarak ürünleri sipariş eder.  
+3. Yeni oluşturduğunuz kataloğu seçin.
+4. **Tamam**'ı seçin.
 
 ## <a name="use-the-catalog"></a>Kataloğu kullanın
-1. Tedarik ve kaynak atama > Satınalma talepleri > Tüm satınalma talepleri'ne tıklayın.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-4. Tamam'a tıklayın.
-5. Ürünler ekle'ye tıklayın.
-6. Listede, istenen kaydı bulun ve seçin.
-    * Ürünleri filtrelemek için soldaki kategori hiyerarşisini veya listenin en üstündeki filtreyi kullanabilirsiniz.  
-7. Satırlara ekle'yi tıklatın.
-8. Listede, istenen kaydı bulun ve seçin.
-9. Satırlara ekle'yi tıklatın.
-10. Tamam'a tıklayın.
+1. **Gezinti bölmesi > Modüller > Tedarik ve kaynak atama > Satınalma talepleri > Tüm satınalma talepleri** öğesine gidin.
+2. **Yeni**'yi seçin.
+3. **Ad** alanına bir değer yazın.
+4. **Tamam**'ı seçin.
+5. **Ürün ekle**'yi seçin.
+6. Listede, istenen kaydı bulun ve seçin. Ürünleri filtrelemek için soldaki kategori hiyerarşisini veya listenin en üstündeki filtreyi kullanabilirsiniz.  
+7. **Satırlara ekle**'yi seçin.
+8. **Tamam**'ı seçin.
 

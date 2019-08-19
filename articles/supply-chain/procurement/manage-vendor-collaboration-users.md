@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555073"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742482"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Satıcı iş birliği kullanıcılarını yönetme
 
@@ -65,7 +65,7 @@ Yeni bir kullanıcı hazırlanması için istekte bulunmadan önce ilgili kişin
 4. **Kullanıcı rolleri ata** bölümünde, yeni kullanıcının sahip olması gereken güvenlik rolleri için **Ata** onay kutusunu işaretleyin.
 5. **Gönder**'e tıklayın.
 
-Satıcı kullanıcısı talebi gönderildiğinde, **Satıcı işbirliği erişimine izin verildi** alanı seçilen satıcı hesabı için **Evet** olarak ayarlanır ve kullanıcı talebi iş akışı başlatılır. İş akışının bir parçası olarak, Finance and Operations'ta yeni bir kullanıcı oluşturulur ve güvenlik rolleri atanır. Buna ek olarak, Azure portalı ile etkileşim başlatan ve yeni veya mevcut bir AAD hesabını Finance and Operations kullanıcı hesabı ile ilişkilendiren bir Azure B2B hizmeti etkinleştirilir. Daha fazla bilgi için bkz. [Azure AD B2B işbirliği nedir?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Satıcı kullanıcısı talebi gönderildiğinde, **Satıcı işbirliği erişimine izin verildi** alanı seçilen satıcı hesabı için **Evet** olarak ayarlanır ve kullanıcı talebi iş akışı başlatılır. İş akışının bir parçası olarak, Finance and Operations'ta yeni bir kullanıcı oluşturulur ve güvenlik rolleri atanır. Buna ek olarak, Azure portalı ile etkileşim başlatan ve yeni veya mevcut bir AAD hesabını Finance and Operations kullanıcı hesabı ile ilişkilendiren bir Azure B2B hizmeti etkinleştirilir. Daha fazla bilgi için bkz. [Azure AD B2B işbirliği nedir?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Kullanıcıyı devre dışı bırakma
 

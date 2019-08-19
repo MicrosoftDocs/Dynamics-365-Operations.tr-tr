@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624323"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849344"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -59,19 +59,22 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 |      Nisan 2019          |   10.0.1      |    Rusya     |Taşıt vergisi beyanı 2019 tarihinde değişiyor  |
 |      Nisan 2019            |   10.0.1      | Macaristan      |  Macaristan: Microsoft Dynamics 365 for Finance and Operations içinde çevrimiçi faturalama v.1.1 2019  |
 |      Mayıs 2019            |   10.0.2      | Brezilya      |   SPED ECD Düzen 7   |
-|      Bekleyen            |   10.0.3      | Brezilya      |   NF-e yeni NT 2018.005 - v.1.20   |
-|      Bekleyen            |   10.0.3      | Brezilya      |   SPED ECD Düzen 7   |
-|      Bekleyen            |   10.0.3      | Brezilya      |   SPED ECF- 2019 için Düzen 5   |
-|      Bekleyen            |   10.0.3      | Litvanya    |   i.SAF raporu kullanıcıların, yasal vergi kodlarıyla ilişkilendirmede sistem satış vergisi kodlarını tanımlamasını sağlar    |
-|      Bekleyen            |   10.0.3      | Polonya     |   SAF faturaları (JPK_FA) v.2, 1Jul2019'dan itibaren  |
-|      Bekleyen            |   10.0.3      | Brezilya   |   ICMS mali belge düzeltmeleri Tablo 5.2 etkinleştirir   |
-|      Bekleyen            |   10.0.3      | Brezilya    |   NF-e Decree 54.308/18 (RS)   |
-  | Bekleyen            |   10.0.4      | Brezilya    |   Gelen mali belge modeli 66   |
-   | Bekleyen            |   10.0.4      | Brezilya    |   NF-e ve NFC-e - Çözüm 13/2019 ve Ordinance SUCIEF 55/2019- RJ - NF-e içindeki muaf etiketler çıktısı için yeni koşullar.   |
-   | Bekleyen            |   10.0.4      | Hindistan   |   GST Vergi Faturası'nda "Tedarik yeri" ve "Eyalet" gösterimi  |
-   | Bekleyen            |   10.0.4      | Meksika   |  DIOT üçüncü taraf bildirimi - düzendeki değişiklikler 2019   |
-   | Bekleyen            |   10.0.4      | Brezilya    |   NF-e ICMS-ST - SP durumu için CAT 42/18 kuralı - CAT 42/18
-   | Bekleyen            |   10.0.4      | Brezilya    |   NF-e Kararı 54.308/18 - RS NF   |
+|      2019 Haziran            |   10.0.3      | Brezilya      |   NF-e yeni NT 2018.005 - v.1.20   |
+|      2019 Haziran            |   10.0.3      | Brezilya      |   SPED ECD Düzen 7   |
+|      2019 Haziran            |   10.0.3      | Brezilya      |   SPED ECF- 2019 için Düzen 5   |
+|      2019 Haziran            |   10.0.3      | Litvanya    |   i.SAF raporu kullanıcıların, yasal vergi kodlarıyla ilişkilendirmede sistem satış vergisi kodlarını tanımlamasını sağlar    |
+|      2019 Haziran            |   10.0.3      | Polonya     |   SAF faturaları (JPK_FA) v.2, 1Jul2019'dan itibaren  |
+|      2019 Haziran            |   10.0.3      | Brezilya   |   ICMS mali belge düzeltmeleri Tablo 5.2 etkinleştirir   |
+|      2019 Haziran            |   10.0.3      | Brezilya    |   NF-e Decree 54.308/18 (RS)   |
+  | Temmuz 2019            |   10.0.4      | Brezilya    |   Gelen mali belge modeli 66   |
+   | Temmuz 2019            |   10.0.4      | Brezilya    |   NF-e ve NFC-e - Çözüm 13/2019 ve Ordinance SUCIEF 55/2019- RJ - NF-e içindeki muaf etiketler çıktısı için yeni koşullar.   |
+   | Temmuz 2019            |   10.0.4      | Hindistan   |   GST Vergi Faturası'nda "Tedarik yeri" ve "Eyalet" gösterimi  |
+   | Temmuz 2019            |   10.0.4      | Meksika   |  DIOT üçüncü taraf bildirimi - düzendeki değişiklikler 2019   |
+   | Temmuz 2019            |   10.0.4      | Brezilya    |   NF-e ICMS-ST - SP durumu için CAT 42/18 kuralı - CAT 42/18
+   | Temmuz 2019            |   10.0.4      | Brezilya    |   NF-e Kararı 54.308/18 - RS NF   |
+       | Bekleyen            |   10.0.5      | Brezilya    |   SPED katkıları pratik rehber 1,31. yeni kılavuzu   |
+         | Bekleyen            |   10.0.5      | Brezilya    |   NF-e: NT 2019.001 Sürüm 1.00 için teknik notların yeni bir sürümü   |
+          | Bekleyen            |   10.0.5      | İspanya    |   Geçerlilik kuralları değişiklik 1 Ekim 2019   |
    
 
 

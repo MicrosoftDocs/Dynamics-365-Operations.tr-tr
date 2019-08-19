@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 349836c788d8ed5a70af57ff74944d02a04815ad
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6900d0d21e65e443e497b5d9d220c7377a7537a2
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555341"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742969"
 ---
 # <a name="view-undispatched-service-orders"></a>Gönderilmemiş servis siparişlerini görüntüleme 
 
@@ -50,7 +50,7 @@ Bu konu, gönderme takımdan atanmış bir çalışanı olmayan bir servis sipar
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Gönderme panosu (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))
+[Gönderme panosu (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
 [Servis faaliyetleri](service-activities.md)
 
