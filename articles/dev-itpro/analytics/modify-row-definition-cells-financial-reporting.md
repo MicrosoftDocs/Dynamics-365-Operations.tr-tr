@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551857"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863736"
 ---
 # <a name="modify-row-definition-cells"></a>Satır tanımı hücrelerini değiştirme
 
@@ -402,7 +402,7 @@ Bazı muhasebe sistemleri, mali verilerdeki hesap özniteliklerini ve hareket ö
 2. **Mali Boyutlarla İlişkilendir** sütunundaki bir hücreye çift tıklayın.
 3. **Boyutlar** iletişim kutusunda, boyut adının altındaki bir hücreye çift tıklayın.
 4. Boyuta ait iletişim kutusunda, **Tek veya aralık**'ı seçin.
-5. **Başlangıç** alanında başlangıç boyutunu girin veya mevcut boyutlar arasında arama yapmak için ![Gözat](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Gözat") öğesini tıklayın. Boyut aralığı girmek için **Bitiş** alanına bitiş boyutunu girin.
+5. **Başlangıç** alanında başlangıç boyutunu girin veya mevcut boyutlar arasında arama yapmak için ![Gözat](media/browse.gif "Gözat") öğesini tıklayın. Boyut aralığı girmek için **Bitiş** alanına bitiş boyutunu girin.
 6. **Tamam**'a tıklayarak boyuta ait iletişim kutusunu kapatın. **Boyutlar** iletişim kutusu güncelleştirilniş boyutu veya aralığı görüntüler.
 7. **Tamam**'a tıklayarak **Boyutlar** iletişim kutusunu kapatın.
 
@@ -479,7 +479,7 @@ Aşağıdaki tabloda **Boyutlar** iletişim kutusundaki alanlar açıklanmaktad�
 
 | Madde                | Açıklama |
 |---------------------|-------------|
-| Tek veya aralık | **Başlangıç** alanında, bir hesabın adını girin veya hesabı aramak için **Gözat** düğmesini ![Gözat](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Gözat") tıklayın. Aralık seçmek için **Bitiş** alanına bir değer girin veya bu alanda bir değere göz atın. |
+| Tek veya aralık | **Başlangıç** alanında, bir hesabın adını girin veya hesabı aramak için **Gözat** düğmesini ![Gözat](media/browse.gif "Gözat") tıklayın. Aralık seçmek için **Bitiş** alanına bir değer girin veya bu alanda bir değere göz atın. |
 | Boyut Değeri Kümesi | **Ad** alanına boyut değeri kümesinin adını girin. Bir kümeyi oluşturmak, değiştirmek, kopyalamak veya silmek için, **Boyut Değeri Kümelerini Yönet**'e tıklayın. **Formül** alanı, satır tanımında ayarlanan bu boyut değeri için **Mali Boyutlara Bağlantı** hücresindeki formülle doldurulur. |
 | Toplam alma hesapları   | **Ad** alanına toplam alma hesaplarına ait bir boyut girin veya bu boyuta göz atın. **Formül** alanı rapor tanımındaki bu toplam alma hesabına ait **Mali Boyutlarla İlişkilendir** hücresindeki formülle doldurulur. |
 

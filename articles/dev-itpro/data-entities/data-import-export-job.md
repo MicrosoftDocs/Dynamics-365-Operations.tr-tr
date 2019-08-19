@@ -3,28 +3,29 @@ title: Veri içe ve dışa aktarma işleri
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 03/11/2019
+ms.date: 07/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505806"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862916"
 ---
 # <a name="data-import-and-export-jobs"></a>Veri içe ve dışa aktarma işleri
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations içinde veri içe ve dışa aktarma işlerini yönetmek için **Veri yönetimi** çalışma alanını kullanabilirsiniz. Varsayılan olarak, veri içe ve dışa aktarma işlemi, hedef veritabanındaki her bir varlık için bir hazırlama tablosu oluşturur. Hazırlama tabloları, taşımadan önce verileri doğrulamanızı, temizlemenizi ve dönüştürmenizi sağlar.
 
@@ -129,8 +130,8 @@ Bir iş aynı anda roller, kullanıcılar ve tüzel varlıklarla güvenlik altı
 ## <a name="run-the-import-or-export-job"></a>İçe ve dışa aktarma işini çalıştırın
 Bir işi tanımladıktan sonra **İçe aktar** veya **Dışa aktar** seçerek bir defa çalıştırabilirsiniz. Yinelenen bir iş ayarlamak için **Yinelenen veri işi oluştur** seçebilirsiniz.
 
-[!NOTE]
-Bir içe aktarma veya dışa aktarma işi zaman uyumsuz olarak **İçe aktar** veya **Dışa aktar** düğmesini seçerek çalıştırılabilir. Zaman uyumsuz olarak çalıştırmak, Finance and Operations içinde zaman uyumsuz çerçeveyi kullanır, bu da toplu iş çerçevesinden farklıdır. Ancak, toplu iş çerçevesi gibi, zaman uyumsuz çerçeve de azaltma uygulayabilir ve sonuç olarak, iş derhal yürütülmeyebilir. İşler, **Şimdi içe aktar** veya **Şimdi dışa aktar** seçerek eşzamanlı olarak da çalıştırılabilir. Bu, işi derhal başlatır ve zaman uyumsuz veya bir toplu iş, azaltma nedeniyle başlatılmazsa faydalıdır. İşler, **Toplu iş içinde çalıştır** seçeneği seçilerek toplu iş içinde de çalıştırılabilir. Toplu iş kaynakları, azaltılabilir, bu nedenle toplu iş derhal başlatılmayabilir. Zaman uyumsuz seçeneği, kullanıcılar doğrudan kullanıcı arabirimi ile etkileşime girdiklerinde ve toplu iş zamanlamayı anlamayan ileri düzey kullanıcı olmadıklarında yararlıdır. Büyük miktarların içe veya dışa aktarılması gerektiğinde toplu bir toplu işi alternatif bir seçenek olarak kullanmak. Toplu işler, belirli bir toplu iş grubunda yürütülmek üzere zamanlanabilir, bu da bir yük dengeleme perspektifinden bakınca daha fazla denetime izin verir. Zaman uyumsuz ve toplu iş, sistemdeki yüksek kaynak kullanımı nedeniyle azaltılıyorsa, anında etki edecek bir geçici çözüm olarak, içe/dışa aktarmanın eşzamanlı sürümü kullanılabilir. Eşzamanlı seçenek, anında başlatılır ve kullanıcı arabirimini engelleyecektir çünkü eşzamanlı olarak yürütülür. Tarayıcı penceresinin eşzamanlı işlem devam ederken açık tutulması gerekir.
+> [!NOTE]
+> Bir içe aktarma veya dışa aktarma işi zaman uyumsuz olarak **İçe aktar** veya **Dışa aktar** düğmesini seçerek çalıştırılabilir. Zaman uyumsuz olarak çalıştırmak, Finance and Operations içinde zaman uyumsuz çerçeveyi kullanır, bu da toplu iş çerçevesinden farklıdır. Ancak, toplu iş çerçevesi gibi, zaman uyumsuz çerçeve de azaltma uygulayabilir ve sonuç olarak, iş derhal yürütülmeyebilir. İşler, **Şimdi içe aktar** veya **Şimdi dışa aktar** seçerek eşzamanlı olarak da çalıştırılabilir. Bu, işi derhal başlatır ve zaman uyumsuz veya bir toplu iş, azaltma nedeniyle başlatılmazsa faydalıdır. İşler, **Toplu iş içinde çalıştır** seçeneği seçilerek toplu iş içinde de çalıştırılabilir. Toplu iş kaynakları, azaltılabilir, bu nedenle toplu iş derhal başlatılmayabilir. Zaman uyumsuz seçeneği, kullanıcılar doğrudan kullanıcı arabirimi ile etkileşime girdiklerinde ve toplu iş zamanlamayı anlamayan ileri düzey kullanıcı olmadıklarında yararlıdır. Büyük miktarların dışa veya içe aktarılması gerektiğinde toplu bir toplu işi alternatif bir seçenek olarak kullanmak. Toplu işler, belirli bir toplu iş grubunda yürütülmek üzere zamanlanabilir, bu da bir yük dengeleme perspektifinden bakınca daha fazla denetime izin verir. Zaman uyumsuz ve toplu iş, sistemdeki yüksek kaynak kullanımı nedeniyle azaltılıyorsa, anında etki edecek bir geçici çözüm olarak, içe/dışa aktarmanın eşzamanlı sürümü kullanılabilir. Eşzamanlı seçenek, anında başlatılır ve kullanıcı arabirimini engelleyecektir çünkü eşzamanlı olarak yürütülür. Tarayıcı penceresinin eşzamanlı işlem devam ederken açık tutulması gerekir.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>İşin beklendiği çalıştığını doğrulayın.
 İş geçmişi hem içe hem de dışa aktarma işlerinde sorun giderme ve sorgulama için kullanılabilir. Tarihi iş yürütmeleri zaman aralıkları ile düzenlenir.
@@ -144,15 +145,17 @@ Bir içe aktarma veya dışa aktarma işi zaman uyumsuz olarak **İçe aktar** v
 
 Yürütme ayrıntıları, işin işlediği her bir veri varlığın durumunu gösterir. Bu nedenle, aşağıdaki bilgileri hızlı bir şekilde bulabilirsiniz:
 
-- Hangi varlıkları işlendi
-- Bir varlık için, kaç kaydın başarıyla işlendiği ve kaçının başarısız olduğu
-- Her bir varlık için hazırlama kayıtları
+- Hangi varlıkları işlendi.
+- Bir varlık için, kaç kaydın başarıyla işlendiği ve kaçının başarısız olduğu.
+- Her bir varlık için hazırlama kayıtları.
 
 Dışa aktarma işleri için hazırlama verisini bir dosya içinde indirebilir veya içe ve dışa aktarma işleri için bir paket olarak indirebilirsiniz.
 
 Yürütme ayrıntılarından yürütme kaydını da açabilirsiniz.
 
 ## <a name="clean-up-the-staging-tables"></a>Hazırlama tablolarını temizleyin
+Platform Update 29'dan başlayarak, bu işlevselliği kullanımdan kaldırılmıştır. Bu, aşağıda açıklanan iş geçmişi temizleme işlevselliği yeni bir sürümü ile değiştirilir.
+
 Hazırlama tablolarını **Veri yönetimi** çalışma alanındaki **Hazırlama temizleme** özelliğini kullanarak temizleyebilirsiniz. Aşağıdaki seçenekleri, hangi kayıtların hangi hazırlama tablosundan silineceğini seçmek için kullanabilirsiniz:
 
 - **Varlık**: Yalnızca bir varlık sağlandıysa, o varlığın hazırlama tablosundaki tüm kayıtlar silinir. Varlık için tüm veri projeleri ve tüm işler için tüm veriyi silmek için bu seçeneği işaretleyin.
@@ -160,3 +163,37 @@ Hazırlama tablolarını **Veri yönetimi** çalışma alanındaki **Hazırlama 
 - **Veri projeleri**: Yalnızca bir veri projesi seçiliyse, seçilen veri projesi için tüm işler arasındaki tüm varlıklar için tüm kayıtlar silinir.
 
 Silinen kayıt kümesini daha da kısıtlamak için seçenekleri birleştirebilirsiniz.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>İş geçmişi temizleme (Platform Update 29 ve sonraki sürümlerde kullanılabilir)
+
+Veri yönetimindeki iş geçmişi temizleme işlevselliği, yürütme geçmişinin periyodik olarak temizlenmesini zamanlamak için kullanılmalıdır. Bu işlevsellik, şimdi kullanımdan kaldırılan önceki hazırlama tablolarını temizleme işlevselliğini değiştirir. Aşağıdaki tablolar temizleme işlemi tarafından temizlenecektir.
+
+-   Tüm hazırlama tabloları
+
+-   DMFSTAGINGVALIDATIONLOG
+
+-   DMFSTAGINGEXECUTIONERRORS
+
+-   DMFSTAGINGLOGDETAIL
+
+-   DMFSTAGINGLOG
+
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+
+-   DMFEXECUTION
+
+-   DMFDEFINITIONGROUPEXECUTION
+
+İşlevselliğe **Veri yönetimi \> İş geçmişi temizleme**'den erişilebilir.
+
+### <a name="scheduling-parameters"></a>Parametreleri zamanlama
+
+Temizleme işlemini zamanlarken, temizleme ölçütlerini tanımlamak için aşağıdaki parametrelerin belirtilmesi gerekir.
+
+-   **Geçmişi korumak için gün sayısı** – Bu ayar korunacak yürütme geçmişini miktarını denetlemek için kullanılır. Bu, günlerin sayısını belirtir. Temizleme işi yinelenen bir toplu iş olarak zamanlandığında, bu ayar sürekli olarak hareket eden bir pencere gibi hareket eder, böylece kalanı silirken her zaman belirtilen gün sayısı için geçmişi bırakır. Varsayılan değer 7 gündür.
+
+-   **İş yürütmek için saat sayısı** – Temizlenecek geçmiş miktarına bağlı olarak, temizleme işi için toplam yürütme süresi birkaç dakikadan birkaç saate kadar değişebilir. Sistemde başka bir veri yönetimi etkinliği olduğunda belirtilen tabloların temizlenmesi gerektiğinden, temizleme işi yürütülür ve iş etkinliği başlamadan önce tamamlandığından emin olmak önemlidir.
+
+    En fazla yürütme süresi, iş bu ayarı kullanılarak çalıştırmanız gereken saat sayısı maksimum sınırı ayarlayarak belirtilebilir. Temizleme mantığı, kronolojik olarak düzenlenmiş bir sıradaki bir iş yürütme kimliğinden tek seferde geçer, bunlardan en eskisi ilgili yürütme geçmişinin temizliği için ilk sırada yer alır. Kalan yürütme süresi belirtilen sürenin son %10'unun içinde olduğundan, temizleme için yeni yürütme kimliğini çekme durduracaktır. Bazı durumlarda, temizleme işinin belirtilen en fazla süre içinde devam etmesi beklenir. Bu büyük ölçüde %10 eşiğine ulaşılmadan önce başlatılan geçerli yürütme kimliği için silinecek kayıtların sayısına bağlıdır. Veri bütünlüğünü sağlamak için başlatılan temizlemenin tamamlanması gerekir, yani temizleme belirtilen sınırı aşmasına rağmen devam edecektir. Bu tamamlandığında, yeni yürütme kimliği çekilmez ve temizleme işi tamamlar. Yürütme süresinin yetersizliği nedeniyle temizlenemeyen geri kalan yürütme geçmişi, temizlik işinin bir sonraki programlanışında çekilecektir. Bu ayarın varsayılan ve en düşük değeri 2 saate ayarlanır.
+
+-   **Yinelenen toplu iş** – Temizleme işi tek seferlik, el ile yürütme olarak çalıştırılabilir veya toplu olarak yinelenen yürütme için de zamanlanabilir. Toplu iş, standart toplu iş kümesi olan **Arka planda çalıştır** ayarları kullanılarak zamanlanabilir.

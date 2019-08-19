@@ -3,7 +3,7 @@ title: Kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624919"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863395"
 ---
 # <a name="removed-or-deprecated-features"></a>Kaldırılan veya kullanımına son verilen özellikler
 
@@ -40,10 +40,32 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 > Finance and Operations içindeki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) altından ulaşabilirsiniz. Finance and Operations'ın her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4, Platform güncelleştirmesi 28 ile
+## <a name="dynamics-365-for-finance-and-operations-1005-with-platform-update-29"></a>Dynamics 365 for Finance and Operations 10.0.5, Platform güncelleştirmesi 29 ile
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 Platform Güncelleştirmesi 28 ile, bir önizleme sürümünün parçası olarak çeşitli kullanıcılara sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-and-ops/get-started/public-preview-releases.md).
+> Dynamics 365 for Finance and Operations 10.0.5 Platform Güncelleştirmesi 29 ile, bir önizleme sürümünün parçası olarak çeşitli kullanıcılara sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="us-payroll-tax-updates"></a>ABD bordro vergisi güncelleştirmeleri
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Düşük kullanım ve artık stratejik entegrasyonlar aracılığıyla sunulan gelişmiş işlevsellik nedeniyle ABD Bordro işlevselliği için vergi güncellemelerini hizmetten çıkarıyoruz.  |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Bordro |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanımdan kaldırıldı: 1 Ekim 2021 itibarıyla artık ABD Bordro müşterilerine vergi güncelleştirmeleri sağlamayacağız. İşlevsellik ürün içinde kalacaktır, ancak geliştirmeler artık işlevselliği güncel tutamaz ve herhangi bir ürün kusuru bir durum tarafından değerlendirilecektir. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 for Finance and Operations'ta ABD Bordro özelliği vergi güncelleştirmeleri hizmetten çıkarılıyor](https://aka.ms/financepayrollfaq). |
+
+
+### <a name="data-management-staging-clean-up"></a>Veri yönetimi hazırlama temizleme
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Periyodik temizleme zamanlaması için gerekli olan çekirdek gereksinimlerini karşılamadı. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, senaryoları bütünsel olarak karşılamak için İş geçmişi temizleme özelliği ekleniyor. |
+| **Etkilenen ürün alanları**         | Veri yönetimi |
+| **Dağıtım seçeneği**              | Tümü  |
+| **Durum**                         | Kaldırıldı: İşlevin kaldırılması hedeflenen zaman aralığı Aralık 2020'dir. |
+
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4, Platform güncelleştirmesi 28 ile
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Fransa: XML'de FEC Muhasebe veri dışa aktarma
 
@@ -1235,7 +1257,7 @@ Site Hizmetleri, BT desteği olmadan iş süreçlerinizi internete genişleten w
 
 ### <a name="virtual-company-accounts"></a>Sanal şirket hesapları
 
-Sanal şirketler özelliği, Dynamics AX uygulamasında artık desteklenmiyor. Sanal şirketler özelliği, kullanıcılara bir dizi şirket tarafından paylaşılabilecek tablolar ayarlama olanağı sağlar. Özelliğin açıklaması için bkz. [Şirket hesapları ve Sanal şirket hesapları](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). Bu özellik, tabloları, varolan "gerçek" şirketlerin grupları olan sanal şirketlere atanan koleksiyonlara gruplayarak çalışmaktadır. Sanal şirketteki tüm şirketlerin ilişkilendirilen tablo koleksiyonlarının tabloları içindeki verilere erişebileceği şekilde sorgular oluşturulur.
+Sanal şirketler özelliği, Dynamics AX uygulamasında artık desteklenmiyor. Sanal şirketler özelliği, kullanıcılara bir dizi şirket tarafından paylaşılabilecek tablolar ayarlama olanağı sağlar. Özelliğin açıklaması için bkz. [Şirket hesapları ve Sanal şirket hesapları](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Bu özellik, tabloları, varolan "gerçek" şirketlerin grupları olan sanal şirketlere atanan koleksiyonlara gruplayarak çalışmaktadır. Sanal şirketteki tüm şirketlerin ilişkilendirilen tablo koleksiyonlarının tabloları içindeki verilere erişebileceği şekilde sorgular oluşturulur.
 
 |   |  | 
 |------------|--------------------|

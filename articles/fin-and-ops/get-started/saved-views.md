@@ -3,13 +3,12 @@ title: Kayıtlı görünümler
 description: Bu konu, kaydedilmiş görünümler özelliklerinin nasıl kullanılacağını açıklar.
 author: jasongre
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 08/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
-ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,17 +16,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: ea2f2dbd615480bb76e1d04a106ae69bf6f45f4b
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620790"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863072"
 ---
 # <a name="saved-views"></a>Kayıtlı görünümler
 
 [!include [banner](../includes/banner.md)]
-[!include [private preview banner](../includes/private-preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Giriş
 Kişiselleştirme, kullanıcıların ve kuruluşların gereksinimlerine uygun Kullanıcı deneyimini Microsoft Dynamics 365 for Finance and Operations içinde en iyi duruma getirmesine izin verirken önemli bir rol oynar. Kişiselleştirme hakkında daha fazla bilgi için bkz. [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
@@ -49,13 +48,13 @@ Görünüm seçicisinde iki boyut varyasyonu vardır:
 
 -   **Büyük görünüm seçicileri**: Bir listeyi gösteren sayfalar, birkaç nedenden dolayı daha büyük görünüm seçicisine sahip olacaktır. En önemlisi, daha büyük görünüm seçicisi, kullanıcı tanımlı filtreleri içerebilen sayfaları belirtir. Filtreler görünümlerde yer aldığından, görünüm adları ekranda gösterilen verilerin en iyi açıklaması olacağı ve beklentilerin kullanıcıların Bu sayfa türlerinde daha sık geçiş yapma işlemi olacağı için büyük seçici boyutuna da izin verilir.  
  
--   **Küçük görünüm seçicileri**: tüm diğer tam sayfa formlar, sayfa başlığının yanında görünen daha küçük bir görünüm seçicisine sahiptir. Bu sayfalardaki görünümler yalnızca kişiselleştirmeler içerir (kullanıcı tanımlı filtreler değil). Bu sayfalarda form başlığı veya kayıt başlığı genellikle formun üst kısmındaki en önemli bilgiler olur. Daha küçük boyut ayrıca, bu sayfalarda daha düşük olan görüntüleme geçişi sıklığını da yansıtır. 
+-   **Küçük görünüm seçicileri**: Diğer tüm tam sayfa formları (çalışma alanları ve gösterge tablosu hariç), sayfa başlığının yanında görünen daha küçük bir görünüm seçicisine sahiptir. Bu sayfalardaki görünümler yalnızca kişiselleştirmeler içerir (kullanıcı tanımlı filtreler değil). Bu sayfalarda form başlığı veya kayıt başlığı genellikle formun üst kısmındaki en önemli bilgiler olur. Daha küçük boyut ayrıca, bu sayfalarda daha düşük olan görüntüleme geçişi sıklığını da yansıtır. 
  
 Görünüm adını tıklatırsanız, görünüm seçicisi açılır ve bu sayfayla ilgili kullanılabilir görünümlerin listesini gösterir
 
 -    **Klasik Görünüm**: klasik görünüm açık bir kişiselleştirmeler uygulanmamış olan sayfanın kutudan çıkış görünümden yer alır.  
 -    **Kişisel görünümler**: Asma kilitleri olmayan görünümler kişisel görünümlerinizi temsil eder. Bunlar, oluşturduğunuz veya bir yöneticinin size verdiği görünümlerdir.  
--    **Kilitli Görünümler**: bazı görünümlerde (Classic görünümü ve rolünüzde yayınlanan tüm görünümler), görünüm seçicide sonra bu görünümleri düzenleyemeyeceğinizi belirten bazı görünümler için bir asma kilidi vardır. Ancak, sayfa kullanımının çevresindeki örtülü kişiselleştirmeler otomatik olarak kaydedilir (örneğin, bir ızgara sütununun genişliğini değiştirmek veya bir hızlı sekmeyi genişletmek veya daraltmak). Ancak kişiselleştirme ayrıcalıklarınız varsa, **Kopyasını kaydet** eylemini kullanarak kilitli bir görünümü temel alan kişisel bir görünüm de yapabilirsiniz.
+-    **Kilitli Görünümler**: bazı görünümlerde (Classic görünümü ve rolünüzde yayınlanan tüm görünümler), görünüm seçicide sonra bu görünümleri düzenleyemeyeceğinizi belirten bazı görünümler için bir asma kilidi vardır. Ancak, örtülü kişiselleştirmeleri yansıtan otomatik olarak kaydedilir (örneğin, bir ızgara sütununun genişliğini değiştirmek veya bir hızlı sekmeyi genişletmek veya daraltmak). Ancak kişiselleştirme ayrıcalıklarınız varsa, **Kopyasını kaydet** eylemini kullanarak kilitli bir görünümü temel alan kişisel bir görünüm de yapabilirsiniz.
 -    **Yeni görünümler**: Henüz açılmamış yayınlanmış görünümler, görünüm adının solundaki bir spark ile ayarlanır.  
 
 Farklı bir görünüme geçmek için önce görünüm seçicisini açın ve sonra yüklemek istediğiniz görünümü seçin. 
@@ -75,7 +74,7 @@ Bu değişiklikleri kaydetmek istiyorsanız, aşağıdaki adımları izleyin.
      3.    **Kaydet**'i seçin.
 
 ## <a name="changing-the-default-view"></a>Varsayılan görünümü değiştirmek
-Varsayılan görünüm, sayfaya ilk gittiğinizde sistemin açmaya çalışacağı görünümdür. Bunu sık olarak kullanmayı beklediğiniz görünüme ayarlamalısınız.  
+Varsayılan görünüm, sayfaya ilk gittiğinizde sistemin açmaya çalışacağı görünümdür. Bunu en sık olarak kullanmayı beklediğiniz görünüme ayarlamalısınız.  
 
 Bir sayfa için varsayılan görünümü değiştirmek için şu adımları izleyin: 
 1.  Varsayılan olarak kullandığınız görünüme geçin. 
@@ -100,14 +99,14 @@ Bu iletişim kutusunda yapılan tüm değişiklikler **Kaydet** düğmesini seç
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Organizasyon düzeyindeki kişiselleştirmeleri görünümleriyle yönetmek
 Bir organizasyon düzeyinde kişiselleştirmeleri yönetmenin gelişmelerini anlamak için önce kişiselleştirme yönetiminin nasıl çalıştığı hakkında görünümlerden önce bakalım.  
 
-Görünümler olmadan, yöneticiler bir sayfaya, bir kullanıcı grubuna veya kişiselleştirme formunu kullanan kullanıcılara sayfa için bir kişisel ayarlar uygular. Bu kullanıcılar kişiselleştirme haklarına sahip ise, kişiselleştirmeler o sayfaya uygulanır. Ancak, kullanıcıların sayfayı daha fazla kişiselleştirmesinin önleneceği ve böylece kuruluş, kullanıcıların tutarlı bir kullanıcı arabirimine sahip olmasını gerektirmediğinden emin olunmamıştır. Bu kullanıcıların kişiselleştirme hakları yoksa, bir yönetici tarafından kendilerine verilen kişiselleştirmeler yüklenmemiştir. Dahası, yeni kullanıcılar bir kuruluşta işe alındığında, yöneticiler kullanıcı için kişiselleştirmeler kümesini el ile yüklemek zorunda kalmaktadır. O Kullanıcı tarafından kullanılabilecek belirli bir kişisel belirleme kümesini belirtmek için otomatik bir mekanizma yoktur.
+Görünümler olmadan, yöneticiler bir sayfaya, bir kullanıcı grubuna veya kişiselleştirme sayfasını kullanan kullanıcılara sayfa için bir kişisel ayarlar uygular. Bu kullanıcılar kişiselleştirme haklarına sahip ise, kişiselleştirmeler o sayfaya uygulanır. Ancak, kullanıcıların sayfayı daha fazla kişiselleştirmesinin önleneceği ve böylece kuruluş, kullanıcıların tutarlı bir kullanıcı arabirimine sahip olmasını gerektirmediğinden emin olunmamıştır. Bu kullanıcıların kişiselleştirme hakları yoksa, bir yönetici tarafından kendilerine verilen kişiselleştirmeler yüklenmemiştir. Dahası, yeni kullanıcılar bir kuruluşta işe alındığında, yöneticiler kullanıcı için kişiselleştirmeler kümesini el ile yüklemek zorunda kalmaktadır. O roldeki kullanıcılar tarafından kullanılabilecek belirli bir kişisel belirleme kümesini belirtmek için otomatik bir mekanizma yoktur.
 
 Kaydedilmiş görünümler özelliğiyle, öncelikle görünümlerin güvenlik rollerine yayımlanması nedeniyle, kişiselleştirmeler için organizasyon yönetimi önemli ölçüde daha kolaydır. Bir görünüm yayımlandıktan sonra, bu da ilgili role sahip tüm kullanıcıların, kullanıcının kişiselleştirme yeteneğine bakmaksızın o görünüme erişebilir ve kullanılabilir olacağı anlamına gelir. Her kullanıcının, sayfa kullanımı (örtük kişiselleştirmeler) otomatik olarak uygulandığı yayımlanmış görünümün bir kopyası varken, hiçbir kullanıcı sorguya açık kişiselleştirme veya güncelleştirme (yayınlanan görünümlerin kilitli olduğu anlamına gelir) kaydedemez. Ek olarak, yeni kullanıcılara görünümün yayımlandığı bir rol verilirse, yöneticiden herhangi bir eylemde bulunmadan ilişkili görünümleri otomatik olarak görürler. Benzer şekilde, bir kullanıcı kuruluştaki rolleri değiştirirse, eski rolleriyle ilişkilendirilmiş görünümlere artık bunlar için yönetici tarafından herhangi bir eylem yapılmadan erişilemez. Yayımlanmış bir görünüme yapılan güncelleştirmeler, görünümü uygun güvenlik rollerine yeniden yayımlayarak kullanıcılara kolayca dağıtılabilir.
 
 Bu yayımlama yeteneği, kuruluşların işletmeler için belirli güvenlik rollerindeki kullanıcıları hedeflemiş olarak en iyi duruma getirilmiş şirket standart görünümlerini tanımlamasına olanak tanır.  
 
 ## <a name="publishing-views"></a>Yayımlama görünümleri
-Yayımlama işlemi sırasında, görünümler bir veya daha fazla güvenlik rolüne atanabilir, başka bir deyişle, söz konusu role sahip olan tüm kullanıcılar o görünüme erişebilir ve kullanılabilir, ancak görünümü düzenleyemezler. Günümüzde, yalnızca sistem yöneticilerinin görünüm seçicisi açılır menüsünde bulunan **Yayımla** eylemi için hakları vardır.  
+Yayımlama işlemi sırasında, görünümler bir veya daha fazla güvenlik rolüne atanabilir, başka bir deyişle, söz konusu role sahip olan tüm kullanıcılar o görünüme erişebilir ve kullanılabilir, ancak görünümü düzenleyemezler. Şu anda yalnızca sistem yöneticilerinin, görünüm Seçici açılır menüsünde **Yayımla** eylemi için hakları vardır, ancak diğer güvenilen kullanıcılara yayımlama hakları vermek için gelecekteki bir güncelleştirmede yeni bir güvenlik rolü kullanılabilir.  
 
 Bir görünümü yayımlamak için şu adımları izleyin: 
 1.  Yayımlamak istediğiniz görünümün kişisel bir kopyasını oluşturun ve kaydedin. 
@@ -150,14 +149,19 @@ Bu iletişim kutusunda yapılan tüm değişiklikler **Kaydet** düğmesini seç
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kaydedilmiş görünümleri ortamımda nasıl etkinleştirebilirim? 
-Kaydedilmiş görünümleri etkinleştirmek için bir sistem yöneticisi aşağıdakileri yapmalıdır: 
-1.  Gezinme aramasını kullanarak **Kişiselleştirme** sayfasına gidin. 
-2.  **Ayarlar** sekmesini seçin.
-3.  **Kaydedilen görünümleri etkinleştir** seçeneğini **Evet** olarak ayarlayın.
+Özellik önizlemede olduğunda kaydedilmiş görünümleri etkinleştirmek için aşağıdaki adımları izleyin: 
 
-Bu özellik etkinleştirildikten sonra, tüm sonraki kullanıcı oturumları görünümler etkin olarak başlar.  
+1.  **Uçuşu etkinleştirin**: Aşağıdaki SQL beyanını yürütün: 
 
-Ortam için kişiselleştirme kapatılmışsa, yukarıdaki adımları izleseniz bile görünümler etkinleştirilir. Bunun nedeni, görünümler özelliğinin kişiselleştirme alt sisteminin üzerine kurulmuş olmasıdır.
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+
+2.  **Özelliği bulun**: **Özellik Yönetimi** çalışma alanına gidin. **Kaydedilmiş görünümler** listede görünmüyorsa **Güncelleştirmeleri denetle** düğmesini seçin.   
+
+3.  **Özelliği etkinleştirin**: **Özellikler listesinde kaydedilmiş görünümler** özelliğini bulun ve Ayrıntılar bölmesindeki **Şimdi etkinleştir** düğmesine tıklayın.
+
+Sonraki tüm kullanıcı oturumları kaydedilmiş görünümleri etkin olarak başlayacaktır.  
+
+Ortam için kişiselleştirme kapatılmışsa, yukarıdaki adımları izleseniz bile görünümler devre dışı bırakılır. Bunun nedeni, görünümler özelliğinin kişiselleştirme alt sisteminin üzerine kurulmuş olmasıdır.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Görünümler etkinleştirildiğinde varolan kişiselleştirmeler ne olur? 
 Görünümler etkinleştirildiğinde, bir Kullanıcı ve form için varolan tüm kişiselleştirmeler, varsayılan görünüm olarak otomatik olarak ayarlanan **Görünümlerim** denen yeni bir görünüme kaydedilir. Bu, formlarda görünüm Seçicisi denetiminin görünmesi dışında, görünümler etkinleştirilmeden önce ve sonra tutarlı bir kullanıcı deneyimi olmasını sağlamak içindir.  
@@ -166,7 +170,7 @@ Görünümler etkinleştirildiğinde, bir Kullanıcı ve form için varolan tüm
 Görünümler, Finance and Operations ilgili sayfaların tümünde değil, ama pek çoğunda bulunabilir. Özellikle, görünümler şu anda panolar ve çalışma alanları dışındaki tüm tam ekran sayfalarda kullanılabilirdir. İletişim kutuları, açılan diyaloglar, aramalar ve gelişmiş önizlemeler içeren tam ekran olmayan sayfalar da şu anda görünümleri desteklememektedir. Çalışma alanları ve iletişim kutuları gibi ek sayfa türleri için görüntüleme desteği gelecekteki bir güncelleştirmeyle ilgili olarak değerlendirilebilir.   
 
 ### <a name="who-is-allowed-to-publish-views"></a>Görünüm yayımlamaya kimlerin izni vardır?
-Şu an sistem yöneticileri yalnızca görünümleri yayımlama hakları olan kullanıcılardır.  Müşterilere kimlerin yayımlayabileceği daha fazla esneklik sağlayan yeni bir güvenlik rolü planlanmıştır.  
+Şu an sistem yöneticileri yalnızca görünümleri yayımlama hakları olan kullanıcılardır.  Gelecekteki bir güncelleştirmede müşterilere kimlerin yayımlayabileceği daha fazla esneklik sağlayan yeni bir güvenlik rolü planlanmıştır.  
 
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>Bu görünüme ilişkin filtreleri niçin kaydedemiyorum? 
 Bir filtrenin görünüm ile kaydedilmeye neden görünmeyebileceği birkaç neden vardır: 
@@ -179,4 +183,4 @@ Bir filtrenin görünüm ile kaydedilmeye neden görünmeyebileceği birkaç ned
      
   Bu durumlar gerçekleştiğinde, görünüm yüklenirken bir ek bilgilendirici mesaj ile uyarılacaksınız. Ayrıca, sayfa yüklendikten sonra bu görünüme geçerek, görünüm sorgusunun ne olursa olsun yürütülmesine izin vermek istiyorsanız da onay alabilirsiniz.  
 
-- Söz konusu sayfa görünüm sorgusunu tam olarak yoksaymayabilir. Lütfen bu tür örnekleri **geri bildirim** mekanizması ile bildirin. Geri bildirim sayfasına gitmek için **Yardım ve Destek**'i ve sonra **Geri bildirim**'i tıklatın.  
+- Söz konusu sayfa, görünüm sorgusunu tamamen görmezden gelebileceği veya verileri kalıcı olmayan geçici bir tabloda çalışabileceği için görünümleri doğru şekilde desteklemeyebilir. 

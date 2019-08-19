@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 94f8cf5b5753c530c42327e251a2102b876c1c8a
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 8c2a2347abddf03ed884dcfe68f645fde84c092a
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606884"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863784"
 ---
 # <a name="loyalty-overview"></a>Bağlılık programına genel bakış
 
@@ -83,15 +83,15 @@ Retail, Ekim 2018 sürümünün bir parçası olarak yeni bir bağlılık progra
     > [!NOTE]
     > Bir bağlılık programı planı içinde kazanç kuralları ilavedir. Örneğin, her ABD doları için altın katman üyesine 10 puan verecek bir kural oluşturursanız ve aynı zamanda her ABD Doları için 5 puan kazanacak "gazi" ilişkisiyle bir kural oluşturursanız altın katman üyesi olan bir gazi, iki satır için de nitelikli olduğundan 1 ABD Doları için 15 puan kazanır. Ancak gazi müşteri altın katmanı üyesi değilse her dolar için 5 puan kazanır. Kanallarda değişiklikleri yansıtmak için **Bağlılık şemalarını işle** ve **1050** (bağlılık programı bilgileri) işlerini çalıştırın.
     
-    ![İlişki temelli getiri](./media/Affiliation%20based%20earning.png "İlişki temelli getiriler")
+    ![İlişki temelli getiri](./media/Affiliation-based-earning.png "İlişki temelli getiriler")
 
 - Satıcılar genelde bağlılık programları uygulanmasını istemeyen belirli bir grup müşteri için özel fiyatlara sahiptir. Örneğin, özel fiyatlandırma alan ancak bağlılık puanı almayan toptancı veya personel. Genellikle, "ilişkiler" böyle müşteri gruplarına özel fiyat sağlamak için kullanılır. Müşterilerden belirli bir grubun bağlılık programı puanı kazanmasını sınırlamak için satıcı, bağlılık planının **Dışarıda bırakılan ilişkiler** bölümünde bir veya daha fazla ilişki belirtebilir. Bu şekilde, dışarıda bırakılan ilişkilere ait olan müşteriler bağlılık programı üyeleri olduğunda satın alımları için bağlılık puanı kazanamaz. Kanallarda değişiklikleri yansıtmak için **Bağlılık şemalarını işle** ve **1050** (bağlılık programı bilgileri) işlerini çalıştırın.
 
-    ![Dışarıda bırakılan ilişkiler](./media/Excluded%20affiliations.png "İlişkileri bağlılık puanı kazanma dışında bırak")
+    ![Dışarıda bırakılan ilişkiler](./media/Excluded-affiliations.png "İlişkileri bağlılık puanı kazanma dışında bırak")
     
 - Satıcılar, kanallarında bağlılık programı kart numaraları oluşturabilir. Ekim 2018 güncelleştirmesi öncesinde, satıcılar fiziksel bağlılık programı kartları kullanabilir veya telefon numarası gibi bazı benzersiz müşteri bilgilerini kullanarak bir bağlılık programı kartı oluşturabilirdi. Perakende mağazalarında bağlılık programı kartlarının otomatik oluşturulmasını etkinleştirmek için mağazayla ilişkilendirilmiş işlev profilinde **Bağlılık programı kart numarası oluştur**'u açın. Çevrimiçi kanallar için satıcılar, müşterilerine bağlılık programı kartları yayınlamak üzere IssueLoyaltyCard API kullanabilir. Satıcılar, bu API'ya bağlılık programı kartı oluşturmak için kullanılacak olan bağlılık programı kart numarası sağlayabilir veya sistem, Dynamics 365 for Retail'da ayarlanan bağlılık programı kart numarası sıralamasını kullanır. Bununla birlikte, numara serisi yoksa ve satıcı API'yı çağırırken bir bağlılık programı kart numarası sağlamazsa bir hata görüntülenir.
 
-    ![Bağlılık programı kartı oluştur](./media/Generate%20loyalty%20card.png "Otomatik olarak bağlılık programı kart numarası oluştur")
+    ![Bağlılık programı kartı oluştur](./media/Generate-loyalty-card.png "Otomatik olarak bağlılık programı kart numarası oluştur")
 
 - Kazanılan ve kullanılan bağlılık programı puanları, tam veya kısmi geri ödemelerde aynı miktarın verilmesi veya geri alınması için satış hattındaki her hareket ve satış emri için kaydedilir. Ayrıca, puanların satış satırı düzeyinde görünürlüğü arama merkezi kullanıcılarının, müşterilerin her satır için ne kadar puan kazandığı veya kullandığı sorularını yanıtlayabilme becerisi sağlar. Bu değişiklikten önce, ödül puanları iadelerde her zaman yeniden hesaplanırdı; bu da kazanma veya kullanma kuralları değiştirilirse orijinalden farklı bir tutara neden olurdu ve arama merkezi kullanıcıları puan dağılımını göremezdi. Puanlar her bağlılık programı kartı için **Kart hareketleri** formu altında görülür. Bu özelliği etkinleştirmek için S**atış hattı başına bağlılık programı puanları aktar** yapılandırmasını, **Perakende paylaşılan parametreler** \> **Genel** sekmesinde açın.
 
@@ -100,26 +100,26 @@ Retail, Ekim 2018 sürümünün bir parçası olarak yeni bir bağlılık progra
 
 - Satıcılar, artık her ödül puanı için hakediş ödeme dönemini tanımlayabilir. Hakediş ödeme dönemi yapılandırması, kazanma tarihinden sonra, ödül puanları müşteriler için kullanılabilir olduktan sonra süreyi tanımlar. Hak kazanılmamış puanlar **Bağlılık programı kartları** sayfasındaki **Hak kazanılmamış puanlar** sütununda görünebilir. Ayrıca, satıcılar bağlılık programı kartı başına maksimum bağlılık programı ödül puanı sınırı tanımlayabilir. Bu alan, bağlılık programı dolandırıcılığı etkisini azaltmak için kullanılabilir. Maksimum ödül puanına ulaşıldığında, kullanıcı daha fazla puan kazanamaz. Satıcı, bu tür krtları olası bir dolandırıcılı için araştırılana kadar engellemeyi seçebilir. Satıcı dolandırıcılık olduğuna karar verirse hem müşterinin bağlılık programı kartını hem de müşteriyi engelleyebilir. Bunu yapmak için **Müşterinin bağlılık programına kaydını engelle** özelliğini **Evet** olarak (**Retail** hızlı sekmesindeki **Tüm müşteriler** altında) ayarlayın. Bloke müşteriler kanalları herhangi birinde bağlılık programı kartı yayınlayamaz.
 
-    ![Hakediş ödeme ve en fazla ödül puanı](./media/Vesting%20and%20maximum%20reward%20points.png "Hakediş ödeme ve en yüksek ödül puanını tanımla")
+    ![Hakediş ödeme ve en fazla ödül puanı](./media/Vesting-and-maximum-reward-points.png "Hakediş ödeme ve en yüksek ödül puanını tanımla")
 
 - İlişkiler, özel fiyat ve indirimler sağlasa da, satıcıların müşterilerin görmesini istemediği bazı ilişkiler olabilir. Örneğin, "Yüksek harcamalı müşteri" başlıklı bir ilişki bazı müşteriler tarafından hoş karşılanmaz. Ayrıca, mağazada yönetilmemesi gereken bazı ilişkiler de vardır. Örneğin, personeller. Çünkü kasiyerlerin kimin personel olduğuna karar vermesini ve bu nedenle personel temelli indirimler sağlamasını istemezsiniz. Satıcılar şimdi perakende kanallarında gizli olması gereken ilişkiler seçebilir. **Kanallarda gizle** olarak işaretli ilişkiler POS'ta görüntülenemez, eklenemez veya kaldırılamaz. Ancak, ilişkiyle ilgili olan fiyatlandırma ve indirimler hala ürünlere uygulanır.
 
-    ![İlişkileri gizle](./media/Hide%20affiliations.png "Kanallardaki ilişkileri gizle")
+    ![İlişkileri gizle](./media/Hide-affiliations.png "Kanallardaki ilişkileri gizle")
     
 - Arama merkezi kullanıcıları artık müşterinin bağlılık programı kartı bilgilerini kullanarak müşteriyi kolayca arayabilir ve müşterinin bağlılık programı kartı ve bağlılık programı kartı hareket sayfalarına **Müşteri Hizmetleri** sayfasından gidebilir.
 
-    ![Müşteri hizmetleri](./media/Customer%20service.png "Müşteri için bağlılık programı bilgisi bul")
+    ![Müşteri hizmetleri](./media/Customer-service.png "Müşteri için bağlılık programı bilgisi bul")
     
 - Bağlılık programı kartı güvenliği aşılırsa, yeni bir kart üretilmesi gerekir ve yeni kartına varolan puanlar aktarılır. Yeni kart akışı bu sürümde basitleştirilmiştir. Ayrıca, müşteriler bazı bağlılık programı puanlarını arkadaşlarına ve ailesine hediye edebilir. Puan aktarıldığında her bağlılık programı kartı için puan düzeltme girişleri oluşturulur. Yedek kart ve bakiye aktarma işlevine **Bağlılık programı kartları** sayfasından erişilebilir.
 
-    ![Değiştir ve puanları aktar](./media/Replace%20and%20transfer%20points.png "Bağlılık programı kartını değiştir veya bakiyeyi aktar")
+    ![Değiştir ve puanları aktar](./media/Replace-and-transfer-points.png "Bağlılık programı kartını değiştir veya bakiyeyi aktar")
     
 - Satıcılar, müşterileri bağlılık programına kaydetmek için belirli bir kanalın etkisini yakalamak isteyebilir. Bağlılık programı kartlarının kayıt kaynağı artık kaydedilir, böylece satıcılar bu veriler üzerinde raporları çalıştırabilir. Kayıtlar kaynağı, MPOS/CPOS veya e-ticaret kanallarından yayınlanan tüm bağlılık programı kartları için otomatik olarak yakalanır. Arka ofis uygulamasından yayınlanan bağlılık programı kartları için arama merkezi kullanıcısı uygun kanal seçebilir.
 - Önceki sürümlerde, satıcılar müşterilerin bir mağazada bağlılık programı puanlarını kullanabilmesi için MPOS/CPOS kullanırdı. Ancak o sürümlerde, bağlılık programı bakiyesi bağlılık programı puanları olarak gösterildiğinden kasiyer, geçerli harekete uygulanacak para birimi değerinde miktarı görüntüleyemiyordu. Kasiyerin, bağlılık programı puanlarına göre ödeme yapmadan önce puanları para birimine dönüştürmesi gerekirdi. Mevcut sürümde, harekete satırları eklendikten sonra kasiyer, bağlılık programı puanlarının geçerli hareketi karşılayıp karşılamadığını görebilir; bu da hareketi bazı veya tüm bağlılık programı puanlarını uygulamayı kolaylaştırır. Ayrıca, kasiyer sonraki 30 gün içinde süresi dolacak puanları görebilir, böylece o harekette süresi dolacak puanların kullanılması adına müşteriyi motive ederek fazla satış veya çapraz satış yapabilir.
 
-    ![Bağlılık programı bakiyesi puanları](./media/Points%20covered%20by%20loyalty%20balance.png "Bağlılık programı puanları bakiyesini göster")
+    ![Bağlılık programı bakiyesi puanları](./media/Points-covered-by-loyalty-balance.png "Bağlılık programı puanları bakiyesini göster")
 
-    ![Tarihi geçmek üzere olan puanlar](./media/Expiring%20points.png "Tarihi geçmek üzere olan puanları görüntüleyin")
+    ![Tarihi geçmek üzere olan puanlar](./media/Expiring-points.png "Tarihi geçmek üzere olan puanları görüntüleyin")
 
 - 8.1.3 sürümüyle, çağrı merkezi kanalında "bağlılık ile ödeme" seçeneğini etkinleştirdik. Bu seçeneği etkinleştirmek için bir bağlılık ödeme türü oluşturun ve bunu çağrı merkezi ile ilişkilendirin. 
 
