@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations, Retail
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d16ea19a6d3cfea325281f301e0502bb051381d9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fb737e6600b1812c44d6101814fc858ac27013e9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566761"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834647"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri
 

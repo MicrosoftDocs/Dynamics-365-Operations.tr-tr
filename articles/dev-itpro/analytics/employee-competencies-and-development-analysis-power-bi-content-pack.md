@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 263894
 ms.assetid: 7d375d8a-b2de-4bec-b575-93d1d4521b79
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0442e795eadf28a07132c160d69ad44e9fb05eed
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b1a0c8f756601dc342ab44364ea362cf2698f3c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553289"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849749"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>Personel uzmanlıkları ve gelişimi Power BI içeriği
 
@@ -31,7 +31,7 @@ ms.locfileid: "1553289"
 Bu konu Finance and Operations - Personel yeterlilikleri ve gelişimi Power BI içeriğini açıklar. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>İçerik paketinde bulunan raporlar
-İçerik paketini Finance and Operations verinize bağladıktan sonra, raporlar kuruluşunuzun verilerinde görünür. Daha önce hiç Microsoft Power BI kullanmadıysanız daha fazla bilgiyi [Power BI için Destekli Öğrenme sayfasından](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) edinebilirsiniz. İçerik paketinde bulunan raporlar, ek bilgiler içeren hem grafiklere hem de tablolara sahiptir. Aşağıdaki tablo bu raporları açıklar.
+İçerik paketini Finance and Operations verinize bağladıktan sonra, raporlar kuruluşunuzun verilerinde görünür. Daha önce hiç Microsoft Power BI kullanmadıysanız daha fazla bilgiyi [Power BI için Destekli Öğrenme sayfasından](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) edinebilirsiniz. İçerik paketinde bulunan raporlar, ek bilgiler içeren hem grafiklere hem de tablolara sahiptir. Aşağıdaki tablo bu raporları açıklar.
 
 | Rapor                            | İçindekiler                                               |
 |-----------------------------------|--------------------------------------------------------|
@@ -39,7 +39,7 @@ Bu konu Finance and Operations - Personel yeterlilikleri ve gelişimi Power BI i
 | Yetenek Profili                     | Seçilen personelin yetenek profili                |
 | Yetenek Analizi                    | Tür ve derecelendirmeye göre yetenekler                              |
 
-Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve Yapılandırma](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 Finance and Operations verisi, Personel yeterlilikleri ve gelişimi içerik paketindeki raporları doldurmak için kullanılır. Aşağıdaki tablo, içerik paketinin üzerine dayandırıldığı varlıkları gösterir.

@@ -3,25 +3,25 @@ title: Maddeler için kapsam kurallarını tanımlama
 description: Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, ReqItemTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 02aa3b2b7924cdf6317225bfce23f182aa390b8c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 680d7c9339b089a4da82bef18bae3af41e23af30
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565678"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845197"
 ---
 # <a name="define-coverage-rules-for-items"></a>Maddeler için kapsam kurallarını tanımlama
 
@@ -31,81 +31,74 @@ Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam
 
 
 ## <a name="create-a-coverage-group"></a>Bir kapsam grubu oluşturma
-1. Kapsam gruplarına gidin.
-2. Yeni'ye tıklayın.
-3. Kapsam grubu alanına bir değer yazın.
-4. İsim alanına bir değer yazın.
-5. Takvim alanına bir değer yazın.
-    * Nazım planlamanın bu gruptaki maddelerin stok yenilemesi önerilerini oluşturmak için kullandığı takvimi seçin.  
-6. Kapsam kodu alanında bir seçenek seçin.
-    * Bu yordam için gereksinimi seçin.  
-7. Kapsam zaman dilimi (gün) alanına '90' girin.
-    * Bu gruptaki maddeler için, master planlama gelecek en fazla 90 gün için stok yenileme önerileri oluşturur.  
-8. Negatif günler alanına '1' girin.
-9. Pozitif günler alanına '1' girin.
-10. Diğer bölümünü genişletin veya daraltın.
-11. Gereksinim tarihine eklenen giriş marjı alanına '1' girin.
-    * Örneğin giriş marjı bir gün olarak ayarlanırsa ve 15 mayıs tarihindeki bir giriş için bir satın alma siparişi satırı planlanırsa, nazım planlama ayarlanan giriş tarihini 16 mayıs olarak hesaplar.  
-12. Gereksinim tarihinden kesilen çıkış marjı alanına '1' girin.
-    * Örneğin emniyet marjı 1 gün olarak ayarlanırsa ve 15 mayıs tarihindeki bir teslimat için bir satış siparişi satırı planlanırsa, nazım planlama ayarlanan teslim tarihini 14 mayıs olarak hesaplar.  
-13. Madde sağlama süresine eklenen sipariş yenileme sınırı alanına '1' girin.
-14. Kaydet'e tıklayın.
+1. **Gezinti bölmesi > Modüller > Master planlama > Kurulum > Kapsam grupları**'na gidin.
+2. **Yeni**'ye tıklayın.
+3. **Kapsam grubu** alanına bir değer yazın.
+4. **Ad** alanına bir değer yazın.
+5. **Takvim** alanına bir değer yazın. Nazım planlamanın bu gruptaki maddelerin stok yenilemesi önerilerini oluşturmak için kullandığı takvimi seçin.  
+6. **Kapsam kodu** alanında bir seçenek seçin. Bu yordam için 'Gereksinim'i seçin.  
+7. **Kapsam zaman dilimi (gün) alanı**'na '90' girin. Bu gruptaki maddeler için, master planlama gelecek en fazla 90 gün için stok yenileme önerileri oluşturur.  
+8. **Negatif günler** alanına '1' girin.
+9. **Pozitif günler** alanına '1' girin.
+10. **Diğer** bölümünü genişletin veya daraltın.
+11. **Gün sayısı olarak emniyet marjları** bölümünde, **Gereksinim tarihine eklenen giriş marjı** alanına '1' girin. Örneğin giriş marjı bir gün olarak ayarlanırsa ve 15 mayıs tarihindeki bir giriş için bir satın alma siparişi satırı planlanırsa, nazım planlama ayarlanan giriş tarihini 16 mayıs olarak hesaplar.  
+12. **Gereksinim tarihinden kesilen çıkış marjı** alanına '1' girin. Örneğin emniyet marjı 1 gün olarak ayarlanırsa ve 15 mayıs tarihindeki bir teslimat için bir satış siparişi satırı planlanırsa, nazım planlama ayarlanan teslim tarihini 14 mayıs olarak hesaplar.  
+13. **Madde sağlama süresine eklenen sipariş yenileme sınırı** alanına '1' girin.
+14. **Kaydet**'e tıklayın.
 
-## <a name="create-a-new-product"></a>Yeni bir ürün oluştur
-1. Serbest bırakılan ürünler öğesine gidin.
-2. Yeni'ye tıklayın.
-3. Ürün numarası alanında bir değer girin.
-4. Ürün adı alanına bir değer girin.
-5. Madde modeli alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+## <a name="create-a-new-product"></a>Yeni ürün oluşturma
+1. **Gezinti bölmesi > Modüller > Ürün bilgileri yönetimi > Ürünler > Serbest bırakılan ürünler**'e gidin.
+2. **Yeni**'ye tıklayın.
+3. **Ürün numarası** alanında bir değer girin.
+4. **Ürün adı** alanına bir değer yazın.
+5. **Madde modeli grubu** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 6. Listede, istenen kaydı bulun ve seçin.
 7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. Madde modeli alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+8. **Madde modeli** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 9. Listede, istenen kaydı bulun ve seçin.
 10. Listede, seçili satırdaki bağlantıya tıklayın.
-11. Depolama alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+11. **Depolama boyutu grubu** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 12. Listede, istenen kaydı bulun ve seçin.
 13. Listede, seçili satırdaki bağlantıya tıklayın.
-14. İzleme boyutu grubu alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+14. **İzleme boyutu grubu** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 15. Listede, istenen kaydı bulun ve seçin.
 16. Listede, seçili satırdaki bağlantıya tıklayın.
-17. Tamam'a tıklayın.
+17. **Tamam**'a tıklayın.
 
 ## <a name="setup-default-order-settings"></a>Varsayılan sipariş ayarlarını yapma
-1. Eylem Bölmesinde, Planla öğesine tıklayın.
-2. Varsayılan sipariş ayarlarına tıklayın.
-3. Satınalma tesisi alanına, satınalma siparişleri oluşturulurken varsayılan olarak kullanılan tesisi yazın.
-4. Stok sahası alanına, maddenin depolandığı sahayı yazın.
-5. Stok bölümünü genişletin veya daraltın.
-6. Birden çok ayarını '10' olarak belirleyin.
-7. Min. sipariş miktarını '10' olarak ayarlayın.
-8. Maks. sipariş miktarını '100' olarak ayarlayın.
-9. Standart sipariş miktarını '10' olarak ayarlayın.
-10. Satınalma sağlama süresi alanına bir sayı girin.
-11. Çalışma günleri onay kutusunu seçin veya temizleyin.
-12. Kaydet'e tıklayın.
-13. Varsayılan sipariş türü alanında 'Satınalma siparişi'ni seçin.
-14. Kaydet'e tıklayın.
-15. Sayfayı kapatın.
-    * Varsayılan sipariş ayarları sayfasını kapatın.  
+1. **Eylem Bölmesi**'nde **Plan**'a tıklayın.
+2. **Sipariş ayarları**'nın altında, **Varsayılan sipariş ayarları**'na tıklayın.
+3. **Satınalma siparişi**'nin altında, **Varsayılan site** alanında satınalma siparişleri oluşturulurken varsayılan olarak kullanılan tesisi yazın.
+4. **Varsayılan ambar** alanına, maddenin depolandığı sahayı yazın.
+5. **Stok** bölümünü genişletin veya daraltın.
+6. **Çoklu** alanına '10' yazın.
+7. **Minimum sipariş miktarı** alanına '10' yazın.
+8. **Maksimum sipariş miktarı** alanına '100' yazın.
+9. **Standart sipariş miktarı** alanına '10' yazın.
+10. **Satınalma sağlama süresi** alanına bir sayı girin.
+11. **Çalışma günleri** onay kutusunu seçin veya temizleyin.
+12. **Kaydet**'e tıklayın.
+13. **Varsayılan sipariş türü** alanında 'Satınalma siparişi'ni seçin.
+14. **Kaydet**'e tıklayın.
+15. Sayfayı kapatın. Varsayılan sipariş ayarları sayfasını kapatın.  
 
 ## <a name="add-an-item-to-a-coverage-group"></a>Kapsama grubuna bir madde ekleme
-1. Plan bölümünü genişletin veya daraltın.
-2. Kapsam grup alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-3. Listede, oluşturduğunuz Kapsam grubunu bulun.
+1. **Plan** bölümünü genişletin veya daraltın.
+2. **Kapsam grubu** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+3. Listede, oluşturduğunuz **Kapsam grubu**'nu bulun.
 4. Listede, seçili satırdaki bağlantıya tıklayın.
 
 ## <a name="create-item-coverage-rules"></a>Madde kapsama kuralları oluşturma
-1. Eylem Bölmesinde, Planla öğesine tıklayın.
-2. Madde kapsamı'na tıklayın.
-3. Yeni'ye tıklayın.
-4. Genel sekmesine tıklayın.
-5. Karşılama grubu ayarlarını geçersiz kılma başlığı kutusunu işaretleyin.
-6. Kapsam zaman dilimi (gün) alanına '60' girin.
-    * Gereklilik grubu kapsamındaki maddeler 90 gün önceden planlanmasına rağmen, bu madde 60 gün önceden planlanacaktır.  
-7. Negatif günler alanına '2' girin.
-8. Pozitif günler alanına '2' girin.
-9. Sağlama süresi sekmesine tıklayın.
-10. Satın alma başlığındaki onay kutusunu seçin.
-11. Satınalma zamanı alanına '5' girin.
-12. Kaydet'e tıklayın.
+1. **Eylem Bölmesi**'nde **Plan**'a tıklayın.
+2. **Kapsam**altında, **Madde karşılama**'ya tıklayın.
+3. **Yeni**'ye tıklayın.
+4. **Genel** sekmesine tıklayın.
+5. **Karşılama grubu** ayarlarını geçersiz kılma başlığı kutusunu işaretleyin.
+6. **Kapsam zaman dilimi (gün)** alanına '60' girin. Gereklilik grubu kapsamındaki maddeler 90 gün önceden planlanmasına rağmen, bu madde 60 gün önceden planlanacaktır.  
+7. **Negatif günler** alanına '2' girin.
+8. **Pozitif günler** alanına '2' girin.
+9. **Sağlama süresi** sekmesine tıklayın.
+10. **Satınalma** başlığındaki onay kutusunu seçin.
+11. **Satınalma zamanı** alanına '5' girin.
+12. **Kaydet**'e tıklayın.
 

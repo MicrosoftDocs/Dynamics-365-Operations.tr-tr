@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adcc9bbc422a3fddfd51d248daf95c0da6d4c9bb
-ms.sourcegitcommit: 8cf77e9171d6cad8ae6c8bfad9e4f9a46fef6d23
+ms.openlocfilehash: 7ca04433937d0d7a16b450f190cd3814533e270d
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "1689012"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741068"
 ---
 # <a name="workflow-faq"></a>İş akışıyla ilgili SSS
 
@@ -48,6 +48,6 @@ Bildirim sağlamak amacıyla iş akışlarına uyarı ekleme hakkında dikkat ed
     - Gelecekteki bir güncelleştirmede, kullanıcıya bir iş akışı iş maddesi atanacak bir İşlem Merkezi iletisi ekleyeceğiz. 
 - İş akışına bildirim ekleme
     - X++içindeki bir iş akışından oluşturulan ileti gibi belirli kullanıcılar için işlem merkezi iletileri oluşturulabilir.
-    - [İş Akışının İş Olayları](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) Müşterinin Akışları tetiklemek için kullanabileceği, aradıkları bildirimlere sahiptir.   
+    - [İş Akışının İş Olayları](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) Müşterinin Akışları tetiklemek için kullanabileceği, aradıkları bildirimlere sahiptir.   
 
-Özetle, bir Kullanıcı bir iş akışı iş maddesi atandığında eylem merkezinden uygun bildirimi alamazsanız ek veya farklı bildirimler sağlamak için [İş Akışının İş Olayları](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ile Microsoft Flow'u ek ya da farklı bildirimler sağlamak için kullanın.
+Özetle, bir Kullanıcı bir iş akışı iş maddesi atandığında eylem merkezinden uygun bildirimi alamazsanız ek veya farklı bildirimler sağlamak için [İş Akışının İş Olayları](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ile Microsoft Flow'u ek ya da farklı bildirimler sağlamak için kullanın.

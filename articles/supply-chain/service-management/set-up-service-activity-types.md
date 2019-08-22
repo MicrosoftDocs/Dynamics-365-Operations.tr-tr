@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fb943ddac18e4e5e48bbef7255965ea8ba2de3c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 647139436f0ce31eb79e1a6b70fe6ef880b7b788
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549760"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743130"
 ---
 # <a name="set-up-service-activity-types"></a>Servis faaliyeti tiplerini ayarlama 
 
@@ -46,7 +46,7 @@ ms.locfileid: "1549760"
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Faaliyet türleri (form)](https://technet.microsoft.com/en-us/library/aa583718\(v=ax.60\))
+[Faaliyet türleri (form)](https://technet.microsoft.com/library/aa583718\(v=ax.60\))
 
 [Gönderme panosu](dispatch-board.md)
 

@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, SysRecordTemplateSelect
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e32efc72a4f1f60afd9e2c699db1fae0b70d529c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d15cfd426b94779891dc7ccd471baab0522abbab
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551019"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848243"
 ---
 # <a name="use-record-template-to-create-a-new-record"></a>Yeni bir kayıt oluşturmak için kayıt şablonu kullanma
 

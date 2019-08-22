@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3c3873991c33347c1358dc98381c6b5f4c6ce2aa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553212"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846913"
 ---
 # <a name="one-voucher"></a>Bir fiş
 
@@ -51,7 +51,7 @@ Mali günlükler için (günlük fişi, sabit kıymet günlüğü, satıcı öde
 
 ## <a name="issues-with-one-voucher"></a>Bir fiş ile ilgili sorunlar
 
-Bir fiş işlevi; hesap kapatma, vergi hesaplaması, hareketi geri alma, yardımcı defterin genel muhasebeye mutabakatı, mali raporlama ve daha fazlası sırasında sorunlara neden olur. (Hesap kapatma sırasında meydana gelen sorunlar hakkında daha fazla bilgi için bkz., örneğin [Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Düzgün bir şekilde çalışmak ve raporlamak için bu işlemler ve raporlar, hareket ayrıntıları gerektirir. Bazı senaryolar, kuruluşunuzun kurulumuna bağlı olarak yine de düzgün çalışmaya devam etse de; bir fişte birden çok hareket girildiğinde çoğunlukla sorunlar oluşur.
+Bir fiş işlevi; hesap kapatma, vergi hesaplaması, hareketi geri alma, yardımcı defterin genel muhasebeye mutabakatı, mali raporlama ve daha fazlası sırasında sorunlara neden olur. (Hesap kapatma sırasında meydana gelen sorunlar hakkında daha fazla bilgi için bkz., örneğin [Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Düzgün bir şekilde çalışmak ve raporlamak için bu işlemler ve raporlar, hareket ayrıntıları gerektirir. Bazı senaryolar, kuruluşunuzun kurulumuna bağlı olarak yine de düzgün çalışmaya devam etse de; bir fişte birden çok hareket girildiğinde çoğunlukla sorunlar oluşur.
 
 Örneğin, aşağıdaki fişi deftere naklettiğinizi düşünelim.
 

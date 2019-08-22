@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13b3c37f5d013dd896a456018813f20e5e70350b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ab8c52b9b457505c2cf2bfca46cb938e73c0142e
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565055"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848685"
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a>ISO20022 alacak transferleri için satıcıları ve satıcı banka hesaplarını ayarlama
 

@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b6427d7eede8fe35fcd86928c3d5b8507876e2e
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571112"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846087"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Proje gerçek değerlerini Finance and Operations'a nakletmek için doğrudan Project Service Automation'dan proje tümleştirme günlüğüne eşitleme
 

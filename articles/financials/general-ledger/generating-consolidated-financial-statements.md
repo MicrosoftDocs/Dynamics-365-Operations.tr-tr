@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557743"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863712"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolide mali tabloları oluşturma
 
@@ -49,11 +49,11 @@ Aşağıdaki çizimde, konsolide edilen raporun gösterdiği üzere raporlama a�
 
 İhtiyaç duyduğunuz birçok düzeyi içeren çok düzeyli bir raporlama ağacı da oluşturabilirsiniz. Aşağıdaki çizim, dünya çapında bölgelere göre toplamlara sahip olan çok düzeyli bir raporlama ağacı tanımını gösterir.
 
-![Bölgelere göre toplamları olan çok düzeyli raporlama ağacı tanımı](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "Bölgelere göre toplamları olan çok düzeyli raporlama ağacı tanımı")
+![Bölgelere göre toplamları olan çok düzeyli raporlama ağacı tanımı](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Bölgelere göre toplamları olan çok düzeyli raporlama ağacı tanımı")
 
 Aşağıdaki çizim, dünya çapında işlevlere göre toplamlara sahip olan çok düzeyli bir raporlama ağacı tanımını gösterir.
 
-![İşlevlere göre toplamları olan çok düzeyli raporlama ağacı tanımı](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "İşlevlere göre toplamları olan çok düzeyli raporlama ağacı tanımı")
+![İşlevlere göre toplamları olan çok düzeyli raporlama ağacı tanımı](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "İşlevlere göre toplamları olan çok düzeyli raporlama ağacı tanımı")
 
 ### <a name="viewing-companies-side-by-side"></a>Şirketleri yan yana görüntüleme
 Birçok müşteri şirketlerin yan yana görüldüğü ve bir sütunun konsolide toplamı gösterdiği raporları tercih etmektedir. Raporlama ağacı oluşturduktan sonra bu biçimi kolaylıkla elde edebilirsiniz. Konsolide mali tablolarda şirketleri yan yana görüntülemek için üst düzey adımlar şunlardır.
@@ -98,7 +98,7 @@ Aşağıdaki çizimde gösterildiği üzere raporlama ağacı tanımında **Topl
 > [!NOTE]
 > Bu sahiplik yüzdesini sadece şirket düzeyinde değil herhangi bir raporlama birimi için de uygulayabilirsiniz. 
 
-![Raporlama ağacı tanım yüzdesini kullanma](./media/Using-reporting%20tree-definition-percentage.png "Raporlama ağacı tanım yüzdesini kullanma")
+![Raporlama ağacı tanım yüzdesini kullanma](./media/Using-reporting-tree-definition-percentage.png "Raporlama ağacı tanım yüzdesini kullanma")
 
 Rapor oluşturulurken Contoso Germany raporu satış tutarının yüzde 100'ünü gösterir ve tutarın yüzde 80'i satışlar için konsolide düzeyde tahsis edilir ve toplanır.
 

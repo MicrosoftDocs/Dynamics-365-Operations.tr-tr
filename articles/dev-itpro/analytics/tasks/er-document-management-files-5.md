@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23e91b6aee62157da9141cc7b6c4fae39c19ce32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ba9cc4dcdfcfbc1bdb933336e85da9b4b6d97a40
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544691"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791868"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format"></a>ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 5: Biçimi değiştirme ve çalıştırma)
 
@@ -29,7 +29,7 @@ ms.locfileid: "1544691"
 
 Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, ER çıktısında Belge Yönetimi belgelerini (eklerini) kullanmak amacıyla bir Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini açıklar. Bu adımlar DEMF şirketinde gerçekleştirilebilir.
 
-Bu adımları tamamlamak için öncelikle "ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 4): Biçimi çalıştırma" yordamındaki adımları tamamlamalısınız.
+Bu adımları tamamlamak için öncelikle "ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 4: Biçimi çalıştırma)" yordamındaki adımları tamamlamalısınız.
 
 Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
 

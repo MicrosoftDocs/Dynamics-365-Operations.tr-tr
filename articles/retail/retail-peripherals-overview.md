@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624824"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742645"
 ---
 # <a name="retail-peripherals"></a>Perakende çevre birimleri
 
@@ -192,7 +192,7 @@ Ağ çevre birimleri için IP adreslerini iki yerde belirtebilirsiniz. Modern PO
 
 #### <a name="modern-pos-for-android"></a>Modern POS for Android
 
-8.1.3 Dynamics 365 for Retail sürümü itibariyle, Modern POS for Android uygulaması yerleşik bir IPC donanım istasyonunu içerir. Bu donanım İstasyonu ağ yazıcıları ve ödeme bağlayıcılarıyla iletişim kurmayı destekler. Daha fazla bilgi için [Android için Hybrid uygulaması docs makalesi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app)'ı ziyaret edin. 
+8.1.3 Dynamics 365 for Retail sürümü itibariyle, Modern POS for Android uygulaması yerleşik bir IPC donanım istasyonunu içerir. Bu donanım İstasyonu ağ yazıcıları ve ödeme bağlayıcılarıyla iletişim kurmayı destekler. Daha fazla bilgi için [Android için Hybrid uygulaması docs makalesi](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app)'ı ziyaret edin. 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>İOS için Bulut ve Modern POS
 
@@ -541,7 +541,7 @@ Bu yapılandırma geleneksel, sabit POS kasalar için en genel yapılandırmadı
 
 4. **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
 5. Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
-6. Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
+6. Yeni donanım istasyonunu mağazayla eşitlemek için **1070** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
 7. Windows için Modern POS'u yükleyin ve etkinleştirin.
 8. Windows için Modern POS'u başlatın ve bağlı çevrebirim cihazlarını kullanmaya başlayın.
 

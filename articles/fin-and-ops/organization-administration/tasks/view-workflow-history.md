@@ -1,9 +1,9 @@
 ---
-title: İş akışı geçmişini görüntüle
-description: İşlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntülemek için bu adımları kullanın.
+title: İş akışı geçmişini görüntüleme
+description: Bu konuda işlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntüleme adımları açıklanmaktadır.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,34 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a40fe377322e2d64b751f6cace3eda20736cd321
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 16c6594161f1fecd36183a6b8f2c798f52d70a9c
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560464"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1738800"
 ---
-# <a name="view-workflow-history"></a>İş akışı geçmişini görüntüle
+# <a name="view-workflow-history"></a>İş akışı geçmişini görüntüleme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-İşlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntülemek için bu adımları kullanın. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+Bu konuda işlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntüleme adımları açıklanmaktadır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
-1. Ortak > Sorgulamalar > İş akışı > İş akışı geçmişi'ne gidin.
-    * İşlenmek ve onaylanmak üzere iş akışı sistemine gönderilen bir belgenin durumunu görüntülemek için bu formu kullanın.  
-    * Örnek kodu,      belgeyi işleyen veya işlemiş olan örneğin kimlik kodudur.  
-    * Durum, belgenin iş akışı durumudur.  
-    * İş akışı kodu, belgeyi işleyen veya işlemiş olan iş akışının kimlik kodudur.  
-    * Belge, belgenin kimlik saptama kodudur.  
-    * Belge türü, işlenmek üzere gönderilen belgenin türüdür.  
-    * İş akışı, belgeyi işleyen veya işlemiş olan iş akışının adıdır.  
-    * Sürüm, belgeyi işleyen veya işlemiş olan iş akışının sürüm numarasıdır.  
-    * Oluşturulma tarihi ve saati, belgenin gönderildiği tarih ve saattir.  
-    * Geçen süre, belgenin gönderilmesinden itibaren geçen süredir.  
-    * Sürdür düğmesi, seçili belge için iş akışı işleminin devam ettirmenizi sağlar.  
-    * Geri çağır düğmesi, seçili belgenin işlenmemesi için belgeyi geri çağırmanızı sağlar.   
-2. Listede, seçili satırdaki bağlantıya tıklayın.
-    * İş maddeleri bölümünün genişletilmiş olduğundan emin olun.    Bu bölümde, seçili belge ile ilişkili iş maddelerini görüntüleyebilirsiniz. Örneğin, bir görevin tamamlanması veya belgenin onaylanması gerekiyor olabilir.  
-    * Yeniden Ata düğmesi, bir iş maddesini başka bir kullanıcıya yeniden atayabileceğiniz bir iletişim kutusu açar.  
-    * İzleme ayrıntıları bölümünün genişletilmiş olduğundan emin olun.    Bu bölümde, seçili belgenin iş akışı geçmişini görüntüleyebilirsiniz.  
+1. **Gezinti bölmesi > Modüller > Ortak > Sorgular > İş akışı > İş akışı geçmişi**'ne gidin.
+    - İşlenmek ve onaylanmak üzere iş akışı sistemine gönderilen bir belgenin durumunu görüntülemek için bu formu kullanın.  
+    - **Örnek Kodu** belgeyi işleyen veya işlemiş olan iş akışı örneğinin kimlik kodudur.  
+    - **Durum**, belgenin iş akışı durumudur.  
+    - **İş Akışı Kodu**, belgeyi işleyen veya işlemiş olan iş akışının kimlik kodudur.  
+    - **Belge**, belgenin kimlik kodudur.  
+    - **Belge türü**, işlenmek üzere gönderilen belgenin türüdür.  
+    - **İş akışı**, belgeyi işleyen veya işlemiş olan iş akışının adıdır.  
+    - **Sürüm**, belgeyi işleyen veya işlemiş olan iş akışının sürüm numarasıdır.  
+    - **Oluşturulma tarihi ve saati**, belgenin gönderildiği tarih ve saattir.  
+    - **Geçen süre**, belgenin gönderilmesinden itibaren geçen süredir.  
+    - **Sürdür** düğmesi, seçili belge için iş akışı işlemini devam ettirmenizi sağlar.  
+    - **Geri çağır** düğmesi, seçili belgenin işlenmemesi için belgeyi geri çağırmanızı sağlar.   
+2. Listede, istenen satırdaki bağlantıyı seçin.
+    - **İş maddeleri** bölümünün genişletildiğinden emin olun. Bu bölümde, seçili belge ile ilişkili iş maddelerini görüntüleyebilirsiniz. Örneğin, bir görevin tamamlanması veya belgenin onaylanması gerekiyor olabilir.  
+    - **Yeniden Ata** düğmesi, bir iş maddesini başka bir kullanıcıya yeniden atayabileceğiniz bir iletişim kutusu açar.  
+    - **İzleme ayrıntıları** bölümünün genişletildiğinden emin olun. Bu bölümde, seçili belgenin iş akışı geçmişini görüntüleyebilirsiniz.  
 

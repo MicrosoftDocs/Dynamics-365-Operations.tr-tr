@@ -1,66 +1,55 @@
 ---
 title: Serbest bırakılan ana ürünün temel kurulumunu tamamlama
-description: Bu yordam, ana ürünün, ürün reçetelerinde kullanılmadan önce yerine getirilmesi gereken minimum kurulumun nasıl tamamlanacağını gösterir.
+description: Bu konu, ana ürünün, ürün reçetelerinde kullanılmadan önce yerine getirilmesi gereken minimum kurulumun nasıl tamamlanacağını gösterir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d3a91977c38c0ce0f9fe114bec943c7cb32a5d4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bd7e02c9aea17fbc3312660d0e50cd8bbf39aa3d
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568789"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845029"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Serbest bırakılan ana ürünün temel kurulumunu tamamlama
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, ana ürünün, ürün reçetelerinde kullanılmadan önce yerine getirilmesi gereken minimum kurulumun nasıl tamamlanacağını gösterir.
+Bu konu, ana ürünün, ürün reçetelerinde kullanılmadan önce yerine getirilmesi gereken minimum kurulumun nasıl tamamlanacağını gösterir.
 
 Bu, boyut tabanlı yapılandırma birleşimlerini nasıl oluşturulacağını açıklayan sekiz prosedür arasındaki üçüncüsüdür. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
-1. Product information management > Products > Released products (Ürün bilgi yönetimi > Ürünler > Piyasaya sürülmüş ürünler) menüsüne gidin.
-2. Listede, istenen kaydı bulun ve seçin.
-    * İkinci yordamda serbest bıraktığınız ana ürünü seçin. Bu ana ürün, boyut tabanlı yapılandırma teknolojisi ile oluşturulur.  
-3. Eylem Bölmesinde, Ürün'e tıklayın.
-4. İletişim kutusunu açmak için Boyut grupları'ına tıklayın.
-5. Depolama alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-6. Listede, istenen kaydı bulun ve seçin.
-    * Depolama boyutları grubu, ürün hareketi için kullanılacak depolama boyutlarını belirler. Bu yordam için Tesis seçin.  
-7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. İzleme boyutu grubu alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-9. Listede, istenen kaydı bulun ve seçin.
-    * İzleme boyutları grubu, ürün hareketi için kullanılacak izleme boyutlarını belirler. Bu yordam için Hiçbiri'ni seçin.  
-10. Listede, seçili satırdaki bağlantıya tıklayın.
-11. Tamam'a tıklayın.
-12. Listede, seçili satırdaki bağlantıya tıklayın.
-13. Düzenle öğesine tıklayın.
-    * Kurulum görevine devam etmek için serbest bırakılmış ürün ayrıntıları formunu açın.  
-14. Madde modeli alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-15. Listede, istenen kaydı bulun ve seçin.
-    * Madde modeli grupları, maddelerin madde girişlerinde ve çıkışlarında kontrol edilme ve işlenme biçimini belirleyen ayarları içerir. Ayrıca, bunlar madde tüketiminin hesaplanma şeklini de belirler. Bu yordam için   FIFO seçin.  
-16. Listede, seçili satırdaki bağlantıya tıklayın.
-17. Maliyet yönetimi bölümünü genişletin veya daraltın.
-18. Madde modeli alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-19. Listede, istenen kaydı bulun ve seçin.
-    * Stok maddelerini gruplara ayırarak stoku yönetmek için madde grupları kullanılır. Bu yordam için   CarAudio'yu seçin.  
-20. Listede, seçili satırdaki bağlantıya tıklayın.
-21. Eylem Bölmesinde, Planla öğesine tıklayın.
-22. Varsayılan sipariş ayarlarına tıklayın.
-23. Varsayılan sipariş türü alanında, bir seçenek seçin.
-    * Bu ana ürünün varsayılan tedarik seçeneğinin üretim olduğunu belirtmek için Üretim seçeneğini işaretleyin.  
-24. Sayfayı kapatın.
-25. Serbest bırakılan ürün detayları formunu kapatın.
+1. **Gezinti bölmesi > Modüller > Ürün bilgileri yönetimi > Ürünler > Serbest bırakılan ürünler**'e gidin.
+2. Listede, istenen kaydı bulun ve seçin. İkinci yordamda serbest bıraktığınız ana ürünü seçin. Bu ana ürün, boyut tabanlı yapılandırma teknolojisi ile oluşturulur.  
+3. Eylem Bölmesinde, **Ürün**'ü seçin.
+4. İletişim kutusunu açmak için **Boyut grupları**'ını seçin.
+5. **Depolama boyutu grubu**'nda, aramayı açmak için açılır menü düğmesini seçin.
+6. Listede, istenen kaydı bulun ve seçin. Depolama boyutları grubu, ürün hareketi için kullanılacak depolama boyutlarını belirler. Bu yordam için **Tesis**'i seçin.  
+7. **İzleme boyutu grubu** alanında, aramayı açmak için açılır menü düğmesini seçin.
+8. Listede, istenen kaydı bulun ve seçin. İzleme boyutları grubu, ürün hareketi için kullanılacak izleme boyutlarını belirler. Bu prosedür için **Hiçbiri**'ni seçin.  
+9. **Tamam**'a tıklayın.
+10. **Düzenle**'yi tıklatın.
+11. **Madde modeli grubu** alanında, aramayı açmak için açılır menü düğmesini seçin.
+12. Listede, istenen kaydı bulun ve seçin. Madde modeli grupları, maddelerin madde girişlerinde ve çıkışlarında kontrol edilme ve işlenme biçimini belirleyen ayarları içerir. Ayrıca, bunlar madde tüketiminin hesaplanma şeklini de belirler. Bu prosedür için **FIFO**'yu seçin.  
+13. **Maliyetleri yönet** bölümünü genişletin.
+14. **Madde grubu** alanında, aramayı açmak için açılır menü düğmesini seçin.
+15. Listede, istenen kaydı bulun ve seçin. Stok maddelerini gruplara ayırarak stoku yönetmek için madde grupları kullanılır. Bu prosedür için **CarAudio**'yu seçin.  
+16. Eylem Bölmesinde, **Plan**'ı seçin.
+17. **Ürün varsayılan sipariş ayarları**'nı seçin.
+18. **Varsayılan sipariş türü** alanında, bir seçenek seçin. Bu ana ürünün varsayılan tedarik seçeneğinin üretim olduğunu belirtmek için **Üretim** seçeneğini işaretleyin.  
+19. **Kaydet**'i seçin.
+20. Sayfayı kapatın.
+21. **Serbest bırakılan ürün detayları** formunu kapatın.
 

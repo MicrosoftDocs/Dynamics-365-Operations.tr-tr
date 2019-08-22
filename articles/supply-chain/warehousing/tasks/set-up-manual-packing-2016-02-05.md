@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 30bbb404e624c33e047c5505c5b21565ed8cce10
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558045"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1847195"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Manuel ambalajlamayı ayarlama (Şubat 2016 ve Mayıs 2016)
 

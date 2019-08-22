@@ -3,25 +3,25 @@ title: Satış vergisi kapatma dönemlerini ayarla
 description: Satış vergisi kapatma dönemleri, satış vergisinin bildirilip ödenmesi gereken dönem aralıkları hakkında bilgiler içerir.
 author: twheeloc
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8304d9e8997a5d31740ee1203aa4bf0603014056
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569598"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863000"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Satış vergisi kapatma dönemlerini ayarla
 
@@ -50,6 +50,8 @@ Bu görevde USMF demo şirketi kullanılmaktadır.
 12. Dönem başına dönem aralığı birim sayısını girin. Örneğin üç aylık dönemde 3 ay vardır.
 13. Satış vergisi kapatma için toplu işlem kullan onay kutusunu işaretleyin veya kutuda işaret varsa kaldırın.
     * Kapatma dönemi için kapatma işlemi arka planda toplu iş olarak sürdürülebilir. Bu bir dönem aralığında çok sayıda vergi hareketi olması durumunda önerilir.  
+    > [!NOTE]
+    > Şu anda bu Avusturya, Belçika, İspanya, İtalya, Japonya ve Hollanda'da desteklenmez.
 14. Mahsup vergi hareketleri oluşturmayı engelle onay kutusunu seçin veya temizleyin.
     * Varsayılan olarak, sistem kapatma işlemi sırasında mahsup vergi hareketleri oluşturur; bu da bir dönem aralığında çok sayıda vergi hareketi varsa performans sorununa neden olur. Mahsup vergi hareketleri oluşturmayı engellemek için bu onay kutusunu seçin.
 15. Dönem aralıkları sekmesini genişletin.

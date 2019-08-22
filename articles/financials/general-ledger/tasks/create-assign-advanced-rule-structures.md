@@ -1,71 +1,61 @@
 ---
 title: Gelişmiş kural yapıları oluşturma ve atama
-description: Bu görev kılavuzu, gelişmiş kural yapısı oluşturmayı ve bir hesap yapısına atamayı adım adım açıklar.
+description: Bu konu, bir hesap yapısına gelişmiş bir kural yapısının nasıl oluşturulacağını ve atanacağını açıklar.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd62254c20cf5d77677d03c7d7335fb793d7f5f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cff07c13553ea140f537160da7f93820d5e3f77a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558918"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834914"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Gelişmiş kural yapıları oluşturma ve atama
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu görev kılavuzu, gelişmiş kural yapısı oluşturmayı ve bir hesap yapısına atamayı adım adım açıklar. Bu kılavuz, USMF demo şirketini kullanır.
-
+Bu konu, bir hesap yapısına gelişmiş bir kural yapısının nasıl oluşturulacağını ve atanacağını açıklar. Bu kılavuz, USMF demo şirketini kullanır.
 
 ## <a name="create-an-advanced-rule-structure"></a>Gelişmiş kural yapısı oluştur
-1. Genel muhasebe > Hesap planı > Yapılar > Gelişmiş kural yapıları'na gidin.
-2. Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.
-3. Gelişmiş kural yapısı alanında, kural yapısını açıklayan için bir ad girin.
-4. Açıklama alanında, yapıyı açıklayan bir değer girin.
-5. Tamam'ı tıklatın.
-6. Segment ekle öğesini tıklatın.
-7. Segmentler listesinde, bir mali boyut seçin.
-    * Örneğin, Mağaza.  
-8. Segment ekle öğesini tıklatın.
-9. Listede, gelişmiş kural yapısını görüntülemek için bağlantısını tıklatın.
-10. Etkinleştir'i tıklatın.
-11. Etkinleştir'i tıklatın.
+1. **Gezinti bölmesi > Modüller > Genel muhasebe > Hesap planı > Yapılar > Gelişmiş kural yapıları**'na gidin.
+2. Açılır iletişim kutusunu açmak için **Yeni** öğesini seçin.
+3. **Gelişmiş kural yapısı** alanında, kural yapısını açıklayan için bir ad girin.
+4. **Tamam**'ı seçin.
+5. **Segment ekle**'yi seçin.
+6. Segmentler listesinde, bir mali boyut seçin. Örneğin, **Mağaza**.  
+7. **Segment ekle**'yi seçin.
+8. **Etkinleştir**'i seçin.
 
 ## <a name="apply-an-advanced-rule-structure-to-an-account-structure"></a>Gelişmiş bir kural yapısını bir hesap yapısına uygula
-1. Formu kapatın.
-2. Sayfayı kapatın.
-3. Genel muhasebe > Hesap planı > Yapılar > Hesap yapılarını yapılandır'a gidin.
-4. Listede, gelişmiş kural uygulamak istediğiniz hesap yapısını bulun ve seçin.
-5. Hesap yapısını açmak için adını tıklatın.
-6. Düzenle öğesine tıklayın.
-    * Gelişmiş kuralları da tıklatabilirsiniz, ardından hesap yapısını Taslak moduna yerleştirmeniz istenir.  
-7. Gelişmiş kurallar öğesini tıklatın.
-8. Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.
-9. Gelişmiş kural alanında bir değer girin.
-10. İsim alanına bir değer yazın.
-11. Oluştur'a tıklayın.
-12. Yeni ölçüt ekle öğesini tıklatın.
-13. Nereye alanında, ana hesabı veya bir mali boyutu seçin.
-14. İşleç alanında, arasında ve içerir gibi bir seçenek belirleyin.
-15. Değer alanına bir değer yazın.
-16. Aracılığıyla alanında bir değer girin.
-17. Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.
-18. Listede, girdiğiniz ölçüt gerçekleştiğinde kullanmak istediğiniz gelişmiş kural yapısını bulun.
-19. Ekle öğesini tıklatın.
-20. Sayfayı kapatın.
-21. Etkinleştir'i tıklatın.
-22. Etkinleştir'i tıklatın.
+1. **Gezinti bölmesi > Modüller > Genel muhasebe > Hesap planı > Yapılar > Hesap yapılarını yapılandır**'a gidin.
+2. Listede, gelişmiş kural uygulamak istediğiniz hesap yapısını bulun ve seçin.
+3. **Düzenle** öğesini seçin. **Gelişmiş kurallar**'ı da seçebilirsiniz, ardından hesap yapısını **Taslak modu**'na yerleştirmeniz istenir.  
+4. **Gelişmiş kurallar**'ı seçin.
+5. Açılır iletişim kutusunu açmak için **Yeni** öğesini seçin.
+6. **Gelişmiş kural** alanında bir değer girin.
+7. **Ad** alanına bir değer yazın.
+8. **Oluştur**'u seçin.
+9. **Yeni ölçüt ekle** öğesini seçin.
+10. **Nereye** alanında, ana hesabı veya bir mali boyutu seçin.
+11. **İşleç** alanında, **arasında** ve **içerir** gibi bir seçenek belirleyin.
+12. **Değer** alanına bir değer yazın.
+13. **Aracılığıyla** alanında bir değer girin.
+14. Açılır iletişim kutusunu açmak için **Ekle** öğesini seçin.
+15. Listede, girdiğiniz ölçüt gerçekleştiğinde kullanmak istediğiniz gelişmiş kural yapısını bulun.
+16. **Ekle**'yi seçin.
+17. Sayfayı kapatın.
+18. **Etkinleştir**'i seçin.
 

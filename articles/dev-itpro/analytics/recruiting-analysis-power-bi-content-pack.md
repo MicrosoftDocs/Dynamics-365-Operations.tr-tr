@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 263934
 ms.assetid: 38e6827b-0819-473c-bc47-821a1ec482b8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b92078ca2bc89d752895bf3b4f2f3cdb2c2fd2f6
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544992"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849983"
 ---
 # <a name="recruiting-power-bi-content"></a>İşe alma Power BI içeriği
 
@@ -45,7 +45,7 @@ Bu konu, **İşe alma** Microsoft Power BI içeriğini açıklar. Bu Power BI ra
 | İşe Alma Analizi  | Net işe alma oranı, işe alma ortalama gün sayısı, kötü işe alımların yüzdesi, işe alma maliyetleri, işe alma projesi sayısı, başvuranı işe alma ve işe alma projesi başına açılan konumlara karşı başvurular |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve Yapılandırma](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Aşağıdaki tablo, **İşe alma** Power BI içeriğine dayalı varlıkları gösterir.
 

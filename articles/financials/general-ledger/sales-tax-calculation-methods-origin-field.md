@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1473eeb2950296f5ae6250d7a53794af3d9cba81
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8ec6144599e9bb74333a663a56bdbf07b1999669
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566866"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846763"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Kaynak alanında satış vergisi hesaplama yöntemleri
 
@@ -98,7 +98,7 @@ Bir harekette 2 vergi kodu hesapladığımızı düşünelim:
 Bir maddenin 1 parçasını birim fiyatı 10,00'dan satıyoruz
 #### <a name="example-1"></a>Örnek 1
 
-SATIŞ VERGİSİ: Kaynak = Brüt tutar yüzdesi yöntemi Satış vergisinden önce hesapla seçeneği etkisizdir çünkü SATIŞ VERGİSİ brüt tutarın yüzdesi olarak hesaplanır. HAR:: 1 x 5,00 = 5,00 Brüt tutar: 10,00 + 5,00 = 15,00 SATIŞ VERGİSİ: 15,00 x %25 = 3,75 Toplam satış vergisi: 5,00 + 3,75 = 8,75 Toplam tutar: 10,00 + 8,75 = 18,75
+SATIŞ VERGİSİ: Kaynak = Brüt tutar yüzdesi yöntemi Satış vergisinden önce hesapla seçeneği etkisizdir çünkü SATIŞ VERGİSİ brüt tutarın yüzdesi olarak hesaplanır. HAR: 1 x 5,00 = 5,00 Brüt tutar: 10,00 + 5,00 = 15,00 SATIŞ VERGİSİ: 15,00 x %25 = 3,75 Toplam satış vergisi: 5,00 + 3,75 = 8,75 Toplam tutar: 10,00 + 8,75 = 18,75
 
 #### <a name="example-2"></a>Örnek 2
 

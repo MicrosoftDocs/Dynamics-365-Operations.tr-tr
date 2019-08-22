@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acd0ca65685bc32f4601ad1e38d072f5ab79858d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0ded1763ce97ae751fce23cd460f99b3f3bfab7d
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512396"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837096"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
 
@@ -160,7 +160,7 @@ Kullanıcı orijinal faturadan tüm gider dağıtımları arasında tahsis edile
 | 14000056    | 200110-001- | Satıcı bakiyesi     |                                          | -2,00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Bakiye transferleri ve netleştirme senaryoları için bir fiş
-Birden fazla müşteri veya satıcı içeren bir fişin kullanıldığı iki yaygın senaryo, bir müşteriden/satıcıdan başka bir müşteriye/satıcıya bakiye transferlerini ve aynı kuruluştaki bir müşterinin ve satıcının mahsuplaşmasını içerir. Aşağıdaki iki örnek, bu senaryoları bir fişe girmeye alternatif olarak bunları Dynamics 365 for Finance and Operations'a girmek için tercih edilen yöntemleri gösterir. 
+Birden fazla müşteri veya satıcı içeren bir fişin kullanıldığı iki yaygın senaryo, bir müşteriden/satıcıdan başka bir müşteriye/satıcıya bakiye transferlerini ve aynı kuruluştaki bir müşterinin ve satıcının mahsuplaşmasını içerir. Aşağıdaki iki örnek, bu senaryoları bir fişe girmeye alternatif olarak bunları Finance and Operations'a girmek için tercih edilen yöntemleri gösterir. 
 
 *Bakiye transferi* birden çok müşteri içeren bir fiş olup bakiyenin bir müşteriden başka bir müşteriye (satıcılar için de aynı) transferi amacıyla girilir. Bir alt şirketin sorumluluğunun bir ana şirkete geçmesi gibi fatura ödeme sorumluluğu başka bir tarafa geçtiğinde bu senaryo gerçekleşir. 
 

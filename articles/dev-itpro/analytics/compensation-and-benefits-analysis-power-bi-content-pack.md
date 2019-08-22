@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 263914
 ms.assetid: 18634bb5-3341-42f2-9cc9-7b04708b506b
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6834940b16749461066e8f1000cbb7c2d4371109
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 48c968dfacd951d571f91fdcd809454f96f27a02
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548755"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848459"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>Tazminat ve Kazançlar Power BI içeriği
 
@@ -31,14 +31,14 @@ ms.locfileid: "1548755"
 Bu konu Finance and Operations - Ücret ve Kazançlar Power BI içeriğini açıklar. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>İçerik paketinde bulunan raporlar
-İçerik paketini Finance and Operations verinize bağladıktan sonra, raporlar kuruluşunuzun verilerinde görünür. Daha önce hiç Microsoft Power BI kullanmadıysanız daha fazla bilgiyi [Power BI için Destekli Öğrenme sayfasından](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) edinebilirsiniz. İçerik paketinde bulunan raporlar, ek bilgiler içeren hem grafiklere hem de tablolara sahiptir. Aşağıdaki tablo bu raporları açıklar.
+İçerik paketini Finance and Operations verinize bağladıktan sonra, raporlar kuruluşunuzun verilerinde görünür. Daha önce hiç Microsoft Power BI kullanmadıysanız daha fazla bilgiyi [Power BI için Destekli Öğrenme sayfasından](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) edinebilirsiniz. İçerik paketinde bulunan raporlar, ek bilgiler içeren hem grafiklere hem de tablolara sahiptir. Aşağıdaki tablo bu raporları açıklar.
 
 | Rapor                     | İçindekiler                                                                                                                              |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Maaş ve Kazançlar Analizi | Şirket, ortalama saatlik ödem, ortalama maaşlı ödeme, istihdam türüne göre çalışanlar ve plan kaydına göre saatli ve maaşlı çalışanlar |
 | Çalışan Kazançları          | Seçilen kazanca göre personel kaydı                                                                                               |
 
-Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve Yapılandırma](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 Finance and Operations verisi, Ücret ve Kazanç içerik paketindeki raporları doldurmak için kullanılır. Aşağıdaki tablo, içerik paketinin üzerine dayandırıldığı varlıkları gösterir.

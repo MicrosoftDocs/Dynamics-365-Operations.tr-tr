@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0c27126e688b5b8972dae3542973ed73c5e9153
-ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
+ms.openlocfilehash: 1d235e32c7607add770fbf47f248edd9d965b2c0
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711190"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834088"
 ---
 # <a name="create-sales-orders"></a>Satış siparişleri oluşturma
 

@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchCreateRFQCase, InventLocationIdLookup, PurchRFQCaseTable, InventItemIdLookupSimple, EcoResCategorySingleLookup, UnitOfMeasureLookup, PurchRFQEditLines, PurchRFQEditLinesPrintOptions, VendRFQJournal, SrsReportViewerForm
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4c09149fcbe5731126c2e48a37fafdf71c1d49df
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3e35dbc489608c0aa3bfb13db5ae237f854612b1
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552965"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844141"
 ---
 # <a name="create-a-request-for-quotation"></a>Teklif talebi oluşturma
 
@@ -31,58 +31,53 @@ Bu prosedür, bir satın alma teklifinin nasıl oluşturulacağını gösterir. 
 
 
 ## <a name="prepare-a-new-rfq"></a>Yeni bir RFQ hazırlama
-1. Tedarik ve kaynak atama > Teklif talepleri > Tüm teklif talepleri öğesine gidin.
-2. Yeni'ye tıklayın.
-    * Şu satın alma türleri kullanılabilir: Satın alma emri (varsayılan): ürün satın alınması teklifini veya ödeme karşılığında ürünlerin satılması teklifinin kabul edildiğini onaylayan belgedir. Satın alma talebi: doğudan bir satın alma talebinden bir RFQ oluşturduğunuzda bu tür otomatik olarak seçilir. Bu seçeneği el ile seçerseniz bir hata alırsınız. Satın alma sözleşmesi: bir üründen belirli bir zaman aralığında belirli bir miktarda veya değerde satın alınması için yapılan sözleşmedir. Bu seçeneği belirlerseniz, satın alma sözleşmesi için geçerli olacak tarih aralığını seçmeniz gerekir.  
-3. Belge başlığı alanına bir değer girin.
-4. Talep türü alanına bir değer girin veya buradan bir değer seçin.
-    * Talep türüyle bir puanlama yöntemi ilişkilendirilmişse bu, oluşturmakta olduğunuz RFQ için varsayılan puanlama yöntemi olacaktır. Puanlama yönteminin daha sonra değiştirilmesi mümkündür.  
-    * Teslimat tarihi alanına bir tarih girin.  
-    * Maddeleri almak istediğiniz son tarihi seçin.  
-    * Bitiş tarihi ve saati alanına bir tarih ve saat girin.  
-    * Satıcıların RFQ'ya yanıt vermesi gereken son tarihi ve saati belirtin.  
-5. Ambar alanında bir değer girin veya bir değer seçin.
-    * Teslimat adresi varsayılan olarak ambar adresidir.  
-6. Tamam'a tıklayın.
+1. **Gezinti bölmesi > Modüller > Tedarik ve kaynak atama > Teklif talepleri > Tüm teklif talepleri**'ne gidin.
+2. **Yeni**'ye tıklayın.
+    Şu satın alma türleri kullanılabilir: Satın alma emri (varsayılan): ürün satın alınması teklifini veya ödeme karşılığında ürünlerin satılması teklifinin kabul edildiğini onaylayan belgedir. Satın alma talebi: doğudan bir satın alma talebinden bir RFQ oluşturduğunuzda bu tür otomatik olarak seçilir. Bu seçeneği el ile seçerseniz bir hata alırsınız. Satın alma sözleşmesi: bir üründen belirli bir zaman aralığında belirli bir miktarda veya değerde satın alınması için yapılan sözleşmedir. Bu seçeneği belirlerseniz, satın alma sözleşmesi için geçerli olacak tarih aralığını seçmeniz gerekir.  
+3. **Belge başlığı** alanına bir değer girin.
+4. **Talep türü** alanına bir değer girin veya buradan bir değer seçin.
+    + Talep türüyle bir puanlama yöntemi ilişkilendirilmişse bu, oluşturmakta olduğunuz RFQ için varsayılan puanlama yöntemi olacaktır. Puanlama yönteminin daha sonra değiştirilmesi mümkündür.  
+    + **Teslimat tarihi** alanına bir tarih girin.  
+    + Maddeleri almak istediğiniz son tarihi seçin.  
+    + **Bitiş tarihi ve saati** alanına bir tarih ve saat girin.  
+    + Satıcıların RFQ'ya yanıt vermesi gereken son tarihi ve saati belirtin.  
+5. **Ambar alanı**'nda bir değer girin veya bir değer seçin. Teslimat adresi varsayılan olarak ambar adresidir.  
+6. **Tamam**'a tıklayın.
 
 ## <a name="add-lines"></a>Satır ekle
-    * RFQ'nuz hakkında temel bilgileri belirledikten sonra satıcıların teklif vermelerini istediğiniz malları veya hizmetleri belirlersiniz. Madde, varsayılan olarak satır tipindedir.   
-1. Madde numarası alanında bir değer girin veya seçin.
-    * USMF kullanıyorsanız, T0020'yi seçebilirsiniz.  
-2. Miktar alanına bir sayı girin.
-3. Satır ekle'ye tıklayın.
-4. Satır türü alanından 'Kategori' seçin.
-    * Stokta olmayan mallar veya hizmetlere yönelik RFQ'lar oluşturmak için Kategori satır türünü kullanabilirsiniz. Daha sonra, bir satın alma kategorileri hiyerarşisinden malların veya hizmetlerin türünü seçmeniz gerekir.  
-5. Satın alma kategorisi alanına bir değer girin veya buradan bir değer seçin.
-6. Ürün adı alanına bir değer girin.
-7. Miktar alanına bir sayı girin.
-8. Birim alanına bir değer girin veya buradan bir değer seçin.
+
+RFQ'nuz hakkında temel bilgileri belirledikten sonra satıcıların teklif vermelerini istediğiniz malları veya hizmetleri belirlersiniz. Madde, varsayılan olarak satır tipindedir.
+
+1. **Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin. USMF kullanıyorsanız, T0020'yi seçebilirsiniz.  
+2. **Miktar** alanına bir sayı girin.
+3. **Satır ekle**'ye tıklayın.
+4. **Satır türü** alanından 'Kategori' seçin. Stokta olmayan mallar veya hizmetlere yönelik RFQ'lar oluşturmak için Kategori satır türünü kullanabilirsiniz. Daha sonra, bir satın alma kategorileri hiyerarşisinden malların veya hizmetlerin türünü seçmeniz gerekir.  
+5. **Satın alma kategorisi** alanına bir değer girin veya buradan bir değer seçin.
+6. **Ürün adı** alanına bir değer yazın.
+7. **Miktar** alanına bir sayı girin.
+8. **Birim** alanına bir değer girin veya buradan bir değer seçin.
 
 ## <a name="add-vendors"></a>Satıcı ekle
-1. Satır görünümünü Başlık görünümü olarak değiştirmek için Başlığı tıklayın. 
-2. Satıcı bölümünü genişletin.
-3. Satıcıları otomatik olarak ekle düğmesini tıklayın.
-    * Talep edilen maddelerin satın alma kategorisine bağlı olarak RFQ'ya satıcıları otomatik olarak ekleyebilirsiniz. Satırlara dahil olan kategoriler için onaylanmış satıcılar bulunmuyorsa satıcıları el ile ekleyebilirsiniz.  
-4. Ekle öğesini tıklatın.
-5. Satıcı hesabı alanında bir değer girin veya bir değer seçin.
-6. Ekle öğesini tıklatın.
-7. Satıcı hesabı alanında bir değer girin veya bir değer seçin.
-    * Bir satıcıyı seçtiğinizde durumu Oluşturuldu olarak değiştirilir. Bu da satıcı bilgilerinin RFQ'ya kaydedildiği, ancak RFQ'nun satıcıya göndermediğiniz anlamına gelir. Satıcı durumundan bağımsız olarak bir satıcıyı bir RFQ'ya ekleyebilirsiniz.  
+1. Satır görünümünü Başlık görünümü olarak değiştirmek için **Başlık**'a tıklayın. 
+2. **Satıcı** bölümünü genişletin.
+3. **Satıcıları otomatik olarak ekle** düğmesini tıklayın. Talep edilen maddelerin satın alma kategorisine bağlı olarak RFQ'ya satıcıları otomatik olarak ekleyebilirsiniz. Satırlara dahil olan kategoriler için onaylanmış satıcılar bulunmuyorsa satıcıları el ile ekleyebilirsiniz.  
+4. **Ekle** öğesine tıklayın.
+5. **Satıcı hesabı** alanına bir değer girin veya bu alanda bir değer seçin.
+6. **Ekle** öğesine tıklayın.
+7. **Satıcı hesabı** alanına bir değer girin veya bu alanda bir değer seçin. Bir satıcıyı seçtiğinizde durumu Oluşturuldu olarak değiştirilir. Bu da satıcı bilgilerinin RFQ'ya kaydedildiği, ancak RFQ'nun satıcıya göndermediğiniz anlamına gelir. Satıcı durumundan bağımsız olarak bir satıcıyı bir RFQ'ya ekleyebilirsiniz.  
 
 ## <a name="send-the-rfq-to-vendors"></a>RFQ'yu satıcılara gönderme
-1. Gönder'e tıklayın.
-    * Teklif talebi gönderiliyor sayfasında, listedeki satıcıların RFQ almasını istediğiniz satıcılarla aynı olduğunu kontrol edin.  
-2. Yazdır'ı tıklatın.
-    * Bu iletişim kutusu RFQ'yu yazdırmanıza olanak sağlar. Bir yanıt sayfasını yazdırmayı seçerseniz, bu işlemin içeriği Satın Alma ve Kaynak Kullanımı parametreleri altında tanımlanır. Yanıt sayfalarının nasıl yazdırılacağını seçmek için Yazdırma iletişim kutusunu açtıktan sonra Gelişmiş yazdırma seçeneklerini tıklayın. Oluşturuldu veya Gönderildiği durumuna sahip satırlar içeren her bir satıcı için bir RFQ yazdırılır. İptal edilmiş satırlar ve kaydedilmiş yanıtların yer aldığı satırlar yazdırılmayacaktır.   
-3. İptal'e tıklayın.
-4. Tamam'a tıklayın.
+1. **Eylem bölmesi**'nde, **Gönder**'e tıklayın. Teklif talebi gönderiliyor sayfasında, listedeki satıcıların RFQ almasını istediğiniz satıcılarla aynı olduğunu kontrol edin.  
+2. **Yazdır**'ı tıklatın. Bu iletişim kutusu RFQ'yu yazdırmanıza olanak sağlar. Bir yanıt sayfasını yazdırmayı seçerseniz, bu işlemin içeriği Satın Alma ve Kaynak Kullanımı parametreleri altında tanımlanır. Yanıt sayfalarının nasıl yazdırılacağını seçmek için Yazdırma iletişim kutusunu açtıktan sonra Gelişmiş yazdırma seçeneklerini tıklayın. Oluşturuldu veya Gönderildiği durumuna sahip satırlar içeren her bir satıcı için bir RFQ yazdırılır. İptal edilmiş satırlar ve kaydedilmiş yanıtların yer aldığı satırlar yazdırılmayacaktır.   
+3. **İptal**'e tıklayın
+4. **Tamam**'a tıklayın.
 5. Sayfayı kapatın.
 6. Sayfayı kapatın.
 
 ## <a name="view-the-rfq-journal"></a>RFQ günlüğünü görüntüleme
-1. Tedarik ve kaynak atama > Teklif talepleri > Teklif talepleri takibi > Teklif talebi günlükleri öğesine gidin.
-2. Önizleme/Yazdır düğmesini tıklayın.
-3. Orijinal önizlemeyi tıklatın.
+1. **Tedarik ve kaynak atama > Teklif talepleri > Teklif talepleri takibi > Teklif talebi günlükleri** öğesine gidin.
+2. **Önizleme/Yazdır** düğmesine tıklayın.
+3. **Orijinal önizleme**'ye tıklayın.
 4. Sayfayı kapatın.
 5. Sayfayı kapatın.
 

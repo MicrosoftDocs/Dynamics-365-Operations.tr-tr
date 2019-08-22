@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 5ac47ee086569cdaaa3c30f76435432e64f8fac6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702784"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835154"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Alacak ve tahsilat yönetimi Power BI içeriği
 
@@ -72,4 +72,4 @@ The **CustCollectionsBICrossCompany** Power BI içeriği, bir dizi ölçümden o
 | Tahsilat durumu          | <ul><li>İhtilaflı</li><li>Ödeme taahhüdü yerine getirilmedi</li><li>Ödeme taahhüdü</li><li>Tahsilatların durum ayrıntıları</li><li>Tahsilatların durum tutarları</li><li>Açık servis talepleri</li><li>Açık faaliyetler</li></ul> |
 | Tahsilatlar mektupları         | <ul><li>Tahsilat kodu tutarları</li><li>Tahsilatlar kodu tutar ayrıntıları</li><li>Şirkete göre tahsilat mektubu tutarı</li><li>Müşteri grubuna göre tahsilat mektubu tutarı</li><li>Bölgeye göre tahsilat mektup tutarı</li></ul> |
 
-Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Altta yatan veriyi Dışa aktar işlevini de görselleştirmede özetlenen altta yatan veriyi dışa aktarmak için kullanabilirsiniz.
+Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Altta yatan veriyi Dışa aktar işlevini de görselleştirmede özetlenen altta yatan veriyi dışa aktarmak için kullanabilirsiniz.

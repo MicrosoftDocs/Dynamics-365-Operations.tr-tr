@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fbcdaa50a8f13247c13c1885cdb4ab7f5f39a47
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bbe1ccc90b215c35f44835b1307977c18927bd7e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552242"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743331"
 ---
 # <a name="create-service-orders-manually"></a>Servis siparişlerini el ile oluşturma    
 
@@ -100,5 +100,5 @@ Servis siparişlerini, bir servis sözleşmesi kullanarak veya **Servis sipariş
 
 [Servis siparişlerini otomatik olarak oluşturma](create-service-orders-automatically.md)
 
-[Servis siparişleri oluştur (sınıf formu)](https://technet.microsoft.com/en-us/library/aa553901\(v=ax.60\)) 
+[Servis siparişleri oluştur (sınıf formu)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 

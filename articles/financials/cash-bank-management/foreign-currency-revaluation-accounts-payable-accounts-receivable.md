@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14211
 ms.assetid: defb1ea5-1f3e-4859-87d8-3f9954d3f388
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da1aee4c678cb4786d52abc81b787edceaa5aa38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fb7a101fa9ef84ec3873bcd8054b8198db8d58c9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558377"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842461"
 ---
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Borç hesapları ve Alacak hesapları için yabancı para biriminde yeniden değerleme
 

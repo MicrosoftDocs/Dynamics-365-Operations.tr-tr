@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566122"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842005"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Teminat mektubu hareketi
 
@@ -61,7 +61,7 @@ Bu yordam, USMF demo şirketini kullanır.
 15. Talep edilen sevk tarihi alanına bir tarih girin.
 16. Teyit edilen sevk tarihi alanına bir tarih girin.
 
-## <a name="process-letter-of-guaranteerequest"></a>Teminat mektubu isteği işlemden geçirin.
+## <a name="process-letter-of-guarantee_request"></a>Teminat mektubu isteği işlemden geçirin.
 1. Eylem Bölmesinde, Yönet'i tıklatın.
 2. Teminat mektubuna tıklayın.
 3. Eylem bölmesinde, teminat mektubuna tıklayın.
@@ -73,7 +73,7 @@ Bu yordam, USMF demo şirketini kullanır.
 9. Tamam'a tıklayın.
 10. Sayfayı kapatın.
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>Teminat mektubunu bankaya işleyin bankaya gönderin
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>Teminat mektubunu bankaya işleyin bankaya gönderin
 1. Nakit ve Banka yönetimi > Teminat mektupları > Teminat mektupları seçeneğine gidin.
 2. Listede, istenen kaydı bulun ve seçin.
 3. Bankaya gönder kutusunu açmak için tıklayın.
@@ -81,7 +81,7 @@ Bu yordam, USMF demo şirketini kullanır.
 5. Listede, seçili satırdaki bağlantıya tıklayın.
 6. Tamam'a tıklayın.
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>Bankadan teminat mektubunu alın işleyin
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>Bankadan teminat mektubunu alın işleyin
 1. Bankadan al kutusunu açmak için tıklayın.
 2. Banka numarası alanına alanına bir değer girin.
     * Hesaplanan marj ve gider alanları doğrulayın.  
@@ -93,7 +93,7 @@ Bu yordam, USMF demo şirketini kullanır.
     * Günlük girişlerinin kaydını doğrulayın.  
 7. Sayfayı kapatın.
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>Teminat mektubu lehtara vermeyi işleyin
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>Teminat mektubu lehtara vermeyi işleyin
 1. Alacak hesapları > Siparişler > Tüm satış siparişleri'ne gidin.
 2. Listede, seçili satırdaki bağlantıya tıklayın.
 3. Eylem Bölmesinde, Yönet'i tıklatın.
@@ -108,7 +108,7 @@ Bu yordam, USMF demo şirketini kullanır.
 12. Eylemler bölümünü genişletin.
     * 'Lehtara ver' kaydını doğrulayın.  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>Teminat mektubunun değerini artırmayı işleyin
+## <a name="process-letter-of-guarantee_increase-value"></a>Teminat mektubunun değerini artırmayı işleyin
 1. Alacak hesapları > Siparişler > Tüm satış siparişleri'ne gidin.
 2. Listede, seçili satırdaki bağlantıya tıklayın.
 3. Eylem Bölmesinde, Yönet'i tıklatın.
@@ -128,7 +128,7 @@ Bu yordam, USMF demo şirketini kullanır.
 16. Satırlar seçeneğine tıklayın.
     * Mevcut günlük girişlerinin kaydını doğrulayın.  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>Teminat mektubunu nakde çevirmeyi işleyin
+## <a name="process-letter-of-guarantee_liquidate"></a>Teminat mektubunu nakde çevirmeyi işleyin
 1. Alacak hesapları > Siparişler > Tüm satış siparişleri'ne gidin.
 2. Listede, seçili satırdaki bağlantıya tıklayın.
 3. Eylem Bölmesinde, Yönet'i tıklatın.

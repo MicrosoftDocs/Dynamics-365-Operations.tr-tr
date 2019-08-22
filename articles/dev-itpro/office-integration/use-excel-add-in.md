@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85cb5c5618346f1e5132f818911be21df86fbfcb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555002"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741122"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme
 
@@ -60,7 +60,7 @@ Excel eklentisi, seçtiğiniz varlıkla ilgili verileri otomatik olarak okur. Ex
 
 6. **Tamam**'ı ve ardından **Evet**'i seçerek değişikliği onaylayın. Excel eklentisi yeniden başlar ve meta verileri yükler.
 
-    **Tasarım** düğmesi kullanılabilir hale gelir. Excel eklentisinde bir **Uygulamaları yükle** düğmesi varsa, büyük olasılıkla doğru kullanıcı olarak oturum açmamışsınızdır. Daha fazla bilgi için bu konunun [Sorun giderme](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) bölümündeki "Uygulamaları yükle düğmesi görünüyor" konusuna bakın.
+    **Tasarım** düğmesi kullanılabilir hale gelir. Excel eklentisinde bir **Uygulamaları yükle** düğmesi varsa, büyük olasılıkla doğru kullanıcı olarak oturum açmamışsınızdır. Daha fazla bilgi için bu konunun [Sorun giderme](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) bölümündeki "Uygulamaları yükle düğmesi görünüyor" konusuna bakın.
 
 7. **Tasarım**'ı seçin. Excel eklentisi varlık meta verilerini alır.
 8. **Tablo ekle**'yi seçin. Varlıkların listesi görüntülenir. Varlıklar "Ad - Etiket" biçiminde listelenir.

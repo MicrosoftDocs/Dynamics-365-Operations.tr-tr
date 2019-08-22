@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4da0b965f3719bc16b5a73538df111ff6df071be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b4d347556d25831bb3f9175e8606e0b41d98bdd8
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555398"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743268"
 ---
 # <a name="service-orders"></a>Servis siparişleri   
 
@@ -76,7 +76,7 @@ Söz konusu işin iptal edilmesi nedeniyle, Ocak ayı için oluşturulan diğer 
 
 ## <a name="post-from-projects"></a>Projelerden deftere nakletme
 
-Her haftanın sonunda, dağıtıcı belirli bir projeye iliştirilmiş tüm servis siparişlerini deftere nakletmek ister. Bu nedenle, dağıtıcı **Projeler** formunda ilgili projeyi bulur ve tamamlanan servis siparişlerini deftere nakleder. Daha fazla bilgi için bkz. [Servis siparişlerini deftere nakletme (sınıf formu)](https://technet.microsoft.com/en-us/library/aa574685\(v=ax.60\)).
+Her haftanın sonunda, dağıtıcı belirli bir projeye iliştirilmiş tüm servis siparişlerini deftere nakletmek ister. Bu nedenle, dağıtıcı **Projeler** formunda ilgili projeyi bulur ve tamamlanan servis siparişlerini deftere nakleder. Daha fazla bilgi için bkz. [Servis siparişlerini deftere nakletme (sınıf formu)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Servis siparişlerini sil
 
@@ -84,7 +84,7 @@ Yılın ikinci yarısında müşteriniz servis ziyaretlerinin çok az sıklıkta
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Servis siparişleri (form)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))
+[Servis siparişleri (form)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))
 
   
 

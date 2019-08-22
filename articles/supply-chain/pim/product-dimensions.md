@@ -3,7 +3,7 @@ title: Ürün boyutları
 description: Dört ürün boyutu bulunur - Renk, Yapılandırma, Boyut ve Stil. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccb9d47bf6f081dbcc9590bddd4516cf7385ec23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3391679696c0e1dd84840821480ccbfb544829a6
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563586"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863048"
 ---
 # <a name="product-dimensions"></a>Ürün boyutları
 
@@ -35,8 +35,8 @@ ms.locfileid: "1563586"
 Dört ürün boyutu bulunur - Renk, Yapılandırma, Boyut ve Stil. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler.
 
 Ürün boyutları, ürün varyantı tanımlamaya hizmet eden özelliklerdir. Ürün boyutlarının birleşimleri, ürün varyantları tanımlamak için kullanabilirsiniz. Bir ürün varyantı oluşturmak için bir ana ürüne en az bir ürün boyutu tanımlamanız gerekir.
-Ürün çeşitleri
-----------------
+
+## <a name="product-variants"></a>Ürün çeşitleri
 
 Ürün varyantlarına maddeler de denilir. Bir madde bir hizmetten farklı olarak somut bir üründür. Hizmet türüyle bir ana ürün tanımlamak da mümkündür. Hizmet türü kullanarak hizmetleri içerecek ürün varyantları belirtebilirsiniz. Örneğin, Danışmanlık işi için bir ana ürün ve üst düzey danışmanlar ve alt düzey danışmanlar tarafından gerçekleştirilen iş için ürün varyantları belirtebilirsiniz.
 

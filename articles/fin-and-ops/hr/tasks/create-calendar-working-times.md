@@ -1,9 +1,9 @@
 ---
-title: Takvim yaratma ve çalışma zamanları oluşturma
-description: Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar.
+title: Takvimler ve çalışma zamanları oluşturma
+description: Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar. Bu konuda bir çalışma saati şablonunu temel alan bir iş takvimi tanımlama işlemi açıklanmaktadır.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,36 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba4bd51d2102b3036307f34ab46f94f83df4f461
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 50b81ae228d9aee4111ce8d161508d5ed1af4f27
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1510140"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1739008"
 ---
 # <a name="create-calendar-and-generate-working-times"></a>Takvim yaratma ve çalışma zamanları oluşturma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar. Bu yordam, bir çalışma saati şablonunu temel alan bir iş takvimi tanımlamanıza yardımcı olur. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.
+Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar. Bu konuda bir çalışma saati şablonunu temel alan bir iş takvimi tanımlama işlemi açıklanmaktadır. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.
 
-1. Tüm çalışma alanları > Kaynak yaşam döngüsü yönetimi'ne gidin.
-2. Takvimler'i tıklatın.
-3. Yeni'ye tıklayın.
-4. Takvim alanına bir değer yazın.
-    * Bu, bir işlemler kaynağına veya kaynak grubuna takvim atarken referans olarak kullanılan takvimin kodudur.  
-5. İsim alanına bir değer yazın.
-6. Saat alanında Standart iş gününde bir sayı girin.
-7. Listede, seçili satırı işaretleyin.
-8. Çalışma zamanları'nı tıklatın.
-9. Çalışma zamanları oluştur'u tıklatın.
-    * İş planlaması yapabilmek istediğiniz dönem içindeki her bir gün için çalışma saatleri oluşturun. Zaman geçtikçe, ek dönemler için çalışma zamanları oluşturabilirsiniz.  
-10. Başlangıç tarihi alanına bir tarih girin.
-    * Bu, takvimin açılması gereken ilk gündür.  
-11. Bitiş tarihi alanına bir tarih girin.
-    * Bu, takvimin açılacağı son gündür.  
-12. Çalışma zamanı şablonu alanında bir değer girin veya bir değer seçin.
-    * Çalışma zamanı şablonu, haftanın her günü için çalışma saatlerini tanımlar.  
-13. Tamam'a tıklayın.
-14. Sayfayı kapatın.
+1. Giriş sayfasında, **Kaynak yaşam döngüsü yönetimi**'ni seçin.
+2. **Takvimler**'i seçin.
+3. **Yeni**'yi seçin.
+4. **Takvim** alanında takviminizi sınıflandırın. Bu, bir işlemler kaynağına veya kaynak grubuna takvim atarken referans olarak kullanılan takvimin kodudur.  
+5. **Ad** alanında, takviminizi adlandırın.
+6. **Saat cinsinden standart çalışma günü** alanında bir sayı girin.
+7. Satırın seçili olduğundan emin olun. Ardından Eylem Bölmesi'nden **Çalışma zamanları**'nı seçin.
+8. **Çalışma zamanları oluştur**'u seçin. İş planlaması yapabilmek istediğiniz dönem içindeki her bir gün için çalışma saatleri oluşturun. Zaman geçtikçe, ek dönemler için çalışma zamanları oluşturabilirsiniz.  
+9. **Başlangıç tarihi** alanına bir tarih girin. Bu, takvimin açılması gereken ilk gündür.  
+10. **Bitiş tarihi alanına** bir tarih girin. Bu, takvimin açılacağı son gündür.  
+11. **Çalışma zamanı şablonu** alanına bir değer girin veya bir değer seçin. Çalışma zamanı şablonu, haftanın her günü için çalışma saatlerini tanımlar.  
+12. **Tamam**'ı seçin.
+13. Sayfayı kapatın.
 

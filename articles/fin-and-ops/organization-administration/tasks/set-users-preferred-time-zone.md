@@ -1,9 +1,9 @@
 ---
-title: Bir kullanıcının tercih edilen zaman dilimini ayarlama
-description: Aşağıdaki yordamda Sistem Yöneticisi rolüne sahip olan kullanıcının, bir kullanıcı için saat dilimini nasıl ayarlayacağı açıklanır.
+title: Kullanıcının tercih edilen saat dilimini ayarlama
+description: Bu konuda Sistem Yöneticisi rolündeki kullanıcının, bir kullanıcı için saat dilimini nasıl ayarlayacağı açıklanmaktadır.
 author: pvillads
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5eac00d5054296921c3f22004f8c8e710727afc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d6dc521fe4fc7ea901c882abad47d5fc899e0326
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560533"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1738823"
 ---
-# <a name="set-a-users-preferred-time-zone"></a>Bir kullanıcının tercih edilen zaman dilimini ayarlama
+# <a name="set-a-users-preferred-time-zone"></a>Kullanıcının tercih edilen saat dilimini ayarlama
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Aşağıdaki yordamda Sistem Yöneticisi rolüne sahip olan kullanıcının, bir kullanıcı için saat dilimini nasıl ayarlayacağı açıklanır.
+Aşağıdaki konuda Sistem Yöneticisi rolüne sahip olan kullanıcının, bir kullanıcı için saat dilimini nasıl ayarlayacağı açıklanmaktadır.
 
-1. Sistem Yönetimi > Kullanıcılar > Kullanıcılar'a git.
+1. **Gezinti bölmesi > Modüller > Sistem yönetimi > Kullanıcılar > Kullanıcılar**'a gidin.
 2. Listede, istenen kaydı bulun ve seçin.
-3. Listede, seçili satırdaki bağlantıya tıklayın.
-4. Kullanıcı seçenekleri'ni tıklatın.
-5. Tercihler sekmesini tıklatın.
-6. Saat dilimi alanında bir seçenek belirleyin.
-7. Kaydet'e tıklayın.
+3. **Kıllanıcı seçenekleri**'ni seçin.
+4. **Tercihler** sekmesini seçin.
+5. **Saat dili** alanında, açılır listeden bir seçenek belirleyin.
+6. **Kaydet**'i seçin.
 

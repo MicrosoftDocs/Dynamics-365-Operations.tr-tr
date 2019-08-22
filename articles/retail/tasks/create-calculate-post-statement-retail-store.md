@@ -1,6 +1,6 @@
 ---
-title: " Perakende mağazasına yönelik bir ekstre oluşturma, hesaplama ve deftere nakletme"
-description: Bu yordam bir mağaza için el ile ekstre oluşturma, hesaplama ve deftere nakletme adımlarını açıklar.
+title: Perakende mağazasına yönelik ekstreler oluşturma, hesaplama ve deftere nakletme
+description: Bu konuda bir mağaza için el ile ekstre oluşturma, hesaplama ve deftere nakletme adımları açıklanmaktadır.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,34 +17,34 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 693d1821779d5f7af95b900daa3bb7a2c38a6354
+ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548336"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755535"
 ---
-# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Perakende mağazasına yönelik bir ekstre oluşturma, hesaplama ve deftere nakletme
+# <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Perakende mağazasına yönelik ekstreler oluşturma, hesaplama ve deftere nakletme
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Bu yordam bir mağaza için el ile ekstre oluşturma, hesaplama ve deftere nakletme adımlarını açıklar. Aynı görevler için yapılandırılabilecek toplu işler de vardır. Toplu işleri yapılandırma ve çalıştırmayla ilgili adımlar diğer konularda bulunabilir. Bu yordamı tamamlamak için POS'ta tamamlanan ve ardından Dynamics AX uygulamasına çekilen hareketleriniz olmalıdır. Bu kayıt USRT demo veri şirketini kullanır. Bu yordam Microsoft Dynamics AX'e başvurabilir. Dynamics AX'in artık Microsoft Dynamics 365 for Operations olarak adlandırıldığını unutmayın.
+Bu konuda bir mağaza için el ile ekstre oluşturma, hesaplama ve deftere nakletme adımları açıklanmaktadır. Aynı görevler için yapılandırılabilecek toplu işler de vardır. Toplu işleri yapılandırma ve çalıştırmayla ilgili adımlar diğer konularda bulunabilir. Bu yordamı tamamlamak için POS'ta tamamlanan ve ardından Dynamics 365 for Finance and Operations uygulamasına çekilen hareketleriniz olmalıdır. Bu kayıt USRT demo veri şirketini kullanır.
 
-1. Tüm çalışma alanları > .. > Perakende mağazası mali öğeleri'ne gidin.
-2. Yeni ekstre'ye tıklayın.
-3. Mağaza numarası alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-4. Listede, seçili satırdaki bağlantıya tıklayın.
-5. Tamam'a tıklayın.
-    * Kurulum grubunda, ekstreye hangi hareketlerin dahil edileceğini ve bunların ekstre satırlarında nasıl gruplandırılacağını denetleyen ayarlar bulunur. Kurulum grubunu açarak bu ayarları değiştirebilir veya varsayılanları kullanabilirsiniz.  
-    * Ekstre yöntemi alanı ekstre satırlarının nasıl gruplandırılacağını belirtir.  
-    * Ekstreyi yalnızca belirli bir personel üyesi ya da kayıt için hesaplamak istiyorsanız bir personel üyesi veya kayıt seçin.  
-6. Kapanış yöntemi alanında bir seçenek seçin.
-7. Ekstreyi hesapla'ya tıklayın.
-8. Evet'i tıklatın.
-    * Ekstreyi hesaplandıktan sonra, kullanılan her ödeme ve ekstre yöntemi için toplam tutarları içeren satırlar oluşturulmalıdır.  
-    * Girilmesi veya güncelleştirilmesi gerekiyorsa her satıra sayılmış bir tutar girin. Sayılan alanı POS'ta yapılan kasa sayımlarından alınan tutarlarla doldurulur.  
-9. Ekstreyi deftere naklet'e tıklayın.
-10. Kapat’a tıklayın.
-11. Perakende ve ticaret > Kanallar > Perakende mağaza finansmanları'na gidin.
-12. Deftere nakledilen ekstreler sekmesine tıklayın.
+1. Giriş sayfasından **Perakende mağaza finansmanları**'nı seçin.
+2. **Yeni ekstre**'yi seçin.
+3. **Mağaza numarası** alanında, açılır menüden bir seçenek belirleyin.
+4. **Tamam**'ı seçin.
+5. **Kurulum** grubunda, ekstreye hangi hareketlerin dahil edileceğini ve bunların ekstre satırlarında nasıl gruplandırılacağını denetleyen ayarlar bulunur. **Kurulum** grubunu açarak bu ayarları değiştirebilir veya varsayılanları kullanabilirsiniz.  
+    - **Ekstre yöntemi** alanı ekstre satırlarının nasıl gruplandırılacağını belirtir.  
+    - Personel üyesi seçin veya ekstreyi yalnızca belirli bir personel için hesaplamak veya kaydetmek isterseniz **personel/kayıt** alanından kayıt yapın.  
+6. **Kapanış yöntemi** alanında bir seçenek belirleyin.
+7. Eylem bölmesinden **Ekstre hesapla**'yı seçin.
+8. **Evet**'i seçin.
+    - Ekstreyi hesaplandıktan sonra, kullanılan her ödeme ve ekstre yöntemi için toplam tutarları içeren satırlar oluşturulmalıdır.  
+    - Girilmesi veya güncelleştirilmesi gerekiyorsa her satıra sayılmış bir tutar girin. Sayılan alanı POS'ta yapılan kasa sayımlarından alınan tutarlarla doldurulur.  
+9. Eylem bölmesinden **Ekstreyi deftere naklet**'i seçin.
+10. **Kapat**'ı seçin.
+11. Bölmeyi kapatın.
+12. Giriş sayfasından **Perakende mağaza finansmanları**'nı seçin.
+13. **Deftere nakledilen ekstreler** sekmesini seçin.
 

@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2e13b43812e0d6f8b50cb3fcf65f277afbe9e806
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552873"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849775"
 ---
 # <a name="employee-development-power-bi-content"></a>Personel gelişimi Power BI içeriği
 
@@ -41,7 +41,7 @@ Bu konu, **Personel gelişimi** Microsoft Power BI içeriğini açıklar.
 | Performans Derecelendirme Analizi   | İşe göre en yüksek ve en düşük dereceli personeller, bölüme göre personel derecelendirmeleri, derecelendirme ve pozisyon türüne göre ve en yüksek ve en düşük pozisyonlara göre personeller |
 | Personel Performans Analizi | Yöneticiye göre seçili derecelendirme için personel derecelendirmeleri |
 
-Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve Yapılandırma](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 

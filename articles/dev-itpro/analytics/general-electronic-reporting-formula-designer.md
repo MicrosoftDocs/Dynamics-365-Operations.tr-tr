@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
-ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
+ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625884"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849521"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
@@ -215,12 +215,12 @@ Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kulla
 | TODAY () | Geçerli Finance and Operations uygulama sunucusu tarih ve saatini bir tarih değeri olarak döndürür. | |
 | NULLDATE () | Bir **null** tarih değeri döndür. | |
 | NULLDATETIME () | Bir **boş** tarih/saat değeri döndürür. | |
-| DATETIMEFORMAT (datetime, biçim) | Belirtilen tarih/saat değerini belirtilen bir biçimdeki dizeye dönüştürür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** Aralık 24, 2015 olan Finance and Operations uygulama sunucusu tarihini belirtilen özel biçimi temel alarak **"24-12-2015"** olarak döndürür. |
-| DATETIMEFORMAT (datetime, biçim, kültür) | Belirtilen tarih/saat değerini ve [kültürü](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) belirtilen bir biçimdeki dizeye dönüştürür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** Aralık 24, 2015 olan geçerli Finance and Operations uygulama sunucusu tarihini seçilen Alman kültürünü temel alarak **"24.12.2015"** olarak döndürür. |
+| DATETIMEFORMAT (datetime, biçim) | Belirtilen tarih/saat değerini belirtilen bir biçimdeki dizeye dönüştürür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** Aralık 24, 2015 olan Finance and Operations uygulama sunucusu tarihini belirtilen özel biçimi temel alarak **"24-12-2015"** olarak döndürür. |
+| DATETIMEFORMAT (datetime, biçim, kültür) | Belirtilen tarih/saat değerini ve [kültürü](https://msdn.microsoft.com/goglobal/bb896001.aspx) belirtilen bir biçimdeki dizeye dönüştürür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** Aralık 24, 2015 olan geçerli Finance and Operations uygulama sunucusu tarihini seçilen Alman kültürünü temel alarak **"24.12.2015"** olarak döndürür. |
 | SESSIONTODAY () | Geçerli Finance and Operations oturumu tarih ve saatini bir tarih değeri olarak döndürür. | |
 | SESSIONNOW () | Geçerli Finance and Operations oturum tarihi ve saatini bir tarih/saat değeri olarak döndürür. | |
 | DATEFORMAT (tarih, biçim) | Belirtilen tarihin, belirtilen biçimdeki dize olarak temsilini döndür. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** Aralık 24, 2015 olan Finance and Operations oturum tarihini belirtilen özel biçimi temel alarak **"24-12-2015"** olarak döndürür. |
-| DATEFORMAT (tarih, biçim, kültür) | Belirtilen tarih değerini, belirtilen biçimde ve [kültür](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)'de bir dizeye dönüştürür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** Aralık 24, 2015 olan geçerli Finance and Operations oturumu tarihini seçilen Alman kültürünü temel alarak **"24.12.2015"** olarak döndürür. |
+| DATEFORMAT (tarih, biçim, kültür) | Belirtilen tarih değerini, belirtilen biçimde ve [kültür](https://msdn.microsoft.com/goglobal/bb896001.aspx)'de bir dizeye dönüştürür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** Aralık 24, 2015 olan geçerli Finance and Operations oturumu tarihini seçilen Alman kültürünü temel alarak **"24.12.2015"** olarak döndürür. |
 | DAYOFYEAR (tarih) | Ocak 1 ve belirtilen tarih arasındaki günlerin sayısının bir tamsayı temsilini döndürür. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** **61** döndürür. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** **1** döndürür. |
 | GÜN (tarih 1, tarih 2) | İlk belirtilen tarih ile ikinci belirtilen tarih arasındaki gün sayısını döndürür. İlk tarih ikinci tarihten sonra olduğunda pozitif bir değer döndürür; ilk tarih ikinci tarihle aynı olduğunda **0** (sıfır) değerini döndürür veya ilk tarih ikinci tarihten önceyse, negatif değer döndürür. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** **-1** döndürür. |
 
@@ -649,12 +649,12 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </tr>
 <tr>
 <td>NUMBERFORMAT (sayı, biçim)</td>
-<td>Belirtilen sayının, belirtilen biçimdeki dize olarak temsilini döndür. (Desteklenen biçimler hakkında bilgi için bkz. <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">standart</a> ve <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">özel</a>.) Bu işlevin çalıştırıldığı bağlam, sayıları biçimlendirmek için kullanılan kültürü belirler.</td>
+<td>Belirtilen sayının, belirtilen biçimdeki dize olarak temsilini döndür. (Desteklenen biçimler hakkında bilgi için bkz. <a href="https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx">standart</a> ve <a href="https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx">özel</a>.) Bu işlevin çalıştırıldığı bağlam, sayıları biçimlendirmek için kullanılan kültürü belirler.</td>
 <td>TR-TR kültürü için <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong>, <strong>&quot;45,00&quot;</strong> döndürür. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong>, <strong>&quot;10&quot;</strong> döndürür.</td>
 </tr>
 <tr>
 <td>NUMBERFORMAT (sayı, biçim, kültür)</td>
-<td>Belirtilen sayının, belirtilen saıtr ve kültürdeki tarih/saat olarak temsilini döndür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">standart</a> ve <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">özel</a>.).</td>
+<td>Belirtilen sayının, belirtilen saıtr ve kültürdeki tarih/saat olarak temsilini döndür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. <a href="https://docs.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings">standart</a> ve <a href="https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings">özel</a>.).</td>
 <td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> <strong>3,33</strong> iade edilirken <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> <strong>3.33</strong> iade ediliyor.</td>
 </tr>
 <tr>

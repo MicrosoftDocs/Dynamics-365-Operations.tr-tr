@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46ba6322f2cea7828033c214502accdf73f073be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1d040f9495c7fb36985b5f96c15ac43aa226da24
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543876"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841333"
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>Maliyet dağıtım ilkesi oluşturma ve bir maliyet kontrol birimine atama
 

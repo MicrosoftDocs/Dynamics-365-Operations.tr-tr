@@ -3,7 +3,7 @@ title: Özellik yönetimine genel bakış
 description: Bu konu Özellik Yönetimi özelliğini ve nasıl kullanabileceğinizi açıklar.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/14/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1632065"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862950"
 ---
 # <a name="feature-management-overview"></a>Özellik yönetimine genel bakış
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Özellikler, Microsoft Dynamics 365 for Finance and Operations'ın her sürümünde eklenir ve güncelleştirilir. Özellik yönetimi deneyimi, her sürümde teslim edilen özelliklerin listesini görüntüleyebileceğiniz bir çalışma alanı sağlar. Varsayılan olarak, bu özellikler kapalıdır. Çalışma alanını, bu özellikleri açıp ilgili belgelere bakmak için kullanabilirsiniz.
 
@@ -38,7 +39,7 @@ Panoda uygun kutucuğu seçerek **Özellik yönetimi** çalışma alanını aça
 Özellik listesi sekmesi aşağıdaki bilgileri içerir:
 
 - **Özellik adı** – Eklenen özelliğin açıklaması.
-- **Etkin durum** – Bir sembol, bir özelliğin etkinleştirildiğini (onay işareti), etkinleştirilmediğini (boş), etkinleştirilmek üzere zamanlandığını (saat) veya zorunlu olarak etkinleştirildiğini (kilit) gösterir. Burada gösterilen ayar tüm tüzel kişilikler için kullanılır. Bir özellik açılsa bile hala güvenlik tarafından denetlendiğini unutmayın. Bu nedenle özellik güvenlik rolüne göre yalnızca erişimi olan kullanıcılar tarafından kullanılabilir. Ayrıca, yalnızca kullanıcının erişebileceği tüzel kişilikler için de kullanılabilir.
+- **Etkin durum** – Bir sembol, bir özelliğin etkinleştirildiğini (onay işareti), etkinleştirilmediğini (boş), etkinleştirilmek üzere zamanlandığını (saat) veya zorunlu olarak etkinleştirildiğini (kilit) gösterir, zorunlu olarak açıldığınında (uyarı) ya da etkinleştirilemediğinde (X) dikkat etmeniz gerekir. Gösterilen ayar tüm tüzel kişilikler için kullanılır. Bir özellik açılsa bile hala güvenlik tarafından denetlendiğini unutmayın. Bu nedenle özellik güvenlik rolüne göre yalnızca erişimi olan kullanıcılar tarafından kullanılabilir. Ayrıca, yalnızca kullanıcının erişebileceği tüzel kişilikler için de kullanılabilir.
 - **Etkinleştirme tarihi** – Özelliğin açıldığı veya açık olarak planlandığı tarih.
 - **Özellik eklendi** – Özelliğin ortamınıza eklendiği tarih. Bu tarih, aylık sürüm döngüleri sırasında ortamınızı güncelleştirdiğinizde otomatik olarak girilir.
 - **Modül** – Yeni özellikten etkilenen modül.
@@ -59,6 +60,10 @@ Bir özellik etkinleştirilmemişse, ayrıntılar bölmesinde **Şimdi Etkinleş
 - Açmak istediğiniz özelliği seçin, daha sonra ayrıntılar bölmesinde **Şimdi Etkinleştir**'i seçin. Özellik açık.
 
 Açtıktan sonra bazı özellikler kapatılamaz. Açmaya çalıştığınız bir özellik kapatılamıyorsa, bir uyarı alırsınız. Bu aşamada, işlemi iptal etmek ve özelliği kapatmak için **İptal**'i seçebilirsiniz. Ancak, **Etkinleştir**'i seçip özelliği açarsanız daha sonra kapatamazsınız.
+
+Bazı özellikler, açmadan önce ek bilgi sağlayan bir ileti görüntüler. Bu özellikler sarı bir uyarı sembolüyle belirtilir. Özellik etkinleştirildiğinde neler olacağını daha iyi anlamak için ek bilgileri dikkatle okumanızı gerekir. Ancak, yine de özelliği açmak için **Etkinleştir** seçeneğini seçebilirsiniz.
+
+Bazı özellikler, bir eylem alınıncaya kadar özelliğin etkinleştirilmediğini gösteren bir ileti görüntüler. Bu özellikler kırmızı X sembolüyle belirtilir. Özellik etkinleştirilmeden önce açıklama kısmında açıklanan eylemleri gerçekleştirmelisiniz. Örneğin, bir yapılandırma anahtarı devre dışı bırakılıncaya kadar bir özelliği kullanamazsını, önce yapılandırma anahtarını devre dışı bırakmanız ve ardından özelliği etkinleştirmek için özellik yönetimine geri dönmelisiniz.
 
 Özellik açıldıktan sonra, ayrıntılar bölmesindeki **Daha fazla bilgi edinin** bağlantısının altında bir ileti görüntülenir. Bu mesaj, özelliğin açıldığını veya özelliğin gelecekteki bir zamanda açılmak üzere zamanladığını belirtir. İleti, özellik listesinde özelliği her seçtiğinizde görüntülenecektir.
 
@@ -84,12 +89,28 @@ Bir özellik açıksa, ayrıntılar bölmesinde **Devre dışı bırak** düğme
 
 Bazen, güncelleştirme yaptığınızda otomatik olarak açılması gereken kritik bir özellik sunulabilir. Bu özellikler, **Etkinleştirme tarihi** alanında belirtilen tarihte otomatik olarak açılır. Bu özellikler için, ayrıntılar bölmesindeki **Daha fazla bilgi edinin** bağlantısının altında bir ileti görüntülenir. Bu mesaj, özelliğin açıldığını veya özelliğin gelecekteki bir zamanda açılacağını belirtir. İleti, özellik listesinde özelliği her seçtiğinizde görüntülenecektir.
 
+## <a name="enable-all-features"></a>Tüm özellikleri etkinleştir
+
+Varsayılan olarak, çalışma ortamınıza eklenen tüm özellikler kapalıdır. **Tümünü Etkinleştir** düğmesini seçerek tüm özellikleri etkinleştirebilirsiniz. 
+
+**Tümünü etkinleştir**'i seçtiğinizde, aşağıdaki bilgileri sağlamanız gereken yerde bir seçenek görünecektir:
+- Etkinleştirilmeden önce onay gerektiren tüm özelliklerin listesi. Listedeki özellikleri etkinleştirmek istiyorsanız **Onay gerektiren özellikleri etkinleştir** düğmesi için **Evet**'i seçin.
+- Etkinleştirilemeyen özellilkerin listesi gösterilecektir. Bu özellikler etkinleştirilmez.
+
+Etkinleştirilebilir tüm özellikler etkinleştirilecektir. Bir özellik gelecekte etkinleştirilmek üzere planlandıysa plan değişmeyecektir. 
+
 ## <a name="turn-on-all-features-automatically"></a>Tüm özellikleri otomatik olarak aç
 
 Varsayılan olarak, çalışma ortamınıza eklenen tüm özellikler zorunlu özellikler olmadıkça kapalıdır. Ancak, tüm yeni özellikleri otomatik olarak etkinleştirmek istiyorsanız, yeni özellikler eklendiğinde neler olacağını değiştirmek için çalışma alanı başlığının altındaki açılan listeyi kullanabilirsiniz.
 
 - **Tüm yeni özellikler, varsayılan olarak etkinleştirilecektir**'i seçerek ortamınıza eklenen tüm yeni özelliklerin otomatik açılmasını sağlayın.
 - **Tüm yeni özellikler, varsayılan olarak devre dışı olacaktır**'i seçerek ortamınıza eklenen tüm yeni özelliklerin otomatik kapatılmasını sağlayın.
+
+Tüm özelliği otomatik olarak etkinleştirdiğinizde, **Tümünü Etkinleştir** düğmesini tıkladığınızda etkinleştirilecek tüm özellikleri etkinleştirir. Bu, onay gerektiren özellikleri veya bir eylem alınıncaya kadar etkinleştirilemez özellikleri etkinleştirmez.
+
+## <a name="check-for-updates"></a>Güncelleştirmeleri denetle
+
+Özellikler, her günceştirmeden sonra ortamınıza eklenir. Ancak, **Güncelleştirmeleri denetle** düğmesine tıklayarak güncelleştirmeleri el ile denetleyebilirsiniz. Güncelleştirme sonra sisteme eklenen herhangi bir özellik, özellikler listesine eklenecektir. Örneğin, bir sürümden sonra kesintisiz bir özellik etkinse güncellemeleri kontrol edebilirsiniz ve özellik listenize eklenir.
 
 ## <a name="assigning-roles"></a>Rolleri atama
 

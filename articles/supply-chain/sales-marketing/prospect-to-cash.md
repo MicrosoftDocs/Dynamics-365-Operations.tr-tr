@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b46ece384a28f8e78989253fcf467fbf3feaf1b7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e31994ea3cd73dcc749a02ce2cd0815be191a567
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554633"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742413"
 ---
 # <a name="prospect-to-cash"></a>Müşteri adayından nakde
 
@@ -81,4 +81,4 @@ Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir
 Müşteri adayından nakde çözümünü kullanmak için aşağıdaki bileşenleri yüklemeniz gerekir:
 
 - Dynamics 365 for Sales sürüm 1612 (8.2.1.207) (DB 8.2.1.207) çevrimiçi veya sonraki bir sürüm
-- Dynamics 365 for Sales, sürüm 1.15.0.0 veya sonraki sürüm için Aday'dan nakite çözüm. Çözüm AppSource'tan indirilebilir. [Download Dynamics 365, Aday Müşteriden Nakde](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+- Dynamics 365 for Sales, sürüm 1.15.0.0 veya sonraki sürüm için Aday'dan nakite çözüm. Çözüm AppSource'tan indirilebilir. [Download Dynamics 365, Aday Müşteriden Nakde](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).

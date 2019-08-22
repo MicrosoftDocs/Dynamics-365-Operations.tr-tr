@@ -3,14 +3,14 @@ title: Satıcı faturalarına genel bakış
 description: Bu konuda, satıcı faturaları hakkında genel bilgiler verilmektedir. Satıcı faturaları, alınan ürün ve hizmetler için ödeme talepleridir. Satıcı faturaları, devam eden hizmetler için bir faturayı temsil edebileceği gibi, belirli madde ve hizmetler için satınalma siparişlerine de dayanabilir.
 author: abruer
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
-ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
+ms.openlocfilehash: c69291214796847af7169cf261865860998f0d27
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625091"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863335"
 ---
 # <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
 
 [!include [banner](../includes/banner.md)]
-
+[!include [banner](../includes/preview-banner.md)]
 
 Bu konuda, satıcı faturaları hakkında genel bilgiler verilmektedir. Satıcı faturaları, alınan ürün ve hizmetler için ödeme talepleridir. Satıcı faturaları, devam eden hizmetler için bir faturayı temsil edebileceği gibi, belirli madde ve hizmetler için satınalma siparişlerine de dayanabilir.
 
@@ -90,6 +90,13 @@ Bir satıcı faturası kullanımdayken başka bir kullanıcı tarafından düzen
 **Satıcı faturalarını kurtar** sayfasını kullanarak dört saatten uzun süredir kullanımda olan satıcı faturalarını kurtarabilir veya serbest bırakabilirsiniz, böylece düzenlenebilirler. Bu sayfayı **Periyodik görev** gezintisinden veya **Satıcı fatura girişi** çalışma alanındaki bir kutucuktan açabilirsiniz. Bir fatura kurtarıldıktan sonra, **Satıcı faturası** sayfasında düzenlenmeye hazır olacaktır.
 
 **Satıcı faturalarını kurtar** sayfasına yalnızca **Kullanımdaki satıcı faturalarını kurtar** güvenlik ayrıcalığı size atanmışsa erişebilirsiniz. Ek olarak, **Satıcı faturası kurtarılmasına izin ver** parametresi, **Borç hesapları parametreleri** sayfasında açık olmalıdır.
+
+## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Satıcı faturalarının iş akışı durumu düzeltilemez durumundan taslakta sıfırlanıyor
+
+Kurtarılamayan bir hata nedeniyle durdurulan bir iş akışı örneği, iş akışı durumu **Düzeltilemez**olacaktır. Satıcı faturası iş akışının durumu **Kurtarılamaz** ise **Geri çağır**'ı seçerek bunu **Taslak** olarak sıfırlayabilirsiniz. Daha sonra satıcı faturasını düzenleyebilirsiniz. Bu özellik, **Özellik yönetimi** sayfasında parametre açıksa, **Satıcı fatura iş akışı için taslak durumunu sıfırla** parametresinde bulunur.
+
+**İş akışı geçmişi** sayfasını kullanarak iş akışı durumunu **Taslak** olarak sıfırlayabilirsiniz. Bu sayfayı **Satıcı faturasından** veya **Ortak > Sorgular > İş akışı** gezintisini açabilirsiniz. İş akışı durumunu **Taslak** olarak sıfırlamak için **Geri çağır**'ı seçin. Ayrıca,**Satıcı faturası** veya **Bekleyen satıcı faturaları** sayfasında **Geri çağır** eylemini seçerek iş akışı durumunu Taslak'a sıfırlayabilirsiniz. İş akışı durumu **Taslak** olarak sıfırlandıktan sonra, **Satıcı faturası** sayfasında düzenlenmeye açık hale gelir.
+
 
 
 ## <a name="additional-resources"></a>Ek kaynaklar

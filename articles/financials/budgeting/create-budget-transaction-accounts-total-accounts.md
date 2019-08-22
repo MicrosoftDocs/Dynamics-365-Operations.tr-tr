@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration, BudgetPlanGenerate
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13051
 ms.assetid: fb1bb2d3-445c-402f-a9a3-aa6503eed78e
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6129a5431cba22ea656e4d6f473a4e93a81131ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f60963bee790737c85161dff03278df0572e3abc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559722"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834040"
 ---
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>İşlem hesapları ve toplam hesaplar için bütçe oluşturma
 

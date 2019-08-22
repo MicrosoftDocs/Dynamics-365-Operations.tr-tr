@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be23b99ddc224328cf067fe0bf36be93fcef4337
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561474"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846057"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Proje sözleşmelerini ve projeleri doğrudan Project Service Automation'dan Finance and Operations'a eşitleme
 
@@ -94,8 +94,8 @@ Project Service Automation'dan Finance and Operations'a tümleştirme çözümü
 ## <a name="prerequisites-and-mapping-setup"></a>Önkoşullar ve eşleme kurulumu
 
 - Proje sözleşmelerinin ve projelerin eşitlemesinin yapılabilmesi için hesapları eşitlemeniz gerekir.
-- Bağlantı kümenizde**msdyn\_organizationalunits**'ten **msdyn\_name \[Ad\]**'a bir tümleştirme anahtarı alan eşlemesi ekleyin. Bağlantı kümesine önce bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Common Data Service for Apps'e veri entegre edin](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- Bağlantı kümenizde **msdyn\_projects**'ten **msdynce\_projectnumber \[Proje Numarası\]**'na bir tümleştirme anahtarı alan eşlemesi ekleyin. Bağlantı kümesine önce bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Common Data Service for Apps'e veri entegre edin](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Bağlantı kümenizde**msdyn\_organizationalunits**'ten **msdyn\_name \[Ad\]**'a bir tümleştirme anahtarı alan eşlemesi ekleyin. Bağlantı kümesine önce bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Common Data Service for Apps'e veri entegre edin](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Bağlantı kümenizde **msdyn\_projects**'ten **msdynce\_projectnumber \[Proje Numarası\]**'na bir tümleştirme anahtarı alan eşlemesi ekleyin. Bağlantı kümesine önce bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Common Data Service for Apps'e veri entegre edin](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - Proje sözleşmeleri ve projeler için **SourceDataID** (Kaynak Veri Kodu), farklı bir değerle güncelleştirilebilir veya eşlemeden kaldırılabilir. Varsayılan şablon değeri **Project Service Automation**'dır.
 - **PaymentTerms** (Ödeme Koşulları) eşlemesinin, Finance and Operations'ta geçerli ödeme koşullarını yansıtacak şekilde güncellenmesi gerekir. Ayrıca, eşlemeyi proje görevinden kaldırabilirsiniz. Varsayılan değer eşlemesinde, tanıtım verileri için varsayılan değerler vardır. Aşağıdaki tabloda Project Service Automation'daki değerler gösterilmektedir.
 

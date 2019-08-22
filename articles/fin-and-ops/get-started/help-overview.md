@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
-ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
+ms.openlocfilehash: a7a6e0ef960d137a2897ef36bbd80380ed494281
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625341"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850886"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operations Yardım sistemi
 
@@ -99,7 +99,7 @@ Bir konuyla ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmınd
 
 Finance and Operations belgelerine katkıda bulunabilir ve düzenlemeler yapabilirsiniz. Başlamak için bir konudaki **Düzenle** (Kalem) düğmesine tıklayın veya <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public> adresine gidin. Aşağıdaki video, belgelerimize nasıl katkıda bulunabileceğinizi gösterir.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
 [Microsoft Dynamics 365 belgeseline nasıl katkıda bulunulur](https://youtu.be/m5djioozRbg) video'su (aşağıda gösteriliyor) [Dynamics 365 oynatma listesinde neler yeni](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9) YouTube'da yayınlanmaktadır.
 

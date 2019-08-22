@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc5b0798397047d1adedfc19406a7875c853bea6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ca39c372b50724cff2aa38c1012468489484d05
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571012"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1851077"
 ---
 # <a name="create-documentation-or-training-by-using-task-recordings"></a>Görev kayıtlarını kullanarak belge veya eğitim oluşturma
 

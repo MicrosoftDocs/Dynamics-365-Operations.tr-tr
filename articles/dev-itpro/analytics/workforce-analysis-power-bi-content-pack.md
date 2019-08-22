@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 75d323c5d3adf4a880f8b464e03ee35cd6335e14
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544299"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850193"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>İş gücü ölçümleri Power BI içeriği
 
@@ -56,7 +56,7 @@ Aşağıdaki tablo, her bir rapor sayfasında gösterilen ölçümleri listeler.
 | Çalışan Doğum günleri                               | Bu aydaki doğum günleri, önümüzdeki aydaki doğum günleri, personel doğum günleri, bölüm ve aya göre doğum günleri |
 | Toplu İşe Alma Projeleri                               | Toplam toplu işe alma projeleri, duruma göre toplu işe alma projeleri, bölüm ve sahibine göre toplu işe alma projeleri, işe göre toplu işe alma projeleri ve toplu işe alma projeleri |
 
-Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Kullanmakta olduğunuz Microsoft Dynamics 365 sürümü için geçerli **İşgücü ölçümleri** Power BI içeriğini indirdiğinizden emin olun.
 
