@@ -8,6 +8,14 @@
         - name: Talent'taki yenilikler veya değişiklikler
           href: whats-new.md
           items:
+            - name: 22 Ağustos 2019
+              href: whats-new-talent-august-21-2019.md
+            - name: 13 Ağustos 2019
+              href: whats-new-talent-august-15-2019.md
+            - name: 6 Ağustos 2019
+              href: whats-new-talent-august-7-2019.md
+            - name: 30 Temmuz 2019
+              href: whats-new-talent-july-31-2019.md
             - name: 23 Temmuz 2019
               href: whats-new-talent-july-24-2019.md
             - name: 16 Temmuz 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-june-11-2019.md
             - name: 4 Haziran 2019
               href: whats-new-talent-june-4-2019.md
-            - name: 28 Mayıs 2019
-              href: whats-new-talent-may-28-2019.md
-            - name: 21 Mayıs 2019
-              href: whats-new-talent-may-21-2019.md
-            - name: 13 Mayıs 2019
-              href: whats-new-talent-may-13-2019.md
-            - name: 6 Mayıs 2019
-              href: whats-new-talent-may-6-2019.md
-            - name: Yenilikler arşivleri 2019
+            - name: Yeniliklere ilişkin arşivler 2019
               items:
+                - name: 28 Mayıs 2019
+                  href: whats-new-talent-may-28-2019.md
+                - name: 21 Mayıs 2019
+                  href: whats-new-talent-may-21-2019.md
+                - name: 13 Mayıs 2019
+                  href: whats-new-talent-may-13-2019.md
+                - name: 6 Mayıs 2019
+                  href: whats-new-talent-may-6-2019.md
                 - name: 30 Nisan 2019
                   href: whats-new-talent-april-30-2019.md
                 - name: 25 Nisan 2019
@@ -204,6 +212,8 @@
               href: departments-jobs-positions.md
             - name: İşin bileşenlerini ayarlama
               href: create-job.md
+            - name: Kolaylaştırılmış çalışan girişi ve gezintisi
+              href: streamlined-employee-entry.md
             - name: Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme
               href: create-department-add-department-hierarchy.md
             - name: Tüzel kişilikler arasında İK parametreleri ayarlama
@@ -222,7 +232,7 @@
               items:
                 - name: Numara serisine genel bakış
                   href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Bireysel olarak numara serileri ayarlama
+                - name: Bireysel olarak numara sıraları ayarlama
                   href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Sihirbaz kullanarak numara serileri ayarlama
                   href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
