@@ -26,9 +26,10 @@
       href: retail-support.md
     - name: Bir Sürüm hizmet güncelleştirmeleriyle ilgili SSS
       href: ../fin-and-ops/get-started/one-version.md
-- name: Uygulama yaşam döngüsünü anlama
-  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+- name: Uygulama yaşam döngüsü yönetimi
   items:
+    - name: Uygulama yaşam döngüsü yönetimi giriş sayfası
+      href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
     - name: Microsoft FastTrack for Dynamics 365
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
     - name: İşe alım süreci
@@ -165,6 +166,8 @@
       href: retail-hardware-station-configuration-installation.md
     - name: Retail'de saat ve işe devam
       href: retail-time-attendance.md
+    - name: Mağaza çalışma saatleri oluşturma ve değiştirme
+      href: dev-itpro/store-hours.md
 - name: Modern Point of Sale (MPOS) ve Cloud POS
   items:
     - name: MPOS ile Cloud POS arasında seçim yapma
@@ -315,17 +318,19 @@
       href: attribute-attributegroups-lifecycle.md
     - name: Öznitelikler oluşturma ve yönetme
       href: create-manage-attributes.md
-    - name: Perakende ürünleri ayarlama
+    - name: Perakende ürünlerini ayarlama
       href: set-up-retail-products.md
-    - name: Retail ürün kategorilerini ve ürünleri yönetme
+    - name: Perakende ürün kategorilerini ve ürünlerini yönetme
       href: category-management-product-creation.md
+    - name: Alım satım varlıkların sıralama düzenini değiştirme
+      href: custom-order-categories-nav-retail-prod-hierarchy.md
     - name: Ürün boyutları
       href: ../supply-chain/pim/product-dimensions.md
-    - name: Barkodlar ayarlama
+    - name: Barkodları ayarlama
       href: set-up-bar-codes.md
-    - name: Barkod maskeleri ayarlama
+    - name: Barkod maskelerini ayarlama
       href: set-up-bar-code-masks.md
-    - name: Ürün çeşitleri ayarlama
+    - name: Ürün çeşitlerini ayarlama
       href: set-up-assortments.md
     - name: Mağazanın ürün çeşitlerine dahil olmayan ürünleri satma ve iade etme
       href: sell-return-outside-assortments.md
@@ -500,8 +505,9 @@
     - name: Perakende çalışanlarını yapılandırma
       href: tasks/worker.md
 - name: Perakende geliştirme ve yönetimi
-  href: dev-itpro/dev-retail-home-page.md
   items:
+    - name: BT uzmanları ve geliştiriciler için Retail
+      href: dev-itpro/dev-retail-home-page.md
     - name: Mimari
       items:
         - name: Retail bileşenleri
@@ -594,10 +600,12 @@
           href: dev-itpro/hybridApp.md
         - name: POS istek işleyicisini geçersiz kılma
           href: dev-itpro/pos-handler.md
-        - name: POS uzantısı paket bilgisini görüntüleme
+        - name: POS uzantısı paket bilgilerini görüntüleme
           href: dev-itpro/view-pos-extension-package-details.md
     - name: Hardware Station ve genişletilebilirlik
       href: dev-itpro/hardware-station-extensibility.md
+    - name: POS'u yeni bir donanım cihazıyla tümleştirme
+      href: dev-itpro/hardware-device-extension.md
     - name: Retail Server genişletilebilirliği
       items:
         - name: Retail Server OData denetleyicisini genişletme
@@ -655,8 +663,9 @@
         - name: Ödeme bağlayıcısı için yinelenen ödeme koruyucusunu etkinleştirme
           href: dev-itpro/duplicate-payment-protection.md
     - name: Retail SDK
-      href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Retail SDK mimarisi
+          href: dev-itpro/retail-sdk/retail-sdk-overview.md
         - name: Yakında Retail SDK'de yapılacak değişiklikler
           href: dev-itpro/UpcomingSDKChanges.md
         - name: Retail ve Finance and Operations için yapı sistemlerini birleştirme
@@ -667,9 +676,8 @@
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
         - name: Retail SDK örnekleri
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
-          items:
-            - name: Sevk irsaliyeleri için genişletme noktaları
-              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Sevk irsaliyeleri için genişletme noktaları
+          href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: Kanal veritabanı uzantıları
           href: dev-itpro/channel-db-extensions.md
         - name: Uzantıyla özel CDX eşitlemesini etkinleştirme

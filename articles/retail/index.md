@@ -3,7 +3,7 @@ title: Dynamics 365 for Retail'a hoş geldiniz
 description: Dynamics 365 for Retail için giriş sayfası
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572185"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874939"
 ---
 # <a name="welcome-to-dynamics-365-for-retail"></a>Dynamics 365 for Retail'a hoş geldiniz
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail, tüm kanallarda birleştirilmiş ticaret olanağı sunan uçtan uca bir perakende çözümüdür. Perakendeciler ve çalışanların bulut öncelikli, mobil öncelikli bir tarzda daha fazlasını başarmalarına yardımcı olmak için satış, hareketlilik, karar destek ve üretkenliği kapsar. Retail, alım satım, stok gibi geniş bir işletme süreçleri ve kanal yönetim yetenekleri yelpazesini yürütmek için kapsamlı destek sunar. Ayrıca, tüm temas noktalarında kapsayıcı müşteri deneyimleri sağlar.
+Microsoft Dynamics 365 for Retail, tüm kanallarda birleştirilmiş ticaret olanağı sunan uçtan uca bir perakende çözümüdür. Perakendeciler ve çalışanların bulut öncelikli, mobil öncelikli bir tarzda daha fazlasını elde etmelerine yardımcı olmak için satış, hareketlilik, karar desteği ve üretkenliği kapsar. Retail, alım satım, stok gibi geniş bir işletme süreçleri ve kanal yönetim yetenekleri yelpazesini yürütmek için kapsamlı destek sunar. Ayrıca, tüm temas noktalarında kapsayıcı müşteri deneyimleri sağlar.
 
 > [!NOTE]
 > Dynamics 365 for Retail, Dynamics 365 for Finance and Operations ve Dynamics 365 for Talent ile yakından ilgilidir. Aynı işlev her üç üründe de görülebilir. Dolayısıyla ürün adı, öncelikle Retail ile ilgili olan konularda Microsoft Dynamics 365 for Retail olarak, öncelikle temel ürün (Finance and Operations) ile ilgili konularda Microsoft Dynamics 365 for Finance and Operations ve öncelikle insan kaynakları ile ilgili konularda da Dynamics 365 for Talent olacaktır.
@@ -38,7 +38,7 @@ Soldaki bölmede, bir özellik alanı seçerek özellik hakkında daha fazla bil
 
 ## <a name="channel-management"></a>Kanal yönetimi
 
-Retail deneyiminizi ayarlarken, mağazalarınızı nasıl tanımlayacağınıza ve yapılandıracağınıza karar verirsiniz. Bunlar fiziksel mağazalar, çevrimiçi mağazalar veya çağrı merkezleri olabilir.
+Retail deneyiminizi ayarlarken, fiziksel mağazalar, çevrimiçi mağazalar ve çağrı merkezleri olabilecek mağazalarınızı nasıl tanımlayacağınıza ve yapılandıracağınıza karar verirsiniz.
 
 Her perakende mağazanın kendi ödeme yöntemleri, teslimat yöntemleri, fiyat grupları, gelir ve gider hesapları, kasaları ve personeli olabilir. Perakende mağazanızı oluşturduktan sonra, mağazada bulunmasını istediğiniz ürün çeşitlerini oluşturun. Ayrıca mağazaya özgü fiyatlar ve mağazada bulunan ürünler için geçerli olan iskontolar da tanımlayabilirsiniz.
 

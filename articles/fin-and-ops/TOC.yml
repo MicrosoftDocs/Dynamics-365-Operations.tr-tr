@@ -1,20 +1,23 @@
 - name: Dynamics 365 for Finance and Operations
-  href: index.md
   items:
+    - name: Dynamics 365 for Finance and Operations belgeleri
+      href: index.md
     - name: Başlayın
       items:
         - name: Satın almadan önce
-          href: get-started/before-you-buy.md
           items:
-            - name: Önizleme aboneliğine kaydolma
+            - name: Satın almadan önce giriş sayfası
+              href: get-started/before-you-buy.md
+            - name: Önizleme aboneliği için kaydolma
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
             - name: Tanıtım ortamını dağıtma
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
-            - name: Bulut ve şirket içi özellikleri karşılaştırması
+            - name: Bulut ile şirket içi özellikleri karşılaştırma
               href: get-started/cloud-prem-comparison.md
-            - name: Dağıtım seçenekleri
-              href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
+            - name: Dağıtımla ilgili konular
               items:
+                - name: Dağıtım seçenekleri
+                  href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
                 - name: Bulut dağıtımı
                   href: ../dev-itpro/deployment/cloud-deployment-overview.md?toc=/fin-and-ops/toc.json
                 - name: Bulut dağıtımları için sistem gereksinimleri
@@ -36,8 +39,9 @@
                 - name: Finance and Operations (on-premises) satın alma
                   href: get-started/purchase-on-premises.md
         - name: Yenilikler veya değişiklikler
-          href: get-started/whats-new-changed.md
           items:
+            - name: Yenilikler veya değişiklikler giriş sayfası
+              href: get-started/whats-new-changed.md
             - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
               href: get-started/mainstream-support-ax-2009-2012.md
             - name: Kaldırılan veya artık kullanılmayan özellikler
@@ -140,6 +144,8 @@
                   href: get-started/new-task-guides-available-february-2016.md
         - name: Kullanıcı arabirimini keşfetme
           items:
+            - name: Kullanıcı arabirimi öğeleri
+              href: get-started/user-interface-elements.md
             - name: Erişilebilirlik özellikleri
               href: get-started/accessibility-features.md
             - name: Özellik yönetimine genel bakış
@@ -194,11 +200,12 @@
                   href: ../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/fin-and-ops/toc.json
             - name: Sözlük
               href: get-started/glossary.md
-        - name: Finance and Operations için videolar
+        - name: Finance and Operations videoları
           href: get-started/videos.md
     - name: Uygulama yaşam döngüsü yönetimi
-      href: imp-lifecycle/implementation-lifecycle.md
       items:
+        - name: Uygulama yaşam döngüsü yönetimi giriş sayfası
+          href: imp-lifecycle/implementation-lifecycle.md
         - name: Finance and Operations mimarisi
           href: imp-lifecycle/architecture-overview.md
         - name: Microsoft FastTrack for Finance and Operations
@@ -224,11 +231,12 @@
         - name: Tek bir Azure AD kiracısında birden fazla LCS projesi ve üretim ortamı
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: Bir Sürüm hizmet güncelleştirmeleri
-      href: ../dev-itpro/lifecycle-services/oneversion-overview.md
       items:
+        - name: Bir Sürüm hizmet güncelleştirmelerine genel bakış
+          href: ../dev-itpro/lifecycle-services/oneversion-overview.md
         - name: Bir Sürüm hizmet güncelleştirmeleriyle ilgili SSS
           href: get-started/one-version.md
-        - name: 'Yazılım yaşam döngüsü ilkesi: Bulut'
+        - name: Yazılım yaşam döngüsü ilkesi - Bulut
           href: ../dev-itpro/migration-upgrade/versions-update-policy.md
         - name: 'Yazılım yaşam döngüsü ilkesi: Şirket içi'
           href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
@@ -246,17 +254,12 @@
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: Bir Sürüm kullanarak ISV çözümleri teslim etme
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: Test Otomasyonu
-          items:
-            - name: Kullanıcı kabul testleri oluşturma ve otomatikleştirme
-              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: Regression Suite Automation Tool eğitimi ayarlama
-              href: get-started/hol-set-up-regression-suite-automation-tool.md
-            - name: Regression Suite Automation Tool eğitimi kullanma
-              href: get-started/hol-use-regression-suite-automation-tool.md
+        - name: Kullanıcı kabul testleri oluşturma ve otomatikleştirme
+          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
     - name: İş olayları
-      href: ../dev-itpro/business-events/home-page.md
       items:
+        - name: İş olaylarına genel bakış
+          href: ../dev-itpro/business-events/home-page.md
         - name: Uygulama iş olayları
           href: ../dev-itpro/business-events/app-business-events.md
         - name: İş akışı iş olayları
@@ -273,25 +276,37 @@
           href: ../dev-itpro/business-events/potential-use-cases.md
         - name: Eğitimler
           items:
-            - name: Microsoft Flow ile iş olayları kullanma
+            - name: İş olayları ve Microsoft Flow
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-            - name: Azure Event Grid kullanarak iş olaylarını kullanma
+            - name: İş olayları ve Azure Event Grid
               href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
-            - name: Azure Service Bus kullanarak iş olaylarını kullanma
+            - name: İş olayları ve Azure Service Bus
               href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
-            - name: İş akışı onayı iş olaylarını kullanma
+            - name: İş olayları ve iş akışı onayları
               href: ../dev-itpro/business-events/how-to/how-to-workflow.md
-            - name: Microsoft Forms Pro ile iş olayları kullanma
+            - name: İş olayları ve Microsoft Forms Pro
               href: ../dev-itpro/business-events/how-to/FormsPro.md
-    - name: Maliyet yönetimi
-      href: ../supply-chain/cost-management/cost-management-home-page.md
+            - name: İş olayları ve Azure Event Hubs
+              href: ../dev-itpro/business-events/how-to/event-hub.md
+    - name: Uyumluluk
       items:
-        - name: Standart maliyetler için önkoşullar
-          href: ../supply-chain/cost-management/prerequisites-standard-costs.md
+        - name: Denetim ilkesi kuralları
+          href: ../financials/general-ledger/audit-policy-rules.md
+        - name: Denetim ilkesi ihlalleri ve olayları
+          href: ../financials/general-ledger/audit-policy-violations-cases.md
+        - name: Kaynak belgeler için denetim ilkeleri tanımlama
+          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+    - name: Maliyet yönetimi
+      items:
+        - name: Maliyet yönetimi giriş sayfası
+          href: ../supply-chain/cost-management/cost-management-home-page.md
+        - name: Standart maliyetler için ön koşullar
           items:
+            - name: Standart maliyetler için ön koşullara genel bakış
+              href: ../supply-chain/cost-management/prerequisites-standard-costs.md
             - name: Standart maliyet dönüştürmeye genel bakış
               href: ../supply-chain/cost-management/standard-cost-conversion-overview.md
-            - name: Standart maliyet dönüştürme için önkoşul
+            - name: Standart maliyet dönüştürme için ön koşul
               href: ../supply-chain/cost-management/prerequisites-standard-cost-conversion.md
             - name: Standart maliyet güncelleştirmelerini yönetme
               href: ../supply-chain/cost-management/manage-standard-cost-updates.md
@@ -308,8 +323,9 @@
             - name: Üretilmiş maddeler için standart maliyetleri sürdürmeye hazırlanma
               href: ../supply-chain/cost-management/prepare-maintain-standard-costs-manufactured-items.md
         - name: Maliyetlendirme sürümleri
-          href: ../supply-chain/cost-management/costing-versions.md
           items:
+            - name: Maliyetlendirme sürümlerine genel bakış
+              href: ../supply-chain/cost-management/costing-versions.md
             - name: Maliyetlendirme tabloları
               href: ../supply-chain/cost-management/costing-sheets.md
             - name: Planlanan maliyetler için bir maliyetlendirme sürümü kullanarak maliyet değişikliklerinin benzetimini yapma
@@ -394,16 +410,17 @@
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: Veri tümleştirme API'ları
           items:
-            - name: Veri yönetimi paketi REST API
+            - name: Veri yönetimi paketi REST API'sı
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
-            - name: Hizmet uç noktaları
-              href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
+            - name: Servis uç noktaları
               items:
-                - name: Hizmet kimlik doğrulamasıyla ilgili sorun giderme
+                - name: Servis uç noktalarına genel bakış
+                  href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
+                - name: Servis kimlik doğrulamasıyla ilgili sorun giderme
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: Özel hizmet geliştirme
+            - name: Özel servis geliştirme
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
             - name: Yinelenen tümleştirmeler
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
@@ -414,8 +431,9 @@
         - name: Tümleştirme için geliştirme
           items:
             - name: Veri varlıklarını kullanarak veri tümleştirmesi
-              href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Veri varlıklarını kullanarak veri tümleştirmesine genel bakış
+                  href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
                 - name: Veri geçişi için varlık geliştirme
                   href: ../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/fin-and-ops/toc.json
                 - name: Bileşik veri varlıkları geliştirme
@@ -428,9 +446,9 @@
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Common Data Service kullanarak veri tümleştirme
               items:
-                - name: Veri tümleştirmeye genel bakış
+                - name: Common Data Service kullanarak veri tümleştirmeye genel bakış
                   href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
-                - name: 'Eşzamanlı, çift yönlü tümleştirme'
+                - name: 'Eş zamanlı, çift yönlü tümleştirme'
                   items:
                     - name: Yakın gerçek zamanlı veri tümleştirmesi
                       href: ../dev-itpro/data-entities/dual-write-overview.md?toc=/fin-and-ops/toc.json
@@ -448,11 +466,11 @@
                       href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
                 - name: 'Zaman uyumsuz, tek yönlü tümleştirme'
                   items:
-                    - name: Aday müşteriden nakde
+                    - name: Aday müşteriden nakde senaryosu yapılandırma
                       items:
-                        - name: Aday müşteriden nakde senaryosu yapılandırma
+                        - name: Aday müşteriden nakde
                           href: ../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
+                        - name: Sales'daki hesapları doğrudan Finance and Operations'daki müşterilerle eşitleme
                           href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
                         - name: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
                           href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
@@ -464,11 +482,11 @@
                           href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
                         - name: Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
                           href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                    - name: Field Service
+                    - name: Field Service ile tümleştirmeyi yapılandırma
                       items:
-                        - name: Field Service ile tümleştirmeyi yapılandırma
+                        - name: Field Service ile tümleştirmeyi yapılandırmaya genel bakış
                           href: ../supply-chain/sales-marketing/field-service.md
-                        - name: Finance and Operations'taki ürünleri Field Service'daki ürünlerle eşitleme
+                        - name: Finance and Operations'daki ürünleri Field Service'teki ürünlerle eşitleme
                           href: ../supply-chain/sales-marketing/field-service-product.md
                         - name: Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
                           href: ../supply-chain/sales-marketing/field-service-work-order.md
@@ -484,11 +502,11 @@
                           href: ../supply-chain/sales-marketing/synchronize-project-list.md
                         - name: Ambarları Finance and Operations'dan Field Service'a eşitleme
                           href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Proje içeren iş emirlerini Field Service'dan Finance and Operations'a eşitleme
+                        - name: Proje içeren iş emirlerini Field Service'tan Finance and Operations'a eşitleme
                           href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Project Service Automation
+                    - name: Project Service Automation tümleştirmesi yapılandırma
                       items:
-                        - name: Project Service Automation tümleştirmesi yapılandırma
+                        - name: Project Service Automation'a genel bakış
                           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                         - name: Project Service Automation tümleştirmesi parametreleri
                           href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
@@ -507,16 +525,19 @@
         - name: Elektronik mesajlaşma
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Veri yönetimi
-      href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Veri yönetimine genel bakış
+          href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Veri varlıkları
-          href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
           items:
-            - name: Yapılandırma verisi projeleri
+            - name: Veri varlıklarına genel bakış
+              href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
+            - name: Yapılandırma veri projeleri
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
             - name: Şirketler veya tüzel kişilikler arasında yapılandırma verilerini kopyalama
-              href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Yapılandırma verilerini kopyalamaya genel bakış
+                  href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
                 - name: Yapılandırma veri paketleri
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Yapılandırma veri paketleri (yalnızca Temmuz 2017 sürümü)
@@ -538,8 +559,9 @@
             - name: Yapılandırma veri paketleri
               href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Veri içe ve dışa aktarma işleri
-          href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Veri içe ve dışa aktarma işlerine genel bakış
+              href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
             - name: Genel günlük varlığını kullanarak fişleri içe aktarmaya yönelik en iyi uygulamalar
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Veri varlıkları için geliştirme
@@ -581,16 +603,19 @@
         - name: Veri yönetimi hata açıklamaları
           href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Mali yönetim
-      href: ../financials/index.md
       items:
+        - name: Mali yönetim giriş sayfası
+          href: ../financials/index.md
         - name: Borç hesapları
-          href: ../financials/accounts-payable/accounts-payable.md
           items:
+            - name: Borç hesapları giriş sayfası
+              href: ../financials/accounts-payable/accounts-payable.md
             - name: Satıcı faturalarına genel bakış
               href: ../financials/accounts-payable/vendor-invoices-overview.md
             - name: Borç hesaplarını yapılandırma
-              href: ../financials/accounts-payable/accounts-payable-overview.md
               items:
+                - name: Borç hesaplarını yapılandırmaya genel bakış
+                  href: ../financials/accounts-payable/accounts-payable-overview.md
                 - name: Satıcı faturası kullanarak fatura verilerini borç hesaplarına girme
                   href: ../financials/accounts-payable/tasks/key-invoice-data-ap-system-vendor-invoice.md
                 - name: Onay günlüğü kullanarak fatura verilerini borç hesaplarına girme
@@ -603,12 +628,13 @@
               href: ../financials/general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: Üç yönlü eşleştirme ilkeleri
               href: ../financials/accounts-payable/three-way-matching-policies.md
-            - name: Borç hesapları fatura eşleştirmesi
-              href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
+            - name: Borç hesapları için fatura eşleştirme
               items:
-                - name: Borç hesapları fatura eşleştirme doğrulaması ayarlama
+                - name: Borç hesapları için fatura eşleştirmeye genel bakış
+                  href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
+                - name: Borç hesapları için fatura eşleştirme doğrulaması ayarlama
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
-            - name: Satıcı faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girdileri
+            - name: Satıcı faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girişleri
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Fatura eşleştirme ve şirketlerarası satınalma siparişleri
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -624,14 +650,15 @@
               href: ../financials/accounts-payable/default-offset-accounts-vendor-invoice-journals.md
             - name: Satıcı iş akışı
               href: ../financials/accounts-payable/vendor-workflow.md
-            - name: Fatura toplamları eşleştirme sırasında uyuşmazlıkları çözümleme
-              href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
+            - name: Fatura toplamlarını eşleştirme sırasında uyuşmazlıkları giderme
               items:
-                - name: Özel durumları araştırma veya çözümleme
+                - name: Fatura toplamlarını eşleştirme sırasında uyuşmazlıkları gidermeye genel bakış
+                  href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
+                - name: Özel durumları araştırma veya giderme
                   href: ../financials/accounts-payable/tasks/research-resolve-exceptions.md
             - name: Satıcı deftere nakil profilleri
               href: ../financials/accounts-payable/vendor-posting-profiles.md
-            - name: Borç hesapları ve Alacak hesapları için yabancı para birimi yeniden değerleme işlemi
+            - name: Borç hesapları ile alacak hesapları için yabancı para birimi yeniden değerleme işlemi
               href: ../financials/cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Mobil fatura onayları
               href: ../financials/accounts-payable/mobile-invoice-approvals.md
@@ -688,11 +715,12 @@
                 - name: Satıcı hareketleri listesi sayfası
                   href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: Alacak hesapları
-          href: ../financials/accounts-receivable/accounts-receivable.md
           items:
-            - name: Alacak hesaplarında alacak ve tahsilatlar
+            - name: Alacak hesapları giriş sayfası
+              href: ../financials/accounts-receivable/accounts-receivable.md
+            - name: Alacak hesaplarındaki alacak ve tahsilatlar
               href: ../financials/accounts-receivable/collections-credit-accounts-receivable.md
-            - name: 'Alacak hesapları, alacak ve tahsilatları yapılandırma'
+            - name: Alacak hesapları ile alacak ve tahsilatları yapılandırma
               href: ../financials/accounts-receivable/accounts-receivables-set-up-overview.md
             - name: Alacak ve tahsilatları ayarlama
               href: ../financials/accounts-receivable/set-up-collections.md
@@ -783,8 +811,9 @@
                 - name: Müşteri hareketleri listesi sayfası
                   href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: Bütçeleme
-          href: ../financials/budgeting/budgeting-overview.md
           items:
+            - name: Bütçeleme giriş sayfası
+              href: ../financials/budgeting/budgeting-overview.md
             - name: Bütçe planlamaya genel bakış
               href: ../financials/budgeting/budget-planning-overview-configuration.md
             - name: Bütçe denetimine genel bakış
@@ -808,8 +837,9 @@
             - name: Diğer modüllerle bütçe planlama tümleştirmesi
               href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: Nakit ve banka yönetimi
-          href: ../financials/cash-bank-management/cash-bank-management.md
           items:
+            - name: Nakit ve banka yönetimi giriş sayfası
+              href: ../financials/cash-bank-management/cash-bank-management.md
             - name: Nakit akışı tahmini
               href: ../financials/cash-bank-management/cash-flow-forecasting.md
             - name: Banka yönetimi çalışma alanı
@@ -885,8 +915,9 @@
                 - name: Banka günlüğü bileşik varlığını güncelleştirme
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Maliyet muhasebesi
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
           items:
+            - name: Maliyet muhasebesi giriş sayfası
+              href: ../financials/cost-accounting/cost-accounting-home-page.md
             - name: Maliyet muhasebesi terminolojisi
               href: ../financials/cost-accounting/terms-cost-accounting.md
             - name: 'Mali takvimler, mali yıllar ve dönemler'
@@ -958,9 +989,10 @@
             - name: Finance and Operations mobil uygulaması için maliyet kontrolü çalışma alanını kullanma
               href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
         - name: Gider yönetimi
-          href: ../financials/expense-management/expense-management.md
           items:
-            - name: Gider raporları yeniden tasarlandı
+            - name: Gider yönetimine genel bakış
+              href: ../financials/expense-management/expense-management.md
+            - name: Yeniden tasarlanan gider raporları
               href: ../financials/expense-management/ExpenseWorkspaceNew.md
             - name: Gider yönetimini planlama
               href: ../financials/expense-management/plan-expense-management.md
@@ -995,8 +1027,9 @@
             - name: Gider raporundaki kişisel giderler
               href: ../financials/expense-management/personal-expenses.md
         - name: Sabit kıymetler
-          href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: Sabit kıymetler giriş sayfası
+              href: ../financials/fixed-assets/fixed-assets.md
             - name: Sabit kıymet oluşturma
               href: ../financials/fixed-assets/tasks/create-fixed-asset.md
             - name: Sabit kıymete ekleme yapma
@@ -1100,18 +1133,190 @@
                 - name: Sabit servis ömrü amortismanı
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
         - name: Genel muhasebe
-          href: ../financials/general-ledger/general-ledger.md
           items:
+            - name: Genel muhasebeye genel bakış
+              href: ../financials/general-ledger/general-ledger.md
+            - name: Hesaplar
+              items:
+                - name: Tahakkuklara genel bakış
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Eleme kuralları
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Hesap ve boyut birleşimleri
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: interunit muhasebe için dengelenmiş günlükler
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Deftere nakil tanımları
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: Deftere nakil tanımı örnekleri
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: Genel muhasebe hesap bakiyeleri
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Mali boyutları tanımlama
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Mali boyut varsayılan şablonlarını koruma
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Hesap yapıları oluşturma
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Mali boyutlar ve deftere nakletme
+                  href: ../financials/general-ledger/default-dimensions.md
+                - name: Tahakkuk planları oluşturma
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Mali konsolidasyonlar ve para birimi dönüştürme
+                  items:
+                    - name: Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış
+                      href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                    - name: Çevrimiçi olarak konsolide etme
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: Konsolide mali tablolar oluşturma
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: Konsolidasyon grupları ve ek konsolidasyon hesabı oluşturma
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Ana hesap türleri
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Ana hesap oluşturma
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Hesap planınızı planlama
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Genel muhasebe hesapları arasındaki hareketleri kapatma
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Genel muhasebe hesabı diğer adlarını ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Ana hesap kategorilerini ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Muhasebe kaynağı gezgini
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Muhasebe dağılımları
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Tahsisatları işleme
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Mali boyutlar
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Muhasebe veya raporlama para birimlerini dönüştürme
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Konsolidasyon hesabı grupları ve hesapları
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Konsolidasyon ve elemeye genel bakış
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Mali takvimler, mali yıllar ve dönemler'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Hesap yapılarını yapılandırma
+                  href: ../financials/general-ledger/configure-account-structures.md
+                - name: Çift para birimi
+                  href: ../financials/general-ledger/dual-currency.md
+            - name: Günlükler ve genel muhasebe defterleri
+              items:
+                - name: Genel günlük işleme
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Periyodik günlükleri deftere nakletme
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Genel muhasebe tahsisat günlüğünü işleme
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Şirketlerarası muhasebe ayarı
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: Genel muhasebe tahsisat kuralları
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Günlükler için gelişmiş kurallar oluşturma
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Gelişmiş kural yapıları oluşturma ve atama
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Genel muhasebe günlük türleri
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Günlükler oluşturma ve doğrulama
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Günlük girişlerini veya hareketlerini görüntüleme
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Günlükten ilgili şirketlerarası fişi görüntüleme
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Şablon kullanarak günlük girişi oluşturma
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: Genel muhasebe tahakkuk hareketleri oluşturma
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Excel'den günlük satırlarını ve belgeleri yayımlama
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Günlük girişlerini ve hareketlerini görüntüleme
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Deftere nakledilen günlük girişlerini günlüğe aktarma
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Konsolidasyon şirketinde para birimi yeniden değerleme
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: Genel muhasebe için yabancı para birimi yeniden değerleme işlemi
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Para birimi döviz kurlarını içe aktarma
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Bir fiş
+                  href: ../financials/general-ledger/one-voucher.md
+                - name: Genel muhasebe hesabı kapatmaları
+                  href: ../financials/general-ledger/ledger-settlements.md
+            - name: Dönem sonu kapanışı
+              items:
+                - name: Genel muhasebeyi dönem sonunda kapatma
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Mali dönem kapatma çalışma alanı
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Yıl sonu kapanışı
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Mali yılı kapatma
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Toplu mali dönem kapatma
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: Satış vergisi
+              items:
+                - name: Satış vergisine genel bakış
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: Marjinal taban ve hesaplama yöntemlerine dayalı satış vergisi oranları
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: Satış vergisi ödemeleri ve yuvarlama kuralları
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: Kaynak alanında satış vergisi hesaplama yöntemleri
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Satış vergisi kodları için tam tutar ve aralık hesaplama seçenekleri
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Satış vergisi ödemesi oluşturma
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: Belgelerde satış vergisi hareketleri oluşturma
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Satış vergisi için genel muhasebe deftere nakil grupları ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Satış vergisi makamlarını ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Satış vergisi kodlarını ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Satış vergisi raporlama kodlarını ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Satış vergisi kapatma dönemlerini ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Stopaj vergisini ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Deftere nakledilen satış vergisi hareketlerini görüntüleme
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
+            - name: Denetim workbench'i
+              items:
+                - name: Denetim ilkesi kuralları
+                  href: ../financials/general-ledger/audit-policy-rules.md
+                - name: Denetim ilkesi ihlalleri ve olayları
+                  href: ../financials/general-ledger/audit-policy-violations-cases.md
+                - name: Kaynak belgeler için denetim ilkeleri tanımlama
+                  href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Kamu sektörü
+          items:
+            - name: Kamu sektörü giriş sayfası
+              href: ../financials/public-sector/public-sector-functionality.md
             - name: Kamu sektörü işlevi için planlama
               href: ../financials/public-sector/plan-public-sector-functionality.md
             - name: Kamu sektörü için ödemeler raporunda kapak ve imza sayfaları oluşturma
               href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: Kamu sektöründe borç hesapları
-              href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
+                - name: Kamu sektöründe borç hesaplarına genel bakış
+                  href: ../financials/public-sector/accounts-payable-public-sector.md
                 - name: Kamu sektöründe satınalma siparişi kodları
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
-                - name: Kamu sektöründe ticari ortak kodu oluşturma ve atama
+                - name: Kamu sektöründe ticari iş ortağı kodu oluşturma ve atama
                   href: ../financials/public-sector/tasks/create-assign-trading-partner-code-public-sector.md
                 - name: Kamu sektöründe deftere nakil tanımları
                   href: ../financials/public-sector/posting-definitions-public-sector.md
@@ -1130,8 +1335,9 @@
                 - name: Kamu sektöründe satınalma sözleşmesi sınıflandırmaları ayarlama
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: Kamu sektöründe alacak hesapları
-              href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
+                - name: Kamu sektöründe alacak hesaplarına genel bakış
+                  href: ../financials/public-sector/accounts-receivable-public-sector.md
                 - name: Kamu sektöründe faturalama sınıflandırmaları ve faturalama kodları
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
                 - name: Kamu sektöründe fatura sınıflandırması oluşturma
@@ -1145,8 +1351,9 @@
                 - name: Kamu sektöründe geri ödemeler
                   href: ../financials/public-sector/reimbursements-public-sector.md
             - name: Kamu sektöründe bütçeleme
-              href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: Kamu sektöründe bütçelemeye genel bakış
+                  href: ../financials/public-sector/budgeting-public-sector.md
                 - name: Kamu sektöründe özgün bütçe oluşturma ve ön bütçe girişlerini ters kaydetme
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Kamu sektörü için ön bütçe oluşturma
@@ -1172,8 +1379,9 @@
             - name: Kamu sektöründe sabit kıymetler
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: Kamu sektöründe genel muhasebe
-              href: ../financials/public-sector/general-ledger-public-sector.md
               items:
+                - name: Kamu sektöründe genel muhasebeye genel bakış
+                  href: ../financials/public-sector/general-ledger-public-sector.md
                 - name: Kamu sektöründe gelişmiş genel muhasebe girişleri
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
                 - name: Kamu sektöründe gelişmiş genel muhasebe girişi oluşturma
@@ -1199,8 +1407,9 @@
             - name: Kamu sektöründe bir satıcıya sertifika türü ekleme
               href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: Mali raporlama
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
+            - name: Mali raporlamaya genel bakış
+              href: ../financials/general-ledger/financial-reporting-getting-started.md
             - name: Mali raporlamaya genel bakış
               href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
             - name: Mali rapor bileşenleri
@@ -1236,13 +1445,15 @@
         - name: Elektronik mesajlaşma
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Globalleştirme
-      href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Globalleştirme kaynakları
+          href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
         - name: Mevzuat güncelleştirmeleri
           href: ../financials/localizations/regulatory-updates.md
         - name: Avustralya
-          href: ../financials/localizations/australia.md
           items:
+            - name: Avustralya'ya genel bakış
+              href: ../financials/localizations/australia.md
             - name: İş faaliyet raporu (BAS)
               href: ../financials/localizations/apac-aus-business-activity-statement.md
             - name: Rapor kutuları ekleme ve BAS oluşturma
@@ -1252,8 +1463,9 @@
             - name: BAS için neden kodlarını ayarlama
               href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
         - name: Avusturya
-          href: ../financials/localizations/austria.md
           items:
+            - name: Avusturya'ya genel bakış
+              href: ../financials/localizations/austria.md
             - name: Ek alımlarda yarım yıl amortismanı
               href: ../financials/localizations/emea-aut-half-year-depreciation.md
             - name: Ambalaj malzemesi ücretleri
@@ -1261,8 +1473,9 @@
             - name: KDV beyanı
               href: ../financials/localizations/emea-aut-vat-statement-details.md
         - name: Belçika
-          href: ../financials/localizations/belgium.md
           items:
+            - name: Belçika'ya genel bakış
+              href: ../financials/localizations/belgium.md
             - name: CODA banka ekstresi
               href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
             - name: Hareket oluşturma ve BLWI'ya transfer etme
@@ -1276,13 +1489,15 @@
             - name: PRODCOM ayarlama ve yönetme
               href: ../financials/localizations/emea-bel-prodcom-report.md
         - name: Brezilya
-          href: ../financials/localizations/brazil.md
           items:
+            - name: Brezilya'ya genel bakış
+              href: ../financials/localizations/brazil.md
             - name: Yerelleştirme kapsamı
               href: ../financials/localizations/latam-bra-scope.md
             - name: Mali defterler
-              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
+                - name: Brezilya mali defterlerine genel bakış
+                  href: ../financials/localizations/latam-bra-fiscal-books.md
                 - name: Mali defterleri yapılandırma
                   href: ../financials/localizations/latam-bra-configure-fiscal-books.md
                 - name: ICMS vergisi mali belgeleri
@@ -1350,8 +1565,9 @@
                 - name: Proje borç dekontları
                   href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
             - name: NF-e işlemi
-              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
+                - name: Brezilya NF-e işlemine genel bakış
+                  href: ../financials/localizations/latam-bra-nf-e-process.md
                 - name: NF-e mali belgelerinin otomatik iletimi
                   href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
                 - name: Onaylanmış NF-e için e-postalar oluşturma ve e-postalara DANFE PDF dosyalarıyla NF-e XML dosyaları iliştirme
@@ -1397,8 +1613,9 @@
             - name: Müşteri ödemelerinde faizi ve cezaları hesaplama
               href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
             - name: Vergiler
-              href: ../financials/localizations/latam-bra-calculate-taxes.md
               items:
+                - name: Brezilya'daki vergilere genel bakış
+                  href: ../financials/localizations/latam-bra-calculate-taxes.md
                 - name: Satınalma tekliflerinde vergiyi hesaplama
                   href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
                 - name: Vergi incelemesi oluşturma - ICMS
@@ -1439,13 +1656,14 @@
                   href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
                 - name: Stopaj vergileri
                   href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
-                - name: Müşteri ödemelerinde stopaj vergileri
+                - name: Müşteri ödemelerindeki stopaj vergileri
                   href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
-                - name: Satıcı ödemelerinde stopaj vergileri
+                - name: Satıcı ödemelerindeki stopaj vergileri
                   href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
         - name: Çin
-          href: ../financials/localizations/china.md
           items:
+            - name: Çin'e genel bakış
+              href: ../financials/localizations/china.md
             - name: Çin'de 21Vianet tarafından işletilen Finance and Operations
               href: ../dev-itpro/deployment/china-local-deployment.md
             - name: Ürün reçetesi karşılaştırması
@@ -1485,9 +1703,10 @@
             - name: KDV müşteri faturaları hakkında SSS
               href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
         - name: Çek Cumhuriyeti
-          href: ../financials/localizations/czech-republic.md
           items:
-            - name: Nakit iskontosunda alacak dekontu
+            - name: Çek Cumhuriyeti
+              href: ../financials/localizations/czech-republic.md
+            - name: Nakit iskontosuyla ilgili alacak dekontu
               href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
             - name: Sabit kıymetler
               items:
@@ -1514,8 +1733,9 @@
             - name: Yıl sonu kapanışı
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: Danimarka
-          href: ../financials/localizations/denmark.md
           items:
+            - name: Danimarka'ya genel bakış
+              href: ../financials/localizations/denmark.md
             - name: Müşteri hesabına ödeme makbuzu biçimi atama
               href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
             - name: Kamu sektörü müşterisi için müşteri faturası oluşturma ve deftere nakletme
@@ -1539,18 +1759,21 @@
             - name: Ödeme makbuzu biçimini ayarlama
               href: ../financials/localizations/tasks/set-up-payment-slip-format.md
         - name: Estonya
-          href: ../financials/localizations/estonia.md
           items:
+            - name: Estonya'ya genel bakış
+              href: ../financials/localizations/estonia.md
             - name: Kişisel bilgi talepleri
               href: ../financials/localizations/emea-est-personal-info.md
             - name: KDV beyanı
               href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: Avrupa
-          href: ../financials/localizations/europe.md
           items:
+            - name: Avrupa'ya genel bakış
+              href: ../financials/localizations/europe.md
             - name: Avans sahipleri
-              href: ../financials/localizations/emea-advance-holders.md
               items:
+                - name: Avans sahiplerine genel bakış
+                  href: ../financials/localizations/emea-advance-holders.md
                 - name: Avans sahibi hareketleri
                   href: ../financials/localizations/emea-advance-holders-transactions.md
                 - name: Personele avans ödeme (Doğu Avrupa)
@@ -1606,9 +1829,10 @@
                 - name: ISO20022 ödeme biçimini kullanarak satıcı ödemeleri oluşturma ve dışa aktarma
                   href: ../financials/localizations/tasks/create-export-vendor-payments-iso20022-payment-format.md
             - name: İntrastat
-              href: ../financials/localizations/emea-intrastat.md
               items:
-                - name: Hareketleri intrastata transfer etme
+                - name: İntrastat'a genel bakış
+                  href: ../financials/localizations/emea-intrastat.md
+                - name: Hareketleri İntrastat'a transfer etme
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
                 - name: Topluluk içi bir hareket için yükleme adresini belirtme
                   href: ../financials/localizations/tasks/eur-00002-specify-lading-address-intra-community.md
@@ -1685,8 +1909,9 @@
             - name: Kapatma hareketlerini görüntüleme
               href: ../financials/localizations/emea-transactions-settlement-form.md
         - name: Fransa
-          href: ../financials/localizations/france.md
           items:
+            - name: Fransa'ya genel bakış
+              href: ../financials/localizations/france.md
             - name: Kamu sektörü
               items:
                 - name: Kamu sektörü muhasebesi
@@ -1740,13 +1965,15 @@
                 - name: Yazar kasalara ilişkin dağıtım kılavuzları
                   href: ../retail/localizations/emea-fra-deployment.md
         - name: Almanya
-          href: ../financials/localizations/germany.md
           items:
+            - name: Almanya'ya genel bakış
+              href: ../financials/localizations/germany.md
             - name: Ek alım amortismanı
               href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
             - name: Denetim dosyası
-              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
               items:
+                - name: Almanca denetim dosyasına genel bakış
+                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                 - name: Denetim dosyası yapılandırmasını özelleştirme
                   href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
                 - name: Denetim dosyası oluşturma
@@ -1762,8 +1989,9 @@
             - name: Elektronik vergi beyannameleri ayarlama
               href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
         - name: Macaristan
-          href: ../financials/localizations/hungary.md
           items:
+            - name: Macaristan'a genel bakış
+              href: ../financials/localizations/hungary.md
             - name: Döviz kuru hesaplaması
               href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
             - name: Sabit kıymet amortisman yöntemleri
@@ -1777,8 +2005,9 @@
             - name: Yıl sonu kapanışı
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: İzlanda
-          href: ../financials/localizations/iceland.md
           items:
+            - name: İzlanda'ya genel bakış
+              href: ../financials/localizations/iceland.md
             - name: Satıcı hesabı oluşturma ve fatura beyanı kategorisini iliştirme
               href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
             - name: Satıcılar için fatura beyanı ayarlama
@@ -1788,11 +2017,15 @@
             - name: Satıcı fatura beyannamelerini güncelleştirme ve raporu oluşturma
               href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
         - name: Hindistan
-          href: ../financials/localizations/india.md
           items:
+            - name: Hindistan'a genel bakış
+              href: ../financials/localizations/india.md
+            - name: Hintçe yerelleştirmelerin kapsamı
+              href: ../financials/localizations/apac-ind-scope.md
             - name: Sabit kıymetler
-              href: ../financials/localizations/apac-ind-fixed-assets.md
               items:
+                - name: Hindistan'daki sabit kıymetlere genel bakış
+                  href: ../financials/localizations/apac-ind-fixed-assets.md
                 - name: Sabit kıymet defterine gün tabanlı takvim ekleme
                   href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
                 - name: Vardiya amortismanını hesaplama
@@ -1815,10 +2048,11 @@
                   href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
                 - name: Sermaye maddelerini sabit kıymete transfer etme
                   href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
-            - name: Hindistan GST
-              href: ../financials/localizations/apac-ind-gst.md
+            - name: Hindistan GST'si
               items:
-                - name: Hindistan GST referans grupları
+                - name: Hindistan GST'sine genel bakış
+                  href: ../financials/localizations/apac-ind-gst.md
+                - name: Hindistan GST'si referans grupları
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: Yazar kasalara ilişkin GST tümleştirmesi
                   href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
@@ -1960,22 +2194,27 @@
                   href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
                 - name: Yazar kasalara ilişkin dağıtım kılavuzları
                   href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: Vergi altyapısına genel bakış
-              href: ../financials/general-ledger/tax-engine.md
+            - name: Vergi altyapısı
               items:
-                - name: Yapılandırmayı içe aktarma
-                  href: ../financials/general-ledger/tax-engine-import-configuration.md
-                - name: Vergi altyapısı uygulanabilirliği
-                  href: ../financials/general-ledger/tax-engine-applicability.md
-                - name: Vergi altyapısı tümleştirmesi
-                  href: ../financials/general-ledger/tax-engine-integration.md
-                - name: Vergi altyapısını genişletme
-                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+                - name: Vergi altyapısına genel bakış
+                  href: ../financials/general-ledger/tax-engine.md
+                  items:
+                    - name: Yapılandırmayı içe aktarma
+                      href: ../financials/general-ledger/tax-engine-import-configuration.md
+                    - name: Vergi altyapısı uygulanabilirliği
+                      href: ../financials/general-ledger/tax-engine-applicability.md
+                    - name: Vergi altyapısı tümleştirmesi
+                      href: ../financials/general-ledger/tax-engine-integration.md
+                    - name: Vergi altyapısını genişletme
+                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
             - name: Vergi eşikleriyle ilgili SSS
               href: ../financials/localizations/apac-ind-tax-thresholds.md
+            - name: Stok transferleri
+              href: ../financials/localizations/apac-ind-stock-transfer.md
         - name: İtalya
-          href: ../financials/localizations/italy.md
           items:
+            - name: İtalya'ya genel bakış
+              href: ../financials/localizations/italy.md
             - name: KDV beyanı ayrıntıları
               href: ../financials/localizations/emea-ita-vat-statements-details.md
             - name: Kara liste raporu
@@ -1997,8 +2236,9 @@
             - name: Stopaj vergisi
               href: ../financials/localizations/emea-ita-withholding-tax.md
         - name: Japonya
-          href: ../financials/localizations/japan.md
           items:
+            - name: Japonya'ya genel bakış
+              href: ../financials/localizations/japan.md
             - name: Sabit kıymeti alma ve devlet desteği yardımı için talepte bulunma
               href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
             - name: Sabit kıymeti kıymet emeklilik yükümlülükleriyle alma
@@ -2156,8 +2396,9 @@
             - name: Sabit kıymetler için ayrıştırma listesi kullanma
               href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
         - name: Letonya
-          href: ../financials/localizations/latvia.md
           items:
+            - name: Letonya'ya genel bakış
+              href: ../financials/localizations/latvia.md
             - name: Sabit kıymet muhasebesi
               href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
             - name: Sabit kıymet konum değişikliğini izleme
@@ -2169,8 +2410,9 @@
             - name: KDV beyanı ayrıntıları
               href: ../financials/localizations/emea-lva-vat-statement-details.md
         - name: Litvanya
-          href: ../financials/localizations/lithuania.md
           items:
+            - name: Litvanya'ya genel bakış
+              href: ../financials/localizations/lithuania.md
             - name: Sabit kıymet onarım raporu
               href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
             - name: Ambar belgeleri arasında sabit kıymet transferi oluşturma
@@ -2180,8 +2422,9 @@
             - name: KDV beyanı ayrıntıları
               href: ../financials/localizations/emea-ltu-vat-statement-details.md
         - name: Malezya
-          href: ../financials/localizations/malaysia.md
           items:
+            - name: Malezya'ya genel bakış
+              href: ../financials/localizations/malaysia.md
             - name: Proje satışları için müşteri alacağı oluşturma
               href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
             - name: Proje satışları için müşteri borcu oluşturma
@@ -2203,8 +2446,9 @@
             - name: GST serbest bırakma koşulları ayarlama
               href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
         - name: Meksika
-          href: ../financials/localizations/mexico.md
           items:
+            - name: Meksika'ya genel bakış
+              href: ../financials/localizations/mexico.md
             - name: Yerelleştirme kapsamı
               href: ../financials/localizations/latam-mex-scope.md
             - name: Enflasyon ayarı beyanname raporu
@@ -2242,15 +2486,17 @@
             - name: Satıcı kayıt kodları
               href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
         - name: Hollanda
-          href: ../financials/localizations/netherlands.md
           items:
+            - name: Hollanda'ya genel bakış
+              href: ../financials/localizations/netherlands.md
             - name: Elektronik vergi beyannameleri (EVAT)
               href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
             - name: Semansys XBRL tümleştirmesi
               href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
         - name: Norveç
-          href: ../financials/localizations/norway.md
           items:
+            - name: Norveç'e genel bakış
+              href: ../financials/localizations/norway.md
             - name: Müşteri ve satıcı ödeme biçimleri
               href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
             - name: Ödeme koduna göre müşteri ödemesi
@@ -2264,8 +2510,9 @@
             - name: Yazar kasalara ilişkin dağıtım kılavuzları
               href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
         - name: Polonya
-          href: ../financials/localizations/poland.md
           items:
+            - name: Polonya'ya genel bakış
+              href: ../financials/localizations/poland.md
             - name: Storno muhasebesini etkinleştirme
               href: ../financials/localizations/emea-pol-red-storno.md
             - name: Satır iskontolarını birim fiyat üzerinden hesaplama
@@ -2293,11 +2540,12 @@
             - name: Ciro bakiyeleri ekstresi
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: Rusya
-          href: ../financials/localizations/russia.md
           items:
+            - name: Rusya'ya genel bakış
+              href: ../financials/localizations/russia.md
             - name: Genel muhasebe
               items:
-                - name: Hesapların iletişimi
+                - name: Hesap yazışmaları
                   href: ../financials/localizations/rus-correspondence-accounts.md
                 - name: Genel muhasebe hareketlerini önizleme
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
@@ -2306,8 +2554,9 @@
                 - name: Para birimi döviz kurlarını CBRF'den içe aktarma
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Avans sahipleri
-              href: ../financials/localizations/rus-advance-holders.md
               items:
+                - name: Rusya'daki avans sahiplerine genel bakış
+                  href: ../financials/localizations/rus-advance-holders.md
                 - name: Avans sahibi oluşturma
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Avans sahipleri için günlük işlemler
@@ -2318,19 +2567,27 @@
                   href: ../financials/localizations/rus-advance-adjustment-parameters.md
                 - name: Avans sahibi raporları
                   href: ../financials/localizations/rus-local-management-reports-primary-forms.md
-            - name: Banka
+            - name: Nakit ve Banka
               items:
                 - name: Banka hesaplarını ayarlama
                   href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
                 - name: Ödeme emirlerini ayarlama ve işleme
                   href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: Kur farkı ayarlaması
+                  href: ../financials/localizations/rus-exchange-adjustment.md
                 - name: 'Yabancı para biriminde satış, satınalma ve transfer'
                   href: ../financials/localizations/rus-currency-sale-purchase.md
+                - name: Kasa
+                  href: ../financials/localizations/emea-petty-cash.md
             - name: KDV
               items:
                 - name: Satış KDV'sinin yerel olarak özel deftere nakil işlemi
                   href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
-                - name: Vergi temsilcileri için katma değer vergisi (KDV)
+                - name: Fatura işleme ve yazdırma
+                  href: ../financials/localizations/rus-invoice-facture-process-print.md
+                - name: Düzeltme faturaları ve düzeltici faturalar
+                  href: ../financials/localizations/rus-revise-invoice-facture.md
+                - name: Vergi aracıları için katma değer vergisi (KDV)
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: KDV beyannamesi
                   href: ../financials/localizations/rus-VAT-declaration.md
@@ -2382,6 +2639,8 @@
                   href: ../financials/localizations/rus-not-valuable-assets.md
             - name: Alacak ve borç hesapları
               items:
+                - name: Alacak dekontu düzeltmeleri (Rusya)
+                  href: ../financials/localizations/rus-credit-note-correction.md
                 - name: Ödenecek faturalar
                   href: ../financials/localizations/rus-invoice-payment.md
                 - name: Kapatmalar için boyut denetimi ayarlama
@@ -2416,7 +2675,7 @@
               items:
                 - name: Ertelemeleri ayarlama
                   href: ../financials/localizations/rus-set-up-deferrals.md
-                - name: Ertelemeler oluşturma
+                - name: Ertelemeler oluşturma veya üretme
                   href: ../financials/localizations/rus-create-generate-deferrals.md
                 - name: Erteleme girişi
                   href: ../financials/localizations/rus-deferral-transactions.md
@@ -2429,20 +2688,23 @@
                 - name: Erteleme için raporlama
                   href: ../financials/localizations/rus-reporting-deferrals.md
         - name: Suudi Arabistan
-          href: ../financials/localizations/saudi-arabia.md
           items:
+            - name: Suudi Arabistan'a genel bakış
+              href: ../financials/localizations/saudi-arabia.md
             - name: Satış vergisi
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Suudi Arabistan için Zekat raporlaması
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: Singapur
-          href: ../financials/localizations/singapore.md
           items:
-            - name: GST-05 raporunu oluşturma
+            - name: Singapur'a genel bakış
+              href: ../financials/localizations/singapore.md
+            - name: GST-05 raporu oluşturma
               href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
         - name: İspanya
-          href: ../financials/localizations/spain.md
           items:
+            - name: İspanya'ya genel bakış
+              href: ../financials/localizations/spain.md
             - name: Faturada nakit iskontoları uygulama
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Kambiyo senedi seçenekleri
@@ -2472,8 +2734,9 @@
             - name: Özel girişler ve açılış tabloları
               href: ../financials/localizations/emea-esp-opening-sheets-spain.md
         - name: İsveç
-          href: ../financials/localizations/sweden.md
           items:
+            - name: İsveç'e genel bakış
+              href: ../financials/localizations/sweden.md
             - name: İsveç'te denetçiler için mali bilgileri dışa aktarma
               href: ../financials/localizations/emea-swe-sie-standard-report.md
             - name: Ödeme biçimlerini içe aktarma
@@ -2481,13 +2744,15 @@
             - name: Yazar kasalar
               href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
         - name: İsviçre
-          href: ../financials/localizations/switzerland.md
           items:
+            - name: İsviçre'ye genel bakış
+              href: ../financials/localizations/switzerland.md
             - name: ESR'de müşteri ödemelerini içe aktarma
               href: ../financials/localizations/emea-che-esr-customer-payments-import.md
         - name: Tayland
-          href: ../financials/localizations/thailand.md
           items:
+            - name: Tayland'a genel bakış
+              href: ../financials/localizations/thailand.md
             - name: Stok kartı raporları
               href: ../financials/localizations/apac-tha-stock-card-reports.md
             - name: Vergi faturasını değiştirme/ayarlama
@@ -2497,9 +2762,10 @@
             - name: Stopaj vergisi
               href: ../financials/localizations/apac-tha-withholding-tax.md
         - name: Birleşik Krallık
-          href: ../financials/localizations/united-kingdom.md
           items:
-            - name: İnşaat Endüstri Şeması
+            - name: Birleşik Krallık'a genel bakış
+              href: ../financials/localizations/united-kingdom.md
+            - name: İnşaat Sektörü Şeması
               href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
             - name: Kapatma iskontosunda alacak oluşturma
               href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
@@ -2513,21 +2779,23 @@
               href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
             - name: Ters kaydedilecek KDV için satış vergisi grupları ayarlama
               href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-            - name: KDV için Vergiyi Dijital Yapma
+            - name: KDV İçin Vergiyi Dijital Yapma
               href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
         - name: Amerika Birleşik Devletleri
-          href: ../financials/localizations/united-states.md
           items:
+            - name: ABD'ye genel bakış
+              href: ../financials/localizations/united-states.md
             - name: ABD için yıl sonu 1099 raporlaması
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
             - name: Kamu sektörüne yönelik Form 1099
               href: ../financials/localizations/noam-usa-form-1099-public-sector.md
     - name: İnsan kaynakları
-      href: hr/hr-landing-page.md
       items:
+        - name: İnsan kaynaklarına genel bakış
+          href: hr/hr-landing-page.md
         - name: İnsan kaynakları stratejisi geliştirme
           items:
-            - name: Hedefler oluşturma
+            - name: Hedef oluşturma
               href: hr/tasks/create-goal.md
             - name: 'Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme'
               href: ../talent/departments-jobs-positions.md
@@ -2676,8 +2944,9 @@
             - name: Personelin yaralanma ve hastalık bilgilerini koruma
               href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: ABD Bordrosu
-          href: hr/localizations/noam-usa-payroll.md
           items:
+            - name: ABD Bordrosuna genel bakış
+              href: hr/localizations/noam-usa-payroll.md
             - name: Bordro ayarı
               items:
                 - name: Çalışanlar için bordro ayarlama
@@ -2743,28 +3012,31 @@
                 - name: Standart bordro raporları
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
     - name: Zeka
-      href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
-        - name: Bilgi erişimi ve raporlama
+        - name: Karar desteği giriş sayfası
+          href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
+        - name: Bilgiye erişim ve raporlama
           href: ../dev-itpro/analytics/information-access-reporting.md?toc=/fin-and-ops/toc.json
         - name: Power BI içeriği
-          href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Power BI içeriği giriş sayfası
+              href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
             - name: Fiili-bütçe karşılaştırması
               href: ../dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Kazançlar
               href: ../dev-itpro/analytics/benefits-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Nakde genel bakış
               href: ../financials/cash-bank-management/Cash-Overview-Power-BI-content.md
-            - name: CFO genel bakış
+            - name: CFO'ya genel bakış
               href: ../dev-itpro/analytics/CFO-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Ücret
               href: ../dev-itpro/analytics/compensation-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Ücret ve kazançlar
               href: ../dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Maliyet muhasebesi analizi
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Maliyet muhasebesi analizi Power BI içeriği
+                  href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
                 - name: Maliyet muhasebesi analizi Power BI içeriğinin güvenliğini ayarlama
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Maliyet yönetimi
@@ -2807,13 +3079,14 @@
               href: ../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
         - name: Belge raporlama ve yazdırma
           items:
-            - name: Belge Raporlama Hizmetlerine genel bakış
+            - name: Belge Raporlama Servislerine genel bakış
               href: ../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json
-            - name: Şirket içi dağıtımlar için SSRS yapılandırma
+            - name: Şirket içi dağıtımlar için SSRS'yi yapılandırma
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
-            - name: Yazdırılıyor
-              href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
+            - name: Yazdırma
               items:
+                - name: Belge yazdırmaya genel bakış
+                  href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
                 - name: Ağdan yazdırmayı etkinleştirmek için Belge Yönlendirme Aracısı'nı yükleme
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: Belge Yönlendirme Aracısını yükseltme
@@ -2910,10 +3183,8 @@
                       href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
             - name: Excel şablonlarını yeniden uygulayarak Elektronik raporlama biçimlerini değiştirme
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: Finance and Operation sürümüne bağımlı ER yapılandırmaları tasarlama
-              items:
-                - name: ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
-                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
             - name: Mali boyutları kullanmak için ER çözümü tasarlama
               items:
                 - name: Mali boyutları veri kaynakları olarak kullanmak üzere veri modelleri tasarlama
@@ -3032,6 +3303,8 @@
                       href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
                 - name: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
                   href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+                - name: İş belgesi yönetimine genel bakış
+                  href: ../dev-itpro/analytics/er-business-document-management.md?toc=/fin-and-ops/toc.json
             - name: ER altyapısı API'sı
               items:
                 - name: Elektronik raporlama işlev listesini genişletme
@@ -3081,16 +3354,19 @@
             - name: Kendi veritabanınızı getirme
               href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
     - name: Stok yönetimi
-      href: ../supply-chain/inventory/inventory-home-page.md
       items:
-        - name: Varışa genel bakış
-          href: ../supply-chain/inventory/arrival-overview.md
+        - name: Stok yönetimine genel bakış
+          href: ../supply-chain/inventory/inventory-home-page.md
+        - name: Varış
           items:
+            - name: Varışa genel bakış
+              href: ../supply-chain/inventory/arrival-overview.md
             - name: Madde varışı genel bakış profili ayarlama
               href: ../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md
         - name: Kalite yönetimi
-          href: ../supply-chain/inventory/enable-quality-management.md
           items:
+            - name: Kalite yönetimine genel bakış
+              href: ../supply-chain/inventory/enable-quality-management.md
             - name: Kalite yönetimi işlemleri
               href: ../supply-chain/inventory/quality-management-processes.md
             - name: Uygunsuzluk yönetimi
@@ -3156,8 +3432,9 @@
             - name: Eldeki stok mobil çalışma alanı
               href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md
         - name: Giden işlem
-          href: ../supply-chain/inventory/outbound-process.md
           items:
+            - name: Giden işleme genel bakış
+              href: ../supply-chain/inventory/outbound-process.md
             - name: Stok miktarlarını rezerve etme
               href: ../supply-chain/inventory/reserve-inventory-quantities.md
             - name: Satış siparişi için aynı toplu işi rezerve etme
@@ -3261,16 +3538,144 @@
               href: ../supply-chain/asset-management/manage-maintenance-requests/create-work-order-from-a-maintenance-request.md
             - name: Ödünç varlıklar
               href: ../supply-chain/asset-management/manage-maintenance-requests/asset-loan.md
-            - name: Gelen ve giden varlıklar
+            - name: Gelen ve giden kıymetler
               href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
             - name: Bakım talebi raporları
               href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
-    - name: Master planlama
-      href: ../supply-chain/master-planning/master-planning-home-page.md
-      items:
-        - name: Master planlar
-          href: ../supply-chain/master-planning/master-plans.md
+        - name: İş emirleri ayarı
           items:
+            - name: 'Bakım işi türü kategorileri ve bakım iş türleri, bakım iş türü çeşitleri, bakım işi işlemleri ve bakım denetim listeleri'
+              href: ../supply-chain/asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
+            - name: İş emri yaşam döngüsü durumları
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-lifecycle-states.md
+            - name: İş emri türleri
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-types.md
+            - name: İş emri proje ayarı
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-project-setup.md
+            - name: Servis düzeyi ve açıklaması
+              href: ../supply-chain/asset-management/setup-for-work-orders/service-level-and-description.md
+            - name: Planlı yürütme
+              href: ../supply-chain/asset-management/setup-for-work-orders/scheduled-execution.md
+            - name: Hata yönetimi
+              href: ../supply-chain/asset-management/setup-for-work-orders/fault-management.md
+        - name: İş emirleri
+          items:
+            - name: İş emirlerine giriş
+              href: ../supply-chain/asset-management/work-orders/introduction-to-work-orders.md
+            - name: El ile oluşturulmuş iş emirleri
+              href: ../supply-chain/asset-management/work-orders/manually-created-workorders.md
+            - name: Bakım tahminleri
+              href: ../supply-chain/asset-management/work-orders/maintenance-forecasts.md
+            - name: Tedarik
+              href: ../supply-chain/asset-management/work-orders/procurement.md
+            - name: Kıymet sayaçlarını el ile güncelleştirme
+              href: ../supply-chain/asset-management/work-orders/manual-update-of-asset-counters.md
+            - name: Kıymet sayaçlarını otomatik olarak güncelleştirme
+              href: ../supply-chain/asset-management/work-orders/automatic-update-of-asset-counters.md
+            - name: Bakım denetim listeleri
+              href: ../supply-chain/asset-management/work-orders/maintenance-checklists.md
+            - name: Bakım kesinti süresi
+              href: ../supply-chain/asset-management/work-orders/maintenance-downtime.md
+            - name: İş emrine hata ekle
+              href: ../supply-chain/asset-management/work-orders/add-fault-to-work-order.md
+            - name: İş emri raporu
+              href: ../supply-chain/asset-management/work-orders/work-order-report.md
+            - name: İş emri havuzları
+              href: ../supply-chain/asset-management/work-orders/work-order-pools.md
+            - name: Etkin iş emri bakım işleri
+              href: ../supply-chain/asset-management/work-orders/active-work-order-jobs-overview.md
+            - name: İş emirleri ve sabit kıymetler
+              href: ../supply-chain/asset-management/work-orders/work-orders-and-fixed-assets.md
+        - name: Proje yönetimi ve muhasebeye entegrasyon
+          items:
+            - name: 'Tahminler, iş emirleri ve projeler'
+              href: ../supply-chain/asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+        - name: Önleyici ve reaktif bakım
+          items:
+            - name: Önleyici bakım
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/preventive-maintenance-overview.md
+            - name: Bakım planları
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-plans.md
+            - name: Bakım planlarını zamanlama
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/schedule-maintenance-plans.md
+            - name: Bakım sıraları
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-rounds.md
+            - name: Bakım zamanlaması
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule.md
+            - name: Bakım zamanlaması maliyeti
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
+            - name: İş emirleri oluşturma
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
+            - name: Bakım kesinti süresi
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
+        - name: Kapasite planlaması
+          items:
+            - name: Kapasite yükünü hesaplama
+              href: ../supply-chain/asset-management/capacity-planning/calculate-capacity-load.md
+            - name: Madde tahminini hesaplama
+              href: ../supply-chain/asset-management/capacity-planning/calculate-item-forecast.md
+        - name: İş emri zamanlaması
+          items:
+            - name: Bakım görevlisi takvimi ve zamanlama
+              href: ../supply-chain/asset-management/work-order-scheduling/maintenance-worker-calendar-and-scheduling.md
+            - name: Tercih edilen bakım görevlileri
+              href: ../supply-chain/asset-management/work-order-scheduling/preferred-maintenance-workers.md
+            - name: İş emirlerini zamanlama
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-orders.md
+            - name: İş emri gönderme
+              href: ../supply-chain/asset-management/work-order-scheduling/dispatch-work-order.md
+            - name: İş emrini belirli bir tarihte ve saatte zamanlama
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-order-on-specific-date-and-time.md
+            - name: Zamanlanmış iş emri bakım işleri
+              href: ../supply-chain/asset-management/work-order-scheduling/scheduled-work-order-maintenance-jobs.md
+            - name: Zamanlanan iş emirleriyle ilgili kapasite yükünü hesaplama
+              href: ../supply-chain/asset-management/work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md
+        - name: Tüketim
+          items:
+            - name: Tüketimi kaydetme
+              href: ../supply-chain/asset-management/consumption/register-consumption.md
+            - name: Tüketim raporları oluşturma
+              href: ../supply-chain/asset-management/consumption/create-consumption-reports.md
+        - name: Garanti
+          items:
+            - name: Garanti sözleşmesi
+              href: ../supply-chain/asset-management/warranty/warranty-agreement.md
+            - name: Kıymet ve kıymet türlerinde garanti
+              href: ../supply-chain/asset-management/warranty/warranty-on-assets-and-asset-types.md
+        - name: Bakım bütçeleri
+          items:
+            - name: Bakım bütçeleri
+              href: ../supply-chain/asset-management/maintenance-budgets/create-maintenance-budget.md
+            - name: Bakım bütçelerini güncelleştirme
+              href: ../supply-chain/asset-management/maintenance-budgets/update-maintenance-budget.md
+        - name: Denetim ve raporlama
+          items:
+            - name: Maliyet ve tarih kontrolü
+              href: ../supply-chain/asset-management/controlling-and-reporting/cost-and-date-control.md
+            - name: Çalışma saati denetimi
+              href: ../supply-chain/asset-management/controlling-and-reporting/work-hour-control.md
+            - name: Kıymet hata maliyeti denetimi
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-cost-control.md
+            - name: Kıymet hata analizi
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-analysis.md
+            - name: Kıymet KPI'ları
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-kpis.md
+            - name: Kullanıldığı madde
+              href: ../supply-chain/asset-management/controlling-and-reporting/item-where-used.md
+            - name: Bakım durumu
+              href: ../supply-chain/asset-management/controlling-and-reporting/maintenance-status.md
+        - name: Veri yönetimi
+          items:
+            - name: Hedef varlıklar
+              href: ../supply-chain/asset-management/data-management/target-entities.md
+    - name: Master planlama
+      items:
+        - name: Master planlama giriş sayfası
+          href: ../supply-chain/master-planning/master-planning-home-page.md
+        - name: Master planlar
+          items:
+            - name: Master planlara genel bakış
+              href: ../supply-chain/master-planning/master-plans.md
             - name: Master planları ayarlama
               href: ../supply-chain/master-planning/master-planning-setup.md
             - name: Master planlama kurulum sihirbazı
@@ -3304,9 +3709,10 @@
             - name: Master planlama performansını iyileştirme
               href: ../supply-chain/master-planning/master-planning-performance.md
             - name: Master planlar ve çoklu tesis işlevi
-              href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
-                - name: 'Tesis kapsamı için master planlama, zorunlu ambar'
+                - name: Master planlama ve birden çok tesis işlevine genel bakış
+                  href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
+                - name: 'Tesis kapsamı için master planlama, ambar zorunlu'
                   href: ../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md
                 - name: 'Tesis kapsamı için master planlama, ambar zorunlu değil'
                   href: ../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
@@ -3327,8 +3733,9 @@
             - name: İç tedarik zinciri müşterileriyle işbirliği yapma
               href: ../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md
         - name: Talep tahmini
-          href: ../supply-chain/master-planning/introduction-demand-forecasting.md
           items:
+            - name: Talep tahminine genel bakış
+              href: ../supply-chain/master-planning/introduction-demand-forecasting.md
             - name: Talep tahmini kurulumu
               href: ../supply-chain/master-planning/demand-forecasting-setup.md
             - name: Talep tahminleri için geçmiş verilerini içe aktarma
@@ -3349,15 +3756,17 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Talep tahminini el ile değiştirme
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Mobil uygulama
-      href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+    - name: Dynamics 365 for Unified Operations Mobile uygulaması
       items:
-        - name: Kullanılabilir mobil çalışma alanları
-          href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
+        - name: Dynamics 365 for Unified Operations Mobile uygulaması giriş sayfası
+          href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+        - name: Mobil çalışma alanları
           items:
+            - name: Kullanılabilir mobil çalışma alanları
+              href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
             - name: Şirket dizini
               href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/fin-and-ops/toc.json
-            - name: Maliyet kontrolü
+            - name: Maliyet denetimi
               href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
             - name: Gider yönetimi
               href: ../financials/expense-management/expense-management-mobile-workspace.md
@@ -3367,11 +3776,11 @@
               href: ../dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: Takımım
               href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/fin-and-ops/toc.json
-            - name: Proje mobil uygulamalarına genel bakış
+            - name: Project mobil uygulamalarına genel bakış
               href: ../financials/project-management/project-mobile-application-overview.md
             - name: Proje süresi girişi
               href: ../financials/project-management/project-time-entry-mobile-workspace.md
-            - name: Proje zaman çizelgesi
+            - name: Project Timesheet
               href: ../financials/project-management/project-timesheet.md
             - name: Satınalma siparişi onayı
               href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
@@ -3382,8 +3791,9 @@
         - name: Mobil çalışma alanlarını yayımlama
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: Office tümleştirmesi
-      href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Office tümleştirmesine genel bakış
+          href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
         - name: Office tümleştirmesi eğitimi
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
         - name: Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme
@@ -3401,25 +3811,29 @@
         - name: Office tümleştirmesi ile ilgili sorunları giderme
           href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/fin-and-ops/toc.json
     - name: Tedarik ve kaynak atama
-      href: ../supply-chain/procurement/procurement-sourcing-overview.md
       items:
+        - name: Tedarik ve kaynak atamaya genel bakış
+          href: ../supply-chain/procurement/procurement-sourcing-overview.md
         - name: Tedarik ve kaynak atama iş akışı
           href: ../supply-chain/procurement/procurement-sourcing-workflows.md
         - name: Tedarik katalogları
-          href: ../supply-chain/procurement/procurement-catalogs.md
           items:
+            - name: Tedarik kataloglarına genel bakış
+              href: ../supply-chain/procurement/procurement-catalogs.md
             - name: Tedarik kataloğu oluşturma
               href: ../supply-chain/procurement/tasks/create-procurement-catalog.md
             - name: Tedarik kategorisi hiyerarşisini ayarlama
               href: ../supply-chain/procurement/tasks/set-up-procurement-category-hierarchy.md
         - name: Satınalma talepleri
-          href: ../supply-chain/procurement/purchase-requisitions-overview.md
           items:
+            - name: Satınalma taleplerine genel bakış
+              href: ../supply-chain/procurement/purchase-requisitions-overview.md
             - name: Satınalma talebi iş akışı
               href: ../supply-chain/procurement/purchase-requisitions-workflow.md
         - name: Teklif talepleri (RFQ'lar)
-          href: ../supply-chain/procurement/request-quotations.md
           items:
+            - name: Teklif taleplerine (RFQ'lar) genel bakış
+              href: ../supply-chain/procurement/request-quotations.md
             - name: Teklif talebi oluşturma
               href: ../supply-chain/procurement/tasks/create-request-quotation.md
             - name: RFQ kullanan bir talep oluşturma
@@ -3471,8 +3885,9 @@
             - name: Satıcı indirimleri
               href: ../supply-chain/procurement/vendor-rebates.md
         - name: Satınalma ilkeleri
-          href: ../supply-chain/procurement/purchase-policies.md
           items:
+            - name: Satınalma ilkelerine genel bakış
+              href: ../supply-chain/procurement/purchase-policies.md
             - name: Satınalma ilkeleri oluşturma
               href: ../supply-chain/procurement/tasks/create-purchasing-policies.md
             - name: Tedarik kategorisi hiyerarşileri için ilkeler ayarlama
@@ -3530,18 +3945,21 @@
             - name: Proje bütçe revizyonlarını gönderme ve onaylama
               href: ../supply-chain/procurement/tasks/submit-approve-project-budget-revision.md
     - name: Kuruluş yönetimi
-      href: organization-administration/organization-administration-home-page.md
       items:
-        - name: Numara serileri
-          href: organization-administration/number-sequence-overview.md
+        - name: Kuruluş yönetimi giriş sayfası
+          href: organization-administration/organization-administration-home-page.md
+        - name: Numara sıraları
           items:
-            - name: Bireysel olarak numara serileri ayarlama
+            - name: Numara sıralarına genel bakış
+              href: organization-administration/number-sequence-overview.md
+            - name: Bireysel olarak numara sıraları ayarlama
               href: organization-administration/tasks/set-up-number-sequences-individual-basis.md
-            - name: Sihirbaz kullanarak numara serilerini ayarlama
+            - name: Sihirbaz kullanarak numara sıraları ayarlama
               href: organization-administration/tasks/set-up-number-sequences-wizard.md
         - name: Kuruluşlar ve kuruluş hiyerarşileri
-          href: organization-administration/organizations-organizational-hierarchies.md
           items:
+            - name: Kuruluşlar ve kuruluş hiyerarşilerine genel bakış
+              href: organization-administration/organizations-organizational-hierarchies.md
             - name: Kuruluş hiyerarşinizi planlama
               href: organization-administration/plan-organizational-hierarchy.md
             - name: Kuruluş hiyerarşisi oluşturma
@@ -3551,8 +3969,9 @@
             - name: Çalışma birimleri oluşturma
               href: organization-administration/tasks/create-operating-unit.md
         - name: Genel adres defteri
-          href: organization-administration/overview-global-address-book.md
           items:
+            - name: Genel adres defterine genel bakış
+              href: organization-administration/overview-global-address-book.md
             - name: Genel adres defteri ve diğer adres defterleri için planlama
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: Genel adres defterini yapılandırma
@@ -3562,8 +3981,9 @@
             - name: Adres defterlerini yapılandırma
               href: organization-administration/tasks/address-books.md
         - name: İş akışı sistemi
-          href: organization-administration/overview-workflow-system.md
           items:
+            - name: İş akışı sistemine genel bakış
+              href: organization-administration/overview-workflow-system.md
             - name: İş akışı sistemi mimarisi
               href: organization-administration/workflow-system-architecture.md
             - name: İş akışı öğeleri
@@ -3571,8 +3991,9 @@
             - name: İş akışı eylemleri
               href: organization-administration/workflow-actions.md
             - name: İş akışları oluşturma
-              href: organization-administration/create-workflow.md
               items:
+                - name: İş akışlarına genel bakış
+                  href: organization-administration/create-workflow.md
                 - name: İş akışı özelliklerini yapılandırma
                   href: organization-administration/configure-workflow-properties.md
                 - name: El ile girilen görevleri yapılandırma
@@ -3624,8 +4045,9 @@
             - name: İş akışıyla ilgili SSS
               href: organization-administration/workflow-FAQ.md
         - name: Uyarılar
-          href: get-started/alerts-overview.md
           items:
+            - name: Uyarılara genel bakış
+              href: get-started/alerts-overview.md
             - name: Uyarı kuralları oluşturma
               href: get-started/create-alerts.md
             - name: Uyarıların toplu işlenmesi
@@ -3633,18 +4055,21 @@
             - name: E-postayla istemci uyarı bildirimleri
               href: get-started/alert-email-notifications.md
         - name: Elektronik imzalar
-          href: organization-administration/electronic-signature-overview.md
           items:
+            - name: Elektronik imzalara genel bakış
+              href: organization-administration/electronic-signature-overview.md
             - name: Elektronik imzaları ayarlama
               href: organization-administration/tasks/set-up-electronic-signatures.md
         - name: Servis talebi yönetimi
-          href: organization-administration/cases.md
           items:
+            - name: Servis talebi yönetimine genel bakış
+              href: organization-administration/cases.md
             - name: 'Servis talebi güvenliğini, işlemlerini ve kategorilerini planlama'
               href: organization-administration/plan-case-management.md
         - name: Kayıt şablonları
-          href: organization-administration/record-templates.md
           items:
+            - name: Kayıt şablonlarına genel bakış
+              href: organization-administration/record-templates.md
             - name: Kayıt şablonu oluşturma
               href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
             - name: Yeni kayıt oluşturmak için kayıt şablonu kullanma
@@ -3656,8 +4081,9 @@
         - name: Tarih/saat tarih ve saat dilimleri
           href: organization-administration/date-time-zones.md
     - name: Üretim denetimi
-      href: ../supply-chain/production-control/production-process-overview.md
       items:
+        - name: Üretim sürecine genel bakış
+          href: ../supply-chain/production-control/production-process-overview.md
         - name: 'Karma modda planlama: Ayrık, yalın kaynaklar ile işlem kaynaklarını birleştirme'
           href: ../supply-chain/production-control/mixed-mode-plan.md
         - name: Üretimde alt sözleşme işini yönetme
@@ -3721,8 +4147,9 @@
             - name: Üretim işlerini çalıştırma
               items:
                 - name: Üretim emri yaşam döngüsünü yönetme
-                  href: ../supply-chain/production-control/create-production-orders.md
                   items:
+                    - name: Üretim emri yaşam döngüsüne genel bakış
+                      href: ../supply-chain/production-control/create-production-orders.md
                     - name: Üretim emri oluşturma
                       href: ../supply-chain/production-control/tasks/create-production-order.md
                     - name: Üretim emri tahmin etme
@@ -3782,8 +4209,9 @@
                 - name: Üretimin deftere nakli
                   href: ../supply-chain/cost-management/production-posting.md
             - name: Saat ve işe devam durumu kaydı
-              href: ../supply-chain/production-control/time-attendance-registrations.md
               items:
+                - name: Saat ve işe devam kaydına genel bakış
+                  href: ../supply-chain/production-control/time-attendance-registrations.md
                 - name: Kayıtlara dayalı ödeme yapma
                   href: ../supply-chain/production-control/pay-based-on-registrations.md
                 - name: Saat ve işe devamda devamsızlık kaydı
@@ -3945,8 +4373,9 @@
                 - name: Üretimin deftere nakli
                   href: ../supply-chain/cost-management/production-posting.md
     - name: Ürün bilgileri yönetimi
-      href: ../supply-chain/pim/product-information.md
       items:
+        - name: Ürün bilgilerine genel bakış
+          href: ../supply-chain/pim/product-information.md
         - name: Ürün bilgileri
           items:
             - name: Ürün tanımlayıcıları
@@ -3972,8 +4401,9 @@
             - name: Tek bir şirket için serbest bırakılan ürün oluşturma
               href: ../supply-chain/pim/tasks/create-released-product-single-company.md
             - name: Ürün yaşam döngüsü durumu
-              href: ../supply-chain/pim/product-lifecycle.md
               items:
+                - name: Ürün yaşam döngüsü durumuna genel bakış
+                  href: ../supply-chain/pim/product-lifecycle.md
                 - name: Yeni ürün yaşam döngüsü durumu oluşturma
                   href: ../supply-chain/pim/tasks/new-product-lifecycle-state.md
                 - name: Varsayılan ürün yaşam döngüsü durumu oluşturma
@@ -4017,11 +4447,13 @@
             - name: Ürün reçetesi hesaplamaları
               href: ../supply-chain/cost-management/bom-calculations.md
         - name: Ürün yapılandırması
-          href: ../supply-chain/pim/build-product-configuration-model.md
           items:
+            - name: Ürün yapılandırmasına genel bakış
+              href: ../supply-chain/pim/build-product-configuration-model.md
             - name: Boyut tabanlı yapılandırma oluşturma
-              href: ../supply-chain/pim/dimension-based-product-configuration.md
               items:
+                - name: Boyut tabanlı ürün yapılandırmasına genel bakış
+                  href: ../supply-chain/pim/dimension-based-product-configuration.md
                 - name: Ürün boyutu
                   href: ../supply-chain/pim/product-dimensions.md
                 - name: Boyut tabanlı ana ürün oluşturma
@@ -4041,8 +4473,9 @@
                 - name: Boyut tabanlı yapılandırmalar oluşturma
                   href: ../supply-chain/pim/tasks/create-dimension-based-configurations.md
             - name: Kısıtlama tabanlı yapılandırma oluşturma
-              href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
               items:
+                - name: Ürün yapılandırma modeli ayarlama
+                  href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
                 - name: Ürün yapılandırma modeli hesaplamasıyla ilgili SSS
                   href: ../supply-chain/pim/calculate-product-configuration-models.md
                 - name: Yapılandırma kuralı
@@ -4072,8 +4505,9 @@
                 - name: Ürün modelleri için verileri aktarma
                   href: ../supply-chain/pim/tasks/transfer-data-product-models.md
     - name: Proje yönetimi ve muhasebe
-      href: ../financials/project-management/overview-project-management-accounting.md
       items:
+        - name: Proje yönetimi ve muhasebeye genel bakış
+          href: ../financials/project-management/overview-project-management-accounting.md
         - name: Şirketlerarası faturalama
           href: ../financials/project-management/intercompany-invoicing.md
         - name: Şirketlerarası proje faturalamasını yapılandırma
@@ -4099,23 +4533,25 @@
         - name: Satınalma siparişinde madde gereksiniminden maddeleri alma
           href: ../financials/project-management/tasks/receive-items-purchase-order-item-requirement.md
         - name: İş kırılım yapıları
-          href: ../financials/project-management/work-breakdown-structures.md
           items:
-            - name: Microsoft Project istemci tümleştirmesi
+            - name: İş kırılım yapılarına genel bakış
+              href: ../financials/project-management/work-breakdown-structures.md
+            - name: Microsoft Project Client tümleştirmesi
               href: ../financials/project-management/project-integration.md
-        - name: Proje mobil uygulamalarına genel bakış
+        - name: Project mobil uygulamalarına genel bakış
           href: ../financials/project-management/project-mobile-application-overview.md
         - name: Proje süresi girişi mobil çalışma alanı
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
-        - name: Proje zaman çizelgesi mobil uygulaması
+        - name: Project Timesheet mobil uygulaması
           href: ../financials/project-management/project-timesheet.md
         - name: Mobil cihazda proje zaman çizelgeleri
           href: ../financials/project-management/mobile-timesheets.md
-        - name: Proje zaman çizelgesi mobil uygulaması için özel alanlar uygulama
+        - name: Project Timesheet mobil uygulaması için özel alanlar uygulama
           href: ../financials/project-management/custom-fields-mobile.md
     - name: Satış ve pazarlama
-      href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:
+        - name: Satış ve pazarlamaya genel bakış
+          href: ../supply-chain/sales-marketing/overview-sales-marketing.md
         - name: Satış siparişleri
           items:
             - name: Sipariş taahhüdü
@@ -4149,11 +4585,12 @@
             - name: Satış siparişlerini onaylama
               href: ../supply-chain/sales-marketing/tasks/confirm-sales-orders.md
         - name: Satış sözleşmeleri
-          href: ../supply-chain/sales-marketing/sales-agreements.md
           items:
-            - name: Satış sözleşmelerini girme
+            - name: Satış sözleşmelerine genel bakış
+              href: ../supply-chain/sales-marketing/sales-agreements.md
+            - name: Satış sözleşmeleri girme
               href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
-            - name: Satış sözleşmelerini karşılama
+            - name: Satış sözleşmelerinin koşullarını yerine getirme
               href: ../supply-chain/sales-marketing/tasks/fulfill-sales-agreements.md
             - name: Müşteri indirimlerini oluşturma ve işleme
               href: ../supply-chain/sales-marketing/tasks/process-customer-rebates.md
@@ -4184,13 +4621,15 @@
         - name: Yeni bir ticari sözleşme oluşturma
           href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
     - name: Servis yönetimi
-      href: ../supply-chain/service-management/service-management-home-page.md
       items:
+        - name: Servis yönetimine genel bakış
+          href: ../supply-chain/service-management/service-management-home-page.md
         - name: Müşteri hizmetlerini ayarlama
           items:
             - name: Servis sözleşmeleri ayarlama
-              href: ../supply-chain/service-management/service-agreement-groups.md
               items:
+                - name: Servis sözleşmelerine genel bakış
+                  href: ../supply-chain/service-management/service-agreement-groups.md
                 - name: Servis sözleşmeleri oluşturma
                   href: ../supply-chain/service-management/create-service-agreements.md
                 - name: Servis aralıkları
@@ -4204,13 +4643,15 @@
                 - name: Servis şablonu grubu oluşturma
                   href: ../supply-chain/service-management/create-service-template-group.md
             - name: Servis görevlerini ayarlama
-              href: ../supply-chain/service-management/service-tasks.md
               items:
+                - name: Servis görevlerine genel bakış
+                  href: ../supply-chain/service-management/service-tasks.md
                 - name: Servis görevi ilişkileri oluşturma
                   href: ../supply-chain/service-management/create-service-task-relations.md
             - name: Servis nesnelerini ayarlama
-              href: ../supply-chain/service-management/service-objects.md
               items:
+                - name: Servis nesnelerine genel bakış
+                  href: ../supply-chain/service-management/service-objects.md
                 - name: Servis nesneleri oluşturma
                   href: ../supply-chain/service-management/create-service-task-relations.md
                 - name: Servis nesnelerine stok maddeleri iliştirme
@@ -4230,8 +4671,9 @@
                 - name: Servis nesnelerine şablonlar iliştirme
                   href: ../supply-chain/service-management/attach-templates-service-objects.md
             - name: Servis siparişleri için neden kodları tanımlama
-              href: ../supply-chain/service-management/reason-codes-service-orders.md
               items:
+                - name: Servis siparişleri neden kodları
+                  href: ../supply-chain/service-management/reason-codes-service-orders.md
                 - name: Servis siparişi aşamaları
                   href: ../supply-chain/service-management/service-order-stages.md
                 - name: Servis siparişi aşamalarını ayarlama
@@ -4239,9 +4681,10 @@
                 - name: Neden kodları oluşturma
                   href: ../supply-chain/service-management/create-reason-codes.md
             - name: Servis sözleşmelerini ve abonelikleri ayarlama
-              href: ../supply-chain/service-management/service-level-agreements.md
               items:
-                - name: Abonelik satış fiyatı
+                - name: Servis düzeyi sözleşmelerine genel bakış
+                  href: ../supply-chain/service-management/service-level-agreements.md
+                - name: Abonelik satış fiyatları
                   href: ../supply-chain/service-management/subscription-sales-prices.md
                 - name: Abonelik grupları
                   href: ../supply-chain/service-management/subscription-groups.md
@@ -4254,8 +4697,9 @@
             - name: Onarım yönetimini ayarlama
               href: ../supply-chain/service-management/repair-management.md
             - name: Müşteri iadelerini ayarlama
-              href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
               items:
+                - name: Müşteri iadelerine genel bakış
+                  href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
                 - name: Elden çıkarma kodlarını ayarlama
                   href: ../supply-chain/service-management/set-up-disposition-codes.md
                 - name: İade neden kodlarını ayarlama
@@ -4263,14 +4707,17 @@
                 - name: İade edilen maddelerin nasıl elden çıkarılacağını belirtme
                   href: ../supply-chain/service-management/specify-how-to-dispose-of-returned-items.md
         - name: Müşteri hizmetleriyle çalışma
-          href: ../supply-chain/service-management/working-with-customer-service.md
           items:
+            - name: Müşteri hizmetleriyle çalışmaya genel bakış
+              href: ../supply-chain/service-management/working-with-customer-service.md
             - name: Servis sözleşmelerini karşılama
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Servis sözleşmelerinin koşullarını yerine getirmeye genel bakış
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Sözleşmeler geliştirme ve oluşturma
-                  href: ../supply-chain/service-management/service-agreements.md
                   items:
+                    - name: Servis sözleşmeleri geliştirme ve oluşturmaya genel bakış
+                      href: ../supply-chain/service-management/service-agreements.md
                     - name: Servis sözleşmeleri oluşturma
                       href: ../supply-chain/service-management/create-service-agreements.md
                     - name: Servis abonelikleri
@@ -4296,8 +4743,9 @@
                     - name: Abonelik satış fiyatlarını güncelleştirme ve endeksleme
                       href: ../supply-chain/service-management/update-and-index-subscription-sales-prices.md
             - name: Müşteri sorgularını işleme
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Servis sözleşmelerinin koşullarını yerine getirmeye genel bakış
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Servis siparişinde zaman kaydını başlatma ve durdurma
                   href: ../supply-chain/service-management/start-and-stop-time-recording-on-a-service-order.md
                 - name: Servis siparişinin başlangıç zamanını ve süresini görüntüleme
@@ -4407,8 +4855,9 @@
                     - name: Fatura abonelik hareketleri
                       href: ../supply-chain/service-management/invoice-subscription-transactions.md
     - name: Taşıma yönetimi
-      href: ../supply-chain/transportation/transportation-management-overview.md
       items:
+        - name: Taşıma yönetimine genel bakış
+          href: ../supply-chain/transportation/transportation-management-overview.md
         - name: Taşıma yönetimi altyapıları
           href: ../supply-chain/transportation/transportation-management-engines.md
         - name: Yeni bir taşıma yönetimi altyapısı oluşturma
@@ -4420,8 +4869,9 @@
         - name: Navlun taşıma rotalarını planlama
           href: ../supply-chain/transportation/plan-freight-transportation-routes-multiple-stops.md
         - name: Hub birleştirme kullanarak yükleri planlama
-          href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
           items:
+            - name: Hub birleştirme kullanarak yükleri planlamaya genel bakış
+              href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
             - name: Yük planlama çalışma ekranını kullanarak yükleri ve sevkiyatları planlama
               href: ../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md
         - name: Konteyner ağırlığını ve hacmini yüke dahil etme
@@ -4451,11 +4901,13 @@
         - name: Madde için taşıma sınırlamalarını ayarlama
           href: ../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md
     - name: Ambar yönetimi
-      href: ../supply-chain/warehousing/warehouse-management-overview.md
       items:
+        - name: Ambar yönetimine genel bakış
+          href: ../supply-chain/warehousing/warehouse-management-overview.md
         - name: Ambar yapılandırması
-          href: ../supply-chain/warehousing/warehouse-configuration.md
           items:
+            - name: Ambar yapılandırmasına genel bakış
+              href: ../supply-chain/warehousing/warehouse-configuration.md
             - name: Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
               href: ../supply-chain/inventory/warehouse-template.md
             - name: İş şablonları ve yerleşim yönergelerini kullanarak iş denetimi
@@ -4485,8 +4937,9 @@
             - name: Transfer emirleri için ambar ayarlama
               href: ../supply-chain/warehousing/transfer-orders-warehouse.md
         - name: Ambar iş ilkeleri
-          href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
+            - name: Ambar iş ilkelerine genel bakış
+              href: ../supply-chain/warehousing/warehouse-work-policies.md
             - name: Ambar iş ilkelerini ayarlama
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: Ambar yönetiminde stoğu ilişkili işle birlikte taşıma
@@ -4546,8 +4999,9 @@
             - name: Stok etiket sayımı
               href: ../supply-chain/inventory/inventory-tag-counting.md
         - name: Stok yenileme
-          href: ../supply-chain/warehousing/replenishment.md
           items:
+            - name: Stok yenilemeye genel bakış
+              href: ../supply-chain/warehousing/replenishment.md
             - name: Anlık stok yenileme
               href: ../supply-chain/warehousing/immediate-replenishment.md
             - name: Çekme kanbanlarıyla stok yenileme
@@ -4555,8 +5009,9 @@
             - name: Minimum-maksimum stok yenileme işlemini ayarlama
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
         - name: Ambarlama uygulamasını yükleme ve yapılandırma
-          href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
+            - name: Yükleme ve yapılandırmaya genel bakış
+              href: ../supply-chain/warehousing/install-configure-warehousing-app.md
             - name: Ambarlama uygulamasında alan adlarını yapılandırma
               href: ../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md
             - name: Ambar işi için mobil cihazları ayarlama
