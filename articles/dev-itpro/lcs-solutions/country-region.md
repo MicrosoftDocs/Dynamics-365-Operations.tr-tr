@@ -1,9 +1,9 @@
 ---
-title: Globalleştirme
+title: Globalleştirme kaynakları
 description: Bu konu, ülkeye/bölgeye özgü işlevler ve teklifler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/01/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d2fe0b357edf3594aa7d795eb2a15f03a886d79
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 668a24c54ded798658a136b8482823b595962306
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850627"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864978"
 ---
-# <a name="globalization"></a>Globalleştirme
+# <a name="globalization-resources"></a>Globalleştirme kaynakları
 
 ## <a name="local-and-regional-deployments"></a>Yerel ve bölgesel dağıtımlar
-Bulunduğunuz yerdeki resmi düzenlemeler verilerin diğer ülkelerden/bölgelerden farklı şekilde depolanmasını veya sunulmasını gerektiriyorsa, Finance and Operations'ı dağıtırken dikkate almanız gereken ülkeye/bölgeye özgü gereklilikler olabilir. Sizinle ilgili olabilecek aşağıdaki kaynakları inceleyin:
+Bulunduğunuz bölgedeki mevzuat verilerin diğer ülkelerden/bölgelerden farklı şekilde depolanmasını veya sunulmasını gerektiriyorsa Finance and Operations'ı dağıtırken dikkate almanız gereken ülkeye/bölgeye özel gereklilikler olabilir. Sizinle ilgili olabilecek aşağıdaki kaynakları inceleyin:
 
 [Microsoft Dynamics 365 for Finance and Operations - Çin'de 21Vianet tarafından işletilir](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
