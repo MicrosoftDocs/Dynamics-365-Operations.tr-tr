@@ -19,50 +19,56 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ca62a6b3aa64ec2383ee3ded3b7bbf4650a41166
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 5e71729dafd2ad85a01b055363d1c7056b5558b2
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797287"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873117"
 ---
-# <a name="troubleshooting-guide-for-data-integration"></a><span data-ttu-id="e77e1-103">Veri tümleştirme sorunlarını giderme kılavuzu</span><span class="sxs-lookup"><span data-stu-id="e77e1-103">Troubleshooting guide for data integration</span></span>
+# <a name="troubleshooting-guide-for-data-integration"></a><span data-ttu-id="1c712-103">Veri tümleştirme sorunlarını giderme kılavuzu</span><span class="sxs-lookup"><span data-stu-id="1c712-103">Troubleshooting guide for data integration</span></span>
 
-## <a name="enable-plugin-trace-in-common-data-service-and-check-the-dual-write-plugin-error-details"></a><span data-ttu-id="e77e1-104">Common Data Service'teki Plugin Trace'i etkinleştirin ve çift yazma eklentisi hata ayrıntılarını kontrol edin</span><span class="sxs-lookup"><span data-stu-id="e77e1-104">Enable Plugin Trace in Common Data Service and check the dual-write Plugin error details</span></span>
+## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a><span data-ttu-id="1c712-104">Common Data Service'teki Eklenti izleme günlüklerini etkinleştirin ve çift yazma eklentisi hata ayrıntılarını kontrol edin</span><span class="sxs-lookup"><span data-stu-id="1c712-104">Enable plug-in trace logs in Common Data Service and inspect the dual-write plug-in error details</span></span>
 
-<span data-ttu-id="e77e1-105">Bir sorun veya çift yazma eşitlemesi hatasıyla karşı karşıya iseniz, izleme günlüğünde hataları inceleyebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="e77e1-105">If you are facing an issue or error with dual-write synchronization, you can inspect the errors in the trace log:</span></span>
+[!include [banner](../includes/banner.md)]
 
-1. <span data-ttu-id="e77e1-106">Hataları incelemek için önce Eklenti izlemeyi etkinleştirmek için [Kayıt eklentisi](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) yönergelerini kullanarak Eklenti izlemeyi etkinleştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="e77e1-106">Before you can inspect the errors, you must enable Plugin trace using the instructions in [Register plug-in](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) to enable Plugin trace.</span></span> <span data-ttu-id="e77e1-107">Şimdi hataları inceleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e77e1-107">Now you can inspect the errors.</span></span>
-2. <span data-ttu-id="e77e1-108">Dynamics 365 for Sales'de oturum açın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-108">Login to Dynamics 365 for Sales.</span></span>
-3. <span data-ttu-id="e77e1-109">Ayarlar simgesine (dişli) tıklayın ve **Gelişmiş ayarlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="e77e1-109">Click on the Settings icon (a gear), and select **Advanced Settings**.</span></span>
-4. <span data-ttu-id="e77e1-110">**Ayarlar** menüsünde **Özelleştirme > Eklenti izleme günlüğünü**seçin.</span><span class="sxs-lookup"><span data-stu-id="e77e1-110">In the **Settings** menu, choose **Customization > Plug-In Trace Log**.</span></span>
-5. <span data-ttu-id="e77e1-111">Hata ayrıntılarını görüntülemek için **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** türü adını tıklatın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-111">Click the type name **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** to display the error details.</span></span>
+[!include [preview](../includes/preview-banner.md)]
 
-## <a name="check-dual-write-synchronization-errors-in-finance-and-operations"></a><span data-ttu-id="e77e1-112">Finance and Operations'ta çift yazma eşitleme hatalarını denetle</span><span class="sxs-lookup"><span data-stu-id="e77e1-112">Check dual-write synchronization errors in Finance and Operations</span></span>
+<span data-ttu-id="1c712-105">Çift-yazma eşitleme sırasında bir sorunla veya hatayla karşılaşırsanız izleme günlüğündeki hataları denetlemek için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="1c712-105">If you experience an issue or error during dual-write synchronization, follow these steps to inspect the errors in the trace log.</span></span>
 
-<span data-ttu-id="e77e1-113">Aşağıdaki adımları izleyerek test sırasında hataları denetleyebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="e77e1-113">You can check the errors during testing by following these steps:</span></span>
+1. <span data-ttu-id="1c712-106">Hataları incelemeniz için önce eklenti izleme günlüklerini etkinleştirmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="1c712-106">Before you can inspect the errors, you must enable plug-in trace logs.</span></span> <span data-ttu-id="1c712-107">Yönergeler için [Öğretici: Bir ekletiyi yazma ve kaydetme](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs)'deki "İzleme günlüğü görüntüle" bölümüne bakınız.</span><span class="sxs-lookup"><span data-stu-id="1c712-107">For instructions, see the "View trace logs" section of [Tutorial: Write and register a plug-in](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).</span></span>
 
-+ <span data-ttu-id="e77e1-114">LifeCycle Services (LCS)'ye giriş yapın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-114">Login to LifeCycle Services (LCS).</span></span>
-+ <span data-ttu-id="e77e1-115">Çift yazma sınaması gerçekleştirmek için seçtiğiniz LCS projesini açın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-115">Open the LCS project that you chose to perform dual-write testing.</span></span>
-+ <span data-ttu-id="e77e1-116">Bulutta Barındırılan Ortamlar'a gidin.</span><span class="sxs-lookup"><span data-stu-id="e77e1-116">Go to Cloud Hosted Environments.</span></span>
-+ <span data-ttu-id="e77e1-117">LCS'de görüntülenen yerel hesabı kullanarak Finance and Operations VM'ye uzak masaüstü.</span><span class="sxs-lookup"><span data-stu-id="e77e1-117">Remote desktop to Finance and Operations VM using local account that is displayed in LCS.</span></span>
-+ <span data-ttu-id="e77e1-118">Olay görüntüleyiciyi açın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-118">Open the event viewer.</span></span> 
-+ <span data-ttu-id="e77e1-119">**Uygulamalar ve Hizmetler günlükleri > Microsoft > Dynamics > AX-DualWriteSync > İşletim**'e gidin.</span><span class="sxs-lookup"><span data-stu-id="e77e1-119">Navigate to **Applications and Services logs > Microsoft > Dynamics > AX-DualWriteSync > Operational**.</span></span> <span data-ttu-id="e77e1-120">Hatalar ve ayrıntılar görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="e77e1-120">The errors and details are displayed.</span></span>
+    <span data-ttu-id="1c712-108">Şimdi hataları inceleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1c712-108">You can now inspect the errors.</span></span>
 
-## <a name="how-to-unlink-and-link-another-common-data-service-environment-from-finance-and-operations"></a><span data-ttu-id="e77e1-121">Finance and Operations'tan başka bir Common Data Service ortam bağlantısını kaldırma</span><span class="sxs-lookup"><span data-stu-id="e77e1-121">How to unlink and link another Common Data Service environment from Finance and Operations</span></span>
+2. <span data-ttu-id="1c712-109">Microsoft Dynamics 365 for Sales'da oturum açın</span><span class="sxs-lookup"><span data-stu-id="1c712-109">Sign in to Microsoft Dynamics 365 for Sales.</span></span>
+3. <span data-ttu-id="1c712-110">**Ayarlar** düğmesini (çark simgesi) seçin ve sonra **Gelişmiş ayarlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1c712-110">Select the **Settings** button (the gear symbol), and then select **Advanced Settings**.</span></span>
+4. <span data-ttu-id="1c712-111">**Ayarlar** menüsünde **Özelleştirme \> Eklenti izleme günlüğü**'nü seçin.</span><span class="sxs-lookup"><span data-stu-id="1c712-111">On the **Settings** menu, select **Customization \> Plug-In Trace Log**.</span></span>
+5. <span data-ttu-id="1c712-112">Hata ayrıntılarını görüntülemek için **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**'i tür adı olarak seçin.</span><span class="sxs-lookup"><span data-stu-id="1c712-112">Select **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** as the type name to show the error details.</span></span>
 
-<span data-ttu-id="e77e1-122">Aşağıdaki adımları izleyerek bağlantıları güncelleştirebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="e77e1-122">You can update links by following these steps:</span></span>
+## <a name="inspect-dual-write-synchronization-errors-in-finance-and-operations"></a><span data-ttu-id="1c712-113">Finance and Operations'ta çift yazma eşitleme hatalarını denetle</span><span class="sxs-lookup"><span data-stu-id="1c712-113">Inspect dual-write synchronization errors in Finance and Operations</span></span>
 
-+ <span data-ttu-id="e77e1-123">Finance and Operations ortamınıza gidin.</span><span class="sxs-lookup"><span data-stu-id="e77e1-123">Navigate to the Finance and Operations environment.</span></span>
-+ <span data-ttu-id="e77e1-124">Veri Yönetimini açın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-124">Open Data Management.</span></span>
-+ <span data-ttu-id="e77e1-125">**Uygulamalar için CDS bağlantısı**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-125">Click on **Link to CDS for apps**.</span></span>
-+ <span data-ttu-id="e77e1-126">Çalışan tüm eşlemeleri seçin ve **Durdur**'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-126">Select all the running mappings and click **Stop**.</span></span> 
-+ <span data-ttu-id="e77e1-127">Tüm eşlemeleri seçin ve **Sil**'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-127">Select all the mappings and click **Delete**.</span></span>
+<span data-ttu-id="1c712-114">Test sırasında hataları incelemek için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="1c712-114">Follow these steps to inspect errors during testing.</span></span>
+
+1. <span data-ttu-id="1c712-115">Microsoft Dynamics Lifecycle Services (LCS)'de oturum açın.</span><span class="sxs-lookup"><span data-stu-id="1c712-115">Sign in to Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+2. <span data-ttu-id="1c712-116">Çift-yazma testi yapmak için LCS projesini açın.</span><span class="sxs-lookup"><span data-stu-id="1c712-116">Open the LCS project to do dual-write testing for.</span></span>
+3. <span data-ttu-id="1c712-117">**Bulutta barındırılan ortamlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1c712-117">Select **Cloud-hosted environments**.</span></span>
+4. <span data-ttu-id="1c712-118">LCS 'de gösterilen yerel hesabı kullanarak Dynamics 365 for Finance and Operations sanal makinede (VM) Uzak Masaüstü bağlantısı oluşturun.</span><span class="sxs-lookup"><span data-stu-id="1c712-118">Make a Remote desktop connection to the Dynamics 365 for Finance and Operations virtual machine (VM) by using local account that is shown in LCS.</span></span>
+5. <span data-ttu-id="1c712-119">Olay Görüntüleyiciyi açın.</span><span class="sxs-lookup"><span data-stu-id="1c712-119">Open Event Viewer.</span></span> 
+6. <span data-ttu-id="1c712-120">**Uygulamalar ve Hizmetler günlükleri \> Microsoft \> Dynamics \> AX-DualWriteSync \> İşletim**'e gidin.</span><span class="sxs-lookup"><span data-stu-id="1c712-120">Go to **Applications and Services Logs \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operational**.</span></span> <span data-ttu-id="1c712-121">Hatalar ve ayrıntılar görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="1c712-121">The errors and details are shown.</span></span>
+
+## <a name="unlink-one-common-data-service-environment-from-finance-and-operations-and-link-another-environment"></a><span data-ttu-id="1c712-122">Finance and Operations'tan bir Common Data Service ortam bağlantısını kaldırın ve başka bir ortama bağlayın</span><span class="sxs-lookup"><span data-stu-id="1c712-122">Unlink one Common Data Service environment from Finance and Operations and link another environment</span></span>
+
+<span data-ttu-id="1c712-123">Bağlantıları güncelleştirmek için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="1c712-123">Follow these steps to update links.</span></span>
+
+1. <span data-ttu-id="1c712-124">Finance and Operations ortamınıza gidin.</span><span class="sxs-lookup"><span data-stu-id="1c712-124">Go to the Finance and Operations environment.</span></span>
+2. <span data-ttu-id="1c712-125">Veri Yönetimini açın.</span><span class="sxs-lookup"><span data-stu-id="1c712-125">Open Data Management.</span></span>
+3. <span data-ttu-id="1c712-126">**Uygulamalar için CDS bağlantısı**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="1c712-126">Select **Link to CDS for apps**.</span></span>
+4. <span data-ttu-id="1c712-127">Çalışan tüm eşlemeleri seçin ve **Durdur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="1c712-127">Select all the mappings that are running, and then select **Stop**.</span></span>
+5. <span data-ttu-id="1c712-128">Tüm eşlemeleri seçin ve **Sil**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1c712-128">Select all the mappings, and then select **Delete**.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="e77e1-128">**CustomerV3-Account** şablonu seçiliyse **Sil** seçeneği görüntülenmez.</span><span class="sxs-lookup"><span data-stu-id="e77e1-128">The **Delete** option will not appear if **CustomerV3-Account** template is selected.</span></span> <span data-ttu-id="e77e1-129">Gerekirse seçimi kaldırın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-129">Unselect it if needed.</span></span> <span data-ttu-id="e77e1-130">**CustomerV3-Account** eski bir sağlanan şablondur ve Müşteri Adayı'ndan Nakde çözümü ile çalışır.</span><span class="sxs-lookup"><span data-stu-id="e77e1-130">**CustomerV3-Account** is an older provisioned template and works with the Prospect to Cash solution.</span></span> <span data-ttu-id="e77e1-131">Genel olarak yayımlandığından tüm şablonlar altında gösterir.</span><span class="sxs-lookup"><span data-stu-id="e77e1-131">Because it is globally released, it shows up under all templates.</span></span>
+    > <span data-ttu-id="1c712-129">**CustomerV3-Account** şablonu seçiliyse **Sil** seçeneği uygun olmaz.</span><span class="sxs-lookup"><span data-stu-id="1c712-129">The **Delete** option isn't available if the **CustomerV3-Account** template is selected.</span></span> <span data-ttu-id="1c712-130">Bu şablonun seçimini gerektiği gibi temizleyin.</span><span class="sxs-lookup"><span data-stu-id="1c712-130">Clear the selection of this template as required.</span></span> <span data-ttu-id="1c712-131">**CustomerV3-Account** eski bir sağlanan şablondur ve Müşteri Adayı'ndan Nakde çözümü ile çalışır.</span><span class="sxs-lookup"><span data-stu-id="1c712-131">**CustomerV3-Account** is an older provisioned template and works with the Prospect to Cash solution.</span></span> <span data-ttu-id="1c712-132">Genel olarak yayımlandığından tüm şablonlar altında gösterir.</span><span class="sxs-lookup"><span data-stu-id="1c712-132">Because it's globally released, it appears under all templates.</span></span>
 
-+ <span data-ttu-id="e77e1-132">**Ortam bağlantısını kaldırma**'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-132">Click **Unlink environment**.</span></span>
-+ <span data-ttu-id="e77e1-133">Onay için **Evet**'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="e77e1-133">Click **Yes** for confirmation.</span></span>
-+ <span data-ttu-id="e77e1-134">Yeni ortamı bağlamak için, [yükleme kılavuzundaki](https://aka.ms/dualwrite-docs) adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="e77e1-134">To link the new environment, follow the steps in the [installation guide](https://aka.ms/dualwrite-docs).</span></span>
-
+6. <span data-ttu-id="1c712-133">**Ortam bağlantısını kaldırma**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="1c712-133">Select **Unlink environment**.</span></span>
+7. <span data-ttu-id="1c712-134">Operasyonu onaylamak için **Evet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1c712-134">Select **Yes** to confirm the operation.</span></span>
+8. <span data-ttu-id="1c712-135">Yeni ortamı bağlamak için, [yükleme kılavuzundaki](https://aka.ms/dualwrite-docs) adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="1c712-135">To link the new environment, follow the steps in the [installation guide](https://aka.ms/dualwrite-docs).</span></span>

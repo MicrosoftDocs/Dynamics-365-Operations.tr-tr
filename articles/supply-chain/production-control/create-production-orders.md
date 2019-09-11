@@ -1,9 +1,9 @@
 ---
-title: Üretim emirleri oluşturma
+title: Üretim emri yaşam döngüsüne genel bakış
 description: Üretim emri oluşturulunca, madde imalatını başlatmak için bir talepte bulunulur. Üretim emri neyin ne kadar üretileceği ve planlanan bitiş tarihi hakkındaki bilgileri içerir. Ayrıca, maddeyi üretmek için tüketilecek malzemeler ve izlenecek süreç hakkında bilgiler de içerir.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,28 +19,28 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2957b387aac9e0218f88572fa605cde1a30c52e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 79b1866cdca885d408aca07c546ca54aa0c3616b
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572639"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865214"
 ---
-# <a name="create-production-orders"></a><span data-ttu-id="c6777-105">Üretim emirleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="c6777-105">Create production orders</span></span>
+# <a name="production-order-lifecycle-overview"></a><span data-ttu-id="6cef4-105">Üretim emri yaşam döngüsüne genel bakış</span><span class="sxs-lookup"><span data-stu-id="6cef4-105">Production order lifecycle overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c6777-106">Üretim emri oluşturulunca, madde imalatını başlatmak için bir talepte bulunulur.</span><span class="sxs-lookup"><span data-stu-id="c6777-106">When a production order is created, a request is initiated to start producing an item.</span></span> <span data-ttu-id="c6777-107">Üretim emri neyin ne kadar üretileceği ve planlanan bitiş tarihi hakkındaki bilgileri içerir.</span><span class="sxs-lookup"><span data-stu-id="c6777-107">The production order contains information about what will be produced, the quantity to produce, and the planned finish date.</span></span> <span data-ttu-id="c6777-108">Ayrıca, maddeyi üretmek için tüketilecek malzemeler ve izlenecek süreç hakkında bilgiler de içerir.</span><span class="sxs-lookup"><span data-stu-id="c6777-108">It also contains information about which materials to consume and which process to follow to produce the item.</span></span>
+<span data-ttu-id="6cef4-106">Üretim emri oluşturulunca, madde imalatını başlatmak için bir talepte bulunulur.</span><span class="sxs-lookup"><span data-stu-id="6cef4-106">When a production order is created, a request is initiated to start producing an item.</span></span> <span data-ttu-id="6cef4-107">Üretim emri neyin ne kadar üretileceği ve planlanan bitiş tarihi hakkındaki bilgileri içerir.</span><span class="sxs-lookup"><span data-stu-id="6cef4-107">The production order contains information about what will be produced, the quantity to produce, and the planned finish date.</span></span> <span data-ttu-id="6cef4-108">Ayrıca, maddeyi üretmek için tüketilecek malzemeler ve izlenecek süreç hakkında bilgiler de içerir.</span><span class="sxs-lookup"><span data-stu-id="6cef4-108">It also contains information about which materials to consume and which process to follow to produce the item.</span></span>
 
-<span data-ttu-id="c6777-109">Bir üretim emri, üretim döngüsü aşamalarından geçer.</span><span class="sxs-lookup"><span data-stu-id="c6777-109">A production order passes through stages of the production life cycle.</span></span> <span data-ttu-id="c6777-110">Bir emir oluşturulduğunda, durumu **Oluşturulmuş** olarak atanır.</span><span class="sxs-lookup"><span data-stu-id="c6777-110">When an order is created, it is assigned the status **Created**.</span></span> <span data-ttu-id="c6777-111">Bir emir tamamlandığında, durumu **Sonlandırılmış** olarak atanır.</span><span class="sxs-lookup"><span data-stu-id="c6777-111">When an order is finished, it is assigned the status **Ended**.</span></span> <span data-ttu-id="c6777-112">Her aşamada bulunan bir parametre ayarı, kullanıcının tüm adımları yapılandırmasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="c6777-112">A parameter setting in each stage allows a user to configure each step.</span></span> <span data-ttu-id="c6777-113">Bu ayar, tek bir kullanıcı veya tüm kullanıcılar için ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c6777-113">The setting can be set up for a single user or for all users.</span></span>
+<span data-ttu-id="6cef4-109">Bir üretim emri, üretim döngüsü aşamalarından geçer.</span><span class="sxs-lookup"><span data-stu-id="6cef4-109">A production order passes through stages of the production life cycle.</span></span> <span data-ttu-id="6cef4-110">Bir emir oluşturulduğunda, durumu **Oluşturulmuş** olarak atanır.</span><span class="sxs-lookup"><span data-stu-id="6cef4-110">When an order is created, it is assigned the status **Created**.</span></span> <span data-ttu-id="6cef4-111">Bir emir tamamlandığında, durumu **Sonlandırılmış** olarak atanır.</span><span class="sxs-lookup"><span data-stu-id="6cef4-111">When an order is finished, it is assigned the status **Ended**.</span></span> <span data-ttu-id="6cef4-112">Her aşamada bulunan bir parametre ayarı, kullanıcının tüm adımları yapılandırmasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="6cef4-112">A parameter setting in each stage allows a user to configure each step.</span></span> <span data-ttu-id="6cef4-113">Bu ayar, tek bir kullanıcı veya tüm kullanıcılar için ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="6cef4-113">The setting can be set up for a single user or for all users.</span></span>
 
-<span data-ttu-id="c6777-114">Üretim ürün reçetesi ve üretim rotası, üretim emrinin ana varlıklarıdır.</span><span class="sxs-lookup"><span data-stu-id="c6777-114">The production bill of material and the production route are the main entities of the production order.</span></span> <span data-ttu-id="c6777-115">Bunlar, üretilmek için seçilen öğeye ve miktarına dayalı olarak üretim emrine kopyalanırlar.</span><span class="sxs-lookup"><span data-stu-id="c6777-115">They are copied to the production order based on the selected item and quantity that are going to be produced.</span></span> <span data-ttu-id="c6777-116">Üretim emri başlamadan önce üretim ürün reçeteleri ve rotaları düzenlenebilir.</span><span class="sxs-lookup"><span data-stu-id="c6777-116">Before the production order is started, the production bill of material and route can be edited.</span></span>
+<span data-ttu-id="6cef4-114">Üretim ürün reçetesi ve üretim rotası, üretim emrinin ana varlıklarıdır.</span><span class="sxs-lookup"><span data-stu-id="6cef4-114">The production bill of material and the production route are the main entities of the production order.</span></span> <span data-ttu-id="6cef4-115">Bunlar, üretilmek için seçilen öğeye ve miktarına dayalı olarak üretim emrine kopyalanırlar.</span><span class="sxs-lookup"><span data-stu-id="6cef4-115">They are copied to the production order based on the selected item and quantity that are going to be produced.</span></span> <span data-ttu-id="6cef4-116">Üretim emri başlamadan önce üretim ürün reçeteleri ve rotaları düzenlenebilir.</span><span class="sxs-lookup"><span data-stu-id="6cef4-116">Before the production order is started, the production bill of material and route can be edited.</span></span>
 
-<span data-ttu-id="c6777-117">Üretim emri aşağıdaki senaryolarda oluşturulabilir:</span><span class="sxs-lookup"><span data-stu-id="c6777-117">A production order can be created in the following scenarios:</span></span>
+<span data-ttu-id="6cef4-117">Üretim emri aşağıdaki senaryolarda oluşturulabilir:</span><span class="sxs-lookup"><span data-stu-id="6cef4-117">A production order can be created in the following scenarios:</span></span>
 
--   <span data-ttu-id="c6777-118">Malzeme talebine göre ana planlama yürütme tarafından oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="c6777-118">Created by master planning execution based on material demand.</span></span>
--   <span data-ttu-id="c6777-119">Bir satış siparişi satırından ya da üst düzey bir üretim emri oluşturulduğunda ve (pegged tedarik) tahmini doğrudan oluşturulabilir.</span><span class="sxs-lookup"><span data-stu-id="c6777-119">Created directly from a sales order line or when a higher-level production order is created and estimated (pegged supply).</span></span>
--   <span data-ttu-id="c6777-120">El ile oluşturulmuş.</span><span class="sxs-lookup"><span data-stu-id="c6777-120">Created manually.</span></span>
+-   <span data-ttu-id="6cef4-118">Malzeme talebine göre ana planlama yürütme tarafından oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="6cef4-118">Created by master planning execution based on material demand.</span></span>
+-   <span data-ttu-id="6cef4-119">Bir satış siparişi satırından ya da üst düzey bir üretim emri oluşturulduğunda ve (pegged tedarik) tahmini doğrudan oluşturulabilir.</span><span class="sxs-lookup"><span data-stu-id="6cef4-119">Created directly from a sales order line or when a higher-level production order is created and estimated (pegged supply).</span></span>
+-   <span data-ttu-id="6cef4-120">El ile oluşturulmuş.</span><span class="sxs-lookup"><span data-stu-id="6cef4-120">Created manually.</span></span>
 
 
 

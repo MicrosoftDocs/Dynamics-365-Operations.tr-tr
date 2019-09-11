@@ -1,9 +1,9 @@
 ---
-title: Deftere nakledilen satış vergisi hareketlerini görüntüle
-description: Görüntüleme gereksinimlerinize bağlı olarak, farklı sayfalardaki nakledilmiş satış vergisi hareketlerini de görüntüleyebilirsiniz.
+title: Deftere nakledilen satış vergisi hareketlerini görüntüleme
+description: Bu konu, deftere nakledilen satış vergisi hareketlerini görüntülemenin bazı yollarını açıklamaktadır.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,36 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5668c1cd4325f557d83a2291c8139f65c4d170e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
+ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846211"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870880"
 ---
-# <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="39563-103">Deftere nakledilen satış vergisi hareketlerini görüntüle</span><span class="sxs-lookup"><span data-stu-id="39563-103">View posted sales tax transactions</span></span>
+# <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="17750-103">Deftere nakledilen satış vergisi hareketlerini görüntüleme</span><span class="sxs-lookup"><span data-stu-id="17750-103">View posted sales tax transactions</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="39563-104">Görüntüleme gereksinimlerinize bağlı olarak, farklı sayfalardaki nakledilmiş satış vergisi hareketlerini de görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="39563-104">You can view posted sales tax transactions from various page depending on what you need to view.</span></span> <span data-ttu-id="39563-105">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="39563-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="17750-104">Bu konu, deftere nakledilen satış vergisi hareketlerini görüntülemenin bazı yollarını açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="17750-104">This topic describes some ways to view posted sales tax transactions.</span></span> <span data-ttu-id="17750-105">Görüntüleme gereksinimlerinize bağlı olarak, farklı sayfalardaki nakledilmiş satış vergisi hareketlerini de görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="17750-105">You can view posted sales tax transactions from various pages depending on what you need to view.</span></span> <span data-ttu-id="17750-106">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="17750-106">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="39563-106">Vergi > Sorgular ve bildirimler > Satış vergisi sorguları > Deftere nakledilen satış vergisi'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="39563-106">Go to Tax > Inquiries and reports > Sales tax inquiries > Posted sales tax.</span></span>
-2. <span data-ttu-id="39563-107">Filtreleri göster'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="39563-107">Click Show filters.</span></span>
-3. <span data-ttu-id="39563-108">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="39563-108">Close the page.</span></span>
-4. <span data-ttu-id="39563-109">Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi kapatma dönemleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="39563-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
-5. <span data-ttu-id="39563-110">Dönem aralıkları bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="39563-110">Expand the Period intervals section.</span></span>
-6. <span data-ttu-id="39563-111">İlgilendiğiniz aralığı seçin.</span><span class="sxs-lookup"><span data-stu-id="39563-111">Select the interval you are interested in.</span></span>
-7. <span data-ttu-id="39563-112">Seçili dönem aralığına ait nakledilmiş satış vergisi hareketlerini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="39563-112">Display posted sales tax transactions for the selected settlement period interval.</span></span>
-8. <span data-ttu-id="39563-113">Deftere nakledilmiş satış vergisi hareketleri listesini de filtre edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="39563-113">You can further filter the list of posted sales tax transactions.</span></span>
-9. <span data-ttu-id="39563-114">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="39563-114">Close the page.</span></span>
-10. <span data-ttu-id="39563-115">Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi kodları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="39563-115">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
-11. <span data-ttu-id="39563-116">Eylem Bölmesinde, Satış vergisi kodu'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="39563-116">On the Action Pane, click Sales tax code.</span></span>
-12. <span data-ttu-id="39563-117">Deftere nakledilen satış vergisi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="39563-117">Click Posted sales tax.</span></span>
+# <a name="posted-sales-tax-page"></a><span data-ttu-id="17750-107">Deftere nakledilen satış vergisi sayfası</span><span class="sxs-lookup"><span data-stu-id="17750-107">Posted sales tax page</span></span>
+
+1. <span data-ttu-id="17750-108">Gezinti bölmesinde **Modüller > Vergi > Sorgular ve raporlar > Satış vergisi sorguları > Deftere nakledilen satış vergisi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="17750-108">In the navigation pane, go to **Modules > Tax > Inquiries and reports > Sales tax inquiries > Posted sales tax**.</span></span>
+2. <span data-ttu-id="17750-109">Görünümü belirli hareketlere daraltmak için **Filtreleri göster**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="17750-109">Select **Show filters** to narrow the view to specific transactions.</span></span>
+3. <span data-ttu-id="17750-110">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="17750-110">Close the page.</span></span>
+
+# <a name="sales-tax-settlement-periods-page"></a><span data-ttu-id="17750-111">Satışlar vergisi kapatma dönemleri sayfası</span><span class="sxs-lookup"><span data-stu-id="17750-111">Sales tax settlement periods page</span></span>
+
+1. <span data-ttu-id="17750-112">Gezinti bölmesinde **Modüller > Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi kapatma dönemleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="17750-112">In the navigation pane, go to **Modules > Tax > Indirect taxes > Sales tax > Sales tax settlement periods**.</span></span>
+2. <span data-ttu-id="17750-113">**Dönem aralıkları** bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="17750-113">Expand the **Period intervals** section.</span></span>
+3. <span data-ttu-id="17750-114">İlgilendiğiniz aralığı seçin.</span><span class="sxs-lookup"><span data-stu-id="17750-114">Select the interval you are interested in.</span></span>
+4. <span data-ttu-id="17750-115">Deftere nakledilmiş satış vergisi hareketleri listesini de filtre edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="17750-115">You can further filter the list of posted sales tax transactions.</span></span>
+5. <span data-ttu-id="17750-116">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="17750-116">Close the page.</span></span>
+
+# <a name="sales-tax-codes-page"></a><span data-ttu-id="17750-117">Satış vergisi kodları sayfası</span><span class="sxs-lookup"><span data-stu-id="17750-117">Sales tax codes page</span></span>
+
+1. <span data-ttu-id="17750-118">Gezinme bölmesinde **Modüller > Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi kodları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="17750-118">In the navigation pane, go to **Modules > Tax > Indirect taxes > Sales tax > Sales tax codes**.</span></span>
+2. <span data-ttu-id="17750-119">Eylem Bölmesinde, **Satış vergisi kodu** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="17750-119">On the Action Pane, select **Sales tax code**.</span></span>
+3. <span data-ttu-id="17750-120">**Deftere nakledilen satış vergisi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="17750-120">Select **Posted sales tax**.</span></span>
 

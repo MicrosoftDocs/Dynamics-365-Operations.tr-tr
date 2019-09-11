@@ -1,9 +1,9 @@
 ---
 title: Kaynak belgeler için denetim ilkeleri tanımlama
-description: Bu prosedür, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını gösterir.
+description: Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açıklar.
 author: ryansandness
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,80 +16,75 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17b712f07a0ffe6874eb6d98b47ced96f5a54483
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846499"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914855"
 ---
-# <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="110c5-103">Kaynak belgeler için denetim ilkeleri tanımlama</span><span class="sxs-lookup"><span data-stu-id="110c5-103">Define audit policies for source documents</span></span>
+# <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="f9e55-103">Kaynak belgeler için denetim ilkeleri tanımlama</span><span class="sxs-lookup"><span data-stu-id="f9e55-103">Define audit policies for source documents</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="110c5-104">Bu prosedür, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="110c5-104">This procedure shows how to set up and run audit policy rules.</span></span> <span data-ttu-id="110c5-105">Örnekte, otel gideri türünde gider raporları kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="110c5-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="110c5-106">Bu yordam, USMF demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="110c5-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="110c5-107">Denetçi rolü bu görevleri gerçekleştirmek için uygun izinleri içerir.</span><span class="sxs-lookup"><span data-stu-id="110c5-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
+<span data-ttu-id="f9e55-104">Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="f9e55-104">This topic explains how to set up and run audit policy rules.</span></span> <span data-ttu-id="f9e55-105">Örnekte, otel gideri türünde gider raporları kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="f9e55-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="f9e55-106">Bu yordam, USMF demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="f9e55-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="f9e55-107">Denetçi rolü bu görevleri gerçekleştirmek için uygun izinleri içerir.</span><span class="sxs-lookup"><span data-stu-id="f9e55-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
 
-1. <span data-ttu-id="110c5-108">Audit workbench > Setup > Policy rule type (Denetim çalışma ekranı > Ayar > İlke kuralı türü) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="110c5-108">Go to Audit workbench > Setup > Policy rule type.</span></span>
-2. <span data-ttu-id="110c5-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-109">Click New.</span></span>
-3. <span data-ttu-id="110c5-110">Kural adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="110c5-110">In the Rule name field, type a value.</span></span>
-4. <span data-ttu-id="110c5-111">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="110c5-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="110c5-112">Sorgu adı alanında Gider raporu satırı'nı seçin</span><span class="sxs-lookup"><span data-stu-id="110c5-112">In the Query name field, select Expense report line</span></span>
-6. <span data-ttu-id="110c5-113">Sorgu türü alanında Topla'yı seçin</span><span class="sxs-lookup"><span data-stu-id="110c5-113">In the query type field, select Aggregate</span></span>
-7. <span data-ttu-id="110c5-114">Tüzel kişilik alanında Tüzel kişilik'i seçin</span><span class="sxs-lookup"><span data-stu-id="110c5-114">In the Legal entity field, select Legal entity</span></span>
-8. <span data-ttu-id="110c5-115">Belge tarihi referansı alanında Değiştirilme tarihi ve saati'ni seçin</span><span class="sxs-lookup"><span data-stu-id="110c5-115">In the Document date reference field, select Modified date and time</span></span>
-9. <span data-ttu-id="110c5-116">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-116">Click Save.</span></span>
-10. <span data-ttu-id="110c5-117">Audit workbench > Setup > Audit policies (Denetim çalışma ekranı > Ayar > Denetim ilkeleri) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="110c5-117">Go to Audit workbench > Setup > Audit policies.</span></span>
-11. <span data-ttu-id="110c5-118">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-118">Click New.</span></span>
-12. <span data-ttu-id="110c5-119">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="110c5-119">In the Name field, type a value.</span></span>
-13. <span data-ttu-id="110c5-120">İlke organizasyonları bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="110c5-120">Expand the Policy organizations section.</span></span>
-14. <span data-ttu-id="110c5-121">Ağaçta "Contoso Eğlence Sistemi Türkiye"yi (Contoso Entertainment System USA) seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-121">In the tree, select 'Contoso Entertainment System USA'.</span></span>
-15. <span data-ttu-id="110c5-122">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="110c5-122">Click Add.</span></span>
-16. <span data-ttu-id="110c5-123">Ağaçta "Contoso Danışmanlık Türkiye"yi (Contoso Consulting USA) seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-123">In the tree, select 'Contoso Consulting USA'.</span></span>
-17. <span data-ttu-id="110c5-124">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="110c5-124">Click Add.</span></span>
-18. <span data-ttu-id="110c5-125">Ağaçta "Contoso Perakende Türkiye"yi (Contoso Retail USA) seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-125">In the tree, select 'Contoso Retail USA'.</span></span>
-19. <span data-ttu-id="110c5-126">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="110c5-126">Click Add.</span></span>
-20. <span data-ttu-id="110c5-127">İlke organizasyonları bölümünü daraltın.</span><span class="sxs-lookup"><span data-stu-id="110c5-127">Collapse the Policy organizations section.</span></span>
-21. <span data-ttu-id="110c5-128">İlke kuralları bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="110c5-128">Expand the Policy rules section.</span></span>
-22. <span data-ttu-id="110c5-129">Listede, önceden oluşturulmuş İlke Kuralı'nı bulup seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-129">In the list, find and select the Policy Rule that was created previously.</span></span>
-23. <span data-ttu-id="110c5-130">İlke kuralı oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-130">Click Create policy rule.</span></span>
-24. <span data-ttu-id="110c5-131">Yürürlük tarihi alanına bir tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="110c5-131">In the Effective date field, enter a date and time.</span></span>
-25. <span data-ttu-id="110c5-132">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-132">Click Filter.</span></span>
-26. <span data-ttu-id="110c5-133">Listede, Gider kategorisi için satırı seçin ve Ayrıntılar ayarını Otel yapın</span><span class="sxs-lookup"><span data-stu-id="110c5-133">In the list, select the row for Expense category, and set the details to Hotel</span></span>
-27. <span data-ttu-id="110c5-134">Ölçütler alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-134">In the Criteria field, enter or select a value.</span></span>
-28. <span data-ttu-id="110c5-135">Topla sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-135">Click the Aggregate tab.</span></span>
-29. <span data-ttu-id="110c5-136">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="110c5-136">Click Add.</span></span>
-30. <span data-ttu-id="110c5-137">Listeden, Hareket tutarı için bir alan değeri seçin</span><span class="sxs-lookup"><span data-stu-id="110c5-137">In the list, select a field value of Transaction amount</span></span>
-31. <span data-ttu-id="110c5-138">Alan alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-138">In the Field field, enter or select a value.</span></span>
-32. <span data-ttu-id="110c5-139">Toplama İşlevi (AggregateFunction) alanında Toplam'ı (Sum) seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-139">In the AggregateFunction field, select 'Sum'.</span></span>
-33. <span data-ttu-id="110c5-140">Gruplama ölçütü sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-140">Click the Group by tab.</span></span>
-34. <span data-ttu-id="110c5-141">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="110c5-141">Click Add.</span></span>
-35. <span data-ttu-id="110c5-142">Listeden, Çalışan için bir değer seçin </span><span class="sxs-lookup"><span data-stu-id="110c5-142">In the list, select a value of Employee</span></span> 
-36. <span data-ttu-id="110c5-143">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="110c5-143">Click Add.</span></span>
-37. <span data-ttu-id="110c5-144">Listeden, Gider kategorisi için bir değer seçin</span><span class="sxs-lookup"><span data-stu-id="110c5-144">In the list, select a value of Expense category</span></span>
-38. <span data-ttu-id="110c5-145">Alan alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-145">In the Field field, enter or select a value.</span></span>
-39. <span data-ttu-id="110c5-146">Sahip sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-146">Click the Having tab.</span></span>
-40. <span data-ttu-id="110c5-147">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="110c5-147">Click Add.</span></span>
-41. <span data-ttu-id="110c5-148">Hareket tutarı'nı seçin</span><span class="sxs-lookup"><span data-stu-id="110c5-148">Select Transaction amount</span></span>
-42. <span data-ttu-id="110c5-149">Alan alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-149">In the Field field, enter or select a value.</span></span>
-43. <span data-ttu-id="110c5-150">Toplama İşlevi (AggregateFunction) alanında Toplam'ı (Sum) seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-150">In the AggregateFunction field, select 'Sum'.</span></span>
-44. <span data-ttu-id="110c5-151">Ölçütler alanına '>2000' yazın.</span><span class="sxs-lookup"><span data-stu-id="110c5-151">In the Criteria field, type '>2000'.</span></span>
-45. <span data-ttu-id="110c5-152">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-152">Click OK.</span></span>
-46. <span data-ttu-id="110c5-153">Sına'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="110c5-153">Click Test.</span></span>
-47. <span data-ttu-id="110c5-154">Belge seçim başlangıç tarihi alanına tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="110c5-154">In the Document selection starting date field, enter a date and time.</span></span>
-48. <span data-ttu-id="110c5-155">Belge seçim bitiş tarihi alanına tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="110c5-155">In the Document selection ending date field, enter a date and time.</span></span>
-49. <span data-ttu-id="110c5-156">Testi çalıştır'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-156">Click Run test.</span></span>
-50. <span data-ttu-id="110c5-157">Eylem Bölmesinde, Denetim ilkesi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-157">On the Action Pane, click Audit policy.</span></span>
-51. <span data-ttu-id="110c5-158">Ek seçenekler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-158">Click Additional options.</span></span>
-52. <span data-ttu-id="110c5-159">Başlangıç tarihi alanına tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="110c5-159">In the Starting date field, enter a date and time.</span></span>
-53. <span data-ttu-id="110c5-160">Bitiş tarihi alanına tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="110c5-160">In the Ending date field, enter a date and time.</span></span>
-54. <span data-ttu-id="110c5-161">Toplu iş'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-161">Click Batch.</span></span>
-55. <span data-ttu-id="110c5-162">Arka planda çalıştır bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="110c5-162">Expand the Run in the background section.</span></span>
-56. <span data-ttu-id="110c5-163">Toplu işleme alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-163">Select Yes in the Batch processing field.</span></span>
-57. <span data-ttu-id="110c5-164">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-164">Click OK.</span></span>
-58. <span data-ttu-id="110c5-165">Audit workbench > Audit cases (Denetim çalışma ekranı > Denetim vakaları) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="110c5-165">Go to Audit workbench > Audit cases.</span></span>
-59. <span data-ttu-id="110c5-166">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-166">In the list, find and select the desired record.</span></span>
-60. <span data-ttu-id="110c5-167">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-167">In the list, click the link in the selected row.</span></span>
-61. <span data-ttu-id="110c5-168">İlişkilendirmeler bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="110c5-168">Expand the Associations section.</span></span>
-62. <span data-ttu-id="110c5-169">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="110c5-169">In the list, find and select the desired record.</span></span>
-63. <span data-ttu-id="110c5-170">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="110c5-170">In the list, click the link in the selected row.</span></span>
+1. <span data-ttu-id="f9e55-108">Gezinti bölmesinde, **Modüller > Denetim çalışma ekranı > Kurulum > İlke kuralı türü**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-108">In the navigation pane, go to **Modules > Audit workbench > Setup > Policy rule type**.</span></span>
+2. <span data-ttu-id="f9e55-109">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-109">Select **New**.</span></span>
+3. <span data-ttu-id="f9e55-110">**Kural adı** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-110">In the **Rule name** field, type a value.</span></span>
+4. <span data-ttu-id="f9e55-111">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-111">In the **Description** field, type a value.</span></span>
+5. <span data-ttu-id="f9e55-112">**Sorgu adı** alanında **Gider raporu satırı** öğesini seçin</span><span class="sxs-lookup"><span data-stu-id="f9e55-112">In the **Query name** field, select **Expense report line**</span></span>
+6. <span data-ttu-id="f9e55-113">**Sorgu türü** alanında **Topla** öğesini seçin</span><span class="sxs-lookup"><span data-stu-id="f9e55-113">In the **query type** field, select **Aggregate**</span></span>
+7. <span data-ttu-id="f9e55-114">**Tüzel kişilik** alanında **Tüzel kişilik** öğesini seçin</span><span class="sxs-lookup"><span data-stu-id="f9e55-114">In the **Legal entity** field, select **Legal entity**</span></span>
+8. <span data-ttu-id="f9e55-115">**Belge tarihi referansı** alanında **Değiştirilme tarihi ve saati** öğesini seçin</span><span class="sxs-lookup"><span data-stu-id="f9e55-115">In the **Document date reference** field, select **Modified date and time**</span></span>
+9. <span data-ttu-id="f9e55-116">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-116">Select **Save**.</span></span>
+10. <span data-ttu-id="f9e55-117">Gezinti bölmesinde, **Modüller > Denetim çalışma ekranı > Kurulum > Denetim ilkeleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-117">In the navigation pane, go to **Modules > Audit workbench > Setup > Audit policies**.</span></span>
+11. <span data-ttu-id="f9e55-118">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-118">Select **New**.</span></span>
+12. <span data-ttu-id="f9e55-119">**Ad** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="f9e55-119">In the **Name** field, type a value.</span></span>
+13. <span data-ttu-id="f9e55-120">**İlke organizasyonları**  bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-120">Expand the **Policy organizations** section.</span></span>
+14. <span data-ttu-id="f9e55-121">Ağaçta **Contoso Entertainment System USA** seçeneğini ve ardından **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-121">In the tree, select **Contoso Entertainment System USA**, then select **Add**.</span></span>
+15. <span data-ttu-id="f9e55-122">Ağaçta **Contoso Consulting USA** seçeneğini ve ardından **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-122">In the tree, select **Contoso Consulting USA**, then select **Add**.</span></span>
+16. <span data-ttu-id="f9e55-123">Ağaçta **Contoso Retail USA** seçeneğini ve ardından **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-123">In the tree, select **Contoso Retail USA**, then select **Add**.</span></span>
+17. <span data-ttu-id="f9e55-124">**İlke organizasyonları** bölümünü daraltın.</span><span class="sxs-lookup"><span data-stu-id="f9e55-124">Collapse the **Policy organizations** section.</span></span>
+18. <span data-ttu-id="f9e55-125">**İlke kuralları**  bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-125">Expand the **Policy rules** section.</span></span>
+19. <span data-ttu-id="f9e55-126">Listede, önceden oluşturulmuş İlke Kuralı'nı bulup seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-126">In the list, find and select the Policy Rule that was created previously.</span></span>
+20. <span data-ttu-id="f9e55-127">**İlke kuralı oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-127">Select **Create policy rule**.</span></span>
+21. <span data-ttu-id="f9e55-128">**Yürürlük tarihi** alanına bir tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-128">In the **Effective date** field, enter a date and time.</span></span>
+22. <span data-ttu-id="f9e55-129">**Filtre**'yi seç.</span><span class="sxs-lookup"><span data-stu-id="f9e55-129">Select **Filter**.</span></span>
+23. <span data-ttu-id="f9e55-130">Listede, **Gider kategorisi** satırını seçin ve ayrıntıları **Otel** olarak ayarlayın</span><span class="sxs-lookup"><span data-stu-id="f9e55-130">In the list, select the row for **Expense category**, and set the details to **Hotel**.</span></span>
+24. <span data-ttu-id="f9e55-131">**Ölçütler** alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-131">In the **Criteria** field, enter or select a value.</span></span>
+25. <span data-ttu-id="f9e55-132">**Toplam** sekmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-132">Select the **Aggregate** tab.</span></span>
+26. <span data-ttu-id="f9e55-133">**Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-133">Select **Add**.</span></span>
+27. <span data-ttu-id="f9e55-134">Listeden, **Hareket tutarı** için bir alan değeri seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-134">In the list, select a field value of **Transaction amount**.</span></span>
+28. <span data-ttu-id="f9e55-135">**Alan** alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-135">In the **Field** field, enter or select a value.</span></span>
+29. <span data-ttu-id="f9e55-136">**AggregateFunction** alanında **Toplam** seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-136">In the **AggregateFunction** field, select **Sum**.</span></span>
+30. <span data-ttu-id="f9e55-137">**Gruplandırma ölçütü** sekmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-137">Select the **Group by** tab.</span></span>
+31. <span data-ttu-id="f9e55-138">**Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-138">Select **Add**.</span></span>
+32. <span data-ttu-id="f9e55-139">Listeden **Personel** için bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-139">In the list, select a value of **Employee** .</span></span>
+33. <span data-ttu-id="f9e55-140">**Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-140">Select **Add**.</span></span>
+34. <span data-ttu-id="f9e55-141">Listeden **Gider kategorisi** için bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-141">In the list, select a value of **Expense category**.</span></span>
+35. <span data-ttu-id="f9e55-142">**Alan** alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-142">In the **Field** field, enter or select a value.</span></span>
+36. <span data-ttu-id="f9e55-143">**Sahip** sekmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-143">Select the **Having** tab.</span></span>
+37. <span data-ttu-id="f9e55-144">**Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-144">Select **Add**.</span></span>
+38. <span data-ttu-id="f9e55-145">**Hareket tutarı**  öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-145">Select **Transaction amount**.</span></span>
+39. <span data-ttu-id="f9e55-146">**Alan** alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-146">In the **Field** field, enter or select a value.</span></span>
+40. <span data-ttu-id="f9e55-147">**AggregateFunction** alanında **Toplam** seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-147">In the **AggregateFunction** field, select **Sum**.</span></span>
+41. <span data-ttu-id="f9e55-148">**Ölçütler** alanına `>2000` yazın.</span><span class="sxs-lookup"><span data-stu-id="f9e55-148">In the **Criteria** field, type `>2000`.</span></span>
+42. <span data-ttu-id="f9e55-149">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-149">Select **OK**.</span></span>
+43. <span data-ttu-id="f9e55-150">**Test**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-150">Select **Test**.</span></span>
+44. <span data-ttu-id="f9e55-151">**Belge seçim başlangıç tarihi** alanına tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-151">In the **Document selection starting date** field, enter a date and time.</span></span>
+45. <span data-ttu-id="f9e55-152">**Belge seçim bitiş tarihi** alanına tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-152">In the **Document selection ending date** field, enter a date and time.</span></span>
+46. <span data-ttu-id="f9e55-153">**Testi çalıştır**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-153">Select **Run test**.</span></span>
+47. <span data-ttu-id="f9e55-154">Eylem Bölmesinde **Denetim ilkesi** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f9e55-154">On the Action Pane, select **Audit policy**.</span></span>
+48. <span data-ttu-id="f9e55-155">**Ek seçenekler** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-155">Select **Additional options**.</span></span>
+49. <span data-ttu-id="f9e55-156">**Başlangıç tarihi** alanına tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-156">In the **Starting date** field, enter a date and time.</span></span>
+50. <span data-ttu-id="f9e55-157">**Bitiş tarihi** alanına tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-157">In the **Ending date** field, enter a date and time.</span></span>
+51. <span data-ttu-id="f9e55-158">**Toplu iş**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-158">Select **Batch**.</span></span>
+52. <span data-ttu-id="f9e55-159">**Arka planda çalıştır** bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-159">Expand the **Run in the background** section.</span></span>
+53. <span data-ttu-id="f9e55-160">**Toplu işlem** alanında **Evet** seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-160">Select **Yes** in the **Batch processing** field.</span></span>
+54. <span data-ttu-id="f9e55-161">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-161">Select **OK**.</span></span>
+55. <span data-ttu-id="f9e55-162">Gezinti bölmesinde **Modüller > Denetim çalışma ekranı > Denetim vakaları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-162">In the navigation pane, go to **Modules > Audit workbench > Audit cases**.</span></span>
+56. <span data-ttu-id="f9e55-163">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-163">In the list, find and select the desired record.</span></span>
+57. <span data-ttu-id="f9e55-164">**İlişkilendirmeler**  bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-164">Expand the **Associations** section.</span></span>
+58. <span data-ttu-id="f9e55-165">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="f9e55-165">In the list, find and select the desired record.</span></span>
 

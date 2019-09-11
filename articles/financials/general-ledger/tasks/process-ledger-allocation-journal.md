@@ -1,9 +1,9 @@
 ---
 title: Genel muhasebe tahsisat günlüğünü işleme
-description: Genel muhasebe defterine nakledilmeden önce gözden geçirilip onaylanabilecek veya doğrudan Genel muhasebe defterine nakledilebilecek bir tahsisat günlüğü oluşturmak için Tahsisat talebini işleme koy sayfasını kullanın.
+description: Bu konu, Dynamics 365 for Finance and Operations'de bir tahsisat talebinin nasıl işlem yapılacağını açıklar.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,31 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 087bd4f203e8762447e823b19076b79296a390d6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0798d9f1c09e827bf64635cf67102f77244948c5
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846379"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867451"
 ---
-# <a name="process-ledger-allocation-journal"></a><span data-ttu-id="8cf36-103">Genel muhasebe tahsisat günlüğünü işleme</span><span class="sxs-lookup"><span data-stu-id="8cf36-103">Process ledger allocation journal</span></span>
+# <a name="process-ledger-allocation-journal"></a><span data-ttu-id="1083f-103">Genel muhasebe tahsisat günlüğünü işleme</span><span class="sxs-lookup"><span data-stu-id="1083f-103">Process ledger allocation journal</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="8cf36-104">Genel muhasebe defterine nakledilmeden önce gözden geçirilip onaylanabilecek veya doğrudan Genel muhasebe defterine nakledilebilecek bir tahsisat günlüğü oluşturmak için Tahsisat talebini işleme koy sayfasını kullanın.</span><span class="sxs-lookup"><span data-stu-id="8cf36-104">Use the Process allocation request page to create an allocation journal that can be reviewed and approved before posting to General ledger, or posted directly to General ledger.</span></span> <span data-ttu-id="8cf36-105">Bir tahsisatlar günlüğü oluşturmadan önce, en az bir aktif Muhasebe defteri tahsisat kuralı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="8cf36-105">Before you can create an allocations journal, there must be least one active Ledger allocation rule.</span></span> <span data-ttu-id="8cf36-106">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="8cf36-106">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="1083f-104">Bu konu, Dynamics 365 for Finance and Operations'de bir tahsisat talebinin nasıl işlem yapılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="1083f-104">This topic explains how to process an allocation request in Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="1083f-105">Genel muhasebe defterine nakledilmeden önce gözden geçirilip onaylanabilecek veya doğrudan Genel muhasebe defterine nakledilebilecek bir tahsisat günlüğü oluşturmak için Tahsisat talebini işleme koy sayfasını kullanın.</span><span class="sxs-lookup"><span data-stu-id="1083f-105">Use the Process allocation request page to create an allocation journal that can be reviewed and approved before posting to General ledger, or posted directly to General ledger.</span></span> <span data-ttu-id="1083f-106">Bir tahsisatlar günlüğü oluşturmadan önce, en az bir aktif Muhasebe defteri tahsisat kuralı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="1083f-106">Before you can create an allocations journal, there must be least one active Ledger allocation rule.</span></span> <span data-ttu-id="1083f-107">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="1083f-107">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="8cf36-107">Genel muhasebe > Tahsisatlar > Tahsisat talebini işlem koy'a gidin.</span><span class="sxs-lookup"><span data-stu-id="8cf36-107">Go to General ledger > Allocations > Process allocation request.</span></span>
-2. <span data-ttu-id="8cf36-108">Kural alanında, aramayı açmak için açılır menü düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="8cf36-108">In the Rule field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="8cf36-109">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="8cf36-109">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="8cf36-110">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8cf36-110">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="8cf36-111">Başlangıç tarihi alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="8cf36-111">In the As of date field, enter a date.</span></span>
-    * <span data-ttu-id="8cf36-112">Genel muhasebe kural için bir Veri kaynağı olduğunda Başlangıç Tarihi çok önemlidir.</span><span class="sxs-lookup"><span data-stu-id="8cf36-112">The As of Date is very important when the Ledger is the Data source for the rule.</span></span> <span data-ttu-id="8cf36-113">Bu tarih, tahsisat için eklenecek genel muhasebe bakiyelerini kontrol eder.</span><span class="sxs-lookup"><span data-stu-id="8cf36-113">This date controls which ledger balances to include for allocation.</span></span>     <span data-ttu-id="8cf36-114">Sıfır kaynak alanında Dur'u seçin.</span><span class="sxs-lookup"><span data-stu-id="8cf36-114">In the Zero source field select Stop.</span></span> <span data-ttu-id="8cf36-115">Bu, tahsisat işlemini durdurur ve sıfıra eşit bir kaynak tutar seçildiğini belirten bir ileti görüntüler.</span><span class="sxs-lookup"><span data-stu-id="8cf36-115">This will  Stop the allocation process and display a message that states that a zero source amount is selected.</span></span>  
-6. <span data-ttu-id="8cf36-116">Teklif alanında 'Yalnızca teklif' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="8cf36-116">In the Proposal options field, select 'Proposal only'.</span></span>
-    * <span data-ttu-id="8cf36-117">Tahsisatın genel muhasebe defterine nakledilmesinden önce Tahsisat günlüklerindeki sonucu isteğe bağlı olarak gözden geçirmek onaylamak için Yalnızca teklif öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="8cf36-117">Select Proposal only to review and optionally approve the result in Allocation journals prior to posting the allocation to General ledger.</span></span>  
-7. <span data-ttu-id="8cf36-118">GM deftere nakil tarihi alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="8cf36-118">In the GL posting date field, enter a date.</span></span>
-8. <span data-ttu-id="8cf36-119">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8cf36-119">Click OK.</span></span>
-9. <span data-ttu-id="8cf36-120">Genel muhasebe > Tahsisatlar > Tahsisat günlükleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="8cf36-120">Go to General ledger > Allocations > Allocation journals.</span></span>
-10. <span data-ttu-id="8cf36-121">Satırlar seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8cf36-121">Click Lines.</span></span>
-11. <span data-ttu-id="8cf36-122">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8cf36-122">Click Post.</span></span>
-12. <span data-ttu-id="8cf36-123">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8cf36-123">Click Post.</span></span>
+1. <span data-ttu-id="1083f-108">Gezinti bölmesinde **Modüller > Genel muhasebe > Tahsilatlar > Tahsisat talebini işleme koy**'a gidin.</span><span class="sxs-lookup"><span data-stu-id="1083f-108">In the navigation pane, go to **Modules > General ledger > Allocations > Process allocation request**.</span></span>
+2. <span data-ttu-id="1083f-109">**Kural** alanında, açılır menüden istediğiniz kaydı seçin.</span><span class="sxs-lookup"><span data-stu-id="1083f-109">In the **Rule** field, select the desired record in the drop-down menu.</span></span>
+3. <span data-ttu-id="1083f-110">**Başlangıç tarihi** alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="1083f-110">In the **As of date** field, enter a date.</span></span>
+
+    - <span data-ttu-id="1083f-111">Genel muhasebe kural için bir Veri kaynağı olduğunda **Başlangıç Tarihi** çok önemlidir.</span><span class="sxs-lookup"><span data-stu-id="1083f-111">The **As of Date** is very important when the Ledger is the Data source for the rule.</span></span> <span data-ttu-id="1083f-112">Bu tarih, tahsisat için eklenecek genel muhasebe bakiyelerini kontrol eder.</span><span class="sxs-lookup"><span data-stu-id="1083f-112">This date controls which ledger balances to include for allocation.</span></span>  
+    - <span data-ttu-id="1083f-113">**Sıfır kaynak** alanında **Dur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="1083f-113">In the **Zero source** field select **Stop**.</span></span> <span data-ttu-id="1083f-114">Bu, tahsisat işlemini durdurur ve sıfıra eşit bir kaynak tutar seçildiğini belirten bir ileti görüntüler.</span><span class="sxs-lookup"><span data-stu-id="1083f-114">This will stop the allocation process and display a message that states that a zero source amount is selected.</span></span>  
+
+4. <span data-ttu-id="1083f-115">**Teklif seçenekleri** alanında **Yalnızca teklif** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="1083f-115">In the **Proposal options** field, select **Proposal only**.</span></span> <span data-ttu-id="1083f-116">Tahsisatın genel muhasebe defterine nakledilmesinden önce Tahsisat günlüklerindeki sonucu isteğe bağlı olarak gözden geçirmek onaylamak için **Yalnızca teklif** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="1083f-116">Select **Proposal only** to review and optionally approve the result in Allocation journals prior to posting the allocation to General ledger.</span></span>  
+5. <span data-ttu-id="1083f-117">GM deftere nakil tarihi alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="1083f-117">In the GL posting date field, enter a date.</span></span>
+6. <span data-ttu-id="1083f-118">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1083f-118">Select **OK**.</span></span>
+7. <span data-ttu-id="1083f-119">Gezinti bölmesinde **Modüller > Genel muhasebe > Tahsilatlar > Tahsisat günlükleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="1083f-119">In the navigation pane, go to **Modules > General ledger > Allocations > Allocation journals**.</span></span>
+8. <span data-ttu-id="1083f-120">**Satırlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1083f-120">Select **Lines**.</span></span>
+9. <span data-ttu-id="1083f-121">**Naklet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1083f-121">Select **Post**.</span></span>
+10. <span data-ttu-id="1083f-122">**Naklet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1083f-122">Select **Post**.</span></span>
 

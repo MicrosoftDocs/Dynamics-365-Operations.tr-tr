@@ -19,50 +19,55 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b74bc2d3133af7e87663a4e6bafb8780e0a6a66f
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 1473c3bad55734d5f83ee3e4c1654921b872f3bb
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797310"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873140"
 ---
-# <a name="execution-order-for-initial-sychronization-of-finance-and-operations-and-common-data-service"></a><span data-ttu-id="948cf-103">Finance and Operations ve Common Data Service'ın ilk eşzamanlı yürütülmesi için yürütme emri.</span><span class="sxs-lookup"><span data-stu-id="948cf-103">Execution order for initial sychronization of Finance and Operations and Common Data Service</span></span>
+# <a name="execution-order-for-initial-synchronization-of-finance-and-operations-and-common-data-service"></a><span data-ttu-id="61c54-103">Finance and Operations ve Common Data Service'ın ilk eşzamanlı yürütülmesi için yürütme emri.</span><span class="sxs-lookup"><span data-stu-id="61c54-103">Execution order for initial synchronization of Finance and Operations and Common Data Service</span></span>
 
-<span data-ttu-id="948cf-104">Veri tümleştirmesini kullanmadan önce, müşteriler, satıcılar ve kişiler için gereken ilk verileri oluşturmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="948cf-104">Before you use data integration, you must create the initial data required for customers, vendors and contacts.</span></span> <span data-ttu-id="948cf-105">Örneğin yeni bir **Satıcı grubu** öğesi oluşturmak ve **Ödeme koşulları**'nı **Net30**olarak ayarlamak istiyorsanız **Satıcı grubu** öğesini oluşturmaya çalışmadan önce **Net30**'un hem Finance and Operations'ta hem de Common Data Service'te mevcut olduğundan emin olmalısınız.</span><span class="sxs-lookup"><span data-stu-id="948cf-105">For example, if you want to create a new **Vendor group** item and set its **Terms of Payment** as **Net30**, then before you attempt to create the **Vendor group** item you need to make sure that **Net30** exists in both Finance and Operations and Common Data Service.</span></span> <span data-ttu-id="948cf-106">(Gelecekte **İlk Eşitleme** denilen bir çift yazma platformu işlevselliği yayımlayacağız. Finance and Operations ve Common Data Service arasında tek seferlik veri eşitlemesi ve çift yazma kurulumunun bir parçası olacak.)</span><span class="sxs-lookup"><span data-stu-id="948cf-106">(In the future, we will release a  dual-write platform functionality called **Initial Sync**. It will do a one-time data synchronization between Finance and Operations and Common Data Service as part of the dual-write setup.)</span></span>
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="948cf-107">İpuçları: **Ödeme Şartları** (Ödeme Koşulları) dahil olmak üzere tüm referans verileri için bir çift yazma haritası yayınlamaktadır.</span><span class="sxs-lookup"><span data-stu-id="948cf-107">Tips: We are releasing a dual-write map for all reference data including **Terms of Payment** (Payment Terms).</span></span> <span data-ttu-id="948cf-108">Bir sistemde ilk veri zaten varsa bir kayıtta küçük bir güncelleştirme işlemi bu kayıtta çift yazmayı tetikleyebilir.</span><span class="sxs-lookup"><span data-stu-id="948cf-108">If you already have the initial data in one system, a small update operation on a record can trigger dual-write on that record.</span></span> 
+[!include [preview](../includes/preview-banner.md)]
 
-<span data-ttu-id="948cf-109">Aşağıdaki öncelik sırasını izlemeniz ve başlangıç verilerinin hem Finance and Operations'ta hem de Common Data Service'te kullanılabilir olduğundan emin olmanız gerekir .</span><span class="sxs-lookup"><span data-stu-id="948cf-109">You must follow the following order of precedence and make sure that the initial data is available on both Finance and Operations and Common Data Service.</span></span>   
+<span data-ttu-id="61c54-104">Veri tümleştirmesini kullanmadan önce, müşteriler, satıcılar ve kişiler için gereken ilk verileri oluşturmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="61c54-104">Before you use data integration, you must create the initial data that is required for customers, vendors, and contacts.</span></span> <span data-ttu-id="61c54-105">Örneğin, yeni bir **Satıcı grubu** maddesi oluşturmak ve **Ödeme şartları** değerini **Net30**olarak ayarlamak istiyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="61c54-105">For example, you want to create a new **Vendor group** item and set its **Terms of Payment** value to **Net30**.</span></span> <span data-ttu-id="61c54-106">Bu durumda, **Satıcı grup** maddesini oluşturmaya çalışmadan önce **Net30**'un Microsoft Dynamics 365 for Finance and Operations ve Common Data Service'in her ikisinde de bulunduğundan emin olmalısınız.</span><span class="sxs-lookup"><span data-stu-id="61c54-106">In this case, before you try to create the **Vendor group** item, you must make sure that **Net30** exists in both Microsoft Dynamics 365 for Finance and Operations and Common Data Service.</span></span> <span data-ttu-id="61c54-107">(Gelecekte Microsoft İlk Eşitleme denilen bir çift yazma platformu işlevselliği yayımlayacak. Finance and Operations ve Common Data Service arasında tek seferlik veri eşitlemesi ve çift yazma kurulumunun bir parçası olacak.)</span><span class="sxs-lookup"><span data-stu-id="61c54-107">(In the future, Microsoft will release dual-write platform functionality that is named Initial Sync. This functionality will do a one-time data synchronization between Finance and Operations and Common Data Service as part of the dual-write setup.)</span></span>
 
-## <a name="vendor"></a><span data-ttu-id="948cf-110">Satıcı</span><span class="sxs-lookup"><span data-stu-id="948cf-110">Vendor</span></span>
+> [!TIP]
+> <span data-ttu-id="61c54-108">Microsoft **Ödeme Şartları** (Ödeme Koşulları) dahil olmak üzere tüm referans verileri için bir çift yazma haritası yayımlamaktadır.</span><span class="sxs-lookup"><span data-stu-id="61c54-108">Microsoft is releasing a dual-write map for all reference data, including **Terms of Payment** (payment terms).</span></span> <span data-ttu-id="61c54-109">Bir sistemde ilk veri zaten varsa bir kayıtta küçük bir güncelleştirme işlemi bu kayıtta çift yazmayı tetikleyebilir.</span><span class="sxs-lookup"><span data-stu-id="61c54-109">If you already have the initial data in one system, a small update operation on a record can trigger dual-write on that record.</span></span>
 
-<span data-ttu-id="948cf-111">Satıcı için yürütme sırası şudur:</span><span class="sxs-lookup"><span data-stu-id="948cf-111">The order of execution for Vendor is:</span></span>
+<span data-ttu-id="61c54-110">Aşağıdaki öncelik sırasını izlemeniz ve başlangıç verilerinin hem Finance and Operations'ta hem de Common Data Service'te kullanılabilir olduğundan emin olmanız gerekir .</span><span class="sxs-lookup"><span data-stu-id="61c54-110">You must follow the following order of precedence and make sure that the initial data is available in both Finance and Operations and Common Data Service.</span></span>
 
-```
-Vendor Group
-    Terms of payment
-        Payment day & lines
-        Payment schedule
-Vendor payment method
-```
+## <a name="vendor"></a><span data-ttu-id="61c54-111">Satıcı</span><span class="sxs-lookup"><span data-stu-id="61c54-111">Vendor</span></span>
 
-## <a name="customer-organization"></a><span data-ttu-id="948cf-112">Müşteri (Kuruluş)</span><span class="sxs-lookup"><span data-stu-id="948cf-112">Customer (Organization)</span></span>
+<span data-ttu-id="61c54-112">İşte **Satıcı** varlığı için yürütme sırası:</span><span class="sxs-lookup"><span data-stu-id="61c54-112">Here is the order of execution for the **Vendor** entity:</span></span>
 
-<span data-ttu-id="948cf-113">Müşteri için yürütme sırası şudur:</span><span class="sxs-lookup"><span data-stu-id="948cf-113">The order of execution for Customer is:</span></span>
+1. <span data-ttu-id="61c54-113">Satıcı grubu</span><span class="sxs-lookup"><span data-stu-id="61c54-113">Vendor group</span></span>
 
-```
-Customer Group
-    Terms of payment
-        Payment day & lines
-        Payment 
-Customer payment method
-```
+    1. <span data-ttu-id="61c54-114">Ödeme koşulları</span><span class="sxs-lookup"><span data-stu-id="61c54-114">Terms of payment</span></span>
 
-## <a name="contact-person"></a><span data-ttu-id="948cf-114">İlgili Kişi (Kişi)</span><span class="sxs-lookup"><span data-stu-id="948cf-114">Contact (Person)</span></span>
+        1. <span data-ttu-id="61c54-115">Ödeme günü ve satırlar</span><span class="sxs-lookup"><span data-stu-id="61c54-115">Payment day and lines</span></span>
+        2. <span data-ttu-id="61c54-116">Ödeme planı</span><span class="sxs-lookup"><span data-stu-id="61c54-116">Payment schedule</span></span>
 
-<span data-ttu-id="948cf-115">İlgili kişi için yürütme sırası şudur:</span><span class="sxs-lookup"><span data-stu-id="948cf-115">The order of execution for Contact is:</span></span>
+2. <span data-ttu-id="61c54-117">Satıcı ödeme yöntemi</span><span class="sxs-lookup"><span data-stu-id="61c54-117">Vendor payment method</span></span>
 
-```
-Customer
-Vendor               
-```
+## <a name="customer-organization"></a><span data-ttu-id="61c54-118">Müşteri (Kuruluş)</span><span class="sxs-lookup"><span data-stu-id="61c54-118">Customer (Organization)</span></span>
+
+<span data-ttu-id="61c54-119">İşte **Müşteri** varlığı için yürütme sırası:</span><span class="sxs-lookup"><span data-stu-id="61c54-119">Here is the order of execution for the **Customer** entity:</span></span>
+
+1. <span data-ttu-id="61c54-120">Müşteri grubu</span><span class="sxs-lookup"><span data-stu-id="61c54-120">Customer group</span></span>
+
+    1. <span data-ttu-id="61c54-121">Ödeme koşulları</span><span class="sxs-lookup"><span data-stu-id="61c54-121">Terms of payment</span></span>
+
+        1. <span data-ttu-id="61c54-122">Ödeme günü ve satırlar</span><span class="sxs-lookup"><span data-stu-id="61c54-122">Payment day and lines</span></span>
+        2. <span data-ttu-id="61c54-123">Ödeme</span><span class="sxs-lookup"><span data-stu-id="61c54-123">Payment</span></span> 
+
+2. <span data-ttu-id="61c54-124">Müşteri ödeme yöntemi</span><span class="sxs-lookup"><span data-stu-id="61c54-124">Customer payment method</span></span>
+
+## <a name="contact-person"></a><span data-ttu-id="61c54-125">İlgili Kişi (Kişi)</span><span class="sxs-lookup"><span data-stu-id="61c54-125">Contact (Person)</span></span>
+
+<span data-ttu-id="61c54-126">İşte **İlgili kişi** varlığı için yürütme sırası:</span><span class="sxs-lookup"><span data-stu-id="61c54-126">Here is the order of execution for the **Contact** entity:</span></span>
+
+1. <span data-ttu-id="61c54-127">Müşteri</span><span class="sxs-lookup"><span data-stu-id="61c54-127">Customer</span></span>
+2. <span data-ttu-id="61c54-128">Satıcı</span><span class="sxs-lookup"><span data-stu-id="61c54-128">Vendor</span></span>

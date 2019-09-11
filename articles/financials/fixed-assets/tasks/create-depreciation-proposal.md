@@ -1,9 +1,9 @@
 ---
-title: Amortisman önerisi oluştur
-description: Bu prosedür, toplu amortisman tekliflerinin nasıl işlediğini ve sabit kıymetler için amortisman teklifinin nasıl yapıldığını açıklar.
+title: Amortisman önerisi oluşturma
+description: Bu konu, toplu amortisman tekliflerinin nasıl işlediğini ve sabit kıymetler için amortisman teklifinin nasıl yapıldığını açıklar.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,35 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07146adfe1ead2b6e06e3c323963f8c012381b76
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 90c24e9d89c055ea95ca5f25cd85ef4042476a90
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1840013"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867619"
 ---
-# <a name="create-depreciation-proposal"></a><span data-ttu-id="ba7cc-103">Amortisman önerisi oluştur</span><span class="sxs-lookup"><span data-stu-id="ba7cc-103">Create depreciation proposal</span></span>
+# <a name="create-a-depreciation-proposal"></a><span data-ttu-id="46fbc-103">Amortisman önerisi oluşturma</span><span class="sxs-lookup"><span data-stu-id="46fbc-103">Create a depreciation proposal</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ba7cc-104">Bu prosedür, toplu amortisman tekliflerinin nasıl işlediğini ve sabit kıymetler için amortisman teklifinin nasıl yapıldığını açıklar.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-104">This procedure describes how depreciation batch proposals work and explains how to propose depreciation for fixed assets.</span></span> <span data-ttu-id="ba7cc-105">Bu görevde USMF demo şirketi ve muhasebeci rolü kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-105">This task uses the USMF demo company and the accountant role.</span></span>
+<span data-ttu-id="46fbc-104">Bu konu, toplu amortisman tekliflerinin nasıl işlediğini ve sabit kıymetler için amortisman teklifinin nasıl yapıldığını açıklar.</span><span class="sxs-lookup"><span data-stu-id="46fbc-104">This topic describes how depreciation batch proposals work and explains how to propose depreciation for fixed assets.</span></span> <span data-ttu-id="46fbc-105">Bu görevde USMF demo şirketi ve muhasebeci rolü kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="46fbc-105">This task uses the USMF demo company and the accountant role.</span></span>
 
 
-## <a name="create-depreciation-proposal"></a><span data-ttu-id="ba7cc-106">Amortisman önerisi oluştur</span><span class="sxs-lookup"><span data-stu-id="ba7cc-106">Create depreciation proposal</span></span>
-1. <span data-ttu-id="ba7cc-107">Sabit kıymetler > Günlük girişleri > Amortisman tekifi oluştur'a gidin.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-107">Go to Fixed assets > Journal entries > Create depreciation proposal.</span></span>
-2. <span data-ttu-id="ba7cc-108">Günlüğün adı alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-108">In the Name of journal field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="ba7cc-109">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="ba7cc-110">Bitiş tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-110">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="ba7cc-111">Aylık amortismanları bir günlük satırında özetlemek için Amortismanı özetle'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-111">Select the Summarize depreciation option to summarize monthly depreciations into one journal line.</span></span>  
-    * <span data-ttu-id="ba7cc-112">Örneğin, Bitiş tarihi değeri 31 Mart 2015 ise, aşağıdaki açıklama oluşturulur: "31 Ocak 2015'ten itibaren amortisman".</span><span class="sxs-lookup"><span data-stu-id="ba7cc-112">For example, if the To date value is March 31, 2015, the following description is generated: “Depreciation since January 31, 2015.”</span></span> <span data-ttu-id="ba7cc-113">Önerilen günlük satırları üzerindeki Tarih alanı 31 Mart 2015'tir.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-113">The Date field on the proposed journal lines is then set to March 31, 2015.</span></span>  
-    * <span data-ttu-id="ba7cc-114">Amortisman teklifine, kıymet, kıymet grubu veya diğer ölçütlere göre Filtre seçeneği kullanılarak filtre uygulanabilir.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-114">The depreciation proposal can be filtered by asset, asset group, or other criteria using the Filter option.</span></span>  
-    * <span data-ttu-id="ba7cc-115">Sabit kıymetler için alım veya amortisman teklifleri oluşturun formunu kullanırken amortismanı toplu işler halinde teklif edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-115">When you use the Create acquisition or depreciation proposals for fixed assets form, you can propose depreciation in batches.</span></span> <span data-ttu-id="ba7cc-116">Bu, daha fazla sistem kaynağı kullanan büyük teklifler için önerilir.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-116">This is recommended for larger proposals that will use more system resources.</span></span> <span data-ttu-id="ba7cc-117">Toplu iş seçeneğini belirtirseniz, bu süre içinde diğer görevleri tamamlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-117">If you select the batch option, you can still complete other tasks during that time.</span></span> <span data-ttu-id="ba7cc-118">Amortismanı bu yolla teklif ettiğiniz zaman, sabit kıymetlerle ilgili değer modelleri için amortisman hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-118">When you propose depreciation in this way, depreciation is calculated for value models for fixed assets.</span></span>  
-5. <span data-ttu-id="ba7cc-119">Günlük oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-119">Click Create journal.</span></span>
+## <a name="create-a-depreciation-proposal"></a><span data-ttu-id="46fbc-106">Amortisman önerisi oluşturma</span><span class="sxs-lookup"><span data-stu-id="46fbc-106">Create a depreciation proposal</span></span>
+1. <span data-ttu-id="46fbc-107">Gezinti bölmesinde **Modüller > Sabit kıymetler > Günlük girişleri> Amortisman önerisi oluştur**'a gidin.</span><span class="sxs-lookup"><span data-stu-id="46fbc-107">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Create depreciation proposal**.</span></span>
+2. <span data-ttu-id="46fbc-108">**Günlüğün adı** alanında, açılır menüden bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="46fbc-108">In the **Name of journal** field, select an option from the drop-down menu.</span></span>
+3. <span data-ttu-id="46fbc-109">**Bitiş tarihi** alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="46fbc-109">In the **To date** field, enter a date.</span></span>
 
-## <a name="review-depreciation-entries"></a><span data-ttu-id="ba7cc-120">Amortisman girişlerini gözden geçirin</span><span class="sxs-lookup"><span data-stu-id="ba7cc-120">Review depreciation entries</span></span>
-1. <span data-ttu-id="ba7cc-121">Sabit kıymetler > Günlük girişler > Sabit kıymetler günlüğü'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-121">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
-2. <span data-ttu-id="ba7cc-122">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-122">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="ba7cc-123">Satırlar seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-123">Click Lines.</span></span>
-4. <span data-ttu-id="ba7cc-124">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ba7cc-124">Click Post.</span></span>
+    - <span data-ttu-id="46fbc-110">**Aylık amortismanlar**'ı bir günlük satırında özetlemek için Amortismanı özetle'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="46fbc-110">Select the **Summarize depreciation** option to summarize monthly depreciations into one journal line.</span></span>  
+    - <span data-ttu-id="46fbc-111">Örneğin, Bitiş tarihi değeri 31 Mart 2015 ise, aşağıdaki açıklama oluşturulur: "31 Ocak 2015'ten itibaren amortisman".</span><span class="sxs-lookup"><span data-stu-id="46fbc-111">For example, if the To date value is March 31, 2015, the following description is generated: “Depreciation since January 31, 2015.”</span></span> <span data-ttu-id="46fbc-112">Önerilen günlük satırları üzerindeki **Tarih** alanı 31 Mart 2015'tir.</span><span class="sxs-lookup"><span data-stu-id="46fbc-112">The **Date** field on the proposed journal lines is then set to March 31, 2015.</span></span>  
+    - <span data-ttu-id="46fbc-113">Amortisman teklifine, kıymet, kıymet grubu veya diğer ölçütlere göre **Filtre** seçeneği kullanılarak filtre uygulanabilir.</span><span class="sxs-lookup"><span data-stu-id="46fbc-113">The depreciation proposal can be filtered by asset, asset group, or other criteria using the **Filter** option.</span></span>  
+    - <span data-ttu-id="46fbc-114">**Sabit kıymetler için alım veya amortisman teklifleri oluşturun** formunu kullanırken amortismanı toplu işler halinde teklif edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="46fbc-114">When you use the **Create acquisition or depreciation proposals for fixed assets** form, you can propose depreciation in batches.</span></span> <span data-ttu-id="46fbc-115">Bu, daha fazla sistem kaynağı kullanan büyük teklifler için önerilir.</span><span class="sxs-lookup"><span data-stu-id="46fbc-115">This is recommended for larger proposals that will use more system resources.</span></span> <span data-ttu-id="46fbc-116">Toplu iş seçeneğini belirtirseniz, bu süre içinde diğer görevleri tamamlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="46fbc-116">If you select the batch option, you can still complete other tasks during that time.</span></span> <span data-ttu-id="46fbc-117">Amortismanı bu yolla teklif ettiğiniz zaman, sabit kıymetlerle ilgili değer modelleri için amortisman hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="46fbc-117">When you propose depreciation in this way, depreciation is calculated for value models for fixed assets.</span></span>  
+
+4. <span data-ttu-id="46fbc-118">**Günlük oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="46fbc-118">Select **Create journal**.</span></span>
+
+## <a name="review-depreciation-entries"></a><span data-ttu-id="46fbc-119">Amortisman girişlerini gözden geçirin</span><span class="sxs-lookup"><span data-stu-id="46fbc-119">Review depreciation entries</span></span>
+1. <span data-ttu-id="46fbc-120">Gezinti bölmesinde **Modüller > Sabit kıymetler > Günlük girişleri> Sabit kıymetler günlüğü**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="46fbc-120">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Fixed assets journal**.</span></span>
+2. <span data-ttu-id="46fbc-121">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="46fbc-121">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="46fbc-122">**Satırlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="46fbc-122">Select **Lines**.</span></span>
+4. <span data-ttu-id="46fbc-123">**Naklet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="46fbc-123">Select **Post**.</span></span>
 
