@@ -1,9 +1,9 @@
 ---
 title: Kaynak belgeler için denetim ilkeleri tanımlama
-description: Bu prosedür, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını gösterir.
+description: Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açıklar.
 author: ryansandness
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,80 +16,75 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17b712f07a0ffe6874eb6d98b47ced96f5a54483
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846499"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914855"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Kaynak belgeler için denetim ilkeleri tanımlama
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu prosedür, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını gösterir. Örnekte, otel gideri türünde gider raporları kullanılmaktadır. Bu yordam, USMF demo şirketini kullanır. Denetçi rolü bu görevleri gerçekleştirmek için uygun izinleri içerir.
+Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açıklar. Örnekte, otel gideri türünde gider raporları kullanılmaktadır. Bu yordam, USMF demo şirketini kullanır. Denetçi rolü bu görevleri gerçekleştirmek için uygun izinleri içerir.
 
-1. Audit workbench > Setup > Policy rule type (Denetim çalışma ekranı > Ayar > İlke kuralı türü) menüsüne gidin.
-2. Yeni'ye tıklayın.
-3. Kural adı alanına bir değer girin.
-4. Açıklama alanına bir değer girin.
-5. Sorgu adı alanında Gider raporu satırı'nı seçin
-6. Sorgu türü alanında Topla'yı seçin
-7. Tüzel kişilik alanında Tüzel kişilik'i seçin
-8. Belge tarihi referansı alanında Değiştirilme tarihi ve saati'ni seçin
-9. Kaydet'e tıklayın.
-10. Audit workbench > Setup > Audit policies (Denetim çalışma ekranı > Ayar > Denetim ilkeleri) menüsüne gidin.
-11. Yeni'ye tıklayın.
-12. İsim alanına bir değer yazın.
-13. İlke organizasyonları bölümünü genişletin.
-14. Ağaçta "Contoso Eğlence Sistemi Türkiye"yi (Contoso Entertainment System USA) seçin.
-15. Ekle öğesini tıklatın.
-16. Ağaçta "Contoso Danışmanlık Türkiye"yi (Contoso Consulting USA) seçin.
-17. Ekle öğesini tıklatın.
-18. Ağaçta "Contoso Perakende Türkiye"yi (Contoso Retail USA) seçin.
-19. Ekle öğesini tıklatın.
-20. İlke organizasyonları bölümünü daraltın.
-21. İlke kuralları bölümünü genişletin.
-22. Listede, önceden oluşturulmuş İlke Kuralı'nı bulup seçin.
-23. İlke kuralı oluştur'a tıklayın.
-24. Yürürlük tarihi alanına bir tarih ve saat girin.
-25. Filtre'ye tıklayın.
-26. Listede, Gider kategorisi için satırı seçin ve Ayrıntılar ayarını Otel yapın
-27. Ölçütler alanında bir değer girin veya seçin.
-28. Topla sekmesine tıklayın.
-29. Ekle öğesini tıklatın.
-30. Listeden, Hareket tutarı için bir alan değeri seçin
-31. Alan alanında bir değer girin veya seçin.
-32. Toplama İşlevi (AggregateFunction) alanında Toplam'ı (Sum) seçin.
-33. Gruplama ölçütü sekmesine tıklayın.
-34. Ekle öğesini tıklatın.
-35. Listeden, Çalışan için bir değer seçin  
-36. Ekle öğesini tıklatın.
-37. Listeden, Gider kategorisi için bir değer seçin
-38. Alan alanında bir değer girin veya seçin.
-39. Sahip sekmesine tıklayın.
-40. Ekle öğesini tıklatın.
-41. Hareket tutarı'nı seçin
-42. Alan alanında bir değer girin veya seçin.
-43. Toplama İşlevi (AggregateFunction) alanında Toplam'ı (Sum) seçin.
-44. Ölçütler alanına '>2000' yazın.
-45. Tamam'a tıklayın.
-46. Sına'yı tıklatın.
-47. Belge seçim başlangıç tarihi alanına tarih ve saat girin.
-48. Belge seçim bitiş tarihi alanına tarih ve saat girin.
-49. Testi çalıştır'a tıklayın.
-50. Eylem Bölmesinde, Denetim ilkesi'ne tıklayın.
-51. Ek seçenekler'e tıklayın.
-52. Başlangıç tarihi alanına tarih ve saat girin.
-53. Bitiş tarihi alanına tarih ve saat girin.
-54. Toplu iş'e tıklayın.
-55. Arka planda çalıştır bölümünü genişletin.
-56. Toplu işleme alanında Evet'i seçin.
-57. Tamam'a tıklayın.
-58. Audit workbench > Audit cases (Denetim çalışma ekranı > Denetim vakaları) menüsüne gidin.
-59. Listede, istenen kaydı bulun ve seçin.
-60. Listede, seçili satırdaki bağlantıya tıklayın.
-61. İlişkilendirmeler bölümünü genişletin.
-62. Listede, istenen kaydı bulun ve seçin.
-63. Listede, seçili satırdaki bağlantıya tıklayın.
+1. Gezinti bölmesinde, **Modüller > Denetim çalışma ekranı > Kurulum > İlke kuralı türü**'ne gidin.
+2. **Yeni**'yi seçin.
+3. **Kural adı** alanına bir değer girin.
+4. **Tanım** alanına bir değer girin.
+5. **Sorgu adı** alanında **Gider raporu satırı** öğesini seçin
+6. **Sorgu türü** alanında **Topla** öğesini seçin
+7. **Tüzel kişilik** alanında **Tüzel kişilik** öğesini seçin
+8. **Belge tarihi referansı** alanında **Değiştirilme tarihi ve saati** öğesini seçin
+9. **Kaydet**'i seçin.
+10. Gezinti bölmesinde, **Modüller > Denetim çalışma ekranı > Kurulum > Denetim ilkeleri**'ne gidin.
+11. **Yeni**'yi seçin.
+12. **Ad** alanına bir değer yazın.
+13. **İlke organizasyonları**  bölümünü genişletin.
+14. Ağaçta **Contoso Entertainment System USA** seçeneğini ve ardından **Ekle**'yi seçin.
+15. Ağaçta **Contoso Consulting USA** seçeneğini ve ardından **Ekle**'yi seçin.
+16. Ağaçta **Contoso Retail USA** seçeneğini ve ardından **Ekle**'yi seçin.
+17. **İlke organizasyonları** bölümünü daraltın.
+18. **İlke kuralları**  bölümünü genişletin.
+19. Listede, önceden oluşturulmuş İlke Kuralı'nı bulup seçin.
+20. **İlke kuralı oluştur**'u seçin.
+21. **Yürürlük tarihi** alanına bir tarih ve saat girin.
+22. **Filtre**'yi seç.
+23. Listede, **Gider kategorisi** satırını seçin ve ayrıntıları **Otel** olarak ayarlayın
+24. **Ölçütler** alanında bir değer girin veya seçin.
+25. **Toplam** sekmesini seçin.
+26. **Ekle**'yi seçin.
+27. Listeden, **Hareket tutarı** için bir alan değeri seçin.
+28. **Alan** alanında bir değer girin veya seçin.
+29. **AggregateFunction** alanında **Toplam** seçeneğini seçin.
+30. **Gruplandırma ölçütü** sekmesini seçin.
+31. **Ekle**'yi seçin.
+32. Listeden **Personel** için bir değer seçin.
+33. **Ekle**'yi seçin.
+34. Listeden **Gider kategorisi** için bir değer seçin.
+35. **Alan** alanında bir değer girin veya seçin.
+36. **Sahip** sekmesini seçin.
+37. **Ekle**'yi seçin.
+38. **Hareket tutarı**  öğesini seçin.
+39. **Alan** alanında bir değer girin veya seçin.
+40. **AggregateFunction** alanında **Toplam** seçeneğini seçin.
+41. **Ölçütler** alanına `>2000` yazın.
+42. **Tamam**'ı seçin.
+43. **Test**'i seçin.
+44. **Belge seçim başlangıç tarihi** alanına tarih ve saat girin.
+45. **Belge seçim bitiş tarihi** alanına tarih ve saat girin.
+46. **Testi çalıştır**'ı seçin.
+47. Eylem Bölmesinde **Denetim ilkesi** öğesine tıklayın.
+48. **Ek seçenekler** öğesini seçin.
+49. **Başlangıç tarihi** alanına tarih ve saat girin.
+50. **Bitiş tarihi** alanına tarih ve saat girin.
+51. **Toplu iş**'i seçin.
+52. **Arka planda çalıştır** bölümünü genişletin.
+53. **Toplu işlem** alanında **Evet** seçeneğini seçin.
+54. **Tamam**'ı seçin.
+55. Gezinti bölmesinde **Modüller > Denetim çalışma ekranı > Denetim vakaları**'na gidin.
+56. Listede, istenen kaydı bulun ve seçin.
+57. **İlişkilendirmeler**  bölümünü genişletin.
+58. Listede, istenen kaydı bulun ve seçin.
 

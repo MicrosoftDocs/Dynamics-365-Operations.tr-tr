@@ -3,7 +3,7 @@ title: Ambar yönetimi ile Fiili ağırlık ürün işlemi
 description: Bu konuda ambar içinde işin nasıl ve nerede gerçekleştirileceğini belirlemek için iş şablonları ve konum yönergelerinin nasıl kullanılacağı açıklanmaktadır.
 author: perlynne
 manager: AnnBe
-ms.date: 03/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ed588ea28bec3e734f9648c1fbd7551ab0b3cdda
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836129"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887147"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile Fiili ağırlık ürün işlemi
 
@@ -136,7 +136,6 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
 
 - Karantina emirlerinin el ile oluşturulması fiili ağırlık ürünleri için desteklenmiyor.
 - İş ile ilgili olan stokun el ile taşıması fiili ağırlık ürünleri için desteklenmiyor.
-- Plakaların birleştirilmesi fiili ağırlık ürünleri için desteklenmiyor.
 - Ambar stokunu başlatmak için plaka yükleme fiili ağırlık ürünleri için desteklenmiyor.
 - Toplu iş dengelemesi işlemleri fiili ağırlık ürünleri için desteklenmiyor.
 - Negatif fiziksel stokun işlenmesi fiili ağırlık ürünleri için desteklenmiyor.
@@ -147,7 +146,6 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
 - Küme çekme için işlev fiili ağırlık ürünleri için desteklenmiyor.
 - Çekme ve paketleme amber işleme fiili ağırlık ürünleri için desteklenmiyor.
 - Fiili ağırlık ürünleri için bir iş şablonunda tanımlanan bir iş otomatik olarak yürütülebilir.
-- İş ters işlem için işlev fiili ağırlık ürünleri için desteklenmiyor.
 - Fiili ağırlık ürünleri için el ile işleme istasyon işleme, işin konteynerler kapatıldıktan sonra oluşturulduğu durumlarda desteklenmiyor.
 - Adet başına tarama işlevi, fiili ağırlık ürünleri için desteklenmiyor.
  

@@ -3,7 +3,7 @@ title: Yeni bir kayıt oluşturmak için kayıt şablonu kullanma
 description: Bu yordam, yeni bir kayıt oluşturmak için önceden tanımlanmış bir şablonun nasıl kullanılacağını gösterir.
 author: margoc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d15cfd426b94779891dc7ccd471baab0522abbab
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 8e420e2bb47ae18e20d35731339b53f0f890b247
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1848243"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916011"
 ---
 # <a name="use-record-template-to-create-a-new-record"></a>Yeni bir kayıt oluşturmak için kayıt şablonu kullanma
 
@@ -29,13 +29,10 @@ ms.locfileid: "1848243"
 
 Bu yordam, yeni bir kayıt oluşturmak için önceden tanımlanmış bir şablonun nasıl kullanılacağını gösterir. Bu yordamı tamamlamak için öncelikle "Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma" yordamını tamamlamanız gerekir.
 
-
-
 Bu yordamda, USMF şirketi kullanılır.
 
-1. Sabit kıymetler > Sabit kıymetler > Sabit kıymetler menüsüne gidin.
-2. Yeni'ye tıklayın.
-    * Bir şablon seçmeniz istenir. İş gereksiniminize karşılık gelen birini seçin.  
+1. **Gezinti bölmesinde** **Sabit kıymetler > Sabit kıymetler > Sabit kıymetler**'e gidin.
+2. **Yeni**'ye tıklayın. Bir şablon seçmeniz istenir. İş gereksiniminize karşılık gelen birini seçin.  
 3. Listede, istenen kaydı bulun ve seçin.
-4. Tamam'a tıklayın.
+4. **Tamam**'a tıklayın.
 

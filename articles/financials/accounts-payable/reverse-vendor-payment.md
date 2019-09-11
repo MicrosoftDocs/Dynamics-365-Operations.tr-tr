@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6587505fc5a729ffd82ab65aca7d5aa6ca4a265
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837264"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867762"
 ---
 # <a name="reverse-a-vendor-payment"></a>Satıcı ödemesini tersine çevirme
 
@@ -48,7 +48,7 @@ Kuruluşunuzun hangi yöntemi kullandığını öğrenmek için **Nakit ve banka
 Kuruluşunuz, **Çekler** sayfasında **Ödeme ters kaydı**'nı tıklattığınızda çek tersine çevirme işlemlerinin anında deftere nakledilmesini istiyorsa. **Nakit ve banka yönetimi parametreleri** sayfasında, **Ödeme ters işlemleri için inceleme işlemi kullan** seçeneğini **Hayır** olarak ayarlayın. **Çekler** sayfasında, ters çevrilecek çeki ve **Ödeme ters kaydı**'nı seçebilirsiniz. Tarihi girebilir ve ters işlem için bir neden seçebilirsiniz.
 
 ## <a name="reverse-posted-checks-after-they-are-reviewed-in-the-check-reversal-journal"></a>Çek ters işlem günlüğünde gözden geçirildikten sonra deftere nakledilen çekleri ters çevirme
-Kuruluşunuz çek tersine çevirmelerini deftere nakledilmeden önce gözden geçirmek isterse, gözden geçirme için bir çek ters işlem günlüğü oluşturun ve **Nakit ve banka yönetimi parametreleri** sayfasında, **Ödeme ters işlemleri için inceleme işlemi kullan** seçeneğini **Evet** olarak ayarlayın. **Çekler** sayfasında, ters çevrilecek çeki ve **Ödeme ters kaydı**'nı seçebilirsiniz. Tarihi girebilir ve ters işlem için bir neden seçebilirsiniz. Ayrıca çek ters işlem günlüğünde bir günlük oluşturmak için bir günlük adı seçmeniz de gerekir.
+Kuruluşunuz çek tersine çevirmelerini deftere nakledilmeden önce gözden geçirmek isterse, gözden geçirme için bir çek ters işlem günlüğü oluşturun ve **Nakit ve banka yönetimi parametreleri** sayfasında, **Ödeme ters işlemleri için inceleme işlemi kullan** seçeneğini **Evet** olarak ayarlayın. **Çekler** sayfasında, ters çevrilecek çeki ve **Ödeme ters kaydı**'nı seçebilirsiniz. Tarihi girebilir ve ters işlem için bir neden seçebilirsiniz. Mali nedenler hem banka, hem de satıcı türleri için ayarlanmalıdır. Ayrıca çek ters işlem günlüğünde bir günlük oluşturmak için bir günlük adı seçmeniz de gerekir.
 
 ### <a name="review-a-reversal"></a>Ters işlemi inceleme
 

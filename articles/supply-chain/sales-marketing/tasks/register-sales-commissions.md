@@ -1,9 +1,9 @@
 ---
 title: Satış komisyonlarını kaydetme
-description: Bu yordam, satış komisyonlarının nasıl hesaplanacağını ve kaydedileceğini göstermektedir.
+description: Bu konu, satış komisyonlarının nasıl hesaplanacağını ve kaydedileceğini açıklar.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,61 +16,58 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4c0e63923d0cb9a4a2c2bed87cfb72edfb0d2741
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db27255c74c55b10680594ad23424253e4c3f79e
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833918"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867065"
 ---
 # <a name="register-sales-commissions"></a>Satış komisyonlarını kaydetme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, satış komisyonlarının nasıl hesaplanacağını ve kaydedileceğini göstermektedir. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. Bu kılavuzu başlatmadan önce, gerekli tüm komisyon hesaplama ayarlarını yaptığınızdan emin olmak için "Satış komisyonu kuralları ayarlama" adlı kılavuzu çalıştırın.
+Bu konu, satış komisyonlarının nasıl hesaplanacağını ve kaydedileceğini açıklar. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. Bu kılavuzu başlatmadan önce, gerekli tüm komisyon hesaplama ayarlarını yaptığınızdan emin olmak için "Satış komisyonu kuralları ayarlama" adlı kılavuzu çalıştırın.
 
 Komisyon işlemi için seçtiğiniz müşteri ve ürün numaralarını not edin ve sorulduğunda bu kılavuzda bir satış siparişi oluşturmak için bunları kullanın.
 
 
 ## <a name="invoice-a-sales-order-that-qualifies-a-salesperson-for-a-commission"></a>Bir satış elemanının bir komisyon için uygun olduğunu gösteren satış siparişini faturalama
-1. Sales and marketing > Sales orders > All sales orders (Satış ve pazarlama > Satış siparişleri > Tüm satış siparişleri) menüsüne gidin.
-2. Yeni'ye tıklayın.
-3. Müşteri hesabı alanında, açılır menü düğmesine tıklayarak açılır menü düğmesine tıklayın.
-4. Listede, istenen kaydı bulun ve seçin.
-5. Listede, seçili satırdaki bağlantıya tıklayın.
-6. Tamam'a tıklayın.
-7. Eylem Bölmesinde, Seçenekler'e tıklayın.
-8. Görünümü değiştir'e tıklayın.
-9. Başlık görünümü'ne tıklayın.
-10. Kurulum bölümünü genişletin.
-    * Satış grubu alanındaki değer, bir veya daha fazla satış temsilcisinin atandığı bir grubu temsil eder. Sipariş faturalandırıldığında, gruptaki kişiler önceden tanımlanmış oranlara ve dağıtıma göre komisyonlarını alır.   Değer, Müşteri kartından kopyalanır ancak isterseniz değiştirebilirsiniz.  Satış grubu, satış siparişi satırına da kopyalanır. Bir üstbilgiden ve/veya satırlar arası bilgiden farklı olabilmesi için bunu değiştirebilirsiniz.  
-    * Komisyon grubu alanındaki değer, bir veya daha fazla müşteri için komisyonları izleme amacıyla oluşturduğunuz bir grubu temsil eder.   Değer, Müşteri kartından kopyalanır ancak isterseniz değiştirebilirsiniz.   
-11. Eylem Bölmesinde, Seçenekler'e tıklayın.
-12. Görünümü değiştir'e tıklayın.
-13. Satır görünümü'nü tıklatın.
-14. Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.
-15. Listede, komisyonlar için ayarlamış olduğunuz ürünü seçin. 
-16. Miktar alanına bir sayı girin.
-    * Satırın Net tutarını not edin. Bu, bu örnekte komisyon hesaplamasının temeli olan satış geliri temsil eder.  
-17. Kaydet'e tıklayın.
-18. Eylem Bölmesinde, Fatura öğesine tıklayın.
-19. Fatura'ya tıklayın.
-20. Parametreler bölümünü genişletin.
-21. Miktar alanında, 'Tümü' öğesini seçin.
-22. Deftere nakil alanında 'Evet'i seçin.
-23. Tamam'a tıklayın.
-24. Tamam'a tıklayın.
-    * Bir hareketin deftere nakledilmesi bir dakika kadar sürebilir. İşleme koyulmasını ve tamamlanmasını bekleyin ve sayfayı kapatmayın.  
+1. Gezinti bölmesinde **Modüller > Satış ve pazarlama > Satış siperişler > Tüm satış siparişleri**'ne gidin.
+2. **Yeni**'yi seçin.
+3. **Müşteri numarası** alanında, açılır menüden istediğiniz kaydı seçin.
+4. **Tamam**'ı seçin.
+5. Eylem Bölmesinde, **Seçenekler**'i seçin.
+6. **Görünümü değiştir**'i seçin.
+7. **Başlık görünümü**'nü seçin.
+8. **Kurulum** bölümünü genişletin.
+
+    - **Satış grubu** alanındaki değer, bir veya daha fazla satış temsilcisinin atandığı bir grubu temsil eder. Sipariş faturalandırıldığında, gruptaki kişiler önceden tanımlanmış oranlara ve dağıtıma göre komisyonlarını alır.   
+    - Değer, Müşteri kartından kopyalanır ancak isterseniz değiştirebilirsiniz.  
+    - Satış grubu, satış siparişi satırına da kopyalanır. Bir üstbilgiden ve/veya satırlar arası bilgiden farklı olabilmesi için bunu değiştirebilirsiniz.  
+    - **Komisyon grubu** alanındaki değer, bir veya daha fazla müşteri için komisyonları izleme amacıyla oluşturduğunuz bir grubu temsil eder.   
+    - Değer, Müşteri kartından kopyalanır ancak isterseniz değiştirebilirsiniz.   
+
+9. Eylem Bölmesinde, **Seçenekler**'i seçin.
+10. **Görünümü değiştir**'i seçin.
+11. **Satır görünümü**'nü seçin.
+12. **Madde numarası** alanının açılır menüsünde, komisyonlar için ayarladığınız maddeyi seçin. 
+13. **Miktar** alanına bir sayı girin. Satırın Net tutarını not edin. Bu, bu örnekte komisyon hesaplamasının temeli olan satış geliri temsil eder.  
+14. **Kaydet**'i seçin.
+15. Eylem Bölmesinde, **Fatura**'yı seçin.
+16. **Fatura**'yı seçin.
+17. **Parametreler** bölümünü genişletin.
+18. **Miktar** alanında **Tümü** seçeneğini seçin.
+19. **Deftere nakil** alanında **Evet**'i seçin.
+20. **Tamam**'ı seçin ve sonraki bölmede **Tamam**'ı seçin. Bir hareketin deftere nakledilmesi bir dakika kadar sürebilir. İşleme koyulmasını ve tamamlanmasını bekleyin ve sayfayı kapatmayın.  
 
 ## <a name="review-the-registered-sales-commissions"></a>Kayıtlı satış komisyonlarını gözden geçirme
-1. Eylem Bölmesinde, Fatura öğesine tıklayın.
-2. Fatura'ya tıklayın.
-3. Eylem Bölmesinde, Fatura öğesine tıklayın.
-4. Komisyon hareketleri'ni tıklatın.
-    * Genel bakış sekmesi, faturalanan satış siparişiyle ilişkili satış temsilcilerine ödenecek komisyon tutarlarını temsil eden satırları gösterir. Ayrıntıları gözden geçirelim.     
-    * Komisyon satışı grubu ayarlamak için "Satış komisyonu kuralları ayarlama" kılavuzunu kullandıysanız, bir satış komisyonunu alacak iki satış elemanı olur ve komisyon ikisi arasında eşit olarak bölünür.  
-    * Bu örnekte, komisyonun tutarı satış gelirinin (sipariş satırının net tutarı) bir yüzdesi olarak hesaplanır.   
-5. Sayfayı kapatın.
-6. Fiş'e tıklayın.
-    * Önceden tanımlanmış komisyon giderlerine ve komisyon borç hesaplarına nakledilen komisyon tutarlarının fiş hareketlerini gözden geçirebilirsiniz.  
+1. Eylem Panosunda, **Fatura**'yı ve sonra tekrar **Fatura**'yı seçin.
+2. Eylem Panosunda, **Fatura**'yı ve sonra **Komisyon hareketleri**'ni seçin.
+
+    - **Genel bakış** öğesi, faturalanan satış siparişiyle ilişkili satış temsilcilerine ödenecek komisyon tutarlarını temsil eden satırları gösterir. Ayrıntıları gözden geçirelim.  
+    - **Komisyon satışı** grubu ayarlamak için "Satış komisyonu kuralları ayarlama" kılavuzunu kullandıysanız, bir satış komisyonunu alacak iki satış elemanı olur ve komisyon ikisi arasında eşit olarak bölünür.  
+    - Bu örnekte, komisyonun tutarı satış gelirinin (sipariş satırının net tutarı) bir yüzdesi olarak hesaplanır.  
+3. Sayfayı kapatın.
+4. **Fiş**'i seçin. Önceden tanımlanmış komisyon giderlerine ve komisyon borç hesaplarına nakledilen komisyon tutarlarının fiş hareketlerini gözden geçirebilirsiniz.  
 

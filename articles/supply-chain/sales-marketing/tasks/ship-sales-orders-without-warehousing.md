@@ -1,9 +1,9 @@
 ---
 title: Satış siparişlerini ambarlama olmadan sevk etme
-description: Bu kılavuz, ürünler müşteriye sevk edildiğinde bir satış siparişinin nasıl güncelleştireceğini açıklamaktadır.
+description: Bu konu, ürünler müşteriye sevk edildiğinde bir satış siparişinin nasıl güncelleştireceğini açıklamaktadır.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,43 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62bbd65e2d80dca5a07b761e1aa76f1894b667c1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f9e311d3e033168ed577094e94477e7fe47d185d
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843330"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914942"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Satış siparişlerini ambarlama olmadan sevk etme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu kılavuz, ürünler müşteriye sevk edildiğinde bir satış siparişinin nasıl güncelleştireceğini açıklamaktadır. Kılavuz, ambar yönetimi (temel veya gelişmiş depolama) için ayarlanmamış olan karşılama akışı için geçerlidir ve bu nedenle ürün çekme işleminin sevkiyat öncesinde kaydedilmesini gerektirmez. Bu yordamı, kendi verilerinizle veya USMF demo verisi şirketin çalıştırabilirsiniz. Her iki durumda da, bu göreve başlamadan önce stoklanmış bir ürünün, 1'den büyük bir miktar ile bir satış siparişini oluşturun. Bir deftere nakil hatasını önlemek için ürünün siparişte seçmiş olduğunuz tesisteki ve ambardaki eldeki miktarının, siparişteki miktarı karşıladığından emin olduğunu kontrol etmeniz gerekir.
-
+Bu konu, ürünler müşteriye sevk edildiğinde bir satış siparişinin nasıl güncelleştireceğini açıklamaktadır. Kılavuz, ambar yönetimi (temel veya gelişmiş depolama) için ayarlanmamış olan karşılama akışı için geçerlidir ve bu nedenle ürün çekme işleminin sevkiyat öncesinde kaydedilmesini gerektirmez. Bu yordamı, kendi verilerinizle veya USMF demo verisi şirketin çalıştırabilirsiniz. Her iki durumda da, bu göreve başlamadan önce stoklanmış bir ürünün, 1'den büyük bir miktar ile bir satış siparişini oluşturun. Bir deftere nakil hatasını önlemek için ürünün siparişte seçmiş olduğunuz tesisteki ve ambardaki eldeki miktarının, siparişteki miktarı karşıladığından emin olduğunu kontrol etmeniz gerekir.
 
 ## <a name="post-packing-slip-for-an-order"></a>Sipariş için sevk irsaliyesini deftere nakletme
-1. Sales and marketing > Sales orders > All sales orders (Satış ve pazarlama > Satış siparişleri > Tüm satış siparişleri) menüsüne gidin.
+1. Gezinti bölmesinde **Modüller > Satış ve pazarlama > Satış siperişler > Tüm satış siparişleri**'ne gidin.
 2. Listede, bu görev için oluşturduğunuz siparişi bulun ve seçin.
-3. Listede, seçili satırdaki bağlantıya tıklayın.
-4. Eylem Bölmesinde, Çek ve paketle'ye tıklayın.
-5. Sevk irsaliyesini deftere naklet'e tıklayın.
-6. Parametreler bölümünü genişletin veya daraltın.
-7. Miktar alanında, 'Tümü' öğesini seçin.
-    * Diğer seçenekler arasında Şimdi teslim et ve Malzeme çekildi bulunur. Sipariş satırı kısmen sevk edilecek şeklindeyse ve sipariş satırındaki Şimdi teslim et alanında bir miktar belirtilmişse, Şimdi teslim et'i seçmelisiniz. Malzeme çekme faaliyeti kuruluşunuzun karşılama akışı içerisinde bir malzeme çekme listesiyle yönetilen ve kaydedilen ayrı bir işlem olarak bulunuyorsa, Malzeme çekildi'yi seçmelisiniz.  
-    * Deftere nakil seçeneğinin Evet olarak ayarlanmış olduğundan emin olun.  
-8. Sevk irsaliyesini yazdır seçeneğini Evet olarak ayarlayın.
-    * Genel bakış sekmesinde bu nakil sırasında oluşturulacak sevk irsaliyelerinin bir listesi bulunur. Tek sipariş gönderiyorsanız, genellikle tek bir sevk irsaliyesi olur. Ancak, bu siparişlerin satırları farklı tesisler üzerinden sevk edilecekse, deftere nakil işlemi otomatik olarak uygun sayıda belgeye bölünür. Bu, değiştirilemez zorunlu bir durumdur. Benzer şekilde, sipariş satırları farklı teslimat adreslerine sevk edilecekse, deftere nakil işlemi yine birden çok belgeye bölünür ve sevkiyat ilkesi bölünme istenecek şekilde ayarlanır.  
-9. Satırlar sekmesinde, sevk edilecek sipariş satırı için bir satır seçin.
-10. Güncelleştir alanında orijinal miktardan daha düşük bir sayı girin.
-11. Tamam'a tıklayın.
-12. Evet'i tıklatın.
-13. Sayfayı kapatın.
-14. Eylem Bölmesinde, Seçenekler'e tıklayın.
-15. Görünümü değiştir'e tıklayın.
-16. Başlık görünümü'ne tıklayın.
-    * Siparişteki tüm satırlar tamamen sevk edilmişse, sipariş durumu Açık durumundan Teslim edildi'ye değiştirilir.  
-    * Bu örnekte, sipariş satırı kısmen sevk edilmiştir. Bu nedenle, sipariş durumu Açık şeklinde kalır.     
-    * Siparişi satırlarının en az biri sevk edildiğinden Belge durumu alanını Sevk irsaliyesi şeklinde ayarlanır.  
-17. Eylem Bölmesinde, Genel öğesine tıklayın.
-18. Satırı miktarı'nı tıklatın.
-19. Sayfayı kapatın.
-20. Eylem Bölmesinde, Çek ve paketle öğesine tıklayın.
-21. Sevk irsaliyesi'ne tıklayın.
-    * Sevk irsaliyesi günlüğü sayfası, siparişiniz için oluşturulan tüm sevk irsaliyesi belgelerini içerir. Her belgenin ayrıntılarını gözden geçirebilir ve isterseniz bunları yazdırabilirsiniz.  
+3. Eylem Bölmesinde, **Çek ve paketle**  öğesine tıklayın.
+4. **Sevk irsaliyesini deftere naklet**'i seçin.
+5. **Parametreler** bölümünü genişletin veya daraltın.
+6. **Miktar** alanında **Tümü** seçeneğini seçin.
+    - Diğer seçenekler arasında **Şimdi teslim et** ve **Malzeme çekildi** bulunur. Sipariş satırı kısmen sevk edilecek şeklindeyse ve sipariş satırındaki **Şimdi teslim et** alanında bir miktar belirtilmişse, **Şimdi teslim et**'i seçmelisiniz. Malzeme çekme faaliyeti kuruluşunuzun karşılama akışı içerisinde bir malzeme çekme listesiyle yönetilen ve kaydedilen ayrı bir işlem olarak bulunuyorsa, **Malzeme çekildi**'yi seçmelisiniz.  
+    - **Deftere nakil** seçeneğinin **Evet** olarak ayarlanmış olduğundan emin olun.  
+7. **Sevk irsaliyesini yazdır** seçeneğini **Evet** olarak ayarlayın. **Genel bakış** sekmesinde bu nakil sırasında oluşturulacak sevk irsaliyelerinin bir listesi bulunur. Tek sipariş gönderiyorsanız, genellikle tek bir sevk irsaliyesi olur. Ancak, bu siparişlerin satırları farklı tesisler üzerinden sevk edilecekse, deftere nakil işlemi otomatik olarak uygun sayıda belgeye bölünür. Bu, değiştirilemez zorunlu bir durumdur. Benzer şekilde, sipariş satırları farklı teslimat adreslerine sevk edilecekse, deftere nakil işlemi yine birden çok belgeye bölünür ve sevkiyat ilkesi bölünme istenecek şekilde ayarlanır.  
+8. **Satırlar** sekmesinde, sevk edilecek sipariş satırı için bir satır seçin.
+9. **Güncelleştir** alanında orijinal miktardan daha düşük bir sayı girin.
+10. **Tamam**'ı seçin.
+11. **Evet**'i seçin.
+12. Sayfayı kapatın.
+13. Eylem Bölmesinde, **Seçenekler**'i seçin.
+14. **Görünümü değiştir**'i seçin.
+15. **Başlık görünümü**'nü seçin.
+    - Siparişteki tüm satırlar tamamen sevk edilmişse, sipariş durumu Açık durumundan Teslim edildi'ye değiştirilir.  
+    - Bu örnekte, sipariş satırı kısmen sevk edilmiştir. Bu nedenle, sipariş durumu Açık şeklinde kalır.     
+    - Siparişi satırlarının en az biri sevk edildiğinden **Belge durumu** alanı Sevk irsaliyesi şeklinde ayarlanır.  
+16. Eylem Bölmesinde, **Genel**'i seçin.
+17. **Satır miktarı**'nı seçin.
+18. Sayfayı kapatın.
+19. Eylem Bölmesinde, **Çek ve paketle**  öğesine tıklayın.
+20. **Sevk irsaliyesi**'ni seçin. **Sevk irsaliyesi günlüğü** sayfası, siparişiniz için oluşturulan tüm sevk irsaliyesi belgelerini içerir. Her belgenin ayrıntılarını gözden geçirebilir ve isterseniz bunları yazdırabilirsiniz.  
 

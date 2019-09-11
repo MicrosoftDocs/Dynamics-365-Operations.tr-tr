@@ -3,7 +3,7 @@ title: Çift para birimi
 description: Bu konu, raporlama para biriminin Microsoft Dynamics 365 for Finance and Operations için muhasebe para birimi olarak kullanıldığı çift para birimi hakkında bilgi sağlar.
 author: kweekley
 manager: AnnBe
-ms.date: 05/06/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,31 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dfd4c116552510ee42cd2f3e8a0f31100826b9d2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5128ea9daaf22ee962ca5fc70a05cba05c7edb
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839419"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867523"
 ---
 # <a name="dual-currency"></a>Çift para birimi
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations 8.1 (Ekim 2018) sürümünde tanıtılan işlev, raporlama para biriminin başka amaçla ve ikinci muhasebe para birimi olarak kullanılmasını sağlar. Bu işlevselliğe *çift para birimi* de denir. Çift para birimi değişiklikleri, bir parametre veya konfigürasyon anahtarı ile devre dışı bırakılamaz. Raporlama para birimi ikinci muhasebe para birimi olarak kullanıldığından, raporlama para biriminin yayın mantığında hesaplanma yöntemi değişti.
 
-Ayrıca çeşitli modüller, farklı süreçlerde raporlama para birimini izleme, bildirme ve kullanmak için geliştirilmiştir. Etkilenen modüllere **Genel muhasebe**, **Mali raporlama**, **Borç hesapları**, **Alacak hesapları**, **Nakit ve banka Yönetimi** ile **Sabit kıymetler** dahildir. Yükseltme işleminden sonra Nakit para ve banka yönetimi ile sabit kıymetler için belirli adımları tamamlamalısınız. Bu nedenle, bu konunun ilgili bölümlerini okuduğunuzdan emin olun.
+Ayrıca çeşitli modüller, farklı süreçlerde raporlama para birimini izleme, bildirme ve kullanmak için geliştirilmiştir. Etkilenen modüller şunlardır:
+
+- Genel muhasebe 
+- Mali raporlama 
+- Borç hesapları
+- Alacak hesapları 
+- Nakit ve banka yönetimi 
+- Sabit kıymetler 
+- Konsolidasyonlar
+
+Yükseltme işleminden sonra Nakit para ve banka yönetimi ile sabit kıymetler için belirli adımları tamamlamalısınız. Bu nedenle, bu konunun ilgili bölümlerini dikkatlice okuduğunuzdan ve anladığınızdan emin olun.
 
 ## <a name="posting-process"></a>Nakil süreci
 
@@ -75,6 +86,7 @@ Aşağıdaki modüller raporlama para birimini ikinci bir muhasebe para birimi o
 - [Alacak hesapları](#accounts-payable-and-accounts-receivable)
 - [Nakit ve banka yönetimi](#cash-and-bank-management)
 - [Sabit kıymetler](#fixed-assets)
+- [Konsolidasyonlar](#consolidations)
 
 ### <a name="general-ledger"></a>Genel muhasebe
 
@@ -124,6 +136,8 @@ Daha önce **Sabit kıymetler** modülü, her sabit kıymet defteri nakledilen h
 Ayrıca, amortisman sürecinde büyük değişiklikler yapıldı. Bu değişiklikler yükseltme sonrasında kullanıcı eylemi gerektirir. Sabit kıymetleri henüz kullanmasanız bile aşağıdaki değişiklikleri okumanız ve anlamanız önemlidir.
 
 - Amortisman sürecinin raporlama para birimi tutarını belirleme biçimi değişti. Aşağıdaki senaryo, amortismanın raporlama para birimi tutarını daha önceden nasıl belirlediğini ve şimdi nasıl belirlediğini karşılaştırır.
+
+
 
     **Amortisman senaryosu**
 
@@ -186,3 +200,13 @@ Ayrıca, amortisman sürecinde büyük değişiklikler yapıldı. Bu değişikli
     - Raporlama para birimi tutarları, bir amortisman hareket türü Sabit kıymet günlüğüne girilmişse, yeni sütunlarda görüntülenir. Bu tutarlar değiştirilebilir.
     - Muhasebe para birimi ile genel muhasebede raporlama para birimi aynıysa, tutarlar eşit tutulacaktır. **Alacak** tutarını değiştirirseniz **Raporlama para birimi cinsinden alacak** tutarı otomatik olarak eşleşmesi için değiştirilir.
     - Sabit kıymet günlüğüne başka hareket türü girilirse **Raporlama para birimi cinsinden borç** ve **Raporlama para birimi cinsinden alacak** tutarları, deftere nakilde önce veya sonra, hiçbir zaman gösterilmez. Muhasebe para birimi ve raporlama para birimi tutarları hala genel muhasebe defterine nakledilen fişte mevcuttur.
+    
+### <a name="consolidations"></a>Konsolidasyonlar
+    
+Microsoft Dynamics 365 for Finance and Operations 10.0.5 (Ekim 2019) sürümünde tanıtılan işlevler, konsolidasyon ve çift para birimi için gelişmiş esneklik sağlayan özellik yönetimi ile işlevi etkinleştirir. Bu işlevi etkinleştirmek için, **Özellik Yönetimi** çalışma alanına gidin ve **Genel muhasebe konsolidasyonlarında çift para birimi işlevini etkinleştir**'i seçin.
+
+Genel muhasebe konsolidasyona göre, muhasebe veya muhasebe para birimi tutarlarını kaynak şirketlerinden konsolide etmek için yeni bir seçenek eklenmiştir. Muhasebe veya raporlama para birimi konsolidasyon şirketinde hesap oluşturma veya raporlama para birimi ile aynıysa tutarlar çevrilmektense doğrudan kopyalanır.
+
+-  Artık, konsolidasyon şirketindeki işlem para birimi olarak kaynak şirketten muhasebe para biriminin mi yoksa raporlama para biriminin mi kullanılacağını seçebilirsiniz.
+
+- Kaynak şirketten gelen muhasebe veya raporlama para birimi tutarları, para birimlerinin aynı olması durumunda, doğrudan konsolidasyon şirketindeki muhasebe veya raporlama para birimi tutarlarına kopyalanacaktır. Para birimlerinin hiçbiri aynı değilse konsolidasyon şirketinde bulunan muhasebe ve raporlama para birimi tutarları Döviz kuru kullanılarak hesaplanır.

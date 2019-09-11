@@ -1,9 +1,9 @@
 ---
 title: İşlemler ve iş planlaması olan bir üretim emri planlama
-description: Bu yordam operasyon planlama ve iş planlama ile bir üretim emri planlamaya odaklanır.
+description: Bu konu operasyon planlama ve iş planlama ile bir üretim emri planlamaya odaklanır.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,51 +16,43 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4932cfa472c34a16249b226aa4a07b8e5f528053
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3023d6a6fe09c84b47839a2c4b78c37907754ded
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838499"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914896"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>İşlemler ve iş planlaması olan bir üretim emri planlama
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam operasyon planlama ve iş planlama ile bir üretim emri planlamaya odaklanır. İşler iş planlama ile oluşturulurken, operasyon planlama ile iş oluşturulmaz. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam üretim müdürü, üretim planlayıcısı veya ayrı bir üretim ortamında çalışan atölye gözetmenine yöneliktir.
+Bu konu operasyon planlama ve iş planlama ile bir üretim emri planlamaya odaklanır. İşler iş planlama ile oluşturulurken, operasyon planlama ile iş oluşturulmaz. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam üretim müdürü, üretim planlayıcısı veya ayrı bir üretim ortamında çalışan atölye gözetmenine yöneliktir.
 
 
 ## <a name="create-a-production-order"></a>Üretim emri oluşturma
-1. Üretim denetimi > Üretim emirleri > Tüm üretim emirleri'ne gidin.
-2. Yeni üretim emri'ne tıklayın.
-3. Madde numarası alanında bir değer girin veya seçin.
-    * Madde numarası D0001'i seçin.  
-4. Oluştur'a tıklayın.
+1. Gezinti bölmesinde **Modüller > Üretim denetimi > Üretim emirleri > Tüm üretim emirleri** öğesine gidin.
+2. **Yeni üretim emri**'ni seçin.
+3. **Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin. Madde numarası **D0001**'i seçin.  
+4. **Oluştur**'u seçin.
 
 ## <a name="schedule-operations-for-the-production-order"></a>Üretim emri için işlemleri planlama
-1. Listede, seçili satırı işaretleyin.
-    * Yeni oluşturduğunuz üretim emrini seçin. Bu emir listenin en üstünde olmalıdır.      
-2. Eylem Bölmesinde, Planla öğesini tıklatın.
-3. Operasyonları planla seçeneğine tıklayın.
-4. İş planlama çizelgeleme yönü alanında 'Planlama tarihinden ileriye doğru' öğesini seçin.
-5. Planlama tarihi alanına bir tarih girin.
-    * Gelecekteki bir tarihi, örneğin bugünden itibaren bir hafta sonrasını seçin. Seçili Planlama yönü ile üretim emri bu tarihten ileriye doğru planlanır.  
-6. Tamam'a tıklayın.
-7. Listede, seçili satırı işaretleyin.
-    * Durumun Planlandı olarak değiştiğine dikkat edin.  
-8. Listede, seçili satırdaki bağlantıya tıklayın.
-9. Tüm işleri çalıştır'ı tıklatın.
-    * Operasyon planlaması ile bir iş oluşturulmadığına dikkat edin.  
-10. Sayfayı kapatın.
+1. Yeni oluşturulan satırı işaretleyin.      
+2. Eylem Bölmesinde, **Planlama** öğesine tıklayın.
+3. **Operasyonları planla**'yı seçin.
+4. **Planlama yönü** alanında **Planlama tarihinden ileriye doğru** öğesini seçin.
+5. **Planlama tarihi** alanına bir tarih girin. Gelecekteki bir tarihi, örneğin bugünden itibaren bir hafta sonrasını seçin. Seçili Planlama yönü ile üretim emri bu tarihten ileriye doğru planlanır.  
+6. **Tamam**'ı seçin.
+7. Listede, seçili satırı işaretleyin. Durumun **Planlandı** olarak değiştiğine dikkat edin. 
+8. **Tüm işler**'i seçin. Operasyon planlaması ile bir iş oluşturulmadığına dikkat edin.  
+9. Sayfayı kapatın.
 
 ## <a name="schedule-jobs-for-the-production-order"></a>Üretim emri için işleri planlama
-1. Eylem Bölmesinde, Planla öğesini tıklatın.
-2. İşleri planla'ya tıklayın.
-3. İş planlama çizelgeleme yönü alanında 'Planlama tarihinden ileriye doğru' öğesini seçin.
-4. Planlama tarihi alanına bir tarih girin.
-    * Gelecekteki bir tarihi, örneğin bugünden itibaren bir hafta sonrasını seçin. Seçili Planlama yönü ile üretim emri bu tarihten ileriye doğru planlanır.  
-5. Tamam'a tıklayın.
-6. Eylem Bölmesinde, Üretim emri öğesine tıklayın.
-7. Tüm işleri çalıştır'ı tıklatın.
-    * Etkin yola göre, iş planlamasında 5 işin oluşturulduğunda dikkat edin.  
+1. Eylem Bölmesinde, **Planlama** öğesine tıklayın.
+2. **İşleri zamanla**'yı seçin.
+3. **Planlama yönü** alanında **Planlama tarihinden ileriye doğru** öğesini seçin.
+4. **Planlama tarihi** alanına bir tarih girin. Gelecekteki bir tarihi, örneğin bugünden itibaren bir hafta sonrasını seçin. Seçili Planlama yönü ile üretim emri bu tarihten ileriye doğru planlanır.  
+5. **Tamam**'ı seçin.
+6. Eylem Bölmesinde **Üretim emri**'ne tıklayın.
+7. **Tüm işler**'i seçin. Etkin yola göre, iş planlamasında 5 işin oluşturulduğunda dikkat edin.  
 

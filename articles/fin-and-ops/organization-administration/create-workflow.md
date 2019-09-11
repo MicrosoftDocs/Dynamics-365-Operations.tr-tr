@@ -1,9 +1,9 @@
 ---
-title: İş akışları oluşturma
+title: İş akışlarına genel bakış
 description: Bu konu bir iş akışının nasıl oluşturulacağını açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1dc2b2cd6b9372fb60d0e112b5dbb0b60898caca
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570562"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865052"
 ---
-# <a name="create-workflows"></a>İş akışları oluşturma
+# <a name="create-workflows-overview"></a>İş akışlarına genel bakış
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,9 +1,9 @@
 ---
-title: Stok yenileme
+title: Stok yenilemeye genel bakış
 description: Bu konuda Ambar yönetiminde bulunan işlevi kullanan ambarlarda kullanılabilen stok yenileme stratejileri açıklanmaktadır.
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3f740ab481b8663ecc29169eee1ead5ff23bb3f5
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558297"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866149"
 ---
-# <a name="replenishment"></a>Stok yenileme
+# <a name="replenishment-overview"></a>Stok yenilemeye genel bakış
 
 [!include [banner](../includes/banner.md)]
 

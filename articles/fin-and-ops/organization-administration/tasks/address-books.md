@@ -3,7 +3,7 @@ title: Adres defterlerini yapılandır
 description: Bu yordamı ve genel adres defteri'nin ve ek adres defterlerinin yapılandırmasını planlarken aldığınız kararları, kuruluşunuz için ek adres defterleri oluştururken kullanın.
 author: kfend
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae7d30cbc5836c47b4a68e27a7af05bd82956f70
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: f8ffba13b4a025f39b7ca26206b93a4bb646bac5
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1851907"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916703"
 ---
 # <a name="configure-address-books"></a>Adres defterlerini yapılandır
 
@@ -32,13 +32,13 @@ Bu yordamı ve genel adres defteri'nin ve ek adres defterlerinin yapılandırmas
 Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu kayıt planlama ve yapılandırma takımı üyeleri için tasarlanmıştır.
 
 
-## <a name="configure-address-books"></a>Adres defterlerini yapılandır
-1. Organization administration > Global address book > Address books (Kuruluş yönetimi > Global adres defteri > Adres defterleri) menüsüne gidin.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-4. Açıklama alanına bir değer girin.
-5. Kaydet'i tıklatın.
+## <a name="configure-address-books"></a>Adres defterlerini yapılandırma
+1. **Gezinti panosu** içinde **Modüller > Kuruluş yönetimi > Genel adres defteri > Adres defterleri**'ne gidin.
+2. **Yeni**'ye tıklayın.
+3. **Ad** alanına bir değer yazın.
+4. **Tanım** alanına bir değer girin.
+5. **Kaydet**'e tıklayın.
 6. Listede, istenen kaydı bulun ve seçin.
 7. Seçilen kullanılabilir takımlarını Adres Defteri'ne eklemek için oku tıklatın.
-8. Kaydet'e tıklayın.
+8. **Kaydet**'e tıklayın.
 

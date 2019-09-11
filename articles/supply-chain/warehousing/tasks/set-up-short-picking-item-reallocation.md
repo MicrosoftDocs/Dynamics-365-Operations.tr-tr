@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a3c635c32a53226da6ce72db86ee7d9d0c17bdb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 964302cb7e7835b6e619602ac7165c9e7adbcefb
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847099"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916772"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Kısa alım maddesi yeniden tahsisini ayarlama
 
@@ -32,25 +32,20 @@ Bu yordam yönlendirildikleri konumda yeterli stok olmadığında alternatif kon
 
 
 ## <a name="set-up-work-exceptions"></a>İş özel durumlarını ayarla
-1. Ambar yönetimi > Kurulum > İş > İş özel durumları'na gidin.
-2. Yeni'ye tıklayın.
-    * Ambar çalışanının işledikleri sevkiyatın ihtiyaçlarına göre bir seçim yapabilmesi için, farklı madde yeniden tahsis ilkelerine sahip birden çok iş özel durumu tanımlamak mümkündür.  
-3. İş özel durumu kodu alanına bir değer yazın.
-    * İş özel durumuna ne için kullanıldığını belirten bir başlık verin. Örneğin, Kısa malzeme çekme kılavuzu.  
-4. Açıklama alanına bir değer girin.
-5. Özel durum türü alanında, 'Kısa çekme'yi seçin.
-6. Stoğu ayarla onay kutusunu işaretleyin.
-    * Bu seçenek stoğun kısa malzeme çekme konumunda 0'a otomatik olarak ayarlanacağı anlamına gelir.  
-7. Varsayılan ayarlama türü kodu alanına bir değer girin veya bir değer seçin.
-    * Örneğin, USMF'de 'Kaynak Res Adj Out' seçeneğini belirleyebilirsiniz.  
-8. Madde yeniden tahsisi alanında 'El ile'yi seçin.
-    * El ile veya Otomatik ve El ile seçeneklerini belirlerseniz, ambar çalışanının el ile yeniden tahsisi kullanmak için etkinleştirilmesi gerekir.  
+1. **Gezinti panosu**'nda, **Ambar yönetimi > Kurulum > İş > İş istisnaları**'na gidin.
+2. **Yeni**'ye tıklayın. Ambar çalışanının işledikleri sevkiyatın ihtiyaçlarına göre bir seçim yapabilmesi için, farklı madde yeniden tahsis ilkelerine sahip birden çok iş özel durumu tanımlamak mümkündür.  
+3. **İş özel durumu kodu** alanına bir değer yazın. İş özel durumuna ne için kullanıldığını belirten bir başlık verin. Örneğin, Kısa malzeme çekme kılavuzu.  
+4. **Tanım** alanına bir değer girin.
+5. **Özel durum** türü alanında, 'Kısa çekme'yi seçin.
+6. **Stoğu ayarla** onay kutusunu işaretleyin. Bu seçenek stoğun kısa malzeme çekme konumunda 0'a otomatik olarak ayarlanacağı anlamına gelir.  
+7. **Varsayılan ayarlama türü kodu** alanına bir değer girin veya bir değer seçin. Örneğin, USMF'de 'Kaynak Res Adj Out' seçeneğini belirleyebilirsiniz.  
+8. **Madde yeniden tahsisi** alanında 'El ile'yi seçin. El ile veya Otomatik ve El ile seçeneklerini belirlerseniz, ambar çalışanının el ile yeniden tahsisi kullanmak için etkinleştirilmesi gerekir.  
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Çalışanı el ile madde yeniden tahsisini kullanmak üzere ayarlama
 1. Sayfayı kapatın.
-2. Ambar yönetimi > Kurulum > Çalışan'a gidin.
-3. Düzenle öğesine tıklayın.
+2. **Gezinti panosu**'nda, **Ambar yönetimi > Kurulum > Çalışan**'a gidin.
+3. **Düzenle**'yi tıklatın.
 4. Listede, çalışan 24'ü seçin.
-5. İş bölümünü genişletin.
-6. El ile madde yeniden tahsisine izin ver alanında Evet'i seçin.
+5. **İş** hızlı sekmesini genişletin.
+6. **El ile madde yeniden tahsisine izin ver** alanında 'Evet''i seçin.
 
