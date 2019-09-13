@@ -1,9 +1,9 @@
 ---
-title: PowerBI.com çözümleri giriş sayfası
+title: Power BI içeriği giriş sayfası
 description: Bu konuda, kullanılabilir PowerBI.com çözümleri listelenmektedir ve çözümler hakkında daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir.
 author: sericks007
 manager: AnnBe
-ms.date: 05/08/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9d8425c9479f775b1e45d1624a069759b3f45d98
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: b40f882b0a16a65fe15690686f9fc1dd09f36271
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850135"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864648"
 ---
-# <a name="powerbicom-solutions-home-page"></a>PowerBI.com çözümleri giriş sayfası
+# <a name="power-bi-content-home-page"></a>Power BI içeriği giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 

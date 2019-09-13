@@ -3,7 +3,7 @@ title: Satıcı banka hesabı oluşturma
 description: Bu prosedür, bir satıcının banka hesabının nasıl oluşturulacağını gösterir.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3dc744ea8ac2ca9beb230977fef7608fdc9c2891
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c8dd3664d86ffdb8bf731a6ff1e0ed60b50eed61
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844077"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916841"
 ---
 # <a name="create-a-vendor-bank-account"></a>Satıcı banka hesabı oluşturma
 
@@ -29,38 +29,32 @@ ms.locfileid: "1844077"
 
 Bu prosedür, bir satıcının banka hesabının nasıl oluşturulacağını gösterir. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.
 
-1. Tedarik ve kaynak > Satıcılar > Tüm satıcılar'a tıklayın.
-2. Banka hesabını oluşturmak istediğiniz satıcıyı seçin ve sonra Satıcı hesap kodundaki bağlantıya tıklayın.
-3. Eylem Bölmesinde, Satıcı'ya tıklayın.
-4. Banka hesapları'na tıklayın.
-5. Yeni'ye tıklayın.
-6. Banka hesabı alanına bir değer girin.
-    * Bu kimlik satıcı kaydı üzerinden banka hesabını tanımlamak için kullanılır.  
-7. İsim alanına bir değer yazın.
-8. Banka grupları alanında bir değer girin veya seçin.
-9. Rota numarası türü alanında, bir seçenek belirleyin.
-    * Bu uluslararası ödemeler için kullanılan rota numarası türüdür.  
-10. Banka hesabı numarası alanında bir değer girin.
-11. SWIFT kodu alanına bir değer girin.
-12. IBAN alanına bir değer girin.
-    * IBAN numarası doğru biçimde olmalıdır. Örneğin, DE89370400440532013000'ı kullanabilirsiniz.  
-    * Etkin tarihe ulaşılmışsa banka hesabının durumu Etkin'dir ve Bitiş tarihi geçmemiştir. Ayrıca, Etkin tarih ve Bitiş tarihi alanları boşsa da etkindir. Etkin tarih ve Bitiş tarihi alanlarının her ikisindeki tarihler gelecekteyse, elektronik ödemeler kullanılamaz. Diğer ödeme tipleri kullanılabilir ve banka hesabı etkindir.  
-13. Kurulum bölümünü genişletin.
-14. Metin kodu alanına bir değer girin.
-    * Bu alan, alıcının banka ekstresinde görünecek bir kod belirtir.  
-15. Bankaya ileti alanına bir değer girin.
-16. Döviz kuru referansı alanında bir değer girin.
-    * Bu gelecek veya sabit dönemli döviz kuru için referans numarasıdır.  
-17. Para birimi alanında bir değer girin veya bir değer seçin.
-    * Bu bölümde açık provizyonlar düzenlenirken durum özeti verilir (beklemede veya onaylanmış).  
-18. Adres bölümünü genişletin.
-19. Açık provizyonlar bölümünü genişletin.
-20. İletişim bilgileri bölümünü genişletin veya daraltın.
-21. Telefon alanına bir değer yazın.
+1. **Gezinti Bölmesi > Modüller > Tedarik ve kaynak atama > Satıcılar > Tüm satıcılar**'a gidin.
+2. Banka hesabını oluşturmak istediğiniz satıcıyı seçin ve sonra **Satıcı hesap kodundaki** alanındaki bağlantıya tıklayın.
+3. **Eylem panosu**'nda, **Satıcı** üzerine tıklayın.
+4. **Banka hesapları** üzerine tıklayın.
+5. **Eylem bölmesinde** **Yeni** öğesine tıklayın.
+6. **Banka hesabı** alanına bir değer girin. Bu kimlik satıcı kaydı üzerinden banka hesabını tanımlamak için kullanılır.  
+7. **Ad** alanına bir değer yazın.
+8. **Banka grupları** alanında bir değer girin veya seçin.
+9. **Rota numarası türü** alanında, bir seçenek belirleyin. Bu uluslararası ödemeler için kullanılan rota numarası türüdür.  
+10. **Banka hesabı numarası** alanında bir değer girin.
+11. **SWIFT kodu** alanına bir değer girin.
+12. **IBAN** alanına bir değer girin.
+    - IBAN numarası doğru biçimde olmalıdır. Örneğin, DE89370400440532013000'ı kullanabilirsiniz.  
+    - Etkin tarihe ulaşılmışsa banka hesabının durumu Etkin'dir ve Bitiş tarihi geçmemiştir. Ayrıca, Etkin tarih ve Bitiş tarihi alanları boşsa da etkindir. Etkin tarih ve Bitiş tarihi alanlarının her ikisindeki tarihler gelecekteyse, elektronik ödemeler kullanılamaz. Diğer ödeme tipleri kullanılabilir ve banka hesabı etkindir.  
+13. **Kurulum** bölümünü genişletin.
+14. **Metin kodu** alanına bir değer girin. Bu alan, alıcının banka ekstresinde görünecek bir kod belirtir.  
+15. **Bankaya ileti** alanına bir değer girin.
+16. **Döviz kuru referansı** alanında bir değer girin. Bu gelecek veya sabit dönemli döviz kuru için referans numarasıdır.
+17. **Para birimi** alanında bir değer girin veya bir değer seçin. Bu bölümde açık provizyonlar düzenlenirken durum özeti verilir (beklemede veya onaylanmış).  
+18. **Adres** bölümünü genişletin.
+19. **Açık provizyonlar** bölümünü genişletin.
+20. **İletişim bilgileri** bölümünü genişletin veya daraltın.
+21. **Telefon** alanına bir değer yazın.
 22. Sayfayı kapatın.
-23. Düzenle öğesine tıklayın.
-24. Ödeme bölümünü genişletin.
-25. Banka hesabı alanında, yeni oluşturduğunuz hesabı seçin.
-26. Kaydet'e tıklayın.
-    * Belirtilmişse adres banka grubundan devralınabilir veya buradan ekleyebilirsiniz.  
+23. **Düzenle**'yi tıklatın.
+24. **Ödeme** bölümünü genişletin.
+25. **Banka hesabı** alanında, yeni oluşturduğunuz hesabı seçin.
+26. **Kaydet**'e tıklayın. Belirtilmişse adres banka grubundan devralınabilir veya buradan ekleyebilirsiniz.  
 

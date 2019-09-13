@@ -1,9 +1,9 @@
 ---
-title: İş akışı sistemi
+title: İş akışı sistemine genel bakış
 description: Bu konuda, Microsoft Dynamics 365 for Finance and Operations'daki iş akışı sistemi açıklanmaktadır.
 author: sericks007
 manager: AnnBe
-ms.date: 08/17/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a35184a48eff9e320087cb9390a0f1eed1e7ba19
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a2692b9f3595ab001151f8e53a25010474bcd233
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545821"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864804"
 ---
-# <a name="workflow-system"></a>İş akışı sistemi
+# <a name="workflow-system-overview"></a>İş akışı sistemine genel bakış
 
 [!include [banner](../includes/banner.md)]
 

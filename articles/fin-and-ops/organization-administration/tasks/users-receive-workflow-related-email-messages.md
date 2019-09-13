@@ -3,7 +3,7 @@ title: Kullanıcıların iş akışı ile ilgili e-posta iletileri almasını et
 description: İş akışı ile ilgili olaylar gerçekleştiğinde, sistem kullanıcılara e-posta iletileri gönderecek şekilde yapılandırabilirsiniz.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6800d02878123388611d35760123d0215e9d539f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5e08f95ef6d263ee0f8c0a94b258c8a2795786bc
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560510"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916404"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Kullanıcıların iş akışı ile ilgili e-posta iletileri almasını etkinleştirme
 
@@ -29,14 +29,14 @@ ms.locfileid: "1560510"
 
 İş akışı ile ilgili olaylar gerçekleştiğinde, sistem kullanıcılara e-posta iletileri gönderecek şekilde yapılandırabilirsiniz. Örneğin, belgeler onay için kendilerine atandığında kullanıcılara e-posta iletileri gönderilebilir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
-1. Sistem Yönetimi > Kullanıcılar > Kullanıcılar'a git.
+1. **Gezinti bölmesi > Modüller > Sistem yönetimi > Kullanıcılar > Kullanıcılar**'a gidin.
 2. Listede, istenen kaydı bulun ve seçin.
-3. Kullanıcı seçenekleri'ni tıklatın.
-4. İş Akışı sekmesine tıklayın.
-    * Bildirimler bölümünün genişletilmiş olduğundan emin olun.     Bildirimler bölümünde, kullanıcının iş akışı ile ilgili olaylar hakkında nasıl bilgilendirilmesini istediğinizi belirtebilirsiniz.  
-5. Satır maddesi iş akışı bildirim türü alanında bir seçenek belirleyin.
-    * Gruplandırıldı: Satır maddeleri için bildirimler tek bir e-posta iletisine gruplandırılır.    Tek tek: Her satır maddesi için bir e-posta iletisi gönderilir.  
-    * Kullanıcının, istemcide bildirimler almasını istiyorsanız E-postada bildirimler gönder onay kutusunu seçin.  
-6. Kaydet'e tıklayın.
+3. **Eylem bölmesi**'nde, **Kullanıcı seçenekleri**'ne tıklayın.
+4. **İş akışı** sekmesine tıklayın. **Bildirimler** bölümünün genişletilmiş olduğundan emin olun. **Bildirimler** bölümünde, kullanıcının iş akışı ile ilgili olaylar hakkında nasıl bilgilendirilmesini istediğinizi belirtebilirsiniz.  
+5. **Satır maddesi iş akışı bildirim türü** alanında bir seçenek belirleyin.
+    - Gruplandırıldı: Satır maddeleri için bildirimler tek bir e-posta iletisine gruplandırılır.
+    - Tek tek: Her satır maddesi için bir e-posta iletisi gönderilir.  
+    - Kullanıcının, istemcide bildirimler almasını istiyorsanız **E-postada bildirimler gönder** onay kutusunu seçin.  
+6. **Kaydet**'e tıklayın.
 7. Sayfayı kapatın.
 

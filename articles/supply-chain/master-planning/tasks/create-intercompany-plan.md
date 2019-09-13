@@ -3,7 +3,7 @@ title: Şirketlerarası plan oluşturma
 description: Bu yordam şirketlerarası plan oluşturmayı gösterir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 194bb78eed5a673030f7cead031cf286cddbe77c
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f7fe8d155b39190f6c0ee1ee310a5edd2400623c
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845221"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916726"
 ---
 # <a name="create-an-intercompany-plan"></a>Şirketlerarası plan oluşturma
 
@@ -31,33 +31,26 @@ Bu yordam şirketlerarası plan oluşturmayı gösterir. Bu yöntemi oluşturmak
 
 
 ## <a name="set-up-an-intercompany-planning-group"></a>Şirketlerarası planlama grubu ayarlama 
-1. Şirketlerarası planlama grupları'na gidin.
-    * Master planlama > Kurulum > Şirketlerarası planlama grupları  
+1. **Gezinti bölmesinde**, **Modüller > Master planlama > Kurulum > Şirketlerarası planlama grupları**'na gidin. 
 2. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, İsim alanı üzerinde '10' değerini girerek filtreleme yapın.
 3. Listede, seçili satırı işaretleyin.
-4. Sil'i tıklatın.
-    * Bu adım, şirketlerarası planlama çalışmasını kısaltmak için gereklidir.   Şirketlerarası planlama, en düşük planlama serisinden başlayarak bir planlama grubu içindeki tüm şirketlerde master planlamayı çalıştırır.  
-5. Evet'i tıklatın.
+4. **Sil** öğesini tıklayın. Bu adım, şirketlerarası planlama çalışmasını kısaltmak için gereklidir.   Şirketlerarası planlama, en düşük planlama serisinden başlayarak bir planlama grubu içindeki tüm şirketlerde master planlamayı çalıştırır.  
+5. **Evet** seçeneğini tıklatın.
 6. Sayfayı kapatın.
 
 ## <a name="create-an-intercompany-plan"></a>Şirketlerarası plan oluşturma
-1. Şirketlerarası master planlama'ya tıklayın.
-    * Bu, Master planlama çalışma alanında olur.  
-2. Şirketlerarası planlama grubu alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-3. Listede, seçili satırdaki bağlantıya tıklayın.
-    * Şirketlerarası planlama grubu 10'u seçin.  
-4. Şirketlerarası planlama tekrar sayısı alanına '2' yazın.
-    * Şirketlerarası planlama grubu 10 iki üyeye sahip. Gecikmeleri kaynak şirketten (USMF) müşteri şirkete (DEMF) yaymak için, iki şirkette de şirketlerarası işlevini iki kez çalıştırmanız gerekir. İlk tekrar, talebi yayar ve kaynak şirketteki (USMF) gecikmeleri tanımlar. İkinci tekrar, gecikmeleri USMF'den DEMF'ye yayar.  
-5. İlk tekrarlama alanında bir seçenek belirleyin.
-6. İlk tekrarlama alanında 'Yeniden oluşturma' seçeneğini belirleyin.
-7. Sonraki tekrarlamalar alanında 'Yeniden oluşturma' seçeneğini belirleyin.
-8. İş parçacığı sayısı alanına bir rakam girin.
-    * Bu, planlama için kullanılan paralel iş parçacıklarının sayısını temsil eder.  
-9. Tamam'a tıklayın.
+1. **Gezinti bölmesinde**, **Modüller > Master planlama > Çalışma alanları > Master planlama**'ya gidin.
+2. **Şirketlerarası master planlama**'ya tıklayın.  
+3. **Şirketlerarası planlama grubu** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+4. Listede, seçili satırdaki bağlantıya tıklayın. Şirketlerarası planlama grubu 10'u seçin.  
+5. **Şirketlerarası planlama tekrar sayısı** alanına '2' yazın. Şirketlerarası planlama grubu 10 iki üyeye sahip. Gecikmeleri kaynak şirketten (USMF) müşteri şirkete (DEMF) yaymak için, iki şirkette de şirketlerarası işlevini iki kez çalıştırmanız gerekir. İlk tekrar, talebi yayar ve kaynak şirketteki (USMF) gecikmeleri tanımlar. İkinci tekrar, gecikmeleri USMF'den DEMF'ye yayar.  
+6. **İlk tekrarlama** alanında 'Yeniden oluşturma' seçeneğini belirleyin.
+7. **Sonraki tekrarlamalar** alanında 'Yeniden oluşturma' seçeneğini belirleyin.
+8. **İş parçacığı sayısı** alanına bir rakam girin. Bu, planlama için kullanılan paralel iş parçacıklarının sayısını temsil eder.  
+9. **Tamam**'a tıklayın.
 
 ## <a name="view-the-result-of-the-plan"></a>Planın sonucunu görüntüleme
-1. Plan alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-2. Listede, seçili satırdaki bağlantıya tıklayın.
-    * StaticPlan için bağlantıya tıklayın. USMF şirketinde olmanız gerekir.  
-3. Planlı siparişler'e tıklayın.
+1. **Plan** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+2. Listede, seçili satırdaki bağlantıya tıklayın. StaticPlan için bağlantıya tıklayın. USMF şirketinde olmanız gerekir.  
+3. **Planlı siparişler**'e tıklayın.
 

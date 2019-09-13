@@ -1,6 +1,6 @@
 ---
 title: RFQ kullanan bir talep oluşturma
-description: Bu kılavuz, bir RFQ işleminden satınalma talebine fiyat ve satıcı bilgilerinin nasıl ekleneceğini gösterir.
+description: Bu konu, bir RFQ işleminden satınalma talebine fiyat ve satıcı bilgilerinin nasıl ekleneceğini açıklar.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,91 +16,86 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9d80f84c148ff26bf008a97b06098bfd18c9062d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4429bda6efddbb4f1fa7da06e91e51d885919c05
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844175"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914966"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>RFQ kullanan bir talep oluşturma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu kılavuz, bir RFQ işleminden satınalma talebine fiyat ve satıcı bilgilerinin nasıl ekleneceğini gösterir. Bu kılavuzda gösterilen örnek USMF demo verileri şirketinde kullanılabilir ve tüm adımları tamamlamak için bir Yönetici olarak oturum açmanız gerekir. Bu kılavuzdaki görevler genellikle tedarik profesyonelleri tarafından yapılır.
+Bu konu, bir RFQ işleminden satınalma talebine fiyat ve satıcı bilgilerinin nasıl ekleneceğini açıklar. Bu kılavuzda gösterilen örnek USMF demo verileri şirketinde kullanılabilir ve tüm adımları tamamlamak için bir Yönetici olarak oturum açmanız gerekir. Bu kılavuzdaki görevler genellikle tedarik profesyonelleri tarafından yapılır.
 
 
 ## <a name="create-a-requisition"></a>Talep oluşturun
-1. Tedarik ve kaynak Hizmeti'nden > Satınalma talepleri > Satınalma talepleri benim tarafından hazırlandı'ya git.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-4. Talep edilen tarih alanında, bir tarih girin.
-5. Muhasebe tarihi alanında bir tarih girin.
-6. Tamam'ı tıklatın.
-7. Neden alanında bir değer girin veya bir değer seçin.
-8. Satır ekle'ye tıklayın.
-9. Tedarik kategorisi alanında ağaç içinde bir kategori seçin ve Tamam'a tıklayın.
-10. Ürün adı alanına bir değer girin.
-11. Miktar alanına bir sayı girin.
-12. Birim alanına bir değer girin veya buradan bir değer seçin.
-13. Kaydet'e tıklayın.
-14. İletişim kutusu formunu açmak için İş akışı'na tıklayın.
-15. Gönder'i tıklatın.
+1. Gezinti bölmesinde **Modüller > Tedarik ve kaynak atama > Satınalma talepleri > Tarafımdan hazırlanan satınalma talepleri** öğesine gidin.
+2. **Yeni**'yi seçin.
+3. **Ad** alanına bir değer yazın.
+4. **Talep edilen tarih** alanına, bir tarih girin.
+5. **Muhasebe tarihi** alanına bir tarih girin.
+6. **Tamam**'ı seçin.
+7. **Neden** alanında bir değer girin veya bir değer seçin.
+8. **Satır ekle**'yi seçin.
+9. **Tedarik kategorisi** alanında ağaç içinde bir kategori seçin ve **Tamam**'a tıklayın.
+10. **Ürün adı** alanına bir değer yazın.
+11. **Miktar** alanına bir sayı girin.
+12. **Birim** alanına bir değer girin veya buradan bir değer seçin.
+13. **Kaydet**'i seçin.
+14. Açılır iletişim kutusunu açmak için **İş akışı**'nı seçin.
+15. **Gönder**'i seçin.
 16. Sayfayı kapatın.
-17. Gönder'i tıklatın.
+17. **Gönder**'i seçin.
 
 ## <a name="reassign-a-workflow-task"></a>İş akışı görevini yeniden atayın
-    * Sonraki görev satıcılardan ürün için teklifleri almak için bir RFQ oluşturmaktır. USMF demo verilerinde talep iş akışı, bir satıcı seçilmediğinde veya bir satır için birim fiyat 0 olduğunda belirli bir çalışana bir RFQ oluşturması için bir görevin atandığı bir kural ile ayarlanmıştır. Bu kılavuz ile devam etmek için bu görevi başka bir kullanıcıya (kendinize) yeniden atamanız gerekir. Bunu yalnızca bir Yönetici olarak oturum açtıysanız yapabilirsiniz.  
-1. İletişim kutusu formunu açmak için İş akışı'na tıklayın.
-2. Geçmişi görüntüle'ye tıklayın.
+Sonraki görev satıcılardan ürün için teklifleri almak için bir RFQ oluşturmaktır. USMF demo verilerinde talep iş akışı, bir satıcı seçilmediğinde veya bir satır için birim fiyat 0 olduğunda belirli bir çalışana bir RFQ oluşturması için bir görevin atandığı bir kural ile ayarlanmıştır. Bu kılavuz ile devam etmek için bu görevi başka bir kullanıcıya (kendinize) yeniden atamanız gerekir. Bunu yalnızca bir Yönetici olarak oturum açtıysanız yapabilirsiniz.  
+
+1. Açılır iletişim kutusunu açmak için **İş akışı**'nı seçin.
+2. **Geçmişi görüntüle**'yi seçin.
 3. Sayfayı yenileyin.
-4. İzleme ayrıntıları bölümünü genişletin.
-5. Ağaç içinde, "Satır maddesi iş akışı etkinleştirildi" ile başlayan satırı seçin.
-6. İş akış ayrıntılarını görüntüle'ye tıklayın.
-7. İş öğeleri bölümünü genişletin.
-8. Yeniden Ata'ya tıklayın.
-9. Kullanıcı alanında Yönetici'yi seçin.
-10. Yeniden Ata'ya tıklayın.
-11. Sayfayı kapatın.
-12. Sayfayı kapatın.
+4. **İzleme ayrıntıları**  bölümünü genişletin.
+5. Ağaçta, "Satır iş akışı etkinleştirildi" ile başlayan satırı seçin.
+6. **İş akış ayrıntılarını görüntüle**'yi seçin.
+7. **İş öğeleri**  bölümünü genişletin.
+8. **Yeniden ata**'yı seçin.
+9. **Kullanıcı** alanında **Yönetici**'yi seçin.
+10. **Yeniden ata**'yı seçin.
+11. İki sayfayı da kapatın.
 
 ## <a name="create-an-rfq"></a>RFQ oluşturun
+
 1. Sayfayı yenileyin.
-2. Teklif talebi'ne tıklayın.
-3. Satın alma tüzel kişiliği alanında USMF'yi seçin.
-    * Talep satırında bulunan aynı yasal varlığı seçmelisiniz.  
-4. Listede, seçili satırı işaretleyin.
-    * Satınalma talebinde birden fazla satırınız varsa RFQ'ya eklemek istediğiniz tüm satırları seçin.  
-5. Tamam'a tıklayın.
+2. **Teklif talebi**'ni seçin.
+3. **Satın alma tüzel kişiliği** alanında **USMF**'yi seçin. Talep satırında bulunan aynı yasal varlığı seçmelisiniz.  
+4. Listede, seçili satırı işaretleyin. Satınalma talebinde birden fazla satırınız varsa RFQ'ya eklemek istediğiniz tüm satırları seçin.  
+5. **Tamam**'ı seçin.
 6. Sayfayı yenileyin.
-7. Bilgi kutusunu açın ve ardından İlgili belgeler bölümünü genişletin.
-    * Bilgi kutusu zaten açık olabilir. Satırlar/Başlık geçiş düğmelerinin sağında, üzerinde bir ok olan simgeyi arayın. Ok sağı gösteriyorsa bilgi kutusu zaten açıktır. Ok solu gösteriyorsa bilgi kutusunu açmak için oka tıklayın.  
-8. Yeni oluşturulan RFQ'yu açmak için Teklif talebi alanındaki bağlantıya tıklayın.
-9. Başlık'a tıklayın.
-10. Ekle öğesini tıklatın.
-11. Satıcı hesabı alanında bir değer girin veya bir değer seçin.
-12. Ekle öğesini tıklatın.
-13. Satıcı hesabı alanında bir değer girin veya bir değer seçin.
-14. Gönder'e tıklayın.
-15. Tamam'a tıklayın.
-16. Yanıt gir düğmesini tıklayın.
-17. Eylem Bölmesinde, Yanıtla öğesine tıklayın.
-18. Verileri yanıta kopyala düğmesini tıklayın.
-    * Bu, RFQ'dan yanıta miktar ve tarihler gibi verileri kopyalar.  
-19. Birim fiyatı alanına bir sayı girin.
-    * Bu, satıcıdan aldığınız fiyattır. Ayrıca satıcıdan ek bilgiler girmek de isteyebilirsiniz.  
-20. Kabul et düğmesini tıklatın.
-21. Tamam'a tıklayın.
+7. Bilgi kutusunun açık olduğundan emin olun ve **İlgili belgeler** bölümünü genişletin.
+8. Yeni oluşturulan RFQ'yu açmak için **Teklif talebi** alanındaki bağlantıyı seçin.
+9. **Başlık** öğesini seçin.
+10. **Ekle**'yi seçin.
+11. **Satıcı hesabı** alanına bir değer girin veya bu alanda bir değer seçin.
+12. **Ekle**'yi seçin.
+13. **Satıcı hesabı** alanına bir değer girin veya bu alanda bir değer seçin.
+14. **Gönder**'i seçin.
+15. **Tamam**'ı seçin.
+16. **Yanıt gir**'i seçin.
+17. Eylem Bölmesinde, **Yanıtla**'yı seçin.
+18. **Verileri yanıta kopyala**'yı seçin. Bu, RFQ'dan yanıta miktar ve tarihler gibi verileri kopyalar.  
+19. **Birim fiyatı** alanına bir sayı girin. Bu, satıcıdan aldığınız fiyattır. Ayrıca satıcıdan ek bilgiler girmek de isteyebilirsiniz.  
+20. **Kabul et**'i seçin.
+21. **Tamam**'ı seçin.
 
 ## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a>Satıcı ve fiyatın talebe aktarılmış olduğunu doğrulayın
 1. Sayfayı kapatın.
-2. Satırlar seçeneğine tıklayın.
-3. İlgili bilgiler'e tıklayın.
-4. Satınalma talebi'ne tıklayın.
-5. RFQ'ya transfer edilen satırı seçin.
-    * Fiyatın ve satıcının talebe kopyalandığını doğrulayın.  
-6. İletişim kutusu formunu açmak için İş akışı'na tıklayın.
-7. Tamamla öğesine tıklayın.
-8. Sayfayı kapatın.
-9. Tamamla öğesine tıklayın.
+2. **Satırlar**'ı seçin.
+3. **İlgili bilgiler**'i seçin.
+4. **Satınalma talebi**'ni seçin.
+5. RFQ'ya transfer edilen satırı seçin. Fiyatın ve satıcının talebe kopyalandığını doğrulayın.  
+6. Açılır iletişim kutusunu açmak için **İş akışı**'nı seçin.
+7. Tamamlandı'yı seçin.
+8. Sayfayı seçin.
+9. Tamamlandı'yı seçin.
 

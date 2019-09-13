@@ -1,9 +1,9 @@
 ---
-title: Şirket içi dağıtımlar giriş sayfası
+title: Şirket içi dağıtım giriş sayfası
 description: bu konu şirket içi dağıtım hakkında içeriğe bağlantılar ve bilgi sağlar.
 author: kfend
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d74ea4b838d3feca6c1e93d6647c34b1ec6e4146
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 6e83af8a15fae37e198814de753bef2bdcb37801
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1848159"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864282"
 ---
-# <a name="on-premises-deployments-home-page"></a>Şirket içi dağıtımlar giriş sayfası
+# <a name="on-premises-deployment-home-page"></a>Şirket içi dağıtım giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 

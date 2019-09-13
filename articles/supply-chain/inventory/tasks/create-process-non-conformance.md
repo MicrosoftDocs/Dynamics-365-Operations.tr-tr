@@ -1,9 +1,9 @@
 ---
 title: Uyumluluk oluşturma ve işleme
-description: Uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmek için bu yordamı kullanın.
+description: Uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmeyi bu konu açıklar.
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/07/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,65 +16,54 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16ed11bce92920fe8240fc85f706a2ac6ab0a04b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572823"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916657"
 ---
 # <a name="create-and-process-a-conformance"></a>Uyumluluk oluşturma ve işleme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmek için bu yordamı kullanın. Bu kaydı USMF demo şirketinde çalıştırabilir ve önerilen değerleri kullanabilirsiniz. Tipik olarak, bu yordam kalite görevlisi tarafından gerçekleştirilir.  Bir önkoşul olarak "Malların kalitesini incele" görev kaydını çalıştırın. Bir uygunsuzluk onayını işlemek için görev kaydını çalıştıran kullanıcının atanmış kullanıcılar sayfasında bir "Ad" değeri olmalıdır. Kullanıcının belge notları kullanabilmesi için belge işleme seçeneğinin kullanıcı ayarlarında etkinleştirilmiş olması gerekir.
+Uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmeyi bu konu açıklar. Bu kaydı USMF demo şirketinde çalıştırabilir ve önerilen değerleri kullanabilirsiniz. Tipik olarak, bu yordam kalite görevlisi tarafından gerçekleştirilir.  Önkoşul olarak, [Malların kalitesini incele](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md) içindeki talimatlar bakın. Bir uygunsuzluk onayını işlemek için görev kaydını çalıştıran kullanıcının atanmış kullanıcılar sayfasında bir "Ad" değeri olmalıdır. Kullanıcının belge notları kullanabilmesi için belge işleme seçeneğinin kullanıcı ayarlarında etkinleştirilmiş olması gerekir.
 
 
 ## <a name="select-a-quality-order"></a>Bir kalite emri seçin
-1. Kalite emirleri'ne gidin.
-2. Listede, seçili satırı işaretleyin.
-    * "Malların kalitesini denetleme" görev kaydından oluşturulmuş kalite emrini seçin.  
+1. Gezinti panelinde **Modüller > Stok yönetimi > Periyodik görevler > Kalite yönetimi > Kalite emirleri** öğesine gidin.
+2. Listede, [Malların kalitesini incele](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md) içinde oluşturulmuş kalite emrini seçin.  
 
 ## <a name="create-a-nonconformance"></a>Uygunsuzluk oluşturma
-1. Sorgulamalar’ı tıklatın.
-2. Uyumsuzluklar'a tıklayın.
-3. Yeni'ye tıklayın.
-4. Sorun türü alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-    * İnceleme sürecinde bulunan sorunu seçin.  
-5. Sorun türü alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-6. Listede, istenen kaydı bulun ve seçin.
-7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. Tamam'a tıklayın.
+1. Eylem bölmesinde, **Sorgular**'ı seçin.
+2. **Uyumsuzluklar**'ı seçin.
+3. **Yeni**'yi seçin.
+4. **Problem türü** alanının açılı menüsünde, denetleme işlemi sırasında bulunan problemi seçin.  
+5. **Tamam**'ı seçin.
 
 ## <a name="approvereject-a-nonconformance"></a>Bir uygunsuzluğu onaylama/reddetme
-1. İşlevler'i tıklatın.
-2. Uyumsuzluğu onayla'ya tıklayın.
-    * Bu örnek için, uygunsuzluğu onaylayın. Onaylanan uygunsuzluklar, ilgili operasyonlar ile uygunsuzluk işleme sürecinin bir parçası olarak yerine getirilen işlerin kaydını tutmak ve, bu görev kaydında olduğu gibi, uygunsuzluk işlemesini işlemden geçirmek için ilişkilendirilebilir.  
-3. Evet'i tıklatın.
+1. **İşlevler**'i seçin.
+2. **Uyumsuzluğu onayla**'yı seçin. Bu örnek için, uygunsuzluğu onaylayın. Onaylanan uygunsuzluklar, ilgili operasyonlar ile uygunsuzluk işleme sürecinin bir parçası olarak yerine getirilen işlerin kaydını tutmak ve, bu konuda olduğu gibi, uygunsuzluk işlemesini işlemden geçirmek için ilişkilendirilebilir.  
+3. **Evet**'i seçin.
 
 ## <a name="create-a-correction-action"></a>Düzeltme eylemi oluşturma
-1. Düzeltmeler'e tıklayın.
-2. Yeni'ye tıklayın.
-3. Listede, seçili satırı işaretleyin.
-4. Personel numarası alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-5. Listede, seçili satırdaki bağlantıya tıklayın.
-6. Seç'e tıklayın.
-7. İliştir'e tıklayın.
-    * Düzeltme hakkında bir not oluşturun. Bu örnek için eylem, uygunsuzluk durumunu tartışmak için satıcıya başvurmaktır.  
-8. Yeni'ye tıklayın.
-9. Not'a tıklatın.
-    * Rapor kurulumuna bağlı olarak, uygunsuzluk yönetimiyle ilgili raporların üzerine farklı belge türlerinin yazdırılabilir olduğunu unutmayın.  
-10. Açıklama alanına bir değer girin.
-11. Sayfayı kapatın.
+1. **Düzeltmeler**'i seçin.
+2. **Yeni**'yi seçin.
+3. Yeni satırın **Personel numarası** alanında, açılır menüden istenilen kaydı seçin.
+4. **Seç**'e tıklayın.
+5. **Ekle**'yi seçin. Düzeltme hakkında bir not oluşturun. Bu örnek için eylem, uygunsuzluk durumunu tartışmak için satıcıya başvurmaktır.  
+6. **Yeni**'yi seçin.
+7. **Not**'u seçin. Rapor kurulumuna bağlı olarak, uygunsuzluk yönetimiyle ilgili raporların üzerine farklı belge türlerinin yazdırılabilir.  
+8. **Tanım** alanına bir değer girin.
+9. Sayfayı kapatın.
 
 ## <a name="maintain-a-correction"></a>Bir düzeltmeyi yönet
-1. Tamamlandı olarak işaretle'ye tıklayın.
-2. Tamam'a tıklayın.
+1. **Tamamladı işaretle**'yi seçin.
+2. **Tamam**'ı seçin.
 3. Sayfayı kapatın.
 
 ## <a name="close-a-nonconformance"></a>Bir uygunsuzluğu kapat
-1. İşlevler'i tıklatın.
-2. Uygunsuzluğu kapat'a tıklayın.
-3. Evet'i tıklatın.
-4. Sayfayı kapatın.
-5. Sayfayı kapatın.
+1. **İşlevler**'i seçin.
+2. **Uyumsuzluğu kapat**'ı seçin.
+3. **Evet**'i seçin.
+4. Sayfaları kapatın.

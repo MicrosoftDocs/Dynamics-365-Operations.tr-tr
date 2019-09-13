@@ -3,7 +3,7 @@ title: Borç hesaplarından kıymetler oluşturup alın
 description: Bu görev kılavuzu size satınalma işlemiyle sabit kıymet oluşturma ve alımını gösterecek.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2626877c907994d03cdae960c8501a858ca214bd
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 025639e6e5bdc6b95e9c496f11f29ed8ec8d388c
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1840037"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914688"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Borç hesaplarından kıymetler oluşturup alın
 
@@ -31,31 +31,28 @@ Bu görev kılavuzu size satınalma işlemiyle sabit kıymet oluşturma ve alım
 
 
 ## <a name="set-fixed-assets-parameters"></a>Sabit kıymet parametrelerini ayarlayın
-1. Sabit kıymetler > Kurulum > Sabit kıymet parametreleri'ne gidin.
-2. Satınalma siparişleri bölümünü genişletin veya daraltın.
-3. Satınalmadan kıymet alımına izin ver onay kutusunu işaretleyin.
-4. Ürün girişi veya fatura deftere nakil işlemi sırasında kıymet oluştur onay kutusunu işaretleyin.
+1. **Gezinti bölmesinde** **Modüller > Sabit kıymetler > Kurulum > Sabit kıymet parametreleri**'ne gidin.
+2. **Satınalma siparişleri** hızlı sekmesini genişletin.
+3. **Satınalmadan varlık alımına izin ver** onay kutusunu işaretleyin.
+4. **Ürün girişi veya fatura deftere nakil işlemi sırasında varlık oluştur** onay kutusunu işaretleyin.
 
 ## <a name="create-a-new-vendor-invoice"></a>Yeni bir satıcı faturası oluşturun.
-1. Borç hesapları > Çalışma alanları > Satıcı faturası girişi'ne gidin.
-2. Yeni satıcı faturası'na tıklayın.
-3. Fatura hesabı alanında, açılır menü düğmesine tıklayarak aramayı açın.
+1. **Gezinti bölmesinde** **Modüller > Borç hesapları > Çalışma alanları > Satıcı faturası girişi**'ne gidin.
+2. **Yeni satıcı faturası**'na tıklayın.
+3. **Fatura hesabı** alanında, açılır menü düğmesine tıklayarak aramayı açın.
 4. Listede, seçili satırdaki bağlantıya tıklayın.
-5. Numara alanına bir değer girin.
-6. Deftere nakil tarihi alanına bir tarih girin.
-7. Satır ekle'ye tıklayın.
-8. Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.
-    * Sabit kıymet alımı için ya stoğu olmayan maddeler veya tedarik kategorileri kullanılabilir.  
+5. **Numara** alanına bir değer girin.
+6. **Deftere nakil tarihi** alanına bir tarih girin.
+7. **Satır ekle**'ye tıklayın.
+8. **Madde numarası** alanında, açılır menü düğmesine tıklayarak aramayı açın. Sabit kıymet alımı için ya stoğu olmayan maddeler veya tedarik kategorileri kullanılabilir.  
 9. Listede, seçili satırdaki bağlantıya tıklayın.
-10. Miktar alanına bir sayı girin.
-    * Bir fatura satırı, miktarı ne olursa olsun tek bir sabit kıymet oluşturur.  Fatura miktarı alanı değeri, sabit kıymet miktarına aktarılır.  
-11. Birim fiyatı alanına bir sayı girin.
-12. Satır ayrıntıları bölümünü genişletin veya daraltın.
-13. Sabit kıymetler sekmesine tıklayın.
-14. Yeni bir sabit kıymet oluştur onay kutusunu işaretleyin.
-15. Sabit kıymet grubu alanında, açılır menü düğmesine tıklayarak aramayı açın.
+10. **Miktar** alanına bir sayı girin. Bir fatura satırı, miktarı ne olursa olsun tek bir sabit kıymet oluşturur. Fatura miktarı alanı değeri, sabit kıymet miktarına aktarılır.  
+11. **Birim fiyatı** alanına bir sayı girin.
+12. **Satır ayrıntıları** hızlı sekmesini genişletin.
+13. **Sabit kıymetler** sekmesine tıklayın.
+14. **Yeni bir sabit kıymet oluştur** onay kutusunu işaretleyin.
+15. **Sabit kıymet grubu** alanında, açılır menü düğmesine tıklayarak aramayı açın.
 16. Listede, yeni sabit kıymet oluşturulurken kullanılacak sabit kıymet grubunu seçin.
 17. Listede, seçili satırdaki bağlantıya tıklayın.
-18. Deftere Naklet öğesine tıklayın.
-    * Sabit kıymet oluşturulur ve fatura deftere nakledildiğinde alınır.  
+18. **Naklet**'e tıklayın. Sabit kıymet oluşturulur ve fatura deftere nakledildiğinde alınır.  
 

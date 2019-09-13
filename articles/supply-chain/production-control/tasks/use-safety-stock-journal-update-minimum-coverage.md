@@ -3,7 +3,7 @@ title: Minimum kapsamı güncelleştirmek için emniyet stoku günlüğünü kul
 description: Bu yordam, geçmiş işlemleri temel alarak minimum kapsam tekliflerinin nasıl hesaplanacağını ve ardından tekliflerle madde kapsamının nasıl güncelleştirileceğini gösterir.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3b2916d6d2f24579fd9795c0e0bc548b6c2b747
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 478dd85abebf76dd264e93bcbe3f218a0ff0a5a8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835802"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916818"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Minimum kapsamı güncelleştirmek için emniyet stoku günlüğünü kullanma
 
@@ -32,47 +32,37 @@ Bu yordam, geçmiş işlemleri temel alarak minimum kapsam tekliflerinin nasıl 
 
 
 ## <a name="create-a-new-safety-stock-journal-name"></a>Yeni bir emniyet stoku günlüğü adı oluşturun.
-1. Emniyet stoku günlük adlarına gidin.
-2. Yeni'ye tıklayın.
-3. Ad alanına "Malzeme" yazın.
-4. Açıklama alanına "Malzeme" yazın.
+1. **Gezinti bölmesinde** **Master planlama > Kurulum > Emniyet stoku günlüğü adları**'na gidin.
+2. **Yeni**'ye tıklayın.
+3. **Ad** alanına "Malzeme" yazın.
+4. **Açıklama** alanına "Malzeme" yazın.
 5. Sayfayı kapatın.
 
 ## <a name="create-a-safety-stock-journal"></a>Emniyet stoku günlüğü adı oluştur
-1. Emniyet stoku hesaplamaya gidin.
-2. Yeni'ye tıklayın.
-3. Ad alanına bir değer girin veya buradan bir değer seçin.
-    * Örneğin, Malzeme gibi oluşturduğunuz emniyet stoku günlük adını seçin.  
-4. Satır oluştur'a tıklayın.
-5. Başlangıç tarihi alanına bir tarih girin.
-    * Tarihi "02.01.2015" olarak ayarlayın.  
-6. Bitiş tarihi alanına bir tarih girin.
-    * Tarihi "30.12.2015" olarak ayarlayın.  
-7. Tamam'a tıklayın.
-    * Bu işlem, stok işlemleri olan boyutlar için satırlar oluşturur.  
+1. **Gezinti bölmesinde** **Master planlama > Master planlama > Çalıştır > Emniyet stoku hesaplama**'ya gidin.
+2. **Yeni**'ye tıklayın.
+3. **Ad** alanına bir değer girin veya buradan bir değer seçin. Örneğin, Malzeme gibi oluşturduğunuz emniyet stoku günlük adını seçin.  
+4. **Satırlar oluştur**'a tıklayın.
+5. **Başlangıç tarihi** alanına bir tarih girin.  
+6. **Bitiş tarihi** alanına bir tarih girin.
+7. **Tamam**'a tıklayın. Bu işlem, stok işlemleri olan boyutlar için satırlar oluşturur.  
 
 ## <a name="calculate-proposal"></a>Teklifi hesapla
-1. Teklifi hesapla'ya tıklayın.
-2. Sağlama süresi içinde ortalama stok çıkışını kullan seçeneğini belirleyin.
-3. Çarpım faktörünü 10 olarak ayarlayın.
-    * Teklifi düzenlemek için Çarpma faktörü kullanılır. Demo verilerde yalnızca birkaç işlem bulunduğundan gerçekçi bir teklif elde etmek için faktörü ayarlamanız gerekir.  
-4. Tamam'a tıklayın.
-    * M0002 ve M0003'ü bulmak için aşağı kaydırın. Hesaplanan minimum miktar sütununu görüntüleyin.   
+1. **Teklifi hesapla**'ya tıklayın.
+2. **Sağlama süresi içinde ortalama stok çıkışını kullan** seçeneğini belirleyin.
+3. **Çarpım faktörünü** '10' olarak ayarlayın. Teklifi düzenlemek için Çarpma faktörü kullanılır. Demo verilerde yalnızca birkaç işlem bulunduğundan gerçekçi bir teklif elde etmek için faktörü ayarlamanız gerekir.  
+4. **Tamam**'a tıklayın. M0002 ve M0003'ü bulmak için aşağı kaydırın. **Hesaplanan minimum** miktar sütununu görüntüleyin.   
 
 ## <a name="update-minimum-quantity"></a>Minimum miktarı güncelleştir
-1. Yeni minimum miktar alanına bir sayı girin.
-    * Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin. Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz. Örneğin, ambar 12'si olan M0002 için bu alana Hesaplanan minimum miktarı girebilirsiniz.  
-2. Listede, istenen kaydı bulun ve seçin.
-    * Örneğin, ambar 12'si olan M0002'yi seçebilirsiniz.  
-3. Yeni minimum miktar alanına bir sayı girin.
-    * Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin. Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz.  
+1. **Yeni minimum miktar** alanına bir sayı girin. Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin. Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz. Örneğin, ambar 12'si olan M0002 için bu alana Hesaplanan minimum miktarı girebilirsiniz.  
+2. Listede, istenen kaydı bulun ve seçin. Örneğin, ambar 12'si olan M0002'yi seçebilirsiniz.  
+3. **Yeni minimum miktar** alanına bir sayı girin. Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin. Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz.  
 
 ## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a>Yeni minimum miktarı gönderin ve sonucu doğrulayın
-1. Deftere Naklet öğesine tıklayın.
-2. Tamam'a tıklayın.
-3. Madde numarası alanındaki bağlantıyı izlemek için tıklayın.
-4. Madde numarası alanındaki bağlantıyı izlemek için tıklayın.
-5. Eylem Bölmesinde, Planla öğesine tıklayın.
-6. Madde kapsamı'na tıklayın.
-    * Minimum miktarın, emniyet stoku günlüğündeki yeni minimum miktar ile güncelleştirildiğine dikkat edin.  
+1. **Naklet**'e tıklayın.
+2. **Tamam**'a tıklayın.
+3. **Madde numarası** alanındaki bağlantıyı izlemek için tıklayın.
+4. **Madde numarası** alanındaki bağlantıyı izlemek için tıklayın.
+5. **Eylem Bölmesi**'nde Plan'a tıklayın.
+6. **Madde kapsamı**'na tıklayın. **Minimum miktarın**, emniyet stoku günlüğündeki yeni minimum miktar ile güncelleştirildiğine dikkat edin.  
 

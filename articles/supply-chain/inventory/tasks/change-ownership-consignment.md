@@ -3,7 +3,7 @@ title: Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme
 description: Bu yordam üretimde stok için bir talep olduğunda, konsinye stoğun sahibini satıcıdan tüzel kişiliğinize değiştirmeyi gösterir.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9587d39801ad39649aa5fa3ff682cdeab411516e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1cf45e838afcb55e15175811f4d38be07d7a484d
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838811"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874889"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme
 
@@ -30,6 +30,8 @@ ms.locfileid: "1838811"
 
 Bu yordam üretimde stok için bir talep olduğunda, konsinye stoğun sahibini satıcıdan tüzel kişiliğinize değiştirmeyi gösterir. Bu sahiplik değişikliği bir stok sahipliği değişiklik günlüğü oluşturup bunu deftere naklederek yapılır. Sahiplik değişikliği günlük satırları el ile veya bu kayıtta gösterildiği gibi, var olan üretim talebine göre oluşturulabilir. Genellikle, bu görevi bir atölye gözetmeni gerçekleştirir. Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. Kendi verilerinizi kullanıyorsanız şu önkoşullara sahip olduğunuzdan emin olun: stok sahibi değişikliği için ayarlanmış bir stok günlüğü adı, fiziksel olarak kaydedilmiş satıcıya ait eldeki maddeler ve malzeme için bir veya daha fazla üretim emri satırı. Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
 
+> [!NOTE]
+> Giden konsinye işlemleri kullanıma hazır olarak desteklenmez ve otomatik sahiplik günlüğü işlemi desteklenmez.
 
 ## <a name="create-an-inventory-ownership-journal"></a>Stok sahipliği günlüğü oluşturma
 1. Stok yönetimi > Günlük girişleri > Maddeler > Stok sahipliği değişikliği'ne gidin.

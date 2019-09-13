@@ -19,50 +19,56 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ca62a6b3aa64ec2383ee3ded3b7bbf4650a41166
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 5e71729dafd2ad85a01b055363d1c7056b5558b2
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797287"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873117"
 ---
 # <a name="troubleshooting-guide-for-data-integration"></a>Veri tümleştirme sorunlarını giderme kılavuzu
 
-## <a name="enable-plugin-trace-in-common-data-service-and-check-the-dual-write-plugin-error-details"></a>Common Data Service'teki Plugin Trace'i etkinleştirin ve çift yazma eklentisi hata ayrıntılarını kontrol edin
+## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Common Data Service'teki Eklenti izleme günlüklerini etkinleştirin ve çift yazma eklentisi hata ayrıntılarını kontrol edin
 
-Bir sorun veya çift yazma eşitlemesi hatasıyla karşı karşıya iseniz, izleme günlüğünde hataları inceleyebilirsiniz:
+[!include [banner](../includes/banner.md)]
 
-1. Hataları incelemek için önce Eklenti izlemeyi etkinleştirmek için [Kayıt eklentisi](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) yönergelerini kullanarak Eklenti izlemeyi etkinleştirmeniz gerekir. Şimdi hataları inceleyebilirsiniz.
-2. Dynamics 365 for Sales'de oturum açın.
-3. Ayarlar simgesine (dişli) tıklayın ve **Gelişmiş ayarlar**'ı seçin.
-4. **Ayarlar** menüsünde **Özelleştirme > Eklenti izleme günlüğünü**seçin.
-5. Hata ayrıntılarını görüntülemek için **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** türü adını tıklatın.
+[!include [preview](../includes/preview-banner.md)]
 
-## <a name="check-dual-write-synchronization-errors-in-finance-and-operations"></a>Finance and Operations'ta çift yazma eşitleme hatalarını denetle
+Çift-yazma eşitleme sırasında bir sorunla veya hatayla karşılaşırsanız izleme günlüğündeki hataları denetlemek için aşağıdaki adımları izleyin.
 
-Aşağıdaki adımları izleyerek test sırasında hataları denetleyebilirsiniz:
+1. Hataları incelemeniz için önce eklenti izleme günlüklerini etkinleştirmelisiniz. Yönergeler için [Öğretici: Bir ekletiyi yazma ve kaydetme](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs)'deki "İzleme günlüğü görüntüle" bölümüne bakınız.
 
-+ LifeCycle Services (LCS)'ye giriş yapın.
-+ Çift yazma sınaması gerçekleştirmek için seçtiğiniz LCS projesini açın.
-+ Bulutta Barındırılan Ortamlar'a gidin.
-+ LCS'de görüntülenen yerel hesabı kullanarak Finance and Operations VM'ye uzak masaüstü.
-+ Olay görüntüleyiciyi açın. 
-+ **Uygulamalar ve Hizmetler günlükleri > Microsoft > Dynamics > AX-DualWriteSync > İşletim**'e gidin. Hatalar ve ayrıntılar görüntülenir.
+    Şimdi hataları inceleyebilirsiniz.
 
-## <a name="how-to-unlink-and-link-another-common-data-service-environment-from-finance-and-operations"></a>Finance and Operations'tan başka bir Common Data Service ortam bağlantısını kaldırma
+2. Microsoft Dynamics 365 for Sales'da oturum açın
+3. **Ayarlar** düğmesini (çark simgesi) seçin ve sonra **Gelişmiş ayarlar**'ı seçin.
+4. **Ayarlar** menüsünde **Özelleştirme \> Eklenti izleme günlüğü**'nü seçin.
+5. Hata ayrıntılarını görüntülemek için **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**'i tür adı olarak seçin.
 
-Aşağıdaki adımları izleyerek bağlantıları güncelleştirebilirsiniz:
+## <a name="inspect-dual-write-synchronization-errors-in-finance-and-operations"></a>Finance and Operations'ta çift yazma eşitleme hatalarını denetle
 
-+ Finance and Operations ortamınıza gidin.
-+ Veri Yönetimini açın.
-+ **Uygulamalar için CDS bağlantısı**'na tıklayın.
-+ Çalışan tüm eşlemeleri seçin ve **Durdur**'u tıklatın. 
-+ Tüm eşlemeleri seçin ve **Sil**'i tıklatın.
+Test sırasında hataları incelemek için bu adımları izleyin.
+
+1. Microsoft Dynamics Lifecycle Services (LCS)'de oturum açın.
+2. Çift-yazma testi yapmak için LCS projesini açın.
+3. **Bulutta barındırılan ortamlar**'ı seçin.
+4. LCS 'de gösterilen yerel hesabı kullanarak Dynamics 365 for Finance and Operations sanal makinede (VM) Uzak Masaüstü bağlantısı oluşturun.
+5. Olay Görüntüleyiciyi açın. 
+6. **Uygulamalar ve Hizmetler günlükleri \> Microsoft \> Dynamics \> AX-DualWriteSync \> İşletim**'e gidin. Hatalar ve ayrıntılar görüntülenir.
+
+## <a name="unlink-one-common-data-service-environment-from-finance-and-operations-and-link-another-environment"></a>Finance and Operations'tan bir Common Data Service ortam bağlantısını kaldırın ve başka bir ortama bağlayın
+
+Bağlantıları güncelleştirmek için bu adımları izleyin.
+
+1. Finance and Operations ortamınıza gidin.
+2. Veri Yönetimini açın.
+3. **Uygulamalar için CDS bağlantısı**'nı seçin.
+4. Çalışan tüm eşlemeleri seçin ve **Durdur**'u seçin.
+5. Tüm eşlemeleri seçin ve **Sil**'i seçin.
 
     > [!NOTE]
-    > **CustomerV3-Account** şablonu seçiliyse **Sil** seçeneği görüntülenmez. Gerekirse seçimi kaldırın. **CustomerV3-Account** eski bir sağlanan şablondur ve Müşteri Adayı'ndan Nakde çözümü ile çalışır. Genel olarak yayımlandığından tüm şablonlar altında gösterir.
+    > **CustomerV3-Account** şablonu seçiliyse **Sil** seçeneği uygun olmaz. Bu şablonun seçimini gerektiği gibi temizleyin. **CustomerV3-Account** eski bir sağlanan şablondur ve Müşteri Adayı'ndan Nakde çözümü ile çalışır. Genel olarak yayımlandığından tüm şablonlar altında gösterir.
 
-+ **Ortam bağlantısını kaldırma**'yı tıklatın.
-+ Onay için **Evet**'i tıklatın.
-+ Yeni ortamı bağlamak için, [yükleme kılavuzundaki](https://aka.ms/dualwrite-docs) adımları izleyin.
-
+6. **Ortam bağlantısını kaldırma**'yı seçin.
+7. Operasyonu onaylamak için **Evet**'i seçin.
+8. Yeni ortamı bağlamak için, [yükleme kılavuzundaki](https://aka.ms/dualwrite-docs) adımları izleyin.

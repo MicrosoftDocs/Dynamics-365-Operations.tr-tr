@@ -2,8 +2,8 @@
 title: Elektronik raporlamada (ER) formül tasarımcısı
 description: Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849521"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864306"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
@@ -113,6 +113,33 @@ ER formül tasarımcısı elektronik belgenin oluşturulması ve dosya oluşturm
 - Bir ifade (**DOĞRU** döndürerek) en az bir kayıt içeren toplu işler için dosya oluşturma işlemini etkinleştirir.
 
 [![Dosya denetimi](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+
+### <a name="documents-content-control"></a>Belge içeriği kontrolü
+
+ER formül tasarımcısı, çalışma zamanında oluşturulan elektronik belgelere hangi verilerin yerleştirileceğini denetleyen ifadeleri konfigüre etmek için kullanılabilir. İfadeler veri işlemeye ve konfigürasyon mantığına bağlı olarak biçimin belirli öğelerinin çıkışını etkinleştirebilir veya devre dışı bırakabilir. Bu deyim,**Operasyonlar tasarımcısı** sayfasındaki **Eşleştirme** sekmesinde bulunan **Enabled** alanına tek bir biçim öğesi için, **Boole** değerini döndüren bir mantık koşulu olarak girilebilir:
+
+-   **Doğru** olarak ayarlandığında, geçerli biçim öğesi yürütülür.
+-   **Yanlış** olarak ayarlandığında, geçerli biçim öğesi atlanır.
+
+Aşağıdaki şekil bu türdeki deyimleri göstermektedir (Microsoft tarafından sağlanan **11.12.11** sürümünü - **ISO20022 Kredi transferi (HAYIR)** biçim yapılandırmasına ait- örnektir). **XMLHeader** biçim bileşeni, ISO 20022 XML ileti standartlarını izleyerek kredi aktarım iletisinin yapısını açıklamak için yapılandırılmıştır. **Xmlheader/Document/Cstmrcdttrfınitn/PmtInf/CdtTrfTxInf/Rmtinf/Ustrd** Format bileşeni oluşturulan iletiye eklemek için konfigüre edilir, **Ustrd** XML öğesi ve havale bilgilerini aşağıdaki XML öğelerinin metin olarak yapılandırılmamış biçimi:
+
+-   **PaymentNotes** bileşeni ödeme notlarının metnini çıktısını almak için kullanılır.
+-   **DelimitedSequence** bileşeni, geçerli kredi transferini kapatmak için kullanılan virgülle ayrılmış fatura numaralarının çıkışını verir.
+
+[![Operations tasarımcısı](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> **PaymentNotes** ve **DelimitedSequence** bileşenleri soru işareti kullanılarak etiketlenir. Bu, aşağıdaki ölçütlere dayalı olarak her iki bileşenin kullanımının koşullu olduğu anlamına gelir:
+
+-   **Paymentnote** bileşeni için tanımlanan **@.PaymentsNotes<>""** ifadesi, popülasyonu **Ustrd** XML öğesine, geçerli kredi transferi için bu metin boş olmadığında ödeme notları metnini etkinleştirir (**Doğru** olarak döndürerek).
+
+[![Operations tasarımcısı](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   **DelimitedSequence** bileşeni için tanımlanmıştır **@.PaymentsNotes=""** ifadesi, (**DOĞRU** değerini döndürerek) popülasyonu bu kredi transferi için ödeme notları metni boş olduğunda, mevcut kredi transferini düzenlemek için kullanılan virgül fatura numaraları **Ustrd** XML öğesine döndürerek ayırır.
+
+[![Operations tasarımcısı](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+Bu ayara dayalı olarak, her bir borçlu ödeme, **Ustrd** XML öğesi için oluşturulan ileti, her bir ödeme notu metnini içerecektir veya bu metin boş olduğunda, bu ödemeyi kapatmak için kullanılan virgüllü fatura numaralarıyla ayrılmış metin içerir.
 
 ### <a name="basic-syntax"></a>Temel sözdizimi
 

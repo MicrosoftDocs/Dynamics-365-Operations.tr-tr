@@ -1,9 +1,9 @@
 ---
-title: Onay günlüğü kullanarak fatura verilerini AP sistemine girme
-description: Bu görev kılavuzu, fatura kaydını fatura oluşturmak için nasıl kullanacağınızı ve bunun ardından, onay günlüğünü gider hesaplarını güncelleştirmek için nasıl kullanacağınızı gösterecek.
+title: Onay günlüğü kullanarak fatura verilerini borç hesaplarına girme
+description: Bu konu, fatura kaydını fatura oluşturmak için nasıl kullanacağınızı ve bunun ardından, onay günlüğünü gider hesaplarını güncelleştirmek için nasıl kullanacağınızı açıklar.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,50 +16,41 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0faece510cc85fd86113d8b62d54b71f3014b1db
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fb690769a33f88e63ab8f54cec69a5e927fd324c
+ms.sourcegitcommit: 6545bef4584d72dd7789f2d3935cf00ac8f489b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837063"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1871017"
 ---
-# <a name="key-invoice-data-into-ap-system-using-approval-journal"></a>Onay günlüğü kullanarak fatura verilerini AP sistemine girme
+# <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Onay günlüğü kullanarak fatura verilerini borç hesaplarına girme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu görev kılavuzu, fatura kaydını fatura oluşturmak için nasıl kullanacağınızı ve bunun ardından, onay günlüğünü gider hesaplarını güncelleştirmek için nasıl kullanacağınızı gösterecek.
-
+Bu konu, fatura kaydını fatura oluşturmak için nasıl kullanacağınızı ve bunun ardından, onay günlüğünü gider hesaplarını güncelleştirmek için nasıl kullanacağınızı açıklar.
 
 ## <a name="create-and-post-and-invoice"></a>Fatura oluşturun ve nakledin
-1. Borç hesapları > Faturalar > Fatura kaydı'na gidin.
-2. Yeni'ye tıklayın.
+1. Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura kaydı**'na gidin.
+2. **Yeni**'yi seçin.
 3. Kullanmak istediğiniz fatura kaydının adını seçin.
-4. Listede, seçili satırdaki bağlantıya tıklayın.
-5. Defteri açıp gider satırlarını girmek için Satırlar'a tıklayın.
-6. Bir satıcı seçin. Örneğin, ABD-104'ü girin veya seçin
-7. Fatura alanına bir değer girin.
-8. Tanım alanına bir değer girin.
-9. Alacak alanına bir sayı girin.
-10. Onaylayan alanında, açılır menü düğmesine tıklayarak aramayı açın.
-11. Bir onaylayanı vurgulayın ve o onaylayanı seçmek için Seç'e tıklayın.
-12. Deftere Naklet öğesine tıklayın.
-13. Sayfayı kapatın.
-14. Sayfayı kapatın.
+4. Defteri açıp gider satırlarını girmek için **Satırlar**'ı seçin.
+5. Bir satıcı seçin. Örneğin, `US-104` girin veya seçin
+6. **Fatura** alanına bir değer girin.
+7. **Tanım** alanına bir değer girin.
+8. **Alacak** alanına bir sayı girin.
+9. **Onaylanan** alanında, açılır menüden bir onaylayan belirleyin.
+10. **Naklet**'i seçin.
 
 ## <a name="approve-an-invoice"></a>Fatura onaylayın
-1. Borç hesapları > Faturalar > Fatura onayı'na gidin.
-2. Yeni'ye tıklayın.
+1. Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura onayı**'na gidin.
+2. **Yeni**'yi seçin.
 3. Kullanmak istediğiniz fatura onayı günlüğünün adını seçin.
-4. Listede, seçili satırdaki bağlantıya tıklayın.
-5. Onaylamak istediğiniz faturaları seçebileceğiniz bir sayfayı görüntülemek için Satırlar'a tıklayın.
-6. Onaya hazır olan faturaların tümünü görüntülemek için Fişleri bul'u seçin.
-7. Oluşturduğunuz faturayı işaretleyin.
-8. Seç'e tıklayın.
-    * Yukarıda seçtiğiniz fişler, seçiminizden sonra bu listeye taşınır.  
-9. Tamam'a tıklayın.
-10. Faturaya bir gider hesabı eklemek için Hesap numarası alanına tıklayın.
-11. Hesap numarası girin ve sekme tuşuyla alandan çıkın. Örneğin, 600120 girin.
-12. Deftere Naklet öğesine tıklayın.
-13. Nakledilen girişleri görüntülemek için Fiş'e tıklayın.
-    * Onay Bekleyen Fatura hesabı ters kaydedilir ve yerine gerçek gider hesabı geçirilir.  
+4. Onaylamak istediğiniz faturaları seçebileceğiniz bir sayfayı görüntülemek için **Satırlar**'ı seçin.
+5. Onaya hazır olan faturaların tümünü görüntülemek için **Fişleri bul**'u seçin.
+6. Oluşturduğunuz faturayı işaretleyin ve **Seç**'e tıklayın. Yukarıda seçtiğiniz fişler, seçiminizden sonra bu listeye taşınır.  
+7. **Tamam**'ı seçin.
+8. Faturaya bir gider hesabı eklemek için **Hesap numarası** alanını seçin.
+9. Hesap numarası girin ve sekme tuşuyla alandan çıkın. Örneğin `600120` yazın.
+10. **Naklet**'i seçin.
+11. Nakledilen girişleri görüntülemek için **Fiş**'i seçin. Onay Bekleyen Fatura hesabı ters kaydedilir ve yerine gerçek gider hesabı geçirilir.  
 

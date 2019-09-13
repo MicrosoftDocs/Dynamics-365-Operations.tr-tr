@@ -3,7 +3,7 @@ title: Günlükler için gelişmiş kurallar oluşturma
 description: Bu yordam, günlükler için gelişmiş kurallar oluşturmayı adım adım açıklar.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ec0db1bc5018649acaca05c71a510880b415777
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3eb34ac419aeab3663a8931d022abf7bcbfddd37
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846691"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916171"
 ---
 # <a name="create-advanced-rules-for-journals"></a>Günlükler için gelişmiş kurallar oluşturma
 
@@ -31,30 +31,30 @@ Bu yordam, günlükler için gelişmiş kurallar oluşturmayı adım adım açı
 
 
 ## <a name="set-up-journal-control"></a>Günlük kontrolünü ayarlama
-1. Genel muhasebe > Günlük ayarı > Günlük adları'na gidin.
+1. **Gezinti bölmesinde** **Modüller > Genel muhasebe > Günlük kurulumu > Günlük adları**'na gidin.
 2. Listede, istenen kaydı bulun ve seçin.
-3. Günlük kontrolü'nü tıklatın.
-4. Ekle öğesini tıklatın.
-5. Şirket hesapları alanında, aramayı açmak için açılır menü düğmesini tıklatın.
+3. **Eylem bölmesinde** **Günlük denetimi** öğesine tıklayın.
+4. **Deftere nakledilebilecek hesap türleri** hızlı sekmesinde **Ekle**'ye tıklayın.
+5. **Şirket hesapları** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 6. Listede, istenen kaydı bulun ve seçin.
 7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. Ekle öğesini tıklatın.
-9. Hesap yapısı alanında, aramayı açmak için açılır menü düğmesini tıklatın.
+8. **Bu günlük için geçerli olan segment değerleri** hızlı sekmesinde **Ekle**'ye tıklayın.
+9. **Hesap yapısı** alanında, aramayı açmak için açılır menü düğmesini tıklatın.
 10. Listede, istenen kaydı bulun ve seçin.
 11. Listede, seçili satırdaki bağlantıya tıklayın.
-12. Segment alanında, aramayı açmak için açılır menü düğmesini tıklatın.
+12. **Segment** alanında, aramayı açmak için açılır menü düğmesini tıklatın.
 13. Listede, seçili satırdaki bağlantıya tıklayın.
-14. Başlangıç değeri alanında, aramayı açmak için açılır menü düğmesini tıklatın.
+14. **Başlangıç değeri** alanında, aramayı açmak için açılır menü düğmesini tıklatın.
 15. Listede, istenen kaydı bulun ve seçin.
 16. Listede, seçili satırdaki bağlantıya tıklayın.
-17. Bitiş değeri alanında, aramayı açmak için açılır menü düğmesini tıklatın.
+17. **Bitiş değeri** alanında, aramayı açmak için açılır menü düğmesini tıklatın.
 18. Listede, istenen kaydı bulun ve seçin.
 19. Listede, seçili satırdaki bağlantıya tıklayın.
 
 ## <a name="set-up-posting-restrictions"></a>Nakil kısıtlamalarını ayarlama
 1. Sayfayı kapatın.
-2. Deftere nakil kısıtlamaları'nı tıklatın.
-3. Deftere nakil sınırlamalarını nasıl ayarlamak istiyorsunuz? içinde Kullanıcı grubuna göre'yi seçin.
+2. **Deftere nakil kısıtlamaları**'nı tıklatın.
+3. **Deftere nakil sınırlamalarını nasıl ayarlamak istiyorsunuz?** alanında 'Kullanıcı grubuna göre'yi seçin.
 4. Ağaçta, 'Bu günlük adı için deftere nakile izin vermek istediğiniz grup' öğesini işaretleyin.
-5. Tamam'a tıklayın.
+5. **Tamam**'a tıklayın.
 

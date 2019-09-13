@@ -3,7 +3,7 @@ title: Hesap yapıları oluşturma
 description: Bu görev kılavuzu, hesap yapısı oluşturmayı adım adım açıklar.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2183f88356fc8094781af147bf079c4e53ffb2b4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b100d5da6ec26dc386c0c6cb0793245531eb0d8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846715"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916242"
 ---
 # <a name="create-account-structures"></a>Hesap yapıları oluşturma
 
@@ -29,56 +29,35 @@ ms.locfileid: "1846715"
 
 Bu görev kılavuzu, hesap yapısı oluşturmayı adım adım açıklar. Adımlarda demo veri şirketi USMF kullanılmaktadır.
 
-1. Genel muhasebe > Hesap planı > Yapılar > Hesap yapılarını yapılandır'a gidin.
-2. Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.
-3. Hesap yapısı alanında, hesap yapısının amacını açıklayan bir ad girin.
-4. Açıklama alanında, hesap yapısının amacını belirten bir açıklama girin.
-5. Oluştur'a tıklayın.
-6. Segment ekle öğesini tıklatın.
+1. **Gezinti bölmesi > Modüller > Genel muhasebe > Hesap planı > Yapılar > Hesap yapılarını yapılandır**'a gidin.
+2. **Eylem bölmesi**'nde, bırakma iletişim kutusunu açmak için **Yeni**'yi seçin.
+3. **Hesap yapısı** alanında, hesap yapısının amacını açıklayan bir ad girin.
+4. **Açıklama** alanında, hesap yapısının amacını belirten bir açıklama girin.
+5. **Oluştur**'a tıklayın.
+6. **Segmentler ve izin verilen değerler**'de **Segment ekle**'ye tıklayın.
 7. Boyutlar listesinde, hesap yapısına eklenecek boyutu seçin.
-8. Segment ekle öğesini tıklatın.
-9. Segment ekle öğesini tıklatın.
-10. Boyutlar listesinde, hesap yapısına eklenecek boyutu seçin.
-11. Segment ekle öğesini tıklatın.
-12. Segment ekle öğesini tıklatın.
-13. Boyutlar listesinde, hesap yapısına eklenecek boyutu seçin.
-14. Segment ekle öğesini tıklatın.
-15. Kılavuzda, izin verilen değerleri düzenlemek istediğiniz segmenti seçin.
-    * Örneğin, Ana Hesap'ı tıklatın.  
-16. İşleç alanında, arasında ve içerir gibi bir seçenek belirleyin.
-17. Değer alanına bir değer yazın.
-    * Örneğin, 600000.  
-18. Aracılığıyla alanında bir değer girin.
-    * Örneğin, 699999.  
-19. Uygula düğmesini tıklatın.
-20. Kılavuzda, izin verilen değerleri düzenlemek istediğiniz segmenti seçin.
-    * Örneğin, Departman.  
-21. İşleç alanında, arasında ve içerir gibi bir seçenek belirleyin.
-22. Değer alanına bir değer yazın.
-    * Örneğin, 022.  
-23. Aracılığıyla alanında bir değer girin.
-    * Örneğin, 031.  
-24. Yeni ölçüt ekle öğesini tıklatın.
-25. İşleç alanında, arasında ve içerir gibi bir seçenek belirleyin.
-26. Değer alanına bir değer yazın.
-    * Örneğin, 033.  
-27. Aracılığıyla alanında bir değer girin.
-    * Örneğin, 034.  
-28. Uygula düğmesini tıklatın.
-29. Kılavuzda, izin verilen değerleri düzenlemek istediğiniz segmenti seçin.
-    * Örneğin, Maliyet Merkezi.  
-30. Maliyet Merkezi alanında bir değer girin.
-    * Örneğin, 007..021.  
-31. Ekle öğesini tıklatın.
-32. Ana Hesap alanında bir değer girin.
-    * Örneğin, 600000..699999  
-33. Kılavuzda, izin verilen değerleri düzenlemek istediğiniz segmenti seçin.
-    * Örneğin, Departman.  
-34. Departman alanında bir değer girin.
-    * Örneğin, 032.  
-35. Maliyet Merkezi alanında bir değer girin.
-    * Örneğin, 086.  
-36. Doğrula'ya tıklayın.
-37. Etkinleştir'i tıklatın.
-38. Etkinleştir'i tıklatın.
+8. Listenin sonunda **Segment ekle**'ye tıklayın.
+9. 6-9 arası adımları gerektiği şekilde yineleyin.
+10. **İzin verilen değerler** bölümünde izin verilen değerlerini düzenlemek istediğiniz segmenti seçin.
+    Örneğin, **Ana Hesap** alanına tıklayın.  
+11. **İşleç** alanında, arasında ve içerir gibi bir seçenek belirleyin.
+12. **Değer** alanına bir değer yazın. Örneğin, 600000.  
+13. **Aracılığıyla** alanında bir değer girin. Örneğin, 699999.  
+14. **İzin verilen değer ayrıntıları** bölümünde, **Uygula**'ya tıklayın.
+15. 10-15 arası adımları gerektiği şekilde yineleyin.  
+16. **İzin verilen değer ayrıntıları** bölümünde, **Yeni ölçüt ekle**'ye tıklayın.
+17. İşleç alanında, arasında ve içerir gibi bir seçenek belirleyin.
+18. **Değer** alanına bir değer yazın. Örneğin, 033.  
+19. **Aracılığıyla** alanında bir değer girin. Örneğin, 034.  
+20. **Uygula**'ya tıklayın.
+21. Kılavuzda, izin verilen değerleri düzenlemek istediğiniz segmenti seçin. Örneğin, Maliyet Merkezi.  
+22. **Maliyet Merkezi** alanında bir değer girin. Örneğin, 007..021.  
+23. **Segmentler ve izin verilen değerler**'de **Ekle**'ye tıklayın.
+24. **Ana Hesap** alanında bir değer girin. Örneğin, 600000..699999  
+25. Kılavuzda, izin verilen değerleri düzenlemek istediğiniz segmenti seçin. Örneğin, Departman.  
+26. Departman alanında bir değer girin. Örneğin, 032.  
+27. Maliyet Merkezi alanında bir değer girin. Örneğin, 086.  
+28. **Eylem Bölmesinde**,  **Doğrula** öğesine tıklayın.
+29. **Eylem Bölmesinde** **Etkinleştir** öğesine tıklayın.
+30. **Etkinleştir**'e tıklayın.
 

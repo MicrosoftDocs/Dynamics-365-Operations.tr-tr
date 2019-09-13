@@ -1,9 +1,9 @@
 ---
-title: Veri içe ve dışa aktarma işleri
+title: Veri içe ve dışa aktarma işlerine genel bakış
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 07/19/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: cbd8d305920262ed48c62f13aa86f903a6b16d0a
+ms.sourcegitcommit: e552111e148a80544a3468da60ea0464f02a658d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862916"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "1875332"
 ---
-# <a name="data-import-and-export-jobs"></a>Veri içe ve dışa aktarma işleri
+# <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
@@ -184,7 +184,7 @@ Veri yönetimindeki iş geçmişi temizleme işlevselliği, yürütme geçmişin
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-İşlevselliğe **Veri yönetimi \> İş geçmişi temizleme**'den erişilebilir.
+İşlevler, özellik yönetiminde etkinleştirildikten sonra işlevlere **Veri yönetimi \> İş geçmişi temizleme**'den erişilebilir.
 
 ### <a name="scheduling-parameters"></a>Parametreleri zamanlama
 

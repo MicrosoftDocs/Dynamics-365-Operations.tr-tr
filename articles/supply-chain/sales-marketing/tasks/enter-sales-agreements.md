@@ -1,9 +1,9 @@
 ---
 title: Satış sözleşmelerini girme
-description: Bu yöntem, müşterilerinizden birini üzerinde anlaşılan belirli bir zaman zarfı içinde ürün satın alması karşılığında özel indirimlere hak kazanmasını sağlayacak bir satış anlaşmasını nasıl yaratacağınızı gösterir.
+description: Bu konu, müşterilerinizden birini üzerinde anlaşılan belirli bir zaman zarfı içinde ürün satın alması karşılığında özel indirimlere hak kazanmasını sağlayacak bir satış sözleşmesini nasıl yaratacağınızı açıklar.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,53 +17,43 @@ ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c415faaf68fda677f08305dce0ed3f2ed32ee050
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7699f426c102b4ae2610db0851ddd127e514b652
+ms.sourcegitcommit: 6545bef4584d72dd7789f2d3935cf00ac8f489b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834112"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1871041"
 ---
 # <a name="enter-sales-agreements"></a>Satış sözleşmelerini girme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yöntem, müşterilerinizden birini üzerinde anlaşılan belirli bir zaman zarfı içinde ürün satın alması karşılığında özel indirimlere hak kazanmasını sağlayacak bir satış anlaşmasını nasıl yaratacağınızı gösterir. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.
+Bu konu, müşterilerinizden birini üzerinde anlaşılan belirli bir zaman zarfı içinde ürün satın alması karşılığında özel indirimlere hak kazanmasını sağlayacak bir satış sözleşmesini nasıl yaratacağınızı açıklar. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.
 
 
 ## <a name="set-up-sales-agreement-header"></a>Satış sözleşmesi üstbilgisi ayarla
-1. Sales and marketing > Sales agreements > Sales agreements (Satış ve pazarlama > Satış anlaşmaları > Satış anlaşmaları) menüsüne gidin
-2. Yeni'ye tıklayın.
-3. Müşteri hesabı alanında, açılır menü düğmesine tıklayarak açılır menü düğmesine tıklayın.
-4. Listede, istenen kaydı bulun ve seçin.
-5. Listede, seçili satırdaki bağlantıya tıklayın.
-6. Satış sözleşmeleri sınıflandırması alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. Genel bölümünü genişletin.
-9. 'Ürün değeri taahhüdü' seçeneğini varsayılan taahhüt alanında seçin.
-    * Bağlılık türü, anlaşma sözleşmesinin nasıl karşılanacağını tanımlamak için anlaşmaya atanması zorunlu bir ölçüttür. Önceden tanımlanmış bu dört tür, müşteri bağlılık hedefini, bir miktar veya değer olarak ifade edilecek şekilde ayarlamanıza olanak sağlar. Miktar bağlılık türü belirli yalnızca belirli bir ürüne uygulanabilir, ancak değer temelindeki türler belirli ve belirsiz ürünlerin satışında uygulanabilir.  
-10. Sona erme tarihi alanında, Anlaşma süresinin dolmasını istediğiniz ileri bir tarihe ayarlayın.
-11. Tamam'a tıklayın.
+1. Gezinti bölmesinde **Modüller > Satış ve pazarlama > Satış sözleşmeleri > Satış sözleşmeleri**'ne gidin.
+2. **Yeni**'yi seçin.
+3. **Müşteri numarası** alanında, açılır menüden istediğiniz kaydı seçin.
+4. **Satış sözleşmesi sınıflandırması** alanında, açılır menüden istediğiniz kaydı seçin.
+5. **Genel** bölümünü genişletin.
+6. **Varsayılan taahhüt** alanında **Ürün değeri taahhüdü** seçeneğini seçin. Bağlılık türü, anlaşma sözleşmesinin nasıl karşılanacağını tanımlamak için anlaşmaya atanması zorunlu bir ölçüttür. Önceden tanımlanmış bu dört tür, müşteri bağlılık hedefini, bir miktar veya değer olarak ifade edilecek şekilde ayarlamanıza olanak sağlar. Miktar bağlılık türü belirli yalnızca belirli bir ürüne uygulanabilir, ancak değer temelindeki türler belirli ve belirsiz ürünlerin satışında uygulanabilir.  
+7. **Bitiş tarihi** alanında, sözleşme süresinin dolmasını istediğiniz ileri bir tarihe ayarlayın.
+8. **Tamam**'ı seçin.
 
 ## <a name="set-up-product-value-commitment-lines"></a>Ürün değeri taahhüt satırları ayarla
-1. Satır ekle'ye tıklayın.
-2. Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.
-3. Listede, istenen kaydı bulun ve seçin.
-4. Listede, seçili satırdaki bağlantıya tıklayın.
-    * Anlaşma için seçmiş olduğunuz bağlılık türü, anlaşmanın satırlarına girebileceğiniz bilginin türünü etkiler. Örneğin, değer temelli bir anlaşmada, müşterinin sizden satın alma taahhüdünde bulunduğu malların toplam net tutarını (anlaşılmış olan para biriminde) belirtmeniz gerekir. Bu örnekte, satırdaki Miktar ve Birim alanları, müşterinin anlaşmada belirli bir değerdeki ürünü satın alması üzerine oluşturmakta olduğunuz için kullanılamaz.   
-5. Net tutar alanında, müşterinin satın alma taahhüdünde bulunduğu parasal tutarı girin.
-6. İskonto yüzdesi alanında müşterinin bu anlaşmaya bağlı satış siparişi satırlarında geçerli olacak bir yüzdelik değer girin.
-7. Satır ayrıntıları bölümünü genişletin.
-8. Maksimum zorunlu alanda Evet'i seçin.
-    * Maksimum'un Zorlanması seçimi, taahhüdün tüm satış emri satırlarının toplam tutarının taahhüdün özel fiyatlarının, iskontolarının ve/veya ödeme şartlarının, taahhüt üzerinde belirtilen tutarı aşmaması gerektiği anlamına gelir.  
-    * Minimum ve maksimum satış tutarları, seçilen anlaşmayı kullanan her satış emrinde satılması gereken değerlerin aralığını belirler.   
-9. Satış sözleşmesi üstbilgi bölümünü genişletin.
-    * Sözleşmenin durumu Etkili'ye ayarlanmadığı sürece satış emirleri, anlaşma ile ilişkili olamaz ve dolayısıyla bu sözleşmenin yerine getirilmesinde katkıda bulunamaz. Bu aşamada durumu manüel olarak değiştirebilirsiniz. Fakat durum genellikle, anlaşmayı müşteri için onaylamakta olduğunuzda değiştirilir.  
-10. Eylem Bölmesinde, Satış anlaşması'nı tıklatın.
-11. Onay'a tıklayın
-    * Anlaşmanın etkin olması seçeneğinin Evet olarak ayarlandığından emin olun.  
-12. Baskı rapor alanında Evet'i seçin.
-13. Tamam'a tıklayın.
-14. Sayfayı kapatın.
-    * Anlaşma şimdi etkindir ve müşterinin siparişlerini, taahhüt edilen hedefe göre mahsup etmek için anlaşmaya bağlamaya başlayabilirsiniz.  
+1. **Satır ekle**'yi seçin.
+2. **Madde numarası** alanında, açılır menüden istediğiniz kaydı seçin. Anlaşma için seçmiş olduğunuz bağlılık türü, anlaşmanın satırlarına girebileceğiniz bilginin türünü etkiler. Örneğin, değer temelli bir anlaşmada, müşterinin sizden satın alma taahhüdünde bulunduğu malların toplam net tutarını (anlaşılmış olan para biriminde) belirtmeniz gerekir. Bu örnekte, satırdaki **Miktar** ve **Birim** alanları, müşterinin sözleşmede belirli bir değerdeki ürünü satın alması üzerine oluşturmakta olduğunuz için kullanılamaz.   
+3. **Net tutar** alanında, müşterinin satın alma taahhüdünde bulunduğu parasal tutarı girin.
+4. **İskonto yüzdesi** alanında müşterinin bu sözleşmeye bağlı satış siparişi satırlarında geçerli olacak bir yüzdelik değer girin.
+5. **Satır ayrıntıları** bölümünü genişletin.
+6. **Maksimum zorunlu** alanında **Evet** seçeneğini seçin.
+    - **Maksimum zorunlu** seçimi, taahhüdün tüm satış emri satırlarının toplam tutarının taahhüdün özel fiyatlarının, iskontolarının ve/veya ödeme şartlarının, taahhüt üzerinde belirtilen tutarı aşmaması gerektiği anlamına gelir.  
+    - Minimum ve maksimum satış tutarları, seçilen anlaşmayı kullanan her satış emrinde satılması gereken değerlerin aralığını belirler.   
+7. **Satış sözleşmesi başlığı** bölümünü genişletin. Sözleşmenin durumu **Yürürlükte** olarak ayarlanmadığı sürece, satış siparişleri sözleşme ile ilişkilendirilemez ve dolayısıyla o anlaşmanın yerine getirilmesine katkıda bulunamaz. Bu aşamada durumu manüel olarak değiştirebilirsiniz. Fakat durum genellikle, anlaşmayı müşteri için onaylamakta olduğunuzda değiştirilir.  
+8. Eylem Bölmesinde, **Satış sözleşmesi** öğesine tıklayın.
+9. **Onay**'ı seçin. **Sözleşmeyi yürürlükte olarak işaretle** seçeneğinin **Evet** olarak ayarlandığına emin olun.  
+10. **Raporu yazdır** alanında **Evet** seçeneğini seçin.
+11. **Tamam**'ı seçin.
+12. Sayfayı kapatın. Sözleşme şimdi etkindir. Müşterinin siparişlerini, taahhüt edilen hedefe göre mahsup etmek için sözleşmeye bağlamaya başlayabilirsiniz.  
 

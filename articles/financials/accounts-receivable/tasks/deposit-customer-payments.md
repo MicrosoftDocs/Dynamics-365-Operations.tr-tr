@@ -3,7 +3,7 @@ title: Müşteri ödemelerini havale etme
 description: Müşteri ödemelerini havale edin.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: afbf74d1cf3dc87e97dda0873115b5c7fa49ca3d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 595d1b609ae83af8f1581caeff9ef7d3892a6207
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834475"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867786"
 ---
 # <a name="deposit-customer-payments"></a>Müşteri ödemelerini havale etme
 
@@ -29,29 +29,22 @@ ms.locfileid: "1834475"
 
 Müşteri ödemelerini havale edin. Bu görevde USMF demo şirketi kullanılmaktadır.
 
-1. Alacak hesapları > Ödemeler > Ödeme günlüğü'ne gidin.
-2. Yeni'ye tıklayın.
-3. Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.
-4. Ödeme günlüğünü seçin. 
-5. Satırlar seçeneğini tıklatın.
-6. Hesap alanında, bir ödemesini kaydettiğiniz Müşteriyi seçin.
-7. Alacak alanına, ödeme tutarını girin.
-    * Tutarı boş bırakmayı ve ödenen faturaları seçerek hesaplamayı sistemin yapmasını tercih edebilirsiniz.  
-8. Ödeme referansı alanına bir değer girin.
-    * Ödeme referansı, girmekte olduğunuz ödemenin çek numarası olabilir. Ödemenin havale makbuzuna eklenmesi için ödeme referansı gereklidir.  
-9. Depozito makbuzu kullan kutusunu işaretleyin.
-    * Ödeme depozitoya eklenecekse bu ayarı değiştirip Evet yapın.  
-10. Yeni'ye tıklayın.
-11. Hesap alanında, sonraki ödemenin Müşterisini seçin.
-12. Alacak alanına, ödeme tutarını girin.
-13. Ödeme referansı alanına bir değer girin.
-14. Depozito makbuzu kullan kutusunu işaretleyin.
-15. Deftere Naklet öğesine tıklayın.
-    * Havale makbuzu oluşturulabilmesi için ödemelerin deftere nakledilmesi gerekir. Bu, havale makbuzu oluşturulduktan sonra ödemelerin değiştirilmediğinden emin olmak için yapılır.  
-16. İşlevler'i tıklatın.
-17. Havale makbuzu'na tıklayın.
-18. Tamam'a tıklayın.
-    * Havale makbuzu oluşturmak için ilk sayfa kullanılır.  
-19. Tamam'a tıklayın.
-    * İkinci adım havale makbuzunu yazdırmaktır, ancak bu adım zorunlu değildir.  
+1. **Gezinti bölmesi Modüller > Alacak hesapları > Ödemeler > Ödeme günlüğü**'ne gidin.
+2. **Yeni**'yi seçin.
+3. **Ad** alanında, açılan menüden **CustPay**'yi seçin.
+4. **Satırlar**'ı seçin.
+5. **Hesap** alanında, bir ödemesini kaydettiğiniz müşteriyi seçin.
+6. **Alacak** alanına, ödeme tutarını girin. Tutarı boş bırakmayı ve ödenen faturaları seçerek hesaplamayı sistemin yapmasını tercih edebilirsiniz.  
+7. **Ödeme referansı** alanına bir değer girin. Ödeme referansı, girmekte olduğunuz ödemenin çek numarası olabilir. Ödemenin havale makbuzuna eklenmesi için ödeme referansı gereklidir.  
+8. Depozito makbuzu kullan kutusunu işaretleyin. Ödeme depozitoya eklenecekse bu ayarı değiştirip Evet yapın.  
+9. **Yeni**'yi seçin.
+10. **Hesap** alanında, sonraki ödemenin müşterisini seçin.
+11. **Alacak** alanına, ödeme tutarını girin.
+12. **Ödeme referansı** alanına bir değer girin.
+13. **Depozito makbuzu kullan** kutusunu işaretleyin.
+14. **Naklet**'i seçin. Havale makbuzu oluşturulabilmesi için ödemelerin deftere nakledilmesi gerekir. Bu, havale makbuzu oluşturulduktan sonra ödemelerin değiştirilmediğinden emin olmak için yapılır.  
+15. **İşlevler**'i seçin.
+16. **Havale makbuzu**'nu seçin.
+17. **Tamam**'ı seçin. Havale makbuzu oluşturmak için ilk sayfa kullanılır.  
+18. **Tamam**'ı seçin. İkinci adım havale makbuzunu yazdırmaktır, ancak bu adım zorunlu değildir.  
 
