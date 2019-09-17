@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617355"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742737"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Dynamics 365 for Talent ile Dynamics 365 for Finance and Operations tümleştirmesi SSS
 
@@ -38,7 +38,7 @@ Attract ve Onboard için tüm veri Common Data Service için yereldir.
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Yeni bir eşlemeyi şablonları kullanmadan oluşturabilir miyim?
 
-Şablonları, başlangıç noktasıdır. Kendi şablonunuzu oluşturabilirsiniz, ancak şablon bir tümleştirme projesi oluşturma sırasında her zaman gereklidir. Veri tümleştirme (DI) şablonları ve projeleri hakkında daha fazla bilgi için bkz. [Common Data Service için veri tümleştirme](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+Şablonları, başlangıç noktasıdır. Kendi şablonunuzu oluşturabilirsiniz, ancak şablon bir tümleştirme projesi oluşturma sırasında her zaman gereklidir. Veri tümleştirme (DI) şablonları ve projeleri hakkında daha fazla bilgi için bkz. [Common Data Service için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Talent ve Finance and Operations arasında aktarmak için finansal boyutlar eşleyebilir miyim?
 
@@ -133,7 +133,7 @@ Finance and Operations tümleştirmesi iki adımlı bir işlemdir. Öncelikle, T
 
 Veri Common Data Service'te beklendiği gibi görüntülenmiyorsa, varlığın tümleştirme ile desteklendiğinden emin olun. Common Data Service içine ek veri dahil etmek için Microsoft tarafından bir değişiklik gerekir.
 
-Varlık destekleniyorsa ve veri Common Data Service içinde kullanılabilirse, Veri Tümleştiricisi içinde eşleştirmenin doğru olduğunu doğrulayın. Tümleştirme eşleştirmesi doğru gözüküyorsa, veri yönetimi işlerini başarıyla çalıştırıldığını doğrulayın. Toplu işlerin yürütülmesinde hatalar ortaya çıkabilir. Veri Yönetimi hakkında daha fazla bilgi için bkz. [Veri yönetimi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Varlık destekleniyorsa ve veri Common Data Service içinde kullanılabilirse, Veri Tümleştiricisi içinde eşleştirmenin doğru olduğunu doğrulayın. Tümleştirme eşleştirmesi doğru gözüküyorsa, veri yönetimi işlerini başarıyla çalıştırıldığını doğrulayın. Toplu işlerin yürütülmesinde hatalar ortaya çıkabilir. Veri Yönetimi hakkında daha fazla bilgi için bkz. [Veri yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Çalışanlarımın adresleri onları Finance and Operations'a aktardıktan sonra doğru değil. Ne yapmalıyım?
 
@@ -145,7 +145,7 @@ Talent tümleştirmesi sırasında, numara serilerinin Talent ve Finance and Ope
 
 Bağlantılarınızı oluştururken Dynamics 365 for Finance and Operations (şu anda önizlemede) ve Common Data Service seçtiğinizden emin olun.
 
-## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Çalışmaları eşitlerken “CompanyInfo_FK mevcut değil" veya “Değer 12/31/2154 11:59:59 pm', 'Çalışma sonlanma tarihi' ilgili 'Çalışma' tablosunda bulunamadı.” hatasını alıyorum. Ne yapmalıyım?
+## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Çalışmaları eşitlerken “CompanyInfo_FK mevcut değil" veya “Değer 12/31/2154 11:59:59 pm', 'Çalışma sonlanma tarihi' ilgili 'Çalışma' tablosunda bulunamadı.” hatasını alıyorum. Ne yapmalıyım?
 
 Doğru tüzel varlıkları eşlediğinizden emin olun. Tüzel varlık eşitleme, varsayılan şablonun parçası değildir, bu nedenle Talent ve Common Data Service bulunan her bir tüzel varlığın Finance and Operations'ta da mevcut olması beklenir.
 İlişkili Bağlantı Kümesi için doğru tüzel varlıkları seçtiğinizden emin olun.
@@ -160,12 +160,12 @@ Finance and Operations içinde veri varlıklarını **Veri yönetimi \> Çerçev
 
 - Veri Tümleştirici (DI): 
 
-  - [Veriyi Common Data Service içine tümleştir](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [Veriyi Common Data Service içine tümleştir](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
-  - [Veri Tümleştirici hata yönetimi ve sorun giderme](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
+  - [Veri Tümleştirici hata yönetimi ve sorun giderme](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [PowerApps, Microsoft Flow ve Common Data Service içinde sistem tarafından oluşturulan DSR taleplerine yanıt vermek](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [PowerApps, Microsoft Flow ve Common Data Service içinde sistem tarafından oluşturulan DSR taleplerine yanıt vermek](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Veri Yönetimi:
 
-  - [Veri yönetimi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Veri yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)

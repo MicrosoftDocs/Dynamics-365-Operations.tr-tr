@@ -1,9 +1,9 @@
 ---
-title: Etkileyici bir onboarding deneyimi oluşturmak
-description: Onboarding doğru yapıldığında, yeni çalışanlarda yeni kuruluşlarına ait oldukları hissini oluşturur.
+title: Onboard kullanmaya başlama
+description: Bu konu Microsoft Dynamics 365 for Talent - Onboard ile başlamakta yardımcı olacaktır. Onboard, yeni işe başlayanlarınızın, onları işe alma sürecinde sorunsuz bir şekilde götüren bir rehber vererek güçlü bir başlangıç yapmalarına yardımcı olur.
 author: andreabichsel
 manager: ''
-ms.date: 11/14/2017
+ms.date: 06/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -16,77 +16,36 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 805f74a0cf618254b7d5fb9a1195dc75832dc0ca
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6526f320be7d18af92406149633b3e15d0be2291
+ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519273"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1731225"
 ---
-# <a name="create-an-engaging-onboarding-experience"></a>Etkileyici bir onboarding deneyimi oluşturmak
+# <a name="get-started-with-onboard"></a>Onboard kullanmaya başlama
 
 [!include [banner](includes/banner.md)]
 
-Etkili şekilde yapıldığında, onboarding yeni çalışanların daha etkili çalışmalarına yardımcı olurken aynı zamanda yeni rollerine aidiyet hissi oluşturur. Onboarding, yeni çalışanların yeni rollerini daha hızlı ve doğru anlamalarına yardımcı olur ve başarılı olmalarına yardımcı olacak ilişkiler kurmalarında önayak olur. Alternatif olarak verimsiz bir onboarding deneyimi, çalışanın kuruluşunuza katılma kararını sorgulamasına neden olabilir. Gartner tarafından 2014 yılında gerçekleştirilen bir araştırma, 1.005 yanıtlayandan işi ilk altı ayda bırakan neredeyse üçte birinin, liderlik tarafından verilen rehberliğin yetersiz olmasından, eğitim etkili olmamasından veya yeni ortamlarında etkili ilişkiler kuramamış olmalarından kaynaklandığını ortaya koymuştur.
+Microsoft Dynamics 365 for Talent: Onboard'u kullanarak, yeni çalışanlarınızın daha etkili performans göstermesine ve yeni rollerinde aidiyet duygusu kazanmasına yardımcı olabilirsiniz. Etkili bir işe alım süreci, yeni işe yeni rolleri anlamalarına yardımcı olur. Aynı zamanda onlara başarılarını sağlamaya yardımcı olacak değerli ilişkiler kurmada bir başlangıç sağlar.
 
-## <a name="have-an-onboarding-program-in-place"></a>Bir onboarding programı oluşturun
-Onboarding sürecini nasıl ve nerede iyileştirebileceğinizi anlamanız önemlidir. Aşağıdaki sorular, onboarding sürecinizi sistemli bir şekilde analiz etmenize ve iyileştirmenize yardımcı olabilir.
+Onboard, yeni işe aldığınız çalışanları ağırlayacak ve onları kuruluşunuza katılma konusunda heyecanlandıracak bir işe alım kılavuzu oluşturmanıza olanak tanır.
 
-- Yıpranma oranınız nedir?
-- Yeni çalışanlar, gerekli tüm onboarding görevlerini tamamlıyorlar mı?
-- Yeni bir çalışanın işe alışması ne kadar sürüyor?
-- Yeni çalışanlar memnuniyetlerini nasıl derecelendiriyor?
+[![İşe alım kılavuzu](./media/onboard-onboarding-guide.png)](./media/onboard-onboarding-guide.png)
 
-Onboarding için çalışanınızın ilk gününü beklemeyin. Onboarding, yeni çalışanınız bir işe başlama tarihine sahip olduğunda başlamalıdır. Bu genellikle onboarding öncesi veya "pre-boarding" olarak adlandırılır. Bu, yeni işe alınanları şirketinizde çalışmaya, ilişkiler kurmaya ve şirketinizin kültürünü ve değerlerini benimsemeye teşivkt etme şansınızdır.
+Onboard uygulamasını nasıl alacağınızı ve kullanacağınızı öğrenmek için aşağıdaki konulara bakın:
 
-Onboarding öncesinin en önemli etkinliklerinden biri yeni çalışanı işteki ilk gününe hazırlamaktır. Bu onlar için gergin bir zaman olabilir. İlk günleri için bir yapılacak iş listesi ve gündem oluşturarak stresi azaltın.
+- [Onboard uygulamasını edinme](./onboard-get-app.md)
+- [İşe alım süreci rehberi oluşturma](./onboard-create-guide.md)
+- [İşe alım süreci şablonu oluşturma](./onboard-create-template.md)
+- [İşe alım kılavuzları ve şablonları düzenleme](./onboard-edit-guides-templates.md)
+- [İçeriği diğer katkıda bulunanlarla paylaşın](./onboard-share-template.md)
+- [Görevlerin ve işe alınan çalışanların durumunu görüntüleme](./onboard-view-status.md)
+- [Onboard'da işe alma ekipleri oluşturun](./onboard-create-team.md)
 
-### <a name="what-to-include-in-a-checklist"></a>İş listesine dahil edilecekler
+## <a name="see-also"></a>Ayrıca bkz.
 
-- Neler getirmesi gerektiği, örneğin fotoğraflı kimlik veya banka bilgisi gibi.
-- Varsa, şirketinizin giyim kuralları.
-- Ofisinizin yer tarifi.
-- İlgili kişi veya daha da iyisi, işe alma arkadaşının adı.
-- Okuması gereken el kitapları veya ilkeler.
-
-**Prim**
-
-- Onlara bir tişört veya kupa gibi şirket eşantiyonu gönderin.
-- Şirketten onlara hoş geldin diyen video mesajlar gönderin.
-- CEO veya başka bir yöneticiden kişiselleştirilmiş bir merhaba ekleyin.
-- İlk günlerini özel hale getirin.
-
-İlk gün olumsuz bir iz bırakarak yeni işe başlayanın şirketinize katılma kararını sorgulamasına sebep olmayın.
-
-## <a name="create-a-good-first-impression"></a>İyi bir ilk izlenim oluşturun
-
-İlk gün için bir gündem oluşturun ve yeni işe başlayan ile paylaşın. Yalnızca oryantasyona odaklanmayın. Eğlendiğinizden emin olun, onu insanlar ile tanıştırın ve ofisi gösterin. Diğer çalışanları haberdar edin. Yeni birinin şirkete katıldığından onları haberdar edin. IT, muhasebe diğer yönetim departmanlarındaki kişileri dışarıda bırakmayın. Yeni işe başlayanların ihtiyaç duydukları her şeye sahip olduklarından emin olun. Buna çalışma alanı bilgisayarı ve gerekli kimlik bilgileri, yazılım ve araçlar dahildir. Dokümantasyon yerine ilişkilere odaklanın.
-
-İlişkiler, yeni çalışanları işe alıştırmak için önemlidir. Daha da önemlisi, bunlar şirketiniz içinde bir topluluk ve aidiyet hissi oluşturmaya yardımcı olur.
-
-- Şirketinizde bir uzman veya şampiyonu bulun ve onu onboarding badisi yapın.
-- Yeni işe başlayanı işle ilgili topluluklar veya ilgi grupları ile bağlayın. Bu, koçlar veya mentorlar bulmak için harika bir yoldur.
-- İletişimi hızlandırmak için takım üyesi profillerini (ideal olarak önceden), bilgi paylaşımını ve ağ oluşturmayı paylaşın.
-- Çalışanınızın kişisel hedefleri ile hizalanan sosyal topluluklar veya etkinlikleri unutmayın.
-
-## <a name="provide-training"></a>Eğitim verin
-
-Yeni çalışanınıza başarılı olmaları için gerek duydukları araçları ve özgüveni sağlayın. Bu, sorumluluklarını ve bunları nasıl başaracakları konusunda beklentilerinizi açıkça belirleyerek başlar. Daha sonra, beklentinizi karşılamak için sahip olmaları gereken yeteneklere odaklanan bir eğitim planı oluşturun. Yalnızca uyumluluk tabanlı eğitime odaklanmayın.
-
-## <a name="set-clear-milestones"></a>Net kilometre taşları belirleyin
-
-Siz ve yeni çalışanınız arasında açık denetim noktaları ve geribildirim döngüleri ayarlayın. Müdahale etme ve rota düzeltme için mümkün olduğunca fazla fırsat oluşturun. Sorun haline gelmeden veya daha da kötüsü yıpranma oluşturmadan sıkıntıları belirlemek istersiniz.
-
-İlk haftası bitmeden önce yeni başlayan ile birebir toplantı ayarlayın. Bu, beklentileri, çalışma stillerini ve kariyer büyümesini tartışmak için harika bir fırsattır.
-
-En yeni takım üyeleriniz için 30, 60 ve 90 günlük hedefler belirleyin. Hedefler belirlendiğinde, onun bu hedefler doğrultusunda nasıl ilerleme kaydettiğini düzenli denetlediğinizden emin olun.
-
-## <a name="measure-and-optimize"></a>Ölçün ve optimize edin
-
-Yeni bir onboarding programı başlattığınızda, aşağıdaki sorulara dikkat edin. 
-
-- Yıpranmayı iyileştiriyor musunuz?
-- Yeni işe başlayanlar arasında memnuniyet artıyor mu? 
-
-Bu ayrıntıları ölçün ve her yeni işe başlayan ile küçük iyileştirmeler yapın.
-
+- [Onboard uygulamasını deneyin veya satın alın](https://dynamics.microsoft.com/talent/onboard/)
+- [Yenilikler](./whats-new.md)
+- [Sürüm notları](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Destek alma](./talent-support.md)

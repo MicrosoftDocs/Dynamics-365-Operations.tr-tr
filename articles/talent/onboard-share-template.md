@@ -1,0 +1,73 @@
+---
+title: İçeriği Dynamics 365 for Talent - Onboard'da diğer katkıda bulunanlarla paylaşın
+description: Bu konular, Microsoft Dynamics 365 for Talent - Onboard uygulamasındaki diğer katkıda bulunanlarla işe alım kılavuzları ve şablonlarının nasıl paylaşılabildiğini açıklar.
+author: andreabichsel
+manager: ''
+ms.date: 05/20/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Talent
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2019-05-06
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: 8524f9ec502bed829522ab90c7c7976c2814a1b6
+ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1731673"
+---
+# <a name="share-content-with-other-contributors-in-dynamics-365-for-talent-onboard"></a>İçeriği Dynamics 365 for Talent: Onboard'da diğer katkıda bulunanlarla paylaşın
+
+[!include [banner](includes/banner.md)]
+
+Microsoft Dynamics 365 for Talent: Onboard, belgeleri gözden geçirebilmeleri ve değişiklik yapabilmeleri için yerleşik kılavuzları ve şablonları diğer katkıda bulunanlarla paylaşmanızı sağlar.
+
+## <a name="share-an-onboarding-guide-with-other-contributors"></a>İşe alım kılavuzunu diğer katkıda bulunanlarla paylaşın
+
+1. Sol menüde **Kılavuzlar**'ı seçin ve ardından paylaşmak istediğiniz kılavuzu seçin.
+2. **Diğer** düğmesini (üç dikey nokta) sayfanın sağ üst köşesinde seçin ve sonra **Paylaş**'ı seçin.
+
+    ![[Bir işe alım kılavuzunu diğer katılımcılarla paylaşma](./media/onboard-share-guide.png)](./media/onboard-share-guide.png)
+
+3. **Şununla paylaş** altında alıcılar kılavuzu gözden geçirebilmeliyse, **Bu kişiler düzenleyebilir mi?** seçeneği **Açık** olarak ayarlayın. Alıcılar, kılavuzu onlarla paylaştığınız e-posta yoluyla bildirilirse, **alıcılara e-posta gönder bildirimini** **Aç**'a ayarlayın.
+
+    ![[Bir işe alım kılavuzu için erişim ve e-posta tercihlerini ayarlama](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
+
+4. Bir ad veya e-posta adresi girin ve açılan listede istenen alıcıyı seçin.
+5. **ErişimiYönet** sekmesinde, alıcıların kılavuzla yapabileceklerini gözden geçirebilir veya değiştirebilirsiniz. Alıcının erişimini değiştirmek için, alıcının adının yanındaki açılır listede, uygun olarak**Görüntüleyebilir**, **Düzenleyebilir** veya **Kaldır**'ı seçin.
+6. Alıcı eklemeyi veya değiştirmeyi bitirdikten sonra **Güncelleştir**'i seçin.
+
+## <a name="share-an-onboarding-template-with-other-contributors"></a>İşe alım şablonunu diğer katkıda bulunanlarla paylaşın
+
+1. Sol menüde **Şablonlar**'ı seçin.
+2. **Şablonlarımın**altında, **Daha Fazla** düğmesini seçin (üç nokta \[**...**\]) paylaşmak istediğiniz şablonun sağ üst köşesinde ve ardından **Paylaş'ı** seçin.
+
+    [![İşe alım şablonunu diğer katkıda bulunanlarla paylaşma](./media/onboard-share-template.png)](./media/onboard-share-template.png)
+
+3. **Alıcı** altında alıcılar şablonu gözden geçirebilmeliyse, **Bu kişiler düzenleyebilir mi?** seçeneği **Açık** olarak ayarlayın. Alıcılar, şablonu onlarla paylaştığınız e-posta yoluyla bildirilirse, **alıcılara e-posta gönder bildirimini** **Aç**'a ayarlayın.
+
+    [!Şablon için erişim ve e-posta tercihlerini ayarlama](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
+
+4. Bir ad veya e-posta adresi girin ve açılan listede istenen alıcıyı seçin.
+5. **Erişimi Yönet** sekmesinde, alıcıların şablonla yapabileceklerini gözden geçirebilir veya değiştirebilirsiniz. Alıcının erişimini değiştirmek için, alıcının adının yanındaki açılır listede, uygun olarak**Görüntüleyebilir**, **Düzenleyebilir** veya **Kaldır**'ı seçin.
+6. Alıcı eklemeyi veya değiştirmeyi bitirdikten sonra **Güncelleştir**'i seçin.
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+- [İçeriği diğer katkıda bulunanlarla paylaşın](./onboard-share-template.md)
+- [Görevlerin ve işe alınan çalışanların durumunu görüntüleme](./onboard-view-status.md)
+- [Onboard'da işe alma ekipleri oluşturun](./onboard-create-team.md)
+
+### <a name="see-also"></a>Ayrıca bkz.
+
+- [Onboard uygulamasını deneyin veya satın alın](https://dynamics.microsoft.com/talent/onboard/)
+- [Yenilikler](./whats-new.md)
+- [Sürüm notları](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Destek alma](./talent-support.md)

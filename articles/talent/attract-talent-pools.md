@@ -1,6 +1,6 @@
 ---
-title: Beceri havuzlarını kullanarak aday kaynağı bulma
-description: Bu konu Attract'ta beceri havuzları oluşturma ve ayarlamayı açıklar.
+title: Microsoft Dynamics 365 for Talent - Attract'ta yetenek havuzlarıyla aday kaynağı bulma
+description: Bu konu Microsoft Dynamics 365 for Talent - Attract'ta beceri havuzları oluşturma ve ayarlamayı açıklar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711306"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741879"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>Beceri havuzlarını kullanarak aday kaynağı bulma
+# <a name="source-candidates-with-talent-pools"></a>Yetenek havuzlarıyla aday kaynağı bulma
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ Beceri havuzu sahibi ve katkıda bulunanları beceri havuzuna adaylar ekler, ada
 ## <a name="search-and-view-candidate-profiles"></a>Aday profilleri arama ve görüntüleme
 
 > [!NOTE] 
-> Bu özellik şu anda önizlemededir. Denemek isterseniz, [Attract yönetici ayarlarında açmanız gerekir](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> Bu özellik şu anda önizlemededir. Denemek isterseniz, [Attract yönetici ayarlarında açmanız gerekir](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). 
 
 Yetenek havuzu, bir adayın profilini, LinkedIn bilgisini, ilgili belgeleri ve başvuru geçmişini görüntülemenize olanak sağlar. Herhangi bir yetenek havuzuna eklenmiş tüm adayların tüm veritabanını arayabilirsiniz, kapalı ve aktif başvuranlar dahil olmak üzere.
 
@@ -116,7 +116,7 @@ Tüm kullanıcılarda, aday profillerinin aynı görünümü vardır. **Profil**
 
     Bir belgeyi görüntülemek için belgeler listesinde belge adını seçin. Microsoft Word belgelerini uygulama içinde Microsoft Office 365 kullanarak görüntüleyebilirsiniz. Yerel bilgisayarınıza belgeleri yükleyebilirsiniz; her belge için **İndir** seçeneğini kullanın.
 
-- **LinkedIn** sekmesi adayın LinkedIn bilgileri gösterir. Bu sekmeyi kullanmak için kullanıcı ayarlarından LinkedIn hesabınıza bağlanın ve kendi ortamınızda LinkedIn Recruiter bağlantısını kurun. Daha fazla bilgi için bkz [LinkedIn Recruiter'te kaynak bulma](./attract-linked-in-recruiter.md).
+- **LinkedIn** sekmesi adayın LinkedIn bilgileri gösterir. Bu sekmeyi kullanmak için kullanıcı ayarlarından LinkedIn hesabınıza bağlanın ve kendi ortamınızda LinkedIn Recruiter bağlantısını kurun. Daha fazla bilgi için bkz [LinkedIn Recruiter'te kaynak bulma](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Yalnızca adaylar yeteneklerini, eğitim geçmişlerini ve iş deneyimlerini güncelleştirebilir.

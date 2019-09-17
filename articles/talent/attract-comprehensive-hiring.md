@@ -1,5 +1,5 @@
 ---
-title: Attract'ın hangi sürümü
+title: Microsoft Dynamics 365 for Talent - Attract'in hangi sürümü?
 description: Bu konu, Microsoft Dynamics 365 for Talent - Attract'ın farklı sürümlerindeki yeterlilikler hakkında bilgi sağlar.
 author: andreabichsel
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b061233239fcaee768579cde9d1015ebbeaa66cb
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519352"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739735"
 ---
 # <a name="which-version-of-attract"></a>Attract'ın hangi sürümü?
 

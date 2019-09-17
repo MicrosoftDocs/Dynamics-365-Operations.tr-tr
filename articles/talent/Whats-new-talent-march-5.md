@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519345"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741902"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (5 Mart 2019)
 
@@ -43,10 +43,10 @@ Attract, Common Data Service içinde seçenek kümesi olan birden çok alan vard
 ## <a name="changes-in-onboarding"></a>İş almadaki değişiklikler
 
 ### <a name="private-preview-for-onboard-teams"></a>İşe alma ekipleri için özel önizleme
-Artık şablonları kuruluşunuzun tamamında paylaşabilir ve birlikte çalışabilirsiniz. Daha fazla bilgi için bkz. [İşe Alma Ekipleri kullanarak kuruluşunuzda en iyi deneyimleri paylaşın](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
+Artık şablonları kuruluşunuzun tamamında paylaşabilir ve birlikte çalışabilirsiniz. Daha fazla bilgi için bkz. [İşe Alma Ekipleri kullanarak kuruluşunuzda en iyi deneyimleri paylaşın](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
 
 ### <a name="private-preview-for-assignee-placeholders"></a>Atama yer tutucuları için özel önizlemeler
-Şablonlarınızı etkinlikleri kişilere değil rollere atayarak zenginleştirebilirsiniz. Roller daha sonra kılavuz oluşturma sırasında kişilere atanır. Daha fazla bilgi için bkz. [Kılavuz yönetimini etkinlikleri rollere atayarak hızlandırmak](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
+Şablonlarınızı etkinlikleri kişilere değil rollere atayarak zenginleştirebilirsiniz. Roller daha sonra kılavuz oluşturma sırasında kişilere atanır. Daha fazla bilgi için bkz. [Kılavuz yönetimini etkinlikleri rollere atayarak hızlandırmak](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 **Derleme 8.1.2178**
@@ -71,7 +71,7 @@ Bu değişiklikle, mevcut konumlara bir değişiklik talebi yapılırsa, bordro 
 Bu sürüm ile diğer küçük hata gidermeleri vardır.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'a yükseltin
-Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezine oturum açarak veritabanınızın yükseltilmeye ihtiyacı olup olmadığını görün. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezine oturum açarak veritabanınızın yükseltilmeye ihtiyacı olup olmadığını görün. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Çok yakında
 
@@ -79,4 +79,4 @@ Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. Pow
 Pek çok kuruluşta, ücret ve kazanç yöneticileri yalnızca belirli ücret kayıtlarına erişebilirler; örneğin yöneticiler için kayıtlar veya yerel tabanlı personeller gibi. Bu değişiklik ile yönetimini değiştirebilir ve ücret planlarını kuruluş içindeki farklı personel popülasyonları için korur. Sabit ve değişken planlar, güvenlik rollerine atanabilir, bunlar planlara ve planlarla ilişkili personel verisine erişimi belirler, örneğin maaş veya ikramiye kayıtları gibi. Yalnızca belirli erişime sahip roller bu çalışanlar için ücreti işleyebilirler.
 
 ###  <a name="platform-update-24"></a>Platform güncelleştirmesi 24
-Platform güncelleştirmesi 24 hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'te (Mart 2019) neler yeni veya değişti](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Platform güncelleştirmesi 24 hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'te (Mart 2019) neler yeni veya değişti](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

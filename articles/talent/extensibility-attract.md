@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichsew
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 52790fbe500d9f55bc9cc86fba5d54f30b11e559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505876"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795232"
 ---
 # <a name="extensibility-in-attract"></a>Attract'ta genişletilebilirlik
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 for Talent, Common Data Service platformu üzerine kurulu
 
 ## <a name="extending-option-sets-in-attract"></a>Attract'te seçenek kümelerini genişletmek
 
-Bir **Seçenek Kümesi** (seçme listesi) bir varlığa dahil edilebilecek bir alan türüdür. Bir seçenek kümesini tanımlar. Bir seçenek kümesi, bir formda görüntülendiğinde bir açılır liste denetimi kullanır.  Attract içinde seçenek kümesi olan birden çok alan vardır.  Yeni yeterlilikler, seçenek kümelerini genişletmek için sunmaya başlıyoruz, Reddetme sebep alanı, İstihdam türü alanı ve Kıdem türü alanı.   Ayrıca, eklediğiniz seçenekler için yerelleştirilmiş görüntü etiketleri ekleyebilirsiniz. Daha fazla bilgi için bkz. [Seçenek kümesi etiketlerini özelleştir](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
+Bir **Seçenek Kümesi** (seçme listesi) bir varlığa dahil edilebilecek bir alan türüdür. Bir seçenek kümesini tanımlar. Bir seçenek kümesi, bir formda görüntülendiğinde bir açılır liste denetimi kullanır.  Attract içinde seçenek kümesi olan birden çok alan vardır.  Yeni yeterlilikler, seçenek kümelerini genişletmek için sunmaya başlıyoruz, Reddetme sebep alanı, İstihdam türü alanı ve Kıdem türü alanı.   Ayrıca, eklediğiniz seçenekler için yerelleştirilmiş görüntü etiketleri ekleyebilirsiniz. Daha fazla bilgi için bkz. [Seçenek kümesi etiketlerini özelleştir](https://docs.microsoft.com/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
 
 > [!NOTE]
 > LinkedIn'e iş ilanı verme özelliği, **İstihdam türü** ve **Kıdem türü** alanının **İş ayrıntıları** sayfasında kullanılmasını gerektirir. Bu alanlardaki varsayılan değerler, LinkedIn tarafından desteklenir ve iş ilanı verildiğinde görüntülenir. Bu nedenle, LinkedIn'e iş ilanları veriyorsanız ve mevcut seçenek kümesi değerlerini bu alanlar için değiştiriyorsanız, iş ilanı yine de verilecektir ancak LinkedIn, özel **İstihdam türü** ve **Kıdem türü** değerlerini görüntülemez.  
@@ -62,15 +62,15 @@ Attract'taki tüm veriler Common Data Service bulunduğundan kendi iş ihtiyaçl
 
 Attract verilerinize bağlanan ve mantık eklemek için Microsoft Excel'deki ifadeler gibi ifadeler kullanan uygulamaları kolayca oluşturmak için PowerApps kullanabilirsiniz. PowerApps kullanarak oluşturduğunuz uygulamaları web, Apple iOS ve Google Android cihazlarda çalıştırabilirsiniz.
 
-Örneğin, üniversite mesleki fuarlarının işe alanlar için daha kolay olmasını sağlayın: Özgeçmişleri taramalarını ve adayları Attract'taki bir pozisyona göndermelerini sağlayan hafif bir uygulama oluşturun. Alternatif olarak, kuruluşunuzun uyumluluk gereksinimlerini karşılamaya yardımcı olan bir uygulama oluşturabilirsiniz. PowerApps ve bu uygulamaları oluşturmak için nasıl kullanılacağı hakkında daha fazla bilgi için bkz. [Common Data Service'e veri entegre edin](https://docs.microsoft.com/en-us/powerapps).
+Örneğin, üniversite mesleki fuarlarının işe alanlar için daha kolay olmasını sağlayın: Özgeçmişleri taramalarını ve adayları Attract'taki bir pozisyona göndermelerini sağlayan hafif bir uygulama oluşturun. Alternatif olarak, kuruluşunuzun uyumluluk gereksinimlerini karşılamaya yardımcı olan bir uygulama oluşturabilirsiniz. PowerApps ve bu uygulamaları oluşturmak için nasıl kullanılacağı hakkında daha fazla bilgi için bkz. [Common Data Service'e veri entegre edin](https://docs.microsoft.com/powerapps).
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 
-Microsoft Flow'u, Attract verilerinin üstünde çalışan otomatik iş akışları oluşturmak için kullanabilirsiniz. Yüzlerce sık kullanılan uygulamalar ve hizmetlere kod yazmak zorunda olmadan kolayca bağlanabilirsiniz. Common Data Service içinde, Attract işi, Aday ve Başvuru varlıklarıyla etkileşimde olan akışlar oluşturarak, çeşitli eylemleri otomatikleştirebilirsiniz. Örneğin, bir aday teklifi kabul ettiğinde, işe alma takımına bir bildirim gönderilir veya haber Twitter'da bildirilir. Akışlar hakkında daha fazla bilgi için bkz. [Microsoft Flow belgelendirmesi](https://docs.microsoft.com/en-us/flow/).
+Microsoft Flow'u, Attract verilerinin üstünde çalışan otomatik iş akışları oluşturmak için kullanabilirsiniz. Yüzlerce sık kullanılan uygulamalar ve hizmetlere kod yazmak zorunda olmadan kolayca bağlanabilirsiniz. Common Data Service içinde, Attract işi, Aday ve Başvuru varlıklarıyla etkileşimde olan akışlar oluşturarak, çeşitli eylemleri otomatikleştirebilirsiniz. Örneğin, bir aday teklifi kabul ettiğinde, işe alma takımına bir bildirim gönderilir veya haber Twitter'da bildirilir. Akışlar hakkında daha fazla bilgi için bkz. [Microsoft Flow belgelendirmesi](https://docs.microsoft.com/flow/).
 
 ### <a name="power-bi"></a>Power BI
 
-Power BI, Attract verilerinizle daha ayrıntılı bir anlayış sağlayan özel raporlar ve panolar oluşturma ve görüntüleme olanağı sağlar. Power BI ve etkileşimli raporlar ve panolar oluşturma hakkında daha fazla bilgi için bkz [Power BIbelgeleri](https://docs.microsoft.com/en-us/power-bi/).
+Power BI, Attract verilerinizle daha ayrıntılı bir anlayış sağlayan özel raporlar ve panolar oluşturma ve görüntüleme olanağı sağlar. Power BI ve etkileşimli raporlar ve panolar oluşturma hakkında daha fazla bilgi için bkz [Power BIbelgeleri](https://docs.microsoft.com/power-bi/).
 
 ### <a name="custom-activities"></a>Özel faaliyetler 
 

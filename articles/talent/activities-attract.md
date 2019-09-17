@@ -1,9 +1,9 @@
 ---
-title: Süreçlerdeki faaliyetler
-description: Bu konu, işe alma işleminde kullanılabilecek faaliyetlerin çeşitli türleri hakkında bilgi sağlar.
+title: Microsoft Dynamics 365 for Talent - Attract süreçlerindeki faaliyetler
+description: Bu konu, Microsoft Dynamics 365 for Talent - Attract işe alma işleminde kullanılabilecek faaliyetlerin çeşitli türleri hakkında bilgi sağlar.
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519344"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739737"
 ---
-# <a name="activities-in-the-hiring-processes"></a>İşe alım süreçlerindeki faaliyetler
+# <a name="activities-in-hiring-processes"></a>İşe alım süreçlerindeki faaliyetler
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ Faaliyetler beceri için Microsoft Dynamics 365 for Talent: Attract'te işe alma
 ## <a name="prospect-activity"></a>Aday müşteri faaliyeti
 
 Aday müşteri faaliyeti, aday müşterilerin bir işe eklenebilir olup olmadığını kontrol eder. Varsayılan olarak, müşteri adayları bir işe eklenebilir. Aday müşteri faaliyetini devre dışı bırakmak için **Müşteri adaylarını etkinleştir** seçeneğini **Kapalı** olarak ayarlayın. Aday müşteri faaliyeti açık olduğunda, işe alma müdürleri müşteri adaylarını ekleyebilir ve görüntüleyebilir, **Aday müşteri** sekmesi iş üzerinde gösterilir.
+
+> [!NOTE]
+> Adayların bir işe LinkedIn'den eklenmesine izin vermek için **Aday etkinleştir** seçeneğini **Açık** ayarlamalısınız.
 
 ## <a name="application-activity"></a>Başvuru faaliyeti
 

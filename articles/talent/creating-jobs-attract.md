@@ -3,7 +3,7 @@ title: Attract'ta iş oluşturun, onaylayın ve yayınlayın
 description: Bu konu, Attract'taki bir işin öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
 author: hasrivas
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 07/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
+ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519294"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "1773280"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Attract'ta iş oluşturun, onaylayın ve yayınlayın
+# <a name="create-a-job"></a>İş oluşturma
 
 [!include [banner](includes/banner.md)]
 
@@ -81,33 +81,6 @@ Bir iş etkinleştirildikten sonra yayınlanabilir. Yalnızca iş verenler ve y�
 > [!NOTE]
 > İş yayınlama işlevi yalnızca işe Attract için Kapsamlı İşe Alım Eklentisiyle kullanılabilir.
 
-### <a name="posting-jobs-to-linkedin"></a>LinkedIn'e iş ilanı vermek 
-
-Bir işi Attract'ten LinkedIn'e göndermeden önce yöneticinin LinkedIn Şirket Kimlik Kodunu ve LinkedIn Şirket adını **Yönetici ayarlarında** eklemesi gerekir. LinkedIn Şirket Kimlik Kodu, Attract'ten verdiğiniz iş ilanlarının doğru şirket sayfasına eşleştirildiğinden emin olunması için önemlidir.
-
-LinkedIn Şirket Kimlik Kodu, şirketinizi LinkedIn içinde benzersiz şekilde tanımlayan bir dizi sayıdır. LinkedIn şirket kimlik kodunuzu bulmak hakkında daha fazla bilgi için lütfen [LinkedIn sitesini](https://aka.ms/findID) ziyaret edin.
-
-LinkedIn şirketinizi güncelleştirmek için **Yönetim merkezi**'ni, **Ayarlar** menüsünden seçin (çark simgesi),  **LinkedIn Tümleştirmesi** sekmesini seçin. **LinkedIn'e Bağlan** sekmesi altında, LinkedIn Şirket Adınızı ve Şirket Kimlik Kodunuzu girin ve ayarları kaydedin.
-
-> [!NOTE]
-> LinkedIn'e iş ilanı verirken dikkate alınacak dört önemli şey vardır.
-> 1. LinkedIn'de ilan verilen işler "Sınırlı Listeleme" işleri olarak yayınlanır. Sınırlı listeleme işleri, LinkedIn sayfasının tamamında öne çıkarılamaz. LinkedIn'e Attract'tan yayınlanan sınırlı yayınlanmış işleri öne çıkarmak istiyorsanız, "İş Kaydırma" etkinleştirmek için LinkedIn ile birlikte çalışmalısınız. Daha fazla ayrıntı için aşağıdaki bağlantılara bakın ve LinkedIn destek ile iletişime geçin.
->
->    [Sınırlı Listelemeler - İş Kaydırma için Premium İş Alanları](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
->
->    [İş kaydırma hakkında SSS](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
->
-> 1. İşleri LinkedIn'e ilan verirken, Attract, Microsoft 365 Organizasyonu adını işe karşı iletir. LinkedIn, işleri LinkedIn tarafına dayalı bir şirkete bağlantılar, iletilen kuruluş adına dayalı olarak. İşiniz LinkedIn'de yanlış şirkete karşı ilan verildiyse, Microsoft 365 Organizasyon adınızın, LinkedIn'deki şirket adıyla örtüştüğünden emin olun.  
->
->    [Adresi Bağlantıyı ve daha fazlasını değiştirmek](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
->
->    Bu adımdan sonra sorun yaşarsanız, LinkedIn desteği ile iletişime geçin. 
-> 
-> 1. LinkedIn'e verilen iş ilanları LinkedIn sitesinde yayınlanır. LinkedIn'e iş ilanı vermek için test ortamı yoktur. 
->
-> 1. Geçerli LinkedIn toplu iş işleme işlemi nedeniyle LinkedIn'e ilan verilen işlerin LinkedIn içerisindeki adaylara görünür hale gelmesi 24 saate kadar sürebilir.
-
-
 ## <a name="activate"></a>Etkinleştir
 
 Bir iş etkinleştirildikten sonra yayınlanabilir, adaylar ve başvuranlar eklenebilir. Bir işe aday ekleme seçeneği, işe alma sürecindeki Aday eyleminde ayarlanır.
@@ -142,7 +115,7 @@ Bir kullanıcı işi onayladıktan sonra ancak etkinleştirilmeden önce düzenl
 Onaylayanlar olarak listelenen kişiler, Attract ve bir epostayla onaylamak için bir öğe olduğunu bildiren bir bildirim alır.  E-posta içinde, onaylayıcılar işi açmak, ayrıntıları görüntülemek ve onaylamak veya reddetmek için bağlantıya tıklayabilirler. İşin durumu **Onaylandı** veya **Reddedildi** olarak ayarlandıktan sonra, yayınlayan Attract içinde bildirim alır ve bir e-posta da alırlar. Ayrıca, onaylayıcılar onay talebine 24 saat içinde yanıt vermedilerse bir anımsatma e-postası alırlar.
 
 > [!NOTE]
-> Onay e-postaları için özel e-posta şablonları oluşturabilirsiniz. Daha fazla bilgi için bkz. [E-posta şablonları oluşturmak ve yönetmek](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
+> Onay e-postaları için özel e-posta şablonları oluşturabilirsiniz. Daha fazla bilgi için bkz. [E-posta şablonları oluşturmak ve yönetmek](https://docs.microsoft.com/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>İş oluşturma
 
