@@ -17,45 +17,45 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d5a2c61fc21578d1db4c1bf0c3dfaf0c7a93298c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519300"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742761"
 ---
-# <a name="azure-active-directory-users-not-found-in-people-picker"></a><span data-ttu-id="2dc7e-103">Azure Active Directory kullanıcıları Kişi Seçici'de bulunamadı</span><span class="sxs-lookup"><span data-stu-id="2dc7e-103">Azure Active Directory users not found in People Picker</span></span>
+# <a name="azure-active-directory-users-not-found-in-people-picker"></a><span data-ttu-id="59135-103">Azure Active Directory kullanıcıları Kişi Seçici'de bulunamadı</span><span class="sxs-lookup"><span data-stu-id="59135-103">Azure Active Directory users not found in People Picker</span></span>
 
 [!include [banner](includes/banner.md)]
 
-## <a name="issue"></a><span data-ttu-id="2dc7e-104">Çıkış</span><span class="sxs-lookup"><span data-stu-id="2dc7e-104">Issue</span></span>
+## <a name="issue"></a><span data-ttu-id="59135-104">Çıkış</span><span class="sxs-lookup"><span data-stu-id="59135-104">Issue</span></span>
 
-<span data-ttu-id="2dc7e-105">Kiracı için Microsoft Azure Active Directory (Azure AD) içindeki çeşitli geçerli kullanıcılar, Dynamics 365 for Talent Attract veya Onboard uygulamalraında Kişi Seçicide adları aratılırken görüntülenmiyor.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-105">Certain valid users in Microsoft Azure Active Directory (Azure AD) for the tenant do not appear when searching for the name in the People Picker in the Dynamics 365 for Talent Attract or Onboard applications.</span></span>
+<span data-ttu-id="59135-105">Kiracı için Microsoft Azure Active Directory (Azure AD) içindeki çeşitli geçerli kullanıcılar, Dynamics 365 for Talent Attract veya Onboard uygulamalraında Kişi Seçicide adları aratılırken görüntülenmiyor.</span><span class="sxs-lookup"><span data-stu-id="59135-105">Certain valid users in Microsoft Azure Active Directory (Azure AD) for the tenant do not appear when searching for the name in the People Picker in the Dynamics 365 for Talent Attract or Onboard applications.</span></span>
 
-## <a name="cause"></a><span data-ttu-id="2dc7e-106">Nedeni</span><span class="sxs-lookup"><span data-stu-id="2dc7e-106">Cause</span></span>
+## <a name="cause"></a><span data-ttu-id="59135-106">Nedeni</span><span class="sxs-lookup"><span data-stu-id="59135-106">Cause</span></span>
 
-<span data-ttu-id="2dc7e-107">Çeşitli kullanıcı türleri Attract ve Onboard uygulamalarında şu anda desteklenmiyor.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-107">Certain user types are not currently supported in the Attract and Onboard applications.</span></span> <span data-ttu-id="2dc7e-108">Kullanıcının bir Azure AD Business to Business (B2B) misafir kullanıcısı olmadığından emin olun.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-108">Verify that the user is not an Azure AD Business to Business (B2B) guest user.</span></span> <span data-ttu-id="2dc7e-109">"Kullanıcı Türü" bilgisi, Azure portalındaki Azure Active Directory dikey pencere taşında bulunabilir.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-109">"User Type" information can be found in the Azure Active Directory blade on the Azure portal.</span></span>
+<span data-ttu-id="59135-107">Çeşitli kullanıcı türleri Attract ve Onboard uygulamalarında şu anda desteklenmiyor.</span><span class="sxs-lookup"><span data-stu-id="59135-107">Certain user types are not currently supported in the Attract and Onboard applications.</span></span> <span data-ttu-id="59135-108">Kullanıcının bir Azure AD Business to Business (B2B) misafir kullanıcısı olmadığından emin olun.</span><span class="sxs-lookup"><span data-stu-id="59135-108">Verify that the user is not an Azure AD Business to Business (B2B) guest user.</span></span> <span data-ttu-id="59135-109">"Kullanıcı Türü" bilgisi, Azure portalındaki Azure Active Directory dikey pencere taşında bulunabilir.</span><span class="sxs-lookup"><span data-stu-id="59135-109">"User Type" information can be found in the Azure Active Directory blade on the Azure portal.</span></span>
 
-<span data-ttu-id="2dc7e-110">Azure B2B hakkında daha fazla bilgi için bkz. [Azure Active Directory B2B'de misafir kullanıcı erişimi nedir](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b).</span><span class="sxs-lookup"><span data-stu-id="2dc7e-110">For more information about Azure B2B, see [What is guest user access in Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b).</span></span>
+<span data-ttu-id="59135-110">Azure B2B hakkında daha fazla bilgi için bkz. [Azure Active Directory B2B'de misafir kullanıcı erişimi nedir](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).</span><span class="sxs-lookup"><span data-stu-id="59135-110">For more information about Azure B2B, see [What is guest user access in Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).</span></span>
 
-<span data-ttu-id="2dc7e-111">B2B olmayan kullanıcılar için bazı kullanıcılar eksik "Kullanıcı Türü" özelliğine **Kullanıcı** nesnesi üzerinde sahip olabilirler.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-111">For non-B2B users, there are certain users who may have an incomplete "User Type" property on the **User** object.</span></span> <span data-ttu-id="2dc7e-112">Bu, Azure AD PowerShell modülü kullanılarak düzeltilebilir.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-112">This can be verified and fixed using the Azure AD Powershell module.</span></span> <span data-ttu-id="2dc7e-113">Daha fazla bilgi için [Azure AD](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0) konusuna bakın.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-113">For more information, see [Azure AD](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0).</span></span>
+<span data-ttu-id="59135-111">B2B olmayan kullanıcılar için bazı kullanıcılar eksik "Kullanıcı Türü" özelliğine **Kullanıcı** nesnesi üzerinde sahip olabilirler.</span><span class="sxs-lookup"><span data-stu-id="59135-111">For non-B2B users, there are certain users who may have an incomplete "User Type" property on the **User** object.</span></span> <span data-ttu-id="59135-112">Bu, Azure AD PowerShell modülü kullanılarak düzeltilebilir.</span><span class="sxs-lookup"><span data-stu-id="59135-112">This can be verified and fixed using the Azure AD Powershell module.</span></span> <span data-ttu-id="59135-113">Daha fazla bilgi için [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0) konusuna bakın.</span><span class="sxs-lookup"><span data-stu-id="59135-113">For more information, see [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0).</span></span>
 
-## <a name="resolution"></a><span data-ttu-id="2dc7e-114">Çözünürlük</span><span class="sxs-lookup"><span data-stu-id="2dc7e-114">Resolution</span></span>
+## <a name="resolution"></a><span data-ttu-id="59135-114">Çözünürlük</span><span class="sxs-lookup"><span data-stu-id="59135-114">Resolution</span></span>
 
-<span data-ttu-id="2dc7e-115">Aşağıdaki adımları sorunu gidermek için tamamlamak için "Genel Yönetici" izinlerine Azure Active Directory kiracısı üzerinde sahip olmalısınız veya **User.ReadWrite.All** izinlerine sahip olmalısınız.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-115">To complete the following steps to resolve the issue, you will need to have "Global Administrator" permissions on the Azure Active Directory tenant or permissions for **User.ReadWrite.All**.</span></span>
+<span data-ttu-id="59135-115">Aşağıdaki adımları sorunu gidermek için tamamlamak için "Genel Yönetici" izinlerine Azure Active Directory kiracısı üzerinde sahip olmalısınız veya **User.ReadWrite.All** izinlerine sahip olmalısınız.</span><span class="sxs-lookup"><span data-stu-id="59135-115">To complete the following steps to resolve the issue, you will need to have "Global Administrator" permissions on the Azure Active Directory tenant or permissions for **User.ReadWrite.All**.</span></span>
 
-<span data-ttu-id="2dc7e-116">Etkilenen kullanıcı için "Kullanıcı Türünü" doğrulamak için.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-116">To verify the "User Type" for the affected user.</span></span>
+<span data-ttu-id="59135-116">Etkilenen kullanıcı için "Kullanıcı Türünü" doğrulamak için.</span><span class="sxs-lookup"><span data-stu-id="59135-116">To verify the "User Type" for the affected user.</span></span>
 
 ```
 PS C:\>Get-AzureADUser -ObjectId "testUpn@tenant.com"
 ```
-<span data-ttu-id="2dc7e-117">Komut, aşağıdaki bilgiyi döndürür.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-117">The command returns the following information.</span></span>
+<span data-ttu-id="59135-117">Komut, aşağıdaki bilgiyi döndürür.</span><span class="sxs-lookup"><span data-stu-id="59135-117">The command returns the following information.</span></span>
 ```
 ObjectId                             DisplayName UserPrincipalName      UserType
 --------                             ----------- -----------------      --------
 5e8b0f4d-2cd4-4e17-9467-b0f6a5c0c4d0 New user    testUpn@tenant.com     
 ```
-<span data-ttu-id="2dc7e-118">Kullanıcı üzerindeki **UserType** özelliğini not edin.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-118">Note the **UserType** property on the user.</span></span> <span data-ttu-id="2dc7e-119">**UserType** boş ise, örneğin "Üye" veya "Misafir" değilse, **UserType**'ı aşağıdaki komutu kullanarak güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="2dc7e-119">If the **UserType** is blank, for example not "Member" or "Guest", update the **UserType** using the following command.</span></span>
+<span data-ttu-id="59135-118">Kullanıcı üzerindeki **UserType** özelliğini not edin.</span><span class="sxs-lookup"><span data-stu-id="59135-118">Note the **UserType** property on the user.</span></span> <span data-ttu-id="59135-119">**UserType** boş ise, örneğin "Üye" veya "Misafir" değilse, **UserType**'ı aşağıdaki komutu kullanarak güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="59135-119">If the **UserType** is blank, for example not "Member" or "Guest", update the **UserType** using the following command.</span></span>
 
 ```
 PS C:\>Set-AzureADUser -ObjectId "testUpn@tenant.com" -UserType Member
