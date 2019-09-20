@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577807"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781454"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek senaryolar
 
@@ -101,24 +101,15 @@ Bu şablon, SharePoint tümleştirmesi içeren herhangi bir senaryoda kullanılm
 
 **Akış - SharePoint Tümleştirmesi** şablonunu indirmek için [Akış - SharePoint Tümleştirmesi](https://go.microsoft.com/fwlink/?linkid=2082109)'ne Microsoft Download Center'dan gidin.
 
-## <a name="admin-console-to-manage-talent-pools"></a>Yetenek havuzlarını yönetmek için yönetici konsolu
+## <a name="referral-app"></a>Başvuru Uygulaması
+Paylaşılan bir yetenek havuzuna aday eklemek için referans uygulamasını kullanabilirsiniz. Başvuran, adayı gönderirken **FirstName**, **LastName**, **Email** ve **Linkedln URL'sini** girebilir. Aday kaynak meta verileri daha sonra başvuran bilgileri ile doldurulur.
 
-LinkedIn ile tümleştirmeyi etkinleştirdiğinizde, Attract otomatik olarak LinkedIn'de bir yetenek havuzu oluşturur. Bir işe alım görevlisi işe alınan kişiyle LinkedIn üzerinden InMail ile e-posta alış verişi yaptığında Attract işe alınan kişi için bir profil oluşturur ve yeni işe alınan LinkedIn yetenek havuzunun üyesi olur. Bu PowerApps uygulaması, yeteneğe dayalı olarak yetenek havuzlarındaki adayları yeniden düzenleme için yararlıdır.
+Bu uygulamayı, referanslar göndermek için çalışan self servisi'ne (ESS) katıştırabilir veya bunu şirket portalında köprü olarak kullanıp tek başına çalışan bir uygulama olarak kullanabilirsiniz.
 
-Aşağıdaki görevleri gerçekleştirmek için bu PowerApps uygulamasını yönetici konsolu olarak çalıştırın:
-
-- Yetenek havuzunda adayları listeleme
-- Yetenek havuzun aday ekleme veya kaldırma
-- Adayları bir yetenek havuzundan başka bir tanesine taşıma
-- Adayların taşımadan önce zaten bir yetenek havuzunun parçası olup olmadığını belirleme
-- Adayları diğer yetenek havuzlarına taşımadan önce niteliklerini denetleme
-
-Bu PowerApps uygulaması çok-çok ilişkilerin kullanır, böylece çok-çok ilişkisi olan kayıtları çıkarmanız gereken diğer senaryolar için şablon olarak kullanabilirsiniz.
-
-**Yetenek havuzlarını yönetmek için yönetici konsolu** şablonunu indirmek için Microsoft İndirme Merkezinde [Yetenek havuzlarını yönetmek için yönetici konsolu](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469)'na gidin.
+**Referans uygulamasını** karşıdan yüklemek için [Dynamics 365 for Talent genişletilebilirlik çözümü: Referans uygulaması](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) gidip Microsoft Yükleme Merkezi'nden indirin. Bu uygulamayı içe aktarabilir ve başka işlevler eklemek için özelleştirebilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[Kiracılar ve ortamlar arasında uygulamaları geçirmek](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[Kiracılar ve ortamlar arasında uygulamaları geçirmek](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

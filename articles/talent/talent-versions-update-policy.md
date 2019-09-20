@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519319"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741787"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Talent sistem gereksinimleri ve güncelleştirme ilkesi
 
@@ -64,10 +64,10 @@ Talent'ın desteklediği ülkeler, bölgeler ve dillere ilişkin bir PDF dosyas�
 > [!NOTE]
 > Kullanıcı arabirimi başka dillere yerelleştirilmiş olmasına karşın, tüm kullanıcı verileri girildiği dilde depolanır. Diğer dillerde e-postalar ve şablonlar oluşturabilirsiniz ancak zamanlama bilgileri gibi veriler şu anda yalnızca İngilizce olarak kullanılabilir.
 
-Ülkeye veya bölgeye özel özelleştirmeler oluşturmakla ilgilenen bir geliştiricisiyseniz veya şu anda Microsoft tarafından desteklenmeyen bir ülke veya bölge için çözüm oluşturan bir geliştiriciyseniz bkz. [Globalleştirme](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+Ülkeye veya bölgeye özel özelleştirmeler oluşturmakla ilgilenen bir geliştiricisiyseniz veya şu anda Microsoft tarafından desteklenmeyen bir ülke veya bölge için çözüm oluşturan bir geliştiriciyseniz bkz. [Globalleştirme](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
 ## <a name="update-policy"></a>Güncelleştirme ilkesi
 
 Microsoft Dynamics 365 for Talent, bir bulut hizmeti olarak sunulur. Dynamics 365 for Talent güncelleştirmeleri süreklidir ve Microsoft tarafından otomatik olarak uygulanır.
 
-Güncelleştirmeler düzenli aralıklarla yayımlanır ve tüm ortamlar için yapılır. Dynamics 365 for Talent, ürün destek kullanılabilirliği hakkında düzenli ve öngörülebilir kılavuzlar sunan [Microsoft Desteği Yaşam Döngüsü ilkesi](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Desteği Yaşam Döngüsü") ile uygun olarak desteklenir.
+Güncelleştirmeler düzenli aralıklarla yayımlanır ve tüm ortamlar için yapılır. Dynamics 365 for Talent, ürün destek kullanılabilirliği hakkında düzenli ve öngörülebilir kılavuzlar sunan [Microsoft Desteği Yaşam Döngüsü ilkesi](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Desteği Yaşam Döngüsü") ile uygun olarak desteklenir.

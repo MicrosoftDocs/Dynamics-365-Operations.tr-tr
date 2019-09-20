@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d69294b64c841c5486d694b129cf6c0f26fd93fd
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d316aff83bd9f60f054a970e223777db5e214adb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519320"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741648"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-20-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (20 Mart 2019)
 
@@ -46,7 +46,7 @@ Bir aday bir link açarken kaydedilen veya kendilerine e-postayla gönderilen so
 Harici adayların bir işin işe alanı veya işe alım yöneticisinin adını görebildiği bir sorun düzeltilmiştir. Şimdi yalnızca dahili adaylar bir iş için işe alım ekibinin üyelerini görebilir. Dahili adayların yalnızca dahili işleri görüntülemesi ve başvurması daha kolaydır. Bir aday, bağlantıya bir yalnızca dahili işi görüntülemek veya başvurmak için erişmeye çalışırsa, Azure Active Directory kimlik bilgileri ile kimlik doğrulaması yapmaya zorlanırlar. Dahili adayların ayrıca işe alma ekibi üyeleriyle iletişim kurarak iş hakkında bilgi isteme ve ilgilerini belirtme olanakları vardır. Bu yeterlilik, yalnızca dahili adaylar için tüm işler için kullanılabilir. Daha fazla bilgi için [Attract'taki kariyer sitesi işlevi](./career-site.md).
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Gelecekteki bir pozisyon için başvuran yüksek bir değer atamak için gümüş madalyalıları belirleyin
-İşe alanlar ve işe alım yöneticileri çoğu zaman pozisyon için uygun olan ancak pozisyon zaten doldurulduğu için teklif yapılamayan bir aday olan adayların listesini tutarlar. Bu tür adaylar, gümüş madalyalılar olarak adlandırılır ve benzer bir pozisyon bir daha açıldığında işe alma sürecini hızlandırabilecekleri için değerlidirler. Attract şimdi işe alımcıların ve işe alma yöneticilerinin aday listesinde, aday Teklif aşamasına ulaştıysa gümüş madalyalı olarak adanmasına izin verir. Gümüş madalyalı ataması, bir iş için başvuran listesinde ve ayrıca bu adaylar, herhangi bir işe alımcı veya işe alım yöneticisinin havuzunda olduğunda aday havuzu görünümünde görüntülenecektir. Ek olarak, atama, bir adayın yetenek havuzu profilinin parçası olarak iş geçmişinde de görüntülenecektir. Bu özelliği, bir yöneticinin [Yönetim Merkezinde Özellik Yönetimi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature)'ni kullanarak açmasıyla önizleyebilirsiniz.
+İşe alanlar ve işe alım yöneticileri çoğu zaman pozisyon için uygun olan ancak pozisyon zaten doldurulduğu için teklif yapılamayan bir aday olan adayların listesini tutarlar. Bu tür adaylar, gümüş madalyalılar olarak adlandırılır ve benzer bir pozisyon bir daha açıldığında işe alma sürecini hızlandırabilecekleri için değerlidirler. Attract şimdi işe alımcıların ve işe alma yöneticilerinin aday listesinde, aday Teklif aşamasına ulaştıysa gümüş madalyalı olarak adanmasına izin verir. Gümüş madalyalı ataması, bir iş için başvuran listesinde ve ayrıca bu adaylar, herhangi bir işe alımcı veya işe alım yöneticisinin havuzunda olduğunda aday havuzu görünümünde görüntülenecektir. Ek olarak, atama, bir adayın yetenek havuzu profilinin parçası olarak iş geçmişinde de görüntülenecektir. Bu özelliği, bir yöneticinin [Yönetim Merkezinde Özellik Yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)'ni kullanarak açmasıyla önizleyebilirsiniz.
 
 ### <a name="add-applicants-to-talent-pools"></a>Yetenek havuzlarına başvuranlar ekle
 Şimdi, Başvuranlar listesinde yeni bir eylemi yüzeye çıkararak başvuranları bir beceri havuzuna eklemek daha da kolaydır. **Yetenek havuzuna ekle** simgesini seçerek, işe alımcı veya işe alma müdürü, kendi yetenek havuzu listesi arasından seçim yapabilir ve bir işteki Başvuranlar listesinden yetenek havuzlarına doğrudan başvuran ekleyebilir.
@@ -58,7 +58,7 @@ Müşteri geribildirimine dayanarak, işe alımcılar artık karşıya yüklenmi
 Güncelleştirilmiş profillerine LinkedIn'de halihazırda sahip olan adaylar bu profili kullanarak tek bir tıkla işlere başvurabilirler.
 
 ### <a name="track-how-a-candidate-profile-originated-in-the-system-and-where-your-applicants-discover-the-jobs-they-applied-for"></a>Bir aday profilinin sistemde nereden geldiğini ve adaylarınızın başvurdukları işleri nerede keşfettiklerini izleyin
-Şimdi belirli bir adayın profilinin Attract içinde nereden geldiğini, profilin kaynağına adayların ayrıntılarına bir başvurunun veya yetenek havuzu profilinin **Profil** sayfasından görebilirsiniz. Benzer şekilde, herhangi bir başvuranın, işi **Başvuru etkinliği** içerisindeki başvuru etkinlik akışında sağlanan başvuru kaynağına bakarak da öğrenebilirsiniz. Bu bilgi, ayrıca yetenek havuzu profilindeki iş geçmişinde de mevcuttur. İşe alanlar veya işe alım yöneticileri adayları el ile eklediklerinde, başvurunun veya aday profilinin kaynağını belirtmeleri de istenir. Bir aday ilk kez başvurduğunda, profil kaynakları, başvurunun kaynağı ile aynı olacaktır. Bu özelliği, bir yöneticinin [Yönetim Merkezinde Özellik Yönetimi](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature)'ni kullanarak açmasıyla önizleyebilirsiniz. Varolan adayların ve başvuranların herhangi bir kaynak bilgisine sahip olmayacağını unutmayın. Ancak, işe alanlar bu bilgiyi el ile ekleyebilirler.
+Şimdi belirli bir adayın profilinin Attract içinde nereden geldiğini, profilin kaynağına adayların ayrıntılarına bir başvurunun veya yetenek havuzu profilinin **Profil** sayfasından görebilirsiniz. Benzer şekilde, herhangi bir başvuranın, işi **Başvuru etkinliği** içerisindeki başvuru etkinlik akışında sağlanan başvuru kaynağına bakarak da öğrenebilirsiniz. Bu bilgi, ayrıca yetenek havuzu profilindeki iş geçmişinde de mevcuttur. İşe alanlar veya işe alım yöneticileri adayları el ile eklediklerinde, başvurunun veya aday profilinin kaynağını belirtmeleri de istenir. Bir aday ilk kez başvurduğunda, profil kaynakları, başvurunun kaynağı ile aynı olacaktır. Bu özelliği, bir yöneticinin [Yönetim Merkezinde Özellik Yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)'ni kullanarak açmasıyla önizleyebilirsiniz. Varolan adayların ve başvuranların herhangi bir kaynak bilgisine sahip olmayacağını unutmayın. Ancak, işe alanlar bu bilgiyi el ile ekleyebilirler.
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
 

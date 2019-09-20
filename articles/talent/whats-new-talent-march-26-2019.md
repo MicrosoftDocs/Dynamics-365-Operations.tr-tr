@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 568a16a17ed3269c7b72f27f0d4b7bbdbd56630e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519335"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741579"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (26 Mart 2019)
 
@@ -75,7 +75,7 @@ Bu sürümde, sabit ücret planları artık kullanıcıları güvenlik içinde �
 Bu sürüm ile birlikte, **Excel içinde aç** seçeneğini Dynamics 365 for Talent içinde kullanarak iş kayıtlarını artık silebilirsiniz.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'a yükseltin
-Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezine oturum açarak veritabanınızın yükseltilmeye ihtiyacı olup olmadığını görün. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezine oturum açarak veritabanınızın yükseltilmeye ihtiyacı olup olmadığını görün. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Ön izlemede
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 781487997ceb95f4e3f528f47e8ed2aa5b25fd0e
+ms.sourcegitcommit: eb501d8712212a6ed33bec1e3e2c02f994e0a724
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624619"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "1869948"
 ---
 # <a name="provision-talent"></a>Talent sağlama
 
@@ -51,10 +51,10 @@ Bir LCS projesi oluşturduktan sonra, bir ortama Talent sağlayabilirsiniz.
     > [!NOTE]
     > Talent örnek türü, PowerApps Yönetim Merkezi'nde ayarladığınız PowerApps ortamının örnek türünden ayrıdır.
 3. Ortamınızın Talent Test Sürümü deneyiminde kullanılan aynı tanıtım verileri kümesini içermesini istiyorsanız **Tanıtım Verilerini Ekle** seçeneğini seçin. Bu uzun vadeli tanıtım veya eğitim ortamları için yararlıdır ve üretim ortamları için hiçbir zaman kullanılmamalıdır.  Not ilk dağıtım sırasında bu seçeneği seçmeniz gerekir. Varolan bir dağıtımı sonra güncelleştiremezsiniz.
-4. Talent, PowerApps tümleştirmesi ve genişletilebilirliği sağlamak amacıyla daima bir Microsoft PowerApps ortamında sağlanır. Devam etmeden önce bu konudaki "PowerApps ortamı seçme" bölümünü okuyun. PowerApps ortamınız yoksa, LCS'de Ortamları yöneti seçin veya PowerApps Yönetim Merkezi'ne gidin. Ardından [PowerApps ortamı oluşturma](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment) adımlarını izleyin.
+4. Talent, PowerApps tümleştirmesi ve genişletilebilirliği sağlamak amacıyla daima bir Microsoft PowerApps ortamında sağlanır. Devam etmeden önce bu konudaki "PowerApps ortamı seçme" bölümünü okuyun. PowerApps ortamınız yoksa, LCS'de Ortamları yöneti seçin veya PowerApps Yönetim Merkezi'ne gidin. Ardından [PowerApps ortamı oluşturma](https://docs.microsoft.com/powerapps/administrator/create-environment) adımlarını izleyin.
 
     > [!NOTE]
-    > Varolan ortamları görüntülemek veya yeni ortamlar oluşturmak için, Talent'ı sağlayan kiracı yöneticisine PowerApps P2 lisansı atanması gerekir. Kuruluşunuzun PowerApps P2 lisansı yoksa, bir CSP'den veya [PowerApps fiyatlandırma sayfasından](https://powerapps.microsoft.com/en-us/pricing/) bir lisans satın alabilirsiniz.
+    > Varolan ortamları görüntülemek veya yeni ortamlar oluşturmak için, Talent'ı sağlayan kiracı yöneticisine PowerApps P2 lisansı atanması gerekir. Kuruluşunuzun PowerApps P2 lisansı yoksa, bir CSP'den veya [PowerApps fiyatlandırma sayfasından](https://powerapps.microsoft.com/pricing/) bir lisans satın alabilirsiniz.
 
 5. Talent'in tedarik edileceği ortamı seçin.
 6. Koşulları kabul etmek için **Evet**'i seçin ve dağıtıma başlayın.
@@ -66,11 +66,11 @@ Bir LCS projesi oluşturduktan sonra, bir ortama Talent sağlayabilirsiniz.
     > [!NOTE]
     > Son gereksinimleri henüz yerine getirmediyseniz, projede Talent'ın bir test kurulumunu dağıtabilirsiniz. Ardından imzalayana kadar bu kurulumu kullanarak çözümünüzü test edebilirsiniz. Yeni ortamınızı test için kullanıyorsanız, bir üretim ortamı oluşturmak için bu yordamı yinelemeniz gerekir.
 
-    > Talent aboneliğinin bir parçası olarak yalnızca iki LCS ortamına izin verildiğinden, ücretsiz 60 günlük [Talent deneme ortamından](https://dynamics.microsoft.com/en-us/talent/overview/) yaralanmayı düşünebilirsiniz. Deneme ortamı, talep eden kullanıcıya ait olmakla birlikte, diğer kullanıcılar Ana İK için sistem yönetimi deneyimi aracılığıyla davet edilebilir. Deneme ortamları, programı güvenli bir şekilde keşfetmek için kullanılabilen hayali veriler içerir. Üretim ortamı olarak kullanılmaları amaçlanmamıştır. Deneme ortamının 60 gün sonra geçersiz olduğunda ortamdaki tüm verilerin silineceğini ve kurtarılamayacağını unutmayın. Mevcut ortam geçersiz olduktan sonra yeni bir deneme ortamına kaydolabilirsiniz.
+    > Talent aboneliğinin bir parçası olarak yalnızca iki LCS ortamına izin verildiğinden, ücretsiz 60 günlük [Talent deneme ortamından](https://dynamics.microsoft.com/talent/overview/) yaralanmayı düşünebilirsiniz. Deneme ortamı, talep eden kullanıcıya ait olmakla birlikte, diğer kullanıcılar Ana İK için sistem yönetimi deneyimi aracılığıyla davet edilebilir. Deneme ortamları, programı güvenli bir şekilde keşfetmek için kullanılabilen hayali veriler içerir. Üretim ortamı olarak kullanılmaları amaçlanmamıştır. Deneme ortamının 60 gün sonra geçersiz olduğunda ortamdaki tüm verilerin silineceğini ve kurtarılamayacağını unutmayın. Mevcut ortam geçersiz olduktan sonra yeni bir deneme ortamına kaydolabilirsiniz.
 
 ## <a name="select-a-powerapps-environment"></a>PowerApps ortamı seçme
 
-Talent ve PowerApps ortamları arasındaki tümleştirme, PowerApps araçlarını kullanarak Talent verilerinin kullanımını tümleştirmenizi ve genişletmenizi sağlar. PowerApps ortamlarının amacını anlamak yalnızca Talent'ı genişletecek uygulamalar oluşturmanıza değil, Talent'ı sağlarken doğru ortamı seçmenize de yardımcı olur. PowerApps ortamları hakkında ortamın kapsamı, ortama erişim ile ortam oluşturma ve seçme de dahil olmak üzere bilgi edinmek için bkz. [PowerApps ortamları duyurusu](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). 
+Talent ve PowerApps ortamları arasındaki tümleştirme, PowerApps araçlarını kullanarak Talent verilerinin kullanımını tümleştirmenizi ve genişletmenizi sağlar. PowerApps ortamlarının amacını anlamak yalnızca Talent'ı genişletecek uygulamalar oluşturmanıza değil, Talent'ı sağlarken doğru ortamı seçmenize de yardımcı olur. PowerApps ortamları hakkında ortamın kapsamı, ortama erişim ile ortam oluşturma ve seçme de dahil olmak üzere bilgi edinmek için bkz. [PowerApps ortamları duyurusu](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
 Talent'ı hangi PowerApps ortamına dağıtacağınızı belirlerken aşağıdaki yönergeleri kullanın: 
 
@@ -84,9 +84,9 @@ Talent'ı hangi PowerApps ortamına dağıtacağınızı belirlerken aşağıdak
    
     - **Deneme ortamları** - Bu ortamlar, bir bitiş tarihiyle oluşturulmuştur ve bu süreden sonra süreleri dolar, bu da ortamlarınızın ve içlerinde bulunan tüm Talent kurulumlarının otomatik olarak kaldırılmasına neden olur.
    
-    - **Desteklenmeyen bölgeler** - Talent şu anda yalnızca şu bölgelerde desteklenmektedir: Amerika Birleşik Devletleri, Avrupa, Birleşik Krallık veya Avustralya.
+    - **Desteklenmeyen bölgeler** - Talent şu anda yalnızca şu bölgelerde desteklenmektedir: Amerika Birleşik Devletleri, Avrupa, Birleşik Krallık veya Avustralya, Kanada ve Asya.
   
 6. Kullanılacak doğru ortamı belirledikten sonra, sağlama işlemine devam edebilirsiniz. 
  
 ## <a name="grant-access-to-the-environment"></a>Ortama erişim izni verme
-Varsayılan olarak, ortamı oluşturan genel yöneticinin ortama erişimi vardır. Ancak ek uygulama kullanıcılarına erişim izninin açıkça verilmesi gerekir. Erişim izni vermek için Core HR ortamında kullanıcılar ekleyin ve kullanıcılara uygun roller atamanız gerekir. Talent'ı dağıtan genel yönetici, başlatmayı tamamlamak ve diğer kiracı kullanıcılar için erişim sağlamak üzere Attract ve Onboard uygulamalarını da başlatmalıdır.  Bu gerçekleştirilene kadar, diğer kullanıcılar Attract ve Onboard uygulamalarına erişemez ve erişim ihlali hataları alır. Daha fazla bilgi için bkz. [Yeni kullanıcılar oluşturmak](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ve [Kullanıcıları güvenlik rollerine atamak](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Varsayılan olarak, ortamı oluşturan genel yöneticinin ortama erişimi vardır. Ancak ek uygulama kullanıcılarına erişim izninin açıkça verilmesi gerekir. Erişim izni vermek için Core HR ortamında kullanıcılar ekleyin ve kullanıcılara uygun roller atamanız gerekir. Talent'ı dağıtan genel yönetici, başlatmayı tamamlamak ve diğer kiracı kullanıcılar için erişim sağlamak üzere Attract ve Onboard uygulamalarını da başlatmalıdır.  Bu gerçekleştirilene kadar, diğer kullanıcılar Attract ve Onboard uygulamalarına erişemez ve erişim ihlali hataları alır. Daha fazla bilgi için bkz. [Yeni kullanıcılar oluşturmak](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ve [Kullanıcıları güvenlik rollerine atamak](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 32eb177da53ffa4cf8ecdc73a93e88f30778f69c
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729806"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791988"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a>Dynamics 365 for Talent'taki yenilikler veya değişiklikler (Temmuz 2019)
 
@@ -37,13 +37,18 @@ Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikle
 
 Şimdi e-posta ayarlarını, kuruluşunuzun e-posta hizmeti hesabından aday, görüşmeciler, iş verenler ve işe alma yöneticilerine gönderilen e-postalar olacak şekilde yapılandırabilirsiniz. Daha fazla bilgi için bkz. [E-posta hizmet hesabına bağlanma](./attract-configure-email-settings.md#connect-an-email-service-account).
 
-#### <a name="offer-email-templates"></a>E-posta şablonlarını teklif et 
+### <a name="offer-email-templates"></a>E-posta şablonlarını teklif et 
 
 Artık, organizasyonunuzun e-posta şablonlarını, hazırlık, onaylama ve kabul sırasında tüm aşamalar için yapılandırabilirsiniz. Kullanıcılar varsayılan şablonu kullanabilir ya da e-posta göndermeden önce özelleştirebilir. Daha fazla bilgi için bkz. [E-posta şablonu ayarlarını yapılandırma](./attract-configure-email-settings.md#configure-email-template-settings).
 
 ### <a name="candidate-consent-on-application"></a>Uygulamada aday izni
 
 Artık kuruluşunuz için Hüküm ve Koşullar bağlantısını etkinleştirebilirsiniz. Bu ayar etkinleştirildiğinde, aday iş uygulamalarını göndermeden önce Hüküm ve Koşulları kabul etmelidir. 
+
+### <a name="coming-soon-in-attract"></a>Yakın zamanda Attract'e geliyor
+#### <a name="job-approvals-appear-on-the-home-page"></a>Giriş sayfasında görünecek iş onayları
+
+Onaylar, panonun bir **Onaylar** bölümünde görüntülenir. Onaylayanlar, iş kodunu, başlığı, diğer onaylayanları ve atanan işi görüntüleyen, **size atanan** altında onayları gözden geçirebilir. Bir işi onaya gönderen kullanıcılar **Sizin tarafından talep edilen** işi onaylaması gereken onaylayanları görüntüleyen, size ait işleri gözden geçirebilir.
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
 

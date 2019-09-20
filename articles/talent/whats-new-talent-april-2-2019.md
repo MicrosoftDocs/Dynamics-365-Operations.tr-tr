@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: andreabichsel
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8f488b0bf844fc04f07fedfa447073cdeabacc15
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519281"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795256"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Dynamics 365 for Talent'deki yenilikler veya değişiklikler (2 Nisan 2019)
 
@@ -57,13 +57,13 @@ Attract ve Onboard içinde, problemler son kullanıcılar tarafından, bir probl
 Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2216 için geçerlidir.
 
 ### <a name="platform-update-25"></a>Platform güncelleştirmesi 25
-Platform güncelleştirmesi 25 hakkında daha fazla bilgi için bkz. [Dynamics 365 for Finance and Operations platform güncelleştirmesi 25 (Nisan 2019) içindeki önizleme özellikleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+Platform güncelleştirmesi 25 hakkında daha fazla bilgi için bkz. [Dynamics 365 for Finance and Operations platform güncelleştirmesi 25 (Nisan 2019) içindeki önizleme özellikleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Gelişmiş ücret güvenliği (sabit ve değişken)
 Pek çok kuruluşta, ücret ve kazanç yöneticilerinin yalnızca belirli ücret kayıtlarına erişimi olabilir. Bunlar, yöneticiler veya bölgesel çalışanlar için kayıtlar içerebilir. Bu değişiklik, İK yöneticilerinin kuruluştaki farklı çalışan grupları için ücretlendirme planlarını yönetmelerine ve tutmalarına yardımcı olur. Sabit ve değişken planlara güvenlik rolleri atayabilirsiniz. Bu güvenlik rolleri, planlara ve ilgili çalışan verisine erişimi belirler, örneğin maaş ve ikramiye kayıtları gibi, böylece yalnızca bu roller personel grupları için ücretlendirmeyi işleyebilirler.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'a yükseltin
-Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezine oturum açarak veritabanınızın yükseltilmeye ihtiyacı olup olmadığını görün. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezine oturum açarak veritabanınızın yükseltilmeye ihtiyacı olup olmadığını görün. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Ön izlemede
 

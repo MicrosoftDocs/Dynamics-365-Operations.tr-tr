@@ -1,6 +1,6 @@
 ---
-title: Attract'ta kariyer sitesi işlevi
-description: Bu konu, Attract içinde adaya yönelik site işlevi hakkında genel bakış sağlar.
+title: Microsoft Dynamics 365 for Talent - Attract'ta kariyer sitenizi ayarlama
+description: Bu konu, Microsoft Dynamics 365 for Talent - Attract içinde adaya yönelik site işlevi hakkında genel bakış sağlar.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729715"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739783"
 ---
-# <a name="career-site-functionality-in-attract"></a>Attract'ta kariyer sitesi işlevi
+# <a name="set-up-your-career-site"></a>Kariyer sitenizi ayarlama
 
 [!include[banner](../includes/banner.md)]
 
@@ -131,7 +131,7 @@ Pozisyonlar için adayların başvurmasını Attract'in onlara LinkedIn aracıl�
 1. Attract'e bir yönetici olarak oturum açın.
 2. **Ayarlar** düğmesini (çark simgesi) sayfanın sağ üst köşesinde seçin ve sonra **Yönetici merkezini** seçin.
 3. **LinkedIn Tümleştirmesi** sekmesini seçin ve bir LinkedIn Recruiter hesabı ile bağlayın.
-4. **LinkedIn Recruiter System Connect  Tümleştirmesi** bölümünde, **LinkedIn ile başvur** ayarı için **Etkin**'i seçin.
+4. **LinkedIn Recruiter System Connect Tümleştirmesi** bölümünde, **LinkedIn ile başvur** ayarı için **Etkin**'i seçin.
 
 Ayarı etkinleştirdikten sonra, adaylar mevcut LinkedIn profil verilerini kullanarak başvurabilirler. Adaylar **LinkedIn ile başvur** düğmesini seçtiklerinde, halihazırda oturum açmamışlarsa, LinkedIn ile kimlik doğrulamaları istenir. Kimlik doğruladıktan sonra, LinkedIn profilleri, uygulama sayfasında gösterilen mevcut tüm profil verisini değiştirir. Adaylar, bilgiyi ihtiyaç duydukları şekilde düzenleyebilir ve başvuruyu gönderebilirler. Bir aday, işe başvurmadan sayfadan giderse, profil verileri Attract içinde güncelleştirilmez.
 

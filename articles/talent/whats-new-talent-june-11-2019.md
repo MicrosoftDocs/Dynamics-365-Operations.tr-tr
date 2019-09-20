@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 42b9541b152d2a6daa1dbf95ecf30a2f51eb36f3
-ms.sourcegitcommit: 31a918d357a7182f3870713a9c4455bd5c44cd58
+ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "1634492"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741640"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Dynamics 365 for Talent'taki yenilikler veya değişiklikler (Haziran 11 2019)
 
@@ -76,9 +76,9 @@ Görev grubu varlığı eklendi.
 
 ### <a name="preview-features-will-be-enabled-only-in-sandbox-environments"></a>Önizleme özellikleri yalnızca korumalı alan ortamlarında etkinleştirilecek
 
-Değişikliklerin nasıl yayımlanacağı hakkında daha fazla bilgi için, bkz [Talent sağlama](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Değişikliklerin nasıl yayımlanacağı hakkında daha fazla bilgi için, bkz [Talent sağlama](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
-Talent'ın yeni bir örneğini oluşturduğunuzda, örnek türünün Üretim veya Korumalı alan olduğunu belirtebilirsiniz. Korumalı alan türünün örnekleri yeni özelliklerin erken test edilmesine izin verir. Varolan tüm Talent örnekleri **Üretim** örneği türüne güncelleştirilecek. Varolan örneklerden birinin **Korumalı alan** örneği türüne güncelleştirilmesini istiyorsanız değişiklik isteğini başlatmak için  [Destek](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) başvurun.
+Talent'ın yeni bir örneğini oluşturduğunuzda, örnek türünün Üretim veya Korumalı alan olduğunu belirtebilirsiniz. Korumalı alan türünün örnekleri yeni özelliklerin erken test edilmesine izin verir. Varolan tüm Talent örnekleri **Üretim** örneği türüne güncelleştirilecek. Varolan örneklerden birinin **Korumalı alan** örneği türüne güncelleştirilmesini istiyorsanız değişiklik isteğini başlatmak için  [Destek](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) başvurun.
 
 ### <a name="restrict-the-leave-types-in-time-off-requests"></a>İzin taleplerindeki izin türlerini kısıtlama
 

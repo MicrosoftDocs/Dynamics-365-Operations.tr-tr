@@ -19,14 +19,15 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 360937b807ea149edb2f16ad6799d74791d599b5
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729807"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739507"
 ---
-# <a name="configure-email-settings-in-microsoft-dynamics-365-for-talent---attract"></a>E-posta ayarlarını Microsoft Dynamics 365 for Talent - Attract'ta Yapılandır
+# <a name="configure-email-settings"></a>E-posta ayarlarını yapılandırma
+
 [!include[banner](../includes/banner.md)]
 
 Markanız güven oluşturur ve pozisyonlarınıza başvurmadan önce adaylarla bir ilişki kurmanıza yardımcı olur. Olumlu marka algısı en yeteneklilerin ilgisini çeker ve mevcut çalışanların da bağlılığını kuvvetlendirir. Microsoft Dynamics 365 for Talent: Attract şirketinizin markasını yansıtması için e-postaları yapılandırmanızı sağlar. Bu nedenle, iş adaylarıyla başvuru süreci boyunca tutarlı bir deneyim sağlayabilirsiniz.

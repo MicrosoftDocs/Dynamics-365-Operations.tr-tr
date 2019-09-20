@@ -1,6 +1,6 @@
 ---
-title: İşe alım süreci öngörüleri için analitik raporları kullanma
-description: Bu konu Attract'taki analitik raporları açıklar
+title: Microsoft Dynamics 365 for Talent - Attract analitik raporlar kullanımı
+description: Bu konuda, Microsoft Dynamics 365 for Talent - Attract'ta işlem öngörüleri için işe alma analitik raporları açıklanmaktadır
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516572"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742905"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>İşe alım süreci öngörüleri için analitik raporları kullanma
+# <a name="use-analytic-reports"></a>Analitik raporları kullanma
 
 Attract'taki analitik raporlar, işe alım işlemi öngörüleriniz için kullanıma hazır (OOTB) bir çözüm sağlar. Kullanılabilir özellikler şunları içerir:
 
@@ -81,8 +81,8 @@ Attract raporlarına Yönetici, Tümünü Oku, İşe Alma Görevlisi ve İşe Al
 
 ## <a name="cross-filter"></a>Çapraz filtreleme
 
-Power BI'nin harika özelliklerinden biri, bir rapor sayfasındaki tüm görsellerin birbirlerine bağlı olma şeklidir. Görsellerin birinde bir veri noktası seçerseniz, seçimi temel alarak bu veriyi içeren sayfadaki tüm görseller değişir. Daha fazla bilgi edinmek ve bir örnek görüntülemek için bkz. [Power BI raporunda görseller birbirlerine nasıl çapraz filtre uygular](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions).
+Power BI'nin harika özelliklerinden biri, bir rapor sayfasındaki tüm görsellerin birbirlerine bağlı olma şeklidir. Görsellerin birinde bir veri noktası seçerseniz, seçimi temel alarak bu veriyi içeren sayfadaki tüm görseller değişir. Daha fazla bilgi edinmek ve bir örnek görüntülemek için bkz. [Power BI raporunda görseller birbirlerine nasıl çapraz filtre uygular](https://docs.microsoft.com/power-bi/consumer/end-user-interactions).
 
 ## <a name="export-to-excel"></a>Excel'e aktar
 
-Rapor verilerini Excel'de görüntülemek için görseldeki seçenekler menüsüne (üç nokta) tıklayıp **Temel alınan verileri dışa aktar**'ı seçebilirsiniz. Dışa aktarılan veriler Attract'taki kullanıcı izinleri dikkate alınarak filtrelenmiş aktarılır. Daha fazla bilgi için bkz. [Görselleştirmelerden dışa veri aktarma](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data).
+Rapor verilerini Excel'de görüntülemek için görseldeki seçenekler menüsüne (üç nokta) tıklayıp **Temel alınan verileri dışa aktar**'ı seçebilirsiniz. Dışa aktarılan veriler Attract'taki kullanıcı izinleri dikkate alınarak filtrelenmiş aktarılır. Daha fazla bilgi için bkz. [Görselleştirmelerden dışa veri aktarma](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).

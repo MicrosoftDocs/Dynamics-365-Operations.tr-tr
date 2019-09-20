@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620632"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741764"
 ---
 # <a name="intelligent-recommendations"></a>Akıllı öneriler
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620632"
 Makine öğrenimi, işe alanlar ve işe alım yöneticilerinin bir pozisyon için üst adayları hızlı bir şekilde tanımlamasına yardımcı olur. Adayların ilgi alanları ve profiline en uygun pozisyonu bulmakta da yardımcı olur. Bu özellikler kullanılır ve geribildirim sağlanırsa öneriler artar.
 
 > [!NOTE] 
-> - Akıllı öneri özellikleri, yalnızca [Kapsamlı işe alım eklentisinde](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring) kullanılabilir.
+> - Akıllı öneri özellikleri, yalnızca [Kapsamlı işe alım eklentisinde](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) kullanılabilir.
 > - Bu konuda belirtilen işlev önizleme sürümünün bir parçası kullanılabilir. İçerik ve işlevde değişiklik yapılabilir. Bu özelliği kullanmak için bir yöneticinin Attract içinde **Yönetim merkezi**'ni kullanarak etkinleştirmesini isteyin. **Aday önerisi**, **İş önerisi** ve **Müşteri adayı önerisi**, **Açık**. Daha fazla bilgi için bkz [Talent içinde önizleme özelliklerine erişin](./access-preview-feature.md). 
 
 

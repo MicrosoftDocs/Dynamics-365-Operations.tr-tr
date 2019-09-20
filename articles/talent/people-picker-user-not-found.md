@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d5a2c61fc21578d1db4c1bf0c3dfaf0c7a93298c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519300"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742761"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Azure Active Directory kullanıcıları Kişi Seçici'de bulunamadı
 
@@ -36,9 +36,9 @@ Kiracı için Microsoft Azure Active Directory (Azure AD) içindeki çeşitli ge
 
 Çeşitli kullanıcı türleri Attract ve Onboard uygulamalarında şu anda desteklenmiyor. Kullanıcının bir Azure AD Business to Business (B2B) misafir kullanıcısı olmadığından emin olun. "Kullanıcı Türü" bilgisi, Azure portalındaki Azure Active Directory dikey pencere taşında bulunabilir.
 
-Azure B2B hakkında daha fazla bilgi için bkz. [Azure Active Directory B2B'de misafir kullanıcı erişimi nedir](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b).
+Azure B2B hakkında daha fazla bilgi için bkz. [Azure Active Directory B2B'de misafir kullanıcı erişimi nedir](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 
-B2B olmayan kullanıcılar için bazı kullanıcılar eksik "Kullanıcı Türü" özelliğine **Kullanıcı** nesnesi üzerinde sahip olabilirler. Bu, Azure AD PowerShell modülü kullanılarak düzeltilebilir. Daha fazla bilgi için [Azure AD](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0) konusuna bakın.
+B2B olmayan kullanıcılar için bazı kullanıcılar eksik "Kullanıcı Türü" özelliğine **Kullanıcı** nesnesi üzerinde sahip olabilirler. Bu, Azure AD PowerShell modülü kullanılarak düzeltilebilir. Daha fazla bilgi için [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0) konusuna bakın.
 
 ## <a name="resolution"></a>Çözünürlük
 

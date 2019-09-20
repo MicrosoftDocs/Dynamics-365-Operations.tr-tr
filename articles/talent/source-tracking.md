@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: ebc82ada31d2803800358cd9aecfe389ada8f0dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2cfa180f992a4f7a9b2e21e0fb3e0845c7546c94
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519338"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742738"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Aday profilleri ve başvurular için kaynakları izleme 
+# <a name="track-candidate-sources"></a>Aday kaynaklarını izleme
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE] 
-> Bu konuda belirtilen işlev önizleme sürümünün bir parçası kullanılabilir. İçerik ve işlevde değişiklik yapılabilir. Bu özelliği kullanmak için bir yöneticinin Attract içinde **Yönetim ayarları**'nı kullanarak etkinleştirmesini isteyin. Gelecekteki bir sürüm kaynak izleme raporları sağlayacaktır. Daha fazla bilgi için bkz [Talent içinde önizleme özelliklerine erişin](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature).
+> Bu konuda belirtilen işlev önizleme sürümünün bir parçası kullanılabilir. İçerik ve işlevde değişiklik yapılabilir. Bu özelliği kullanmak için bir yöneticinin Attract içinde **Yönetim ayarları**'nı kullanarak etkinleştirmesini isteyin. Gelecekteki bir sürüm kaynak izleme raporları sağlayacaktır. Daha fazla bilgi için bkz [Talent içinde önizleme özelliklerine erişin](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 Adaylar bir işe başvurduğunda, Attract, otomatik olarak başvurunun kaynağını izler, size işe alma çabanızda yardımcı olacak değerli bilgiler sağlar. İşe alımcılar ve işe alma yöneticileri de bir adayı el ile bir işe veya yetenek havuzuna eklerken bir başvuru kaynağı seçebilirler.
 
 **Etkinlik** sekmesi altında, başvuru etkinliği ayrıntılarında başvuru kaynağını görüntüleyebilirsiniz ve ayrıca, başvuru geçmişinde yetenek havuzları altında bulunan **Profil** içinde. Bir adayın profil kaynağını aday ayrıntıları altında **Profil** sekmesinde, her iki başvuru ve yetenek havuzunda bulabilirsiniz.
 
 > [!NOTE] 
-> İşlem şablonlarını [Kapsamlı işe alma eklentisinde](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring) bulabilirsiniz.
+> İşlem şablonlarını [Kapsamlı işe alma eklentisinde](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) bulabilirsiniz.
 
 ## <a name="pre-configured-sources"></a>Önceden yapılandırılmış kaynaklar
 
@@ -93,7 +93,7 @@ Varsayılan kaynak listesi, genel başvuru kaynaklarını içerir. Bazı kaynak 
 
 ## <a name="customize-the-source-list"></a>Kaynak listesini özelleştir 
 
-Kaynak listesini, ek başvuru kaynakları içermek üzere genişletebilirsiniz. Bu listeyi özelleştirmek için, [Attract içinde Seçenek Kümelerini Genişletmek](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract) içindeki talimatları izleyin. **TalentSource** varlığını, ek kaynakları dahil etmek için düzenleyin. 
+Kaynak listesini, ek başvuru kaynakları içermek üzere genişletebilirsiniz. Bu listeyi özelleştirmek için, [Attract içinde Seçenek Kümelerini Genişletmek](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract) içindeki talimatları izleyin. **TalentSource** varlığını, ek kaynakları dahil etmek için düzenleyin. 
 
 Kullanıcı arabirimini (UI) olumsuz etkilemekten kaçınmak için aşağıdakilerin **TalentCategory** enum değerlerini (isimleri değil) düzenlemeyi veya silmeyin:
 

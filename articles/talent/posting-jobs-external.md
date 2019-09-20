@@ -17,42 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590494"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739829"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>Attract'tan harici kariyer sitelerinde iş ilanları yayınlama
+# <a name="post-jobs-to-broadbean"></a>Broadbean'de iş ilanları yayınlama
 
 [!include [banner](../includes/banner.md)]
 
-Açık pozisyonlarınızı olabildiğince fazla kalifiye adayın önüne sunmak istersiniz. Broadbean gibi işe alma siteleri bu hedefinizi gerçekleştirmeye yardımcı olur. Microsoft Dynamics 365 Talent: Attract, şimdi Broadbean'e iş ilanları vermenize olanak sağlar ve Microsoft düzenli olarak bu alanda yeni olanaklar sağlar.
+Microsoft Dynamics 365 for Talent: Attract, işlerinizi doğrudan Attract'tan Broadbean'e nakletmenize izin vererek gereksinim duyduğunuz yetenekleri elde etmenize yardımcı olur. [Bir iş oluşturduktan](./creating-jobs-attract.md) sonra, işinizi Broadbean'deki olası tüm iş adayları önüne koymak için bir düğmeye tıklamanız yeterlidir.
 
-## <a name="post-jobs-to-broadbean"></a>Broadbean'e iş ilanları vermek
+Projelerin Broadbean için deftere nakli uygun bir Broadbean lisansı gerektirir. Broadbean çeşitli ürün ve planlar sunar. Broadbean lisanslama ve fiyatlandırma hakkında daha fazla bilgi için [Broadbean'e başvurun](https://www.broadbean.com/contact-us/).
 
-Broadbean'e iş ilanları verebilmeden önce, Broadbean tümleştirmesini yapılandırmanız gerekir.
+Attract ile Broadbean tümleştirmeyi konfigüre etme hakkında daha fazla bilgiye gereksinim duyan bir yöneticiniz varsa, [Harici iş panoları için ayar girme](./attract-admin-job-board-settings.md) bölümüne bakın.
 
-> [!NOTE]
-> - Harici sitelere iş ilanı verebilmek için [Kapsamlı işe alma eklentisine](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) sahip olmanız gerekir.
-> - Attract üzerinden Broadbean'a iş göndermek için bir Broadbean aboneliğine sahip olmanız gerekir.
-> - Bu özellik şu anda önizlemededir. Denemek isterseniz, [Attract yönetici ayarlarında açmanız gerekir](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
-
-### <a name="configure-broadbean-integration"></a>Broadbean tümleştirmesini yapılandırın
-
-1. Attract'e bir yönetici olarak oturum açın.
-2. **Ayarlar** düğmesini (çark simgesi) sayfanın sağ üst köşesinde seçin ve sonra **Yönetici merkezini** seçin.
-3. **İş panosu ayarları** sekmesinde, **Broadbean tümleştirmesini etkinleştir** bölmesinde, tümleştirmeyi açın.
-4. Broadbean ile iletişime geçin ve **Kullanıcı adı, İstemci Kimliği, Şifreleme Belirteci** içerisine bilgilerinizi girin.
-
-> [!WARNING]
-> Broadbean kimlik bilgileriniz hassas ve gizlidir. Bu nedenle, bunları dikkatli bir biçimde depolayın ve paylaşın. Attract içinde Yönetici rolüne sahip herkes bu kimlik bilgilerini görebilir.
-
-> [!NOTE]
-> Microsoft ve Attract, bu değerleri oluşturmak ve saklanmakta söz sahibi değildir. Attract için bunları güncel tutmak ve kimlik bilgileriniz içeren herhangi bir sorunu Broadbean ile işbirliği yaparak çözmek sizin sorumluluğunuzdur.
-
-### <a name="post-a-job-to-broadbean"></a>Broadbean'e bir iş ilanı vermek
+## <a name="post-jobs-to-broadbean"></a>Broadbean'de iş ilanları yayınlama
 
 Broadbean açıldıktan sonra, işe alımcılar ve yöneticiler buraya iş ilanı gönderebilirler. İş için bir başvur URL'sine sahip olmanız gerekir.
 
@@ -80,7 +62,7 @@ Broadbean ilan vermeyi başarıyla tamamladıktan sonra, Attract içindeki **İl
 Bir işi Broadbean'e aktardıktan sonra, Attract içinden görüntüleyebilirsiniz.
 
 1. Attract içinde, Broadbean'de görüntülemek istediğiniz işi açın.
-2. **İlanlar** bölümünde, Broadbeana'e karşılık gelen üç nokta düğmesini seçin (**...**) ve sonra **Görüntüle**'yi seçin.
+2. **İlanlar** sekmesinde, Broadbeana'e karşılık gelen üç nokta düğmesini seçin (**...**) ve sonra **Görüntüle**'yi seçin.
 
 Broadbean iş ilanı yeni pencerede görüntülenir.
 
@@ -107,10 +89,16 @@ Bir iş ilanını Broadbean'den ihtiyaç duyduğunuzda kaldırabilirsiniz.
 
 Broadbean işi kaldırdıktan sonra, Attract içindeki Broadbean öğesi bir **Şimdi İlan Ver** düğmesine sahip olur. Bu düğmenin varlığı, işin kaldırıldığını ve yeniden ilan verilebileceğini gösterir.
 
-### <a name="troubleshoot-the-broadbean-integration"></a>Broadbean tümleştirmesi ile ilgili sorunları giderme
+### <a name="troubleshoot-job-posting-to-broadbean"></a>Broadbean'e iş nakil sorunlarını gider
 
 Bir işi Broadbean'e ilan vermekte zorluk çekiyorsanız şu adımları deneyin.
 
 1. Attract içine girmiş olduğunuz Broadbean kimlik bilgilerinin doğru ve geçerli olduğunu doğrulayın.
 2. Kimlik bilgileri geçerli ve doğruysa, [Broadbean destek](https://www.broadbean.com/resources/support/) ile iletişime geçin.
 3. Sorun devam ederse, [Microsoft destek](./talent-support.md) ile iletişime geçin.
+
+## <a name="see-also"></a>Ayrıca bkz.
+
+[İşler oluşturma](./creating-jobs-attract.md)
+
+[Harici iş panoları için ayarları girin](./attract-admin-job-board-settings.md)

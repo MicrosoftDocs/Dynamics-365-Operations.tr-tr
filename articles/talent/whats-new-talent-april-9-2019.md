@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25ef0d49c2600833aefa84d404e00c0c57cfbf52
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519283"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856436"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Dynamics 365 for Talent'deki yenilikler veya değişiklikler (9 Nisan 2019)
 
@@ -37,10 +37,10 @@ Bu konuda, Dynamics 365 for Talent'daki yeni veya değişen özellikler açıkla
 Attract ve Onboard içinde, sorunlar son kullanıcılar tarafından, bir problem raporla özelliği tarafından kaydedilen sorunlar artık otomatik olarak müşterinin LCS projesinde destek talepleri oluşturur. Yöneticiler, sorunları daha sonra gözden geçirebilir ve ihtiyaç duyulursa Microsoft'a gönderebilir. Bu, Core HR'ın son kullanıcı sorunlarını nasıl el aldığıyla tutarlıdır.
 
 ### <a name="relevance-search"></a>İlgi araması
-Yetenek havuzlarında, artık tüm aday veritabanınızı belirli yetenekler, adlar veya eğitim arka planı için arayabilirsiniz. Bir adayın profilinin hangi bölümünü aramak istediğinizi belirtmenize artık gerek yoktur. Attract, profilin tamamını arar ve bulunan tüm eşleşmeleri vurgular. Attract ayrıca bir aday için bir aday için mevcut olan tüm belgeleri arar ve arama sonuçlarını akıllıca sıralar. Ek olarak, sonuçları bir kaynak ve bir gümüş madalyalı olup olmadıklarına göre filtreleyebilirsiniz. Daha fazla bilgi için bkz. [Aday profillerini arayın ve görüntüleyin](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles)
+Yetenek havuzlarında, artık tüm aday veritabanınızı belirli yetenekler, adlar veya eğitim arka planı için arayabilirsiniz. Bir adayın profilinin hangi bölümünü aramak istediğinizi belirtmenize artık gerek yoktur. Attract, profilin tamamını arar ve bulunan tüm eşleşmeleri vurgular. Attract ayrıca bir aday için bir aday için mevcut olan tüm belgeleri arar ve arama sonuçlarını akıllıca sıralar. Ek olarak, sonuçları bir kaynak ve bir gümüş madalyalı olup olmadıklarına göre filtreleyebilirsiniz. Daha fazla bilgi için bkz. [Aday profillerini arayın ve görüntüleyin](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles)
 
 ### <a name="prospect-recommendations"></a>Aday önerileri
-Attract, onu etkileştirmenizle birlikte, kuruluşun aday veri tabanından akıllı aday önerilerini sunarak bir iş için kaynak bulmanıza yardımcı olabilir. Öneriler, ilgili adayları ararken tanımlanmış yetenekleri ve eğitim bilgisinin içerir. Bu öneriler, bir iş altında **Öneriler** sekmesi altında belirir, eğer işin işe alım süreci boyunca etkinleştirirseniz. Daha fazla bilgi için bkz. [Aday önerileri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
+Attract, onu etkileştirmenizle birlikte, kuruluşun aday veri tabanından akıllı aday önerilerini sunarak bir iş için kaynak bulmanıza yardımcı olabilir. Öneriler, ilgili adayları ararken tanımlanmış yetenekleri ve eğitim bilgisinin içerir. Bu öneriler, bir iş altında **Öneriler** sekmesi altında belirir, eğer işin işe alım süreci boyunca etkinleştirirseniz. Daha fazla bilgi için bkz. [Aday önerileri](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
 
 ### <a name="interviewer-availability-statuses"></a>Mülakatçı uygunluk durumları
 Mülakat zamanlayıcıları yakında **Ofis dışında, başka yerde çalışıyor** durumlarını mülakatçılar için görüntüleyebileceklerdir, bu da mülakatılar için daha uygun zamanlamalar yapmalarına yardımcı olur.

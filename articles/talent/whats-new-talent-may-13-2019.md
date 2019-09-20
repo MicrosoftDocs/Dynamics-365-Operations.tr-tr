@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: dac453ee83492655b6681b9784af4712bf39fc2a
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: ffeeb3e2f5279a84c4c060b04fe46836b778f6c5
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591514"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856460"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-13-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (13 Mayız 2019)
 
@@ -47,7 +47,7 @@ Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2297 için geçer
 
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Talent'ta sağlarken örnek türünü gösterme
 
-Talent'ın yeni bir örneğini sağlarken yeni özelliklerin erken sınanmasına izin vererek örnek türünün **Üretim** veya **Korumalı alan** olduğunu belirtebileceksiniz. Varolan tüm Talent örnekleri **Üretim** örneği türüne güncelleştirilecek. Varolan örneklerden birinin **Korumalı alan** örneği türüne güncelleştirilmesini istiyorsanız, lütfen değişiklik isteğini başlatmak için [Desteğe](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) başvurun.
+Talent'ın yeni bir örneğini sağlarken yeni özelliklerin erken sınanmasına izin vererek örnek türünün **Üretim** veya **Korumalı alan** olduğunu belirtebileceksiniz. Varolan tüm Talent örnekleri **Üretim** örneği türüne güncelleştirilecek. Varolan örneklerden birinin **Korumalı alan** örneği türüne güncelleştirilmesini istiyorsanız, lütfen değişiklik isteğini başlatmak için [Desteğe](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) başvurun.
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Özel alanlar için Common Data Service varlığı desteği
 
