@@ -1,9 +1,9 @@
 ---
-title: Tedarik zinciri yönetimi giriş sayfası
-description: Bu sayfada Microsoft Dynamics 365 for Finance and Operations'ta tedarik zinciri yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
-author: ShylaThompson
+title: Supply Chain Management için yardım kaynakları
+description: Bu sayfada Supply Chain Management özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557604"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278336"
 ---
-# <a name="supply-chain-management-home-page"></a>Tedarik zinciri yönetimi giriş sayfası
+# <a name="help-resources-for-supply-chain-management"></a>Supply Chain Management için yardım kaynakları
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda Microsoft Dynamics 365 for Finance and Operations'ta tedarik zinciri yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır. 
+Bu konuda Dynamics 365 Supply Chain Management'ta yardım konuları ve diğer kaynakların listesi sunulmaktadır. 
 
 ## <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için <a href="https://roadmap.dynamics.com/">Dynamics 365 Yol Haritası</a> başlıklı makaleye gidin. 
@@ -38,9 +38,10 @@ Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için <a href="ht
 
 Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 
+- [Varlık yönetimi](asset-management/index.md)
 - [Maliyet muhasebesi](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Maliyet yönetimi](cost-management/cost-management-home-page.md)  
-- [Stok yönetimi](inventory/inventory-home-page.md)
+- [Stok Yönetimi](inventory/inventory-home-page.md)
 - [Master planlama](master-planning/master-planning-home-page.md)
 - [Tedarik ve kaynak atama](procurement/procurement-sourcing-overview.md)
 - [Ürün bilgileri yönetimi](pim/product-information.md)
@@ -49,6 +50,10 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 - [Servis yönetimi](service-management/service-management-home-page.md)
 - [Taşıma yönetimi](transportation/transportation-management-overview.md)
 - [Ambar yönetimi](warehousing/warehouse-configuration.md)
+
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+Dynamics 365 Finance hakkında daha fazla bilgi için [Dynamics 365 Finance yardım kaynakları](../finance/index.md) sayfasına gidin.
 
 ## <a name="videos"></a>Videolar
 
@@ -104,7 +109,7 @@ Bu teknik konferans kayıtlarında Finance and Operations'ın önceki sürümün
 -  [Yeni Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)'teki taşıma yönetimi parametreleri (TMS)
 
 ## <a name="blogs"></a>Bloglar
-<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX İmalat Ar-Ge Ekibi Bloğu</a> ve <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX'te Tedarik Zinciri Yönetimi Ar-Ge Ekibi Bloğu</a>'nda imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü, Finance and Operations'ın önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir. 
+<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX İmalat Ar-Ge Ekibi Blogu</a> ve <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX'te Tedarik Zinciri Yönetimi Ar-Ge Ekibi Blogu</a>'nda imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü, Finance and Operations'ın önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir. 
 
 ## <a name="white-papers"></a>Teknik incelemeler
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Maliyet muhasebesi uygulamalı laboratuvarları</a> 
@@ -113,6 +118,6 @@ Bu teknik konferans kayıtlarında Finance and Operations'ın önceki sürümün
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Ambar'da Microsoft Dynamics 365 for Finance and Operations</a> ile sağlanan hareketlilik
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
-Microsoft Dynamics 365 for Finance and Operations eğitimi hakkında bilgi edinmek için <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Öğrenme Portalı</a>'na bakın. (bunun için CustomerSource hesabı gereklidir) 
+Dynamics 365 eğitimi hakkında bilgi edinmek için bkz. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Öğrenme Portalı</a>. (bunun için CustomerSource hesabı gereklidir) 
 
 
