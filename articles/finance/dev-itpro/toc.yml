@@ -1,0 +1,1620 @@
+- name: Finance and Operations için geliştirme ve yönetim
+  href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Yenilikler veya değişiklikler
+  items:
+    - name: Platform update 30'daki önizleme özellikleri (Kasım 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-30.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 29 (Ekim 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-29.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 28 (Temmuz 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-28.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 27 (Haziran 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-27.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 26 (Mayıs 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-26.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 25 (Nisan 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-25.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 24 (Mart 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-24.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 23 (Ocak 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-23.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 22 (Aralık 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-22.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 21 (Kasım 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-21.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 20 (Eylül 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-20.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 15 (Mart 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-15.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: İş olayları
+  items:
+    - name: İş olaylarına genel bakış
+      href: ../../dev-itpro/business-events/home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uygulama iş olayları
+      href: ../../dev-itpro/business-events/app-business-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İş akışı iş olayları
+      href: ../../dev-itpro/business-events/business-events-workflow.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İş olayları olarak uyarılar
+      href: ../../dev-itpro/business-events/alerts-business-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Microsoft Flow'daki iş olayları
+      href: ../../dev-itpro/business-events/business-events-flow.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İş olayları geliştirici belgeleri
+      href: ../../dev-itpro/business-events/business-events-dev-doc.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İş olayları sorunlarını giderme
+      href: ../../dev-itpro/business-events/troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İş olayları için kullanım örnekleri
+      href: ../../dev-itpro/business-events/potential-use-cases.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Eğitimler
+      items:
+        - name: İş olayları ve Microsoft Flow
+          href: ../../dev-itpro/business-events/how-to/how-to-flow.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İş olayları ve Azure Event Grid
+          href: ../../dev-itpro/business-events/how-to/how-to-eventgrid.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İş olayları ve Azure Service Bus
+          href: ../../dev-itpro/business-events/how-to/how-to-servicebus.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İş olayları ve iş akışı onayları
+          href: ../../dev-itpro/business-events/how-to/how-to-workflow.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İş olayları ve Microsoft Forms Pro
+          href: ../../dev-itpro/business-events/how-to/FormsPro.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İş olayları ve Azure Event Hubs
+          href: ../../dev-itpro/business-events/how-to/event-hub.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Sürekli teslimat
+  items:
+    - name: Sürekli teslimat giriş sayfası
+      href: ../../dev-itpro/dev-tools/continuous-delivery-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Geliştirme ve sürekli teslimatla ilgili SSS
+      href: ../../dev-itpro/dev-tools/continuous-delivery-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Test paketlerini derleme çıktısından çıkarma
+      href: ../../dev-itpro/dev-tools/exclude-test-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Kaynak denetimi kullanarak üçüncü taraf modellerini ve çalışma zamanı paketlerini yönetme
+      href: ../../dev-itpro/dev-tools/manage-runtime-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Otomatik derlemedeki sürüm modellerini güncelleştirme
+      href: ../../dev-itpro/dev-tools/version-models-build.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Veri tümleştirmesi
+  items:
+    - name: Bir veri tümleştirme (içe/dışa aktarma) stratejisi seçme
+      href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Veri tümleştirme API'leri
+      items:
+        - name: Veri yönetimi paketi REST API'sı
+          href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Servis uç noktaları
+          items:
+            - name: Servis uç noktalarına genel bakış
+              href: ../../dev-itpro/data-entities/services-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Servis kimlik doğrulamasıyla ilgili sorun giderme
+              href: ../../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: OData
+          href: ../../dev-itpro/data-entities/odata.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Özel servis geliştirme
+          href: ../../dev-itpro/data-entities/custom-services.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yinelenen tümleştirmeler
+          href: ../../dev-itpro/data-entities/recurring-integrations.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Üçüncü taraf yardımcı programları kullanarak hizmetleri test etme
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Finance and Operations Bağlayıcısı
+      href: ../../dev-itpro/data-entities/fin-ops-connector.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Tümleştirme için geliştirme
+      items:
+        - name: Veri varlıklarını kullanarak veri tümleştirmesi
+          items:
+            - name: Veri varlıklarını kullanarak veri tümleştirmesine genel bakış
+              href: ../../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Veri geçişi için varlık geliştirme
+              href: ../../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bileşik veri varlıkları geliştirme
+              href: ../../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Şirketler arası mali veri paylaşımını yapılandırma
+              href: ../../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Veri girişini kolaylaştırmak için kayıt şablonları oluşturma
+              href: ../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Kayıt şablonlarını kullanarak kayıt oluşturma
+              href: ../../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Common Data Service kullanarak veri tümleştirme
+          items:
+            - name: Common Data Service kullanarak veri tümleştirmeye genel bakış
+              href: ../../dev-itpro/data-entities/data-integration-cds.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Eş zamanlı, çift yönlü tümleştirme'
+              items:
+                - name: Yakın gerçek zamanlı veri tümleştirmesi
+                  href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Common Data Service'da kuruluş hiyerarşisi
+                  href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Common Data Service'da şirket kavramı
+                  href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Tümleşik Müşteri Aslı
+                  href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Birleşik ürün deneyimi
+                  href: ../../dev-itpro/data-entities/dual-write-product.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Tümleşik Satıcı Aslı
+                  href: ../../dev-itpro/data-entities/dual-write-vendor.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Tümleşik siteler ve ambarlar
+                  href: ../../dev-itpro/data-entities/dual-write-sites-and-warehouses.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Başlangıç eşitlemesi
+                  href: ../../dev-itpro/data-entities/dual-write-initial.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Veri tümleştirme sorunlarını giderme
+                  href: ../../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Zaman uyumsuz, tek yönlü tümleştirme'
+              items:
+                - name: Aday müşteriden nakde senaryosu yapılandırma
+                  items:
+                    - name: Aday müşteriden nakde
+                      href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Sales'daki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
+                      href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
+                      href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
+                      href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
+                      href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
+                      href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Finance and Operations'taki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
+                      href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Field Service ile tümleştirmeyi yapılandırma
+                  items:
+                    - name: Field Service ile tümleştirmeyi yapılandırmaya genel bakış
+                      href: ../../supply-chain/sales-marketing/field-service.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Finance and Operations'taki ürünleri Field Service'teki ürünlerle eşitleme
+                      href: ../../supply-chain/sales-marketing/field-service-product.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
+                      href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Field Service'daki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme
+                      href: ../../supply-chain/sales-marketing/field-service-invoice.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Stok transferlerini ve ayarlamalarını Field Service'dan Finance and Operations'a eşitleme
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Stok düzeyi bilgilerini Field Service'dan Finance and Operations'a eşitleme
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Stok birimli ürünleri Finance and Operations'tan Field Service'a eşitleme
+                      href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Proje listesini Finance and Operations'tan Field Service'a eşitleme
+                      href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Ambarları Finance and Operations'tan Field Service'a eşitleme
+                      href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Proje içeren iş emirlerini Field Service'tan Finance and Operations'a eşitleme
+                      href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Project Service Automation tümleştirmesi yapılandırma
+                  items:
+                    - name: Project Service Automation'a genel bakış
+                      href: ../../financials/project-management/PSA-integration.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Project Service Automation tümleştirmesi parametreleri
+                      href: ../../financials/project-management/PSA-parameters.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Proje sözleşmeleri ile projeleri eşitleme
+                      href: ../../financials/project-management/project-contracts-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Proje görevlerini eşitleme
+                      href: ../../financials/project-management/project-tasks-template.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Proje gider kategorilerini eşitleme
+                      href: ../../financials/project-management/project-categories-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Proje tahminleri için proje tahminleriyle eşitleme
+                      href: ../../financials/project-management/project-estimates-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Proje gerçek değerlerini proje tümleştirme günlüğüyle eşitleme
+                      href: ../../financials/project-management/project-actuals-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Harici web hizmetleri kullanma
+      href: ../../dev-itpro/data-entities/consume-external-web-service.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Elektronik mesajlaşma
+      href: ../../financials/general-ledger/electronic-messaging.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Veri yönetimi
+  items:
+    - name: Veri yönetimine genel bakış
+      href: ../../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Veri varlıkları
+      items:
+        - name: Veri varlıklarına genel bakış
+          href: ../../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yapılandırma veri projeleri
+          href: ../../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirketler veya tüzel kişilikler arasında yapılandırma verilerini kopyalama
+          items:
+            - name: Yapılandırma verilerini kopyalamaya genel bakış
+              href: ../../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yapılandırma veri paketleri
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yapılandırma veri paketleri (yalnızca Temmuz 2017 sürümü)
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Varlık Deposunu Data Lake olarak kullanılabilir yapma
+              href: ../../dev-itpro/data-entities/entity-store-data-lake.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yapılandırma veri şablonları
+          href: ../../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Varlık üzerindeki değişiklikleri izleme
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Standart veri varlıkları hakkında bilgileri bulma
+          href: ../../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Birden çok çalışma sayfasına sahip veri şablonları
+          href: ../../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Varlıklar için değişiklik izlemeyi etkinleştirme
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yapılandırma anahtarları ve veri varlıkları
+          href: ../../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yapılandırma veri paketleri
+          href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Veri içe ve dışa aktarma işleri
+      items:
+        - name: Veri içe ve dışa aktarma işlerine genel bakış
+          href: ../../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Genel günlük varlığını kullanarak fişleri içe aktarmaya yönelik en iyi uygulamalar
+          href: ../../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Veri varlıkları için geliştirme
+      items:
+        - name: Tasarım ilkeleri ve veri varlıkları için en iyi yöntemler
+          href: ../../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yeni veri varlıkları oluşturma
+          href: ../../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Veri varlığı özellikleri
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Hesaplanan sütunlar ve sanal alanlar oluşturma
+          href: ../../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirketler arası davranış
+          href: ../../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ülke/bölge kodlarını yönetme
+          href: ../../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Devralma modelleri
+          href: ../../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Veri varlığı sihirbazı kuralları
+          href: ../../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mera veri özellikleri
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Doğrulamalar, varsayılanlar ve eşlenmemiş alanlar'
+          href: ../../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Güvenlik ve veri varlıkları
+          href: ../../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Üçüncü taraf hizmet sınama yardımcı programlarını kullanma
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mali boyutları gösteren salt okunur varlıklar oluşturma
+          href: ../../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Kendi veritabanınızı getirme
+      href: ../../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Otomatikleştirilmiş Varlık deposu yenileme
+      href: ../../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Veri görevi otomasyonu
+      href: ../../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Veri doğrulama denetim listesi çalışma alanı
+      href: ../../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Veri yönetimi hata açıklamaları
+      href: ../../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Veritabanı taşıma işlemleri
+  items:
+    - name: Genel bakış
+      href: ../../dev-itpro/database/dbmovement-operations.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Hızlı başlangıç kılavuzları
+      items:
+        - name: Veritabanını yenileme
+          href: ../../dev-itpro/database/database-refresh.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Veritabanını dışa aktarma
+          href: ../../dev-itpro/database/export-database.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Veritabanını içe aktarma
+          href: ../../dev-itpro/database/import-database.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Veritabanını belirli noktaya geri yükleme
+          href: ../../dev-itpro/database/database-point-in-time-restore.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Eğitimler
+      items:
+        - name: Eğitim amacıyla yenileme
+          href: ../../dev-itpro/database/dbmovement-scenario-general-refresh.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Üretim veritabanı kopyasındaki hataları ayıklama
+          href: ../../dev-itpro/database/dbmovement-scenario-debugdiag.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Standart kullanıcı kabul testi (UAT) veritabanının kopyasını dışa aktarma
+          href: ../../dev-itpro/database/dbmovement-scenario-exportuat.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Altın yapılandırma promosyonu
+          href: ../../dev-itpro/database/dbmovement-scenario-goldenconfig.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bozucu test
+          href: ../../dev-itpro/database/dbmovement-scenario-destructivetests.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Tanıtım verileri
+  items:
+    - name: Tanıtım verilerine genel bakış
+      href: ../../fin-and-ops/get-started/demo-data.md?toc=/dynamics365/unified-operations/financials/toc.json?toc=/dev-itpro/toc.json
+    - name: Veri paketleri kullanarak tanıtım verileri oluşturma
+      href: ../../dev-itpro/data-entities/generate-demo-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Dağıtım
+  items:
+    - name: Tanıtım ortamlarını dağıtma
+      href: ../../dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Bulut dağıtımı
+      items:
+        - name: Bulut dağıtımına genel bakış
+          href: ../../dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Self servis dağıtım
+          items:
+            - name: Self servis dağıtıma genel bakış
+              href: ../../dev-itpro/deployment/infrastructure-stack.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yeni bir ortam dağıtma
+              href: ../../dev-itpro/deployment/deployenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Dağıtma ile ilgili SSS
+              href: ../../dev-itpro/deployment/deploymentFAQ.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Self servis dağıtımla ilgili bilinen sorunlar
+              href: ../../dev-itpro/deployment/known-issues-new-deployment-experience.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Dağıtımlar için bakım işlemleri
+              href: ../../dev-itpro/deployment/maintenanceoperationsguide-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Ortam güncelleştirme
+              href: ../../dev-itpro/deployment/updateenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Self servis dağıtımla dağıtılan ortamlarda sorun giderme
+              href: ../../dev-itpro/deployment/troubleshoot-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Azure Resource Manager'da işe alım sürecini tamamlama
+          href: ../../dev-itpro/deployment/arm-onboarding.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Azure ExpressRoute ve Finance and Operations
+          href: ../../dev-itpro/deployment/expressroute.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Finance and Operations mimarisi
+          href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bulut ortamlarına güncelleştirmeleri uygulama
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bulutta barındırılan Retail kanalı bileşenlerine güncelleştirmeler ve uzantılar uygulama
+          href: ../../dev-itpro/deployment/Update-retail-channel.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Retail Cloud Scale Unit başlatma
+          href: ../../dev-itpro/deployment/Initialize-Retail-Channels.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Retail veri yerleşimi
+          href: ../../dev-itpro/deployment/retail-data-residency.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Şirket içi dağıtım
+      items:
+        - name: Şirket içi dağıtım giriş sayfası
+          href: ../../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi dağıtıma genel bakış
+          href: ../../dev-itpro/deployment/on-premises-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi dağıtımları planlama ve hazırlama
+          href: ../../dev-itpro/deployment/plan-onprem-deployment.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Donanım boyutlandırma gereksinimleri
+          href: ../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dynamics365/unified-operations/financials/toc.json?toc=/dev-itpro/toc.json
+        - name: Şirket içi projeleri ayarlama
+          href: ../../dev-itpro/lifecycle-services/lbd-create-lcs-on-prem-project.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi ortamları ayarlama ve dağıtma
+          items:
+            - name: Şirket içi ortamları ayarlama ve dağıtma giriş sayfası
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-environments.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Şirket içi ortamları dağıtma (Platform update 12 ve sonrası)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu12.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Şirket içi ortamları dağıtma (Platform update 8 ve 11)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu8-pu11.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Şirket içi ortama Perakende kanalı bileşenleri yükleme adımları
+              href: ../../dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Özel modeller geliştirme ve şirket içi ortamlara dağıtma
+          href: ../../dev-itpro/deployment/develop-deploy-custom-models-on-premises.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi ortamlarla PowerBI.com tümleştirmesi
+          href: ../../dev-itpro/analytics/entity-store-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi ortamlar için ters proxy'ler yapılandırma
+          href: ../../dev-itpro/deployment/onprem-reverseproxy.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi dağıtıma güncelleştirmeler uygulama
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi tanılama
+          href: ../../dev-itpro/deployment/on-premises-diagnostics.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi dağıtımları yeniden dağıtma
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yerel aracı
+          items:
+            - name: AD FS Office 365 uyumluluğu
+              href: ../../dev-itpro/deployment/onprem-adfscompatibility.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yerel aracı dağıtım öncesi ve dağıtım sonrası kodları
+              href: ../../dev-itpro/lifecycle-services/pre-post-scripts.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yerel aracıyı güncelleştirme
+              href: ../../dev-itpro/lifecycle-services/update-local-agent.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ortamları yeniden yapılandırma
+          href: ../../dev-itpro/lifecycle-services/reconfigure-environment.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İstemci İnternet bağlantısı
+          href: ../../dev-itpro/user-interface/client-disconnected.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi dağıtımlardaki sorunları giderme
+          href: ../../dev-itpro/deployment/troubleshoot-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sertifika rotasyonu
+          href: ../../dev-itpro/deployment/certificate-rotation-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Özel kod dağıtma
+      items:
+        - name: Dağıtılabilir model paketleri oluşturma
+          href: ../../dev-itpro/deployment/create-apply-deployable-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Komut satırından dağıtılabilir paketler yükleme
+          href: ../../dev-itpro/deployment/install-deployable-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Paketi kaldırma
+          href: ../../dev-itpro/deployment/uninstall-deployable-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Paket uygulama sorunlarını giderme
+          href: ../../dev-itpro/deployment/deployable-package-troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Geliştirme ve özelleştirme
+  items:
+    - name: Geliştirme ve özelleştirme giriş sayfası
+      href: ../../dev-itpro/dev-tools/developer-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uygulama yığını ve sunucu mimarisi
+      href: ../../dev-itpro/dev-tools/application-stack-server-architecture.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Değerlendirme kopyaları alma
+      href: ../../dev-itpro/dev-tools/get-evaluation-copy.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Önizleme abonelikleri için kaydolma
+      href: ../../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Geliştirme ortamlarını dağıtma ve ortamlara erişme
+      items:
+        - name: Geliştirme ortamları
+          href: ../../dev-itpro/dev-tools/access-instances.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yerleşik geliştirme ortamları yapılandırma
+          href: ../../dev-itpro/dev-tools/configure-developer-vm.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Geliştirme makinelerinde yeni kullanıcılar oluşturma
+          href: ../../dev-itpro/dev-tools/enable-development-machine.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yönetici erişimine izin vermeyen VM'ler geliştirme ve oluşturmaya ilişkin SSS
+          href: ../../dev-itpro/sysadmin/VMs-no-admin-access.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Azure DevOps'a erişmek için yerel ortamları yeniden adlandırma
+          href: ../../dev-itpro/migration-upgrade/vso-machine-renaming.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Geliştirme sistemi gereksinimleri
+          href: ../../dev-itpro/dev-tools/development-system-requirements.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'Sürüm denetimi, meta veri arama ve gezinme'
+      href: ../../dev-itpro/dev-tools/version-control-metadata-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Filo Yönetimi örnek uygulaması
+      items:
+        - name: Filo Yönetimi örnek uygulaması için uçtan uca senaryo
+          href: ../../dev-itpro/dev-tools/fleet-management-sample.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Filo Yönetimi örnek uygulaması
+          href: ../../dev-itpro/dev-tools/introduction-fleet-management-sample.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Visual Studio araçları
+      items:
+        - name: Geliştirme araçları
+          href: ../../dev-itpro/dev-tools/development-tools-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Geliştirme araçları eğitimi
+          href: ../../dev-itpro/dev-tools/introduction-visual-studio.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uygulama Denetleyicisi
+          items:
+            - name: Uygulama Denetleyicisi için BaseX yükleme
+              href: ../../dev-itpro/dev-tools/install-basex.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uygulama Gezgini
+          href: ../../dev-itpro/dev-tools/application-explorer.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Projeler oluşturma ve hatalarını ayıklama
+          href: ../../dev-itpro/dev-tools/build-debug-project.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Oluşturma işlemleri
+          href: ../../dev-itpro/dev-tools/build-operations.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kod düzenleyicisi özellikleri
+          href: ../../dev-itpro/dev-tools/code-editor.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Modeller ve veri modeli öğeleri oluşturma
+          items:
+            - name: Modeller ve veri modeli öğeleri oluşturmaya genel bakış
+              href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uzantılar için adlandırma kuralları
+              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Model özelleştirmeyi kapatma ve işlevi kaldırma
+              href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Özelleştirme Analizi Raporu
+          href: ../../dev-itpro/dev-tools/customization-analysis-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Öğe tasarımcıları
+          href: ../../dev-itpro/dev-tools/element-designers.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Öğe kullanımını belirleme komutları
+          href: ../../dev-itpro/dev-tools/element-usage.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Modelleri dışa ve içe aktarma
+          href: ../../dev-itpro/dev-tools/models-export-import.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Visual Studio'da meta veri arama
+          href: ../../dev-itpro/dev-tools/metadata-search-visual-studio.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Modeller ve paketler
+          href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Finance and Operations proje türü
+          href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Visual Studio için araç eklentileri
+          href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Visual Studio geliştirme araçlarını güncelleştirme
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: X++ programlama dili
+      items:
+        - name: X++ ve hata ayıklayıcı özellikleri
+          href: ../../dev-itpro/dev-tools/new-x-debugger-features.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: X++ kodu hatalarını ayıklama
+          href: ../../dev-itpro/dev-tools/debug-xpp.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İstek veya yanıt senaryolarındaki EventHandlerResult sınıfları
+          href: ../../dev-itpro/dev-tools/event-handler-result-class.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'C# ve X++ kaynak kodu kullanarak iş mantığı yazma'
+          href: ../../dev-itpro/dev-tools/write-business-logic.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: X ++ ile X ++ derleyici değişiklikleri
+          href: ../../dev-itpro/dev-tools/programming-language-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'C# için LINQ sağlayıcısı'
+          href: ../../dev-itpro/dev-tools/linq-provider-c.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: En iyi uygulama kurallarını yazma
+          href: ../../dev-itpro/dev-tools/author-best-practice-rules.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uygulama Gezgini özellikleri
+          href: ../../dev-itpro/dev-ref/application-explorer-aot-properties.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: X++ dil referansı
+          items:
+            - name: X++ dil referansına genel bakış
+              href: ../../dev-itpro/dev-ref/xpp-language-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Değişkenler ve veri türleri
+              items:
+                - name: Değişkenler
+                  href: ../../dev-itpro/dev-ref/xpp-variables-data-types.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Temel veri türleri
+                  href: ../../dev-itpro/dev-ref/xpp-data-primitive.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Bileşik veri türleri
+                  href: ../../dev-itpro/dev-ref/xpp-data-composite.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Koleksiyon sınıfları
+                  href: ../../dev-itpro/dev-ref/xpp-data-collection.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Genişletilmiş veri türleri
+                  href: ../../dev-itpro/dev-ref/xpp-data-edt.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'İfadeler, döngüler ve özel durumları işleme'
+              items:
+                - name: 'Açıklamalar, kullanma ve yazdırma'
+                  href: ../../dev-itpro/dev-ref/xpp-statements-loops.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Koşullu ifadeler
+                  href: ../../dev-itpro/dev-ref/xpp-conditional.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Döngü ifadeleri
+                  href: ../../dev-itpro/dev-ref/xpp-loops.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Özel durumları işleme
+                  href: ../../dev-itpro/dev-ref/xpp-exceptions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: SQL bağlantı hatası X++ özel durumu
+              href: ../../dev-itpro/dev-ref/sql-connection-error.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ işleçleri
+              href: ../../dev-itpro/dev-ref/xpp-operators.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ işleci önceliği
+              href: ../../dev-itpro/dev-ref/xpp-operator-precedence.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ Sınıfları ve yöntemleri
+              items:
+                - name: Sınıflar ve yöntemler
+                  href: ../../dev-itpro/dev-ref/xpp-classes-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Devralma
+                  href: ../../dev-itpro/dev-ref/xpp-inheritance.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Statik sınıf üyeleri
+                  href: ../../dev-itpro/dev-ref/xpp-static-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Arabirimler
+                  href: ../../dev-itpro/dev-ref/xpp-interfaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Kitaplıklar
+                  href: ../../dev-itpro/dev-ref/xpp-library-objects.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Olaylar
+                  href: ../../dev-itpro/dev-ref/xpp-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ verilerini seçme ve değiştirme
+              href: ../../dev-itpro/dev-ref/xpp-data-query.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: SysDa API'sını kullanarak verilere erişim
+              href: ../../dev-itpro/dev-ref/sysda.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ makroları
+              href: ../../dev-itpro/dev-ref/xpp-macros.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ öznitelik sınıfları
+              href: ../../dev-itpro/dev-ref/xpp-attribute-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'X++ ve C# karşılaştırması'
+              href: ../../dev-itpro/dev-ref/xpp-cs-comparison.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ söz dizimi
+              href: ../../dev-itpro/dev-ref/xpp-syntax.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'API, sınıf ve tablo referansı'
+      items:
+        - name: 'API, sınıf ve tablo kaynakları'
+          href: ../../dev-itpro/dev-ref/api-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: X++ derleme zamanı işlevleri
+          href: ../../dev-itpro/dev-ref/xpp-compile-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: X++ çalıştırma zamanı işlevleri
+          items:
+            - name: X++ çalıştırma zamanı işlev kaynakları
+              href: ../../dev-itpro/dev-ref/xpp-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ iş çalıştırma zamanı işlevleri
+              href: ../../dev-itpro/dev-ref/xpp-business-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ konteyner çalıştırma zamanı işlevleri
+              href: ../../dev-itpro/dev-ref/xpp-container-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ dönüştürme çalıştırma zamanı işlevleri
+              href: ../../dev-itpro/dev-ref/xpp-conversion-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ tarih çalıştırma zamanı işlevleri
+              href: ../../dev-itpro/dev-ref/xpp-date-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ matematik çalıştırma zamanı işlevleri
+              href: ../../dev-itpro/dev-ref/xpp-math-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ yansıtma çalıştırma zamanı işlevleri
+              href: ../../dev-itpro/dev-ref/xpp-reflection-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ oturum çalıştırma zamanı işlevleri
+              href: ../../dev-itpro/dev-ref/xpp-session-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ dize çalıştırma zamanı işlevleri
+              href: ../../dev-itpro/dev-ref/xpp-string-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sistem tabloları
+          href: ../../dev-itpro/dev-ref/system-tables.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sistem sınıfları
+          items:
+            - name: A sınıfları
+              href: ../../dev-itpro/dev-ref/a-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: B sınıfları
+              href: ../../dev-itpro/dev-ref/b-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: C sınıfları
+              href: ../../dev-itpro/dev-ref/c-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: D sınıfları
+              href: ../../dev-itpro/dev-ref/d-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: E sınıfları
+              href: ../../dev-itpro/dev-ref/e-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FieldBinding - FormBuildAnimateControl)
+              href: ../../dev-itpro/dev-ref/fieldbinding-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FormBuildButtonControl - FormBuildFastTabSummarySeparator)
+              href: ../../dev-itpro/dev-ref/formbuildbuttoncontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FormBuildFilterPaneControl - FormBuildRealControl)
+              href: ../../dev-itpro/dev-ref/formbuildfilterpanecontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FormBuildReferenceControl - FormButtonSeparatorControl)
+              href: ../../dev-itpro/dev-ref/formbuildreferencecontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FormChangeTracker - FormControlEventArgs)
+              href: ../../dev-itpro/dev-ref/formchangetracker-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FormDataObject - FormFastTabHeaderControl)
+              href: ../../dev-itpro/dev-ref/formdataobject-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FormFastTabSummarySeparator - FormGridControl)
+              href: ../../dev-itpro/dev-ref/formfasttabsummaryseparator-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FormGroupControl - FormIntControl)
+              href: ../../dev-itpro/dev-ref/formgroupcontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FormListBoxControl - FormNotifyEventArgs)
+              href: ../../dev-itpro/dev-ref/formlistboxcontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FormObject - FormRealControl)
+              href: ../../dev-itpro/dev-ref/formobject-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FormReferenceControl - FormStringControl)
+              href: ../../dev-itpro/dev-ref/formreferencecontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F sınıfları (FormTabControl - FormWindowControl)
+              href: ../../dev-itpro/dev-ref/formtabcontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: G sınıfları
+              href: ../../dev-itpro/dev-ref/g-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: H sınıfları
+              href: ../../dev-itpro/dev-ref/h-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: I sınıfları
+              href: ../../dev-itpro/dev-ref/i-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: J sınıfları
+              href: ../../dev-itpro/dev-ref/j-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: K sınıfları
+              href: ../../dev-itpro/dev-ref/k-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: L sınıfları
+              href: ../../dev-itpro/dev-ref/l-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: M sınıfları
+              href: ../../dev-itpro/dev-ref/m-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: N sınıfları
+              href: ../../dev-itpro/dev-ref/n-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: O sınıfları
+              href: ../../dev-itpro/dev-ref/o-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: P sınıfları
+              href: ../../dev-itpro/dev-ref/p-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Q sınıfları
+              href: ../../dev-itpro/dev-ref/q-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: R sınıfları
+              href: ../../dev-itpro/dev-ref/r-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: S sınıfları
+              href: ../../dev-itpro/dev-ref/s-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: T sınıfları
+              href: ../../dev-itpro/dev-ref/t-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: U sınıfları
+              href: ../../dev-itpro/dev-ref/u-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: V sınıfları
+              href: ../../dev-itpro/dev-ref/v-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: W sınıfları
+              href: ../../dev-itpro/dev-ref/w-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X sınıfları
+              href: ../../dev-itpro/dev-ref/x-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Genişletilebilirlik
+      items:
+        - name: Genişletilebilirlik giriş sayfası
+          href: ../../dev-itpro/extensibility/extensibility-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Giriş ve kullanmaya başlama
+          items:
+            - name: Uygulama genişletilebilirliği planı
+              href: ../../dev-itpro/extensibility/extensibility-roadmap.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik talepleri
+              href: ../../dev-itpro/extensibility/extensibility-requests.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlikle ilgili SSS
+              href: ../../dev-itpro/extensibility/app-sealing-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Katmanlamadan uzantılara geçirme
+              href: ../../dev-itpro/extensibility/migrate-overlayer-extension.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uzantı kullanarak model öğelerini özelleştirme (eğitim)
+              href: ../../dev-itpro/extensibility/customize-model-elements-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uzantı ve katmanlamayla özelleştirme
+              href: ../../dev-itpro/extensibility/customization-overlayering-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yenilikler
+          items:
+            - name: Genişletilebilirlik konusundaki yenilikler veya değişiklikler
+              href: ../../dev-itpro/extensibility/extensibility-new.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 10.0.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-3.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 10.0.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-2.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 10.0.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-1.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 10.0
+              href: ../../dev-itpro/extensibility/extensibility-changes-10.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-813.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-812.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-811.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-81.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.4
+              href: ../../dev-itpro/extensibility/extensibility-changes-804.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-803.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-802.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-801.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sürüm 8.0'daki genişletilebilirlik değişiklikleri
+              href: ../../dev-itpro/extensibility/changes-80.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sürüm 7.3'teki genişletilebilirlik değişiklikleri
+              href: ../../dev-itpro/extensibility/extensibility-changes-73.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilirlik değişiklikleri Temmuz 2017
+              href: ../../dev-itpro/extensibility/changes-july-2017.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Temel bilgiler
+          items:
+            - name: Kullanışsız özelleştirmeler
+              href: ../../dev-itpro/extensibility/intrusive-customizations.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sınıf uzantı modeli
+              href: ../../dev-itpro/extensibility/class-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yöntem kaydırma ve Komut Zinciriyle sınıf uzantısı
+              href: ../../dev-itpro/extensibility/method-wrapping-coc.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uzantılar için adlandırma kuralları
+              href: ../../dev-itpro/extensibility/naming-guidelines-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Katmanlamanın uzantılarda yeniden düzenlenmesi için model kısıtlamalarını hafifletme
+              href: ../../dev-itpro/extensibility/refactoring-over-layering.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uzantılar oluşturma
+          items:
+            - name: Sabit listelerine değer ekleme
+              href: ../../dev-itpro/extensibility/add-enum-value.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilmiş veri türlerini değiştirme
+              href: ../../dev-itpro/extensibility/modify-edt.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Fabrika yöntemleri için alt sınıflar kaydetme
+              href: ../../dev-itpro/extensibility/register-subclass-factory-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: EventHandlerResult kullanarak yanıtlama
+              href: ../../dev-itpro/extensibility/respond-event-handler-result.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: RunBase sınıfını genişletme
+              href: ../../dev-itpro/extensibility/extend-runbase-class.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uygulama başlangıcını temsilciler kullanarak özelleştirme
+              href: ../../dev-itpro/extensibility/startup-customizations.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tablodaki mevcut alanları değiştirme
+              href: ../../dev-itpro/extensibility/modify-existing-field.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tablolara alan ekleme
+              href: ../../dev-itpro/extensibility/add-field-extension.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tablolara dizinler ekleme
+              href: ../../dev-itpro/extensibility/add-index.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tablolara ilişkiler ekleme
+              href: ../../dev-itpro/extensibility/add-relation.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tablo özelliklerini değiştirme
+              href: ../../dev-itpro/extensibility/modify-properties.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tablolara yöntemler ekleme
+              href: ../../dev-itpro/extensibility/add-method-table.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tablo kayıtlarının yaşam döngüsü boyunca iş eylemleri gerçekleştirme
+              href: ../../dev-itpro/extensibility/subscribe-table-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Formlara veri kaynakları ekleme
+              href: ../../dev-itpro/extensibility/add-datasource.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Form başlıklarını değiştirme
+              href: ../../dev-itpro/extensibility/change-caption-form.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Form denetim özelliklerini değiştirme
+              href: ../../dev-itpro/extensibility/modify-control-properties.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Numara serilerinin kapsamını genişletme
+              href: ../../dev-itpro/extensibility/extend-number-sequence-scope.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yeni stok boyutları ekleme
+              href: ../../dev-itpro/extensibility/inventory-dimensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Fiyat ve iskonto genişletilebilirliği
+              href: ../../dev-itpro/extensibility/pricing-app73.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tablo eşleme uzantısı
+              href: ../../dev-itpro/extensibility/map-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Arabirim olarak kullanılan tablo eşlemelerini genişletme
+              href: ../../dev-itpro/extensibility/maps-as-interfaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sürüm oluşturma için kullanılan tablo eşlemelerini genişletme
+              href: ../../dev-itpro/extensibility/maps-with-versioning.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Seçili veri türleri için ondalık virgülü hassasiyetini genişletme
+              href: ../../dev-itpro/extensibility/decimal-point-precision.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Genişletilebilir çözümler oluşturma
+          items:
+            - name: Genişletilebilir kod yazma
+              href: ../../dev-itpro/extensibility/writing-extensible-code.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sınıflar
+              href: ../../dev-itpro/extensibility/extensible-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yöntemler
+              href: ../../dev-itpro/extensibility/extensible-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Formlar
+              href: ../../dev-itpro/extensibility/extensible-forms.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilmiş veri türleri
+              href: ../../dev-itpro/extensibility/extensible-edts.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Genişletilebilir sabit listeleri
+              href: ../../dev-itpro/extensibility/extensible-enums.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Temsilciler
+              href: ../../dev-itpro/extensibility/extensible-code-delegates.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tablolar
+              href: ../../dev-itpro/extensibility/extensible-tables.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yöntemler için genişletilebilirlik öznitelikleri
+              href: ../../dev-itpro/extensibility/extensibility-attributes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Değişiklikleri bozma
+              href: ../../dev-itpro/extensibility/breaking-changes.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Performans
+      items:
+        - name: Trace Parser kullanarak izlemeler yapma
+          href: ../../dev-itpro/perf-test/trace-trace-tutorial.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Görev kaydedici ve Performans SDK ile tek kullanıcı testi
+          href: ../../dev-itpro/perf-test/single-user-test-perf-sdk.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Performans SDK ve yerel test denetleyicisiyle çoklu kullanıcı testi
+          href: ../../dev-itpro/perf-test/multi-user-testing-local-test-controller.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Performans SDK ve Azure DevOps ile çoklu kullanıcı testi
+          href: ../../dev-itpro/perf-test/multi-user-testing-perfsdk-azuredevops.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Performans SDK ile tek kullanıcılı veya çok kullanıcılı test için sorun giderme kılavuzu
+          href: ../../dev-itpro/perf-test/troubleshoot-perf-sdk-user-testing.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi ortamlarda Performans SDK ve çoklu kullanıcı testi
+          href: ../../dev-itpro/perf-test/perfsdk-tutorial-lbd.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Trace ayrıştırıcısını kullanarak sorunları tanılama ve performansı analiz etme
+          href: ../../dev-itpro/perf-test/trace-parser.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Performans zamanlayıcısı
+          href: ../../dev-itpro/perf-test/performance-timer.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Visual Studio'da test desteği
+      items:
+        - name: Test ve doğrulamalar
+          href: ../../dev-itpro/perf-test/testing-validation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Visual Studio'da test projeleri
+          href: ../../dev-itpro/perf-test/testing-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sürekli oluşturma ve test otomasyonunu destekleyen ortamlar dağıtma
+          href: ../../dev-itpro/perf-test/continuous-build-test-automation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sınıf ve yöntem özniteliklerini kullanarak SysTest'i filtreleme
+          href: ../../dev-itpro/perf-test/systest-filtering.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kabul testi kitaplığı
+          items:
+            - name: Kabul testi kitaplığı kaynakları
+              href: ../../dev-itpro/perf-test/acceptance-test-library.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gezinti kavramları
+              href: ../../dev-itpro/perf-test/concepts-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Test veri yöntemleri
+              href: ../../dev-itpro/perf-test/test-data-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Kabul testi kitaplığındaki varlıklar
+              href: ../../dev-itpro/perf-test/concepts-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Kabul testi kitaplığı komutları
+              href: ../../dev-itpro/perf-test/concepts-commands.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Kabul testi kitaplığındaki oluşturucular
+              href: ../../dev-itpro/perf-test/concepts-creators.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Kabul testi kitaplığındaki sorgular
+              href: ../../dev-itpro/perf-test/concepts-queries.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Belirtim sınıfları
+              href: ../../dev-itpro/perf-test/concepts-specifications.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Kabul testi kitaplığı kod oluşturma sihirbazı
+              href: ../../dev-itpro/perf-test/code-generation-wizard.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Kabul testi kitaplığı için en iyi uygulamalar
+              href: ../../dev-itpro/perf-test/atl-best-practices.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sık sorulan sorular
+              href: ../../dev-itpro/perf-test/atl-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Tarih etkililiği
+      href: ../../dev-itpro/dev-tools/date-effectivity.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: ISV lisanslaması
+      href: ../../dev-itpro/dev-tools/isv-licensing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Şirket içi ISV lisanslaması
+      href: ../../dev-itpro/dev-tools/isv-licensing-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Genel Veri Koruma Yönetmeliği (GDPR)
+  items:
+    - name: Genel Veri Koruma Yönetmeliği'ne genel bakış
+      href: ../../dev-itpro/gdpr/gdpr-guide.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: GDPR veri isteklerini yanıtlama
+      items:
+        - name: GDPR veri isteklerini yanıtlama kaynakları
+          href: ../../dev-itpro/gdpr/gdpr-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kıymet sınıflandırmaları
+          href: ../../dev-itpro/gdpr/gdpr-asset-classification-values.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kişi arama raporu
+          href: ../../dev-itpro/gdpr/gdpr-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kişi arama raporunu genişletme
+          href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Hassas verilere erişimi yönetme
+          href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Talent kullanarak kişisel veri isteklerini yanıtlama
+          href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012'de kişisel veri isteklerini yanıtlama
+          href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: LCS için GDPR veri istekleri
+          href: ../../dev-itpro/gdpr/gdpr-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Lifecycle Services
+  items:
+    - name: Lifecycle Services kaynakları
+      items:
+        - name: Lifecycle Services kaynakları
+          href: ../../dev-itpro/lifecycle-services/lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Müşteriler için LCS
+          href: ../../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İş ortakları için LCS
+          href: ../../dev-itpro/lifecycle-services/getting-started-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yenilikler
+          href: ../../dev-itpro/lifecycle-services/whats-new-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bilinen sorunlar
+          href: ../../dev-itpro/lifecycle-services/known-issues.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Lifecycle Services kullanıcı kılavuzu
+      href: ../../dev-itpro/lifecycle-services/lcs-user-guide.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Abonelik tahmin aracı
+      href: ../../dev-itpro/lifecycle-services/subscription-estimator.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Güvenliği yapılandırma
+      href: ../../dev-itpro/lifecycle-services/configure-lcs-security.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Konu arama
+      href: ../../dev-itpro/lifecycle-services/issue-search-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Yapılandırma yöneticisi
+      items:
+        - name: Yapılandırma yöneticisine genel bakış
+          href: ../../dev-itpro/lifecycle-services/configuration-manager-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yapılandırma yöneticisini ayarlama
+          href: ../../dev-itpro/lifecycle-services/set-up-configuration-manager-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Kod yükseltme hizmetini yapılandırma
+      href: ../../dev-itpro/lifecycle-services/configure-execute-code-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Metodolojiler oluşturma veya güncelleştirme
+      href: ../../dev-itpro/lifecycle-services/create-methodology.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İş süreci modelleyici
+      href: ../../dev-itpro/lifecycle-services/bpm-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İş süreci modelleyicideki iş süreci kitaplıkları
+      href: ../../dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'İş süreci modelleyici kitaplığı oluşturma, düzenleme ve göz atma'
+      href: ../../dev-itpro/lifecycle-services/creating-editing-browsing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İş süreci modelleyicide görevleri tamamlama
+      href: ../../dev-itpro/lifecycle-services/complete-tasks-bpm.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: BPM kitaplıklarında etkinlik şemalarıyla çalışma
+      href: ../../dev-itpro/lifecycle-services/using-activity-diagrams.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: BPM kitaplıklarını Azure DevOps ile eşitleme
+      href: ../../dev-itpro/lifecycle-services/synchronize-bpm-vsts.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Görev kılavuzları ve BPM kullanarak kullanıcı kabul testi kitaplıkları oluşturma
+      href: ../../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İş süreci modelleyicideki akış tabloları
+      href: ../../dev-itpro/lifecycle-services/flowcharts-business-process-modeler.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İş süreci modelleyiciye özel iş süreçleri yükleme
+      href: ../../dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İzleme ve tanılama
+      href: ../../dev-itpro/lifecycle-services/monitoring-diagnostics.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Ortam hizmetlerini yeniden başlatma
+      href: ../../dev-itpro/lifecycle-services/restart-environment-services.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Üretim kesintisini raporlama
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Kullanıcı oturum açma bilgilerini izleme
+      href: ../../dev-itpro/lifecycle-services/user-logins.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Varlık kitaplığı
+      href: ../../dev-itpro/lifecycle-services/asset-library.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: LCS'deki araçları kullanarak performans sorunlarını giderme
+      href: ../../dev-itpro/lifecycle-services/performancetroubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Sorgu başvuru rehberi
+      href: ../../dev-itpro/lifecycle-services/querycookbook.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Microsoft Dynamics 365 Translation Service
+      items:
+        - name: Dynamics 365 Translation Service'e genel bakış
+          href: ../../dev-itpro/lifecycle-services/translation-service-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kullanıcı arabirimi dosyalarını çevirme
+          href: ../../dev-itpro/lifecycle-services/use-translation-service.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Belge dosyalarını çevirme
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-ua.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Çeviri belleği dosyaları
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-tm.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Mobil platform
+  items:
+    - name: Mobil platform kaynakları
+      href: ../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Başlayın
+      items:
+        - name: Mobil platforma başlayın
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-getting-started.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mimari ve tasarım konuları
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-architecture.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İş mantığı olayları
+          href: ../../dev-itpro/mobile-apps/platform/business-logic-events-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sayfa tasarımı yönergeleri
+          href: ../../dev-itpro/mobile-apps/platform/page-design-guidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Eylem tasarımı yönergeleri
+          href: ../../dev-itpro/mobile-apps/platform/action-design-guidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Form tasarımı gereksinimleri
+          href: ../../dev-itpro/mobile-apps/platform/form-design-requirements.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Yaygın görevler
+      items:
+        - name: SysAppWorkspace sınıfını kullanarak çalışma alanları yapılandırma
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/mobile-workspace-configuration.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mobil uygulama sayfalarındaki alanları tıklanabilir yapma
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-workspace-field-clickable.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Alanlarda sayıları gösterme
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/display-count-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mobil çalışma alanının güvenliğini sağlama
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/secure-mobile-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mobil çalışma alanlarını yerelleştirme
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/localize-workspaces-on-server.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Çalışma alanı sınıflarını kullanarak alanları zorunlu hale getirme
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-field-mandatory.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Sunucu tarafı geliştirme başvurusu
+      items:
+        - name: Sunucu tarafı geliştirme (çalışma alanı X++ API'leri)
+          href: ../../dev-itpro/mobile-apps/platform/mobile-workspace-server-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İstemci tarafı geliştirme başvurusu
+      items:
+        - name: İstemci tarafı tasarım API'leri
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/client-api-design-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İstemci API'leri
+          items:
+            - name: İstemci API'leri giriş sayfası
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/client-apis-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageState numaralandırması
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uygulama modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-application.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Erteleme modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/defer.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Olay modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Denetim modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Konteyner modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Alan modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Dosya Yükleyici modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Grup modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Köprü modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Görüntü modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Giriş modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Liste modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Arama modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Çoklu Arama modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sayfa modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-ipage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Pagelink modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bölüm modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Hizmetler modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-business-logic-services.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Değer modülü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uygulama türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ApplicationMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: AsyncService türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: CacheService türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: CompleteEventArgs türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ContainerControl türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ContainerControlDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ContainerControlMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ControlMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: DataService türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Ertelenmiş türü<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/defer-ideferred.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tasarım türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: EventHook türü<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Alan türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FieldDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FieldMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FileUploader türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FileUploaderDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FileUploaderMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: GenericValue türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: getDataSource türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Grup türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: GroupDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: GroupMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Köprü türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: HyperLinkDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: HyperLinkMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Görüntü türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ImageDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ImageMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: InputControl türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: InputControlDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: InputControlMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Liste türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ListDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ListMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Arama türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: LookupDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: LookupMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MetadataService türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MultiLookup türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MultiLookupDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MultiLookupMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: NavigationArgs türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: NumberSequenceConfig türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sayfa türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageData türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageLink türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageLinkDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageLinkMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageOptions türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageSubmitArgs türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageTarget türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bölüm türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PartDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PartMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Satır türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Değer türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ValueDesign türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ValueMetadata türü
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Regression Suite Automation Tool
+  items:
+    - name: Regression Suite Automation Tool'a genel bakış
+      href: ../../dev-itpro/perf-test/rsat/rsat-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Yükleme ve yapılandırma
+      href: ../../dev-itpro/perf-test/rsat/rsat-install-configure.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Regression Suite Automation Tool kullanarak veri belirsizliği testi
+      href: ../../fin-and-ops/get-started/recommendation-data-agnostic-testing-rsat.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Test olaylarını çalıştırma
+      href: ../../dev-itpro/perf-test/rsat/rsat-run.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Beklenen değerleri doğrulama
+      href: ../../dev-itpro/perf-test/rsat/rsat-validate-expected.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Zincir test olayları
+      href: ../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Türetilmiş test olayları
+      href: ../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Regression Suite Automation Tool eğitimini kullanma
+      href: ../../fin-and-ops/get-started/hol-use-regression-suite-automation-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: En iyi uygulamalar
+      href: ../../dev-itpro/perf-test/rsat/rsat-best-practices.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Sorun Giderme
+      href: ../../dev-itpro/perf-test/rsat/rsat-troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Lifecycle Services kullanarak çözümler yayımlama
+  items:
+    - name: Geliştirme ve yayımlama
+      href: ../../dev-itpro/lcs-solutions/lcs-solutions-app-source.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Hazırlama ve yayınlama
+      href: ../../dev-itpro/lcs-solutions/marketing-content-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Metodolojiler ekleme
+      href: ../../dev-itpro/lcs-solutions/methodologies-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İş süreci modelleyici kitaplıkları ayarlama
+      href: ../../dev-itpro/lcs-solutions/business-process-modeler-libraries-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Kod taşıma
+      href: ../../dev-itpro/lcs-solutions/code-migration-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uygulamaları doğrulama
+      href: ../../dev-itpro/lcs-solutions/app-validation-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Veri paketlerini işleme ve tüketme
+      href: ../../dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Çözüm veritabanlarını yedekleme
+      href: ../../dev-itpro/lcs-solutions/database-backup-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Yerelleştirme ve mevzuat özellikleri
+      items:
+        - name: Globalleştirme kaynakları
+          href: ../../dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yerelleştirme özellikleri sınıflandırması
+          href: ../../dev-itpro/lcs-solutions/classify-localization-features.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ülke/bölge bağlamı uygulama
+          href: ../../dev-itpro/lcs-solutions/apply-country-context.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Özellik başlıklarındaki düzenleyici sertifika bilgileri
+          href: ../../dev-itpro/lcs-solutions/regulatory-certifications.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mevzuat güncelleştirmeleri
+          href: ../../dev-itpro/lcs-solutions/regulatory-watch-communication.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yerelleştirme modellerinin ayrılması
+          href: ../../dev-itpro/lcs-solutions/separate-localization-models.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yasalarla ilgili uyarılar gönderme
+          href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Destek
+  items:
+    - name: Finance and Operations ve Lifecycle Services için destek alma
+      href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Dynamics 365 desteğine genel bakış
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+    - name: Çin'de 21Vianet tarafından işletilen Finance and Operations için destek alma
+      href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Premier destek bileti kaydetme
+      href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Dynamics Servis Mühendisliği takımına istek gönderme
+      href: ../../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Finance and Operations için teknik destek ayarlama
+      href: ../../dev-itpro/lifecycle-services/support-experience.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Planlı bakım aralığıyla ilgili SSS
+      href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Bulut işlemleri ve servis
+      href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Finance and Operations destek deneyimlerini yönetme
+      href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Sistem yönetimi
+  items:
+    - name: Sistem yönetimi giriş sayfası
+      href: ../../dev-itpro/sysadmin/system-administration-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Yasal koşullarınıza ve gizlilik bildiriminize bağlantı ekleme
+      href: ../../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Lisans kodları ve yapılandırma anahtarları raporu
+      href: ../../dev-itpro/sysadmin/license-codes-configuration-keys-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Şirketler arası veri paylaşımı
+      href: ../../dev-itpro/sysadmin/cross-company-data-sharing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Bakım modu
+      href: ../../dev-itpro/sysadmin/maintenance-mode.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Önceden yapılandırılmış sistem hesapları
+      href: ../../dev-itpro/sysadmin/pre-configured-system-accounts.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: B2B kullanıcılarını Azure AD'ye aktarma
+      href: ../../dev-itpro/sysadmin/implement-b2b.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Güvenlik
+      items:
+        - name: Rol tabanlı güvenlik
+          href: ../../dev-itpro/sysadmin/role-based-security.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Güvenlik mimarisi
+          href: ../../dev-itpro/sysadmin/security-architecture.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Oturumun boşta kalma zaman aşımını ayarlama
+          href: ../../dev-itpro/sysadmin/session-idle-timeout.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kullanıma hazır güvenlik raporları
+          href: ../../dev-itpro/sysadmin/security-reports.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yeni kullanıcılar oluşturma
+          href: ../../dev-itpro/sysadmin/tasks/create-new-users.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kullanıcıları topluca içe aktarma
+          href: ../../dev-itpro/sysadmin/tasks/import-bulk-users.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Görev ayrımını ayarlama
+          href: ../../dev-itpro/sysadmin/tasks/set-up-segregation-duties.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Görev ayrımındaki çakışmaları tanımlama ve çözümleme
+          href: ../../dev-itpro/sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kullanıcıları güvenlik rollerine atama
+          href: ../../dev-itpro/sysadmin/tasks/assign-users-security-roles.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Toplu işleme
+      items:
+        - name: Toplu işlemeye genel bakış
+          href: ../../dev-itpro/sysadmin/batch-processing-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Toplu işleme ve toplu iş sunucuları
+          href: ../../dev-itpro/sysadmin/batch-server-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Toplu iş oluşturma
+          href: ../../dev-itpro/sysadmin/tasks/create-batch-job.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Toplu iş kopyalama
+          href: ../../dev-itpro/sysadmin/copy-batch-job.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Etkin toplu iş dönemleri
+          href: ../../dev-itpro/sysadmin/activeperiod.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Toplu iş yöneticisi güvenlik rolü
+          href: ../../dev-itpro/sysadmin/runby.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: SQL dizin birleştirmeyi işlemek için toplu iş
+          href: ../../dev-itpro/sysadmin/batch-job-SQL-defragmentation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Toplu iş uyarılarını yapılandırma
+          href: ../../dev-itpro/sysadmin/alerts.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Geliştirilmiş toplu iş formları
+          href: ../../dev-itpro/sysadmin/enhanced-forms.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Toplu iş geçmişini temizleme
+          href: ../../dev-itpro/sysadmin/batch-history-cleanup.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yürütülen bir toplu işi durdurma
+          href: ../../dev-itpro/sysadmin/batch-abort.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: En iyi duruma getirme danışmanı
+      items:
+        - name: En iyi duruma getirme danışmanına genel bakış
+          href: ../../dev-itpro/sysadmin/optimization-advisor-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: En iyi duruma getirme danışmanı için kurallar oluşturma
+          href: ../../dev-itpro/sysadmin/create-rules-optimization-advisor.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Üretim kesintisini raporlama
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: 'Yükseltmeler, güncelleştirmeler ve düzeltmeler'
+  items:
+    - name: 'Yükseltmeler, güncelleştirmeler ve düzeltmelerle ilgili kaynaklar'
+      href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: AX 2012'den yükseltme
+      items:
+        - name: AX 2012'den Finance and Operations'a yükseltme
+          href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 yükseltmesi - Yükseltme çözümleyicisi aracını kullanarak planlama
+          href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 yükseltmesi – Kod yükseltme hizmetini kullanarak harcanacak çabayı tahmin etme
+          href: ../../dev-itpro/migration-upgrade/analyze-code-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 yükseltmesi - Analiz için bir tanıtım ortamı dağıtma
+          href: ../../dev-itpro/migration-upgrade/analysis-sandbox.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 yükseltmesi - Geliştirme ortamlarına veri yükseltme
+          href: ../../dev-itpro/migration-upgrade/data-upgrade-2012.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 yükseltmesi - Veri yükseltme için yükseltme öncesi denetim listesi
+          href: ../../dev-itpro/migration-upgrade/prepare-data-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 yükseltmesi - Korumalı alan ortamlarında veri yükseltme
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-sandbox.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 yükseltmesi - Kesin bitiş testi
+          href: ../../dev-itpro/migration-upgrade/upgrade-cutover-testing.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 yükseltmesi - Yükseltme sonrası görevler
+          href: ../../dev-itpro/migration-upgrade/app-validation-process.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 yükseltmesi - İşlev testi geçişleri
+          href: ../../dev-itpro/migration-upgrade/upgrade-functional-validation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 yükseltmesi - Servise alma için hazırlama
+          href: ../../dev-itpro/migration-upgrade/upgrade-go-live-prep.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 yükseltmesi - Servise alma
+          href: ../../dev-itpro/migration-upgrade/2012-upgrade-cutover.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012'den yükseltmeyi etkileyen değişiklikler
+          items:
+            - name: Hesap planı ayırıcısını benzersiz yapma
+              href: ../../dev-itpro/migration-upgrade/chart-accounts-delimiter-unique.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tek fiş günlüklerini ve para birimi yeniden değerlemelerini yükseltme
+              href: ../../dev-itpro/migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Proje kaynak planlaması veri modeli
+              href: ../../dev-itpro/migration-upgrade/data-model-changes-resource-management.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: İş akışı alt sistemi değişiklikleri
+              href: ../../dev-itpro/migration-upgrade/workflow-subsystem.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Analizler için küpler yerine kullanılan modelleri toplama
+              href: ../../dev-itpro/migration-upgrade/in-memory-real-time-aggregate-models.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yükseltilmiş satış küplerini varlık deposuna geçirme
+              href: ../../dev-itpro/migration-upgrade/migrate-upgraded-cube-entity-store.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bütçe planlamasını yükseltme
+              href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: AX 2009'daki verileri geçirme
+      items:
+        - name: Verileri AX 2009'dan Finance and Operations'a geçirme
+          href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2009 geçişi - Veri geçişi aracını yükleme
+          href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2009 geçişi - Haritalar oluşturma
+          href: ../../dev-itpro/migration-upgrade/generate-maps.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2009 geçişi - Şablonlar oluşturma
+          href: ../../dev-itpro/migration-upgrade/create-package-templates-dmt.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2009 geçişi - Geçiş grupları oluşturma
+          href: ../../dev-itpro/migration-upgrade/create-definition.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2009 geçişi - Paketleri dışa aktarma
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-export-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2009 geçişi - Paketleri içe aktarma
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-import-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Kod geçişi ve yükseltmesi
+      items:
+        - name: Kod geçişi ve yükseltme giriş sayfası
+          href: ../../dev-itpro/migration-upgrade/code-migration-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kod geçişine hazırlanma
+          href: ../../dev-itpro/migration-upgrade/prepare-migration.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Azure DevOps eşlemesini yapılandırma
+          href: ../../dev-itpro/migration-upgrade/configure-vso-solution.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Model bölme
+          href: ../../dev-itpro/dev-tools/model-split.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Temsilcileri kullanarak modeller arasındaki bağımlılıkları çözme
+          href: ../../dev-itpro/migration-upgrade/delegates-migration.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: En son güncelleştirmeye yükseltme (bulut)
+      items:
+        - name: En son güncelleştirmeye geçme işlemi
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-update.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bir Sürüme giden yollar
+          items:
+            - name: En son sürüme self servis yükseltme
+              href: ../../dev-itpro/migration-upgrade/self-service-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yeniden oluşturma ve en son sürüme güncelleştirme
+              href: ../../dev-itpro/migration-upgrade/appupdate-80-81.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yazılım yaşam döngüsü ilkesi ve bulut sürümleri
+          href: ../../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ortamlara son platform güncelleştirmesini uygulama
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-platform-update.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Geliştirme veya tanıtım ortamlarındaki verileri yükseltme
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-to-latest-update.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Geliştirme araçlarını güncelleştirme
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: En son güncelleştirmeye karşı derleme kodu planlama ve hazırlama
+          href: ../../dev-itpro/migration-upgrade/compile-considerations.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: En son güncelleştirmeye yükseltme (şirket içi)
+      items:
+        - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi dağıtımı yeniden dağıtma
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Şirket içi 7.x sürümünü 8.1 sürümüne yerinde yükseltme
+          href: ../../dev-itpro/migration-upgrade/on-prem-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Düzeltmeler
+      items:
+        - name: Lifecycle Services'dan güncelleştirmeler alma
+          href: ../../dev-itpro/migration-upgrade/download-hotfix-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bulut ortamlarına güncelleştirmeleri uygulama
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Geliştirme ortamlarında meta veri düzeltmeleri yükleme
+          href: ../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yerleşik ortamlarda Reporting Services için yama oluşturma
+          href: ../../dev-itpro/migration-upgrade/patch-reporting-service-environment.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Visual Studio geliştirme araçlarını güncelleştirme
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Kullanımdan kaldırma işlemleri
+      items:
+        - name: Kaldırılan veya artık kullanılmayan özellikler
+          href: ../../dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yöntemleri ve meta veri öğelerini kullanımdan kaldırma
+          href: ../../dev-itpro/migration-upgrade/deprecation-deletion-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kullanımdan kaldırılan API'ler
+          href: ../../dev-itpro/migration-upgrade/deprecated-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Kullanıcı arabirimi geliştirme
+  items:
+    - name: Kullanıcı arabirimi geliştirme giriş sayfası
+      href: ../../dev-itpro/user-interface/user-interface-development-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Eğitimler
+      items:
+        - name: Kira Masraf Türü formu oluşturma
+          href: ../../dev-itpro/user-interface/build-rental-charge-type-form.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Müşteri formu oluşturma
+          href: ../../dev-itpro/user-interface/build-customer-form.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Gezinti oluşturma
+          href: ../../dev-itpro/user-interface/build-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Çalışma alanları oluşturma
+          href: ../../dev-itpro/user-interface/build-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Formlar
+      items:
+        - name: Gezinti kavramları
+          href: ../../dev-itpro/user-interface/page-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Web istemcisindeki sayfa düzeni
+          href: ../../dev-itpro/user-interface/page-layout.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Dynamics Simgesi yazı tipi
+          href: ../../dev-itpro/user-interface/symbol-font.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kayıtlı görünümler
+          href: ../../fin-and-ops/get-started/saved-views.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kayıtlı görünümleri tamamen kullanan formlar oluşturma
+          href: ../../dev-itpro/user-interface/understanding-saved-views.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Özel modeller kullanan test formları
+          href: ../../dev-itpro/user-interface/testing-forms-custom-patterns.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Paylaşılabilir, güvenli URL''ler oluşturma (ayrıntılı bağlantılar)'
+          href: ../../dev-itpro/user-interface/create-deep-links.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Formlar, ürünler ve denetimlerde erişilebilirlik'
+          href: ../../dev-itpro/user-interface/enable-accessibility.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Alan açıklamalarını özelleştirme
+          href: ../../dev-itpro/user-interface/customize-field-help.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Denetimler
+      items:
+        - name: Eylem denetimleri
+          href: ../../dev-itpro/user-interface/action-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Giriş denetimleri ve ızgara sütunu boyutları
+          href: ../../dev-itpro/user-interface/sizing-input-controls-grid-columns.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ağaç denetimlerinde onay kutusu desteği
+          href: ../../dev-itpro/user-interface/check-box-tree-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Filtreleme seçenekleri
+          href: ../../dev-itpro/user-interface/filtering.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: PowerApps Ana Bilgisayar denetimi
+          href: ../../dev-itpro/user-interface/powerapps-host-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Pencere yönetimi
+      items:
+        - name: Bağlam menüsü kodunu taşıma
+          href: ../../dev-itpro/migration-upgrade/code-migration-context-menus.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Fareyle çift tıklama mantığını taşıma
+          href: ../../dev-itpro/migration-upgrade/code-migration-double-click.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Aramalar için bağlamsal veri girişi
+          href: ../../dev-itpro/user-interface/contextual-data-entry-lookups.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: HierarchyViewer denetimi
+          href: ../../dev-itpro/user-interface/hierarchy-viewer-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Arama denetimleri
+          href: ../../dev-itpro/user-interface/lookups-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Dosya yükleme denetimleri
+          href: ../../dev-itpro/user-interface/file-upload-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sistem tanımlı düğmeler
+          href: ../../dev-itpro/user-interface/system-defined-buttons.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bir sayfadaki veya ızgaradaki görüntüler
+          href: ../../dev-itpro/user-interface/images-form-grid.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Giriş, tablo ve ızgara denetimleri için yazı tipi ve arka plan renkleri'
+          href: ../../dev-itpro/user-interface/specify-color-font-background-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sağdan sola dil desteği ve çift yönlü metin
+          href: ../../dev-itpro/user-interface/bidirectional-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Çalışma alanı kutucukları için simgeler oluşturma
+          href: ../../dev-itpro/user-interface/create-icons-workspace-tiles.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Genişletilebilir denetimler için genel JavaScript API'leri
+          href: ../../dev-itpro/user-interface/public-javascript-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Denetim onay listesi
+          href: ../../dev-itpro/user-interface/control-checklist.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İletiler
+      items:
+        - name: Özellik açıklamaları
+          href: ../../dev-itpro/user-interface/feature-callouts.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kaydırıcı ve MessageBox iletişim kutuları
+          href: ../../dev-itpro/user-interface/slider-messagebox.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'İleti merkezi, ileti çubuğu ve ileti ayrıntıları API''sı'
+          href: ../../dev-itpro/user-interface/messaging-api-center-bar-details.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'İleti merkezi, ileti çubuğu ve ileti ayrıntılarıyla ilgili SSS'
+          href: ../../dev-itpro/user-interface/messaging-user.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Form modeli kuralları
+      items:
+        - name: Taşınan formlar için form modelleri
+          href: ../../dev-itpro/user-interface/select-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Form tarzları ve modelleri
+          href: ../../dev-itpro/user-interface/form-styles-patterns.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Form modellerini destekleyen Visual Studio eklentileri
+          href: ../../dev-itpro/user-interface/form-pattern-add-ins.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Form modelleri
+      items:
+        - name: Genel form kuralları
+          href: ../../dev-itpro/user-interface/general-form-guidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ayrıntılar Ana formu modeli
+          href: ../../dev-itpro/user-interface/details-master-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ayrıntılar İşlem formu modeli
+          href: ../../dev-itpro/user-interface/details-transaction-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Form Bölümü Kısım Listesi form modelleri
+          href: ../../dev-itpro/user-interface/section-list-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Liste Sayfası form modeli
+          href: ../../dev-itpro/user-interface/list-page-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Basit Ayrıntılar formu modeli
+          href: ../../dev-itpro/user-interface/simple-details-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Basit Liste ve Ayrıntılar formu modeli
+          href: ../../dev-itpro/user-interface/simple-list-details-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Basit Liste formu modeli
+          href: ../../dev-itpro/user-interface/simple-list-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İçindekiler formu modeli
+          href: ../../dev-itpro/user-interface/table-of-contents-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Görev Çift formu modeli
+          href: ../../dev-itpro/user-interface/task-double-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Görev Tek formu modeli
+          href: ../../dev-itpro/user-interface/task-single-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sihirbaz formu modeli
+          href: ../../dev-itpro/user-interface/wizard-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Çalışma alanı form modeli
+          href: ../../dev-itpro/user-interface/workspace-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: İkincil form modelleri
+      items:
+        - name: Gelişmiş seçim formu modeli
+          href: ../../dev-itpro/user-interface/advanced-selection-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İletişim kutusu formu modeli
+          href: ../../dev-itpro/user-interface/dialog-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Açılan İletişim Kutusu formu modeli
+          href: ../../dev-itpro/user-interface/drop-dialog-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Arama formu modeli
+          href: ../../dev-itpro/user-interface/lookup-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bilgi Kutusu formu modelleri
+          href: ../../dev-itpro/user-interface/factbox-form-patterns.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Alt modeller
+      items:
+        - name: Özel Filtre Grubu alt modeli
+          href: ../../dev-itpro/user-interface/custom-filter-group-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Boyut Giriş Denetimi alt modeli
+          href: ../../dev-itpro/financial/dimension-entry-control-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Boyut İfade Oluşturucusu alt modeli
+          href: ../../dev-itpro/financial/dimension-expression-builder-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Alanlar ve Alan Grupları alt modeli
+          href: ../../dev-itpro/user-interface/fields-field-groups-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Filtreler ve Araç Çubuğu alt modelleri
+          href: ../../dev-itpro/user-interface/filters-toolbar-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Metin alt modelini doldurma
+          href: ../../dev-itpro/user-interface/fill-text-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yatay Alanlar ve Düğme Grubu alt modeli
+          href: ../../dev-itpro/user-interface/horizontal-fields-buttons-group-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Resim Önizleme alt modeli
+          href: ../../dev-itpro/user-interface/image-preview-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Liste Paneli alt modeli
+          href: ../../dev-itpro/user-interface/list-panel-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: İç İçe Geçmiş Basit Liste ve Ayrıntılar alt modeli
+          href: ../../dev-itpro/user-interface/nested-simple-list-details-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bölüm Tablosu form modeli
+          href: ../../dev-itpro/user-interface/section-chart-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bölüm Power BI alt modeli
+          href: ../../dev-itpro/user-interface/section-powerbi-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bölüm İlgili Bağlantılar alt modeli
+          href: ../../dev-itpro/user-interface/section-related-links-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bölüm Yığılmış Tablo alt modeli
+          href: ../../dev-itpro/user-interface/section-stacked-chart-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bölüm Sekmeli Liste alt modeli
+          href: ../../dev-itpro/user-interface/section-tabbed-list-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bölüm Kutucuklar alt modeli
+          href: ../../dev-itpro/user-interface/section-tiles-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Tablo Halindeki Alanlar alt modeli
+          href: ../../dev-itpro/user-interface/tabular-fields-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Araç Çubuğu ve Alanlar alt modeli
+          href: ../../dev-itpro/user-interface/toolbar-fields-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Araç Çubuğu ve Liste alt modeli
+          href: ../../dev-itpro/user-interface/toolbar-list-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Çalışma Alanı Sayfası Filtre Grubu alt modeli
+          href: ../../dev-itpro/user-interface/workspace-filter-group-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Denetim genişletilebilirliği
+      items:
+        - name: Genişletilebilir denetimler oluşturma
+          href: ../../dev-itpro/user-interface/build-extensible-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Genişletilebilir denetimler için klavye kısayolları
+          href: ../../dev-itpro/user-interface/keyboard-shortcuts-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Genişletilebilir denetim programlama referansı
+          href: ../../dev-itpro/user-interface/extensible-control-programming-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Denetim genişletilebilirliği
+          href: ../../dev-itpro/user-interface/control-extensibility.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yerelleştirilebilir etiketler oluşturma
+          href: ../../dev-itpro/user-interface/create-localizable-labels-client.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Genişletilebilir denetim düzeni kuralları
+          href: ../../dev-itpro/user-interface/extensible-controls-layout.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Görev Kaydedici'nin bir denetim için oluşturduğu metni kontrol etme
+          href: ../../dev-itpro/user-interface/task-recorder-control-text.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Çalışma alanları oluşturma
+      items:
+        - name: Operasyonel çalışma alanları oluşturma
+          href: ../../dev-itpro/user-interface/build-workspaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Çalışma alanları için kutucuk ve liste önbelleğe alma
+          href: ../../dev-itpro/user-interface/tile-list-caching-workspaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Görev Kaydedici
+      items:
+        - name: Görev Kaydedici kaynakları
+          href: ../../dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Görev Kaydedici hızlı referansı
+          href: ../../dev-itpro/user-interface/task-recorder-quick-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Görev kayıtları ile belge veya eğitim oluşturma
+          href: ../../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/unified-operations/financials/toc.json

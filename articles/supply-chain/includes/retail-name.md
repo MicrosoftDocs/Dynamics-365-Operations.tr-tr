@@ -1,2 +1,2 @@
 > [!NOTE]
-> <span data-ttu-id="9888d-101">Bu konu hem Dynamics 365 for Finance and Operations hem de Dynamics 365 for Retail için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="9888d-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 
+> <span data-ttu-id="b4753-101">Bu konu Finance, Supply Chain Management ve Retail için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="b4753-101">This topic applies to Finance, Supply Chain Management, and Retail.</span></span> 

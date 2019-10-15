@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="64afa-101">Bu konuda belirtilen işlev özel bir önizleme sürümünün bir parçası olarak hedeflenen kullanıcılara sunulur.</span><span class="sxs-lookup"><span data-stu-id="64afa-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="64afa-102">İçerik ve işlevde değişiklik yapılabilir.</span><span class="sxs-lookup"><span data-stu-id="64afa-102">The content and the functionality are subject to change.</span></span> 
