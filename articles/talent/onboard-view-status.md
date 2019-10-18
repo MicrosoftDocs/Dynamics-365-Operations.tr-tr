@@ -1,6 +1,6 @@
 ---
 title: Görevlerin ve işe alınan çalışanların durumunu görüntüleme
-description: Bu konu, yeni işe alımların işe alım işlemlerinde nerede olduklarını izlemek için Microsoft Dynamics 365 for Talent - Onboard uygulamasının nasıl kullanılacağını açıklar.
+description: Bu konuda yeni işe alımların işe alım ve alıştırma sürecinde nerede olduklarını izlemek için Microsoft Dynamics 365 Talent - Onboard uygulamasının nasıl kullanılacağı açıklanmaktadır.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0e17c572b4d3b5cee3687b25fb340ad9f98247ed
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731674"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009843"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Görevlerin ve işe alınan çalışanların durumunu görüntüleme
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard, yeni işe aldıklarınızın işe alım etkinliklerinde kaydettiği ilerlemeyi görüntülemenizi sağlar. Ayrıca, işe alım kılavuzlarından size atanan görevleri de görüntüleyebilirsiniz.
+Microsoft Dynamics 365 Talent: Onboard, yeni işe aldığınız çalışanların işe alım ve alıştırma etkinliklerinde kaydettiği ilerlemeyi görüntülemenizi sağlar. Ayrıca, işe alım kılavuzlarından size atanan görevleri de görüntüleyebilirsiniz.
 
 ## <a name="view-the-status-of-onboarding-employees"></a>İşe alınan çalışanların durumunu görüntüleme
 

@@ -1,6 +1,6 @@
 ---
-title: Yenilikler veya değişiklikler ve Dynamics 365 for Retail
-description: Bu sayfa Microsoft Dynamics 365 for Retail'ın son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek kaynaklara sizi yönlendirir.
+title: Yenilikler veya değişiklikler ve Dynamics 365 Retail
+description: Bu sayfa sizi Microsoft Dynamics 365 Retail'in son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek kaynaklara yönlendirir.
 author: sericks007
 manager: AnnBe
 ms.date: 10/20/2018
@@ -16,22 +16,22 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 23156e4f19beaf1bfe6ab9a66a326d55e7d85213
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d0f89cc5ec0a0a1bb174a031aa9b6c059d608be4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845721"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025503"
 ---
-# <a name="whats-new-and-changed-in-dynamics-365-for-retail"></a>Dynamics 365 for Retail içinde neler yeni veya değişti
+# <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Dynamics 365 Retail içinde neler yeni veya değişti
 
 [!include [banner](../../includes/banner.md)]
 
-Bu sayfa Microsoft Dynamics 365 for Retail'ın son sürümlerindeki yeni özellikler ve değişiklikler hakkında bilgi almanıza yardımcı olabilecek kaynaklara sizi yönlendirir.
+Bu sayfa sizi Microsoft Dynamics 365 Retail'in son sürümlerindeki yeni özellikler ve değişiklikler hakkında bilgi almanıza yardımcı olabilecek kaynaklara yönlendirir.
 
 [!include [release notes](../includes/release-notes.md)]
 
-## <a name="releases-of-dynamics-365-for-retail"></a>Dynamics 365 for Retail sürümleri
+## <a name="releases-of-dynamics-365-retail"></a>Dynamics 365 Retail sürümleri
 
 | Sürüm | Yapı numarası | Kullanılabilirlik | Daha fazla bilgi edinin |
 |---------|--------------|--------------|------------|

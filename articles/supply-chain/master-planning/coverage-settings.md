@@ -3,7 +3,7 @@ title: Kapsam ayarları
 description: Bu konu, Master planlamanın madde gereksinimlerini hesaplamak için kullandığı kapsam ayarlarıyla ilgili bilgi sağlar.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99e094a7131b6d3a299fc72abd0141529908ddd2
-ms.sourcegitcommit: 9e50bee6a67f0fe2fa6f86e02c7e8de16d0e2482
+ms.openlocfilehash: 3a63184852751bb65fb7e80d721f8c48fd847609
+ms.sourcegitcommit: edfd805356894710488ce07cb1c89313f448b222
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538906"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "1998983"
 ---
 # <a name="coverage-settings"></a>Kapsam ayarları
 
@@ -49,6 +49,19 @@ Karşılama ayarlarını birkaç şekilde belirtebilirsiniz:
 - Boyut grubu için kapsam ayarları belirtin.
 
     **Ürün bilgi yönetimi &gt; Ürünler &gt; Serbest bırakılmış ürünler**'e gidin. **Serbest bırakılan ürün ayrıntıları** sayfasında, **Genel** hızlı sekmesinde, **Yönetim** bölümünde, **Depolama boyut grubu** alanındaki bağlantıya tıklayın. **Depolama boyut grupları** sayfasında **Boyuta göre kapsam planı** onay kutusunu seçerek depolama boyut grubundaki bir boyut için kapsam ayarları oluşturabilirsiniz. Yapılandırma, renk, boyut, stil gibi tüm ürün boyutları için **Boyuta göre kapsam planı** alanı seçilmiş olmalıdır.
+
+
+## <a name="coverage-codes"></a>Karşılama kodları
+
+Master planlama farklı stok yenileme yöntemleri kullanacak şekilde yapılandırılabilir. Stok yenileme yöntemleri veya lot boyutlandırma yöntemleri, sistem tarafından satın alınan veya üretilen maddelerin toplu iş boyutunu belirlemek için kullanılan tekniklerdir. 
+
+Her stok yenileme yöntemine aşağıdaki karşılama kodlarından biri atanır:
+
+- **El ile** : Sistemin madde için satın alınan, transfer veya üretim emirlerini önermediği lot boyutlandırma yöntemi. Maddenin planlayıcısı, maddenin stok yenileme işlemi için gerekli siparişlerin oluşturulmasından sorumlu olacaktır.
+- **Gereksinim başına**: Sistemin madde için her gereksinim başına bir planlı satınalma, transfer veya üretim emri oluşturduğu lot boyutlandırma yöntemidir. Bu genellikle, aralıklı talep bulunan pahalı maddeler için kullanılır.  
+- **Dönem başına**: Madde için bir döneme ait tüm talepleri tek bir siparişte olacak şekilde birleştiren lot boyutlandırma yöntemi. Sipariş dönemin ilk günü için planlanacaktır ve miktarı ayarlanan dönem içindeki net gereksinimleri karşılayacaktır. Dönem, maddeye yapılan ilk taleple başlar ve tanımlanan süreyi olduğu gibi kapsar. Sonraki dönem, maddenin sonraki gereksinimleri itibarıyla başlar.
+- **Minimum/Maksimum**: Tahmini eldeki değeri bir eşiğin altında olduğunda, belirli bir düzeye kadar stok stok yenilemesini içeren lot boyutlandırma yöntemi. Stok yenileme miktarı maksimum düzey ve eldeki tahmini düzey arasındaki fark olur.
+
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c900ef715b62484c1fb6576b7f0c97cdea4e4284
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865148"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251074"
 ---
-# <a name="warehouse-management-overview"></a>Ambar yönetimi genel bakış
+# <a name="warehouse-management-overview"></a>Ambar yönetimine genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 for Finance and Operations için Ambar yönetim modülü, üretim, dağıtım ve perakende şirketlerindeki ambar işlemlerini yönetmenizi sağlar. Bu modül, ambar tesisini her zaman, en iyi seviyede destekleyen çok çeşitli özelliklere sahiptir. Ambar yönetimi Finance and Operations içindeki diğer iş işlemleri tümüyle entegredir; örneğin taşıma, üretim, kalite kontrol, satınalma, transfer, satış ve iadeler gibi.
+Ambar yönetim modülü, üretim, dağıtım ve perakende şirketlerindeki ambar işlemlerini yönetmenizi sağlar. Bu modül, ambar tesisini her zaman, en iyi seviyede destekleyen çok çeşitli özelliklere sahiptir. Ambar yönetimi diğer iş süreçleriyle (taşıma, üretim, kalite kontrol, satınalma, transfer, satış ve iadeler vb.) tümüyle entegredir.
 
 ## <a name="get-started"></a>Başlayın
 Ambar yönetimiyle çalışmaya başlamak için, şirketinizin iş işlemlerini desteklemek için genel ambar parametrelerinin kurulumunu tamamlamanız gerekir.

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4360f9132d31c9d0038f51c68c1f6c3fcaaa2025
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547898"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250887"
 ---
 # <a name="physical-and-financial-updates"></a>Fiziksel ve mali güncellemeler
 
@@ -32,7 +32,7 @@ ms.locfileid: "1547898"
 
 Bu konu hangi türdeki hareketlerin miktarları arttırdığı veya azalttığına ilişkin genel bir bakış sağlar. 
 
-Stok hareketleri, Microsoft Dynamics 365 for Finance and Operations uygulamasında fiziksel olarak ve mali olarak güncellenebilir. Bazı fiziksel ve mali hareket türleri stok miktarlarını artırırken, bazıları bu miktarlar azaltır.
+Stok hareketleri, Dynamics 365 Supply Chain Management uygulamasında fiziksel olarak ve mali olarak güncellenebilir. Bazı fiziksel ve mali hareket türleri stok miktarlarını artırırken, bazıları bu miktarlar azaltır.
 
 ## <a name="physical-increases"></a>Fiziksel artışlar
 Bir fiziksel hareket nakledildiğinde, hareket kaydının durumu **Alındı** olur. Aşağıdaki hareketler fiziksel artış olarak kabul edilir:
@@ -51,10 +51,13 @@ Bir mali giriş hareketi nakledildiğinde, miktarı artıran hareket kaydının 
 -   Hareket, kar ve zarar, sayım, malzeme listesi ve transfer vb. gibi pozitif miktar stok günlükleri
 
 ## <a name="transactions-that-increase-quantity"></a>Miktarı artıran hareketler
-Miktarı artıran hareketler çalışan ortalama maliyet fiyatı üzerinden nakledilir. Finance and Operations, mali olarak takip edilen her bir stok boyutu için bu hareketlerin her birinin maliyetine dayalı olarak bir çalışan ortalama maliyeti fiyatı hesaplar. Çalışan ortalama maliyet fiyatları hakkında daha fazla bilgi için [Çalışan ortalama maliyet fiyatı](running-average-cost-price.md) bölümüne bakın.
+Miktarı artıran hareketler çalışan ortalama maliyet fiyatı üzerinden nakledilir. Hesaplanan cari ortalama maliyet fiyat, finansal olarak takip edilen her bir stok boyutu için bu hareketlerin her birinin maliyetine dayanır. Çalışan ortalama maliyet fiyatları hakkında daha fazla bilgi için [Çalışan ortalama maliyet fiyatı](running-average-cost-price.md) bölümüne bakın.
 
 ## <a name="transactions-that-decrease-quantity"></a>Miktarı azaltan hareketler
-Finance and Operations, miktarı azaltan bir hareket nakledildiğinde bu stokla bağlantılı stok modelinden bağımsız olarak, hesaplanan ortalama maliyet fiyatını kullanır. Miktarı azaltan hareket kesinlikle nakledilmeden önce başka bir harekete işaretlenmemiş olmalıdır. Fiziksel eldeki stokun negatif olması durumunda Finance and Operations, madde için **Madde** sayfasında tanımlanan stok maliyetini kullanır. **Not:** Birden fazla saha içeren bir işlev etkinleştirilirse maliyet yerine bir saha için **Varsayılan sipariş ayarları** sayfasında tanımlanan envanter maliyeti kullanılacaktır.
+Miktarı azaltan bir hareket nakledildiğinde bu stokla ilişkili olan stok modeline bakılmaksızın, hesaplanan cari ortalama maliyet fiyatı kullanılır. Miktarı azaltan hareket kesinlikle nakledilmeden önce başka bir harekete işaretlenmemiş olmalıdır. Eldeki fiziksel stokun negatif hale gelmesi durumunda **Madde** sayfasında tanımlanan stok maliyeti kullanılır. 
+
+> [!NOTE]
+> Birden fazla saha içeren bir işlev etkinleştirilirse bunun yerine bu maliyet, bir saha için **Varsayılan sipariş ayarları** sayfasında tanımlanan stok maliyeti olur.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Fiziksel çıkışlar ile mali çıkışlar karşılaştırması
 Bir fiziksel çıkış hareketi nakledildiğinde, hareket kaydının durumu **Kesinti yapıldı** olur. Aşağıdaki hareketler fiziksel çıkışlar olarak kabul edilir:
@@ -71,6 +74,3 @@ Bir finansal hareket nakledildiğinde, hareket kaydının durumu **Satılan** ol
 -   Hareket, kar ve zarar, sayım, malzeme listesi ve transfer vb. gibi negatif miktar stok günlükleri
 
 Miktarı azaltan hareketler çalışan ortalama maliyet fiyatı üzerinden nakledilir. Bu nedenle, her bir maddeye atanan stok modeline dayalı olarak, çıkış hareketlerinin giriş hareketlerine kapatılması için stok kapanışı prosedürü uygulanmalıdır.
-
-
-

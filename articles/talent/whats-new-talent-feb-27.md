@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'daki yenilikler veya değişiklikler (27 Şubat 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (27 Şubat 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519296"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024011"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (27 Şubat 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (27 Şubat 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 
-Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
 
-Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 
@@ -77,9 +77,9 @@ Bu sürüm, diğer küçük hata düzeltmeleri içerir.
 
 Pek çok kuruluşta, ücret ve kazanç yöneticilerinin yalnızca belirli ücret kayıtlarına erişimi olabilir. Bu kayıtlar yöneticiler veya bölgesel çalışanlar için olabilir. Bu, İnsan kaynakları (HR) yönetimini değiştirir ve ücret planlarını kuruluş içindeki farklı personel popülasyonları için korur. Güvenlik rolleri, sabit ve değişken planlara atanabilir ve bu planların ve bunlarla ilişkili personel verisinin erişimini belirlemek için atanabilir (örneğin, maaş bilgisi ve bonus kayıtlar). Yalnızca belirli erişime sahip roller bu çalışanlar için ücreti işleyebilirler.
 
-### <a name="platform-update-24"></a>Platform güncelleştirmesi 24
+### <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 24
 
-Microsoft Dynamics 365 for Finance and Operations platform güncelleştirmeleri 24 (Mart 2019) hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24 (Mart 2019) içindeki önizleme özellikleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Microsoft Dynamics 365 Finance and Operations için Platform güncelleştirmesi 24 (Mart 2019) hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'teki (Mart 2019) önizleme özellikleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Gelecekteki konum atamaları için personel sabit ücreti kullanılabilir kılın.
 
@@ -87,10 +87,10 @@ Kuruluşa katılan personelin gelecekte bir işe başlama tarihine sahip olması
 
 ## <a name="known-issues"></a>Bilinen sorunlar
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Core HR tümleştirme şablonunda değişiklikler (Talent Common Data Service'tan Finance and Operations'a)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>Core HR tümleştirme şablonunda değişiklikler (Talent Common Data Service'ten Finance'e)
 Core HR için şablon, "gelişmiş sorgu şablonuna" güncelleştirilmiştir. Bu nedenle, varsayılan olarak, gelişmiş sorgu bu şablonu kullanarak oluşturulan projeler için kullanılabilir olacaktır. Ek olarak, tüm varsayılan eşleştirme işlevleri yalnızca gelişmiş sorgu düzenleyicide görünür olacaktır. (Varsayılan eşleşme işlevi, eşleştirmelerde "FN" olarak görüntülenir.)
 
-Eşleştirme hataları hakkında daha fazla bilgi için bkz. [Dynamics 365 for Talent Core HR (14 Aralık 2018) içerisinde neler değişti](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
+Eşleştirme hataları hakkında daha fazla bilgi için bkz. [Dynamics 365 Talent: Core HR'daki (14 Aralık 2018) yenilikler veya değişiklikler](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
 
 Yeni şablonu kullanmak için yeni bir proje oluşturun ve yeni Talent tümleştirme şablonunu seçin.
 

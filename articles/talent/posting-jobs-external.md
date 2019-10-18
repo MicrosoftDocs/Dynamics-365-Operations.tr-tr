@@ -1,6 +1,6 @@
 ---
-title: Attract'tan harici kariyer sitelerinde iş ilanları yayınlama
-description: Bu kon, harici işe alma sitelerine Dynamics 365 for Talent - Attract kullanarak ilan vermeyi açıklar
+title: Attract'tan harici kariyer sitelerine iş yayımlama
+description: Bu konuda Dynamics 365 Talent - Attract'i kullanarak harici işe alım sitelerinde nasıl ilan verilebileceği açıklanmaktadır
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739829"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008094"
 ---
 # <a name="post-jobs-to-broadbean"></a>Broadbean'de iş ilanları yayınlama
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract, işlerinizi doğrudan Attract'tan Broadbean'e nakletmenize izin vererek gereksinim duyduğunuz yetenekleri elde etmenize yardımcı olur. [Bir iş oluşturduktan](./creating-jobs-attract.md) sonra, işinizi Broadbean'deki olası tüm iş adayları önüne koymak için bir düğmeye tıklamanız yeterlidir.
+Microsoft Dynamics 365 Talent: Attract, işlerinizi doğrudan Attract'ten Broadbean'e nakletmenize izin vererek gereksinim duyduğunuz yetenekleri elde etmenize yardımcı olur. [Bir iş oluşturduktan](./creating-jobs-attract.md) sonra, işinizi Broadbean'deki olası tüm iş adayları önüne koymak için bir düğmeye tıklamanız yeterlidir.
 
 Projelerin Broadbean için deftere nakli uygun bir Broadbean lisansı gerektirir. Broadbean çeşitli ürün ve planlar sunar. Broadbean lisanslama ve fiyatlandırma hakkında daha fazla bilgi için [Broadbean'e başvurun](https://www.broadbean.com/contact-us/).
 

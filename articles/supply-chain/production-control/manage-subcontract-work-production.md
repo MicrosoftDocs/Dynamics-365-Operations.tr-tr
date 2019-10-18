@@ -1,6 +1,6 @@
 ---
 title: Üretimdeki alt sözleşme işini yönetme
-description: Bu konu, taşeron operasyonların Microsoft Dynamics 365 for Finance and Operations içinde nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
+description: Bu konu, taşeron operasyonların Dynamics 365 Supply Chain Management içinde nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ea2feccf9f74c0f035b8a46dc87eb41bdf85900a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569765"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023553"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Üretimdeki alt sözleşme işini yönetme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, taşeron operasyonların Microsoft Dynamics 365 for Finance and Operations içinde nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
+Bu konu, taşeron operasyonların Dynamics 365 Supply Chain Management içinde nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
 
 [Üretim işlemlerinde](production-process-overview.md) iş, satıcıların sahip olduğu veya onlar tarafından yönetilen kaynaklar tarafından yapılabilir. Genellikle satıcı kaynakları, bir şirketin kendi kaynaklarını aşan düzenli fazla talebi düzenlemek için kullanılır. Satıcı aynı zamanda belirli [kaynak yetenekleri](resource-capabilities.md) veya kaynakları daha düşük fiyattan sunabilir.  
 
@@ -40,7 +40,7 @@ Alt sözleşme operasyonları veya etkinlikleri kullanıldığında, bunlar oper
 
 Dahili kaynaklar için, sabit maliyet oranı genellikle bir dönem için tahsis edilir. Bunun tersine, alt sözleşmeli kaynakların maliyeti, ilgili hizmetin satınalma fiyatına dayanır. Hizmet, başka bir ürün olarak tanımlanır ve belirli bir alt sözleşmeli operasyonun satın alınması ve satınalma işlemlerini yürütmek için kullanılır.  
 
-Şu anda, yarı bitmiş ürünler için Microsoft Dynamics 365 for Finance and Operations'ta açık bir kavram yoktur. Ham maddeleri mamul mala dönüştürmek için birden fazla operasyona ihtiyaç duyan bir üretim emri için mamul mal, sadece son operasyonda tekrardan stoklara geri nakledilir. Daha önceki operasyonların ürettiği yarı bitmiş ürünler, süren iş (WIP) olarak hesaba katılır, ancak stokta izlenmez veya gönderilmez. Rotaları ve ürün reçetelerini (BOM'lar) birden fazla küçük birime bölebiliyor olsanız da, bu yaklaşım yönetilmesi gereken ürünlerin, BOM'ların ve rotaların sayısını artırır.  
+Şu anda yarı bitmiş ürünler için Supply Chain Management'ta açık bir kavram yoktur. Ham maddeleri mamul mala dönüştürmek için birden fazla operasyona ihtiyaç duyan bir üretim emri için mamul mal, sadece son operasyonda tekrardan stoklara geri nakledilir. Daha önceki operasyonların ürettiği yarı bitmiş ürünler, süren iş (WIP) olarak hesaba katılır, ancak stokta izlenmez veya gönderilmez. Rotaları ve ürün reçetelerini (BOM'lar) birden fazla küçük birime bölebiliyor olsanız da, bu yaklaşım yönetilmesi gereken ürünlerin, BOM'ların ve rotaların sayısını artırır.  
 
 Üretim operasyonları için alt sözleşmeli işleri modellemenin iki yöntemi vardır. Bu yöntemler alt sözleşmeli sürecin modellenme şeklinde, yarı bitmiş ürünlerin süreçte temsil edilmesinde ve maliyet yönetiminin yönetilme şeklinde farklılık gösterir.
 

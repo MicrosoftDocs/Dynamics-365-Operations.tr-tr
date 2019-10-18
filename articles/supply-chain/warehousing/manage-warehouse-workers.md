@@ -1,6 +1,6 @@
 ---
 title: Ambar çalışanlarını yönetme
-description: Bu makale, Dynamics 365 for Finance and Operations'u, ambarlarınızdaki çalışanlarca yürütülen işi denetlemeye ve izlemeye yardımcı olacak şekilde nasıl kullanabileceğinizi açıklamaktadır.
+description: Bu makalede Dynamics 365 Supply Chain Management - Warehousing uygulamasını ambarlarınızdaki çalışanlarca yürütülen işi denetlemeye ve izlemeye yardımcı olacak şekilde nasıl kullanabileceğiniz açıklanmaktadır.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f0de87e10f9213838dd5e5436b8b5699b19547bf
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572570"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018633"
 ---
 # <a name="manage-warehouse-workers"></a>Ambar çalışanlarını yönetme
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, Microsoft Dynamics 365 for Finance and Operations'u, ambarlarınızdaki çalışanlarca yürütülen işi denetlemeye ve izlemeye yardımcı olacak şekilde nasıl kullanabileceğinizi açıklamaktadır.
+Bu makalede Dynamics 365 Supply Chain Management - Warehousing uygulamasını ambarlarınızdaki çalışanlarca yürütülen işi denetlemeye ve izlemeye yardımcı olacak şekilde nasıl kullanabileceğiniz açıklanmaktadır.
 
 Ambar yönetimindeki işlevleri kullanıyorsanız, tüm ambar çalışan operasyonları *iş* olarak adlandırılır. Çekme, taşıma ve eldeki stokun sayımı gibi işler mobil cihazlar kullanılarak kaydedilir. Bir ambar çalışanı işi yapmadan önce, İnsan Kaynakları'ndaki bir çalışan ile ilişkilendirilmiş olması gerekir. Her **Çalışan** hesabının, bu hesapla ilişkilendirilmiş birden çok ambar işi kullanıcısı olabilir. Bu iş kullanıcıları farklı ambarlarda çalışabilir ve çeşitli mobil cihaz menülerine farklı düzeylerde erişimleri olabilir. Ambar iş kullanıcılarını seçili çalışanın birden çok oturum açması gibi düşünebilirsiniz. Her iş kullanıcısının varsayılan bir ambarı vardır ve belirli iş akışları, o iş kullanıcısı tarafından kullanılabilen menü öğeleri ile ortaya çıkarılır. 
 

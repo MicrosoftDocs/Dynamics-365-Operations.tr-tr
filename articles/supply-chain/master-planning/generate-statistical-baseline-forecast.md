@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bc5a38519efb6f4d242daca9aab5226c16e4ea0
-ms.sourcegitcommit: 3be8d2be6474264f0a530a052d19ea2635e269cf
+ms.openlocfilehash: 5ce8c1e7a3a4533516d8f2e2b0af46633e4c7667
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1729887"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250749"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>İstatistik temel tahmini oluşturma
 
@@ -47,7 +47,7 @@ Tahmin stratejisi **Geçmişteki talep üzerine kopyala** olarak ayarlandığın
 
 Üretim planlarında karışıklığı önlemek için, belirli bir sayıda tahmin aralığı dondurulabilir. Bu numara **Dondurma zaman dilimi** alanında ayarlanır. **Düzeltilmiş talep tahmini** sayfasında, dondurulan aralık hücreleri, bu değerlerin değiştirilmemesi gerektiğine dair görsel bir uyarı vermek için devre dışı bırakılır. 
 
-Temel Talep tahmini için başlangıç tarihinin geçerli tarih veya gelecekteki bir tarih olması gerekmez. Farklı bir başlangıç tarihi ayarlamak için, **Temel tahmin Başlangıç tarihi - Başlangıç tarihi** alanı. Örneğin, Haziran ayında, kullanıcılar gelecek yıl için tahmin oluşturabilir. Geçmiş talebin sonu ile temel başlangıcı arasındaki tahmin aralıkları eksik olduğu için, öngörüler doğru olmayabilir. Microsoft Dynamics 365 for Finance and Operations Talep tahmini hizmeti kullanıyorsanız, eksik boşlukları doldurabileceğiniz dört yolu vardır. İstediğiniz yöntemi **Talep tahmini parametreleri** sayfasındaki MISSING\_VALUE\_SUBSTITUTION parametresini ayarlayarak seçebilirsiniz. 
+Temel Talep tahmini için başlangıç tarihinin geçerli tarih veya gelecekteki bir tarih olması gerekmez. Farklı bir başlangıç tarihi ayarlamak için, **Temel tahmin Başlangıç tarihi - Başlangıç tarihi** alanı. Örneğin, Haziran ayında, kullanıcılar gelecek yıl için tahmin oluşturabilir. Geçmiş talebin sonu ile temel başlangıcı arasındaki tahmin aralıkları eksik olduğu için, öngörüler doğru olmayabilir. Talep tahmini hizmeti kullanıyorsanız, eksik boşlukları doldurmak için dört yol vardır. İstediğiniz yöntemi **Talep tahmini parametreleri** sayfasındaki MISSING\_VALUE\_SUBSTITUTION parametresini ayarlayarak seçebilirsiniz. 
 
 > [!NOTE]
 > Eksik değer değiştirme yalnızca geçmişe ait verilerin başlangıç ve bitiş tarihleri arasındaki boşluklar için çalışır. Veri, son fiziksel veri noktasından önce veya sonra doldurmaz, yalnızca gerçek mevcut veri noktaları arasında tahmin edilecek şekilde işlev gösterir. 
@@ -56,7 +56,7 @@ Temel Talep tahmini için başlangıç tarihinin geçerli tarih veya gelecekteki
 
 **Temel tahmin başlangıç tarihi** - **Başlangıç tarihi** alanı geçmişteki bir tarihe ayarlanabilir. Diğer bir deyişle, geçmişte bir talep tahminini oluşturmak mümkündür. Bu işlem, kullanıcıların tahmin hizmet parametrelerinde geçmişte ayarlanan istatistiksel tahminin gerçek geçmiş talebiyle eşleşecek şekilde ufak düzeltmeler yapmasına olanak verdiği için yararlıdır. Daha sonra kullanıcılar geleceğe yönelik istatistik temel tahmini oluşturmak için bu parametre ayarlarını kullanmaya devam edebilir. 
 
-**Manüel ayarlamaları talep tahminine aktar** onay kutusu seçiliyse, önceki talep tahmini yinelemelerinde yapılan manüel ayarlamalar, yeni temel tahmine otomatik olarak uygulanabilir. Onay kutusu temizlenirse, manüel ayarlamalar temel tahmine eklenmez, ancak silinmezler. Bir tahminde yapılan manüel ayarlamalar, yalnızca tahmini içe aktarma sırasında, **Temel talep tahmininde yapılan manüel ayarlamaları kaydet** onay kutusundaki işaret kaldırılarak silinebilir. Manüel ayarlamalar yetkilendirme anında kaydedilir. Bu nedenle, bir kullanıcı, tahminde manüel ayarlamalar yapar, ancak tahmini Finance and Operations'ta yeniden yetkilendirmezse, değişiklikler kaybolur. Manüel ayarlamalar ve bunların çalışma şekilleri hakkında daha fazla bilgi için, bkz. [Ayarlanmış tahmini yetkilendirme](authorize-adjusted-forecast.md). 
+**Manüel ayarlamaları talep tahminine aktar** onay kutusu seçiliyse, önceki talep tahmini yinelemelerinde yapılan manüel ayarlamalar, yeni temel tahmine otomatik olarak uygulanabilir. Onay kutusu temizlenirse, manüel ayarlamalar temel tahmine eklenmez, ancak silinmezler. Bir tahminde yapılan manüel ayarlamalar, yalnızca tahmini içe aktarma sırasında, **Temel talep tahmininde yapılan manüel ayarlamaları kaydet** onay kutusundaki işaret kaldırılarak silinebilir. Manüel ayarlamalar yetkilendirme anında kaydedilir. Bu nedenle, bir kullanıcı, tahminde manüel ayarlamalar yapar, ancak tahmini Supply Chain Management'ta yeniden yetkilendirmezse, değişiklikler kaybolur. Manüel ayarlamalar ve bunların çalışma şekilleri hakkında daha fazla bilgi için, bkz. [Ayarlanmış tahmini yetkilendirme](authorize-adjusted-forecast.md). 
 
 Talep tahmini oluşturmada, kullanıcıların oluşturulan tahmini tanımalarına yardımcı olacak bir ad ve yorumlar bulunabilir. Bu değerler **İstatistik temel tahmin oluşturma geçmişi** sayfasındaki tahmin oluşturma geçmişinde görülür. 
 

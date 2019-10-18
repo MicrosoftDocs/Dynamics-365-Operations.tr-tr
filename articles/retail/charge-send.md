@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: e5351086c56d13ef98937aec066be00cdf88fd37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 088f55e5605c99f69852b4d6811b5c5504f267a2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553657"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019474"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Gönderimle görevlendir özelliğini kullanarak siparişleri başka bir mağazaya sevk etme
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Retail'deki Gönderimle görevlendirme özelliğiyle, müşteri siparişleri bir mağazadan alınabilir ve başka bir mağazadan sevk edilebilir.
+Retail'deki Gönderimle görevlendirme özelliğiyle, müşteri siparişleri bir mağazadan alınabilir ve başka bir mağazadan sevk edilebilir.
 
 Satış noktası (POS) istemcisindeki müşteri siparişleri birden fazla karşılama seçeneğini destekler. Karşılama seçeneklerine örnek olarak aşağıdakiler verilebilir:
 

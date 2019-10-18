@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent - Onboard'da işe alım kılavuzlarını güncelle
-description: Bu konu, Microsoft Dynamics 365 for Talent - Onboard'da işe alım kılavuzlarının güncelleştirilen ve değişikliklerin varolan kılavuzlara itilen şekli açıklanmaktadır.
+title: Dynamics 365 Talent - Onboard'da işe alım ve alıştırma kılavuzlarını güncelleştirme
+description: Bu konuda Microsoft Dynamics 365 Talent - Onboard'da işe alım ve alıştırma kılavuzlarının nasıl güncelleştirileceği ve değişikliklerin mevcut kılavuzlara nasıl ekleneceği açıklanmaktadır.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731679"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010741"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>Dynamics 365 for Talent: Onboard'da işe alım kılavuzlarını güncelle
+# <a name="update-onboarding-guides"></a>İşe alım ve alıştırma kılavuzlarını güncelleştirme
 
 [!include [banner](includes/banner.md)]
 
-Microsoft: Dynamics 365 for Talent: Onboard'daki işe alım kılavuzlarda değişiklik yapmak zorundaysanız, kılavuzları zaten göndermiş olsanız bile bunları güncelleyebilir ve değişiklikleri itebilirsiniz. Bir işe alım kılavuzunu güncelleştirmek için iki seçeneğiniz var:
+Microsoft Dynamics 365 Talent: Onboard'daki işe alım ve alıştırma kılavuzlarda değişiklik yapmanız gerekiyorsa zaten göndermiş olsanız bile kılavuzları güncelleştirebilir ve değişiklikleri ekleyebilirsiniz. Bir işe alım kılavuzunu güncelleştirmek için iki seçeneğiniz var:
 
 - İşe alım kılavuzunu doğrudan edin ve değişikliklerinizi kaydedin.
 - İşe alım şablonunu düzenleyin ve sonra ondan oluşturulan tüm işe alım kılavuzlarına değişiklikleri gönderin.

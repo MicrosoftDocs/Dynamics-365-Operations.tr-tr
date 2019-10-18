@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 2762179a13ff9bbcb4001f3a9aba443c4aa00f9f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519310"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024254"
 ---
 # <a name="questionnaires"></a>Soru formları
 
@@ -31,7 +31,7 @@ ms.locfileid: "1519310"
 
 Bu konu, anketler hakkında genel bilgi ve daha ayrıntılı bilgiler için bağlantılar sağlar. Bir anket çeşitli amaçlarla bilgi toplamak için kullanılan bir soru kümesidir. Soru formları tasarlayabilir, oluşturabilir, dağıtabilir, doldurabilir ve ardından sonuçları çözümleyebilirsiniz. 
 
-Microsoft Dynamics 365 for Finance and Operations'da kullanılabilen çeşitli özellikleri kullanarak bir anketi belirli gereksinimlerinize uyacak şekilde özelleştirebilirsiniz. Anketleri nasıl kullanabileceğinizin bazı örnekleri şunlardır:
+Microsoft Dynamics 365 Finance'te kullanılabilen çeşitli özellikleri kullanarak bir anketi belirli gereksinimlerinize uyacak şekilde özelleştirebilirsiniz. Anketleri nasıl kullanabileceğinizin bazı örnekleri şunlardır:
 
 -   Çalışanların ve başvuranların mesleki yeteneklerini sınama
 -   Kurs katılımcılarının kurs malzemesini öğrenip öğrenmediğini değerlendirin.

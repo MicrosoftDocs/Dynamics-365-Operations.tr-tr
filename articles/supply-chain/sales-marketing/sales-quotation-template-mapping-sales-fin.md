@@ -1,6 +1,6 @@
 ---
-title: Sales'deki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations'la eşitleme
-description: Bu konu, satış teklifi başlıklarını ve satırlarını Microsoft Dynamics 365 for Sales'den Microsoft Dynamics 365 for Finance and Operations'ye eşitlemek için altta yatan görevleri ve şablonları açıklar.
+title: Satış teklifi başlıklarını ve satırlarını Sales'ten Supply Chain Management'a doğrudan eşitleme
+description: Bu konu, satış teklifi başlıklarını ve satırlarını Dynamics 365 Sales'ten Dynamics 365 Supply Chain Management'a eşitlemek için kullanılan temel görevleri ve şablonları açıklamaktadır.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0894f4728d3f1df21db130cd9e87d9881726e7fa
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743383"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251259"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Satış teklifi başlıklarını ve satırlarını Sales'ten Supply Chain Management'a doğrudan eşitleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, satış teklifi başlıklarını ve satırlarını Microsoft Dynamics 365 for Sales'den Microsoft Dynamics 365 for Finance and Operations'ye eşitlemek için altta yatan görevleri ve şablonları açıklar.
+Bu konu, satış teklifi başlıklarını ve satırlarını Dynamics 365 Sales'ten Dynamics 365 Supply Chain Management'a eşitlemek için kullanılan temel görevleri ve şablonları açıklamaktadır.
 
 > [!NOTE]
 > Aday'dan nakde çözümünü kullanmadan önce [Common Data Service for Apps için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 
-Aday müşteriden nakde çözümü Finance and Operations ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri tümleştirme özelliğiyle birlikte kullanılan Müşteri adayından nakde şablonları Finance and Operations ile Sales arasında hesaplar, ürünler, satışlar, satış teklifleri, satış siparişleri ve satış faturaları için veri akışı sağlar. Finance and Operations ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
+Aday müşteriden nakde çözümü Supply Chain Management ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri Tümleştirme özelliğiyle kullanılabilecek Aday müşteriden nakde şablonları; hesaplar, ilgili kişiler, ürünler, satış teklifleri, satış siparişleri ve satış faturaları için Supply Chain Management ve Sales arasında veri akışını etkinleştirir. Supply Chain Management ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
 
 [![Aday müşteriden nakde çözümünde veri akışı](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Şablon ve görevler
 
-Aşağıdaki şablon ve altta yatan görevler, teklif başlıklarını ve satırlarını doğrudan Sales'tan Finance and Operations'a eşitlemekte kullanılır:
+Aşağıdaki şablon ve temel görevler, teklif başlıklarını ve satırlarını Sales'ten Supply Chain Management'a doğrudan eşitlemede kullanılır:
 
-- **Veri tümleştirmedeki şablonun adı:** Satış Teklifleri (Sales'ten Fin and Ops'a) - Doğrudan
+- **Veri tümleştirmedeki şablonun adı:** Satış Teklifleri (Sales'ten Supply Chain Management'a) - Doğrudan
 - **Veri tümleştirme projesindeki görevlerin adları:**
 
     - QuoteHeader
@@ -53,20 +53,20 @@ Aşağıdaki şablon ve altta yatan görevler, teklif başlıklarını ve satır
 
 Aşağıdaki eşitleme görevleri, satış teklifi başlıkları ve satırlarının eşitlemesi gerçekleşebilmeden önce gereklidir.
 
-- Ürünler (Fin and Ops'tan Sales'a) - Doğrudan
-- Hesaplar (Sales'tan Fin and Ops'a) - Doğrudan (kullanılıyorsa)
-- İlgili kişilerden Müşterilere (Sales'tan Fin and Ops'a) - Doğrudan (kullanılıyorsa)
+- Ürünler (Supply Chain Management'tan Sales'e) - Doğrudan
+- Hesaplar (Sales'ten Supply Chain Management'a) - Doğrudan (kullanılıyorsa)
+- İlgili kişilerden Müşterilere (Sales'ten Supply Chain Management'a) - Doğrudan (kullanılıyorsa)
 
 ## <a name="entity-set"></a>Varlık kümesi
 
-| Satış        | Finance and Operations     |
+| Satışlar        | Finance and Operations     |
 |--------------|----------------------------|
 | Alıntılar       | CDS satış teklifi başlığı |
 | QuoteDetails | CDS satış teklifi satırları  |
 
 ## <a name="entity-flow"></a>Varlık akışı
 
-Sales'ta oluşturulmuş ve Finance and Operations'a eşitlenmiş satış teklifleri.
+Satış teklifleri Sales'te oluşturulur ve Supply Chain Management'a eşitlenir.
 
 Sales'taki satış teklifleri, yalnızca aşağıdaki koşullar gerçekleşirse eşitlenir:
 
@@ -75,13 +75,13 @@ Sales'taki satış teklifleri, yalnızca aşağıdaki koşullar gerçekleşirse 
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Sales için Aday müşteriden nakde çözümü
 
-Yalnızca **Dışarıda Tutulan Ürünleri Var** alanı, satış teklifinin tümüyle harici tutulan ürünlerden oluşup oluşmadığını istikrarlı bir şekilde izlemek için **Teklif** varlığına eklenmiştir. Bir satış teklifi yalnızca harici tutulan ürünlere sahipse, ürünler Finance and Operations'ta tutulur. Bu davranış, Finance and Operations tarafından bilenmeyen ürünlerin satış teklifi satırlarını eşitlemeye çalışmamanızı garanti etmeye yardımcı olur.
+Yalnızca **Dışarıda Tutulan Ürünleri Var** alanı, satış teklifinin tümüyle harici tutulan ürünlerden oluşup oluşmadığını istikrarlı bir şekilde izlemek için **Teklif** varlığına eklenmiştir. Bir satış teklifinde yalnızca harici tutulan ürünler varsa ürünler Supply Chain Management'ta tutulur. Bu davranış, Supply Chain Management tarafından bilenmeyen ürünlerin satış teklifi satırlarını eşitlemeye çalışmamanızı garanti etmeye yardımcı olur.
 
 Satış teklifindeki tüm teklif ürünleri, satış teklifi başlığından **Yalnızca Dışarıda Tutulan Ürünlere Sahip** bilgisi ile güncelleştirilir. Bu bilgi, **QuoteDetails** varlığındaki **Teklif Yalnızca Dışarıda Tutulan Ürünlere Sahip** alanında bulunur.
 
-Teklif ürününe bir iskonto eklenebilir ve Finance and Operations'a eşitlenir. Başlıktaki **İskonto**, **Masraflar** ve **Vergi** alanları Finance and Operations'taki bir ayar tarafından denetlenir. Bu kurulum şu anda hiçbir tümleştirme eşlemesini desteklemiyor. Geçerli tasarımda, **Fiyat**, **İskonto**, **Masraf** ve **Vergi** alanları korunur ve Finance and Operations tarafından işlenir.
+Teklif ürününe bir iskonto eklenebilir ve Supply Chain Management'a eşitlenir. Başlıktaki **İskonto**, **Masraflar** ve **Vergi** alanları Supply Chain Management'taki bir ayar tarafından denetlenir. Bu kurulum şu anda hiçbir tümleştirme eşlemesini desteklemiyor. Geçerli tasarımda, **Fiyat**, **İskonto**, **Masraf** ve **Vergi** alanları korunur ve Supply Chain Management'ta işlenir.
 
-Sales'ta, çözüm aşağıdaki alanları salt okunur yapar çünkü değerler Finance and Operations'a eşitlenmez:
+Sales'te, çözüm aşağıdaki alanları salt okunur yapar çünkü değerler Supply Chain Management'a eşitlenmez:
 
 - Satış teklifi başlığındaki salt okunur alanlar: **İskonto %**, **İskonto** ve **Navlun Tutarı**
 - Teklif ürünlerindeki salt okunur alanlar: **Vergi**
@@ -111,20 +111,20 @@ Satış tekliflerini eşitlemeden önce, sistemlerde aşağıdaki ayarları gün
 
 #### <a name="quoteline"></a>QuoteLine
 
-- Finance and Operations'da **SalesUnitSymbol** için gerekli değer eşlemesinin mevcut olduğundan emin olun.
+- Supply Chain Management'ta **SalesUnitSymbol** için gerekli değer eşlemesinin mevcut olduğundan emin olun.
 - Gerekli birimlerin Sales'ta tanımlandığından emin olun.
 
     Bir değer eşlemesi bulunan şablon değeri **oumid.name** için **SalesUnitSymbol** olarak tanımlanır.
 
-- İsteğe bağlı: Aşağıdaki eşleşmeleri satış teklifi satırlarının müşteriden veya üründen gelen varsayılan bilgi yoksa Finance and Operations'a aktarılmasını garanti etmeye yardımcı olmak amacıyla ekleyebilirsiniz:
+- İsteğe bağlı: Aşağıdaki eşleşmeleri satış teklifi satırlarının müşteriden veya üründen gelen varsayılan bilgi yoksa Supply Chain Management'a aktarılmasını garanti etmeye yardımcı olmak amacıyla ekleyebilirsiniz:
 
-    - **SiteId** - Finance and Operations'ta teklifler ve satış siparişi satırlarını oluşturmak için bir site gereklidir. **SiteId** için varsayılan şablon değeri yoktur.
-    - **WarehouseId** - Finance and Operations'ta teklifleri ve satış siparişi satırlarını işlemek için bir ambar gereklidir. **WarehouseId** için varsayılan şablon değeri yoktur.
+    - **SiteId** - Supply Chain Management'ta teklifler ve satış siparişi satırlarını oluşturmak için bir site gereklidir. **SiteId** için varsayılan şablon değeri yoktur.
+    - **WarehouseId** - Supply Chain Management'ta teklifleri ve satış siparişi satırlarını işlemek için bir ambar gereklidir. **WarehouseId** için varsayılan şablon değeri yoktur.
 
 ## <a name="template-mapping-in-data-integrator"></a>Veri entegratörü içerisindeki şablon eşleme
 
 > [!NOTE]
-> - **İskonto**, **Masraflar** ve **Vergi** alanları Finance and Operations'ta karmaşık bir kurulumda denetlenir. Bu kurulum şu anda hiçbir tümleştirme eşlemesini desteklemiyor. Geçerli tasarımda, **Fiyat**, **İskonto**, **Masraf** ve **Vergi** alanları Finance and Operations tarafından işlenir.
+> - **İskonto**, **Masraflar** ve **Vergi** alanları Supply Chain Management'taki karmaşık bir ayar tarafından denetlenir. Bu kurulum şu anda hiçbir tümleştirme eşlemesini desteklemiyor. Geçerli tasarımda, **Fiyat**, **İskonto**, **Masraf** ve **Vergi** alanları Supply Chain Management tarafından işlenir.
 > - **Ödeme koşulları**, **Navlun koşulları**, **Teslimat koşulları**, **Sevkiyat yöntemi** ve **Teslimat şekli** alanları varsayılan eşlemelerin parçası değildir. Bu alanları eşleştirmek için, varlığın aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşleştirmesi ayarlamanız gerekir.
 
 Aşağıdaki görseller, veri tümleştircisinde bir şablon eşleme örneği gösterir.

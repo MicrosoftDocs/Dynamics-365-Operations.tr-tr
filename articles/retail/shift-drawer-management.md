@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e600e1d2bb4bc1a49d55fb58b3e74fa7e13fc2af
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556458"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017909"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Vardiya ve kasa çekmecesi yönetimi
 
@@ -32,7 +32,7 @@ ms.locfileid: "1556458"
 
 Bu konu, perakende satış noktasında (POS) vardiyaların nasıl kurulup kullanılacağını açıklamaktadır.
 
-Microsoft Dynamics 365 for Retail'de *vardiya* terimi, zamanda iki nokta arasındaki POS hareket veri ve etkinliklerinin toplamını ifade eder. Her bir vardiya için, beklenen para tutarı, sayılıp bildirilen tutarla karşılaştırılır.
+Dynamics 365 Retail'de *vardiya* terimi, zamanda iki nokta arasındaki POS hareket veri ve etkinliklerinin toplamını ifade eder. Her bir vardiya için, beklenen para tutarı, sayılıp bildirilen tutarla karşılaştırılır.
 
 Vardiyalar genellikle iş gününün başlangıcında açılır. Bu noktada, kullanıcı, kasa çekmecesindeki başlangıç tutarını bildirir. Bunun ardından, gün içinde satış hareketleri gerçekleştirilir. Son olarak, günün sonunda çekmece sayılır ve kapanış tutarları bildirilir. Vardiya kapatılır ve bir Z raporu oluşturulur. Z raporu, fazlalık veya eksiklik olup olmadığını gösterir.
 
@@ -69,7 +69,7 @@ Bir mağazada paylaşılan vardiyaların kullanılabilmesi için, para çekmeces
 
 ## <a name="shift-and-drawer-operations"></a>Vardiya ve çekmece işlemleri
 
-Bir vardiyanın durumunu değiştirmek veya para çekmecesindeki para tutarını artırmak ya da azaltmak için çeşitli işlemler yapılabilir. Bu konu Microsoft Dynamics 365 for Retail Modern POS ve Bulut POS için vardiya operasyonlarını açıklar.
+Bir vardiyanın durumunu değiştirmek veya para çekmecesindeki para tutarını artırmak ya da azaltmak için çeşitli işlemler yapılabilir. Bu konuda, Retail Modern POS ve Cloud POS için bu vardiya operasyonları açıklanmaktadır.
 
 ### <a name="open-shift"></a>Açık vardiya
 

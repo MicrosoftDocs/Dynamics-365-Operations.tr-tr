@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
-ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
+ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773280"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008467"
 ---
 # <a name="create-a-job"></a>İş oluşturma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu Microsoft Dynamics 365 for Talent: Attract içindeki bir maddeyi açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
+Bu konu Microsoft Dynamics 365 Talent: Attract'taki iş öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
 
 ## <a name="job-creation"></a>İş oluşturma
 
@@ -74,7 +74,7 @@ Attract'ta varsayılan **Şirket sektörü** kümesi bulunur. Yeni şirket sekt�
 
 ## <a name="postings"></a>Deftere nakil işlemleri
 
-Bir iş etkinleştirildikten sonra yayınlanabilir. Yalnızca iş verenler ve yöneticiler, işleri yayınlayabilir. İş, Talent Careers (bir Microsoft Dynamics 365 for Talent kariyer sitesi) veya LinkedIn'de yayınlanabilir. Attract ekibi, iş kurulu toplayıcılarıyla ortaklık için devamlı çalışmaktadır. Zaman içinde bu listeyi genişler. Bir iş yalnızca dahili olarak yayınlanırsa, adayların işi görüntülemeleri ve başvurmaları için bir AAD hesabına sahip olmaları gerekir. İş, herkese açık olarak listelenmişse, adaylar tüm kimlik doğrulama seçenekleriyle işleri görüntüleyebilir ve başvurabilirler. 
+Bir iş etkinleştirildikten sonra yayınlanabilir. Yalnızca iş verenler ve yöneticiler, işleri yayınlayabilir. İş, Talent Careers (bir Dynamics 365 Talent kariyer sitesi) veya LinkedIn'de yayınlanabilir. Attract ekibi, iş kurulu toplayıcılarıyla ortaklık için devamlı çalışmaktadır. Zaman içinde bu listeyi genişler. Bir iş yalnızca dahili olarak yayınlanırsa, adayların işi görüntülemeleri ve başvurmaları için bir AAD hesabına sahip olmaları gerekir. İş, herkese açık olarak listelenmişse, adaylar tüm kimlik doğrulama seçenekleriyle işleri görüntüleyebilir ve başvurabilirler. 
 
 İş yayınları hakkında daha fazla bilgi için [Attract'taki kariyer sitesi işlevi](career-site.md).
 

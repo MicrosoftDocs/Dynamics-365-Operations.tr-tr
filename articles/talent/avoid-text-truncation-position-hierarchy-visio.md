@@ -1,6 +1,6 @@
 ---
 title: Konum hiyerarşisi üzerinde metin kesmeden kaçının ve Visio'ya dışa aktarın
-description: Bu konu adlarını ve pozisyonları kişiler müşteriler yetenek için Microsoft Dynamics 365 for Talent için hiyerarşi görüntülediğinizde nerede kesiliyor sorununu açıklar. Metin kesme, hiyerarşinin ekran görüntüsünün veya baskısının alınmasını zorlaştırabilir.
+description: Bu konu adlarını ve pozisyonları kişiler müşteriler yetenek için Microsoft Dynamics 365 Talent için hiyerarşi görüntülediğinizde nerede kesiliyor sorununu açıklar. Metin kesme, hiyerarşinin ekran görüntüsünün veya baskısının alınmasını zorlaştırabilir.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 07a972bc1c6dd4076932248edb314992cb7297e5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: e151818f29ac37ff449daaf1dc02e44b8fb317c3
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741833"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008512"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Konum hiyerarşisi üzerinde metin kesmeden kaçının ve Visio'ya dışa aktarın
 
@@ -30,7 +30,7 @@ ms.locfileid: "1741833"
 
 **Stok çıkışı**
 
-Bir müşteri, Microsoft Dynamics 365 for Talent içinde konum hiyerarşisini görüntülerse, bireylerin ve pozisyonların adları kesilir. Bu nedenle, bir ekran görüntüsü almak veya hiyerarşiyi yazdırıp dağıtmak zor olabilir.
+Bir müşteri, Microsoft Dynamics 365 Talent içinde konum hiyerarşisini görüntülerse, bireylerin ve pozisyonların adları kesilir. Bu nedenle, bir ekran görüntüsü almak veya hiyerarşiyi yazdırıp dağıtmak zor olabilir.
 
 ![Pozisyon hiyerarşisi](media/position-h.png)
 

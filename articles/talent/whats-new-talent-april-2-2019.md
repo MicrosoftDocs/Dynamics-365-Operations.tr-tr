@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'deki yenilikler veya değişiklikler (2 Nisan 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'deki yenilikler veya değişiklikler (2 Nisan 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795256"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026092"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Dynamics 365 for Talent'deki yenilikler veya değişiklikler (2 Nisan 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Dynamics 365 Talent'deki yenilikler veya değişiklikler (2 Nisan 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Dynamics 365 Talent'daki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 
@@ -46,7 +46,7 @@ Onay e-postalarının içeriğini yeni şablonlarla özelleştirebilirsiniz.
 Başvurular ve yetenek havuzu profillerinin **Belgeler** sekmesine iyileştirmeler artık hem belge adını hem de türünü gösterir.
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
-Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="coming-soon-attract-and-onboard"></a>Çok yakında (Attract ve Onboard)
 
@@ -56,14 +56,14 @@ Attract ve Onboard içinde, problemler son kullanıcılar tarafından, bir probl
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2216 için geçerlidir.
 
-### <a name="platform-update-25"></a>Platform güncelleştirmesi 25
-Platform güncelleştirmesi 25 hakkında daha fazla bilgi için bkz. [Dynamics 365 for Finance and Operations platform güncelleştirmesi 25 (Nisan 2019) içindeki önizleme özellikleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 25
+Finance and Operations için Platform güncelleştirmesi 25 hakkında daha fazla bilgi için bkz. [Dynamics 365 for Finance and Operations platform güncelleştirmesi 25'teki (Nisan 2019) önizleme özellikleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Gelişmiş ücret güvenliği (sabit ve değişken)
 Pek çok kuruluşta, ücret ve kazanç yöneticilerinin yalnızca belirli ücret kayıtlarına erişimi olabilir. Bunlar, yöneticiler veya bölgesel çalışanlar için kayıtlar içerebilir. Bu değişiklik, İK yöneticilerinin kuruluştaki farklı çalışan grupları için ücretlendirme planlarını yönetmelerine ve tutmalarına yardımcı olur. Sabit ve değişken planlara güvenlik rolleri atayabilirsiniz. Bu güvenlik rolleri, planlara ve ilgili çalışan verisine erişimi belirler, örneğin maaş ve ikramiye kayıtları gibi, böylece yalnızca bu roller personel grupları için ücretlendirmeyi işleyebilirler.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'a yükseltin
-Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezine oturum açarak veritabanınızın yükseltilmeye ihtiyacı olup olmadığını görün. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezi'nde oturum açarak veritabanınızın yükseltilmeye gereksinimi olup olmadığını belirleyin. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Ön izlemede
 
@@ -79,4 +79,4 @@ Kuruluşlar, bir çalışan izin talebi gönderdiğinde belirli izin türleri i�
 Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve yinelenenlerin sayısını görüntüleyen bir durum gösterilir. Sağlanan bağlantıyı tespit edilen eşleşmeyi kullanıp kullanmamak üzere yeni bir sayfa açmak için seçebilirsiniz. Veri girişinin kesilmesini engellemek için yinelenenler formu otomatik olarak açılmaz.
 
 ###  <a name="email-support-for-alerts"></a>Uyarılar için e-posta desteği
-Platform güncelleştirmesi 25 ile kullanıcılar otomatik olarak, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere gönderen uyarı kuralları oluşturabilirler. 
+Finance and Operations için Platform güncelleştirmesi 25 ile, kullanıcılar, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere otomatik olarak gönderen uyarı kuralları oluşturabilirler. 

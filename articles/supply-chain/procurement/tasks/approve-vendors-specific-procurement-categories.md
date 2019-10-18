@@ -1,6 +1,6 @@
 ---
 title: Belirli tedarik kategorileri için satıcıları onaylama
-description: Bu konu, Dynamics 365 for Finance and Operations'ta belirli tedarik kategorileri için satıcıların nasıl onaylanacağını açıklamaktadır.
+description: Bu konu, Dynamics 365 Supply Chain Management'ta belirli tedarik kategorileri için satıcıların nasıl onaylanacağını açıklamaktadır.
 author: mkirknel
 manager: AnnBe
 ms.date: 07/30/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1583a2eedc535f81b84e3094fee1574451f6f209
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: e47124e22dd6c0e756bf42429327254f966b48a2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867161"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018101"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Belirli tedarik kategorileri için satıcıları onaylama
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu konu, Dynamics 365 for Finance and Operations'ta belirli tedarik kategorileri için satıcıların nasıl onaylanacağını açıklamaktadır. Satınalma talebi oluşturulduğunda satınalma ilkelerinin nasıl ayarlandığına bağlı olarak onaylanan veya tercih edilen bir satıcıyı seçmek gerekebilir. Bu prosedür belirli bir tedarik kategorisi için bir satıcının onaylanan veya tercih edilen olduğunu nasıl belirleyeceğinizi gösterir. Bu görev genellikle bir tedarik profesyoneli tarafından gerçekleştirilir. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.
+Bu konu, Dynamics 365 Supply Chain Management'ta belirli tedarik kategorileri için satıcıların nasıl onaylanacağını açıklamaktadır. Satınalma talebi oluşturulduğunda satınalma ilkelerinin nasıl ayarlandığına bağlı olarak onaylanan veya tercih edilen bir satıcıyı seçmek gerekebilir. Bu prosedür belirli bir tedarik kategorisi için bir satıcının onaylanan veya tercih edilen olduğunu nasıl belirleyeceğinizi gösterir. Bu görev genellikle bir tedarik profesyoneli tarafından gerçekleştirilir. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.
 
 1. Gezinti Bölmesi'nde **Modüller > Tedarik ve kaynak atama > Satıcılar > Tüm satıcılar**'a gidin.
 2. Bir kategori için onaylanan veya tercih edilen satıcı olarak ayarlamak istediğiniz satıcıyı seçin.

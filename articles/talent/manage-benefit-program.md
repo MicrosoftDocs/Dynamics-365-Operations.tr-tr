@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
-ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
+ms.openlocfilehash: a9a26450be97f655df8bc5983e4718341d40a2d6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755409"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009912"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Bir kazançlar programı tanımlama ve yönetme
 
@@ -51,7 +51,7 @@ Bir organizasyon göz tedavileri veya diş tedavileri vb. gibi her bir kazanç t
 [![kazanç fotoğrafı](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Uygunluk
-Bir işverenin sunduğu çeşitli kazanç türleri için çalışanın uygunluğunu belirleyen çok sayıda faktör bulunmaktadır. Microsoft Talent'da bir kazanç oluşturduğunuzda, bu kazanç için geçerli uygunluk türünü ayarlayabilirsiniz. 
+Bir işverenin sunduğu çeşitli kazanç türleri için çalışanın uygunluğunu belirleyen çok sayıda faktör bulunmaktadır. Dynamics 365 Talent'ta bir kazanç oluşturduğunuzda bu kazanç için geçerli uygunluk türünü ayarlayabilirsiniz. 
 
 Kazançları tüm çalışanlar için kullanılabilir kılabilirsiniz. Örneğin, bazı şirketler park izinlerini tüm çalışanlara bir yan kazanç olarak sunar. Bu kazancı oluşturduğunuzda uygunluğu **Tüm çalışanlar uygundur** olarak ayarlarsınız. 
 

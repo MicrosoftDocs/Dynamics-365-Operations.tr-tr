@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent - Onboard'da işe alım kılavuzları ve şablonları düzenleme
-description: Bu konu, Microsoft Dynamics 365 for Talent - Onboard'da işe alım kılavuz ve şablonuna aktivitelerin ve diğer bilgilerin nasıl ekleneceğini açıklamaktadır.
+title: Dynamics 365 Talent - Onboard'da işe alım ve alıştırma kılavuz ve şablonlarını düzenleme
+description: Bu konuda Microsoft Dynamics 365 Talent - Onboard'da işe alım ve alıştırma kılavuz ve şablonuna etkinliklerin ve diğer bilgilerin nasıl ekleneceği açıklanmaktadır.
 author: andreabichsel
 manager: ''
 ms.date: 06/19/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68afc5d789d1f4af67cd2ec73eb0e073efad0761
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 7803c7cd2c58b8544d2c8dd711c295d6882f9fca
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864405"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010810"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-for-talent-onboard"></a>Dynamics 365 for Talent: Onboard'da işe alım kılavuzları ve şablonları düzenleme
+# <a name="edit-onboarding-guides-and-templates"></a>İşe alım kılavuzları ve şablonları düzenleme
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent'ta işe alım kılavuzu veya şablon oluşturduktan sonra giriş, aktivite, ilgili kişi ve kaynak eklemeniz gerekir. Onboard, işe alım kılavuzlarınıza aşağıdakiler dahil olmak üzere zengin içerik eklemenizi sağlar:
+Microsoft Dynamics 365 Talent: Onboard'da işe alım ve alıştırma kılavuzu veya şablonu oluşturduktan sonra giriş, etkinlik, ilgili kişi ve kaynak eklemeniz gerekir. Onboard, işe alım kılavuzlarınıza aşağıdakiler dahil olmak üzere zengin içerik eklemenizi sağlar:
 
 - YouTube videoları
 - Microsoft Sway sunuları

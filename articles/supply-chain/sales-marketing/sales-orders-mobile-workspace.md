@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835754"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251641"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Satış siparişleri mobil çalışma alanı
 
@@ -31,7 +31,7 @@ ms.locfileid: "1835754"
 
 Bu konu, **Satış siparişleri** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, satış siparişleri konusunda her zaman ve her yerde güncel kalmanıza yardımcı olur. 
 
-Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations Mobile uygulaması ile kullanılmak üzere geliştirilmiştir.
+Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
 ## <a name="overview"></a>Genel bakış
 **Satış siparişleri** mobil çalışma alanı her satış siparişi ile ilgili ayrıntılı bilgileri görüntülemenizi sağlar. Bu bilgi siparişin durumunu, müşteri için iletişim numarasını ve siparişi alanın iletişim numarasını içerir. **Satış siparişleri** mobil çalışma alanı, satış siparişlerinin anlık görünümünü sağlar. Müşteri bazında satış siparişlerini, tüm satış siparişlerini ya da belirli bir satış siparişiyle ilgili bilgileri görüntüleyebilirsiniz. 
@@ -83,8 +83,8 @@ Bu görünüm, siparişleri müşteriye göre listeler.
 ## <a name="prerequisites"></a>Önkoşullar
 Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak farklılık gösterir.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations kullanıyorsanız önkoşullar 
-Eğer Dynamics 365 for Finance and Operations kuruluşunuza dağıtıldıysa sistem yöneticisinin **Satış siparişleri** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Supply Chain Management kullanıyorsanız önkoşullar 
+Supply Chain Management, kuruluşunuza dağıtıldıysa sistem yöneticisinin **Satış siparişleri** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Dynamics 365 for Operations sürüm 1611'i platform güncelleştirmesi 3 veya daha sonrasıyla kullanıyorsanız önkoşullar
 Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir. 
@@ -120,7 +120,7 @@ Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Dynamics 365 for Ope
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
-Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
+Finance and Operations mobil uygulamasını indirip yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)

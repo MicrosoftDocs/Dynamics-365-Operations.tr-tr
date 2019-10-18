@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'daki yenilikler veya değişiklikler (6 Mayız 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (6 Mayız 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/06/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c541bac532e878c8493a60d95c05c9104d4b96e1
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 6a4571abdb0e104af0a0657c75bf5a6b5764345a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741556"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023873"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-6-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (6 Mayız 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (6 Mayız 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 
@@ -39,15 +39,15 @@ Bir teklif paketi şablonu seçtiğinizde, Attract artık o paket şablonundan u
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
 
-Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 
 Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2282 için geçerlidir. Bazı başlıklardaki parantez içindeki numaralar Microsoft Dynamics Lifecycle Services (LCS) destek numaralarına referans verir.
 
-### <a name="platform-update-26"></a>Platform güncelleştirmesi 26
+### <a name="platform-update-26-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 26
 
-Platform güncelleştirmesi 26 hakkında diğer ayrıntılar için bkz. [Dynamics 365 for Finance and Operations platform güncelleştirmesi 26 (Mayıs 2019) içindeki önizleme özellikleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Finance and Operations için Platform güncelleştirmesi 26 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 Finance and Operations platform güncelleştirmesi 26'daki (Mayıs 2019) önizleme özellikleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Özel alanlar için Common Data Service varlığı desteği
 
@@ -67,7 +67,7 @@ Bu sürümle birlikte artık mali boyutları **Çalışan** sayfasından **Excel
 
 ### <a name="worker-address-created-in-common-data-service-isnt-synced-to-talent-317555"></a>Common Data Service'te oluşturulan çalışan adresi Talent ile eşitlenmiyor (317555)
 
-Bu değişiklikle birlikte Common Data Service'te oluşturulan adresler Talent Core HR'de güncelleştiriliyor.
+Bu değişiklikle, Common Data Service'te oluşturulan adresler Talent: Core HR'da güncelleştiriliyor.
 
 
 ## <a name="in-preview"></a>Ön izlemede
