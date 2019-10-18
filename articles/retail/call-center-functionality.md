@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezi satış özelliği
-description: Bu konuda, Microsoft Dynamics 365 for Retail'daki çağrı merkezi satışları işlevine genel bir bakış sağlar.
+description: Bu konuda, Dynamics 365 Retail'daki çağrı merkezi satışları işlevine genel bir bakış sağlar.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
@@ -19,51 +19,53 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549492"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025783"
 ---
-# <a name="call-center-sales-functionality"></a><span data-ttu-id="5c5fc-103">Çağrı merkezi satış işlevi</span><span class="sxs-lookup"><span data-stu-id="5c5fc-103">Call center sales functionality</span></span>
+# <a name="call-center-sales-functionality"></a><span data-ttu-id="a9231-103">Çağrı merkezi satış işlevi</span><span class="sxs-lookup"><span data-stu-id="a9231-103">Call center sales functionality</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="5c5fc-104">Dynamics 365 for Retail'de çağrı merkezi uygulamada tanımlanabilen bir Perakende kanalı türüdür.</span><span class="sxs-lookup"><span data-stu-id="5c5fc-104">In Dynamics 365 for Retail, a call center is a type of Retail channel that can be defined in the application.</span></span> <span data-ttu-id="5c5fc-105">Çağrı merkezi varlıklarınız için özel bir kanal tanımlamak sistemin belirli veri varsayılanlarını ve sipariş işleme varsayılanlarını çağrı merkezi kanalı kullanıcısı tarafından oluşturulan satış siparişlerine bağlamasını sağlar.</span><span class="sxs-lookup"><span data-stu-id="5c5fc-105">Defining a specific channel for your call center entities allows the system to tie specific data defaults and order processing defaults to sales orders created by a user of the call center channel.</span></span>
 
-<span data-ttu-id="5c5fc-106">Çağrı merkezi özellikleri gelişmiş perakende fiyatı ve promosyonları, katalogları, hediye kartlarını, bağlılık programlarını ve kuponları içerir.</span><span class="sxs-lookup"><span data-stu-id="5c5fc-106">Call center features include advanced retail price and promotions, catalogs, gift cards, loyalty programs, and coupons.</span></span> <span data-ttu-id="5c5fc-107">Çağrı merkezi siparişlerinden satış noktası (POS) uygulaması da kanallar arası sipariş karşılama senaryolarını desteklemek üzere yararlanır.</span><span class="sxs-lookup"><span data-stu-id="5c5fc-107">Call center orders are also leveraged by the point of sale (POS) application to support cross-channel order fulfillment scenarios.</span></span>
+<span data-ttu-id="a9231-104">Dynamics 365 Retail'de çağrı merkezi uygulamada tanımlanabilen bir Perakende kanalı türüdür.</span><span class="sxs-lookup"><span data-stu-id="a9231-104">In Dynamics 365 Retail, a call center is a type of Retail channel that can be defined in the application.</span></span> <span data-ttu-id="a9231-105">Çağrı merkezi varlıklarınız için özel bir kanal tanımlamak sistemin belirli veri varsayılanlarını ve sipariş işleme varsayılanlarını çağrı merkezi kanalı kullanıcısı tarafından oluşturulan satış siparişlerine bağlamasını sağlar.</span><span class="sxs-lookup"><span data-stu-id="a9231-105">Defining a specific channel for your call center entities allows the system to tie specific data defaults and order processing defaults to sales orders created by a user of the call center channel.</span></span>
 
-<span data-ttu-id="5c5fc-108">Çağrı merkezi modülünün Perakende dışındaki sektörler tarafından da kullanılabileceğini unutmamak önemlidir, bununla birlikte Dynamics 365 for Retail çağrı merkezi uygulamasının geçerli sürümü işletmeden işletmeye (B2B) sipariş işleme senaryoları veya siparişlerin çok fazla satış satırı içerdiği senaryolar için optimize edilmemiştir.</span><span class="sxs-lookup"><span data-stu-id="5c5fc-108">It's important to note that while the call center module can be utilized by other industries outside of Retail, the current release of the Dynamics 365 for Retail call center application hasn't been optimized for use in business-to-business (B2B) order processing scenarios, or scenarios where orders have a large amount of sales lines.</span></span> <span data-ttu-id="5c5fc-109">Çağrı merkezi özelliklerini tipik doğrudan tüketici hareketi işleme dışında sipariş işleme için kullanmak isteyen kullanıcıların çağrı merkezi işlevini etkinleştirmenin işlev ve performans beklentilerini karşılayıp karşılamayacağını test etmek ve doğrulamak için uygun zamanı ayırmaları önerilir.</span><span class="sxs-lookup"><span data-stu-id="5c5fc-109">It's recommended that users who want to utilize the call center features for order processing outside of typical direct-to-consumer transaction processing, take adequate time to test and validate that enabling call center functionality will meet functional and performance needs.</span></span>
+<span data-ttu-id="a9231-106">Çağrı merkezi özellikleri gelişmiş perakende fiyatı ve promosyonları, katalogları, hediye kartlarını, bağlılık programlarını ve kuponları içerir.</span><span class="sxs-lookup"><span data-stu-id="a9231-106">Call center features include advanced retail price and promotions, catalogs, gift cards, loyalty programs, and coupons.</span></span> <span data-ttu-id="a9231-107">Çağrı merkezi siparişlerinden satış noktası (POS) uygulaması da kanallar arası sipariş karşılama senaryolarını desteklemek üzere yararlanır.</span><span class="sxs-lookup"><span data-stu-id="a9231-107">Call center orders are also leveraged by the point of sale (POS) application to support cross-channel order fulfillment scenarios.</span></span>
 
-<span data-ttu-id="5c5fc-110">Sipariş oluşturmayı desteklemenin yanı sıra çağrı merkezi modülü, kullanıcılar için müşteri hesaplarını bulmayı ve tüm ilgili müşteri siparişi verileri ile özniteliklerini incelemeyi kolaylaştıran kullanıcı dostu müşteri hizmetleri uygulaması sunar.</span><span class="sxs-lookup"><span data-stu-id="5c5fc-110">In addition to supporting order creation, the call center module also provides a user-friendly customer service application that makes it easier for users to locate customer accounts and review all of the related customer order data and attributes.</span></span> <span data-ttu-id="5c5fc-111">Müşteri hizmetleri ekranı, kullanıcıya müşterilerden gelen siparişle ilgili en yaygın soruları yanıtlama olanağı sağlayan siparişle ilgili verilere hızlıca erişme olanağı sunar.</span><span class="sxs-lookup"><span data-stu-id="5c5fc-111">The customer service screen is designed to enable a user to quickly access order related data that will allow them to answer the most common order-related questions received from customers.</span></span>
+<span data-ttu-id="a9231-108">Çağrı merkezi modülünün Perakende dışındaki sektörler tarafından da kullanılabileceğini unutmamak önemlidir, bununla birlikte Retail çağrı merkezi uygulamasının geçerli sürümü işletmeden işletmeye (B2B) sipariş işleme senaryoları veya siparişlerin çok fazla satış satırı içerdiği senaryolar için optimize edilmemiştir.</span><span class="sxs-lookup"><span data-stu-id="a9231-108">It's important to note that while the call center module can be utilized by other industries outside of Retail, the current release of the Retail call center application hasn't been optimized for use in business-to-business (B2B) order processing scenarios, or scenarios where orders have a large amount of sales lines.</span></span> <span data-ttu-id="a9231-109">Çağrı merkezi özelliklerini tipik doğrudan tüketici hareketi işleme dışında sipariş işleme için kullanmak isteyen kullanıcıların çağrı merkezi işlevini etkinleştirmenin işlev ve performans beklentilerini karşılayıp karşılamayacağını test etmek ve doğrulamak için uygun zamanı ayırmaları önerilir.</span><span class="sxs-lookup"><span data-stu-id="a9231-109">It's recommended that users who want to utilize the call center features for order processing outside of typical direct-to-consumer transaction processing, take adequate time to test and validate that enabling call center functionality will meet functional and performance needs.</span></span>
 
-<span data-ttu-id="5c5fc-112">Bu sayfa Dynamics 365 for Retail'deki çağrı merkezi özelliklerinin kurulumu, yapılandırması ve işlevsel kullanımıyla ilişkili ilgili belgelere bağlantılar sağlar.</span><span class="sxs-lookup"><span data-stu-id="5c5fc-112">This page provides links to relevant documentation related to the setup, configuration, and functional use of the call center features in Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="a9231-110">Sipariş oluşturmayı desteklemenin yanı sıra çağrı merkezi modülü, kullanıcılar için müşteri hesaplarını bulmayı ve tüm ilgili müşteri siparişi verileri ile özniteliklerini incelemeyi kolaylaştıran kullanıcı dostu müşteri hizmetleri uygulaması sunar.</span><span class="sxs-lookup"><span data-stu-id="a9231-110">In addition to supporting order creation, the call center module also provides a user-friendly customer service application that makes it easier for users to locate customer accounts and review all of the related customer order data and attributes.</span></span> <span data-ttu-id="a9231-111">Müşteri hizmetleri ekranı, kullanıcıya müşterilerden gelen siparişle ilgili en yaygın soruları yanıtlama olanağı sağlayan siparişle ilgili verilere hızlıca erişme olanağı sunar.</span><span class="sxs-lookup"><span data-stu-id="a9231-111">The customer service screen is designed to enable a user to quickly access order related data that will allow them to answer the most common order-related questions received from customers.</span></span>
 
-## <a name="configure-the-call-center"></a><span data-ttu-id="5c5fc-113">Çağrı merkezini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="5c5fc-113">Configure the call center</span></span>
+<span data-ttu-id="a9231-112">Bu sayfa Retail'deki çağrı merkezi özelliklerinin kurulumu, yapılandırması ve işlevsel kullanımıyla ilişkili ilgili belgelere bağlantılar sağlar.</span><span class="sxs-lookup"><span data-stu-id="a9231-112">This page provides links to relevant documentation related to the setup, configuration, and functional use of the call center features in Retail.</span></span>
 
-[<span data-ttu-id="5c5fc-114">Sipariş işleme seçeneklerini ayarlama</span><span class="sxs-lookup"><span data-stu-id="5c5fc-114">Set up order processing options</span></span>](set-up-order-processing-options.md)
 
-## <a name="configure-order-processing"></a><span data-ttu-id="5c5fc-115">Sipariş işlemeyi yapılandırma</span><span class="sxs-lookup"><span data-stu-id="5c5fc-115">Configure order processing</span></span>
+## <a name="configure-the-call-center"></a><span data-ttu-id="a9231-113">Çağrı merkezini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a9231-113">Configure the call center</span></span>
 
-[<span data-ttu-id="5c5fc-116">Sahtekarlık uyarılarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="5c5fc-116">Set up fraud alerts</span></span>](set-up-fraud-alerts.md)
+[<span data-ttu-id="a9231-114">Sipariş işleme seçeneklerini ayarlama</span><span class="sxs-lookup"><span data-stu-id="a9231-114">Set up order processing options</span></span>](set-up-order-processing-options.md)
 
-[<span data-ttu-id="5c5fc-117">El ile Sipariş Tutmalar</span><span class="sxs-lookup"><span data-stu-id="5c5fc-117">Manual Order Holds</span></span>](work-with-order-holds.md)
+## <a name="configure-order-processing"></a><span data-ttu-id="a9231-115">Sipariş işlemeyi yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a9231-115">Configure order processing</span></span>
 
-## <a name="configure-payment-processing"></a><span data-ttu-id="5c5fc-118">Ödeme işlemeyi yapılandırma</span><span class="sxs-lookup"><span data-stu-id="5c5fc-118">Configure payment processing</span></span>
+[<span data-ttu-id="a9231-116">Sahtekarlık uyarılarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="a9231-116">Set up fraud alerts</span></span>](set-up-fraud-alerts.md)
 
-[<span data-ttu-id="5c5fc-119">Bir çağrı merkezindeki ödeme yöntemleri</span><span class="sxs-lookup"><span data-stu-id="5c5fc-119">Payment methods in a call center</span></span>](work-with-payments.md)
+[<span data-ttu-id="a9231-117">El ile Sipariş Tutmalar</span><span class="sxs-lookup"><span data-stu-id="a9231-117">Manual Order Holds</span></span>](work-with-order-holds.md)
 
-## <a name="configure-delivery-modes"></a><span data-ttu-id="5c5fc-120">Teslimat şekillerini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="5c5fc-120">Configure delivery modes</span></span>
+## <a name="configure-payment-processing"></a><span data-ttu-id="a9231-118">Ödeme işlemeyi yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a9231-118">Configure payment processing</span></span>
 
-[<span data-ttu-id="5c5fc-121">Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma</span><span class="sxs-lookup"><span data-stu-id="5c5fc-121">Configure call center delivery modes and charges</span></span>](configure-call-center-delivery.md)
+[<span data-ttu-id="a9231-119">Bir çağrı merkezindeki ödeme yöntemleri</span><span class="sxs-lookup"><span data-stu-id="a9231-119">Payment methods in a call center</span></span>](work-with-payments.md)
 
-## <a name="configure-direct-marketing"></a><span data-ttu-id="5c5fc-122">Doğrudan pazarlamayı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="5c5fc-122">Configure direct marketing</span></span>
+## <a name="configure-delivery-modes"></a><span data-ttu-id="a9231-120">Teslimat şekillerini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a9231-120">Configure delivery modes</span></span>
 
-[<span data-ttu-id="5c5fc-123">Çağrı merkezi katalogları</span><span class="sxs-lookup"><span data-stu-id="5c5fc-123">Call center catalogs</span></span>](call-center-catalogs.md)
+[<span data-ttu-id="a9231-121">Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a9231-121">Configure call center delivery modes and charges</span></span>](configure-call-center-delivery.md)
 
-[<span data-ttu-id="5c5fc-124">RFM analizi ayarlama</span><span class="sxs-lookup"><span data-stu-id="5c5fc-124">Set up RFM analysis</span></span>](set-up-rfm-analysis.md)
+## <a name="configure-direct-marketing"></a><span data-ttu-id="a9231-122">Doğrudan pazarlamayı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a9231-122">Configure direct marketing</span></span>
 
-## <a name="configure-continuity-programs"></a><span data-ttu-id="5c5fc-125">Süreklilik programlarını yapılandırma</span><span class="sxs-lookup"><span data-stu-id="5c5fc-125">Configure continuity programs</span></span>
+[<span data-ttu-id="a9231-123">Çağrı merkezi katalogları</span><span class="sxs-lookup"><span data-stu-id="a9231-123">Call center catalogs</span></span>](call-center-catalogs.md)
 
-[<span data-ttu-id="5c5fc-126">Çağrı merkezi için bir süreklilik programı kurma</span><span class="sxs-lookup"><span data-stu-id="5c5fc-126">Set up a continuity program for a call center</span></span>](set-up-continuity-program.md)
+[<span data-ttu-id="a9231-124">RFM analizi ayarlama</span><span class="sxs-lookup"><span data-stu-id="a9231-124">Set up RFM analysis</span></span>](set-up-rfm-analysis.md)
+
+## <a name="configure-continuity-programs"></a><span data-ttu-id="a9231-125">Süreklilik programlarını yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a9231-125">Configure continuity programs</span></span>
+
+[<span data-ttu-id="a9231-126">Çağrı merkezi için bir süreklilik programı kurma</span><span class="sxs-lookup"><span data-stu-id="a9231-126">Set up a continuity program for a call center</span></span>](set-up-continuity-program.md)

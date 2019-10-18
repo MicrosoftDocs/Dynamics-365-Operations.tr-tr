@@ -1,0 +1,51 @@
+---
+title: Yeni pencerede aç özelliğini kullanarak sayfaları yan yana gösterme
+description: Bu makale, sayfaları nasıl yan yana görüntüleyebileceğinizi açıklar.
+author: aneesmsft
+manager: AnnBe
+ms.date: 09/20/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Core, Operations
+ms.custom: 17611
+ms.assetid: fc589d76-3927-4486-ab83-e86b9b47ba2c
+ms.search.region: Global
+ms.author: aneesa
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7144f26c0977fbc420b804728151262b2f166bc0
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2180703"
+---
+# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a><span data-ttu-id="6f600-103">Yeni pencerede aç özelliğini kullanarak sayfaları yan yana gösterme</span><span class="sxs-lookup"><span data-stu-id="6f600-103">Show pages side by side by using the Open in new window feature</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="6f600-104">Bu makale, sayfaları nasıl yan yana görüntüleyebileceğinizi açıklar.</span><span class="sxs-lookup"><span data-stu-id="6f600-104">This article explains how to display pages side-by-side.</span></span>
+
+<span data-ttu-id="6f600-105">Görevleri hızlı bir şekilde tamamlamak için birden fazla sayfayı yan yana görüntülemek isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6f600-105">You may want to view multiple pages side-by-side to complete tasks quickly.</span></span> <span data-ttu-id="6f600-106">Örneğin, birden fazla günlükteki satırları doğrulamak veya girmek isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6f600-106">As an example, you might want to validate or enter lines in more than one journal.</span></span> <span data-ttu-id="6f600-107">Genellikle bunu yapmak için günlüklerin bir listesinin görüntülendiği sayfa ve belirli bir günlüğün satırlarının görüntülendiği sayfa arasında gidip gelmek zorunda kalırsınız.</span><span class="sxs-lookup"><span data-stu-id="6f600-107">Typically, to do this you would have to go back and forth between the page that displays a list of journals, and the page that displays lines for a given journal.</span></span> <span data-ttu-id="6f600-108">Ancak, **Yeni pencerede aç** özelliği, bu sayfaları yan yana görüntüleyerek görevlerinizi hızlı bir şekilde gerçekleştirebilmenizi sağlar.</span><span class="sxs-lookup"><span data-stu-id="6f600-108">However, the **Open in new window** feature enables you to display these pages side-by-side so that you can perform your tasks quickly.</span></span>
+
+<span data-ttu-id="6f600-109">Yukarıda örnekten devam: satırları görüntülerken **Yeni pencerede aç** simgesine tıklayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6f600-109">Continuing with the example mentioned above, when viewing the lines, you can click the **Open in new window** icon.</span></span>
+
+<span data-ttu-id="6f600-110">[![open-in-new-window-icon](./media/open-in-new-window-icon.png)](./media/open-in-new-window-icon.png)</span><span class="sxs-lookup"><span data-stu-id="6f600-110">[![open-in-new-window-icon](./media/open-in-new-window-icon.png)](./media/open-in-new-window-icon.png)</span></span>
+
+<span data-ttu-id="6f600-111">**Yeni pencerede aç** simgesine tıklamak satırlar sayfasını yeni bir açılır tarayıcıda açar ve ardından orijinal tarayıcıyı günlüklerin listesinin görüntülendiği geçmiş sayfasına geri döndürür.</span><span class="sxs-lookup"><span data-stu-id="6f600-111">Clicking the **Open in new window** icon opens the lines page in a new, pop-up browser, and then navigates the original browser back in history to the page that displayed the list of journals.</span></span> <span data-ttu-id="6f600-112">Bunun ardından her iki sayfayı yan yana görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6f600-112">You can then display both pages side-by-side.</span></span> <span data-ttu-id="6f600-113">Günlük görüntülemeyi tamamladığınızda, günlük listesi sayfasındaki seçili günlüğü değiştirebilirsiniz; açılan penceredeki satırlar sayfası, yeni seçilen günlüğün satırlarını otomatik olarak görüntüler.</span><span class="sxs-lookup"><span data-stu-id="6f600-113">When you are done viewing a journal, you can change the selected journal on the journal list page, and the lines page in the pop-up window will automatically display the lines of the newly selected journal.</span></span>
+
+<span data-ttu-id="6f600-114">[![pages-show-side-by-side](./media/pages-show-side-by-side.png)](./media/pages-show-side-by-side.png)</span><span class="sxs-lookup"><span data-stu-id="6f600-114">[![pages-show-side-by-side](./media/pages-show-side-by-side.png)](./media/pages-show-side-by-side.png)</span></span>
+
+<span data-ttu-id="6f600-115">Bu sayfaların arka planındaki veriler arasında var olan ilişkiler sayesinde bağlantıyı dinamik etkinleştirme ve yenileme gerçekleşir.</span><span class="sxs-lookup"><span data-stu-id="6f600-115">The dynamic linking and refreshing happens due to the relations that exist between the data that is backing these pages.</span></span> <span data-ttu-id="6f600-116">Sistem veriler arasındaki ilişkiyi bilmiyorsa, açılır pencere, kaynağı olan penceredeki değişikliğe yanıt olarak otomatik yenilenmez.</span><span class="sxs-lookup"><span data-stu-id="6f600-116">If the system is not aware of the relation between the data, the pop-up window will not refresh automatically in response to a change in the window it originated from.</span></span>
+
+<span data-ttu-id="6f600-117">Bazı sayfalarda Kılavuz görünümü, Başlık görünümü ve Ayrıntı görünümü gibi birden çok görünüm vardır.</span><span class="sxs-lookup"><span data-stu-id="6f600-117">Some pages have multiple views such as the Grid view, Header view, and Details view.</span></span> <span data-ttu-id="6f600-118">**Yeni pencerede aç** simgesi, tüm sayfanın yeni bir tarayıcı penceresinde açılmasına neden olur.</span><span class="sxs-lookup"><span data-stu-id="6f600-118">The **Open in new window** icon causes the entire page to be opened in the new browser window.</span></span> <span data-ttu-id="6f600-119">Bu nedenle, **Yeni pencerede aç** özelliğini kullanarak aynı sayfanın iki görünümünü yan yana tutamazsınız.</span><span class="sxs-lookup"><span data-stu-id="6f600-119">Therefore, you cannot keep two views of the same page side-by-side using the **Open in new window** feature.</span></span> <span data-ttu-id="6f600-120">Ancak, bu sayfaların hemen hemen hepsinde, kayıtlar arasında geçiş yapmak ve benzer bir deneyim elde etmek için kullanabileceğiniz bir gezinti listesi vardır.</span><span class="sxs-lookup"><span data-stu-id="6f600-120">However, almost all such pages have a navigation list that you can use to switch between records and achieve a similar experience.</span></span>
+
+<span data-ttu-id="6f600-121">**Yeni pencerede aç** özelliğini kullanabilmeniz için, sitenin URL'sinden açılır pencerelere izin vermek için tarayıcınızın açılır pencere engelleyicisini yapılandırmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="6f600-121">Before using the **Open in new window** feature, you should configure your browser's pop-up blocker to allow pop-ups from the URL of the site.</span></span> <span data-ttu-id="6f600-122">Örneğin "\*. dynamics.com"dan açılır pencerelere izin verebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6f600-122">As an example, you could allow pop-ups from "\*.dynamics.com".</span></span>
+
+<span data-ttu-id="6f600-123">**Yeni pencerede aç** özelliği yalnızca pencerede birden fazla sayfa açık olduğu zaman kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="6f600-123">The **Open in new window** feature is only available when there is more than one page open in the window.</span></span> <span data-ttu-id="6f600-124">Ayrıca, açılır pencere, artık sayfada açık sayfa kalmadığı zaman (yani penceredeki son sayfa kapatıldığında) otomatik olarak kapanır.</span><span class="sxs-lookup"><span data-stu-id="6f600-124">Also, the pop-up window automatically closes when there are no more pages open (that is, when the last page in that window is closed).</span></span> <span data-ttu-id="6f600-125">Uygulamada başka bir alana gittiğinizde sistem de açık sayfaları kapatır.</span><span class="sxs-lookup"><span data-stu-id="6f600-125">The system also closes open pages when you navigate to a different area in the application.</span></span> <span data-ttu-id="6f600-126">Bu nedenle, açık açılır pencereleriniz varsa ve uygulamada başka bir alana giderseniz, bu pencerelerdeki sayfalar sistem tarafından kapatılacağı için, açılır pencereler otomatik olarak kapanır.</span><span class="sxs-lookup"><span data-stu-id="6f600-126">Therefore, if you have pop-up windows open and navigate to a different area in the application, the pop-up windows are automatically closed because the pages in those windows were closed by the system.</span></span>
+
+<span data-ttu-id="6f600-127">Açılır pencerelerin üst çubuğunda, sayfanın salt okunur olarak açıldığı şirket hakkında bilgiler görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="6f600-127">The top bar in the pop-up windows displays information about the company the page was opened in and is read-only.</span></span> <span data-ttu-id="6f600-128">Açılır pencereler de ana tarayıcı penceresine bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="6f600-128">The pop-up windows also rely on the main browser window.</span></span> <span data-ttu-id="6f600-129">Ana pencere kapatılır veya yenilenirse, açık tüm açılır pencereler salt okunur duruma geçer.</span><span class="sxs-lookup"><span data-stu-id="6f600-129">If the main window is closed or refreshed, all open pop-up windows will become read only.</span></span> <span data-ttu-id="6f600-130">Bu, bu pencerelerde bilgileri yalnızca görüntüleyebileceğiniz, ancak onlarla etkileşime giremeyeceğiniz anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="6f600-130">This means that you can still view the information in these windows, but you will not be able to interact with it.</span></span>
