@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543595"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250703"
 ---
 # <a name="master-planning-home-page"></a>Master planlama ana sayfası
 
@@ -74,7 +74,7 @@ Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microso
 [Dynamics AX İmalat Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/axmfg) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/dynamicsaxscm) Master planlama ve diğer çözümler hakkında pek çok fikir, haber ve bilgi bulabilirsiniz.
 
 ### <a name="task-guides"></a>Görev kılavuzları
-Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada **Yardım** düğmesine tıklayın.
+Ek Yardım görev kılavuzları olarak mevcuttur. Görev kılavuzlarına erişmek için herhangi bir sayfada **Yardım** düğmesine tıklayın.
 
 ### <a name="webinars"></a>Web seminerleri
 [Talep tahmini için Azure makine öğrenimi kullanma](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

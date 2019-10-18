@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595623"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249411"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>PunchOut eProcurement için harici katalog ayarlama
 
@@ -37,12 +37,12 @@ Harici katalog ayarlandığında ve bir çalışan bir talep hazırladığında,
 
 ## <a name="setting-up-an-external-catalog"></a>Harici bir katalog ayarlama
 
-Harici katalog satınalma talebini giren çalışanın ürünleri seçmek için harici siteye yönlendirilmesini sağlamalıdır. Çalışanın harici katalogdan seçtiği ürünler güncelleştirilmiş fiyat bilgileriyle birlikte Dynamics 365 for Finance and Operations'a döndürülür ve buradan satınalma talebine eklenebilir. Amaç çalışanın harici siteye bir sipariş vermesini sağlamak değildir. Harici kataloğu ayarlarken, harici katalog tarafından erişilen sitenin amacının gerçek bir sipariş yerleştirmek değil teklif bilgilerini toplamak olduğundan emin olmanız gerekir.
+Harici katalog satınalma talebini giren çalışanın ürünleri seçmek için harici siteye yönlendirilmesini sağlamalıdır. Çalışanın harici katalogdan seçtiği ürünler güncelleştirilmiş fiyat bilgileriyle birlikte döndürülür ve buradan satınalma talebine eklenebilir. Amaç çalışanın harici siteye bir sipariş vermesini sağlamak değildir. Harici kataloğu ayarlarken, harici katalog tarafından erişilen sitenin amacının gerçek bir sipariş yerleştirmek değil teklif bilgilerini toplamak olduğundan emin olmanız gerekir.
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Harici bir satıcı kataloğu ayarlamak için, aşağıdaki görevleri tamamlamanız gerekir:
 
 1. Bir tedarik kategori hiyerarşisi ayarlayın. Daha fazla bilgi için bkz. [Tedarik kategorisi hiyerarşileri için ilkeleri ayarlama](tasks/set-up-policies-procurement-category-hierarchies.md).
-2. Satıcıyı Finance and Operations'a kaydedin. Harici satıcı kataloğuna erişmek için yapılandırmalarını ayarlamadan önce Microsoft Dynamics 365'te satıcıyı ve satıcı ilgili kişisini ayarlamanız gerekir. Harici kataloğun satıcısı seçilen tedarik kategorisine de eklenmelidir. Satıcıları Microsoft Dynamics 365'te kaydetme hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md). Satıcıları bir tedarik kategorisine atama konusunda bilgi için bkz. [Belirli tedarik kategorileri için satıcıları onaylama](tasks/approve-vendors-specific-procurement-categories.md).
+2. Satıcıyı Supply Chain Management'a kaydedin. Harici satıcı kataloğuna erişmek için yapılandırmalarını ayarlamadan önce Microsoft Dynamics 365'te satıcıyı ve satıcı ilgili kişisini ayarlamanız gerekir. Harici kataloğun satıcısı seçilen tedarik kategorisine de eklenmelidir. Satıcıları kaydetme hakkında daha fazla bilgi için bkz. [Satıcı işbirliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md). Satıcıları bir tedarik kategorisine atama konusunda bilgi için bkz. [Belirli tedarik kategorileri için satıcıları onaylama](tasks/approve-vendors-specific-procurement-categories.md).
 3. Satıcının kullandığı para birimi ve ölçü birimlerinin ayarlandığından emin olun. Bir ölçü birimi oluşturma hakkında bilgi için bkz. [Ölçü birimleri yönetme](../pim/tasks/manage-unit-measure.md).
 4. Harici satıcı kataloğunu satıcınızın harici katalog sitesi gereksinimlerini kullanarak yapılandırın. Bu görev hakkında daha fazla bilgi için bkz. [Harici satıcı kataloğu yapılandırma](#configure-the-external-vendor-catalog).
 5. Ayarlarının geçerli olduğunu ve satıcının harici kataloğuna erişebildiğinizi doğrulamak için satıcının harici katalog yapılandırmalarını test edin. Tanımladığınız talep kurulumu iletisini doğrulamak için **Ayarları doğrula** eylemini kullanın. Bu ileti satıcının harici katalog sitesinin bir tarayıcı penceresinde açılmasına neden olmalıdır. Doğrulama sırasında satıcıdan ürün veya hizmet sipariş edemezsiniz. Madde veya hizmet sipariş etmek için satıcının kataloğuna bir satınalma talebinden erişmeniz gerekir.
@@ -65,7 +65,7 @@ Bu bölüm önceki bölümdeki görev 4 hakkında daha fazla ayrıntı içerir.
 
 7. Satıcıya gönderilecek cXML kurulum talebi iletisini ayarlayın. Otomatik olarak oluşturulan ileti biçimi, bir oturumu başlatmak için gerekli olan minimum şablondur. Etiketler için değerleri girin.
 
-İstediğiniz zaman, sistem tarafından oluşturulan ileti şablonunu **İleti biçimi geri yükle**  üzerine tıklayarak yeniden yükleyebilirsiniz.
+İstediğiniz zaman, sistem tarafından oluşturulan ileti şablonunu **İleti biçimi geri yükle**  üzerine tıklayarak yeniden yükleyebilirsiniz. 
 İleti biçimini geri yüklerseniz, geçerli iletinin otomatik olarak oluşturulan ve etiketleri boş olan mesaj biçimiyle değiştirileceğini unutmayın.
 
 ### <a name="cxml-setup-message"></a>cXML kurulumu iletisi
@@ -90,9 +90,9 @@ Satıcınızın kurulum isteğinde bir ikincil öğe almak gibi bir gereksinimi 
 CXML protokolü hakkında daha fazla bilgi için bkz: [cXML.org websitesi](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Geri gönderme iletisi
-Geri gönderme iletisi, kullanıcı harici siteden çıkış yapıp Finance and Operations'a döndüğünde satıcı tarafından gönderilen iletidir. Geri gönderme iletileri yapılandırılamaz. İletiler cXML protokolü tanımını temel alır. Bir talep satırında alınan geri gönderme iletisinin parçası olabilecek bilgiler aşağıda verilmektedir:
+Geri gönderme iletisi, kullanıcı harici siteden çıkış yapıp Supply Chain Management'a döndüğünde satıcı tarafından gönderilen iletidir. Geri gönderme iletileri yapılandırılamaz. İletiler cXML protokolü tanımını temel alır. Bir talep satırında alınan geri gönderme iletisinin parçası olabilecek bilgiler aşağıda verilmektedir.
 
-| İleti satıcıdan alındı | Finance and Operations'da istek satırına kopyalandı|
+| İleti satıcıdan alındı | Talep satırına kopyalandı|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |Miktar|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|Harici madde kodu|
