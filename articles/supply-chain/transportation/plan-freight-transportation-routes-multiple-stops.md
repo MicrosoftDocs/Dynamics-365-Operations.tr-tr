@@ -1,6 +1,6 @@
 ---
 title: Birden fazla duraklı navlun taşıma rotaları planlama
-description: Bu makalede Dynamics 365 for Finance and Operations uygulamasında ulaşım yolları planlamak için kullandığınız çeşitli öğeler açıklanmaktadır.
+description: Bu makalede Dynamics 365 Supply Chain Management uygulamasında ulaşım yolları planlamak için kullandığınız çeşitli öğeler açıklanmaktadır.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 033dde410519b061b0ff3fb42e8f7790af9449ec
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553988"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017562"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Birden fazla duraklı navlun taşıma rotaları planlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede Microsoft Dynamics 365 for Finance and Operations uygulamasında ulaşım yolları planlamak için kullandığınız çeşitli öğeler açıklanmaktadır.
+Bu makalede Dynamics 365 Supply Chain Management uygulamasında ulaşım yolları planlamak için kullandığınız çeşitli öğeler açıklanmaktadır.
 
 Birden fazla durakları olan karmaşık ulaşım yolları için rota planları ve rota kılavuzlarını kullanabilirsiniz. Aynı yol düzenli olarak kullanılacaksa, zamanlanmış bir rota ayarlayabilirsiniz.
 

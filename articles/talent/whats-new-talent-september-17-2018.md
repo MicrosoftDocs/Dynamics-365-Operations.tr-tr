@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (17 Eylül 2018)
-description: Bu konuda, Microsoft Dynamics 365 for Talent Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (17 Eylül 2018)
+description: Bu konuda, Microsoft Dynamics 365 Talent - Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 558c2cdb4addce54af937ff862535d65f1ebd602
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519332"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026060"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (17 Eylül 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-17-2018"></a>Dynamics 365 Talent: Core HR'daki yenilikler veya değişiklikler (17 Eylül 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -37,13 +37,13 @@ Bu konuda, Core HR'deki yeni veya değişen özellikler açıklanmaktadır.
 
 Bırakma planlarına yeni bir tahakkuk türü eklendi. Tahakkuk planı şimdi hizmet verilen aylar veya çalışılan saatlere dayanabilir. Daha fazla bilgi için bkz [Çalışılan saatlere dayanarak zaman tahakkuk](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18"></a>Platform güncelleştirmesi 18
+## <a name="platform-update-18-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 18
 
-Platform Güncelleştirmesi 18 şimdi Talent sürümünün parçasıdır. 
+Finance and Operations için Platform güncelleştirmesi 18 artık Talent sürümünün parçasıdır. 
 
 -   Zorunlu ve diğer alanlar kişiselleştirme ile gizlenebilir. Bu basitleştirilmiş deneyimi oluşturmak bir kullanıcı burada iş mantığı tarafından varsayılan zorunlu alanların görüntülenmemesini sağlar. Bir kaydetmeye teşebbüs edilirse, gizli zorunlu alanlar geçici olarak görünür hale gelir.
 
--   Platform Güncelleştirmesi 18'de, Talent web istemcisi şimdi Microsoft Fluent Design görselleri ile uyumludur.
+-   Finance and Operations için Platform güncelleştirmesi 18'de, Talent web istemcisi, görsellerini artık Microsoft Fluent Design uyumlu hale getiriyor.
 
     -   Alanlar "okuma modunda" ise, formu düzenleye geçirmek için kolayca düzenleme seçeneğini işaretleyebilirsiniz.
 

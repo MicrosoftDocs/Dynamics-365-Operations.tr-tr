@@ -1,6 +1,6 @@
 ---
 title: Yeni Retail ortamlarında çekirdek verileri başlatma
-description: Bu konu, Microsoft Dynamics 365 for Retail için başlatma işleminin parçası olarak oluşturulan veriyi açıklar.
+description: Bu konu, Dynamics 365 Retail için başlatma işleminin parçası olarak oluşturulan veriyi açıklar.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556910"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025528"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Yeni Retail ortamlarında çekirdek verileri başlatma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Retail için başlatma işleminin parçası olarak oluşturulan veriyi açıklar.
+Bu konu, Dynamics 365 Retail için başlatma işleminin parçası olarak oluşturulan veriyi açıklar.
 
 Perakende çözümü Microsoft Dynamics Lifecycle Services (LCS) aracılığıyla dağıtıldıktan sonra, temel yapılandırma verilerini oluşturmak için perakende yapılandırmasını başlatmanız gerekir.
 
@@ -39,7 +39,7 @@ Perakende çözümü Microsoft Dynamics Lifecycle Services (LCS) aracılığıyl
 
 Perakende yapılandırmasını başlatmak için aşağıdaki adımları izleyin.
 
-1. Dynamics 365 for Retail istemcisini başlatın.
+1. Retail istemcisini başlatın.
 2. **Perakende** &gt; **Genel merkez kurulumu** &gt; **Parametreler** &gt; **Perakende parametreleri** menüsüne tıklayın.
 3. **Başlat** öğesine tıklayın.
 
@@ -57,7 +57,7 @@ Başlatma, aşağıdaki varsayılan yapılandırma verilerini oluşturur:
 - Varlık doğrulama şablonları
 - Commerce Data Exchange oturum geçmişini silmek için toplu iş
 
-Ayrıca, Dynamics 365 for Retail veritabanı için ödeme kartı sektörü ile ilgili günlük kaydı etkinleştirilmiştir.
+Ayrıca, Retail veritabanı için ödeme kartı sektörü ile ilgili günlük kaydı etkinleştirilmiştir.
 
 > [!NOTE]
 > Perakende planlayıcısını ayrıca yapılandırmak seçeneği vardır. Bu seçenek, Perakende planlayıcısı yapılandırmasını varsayılan ayarlarına sıfırlama olanağı sağlar.

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'taki yenilikler veya değişiklikler (4 Haziran 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (Haziran 4 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/04/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e19e5d3f1cb2305e5a4153de3e4d0e8f4c7d31ac
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 32b168eca210b1371db129c05f7035237eb35c38
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856341"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008996"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-4-2019"></a>Dynamics 365 for Talent'taki yenilikler veya değişiklikler (4 Haziran 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-4-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (Haziran 4 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 
-Bu sürüm, Dynamics 365 for Talent: Attract için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="coming-soon-in-attract"></a>Yakın zamanda Attract'e geliyor
 
@@ -43,7 +43,7 @@ Onaylar, panonun bir **Onaylar** bölümünde görüntülenir. Onaylayanlar onay
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
 
-Bu sürüm, Dynamics 365 for Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 
@@ -67,7 +67,7 @@ Kuruluşlar, bir çalışan izin talepleri gönderdiğinde belirli izin türleri
 
 ### <a name="deleting-a-record-from-talent-doesnt-remove-the-record-from-common-data-service"></a>Bir Talent kaydının silinmesi kaydın Common Data Service'ten kaldırılması anlamına gelmez
 
-Talent Core HR 'dan kaldırılan kayıtlar aynı zamanda Common Data Service'ten de kaldırılır.
+Talent: Core HR'dan kaldırılan kayıtlar artık Common Data Service'ten de kaldırılıyor.
 
 ### <a name="variable-compensation-plan-valid-fromto-dates-arent-being-honored"></a>Değişken ücret planı geçerli başlangıç/bitiş tarihleri kabul edilmemektedir
 

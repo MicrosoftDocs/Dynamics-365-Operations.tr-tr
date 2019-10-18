@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14801f3aa486da3af252695a3e2ccd58c0e9059
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 37378b85b90f91c74da717f0a25c1847ac0b1598
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865981"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251305"
 ---
 # <a name="sales-agreements-overview"></a>Satış sözleşmelerine genel bakış
 
@@ -99,14 +99,14 @@ Bir satış anlaşması üzerinden satış siparişi oluşturduysanız (yayınla
 | Miktar                                                          | **Maksimum uygulanır** onay kutusu seçiliyken bir satış anlaşması satırında belirtilen miktarı aşan bir miktar belirtirseniz, bir ileti kutusu değişen miktarı kaydetmek isteyip istemediğinizi sorar. Satış sözleşmesi satırına bağlantıyı kaldırmak ve fiyatı yeniden hesaplamak için **Evet**'e tıklayın. Fiyatı yeniden hesaplamanız gerekmeden satış sözleşmesi satırına bağlantıyı kaldırmak için **Hayır**'a tıklayın.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Satış anlaşmasıyla sipariş edilen bir ürünü iade etme
-Bir müşteri, bir satış anlaşmasıyla sipariş edilen bir ürünü iade ettiğinde, Microsoft Dynamics 365 for Finance and Operations tutar veya miktar değişikliğini yansıtmak üzere ilgili satış anlaşması taahhüdünü bulabilir ve otomatik olarak güncelleyebilir. Bir satış anlaşmasına bağlanmış orijinal satış siparişini temel alan bir iade emri oluşturarak, satış anlaşması taahhüdü, satış siparişi satırı ve iade emri faturası arasında bir ilişki kurarsınız.  
+Bir müşteri, bir satış anlaşmasıyla sipariş edilen bir ürünü iade ettiğinde, Supply Chain Management tutar veya miktar değişikliğini yansıtmak üzere ilgili satış anlaşması taahhüdünü bulabilir ve otomatik olarak güncelleyebilir. Bir satış anlaşmasına bağlanmış orijinal satış siparişini temel alan bir iade emri oluşturarak, satış anlaşması taahhüdü, satış siparişi satırı ve iade emri faturası arasında bir ilişki kurarsınız.  
 
 İade edilen ürün miktarını satış anlaşması taahhüdünden düşmek istemiyorsanız, iade emri ve satış anlaşması taahhüdü arasındaki bağlantıyı kaldırmak için **Siparişi iade et** sayfasında **Bağlantıyı kaldır** denetimini kullanabilirsiniz. Bağlantıyı daha sonra yeniden oluşturmak isterseniz, **Bağlantı oluştur**'u tıklatın.  
 
 **Not:** Bir iade emri yalnızca tek bir satış anlaşmasına bağlanabilir. Bir müşteri birden fazla satış anlaşmasından sipariş edilmiş birden çok ürün iade ederse, her bir ürün için yeni bir iade emri oluşturmanız ve ilgili satış anlaşmasına bir bağlantı oluşturmanız gerekir.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Satış anlaşmalarını otomatik olarak arama
-Bir alacak dekontu veya şirketlerarası satış siparişi oluşturduğunuzdaki gibi satış şiparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda Microsoft Dynamics 365 for Finance and Operations'u otomatik olarak uygun satış anlaşmalarını arayacak şekilde kontrol edebilirsiniz.
+Bir alacak dekontu veya şirketlerarası satış siparişi oluşturduğunuzdaki gibi satış siparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda sistemi otomatik olarak uygun satış anlaşmalarını arayacak şekilde kontrol edebilirsiniz.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Satış anlaşmaları üzerindeki finansal boyutlar
 Finansal boyutları belge başlıklarına ya da satış anlaşmalarının tekil satırlarına kopyalayabilirsiniz. Herhangi bir zamanda bir anlaşma başlığındaki veya anlaşma satırındaki boyutları değiştirebilirsiniz. Bu durumda, boyutlar otomatik olarak sevk başlığına veya sevk emirlerinin sevk satırlarına kopyalanır.

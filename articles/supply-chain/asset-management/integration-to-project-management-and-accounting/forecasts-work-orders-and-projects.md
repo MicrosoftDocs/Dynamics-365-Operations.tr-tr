@@ -3,7 +3,7 @@ title: Tahminler, iş emirleri ve projeler
 description: Bu konu, Varlık yönetimindeki Proje yönetimi ve muhasebe modülüyle tahminler ve iş emri tümleştirmesini açıklamaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 08/16/2019
+ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e986d139ac9d0a7729bb9787f05332bcc09f59b
-ms.sourcegitcommit: 109a6ef2d20758dc4a25c51b11e22dd2214a1cc4
+ms.openlocfilehash: cc1992326c448ee8dc30a9ad8f8f538ebea83e54
+ms.sourcegitcommit: f853c8d46ffc8e578387bac4cd48a948916983ef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1886828"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "2002396"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Tahminler, iş emirleri ve projeler
 
@@ -31,59 +31,63 @@ ms.locfileid: "1886828"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-Varlık Yönetiminde, **Proje yönetimi ve muhasebe** modülüyle tümleştirme, kullanıcıların bakım işi türü tahminlerinde ve iş emri işlerinde maliyetleri izlemesine izin vererek maliyet kontrolünü en iyi duruma getirmek için yapılır.
+Varlık Yönetiminde, **Proje yönetimi ve muhasebe** modülüyle tümleştirme, kullanıcıların bakım işi türü tahminlerinde ve iş emri işlerinde maliyetleri izleyebilmesine izin vererek maliyet kontrolünü en iyi duruma getirmeye yardımcı olur.
 
-Bakım işi türü tahminlerini izlemek için iki ayar yapılmalıdır:
+Bakım işi türü tahminlerini izlemek için iki ayar gereklidir:
 
-1. **Varlık yönetimi** > **Kurulum** > **Varlık yönetimi parametreleri** > **Varlık** bağlantısı > **Proje** hızlı sekmesi > **Bakım tahmini projesi** alanında bir proje seçin.
+1. **Varlık Yönetimi** > **Kurulum** > **Varlık yönetimi parametreleri**'nde bir proje seçin ve ardından **Varlıklar** sekmesinde > **Proje** hızlı sekmesinde bulunan **Bakım tahmini projesi** alanında bir proje seçin.
 
-2. **Bakım iş türü varsayılanlarında** bir bakım işi türü varsayılan satırı oluşturduğunuzda, satır için otomatik olarak bir faaliyet numarası oluşturulur (**Varlık yönetimi** > **Kurulum** > **İşler** > **Bakım işi türü varsayılanları**).
+2. **Bakım iş türü varsayılanları** sayfasında bir bakım işi türü varsayılan satırı oluşturduğunuzda, satır için otomatik olarak bir faaliyet numarası oluşturulur (**Varlık yönetimi** > **Kurulum** > **İşler** > **Bakım işi türü varsayılanları**).
 
-Bakım işi türü tahminleri iki amaca hizmet eder: **Proje yönetimi ve muhasebe** modülündeki bakım işi türü tahminlerindeki maliyetleri izleyebilirsiniz. Ayrıca, bir iş emri işinde bir bakım işi türü seçtiğinizde, tahminler otomatik olarak bir iş emri iş projesine transfer edilir.
+Bakım işi türü tahminleri iki amaca hizmet eder: 
 
-İş emri işlerinde maliyetleri izlemek için, önce iş emri projeleri ayarlamanız gerekir. Yordamın açıklaması için [İş emri projesi kurulumu](../setup-for-work-orders/work-order-project-setup.md) bölümüne bakın.
+- **Proje yönetimi ve muhasebe** modülündeki bakım işi türü tahminlerinde maliyetleri izleyebilirsiniz. 
+- Bir iş emri işinde bir bakım işi türü seçtiğinizde, tahminler otomatik olarak bir iş emri iş projesine transfer edilir.
+
+İş emri işlerinde maliyetleri izlemek için, önce iş emri projeleri ayarlamanız gerekir. Daha fazla bilgi için bkz. [İş emri proje kurulumu](../setup-for-work-orders/work-order-project-setup.md).
 
 ## <a name="work-order-job-projects"></a>İş emri işi projeleri
 
-Bir iş emrinde iş emri işi oluşturduğunuzda iş emri projesi **Varlık yönetimi** > **Kurulum** > **İş emirleri** > **Proje kurulumundaki** iş emirlerinin ana proje kurulumu tarafından belirlenir.
+Bir iş emrinde iş emri işi oluşturduğunuzda, iş emri projesi **İş emri proje kurulumu** sayfasındaki iş emirlerinin ana proje kurulumu tarafından belirlenir (**Varlık yönetimi** > **Kurulum** > **İş emirleri** > **Proje kurulumu**).
 
 İş emri işi projeleri, aşağıdaki iş emri bilgilerinin bir birleşimi kullanılarak oluşturulur:
 
 - İş emrinde seçilen iş emri türü 
 - İş emri işindeki varlıkla ilgili işlem yapılacak yerleşim
-- İş emri işindeki varlıkla ilgili varlık türü  
-- İş emrinde ayarlanan Beklenen başlangıç ve bitiş zamanı  
+- İş emri işindeki varlıkla ilgili olan varlık türü  
+- İş emrinde ayarlanan beklenen başlangıç ve bitiş zamanı  
 
-Yukarıda belirtilen bilgilerin tümünün bir iş emrinde bulunmaması mümkündür. Bu nedenle, bir iş emri üst projesi için yapılan arama mevcut veri birleşimi kullanılarak ve iş emri verileriyle ilgili proje kodu seçilerek gerçekleştirilir.
+Bu bilgilerden bazıları bir iş emrinde bulunmayabilir. Bu nedenle, bir iş emri üst projesi için yapılan arama mevcut veri birleşimi kullanılarak ve iş emri verileriyle ilgili proje kodu seçilerek gerçekleştirilir.
 
-Örnek: Aşağıdaki şekilde, "Kamyon Motoru" varlık türünün kurulumu, bu varlık türüyle oluşturulan her iş emri işinin "000186" Proje kodunun bir alt projesi olacağı anlamına gelir.
+Örneğin, aşağıdaki örnekte, **Kamyon Motoru** varlık türünün ayarlanma şekli nedeniyle,  **Kamyon Motoru** varlık türü ile oluşturulan her iş emri işi 000186 proje kodunun alt projesi olacaktır.
 
 ![Şekil 1](media/01-integration-to-pma.png)
 
-İş emri işindeki proje kodunun ve ilgili faaliyet numarasının amacı **(Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm iş emirleri** > listeden iş emrini seçin > **Satır ayrıntıları** hızlı sekmesi > **Proje kodu** alanı ve **Faaliyet numarası** alanı), **Proje yönetimi ve muhasebe** modülünde iş emri işiyle ilgili maliyetleri ve iş emri işinde seçilen kıymetleri izlemektir. 
+İş emri işindeki proje kodunun ve ilgili faaliyet numarasının amacı, iş emri işiyle ilgili maliyetleri ve bunun üzerinde seçilen varlığı **Proje yönetimi ve muhasebe** modülünde izlemektir. (Proje kodunu ve faaliyet numarasını görüntülemek için **Varlık yönetimi** > **Ortak** > **İş emirleri** > **Tüm iş emirleri** öğesini ve ardından iş emrini seçin. **Satır ayrıntıları** hızlı sekmesinde, **Proje kodu** alanı proje kodunu ve **Faaliyet numarası** alanı faaliyet numarasını gösterir.) Varlık Yönetiminde maliyet kontrolü ile ilgili daha fazla bilgi için bkz. [Maliyet ve tarih kontrolü](../controlling-and-reporting/cost-and-date-control.md).
 
-Aşağıdaki şekilde, iş emri projelerinin ve ilgili proje faaliyetlerinin grafik genel görünümünü görürsünüz.
+Aşağıdaki örnekte, iş emri projelerinin ve ilgili proje faaliyetlerinin grafik genel görünümü gösterilmektedir.
 
 ![Şekil 2](media/02-integration-to-pma.png)
 
-Bir iş emrinde yeni bir iş emri işi oluşturulduğunda, iş için otomatik olarak bir iş emri projesi oluşturulur. İş emri işiyle ilgili varlığın mali boyutları otomatik olarak iş emri projesine transfer edilir. İş emri işi için oluşturulan proje faaliyeti bakım işi türü, bakım işi türü varyantı ve ticaret ile ilgili bilgiler ile ilgilidir. Bu veriler örneğin bir iş emrinden bir satınalma siparişi oluşturursanız (bkz. [Tedarik](../work-orders/procurement.md)) veya zaman kaydı için **Proje yönetimi ve muhasebe** modülünü kullanıyorsanız yararlıdır.  
+Bir iş emrinde yeni bir iş emri işi oluşturulduğunda, iş için otomatik olarak bir iş emri projesi oluşturulur. İş emri işiyle ilgili olan varlığın mali boyutları otomatik olarak iş emri projesine transfer edilir.
 
-Varlık işlem yapılacak bir yerleşime yüklenmişse ve bu varlık daha sonra başka bir işlem yapılacak yerleşime yüklenmişse, yeni işlem yapılacak yerleşimle ilgili mali boyutlar varlıkta otomatik olarak güncelleştirilir. Ardından, varlık için bir iş emri işi oluşturduğunuzda, iş emri işi için iş emri projesi artık varlıkla ilgili olan mali boyutları otomatik olarak alır. Bu, işlem yapılacak yerleşimleri kullandığınızda, maliyetlerin herhangi bir zamanda yüklenmiş olduğu işlem yapılacak yerleşimlerde her zaman izlenebileceği anlamına gelir. Mali boyutların otomatik güncelleştirilmesi, proje denetleme ve raporlama maliyetlerinin eksiksiz olarak izlenebilmesini sağlar.  
+İş emri işinde oluşturulan proje faaliyetine ilgili bilgiler eklenir. Bu bilgiler bakım işi türü, bakım iş türü varyantı ve zanaat ile ilgilidir. Bunlar, örneğin bir iş emrinden bir satınalma siparişi oluşturursanız (bkz. [Tedarik](../work-orders/procurement.md)) veya zaman kaydı için **Proje yönetimi ve muhasebe** modülünü kullanıyorsanız yararlıdır.
 
+Varlık işlem yapılacak bir yerleşime yüklenmişse ancak daha sonra başka bir işlem yapılacak yerleşime yüklenmişse, yeni işlem yapılacak yerleşimle ilgili mali boyutlar varlıkta otomatik olarak güncelleştirilir. Ardından, varlık için bir iş emri işi oluşturduğunuzda, iş emri işi için iş emri projesi artık varlıkla ilgili olan mali boyutları otomatik olarak alır. Bu nedenle, işlem yapılacak yerleşimleri kullandığınızda, maliyetler herhangi bir zamanda yüklenmiş olduğu işlem yapılacak yerleşimlerde her zaman izlenebilir. Mali boyutların otomatik güncelleştirilmesi, proje denetleme ve raporlama maliyetlerinin eksiksiz olarak izlenebilmesini sağlamaya yardımcı olur.
 
 ## <a name="work-order-projects-work-order-lifecycle-states-project-stages-and-project-types"></a>İş emri projeleri, iş emri yaşam döngüsü durumları, proje aşamaları ve proje türleri
 
-İş emri yaşam döngüsü durumlarının ve iş emirlerindeki ilgili proje aşamalarının doğru kullanımını sağlamak için **Proje yönetimi ve muhaseb** modülüyle ilişkili olarak bağımlılıkları göz önünde bulundurun:
+İş emri yaşam döngüsü durumlarının ve iş emirlerindeki ilgili proje aşamalarının doğru şekilde kullanılmasını sağlamaya yardımcı olmak için **Proje yönetimi ve muhasebe** modülüyle ilişkili olarak bağımlılıkları göz önünde bulundurun:
 
-- **Proje yönetimi ve muhasebe** modülünde, proje aşamaları **Proje yönetimi ve muhasebe parametrelerindeki** proje türlerinde ayarlanır.  
-- **Proje yönetimi ve muhasebe parametrelerinde**, kullanacağınız tüm proje türleri için ilgili proje aşaması onay kutularını seçmeyi unutmayın. Aşağıdaki şekilde, "Zaman ve malzeme" ve "Dahili" proje türleri için beş aşama seçilmiştir: **Oluşturuldu** - **Tahmin edildi** - **Zamanlandı** - **İşlemde"** - **Tamamlandı**. Bu beş aşama hem dahili bakım hem de servis bakım işleri için geçerlidir.  
-- **Varlık Yönetiminde** proje türleri **İş emri proje kurulumu** formu > **Proje grubu** bağlantısında ayarladığınız proje grupları tarafından tanımlanır.  
-- **İş emri proje kurulumunda** oluşturduğunuz iş emirleri iş emirleri oluştururken kullanılır. Bir iş emri oluşturulduğunda, iş emri için otomatik olarak bir iş emri projesi oluşturulur.  
-- İş emri yaşam döngüsü durumlarının her birinin ilgili proje aşaması olması gerekir.  
-- Bir iş emri yaşam döngüsü durumuyla ilgili proje aşaması, iş emri projesinde tanımlanan proje grubu için etkin bir aşama olarak tanımlanmalıdır. İş emri projesi, bir iş emrinde otomatik olarak oluşturulur.  
-- Yeni bir iş emri oluşturduğunuzda iş emri projesi otomatik tahsisatı **İş emri projesi kurulumundaki** (**Varlık yönetimi** > **Kurulum** > **İŞ emirleri** > **Proje kurulumu**) kurulumu temel alır.  
+- **Proje yönetimi ve muhasebe** modülünde, proje aşamaları **Proje yönetimi ve muhasebe parametreleri** sayfasındaki proje türlerinde ayarlanır.  
+- **Proje yönetimi ve muhasebe parametrelerinde** sayfasında, kullanacağınız tüm proje türleri için ilgili proje aşamalarını seçmek için onay kutularını kullanın. Aşağıdaki örneklerde, **Zaman ve malzeme** ve **Dahili** proje türleri için beş aşama seçilmiştir: (**Oluşturuldu**, **Tahmin edildi**, **Zamanlandı**, **İşlemde** ve **Tamamlandı**). Bu beş aşama hem dahili bakım işleri hem de servis bakım işleri için geçerlidir.
+- **Varlık Yönetimi** modülünde, proje türleri **İş emri proje kurulumu** sayfası > **Proje grubu** sekmesinde ayarlanan proje grupları tarafından tanımlanır (**Varlık yönetimi** > **Kurulum** > **İş emirleri** > **Proje kurulumu**).  
+- **İş emri proje kurulumu** sayfasında ayarlanan proje grupları iş emirleri oluştururken kullanılır. Bir iş emri oluşturulduğunda, iş emri için otomatik olarak bir iş emri projesi oluşturulur.  
+- Her iş emri yaşam döngüsü durumunun ilgili proje aşaması olması gerekir.  
+- Bir iş emri yaşam döngüsü durumuyla ilgili olan proje aşaması, iş emri projesinde tanımlanan proje grubu için etkin bir aşama olarak tanımlanmalıdır. İş emri projesi, bir iş emrinde otomatik olarak oluşturulur.
+- Yeni bir iş emri oluşturduğunuzda, iş emri projesi otomatik tahsisatı **İş emri projesi kurulumu** sayfasındaki kurulumu temel alır.  
 
-İş emri proje grupları, ilgili proje türleri, proje aşamaları ve iş emri yaşam döngüsü durumları arasındaki ilişkilendirmeler aşağıdaki şekilde gösterilmiştir.  
+Aşağıdaki örnekte iş emri proje grupları, ilgili proje türleri, proje aşamaları ve iş emri yaşam döngüsü durumları arasındaki ilişkilendirmeler gösterilmiştir.
 
 ![Şekil 3](media/03-integration-to-pma.png)
 
@@ -91,9 +95,9 @@ Varlık işlem yapılacak bir yerleşime yüklenmişse ve bu varlık daha sonra 
 
 ![Şekil 5](media/05-integration-to-pma.png)
 
-İş emri projelerinin nasıl ayarlanacağı ile ilgili olarak [İş emri proje kurulumu](../setup-for-work-orders/work-order-project-setup.md), iş emri yaşam döngüsü durumlarının nasıl oluşturulacağıyla ilgili olarak [İş emri yaşam döngüsü durumları](../setup-for-work-orders/work-order-lifecycle-states.md) konularına bakın.
+İş emri projelerini ayarlamayla ilgili bilgi için bkz. [İş emri proje kurulumu](../setup-for-work-orders/work-order-project-setup.md). İş emri yaşam döngüsü durumları oluşturma hakkında bilgi için bkz. [İş emri yaşam döngüsü durumları](../setup-for-work-orders/work-order-lifecycle-states.md).
 
-Aşağıdaki şekil **Proje yönetimi ve muhasebe** modülüyle tümleştirmeye olanak tanımak için **Varlık Yönetimi** modülünde oluşturulan çeşitli projelerin grafik genel görünümünü ve projelerin ilgili olduğu iş süreçlerini gösterir.
+Aşağıdaki örnekte **Varlık yönetimi** modülünde **Proje yönetimi ve muhasebe** modülüyle tümleştirmeyi etkinleştirmek için oluşturulan çeşitli projelere ilişkin grafik genel görünüm gösterilmektedir. Ayrıca, projelerin ilişkili olduğu iş süreçlerini de gösterir.
 
 ![Şekil 6](media/06-integration-to-pma.png)
 

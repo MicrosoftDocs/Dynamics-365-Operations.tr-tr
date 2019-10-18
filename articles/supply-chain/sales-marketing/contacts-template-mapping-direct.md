@@ -1,6 +1,6 @@
 ---
-title: Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
-description: Bu konu, Kişiler (Kişiler) ve Kişiler (Müşteriler) varlıklarını Microsoft Dynamics 365 for Sales üzerinden Microsoft Dynamics 365 for Finance and Operations üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+title: Sales'teki ilgili kişileri doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme
+description: Bu konu, Kişiler (Kişiler) ve Kişiler (Müşteriler) varlıklarını Dynamics 365 Sales üzerinden Dynamics 365 Supply Chain Management üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,25 +19,25 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: fbc75702c9db1e877addc4605dcb444c344dfa5c
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 7d3a4602a3d8462666dfcb26b97a4f652891f7bc
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742459"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249992"
 ---
-# <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-finance-and-operations"></a>Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
+# <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sales'teki ilgili kişileri doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Aday'dan nakde çözümünü kullanmadan önce [Common Data Service for Apps için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
 
-Bu konu, Kişiler (Kişiler) ve Kişiler (Müşteriler) varlıklarını doğrudan Microsoft Dynamics 365 for Sales üzerinden Microsoft Dynamics 365 for Finance and Operations üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+Bu konu, Kişiler (Kişiler) ve Kişiler (Müşteriler) varlıklarını doğrudan Dynamics 365 Sales üzerinden Dynamics 365 Supply Chain Management üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 
-Aday müşteriden nakde çözümü Finance and Operations ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri Tümleştirme özelliği içindeki Aday müşteriden nakde şablonları, hesaplar, ilgili kişiler, ürünler ve satış teklifleri, satış siparişleri ve satış faturalarının Finance and Operations ve Sales arasında veri akışını etkinleştirir. Finance and Operations ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
+Aday müşteriden nakde çözümü Supply Chain Management ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri Tümleştirme özelliği içindeki Aday müşteriden nakde şablonları, hesaplar, ilgili kişiler, ürünler ve satış teklifleri, satış siparişleri ve satış faturalarının Supply Chain Management ve Sales arasında veri akışını etkinleştirir. Supply Chain Management ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
 
 [![Aday müşteriden nakde çözümünde veri akışı](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -45,47 +45,47 @@ Aday müşteriden nakde çözümü Finance and Operations ve Sales örnekleri ar
 
 Kullanılabilir şablonlara erişmek için [PowerApps Yönetim Merkezi](https://preview.admin.powerapps.com/dataintegration)'ni açın. **Projeler**'i seçin ve ardından genel şablonları seçmek için sağ üst köşeden **Yeni proje**'yi seçin.
 
-Aşağıdaki şablonlar ve altta yatan görevler, İlgili Kişi (Kişiler) varlıklarını Sales'tan Finance to Operations'daki İlgili Kişi (Müşteriler) varlıklarına eşitlemekte kullanılır:
+Aşağıdaki şablonlar ve altta yatan görevler, İlgili Kişi (Kişiler) varlıklarını Sales'tan Supply Chain Management'daki İlgili Kişi (Müşteriler) varlıklarına eşitlemekte kullanılır:
 
 - **Veri tümleştirmesindeki şablonların adları:**
 
-    - İlgili Kişiler (Sales'tan Fin and Ops'a) - Doğrudan
-    - İlgili Kişilerden Müşteriye (Sales'tan Fin and Ops'a) - Doğrudan
+    - İlgili kişiler (Sales'ten Supply Chain Management'a) - Doğrudan
+    - İlgili kişilerden Müşteriye (Sales'ten Supply Chain Management'a) - Doğrudan
 
-- **Veri tümleştirme projesindeki görevlerin adları:**
+- **Veri tümleştirme projesindeki görevlerin adları**
 
     - İlgili kişiler
     - ContactToCustomer
 
-Aşağıdaki eşitleme görevi ilgili kişi eşitlemesi gerçekleşemeden önce gereklidir: Hesaplar (Sales'tan Fin and Ops'a)
+Aşağıdaki eşitleme görevi ilgili kişi eşitlemesi gerçekleşemeden önce gereklidir: Hesaplar (Sales'tan Supply Chain Management'a)
 
 ## <a name="entity-sets"></a>Varlık kümeleri
 
-| Satış    | Finance and Operations |
+| Satışlar    | Supply Chain Management |
 |----------|------------------------|
 | İlgili kişiler | CDS İlgili Kişileri           |
 | İlgili kişiler | Müşteriler V2           |
 
 ## <a name="entity-flow"></a>Varlık akışı
 
-İlgili kişiler Sales içinde yönetilir ve Finance and Operations'a eşitlenir.
+İlgili Kişiler Sales'ta yönetilir ve Supply Chain Management'a eşitlenir.
 
-Sales'daki bir ilgili kişi, Finance and Operations'taki bir ilgili kişi veya müşteri olabilir. Sales'deki bir ilgili kişinin Finance and Operations'a bir ilgili kişi veya müşteri olarak eşitlenip eşitlenmeyeceğini belirlemek için sistem Sales'de ilgili kişinin aşağıdaki özelliklerine bakar:
+Sales'daki bir ilgili kişi, Supply Chain Management'taki bir ilgili kişi veya müşteri olabilir. Sales'deki bir ilgili kişinin Supply Chain Management'a bir ilgili kişi veya müşteri olarak eşitlenip eşitlenmeyeceğini belirlemek için sistem Sales'de ilgili kişinin aşağıdaki özelliklerine bakar:
 
-- **Finance and Operations içinde bir müşteriye eşitleme:** **Etkin Müşteri** seçeneğinin **Evet** olarak ayarlandığı ilgili kişiler
-- **Finance and Operations'da bir ilgili kişiye eşitleme:** **Etkin Müşteri**'nin **Hayır** olarak ayarlandığı ve **Şirket**'in (Ana Firma/İlgili Kişi) bir hesaba (bir İlgili Kişiye değil) işaret ettiği İlgili Kişiler
+- **Supply Chain Management içinde bir müşteriye eşitleme:** **Etkin Müşteri** seçeneğinin **Evet** olarak ayarlandığı ilgili kişiler
+- **Supply Chain Management'da bir ilgili kişiye eşitleme:** **Etkin Müşteri**'nin **Hayır** olarak ayarlandığı ve **Şirket**'in (Ana Firma/İlgili Kişi) bir hesaba (bir İlgili Kişiye değil) işaret ettiği İlgili Kişiler
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Sales için Aday müşteriden nakde çözümü
 
-Yeni bir **Etkin Müşteri** alanı ilgili kişiye eklendi. Bu alan satış etkinliğine sahip ilgili kişileri ve satış etkinliğine sahip olmayan ilgili kişileri ayırmak için kullanılır. **Etkin müşteri**, yalnızca ilgili tekliflere, siparişlere veya faturalara sahip ilgili kişiler için **Evet** olarak ayarlanır. Yalnızca bu ilgili kişiler Finance and Operations'ta müşteriler olarak eşitlenir.
+Yeni bir **Etkin Müşteri** alanı ilgili kişiye eklendi. Bu alan satış etkinliğine sahip ilgili kişileri ve satış etkinliğine sahip olmayan ilgili kişileri ayırmak için kullanılır. **Etkin müşteri**, yalnızca ilgili tekliflere, siparişlere veya faturalara sahip ilgili kişiler için **Evet** olarak ayarlanır. Yalnızca bu ilgili kişiler Supply Chain Management'ta müşteriler olarak eşitlenir.
 
-Yeni bir **IsCompanyAnAccount** alanı ilgili kişiye eklendi. Bu alan, bir ilgili kişinin bir **Hesap** türündeki şirkete (ana hesap/ilgili kişi) bağlı olup olmadığını belirtmek için kullanılır. Bu bilgi Finance and Operations'a ilgili kişiler olarak eşitlenecek ilgili kişileri belirlemek için kullanılır.
+Yeni bir **IsCompanyAnAccount** alanı ilgili kişiye eklendi. Bu alan, bir ilgili kişinin bir **Hesap** türündeki şirkete (ana hesap/ilgili kişi) bağlı olup olmadığını belirtmek için kullanılır. Bu bilgi Supply Chain Management'a ilgili kişiler olarak eşitlenecek ilgili kişileri belirlemek için kullanılır.
 
 **İlgili Kişi Numarası** alanı, tümleştirme için doğal ve benzersiz anahtarın ilgili kişiye eklendiğinden emin olmak için eklenmiştir. Yeni bir ilgili kişi oluşturulduğunda bir **İlgili Kişi Numarası** değeri otomatik olarak bir numara serisi kullanılarak oluşturulur. Değer **CON**'dan oluşur ve artan bir numara serisi ve daha sonra altı karakterlik bir sonek tarafından izlenir. Aşağıda bir örnek verilmiştir: **CON-01000-BVRCPS**
 
 Sales için tümleştirme çözümü uygulandığında, bir yükseltme komut dosyası **İlgili Kişi Numarası** alanını tüm mevcut ilgili kişiler için daha önce belirtilen numara serisini kullanarak ayarlar. Bir güncelleştirme kodu ayrıca **Etkin Müşteri** alanını, satış etkinliğine sahip tüm ilgili kişiler için **Evet** olarak ayarlar.
 
-## <a name="in-finance-and-operations"></a>Finance and Operations'ta
+## <a name="in-supply-chain-management"></a>Supply Chain Management'ta
 
 İlgili Kişiler **IsContactPersonExternallyMaintained** özelliğini kullanarak etiketlenir. Bu özellik, belirli bir ilgili kişinin dışarıda tutulduğunu gösterir. Bu durumda, dışarıda tutulan ilgili kişiler, Sales içerisinde tutulur.
 
@@ -93,21 +93,21 @@ Sales için tümleştirme çözümü uygulandığında, bir yükseltme komut dos
 
 ### <a name="contact-to-customer"></a>İlgili kişiden müşteriye
 
-- **CustomerGroup**, Finance and Operations içerisinde gereklidir. Eşitleme hatalarının önüne geçmek için, eşlemede bir varsayılan değer belirtebilirsiniz. Varsayılan değer daha sonra bu alan Sales'ta boş kalırsa kullanılır.
+- **CustomerGroup** Supply Chain Management'ta gereklidir. Eşitleme hatalarının önüne geçmek için, eşlemede bir varsayılan değer belirtebilirsiniz. Varsayılan değer daha sonra bu alan Sales'ta boş kalırsa kullanılır.
 
     Varsayılan şablon değeri **10**'dur.
 
-- Aşağıdaki eşleşmeleri ekleyerek, Finance and Operations'da gereken el ile güncelleştirmelerin sayısını azaltmaya yardımcı olabilirsiniz. Bir varsayılan değeri veya değer eşlemesini, örneğin **Ülke/Bölge** veya **Şehir**'den kullanabilirsiniz.
+- Aşağıdaki eşleşmeleri ekleyerek, Supply Chain Management'da gereken el ile güncelleştirmelerin sayısını azaltmaya yardımcı olabilirsiniz. Bir varsayılan değeri veya değer eşlemesini, örneğin **Ülke/Bölge** veya **Şehir**'den kullanabilirsiniz.
 
-    - **SiteId** – Bir varsayılan site, Finance and Operations'taki ürünlerde de tanımlanabilir. Finance and Operations'ta teklifler ve satış siparişleri oluşturmak için bir site gereklidir.
+    - **SiteId** – Bir varsayılan site, Supply Chain Management'taki ürünlerde de tanımlanabilir. Supply Chain Management'ta teklifler ve satış siparişleri oluşturmak için bir site gereklidir.
 
         **SiteId** için bir şablon değeri tanımlanmamıştır.
 
-    - **WarehouseId** – Bir varsayılan ambar, Finance and Operations'taki ürünlerde de tanımlanabilir. Finance and Operations'ta teklifler ve satış siparişleri oluşturmak için bir ambar gereklidir.
+    - **WarehouseId** – Bir varsayılan ambar, Supply Chain Management'taki ürünlerde de tanımlanabilir. Supply Chain Management'ta teklifler ve satış siparişleri oluşturmak için bir ambar gereklidir.
 
         **WarehouseId** için bir şablon değeri tanımlanmamıştır.
 
-    - **LanguageId** – Finance and Operations'ta teklifler ve satış siparişleri oluşturmak için bir dil gereklidir.
+    - **LanguageId** - Supply Chain Management'ta teklifler ve satış siparişlerini oluşturmak için bir dil gereklidir.
     
         Varsayılan şablon değeri **tr-tr**'dir.
 
@@ -116,7 +116,7 @@ Sales için tümleştirme çözümü uygulandığında, bir yükseltme komut dos
 Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gösterir. 
 
 > [!NOTE]
-> Eşleme hangi alan bilgilerinin Sales'den Finance and Operations'a eşitleneceğini gösterir.
+> Eşleme hangi alan bilgilerinin Sales'den Supply Chain Management'a eşitleneceğini gösterir.
 
 ### <a name="contact-to-contact"></a>İlgili kişiden ilgili kişiye
 
@@ -129,14 +129,14 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 
 ## <a name="related-topics"></a>İlgili konular
 
-[Müşteri adayından nakde](prospect-to-cash.md)
+[Aday müşteriden nakde](prospect-to-cash.md)
 
-[Hesapları doğrudan Sales'tan Finance and Operations'taki müşterilerle eşitleme](accounts-template-mapping-direct.md)
+[Sales'deki hesapları doğrudan Supply Chain Management'daki müşterilerle eşitleme](accounts-template-mapping-direct.md)
 
-[Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme](products-template-mapping-direct.md)
+[Supply Chain Management'daki ürünleri doğrudan Sales'deki ürünlerle eşitleme](products-template-mapping-direct.md)
 
-[Finance and Operations'daki satış siparişi başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-order-template-mapping-direct-two-ways.md)
+[Supply Chain Management'daki satış siparişi başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-order-template-mapping-direct-two-ways.md)
 
-[Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-invoice-template-mapping-direct.md)
+[Supply Chain Management'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-invoice-template-mapping-direct.md)
 
 

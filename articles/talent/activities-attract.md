@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent - Attract süreçlerindeki faaliyetler
-description: Bu konu, Microsoft Dynamics 365 for Talent - Attract işe alma işleminde kullanılabilecek faaliyetlerin çeşitli türleri hakkında bilgi sağlar.
+title: Microsoft Dynamics 365 Talent - Attract süreçlerindeki faaliyetler
+description: Bu konu, Microsoft Dynamics 365 Talent - Attract işe alma işleminde kullanılabilecek faaliyetlerin çeşitli türleri hakkında bilgi sağlar.
 author: hasrivas
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 2e40250bb801f6222d16400b2698e5b0df47a404
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739737"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008720"
 ---
 # <a name="activities-in-hiring-processes"></a>İşe alım süreçlerindeki faaliyetler
 
 [!include[banner](../includes/banner.md)]
 
-Faaliyetler beceri için Microsoft Dynamics 365 for Talent: Attract'te işe alma işleminin bir parçası olarak eklenebilir. Faaliyetler işlem şablonuna eklenebilir veya doğrudan işteki işe alma işlemine eklenebilir. Bir iş tanımlanınca, bir işlem şablonu seçilir ve şablona dahil edilen faaliyetler işe uygulanır. Bir şablon seçili değilse, varsayılan şablon kullanılır. Şablon uygulandıktan sonra işe alma işlemi iş üzerinde değiştirilebilir.
+Faaliyetler Microsoft Dynamics 365 Talent: Attract'te işe alma sürecinin bir parçası olarak eklenebilir. Faaliyetler işlem şablonuna eklenebilir veya doğrudan işteki işe alma işlemine eklenebilir. Bir iş tanımlanınca, bir işlem şablonu seçilir ve şablona dahil edilen faaliyetler işe uygulanır. Bir şablon seçili değilse, varsayılan şablon kullanılır. Şablon uygulandıktan sonra işe alma işlemi iş üzerinde değiştirilebilir.
 
 > [!NOTE] 
 > İşlem şablonları, Kapsamlı işe alma eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Kapsamlı Attract işe alma eklentisi özellikleri](./attract-comprehensive-hiring.md).
@@ -49,13 +49,13 @@ Aday müşteri faaliyeti, aday müşterilerin bir işe eklenebilir olup olmadı�
 
 Bu faaliyetin üç bileşeni vardır: Aday erişilebilirlik talebi, Zamanlama ve Geri Bildirim. Adayın uygunluk talebini, zamanlamasını ve geribildirimini, işe alma sürecinin bir parçası olarak tek tek kullanmak yerine işlemin parçası olarak dahil etmek istiyorsanız, iş şablonunda mülakat etkinliğini kullanın. Daha fazla bilgi için bkz. [Mülakat zamanlama ve geribildirim](interview-scheduling-feedback.md).
 
-## <a name="powerapps-activity"></a>PowerApps faaliyeti
+## <a name="powerapps-activity"></a>PowerApps etkinliği
 
-PowerApps faaliyeti, Microsoft PowerApps uygulamasını işe alma işlemine gömmenizi sağlar. Uygulama tüm başvuranlar, yalnızca dahili başvuranlar, yalnızca harici başvuranlar veya hiçbir başvuran için gerekli şeklinde ayarlanabilir. Uygulama gerekli olarak işaretlenirse, aşama ileriye taşınmadan önce tamamlanmış olması gerekir. Tamamlandı kabul edilmesi için **JobApplicationStatus** alanının **Tamamlandı** olarak ayarlanması gerekir. Bu alani, JobApplicationActivity varlığında bulunmaktadır, böylece PowerApps uygulamasını bu alanı, aşama geçilmeden önce güncelleştirmesi gerekir. Uygulamayı gerekli olarak işaretli değilse, faaliyet isteğe bağlı bir adımdır ve uygulama tamamlanmasa bile aşama ilerleyebilir.
+PowerApps faaliyeti,  Microsoft PowerApps uygulamasını işe alma sürecinize katıştırmanızı sağlar. Uygulama tüm başvuranlar, yalnızca dahili başvuranlar, yalnızca harici başvuranlar veya hiçbir başvuran için gerekli şeklinde ayarlanabilir. Uygulama gerekli olarak işaretlenirse, aşama ileriye taşınmadan önce tamamlanmış olması gerekir. Tamamlandı kabul edilmesi için **JobApplicationStatus** alanının **Tamamlandı** olarak ayarlanması gerekir. Bu alan JobApplicationActivity varlığında bulunmaktadır, böylece PowerApps uygulamasının bu alanı, aşama geçilmeden önce güncelleştirmesi gerekir. Uygulamayı gerekli olarak işaretli değilse, faaliyet isteğe bağlı bir adımdır ve uygulama tamamlanmasa bile aşama ilerleyebilir.
 
-PowerApps faaliyetini işe alma sürecini kaydetmek için bir PowerApps kimliği girmeniz gerekir. PowerApps kimliği bulmak için [PowerApps](https://web.powerapps.com) adresine gidin, **Uygulamalar**'ı, ardından **Ayrıntılar**'ı seçin.
+PowerApps faaliyetini işe alma sürecine kaydetmek için bir PowerApps kimliği girmeniz gerekir. PowerApps kimliğini bulmak için [PowerApps](https://web.powerapps.com) adresine gidin, **Uygulamalar**'ı, ardından **Ayrıntılar**'ı seçin.
 
-Varsayılan olarak, PowerApps etkinliği İşe Alma Yöneticisi, İşe alımcı ve bunların temsilcilerinin erişimine açıktır. **Bu faaliyet için katılımcı eklenmesine izin ver** seçeneğini belirlerseniz PowerApps kullanan bir uygulama için ek katılımcılar işe alma ekibinden eklenebilir. Örneğin, bir kuruluş teknik görevler için bir görüşme sorusu kitaplığı olan PowerApps uygulaması oluşturdu. Kuruluş şimdi yeni bir yazılım geliştirici işe alıyor ve yazılım geliştirici rolü için işe alma işlemine PowerApps faaliyeti ekledi. **Bu faaliyet için katılımcı eklenmesine izin ve** seçeneği işaretliyse, yazılım geliştirici rolüne başvuranı görüntüleyen bir işveren veya işe alma yöneticisi PowerApps faaliyetine mülakatçılar ekleyebilir. Bu kişiler, görüşme soruları olan uygulamayı daha sonra görebilir.
+Varsayılan olarak, PowerApps etkinliği İşe Alma Yöneticisi, İşe Alma Görevlisi ve bunların temsilcilerinin erişimine açıktır. **Bu faaliyet için katılımcı eklenmesine izin ver** seçeneğini belirlerseniz PowerApps faaliyetini kullanan bir uygulama için ek katılımcılar işe alma ekibinden eklenebilir. Örneğin, bir kuruluş teknik görevler için bir görüşme sorusu kitaplığı olan PowerApps uygulaması oluşturdu. Kuruluş şimdi yeni bir yazılım geliştirici işe alıyor ve yazılım geliştirici rolü için işe alma işlemine PowerApps faaliyetini ekledi. **Bu faaliyet için katılımcı eklenmesine izin ver** seçeneği işaretliyse, yazılım geliştirici rolüne başvuranı görüntüleyen bir işveren veya işe alma yöneticisi PowerApps faaliyetine görüşmeciler ekleyebilir. Bu kişiler, görüşme soruları olan uygulamayı daha sonra görebilir.
 
 > [!NOTE]
 > PowerApps faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Kapsamlı Attract işe alma eklentisi özellikleri](./attract-comprehensive-hiring.md).
@@ -76,7 +76,7 @@ Web içeriği faaliyeti, işe alma işlemine çevrimiçi içerik gömmenize olan
 
 ## <a name="microsoft-forms-activity"></a>Microsoft Forms faaliyeti
 
-Microsoft Forms etkinliği, Microsoft Forms formunu işe alma işlemine gömmenizi sağlar. Microsoft Forms testler, anketler ve oylamalar oluşturmanıza olanak tanır. İşe alma işlemine Microsoft Forms faaliyetini kaydetmek için formun URL'sini belirtmeniz gerekir. İçeriği **İşe Alım Ekibi**, **Yalnızca Dahili Adaylar**, **Yalnızca Harici adaylar** veya **Tüm Adaylar** olmak üzere görüntülemeyi seçebilirsiniz. PowerApps, YouTube ve Web içeriği etkinlikleri söz konusu olduğunda, işe alım ekibi katılımcıların faaliyete eklenmesini sağlayabilirsiniz. İçeriği adaylara göstermeyi seçerseniz, form yalnızca aday deneyiminin parçası olarak gösterilir, işe alım sürecinin parçası olarak değil.
+Microsoft Forms etkinliği, Microsoft Forms formunu işe alma işlemine gömmenizi sağlar. Microsoft Forms testler, anketler ve oylamalar oluşturmanıza olanak tanır. İşe alma işlemine Microsoft Forms faaliyetini kaydetmek için formun URL'sini belirtmeniz gerekir. İçeriği **İşe Alım Ekibi**, **Yalnızca Dahili Adaylar**, **Yalnızca Harici adaylar** veya **Tüm Adaylar** olmak üzere görüntülemeyi seçebilirsiniz. PowerApps, YouTube  ve Web içeriği etkinlikleri söz konusu olduğunda, işe alım ekibi katılımcılarının faaliyete eklenmesini sağlayabilirsiniz. İçeriği adaylara göstermeyi seçerseniz, form yalnızca aday deneyiminin parçası olarak gösterilir, işe alım sürecinin parçası olarak değil.
 
 Microsoft Forms'da yazarlar, kurum dışındaki kullanıcıların anket veya testine yanıt verebilmesi için ayarlarını değiştirebilir. Bu durumda, kullanıcılar yanıtlarını anonim olarak gönderir. Anket veya testinizi kimin yaptığını görmek isterseniz yanıtlayanların adlarını anket veya testin bir parçası olarak girmesini isteyebilirsiniz.
 

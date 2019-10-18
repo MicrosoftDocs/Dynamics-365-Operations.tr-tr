@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f03b7fa073c4e5338b7b5681ba7b8c9fe00a657b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 95fe394d22f9fe81511c230a2cf7b8ddf00d896f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875939"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250842"
 ---
 # <a name="work-orders-and-fixed-assets"></a>İş emirleri ve sabit kıymetler
 
@@ -33,7 +33,7 @@ ms.locfileid: "1875939"
 [!include [banner](../../includes/preview-banner.md)]
 
 
-Varlık Yönetiminde, varlıklar sabit kıymetlerle ilişkilendirilebilir ve bu varlıklar için iş emirleri oluşturabilirsiniz. Bu işlevi kullanırsanız, Dynamics 365 for Finance and Operations'da **Proje yönetimi ve muhasebe** modülü ve **Sabit kıymetler** modülündeki sabit kıymetlerin, ilgili yatırım projelerinin ve yatırım projelerine kaydedilen maliyetlerin eksiksiz bir genel bakışını alabilirsiniz.
+Varlık Yönetiminde, varlıklar sabit kıymetlerle ilişkilendirilebilir ve bu varlıklar için iş emirleri oluşturabilirsiniz. Bu işlevi kullanırsanız, **Proje yönetimi ve muhasebe** modülü ve **Sabit kıymetler** modülündeki sabit kıymetlerin, ilgili yatırım projelerinin ve yatırım projelerine kaydedilen maliyetlerin eksiksiz bir genel bakışını görebilirsiniz.
 
 >[!NOTE]
 >**Sabit kıymet numarası** alanı, yalnızca iş emri iş projesinde proje türü olarak "Yatırım" türü seçilirse iş emri iş projesinde doldurulur.

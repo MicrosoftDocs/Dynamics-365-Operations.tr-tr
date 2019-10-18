@@ -1,6 +1,6 @@
 ---
 title: Nakit yönetimi iyileştirmeleri
-description: Bu konu, Dynamics 365 for Retail için POS içindeki nakit yönetimi iyileştirmelerini açıklar.
+description: Bu konu, Dynamics 365 Retail için POS içindeki nakit yönetimi iyileştirmelerini açıklar.
 author: anpurush
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 845cba3b536b0f800b7c7c4eecee46a068ca8cff
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 49d70a8d983bf3475e01f8fcb80d569b13568485
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1630065"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019543"
 ---
 # <a name="cash-management-improvements"></a>Nakit yönetimi iyileştirmeleri
 
@@ -32,9 +32,11 @@ ms.locfileid: "1630065"
 
 Nakit yönetimi fiziksel depolardaki perakendecilere yönelik bir anahtar işlevdir. Perakendeciler mağazalarının, bir mağazadaki farklı kasalara ve kasiyerlerin nakit olarak izlenebilme ve hareket etme sorumlulumının tam olarak sağlanmasına yardımcı olabilecek sistemlere sahip olmasını ister. Her türlü farkı bağdaştırmak ve sorumluluğu belirleyebilmeleri gerekir.
 
- Microsoft Dynamics 365 for Retail satış noktası (POS) uygulamasında nakit yönetimi yeteneklerine sahiptir. Ancak, 10.0.3 sürümünden önceki Retail sürümlerinde, nakit yönetimi işlevselliği mağazalardaki nakit hareketlerinin eksiksiz izlenebilmesini sağlayacak kadar sağlam değildir. Perakendeciler bir mağazanın nakit olarak mutabakat yapabilse de, bir nakit tutarsızlık durumunda sorumluluğu tam olarak belirleyemez.
 
-Microsoft Dynamics 365 for Retail 10.0.3 ve sonraki sürümlerde perakendeciler, nakit işleme için izlenebilirlik kazanacaktır. Takip edilebilirliğin bir parçası olarak, perakendeciler kasalar, iki taraflı nakit hareketleri ve mutabakat sağlama nakit yönetimi hareketleri tanımayabilir.
+Microsoft Dynamics 365 Retail satış noktası (POS) uygulamasında nakit yönetimi yeteneklerine sahiptir. Ancak, 10.0.3 sürümünden önceki Retail sürümlerinde, nakit yönetimi işlevselliği mağazalardaki nakit hareketlerinin eksiksiz izlenebilmesini sağlayacak kadar sağlam değildir. Perakendeciler bir mağazanın nakit olarak mutabakat yapabilse de, bir nakit tutarsızlık durumunda sorumluluğu tam olarak belirleyemez.
+
+
+Retail 10.0.3 ve sonraki sürümlerde perakendeciler, nakit işleme için izlenebilirlik kazanacaktır. Takip edilebilirliğin bir parçası olarak, perakendeciler kasalar, iki taraflı nakit hareketleri ve mutabakat sağlama nakit yönetimi hareketleri tanımayabilir.
 
 ## <a name="set-up-traceability-and-define-safes"></a>İzlenebilirliği ayarla ve güvenliği tanımla
 

@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent - Onboard kullanarak işe alım süreci kılavuzu oluşturma ve gönderme
-description: Bu konu, yeni işe alım kılavuzu oluşturmak üzere Microsoft Dynamics 365 for Talent - Onboard uygulamasının nasıl kullanılacağını açıklamaktadır. Bu görev, insan sermaye yönetimi (HCM) için işe alma stratejisindeki temel bir ilk adımdır.
+title: Dynamics 365 Talent - Onboard'u kullanarak işe alım ve alıştırma süreci kılavuzu oluşturup gönderme
+description: Bu konuda yeni işe alım ve alıştırma kılavuzu oluşturmak için Microsoft Dynamics 365 Talent - Onboard uygulamasının nasıl kullanılacağı açıklanmaktadır. Bu görev, insan sermaye yönetimi (HCM) için işe alma stratejisindeki temel bir ilk adımdır.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: de5d584e3b7edba2751aa0c83b0465df2c3e4f7d
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: e4dbfcc3b3fd611eea36109a516a7b9361a9f654
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731682"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009866"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-for-talent-onboard"></a>Dynamics 365 for Talent: Onboard kullanarak işe alım süreci kılavuzu oluşturma ve gönderme
+# <a name="create-and-send-an-onboarding-guide"></a>İşe alım süreci kılavuzu oluşturma ve gönderme
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onbord, yerleşik kendi oluşturduğunuz şablonlardan, bir galerideki şablonlardan veya sıfırdan iş alım kılavuzları oluşturmanıza olanak sağlar.
+Microsoft Dynamics 365 Talent: Onboard; kendi oluşturduğunuz şablonlardan, bir galeride bulunan şablonlardan veya sıfırdan iş alım ve alıştırma kılavuzları oluşturmanıza olanak tanır.
 
 Bir ekleme kılavuzu oluşturduktan sonra, bunu yeni bir işe alıma gönderebilirsiniz. Alternatif olarak, Onboard uygulamasından yüklediğiniz bir Microsoft Excel dosyada belirttiğiniz birden çok yeni işe alınana gönderebilirsiniz.
 

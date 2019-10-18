@@ -1,6 +1,6 @@
 ---
 title: Satış noktasında (POS) ürün arama ve müşteri arama
-description: Bu konu Microsoft Dynamics 365 for Retail içinde ürün ve müşteri arama özelliğinde yapılmış olan iyileştirmeler hakkında genel bakış sağlar.
+description: Bu konu Dynamics 365 Retail içinde ürün ve müşteri arama özelliğinde yapılmış olan iyileştirmeler hakkında genel bakış sağlar.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 60db9e9936f7728d76f5c7a0d0c31b33477c7c61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625654"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023706"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Satış noktasında (POS) ürün arama ve müşteri arama
 
@@ -99,7 +99,10 @@ Geleneksel müşteri arama birden çok alanda arama yaptığından zaman alabili
 
 ![Müşteri arama kısayolları](./media/SearchShortcutsPOS.png "Müşteri arama kısayolları")
 
-Arama ölçütlerini kısayol olarak belirlemek için yöneticinin Microsoft Dynamics 365 for Finance and Operations'da **Perakende parametreleri** sayfasını açması ve **POS arama ölçütü**, sekmesinde kısayol olarak gösterilecek tüm ölçütleri seçmesi gerekir.
+
+
+Arama ölçütlerini kısayol olarak belirlemek için yöneticinin Microsoft Dynamics 365 Retail'da **Perakende parametreleri** sayfasını açması ve **POS arama ölçütü** sekmesinde kısayol olarak gösterilecek tüm ölçütleri seçmesi gerekir.
+
 
 ![Arama kısayollarını yapılandırma](./media/ConfigureShortcutsAX.png "Arama kısayollarını yapılandırma")
 
@@ -111,6 +114,6 @@ Arama ölçütlerini kısayol olarak belirlemek için yöneticinin Microsoft Dyn
 > [!NOTE]
 > Enuma eklenen özel bir özellik standart müşteri arama algoritmasını etkilemez. Başka bir deyişle, müşteri arama algoritması özel özellikte arama yapmaz. Kullanıcılar yalnızca o özel özellik kısayol olarak eklenirse veya varsayılan arama algoritması geçersiz kılınırsa aramalar için özel bir özellik kullanabilir.
 
-Yaklaşan bir Microsoft Dynamics 365 for Retail sürümünde perakendeciler **Tüm mağazalarda arama** yapmak için POS'ta varsayılan müşteri arama modunu ayarlayabilecektir. Bu yapılandırma, POS dışında oluşturulan müşterilerin hemen aranması (örneğin, dağıtım işi çalıştırılmadan önce) için doğrudan arama yapılması gereken senaryolarda yardımcı olabilir. POS işlevsellik profilinde yeni bir **Varsayılan müşteri arama modu** seçeneği mevcut olacaktır. Tüm depolarda arama yapmak için **varsayılan arama modu**'nu ayarlamak üzere **açık** olarak ayarlayın. Her müşteri arama denemesinde, yönetim merkezine gerçek zamanlı bir çağrı yapılır.
+Yaklaşan bir Retail sürümünde perakendeciler, **Tüm mağazalarda arama** yapmak için POS'ta varsayılan müşteri arama modunu ayarlayabilecektir. Bu yapılandırma, POS dışında oluşturulan müşterilerin hemen aranması (örneğin, dağıtım işi çalıştırılmadan önce) için doğrudan arama yapılması gereken senaryolarda yardımcı olabilir. POS işlevsellik profilinde yeni bir **Varsayılan müşteri arama modu** seçeneği mevcut olacaktır. Tüm depolarda arama yapmak için **varsayılan arama modu**'nu ayarlamak üzere **açık** olarak ayarlayın. Her müşteri arama denemesinde, yönetim merkezine gerçek zamanlı bir çağrı yapılır.
 
 Beklenmedik performans sorunlarının engellenmesine yardımcı olmak için, bu yapılandırma **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING** adında bir deneme bayrağı arkasında gizlenir. Bu nedenle, kullanıcı arayüzünü (UI) ayarlayarak **Varsayılan müşteri arama modu**'nu göstermek için, satıcı kullanıcı kabul testi (UAT) ve üretim ortamları için bir destek bileti oluşturmalıdır. Bilet alındıktan sonra, mühendislik ekibi, perakendecinin, performansı değerlendirmek ve gereken tüm değerlendirmeleri uygulamak için üretim dışı ortamlarında test yapmasını sağlamak üzere perakendeciyle birlikte çalışacaktır.

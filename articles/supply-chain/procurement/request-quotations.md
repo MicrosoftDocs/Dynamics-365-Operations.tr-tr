@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2276f5296a77d620e0084c0247b1e25071fe029
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: bb5255236fc48132d4d68dc6f515f32e7ec71dae
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865292"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248855"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Teklif taleplerine (RFQ'lar) genel bakış
 
@@ -48,7 +48,7 @@ Planlanan siparişlerden, satınalma talebinden veya el ile yapılan bir girişt
 
 RFQ servis talebini hazırlayıp satıcıları ekledikten sonra RFQ servis talebinde **Gönder**'i (Kamu sektörü için **Gönder ve yayımla**) seçin. RFQ gönderdiğiniz her satıcı için bir RFQ günlüğü oluşturulur. Gönder eylemi için Yazdırma seçeneklerini her satıcı için arşive gönderilecek bir rapor yazdıracak veya her satıcının e-posta adresine bir rapor gönderecek şekilde ayarlayabilirsiniz. Ayrıca, her satıcıya ilişkin RFQ günlüğü, satıcıya daha sonra gönderebileceğiniz veya yeniden gönderebileceğiniz bir rapor oluşturmak için kullanılabilir. Gönder eylemini, satıcının dolduracağı bir yanıt sayfası oluşturmak için de yapılandırabilirsiniz.
 
-Bu konu, satıcı işbirliği kullanılmadığında RFQ'ların işlenmesine ilişkin süreci kapsar. Sisteminiz satıcı işbirliği için ayarlanmamışsa, satıcılar tekliflerini doğrudan Microsoft Dynamics 365 for Finance and Operations içine girebilir. Daha fazla bilgi için bkz. [Harici müşterilerle satıcı işbirliği](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ve [Harici satıcılarla satıcı işbirliği](vendor-collaboration-work-external-vendors.md).
+Bu konu, satıcı işbirliği kullanılmadığında RFQ'ların işlenmesine ilişkin süreci kapsar. Sisteminiz satıcı işbirliği için ayarlanmamışsa, satıcılar tekliflerini doğrudan Supply Chain Management'ta girebilir. Daha fazla bilgi için bkz. [Harici müşterilerle satıcı işbirliği](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ve [Harici satıcılarla satıcı işbirliği](vendor-collaboration-work-external-vendors.md).
 
 Gönderdikten sonra bir RFQ'da düzeltme yapmanız gerekirse, RFQ'yu işleminizi tamamladıktan sonra satıcılara iki düzeltme eylemini kullanarak gönderebilirsiniz: Oluştur ve Sonlandır.+
 
@@ -56,14 +56,11 @@ Teklifleri e-posta ile aldığınızda, bunları **Teklif talepleri** sayfasınd
 
 Bir satıcıdan gelen yanıtın ikinci defa yinelenmesi gerekirse, **Teklif talebi** sayfasında **İade et**'e tıklayın. İade eylemi yeni bir günlük oluşturur ve Yazdırma ayarlarınıza göre bir rapor yazdırılır, arşivlenir ve gönderilir.
 
-> [!NOTE]
-> **Teklif talebi** sayfasının adı değiştirilmiştir. Dynamics 365 for Finance and Operations daha erken sürümlerinde, bu sayfa **Teklif talebi yanıtları** olarak adlandırılmıştı.
-
 RFQ servis talebine puanlama ölçütü eklediyseniz, RFQ'da puanlama girebileceğiniz bir puanlama paneli bulunur. **Yanıtları karşılaştır** sayfasında yanıtları karşılaştırdığınızda toplam puanlar RFQ'da görüntülenir. **Yanıtları karşılaştır** sayfasında satır fiyatı, toplam fiyat ve teslimat tarihi gibi diğer yanıt verilerini de karşılaştırabilirsiniz.
 
 Bir teklifi veya bir teklifteki birçok satırı seçtikten sonra tüm veya bazı satırları kabul edip geri kalanları reddedebilirsiniz. Kabul etme günlükleri, reddetme günlükleri ve ilgili raporlar oluşturulur ve Yazdırma ayarlarınıza göre yazdırılır, arşivlenir ve gönderilir. Bir teklifi veya bir teklifteki belirli satırları kabul ettiğinizde, bir satınalma anlaşması veya satınalma siparişi oluşturulur ya da RFQ satınalma türüne göre satınalma talebi güncelleştirilir. Kabul edip etmediğinize bakılmaksızın, herhangi bir yanıt için daha sonra kullanabileceğiniz bir ticari anlaşma oluşturabilirsiniz.
 
-RFQ servis talebinin iki durumu bulunur: en düşük ve en yüksek. Durumu **Tüm teklif talepleri** liste sayfasında görebilirsiniz. En düşük durum RFQ servis talebindeki herhangi bir satırın en az gelişmiş aşamasıdır; en yüksek durum RFQ servis talebindeki herhangi bir satırın en ileri aşamasıdır. Örneğin, üç satırı olan bir RFQ servis talebinin iki satıcıya gönderilmesi durumunda her birinde üç satır olan iki RFQ bulunur.  Tüm satırlar **Gönderildi**. Şimdi satıcılardan biri tarafından bir teklif girilir ve RFQ satırları **Alındı** durumunu alır. Bu, RFQ servis talebindeki üç satırın tümünün bir RFQ için **Gönderildiği** ve diğer RFQ için **Alındığı** anlamına gelir. En düşük durum **Gönderildi** ve en yüksek durum **Alındı** olacaktır.
+RFQ servis talebinin iki durumu bulunur: en düşük ve en yüksek. Durumu **Tüm teklif talepleri** liste sayfasında görebilirsiniz. En düşük durum RFQ servis talebindeki herhangi bir satırın en az gelişmiş aşamasıdır; en yüksek durum RFQ servis talebindeki herhangi bir satırın en ileri aşamasıdır. Örneğin, üç satırı olan bir RFQ servis talebinin iki satıcıya gönderilmesi durumunda her birinde üç satır olan iki RFQ bulunur. Tüm satırlar **Gönderildi**. Şimdi satıcılardan biri tarafından bir teklif girilir ve RFQ satırları **Alındı** durumunu alır. Bu, RFQ servis talebindeki üç satırın tümünün bir RFQ için **Gönderildiği** ve diğer RFQ için **Alındığı** anlamına gelir. En düşük durum **Gönderildi** ve en yüksek durum **Alındı** olacaktır.
 
 Bu durumlar, bu konuda daha ayrıntılı açıklanacaktır.
 

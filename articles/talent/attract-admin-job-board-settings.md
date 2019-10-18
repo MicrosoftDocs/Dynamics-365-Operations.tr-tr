@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent - Attract'ta Broadbean tümleştirmeyi etkinleştir
-description: Bu konu, Microsoft Dynamics 365 for Talent - Attract'ı işleri Broadbean gibi harici iş panolarına gönderecek şekilde konfigüre etme yöntemini açıklamaktadır.
+title: Microsoft Dynamics 365 Talent - Attract'ta Broadbean tümleştirmesini etkinleştirme
+description: Bu konu, Microsoft Dynamics 365 Talent - Attract'ı işleri Broadbean gibi harici iş panolarına gönderecek şekilde yapılandırma yöntemini açıklamaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2334c2bd0edccf3000f8d91651afafd4619ad0b8
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 808f91fb4b68ba9b5cee54d86423d23232df23a4
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739691"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008605"
 ---
 # <a name="enable-broadbean-integration"></a>Broadbean tümleştirmesini etkinleştirme
 
 [!include[banner](../includes/banner.md)]
 
-Açık pozisyonlarınızı olabildiğince fazla kalifiye adayın önüne sunmak istersiniz. Broadbean gibi işe alma siteleri bu hedefinizi gerçekleştirmeye yardımcı olur. Microsoft Dynamics 365 for Talent: Attract, şimdi Broadbean'e iş ilanları vermenize olanak sağlar ve Microsoft düzenli olarak bu alanda yeni olanaklar sağlar.
+Açık pozisyonlarınızı olabildiğince fazla kalifiye adayın önüne sunmak istersiniz. Broadbean gibi işe alma siteleri bu hedefinizi gerçekleştirmeye yardımcı olur. Microsoft Dynamics 365 Talent: Attract, şimdi Broadbean'e iş ilanları vermenize olanak sağlıyor ve Microsoft düzenli olarak bu alanda yeni olanaklar sunuyor.
 
 > [!NOTE]
 > - Harici sitelere iş ilanı verebilmek için [Kapsamlı işe alma eklentisine](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) sahip olmanız gerekir.

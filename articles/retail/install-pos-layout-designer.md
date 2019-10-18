@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 98784c11c7393bb4c3e022d5bff4cca2daa1636e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572092"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025470"
 ---
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Retail satış noktası (POS) düzeni tasarımcısını yükleme
 
@@ -36,11 +36,11 @@ MPOS veya Bulut POS için grafik tasarım arabirimi kasa düzeni tarafından kon
 
 ## <a name="install-the-one-click-designer"></a>Tek işlemli tasarımcıyı yükleme
 
-1. Microsoft Dynamics 365 for Retail'da **Perakende** **ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS** &gt; **Ekran düzenleri**'ne gitmek için sol üstteki menüyü kullan.
+1. Retail bölümünde **Retail** **ve ticaret** &gt; **Kanal ayarı** &gt; **POS ayarı** &gt; **POS** &gt; **Ekran düzenleri**'ne gitmek için sol üst kısımdaki menüyü kullanın.
 2. **Windows için Modern POS** veya **Bulut POS** uygulama türü olan herhangi bir düzeni seçin **Düzen tasarımcısı**'na tıklayın.
 3. Internet Explorer penceresinin altında beliren bildirim çubuğunda, tek işlemli tasarımcıyı yüklemeye başlamak için **Aç** öğesine tıklayın. (Bildirim çubuğu diğer tarayıcılarda farklı bir yerde görünebilir.)
 4. Beliren **Uygulama Çalıştırma - Güvenlik Uyarısı** iletişim kutusunda Perakende tasarımcısı ana bilgisayarını yüklemek için **Çalıştır** öğesine tıklayın. İlerleme göstergesi, yüklemenin ilerleyişini gösterir.
-5. Kurulum tamamlandıktan sonra, tasarımcıyı başlatmak için Microsoft Dynamics 365 for Retail, **Oturum açma** sayfasında kullanıcı adınızı ve parolanızı girip **Oturum aç** tuşuna tıklayın.
+5. Kurulum tamamlandıktan sonra tasarımcıyı başlatmak için **Oturum açma** sayfasında Retail kullanıcı adınızı ve parolanızı girdikten sonra **Oturum aç**'a tıklayın.
 6. Bilgileriniz doğrulandıktan ve tasarımcı başlatıldıktan sonra, kendi düzeninizi tasarlayabilir veya mevcut bir düzeni değiştirebilirsiniz.
 
     [![Tek işlemli tasarımcıda düzen](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
@@ -52,11 +52,11 @@ MPOS veya Bulut POS için grafik tasarım arabirimi kasa düzeni tarafından kon
     **Çözümler:**
 
     - Internet Explorer'da bu site için açılır pencere engelleyicisinin devre dışı bırakıldığından emin olun. **Ayarlar** &gt; **Seçenekler** &gt; **Gizlilik** &gt; **Açılır Pencere Engelleyicisini Bul**'a tıklayın ve değişiklik gerekiyorsa ayarı değiştirin.
-    - Internet Explorer içinde, Dynamics 365 for Retail URL'sini güvenilir sitelerinize ekleyin. **Ayarlar** &gt; **Seçenekler** &gt; **Güvenlik** &gt; **Güvenilen siteler** &gt; **Siteler** &gt; **Ekle**'yi tıklayın.
+    - Internet Explorer'da Retail URL'sini güvenilir sitelerinize ekleyin. **Ayarlar** &gt; **Seçenekler** &gt; **Güvenlik** &gt; **Güvenilen siteler** &gt; **Siteler** &gt; **Ekle**'yi tıklayın.
 
 - Program başlamıyor ve satıcıyla iletişim kurmanız talimatı verildi.
 
-    **Çözüm:** Internet Explorer içinde, Dynamics 365 for Retail URL'sini güvenilir sitelerinize ekleyin. **Ayarlar** &gt; **Seçenekler** &gt; **Güvenlik** &gt; **Güvenilen siteler** &gt; **Siteler** &gt; **Ekle**'yi tıklatın.
+    **Çözüm:** Internet Explorer'da Retail URL'sini güvenilir sitelerinize ekleyin. **Ayarlar** &gt; **Seçenekler** &gt; **Güvenlik** &gt; **Güvenilen siteler** &gt; **Siteler** &gt; **Ekle**'yi tıklatın.
 
 **Bilinen sorun:** Tasarımcı Google Chrome ve Mozilla Firefox tarayıcılarında düzgün çalışmıyor. Bu sorunu düzeltmek için çalışıyoruz.
 

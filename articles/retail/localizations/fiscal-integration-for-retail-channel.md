@@ -1,6 +1,6 @@
 ---
 title: Perakende kanalları için mali tümleştirme genel bakışı
-description: Bu konu, Microsoft Dynamics 365 for Retail içinde kullanılabilen mali tümleştirme yeterliliklerine genel bakış sağlar.
+description: Bu konu, Dynamics 365 Retail içinde kullanılabilen mali tümleştirme yeterliliklerine genel bakış sağlar.
 author: josaw
 manager: annbe
 ms.date: 02/01/2019
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516250"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025419"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Perakende kanalları için mali tümleştirme genel bakışı
 
@@ -30,13 +30,13 @@ ms.locfileid: "1516250"
 
 ## <a name="introduction"></a>Giriş
 
-Bu konu, Microsoft Dynamics 365 for Retail içinde kullanılabilen mali tümleştirme yeterliliklerine bir genel bakıştır. Mali tümleştirme, perakende satışların yerel mali yasalar ile mali kaydını etkinleştiren ve perakende sektöründe veri kaçakçılığını önlemeyi amaçlayan çeşitli mali cihazlar ve servisler ile tümleştirmedir. Mali tümleştirme ile kapsanabilecek bazı tipik senaryolar şunlardır:
+Bu konu, Dynamics 365 Retail içinde kullanılabilen mali tümleştirme yeterliliklerine bir genel bakıştır. Mali tümleştirme, perakende satışların yerel mali yasalar ile mali kaydını etkinleştiren ve perakende sektöründe veri kaçakçılığını önlemeyi amaçlayan çeşitli mali cihazlar ve servisler ile tümleştirmedir. Mali tümleştirme ile kapsanabilecek bazı tipik senaryolar şunlardır:
 
 - Perakende satış noktası (POS) ile bağlantılı bir mali cihazda bir perakende satışı kaydetmek, örneğin mali yazıcı gibi ve müşteriye bir mali giriş yazdırmak.
 - Retail POS içinde tamamlanan satışlar ve iadeler için veri dairesi tarafından işletilen harici bir web hizmetine güvenli bir biçimde bilgi göndermek.
 - Dijital imzalar kullanarak satış hareketlerini değiştirilememesini garanti etmek.
 
-Perakende içindeki mali tümleştirme işlevi, Retail POS ve mali cihazlar ve servisler arasındaki tümleştirmeyi daha da geliştirmek ve özelleştirmek için ortak çözüm sağlayan bir çerçevedir. Bu işlev, belirli ülkeler ve bölgeler için temel perakende senaryolarını destekleyen mali tümleştirme örnekleri de içerir ve belirli mali cihazlar ve servisler ile çalışır. Mali tümleştirme örneği, Perakende bileşenlerinin çeşitli eklentilerinden oluşur ve Perakende yazılım geliştirme paketine (SDK) dahildir. Perakende SDK içinde kullanılabilen mali tümleştirme örnekleri hakkında daha fazla bilgi için bkz. [Perakende SDK içindeki mali tümleştirme örnekler](#fiscal-integration-samples-in-the-retail-sdk). Perakende SDK'yı yüklemek ve kullanmak hakkında daha fazla bilgi için bkz. [Perakende SDK genel bakışı](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Mali tümleştirme işlevi, Retail POS ve mali cihazlar ve servisler arasındaki tümleştirmeyi daha da geliştirmek ve özelleştirmek için ortak çözüm sağlayan bir çerçevedir. Bu işlev, belirli ülkeler ve bölgeler için temel perakende senaryolarını destekleyen mali tümleştirme örnekleri de içerir ve belirli mali cihazlar ve servisler ile çalışır. Mali tümleştirme örneği, Perakende bileşenlerinin çeşitli eklentilerinden oluşur ve yazılım geliştirme paketine (SDK) dahildir. Mali tümleştirme örnekleri hakkında daha fazla bilgi için bkz. [Retail SDK'da mali tümleştirme örnekleri](#fiscal-integration-samples-in-the-retail-sdk). Perakende SDK'yı yüklemek ve kullanmak hakkında daha fazla bilgi için bkz. [Perakende SDK genel bakışı](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Mali tümleştirme örneği tarafından desteklenmeyen diğer senaryoları desteklemek için, Retail POS'u diğer mali cihazlar ve hizmetlerle tümleştirmek veya diğer ülke ve bölgelerin gereksinimlerini karşılamak için mevcut mali tümleştirme örneğini genişletmeniz veya mevcut bir örneği örnek olarak kullanarak yeni bir örnek oluşturmanız gerekir.
 
@@ -44,7 +44,7 @@ Mali tümleştirme örneği tarafından desteklenmeyen diğer senaryoları deste
 
 Retail POS mali kayıt işleminde bir veya birden çok adımdan oluşur. Her adım belirli mali hareketlerin veya etkinliklerin bir mali cihaz veya serviste mali kaydını içerir. Aşağıdaki çözüm bileşenleri, bir Donanım istasyonuna bağlı olan bir mali cihazdaki mali kayıtta yer alır:
 
-- **Ticaret çalışma zamanı (CRT) uzantısı** – Bu bileşen, perakende hareket/etkinlik verisini mali cihaz ile etkileşimde de kullanılan biçimde serileştirir, mali cihazdan gelen yanıtları ayrıştırır ve yanıtları kanal veritabanına kaydeder. Uzantı, kaydedilmesi gereken belirli hareketleri ve etkinlikleri de tanımlar. Bu bileşen genellikle *mali belge sağlayıcısı* olarak adlandırılır.
+- **Commerce Runtime (CRT) uzantısı** – Bu bileşen, perakende hareket/etkinlik verisini mali cihaz ile etkileşimde de kullanılan biçimde serileştirir, mali cihazdan gelen yanıtları ayrıştırır ve yanıtları kanal veritabanına kaydeder. Uzantı, kaydedilmesi gereken belirli hareketleri ve etkinlikleri de tanımlar. Bu bileşen genellikle *mali belge sağlayıcısı* olarak adlandırılır.
 - **Donanım istasyonu uzantısı** - Bu bileşen, mali cihaz ile iletişimi başlatır, talepleri ve doğrudan komutları mali cihaza, mali belgeden çıkartılan perakende hareketi/etkinlik verisine dayanarak gönderir ve mali cihazdan gelen yanıtları alır. Bu bileşen genellikle *mali bağlayıcı* olarak adlandırılır.
 
 Bir mali cihaz için mali tümleştirme örneği, bir mali belge sağlayıcısı ve bir mali bağlayıcı ile sırasıyla CRT ve Donanım istasyonlarının uzantılarını içerir. Ayrıca aşağıdaki yapılandırma bileşeni içerir:
@@ -56,7 +56,7 @@ Belirli bir POS kaydı için bir mali kayıt işlemi, POS işlev profilindeki ka
 
 Aşağıdaki örnek tipik mali kayıt yürütme akışı mali bir aygıtı gösterir. Akışı POS içindeki (örneğin, bir satış hareketi sonlandırma) bir etkinlik ile başlar ve aşağıdaki sıralı adımları uygular:
 
-1. POS, CRT'ten bir mali belge talep eder.
+1. POS, CRT'den bir mali belge talep eder.
 2. CRT, geçerli etkinliğin mali kayıt gerektirip gerektirmediğini belirler.
 3. Mali kayıt işlemi ayarlarına dayalı olarak, CRT bir mali bağlayıcıyı ve mali kayıt için kullanılacak karşılık gelen mali belge sağlayıcısını belirler.
 4. CRT, bir mali hareket veya etkinliği temsil eden bir mali belge oluşturan mali belge sağlayıcısını çalıştırır (ör. bir XML belgesi).
@@ -132,7 +132,7 @@ Mali tümleştirme işlevselliği, tümleştirilmiş mali cihaz veya hizmete ili
 
 ## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Retail SDK'daki mali tümleştirme örnekleri
 
-Aşağıdaki mali tümleştirme örnekleri Perakende ile yayımlanmış Perakende SDK içerisinde şu anda kullanılabilir:
+Aşağıdaki mali tümleştirme örnekleri Retail SDK içerisinde şu anda kullanılabilir:
 
 - [İtalya için yazar kasa tümleştirme örneği](emea-ita-fpi-sample.md)
 - [Polonya için yazar kasa tümleştirme örneği](emea-pol-fpi-sample.md)

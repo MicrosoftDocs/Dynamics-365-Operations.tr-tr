@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570400"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248946"
 ---
 # <a name="purchase-agreements"></a>Satınalma sözleşmeleri
 
@@ -78,7 +78,7 @@ Bir satınalma sözleşmesini teyit ettiğinizde bu satınalma sözleşmenin ge�
 Bir satınalma siparişi oluşturduğunuzda buna bir satın alma sözleşmesi uygulayabilirsiniz. Ödeme koşulları, teslim koşulları ve teslim adresi gibi anlaşmadan koşullarından gelen bilgiler sonra satınalma siparişi başlığına kopyalanır. Satınalma siparişi, ürünler veya anlaşma kapsamında olan kategoriler için bir veya daha fazla satır içeriyorsa, satınalma sözleşmesindeki fiyatlar ve iskontolar bu satırlar için kullanılır. Sipariş satırı üzerindeki miktar ya da tutar, satınalma sözleşmesindeki taahhüdün yerine getirilmesine katkıda bulunur. Aynı satınalma siparişi hem bir satın alma sözleşmesi için ilişkili olmayan satırlar hem de satın alma sözleşmesi için bir taahhüdü olan satırları içerebilir.  
 
 Bir satınalma sözleşmesini sadece bir satınalma siparişi oluştururken seçebilirsiniz. Satınalma siparişi oluşturulduktan sonra bir satınalma sözleşmesi seçemezsiniz.  
-Satınalma siparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda, Finance and Operations'ın uygun satınalma sözleşmelerini otomatik olarak arayıp aramayacağını kontrol edebilirsiniz. Örneğin bunu planlanan satınalma siparişlerinin kesinleştirmesini yaptığınızda ya da satış siparişlerine dayanan satınalma siparişleri oluşturduğunuzda yapabilirsiniz.
+Satınalma siparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda, Supply Chain Management'ın uygun satınalma sözleşmelerini otomatik olarak arayıp aramayacağını kontrol edebilirsiniz. Örneğin bunu planlanan satınalma siparişlerinin kesinleştirmesini yaptığınızda ya da satış siparişlerine dayanan satınalma siparişleri oluşturduğunuzda yapabilirsiniz.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Satınalma sözleşmeleri ve şirketlererası ticaret
 Şirketlerarası ticaret ilişkileri, farklı tüzel kişilikler arasında olan satıcı hesapları ve müşteri hesapları arasında oluşturulabilir. Taraflardan biri için bir satış siparişi ya da satınalma siparişi oluşturulduğunda, bir şirketlerarası sipariş zinciri oluşturulur. Sipariş zinciri içinde satış siparişi ve satınalma siparişleri uygun tüzel kişilikler içinde oluşturulur.  

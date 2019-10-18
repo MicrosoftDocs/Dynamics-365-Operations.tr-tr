@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent - Attract'tan LinkedIn'e iş yayınlama
-description: Bu konu, LinkedIn'e Dynamics 365 for Talent - Attract kullanarak ilan vermeyi açıklar.
+title: Microsoft Dynamics 365 Talent - Attract LinkedIn'e iş yayınlama
+description: Bu konu, LinkedIn'e Dynamics 365 Talent - Attract kullanarak ilan vermeyi açıklar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756188"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008255"
 ---
 # <a name="post-jobs-to-linkedin"></a>LinkedIn'de iş ilanları yayınlama
 
 [!include [banner](../includes/banner.md)]
 
-LinkedIn, dünyanın en iyi yeteneğine erişmenizi sağlayan en büyük çevrimiçi profesyonel ağdır. Microsoft Dynamics 365 for Talent: Attract, işlerinizi doğrudan Attract'tan LinkedIn'e nakletmenize izin vererek gereksinim duyduğunuz yetenekleri elde etmenize yardımcı olur.
+LinkedIn, dünyanın en iyi yeteneğine erişmenizi sağlayan en büyük çevrimiçi profesyonel ağdır. Microsoft Dynamics 365 Talent: Attract, işlerinizi doğrudan Attract'tan LinkedIn'de yayınlamanıza izin vererek gereksinim duyduğunuz yetenekleri elde etmenize yardımcı olur.
 
 Attract, Sınırlı Listelemeleri ek ücret içermeyen LinkedIn'e nakletmenize izin verir. Bu listelemeler yalnızca, Attract gibi LinkedIn yazılım ortakları aracılığıyla kullanılabilir. Şirketin LinkedIn sayfasındaki **kariyer** panelinde görünmezler, yalnızca ücretli listelerin orada göründüğü için bunlar burada görünmez. Ancak, olası adaylar tüm kullanılabilir işleri görüntülerken görüntülenir. Sınırlı Listelemeler LinkedIn iş aramalarında da gösterilir.
 

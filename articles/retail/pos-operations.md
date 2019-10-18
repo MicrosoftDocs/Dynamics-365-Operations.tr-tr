@@ -1,6 +1,6 @@
 ---
 title: Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
-description: Bu konu, Microsoft Dynamics 365 for Retail içinde satış noktası (POS operasyonları hakkında bilgi verir). Uygulamada işlemlerin nereden çağrılabileceğini ve çevrimdışı modda kullanılabilir olup olmadığını belirtir.
+description: Bu konu, Dynamics 365 Retail içinde satış noktası (POS operasyonları hakkında bilgi verir). Uygulamada işlemlerin nereden çağrılabileceğini ve çevrimdışı modda kullanılabilir olup olmadığını belirtir.
 author: jblucher
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,22 +18,22 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: fcb933438ec30ebe6d3b499b53e64c58ecec3626
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625677"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025322"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
 [!include [banner](includes/banner.md)]
 
-Kullanıcının satış noktasında (POS) gerçekleştirdiği çoğu eylem işlem olarak kabul edilir. Operasyonlar Microsoft Dynamics 365 for Retail arka ofiste yapılandırılır ve yönetilir. Çoğu işlem POS düğme grubundaki düğmelere eklenebilir. Kullanıcılar daha sonra işlemleri başlatmak ve işlevlerini gerçekleştirmek için düğmeleri seçebilir. Diğer işlemler ana POS uygulamasının parçalarıdır ve ekran düğmeleri veya diğer iş akışları veya süreçleri tarafından başlatılır.
+Kullanıcının satış noktasında (POS) gerçekleştirdiği çoğu eylem işlem olarak kabul edilir. Operasyonlar Dynamics 365 Retail arka ofiste yapılandırılır ve yönetilir. Çoğu işlem POS düğme grubundaki düğmelere eklenebilir. Kullanıcılar daha sonra işlemleri başlatmak ve işlevlerini gerçekleştirmek için düğmeleri seçebilir. Diğer işlemler ana POS uygulamasının parçalarıdır ve ekran düğmeleri veya diğer iş akışları veya süreçleri tarafından başlatılır.
 
-Aşağıdaki tablo, Retail Modern POS ve Dynamics 365 for Retail için Bulut POS'ta bulunan operasyonlar hakkında ayrıntıları sağlar. Tablo uygulamada işlemlerin nereden çağrılabileceğini ve POS çevrimdışı moddayken kullanılabilir olup olmadığını da belirtir.
+Aşağıdaki tabloda, Retail Modern POS ve Bulut POS'ta bulunan operasyonlar hakkındaki ayrıntılar sunulmaktadır. Tablo uygulamada işlemlerin nereden çağrılabileceğini ve POS çevrimdışı moddayken kullanılabilir olup olmadığını da belirtir.
 
-Bazı operasyonlar şu anda Retail Modern POS veya Dynamics 365 for Retail için Bulut POS içinde kullanılabilir değildir. Bu işlemlerin bazıları bölgeye özgü işlemlerdir ve ek uzantılar ve yapılandırma gerektirir. Bazıları ise Microsoft Dynamics AX 2012'den gelen ve şu an desteklenmeyen özelliklerdir.
+Bazı operasyonlar, şu anda Retail Modern POS veya Bulut POS'ta kullanılamamaktadır. Bu işlemlerin bazıları bölgeye özgü işlemlerdir ve ek uzantılar ve yapılandırma gerektirir. Bazıları ise Microsoft Dynamics AX 2012'den gelen ve şu an desteklenmeyen özelliklerdir.
 
 Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 
@@ -42,7 +42,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 - **Karşılama ekranı**: İşlem POS karşılama ekranı üzerinde yapılandırılmış olan POS düğme gruplarından çağrılabilir.
 
 > [!NOTE]
-> Aşağıda listelenen işlemler Dynamics 365 for Retail'in en son sürümü için geçerlidir. Bazı işlemler değişmiş veya önceki sürümlerde bulunmuyor olabilir.
+> Aşağıda listelenen işlemler, Retail'ın en son sürümü için geçerlidir. Bazı işlemler değişmiş veya önceki sürümlerde bulunmuyor olabilir.
 
 | Kod | Operasyon | Tanım | Düğme grubu | Hareket ekranı | Hoş geldiniz ekranı | Çevrimdışı kullanılabilir | Konuma özgü |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|

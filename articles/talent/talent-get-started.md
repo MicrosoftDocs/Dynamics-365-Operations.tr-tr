@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 0993119de785d5e3826075778c018bdfa50071e2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519337"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024264"
 ---
 # <a name="get-started-with-talent"></a>Talent kullanmaya başlama
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent'ta kullanıcı arabirimini değiştirmek ve seçenekleri yazılımı ihtiyaçlarınızı en iyi şekilde karşılayacak şekilde ayarlamak kolaydır. Bu konu, kullanıcı arabirimini nasıl tercihlerinize uygun hale getirebileceğinizle ilgili bilgiler sunan konulara bağlantılar içerir. Bu konu ayrıca sistem içinde bilgileri etkin ve doğru şekilde bulmanıza yardımcı olabilecek bilgiler de içerir. 
+Microsoft Dynamics 365 Talent'ta kullanıcı arabirimini değiştirmek ve seçenekleri yazılımı ihtiyaçlarınızı en iyi şekilde karşılayacak şekilde ayarlamak kolaydır. Bu konu, kullanıcı arabirimini nasıl tercihlerinize uygun hale getirebileceğinizle ilgili bilgiler sunan konulara bağlantılar içerir. Bu konu ayrıca sistem içinde bilgileri etkin ve doğru şekilde bulmanıza yardımcı olabilecek bilgiler de içerir. 
 
 > [!NOTE] 
-> Aşağıdaki üç ürün yakından ilgilidir: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, öncelikli olarak Retail ile ilişkili konularda, ürün adı Dynamics 365 for Retail olacaktır, öncelikli olarak Talent ilişkili konularda, ürün adı Dynamics 365 for Talent olacaktır ve çekirdek ürün ile ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
+> Aşağıdaki üç ürün yakından ilgilidir: Dynamics 365 Finance; Dynamics 365 Retail ve Dynamics 365 Talent. Aynı işlev her üç üründe de görülebilir. Sonuç olarak, öncelikli olarak Retail ile ilişkili konularda, ürün adı Dynamics 365 Retail olacaktır, öncelikli olarak Talent ilişkili konularda, ürün adı Dynamics 365 Talent olacaktır ve çekirdek ürün ile ilgili konularda, ürün adı Dynamics 365 Finance olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
 ## <a name="personalizing-talent"></a>Talent'ı kişiselleştirme 
-Aşağıda konular Dynamics 365 for Talent'ta bulunan ve işinizi zamanında kolayca tamamlamanızı sağlayan birçok özelliği nasıl ayarlayabileceğinizi göstermektedir. 
+Aşağıda konular Talent'ta bulunan ve işinizi zamanında kolayca tamamlamanızı sağlayan birçok özelliği nasıl ayarlayabileceğinizi göstermektedir. 
 
 -   [Kullanıcı deneyimini kişiselleştirme](../fin-and-ops/get-started/personalize-user-experience.md) - Bu konu Talent'ı kişiselleştirmek ve ürünün parçalarını tercihlerinizi en iyi karşılayacak şekilde uyarlamak için kullanabileceğiniz farklı yolları açıklar.
 
@@ -51,7 +51,7 @@ Aşağıdaki konular aramaları, arama ve filtreleme özelliklerini bilgileri da
 
 -   [Gelişmiş filtreleme ve sorgu sözdizimi](../fin-and-ops/get-started/advanced-filtering-query-options.md) - Bu konuda, Gelişmiş filtreleme/sıralama iletişim kutusundaki "eşleşmeler" işlecini kullanırken kullanılabilecek filtreleme ve sorgu seçenekleri açıklanmaktadır.
 
--   [Gezinti araması](../fin-and-ops/get-started/navigation-search.md) - Bu konuda, sayfalarda gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır. Talent uygulaması çeşitli görevleri gerçekleştirmenize yardımcı olmak için çok sayıda alan ve sayfa içerir. Gezinti araması özelliğini kullanmak görevlerinizi tamamlamak için ihtiyaç duyduğunuz sayfaları hızlı bir şekilde bulmanıza yardımcı olabilir. 
+-   [Gezinti araması](../fin-and-ops/get-started/navigation-search.md) - Bu konuda, sayfalarda gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır. Talent çeşitli görevleri gerçekleştirmenize yardımcı olmak için çok sayıda alan ve sayfa içerir. Gezinti araması özelliğini kullanmak görevlerinizi tamamlamak için ihtiyaç duyduğunuz sayfaları hızlı bir şekilde bulmanıza yardımcı olabilir. 
 
 -   [Eylem arama](../fin-and-ops/get-started/action-search.md) - Bu konu, eylem arama işlevini açıklar. Eylem arama, bir sayfadaki eylemleri bulmanıza ve çalıştırmanıza yardımcı olur. Üründeki sayfalar, başlıca Eylem Panoları üzerindeki komutları ortaya çıkartır: sayfanın üzerinde görünen standart Eylem Panosu ve sayfanın çeşitli yerlerinde görünen araç çubukları.
 
@@ -61,7 +61,7 @@ Aşağıdaki konular aramaları, arama ve filtreleme özelliklerini bilgileri da
 Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) başlıklı makaleye gidin.
 
 ### <a name="blogs"></a>Bloglar
-Fikirler, haberler veya Borç hesapları konusunda diğer bilgileri ve çözümleri [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent) içinde bulabilirsiniz. 
+Fikirler, haberler veya Borç hesapları konusunda diğer bilgileri ve çözümleri [Dynamics 365 Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent) içinde bulabilirsiniz. 
 
 ### <a name="videos"></a>Videolar
 Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Kanalı](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)'nda bulunan nasıl yapılır videolarına hemen göz atın.

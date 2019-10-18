@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549010"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250176"
 ---
 # <a name="onboard-vendors"></a>Satıcıları işe alma
 [!include [banner](../includes/banner.md)]
 
 ---
 
-Microsoft Dynamics 365 for Finance and Operations'da satıcıyı temsil eden bir kişiden alınan bilgiler temel alınarak yeni satıcılar işe alınabilir ve satıcı olarak kaydedilebilir.
+Microsoft Dynamics 365 Supply Chain Management'ta satıcıyı temsil eden bir kişiden alınan bilgiler temel alınarak yeni satıcılar işe alınabilir ve satıcı olarak kaydedilebilir.
 
 Bu işlem aşağıdaki adımlardan oluşur ve sistemde çeşitli rollerin eylem gerçekleştirmesini gerektirir.
 
 1. **Veri yönetimi OData** – Varlığı içe aktarma - İlk talep satıcı adayı kayıt talebidir. Genellikle, bu istek müşteri tarafından barındırılan ve anonim erişime izin veren bir web sitesi gibi bir kaynaktan gelir. Satıcılar satıcı adı, doğrulama, kuruluş numarası ve ilgili kişinin adı ve e-posta adresi gibi temel bilgileri sağlayarak kaydolabilir. Talepler Veri yönetimi arabirimi aracılığıyla içe aktarılır.
-2. **Aday satıcı kaydı talebi liste sayfası** - Aday satıcı kaydı talebinde sağlanan bilgileri temel alarak bir tedarik uzmanı satıcının işe alınıp alınmayacağına karar verir. Tedarik uzmanı Finance and Operations'taki **Aday satıcı kaydı talepleri** liste sayfasında gelen talebi görür.
+2. **Aday satıcı kaydı talebi liste sayfası** - Aday satıcı kaydı talebinde sağlanan bilgileri temel alarak bir tedarik uzmanı satıcının işe alınıp alınmayacağına karar verir. Tedarik uzmanı **Aday satıcı kaydı talepleri** liste sayfasında gelen talebi görür.
 3. **Kullanıcı sağlama iş akışı** - Bir tedarik uzmanı gelen talepteki verileri doğrulayıp işe alma işlemine devam etmeye karar verdiğinde kullanıcı talebi iş akışı yeni kullanıcı sağlar ve ilgili kişiyi doğrulanmış bir Microsoft Dynamics 365 kullanıcı olarak kabul etmek üzere bir davet e-postası gönderir.
-4. **Satıcı kayıt sihirbazı** - Satıcınin ilgili kişisi yeni kullanıcı hesabını kullanarak Finance and Operations'ta oturum açar. Adres, işletme bilgileri, tedarik kategorileri ve soru formu yanıtları gibi bilgileri sağlamak üzere satıcı kaydı sihirbazını tamamlar.
+4. **Satıcı kayıt sihirbazı** - Satıcının ilgili kişisi yeni kullanıcı hesabını kullanarak oturum açar. Adres, işletme bilgileri, tedarik kategorileri ve soru formu yanıtları gibi bilgileri sağlamak üzere satıcı kaydı sihirbazını tamamlar.
 5. **Onay iş akışı** - Kayıt bilgilerini içeren bir satıcı talebi oluşturulur. Bu satıcı talebi bir iş akışına gönderilir ve inceleme ve onay için yönlendirilir.
 6. **Satıcı ana verileri oluşturma ve kullanıcı rolü değişikliği** - Satıcı talebi onaylandıktan sonra satıcı kaydı oluşturulur. Satıcı ilgili kişisinin kullanıcı hesabına satıcı işbirliği için izin sağlanır veya devre dışı bırakılır.
 
@@ -45,14 +45,14 @@ Aşağıdaki tablo işleme dahil olan adımları ve rolleri gösterir.
 |--------------------------|---|---|---|---|---|---|
 | Sistem                   | Yeni bir satıcı için talep içe aktarılır. | | | | | Satıcı teklifi kabul edildikten sonra satıcı kaydı oluşturulur. |
 | Tedarik uzmanı | | İşe alma işlemini başlatın. | | | Satıcı talebini inceleyin ve kabul edin veya reddedin. | |
-| Yönetici            | | | Finance and Operations ve Microsoft Azure'da bir kullanıcı oluşturun. | | | |
+| Yönetici            | | | Supply Chain Management ve Microsoft Azure. için bir kullanıcı oluşturun. | | | |
 | Satıcı ilgili kişisi    | | | İlgili kişiye e-posta gönderin. | Satıcı bilgilerini kaydedin. | | |
 
-Satıcı işe alım sürecinin hızlı bir tanıtımı için bu kısa YouTube videosunu izleyin: [Yeni bir satıcıyı Dynamics 365 for Finance and Operations içinde başlatın](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Satıcı işe alım sürecinin kısa bir tanıtımı için YouTube'daki şu kısa videoyu izleyin: [Finance and Operations'ta yeni bir satıcı nasıl işe alınır?](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Aday satıcı kaydı talebini içe aktarma
 
-Aday satıcı kaydı talebi Finance and Operations içindeki bir varlıktır. Sistemi verileri bu varlık aracılığıyla içeri aktarmak üzere ayarlayabilirsiniz. 
+Aday satıcı kaydı talebi Supply Chain Management'taki bir varlıktır. Sistemi verileri bu varlık aracılığıyla içeri aktarmak üzere ayarlayabilirsiniz. 
 
 Aşağıdaki tablo bu varlığın içerdiği ve içe aktarılabilecek bilgileri gösterir.
 
@@ -65,18 +65,18 @@ Aşağıdaki tablo bu varlığın içerdiği ve içe aktarılabilecek bilgileri 
 | İlgili kişinin adı  | Satıcı bilgilerini kaydetmek üzere davet edilecek kişinin adı. |
 | İlgili kişinin ikinci adı | Satıcı bilgilerini kaydetmek üzere davet edilecek kişinin ikinci adı. |
 | İlgili kişinin soyadı.   | Satıcı bilgilerini kaydetmek üzere davet edilecek kişinin soyadı. |
-| İlgili kişinin e-posta adresi       | Finance and Operations'da yeni bir kullanıcı oluşturmak için kullanılacak ve kiracının Azure Active Directory (Azure AD) hesabına kaydedilecek e-posta adresi. |
+| İlgili kişinin e-posta adresi       | Supply Chain Management'ta yeni bir kullanıcı oluşturmak için kullanılacak ve kiracının Azure Active Directory (Azure AD) hesabına kaydedilecek e-posta adresi. |
 | Gönderilme tarihi               | Talebin harici sistemde oluşturulduğu tarih. |
-| Tüzel kişilik                 | Satıcının bir satıcı olmayı talep ettiği tüzel kişilik. Bu değer, Finance and Operations'da kaydedilmiş bir tüzel kişilik kodu olmalıdır. İçe aktarma işlemiyle herhangi bir değer alınmazsa, Tedarik ve kaynak atama parametrelerinden bir değer uygulanır. |
+| Tüzel kişilik                 | Satıcının bir satıcı olmayı talep ettiği tüzel kişilik. Bu değer Supply Chain Management'ta kaydedilmiş bir tüzel kişilik kodu olmalıdır. İçe aktarma işlemiyle herhangi bir değer alınmazsa, Tedarik ve kaynak atama parametrelerinden bir değer uygulanır. |
 | Satıcı türü                  | Satıcı bir kuruluş veya kişi olabilir. Satıcı türü satıcının son olarak nasıl oluşturulacağını belirler. |
 
 Aday satıcı kayıt talebi içe aktarıldıktan sonra **Aday satıcı kaydı talebi** liste sayfasında görünür. Bu liste sayfasından tedarik uzmanı bir kullanıcıyı davet edebilir. Kullanıcı sağlama için kullanıcı talebi iş akışına gönderilir.
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>Aday satıcı kullanıcısı talebini gönderme
 
-Aday satıcı kullanıcısı talebinin amacı ilk isteği gönderen kişiye provizyon sağlamaktır; böylece söz konusu aday müşteri kaydı talebinde sağlanan e-posta adresini kullanarak Finance and Operations'ta oturum açabilir.
+Aday satıcı kullanıcısı talebinin amacı ilk isteği gönderen kişiye provizyon sağlamaktır; böylece söz konusu aday müşteri kaydı talebinde sağlanan e-posta adresini kullanarak Supply Chain Management'ta oturum açabilir.
 
-Aday satıcı kullanıcısı talebi kullanıcı talebi iş akışı tarafından işlenir. Bu iş akışı Azure AD B2B işbirliği aracılığıyla iletişim kurar. Finance and Operations'da uygun güvenlik ayarlarına sahip bir kullanıcı oluşturur.
+Aday satıcı kullanıcısı talebi kullanıcı talebi iş akışı tarafından işlenir. Bu iş akışı Azure AD B2B işbirliği aracılığıyla iletişim kurar. Supply Chain Management'ta uygun güvenlik ayarlarına sahip bir kullanıcı oluşturur.
 
 Ayarlanan yeni kullanıcılar aşağıdaki güvenlik rollerine sahiptir:
 
@@ -89,7 +89,7 @@ E-posta yapılandırma ve genel olarak iş akışı hakkında bilgi için [Satı
 
 ## <a name="vendor-registration"></a>Satıcı kaydı
 
-Finance and Operations'da oturum açan aday satıcı kullanıcısı, satıcı bilgilerini girebileceği satıcı sihirbazının ilk sayfasını görür.
+Supply Chain Management'ta oturum açan aday satıcı kullanıcısı, satıcı bilgilerini girebileceği satıcı sihirbazının ilk sayfasını görür.
 
 Sihirbaz satıcı talebi yapılandırmasını gösterir. Satıcının iş yaptığı ülke veya bölge sihirbazda hangi bilgilerin isteneceğini ve hangi bilgilerin zorunlu olduğunu belirler.
 
@@ -119,7 +119,7 @@ Satıcı talepleri **Satıcı işbirliği kullanıcı talepleri** sayfasında bu
 
 Bir satıcı talebi aday satıcı kullanıcısının satıcı kayıt sihirbazında girdiği bilgileri içerir.
 
-Talep satıcı bilgilerini incelemenize ve satıcının Finance and Operations'da kayıtlı bir satıcı olması gerekip gerekmediğine karar vermenize olanak tanır.
+Talep satıcı bilgilerini incelemenize ve satıcının Supply Chain Management'ta kayıtlı bir satıcı olması gerekip gerekmediğine karar vermenize olanak tanır.
 
 Satıcı talebi bir iş akışına gönderilmeli ve ilgili gözden geçirenlere ve onaylayanlara yönlendirilmelidir. İş akışlarını ayarlama hakkındaki teme bilgiler için bkz. [Tedarik ve kaynak atama iş akışları](procurement-sourcing-workflows.md).
 
@@ -141,7 +141,7 @@ Bir satıcı talebi onaylandığında bir satıcı hesabı oluşturulur ve durum
 
 Satıcı talebini onaylamadan önce **Yeni satıcı** sayfasında **Genel** hızlı sekmesinde, bir satıcı grubu seçmek için **Satıcı grubu**'nu seçin.
 
-Aday satıcı kullanıcısının Finance and Operations'a satıcıyı temsil eden satıcı işbirliği kullanıcısı olarak erişmesi gerekirse satıcı işbirliği erişimi iznini **Evet** olarak ayarlayın. Aday satıcının kayıt olmak için kullandığı kullanıcı hesabını devre dışı bırakmak için bu izni **Hayır** olarak ayarlayın.
+Aday satıcı kullanıcısının Supply Chain Management'a satıcıyı temsil eden satıcı işbirliği kullanıcısı olarak erişmesi gerekirse satıcı işbirliği erişimi iznini **Evet** olarak ayarlayın. Aday satıcının kayıt olmak için kullandığı kullanıcı hesabını devre dışı bırakmak için bu izni **Hayır** olarak ayarlayın.
 
 Satıcı işbirliğine erişim izni **Evet** olarak ayarlanırsa, satıcı talebi onaylandığında, kullanıcının rollerini kullanıcı **Dış roller**'de **Satıcı** türü için tanımlanan rollere sahip olacak şekilde değiştirmek için bir talep gönderilir. Bu izin **Hayır** olarak ayarlanırsa, satıcı talebi onaylandığında, kullanıcıyı devre dışı bırakmak için bir talep gönderilir. Bu durumda, kullanıcı talebini devre dışı bırakmak üzere bir iş akışı ayarlanması gerekir.
 

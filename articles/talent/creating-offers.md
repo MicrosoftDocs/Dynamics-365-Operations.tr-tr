@@ -1,6 +1,6 @@
 ---
 title: Teklifleri oluşturma, onaylama ve imzalama
-description: Bu konu, Dynamics 365 for Talent kullanarak bir aday için teklif oluşturma, onaylama ve imzalama ayrıntılarını verir.
+description: Bu konu, Dynamics 365 Talent kullanarak bir aday için teklif oluşturma, onaylama ve imzalama ayrıntılarını verir.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739645"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008117"
 ---
 # <a name="create-approve-and-sign-offers"></a>Teklif oluşturma, onaylama ve imzalama
 
@@ -110,7 +110,7 @@ Teklifi adaya göndermeden önce yapmanız gereken birkaç eylem vardır.
 Bir Adobe Sign, tercih edilen e-imza seçeneği olarak seçildiyse, oluşturuculara Adobe Sign lisanslarını bu adımda bağlama seçeneği sunun. 
 
 ### <a name="docusign"></a>DocuSign
-Bir DocuSign, tercih edilen e-imza seçeneği olarak seçildiyse, oluşturuculara DocuSign lisanslarını bu adımda bağlama seçeneği sunun. Bir kez oturum açıldıktan sonra, kullanıcının DocuSign profiliyle ilişkilendirilmiş varsayılan hesap ve izinler Talent Attract'e bağlanır. 
+Bir DocuSign, tercih edilen e-imza seçeneği olarak seçildiyse, oluşturuculara DocuSign lisanslarını bu adımda bağlama seçeneği sunun. Bir kez oturum açıldıktan sonra, kullanıcının DocuSign profiliyle ilişkilendirilmiş varsayılan hesap ve izinler Talent: Attract'e bağlanır. 
 
 -  E-posta şablonu gerektiği gibi görüntüleyin ve düzenleyin.
 

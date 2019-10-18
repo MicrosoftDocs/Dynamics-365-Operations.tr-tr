@@ -3,7 +3,7 @@ title: Müşteri indirimlerini oluşturma ve işleme
 description: Bu prosedür, müşteri indirimlerinin talep oluşturulmasından, alacak hesaplarına tahakkuk edilmesi noktasına kadar nasıl işleneceğini göstermektedir.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46533eb974e524f870c6c501d8634a185063b4e5
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f3a6678b09ce4011b7f80d40979209cc2f588df8
+ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833886"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "1994946"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Müşteri indirimlerini oluşturma ve işleme
 
@@ -31,56 +31,54 @@ Bu prosedür, müşteri indirimlerinin talep oluşturulmasından, alacak hesapla
 
 
 ## <a name="review-a-customer-rebate-agreement"></a>Müşteri indirim sözleşmesini gözden geçirin
-1. Sales and marketing > Customer rebates > Rebate agreements (Satış ve pazarlama > Müşteri indirimleri > İndirim anlaşmaları) menüsüne gidin.
-    * Sonraki birkaç adım, USMF-000001 anlaşmasının koşullarına göz atacaktır. Bu daha sonra prosedürde, müşteri kredi değerinin nasıl hesaplandığını anlamayı kolaylaştıracaktır.  
-    * Anlaşma bu örnekte US-009 olan tek bir müşteri içindir.  
-    * İndirimler müşteriye belirli bir ürün aldıklarında verilir. Bu durumda, söz konusu bu ürünün madde numarası T0020'dir.   
-    * İndirim miktarının tahmin edilmesinde müşterinin satış performansı karşılık alınır ve haftalık olarak toplanır.  
-    * "Fiyatın alındığı yer" ayarı brüttür, bu da satırın satış miktarının talebin indirim satırından faydalanmıyor olduğu anlamına gelir.  
-    * İndirim satır kırılma türü alanı indirimlerin hesaplanma yöntemini gösterir. Bu durumda, indirimlerin tahmin edileceği satış hedefi Miktar olarak ayarlanır.   
-    * Anlaşmanın satırları indirim tutarı türünü, gerçek indirim değerini ve eşikleri belirtir. Bu örnekte müşteri, haftalık satın almaları 1 ila 50 ürün arasında kalırsa, satılan ürün başına 20 ABD doları tutarında ve eğer satın almaları 50 birim ürünün üzerinde olursa, 40 ABD doları tutarında bir indirime hak kazanır.  
+1. **Gezinti bölmesi > Modüller > Satış ve pazarlama > Müşteri indirimleri > İndirim sözleşmeleri**'ne gidin.
+    - Sonraki birkaç adım, USMF-000001 anlaşmasının koşullarına göz atacaktır. Bu daha sonra prosedürde, müşteri kredi değerinin nasıl hesaplandığını anlamayı kolaylaştıracaktır.  
+    - Anlaşma bu örnekte US-009 olan tek bir müşteri içindir.  
+    - İndirimler müşteriye belirli bir ürün aldıklarında verilir. Bu durumda, söz konusu bu ürünün madde numarası T0020'dir.   
+    - İndirim miktarının tahmin edilmesinde müşterinin satış performansı karşılık alınır ve haftalık olarak toplanır.  
+    - "Fiyatın alındığı yer" ayarı brüttür, bu da satırın satış miktarının talebin indirim satırından faydalanmıyor olduğu anlamına gelir.  
+    - İndirim satır kırılma türü alanı indirimlerin hesaplanma yöntemini gösterir. Bu durumda, indirimlerin tahmin edileceği satış hedefi Miktar olarak ayarlanır.   
+    - Anlaşmanın satırları indirim tutarı türünü, gerçek indirim değerini ve eşikleri belirtir. Bu örnekte müşteri, haftalık satın almaları 1 ila 50 ürün arasında kalırsa, satılan ürün başına 20 ABD doları tutarında ve eğer satın almaları 50 birim ürünün üzerinde olursa, 40 ABD doları tutarında bir indirime hak kazanır.  
 2. Sayfayı kapatın.
 
 ## <a name="generate-rebate-claims"></a>İndirim talepleri oluşturun
-1. Sales and marketing > Sales orders > All sales orders (Satış ve pazarlama > Satış siparişleri > Tüm satış siparişleri) menüsüne gidin.
-2. Yeni'ye tıklayın.
-    * İndirim talepleri gerçekleşen durumu taklit etmek için bir sonraki görevde, söz konusu müşterinin indirime hak kazanacağı miktar ve ürünün bulunduğu bir satış emri oluşturulacak.  
-3. Müşteri hesabı alanında bir değer girin veya seçin.
-4. Tamam'a tıklayın.
-5. Madde numarası alanında bir değer girin veya seçin.
-6. Miktarı '40' olarak ayarlayın.
-7. Satış siparişi satırına tıklayın.
-8. Fiyat ayrıntıları'na tıklayın.
-    * Bu seçeneği görmüyorsanız, kılavuzu başlatmadan önce Fiyat ayrıntıları etkinleştir seçeneğini Evet olarak ayarlamadığınız içindir.  
-9. İndirimler bölümünü genişletin.
-    * İndirimler sekmesi mevcut sipariş hattı için geçerli tüm indirim sözleşmelerini listeler ve tahmini indirim tutarını gösterir. Görüntülenen tutarların, sadece gelecekte hangi indirim talep edilebileceğinin göstergeleri olduğunu unutmayın. Gerçek indirim tutarları şunlara bağlı olarak farklı olabilir: müşteri tarafından bir dönemsel indirim anlaşması kapsamında elde edilen toplam satış hacmi, müşterinin tümünü mü yoksa kısmi miktarları mı iade ettiği; ve uygulanabilir satış siparişinin faturalanmış olup olmadığı.  
+1. **Gezinti bölmesi > Modüller > Satış ve pazarlama > Satış siperişler > Tüm satış siparişleri**'ne gidin.
+2. **Yeni**'ye tıklayın. İndirim talepleri gerçekleşen durumu taklit etmek için bir sonraki görevde, söz konusu müşterinin indirime hak kazanacağı miktar ve ürünün bulunduğu bir satış emri oluşturulacak.    
+3. **Müşteri hesabı** alanında bir değer girin veya seçin.
+4. **Tamam**'a tıklayın.
+5. **Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin.
+6. **Miktar**'ı '40' olarak ayarlayın.
+7. **Satış siparişi satırları** bölümü altında **Satış siparişi satırı**'na tıklayın.
+8. **Fiyat ayrıntıları**'na tıklayın. Bu seçeneği görmüyorsanız kılavuzu başlatmadan önce **Fiyat ayrıntılarını etkinleştir** seçeneğini Evet olarak ayarlamamış olabilirsiniz.     
+9. **İndirimler** bölümünü genişletin. **İndirimler** sekmesinde mevcut sipariş hattı için geçerli olan tüm indirim sözleşmeleri listelenir ve tahmini indirim tutarı gösterilir. Görüntülenen tutarların, sadece gelecekte hangi indirim talep edilebileceğinin göstergeleri olduğunu unutmayın. Gerçek indirim tutarları şunlara bağlı olarak farklı olabilir: müşteri tarafından bir dönemsel indirim anlaşması kapsamında elde edilen toplam satış hacmi, müşterinin tümünü mü yoksa kısmi miktarları mı iade ettiği; ve uygulanabilir satış siparişinin faturalanmış olup olmadığı.
 10. Sayfayı kapatın.
-11. Satır ekle'ye tıklayın.
-12. Madde numarası alanında bir değer girin veya seçin.
-13. Miktarı '60' olarak ayarlayın.
-14. Kaydet'e tıklayın.
-15. Eylem Bölmesinde, Fatura öğesine tıklayın.
-16. Fatura'ya tıklayın.
-17. Parametreler bölümünü genişletin.
-18. Miktar alanında, 'Tümü' öğesini seçin.
-19. Tamam'a tıklayın.
-20. Tamam'a tıklayın.
+11. **Satır ekle**'ye tıklayın.
+12. **Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin.
+13. **Miktar**'ı '60' olarak ayarlayın.
+14. **Kaydet**'e tıklayın.
+15. **Eylem Bölmesinde** **Fatura** öğesine tıklayın.
+16. **Fatura** öğesine tıklayın.
+17. **Parametreler** bölümünü genişletin.
+18. **Miktar** alanında "Tümü"nü seçin.
+19. **Tamam**'a tıklayın.
+20. **Tamam**'a tıklayın.
 
 ## <a name="process-rebate-claims"></a>İndirim taleplerini işleyin
-1. Sales and marketing > Customer rebates > Rebates (Satış ve pazarlama > Müşteri indirimleri > İndirimler) menüsüne gidin.
-    * İndirimler sayfası, indirim taleplerini incelemek, onaylamak ve işlemek için bir çalışma ortamı işlevini yerine getirir. Şimdi indirim anlaşması USMF-000001'e konu olan US-009 müşterisi için bir satış siparişi faturalamasının sonucu olarak oluşturulan talepleri işleyeceksiniz.   
-    * İlk satır 800 ABD doları olarak hesaplanan bir indirim talebini temsil etmektedir. Bu da T0020 ürününden 40 birimlik satışa dayanmaktadır ve birim başına 20 ABD doları olarak hesaplanır. Bu, indirim anlaşmasındaki ilk miktar kırılma koşullarıyla eşleşmektedir.  
-    * İkinci talep 2.400 ABD doları içindir, 60 birim T0020 ürününe dayanır, anlaşmadaki ikinci miktar kırılması uyarınca 40 ABD doları birim fiyatından hesaplanmıştır.  
-    * Her iki talep de "Hesaplanacak" durumdadır. Bu da, periyodik olarak müşterinin satış performansını periyodik olarak izleyen bir anlaşma ile ilişkili olduğunu ve bunlarla ilgili dönem içindeki toplam satış hacminin yeniden hesaplanacak olmak zorunda olduğu anlamına gelir.   
-2. Biriktir'e tıklayın.
-3. Müşteri alanına bir değer girin veya buradan bir değer seçin.
-4. Başlangıç tarihi alanında, bugünün tarihini seçin.
-5. Tamam'a tıklayın.
-    * Biriktirme işlevinin çalıştırılması sonucunda, tahmini talep tutarı şimdi müşterinin ilgili dönemde toplam satış hacminin, indirimin ilk oluşturulduğu zaman göre daha yüksek olduğu gerçeğini göre ayarlanır. Daha detaya girmek gerekirse, satılan toplam miktar 100 birime ulaştığı için, müşteri artık ürün başına 40 ABD doları (anlaşmanın ikinci miktar kırılması uyarınca) veya toplam 400 ABD doları toplam indirim miktarına hak kazanmıştır. Fark ek 800 USD için bir yeni talep için "ayarlama" olarak kaydedilir. Biriktirme güncelleştirmesinde dahil edilen indirim talebinin durumu şimdi Hesaplandı olarak ayarlanmıştır.   
+1. **Gezinti bölmesi > Modüller > Satış ve pazarlama > Müşteri indirimleri > İndirimler**'e gidin.
+    - İndirimler sayfası, indirim taleplerini incelemek, onaylamak ve işlemek için bir çalışma ortamı işlevini yerine getirir. Şimdi indirim anlaşması USMF-000001'e konu olan US-009 müşterisi için bir satış siparişi faturalamasının sonucu olarak oluşturulan talepleri işleyeceksiniz.   
+    - İlk satır 800 ABD doları olarak hesaplanan bir indirim talebini temsil etmektedir. Bu da T0020 ürününden 40 birimlik satışa dayanmaktadır ve birim başına 20 ABD doları olarak hesaplanır. Bu, indirim anlaşmasındaki ilk miktar kırılma koşullarıyla eşleşmektedir.  
+    - İkinci talep 2.400 ABD doları içindir, 60 birim T0020 ürününe dayanır, anlaşmadaki ikinci miktar kırılması uyarınca 40 ABD doları birim fiyatından hesaplanmıştır.  
+    - Her iki talep de "Hesaplanacak" durumdadır. Bu da, periyodik olarak müşterinin satış performansını periyodik olarak izleyen bir anlaşma ile ilişkili olduğunu ve bunlarla ilgili dönem içindeki toplam satış hacminin yeniden hesaplanacak olmak zorunda olduğu anlamına gelir.   
+2. **Biriktir**'e tıklayın.
+3. **Müşteri** alanına bir değer girin veya buradan bir değer seçin.
+4. **Başlangıç tarihi** alanında bugünün tarihini seçin.
+5. **Tamam**'a tıklayın. **Biriktir** işlevinin çalıştırılması sonucunda tahmini talep tutarı, şimdi müşterinin ilgili dönemde toplam satış hacminin, indirimin ilk oluşturulduğu zaman göre daha yüksek olduğu gerçeğine göre ayarlanır. Daha detaya girmek gerekirse, satılan toplam miktar 100 birime ulaştığı için, müşteri artık ürün başına 40 ABD doları (anlaşmanın ikinci miktar kırılması uyarınca) veya toplam 400 ABD doları toplam indirim miktarına hak kazanmıştır. Fark ek 800 USD için bir yeni talep için "ayarlama" olarak kaydedilir. Biriktirme güncelleştirmesinde dahil edilen indirim talebinin durumu şimdi Hesaplandı olarak ayarlanmıştır. 
 6. Listede, tüm satırları işaretleyin.
-7. Onayla’yı tıklatın.
-8. İşlemi'ı tıklatın.
-9. Müşteri alanına bir değer girin veya buradan bir değer seçin.
-10. Tamam'a tıklayın.
-    * İndirimin başarıyla işlendiğine dair bir mesaj gösterilir ve talebin durumu İşaretlendi olarak değişir. Bu, İndirim tahakkuku günlüğünün nakledilmiş olmasının sonucunda a) talepler geçici müşteri bakiyesine kesinti olarak yansıtılmıştır b) İndirim tahakkuk hesabı müşterinin için gelecekteki pasifi temsil edecek şekilde alacaklandırılmıştır; ve c) İndirim gider hesabı, satışlardan doğacak borçlar göz önünde tutularak borçlandırılmıştır.   
+7. **Onayla**'ya tıklayın.
+8. **İşle**'ye tıklayın.
+9. **Müşteri** alanına bir değer girin veya buradan bir değer seçin.
+10. **Tamam**'a tıklayın. İndirimin başarıyla işlendiğine dair bir mesaj gösterilir ve talebin durumu İşaretlendi olarak değişir. Bu, bir İndirim tahakkuk günlüğünün deftere nakledilme sonucu olarak gelir:
+    - Talepler, artık kesintiler olarak geçici müşteri bakiyesine aktarıldı.
+    - İndirim tahakkuk hesabı, müşterinin gelecekteki borcunu temsil etmek üzere alacaklandırıldı.
+    - İndirim gider hesabı, satışlarla bağlantılı olarak tahakkuk eden maliyeti tanımak üzere borçlandırıldı.   
 

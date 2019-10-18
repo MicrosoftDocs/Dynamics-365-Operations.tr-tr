@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27f574be865ca5f7474e11c7aae1a110f66298c8
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865484"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250795"
 ---
 # <a name="inventory-management-overview"></a>Stok yönetimine genel bakış
 
@@ -53,10 +53,8 @@ Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microso
 ### <a name="inventory-accounting"></a>Stok muhasebesi 
 Daha fazla bilgi için bkz. [Maliyet yönetiminde stok muhasebesi](../cost-management/inventory-close.md).
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a>İmalat ve tedarik zinciri yönetimi blogları
+### <a name="manufacturing-and-supply-chain-management-blogs"></a>İmalat ve Supply Chain Management blogları
 [Dynamics AX İmalat Ar-Ge Ekibi Blogu'nda](https://blogs.msdn.microsoft.com/axmfg) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi Blogu'nda](https://blogs.msdn.microsoft.com/dynamicsaxscm) Stok yönetimi ve diğer çözümler hakkında pek çok fikir, haber ve bilgi bulabilirsiniz.
 
 ### <a name="task-guides"></a>Görev kılavuzları
-Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada **Yardım** düğmesine tıklayın.
-
-
+Ek Yardım görev kılavuzları olarak mevcuttur. Görev kılavuzlarına erişmek için herhangi bir sayfada **Yardım** düğmesine tıklayın

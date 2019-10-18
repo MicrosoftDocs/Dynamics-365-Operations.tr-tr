@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00d7457b13e6633c9285a1fc43b8f6dd60dae9ae
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 555098a7d11cb0b4c0f90357ff260598e80108f5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836544"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017932"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Çakışan iskontoları için en uygun birleşimi belirleme
 
@@ -32,7 +32,7 @@ ms.locfileid: "1836544"
 
 İskontolar çakıştığında, en düşük hareket toplamını veya en yüksek toplam iskontoyu oluşturacak çakışan iskonto birleşimi belirlemeniz gerekir. Yaygın olarak kullanılan '1 satın al, 1 al X yüzdesi' (BOGO) perakende iskontosunda olduğu gibi, iskonto tutarı satın alınan ürünlerin fiyatına göre değişiklik gösterdiğinde, bu işlem birleşimsel iyileştirme konusu durumuna gelir.
 
-Bu makale, Microsoft Dynamics AX 2012 R3, KB 3105973 (yayınlanma tarihi 2 Kasım 2015) veya sonrası ve Microsoft Dynamics 365 for Retail için geçerlidir. Zamanında uygulayabilmek için çakışan iskonto karmasını belirlemek için, çakışan iskontoları uygulamak için bir yöntem geliştirdik. Bu yeni yönteme **Marjinal değer sıralaması**. Marjinal değer sıralaması, olası çakışan iskonto birleşimlerini değerlendirmek için gerekli süre, **Perakende parametreleri** sayfasında yapılandırılabilen eşiği aştığında kullanılır. Marjinal değer sıralama yönteminde, iskontonun paylaşılan ürünlerdeki değeri kullanılarak her çakışan iskonto için hesaplanır. Çakışan iskontolar, en yüksek göreli değerden en küçük göreli değere doğru uygulanır. Yeni yöntem hakkında daha fazla bilgi için bu makalenin ilerleyen kısımlarındaki "Marjinal değer" bölümüne bakın. Ürün iskonto tutarları hareketteki başka bir ürün tarafından etkilenmiyorsa, marjinal değer sıralaması kullanılmaz. Örneğin, bu yöntem iki basit iskonto veya bir basit iskonto ve tek bir ürün miktarı iskontosu için kullanılmaz.
+Bu makale, Microsoft Dynamics AX 2012 R3, KB 3105973 (yayınlanma tarihi 2 Kasım 2015) veya sonrası ve Dynamics 365 Retail için geçerlidir. Zamanında uygulayabilmek için çakışan iskonto karmasını belirlemek için, çakışan iskontoları uygulamak için bir yöntem geliştirdik. Bu yeni yönteme **Marjinal değer sıralaması**. Marjinal değer sıralaması, olası çakışan iskonto birleşimlerini değerlendirmek için gerekli süre, **Perakende parametreleri** sayfasında yapılandırılabilen eşiği aştığında kullanılır. Marjinal değer sıralama yönteminde, iskontonun paylaşılan ürünlerdeki değeri kullanılarak her çakışan iskonto için hesaplanır. Çakışan iskontolar, en yüksek göreli değerden en küçük göreli değere doğru uygulanır. Yeni yöntem hakkında daha fazla bilgi için bu makalenin ilerleyen kısımlarındaki "Marjinal değer" bölümüne bakın. Ürün iskonto tutarları hareketteki başka bir ürün tarafından etkilenmiyorsa, marjinal değer sıralaması kullanılmaz. Örneğin, bu yöntem iki basit iskonto veya bir basit iskonto ve tek bir ürün miktarı iskontosu için kullanılmaz.
 
 ## <a name="discount-examples"></a>İskonto örnekleri
 

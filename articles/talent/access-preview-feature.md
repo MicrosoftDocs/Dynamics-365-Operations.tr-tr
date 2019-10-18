@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent önizleme özelliklerine erişme
-description: Bu konu Microsoft Dynamics 365 for Talent içindeki önizleme özelliklerini bir yöneticinin nasıl etkinleştirebileceğini tanımlar ve önizleme için etkin olan özellikleri listeler.
+title: Microsoft Dynamics 365 Talent önizleme özelliklerine erişme
+description: Bu konu Microsoft Dynamics 365 Talent içindeki önizleme özelliklerini bir yöneticinin nasıl etkinleştirebileceğini tanımlar ve önizleme için etkin olan özellikleri listeler.
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739599"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008714"
 ---
 # <a name="manage-preview-features"></a>Önizleme özelliklerini yönet
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent için sürekli olarak kullanıma sunduğumuz insan sermayesi yönetim döngüsü (HCM) özelliklerinin bir parçası olarak, müşterilerimizin yeni özellikleri mümkün olan en kısa sürede deneyimlemesini istiyoruz. Yöneticiler önizleme özelliklerini kendi ortamlarında görebilir ve kullanabilir. Bu özellikler neredeyse genel kullanıma sunulmak üzere hazır durumdadır ve kapsamlı bir sınamadan geçirilmiştir. Bu özellikleri genel kullanım için yayımlamadan önce müşterilerimizden son kez geribildirim almak istiyoruz.
+Microsoft Dynamics 365 Talent için sürekli olarak kullanıma sunduğumuz insan sermayesi yönetim döngüsü (HCM) özelliklerinin bir parçası olarak, müşterilerimizin yeni özellikleri mümkün olan en kısa sürede deneyimlemesini istiyoruz. Yöneticiler önizleme özelliklerini kendi ortamlarında görebilir ve kullanabilir. Bu özellikler neredeyse genel kullanıma sunulmak üzere hazır durumdadır ve kapsamlı bir sınamadan geçirilmiştir. Bu özellikleri genel kullanım için yayımlamadan önce müşterilerimizden son kez geribildirim almak istiyoruz.
 
-Bu konu önizleme özelliklerini nasıl etkinleştirebileceğinizi tanımlar ve önizleme için kullanılabilir olan özellikleri listeler. Bu liste özellikler genel kullanım için yayımladıkça ve yeni özellikler önizleme için yayımlandıkça güncelleştirilecektir. Yeni özellikler önizleme için yayımlandığında bildirim gönderilmeyecektir. Kullanıcılar özellikleri görmeye başlayacaktır. Talent içindeki yeni özellikler hakkında daha fazla bilgi için bkz. [Dynamics 365 for Talent içinde neler yeni veya değişti](./whats-new.md) ve [Dynamics 365 ve Power Platform Sürüm Notları](https://docs.microsoft.com/business-applications-release-notes).
+Bu konu önizleme özelliklerini nasıl etkinleştirebileceğinizi tanımlar ve önizleme için kullanılabilir olan özellikleri listeler. Bu liste özellikler genel kullanım için yayımladıkça ve yeni özellikler önizleme için yayımlandıkça güncelleştirilecektir. Yeni özellikler önizleme için yayımlandığında bildirim gönderilmeyecektir. Kullanıcılar özellikleri görmeye başlayacaktır. Talent içindeki yeni özellikler hakkında daha fazla bilgi için bkz. [Dynamics 365 Talent içinde neler yeni veya değişti](./whats-new.md) ve [Dynamics 365 ve Power Platform Sürüm Notları](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Önizleme özelliklerini etkinleştirme veya devre dışı bırakma
 
@@ -40,9 +40,9 @@ Bu konu önizleme özelliklerini nasıl etkinleştirebileceğinizi tanımlar ve 
 > [!IMPORTANT]
 > **Önizleme özellikleri** ayarını açtığınızda, kuruluşunuzda bulunan bu ortamdaki tüm kullanıcılar için önizleme özelliklerini etkinleştirirsiniz. Ayarı kapattığınızda, önizleme özelliklerini devre dışı bırakırsınız ve kullanıcılarınız bu özelliklere erişemez. Önizleme özellikleri Talent'ta sınırlı şekilde desteklenir. Daha az gizlilik ve güvenlik önemi kullanabilirler ve Talent hizmet düzeyi sözleşmene (SLA) dahil değildirler. Kişisel verileri (diğer bir deyişle, sizi tanımlamaya yardımcı olabilecek tüm bilgileri) işlemek ya da yasa veya düzenlemelerle uyumluluk gereksinimlerine tabi olan diğer verileri işlemek için önizleme özelliklerini kullanmamanız gerekir.
 
-### <a name="attract"></a>İlgi çek
+### <a name="attract"></a>Attract
 
-1. Microsoft Dynamics 365 for Talent: Attract'e oturum aç.
+1. Microsoft Dynamics 365 Talent: Attract'ta oturum açın.
 2. Sağ üst köşedeki **Kurulum** menüsünden (çark simgesi) **Yönetici merkezi**'ni seçin.
 3. **Özellik yönetimi** sekmesinde **Önizleme özellikleri** yanındaki seçeneği seçin. Seçildiğinde mavi renge dönecektir ve **Açık** ibaresini görüntüleyecektir.
 
@@ -69,11 +69,11 @@ Bu konu önizleme özelliklerini nasıl etkinleştirebileceğinizi tanımlar ve 
 
 ### <a name="onboard"></a>İşe al
 
-Şu anda Microsoft Dynamics 365 for Talent: Onboard için önizleme özelliği yoktur.
+Şu anda Microsoft Dynamics 365 Talent: Onboard için önizleme özelliği yoktur.
 
 ## <a name="features-that-are-currently-in-preview"></a>Şu anda önizlemede olan özellikler
 
-### <a name="attract"></a>İlgi çek
+### <a name="attract"></a>Attract
 
 - [Aday önerisi](./intelligent-recommendations.md#candidate-recommendations) - Özgeçmiş veya tam profili olan ondan fazla aday veya müşteri adayı varsa, bu durumdaki her iş için, işin gerekliliklerine en yakın adaylar veya müşteri adayları, işin sayfasındaki **Dikkate alınacak adaylar** bölümünde görüntülenir.
 - [İş önerisi](./intelligent-recommendations.md#job-recommendations) – Kariyer sitenizde 10'dan fazla iş nakledilmişse, Attract, aday müşteri adayları için iş önerileri sağlar.

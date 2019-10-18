@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezi katalogları
-description: Bu konu Microsoft Dynamics 365 for Retail'te kataloglar için çağrı merkezine özel işlevler açıklanır.
+description: Bu konu Dynamics 365 Retail'te kataloglar için çağrı merkezine özel işlevler açıklanır.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ad50be1394daf5bffa6391d2f56340aad14120b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562756"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023672"
 ---
 # <a name="call-center-catalogs"></a>Çağrı merkezi katalogları
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda Microsoft Dynamics 365 for Retail'de katalog yetenekleriyle bağlantılı, çağrı merkezine özel işlevler açıklanmaktadır.
+Bu konuda Dynamics 365 Retail'de katalog yetenekleriyle bağlantılı, çağrı merkezine özel işlevler açıklanmaktadır.
 
-Dynamics 365 for Retail'te bulunan katalog özellikleri birden çok amaç için kullanılabilir. Başlangıçta katalog özellikleri üçüncü taraf e-Ticaret entegrasyonlarını desteklemek için oluşturulmuştur. Katalog kurulumu, şirketlerin, bir üçüncü taraf e-Ticaret çözümünün kullanımı için harici olarak yayınlanabilen ürün ve öznitelik gruplaması oluşturmalarına olanak sağladı.
+Retail'de bulunan katalog özellikleri birden çok amaç için kullanılabilir. Başlangıçta katalog özellikleri üçüncü taraf e-Ticaret entegrasyonlarını desteklemek için oluşturulmuştur. Katalog kurulumu, şirketlerin, bir üçüncü taraf e-Ticaret çözümünün kullanımı için harici olarak yayınlanabilen ürün ve öznitelik gruplaması oluşturmalarına olanak sağladı.
 
-Dynamics 365 for Retail'e çağrı merkezi kanal desteği eklenince, katalog kavramı, geleneksel doğrudan tüketiciye pazarlama kataloglarıyla ilgili özellikleri desteklemek ve yönetmek için ek yetenekler dahil edecek şekilde genişletildi. Doğrudan tüketiciye hizmet eden bir şirket sık sık basılı kataloglar çıkarır ve bunları bir ya da birden fazla müşteri segmentine postalar. Bu kataloglar genellikle belirli promosyonlar veya müşteri sipariş oluşturma sırasında bir katalog tanımlama kodu sağladığı takdirde sunulacak teklifler içerir.
+Retail'e çağrı merkezi kanal desteği eklenince, katalog kavramı, geleneksel doğrudan tüketiciye pazarlama kataloglarıyla ilgili özellikleri desteklemek ve yönetmek için ek yetenekler dahil edecek şekilde genişletildi. Doğrudan tüketiciye hizmet eden bir şirket sık sık basılı kataloglar çıkarır ve bunları bir ya da birden fazla müşteri segmentine postalar. Bu kataloglar genellikle belirli promosyonlar veya müşteri sipariş oluşturma sırasında bir katalog tanımlama kodu sağladığı takdirde sunulacak teklifler içerir.
 
-Doğrudan tüketiciye yönelik pazarlama şirketleri katalog üretim ve postalama maliyetlerinin gerekliliğinden emin olmak için bu kataloglara verilen yanıtları izlemeye çok önem verir. Yanıtı izlemek için, kataloğun arkasına geleneksel yöntemlerle bir kod yazdırılır ve katalog alıcısı telefonla sipariş vermek üzere aradığında bu kod istenir ve uygulanır (veya şimdi daha geleneksel olarak, müşteri çevrimiçi bir sipariş verirken kod girilebilir). Bu katalog izleme kodunu tanımlamak için kullanılan farklı sektör terimleri olsa da (anahtar kodu, promosyon kodu, katalog kodu, kaynak kodu vb.), Dynamics 365 for Retail'de bu koda **Kaynak kodu kimliği** diyoruz.
+Doğrudan tüketiciye yönelik pazarlama şirketleri katalog üretim ve postalama maliyetlerinin gerekliliğinden emin olmak için bu kataloglara verilen yanıtları izlemeye çok önem verir. Yanıtı izlemek için, kataloğun arkasına geleneksel yöntemlerle bir kod yazdırılır ve katalog alıcısı telefonla sipariş vermek üzere aradığında bu kod istenir ve uygulanır (veya şimdi daha geleneksel olarak, müşteri çevrimiçi bir sipariş verirken kod girilebilir). Bu katalog izleme kodunu tanımlamak için kullanılan farklı sektör terimleri olsa da (anahtar kodu, promosyon kodu, katalog kodu, kaynak kodu vb.), Retail'de bu koda **Kaynak kodu kimliği** diyoruz.
 
 ## <a name="basic-catalog-setup"></a>Temel katalog kurulumu
 
@@ -92,7 +92,7 @@ Katalogdaki ürünleri yapılandırırken madde için özel sayfalar, sayfa yüz
 
 ## <a name="catalog-requests"></a>Katalog istekleri
 
-Kataloglar Dynamics 365 for Retail'de yapılandırılıp yayımlandığı için, **Kataloğu gönder** özelliğinden yararlanılabilir. Bu özellik **Müşteri arama** ve **Müşteri hizmeti** sayfalarında mevcuttur. **Müşteri arama**'dan bir müşteri kaydı seçildikten sonra veya **Müşteri hizmeti**'nden seçili bir müşteri hesabı görüntülenirken, kullanıcılar, bir yayımlanmış ve etkin kataloglar listesinden seçim yapmalarına olanak sağlayan bir iletişim kutusunu açacak olan **Kataloğu gönder** seçeneğini belirleyebilirler. Kullanıcı, gönderilecek bir katalog, bir miktar ve belirli bir kaynak kodu kimliği seçebilir. Kullanıcılar **Gönder** düğmesine tıklayınca, daha sonra **Katalog istekleri** raporunu yazdırarak yönetilebilecek bir istek depolanır. Bu rapor **Perakende** \> **Çağrı merkezi raporları** \> **Katalog istekleri raporu** altında bulunur. Tüm katalog isteklerini, kataloğu isteyen müşterinin müşteri adı ve adres bilgileriyle listeler. Bu rapor dahili olarak kullanılabilir veya veriler, kataloğun müşteriye fiziksel olarak gönderilmesi için harici işlemleri destekleyen üçüncü bir tarafa aktarılabilir.
+Kataloglar Retail'de yapılandırılıp yayımlandığı için, **Kataloğu gönder** özelliğinden yararlanılabilir. Bu özellik **Müşteri arama** ve **Müşteri hizmeti** sayfalarında mevcuttur. **Müşteri arama**'dan bir müşteri kaydı seçildikten sonra veya **Müşteri hizmeti**'nden seçili bir müşteri hesabı görüntülenirken, kullanıcılar, bir yayımlanmış ve etkin kataloglar listesinden seçim yapmalarına olanak sağlayan bir iletişim kutusunu açacak olan **Kataloğu gönder** seçeneğini belirleyebilirler. Kullanıcı, gönderilecek bir katalog, bir miktar ve belirli bir kaynak kodu kimliği seçebilir. Kullanıcılar **Gönder** düğmesine tıklayınca, daha sonra **Katalog istekleri** raporunu yazdırarak yönetilebilecek bir istek depolanır. Bu rapor **Perakende** \> **Çağrı merkezi raporları** \> **Katalog istekleri raporu** altında bulunur. Tüm katalog isteklerini, kataloğu isteyen müşterinin müşteri adı ve adres bilgileriyle listeler. Bu rapor dahili olarak kullanılabilir veya veriler, kataloğun müşteriye fiziksel olarak gönderilmesi için harici işlemleri destekleyen üçüncü bir tarafa aktarılabilir.
 
 ## <a name="additional-features"></a>Ek özellikler
 

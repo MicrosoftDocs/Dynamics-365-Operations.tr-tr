@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (16 Ekim 2018)
-description: Bu konuda, Microsoft Dynamics 365 for Talent Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (16 Ekim 2018)
+description: Bu konuda, Microsoft Dynamics 365 Talent - Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/22/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 51cfe8a92d1ac611e946934fe8ebbc99053788f1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 13e89faa3f8470125010ccdb40a6f01c0a9c4fe7
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519329"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008789"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-19-2018"></a>Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (19 Ekim 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-19-2018"></a>Dynamics 365 Talent: Core HR'daki yenilikler veya değişiklikler (19 Ekim 2018)
 
 [!include[banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Bu işlevlere erişimi kontrol eden güvenlik görevi aşağıdaki gibidir:
 Aşağıdaki güncelleştirmeler bu sürümde yapıldı:
 - Çalışan işe alma eylemleri, artık **İş akışı tamam** durumunda "sıkışmasın" diye değiştirildi.
 - Peronsel kaydı, artık çalışma başlangıç tarihi olmadan oluşturulur.
-- Personel self servite gösterilen bir kurs için Dynamics 365 Talent kaydı, artık tarihteki zaman dilimi farkını uygular.
+- Personel self servisinde gösterilen bir kurs için Dynamics 365 Talent kaydı artık tarihteki saat dilimi farkını uyguluyor.
 - Excel dosyaları, **Personel Varlığı** kullanılarak artık hatasız şekilde birden çok kez içe aktarılır.
 
 ## <a name="known-issue"></a>Bilinen sorun

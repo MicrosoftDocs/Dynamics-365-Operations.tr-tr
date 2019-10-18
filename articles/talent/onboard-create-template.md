@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent - Onboard kullanarak ekleme şablonu oluşturma
-description: Bu konu, yeni işe alım kılavuzu için şablon oluşturmak üzere Dynamics 365 for Talent - Onboard uygulamasının nasıl kullanılacağını açıklamaktadır. Bu görev, insan sermaye yönetimi (HCM) için işe alma stratejisindeki temel bir ilk adımdır.
+title: Dynamics 365 Talent - Onboard'u kullanarak işe alım ve alıştırma şablonu oluşturma
+description: Bu konuda yeni işe alımlarda işe alım ve alıştırma şablonu oluşturmak için Dynamics 365 Talent - Onboard uygulamasının nasıl kullanılacağı açıklanmaktadır. Bu görev, insan sermaye yönetimi (HCM) için işe alma stratejisindeki temel bir ilk adımdır.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c53c24b2913e3ca30cfc6491556b49d5d9230128
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 63f13380f3d2c31c4cc9009142f320ad8a41e8ee
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731680"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009889"
 ---
-# <a name="create-an-onboarding-template-by-using-dynamics-365-for-talent-onboard"></a>Dynamics 365 for Talent: Onboard kullanarak ekleme şablonu oluşturma
+# <a name="create-an-onboarding-template"></a>İşe alım süreci şablonu oluşturma
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard mümkün olduğunca çabuk ekleme kılavuzu oluşturmanıza yardımcı olabilecek çeşitli şablonlar sağlar. Bu şablonlardan birini veya birkaçını kullanabilir ya da kendi şablonlarınızı oluşturabilirsiniz. Onboard, kendi şablonlarınızı oluştururken kullanabileceğiniz örnek metin sağlar. Bu nedenle, sıfırdan başlasanız bile işlem kolayca yapılır.
+Microsoft Dynamics 365 Talent: Onboard - Onboard, mümkün olduğunca çabuk işe alım ve alıştırma kılavuzu oluşturmanıza yardımcı olabilecek çeşitli şablonlar sunar. Bu şablonlardan birini veya birkaçını kullanabilir ya da kendi şablonlarınızı oluşturabilirsiniz. Onboard, kendi şablonlarınızı oluştururken kullanabileceğiniz örnek metin sağlar. Bu nedenle, sıfırdan başlasanız bile işlem kolayca yapılır.
 
 ## <a name="create-an-onboarding-template-from-an-existing-template"></a>Varolan şablondan ekleme şablonu oluşturma
 

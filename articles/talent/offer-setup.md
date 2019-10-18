@@ -1,6 +1,6 @@
 ---
-title: Teklif yönetimini ayarlayın
-description: Bu konu Talent'ta tekliflerin nasıl ayarlanacağını açıklar.
+title: Teklif yönetimini ayarlama
+description: Bu konuda tekliflerin Microsoft Dynamics 365 Talent'ta nasıl ayarlanacağı açıklanmaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519299"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010856"
 ---
-# <a name="set-up-offer-management"></a>Teklif yönetimini ayarlayın 
+# <a name="set-up-offer-management"></a>Teklif yönetimini ayarlama 
 
 [!include [banner](includes/banner.md)]
 
-Bir aday Dynamics 365 for Talent: Attract'ta bir teklif aşamasına geçtiğinde, tekliflerin aday için hızlı bir şekilde oluşturulduğundan, gerektiği gibi onaylandığından ve aday gönderildiğinden emin olmanız gerekir. Çoğu teklif standart olduğu için yeniden kullanılabilir şablonlardan oluşturulabilir. Attract'ta, tüm teklifler, bir veya daha fazla teklif belgesinden oluşan bir teklif paketine toplanır. 
+Bir aday, Dynamics 365 Talent: Attract'te bir teklif aşamasına geçtiğinde tekliflerin aday için hızlı bir şekilde oluşturulduğundan, gerektiği gibi onaylandığından ve adaya gönderildiğinden emin olmanız gerekir. Çoğu teklif standart olduğu için yeniden kullanılabilir şablonlardan oluşturulabilir. Attract'ta, tüm teklifler, bir veya daha fazla teklif belgesinden oluşan bir teklif paketine toplanır. 
 
 Bu konu, bir Attract yöneticisinin, Attract'taki teklif yönetim özelliklerinin bir parçası olarak farklı teklif paketi şablonları ayarlamak için izleyeceği tüm adımları listeler. Yönetici olmayan rollere sahip kullanıcılar için bu yeteneklerin erişimi olmaz.
 

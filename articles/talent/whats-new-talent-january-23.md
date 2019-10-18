@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (23 Ocak 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (23 Ocak 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent - Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 01/23/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4e492095d5269ec81c0c22145b7af356937c256b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: f1983d5a58fb2e6b1984727e1d7b44803b94cdce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742528"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023988"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (23 Ocak 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-january-23-2019"></a>Dynamics 365 Talent: Core HR'daki yenilikler veya değişiklikler (23 Ocak 2019)
 
 [!include [banner](includes/banner.md)]
 
@@ -53,5 +53,5 @@ Konumdaki işi değiştirirken, iş alanları konuma varsayılır. Bir uyarı il
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>Deneme süresi ve takvim, gelecekte işe alınan çalışanlar için görüntülenmez.
 Bu değişiklikle **Deneme süresi** ve **Takvim** alanları, **Değişiklikleri yönet** sayfasına gelecekteki ve geçmişteki çalışanlara veri girişine izin vermek için eklenir.
 
-### <a name="platform-update-23"></a>Platform güncelleştirmesi 23
-Küçük hata gidermeleri Platform güncelleştirmesi 23'ün parçası olarak dahil edilmiştir. Daha fazla bilgi için bkz [Dynamics 365 for Finance and Operations platform güncelleştirmesi 23'te neler yeni veya değişti (Ocak 2019) 23](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+### <a name="platform-update-23-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 23
+Finance and Operations için Platform güncelleştirmesi 23'ün parçası olarak küçük hata düzeltmeleri dahil edilmiştir. Daha fazla bilgi için bkz [Dynamics 365 Finance and Operations platform güncelleştirmesi 23'te neler yeni veya değişti (Ocak 2019) 23](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

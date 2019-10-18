@@ -1,6 +1,6 @@
 ---
 title: Giriş biçimleri ayarlama ve tasarlama
-description: Bu makale makbuz, fatura ve diğer belgelerin nasıl yazdırılacağını belirlemek için form düzenlerinin nasıl değiştirileceğini açıklar. Microsoft Dynamics 365 for Retail, çeşitli form düzenlerini kolayca oluşturmak ve değiştirmek için kullanabileceğiniz bir form düzeni tasarımcısına sahiptir.
+description: Bu makale makbuz, fatura ve diğer belgelerin nasıl yazdırılacağını belirlemek için form düzenlerinin nasıl değiştirileceğini açıklar. Dynamics 365 Retail, çeşitli form düzenlerini kolayca oluşturmak ve değiştirmek için kullanabileceğiniz bir form düzeni tasarımcısına sahiptir.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb85752b53d0d48f07bfed9423637cb6c646ab61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553080"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025137"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Giriş biçimleri ayarlama ve tasarlama
 
 [!include [banner](includes/banner.md)]
 
-Bu makale makbuz, fatura ve diğer belgelerin nasıl yazdırılacağını belirlemek için form düzenlerinin nasıl değiştirileceğini açıklar. Microsoft Dynamics 365 for Retail, çeşitli form düzenlerini kolayca oluşturmak ve değiştirmek için kullanabileceğiniz bir form düzeni tasarımcısına sahiptir.
+Bu makale makbuz, fatura ve diğer belgelerin nasıl yazdırılacağını belirlemek için form düzenlerinin nasıl değiştirileceğini açıklar. Dynamics 365 Retail, çeşitli form düzenlerini kolayca oluşturmak ve değiştirmek için kullanabileceğiniz bir form düzeni tasarımcısına sahiptir.
 
 > [!IMPORTANT]
 > Retail Modern POS ve Bulut POS'dan alınan girişleri ve diğer belgeleri yazdırmak için form düzenlerini ve giriş profillerini ayarlamanız gerekir. Bir giriş profiline birden çok form düzeni ekleyebilirsiniz.. Daha sonra bir donanım profilini değiştirerek giriş profilini bir yazıcıya atayabilirsiniz.
@@ -55,7 +55,7 @@ Form belgesinin düzenini grafik olarak oluşturmak için form düzen tasarımc�
 2. **Giriş biçimi** sayfasında, bir form düzeni seçin ve **Tasarımcı** seçeneğine tıklayın.
 3. Perakende tasarımcısı ana bilgisayarını yüklemeye başlamak için **Çalıştır** öğesine tıklayın.
 4. Internet Explorer penceresinin altında beliren Bildirim çubuğunda, tek işlemli tasarımcıyı yüklemeye başlamak için **Aç** öğesine tıklayın. (Bildirim çubuğu diğer tarayıcılarda farklı bir konumda görüntülenebilir.) İlerleme göstergesi yükleme işleminin ilerlemesini gösterir.
-5. Kurulum tamamlandıktan sonra, tasarımcıyı başlatmak için Dynamics 365 for Retail, Oturum açma sayfasında kullanıcı adınızı ve parolanızı girip **Oturum aç** tuşuna tıklayın.
+5. Kurulum tamamlandıktan sonra tasarımcıyı başlatmak için Retail kullanıcı adınızı ve parolanızı girip **Oturum aç**'a tıklayın.
 6. Bilgileriniz doğrulandıktan ve tasarımcı başlatıldıktan sonra, giriş biçimi tasarlamaya veya mevcut bir biçimi değiştirmeye başlayabilirsiniz.
 7. Formun öğelerini oluşturmak için, **Başlık**, **Satırlar** veya **Altbilgi** bölümünü seçip, bir öğeyi o bölümden çalışma alanına sürükleyin. Çoğu öğe otomatik olarak veritabanından gelen verilerle doldurulan değişkenleri içerir. **Metin** gibi diğer öğeler size giriş üzerindeki özel metni yazdırma olanağı verir.
 

@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3a6645bc55dfd4f03ce9872ff5017f1659b1f11c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562450"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017609"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
 
@@ -93,8 +93,8 @@ Veri paketi için bir zip dosyası indirebilirsiniz. Bu dosya tüm verileri seç
 
 **Yürütmeyi görüntüle** günlüğü içe aktarılan her veri varlığıyla ilgili ayrıntılı bilgi sağlar. Hedef verilere hızlıca gitmek için aşamalandırma verisi görünümünü kullanabilirsiniz. Bu şekilde, uygulamadaki ilgili sayfalarda içe aktarılan verilen nasıl göründüğünü görebilirsiniz. Varsayılan veri şablonlarını kullandığınızda, her veri varlığı için içe aktarma sırası önceden tanımlanan şekilde çalışarak tüm bağımlı verilerin önce içe aktarılmasını sağlamaya yardımcı olur. Özel veri varlıkları projesinin bir parçasıysa, doğru sıranın tanımlandığından emin olmanız gerekir. Daha fazla bilgi için bkz. [Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Ambarın yapılandırmasını bir şirketten yeni bir şirkete aynı örnek içinde kopyalamak için ambar şablonu kullanma hakkında daha fazla bilgi edinmek için YouTube'daki bu 3 dakikalık videoyu izleyin: [Ambar şablonunu Microsoft Dynamics 365 for Finance and Operations içine yapılandırmayı kopyalamak için kullanın](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Ambarın yapılandırmasını bir şirketten yeni bir şirkete aynı örnek içinde kopyalamak için ambar şablonu kullanma hakkında daha fazla bilgi edinmek için YouTube'daki şu 3 dakikalık videoyu izleyin: [Finance and Operations için yapılandırmayı kopyalamada ambar şablonu nasıl kullanılır?](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>İlgili konu
 
-[Konfigürasyon verisi şablonları](../../dev-itpro/data-entities/configuration-data-templates.md)
+[Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md)

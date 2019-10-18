@@ -1,6 +1,6 @@
 ---
 title: Kolaylaştırılmış çalışan girişi ve gezintisi
-description: Çalışanlar için Dynamics 365 for Talent veri girişi, geçmişte, etkin veya gelecekteki tüm çalışanlar için hızlı girişe izin verecek şekilde geliştirilmiştir. Basitleştirilmiş/birleştirilmiş bir gezinti modeli, ilgili bilgilere hızla ulaşmak ve gerekli güncelleştirmeleri yapmak için güncelleştirilmiştir.
+description: Çalışanlar için Dynamics 365 Talent veri girişi, geçmişte, etkin veya gelecekteki tüm çalışanlar için hızlı girişe izin verecek şekilde geliştirilmiştir. Basitleştirilmiş/birleştirilmiş bir gezinti modeli, ilgili bilgilere hızla ulaşmak ve gerekli güncelleştirmeleri yapmak için güncelleştirilmiştir.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: be0253ffc4396f36050ef02c51a20d378e44473d
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918227"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009434"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Kolaylaştırılmış çalışan girişi ve gezintisi
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Talent, çalışan ve iş verilerinin etkili şekilde girişine olanak sağlar. Geçmiş, etkin ve gelecekteki çalışanlar ve yükleniciler için çalışma geçmişi bilgilerini hızlı şekilde güncelleştirebilirsiniz.
+Dynamics 365 Talent, çalışan ve iş verilerinin etkili şekilde girişine olanak sağlar. Geçmiş, etkin ve gelecekteki çalışanlar ve yükleniciler için çalışma geçmişi bilgilerini hızlı şekilde güncelleştirebilirsiniz.
 
 Ayrıca, hızlı bir şekilde ilgili bilgileri bulmak ve gerekli değişiklikleri yapmak için basitleştirilmiş bir gezinme deneyimini etkinleştirebilirsiniz. Bu işlevsellik artık korumalı ortamlarda kullanılabilir. Bu özelliği etkinleştirmek için **Sistem yönetimi > Bağlantılar > Kurulum > Sistem parametreleri > Önizleme özellikleri**ne gidin. **Gelişmiş çalışan formu ve gezinme**'yi seçin. Bu değişiklikler tüm kullanıcılar için etkinleştirilir. Bu seçeneği istediğiniz zaman kapatabilirsiniz.
 

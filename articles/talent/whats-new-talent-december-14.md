@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (14 Aralık 2018)
-description: Bu konuda, Microsoft Dynamics 365 for Talent Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (14 Aralık 2018)
+description: Bu konuda, Microsoft Dynamics 365 Talent - Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519287"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024034"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (14 Aralık 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>Dynamics 365 Talent: Core HR'daki yenilikler veya değişiklikler (14 Aralık 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ Tahmin olanağı serbest bırakıldığı zaman, bakiye, bugünkü tahakkuklar d
 
 ## <a name="known-issue"></a>Bilinen sorun
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Finance and Operations ile tümleştirmede eşleşme hataları
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Finance ile tümleştirmede eşleşme hataları
 
-Talent'ın Dynamics 365 for Finance and Operations ile tümleştirilmesinde geçerli şablonda aşağıdaki sorunlar belirlenmiştir. Yeni bir şablon hemen yayımlanır ve oluşturulan tüm yeni tümleştirme projelerine uygulanır. Varolan tümleştirme projeleri için görev eşleştirmeleri güncelleştirilebilir. Güncelleştirilmiş eşleşmeler için aşağıdaki tabloya bakın. 
+Talent'ın Dynamics 365 Finance ile tümleştirilmesinde geçerli şablonda aşağıdaki sorunlar belirlenmiştir. Yeni bir şablon hemen yayımlanır ve oluşturulan tüm yeni tümleştirme projelerine uygulanır. Varolan tümleştirme projeleri için görev eşleştirmeleri güncelleştirilebilir. Güncelleştirilmiş eşleşmeler için aşağıdaki tabloya bakın. 
 
 >[!NOTE]
 > İş Pozisyonları ve Pozisyonlar Ana İş Atama görevi, veri tümleştirmez. Bunun şu anda araştırması yapılmaktadır. Geçerli eşleme içinde geçici çözüm yoktur. 

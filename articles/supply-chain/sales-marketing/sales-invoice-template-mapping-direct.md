@@ -1,6 +1,6 @@
 ---
-title: Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
-description: Bu konu, satış faturası başlıklarını ve satırlarını Microsoft Dynamics 365 for Finance and Operations'den Microsoft Dynamics 365 for Sales'ye eşitlemek için altta yatan görevleri ve şablonları açıklar.
+title: Supply Chain Management'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
+description: Bu konu, satış faturası başlıklarını ve satırlarını Dynamics 365 Supply Chain Management'tan Dynamics 365 Sales'e eşitlemek için kullanılan temel görevleri ve şablonları açıklamaktadır.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,22 +19,22 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 94442eb11aac3faf8a412944617686853a12128d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552942"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251673"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, satış faturası başlıklarını ve satırlarını Microsoft Dynamics 365 for Finance and Operations'den Microsoft Dynamics 365 for Sales'ye eşitlemek için altta yatan görevleri ve şablonları açıklar.
+Bu konu, satış faturası başlıklarını ve satırlarını Dynamics 365 Supply Chain Management'tan Dynamics 365 Sales'e eşitlemek için kullanılan temel görevleri ve şablonları açıklamaktadır.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 
-Aday müşteriden nakde çözümü Finance and Operations ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri Tümleştirme özelliği içindeki Aday müşteriden nakde şablonları, hesaplar, ilgili kişiler, ürünler ve satış teklifleri, satış siparişleri ve satış faturalarının Finance and Operations ve Sales arasında veri akışını etkinleştirir. Finance and Operations ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
+Aday müşteriden nakde çözümü Supply Chain Management ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri Tümleştirme özelliği içindeki Aday müşteriden nakde şablonları, hesaplar, ilgili kişiler, ürünler ve satış teklifleri, satış siparişleri ve satış faturalarının Finance and Operations ve Sales arasında veri akışını etkinleştirir. Supply Chain Management ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
 
 [![Aday müşteriden nakde çözümünde veri akışı](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -52,30 +52,30 @@ Aşağıdaki şablon ve altta yatan görevler, satış faturası başlıkların�
 
 Aşağıdaki eşitleme görevleri, satış faturası başlıkları ve satırlarının eşitlemesi gerçekleşebilmeden önce gereklidir.
 
-- Ürünler (Fin and Ops'tan Sales'a) - Doğrudan
-- Hesaplar (Sales'tan Fin and Ops'a) - Doğrudan (kullanılıyorsa)
-- İlgili kişiler (Sales'tan Fin and Ops'a) - Doğrudan (kullanılıyorsa)
-- Satış siparişi başlığı ve satırları (Fin and Ops'tan Sales'a) - Doğrudan
+- Ürünler (Supply Chain Management'tan Sales'e) - Doğrudan
+- Hesaplar (Sales'ten Supply Chain Management'a) - Doğrudan (kullanılıyorsa)
+- İlgili Kişiler (Sales'ten Supply Chain Management'a) - Doğrudan (kullanılıyorsa)
+- Satış siparişi başlığı ve satırları (Supply Chain Management'tan Sales'e) - Doğrudan
 
 ## <a name="entity-set"></a>Varlık kümesi
 
-| Finance and Operations                               | Satış          |
+| Supply Chain Management                              | Satışlar          |
 |------------------------------------------------------|----------------|
 | Harici olarak korunan müşteri satış faturası başlıkları | Faturalar       |
 | Harici olarak korunan müşteri satış faturası satırları   | InvoiceDetails |
 
 ## <a name="entity-flow"></a>Varlık akışı
 
-Finance and Operations'ta oluşturulmuş ve Sales'a eşitlenmiş satış faturaları.
+Satış faturaları Supply Chain Management'ta oluşturulur ve Sales'e eşitlenir.
 
 > [!NOTE]
-> Şu anda, satış faturası başlığı üzerindeki masraflarla ilişkili vergiler, Finance and Operations'tan Sales'a eşitlemeye dahil değildir. Sales vergi bilgisini başlık düzeyinde desteklemez. Bununla birlikte, satır düzeyinde masraflarla ilgili vergi eşitlemeye dahil edilir.
+> Şu anda, satış faturası başlığı üzerindeki masraflarla ilişkili vergiler, Supply Chain Management'tan Sales'e eşitlemeye dahil değildir. Sales vergi bilgisini başlık düzeyinde desteklemez. Bununla birlikte, satır düzeyinde masraflarla ilgili vergi eşitlemeye dahil edilir.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Sales için Aday müşteriden nakde çözümü
 
 - Bir **Fatura numarası** alanı **Fatura** varlığına eklenmiştir ve sayfada görüntülenir.
-- **Satış siparişi** sayfasındaki **Fatura oluştur** düğmesi gizlidir çünkü faturalar Finance and Operations'ta oluşturulacak ve Sales'a eşitlenecektir. **Fatura** sayfası düzenlenemez çünkü faturalar Finance and Operations'tan eşitlenecektir.
-- **Satış siparişi durumu** değeri ilgili fatura Finance and Operations'tan Sales'a eşitlendiğinde otomatik olarak **Faturalandı** olarak değişir. Ayrıca, faturanın oluşturulduğu satış siparişinin sahibi, faturanın sahibi olarak atanır. Bu nedenle, satış siparişinin sahibi faturayı görebilir.
+- **Satış siparişi** sayfasındaki **Fatura oluştur** düğmesi gizlidir çünkü faturalar Supply Chain Management'ta oluşturulacak ve Sales'e eşitlenecektir. **Fatura** sayfası düzenlenemez çünkü faturalar Supply Chain Management'tan eşitlenecektir.
+- **Satış siparişi durumu** değeri ilgili fatura Supply Chain Management'tan Sales'e eşitlendiğinde otomatik olarak **Faturalandı** olarak değişir. Ayrıca, faturanın oluşturulduğu satış siparişinin sahibi, faturanın sahibi olarak atanır. Bu nedenle, satış siparişinin sahibi faturayı görebilir.
 
 ## <a name="preconditions-and-mapping-setup"></a>Önkoşullar ve eşleme kurulumu
 
@@ -96,14 +96,14 @@ Satış faturalarını eşitlemeden önce, sistemlerde aşağıdaki ayarları g�
 
     Şablon değeri, birçok ülkenin veya bölgenin eşleştirildiği bir değer eşlemesidir.
 
-- Fiyat listesi Sales içerisinde faturalar oluşturmak için gereklidir. **pricelevelid.name \[Fiyat listesi adı\]** için değer eşlemesini para birimi başına Sales'ta kullanılan fiyat listesine güncelleştirin.  Tek bir para birimi için varsayılan fiyat listesini kullanabilirsiniz. Bunun yerine, birden fazla para biriminde fiyat listeleriniz varsa, bir değer eşlemesi kullanabilirsiniz.
+- Fiyat listesi Sales içerisinde faturalar oluşturmak için gereklidir. **pricelevelid.name \[Fiyat listesi adı\]** için değer eşlemesini para birimi başına Sales'ta kullanılan fiyat listesine güncelleştirin. Tek bir para birimi için varsayılan fiyat listesini kullanabilirsiniz. Bunun yerine, birden fazla para biriminde fiyat listeleriniz varsa, bir değer eşlemesi kullanabilirsiniz.
 
     **pricelevelid.name \[Fiyat listesi adı\]** için şablon değeri USD = CRM Hizmeti ABD (örnek) ile para birimini temel alan bir değer eşlemesidir.  
     
 #### <a name="salesinvoiceline-task"></a>SalesInvoiceLine görevi
 
 - **Ölçüm birimi** için gerekli eşlemenin mevcut olduğundan emin olun.
-- Finance and Operations'da **SalesUnitSymbol** için gerekli değer eşlemesinin mevcut olduğundan emin olun.
+- Supply Chain Management'ta **SalesUnitSymbol** için gerekli değer eşlemesinin mevcut olduğundan emin olun.
 
     Bir değer eşlemesi bulunan şablon değeri **SalesUnitSymbol** için **Quantity\_UOM** olarak tanımlanır.
 
@@ -115,7 +115,7 @@ Satış faturalarını eşitlemeden önce, sistemlerde aşağıdaki ayarları g�
 Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gösterir. 
 
 > [!NOTE]
-> Eşleme hangi alan bilgilerinin Sales'den Finance and Operations'a eşitleneceğini gösterir.
+> Eşleme hangi alan bilgilerinin Sales'den Supply Chain Management'a eşitleneceğini gösterir.
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
@@ -129,18 +129,12 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 
 ## <a name="related-topics"></a>İlgili konular
 
-[Müşteri adayından nakde](prospect-to-cash.md)
+[Aday müşteriden nakde](prospect-to-cash.md)
 
-[Hesapları doğrudan Sales'tan Finance and Operations'taki müşterilerle eşitleme](accounts-template-mapping-direct.md)
+[Sales'deki hesapları doğrudan Supply Chain Management'daki müşterilerle eşitleme](accounts-template-mapping-direct.md)
 
-[Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme](products-template-mapping-direct.md)
+[Supply Chain Management'daki ürünleri doğrudan Sales'deki ürünlerle eşitleme](products-template-mapping-direct.md)
 
-[Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](contacts-template-mapping-direct.md)
+[Sales'teki ilgili kişileri doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme](contacts-template-mapping-direct.md)
 
-[Finance and Operations'daki satış siparişi başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-order-template-mapping-direct-two-ways.md)
-
-
-
-
-
-
+[Supply Chain Management'daki satış siparişi başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-order-template-mapping-direct-two-ways.md)

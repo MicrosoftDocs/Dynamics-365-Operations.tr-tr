@@ -18,19 +18,19 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569788"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017886"
 ---
 # <a name="import-vendor-catalogs"></a>Satıcı kataloglarını içe aktarma
 [!include[banner](../includes/banner.md)]
 
 ## <a name="vendor-catalogs-import"></a>Satıcı kataloglarını içe aktarma
 
-Microsoft Dynamics 365 for Finance and Operations'da, satınalma uzmanları, şirket personelinin dahili kullanım için maddeler ve hizmetler sipariş ederken kullanabileceği kataloglar oluşturabilir ve yönetebilir. Tedarik kataloğu oluşturmak için personele sunmak istediğiniz maddeleri ve hizmetleri ürün katalog verilerini içe aktararak veya ürün katalog verilerini ana ürüne el ile ekleyerek ilave edebilirsiniz. 
+Dynamics 365 Supply Chain Management'da, satınalma uzmanları, şirket personelinin dahili kullanım için maddeler ve hizmetler sipariş ederken kullanabileceği kataloglar oluşturabilir ve yönetebilir. Tedarik kataloğu oluşturmak için personele sunmak istediğiniz maddeleri ve hizmetleri ürün katalog verilerini içe aktararak veya ürün katalog verilerini ana ürüne el ile ekleyerek ilave edebilirsiniz. 
 
 Microsoft Dynamics 365 istemcisinden bir satıcı tarafından gönderilen katalog verilerini yükleyebilirsiniz.
 
@@ -52,7 +52,7 @@ Satıcı katalog verilerini içe aktarmak için aşağıdaki görevleri tamamlam
 
 6.  CMR dosyasını yükleyin.
 
-7.  Satıcı kataloğundaki ürünleri gözden geçirin, onaylayın veya reddedin. Ürünler, Dynamics 365 for Finance and Operations içindeki tedarik kategorilerine otomatik eşlenir. 
+7.  Satıcı kataloğundaki ürünleri gözden geçirin, onaylayın veya reddedin. Ürünler, tedarik kategorilerine otomatik olarak eşlenir. 
     
 Onaylana ürünler ana ürüne eklenir ve seçilen tüzel kişiliklere serbest bırakılır. Yalnızca onaylanmış ürünler tedarik kataloğuna eklenebilir.
 

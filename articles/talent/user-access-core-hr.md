@@ -1,6 +1,6 @@
 ---
-title: Kullanıcılar Core HR'a erişebilir ancak Onboard ve Attract uygulamasına erişemez
-description: Bu konu, kullanıcının Microsoft Dynamics 365 for Talent Core HR'a erişebildiği ancak Attract veya Onboard'a erişemediği sorunu ortadan kaldırmayı anlatır.
+title: Kullanıcı Core HR'a erişebiliyor ancak Onboard'a veya Attract'a erişemiyor
+description: Bu konu, kullanıcının Microsoft Dynamics 365 Talent - Core HR'a erişebildiği ancak Attract'a veya Onboard'a erişemediği sorunu ortadan kaldırmayı açıklamaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6fc27a4c137fef2f8d204d90366c316389da08e6
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 80b1f8aeabfd033f393463f4be5a61447377f2d9
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741741"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009318"
 ---
-# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a>Kullanıcı Core HR'a erişebiliyor ancak Onboard veya Attract uygulamasına erişemiyor
+# <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>Kullanıcı Core HR'a erişebiliyor ancak Onboard'a veya Attract'a erişemiyor
 
 [!include [banner](includes/banner.md)]
 
 **Ortam ayrıntıları**
 
 - Microsoft Dynamics Lifecycle Services (LCS) dağıtımı kullanıcı A tarafından yapıldı.
-- Kullanıcı A, kullanıcı B'yi Microsoft Dynamics 365 for Talent Core HR'a bir kullanıcı olarak ekledi.
+- Kullanıcı A, kullanıcı B'yi Microsoft Dynamics 365 Talent: Core HR'a bir kullanıcı olarak ekledi.
 
-**Stok çıkışı**
+**Çıkış**
 
 Kullanıcı B, Core HR'a erişebilmektedir ancak Talent: Attract veya Talent: Onboard uygulamasına erişememektedir. Kullanıcı **Deneyim uygulamalarına** gitmeyi denediğinde, deneme ortamına aktarılmaktadır.
 

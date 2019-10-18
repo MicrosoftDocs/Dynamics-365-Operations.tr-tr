@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'deki yenilikler veya değişiklikler (16 Nisan 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'deki yenilikler veya değişiklikler (16 Nisan 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519285"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024149"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Dynamics 365 for Talent'deki yenilikler veya değişiklikler (16 Nisan 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Dynamics 365 Talent'deki yenilikler veya değişiklikler (16 Nisan 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Dynamics 365 Talent'daki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 
@@ -39,7 +39,7 @@ Artık adaylar, açılan işler veya iş başvurularında yapılan değişiklikl
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
 
-Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 
@@ -47,11 +47,11 @@ Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2239 için geçer
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Common Data Service'taki Ücret bölgesi, Ücret düzeyi, Kazanç seçeneği ve Yetenek türü varlıkları müşteri alanı desteğini içerecek şekilde güncelleştirildi
 
-Bu sürümde, bu Common Data Service varlıkları, Talent (Core HR) üzerinden eklenen özel alanı dahil etme yeteneğini içerecek şekilde güncelleştirilmiştir.
+Bu sürümde, bu Common Data Service varlıkları, Talent: Core HR üzerinden eklenen özel alanı dahil etme yeteneğini içerecek şekilde güncelleştirilmiştir.
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Yeni Common Data Service varlık desteği: Ücret hakediş kuralları, Ücret değişken planı, Değişken ücret için
 
-Bu sürümde, Common Data Service'a Ücret hakediş kuralları, Ücret değişken planı ve Değişken ücret varlıkları eklendi. Bu varlıklar ayrıca Talent (Core HR) üzerinden eklenen özel alanları da destekler.
+Bu sürümde, Common Data Service'a Ücret hakediş kuralları, Ücret değişken planı ve Değişken ücret varlıkları eklendi. Bu varlıklar ayrıca Talent: Core HR üzerinden eklenen özel alanları da destekler.
 
 ### <a name="powerbi-refresh-issues-314342"></a>PowerBI yenileme sorunları (314342)
 
@@ -95,6 +95,6 @@ Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve
 
 ### <a name="email-support-for-alerts"></a>Uyarılar için e-posta desteği
 
-Platform güncelleştirmesi 25 ile kullanıcılar otomatik olarak, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere gönderen uyarı kuralları oluşturabilirler.
+Finance and Operations için Platform güncelleştirmesi 25 ile, kullanıcılar, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere otomatik olarak gönderen uyarı kuralları oluşturabilirler.
 
 

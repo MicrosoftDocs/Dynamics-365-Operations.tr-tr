@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'daki yenilikler veya değişiklikler (26 Mart 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (26 Mart 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/26/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741579"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023896"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (26 Mart 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (26 Mart 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 
@@ -46,14 +46,14 @@ Artık resimleri doğrudan etkinliklere katıştırabilirsiniz. Web'den resimler
 
 [![Eşleştirme](./media/embedimages.png)](./media/embedimages.png)
 
-Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 **Derleme 8.1.2210**
 
 ### <a name="custom-field-support-available-for-select-entities-in-common-data-service"></a>Özel alan desteği, Common Data Service içindeki seçili varlıklarda kullanılabilir 
 
-Aşağıdaki Common Data Service varlıkları artık Dynamics 365 for Talent içinde oluşturulan özel alanları desteklemektedir:
+Aşağıdaki Common Data Service varlıkları, Talent'ta oluşturulan özel alanları artık destekliyor:
 
 - Çalışan
 - Etnik köken
@@ -72,10 +72,10 @@ Bu değişiklik ile, çalışan geçmişi sayfası artık çalışma kayıtları
 Bu sürümde, sabit ücret planları artık kullanıcıları güvenlik içinde şirket bazın sınırlarken görüntülenir. Tüm güvenlik ayarları dikkate alınacaktır ve sabit planlar, kullanıcının erişime izni olduğu şirketler için görüntülenecektir. 
 
 ### <a name="cant-delete-job-records-using-open-in-excel-option-in-talent"></a>Talent içinde Excel içinde Aç seçeneğini kullanarak İş kayıtları silinemiyor
-Bu sürüm ile birlikte, **Excel içinde aç** seçeneğini Dynamics 365 for Talent içinde kullanarak iş kayıtlarını artık silebilirsiniz.
+Bu sürümle, Talent'taki **Excel'de aç** seçeneğini kullanarak iş kayıtlarını artık kaldırabilirsiniz.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'a yükseltin
-Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezine oturum açarak veritabanınızın yükseltilmeye ihtiyacı olup olmadığını görün. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezi'nde oturum açarak veritabanınızın yükseltilmeye gereksinimi olup olmadığını belirleyin. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Ön izlemede
 
@@ -93,7 +93,7 @@ Kuruluşlar, bir çalışan izin talebi gönderdiğinde belirli izin türleri i�
 Pek çok kuruluşta, ücret ve kazanç yöneticilerinin yalnızca belirli ücret kayıtlarına erişimi olabilir. Bunlar yöneticiler veya bölgesel çalışanlar için olabilir. Bu değişiklik ile IK, yönetimini değiştirebilir ve ücret planlarını kuruluş içindeki farklı personel grupları için korur. Planlar ve planlarla ilişkili personel verilerine, örneğin maaş veya ikramiye kayıtlarına erişimi belirleyen sabit ve değişken planlara güvenlik rolleri atayabilirsiniz. Yalnızca erişime sahip roller bu çalışanlar için işlem ücretine erişebilir.
 
 ###  <a name="email-support-for-alerts"></a>Uyarılar için e-posta desteği
-Platform güncelleştirmesi 25 ile kullanıcılar otomatik olarak, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere gönderen uyarı kuralları oluşturabilirler. 
+Finance and Operations için Platform güncelleştirmesi 25 ile kullanıcılar bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere otomatik olarak gönderen uyarı kuralları oluşturabilirler. 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Yinelenen personel çekleri: Kullanıcı arabirimi değişiklikleri
 Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve yinelenenlerin sayısını görüntüleyen bir durum gösterilir. Sağlanan bağlantıyı tespit edilen eşleşmeyi kullanıp kullanmamak üzere yeni bir sayfa açmak için seçebilirsiniz. Veri girişinin kesilmesini engellemek için yinelenenler formu otomatik olarak açılmaz.

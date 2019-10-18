@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9efbd9651f6a2fa57e761238c6acfe6111e986e6
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874774"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249621"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Bakım işi türü kategorileri ve bakım işi türleri, bakım işi türü çeşitlemeleri, bakım zanaatları ve bakım denetim listeleri
 
@@ -225,7 +225,7 @@ Bakım denetim listesi şablonları bir çalışanın iş emrini doğru şekilde
 26. Seçilen bakım işi türü varsayılan satırında ekleri ayarlamak için **Belge ekle**'yi seçin. Bakım işi türü varsayılan satırında ayarlanan ekler, bu bakım işi türü varsayılan satırını kullanan iş emri satırlarına otomatik olarak eklenir.
 27. **Yeni**'yi ve ardından belge türünü seçin.
 28. Belgeyi veya dosyayı karşıya yükleyin.
-29. **Ekler** sayfasında alanları ayarlayın. Ek kurulumu, Microsoft Dynamics 365 for Finance and Operations'taki standart belge kurulumu işlevini kullanır.
+29. **Ekler** sayfasında alanları ayarlayın. Ek kurulumunda standart belge kurulumu işlevi kullanılır.
 30. Eki kaydetmek için **Kaydet**'i seçin.
 
     > [!NOTE]
@@ -261,7 +261,7 @@ Gerekli bakım işi türü varsayılan birleşimlerini oluşturmanızın ardınd
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Bakım işi türü tahminlerinin otomatik güncelleştirmesi
 
-Varlık Yönetimi'nde, Finance and Operations'taki diğer modüllerde güncelleştirilen saat maliyetleri, madde maliyetleri ve giderler için bakım işi türü tahminlerindeki değişiklikleri otomatik olarak güncelleştirebilirsiniz. Bu şekilde, bakım işi türü tahminlerinizin her zaman en son maliyet fiyatlarını kullanmasını sağlamaya yardımcı olursunuz.
+Varlık Yönetimi'nde, diğer modüllerde güncelleştirilen saat maliyetleri, madde maliyetleri ve giderler için bakım işi türü tahminlerindeki değişiklikleri otomatik olarak güncelleştirebilirsiniz. Bu şekilde, bakım işi türü tahminlerinizin her zaman en son maliyet fiyatlarını kullanmasını sağlamaya yardımcı olursunuz.
 
 1. **Varlık yönetimi** \> **Periyodik** \> **Tahmin** \> **Bakım işi türü tahminini güncelleştir**'i seçin.
 2. **Bakım işi türü tahminini güncelleştir** iletişim kutusunda **Eklenecek kayıtlar** hızlı sekmesinde gerektiğinde belirli bakım işi türleri için seçimler ekleyebilirsiniz. **Filtre**'yi seçin ve ardından seçim yapmak için **Seç**'i belirleyin.

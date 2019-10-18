@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent - Attract'in hangi sürümü?
-description: Bu konu, Microsoft Dynamics 365 for Talent - Attract'ın farklı sürümlerindeki yeterlilikler hakkında bilgi sağlar.
+title: Microsoft Dynamics 365 Talent - Attract'ın hangi sürümü?
+description: Bu konu, Microsoft Dynamics 365 Talent- Attract'ın farklı sürümlerindeki yeterlilikler hakkında bilgi sağlar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739735"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009958"
 ---
 # <a name="which-version-of-attract"></a>Attract'ın hangi sürümü?
 
 [!include[banner](../includes/banner.md)]
 
-Sizin için doğru olan Microsoft Dynamics 365 for Talent: Attract sürümü, kuruluşunuzun boyutu ve ihtiyaçlarına bağlıdır. Attract'in temel sürümü, işe alım yöneticisinin birincil kullanıcı olduğu daha küçük ekipler ve kuruluşlara yöneliktir. Bir veya daha fazla lisans ile Attract'in temel sürümünü kullanmaya başlayabilirsiniz.
+Sizin için doğru olan Microsoft Dynamics 365 Talent: Attract sürümü, kuruluşunuzun boyutu ve ihtiyaçlarına bağlıdır. Attract'in temel sürümü, işe alım yöneticisinin birincil kullanıcı olduğu daha küçük ekipler ve kuruluşlara yöneliktir. Bir veya daha fazla lisans ile Attract'in temel sürümünü kullanmaya başlayabilirsiniz.
 
 Kapsamlı İşe Alma Eklentisi ile Attract, işe alım veya yetenek uzmanının birincil kullanıcı olduğu orta ve büyük boyutlu ekipleri veya kuruluşları hedeflemektedir. Kapsamlı İşe Alma Eklentisi, lisansların bir [Microsoft Dynamics 365 ortağı](https://dynamics.microsoft.com/partners/find-a-partner/) aracılığıyla satın alınmasını gerektirir.
 

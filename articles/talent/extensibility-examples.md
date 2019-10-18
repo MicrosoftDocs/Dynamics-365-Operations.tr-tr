@@ -1,13 +1,13 @@
 ---
 title: PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek senaryolar
-description: Bu konu, Microsoft PowerApps ve Microsoft Flow kullanan Microsoft Dynamics 365 for Talent için bazı örnek genişletilebilirlik senaryolarını açıklar.
+description: Bu konu, Microsoft PowerApps ve Microsoft Flow kullanan Microsoft Dynamics 365 Talent için bazı örnek genişletilebilirlik senaryolarını açıklar.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.technology: Dynamics 365 Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
-ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
+ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1781454"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008071"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek senaryolar
 
-Bu konu, Microsoft PowerApps ve Microsoft Flow kullanan Microsoft Dynamics 365 for Talent için bazı örnek genişletilebilirlik senaryolarını açıklar. Her bir örnek ile ilişkilendirilmiş çözüm paketini PowerApps ortamınıza içe aktarabilirsiniz. Daha sonra paketleri kılavuz veya başlangıç noktası olarak kullanarak, kuruluşunuza uygun olan senaryoları gerçekleştirmek için kullanabilirsiniz.
+Bu konu, Microsoft PowerApps ve Microsoft Flow kullanan Microsoft Dynamics 365 Talent için bazı örnek genişletilebilirlik senaryolarını açıklar. Her bir örnek ile ilişkilendirilmiş çözüm paketini PowerApps ortamınıza içe aktarabilirsiniz. Daha sonra paketleri kılavuz veya başlangıç noktası olarak kullanarak, kuruluşunuza uygun olan senaryoları gerçekleştirmek için kullanabilirsiniz.
 
 > [!IMPORTANT]
 > Bu konuda açıklanan şablonları ve uygulamayı "olduğu gibi" kullanmak istiyorsanız, uygulamanıza spesifik olan tüm senaryoları kapsadıklarından emin olmak için test ettiğinizden emin olun.
@@ -79,7 +79,7 @@ Bu uygulama, diğer senaryolar için kullanılabilecek şekilde genişletilebili
 
 Bu şablon, adaylık aşamasında işe alma süreci boyunca değişiklikleri takip etmek için ve işe alma ekibi ve adaya bildirimler göndermek için genişletilebilir.
 
-Genel olarak, Common Data Service içinde depolanan varlıklar, akışlar Core HR veya Dynamics 365 Talent: Onboard içinde gerçekleşen etkinlikler için bildirimler göndermek üzere ayarlanabilir.
+Genel olarak, Common Data Service içinde depolanan varlıklar, akışlar Core HR, Attract veya Onboard içinde gerçekleşen etkinlikler için bildirimler göndermek üzere ayarlanabilir.
 
 **Akış - E-posta Bildirimi** şablonunu indirmek için [Akış - E-posta bildirimi](https://go.microsoft.com/fwlink/?linkid=2082103)'ne Microsoft Download Center'dan gidin.
 
@@ -106,7 +106,7 @@ Paylaşılan bir yetenek havuzuna aday eklemek için referans uygulamasını kul
 
 Bu uygulamayı, referanslar göndermek için çalışan self servisi'ne (ESS) katıştırabilir veya bunu şirket portalında köprü olarak kullanıp tek başına çalışan bir uygulama olarak kullanabilirsiniz.
 
-**Referans uygulamasını** karşıdan yüklemek için [Dynamics 365 for Talent genişletilebilirlik çözümü: Referans uygulaması](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) gidip Microsoft Yükleme Merkezi'nden indirin. Bu uygulamayı içe aktarabilir ve başka işlevler eklemek için özelleştirebilirsiniz.
+**Referans uygulamasını** karşıdan yüklemek için [Dynamics 365 Talent genişletilebilirlik çözümü: Referans uygulaması](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) gidip Microsoft Yükleme Merkezi'nden indirin. Bu uygulamayı içe aktarabilir ve başka işlevler eklemek için özelleştirebilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

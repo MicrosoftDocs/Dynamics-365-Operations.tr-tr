@@ -1,6 +1,6 @@
 ---
 title: Attract'ta güvenlik ve rol yönetimi
-description: Bu konu, Microsoft Dynamics 365 for Talent - Attract içindeki rol güvenliği hakkında bilgi sağlar.
+description: Bu konu, Microsoft Dynamics 365 Talent - Attract'taki rol güvenliği hakkında bilgi sağlamaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3f804b5f79b813cf504c3deb4a95e678c6fcbf87
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ad94a7511afef0c68fb8f2a70402babb80b0f9ad
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739852"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024218"
 ---
 # <a name="set-user-permissions"></a>Kullanıcı izinlerini ayarlama
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract rol tabanlı güvenlik kullanır. Başka bir deyişle, erişim bireysel kullanıcılara değil, kullanıcılara atanan güvenlik rollerine verilir. Bir güvenlik rolüne atanmış bir kullanıcı bu rolle ilişkilendirilen ayrıcalıkları kümesine erişebilir.
+Microsoft Dynamics 365 Talent: Attract rol tabanlı güvenlik kullanır. Başka bir deyişle, erişim bireysel kullanıcılara değil, kullanıcılara atanan güvenlik rollerine verilir. Bir güvenlik rolüne atanmış bir kullanıcı bu rolle ilişkilendirilen ayrıcalıkları kümesine erişebilir.
 
 Attract, beş temel kullanıcı rolleri sağlar:
 
@@ -52,7 +52,7 @@ Aşağıdaki bölümler her rolün üst düzey bir açıklamasını sağlar. Kon
 
 ## <a name="administrator"></a>Yönetici
 
-Yönetici rolüne atanan kullanıcılar Attract'ta tüm verilere erişebilir ve değiştirebilir. Yöneticiler veriler oluşturur, okur, günceller ve siler. Bunlar ayrıca Yönetici Merkezi'ne de erişebilir ve burada Attract uygulama yapılandırabilir ve kullanıcı bilgilerini ayarlar. En az bir kişi Yönetici rolüne atanması önerilir. Varsayılan olarak, Microsoft PowerApps ortam yöneticisi Attract'ta bir yönetici olarak ayarlanır. Attract'ın deneme sürümüne kaydolursanız Yönetici rolü otomatik olarak size atanır. Şu anda işler oluşturmak için Yönetici rolüne sahip kullanıcılar da İşe alan rolü veya İşe alma yöneticisi rolüne sahip olmalıdır.
+Yönetici rolüne atanan kullanıcılar Attract'ta tüm verilere erişebilir ve değiştirebilir. Yöneticiler veriler oluşturur, okur, günceller ve siler. Yöneticiler ayrıca Yönetici Merkezi'ne de erişebilir ve burada Attract uygulamasını yapılandırabilir ve kullanıcı bilgilerini ayarlayabilirler. En az bir kişi Yönetici rolüne atanması önerilir. Varsayılan olarak, Microsoft PowerApps ortam yöneticisi Attract'ta bir yönetici olarak ayarlanır. Attract'ın deneme sürümüne kaydolursanız Yönetici rolü otomatik olarak size atanır. Şu anda işler oluşturmak için Yönetici rolüne sahip kullanıcılar da İşe alan rolü veya İşe alma yöneticisi rolüne sahip olmalıdır.
 
 ## <a name="hiring-manager"></a>İşe Alım Müdürü
 

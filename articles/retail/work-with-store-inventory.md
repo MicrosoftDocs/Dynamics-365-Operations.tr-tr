@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a8408aa730bc1916f1c57b7cfd773966ce8bf
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c5da94e02b2381bbd058221567172cd428931c45
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606815"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024695"
 ---
 # <a name="store-inventory-management"></a>Mağaza stok yönetimi
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Retail içine stok ile çalışırken ve POS uygulamasını kullanırken, POS'un stok boyutları ve çeşitli stok öğesi türleri için sınırlı destek sağladığını dikkate almak önemlidir.
+Dynamics 365 Retail içine stok ile çalışırken ve POS uygulamasını kullanırken, POS'un stok boyutları ve çeşitli stok öğesi türleri için sınırlı destek sağladığını dikkate almak önemlidir.
 
 POS çözümü aşağıdaki öğe yapılandırmalarını desteklemez:
 
@@ -56,7 +56,7 @@ POS çözümü, aşağıdaki boyutlar için sınırlı destek sağlar. Sınırl�
 
 ## <a name="purchase-orders"></a>Satın alma siparişleri
 
-Satınalma siparişleri merkez ofiste oluşturulur. Satınalma siparişi başlığına bir perakende ambarı dahil edilirse, sipariş Microsoft Dynamics 365 for Retail'de **Malzeme çekme/Teslim alma** işlemi aracılığıyla Modern POS (MPOS) veya Cloud POS kullanılarak mağazada teslim alınabilir. Mağazada teslim alınan miktarlar satınalma siparişi belgesi için POS'ta **Şimdi Teslim Al** alanına girildiğinde, bunlar yerel olarak kaydedilebilir veya kabul edilebilir. Bu verilerin yerel olarak kaydedilmesi, stoktaki stok üzerinde herhangi bir etkiye sahip değildir. Yalnızca kullanıcının girişi HQ'ya göndermeye hazır olmaması ve önceden girilen **Şimdi Teslim Al** verilerini geçici olarak saklamak için bir yola gereksinim duyması durumunda kaydetme işlemi yapılmalıdır. Böylece, şimdi teslim al verileri kullanıcının kanal veritabanına yerel olarak kaydedilir. Belge **Kaydet** seçeneği kullanılarak işlendikten sonra **Şimdi Teslim Al** verileri HQ'ya gönderilir ve satınalma siparişi girişi deftere nakledilir. 
+Satınalma siparişleri merkez ofiste oluşturulur. Satınalma siparişi başlığına bir perakende ambarı dahil edilirse, sipariş **Malzeme çekme/Teslim alma** işlemi aracılığıyla Modern POS (MPOS) veya Cloud POS kullanılarak mağazada teslim alınabilir. Mağazada teslim alınan miktarlar satınalma siparişi belgesi için POS'ta **Şimdi Teslim Al** alanına girildiğinde, bunlar yerel olarak kaydedilebilir veya kabul edilebilir. Bu verilerin yerel olarak kaydedilmesi, stoktaki stok üzerinde herhangi bir etkiye sahip değildir. Yalnızca kullanıcının girişi HQ'ya göndermeye hazır olmaması ve önceden girilen **Şimdi Teslim Al** verilerini geçici olarak saklamak için bir yola gereksinim duyması durumunda kaydetme işlemi yapılmalıdır. Böylece, şimdi teslim al verileri kullanıcının kanal veritabanına yerel olarak kaydedilir. Belge **Kaydet** seçeneği kullanılarak işlendikten sonra **Şimdi Teslim Al** verileri HQ'ya gönderilir ve satınalma siparişi girişi deftere nakledilir. 
 
 ## <a name="transfer-orders"></a>Transfer emirleri
 

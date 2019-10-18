@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65b59e1cc215d582fdaf02ff4746fe2158ace76e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559616"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025368"
 ---
 # <a name="payment-methods"></a>Ödeme yöntemleri
 
@@ -32,7 +32,7 @@ ms.locfileid: "1559616"
 
 Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığında mutlaka yapılandırılmalıdır. Bu makale, ayarlayabileceğiniz ödeme türlerini ve bunları ayarlamak için gerekli işlemi açıklamaktadır.
 
-Perakendeciler, sattıkları ürünler ve hizmetler karşılığında çeşitli türlerde ödemeler kabul edebilirler. Nakit, en yaygın ödeme yöntemi olmasına rağmen perakendeciler çek, kart, makbuz vb. şeklinde de ödeme kabul edebilmektedirler. Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığında mutlaka Dynamics 365 for Retail içinde yapılandırılmalıdır. Aşağıdaki listede Dynamics 365 for Retail işlevinde kurulabilecek her bir ödeme türü açıklanmıştır:
+Perakendeciler, sattıkları ürünler ve hizmetler karşılığında çeşitli türlerde ödemeler kabul edebilirler. Nakit, en yaygın ödeme yöntemi olmasına rağmen perakendeciler çek, kart, makbuz vb. şeklinde de ödeme kabul edebilmektedirler. Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığında mutlaka Dynamics 365 Retail içinde yapılandırılmalıdır. Aşağıdaki listede, ayarlanabilecek her bir ödeme türü açıklanmaktadır:
 
 - **Nakit** – Banknot veya bozuk para gibi bir para birimi cinsinden fiziksel formda paradır. Para birimi, şirket para birimi ya da mağazanın yerel para birimi olabilir.
 - **Çek** – Belirli bir bankadan belirli bir para biriminde belirli bir tutarın ödemesinin yapılmasını bildiren, ciro edilebilir bir araçtır.. Başka bir geçerlilik dönemi belirtilmediği sürece çekler tipik olarak süresiz olarak veya imzalandığı tarihten itibaren altı ay geçerlidir. Bu dönem, çekin çıkartıldığı bankaya bağlı olarak değişmektedir. Sipariş çekleri, zimmet çekleri, hamiline yazılan çekler veya hesaba ödenen çekler vb. gibi çeşitli çek türleri bulunmaktadır. Çek, her mağaza için bir ödeme yöntemi olarak ayarlayabilirsiniz. Çekler, şirket düzeyinde veya mağaza düzeyinde tanımlanan para biriminde kabul edilebilir. Bir mağazada ödeme yöntemi olarak çek kabul etmeden önce mutlaka ödeme yöntemi olarak çek seçeneğini ayarlamanız gerekir.

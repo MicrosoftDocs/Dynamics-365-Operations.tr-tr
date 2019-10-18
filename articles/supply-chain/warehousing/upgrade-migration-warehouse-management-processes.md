@@ -1,5 +1,5 @@
 ---
-title: Ambar yönetimini Microsoft Dynamics AX 2012'den Finance and Operations'a yükseltme
+title: Ambar yönetimini Microsoft Dynamics AX 2012'den Supply Chain Management'a yükseltme
 description: Bu konu, ürün ve ambar yönetimi geçiş seçenekleri hakkında bilgi sağlar.
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554058"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251443"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Ambar yönetimini Microsoft Dynamics AX 2012'den Finance and Operations'a yükseltme
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Ambar yönetimini Microsoft Dynamics AX 2012'den Supply Chain Management'a yükseltme 
 
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, WMSII modülünü çalıştıran Microsoft Dynamics AX 2012 R3'ten, Microsoft Dynamics 365 for Finance and Operations'e yükseltme işlemi hakkında genel bakış sağlar.
+Bu konu, WMSII modülünü çalıştıran Microsoft Dynamics AX 2012 R3'ten Supply Chain Management'a yükseltme işlemi hakkında genel bakış sağlar.
 
-Finance and Operations, artık Microsoft Dynamics AX 2012'deki eski **WMSII** modülünü desteklememektedir. Bunun yerine, **Ambar yönetimi** modülünü kullanabilirsiniz. WMSII modülünde mali stok için Yerleşim ve Palet Kodu stok boyutları seçilebilir ancak Palet kodu stok boyutu Finance and Operations'da mali stok için kullanılamaz.
+Supply Chain Management artık Microsoft Dynamics AX 2012'den gelen eski **WMSII** modülünü desteklemiyor. Bunun yerine, **Ambar yönetimi** modülünü kullanabilirsiniz. WMSII modülünde mali stok için Yerleşim ve Palet Kodu stok boyutları seçilebilir ancak Palet kodu stok boyutu Supply Chain Management'ta mali stok için kullanılamaz.
 
 Yükseltme sırasında, Palet kodu stok boyutu kullanan depolama boyutu grubuyla ilişkilendirilmiş tüm ürünler tanımlanır, engellenmiş olarak işaretlenir ve yükseltme için işlenmez.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>AX 2012 R3 WMSII kullanıldığında, Finance and Operations'a yükseltme
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>AX 2012 R3 WMSII kullanılırken Supply Chain Management'a yükseltme
 Yükseltmenin ardından, yükseltme sırasında engellenen ürünlerin engelini kaldırmak için **Maddeler için depolama boyutu grubunu değiştir** formundaki seçenek kümesini kullanabilir ve bu ürünler için hareketleri işleyebilirsiniz.
 
-### <a name="enabling-items-in-finance-and-operations"></a>Finance and Operations'da maddeleri etkinleştirme
-Finance and Operations'da madde izleme ambar yönetimi işlemlerinin bir parçası olduğundan bu değişikliğin yapılması gerekmiştir. Bu işlemler için tüm ambarların ve yerleşimlerinin bir yerleşim profiliyle eşleştirilmesi gerekir. Ambar yönetimi işlemlerini kullanmak istiyorsanız, aşağıdakilerin yapılandırılması gerekir:
+### <a name="enabling-items-in-supply-chain-management"></a>Supply Chain Management'ta maddeleri etkinleştirme 
+Supply Chain Management'ta madde izleme ambar yönetimi işlemlerinin bir parçası olduğundan bu değişikliğin yapılması gerekmiştir. Bu işlemler için tüm ambarların ve yerleşimlerinin bir yerleşim profiliyle eşleştirilmesi gerekir. Ambar yönetimi işlemlerini kullanmak istiyorsanız, aşağıdakilerin yapılandırılması gerekir:
 -   Mevcut ambarlar ambar yönetimi işlemlerini kullanmak üzere etkinleştirilmelidir. 
 -   Mevcut serbest bırakılan ürünler, ambar yönetimi işlemlerini kullanan bir depolama boyutu grubu ile ilişkilendirilmelidir. 
 

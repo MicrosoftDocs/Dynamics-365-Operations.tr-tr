@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent - Attract'ta yetenek havuzlarıyla aday kaynağı bulma
-description: Bu konu Microsoft Dynamics 365 for Talent - Attract'ta beceri havuzları oluşturma ve ayarlamayı açıklar.
+title: Microsoft Dynamics 365 Talent - Attract'ta yetenek havuzlarıyla aday kaynağı bulma
+description: Bu konu Microsoft Dynamics 365 Talent - Attract'ta yetenek havuzları oluşturma ve ayarlamayı açıklar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 61c5dc48bbe3a325853012317cc75e905964d6b1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741879"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008559"
 ---
 # <a name="source-candidates-with-talent-pools"></a>Yetenek havuzlarıyla aday kaynağı bulma
 

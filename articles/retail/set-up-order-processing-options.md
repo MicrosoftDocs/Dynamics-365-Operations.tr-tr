@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezi kanalları ayarlama
-description: Bu konuda, çağrı merkezleri için siparişlerin Microsoft Dynamics 365 for Retail kullanarak nasıl işleneceği hakkında bilgi verilmektedir.
+description: Bu konuda, çağrı merkezleri için siparişlerin Dynamics 365 Retail kullanarak nasıl işleneceği hakkında bilgi verilmektedir.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549371"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024833"
 ---
 # <a name="set-up-call-center-channels"></a>Çağrı merkezi kanalları ayarlama
 
 [!include [banner](includes/banner.md)]
 
-Bir şirket, Microsoft Dynamics 365 for Retail içinde birden fazla çağrı merkezi kanalı tanımlayabilir. Çağrı merkezi kanalları **Perakende** \> **Kanallar** \> **Çağrı merkezleri** \> **Tüm çağrı merkezleri**'nde yapılandırılır ve belirli bir tüzel kişiliğe özeldir.
+Bir şirket, Dynamics 365 Retail içinde birden fazla çağrı merkezi kanalı tanımlayabilir. Çağrı merkezi kanalları **Perakende** \> **Kanallar** \> **Çağrı merkezleri** \> **Tüm çağrı merkezleri**'nde yapılandırılır ve belirli bir tüzel kişiliğe özeldir.
 
 Yeni bir çağrı merkezi kanalı oluşturulduğunda, sistematik olarak bir çalışma birimi numarası atanır. Çağrı merkezleri işletme birimleri olarak oluşturulduğundan, kullanıcılar çağrı merkezi kanalını ürün çeşitleri, kataloglar ve belirli teslimat şekilleri gibi çeşitli Retail özelliklerine bağlayabilir.
 
@@ -76,6 +76,8 @@ Ayrıca, **Sipariş tamamlamayı etkinleştir** ayarı açık olursa, kullanıc�
 
 Varsayılan olarak, satış siparişi başlığındaki **Perakende satış** bayrağı çağrı merkezi kullanıcılarının oluşturduğu tüm siparişler için açıktır. Siparişler sistemin perakendeye özel fiyat ve promosyon özelliklerinden yararlanabilir.
 
-Bir çağrı merkezi kanalına bağlı olmayan kullanıcılar, Microsoft Dynamics 365 for Finance and Operations'ın standart sipariş girişi özelliklerini kullanır. Bu kullanıcıların satış siparişi giriş formu aracılığıyla girdikleri siparişler sistematik olarak Retail siparişi olarak tanımlanmaz. Ayrıca, bu kullanıcılar tarafından girilen bu siparişler sipariş tamamlama işlemi kurallarına, perakende fiyatlandırma mantığına ya da çağrı merkezi kanal yapılandırması veya çağrı merkezi sistem parametrelerinde tanımlanabilecek diğer sipariş doğrulamalarına tabi olmazlar.
+
+Bir çağrı merkezi kanalına bağlı olmayan kullanıcılar, Microsoft Dynamics 365 Finance'in standart sipariş girişi özelliklerini kullanır. Bu kullanıcıların satış siparişi giriş formu aracılığıyla girdikleri siparişler sistematik olarak Retail siparişi olarak tanımlanmaz. Ayrıca, bu kullanıcılar tarafından girilen bu siparişler sipariş tamamlama işlemi kurallarına, perakende fiyatlandırma mantığına ya da çağrı merkezi kanal yapılandırması veya çağrı merkezi sistem parametrelerinde tanımlanabilecek diğer sipariş doğrulamalarına tabi olmazlar.
+
 
 Çağrı merkezi parametrelerini yapılandırmayı ve kanal kullanıcılarını tanımlamayı tamamladıktan sonra, istenen sistem davranışının sağlanmasına yardımcı olmak için tüm gerekli Çağrı merkezi parametrelerinin **Perakende** \> **Kanal kurulum** \> **Çağrı merkezi kurulumu** \> **Çağrı merkezi parametreleri** altından tanımlandığından emin olun. İlgili numara serilerinin de tanımlandığından emin olun.
