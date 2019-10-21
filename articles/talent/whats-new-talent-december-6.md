@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (6 Aralık 2018)
-description: Bu konuda, Microsoft Dynamics 365 for Talent Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (6 Aralık 2018)
+description: Bu konuda, Microsoft Dynamics 365 Talent - Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742598"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025968"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (6 Aralık 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>Dynamics 365 Talent: Core HR'daki yenilikler veya değişiklikler (6 Aralık 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1742598"
 Bu konuda, Core HR'deki yeni veya değişen özellikler açıklanmaktadır.
 
 
-## <a name="platform-update-22"></a>Platform güncelleştirmesi 22
+## <a name="platform-update-22-for-finance-and-operations"></a>Finance and Operations için platform güncelleştirmesi 22
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Excel'e 1 milyon satıra kadar aktarın
 
@@ -42,7 +42,7 @@ Excel'e aktar özelliği artık kullanıcıların 1 milyona kadar satırı Talen
 
 ### <a name="restyled-personalization-toolbar"></a>Yeniden şekillendirilmiş kişiselleştirme araç çubuğu
 
-Kişiselleştirme araç çubuğu, Platform Güncelleştirmesi 22 ile kullanıcıların kendi deneyimlerini beceri ayarlayın daha kolay yardımcı olmak için yeniden şekillendirilmiştir. Şu değişiklikler yapılmıştır: 
+Kişiselleştirme araç çubuğu, Finance and Operations için Platform Güncelleştirmesi 22'de kullanıcıların Talent'ta kendi deneyimlerini daha kolay özelleştirmelerine yardımcı olmak için yeniden şekillendirilmiştir. Şu değişiklikler yapılmıştır: 
 
 -  Kullanıcıların kullanmakla ilgilendikleri aracı daha hızlı tanımaları için her kişiselleştirme aracı artık bir simgeyle gösterilmektedir.
 -  Geçerli aracın nasıl kullanılacağının açıklaması da artık gösterilir, bu da kullanıcıların ihtiyaç duyulan kişiselleştirmeyi nasıl yapacaklarını anlamalarını sağlar.  
@@ -50,19 +50,19 @@ Kişiselleştirme araç çubuğu, Platform Güncelleştirmesi 22 ile kullanıcı
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>İyileştirilmiş, "biri" filtreleme deneyimini en iyi duruma getirir
 
-"Biri" filtreleme operatörü, Filtre Panosu ve kılavuz başlık açılır listesi kullanırken çoğu alan için kullanılabilirdir. Bu işleç, kullanıcının birden fazla değerlerini temel alan bir alana filtrelemesine izin verir. Bu, Platform güncelleştirmesi 22 ile kullanılabilir olan "biri" operatörünün yeni ve geliştirilmiş bir deneyimidir. Daha fazla bilgi için bkz. [En iyi duruma getirilen "biri" filtreleme deneyimi](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+"Biri" filtreleme operatörü, Filtre Panosu ve kılavuz başlık açılır listesi kullanırken çoğu alan için kullanılabilirdir. Bu işleç, kullanıcının birden fazla değerlerini temel alan bir alana filtrelemesine izin verir. Bu, Finance and Operations için Platform güncelleştirmesi 22'de, "biri" işleci için yeni ve geliştirilmiş bir deneyim kullanıma sunulmuştur. Daha fazla bilgi için bkz. [En iyi duruma getirilen "biri" filtreleme deneyimi](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>"Biri" operatörü ile listeleri Excel'den filtre alanlarına yapıştırın
 
 Bazı görevler için kullanıcıların Talent içinde veri filtrelemek için kullanmak isteyecekleri bir değerler listesi olabilir. Örneğin, bir İnsan Kaynakları kullanıcısı, çalışanlar sistemde ek araştırma gerektiren bir rapordaki bir dizi tanımlanmış ve doğrudan Excel'den beceri Filtresi alanına listeyi kopyalamak bu kullanıcı için en uygun.
 
-Platform Güncelleştirmesi 22 ile başlayarak, Filtre Panosundaki "biri" operatörü ve kılavuz sütun filtreleme artık Excel'den kopyalanan listeleri tanır ve böylece doğrudan bir filtre alanına yapıştırılabilirler. Bu, Excel'deki farklı satır ve sütunlardan kopyalanan bir dizi değeri içerir. Bu özellik hakkında daha fazla bilgi için bkz: ["Biri" operatörü ile filtre alanlarına Excel'den liste yapıştırın](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+Finance and Operations için Platform güncelleştirmesi 22 ile başlayarak, Filtre Bölmesindeki "biri" işleci ve kılavuz sütun filtreleme artık Excel'den kopyalanan listeleri tanıyor ve böylece doğrudan bir filtre alanına yapıştırılabiliyor. Bu, Excel'deki farklı satır ve sütunlardan kopyalanan bir dizi değeri içerir. Bu özellik hakkında daha fazla bilgi için bkz: ["Biri" operatörü ile filtre alanlarına Excel'den liste yapıştırın](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>Ön izlemede
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>Talent ve Dayforce arasında UK bordro tümleştirmeyi yapılandırma
 
-Microsoft Dynamics 365 for Talent ve Ceridian Dayforce arasındaki tümleştirme Birleşik Krallık'ta önizlemeye açılmıştır. Daha fazla bilgi için aşağıdaki konuya bakın: [Talent ve Dayforce arasındaki bordro tümleştirmesini yapılandırma](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
+Talent ve Ceridian Dayforce arasındaki tümleştirme Birleşik Krallık'ta önizlemeye açılmıştır. Daha fazla bilgi için aşağıdaki konuya bakın: [Talent ve Dayforce arasındaki bordro tümleştirmesini yapılandırma](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
 
 ## <a name="coming-soon"></a>Çok yakında
 
@@ -90,9 +90,9 @@ Ekleri düzeltmek için değişiklikler yapılmıştır. Bir çalışana yeni bi
 
 ## <a name="known-issues"></a>Bilinen sorunlar
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Finance and Operations ile tümleştirmede eşleşme hataları
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Finance ile tümleştirmede eşleşme hataları
 
-Talent'ın Finance and Operations ile tümleştirilmesinde geçerli şablonda aşağıdaki sorunlar belirlenmiştir. Yeni bir şablon hemen yayımlanır ve oluşturulan tüm yeni tümleştirme projelerine uygulanır. Varolan tümleştirme projeleri için görev eşleştirmeleri güncelleştirilebilir. Güncelleştirilmiş eşleşmeler için aşağıdaki tabloya bakın. 
+Talent'ın Finance ile tümleştirilmesi için kullanılmakta olan şablonda aşağıdaki sorunlar belirlenmiştir. Yeni bir şablon hemen yayımlanır ve oluşturulan tüm yeni tümleştirme projelerine uygulanır. Varolan tümleştirme projeleri için görev eşleştirmeleri güncelleştirilebilir. Güncelleştirilmiş eşleşmeler için aşağıdaki tabloya bakın. 
 
 >[!NOTE]
 > İş Pozisyonları ve Pozisyonlar Ana İş Atama görevi, veri tümleştirmez. Bunun şu anda araştırması yapılmaktadır. Geçerli eşleme içinde geçici çözüm yoktur. 

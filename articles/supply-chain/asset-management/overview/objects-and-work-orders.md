@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bd55988578be2b0287b399549f17642bfb1693b
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 24d75000e2c4b604e1acee94e9581291e156fa5d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783652"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017423"
 ---
 # <a name="assets-and-work-orders"></a>Kıymetler ve iş emirleri
 
@@ -54,4 +54,4 @@ Bir iş emri üzerinde bakım işi zamanlamak ve çalıştırmak istediğinizde 
 ![Şekil 4](media/08-overview-image.png)
 
 > [!NOTE]
-> Genel olarak, Microsoft Dynamics 365 for Finance and Operations ve **Kıymet Yönetimi** modülünde çalışırken yeni kayıt oluşturmak için **Yeni**'yi, mevcut kaydı güncelleştirmek için **Düzenle**'yi ve yeni veya düzenlenmiş verileri kaydetmek için **Kaydet**'i seçin.
+> Genel olarak, Dynamics 365 Supply Chain Management ve **Kıymet Yönetimi** modülünde çalışırken yeni kayıt oluşturmak için **Yeni**'yi, mevcut kaydı güncelleştirmek için **Düzenle**'yi ve yeni veya düzenlenmiş verileri kaydetmek için **Kaydet**'i seçin.

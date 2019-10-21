@@ -3,7 +3,7 @@ title: Talep tahmini kurulumu
 description: Bu konu başlığı, talep tahmini için hazırlamak üzere gerçekleştirmeniz gereken kurulum görevlerini açıklar.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/16/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551972"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249591"
 ---
 # <a name="demand-forecasting-setup"></a>Talep tahmini kurulumu
 
@@ -42,9 +42,9 @@ Tahmin oluşturma sırasında madde tahsisat anahtarı kullanılıyorsa, bir mad
 Bir madde tahsisat anahtarına bir stok tutma birimi (SKU) eklemek için, **Master planlama** &gt; **Kurulum** &gt; **Talep tahmini** &gt; **Madde tahsisat anahtarları** menüsüne gidin. Bir maddeyi bir tahsisat anahtarına atamak için **Maddeleri ata** sayfasını kullanın.
 
 ## <a name="intercompany-planning-groups"></a>Şirketlerarası planlama grupları
-Talep tahmini, şirketler arası tahminler oluşturur. Microsoft Dynamics 365 for Finance and Operations'ta, birlikte planlanan şirketler bir şirketlerarası planlama grubu olarak gruplandırılır. Her şirket için talep tahmininde hangi madde tahsisat anahtarlarının düşünülmesi gerektiğini belirlemek için, **Master planlama** &gt; **Kurulum** &gt; **Şirketlerarası planlama grupları** menüsüne giderek bir madde tahsisat anahtarını şirketlerarası planlama grubu üyesi ile ilişkilendirin. 
+Talep tahmini, şirketler arası tahminler oluşturur. Dynamics 365 Supply Chain Management'ta, birlikte planlanan şirketler bir şirketlerarası planlama grubu olarak gruplandırılır. Her şirket için talep tahmininde hangi madde tahsisat anahtarlarının düşünülmesi gerektiğini belirlemek için, **Master planlama** &gt; **Kurulum** &gt; **Şirketlerarası planlama grupları** menüsüne giderek bir madde tahsisat anahtarını şirketlerarası planlama grubu üyesi ile ilişkilendirin. 
 
-Varsayılan olarak, şirketlerarası planlama grubu üyelerine hiçbir madde tahsisat anahtarı atanmamışsa, tüm Finance and Operations şirketlerinden tüm madde tahsisat anahtarlarına atanan tüm maddeler için bir talep tahmini hesaplanır. Şirketler ve madde tahsisat anahtarları için ek filtreleme seçenekleri **İstatistik temel tahmin oluştur** sayfasında mevcuttur. 
+Varsayılan olarak, şirketlerarası planlama grubu üyelerine hiçbir madde tahsisat anahtarı atanmamışsa, tüm şirketlerden tüm madde tahsisat anahtarlarına atanan tüm maddeler için bir talep tahmini hesaplanır. Şirketler ve madde tahsisat anahtarları için ek filtreleme seçenekleri **İstatistik temel tahmin oluştur** sayfasında mevcuttur. 
 
 Tahmin edilen maddelerin sayısını gözden geçirin. Microsoft Azure Machine Learning'i kullandığınızda, gereksiz maddeler artan maliyetlere yol açabilir.
 
@@ -55,7 +55,7 @@ Talep tahmini, tahmini miktar cinsinden oluşturur. Bu yüzden, miktarın ifade 
 
 Talep tahmini bağımlı ve bağımsız talebi tahmin etmek için kullanılabilir. Örneğin, yalnızca **Satış emri** onay kutusu seçiliyse ve talep tahmini için kabul edilen tüm öğeler satılan öğeler ise, sistem bağımsız talebi hesaplar. Ancak, kritik alt bileşenler madde tahsisat anahtarlarına eklenebilir ve talep tahminine eklenebilir. Bu durumda, **Üretim satırı** onay kutusu seçildiğinde, bağımlı bir tahmin hesaplanır. 
 
-Finance and Operations'ta bir temel tahmin oluşturmak için iki yöntem vardır. Geçmiş verilerin üstündeki tahmin modellerini kullanabilir veya sadece geçmiş verileri tahmine kopyalayabilirsiniz. **Tahmin oluşturma stratejisi** alanı bu iki yöntem arasında seçim yapmanıza olanak verir. Tahmin modellerini kullanmak için, **Azure Machine Learning** seçeneğini seçin. 
+Temel tahmin oluşturmak için iki yöntem vardır. Geçmiş verilerin üstündeki tahmin modellerini kullanabilir veya sadece geçmiş verileri tahmine kopyalayabilirsiniz. **Tahmin oluşturma stratejisi** alanı bu iki yöntem arasında seçim yapmanıza olanak verir. Tahmin modellerini kullanmak için, **Azure Machine Learning** seçeneğini seçin. 
 
 **Talep tahmini parametreleri** sayfasının sol bölmesinde **Tahmin boyutları** seçeneğine tıklayarak, talep tahmini oluşturulurken kullanılacak tahmin boyutları kümesini de seçebilirsiniz. Bir tahmin boyutu tahminin tanımlandığı ayrıntı düzeyini gösterir. Şirket, tesis ve madde tahsisat anahtarı zorunlu tahmin boyutlarıdır, ancak ayrıca depo, envanter durumu, müşteri grubu, müşteri hesabı, ülke/bölge, şehir ve öğe artı tüm öğe boyut seviyelerinde de tahminler oluşturabilirsiniz. 
 
@@ -63,7 +63,7 @@ Herhangi bir aşamada, talep tahmini için kullanılan boyutların listesine tah
 
 Tüm öğeler talep tahmini perspektifinden aynı şekilde davranmaz. Benzer öğeler bir madde tahsisat anahtarında gruplandırılabilir ve hareket türleri ile tahmin yöntem ayarları gibi parametreler her madde tahsisat anahtarı için ayarlanabilir. **Talep tahmin parametreleri** sayfasının sol bölmesindeki **Madde tahsisat anahtarları** öğesine tıklayın. 
 
-Finance and Operations, tahmin oluşturmak için bir Machine Learning ağ hizmeti kullanır. Hizmete bağlanmak için, Microsoft Azure Machine Learning Studio'da oturum açarsanız, Finance and Operations'a aşağıdaki bilgileri sağlamanız gerekir:
+Supply Chain Management, tahmin oluşturmak için bir Machine Learning ağ hizmeti kullanır. Hizmete bağlanmak için, Microsoft Azure Machine Learning Studio'da oturum açarsanız, aşağıdaki bilgileri sağlamanız gerekir:
 
 -   Ağ hizmeti uygulama programlama arabirimi (API) anahtarı
 -   Ağ hizmeti sonlanım noktası URL'si
@@ -72,10 +72,23 @@ Finance and Operations, tahmin oluşturmak için bir Machine Learning ağ hizmet
 
 **Not:** Sadece özel bir depolama hesabı kullanıyorsanız Azure depolama hesap adı ve anahtarı gerekir. Şirket içi sürümünü kullanıyorsanız, Makine Öğrenimi hizmetinin geçmiş verilere ulaşabilmesi için Azure üzerinde özel bir depolama hesabınızın olması gerekir. 
 
-Talep tahminleri oluşturmak için, Machine Learning Studio veya Finance and Operations Talep tahmin deneylerini kullanarak kendi hizmetinizi uygulayabilirsiniz. Finance and Operations talep tahmin deneylerini bir ağ hizmeti olarak kullanma talimatları Finance and Operations'ta mevcuttur. **Talep tahmin parametreleri** sayfasında, **Azure Machine Learning** öğesine tıklayın.
+Talep tahminleri oluşturmak için, Machine Learning Studio veya Supply Chain Management Talep tahmini deneylerini kullanarak kendi hizmetinizi uygulayabilirsiniz. Talep tahmin deneylerini bir ağ hizmeti olarak kullanma talimatları  Finance and Operations'ta mevcuttur. **Talep tahmin parametreleri** sayfasında, **Azure Machine Learning** öğesine tıklayın.
 
-## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Finance and Operations talep tahmini makine öğrenimi hizmeti için ayarlar
-Finance and Operations talep tahmini hizmeti için yapılandırılabilecek parametreleri görmek için, **Master planlama** &gt; **Kurulum** &gt; **Talep tahmini** &gt; **Tahmin algoritma parametreleri** konumuna gidin. **Tahmin algoritma parametreleri** sayfası, parametreler için varsayılan değerleri gösterir. Bu parametrelerin üzerine **Talep tahmini parametreleri** sayfasında yazabilirsiniz. Genel olarak parametrelerin üzerine yazmak için **Genel** öğesini kullanın veya her bir madde tahsisat anahtarı için parametrelerin üzerine yazmak istiyorsanız **Madde tahsisat anahtarları** öğesini kullanın. Bir madde tahsisat anahtarı için üzerine yazılan parametreler sadece o madde tahsisat anahtarı ile ilişkilendirilen öğelerin tahminini etkiler.
+## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Talep tahmini makine öğrenimi hizmeti için ayarlar
+Talep tahmini hizmeti için yapılandırılabilecek parametreleri görmek için, **Master planlama** &gt; **Kurulum** &gt; **Talep tahmini** &gt; **Tahmin algoritma parametreleri** konumuna gidin. **Tahmin algoritma parametreleri** sayfası, parametreler için varsayılan değerleri gösterir. Bu parametrelerin üzerine **Talep tahmini parametreleri** sayfasında yazabilirsiniz. Genel olarak parametrelerin üzerine yazmak için **Genel** öğesini kullanın veya her bir madde tahsisat anahtarı için parametrelerin üzerine yazmak istiyorsanız **Madde tahsisat anahtarları** öğesini kullanın. Bir madde tahsisat anahtarı için üzerine yazılan parametreler sadece o madde tahsisat anahtarı ile ilişkilendirilen öğelerin tahminini etkiler.
+
+### <a name="forecast-algorithm-parameters"></a>Tahmin algoritma parametreleri
+
+**Tahsisat anahtarları** sekmesinde, her madde tahsisat anahtarı için **Tahmin algoritması parametrelerini** ayarlayabilirsiniz. Aşağıdaki seçenekler kullanılabilir.
+- **Güven düzeyi yüzdesi**: Güven aralığı talep tahmini için iyi tahminler olarak hareket eden bir değerler aralığından oluşur. Yüzde 95'lik bir güven düzeyi yüzdesi, gelecekteki talep tahmininin güven aralığı sınırlarının dışına çıkma konusunda yüzde 5'lik bir risk bulunduğunu gösterir.
+- **Mevsimliği zorla**: Modelin belirli bir mevsimsellik türü kullanması için zorlanıp zorlanmayacağını belirtir. Bu yalnızca ARIMA ve ETS için geçerlidir. Seçenekler: OTOMATIK (varsayılan), YOK, TOPLAMSAL, ÇARPIMSAL.
+- **Tahmin modeli**: Seçenekler: ARIMA, ETS, STL, ETS+ARIMA, ETS+STL, ALL. En uygun modeli seçmek için **TÜMÜ** seçeneğini kullanın.
+- **Maksimum tahmin edilen değer**: Tahminler için kullanılacak maksimum değeri belirtir. Biçim: +1E[n] veya sayısal sabit değer.
+- **Minimum tahmin edilen değer**: Tahminler için kullanılacak minimum değeri belirtir. Biçim: -1E[n] veya sayısal sabit değer.
+- **Eksik değer değiştirme**: Geçmiş verilerindeki boşlukların nasıl doldurulacağını belirtir. Seçenekler: sayısal değer, ORTALAMA, ÖNCEKİ, DOĞRUSAL İLİŞKİLENDİR, POLİNOM İLİŞKİLENDİR.
+- **Eksik değer değiştirme kapsamı**: Değer değiştirmenin yalnızca her bir ayrıntı düzeyi özniteliğinin veri aralığına mı yoksa tüm veri kümesine mi uygulanacağını belirtir. Seçenekler: AYRINTI DÜZEYİ_ÖZNİTELİĞİ (varsayılan), GENEL.
+- **Mevsimsellikle ilgili ipucu**: Mevsimsel veriler için, tahmin doğruluğunu iyileştirmek amacıyla tahmin modeline bir ipucu sağlayın. Biçim: bir talep deseninin kendisini tekrarlayacağı demet sayısını temsil eden tamsayı. Örneğin, her 6 ayda bir yinelenen veriler için "6" girin.
+- **Test kümesi boyut yüzdesi**: Tahmin doğruluğu hesaplamada test kümesi olarak kullanılacak geçmiş verilerin yüzdesi. 
 
 <a name="additional-resources"></a>Ek kaynaklar
 --------

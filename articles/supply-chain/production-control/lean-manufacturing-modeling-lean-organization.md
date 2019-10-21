@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40664936382f5edcb3c1680aa4af245bdef539a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560152"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250245"
 ---
 # <a name="modeling-a-lean-organization"></a>Bir yalın kuruluşu modelleme
 
@@ -39,7 +39,7 @@ Bir yalın imalat senaryosu genellikle sadece birbiriyle alakasız kanban kurall
 
 Toplu üretimin sebep olduğu iş merkezleri arasındaki stok fazlasını ve teslimat sağlama sürelerini azaltmak için, yalın üretim kanban stok yenileme ve süpermarketleri üretim ve ambar yenileme içerisinde devreye sokar. Genellikle bu özellikler, kısmen bağımsız kanban döngülerinin üretimini bozar. Yarı Bitmiş ürünün bir kanban yenilemesi bitmiş bir ürün için siparişle daha fazla harekete geçmez. 
 
-Microsoft Dynamics 365 for Finance and Operations'da teklif edilmiş olan çeşitli kanban senaryoları için bir üretim ve maliyet içeriği yeniden kurmak için, etkinlik tabanlı üretim akışlarının yalın üretim omurga olarak kullanılmaya başlanmıştır. Tüm kanban kuralları önceden tanımlanmış bu yapısına başvurur. Etkinlik tabanlı model, çeşitli senaryoların kurulumunu destekler. Ancak, tüm senaryolar aynı etkinlik tabanlı kullanıcı arabirimini kullandığı için bu model atölye çalışanlarına daha fazla karmaşıklık eklemez.
+Etkinlik tabanlı üretim akışları, teklif edilmiş çeşitli kanban senaryoları için üretim ve maliyet bağlamını yeniden kurmak üzere yalın imalat temeli olarak kullanılmaya başlanmıştır. Tüm kanban kuralları önceden tanımlanmış bu yapısına başvurur. Etkinlik tabanlı model, çeşitli senaryoların kurulumunu destekler. Ancak, tüm senaryolar aynı etkinlik tabanlı kullanıcı arabirimini kullandığı için bu model atölye çalışanlarına daha fazla karmaşıklık eklemez.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Yarı bitmiş ürünler (ürün reçetesi düzeyleri olmayan)
 Yalın imalat, stoklanmış ürünler ve yarı bitirilmiş ürünler için kanbanları tek bir çerçevede tümleştirir ve bu sayede tüm durumlar için bütünleştirilmiş bir kullanıcı deneyimi sunar. Bu mimari nedeniyle, yarı bitmiş ürünler için kullanılmak üzere kanbanları etkinleştirmek için ek ürün reçetelerinin dahil edilmesine gerek kalmamıştır. Ayrıca bu mimari stok hareketlerinin en aza indirilmesine yardımcı olur.
@@ -50,7 +50,7 @@ Toplu iş boyutlarının, yalın imalat içerisindeki tek parça akışının id
 ## <a name="value-streams-and-value-stream-mapping"></a>Değer akışları ve değer akışı eşleme
 Yalın İmalat'ın mimarisi, Womack ve Jones tarafından formüle edilen beş Yalın prensipten ilham almıştır. Müşteri değeri, Değer akışı, akış, çekme ve kusursuzluk. Üretimin gerçek dünyasında yalın imalatı uygulamak için geçerli bir yöntem, değer akış eşleme (VSM) yöntemidir. Bu yöntem Rother ve Shook tarafından Yalın İmalat Enstitüsü'ndeki "Görmeyi Öğrenmek" adlı yayınlarında tanıtılmıştır. 
 
-Finance and Operations'ta, değer akışının gelecekteki durumu bir üretim akışı sürümü olarak modellenebilmektedir. Değer akışının tüm işlemleri işlem etkinlikleri olarak modellenmiştir. Eğer transfer durumunun kayıt altına alınması zorunluysa, hareketler veya transferler, transfer etkinlikleri olarak modellenebilmektedir veya stok çekme veya birleştirilmiş sevk ile tümleştirme zorunluysa. 
+Değer akışının gelecekteki durumu, bir üretim akışı sürümü olarak modellenebilmektedir. Değer akışının tüm işlemleri işlem etkinlikleri olarak modellenmiştir. Eğer transfer durumunun kayıt altına alınması zorunluysa, hareketler veya transferler, transfer etkinlikleri olarak modellenebilmektedir veya stok çekme veya birleştirilmiş sevk ile tümleştirme zorunluysa. 
 
 Değer akışı bir işletme birimi olarak modellenmiştir. Bu nedenle, değer akışı bir mali boyut olarak kullanılabilir.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0e571f5c83affa56c230e1f597e219eb60973225
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572037"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248899"
 ---
 # <a name="purchase-requisition-overview"></a>Satınalma talebine genel bakış
 
@@ -38,7 +38,7 @@ Bir satın alma talebi onaylandıktan sonra bir satın alma emri oluşturulması
 ## <a name="creating-purchase-requisitions"></a>Satın alma talepleri oluşturma
 **Satın alma taleplerim** sayfasında bir satın alma talebi oluşturabilir ve ihtiyacınız olan maddeleri ve hizmetleri seçebilirsiniz. Organizasyonunuzun oluşturduğu bir tedarik katalogundan maddeleri seçebilirsiniz veya katalogda bulunmayan maddeleri bir tedarik kategorisi seçerek ve ürün ayrıntıları girerek talep edebilirsiniz.  
 
-Bir satınalma talebini gözden geçirmeye göndermeden önce, iş akışlarının Microsoft Dynamics 365 for Finance and Operations yapılandırılması gerekir. Satın alma talebini ilk durum olan **Taslak** durumundan son durum olan **Onaylandı** durumuna kadar gözden geçirme sürecinden geçirmek için bir iş akışı kullanabilirsiniz.
+Bir satınalma talebini gözden geçirmeye göndermeden önce iş akışlarının yapılandırılması gerekir. Satın alma talebini ilk durum olan **Taslak** durumundan son durum olan **Onaylandı** durumuna kadar gözden geçirme sürecinden geçirmek için bir iş akışı kullanabilirsiniz.
 
 ### <a name="purchase-requisition-statuses"></a>Satınalma talebi durumları
 
@@ -141,7 +141,7 @@ Tedarik politikalarında, organizasyonunuz için bir talep oluşturulduğunda ku
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Tüketim amacına sahip olan talepler
 
-Tüketim amacına sahip olan bir talep, organizasyonunuz tarafından dahili olarak kullanılacak maddeler veya hizmetler için talebi temsil eder. Bu talep türü tarafından oluşturulan talep daima bir satın alma emri tarafından karşılanır. Microsoft Dynamics 365 for Finance and Operations, satın alma taleplerini otomatik olarak üretecek şekilde yapılandırılmışsa satın alma emirleri satın alma talebi onaylandıktan sonra oluşturulur.
+Tüketim amacına sahip olan bir talep, organizasyonunuz tarafından dahili olarak kullanılacak maddeler veya hizmetler için talebi temsil eder. Bu talep türü tarafından oluşturulan talep daima bir satın alma emri tarafından karşılanır. Supply Chain Management, satın alma taleplerini otomatik olarak üretecek şekilde yapılandırılmışsa satın alma emirleri satın alma talebi onaylandıktan sonra oluşturulur.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Bir stok yenileme amacına sahip olan talepler
 

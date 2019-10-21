@@ -1,6 +1,6 @@
 ---
 title: Hayali maddeler
-description: Bu konu, Microsoft Dynamics 365 for Finance and Operations içinde ayrıntılı olarak Hayali hat türünün bir ürün reçetesi (BOM) satırlarında ve formülünde nasıl kullanılabileceğini açıklar.
+description: Bu konu, Dynamics 365 Supply Chain Management içinde ayrıntılı olarak Hayali hat türünün bir ürün reçetesi (BOM) satırlarında ve formülünde nasıl kullanılabileceğini açıklar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f01a0321740365c23cbc117be42c0a5137960af7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7c39b0ac2eb8a2293c828fee23ed6a78cb5fe2c9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843901"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250034"
 ---
 # <a name="phantom-items"></a>Hayali maddeler
 
@@ -51,7 +51,7 @@ Bu yapıda, parçalar F ve G kavramı yoktur ve bu parçaların oluştuğu malze
 
 İki operasyon sayfasına sahip Mühendislik ürün reçetesinin aksine, Üretim ürün reçetesi yalnızca bir operasyon sayfasına sahiptir. Parça G ile bağlantılı olan paketleme operasyonu da yükseltilmiştir ve ürün H için operasyon sayfasının parçasıdır. Elektriksel birimin montajı ilk operasyondur. Bu sıralama mantıklıdır, çünkü birim, makine montajı olan bir sonraki operasyonda kullanılacaktır. Son operasyon, paketleme operasyonudur, bu da iki paketleme malzemesi tüketir (C ve D).
 
-Microsoft Dynamics 365 for Finance and Operations içinde, Mühendislik BOM ve Üretim BOM arasındaki geçiş, Phantom BOM satır türü ile gerçekleşir. "Hayali" teriminin belirttiği gibi, parçalar F ve G iki ürün reçetesi türü arasında geçiş yapılırken ortadan kaybolmuştur. Bu örnekte, Hayali satır türü parçalar F ve G için Mühendislik ürün reçetesinde ürün reçetesi satırlarına uygulanır. Bir üretim veya toplu iş emri oluşturulduğunda, Mühendislik ürün reçetesi üretim veya toplu iş emrine kopyalanır. Daha sonra siparişin tahmini yapıldığında, Mühendislik ürün reçetesinden Üretim ürün reçetesine geçiş, önceden belirtilen şekillerdeki gibi ortaya çıkar. İkinci şekildeki operasyonlar sayfasından, paketleme malzemeleri C ve D operasyon için dahil edilir. 
+Mühendislik BOM ve Üretim BOM arasındaki geçiş, Phantom BOM satır türü ile gerçekleşir. "Hayali" teriminin belirttiği gibi, parçalar F ve G iki ürün reçetesi türü arasında geçiş yapılırken ortadan kaybolmuştur. Bu örnekte, Hayali satır türü parçalar F ve G için Mühendislik ürün reçetesinde ürün reçetesi satırlarına uygulanır. Bir üretim veya toplu iş emri oluşturulduğunda, Mühendislik ürün reçetesi üretim veya toplu iş emrine kopyalanır. Daha sonra siparişin tahmini yapıldığında, Mühendislik ürün reçetesinden Üretim ürün reçetesine geçiş, önceden belirtilen şekillerdeki gibi ortaya çıkar. İkinci şekildeki operasyonlar sayfasından, paketleme malzemeleri C ve D operasyon için dahil edilir. 
 
 ## <a name="multilevel-phantom-bom-structures"></a>Çok düzeyli hayali ürün reçetesi yapıları
 Hayali satır türü çok düzeyli ürün reçetesi yapıları için aşağıdaki şekilde gösterildiği gibi kullanılabilir. Bu şekilde, (a) ürün G için ürün reçetesidir ve (b) parçalar E ve F ve ürün G için rota tablosudur. 

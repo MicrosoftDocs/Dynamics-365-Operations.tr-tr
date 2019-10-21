@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555051"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251328"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>Satış işleminde seri numaralarını kaydetme
 
@@ -34,9 +34,9 @@ ms.locfileid: "1555051"
 
 Bu konuda, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır.
 
-Birçok şirket servis ve garanti amacıyla seri numaraları tutmak ister ancak alımdan çıkışa kadar seri numaraları stokta koruması gerekmez. Bu gibi durumlarda, Microsoft Dynamics 365 for Finance and Operations seri numaraları ürünler satıldığında sevk irsaliyeleri veya faturalara kaydetmenize olanak tanır. Ürünler daha sonra iade edilirse, ürünü satıp satmadığınızı ve servis ya da garanti koşullarının geçerli olup olmadığını belirlemek için her ürünü faturadan izleyebilirsiniz.
+Birçok şirket servis ve garanti amacıyla seri numaraları tutmak ister ancak alımdan çıkışa kadar seri numaraları stokta koruması gerekmez. Bu gibi durumlarda, ürünler satıldığında seri numaralarını sevk irsaliyelerine veya faturalara kaydedebilirsiniz. Ürünler daha sonra iade edilirse, ürünü satıp satmadığınızı ve servis ya da garanti koşullarının geçerli olup olmadığını belirlemek için her ürünü faturadan izleyebilirsiniz.
 
-**İzleme boyutu grupları** sayfasındaki **Satış işleminde etkinleştir** seçeneğini seçerek satış işlemi için seri numaraları etkinleştirmeniz gerekir. Aşağıdaki etkinlikler daha sonra Microsoft Dynamics 365 for Finance and Operations içinde gerçekleşir:
+**İzleme boyutu grupları** sayfasındaki **Satış işleminde etkinleştir** seçeneğini seçerek satış işlemi için seri numaraları etkinleştirmeniz gerekir. Bunun üzerine Supply Chain Management'ta aşağıdaki olaylar gerçekleşir:
 -   **Seri numaraları** hızlı sekmesinde **Seri numarası denetimi** seçeneği işaretlidir. Bu seçenek seçildiğinde, sevk irsaliyesi veya faturadaki her madde için bir seri numarası kaydetmeniz gerekir.
 -   **İzin verilen boş çıkış** seçeneği hariç seri numaralara ilişkin izleme boyutu grubundaki tüm seçimler kaldırılır. Seri numarası denetimini geçersiz kılmak ve ürünlerin seri numaralar kaydedilmeden paketlenip faturalanmasını sağlamak için **İzin verilen boş çıkış** seçeneğini seçebilirsiniz.
 
@@ -44,7 +44,7 @@ Birçok şirket servis ve garanti amacıyla seri numaraları tutmak ister ancak 
 Seri numaraları bir satış siparişine ilişkin sevkiyat irsaliyesinde veya faturada kaydedebilirsiniz. Bir sevk irsaliyesiyle sevk edilen seri hale getirilmiş bir madde için fatura hazırlarken, sevk irsaliyesi üzerindeki hangi seri numaraların faturalanacağını seçebilirsiniz. Kaydedilen seri numaraların sayısı sevk edilen madde miktarını aşmamalıdır. Kısmi faturalama yapıyorsanız, sevk irsaliyesinde kayıtlı olandan daha az seri hale getirilmiş madde seçebilirsiniz. Sevk irsaliyesi veya fatura yazdırırken, kaydedilen seri numaralar da yazdırılır.
 
 ## <a name="can-i-enter-serial-numbers-by-scanning-them-or-do-i-have-to-type-them"></a>Seri numaraları tarayarak girebilir miyim yoksa hepsini yazmam mı gerekir?
-Seri numaraları tarayabilir veya yazabilirsiniz. Bir tarayıcı kullandığınızda, tarama modu seri numaraların fatura veya sevk irsaliyesindeki seri numara listesine ekleneceğini mi yoksa kaldırılacağını mı belirler. Seri numaraları örneğin taşınabilir bir barkod tarayıcıyla taramak isterseniz, tarayıcıyı seri numarasından sonra bir ENTER  veya TAB komutu gönderecek şekilde yapılandırın. Bu komut veri akışının sona erdirileceğini belirtir. Aksi halde, her seri numarayı taradıktan sonra klavyeden Enter veya TAB tuşuna basmanız gerekir.
+Seri numaraları tarayabilir veya yazabilirsiniz. Bir tarayıcı kullandığınızda, tarama modu seri numaraların fatura veya sevk irsaliyesindeki seri numara listesine ekleneceğini mi yoksa kaldırılacağını mı belirler. Seri numaraları örneğin taşınabilir bir barkod tarayıcıyla taramak isterseniz, tarayıcıyı seri numarasından sonra bir ENTER veya TAB komutu gönderecek şekilde yapılandırın. Bu komut veri akışının sona erdirileceğini belirtir. Aksi halde, her seri numarayı taradıktan sonra klavyeden Enter veya TAB tuşuna basmanız gerekir.
 
 ## <a name="if-i-enable-serial-numbers-for-the-sales-process-do-i-have-to-register-all-serial-numbers-for-all-items"></a>Satış işlemi için seri numaraları etkinleştirirsem tüm maddelerin tüm seri numaralarını kaydetmem gerekir mi?
 Ürüne atanan izleme boyutu grubu ayarı, bir sevk irsaliyesi veya faturadaki tüm maddeler için seri numaraların kaydedilip edilmeyeceğini belirler. Satış işlemi için seri numaraları etkinleştirdiğinizde, **Seri numarası denetimi** seçeneği otomatik olarak seçilir. Ardından, sevk irsaliyesi veya faturadaki her madde için bir seri numarası kaydetmeniz veya okunamayan numara için boş bir kayıt oluşturmanız gerekir. Her madde için seri numarası sorulmasını istemiyorsanız, maddete atanan izleme boyutu grubunda **İzin verilen boş çıkış** seçeneğini seçin. Sevk edilen madde miktarından daha az seri numarası kaydedebilirsiniz. Sevk edilen madde miktarından daha fazla seri numarası kaydederseniz, sevk irsaliyesi veya faturayı deftere nakledemezsiniz.

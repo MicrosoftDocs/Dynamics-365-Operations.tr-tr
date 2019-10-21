@@ -1,6 +1,6 @@
 ---
 title: Perakende işlem tutarlılık denetleyicisi
-description: Bu konuda Microsoft Dynamics 365 for Retail ürününde bulunan perakende işlem tutarlılık denetleyicisi açıklanmaktadır.
+description: Bu konuda Dynamics 365 Retail ürününde bulunan perakende işlem tutarlılık denetleyicisi açıklanmaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790433"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018438"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Perakende işlem tutarlılık denetleyicisi
 
@@ -31,9 +31,9 @@ ms.locfileid: "1790433"
 [!include [banner](includes/banner.md)]
 [!include [preview banner](includes/preview-banner.md)]
 
-Bu konuda Microsoft Dynamics 365 for Finance and Operations sürüm 8.1.3'te sunulan perakende işlem tutarlılık denetleyicisi açıklanmaktadır. Tutarlılık denetleyicisi, tutarsız hareketleri ekstre deftere nakil işlemi tarafından alınmadan önce tanımlayıp ayırır.
+Bu konuda, perakende işlem tutarlılık denetleyicisi işlevi açıklanmaktadır. Tutarlılık denetleyicisi, tutarsız hareketleri ekstre deftere nakil işlemi tarafından alınmadan önce tanımlayıp ayırır.
 
-Bir ekstre Microsoft Dynamics 365 for Retail'de deftere nakledildiğinde deftere nakil işlemi, perakende hareket tablolarında tutarsız verilerin bulunması nedeniyle başarısız olabilir. Veri sorunu, satış noktası (POS) uygulamasında öngörülemeyen aksaklıklardan veya hareketlerin üçüncü taraf POS sistemleri tarafından yanlış aktarılmasından kaynaklanabilir. Bu tutarsızlıkların nasıl görünebileceğine ilişkin örnekler şunlardır: 
+Bir ekstre Retail departmanında deftere nakledildiğinde deftere nakil işlemi, perakende işlem tablolarında tutarsız verilerin bulunması nedeniyle başarısız olabilir. Veri sorunu, satış noktası (POS) uygulamasında öngörülemeyen aksaklıklardan veya hareketlerin üçüncü taraf POS sistemleri tarafından yanlış aktarılmasından kaynaklanabilir. Bu tutarsızlıkların nasıl görünebileceğine ilişkin örnekler şunlardır: 
 
 - Üstbilgi tablosundaki işlem toplamı, satırlardaki işlem toplamıyla eşleşmiyordur.
 - Üstbilgi tablosundaki satır sayısı, işlem tablosundaki satır sayısıyla eşleşmiyordur.

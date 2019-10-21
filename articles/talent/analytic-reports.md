@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent - Attract analitik raporlar kullanımı
-description: Bu konuda, Microsoft Dynamics 365 for Talent - Attract'ta işlem öngörüleri için işe alma analitik raporları açıklanmaktadır
+title: Microsoft Dynamics 365 Talent - Attract'ta analitik raporları kullanma
+description: Bu konuda, Microsoft Dynamics 365 Talent- Attract'ta işlem öngörüleri için işe alma analitik raporları açıklanmaktadır
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: be62fe9a5021cfa83a465d316b182c0a154c0c50
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742905"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010027"
 ---
 # <a name="use-analytic-reports"></a>Analitik raporları kullanma
 
-Attract'taki analitik raporlar, işe alım işlemi öngörüleriniz için kullanıma hazır (OOTB) bir çözüm sağlar. Kullanılabilir özellikler şunları içerir:
+Microsoft Dynamics 365 Talent: Attract'taki analitik raporlar, işe alım işlemi öngörüleriniz için kullanıma hazır (OOTB) bir çözüm sağlar. Kullanılabilir özellikler şunları içerir:
 
 - **İş analizleri** İşe başvuranların ölçümleri için işin içinde **Analiz** sekmesine tıklayın.
 - **Analitik Hub:** İşlerdeki toplu ölçümler için sol gezinme panosunda **Analiz**'e tıklayın.

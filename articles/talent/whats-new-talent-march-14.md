@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'daki yenilikler veya değişiklikler (14 Mart 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (14 Mart 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/14/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5c3beef9ef4e73eaf76f861735bb154fa630703f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742505"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023919"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (14 Mart 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (14 Mart 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 Bu sürümde küçük hata gidermeleri vardır.
@@ -46,8 +46,8 @@ Bu sürümde yapılan değişiklikler performans yönetimi senaryolarını, kull
 ### <a name="mass-assign-checklists-to-workers"></a>Çalışanlara denetim listelerini toplu atama
 Bu değişiklik ile artık birden fazla personel seçebilir ve bir veya birden fazla denetim listesini bu çalışanlara toplu olarak atayabilirsiniz. 
 
-### <a name="platform-update-24"></a>Platform güncelleştirmesi 24
-Platform güncelleştirmesi 24 hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'te (Mart 2019) neler yeni veya değişti](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Platform 24 içindeki önemli değişikliklere şunlar dahildir: 
+### <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 24
+Finance and Operations için Platform güncelleştirmesi 24 hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'teki yenilikler veya değişiklikler (Mart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Platform 24 içindeki önemli değişikliklere şunlar dahildir: 
 
 - Talent içinde etkin uyarılar.
 - Güncelleştirilen gezinti çubuğu şimdi Office başlığıyla hizalanır.
@@ -67,7 +67,7 @@ Common Data Service varlıkları şimdi güncelleştirilmiş Common Data Service
 Pek çok kuruluşta, ücret ve kazanç yöneticilerinin yalnızca belirli ücret kayıtlarına erişimi olabilir. Bunlar yöneticiler veya bölgesel çalışanlar için olabilir. Bu değişiklik ile IK, yönetimini değiştirebilir ve ücret planlarını kuruluş içindeki farklı personel grupları için korur. Planlar ve planlarla ilişkili personel verilerine, örneğin maaş veya ikramiye kayıtlarına erişimi belirleyen sabit ve değişken planlara güvenlik rolleri atayabilirsiniz. Yalnıza erişime sahip olan roller, bu çalışanlar için ücreti işleyebilirler.
 
 ###  <a name="email-support-for-alerts"></a>Uyarılar için e-posta desteği
-Platform güncelleştirmesi 24 ile kullanıcılar otomatik olarak, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere gönderen uyarı kuralları oluşturabilirler.
+Finance and Operations için Platform güncelleştirmesi 24 ile kullanıcılar bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere otomatik olarak gönderen uyarı kuralları oluşturabilirler.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Yinelenen personel denetimi: Arabirim değişikliği
 Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve yinelenenlerin kaç adet olduğunu görüntüleyen bir durum gösterilir. Sağlanan bağlantıyı tespit edilen eşleşmeyi kullanıp kullanmamak üzere yeni bir sayfa açmak için seçebilirsiniz. Yinelenenler formu, veri girişini kesintiye uğratmayı önlemek için otomatik olarak açılmaz.

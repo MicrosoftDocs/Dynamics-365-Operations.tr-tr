@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 70fef8035fce7792b44a3d96d1fba342eae88541
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548566"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024764"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım
 
@@ -138,7 +138,7 @@ Bir ek açıklama, kayıt içerisinde bir adıma eklediğiniz ek metindir. Örne
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Retail Modern POS ve Bulut POS içinde yardım
 
-Görev kayıtlarınızın Retail Modern POS ve Bulut POS için metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](../fin-and-ops/get-started/help-connect.md) Retail Modern POS ve Bulut POS Yardımı, LCS'yi gerçek zamanlı olarak arar. Microsoft Dynamics 365 for Retail Yardım sistemi parametrelerinde seçili olan tüm BPM kütüphaneleri arasında arar ve ilgili sonuçları gösterir. **Yardım** menüsüne erişmek için ekranın üzerinde bulunan **Yardım** düğmesine (soru işareti) tıklayın ve daha sonra arama kutusu içerisinde işlem adınızı yazın ve ara düğmesine tıklayın.
+Görev kayıtlarınızın Retail Modern POS ve Bulut POS için metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](../fin-and-ops/get-started/help-connect.md) Retail Modern POS ve Bulut POS Yardımı, LCS'yi gerçek zamanlı olarak arar. Retail Yardım sistemi parametrelerinde seçili olan tüm BPM kitaplıkları arasında arar ve ilgili sonuçları gösterir. **Yardım** menüsüne erişmek için ekranın üzerinde bulunan **Yardım** düğmesine (soru işareti) tıklayın ve daha sonra arama kutusu içerisinde işlem adınızı yazın ve ara düğmesine tıklayın.
 
 [![Yardım düğmesi](./media/help.jpg)](./media/help.jpg)
 

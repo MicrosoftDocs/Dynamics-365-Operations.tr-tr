@@ -1,7 +1,7 @@
 ---
 title: Alım satım varlıkların sıralama düzenini değiştirme
-description: Bu konu, alım satım ilgili çeşitli kuruluşlar için Microsoft Dynamics 365 for Retail'deki görüntüleme sırasını denetlemeyle ilgili kavramları açıklamaktadır.
-author: ashishharchwani
+description: Bu konu, alım satım ilgili çeşitli kuruluşlar için Dynamics 365 Retail'deki görüntüleme sırasını denetlemeyle ilgili kavramları açıklamaktadır.
+author: josaw1
 manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
@@ -18,16 +18,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2be3c1198ac6fff851be1bead2f0995202f1f0e7
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c159ff869d6c504fdebbef1fa68115a410c81d85
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866173"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019428"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Alım satım varlıkların sıralama düzenini değiştirme
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Perakendeciler, tüm perakende kanallarında müşteri etkileşimi için ürün keşfini bir ana araç olarak kabul edin. Çeşitli işlevler müşterilerin ürünleri kolayca bulmasına yardımcı olabilir. Örneğin kategorilerine, aramaya ve filtreye göz atabilirler.
@@ -38,7 +38,7 @@ Bu konu, alım satım ilgili çeşitli kuruluşlar için görüntüleme sırası
 
 Çeşitli alım satım ilişkili varlıkları sıralama desteği geliştirilmiştir. Bu destek şimdi, daha önce uygulama ortaklarından eklenti gerektiren mevcut müşteri senaryoları ile daha uyumludur.
 
-Sürüm 10.0.5'ten önceki Microsoft Dynamics 365 for Retail sürümlerinde, gezinti hiyerarşisindeki kategorilerin sıralama düzeni alfabetik idi. Yeni özel sıralama düzeni işlevi alım ve satım yöneticilerinin tüm Son Kullanıcı istemcileri üzerinde Merchandising ile ilgili çeşitli varlıklar için sıralama düzenini konfigüre etmenize olanak tanır. Bu istemciler Yönetim Merkezleri (HQ) ve çağrı merkezleri içerirler.
+Sürüm 10.0.5'ten önceki Retail sürümlerinde, gezinti hiyerarşisindeki kategorilerin sıralama düzeni alfabetik idi. Yeni özel sıralama düzeni işlevi alım ve satım yöneticilerinin tüm Son Kullanıcı istemcileri üzerinde Merchandising ile ilgili çeşitli varlıklar için sıralama düzenini konfigüre etmenize olanak tanır. Bu istemciler Yönetim Merkezleri (HQ) ve çağrı merkezleri içerirler.
 
 ## <a name="configure-the-display-order-for-categories-in-the-retail-product-hierarchy"></a>Perakende ürün hiyerarşisindeki kategorilerin görüntülenme sırasını konfigüre etme
 

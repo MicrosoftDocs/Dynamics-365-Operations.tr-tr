@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c1aaae7a276d098587b5b9c73e433694e3a6f9bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554357"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248937"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Ürün girişi ve satınalma siparişleri karşılaştırması
 
@@ -52,7 +52,7 @@ PO'lar stok olarak tasarlanmamış ancak gider olarak kabul edilen ürünler iç
 
 Tüm bu siparişler üzerinden birden çok siparişi ve işlem girişini seçebilirsiniz. Bu yaklaşım çok sık kullanılmaz ancak bir tedarikçinin tek bir yük halinde konsolide edilmiş sevk irsaliyeleri varsa onu kullanmak isteyebilirsiniz. Satınalmaya ürün girişi sırasında özet güncelleştirmeler yapmak için bir işlev bulunmaktadır. Özet güncelleştirmeler birden fazla PO için tedarikçiden tek bir sevk irsaliyesi nakletmenizi sağlar.  
 
-PO'lar **Doğrudan teslim** seçeneğinin belirlendiği bir satış siparişinden oluşturulabilir. Doğrudan teslim kullanıldığında ürünler hiçbir zaman ambarınıza ulaşmaz ancak doğrudan tedarikçiden müşteriye sevk edilir. Bu durumda giriş genellikle doğrudan PO üzerinden kaydedilir. Giriş, örneğin tedarikçi ile tümleştirilen elektronik veri alışverişi (EDI) aracılığıyla otomatik olarak yapılabilir. Alternatif olarak, PO şirketlerarası bir PO ise sevkiyat gerçekleştiğinde Microsoft Dynamics 365 for Finance and Operations girişi şirketlerarası satış siparişinde otomatik hale getirir. Doğrudan teslim kullanıldığında, fiziksel olarak ambara ulaşmasalar dahi ürünler hala stok olarak hesaba katılır. Bu nedenle ürün girişi PO'da kaydedildiğinde satış siparişi bir sevk irsaliyesi ile otomatik olarak güncelleştirilir, böylece stoktaki toplam değişiklik 0 (sıfır) olur. Doğrudan teslim senaryolarında ön kayda gerek duymamalısınız. Ambar yönetimi için etkinleştirilmiş ambarlar kullanıyorsanız yerine sanal bir ambar belirterek plaka kaydı gereksinimi içinde gezinebilirsiniz. Bu ambarı üründe **Doğrudan teslim ambarı** alanında belirtin. 
+PO'lar **Doğrudan teslim** seçeneğinin belirlendiği bir satış siparişinden oluşturulabilir. Doğrudan teslim kullanıldığında ürünler hiçbir zaman ambarınıza ulaşmaz ancak doğrudan tedarikçiden müşteriye sevk edilir. Bu durumda giriş genellikle doğrudan PO üzerinden kaydedilir. Giriş, örneğin tedarikçi ile tümleştirilen elektronik veri alışverişi (EDI) aracılığıyla otomatik olarak yapılabilir. Alternatif olarak PO, şirketlerarası bir PO ise Supply Chain Management, sevkiyat gerçekleştiğinde girişi şirketlerarası satış siparişinde otomatikleştirir. Doğrudan teslim kullanıldığında, fiziksel olarak ambara ulaşmasalar dahi ürünler hala stok olarak hesaba katılır. Bu nedenle ürün girişi PO'da kaydedildiğinde satış siparişi bir sevk irsaliyesi ile otomatik olarak güncelleştirilir, böylece stoktaki toplam değişiklik 0 (sıfır) olur. Doğrudan teslim senaryolarında ön kayda gerek duymamalısınız. Ambar yönetimi için etkinleştirilmiş ambarlar kullanıyorsanız yerine sanal bir ambar belirterek plaka kaydı gereksinimi içinde gezinebilirsiniz. Bu ambarı üründe **Doğrudan teslim ambarı** alanında belirtin. 
 
 Ürün girişi SAS'de işlendikten sonra faturanın sipariş için işlenebildiğini göstermek için SAS durumu **Alındı** olarak ayarlanır. **Ürün girişi günlükleri** sayfasını kullanarak halihazırda alınan ürünlerle ilgili ayrıntıları inceleyebilirsiniz.  
 

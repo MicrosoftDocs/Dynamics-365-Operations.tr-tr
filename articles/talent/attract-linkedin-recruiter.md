@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent - Attract'ta LinkedIn Recruiter kaynak adayları
-description: Microsoft Dynamics 365 for Talent - Attracttarafından sağlanan LinkedIn tümleştirmesi ile LinkedIn Recruiter ile iş adayları bulun.
+title: Microsoft Dynamics 365 Talent - Attract'ta LinkedIn Recruiter ile aday kaynağı bulma
+description: Microsoft Dynamics 365 Talent - Attract tarafından sağlanan LinkedIn tümleştirmesi ile LinkedIn Recruiter ile iş adayları bulun.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,17 +19,17 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 14aba16fa81a8f25d0f88247319254407d428b2a
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739461"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008582"
 ---
 # <a name="source-candidates-with-linkedin-recruiter"></a>LinkedIn Recruiter ile aday kaynağı bulma
 [!include[banner](../includes/banner.md)]
 
-LinkedIn, dünyanın en iyi yeteneğine erişmenizi sağlayan dünya çapındaki en büyük çevrimiçi profesyonel ağdır. Microsoft Dynamics 365 for Talent: Attract, LinkedIn'den doğrudan kaynak adayları sağlar. Bu nedenle, açık konumlarınızı doldurmanız gereken yeteneği bulmak her zamankinden daha kolay. Attract'ta bağlantınızı kendiniz ayarladıktan sonra, konumlarınız için potansiyel LinkedIn adaylarını görebilir ve bunları tek bir tıklamayla Attract'a dışa aktarabilirsiniz.
+LinkedIn, dünyanın en iyi yeteneğine erişmenizi sağlayan dünya çapındaki en büyük çevrimiçi profesyonel ağdır. Microsoft Dynamics 365 Talent: Attract, doğrudan LinkedIn'den aday kaynakları bulmanızı sağlar. Bu nedenle, açık konumlarınızı doldurmanız gereken yeteneği bulmak her zamankinden daha kolay. Attract'ta bağlantınızı kendiniz ayarladıktan sonra, konumlarınız için potansiyel LinkedIn adaylarını görebilir ve bunları tek bir tıklamayla Attract'a dışa aktarabilirsiniz.
 
 Bu yeteneğe sahip değilseniz yöneticinize başvurun. Attract'ta LinkedIn Recruiter'den yararlanabilmeniz için, yöneticinizin [LinkedIn ile tümleşmeyi ayarlaması gerekir](./attract-admin-linkedin.md). Böylece, bağlantınızı LinkedIn Recruiter ile ayarlayıp adaylarınız bulmaya başlayabilir.
 

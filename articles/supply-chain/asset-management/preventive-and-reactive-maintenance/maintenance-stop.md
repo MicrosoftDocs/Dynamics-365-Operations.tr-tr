@@ -3,7 +3,7 @@ title: Bakım kesinti süresi
 description: Bu konuda Varlık Yönetimi'ndeki bakım kesinti süresi açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,16 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a831d56116c57b640993162473e74e5ce181f09c
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875936"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922195"
 ---
 # <a name="maintenance-downtime"></a>Bakım kesinti süresi
-
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,12 +43,12 @@ Bakım kesinti süresi kaydında varlıklar seçildiğinde etkin iş emirleriyle
 
 ## <a name="maintenance-downtime-activities"></a>Bakım kesinti süresi faaliyetleri
 
-Tüm bakım kesinti süresi faaliyetlerinin listesini açmak ve faaliyetlerle ilgili bazı bilgileri görmek için **Varlık yönetimi** > **Genel** > **Bakım kesinti süresi faaliyetleri** > **Tüm bakım kesinti süresi faaliyetleri**'ne tıklayın. Ayrıntılar görünümünü açmak için **Bakım kesinti süresi faaliyetleri** sütunundaki bağlantıya tıklayın.
+Tüm bakım kesinti süresi faaliyetlerinin listesini açmak ve faaliyetlerle ilgili bazı bilgileri görmek için **Varlık yönetimi** > **Genel** > **Bakım kesinti süresi faaliyetleri** > **Tüm bakım kesinti süresi faaliyetleri**'ne tıklayın. Ayrıntılar görünümünü açmak için **Bakım kesinti süresi faaliyetleri** sütunundaki bağlantıya tıklayın. Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** listesi örneği gösterilmektedir.
 
 ![Şekil 1](media/19-preventive-maintenance.png)
 
 
-## <a name="create-a-maintenance-downtime-registration"></a>Bakım kesinti süresi kaydı oluşturma
+## <a name="create-a-maintenance-downtime-activity"></a>Bakım kesinti süresi faaliyeti oluşturma
 
 1. **Varlık yönetimi** > **Genel** > **Bakım kesinti süresi faaliyetleri** > **Tüm bakım kesinti süresi faaliyetleri** veya **Etkin bakım kesinti süresi faaliyetleri**.
 
@@ -61,9 +60,11 @@ Tüm bakım kesinti süresi faaliyetlerinin listesini açmak ve faaliyetlerle il
 
 5. Bakım kesinti süresi faaliyetine her defasında bir varlık eklemek için **Bakım kesinti süresi faaliyetleri varlıkları** hızlı sekmesinde **Satır ekle**'ye tıklayın.
 
-6. Tüm varlıklar eklendiğinde **Kaydet**'e tıklayın.
+6. Tüm varlıklar eklendiğinde **Kaydet**'e tıklayın. Aşağıdaki çizimde ilgili varlıklar ve bakım işleri bulunan bir bakım kesinti süresi faaliyeti örneği gösterilmektedir.
 
 7. Seçilen varlıklarla ilgili iş emri bakım işleri ve açık bakım zamanlaması satırları **Oluşturulan iş emri bakım işleri** ve **Bakım zamanlaması satırları** hızlı sekmelerinde gösterilir. **Genel** hızlı sekmesi > **İş emirleri** grubu > **Bakım tahmini saatleri** alanında ve **Genel** hızlı sekmesi > **Bakım zamanlaması** grubu > **Bakım tahmini saatleri** alanında iş emri bakım işleri ve bakım zamanlaması satırları için tahmin edilen toplam saat sayısını görürsünüz.
+
+Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** ayrıntıları görünümü örneği gösterilmektedir.
 
 ![Şekil 2](media/20-preventive-maintenance.png)
 
@@ -74,7 +75,7 @@ Tüm bakım kesinti süresi faaliyetlerinin listesini açmak ve faaliyetlerle il
 
 9. **Kapasite yükünü hesapla** iletişim kutusunda gerekirse başlangıç ve bitiş tarihlerini düzenleyin ve hesaplamaya iş emirlerini ve bakım zamanlamalarını dahil etmek isteyip istemediğinizi seçin. İşlem yapılacak yerleşimlerle ilişkilendirmek istediğiniz kapasite yükü hesaplamasının ayrıntılarını göstermek için **Düzey** alanını kullanabilirsiniz. Örneğin, alana "1" sayısını girerseniz ve çok düzeyli bir işlem yapılacak yerleşim yapınız varsa işlem yapılacak yerleşim için bakım kesinti süresi faaliyetinde seçilen tüm varlıklar üst düzeyde gösterilir ve dolayısıyla bir satırdaki saatler alt düzeyde bulunan işlem yapılacak yerleşimden eklenebilir. **Düzey** alanına "0" sayısını girerseniz ilişkili oldukları tüm işlem yapılacak yerleşim düzeylerinde bulunan tüm kapasite yükü satırlarını gösteren ayrıntılı bir sonuç görürsünüz.
 
-10. Hesaplamayı başlatmak için **Tamam**'a tıklayın. Toplam saat sayısı, **Kapasite yükü** özetinde gösterilir. **Kapasite yükü** sekmesi > **Gruplama ölçütü** eylem bölmesi gruplarında tahmini saatlerin tahsisatına dair daha ayrıntılı özet edinmek için ilgili düğmelere tıklayın.
+10. Hesaplamayı başlatmak için **Tamam**'a tıklayın. Toplam saat sayısı, **Kapasite yükü** özetinde gösterilir. **Kapasite yükü** sekmesi > **Gruplama ölçütü** eylem bölmesi gruplarında tahmini saatlerin tahsisatına dair daha ayrıntılı özet edinmek için ilgili düğmelere tıklayın. Aşağıdaki çizimde bir **Kapasite yükü** hesaplamasının sonuçları gösterilmektedir.
 
 ![Şekil 3](media/21-preventive-maintenance.png)
 
@@ -91,7 +92,7 @@ Tüm bakım kesinti süresi faaliyetlerinin listesini açmak ve faaliyetlerle il
 
 15. **Madde tahminini hesapla** iletişim kutusunda gerekirse başlangıç ve bitiş tarihlerini düzenleyin ve hesaplamaya iş emirlerini ve bakım zamanlamalarını dahil etmek isteyip istemediğinizi seçin. İşlem yapılacak yerleşimlerle ilişkilendirmek istediğiniz kapasite yükü hesaplamasının ayrıntılarını göstermek için **Düzey** alanını kullanabilirsiniz. Örneğin, alana "1" sayısını girerseniz ve çok düzeyli bir işlem yapılacak yerleşim yapınız varsa işlem yapılacak yerleşim için bakım kesinti süresi faaliyetinde seçilen tüm varlıklar üst düzeyde gösterilir ve dolayısıyla bir satırdaki saatler alt düzeyde bulunan işlem yapılacak yerleşimden eklenebilir. **Düzey** alanına "0" sayısını girerseniz ilişkili oldukları tüm işlem yapılacak yerleşim düzeylerinde bulunan tüm kapasite yükü satırlarını gösteren ayrıntılı bir sonuç görürsünüz.
 
-16. Hesaplamayı başlatmak için **Tamam**'a tıklayın. Toplam madde tahmini sayısı, **Madde tahmini** özetinde gösterilir. **Madde tahmini** sekmesi > **Gruplama ölçütü** eylem bölmesi gruplarında tahmini saatlerin tahsisatına dair daha ayrıntılı özet edinmek için ilgili düğmelere tıklayın.
+16. Hesaplamayı başlatmak için **Tamam**'a tıklayın. Toplam madde tahmini sayısı, **Madde tahmini** özetinde gösterilir. **Madde tahmini** sekmesi > **Şunlara göre grupla...** eylem bölmesi gruplarında tahmini saatlerin tahsisatına dair daha ayrıntılı özet edinmek için ilgili düğmelere tıklayın. Aşağıdaki çizimde bir **Madde tahmini** hesaplamasının sonuçları gösterilmektedir.
 
 ![Şekil 4](media/22-preventive-maintenance.png)
 

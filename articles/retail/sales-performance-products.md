@@ -1,6 +1,6 @@
 ---
 title: Satış performansını ürüne göre değerlendirme
-description: Microsoft Dynamics 365 for Retail kullanarak en iyi 10 ürün için karlılığı inceleyebilirsiniz.
+description: Dynamics 365 Retail kullanarak en iyi 10 ürün için karlılığı inceleyebilirsiniz.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 059474a780f849d6e1920703c1f717a9adaa2617
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7796aa830c99bd0fd5784ff95e509767a3b55b44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546398"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024972"
 ---
 # <a name="assess-sales-performance-by-product"></a>Satış performansını ürüne göre değerlendirme
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail kullanarak en iyi 10 ürün için karlılığı inceleyebilirsiniz.
+Dynamics 365 Retail kullanarak en iyi 10 ürün için karlılığı inceleyebilirsiniz.
 
-Dynamics 365 for Retail'ın bir parçası olarak, kullanıcılar aşağıdaki kriterlerden birine göre kuruluş hiyerarşisinin farklı düzeylerinde en iyi ürünlere (10'dan 100'e) ilişkin kârlılığı inceleyebilir:
+Retail'in bir parçası olarak, kullanıcılar aşağıdaki kriterlerden birine göre kuruluş hiyerarşisinin farklı düzeylerinde en iyi ürünlere (10'dan 100'e) ilişkin kârlılığı inceleyebilir:
 
 - Satış tutarı
 - Miktar

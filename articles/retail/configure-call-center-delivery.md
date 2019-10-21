@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
-description: Bu konu, Microsoft Dynamics 365 for Retail içinde bir çağrı merkezi siparişinin teslimat modlarını ve giderlerini ayarlamayı açıklar.
+description: Bu konu, Dynamics 365 Retail içinde bir çağrı merkezi siparişinin teslimat modlarını ve giderlerini ayarlamayı açıklar.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b67a1d91e41e1a4c21e0e877c06812dededbe731
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553611"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019507"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail'de bir satış siparişi verildiği zaman, satış siparişini giren kişi bir çağrı merkezi kanalına bağlıysa, teslimat şeklini doğrulamak ve sipariş masraflarını hesaplamak için mantık ve kurallar kullanılır.
+Dynamics 365 Retail'de bir satış siparişi verildiği zaman, satış siparişini giren kişi bir çağrı merkezi kanalına bağlıysa, teslimat şeklini doğrulamak ve sipariş masraflarını hesaplamak için mantık ve kurallar kullanılır.
 
 Bir satış siparişi oluştururken, satış siparişi üst bilgisinde ve satış siparişi satırlarında bir teslimat şekli seçebilirsiniz. Varsayılan olarak, üst bilgide seçtiğiniz teslimat şekli, tüm satış siparişi satırları için kullanılır. Bununla birlikte, gereksinim duyduğunuz takdirde bu varsayılan teslimat şeklini tek tek satış satırlarında değiştirebilirsiniz. Müşteri kaydında da bir teslimat şekli tanımlayabilirsiniz. Bunun üzerine, müşteri için siparişler oluşturulurken o teslimat şekli satış siparişi üst bilgisinde varsayılan olarak kullanılır.
 

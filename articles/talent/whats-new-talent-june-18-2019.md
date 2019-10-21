@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'taki yenilikler veya değişiklikler (Haziran 18 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (Haziran 18 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/18/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-18
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: bfc90d6eec27e55364d4bf2279ffd32fb8d53ca8
-ms.sourcegitcommit: f21b2349967feb3db2016c8ff83a2b11957f8863
+ms.openlocfilehash: 059a0bad2f56b97a1708b64eab9d2adda6d2c8ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "1691982"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009065"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-18-2019"></a>Dynamics 365 for Talent'taki yenilikler veya değişiklikler (Haziran 18 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-18-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (Haziran 18 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 
-Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="coming-soon-in-attract"></a>Yakın zamanda Attract'e geliyor
 
@@ -43,7 +43,7 @@ Onaylar, panonun bir **Onaylar** bölümünde görüntülenir. Onaylayanlar, iş
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
 
-Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 

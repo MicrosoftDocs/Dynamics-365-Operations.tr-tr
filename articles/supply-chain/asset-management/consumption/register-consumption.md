@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7f785b0935b952d6de68fd120a3639077ad124bd
-ms.sourcegitcommit: c0b581e4c647b6c47bc14d1d7bfe267832afecba
+ms.openlocfilehash: 174c816c7a6442b07e4722c03045293b94c59153
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1913113"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024672"
 ---
 # <a name="register-consumption"></a>Tüketimi kaydetme
 
@@ -52,7 +52,7 @@ Bir iş emrinde tahmin satırları ekleyebilir veya silebilirsiniz. Bir iş emri
 
 7. Tüketim günlüklerini deftere naklettikten sonra, iş emrinin tamamlandığını belirtmek için iş emri yaşam döngüsü durumunu örneğin "Sona erdi" olarak güncelleştirebilirsiniz.
 
-- **İş emri  günlükleri** sayfasının en üstündeki **Göster** alanında, hangi günlük satırlarını görmek istediğinizi seçin: tümü, deftere nakledilmemiş veya deftere nakledilmiş. Deftere nakledilen günlüklerin **Deftere nakledildi** onay kutusunda onay işareti vardır.  
+- **İş emri günlükleri** sayfasının en üstündeki **Göster** alanında, hangi günlük satırlarını görmek istediğinizi seçin: tümü, deftere nakledilmemiş veya deftere nakledilmiş. Deftere nakledilen günlüklerin **Deftere nakledildi** onay kutusunda onay işareti vardır.  
 - İş emri günlüğünde madde satırları oluşturulduğunda, maddeyle ilgili ürün boyutları ve izleme boyutları otomatik olarak günlük satırına transfer edilir.  
 
 Aşağıdaki ekran görüntüsü, **İş emri günlüklerindeki** bir iş emrindeki bir saat ve madde kaydı örneğini gösterir.
@@ -93,5 +93,5 @@ Tüketim kayıtları yaptığınızda, farklı kayıt türleriyle ilgili mali bo
 *Madde kayıtları:* Önce, varsa günlük başlığındaki mali boyutlar eklenir. Ardından ilgili iş emri projesindeki mali boyutlar eklenir. Bundan sonra, tesisteki mali boyutlar eklenir. Son olarak, maddedeki mali boyutlar eklenir.
 
 >[!NOTE]
->Üç kayıt türü için, mali boyut birleşimi doğrulanır ve geçersiz birleşimler boş bırakılır. Bu, Dynamics 365 for Finance and Operations uygulamasındaki standart kurulumdur.
+>Üç kayıt türü için, mali boyut birleşimi doğrulanır ve geçersiz birleşimler boş bırakılır. Bu, Finance and Operations için standart kurulumdur.
 

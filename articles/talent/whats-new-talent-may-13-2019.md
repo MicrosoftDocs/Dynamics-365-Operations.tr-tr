@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'daki yenilikler veya değişiklikler (13 Mayız 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (13 Mayız 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/13/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ffeeb3e2f5279a84c4c060b04fe46836b778f6c5
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 42feeb044d0a4cd25faf2d74863aa4e948c200fd
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856460"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008835"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-13-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (13 Mayız 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-13-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (13 Mayız 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="coming-soon-in-attract"></a>Yakın zamanda Attract'e geliyor
 
@@ -39,7 +39,7 @@ Onaylar, panonun bir **Onaylar** bölümünde görüntülenir. Onaylayanlar, iş
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
 
-Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 

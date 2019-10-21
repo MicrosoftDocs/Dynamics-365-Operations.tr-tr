@@ -3,7 +3,7 @@ title: Bakım planlarını zamanla
 description: Bu konuda Varlık Yönetimi'nde bakım planlarını zamanlama işlemi açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b6e5bde83474fe8971e482af518f7cee23a2220
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875941"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922057"
 ---
 # <a name="schedule-maintenance-plans"></a>Bakım planlarını zamanla
 
@@ -49,11 +49,11 @@ ms.locfileid: "1875941"
 
 - İşlem yapılacak yerleşimlerde bakım planlarının zamanlanmasıyla ilgili olarak: Bakım planlarını zamanladıktan sonra **Tüm işlem yapılacak yerleşimler** > **Bakım planları** hızlı sekmesindeki bakım planlarında varlık türleri, üreticiler ve modellerin ayarını güncelleştirirseniz, bu işlem yapılacak yerleşimle ilgili mevcut bakım zamanlaması girişleri otomatik olarak silinir. İşlem yapılacak yerleşimdeki güncelleştirilmiş bakım planı ayarına karşılık gelen yeni takvim girişleri oluşturmak için, bu işlem yapılacak yerleşim için yeni bir bakım planı zamanlaması çalıştırmanız gerekir. [İşlem yapılacak yerleşimler oluşturma](../functional-locations/create-functional-locations.md) bölümünde işlem yapılacak yerleşimlerde varlık türleri, üreticiler ve modelleri ayarlama hakkında daha fazla bilgi edinin.
 
->*Örnek:* Belirli bir işlem yapılacak yerleşim için bir bakım planı oluşturmak isterseniz bu, bakım planını zamanladığınızda belirli bir sürede bu işlem yapılacak yerleşimdeki tüm varlık ayarlarının dahil edileceği anlamına gelir. Bu durumda, bir bakım planı oluşturabilir ve belirli bir işlem yapılacak yerleşimi seçebilirsiniz ancak bakım planına herhangi bir nesne EKLEYEMEZSİNİZ. Bunun sonucunda, bu bakım planını zamanladığınızda bu süre içinde işlem yapılacak yerleşimle ilgili tüm varlıklar için bakım zamanlaması satırları oluşturulur.
+>*Örnek:* Belirli bir işlem yapılacak yerleşim için bir bakım planı oluşturmak isterseniz bu, bakım planını zamanladığınızda belirli bir sürede bu işlem yapılacak yerleşimdeki tüm varlık ayarlarının dahil edileceği anlamına gelir. Bu durumda, bir bakım planı oluşturabilir ve belirli bir işlem yapılacak yerleşimi seçebilirsiniz ancak bakım planına herhangi bir varlık EKLEYEMEZSİNİZ. Bunun sonucunda, bu bakım planını zamanladığınızda bu süre içinde işlem yapılacak yerleşimle ilgili tüm varlıklar için bakım zamanlaması satırları oluşturulur.
 
 - **Varlık Türleri**'ndeki varlık türlerini, üreticileri ve modelleri değiştirirseniz bu değişiklikler yalnızca güncelleştirilmiş varlık türünü kullanan yeni varlıkları etkiler. [Varlık türleri](../setup-for-objects/object-types.md) bölümünde varlık türü ayarlama hakkında daha fazla bilgi edinin.  
 
-5. Varlıklarda bakım zamanlaması girişlerinin oluşturulmasını başlatmak için **Tamam**'a tıklayın. Oluşturulan girişler **Tüm bakım zamanlaması** liste sayfasında gösterilir.
+5. Varlıklarda bakım zamanlaması girişlerinin oluşturulmasını başlatmak için **Tamam**'a tıklayın. Oluşturulan girişler **Tüm bakım zamanlaması** liste sayfasında gösterilir. Aşağıdaki şekilde bir **Bakım planlarını zamanla** iletişim kutusu örneği gösterilmektedir.
 
 ![Şekil 1](media/09-preventive-maintenance.png)
 
@@ -75,3 +75,4 @@ Burada açıklanan örnekler, bir varlıkta gerçekleştirilen tüm sayaç kayı
 ![Şekil 3](media/11-preventive-maintenance.png)
 
 ![Şekil 4](media/12-preventive-maintenance.png)
+

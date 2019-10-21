@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63cad6b2f7240bb14fe7a9237498c0140df77774
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568011"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025041"
 ---
 # <a name="retail-statements"></a>Perakende ekstreleri
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail içerisinde, ekstre deftere nakletme işlemi, Bulut satış noktası (POS) veya Modern POS (MPOS) içerisinde gerçekleşen hareketlerin muhasebesini yapmak için kullanılır. Beyan deftere nakil işlemi, bir POS hareket kümesini merkez (HQ) istemcisine çekmek için dağıtım planlama kullanılır. **Perakende parametreleri** ve **Mağazalar** sayfalarında tanımlanan parametreler, tek tek ekstrelere çekilecek hareketleri seçmek için kullanılır.
+Dynamics 365 Retail içerisinde, ekstre deftere nakletme işlemi, Bulut satış noktası (POS) veya Modern POS (MPOS) içerisinde gerçekleşen hareketlerin muhasebesini yapmak için kullanılır. Beyan deftere nakil işlemi, bir POS hareket kümesini merkez (HQ) istemcisine çekmek için dağıtım planlama kullanılır. **Perakende parametreleri** ve **Mağazalar** sayfalarında tanımlanan parametreler, tek tek ekstrelere çekilecek hareketleri seçmek için kullanılır.
 
 Aşağıdaki çizimde ekstre deftere nakletme işlemi gösterilmiştir. Bu işlemde, POS içerisinde kaydedilen hareketler, istemciye Perakende planlayıcısı kullanılarak aktarılır. İstemci hareketleri aldıktan sonra, mağaza için hareket ekstrelerinı oluşturabilir, hesaplayabilir ve deftere nakledebilirsiniz.
 
@@ -85,6 +85,6 @@ Mağaza, iş gününün kapanışı için ekstresini deftere naklettiğinde, olu
 Bir ekstreyi deftere naklettiğinizde, satış siparişleri ve faturalar, ekstre içindeki perakende satışlar için oluşturulur.
 
 - Peşin alışveriş satışlar bir satış siparişinde toplanır ve mağazaya atanmış olan varsayılan kullanıcıya faturalanır.
-- Microsoft Dynamics 365 for Retail POS içerisinde bir harekete bir müşterinin eklenmiş olduğu perakende satışları, her bir benzersiz müşteri için ayrı satış siparişleri ve faturalar oluşturur.
+- Retail POS'taki bir harekete bir müşterinin eklenmiş olduğu perakende satışları, her bir benzersiz müşteri için ayrı satış siparişleri ve faturalar oluşturur.
 
 Ödeme günlükleri, ekstredeki ödemeler için otomatik olarak oluşturulur ve stok, POS mağazası için güncelleştirilir.

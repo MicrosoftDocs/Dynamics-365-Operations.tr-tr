@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8138b6144cc6ba09834f2bfb61cc7334767307d6
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 45d3d962958d0487c9e65910a2dce24097a83773
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916565"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017770"
 ---
 # <a name="base-price-and-trade-agreements"></a>Taban fiyat ve ticari sözleşmeler
 
@@ -56,7 +56,7 @@ Bu yordam kanala özel bir satış fiyatı ticari anlaşmaları oluşturma süre
 24. **Ticari anlaşmalar oluştur**'a tıklayın.
 25. **Yeni**'ye tıklayın.
 26. **Ad** alanında, açılır menü düğmesine tıklayarak aramayı açın.
-27. Listeden 'Perakende'yi seçin. Demo veride 'Perakende' günlük adının varsayılan ilişkisi 'Fiyat (satış)'dır. Bu, yeni oluşturulan tüm satırların varsayılan olarak satış fiyatı ticari anlaşmalarına ayarlanır.  
+27. Listeden **Perakende**'yi seçin. Demo veride **Perakende** günlük adının varsayılan ilişkisi **Fiyat (satış)**'dır. Bu, yeni oluşturulan tüm satırların varsayılan olarak satış fiyatı ticari anlaşmalarına ayarlanır.  
 28. **Eylem Bölmesi**'nde, **Satırlar** öğesine tıklayın.
 29. **Hesap kodu** alanında 'Grup'u seçin.
 30. **Hesap seçimi** alanında, aramayı açmak için açılır menü düğmesine tıklayın.

@@ -1,6 +1,6 @@
 ---
 title: Bir iade emrinde bir değişiklik yapılandırma ve işleme
-description: Bu konuda, Microsoft Dynamics 365 for Retail için bir iadede bir değişikliğin nasıl yapılandırılacağı açıklanmaktadır.
+description: Bu konuda, Dynamics 365 Retail için bir iadede bir değişikliğin nasıl yapılandırılacağı açıklanmaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 11/12/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ce327a918159771df0acab276b1169d2ad77825
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561399"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025391"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Bir iade emrinde bir değişiklik yapılandırma ve işleme
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail'in önceki sürümlerinde, müşteri siparişlerine göre iadeler Retail Headquarters'daki iade emri belgesi kullanılarak işlenmiştir. Ancak, iade emri belgesi yalnızca iade edilen ürünleri işlemek için kullanılabilir. İade edilen ürünler, iade emri satırlarında bir eksi miktarla belirtilir. Bunun aksine, satışlar ise artı bir miktarla gösterilir. Ancak, iade emri belgesi artı miktarları desteklemez. Bu kısıtlama nedeniyle, Retail'ın önceki sürümleri ürün değişikliklerinin iade emri belgesi kullanılarak yapıldığı senaryoları desteklememiştir.
+Dynamics 365 Retail'in önceki sürümlerinde, müşteri siparişlerine göre iadeler Retail Headquarters'daki iade emri belgesi kullanılarak işlenmiştir. Ancak, iade emri belgesi yalnızca iade edilen ürünleri işlemek için kullanılabilir. İade edilen ürünler, iade emri satırlarında bir eksi miktarla belirtilir. Bunun aksine, satışlar ise artı bir miktarla gösterilir. Ancak, iade emri belgesi artı miktarları desteklemez. Bu kısıtlama nedeniyle, Retail'ın önceki sürümleri ürün değişikliklerinin iade emri belgesi kullanılarak yapıldığı senaryoları desteklememiştir.
 
 Ancak, değişikliklerin iade emirlerinde yapıldığı senaryoları desteklemek için işlevler eklenmiştir. Retail artık bu tür hareketleri işlemek için iade emri belgesi yerine satış siparişi belgesini kullanmaktadır.
 

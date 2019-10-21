@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a416bbb79be3f25998d3c0da8d231d0df808685
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875948"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024511"
 ---
 # <a name="maintenance-forecasts"></a>Bakım tahminleri
 
@@ -104,7 +104,7 @@ Bir iş emri bakım tahminine madde eklemenin üç yolu vardır: Yedek parça li
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>İş emri tahminlerini otomatik güncelleştirme
 
-Varlık Yönetimi'nde, Dynamics 365 for Finance and Operations'daki diğer modüllerde güncelleştirilen saat maliyetleri, madde maliyetleri ve giderler için iş emri tahminlerindeki değişiklikleri otomatik olarak güncelleştirebilirsiniz. Bu işlem, en son maliyet fiyatlarının iş emri tahminlerinde her zaman kullanılmasını sağlamak için yapılır. [Bakım işi türü tahminlerinde](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md) de benzer güncelleştirmeler yapmak mümkündür.
+Varlık Yönetimi'nde, diğer modüllerde güncelleştirilen saat maliyetleri, madde maliyetleri ve giderler için iş emri tahminlerindeki değişiklikleri otomatik olarak güncelleştirebilirsiniz. Bu işlem, en son maliyet fiyatlarının iş emri tahminlerinde her zaman kullanılmasını sağlamak için yapılır. [Bakım işi türü tahminlerinde](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md) de benzer güncelleştirmeler yapmak mümkündür.
 
 1. **Varlık yönetimi** > **Periyodik** > **Tahmin** > **İş emri tahmini güncelleştir** seçeneğine tıklayın.
 

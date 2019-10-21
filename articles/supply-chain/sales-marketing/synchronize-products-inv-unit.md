@@ -1,6 +1,6 @@
 ---
-title: Finance and Operations'tan Field Service'a stok birim ile ürünleri eşitlemek
-description: Bu konu, stoklu ürünlerin Microsoft Dynamics 365 for Finance and Operations üzerinden Microsoft Dynamics 365 for Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+title: Stok birimli ürünleri Supply Chain Management'tan Field Service'e eşitleme
+description: Bu konu, stoklu ürünlerin Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,38 +19,38 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 78e8d8fa609b015cf2fceaf498279fe091325dbb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b65e9640106c5d351270074e39c121e70917228
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835706"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251236"
 ---
-# <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Stok birimli ürünleri Finance and Operations'dan Field Service'a eşitleme
+# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Stok birimli ürünleri Supply Chain Management'tan Field Service'e eşitleme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, stoklu ürünlerin Microsoft Dynamics 365 for Finance and Operations üzerinden Microsoft Dynamics 365 for Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+Bu konu, stoklu ürünlerin Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 
-[![Finance and Operations ile Field Service arasında iş süreçlerini eşitleme](./media/FSProductsOW.png)](./media/FSProductsOW.png)
+[![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-Kullanılan **Stok birimli Field Service Ürünleri (Fin and Ops'tan Field Service'a)** şablonu, **Field Service Ürünleri (Fin and Ops'tan Field Service'a)** şablonu üzerine dayanır. Daha fazla bilgi için bkz. [Field Service Ürünleri (Finance and Operations'tan Field Service'a)](field-service-product.md).
+Kullanılan **Stok Birimli Field Service Ürünleri (Supply Chain Management'tan Field Service'e)** şablonu, **Field Service Ürünleri (Supply Chain Management'tan Field Service'e)** şablonuna dayanır. Daha fazla bilgi için bkz. [Field Service Ürünleri (Supply Chain Management'tan Field Service'e)](field-service-product.md).
 
 Bu konu, yalnızca iki şablon arasındaki farkı açıklar: 
-- **Stok birimli Field Service Ürünleri (Fin and Ops'tan Sales'a)**
-- **Field Service Ürünleri (Fin and Ops'tan Field Service'a)** 
+- **Stok Birimli Field Service Ürünleri (Supply Chain Management'tan Sales'e)**
+- **Field Service Ürünleri (Supply Chain Management'tan Field Service'e)** 
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 
 **Veri tümleştirmesindeki şablonun adı:**
 
-- Stok birimli Field Service Ürünleri (Fin and Ops'tan Sales'a)
+- Stok Birimli Field Service Ürünleri (Supply Chain Management'tan Sales'e)
 
 **Veri tümleştirme projesindeki görevin adı:**
 
 - Ürünler
 
-**Stok birimli Field Service Ürünleri (Fin and Ops'tan Field Service'a)** şablonu, **Field Service Ürünleri (Fin and Ops'tan Field Service'a)** içinde dahil olmayan bir eşleştirme içerir. Bu eşleme gerekli eşitleme stok düzeyi için stok tutma birimi birlikte sağlanır.
+**Stok Birimli Field Service Ürünleri (Supply Chain Management'tan Field Service'e)** şablonu, **Field Service Ürünleri (Supply Chain Management'tan Field Service'e)** şablonunda yer almayan bir eşleşme içeriyor. Bu eşleme gerekli eşitleme stok düzeyi için stok tutma birimi birlikte sağlanır.
 
 ```
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
@@ -60,6 +60,6 @@ INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryuni
 
 Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
 
-### <a name="field-service-products-with-inventory-unit-fin-and-ops-to-field-service-products"></a>Stok birimli Field Service Ürünleri (Fin and Ops'tan Field Service'a): Ürünler
+### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>Stok Birimli Field Service Ürünleri (Supply Chain Management'tan Field Service'e): Ürünler
 
 [![Veri tümleştirmede şablon eşleme](./media/FSProduct1.png)](./media/FSProduct1.png)

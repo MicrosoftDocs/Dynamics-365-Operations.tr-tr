@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f15c6c5ccdcddebe7aa428cff48ca6e3b120d7f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: bd963caed7f49db5dd7550dd30c3f831318d2b7a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783657"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250910"
 ---
 # <a name="create-an-asset"></a>Varlık oluşturma
 
@@ -63,12 +63,12 @@ Varlıktaki yedek parçaları, alternatif yedek parçaları ve iş türü varsay
 
 ## <a name="asset"></a>Aktif
 
-Varlık için bir **Kaynak** seçebilirsiniz. Kaynak seçimi, iş emri planlaması için hangi takvimin kullanılacağını belirler. Kaynak seçimi genellikle sabit kıymetler için kullanılır. Dynamics 365 for Finance and Operations'da kaynaklar ve kaynak grupları **Kuruluş Yönetimi** > **Kaynaklar** > **Kaynak grupları** veya **Kaynaklar**'da ayarlanır.
+Varlık için bir **Kaynak** seçebilirsiniz. Kaynak seçimi, iş emri planlaması için hangi takvimin kullanılacağını belirler. Kaynak seçimi genellikle sabit kıymetler için kullanılır. Kaynaklar ve kaynak grupları **Kuruluş Yönetimi** > **Kaynaklar** > **Kaynak grupları** veya **Kaynaklar**'da ayarlanır.
 
 **Sabit kıymet sayısı** alanında, varlıkla ilişkilendirilecek bir sabit kıymet seçebilirsiniz. Bu varlığınızın bir yatırım projesiyle ilgili olması durumunda geçerlidir.
 
 - Varlık bir sabit kıymetle ilgiliyse, bir yatırım projesiyle ilgili iş emirleri için kullanılacak bir iş emri türü oluşturabilirsiniz. 
-- Bir varlığın sabit kıymetleri hakkındaki bilgiler, Dynamics 365 for Finance and Operations'daki **Sabit kıymetler** modülüyle ilişkilidir. Bu, **Sabit kıymetler** > **Sabit kıymetler** > **Sabit kıymetler**'de, listedeki bir varlığı seçip **İlgili bilgiler** bölmesi > **İlişkili projeler** bölümündeki içerikleri görüntüleyerek bir sabit kıymetle ilgili olabilecek Varlık Yönetimi projelerine genel bakış yapabileceğiniz anlamına gelir.
+- Bir varlığın sabit kıymetleri hakkındaki bilgiler, Dynamics 365 Supply Chain Management'daki **Sabit kıymetler** modülüyle ilişkilidir. Bu, **Sabit kıymetler** > **Sabit kıymetler** > **Sabit kıymetler**'de, listedeki bir varlığı seçip **İlgili bilgiler** bölmesi > **İlişkili projeler** bölümündeki içerikleri görüntüleyerek bir sabit kıymetle ilgili olabilecek Varlık Yönetimi projelerine genel bakış yapabileceğiniz anlamına gelir.
 
 
 ## <a name="details"></a>Ayrıntılı

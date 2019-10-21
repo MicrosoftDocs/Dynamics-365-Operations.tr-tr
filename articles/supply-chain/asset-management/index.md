@@ -1,6 +1,6 @@
 ---
 title: Varlık yönetimine genel bakış
-description: Bu konuda, Dynamics 365 for Finance and Operations'daki Varlık Yönetimi işlevi açıklanmaktadır.
+description: Bu konuda, Dynamics 365 Supply Chain Management'daki Varlık Yönetimi işlevi açıklanmaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 07/24/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b8a619d787a2d43e843b574edf77b3153d53005
-ms.sourcegitcommit: 829b6dc145197cc565d40469f6a1522f8dccac9f
+ms.openlocfilehash: f98185fbabefedd2a545bd1c3e15b9e180363469
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "1788292"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024718"
 ---
 # <a name="asset-management-overview"></a>Varlık yönetimine genel bakış
 
@@ -32,7 +32,7 @@ ms.locfileid: "1788292"
 [!include [banner](../includes/preview-banner.md)]
 
 
-Varlık Yönetimi, Microsoft Dynamics 365 for Finance and Operations'da varlıkların ve bakım işlerinin yönetilmesine yönelik gelişmiş bir modüldür. Varlık yönetimi, Finance and Operations'daki çeşitli modüller ile sorunsuz şekilde tümleşir. 
+Varlık Yönetimi, Dynamics 365 Supply Chain Management'da varlıkların ve bakım işlerinin yönetilmesine yönelik gelişmiş bir modüldür. Varlık yönetimi, Finance and Operations'daki çeşitli modüller ile sorunsuz şekilde tümleşir. 
 
 Aşağıdaki görüntü Finance and Operations'taki diğer modüllere yönelik arabirimleri gösterir.
 

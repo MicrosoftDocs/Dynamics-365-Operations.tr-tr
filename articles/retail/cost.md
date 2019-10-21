@@ -1,6 +1,6 @@
 ---
 title: Dağıtılmış sipariş yönetimi (DOM) için maliyet yapılandırması
-description: Bu konuda, Microsoft Dynamics 365 for Retail'deki dağıtılmış sipariş yönetimi (DOM) işlevi için maliyet yapılandırması açıklanmaktadır.
+description: Bu konuda, Dynamics 365 Retail'deki dağıtılmış sipariş yönetimi (DOM) işlevi için maliyet yapılandırması açıklanmaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 12/05/2018
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80e7a033467c3d94d55f06daa05f99bd27e19a29
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: b5e3e1997f3d3b61b7b3c7486f5531e386293537
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606791"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019451"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM) için maliyet yapılandırması
 
@@ -31,7 +31,7 @@ ms.locfileid: "1606791"
 
 Kuruluşlar, bir siparişin karşılanması gereken en iyi konumu belirlemek için birden fazla maliyet bileşenini dikkate alır. Bu maliyet bileşenlerinden bazıları sevkiyat maliyeti, işleme maliyeti ve ambalaj maliyetidir. Bu maliyetlerin birleşimi, karşılama konumunun belirlenmesi için hesaplanır.
 
-Microsoft Dynamics 365 for Retail'de dağıtılmış sipariş yönetiminin (DOM) ilk yinelemesi siparişleri karşılama konumlarına atamayı en iyi duruma getirdiğinde, yalnızca mesafe dikkate alınıyordu. Mesafe maliyet ile ilişkili olabilmesine karşın maliyetle aynı değildir. Örneğin, gece sevkiyatı yöntemi aynı mesafeye yapılan üç günlük veya yedi günlük sevkiyattan daha maliyetlidir.
+Dynamics 365 Retail'de dağıtılmış sipariş yönetiminin (DOM) ilk yinelemesi siparişleri karşılama konumlarına atamayı en iyi duruma getirdiğinde, yalnızca mesafe dikkate alınıyordu. Mesafe maliyet ile ilişkili olabilmesine karşın maliyetle aynı değildir. Örneğin, gece sevkiyatı yöntemi aynı mesafeye yapılan üç günlük veya yedi günlük sevkiyattan daha maliyetlidir.
 
 Maliyet yapılandırması özelliği, perakendecilerin sipariş satırlarını karşılamak için en uygun konumu belirlemek üzere hesaplanacak ve dikkate alınacak ek maliyet bileşenlerini tanımlamasına ve yapılandırmasına olanak tanır.
 

@@ -18,18 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c6d15861492a46ddb1222db2210f8c751ed38cb3
-ms.sourcegitcommit: 109a6ef2d20758dc4a25c51b11e22dd2214a1cc4
+ms.openlocfilehash: 82f65293679591f278e0e3b79c112ba36debc3bb
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1886805"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2277955"
 ---
 # <a name="calculate-capacity-load"></a>Kapasite yükünü hesapla
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 Varlık Yönetiminde, kapasite yükünü şunlar üzerinde hesaplayabilirsiniz:
 

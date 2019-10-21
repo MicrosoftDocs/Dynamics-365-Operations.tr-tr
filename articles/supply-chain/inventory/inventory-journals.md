@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553450"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249552"
 ---
 # <a name="inventory-journals"></a>Stok günlükleri
 
@@ -33,7 +33,7 @@ ms.locfileid: "1553450"
 
 Bu konuda, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır.
 
-Microsoft Dynamics 365 for Finance and Operations stok günlükleri çeşitli türdeki fiziksel stok hareketlerini deftere nakletmek için kullanılır, örneğin sorunlar ve girişler, stok hareketleri, ürün reçeteleri (BOM) oluşturulması ve fiziksel envanter mutabakatı deftere nakilleri gibi. Tüm stok günlükleri benzer şekilde kullanılır, ancak bunlar farklı türlere ayrılır.
+Supply Chain Management stok günlükleri; sorunlar ve girişler, stok hareketleri, ürün reçeteleri (BOM) oluşturulması ve fiziksel envanter mutabakatı deftere nakilleri gibi çeşitli türdeki fiziksel stok hareketlerini deftere nakletmek için kullanılır. Tüm stok günlükleri benzer şekilde kullanılır, ancak bunlar farklı türlere ayrılır.
 
 ## <a name="types-of-inventory-journals"></a>Stok günlükleri türleri
 Kullanılabilen stok günlükleri türleri şunlardır:
@@ -68,7 +68,7 @@ Bir ürün reçetesini tamamlandı olarak bildirdiğinde, ÜR günlüğü oluşt
 
 ### <a name="item-arrival"></a>Madde varışı
 
-Madde varış günlüğünü, (örneğin, satınalma siparişlerindeki) maddelerin girişini kaydetmek için kullanabilirsiniz. Bir madde varış günlüğü **Varış genel bakış** sayfasından varış yönetiminin bir parçası olarak veya **Madde varış** sayfasından bir günlük girdisini el ile oluşturabilirsiniz. Malzeme çekme konumları denetlemek için madde varış günlüğü adını etkinleştirirseniz, Finance and Operations alınan maddeler için bir yerleşim arar ve yer mevcut ise gelen maddeler için konum hedefleri oluşturur.
+Madde varış günlüğünü, (örneğin, satınalma siparişlerindeki) maddelerin girişini kaydetmek için kullanabilirsiniz. Bir madde varış günlüğü **Varış genel bakış** sayfasından varış yönetiminin bir parçası olarak veya **Madde varış** sayfasından bir günlük girdisini el ile oluşturabilirsiniz. Malzeme çekme konumları denetlemek için madde varış günlüğü adını etkinleştirirseniz Supply Chain Management, alınan maddeler için bir yerleşim arar ve yer mevcut ise gelen maddeler için konum hedefleri oluşturur.
 
 ### <a name="production-input"></a>Üretim girişi
 
@@ -103,7 +103,7 @@ Veri varlıkları aşağıdaki türde tümleştirme senaryolarını destekler:
 Daha fazla bilgi için bkz. [Veri varlıkları](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> Tüm stok günlükleri OData özellikli değildir bu nedenle verilerin yayımlanması, güncelleştirilmesi ve yeniden Dynamics 365 for Finance and Operations'a aktarılması için Excel veri bağlayıcısını kullanamazsınız. 
+> Tüm stok günlükleri OData özellikli değildir; bu nedenle verilerin yayımlanması, güncelleştirilmesi ve yeniden Supply Chain Management'a aktarılması için Excel veri bağlayıcısını kullanamazsınız. 
 
 Günlük veri varlıkları arasındaki diğer bir fark, hem satır hem de başlık verilerini içeren bileşik varlıklar kullanabilme olanağıdır. Şu anda bileşik varlıkları aşağıdakiler için kullanabilirsiniz:
 -   Stok düzeltme günlüğü

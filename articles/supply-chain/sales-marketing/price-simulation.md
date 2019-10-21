@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe8c4bc8f2efb06de4cb6fd727df93ba1a5d14bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554656"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251366"
 ---
 # <a name="price-simulation"></a>Fiyat benzetimi
 
@@ -51,7 +51,7 @@ Bir teklif oluşturduğunuzda, bir uyarı ayarlayabilirsiniz. Uyarıların kulla
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Ticaret sözleşmelerindeki iskonto türleri
 
-Microsoft Dynamics 365 for Finance and Operations'teki ticari anlaşmalarda, dört tipe kadar fiyat iskontosu söz konusu olabilir. Bu iskontolar farklı maddeler, müşteriler veya fiyat grupları için ayarlanabilir ve bunlar için tarih sınırı belirlenebilir. Yanlış hesaplamaları önlemek için fiyat benzetimleri çalıştırdığınızda ticari sözleşmeleri dikkate almanız gerekir. Ticari anlaşmalarda yer alan dört iskonto tipi şunlardır:
+Supply Chain Management'taki ticari sözleşmelerde dört tür fiyat iskontosu olabilir. Bu iskontolar farklı maddeler, müşteriler veya fiyat grupları için ayarlanabilir ve bunlar için tarih sınırı belirlenebilir. Yanlış hesaplamaları önlemek için fiyat benzetimleri çalıştırdığınızda ticari sözleşmeleri dikkate almanız gerekir. Ticari anlaşmalarda yer alan dört iskonto tipi şunlardır:
 
 -   **Satış fiyatı** – Maddeler için ayrı satış fiyatları belirtilebilir. Teklif satırları oluşturulduğunda, program bir öğe için doğru fiyatı arar ve teklif satırlarına transfer eder. Bu nedenle, bu tür bir indirimi olan bir ticaret anlaşması, fiyat benzetimini etkilemez. Teklif satırında kullanılan satış fiyatı, ticari anlaşmayı yansıtır.
 -   **Satır iskontosu** – Özel indirimler sipariş edilen miktara bağlı olarak, maddeler için belirtilir. Fiyat benzetimini çalıştırmadan önce satır tutarları genellikle satır iskontosuna göre azaltılır. Bu nedenle, bu tür bir indirimi olan bir ticaret anlaşması, fiyat benzetimini etkiler.

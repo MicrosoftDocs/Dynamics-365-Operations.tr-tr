@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577881"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018050"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Çoklu kanal gelişmiş otomatik ücretleri
 
@@ -34,7 +34,7 @@ Bu konu Dynamics 365 for Retail sürüm 10.0. içerisinde yapılandırma ve dağ
 
 Gelişmiş otomatik masraflar özellikleri etkinleştirildiğinde, desteklenen herhangi bir Perakende kanalında (satış noktası (POS), çağrı merkezi ve çevrimiçi) içinde oluşturulan siparişler [otomatik masraflar](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) yapılandırmalarından hem başlık hem de satır düzeyi ile ilişkili masraflar için faydalanabilirler.
 
-Dynamics 365 for Retail sürüm 10.0 öncesi sürümlerde, [otomatik masraf](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) yapılandırmaları yalnızca e-ticaret ve çağrı merkezi kanallarında oluşturulan siparişler tarafından erişilebilir. Sürümler 10.0 ve sonrasında, POS tarafından oluşturulan siparişler otomatik masraf yapılandırmalarını kullanabilir. Bu şekilde, ek sair masraflar sistematik olarak satış işlemlerine eklenebilir.
+Retail sürüm 10.0 öncesi sürümlerde [otomatik masraf](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) yapılandırmalarına yalnızca e-Ticaret ve çağrı merkezi kanallarında oluşturulan siparişler tarafından erişilebilir. Sürümler 10.0 ve sonrasında, POS tarafından oluşturulan siparişler otomatik masraf yapılandırmalarını kullanabilir. Bu şekilde, ek sair masraflar sistematik olarak satış işlemlerine eklenebilir.
 
 10.0 öncesi sürümler kullanılırken, bir POS kullanıcısının sevkiyat masrafını "sevk tüm" veya "seçilen sevk" POS hareketi sırasında el ile girmesi istenir. Uygulamanın sair masraflar yeteneği, masrafların siparişe nasıl yazıldığıyla ilgilidir, sistematik hesaplama sağlanmaz; hesaplama, masrafların değerini belirlemek için kullanıcının girdisine dayanmaktadır. masraflar yalnızca tek bir "sevkiyat" ile ilgili masraf kodu satırı olarak eklenebilir ve POS içinde oluşturulduktan sonra değiştirilemez veya düzenlenemez.
 

@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4f91faa03718830474e8e2a79015955bcad1d02e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522209"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249988"
 ---
 # <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 
@@ -35,7 +35,7 @@ Bu konu rotalar ve operasyonlar hakkında bilgi sağlar. Rota, bir ürün veya �
 <a name="overview"></a>Özet
 --------
 
-Rota, bir ürünü veya ürün çeşidini üretmek için gereken operasyonların sırasını açıklar. Rota gerekli operasyon kaynaklarını, operasyonu hazırlayıp gerçekleştirmek için gereken süreyi ve maliyetin nasıl hesaplanacağını da tanımlar. Birden fazla ürün üretmek için aynı rotayı kullanabilirsiniz veya her ürün ya da ürün çeşidi için birer benzersiz rota tanımlayabilirsiniz. Hatta aynı ürün için birden fazla rotanız bile olabilir. Bu durumda, kullanılan rota, üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir. Microsoft Dynamics 365 for Finance and Operations'ta rotanın tanımı, birlikte üretim sürecini açıklayan dört ayrı öğeden oluşur:
+Rota, bir ürünü veya ürün çeşidini üretmek için gereken operasyonların sırasını açıklar. Rota gerekli operasyon kaynaklarını, operasyonu hazırlayıp gerçekleştirmek için gereken süreyi ve maliyetin nasıl hesaplanacağını da tanımlar. Birden fazla ürün üretmek için aynı rotayı kullanabilirsiniz veya her ürün ya da ürün çeşidi için birer benzersiz rota tanımlayabilirsiniz. Hatta aynı ürün için birden fazla rotanız bile olabilir. Bu durumda, kullanılan rota, üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir. Finance and Operations'ta rotanın tanımı, birlikte üretim sürecini açıklayan dört ayrı öğeden oluşur:
 
 -   **Rota** – üretim sürecinin yapısını tanımlar. Diğer bir deyişle, operasyonların sırasını tanımlar.
 -   **Operasyon** – rotadaki adlandırılmış bir adımı tanımlar (örneğin **Montaj**). Aynı operasyon birden çok rotada yapılabilir ve bunların farklı operasyon numaraları olabilir.
@@ -43,7 +43,7 @@ Rota, bir ürünü veya ürün çeşidini üretmek için gereken operasyonların
 -   **Rota sürümü** – bir ürünü veya ürün çeşidini üretmek için kullanılan rotayı tanımlar. Rota sürümleri rotaların farklı ürünlerde yeniden kullanılabilmesini veya zamanla değişebilmesini sağlar. Sürümler aynı ürünü üretmek için farklı rotaların kullanılabilmesini de sağlar. Bu durumda, kullanılan rota, lokasyon veya üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir.
 
 ## <a name="routes"></a>Rotalar
-Rota, bir ürünü veya ürün çeşidini üretmek için kullanılan operasyonların sırasını açıklar. Her operasyona bir operasyon numarası ve bir ardıl operasyon atanır. Operasyonların sırası bir veya birden fazla başlangıç noktası ve tek bir bitiş noktası olan yönlü bir grafikle temsil edilebilen bir rota ağı oluşturur. Finance and Operations'ta rotalar yapı türüne göre ayrılır. İki tür, basit rotalar ve rota ağlarıdır. Üretim denetim parametrelerinde yalnızca basit rotalar veya daha karmaşık rota ağları kullanılıp kullanılamayacağını belirtebilirsiniz.
+Rota, bir ürünü veya ürün çeşidini üretmek için kullanılan operasyonların sırasını açıklar. Her operasyona bir operasyon numarası ve bir ardıl operasyon atanır. Operasyonların sırası bir veya birden fazla başlangıç noktası ve tek bir bitiş noktası olan yönlü bir grafikle temsil edilebilen bir rota ağı oluşturur. Supply Chain Management'ta rotalar yapı türüne göre ayrılır. İki tür, basit rotalar ve rota ağlarıdır. Üretim denetim parametrelerinde yalnızca basit rotalar veya daha karmaşık rota ağları kullanılıp kullanılamayacağını belirtebilirsiniz.
 
 ### <a name="simple-routes"></a>Basit rotalar
 
@@ -51,7 +51,7 @@ Basit rota sıralıdır ve rotanın yalnızca bir başlangıç noktası vardır.
 
 [![Basit rota](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Üretim denetim parametrelerinde yalnızca basit rotaları etkinleştirirseniz, rotayı tanımladığınız zaman Finance and Operations operasyon numaralarını otomatik olarak üretir (10, 20, 30 vb.).
+Üretim denetim parametrelerinde yalnızca basit rotaları etkinleştirirseniz, rotayı tanımladığınız zaman Supply Chain Management operasyon numaralarını otomatik olarak üretir (10, 20, 30 vb.).
 
 ### <a name="route-networks"></a>Rota ağları
 
@@ -85,7 +85,7 @@ Her rota ayrı olarak onaylanabilir veya onayı kaldırılabilir. Bununla birlik
 Her rotanın onaylayanının kaydedildiği bir günlük tutmanız gerekiyorsa, rota onayı için elektronik imzalar isteyebilirsiniz. Bu durumda kullanıcılar bir [elektronik imza](../../fin-and-ops/organization-administration/electronic-signature-overview.md) kullanarak kimliklerini onaylatmak zorundadır.
 
 ## <a name="operations"></a>Operations
-Operasyon üretim sürecindeki bir adıma karşılık gelir. Finance and Operations'ta her operasyonun bir kodu ve basit bir açıklaması vardır. Aşağıdaki tablolarda, bir atölyeye ait tipik operasyon örnekleri gösterilmektedir.
+Operasyon üretim sürecindeki bir adıma karşılık gelir. Her operasyonun bir kodu ve basit bir açıklaması vardır. Aşağıdaki tablolarda, bir atölyeye ait tipik operasyon örnekleri gösterilmektedir.
 
 | Operasyon  | Açıklama        |
 |------------|--------------------|
@@ -126,7 +126,7 @@ Operasyon ilişkileri, rotaları tanımlarken size çok esneklik sağlar. Ayrıc
 
 ### <a name="modifying-product-specific-routes"></a>Ürüne özgü rotalarda değişiklik
 
-**Serbest bırakılan ürün ayrıntıları** sayfasından **Rota** sayfasını açtığınız zaman, seçili serbest bırakılan ürünle ilişkili rota sürümleri gösterilir. Bu bağlamda Finance and Operations, her operasyon için, rota sürümüyle en iyi eşleşen operasyon ilişkisinden operasyonel özellikleri gösterir. Operasyon ilişkisindeki **Madde kodu** ve **Rota kodu** özelliklerini içeren operasyonlar listesini göreceksiniz. Bu sayede, hangi operasyon ilişkisinin gösterildiğini belirleyebilirsiniz.  
+**Serbest bırakılan ürün ayrıntıları** sayfasından **Rota** sayfasını açtığınız zaman, seçili serbest bırakılan ürünle ilişkili rota sürümleri gösterilir. Bu bağlamda Supply Chain Management, her operasyon için, rota sürümüyle en iyi eşleşen operasyon ilişkisinden operasyonel özellikleri gösterir. Operasyon ilişkisindeki **Madde kodu** ve **Rota kodu** özelliklerini içeren operasyonlar listesini göreceksiniz. Bu sayede, hangi operasyon ilişkisinin gösterildiğini belirleyebilirsiniz.  
 
 **Rota** sayfasında, operasyonun çalışma süresi veya maliyet kategorileri gibi operasyonel özelliklerinde değişiklik yapabilirsiniz. Değişiklikleriniz, geçerli rota sürümünde gösterilen rotaya ve serbest bırakılan ürüne özgü operasyon ilişkisinde depolanır. Gösterilen operasyon ilişkisi rotaya ve serbest bırakılan ürüne özgü değilse, değişiklikleriniz depolanmadan önce sistem o operasyon ilişkisinin bir kopyasını oluşturur. Bu kopya o rota ve serbest bırakılan ürüne *özgüdür*. Bu sayede, yaptığınız değişiklikler diğer rotaları veya serbest bırakılan ürünleri etkilemez. **Rota** sayfasında değişiklik yapılmakta olan operasyonun hangisi olduğunu doğrulamak için **Madde kodu** ve **Rota kodu** alanlarına bakın.  
 
@@ -149,9 +149,9 @@ Rotaya ve serbest bırakılan ürüne özgü bir operasyonu **İlişkiyi kopyala
 
 ### <a name="applying-operation-relations"></a>Operasyon ilişkilerini uygulama
 
-Bazı durumlarda, Finance and Operations'ın bir operasyonun operasyonel özelliklerini bulması gerekir. Örneğin, bir satınalma siparişi oluşturulduğunda, her operasyonun operasyonel özellikleri operasyon ilişkilerinden üretim rotasına kopyalanmalıdır. Böyle durumlarda, Finance and Operations ilgili operasyon ilişkilerini en spesifik kombinasyondan en az spesifik kombinasyona doğru arar.  
+Bazı durumlarda, Supply Chain Management'ın bir operasyonun operasyonel özelliklerini bulması gerekir. Örneğin, bir satınalma siparişi oluşturulduğunda, her operasyonun operasyonel özellikleri operasyon ilişkilerinden üretim rotasına kopyalanmalıdır. Böyle durumlarda, Supply Chain Management ilgili operasyon ilişkilerini en spesifik kombinasyondan en az spesifik kombinasyona doğru arar.  
 
-Finance and Operations, serbest bırakılan bir ürün için en uygun operasyon ilişkisini arar ve bu aramada, serbest bırakılan ürünün madde koduyla eşleşen bir operasyon ilişkisi, madde grubu koduyla eşleşen bir operasyon ilişkisine tercih edilir. Buna karşılık, madde grubu koduyla eşleşen bir operasyon ilişkisi, varsayılan operasyon ilişkisine tercih edilir. Arama aşağıdaki sıraya göre yapılır:
+Supply Chain Management serbest bırakılan bir ürün için en uygun operasyon ilişkisini ararken, serbest bırakılan ürünün madde koduyla eşleşen bir operasyon ilişkisi, madde grubu koduyla eşleşen bir operasyon ilişkisine tercih edilir. Buna karşılık, madde grubu koduyla eşleşen bir operasyon ilişkisi, varsayılan operasyon ilişkisine tercih edilir. Arama aşağıdaki sıraya göre yapılır:
 
 1.  **Madde kodu**=**Tablo** ve **Madde ilişkisi**=&lt;madde kodu&gt;
 2.  **Madde kodu**=**Grup** ve **Madde ilişkisi**=&lt;madde grubu kodu&gt;
@@ -198,7 +198,7 @@ Yeni veya değiştirilmiş rotaları ve rota sürümlerini onaylamak ve etkinle�
 
 ### <a name="making-routes-independent-of-resources"></a>Kaynaklardan bağımsız rota yapma
 
-Birçok sistemde, bir operasyonu gerçekleştirmesi gereken operasyon kaynaklarının veya kaynak grubunun rotada belirtilmesi gerekir. Bununla birlikte, Finance and Operations'ta bir operasyon kaynağının operasyona uygun olması için karşılaması gereken bir dizi gereksinimi tanımlayabilirsiniz. Bu nedenle, kullanılması gereken belirli operasyon kaynaklarının veya kaynak grubunun, operasyon fiilen planlanana kadar belirlenmesine gerek yoktur. Bu işlevsellik, özellikle, aynı operasyonu gerçekleştirebilecek birçok çalışan veya makineye sahip olduğunuzda yararlıdır.  
+Birçok sistemde, bir operasyonu gerçekleştirmesi gereken operasyon kaynaklarının veya kaynak grubunun rotada belirtilmesi gerekir. Bununla birlikte, Supply Chain Management'ta bir operasyon kaynağının operasyona uygun olması için karşılaması gereken bir dizi gereksinimi tanımlayabilirsiniz. Bu nedenle, kullanılması gereken belirli operasyon kaynaklarının veya kaynak grubunun, operasyon fiilen planlanana kadar belirlenmesine gerek yoktur. Bu işlevsellik, özellikle, aynı operasyonu gerçekleştirebilecek birçok çalışan veya makineye sahip olduğunuzda yararlıdır.  
 
 Örneğin bir operasyon için 20 tonluk **Damgalama** kapasiteli **Makine** tipinde bir operasyon kaynağı gerektiğini belirtiyorsunuz. Planlama altyapısı, operasyon planlanırken bu gereksinimleri belirli bir operasyon kaynağına veya kaynak grubuna bağlar. İşlemi belirli bir makineye bağlamak yerine yalnızca bu gereksinimleri belirtebildiğiniz için daha fazla esneklik elde edersiniz. Ayrıca, kaynaklar taşınırken veya yeni kaynaklar eklenirken yönetim daha kolay hale gelir.  
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e6a2d428e433256339fff07f3805449a2604213
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783649"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024580"
 ---
 # <a name="asset-management-parameters"></a>Kıymet Yönetimi parametreleri
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783649"
 
 Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgili genel parametrelerin ayarlanması gerekir. Bu konuda bu öğelerin nasıl ayarlanacağı açıklanmaktadır. Formu açmak için **Kıymet yönetimi** > **Kurulum** > **Kıymet yönetimi parametreleri**'ni seçin.
 
-**Veri oluşturma sihirbazı** düğmesi Dynamics 365 for Finance and Operations'da bir şirkette test veya tanıtım verisi olarak kullanmak üzere kurulum verilerini otomatik oluşturmak için kullanılabilir. Sihirbazı kullanma bilgileri için "Kıymet Yönetimi'nde Test Verilerini Ayarlama" teknik incelemesine bakın.
+**Veri oluşturma sihirbazı** düğmesi Dynamics 365 Supply Chain Management'da bir şirkette test veya tanıtım verisi olarak kullanmak üzere kurulum verilerini otomatik oluşturmak için kullanılabilir. Sihirbazı kullanma bilgileri için "Kıymet Yönetimi'nde Test Verilerini Ayarlama" teknik incelemesine bakın.
 
 **Kıymetler** bağlantısı
 
@@ -57,7 +57,7 @@ Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgil
 - İş emirlerinde kayıtlı hataları ilgili bakım taleplerine otomatik olarak kopyalamak istiyorsanız **Hataları kopyala** geçiş düğmesinde "Evet" seçeneğini belirleyin.  
 - Tüm ilgili iş emri işleri aynı işlem yapılacak yerleşime başvuruyorsa **Düzey** alanında iş emrine otomatik olarak eklenen işlem yapılacak yerleşim düzeyini tanımlayın. İş emri işlerinin tümü tanımlanan düzeyde aynı işlem yapılacak yerleşime başvurmuyorsa iş emrinde **İşlem yapılacak yerleşim** alanı boş bırakılır. Örnek: Bu alana "1" sayısını yazarsanız bu bir işlem yapılacak yerleşim yapısının en üst düzeyi olur. Bu alana "0" sayısını yazarsanız belirli bir işlem yapılacak yerleşim tanımlamamış olursunuz ve işlem yapılacak yerleşimin iş emrine eklenebilmesi için yalnızca bir iş emrindeki tüm iş emri işlerinin aynı işlem yapılacak yerleşimle ilgili olması gerekir.  
 - Bir iş emrindeki tüketimi deftere naklederken kullanılan günlükler **Saat**, **Madde** ve **Gider** alanlarının **Genel** hızlı sekmesinden seçilebilir.  
-- **Ürün dili kaynağı** alanında Kıymet yönetimi raporlarında ürün adları için kullanılacak dili seçin. Şirket hesabında dil ayarını veya Dynamics 365 for Finance and Operations'da oturum açmış olan kullanıcı için dil ayarını seçebilirsiniz.  
+- **Ürün dili kaynağı** alanında Kıymet yönetimi raporlarında ürün adları için kullanılacak dili seçin. Şirket hesabında dil ayarını veya oturum açmış olan kullanıcı için dil ayarını seçebilirsiniz.  
 - İş türü varsayılanlarında, bakım planlarında ve bakım sıralarındaki değişiklikleri otomatik olarak güncelleştirmek istiyorsanız **Gerçek zamanlı güncelleştirme** geçiş düğmesinde "Evet" seçeneğini belirleyin.
 > - "Hayır" seçeneğini belirlerseniz iş türü varsayılanları, bakım planları ve bakım sıralarında yapılan değişiklikler Kıymet Yönetimi'nde otomatik olarak güncelleştirilmez  
 > - Bakım planları veya bakım sıraları üzerinde pek çok kıymet veya işlem yapılacak yerleşim ayarı ya da pek çok bakım planı veya sırası gibi çok fazla miktarda veriyi eşitliyorsanız geçiş düğmesinde "Hayır" seçeneğini belirleyin.  
@@ -75,7 +75,7 @@ Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgil
 - **Master plan** **Kuruluş yönetimi** modülündeki kaynaklarla ilgilidir. Bu alanda bir master plan seçerseniz iş emirleriyle ilgili kapasite rezervasyonlarını **Kapasite rezervasyonları** içinde görebilirsiniz (**Kuruluş yönetimi** > **Kaynaklar** > **Kaynaklar** > kaynak seç > **Kaynak** sekmesi > **Kapasite rezervasyonları** düğmesi). Bu alanı boş bırakırsanız iş emirleriyle ilgili kapasite yükünü **Kapasite yükü** içinde görebilirsiniz (**Kuruluş yönetimi** \> **Kaynaklar** \> **Kaynaklar** \> kaynak seç \> **Kaynak** sekmesi \> **Kapasite yükü** düğmesi).  
 
 >[!NOTE]
->**Kıymet yönetimi** modülünde bir master plan kullanılıp kullanılmayacağına ilişkin seçim ve kapasite rezervasyonlarına veya kapasite yüküne genel bakış almak için kullanılan ilgili form standart Dynamics 365 for Finance and Operations ayarıdır. **Master plan** alanındaki ayarınıza bağlı olarak kapasite bilgilerine **Kuruluş yönetimi** modülündeki **Kapasite rezervasyonları** veya **Kapasite yükü** öğesinden ulaşabilirsiniz. Kapasite rezervasyonlarının iki görünümde de gösterildiği bir ayar oluşturmak mümkün değildir.  
+>**Varlık yönetimi** modülünde bir master plan kullanılıp kullanılmayacağına ilişkin seçim ve kapasite rezervasyonlarına veya kapasite yüküne genel bakış almak için kullanılan ilgili form standart  ayardır. **Master plan** alanındaki ayarınıza bağlı olarak kapasite bilgilerine **Kuruluş yönetimi** modülündeki **Kapasite rezervasyonları** veya **Kapasite yükü** öğesinden ulaşabilirsiniz. Kapasite rezervasyonlarının iki görünümde de gösterildiği bir ayar oluşturmak mümkün değildir.  
 
 Aşağıdaki madde işareti listesinde açıklanan alanların tümü iş emri planlaması sırasında iş emri önceliğini hesaplamak için kullanılan, hesaplanan derecelendirme puanlarıyla ilgilidir.
 

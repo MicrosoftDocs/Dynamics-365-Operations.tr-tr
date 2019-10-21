@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 03e090633276cd264ad03f561ddb425a9816357e
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847517"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024649"
 ---
 # <a name="create-maintenance-requests"></a>Bakım talepleri oluştur
 
@@ -41,7 +41,7 @@ Bakım görevlileri veya üretim çalışanları, ekipmanların onarımını ger
 2. **Yeni**'yi seçin.
 3. **İstek oluştur** iletişim kutusunda **Bakım talebi türü** alanında bakım talebi türünü seçin. Varsayılan tür önerilir.
 4. **Açıklama** alanına, bakım talebini kısaca açıklayan bir ad veya başlık girin.
-5. **İşlem yapılacak yerleşim** ve **Varlık** alanlarında, gerektiği gibi işlem yapılacak yerleşim ya da bir varlık veya işlem yapılacak yerleşim ve bir varlığın birleşimini seçin. Bir varlık seçmeden bir bakım talebi oluşturabilir ve varlık, bakım talebine daha sonra eklenebilir. Microsoft Dynamics 365 for Finance and Operations'ta oturum açan bir bakım görevlisi bir valıkla ilgili bir kaynakla ilişkiliyse **Varlık** alanı otomatik olarak ayarlanır.
+5. **İşlem yapılacak yerleşim** ve **Varlık** alanlarında, gerektiği gibi işlem yapılacak yerleşim ya da bir varlık veya işlem yapılacak yerleşim ve bir varlığın birleşimini seçin. Bir varlık seçmeden bir bakım talebi oluşturabilir ve varlık, bakım talebine daha sonra eklenebilir. Oturum açan bir bakım görevlisi bir varlıkla ilgili bir kaynakla ilişkiliyse **Varlık** alanı otomatik olarak ayarlanır.
 
     Bir bakım talebi zaten seçili varlığa bağlıysa varolan bakım isteğinin kimliği hakkında sizi bilgilerindirmek için **İstek oluştur** iletişim kutusunun üst kısmında bir ileti çubuğu görüntülenir. Bir mesaj çubuğu, varlık bir garanti sözleşmesi ile kapsamında ise size bildirir.
 

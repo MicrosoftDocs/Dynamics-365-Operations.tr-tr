@@ -17,18 +17,19 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 57f4b58a11606a1193a1124a426c837ddfab9533
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577992"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023717"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Satış noktasında (POS) sipariş bildirimlerini görüntüleme
 
 [!include [banner](includes/banner.md)]
 
-Modern perakende ortamında, mağaza yetkilileri müşterilere yardım etme, hareketleri girme, stok sayımı yapma ve mağazada siparişleri alma gibi çeşitli görevlere atanmaktadır. Satış noktası (POS) istemcisi, tek bir uygulamayla, mağaza yetkililerini bu görevleri gerçekleştirme ve çok daha fazlası için destekler. Gün içinde birçok görev yerine getiren çalışanların, dikkat etmelerini gerektiren bir konu olduğunda bildirim almaları gerekebilir. POS'taki bildirim çerçevesi, perakendecilere rol tabanlı bildirimler yapılandırma olanağı sunarak yardımcı olur. Microsoft Dynamics 365 for Retail içinde uygulama güncelleştirmesi 5 ile, bu bildirimler yalnızca POS işlemleri için yapılandırılabilir.
+Modern perakende ortamında, mağaza yetkilileri müşterilere yardım etme, hareketleri girme, stok sayımı yapma ve mağazada siparişleri alma gibi çeşitli görevlere atanmaktadır. Satış noktası (POS) istemcisi, tek bir uygulamayla, mağaza yetkililerini bu görevleri gerçekleştirme ve çok daha fazlası için destekler. Gün içinde birçok görev yerine getiren çalışanların, dikkat etmelerini gerektiren bir konu olduğunda bildirim almaları gerekebilir. POS'taki bildirim çerçevesi, perakendecilere rol tabanlı bildirimler yapılandırma olanağı sunarak yardımcı olur. Dynamics 365 for Retail içinde uygulama güncelleştirmesi 5 ile, bu bildirimler yalnızca POS işlemleri için yapılandırılabilir.
+
 
 Şu anda sistem bildirimleri yalnızca sipariş karşılama işlemleri için gösterir. Ancak, çerçeve genişletilebilir olması için tasarlanmış olduğundan, geliştiricilerin zaman içinde herhangi bir işlem için bir bildirim işleyicisi yazmaları ve bu işlem için bildirimi POS'ta göstermeleri söz konusudur.
 
@@ -68,7 +69,8 @@ Aşağıdaki örnek düğme grubu tasarımcısındaki canlı içerik ayarların�
 
 ![Düğme grubu tasarımcısındaki canlı içerik ayarları](./media/ButtonGridDesigner.png "Düğme grubu tasarımcısındaki canlı içerik ayarları")
 
-Bir düğmedeki bildirim sayımını göstermek için, doğru ekran düzeninin güncelleştirilmesini sağlamanız gerekir. POS tarafından kullanılan ekran düzenini belirlemek için, sağ üst köşedeki ayarlar **Ayarlar** simgesini seçin ve **Ekran düzeni kodunu** ve **Düzen çözünürlüğünü** not edin. Şimdi Edge tarayıcısını kullanarak, Dynamics 365 for Finance and Operations'daki **Ekran düzeni** sayfasına gidin, yukarıda tanımlanan **Ekran düzeni kodunu** ve **Düzen çözünürlüğünü** bulun ve **Canlı içeriği etkinleştir** onay kutusunu seçin. **Perakende \> Perakende BT \> Dağıtım zamanlaması**'na gidin ve düzen değişikliklerini eşitlemek için 1090 (Kayıtlar) işini çalıştırın.
+Bir düğmedeki bildirim sayımını göstermek için, doğru ekran düzeninin güncelleştirilmesini sağlamanız gerekir. POS tarafından kullanılan ekran düzenini belirlemek için, sağ üst köşedeki ayarlar **Ayarlar** simgesini seçin ve **Ekran düzeni kodunu** ve **Düzen çözünürlüğünü** not edin. Şimdi Edge tarayıcısını kullanarak **Ekran düzeni** sayfasına gidin, yukarıda tanımlanan **Ekran düzeni kimliği** ile **Düzen çözünürlüğü** öğelerini bulun ve **Canlı içeriği etkinleştir** onay kutusunu seçin. **Perakende \> Perakende BT \> Dağıtım zamanlaması**'na gidin ve düzen değişikliklerini eşitlemek için 1090 (Kayıtlar) işini çalıştırın.
+
 
 ![POS tarafından kullanılan ekran düzenini bulun](./media/Choose_screen_layout.png "Ekran düzenini bulun ")
 

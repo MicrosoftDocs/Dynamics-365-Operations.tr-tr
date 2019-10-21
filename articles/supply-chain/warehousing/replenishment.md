@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f740ab481b8663ecc29169eee1ead5ff23bb3f5
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866149"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251489"
 ---
 # <a name="replenishment-overview"></a>Stok yenilemeye genel bakış
 
@@ -55,7 +55,7 @@ Talep stok yenilemesi satış siparişleri, transfer emirleri, üretim emirleri 
 ## <a name="minmax-replenishment"></a>Min/Maks stok yenileme
 Min/Maks stok yenilemede stok ayarlanmış minimum ve maksimum sınırlar arasında yenilenir. Genellikle malzeme çekme işlemi başlamadan önce tüm malzeme çekme yerleşimlerinin maksimum düzeyde dolu olmasını sağlamaya yardımcı olmak üzere bu işlem her gün bir kere gerçekleştirilir. 
 
-Minimum ve maksimum tutarlar stok yenileme şablonunda ayarlanır. Şablondaki diğer ayarların çoğu dalga talebi stok yenilemesinde kullanılan şablonlardaki ayarlara benzer. Şablonda her madde ve yerleşim için bir satır olmalıdır. Stok yenilemeyi toplu iş kullanarak çalıştırdığınızda Microsoft Dynamics 365 for Finance and Operations satırların düzenlendiği sıra kullanarak, stok yenilemenin gerekli olup olmadığını değerlendirir. 
+Minimum ve maksimum tutarlar stok yenileme şablonunda ayarlanır. Şablondaki diğer ayarların çoğu dalga talebi stok yenilemesinde kullanılan şablonlardaki ayarlara benzer. Şablonda her madde ve yerleşim için bir satır olmalıdır. Stok yenilemeyi toplu iş kullanarak çalıştırdığınızda, sistem, satırların düzenlendiği sırayı kullanarak, stok yenilemenin gerekli olup olmadığını değerlendirir. 
 
 Min/Maks stok yenileme stratejisinin madde için sabit yerleşim olarak ayarlanmamış boş yerleşimlerde stok yenilemesi yapamayacağını unutmayın. Stok yenilemesi yapılması gereken yerleşim sabit bir yerleşim değilse, sistem hangi maddenin stok yenilemesinin yapılacağını belirleyemez. Bu nedenle stok yenileme işlemi gerçekleşmeden önce eldeki miktarın en az bir kısmı gereklidir.
 

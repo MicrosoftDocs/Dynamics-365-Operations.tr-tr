@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezlerinde ödeme yöntemleri
-description: Bu konu Microsoft Dynamics 365 for Retail'de bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır.
+description: Bu konu Dynamics 365 Retail'de bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 551a3cc9c0def1c67ab930dbff7cd1c0d296bd21
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571531"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018240"
 ---
 # <a name="payment-methods-in-call-centers"></a>Çağrı merkezlerinde ödeme yöntemleri
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail'de çağrı merkezi kanalı yapılandırması **Sipariş tamamlamayı etkinleştir** adında bir ayar içerir. Bu ayar kanal kullanıcılarının oluşturduğu tüm siparişlerin, yalnızca ön ödeme veya onaylanan tolerans dahilinde ödeme ön onayı olması durumunda sipariş işleme için serbest bırakılmasını sağlamaya yardımcı olur. **Sipariş tamamlamayı etkinleştir** ayarı açık olursa, çağrı merkezi kullanıcıları Çağrı merkezi ödeme işleme özelliklerini kullanarak müşteriler için satış siparişlerine karşı ödemeleri girebilirler. Bu ayar devre dışı bırakılırsa, çağrı merkezi kullanıcıları çağrı merkezi ödeme işleme özelliklerini kullanamaz ancak standart Alacak hesapları işlevini kullanarak satış siparişlerine ön ödemeleri uygulayabilirler.
+Dynamics 365 Retail'de çağrı merkezi kanalı yapılandırması **Sipariş tamamlamayı etkinleştir** adında bir ayar içerir. Bu ayar kanal kullanıcılarının oluşturduğu tüm siparişlerin, yalnızca ön ödeme veya onaylanan tolerans dahilinde ödeme ön onayı olması durumunda sipariş işleme için serbest bırakılmasını sağlamaya yardımcı olur. **Sipariş tamamlamayı etkinleştir** ayarı açık olursa, çağrı merkezi kullanıcıları Çağrı merkezi ödeme işleme özelliklerini kullanarak müşteriler için satış siparişlerine karşı ödemeleri girebilirler. Bu ayar devre dışı bırakılırsa, çağrı merkezi kullanıcıları çağrı merkezi ödeme işleme özelliklerini kullanamaz ancak standart Alacak hesapları işlevini kullanarak satış siparişlerine ön ödemeleri uygulayabilirler.
 
 Kanal yapılandırmasının bir parçası olarak şirket bir çağrı merkezi kanalı için izin verilen ödeme yöntemleri tanımlayabilir. Çağrı merkezi kanalı perakende mağaza kanalları için tanımlananlarla aynı ödeme yöntemlerini kullanır.
 

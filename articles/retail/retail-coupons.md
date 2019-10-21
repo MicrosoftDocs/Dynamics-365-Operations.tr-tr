@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 449a1f574cd32860cbdc2e43f21be1d3d692768f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553565"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025114"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Perakende satışlar için kupon ayarlama
 
@@ -37,10 +37,10 @@ Her kupon bir perakende iskontosuyla ilişkilidir. İskontoyla ilişkilendirilen
 
 Esas olarak, kuponlar perakende iskontoları üzerinde ek bir doğrulamadır. Kuponlar, gerekli olan kupon kodları ve bar kodlar ile bu kodların tarih aralığını sağlar. Kupon ayrıca isteğe bağlı kullanım sınırları ve müşterinin gerektirdiği özellikleri de sağlar. İskonto kuponun geçerli olduğu ürün kümesini sağlar. İskonto için fiyat grupları kuponun geçerli olduğu müşteri kümelerini, kanalları veya katalogları sağlar.
 
-Kupon oluşturmak için iskontoyu ve kuponu ayrı olarak oluşturun. Microsoft Dynamics 365 for Retail içinde ardından kupon sayfasında iskontoyu seçerek bunları birbirine bağlayın.
+Kupon oluşturmak için iskontoyu ve kuponu ayrı olarak oluşturun. Bunun ardından Retail'deki kupon sayfasında iskontoyu seçerek bunları birbirine bağlayın.
 
 > [!NOTE]
-> Bir Kupon bir iskontoya bağlandıktan sonra, kupon ayarları tarafından yönetildiklerinden Microsoft Dynamics 365 for Retail içindeki iskonto sayfasında için birçok alan salt okunur olur. Bu alanlar standart tarih aralıkları ve durum alanlarını içerir.
+> Bir Kupon bir iskontoya bağlandıktan sonra, kupon ayarları tarafından yönetildiklerinden Retail'deki iskonto sayfasında için birçok alan salt okunur olur. Bu alanlar standart tarih aralıkları ve durum alanlarını içerir.
 
 ### <a name="limited-use-coupons"></a>Sınırlı kullanım kuponları
 
@@ -75,7 +75,7 @@ Kupon ayarlamadan önce, kupon bar kodu ve iki numara serisi ayarlamanız gereki
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Kısmi güncelleştirmelerin kupon üzerindeki etkisi
 
-Kupon işlevi Dynamics 365 for Retail'de birçok farklı özellik içerir. Microsoft Dynamics 365 for Retail genel merkezi (HQ) ve kanalı bileşenler arasında kısmi olarak güncelleştirilebilir. Bu nedenle, kısmi güncelleştirmelerin kuponun tüm işlevselliği nasıl etkilediğini anlamanız önemlidir.
+Kupon işlevi birçok farklı özellik içerir. Dynamics 365 Retail genel merkezi (HQ) ve kanalı bileşenler arasında kısmi olarak güncelleştirilebilir. Bu nedenle, kısmi güncelleştirmelerin kuponun tüm işlevselliği nasıl etkilediğini anlamanız önemlidir.
 
 - **Genel merkez kısmen güncelleştirildi ancak Perakende sunucusu ve POS güncelleştirilmedi** Bir Genel Merkez güncelleştirmesinde, kupon ve iskonto sayfaları güncelleştirilir ve perakende fiyatı altyapısı da güncelleştirilir. Bu iki bileşenden yalnızca biri güncelleştirilirse, Retail'deki bazı sayfalar fiyat hesaplama verileriyle eşleşmeyecektir. Bu nedenle, iskonto hesaplamaları sırasında beklenmeyen iskonto hesaplamaları veya hatalar oluşabilir.
 - **Genel merkez güncelleştirildi ancak Perakende sunucusu ve POS güncelleştirilmedi (N-1).** Aynı anda tüm perakende mağazalar güncelleştirilemediğinden, genel merkezi perakende mağazaları güncelleştirmeden önce güncelleştirmenizi öneririz. N-1 senaryosunda, kuponlarla ilişkili yeni işlev henüz güncelleştirilmemiş mağazalarda kullanılamaz. Örneğin, kupon işlevi satırları "hariç tut" işlevi sunar. Bir iskontoda satırları hariç tut özelliği kullanırsanız, daha önceki bir sürümü çalıştıran bir perakende mağaza uygulanmaz.

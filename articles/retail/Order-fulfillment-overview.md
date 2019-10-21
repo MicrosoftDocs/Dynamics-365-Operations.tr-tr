@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b66369e57e006c9e2fe0a43e4b781c619a65c4a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556956"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025875"
 ---
 # <a name="store-order-fulfillment"></a>Mağaza sipariş karşılama
 
@@ -96,7 +96,7 @@ Bir sipariş kabul edildikten sonra, satırlar seçilebilir ve **Çekme** olarak
 
 Malzeme çekme listeleri, çalışanların çekme işlemini gerçekleştirmesine yardımcı olmak üzere satış noktasında yazdırılabilir. Yazdırılan bir malzeme çekme listesi çekme işlemini gerçekleştiren çalışanın yanında olabilir ve ürünler çekildikçe çalışan malzeme çekme listesinde ürünleri çekildi olarak işaretleyebilir.
 
-Malzeme çekme listesi biçimi Dynamics 365 for Retail'de yapılandırılır ve makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Malzeme çekme listesi biçimi, Retail'da yapılandırılıp makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Satırlar seçilir ve bu satırlar için bir malzeme çekme listesi yazdırılırsa, bunlar otomatik olarak **Çekme** durumuyla güncelleştirilir.
 
@@ -105,7 +105,7 @@ Satırlar seçilir ve bu satırlar için bir malzeme çekme listesi yazdırılı
 - **Neden olduğu durum:** Çekildi veya kısmen çekildi
 - **Neden olduğu arka ofis durumu:** Çekildi veya kısmen çekildi
 
-Fiziksel çekme işlemi tamamlandıktan sonra satırlar **Çekildi** olarak işaretlenebilir. Bir satırı seçip **Çekildi** olarak işaretlemek Dynamics 365 for Retail'de sipariş satırının güncelleştirilmesi için gerçek zamanlı bir çağrı yapar. Satır satış noktasında **Çekildi** olarak işaretlendikten sonra, arka ofis durumu da **Çekildi** olarak güncelleştirilir ve stok hareketleri belirtilen miktarın düşüldüğünü gösterir.
+Fiziksel çekme işlemi tamamlandıktan sonra satırlar **Çekildi** olarak işaretlenebilir. Bir satırı seçip **Çekildi** olarak işaretlemek, sipariş satırının güncelleştirilmesi için gerçek zamanlı bir çağrı yapar. Satır satış noktasında **Çekildi** olarak işaretlendikten sonra, arka ofis durumu da **Çekildi** olarak güncelleştirilir ve stok hareketleri belirtilen miktarın düşüldüğünü gösterir.
 
 Siparişler zaman içinde işlendiğinde, belirli bir satır için kısmi miktarlar işlenebilir. Bir satır seçiliyse ve **Çekildi olarak işaretle** eylemi gerçekleştirildiyse ve miktar birden büyükse, kullanıcıdan miktar belirtmesi istenir. Çekilecek kalan miktar otomatik olarak doldurulur. Kalan tutardan daha az tutar belirtilirse, satır durumu **Kısmen çekildi** olur. Sipariş satırı arka ofiste güncelleştirildiğinde, kısmen çekildi durumunu da yansıtır ve kullanıcı tarafından girilen miktar stoğu güncelleştirmek için kullanılır.
 
@@ -122,7 +122,7 @@ Sipariş satırları sipariş satırı kabul edildikten sonra herhangi bir nokta
 - **Neden olduğu durum:** Paketlendi veya kısmen paketlendi
 - **Neden olduğu arka ofis durumu:** Teslim edildi veya kısmen teslim edildi
 
-Bu eylem satırları paketlendi veya kısmen paketlendi olarak işaretler ve sevk irsaliyesini yazdırır. Bir arada paketlenen ürünleri doğrulamak için bir sevk irsaliyesi yazdırılabilir. Malzeme sevk irsaliyesi biçimi Dynamics 365 for Retail'de yapılandırılır ve makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Bu eylem satırları paketlendi veya kısmen paketlendi olarak işaretler ve sevk irsaliyesini yazdırır. Bir arada paketlenen ürünleri doğrulamak için bir sevk irsaliyesi yazdırılabilir. Sevk irsaliyesi, Retail'da yapılandırılıp makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Eylem: Paketlendi olarak işaretle**
 

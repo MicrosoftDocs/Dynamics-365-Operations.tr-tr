@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843877"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250268"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Satıcı işbirliği mobil çalışma alanı
 
@@ -30,10 +30,10 @@ ms.locfileid: "1843877"
 
 Bu konu, **Satıcı işbirliği** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
 
-Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations Mobile uygulaması ile kullanılmak üzere geliştirilmiştir.
+Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
 ## <a name="overview"></a>Genel bakış 
-**Satıcı işbirliği** mobil çalışma alanı, satıcıları Microsoft Dynamics 365 for Finance and Operations web istemcisinde satınalma siparişlerini görüp yanıtlayabilmeleri için yeni satınalma siparişleri hakkında bilgilendirir. 
+**Satıcı işbirliği** mobil çalışma alanı, satıcıları web istemcisinde satınalma siparişlerini görüp yanıtlayabilmeleri için yeni satınalma siparişleri hakkında bilgilendirir. 
 
 >[!NOTE]
 > Mobil çalışma alanı, satıcı işbirliği web arabirimi yerine değil, ona bir katkı olarak kullanılmalıdır. 
@@ -59,8 +59,8 @@ Web istemcisindeki satıcı işbirliği web arabirimi yeni ilgili kişi oluştur
 ## <a name="prerequisites"></a>Önkoşullar
 Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne bağlı olarak farklılık gösterir.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations kullanıyorsanız önkoşullar 
-Microsoft Dynamics 365 for Finance and Operations kuruluşunuza dağıtıldıysa sistem yöneticisinin **Satıcı işbirliği** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Supply Chain Management kullanıyorsanız önkoşullar
+Supply Chain Management, kuruluşunuza dağıtıldıysa sistem yöneticisinin **Satıcı işbirliği** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611'i Platform güncelleştirmesi 3 veya daha sonrasıyla kullanıyorsanız önkoşullar
 Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir. 
@@ -103,8 +103,8 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Harici satıcılarla çalışmak için satıcı işbirliğini kullanma</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Satıcı iş birliği kullanıcılarını yönetme</a></li>
-<li><a href="set-up-maintain-vendor-collaboration.md">Satıcı iş birliğini ayarlama ve koruma</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Finance and Operations'ta müşterilerle çalışmak için satıcı işbirliğini kullanma</a></li>
+<li><a href="set-up-maintain-vendor-collaboration.md">Satıcı işbirliğini ayarlama ve koruma</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Supply Chain Management'ta müşterilerle çalışmak için satıcı işbirliğini kullanma</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
 
-Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
+Finance and Operations mobil uygulamasını indirip yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -163,7 +163,7 @@ Bir satınalma siparişi seçtiğinizde, yanıt hakkında ek ayrıntılar görü
 **Teslim** alanı satırların teslim edilip edilmeyeceğini belirtmek için **Evet** veya **Hayır** olarak ayarlanır. Bir satır aşağıdaki nedenlerle teslim edilemeyebilir:
 
 - Satır reddedildi.
-- Bir değiştirme yapıldı ve orijinal satırın alınan siparişteki gibi teslim edilmesi beklenmiyor. 
+- Bir değiştirme yapıldı ve orijinal satırın alınan siparişteki gibi teslim edilmesi beklenmiyor.
 - Satır birden çok zamanlama satırına bölündü ve orijinal satırın alınan siparişte istendiği gibi teslim edilmesi beklenmiyor.
 
 Sipariş satırı yanıtında yaptığınız değişiklikler gösterilir. Ancak, yüklenen notlar ve ekler gösterilmez. Notları ve ekleri görüntülemek için, web istemcisindeki satıcı işbirliği web arabirimini kullanmanız gerekir.

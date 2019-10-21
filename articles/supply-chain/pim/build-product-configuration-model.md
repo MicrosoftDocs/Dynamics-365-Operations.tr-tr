@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865388"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249506"
 ---
 # <a name="product-configuration-overview"></a>Ürün yapılandırmasına genel bakış
 
@@ -60,6 +60,9 @@ Bir kullanıcı bir ürün yapılandırma modeli oluşturmak için gerçekleşti
 
 Her bileşen özelliklerini tanımlayan bir veya daha fazla özniteliklere sahiptir. Öznitelikler yapılandırma işlemi sırasında kullanıcının seçtikleridir. Öznitelikler sınırlamaları veya hesaplamalarda eklemeler sayesinde bileşen arası ve bileşen içi ilişkilerini kontrol eder. Ürün reçetesi satırları için uygulanan koşullar aracılığıyla öznitelikler yapılandırılan ürünün hangi fiziksel bölümleri içereceğini belirlemek için kullanılabilir. Ayrıca, bir öznitelik bir eşleme mekanizması aracılığıyla bir ürün reçetesi satırının özelliğini denetleyebilir. Ekleme ve özellik ayarlarıyla ilgili rota operasyonları için benzer işlevsellik vardır.
 
+>[!NOTE]
+> Öznitelik türleri oluşturduğunuzda, öznitelik türü etki alanı için yüksek bir sayıda değer oluşturmaktan kaçının. Yüksek sayıda değer oluşturmak ürün yapılandırıcısında yavaşlamalara neden olabilir. 
+
 ### <a name="expression-constraints"></a>İfade kısıtlamaları
 
 Kısıtlama tabanlı ürün yapılandırma model kullanımı kullanıcı çeşitli öznitelikler için değerler seçtiğinde bazı sınırlamalar var anlamına gelir. En iyi duruma getirme Modelleme Dili (OML) kullanarak deyim kısıtlamaları olarak bu tür sınırlamalar uygulanabilir. Alternatif olarak, bir kısıtlama bir tablo kısıtlaması şeklinde uygulanabilir.
@@ -70,7 +73,7 @@ Tablo kısıtlamaları kullanıcı veya sistem tanımlı olabilir.
 
 Bir kullanıcı tanımlı tablo kısıtlaması kullanıcı tarafından üretilmiştir. Kullanıcı tablonun sütunları göstermek için öznitelik türleri birleşimini seçer ve sonra satır içinde tablo kısıtlaması oluşturmak için seçili öznitelik türlerinin etki alanlarındaki değerleri girer.  
 
-Bir sistem tanımlı tablo kısıtlaması hangi Microsoft Dynamics 365 for Finance and Operations tablosunun başvuru olarak kullanılacağını seçerek ve sonra kısıtlamada sütunlar oluşturmak için bu tablodan alanları seçerek tanımlanır. Tablo kısıtlaması satırları, yapılandırma sırasında mevcut Finance and Operations tablosu satırlarıdır.  
+Bir sistem tanımlı tablo kısıtlaması hangi tablonun başvuru olarak kullanılacağını seçerek ve sonra kısıtlamada sütunlar oluşturmak için bu tablodan alanları seçerek tanımlanır. Tablo kısıtlaması satırları, yapılandırma sırasında mevcut Finance and Operations tablosu satırlarıdır.  
 
 Bir tablo kısıtlaması tablo kısıtlaması tanımına referans vererek ve modelde ilgili öznitelikleri tablo kısıtlamasındaki sütunlara eşleyerek bir ürün yapılandırma modeline dahil edilir.
 

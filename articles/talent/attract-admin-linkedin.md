@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent - Attract için LinkedIn ile tümleştirmeyi ayarlama
-description: Bu konu, Microsoft Dynamics 365 for Talent - Attract'a yönelik LinkedIn tümleştirmesinin nasıl yapılandırılacağını açıklar ve böylece Attract'ten işleri LinkedIn'e kolayca nakledebilir ve iş verenlerin, işe alma bilgilerini bir adayın LinkedIn profiliyle eşitleyebilmesini sağlayabilirsiniz.
+title: Microsoft Dynamics 365 Talent - Attract için LinkedIn ile tümleştirmeyi ayarlama
+description: Bu konu, Microsoft Dynamics 365 Talent - Attract'e yönelik LinkedIn tümleştirmesinin nasıl yapılandırılacağını açıklar ve böylece Attract'ten işleri LinkedIn'e kolayca nakledebilir ve iş verenlerin, işe alma bilgilerini bir adayın LinkedIn profiliyle eşitleyebilmesini sağlayabilirsiniz.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8e42ec7d0bb74089b4e915b5a30277401e694cf9
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 6b86cafdf364f2de051f3d8ceab7413c2c13c3a5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756234"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009982"
 ---
 # <a name="set-up-linkedin-integration"></a>LinkedIn tümleştirmesini ayarlama
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract ile LinkedIn tümleşmesini yapılandırarak iş verenlerinizin ve işe alma yöneticilerinizin dikkatini çekmenize yardımcı olun. Attract, işleri en büyük profesyonel çevrimiçi ağ olan LinkedIn'e doğrudan nakletmenize olanak tanır.
+Microsoft Dynamics 365 Talent: Attract ile LinkedIn tümleşmesini yapılandırarak iş verenlerinizin ve işe alma yöneticilerinizin dikkatini çekmenize yardımcı olun. Attract, işleri en büyük profesyonel çevrimiçi ağ olan LinkedIn'e doğrudan nakletmenize olanak tanır.
 
 Attract aracılığıyla LinkedIn'e naklettiğiniz işler Sınırlı Listelerdir ve şirketinize yönelik ek bir maliyet olmadan sağlanır. Bu listelemeler yalnızca, Attract gibi LinkedIn yazılım ortakları aracılığıyla kullanılabilir. Şirketin LinkedIn sayfasındaki **kariyer** panelinde görünmezler, yalnızca ücretli listelerin orada göründüğü için bunlar burada görünmez. Ancak, olası adaylar tüm kullanılabilir işleri görüntülerken görüntülenir. Sınırlı Listelemeler LinkedIn iş aramalarında da gösterilir.
 

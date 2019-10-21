@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent - Onboard uygulamasını edinin
-description: Bu konu, Microsoft Dynamics 365 for Talent - Onboard uygulamasının tek başına veya kapsamlı işe alma eklentisini içeren sürümün nasıl alınacağını açıklamaktadır.
+title: Dynamics 365 Talent - Onboard uygulamasını edinme
+description: Bu konuda Microsoft Dynamics 365 Talent - Onboard uygulamasının tek başına veya Kapsamlı İşe Alım Eklentisi'ni içeren sürümün nasıl edinilebileceği açıklanmaktadır.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: e83bbd71089b145c6c99780ea9516793c5238b33
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 7bf2e421445e5ca92e995ef581bf61c7978746d2
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731681"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010787"
 ---
-# <a name="get-the-dynamics-365-for-talent-onboard-app"></a>Dynamics 365 for Talent: Onboard uygulamasını edinme
+# <a name="get-the-dynamics-365-talent-onboard-app"></a>Dynamics 365 Talent: Onboard uygulamasını edinin
 
 [!include [banner](includes/banner.md)]
 
-Bir demo görüntüleyebilir ve Microsoft Dynamics 365 for Talent: Onboard uygulamasını [Onboard ürün sayfasından](https://dynamics.microsoft.com/talent/onboard/) ücretsiz olarak deneyebilirsiniz.
+Bir tanıtım görüntüleyebilir ve Microsoft Dynamics 365 Talent: Onboard uygulamasını [Onboard ürün sayfasından](https://dynamics.microsoft.com/talent/onboard/) ücretsiz olarak deneyebilirsiniz.
 
 > [!NOTE]
 > Ücretsiz deneme, iş e-posta hesabı gerektiriyor.
 
-Bir Onboard aboneliği, tek başına bir uygulama veya Dynamics 365 for Talent parçası olarak eklemek için satın alabilirsiniz. Talent, Dynamics 365 for Talent: Attract, Onboard ve Core HR içeren kapsamlı bir insan sermaye yönetim (HCM) sistemidir. Onboard satın alma hakkında daha fazla bilgi için, [Onboard ürün sayfasına](https://dynamics.microsoft.com/talent/onboard/) bakın.
+Bir Onboard aboneliği, tek başına bir uygulama veya Dynamics 365 Talent parçası olarak eklemek için satın alabilirsiniz. Talent, Dynamics 365 Talent: Attract, Onboard ve Core HR içeren kapsamlı bir insan sermayesi yönetim (HCM) sistemidir. Onboard satın alma hakkında daha fazla bilgi için, [Onboard ürün sayfasına](https://dynamics.microsoft.com/talent/onboard/) bakın.
 
 Deneme sürümü veya satın alma işlemi sırasında, Microsoft 365 e-posta adresinizi ve parolanızı ayarlayacaktır. Bu değerleri not aldığınızdan emin olun.
 
 > [!WARNING]
 > Denemenizin ücretli abonelik ortamınıza veri geçişi yapamazsınız. <!--Reviewers: please verify.-->
 
-Talent içindeki yeni özellikler hakkında daha fazla bilgi için bkz. [Dynamics 365 for Talent içinde neler yeni veya değişti](./whats-new.md) ve [Dynamics 365 ve Power Platform Sürüm Notları](https://docs.microsoft.com/business-applications-release-notes/index). Onboard yeni özellikleri önizlemek istiyorsanız, bkz. [Talent'ta önizleme özelliklerine erişim](./access-preview-feature.md).
+Talent içindeki yeni özellikler hakkında daha fazla bilgi için bkz. [Dynamics 365 Talent içinde neler yeni veya değişti](./whats-new.md) ve [Dynamics 365 ve Power Platform Sürüm Notları](https://docs.microsoft.com/business-applications-release-notes/index). Onboard yeni özellikleri önizlemek istiyorsanız, bkz. [Talent'ta önizleme özelliklerine erişim](./access-preview-feature.md).
 
 BT uzmanı iseniz ve Onboard uygulamanın iki sürümünün nasıl sağlandığı hakkında daha fazla bilgi edinmek istiyorsanız, [Onboard uygulama için sağlama](./modular-app-tech-faq.md) konusuna bakın.
 

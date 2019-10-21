@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'taki yenilikler veya değişiklikler (9 Temmuz 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (9 Temmuz 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/09/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e5bb02a7128cb920a79a5f04ac910be205aeed41
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856389"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023965"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-9-2019"></a>Dynamics 365 for Talent'taki yenilikler veya değişiklikler (9 Temmuz 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (9 Temmuz 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 
-Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içeriyor.
 
 ### <a name="coming-soon-in-attract"></a>Yakın zamanda Attract'e geliyor
 #### <a name="job-approvals-appear-on-the-home-page"></a>Giriş sayfasında görünecek iş onayları
@@ -42,15 +42,15 @@ Onaylar, panonun bir **Onaylar** bölümünde görüntülenir. Onaylayanlar, iş
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
 
-Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 
 Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2374 için geçerlidir.
 
-### <a name="platform-update-28"></a>Platform güncelleştirmesi 28
+### <a name="platform-update-28-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 28
 
-Platform güncelleştirmesi 28 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 for Finance and Operations önizleme özellikle platform güncelleştirmesi 28 (Temmuz 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Finance and Operations için Platform güncelleştirmesi 28 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 Finance and Operations platform güncelleştirmesi 28'deki (Temmuz 2019) önizleme özellikleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Common Data Service'teki özel alanlar için varlık desteği 
 

@@ -1,6 +1,6 @@
 ---
 title: Müşteri adayından nakde
-description: Bu konu, Microsoft Dynamics 365 for Finance and Operations ve Microsoft Dynamics 365 for Sales arasında Aday'dan nakite çözümüne genel bakış sağlar.
+description: Bu konu, Dynamics 365 Supply Chain Management ve Dynamics 365 Sales arasında Aday'dan nakite çözümüne genel bakış sağlar.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/25/2018
@@ -19,31 +19,31 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: e31994ea3cd73dcc749a02ce2cd0815be191a567
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742413"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251374"
 ---
-# <a name="prospect-to-cash"></a>Müşteri adayından nakde
+# <a name="prospect-to-cash"></a>Aday müşteriden nakde
 
 [!include [banner](../includes/banner.md)]
 
-Aday'dan nakite çözümü, Dynamics 365 for Finance and Operations ve Dynamics 365 for Sales arasında doğrudan eşitleme sağlar. Veri Tümleştirme özelliğiyle birlikte kullanılan Müşteri adayından nakde şablonları Finance and Operations ile Sales arasında hesaplar, ürünler, satışlar, satış teklifleri, satış siparişleri ve satış faturaları için veri akışı sağlar. Finance and Operations ile Sales arasında veri akışı sağlanırken, Sales'de satış ve pazarlama faaliyetlerini gerçekleştirebilir ve Finance and Operations'da stok yönetimini kullanarak sipariş karşılamaları işleyebilirsiniz. 
+Aday'dan nakite çözümü, Dynamics 365 Supply Chain Management ve Dynamics 365 Sales arasında doğrudan eşitleme sağlar. Veri tümleştirme özelliğiyle birlikte kullanılan Müşteri adayından nakde şablonları hesaplar, ürünler, satışlar, satış teklifleri, satış siparişleri ve satış faturaları için veri akışı sağlar. Veri akışı sağlanırken, Sales'de satış ve pazarlama faaliyetlerini gerçekleştirebilir ve Supply Chain Management'da stok yönetimini kullanarak sipariş karşılamaları işleyebilirsiniz. 
 
 Aday'dan nakite tümleştirmesi hakkında daha fazla bilgi için kısa YouTube videosu'nu izleyin [Aday'dan nakite tümleştirme](https://www.youtube.com/watch?v=AVV9x5x-XCg).
 
 Geçerli sürümde, Müşteri adayından nakde çözümü aşağıdaki türlerde doğrudan eşitleme sağlar:
 
-- [Hesapları Sales içinde koruma ve onları doğrudan Sales'den Finance and Operations'a eşitleme](accounts-template-mapping-direct.md)
-- [Finance and Operations'taki ürünleri koruma ve onları doğrudan Sales ile eşitleme](products-template-mapping-direct.md)
-- [Sales'deki ilgili kişileri koruma ve onları doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](contacts-template-mapping-direct.md)
-- [Sales'deki satış teklifini doğrudan Finance and Operations'la eşitleme](sales-quotation-template-mapping-sales-fin.md)
-- [Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme](sales-order-template-mapping-direct-two-ways.md)
-- [Satış faturasını doğrudan Finance and Operations'tan Sales'e eşitleme](sales-invoice-template-mapping-direct.md)
+- [Hesapları Sales içinde koruma ve onları doğrudan Sales'den Supply Chain Management'a eşitleme](accounts-template-mapping-direct.md)
+- [Supply Chain Management arasında ürünleri koruyun ve onları doğrudan Sales'a eşitleyin](products-template-mapping-direct.md)
+- [Sales'deki ilgili kişileri koruma ve onları doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme](contacts-template-mapping-direct.md)
+- [Supply Chain Management'daki satış tekliflerini Sales'dan doğrudan Supply Chain Management'a eşitleme](sales-quotation-template-mapping-sales-fin.md)
+- [Supply Chain Management ve Sales arasında satış siparişlerini doğrudan eşitleme](sales-order-template-mapping-direct-two-ways.md)
+- [Supply Chain Management'daki satış faturasını doğrudan Supply Chain Management'dan Sales'a eşitleme](sales-invoice-template-mapping-direct.md)
 
-## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations için sistem gereksinimleri
+## <a name="system-requirements-for-supply-chain-management"></a>Supply Chain Management için sistem gereksinimleri
 Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir:
 
 ### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (Aralık 2017)
@@ -55,9 +55,9 @@ Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir
 - Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) - platform güncelleştirmesi 8 ile (uygulama yapısı 7.2.11792.56024, platform yapısı 7.0.4565.16212 ile).
 - Aşağıdaki düzeltmeler gereklidir:
 
-  - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** - Bu düzeltme Veri Tümleştirme özelliğiyle Sales'den Finance and Operations'a satış siparişi eşitlemesine olanak tanır. Başka geliştirmeler de içerir.
-  - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** - Bu düzeltme Veri Tümleştirme özelliğiyle Finance and Operations'tan Sales'e satış siparişi satırı eşitlemesine olanak tanır.
-  - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** - Bu düzeltme Veri Tümleştirme özelliğiyle Finance and Operations'tan Sales'a satış siparişi eşitlemesine olanak tanır.
+  - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** - Bu düzeltme Veri Tümleştirme özelliğiyle Sales'den Supply Chain Management'a satış siparişi eşitlemesine olanak tanır. Başka geliştirmeler de içerir.
+  - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** - Bu düzeltme Veri Tümleştirme özelliğiyle Sales'den Supply Chain Management'dan Sales'a satış siparişi satırı eşitlemesine olanak tanır.
+  - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** - Bu düzeltme Veri Tümleştirme özelliğiyle Supply Chain Management'dan Sales'a satış siparişi eşitlemesine olanak tanır.
 
     > [!NOTE]
     > Yalnızca KB4045570 düzeltmesini yüklemeniz yeterlidir çünkü yükleme diğer düzeltmelerdeki değişiklikleri içerir. 
@@ -68,8 +68,8 @@ Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir
 
 - Aşağıdaki düzeltmeler gereklidir:
 
-  - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** - Finance and Operations'dan Sales'a Veri tümleştiriciyle satış siparişi eşitlemesine olanak tanır. 
-  - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** - Finance and Operations'dan Sales'a Veri tümleştiriciyle satış siparişi başlığı ve satırı eşitlemesine olanak tanır.
+  - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** - Supply Chain Management'dan Sales'a Veri tümleştiriciyle satış siparişi eşitlemesine olanak tanır. 
+  - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** - Supply Chain Management'dan Sales'a Veri tümleştiriciyle satış siparişi başlık ve satır eşitlemesine olanak tanır.
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - Veri varlıkları aracılığıyla müşteri adayından nakde tümleştirmesi için destek gereklidir.
     
     > [!NOTE]
@@ -80,5 +80,5 @@ Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir
 
 Müşteri adayından nakde çözümünü kullanmak için aşağıdaki bileşenleri yüklemeniz gerekir:
 
-- Dynamics 365 for Sales sürüm 1612 (8.2.1.207) (DB 8.2.1.207) çevrimiçi veya sonraki bir sürüm
-- Dynamics 365 for Sales, sürüm 1.15.0.0 veya sonraki sürüm için Aday'dan nakite çözüm. Çözüm AppSource'tan indirilebilir. [Download Dynamics 365, Aday Müşteriden Nakde](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+- Dynamics 365 Sales sürüm 1612 (8.2.1.207) (DB 8.2.1.207) çevrimiçi veya sonraki bir sürüm.
+- Dynamics 365 Sales, sürüm 1.15.0.0 veya üstü sürüm için Müşteri Adayından nakde çözümü. Çözüm AppSource'tan indirilebilir. [Download Dynamics 365, Aday Müşteriden Nakde](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).

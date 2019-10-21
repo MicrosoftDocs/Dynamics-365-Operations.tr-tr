@@ -1,6 +1,6 @@
 ---
-title: PowerApps uygulamalarını Core HR içine katıştırma
-description: Bu konu,, PowerApps menü öğesinin Sistem yönetim modülünden kaybolduğu sorunu ortadan kaldırmayı açıklamaktadır.
+title: PowerApps uygulamalarını Dynamics 365 - Core HR içine katıştırma
+description: Bu konu, PowerApps menü öğesinin Sistem yönetim modülünden kaybolduğu sorunu ortadan kaldırmayı açıklamaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742831"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008442"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>PowerApps uygulamalarını Core HR içine katıştırma
 
 [!include [banner](includes/banner.md)]
 
-**Stok çıkışı**
+**Çıkış**
 
 **PowerApps** menü öğesi, **Sistem yönetimi** modülünden kayboldu.
 
@@ -38,9 +38,9 @@ Kullanıcı arabirimi (UI) tasarımı değiştirildi ve Microsoft PowerApps, şi
 
 **Çözünürlük**
 
-PowerApps uygulamalarının katıştırılması değiştirildi. Artık PowerApps uygulamaları kişiselleştirme modeli aracılığıyla eklenir. PowerApps uygulamalarını Microsoft Dynamics 365 for Talent içindeki neredeyse her sayfaya ekleyebilirsiniz.
+PowerApps uygulamalarının katıştırılma şekli değiştirildi. Artık PowerApps uygulamaları kişiselleştirme modeli aracılığıyla eklenir. PowerApps uygulamalarını Microsoft Dynamics 365 Talent içindeki neredeyse her sayfaya ekleyebilirsiniz.
 
-Talent içerisinde PowerApps uygulamasının nasıl katıştırılacağı hakkında bilgi için bkz: [PowerApps katıştırma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Talent içerisinde PowerApps uygulamalarının nasıl katıştırılacağı hakkında bilgi için bkz: [PowerApps uygulamalarını katıştırma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 Değişimden önce uygulamalarını katıştırmış olan her PowerApps kullanıcısının yeni modele yükseltilmiş olması gerekir.
 
@@ -67,4 +67,4 @@ Alternatif olarak bu adımları izleyin.
 
 2. Araç çubuğunda **Ekle \> PowerApp**'i seçin.
 
-    ![Kişiselleştirme araç çubuğunu kullanarak bir PowerApps uygulamasını](media/powerapp-bar.png)
+    ![Kişiselleştirme araç çubuğunu kullanarak bir PowerApps uygulaması ekleme](media/powerapp-bar.png)

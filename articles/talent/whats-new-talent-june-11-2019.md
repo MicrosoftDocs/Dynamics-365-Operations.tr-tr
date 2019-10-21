@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'taki yenilikler veya değişiklikler (Haziran 11 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (Haziran 11 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/11/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b06dc0556bd1461573cd56abed602d72333a3f39
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741640"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023942"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Dynamics 365 for Talent'taki yenilikler veya değişiklikler (Haziran 11 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (Haziran 11 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 
 ### <a name="search-engine-optimization-for-job-posts"></a>İş gönderilerinin altyapısı iyileştirmeyi arama
 
-Dynamics 365 for Talent'ta **Arama Altyapısı İyileştirmesi**'ni açtıktan sonra: Attract Yönetici merkezi, Attract, yeni bir işi etkinleştirip gönderdiğinizde veya mevcut bir işi güncellediğinizde web sayfasını taraması için Google Dizin Oluşturma uygulaması programlama arayüzünü (API) bilgilendirir. Bu şekilde, iş Google ve diğer arama alt yapılarının arama sonuçlarında görünecektir.
+Dynamics 365 Talent: Attract Yönetim Merkezi'nde **Arama Altyapısı İyileştirmesi**'ni açtıktan sonra, Attract, yeni bir işi etkinleştirip gönderdiğinizde veya mevcut bir işi güncellediğinizde web sayfasını taraması için Google Dizin Oluşturma uygulaması programlama arabirimini (API) bilgilendirir. Bu şekilde, iş Google ve diğer arama alt yapılarının arama sonuçlarında görünecektir.
 
 Benzer şekilde, bir işi deftere naklettiğinizde, işlemi deftere nakledilmeyen işin arama sonuçlarında görünmemesi için dizin oluşturma API'sine bildirilir.
 
@@ -50,15 +50,15 @@ Onaylar, panonun bir **Onaylar** bölümünde görüntülenir. Onaylayanlar, iş
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
 
-Bu sürüm, Dynamics 365 for Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 
 Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2337 için geçerlidir.
 
-### <a name="platform-update-27"></a>Platform güncelleştirmesi 27
+### <a name="platform-update-27-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 27
 
-Platform güncelleştirmesi 27 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 for Finance and Operations önizleme özellikle platform güncelleştirmesi 27 (Haziran 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+Finance and Operations için Platform güncelleştirmesi 27 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 Finance and Operations platform güncelleştirmesi 27'deki (Haziran 2019) önizleme özellikleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>Talent'ta özellik yönetimi çalışma alanı
 

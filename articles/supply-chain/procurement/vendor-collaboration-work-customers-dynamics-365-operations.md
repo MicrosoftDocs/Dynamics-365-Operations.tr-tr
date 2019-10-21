@@ -1,6 +1,6 @@
 ---
-title: Müşterilerle satıcı iş birliği
-description: Bu konu, Microsoft Dynamics 365 for Finance and Operations'da PO'lar ile çalışmak ve konsinye stoğu görüntülemek için satıcı iş birliğini nasıl kullanabileceğinizi açıklar.
+title: Müşterilerle satıcı işbirliği
+description: Bu konu, PO'lar ile çalışmak ve konsinye stoku görüntülemek için satıcı işbirliğini nasıl kullanabileceğinizi açıklamaktadır.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e968a57c09837a5cfa5a0476426a274021122959
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567596"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250165"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı işbirliği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Finance and Operations'da müşteriler ile çalışmak için satıcı iş birliğini nasıl kullanabileceğinizi açıklar. Satıcılar bir dizi iş sürecini aşağıdaki çalışma alanlarından gerçekleştirebilir:
+Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta müşterilerle çalışmak için satıcı işbirliğini nasıl kullanabileceğinizi açıklamaktadır. Satıcılar bir dizi iş sürecini aşağıdaki çalışma alanlarından gerçekleştirebilir:
 
 - **Satınalma siparişi teyidi** – Satınalma siparişlerini (PO) izleyin ve yanıtlayın.
 - **Satıcı teklifi** - Teklif taleplerini (RFQ) görüntüleyin ve tekliflere girerek yanıt verin.
@@ -136,7 +136,7 @@ Bir RFQ düzeltilirse, yeni bir teklif girmeniz gerekir. Düzeltme hakkındaki b
 
 ## <a name="accessing-vendor-master-data-in-the-vendor-information-workspace"></a>Satıcı bilgileri çalışma alanında satıcı ana verilerine erişme
 
-Bir satıcı olarak, müşterinin satıcı ana kaydında koruduğu bilgilerin bir kısmına erişebilirsiniz.  Bu nedenle, bilgileri güncel tutabilirsiniz. Bilgileri güncelleştirmek için satıcı yönetici (dış) rolüne sahip olmanız gerekir.
+Bir satıcı olarak, müşterinin satıcı ana kaydında koruduğu bilgilerin bir kısmına erişebilirsiniz. Bu nedenle, bilgileri güncel tutabilirsiniz. Bilgileri güncelleştirmek için satıcı yönetici (dış) rolüne sahip olmanız gerekir.
 
 Erişilebilir bilgiler şunlardır: satıcı adı, adresleri, iletişim bilgileri, ilgili kişiler ve bunların iletişim bilgileri, kimlik numaraları, vergi tescil numaraları, satıcının müşteriye satmak üzere onaylandığı tedarik kategorileri ve sertifikalar hakkında bilgiler.
 

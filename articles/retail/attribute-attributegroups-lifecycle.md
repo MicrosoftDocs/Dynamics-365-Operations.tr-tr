@@ -19,18 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606907"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023648"
 ---
 # <a name="attributes-and-attribute-groups"></a>Öznitelikler ve öznitelik grupları
 
 [!include [banner](includes/banner.md)]
 
-*Öznitelikler* kullanıcı tanımlı alanlar aracılığıyla bir ürünü ve özelliklerini daha fazla açıklamak için bir yol sağlar (**Bellek boyutu**, **Sabit disk kapasitesi**, **Energy star uyumluluğu**, vb.). Microsoft Dynamics 365 for Finance and Operations içinde, öznitelikler, ürün kategorileri ve Retail kanalları gibi çeşitli perakende varlıklar ile ilişkili olabilir ve bunlar için varsayılan değerler ayarlanabilir. Ürün kategorileri veya perakende kanalları ile ilişkili olduğunda ürünler özniteliklerini ve varsayılan değerleri devralır. Varsayılan değerler tek tek ürün düzeyinde, perakende kanal düzeyinde veya perakende kataloğu düzeyinde geçersiz kılınabilir.
+*Öznitelikler* kullanıcı tanımlı alanlar aracılığıyla bir ürünü ve özelliklerini daha fazla açıklamak için bir yol sağlar (**Bellek boyutu**, **Sabit disk kapasitesi**, **Energy star uyumluluğu**, vb.). Öznitelikler ürün kategorileri ve perakende kanalları gibi çeşitli Retail varlıkları ile ilişkili olabilir ve bunlar için varsayılan değerler ayarlanabilir. Ürün kategorileri veya perakende kanalları ile ilişkili olduğunda ürünler özniteliklerini ve varsayılan değerleri devralır. Varsayılan değerler tek tek ürün düzeyinde, perakende kanal düzeyinde veya perakende kataloğu düzeyinde geçersiz kılınabilir.
+
 
 Örneğin, tipik bir televizyon ürünü aşağıdaki özniteliklere sahip olabilir.
 
@@ -53,7 +54,7 @@ ms.locfileid: "1606907"
 
 ## <a name="attributes-and-attribute-types"></a>Öznitelikler ve öznitelik türleri
 
-Öznitelikler *öznitelik türlerini* temel alır. Öznitelik türü, belirli bir öznitelik için girilebilen veri türünü tanımlar. Finance and Operations şu anda aşağıdaki öznitelik türlerini desteklemektedir:
+Öznitelikler *öznitelik türlerini* temel alır. Öznitelik türü, belirli bir öznitelik için girilebilen veri türünü tanımlar. Aşağıdaki öznitelik türleri desteklenir:
 
 - **Para birimi** – Bu tür bir para birimi değerini destekler. Bağlı olabilir (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.
 - **DateTime** – Bu tür, tarih ve saat değerini destekler. Bağlı veya açık bırakılmış olabilir.
@@ -63,9 +64,9 @@ ms.locfileid: "1606907"
 - **Boole** – Bu tür ikili değeri destekler (**doğru** veya **yanlış**).
 - **Referans** – Bu tür diğer özniteliklere referansta bulunur.
 
-### <a name="set-up-attribute-types-in-finance-and-operations"></a>Finance and Operations'da öznitelik türlerini ayarlama
+### <a name="set-up-attribute-types"></a>Öznitelik türlerini ayarla
 
-1. Perakende alım satım yöneticisi olarak Finance and Operations arka ofis istemcisinde oturum açın.
+1. Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.
 2. **Ürün bilgi yönetimi** &gt; **Kurulum** &gt; **Kategoriler ve öznitelikler** &gt; **Öznitelik türleri**'ne gidin.
 3. **Metin** türünde iki öznitelik türü oluşturun, **Sabit liste** seçeneğini **Evet** olarak ayarlayın ve sonra değerler listesi ekleyin:
 
@@ -74,7 +75,7 @@ ms.locfileid: "1606907"
 
 ![Öznitelik türleri](media/AttributeType.png)
 
-### <a name="set-up-an-attribute-in-finance-and-operations"></a>Finance and Operations'da öznitelik ayarlama
+### <a name="set-up-an-attribute"></a>Öznitelik ayarlama
 
 1. Perakende alım satım yöneticisi olarak arka ofis istemcisinde oturum açın.
 2. **Ürün bilgi yönetimi** &gt; **Kurulum** &gt; **Kategoriler ve öznitelikler** &gt; **Öznitelikler**'e gidin.
@@ -101,13 +102,13 @@ Sizin de göreceğiniz gibi **Öznitelikler** sayfası öznitelik meta verileriy
 - Büyük-küçük harfi ve biçimi yok say
 - Tam eşleşme
 
-Bu seçeneklerin temel amacı çevrimiçi mağaza için arama işlevini geliştirmektir. Finance and Operations kullanıma hazır olarak çevrimiçi mağaza içermese de e-Ticaret Yayımlama Yazılım Geliştirme Seti (SDK) içerir. Müşteriler bu SDK'yı kullanarak ürünleri istedikleri arama dizinine koyabilir. Ürün verileri içe aktarılsa da müşteriler aranabilir verileri, sorgulanabilecek verileri, vb. birbirinden ayırabilir. Bu şekilde, yalnızca *kendi görüşlerine göre* dizinlenmesi gereken öznitelikleri dizinlediklerinden emin olmak için optimum dizini oluşturabilir.
+Bu seçeneklerin temel amacı çevrimiçi mağaza için arama işlevini geliştirmektir. Retail kullanıma hazır olarak çevrimiçi mağaza içermese de e-Ticaret Yayımlama Yazılım Geliştirme Seti (SDK) içerir. Müşteriler bu SDK'yı kullanarak ürünleri istedikleri arama dizinine koyabilir. Ürün verileri içe aktarılsa da müşteriler aranabilir verileri, sorgulanabilecek verileri, vb. birbirinden ayırabilir. Bu şekilde, yalnızca *kendi görüşlerine göre* dizinlenmesi gereken öznitelikleri dizinlediklerinden emin olmak için optimum dizini oluşturabilir.
 
 Bu kalan seçeneklerin amacı hakkında bilgi için bkz. [SharePoint Server 2013'te arama şemasına genel bakış](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Öznitelik filtre ayarları
 
-Özniteliklerin filtre ayarları özniteliklerle ilgili filtrelerin perakende POS'ta nasıl görüneceğini tanımlamanıza olanak tanır. Bir özniteliğe ilişkin filtre ayarlarına erişmek için Finance and Operations'taki **Öznitelikler** sayfasında özniteliği seçin ve Eylem Bölmesine **Filtre ayarları**'nı seçin.
+Özniteliklerin filtre ayarları özniteliklerle ilgili filtrelerin perakende POS'ta nasıl görüneceğini tanımlamanıza olanak tanır. Bir özniteliğe ilişkin filtre ayarlarına erişmek **Öznitelikler** sayfasında özniteliği seçin ve Eylem Bölmesine **Filtre ayarları**'nı seçin.
 
 **Filtre görüntüleme tercihleri** sayfası, aşağıdaki alanları içerir:
 
@@ -233,7 +234,7 @@ Bir veya daha fazla öznitelik grubu perakende mağaza hiyerarşisindeki bir vey
     - Kanal ürünü öznitelikleri
 
     > [!NOTE]
-    > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.
+    > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri oluşturulursa, tüm perakende ürünlere uygulanır.
 
 ![Katalog ürünü öznitelik grupları](media/CatalogProdAttrValues.png)
 
@@ -255,4 +256,4 @@ Bir veya daha fazla öznitelik grubu perakende mağaza hiyerarşisindeki bir vey
     - Kanal ürünü öznitelikleri
 
     > [!NOTE]
-    > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.
+    > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri oluşturulursa, tüm perakende ürünlere uygulanır.

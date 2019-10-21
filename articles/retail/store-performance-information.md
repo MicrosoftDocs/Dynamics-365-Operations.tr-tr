@@ -1,6 +1,6 @@
 ---
 title: Mağaza performansını analiz etme
-description: Bu makale, bellek içi ve gerçek zamanlı analizleri Microsoft Dynamics 365 for Retail verilerinizi temel alan mağaza performansına erişmek, keşfetmek ve bunlar hakkında bilgi edinmek için nasıl kullanabileceğinizi açıklar.
+description: Bu makale, bellek içi ve gerçek zamanlı analizleri Dynamics 365 Retail verilerinizi temel alan mağaza performansına erişmek, keşfetmek ve bunlar hakkında bilgi edinmek için nasıl kullanabileceğinizi açıklar.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b2ea6ad2e3d9589face06cd5f950973209c17d41
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569275"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017794"
 ---
 # <a name="analyze-store-performance"></a>Mağaza performansını analiz etme
 
 [!include [banner](includes/banner.md)]
 
-Bu makale, bellek içi ve gerçek zamanlı analizleri Microsoft Dynamics 365 for Retail verilerinizi temel alan mağaza performansına erişmek, keşfetmek ve bunlar hakkında bilgi edinmek için nasıl kullanabileceğinizi açıklar.
+Bu makale, bellek içi ve gerçek zamanlı analizleri Dynamics 365 Retail verilerinizi temel alan mağaza performansına erişmek, keşfetmek ve bunlar hakkında bilgi edinmek için nasıl kullanabileceğinizi açıklar.
 
-Dynamics 365 for Retail'in bir parçası olarak, kullanıcılar mağaza performansını aşağıdaki konumlardan birinden yeni **Kanal özeti** raporunu açarak seçilen bir periyotta farklı kuruluş hiyerarşisi düzeylerinde gerçek zamanlı olarak inceleyebilir:
+Retail'in bir parçası olarak, kullanıcılar mağaza performansını aşağıdaki konumlardan birinden yeni **Kanal özeti** raporunu açarak seçilen bir dönemdeki farklı kuruluş hiyerarşisi düzeylerinde gerçek zamanlı olarak inceleyebilir:
 
 - **Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar** &gt; **Kanal özet raporu**
 - **Perakende mağaza mali bilgileri** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza mali bilgileri** &gt; **Raporlar** &gt; **Kanal özet raporu**

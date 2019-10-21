@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559174"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249808"
 ---
 # <a name="sales-returns"></a>Satış iadeleri
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559174"
 
 Bu konu için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir.
 
-Müşteriler malları çeşitli nedenlerle iade edebilir. Örneğin, bir mal kusurlu veya müşterinin beklentilerini karşılamamış olabilir. Müşteri, bir malı iade etmek için bir istekte bulunduğu zaman iade işlemi başlar. Müşterinin isteği alınınca Microsoft Dynamics 365 for Finance and Operations'ta bir iade emri oluşturulur.
+Müşteriler malları çeşitli nedenlerle iade edebilir. Örneğin, bir mal kusurlu veya müşterinin beklentilerini karşılamamış olabilir. Müşteri, bir malı iade etmek için bir istekte bulunduğu zaman iade işlemi başlar. Müşterinin talebi alınınca bir iade emri oluşturulur.
 
 ## <a name="return-order-process"></a>İade emri işlemi
 Aşağıdaki şekilde iade emri işleminin genel özeti verilmektedir.  
@@ -281,7 +281,7 @@ Bu senaryo, aşağıdaki şekilde gösterildiği gibi, aynı kuruluştaki iki ş
 
 ![Basit şirketlerarası iade](./media/SalesReturn07.png)
 
-Alıcı şirkette bir satıcı iade emri veya satıcı şirkette müşteri iade emri oluşturulduğunda sipariş zinciri oluşturulabilir. Finance and Operations diğer şirkette karşılık gelen siparişi oluşturur ve satıcı iade siparişindeki üstbilgi ve satır bilgilerinin müşteri iade emrindeki ayarları yansıtıp yansıtmadığından emin olur. Oluşan iade emri, mevcut bir müşteri faturasında referansı (**Satış siparişini bul**) dahil edebilir veya hariç tutabilir. İki emrin sevk irsaliyeleri ve faturaları ayrı ayrı işlenebilir. Örneğin, müşteri iade emri için sevk irsaliyesi oluşturmadan önce satıcı iade emri için bir sevkiyat irsaliyesi oluşturmak zorunda kalmazsınız.
+Alıcı şirkette bir satıcı iade emri veya satıcı şirkette müşteri iade emri oluşturulduğunda sipariş zinciri oluşturulabilir. Diğer şirkette karşılık gelen sipariş oluşturulur ve satıcı iade siparişindeki başlık ve satır bilgilerinin müşteri iade emrindeki ayarları yansıtıp yansıtmadığından emin olur. Oluşan iade emri, mevcut bir müşteri faturasında referansı (**Satış siparişini bul**) dahil edebilir veya hariç tutabilir. İki emrin sevk irsaliyeleri ve faturaları ayrı ayrı işlenebilir. Örneğin, müşteri iade emri için sevk irsaliyesi oluşturmadan önce satıcı iade emri için bir sevkiyat irsaliyesi oluşturmak zorunda kalmazsınız.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Üç taraf arasında doğrudan teslim sevkiyat iadeleri
 

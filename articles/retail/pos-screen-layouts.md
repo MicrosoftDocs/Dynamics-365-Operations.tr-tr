@@ -1,6 +1,6 @@
 ---
 title: Satış noktası (POS) ekran düzenleri
-description: Bu konu Microsoft Dynamics 365 for Retail satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar.
+description: Bu konu Dynamics 365 Retail satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar.
 author: jblucher
 manager: AnnBe
 ms.date: 05/20/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1607061"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025296"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Satış noktası (POS) ekran düzenleri
 
 [!include [banner](includes/banner.md)]
 
-Bu konu Microsoft Dynamics 365 for Retail satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar.
+Bu konu Dynamics 365 Retail satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar.
 
 Retail satış noktası (POS) kullanıcı arabirimi (UI), mağazalara, kasalara ve/veya kullanıcılara atanan görsel profiller ve ekran düzenleri birleşimi kullanılarak yapılandırılabilir.
 
@@ -50,7 +50,7 @@ Görsel profiller kasalara atanır ve kasaya özel ve kullanıcılar arasında p
 - **Açıklama** – Durumunuz için doğru profili tanımlamaya yardımcı olacak anlamlı bir ad belirtebilirsiniz.
 - **Tema** – Açık veya Koyu uygulama temaları arasından seçim yapabilirsiniz. Tema, uygulamanın tümünde yazı tipini ve arka plan renklerini etkiler.
 - **Vurgu rengi** – Vurgu rengi tüm POS genelinde kutucuk, komut düğmesi ve köprü gibi belirli görsel öğeleri ayırt etmek veya vurgulamak için kullanılır. Bunlar genellikle işlem yapılabilecek öğelerdir.
-- **Başlık rengi** – Sayfa başlığının rengini, perakendecinin marka gereksinimlerini karşılayacak şekilde yapılandırabilirsiniz. Bu özellik yalnızca Microsoft Dynamics 365 for Retail sürüm 1611'de kullanılabilir.
+- **Başlık rengi** – Sayfa başlığının rengini, perakendecinin marka gereksinimlerini karşılayacak şekilde yapılandırabilirsiniz. Bu özellik, yalnızca Retail sürüm 1611'de kullanılabilir.
 - **Tarih/saat** - Etkin olduğunda geçerli tarih ve saat POS başlığında görüntülenir.
 - **Oturum açma arka planları** – Oturum açma ekranı için bir arka plan resmi belirtebilirsiniz. Büyük dosyaların depolanması ve yüklenmesi, uygulama davranışını ve performansını olumsuz etkileyebileceği için, arka plan resimlerinin dosya boyutu olabildiğince küçük tutulmalıdır.
 - **Uygulama arka planı** – Uygulama genelinde düz tema rengi yerine kullanılacak bir arka plan resmi belirtebilirsiniz. Oturum açma arka planlarında olduğu gibi, dosya boyutu mümkün olduğunca küçük tutulmalıdır.

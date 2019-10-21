@@ -1,6 +1,6 @@
 ---
 title: Ambar işinin ertelenmiş işlemesi
-description: Bu konu, Microsoft Dynamics 365 for Finance and Operations'ta ambar işi koyma işlemlerinin ertelenmiş işlenmesini sağlayan işlevselliği açıklar.
+description: Bu konu, Dynamics 365 Supply Chain Management'ta ambar işi koyma işlemlerinin ertelenmiş işlenmesini sağlayan işlevselliği açıklar.
 author: josaw1
 manager: AnnBe
 ms.date: 06/17/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4905084f9bc28e55c307921280733c6acb80db86
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863598"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026962"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Ambar işinin ertelenmiş işlemesi
 
@@ -29,7 +29,8 @@ ms.locfileid: "1863598"
 
 [!include [banner](../includes/pivate-preview-banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Finance and Operations'ta mevcut olan ambar işi için erteleme işlemlerinin ertelenmesini sağlayan işlevselliği açıklar.
+Bu konu, Dynamics 365 Supply Chain Management'ta mevcut olan ambar işi için erteleme işlemlerinin ertelenmesini sağlayan işlevselliği açıklar.
+
 
 Ertelenmiş işleme işlevselliği, ambar çalışanlarının arka planda işlenirken ambar işçilerinin başka işler yapmaya devam etmesini sağlar. Ertelenmiş işleme, birçok iş hattının işlenmesi gerektiğinde ve çalışan bu işin zaman uyumsuz olarak işlenmesine izin verebilirse yararlıdır. Ayrıca, sunucu işlem zamanında geçici veya planlanmamış artışlara sahip olabilir ve artan işlem süresi kullanıcının verimliliğini etkileyebilir.
 

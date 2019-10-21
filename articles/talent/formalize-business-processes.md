@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519295"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008396"
 ---
 # <a name="formalize-business-processes"></a>İş süreçlerini biçimlendirme
 
@@ -43,7 +43,7 @@ Her bir iş süreci için bir süreç sahibi tanımlayabilirsiniz. Süreç sahib
 Süreç sahibi yeni iş süreçleri veya iş süreci şablonları oluşturamaz, etkin iş süreçlerini veya iş süreci şablonlarını silemez.
 
 ## <a name="tasks"></a>Görevler
-İş süreci genellikle birden çok görevden oluşur. Dahili kurs tekliflerinin incelenmesi gibi bazı görevler Microsoft Dynamics 365 for Talent'ta[?] tamamlanabilir. Bu durumda **Görev bağlantısı** alanında bir seçenek belirlenir. Bir web sitesindeki sayfaların incelenmesi veya tamamlanması gibi başka görevler de olabilir. Bu durumda, **Görev bağlantısı** alanında **URL** seçilip ardından web adresi girilebilir. Hem dahili hem de harici sitelerin URL'lerini girebilirsiniz. Ayrıca, tüm yapılara erişilebilirliği inceleme gibi el ile tamamlayabileceğiniz faaliyetlerle ilgili görevler de oluşturabilirsiniz. Bu durumda görev bağlantısı gerekli değildir. Bu esneklik, çeşitli türlerdeki görevleri kapsamlı bir süreçte izlemenize olanak tanır.
+İş süreci genellikle birden çok görevden oluşur. Dahili kurs tekliflerinin incelenmesi gibi bazı görevler Microsoft Dynamics 365 Talent'ta tamamlanabilir. Bu durumda **Görev bağlantısı** alanında bir seçenek belirlenir. Bir web sitesindeki sayfaların incelenmesi veya tamamlanması gibi başka görevler de olabilir. Bu durumda, **Görev bağlantısı** alanında **URL** seçilip ardından web adresi girilebilir. Hem dahili hem de harici sitelerin URL'lerini girebilirsiniz. Ayrıca, tüm yapılara erişilebilirliği inceleme gibi el ile tamamlayabileceğiniz faaliyetlerle ilgili görevler de oluşturabilirsiniz. Bu durumda görev bağlantısı gerekli değildir. Bu esneklik, çeşitli türlerdeki görevleri kapsamlı bir süreçte izlemenize olanak tanır.
 
 Görevler belirli bir çalışana veya bir pozisyona atanabilir. Örneğin, Ücret ve kazançlar yöneticisi her zaman sigorta primleri incelemesi yapan kişi olacaktır. Bu nedenle, bu görevi oluştururken, **Atama türü** alanında **Pozisyon**'u ve ardından **Pozisyon** listesinden **Ücret ve kazançlar yöneticisi**'ni seçin. İş süreci başlatılınca, görev **Ücret ve kazançlar yöneticisi** pozisyonunda bulunan çalışana atanır. Bir görevi belirli bir çalışana atamak için, **Atama türü** alanında **Çalışan**'ı ve ardından ilgili kişiyi seçin.
 

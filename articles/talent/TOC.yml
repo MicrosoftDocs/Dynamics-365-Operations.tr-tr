@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
     - name: Başlayın
       items:
@@ -8,6 +8,14 @@
         - name: Talent'taki yenilikler veya değişiklikler
           href: whats-new.md
           items:
+            - name: 1 Ekim 2019
+              href: whats-new-talent-october-1-2019.md
+            - name: 17 Eylül 2019
+              href: whats-new-talent-september-17-2019.md
+            - name: 10 Eylül 2019
+              href: whats-new-talent-september-12-2019.md
+            - name: 27 Ağustos 2019
+              href: whats-new-talent-august-28-2019.md
             - name: 22 Ağustos 2019
               href: whats-new-talent-august-21-2019.md
             - name: 13 Ağustos 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: 2 Temmuz 2019
               href: whats-new-talent-july-2-2019.md
-            - name: 25 Haziran 2019
-              href: whats-new-talent-june-25-2019.md
-            - name: 18 Haziran 2019
-              href: whats-new-talent-june-18-2019.md
-            - name: 11 Haziran 2019
-              href: whats-new-talent-june-11-2019.md
-            - name: 4 Haziran 2019
-              href: whats-new-talent-june-4-2019.md
             - name: Yeniliklere ilişkin arşivler 2019
               items:
+                - name: 25 Haziran 2019
+                  href: whats-new-talent-june-25-2019.md
+                - name: 18 Haziran 2019
+                  href: whats-new-talent-june-18-2019.md
+                - name: 11 Haziran 2019
+                  href: whats-new-talent-june-11-2019.md
+                - name: 4 Haziran 2019
+                  href: whats-new-talent-june-4-2019.md
                 - name: 28 Mayıs 2019
                   href: whats-new-talent-may-28-2019.md
                 - name: 21 Mayıs 2019
@@ -427,6 +435,8 @@
           href: corehr-custom-fields.md
     - name: Talent'ta sorun giderme
       items:
+        - name: Otomatik temizleme görevleriyle performansı optimize etme
+          href: talent-batch-history-cleanup.md
         - name: LinkedIn'de iş yayınlama sorunlarını giderme
           href: attract-troubleshoot-linkedin.md
         - name: Analitik raporlar güncelleştirilmedi

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c9cd9197f395b69f65137a59392a4d83d692f6fa
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6939ed56944ecafb29c1cadd2744b5746b19cb46
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572139"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023376"
 ---
 # <a name="info-codes-and-info-code-groups"></a>Bilgi kodları ve bilgi kodu grupları
 
@@ -42,7 +42,7 @@ Bilgi kodları, satış noktası (POS) kasasındaki verileri yakalamanın bir yo
 
 ## <a name="info-codes-group"></a>Bilgi kodları grubu
 
-Dynamics 365 for Retail içinde bilgi kodu grupları oluşturabilirsiniz. Bilgi kodları grupları, daha az bilgi kodu tanımlamanızı ve bunları çok yönlü şekilde kullanmanızı sağlayan esneklik kazandırır. Bilgi kodu gruplarını aşağıdaki yollarla kullanabilirsiniz:
+Retail'de bilgi kodu grupları oluşturabilirsiniz. Bilgi kodları grupları, daha az bilgi kodu tanımlamanızı ve bunları çok yönlü şekilde kullanmanızı sağlayan esneklik kazandırır. Bilgi kodu gruplarını aşağıdaki yollarla kullanabilirsiniz:
 
 - Daha az bilgi kodu tanımlamak ve bunları kolayca yeniden kullanmak. Bilgi kodu gruplarına dahil edilen bilgi kodlarının diğer bilgi kodlarında önceden tanımlanmış bir bağımlılığı yoktur. Aynı bilgi kodlarını birden çok bilgi kodu grubuna ekleyebilir ve sonra aynı bilgi kodlarını belirli bir duruma uygun sırada sunmak için öncelik belirlemeyi kullanabilirsiniz.
 - Her senaryo için bağlantılı bilgi kodu veya ayrı bilgi kodu tanımlamanız gerekmeden bir ürün veya hareket hakkında bilgi toplamak için bilgi kodlarını diğer bilgi kodlarına veya bilgi kodu gruplarına bağlayın.

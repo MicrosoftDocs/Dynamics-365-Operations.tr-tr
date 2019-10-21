@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be4dbadaeac747953af44236156453edc596fcd5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556088"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018124"
 ---
 # <a name="backflush-costing"></a>Geriye dönük maliyetlendirme
 
@@ -61,11 +61,11 @@ Maliyetlendirme tablosu, şirket için maliyet yapısını modeller ve maliyeti 
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Üretim akışına dayanan hesaplama
 
-Microsoft Dynamics 365 for Finance and Operations için Yalın imalat, yollardan bağımsızdır. Bir üretim akışından tedarik edilen ürünler için maliyet hesaplaması, üretim akışını temel alabilir. Hesaplamanın yapılabilmesinden önce, ürünü üretim akışından tedarik eden bir kanban kuralı oluşturulmalıdır. Ürün, üretim tarihinde aynı tesisteki birden fazla üretim akşından tedarik edilebiliyorsa, ürün reçetesi hesaplaması için üretim akışını seçebilirsiniz. **Varsayılan üretim akışı** sayfası üzerinde bir varsayılan üretimi akışını her bir madde için yapılandırabilirsiniz. Aynı ürün için aynı üretim akşında, aynı hesaplama tarihinde etkin birden fazla kanban kuralı mevcutsa, hesaplama, hesaplama için etkin ilk kanban kuralını seçer.
+Dynamics 365 Supply Chain Management için Yalın imalat, yollardan bağımsızdır. Bir üretim akışından tedarik edilen ürünler için maliyet hesaplaması, üretim akışını temel alabilir. Hesaplamanın yapılabilmesinden önce, ürünü üretim akışından tedarik eden bir kanban kuralı oluşturulmalıdır. Ürün, üretim tarihinde aynı tesisteki birden fazla üretim akşından tedarik edilebiliyorsa, ürün reçetesi hesaplaması için üretim akışını seçebilirsiniz. **Varsayılan üretim akışı** sayfası üzerinde bir varsayılan üretimi akışını her bir madde için yapılandırabilirsiniz. Aynı ürün için aynı üretim akşında, aynı hesaplama tarihinde etkin birden fazla kanban kuralı mevcutsa, hesaplama, hesaplama için etkin ilk kanban kuralını seçer.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Rotayı temel alan hesaplama
 
-Rotayı temel alan hesaplama, üretim akışını temel alan hesaplama kadar geçerlidir. Ancak, rotayı temel alan hesaplama, Yalın imalat işlevi için maliyetlendirmeyi kullanmaz. Rota, kaynak grupları için kaynak gereksinimlerini kullanmalıdır. Sistematik farkları önlemek için aynı iş hücrelerini veya en azından aynı maliyet kategorilerini kullanmalıdır. Kurulum ve miktar içi maliyet kategorilerinden yine kaçınmalısınız. Bunlar maliyeti, Yalın imalat maliyet geriye dönük hesaplamasına göre daha ayrıntılı bir dökümle hesaplamazlar. Maliyeti hesaplamak için hangi seçeneği (üretim akışı veya rotası) kullanmanız gerektiğini belirlemek için, maliyet dökümünün sonuçlarını göz önünde bulundurun. Gerçeğe daha çok yaklaşan ve genel olarak daha az fark üreten sürüm daha iyi bir seçenektir. Bir ürünün, tek bir üretim akışı ve tek bir kanban kuralı tarafından sağlandığı bir Yalın imalat ortamında, üretim akışına dayanan bir hesaplamanın daha doğru olması muhtemeldir. Yalın imalat ve üretim siparişleri tarafından aynı tesiste tedarik edilebilir veya aynı akış içerisinde birden fazla üretim akışı veya birden fazla kanban kuralına sahip bir ürün için bir hesaplama, üretim için değil de maliyet hesaplaması için özel olarak inşa edilmiş bir rota sürümüne dayanan bir hesaplama daha doğru olabilir. Üretim akışı hesaplaması, alt sözleşme içeren ürünleri hesaplarken kullanılmalıdır. Microsoft Dynamics 365 for Finance and Operations içerisinde, üretim siparişleri ve Yalıt imalat içerisinde alt sözleşme için maliyet modelleri, iki farklı yaklaşımı kullanır. Yalın üretim yeni bir maliyet grubu türü olan **Doğrudan alt sözleşme verme**'yi, alt sözleşmeli hizmetleri hesaplamak için kullanır.
+Rotayı temel alan hesaplama, üretim akışını temel alan hesaplama kadar geçerlidir. Ancak, rotayı temel alan hesaplama, Yalın imalat işlevi için maliyetlendirmeyi kullanmaz. Rota, kaynak grupları için kaynak gereksinimlerini kullanmalıdır. Sistematik farkları önlemek için aynı iş hücrelerini veya en azından aynı maliyet kategorilerini kullanmalıdır. Kurulum ve miktar içi maliyet kategorilerinden yine kaçınmalısınız. Bunlar maliyeti, Yalın imalat maliyet geriye dönük hesaplamasına göre daha ayrıntılı bir dökümle hesaplamazlar. Maliyeti hesaplamak için hangi seçeneği (üretim akışı veya rotası) kullanmanız gerektiğini belirlemek için, maliyet dökümünün sonuçlarını göz önünde bulundurun. Gerçeğe daha çok yaklaşan ve genel olarak daha az fark üreten sürüm daha iyi bir seçenektir. Bir ürünün, tek bir üretim akışı ve tek bir kanban kuralı tarafından sağlandığı bir Yalın imalat ortamında, üretim akışına dayanan bir hesaplamanın daha doğru olması muhtemeldir. Yalın imalat ve üretim siparişleri tarafından aynı tesiste tedarik edilebilir veya aynı akış içerisinde birden fazla üretim akışı veya birden fazla kanban kuralına sahip bir ürün için bir hesaplama, üretim için değil de maliyet hesaplaması için özel olarak inşa edilmiş bir rota sürümüne dayanan bir hesaplama daha doğru olabilir. Üretim akışı hesaplaması, alt sözleşme içeren ürünleri hesaplarken kullanılmalıdır. Üretim emirleri ve Yalın imalat içerisinde alt sözleşme için maliyet modelleri, iki farklı yaklaşımı kullanır. Yalın üretim yeni bir maliyet grubu türü olan **Doğrudan alt sözleşme verme**'yi, alt sözleşmeli hizmetleri hesaplamak için kullanır.
 
 ## <a name="material-consumption"></a>Malzeme tüketimi
 Bir malzeme stoktan, süren işe tüketildiğinde, malzemenin maliyeti süren işe, bir maliyet grubu için geçerli standart maliyetinden eklenir. Bu işlem, aşağıdaki koşullarda gerçekleşir:
@@ -82,7 +82,7 @@ Bir malzeme stoktan, süren işe tüketildiğinde, malzemenin maliyeti süren i�
 Üretim akışından alınan ürünler, süren işten çıkartılır.
 
 ## <a name="products-in-wip"></a>Süren işteki ürünler
-Microsoft Dynamics 365 for Finance and Operations içerisindeki Yalın imalatın süren iş modeli, süren işin parçası olan malzemeyi, yarı bitmiş ürünleri ve bitmiş ürünleri yönetmeniz için kanban işleme birimi durumlarını kullanmanıza olanak sağlar.
+Yalın imalatın süren iş modeli, süren işin parçası olan malzemeyi, yarı bitmiş ürünleri ve bitmiş ürünleri yönetmeniz için kanban işleme birimi durumlarını kullanmanıza olanak sağlar.
 
 -   **Atanan** - Kanban, süren iş içerisinde muhasebesi tutulan tüketilen malzemeye sahip olabilir.
 -   **Alınan** - Kanban, **Girişte stoku güncelleştir** seçeneği **Hayır** olarak ayarlanmış son etkinliği gösteriyorsa, bir stoka kayıtlı olmayan bir ürünün veya yarı bitmiş ürünün tam işleme birimini temsil eder.

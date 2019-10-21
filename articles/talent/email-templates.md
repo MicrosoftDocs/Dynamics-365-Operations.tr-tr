@@ -1,6 +1,6 @@
 ---
 title: E-posta şablonları
-description: Bu konu, oluşturabileceğiniz ve Dynamics 365 for Talent - Attract'ta kullanabileceğiniz e-posta şablonları hakkında bilgi sağlar.
+description: Bu konu, oluşturabileceğiniz ve Microsoft Dynamics 365 Talent - Attract'ta kullanabileceğiniz e-posta şablonları hakkında bilgi sağlar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/19/2018
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729738"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008048"
 ---
 # <a name="email-templates"></a>E-posta şablonları
 [!include[banner](../includes/banner.md)]
 
-E-posta şablonu kitaplığı kullanarak, yöneticiler Microsoft Dynamics 365 for Talent: Attract and Offer aracılığıyla gönderilen tek tip bir tema ve tüm e-postaları için markalama oluşturabilir. Yöneticiler, diğer kullanıcıların yararlanacağı e-posta içerik şablonları koleksiyonu oluşturabilir. İşe alma ekibi, e-postaları etkili bir şekilde göndermek için bu şablonları iş akışında kullanabilir. Bazı e-postalar otomatik olarak gönderilmesi yapılandırılmış ve yönetici e-posta şablonu kitaplığını kullanarak bu e-postaların içeriğini özelleştirebilir.
+E-posta şablonu kitaplığı kullanarak, yöneticiler Microsoft Dynamics 365 Talent: Attract ve Offer aracılığıyla gönderilen tek tip bir tema ve tüm e-postaları için markalama oluşturabilir. Yöneticiler, diğer kullanıcıların yararlanacağı e-posta içerik şablonları koleksiyonu oluşturabilir. İşe alma ekibi, e-postaları etkili bir şekilde göndermek için bu şablonları iş akışında kullanabilir. Bazı e-postalar otomatik olarak gönderilmesi yapılandırılmış ve yönetici e-posta şablonu kitaplığını kullanarak bu e-postaların içeriğini özelleştirebilir.
 
 > [!NOTE]
 > E-posta şablonları kullanmak için kuruluşunuzun işe alma kapsamlı eklentisinin olması gerekir.

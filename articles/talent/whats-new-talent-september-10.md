@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (10 Eylül 2018)
-description: Bu konuda, Microsoft Dynamics 365 for Talent Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (10 Eylül 2018)
+description: Bu konuda, Microsoft Dynamics 365 Talent - Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/12/2018
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 6682e4d013f006696b45e644b7b4861b34faa9bf
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59cb0203422b7d81b5ca0077370fd9cbdb4a7f89
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519327"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010097"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Dynamics 365 for Talent Core HR'deki yenilikler veya değişiklikler (10 Eylül 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-10-2018"></a>Dynamics 365 Talent: Core HR'daki yenilikler veya değişiklikler (10 Eylül 2018)
 
 [!include [banner](includes/banner.md)]
 
 **Derleme 8.1.138.0**
 
-Bu konuda, Microsoft Dynamics 365 for Talent Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 Talent: Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="allow-specific-time-of-day-on-time-off-requests-half-days"></a>İzin isteklerinde günün belirli zamanına izin verme (yarım günler)
 

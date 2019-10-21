@@ -1,6 +1,6 @@
 ---
 title: Retail Modern POS (MPOS) ile Cloud POS arasında seçim yapma
-description: Bu konu, Retail Modern POS ile Cloud POS arasındaki ana farkları açıklar. Ayrıca, Microsoft Dynamics 365 for Retail uygulayan perakendecilerin gereksinimlerine en uygun seçimi yapmak için dikkate almaları gereken çeşitli faktörleri de açıklar.
+description: Bu konu, Retail Modern POS ile Cloud POS arasındaki ana farkları açıklar. Ayrıca, kendi gereksinimlerine en uygun seçimi yapmalarına yardımcı olmak için Dynamics 365 Retail'ı uygulayan perakendecilerin dikkate almaları gereken çeşitli faktörler de açıklanmaktadır.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69cf6d2b7a9bb09a848f2a0c870f5e7e59c61e91
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557026"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025921"
 ---
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) ile Cloud POS arasında seçim yapma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu uygulamacılara, Microsoft Dynamics 365 for Retail dağıtırken dikkate almaları gereken faktörlerle ilgili ek bilgiler, ipuçları ve kılavuzlar sağlar. Dağıtım sürecinin bir parçası olarak bu kılavuzu gözden geçiren ve izleyen uygulamacılar kullanıcı memnuniyetini veya performansı etkileyebilecek sorunları önleyebilir.
+Bu konu uygulamacılara, Dynamics 365 Retail dağıtırken dikkate almaları gereken faktörlerle ilgili ek bilgiler, ipuçları ve kılavuzlar sağlar. Dağıtım sürecinin bir parçası olarak bu kılavuzu gözden geçiren ve izleyen uygulamacılar kullanıcı memnuniyetini veya performansı etkileyebilecek sorunları önleyebilir.
 
 ## <a name="insights"></a>İçgörüler
 
@@ -59,7 +59,7 @@ MPOS ve CPOS büyük ölçüde aynı olmakla birlikte, anlamanız gereken bazı 
 
 Windows, iOS veya Android cihazdaki MPOS bu cihazda paketlenen, yüklenen ve hizmet veren bir uygulamadır.
 
-- **Windows** – Windows için MPOS uygulaması tüm uygulama kodunu ve katıştırılmış ticaret çalışma süresini (CRT) içerir. 
+- **Windows** – Windows için MPOS uygulaması, uygulama kodunun tamamını ve katıştırılmış Commerce Runtime'ı (CRT) içerir. 
 - **iOS/Android** – Bu platformlarda, uygulama CPOS uygulama kodu için bir barındırıcı olarak çalışır. Başka bir deyişle, uygulama kodu Microsoft Azure üzerindeki CPOS sunucusundan veya Retail Store Scale Unit (RSSU) üzerinden geliyor. Daha fazla bilgi için bkz. [Retail Store Scale Unit genel bakışı](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
@@ -78,11 +78,11 @@ Platform ve form faktörünün yanı sıra, perakendecilerin mağazada bir dağ�
 
 #### <a name="retail-server"></a>Perakende sunucusu
 
-Retail sunucusu CRT'yi barındıran bir bileşendir. CRT POS'un kullandığı tüm iş mantığını içerir ve kanal veritabanına erişim sağlar. Çevrimiçi olduklarında mağazadaki tüm POS istemcileri Retail sunucusunu kullanır.  Retail sunucusu bulutta veya mağazada (RSSU) dağıtılabilir.
+Retail sunucusu, CRT'yi barındıran bir bileşendir. CRT, POS'un kullandığı tüm iş mantığını içerir ve kanal veritabanına erişim sunar. Çevrimiçi olduklarında mağazadaki tüm POS istemcileri Retail sunucusunu kullanır.  Retail sunucusu bulutta veya mağazada (RSSU) dağıtılabilir.
 
 #### <a name="offline-mode"></a>Çevrimdışı mod
 
-Windows için MPOS çevrimdışı modu destekler. Çevrimdışı modda, POS Retail sunucusu bağlantısı kesilmiş olsa bile satış işlemine devam edebilir. Bağlantı yeniden kurulduğunda kanal veritabanıyla eşitlenebilir. MPOS kendi katıştırılmış CRT kurulumunu kullanır ve kendi yerel veri kaynağını (çevrimdışı SQL Server veritabanı) geçici olarak kullanır. Çevrimdışı işlev hakkında daha fazla bilgi için bkz. [POS çevrimdışı işlevi](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality).
+Windows için MPOS çevrimdışı modu destekler. Çevrimdışı modda, POS Retail sunucusu bağlantısı kesilmiş olsa bile satış işlemine devam edebilir. Bağlantı yeniden kurulduğunda kanal veritabanıyla eşitlenebilir. MPOS, kendi katıştırılmış CRT kurulumunu kullanır ve kendi yerel veri kaynağını (çevrimdışı SQL Server veritabanı) geçici olarak kullanır. Çevrimdışı işlev hakkında daha fazla bilgi için bkz. [POS çevrimdışı işlevi](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality).
 
 ### <a name="pos-peripheralhardware-considerations"></a>POS çevre birimi/donanımı hakkında önemli noktalar
 

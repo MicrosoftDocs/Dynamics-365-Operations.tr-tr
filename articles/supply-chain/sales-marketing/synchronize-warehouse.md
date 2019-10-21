@@ -1,6 +1,6 @@
 ---
-title: Finance and Operations'tan Field Service'a ambarları eşitleme
-description: Bu konu ambarları Microsoft Dynamics 365 for Finance and Operations üzerinden Microsoft Dynamics 365 for Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+title: Ambarları Supply Chain Management'tan Field Service'e eşitleme
+description: Bu konu ambarları Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,41 +19,41 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ae99624076eecda2969961d0361d1adf42c6c5f3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 94fb6720152cbf6aec58d2b8d9d02fc5343c05e2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835682"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251190"
 ---
-# <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Ambarları Finance and Operations'dan Field Service'a eşitleme
+# <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Ambarları Supply Chain Management'tan Field Service'e eşitleme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu ambarları Microsoft Dynamics 365 for Finance and Operations üzerinden Microsoft Dynamics 365 for Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+Bu konu ambarları Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 
-[![Finance and Operations ile Field Service arasında iş süreçlerini eşitleme](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
+[![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
-Aşağıdaki şablon ve görevler, Microsoft Dynamics 365 for Finance and Operations üzerinden Microsoft Dynamics 365 for Field Service üzerine ambarların eşitlenmesinde kullanılır.
+Aşağıdaki şablon ve temel görevler, ambarların Supply Chain Management'tan Field Service'e eşitlemesini çalıştırmak için kullanılır.
 
 **Veri Tümleştirmesindeki Şablon**
-- Ambarlar (Fin and Ops'tan Field Service'a)
+- Ambarlar (Supply Chain Management'tan Field Service'e)
 
 **Veri tümleştirme projesindeki görev**
 - Ambar
 
 ## <a name="entity-set"></a>Varlık kümesi
-| Field Service    | Finance and Operations                 |
+| Field Service    | Supply Chain Management                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | Ambarlar                             |
 
 ## <a name="entity-flow"></a>Varlık akışı
-Finance and Operations'taki oluşturulan ve korunan ambarlar Field Service'a br Common Data Service (CDS) Veri tümleştirme projesi aracılığıyla Finance and Operations ile eşitlenebilir. Field Service'a eşitlemek istediğiniz ambarlar, proje üzerinde Gelişmiş sorgu ve filtreleme ile kontrol edilebilirler. Finance and Operations'tan eşitlenen ambarlar, **Harici olarak korunuyor** alanının **Evet** olarak ayarlandığı ve kaydın salt okunur olduğu şekilde Field Service için oluşturulur.
+Supply Chain Management'ta oluşturulan ve korunan ambarlar Field Service'e bir Common Data Service (CDS) Veri tümleştirme projesi aracılığıyla eşitlenebilir. Field Service'a eşitlemek istediğiniz ambarlar, proje üzerinde Gelişmiş sorgu ve filtreleme ile kontrol edilebilirler. Supply Chain Management'tan eşitlenen ambarlar, **Harici olarak korunuyor** alanının **Evet** olarak ayarlandığı ve kaydın salt okunur olduğu şekilde Field Service'te oluşturulur.
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM çözümü
-Field Service ile Finance and Operations arasında tümleştirmeyi desteklemek için, Field Service CRM çözümündeki ek işlev gereklidir. Çözümde, **Harici Korunuyor** alanı, **Ambar (msdyn_warehouses)** varlığına eklendi. Bu alan, ambarın Finance and Operations'tan mı yönetildiğini yoksa yalnızca Field Service'ta mı mevcut olduğunu tanımlamaya yardımcı olur. Bu alan için ayarlara şunlar dahildir:
-- **Evet** – Ambar, Finance and Operations'tan gelir ve Sales'ta düzenlenebilir olmaz.
+Field Service ile Finance and Operations arasında tümleştirmeyi desteklemek için, Field Service CRM çözümündeki ek işlev gereklidir. Çözümde, **Harici Korunuyor** alanı, **Ambar (msdyn_warehouses)** varlığına eklendi. Bu alan, ambarın Supply Chain Management'tan mı yönetildiğini yoksa yalnızca Field Service'te mi varolduğunu belirlemeye yardımcı olur. Bu alan için ayarlara şunlar dahildir:
+- **Evet** – Ambar, Supply Chain Management kaynaklıdır ve Sales'te düzenlenemez.
 - **Hayır** – Ambar, doğrudan Field Service'a girildi ve burada tutuluyor.
 
 **Harici Korunuyor** alanı, iş emirlerindeki stok düzeylerinin, ayarlamaların, aktarmaların ve kullanımın eşitlemesini kontrol etmeye yardımcı olur. Yalnızca **Harici Korunan ambarlar**, **Evet** olarak ayarlanır, diğer sistemdeki aynı ambara doğrudan eşitlemek için kullanılabilir. 
@@ -63,7 +63,7 @@ Field Service ile Finance and Operations arasında tümleştirmeyi desteklemek i
 
 ## <a name="prerequisites-and-mapping-setup"></a>Önkoşullar ve eşleme kurulumu
 ### <a name="data-integration-project"></a>Veri Tümleştirme projesi
-Ambarların eşitlenmesinden önce, Gelişmiş sorgu ve filtrelemenin proje üzerinde yalnızca Finance and Operations'tan Field Service'a getirdiğiniz ambarları dahil ettiğinden emin olun. İş emirleri, ayarlamalar ve aktarmalarda uygulayabilmek için ambara Field Service'ta ihtiyacınız olacağını unutmayın.  
+Ambarların eşitlenmesinden önce, Gelişmiş sorgu ve filtrelemenin proje üzerinde yalnızca Supply Chain Management'tan Field Service'e getirdiğiniz ambarları dahil ettiğinden emin olun. İş emirleri, ayarlamalar ve aktarmalarda uygulayabilmek için ambara Field Service'ta ihtiyacınız olacağını unutmayın.  
 
 **msdyn_warehouses** için **Tümleştirme anahtarı** bulunduğundan emin olmak için:
 1. Veri Tümleştirme'ye gidin.
@@ -76,6 +76,6 @@ Ambarların eşitlenmesinden önce, Gelişmiş sorgu ve filtrelemenin proje üze
 
 Aşağıdaki görsel, Veri tümleştirmede şablon eşlemeyi gösterir.
 
-### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>Ambarlar (Fin and Ops'tan Field Service'a): Ambar
+### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Ambarlar (Supply Chain Management'tan Field Service'e): Ambar
 
 [![Veri tümleştirmede şablon eşleme](./media/Warehouse1.png)](./media/Warehouse1.png)

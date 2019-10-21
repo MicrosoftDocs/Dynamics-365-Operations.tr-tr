@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'taki yenilikler veya değişiklikler (31 Temmuz 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (31 Temmuz 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 7/30/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1fffe1bd8739723294c027c174d5e959c1c6010a
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864591"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010257"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-30-2019"></a>Dynamics 365 for Talent'taki yenilikler veya değişiklikler (30 Temmuz 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (30 Temmuz 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+Bu konuda, Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
-Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
-Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2409 için geçerlidir.
@@ -43,7 +43,7 @@ Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2409 için geçer
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Kanada ve Güney Doğu Asya için bölge desteği
 
-1 Ağustos 2019 tarihinde Microsoft Dynamics 365 for Talent için Kanada ve Güneydoğu Asya bölgelerinin kullanılabileceğini duyurmaktan mutluyuz. Bu değişiklikle, Kanada ve Asya bölgelerinde ortam oluşturabilirsiniz ve tüm Talent verileri yalnızca bu konumlarda tutulur. Yeni Ortam iletişim kutusunda yer alan yeni bölgelerde bir ortam oluşturabilirsiniz ve bu ortamı, [Talent Sağlama](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent)'da açıklandığı gibi LCS'de Talent sağlamak için kullanabilirsiniz.
+1 Ağustos 2019 tarihinde Talent için Kanada ve Güneydoğu Asya bölgelerinin kullanılabileceğini duyurmaktan mutluyuz. Bu değişiklikle, Kanada ve Asya bölgelerinde ortam oluşturabilirsiniz ve tüm Talent verileri yalnızca bu konumlarda tutulur. Yeni Ortam iletişim kutusunda yer alan yeni bölgelerde bir ortam oluşturabilirsiniz ve bu ortamı, [Talent Sağlama](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent)'da açıklandığı gibi LCS'de Talent sağlamak için kullanabilirsiniz.
 
 Varolan projelerin diğer bölgelerden Kanada ve Asya bölgelerine veri taşınması desteklenmez. Yalnızca yeni projeler, bu yeni desteklenen bölgeler için sağlanabilir.
 

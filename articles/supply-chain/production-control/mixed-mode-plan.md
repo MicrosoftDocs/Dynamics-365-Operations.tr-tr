@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e6a896b2a073e189b956ef189f63908f08606ed
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9186d69e86798a5bd6541432518e407eff5700cc
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543434"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250061"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Karışık mod planlama - Ayrık, işlem ve yalın kaynak birleştirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, karma mod planlama hakkında bilgi sağlar. Karma mod planlamada, tedarik zincirinizi, madde akışı tabanlı olarak modelleyebilirsiniz. Microsoft Dynamics 365 for Finance and Operations, madde akışının modellerinizi takip ettiğinden emin olur, seçili olan tedarik ilkesi ne olursa olsun (kanbanlar, üretim emirleri, satınalma emirleri, toplu siparişler veya transfer emirleri). 
+Bu konu, karma mod planlama hakkında bilgi sağlar. Karma mod planlamada, tedarik zincirinizi, madde akışı tabanlı olarak modelleyebilirsiniz. Dynamics 365 Supply Chain Management, madde akışının modellerinizi takip ettiğinden emin olur, seçili olan tedarik ilkesi ne olursa olsun (kanbanlar, üretim emirleri, satınalma emirleri, toplu siparişler veya transfer emirleri). 
 
 Bir ürün sağlamak için, ürün yapısı ne olursa olsun, genel strateji seçebilirsiniz.  
 
@@ -39,7 +39,7 @@ Bir ürün sağlamak için, ürün yapısı ne olursa olsun, genel strateji seç
 Master planlamada kullanılan tedarik ilkelerinin parçalı yapısı kapsamı boyutları olarak etkin depolama boyutlarına bağlıdır. Stok yenilemeyi ve konumları farklı türde tedariği (örneğin, üretim kat için farklı üretim birimleri ayırarak veya malzeme ve mamuller Ambarlar farklı türde ayırarak) kontrol etmek için Master çizelgeleme etkinleştirmek için kapsam boyutları olarak tesis ve ambar etkinleştirmenizi öneririz. Alternatif olarak, bir Karşılama boyutu olara ambar atlanabilir. Bu durumda, Gelişmiş ambar yönetimi kullandığınızda, ambarlar arasında tüm taşımalar mevzuatı çekme kanbanları tarafından kontrol edilebilirken bir ambarın içindeki tüm taşımalar ambar çalışma tarafından denetlenir.
 
 ## <a name="supply-policies"></a>Malzeme ilkeleri
-Finance and Operations karma mod planlama bir ürününün nasıl sağlandığını ve tedariği temel alarak türetilmiş gereksinimlerin (ürün reçetesinden \[BOM\] maddelerin tüketimi) nasıl çıkarıldığını denetler. Sipariş türüne bağlı olarak, sistem otomatik olarak gereksinimlerine göre malzeme kaynaklandırır.  
+Karma mod planlama, bir ürününün nasıl sağlandığını ve tedariği temel alarak türetilmiş gereksinimlerin (ürün reçetesinden \[BOM\] maddelerin tüketimi) nasıl çıkarıldığını denetler. Sipariş türüne bağlı olarak, sistem otomatik olarak gereksinimlerine göre malzeme kaynaklandırır.  
 
 Tedarik ilkeleri ürün düzeyinde veya gereksinimlerinizi destekleyen herhangi bir ayrıntı düzeyinde tanımlanabilir. Parçalı yapı tedarik ilkelerini **varsayılan sipariş ayarları** sayfasında tanımlarsınız.  
 
@@ -47,9 +47,9 @@ Tedarik ilkeleri, ürün, Ürün boyutları (yapılandırma, renk ve boyut), sit
 
 Varsayılan sipariş tipi, master planlamanın hangi sırayla oluştuğunu denetler.  
 
-Tedarik zincirinin nasıl modellendiğinden bağımsız olarak, Finance and Operations tedarik ilkeleri karışımınızı destekler. Kanbanlardan kaynaklanan üretim emirleri olabilir. Alternatif olarak, aktarımlar veya kanbanlar tarafından sağlanan bir ürün gerektiren bir toplu iş emri olabilir.  
+Tedarik zincirinin nasıl modellendiğinden bağımsız olarak Supply Chain Management, tedarik ilkeleri karışımınızı destekler. Kanbanlardan kaynaklanan üretim emirleri olabilir. Alternatif olarak, aktarımlar veya kanbanlar tarafından sağlanan bir ürün gerektiren bir toplu iş emri olabilir.  
 
-Finance and Operations malzeme akışının modeli izlediğinden emin olur.  
+Supply Chain Management, malzeme akışının modeli izlemesini sağlar.  
 
 Malzeme çekme için ambar tedarik İlkesi tanımlandıktan sonra çalışma zamanında dinamik olarak atanır.  
 
@@ -62,7 +62,7 @@ Kaynak tüketimi önemli bir işlevdir. Kaynak tüketimi (sipariş türü) tedar
 
 Kaynak tüketimi gelen malzemelerin çekildiği ambarın ürünün tedarik şekline göre atanmasını gerektirir. Diğer bir deyişle, çalışma zamanında sistem üretim için kullanılması gereken kaynaklar bulur. Bu kaynaklara bağlı olarak, sistem sonra malzeme çekme ambarı bulur.  
 
-Bir tedarik ilkesinden bağımsız çalışma için, tedarik değişirse ürün reçetesindeki bilgileri değiştirmeniz gerekmez. Geçici değişiklikler için Finance and Operations malzemelerin doğru ambardan alınmasını sağlar.
+Bir tedarik ilkesinden bağımsız çalışma için, tedarik değişirse ürün reçetesindeki bilgileri değiştirmeniz gerekmez. Supply Chain Management, geçici değişiklikler için malzemelerin doğru ambardan alınmasını sağlar.
 
 ## <a name="process-manufacturing--the-production-type"></a>İşlem üretimi - Üretim türü
 Karma modda tam esneklik sağlamak için tüm ürünler için üretim tipi ürün reçetelerini kullanmanızı öneririz. Daha sonra ürün tedarik etmek için üretim emirleri, kanban, transfer emirleri veya satınalma siparişleri kullanabilirsiniz. İşlem üretim için **formül**, **ortak ürün**, **yan ürün**, veya **planlama madde** üretim türü kullanmanız gerekir. Kanbanlar ve üretim siparişleri bu üretim türleri için kullanılamaz.

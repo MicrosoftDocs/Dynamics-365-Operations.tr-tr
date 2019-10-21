@@ -1,6 +1,6 @@
 ---
-title: İçeriği Dynamics 365 for Talent - Onboard'da diğer katkıda bulunanlarla paylaşın
-description: Bu konular, Microsoft Dynamics 365 for Talent - Onboard uygulamasındaki diğer katkıda bulunanlarla işe alım kılavuzları ve şablonlarının nasıl paylaşılabildiğini açıklar.
+title: İçeriği Dynamics 365 Talent - Onboard'da diğer katkıda bulunanlarla paylaşma
+description: Bu konularda Microsoft Dynamics 365 Talent - Onboard uygulamasındaki diğer katkıda bulunanlarla işe alım ve alıştırma kılavuz ve şablonlarının nasıl paylaşılabildiği açıklanmaktadır.
 author: andreabichsel
 manager: ''
 ms.date: 05/20/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8524f9ec502bed829522ab90c7c7976c2814a1b6
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: d07879ff31127788ebfee5bc8b42442a26987651
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731673"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010764"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-for-talent-onboard"></a>İçeriği Dynamics 365 for Talent: Onboard'da diğer katkıda bulunanlarla paylaşın
+# <a name="share-content-with-other-contributors"></a>İçeriği diğer katkıda bulunanlarla paylaşın
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard, belgeleri gözden geçirebilmeleri ve değişiklik yapabilmeleri için yerleşik kılavuzları ve şablonları diğer katkıda bulunanlarla paylaşmanızı sağlar.
+Microsoft Dynamics 365 Talent: Onboard - Onboard, belgeleri gözden geçirebilmeleri ve değişiklik yapabilmeleri için işe alım ve alıştırma kılavuz ve şablonları diğer katkıda bulunanlarla paylaşmanızı sağlar.
 
 ## <a name="share-an-onboarding-guide-with-other-contributors"></a>İşe alım kılavuzunu diğer katkıda bulunanlarla paylaşın
 

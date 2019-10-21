@@ -1,6 +1,6 @@
 ---
 title: Perakende kanallarını tanımla ve koru
-description: Bu konu, Microsoft Dynamics 365 for Retail'da perakende mağazaları olarak adlandırılan geleneksel mağazaları ayarlama işlemine genel bakış verilmektedir. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır.
+description: Bu konu, Dynamics 365 Retail'da perakende mağazaları olarak adlandırılan geleneksel mağazaları ayarlama işlemine genel bakış verilmektedir. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır.
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560361"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019382"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Perakende kanallarını tanımla ve koru
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Retail'da perakende mağazaları olarak adlandırılan geleneksel mağazaları ayarlama işlemine genel bakış verilmektedir. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır.
+Bu konu, Dynamics 365 Retail'da perakende mağazaları olarak adlandırılan geleneksel mağazaları ayarlama işlemine genel bakış verilmektedir. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır.
 
-Dynamics 365 for Retail, çevrimiçi mağazalar, çağrı merkezleri ve fiziki mağazalar gibi birden fazla perakende kanalını destekler. Bir tuğla dibek mağazaya perakende mağaza adı verilir. Her perakende mağazasının kendi ödeme türleri, fiyat grupları, satış noktası (POS) kasaları, gelir hesapları ve gider hesapları ve personeli olabilir. Bir perakende mağazası oluşturmadan önce tüm bu öğeleri ayarlamanız gerekir. Perakende mağaza oluşturduktan sonra gerçekleştirmek istediğiniz ürünleri atarsınız. Ayrıca mağazaya çalışanlar, kasalar ve müşteriler atarsınız. Son olarak, yeni mağazayı bir organizasyon hiyerarşisine eklersiniz.
+Retail çevrimiçi mağazalar, çağrı merkezleri ve fiziki mağazalar gibi birden fazla perakende kanalını destekler. Bir tuğla dibek mağazaya perakende mağaza adı verilir. Her perakende mağazasının kendi ödeme türleri, fiyat grupları, satış noktası (POS) kasaları, gelir hesapları ve gider hesapları ve personeli olabilir. Bir perakende mağazası oluşturmadan önce tüm bu öğeleri ayarlamanız gerekir. Perakende mağaza oluşturduktan sonra gerçekleştirmek istediğiniz ürünleri atarsınız. Ayrıca mağazaya çalışanlar, kasalar ve müşteriler atarsınız. Son olarak, yeni mağazayı bir organizasyon hiyerarşisine eklersiniz.
 
 ## <a name="setting-up-retail-stores"></a>Perakende mağazaları kurma
 
-Dynamics 365 for Retail'te bir perakende mağaza kurmadan önce bazı önkoşul görevleri tamamlamanız gerekir. Sonrasında perakende mağazayı oluşturabilir ve ayrıntılar ekleyebilirsiniz.
+Retail'de bir perakende mağaza kurmadan önce bazı önkoşul görevlerini tamamlamanız gerekir. Sonrasında perakende mağazayı oluşturabilir ve ayrıntılar ekleyebilirsiniz.
 
 ### <a name="prerequisites"></a>Önkoşullar
 
@@ -55,7 +55,7 @@ Bir perakende mağaza kurmadan önce aşağıdaki görevleri tamamlamanız gerek
 11. Personeli ayarlayın.
 
     > [!NOTE]
-    > Dynamics 365 for Retail for Retail POS kullanarak görevleri yürütebilmeleri için, çalışanlara uygun izinleri de atamanız gerekir.
+    > Retail POS sistemini kullanarak görevleri yürütebilmeleri için, çalışanlara uygun izinleri de atamanız gerekir.
 
 12. Mağazaya atamak için Perakende POS profillerini yapılandırın. Bu görev kayıtları ayarlamak, çevrimdışı profilleri ayarlamak ve makbuz biçimleri ve profilleri ayarlamak gibi birçok diğer görevi içerir.
 

@@ -1,6 +1,6 @@
 ---
 title: Talent ortamlarını kaldırma
-description: Bu konuda, Dynamics 365 for Talent için bir test sürüşü kaldırma yeni bir üretim ortam işlemi adım adım anlatılmaktadır.
+description: Bu konuda, Dynamics 365 Talent için bir test sürüşü kaldırma yeni bir üretim ortam işlemi adım adım anlatılmaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/20/2017
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 904c8eb1254a65e1627c33f14488a1a8e12f7c2b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519311"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010627"
 ---
 # <a name="remove-talent-environments"></a>Talent ortamlarını kaldırma
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Dynamics 365 for Talent için bir test sürüşü kaldırma yeni bir üretim ortam işlemi adım adım anlatılmaktadır.
+Bu konuda, Dynamics 365 Talent için bir test sürüşü kaldırma yeni bir üretim ortam işlemi adım adım anlatılmaktadır.
 
 ## <a name="removing-a-test-drive-environment"></a>Bir test ortamını kaldırma
 
 Talent test ortamları 60 günlük süre sonu ilkesi ile sunulur. Ancak, test ortamları sahipleri aşağıdaki adımları uygulayarak denemelerini daha erken sonlandırabilir. 
 
-1. [PowerApps Yönetim merkezi](https://admin.businessplatform.microsoft.com/)'ne gidin.
+1. [PowerApps Yönetim Merkezi](https://admin.businessplatform.microsoft.com/)'ne gidin.
 2. **Ortamlar**'ı seçin.
 3. Test ortamını seçin. Test ortamı adı şuna benzer bir düzene sahiptir: TestDrive - alias@domain
 4. **Sil**'i seçin ve kararı onaylayın. 
@@ -45,14 +45,14 @@ Varolan test ortamı kaldırılır. Kaldırıldığında, yeni bir test ortamı 
 
 Bu konuda, Talent'ı bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla aldığınız varsayılır. 
 
-Tek bir Talent ortamı tek bir PowerApps ortamı içinde "yer aldığından", dikkate alınması gereken iki seçenek vardır. İlk seçenek tüm PowerApps ortamını kaldırmayı içerir; ikinci seçenek yalnızca Talent'ı kaldırmayı içerir. İlk seçenek, PowerApps ortamını özellikle Talent sağlamak için oluşturmuş, uygulamaya henüz başlamış veya herhangi bir tümleştirme yapmamış olmanız durumunda tercih edilir. İkinci seçenek, PowerApps ve Flows'dan alınan zengin verilerle doldurulan bir PowerApps ortamınız olması durumunda uygundur.
+Tek bir Talent ortamı tek bir PowerApps ortamı içinde "yer aldığından", dikkate alınması gereken iki seçenek vardır. İlk seçenek tüm PowerApps ortamını kaldırmayı, ikinci seçenek yalnızca Talent'ı kaldırmayı içerir. İlk seçenek, PowerApps ortamını özellikle Talent sağlamak için oluşturmuş, uygulamaya henüz başlamış veya herhangi bir tümleştirme yapmamış olmanız durumunda tercih edilir. İkinci seçenek, PowerApps ve Flows'dan alınan zengin verilerle doldurulan bir PowerApps ortamınız olması durumunda uygundur.
 
 > [!Important]
 > PowerApps ortamını kaldırmadan önce, Talent kapsamı dışındaki zengin veri tümleştirmeleri için kullanılmadığından emin olun. Varsayılan PowerApps ortamlarının da kaldırılamayacağını unutmayın. 
 
 Talent ve ilişkili Uygulamalar ve Akışlar dahil tüm PowerApps ortamını kaldırmak için:
 
-1. [PowerApps Yönetim merkezi](https://admin.businessplatform.microsoft.com/)'ne gidin.
+1. [PowerApps Yönetim Merkezi](https://admin.businessplatform.microsoft.com/)'ne gidin.
 2. **Ortamlar**'ı seçin.
 3. Kaldırılacak ortamı seçin.
 4. **Sil**'i seçin ve kararı onaylayın. 

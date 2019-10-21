@@ -1,6 +1,6 @@
 ---
 title: Alt sözleşme
-description: Bu konu, Microsoft Dynamics 365 for Finance and Operations içinde üretimde taşeron kullanımın için bir inceleme rehberi yapmanıza olanak sağlar.
+description: Bu konu, Dynamics 365 Supply Chain Management içinde üretimde taşeron kullanımın için bir inceleme rehberi yapmanıza olanak sağlar.
 author: christophernread
 manager: AnnBe
 ms.date: 09/28/2018
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55b516f928eadea9b7ddbb1192db79f3ab7fa204
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d1d7adf91c246ecad574043cbb60ca260bb328
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568409"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249934"
 ---
 # <a name="subcontracting"></a>Alt sözleşme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Finance and Operations içinde üretimde taşeron kullanımın için bir inceleme rehberi yapmanıza olanak sağlar. Bu konunun ilk bölümü veri kurulumunu açıklar. İkinci bölüm, gözden geçirme adımlarını anlatır.
+Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta üretimde alt sözleşme için bir kılavuz yapmanıza yardımcı olur. Bu konunun ilk bölümü veri kurulumunu açıklar. İkinci bölüm, gözden geçirme adımlarını anlatır.
 
 ## <a name="target-audience"></a>Hedef kitle
 

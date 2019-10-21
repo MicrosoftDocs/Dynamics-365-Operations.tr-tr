@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent - Onboard'e hoş geldiniz
-description: Bu konu sizi Microsoft Dynamics 365 for Talent - Onboard uygulamasıyla tanıştırır. Onboard, yeni çalışanlarınız için inanılmaz bir işe alım deneyimi oluşturmanıza yardımcı olacaktır.
+title: Dynamics 365 Talent - Onboard'a hoş geldiniz
+description: Bu konu sizi Microsoft Dynamics 365 Talent - Onboard uygulamasıyla tanıştırır. Onboard, yeni çalışanlarınız için inanılmaz bir işe alım deneyimi oluşturmanıza yardımcı olacaktır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/24/2019
@@ -18,13 +18,13 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-04-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e58b1b73c84c2ec5650d8af92a13f4ed51664f95
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: d91fbb0454855de614427321fe49f858ef3c65fb
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731676"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010510"
 ---
-# <a name="welcome-to-dynamics-365-for-talent-onboard"></a>Dynamics 365 for Talent: Onboard'a hoş geldiniz
+# <a name="welcome-to-dynamics-365-talent-onboard"></a>Dynamics 365 Talent: Onboard'a hoş geldiniz
 
 [!include[banner](../includes/banner.md)]

@@ -17,18 +17,19 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f96c79558c3248406a1b5988f9c9dc9783db4406
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 099c1d97db97659d55070b1058f3e0b5b44df107
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564375"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024741"
 ---
 # <a name="manage-assortments-november-2016"></a>Ürün çeşitlerini yönetme (Kasım 2016)
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandığını gösterir ve tanıtım verisi şirketi USRT'yi kullanır. Bu yordam Dynamics AX uygulaması 7.0.1 veya sonraki bir sürümü ve Dynamics AX platformu 7.1'i gerektirir.  
+Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandığını gösterir ve tanıtım verisi şirketi USRT'yi kullanır. 
+
 
 1. Kategori ve ürün yönetimine tıklayın.
 

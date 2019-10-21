@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10c8b548f2e295bf344459370ab6eecd577a0efb
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 5d55dfe26cd298372701aeb98a6aafc49977f381
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866005"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248643"
 ---
 # <a name="sales-and-marketing-overview"></a>Satış ve pazarlamaya genel bakış
 
@@ -41,7 +41,7 @@ Satış ve pazarlamada potansiyel müşterilerle yaptığınız ilk etkileşimle
 
 ### <a name="campaigns"></a>Kampanyalar
 
-Kampanya, aday müşterilerin ilgili kişilerini, müşteri adaylarını, iş fırsatlarını ve kampanyaya katılmak için seçilmiş müşterileri hedefler. Microsoft Dynamics 365 for Finance and Operations uygulamasında, müşteri potansiyelini en üst düzeye çıkarmak için telefonla pazarlama, postalama ve e-posta kampanyaları gibi çeşitli kampanya türleri oluşturabilirsiniz. Kampanyanız ilerledikçe ve olumlu yanıtlar aldıkça kampanyaya olumlu yanıt veren alıcılarla satış sürecine başlayabilirsiniz.
+Kampanya, aday müşterilerin ilgili kişilerini, müşteri adaylarını, iş fırsatlarını ve kampanyaya katılmak için seçilmiş müşterileri hedefler. Supply Chain Management'ta müşteri potansiyelini en üst düzeye çıkarmak için telefonla pazarlama, postalama ve e-posta kampanyaları gibi çeşitli kampanya türleri oluşturabilirsiniz. Kampanyanız ilerledikçe ve olumlu yanıtlar aldıkça kampanyaya olumlu yanıt veren alıcılarla satış sürecine başlayabilirsiniz.
 
 ## <a name="sales"></a>Satış
 Teklifler oluşturmak, yeni ve mevcut müşterilere dikey ve çapraz satış yapmak, satış siparişleri oluşturmak ve müşteriler için satış faturaları oluşturmak için satış işlevlerini kullanın. Aşağıdaki süreç akışı, satış için iş sürecini gösterir. [![Satış için iş süreci](./media/sales01.jpg)](./media/sales01.jpg)

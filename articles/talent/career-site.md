@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Talent - Attract'ta kariyer sitenizi ayarlama
-description: Bu konu, Microsoft Dynamics 365 for Talent - Attract içinde adaya yönelik site işlevi hakkında genel bakış sağlar.
+title: Microsoft Dynamics 365 Talent - Attract'ta kariyer sitenizi ayarlama
+description: Bu konu, Microsoft Dynamics 365 Talent - Attract içinde adaya yönelik site işlevi hakkında genel bakış sağlar.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739783"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026291"
 ---
 # <a name="set-up-your-career-site"></a>Kariyer sitenizi ayarlama
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Talent: Attract içinde adaya yönelik site işlevi hakkında genel bakış sağlar. Bu makale bu işlevselliği ayarlamayı açıklar.
+Bu konu, Microsoft Dynamics 365 Talent: Attract içinde adaya yönelik site işlevi hakkında genel bakış sağlar. Bu makale bu işlevselliği ayarlamayı açıklar.
 
 Attract, kariyer sitesini bir kiracıdaki her bir ortamda sağlar. Örneğin, bir kuruluşta bir geliştirme ortamı ve test ortamı varsa, geliştirme ortamı için bir mesleki site ve test ortamı için başka bir site sağlanır. Mesleki her site tamamen ayrılmış ve kendi kimlik doğrulama mekanizması vardır. İşler ve aday profilleri mesleki siteler arasında paylaşılmaz.
 
@@ -62,7 +62,7 @@ Aşağıdaki liste, sık kullanılan kariyer sitesi URL'leri ve bunlara nasıl e
 
 -   **Kariyer sitesi giriş sayfası URL'si** - Kariyeri sitesi giriş sayfası URL'sini görüntülemek için, Attract'e bir yönetici olarak oturum açın, **Ayarlar** menüsünde **Yönetici merkezi**'ni seçin ve sonra **Kariyer sitesi yönetimi** sekmesini seçin.
 
--   **Bireysel iş ilanı başvuru URL'si** - Siz ilk defa [bir harici iş ilanı verdiğinizde](Creating-jobs-Attract.md#postings), Attract uygulamasından **Uygula** bağlantısını kopyalayabilirsiniz. Bu bağlantı için URL aşağıdaki biçimde olacaktır: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **Bireysel iş ilanı başvuru URL'si** - İlk defa [bir harici iş ilanı verdiğinizde](Creating-jobs-Attract.md#postings), Attract'tan **Başvur** bağlantısını kopyalayabilirsiniz. Bu bağlantı için URL aşağıdaki biçimde olacaktır: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **Bireysel iş ilanı URL'si** - İş ilanının URL'si, Başvur URL'sinin bir alt dizesidir. İş numarasına kadar her şeyden oluşur. Bu nedenle, öncedeki Başvur URL'si için iş ilanı URL'si [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e) olur
 

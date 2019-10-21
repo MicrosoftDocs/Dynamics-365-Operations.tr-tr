@@ -1,6 +1,6 @@
 ---
-title: Hesapları doğrudan Sales'tan Finance and Operations'taki müşterilerle eşitleme
-description: Bu konu hesapları, Microsoft Dynamics 365 for Sales üzerinden Microsoft Dynamics 365 for Finance and Operations üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+title: Sales'deki hesapları doğrudan Supply Chain Management'daki müşterilerle eşitleme
+description: Bu konu, hesapları Dynamics 365 Sales'den Supply Chain Management'a eşitlemek için altta yatan görevleri ve şablonları açıklar.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,25 +19,25 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 036389a1a52fdf15b73ab90c0a37108871a1a15e
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4624f7e31c6dca616ff4ee824453b8971c1865e7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743360"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249900"
 ---
-# <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
+# <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Sales'deki hesapları doğrudan Supply Chain Management'daki müşterilerle eşitleme
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Aday'dan nakde çözümünü kullanmadan önce [Common Data Service for Apps için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
 
-Bu konu hesapları, doğrudan Microsoft Dynamics 365 for Sales üzerinden Microsoft Dynamics 365 for Finance and Operations üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
+Bu konu, hesapları doğrudan Dynamics 365 Sales'den Dynamics 365 Supply Chain Management'a eşitlemek için altta yatan görevleri ve şablonları açıklar.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 
-Aday müşteriden nakde çözümü Finance and Operations ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır.  Veri Tümleştirme özelliği içindeki Aday müşteriden nakde şablonları, hesaplar, ilgili kişiler, ürünler ve satış teklifleri, satış siparişleri ve satış faturalarının Finance and Operations ve Sales arasında veri akışını etkinleştirir. Finance and Operations ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
+Aday müşteriden nakde çözümü Supply Chain Management ve Sales örnekleri arasında verileri eşitlemek için Veri tümleştirme özelliğini kullanır.  Veri Tümleştirme özelliği içindeki Aday müşteriden nakde şablonları, hesaplar, ilgili kişiler, ürünler ve satış teklifleri, satış siparişleri ve satış faturalarının Supply Chain Management ve Sales arasında veri akışını etkinleştirir. Supply Chain Management ve Sales arasında verilerin nasıl eşitleneceği aşağıda gösterilmektedir.
 
 [![Aday müşteriden nakde çözümünde veri akışı](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -45,7 +45,7 @@ Aday müşteriden nakde çözümü Finance and Operations ve Sales örnekleri ar
 
 Kullanılabilir şablonlara erişmek için [PowerApps Yönetim Merkezi](https://preview.admin.powerapps.com/dataintegration)'ni açın. **Projeler**'i seçin ve ardından genel şablonları seçmek için sağ üst köşeden **Yeni proje**'yi seçin.
 
-Aşağıdaki şablon ve altta yatan görev, hesapları Sales'tan Finance to Operations'a eşitlemekte kullanılır:
+Aşağıdaki şablon ve altta yatan görev, hesapları Sales'tan Supply Chain Management'a eşitlemekte kullanılır:
 
 - **Veri tümleştirmedeki şablonun adı:** Hesaplar (Sales'tan Fin and Ops'a) - Doğrudan
 - **Projedeki görevin adı:** Hesaplar - Müşteriler
@@ -54,13 +54,13 @@ Hesap/Müşteri eşitlemesinin gerçekleşmesi için eşitleme görevleri gerekl
 
 ## <a name="entity-set"></a>Varlık kümesi
 
-| Satış    | Finance and Operations |
+| Satışlar    | Supply Chain Management |
 |----------|------------------------|
 | Hesaplar | Müşteriler V2           |
 
 ## <a name="entity-flow"></a>Varlık akışı
 
-Hesaplar Sales'ta yönetilir ve Finance and Operations'a müşteriler olarak eşitlenir. Bu müşterilerdeki **Harici Olarak Tutulur** özelliği Sales'tan gelen müşterileri izlemek için **Evet** olarak ayarlanır. Faturalama sırasında, bu bilgi Sales'a eşitlenen faturaları filtrelemekte kullanılır.
+Hesaplar Sales'ta yönetilir ve Supply Chain Management'a müşteriler olarak eşitlenir. Bu müşterilerdeki **Harici Olarak Tutulur** özelliği Sales'tan gelen müşterileri izlemek için **Evet** olarak ayarlanır. Faturalama sırasında, bu bilgi Sales'a eşitlenen faturaları filtrelemekte kullanılır.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Sales için Aday müşteriden nakde çözümü
 
@@ -72,21 +72,21 @@ Sales için tümleştirme çözümü uygulandığında, bir güncelleştirme kod
 
 ## <a name="preconditions-and-mapping-setup"></a>Önkoşullar ve eşleme kurulumu
 
-- **CustomerGroupId** eşlemesi Finance and Operations içinde geçerli bir değer bulmak için güncelleştirilmelidir. Bir varsayılan değer belirtebilir veya değeri, bir değer haritası kullanarak ayarlayabilirsiniz.
+- **CustomerGroupId** eşlemesi Supply Chain Management içinde geçerli bir değer bulmak için güncelleştirilmelidir. Bir varsayılan değer belirtebilir veya değeri, bir değer haritası kullanarak ayarlayabilirsiniz.
 
     Varsayılan şablon değeri **10**'dur.
 
-- Aşağıdaki eşleşmeleri ekleyerek, Finance and Operations'da gereken el ile güncelleştirmelerin sayısını azaltmaya yardımcı olabilirsiniz. Bir varsayılan değeri veya değer eşlemesini, örneğin **Ülke/Bölge** veya **Şehir**'den kullanabilirsiniz.
+- Aşağıdaki eşleşmeleri ekleyerek, Supply Chain Management'da gereken el ile güncelleştirmelerin sayısını azaltmaya yardımcı olabilirsiniz. Bir varsayılan değeri veya değer eşlemesini, örneğin **Ülke/Bölge** veya **Şehir**'den kullanabilirsiniz.
 
-    - **SiteId** - Finance and Operations'ta teklifler ve satış siparişi satırlarını oluşturmak için bir site gereklidir. Bir varsayılan site, sipariş başlığında üründen veya müşteriden alınabilir.
+    - **SiteId** - Supply Chain Management'ta teklifler ve satış siparişi satırlarını oluşturmak için bir site gereklidir. Bir varsayılan site, sipariş başlığında üründen veya müşteriden alınabilir.
 
         Varsayılan şablon değeri **1**'dur.
 
-    - **WarehouseId** - Finance and Operations'ta teklifleri ve satış siparişi satırlarını işlemek için bir ambar gereklidir. Bir varsayılan ambar, Finance and Operations'ta sipariş başlığında üründen veya müşteriden alınabilir.
+    - **WarehouseId** - Supply Chain Management'ta teklifleri ve satış siparişi satırlarını işlemek için bir ambar gereklidir. Bir varsayılan ambar, Supply Chain Management'ta sipariş başlığında üründen veya müşteriden alınabilir.
 
         Varsayılan şablon değeri **13**'dur.
 
-    - **LanguageId** – Finance and Operations'ta teklifler ve satış siparişleri oluşturmak için bir dil gereklidir. Varsayılan olarak, müşterinin sipariş başlığındaki dil kullanılır.
+    - **LanguageId** - Supply Chain Management'ta teklifler ve satış siparişlerini oluşturmak için bir dil gereklidir. Varsayılan olarak, müşterinin sipariş başlığındaki dil kullanılır.
 
         Varsayılan şablon değeri **tr-tr**'dir.
 
@@ -98,20 +98,20 @@ Sales için tümleştirme çözümü uygulandığında, bir güncelleştirme kod
 Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gösterir. 
 
 > [!NOTE]
-> Eşleme hangi alan bilgilerinin Sales'den Finance and Operations'a eşitleneceğini gösterir.
+> Eşleme hangi alan bilgilerinin Sales'den Supply Chain Management'a eşitleneceğini gösterir.
 
 ![Veri tümleştirmede şablon eşleme](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>İlgili konular
 
 
-[Müşteri adayından nakde](prospect-to-cash.md)
+[Aday müşteriden nakde](prospect-to-cash.md)
 
-[Hesapları doğrudan Sales'tan Finance and Operations'taki müşterilerle eşitleme](accounts-template-mapping-direct.md)
+[Sales'deki hesapları doğrudan Supply Chain Management'daki müşterilerle eşitleme](accounts-template-mapping-direct.md)
 
-[Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](contacts-template-mapping-direct.md)
+[Sales'teki ilgili kişileri doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme](contacts-template-mapping-direct.md)
 
-[Finance and Operations'daki satış siparişi başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-order-template-mapping-direct-two-ways.md)
+[Supply Chain Management'daki satış siparişi başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-order-template-mapping-direct-two-ways.md)
 
-[Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-invoice-template-mapping-direct.md)
+[Supply Chain Management'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-invoice-template-mapping-direct.md)
 

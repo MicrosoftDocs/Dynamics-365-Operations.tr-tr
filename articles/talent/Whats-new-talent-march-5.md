@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Talent'daki yenilikler veya değişiklikler (5 Mart 2019)
-description: Bu konuda, Microsoft Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
+title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (5 Mart 2019)
+description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: c7ee8f4cf14197d6bd4549741058fc5fe95ae55d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741902"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026682"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Dynamics 365 for Talent'daki yenilikler veya değişiklikler (5 Mart 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (5 Mart 2019)
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Talent'daki yeni veya değişen özellikler açıklanmaktadır
+Bu konuda, Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 
@@ -71,12 +71,12 @@ Bu değişiklikle, mevcut konumlara bir değişiklik talebi yapılırsa, bordro 
 Bu sürüm ile diğer küçük hata gidermeleri vardır.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'a yükseltin
-Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezine oturum açarak veritabanınızın yükseltilmeye ihtiyacı olup olmadığını görün. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezi'nde oturum açarak veritabanınızın yükseltilmeye gereksinimi olup olmadığını belirleyin. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Çok yakında
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Gelişmiş ücret güvenliği (sabit ve değişken)
 Pek çok kuruluşta, ücret ve kazanç yöneticileri yalnızca belirli ücret kayıtlarına erişebilirler; örneğin yöneticiler için kayıtlar veya yerel tabanlı personeller gibi. Bu değişiklik ile yönetimini değiştirebilir ve ücret planlarını kuruluş içindeki farklı personel popülasyonları için korur. Sabit ve değişken planlar, güvenlik rollerine atanabilir, bunlar planlara ve planlarla ilişkili personel verisine erişimi belirler, örneğin maaş veya ikramiye kayıtları gibi. Yalnızca belirli erişime sahip roller bu çalışanlar için ücreti işleyebilirler.
 
-###  <a name="platform-update-24"></a>Platform güncelleştirmesi 24
-Platform güncelleştirmesi 24 hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'te (Mart 2019) neler yeni veya değişti](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+###  <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 24
+Finance and Operations için Platform güncelleştirmesi 24 hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'teki yenilikler veya değişiklikler (Mart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

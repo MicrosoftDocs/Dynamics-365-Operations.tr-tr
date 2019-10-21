@@ -1,6 +1,6 @@
 ---
 title: Yerleşim profili oluşturma
-description: Bu konu Dynamics 365 for Finance and Operations'ta yerleşim profili oluşturma işlemi açıklanmaktadır.
+description: Bu konu Dynamics 365 Supply Chain Management'ta yerleşim profili oluşturma işlemi açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 07/29/2019
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46aa1001c21ae39c158062444303ca02c0f41a45
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 36bad7424ac247b8fd9a819928837de619e9e258
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866991"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026797"
 ---
 # <a name="create-a-location-profile"></a>Yerleşim profili oluşturma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu konu Dynamics 365 for Finance and Operations'ta yerleşim profili oluşturma işlemi açıklanmaktadır. Ambardaki her konumun, örneğin karma maddelere izin verip vermediği gibi özelliklerini açıklayan, kendisiyle ilişkili bir konum profiline sahip olması gerekir. Bu yordamda, plaka kontrolü gerektirmeyen bir konum için bir profil oluşturacağız. Karışık maddeleri ve karışık stok durumlarını etkinleştirecek ve döngü sayımına izin vereceğiz. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.
+Bu konu Dynamics 365 Supply Chain Management'ta yerleşim profili oluşturma işlemi açıklanmaktadır. Ambardaki her konumun, örneğin karma maddelere izin verip vermediği gibi özelliklerini açıklayan, kendisiyle ilişkili bir konum profiline sahip olması gerekir. Bu yordamda, plaka kontrolü gerektirmeyen bir konum için bir profil oluşturacağız. Karışık maddeleri ve karışık stok durumlarını etkinleştirecek ve döngü sayımına izin vereceğiz. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.
 
 
 1. Gezinti bölmesinde **Modüller > Ambar yönetimi > Kurulum > Ambar > Yerleşim profilleri**'ne gidin.

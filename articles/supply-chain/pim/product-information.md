@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f4e378bc0a72e05f940ae352ad0f1c0709d9d3a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563540"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249483"
 ---
 # <a name="product-information-overview"></a>Ürün bilgilerine genel bakış
 
@@ -57,17 +57,17 @@ Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar. Ürün bilgileri 
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Ürün verilerini dağıtma, dışa aktarma ve içe aktarma
 
-Ürün tanım Microsoft Dynamics 365 for Finance and Operations içinde oluşturulabilir. Ayrıca ürün yaşam döngüsü yönetimi (PLM), ürün veri yönetimi (PDM) veya ürün bilgi yönetimi (PIM) sistemlerinden de alınabilir. Birden fazla Finance and Operations kurulumu kullanıldığında, bir kurulum diğer tüm kurulumlar için tipik olarak ürün verileri aslı olarak kullanılır. Bu yaklaşım, bir kurulumdan diğerine ürün tanımı bilgilerini aktarmaya olanak tanıyan geniş bir veri varlıkları kümesi tarafından desteklenir.
+Ürün tanımı Supply Chain Management'ta oluşturulabilir. Ayrıca ürün yaşam döngüsü yönetimi (PLM), ürün veri yönetimi (PDM) veya ürün bilgi yönetimi (PIM) sistemlerinden de alınabilir. Birden fazla Supply Chain Management kurulumu kullanıldığında bir kurulum, diğer tüm kurulumlar için tipik olarak ürün verilerinin aslı olarak kullanılır. Bu yaklaşım, bir kurulumdan diğerine ürün tanımı bilgilerini aktarmaya olanak tanıyan geniş bir veri varlıkları kümesi tarafından desteklenir.
 
-Ürün verilerinin birden çok kuruluma dağıtılmasını desteklemek amacıyla Finance and Operations Common Data Service kullanmanıza olanak tanır. Ürün tanımları bir Finance and Operations kurulumundan Common Data Service'a aktarılabilir. Ürün tanımları daha sonra ürün verileriyle Microsoft Dynamics 365 for Sales gibi diğer iş uygulamalarını sağlamak için kullanılabilir.
+Ürün verilerinin birden çok kuruluma dağıtılmasını desteklemek için Supply Chain Management Common Data Service'ı kullanmanıza olanak tanır. Ürün tanımları, bir Supply Chain Management kurulumundan Common Data Service'a aktarılabilir. Ürün tanımları, daha sonra ürün verileriyle Dynamics 365 Sales gibi diğer iş uygulamalarını sağlamak için kullanılabilir.
 
 Dinamik ve çevik kuruluşlarda ürün bilgileri verilerinin her gün değiştiğini unutmayın. Bu nedenle, verilerin doğru ve gerçek ürün verilerinin korunması kendi başına önemli bir iş sürecidir.
 
 ## <a name="product-masters-and-product-variants"></a>Ana ürünler ve ürün çeşitleri
 
-Ürünlerin müşteri gereksinimlerine hızlı şekilde uyarlandığı çevik bir dünyada, ürün tanımları farklı ürünler yerine ürün kümelerini belirtir. Microsoft Dynamics 365 for Finance and Operations içinde bu genel ürünler *ana ürünler* olarak bilinir. Ana ürünler, farklı ürünlerin iş süreçlerinde nasıl açıklanacağını ve davranacağını belirten tanımı ve kuralları tutar. Bu tanımlara bağlı olarak, farklı ürünler oluşturulabilir. Bu farklı ürünler *ürün çeşitleri* olarak da bilinir.
+Ürünlerin müşteri gereksinimlerine hızlı şekilde uyarlandığı çevik bir dünyada, ürün tanımları farklı ürünler yerine ürün kümelerini belirtir. Supply Chain Management'ta bu genel ürünler *ana ürünler* olarak bilinir. Ana ürünler, farklı ürünlerin iş süreçlerinde nasıl açıklanacağını ve davranacağını belirten tanımı ve kuralları tutar. Bu tanımlara bağlı olarak, farklı ürünler oluşturulabilir. Bu farklı ürünler *ürün çeşitleri* olarak da bilinir.
 
-Finance and Operations'da, bir ana ürün ürün boyut grubu ve iş kurallarını belirtmek için bir konfigürasyon teknolojisi ile ilişkilidir. Ürün boyutları (Renk, Boyut, Stil ve Konfigürasyon) ilgili ürünlerin belirli davranışlarını tanımlamak ve izlemek için uygulama genelinde kullanılabilen belirli bir öznitelikler kümesidir. Bu boyutlar kullanıcıların ürünleri aramasına ve tanımlamasına da yardımcı olur.
+Bir ana ürün, iş kurallarını belirlemek için bir ürün boyutu grubu ve yapılandırma teknolojisi ile ilişkilendirilir. Ürün boyutları (Renk, Boyut, Stil ve Konfigürasyon) ilgili ürünlerin belirli davranışlarını tanımlamak ve izlemek için uygulama genelinde kullanılabilen belirli bir öznitelikler kümesidir. Bu boyutlar kullanıcıların ürünleri aramasına ve tanımlamasına da yardımcı olur.
 
 ## <a name="configuration-technologies"></a>Yapılandırma teknolojileri
 
@@ -77,7 +77,7 @@ Finance and Operations'da, bir ana ürün ürün boyut grubu ve iş kuralların�
 - Boyut tabanlı yapılandırma genellikle üretim senaryolarında kullanılır ve ürün reçetelerinin (BOM) tanımında Yapılandırma boyutu kullanmanıza olanak tanır. Belirli bir yapılandırma seçildikten sonra sistem planlama ve üretim açısından bu yapılandırma için geçerli olan ürün reçetesi satırlarının alt kümesini kullanır. Bu kavram *genel ürün reçetesi* olarak da bilinir, çünkü bir ürünün tüm yapılandırmaları için paylaşılan bir ürün reçetesi kullanılır.
 - Kısıtlama tabanlı yapılandırma, bir ürünün tüm olası çeşitlerini tek bir modelde açıklamak için gerekli olan tüm olası öznitelikleri ve bileşenleri açıklamak üzere bir ütün yapılandırma modeli kullanır. Öznitelik kombinasyonlarının kısıtlamaları, normal ifadelerle veya tablo tabanlı kısıtlamalarla açıklanabilir. Yapılandırma modelleri ve yapılandırıcılar ürün bilgileri yönetiminde daha önemli hale gelir ve tüm sektörler üzerinde kullanılır.
 
-Finance and Operations uygulamasını planlarken, iş süreci için doğru yapılandırma teknolojisini seçmeniz çok önemlidir. Bir ürün uygulamadan sonra bir modelden başka bir modele dönüştürülemez.
+Supply Chain Management'ın uygulanmasını planlarken iş süreci için doğru yapılandırma teknolojisini seçmeniz çok önemlidir. Bir ürün uygulamadan sonra bir modelden başka bir modele dönüştürülemez.
 
 ## <a name="product-variant-model-definition-workspace"></a>Ürün çeşidi model tanımı çalışma alanı
 

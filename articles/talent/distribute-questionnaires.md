@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c9392263e8c113c541b64e8e79853520a13d11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519264"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026268"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Soru formlarını dağıtma ve zamanlama
 
@@ -83,7 +83,7 @@ Bir naket planlaması için planlama türlerini **Anket planlamaları** sayfası
 
 Bir anket planlarken seçebileceğiniz yanıtlayanlar için ölçütleri girmek için referans türlerini kullanabilirsiniz. 
 
-**Referans türleri** sayfasını kullanarak bir anket için referans türleri ayarlayın. Her referans türü Microsoft Dynamics 365 for Finance and Operations'ta bir tabloya karşılık gelir. Anket planlamaları oluşturduğunuzda, anketin ilişkilendirileceği bir dizi kayıt veya tek tek kayıtları belirtebilirsiniz. 
+**Referans türleri** sayfasını kullanarak bir anket için referans türleri ayarlayın. Her referans türü Microsoft Dynamics 365 Finance'ta bir tabloya karşılık gelir. Anket planlamaları oluşturduğunuzda, anketin ilişkilendirileceği bir dizi kayıt veya tek tek kayıtları belirtebilirsiniz. 
 
 Örneğin, kurslar tablo seçerseniz, anketin hangi özel kurs için olacağına karar verebilirsiniz. Kurslar tablosu için bir referans belirlerken, **Kurslar** sayfasındaki bazı alanlar ve düğmeler kullanılabilir hale gelir.
 

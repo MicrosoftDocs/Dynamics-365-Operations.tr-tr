@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Retail için destek alma
-description: Bu makale, Microsoft Dynamics 365 for Retail hakkında yardım almayı açıklar.
+title: Dynamics 365 Retail için destek alma
+description: Bu makale, Microsoft Dynamics 365 Retail hakkında yardım almayı açıklamaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 225b39bb03fa3bbd0b3c3a24e4eb09a114d01904
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577856"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025018"
 ---
-# <a name="get-support-for-dynamics-365-for-retail"></a>Dynamics 365 for Retail için destek alma
+# <a name="get-support-for-dynamics-365-retail"></a>Dynamics 365 Retail için destek alma
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, Dynamics 365 for Retail hakkında yardım almayı açıklar.
+Bu makale, Dynamics 365 Retail hakkında yardım almayı açıklar.
 
 ## <a name="contact-support"></a>Destek ekibiyle bağlantı kurun
 
@@ -48,7 +48,7 @@ Retail için destek almak için aşağıdaki tablodaki kaynakları kullanın. Bu
 <tbody>
 <tr>
 <td>Topluluğa sorun.</td>
-<td><a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> topluluğu sayfasına giderek sorularınıza Dynamics topluluğuyla yanıt bulun.</td>
+<td><a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a> topluluğu sayfasına giderek sorularınıza Dynamics topluluğuyla yanıt bulun.</td>
 </tr>
 <tr>
 <td>Konu arama aracını kullanın.</td>
@@ -74,7 +74,7 @@ Retail için destek almak için aşağıdaki tablodaki kaynakları kullanın. Bu
 CustomerSource, e-öğrenme, Arama, Bilgi Bankası, dosya indirme ve sayfa veya sistem hataları oturumu açmak ve erişim sağlamak ile ilişkili teknik sorular için <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Website Desteği</a>'ne gidin.</td>
 </tr>
 <tr>
-<td>Retail veya Finance and Operations lisanslama hakkında sorular ile yardım alın.</td>
+<td>Lisanslama ile ilgili sorularınız için yardım alın.</td>
 <td>Ortağınızla, büyük müşteri bayinizle (LAR) veya Microsoft satış temsilcinizle iletişime geçin.</td>
 </tr>
 <tr>

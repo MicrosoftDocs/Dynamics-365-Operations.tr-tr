@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546237"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250618"
 ---
 # <a name="product-identifiers"></a>Ürün tanımlayıcıları 
 
@@ -36,13 +36,13 @@ Microsoft Dynamics ERP veya Microsoft Dynamics CRM'de atölyedeki veya ambardaki
 
 ## <a name="unique-product-numberproduct-id"></a>Benzersiz ürün numarası/ürün kodu
 
-Microsoft Dynamics 365 for Finance and Operations içinde, bir ürün için birincil kimlik tanımlayıcı, ürün numarasıdır (yani, benzersiz ürün Kimliğidir). Bu numara bir numara serisi tarafından otomatik olarak oluşturulabilir veya bir ürünle el ile ilişkilendirilebilir. Ürün çeşitleri için, numaralar ürün terminolojisi şablonu aracılığıyla tanımlanabilir.
+Dynamics 365 Supply Chain Management içinde, bir ürün için birincil kimlik tanımlayıcı, ürün numarasıdır (yani, benzersiz ürün Kimliğidir). Bu numara bir numara serisi tarafından otomatik olarak oluşturulabilir veya bir ürünle el ile ilişkilendirilebilir. Ürün çeşitleri için, numaralar ürün terminolojisi şablonu aracılığıyla tanımlanabilir.
 
-Çoğu durumda, ürün numarası en başta Finance and Operations'ta oluşturulmaz. Bunun yerine, bir ürün yaşam döngüsü yönetimi (PLM) sistemi veya ürün veri yönetimi (PDM) sistemindeki bir ürünle ilişkilendirilir. Bu durumda, ürünleri ve ürün çeşitlerini içe aktarmak için veri varlıklarını kullanırsınız. Finance and Operations numaraları tüm işlemlerde kullanır.
+Çoğu durumda ürün numarası, en başta Dynamics 365 Supply Chain Management'ta oluşturulmaz. Bunun yerine, bir ürün yaşam döngüsü yönetimi (PLM) sistemi veya ürün veri yönetimi (PDM) sistemindeki bir ürünle ilişkilendirilir. Bu durumda, ürünleri ve ürün çeşitlerini içe aktarmak için veri varlıklarını kullanırsınız. Supply Chain Management, daha sonra tüm işlemlerdeki numaraları kullanır.
 
-Finance and Operations'ı uyguladığınızda, ürün numaralarıyla ilgili stratejinize özel bir önem vermeniz gerekir. İyi bir numaralandırma sistemi lojistik akışları geliştirir ve hataları engellemeye yardımcı olur. İyi bir ürün tanımlayıcısı en çok 15 karakter uzunluğundadır. İdeal olarak, 10 karakterden daha kısa olur ve en fazla beş sınıflandırma karakteri içerir. Ayrıca, hızlı aramalar sağlamak için arama adlarını da kullanabilirsiniz. Bir arama adı bir ürünün sınıflandırmalarını temsil eden ek bir addır.
+Supply Chain Management'ı uyguladığınızda ürün numaralarıyla ilgili stratejinize özel önem vermeniz gerekir. İyi bir numaralandırma sistemi lojistik akışları geliştirir ve hataları engellemeye yardımcı olur. İyi bir ürün tanımlayıcısı en çok 15 karakter uzunluğundadır. İdeal olarak, 10 karakterden daha kısa olur ve en fazla beş sınıflandırma karakteri içerir. Ayrıca, hızlı aramalar sağlamak için arama adlarını da kullanabilirsiniz. Bir arama adı bir ürünün sınıflandırmalarını temsil eden ek bir addır.
 
-Common Data Service (CDS) kullandığınızda, Finance and Operations'taki ürün numarası aynı zamanda CDS'deki ürün numarasıdır. Ürün çeşitleri CDS ile ayrı ürünler olarak eşitlenir.
+Ayrıca Common Data Service kullanılırken Supply Chain Management'taki ürün numarası, Common Data Service'taki ürün numarasıdır. Ürün çeşitleri, Common Data Service ile ayrı ürünler olarak eşitlenir.
 
 ## <a name="item-number-and-product-dimensions"></a>Madde numarası ve ürün boyutları
 
@@ -56,19 +56,19 @@ Ayrıca, ürün numarasını, ürün adını ve açıklamasını ve ürün çeş
 
 ## <a name="product-name-and-description"></a>Ürün adı ve açıklaması
 
-Ürün adı ve açıklaması, bir ürünün insanlar tarafından okunan tanımlayıcılarıdır ve birçok dilde olabilir. Varsayılan olarak, Finance and Operations istemcisi tüm ürün bilgilerini kullanıcının dilinde değil şirketin varsayılan dilinde gösterir. Ancak, çevrilmiş ürün adları ve açıklamaları müşteriler ve satıcılarla yapılan tüm iletişimlerde kullanılır. Çeviriler müşteri ve satıcı hesaplarının dil kodunu temel alır.
+Ürün adı ve açıklaması, bir ürünün insanlar tarafından okunan tanımlayıcılarıdır ve birçok dilde olabilir. Varsayılan olarak Supply Chain Management istemcisi, tüm ürün bilgilerini kullanıcının dilinde değil, şirketin varsayılan dilinde gösterir. Ancak, çevrilmiş ürün adları ve açıklamaları müşteriler ve satıcılarla yapılan tüm iletişimlerde kullanılır. Çeviriler müşteri ve satıcı hesaplarının dil kodunu temel alır.
 
 Ürün çeşitleri için, ürün adı ürün terminolojisi şablonu aracılığıyla oluşturulabilir. Ürün adlarının benzersiz olmasına ilişkin bir gereksinim olmadığından, aynı ada sahip birden fazla ürün olduğunu görebilirsiniz.
 
 ## <a name="product-and-item-search-names"></a>Ürün ve madde arama adları
 
-Finance and Operations ürünler ve maddeler (serbest bırakılan ürünler) için ikincil bir arama adı sağlar. Bu arama adı benzersiz olmak zorunda değildir ve bir ürün veya ürün çeşidi oluşturulduktan sonra değiştirilebilir. Ürünleri kategorilere göre aramak için arama adı kullanmanızı öneririz. Arama adları özellikle satış ve satınalma işlemlerinde hızlı aramalar yapılmasını sağlar.
+Supply Chain Management, ürün ve maddeler (serbest bırakılan ürünler) için ikincil bir arama adı sunar. Bu arama adı benzersiz olmak zorunda değildir ve bir ürün veya ürün çeşidi oluşturulduktan sonra değiştirilebilir. Ürünleri kategorilere göre aramak için arama adı kullanmanızı öneririz. Arama adları özellikle satış ve satınalma işlemlerinde hızlı aramalar yapılmasını sağlar.
 
 Bir arama adı bir müşteri ve satıcı ürünü kodunu veya harici kodun ürün için birincil arama ölçütü olması durumunda başka bir harici ürün kodunu da içerebilir.
 
 ## <a name="external-product-identifiers-customer-and-vendor-identifiers"></a>Harici ürün tanımlayıcıları (Müşteri ve satıcı tanımlayıcıları)
 
-Serbest bırakılan ürünler için müşteri veya satıcının kullandığı madde numaralarını, madde adlarını ve madde açıklamalarını kullanabilirsiniz. Referanslar satış siparişleri, satınalma siparişleri, sevk irsaliyeleri ve faturalar gibi harici belgelerde gösterilir. Finance and Operations'ın geçerli sürümünde, harici referanslar temel işlem sayfalarında gösterilmez. Tek özel durum satıcı madde numarasıdır. Bu numara, serbest bırakılan ürün için varsayılan bir satıcı tanımlanmış olması durumunda **Ürün bilgisi** iletişim kutusunda gösterilir.
+Serbest bırakılan ürünler için müşteri veya satıcının kullandığı madde numaralarını, madde adlarını ve madde açıklamalarını kullanabilirsiniz. Referanslar satış siparişleri, satınalma siparişleri, sevk irsaliyeleri ve faturalar gibi harici belgelerde gösterilir. Supply Chain Management'ın güncel sürümünde harici referanslar, temel işlem sayfalarında gösterilmez. Tek özel durum satıcı madde numarasıdır. Bu numara, serbest bırakılan ürün için varsayılan bir satıcı tanımlanmış olması durumunda **Ürün bilgisi** iletişim kutusunda gösterilir.
 
 Harici ürün tanımlayıcıları serbest bırakılan ürün, serbest bırakılan ürün çeşidi, müşteri veya müşteri grubu veya satıcı veya satıcı grubuna göre sağlayabilirsiniz.
 
@@ -77,7 +77,7 @@ Harici ürün tanımlayıcıları serbest bırakılan ürün, serbest bırakıla
 - Müşteriler için, **Satış** sekmesindeki **İlgili bilgiler** grubunda **Harici madde açıklaması**'nı seçin.
 - Satıcılar için, **Satınalma** sekmesindeki **İlgili bilgiler** grubunda **Harici madde açıklaması**'nı seçin.
 
-**Harici madde açıklamaları** sayfasında, müşteri veya satıcının madde numarasını serbest bırakılan bir ürünle ilişkilendirebilirsiniz. Bu ilişki her tüzel kişilik için yapılmalıdır. Aşağıdaki bilgiler alınabilir. Ne yazık ki, Finance and Operations'ın geçerli sürümünde etiketler biraz yanıltıcıdır. Bununla birlikte, bu etiketler gelecekteki bir sürümde değiştirilebilir.
+**Harici madde açıklamaları** sayfasında, müşteri veya satıcının madde numarasını serbest bırakılan bir ürünle ilişkilendirebilirsiniz. Bu ilişki her tüzel kişilik için yapılmalıdır. Aşağıdaki bilgiler alınabilir. Ne yazık ki, Supply Chain Management'ın güncel sürümünde etiketler biraz yanıltıcıdır. Bununla birlikte, bu etiketler gelecekteki bir sürümde değiştirilebilir.
 
 | Alan | İlgili müşteri bilgileri | İlgili satıcı bilgileri |
 |-------|------------------------------------|----------------------------------|
@@ -104,15 +104,15 @@ Barkodlar sağlamak için **Serbest bırakılan ürünler** sayfasında, **Stoğ
 
 E-ticarette, tüm tarafların ortak bir dili konuşması ve ürünlere ortak bir tanımlayıcılar kümesi kullanarak referans vermesi önemlidir. Bu nedenle bazı sektörler, GS1 tarafından sağlanan global madde numarası sistemi olan [GTIN](https://www.gs1.org/id-keys/gtin)'e güvenir.
 
-Finance and Operations'da, barkod olarak GTIN sağlamanızı öneririz. Ancak, **Madde - GTIN** sayfasından da sağlayabilirsiniz. Bu sayfayı açmak için, **Serbest bırakılan ürünler** sayfasında, **Stoğu yönet** sekmesindeki **Ambar** grubunda **GTIN kodları**'nı seçin. GTIN kodunun global numara olarak sağlanmayacağını unutmayın. Bunun yerine, bu tüzel kişiliğe göre sağlanır.
+GTIN'yi barkod olarak kullanmaya devam etmenizi öneririz. Ancak, **Madde - GTIN** sayfasından da sağlayabilirsiniz. Bu sayfayı açmak için, **Serbest bırakılan ürünler** sayfasında, **Stoğu yönet** sekmesindeki **Ambar** grubunda **GTIN kodları**'nı seçin. GTIN kodunun global numara olarak sağlanmayacağını unutmayın. Bunun yerine, bu tüzel kişiliğe göre sağlanır.
 
-Finance and Operations'da, belirli ölçü birimleri tanımlayarak ambar işlemlerinde paketleme değişkenlerini tanımlarsınız. Örneğin, bir madde parçalar, altılı paketler, 18'lik tepsiler veya tam paletler halinde depolanabilir. Bu paketleme değişkenlerinin her biri için belirli bir ölçü birimi tanımlanır. GTIN genellikle bir ürünün paketleme birimiyle ilgili olduğundan **Madde - GTIN** sayfası ürün ve ölçü birimi başına çoklu GTIN kodları sağlamanıza olanak tanır. Ancak, aynı GTIN kodunu bir tüzel kişilikteki farklı maddeler veya ürün çeşitleri için bir kereden fazla kullanamazsınız.
+Supply Chain Management'ta belirli ölçü birimlerini tanımlayarak ambar işlemlerinde paketleme değişkenlerini tanımlarsınız. Örneğin, bir madde parçalar, altılı paketler, 18'lik tepsiler veya tam paletler halinde depolanabilir. Bu paketleme değişkenlerinin her biri için belirli bir ölçü birimi tanımlanır. GTIN genellikle bir ürünün paketleme birimiyle ilgili olduğundan **Madde - GTIN** sayfası ürün ve ölçü birimi başına çoklu GTIN kodları sağlamanıza olanak tanır. Ancak, aynı GTIN kodunu bir tüzel kişilikteki farklı maddeler veya ürün çeşitleri için bir kereden fazla kullanamazsınız.
 
 **GTIN kodlarını** sağlamak için **Serbest bırakılan ürünler** sayfasında, **Stoğu yönet** sekmesindeki **Ambar** grubunda **GTIN**'yi seçin.
 
 ## <a name="external-codes"></a>Harici kodlar
 
-Finance and Operations'da harici kodlar birçok varlık için tanımlanabilir. Örneğin, ürünleri ve serbest bırakılan ürünleri tanımlamak için harici kodlar tanımlayabilirsiniz. Bu harici kodlar istatistiksel kodları ya da vergi kodlarını serbest bırakılan ürünler ve serbest bırakılan ürün çeşitleriyle ilişkilendirmek için kullanılabilir. Harici kodlar tüzel kişilik ve kod türü ile tanımlanır. Tüzel kişilik, kod türü ve tablo referansı için benzersiz olmaları gerekir.
+Harici kodlar, birçok varlık için tanımlanabilir. Örneğin, ürünleri ve serbest bırakılan ürünleri tanımlamak için harici kodlar tanımlayabilirsiniz. Bu harici kodlar istatistiksel kodları ya da vergi kodlarını serbest bırakılan ürünler ve serbest bırakılan ürün çeşitleriyle ilişkilendirmek için kullanılabilir. Harici kodlar tüzel kişilik ve kod türü ile tanımlanır. Tüzel kişilik, kod türü ve tablo referansı için benzersiz olmaları gerekir.
 
 Ne yazık ki, harici kodlara göre ürünleri aramanızı sağlayan standart bir işlev yoktur.
 
@@ -136,13 +136,13 @@ Ne yazık ki, harici kodlara göre ürünleri aramanızı sağlayan standart bir
 
 ### <a name="product-and-item-number-sequences"></a>Ürün ve madde numarası serileri
 
-Finance and Operations'da, iki farklı numara serisi tanımlayabilirsiniz:
+İki farklı numara serisi tanımlayabilirsiniz:
 
 - Global ürün numarası için **Ürün numarası** numara serisi
 - Tüzel kişiliğe göre madde numarası için **Madde numarası** numara serisi
 
 > [!NOTE]
-> Yalnızca farklı numaralandırma sistemleri olan farklı kaynaklardaki farklı tüzel kişilikleri taşırken madde numarasını ayrı bir tanımlayıcı olarak kullanmanız gerekir. Tüm tüzel kişilikler arasında benzersiz olan bir ürün tanımlayıcısı kullanmaya çalışmanız gerekir. Bu nedenle, **Madde numarası** numara serisi için **El ile** seçeneğini **Evet** olarak ayarlamanız gerekir. Bu şekilde, madde numarası oluşturma sırasındaki ürün numarasını izler. Finance and Operations yeni ürün numaraları için önde gelen sistem değilse, **El ile** seçeneğini hem **Madde numarası** hem de **Ürün numarası** numara serileri için **Evet** olarak ayarlamanız gerekir.
+> Yalnızca farklı numaralandırma sistemleri olan farklı kaynaklardaki farklı tüzel kişilikleri taşırken madde numarasını ayrı bir tanımlayıcı olarak kullanmanız gerekir. Tüm tüzel kişilikler arasında benzersiz olan bir ürün tanımlayıcısı kullanmaya çalışmanız gerekir. Bu nedenle, **Madde numarası** numara serisi için **El ile** seçeneğini **Evet** olarak ayarlamanız gerekir. Bu şekilde, madde numarası oluşturma sırasındaki ürün numarasını izler. Supply Chain Management, yeni ürün numaraları için önde gelen sistem değilse **El ile** seçeneğini hem **Madde numarası** hem de **Ürün numarası** numara serileri için **Evet** olarak ayarlamanız gerekir.
 
 Ürünleri oluşturmak için **Serbest bırakılan ürün V2** kullandığınızda, ürün numarası ve madde numarası oluşturmak için numara serilerinin nasıl kullanılacağı birden fazla ayar tarafından etkilenebilir.
 

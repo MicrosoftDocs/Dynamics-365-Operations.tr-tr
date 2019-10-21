@@ -3,7 +3,7 @@ title: Üretim sürecine genel bakış
 description: Bu konuda, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, sipariş oluşturulmasından mali dönem kapanışına dek üretim emirlerinin, toplu iş emirlerinin ve kanbanların çeşitli aşamalarını açıklamaktadır.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546675"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250038"
 ---
 # <a name="production-process-overview"></a>Üretim sürecine genel bakış
 
@@ -36,12 +36,12 @@ Bu konuda, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, sip
 
 **Üretim kontrolü** modülü, **Ürün bilgileri yönetimi**, **Stok yönetimi**, **Genel muhasebe**, **Ambar yönetimi**, **Proje muhasebesi** ve **Organizasyon yönetimi** gibi diğer modüllerle bağlantılıdır. Bu entegrasyon, mamul maddenin üretimini tamamlamak için gereken bilgi akışını destekler.  
 
-Üretim süreci, tipik olarak belirli bir üretim süreci için seçilen maliyet muhasebesi ve stok değerleme yöntemlerinden etkilenir. Finance and Operations, hem fiili maliyeti (ilk giren ilk çıkar \[[FIFO]\]; son giren ilk çıkar \[[LIFO]\]; hareketli ortalama ve periyodik ağırlıklı ortalama) hem de standart maliyet yöntemlerini destekler. Yalın imalat, geriye dönük maliyetlendirme ilkesine dayalı olarak uygulanır.  
+Üretim süreci, tipik olarak belirli bir üretim süreci için seçilen maliyet muhasebesi ve stok değerleme yöntemlerinden etkilenir. Supply Chain Management, hem fiili maliyeti (ilk giren ilk çıkar \[FIFO\], son giren ilk çıkar \[LIFO\], hareketli ortalama ve periyodik ağırlıklı ortalama) hem de standart maliyet yöntemlerini destekler. Yalın imalat, geriye dönük maliyetlendirme ilkesine dayalı olarak uygulanır.  
 
 Maliyet ölçümü yöntemlerinin tercihi, üretim süreci esnasında malzeme ve kaynak tüketimi hakkındaki raporlara yönelik gereklilikleri de belirler. Tipik olarak, fiili maliyet yöntemleri, iş düzeyinde isabetli raporlama gerektirirken, periyodik maliyetlendirme yöntemleri malzeme ve kaynak tüketiminin daha az ayrıntılı raporlanabilmesine imkan verir.
 
 ## <a name="mixed-mode-manufacturing"></a>Karma mod üretim
-Farklı ürünler ve üretim topolojileri, farklı sipariş türleri uygulanmasını gerektirir. Finance and Operations, karma modda çeşitli sipariş türlerini uygulayabilir. Diğer bir deyişle, bir bitmiş ürün üretme uçtan uca işlemi sırasında tüm sipariş türleri gerçekleşebilir.
+Farklı ürünler ve üretim topolojileri, farklı sipariş türleri uygulanmasını gerektirir. Supply Chain Management, karma modda çeşitli sipariş türlerine uygulanabilir. Diğer bir deyişle, bir bitmiş ürün üretme uçtan uca işlemi sırasında tüm sipariş türleri gerçekleşebilir.
 
 -   **Üretim emri** – Bu, belirli bir ürünü veya ürün varyantını verili bir miktarda ve belirli bir tarihte üretmeye yönelik klasik emir türüdür. Üretim emirleri, ürün reçetelerini (BOM) ve rotaları temel alır.
 -   **Toplu iş emri** – Bu emir türü, imalat dönüştürmenin bir formüle dayalı olarak yapıldığı veya ortak ürün ve yan ürünlerin ana ürüne ek olarak veya ana ürün yerine son ürün olabildiği işlem endüstrileri ve kesikli işlemler için kullanılır. Toplu iş emirleri **Formül** türü ürün reçeteleri ve rotaları kullanırlar.
@@ -60,7 +60,7 @@ Belirli bir ürün ve ilişkili pazar için uygun imalat ilkesini seçmek için,
 Üretim yaşam döngüsündeki takip eden adımlar, tüm karma mod imalat türleri için gerçekleşebilir. Ancak, bunların tümü açık bir sipariş durumu olarak temsil edilmez.
 
 1.  **Oluşturuldu** – El ile bir üretim emri, toplu iş emri veya kanban oluşturabilir ya da sistemi bunları çeşitli talep sinyallerine dayalı olarak üretecek şekilde yapılandırabilirsiniz. Master planlama, planlı siparişleri kesinleştirerek üretim emirleri, toplu iş emirleri veya kanban'lar oluşturur. Diğer talep sinyalleri, diğer üretim emirlerinden ya da kanban'lardan olan satış siparişleri veya ilişkilendirilmiş tedarik sinyalleridir. Sabit miktarlı kanban'lar için, kanban'lar boş olarak kaydedildiğinde talep sinyalleri üretilir.
-2.  **Tahmini** – Malzeme ve kaynak tüketimi için tahminler hesaplayabilirsiniz. Tahmin, **Siparişe göre** durumuna sahip hammaddeler için stok hareketleri üretir. Ana ürünler, ortak ürünler ve yan ürünlere ilişkin girişler üretim emirleri veya toplu iş emirleri tahmin edilirken oluşturulur. Ürün reçetesinde **İlişkilendirilmiş tedarik** türü satırları varsa, malzemeler için satınalma siparişleri veya taşeron işlem hizmetleri oluşturulur ve üretim emri ya da toplu iş emri ile ilişkilendirilir. Maddeler veya siparişler, üretim emrinin rezervasyon stratejisine göre rezerve edilir ve bitmiş malların fiyatı parametre ayarlarına dayalı olarak hesaplanır.
+2.  **Tahmini** – Malzeme ve kaynak tüketimi için tahminler hesaplayabilirsiniz. Tahmin, **Siparişe göre** durumuna sahip hammaddeler için stok hareketleri üretir. Ana ürün, ortak ürün ve yan ürünlere ilişkin girişler, üretim emirleri veya toplu iş emirleri tahmin edilirken oluşturulur. Ürün reçetesinde **İlişkilendirilmiş tedarik** türü satırları varsa, malzemeler için satınalma siparişleri veya taşeron işlem hizmetleri oluşturulur ve üretim emri ya da toplu iş emri ile ilişkilendirilir. Maddeler veya siparişler, üretim emrinin rezervasyon stratejisine göre rezerve edilir ve bitmiş malların fiyatı parametre ayarlarına dayalı olarak hesaplanır.
 3.  **Planlanan** – Üretimi operasyonlara, tek tek işlere veya ikisine birden dayalı olarak planlayabilirsiniz.
     -   **Operasyon planlaması** – Bu planlama yöntemi kaba hatlarıyla uzun vadeli bir plan sağlar. Bu yöntemi kullanarak üretim emirlerine başlangıç ve bitiş tarihleri atayabilirsiniz. Üretim emirleri rota operasyonlarına eklendiyse, bunları maliyet merkezi gruplarına atayabilirsiniz.
     -   **İş planlaması** – Bu planlama yöntemi ayrıntılı bir plan sağlar. Her bir operasyon belirli tarihlere, saatlere ve atanan operasyon kaynaklarına sahip ayrı ayrı işlere ayrılır. Sonlu kapasite kullanılıyorsa, işlere karşılanabilirlik temelinde operasyon kaynağı atanır. Planlamayı bir Gantt grafiğinde görebilir ve değiştirebilirsiniz.

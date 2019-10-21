@@ -1,6 +1,6 @@
 ---
-title: E-posta ayarlarını Microsoft Dynamics 365 for Talent - Attract'ta Yapılandır
-description: Bu konu, Microsoft Dynamics 365 For Talent - Attract tarafından gönderilen e-posta ayarlarının nasıl yapılandırılacağını açıklamaktadır.
+title: Microsoft Dynamics 365 Talent - Attract'ta e-posta ayarlarını yapılandırma
+description: Bu konu, Microsoft Dynamics 365 Talent - Attract tarafından gönderilen e-posta ayarlarının nasıl yapılandırılacağını açıklamaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739507"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008674"
 ---
 # <a name="configure-email-settings"></a>E-posta ayarlarını yapılandırma
 
 [!include[banner](../includes/banner.md)]
 
-Markanız güven oluşturur ve pozisyonlarınıza başvurmadan önce adaylarla bir ilişki kurmanıza yardımcı olur. Olumlu marka algısı en yeteneklilerin ilgisini çeker ve mevcut çalışanların da bağlılığını kuvvetlendirir. Microsoft Dynamics 365 for Talent: Attract şirketinizin markasını yansıtması için e-postaları yapılandırmanızı sağlar. Bu nedenle, iş adaylarıyla başvuru süreci boyunca tutarlı bir deneyim sağlayabilirsiniz.
+Markanız güven oluşturur ve pozisyonlarınıza başvurmadan önce adaylarla bir ilişki kurmanıza yardımcı olur. Olumlu marka algısı en yeteneklilerin ilgisini çeker ve mevcut çalışanların da bağlılığını kuvvetlendirir. Microsoft Dynamics 365 Talent: Attract şirketinizin markasını yansıtması için e-postaları yapılandırmanızı sağlar. Bu nedenle, iş adaylarıyla başvuru süreci boyunca tutarlı bir deneyim sağlayabilirsiniz.
 
 Attract aşağıdaki eylemleri gerçekleştirmenizi sağlar:
 

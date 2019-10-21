@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e6d4e9a3ac5635e292b20eba60fe4f010562fdba
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552659"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250107"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları
 
@@ -32,7 +32,7 @@ ms.locfileid: "1552659"
 
 [!include [retail name](../includes/retail-name.md)]
 
-Microsoft Dynamics 365 for Finance and Operations içinde, varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar. Varsayılan sipariş ayarları, satınalma siparişleri, satış siparişleri, transfer emirleri, stok günlükleri oluştururken ve master planlama ile planlı siparişler oluştururken kullanılır. Varsayılan sipariş ayarları maddeye, tesise, ürün çeşidine veya ürün boyutuna özel olabilir.
+Dynamics 365 Supply Chain Management içinde, varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar. Varsayılan sipariş ayarları, satınalma siparişleri, satış siparişleri, transfer emirleri, stok günlükleri oluştururken ve master planlama ile planlı siparişler oluştururken kullanılır. Varsayılan sipariş ayarları maddeye, tesise, ürün çeşidine veya ürün boyutuna özel olabilir.
 
 Varsayılan sipariş ayarlarını **Varsayılan sipariş ayarları** sayfasında tanımlayabilirsiniz. Bu sayfayı açmak için **Ürün bilgileri yönetimi** &gt; **Ürünler** &gt; **Serbest bırakılan ürünler** &gt; **Serbest bırakılan bir ürün seçin** &gt; **Planlama** veya **Stok yönetimi** Eylem Bölmesi &gt; **Sipariş ayarları** &gt; **Varsayılan sipariş ayarları**'na gidin.
 
@@ -74,7 +74,7 @@ Varsayılan stok siparişi ayarları şunları oluştururken de uygulanır:
 -   Planlı üretim emirleri
 
 ## <a name="full-definition-of-a-released-product"></a>Serbest bırakılan bir ürünün tam tanımı
-Bir hareket oluştururken, yapmanız gereken yayımlanmış bir ürünün tam tanımını satırda, Finance and Operations onu varsayılan sipariş ayarlarıyla belirtmeniz gerekir. Yayımlanan ürünün tam tanımı, madde numarası ve yapılandırma, ebat, stil, renk gibi tüm aktif ürün boyutlarının hareket üzerinde belirtildiği anlamına gelir. Örneğin, serbest bırakılan bir ürün çeşidi için el ile bir satın alma siparişi oluşturursanız tesis, ambar, miktar ve sağlama süresi varsayılan olarak sipariş satırında görüntülenmeden önce gerekli tüm ürün boyutlarını belirtmeniz gerekir. 
+Bir hareket oluştururken, Supply Chain Management'ın varsayılan sipariş ayarlarını tanımlamaya çalışması için satırdaki serbest bırakılan bir ürünün tam tanımını belirtmeniz gerekir. Yayımlanan ürünün tam tanımı, madde numarası ve yapılandırma, ebat, stil, renk gibi tüm aktif ürün boyutlarının hareket üzerinde belirtildiği anlamına gelir. Örneğin, serbest bırakılan bir ürün çeşidi için el ile bir satın alma siparişi oluşturursanız tesis, ambar, miktar ve sağlama süresi varsayılan olarak sipariş satırında görüntülenmeden önce gerekli tüm ürün boyutlarını belirtmeniz gerekir. 
 
 Sipariş veya günlük satırlarını oluştururken varsayılan sipariş ayarları parametrelerinin tamamı uygulanmaz. Miktarlar ve sağlama süreleri yalnızca uygun olduğunda varsayılan olarak görüntülenir. Örneğin, bir günlük satırı sayıldığında, sadece site ve ambar bir satır oluşturulduğunda varsayılan olarak görüntülenirler. Çoklu veya minimumlar üzerinde miktar varsayılanı veya kontrolleri elbette satırı veya günlüğü deftere naklederken gerçekleştirilmeyecektir. 
 
@@ -97,7 +97,7 @@ Serbest bırakılan farklı ürünler için genel sipariş ayarlarını veya tes
 
 Tesise özel sipariş ayarları oluşturmak için **Yeni**'ye tıklayın. **Ayrıntı görünümü** içinde **Şunun için geçerli ayarlar**: &gt; **Tesis** alanındaki tesisi doldurun. **Izgara görünümü** içinde **Tesis** sütununda tesisi doldurun. Yeni kural otomatik olarak sıfırdan daha yüksek yeni bir derece değeri alır. İstediğiniz kadar tesise özel kural oluşturabilirsiniz ve model oluşturmak için tesise özel tüm kuralları eşit öneme sahip aynı dereceye atayabilirsiniz. 
 
-**Ayrıntı görünümü** içindeyken madde için oluşturulan kuralların özetini alamazsınız. Özet bilgileri görmek için **Listeyi göster/gizle** düğmesini değiştirin. Herhangi bir türde sipariş satırı oluşturulduğunda ve sağlanan bir tesise sahip olmadığında, Finance and Operations tesise özel olmayan bir kural arar. Bu, sipariş satırında varsayılan bir tesis belirlemeye yardımcı olabilir. Bu tesis daha sonra varsayılan ambarın ayarlanabildiği tesise özel bir kuralı aramak için kullanılır. Bu ambar, sipariş satırına uygulanır.
+**Ayrıntı görünümü** içindeyken madde için oluşturulan kuralların özetini alamazsınız. Özet bilgileri görmek için **Listeyi göster/gizle** düğmesini değiştirin. Herhangi bir türde sipariş satırı oluşturulduğunda ve sağlanan bir tesise sahip olmadığında, Supply Chain Management tesise özel olmayan bir kural arar. Bu, sipariş satırında varsayılan bir tesis belirlemeye yardımcı olabilir. Bu tesis daha sonra varsayılan ambarın ayarlanabildiği tesise özel bir kuralı aramak için kullanılır. Bu ambar, sipariş satırına uygulanır.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Ürün boyutu için özel sipariş ayarları
 
@@ -134,7 +134,7 @@ Aşağıdaki varsayılan sipariş ayarları kurallarını oluşturabilirsiniz.
 
 Eski revizyonları durduran iki kural aynı derecelendirmeye sahiptir. Bu, eşit olarak önemli oldukları anlamına gelir. Her ikisi de C1 konfigürasyon kuralından daha yüksek bir dereceye sahiptir. Bu, C1 konfigürasyon kuralına göre öncelik kazandıkları anlamına gelir. 
 
-Bu örnek, derece gereksinimini açıklar. Satınalma siparişi, derece olmaksızın C1 konfigürasyonu ve R2 revizyonu için oluşturulursa R2 ve C1 için tanımlanan iki kural belirsiz olur. Bu belirsizliği gidermek için Finance and Operations azalan derece sırasına göre kuralları arar ve ilk geçerli kuralı uygular. Bu örnekte C1 konfigürasyonu ve R2 revizyonu için bir satınalma sipariş satırı oluşturulduğunda, kullanıcı maddenin beklemede olduğu ve buna revizyon değerinin neden olduğuna dair bir uyarı iletisi alır. Konfigürasyon kuralı revizyon kuralından daha yüksek bir dereceye sahipse C1 konfigürasyonu ve R2 revizyonu için bir satınalma siparişi satırının oluşturulması başarılı olur ve kullanıcı "madde beklemede" iletisini almaz. 
+Bu örnek, derece gereksinimini açıklar. Satınalma siparişi, derece olmaksızın C1 konfigürasyonu ve R2 revizyonu için oluşturulursa R2 ve C1 için tanımlanan iki kural belirsiz olur. Bu belirsizliği gidermek için Supply Chain Management azalan derece sırasına göre kuralları arar ve ilk geçerli kuralı uygular. Bu örnekte C1 konfigürasyonu ve R2 revizyonu için bir satınalma sipariş satırı oluşturulduğunda, kullanıcı maddenin beklemede olduğu ve buna revizyon değerinin neden olduğuna dair bir uyarı iletisi alır. Konfigürasyon kuralı revizyon kuralından daha yüksek bir dereceye sahipse C1 konfigürasyonu ve R2 revizyonu için bir satınalma siparişi satırının oluşturulması başarılı olur ve kullanıcı "madde beklemede" iletisini almaz. 
 
 Aşağıdaki varsayılan sipariş ayarı kurallarını değerlendirin.
 

@@ -1,6 +1,6 @@
 ---
 title: Çağrı merkezi satış özelliği
-description: Bu konuda, Microsoft Dynamics 365 for Retail'daki çağrı merkezi satışları işlevine genel bir bakış sağlar.
+description: Bu konuda, Dynamics 365 Retail'daki çağrı merkezi satışları işlevine genel bir bakış sağlar.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
@@ -19,26 +19,28 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549492"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025783"
 ---
 # <a name="call-center-sales-functionality"></a>Çağrı merkezi satış işlevi
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Retail'de çağrı merkezi uygulamada tanımlanabilen bir Perakende kanalı türüdür. Çağrı merkezi varlıklarınız için özel bir kanal tanımlamak sistemin belirli veri varsayılanlarını ve sipariş işleme varsayılanlarını çağrı merkezi kanalı kullanıcısı tarafından oluşturulan satış siparişlerine bağlamasını sağlar.
+
+Dynamics 365 Retail'de çağrı merkezi uygulamada tanımlanabilen bir Perakende kanalı türüdür. Çağrı merkezi varlıklarınız için özel bir kanal tanımlamak sistemin belirli veri varsayılanlarını ve sipariş işleme varsayılanlarını çağrı merkezi kanalı kullanıcısı tarafından oluşturulan satış siparişlerine bağlamasını sağlar.
 
 Çağrı merkezi özellikleri gelişmiş perakende fiyatı ve promosyonları, katalogları, hediye kartlarını, bağlılık programlarını ve kuponları içerir. Çağrı merkezi siparişlerinden satış noktası (POS) uygulaması da kanallar arası sipariş karşılama senaryolarını desteklemek üzere yararlanır.
 
-Çağrı merkezi modülünün Perakende dışındaki sektörler tarafından da kullanılabileceğini unutmamak önemlidir, bununla birlikte Dynamics 365 for Retail çağrı merkezi uygulamasının geçerli sürümü işletmeden işletmeye (B2B) sipariş işleme senaryoları veya siparişlerin çok fazla satış satırı içerdiği senaryolar için optimize edilmemiştir. Çağrı merkezi özelliklerini tipik doğrudan tüketici hareketi işleme dışında sipariş işleme için kullanmak isteyen kullanıcıların çağrı merkezi işlevini etkinleştirmenin işlev ve performans beklentilerini karşılayıp karşılamayacağını test etmek ve doğrulamak için uygun zamanı ayırmaları önerilir.
+Çağrı merkezi modülünün Perakende dışındaki sektörler tarafından da kullanılabileceğini unutmamak önemlidir, bununla birlikte Retail çağrı merkezi uygulamasının geçerli sürümü işletmeden işletmeye (B2B) sipariş işleme senaryoları veya siparişlerin çok fazla satış satırı içerdiği senaryolar için optimize edilmemiştir. Çağrı merkezi özelliklerini tipik doğrudan tüketici hareketi işleme dışında sipariş işleme için kullanmak isteyen kullanıcıların çağrı merkezi işlevini etkinleştirmenin işlev ve performans beklentilerini karşılayıp karşılamayacağını test etmek ve doğrulamak için uygun zamanı ayırmaları önerilir.
 
 Sipariş oluşturmayı desteklemenin yanı sıra çağrı merkezi modülü, kullanıcılar için müşteri hesaplarını bulmayı ve tüm ilgili müşteri siparişi verileri ile özniteliklerini incelemeyi kolaylaştıran kullanıcı dostu müşteri hizmetleri uygulaması sunar. Müşteri hizmetleri ekranı, kullanıcıya müşterilerden gelen siparişle ilgili en yaygın soruları yanıtlama olanağı sağlayan siparişle ilgili verilere hızlıca erişme olanağı sunar.
 
-Bu sayfa Dynamics 365 for Retail'deki çağrı merkezi özelliklerinin kurulumu, yapılandırması ve işlevsel kullanımıyla ilişkili ilgili belgelere bağlantılar sağlar.
+Bu sayfa Retail'deki çağrı merkezi özelliklerinin kurulumu, yapılandırması ve işlevsel kullanımıyla ilişkili ilgili belgelere bağlantılar sağlar.
+
 
 ## <a name="configure-the-call-center"></a>Çağrı merkezini yapılandırma
 

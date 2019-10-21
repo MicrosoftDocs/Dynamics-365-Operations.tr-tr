@@ -1,6 +1,6 @@
 ---
 title: Talent ile Dayforce arasında bordro tümleştirmesini yapılandırma
-description: Bu konuda, bir ödeme işlemini işlemek üzere Microsoft Dynamics 365 for Talent ile Ceridian Dayforce arasındaki tümleştirmeyi nasıl yapılandıracağınız açıklanmaktadır.
+description: Bu konuda, bir ödeme işlemini işlemek üzere Microsoft Dynamics 365 Talent ile Ceridian Dayforce arasındaki tümleştirmeyi nasıl yapılandıracağınız açıklanmaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/24/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742935"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251051"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Talent ve Dayforce arasında bordro tümleştirmeyi yapılandırma
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent ile Ceridian Dayforce arasındaki tümleştirme, bu konuda açıklanan çeşitli yapılandırma adımlarına dayanır. Ödeme işlemini işlemeden önce tümleştirmeyi hem Talent hem de Dayforce'ta yapılandırmanız gerekir.
+Microsoft Dynamics 365 Talent ile Ceridian Dayforce arasındaki tümleştirme, bu konuda açıklanan çeşitli yapılandırma adımlarına dayanır. Ödeme işlemini işlemeden önce tümleştirmeyi hem Talent hem de Dayforce'ta yapılandırmanız gerekir.
 
 Ödeme işlemlerini tamamlamak için Dayforce gibi bir hizmet kullandığınızda tümleştirmeyi Talent'ta etkinleştirmeniz gerekir. Tümleştirme için Talent'tan özel veriler gerekir. Bu nedenle, Dayforce ile eşlenmiş verilerin Talent'ta tümleştirmeyi destekleyecek şekilde yapılandırıldığını doğrulamanız gerekir. Tümleştirme, aşağıdaki geniş veri kategorilerini kullanır:
 
@@ -39,7 +39,7 @@ Bu konuda, tümleştirmeyi etkinleştirmek için izlemeniz gereken adımlar aç�
 
 ## <a name="enable-the-integration"></a>Tümleştirmeyi etkinleştirme
 
-Talent'ta yapılandırmayı açmanız ve Dayforce'a bağlanmak için yapılandırma bilgilerini girmeniz gerekir. Microsoft Dynamics 365 for Finance and Operations'a aktarılmak üzere oluşturulan genel muhasebe hareketini istiyorsanız ayrıca bir Microsoft Azure depolama hesabı oluşturmanız ve Finance and Operations'ta Azure Depolama bağlantı dizesini de girmeniz gerekir.
+Talent'ta yapılandırmayı açmanız ve Dayforce'a bağlanmak için yapılandırma bilgilerini girmeniz gerekir. Microsoft Dynamics 365 Finance'a aktarılmak üzere oluşturulan genel muhasebe hareketini istiyorsanız ayrıca bir Microsoft Azure depolama hesabı oluşturmanız ve Finance'ta Azure Depolama bağlantı dizesini de girmeniz gerekir.
 
 Talent'ta tümleştirmeyi açmak için aşağıdaki adımları izleyin.
 

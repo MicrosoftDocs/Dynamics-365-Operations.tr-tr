@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35ec47a13d9119c755702e019d09c76e1281b4a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549325"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250244"
 ---
 # <a name="activity-based-subcontracting"></a>Etkinlik tabanlı alt sözleşme verme
 
@@ -32,7 +32,7 @@ ms.locfileid: "1549325"
 
 Bu konu, alt sözleşmeli etkinliklerin yalın imalat için üretim akışında nasıl kullanılacağını ayrıntılarıyla açıklar.
 
-Microsoft Dynamics 365 for Finance and Operations'ta, alt sözleşme için iki seçenek vardır: üretim emirleri ve yalın imalat. Yalın imalat yaklaşımında, alt özleşme işi bir üretim akışının etkinliğiyle ilişkili bir hizmet olarak modellenir. **Doğrudan dış kaynak kullanımı** olarak adlandırılan özel bir maliyet grubu türü kullanılmaya başlanmıştır ve alt sözleşme hizmetleri artık bir ürün reçetesinin (BOM) parçası değildir. Alt sözleşmeli işin maliyet muhasebesi, yalın imalatın maliyetlendirme çözümüne tümüyle entegre edilmiştir.
+Microsoft Dynamics 365 Supply Chain Management'ta, alt sözleşme için iki seçenek vardır: üretim emirleri ve yalın imalat. Yalın imalat yaklaşımında, alt özleşme işi bir üretim akışının etkinliğiyle ilişkili bir hizmet olarak modellenir. **Doğrudan dış kaynak kullanımı** olarak adlandırılan özel bir maliyet grubu türü kullanılmaya başlanmıştır ve alt sözleşme hizmetleri artık bir ürün reçetesinin (BOM) parçası değildir. Alt sözleşmeli işin maliyet muhasebesi, yalın imalatın maliyetlendirme çözümüne tümüyle entegre edilmiştir.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Alt yüklenicileri içeren üretim akışları
 Üretim akışının temel prensibi, etkinlikler alt sözleşmeyle verildiğinde değişmemektedir. Malzeme hala konumlar arasında akmaktadır, işlem etkinlikleri malzemeleri ürünlere dönüştürür ve aktarma etkinlikleri malzeme veya ürünleri bir konumdan diğerine taşır. konumları ve iş hücrelerini, satıcı hesabını bir ambara veya bir kaynak grubunun kaynağına atayarak hücreleri satıcı tarafından yönetilen olarak modelleyebilirsiniz.  
@@ -102,7 +102,7 @@ Bir maliyet döneminin sonundaki yalın imalat için geriye dönük maliyetlendi
 
 Yalın üretim içerisinde etkinlik tabanlı alt sözleşme, malzemeleri ve ürünleri bir üretim akışının konumları arasında nakleden taşıyıcıları ve taşıma satıcılarını bütünleştirmenize olanak sağlar. Bir transfer etkinliğini modelleyerek, bir taşıyıcı veya satıcı atayabilirsiniz. Transfer etkinlikleri/işi, bir hizmete ve satınalma sözleşmesine dayanır ve gerçek transfer işlerine dayanan satınalma emirleri ve giriş önerileri oluşturabilirsiniz. Bu işlevsellik, alt sözleşmeli işlem etkinlikleri işlevselliğiyle aynıdır.  
 
-Bu nedenle, Finance and Operations artık taşıma hizmetlerini içeren ürün reçetesi hesaplamasını, ilişkili satınalma emirlerinin oluşturulmasını, tümleştirilmiş giriş kayıtlarını ve taşıma hizmeti maliyetlerini üretim akışı maliyetine katmayı destekler.
+Supply Chain Management artık taşıma hizmetlerini içeren ürün reçetesi hesaplamasını, ilişkili satınalma emirlerinin oluşturulmasını, tümleştirilmiş giriş kayıtlarını ve taşıma hizmeti maliyetlerini üretim akışı maliyetine katmayı destekler.
 
 
 

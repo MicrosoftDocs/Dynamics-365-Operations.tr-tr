@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 609f5f13f3af4a7621fe7ee152800dac4d68a9fc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572061"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025161"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Satış noktasında (POS) stok arama
 
@@ -52,7 +52,7 @@ Bir kuruluştaki stoğun doğru ve gerçek zamanlı görünümü mağaza görevl
 Yerleşimlerin listesi iki varlık türünü içerir:
 
 - **Perakende mağazalar** – Liste Retail Headquarters'da geçerli mağaza için mağaza bulucu grubunu kullanarak yapılandırılan mağazalar listesini gösterir.
-- **Dağıtım merkezleri** – Microsoft Dynamics 365 for Retail'de çeşitli türde dağıtım merkezleri (ambarlar gibi) yapılandırılabilir. Bununla birlikte, liste stok kullanılabilirlik bilgisini yalnızca **standart** varsayılan türündeki dağıtım merkezleri için gösterir.
+- **Dağıtım merkezleri** – Çeşitli dağıtım merkezi türleri (ambarlar gibi) Retail'da yapılandırılabilir. Bununla birlikte, liste stok kullanılabilirlik bilgisini yalnızca **standart** varsayılan türündeki dağıtım merkezleri için gösterir.
 
     > [!NOTE]
     > Stok kullanılabilirlik bilgileri POS'ta **Transit**, **karantina** ve **Rotadaki Mallar** türündeki ambarlar için gösterilmez.

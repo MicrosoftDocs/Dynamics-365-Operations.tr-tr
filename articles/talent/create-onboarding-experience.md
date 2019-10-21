@@ -1,6 +1,6 @@
 ---
 title: Onboard kullanmaya başlama
-description: Bu konu Microsoft Dynamics 365 for Talent - Onboard ile başlamakta yardımcı olacaktır. Onboard, yeni işe başlayanlarınızın, onları işe alma sürecinde sorunsuz bir şekilde götüren bir rehber vererek güçlü bir başlangıç yapmalarına yardımcı olur.
+description: Bu konu Microsoft Dynamics 365 Talent - Onboard kullanmaya başlamanıza yardımcı olacaktır. Onboard, yeni işe başlayanlarınızın, onları işe alma sürecinde sorunsuz bir şekilde götüren bir rehber vererek güçlü bir başlangıç yapmalarına yardımcı olur.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 6526f320be7d18af92406149633b3e15d0be2291
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731225"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008140"
 ---
 # <a name="get-started-with-onboard"></a>Onboard kullanmaya başlama
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard'u kullanarak, yeni çalışanlarınızın daha etkili performans göstermesine ve yeni rollerinde aidiyet duygusu kazanmasına yardımcı olabilirsiniz. Etkili bir işe alım süreci, yeni işe yeni rolleri anlamalarına yardımcı olur. Aynı zamanda onlara başarılarını sağlamaya yardımcı olacak değerli ilişkiler kurmada bir başlangıç sağlar.
+Microsoft Dynamics 365 Talent: Onboard'u kullanarak, yeni çalışanlarınızın daha etkili performans göstermesine ve yeni rollerinde aidiyet duygusu kazanmasına yardımcı olabilirsiniz. Etkili bir işe alım süreci, yeni işe yeni rolleri anlamalarına yardımcı olur. Aynı zamanda onlara başarılarını sağlamaya yardımcı olacak değerli ilişkiler kurmada bir başlangıç sağlar.
 
 Onboard, yeni işe aldığınız çalışanları ağırlayacak ve onları kuruluşunuza katılma konusunda heyecanlandıracak bir işe alım kılavuzu oluşturmanıza olanak tanır.
 

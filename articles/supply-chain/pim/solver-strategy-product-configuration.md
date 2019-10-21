@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a548d3536bbc0056ee22c07c464af062029da81
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560313"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250588"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Ürün yapılandırması için Çözücü stratejisi
 
@@ -45,7 +45,7 @@ Bu konu çözücü stratejisini ürün yapılandırmasının performansını art
 
 Ürün yapılandırma modeli [kısıtlama memnuniyet sorunu (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf) olarak formüle edilebilir. Microsoft Solver Foundation (MSF), ürün yapılandırma modellerinden kullanılabilen CSP'leri çözmek için iki tür çözücü stratejisi sağlar. Bu çözücü stratejileri, sorun çözüldüğünde CSP'lerin değişkenlerinin dikkate alındığı sırayı belirlemek üzere kullanılan [buluşsal yöntemlere](https://techterms.com/definition/heuristic) dayanır. Buluşsal yöntemler, bir sorun veya sorunlar sınıfı çözüldüğünde performansı belirgin şekilde etkileyebilir.
 
-Finance and Operations'ta, ürün yapılandırma modellerine yönelik çözücü stratejisi buluşsal yöntemlerle hangi çözücünün kullanıldığını belirler. **Varsayılan**, **En az etki alanları önce** ve **Yukarıdan aşağıya** stratejileri MSF'den iki çözücüyü kullanırken, **Z3** stratejisi Z3 çözücüsü kullanır. 
+Ürün yapılandırma modellerine yönelik çözücü stratejisi buluşsal yöntemlerle hangi çözücünün kullanıldığını belirler. **Varsayılan**, **En az etki alanları önce** ve **Yukarıdan aşağıya** stratejileri MSF'den iki çözücüyü kullanırken, **Z3** stratejisi Z3 çözücüsü kullanır. 
 
 Gerçek müşteri uygulaması çalışmaları, bir ürün yapılandırma modeline yönelik çözücü stratejisindeki bir değişikliğin, yanıt sürelerini dakikalardan mili saniyelere düşürebildiğini göstermiştir. Bu nedenle, ürün yapılandırma modeliniz için en etkili stratejisi bulmak için farklı çözücü stratejileri denemek faydalıdır.
 

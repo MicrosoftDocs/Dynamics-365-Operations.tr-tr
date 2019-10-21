@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568057"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019405"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Çevre birimlerini satış noktasına (POS) bağlama
 
@@ -94,7 +94,7 @@ Geleneksel, sabit POS senaryosunda MPOS'u POS çevre birimlerine bağlamak için
 
 [![Paylaşılan çevre birimleri](./media/shared-300x254.png)](./media/shared.png)
 
-Bu senaryoda bağımsız donanım istasyonu MPOS ve Bulut POS istemcileri arasında paylaşılır. Bu senaryoda donanım istasyonunun kullandığı indirme paketi, bağlantı noktası ve donanım profilini belirtmek için bir donanım istasyonu profili oluşturmanız gerekir. Donanım istasyonu profilini **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım istasyonu profilleri** altında bulabilirsiniz. Donanım istasyonu profilini oluşturduktan sonra ilgili perakende kanalına gidin (**Perakende** &gt; **Kanallar** &gt; **Perakende mağazaları** &gt; **Tüm perakende mağazaları**) ve yeni bir donanım istasyonu ekleyin. Bu yeni donanım istasyonunu daha önce oluşturulan donanım istasyonu profiliyle eşleyin. Ardından, kasiyerin donanım istasyonunu tanımlamasına yardımcı olacak bir açıklama girin. **Ana bilgisayar adı** alanına, ana makine URL'sini `https://<MachineName:Port>/HardwareStation` biçiminde girin. (**&lt;MakineAdı:BağlantıNoktası&gt;**'nı, donanım istasyonu profilinde belirtilen donanım istasyonu gerçek makine adıyla değiştirin.) Bağımsız bir donanım istasyonu için, elektronik fon transferi (EFT) terminal kimliğini de belirtmelisiniz. Bu değer, ödeme bağlayıcısı ödeme sağlayıcı ile iletişim kurduğunda donanım istasyonuna bağlanan EFT terminalini tanımlar. Daha sonra asıl donanım istasyonu makinesinden kanala gidin ve donanım istasyonunu seçin. Ardından, **İndir**'e tıklayın ve donanım istasyonunu yükleyin. Daha sonra MPOS veya Bulut POS'tan önceden yüklenmiş donanım istasyonunu seçmek için **Donanım istasyonu seç** işlemini kullanın. POS ile donanım istasyonu arasında güvenli bir ilişki kurmak için **Eşleştir** 'i seçin. Bu adım bir POS ve bir donanım istasyonunun her birleşimi için bir kez tamamlanmalıdır. Donanım istasyonu eşleştirildikten sonra, aynı işlem donanım istasyonunu kullanılırken etkinleştirmek için kullanılır. Bu senaryoda, donanım profili, kasanın kendisinden ziyade donanım istasyonu profiline atanmalıdır. Herhangi bir nedenden dolayı donanım istasyonu doğrudan atanmış bir donanım profiline sahip değilse, kasaya atanmış donanım profili kullanılır
+Bu senaryoda bağımsız donanım istasyonu MPOS ve Bulut POS istemcileri arasında paylaşılır. Bu senaryoda donanım istasyonunun kullandığı indirme paketi, bağlantı noktası ve donanım profilini belirtmek için bir donanım istasyonu profili oluşturmanız gerekir. Donanım istasyonu profilini **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım istasyonu profilleri** altında bulabilirsiniz. Donanım istasyonu profilini oluşturduktan sonra ilgili perakende kanalına gidin (**Perakende** &gt; **Kanallar** &gt; **Perakende mağazaları** &gt; **Tüm perakende mağazaları**) ve yeni bir donanım istasyonu ekleyin. Bu yeni donanım istasyonunu daha önce oluşturulan donanım istasyonu profiliyle eşleyin. Ardından, kasiyerin donanım istasyonunu tanımlamasına yardımcı olacak bir açıklama girin. **Ana bilgisayar adı** alanına, ana makine URL'sini `https://<MachineName:Port>/HardwareStation` biçiminde girin. (**&lt;MakineAdı:BağlantıNoktası&gt;**'nı, donanım istasyonu profilinde belirtilen donanım istasyonu gerçek makine adıyla değiştirin.) Bağımsız bir donanım istasyonu için, elektronik fon transferi (EFT) terminal kimliğini de belirtmelisiniz. Bu değer, ödeme bağlayıcısı ödeme sağlayıcı ile iletişim kurduğunda donanım istasyonuna bağlanan EFT terminalini tanımlar. Daha sonra asıl donanım istasyonu makinesinden kanala gidin ve donanım istasyonunu seçin. Ardından, **İndir**'e tıklayın ve donanım istasyonunu yükleyin. Daha sonra MPOS veya Bulut POS'tan önceden yüklenmiş donanım istasyonunu seçmek için **Donanım istasyonu seç** işlemini kullanın. POS ile donanım istasyonu arasında güvenli bir ilişki kurmak için **Eşleştir** 'i seçin. Bu adım bir POS ve bir donanım istasyonunun her birleşimi için bir kez tamamlanmalıdır. Donanım istasyonu eşleştirildikten sonra, aynı işlem donanım istasyonunu kullanılırken etkinleştirmek için kullanılır. Bu senaryoda, donanım profili, kasanın kendisinden ziyade donanım istasyonu profiline atanmalıdır. Herhangi bir nedenden dolayı donanım istasyonu doğrudan atanmış bir donanım profiline sahip değilse, kasaya atanmış donanım profili kullanılır.
 
 ## <a name="client-maintenance"></a>İstemci bakımı
 

@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546732"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250233"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Harici satıcılarla satıcı iş birliği
 
 [!include [banner](../includes/banner.md)]
 
-**Satıcı iş birliği** modülü Microsoft Dynamics 365 for Finance and Operations ile elektronik veri alış verişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişleri (PO'lar), faturalar, konsinye stok bilgileri ve teklif talepleri (RFQ'lar) ile çalışmasına ve satıcı ana verilerinin bir bölümüne erişebilmelerine olanak tanır. Bu konuda PO'lar, RFQ'lar ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir PO'ya yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır.
+**Satıcı işbirliği** modülü Microsoft Dynamics 365 Supply Chain Management ile elektronik veri alışverişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişleri (PO'lar), faturalar, konsinye stok bilgileri ve teklif talepleri (RFQ'lar) ile çalışmasına ve satıcı ana verilerinin bir bölümüne erişebilmelerine olanak tanır. Bu konuda PO'lar, RFQ'lar ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir PO'ya yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır.
 
 Satıcıların harici satıcı iş birliği arabiriminde yapabilecekleri hakkında daha fazla bilgi için bkz. [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Bu konudaki satıcı işbirliğiyle ilgili bilgiler, yalnızca Finance and Operations'ın geçerli sürümü için geçerlidir. Microsoft Dynamics AX 7.0 (Şubat 2016) ve Microsoft Dynamics AX uygulaması 7.0.1 (Mayıs 2016) sürümünde, **Satıcı portalı** modülünü kullanarak satıcılarla işbirliği yapabilirsiniz. **Satıcı portalı** modülü hakkında bilgi için bkz. [Satıcılarla Satıcı portalını kullanarak işbirliği yapma](collaborate-vendors-vendor-portal.md).
+> Bu konudaki satıcı işbirliğiyle ilgili bilgiler, yalnızca Supply Chain Management'ın geçerli sürümü için geçerlidir. Microsoft Dynamics AX 7.0 (Şubat 2016) ve Microsoft Dynamics AX uygulaması 7.0.1 (Mayıs 2016) sürümünde, **Satıcı portalı** modülünü kullanarak satıcılarla işbirliği yapabilirsiniz. **Satıcı portalı** modülü hakkında bilgi için bkz. [Satıcılarla Satıcı portalını kullanarak işbirliği yapma](collaborate-vendors-vendor-portal.md).
 
 Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Yeni satıcı iş birliği kullanıcılarını hazırlama hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md).
 
@@ -51,7 +51,7 @@ PO yanıtında görüntülenen metni tanımlamak için aşağıdaki adımları i
 
 ## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Belirli bir satıcı için satıcı işbirliği seçeneklerini ayarlama
 
-Bir yönetici Finance and Operations'da satıcı işbirliği için, işbirliği yaptığınız tüm satıcılar için kullanılabilir olan güvenlik rolleri gibi genel ayarları yapılandırır. Ancak, her satıcı hesabı için farklı olabilen ayarlar da bulunmaktadır. Bu ayarları yapılandırmanız gerekir.
+Bir yönetici Supply Chain Management'ta satıcı işbirliği için, işbirliği yaptığınız tüm satıcılar için kullanılabilir olan güvenlik rolleri gibi genel ayarları yapılandırır. Ancak, her satıcı hesabı için farklı olabilen ayarlar da bulunmaktadır. Bu ayarları yapılandırmanız gerekir.
 
 - Satıcı iş birliğini etkinleştirin.
 - Satıcının fiyat bilgilerini görmesine gerek olup olmadığını belirtin.
@@ -71,7 +71,7 @@ PPO'lar için fiyat bilgilerini satıcı işbirliği arabirimi aracılığıyla 
 
 ### <a name="sending-a-po-to-a-vendor"></a>Satıcıya PO gönderme
 
-Satınalma siparişleri Finance and Operations içinde hazırlanır. Bir PO'nun durumu **Onaylandı** olduğunda, **Satınalma siparişi** sayfasında **Onay için gönder**'i seçerek PO'yu satıcıya gönderirsiniz. PO durumu **Dış İncelemede** olarak değişir. Satın alma siparişi gönderildikten sonra satıcı bunu satıcı işbirliği arabiriminin **İncelenecek satınalma siparişleri** sayfasında görebilir. Daha sonra satıcı PO'yu kabul edebilir, reddedebilir veya değişiklikler önerebilir. Satıcı, PO'da yapılan değişiklikler gibi bilgileri bildirmek için açıklama da ekleyebilir. Satıcının ilgisini yeni bir PO'ya çekmek istiyorsanız, PO'yu e-postayla göndermek için Yazdırma yönetimi sistemini de kullanabilirsiniz.
+Satınalma siparişleri Supply Chain Management'ta hazırlanır. Bir PO'nun durumu **Onaylandı** olduğunda, **Satınalma siparişi** sayfasında **Onay için gönder**'i seçerek PO'yu satıcıya gönderirsiniz. PO durumu **Dış İncelemede** olarak değişir. Satın alma siparişi gönderildikten sonra satıcı bunu satıcı işbirliği arabiriminin **İncelenecek satınalma siparişleri** sayfasında görebilir. Daha sonra satıcı PO'yu kabul edebilir, reddedebilir veya değişiklikler önerebilir. Satıcı, PO'da yapılan değişiklikler gibi bilgileri bildirmek için açıklama da ekleyebilir. Satıcının ilgisini yeni bir PO'ya çekmek istiyorsanız, PO'yu e-postayla göndermek için Yazdırma yönetimi sistemini de kullanabilirsiniz.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>PO'nun satıcı tarafından onaylanması ve kabul edilmesi
 
@@ -92,13 +92,13 @@ Aşağıdaki tabloda onay için PO gönderdiğinizde satıcının verdiği yanı
 </thead>
 <tbody>
 <tr class="even">
-<td>Satıcı siparişi <strong>kabul eder</strong> ve Finance and Operations satıcının kabul ettiği PO'ları otomatik olarak onaylamak üzere yapılandırılır.</td>
+<td>Satıcı siparişi <strong>kabul eder</strong> ve Supply Chain Management satıcının kabul ettiği satınalma siparişlerini otomatik olarak onaylamak üzere yapılandırılır.</td>
 <td>Siparişin durumu <strong>Onaylandı</strong> olarak güncellenir. Herhangi bir nedenle sipariş güncellenemezse satıcı yanıtı yine de <strong>Kabul Edildi</strong> olarak kaydedilir ancak PO'nun durumu <strong>Dış İncelemede</strong> olarak kalır. 
 
 Satıcıya gönderilen ve <strong>Harici İnceleme</strong> durumunda olan PO satırlardaki onaylanan teslim tarihleriyle güncelleştirilir. Bu güncelleştirme otomatik olarak <strong>Onaylandı</strong> durumuna güncelleştirilen yeni bir sürüm başlatır. Satınalma siparişi teyit edildiğinde, bu satıcının işbirliği arabiriminde görünür.</td>
 </tr>
 <tr class="odd">
-<td>Satıcı siparişi <strong>kabul eder</strong> ancak Finance and Operations satıcının kabul ettiği PO'ları otomatik olarak onaylamak üzere yapılandırılmaz.</td>
+<td>Satıcı siparişi <strong>kabul eder</strong> ancak Supply Chain Management satıcının kabul ettiği satınalma siparişlerini otomatik olarak onaylamak üzere yapılandırılmaz.</td>
 <td>Satıcı yanıtı <strong>Kabul Edildi</strong> olarak kaydedilir ancak PO'nun durumu <strong>Dış İncelemede</strong> olarak kalır.
 
 Satıcıya gönderilen ve <strong>Harici İnceleme</strong> durumunda olan PO satırlardaki onaylanan teslim tarihleriyle güncelleştirilir. Bu güncelleştirme otomatik olarak <strong>Dış İncelemede</strong> durumuna güncelleştirilen yeni bir sürüm başlatır. Satınalma siparişini daha sonra el ile onaylayabilirsiniz.</td>
@@ -180,14 +180,14 @@ Aşağıdaki tablo, PO'nun geçebileceği durum ve sürüm değişikliklerine bi
 
 | Eylem | Durum ve sürüm |
 |--------|--------------------|
-| PO başlangıç sürümü Finance and Operations uygulamasında oluşturulur. | Durum **Onaylandı** . |
+| Satınalma siparişinin başlangıç sürümü Supply Chain Management'ta oluşturulur. | Durum **Onaylandı** . |
 | PO satıcıya gönderilir. | Satıcı iş birliği arabiriminde bir sürüm kaydedilir ve durum **Dış İncelemede** olarak değiştirilir. |
 | Satıcı bir **Değişikliklerle kabul edildi** yanıtı gönderir. | Durum hala **Dış incelemede** olarak görünür. |
 | Satıcı tarafından istenen bazı değişiklikleri yaparsınız. | Durum tekrar **Onaylandı** olarak değiştirilir. |
 | Satıcıya PO'nun yeni sürümünü gönderirsiniz. | Satıcı iş birliği arabiriminde yeni bir sürüm kaydedilir ve durum **Dış İncelemede** olarak değiştirilir. |
 | Satıcı PO'nun yeni sürümünü kabul eder. | Satıcı hesabı satıcı PO'yu kabul ettiğinde durumu **Onaylandı**'ya otomatik olarak değiştirmek üzere yapılandırılmadıysa, durum hala **Dış İncelemede** olarak kalır. |
 
-Satıcılar PO'yu satıcı iş birliği arabirimini kullanarak onaylamak zorunda değildir. E-posta gönderebilir veya PO'yu kabul ettiklerini başka kanallar aracılığıyla bildirebilirler. Bundan sonra, Finance and Operations uygulamasında siparişi el ile onaylayabilirsiniz. Bu durumda, satıcıdan yanıt olmasa bile siparişin onaylandığını belirten bir uyarı alırsınız. Daha sonra PO onay geçmişinde herhangi bir yanıt alınmamış açık onaylanmış sipariş olarak görünür. Bu noktada, satıcının artık PO'yu onaylama veya reddetme seçeneği yoktur.
+Satıcılar PO'yu satıcı iş birliği arabirimini kullanarak onaylamak zorunda değildir. E-posta gönderebilir veya PO'yu kabul ettiklerini başka kanallar aracılığıyla bildirebilirler. Siparişi daha sonra el ile onaylayabilirsiniz. Bu durumda, satıcıdan yanıt olmasa bile siparişin onaylandığını belirten bir uyarı alırsınız. Daha sonra PO onay geçmişinde herhangi bir yanıt alınmamış açık onaylanmış sipariş olarak görünür. Bu noktada, satıcının artık PO'yu onaylama veya reddetme seçeneği yoktur.
 
 > [!NOTE]
 > Finance and Operations uygulamasında diğer işlemler için kullanılabilir durumda olan PO sürümü, bu sürüm satıcı işbirliği arabiriminde kaydedilmemiş olsa bile, daima en son sürümdür.
@@ -200,7 +200,7 @@ Aşağıdaki tablo, değişim yönetimi etkinleştirildiğinde PO'nun geçebilec
 
 | Eylem | Durum ve sürüm |
 |--------|--------------------|
-| PO başlangıç sürümü Finance and Operations uygulamasında oluşturulur. | Durum **Taslak**'tır. |
+| Satınalma siparişinin başlangıç sürümü Supply Chain Management'ta oluşturulur. | Durum **Taslak**'tır. |
 | PO onay işlemine yeniden gönderilir. (Onaylama işlemi, satıcının içinde bulunmadığı dahili bir işlemdir.) | PO onay işlemi sırasında reddedilmediyse, durum **Taslak** yerine **İncelemede** ve **Onay** olarak değiştirilir. Onaylanan PO bir sürüm olarak kaydedilir. | 
 | PO satıcıya gönderilir. | Sürüm satıcı iş birliği arabiriminde kaydedilir ve durum **Dış İncelemede** olarak değiştirilir. |
 | Satınalma siparişini güncelleştirmek için satıcı tarafından talep edilen bazı değişiklikleri el ile veya yanıttaki **PO güncelleştirmesini işle** eylemini kullanarak yaparsınız. | Durum tekrar **Taslak** olarak değiştirilir. |
@@ -237,13 +237,13 @@ Bu bölüm RFQ işlemi sırasında müşteri ve satıcı arasındaki etkileşiml
 
 ## <a name="public-sector-extensions"></a>Kamu sektörü genişletmeleri
 
-Kamu sektörü için genişletilmiş işlev RFQ servis talebinin satıcılara gönderilmesine ve yayımlanmasına olanak tanır. Bir RFQ yayımladığınızda, bilgi talep eden herhangi bir kişi çoğu kamu sektörü düzenlemesiyle uyumlu olan işi görüntüleyebilir. Sunulan tüm iş **Açık yayımlanan teklif talepleri** liste sayfasında gösterilir ve iptal edilen, beklemede olan veya kabul edilen RFQ'lar **Kapalı yayımlanan teklif talepleri** liste sayfasından görüntülenebilir. Bu belgeler ayrıca Finance and Operations dışındaki bir sitede aşağıdaki veri varlıklarıyla tümleştirmeler aracılığıyla görüntülenebilir:
+Kamu sektörü için genişletilmiş işlev RFQ servis talebinin satıcılara gönderilmesine ve yayımlanmasına olanak tanır. Bir RFQ yayımladığınızda, bilgi talep eden herhangi bir kişi çoğu kamu sektörü düzenlemesiyle uyumlu olan işi görüntüleyebilir. Sunulan tüm iş **Açık yayımlanan teklif talepleri** liste sayfasında gösterilir ve iptal edilen, beklemede olan veya kabul edilen RFQ'lar **Kapalı yayımlanan teklif talepleri** liste sayfasından görüntülenebilir. Bu belgeler ayrıca Supply Chain Management dışındaki bir sitede aşağıdaki veri varlıklarıyla tümleştirmeler aracılığıyla görüntülenebilir:
 
 - Yayımlanan teklif talepleri
 - Yayımlanan teklif talepleri satırı
 - Yayımlanan teklif talepleri başlık ekleri
 
-Bu varlıklar Finance and Operations'da provizyon sağlanan kullanıcılar olmayan ancak harici siteye anonim erişimleri olan kişilerin mevcut ve kapatılmış işleri görmesine olanak tanır. Ayrıca, **Gönder ve yayımla**'daki genişletilmiş işlev RFQ işlemi için parametreleri ayarlayan kullanıcının bir e-posta şablonu tanımlamasına da olanak tanır. Daha sonra, tedarik uzmanının RFQ servis talebini oluştururken, gerekli bilgileri RFQ servis talebindeki satıcılara gönderirken e-posta şablonunu seçmesi gerekir. 
+Bu varlıklar Supply Chain Management'ta provizyon sağlanan kullanıcılar olmayan ancak harici siteye anonim erişimleri olan kişilerin mevcut ve kapatılmış işleri görmesine olanak tanır. Ayrıca, **Gönder ve yayımla**'daki genişletilmiş işlev RFQ işlemi için parametreleri ayarlayan kullanıcının bir e-posta şablonu tanımlamasına da olanak tanır. Daha sonra, tedarik uzmanının RFQ servis talebini oluştururken, gerekli bilgileri RFQ servis talebindeki satıcılara gönderirken e-posta şablonunu seçmesi gerekir. 
 
 RFQ işlemi için parametreleri ayarlayan kullanıcı birden fazla e-posta şablonu oluşturabilir. Bu e-posta şablonları hem statik metin hem de aşağıdaki değiştirme belirteçlerini içerebilir. Bu belirteçler e-posta oluşturulduğunda bağlamsal değerlerle değiştirilir.
 
