@@ -42,6 +42,8 @@
               items:
                 - name: Dağıtım seçenekleri
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Bulut ile şirket içi özelliklerini karşılaştırma
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bulut dağıtımı
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bulut dağıtımları için sistem gereksinimleri
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Yenilikler veya değişiklikler
               items:
-                - name: Yenilikler veya değişiklikler giriş sayfası
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                - name: Finance and Operations uygulamaları 10.0.6'daki önizleme özellikleri (Kasım 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations uygulamaları 10.0.5 (Ekim 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations 10.0.4 (Temmuz 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Finance and Operations, Enterprise edition 7.3'
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Supply Chain Management 10.0.7 sürümündeki Önizleme özellikleri (Aralık 2019)
+                  href: get-started/whats-new-scm-10-0-7.md
+                - name: Supply Chain Management 10.0.6 (Kasım 2019)
+                  href: get-started/whats-new-scm-10-0-6.md
+                - name: Yenilikler veya önceki sürümde yapılan değişiklikler
+                  items:
+                    - name: Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations uygulamaları 10.0.5 (Ekim 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations 10.0.4 (Temmuz 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 'Finance and Operations, Enterprise edition 7.3'
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kaldırılan veya artık kullanılmayan özellikler
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ertelenen AX 2012 özellikleri
@@ -1687,8 +1693,6 @@
                       href: production-control/register-material-consumption-hand-held-device.md
                     - name: Temizlik ilkeleri kullanarak ham madde tüketimini kontrol etme
                       href: production-control/flushing-principles.md
-                    - name: Üretim emirlerinden çıkış noktalarına çapraz sevk
-                      href: production-control/cross-docking-opportunities.md
                     - name: Mamul mallar için üretim çıkış konumunu belirleme
                       href: production-control/production-output-location.md
                     - name: Ürün reçetelerini tamamlandı olarak bildirme
@@ -2285,6 +2289,12 @@
                   href: warehousing/manage-warehouse-workers.md
                 - name: Ambar işi için ertelenmiş işleme
                   href: warehousing/deferred-put.md
+            - name: Çapraz sevk
+              items:
+                - name: Üretim emirlerinden çıkış noktalarına çapraz sevk
+                  href: production-control/cross-docking-opportunities.md
+                - name: Çapraz sevk için sevkiyatı otomatik serbest bırakma
+                  href: warehousing/auto-release-shipment-for-cross-docking.md
             - name: Kısmi serbest bırakma ve kısmi sevkiyat
               items:
                 - name: Taşıma yükü kısmi sevkiyatı
@@ -2311,6 +2321,8 @@
                   href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
                 - name: Eksik çekilen madde yeniden tahsisini ayarlama
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                - name: Özel durum işleme için ambar işini iptal etme
+                  href: warehousing/cancel-warehouse-work.md
             - name: Stok sayımı
               items:
                 - name: Stok sayımı neden kodları
