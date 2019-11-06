@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f0a5e4c01b34b2adb8e7e0af967af2c2562b4d87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7d2cfb8e58221004ae5662aae3850adc577dc88
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176126"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570322"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Satış siparişlerinde gelir kabulü
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Gelir kabulü özelliği henüz Özellik yönetiminden açılamamaktadır. Şu anda, bu özelliği etkinleştirmek için yapılandırma anahtarları kullanmanız gerekir.
+> Gelir kabulü özelliği Özellik yönetiminden açılamaz. Şu anda, bu özelliği etkinleştirmek için yapılandırma anahtarları kullanmanız gerekir.
 
 Bu konuda, satış siparişleri ve faturalardaki geliri kabul etme konusunda temel işlevler açıklanmaktadır. Gelir kabulü, satış siparişinde ve satış siparişinden oluşturulan ilgili faturada kullanılabilir. Satış siparişi ayrıca bir Zaman ve malzeme projesi üzerinden de oluşturulabilir.
 

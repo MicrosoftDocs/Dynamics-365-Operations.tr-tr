@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48313e93573e3214de0ee02c4894b000dc18f67
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176120"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570137"
 ---
 # <a name="financial-management-home-page"></a>Mali yönetim giriş sayfası
 
@@ -69,4 +69,8 @@ Check out the how-to videos that are now available on the [Microsoft Dynamics 36
 ### <a name="countryregion-functionality"></a>Ülke/bölge işlevi
 
 Ülke/bölge düzenlemeleri vergi ayarını ve mali yönetimin diğer alanlarını etkiler. Ülkeye/bölgeye özel işlevler hakkında daha fazla bilgi edinmek için yardım içeriğimizin [Yerelleştirme ve mevzuat özellikleri](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) bölümüne bakın.
+
+### <a name="additional-content"></a>Ek içerik
+
+Tedarik zinciri yönetimi işlevi, kurumunuzun satınalmalarındaki mal ve servislere yönelik talep, sipariş verme, teslim alma, faturalama ve ödeme işlemlerini içeren tedarikten ödemeye sürecinin bölümlerini kapsar. Satınalmaları, stoğu ve imalatı yönetmeye yönelik özellikler hakkında daha fazla bilgi edinmek için [!Supply Chain Management giriş sayfasına](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) bakın. 
 

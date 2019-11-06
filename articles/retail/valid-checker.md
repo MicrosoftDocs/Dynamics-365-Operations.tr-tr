@@ -1,9 +1,9 @@
 ---
-title: Perakende işlem tutarlılık denetleyicisi
-description: Bu konuda Dynamics 365 Retail ürününde bulunan perakende işlem tutarlılık denetleyicisi açıklanmaktadır.
+title: Perakende hareketi tutarlılık denetleyicisi
+description: Bu konuda Dynamics 365 Retail ürününde bulunan perakende hareketi tutarlılık denetleyicisi açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,32 +18,32 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b956565ac15b3d7b638cedaadc20923ee87b9c61
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018438"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622609"
 ---
-# <a name="retail-transaction-consistency-checker"></a>Perakende işlem tutarlılık denetleyicisi
+# <a name="retail-transaction-consistency-checker"></a>Perakende hareketi tutarlılık denetleyicisi
 
 
 [!include [banner](includes/banner.md)]
 [!include [preview banner](includes/preview-banner.md)]
 
-Bu konuda, perakende işlem tutarlılık denetleyicisi işlevi açıklanmaktadır. Tutarlılık denetleyicisi, tutarsız hareketleri ekstre deftere nakil işlemi tarafından alınmadan önce tanımlayıp ayırır.
+Bu konuda, perakende hareketi tutarlılık denetleyicisi işlevi açıklanmaktadır. Tutarlılık denetleyicisi, tutarsız hareketleri ekstre deftere nakil işlemi tarafından alınmadan önce tanımlayıp ayırır.
 
-Bir ekstre Retail departmanında deftere nakledildiğinde deftere nakil işlemi, perakende işlem tablolarında tutarsız verilerin bulunması nedeniyle başarısız olabilir. Veri sorunu, satış noktası (POS) uygulamasında öngörülemeyen aksaklıklardan veya hareketlerin üçüncü taraf POS sistemleri tarafından yanlış aktarılmasından kaynaklanabilir. Bu tutarsızlıkların nasıl görünebileceğine ilişkin örnekler şunlardır: 
+Bir ekstre Retail departmanında deftere nakledildiğinde deftere nakil işlemi, perakende hareketi tablolarında tutarsız verilerin bulunması nedeniyle başarısız olabilir. Veri sorunu, satış noktası (POS) uygulamasında öngörülemeyen aksaklıklardan veya hareketlerin üçüncü taraf POS sistemleri tarafından yanlış aktarılmasından kaynaklanabilir. Bu tutarsızlıkların nasıl görünebileceğine ilişkin örnekler şunlardır: 
 
 - Üstbilgi tablosundaki işlem toplamı, satırlardaki işlem toplamıyla eşleşmiyordur.
 - Üstbilgi tablosundaki satır sayısı, işlem tablosundaki satır sayısıyla eşleşmiyordur.
 - Üstbilgi tablosundaki vergiler, satırlardaki vergi tutarıyla eşleşmiyordur. 
 
-Ekstre deftere nakil işlemi tarafından tutarsız işlemler seçildiğinde tutarsız satış faturaları ve ödeme günlükleri oluşturulur ve bunun sonucunda tüm ekstre deftere nakil işlemi başarısız olur. Ekstrelerin bu durumdan kurtarılması, birden fazla işlem tablosu arasında karmaşık veri düzeltmelerini içerir. Perakende işlem tutarlılık denetleyicisi, bu tür sorunları önler.
+Ekstre deftere nakil işlemi tarafından tutarsız işlemler seçildiğinde tutarsız satış faturaları ve ödeme günlükleri oluşturulur ve bunun sonucunda tüm ekstre deftere nakil işlemi başarısız olur. Ekstrelerin bu durumdan kurtarılması, birden fazla işlem tablosu arasında karmaşık veri düzeltmelerini içerir. Perakende hareketi tutarlılık denetleyicisi, bu tür sorunları önler.
 
 Aşağıdaki çizelgede işlem tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi gösterilmektedir.
 
-![Perakende işlem tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi](./media/validchecker.png "Perakende işlem tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi")
+![Perakende hareketi tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi](./media/validchecker.png "Perakende hareketi tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi")
 
 **Mağaza hareketlerini doğrula** toplu işlemi, aşağıdaki senaryolar için perakende hareket tablolarının tutarlılığını denetler.
 
@@ -59,15 +59,18 @@ Aşağıdaki çizelgede işlem tutarlılık denetleyicisi ile gerçekleştirilen
 - **Hediye kartı maddesi**: Retail hediye kartı maddelerinin iadesini desteklemez. Ancak, bir hediye kartının bakiyesi nakde çevrilebilir. Nakde çevirme satırı yerine iade satırı olarak işlenen bir hediye kartı maddesi için ekstre deftere nakil işlemi başarısız olur. Hediye kartı maddeleri için doğrulama işlemi, perakende hareket tablolarındaki yalnızca hediye kartı satır maddelerinin hediye kartı nakde çevirme satırları olmasını sağlamaya yardımcı olur.
 - **Negatif fiyat**: Negatif fiyat hareketi satırı olmadığını doğrular.
 - **Madde ve Ürün Çeşidi**: Hareket satırlarındaki maddelerin ve ürün çeşitlerinin madde ve ürün çeşidi ana dosyasında bulunduğunu doğrular.
-- **Vergi tutarı**: Vergi kayıtlarının satırlardaki vergi tutarlarıyla eşleştiğini doğrular. 
+- **Vergi tutarı**: Vergi kayıtlarının satırlardaki vergi tutarlarıyla eşleştiğini doğrular.
+- **Seri numarası**: Seri numarasıyla kontrol edilen maddelere ait hareket satırlarında seri numarasının bulunduğunu doğrular.
+- **İşaret**: Miktar ve net tutardaki işaretin tüm hareket satırlarında aynı olduğunu doğrular.
+- **İş tarihi**: Tüm perakende hareketlerine ilişkin tüm iş tarihleri için mali dönemlerin açık olduğunu doğrular.
 
 ## <a name="set-up-the-consistency-checker"></a>Tutarlılık denetleyicisini ayarlama
 
-**Perakende \> Perakende BT'si \> POS deftere nakil** bölümünden "Mağaza hareketlerini doğrula" toplu işlemini düzenli aralıklarla çalıştırılacak şekilde yapılandırın. Toplu iş, "Ekstreyi toplu olarak hesaplama" ve "Ekstreyi toplu olarak deftere nakletme" işlemlerinin ayarlanmasına benzer şekilde, mağaza organizasyon hiyerarşisine göre zamanlanabilir. Bu toplu işlemi günde birden fazla kez yürütülecek şekilde yapılandırmanızı ve her P işi uygulamasının sonunda çalıştırılacak şekilde zamanlamanızı öneririz.
+**Perakende \> Perakende BT \> POS deftere nakil** altından "Mağaza hareketlerini doğrula" toplu işini periyodik olarak çalışmak üzere yapılandırın. Toplu iş, "Ekstreyi toplu olarak hesaplama" ve "Ekstreyi toplu olarak deftere nakletme" işlemlerinin ayarlanmasına benzer şekilde, mağaza organizasyon hiyerarşisine göre zamanlanabilir. Bu toplu işlemi günde birden fazla kez yürütülecek şekilde yapılandırmanızı ve her P işi uygulamasının sonunda çalıştırılacak şekilde zamanlamanızı öneririz.
 
 ## <a name="results-of-validation-process"></a>Doğrulama işleminin sonuçları
 
-Toplu işlem tarafından gerçekleştirilen doğrulama denetlemesinin sonuçları, uygun perakende işlemde işaretlenir. Perakende işlem kaydındaki **Doğrulama durumu** alanı, ya **Başarılı** ya da **Hata** olarak ayarlanır ve son doğrulama çalıştırma tarihi, **Son doğrulama saati** alanında görünür.
+Toplu işlem tarafından gerçekleştirilen doğrulama denetlemesinin sonuçları, uygun perakende hareketinde işaretlenir. Perakende hareketi kaydındaki **Doğrulama durumu** alanı, ya **Başarılı** ya da **Hata** olarak ayarlanır ve son doğrulama çalıştırma tarihi, **Son doğrulama saati** alanında görünür.
 
 Doğrulama hatası ile ilgili daha fazla hata açıklaması görmek için ilgili perakende mağaza işlem kaydını seçip **Doğrulama hataları** düğmesine tıklayın.
 

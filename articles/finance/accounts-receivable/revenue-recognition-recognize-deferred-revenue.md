@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 244321e1eb246c46260326a8892924d9d9da75d3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176125"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570368"
 ---
 # <a name="recognize-deferred-revenue"></a>Ertelenen geliri kabul etme
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Gelir kabulü özelliği henüz Özellik yönetiminden açılamamaktadır. Şu anda, bu özelliği etkinleştirmek için yapılandırma anahtarları kullanmanız gerekir.
+> Gelir kabulü özelliği Özellik yönetiminden açılamaz. Şu anda, bu özelliği etkinleştirmek için yapılandırma anahtarları kullanmanız gerekir.
 
 Bu konuda, gelir kabulü planında geliri kabul etme işlemi açıklanmaktadır. Bir faturanın satış siparişi için deftere nakledilmesinin ardından gelir planı olan her satış siparişi satırı için bir gelir kabulü planı oluşturulur. Satırın gelirinin ertelenip ertelenmesi gerektiğini belirlemek için satırdaki gelir planı kullanılır.
 

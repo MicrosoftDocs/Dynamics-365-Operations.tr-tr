@@ -1,9 +1,9 @@
 ---
-title: Toplu işle izlenen maddelerin işlenmesi geliştirildi
+title: Toplu işle izlenen maddeler için geliştirilmiş işleme
 description: Bu konu, Perakende ekstresi deftere nakil işlemi sırasında toplu olarak izlenen maddeler için toplu işlerin işlenmesine yönelik yapılan geliştirmeleri açıklamaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 05/28/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,14 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 35823efa2844898d3eecbf91624b3e37d308b63c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 70d78f86f1df057d14d821a8c967e62eeeb4ff92
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025806"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622562"
 ---
-# <a name="improved-handling-of-batch-tracked-items"></a>Toplu işle izlenen maddelerin işlenmesi geliştirildi
+# <a name="improved-handling-of-batch-tracked-items"></a>Toplu işle izlenen maddeler için geliştirilmiş işleme
+
+
+[!include [banner](includes/banner.md)]
+
+[!include [banner](includes/preview-banner.md)]
+
 
 Retail Satış Noktasında (POS), toplu iş numaraları toplu olarak izlenen maddeler için satış sırasında yakalanamaz. Ancak, belirli yapılandırmalarda satışlar merkezde müşteri siparişleri veya ekstre deftere nakil işlemi aracılığıyla deftere aktarıldığında, Microsoft Dynamics sistemi toplu izlenen maddeler için geçerli toplu iş numaraları olmasını bekler ve bu numaralar faturalama işlemi sırasında kullanılır.
 
@@ -38,4 +44,7 @@ Müşteri siparişleri için kullanılan varsayılan toplu iş kodunu tanımlama
 Ekstre deftere nakil işlemi aracılığıyla satış siparişi faturalama için kullanılan varsayılan toplu iş kodunu tanımlamak üzere **Perakende parametreleri** sayfasında bulunan **Deftere nakil** sekmesindeki **Stok güncelleştirmesi** hızlı sekmesinde **Varsayılan toplu iş kodu** alanını ayarlayın.
 
 > [!NOTE]
-> Bu işlev yalnızca, belirli mağaza ambarı ve maddeleri için gelişmiş ambarlama etkin olduğunda kullanılabilir. Sonraki bir sürümde, işlem gelişmiş ambar yönetimi kullanılmayan senaryolar için de desteklenecektir.
+> Bu işlev yalnızca, belirli mağaza ambarı ve maddeleri için gelişmiş ambarlama etkin olduğunda kullanılabilir. Sonraki bir sürümde, işlev gelişmiş ambar yönetimi kullanılmayan senaryolar için de desteklenecektir.
+
+> [!NOTE]
+> Gelişmiş olmayan ambar yönetimi senaryoları için ekstre deftere nakledilirken, toplu işle izlenen maddelerin gelişmiş şekilde işlenmesiyle ilgili destek Retail 10.0.5 sürümünde kullanıma sunuldu.
