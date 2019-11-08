@@ -3,7 +3,7 @@ title: Bakım tahminleri
 description: Bu konuda Varlık Yönetimi'nde bakım tahminleri açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,111 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024511"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626305"
 ---
-# <a name="maintenance-forecasts"></a><span data-ttu-id="d88bc-103">Bakım tahminleri</span><span class="sxs-lookup"><span data-stu-id="d88bc-103">Maintenance forecasts</span></span>
+# <a name="maintenance-forecasts"></a><span data-ttu-id="cacb2-103">Bakım tahminleri</span><span class="sxs-lookup"><span data-stu-id="cacb2-103">Maintenance forecasts</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-<span data-ttu-id="d88bc-104">Bir iş emri oluşturduğunuzda, ilgili varlıklar ve bakım işi türleriyle iş emri işleri oluşturursunuz.</span><span class="sxs-lookup"><span data-stu-id="d88bc-104">When you create a work order, you create work order jobs with related assets and maintenance job types.</span></span> <span data-ttu-id="d88bc-105">Bakım tahminlerini içeren bir bakım işi türü seçtiğinizde, tahminler otomatik olarak iş emrine kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="d88bc-105">When you select a maintenance job type containing maintenance forecasts, the forecasts are automatically copied to the work order.</span></span>
+<span data-ttu-id="cacb2-104">Bir iş emri oluşturduğunuzda, ilgili varlıklar ve bakım işi türleri bulunan iş emri işleri oluşturursunuz.</span><span class="sxs-lookup"><span data-stu-id="cacb2-104">When you create a work order, you create work order jobs that have related assets and maintenance job types.</span></span> <span data-ttu-id="cacb2-105">Bakım tahminlerini içeren bir bakım işi türü seçtiğinizde, tahminler otomatik olarak iş emrine kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="cacb2-105">When you select a maintenance job type that contains maintenance forecasts, the forecasts are automatically copied to the work order.</span></span>
 
-<span data-ttu-id="d88bc-106">Bir iş emrinde tahmin satırları ekleyebilir veya silebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d88bc-106">You may be able to add or delete forecast lines on a work order.</span></span> <span data-ttu-id="d88bc-107">Bir iş emri yaşam döngüsü durumu, ilgili proje türü ve proje tipiyle ilgili aşama kuralları kurulumu, tahmin satırları ekleyip ekleyemeyeceğinizi veya düzenleyip düzenleyemeyeceğinizi belirler.</span><span class="sxs-lookup"><span data-stu-id="d88bc-107">The setup of a work order lifecycle state, the related project type, and the stage rules related to the project type determines if you are able to add or edit forecast lines.</span></span> 
+<span data-ttu-id="cacb2-106">Bir iş emrine tahmin satırları ekleyebilir veya bunları bir iş emrinden silebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cacb2-106">You might be able to add forecast lines to a work order or delete them from a work order.</span></span> <span data-ttu-id="cacb2-107">Bir iş emri yaşam döngüsü durumu, ilgili proje türü ve proje türüyle ilgili aşama kuralları kurulumu, tahmin satırları ekleyip ekleyemeyeceğinizi veya düzenleyip düzenleyemeyeceğinizi belirler.</span><span class="sxs-lookup"><span data-stu-id="cacb2-107">The setup of the work order lifecycle state, the related project type, and the stage rules that are related to the project type determine whether you can add or edit forecast lines.</span></span> <span data-ttu-id="cacb2-108">İş emri yaşam döngüsü durumları ve ilgili proje aşamaları hakkında daha fazla bilgi için bkz. [Tahminler, iş emirleri ve projeler](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).</span><span class="sxs-lookup"><span data-stu-id="cacb2-108">For more information about work order lifecycle states and related project stages, see [Forecasts, work orders, and projects](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).</span></span>
 
-1. <span data-ttu-id="d88bc-108">**Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d88bc-108">Click **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
+1. <span data-ttu-id="cacb2-109">**Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-109">Select **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
 
-2. <span data-ttu-id="d88bc-109">Listeden iş emrini seçin ve **Tahmin**'e tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d88bc-109">Select the work order in the list, and click **Forecast**.</span></span> <span data-ttu-id="d88bc-110">**İş emri bakım tahmininde**, iş emri işinde seçilen bakım işi türünden gelen tahmin satırları görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="d88bc-110">In **Work order maintenance forecast**, forecast lines from the maintenance job type selected on the work order job are displayed.</span></span>
-
-
-## <a name="add-hours-forecast-to-a-work-order"></a><span data-ttu-id="d88bc-111">İş emrine tahmin saatleri ekleme</span><span class="sxs-lookup"><span data-stu-id="d88bc-111">Add hours forecast to a work order</span></span>
-
-1. <span data-ttu-id="d88bc-112">Tahmin eklemek istediğiniz iş emri işini seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-112">Select the work order job to which you want to add a forecast.</span></span>
-
-2. <span data-ttu-id="d88bc-113">**Saatler** hızlı sekmesinde yeni bir satır oluşturmak için **Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d88bc-113">On the **Hours** FastTab, click **Add** to create a new line.</span></span>
-
-3. <span data-ttu-id="d88bc-114">**Kategori** alanında bir kategori seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-114">Select a category in the **Category** field.</span></span>
-
-4. <span data-ttu-id="d88bc-115">**Saat** alanına tahmini saat sayısı ekleyin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-115">Insert number of forecasted hours in the **Hours** field.</span></span>
-
-5. <span data-ttu-id="d88bc-116">**Satır özelliği** alanında, satırda kullanılacak masraf türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-116">In the **Line property** field, select the charge type to be used on the line.</span></span>
+2. <span data-ttu-id="cacb2-110">Listede iş emrini seçin ve sonra Eylem bölmesinde > **İş emri** sekmesinde > **Proje** grubunda **Tahmin** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-110">Select the work order in the list, and then, on the Action Pane > **Work order** tab > the **Project** group, select **Forecast**.</span></span> <span data-ttu-id="cacb2-111">**İş emri bakım tahmini** sayfasında, iş emri işinde seçilen bakım işi türünden gelen tahmin satırları görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="cacb2-111">The **Work order maintenance forecast** page shows forecast lines from the maintenance job type that is selected on the work order job.</span></span>
 
 
-## <a name="add-items-forecast-to-a-work-order"></a><span data-ttu-id="d88bc-117">İş emrine madde tahminleri ekleme</span><span class="sxs-lookup"><span data-stu-id="d88bc-117">Add items forecast to a work order</span></span>
+## <a name="add-an-hours-forecast-to-a-work-order"></a><span data-ttu-id="cacb2-112">İş emrine saat tahmini ekleme</span><span class="sxs-lookup"><span data-stu-id="cacb2-112">Add an hours forecast to a work order</span></span>
 
-<span data-ttu-id="d88bc-118">Bir iş emri bakım tahminine madde eklemenin üç yolu vardır: Yedek parça listesi veya varlık ürün reçetesine dahil edilmeyen maddeler (yedek parçalar) için satırlar oluşturabilir, onaylanan yedek parçalar listesinden yedek parçalar seçebilir ve maddeleri Varlık ürün reçetesinden seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d88bc-118">There are three ways to add items to a work order maintenance forecast: You can create lines for items (spare parts) that are not included in the spare parts list or asset BOM, you can select spare parts from the approved spare parts list, and you can select items from the asset BOM.</span></span>
+1. <span data-ttu-id="cacb2-113">**İş emri bakım tahmini** sayfasında, tahmin eklenecek iş emri işini seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-113">On the **Work order maintenance forecast** page, select the work order job to add a forecast to.</span></span>
 
-1. <span data-ttu-id="d88bc-119">Tahmin eklemek istediğiniz iş emri işini seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-119">Select the work order job to which you want to add a forecast.</span></span>
+2. <span data-ttu-id="cacb2-114">**Saatler** hızlı sekmesinde yeni bir satır oluşturmak için **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-114">On the **Hours** FastTab, select **Add** to create a new line.</span></span>
 
-2. <span data-ttu-id="d88bc-120">**Maddeler** hızlı sekmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-120">Select the **Items** FastTab.</span></span>
+3. <span data-ttu-id="cacb2-115">**Kategori** alanında bir kategori seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-115">In the **Category** field, select a category.</span></span>
 
-3. <span data-ttu-id="d88bc-121">Yedek parçalar listesi veya varlık ürün reçetesi listesinde bulunmayan bir yedek parça için yeni bir satır oluşturmak üzere **Ekle**'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d88bc-121">Click **Add** to create a new line for a spare part that is not on the spare parts list or the asset BOM list.</span></span>
+4. <span data-ttu-id="cacb2-116">**Saat** alanına tahmini saat sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-116">In the **Hours** field, enter the number of forecasted hours.</span></span>
 
-4. <span data-ttu-id="d88bc-122">**Madde numarası** alanında bir maddeyi seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-122">Select the item in the **Item number** field.</span></span>
-
-5. <span data-ttu-id="d88bc-123">**Satış miktarı** alanına miktar ekleyin ve **Birim** alanında bir miktar birimi seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-123">Insert quantity in the **Sales quantity** field, and select a quantity unit in the **Unit** field.</span></span>
-
-6. <span data-ttu-id="d88bc-124">İlgili alanlara maliyet fiyatını ve para birimini ekleyin ve bir **Satır özelliği** seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-124">Insert cost price and currency in the relevant fields, and select a **Line property**.</span></span>
-
-7. <span data-ttu-id="d88bc-125">Madde satırlarında görüntülenen boyutların listesini değiştirmek isterseniz **Stok** > **Boyutları görüntüle**'ye tıklayın, boyutları seçin ve **Kurulumu kaydet** düğmesinde "Evet" seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-125">If you want to change the list of dimensions displayed on the item lines, click **Inventory** > **Display dimensions**, select the dimensions, and select "Yes" on the **Save setup** toggle button.</span></span>
-
-8. <span data-ttu-id="d88bc-126">Bakım tahminine onaylı bir yedek parça eklemek istiyorsanız, **Yedek parça ekle**'ye tıklayın, yedek parçayı seçin, gerekiyorsa ilgili bilgileri düzenleyin **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d88bc-126">If you want to add an approved spare part to the maintenance forecast, click **Add spare parts**, select the spare part, edit related information if required, and click **OK**.</span></span>
-
-9. <span data-ttu-id="d88bc-127">Tahmine varlık ürün reçetesi maddeleri eklemek istiyorsanız, **Ürün reçetesi maddeleri ekle**'ye tıklatın, maddeyi seçin, gerekiyorsa ilgili bilgileri düzenleyin ve **Tamam**'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d88bc-127">If you want to add asset BOM items to the forecast, click **Add BOM items**, select the item, edit related information if required, and click **OK**.</span></span>
-
-10. <span data-ttu-id="d88bc-128">Seçilen satırdaki maddenin Varlık Yönetiminde varlıklar, bakım iş türü varsayılanları, yedek parçalar ve iş emirleriyle ilişkili olarak nerede kullanıldığıyla ilgili genel bir bakış edinmek için **Maddenin kullanıldığı yer**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-128">Click **Item where used** if you want to get an overview of where the item on the selected line is used in Asset Management in relation to assets, maintenance job type defaults, spare parts, and work orders.</span></span> 
+5. <span data-ttu-id="cacb2-117">**Satır özelliği** alanında, satırda kullanılması gereken masraf türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-117">In the **Line property** field, select the type of charge that should be used on the line.</span></span>
 
 
+## <a name="add-an-items-forecast-to-a-work-order"></a><span data-ttu-id="cacb2-118">İş emrine madde tahmini ekleme</span><span class="sxs-lookup"><span data-stu-id="cacb2-118">Add an items forecast to a work order</span></span>
 
-## <a name="add-expense-forecast-to-a-work-order"></a><span data-ttu-id="d88bc-129">İş emrine gider tahminleri ekleme</span><span class="sxs-lookup"><span data-stu-id="d88bc-129">Add expense forecast to a work order</span></span>
+<span data-ttu-id="cacb2-119">Bir iş emri bakım tahminine madde eklemenin üç yolu vardır.</span><span class="sxs-lookup"><span data-stu-id="cacb2-119">There are three ways to add items to a work order maintenance forecast.</span></span> <span data-ttu-id="cacb2-120">Yedek parça listesi veya varlık ürün reçetesine (BOM) dahil edilmeyen maddeler (yedek parçalar) için satırlar oluşturabilir, onaylanan yedek parçalar listesinden yedek parçalar seçebilir veya maddeleri Varlık ürün reçetesinden seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cacb2-120">You can create lines for items (spare parts) that aren't included on the spare parts list or the asset bill of materials (BOM), you can select spare parts from the approved spare parts list, or you can select items from the asset BOM.</span></span>
 
-1. <span data-ttu-id="d88bc-130">Bu konu, bir iş emrine nasıl gider tahmini ekleneceğini açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="d88bc-130">This topic explains how to add an expense forecast to a work order.</span></span> <span data-ttu-id="d88bc-131">Formun sol tarafında, tahmin eklemek istediğiniz iş emri işini seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-131">In the left-hand side of the form, select the work order job to which you want to add a forecast.</span></span>
+- <span data-ttu-id="cacb2-121">**İş emri bakım tahmini** sayfasında, tahmin eklenecek iş emri işini seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-121">On the **Work order maintenance forecast** page, select the work order job to to add a forecast to.</span></span>
 
-2. <span data-ttu-id="d88bc-132">**Gider** hızlı sekmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-132">Select the **Expense** FastTab.</span></span>
+- <span data-ttu-id="cacb2-122">**Maddeler** hızlı sekmesinde, uygun yöntemi kullanarak bakım tahminine maddeler ekleyin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-122">On the **Items** FastTab, add items to the maintenance forecast by using the appropriate method.</span></span>
 
-3. <span data-ttu-id="d88bc-133">Yeni bir satır oluşturmak için **Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d88bc-133">Click **Add** to create a new line.</span></span>
+<span data-ttu-id="cacb2-123">Yedek parçalar listesi veya varlık ürün reçetesinde bulunmayan bir yedek parça için yeni bir satır oluşturmak üzere şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-123">To create a line for a spare part that isn't on the spare parts list or the asset BOM, follow these steps:</span></span>
 
-4. <span data-ttu-id="d88bc-134">**Kategori** alanında bir kategori seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-134">Select a category in the **Category** field.</span></span>
+1. <span data-ttu-id="cacb2-124">**Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-124">Select **Add**.</span></span>
+2. <span data-ttu-id="cacb2-125">**Madde numarası** alanında maddeyi seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-125">In the **Item number** field, select the item.</span></span>
+3. <span data-ttu-id="cacb2-126">**Satış miktarı** alanına miktarı girin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-126">In the **Sales quantity** field, enter the quantity.</span></span>
+4. <span data-ttu-id="cacb2-127">**Birim** alanında, miktar için ölçü birimini seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-127">In the **Unit** field, select the unit of measure for the quantity.</span></span>
+5. <span data-ttu-id="cacb2-128">**Maliyet fiyatı** ve **Para birimi** alanlarına ilgili değerleri girin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-128">In the **Cost price** and **Currency** fields, enter appropriate values.</span></span>
+6. <span data-ttu-id="cacb2-129">**Satır özelliği** alanında bir satır özelliği seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-129">In the **Line property** field, select a line property.</span></span>
+7. <span data-ttu-id="cacb2-130">Madde satırlarında görüntülenen boyutların listesini değiştirmek için **Stok** > **Boyutları görüntüle**'yi seçin, boyutları seçin ve ardından **Kurulumu kaydet** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="cacb2-130">To change the list of dimensions that is shown on the item lines, select **Inventory** > **Display dimensions**, select the dimensions, and then set the **Save setup** option to **Yes**.</span></span>
 
-5. <span data-ttu-id="d88bc-135">**Miktar** alanına miktarı girin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-135">Insert quantity in the **Quantity** field.</span></span>
+<span data-ttu-id="cacb2-131">Onaylı bir yedek parça listesinden yedek parça eklemek için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="cacb2-131">To add a spare part from an approved spare parts list, follow these steps:</span></span>
 
-6. <span data-ttu-id="d88bc-136">İlgili alanlara maliyet fiyatı, satış para birimi ve satış fiyatını ekleyin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-136">Insert cost price, sales currency, and sales price in the relevant fields.</span></span>
+1. <span data-ttu-id="cacb2-132">**Yedek parça ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-132">Select **Add spare parts**.</span></span>
+2. <span data-ttu-id="cacb2-133">Yedek parçayı seçin ve gerek duyduğunuz gibi ilgili bilgileri düzenleyin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-133">Select the spare part, and edit the related information as you require.</span></span>
+3. <span data-ttu-id="cacb2-134">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-134">Select **OK**.</span></span>
 
-7. <span data-ttu-id="d88bc-137">**Satır özelliği** alanında, satırda kullanılacak masraf türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="d88bc-137">In the **Line property** field, select the charge type to be used on the line.</span></span>
+<span data-ttu-id="cacb2-135">Varlık ürün reçetesinden bir madde eklemek için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="cacb2-135">To add an item from the asset BOM, follow these steps:</span></span>
+
+1. <span data-ttu-id="cacb2-136">**Ürün reçetesi maddeleri ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-136">Select **Add BOM items**.</span></span>
+2. <span data-ttu-id="cacb2-137">Maddeyi seçin ve gerek duyduğunuz gibi ilgili bilgileri düzenleyin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-137">Select the item, and edit the related information as you require.</span></span>
+3. <span data-ttu-id="cacb2-138">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-138">Select **OK**.</span></span>
+
+<span data-ttu-id="cacb2-139">Seçilen satırdaki maddenin Varlık Yönetiminde varlıklar, bakım işi türü varsayılanları, yedek parçalar ve iş emirleriyle ilişkili olarak nerede kullanıldığıyla ilgili genel bir bakış edinmek için **Maddenin kullanıldığı yer**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-139">To get an overview that shows where the item on the selected line is used in relation to assets, maintenance job type defaults, spare parts, and work orders in Asset Management, select **Item where used**.</span></span> <span data-ttu-id="cacb2-140">Bu genel bakış hakkında daha fazla bilgi için bkz. [Maddenin kullanıldığı yer](../controlling-and-reporting/item-where-used.md).</span><span class="sxs-lookup"><span data-stu-id="cacb2-140">For more information about this overview, see [Item where used](../controlling-and-reporting/item-where-used.md).</span></span>
+
+
+## <a name="add-an-expense-forecast-to-a-work-order"></a><span data-ttu-id="cacb2-141">İş emrine gider tahmini ekleme</span><span class="sxs-lookup"><span data-stu-id="cacb2-141">Add an expense forecast to a work order</span></span>
+
+1. <span data-ttu-id="cacb2-142">**İş emri bakım tahmini** sayfasında, tahmin eklenecek iş emri işini seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-142">On the **Work order maintenance forecast** page, select the work order job to add a forecast to.</span></span>
+
+2. <span data-ttu-id="cacb2-143">**Gider** hızlı sekmesinde satır oluşturmak için **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-143">On the **Expense** FastTab, select **Add** to create a line.</span></span>
+
+3. <span data-ttu-id="cacb2-144">**Kategori** alanında bir kategori seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-144">In the **Category** field, select a category.</span></span>
+
+4. <span data-ttu-id="cacb2-145">**Miktar** alanına miktarı girin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-145">In the **Quantity** field, enter the quantity.</span></span>
+
+5. <span data-ttu-id="cacb2-146">**Maliyet fiyatı**, **Satış para birimi** ve **Satış fiyatı** alanlarına uygun değerleri girin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-146">In the **Cost price**, **Sales currency**, and **Sales price** fields, enter appropriate values.</span></span>
+
+6. <span data-ttu-id="cacb2-147">**Satır özelliği** alanında, satırda kullanılması gereken masraf türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-147">In the **Line property** field, select the type of charge that should be used on the line.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="d88bc-138">**Bakım tahmini toplamları** hızlı sekmesinde, seçili iş emri işi ve iş emri için her bir sekmede oluşturulan satır sayısının genel görünümünü görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d88bc-138">On the **Maintenance forecast totals** FastTab, you can see an overview of the number of lines created on each tab, for the selected work order job and for the work order.</span></span> <span data-ttu-id="d88bc-139">Ayrıca, iş emri işi ve iş emri için tahmin edilen çalışma saatlerinin toplamını görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d88bc-139">Also, you can see a sum of forecasted work hours for the work order job and for the work order.</span></span>
+><span data-ttu-id="cacb2-148">**Bakım tahmini toplamları** hızlı sekmesi, seçili iş emri işi ve iş emri için her hızlı sekmede oluşturulan satır sayısının genel görünümünü gösterir.</span><span class="sxs-lookup"><span data-stu-id="cacb2-148">The **Maintenance forecast totals** FastTab shows an overview of the number of lines that have been created, for the selected work order job and for the work order, on each FastTab.</span></span> <span data-ttu-id="cacb2-149">Ayrıca, iş emri işi ve iş emri için tahmin edilen çalışma saatlerinin toplamını da gösterir.</span><span class="sxs-lookup"><span data-stu-id="cacb2-149">It also shows the total forecasted work hours for the work order job and the work order.</span></span>
+
+<span data-ttu-id="cacb2-150">Aşağıdaki şekilde **İş emri bakım bakım tahmini** sayfası örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="cacb2-150">The illustration below shows an example of the **Work order maintenance forecast** page.</span></span>
 
 ![Şekil 1](media/06-work-orders.png)
 
 
-## <a name="automatic-update-of-work-order-forecasts"></a><span data-ttu-id="d88bc-141">İş emri tahminlerini otomatik güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="d88bc-141">Automatic update of work order forecasts</span></span>
+## <a name="automatic-update-of-work-order-forecasts"></a><span data-ttu-id="cacb2-152">İş emri tahminlerini otomatik güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="cacb2-152">Automatic update of work order forecasts</span></span>
 
-<span data-ttu-id="d88bc-142">Varlık Yönetimi'nde, diğer modüllerde güncelleştirilen saat maliyetleri, madde maliyetleri ve giderler için iş emri tahminlerindeki değişiklikleri otomatik olarak güncelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d88bc-142">In Asset Management, you can automatically update any changes in work order forecasts regarding hour costs, item costs, and expenses, which have been updated in other modules.</span></span> <span data-ttu-id="d88bc-143">Bu işlem, en son maliyet fiyatlarının iş emri tahminlerinde her zaman kullanılmasını sağlamak için yapılır.</span><span class="sxs-lookup"><span data-stu-id="d88bc-143">This is done to ensure that the latest cost prices are always used in your work order forecasts.</span></span> <span data-ttu-id="d88bc-144">[Bakım işi türü tahminlerinde](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md) de benzer güncelleştirmeler yapmak mümkündür.</span><span class="sxs-lookup"><span data-stu-id="d88bc-144">It is also possible to make similar updates for [maintenance job type forecasts](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span></span>
+<span data-ttu-id="cacb2-153">Microsoft Dynamics 365 for Finance and Operations'daki diğer modüllerde saat maliyetleri, madde maliyetleri ve giderler güncelleştirilirse Varlık Yönetimindeki iş emri tahminleri bu değişiklikleri yansıtacak şekilde otomatik olarak güncelleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="cacb2-153">If hour costs, item costs, and expenses are updated in other modules in Microsoft Dynamics 365 for Finance and Operations, work order forecasts in Asset Management can automatically be updated to reflect those changes.</span></span> <span data-ttu-id="cacb2-154">Bu özellik, en son maliyet fiyatlarının iş emri tahminlerinde her zaman kullanılmasını sağlamaya yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="cacb2-154">This capability helps guarantee that the latest cost prices are always used in your work order forecasts.</span></span> <span data-ttu-id="cacb2-155">[Bakım işi türü tahminlerinde](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md) de benzer güncelleştirmeler yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cacb2-155">You can also do similar updates for [maintenance job type forecasts](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).</span></span>
 
-1. <span data-ttu-id="d88bc-145">**Varlık yönetimi** > **Periyodik** > **Tahmin** > **İş emri tahmini güncelleştir** seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d88bc-145">Click **Asset management** > **Periodic** > **Forecast** > **Update work order forecast**.</span></span>
+1. <span data-ttu-id="cacb2-156">**Varlık yönetimi** > **Periyodik** > **Tahmin** > **İş emri tahminini güncelleştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-156">Select **Asset management** > **Periodic** > **Forecast** > **Update work order forecast**.</span></span>
 
-2. <span data-ttu-id="d88bc-146">**İş emri tahminini güncelleştir** iletişim kutusunda gerekirse, belirli iş emirleri veya iş emri işleriyle ilgili seçimler ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d88bc-146">In the **Update work order forecast** drop-down dialog, you can add selections regarding specific work orders or work order jobs, if required.</span></span> <span data-ttu-id="d88bc-147">Bu seçimleri yapmak için **Filtre**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d88bc-147">Click **Filter** to make those selections.</span></span>
+2. <span data-ttu-id="cacb2-157">**İş emri tahminini güncelleştir** iletişim kutusunda, **Dahil edilecek kayıtlar** hızlı sekmesinde gerekirse, belirli iş emirleri veya iş emri işleriyle ilgili seçimler ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cacb2-157">In the **Update work order forecast** dialog, on the **Records to include** FastTab, you can add selections regarding specific work orders or work order jobs, as you require.</span></span> <span data-ttu-id="cacb2-158">İlgili seçimleri yapmak için **Filtre**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-158">Click **Filter** to make the relevant selections.</span></span>
 
-3. <span data-ttu-id="d88bc-148">Gerekirse, **Arka planda çalıştır** hızlı sekmesinde otomatik güncelleştirmeyi toplu iş olarak ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d88bc-148">If required, you can set up the automatic update as a batch job on the **Run in the background** FastTab.</span></span>
+3. <span data-ttu-id="cacb2-159">**Arka planda çalıştır** hızlı sekmesinde gerektiğinde otomatik güncelleştirmeyi toplu iş olarak ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cacb2-159">On the **Run in the background** FastTab, you can set up the automatic update as a batch job, as you require.</span></span>
 
-4. <span data-ttu-id="d88bc-149">Tahmin güncelleştirmesini başlatmak için **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d88bc-149">Click **OK** to start the forecast update.</span></span>
+4. <span data-ttu-id="cacb2-160">Tahmin güncelleştirmesini başlatmak için **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="cacb2-160">Select **OK** to start the forecast update.</span></span>
 
+
+<span data-ttu-id="cacb2-161">Aşağıdaki şekilde **İş emri tahmini güncelleştir** iletişim kutusu örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="cacb2-161">The illustration below shows an example of the **Update work order forecast** dialog.</span></span>
 
 ![Şekil 2](media/07-work-orders.png)
-

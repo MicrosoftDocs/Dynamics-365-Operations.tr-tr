@@ -18,85 +18,85 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 59cb0203422b7d81b5ca0077370fd9cbdb4a7f89
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 1340f17e57f49d6adb9dc0a7c769bafa655de56e
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010097"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551294"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-10-2018"></a><span data-ttu-id="0e928-103">Dynamics 365 Talent: Core HR'daki yenilikler veya değişiklikler (10 Eylül 2018)</span><span class="sxs-lookup"><span data-stu-id="0e928-103">What's new or changed in Dynamics 365 Talent: Core HR (September 10, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-10-2018"></a><span data-ttu-id="ae6e6-103">Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (10 Eylül 2018)</span><span class="sxs-lookup"><span data-stu-id="ae6e6-103">What's new or changed in Dynamics 365 Talent - Core HR (September 10, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="0e928-104">**Derleme 8.1.138.0**</span><span class="sxs-lookup"><span data-stu-id="0e928-104">**Build 8.1.138.0**</span></span>
+<span data-ttu-id="ae6e6-104">**Derleme 8.1.138.0**</span><span class="sxs-lookup"><span data-stu-id="ae6e6-104">**Build 8.1.138.0**</span></span>
 
-<span data-ttu-id="0e928-105">Bu konuda, Microsoft Dynamics 365 Talent: Core HR'daki yeni veya değişen özellikler açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="0e928-105">This topic describes features that are either new or changed in Microsoft Dynamics 365 Talent: Core HR.</span></span>
+<span data-ttu-id="ae6e6-105">Bu konuda, Microsoft Dynamics 365 Talent: Core HR'daki yeni veya değişen özellikler açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-105">This topic describes features that are either new or changed in Microsoft Dynamics 365 Talent: Core HR.</span></span>
 
-## <a name="allow-specific-time-of-day-on-time-off-requests-half-days"></a><span data-ttu-id="0e928-106">İzin isteklerinde günün belirli zamanına izin verme (yarım günler)</span><span class="sxs-lookup"><span data-stu-id="0e928-106">Allow specific time of day on time-off requests (half days)</span></span>
+## <a name="allow-specific-time-of-day-on-time-off-requests-half-days"></a><span data-ttu-id="ae6e6-106">İzin isteklerinde günün belirli zamanına izin verme (yarım günler)</span><span class="sxs-lookup"><span data-stu-id="ae6e6-106">Allow specific time of day on time-off requests (half days)</span></span>
 
-<span data-ttu-id="0e928-107">İzin ve devamsızlık, bunların gün şeklinde gönderileceği gibi ayarlandıysa, yarım gün tanımı da etkinleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0e928-107">If leave and absence is set up so that time off is submitted in days, you can now also enable a half-day definition.</span></span> <span data-ttu-id="0e928-108">Daha sonra, kullanıcılar izin talebi gönderdiklerinde, günün ilk yarısını mı yoksa ikinci yarısını mı izinli olmak istediklerini belirtebilirler.</span><span class="sxs-lookup"><span data-stu-id="0e928-108">Then, when users submit time-off requests, they can specify whether they are requesting the first half or the second half of the day off.</span></span>
+<span data-ttu-id="ae6e6-107">İzin ve devamsızlık, bunların gün şeklinde gönderileceği gibi ayarlandıysa, yarım gün tanımı da etkinleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-107">If leave and absence is set up so that time off is submitted in days, you can now also enable a half-day definition.</span></span> <span data-ttu-id="ae6e6-108">Daha sonra, kullanıcılar izin talebi gönderdiklerinde, günün ilk yarısını mı yoksa ikinci yarısını mı izinli olmak istediklerini belirtebilirler.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-108">Then, when users submit time-off requests, they can specify whether they are requesting the first half or the second half of the day off.</span></span>
 
-<span data-ttu-id="0e928-109">Varsayılan olarak, bu seçenek kapalıdır.</span><span class="sxs-lookup"><span data-stu-id="0e928-109">By default, this option is turned off.</span></span> <span data-ttu-id="0e928-110">Çalışanların günün ilk veya ikinci yarısını izin isteyebilmeleri için bu özelliği İnsan kaynakları **İzin ve devamsızlık** parametrelerinde açmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="0e928-110">For employees to request the first half or second half of the day off, you must turn on this option in the **Leave and absence** area of Human resources parameters.</span></span>
+<span data-ttu-id="ae6e6-109">Varsayılan olarak, bu seçenek kapalıdır.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-109">By default, this option is turned off.</span></span> <span data-ttu-id="ae6e6-110">Çalışanların günün ilk veya ikinci yarısını izin isteyebilmeleri için bu özelliği İnsan kaynakları **İzin ve devamsızlık** parametrelerinde açmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-110">For employees to request the first half or second half of the day off, you must turn on this option in the **Leave and absence** area of Human resources parameters.</span></span>
 
-<span data-ttu-id="0e928-111">Bu özelliğin güvenlik ayrıcalığı İnsan Kaynakları Parametrelerini Koruma'dır.</span><span class="sxs-lookup"><span data-stu-id="0e928-111">The security privilege for this feature is Maintain Human Resources Parameters.</span></span>
+<span data-ttu-id="ae6e6-111">Bu özelliğin güvenlik ayrıcalığı İnsan Kaynakları Parametrelerini Koruma'dır.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-111">The security privilege for this feature is Maintain Human Resources Parameters.</span></span>
 
-## <a name="validation-of-leave-and-absence-entries"></a><span data-ttu-id="0e928-112">İzin ve devamsızlık girişlerinin doğrulaması</span><span class="sxs-lookup"><span data-stu-id="0e928-112">Validation of leave and absence entries</span></span>
+## <a name="validation-of-leave-and-absence-entries"></a><span data-ttu-id="ae6e6-112">İzin ve devamsızlık girişlerinin doğrulaması</span><span class="sxs-lookup"><span data-stu-id="ae6e6-112">Validation of leave and absence entries</span></span>
 
-<span data-ttu-id="0e928-113">İznin nasıl yapılandırıldığına bağlı olarak, çalışma günlerinden daha uzun izin isteyen çalışanlara bir uyarı mesajı gösterilebilir.</span><span class="sxs-lookup"><span data-stu-id="0e928-113">Depending on how leave is configured, employees who try to submit a time-off request that is longer than their work day receive a warning message.</span></span> <span data-ttu-id="0e928-114">Başka bir deyişle, bunlar üzerinde belirli bir tarihte tam bir günden daha fazla izin isterlerse, uyarı verilir.</span><span class="sxs-lookup"><span data-stu-id="0e928-114">In other words, they are warned if they try to take more than a full day off on any given date.</span></span>
+<span data-ttu-id="ae6e6-113">İznin nasıl yapılandırıldığına bağlı olarak, çalışma günlerinden daha uzun izin isteyen çalışanlara bir uyarı mesajı gösterilebilir.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-113">Depending on how leave is configured, employees who try to submit a time-off request that is longer than their work day receive a warning message.</span></span> <span data-ttu-id="ae6e6-114">Başka bir deyişle, bunlar üzerinde belirli bir tarihte tam bir günden daha fazla izin isterlerse, uyarı verilir.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-114">In other words, they are warned if they try to take more than a full day off on any given date.</span></span>
 
-<span data-ttu-id="0e928-115">Bu doğrulamayı her zaman açıktır.</span><span class="sxs-lookup"><span data-stu-id="0e928-115">This validation is always turned on.</span></span> <span data-ttu-id="0e928-116">Tanımlanan gün eşiğini aşan çalışanları, izin isteklerinde bir uyarı alırlar.</span><span class="sxs-lookup"><span data-stu-id="0e928-116">Any time that employees exceed the day threshold that is defined, they receive a warning in their time-off request.</span></span>
+<span data-ttu-id="ae6e6-115">Bu doğrulamayı her zaman açıktır.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-115">This validation is always turned on.</span></span> <span data-ttu-id="ae6e6-116">Tanımlanan gün eşiğini aşan çalışanları, izin isteklerinde bir uyarı alırlar.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-116">Any time that employees exceed the day threshold that is defined, they receive a warning in their time-off request.</span></span>
 
-## <a name="additional-fields-for-conditional-statements-in-workflows"></a><span data-ttu-id="0e928-117">İş akışlarındaki koşul deyimleri için ek alanlar</span><span class="sxs-lookup"><span data-stu-id="0e928-117">Additional fields for conditional statements in workflows</span></span>
+## <a name="additional-fields-for-conditional-statements-in-workflows"></a><span data-ttu-id="ae6e6-117">İş akışlarındaki koşul deyimleri için ek alanlar</span><span class="sxs-lookup"><span data-stu-id="ae6e6-117">Additional fields for conditional statements in workflows</span></span>
 
-<span data-ttu-id="0e928-118">Ek alanla, koşul ifadelerine ve yer tutuculara Core HR içindeki çeşitli iş akışları için eklenmiştir.</span><span class="sxs-lookup"><span data-stu-id="0e928-118">Additional fields have been added to conditional statements and placeholders for several workflows in Core HR.</span></span>
+<span data-ttu-id="ae6e6-118">Ek alanla, koşul ifadelerine ve yer tutuculara Core HR içindeki çeşitli iş akışları için eklenmiştir.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-118">Additional fields have been added to conditional statements and placeholders for several workflows in Core HR.</span></span>
 
-<span data-ttu-id="0e928-119">Aşağıdaki alanlar ücret, işten çıkarma ve transfer iş akışları için eklenmiştir:</span><span class="sxs-lookup"><span data-stu-id="0e928-119">The following fields have been added to the compensation, termination, and transfer workflows:</span></span>
+<span data-ttu-id="ae6e6-119">Aşağıdaki alanlar ücret, işten çıkarma ve transfer iş akışları için eklenmiştir:</span><span class="sxs-lookup"><span data-stu-id="ae6e6-119">The following fields have been added to the compensation, termination, and transfer workflows:</span></span>
 
-- <span data-ttu-id="0e928-120">EmploymentType</span><span class="sxs-lookup"><span data-stu-id="0e928-120">EmploymentType</span></span>
-- <span data-ttu-id="0e928-121">LegalEntity</span><span class="sxs-lookup"><span data-stu-id="0e928-121">LegalEntity</span></span>
-- <span data-ttu-id="0e928-122">AdjustedWorkerStartDate</span><span class="sxs-lookup"><span data-stu-id="0e928-122">AdjustedWorkerStartDate</span></span>
-- <span data-ttu-id="0e928-123">EmployerNoticeAmount</span><span class="sxs-lookup"><span data-stu-id="0e928-123">EmployerNoticeAmount</span></span>
-- <span data-ttu-id="0e928-124">EmployerUnitOfNotice</span><span class="sxs-lookup"><span data-stu-id="0e928-124">EmployerUnitOfNotice</span></span>
-- <span data-ttu-id="0e928-125">TransitionDate</span><span class="sxs-lookup"><span data-stu-id="0e928-125">TransitionDate</span></span>
-- <span data-ttu-id="0e928-126">WorkerNoticeAmount</span><span class="sxs-lookup"><span data-stu-id="0e928-126">WorkerNoticeAmount</span></span>
-- <span data-ttu-id="0e928-127">WorkerStartDate</span><span class="sxs-lookup"><span data-stu-id="0e928-127">WorkerStartDate</span></span>
-- <span data-ttu-id="0e928-128">WorkerUnitOfNotice</span><span class="sxs-lookup"><span data-stu-id="0e928-128">WorkerUnitOfNotice</span></span>
-- <span data-ttu-id="0e928-129">ProbationEndDate</span><span class="sxs-lookup"><span data-stu-id="0e928-129">ProbationEndDate</span></span>
-- <span data-ttu-id="0e928-130">Bölme</span><span class="sxs-lookup"><span data-stu-id="0e928-130">Position</span></span>
-- <span data-ttu-id="0e928-131">Birlik</span><span class="sxs-lookup"><span data-stu-id="0e928-131">Union</span></span>
-- <span data-ttu-id="0e928-132">Departman</span><span class="sxs-lookup"><span data-stu-id="0e928-132">Department</span></span>
-- <span data-ttu-id="0e928-133">PositionType</span><span class="sxs-lookup"><span data-stu-id="0e928-133">PositionType</span></span>
-- <span data-ttu-id="0e928-134">CompLocation</span><span class="sxs-lookup"><span data-stu-id="0e928-134">CompLocation</span></span>
-- <span data-ttu-id="0e928-135">Ünvan</span><span class="sxs-lookup"><span data-stu-id="0e928-135">Title</span></span>
-- <span data-ttu-id="0e928-136">İş</span><span class="sxs-lookup"><span data-stu-id="0e928-136">Job</span></span>
-- <span data-ttu-id="0e928-137">JobType</span><span class="sxs-lookup"><span data-stu-id="0e928-137">JobType</span></span>
-- <span data-ttu-id="0e928-138">JobFamily</span><span class="sxs-lookup"><span data-stu-id="0e928-138">JobFamily</span></span>
-- <span data-ttu-id="0e928-139">JobFunction</span><span class="sxs-lookup"><span data-stu-id="0e928-139">JobFunction</span></span>
+- <span data-ttu-id="ae6e6-120">EmploymentType</span><span class="sxs-lookup"><span data-stu-id="ae6e6-120">EmploymentType</span></span>
+- <span data-ttu-id="ae6e6-121">LegalEntity</span><span class="sxs-lookup"><span data-stu-id="ae6e6-121">LegalEntity</span></span>
+- <span data-ttu-id="ae6e6-122">AdjustedWorkerStartDate</span><span class="sxs-lookup"><span data-stu-id="ae6e6-122">AdjustedWorkerStartDate</span></span>
+- <span data-ttu-id="ae6e6-123">EmployerNoticeAmount</span><span class="sxs-lookup"><span data-stu-id="ae6e6-123">EmployerNoticeAmount</span></span>
+- <span data-ttu-id="ae6e6-124">EmployerUnitOfNotice</span><span class="sxs-lookup"><span data-stu-id="ae6e6-124">EmployerUnitOfNotice</span></span>
+- <span data-ttu-id="ae6e6-125">TransitionDate</span><span class="sxs-lookup"><span data-stu-id="ae6e6-125">TransitionDate</span></span>
+- <span data-ttu-id="ae6e6-126">WorkerNoticeAmount</span><span class="sxs-lookup"><span data-stu-id="ae6e6-126">WorkerNoticeAmount</span></span>
+- <span data-ttu-id="ae6e6-127">WorkerStartDate</span><span class="sxs-lookup"><span data-stu-id="ae6e6-127">WorkerStartDate</span></span>
+- <span data-ttu-id="ae6e6-128">WorkerUnitOfNotice</span><span class="sxs-lookup"><span data-stu-id="ae6e6-128">WorkerUnitOfNotice</span></span>
+- <span data-ttu-id="ae6e6-129">ProbationEndDate</span><span class="sxs-lookup"><span data-stu-id="ae6e6-129">ProbationEndDate</span></span>
+- <span data-ttu-id="ae6e6-130">Bölme</span><span class="sxs-lookup"><span data-stu-id="ae6e6-130">Position</span></span>
+- <span data-ttu-id="ae6e6-131">Birlik</span><span class="sxs-lookup"><span data-stu-id="ae6e6-131">Union</span></span>
+- <span data-ttu-id="ae6e6-132">Departman</span><span class="sxs-lookup"><span data-stu-id="ae6e6-132">Department</span></span>
+- <span data-ttu-id="ae6e6-133">PositionType</span><span class="sxs-lookup"><span data-stu-id="ae6e6-133">PositionType</span></span>
+- <span data-ttu-id="ae6e6-134">CompLocation</span><span class="sxs-lookup"><span data-stu-id="ae6e6-134">CompLocation</span></span>
+- <span data-ttu-id="ae6e6-135">Ünvan</span><span class="sxs-lookup"><span data-stu-id="ae6e6-135">Title</span></span>
+- <span data-ttu-id="ae6e6-136">İş</span><span class="sxs-lookup"><span data-stu-id="ae6e6-136">Job</span></span>
+- <span data-ttu-id="ae6e6-137">JobType</span><span class="sxs-lookup"><span data-stu-id="ae6e6-137">JobType</span></span>
+- <span data-ttu-id="ae6e6-138">JobFamily</span><span class="sxs-lookup"><span data-stu-id="ae6e6-138">JobFamily</span></span>
+- <span data-ttu-id="ae6e6-139">JobFunction</span><span class="sxs-lookup"><span data-stu-id="ae6e6-139">JobFunction</span></span>
 
-<span data-ttu-id="0e928-140">Aşağıdaki alanlar konum iş akışına eklendi:</span><span class="sxs-lookup"><span data-stu-id="0e928-140">The following fields have been added to the position workflow:</span></span>
+<span data-ttu-id="ae6e6-140">Aşağıdaki alanlar konum iş akışına eklendi:</span><span class="sxs-lookup"><span data-stu-id="ae6e6-140">The following fields have been added to the position workflow:</span></span>
 
-- <span data-ttu-id="0e928-141">Bölme</span><span class="sxs-lookup"><span data-stu-id="0e928-141">Position</span></span>
-- <span data-ttu-id="0e928-142">Birlik</span><span class="sxs-lookup"><span data-stu-id="0e928-142">Union</span></span>
-- <span data-ttu-id="0e928-143">Departman</span><span class="sxs-lookup"><span data-stu-id="0e928-143">Department</span></span>
-- <span data-ttu-id="0e928-144">PositionType</span><span class="sxs-lookup"><span data-stu-id="0e928-144">PositionType</span></span>
-- <span data-ttu-id="0e928-145">CompLocation</span><span class="sxs-lookup"><span data-stu-id="0e928-145">CompLocation</span></span>
-- <span data-ttu-id="0e928-146">Ünvan</span><span class="sxs-lookup"><span data-stu-id="0e928-146">Title</span></span>
-- <span data-ttu-id="0e928-147">İş</span><span class="sxs-lookup"><span data-stu-id="0e928-147">Job</span></span>
-- <span data-ttu-id="0e928-148">JobType</span><span class="sxs-lookup"><span data-stu-id="0e928-148">JobType</span></span>
-- <span data-ttu-id="0e928-149">JobFamily</span><span class="sxs-lookup"><span data-stu-id="0e928-149">JobFamily</span></span>
-- <span data-ttu-id="0e928-150">JobFunction</span><span class="sxs-lookup"><span data-stu-id="0e928-150">JobFunction</span></span>
+- <span data-ttu-id="ae6e6-141">Bölme</span><span class="sxs-lookup"><span data-stu-id="ae6e6-141">Position</span></span>
+- <span data-ttu-id="ae6e6-142">Birlik</span><span class="sxs-lookup"><span data-stu-id="ae6e6-142">Union</span></span>
+- <span data-ttu-id="ae6e6-143">Departman</span><span class="sxs-lookup"><span data-stu-id="ae6e6-143">Department</span></span>
+- <span data-ttu-id="ae6e6-144">PositionType</span><span class="sxs-lookup"><span data-stu-id="ae6e6-144">PositionType</span></span>
+- <span data-ttu-id="ae6e6-145">CompLocation</span><span class="sxs-lookup"><span data-stu-id="ae6e6-145">CompLocation</span></span>
+- <span data-ttu-id="ae6e6-146">Ünvan</span><span class="sxs-lookup"><span data-stu-id="ae6e6-146">Title</span></span>
+- <span data-ttu-id="ae6e6-147">İş</span><span class="sxs-lookup"><span data-stu-id="ae6e6-147">Job</span></span>
+- <span data-ttu-id="ae6e6-148">JobType</span><span class="sxs-lookup"><span data-stu-id="ae6e6-148">JobType</span></span>
+- <span data-ttu-id="ae6e6-149">JobFamily</span><span class="sxs-lookup"><span data-stu-id="ae6e6-149">JobFamily</span></span>
+- <span data-ttu-id="ae6e6-150">JobFunction</span><span class="sxs-lookup"><span data-stu-id="ae6e6-150">JobFunction</span></span>
 
-<span data-ttu-id="0e928-151">Koşul ifadelerindeki alanlar ve yer tutucular, önceden belirtilen iş akışlarını düzenlemeye erişime sahip tüm kullanıcılara açıktır.</span><span class="sxs-lookup"><span data-stu-id="0e928-151">Fields in conditional statements and placeholders are available to all users who have access to configure the previously mentioned workflows.</span></span>
+<span data-ttu-id="ae6e6-151">Koşul ifadelerindeki alanlar ve yer tutucular, önceden belirtilen iş akışlarını düzenlemeye erişime sahip tüm kullanıcılara açıktır.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-151">Fields in conditional statements and placeholders are available to all users who have access to configure the previously mentioned workflows.</span></span>
 
-## <a name="navigation-to-attract-from-personnel-management"></a><span data-ttu-id="0e928-152">Kişisel yönetimden Attract'e gezinti</span><span class="sxs-lookup"><span data-stu-id="0e928-152">Navigation to Attract from personnel management</span></span>
+## <a name="navigation-to-attract-from-personnel-management"></a><span data-ttu-id="ae6e6-152">Kişisel yönetimden Attract'e gezinti</span><span class="sxs-lookup"><span data-stu-id="ae6e6-152">Navigation to Attract from personnel management</span></span>
 
-<span data-ttu-id="0e928-153">Personel yönetiminde, Attract kurulmamışsa, **İşe alım adayları** bölümü, kullanıcıları "Burada gösterecek bir şey bulamadık" mesajı yerine Attract kullanmaya başlamaya yönlendirir.</span><span class="sxs-lookup"><span data-stu-id="0e928-153">In personnel management, if Attract hasn't been set up, the **Candidates to hire** section directs users to get started with Attract instead of showing the message, "We didn't find anything to show here."</span></span>
+<span data-ttu-id="ae6e6-153">Personel yönetiminde, Attract kurulmamışsa, **İşe alım adayları** bölümü, kullanıcıları "Burada gösterecek bir şey bulamadık" mesajı yerine Attract kullanmaya başlamaya yönlendirir.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-153">In personnel management, if Attract hasn't been set up, the **Candidates to hire** section directs users to get started with Attract instead of showing the message, "We didn't find anything to show here."</span></span>
 
-## <a name="other-changes"></a><span data-ttu-id="0e928-154">Diğer değişimler</span><span class="sxs-lookup"><span data-stu-id="0e928-154">Other changes</span></span>
+## <a name="other-changes"></a><span data-ttu-id="ae6e6-154">Diğer değişimler</span><span class="sxs-lookup"><span data-stu-id="ae6e6-154">Other changes</span></span>
 
-<span data-ttu-id="0e928-155">Bu sürüm çeşitli hatalara yönelik düzeltmeler içerir:</span><span class="sxs-lookup"><span data-stu-id="0e928-155">This release includes several additional bug fixes:</span></span>
+<span data-ttu-id="ae6e6-155">Bu sürüm çeşitli hatalara yönelik düzeltmeler içerir:</span><span class="sxs-lookup"><span data-stu-id="ae6e6-155">This release includes several additional bug fixes:</span></span>
 
-- <span data-ttu-id="0e928-156">Bir alt yüklenici işe alındığında **Ücret** sekmesi, istek/eylem sayfasında kullanılabilir olmamalıdır.</span><span class="sxs-lookup"><span data-stu-id="0e928-156">When a contractor is hired, the **Compensation** tab should not be available on the request/action page.</span></span>
-- <span data-ttu-id="0e928-157">İstek sonlandırma işleminde, tüm alanlar veri içerene kadar devam edemezsiniz.</span><span class="sxs-lookup"><span data-stu-id="0e928-157">During the request termination process, you can't continue until all required fields contain data.</span></span>
-- <span data-ttu-id="0e928-158">Personel yönetimi analizlerindeki sıralama düzeni ve tarih göstergesi sorunları giderilmiştir.</span><span class="sxs-lookup"><span data-stu-id="0e928-158">Sort order and date display issues on the Personnel management analytics have been addressed.</span></span>
+- <span data-ttu-id="ae6e6-156">Bir alt yüklenici işe alındığında **Ücret** sekmesi, istek/eylem sayfasında kullanılabilir olmamalıdır.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-156">When a contractor is hired, the **Compensation** tab should not be available on the request/action page.</span></span>
+- <span data-ttu-id="ae6e6-157">İstek sonlandırma işleminde, tüm alanlar veri içerene kadar devam edemezsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-157">During the request termination process, you can't continue until all required fields contain data.</span></span>
+- <span data-ttu-id="ae6e6-158">Personel yönetimi analizlerindeki sıralama düzeni ve tarih göstergesi sorunları giderilmiştir.</span><span class="sxs-lookup"><span data-stu-id="ae6e6-158">Sort order and date display issues on the Personnel management analytics have been addressed.</span></span>

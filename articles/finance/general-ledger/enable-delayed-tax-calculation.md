@@ -1,6 +1,6 @@
 ---
-title: Günlükte ertelenen vergi hesaplamasını etkinleştirme
-description: Bu konu, günlük satırlarının hacmi çok büyük olduğunda vergi hesaplama performansını artırmak için **Günlükte ertlenen vergi hesaplamasını etkinleştir** özelliğinin nasıl kullanılacağını açıklamaktadır.
+title: Günlüklerde ertelenen vergi hesaplamasını etkinleştirme
+description: Bu konu, günlük satırlarının sayısı çok fazla olduğunda vergi hesaplama performansını artırmaya yardımcı olmak için Ertlenen vergi hesaplaması özelliğinin nasıl etkinleştirileceğini açıklamaktadır.
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180302"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623533"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a><span data-ttu-id="80d1d-103">Günlükte ertelenen vergi hesaplamasını etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="80d1d-103">Enable delayed tax calculation on journal</span></span>
+# <a name="enable-delayed-tax-calculation-on-journals"></a><span data-ttu-id="c390b-103">Günlüklerde ertelenen vergi hesaplamasını etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="c390b-103">Enable delayed tax calculation on journals</span></span>
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="80d1d-104">Bu konu, günlük satırlarının hacmi çok büyük olduğunda vergi hesaplama performansını artırmak için **Günlükte ertlenen vergi hesaplamasını etkinleştir** özelliğinin nasıl kullanılacağını açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="80d1d-104">This topic explains how to use the **Enable delayed tax calculation on journal** feature to improve tax calculation performance when the volume of journal lines is huge.</span></span>
+<span data-ttu-id="c390b-104">Bu konu, günlüklerde satış vergisi hesaplamasını nasıl erteleyebileceğinizi açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="c390b-104">This topic explains how you can delay sales tax calculation on journals.</span></span> <span data-ttu-id="c390b-105">Bu özellik, birçok günlük satırı olduğunda vergi hesaplamalarında performansın artırılmasına yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="c390b-105">This capability helps improve the performance of tax calculations when there are many journal lines.</span></span>
 
-<span data-ttu-id="80d1d-105">Günlükteki geçerli satış vergisi hesaplama, kullanıcı vergiyle ilgili alanları güncelleştirdiğinde (satış vergisi grubu/madde satış vergisi grubu gibi) gerçek zamanlı olarak tetiklenen bir davranıştır.</span><span class="sxs-lookup"><span data-stu-id="80d1d-105">Current sales tax calculation behavior on journal is real-time triggered when user updates tax related fields, e.g. sales tax group/item sales tax group.</span></span> <span data-ttu-id="80d1d-106">Günlük satırı düzeyindeki her güncelleştirme, tüm günlük satırlarındaki vergi tutarını yeniden hesaplar.</span><span class="sxs-lookup"><span data-stu-id="80d1d-106">Any update at journal line level will re-calculate tax amount on all journal lines.</span></span> <span data-ttu-id="80d1d-107">Kullanıcının gerçek zamanlı hesaplanan vergi tutarını görebilmesine yardımcı olur, ancak günlük satırları hacmi çok büyük olduğunda performans sorununa neden olabilir.</span><span class="sxs-lookup"><span data-stu-id="80d1d-107">It helps user to see real-time calculated tax amount but it could also bring performance issue if  the volume of journal lines is huge.</span></span>
+<span data-ttu-id="c390b-106">Varsayılan olarak, vergiyle ilgili alanlar her güncelleştirildiğinde, günlük satırlarındaki satış vergisi tutarları hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="c390b-106">By default, sales tax amounts on journal lines are calculated whenever tax-related fields are updated.</span></span> <span data-ttu-id="c390b-107">Bu alanlar, satış vergisi grupları ve madde satış vergisi grupları için alanlar içerir.</span><span class="sxs-lookup"><span data-stu-id="c390b-107">These fields include the fields for sales tax groups and item sales tax groups.</span></span> <span data-ttu-id="c390b-108">Günlük satırındaki her güncelleştirme vergi tutarlarının tüm günlük satırlarında yeniden hesaplanmasını sağlar.</span><span class="sxs-lookup"><span data-stu-id="c390b-108">Any update to a journal line causes tax amounts to be recalculated for all journal lines.</span></span> <span data-ttu-id="c390b-109">Bu davranış kullanıcının gerçek zamanlı olarak hesaplanan vergi tutarlarının görebilmesine yardımcı olmakla birlikte, günlük satırlarının sayısı çok büyükse performansı da etkileyebilir.</span><span class="sxs-lookup"><span data-stu-id="c390b-109">Although this behavior helps user see tax amounts calculated in real time, it can also affect performance if the number of journal lines is very large.</span></span>
 
-<span data-ttu-id="80d1d-108">Bu özellik, performans sorununu çözmek için vergi hesaplamasını erteleme seçeneği sunar.</span><span class="sxs-lookup"><span data-stu-id="80d1d-108">This feature provides an option to delay tax calculation to solve performance issue.</span></span> <span data-ttu-id="80d1d-109">Bu özellik açık ise, vergi tutarı yalnızca Kullanıcı "Satış Vergisi" komutunu tıklattığında veya günlüğü deftere naklederken hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="80d1d-109">If this feature is turned on, tax amount will only be calculated when user clicks "Sales Tax" command or posts the journal.</span></span>
+<span data-ttu-id="c390b-110">Ertelenen vergi hesaplaması özelliği günlüklerde vergi hesaplamasını ertelemenizi sağlar ve bu nedenle performans sorunlarını gidermeye yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="c390b-110">The Delayed tax calculation feature lets you delay tax calculation on journals and therefore helps fix performance issues.</span></span> <span data-ttu-id="c390b-111">Bu özellik açık olduğunda, vergi tutarları yalnızca kullanıcı **Satış Vergisi**'ni seçerse veya günlüğü deftere naklederse hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="c390b-111">When this feature is turned on, tax amounts are calculated only when a user selects **Sales Tax** or posts the journal.</span></span>
 
-<span data-ttu-id="80d1d-110">Kullanıcı, parametreyi üç düzeyde açıp kapatabilir:</span><span class="sxs-lookup"><span data-stu-id="80d1d-110">User can turn on/off the parameter at three levels:</span></span>
-- <span data-ttu-id="80d1d-111">Tüzel kişiliğe göre</span><span class="sxs-lookup"><span data-stu-id="80d1d-111">By legal entity</span></span>
-- <span data-ttu-id="80d1d-112">Günlük adına göre</span><span class="sxs-lookup"><span data-stu-id="80d1d-112">By journal name</span></span>
-- <span data-ttu-id="80d1d-113">Günlük başlığına göre</span><span class="sxs-lookup"><span data-stu-id="80d1d-113">By journal header</span></span>
+<span data-ttu-id="c390b-112">Satış vergilerinin hesaplamasını üç düzeyde erteleyebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="c390b-112">You can delay the calculation of sales taxes at three levels:</span></span>
 
-<span data-ttu-id="80d1d-114">Sistem, günlük başlığındaki parametre değerini son değer olarak alacaktır.</span><span class="sxs-lookup"><span data-stu-id="80d1d-114">System will take the parameter value on journal header as final.</span></span> <span data-ttu-id="80d1d-115">Günlük başlığındaki parametre değeri varsayılan olarak günlük adından alınır.</span><span class="sxs-lookup"><span data-stu-id="80d1d-115">Parameter value on journal header will be defaulted from journal name.</span></span> <span data-ttu-id="80d1d-116">Günlük adı oluşturulduğunda, günlük adının parametre değeri varsayılan olarak genel muhasebe parametresi içinden alınır.</span><span class="sxs-lookup"><span data-stu-id="80d1d-116">Parameter value on journal name will be defaulted from general ledger parameter when the journal name is created.</span></span>
+- <span data-ttu-id="c390b-113">Tüzel kişilik</span><span class="sxs-lookup"><span data-stu-id="c390b-113">Legal entity</span></span>
+- <span data-ttu-id="c390b-114">Günlük adı</span><span class="sxs-lookup"><span data-stu-id="c390b-114">Journal name</span></span>
+- <span data-ttu-id="c390b-115">Günlük başlığı</span><span class="sxs-lookup"><span data-stu-id="c390b-115">Journal header</span></span>
 
-<span data-ttu-id="80d1d-117">Bu parametre açıksa, günlükteki "Gerçek satış vergisi tutarı" ve "Hesaplanan satış vergisi tutarı" alanları gizlenir.</span><span class="sxs-lookup"><span data-stu-id="80d1d-117">"Actual sales tax amount" and "Calculated sales tax amount" fields on journal will be hided if this parameter is turned on.</span></span> <span data-ttu-id="80d1d-118">Amaç, kullanıcının vergi hesaplamasını tetiklemeye başlamadan önce bu iki alanın değeri her zaman 0 olarak gösterileceği için kullanıcının kafasını karıştırmamaktır.</span><span class="sxs-lookup"><span data-stu-id="80d1d-118">The purpose is not to confuse user because the value of these two fields will always show 0 before user trigger the tax calculation.</span></span>
+<span data-ttu-id="c390b-116">Sistem, günlük başlığı ayarına öncelik verir.</span><span class="sxs-lookup"><span data-stu-id="c390b-116">The system gives priority to the setting for the journal header.</span></span> <span data-ttu-id="c390b-117">Varsayılan olarak, bu ayar günlük adından alınır.</span><span class="sxs-lookup"><span data-stu-id="c390b-117">By default, this setting is taken from the journal name.</span></span> <span data-ttu-id="c390b-118">Varsayılan olarak, günlük adı oluşturulduğunda, günlük adı içina yar **Genel muhasebe parametreleri** sayfasındaki ayardan alınır.</span><span class="sxs-lookup"><span data-stu-id="c390b-118">By default, the setting for the journal name is taken from the setting on the **General ledger parameters** page when the journal name is created.</span></span> <span data-ttu-id="c390b-119">Aşağıdaki bölümlerde tüzel kişiler, günlük adları ve günlük başlıkları için ertelenen vergi hesaplamasının nasıl etkinleştirileceği açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="c390b-119">The following sections explain how to turn on delayed tax calculation for legal entities, journal names, and journal headers.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a><span data-ttu-id="80d1d-119">Tüzel kişiliğe göre ertelenen vergi hesaplamasını etkinleştir</span><span class="sxs-lookup"><span data-stu-id="80d1d-119">Enable delayed tax calculation by legal entity</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a><span data-ttu-id="c390b-120">Tüzel kişilik düzeyinde ertelenen vergi hesaplamasını açma</span><span class="sxs-lookup"><span data-stu-id="c390b-120">Turn on delayed tax calculation at the legal entity level</span></span>
 
-1. <span data-ttu-id="80d1d-120">**Genel muhasebe > Genel muhasebe ayarı > Genel muhasebe parametreleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="80d1d-120">Go to **General ledger > Ledger setup > General ledger parameters**</span></span>
-2. <span data-ttu-id="80d1d-121">**Satış vergisi** sekmesine tıklayın</span><span class="sxs-lookup"><span data-stu-id="80d1d-121">Click **Sales tax** tab</span></span>
-3. <span data-ttu-id="80d1d-122">**Genel** hızlı sekmesi altında **Ertlenen vergi hesaplaması** parametresini bulun, açın/kapatın</span><span class="sxs-lookup"><span data-stu-id="80d1d-122">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+1. <span data-ttu-id="c390b-121">**Genel muhasebe\> Genel muhasebe ayarı \> Genel muhasebe parametreleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="c390b-121">Go to **General ledger \> Ledger setup \> General ledger parameters**.</span></span>
+2. <span data-ttu-id="c390b-122">**Satış vergisi** sekmesinde, **Genel** hızlı sekmesi üzerinde **Ertelenen vergi hesaplaması** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="c390b-122">On the **Sales tax** tab, on the **General** FastTab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-![](media/delayed-tax-calculation-gl.png)
+![Genel muhasebe parametrelerini görüntüsü](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a><span data-ttu-id="c390b-124">Günlük adı düzeyinde ertelenen vergi hesaplamasını açma</span><span class="sxs-lookup"><span data-stu-id="c390b-124">Turn on delayed tax calculation at the journal name level</span></span>
 
+1. <span data-ttu-id="c390b-125">**Genel muhasebe \> Günlük ayarı \> Günlük adları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="c390b-125">Go to **General ledger \> Journal setup \> Journal names**.</span></span>
+2. <span data-ttu-id="c390b-126">**Genel** hızlı sekmesinde, **Satış vergisi** bölümünde **Ertelenen vergi hesaplaması** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="c390b-126">On the **General** FastTab, in the **Sales tax** section, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a><span data-ttu-id="80d1d-123">Günlük adına göre ertelenen vergi hesaplamasını etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="80d1d-123">Enable delayed tax calculation by journal name</span></span>
+![Günlük adları görüntüsü](media/delayed-tax-calculation-journal-name.png)
 
-1. <span data-ttu-id="80d1d-124">**Genel muhasebe > Günlük ayarı > Günlük adları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="80d1d-124">Go to **General ledger > Journal setup > Journal names**</span></span>
-2. <span data-ttu-id="80d1d-125">**Genel** hızlı sekmesi altında **Ertlenen vergi hesaplaması** parametresini bulun, açın/kapatın</span><span class="sxs-lookup"><span data-stu-id="80d1d-125">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a><span data-ttu-id="c390b-128">Günlük başlığı düzeyinde ertelenen vergi hesaplamasını açma</span><span class="sxs-lookup"><span data-stu-id="c390b-128">Turn on delayed tax calculation at the journal header level</span></span>
 
-![](media/delayed-tax-calculation-journal-name.png)
+1. <span data-ttu-id="c390b-129">**Genel muhasebe \> Günlük girişleri \> Genel günlükler**.</span><span class="sxs-lookup"><span data-stu-id="c390b-129">Go to **General ledger \> Journal entries \> General journals**.</span></span>
+2. <span data-ttu-id="c390b-130">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="c390b-130">Select **New**.</span></span>
+3. <span data-ttu-id="c390b-131">Bir günlük adı seçin.</span><span class="sxs-lookup"><span data-stu-id="c390b-131">Select a journal name.</span></span>
+4. <span data-ttu-id="c390b-132">**Kurulum** sekmesinde, **Ertelenen vergi hesaplaması** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="c390b-132">On the **Setup** tab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal"></a><span data-ttu-id="80d1d-126">Günlüğe göre ertelenen vergi hesaplamasını etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="80d1d-126">Enable delayed tax calculation by journal</span></span>
-
-1. <span data-ttu-id="80d1d-127">**Genel muhasebe > Günlük girişleri > Genel günlükler**'e gidin</span><span class="sxs-lookup"><span data-stu-id="80d1d-127">Go to **General ledger > Journal entries > General journals**</span></span>
-2. <span data-ttu-id="80d1d-128">**Yeni**'ye tıklayın</span><span class="sxs-lookup"><span data-stu-id="80d1d-128">Click **New**</span></span>
-3. <span data-ttu-id="80d1d-129">Bir günlük adı seçin</span><span class="sxs-lookup"><span data-stu-id="80d1d-129">Select a journal name</span></span>
-4. <span data-ttu-id="80d1d-130">**Kurulum**’a tıklayın</span><span class="sxs-lookup"><span data-stu-id="80d1d-130">Click **Setup**</span></span>
-5. <span data-ttu-id="80d1d-131">**Ertlenen vergi hesaplaması** parametresini bulun, açın/kapatın</span><span class="sxs-lookup"><span data-stu-id="80d1d-131">Find parameter **Delayed tax calculation**, turn on/off it</span></span>
-
-![](media/delayed-tax-calculation-journal-header.png)
+![Genel günlük sayfası resmi](media/delayed-tax-calculation-journal-header.png)

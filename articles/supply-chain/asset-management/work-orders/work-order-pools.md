@@ -3,7 +3,7 @@ title: İş emri havuzları
 description: Bu konuda Varlık Yönetimi'nde iş emri havuzlarıyla çalışma açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,95 +16,96 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 069fa02073808fd7bbaac9bc1603e49ce4d450eb
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 161244cb4451ddc7b13b579fd02e828a61adeea4
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875946"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626374"
 ---
-# <a name="work-order-pools"></a><span data-ttu-id="69e98-103">İş emri havuzları</span><span class="sxs-lookup"><span data-stu-id="69e98-103">Work order pools</span></span>
-
+# <a name="work-order-pools"></a><span data-ttu-id="4a767-103">İş emri havuzları</span><span class="sxs-lookup"><span data-stu-id="4a767-103">Work order pools</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
+<span data-ttu-id="4a767-104">Ortak bir şeyler içeren iş emirlerini gruplamak için iş emri havuzlarını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4a767-104">You can use work order pools to group work orders that have something in common.</span></span> <span data-ttu-id="4a767-105">Aşağıda, iş emri havuzları oluşturabileceğiniz şeylerle ilgili bazı örnekler yer almaktadır:</span><span class="sxs-lookup"><span data-stu-id="4a767-105">Here are some examples of things that you can create  work order pools for:</span></span>
+
+- <span data-ttu-id="4a767-106">İş ekipleri, örneğin Bakım Ekibi, A veya Bakım Ekibi B</span><span class="sxs-lookup"><span data-stu-id="4a767-106">Work crews, for example, Maintenance Crew A or Maintenance Crew B</span></span>  
+
+- <span data-ttu-id="4a767-107">Profesyonel yetenekler, örneğin elektrikçi veya tesisatçı</span><span class="sxs-lookup"><span data-stu-id="4a767-107">Professional skills, such as electricians or plumbers</span></span>  
+
+- <span data-ttu-id="4a767-108">Fiziksel yerleşimler</span><span class="sxs-lookup"><span data-stu-id="4a767-108">Physical locations</span></span>  
+
+- <span data-ttu-id="4a767-109">Zaman planlamaları, örneğin hafta veya diğer dönemler</span><span class="sxs-lookup"><span data-stu-id="4a767-109">Time schedules, such as weeks or other periods</span></span>  
+
+<span data-ttu-id="4a767-110">Gerektiğinde, bir iş emrini birden fazla iş emri havuzuna koyabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4a767-110">As you require, you can put one work order in multiple work order pools.</span></span>
 
 
-<span data-ttu-id="69e98-104">Ortak bir şeyler içeren iş emirlerini gruplamak için iş emri havuzlarını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="69e98-104">You can use work order pools to group work orders that have something in common.</span></span> <span data-ttu-id="69e98-105">Örneğin, şunlar için bir iş emri havuzu oluşturabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="69e98-105">For example, you can create work order pools for</span></span>
+## <a name="create-a-work-order-pool"></a><span data-ttu-id="4a767-111">İş emri havuzu oluşturma</span><span class="sxs-lookup"><span data-stu-id="4a767-111">Create a work order pool</span></span>
 
-- <span data-ttu-id="69e98-106">iş ekibi, örneğin Bakım Ekibi, A, Bakım Ekibi B</span><span class="sxs-lookup"><span data-stu-id="69e98-106">work crews, for example, Maintenance Crew A, Maintenance Crew B</span></span>  
+<span data-ttu-id="4a767-112">**Tüm iş emri havuzları** veya **Etkin iş emri havuzları** liste sayfasında, iş emri havuzlarınızın genel görünümünü alabilir ve yeni havuzlar oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4a767-112">On the **All work order pools** or **Active work order pools** list page, you can get an overview of your work order pools and create new pools.</span></span>
 
-- <span data-ttu-id="69e98-107">profesyonel yetenekler, örneğin elektrikçi veya tesisatçı</span><span class="sxs-lookup"><span data-stu-id="69e98-107">professional skills, for example, electricians or plumbers</span></span>  
+1. <span data-ttu-id="4a767-113">**Varlık yönetimi** > **Genel** > **İş emri havuzları** > **Tüm iş emri havuzları** veya **Etkin iş emri havuzları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="4a767-113">Select **Asset management** > **Common** > **Work order pools** > **All work order pools** or **Active work order pools**.</span></span>
 
-- <span data-ttu-id="69e98-108">fiziksel yerleşimler</span><span class="sxs-lookup"><span data-stu-id="69e98-108">physical locations</span></span>  
+2. <span data-ttu-id="4a767-114">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="4a767-114">Select **New**.</span></span>
 
-- <span data-ttu-id="69e98-109">zaman planlamaları, örneğin hafta veya diğer dönemler</span><span class="sxs-lookup"><span data-stu-id="69e98-109">time schedules, for example, weeks or other periods</span></span>  
+3. <span data-ttu-id="4a767-115">**Havuz** alanına iş emri havuzu için bir kimlik girin.</span><span class="sxs-lookup"><span data-stu-id="4a767-115">In the **Pool** field, enter an ID for the work order pool.</span></span>
 
+4. <span data-ttu-id="4a767-116">**Ad** alanına, bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="4a767-116">the **Name** field, enter a name.</span></span>
 
-<span data-ttu-id="69e98-110">Gerekirse, bir iş emri birçok iş emri havuzuna yerleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="69e98-110">If required, one work order can be placed in many work order pools.</span></span>
+5. <span data-ttu-id="4a767-117">İş emri havuzunun etkin olduğunu belirtmek için **Etkin** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="4a767-117">Set the **Active** option to **Yes** to indicate that the work order pool is active.</span></span>
 
+6. <span data-ttu-id="4a767-118">İş emirlerinin otomatik olarak iş emri havuzundan kaldırılması için **İş emri ilişkilerini sil** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="4a767-118">Set the **Delete work order relations** option to **Yes** if work orders should automatically be removed from the work order pool.</span></span>
 
-## <a name="create-work-order-pool"></a><span data-ttu-id="69e98-111">İş emri havuzu oluşturma</span><span class="sxs-lookup"><span data-stu-id="69e98-111">Create work order pool</span></span>
+7. <span data-ttu-id="4a767-119">**Yaşam döngüsü durumunu sil** alanında, iş emri yaşam döngüsü durumunu seçin.</span><span class="sxs-lookup"><span data-stu-id="4a767-119">In the **Delete lifecycle state** field, select the work order lifecycle state.</span></span> <span data-ttu-id="4a767-120">Örneğin, bir iş emrini tamamlamaya yönelik iş emri yaşam döngüsü durumu, iş emri havuzlarının ilişkilerini otomatik olarak silecek şekilde ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="4a767-120">For example, the work order lifecycle state for completing a work order could be set to automatically delete relations to work order pools.</span></span>
 
-<span data-ttu-id="69e98-112">**Tüm iş emri havuzlarında** veya **Etkin iş emri havuzlarında**, iş emri havuzlarınızın genel görünümünü alabilir ve yeni havuzlar oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="69e98-112">In **All work order pools** or **Active work order pools**, you can get an overview of your work order pools and create new pools.</span></span>
+    <span data-ttu-id="4a767-121">İş siparişi havuzunuza iş emirlerini hemen eklemeye başlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4a767-121">You can start adding work orders to your work order pool right away.</span></span>
 
-1. <span data-ttu-id="69e98-113">**Varlık yönetimi** > **Genel** > **İş emri havuzları** > **Tüm iş emri havuzları** veya **Etkin iş emri havuzları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-113">Click **Asset management** > **Common** > **Work order pools** > **All work order pools** or **Active work order pools**.</span></span>
+8. <span data-ttu-id="4a767-122">**İş emirleri** hızlı sekmesinde **Satır ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="4a767-122">On the **Work orders** FastTab, select **Add line**.</span></span>
 
-2. <span data-ttu-id="69e98-114">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-114">Click **New**.</span></span>
+9. <span data-ttu-id="4a767-123">**İş emri** alanında bir iş emri seçin.</span><span class="sxs-lookup"><span data-stu-id="4a767-123">In the **Work order** field, select a work order.</span></span> <span data-ttu-id="4a767-124">İlgili alanlar otomatik olarak güncelleştirilir.</span><span class="sxs-lookup"><span data-stu-id="4a767-124">The related fields are automatically updated.</span></span>
 
-3. <span data-ttu-id="69e98-115">**Havuz** alanına bir iş havuzu kodu ve **Ad** alanına bir ad ekleyin.</span><span class="sxs-lookup"><span data-stu-id="69e98-115">Insert a work order pool ID in the **Pool** field and a name in the **Name** field.</span></span>
+10. <span data-ttu-id="4a767-125">Daha fazla iş emri eklemek için 8 ile 9. adımlar arasındaki işlemleri tekrarlayın.</span><span class="sxs-lookup"><span data-stu-id="4a767-125">Repeat steps 8 through 9 to add more work orders.</span></span>
 
-4. <span data-ttu-id="69e98-116">İş emri havuzunun etkin olduğunu belirtmek için **Etkin** düğmesinde "Evet" seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="69e98-116">Select "Yes" on the **Active** toggle button to indicate that the work order pool is active.</span></span>
+11. <span data-ttu-id="4a767-126">Eklediğiniz iş emirlerinin belirli bir sırada gerçekleştirilmesi gerekiyorsa, sıralamayı belirtmek için **Sıralama düzeni** alanına **1**, **2**, **3**, vb. sayılarını girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4a767-126">If the work orders that you added should be done in a specific order, in the **Sort order** field, you can enter the numbers **1**, **2**, **3**, and so on, to specify that order.</span></span>
 
-5. <span data-ttu-id="69e98-117">İş siparişlerinin otomatik olarak iş emri havuzundan kaldırılmasını istiyorsanız, **İş emri ilişkilerini sil** iki durumlu düğmesinde "Evet" seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="69e98-117">Select "Yes" on the **Delete work order relations** toggle button if you want work orders to be automatically removed from the work order pool.</span></span>
+12. <span data-ttu-id="4a767-127">İş emri havuzuna dahil edilen tüm iş emirlerinin listesini görmek için, Eylem bölmesindeki **İş emri havuzu** sekmesinde bulunan **İlgili iş emri havuzunu görüntüle** grubunda **İş emirleri**'ni seçerek **Tüm iş emirleri** liste sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="4a767-127">To view a list of all the work orders that are included in the work order pool, on the Action Pane, on the **Work order pool** tab, in the **View work order pool related** group, select **Work orders** to open the **All work orders** list page.</span></span>
 
-6. <span data-ttu-id="69e98-118">**Yaşam döngüsü durumunu sil** alanında, iş emri yaşam döngüsü durumunu seçin.</span><span class="sxs-lookup"><span data-stu-id="69e98-118">In the **Delete lifecycle state** field, select the work order lifecycle state.</span></span> <span data-ttu-id="69e98-119">Örneğin, bir iş emrini tamamlamaya yönelik iş emri yaşam döngüsü durumu, iş emri havuzlarının ilişkilerini otomatik olarak silecek şekilde ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="69e98-119">For example, the work order lifecycle state for completing a work order could be set to automatically delete relations to work order pools.</span></span>
+13. <span data-ttu-id="4a767-128">Bakım zamanlaması, zamanlanmamış iş emirleri ve zamanlanmış iş emirleri için kapasite yükünü hesaplamak ve görüntülemek için, Eylem bölmesindeki **İş emri havuzu** sekmesinde, **İlgili iş emri havuzunu görüntüle** grubunda **Kapasite yükünü** seçerek **Kapasite yükünü hesapla** iletişim kutusunu açın.</span><span class="sxs-lookup"><span data-stu-id="4a767-128">To calculate and view capacity load for the maintenance schedule, unscheduled work orders, and scheduled work orders, on the Action Pane, on the **Work order pool** tab, in the **View work order pool related** group, select **Capacity load** to open the **Calculate capacity load** dialog.</span></span>
 
-7. <span data-ttu-id="69e98-120">İş siparişi havuzunuza iş emirlerini hemen eklemeye başlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="69e98-120">You can start adding work orders to your work order pool right away.</span></span> <span data-ttu-id="69e98-121">**İş emirleri** hızlı sekmesinde **Satır ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-121">On the **Work orders** FastTab, click **Add line**.</span></span>
+14. <span data-ttu-id="4a767-129">Bakım zamanlaması, zamanlanmamış iş emirleri ve zamanlanmış iş emirleriyle ilgili maddeler için (yedek parçalar ve diğer gerekli maddeler) tahminleri hesaplamak ve görüntülemek için, Eylem bölmesindeki **İş emri havuzu** sekmesinde, **İlgili iş emri havuzunu görüntüle** grubunda **Madde tahminini** seçerek **Madde tahminini hesapla** iletişim kutusunu açın.</span><span class="sxs-lookup"><span data-stu-id="4a767-129">To calculate and view forecasts for items (spare parts and other required items) that are related to maintenance schedule, unscheduled work orders, and scheduled work orders, on the Action Pane, on the **Work order pool** tab, in the **View work order pool related** group, select **Item forecast** to open the **Calculate item forecast** dialog.</span></span>
 
-8. <span data-ttu-id="69e98-122">**İş emri** alanında bir iş emri seçin.</span><span class="sxs-lookup"><span data-stu-id="69e98-122">Select a work order in the **Work order** field.</span></span> <span data-ttu-id="69e98-123">İlgili alanlar otomatik olarak güncelleştirilir.</span><span class="sxs-lookup"><span data-stu-id="69e98-123">The related fields are automatically updated.</span></span>
+15. <span data-ttu-id="4a767-130">İş emri havuzundaki iş emirleriyle ilgili satınalma taleplerinin listesini görmek için, Eylem bölmesindeki **İş emri havuzu** sekmesinde bulunan **Tedarik** grubunda **İş emri satınalma talebi**'ni seçerek **İş emri satınalma talebi** liste sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="4a767-130">To view a list of purchase requisitions that are related to the work orders in the work order pool, on the Action Pane, on the **Work order pool** tab, in the **Procurement** group, select **Work order purchase requisition** to open the **Work order purchase requisition** list page.</span></span>
 
-9. <span data-ttu-id="69e98-124">Daha fazla iş emri eklemek istiyorsanız, 7-8 arasındaki adımları yineleyin.</span><span class="sxs-lookup"><span data-stu-id="69e98-124">Repeat steps 7-8 if you want to add more work orders.</span></span>
-
-10. <span data-ttu-id="69e98-125">**Sıralama düzeni** alanında, iş emirlerinin belirli bir sırada gerçekleştirilmesi gerekip gerekmediğini belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="69e98-125">In the **Sort order** field, you can indicate if the work orders should be carried out in a certain order.</span></span> <span data-ttu-id="69e98-126">Seçili iş emirleri için belirli bir sıra belirtmek üzere 1, 2, 3 ve bu şekilde sayılar ekleyin.</span><span class="sxs-lookup"><span data-stu-id="69e98-126">Insert numbers 1, 2, 3, and so on to indicate a specific sequence for the selected work orders.</span></span>
-
-11. <span data-ttu-id="69e98-127">İş emri havuzuna dahil edilen tüm iş emirlerinin listesini görmek için **İş emirleri** düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-127">Click the **Work orders** button to see a list of all the work orders included in the work order pool.</span></span>
-
-12. <span data-ttu-id="69e98-128">Bakım zamanlaması, planlanmamış iş emirleri ve planlanan iş emirleri için kapasite yükünü hesaplamak ve görüntülemek üzere **Kapasite yükü**'nü açmak için **Kapasite yükü** düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-128">Click the **Capacity load** button to open **Capacity load** to calculate and view capacity load for maintenance schedule, not-scheduled work orders, and scheduled work orders.</span></span>
-
-13. <span data-ttu-id="69e98-129">Bakım zamanlaması, planlanmamış iş emirleri ve planlanan iş emirleriyle ilgili maddeler (yedek parçalar ve diğer gerekli maddeler) için tahminleri hesaplamak ve görüntülemek üzere **Madde tahmini**'ni açmak için **Madde tahmini** düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-129">Click the **Item forecast** button to open **Item forecast** to calculate and view forecasts for items (spare parts and other required items) related to maintenance schedule, not-scheduled work orders, and scheduled work orders.</span></span>
-
-14. <span data-ttu-id="69e98-130">İş emri havuzundaki iş emirleriyle ilgili satın alma taleplerinin listesini görmek için **İş emri satınalma talebi** listesini açmak üzere **İş emri satın alma talebi** düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-130">Click the **Work order purchase requisition** button to open the **Work order purchase requisition** list to see a list of purchase requisitions related to the work orders in the work order pool.</span></span>
-
-15. <span data-ttu-id="69e98-131">İş emri havuzundaki iş emirleriyle ilgili satın alma siparişlerinin listesini görmek için **İş emri satınalma** listesini açmak üzere **İş emri satınalma** düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-131">Click the **Work order purchase** button to open the **Work order purchase** list to see a list of purchase orders related to the work orders in the work order pool.</span></span>
+16. <span data-ttu-id="4a767-131">İş emri havuzundaki iş emirleriyle ilgili satınalma siparişlerinin listesini görmek için, Eylem bölmesindeki **İş emri havuzu** sekmesinde bulunan **Tedarik** grubunda **İş emri satınalma işlemi**'ni seçerek **İş emri satınalma işlemi** liste sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="4a767-131">To view a list of purchase orders that are related to the work orders in the work order pool, on the Action Pane, on the **Work order pool** tab, in the **Procurement** group, select **Work order purchase** to open the **Work order purchase** list page.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="69e98-132">Bir iş emri havuzu artık çalışma planınızla ilgili değilse, **İş emri havuzu** liste görünümünde bu havuz için **Etkin** onay kutusunu "Hayır" olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-132">When a work order pool is no longer relevant for your work planning, set the **Active** check box for that pool to "No" in the **Work order pool** list view.</span></span>
+><span data-ttu-id="4a767-132">Bir iş emri havuzu artık iş planınızla ilgili değilse, **İş emri havuzu** sayfasındaki liste görünümünde havuz için **Etkin** seçeneğini **Hayır** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="4a767-132">When a work order pool is no longer relevant to your work planning, set the **Active** option for that pool to **No** in the list view of the **Work order pool** page.</span></span>
 
-<span data-ttu-id="69e98-133">Örneğin,daha sonra diğer iş emirleri için kullanabileceğiniz boş bir havuz oluşturmak üzere tüm iş emri satırlarını silmek istiyorsanız **İş emri ilişkilerini sil** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="69e98-133">Select the **Delete work order relations** check box if you want to delete all work order lines, for example to create an empty pool that you can later use for other work orders.</span></span> <span data-ttu-id="69e98-134">Daha sonra yeni iş emri ilişkileri oluşturmak için iş emri havuzunu kullanmak istiyorsanız **İş emri ilişkilerini sil** onay kutusunun işaretini kaldırmayı unutmayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-134">Remember to clear the **Delete work order relations** check box if you want to use the work order pool to create new work order relations later.</span></span>
+<span data-ttu-id="4a767-133">Tüm iş emri satırlarını silmek için, **İş emri ilişkilerini sil** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="4a767-133">To delete all worker order lines, set the **Delete work order relations** option to **Yes**.</span></span> <span data-ttu-id="4a767-134">Bu seçenek, örneğin, daha sonra diğer iş emirleri için kullanabileceğiniz boş bir havuz oluşturmak istediğinizde yararlıdır.</span><span class="sxs-lookup"><span data-stu-id="4a767-134">This option is useful if, for example, you want to create an empty pool that you can use later for other work orders.</span></span> <span data-ttu-id="4a767-135">Daha sonra yeni iş emri ilişkileri oluşturmak için iş emri havuzunu kullanmaya hazır olduğunuzda **İş emri ilişkilerini sil** seçeneğini **Hayır** olarak ayarlamayı unutmayın.</span><span class="sxs-lookup"><span data-stu-id="4a767-135">When you're ready to use the work order pool to create new work order relations later, remember to set the **Delete work order relations** option to **No**.</span></span>
 
+<span data-ttu-id="4a767-136">Aşağıdaki şekilde **İş emri havuzu** liste sayfası örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="4a767-136">The illustration below shows an example of the **Work order pool** list page.</span></span>
 
 ![Şekil 1](media/22-work-orders.png)
 
 
-## <a name="add-work-order-to-a-work-order-pool"></a><span data-ttu-id="69e98-136">İş emri havuzuna iş emri ekleme</span><span class="sxs-lookup"><span data-stu-id="69e98-136">Add work order to a work order pool</span></span>
+## <a name="add-a-work-order-to-a-work-order-pool"></a><span data-ttu-id="4a767-138">İş emri havuzuna iş emri ekleme</span><span class="sxs-lookup"><span data-stu-id="4a767-138">Add a work order to a work order pool</span></span>
 
-<span data-ttu-id="69e98-137">Yukarıdaki bölümde açıklandığı gibi, havuzu oluştururken iş emri havuzuna iş emirleri ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="69e98-137">As described in the section above, you can add work orders to a work order pool when you create the pool.</span></span> <span data-ttu-id="69e98-138">Ayrıca **Tüm iş emirleri** listelerinin birinden iş emri havuzuna iş emri ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="69e98-138">You can also add a work order to a work order pool from one of the **All work orders** list.</span></span>
+<span data-ttu-id="4a767-139">Önceki bölümde açıklandığı gibi, havuzu oluştururken iş emri havuzuna iş emirleri ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4a767-139">As described in the previous section, you can add work orders to a work order pool when you create that pool.</span></span> <span data-ttu-id="4a767-140">Ayrıca, **Tüm iş emirleri** veya **Etkin iş emirleri** listesi sayfasındaki iş emri havuzuna da iş emirleri ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4a767-140">You can also add work orders to a work order pool on the **All work orders** or **Active work orders** list page.</span></span>
 
-1. <span data-ttu-id="69e98-139">**Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-139">Click **Asset management** > **Common** > **Work orders** > **All work orders** or **Active work orders**.</span></span>
+1. <span data-ttu-id="4a767-141">İş emrini seçin ve sonra Eylem bölmesinde **İş emri** sekmesinde, **Koru** grubunda **İş emri havuzu** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="4a767-141">Select the work order, and then, on the Action Pane, on the **Work order** tab, in the **Maintain** group, select **Work order pool**.</span></span>
 
-2. <span data-ttu-id="69e98-140">Listeden iş emrini seçin ve **İş emri havuzu**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-140">Select the work order in the list, and click **Work order pool**.</span></span>
+2. <span data-ttu-id="4a767-142">Listeden iş emrini seçin ve **İş emri havuzu**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4a767-142">Select the work order in the list, and click **Work order pool**.</span></span>
 
-3. <span data-ttu-id="69e98-141">**Ekle/kaldır** alanında "Ekle"yi seçin.</span><span class="sxs-lookup"><span data-stu-id="69e98-141">Select "Add" in the **Add/remove** field.</span></span>
+3. <span data-ttu-id="4a767-143">**İş emri havuzunu koru** iletişim kutusunda, **Ekle/Kaldır** alanında, **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="4a767-143">In the **Maintain work order pool** dialog, in the **Add/remove** field, select **Add**.</span></span>
 
-4. <span data-ttu-id="69e98-142">**Havuz** alanında iş emri havuzunu seçin.</span><span class="sxs-lookup"><span data-stu-id="69e98-142">Select the work order pool in the **Pool** field.</span></span>
+4. <span data-ttu-id="4a767-144">**Havuz** alanında iş emri havuzunu seçin.</span><span class="sxs-lookup"><span data-stu-id="4a767-144">In the **Pool** field, select the work order pool.</span></span>
 
-5. <span data-ttu-id="69e98-143">**Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-143">Click **OK**.</span></span>
+5. <span data-ttu-id="4a767-145">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="4a767-145">Select **OK**.</span></span>
 
-6. <span data-ttu-id="69e98-144">Bir iş emri havuzuna iş emri ekledikten sonra iş emrini havuzda belirli bir sıraya yerleştirmek isterseniz: İŞ emri havuzları liste sayfalarından birini açın, havuzu seçin ve **Düzenle**'ye tıklayın ve **İş emri havuzu** formu > **İş emirleri** hızlı sekmesi > **Sıralama düzeni** alanında havuza dahil edilen iş emirlerini sıralama düzenini ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="69e98-144">After you have added a work order to a work order pool, if you want to place the work order in a specific sequence in the pool: Open one of the work order pools list pages, select the pool and click **Edit**, and adjust the sort order of the work orders included in pool in the **Work order pool** form > **Work orders** FastTab > **Sort order** field.</span></span>
+6. <span data-ttu-id="4a767-146">Belirli bir sırada eklediğiniz iş emrini iş emri havuzuna koymak için **Tüm işemri havuzları** veya **Etkin iş emri havuzları** liste sayfasında havuzu ve ardından **Düzenle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="4a767-146">To put the work order that you added in a specific order in the work order pool, on the **All work order pools** or **Active work order pools** list page, select the pool, and then select **Edit**.</span></span> <span data-ttu-id="4a767-147">Ardından **İş emri havuzu** sayfasında **İş emirleri** hızlı sekmesinde, havuza dahil edilen iş emirlerinin sıralama düzenini ayarlamak için **Sıralama düzeni** alanını kullanın.</span><span class="sxs-lookup"><span data-stu-id="4a767-147">Then, on the **Work order pool** page, on the **Work orders** FastTab, use the **Sort order** field to adjust the sort order of the work orders that are included in pool.</span></span>
 
-<span data-ttu-id="69e98-145">Seçili iş emrini bir iş emri havuzundan kaldırmak isterseniz, Adım 3'te "Kaldır" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="69e98-145">If you want to remove the selected work order from a work order pool, select "Remove" in step 3.</span></span>
+<span data-ttu-id="4a767-148">Bir iş emrini iş emri havuzundan kaldırmak için bu adımları tekrarlayın ancak adım 3'te **Kaldır**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="4a767-148">To remove a work order from a work order pool, repeat these steps, but select **Remove** in step 3.</span></span>
 

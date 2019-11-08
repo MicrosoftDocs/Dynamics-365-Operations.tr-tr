@@ -18,50 +18,56 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 84ab803aedf5b803b6c5f39ff1907726335cb45d
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918338"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652368"
 ---
-# <a name="item-where-used"></a><span data-ttu-id="11389-103">Kullanıldığı madde</span><span class="sxs-lookup"><span data-stu-id="11389-103">Item where used</span></span>
+# <a name="item-where-used"></a><span data-ttu-id="dc0c5-103">Kullanıldığı madde</span><span class="sxs-lookup"><span data-stu-id="dc0c5-103">Item where used</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-<span data-ttu-id="11389-104">Maddenin kıymet yönetiminde nereye kullanıldığını genel olarak almak için belirli bir madde için hesaplama yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="11389-104">You can make a calculation for a specific item to get an overview of where in Asset Management the item has been used.</span></span> <span data-ttu-id="11389-105">Sonuçlar, ömrü boyunca öğenin kullanıldığı bağlamı gösterir.</span><span class="sxs-lookup"><span data-stu-id="11389-105">The results show the context in which the item has been used during its lifetime.</span></span> <span data-ttu-id="11389-106">**Maddenin kullanımı** sayfası ana kıymet yönetimi menüsünden açılabildiği gibi, ayrıca aşağıdaki sayfalardan da erişilebilir:</span><span class="sxs-lookup"><span data-stu-id="11389-106">The **Item where used** page can be opened from the main Asset management menu, and it can also be accessed from the following pages:</span></span>
+<span data-ttu-id="dc0c5-104">Maddenin kıymet yönetiminde nereye kullanıldığını genel olarak almak için belirli bir madde için hesaplama yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-104">You can make a calculation for a specific item to get an overview of where in Asset Management the item has been used.</span></span> <span data-ttu-id="dc0c5-105">Sonuçlar, ömrü boyunca öğenin kullanıldığı bağlamı gösterir.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-105">The results show the context in which the item has been used during its lifetime.</span></span> <span data-ttu-id="dc0c5-106">**Maddenin kullanımı** sayfası ana Varlık Yönetimi menüsünden açılabildiği gibi, ayrıca aşağıdaki sayfalardan da erişilebilir:</span><span class="sxs-lookup"><span data-stu-id="dc0c5-106">The **Item where used** page can be opened from the main Asset Management menu, and it can also be accessed from the following pages:</span></span>
 
-[<span data-ttu-id="11389-107">Varlık ürün reçetesi</span><span class="sxs-lookup"><span data-stu-id="11389-107">Asset BOM</span></span>](../objects/object-BOM.md)
+- [<span data-ttu-id="dc0c5-107">Varlık ürün reçetesi</span><span class="sxs-lookup"><span data-stu-id="dc0c5-107">Asset BOM</span></span>](../objects/object-BOM.md)
 
-[<span data-ttu-id="11389-108">Varlık türü varsayılanları üzerinde yedek parçalar</span><span class="sxs-lookup"><span data-stu-id="11389-108">Spare parts on asset type defaults</span></span>](../setup-for-objects/object-types.md)
+- [<span data-ttu-id="dc0c5-108">Varlık türü varsayılanları üzerinde yedek parçalar</span><span class="sxs-lookup"><span data-stu-id="dc0c5-108">Spare parts on asset type defaults</span></span>](../setup-for-objects/object-types.md)
 
-[<span data-ttu-id="11389-109">Bakım iş türü varsayılan öngörüleri üzerinde madde öngörüsü</span><span class="sxs-lookup"><span data-stu-id="11389-109">Item forecast on Maintenance job type defaults forecast</span></span>](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [<span data-ttu-id="dc0c5-109">Bakım iş türü varsayılan öngörüleri üzerinde madde öngörüsü</span><span class="sxs-lookup"><span data-stu-id="dc0c5-109">Item forecast on Maintenance job type defaults forecast</span></span>](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-[<span data-ttu-id="11389-110">İş emri bakım tahmini</span><span class="sxs-lookup"><span data-stu-id="11389-110">Work order maintenance forecast</span></span>](../work-orders/maintenance-forecasts.md)
+- [<span data-ttu-id="dc0c5-110">İş emri bakım tahmini</span><span class="sxs-lookup"><span data-stu-id="dc0c5-110">Work order maintenance forecast</span></span>](../work-orders/maintenance-forecasts.md)
 
-[<span data-ttu-id="11389-111">İş emri satınalma talebi</span><span class="sxs-lookup"><span data-stu-id="11389-111">Work order purchase requisition</span></span>](../work-orders/procurement.md)
+- [<span data-ttu-id="dc0c5-111">İş emri satınalma talebi</span><span class="sxs-lookup"><span data-stu-id="dc0c5-111">Work order purchase requisition</span></span>](../work-orders/procurement.md)
 
-[<span data-ttu-id="11389-112">İş emri satınalma işlemi</span><span class="sxs-lookup"><span data-stu-id="11389-112">Work order purchase</span></span>](../work-orders/procurement.md)
+- [<span data-ttu-id="dc0c5-112">İş emri satınalma işlemi</span><span class="sxs-lookup"><span data-stu-id="dc0c5-112">Work order purchase</span></span>](../work-orders/procurement.md)
 
-## <a name="make-an-item-where-used-calculation"></a><span data-ttu-id="11389-113">Madde oluşturma-kullanım yeri hesaplaması</span><span class="sxs-lookup"><span data-stu-id="11389-113">Make an item-where-used calculation</span></span>
+## <a name="make-an-item-where-used-calculation"></a><span data-ttu-id="dc0c5-113">Madde oluşturma-kullanım yeri hesaplaması</span><span class="sxs-lookup"><span data-stu-id="dc0c5-113">Make an item-where-used calculation</span></span>
 
-1. <span data-ttu-id="11389-114">**Varlık yönetimi** > **Sorgular** > **Maddenin kullanıldığı** veya **Kullanıldığı yerde madde** düğmesini yukarıda bahsi geçen sayfaların birinde seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="11389-114">Click **Asset management** > **Inquiries** > **Item where used**, or select the **Item where used** button on one of the pages mentioned above.</span></span>
+1. <span data-ttu-id="dc0c5-114">**Varlık yönetimi** > **Sorgular** > **Maddenin kullanıldığı** veya **Kullanıldığı yerde madde** düğmesini yukarıda bahsi geçen sayfaların birinde seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-114">Click **Asset management** > **Inquiries** > **Item where used**, or select the **Item where used** button on one of the pages mentioned above.</span></span>
 
-2. <span data-ttu-id="11389-115">**Kullanılan madde** iletişim kutusunda, hesaplama yapmak istediğiniz maddeyi **Madde numarası** alanında seçin.</span><span class="sxs-lookup"><span data-stu-id="11389-115">In the **Item where used** dialog, select the item for which you want to make the calculation in the **Item number** field.</span></span>
+2. <span data-ttu-id="dc0c5-115">**Kullanılan madde** iletişim kutusunda, hesaplama yapmak istediğiniz maddeyi **Madde numarası** alanında seçin.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-115">In the **Item where used** dialog, select the item for which you want to make the calculation in the **Item number** field.</span></span>
 
-3. <span data-ttu-id="11389-116">İşlem yapılacak yerleşimlerle ilgili olarak madde satırlarının ne kadar ayrıntılı olmasını istediğinizi belirtmek için **Düzey** alanını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="11389-116">You can use the **Level** field to indicate how detailed you want the item lines to be regarding functional locations.</span></span> <span data-ttu-id="11389-117">Örneğin, alana "1" numarasını girerseniz ve çok düzeyli işlem yapılacak yerleşim yapısına sahipseniz, işlem yapılacak yerleşim için tüm madde satırları üst düzeyde gösterilir.</span><span class="sxs-lookup"><span data-stu-id="11389-117">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all item lines for a functional location will be shown on the top level.</span></span> <span data-ttu-id="11389-118">Bu nedenle, satırdaki ilişki/miktar, daha düşük bir düzeyde bulunan işlevsel konumlardan eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="11389-118">Therefore, relation/quantity on a line may be added up from functional locations located at a lower level.</span></span> <span data-ttu-id="11389-119">**Düzey** alanına "0" değerini girerseniz ilişkili oldukları tüm işlem yapılacak yerleşim düzeylerinde bulunan tüm madde satırlarını gösteren ayrıntılı bir sonuç görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="11389-119">If you insert the number "0" in the **Level** field, you will see a detailed result showing all item lines on all the functional location levels to which they are related.</span></span>
+3. <span data-ttu-id="dc0c5-116">İşlem yapılacak yerleşimlerle ilgili olarak madde satırlarının ne kadar ayrıntılı olmasını istediğinizi belirtmek için **Düzey** alanını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-116">You can use the **Level** field to indicate how detailed you want the item lines to be regarding functional locations.</span></span> 
 
-4. <span data-ttu-id="11389-120">**Dahil et** bölümünde, hesaplamayı dahil etmek istediğiniz düğmelerde "Evet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="11389-120">In the **Include** section, select "Yes" on the toggle buttons that you want to include in the calculation.</span></span>
+    <span data-ttu-id="dc0c5-117">Örneğin, alana "1" numarasını girerseniz ve çok düzeyli işlem yapılacak yerleşim yapısına sahipseniz, işlem yapılacak yerleşim için tüm madde satırları üst düzeyde gösterilir.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-117">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all item lines for a functional location will be shown on the top level.</span></span> <span data-ttu-id="dc0c5-118">Bu nedenle, satırdaki ilişki/miktar, daha düşük bir düzeyde bulunan işlevsel konumlardan eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-118">Therefore, relation/quantity on a line may be added up from functional locations located at a lower level.</span></span> 
+    
+    <span data-ttu-id="dc0c5-119">**Düzey** alanına "0" değerini girerseniz ilişkili oldukları tüm işlem yapılacak yerleşim düzeylerinde bulunan tüm madde satırlarını gösteren ayrıntılı bir sonuç görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-119">If you insert the number "0" in the **Level** field, you will see a detailed result showing all item lines on all the functional location levels to which they are related.</span></span>
 
-5. <span data-ttu-id="11389-121">Hesaplamayı başlatmak için **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="11389-121">Click **OK** to start the calculation.</span></span>
+4. <span data-ttu-id="dc0c5-120">**Dahil et** bölümünde, hesaplamayı dahil etmek istediğiniz düğmelerde "Evet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-120">In the **Include** section, select "Yes" on the toggle buttons that you want to include in the calculation.</span></span>
 
-6. <span data-ttu-id="11389-122">**Madde kullanımı** sekmesinde > **Şuna göre grupla...** eylem panosu gruplarında, hesaplamanın ayrıntı düzeyi için gerekli ayrıntı düzeyini göstermek için ilgili düğmeleri seçin.</span><span class="sxs-lookup"><span data-stu-id="11389-122">On the **Item where used** tab > **Group by...** action pane groups, select the relevant buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="11389-123">Seçilen eylem bölmesi düğmeleri vurgulanır.</span><span class="sxs-lookup"><span data-stu-id="11389-123">The selected action pane buttons are highlighted.</span></span> <span data-ttu-id="11389-124">Etkinleştirmek veya devre dışı bırakmak için bir düğmeye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="11389-124">Click on a button to activate or deactivate it.</span></span>
+5. <span data-ttu-id="dc0c5-121">Hesaplamayı başlatmak için **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-121">Click **OK** to start the calculation.</span></span>
 
-7. <span data-ttu-id="11389-125">Maddeyle ilgili boyutları göstermek istiyorsanız, **boyutları görüntüle** üzerine tıklatın ve gösterilecek boyutları seçin.</span><span class="sxs-lookup"><span data-stu-id="11389-125">If you want to show dimensions related to the item, click **Display dimensions**, and select the dimensions to be shown.</span></span>
+6. <span data-ttu-id="dc0c5-122">**Madde kullanımı** sekmesinde gerekli hesaplama ayrıntı düzeyini göstermek için **Gruplama ölçütü** düğmelerini seçin.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-122">On the **Item where used** tab, select the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="dc0c5-123">Seçilen **Gruplandırma ölçütü** düğmeleri vurgulanır.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-123">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="dc0c5-124">Etkinleştirmek veya devre dışı bırakmak için bir düğmeye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-124">Click on a button to activate or deactivate it.</span></span>
 
-<span data-ttu-id="11389-126">Aşağıdaki çizimde, "1000" numaralı madde için madde-kullanım yeri hesaplaması örneği görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="11389-126">In the figure below, you see an example of an item-where-used calculation for item number "1000".</span></span>
+7. <span data-ttu-id="dc0c5-125">Maddeyle ilgili boyutları göstermek istiyorsanız, **boyutları görüntüle** üzerine tıklatın ve gösterilecek boyutları seçin.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-125">If you want to show dimensions related to the item, click **Display dimensions**, and select the dimensions to be shown.</span></span>
 
-![Şekil 1](media/12-controlling-and-reporting.png)
+## <a name="example"></a><span data-ttu-id="dc0c5-126">Örnek</span><span class="sxs-lookup"><span data-stu-id="dc0c5-126">Example</span></span>
+
+<span data-ttu-id="dc0c5-127">Aşağıdaki ekran görüntüsünde, "1000" numaralı madde için madde-kullanım yeri hesaplaması örneği görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="dc0c5-127">In the screenshot below, you see an example of an item-where-used calculation for item number "1000".</span></span>
+
+![Madde kullanımı hesaplaması örneği](media/12-controlling-and-reporting.png)
 

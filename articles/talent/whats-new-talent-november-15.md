@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ab3758506679db5032e3dffc1664fe1ac7f622c8
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: a571568850a675f3472f2b62df33c0c35d905af0
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009682"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551392"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-november-15-2018"></a><span data-ttu-id="56c49-103">Dynamics 365 Talent: Core HR'daki yenilikler veya değişiklikler (15 Kasım 2018)</span><span class="sxs-lookup"><span data-stu-id="56c49-103">What's new or changed in Dynamics 365 Talent: Core HR (November 15, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-november-15-2018"></a><span data-ttu-id="ecd60-103">Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (15 Kasım 2018)</span><span class="sxs-lookup"><span data-stu-id="ecd60-103">What's new or changed in Dynamics 365 Talent - Core HR (November 15, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="56c49-104">**Derleme 8.1.2045**</span><span class="sxs-lookup"><span data-stu-id="56c49-104">**Build 8.1.2045**</span></span>
+<span data-ttu-id="ecd60-104">**Derleme 8.1.2045**</span><span class="sxs-lookup"><span data-stu-id="ecd60-104">**Build 8.1.2045**</span></span>
 
-<span data-ttu-id="56c49-105">Bu konuda, Core HR'deki yeni veya değişen özellikler açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="56c49-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="ecd60-105">Bu konuda, Core HR'deki yeni veya değişen özellikler açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="ecd60-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
-## <a name="other-changesfixes"></a><span data-ttu-id="56c49-106">Diğer değişimler/düzeltmeler</span><span class="sxs-lookup"><span data-stu-id="56c49-106">Other changes/fixes</span></span>
+## <a name="other-changesfixes"></a><span data-ttu-id="ecd60-106">Diğer değişimler/düzeltmeler</span><span class="sxs-lookup"><span data-stu-id="ecd60-106">Other changes/fixes</span></span>
 
-### <a name="unable-to-change-employees-current-position-to-a-future-open-position"></a><span data-ttu-id="56c49-107">Personelin geçerli konumuna gelecekteki açık bir konuma değiştirilemiyor</span><span class="sxs-lookup"><span data-stu-id="56c49-107">Unable to change employee´s current position to a future open position</span></span>
+### <a name="unable-to-change-employees-current-position-to-a-future-open-position"></a><span data-ttu-id="ecd60-107">Personelin geçerli konumuna gelecekteki açık bir konuma değiştirilemiyor</span><span class="sxs-lookup"><span data-stu-id="ecd60-107">Unable to change employee´s current position to a future open position</span></span>
 
-<span data-ttu-id="56c49-108">Konum yalnızca gelecekte kullanılabilirse, konum transferlerine olanak sağlamak için bir değişiklik yapıldı.</span><span class="sxs-lookup"><span data-stu-id="56c49-108">A change has been made to enable position transfers when the position is only available in the future.</span></span> 
+<span data-ttu-id="ecd60-108">Konum yalnızca gelecekte kullanılabilirse, konum transferlerine olanak sağlamak için bir değişiklik yapıldı.</span><span class="sxs-lookup"><span data-stu-id="ecd60-108">A change has been made to enable position transfers when the position is only available in the future.</span></span> 
 
-### <a name="position-does-not-display-when-creating-a-new-employee"></a><span data-ttu-id="56c49-109">Konum, yeni bir çalışan oluşturulduğunda görüntülenmiyor</span><span class="sxs-lookup"><span data-stu-id="56c49-109">Position does not display when creating a new employee</span></span>
+### <a name="position-does-not-display-when-creating-a-new-employee"></a><span data-ttu-id="ecd60-109">Konum, yeni bir çalışan oluşturulduğunda görüntülenmiyor</span><span class="sxs-lookup"><span data-stu-id="ecd60-109">Position does not display when creating a new employee</span></span>
 
-<span data-ttu-id="56c49-110">Talent içinde yeni çalışanlar işe alırken atamaya açık konumları görüntülemek için bir değişiklik yapıldı.</span><span class="sxs-lookup"><span data-stu-id="56c49-110">A change has been made to display all open positions that are available for assignment when hiring new employees in Talent.</span></span> <span data-ttu-id="56c49-111">Bu, geçmişteki pozisyonları veya gelecek tarihteki konumları dahil etmektedir.</span><span class="sxs-lookup"><span data-stu-id="56c49-111">This includes historical positions or if the postitions have been future dated.</span></span> <span data-ttu-id="56c49-112">Pozisyonlar artık çalışan başlangıç tarihinde şimdi doğru olarak görüntülenecektir.</span><span class="sxs-lookup"><span data-stu-id="56c49-112">Positions will now appear correctly based on the employment start date.</span></span> 
+<span data-ttu-id="ecd60-110">Talent içinde yeni çalışanlar işe alırken atamaya açık konumları görüntülemek için bir değişiklik yapıldı.</span><span class="sxs-lookup"><span data-stu-id="ecd60-110">A change has been made to display all open positions that are available for assignment when hiring new employees in Talent.</span></span> <span data-ttu-id="ecd60-111">Bu, geçmişteki pozisyonları veya gelecek tarihteki konumları dahil etmektedir.</span><span class="sxs-lookup"><span data-stu-id="ecd60-111">This includes historical positions or if the postitions have been future dated.</span></span> <span data-ttu-id="ecd60-112">Pozisyonlar artık çalışan başlangıç tarihinde şimdi doğru olarak görüntülenecektir.</span><span class="sxs-lookup"><span data-stu-id="ecd60-112">Positions will now appear correctly based on the employment start date.</span></span> 
 
-### <a name="termination-date-is-displaying-based-on-user-settings"></a><span data-ttu-id="56c49-113">İşe son verme tarihi kullanıcı ayarlarına dayalı olarak görüntülenir</span><span class="sxs-lookup"><span data-stu-id="56c49-113">Termination date is displaying based on user settings</span></span>
+### <a name="termination-date-is-displaying-based-on-user-settings"></a><span data-ttu-id="ecd60-113">İşe son verme tarihi kullanıcı ayarlarına dayalı olarak görüntülenir</span><span class="sxs-lookup"><span data-stu-id="ecd60-113">Termination date is displaying based on user settings</span></span>
 
-<span data-ttu-id="56c49-114">İşe son verme tarihini görüntülerken tercih çalışanın tercih edilen zaman dilimini denk getirmek için geçmiş çalışan listesinde bir değişiklik yapıldı.</span><span class="sxs-lookup"><span data-stu-id="56c49-114">A change has been made to the past employees list to account for any time zone offsets for the employees preferred time zone when viewing the termination date.</span></span>
+<span data-ttu-id="ecd60-114">İşe son verme tarihini görüntülerken tercih çalışanın tercih edilen zaman dilimini denk getirmek için geçmiş çalışan listesinde bir değişiklik yapıldı.</span><span class="sxs-lookup"><span data-stu-id="ecd60-114">A change has been made to the past employees list to account for any time zone offsets for the employees preferred time zone when viewing the termination date.</span></span>
 
-### <a name="work-items-assigned-to-me-links-not-displaying-the-correct-information"></a><span data-ttu-id="56c49-115">Bana atanmış çalışma öğeleri bağlantıları, doğru bilgiyi göstermiyor</span><span class="sxs-lookup"><span data-stu-id="56c49-115">Work items assigned to me links not displaying the correct information</span></span>
+### <a name="work-items-assigned-to-me-links-not-displaying-the-correct-information"></a><span data-ttu-id="ecd60-115">Bana atanmış çalışma öğeleri bağlantıları, doğru bilgiyi göstermiyor</span><span class="sxs-lookup"><span data-stu-id="ecd60-115">Work items assigned to me links not displaying the correct information</span></span>
 
-<span data-ttu-id="56c49-116">Bu değişiklik ile, listede tekil iş öğelerinin ayrıntılarına gezinti, seçilen öğe için doğru bilgiyi gösterecektir.</span><span class="sxs-lookup"><span data-stu-id="56c49-116">With this change, navigation to the details of the individual work items in the list will display the correct information for the item selected.</span></span> <span data-ttu-id="56c49-117">Bu sorun yalnızca gelişmiş güvenlik seçenekleri ile ortaya çıkmaktaydı.</span><span class="sxs-lookup"><span data-stu-id="56c49-117">This issue only occurred with advanced security options.</span></span>
+<span data-ttu-id="ecd60-116">Bu değişiklik ile, listede tekil iş öğelerinin ayrıntılarına gezinti, seçilen öğe için doğru bilgiyi gösterecektir.</span><span class="sxs-lookup"><span data-stu-id="ecd60-116">With this change, navigation to the details of the individual work items in the list will display the correct information for the item selected.</span></span> <span data-ttu-id="ecd60-117">Bu sorun yalnızca gelişmiş güvenlik seçenekleri ile ortaya çıkmaktaydı.</span><span class="sxs-lookup"><span data-stu-id="ecd60-117">This issue only occurred with advanced security options.</span></span>
 
 
-## <a name="known-issue"></a><span data-ttu-id="56c49-118">Bilinen sorun</span><span class="sxs-lookup"><span data-stu-id="56c49-118">Known issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="ecd60-118">Bilinen sorun</span><span class="sxs-lookup"><span data-stu-id="ecd60-118">Known issue</span></span>
 
-- <span data-ttu-id="56c49-119">**Sorun**: Bir çalışan için yeni bir eki eklerken **Yeni** ve **Düzenle** düğmeleri gridir.</span><span class="sxs-lookup"><span data-stu-id="56c49-119">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
-- <span data-ttu-id="56c49-120">**Çözüm:** Ek sayfasını açmadan önce **Çalışan** sayfasındaki bilgi kutularının kapalı olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="56c49-120">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="56c49-121">**Çalışan** sayfası yüklendiğinde bilgi kutuları kapalıysa, eklentiler düğmeleri etkinleştirilmiş olacaktır.</span><span class="sxs-lookup"><span data-stu-id="56c49-121">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="56c49-122">(Bu sorun sonraki platform güncelleştirmesinde giderilecektir.)</span><span class="sxs-lookup"><span data-stu-id="56c49-122">(This issue will be fixed in the next platform update.)</span></span>
+- <span data-ttu-id="ecd60-119">**Sorun**: Bir çalışan için yeni bir eki eklerken **Yeni** ve **Düzenle** düğmeleri gridir.</span><span class="sxs-lookup"><span data-stu-id="ecd60-119">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
+- <span data-ttu-id="ecd60-120">**Çözüm:** Ek sayfasını açmadan önce **Çalışan** sayfasındaki bilgi kutularının kapalı olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="ecd60-120">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="ecd60-121">**Çalışan** sayfası yüklendiğinde bilgi kutuları kapalıysa, eklentiler düğmeleri etkinleştirilmiş olacaktır.</span><span class="sxs-lookup"><span data-stu-id="ecd60-121">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="ecd60-122">(Bu sorun sonraki platform güncelleştirmesinde giderilecektir.)</span><span class="sxs-lookup"><span data-stu-id="ecd60-122">(This issue will be fixed in the next platform update.)</span></span>
