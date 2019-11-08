@@ -1,9 +1,9 @@
 ---
-title: Yenilikler veya değişiklikler giriş sayfası
+title: Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler
 description: Bu sayfa sizi en son Finance and Operations uygulamalarındaki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara yönlendirir.
 author: josaw1
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c2dd8093102f92391cd782cda77afb17a3560010
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7559ef3aa3ce816d375f263ff4a4e0cf3d632249
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249309"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658725"
 ---
-# <a name="whats-new-or-changed-home-page"></a>Yenilikler veya değişiklikler giriş sayfası
+# <a name="whats-new-or-changed-in-finance-and-operations-home-page"></a>Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler
 [!include [banner](../includes/banner.md)]
 
-Bu sayfa sizi en son Finance and Operations uygulamalarındaki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara yönlendirir.
+2019 Ekim itibarıyla bu sayfa artık korunmamaktadır. Bu konudaki bilgiler, 2019 Ekim öncesinde yayımlanan Finance and Operations uygulamaları için özellik bilgilerinin nerede bulunacağını göstermektedir.
 
 En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye yükseltme işlemi](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
@@ -49,13 +49,6 @@ Bu tablo uygulamanın ana sürümlerini listeler. Aylık bulut güncelleştirmel
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.6</td>
-<td>10.0.234</td>
-<td>Kasım 2019</td>
-<td><a href="whats-new-changed-10-0-6.md">Dynamics 365 for Finance and Operations sürüm 10.0.6'daki (Kasım 2019) önizleme özellikleri</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.5</td>
@@ -183,13 +176,6 @@ Bu tablo uygulamanın ana sürümlerini listeler. Aylık bulut güncelleştirmel
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Platform güncelleştirmesi 30</td>
-<td>7.0.5407</td>
-<td>Kasım 2019</td>
-<td><a href="whats-new-platform-update-30.md">Dynamics 365 for Finance and Operations platform güncelleştirmesi 30'daki (Kasım 2019) önizleme özellikleri</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Platform güncelleştirmesi 29</td>

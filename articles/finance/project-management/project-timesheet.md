@@ -18,18 +18,18 @@ ms.search.industry: Service industries
 ms.author: josaw1
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 91ecccab58e4f1582a43eac62b42c7205b383bb1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 753c2a2905835a03b6befe817d32f993d35a5d73
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174501"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552337"
 ---
-# <a name="microsoft-dynamics-365-project-timesheet-mobile-application"></a>Microsoft Dynamics 365 Project Timesheet mobil uygulaması
+# <a name="project-timesheet-mobile-application"></a>Proje zaman çizelgesi mobil uygulaması
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Genel bakış
+## <a name="overview"></a>Genel Bakış
 
 Microsoft Dynamics 365 Project Timesheet mobil uygulaması, kullanıcıların projeler için zaman çizelgelerini mobil cihazlarında (iPhone veya Android) onaylamalarına ve göndermelerine olanak sağlar. Mobil uygulama, Dynamics 365 Finance içindeki Proje yönetimi ve muhasebe alanlarında bulunan zaman çizelgesi özelliğini öne çıkararak kullanıcı üretkenliğini ve verimliliğini iyileştirir ve proje zaman çizelgelerinin vaktinde girilmesini ve onaylanmasını sağlar.
 

@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008582"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551576"
 ---
-# <a name="source-candidates-with-linkedin-recruiter"></a>LinkedIn Recruiter ile aday kaynağı bulma
+# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>Microsoft Dynamics 365 Talent - Attract'ta LinkedIn Recruiter ile aday kaynağı bulma
 [!include[banner](../includes/banner.md)]
 
 LinkedIn, dünyanın en iyi yeteneğine erişmenizi sağlayan dünya çapındaki en büyük çevrimiçi profesyonel ağdır. Microsoft Dynamics 365 Talent: Attract, doğrudan LinkedIn'den aday kaynakları bulmanızı sağlar. Bu nedenle, açık konumlarınızı doldurmanız gereken yeteneği bulmak her zamankinden daha kolay. Attract'ta bağlantınızı kendiniz ayarladıktan sonra, konumlarınız için potansiyel LinkedIn adaylarını görebilir ve bunları tek bir tıklamayla Attract'a dışa aktarabilirsiniz.

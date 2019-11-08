@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ab3758506679db5032e3dffc1664fe1ac7f622c8
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: a571568850a675f3472f2b62df33c0c35d905af0
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009682"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551392"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-november-15-2018"></a>Dynamics 365 Talent: Core HR'daki yenilikler veya değişiklikler (15 Kasım 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-november-15-2018"></a>Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (15 Kasım 2018)
 
 [!include [banner](includes/banner.md)]
 

@@ -3,7 +3,7 @@ title: Servis şablonları satırlarını kopyalama
 description: Şablon bilgileri başka bir servis sözleşmesine veya servis siparişine kopyalanabilir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/19/2018
+ms.date: 10/11/2018
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 533fe7fbecb8878a7f9ddf527c33dd68b53ec698
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 26b400d00a73c43ab74bb74b58dee833c792dad8
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554679"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653238"
 ---
 # <a name="copy-service-templates-lines"></a>Servis şablonları satırlarını kopyalama 
 

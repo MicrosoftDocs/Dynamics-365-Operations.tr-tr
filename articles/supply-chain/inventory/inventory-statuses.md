@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd86bf525ae33f78fb472e6c333083592ff8a012
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 79ddc91aa3bbe0613543595006b10e6e0bef4427
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024396"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653501"
 ---
 # <a name="inventory-statuses"></a>Stok durumları
 
@@ -42,7 +42,7 @@ Burada stok durumlarını kullanabileceğiniz bazı yollara ilişkin örnekler v
 
 Stok durumu, depolama boyutu grubundaki boyutlardan biridir. Stok durumları, kullanılabilir veya kullanılamaz diye kategorilere ayrılabilir ve kullanılmayan bir stok durumuna sahip olan maddeleri engellemek için **Stok engelleme** parametresini kullanabilirsiniz. Engellenen bir duruma sahip olan maddeler fiziksel stok olarak kabul edilir ve bir üretim emri, satış emri, transfer emir veya giden hareket üzerinde kullanılamaz.
 
-Gelen iş için kullanılabilir veya kullanılamaz stok durumuna sahip ambar maddelerini kullanabilirsiniz. Örneğin, **Hazır** adında bir kullanılabilir durum, **Hasarlı** adında bir kullanılamayan durum ve **Engelli** adında bir engellenen durum oluşturuyorsunuz. Alınan veya iade edilen madeler için bir satın alma emri oluşturduğunuzda maddeler hasarlı veya arızalı ise bu maddelerin stok durumunu satın alma emri satırında **Hasarlı** olarak değiştirebilirsiniz. Bu maddeler teslim alındıktan sonra durum otomatik olarak **Engelli** olarak ayarlanır. Hasarlı maddeleri bir mobil cihaz kullanarak tarıyorsanız Finance and Operations, bu maddeleri yerine koyabileceğiniz uygun bir konum veya konumlar hakkında bilgi göstermek üzere konum yönergelerini ve iş şablonlarını kullanabilir. İade edilen maddeler için **Stok hareketleri** sayfasında **Rezervasyon** türü bir sorun oluşturulur.
+Gelen iş için kullanılabilir veya kullanılamaz stok durumuna sahip ambar maddelerini kullanabilirsiniz. Örneğin, **Hazır** adında bir kullanılabilir durum, **Hasarlı** adında bir kullanılamayan durum ve **Engelli** adında bir engellenen durum oluşturuyorsunuz. Alınan veya iade edilen madeler için bir satın alma emri oluşturduğunuzda maddeler hasarlı veya arızalı ise bu maddelerin stok durumunu satın alma emri satırında **Hasarlı** olarak değiştirebilirsiniz. Bu maddeler teslim alındıktan sonra durum otomatik olarak **Engelli** olarak ayarlanır. Hasarlı maddeleri bir taşınabilir cihaz kullanarak tarıyorsanız Supply Chain Management bu maddeleri yerine koyabileceğiniz uygun bir konum veya konumlar hakkında bilgi göstermek üzere konum direktiflerini ve iş şablonlarını kullanabilir. İade edilen maddeler için **Stok hareketleri** sayfasında **Rezervasyon** türü bir sorun oluşturulur.
 
 Giden iş için kullanılabilen stok durumuna sahip maddeleri kullanın. **Arızalı** durumunda olan maddeler varsa ve master planlama bu maddeler üzerinde çalıştırılıyorsa maddelerin eksik olduğu kabul edilir ve stok otomatik olarak yenilenir.
 

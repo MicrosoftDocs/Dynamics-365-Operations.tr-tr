@@ -17,18 +17,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 33e5993f57a8c0248ac2e314f91cc40a2b355858
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249437"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653476"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Satınalma siparişi onayı mobil çalışma
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Bu konu, **Satınalma siparişi onayı** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, satınalma siparişlerini görüntülemenizi ve bunları eylemleri kullanarak yanıtlamanızı sağlar. Örneğin, bir satınalma siparişini onaylayabilir veya reddedebilirsiniz.
  
@@ -41,7 +39,7 @@ Onay gerektiren satınalma siparişleri bir onay iş akışından geçer. İş a
 Önkoşullar, kuruluşunuza dağıtılan Supply Chain Management sürümüne göre değişiklik gösterir.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Supply Chain Management kullanıyorsanız önkoşullar 
-Finance and Operations kuruluşunuza dağıtıldıysa sistem yöneticisinin **Satınalma siparişi onayı** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Supply Chain Management kuruluşunuza dağıtıldıysa sistem yöneticisinin **Satınalma siparişi onayı** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611'i Platform güncelleştirmesi 3 veya daha sonrasıyla kullanıyorsanız önkoşullar
 Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir. 

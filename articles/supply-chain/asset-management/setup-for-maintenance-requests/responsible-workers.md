@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432a235668bbd969f497003a98b7f66390e5308f
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 63f436ffd01ac56bb4bc0021e226dad46d7c3377
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790548"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569927"
 ---
 # <a name="responsible-maintenance-workers"></a>Sorumlu bakım görevlileri
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Sorumlu bakım görevlisi, varlık türleri, varlıklar, işlem yapılacak yerleşim, bakım işi türü kategorileri, bakım işi türleri, bakım işi türü türevleri ve ticaret ile ilgili olabilir. İş emri ve bakım taleplerinde, çalışma emrinden sorumlu olması gereken bakım görevlileri hakkında bir tercih belirtmek için kullanılabilir. (Ancak, bu bakım görevlileri mutlaka iş emrini yürütmek için planlanan aynı çalışanlar değildir.) Bu işlevin kullanılması isteğe bağlıdır. Örneğin, belirli iş türleri veya çalışma alanları için sorumlu çalışanlaro veya çalışan gruplarını seçmek için kullanılabilir.
 
@@ -53,4 +53,4 @@ Sorumlu bakım görevlilerini ayarlaymadan önce, seçim için kullanılabilir o
 
 Aşağıdaki çizimde bir **Sorumlu bakım görevlileri** liste sayfasının bir örneği gösterilmektedir.
 
-![Şekil 1](media/08-setup-for-requests.png)
+![Sorumlu bakım görevlileri sayfası](media/08-setup-for-requests.png)

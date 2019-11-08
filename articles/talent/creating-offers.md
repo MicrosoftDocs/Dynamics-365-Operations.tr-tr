@@ -1,5 +1,5 @@
 ---
-title: Teklifleri oluşturma, onaylama ve imzalama
+title: Teklif oluşturma, onaylama ve imzalama
 description: Bu konu, Dynamics 365 Talent kullanarak bir aday için teklif oluşturma, onaylama ve imzalama ayrıntılarını verir.
 author: andreabichsel
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: acc484ea57ce13d8a7c48a0ca7a2aa8723558dc9
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008117"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551061"
 ---
 # <a name="create-approve-and-sign-offers"></a>Teklif oluşturma, onaylama ve imzalama
 

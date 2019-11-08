@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250233"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653614"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Harici satıcılarla satıcı iş birliği
 
@@ -190,7 +190,7 @@ Aşağıdaki tablo, PO'nun geçebileceği durum ve sürüm değişikliklerine bi
 Satıcılar PO'yu satıcı iş birliği arabirimini kullanarak onaylamak zorunda değildir. E-posta gönderebilir veya PO'yu kabul ettiklerini başka kanallar aracılığıyla bildirebilirler. Siparişi daha sonra el ile onaylayabilirsiniz. Bu durumda, satıcıdan yanıt olmasa bile siparişin onaylandığını belirten bir uyarı alırsınız. Daha sonra PO onay geçmişinde herhangi bir yanıt alınmamış açık onaylanmış sipariş olarak görünür. Bu noktada, satıcının artık PO'yu onaylama veya reddetme seçeneği yoktur.
 
 > [!NOTE]
-> Finance and Operations uygulamasında diğer işlemler için kullanılabilir durumda olan PO sürümü, bu sürüm satıcı işbirliği arabiriminde kaydedilmemiş olsa bile, daima en son sürümdür.
+> Supply Chain Management'ta diğer işlemler için kullanılabilir durumda olan PO sürümü, bu sürüm satıcı işbirliği arabiriminde kaydedilmemiş olsa bile, daima en son sürümdür.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Değişiklik yönetimi kullandığınızda sürümler ve durumlar
 

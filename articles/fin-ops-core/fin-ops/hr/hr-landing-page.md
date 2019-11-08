@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 828de71da3f16db9024b08c724eb784127b080dc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d9db36b528de097aae613a5fbf5ee94f4cc79a0f
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180458"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553175"
 ---
 # <a name="human-resources-overview"></a>İnsan kaynaklarına genel bakış
 
@@ -45,9 +45,9 @@ ms.locfileid: "2180458"
 
 İnsan kaynakları ile çalışırken departman, iş ve pozisyon gibi öğeleri kullanarak kuruluşunuzun yapısını belirlersiniz. Bunlar, İnsan kaynaklarında yapılandıracağınız temel unsurlar arasındadır. Personel tek tek, işlerle ilişkilendirilmiş pozisyonlara atanır.
 
-- [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](../../talent/departments-jobs-positions.md)
-- [Şirkete özgü İK parametrelerini ayarlama](../../talent/set-up-company-specific-hr-parameters.md)
-- [Tüzel kişilikler arasında İK parametreleri ayarlama](../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](../../../talent/departments-jobs-positions.md)
+- [Şirkete özgü İK parametrelerini ayarlama](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Tüzel kişilikler arasında İK parametreleri ayarlama](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Personeli işe alma, dönemsel işe alma ve motive etme
 
@@ -58,25 +58,25 @@ ms.locfileid: "2180458"
 
 Personeli işe aldıktan sonra ücret ile birlikte kuruluşunuzun çalışanlarınıza verdiği bilgisayarlar veya telefonlar gibi öğeleri de etkin ve adaletli bir şekilde yönetebilirsiniz. Sabit ve değişken ücret planları oluşturabileceğiniz gibi bu plan ölçütlerini karşılayan ücret planının uygulandığı kurallar da tanımlayabilirsiniz.
 
-- [Ücret planları](../../talent/compensation-plans.md)
-- [Sabit ücret planları oluşturma](../../talent/create-fixed-compensation-plans.md)
-- [Değişken ücret planları oluşturma](../../talent/create-variable-compensation-plans.md)
+- [Ücret planları](../../../talent/compensation-plans.md)
+- [Sabit ücret planları oluşturma](../../../talent/create-fixed-compensation-plans.md)
+- [Değişken ücret planları oluşturma](../../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Personeli geliştirme ve eğitme
 
 Personelinizin kariyer hedeflerine yardımcı olmak için, işle ilgili önemli gereksinimlerini sağlarken hedefler ayarlayabilir, performans incelemeleri oluşturabilir ve geri bildirimleri izleyebilirsiniz. Personelinizin gerekli yetenekleri geliştirmesine yardımcı olmak için kursa bir eğitmen atamadan veya kursa birini kaydetmeden önce eğitmenler, kurs türleri, kurslar, kurs açıklamaları, gündemler, dersler ve oturumlar ayarlayabilirsiniz. Eğitmenlerin zaten birer çalışan, başvuran veya ilgili kişi olarak bulunması gerekir.
 
-- [Performans yönetimi](../../talent/performance-management-overview.md)
-- [İş gücü becerilerini ve iş ihtiyaçlarını ayarlama](../../talent/skills.md)
-- [Eğitimi kurslar aracılığıyla yönetme](../../talent/courses.md)
+- [Performans yönetimi](../../../talent/performance-management-overview.md)
+- [İş gücü becerilerini ve iş ihtiyaçlarını ayarlama](../../../talent/skills.md)
+- [Eğitimi kurslar aracılığıyla yönetme](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Kazançlar oluşturma ve koruma
 
 Personelinizi ücretler, maaşlar ve ikramiyeler ile dengelemenin yanı sıra sağlık sigortası ve emeklilik planları gibi kazanç programları da geliştirebilirsiniz. Ayrıca bilgisayarlar veya telefonlar gibi, şirketinizin personeline verdiği öğeler için ödünç alma programları gibi kazançları da yönetebilirsiniz.
 
-- [Kazanç programını yönetme](../../talent/manage-benefit-program.md)
-- [Kazanca uygunluk ilkeleri](../../talent/benefit-eligibility-policies.md)
-- [Çalışanlara ödünç verilen öğeleri yönetme](../../talent/loan-items.md)
+- [Kazanç programını yönetme](../../../talent/manage-benefit-program.md)
+- [Kazanca uygunluk ilkeleri](../../../talent/benefit-eligibility-policies.md)
+- [Çalışanlara ödünç verilen öğeleri yönetme](../../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Çalışma alanı güvenliğini ve uyumluluğu koruma
 
@@ -90,7 +90,7 @@ Microsoft Dynamics AX, diğerlerinin yanı sıra Engelli Amerikalılar Yasası i
 
 Çeşitli amaçlarla kullanılmak üzere bilgi toplamak için soru formları tasarlayabilir ve yönetebilirsiniz. Soru formu özelliği, soru formları tasarlamanıza ve oluşturmanıza olanak tanır. Bir soru formu hazır olduğunda, genel olarak veya belirli bir yanıtlayan grubunun doldurması için dağıtın. Yanıtlayanlar yanıtlarını verdikten sonra sonuçları gözden geçirebilir ve analiz edebilirsiniz.
 
-- [Soru formları](../../talent/questionnaires.md)
-- [Soru formu tasarlama](../../talent/design-questionnaires.md)
-- [Soru formunu dağıtma ve doldurma](../../talent/distribute-questionnaires.md)
-- [Soru formunun sonuçlarını görüntüleme ve değerlendirme](../../talent/evaluate-questionnaire-results.md)
+- [Soru formları](../../../talent/questionnaires.md)
+- [Soru formu tasarlama](../../../talent/design-questionnaires.md)
+- [Soru formunu dağıtma ve doldurma](../../../talent/distribute-questionnaires.md)
+- [Soru formunun sonuçlarını görüntüleme ve değerlendirme](../../../talent/evaluate-questionnaire-results.md)

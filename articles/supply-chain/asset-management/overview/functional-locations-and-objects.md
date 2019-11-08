@@ -18,32 +18,32 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5271b673d758608cae8e43d72b7e75b259d5f142
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024626"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653359"
 ---
 # <a name="functional-locations-and-assets"></a>İşlem yapılacak yerleşimler ve varlıklar
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Bu konuda Varlık Yönetimi'ndeki işlem yapılacak yerleşimler ve varlıklar açıklanmaktadır. Varlık Yönetimi, Dynamics 365 Supply Chain Management'da varlıkların ve bakım işlerinin yönetilmesine yönelik gelişmiş bir modüldür.
 
 ## <a name="overview"></a>Genel bakış
 
-Varlık yönetimi, Finance and Operations'daki çeşitli modüller ile sorunsuz şekilde tümleştirilir. Aşağıdaki örnekte diğer modüllerle olan arabirimler gösterilmektedir.
+Varlık Yönetimi, diğer Finance and Operations uygulamalarındaki çeşitli modüller ile sorunsuz şekilde tümleştirilir. Aşağıdaki örnekte diğer modüllerle olan arabirimler gösterilmektedir.
 
-![Şekil 1](media/01-overview-image.png)
+![Varlık Yönetiminin diğer modüllerle olan arabirimlerini gösteren diyagram](media/01-overview-image.png)
 
 Varlık Yönetimi, şirketinizdeki birçok donanım türünün yönetimi ve bakımı ile ilgili tüm görevleri etkili bir şekilde yönetmenize ve gerçekleştirmenize olanak sağlar. Bu donanıma makineler, üretim ekipmanı ve taşıtlar dahildir. Varlık Yönetimi birçok sektördeki çözümleri de destekler.
 
 Aşağıdaki şekilde, Varlık Yönetimi kapsamında olan ana işlevlerin genel görünümü gösterilmektedir.
 
-![Şekil 2](media/02-overview-image.png)
+![Varlık Yönetiminde ana işlevleri gösteren diyagram](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>İşlem yapılacak yerleşimler ve varlıklar
 
@@ -53,8 +53,8 @@ Varlık maliyetleri her zaman varlığın yerleşimini izler. Başka bir deyişl
 
 İşlem yapılacak yerleşimler hiyerarşinizi oluşturma şekliniz, şirketinizin dahili ekipmanların korunması veya müşteri ekipmanlarına bakım hizmeti yapılması gereksinimlerine bağlıdır. Aşağıdaki şekil, coğrafi konumları temel alan işlem yapılacak yerleşimler örneğini gösterir.
 
-![Şekil 3](media/03-overview-image.png)
+![Coğrafi konumlara dayalı işlem yapılacak yerleşimleri gösteren diyagram](media/03-overview-image.png)
 
 Aşağıdaki şekil, müşterileri temel alan işlem yapılacak yerleşimler örneğini gösterir.
 
-![Şekil 4](media/04-overview-image.png)
+![Müşterilere dayalı işlem yapılacak yerleşimleri gösteren diyagram](media/04-overview-image.png)

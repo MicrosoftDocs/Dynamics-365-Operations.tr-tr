@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aaae7a276d098587b5b9c73e433694e3a6f9bf
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: b01e7e8e79061c7a306f00f041413cc1c5185cfe
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248937"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2572279"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Ürün girişi ve satınalma siparişleri karşılaştırması
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Bu konuda ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
 

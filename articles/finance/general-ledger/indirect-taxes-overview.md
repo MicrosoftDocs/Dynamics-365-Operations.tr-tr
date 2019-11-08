@@ -3,7 +3,7 @@ title: Satış vergisine genel bakış
 description: Bu konuda, satış vergisi sistemine bir genel bakış verilmektedir. Satış vergisi kurulumunun öğeleri ve birlikte nasıl çalıştıkları açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2741eb51f93f2f0b627dd8676629077b6df0f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
+ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186475"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2666842"
 ---
 # <a name="sales-tax-overview"></a>Satış vergisine genel bakış
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Bu konuda, satış vergisi sistemine bir genel bakış verilmektedir. Satış vergisi kurulumunun öğeleri ve birlikte nasıl çalıştıkları açıklanmaktadır.
 
@@ -94,5 +92,8 @@ Fatura Haziran'da deftere nakledildiğinde genellikle kapatır ve 2.500'ü vergi
 
 Ancak, bir koşullu satış vergisi kullanıyorsanız, ödemeyi müşteriden 30 Temmuz'da aldığınızda, vergi dairesi ile kapatırsınız.
 
+### <a name="postdated-check"></a>İleri tarih atılmış çek
+
+Ödeme yöntemi olarak ileri tarih atılmış çek kullanırsanız, ödeme oluşturulduğunda banka hesabı temizlenmez. Bazı ülkelerde, ödeme bankada silindiğinde KDV 'gerçekleşmiş' sorumluluk olur yani ileri tarih atılmış çek kapatılır. Bunu **Nakit ve banka yönetimi > Kurulum > Nakit ve banka yönetimi parametreleri > İleri tarih atılmış çekler**'de **İleri tarih atılmış çekler düzenlendiğinde koşullu vergi gerçekleştir**'i seçerek etkinleştirebilirsiniz.
 
 Daha fazla bilgi için bkz. [Stopaj vergisi ayarlama.](tasks/set-up-withholding-tax.md).

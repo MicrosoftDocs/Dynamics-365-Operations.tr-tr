@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Supply Chain Management - Ambarlama uygulamasında kamera kullanarak barkod okutma
-description: Bu konuda, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için Dynamics 365 Supply Chain Management - Ambarlama uygulamasının nasıl kurulacağı açıklanmaktadır.
+title: Dynamics 365 for Finance and Operations - Ambarlama uygulamasında kamera kullanarak barkod okutma
+description: Bu konuda, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için Dynamics 365 for Finance and Operations - Ambarlama uygulamasının nasıl kurulacağı açıklanmaktadır.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251485"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578161"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Dynamics 365 Supply Chain Management - Ambarlama uygulamasında kamera kullanarak barkod okutma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için Dynamics 365 Supply Chain Management - Ambarlama uygulamasının nasıl kurulacağı açıklanmaktadır. 
+Bu konuda, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için Dynamics 365 for Finance and Operations - Ambarlama uygulamasının nasıl kurulacağı açıklanmaktadır. 
 
 ## <a name="prerequisites"></a>Önkoşullar
 Bu özelliği kullanmak için Ambarlama uygulamasının 1.2.0.0 sürümünün yüklü olması ve cihazınızın bir kameraya sahip olması gerekir. Güncelleştirmeden sonra uygulamayı açtığınızda, uygulamaya kamerayı kullanma izni vermeniz istenir. Cihazınızda kamera yoksa istem görüntülenmez ve kamerayı tarayıcı olarak kullanamazsınız. 
@@ -49,7 +49,7 @@ Kamera sayfası, giriş alanının Tarama'ya ayarlanmış tercih edilen giriş m
 
 | Görev ve ayrıntılar sayfası | Kamera sayfası | 
 | :---------------------: | :--------------------: |
-| ![kamera-tarama-örnek-görev-ayrıntı-sayfa](./media/camera-scanning-example-task-detail-page50.png)          | ![kamera-tarama-örnek-kamera-sayfa-küçük](./media/camera-scanning-example-camera-page50.png)          |
+| ![Kamera tarama örnek görevi ayrıntı sayfası](./media/camera-scanning-example-task-detail-page50.png)          | ![Kamera tarama örnek kamera sayfa küçük](./media/camera-scanning-example-camera-page50.png)          |
 
 Kamera sayfasında, Kamera düğmesine tıkladığınızda, barkodu tanımlamaya çalışırken soluk görünür. Barkod 5 saniye içinde tanımlanmazsa işlem zaman aşımına uğrar ve Kamera düğmesi tekrar kullanılabilir olur. Ardından barkodu tekrar taramayı deneyebilirsiniz.
 

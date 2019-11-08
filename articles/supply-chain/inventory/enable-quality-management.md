@@ -3,7 +3,7 @@ title: Kalite yönetimine genel bakış
 description: Bu koun, tedarik zincirinizde ürün kalitesini artırmak için Dynamics 365 Supply Chain Management'teki kalite yönetimini nasıl kullanabileceğiniz açıklar.
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ba38f9c43fed81768155a27dda88a4bfb4a7828e
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249598"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653568"
 ---
 # <a name="quality-management-overview"></a>Kalite yönetimine genel bakış
 
@@ -32,7 +32,7 @@ ms.locfileid: "2249598"
 
 Bu koun, tedarik zincirinizde ürün kalitesini artırmak için Dynamics 365 Supply Chain Management'teki kalite yönetimini nasıl kullanabileceğiniz açıklar.
 
-Kalite Yönetimi, uyumsuz ürünler,, kendi başlangıç noktalarını dikkate almadan işleyecek döngü sürelerini yönetmenize yardımcı olabilir. Tanı türleri düzeltme raporlaması ile bağlantılı olduğundan, Finance and Operations sorunları düzeltmek ve oluşmalarını önlemek için görevleri zamanlayabilir.
+Kalite Yönetimi, uyumsuz ürünler,, kendi başlangıç noktalarını dikkate almadan işleyecek döngü sürelerini yönetmenize yardımcı olabilir. Tanı türleri düzeltme raporlaması ile bağlantılı olduğundan, Supply Chain Management sorunları düzeltmek ve oluşmalarını önlemek için görevleri zamanlayabilir.
 
 Uygunsuzluğu yönetmek için daha fazla işlevselliğe ek olarak, Kalite Yönetimi sorun türüne göre sorunları (hatta iç sorunları) izlemek için ve çözümleri kısa vadeli veya uzun vadeli olarak tanımlamak için işlev içerir. Anahtar performans göstergeleri (APG) ile ilgili istatistikler, önceki uygunsuzluk sorunlarının geçmişi ve bunları düzeltmek için kullanılan çözümler hakkında bir anlayış sağlar. Önceki kalite ölçülerinin geçmişteki etkilerini incelemek ve ileride kullanılmaya uygun önlemleri belirlemek için geçmişe dönük verileri kullanabilirsiniz.
 
@@ -294,6 +294,256 @@ Aşağıdaki tabloda belirli türde işlemler için kalite emirlerinin nasıl ol
 </tbody>
 </table>
 
+## <a name="quality-order-auto-generation-examples"></a>Kalite emri otomatik oluşturma örnekleri
+
+### <a name="purchasing"></a>Satınalma
+
+Satınalmada, **Kalite ilişkilendirmeleri** sayfasında **Olay türü** alanını **Ürün girişi** ve **Yürütme** alanını **Sonra** olarak ayarlarsanız aşağıdaki sonuçları elde edersiniz: 
+
+- **Güncelleştirilen miktar başına** seçeneği **Evet** olarak ayarlanmışsa, madde örneklemesindeki teslim alınan miktar ve ayarlar temel alınarak satınalma siparişiyle ilgili her giriş için bir kalite emri oluşturulur. Satınalma siparişine göre bir miktar her teslim alındığında, yeni teslim alınan miktar temel alınarak geçerli kalite emirleri oluşturulur.
+- **Güncelleştirilen miktar başına** seçeneği **Hayır** olarak ayarlanmışsa, teslim alınan miktar ve ayarlar temel alınarak satınalma siparişiyle ilgili ilk giriş için bir kalite emri oluşturulur. Ayrıca, izleme boyutlarına bağlı olarak kalan miktar temel alınarak bir veya daha fazla kalite emri oluşturulur. Satınalma siparişiyle ilgili sonraki girişler için kalite emirleri oluşturulmaz.
+
+<table>
+<tbody>
+<tr>
+<th>Kalite belirtimi</th>
+<th>Güncelleştirilen miktar başına</th>
+<th>İzleme boyutu başına</th>
+<th>Sonuç</th>
+</tr>
+<tr>
+<td>Yüzde: %10</td>
+<td>Evet</td>
+<td>
+<p>Toplu iş numarası: Hayır</p>
+<p>Seri numarası: Hayır</p>
+</td>
+<td>
+<p>Sipariş miktarı: 100</p>
+<ol>
+<li>30 için tamamlandı olarak bildir
+<ul>
+<li>3 için (30'un %10'u) için kalite emri #1</li>
+</ul>
+</li>
+<li>70 için tamamlandı olarak bildir
+<ul>
+<li>7 (kalan sipariş miktarının %10'u; bu durumda 70'e eşittir) için kalite emri #2</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Sabit miktar: 1</td>
+<td>Hayır</td>
+<td>
+<p>Toplu iş numarası: Hayır</p>
+<p>Seri numarası: Hayır</p>
+</td>
+<td>Sipariş miktarı: 100
+<ol>
+<li>30 için tamamlandı olarak bildir
+<ul>
+<li>1 için kalite emri #1 oluşturulur (sabit değeri 1 olan ilk tamamlandı bildirimi miktarı için).</li>
+<li>Kalan miktara göre başka kalite emri oluşturulmaz.</li>
+</ul>
+</li>
+<li>10 için tamamlandı olarak bildir
+<ul>
+<li>Kalite emri oluşturulmaz.</li>
+</ul>
+</li>
+<li>60 için tamamlandı olarak bildir
+<ul>
+<li>Kalite emri oluşturulmaz.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Sabit miktar: 1</td>
+<td>Evet</td>
+<td>
+<p>Toplu iş numarası: Evet</p>
+<p>Seri numarası: Evet</p>
+</td>
+<td>
+<p>Sipariş miktarı: 10</p>
+<ol>
+<li>3 için tamamlandı olarak bildir
+<ul>
+<li>Toplu iş #b1, seri #s1'deki 1 için kalite emri #1</li>
+<li>Toplu iş #b2, seri #s2'deki 1 için kalite emri #2</li>
+<li>Toplu iş #b3, seri #s3'deki 1 için kalite emri #3</li>
+</ul>
+</li>
+<li>2 için tamamlandı olarak bildir
+<ul>
+<li>Toplu iş #b4, seri #s4'deki 1 için kalite emri #4</li>
+<li>Toplu iş #b5, seri #s5'deki 1 için kalite emri #5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Not:</strong> Toplu iş yeniden kullanılabilir.</p>
+</td>
+</tr>
+<tr>
+<td>Sabit miktar: 2</td>
+<td>Hayır</td>
+<td>
+<p>Toplu iş numarası: Evet</p>
+<p>Seri numarası: Evet</p>
+</td>
+<td>
+<p>Sipariş miktarı: 10</p>
+<ol>
+<li>4 için tamamlandı olarak bildir
+<ul>
+<li>Toplu iş #b1, seri #s1'deki 1 için kalite emri #1.</li>
+<li>Toplu iş #b2, seri #s2'deki 1 için kalite emri #2.</li>
+<li>Toplu iş #b3, seri #s3'deki 1 için kalite emri #3.</li>
+<li>Toplu iş #b4, seri #s4'deki 1 için kalite emri #4.</li>
+<li>Kalan miktara göre başka kalite emri oluşturulmaz.</li>
+</ul>
+</li>
+<li>6 için tamamlandı olarak bildir
+<ul>
+<li>Kalite emri oluşturulmaz.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="production"></a>Üretim
+
+Üretimde, **Kalite ilişkilendirmeleri** sayfasında **Olay türü** alanını **Tamamlandı olarak bildir** ve **Yürütme** alanını **Sonra** olarak ayarlarsanız aşağıdaki sonuçları elde edersiniz:
+
+- **Güncelleştirilen miktar başına** seçeneği **Evet** olarak ayarlanmışsa, madde örneklemesindeki her tamamlanan miktar için bir kalite emri oluşturulur. Üretim emrine göre bir miktar her tamamlandı olarak bildirildiğinde, yeni tamamlanan miktar temel alınarak geçerli kalite emirleri oluşturulur. Bu oluşturma mantığı satın alma ile tutarlıdır.
+- **Güncelleştirilen miktar başına** seçeneği **Hayır** olarak ayarlanmışsa, tamamlanan miktar temel alınarak bir miktar ilk kez tamamlandı olarak bildirildiğinde bir kalite emri oluşturulur. Ayrıca, madde örneklemesinin izleme boyutlarına bağlı olarak kalan miktar temel alınarak bir veya daha fazla kalite emri oluşturulur. Sonraki tamamlanan miktarlar için kalite emirleri oluşturulmaz.
+
+<table>
+<tbody>
+<tr>
+<th>Kalite belirtimi</th>
+<th>Güncelleştirilen miktar başına</th>
+<th>İzleme boyutu başına</th>
+<th>Sonuç</th>
+</tr>
+<tr>
+<td>Yüzde: %10</td>
+<td>Evet</td>
+<td>
+<p>Toplu iş numarası: Hayır</p>
+<p>Seri numarası: Hayır</p>
+</td>
+<td>
+<p>Sipariş miktarı: 100</p>
+<ol>
+<li>30 için tamamlandı olarak bildir
+<ul>
+<li>3 için (30'un %10'u) için kalite emri #1</li>
+</ul>
+</li>
+<li>70 için tamamlandı olarak bildir
+<ul>
+<li>7 (kalan sipariş miktarının %10'u; bu durumda 70'e eşittir) için kalite emri #2</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Sabit miktar: 1</td>
+<td>Hayır</td>
+<td>
+<p>Toplu iş numarası: Hayır</p>
+<p>Seri numarası: Hayır</p>
+</td>
+<td>Sipariş miktarı: 100
+<ol>
+<li>30 için tamamlandı olarak bildir
+<ul>
+<li>1 için kalite emri #1 (sabit değeri 1 olan ilk tamamlandı bildirimi miktarı için)</li>
+<li>1 için kalite emri #2 (sabit değeri hala 1 olan kalan miktar için)</li>
+</ul>
+</li>
+<li>10 için tamamlandı olarak bildir
+<ul>
+<li>Kalite emri oluşturulmaz.</li>
+</ul>
+</li>
+<li>60 için tamamlandı olarak bildir
+<ul>
+<li>Kalite emri oluşturulmaz.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Sabit miktar: 1</td>
+<td>Evet</td>
+<td>
+<p>Toplu iş numarası: Evet</p>
+<p>Seri numarası: Evet</p>
+</td>
+<td>
+<p>Sipariş miktarı: 10</p>
+<ol>
+<li>3 için tamamlandı olarak bildir: #b1, #s1 için 1; #b2, #s2 için 1 ve #b3, #s3 için 1
+<ul>
+<li>Toplu iş #b1, seri #s1'deki 1 için kalite emri #1</li>
+<li>Toplu iş #b2, seri #s2'deki 1 için kalite emri #2</li>
+<li>Toplu iş #b3, seri #s3'deki 1 için kalite emri #3</li>
+</ul>
+</li>
+<li>2 için tamamlandı olarak bildir: #b4, #s4 için 1 ve #b5, #s5 için 1
+<ul>
+<li>Toplu iş #b4, seri #s4'deki 1 için kalite emri #4</li>
+<li>Toplu iş #b5, seri #s5'deki 1 için kalite emri #5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Not:</strong> Toplu iş yeniden kullanılabilir.</p>
+</td>
+</tr>
+<tr>
+<td>Sabit miktar: 2</td>
+<td>Hayır</td>
+<td>
+<p>Toplu iş numarası: Evet</p>
+<p>Seri numarası: Evet</p>
+</td>
+<td>
+<p>Sipariş miktarı: 10</p>
+<ol>
+<li>4 için tamamlandı olarak bildir: #b1, #s1 için 1; #b2, #s2 için 1; #b3, #s3 için 1 ve #b4, #s4 için 1
+<ul>
+<li>Toplu iş #b1, seri #s1'deki 1 için kalite emri #1</li>
+<li>Toplu iş #b2, seri #s2'deki 1 için kalite emri #2</li>
+<li>Toplu iş #b3, seri #s3'deki 1 için kalite emri #3</li>
+<li>Toplu iş #b4, seri #s4'deki 1 için kalite emri #4</li>
+</ul>
+<ul>
+<li>Bir toplu iş ve bir seri numarasına referans olmadan, 2 için kalite emri #5.</li>
+</ul>
+</li>
+<li>6 için tamamlandı olarak bildir: #b5, #s5 için 1; #b6, #s6 için 1; #b7, #s7 için 1; #b8, #s8 için 1; #b9, #s9 için 1 ve #b10, #s10 için 1
+<ul>
+<li>Kalite emri oluşturulmaz.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## <a name="quality-management-pages"></a>Kalite yönetim sayfaları
 <table>
 <colgroup>
@@ -304,7 +554,7 @@ Aşağıdaki tabloda belirli türde işlemler için kalite emirlerinin nasıl ol
 <thead>
 <tr class="header">
 <th>Sayfa</th>
-<th>Açıklama</th>
+<th>Tanım</th>
 <th>Örnek</th>
 </tr>
 </thead>

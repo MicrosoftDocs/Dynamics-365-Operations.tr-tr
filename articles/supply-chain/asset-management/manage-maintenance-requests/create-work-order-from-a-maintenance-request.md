@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f7af87f359cfe3a606c8be857dd905bfef75e97
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847471"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571703"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Bakım taleplerinden iş istekleri oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Bakım talepleri oluşturduktan sonra, bunları iş emirlerine kolayca dönüştürebilirsiniz. Bu konu, bakım talepleriyle çalışmak, aynı anda birkaç bakım talebi güncelleştirmek ve aynı anda birkaç bakım talebi için bir iş emri oluşturmak için en hızlı yolu açıklar. **Etkin bakım talepleri** veya **İşlem yapılacak yerleşim bakım talepleri** sayfasında, aynı anda bir bakım talebiyle çalışabilir ve bir bakım talebini bir iş emrine dönüştürebilirsiniz.
@@ -53,5 +53,5 @@ Bakım talepleri oluşturduktan sonra, bunları iş emirlerine kolayca dönüşt
 
 6. **Varlık yönetimi** \> **Ortak** \> **İş emirleri** \> **Tüm iş emirleri**'ni seçin ve yeni iş emrini açın.
 
-    ![Şekil 1](media/05-manage-maintenance-requests.png)
+    ![Yeni iş emri açma](media/05-manage-maintenance-requests.png)
 

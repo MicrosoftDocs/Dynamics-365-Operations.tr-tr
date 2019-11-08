@@ -3,7 +3,7 @@ title: Varlık sayaçlarını el ile güncelleştirme
 description: Bu konuda, Varlık Yönetiminde varlık sayaçlarının el ile güncelleştirilmesi açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,51 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7c5ec288404c18b00f9dcd0e66f50744d0aa2f
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 3072ab204b53b16988d2973b28a697041cb84c27
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875947"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626154"
 ---
-# <a name="manual-update-of-asset-counters"></a>Varlık sayaçlarını el ile güncelleştirme
+# <a name="manual-update-of-asset-counters"></a>Kıymet sayaçlarını el ile güncelleştirme
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Sayaçlar, varlıkta örneğin operasyondaki saat sayısı veya üretilen miktar sayısı gibi kayıtları oluşturmak için kullanılır.
+Sayaçlar, bir varlık üzerinde varlığın işlemde olduğu saat sayısı veya üretilmiş miktar gibi kayıtlar için kayıt oluşturmak amacıyla kullanılır.
 
-Bir sayaç için seçilen sayaç türü sayaç değerlerini devralmak üzere ayarlanırsa (**Varlık yönetimi** > **Kurulum** > **Varlık türleri** > **Sayaçlar** > **Genel** hızlı sekmesi > **Varlık sayaç değerlerini devral** düğmesi "Evet" olarak ayarlanır) bu tür için yeni bir sayaç satırı oluşturduğunuzda, aynı sayaç türünü kullanan alt varlıklar otomatik olarak güncelleştirilir.
+Bir sayaç için seçilen sayaç türü, sayaç değerlerini devralmak üzere ayarlanabilir. Başka bir deyişle, **VArlık sayacı değerlerini devral** seçeneği **Sayaçlar** sayfasının **Genel** hızlı sekmesinde **Evet** olarak ayarlanır (**Varlık yönetimi** > **Kurulum** > **Varlık türleri** > **Sayaçlar**). Bu durumda, bu türde yeni bir sayaç satırı oluşturduğunuzda, aynı sayaç türünü kullanan her alt varlık otomatik olarak güncelleştirilir.
 
-**Tüm varlıklar**'da, varlık üzerinde yaptığınız okumaları temel alarak, varlıkta saatler veya miktar sayacı kayıtları oluşturursunuz.
+**Tüm varlıklar** sayfasında, varlık üzerinde yaptığınız okumaları temel alarak, varlıkta saatler veya miktar sayacı kayıtları oluşturursunuz.
 
 1. **Varlık yönetimi** > **Ortak** > **Varlıklar** > **Tüm varlıklar** öğesini seçin.
 
-2. Listeden varlığı seçin ve **Sayaçlar**'a tıklayın. **Varlık sayaçları** formunda, seçilen varlıktaki önceki tüm sayaç kayıtlarının listesini görürsünüz.
+2. Varlığı seçin ve ardından Eylem bölmesinde **Varlık** sekmesinde, **Önleyici** grubunda **Sayaçlar**'ı seçin. **Varlık sayaçları** sayfası, seçilen varlıkta yapılmış olan önceki tüm sayaç kayıtlarının listesini gösterir.
 
-3. Yeni bir kayıt oluşturmak için **Yeni**'ye tıklayın. Varlık kodu otomatik olarak eklenir.
+3. Kayıt oluşturmak için **Yeni**'yi seçin. Varlık kodu **Varlık** alanına otomatik olarak girilir.
 
-4. **Sayaç** alanında, ilgili sayacı seçin. Yalnızca, varlıkta seçilen varlık türüyle ilgili sayaçlar kullanılabilir. İlgili birim otomatik olarak **Birim** alanına eklenir.
+4. **Sayaç** alanında, ilgili sayacı seçin. Yalnızca, varlıkta seçilen varlık türüyle ilgili sayaçlar seçilebilir. İlgili birim otomatik olarak **Birim** alanına girilir.
 
-5. Sayaç kaydı için tarih ve saat seçin.
+5. **Kayıtlı** alanında, sayaç kaydının tarih ve saatini seçin.
 
-6. **Değer** alanına, en son sayaç kaydından itibaren numarayı ekleyin veya **Toplam değer** alanına toplam sayı numarasını ekleyin.
+6. **Değer** alanına, son sayac kaydından sonra gelen numarayı girin. Alternatif olarak, **Toplu değer** alanına toplam sayım numarasını girin.
 
-- Bir varlığa fiziksel olarak yeni bir sayaç yüklerseniz, değişikliği **Varlık sayaçlarında** varlığa kaydetmeniz gerekir. Daha sonra, aynı zaman damgalarına sahip iki kayıt satırı oluşturmanız ve yeni sayaca ilişkin satırda, **Sayaç sıfırlama** onay kutusunu seçmeniz gerekir. İki kayıt satırını oluşturduğunuzda, ilk satır değiştirdiğiniz sayaca ait olmalıdır. **Toplamlar** alanında toplam sayı numarası, bu sayaç türündeki tüm kayıtlı değerlerin toplam sayaç toplamıdır.  
+Aaşağıdaki noktaları unutmayın:
+
+- Bir varlığa fiziksel olarak yeni bir sayaç yüklerseniz, değişikliği **Varlık sayaçları** sayfasında varlığa kaydetmeniz gerekir. Daha sonra, aynı zaman damgalarına sahip iki kayıt satırı oluşturmanız gerekir. İlk satırın değiştirdiğiniz sayaç için olması gerekir. Yeni sayaçla ilgili satırda, **Sayaç sıfırla** onay kutusunu seçin. **Toplamlar** alanında toplam sayı numarası, bu sayaç türündeki tüm kayıtlı değerlerin toplam sayaç toplamıdır.
+
 - **Sayaç sıfırlama** onay kutusu "İtibaren bir kez..." veya "Ulaşıldığında..." aralık türüne sahip bir bakım planı kullanan bir varlıkta işaretlendiğinde, ayrı bir sayaç satırı oluşturduğunuz ve yeni bir sayaçla baştan başladığınızdan sayaç yeni sayaç satırında etkin olmaya devam eder.
+
+Aşağıdaki örnekte **Varlık sayaçları** sayfasının bir örneği gösterilmektedir.
 
 ![Şekil 1](media/11-work-orders.png)
 
-
-Birden fazla varlıkta sayaç kayıtları yapmanız gerekiyorsa, bunu **Varlık yönetimi** > **Sorgular** > **Varlıklar** > **Varlık sayaçları** altından yapabilirsiniz.
+**Varlık sayaçları** sayfasında (**Varlık yönetimi** > **Sorgular** > **Varlıklar** > **Varlık sayaçları**), gereksinim duyduğunuz gibi, aynı anda birden fazla varlıkta sayaç kaydı yapabilirsiniz.
 
 >[!NOTE]
->El ile sayaç kayıtlarında sapmaları tanımlamak için bir aralık ve kayıtlar tanımlanan aralığın dışında olduğunda görüntülenecek olan ileti türü ayarlayabilirsiniz. Sayaçların kurulumuyla ilgili olarak [Sayaçlar](../setup-for-objects/counters.md) konusuna bakın.
+>El ile gerçekleştirilen sayaç kayıtlarında sapmaları tanımlamak için bir aralık ayarlayabilirsiniz. Kayıtlar tanımlanan aralığın dışında olduğunda gösterilecek ileti türünü de belirleyebilirsiniz. Sayaçların nasıl ayarlanacağı konusunda daha fazla bilgi için bkz. [Sayaçlar](../setup-for-objects/counters.md).
+

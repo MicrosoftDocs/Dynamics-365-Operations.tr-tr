@@ -1,5 +1,5 @@
 ---
-title: Yenilikler veya değişiklikler ve Dynamics 365 Retail
+title: Dynamics 365 Retail içindeki Yenilikler veya değişiklikler
 description: Bu sayfa sizi Microsoft Dynamics 365 Retail'in son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek kaynaklara yönlendirir.
 author: sericks007
 manager: AnnBe
@@ -16,18 +16,18 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: d0f89cc5ec0a0a1bb174a031aa9b6c059d608be4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3190a8978932ad8f8b22c9038625fe2dcdb43fce
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025503"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550495"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Dynamics 365 Retail içinde neler yeni veya değişti
 
 [!include [banner](../../includes/banner.md)]
 
-Bu sayfa sizi Microsoft Dynamics 365 Retail'in son sürümlerindeki yeni özellikler ve değişiklikler hakkında bilgi almanıza yardımcı olabilecek kaynaklara yönlendirir.
+Bu sayfa sizi Microsoft Microsoft Dynamics 365 Retail'in son sürümlerindeki yeni özellikler ve değişiklikler hakkında bilgi almanıza yardımcı olabilecek kaynaklara yönlendirir.
 
 [!include [release notes](../includes/release-notes.md)]
 

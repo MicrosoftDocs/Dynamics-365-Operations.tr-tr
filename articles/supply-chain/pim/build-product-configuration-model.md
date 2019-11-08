@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249506"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653660"
 ---
 # <a name="product-configuration-overview"></a>Ürün yapılandırmasına genel bakış
 
@@ -73,7 +73,7 @@ Tablo kısıtlamaları kullanıcı veya sistem tanımlı olabilir.
 
 Bir kullanıcı tanımlı tablo kısıtlaması kullanıcı tarafından üretilmiştir. Kullanıcı tablonun sütunları göstermek için öznitelik türleri birleşimini seçer ve sonra satır içinde tablo kısıtlaması oluşturmak için seçili öznitelik türlerinin etki alanlarındaki değerleri girer.  
 
-Bir sistem tanımlı tablo kısıtlaması hangi tablonun başvuru olarak kullanılacağını seçerek ve sonra kısıtlamada sütunlar oluşturmak için bu tablodan alanları seçerek tanımlanır. Tablo kısıtlaması satırları, yapılandırma sırasında mevcut Finance and Operations tablosu satırlarıdır.  
+Bir sistem tanımlı tablo kısıtlaması hangi tablonun başvuru olarak kullanılacağını seçerek ve sonra kısıtlamada sütunlar oluşturmak için bu tablodan alanları seçerek tanımlanır. Tablo kısıtlaması satırları, yapılandırma sırasında mevcut Supply Chain Management tablosu satırlarıdır.  
 
 Bir tablo kısıtlaması tablo kısıtlaması tanımına referans vererek ve modelde ilgili öznitelikleri tablo kısıtlamasındaki sütunlara eşleyerek bir ürün yapılandırma modeline dahil edilir.
 

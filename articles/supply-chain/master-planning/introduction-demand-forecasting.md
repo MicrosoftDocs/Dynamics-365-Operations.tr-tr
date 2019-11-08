@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42631e8a5ac03eda65bf0f6ede03fa40a5ed2c4e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250772"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653545"
 ---
 # <a name="demand-forecasting-overview"></a>Talep tahminine genel bakış
 
@@ -49,11 +49,11 @@ Talep tahmininde üç önemli konu gerçekleştirilir:
 
 -   **Modülarite** – Talep tahmini modülerdir ve kolay yapılandırılır. İşlevselliği **Ticaret** &gt; **Stok tahmini** &gt; **Talep tahmini** içindeki yapılandırma anahtarını değiştirerek açıp kapayabilirsiniz.
 -   **Microsoft yığının yeniden kullanılması** – Microsoft, Şubat 2015'te makine öğrenme platformu başlattı. Şimdi Microsoft Cortana Analytics Suite'in bir parçası haline gelen Makine Öğrenimi, talep tahmin deneyleri gibi tahmine dayalı analiz deneylerini R veya Python gibi programlama dilleri algoritmaları kullanarak ve basit bir sürükle bırak arabirimi ile hızlı ve kolay oluşturmanızı sağlar.
-    -   Talep tahmini deneylerini indirebilir, iş gereksinimlerinizi karşılayacak şekilde değiştirebilir, Azure üzerinde web hizmeti olarak yayınlayabilir ve talep tahminleri oluşturmak için kullanabilirsiniz. Kuruluş düzeyinde kullanıcı olarak bir üretim planlayıcı için Finance and Operations aboneliği aldıysanız, deneyler indirilmeye hazırdır.
-    -   Şu anda mevcut olan talep tahmin deneylerinden birini [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirebilirsiniz. Talep tahmini deneyleri, Finance and Operations ile otomatik olarak bütünleşirken, müşteriler ve ortaklar [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirdikleri deneylerin entegrasyonunu kendileri yapmalıdır. Bu yüzden, [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirilen deneylerin kullanımı, Finance and Operations Talep tahmini deneyleri kadar basit değildir. Deneylerin kodunu, Finance and Operations uygulama programlama arabiriminin (API) kullanılabilmesi için modifiye etmeniz gerekir.
+    -   Talep tahmini deneylerini indirebilir, iş gereksinimlerinizi karşılayacak şekilde değiştirebilir, Azure üzerinde web hizmeti olarak yayınlayabilir ve talep tahminleri oluşturmak için kullanabilirsiniz. Kuruluş düzeyinde kullanıcı olarak bir üretim planlayıcı için Supply Chain Management aboneliği aldıysanız, deneyler indirilmeye hazırdır.
+    -   Şu anda mevcut olan talep tahmin deneylerinden birini [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirebilirsiniz. Talep tahmini deneyleri, Supply Chain Management ile otomatik olarak bütünleşirken, müşteriler ve ortaklar [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirdikleri deneylerin entegrasyonunu kendileri yapmalıdır. Bu yüzden, [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirilen deneylerin kullanımı, Finance and Operations Talep tahmini deneyleri kadar basit değildir. Deneylerin kodunu, Finance and Operations uygulama programlama arabiriminin (API) kullanılabilmesi için modifiye etmeniz gerekir.
     -   Microsoft Azure Machine Learning Studio'da kendi deneylerinizi oluşturabilir, bunları Azure üzerinde hizmetler olarak yayınlayabilir ve talep tahminleri oluşturmak için kullanabilirsiniz.
     -   Yüksek performans gerekmiyorsa veya büyük miktarda verinin işlenmesi gerekmiyorsa, Machine Learning serbest katmanını kullanabilirsiniz. Özellikle uygulama ve test aşamalarında daima bu katmandan başlamanızı tavsiye ederiz. Daha yüksek performansa ve ek depolamaya ihtiyacınız varsa, Machine Learning standart katmanını kullanabilirsiniz. Bu katman, Azure aboneliği gerektirir ve ek ücretler içerir. Bu konudaki ayrıntılar için bkz. [Machine Learning Studio fiyatlandırması](https://aka.ms/machine-learning-price-info).
--   **Herhangi bir dekuplaj noktasında tahmin azaltma** – Finance and Operations'daki talep tahmini, size herhangi bir dekuplaj noktasında hem bağımlı hem de bağımsız talepleri tahmin etme olanağı veren bu işlev üzerine kurulur.
+-   **Herhangi bir dekuplaj noktasında tahmin azaltma** – Talep tahmini, size herhangi bir dekuplaj noktasında hem bağımlı hem de bağımsız talepleri tahmin etme olanağı veren bu işlev üzerine kurulur.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Talep tahminindeki temel akış
 Aşağıdaki şemada talep tahminindeki temel akış gösterilmiştir. 
@@ -64,7 +64,7 @@ Talep tahmini oluşturma, Supply Chain Management'ta başlar. Supply Chain Manag
 
 Talep tahmini Machine Learning deneylerini kullanırsanız bu deneyler, bir başlangıç tahmini hesaplamak için beş zaman serisi tahmin yöntemi arasından en uygununu arar. Bu tahmin yöntemlerine ilişkin parametreler Supply Chain Management'ta yönetilir. 
 
-Tahminler, geçmiş veriler ve önceki yinelemelerdeki talep tahminlerinde yapılan tüm değişiklikler artık Finance and Operations'te de kullanılabilir. 
+Tahminler, geçmiş veriler ve önceki yinelemelerdeki talep tahminlerinde yapılan tüm değişiklikler artık Supply Chain Management'ta da kullanılabilir. 
 
 Başlangıç tahminlerini görselleştirmek ve değiştirmek için Supply Chain Management'ı kullanabilirsiniz. Tahminler planlama için kullanılmadan önce manüel ayarlamalar yetkilendirilmelidir.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71905d5b362c80d48b78210b59cacfb1e7899757
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: da60d098aff96780ca1e40832db34e3c9cc835e7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874705"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569697"
 ---
 # <a name="warranty-agreements"></a>Garanti sözleşmeleri
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Kıymet yönetiminde, bir kıymet veya kıymet türüne bağlı olabilecek garanti koşulları ayarlayabilirsiniz. Garanti koşulları belirli bir dönem için oluşturulur. Garanti, tam tedarik veya kısmi tedarik sağlayacak şekilde ayarlanabilir ve saatler, giderler ve öğelerle ilgili şartlar ayarlayabilirsiniz.
@@ -54,4 +54,4 @@ Garanti sözleşmesi, çalışma saatleri, giderler ve maddeler için garantiyi 
     3. **Aralık** alanına bir sayı girin. Bu alan, garantinin geçerli olması gereken dönem sayısını tanımlar.
     4. **Yüzde** alanına, garanti satırı için karşılama yüzdesini girin. Yüzde, şirketiniz tarafından kapsanan miktarı gösterir.
 
-![Şekil 1](media/01-warranty.png)
+![Garanti sayfası](media/01-warranty.png)

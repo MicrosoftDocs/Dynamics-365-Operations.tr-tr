@@ -3,7 +3,7 @@ title: Finance and Operations uygulamaları veya Lifecycle Services (LCS) için 
 description: Bu konuda Finance and Operations uygulamaları veya Microsoft Dynamics Lifecycle Services (LCS) konusunda nasıl yardım alınabileceği açıklanmaktadır.
 author: kfend
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af4cbbd0f594b07e791d6ab7a5ac4dc58b97e1de
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: c36adc1f754c918a9fdf8410572f3199cdb63766
+ms.sourcegitcommit: e16b8c248fc2c2a60dc7b803320f942a35b443c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537062"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577508"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Finance and Operations uygulamaları veya Lifecycle Services (LCS) için destek alma
 
@@ -91,5 +91,5 @@ CustomerSource, e-öğrenme, Arama, Bilgi Bankası, dosya indirme ve sayfa veya 
 ## <a name="additional-resources"></a>Ek kaynaklar
 - [Dynamics 365 Retail için destek alma](../../../retail/retail-support.md)
 - [Dynamics 365 Talent için destek alma](../../../talent/talent-support.md)
-- Microsoft Dynamics destek teklifleri hakkında daha fazla bilgi için bkz [Microsoft Dynamics Çevrimiçi destek](https://www.microsoft.com/dynamics/dynamics-online-support.aspx).
+- Microsoft Dynamics destek teklifleri hakkında daha fazla bilgi için bkz. [Finance and Operations uygulamaları için destek deneyimlerini yönetme](cloud-powered-support-lcs.md).
 

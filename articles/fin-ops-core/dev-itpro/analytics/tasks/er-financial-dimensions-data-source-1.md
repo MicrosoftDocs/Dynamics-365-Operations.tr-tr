@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca295d651838f34106c9b91a53efc1f4faad4e4a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 92481749fa15d8a9c273edf6a79ee9fcfdc722e7
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182497"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550683"
 ---
-# <a name="er-use-financial-dimensions-as-a-data-source-part-1-design-data-model"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1: Veri modeli tasarlama)
+# <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1 - Veri modeli tasarlama)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

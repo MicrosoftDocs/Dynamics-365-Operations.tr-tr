@@ -1,6 +1,6 @@
 ---
-title: Günlükte ertelenen vergi hesaplamasını etkinleştirme
-description: Bu konu, günlük satırlarının hacmi çok büyük olduğunda vergi hesaplama performansını artırmak için **Günlükte ertlenen vergi hesaplamasını etkinleştir** özelliğinin nasıl kullanılacağını açıklamaktadır.
+title: Günlüklerde ertelenen vergi hesaplamasını etkinleştirme
+description: Bu konu, günlük satırlarının sayısı çok fazla olduğunda vergi hesaplama performansını artırmaya yardımcı olmak için Ertlenen vergi hesaplaması özelliğinin nasıl etkinleştirileceğini açıklamaktadır.
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180302"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623533"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a>Günlükte ertelenen vergi hesaplamasını etkinleştirme
+# <a name="enable-delayed-tax-calculation-on-journals"></a>Günlüklerde ertelenen vergi hesaplamasını etkinleştirme
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konu, günlük satırlarının hacmi çok büyük olduğunda vergi hesaplama performansını artırmak için **Günlükte ertlenen vergi hesaplamasını etkinleştir** özelliğinin nasıl kullanılacağını açıklamaktadır.
+Bu konu, günlüklerde satış vergisi hesaplamasını nasıl erteleyebileceğinizi açıklamaktadır. Bu özellik, birçok günlük satırı olduğunda vergi hesaplamalarında performansın artırılmasına yardımcı olur.
 
-Günlükteki geçerli satış vergisi hesaplama, kullanıcı vergiyle ilgili alanları güncelleştirdiğinde (satış vergisi grubu/madde satış vergisi grubu gibi) gerçek zamanlı olarak tetiklenen bir davranıştır. Günlük satırı düzeyindeki her güncelleştirme, tüm günlük satırlarındaki vergi tutarını yeniden hesaplar. Kullanıcının gerçek zamanlı hesaplanan vergi tutarını görebilmesine yardımcı olur, ancak günlük satırları hacmi çok büyük olduğunda performans sorununa neden olabilir.
+Varsayılan olarak, vergiyle ilgili alanlar her güncelleştirildiğinde, günlük satırlarındaki satış vergisi tutarları hesaplanır. Bu alanlar, satış vergisi grupları ve madde satış vergisi grupları için alanlar içerir. Günlük satırındaki her güncelleştirme vergi tutarlarının tüm günlük satırlarında yeniden hesaplanmasını sağlar. Bu davranış kullanıcının gerçek zamanlı olarak hesaplanan vergi tutarlarının görebilmesine yardımcı olmakla birlikte, günlük satırlarının sayısı çok büyükse performansı da etkileyebilir.
 
-Bu özellik, performans sorununu çözmek için vergi hesaplamasını erteleme seçeneği sunar. Bu özellik açık ise, vergi tutarı yalnızca Kullanıcı "Satış Vergisi" komutunu tıklattığında veya günlüğü deftere naklederken hesaplanır.
+Ertelenen vergi hesaplaması özelliği günlüklerde vergi hesaplamasını ertelemenizi sağlar ve bu nedenle performans sorunlarını gidermeye yardımcı olur. Bu özellik açık olduğunda, vergi tutarları yalnızca kullanıcı **Satış Vergisi**'ni seçerse veya günlüğü deftere naklederse hesaplanır.
 
-Kullanıcı, parametreyi üç düzeyde açıp kapatabilir:
-- Tüzel kişiliğe göre
-- Günlük adına göre
-- Günlük başlığına göre
+Satış vergilerinin hesaplamasını üç düzeyde erteleyebilirsiniz:
 
-Sistem, günlük başlığındaki parametre değerini son değer olarak alacaktır. Günlük başlığındaki parametre değeri varsayılan olarak günlük adından alınır. Günlük adı oluşturulduğunda, günlük adının parametre değeri varsayılan olarak genel muhasebe parametresi içinden alınır.
+- Tüzel kişilik
+- Günlük adı
+- Günlük başlığı
 
-Bu parametre açıksa, günlükteki "Gerçek satış vergisi tutarı" ve "Hesaplanan satış vergisi tutarı" alanları gizlenir. Amaç, kullanıcının vergi hesaplamasını tetiklemeye başlamadan önce bu iki alanın değeri her zaman 0 olarak gösterileceği için kullanıcının kafasını karıştırmamaktır.
+Sistem, günlük başlığı ayarına öncelik verir. Varsayılan olarak, bu ayar günlük adından alınır. Varsayılan olarak, günlük adı oluşturulduğunda, günlük adı içina yar **Genel muhasebe parametreleri** sayfasındaki ayardan alınır. Aşağıdaki bölümlerde tüzel kişiler, günlük adları ve günlük başlıkları için ertelenen vergi hesaplamasının nasıl etkinleştirileceği açıklanmaktadır.
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a>Tüzel kişiliğe göre ertelenen vergi hesaplamasını etkinleştir
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a>Tüzel kişilik düzeyinde ertelenen vergi hesaplamasını açma
 
-1. **Genel muhasebe > Genel muhasebe ayarı > Genel muhasebe parametreleri**'ne gidin.
-2. **Satış vergisi** sekmesine tıklayın
-3. **Genel** hızlı sekmesi altında **Ertlenen vergi hesaplaması** parametresini bulun, açın/kapatın
+1. **Genel muhasebe\> Genel muhasebe ayarı \> Genel muhasebe parametreleri**'ne gidin.
+2. **Satış vergisi** sekmesinde, **Genel** hızlı sekmesi üzerinde **Ertelenen vergi hesaplaması** seçeneğini **Evet** olarak ayarlayın.
 
-![](media/delayed-tax-calculation-gl.png)
+![Genel muhasebe parametrelerini görüntüsü](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Günlük adı düzeyinde ertelenen vergi hesaplamasını açma
 
+1. **Genel muhasebe \> Günlük ayarı \> Günlük adları**'na gidin.
+2. **Genel** hızlı sekmesinde, **Satış vergisi** bölümünde **Ertelenen vergi hesaplaması** seçeneğini **Evet** olarak ayarlayın.
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a>Günlük adına göre ertelenen vergi hesaplamasını etkinleştirme
+![Günlük adları görüntüsü](media/delayed-tax-calculation-journal-name.png)
 
-1. **Genel muhasebe > Günlük ayarı > Günlük adları**'na gidin.
-2. **Genel** hızlı sekmesi altında **Ertlenen vergi hesaplaması** parametresini bulun, açın/kapatın
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Günlük başlığı düzeyinde ertelenen vergi hesaplamasını açma
 
-![](media/delayed-tax-calculation-journal-name.png)
+1. **Genel muhasebe \> Günlük girişleri \> Genel günlükler**.
+2. **Yeni**'yi seçin.
+3. Bir günlük adı seçin.
+4. **Kurulum** sekmesinde, **Ertelenen vergi hesaplaması** seçeneğini **Evet** olarak ayarlayın.
 
-## <a name="enable-delayed-tax-calculation-by-journal"></a>Günlüğe göre ertelenen vergi hesaplamasını etkinleştirme
-
-1. **Genel muhasebe > Günlük girişleri > Genel günlükler**'e gidin
-2. **Yeni**'ye tıklayın
-3. Bir günlük adı seçin
-4. **Kurulum**’a tıklayın
-5. **Ertlenen vergi hesaplaması** parametresini bulun, açın/kapatın
-
-![](media/delayed-tax-calculation-journal-header.png)
+![Genel günlük sayfası resmi](media/delayed-tax-calculation-journal-header.png)

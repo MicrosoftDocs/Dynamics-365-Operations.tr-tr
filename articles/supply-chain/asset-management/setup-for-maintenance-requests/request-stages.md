@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f68e11a1cd14bc35282b957a4262cbecdd627b3b
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 151db9ca8a121759e39b690ec296b36a18dc1729
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790550"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571174"
 ---
-# <a name="maintenance-request-states"></a>Bakım talebi durumları
+# <a name="maintenance-request-lifecycle-states"></a>Bakım talebi yaşam döngüsü durumları
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Bakım talebi yaşam döngüsü durumları bir isteğin gidebileceği aşamaları tanımlar. Örneğin, **Oluşturulan**, **Etkin**ve **Sona ermiş** örnekler de içerir. Bir bakım isteği iş emrine dönüştürüldüğünde, bakım talebinin artık etkin olmadığını göstermek üzere sürdürme isteği yaşam döngüsü durumu **sonlandırıldı** veya **Kapalı** olarak güncelleştirilmelidir. **Tüm bakım talepleri** listesi sayfasında, yaşam döngüsü durumlarından bağımsız olarak tüm bakım taleplerini görebilirsiniz.
@@ -51,7 +51,7 @@ Bakım talebi yaşam döngüsü durumları bir isteğin gidebileceği aşamalar�
 
 Aşağıdaki çizimde bir **Bakım talebi yaşam döngüsü durumları** sayfasının bir örneği gösterilmektedir.
 
-![Şekil 1](media/02-setup-for-requests.png)
+![Bakım talebi yaşam döngüsü durumları sayfası](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Bakım talebi yaşam döngüsü durumları, yaşam döngüsü durum grupları ve türlerin ilişkili olduğu ve iş emri yaşam döngüsü durumları, yaşam döngüsü durumu grupları ve türlerle aynı şekilde kullanıldığı gibi kullanılabilir. 
@@ -80,4 +80,4 @@ Bakım talepleriniz için gerekli yaşam döngüsü durumları oluşturulduktan 
 
 Aşağıdaki çizimde bir **Bakım talebi yaşam döngüsü modelleri** sayfasının bir örneği gösterilmektedir.
 
-![Şekil 2](media/06-setup-for-requests.png)
+![Bakım talebi yaşam döngüsü modelleri sayfası](media/06-setup-for-requests.png)

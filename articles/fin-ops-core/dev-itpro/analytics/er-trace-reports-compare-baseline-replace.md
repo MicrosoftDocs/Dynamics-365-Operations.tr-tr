@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181347"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578230"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Oluşturulan ER raporları sonuçlarının izlenmesi ve temel değerlerle karşılaştırılmasına ilişkin geliştirmeler
 
@@ -71,9 +71,6 @@ Temel, seçilmiş **ER temellerini öğrenme biçimi** formatında eklendi ancak
 5. **Kimlik Gir** alanına, **1** yazın.
 6. **Temel dosyaları oluştur** seçeneğini **Evet** olarak ayarlayın.
 7. **Tamam**'ı seçin.
-
-    ![Elektronik rapor parametreleri iletişim kutusu](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "Elektronik rapor parametreleri iletişim kutusu ekran görüntüsü")
-
 8. **Temelleri** seçin.
 
     ![Elektronik raporlama biçim temelleri sayfası](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronik raporlama biçim temelleri sayfası ekran görüntüsü")
@@ -140,9 +137,6 @@ Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçla
 
 1. **Yapılandırmalar** sayfasında, **Değişiklikler** hızlı sekmesinde **Seçili bileşenler**'i seçin.
 2. Biçim bileşenleri ağacında **Çıktı**'yı genişletin, **Çıktı\\Belge**'yi genişletin ve sonra onay kutusunu **Çıktı\\Belge\\ProcessingDateTime** için seçin.
-
-    ![Bileşenler iletişim kutusunu seçme](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "Bileşenler iletişim kutusunu seçme ekran görüntüsü")
-
 3. **Tamam**'ı seçin.
 
 ![Elektronik raporlama biçim temelleri sayfası](media/GER-BaselineSample-AddBaseline4.PNG "Elektronik raporlama biçim temelleri sayfası ekran görüntüsü")
@@ -162,19 +156,14 @@ Belirli ER. parametreleri ayarlayarak, biçim bağlamalarının değiştirilmesi
 1. **Yapılandırmalar** sayfasında, Eylem Bölmesinde **Yapılandırmalar** sekmesinde **Kullanıcı parametreleri**'ni seçin.
 2. **Temel uyarıları bastır** seçeneğini **Evet** olarak ayarlayıp **Tamam**'ı seçin.
 
-![Kullanıcı parametreleri iletişim kutusu](media/GER-BaselineSample-ERUserParameters1.png "Kullanıcı parametreleri iletişim kutusu ekran görüntüsü")
-
 ### <a name="review-the-generated-baseline-file"></a>Oluşturulan temel dosyayı gözden geçirin.
 
 1. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**'a gidin.
 2. **Temelleri** seçin.
 3. **Ekler**'i seçin.
-
-    ![Ekler sayfası](media/GER-BaselineSample-AttachedBaselineFile.PNG "Ekler sayfası ekran görüntüsü")
-
     > [!NOTE]
     > Oluşturulan dosya, formatın bağlayıcısından değil, eklenen temel kuralda yapılandırılan bağlamanın işlem tarih ve saat metnini (**"#"**) içerir.
-
+    
 4. **Ekler** sayfasını kapatın.
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Tasarlanan ER biçimini çalıştırma ve sonuçları analiz etmek için günlüğü gözden geçirme

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0e6306698d351d33cae627e3741ad9a2eb6d893
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 30145a56de4f7e3dce039968791d2fc9b960077f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783669"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571542"
 ---
 # <a name="move-replace-and-install-assets"></a>Varlıkları taşıma, değiştirme ve yükleme
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Bu konuda Varlık Yönetimi'nde varlıkların nasıl taşınacağı, değiştirileceği ve yükleneceği açıklanmaktadır. Başka varlıklarla ilişkisi olmayan bağımsız varlıklar oluşturabilir veya bir üst varlık (en üst düzey varlık) ve ilgili alt varlıklar (alt varlıklar) içeren bir varlık yapısı oluşturabilirsiniz. Varlık Yönetiminde, bir varlığın yerleşimini taşımak ve değiştirmek için üç yaklaşım vardır:
 

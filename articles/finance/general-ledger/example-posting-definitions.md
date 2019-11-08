@@ -1,5 +1,5 @@
 ---
-title: Deftere nakil tanımları
+title: Deftere nakil tanımı örnekleri
 description: Bu makale, deftere nakil tanımlarının satınalma siparişleri yükümlülükleri ve bütçe tahsis etme için nasıl kullanılacağına dair örnekler sağlar.
 author: ShylaThompson
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09b78a40d3bac5794a66d0ea743f11a27cfacf4e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 301f15f1d7d8f0e10bbaf2546fcf727aff284624
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186636"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552314"
 ---
 # <a name="posting-definition-examples"></a>Deftere nakil tanım örnekleri
 

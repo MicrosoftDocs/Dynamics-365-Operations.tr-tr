@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1a1d1a47bfe6bd58b1e1a0d4d46c2133f3bf48ad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: abd215243cbda68ba3f57b5fa41054a10745d11f
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2007979"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551038"
 ---
-# <a name="date-and-time-fields-in-talent"></a>Talent'taki Tarih ve Saat alanları
+# <a name="work-with-date-and-time-in-microsoft-dynamics-365-talent"></a>Microsoft Dynamics 365 Talent'ta tarih ve saatle çalış
 
 [!include [banner](includes/banner.md)]
 

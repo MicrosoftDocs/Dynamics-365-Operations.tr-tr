@@ -3,7 +3,7 @@ title: Proje faturalama
 description: Bu makalede, Zaman ve malzeme projeleri ve Sabit fiyatlı projeler için proje faturalamaya genel bir bakış verilmektedir. Fatura teklifleri (ön faturalar), fatura kontrolü, hesaba mahsup faturalama, satıcı faturalama ve hakkındaki bilgileri içerir ve alacak dekontları hakkında bilgiler içermektedir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d91f6b1ccc3254e2c04d24c5f9bf2014c64e50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180413"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658632"
 ---
 # <a name="project-invoicing"></a>Proje faturalama
 
@@ -55,6 +55,9 @@ Aşağıdaki hareketler için fatura teklifleri oluşturabilirsiniz:
 -   Önceki proje faturalarında müşteriler tarafından kesilen tutarlar
 -   Alacak dekontları
 -   Proje başlamadan önce bir müşteri tarafından size yapılan ödeme tutarları
+
+> [!NOTE]
+> **Proje fatura teklifi oluşturma sırasında kaynağa göre sıralamayı etkinleştir** özelliği proje muhasebecinin, yeni bir proje faturası teklifi oluştururken kaynak tarafından faturalamada kullanılabilen proje hareketlerini sıralamasına olanak tanır. Kullanılabilir proje hareketlerinin görüntülendiği ızgara, Kaynak Kodu ve Kaynak için ayrı bir alana sahiptir ve kullanıcının kaynak adı üzerinde filtre uygulamasına ve sıralama yapmasına olanak sağlar. Bu özellik varsayılan olarak devre dışıdır ve **Çalışma alanları > Özellik yönetimi**'nde etkinleştirilebilir. Bu özelliği etkinleştirme konusunda yardım için sistem yöneticinize başvurun.
 
 Bir fatura teklifinde ücret hareketleri oluşturabilirsiniz. Ayrıca saat, gider, madde ve ücret hareketlerinin satış fiyatı üzerinde değişiklik yapabilirsiniz. Bir fatura teklifini deftere naklettiğinizde, güncel fiyatlar ve hareketler proje raporları ve hareket geçmişine eklenir. 
 

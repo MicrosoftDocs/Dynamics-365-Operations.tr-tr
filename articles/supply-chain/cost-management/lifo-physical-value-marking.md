@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565708"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569283"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile LIFO
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Son Giren İlk Çıkar (LIFO), son (en yeni) girişlerin en önce çıkarıldığı bir stok modelidir. Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır. 
 
@@ -56,7 +54,9 @@ Bu örnekte ürün model grubu, fiziksel değeri dahil edecek şekilde işaretle
 -   5b. Her biri 20,00 ABD Doları maliyet fiyatında 1 miktarındaki stok mali çıkışı (mali olarak güncelleştirilen hareketlerin cari ortalaması).
 -   6. Stok kapanışı gerçekleştirilir. LIFO yöntemine dayanarak, mali olarak güncelleştirilen son çıkış mali olarak güncelleştirilen son girişe karşılık kapatılır. Çıkış hareketinde 10,00 ABD Doları tutarında bir düzeltme yapılır.
 
-Yeni cari ortalama maliyet fiyatı, 15,00 ABD Doları tutarında mali olarak güncelleştirilen hareketlerin ortalamasını yansıtır. Aşağıdaki çizimde, **Fiziksel değeri dahil et** seçeneği kullanılmadığında LIFO stok modelinin bu hareket serisindeki etkileri gösterilmiştir. ![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan LIFO](./media/lifowithoutincludephysicalvalue.gif) 
+Yeni cari ortalama maliyet fiyatı, 15,00 ABD Doları tutarında mali olarak güncelleştirilen hareketlerin ortalamasını yansıtır. Aşağıdaki çizimde, **Fiziksel değeri dahil et** seçeneği kullanılmadığında LIFO stok modelinin bu hareket serisindeki etkileri gösterilmiştir. 
+
+![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan LIFO](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Diyagramın anahtarı**
 
@@ -90,7 +90,9 @@ Aşağıdaki çizimde şu hareketler gösterilmiştir:
 
 Hareket 6a, 4b giriş hareketine ayarlanacaktır. Giriş mali değil, yalnızca fiziksel olarak güncelleştirildiğinden sistem bu hareketleri kapatmaz. Bunun yerine, fiziksel çıkış hareketine yalnızca 8,75 ABD Doları tutarında bir düzeltme nakledilir. 5b hareketi, 3a fiziksel giriş hareketine ayarlanır. Sistem, ikisi de mali olarak güncelleştirilmediğinden bu hareketleri kapatmaz. Bunun yerine, bu çıkış hareketine yalnızca negatif 3,75 ABD Doları tutarında bir düzeltme yapılır. Yeni cari ortalama maliyet fiyatı 20.00 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. 
 
-Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![Fiziksel Değeri Dahil Et Seçeneği ile LIFO](./media/lifowithincludephysicalvalue.gif) 
+Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. 
+
+![Fiziksel Değeri Dahil Et Seçeneği ile LIFO](./media/lifowithincludephysicalvalue.gif) 
 
 **Diyagramın anahtarı**
 
@@ -132,7 +134,9 @@ Aşağıdaki çizimde bu hareketler gösterilmiştir:
 
 Yeni cari ortalama maliyet fiyatı 27.50 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. 
 
-Aşağıdaki çizimde çıkışlar ve girişler kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. ![İşaretleme ile LIFO    ](./media/lifowithmarking.gif) 
+Aşağıdaki çizimde çıkışlar ve girişler kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. 
+
+![İşaretleme ile LIFO    ](./media/lifowithmarking.gif) 
 
 **Diyagram anahtarı**
 
@@ -146,7 +150,4 @@ Aşağıdaki çizimde çıkışlar ve girişler kullanıldığında LIFO stok mo
 - Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki stok hareket nakillerinin sırasını belirtir.
 - Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
 - Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
-
-
-
 

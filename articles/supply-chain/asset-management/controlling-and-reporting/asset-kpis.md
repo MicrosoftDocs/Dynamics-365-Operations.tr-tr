@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4fc32d337be1f71932555fcb062a8d05c9ca9bda
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1aee14c869d84bef38a738bfe78fd09ee7f82d94
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918430"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652391"
 ---
 # <a name="asset-kpis"></a>Kıymet KPI'ları
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Varlık yönetiminde, kıymetler ve kıymet tipleri için çeşitli ana performans göstergelerini (KPI'lar) hesaplayabilirsiniz. Kullanım süresi, kesinti, süre sonu, onarım süresi ve arıza arasındaki ortalama süre (MTBF) ile ilgili olarak varlıkların performansına genel bir bakış almak için KPI'lar kullanılır.
 
@@ -85,8 +85,8 @@ Aşağıdaki tabloda, **Varlık KPI'ları** sayfasındaki alanların açıklamas
 
 Aşağıdaki şekil dört kıymet için bir KPI hesaplamasının ekran görüntüsünü gösterir.
 
-![Şekil 1](media/11-controlling-and-reporting.png)
+![Dört varlık için KPI hesaplamasının ekran görüntüsü](media/11-controlling-and-reporting.png)
 
-- **Tüm kıymetlerde** birden fazla varlık seçebilir ve **genel** sekmesindeki **varlık KPI'ları** düğmesini tıklatabilirsiniz. Ardından, seçilen varlıkların KPI 'Larını hesaplamak için **kıymet KPI'ları hesapla** iletişim kutusunda **Tamam**'ı tıklatın.  
+- **Tüm varlıklar** alanında birden fazla varlık için çoklu seçim yapabilirve **Genel** sekmesindeki **Varlık KPI'ları** düğmesine tıklayabilirsiniz. Ardından, seçilen varlıkların KPI'larını hesaplamak için **Varlık KPI'ları hesapla** iletişim kutusunda **Tamam**'a tıklayın.  
 - Bir KPI hesaplamasından alınan sonuçlar, kuruluma ve kesinti süresi neden kodlarının ayarına ve kullanımına bağlı olarak [bakım süresi kayıtlarını](../work-orders/maintenance-downtime.md) içerebilir veya içermeyebilir. 
 

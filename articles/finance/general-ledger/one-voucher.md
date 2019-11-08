@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 2b755dcfbcdf41ada0302fc04f527ce7c309f4bb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186406"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553199"
 ---
 # <a name="one-voucher"></a>Bir fiş
 
@@ -51,7 +51,7 @@ Mali günlükler için (günlük fişi, sabit kıymet günlüğü, satıcı öde
 
 ## <a name="issues-with-one-voucher"></a>Bir fiş ile ilgili sorunlar
 
-Bir fiş işlevi; hesap kapatma, vergi hesaplaması, hareketi geri alma, yardımcı defterin genel muhasebeye mutabakatı, mali raporlama ve daha fazlası sırasında sorunlara neden olur. (Hesap kapatma sırasında meydana gelen sorunlar hakkında daha fazla bilgi için bkz., örneğin [Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Düzgün bir şekilde çalışmak ve raporlamak için bu işlemler ve raporlar, hareket ayrıntıları gerektirir. Bazı senaryolar, kuruluşunuzun kurulumuna bağlı olarak yine de düzgün çalışmaya devam etse de; bir fişte birden çok hareket girildiğinde çoğunlukla sorunlar oluşur.
+Bir fiş işlevi; hesap kapatma, vergi hesaplaması, hareketi geri alma, yardımcı defterin genel muhasebeye mutabakatı, mali raporlama ve daha fazlası sırasında sorunlara neden olur. (Hesap kapatma sırasında meydana gelen sorunlar hakkında daha fazla bilgi için bkz., örneğin [Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Düzgün bir şekilde çalışmak ve raporlamak için bu işlemler ve raporlar, hareket ayrıntıları gerektirir. Bazı senaryolar, kuruluşunuzun kurulumuna bağlı olarak yine de düzgün çalışmaya devam etse de; bir fişte birden çok hareket girildiğinde çoğunlukla sorunlar oluşur.
 
 Örneğin, aşağıdaki fişi deftere naklettiğinizi düşünelim.
 
