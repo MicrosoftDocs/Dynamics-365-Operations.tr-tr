@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 2a3c83fcc3f48aa235ffb2db2dc492b34a306c4c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d84dd9c22738a1b4fc5edb5331d4aa213b82facb
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024211"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551945"
 ---
-# <a name="azure-active-directory-users-not-found-in-people-picker"></a>Azure Active Directory kullanıcıları Kişi Seçici'de bulunamadı
-
+# <a name="user-not-found-in-people-picker-in-attract-or-onboard"></a>Kullanıcı, Attract veya Onboard'da Kişi Seçici içinde bulunamadı
 [!include [banner](includes/banner.md)]
 
 ## <a name="issue"></a>Çıkış

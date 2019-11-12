@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e5f6794c11811ad69725acb22a324a6bb1f2ab9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b075b926585e27b8811f999e41dcb271277d360e
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187510"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551692"
 ---
-# <a name="view-an-expense-report"></a>Gider raporu görüntüle
+# <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Bir gider raporunu Genel muhasebeden veya Tedarik ve kaynak atamadan görüntüleme
 
 [!include [banner](../includes/banner.md)]
 

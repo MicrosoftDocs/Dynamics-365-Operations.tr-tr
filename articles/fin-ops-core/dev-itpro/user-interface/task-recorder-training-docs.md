@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc8e4b942c3c5307d90bfd08a33a8b27c4352d2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249739"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658822"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Görev Kaydedici'yle belge veya eğitim oluşturma
 
@@ -68,21 +68,21 @@ Yeni bir görev kaydı oluştururken veya kaydınızı bir Microsoft görev kayd
 
 Bu, kayıt oluştururken bir ek açıklama eklediğinizde gördüğünüz düzenleme bölmesidir. **Başlık** kutusuna bir başlık ek açıklaması girin. 
 
-[![ekran1](./media/screen1.png)](./media/screen1.png) 
+[![Başlık ek açıklamasıyla bölmeyi düzenleme](./media/screen1.png)](./media/screen1.png) 
 
 Görev kılavuzunda "kabarcığında" başlık ek açıklaması bu şekilde görünür. 
 
-[![ekran2](./media/screen2.png)](./media/screen2.png)
+[![Görev kılavuzunda başlık ek açıklama görünümü](./media/screen2.png)](./media/screen2.png)
 
 -   **Notlar:** Görev kaydedicinin otomatik olarak oluşturduğu adım metninden sonra not ek açıklaması görünür. Görev kılavuzunda ancak kullanıcı görev kılavuzu kabarcığındaki **daha fazla göster** linkine tıkladığında görülebilir. Bu tür ek açıklamayı bir kullanıcının adımı tamamlaması için bilmesi gereken her şeyi açıklamak için kullanın.
 
 Bu, kayıt oluştururken bir ek açıklama eklediğinizde gördüğünüz düzenleme bölmesidir. **Notlar** kutusuna bir not ek açıklaması girin. 
 
-[![ekran3](./media/screen3.png)](./media/screen3.png) 
+[![Notlar kutusunda ek açıklama bulunan bölmeyi düzenleme](./media/screen3.png)](./media/screen3.png) 
 
 Görev kılavuzundaki "kabarcıkta" not ek açıklaması bu şekilde görünür.
 
-[![ekran4](./media/screen4.png)](./media/screen4.png)
+[![Görev kılavuzunda notlar ek açıklama görünümü](./media/screen4.png)](./media/screen4.png)
 
 -   **Bilgi adımı**: Bu ek açıklamalar bir denetim veya bir formdaki herhangi bir yere sağ tıklayarak oluşturulur &lt; **Görev kaydedici** &lt; **Bilgi adımı ekleyin. **Bilgi adımları kullanıcı arabiriminde hiçbir eylem kaydedilmemiş olsa bilse, eklediğiniz herhangi bir noktada numaralandırılmış adım olarak görünür. Bir form düzeyi bilgi adımı veya bir denetimle ilişkilendirilmiş bir bilgi adımı ekleyebilirsiniz. Bir bilgi adımı bir formla ilişkilendirildiğinde, görev kılavuzu oynatıldığında, formun herhangi bir yerinde işaretçi olmaksızın görev kılavuzu "kabarcığı" görünecektir. Bir bilgi adımı bir denetimle ilişkilendirildiğinde, görev kılavuzu oynatıldığı zaman, görev kılavuzu "kabarcığı" denetimi gösterir. Yardım bölmesinde, bir bilgi adımı ek açıklaması, girdiğiniz metni içeren numaralı bir adım olarak görünür. Kullanıcıyı sonraki adımlara hazırlamak, uygulamanın dışında yapılması gereken adımları açıklamak veya diğer kayıtlara başvurmak için bilgi adımlarını kullanın (ancak ek açıklamalarda köprüler oluşturamazsınız).
 

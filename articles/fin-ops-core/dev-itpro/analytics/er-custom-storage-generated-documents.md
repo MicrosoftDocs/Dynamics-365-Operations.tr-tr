@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a1c41cd4440eaf70f720bfd64884e6ef4662f87a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f65118b6a7393ced9d80c30fad7540a7b27da6c7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181485"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569096"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Oluşturulan belgeler için özel depolama konumu belirtin
 
@@ -56,7 +56,7 @@ Geçerli topolojide [yeni bir ER biçimi oluşturun](tasks/er-format-configurati
 
 Bir ER biçiminin oluşturduğu belgelerin nasıl yönlendirileceğini belirtmek için [ER hedefleri](electronic-reporting-destinations.md) yapılandırmanız gerekir. Oluşturulan belgeleri dosyalar olarak depolamak için yapılandırılmış her ER hedefinde, Belge yönetimi çerçevesinin belge türünü belirtmeniz gerekir. Farklı belge türleri farklı ER biçimlerinin oluşturduğu belgeleri yönlendirmekte kullanılabilir.
 
-1. Daha önceden oluşturduğunuz veya içe aktardığınız ER biçimi için yeni bir [belge türü](../../fin-and-ops/organization-administration/configure-document-management.md) ekleyin. Aşağıdaki örnekte, belge türü **FileX**'tir.
+1. Daha önceden oluşturduğunuz veya içe aktardığınız ER biçimi için yeni bir [belge türü](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) ekleyin. Aşağıdaki örnekte, belge türü **FileX**'tir.
 2. Bu belge türünü diğer belge türlerinden ayırt etmek için adında belirli bir anahtar kelime dahil edin. Örneğin, aşağıdaki görselde, adı **(LOCAL) folder**'dır.
 3. **Sınıf** alanında, **Dosya ekle** belirtin.
 4. **Grup** alanında, **Dosya** belirtin.

@@ -3,7 +3,7 @@ title: Kıymet sayaçlarını otomatik olarak güncelleştirme
 description: Bu konuda, Varlık Yönetiminde varlık sayaçlarının otomatik olarak güncelleştirilmesi açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,52 +16,57 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 97e6912cd37d6f82d8bf022141f04645a3364ee1
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: d51b9a7684e460d555632c3896e9dd8a4e10d92c
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875952"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626190"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Kıymet sayaçlarını otomatik olarak güncelleştirme
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+Varlık sayaçlarının el ile kaydı hakkında bilgi edinmek için bkz. [Varlık sayaçlarının el ile güncelleştirilmesi](../work-orders/manual-update-of-asset-counters.md). Varlık sayaçlarının nasıl ayarlanacağı konusunda bilgi için bkz. [Sayaçlar](../setup-for-objects/counters.md).
 
-Önceki bölümde, varlık sayaçlarının el ile kaydı açıklanmıştır. Varlık sayaçları kurulumu [Sayaçlar](../setup-for-objects/counters.md) bölümünde açıklanmaktadır.
+Sayaç değerleri, üretim saetleri veya üretim miktarına (bu üretilen miktardır) göre üretim kayıtlarından da otomatik olarak güncelleştirilebilir. Bu güncelleştirme, **Varlık sayaçlarını güncelleştir** sayfasında gerçekleştirilir. Bir veya daha fazla varlığı bir **Başlangıç tarihi** parametresi ayarlayarak güncelleştirebilirsiniz. Bu parametre, üretim kayıtları (üretim saatleri veya üretim miktarları) için başlangıç tarihini belirtir. Başka bir deyişle, sayaç değerlerinin güncelleştirilmesi gereken tarihi belirtir.
 
-Sayaç değerleri, üretim saetleri veya üretim miktarına göre üretim kayıtlarından da otomatik olarak güncelleştirilebilir. Bu işlem, **Varlık sayaçlarını güncelleştir**'de gerçekleştirilir. Bir veya daha fazla varlığı **Başlangıç tarihi** parametresi ekleyerek güncelleştirebilirsiniz. Bu parametre, üretim kayıtları (saat veya üretilen miktar) için başlangıç tarihini belirtir; bu, sayaç değerlerinin güncelleştirilmesi gereken başlangıç tarihidir.
+Bir kaynakla ilişkili olan *ve* üretim saatlerine veya üretim miktarına göre güncelleştirilmek üzere ayarlanan varlık sayaçları bulunan tüm varlıklar otomatik güncelleştirmeye dahil edilir. Yeni sayaç değerleri oluşturulur.
 
-Bir kaynakla ilişkili olan *ve* üretilen miktara veya üretim saatlerine göre güncelleştirilmek üzere ayarlanan varlık sayaçları bulunan tüm varlıklar otomatik güncelleştirmeye dahil edilir ve yeni sayaç değerleri oluşturulur.
+Üretim miktarına dayalı sayaçlar için sayım, hem sağlam miktarı hem de kaydedilen hata miktarını içerir. Üretim miktaır kaydı için kullanılan birim sayaçta kullanılan birimden farklıysa miktar sayaç birimine karşılık gelecek şekilde dönüştürülür.
 
-Üretim miktarına dayalı sayaçlarla ilgili olarak, ürün miktarının yanı sıra kaydedilen hata miktarı da sayımına dahil edilir. Üretilen miktar kaydı için kullanılan birim sayaçta kullanılan birimden farklıysa miktar, sayaç birimine karşılık gelecek şekilde dönüştürülür.
+Yukarıda belirtildiği gibi, otomatik sayaçlar üretim kayıtlarından güncelleştirilebilir. Bu nedenle, sayaçlarını otomatik olarak güncelleştirmek istediğiniz varlık bir kaynakla (makine) ilişkili olmalıdır. Üretilen miktarlar veya üretim saatleri kaynağa kaydedildiğinde, ilgili varlık sayaçlarını güncelleştirebilirsiniz.
 
-Yukarıda belirtildiği gibi, otomatik sayaçlar üretim kayıtlarından güncelleştirilebilir. Bu nedenle, sayaçlarını otomatik olarak güncelleştirmek istediğiniz varlık bir kaynakla (makine) ilişkili olmalıdır. Aşağıdaki açıklamalar, **Varlık yönetimi** modülündeki bir varlıkla ilgili sayaçların otomatik güncelleştirilmesi için temel olarak kullanılan üretim emirlerinin kurulumu ve işlenmesi (**Üretim denetimi** modülünde) ile ilgili genel bilgiler sağlar.
-
-Üretilen miktarlar veya üretim saatleri kaynağa kaydedildiğinde, ilgili varlık sayaçlarını güncelleştirebilirsiniz.
-
-1. **Varlık yönetimi** > **Periyodik** > **Varlıklar** > **Varlık sayaçlarını güncelleştir**'e tıklayın.
+1. **Varlık yönetimi** > **Periyodik** > **Varlıklar** > **Varlık sayaçlarını güncelleştir**'i seçin.
 
 2. **Başlangıç tarihi** alanında otomatik güncelleştirmenin başlangıç tarihini seçin.
 
 >[!NOTE]
 >Bu alandaki tarih, **Rota hareketlerinden** gelen "süren iş" tarihidir (**Üretim denetimi** > **Sorgular ve raporlar** > **Üretim** > **Rota hareketleri** > **Fiziksel tarih** alanı).
 
-3. Otomatik güncelleştirme için belirli varlıkları, varlık türlerini veya kaynakları seçmek isterseniz **Eklenecek kayıtlar** hızlı sekmesinde **Filtre**'ye tıklayın ve ilgili seçimleri yapın.
+3. **Dahil edilecek kayıtlar** hızlı sekmesinde, otomatik güncelleştirme için belirli varlıkları, varlık türlerini veya kaynakları seçebilirsiniz. **Filtre**'yi seçin ve ilgili seçimleri yapın.
 
-4. Gerekirse, **Arka planda çalıştır** hızlı sekmesinde otomatik güncelleştirmeyi toplu iş olarak ayarlayabilirsiniz.
+4. **Arka planda çalıştır** hızlı sekmesinde gerektiğinde otomatik güncelleştirmeyi toplu iş olarak ayarlayabilirsiniz.
+
+Aşağıdaki örnekte **Varlık sayaçlarını güncelleştir** iletişim kutusunun bir örneği gösterilmektedir.
 
 ![Şekil 1](media/12-work-orders.png)
 
-5. **Tamam**'a tıklayın. Otomatik varlık sayacı tamamlandığında, varlıkla ilgili sayaç kayıtlarını **Varlık sayaçları**'nda görebilirsiniz (**Varlık yönetimi** > **Genel** > **Varlılklar** > **Tüm varlıklar** > varlık seçin > **Sayaçlar** düğmesi).
+5. **Tamam**'ı seçin. 
 
-**Varlık sayacı toplamları**'nda tüm varlıklardaki tüm sayaç türlerinde yapılmış en son kaydın genel görünümünü alabilirsiniz. **Varlık Yönetimi** > **Sorgular** > **Varlıklar** > **Varlık toplam değeri**'ne tıklayın. Bu, **Varlık sayaçları**'na çok benzer ancak **Varlık toplam değeri**'nde kayıtları ekleyemez veya düzenleyemezsiniz. Yalnızca genel bakış içindir.
+Otomatik varlık sayacı güncelleştirmesi yapıldıktan sonra, **Varlık sayaçları** sayfasında bulunan varlıkla ilgili sayaç kayıtlarını görüntüleyebilirsiniz. **Varlık yönetimi** > **Ortak** > **Varlıklar** > **Tüm varlıklar**'ı seçin, varlığı seçin ve ardından Eylem Bölmesinde **Varlık** sekmesine gidip **Önleyici** grubundan **Sayaçlar**'ı seçin.
+
+**Varlık toplam değeri** sayfasında tüm varlıklardaki tüm sayaç türlerinde yapılmış en son kaydın genel görünümünü alabilirsiniz. **Varlık Yönetimi** > **Sorgular** > **Varlıklar** > **Varlık toplam değeri**'ni seçin. Bu sayfa, **Varlık sayaçları** sayfasına benzer, ancak kayıt ekleyemez veya düzenleyemezsiniz. Yalnızca genel bakış içindir.
+
+Aşağıdaki örnekte **Varlık toplam değeri** sayfasının bir örneği gösterilmektedir.
 
 ![Şekil 2](media/13-work-orders.png)
 
+Aaşağıdaki noktaları unutmayın:
 
-- Otomatik olarak güncelleştirilen sayaç türleri için el ile sayaç değeri kayıtları oluşturmak da mümkündür. Daha fazla bilgi için "Varlık sayaçlarını el ile güncelleştirme" bölümüne bakın.
-- Başka bir sayaçla ilişkili sayaçlar ayarlayabilirsiniz. Bu, bir sayaç güncelleştirildiğinde ilgili sayaçların da aynı anda otomatik olarak güncelleştirileceği anlamına gelir. İlgili sayaçların kurulumuyla ilgili olarak [Sayaçlar](../setup-for-objects/counters.md) bölümüne bakın.
+- Otomatik olarak güncelleştirilen sayaç türleri için el ile sayaç değeri kayıtları da oluşturabilirsiniz. Daha fazla bilgi için bkz. [Varlık sayaçlarını el ile güncelleştirme](../work-orders/manual-update-of-asset-counters.md).
+
+- Başka bir sayaca ilişkin sayaçlar ayarlayabilirsiniz. Bu durumda, bir sayaç güncelleştirildiğinde, ilgili sayaçlar aynı anda otomatik olarak güncelleştirilir. İlgili sayaçların nasıl ayarlanacağı konusunda daha fazla bilgi için bkz. [Sayaçlar](../setup-for-objects/counters.md).
+

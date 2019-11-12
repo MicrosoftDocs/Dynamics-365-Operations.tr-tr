@@ -3,7 +3,7 @@ title: Düzenleme güncelleştirmeleri
 description: Bu konu altında, Microsoft Dynamics 365 Finance için planlanan ve yayınlanan mevzuat güncelleştirmelerinin listesi verilmektedir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2019
+ms.date: 10/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dc5a9669a9c6c298a4f9df52346b8a075ba177e0
-ms.sourcegitcommit: a4e1a28b4733f3356e5a2237c8ba5d93f9799391
+ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2517323"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653216"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -28,9 +28,7 @@ ms.locfileid: "2517323"
 
 Bu konu altında, desteklenen Dynamics 365 Finance yerelleştirmelerinde yayınlanması planlanan mevzuat güncelleştirmelerinin listesi verilmektedir. Teslimat saatleri değişebilir ve öngörülen işlevsellik farklı olabilir veya yayınlanmayabilir. Daha fazla bilgi için [Microsoft ilkesini](https://go.microsoft.com/fwlink/p/?linkid=2007332) okuyun. 
 
-Mevzuat güncelleştirmeleri, yeni veya değişen ülkeye özel yasaları desteklemek için sunulan özelliklerdir. Planlanan ve yayınlanan ülkeye özel özellikler hakkında ek bilgi almak için aşağıdaki kaynaklara bakın:
-- [Dynamics 365 ve Power Platform Sürüm Notları](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Microsoft Dynamics 365 for Finance and Operations için yenilikler](../../fin-and-ops/get-started/whats-new-changed.md)
+Mevzuat güncelleştirmeleri, yeni veya değişen ülkeye özel yasaları desteklemek için sunulan özelliklerdir. Planlanan ve yayınlanan ülkeye özel özellikler hakkında ek bilgi almak için bkz. [Dynamics 365 ve Power Platform sürüm planları](https://docs.microsoft.com/business-applications-release-notes/index)
 
 Microsoft, yeni mevzuat gereksinimlerini olabildiğince erken uygulamaya çalışır. Gerçek teslim tarihi yasanın duyurulma tarihi, yerel otoritelerden gereksinim ayrıntılarının alınabilmesi, değerleme araçlarının mevcut olması ve değişikliğin boyutu ve karmaşıklığına bağlıdır.
 
@@ -44,13 +42,19 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 
 |Planlanan yayımlanma tarihi|Yayın sürümü|Ülke/bölge|Düzenleme güncelleştirmesi|
 |--------------------|---------------|-------|-------|
-|      Ağustos 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brezilya      |   NF-e: NT 2019.001 Sürüm 1.10 için teknik notların yeni bir sürümü    |
-|      Ağustos 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brezilya      |   NF-e: NT 2019.001 Sürüm 1.20 için teknik notların yeni bir sürümü    |
-|      Ağustos 2019          |   10.0.6(PEAP)      | Brezilya      |   DRCST beyannamesi SC   |
-|      Ağustos 2019          |   10.0.6(PEAP), 10.0.5HF      | Brezilya     |   Rio de Janeiro (RJ) eyaleti tarafından EFD-ICMS/IPI ile ilgili olarak yeni yasa uygulanmaktadır. Rio de Janeiro (RJ) uygulamasına ilişkin Çözüm 13/19, "İbrada uygulanacak özel prosedürler" içindir     |
-|      Ağustos 2019          |   10.0.6(PEAP)      | Brezilya      |   Vergi beyannamesi CAT 42/18    |
-|      Ağustos 2019          |   10.0.6(PEAP)      | İtalya      |   D.L. tarafından KDV yönetimi değişiklikleri 119 / 23 Ekim 2018 - Dynamics 365 for Finance and Operations v.10.0.6  |
-|      Ağustos 2019          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japonya      |   Tüketim vergi oranı değişikliği ve azaltılmış vergi oranı yürürlüğe girdi    |
+|      Kasım 2019          |   10.0.7(PEAP)      | İtalya      |   D.L. tarafından KDV yönetimi değişiklikleri 119 - 23 Eki 2019: Üç aylık KDV iletişimi ("Lipe 2018")    |
+|      Kasım 2019          |   10.0.7(PEAP)      | İtalya      |   Retail - POS'ta müşteri bilgilerini yönetme |
+|      Kasım 2019          |   10.0.7(PEAP)      | İtalya      |   Retail - Mali girişte müşteri bilgilerini yazdırma | 
+|      Kasım 2019          |   10.0.7(PEAP)      | Japonya      |   Tüketim vergi oranı değişikliği ve azaltılmış vergi oranı yürürlüğe girdi (fatura düzenleri) | 
+|      Kasım 2019          |   10.0.7(PEAP)      | Meksika      |   Kural 2.7.2.9'u güncelleştirme - CFDI belgesini veren kurumun posta kodu saat dilimini kullanma | 
+|      Kasım 2019          |   10.0.7(PEAP)      | Birleşik Krallık     |   Vergiyi Dijital Yapma - Aynı sistem veritabanı içinde KDV grubu olarak raporlama yapan şirketler için KDV iadesi raporu oluşturma | 
+|      Kasım - Ağustos 2019          |   10.0.7(PEAP), 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brezilya      |   NF-e: NT 2019.001 Sürüm 1.20 için teknik notların yeni bir sürümü    |
+|      Kasım - Ağustos 2019          |   10.0.7(PEAP), 10.0.6      | Brezilya      |   DRCST beyannamesi SC   |
+|      Kasım - Ağustos 2019          |   10.0.7(PEAP), 10.0.6      | İtalya      |   D.L. tarafından KDV yönetimi değişiklikleri 119 - 23 Eki 2018 - Dynamics 365 for Finance and Operations  |
+|      Ağustos 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brezilya      |   NF-e: NT 2019.001 Sürüm 1.10 için teknik notların yeni bir sürümü    |
+|      Ağustos 2019          |   10.0.6, 10.0.5HF      | Brezilya     |   Rio de Janeiro (RJ) eyaleti tarafından EFD-ICMS/IPI ile ilgili olarak yeni yasa uygulanmaktadır. Rio de Janeiro (RJ) uygulamasına ilişkin Çözüm 13/19, "İbrada uygulanacak özel prosedürler" içindir     |
+|      Ağustos 2019          |   10.0.6      | Brezilya      |   Vergi beyannamesi CAT 42/18    |
+|      Ağustos 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japonya      |   Tüketim vergi oranı değişikliği ve azaltılmış vergi oranı yürürlüğe girdi    |
 |      Ağustos - Temmuz 2019          |   10.0.5, 10.0.4HF, 10.0.3HF      | İspanya      |   İspanya: SII: Geçerlilik kuralları değişikliği - 1 Ekim 2019'dan itibaren    |
 |      Temmuz 2019          |   10.0.5, 10.0.4HF, 10.0.2HF      | Brezilya      |   NF-e: NT 2019.001 Sürüm 1.00 için teknik notların yeni bir sürümü  |
 |      Temmuz 2019          |   10.0.5      | Brezilya      |   SPED katkıları pratik rehber 1,31. yeni kılavuzu    |
@@ -66,7 +70,7 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 |      Nisan 2019          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brezilya     |   SPED ECD Düzen 7    |
 |      Nisan 2019          |   10.0.3      | Brezilya      |   SPED ECF- 2019 için Düzen 5    |
 |      Nisan 2019          |   10.0.3      | Hindistan      |   Hareket para birimi olarak değil, BOE para biriminde Vergi düzeltmesi    |
-|      Nisan 2019          |   10.0.3      | Hindistan      |   Hareket para birimi olarak değil, BOE para biriminde gümrük vergisi hesaplaması    |
+|      Nisan 2019          |   10.0.3      | Hindistan      |   Gümrük vergisini hareket para birimiyle değil BOE'deki para birimiyle hesaplama   |
 |      Nisan 2019          |   10.0.3, 10.02HF, 10.0.1HF      | Hindistan      |   IEC numarası biçim değişimi    |
 |      Nisan 2019          |   10.0.3      | Litvanya      |   Litvanya i.SAF raporu kullanıcıların, yasal vergi kodlarıyla ilişkilendirmede sistem satış vergisi kodlarını tanımlamasını sağlar    |
 |      Nisan 2019          |   10.0.3      | Polonya      |   SAF faturaları (JPK_FA) v.2, 1 Temmuz 2019'dan itibaren    |

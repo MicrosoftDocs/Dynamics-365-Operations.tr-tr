@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278336"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653706"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Supply Chain Management için yardım kaynakları
 
@@ -39,7 +39,7 @@ Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için <a href="ht
 Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 
 - [Varlık yönetimi](asset-management/index.md)
-- [Maliyet muhasebesi](../financials/cost-accounting/cost-accounting-home-page.md)
+- [Maliyet muhasebesi](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Maliyet yönetimi](cost-management/cost-management-home-page.md)  
 - [Stok Yönetimi](inventory/inventory-home-page.md)
 - [Master planlama](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ Bu teknik konferans kayıtlarında Finance and Operations'ın önceki sürümün
 -  [Yeni Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)'teki taşıma yönetimi parametreleri (TMS)
 
 ## <a name="blogs"></a>Bloglar
-<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX İmalat Ar-Ge Ekibi Blogu</a> ve <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX'te Tedarik Zinciri Yönetimi Ar-Ge Ekibi Blogu</a>'nda imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü, Finance and Operations'ın önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir. 
+<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX İmalat Ar-Ge Ekibi Blogu</a> ve <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX'te Tedarik Zinciri Yönetimi Ar-Ge Ekibi Blogu</a>'nda imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü önceki sürüm için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir. 
 
 ## <a name="white-papers"></a>Teknik incelemeler
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Maliyet muhasebesi uygulamalı laboratuvarları</a> 

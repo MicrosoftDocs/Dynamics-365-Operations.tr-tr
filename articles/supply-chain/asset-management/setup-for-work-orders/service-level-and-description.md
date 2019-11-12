@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e645c25208f55b1032bc7f7c181c72db7a2f265
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 7dd577c930c6cc17da6baee30d3558656de01a09
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874659"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569835"
 ---
 # <a name="service-level-and-description"></a>Servis düzeyi ve açıklaması
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Bir iş emri oluşturduğunuzda, ilgili servis düzeylerini tanımlamak ve buna genel bir açıklama eklemek isteyebilirsiniz. **İş emri servis düzeyleri** sayfasında iş emri servis düzeylerini ve **İş emri açıklama** sayfasıyla ilgili açıklamaları oluşturabilirsiniz.
 
@@ -48,7 +48,7 @@ Bir iş emri oluşturduğunuzda, ilgili servis düzeylerini tanımlamak ve buna 
 8. Bitiş tarihine ek olarak, iş emri bitiş saatini ayarlamak için **Bitiş saatini ayarla** seçeneğini **Evet**olarak ayarlayın. Sonra **Bitiş saati** alanına bitiş saatini girin. Seçeneği **Hayır**olarak ayarlarsanız günün geçerli saati kullanılır.
 9. **Kaydet**'i seçin.
 
-![Şekil 1](media/19-setup-for-work-orders.png)
+![İş emri hizmet düzeyi sayfası](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Açıklama oluştur
 

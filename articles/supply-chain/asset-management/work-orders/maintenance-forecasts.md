@@ -3,7 +3,7 @@ title: Bakım tahminleri
 description: Bu konuda Varlık Yönetimi'nde bakım tahminleri açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,111 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024511"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626305"
 ---
 # <a name="maintenance-forecasts"></a>Bakım tahminleri
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Bir iş emri oluşturduğunuzda, ilgili varlıklar ve bakım işi türleriyle iş emri işleri oluşturursunuz. Bakım tahminlerini içeren bir bakım işi türü seçtiğinizde, tahminler otomatik olarak iş emrine kopyalanır.
+Bir iş emri oluşturduğunuzda, ilgili varlıklar ve bakım işi türleri bulunan iş emri işleri oluşturursunuz. Bakım tahminlerini içeren bir bakım işi türü seçtiğinizde, tahminler otomatik olarak iş emrine kopyalanır.
 
-Bir iş emrinde tahmin satırları ekleyebilir veya silebilirsiniz. Bir iş emri yaşam döngüsü durumu, ilgili proje türü ve proje tipiyle ilgili aşama kuralları kurulumu, tahmin satırları ekleyip ekleyemeyeceğinizi veya düzenleyip düzenleyemeyeceğinizi belirler. 
+Bir iş emrine tahmin satırları ekleyebilir veya bunları bir iş emrinden silebilirsiniz. Bir iş emri yaşam döngüsü durumu, ilgili proje türü ve proje türüyle ilgili aşama kuralları kurulumu, tahmin satırları ekleyip ekleyemeyeceğinizi veya düzenleyip düzenleyemeyeceğinizi belirler. İş emri yaşam döngüsü durumları ve ilgili proje aşamaları hakkında daha fazla bilgi için bkz. [Tahminler, iş emirleri ve projeler](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ne tıklayın.
+1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.
 
-2. Listeden iş emrini seçin ve **Tahmin**'e tıklatın. **İş emri bakım tahmininde**, iş emri işinde seçilen bakım işi türünden gelen tahmin satırları görüntülenir.
+2. Listede iş emrini seçin ve sonra Eylem bölmesinde > **İş emri** sekmesinde > **Proje** grubunda **Tahmin** öğesini seçin. **İş emri bakım tahmini** sayfasında, iş emri işinde seçilen bakım işi türünden gelen tahmin satırları görüntülenir.
 
 
-## <a name="add-hours-forecast-to-a-work-order"></a>İş emrine tahmin saatleri ekleme
+## <a name="add-an-hours-forecast-to-a-work-order"></a>İş emrine saat tahmini ekleme
 
-1. Tahmin eklemek istediğiniz iş emri işini seçin.
+1. **İş emri bakım tahmini** sayfasında, tahmin eklenecek iş emri işini seçin.
 
-2. **Saatler** hızlı sekmesinde yeni bir satır oluşturmak için **Ekle**'ye tıklayın.
+2. **Saatler** hızlı sekmesinde yeni bir satır oluşturmak için **Ekle**'yi seçin.
 
 3. **Kategori** alanında bir kategori seçin.
 
-4. **Saat** alanına tahmini saat sayısı ekleyin.
+4. **Saat** alanına tahmini saat sayısını girin.
 
-5. **Satır özelliği** alanında, satırda kullanılacak masraf türünü seçin.
-
-
-## <a name="add-items-forecast-to-a-work-order"></a>İş emrine madde tahminleri ekleme
-
-Bir iş emri bakım tahminine madde eklemenin üç yolu vardır: Yedek parça listesi veya varlık ürün reçetesine dahil edilmeyen maddeler (yedek parçalar) için satırlar oluşturabilir, onaylanan yedek parçalar listesinden yedek parçalar seçebilir ve maddeleri Varlık ürün reçetesinden seçebilirsiniz.
-
-1. Tahmin eklemek istediğiniz iş emri işini seçin.
-
-2. **Maddeler** hızlı sekmesini seçin.
-
-3. Yedek parçalar listesi veya varlık ürün reçetesi listesinde bulunmayan bir yedek parça için yeni bir satır oluşturmak üzere **Ekle**'yi tıklatın.
-
-4. **Madde numarası** alanında bir maddeyi seçin.
-
-5. **Satış miktarı** alanına miktar ekleyin ve **Birim** alanında bir miktar birimi seçin.
-
-6. İlgili alanlara maliyet fiyatını ve para birimini ekleyin ve bir **Satır özelliği** seçin.
-
-7. Madde satırlarında görüntülenen boyutların listesini değiştirmek isterseniz **Stok** > **Boyutları görüntüle**'ye tıklayın, boyutları seçin ve **Kurulumu kaydet** düğmesinde "Evet" seçeneğini belirleyin.
-
-8. Bakım tahminine onaylı bir yedek parça eklemek istiyorsanız, **Yedek parça ekle**'ye tıklayın, yedek parçayı seçin, gerekiyorsa ilgili bilgileri düzenleyin **Tamam**'a tıklayın.
-
-9. Tahmine varlık ürün reçetesi maddeleri eklemek istiyorsanız, **Ürün reçetesi maddeleri ekle**'ye tıklatın, maddeyi seçin, gerekiyorsa ilgili bilgileri düzenleyin ve **Tamam**'ı tıklatın.
-
-10. Seçilen satırdaki maddenin Varlık Yönetiminde varlıklar, bakım iş türü varsayılanları, yedek parçalar ve iş emirleriyle ilişkili olarak nerede kullanıldığıyla ilgili genel bir bakış edinmek için **Maddenin kullanıldığı yer**'i seçin. 
+5. **Satır özelliği** alanında, satırda kullanılması gereken masraf türünü seçin.
 
 
+## <a name="add-an-items-forecast-to-a-work-order"></a>İş emrine madde tahmini ekleme
 
-## <a name="add-expense-forecast-to-a-work-order"></a>İş emrine gider tahminleri ekleme
+Bir iş emri bakım tahminine madde eklemenin üç yolu vardır. Yedek parça listesi veya varlık ürün reçetesine (BOM) dahil edilmeyen maddeler (yedek parçalar) için satırlar oluşturabilir, onaylanan yedek parçalar listesinden yedek parçalar seçebilir veya maddeleri Varlık ürün reçetesinden seçebilirsiniz.
 
-1. Bu konu, bir iş emrine nasıl gider tahmini ekleneceğini açıklamaktadır. Formun sol tarafında, tahmin eklemek istediğiniz iş emri işini seçin.
+- **İş emri bakım tahmini** sayfasında, tahmin eklenecek iş emri işini seçin.
 
-2. **Gider** hızlı sekmesini seçin.
+- **Maddeler** hızlı sekmesinde, uygun yöntemi kullanarak bakım tahminine maddeler ekleyin.
 
-3. Yeni bir satır oluşturmak için **Ekle**'ye tıklayın.
+Yedek parçalar listesi veya varlık ürün reçetesinde bulunmayan bir yedek parça için yeni bir satır oluşturmak üzere şu adımları izleyin.
 
-4. **Kategori** alanında bir kategori seçin.
+1. **Ekle**'yi seçin.
+2. **Madde numarası** alanında maddeyi seçin.
+3. **Satış miktarı** alanına miktarı girin.
+4. **Birim** alanında, miktar için ölçü birimini seçin.
+5. **Maliyet fiyatı** ve **Para birimi** alanlarına ilgili değerleri girin.
+6. **Satır özelliği** alanında bir satır özelliği seçin.
+7. Madde satırlarında görüntülenen boyutların listesini değiştirmek için **Stok** > **Boyutları görüntüle**'yi seçin, boyutları seçin ve ardından **Kurulumu kaydet** seçeneğini **Evet** olarak ayarlayın.
 
-5. **Miktar** alanına miktarı girin.
+Onaylı bir yedek parça listesinden yedek parça eklemek için şu adımları izleyin:
 
-6. İlgili alanlara maliyet fiyatı, satış para birimi ve satış fiyatını ekleyin.
+1. **Yedek parça ekle**'yi seçin.
+2. Yedek parçayı seçin ve gerek duyduğunuz gibi ilgili bilgileri düzenleyin.
+3. **Tamam**'ı seçin.
 
-7. **Satır özelliği** alanında, satırda kullanılacak masraf türünü seçin.
+Varlık ürün reçetesinden bir madde eklemek için şu adımları izleyin:
+
+1. **Ürün reçetesi maddeleri ekle**'yi seçin.
+2. Maddeyi seçin ve gerek duyduğunuz gibi ilgili bilgileri düzenleyin.
+3. **Tamam**'ı seçin.
+
+Seçilen satırdaki maddenin Varlık Yönetiminde varlıklar, bakım işi türü varsayılanları, yedek parçalar ve iş emirleriyle ilişkili olarak nerede kullanıldığıyla ilgili genel bir bakış edinmek için **Maddenin kullanıldığı yer**'i seçin. Bu genel bakış hakkında daha fazla bilgi için bkz. [Maddenin kullanıldığı yer](../controlling-and-reporting/item-where-used.md).
+
+
+## <a name="add-an-expense-forecast-to-a-work-order"></a>İş emrine gider tahmini ekleme
+
+1. **İş emri bakım tahmini** sayfasında, tahmin eklenecek iş emri işini seçin.
+
+2. **Gider** hızlı sekmesinde satır oluşturmak için **Ekle**'yi seçin.
+
+3. **Kategori** alanında bir kategori seçin.
+
+4. **Miktar** alanına miktarı girin.
+
+5. **Maliyet fiyatı**, **Satış para birimi** ve **Satış fiyatı** alanlarına uygun değerleri girin.
+
+6. **Satır özelliği** alanında, satırda kullanılması gereken masraf türünü seçin.
 
 >[!NOTE]
->**Bakım tahmini toplamları** hızlı sekmesinde, seçili iş emri işi ve iş emri için her bir sekmede oluşturulan satır sayısının genel görünümünü görebilirsiniz. Ayrıca, iş emri işi ve iş emri için tahmin edilen çalışma saatlerinin toplamını görebilirsiniz.
+>**Bakım tahmini toplamları** hızlı sekmesi, seçili iş emri işi ve iş emri için her hızlı sekmede oluşturulan satır sayısının genel görünümünü gösterir. Ayrıca, iş emri işi ve iş emri için tahmin edilen çalışma saatlerinin toplamını da gösterir.
+
+Aşağıdaki şekilde **İş emri bakım bakım tahmini** sayfası örneği gösterilmektedir.
 
 ![Şekil 1](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>İş emri tahminlerini otomatik güncelleştirme
 
-Varlık Yönetimi'nde, diğer modüllerde güncelleştirilen saat maliyetleri, madde maliyetleri ve giderler için iş emri tahminlerindeki değişiklikleri otomatik olarak güncelleştirebilirsiniz. Bu işlem, en son maliyet fiyatlarının iş emri tahminlerinde her zaman kullanılmasını sağlamak için yapılır. [Bakım işi türü tahminlerinde](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md) de benzer güncelleştirmeler yapmak mümkündür.
+Microsoft Dynamics 365 for Finance and Operations'daki diğer modüllerde saat maliyetleri, madde maliyetleri ve giderler güncelleştirilirse Varlık Yönetimindeki iş emri tahminleri bu değişiklikleri yansıtacak şekilde otomatik olarak güncelleştirilebilir. Bu özellik, en son maliyet fiyatlarının iş emri tahminlerinde her zaman kullanılmasını sağlamaya yardımcı olur. [Bakım işi türü tahminlerinde](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md) de benzer güncelleştirmeler yapabilirsiniz.
 
-1. **Varlık yönetimi** > **Periyodik** > **Tahmin** > **İş emri tahmini güncelleştir** seçeneğine tıklayın.
+1. **Varlık yönetimi** > **Periyodik** > **Tahmin** > **İş emri tahminini güncelleştir**'i seçin.
 
-2. **İş emri tahminini güncelleştir** iletişim kutusunda gerekirse, belirli iş emirleri veya iş emri işleriyle ilgili seçimler ekleyebilirsiniz. Bu seçimleri yapmak için **Filtre**'ye tıklayın.
+2. **İş emri tahminini güncelleştir** iletişim kutusunda, **Dahil edilecek kayıtlar** hızlı sekmesinde gerekirse, belirli iş emirleri veya iş emri işleriyle ilgili seçimler ekleyebilirsiniz. İlgili seçimleri yapmak için **Filtre**'yi seçin.
 
-3. Gerekirse, **Arka planda çalıştır** hızlı sekmesinde otomatik güncelleştirmeyi toplu iş olarak ayarlayabilirsiniz.
+3. **Arka planda çalıştır** hızlı sekmesinde gerektiğinde otomatik güncelleştirmeyi toplu iş olarak ayarlayabilirsiniz.
 
-4. Tahmin güncelleştirmesini başlatmak için **Tamam**'a tıklayın.
+4. Tahmin güncelleştirmesini başlatmak için **Tamam**'ı seçin.
 
+
+Aşağıdaki şekilde **İş emri tahmini güncelleştir** iletişim kutusu örneği gösterilmektedir.
 
 ![Şekil 2](media/07-work-orders.png)
-

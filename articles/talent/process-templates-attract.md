@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 694835d20e3401aaeb22aa19082a2cd0e3a0163a
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010718"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622730"
 ---
-# <a name="create-a-process-template"></a>Süreç şablonu oluşturma
+# <a name="create-a-process-template-in-attract"></a>Attract'ta süreç şablonu oluşturun
 
 [!include [banner](includes/banner.md)]
 

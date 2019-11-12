@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026728"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653430"
 ---
 # <a name="warehouse-configuration-overview"></a>Ambar yapılandırmasına genel bakış
 
@@ -34,7 +34,7 @@ Bu makalede, bir ambarın nasıl yapılandırılacağı açıklanmaktadır. Konu
 **Not:** Bu makale **Ambar yönetimi** Modülü (Gelişmiş Depolama) içindeki özellikler için geçerlidir. **Stok yönetimi** modülündeki ambar özellikleri için geçerli değildir.
 
 ## <a name="warehouse-layout"></a>Ambar düzeni
-Finance and Operations'taki Ambar yönetim sistemi, değişen gereksinimleri karşılayacak şekilde ambar düzeninizi tanımlamak için esnek yollar sağlar ve bu sayede en iyi ambar verimliliğini elde edebilirsiniz.
+Supply Chain Management'taki Ambar yönetim sistemi, değişen gereksinimleri karşılayacak şekilde ambar düzeninizi tanımlamak için esnek yollar sağlar ve bu sayede en iyi ambar verimliliğini elde edebilirsiniz.
 
 -   Malların en iyi şekilde yerleştirilmesi için yüksek öncelikli ve düşük öncelikli depolama alanları kurabilirsiniz.
 -   Ambarınızı çeşitli depolama ihtiyaçlarını karşılayacak şekilde bölgelere ayırabilirsiniz; maddelerin sıcaklık gereksinimleri veya çeşitli dönüşüm oranları gibi.
@@ -42,7 +42,7 @@ Finance and Operations'taki Ambar yönetim sistemi, değişen gereksinimleri kar
 -   Fiziksel kapasite kısıtlama ayarlarını kullanarak konumları gruplandırabilirsiniz.
 -   Maddelerin nasıl depolandığını ve çekildiğini, sorgu tarafından tanımlanan kurallara dayalı olarak denetleyebilirsiniz.
 
-Ambar Yönetimi'ni Finance and Operations uygulamasında kullanmak için, bir ambar oluşturmalı ve daha gelişmiş veya özelleştirilmiş ambar yönetimi faaliyetleri için bunu etkinleştirmelisiniz. **Ambarlar** sayfasında, **Ambar yönetimi işlemlerini kullanın** seçeneğini seçin.
+Ambar Yönetimi'ni Supply Chain Management'ta kullanmak için, bir ambar oluşturmalı ve daha gelişmiş veya özelleştirilmiş ambar yönetimi faaliyetleri için bunu etkinleştirmelisiniz. **Ambarlar** sayfasında, **Ambar yönetimi işlemlerini kullanın** seçeneğini seçin.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Bölge grupları, bölgeler, konum türleri ve konumlar
 
@@ -54,7 +54,7 @@ Ambar düzenini etkinleştirme işleminin bir parçası olarak, ambar bölge gru
 -   **Konum türleri** – Ambar konumlarının mantıksal veya fiziksel bir gruplandırması. Örneğin, tüm hazırlama konumları için bir konum türü oluşturabilirsiniz. **Ambar yönetimi parametreleri** sayfasındaki zorunlu ayarlar, hazırlama konum türleri ve son teslim konum türünü tanımlama işlemini çalıştırır.
 -   **Konumlar** – En düşük düzeyde konum bilgileri. Konumlar eldeki stokun nerede depolanacağını ve hangi ambardan çekileceğini izlemek için kullanılır.
 
-Ambar düzeninizi tanımlamak için oluşturduğunuz bir varlıklar, ambarda iş siparişlerini başlatmak için oluşturduğunuz iş şablonlarında ayarladığınız sorgularda kullanılır. Bu nedenle, bölgeleri, konum türlerini ve benzerlerini tanımlarken, ambardaki farklı alanların farklı işlemler için nasıl kullanıldığını göz önünde bulundurun. Ayrıca, belirli bir alanın fiziksel özellikleri gibi etkenleri göz önünde bulundurun. Örneğin, yalnızca belirli türde forklift kullanabileceğiniz alanlar olabilir. Veya şirketiniz aynı tesis içerisinde hem üretime yönelik hem de mamul mallara sahipse, Finance and Operations'ta tek bir depo oluşturmak ancak iki bölge grubu oluşturarak iki operasyonu ayırmak isteyebilirsiniz. Varlıklarınıza açıklayıcı adlar verirseniz şablon sorgularında kullanırken tanımanız kolay olur.
+Ambar düzeninizi tanımlamak için oluşturduğunuz bir varlıklar, ambarda iş siparişlerini başlatmak için oluşturduğunuz iş şablonlarında ayarladığınız sorgularda kullanılır. Bu nedenle, bölgeleri, konum türlerini ve benzerlerini tanımlarken, ambardaki farklı alanların farklı işlemler için nasıl kullanıldığını göz önünde bulundurun. Ayrıca, belirli bir alanın fiziksel özellikleri gibi etkenleri göz önünde bulundurun. Örneğin, yalnızca belirli türde forklift kullanabileceğiniz alanlar olabilir. Veya şirketiniz aynı tesis içerisinde hem üretime yönelik hem de mamul mallara sahipse, Supply Chain Management'ta tek bir depo oluşturmak ancak iki bölge grubu oluşturarak iki operasyonu ayırmak isteyebilirsiniz. Varlıklarınıza açıklayıcı adlar verirseniz şablon sorgularında kullanırken tanımanız kolay olur.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Konum stoklama sınırları, konum profilleri ve sabit çekme konumları
 

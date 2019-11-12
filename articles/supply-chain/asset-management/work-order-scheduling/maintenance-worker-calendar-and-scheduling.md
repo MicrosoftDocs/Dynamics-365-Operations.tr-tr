@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f86f6475e5226443f5e4d43fb91acafe2afdbb9
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: aa2d50a976af7ee7dde5335f94336b995fdc2d11
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887400"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652069"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Bakım görevlisi takvimi ve zamanlama
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-İş emirlerini zamanlarken bakım görevlileri, araçlar ve varlıklar için bir zamanlama oluşturursunuz. Bakım görevlileri zamanlaması gerçekleştirebilmek için, her bakım görevlisi için bir takvim ayarlanmalıdır. Bakım görevlileri kaynakla ilgilidir ve çalışma zamanı takvimleri kaynaklarda ayarlanır. Bir çalışanla ilgili kaynak ve takvimi **Varlık yönetimi** > **Kurulum** > **Çalışanlar** > **Çalışanlar** altından ayarlarsınız. Bu işlem [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) bölümünde açıklanmıştır.
+İş emirlerini zamanlarken bakım görevlileri, araçlar ve varlıklar için bir zamanlama oluşturursunuz. Bakım görevlilerini zamanlamak için, her bakım görevlisi için bir takvim ayarlanmalıdır. Bakım görevlileri kaynakla ilgilidir ve çalışma zamanı takvimleri kaynaklar için ayarlanır. Kaynak ve takvimi **Varlık yönetimi** > **Kurulum** > **Çalışanlar** > **Çalışanlar** altından ayarlarsınız. Bu işlem [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) bölümünde açıklanmıştır.
 
 Aşağıdaki ekran görüntüsünde, çalışma zamanı takvimi "Üretim" kullanan bir kaynakla ilişkili bir bakım görevlisi örneği gösterilmektedir.
 

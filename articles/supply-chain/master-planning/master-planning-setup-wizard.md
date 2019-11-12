@@ -3,7 +3,7 @@ title: Master planlama kurulum sihirbazı
 description: Bu konu, master planlamayı ayarlamak için kullanılan çeşitli önemli stratejileri ve parametreleri açıklamaktadır.
 author: t-benebo
 manager: AnnBe
-ms.date: 08/05/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 0310ac55d35421d8ad9080739fc5a393660ce520
-ms.sourcegitcommit: 261dc882710f29303b14f9be8a26d71d85d25345
+ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
+ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "1999546"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "2635138"
 ---
 # <a name="master-planning-setup-wizard"></a>Master planlama kurulum sihirbazı
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, **Master planlama kurulum sihirbazı** için bir kılavuz sağlar. Bu, parametre önerilerinin nasıl hesaplanacağını açıklar ve aynı zamanda farklı şirketlerin iş gereksinimlerine göre master planlamanın nasıl ayarladığını gösteren örnekler de sağlar.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+
+[Dynamics 365 Supply Chain Management'ta master planlama kurulum sihirbazı](https://youtu.be/c-e6n-8rZb4) videosu (yukarıda gösterilen), YouTube'da bulunan [Finance and Operations oynatma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) bulunmaktadır.
+
 
 ## <a name="specific-requirements-of-your-company"></a>Şirketinizin özel gereksinimleri
 

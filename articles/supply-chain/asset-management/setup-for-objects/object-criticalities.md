@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660038060826ade9301e50143e49b53ba3fcd3ab
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f96fcc7ebb8928c6d6b17b30465ad1625d9b5be4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783661"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571082"
 ---
-# <a name="asset-criticalities"></a>Varlık kritiklikleri
+# <a name="asset-criticality-types"></a>Varlık kritiklik türleri
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Bu konuda Varlık Yönetiminde varlık kritiklik türleri açıklanmaktadır. Varlık kritikliği varlıklarla ilişkilidir ve iş emirlerine aktarılır. İş emri üzerinde değiştirilemez. Varlık kritikliği iş emri planlaması sırasında iş emri kritikliğini hesaplamak için kullanılır. Başka bir deyişle, bir varlıktaki bakım işinin şirketinizin üretim zamanlamasını ve üretkenliğini nasıl etkilediğini hesaplamak için kullanılır. İş emri planlaması için derecelendirme puanlarının hesaplanmasıyla ilgili kurulum hakkında daha fazla bilgi için bkz. [Varlık Yönetimi parametreleri](../setup-for-objects/enterprise-asset-management-parameters.md).
 
@@ -43,7 +43,7 @@ Kritikliği ayarlamak için önce varlık kurulumunda kullanılması gereken kri
 4. **Ad** alanına kritiklik türü için bir ad girin.
 5. **Faktör** alanına bir faktör girin. Bu faktör, kullanılması gereken kritiklik kaydını belirlemek için iş emri planlaması hesaplaması sırasında kullanılır. (En yüksek faktörüne sahip kayıt her zaman kullanılır.) Bu ayar, aşağıdaki örnekte gösterildiği gibi, aynı kritiklik değerine sahip olan kritiklik satırları oluşturulmuşsa geçerlidir.
 
-    ![Şekil 1](media/23-setup-for-objects.png)
+    ![Kritiklik türleri sayfası](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Varlıkla kritiklikleri ayarlama
 

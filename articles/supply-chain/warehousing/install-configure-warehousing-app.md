@@ -1,6 +1,6 @@
 ---
 title: Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış
-description: Bu konuda Dynamics 365 Supply Chain Management - Ambarlama uygulamasını yükleme ve yapılandırmayı açıklar.
+description: Bu konu Dynamics 365 for Finance and Operations - Ambarlama uygulamasını yükleme ve yapılandırmayı açıklar.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251512"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548980"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251512"
 > Bu konu bulut dağıtımları için ambarlamanın nasıl yapılandırılacağını açıklar. Ambarlamanın şirket içi dağıtımlar için nasıl yapılandırılacağını öğrenmek istiyorsanız bkz. [Şirket için dağıtımlar için ambarlama](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-Bu konuda Dynamics 365 Supply Chain Management - Ambarlama uygulamasını yükleme ve yapılandırmayı açıklar.
+Bu konu Dynamics 365 for Finance and Operations - Ambarlama uygulamasını yükleme ve yapılandırmayı açıklar.
 
 Ambarlama uygulaması Google Play Store ve Windows Mağazası'nda bulunur. Dynamics 365 Supply Chain Management'ın geçerli sürümü için bu uygulama, tek başına bir bileşen olarak sağlanır, bu da ambar görevleri için kullanılan cihazlarda kendinden dağıtım anlamına gelir. Uygulamayı Supply Chain Management ortamınızda kullanmak için uygulamayı tüm cihazlarınıza indirmeli ve ortamınıza bağlanmak üzere yapılandırmalısınız. Bu konu, cihazlarınıza uygulamanın nasıl yükleneceğini açıklar. Ayrıca uygulamanın Supply Chain Management ortamınıza nasıl bağlanacağını da açıklar.
 

@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4dbfcc3b3fd611eea36109a516a7b9361a9f654
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3c465c667cbb8a66f301637ca620429b0ddc11c6
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009866"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550355"
 ---
-# <a name="create-and-send-an-onboarding-guide"></a>İşe alım süreci kılavuzu oluşturma ve gönderme
+# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Dynamics 365 Talent - Onboard'u kullanarak işe alım ve alıştırma süreci kılavuzu oluşturup gönderme
 
 [!include [banner](includes/banner.md)]
 

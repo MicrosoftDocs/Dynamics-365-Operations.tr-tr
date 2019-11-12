@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: e1bddb65fd5fd73e879d8a95decc9f3e4f7f37e4
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249411"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653453"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>PunchOut eProcurement için harici katalog ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Harici katalog kullanarak, daha sonra Dynamics 365 for Finance and Operations Temmuz 2017'de işleyeceğiniz fiyat ve ürün bilgilerinin doğru ve güncel olmasını sağlayabilirsiniz. Talep daha sonra onaylanıp bir satın alma siparişine dönüştürülebilir ve sipariş satıcıya yerleştirilebilir.
+Harici katalog kullanarak, daha sonra Supply Chain Management'ta işleyeceğiniz fiyat ve ürün bilgilerinin doğru ve güncel olmasını sağlayabilirsiniz. Talep daha sonra onaylanıp bir satın alma siparişine dönüştürülebilir ve sipariş satıcıya yerleştirilebilir.
 
 Harici katalog ayarlandığında ve bir çalışan bir talep hazırladığında, harici siteye, harici kataloğa yönlendirme ve harici sitede oluşturulan alışveriş sepetine geri dönme seçeneği olacaktır. Bu iletişim cXML protokolünü temel alır ve satınalma ve satış kuruluşunun sistemleri arasında ayarlanmalıdır.
 

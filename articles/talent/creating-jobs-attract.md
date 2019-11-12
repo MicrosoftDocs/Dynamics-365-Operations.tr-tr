@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: db725c230de5e3dfe971098249b280d9da47ae20
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008467"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551084"
 ---
-# <a name="create-a-job"></a>İş oluşturma
+# <a name="create-approve-and-post-jobs-in-attract"></a>Attract'ta iş oluşturma, onaylama ve yayımlama
 
 [!include [banner](includes/banner.md)]
 

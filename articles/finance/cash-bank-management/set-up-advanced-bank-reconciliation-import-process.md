@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba85b63abc11c9f32023e8499a02728dfc86bd1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188269"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578207"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Gelişmiş banka mutabakatı içe aktarma sürecini ayarlama
 
@@ -36,7 +36,7 @@ Banka ekstresi içe aktarma işleminin kurulumu elektronik banka ekstrenizin bi�
 ## <a name="set-time-zone-preference"></a>Saat dilimi tercihini belirleme
 Banka ekstresi içe aktarma ayarlarını konfigüre ettiğiniz zaman, içe aktarılacak banka ekstresi dosyalarındaki tarih-saat verilerinin saat dilimini göz önünde bulundurmanız önemli olabilir. Herhangi bir tarih ve saat değerinin zaten Eşgüdümlü Evrensel Saat (UTC) olduğu varsayıldığından, verileri içe aktardığınızda hiçbir saat dilimi dönüştürmesi uygulanmaz. 
 
-Verileri içe aktarırken kullanılacak bir saat dilimi belirtmek için kullanılabilecek bir seçenek vardır. Bu seçenek her **Kaynak veri biçimi ayrıntıları** sayfasındaki **Saat dilimi tercihi** alanında kullanılabilir (**Veri yönetimi çalışma alanı > Veri kaynaklarını konfigüre edin > Veri biçimi seçin > Bölgesel ayarlar** hızlı sekmesi). Girdiğiniz bu saat dilimi tercihi, o kaynak veri biçimini kullanan tüm içe aktarma işlemleri için geçerli olur. Birden çok saat diliminden veri içe aktarmak için gereken sayıda veri kaynağı biçimi oluşturabilirsiniz. Saat dilimi tercihi, içe aktarma dosyasındaki tarih ve saat verilerinin yerel saat dilimi olmalıdır. Saat dilimi tercihi, içe aktarma dosyasındaki tarih-saat verilerinin yerel saat dilimi olmalıdır. 
+Verileri içe aktarırken kullanılacak bir saat dilimi belirtmek için kullanılabilecek bir seçenek vardır. Bu seçenek her **Kaynak veri biçimi ayrıntıları** sayfasındaki **Saat dilimi tercihi** alanında kullanılabilir (**Veri yönetimi çalışma alanı > Veri kaynaklarını konfigüre edin > Veri biçimi seçin > Bölgesel ayarlar** hızlı sekmesi). Girdiğiniz bu saat dilimi tercihi, o kaynak veri biçimini kullanan tüm içe aktarma işlemleri için geçerli olur. Birden çok saat diliminden veri içe aktarmak için gereken sayıda veri kaynağı biçimi oluşturabilirsiniz.  
 
 Bu saat dilimi bir kullanıcının veya şirketin saat dilimiyle aynı olmayabileceği için, tarih ve saat verilerinin hangi saat dilimini kullandığını mutlaka netleştirin. Saat dilimi tercihini ayarlarken aşağıdaki hususları göz önünde bulundurmanızı öneririz. 
 

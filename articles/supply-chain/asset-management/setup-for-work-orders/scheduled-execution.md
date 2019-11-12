@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8d9c8afc139c96e32efb3161d35fde685b8abcc5
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 89e13179e17b7cf075d631bc65d82da5f24da624
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874682"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569858"
 ---
 # <a name="scheduled-execution"></a>Planlı yürütme
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Zamanlanmış yürütmeyi ayarlamak için iş emri servis düzeylerini kullanabilirsiniz. (İş emri hizmet düzeyleri hakkında daha fazla bilgi için bkz [Hizmet düzeyi ve açıklaması](service-level-and-description.md).) İş emrinin tamamlanması gereken aralık için daha ayrıntılı veya daha az ayrıntılı gereksinimleri ayarlayabileceğiniz için, zamanlanan yürütme, bakım görevlileri için iş planlamasında esneklik sağlar. Örneğin, bir üretim aracında beklenenden daha hızlı bir iş tamamlayan bir bakım görevlisi, geçerli hafta için planlanan, ancak geçerli gün için gerekli olan başka bir yakındaki işe geçebilir. Bu yaklaşım, çalışan planlama ve iş tamamlama işleminin en iyi duruma getirilmesini sağlar.
 
@@ -42,4 +42,4 @@ Zamanlanmış yürütmeyi ayarlamak için iş emri servis düzeylerini kullanabi
 5. **Zamanlanmış yürütme** alanında zaman aralığını seçin.
 6. **Kaydet**'i seçin.
 
-![Şekil 1](media/20-setup-for-work-orders.png)
+![Planlı yürütme](media/20-setup-for-work-orders.png)

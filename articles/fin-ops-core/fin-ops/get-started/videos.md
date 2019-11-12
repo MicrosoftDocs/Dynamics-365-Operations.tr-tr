@@ -3,7 +3,7 @@ title: Videolar
 description: Bu sayfa Finance and Operations uygulaması için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşma videolarını listeler.
 author: josaw1
 manager: AnnBe
-ms.date: 09/13/2019
+ms.date: 10/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7792fe6f5b79e78acabba16c2a551f417688215a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fb14ffa500fcf84030eca075545716a79d7b2b27
+ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190845"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "2635115"
 ---
 # <a name="videos"></a>Videolar 
 
@@ -117,6 +117,9 @@ ms.locfileid: "2190845"
 ### <a name="help-system"></a>Yardım sistemi
 
 - [Microsoft Dynamics 365 belgelerine nasıl katkıda bulunulur](https://youtu.be/m5djioozRbg)
+
+### <a name="master-planning"></a>Master planlama
+- [Master planlama kurulum sihirbazı](https://youtu.be/c-e6n-8rZb4)
 
 ### <a name="office-integration"></a>Office tümleştirmesi
 

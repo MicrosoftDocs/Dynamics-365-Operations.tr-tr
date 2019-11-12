@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8b4e783f79b02c77a27fc59c2f4be8a192f2f476
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248712"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553103"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER şablonlarının yedekleme depolaması
 
@@ -33,7 +33,7 @@ ms.locfileid: "2248712"
 
 Yapılandırılan her biçim, bir ER çözümünün parçası olarak yayımlanabilir. Her ER çözümü, Finance and Operations'ın bir örneğinden dışa aktarılabilir ve başka bir örneğin içine aktarılabilir.
 
-ER çerçevesi, geçerli Finance and Operations örneği için gerekli şablonları korumak amacıyla [Belge yönetimi çerçevesini](../../fin-and-ops/organization-administration/configure-document-management.md) kullanır. ER çerçevesinin ayarlarına bağlı olarak, Microsoft Azure Blob depolama veya Microsoft SharePoint klasörü, şablonların fiziksel birincil depolama konumu olarak seçilebilir. (Daha fazla bilgi için, bkz. [ER çerçevesini yapılandırma](electronic-reporting-er-configure-parameters.md).) DocuValue tablosu her şablon için tek bir kayıt içerir. Her kayıtta, **AccessInformation** alanı yapılandırılmış depolama konumunda bulunan bir şablon dosyasının yolunu depolar.
+ER çerçevesi, geçerli Finance and Operations örneği için gerekli şablonları korumak amacıyla [Belge yönetimi çerçevesini](../../fin-ops/organization-administration/configure-document-management.md) kullanır. ER çerçevesinin ayarlarına bağlı olarak, Microsoft Azure Blob depolama veya Microsoft SharePoint klasörü, şablonların fiziksel birincil depolama konumu olarak seçilebilir. (Daha fazla bilgi için, bkz. [ER çerçevesini yapılandırma](electronic-reporting-er-configure-parameters.md).) DocuValue tablosu her şablon için tek bir kayıt içerir. Her kayıtta, **AccessInformation** alanı yapılandırılmış depolama konumunda bulunan bir şablon dosyasının yolunu depolar.
 
 Finance and Operations örneklerinizi yönetirken, geçerli örneği başka bir konuma geçirmeye karar verebilirsiniz. Örneğin, üretim örneğinizi yeni bir korumalı alan ortamına geçirebilirsiniz. ER çerçevesini Blob depolamada şablon depolamak üzere yapılandırırsanız, yeni korumalı alan ortamındaki DocuValue tablosu, üretim ortamındaki Blob depolama örneğine başvurur. Ancak, geçiş işlemi Blob depolamadaki yapıların geçirilmesini desteklemediğinden, bu örneğe korumalı alan ortamından erişilemez. Bu nedenle, iş belgeleri oluşturmak için şablon kullanan bir ER biçimini çalıştırmaya çalışırsanız bir özel durum oluşur ve eksik şablon hakkında bilgilendirilirsiniz. Ayrıca, şablonu içeren ER biçimi yapılandırmasını silmek ve yeniden içe aktarmak için ER temizleme aracını da kullanabilirsiniz. Birden fazla ER biçimi yapılandırmanız olabileceğinden bu işlem uzun sürebilir.
 

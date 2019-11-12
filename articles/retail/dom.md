@@ -3,7 +3,7 @@ title: Dağıtılmış sipariş yönetimi (DOM)
 description: Bu konuda, Dynamics 365 Retail'da dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 11/15/2018
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fee0d9257af86a734a60b469db3a006435f1d3d2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
+ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023431"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578496"
 ---
 # <a name="distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM)
 
@@ -94,6 +94,7 @@ Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döng�
         - **Kısmi satırlar karşılansın mı?** – Bu seçenek **Evet** olarak ayarlanırsa DOM sipariş satırlarının kısmi bir miktarını karşılayabilir. Bu kısmi karşılama, sipariş satırı bölünerek sağlanır.
         - **Siparişi yalnızca bir konumdan karşıla**: Bu seçenek **Evet** olarak ayarlanırsa DOM, bir siparişteki tüm satırların tek bir konumdan karşılanmasını sağlar.
 
+
         Aşağıdaki tabloda, bu parametrelerin bir birleşimi tanımlandığında görülen davranış açıklanmaktadır.
 
         |      | Kısmi siparişleri karşıla | Kısmi satırları karşıla | Sipariş tek bir konumdan karşıla | Tanım |
@@ -110,19 +111,22 @@ Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döng�
 
         \* **Kısmi siparişleri karşıla** **Hayır** olarak ayarlıysa **Kısmi satırları karşıla**, aslında nasıl ayarlandığından bağımsız olarak her zaman **Hayır**'a ayarlı olarak kabul edilir.
 
-    - **Çevrimdışı karşılama konumu kuralı**: Bu kural, kurumların bir konumu veya konum grubunu çevrim dışı ya da DOM için kullanılamaz olarak belirtmelerini sağlar, böylece siparişler karşılama için burada atanamaz.
+> [!NOTE]
+> Retail 10.0.5 sürümünde, **Siparişi yalnızca bir konumdan karşıla** parametresi **Maksimum karşılama konumları** olarak değiştirildi. Kullanıcılar siparişlerin yalnızca bir konumdan mı, yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını yapılandırma olanağını kullanmak yerine artık karşılamanın belirli bir konum kümesinden mi (en fazla 5) yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını belirtebilir. Bu özellik, siparişin karşılanabileceği konum sayısı açısından daha fazla esneklik sunar.
+
+   - **Çevrimdışı karşılama konumu kuralı**: Bu kural, kurumların bir konumu veya konum grubunu çevrim dışı ya da DOM için kullanılamaz olarak belirtmelerini sağlar, böylece siparişler karşılama için bu konumlara atanamaz.
     - **Maksimum reddetme sayısı kuralı**: Bu kural, kurumların reddetme işlemleri için bir eşik tanımlamasını sağlar. Eşiğe ulaşıldığında, DOM işlemcisi bir siparişi veya sipariş satırını özel durum olarak işaretler ve diğer işlemlerde hariç tutar.
 
         Sipariş satırları bir konuma atandıktan sonra, konum atanan bir sipariş satırını reddedebilir, çünkü bazı nedenlerle söz konusu satırı karşılayamıyor olabilir. Reddedilen satırlar özel durum olarak işaretlenir ve sonraki çalıştırmada işlenmeleri için yeniden havuza eklenir. DOM, sonraki çalışma sırasında reddedilen satırı farklı bir konuma atamayı dener. Yeni konum da atanan sipariş satırını reddedebilir. Bu atama ve reddetme çevrimi birkaç kez meydana gelebilir. Reddetme sayısı tanımlanan eşiğe ulaştığında, DOM sipariş satırını kalıcı özel durum olarak işaretler ve satırı yeniden atama için seçmez. DOM, sipariş satırını yalnızca bir kullanıcı sipariş satırının durumunu sıfırlarsa yeniden atama için dikkate alır.
 
-    - **Maksimum mesafe kuralı**: Bu kural, kurumların bir konumun veya konum grubunun siparişi karşılamak için bulunabileceği maksimum uzaklığı tanımlamasını sağlar. Bir konum için çakışan maksimum uzaklık kuralları tanımlandıysa DOM söz konusu konum için tanımlanan en düşük maksimum uzaklığı uygular.
+   - **Maksimum mesafe kuralı**: Bu kural, kurumların bir konumun veya konum grubunun siparişi karşılamak için bulunabileceği maksimum uzaklığı tanımlamasını sağlar. Bir konum için çakışan maksimum uzaklık kuralları tanımlandıysa DOM söz konusu konum için tanımlanan en düşük maksimum uzaklığı uygular.
     - **Maksimum siparişler kuralı**: Bu kural, kurumların bir konumun veya konum grubunun bir takvim günü boyunca işleyebileceği maksimum sipariş sayısını tanımlamasını sağlar. Bir konuma tek bir günde maksimum sipariş sayısı atandıysa DOM, takvim gününün kalanı boyunca söz konusu konuma başka sipariş atamaz.
 
-    Tüm önceki kural türleri için tanımlanabilecek ortak özniteliklerin bazıları aşağıdadır:
+   Tüm önceki kural türleri için tanımlanabilecek ortak özniteliklerin bazıları aşağıdadır:
 
-    - **Başlangıç tarihi** ve **Bitiş tarihi**: Her kural bu alanlar kullanılarak tarih açısından etkin hale getirilebilir.
-    - **Devre Dışı**: Bir DOM çalıştırma işleminde bu alan için yalnızca **Hayır** değerine sahip kurallar dikkate alınır.
-    - **Sabit sınırlama**: Bir kural, sabit kısıtlama veya sabit kısıtlama değil olarak tanımlanabilir. Her DOM çalıştırma işlemi, iki kez tekrarlanır. İlk tekrarda, her kurala bu alanın ayarından bağımsız olarak sabit kısıtlama olarak işlem yapılır. Başka bir deyişle, her kural uygulanır. Tek özel durum, **Konumu önceliği** kuralıdır. İkinci tekrarda, sabit kısıtlama olarak tanımlanmayan kurallar kaldırılır ve tüm kurallar uygulandığında konumlara atanmayan sipariş veya sipariş satırları konumlara atanır.
+   - **Başlangıç tarihi** ve **Bitiş tarihi**: Her kural bu alanlar kullanılarak tarih açısından etkin hale getirilebilir.
+   - **Devre Dışı**: Bir DOM çalıştırma işleminde bu alan için yalnızca **Hayır** değerine sahip kurallar dikkate alınır.
+   - **Sabit sınırlama**: Bir kural, sabit kısıtlama veya sabit kısıtlama değil olarak tanımlanabilir. Her DOM çalıştırma işlemi, iki kez tekrarlanır. İlk tekrarda, her kurala bu alanın ayarından bağımsız olarak sabit kısıtlama olarak işlem yapılır. Başka bir deyişle, her kural uygulanır. Tek özel durum, **Konumu önceliği** kuralıdır. İkinci tekrarda, sabit kısıtlama olarak tanımlanmayan kurallar kaldırılır ve tüm kurallar uygulandığında konumlara atanmayan sipariş veya sipariş satırları konumlara atanır.
 
 10. Karşılama profilleri bir kural, tüzel kişilik, satış siparişi menşeleri ve teslimat şekilleri koleksiyonunu gruplandırmak için kullanılır. Her DOM çalıştırma işlemi, belirli bir karşılama profiline yöneliktir. Kurumlar, bu şekilde belirli satış siparişi menşeleri ve teslimat şekillerine sahip siparişlerde bir tüzel kişilik kümesi için bir dizi kural tanımlayıp çalıştırabilir. Bu nedenle, farklı satış siparişi menşeleri ve teslimat şekilleri kümeleri için farklı kural dizileri çalıştırılması gerekiyorsa karşılama profilleri buna göre tanımlanabilir. Karşılama profillerini ayarlamak için aşağıdaki adımları takip edin:  
 

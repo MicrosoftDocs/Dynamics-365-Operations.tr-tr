@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6fad4d57b8e08c839ac0ffac2324c02304335ef
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 953c4bb17329205c5d8d14b6570a6bac152e9320
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887240"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652161"
 ---
 # <a name="schedule-work-orders"></a>İş emirlerini planla
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Bu konuda Varlık Yönetimi'nde iş emirleri planlama işlemi açıklanmaktadır. Bir iş emri için gereken saat sayısı, iş emri işlerine ait toplam tahmin saat eksi deftere nakledilen saate göre tanımlanır. Daha fazla zaman gerekiyorsa, iş emrindeki tahmin uygun şekilde ayarlanmalıdır. **Varlık yönetimi** > **Ortak** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'nde, iş emrini seçip **İş emri** sekmesinde **Tahmin**'e tıklayarak iş emrindeki tahminleri görüntüleyebilir veya düzenleyebilirsiniz. İş emirleri oluşturulduğunda ve tahmin edildiğinde, sonraki adım iş emirlerini tamamlamak için gerekli bakım çalışanlarını ve araçları tahsis etmektir.
+Bu konuda Varlık Yönetimi'nde iş emirleri planlama işlemi açıklanmaktadır. 
+
+Bir iş emri için gereken saat sayısı, toplam tahmin saat eksi deftere nakledilen saate göre tanımlanır. Daha fazla zaman gerekiyorsa, tahmin uygun şekilde ayarlanmalıdır. **Varlık yönetimi** > **Ortak** > **İş emirleri** > **Tüm iş emirleri** veya **Etkin iş emirleri**'nde, iş emrini seçip **İş emri** sekmesinde **Tahmin**'e tıklayarak iş emrindeki tahminleri görüntüleyebilir veya düzenleyebilirsiniz. İş emirleri oluşturulduğunda ve tahmin edildiğinde, sonraki adım iş emirlerini tamamlamak için gerekli bakım çalışanlarını ve araçları tahsis etmektir.
 
 Yalnızca planlamaya izin veren iş emri yaşam döngüsü durumuna sahip iş emirleri planlanabilir. Planlamaya izin ver ayarı **Varlık yönetimi** > **Kurulum** > **İş emirleri** > **Yaşam döngüsü durumları** > **Genel** Hızlı Sekmesi > **Planlamaya izin ver** düğmesinde ayarlanır.
 
@@ -43,8 +45,8 @@ Yalnızca planlamaya izin veren iş emri yaşam döngüsü durumuna sahip iş em
 
 4. **İş emirlerini  planla** iletişim kutusunda gerekirse, beklenen başlangıç tarihi ve hizmet düzeyi ile ilgili seçimler ekleyebilirsiniz. Planlama işlemi başka işler için zaten zamanlanmış olan kaynaklarla ilgili kapasite sınırlamalarını gözlemlemek zorundaysa, **Varlık**, **Araç** ve **Çalışan** düğmelerinin "Evet" olarak ayarlandığından emin olun.
 
->[!NOTE]
->**Varlık**, **Araç** ve **Çalışan** düğmelerini "Hayır" olarak ayarlarsanız, varolan rezervasyonlar yok sayılır. Bilgi günlüğünde, çakışan iş emri planlamalarının listesi görüntülenir ve gerekirse bir iş emrini açmak ve yeniden planlamak için iletilere tıklayabilirsiniz.
+    [!NOTE]
+    **Varlık**, **Araç** ve **Çalışan** düğmelerini "Hayır" olarak ayarlarsanız, varolan rezervasyonlar yok sayılır. Bilgi günlüğünde, çakışan iş emri planlamalarının listesi görüntülenir ve gerekirse bir iş emrini açmak ve yeniden planlamak için iletilere tıklayabilirsiniz.
 
 5. Planlama işlemiyle ilgili ayrıntılı bilgi görmek için **Ayrıntılı** düğmesinde "Evet" seçeneğini seçin. Bu, iş emirlerindeki ve bakım görevlilerindeki hesaplanan puanlar hakkında ayrıntılı bilginin Bilgi günlüğünde gösterildiği anlamına gelir.
 
@@ -114,5 +116,7 @@ Hizmet düzeyi puanı '5' yerine '100'e artırılırsa, planlama sırası şöyl
 
 ## <a name="competencies-used-in-work-order-scheduling"></a>İş emri planlamada kullanılan yetkinlikler
 
-Yetenekler ve sertifika gereksinimleri bakım işi türlerinde (**Varlık yönetimi** > **Kurulum** > **İşler** > **Bakım işi türleri**) ve bakım işi görevlerinde (**Varlık yönetimi** > **Kurulum** > **İşler** > **Bakım işi görevi**) ayarlanabilir. Bakım işi türleri ve bakım işi görevleri iş emri işlerinde seçilir. Bir bakım iş türü veya bakım işi görevinde yetenekler veya sertifikalar seçilmişse ve bu bakım iş türü veya bakım işi görevi bir iş emri işinde kullanılıyorsa, yalnızca eşleşen becerilere ve sertifikalara sahip olan bakım çalışanları iş emrinde çalışmak üzere planlanır.
+Yetenekler ve sertifika gereksinimleri bakım işi türlerinde (**Varlık yönetimi** > **Kurulum** > **İşler** > **Bakım işi türleri**) ve bakım işi görevlerinde (**Varlık yönetimi** > **Kurulum** > **İşler** > **Bakım işi görevi**) ayarlanabilir. 
+
+Bakım işi türleri ve bakım işi görevleri iş emri işlerinde seçilir. Bir bakım iş türü veya bakım işi görevinde yetenekler veya sertifikalar seçilmişse ve bu bakım iş türü veya bakım işi görevi bir iş emri işinde kullanılıyorsa, yalnızca eşleşen becerilere ve sertifikalara sahip olan bakım çalışanları iş emrinde çalışmak üzere planlanır.
 

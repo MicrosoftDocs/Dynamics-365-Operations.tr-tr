@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249591"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653523"
 ---
 # <a name="demand-forecasting-setup"></a>Talep tahmini kurulumu
 
@@ -72,7 +72,7 @@ Supply Chain Management, tahmin oluşturmak için bir Machine Learning ağ hizme
 
 **Not:** Sadece özel bir depolama hesabı kullanıyorsanız Azure depolama hesap adı ve anahtarı gerekir. Şirket içi sürümünü kullanıyorsanız, Makine Öğrenimi hizmetinin geçmiş verilere ulaşabilmesi için Azure üzerinde özel bir depolama hesabınızın olması gerekir. 
 
-Talep tahminleri oluşturmak için, Machine Learning Studio veya Supply Chain Management Talep tahmini deneylerini kullanarak kendi hizmetinizi uygulayabilirsiniz. Talep tahmin deneylerini bir ağ hizmeti olarak kullanma talimatları  Finance and Operations'ta mevcuttur. **Talep tahmin parametreleri** sayfasında, **Azure Machine Learning** öğesine tıklayın.
+Talep tahminleri oluşturmak için, Machine Learning Studio veya Supply Chain Management Talep tahmini deneylerini kullanarak kendi hizmetinizi uygulayabilirsiniz. Talep tahmin deneylerini bir ağ hizmeti olarak kullanma talimatları Supply Chain Management'ta mevcuttur. **Talep tahmin parametreleri** sayfasında, **Azure Machine Learning** öğesine tıklayın.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Talep tahmini makine öğrenimi hizmeti için ayarlar
 Talep tahmini hizmeti için yapılandırılabilecek parametreleri görmek için, **Master planlama** &gt; **Kurulum** &gt; **Talep tahmini** &gt; **Tahmin algoritma parametreleri** konumuna gidin. **Tahmin algoritma parametreleri** sayfası, parametreler için varsayılan değerleri gösterir. Bu parametrelerin üzerine **Talep tahmini parametreleri** sayfasında yazabilirsiniz. Genel olarak parametrelerin üzerine yazmak için **Genel** öğesini kullanın veya her bir madde tahsisat anahtarı için parametrelerin üzerine yazmak istiyorsanız **Madde tahsisat anahtarları** öğesini kullanın. Bir madde tahsisat anahtarı için üzerine yazılan parametreler sadece o madde tahsisat anahtarı ile ilişkilendirilen öğelerin tahminini etkiler.

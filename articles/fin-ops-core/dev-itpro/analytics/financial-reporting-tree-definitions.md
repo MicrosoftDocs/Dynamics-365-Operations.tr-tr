@@ -3,7 +3,7 @@ title: Mali raporlarda raporlama ağacı tanımları
 description: Bu makalede raporlama ağacı tanımları hakkında bilgi verilmektedir. Raporlama ağacı tanımı, kuruluşunuzun yapısı ve hiyerarşisini tanımlamaya yardımcı olan bir rapor bileşeni veya yapı taşıdır.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8127c694d21064392b1932525a87044b9554973d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
+ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181830"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564179"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Mali raporlarda raporlama ağacı tanımları
 
@@ -48,9 +48,9 @@ Kuruluşunuzun verilerini farklı yollarla görüntülemek için sınırsız say
 ## <a name="create-a-reporting-tree-definition"></a> Bir raporlama ağacı tanımı oluşturma
 Raporlama ağacı tanımı aşağıdaki tabloda açıklanan sütunları içerir.
 
-| Raporlama ağacı sütunu | Açıklama |
+| Raporlama ağacı sütunu | Tanım |
 |-----------------------|-------------|
-| Şirket               | Raporlama birimi için şirket adı. Genellikle yalnızca özet düzeyine atanan **@ANY** değeri tüm şirketler için kullanılabilecek raporlama ağacını etkinleştirir. Tüm alt şubelerin kendilerine atanmış bir şirketi vardır. |
+| Şirket               | Raporlama birimi için şirket adı. Genellikle yalnızca özet düzeyine atanan **\@ANY** değeri tüm şirketler için kullanılabilecek raporlama ağacını etkinleştirir. Tüm alt şubelerin kendilerine atanmış bir şirketi vardır. |
 | Birim Adı             | Bu raporlama birimini grafiksel raporlama ağacında tanımlayan kod. Tutarlı ve kullanıcılar için anlaşılması kolay olacak benzersiz bir kodlama sistemi kurduğunuzdan emin olun. |
 | Birim Açıklama      | Raporlama birimi başlığı, rapor tanımı **Üstbilgiler ve Altbilgiler** sekmesinin bir kodu olarak **UnitDesc** girerseniz rapor üst bilgisinde veya alt bilgisinde görüntülenir. Satır tanımının **Açıklama** hücresine **UnitDesc** ifadesini girerseniz başlık rapor satırı açıklamasında görünür. |
 | Boyutlar            | Doğrudan mali verilerden bilgi alan bir raporlama birimi. Hesap ve ilgili segmentler için mantıksal konumlandırmayı ve uzunlukları tanımlar. Her bir raporlama birimi satırı bu sütunda bir boyuta sahip olmalıdır. Özet birimi satırına bir boyut da yerleştirebilirsiniz (örneğin, bu birimle doğrudan ilgili giderler için). Özet birimi satırına boyut girerseniz üst birimlerde kullanılan hesaplar alt birimlerde kullanılmamalıdır. Aksi halde, tutarlar yinelenebilir. |

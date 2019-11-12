@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4e9dca4b9b163e73c33ec2dc88b8aea2cecd9bef
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 5f88c681eecbd630902c6087b910bd6880b39673
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922218"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571358"
 ---
 # <a name="maintenance-plans"></a>Bakım planları
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Bakım planı, bir varlık üzerinde önceden planlı bir önleyici bakım işinin gerçekleştirilme zamanını tanımlar. Bakım planları; varlıklar, varlık türleri, işlem yapılacak yerleşimler veya işlem yapılacak yerleşim türleriyle ilgili olabilir ancak önce şirketinizde kullanılacak bakım planları oluşturursunuz.
 

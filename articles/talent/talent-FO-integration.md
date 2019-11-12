@@ -3,7 +3,7 @@ title: Dynamics 365 Talent ile Dynamics 365 Finance tümleştirmesi SSS
 description: Bu konu altında, bir Talent ve Finance tümleştirmesinde hangi verilerin eşitleneceği açıklanmaktadır.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251027"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622780"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Dynamics 365 Talent ile Dynamics 365 Finance tümleştirmesi SSS
 
@@ -35,6 +35,10 @@ Bu konu, hangi verilerin Dynamics 365 Talent, Dynamics 365 Finance ile tümleşt
 Core HR için, bir veri alt kümesi eşitlenir. Tüm varlıkların listesi için bkz. [Dynamics 365 Talent'tan Dynamics 365 Finance tümleştirmesi](talent-financeandoperations-integration.md).
 
 Attract ve Onboard için tüm veri Common Data Service için yereldir.
+
+## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Common Data Service'e eşitlenen verileri neden göremiyorum?
+
+Varsayılan olarak, Common Data Service tümleştirmesi sağlanan demo verileri içermeyen yeni ortamlarda kapalıdır. Varsayılan olarak, demo verileri içeren yeni ortamlarda açıktır ve ortam sağlandığında veri eşitlemesi başlar. Ortamınız veri eşitlemeye hazır olduktan sonra tümleştirmeyi açabilirsiniz. Daha fazla bilgi için bkz. [Common Data Service tümleştirmesini yapılandırma](hr-common-data-service-integration.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Yeni bir eşlemeyi şablonları kullanmadan oluşturabilir miyim?
 

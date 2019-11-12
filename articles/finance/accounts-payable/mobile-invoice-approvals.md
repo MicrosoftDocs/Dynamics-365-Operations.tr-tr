@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 956c866a6b39e2a81f085910e00d2bfe8683829c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180414"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658656"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobil fatura onayları
 
@@ -138,13 +138,19 @@ Genel bir yönerge olarak, mobil tasarımcıyla çalışırken güncelleştirmel
 
 İlk tasarlamanız gereken mobil sayfa incelenmek üzere kullanıcıya atılan faturaların listesi olmalıdır. Bu mobil sayfayı tasarlamak için **VendMobileInvoiceAssignedToMeListPage** sayfasını kullanın. Bu yordamı tamamlamadan önce, en az bir satıcı faturasının gözden geçirilmek üzere size atandığından ve fatura satırında iki dağıtım olduğundan emin olun. Bu kurulum bu senaryo için gereksinimleri karşılar.
 
-1.  **Borç hesapları** modülündeki **Bana atanmış bekleyen satıcı faturalarının** listesi sayfasının mobil sürümünü açmak için URL'de menü öğesi adını **VendMobileInvoiceAssignedToMeListPage** olarak değiştirin. Sisteminizde size atanan fatura sayısına bağlı olarak, sayfa bu faturaları gösterir. Belirli bir faturayı bulmak için soldaki filtreyi kullanabilirsiniz. Ancak, bu örnek için bize belirli bir fatura gerekmiyor. Yalnızca mobil sayfanızı tasarlamanıza olanak tanıyacak size atanmış bazı faturalar olması gerekiyor. Kullanılabilir yeni sayfalar özellikle satıcı faturası için mobil senaryolar geliştirmek üzere tasarlanmıştır. Bu nedenle, bu sayfaları kullanmanız gerekir. URL aşağıdaki URL'ye benzer olmalıdır ve bunu girdikten sonra resimde gösterilen sayfada şu görünmelidir: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Bana atanmış bekleyen satıcı faturaları sayfası](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  **Borç hesapları** modülündeki **Bana atanmış bekleyen satıcı faturalarının** listesi sayfasının mobil sürümünü açmak için URL'de menü öğesi adını **VendMobileInvoiceAssignedToMeListPage** olarak değiştirin. Sisteminizde size atanan fatura sayısına bağlı olarak, sayfa bu faturaları gösterir. Belirli bir faturayı bulmak için soldaki filtreyi kullanabilirsiniz. Ancak, bu örnek için bize belirli bir fatura gerekmiyor. Yalnızca mobil sayfanızı tasarlamanıza olanak tanıyacak size atanmış bazı faturalar olması gerekiyor. Kullanılabilir yeni sayfalar özellikle satıcı faturası için mobil senaryolar geliştirmek üzere tasarlanmıştır. Bu nedenle, bu sayfaları kullanmanız gerekir. URL aşağıdaki URL'ye benzer olmalıdır ve bunu girdikten sonra resimde gösterilen sayfada şu görünmelidir: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
+
+    [![Bana atanmış bekleyen satıcı faturaları sayfası](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    
 2.  Sayfanın sağ üst kısmındaki **Ayarlar** (dişli) düğmesine ve ardından **Mobil uygulama**'ya tıklayın.
 3.  Çalışma alanınızı seçin ve **Düzenle**'ye tıklayın.
 4.  İlk mobil sayfayı oluşturmak için **Sayfa ekle**'ye tıklayın.
 5.  **Satıcı faturalarım** gibi bir ad ve **Bana gözden geçirilmek üzere atanan satıcı faturaları** gibi bir açıklama girin.
 6.  **Bitti**'ye tıklayın.
-7.  Mobil tasarımcıda, **Alanlar** sekmesinde, **Alanları seç**'e tıklayın. Liste sayfasındaki sütunlar aşağıda gösterilene benzemelidir. [![Bana atanmış bekleyen satıcı faturaları sayfasındaki sütunlar](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+7.  Mobil tasarımcıda, **Alanlar** sekmesinde, **Alanları seç**'e tıklayın. Liste sayfasındaki sütunlar aşağıda gösterilene benzemelidir. 
+
+    [![Bana atanmış bekleyen satıcı faturaları sayfasındaki sütunlar](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    
 8.  Mobil sayfada kullanıcılara gösterilecek sütunları liste sayfasından ekleyin. Sütunları ekleme sıranız alanların son kullanıcıya gösterileceği sıradır. Alanların sıralamasını değiştirmenin tek yolu tüm alanları yeniden seçmektir. Bu senaryonun gereksinimlerine bağlı olarak, aşağıdaki sekiz alan gereklidir. Ancak, bazı kullanıcılar mobil cihazda sunmak için sekiz alanın çok fazla bilgi olduğunu düşünebilir. Bu nedenle, mobil liste görünümünde yalnızca en önemli alanları göstereceğiz. Geri kalan alanlar, daha sonra tasarlayacağımız ayrıntılar görünümünde gösterilecektir. Şu an için, aşağıdaki alanları ekleyeceğiz. Mobil sayfaya eklemek için bu sütunlardaki artı işaretini (**+**) tıklayın.
     - Satıcı adı
     - Fatura toplamı
@@ -152,8 +158,10 @@ Genel bir yönerge olarak, mobil tasarımcıyla çalışırken güncelleştirmel
     - Fatura numarası
     - Fatura tarihi
 
-    Alanlar eklendikten sonra, mobil sayfa aşağıdaki resme benzer olmalıdır. 
-    [![Alanlar eklendikten sonra sayfa](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+  Alanlar eklendikten sonra, mobil sayfa aşağıdaki resme benzer olmalıdır. 
+    
+   [![Alanlar eklendikten sonra sayfa](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+
 9.  Daha sonra iş akışı eylemlerini etkinleştirebilmemiz için, şimdi aşağıdaki sütunları da eklemeniz gerekir.
     - Tamamlanan görevi göster
     - Göreve temsilci atamayı göster
@@ -169,16 +177,26 @@ Genel bir yönerge olarak, mobil tasarımcıyla çalışırken güncelleştirmel
 
 ### <a name="vendor-invoice-details"></a>Satıcı faturası ayrıntıları
 
-Mobil için fatura ayrıntıları sayfasını tasarlamak için **VendMobileInvoiceHeaderDetails** sayfasını kullanın. Sisteminizdeki faturaların sayısına bağlı olarak, bu sayfanın en eski faturayı (ilk oluşturulan fatura) gösterdiğini unutmayın. Belirli bir faturayı bulmak için soldaki filtreyi kullanabilirsiniz. Ancak, bu örnek için bize belirli bir fatura gerekmiyor. Mobil sayfayı tasarlayabilmek için sadece bazı fatura verileri gereklidir. [![İş akışı sayfası](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+Mobil için fatura ayrıntıları sayfasını tasarlamak için **VendMobileInvoiceHeaderDetails** sayfasını kullanın. Sisteminizdeki faturaların sayısına bağlı olarak, bu sayfanın en eski faturayı (ilk oluşturulan fatura) gösterdiğini unutmayın. Belirli bir faturayı bulmak için soldaki filtreyi kullanabilirsiniz. Ancak, bu örnek için bize belirli bir fatura gerekmiyor. Mobil sayfayı tasarlayabilmek için sadece bazı fatura verileri gereklidir. 
+
+[![İş akışı sayfası](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. URL'de formu açmak için menü öğesinin adını **VendMobileInvoiceHeaderDetails** olarak değiştirin
+
 2. Mobil tasarımcıyı **Ayarlar** (dişli) düğmesinden açın.
+
 3. **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın.
+
 4. Daha önce oluşturduğunuz **Satıcı faturalarım** sayfasını seçin ve **Düzenle**'ye tıklayın.
+
 5. **Alanlar** ssekmesinde **Izgara** sütun başlığına tıklayın.
+
 6. **Özellikler &gt; Sayfa ekle**'ye tıklayın. **Not:** **Izgara** başlığına tıkladığınızde ve sayfa eklediğinizde, ayrıntılar sayfasıyla ilişki otomatik olarak kurulur.
+
 7. **Fatura ayrıntıları** gibi bir sayfa başlığı ve **Fatura başlığı ve satır ayrıntılarını görüntüle** gibi bir açıklama ekleyin.
+
 8. **Alanları seç**'e tıklayın. Ekleme sıranızın alanların son kullanıcıya gösterileceği sıra olduğunu unutmayın. Alanların sıralamasını değiştirmenin tek yolu tüm alanları yeniden seçmektir. 
+
 9. Bu senaryonın gerekliliklerini temel alarak başlıktan aşağıdaki alanları ekleyin:
    - Satıcı adı
    - Fatura toplamı
@@ -197,9 +215,13 @@ Mobil için fatura ayrıntıları sayfasını tasarlamak için **VendMobileInvoi
     - Vergi beyan tutarı
 
 11. Önceki iki adımda tüm alanları ekledikten sonra **Bitti**'yi tıklayın. Bu sayfa aşağıda gösterilene benzemelidir.
+    
     [![Alanlar eklendikten sonra sayfa](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+
 12. Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
+
 13. Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
+
 14. Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
 
 ### <a name="workflow-actions"></a>İş akışı eylemleri
@@ -295,12 +317,19 @@ Mobil için fatura ayrıntıları sayfasını tasarlamak için **VendMobileInvoi
 ### <a name="vendor-invoice-attachments"></a>Satıcı faturası ekleri
 
 1. Sayfanın sağ üst kısmındaki **Ayarlar** (dişli) düğmesine ve ardından **Mobil uygulama**'ya tıklayın.
+
 2. **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın.
+
 3. Daha önce oluşturduğunuz <strong>Fatura ayrıntıları **sayfasını seçin ve **Düzenle</strong>'ye tıklayın.
+
 4. **Belge yönetimi** seçeneğini aşağıda gösterildiği gibi **Evet** olarak ayarlayın. **Not:** Mobil cihazda ekleri göstermek için hiçbir gereklilik yoksa, bu seçeneği varsayılan ayar olan **Hayır** olarak bırakabilirsiniz.
+   
    ![Belge yönetimi](./media/docmanagement-216x300.png)
+
 5. Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
+
 6. Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
+
 7. Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
 
 ### <a name="vendor-invoice-line-distributions"></a>Satıcı faturası satırı dağıtımları
@@ -311,12 +340,19 @@ Bu senaryonun gereksinimleri yalnızca satır düzeyinde dağıtımlar olacağı
 > Gereksinimleri bilmek bize hangi belirli sayfayı kullanacağımıza ve senaryoyu tasarlarken tam olarak mobil deneyimi kullanıcı için ne kadar en iyi duruma getireceğimize karar vermede yardımcı olur. İkinci senaryoda, bu senaryo için gereksinimler farklılık gösterdiğinden dağıtımları göstermek için farklı bir sayfa kullanacağız.
 
 1.  Daha önce yaptığınız gibi URL'deki menü öğesi adını değiştirin. Görüntülenen sayfa aşağıdaki resimde gösterilen sayfaya benzemelidir.
+
 [![Tüm dağıtımlar sayfası](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+
 2.  Mobil tasarımcıyı **Ayarlar** (dişli) düğmesinden açın.
+
 3.  **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın. **Not:** İki yeni sayfanın otomatik olarak oluşturulduğunu görürsünüz. Önceki bölümde belge yönetimini açmış olduğunuzdan, sistem bu sayfaları oluşturur. Bu yeni sayfaları yok sayabilirsiniz.
+
 4.  **Sayfa ekle**'ye tıklayın.
+
 5.  **Muhasebeyi görüntüle** gibi bir sayfa başlığı ve **Fatura için muhasebeyi görüntüle** gibi bir açıklama girin.
+
 6.  **Bitti**'ye tıklayın.
+
 7.  **Alan** sekmesinde, **Alanları seçin**'e tıklayın, dağıtımlar sayfasından aşağıdaki alanları seçin ve sonra **Bitti**'ye tıklayın.
     1.  Tutar
     2.  Para Birimi
@@ -324,8 +360,11 @@ Bu senaryonun gereksinimleri yalnızca satır düzeyinde dağıtımlar olacağı
 
     > [!NOTE] 
     > Dağıtım ızgarası içim **Açıklama** sütununu seçmedik çünkü bu senaryonun gereksinimleri genişletilmiş fiyatın dağıtımları olacak tek tutar olduğunu onayladı. Bu nedenle, kullanıcının dağıtım yapılacak tutar türünü belirlemek için başka bir alan istemeyecektir. Ancak, sonraki senaryoda, bu bilgiyi **kullanacağız** çünkü bu senaryo için gereksinimler diğer tutar türlerinin (örneğin, satış vergisi) dağıtımları olduğunu belirtiyor.
+
 8.  Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
+
 9.  Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
+
 10. Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
 
 > [!NOTE] 

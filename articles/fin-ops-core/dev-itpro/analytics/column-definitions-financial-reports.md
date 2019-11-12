@@ -3,7 +3,7 @@ title: Finansal raporlarda sütun tanımları
 description: Bu makalede sütun tanımları hakkında bilgi verilmektedir. Bir sütun tanımı bir rapordaki sütunların içindekileri tanımlayan bir rapor bileşeni veya yapı taşıdır. Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 76de08290058d43fbd1b4c0670db55ebcfbb8494
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 54e7d517e704b7162f3e091330a246386f0203ea
+ms.sourcegitcommit: d800613020d5548d100c8f240fb81bb6258a3646
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174317"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2572653"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansal raporlarda sütun tanımları
 
@@ -170,7 +170,7 @@ Bir rapordaki sütunların üst kısmında görünen başlıkları eklemek, değ
 
 ### <a name="create-an-automatically-generated-header"></a>Otomatik üretilen bir üstbilgi oluşturma
 
-Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir. Otomatik metin kodları her rapor oluşturulduğunda güncelleştirilen değişkenlerdir. Her sütun başlığı tarihler ve dönem numaraları gibi değişebilen rapor bilgilerini belirtmek için bu kodları içerebilir. Bu nedenle, birden fazla rapor tanımı, süre ve raporlama ağacı için bir sütun tanımı kullanabilirsiniz. Otomatik metin kodları sütun tanımının ayrıntı satırlarındaki takvim bilgilerine dayandığından yalnızca **CALC** ve **FD** sütunları için desteklenir. Bir otomatik metin kodunun sütun başlığı hücresinde görünme şekli söz konusu bilgilerin raporda nasıl göründüğünü etkiler. **Sütun Başlığı** iletişim kutusunda, otomatik metin kodları büyük-küçük harf karışık olarak görünür. Bu nedenle, metin raporda da büyük-küçük harf karışık olarak görünür. Örneğin, standart bir takvim yılında, **@CalMonthLong** ayı **7** ila **Temmuz** olarak çözümler. Adı büyük harfle olması gereken ayın (örneğin **TEMMUZ**) adında, otomatik metin kodunu **Sütun başlığı metni** alanına büyük harflerle girin. Örneğin, **@CALMONTHLONG** girin. Kodları ve metni karıştırabilirsiniz. Örneğin, şu başlık metnini girebilirsiniz: **Dönem @FiscalPeriod-@FiscalYear @StartDate ila @EndDate** Oluşturulan rapor başlığı şu metne benzer: **Dönem 1-02 01/01/02 ila 01/31/02**.
+Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir. Otomatik metin kodları her rapor oluşturulduğunda güncelleştirilen değişkenlerdir. Her sütun başlığı tarihler ve dönem numaraları gibi değişebilen rapor bilgilerini belirtmek için bu kodları içerebilir. Bu nedenle, birden fazla rapor tanımı, süre ve raporlama ağacı için bir sütun tanımı kullanabilirsiniz. Otomatik metin kodları sütun tanımının ayrıntı satırlarındaki takvim bilgilerine dayandığından yalnızca **CALC** ve **FD** sütunları için desteklenir. Bir otomatik metin kodunun sütun başlığı hücresinde görünme şekli söz konusu bilgilerin raporda nasıl göründüğünü etkiler. **Sütun Başlığı** iletişim kutusunda, otomatik metin kodları büyük-küçük harf karışık olarak görünür. Bu nedenle, metin raporda da büyük-küçük harf karışık olarak görünür. Örneğin, standart bir takvim yılında, **\@CalMonthLong** ayı **7** ila **Temmuz** olarak çözümler. Adı büyük harfle olması gereken ayın (örneğin **TEMMUZ**) adında, otomatik metin kodunu **Sütun başlığı metni** alanına büyük harflerle girin. Örneğin, **\@CALMONTHLONG** girin. Kodları ve metni karıştırabilirsiniz. Örneğin, şu başlık metnini girebilirsiniz: **Dönem \@FiscalPeriod-\@FiscalYear \@StartDate ila \@EndDate**. Oluşturulan rapor başlığı şu metne benzer: **Dönem 1-02 01/01/02 ila 01/31/02**.
 
 > [!NOTE]
 > Uzun tarih vb. gibi bazı metin biçimleri sunucudaki bölgesel ayarlarınıza bağlıdır. Bu ayarları değiştirmek için **Başlat** düğmesini, **Denetim Masası** öğesini ve ardından **Bölge ve Dil** öğesini tıklayın. Aşağıdaki tabloda sütun başlıkları için kullanılabilen otomatik metin seçenekleri gösterilmektedir.

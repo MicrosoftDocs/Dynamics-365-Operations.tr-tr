@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f91faa03718830474e8e2a79015955bcad1d02e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6ecdece43b9d609e70e385dc5c3ec70b82f582ab
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249988"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653683"
 ---
 # <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 
@@ -35,7 +35,7 @@ Bu konu rotalar ve operasyonlar hakkında bilgi sağlar. Rota, bir ürün veya �
 <a name="overview"></a>Özet
 --------
 
-Rota, bir ürünü veya ürün çeşidini üretmek için gereken operasyonların sırasını açıklar. Rota gerekli operasyon kaynaklarını, operasyonu hazırlayıp gerçekleştirmek için gereken süreyi ve maliyetin nasıl hesaplanacağını da tanımlar. Birden fazla ürün üretmek için aynı rotayı kullanabilirsiniz veya her ürün ya da ürün çeşidi için birer benzersiz rota tanımlayabilirsiniz. Hatta aynı ürün için birden fazla rotanız bile olabilir. Bu durumda, kullanılan rota, üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir. Finance and Operations'ta rotanın tanımı, birlikte üretim sürecini açıklayan dört ayrı öğeden oluşur:
+Rota, bir ürünü veya ürün çeşidini üretmek için gereken operasyonların sırasını açıklar. Rota gerekli operasyon kaynaklarını, operasyonu hazırlayıp gerçekleştirmek için gereken süreyi ve maliyetin nasıl hesaplanacağını da tanımlar. Birden fazla ürün üretmek için aynı rotayı kullanabilirsiniz veya her ürün ya da ürün çeşidi için birer benzersiz rota tanımlayabilirsiniz. Hatta aynı ürün için birden fazla rotanız bile olabilir. Bu durumda, kullanılan rota, üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir. Supply Chain Management'ta rotanın tanımı, birlikte üretim sürecini açıklayan dört ayrı öğeden oluşur:
 
 -   **Rota** – üretim sürecinin yapısını tanımlar. Diğer bir deyişle, operasyonların sırasını tanımlar.
 -   **Operasyon** – rotadaki adlandırılmış bir adımı tanımlar (örneğin **Montaj**). Aynı operasyon birden çok rotada yapılabilir ve bunların farklı operasyon numaraları olabilir.

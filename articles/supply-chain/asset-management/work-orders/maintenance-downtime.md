@@ -3,7 +3,7 @@ title: Bakım kesinti süresi
 description: Bu konuda Varlık Yönetimi'ndeki bakım kesinti süresini açıklar.
 author: josaw1
 manager: AnnBe
-ms.date: 08/23/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,77 +16,75 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-31
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc79dc1b5911679586fa560142ada5add1a881d2
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: ad9f1b2a0e63b4fb0d6daceb451c3a1dc1ec7de7
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918256"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626167"
 ---
 # <a name="maintenance-downtime"></a>Bakım kesinti süresi
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-Bir iş emrinde seçilen kıymet üzerinde bakım kapalı kalma kayıtları oluşturabilirsiniz. Bu, üretim alanındaki bir veya daha fazla makinede bakım kapalı kalma süresini kaydetmek istediğinizde yararlıdır. Önce, kullanmak istediğiniz bakım kapalı kalma nedeni kodlarını (örneğin, döküm ve planlı durak) oluşturursunuz. Bu, **Bakım kesinti süresi sebep kodları** içinde gerçekleştirilir. Ardından **bakım kapalı kalma süresi** ve ilgili neden kodlarını ekleyebileceğiniz bakım süresi kaydı oluşturabilirsiniz.
+Bir iş emrinde seçilen kıymet üzerinde bakım kesinti süresi kayıtları oluşturabilirsiniz. Bu özellik, üretim alanındaki bir veya daha fazla makinede bakım kapalı kalma süresini kaydetmek istediğinizde yararlıdır. Önce, kullanmak istediğiniz bakım kesinti süresi nedeni kodlarını (örneğin, **Döküm** ve **Planlı durdurma**) oluşturursunuz. Bu adım, **Bakım kesinti süresi sebep kodları** sayfasında gerçekleştirilir. **Bakım kesinti süresi** sayfasında bakım kesinti süresi kayıtları oluşturabilir ve ilgili bakım kesinti süresi neden kodlarını ekleyebilirsiniz.
 
 ## <a name="create-maintenance-downtime-reason-codes"></a>Bakım kesinti süresi sebep kodları oluşturma
 
-1. **Varlık yönetimi** > **Kurulum** > **İş emirleri** > **Bakım kesinti süresi sebep kodları**'na tıklayın.
+1. **Varlık yönetimi** > **Kurulum** > **İş emirleri** > **Bakım kesinti süresi neden kodları**'nı seçin.
 
-2. **Yeni**'ye tıklayın.
+2. **Yeni**'yi seçin.
 
-3. **Bakım kesinti nedeni kodu** alanına bir kimlik ekleyin.
+3. **Bakım kesinti süresi neden kodu** alanına bakım kesinti süresi neden kodu için bir kod girin.
 
-4. **Ad** alanında sebep kodu için bir ad girin.
+4. **Ad** alanına, bir ad girin.
 
-5. **KPI dahil et** onay kutusunu, sebep kodu varlık KPI hesaplamalarına dahil edilecekse seçin. Genel olarak, planlanan üretim durakları beklenen performansı etkilemediği için KPI hesaplamalarına dahil edilmelidir.
+5. Neden kodunun varlığın temel performans göstergeleri (KPI) hesaplamalarına dahil edilmesi gerekiyorsa, **KPI dahil et** onay kutusunu seçin. Genel olarak, planlanan üretim durakları beklenen performansı etkilemediği için KPI hesaplamalarına dahil edilmelidir.
 
-6. **Kaydet**'e tıklayın.
+6. **Kaydet**'i seçin.
+
+Aşağıdaki şekilde bir **Bakım kesinti süresi neden kodları** sayfası örneği gösterilmektedir.
 
 ![Şekil 1](media/15-work-orders.png)
 
-
-Kullanmak istediğiniz bakım kapalı kalma nedeni kodlarını oluşturduğunuzda, iş emirleri ve varlıklar için bakım kapalı kalma kayıtları oluşturabilirsiniz.
+Kullanmak istediğiniz bakım kesinti süresi nedeni kodlarını oluşturduktan sonra, iş emirleri ve varlıklar için bakım kesinti süresi kayıtları oluşturabilirsiniz.
 
 
 ## <a name="create-maintenance-downtime-registrations"></a>Bakım kesinti süresi kayıtları oluşturma
 
 1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ne tıklayın.
 
-2. İş emrini seçin ve **bakım kapalı kalma süresini** tıklatın.
+2. İş emrini seçin ve **İş emri** sekmesinde, **Varlık** grubunda **Bakım kesinti süresi** öğesini seçin.
 
-3. **Yeni**'ye tıklayın.
+3. **Yeni**'yi seçin.
 
-4. **Başlangıç** ve **Bitiş** alanlarında bakım kesinti süresi için tarih ve saat aralığını girin.
+4. **Başlangıç** ve **Bitiş** alanlarında bakım kesinti süresi kaydı için tarih ve saat aralığını tanımlayın.
 
-5. **Giden** alanından çıktığınızda, saatlerin süresi otomatik olarak **Süre** alanına girilir.
+>[!NOTE]
+>**Giden** alanından çıktığınızda, saatlerin süresi otomatik olarak **Süre** alanına girilir.
 
-6. **Bakım kesinti süresi sebep kodu** alanında bir sebep kodu girin.
+5. **Bakım kesinti süresi neden kodu** alanında bir neden kodu seçin.
 
-7. Daha fazla kayıt eklemek istiyorsanız, 3-6 arasındaki adımları yineleyin.
+6. Daha fazla kayıt eklemek için 3 ile 5. adımlar arasındaki işlemleri tekrarlayın.
 
-8. **Kaydet**'e tıklayın.
+7. **Kaydet**'i seçin.
 
+Aşağıdaki şekilde bir bakım kesinti süresi kaydı örneği gösterilmiştir.
 
 ![Şekil 2](media/16-work-orders.png)
 
-
-Bakım kapalı kalma süresini hesaplamak için kullanılan takvim, kıymetler ve parametreler kurulumunda yaptığınız seçime bağlıdır. Kaynak **Tüm varlıklar** > **Sabit varlıklar** Hızlı sekmesi > **Kaynak** alanındaki bir varlıkta seçildiyse, ilişkili kaynak grubu için takvim kurulumu aşağıdaki şekildeki gibi gösterilir.
+Bakım kapalı kalma süresini hesaplamak için kullanılan takvim, varlıklar ve parametreler kurulumunda yaptığınız seçime bağlıdır. **Tüm varlıklar** sayfasının **Sabit kıymetler** hızlı sekmesindeki **Kaynak** alanındaki bir varlıkta kaynak seçildiyse, ilişkili kaynak grubu için takvim kurulumu aşağıdaki şekildeki gibi gösterilir.
 
 ![Şekil 3](media/17-work-orders.png)
 
-
-Varlık üzerinde bir kaynak seçilmemişse, **Varlık yönetimi parametreleri** içinde seçilen standart takvim içinde kullanılır, aşağıdaki şekilde görüntülendiği gibi.
+Varlık üzerinde bir kaynak seçilmemişse, **Varlık yönetimi parametreleri** sayfasında seçilen standart takvim içinde kullanılır, aşağıdaki şekilde görüntülendiği gibi.
 
 ![Şekil 4](media/18-work-orders.png)
 
-
-**Kurumsal varlık yönetimi** > **Sorgular** > **Bakım kesinti süresi** üzerine tıklayarak tüm bakım kesinti süresi kayıtlarının bir genel bakışını görebilirsiniz.
+**Varlık yönetimi** > **Sorgular** > **Bakım kesinti süresi**'ne tıklayarak tüm bakım kesinti süresi kayıtlarına genel bir bakışı görebilirsiniz.
 
 >[!NOTE]
 >**Varlık Yönetimi** modülü içinde kullanılan tüm takvimler, **Kuruluş yönetimi** > **Kurulum** > **Takvimler** > **Takvimler** içinde ayarlanır.

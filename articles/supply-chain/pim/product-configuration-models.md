@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7eed6ca8236afa0e28cc4945757424c995f053d7
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250634"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653637"
 ---
 # <a name="product-configuration-models-overview"></a>Ürün yapılandırma modellerine genel bakış
 
@@ -118,7 +118,7 @@ Eğer öznitelik türü <strong>Boolean</strong>, aralığa sahip bir <strong>Ta
 </tr>
 </tbody>
 </table>
-Sistem tanımlı bir tablo kısıtlaması, bir Finance and Operations tablosundaki bir alan ile bir öznitelik türü arasındaki eşlemeyi temsil eder. Sistem tanımlı tablo kısıtlaması öznitelik türünü alana dinamik olarak bağlar. Bağlantı, bir ürün yapılandırması modelindeki özniteliği Supply Chain Management tablosundaki alanlarda bulunan verileri göstermek üzere etkinleştirir.</td>
+Sistem tanımlı bir tablo kısıtlaması, bir Supply Chain Management tablosundaki bir alan ile bir öznitelik türü arasındaki eşlemeyi temsil eder. Sistem tanımlı tablo kısıtlaması öznitelik türünü alana dinamik olarak bağlar. Bağlantı, bir ürün yapılandırması modelindeki özniteliği Supply Chain Management tablosundaki alanlarda bulunan verileri göstermek üzere etkinleştirir.</td>
 </tr>
 <tr class="odd">
 <td>Hesaplamalar</td>

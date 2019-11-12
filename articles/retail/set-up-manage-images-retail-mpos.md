@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 1776220766984339c7c289f7b55252fb0c0bb2a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024856"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570668"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Retail Modern POS (MPOS) için resimleri ayarlama ve yönetme
 
@@ -83,9 +83,7 @@ Aşağıdaki yordamlarda, görüntüler için katalog varlığı için örnek ol
     [![Resimler iletişim kutusu](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
-> Desteklenen tüm beş varlık için aynı yordamı kullanabilirsiniz: çalışan, müşteri, katalog, kategori ve ürün. "Katalog ürünleri" (katalog düzeyinde ayarlanmış ürünler) ve "Kanal Ürünleri" (kanal düzeyinde ayarlanmış ürünler) ürün varlığı için ayarlanan ortam şablonu kullanır. Ürünler ortam şablonu için ürün başına gösterilecek ürün görüntü sayısını seçebilirsiniz. Belirli bir ürün için varsayılan resim de ayarlayabilirsiniz. Bu şekilde, MPOS boş görüntüleri önleyebilir ve hangi resmin ürün öğesi için varsayılan görüntü olarak kullanıldığını denetlemeye yardımcı olabilirsiniz. Aşağıdaki örnekte, her ürünün beş görüntüsü vardır ve ilk resmi varsayılan görüntüsü olarak ayarlanır. Varyant ürünleri ana ürünlerle aynı şekilde davranılır. Görüntü dosyasının dosya adı, ürün numarasına dayanmalıdır. Dosya adı oluşturulurken bazı karakterler de kaçar. Bu nedenle, **Excel için Resim URL'leri oluştur** bölümü kullanarak dosya adını doğrulamak iyidir.
->
-> [![Ortam şablonu tanımla iletişim kutusu](./media/prods.png)](./media/prods.png)
+> Desteklenen tüm beş varlık için aynı yordamı kullanabilirsiniz: çalışan, müşteri, katalog, kategori ve ürün. "Katalog ürünleri" (katalog düzeyinde ayarlanmış ürünler) ve "Kanal Ürünleri" (kanal düzeyinde ayarlanmış ürünler) ürün varlığı için ayarlanan ortam şablonu kullanır. Ürünler ortam şablonu için ürün başına gösterilecek ürün görüntü sayısını seçebilirsiniz. Belirli bir ürün için varsayılan resim de ayarlayabilirsiniz. Bu şekilde, MPOS boş görüntüleri önleyebilir ve hangi resmin ürün öğesi için varsayılan görüntü olarak kullanıldığını denetlemeye yardımcı olabilirsiniz. Aşağıdaki örnekte, her ürünün beş görüntüsü vardır ve ilk resmi varsayılan görüntüsü olarak ayarlanır. Varyant ürünleri ana ürünlerle aynı şekilde davranılır. Görüntü dosyasının dosya adı, ürün numarasına dayanmalıdır. Dosya adı oluşturulurken bazı karakterler de kaçar. Bu nedenle, **Excel için Resim URL'leri oluştur** bölümü kullanarak dosya adını doğrulamak iyidir. Bu makalenin sonraki bölümünde bulunan [Excel'de Düzenle'yi kullanarak üzerine yazma](#overwrite-by-using-edit-in-excel) konusuna bakın.
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Kanal tarafına medya şablon göndermek için Eşitleme işleri
 
@@ -110,8 +108,6 @@ Desteklenen beş varlığın tümü için (Çalışan, Müşteri, Katalog, Kateg
 
     > [!IMPORTANT]
     > Ortam şablonu değiştiğinde Excel'de Düzenle işlevini kullanmadan önce **Oluştur**'a tıklamanız gerekir.
-
-    [![Excel hızlı sekmesi için Resim URL'leri oluştur](./media/excel1.jpg)](./media/excel1.jpg)
 
     Şimdi, son kaydedilmiş ortam şablonuna göre oluşturulan resim URL'lerinin önizlemesini görürsünüz.
 

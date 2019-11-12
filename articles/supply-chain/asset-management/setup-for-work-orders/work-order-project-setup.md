@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 29f9975d8270b3f79d0aac0c62609b4a9c71ae89
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 322e3ac6f7c37fffdd4d59ed86bccec10559f4b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874636"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569789"
 ---
 # <a name="work-order-project-setup"></a>İş emri proje kurulumu
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 **Kıymet Yönetimi** modülünde, her bir iş emri işi için bir proje ilişkisi gereklidir. Bir iş emri işiyle ilişkilendirilmiş proje, dahili bakım projeleri, servis yönetim projeleri ve yatırım projeleri gibi, kıymet yönetimiyle ilgili çeşitli projelerdeki maliyetleri izlemenize olanak sağlar. 
 
@@ -72,7 +72,7 @@ Kurulum, **Oroje yönetimi ve muhasebe** modülüyle tam tümleştirmeye olanak 
 
     Varsayılan olarak, başlangıç tarihi iş emri projesini sayfaya eklediğiniz tarihtir. Varsayılan olarak gizli olan, **Geçerlilik başlangıcı** alanı tarafından denetlenir. **Geçerlilik tarihi** alanında **Görüntüle** \> **Tümü**'nü seçin. Daha sonra iş siparişi projesi için sınırlı bir dönem dönemi ayarlamak için **Geçerlilik tarihi** alanını **Bitiş tarihi** alanıyla birlikte kullanabilirsiniz.
 
-    ![Şekil 1](media/17-setup-for-work-orders.png)
+    ![İş emri proje kurulumu sayfası](media/17-setup-for-work-orders.png)
 
 6. **Proje grubu** sekmesinde **Ekle**'yi seçin.
 7. **İş emri türü** alanında bir iş emri türü seçin.
@@ -80,7 +80,7 @@ Kurulum, **Oroje yönetimi ve muhasebe** modülüyle tam tümleştirmeye olanak 
 9. **Proje grubu** alanında, iş emri tipiyle ilişkili olması gereken proje grubunu seçin. Örneğin, **Önleyici bakım** olarak adlandırılan bir iş emri türü, önceki servis **Prev Maint** veya **Dahili** olarak adlandırılan bir proje grubuyla ilişkilendirilmiş olabilir. Alternatif olarak, **Yatırımlar** ve sabit kıymetlerle ilgili iş emirleri için kullanılan bir yatırım iş emri türü, **Yatırım** veya **Yatırım** adlı bir proje grubuyla ilişkilendirilebilir.
 10. **Kaydet**'i seçin.
 
-![Şekil 2](media/18-setup-for-work-orders.png)
+![İş emri proje kurulumu sayfası, İş emri ekle](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Bir iş emri satırı her oluşturulduğunda, kıymet yönetimi iş emri iş projesiyle ilişkili olması gereken bir proje grubu arar. Arama, bu konuda açıklanan kuruluma dayanır. Her proje grubunun ilgili bir proje türü vardır. **Zaman ve malzeme** veya **Sabit fiyatlı** proje türüne sahip proje grupları, yalnızca bir müşteri hesabıyla ilişkili kıymetler için geçerlidir.

@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3391679696c0e1dd84840821480ccbfb544829a6
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: f226329b774344a3de5c8f115ffb358611bf7d60
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863048"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570783"
 ---
 # <a name="product-dimensions"></a>Ürün boyutları
 
 [!include [banner](../includes/banner.md)]
-
-[!include [Retail name](../includes/retail-name.md)]
 
 Dört ürün boyutu bulunur - Renk, Yapılandırma, Boyut ve Stil. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler.
 

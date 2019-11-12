@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
+ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249529"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2574811"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Eldeki stok mobil çalışma alanı
 
@@ -56,9 +56,9 @@ Mobil çalışma alanı, eldeki durumun tesisler arasında anında görülmesine
     -   Kullanılabilir fiziksele göre (Bu görünüm, rezervasyonu olmayan tutarı temsil eder.)
 
 ## <a name="prerequisites"></a>Önkoşullar
-Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak farklılık gösterir.
+Önkoşullar, kuruluşunuz için dağıtılan Supply Chain Management sürümüne göre değişiklik gösterir.
 
-### <a name="prerequisites-if-you-use-finance-and-operations"></a>Finance and Operations kullanıyorsanız önkoşullar 
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Supply Chain Management kullanıyorsanız önkoşullar
 Supply Chain Management, kuruluşunuza dağıtıldıysa sistem yöneticisinin **Eldeki stok** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Platform güncelleştirmesi 3 veya daha sonrasıyla kullanıyorsanız önkoşullar 

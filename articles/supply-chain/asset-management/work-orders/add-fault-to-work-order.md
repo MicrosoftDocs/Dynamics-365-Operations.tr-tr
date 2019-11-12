@@ -3,7 +3,7 @@ title: İş emrine arıza ekleme
 description: Bu konu, Varlık Yönetiminde iş emirlerine arıza kayıtlarının nasıl ekleneceğini açıklamaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,41 +16,42 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-31
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c86973ca44d9113d14e180e27cc51343da5d2c0
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 2b58cc31578d7bb102c6b5aa8b4ce2d6cfe8c893
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875950"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626213"
 ---
-# <a name="add-fault-to-work-order"></a>İş emrine arıza ekleme
+# <a name="add-fault-to-work-order"></a>İş emrine hata ekle
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Arıza tasarımcısında bir iş emrine arızalar kurulumu ekleyebilirsiniz. İş emrinde seçilen varlık, kendisine bağlanmış bir veya daha fazla arıza kaydı olan varlık türleri içermelidir. [Arıza yönetimi](../setup-for-work-orders/fault-management.md) bölümünden kurulum hakkında daha fazla bilgi edinin.
+Arıza tasarımcısında tasarlanmış arızaları bir iş emrine ekleyebilirsiniz. İş emrinde seçilen varlık için kullanılan varlık türlerine bir veya daha fazla arıza kaydı bağlanmalıdır. Kurulum hakkında daha fazla bilgi için bkz. [Arıza yönetimi](../setup-for-work-orders/fault-management.md)
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ne tıklayın.
+1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.
 
-2. Listede, arıza kaydı yapmak istediğiniz iş emrini seçin ve **Varlık arızası**'na tıklayın.
+2. Arıza kaydı yapmak için iş emrini seçin ve sonra Eylem bölmesinde, **İş emri** sekmesinde, **Varlık** grubunda, **Varlık arızası**'nı seçin.
 
-3. **Belirtiler** hızlı sekmesinde **Satır ekle**'ye tıklayın. **Arıza** alanına otomatik olarak sıralı bir arıza numarası eklenir.
+3. **Belirtiler** hızlı sekmesinde **Satır ekle**'yi seçin. **Arıza** alanına otomatik olarak sıralı bir arıza numarası girilir.
 
 4. **Arıza belirtisi** alanında ilgili belirtiyi seçin.
 
-5. **Arıza alanı** ve **Arıza türü**'nü seçin.
+5. **Arıza alanı** ve **Arıza türü** alanlarında uygun değerleri seçin.
 
-6. **Arıza tarihi** alanına geçerli tarih otomatik olarak eklenir. Gerekirse başka bir tarih seçebilirsiniz.
+6. **Arıza tarihi** alanına geçerli tarih otomatik olarak eklenir. Gereksinim duyduğunuz şekilde farklı bir tarih seçebilirsiniz.
 
 7. **Seçilen belirtinin nedenleri** hızlı sekmesine, sorunun nedenini açıklayan bir satır ekleyin.
 
 8. **Seçilen belirtinin çözümleri** hızlı sekmesine, sorunun olası çözümünü açıklayan bir satır ekleyin.
 
-9. **Kaydet**'e tıklayın.
+9. **Kaydet**'i seçin.
+
+Aşağıdaki şekilde bir arıza merkezi kaydı örneği gösterilmiştir.
 
 ![Şekil 1](media/19-work-orders.png)
 
@@ -59,23 +60,23 @@ Arıza tasarımcısında bir iş emrine arızalar kurulumu ekleyebilirsiniz. İ�
 
 **Varlık arızaları** listesinde, varlıklara kaydedilen tüm arızalara genel bakış bulabilirsiniz.
 
-Listeyi açmak için **Varlık yönetimi** > **Sorgular** > **Varlık arızası** > **Varlık arızaları**'na tıklayın.
+**Varlık arızaları** liste sayfasında, varlıklara kaydedilmiş olan tüm arızalara genel bakış bulabilirsiniz. Sayfayı açmak için **Varlık yönetimi** > **Sorgular** > **Varlık arızası** > **Varlık arızaları**'nı seçin.
 
 
 ## <a name="print-asset-fault-report"></a>Varlık arızası raporunu yazdırma
 
-**Tüm varlıklar** listesi sayfasından, tüm arıza kayıtlarını görüntüleyen bir kıymet hata raporu yazdırabilir ve hata istatistiklerine ilişkin bir grafik özet alabilirsiniz.
+**Tüm varlıklar** liste sayfasından, tüm arıza kayıtlarını görüntüleyen bir varlık arıza raporu yazdırabilir ve arıza istatistiklerine ilişkin bir grafik özet alabilirsiniz.
 
 1. **Varlık yönetimi** > **Ortak** > **Varlıklar** > **Tüm varlıklar** öğesini seçin.
 
-2. **Varlıklar** listesinde, bir arıza raporu yazdırmak istediğiniz varlığı seçin.
+2. Arıza raporu yazdırılacak olan varlığı seçin.
 
-3. **Genel** sekmesinde > **Raporlar** bölümünde **Varlık arızası**'na tıklayın.
+3. Eylem Bölmesinde, **Genel** sekmesindeki **Raporlar** gurubunda **Varlık arızası**'nı seçin.
 
-4. Belirli bir dönem ekleyin veya bir hata türü seçin.
+4. Belirli bir dönem girin veya bir arıza türü seçin.
 
-5. Raporu yazdırmak için **Tamam**'a tıklayın.
+5. Raporu yazdırmak için **Tamam**'ı seçin.
 
 >[!NOTE]
->Ayrıca **Varlık yönetimi** > **Raporlar** > **Varlıklar** > **Varlık arızası**'na tıklayarak çeşitli varlıklar veya varlık türleri için bir arıza raporu yazdırabilirsiniz.
+>Çeşitli varlıklar veya varlık türleri için bir arıza raporu yazdırmak üzere **Varlık yönetimi** > **Raporlar** > **Varlıklar** > **Varlık arızası**'nı seçin.
 

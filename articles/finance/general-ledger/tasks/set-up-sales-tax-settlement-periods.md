@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cff84f8f6c42fd064258b8ca53e24acc8059977
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c17a0240c29dad58c958ab1ce844ee5d8384bd1f
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175668"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658941"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Satış vergisi kapatma dönemlerini ayarlama
 
@@ -42,7 +42,7 @@ Bu görevde USMF demo şirketi kullanılmaktadır.
 9. Dönem başına dönem aralığı birim sayısını girin. Örneğin üç aylık dönemde 3 ay vardır.
 10. **Satış vergisi kapatma için toplu iş kullan** onay kutusunu işaretleyin veya kutuda işaret varsa kaldırın. Kapatma dönemi için kapatma işlemi arka planda toplu iş olarak sürdürülebilir. Bu bir dönem aralığında çok sayıda vergi hareketi olması durumunda önerilir.  
     > [!NOTE]
-    > Şu anda bu Avusturya, Belçika, İspanya, İtalya, Japonya ve Hollanda'da desteklenmez.
+    > Şu anda bu İspanya, İtalya, Japonya ve Hollanda'da desteklenmez.
 11. **Mahsup vergi hareketleri oluşturmayı engelle** onay kutusunu seçin veya temizleyin. Varsayılan olarak, sistem kapatma işlemi sırasında mahsup vergi hareketleri oluşturur; bu da bir dönem aralığında çok sayıda vergi hareketi varsa performans sorununa neden olur. Mahsup vergi hareketleri oluşturmayı engellemek için bu onay kutusunu seçin.
 12. **Dönem aralıkları sekmesi**'ni genişletin.
 13. **Ekle**'yi seçin.

@@ -3,7 +3,7 @@ title: İş emirlerine giriş
 description: Bu konuda, Varlık Yönetimi'ndeki iş emirleribe genel bir bakış sağlanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,61 +16,66 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9483c50a15fca566b1f5e089297795bbbe09c042
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b8340d3f4fd98e02e372fd5ac68f1ae107819304
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875953"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626420"
 ---
 # <a name="introduction-to-work-orders"></a>İş emirlerine giriş
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-İş emirleri, bakım işlerini yönetmek, bu işlere ilişkin gerekli bilgileri sağlamak ve tüketimi kaydetmek için kullanılır. Bir iş emri bir veya daha fazla iş emri işi içerebilir ve bir veya daha fazla varlık iş emrine bağlanabilir. Her iş emri satırı, varlık üzerinde planlanan bir bakım işini tanımlar.
 
-İş emirleri el ile veya otomatik olarak oluşturulabilir.
+İş emirleri bakım işlerini yönetmek, bu işlere ilişkin gerekli bilgileri sağlamak ve tüketimi kaydetmek için kullanılır. Her iş emri bir veya daha fazla iş emri işi içerebilir ve her iş emrine bir veya daha fazla varlık bağlanabilir. Her iş emri işi, varlık üzerinde planlanan bir bakım işini tanımlar.
 
-- "Otomatik oluştur" olarak ayarlanmış takvim tabanlı bakım planları için otomatik olarak **Bakım planlarını zamanla** formunu kullanarak.  
+İş emirlerini aşağıdaki biçimlerde oluşturabilirsiniz:
 
-- "Otomatik oluştur" olarak ayarlanmış takvim tabanlı bakım sıraları için otomatik olarak **Bakım sıralarını planla** formunu kullanarak.  
+- "Otomatik oluştur" ayarının etkin olduğu takvim tabanlı bakım planları için [Bakım planlarını zamanla](../preventive-and-reactive-maintenance/schedule-maintenance-plans.md) formunu kullanarak otomatik olarak.
 
-- Önleyici bakım işleri veya bakım istekleri olabilecek bakım zamanlamasından oluşturun.  
+- "Otomatik oluştur" ayarının etkin olduğu bakım sıraları için [Bakım sıralarını zamanla](../preventive-and-reactive-maintenance/maintenance-rounds.md) formunu kullanarak otomatik olarak.
 
-- Bir iş emrini el ile oluşturun.  
+- Önleyici bakım işleri veya bakım talepleri için [Bakım zamanlamasından](../preventive-and-reactive-maintenance/maintenance-schedule.md).
 
-- **Tüm bakım istekleri** veya **Etkin bakım istekleri** veya **İşlem yapılacak yerleşim bakım isteklerim**'den bir iş emri oluşturun.
+- El ile
+
+- **Tüm bakım istekleri** veya **Etkin bakım istekleri** veya **İşlem yapılacak yerleşim bakım isteklerim** sayfasından.
 
 >[!NOTE]
 >Aynı varlıkla ilgili iş emri işleri aynı proje koduyla ilgilidir.
 
 ## <a name="all-work-orders"></a>Tüm iş emirleri
 
-Listeyi açmak için **Varlık yönetimi** > **Ortak** > **İş emirleri** > **Tüm iş emirleri**'ne tıklayın. **Tüm iş emirleri** tüm iş emirlerinin listesini içerir ve iş emriyle ilgili bazı bilgileri görüntüler.
+**Varlık yönetimi** > **Ortak** > **İş emirleri** > **Tüm iş emirleri**'ni seçerek **Tüm iş emirleri** liste sayfasını açın. Bu sayfa tüm iş emirlerini ve her biriyle ilgili bazı bilgileri gösterir.
+
+Aşağıdaki örnekte **Tüm iş emirleri** liste sayfasının bir örneği gösterilmektedir.
 
 ![Şekil 1](media/01-work-orders.png)
 
-- Etkin iş emirlerinin listesini görmek için **Varlık yönetimi** > **Genel** > **İş emirleri** > **Etkin İş emirleri**'ne tıklayın.
+Yalnızca etkin iş emirlerinin listesini görmek için **Varlık yönetimi** > **Genel** > **İş emirleri** > **Etkin İş emirleri**'ni seçin. 
 
-- Çalışan olarak ilgili olduğunuz işlem yapılacak yerleşimlere yüklenen iş emri işlerini içeren listeyi görmek için **Varlık yönetimi** > **Genel** > **İş emirleri** > **İşlem yapılacak yerleşim iş emri bakım işlerim**'e tıklayın (şurada ayarlanır: [Bakım görevlileri ve çalışan gruplarında](../setup-for-objects/workers-and-worker-groups.md)).
+Çalışan olarak ilgili olduğunuz işlem yapılacak yerleşimlere yüklenen iş emri işlerini içeren listeyi görmek için **Varlık yönetimi** > **Genel** > **İş emirleri** > **İşlem yapılacak yerleşim iş emri bakım işlerim**'i seçin. (Çalışanlar ve işlem yapılacak yerleşimler arasındaki ilişki **Çalışanlar** sayfasında ayarlanır. Daha fazla bilgi için [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) bölümüne bakın.)
 
-- **Tüm İş emirleri** listesinde (kılavuz görünümü), seçili kaydın Ayrıntılar görünümünü görüntülemek için **İş emri** sütunundaki bir bağlantıya tıklayın. Düzenlemek için açmak üzere üzere **Düzenle** düğmesini tıklatın.  
+Aşağıda, **Tüm iş emirleri** sayfasını kullanabileceğiniz bazı yöntemler verilmiştir:
+
+- Izgara görünümünde seçili kaydın ayrıntılar görünümü görüntülemek için **İş emri** sütunundan bir bağlantı seçin. Böylece, kaydı düzenlemek üzere açmak için **Düzenle**'yi seçebilirsiniz.
 
 - Ayrıntılar görünümünde, iş emriyle ilgili ayrıntılı bilgileri görürsünüz.  
 
-- Ayrıntılar görünümünde, iş emri iş ayrıntılarını görmek için **Satırlar** bağlantısını veya iş emri ayrıntılarını görmek için **Başlık** bağlantısını seçin.  
+- Ayrıntılar görünümünde, iş emri iş ayrıntılarını görmek için **Satırlar** bağlantısını veya iş emri ayrıntıları görünümünü görmek için **Başlık** sekmesini seçin.  
 
-- Ekranın sağındaki dikey **İlgili bilgiler** bölmesi, iş emriyle ilgili ek bilgiler içerir. Seçili iş emri için ilgili bilgileri göstermek için bölmeyi genişletin.  
+- Seçili iş emriyle ilgili ek bilgileri görmek için sayfanın sağ tarafındaki **İlgili bilgi** bölmesini genişletin.
 
+Aşağıdaki örnekte **Tüm iş emirleri** ayrıntıları görünümünün bir örneği gösterilmektedir.
 
 ![Şekil 2](media/02-work-orders.png)
 
 
-Eylem bölmesindeki eylem bölmesi düğmeleri sekmeler halinde düzenlenmiştir. Aşağıda, Kurumsal Varlık Yönetimiyle ilgili düğmelerin kısa bir açıklaması verilmektedir:
+Eylem Bölmesi'ndeki düğmeler sekmeler halinde düzenlenmiştir. Aşağıdaki tabloda Varlık Yönetimiyle ilgili düğmeler kısaca açıklanmaktadır.
 
 
 
@@ -78,24 +83,24 @@ Eylem bölmesindeki eylem bölmesi düğmeleri sekmeler halinde düzenlenmiştir
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Düzenle                            | Seçilen iş emrini düzenleyin.                                                                                                                                                                                                                                           |
 | Yeni                             | Yeni iş emri oluşturun.                                                                                                                                                                                                                                                  |
-| Sil                          | Seçili iş emrini silin.                                                                                                                                                                                                                                         |
+| Delete                          | Seçili iş emrini silin.                                                                                                                                                                                                                                         |
 | İş emri havuzu                 | Seçili iş emrini bir iş emri havuzuna ekleyin veya iş emri havuzundan kaldırın.                                                                                                                                                                                           |
 | Düzelt                          | Seçili iş emirlerinde beklenen başlangıç ve bitiş, hizmet düzeyi, sorumlu bakım görevlisi veya sorumlu bakım görevlisi grubu hakkındaki bilgileri ayarlayın.                                                                                                                                     |
 | İlgili iş emri              | Seçili iş emri işiyle ilgili yeni bir iş emri oluşturun. Birincil ve ikincil iş emirlerini kaydetmek istiyorsanız bu yararlıdır.                                                                                                                              |
-| İş emrini kopyala                 | Varolan bir iş emrine dayalı olarak yeni bir iş emri oluşturun.                                                                                                                                                                                                                |
-| Olay geçmişi                   | İş emrindeki kayıt geçmişini görüntüleyin.                                                                                                                                                                                                                |
-| İş emri bakım işi notları                           | Açıklama oluşturun, bir iş emrine bir notlar veya açıklamalar ekleyin. Nota kullanıcı adınızı ve zaman damgasu eklemek için **Zaman damgası ekle** düğmesini tıklatarak başlayın. Notlar **İş emri** formu > **Satır ayrıntıları** hızlı sekmesi > **Açıklama** sekmesinde görüntülenir. |
-| Araçlar                           | Bir iş emrinde gerekli araçların listesini oluşturun. Araçlar **Kuruluş Yönetimi** > **Genel** > **Kaynaklar** > **Kaynaklar**'da ayarlanır.                                                                                                      |
+| İş emrini kopyala                 | Varolan bir iş emrine dayalı olarak yeni bir iş emri oluşturun.                                                                                                                                                                                                               |
+| Olay geçmişi                   | İş emri için kayıt geçmişini görüntüleyin.                                                                                                                                                                                                                |
+| İş emri bakım işi notları                           | Bir iş emrinde açıklama oluşturun veya notlar veya açıklamalar ekleyin. Önce, nota kullanıcı adınızı ve zaman damgası eklemek için **Zaman damgası ekle**'yi seçin. Notlar **İş emri** sayfasının **Satır ayrıntıları** hızlı sekmesinin **Açıklama** sekmesinde gösterilir.         |
+| Araçlar                           | Bir iş emrinde gerekli araçların listesini oluşturun. Araçlar **Kuruluş yönetimi** > **Kaynaklar** > **Kaynaklar**'da ayarlanır.                                                                                                      |
 | Bakım denetim listesi           | İş emrine bağlı varlıkla ilgili denetim listesini görüntüleyin.                                                                                                                                                                                                              |
-| Kıymet hatası                     | Arıza yönetimi için kullanılacak bir varlıkla ilgili arıza bilgilerini görüntüleyin veya kaydedin.                                                                                                                                                                                        |
+| Kıymet hatası                     | Bir varlıkla ilgili arıza bilgilerini görüntüleyin veya kaydedin. Bu bilgiler arıza yönetimi için kullanılır.                                                                                                                                                                                      |
 | Bakım kesinti süresi            | Bir iş emri için bakım kesinti süresini belirtin.                                                                                                                                                                                                                               |
 | Koşul değerlendirme            | İş emri üzerinde koşul değerlendirmesi ölçümlerini kaydedin.                                                                                                                                                                                                             |
 | Varlık sayaçları                 | Varlıkta sayaç kaıtları oluşturun veya bu kayıtları görüntüleyin.                                                                                                                                                                                                                     |
 | Tahmin                        | Bir iş emrinde tahminleri görüntüleyin veya oluşturun.                                                                                                                                                                                                                               |
 | Günlükler                        | İş emri günlüklerini görüntüleyin veya oluşturun. Tahminden günlük satırları kopyalanabilir.                                                                                                                                                                                         |
 | Proje hareketleri            | Varlık için oluşturulan iş emirleriyle ilgili deftere nakledilen tüm hareketleri görüntüleyin.                                                                                                                                                                                             |
-| İş emri durumunu güncelleştirme                | İş emri yaşam döngüsü durumunu güncelleştirin.                                                                                                                                                                                                                                                |
-| Yaşam döngüsü durumu günlüğü                       | Seçili iş emrinin yaşam döngüsü durumlarını görüntüleyen günlük.                                                                                                                                                                                                                   |
+| İş emri durumunu güncelleştirme           | İş emri yaşam döngüsü durumunu güncelleştirin.                                                                                                                                                                                                                                                |
+| Yaşam döngüsü durumu günlüğü                      | Seçili iş emrinin yaşam döngüsü durumlarını gösteren günlüğü görüntüleyin.                                                                                                                                                                                                                   |
 | Varlık belgeleri                | Bir iş emriyle ilgili varlıklara iliştirilmiş belgelerin listesini görüntüleyin. Bu belgeler **Varlık yönetimi** > **Kurulum** > **Varlık belgeleri** altından ayarlanır.                                                                                                 |
 | Plan                        | Seçili iş emirlerini zamanlayın.                                                                                                                                                                                                                                      |
 | Gönder            | Bir çalışan için seçili iş emrini planlayın.                                                                                                                                                                                                                        |
@@ -109,8 +114,8 @@ Eylem bölmesindeki eylem bölmesi düğmeleri sekmeler halinde düzenlenmiştir
 | İş emri tüketimi          | Tüketim raporunu yazdırın.                                                                                                                                                                                                                                               |
 
 
-**İş emri** sekmesi > **Proje** grubundaki düğmeler **Proje yönetimi ve muhasebe** modülündeki tahminler, günlükler ve faturalama gibi işlevselliklerle ilişkilidir.
+Eylem Bölmesinin **İş emri** sekmesindeki **Proje** grubundaki düğmeler **Proje yönetimi ve muhasebe** modülünde tahminler, günlükler ve faturalama gibi işlevlerle ilişkilidir.
 
 >[!NOTE]
->Bir iş emrinde oluşturulan tahminler, **Varlık yönetimi parametreleri** formunda seçilen tahmin modeli kullanılarak Master planlama çalıştırılırken dahil edilebilir.
+>Bir iş emrinde oluşturulan tahminleri, Master planlama çalıştırılırken dahil etmek için **Varlık yönetimi parametreleri** sayfasında seçilen tahmin modelini kullanın.
 

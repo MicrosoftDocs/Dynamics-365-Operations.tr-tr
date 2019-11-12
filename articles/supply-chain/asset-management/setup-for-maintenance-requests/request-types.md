@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19d529df6c8aab036de59502b4f14101e1a07707
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 430e475b52638dd80512ffd79d42aac6f5f340e1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790549"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571151"
 ---
 # <a name="maintenance-request-types"></a>Bakım talebi türleri
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Bakım talebi türleri, bakım taleplerini kategorilere ayırmak için kullanılır. Örneğin, önleyici bakım ve düzeltici bakım ile ilgili bakım talebi türlerine sahip olabilirsiniz. Veya varlıkların onarımını yönetmek için kullanılan özel bir bakım talebi türü olabilir (depo onarımı).
 
@@ -44,4 +44,4 @@ Bakım talebi türü, bir bakım talebi yaşam döngüsü durumu grubu (bakım y
 
 Aşağıdaki çizimde bir **Bakım talebi türleri** liste sayfasının bir örneği gösterilmektedir.
 
-![Şekil 1](media/07-setup-for-requests.png)
+![Bakım talebi türleri sayfası](media/07-setup-for-requests.png)

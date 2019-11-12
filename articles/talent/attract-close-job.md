@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2010-07-10
 ms.dyn365.ops.version: Talent 2019 Wave 1 update
-ms.openlocfilehash: 632db42b12d0a442b8e1f35dbc784d252ffde399
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 6ef8fb23a31d47a335a395564265e5aa14abcc8d
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008628"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552106"
 ---
-# <a name="close-a-job"></a>İşi kapatma
+# <a name="close-a-job-in-microsoft-dynamics-talent---attract"></a>Microsoft Dynamics Talent - Attract'te bir işi kapatma
 
 [!include [banner](includes/banner.md)]
 

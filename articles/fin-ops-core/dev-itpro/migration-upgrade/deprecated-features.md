@@ -3,7 +3,7 @@ title: Finance and Operations için kaldırılan veya kullanımına son verilen 
 description: Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70bb8404c5b0e2422948d0b89311c384e3686710
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181094"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658702"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Finance and Operations için kaldırılan veya kullanımına son verilen özellikler
 
@@ -38,13 +38,42 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 > [!NOTE]
 > Platform güncelleştirmesi 8 ile Finance and Operations Temmuz 2017 sürümünden başlayarak, kaldırılan veya kullanımına son verilen her özellik için dağıtımların türü not edilmiştir. Bu konuda söz edilen önceki tüm sürümler yalnızca desteklenen bulut dağıtımlarıdır.
 
-> Finance and Operations içindeki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) altından ulaşabilirsiniz. Finance and Operations'ın her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+Finance and Operations içindeki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) altından ulaşabilirsiniz. Finance and Operations'ın her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
+## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7, Platform güncelleştirmesi 31 ile
+
+### <a name="chinese-voucher-types-without-account-groups-selection"></a>Hesap grupları seçimi içermeyen Çince fiş türleri
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Hesap grupları seçimine sahip özellik olarak değiştirildi. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 1 Aralık 2020 itibarıyla, Hesap grupları seçimi içermeyen Çince fiş türleri kurulumunu desteklememeyi planlıyoruz. 10.0.7'deki Yenilikler'de yeni özellik tasarımı hakkında daha fazla bilgi bulun |
 
 ## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6, Platform güncelleştirmesi 30 ile
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.6 Platform Güncelleştirmesi 30 ile, bir önizleme sürümünün parçası olarak çeşitli kullanıcılara sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Windows,  [SHA1 Sertifikaları için Windows Uygulaması](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx)'nda belgelendiği gibi  SHA1'i kullanımın dışı bırakıyor.  |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 1 Nisan 2020 itibarıyla geliştiricilerin yeni API'yı kullanmaları gerekiyor. |
+
+### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(dize iletisi)
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Windows,  [SHA1 Sertifikaları için Windows Uygulaması](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx)'nda belgelendiği gibi  SHA1'i kullanımın dışı bırakıyor.  |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Platform |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 1 Nisan 2020 itibarıyla geliştiricilerin yeni API'yı kullanmaları gerekiyor. |
+
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
@@ -308,7 +337,7 @@ Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakıl
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise edition 7.3, Platform güncelleştirmesi 12 ile
 
 ### <a name="personalized-product-recommendations"></a>Kişiselleştirilmiş ürün önerileri 
-15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Kişiselleştirilmiş ürün önerileri](../../retail/personalized-product-recommendations.md).  
+15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Ürün önerilerine genel bakış](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -413,7 +442,7 @@ Kullanıcılar bu formu resmi devlet portalından indirebilir.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Kişiselleştirilmiş ürün önerileri 
-15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Kişiselleştirilmiş ürün önerileri](../../retail/personalized-product-recommendations.md).  
+15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Ürün önerilerine genel bakış](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -445,7 +474,7 @@ Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için ama�
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tekrar eden işlevsellik.       |
-| **Başka bir özellik ile değiştirildi?**   | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşullar hakkında daha fazla bilgi için bkz. [Yükleme ve yapılandırma Microsoft Dynamics 365 for Finance and Operations - Ambarlama](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Başka bir özellik ile değiştirildi?**   | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşullar hakkında daha fazla bilgi için bkz. [Yükleme ve yapılandırma Microsoft Dynamics 365 for Finance and Operations - Ambarlama](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Etkilenen ürün alanları**         | Ambar yönetimi, Taşıma yönetimi     |
 | **Dağıtım seçeneği**              | Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için amaçlanmış bir tek bileşendir.               |
 | **Durum**                         | Kaldırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 2019 yılı 4. çeyreğidir.   |
@@ -1215,7 +1244,7 @@ Stok ve Ambar günlükleri, günlüğün seçili kullanıcı için özel olarak 
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ürün Oluşturucu X ++ kodunu son kullanıcılara yansıtıyordu ve Dynamics AX'ın geçerli sürümünde desteklenmiyor. Büyük ve kesişen kod tabanlarında sürdürme çabalarının ikiye katlanmaması için kaldırıldı.  |
-| **Başka bir özellik ile değiştirildi?**   | Evet. Kısıtlama tabanlı yapılandırma Dynamics AX 2012'de sunuldu ve Ürün oluşturucunun gelecekteki sürümlerde kullanımdan kaldırılacağı zaten açıklandı. Kısıtlama tabanlı yapılandırma teknolojisi yapılandırmayı etkinleştirmek ana ürünlerde seçilir. Daha fazla bilgi için bkz. [Ürün yapılandırma modeli oluşturma](../../supply-chain/pim/build-product-configuration-model.md). |
+| **Başka bir özellik ile değiştirildi?**   | Evet. Kısıtlama tabanlı yapılandırma Dynamics AX 2012'de sunuldu ve Ürün oluşturucunun gelecekteki sürümlerde kullanımdan kaldırılacağı zaten açıklandı. Kısıtlama tabanlı yapılandırma teknolojisi yapılandırmayı etkinleştirmek ana ürünlerde seçilir. Daha fazla bilgi için bkz. [Ürün yapılandırma modeli oluşturma](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Etkilenen ürün alanları**         | Ürün bilgileri yönetimi, satış ve pazarlama  |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.      |
 

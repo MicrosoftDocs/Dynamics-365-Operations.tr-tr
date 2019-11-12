@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 84cada71937604c013dbaaa47435015e63203595
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547457"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552222"
 ---
-# <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Temizlik ilkeleri kullanarak hammadde tüketimini kontrol etme
+# <a name="flushing-principles"></a>Otomatik tüketim kuralları
 
 [!include [banner](../includes/banner.md)]
 

@@ -3,7 +3,7 @@ title: Tedarik
 description: Bu konuda Kıymet Yönetimi'ndeki tedarikleri açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,85 +16,87 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1678dbe2432e4be46aebb40a12e73dfd695c3e77
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: ec14f645af5dfdb3e840624e4cec95c46cfbbc25
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875943"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626443"
 ---
 # <a name="procurement"></a>Tedarik
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+Varlık Yönetiminde, iş emirleriyle ilgili satınalma taleplerinin ve satınalma siparişlerinin genel görünümünü alabilirsiniz. Bir iş emrinden bir satınalma siparişi veya satınalma talebi de oluşturabilirsiniz.
 
-Kıymet yönetiminde, iş emirleriyle ilgili satınalma taleplerinin ve satınalma siparişlerinin genel görünümünü alabilirsiniz. Bir iş emrinden bir satınalma siparişi veya satınalma talebi de oluşturulabilir.
+**İş emri satınalma talebi** liste sayfası (**Varlık yönetimi** > **Ortak** > **Tedarik** > **İş emri satınalma talebi**), iş emirleriyle ilgili satınalma taleplerinin listesini görüntüler. Bu sayfada bir iş emri işi seçtiğinizde, çeşitli eylemleri gerçekleştirmek için **İş emri satınalma talebi** Eylem bölmesi sekmesindeki **Göster** grubunda bulunan düğmeleri kullanabilirsiniz:
 
-**İş emri satınalma talebi** listesinde (**Kıymet yönetimi** > **Ortak** > **Tedarik** > **İş emri satınalma talebi**), iş emirleriyle ilgili satınalma taleplerinin listesini görürsünüz.
+- İlgili satınalma talebini açmak için **Satınalma talebi** seçeneğini belirleyin. 
+- İlgili iş emrini açmak için **İş emri**'ni seçin.
+- Seçilen satırdaki maddenin Varlık Yönetiminde varlıklar, bakım işi türü varsayılanları, yedek parçalar ve iş emirleriyle ilişkili olarak nerede kullanıldığıyla ilgili genel bir bakış edinmek için **Maddenin kullanıldığı yer**'i seçin. Bu genel bakış hakkında daha fazla bilgi için bkz. [Maddenin kullanıldığı yer](../controlling-and-reporting/item-where-used.md).
 
-- **İş emri satınalma talebi** listesinden bir iş emri işi seçin ve ilgili satınalma talebini açmak için **Satınalma talebi** düğmesine tıklayın.  
-- **İş emri satınalma talebi** listesinden bir iş emri işi seçin ve ilgili iş emrini açmak için **İş emri** düğmesine tıklayın.  
-- **İş emri satınalma talebi** listesinde bir iş emri seçin ve seçili satırdaki öğenin Kıymet Yönetimi'nde kıymetler, bakım işi türü varsayılanları, yedek parçalar ve iş emirleri ile ilgili olarak nerede kullanıldığına ilişkin bir genel bakış elde etmek için **Kullanıldığı madde**'ye tıklayın. 
+Aşağıdaki şekilde **İş emri satınalma talebi** liste sayfası örneği gösterilmektedir.
 
 ![Şekil 1](media/08-work-orders.png)
 
 
-**İş emri satınalma talebi** listesinde (**Kurumsal varlık yönetimi** > **Ortak** > **Tedarik** > **İş emri satınalma talebi**), iş emirleriyle ilgili satınalma siparişlerimim listesini görürsünüz.
+**İş emri satınalma** liste sayfası (**Varlık yönetimi** > **Ortak** > **Tedarik** > **İş emri satınalma talebi**), iş emirleriyle ilgili satınalma siparişlerinin listesini görüntüler. Bu sayfada bir iş emri işi seçtiğinizde, çeşitli eylemleri gerçekleştirmek için Eylem bölmesindeki **İş emri satınalma** sekmesinde bulunan **Göster** grubunda bulunan düğmeleri kullanabilirsiniz:
 
-- **İş emri satınalma** listesinden bir iş emri işi seçin ve ilgili satınalma emrini açmak için **Satınalma emri** düğmesine tıklayın.  
-- **İş emri satınalma** listesinden bir iş emri işi seçin ve ilgili iş emrini açmak için **İş emri** düğmesine tıklayın.  
-- **İş emri** satınalma listesinde bir iş emri seçin ve seçili satırdaki öğenin Kıymet Yönetimi'nde kıymetler, bakım işi türü varsayılanları, yedek parçalar ve iş emirleri ile ilgili olarak nerede kullanıldığına ilişkin bir genel bakış elde etmek için **Kullanıldığı madde**'ye tıklayın. 
+- İlgili satınalma sipairşini açmak için **Satınalma siparişi**'ni seçin. 
+- İlgili iş emrini açmak için **İş emri**'ni seçin.
+- Seçilen satırdaki maddenin Varlık Yönetiminde varlıklar, bakım işi türü varsayılanları, yedek parçalar ve iş emirleriyle ilişkili olarak nerede kullanıldığıyla ilgili genel bir bakış edinmek için **Maddenin kullanıldığı yer**'i seçin. Bu genel bakış hakkında daha fazla bilgi için bkz. [Maddenin kullanıldığı yer](../controlling-and-reporting/item-where-used.md).
+
+Aşağıdaki şekilde **İş emri satınalma** liste sayfası örneği gösterilmektedir.
 
 ![Şekil 2](media/09-work-orders.png)
 
 
-Yukarıda gösterilen listelerde, teslimat tarihi denetimiyle ilgili bir simge her satırın sağına yerleştirilir. Simge kırmızı daire içinde bir ünlem işareti gösteriyorsa, ilgili satınalma talebinde veya satınalma siparişinde teslimat gecikebilir.
+Hem **İş emri satınalma** listesi sayfasında, hem de **İş emri satınalma talebi** liste sayfasında, her satırın sağ tarafında teslimat tarihi denetimiyle ilişkili bir simge görüntülenir. Simge kırmızı daire içinde bir ünlem işareti gösteriyorsa, ilgili satınalma talebinde veya satınalma siparişinde teslimat gecikebilir.
 
-Bir satınalma talebinde, olası gecikmeyi hesaplamak için kullanılan tarih **Satınalma talepleri** form > **Satınalma talebi başlığı** hızlı sekme > **Talep tarihi** alanında bulunur. Bu tarih, satınalma siparişi tarihiyle aynı şekilde iş emri veya iş emri işinde kullanılabilir tarihle karşılaştırılır.
+Satınalma siparişi için, satınalma siparişi satırı ile ilgili tarih, olası bir gecikmeyi hesaplamak üzere kullanılır. Bu tarihi görüntülemek için **Satınalma siparişi** sayfasında satınalma siparişi satırını seçin. Tarih, **Satır ayrıntıları** hızlı sekmesinin **Kurulum** sekmesindeki **Onaylanan teslimat tarihi** alanında gösterilir. **Onaylanan teslimat tarihi** alanı ayarlanmamışsa, **Satınalma siparişi başlığı** hızlı sekmesindeki **Teslimat tarihi** alanında bulunan tarih, hesaplama için kullanılır. Bu tarihlerden biri, iş emri veya iş emri işindeki mevcut tarihle aşağıdaki sırayla karşılaştırılır:
 
-Bir satınalma siparişinde, olası gecikmeyi hesaplamak için kullanılan tarih, **Satınalma siparişi** form > satınalma sipariş satırı seçme > **Satır ayrıntıları** Hızlı sekme > **Kurulum** sekme > **Onaylanan teslimat tarihi** alanında gösterilen satınalma siparişi satırıyla ilgili tarihtir. Bu alan doldurulmamışsa **Satınalma siparişi başlığı** hızlı sekmesindeki **Teslim tarihi** alanında bulunan tarih kullanılır. Bu tarihlerden biri, iş emri veya iş emri işindeki mevcut tarihle aşağıdaki sırayla karşılaştırılır:
+1. İş emri üzerindeki gerçek başlangıç tarihi  
 
-- İş emri üzerindeki gerçek başlangıç tarihi veya  
+2. İlgili iş emri işi üzerinde planlanan başlangıç tarihi 
 
-- İlgili iş emri işi üzerinde planlanan başlangıç tarihi veya  
+3. İş emri üzerindeki zamanlanan başlangıç tarihi 
 
-- İş emri üzerindeki zamanlanan başlangıç tarihi veya  
+4. İş emri üzerindeki beklenen başlangıç tarihi 
 
-- İş emri üzerindeki beklenen başlangıç tarihi  
+Bir satınalma talebi için, **Satınalma talepleri** sayfasının **Satınalma talebi başlığı** hızlı sekmesindeki **Talep tarihi** alanında bulunan tarih olası gecikmeyi hesaplamak için kullanılır. Bu alandaki tarih, satınalma siparişi için kullanılan aynı sırayla iş emri veya iş emri işinde kullanılabilir tarihle karşılaştırılır.
 
 
-## <a name="create-purchase-order-from-a-work-order"></a>İş emri satınalma siparişi oluşturma
+## <a name="create-a-purchase-order-from-a-work-order"></a>İş emrinden satınalma siparişi oluşturma
 
-**Tüm iş emirleri**'nde, bir iş emri işi seçer ve ilgili satınalma siparişi veya satınalma talebini oluşturursunuz. Bu işlem, satınalma siparişi veya satınalma talebi ile çalışma siparişi arasında proje ilişkileri sağlamak için yapılır.
+**Tüm iş emirleri**liste sayfasında, bir iş emri işi seçip ilgili satınalma siparişi veya satınalma talebini oluşturabilirsiniz. Bu şekilde, satınalma siparişi veya satınalma talebi ile iş emri arasında proje ilişkileri olmasını sağlamaya yardımcı olursunuz.
 
-1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ne tıklayın.
+1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.
 
-2. **Tüm iş emirleri** veya **Etkin iş emirleri** listesinde, satınalma siparişi oluşturmak istediğiniz iş emrini seçin ve **Düzenle**'ye tıklayın.
+2. Satınalma siparişi oluşturmak için iş emrini seçin ve sonra **Düzenle**'yi seçin.
 
-3. **İş emri** formu > **İş emri bakım işleri** hızlı sekmesinde, satınalma siparişi oluşturmak istediğiniz iş emri işini seçin.
+3. **İş emri bakım işleri** hızlı sekmesinde, satınalma siparişi oluşturmak istediğiniz iş emri işini seçin.
 
-4. **Madde görevleri** > **İş emri işinden satınalma siparişi**'ne tıklayın.
+4. **Madde görevleri** > **İş emri işinden satınalma siparişi**'ni seçin.
 
-5. **Proje satınalma siparişleri** listesi sayfasında, **Yeni**'ye tıklayın.
+5. **Proje satınalma siparişleri** liste sayfasında, **Yeni**'ye tıklayın.
 
 6. Satınalma siparişi oluşturun.
 
 >[!NOTE]
->Satınalma talebi oluşturmak, bir satınalma siparişi oluşturmakla neredeyse aynıdır. Yukarıdaki yordamda, adım 2'de iş siparişi işinden **Madde görevleri** > **Bir iş emri işinden satınalma siparişi**'ne tıklayın.
+>İlgili satınalma talebi oluşturmak için aynı adımları izleyin. Ancak, adım 4'te **Madde görevleri** > **İş emri işinden satınalma talebi**'ni seçin.
+
 
 ## <a name="project-relation-between-work-order-and-purchase-order-or-purchase-requisition"></a>İş siparişi ve satınalma siparişi veya satınalma talebi arasındaki proje ilişkisi
 
-Satınalma siparişi satırı veya satınalma talebi satırı, iş emri ile ilgili proje faaliyet numarası aracılığıyla iş emri işiyle ilgilidir. Bir iş emri işinden satınalma siparişi veya satınalma talebi oluşturduğunuzda, ilgili proje faaliyet numarası zorunludur. İlgili iş emri aynı bakım işi türünü kullanan iş siparişi işlerini içeriyorsa, proje faaliyet numarası bir satınalma siparişine veya satınalma talebine otomatik olarak eklenir. İş emri işleri farklı bakım işi tipleri içeriyorsa, proje faaliyet numarası el ile eklenmelidir.
+Satınalma siparişi satırı veya satınalma talebi satırı, iş emri ile ilgili proje faaliyet numarası aracılığıyla iş emri işiyle ilgilidir. Bir iş emri işinden satınalma siparişi veya satınalma talebi oluşturduğunuzda, ilgili proje faaliyet numarası zorunludur. İlgili iş emrindeki tüm iş emri işler aynı bakım işi türüne sahipse, proje faaliyet numarası bir satınalma siparişine veya satınalma talebine otomatik olarak eklenir. İş emri işleri farklı bakım işi türlerine sahipse, proje faaliyet numarasını bir satınalma siparişine veya satınalma talebine el ile girmeniz gerekir.
 
-Bir satınalma siparişi satırı ile ilgili faaliyet numarasını görmek veya eklemek için **İş emri satın alma** > satınalma siparişi kaydını seçin > **Satınalma siparişi** sütununda > **Satır ayrıntıları** hızlı sekmesinde > **Proje** sekmesinde > **Etkinlik numarası** alanındaki satınalma siparişine tıklayın.
+Bir satınalma siparişi satırıyla ilişkili faaliyet numarasını görüntülemek veya girmek için **İş emri satınalma** liste sayfasında satınalma siparişi kaydını seçin ve ardından **Satınalma siparişi** sütununda, satınalma siparişi bağlantısını seçin. **Satır ayrıntıları** hızlı sekmesinin **Proje** sekmesinde **Faaliyet numarası** alanını bulabilirsiniz.
 
+Aşağıdaki örnekte **Faaliyet numarasına** odaklanılmış **Satınalma siparişi** sayfası örneği gösterilmektedir.
 
 ![Şekil 3](media/10-work-orders.png)
 
-
-Benzer şekilde bir iş emrisatınalma talebi satırı ile ilgili faaliyet numarasını görmek veya eklemek için **İş emri satın alma talebi** > satınalma siparişi kaydını seçin > **Satınalma talebi** sütununda > **Satır ayrıntıları** hızlı sekmesinde > **Proje** sekmesinde > **Etkinlik numarası** alanındaki satınalma talebine tıklayın.
+Benzer şekilde, bir siş emri satınalma talebi satırıyla ilgili faaliyet numarasını görüntülemek veya girmek için **İş emri satınalma talebi** liste sayfasında satınalma talebi kaydını seçin ve ardından **Satınalma talebi** sütununda, satınalma talebi bağlantısını seçin. **Satır ayrıntıları** hızlı sekmesinin **Proje** sekmesinde **Faaliyet numarası** alanını bulabilirsiniz.
 

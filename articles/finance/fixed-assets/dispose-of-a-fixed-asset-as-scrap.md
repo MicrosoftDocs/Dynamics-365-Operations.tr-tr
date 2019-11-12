@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: de105e061712540fc8e3d720a65c029f865b8948
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 42eaa3df5ab09278ed96506d17e1b42d4fc2a9e1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187303"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570276"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Sabit kıymeti hurda olarak elden çıkarma
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konu, hurda olarak elden çıkarılan bir sabit kıymet için hareketleri eleme sürecini açıklar. Elenebilecek hareket tipleri bir kıymetin alımını ve birikmiş amortisman hareketlerini ve diğer sabit kıymet hareketlerini içerir. Bu hareketlerin elenmesi alım düzeltmesi, amortisman ayarlaması, yeniden değerleme, değer artırma ve değer azaltma hesapları gibi bilanço hesaplarını etkiler.
 
