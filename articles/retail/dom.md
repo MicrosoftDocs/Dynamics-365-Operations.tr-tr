@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
-ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
+ms.openlocfilehash: 10d894bb65031741a5ec8365f7f8db76b58ab334
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578496"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693124"
 ---
 # <a name="distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM)
 
@@ -39,7 +39,7 @@ Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döng�
 
 ![DOM bağlamında satış siparişi yaşam döngüsü](./media/flow.png "DOM bağlamında satış siparişi yaşam döngüsü")
 
-## <a name="set-up-dom"></a>DOM'yi ayarlama
+## <a name="set-up-dom"></a>DOM'u ayarlama
 
 1. **Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin.
 2. **Yapılandırma anahtarları** sekmesinde **Perakende** düğümünü genişletin ve ardından **Dağıtılmış Sipariş Yönetimi** onay kutusunu seçin.
@@ -177,9 +177,9 @@ DOM, işleme anında sipariş ve sipariş satırlarını burada açıklandığı
 
 - Beklemede olmayan siparişler
 
-DOM, kuralları, stok kısıtlamalarını ve iyileştirmeleri uyguladıktan sonra müşterinin teslimat adresine en yakın konumu seçer.
+DOM kuralları, stok kısıtlamalarını ve iyileştirmeleri uyguladıktan sonra müşterinin teslimat adresine en yakın konumu seçer.
 
-![Satış siparişi ölçütleri](./media/ordercriteria.png "Satış siparişi ölçütleri")
+![Satış siparişi ölçütü](./media/ordercriteria.png "Satış siparişi ölçütü")
 
 ## <a name="results-of-dom-runs"></a>DOM çalıştırma işlemlerinin sonuçları
 
@@ -232,4 +232,4 @@ DOM özelliğini kullanırken dikkate almanız gereken bazı şeyler aşağıda 
 
 - DOM şu anda yalnızca perakende kanallarından oluşturulan siparişlere bakmaktadır. Satış siparişleri, **Perakende satış** seçeneği **Evet** olarak ayarlandığında perakende satış siparişleri olarak tanımlanır.
 - Microsoft, DOM'yi ileri düzey ambar yönetimi özellikleriyle test etmemiştir. Müşteriler ve iş ortakları, DOM'nin ileri düzey ambar yönetimi özellikleri ve bunlara ilgili işlemlerle uyumlu olup olmadığını belirlemek için dikkatli olmalıdır.
-- DOM, yalnızca Retail'ın bulut sürümünde kullanılabilir. Şirket içi dağıtımlarda desteklenmez.
+- DOM, yalnızca Retail'in bulut sürümünde kullanılabilir. Şirket içi dağıtımlarda desteklenmez.

@@ -8,6 +8,14 @@
         - name: Talent'taki yenilikler veya değişiklikler
           href: whats-new.md
           items:
+            - name: 19 Kasım 2019
+              href: whats-new-talent-november-19-2019.md
+            - name: 12 Kasım 2019
+              href: whats-new-talent-november-12-2019.md
+            - name: 5 Kasım 2019
+              href: whats-new-talent-november-5-2019.md
+            - name: 29 Ekim 2019
+              href: whats-new-talent-oct-29-2019.md
             - name: 23 Ekim 2019
               href: whats-new-talent-october-23-2019.md
             - name: 8 Ekim 2019
@@ -26,18 +34,18 @@
               href: whats-new-talent-august-15-2019.md
             - name: 6 Ağustos 2019
               href: whats-new-talent-august-7-2019.md
-            - name: 30 Temmuz 2019
-              href: whats-new-talent-july-31-2019.md
-            - name: 23 Temmuz 2019
-              href: whats-new-talent-july-24-2019.md
-            - name: 16 Temmuz 2019
-              href: whats-new-talent-july-16-2019.md
-            - name: 9 Temmuz 2019
-              href: whats-new-talent-july-9-2019.md
-            - name: 2 Temmuz 2019
-              href: whats-new-talent-july-2-2019.md
             - name: Yeniliklere ilişkin arşivler 2019
               items:
+                - name: 30 Temmuz 2019
+                  href: whats-new-talent-july-31-2019.md
+                - name: 23 Temmuz 2019
+                  href: whats-new-talent-july-24-2019.md
+                - name: 16 Temmuz 2019
+                  href: whats-new-talent-july-16-2019.md
+                - name: 9 Temmuz 2019
+                  href: whats-new-talent-july-9-2019.md
+                - name: 2 Temmuz 2019
+                  href: whats-new-talent-july-2-2019.md
                 - name: 25 Haziran 2019
                   href: whats-new-talent-june-25-2019.md
                 - name: 18 Haziran 2019
@@ -116,10 +124,14 @@
                   href: whats-new-talent-august2018.md
                 - name: Temmuz 2018
                   href: whats-new-talent-july2018.md
-        - name: Sistem gereksinimleri ve güncelleştirme ilkesi
+        - name: Sistem gereksinimleri
           href: talent-versions-update-policy.md
+        - name: Talent güncelleştirmeleri
+          href: talent-updates.md
         - name: Talent sağlama
           href: provisioning-talent.md
+        - name: Bir Core HR kurulumunu kopyalama
+          href: hr-copy-instance.md
         - name: Talent ortamlarını kaldırma
           href: remove-talent-environment.md
         - name: Onboard uygulaması için sağlama
@@ -323,7 +335,7 @@
                   href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: 'Servis talebi güvenliğini, işlemlerini ve kategorilerini planlama'
                   href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Belge yönetimi yapılandırma
+            - name: Belge yönetimini yapılandırma
               href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: E-posta yapılandırma ve gönderme
               href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -439,9 +451,21 @@
           href: extensibility-attract.md
         - name: Core HR'deki özel alanlar
           href: corehr-custom-fields.md
+        - name: Varlık API referansı
+          items:
+            - name: Kimlik doğrulama
+              href: api-odata-authentication.md
+            - name: Varlıklar
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: MyLeaveRequests genel bakış
+                      href: api-myleaverequests-overview.md
+                    - name: Bir izin isteğini iş akışına gönderme
+                      href: api-myleaverequests-submit.md
     - name: Talent'ta sorun giderme
       items:
-        - name: Otomatik temizleme görevleriyle performansı optimize etme
+        - name: Otomatik temizleme görevleriyle performansı en iyi duruma getirme
           href: talent-batch-history-cleanup.md
         - name: LinkedIn'de iş yayınlama sorunlarını giderme
           href: attract-troubleshoot-linkedin.md

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92fec444834be8ca4943932730b94beb8a1902e7
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536859"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771576"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>İş zekası (BI) ve raporlama giriş sayfası
 
@@ -48,7 +48,7 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 - [Power BI Embedded tümleştirmesi](power-bi-embedded-integration.md)
 - [Power BI Embedded kullanarak çalışma alanlarına analiz ekleme](add-analytics-tab-workspaces.md)
 - [Power BI Embedded kullanarak analiz çalışma alanlarını ve raporlarını güvenlik altına almaya yardımcı olma](secure-analytical-workspaces.md)
-- [Finance and Operations için Power BI içeriği](power-bi-home-page.md)
+- [Power BI içeriği giriş sayfası](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>İş belgeleri ve yazdırma
 Raporlama çözümleri genellikle iş hareketlerini yakalamak ve ayrıntılarını iletmek için kullanılır. Bu nedenle bir raporlama çözümünün ağ yazıcıları gibi mevcut cihazları kullanarak iş verilerinin fiziksel sunumunu oluşturabiliyor olması gerekir. Satış faturaları, müşteri ekstreleri ve çekler iş belgelerine örnek olarak verilebilir.
@@ -57,9 +57,9 @@ Raporlama çözümleri genellikle iş hareketlerini yakalamak ve ayrıntıların
 
 Daha fazla bilgi için aşağıdaki konulara bakın:
 
-- [Belge Raporlama Hizmetleri'ne genel bakış](document-reporting-services.md)
-- [Finance and Operations uygulamalarında yazdırma](print-documents.md)
-- [Ağ yazıcısı cihazlarını etkinleştirmek için Belge Rota Aracısı'nı yükleme](install-document-routing-agent.md)
+- [Belge Raporlama Hizmetleri](document-reporting-services.md)
+- [Belge yazdırmaya genel bakış](print-documents.md)
+- [Ağdan yazdırmayı etkinleştirmek için Belge Yönlendirme Aracısı'nı yükleme](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Elektronik raporlama
 Elektronik raporlama (ER) çeşitli ülkelerin veya bölgelerin yasal gereksinimlerine uyumlu elektronik belge biçimleri yapılandırmak için kullanabileceğiniz araçtır. Elektronik raporlama uygulamalarından bazıları mali denetim, vergi raporlama ve elektronik faturalamadır.
@@ -68,9 +68,9 @@ Elektronik raporlama (ER) çeşitli ülkelerin veya bölgelerin yasal gereksinim
 
 Daha fazla bilgi için aşağıdaki konulara bakın:
 
-- [Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
-- [Elektronik raporlama yapılandırması yaşam döngüsünü yönetme](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [Elektronik raporlama yapılandırması oluşturma](electronic-reporting-configuration.md)
+- [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
+- [Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Elektronik raporlama (ER) yapılandırmaları oluşturma](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Mali raporlama
 Standart mali raporlar, varsayılan ana hesap kategorilerini kullanabilecek şekilde sağlanır. Rapor tasarımcısını gelir tablosu ve bilanço gibi geleneksel mali tabloları oluşturmak veya değiştirmek için kullanabilirsiniz. Böylece sonuçları kuruluşunuzun diğer üyeleriyle paylaşabilirsiniz. Bilançolar, nakit akışı ve yıllara göre özet mizan mali raporlama örnekleridir.
@@ -79,14 +79,14 @@ Standart mali raporlar, varsayılan ana hesap kategorilerini kullanabilecek şek
 
 Daha fazla bilgi için aşağıdaki konulara bakın:
 
-- [Finance and Operations için mali raporlama](financial-reporting-intro.md)
-- [Mali rapor oluşturma](generate-financial-report.md)
+- [Mali raporlama](financial-reporting-intro.md)
+- [Mali raporlar oluşturma](generate-financial-report.md)
 - [Mali rapor bileşenleri](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>Teknik referans raporları
 Aşağıdaki raporlar nesneler hakkında referans bilgileri sağlar:
 
-- [Veri varlıkları raporu](../data-entities/data-entities-report.md)
+- [Standart veri varlıkları hakkında bilgileri bulma](../data-entities/data-entities-report.md)
 - [Lisans kodları ve yapılandırma anahtarları raporu](../sysadmin/license-codes-configuration-keys-report.md)
-- [SQL Server Reporting Services raporları raporu](SSRS-report.md)
+- [Kullanılabilir SQL Server Reporting Services (SSRS) raporları](SSRS-report.md)
 - [İş akışı türleri raporu](../../fin-ops/organization-administration/workflow-types-report.md)

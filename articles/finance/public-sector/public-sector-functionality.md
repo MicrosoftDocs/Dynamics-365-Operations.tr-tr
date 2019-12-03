@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5493c46183e7b599e82153f5b3ac36c81faa4955
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f850b28c4d6ed6ce13438f4de87ef0c04065c7f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174708"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770245"
 ---
 # <a name="public-sector-home-page"></a>Kamu sektörü giriş sayfası
 
@@ -38,17 +38,17 @@ Kamuya hizmet veren kuruluşların kurallara, düzenlemelere ve raporlama gerekl
 - Geçici bütçeler, kar dağıtımları ve taahhütler.
 - Faturalama kodları, faturalama sınıflandırmaları, ticaret ortağı kodları ve serbest yazılı raporlar için özel alanlar.
 - Satın alma emirlerinde engelleri ve taahhütleri içeren defteri kebir yıl sonu işlemleri.
-- Satıcılara elektronik ödemeler, ödeme raporları için imza sayfaları ve fatura ödeme geciktirmeleri.
+- Satıcılara elektronik ödemeler, ödeme raporları için imza sayfaları ve fatura ödeme tutmaları.
 
   Daha fazla bilgi edinmek için aşağıdaki konulara bakın:
 
 - [Kamu sektörü işlevi için planlama](plan-public-sector-functionality.md)
-- [Kamu sektöründe borç hesapları](accounts-payable-public-sector.md)
-- [Kamu sektöründe alacak hesapları](accounts-receivable-public-sector.md)
-- [Kamu sektöründe bütçeleme](budgeting-public-sector.md)
+- [Kamu sektöründe borç hesaplarına genel bakış](accounts-payable-public-sector.md)
+- [Kamu sektöründe alacak hesaplarına genel bakış](accounts-receivable-public-sector.md)
+- [Kamu sektöründe bütçelemeye genel bakış](budgeting-public-sector.md)
 - [Kamu sektöründe sabit kıymetler](fixed-asset-public-sector.md)
-- [Fransız düzenleme özellikleri](../localizations/emea-fra-public-sector-accounting.md)
-- [Kamu sektöründe genel muhasebe](general-ledger-public-sector.md)
+- [Fransa'da kamu sektörü muhasebesi](../localizations/emea-fra-public-sector-accounting.md)
+- [Kamu sektöründe genel muhasebeye genel bakış](general-ledger-public-sector.md)
 - [Kamu sektöründe tedarik ve kaynak atama](procurement-sourcing-public-sector.md)
 - [Kamu sektöründe güvenlik rolleri](security-roles-public-sector.md)
 
@@ -64,7 +64,7 @@ Aşağıdaki tabloda bu yapılandırma anahtarının diğer yapılandırma anaht
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ayrıntı** | **Açıklama**                                                                                                                                                                                                     |
 | Ana anahtar | Hiçbiri                                                                                                                                                                                                                |
-| Alt anahtarlar | **Gelişmiş genel muhasebe girişi** yapılandırma anahtarı (AdvancedLedgerEntry) **Kamu sektörü 1099G** yapılandırma anahtarı (Tax1099G) **Kamu sektörü 1099S** yapılandırma anahtarı (Tax1099S) **Fransız düzenlemeleri** yapılandırma anahtarı |
+| Alt anahtarlar | **Gelişmiş genel muhasebe girişi** yapılandırma anahtarı (AdvancedLedgerEntry) **Kamu sektörü 1099G** yapılandırma anahtarı (Tax1099G) **Kamu sektörü 1099S** yapılandırma anahtarı (Tax1099S) **Fransa mevzuatı** yapılandırma anahtarı |
 
 
 <a name="additional-resources"></a>Ek kaynaklar

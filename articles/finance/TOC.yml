@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Önizleme abonelikleri için kaydolma
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: Müşteri ödeme öngörüleri (önizleme)
+              href: accounts-receivable/payment-insights-overview.md
             - name: Bir Sürüm hizmet güncelleştirmeleri
               items:
                 - name: Bir Sürüm hizmet güncelleştirmelerine genel bakış
@@ -2239,6 +2241,8 @@
                       href: localizations/rus-currency-sale-purchase.md
                     - name: Kasa
                       href: localizations/emea-petty-cash.md
+                    - name: Nakit - Yerel birincil formlar ve birleşik raporlar
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: KDV
                   items:
                     - name: Satış KDV'sinin yerel olarak özel deftere nakil işlemi
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: Ön ödeme yönetimi
                       href: localizations/rus-prepayments-management.md
+                    - name: Gelen KDV iadesi
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: Sabit kıymetler
                   items:
                     - name: Sabit kıymetleri yönetme
@@ -2313,6 +2319,14 @@
                       href: localizations/rus-cash-flow.md
                     - name: Sair masrafların ağırlığa ve hacme göre tahsisatı
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: Üçüncü taraf sair masraflar
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: Stok
+                  items:
+                    - name: Satıcıdan alınan transitteki mallar
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: Gümrük beyannamesi numaraları
+                      href: localizations/rus-custom-declaration-number.md
                 - name: Raporlama
                   items:
                     - name: Mali raporlama
@@ -2335,6 +2349,8 @@
                       href: localizations/rus-officials.md
                     - name: Şirket bölümleri
                       href: localizations/rus-company-divisions.md
+                    - name: Rusça adres biçimleri ve FIAS'dan içe aktarma
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: Ertelemeler
                   items:
                     - name: Ertelemeleri ayarlama
@@ -2551,7 +2567,7 @@
                   href: ../talent/skills.md?toc=/dynamics365/finance/toc.json
                 - name: Eğitim kursları ayarlama
                   href: ../talent/courses.md?toc=/dynamics365/finance/toc.json
-            - name: Kazançlar oluşturma ve koruma
+            - name: Kazanç oluşturma ve koruma
               items:
                 - name: Kazanç programını yönetme
                   href: ../talent/manage-benefit-program.md?toc=/dynamics365/finance/toc.json
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Yapılandırmaları RCS'den içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Eğitimler
+                  items:
+                    - name: Elektronik raporlama (ER model) eşlemelerinde birden çok uygulama tablosundan veri almak için BİRLEŞTİRME veri kaynaklarını kullanma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: Ülke bağlamına bağımlı ER model eşlemeleri yapılandırma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: Finance and Operations'ta Elektronik raporlama çözümlerini kullanma
                   items:
                     - name: Altyapıyı yapılandırma
@@ -2903,7 +2925,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: İş belgesi yönetimine genel bakış
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                - name: ER altyapısı API'sı
+                    - name: Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
+                - name: ER çerçevesi API'sı
                   items:
                     - name: Elektronik raporlama işlev listesini genişletme
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
@@ -3137,7 +3161,7 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/finance/toc.json
                 - name: Yeni kayıt oluşturmak için kayıt şablonu kullanma
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/finance/toc.json
-            - name: Belge yönetimi yapılandırma
+            - name: Belge yönetimini yapılandırma
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/finance/toc.json
             - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/finance/toc.json

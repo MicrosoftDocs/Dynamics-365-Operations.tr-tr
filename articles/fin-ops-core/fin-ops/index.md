@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17774053badb00cc464c34c7c90194a26839cc7d
-ms.sourcegitcommit: 807dec193cd163c9f5d949e744cfde40f2eb24b4
+ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2469014"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770931"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations uygulama belgeleri
 
@@ -68,7 +68,7 @@ Bu içeriğin büyük bir bölümü, ilgili ürünler için de geçerlidir: Dyna
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Tümleştirmeler</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">İş olayları</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Veri varlıkları</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Microsoft Flow kullanarak tümleştirme</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Microsoft Power Automate kullanarak tümleştirme</a></p>
 
 <h3><a href="../../finance/index.md">Mali yönetim</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">Borç hesapları</a></p>
