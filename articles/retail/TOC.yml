@@ -500,7 +500,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/retail/toc.json
                     - name: İş belgesi yönetimine genel bakış
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/retail/toc.json
-                - name: ER altyapısı API'sı
+                - name: ER çerçevesi API'sı
                   items:
                     - name: Elektronik raporlama işlev listesini genişletme
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/retail/toc.json
@@ -734,7 +734,7 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/retail/toc.json
                 - name: Yeni kayıt oluşturmak için kayıt şablonu kullanma
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/retail/toc.json
-            - name: Belge yönetimi yapılandırma
+            - name: Belge yönetimini yapılandırma
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/retail/toc.json
             - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/retail/toc.json
@@ -818,7 +818,7 @@
               href: ../supply-chain/production-control/default-order-settings.md?toc=/dynamics365/retail/toc.json
             - name: Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama
               href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/retail/toc.json
-            - name: Perakende satış fiyatı raporları
+            - name: Perakende fiyatı raporları
               href: price-report.md
             - name: Hazır raporlar oluşturma ve çalıştırma
               href: tasks/run-out-box-reports.md
@@ -850,6 +850,8 @@
           items:
             - name: Bağlılık programına genel bakış
               href: set-up-customer-loyalty-program.md
+            - name: Müşteri rehberliğine genel bakış
+              href: clienteling-overview.md
         - name: Ödemeler
           items:
             - name: Ödeme yöntemleri
@@ -926,7 +928,7 @@
               href: ../supply-chain/cost-management/running-average-cost-price.md?toc=/dynamics365/retail/toc.json
             - name: Stok boyutu başına cari ortalama maliyeti izleme
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md?toc=/dynamics365/retail/toc.json
-        - name: Raporlar
+        - name: Ekstreler
           items:
             - name: Perakende ekstreleri
               href: retail-statements.md
@@ -978,11 +980,11 @@
               href: orderexchanges.md
             - name: İadeler için fişsiz ödeme yöntemlerini kısıtlama
               href: payment-methods-restrictions.md
-            - name: Birden fazla müşteri siparişi ve faturası arasında iade kalemleri
+            - name: Birden fazla müşteri siparişi ve faturasındaki maddeleri iade etme
               href: multireturn.md
-        - name: Modern Point of Sale (MPOS) ve Bulut POS
+        - name: Modern Point of Sale (MPOS) ve Cloud POS
           items:
-            - name: MPOS ile Bulut POS arasında seçim yapma
+            - name: MPOS ile Cloud POS arasında seçim yapma
               href: MPOS-or-CPOS.md
             - name: Çevrimiçi ve çevrimdışı POS işlemleri
               href: pos-operations.md
@@ -1246,7 +1248,7 @@
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Aşamalı Kullanıma Sunma (N-1) yüklemesi, yapılandırması ve kesin bitişi'
                   href: dev-itpro/n-1-installation-configuration.md
-                - name: Retail kanalı uzantısını en son Retail SDK'ya yükseltme
+                - name: Perakende kanalı uzantısını en son Retail SDK'ya yükseltme
                   href: dev-itpro/retailSDK-update.md
             - name: Uygulama kılavuzu
               items:
@@ -1268,11 +1270,9 @@
                   href: Open-URL-in-POS.md
                 - name: POS Düzeni tasarımcısını yükleme
                   href: install-pos-layout-designer.md
-                - name: Çevrimdışı modda Retail Modern POS kullanımı
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: POS Dual ekran görünümünü genişletme
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Retail Modern POS ve Bulut POS tetikleyici genişletilebilirliği
+                - name: Retail Modern POS ve Cloud POS tetikleyici genişletilebilirliği
                   href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: POS görünümlerine özel denetimler ekleme
                   href: dev-itpro/pos-custom-control.md
@@ -1292,7 +1292,7 @@
                   href: dev-itpro/pos-handler.md
                 - name: POS uzantısı paket bilgilerini görüntüleme
                   href: dev-itpro/view-pos-extension-package-details.md
-                - name: Perakende Bulut POS için kaydediciyi ve Regression Suite Automation Tool'u test etme
+                - name: Retail Cloud POS için kaydediciyi ve Regression Suite Automation Tool'u test etme
                   href: dev-itpro/pos-rsat.md
             - name: Hardware Station ve genişletilebilirlik
               href: dev-itpro/hardware-station-extensibility.md
@@ -1332,6 +1332,8 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: Tetikleyicileri kullanarak bir iade ilkesi uygulama
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: Application Insights'a uzantı olayları kaydetme
+                  href: dev-itpro/commerce-application-insights.md
             - name: e-Ticaret genişletilebilirliği
               items:
                 - name: Çevrimiçi mağazaları yapılandırma
@@ -1360,7 +1362,7 @@
               items:
                 - name: Retail SDK mimarisi
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Yakında Retail SDK'de yapılacak değişiklikler
+                - name: Yakında Retail SDK'da yapılacak değişiklikler
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: Retail ve Finance and Operations için yapı sistemlerini birleştirme
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
@@ -1370,7 +1372,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: Retail SDK örnekleri
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
-                - name: Sevk irsaliyeleri için genişletme noktaları
+                - name: Sevk irsaliyeleri için uzantı noktaları
                   href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Kanal veritabanı uzantıları
                   href: dev-itpro/channel-db-extensions.md
@@ -1384,7 +1386,7 @@
                   href: dev-itpro/customer-attributes.md
                 - name: 'Retail Typescript ve C# proxy''leri'
                   href: dev-itpro/typescript-proxy-retail-pos.md
-                - name: Retail POS örnekleri çalıştırma
+                - name: Retail POS örneklerini çalıştırma
                   href: dev-itpro/pos-run-samples.md
                 - name: Özel sütunlar ve uygulama çubuğu düğmeleri eklemek için POS görünümleri genişletme
                   href: dev-itpro/pos-view-extension.md
@@ -1406,7 +1408,7 @@
                   href: dev-itpro/pos-app-signing-certificate.md
             - name: Commerce runtime
               items:
-                - name: Bağlılık genişletme
+                - name: Bağlılık programı uzantısı
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
     - name: Finance and Operations uygulamaları geliştirme ve yönetimi
       href: ../fin-ops-core/dev-itpro/index.md

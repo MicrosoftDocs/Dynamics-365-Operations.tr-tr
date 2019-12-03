@@ -2,6 +2,8 @@
   items:
     - name: Finance and Operations uygulamaları için geliştirme ve yönetim
       items:
+        - name: Finance and Operations uygulama belgeleri
+          href: ../fin-ops/index.md
         - name: Finance and Operations uygulamaları için geliştirme ve yönetim
           href: index.md
         - name: Yenilikler veya değişiklikler
@@ -124,20 +126,32 @@
                       href: data-entities/data-integration-cds.md
                     - name: 'Eş zamanlı, çift yönlü tümleştirme'
                       items:
-                        - name: Yakın gerçek zamanlı veri tümleştirmesi
+                        - name: Gerçek zamanlıya yakın veri tümleştirmesi
                           href: data-entities/dual-write-overview.md
                         - name: Common Data Service'da kuruluş hiyerarşisi
                           href: data-entities/dual-write-organization.md
-                        - name: Common Data Service'da şirket kavramı
-                          href: data-entities/dual-write-company.md
-                        - name: Tümleşik Müşteri Aslı
+                        - name: Şirket tümleştirmesi
+                          items:
+                            - name: Common Data Service'da şirket kavramı
+                              href: data-entities/dual-write-company.md
+                            - name: Şirket verileriyle önyükleme
+                              href: data-entities/dual-write-bootstrap.md
+                        - name: Tümleşik müşteri aslı
                           href: data-entities/dual-write-customer.md
+                        - name: Tümleşik genel muhasebe
+                          href: data-entities/dual-write-ledger.md
                         - name: Birleşik ürün deneyimi
                           href: data-entities/dual-write-product.md
-                        - name: Tümleşik Satıcı Aslı
-                          href: data-entities/dual-write-vendor.md
+                        - name: Satıcı tümleştirmesi
+                          items:
+                            - name: Tümleşik satıcı aslı
+                              href: data-entities/dual-write-vendor.md
+                            - name: Satıcı tasarımları arasında geçiş yapma
+                              href: data-entities/dual-write-vendor-switch.md
                         - name: Tümleşik siteler ve ambarlar
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: Tümleşik vergi aslı
+                          href: data-entities/dual-write-tax.md
                         - name: Başlangıç eşitlemesi
                           href: data-entities/dual-write-initial.md
                         - name: Veri tümleştirme sorunlarını giderme
@@ -414,10 +428,12 @@
                       href: lifecycle-services/update-local-agent.md
                 - name: Ortamları yeniden yapılandırma
                   href: lifecycle-services/reconfigure-environment.md
-                - name: İstemci İnternet bağlantısı
+                - name: İstemci internet bağlantısı
                   href: user-interface/client-disconnected.md
                 - name: Şirket içi dağıtımlardaki sorunları giderme
                   href: deployment/troubleshoot-on-prem.md
+                - name: Şirket içi ortamlarda sorun çözme için komut dosyaları
+                  href: deployment/onprem-tsg-implementations.md
                 - name: Sertifika rotasyonu
                   href: deployment/certificate-rotation-on-prem.md
             - name: Özel kod dağıtma
