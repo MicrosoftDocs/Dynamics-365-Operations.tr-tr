@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 058adaef91a7b30e25bea603625116e97009cf55
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537036"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812100"
 ---
 # <a name="globalization-resources"></a>Globalleştirme kaynakları
 
@@ -45,10 +45,10 @@ Bu konu aşağıdakileri yapmanıza yardımcı olabilecek kaynakların listesini
 
 ### <a name="developing-localized-solutions"></a>Yerelleştirilmiş çözümler geliştirme
 Aşağıdaki kaynaklar, ülkeye/bölgeye özel özelleştirmeler veya Microsoft'un desteklemediği bir ülke için çözüm oluşturan geliştiricilere ve ISV'lere yardımcı olabilecek rehberlik ve bilgiler sunar.
--   [Ayrı yerelleştirme modelleri](separate-localization-models.md)
+-   [Yerelleştirme modellerinin ayrılması](separate-localization-models.md)
 -   [Ülke/bölge bağlamı uygulama](apply-country-context.md)
--   [Düzenleme sertifikaları](regulatory-certifications.md)
--   [Yerelleştirme özelliklerini sınıflandırma](classify-localization-features.md)
+-   [Özellik başlıklarındaki düzenleyici sertifika bilgileri](regulatory-certifications.md)
+-   [Yerelleştirme özellikleri sınıflandırması](classify-localization-features.md)
 -   [Ülke Kodları - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
 ### <a name="regulatory-updates-and-communication"></a>Mevzuat güncelleştirmeleri ve iletişim
@@ -57,36 +57,36 @@ Aşağıdaki kaynaklar, planlanan ve yeni yerelleştirme özellikleri hakkında 
 #### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
 -   [Mevzuat güncelleştirmeleri](../../../finance/localizations/regulatory-updates.md)
 -   [Yerelleştirme portalı](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (Haftalık olarak güncelleştirilir)
--   [LCS konu arama](../lifecycle-services/issue-search-lcs.md) (Günlük olarak güncelleştirilir)
+-   [Lifecycle Services'da (LCS) konu arama](../lifecycle-services/issue-search-lcs.md) (Günlük olarak güncelleştirilir)
 
 #### <a name="communication-and-alerts"></a>İletişim ve uyarılar
--   [Mevzuat izleme ve mevzuat güncelleştirme iletişimi](regulatory-watch-communication.md)
--   [Microsoft'u ülke/bölge mevzuatıyla ilgili uyarılar konusunda bilgilendirme ve mevzuat özelliklerinin durumunu izleme](submit-localization-alerts.md)
+-   [Mevzuat izleme ve mevzuat güncelleştirmeleri iletişimi](regulatory-watch-communication.md)
+-   [Ülkeye/bölgeye özel mevzuat özellikleri hakkında uyarılar gönderme](submit-localization-alerts.md)
 
-#### <a name="dynamics-365-release-notes"></a>Dynamics 365 sürüm notları
-[Dynamics 365 sürüm notları](https://docs.microsoft.com/business-applications-release-notes/), Dynamics 365 iş uygulamaları ve uygulama platformları için planlanan yeni ve geliştirilmiş özelliklerle ilgili açıklamalar sağlar. 
+#### <a name="dynamics-365-release-plans"></a>Dynamics 365 sürüm planları
+[Dynamics 365 sürüm planları](https://docs.microsoft.com/business-applications-release-notes/), Dynamics 365 iş uygulamaları ve uygulama platformları için planlanan yeni ve geliştirilmiş özelliklerle ilgili açıklamalar sağlar. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations uygulamalarındaki yenilikler
-[Yenilikler içeriği](../../fin-ops/get-started/whats-new-changed.md) Finance and Operations uygulamalarının özel sürümlerindeki özellikleri listeler.
+[Finance and Operations'taki yenilikler veya değişiklikler giriş sayfası](../../fin-ops/get-started/whats-new-changed.md), Finance and Operations uygulamalarının belirli sürümlerine eklenen özellikleri listeler.
 
 ### <a name="electronic-reporting"></a>Elektronik raporlama
 Elektronik raporlama (ER) aracı, elektronik belgelerin biçimini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmanıza olanak tanır. ER, yaşam döngüleri boyunca bu biçimleri yönetmenizi sağlar. Daha fazla bilgi için aşağıdaki konulardan birine başvurun:
--   [Elektronik raporlamaya genel bakış](../analytics/general-electronic-reporting.md)
--   [Elektronik raporlama yapılandırması yaşam döngüsünü yönetme](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [Elektronik raporlama yapılandırması oluşturma](../analytics/electronic-reporting-configuration.md)
--   [Elektronik raporlama işlev listesini genişletme](../analytics/general-electronic-reporting-formulas-list-extension.md)
--   [Elektronik raporlama hedefleri](../analytics/electronic-reporting-destinations.md)
+-   [Elektronik raporlamaya (ER) genel bakış](../analytics/general-electronic-reporting.md)
+-   [Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
+-   [Elektronik raporlama (ER) yapılandırmaları oluşturma](../analytics/electronic-reporting-configuration.md)
+-   [Elektronik raporlama (ER) işlev listesini genişletme](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [Elektronik raporlama (ER) hedefleri](../analytics/electronic-reporting-destinations.md)
 -   [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Elektronik raporlama yapılandırmalarını içe aktarma](../analytics/electronic-reporting-import-ger-configurations.md)
--   [Power BI'ya veri çekmek için Elektronik raporlamayı yapılandırma](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Elektronik raporlama aracını kullanarak elektronik belge oluşturma ve uygulama verilerini güncelleştirme](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Elektronik raporlama (ER) yapılandırmalarını içe aktarma](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [Power BI'ya veri çekmek için Elektronik raporlamayı (ER) yapılandırma](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [ER kullanarak elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme](../analytics/generate-electronic-documents-update-application-data.md)
 
 ### <a name="task-guides"></a>Görev kılavuzları
 Görev kılavuzlarına ürün yardım bölmesinden ulaşılabilir ve bu kılavuzlar temel iş süreçleri için adım adım bir kılavuz sağlar. İş sürecinin adımlarını okumak için bir görev kılavuzunu açabilir veya bir iş sürecinde ve veri girişinde adım adım kılavuzluk için bir görev kılavuzunu oynatabilirsiniz.
 
 Görev kılavuzlarını bulmak için uygulamada bir sayfaya gidip Yardım'a tıklayın. Sayfayı kullanan görev kılavuzları yardım bölmesinde listelenir. Ayrıca yardım bölmesini kullanarak görev kılavuzlarını başlığa göre arayabilirsiniz.
 
-Daha fazla bilgi için bkz. [Görev kılavuzları](../../fin-ops/get-started/help-overview.md#task-guides).
+Daha fazla bilgi için bkz. [Yardım sistemi](../../fin-ops/get-started/help-overview.md#task-guides).
 
 
 ### <a name="countryregion-specific-help-content"></a>Ülkeye/bölgeye özel yardım içeriği

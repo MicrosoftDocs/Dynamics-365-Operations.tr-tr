@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570137"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770586"
 ---
 # <a name="financial-management-home-page"></a>Mali yönetim giriş sayfası
 
@@ -44,8 +44,8 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
         - [Gider yönetimi](expense-management/expense-management.md)
         - [Mali raporlama](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Sabit kıymetler](fixed-assets/fixed-assets.md)
-        - [Genel muhasebe](general-ledger/general-ledger.md) 
-        - [Proje yönetimi](project-management/overview-project-management-accounting.md)
+        - [Genel muhasebe ve Mali raporlama](general-ledger/general-ledger.md) 
+        - [Proje yönetimi ve muhasebe](project-management/overview-project-management-accounting.md)
         - [Kamu sektörü](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -72,5 +72,5 @@ Check out the how-to videos that are now available on the [Microsoft Dynamics 36
 
 ### <a name="additional-content"></a>Ek içerik
 
-Tedarik zinciri yönetimi işlevi, kurumunuzun satınalmalarındaki mal ve servislere yönelik talep, sipariş verme, teslim alma, faturalama ve ödeme işlemlerini içeren tedarikten ödemeye sürecinin bölümlerini kapsar. Satınalmaları, stoğu ve imalatı yönetmeye yönelik özellikler hakkında daha fazla bilgi edinmek için [!Supply Chain Management giriş sayfasına](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) bakın. 
+Tedarik zinciri yönetimi işlevi, kurumunuzun satınalmalarındaki mal ve servislere yönelik talep, sipariş verme, teslim alma, faturalama ve ödeme işlemlerini içeren tedarikten ödemeye sürecinin bölümlerini kapsar. Satınalmaları, stoğu ve imalatı yönetmeye yönelik özellikler hakkında daha fazla bilgi edinmek için [Supply Chain Management giriş sayfasına](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) bakın. 
 

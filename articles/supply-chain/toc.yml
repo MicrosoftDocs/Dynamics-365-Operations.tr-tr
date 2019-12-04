@@ -569,8 +569,10 @@
                   href: cost-management/weighted-average-physical-value-marking.md
                 - name: Stok kapanışı
                   href: cost-management/inventory-close.md
-                - name: Eldeki stokun maliyet değerlerini ayarlama
+                - name: Eldeki stoğun maliyet değerlerini ayarlama
                   href: cost-management/adjust-hand-inventory-cost-values.md
+                - name: Stok yaşlandırma raporu
+                  href: cost-management/inventory-aging-report-storage.md
             - name: Üretim muhasebesi
               items:
                 - name: Ürün reçetesi hesaplamaları
@@ -868,7 +870,13 @@
                         - name: RCS türündeki ER deposundan yapılandırmaları indirme
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Yapılandırmaları RCS'den içe aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Eğitimler
+                      items:
+                        - name: Elektronik raporlama (ER model) eşlemelerinde birden çok uygulama tablosundan veri almak için BİRLEŞTİRME veri kaynaklarını kullanma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Ülke bağlamına bağımlı ER model eşlemeleri yapılandırma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finance and Operations'ta Elektronik raporlama çözümlerini kullanma
                   items:
                     - name: Altyapıyı yapılandırma
@@ -903,7 +911,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: İş belgesi yönetimine genel bakış
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
-                - name: ER altyapısı API'sı
+                    - name: Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ER çerçevesi API'sı
                   items:
                     - name: Elektronik raporlama işlev listesini genişletme
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
@@ -1051,6 +1061,22 @@
           items:
             - name: Master planlama giriş sayfası
               href: master-planning/master-planning-home-page.md
+            - name: Planlamayı En İyi Duruma Getirme
+              items:
+                - name: Planlamayı En İyi Duruma Getirmeye genel bakış
+                  href: master-planning/planning-optimization/planning-optimization-overview.md
+                - name: Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama
+                  href: master-planning/planning-optimization/get-started.md
+                - name: Planlamayı En İyi Duruma Getirme uygunluk analizi
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Plana filtreler uygulama
+                  href: master-planning/planning-optimization/plan-filters.md
+                - name: Plan geçmişini ve planlama günlüklerini görüntüleme
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Planlamayı En İyi Duruma Getirme ile otomatik kesinleştirme
+                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Planlama işini iptal etme
+                  href: master-planning/planning-optimization/cancel-planning-job.md
             - name: Master planlar
               items:
                 - name: Master planlara genel bakış
@@ -1321,7 +1347,7 @@
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Yeni kayıt oluşturmak için kayıt şablonu kullanma
                   href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Belge yönetimi yapılandırma
+            - name: Belge yönetimini yapılandırma
               href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/supply-chain/toc.json
             - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/supply-chain/toc.json

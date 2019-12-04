@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e77fd279ddec5eb02e226776eecb1223283313c3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278118"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811938"
 ---
 # <a name="help-resources-for-dynamics-365-retail"></a>Dynamics 365 Retail için yardım kaynakları
 
@@ -53,7 +53,7 @@ Ayrıca, müşteriler istediklerini, ne zaman isterlerse ve istedikleri fiyata a
 
 ## <a name="hardware-and-peripherals"></a>Donanım ve çevre birimleri
 
-Retail Modern point of sale (MPOS) ve Bulut POS'ta geniş bir donanım çevre birimleri yelpazesi kullanılabilir. Hem MPOS hem de Bulut POS birden fazla arabirim ve dağıtım seçeneği sunarak size çeşitli iş senaryolarınızda yardımcı olur.
+Retail Modern Point of Sale (MPOS) ve Cloud POS'ta geniş bir donanım çevre birimleri yelpazesi kullanılabilir. Hem MPOS hem de Bulut POS birden fazla arabirim ve dağıtım seçeneği sunarak size çeşitli iş senaryolarınızda yardımcı olur.
 
 Retail için Çevre birimi benzeticisi sanal bir çevre birimi benzeticisi ile bir POS benzeticisi içerir. Sanal çevre birimi benzeticisi genellikle fiziksel POS çevre birimi cihazlarını gerektiren senaryoların test edilmesini özellikle destekler. POS benzeticisi Retail ile fiziksel çevre birimi cihazlarının uyumluluğunu POS istemcisini dağıtmak zorunda kalmadan test etmenizi sağlar.
 
@@ -81,8 +81,8 @@ Mağaza içindeki ilişkileri, mağazadaki POS kasalarını ve bu kasaların har
 
 Ortamınızı özelleştirmeniz istendiğinde veya sisteminizin dağıtımı ve korunmasından sorumlu olduğunuzda, Retail'e özel geliştirici ve sistem yöneticisi içeriklerine ve daha genel içeriklere mutlaka göz atın.
 
-- [BT Uzmanları ve Geliştiriciler İçin Dynamics 365 Retail](dev-itpro/dev-retail-home-page.md)
-- [Dynamics 365 Finance İçin Geliştirme ve Yönetim](../dev-itpro/dev-tools/developer-home-page.md)
+- [BT uzmanları ve geliştiriciler için Retail](dev-itpro/dev-retail-home-page.md)
+- [Dynamics 365 Finance için Geliştirme ve Yönetim](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

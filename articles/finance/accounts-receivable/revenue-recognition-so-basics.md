@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f7d2cfb8e58221004ae5662aae3850adc577dc88
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 6e2eafc6785aaf9bc7421bc80c90fa4a7f98a2d4
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570322"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693032"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Satış siparişlerinde gelir kabulü
 

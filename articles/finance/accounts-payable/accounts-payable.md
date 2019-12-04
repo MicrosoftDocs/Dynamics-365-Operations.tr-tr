@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658748"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772249"
 ---
 # <a name="accounts-payable-home-page"></a>Borç hesapları giriş sayfası
 
@@ -41,7 +41,7 @@ Satıcı faturalarını el ile girebilir veya bir veri varlığı aracılığıy
 
 Satıcı grupları, satıcılar, deftere nakil profilleri, çeşitli ödeme seçenekleri ve satıcılara yönelik parametreler, masraflar, teslimatlar ve gönderilecek yerler, senetler ve diğer türdeki Borç hesapları bilgilerini oluşturun. 
 
-[Borç hesaplarını yapılandırma](accounts-payable-overview.md)
+[Borç hesaplarını yapılandırmaya genel bakış](accounts-payable-overview.md)
 
 [Satıcı faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girdileri](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -51,7 +51,7 @@ Satıcı grupları, satıcılar, deftere nakil profilleri, çeşitli ödeme seç
 
 Faturaları ve satıcılara yapılan harcamaları izlemek için Borç hesapları bölümünü kullanın.
 
-[Borç hesapları fatura eşleştirmesi](accounts-payable-invoice-matching.md)
+[Borç hesapları için fatura eşleştirmeye genel bakış](accounts-payable-invoice-matching.md)
 
 [Satıcı deftere nakil profilleri](vendor-posting-profiles.md)
 
@@ -61,7 +61,7 @@ Faturaları ve satıcılara yapılan harcamaları izlemek için Borç hesapları
 
 [Fatura eşleştirme ve şirketlerarası satınalma siparişleri](invoice-matching-intercompany-purchase-orders.md)
 
-[Fatura toplamları eşleştirme sırasında uyuşmazlıkları çözümleme](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Fatura toplamlarını eşleştirme sırasında uyuşmazlıkları gidermeye genel bakış](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [Satıcı faturası günlükleri ve fatura onay günlükleri için varsayılan mahsup hesaplar](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,11 +93,11 @@ Faturaları ve satıcılara yapılan harcamaları izlemek için Borç hesapları
 
 [Nakit iskontosu döneminin dışında bir nakit iskontosu alma](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Satıcı çekleri için elektronik raporlama](electronic-reporting-sample-vendor-checks.md)
+[Satıcı çekleri için elektronik raporlama örneği](electronic-reporting-sample-vendor-checks.md)
 
 [Satıcı ödemesini tersine çevirme](reverse-vendor-payment.md)
 
-[Ön ödeme faturaları ve ön ödemelere genel bakış](prepayments-invoices-vs-prepayments.md)
+[Ön ödeme faturaları ve ön ödemeler karşılaştırması](prepayments-invoices-vs-prepayments.md)
 
 [Borç hesapları için merkezi ödemeler](centralized-payments-accounts-payable.md)
 
@@ -107,13 +107,13 @@ Aşağıdaki konular kapatmalar hakkında bilgi sağlar. Kapatma, ödemeleri fat
 
 [Kapatma yapılandırma](../cash-bank-management/configure-settlement.md)
 
-[Kısmi satıcı ödemesini iskonto tarihinden önce kapatma](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[Kısmi satıcı ödemesini iskonto tarihinden önce, iskonto tarihinden sonraki bir son ödeme ile kapatma](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [Satıcı alacak dekontları üzerinden iskontosu olan kısmi satıcı ödemesini kapatma](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [Birden fazla iskonto dönemi olan bir kısmi satıcı ödemesini kapatma](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[Kısmi satıcı ödemesini veya son ödemeyi iskontodan önce kapatma](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[Kısmi satıcı ödemesini ve son ödemeyi iskonto tarihinden önce tamamen kapatma](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,7 +123,7 @@ Aşağıdaki konular kapatmalar hakkında bilgi sağlar. Kapatma, ödemeleri fat
 
 #### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 Sürüm Notlarına](https://go.microsoft.com/fwlink/?linkid=2010158) bakın. 
+Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm planlarına](https://go.microsoft.com/fwlink/?linkid=2010158) bakın. 
 
 #### <a name="blogs"></a>Bloglar
 
