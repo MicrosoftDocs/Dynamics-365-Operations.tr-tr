@@ -1,6 +1,6 @@
 ---
-title: Attract'ta genişletilebilirlik
-description: Bu konu, Microsoft Dynamics 365 Talent- Attract'ı Microsoft Power Platform'u kullanarak nasıl genişletebileceğinizi açıklar.
+title: Attract'te genişletilebilirlik
+description: Bu konu, Microsoft Dynamics 365 Talent- Attract'i Microsoft Power Platform'u kullanarak nasıl genişletebileceğinizi açıklar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/18/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5db954d8847c252bee1c8e50acae546852ae9b94
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 9d12a4d48aa369884804c2a0bce9834534b1bec6
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026245"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832873"
 ---
-# <a name="extensibility-in-attract"></a>Attract'ta genişletilebilirlik
+# <a name="extensibility-in-attract"></a>Attract'te genişletilebilirlik
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Talent, Common Data Service üzerine kuruludur ve Microsoft Power Platform ve Common Data Service için sunduğu özellikler kullanılarak çeşitli şekillerde genişletilebilir. Bu nedenle, Microsoft PowerApps ve Microsoft Flow kullanarak sistemi yapılandırabilir ve kişiselleştirebilirsiniz. Ayrıca Microsoft Power BI kullanarak kişilerle ilgili ilave analitik alabilirsiniz. Ayrıca, PowerApps ve Web içeriği (iframe) gibi yeni özel etkinlikler işe alma işlemini her zamankinden daha uyarlanabilir yapar. Bu etkinlikleri kullanarak iş gereksinimlerinizi ve işlemleri işe alma işlemine uyarlayabilirsiniz ve hem işe alma ekibi hem adayların sorunsuz ve özelleştirilmiş deneyim yaşadığından emin olabilirsiniz.
+Microsoft Dynamics 365 Talent, Common Data Service üzerine kuruludur ve Microsoft Power Platform ve Common Data Service için sunduğu özellikler kullanılarak çeşitli şekillerde genişletilebilir. Bu nedenle, Microsoft Power Apps ve Microsoft Power Automate kullanarak sistemi yapılandırabilir ve kişiselleştirebilirsiniz. Ayrıca Microsoft Power BI kullanarak kişilerle ilgili ilave analitik alabilirsiniz. Ayrıca, Power Apps ve Web içeriği (iframe) gibi yeni özel etkinlikler işe alma işlemini her zamankinden daha uyarlanabilir yapar. Bu etkinlikleri kullanarak iş gereksinimlerinizi ve işlemleri işe alma işlemine uyarlayabilirsiniz ve hem işe alma ekibi hem adayların sorunsuz ve özelleştirilmiş deneyim yaşadığından emin olabilirsiniz.
 
 ## <a name="extending-option-sets-in-attract"></a>Attract'te seçenek kümelerini genişletmek
 
@@ -40,7 +40,7 @@ Bir **Seçenek Kümesi** (seçme listesi) bir varlığa dahil edilebilecek bir a
 
 Aşağıda, **Reddetme sebebi** alanını işinizle ilgili değerler ile güncelleştirmek için adımlar listelenmiştir.  
 
-1. **Reddetme sebebi** seçenek kümesini genişletmek için [PowerApps Yönetici web sitesi](https://admin.powerapps.com)'ne gidin.
+1. **Reddetme sebebi** seçenek kümesini genişletmek için [Power Apps Yönetici web sitesi](https://admin.powerapps.com)'ne gidin.
 2. Hesabınıza oturum açmanız istenebilir. Dynamics365 ve/veya Office365 içine oturum açmak için kullanıcı adı ve parolanızı verin ve sonra **İlerle**'ye tıklayın.
 3. **Ortam** sekmesinde, yönetmek istediğiniz ortamı seçin ve **Ayrıntılar** sekmesine ulaşmak için çift tıklayın.
 4. **Ayrıntılar** sekmesinde, **Dynamics 365 Yönetim Merkezi**'ni seçin.
@@ -56,17 +56,17 @@ Aşağıda, **Reddetme sebebi** alanını işinizle ilgili değerler ile güncel
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Microsoft Power Platform avantajlarından yararlanın 
 
-Attract'taki tüm veriler Common Data Service bulunduğundan kendi iş ihtiyaçlarınıza Attract ile birleştirmek için Microsoft Power Platform'dan araçları kullanabilirsiniz.
+Attract'teki tüm veriler Common Data Service bulunduğundan kendi iş ihtiyaçlarınıza Attract ile birleştirmek için Microsoft Power Platform'dan araçları kullanabilirsiniz.
 
-### <a name="powerapps"></a>PowerApps
+### <a name="power-apps"></a>Power Apps
 
-Attract verilerinize bağlanan ve mantık eklemek için Microsoft Excel'deki ifadeler gibi ifadeler kullanan uygulamaları kolayca oluşturmak için PowerApps kullanabilirsiniz. PowerApps kullanarak oluşturduğunuz uygulamaları web, Apple iOS ve Google Android cihazlarda çalıştırabilirsiniz.
+Attract verilerinize bağlanan ve mantık eklemek için Microsoft Excel'deki ifadeler gibi ifadeler kullanan uygulamaları kolayca oluşturmak için Power Apps kullanabilirsiniz. Power Apps kullanarak oluşturduğunuz uygulamaları web, Apple iOS ve Google Android cihazlarda çalıştırabilirsiniz.
 
-Örneğin, üniversite mesleki fuarlarının işe alanlar için daha kolay olmasını sağlayın: Özgeçmişleri taramalarını ve adayları Attract'taki bir pozisyona göndermelerini sağlayan hafif bir uygulama oluşturun. Alternatif olarak, kuruluşunuzun uyumluluk gereksinimlerini karşılamaya yardımcı olan bir uygulama oluşturabilirsiniz. PowerApps ve uygulamaları oluşturmak için nasıl kullanılacağı hakkında daha fazla bilgi için bkz. [Common Data Service'a veri tümleştirme](https://docs.microsoft.com/powerapps).
+Örneğin, üniversite mesleki fuarlarının işe alanlar için daha kolay olmasını sağlayın: Özgeçmişleri taramalarını ve adayları Attract'teki bir pozisyona göndermelerini sağlayan hafif bir uygulama oluşturun. Alternatif olarak, kuruluşunuzun uyumluluk gereksinimlerini karşılamaya yardımcı olan bir uygulama oluşturabilirsiniz. Power Apps ve uygulamaları oluşturmak için nasıl kullanılacağı hakkında daha fazla bilgi için bkz. [Common Data Service'a veri tümleştirme](https://docs.microsoft.com/powerapps).
 
-### <a name="microsoft-flow"></a>Microsoft Flow 
+### <a name="microsoft-power-automate"></a>Microsoft Power Automate 
 
-Microsoft Flow'u, Attract verilerinin üstünde çalışan otomatik iş akışları oluşturmak için kullanabilirsiniz. Yüzlerce sık kullanılan uygulamalar ve hizmetlere kod yazmak zorunda olmadan kolayca bağlanabilirsiniz. Common Data Service içinde, Attract işi, Aday ve Başvuru varlıklarıyla etkileşimde olan akışlar oluşturarak, çeşitli eylemleri otomatikleştirebilirsiniz. Örneğin, bir aday teklifi kabul ettiğinde, işe alma takımına bir bildirim gönderilir veya haber Twitter'da bildirilir. Akışlar hakkında daha fazla bilgi için bkz. [Microsoft Flow belgelendirmesi](https://docs.microsoft.com/flow/).
+Microsoft Power Automate'i, Attract verilerinin üstünde çalışan otomatik iş akışları oluşturmak için kullanabilirsiniz. Yüzlerce sık kullanılan uygulamalar ve hizmetlere kod yazmak zorunda olmadan kolayca bağlanabilirsiniz. Common Data Service içinde, Attract işi, Aday ve Başvuru varlıklarıyla etkileşimde olan akışlar oluşturarak, çeşitli eylemleri otomatikleştirebilirsiniz. Örneğin, bir aday teklifi kabul ettiğinde, işe alma takımına bir bildirim gönderilir veya haber Twitter'da bildirilir. Akışlar hakkında daha fazla bilgi için bkz. [Microsoft Power Automate belgeleri](https://docs.microsoft.com/flow/).
 
 ### <a name="power-bi"></a>Power BI
 
@@ -74,18 +74,18 @@ Power BI, Attract verilerinizle daha ayrıntılı bir anlayış sağlayan özel 
 
 ### <a name="custom-activities"></a>Özel faaliyetler 
 
-İş işlem şablonu düzeyinde veya yeni bir iş oluşturduğunuz sırada PowerApps uygulamaları ve Web içeriği (iframe) etkinlikleri gibi özel etkinlikler ekleyebilirsiniz. Bu etkinlikler işe alma işlemini özelleştirmenizi ve Attract'a, kuruluşunuzun benzersiz iş mantığını getirmenizi sağlar.
+İş işlem şablonu düzeyinde veya yeni bir iş oluşturduğunuz sırada Power Apps uygulamaları ve Web içeriği (iframe) etkinlikleri gibi özel etkinlikler ekleyebilirsiniz. Bu etkinlikler işe alma işlemini özelleştirmenizi ve Attract'e, kuruluşunuzun benzersiz iş mantığını getirmenizi sağlar.
 
-#### <a name="powerapps-activity"></a>PowerApps etkinliği 
+#### <a name="power-apps-activity"></a>Power Apps etkinliği 
 
-PowerApps faaliyeti, işi veya iş süreci şablonu oluşturanın işe alma akışı içine bir PowerApps uygulaması katıştırmasını sağlar. Uygulamayı oluşturup yayınladığınızda uygulama kimliğini faaliyet konfigürasyonlarına girebilirsiniz. Bir PowerApps uygulaması kullanarak, verileri okuyabilir ve Common Data Service'a yazabilirsiniz. Uygulamayı bir akışa bağlayabilirsiniz. Örneğin, iş verenlerin telefon görüşmeleri gerçekleştirirken form doldurmak için kullandığı bir uygulamanız var. Bu durumda, uygulamayı başvuranın bir iş başvuru sürecinde ileriye alınabilir olup olmadığını belirlemek için akışa bağlayabilirsiniz. Bu aktivite türü yalnızca işe alma ekibinin üyeleri tarafından görüntülenebilir. PowerApps faaliyetini yapılandırma hakkında daha fazla bilgi için bkz. [Attract'taki faaliyetler](./activities-attract.md).
+Power Apps faaliyeti, işi veya iş süreci şablonu oluşturanın işe alma akışı içine bir Power Apps uygulaması katıştırmasını sağlar. Uygulamayı oluşturup yayınladığınızda uygulama kimliğini faaliyet konfigürasyonlarına girebilirsiniz. Bir Power Apps uygulaması kullanarak, verileri okuyabilir ve Common Data Service'a yazabilirsiniz. Uygulamayı bir akışa bağlayabilirsiniz. Örneğin, iş verenlerin telefon görüşmeleri gerçekleştirirken form doldurmak için kullandığı bir uygulamanız var. Bu durumda, uygulamayı başvuranın bir iş başvuru sürecinde ileriye alınabilir olup olmadığını belirlemek için akışa bağlayabilirsiniz. Bu aktivite türü yalnızca işe alma ekibinin üyeleri tarafından görüntülenebilir. Power Apps faaliyetini yapılandırma hakkında daha fazla bilgi için bkz. [İşe alım süreçlerindeki faaliyetler](./activities-attract.md).
 
 > [!NOTE]
-> PowerApps faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir.
+> Power Apps faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir.
 
 #### <a name="web-content-iframe-activity"></a>Web içeriği (iframe) faaliyeti
 
-Web içeriği (iframe) faaliyeti, iş alım sürecinde veya Aday portalında oluşturduğunuz özel bir web çözümü gömmenizi sağlar. Veri okuma ve yazmayı doğrudan Common Data Service yapabilirsiniz. Ayrıca, akışları tetikleyen veya Microsoft Azure işlevlerinden yararlanan çözümü özelleştirebilirsiniz. Web içeriği faaliyetini yapılandırma hakkında daha fazla bilgi için bkz. [Attract'taki faaliyetler](./activities-attract.md).
+Web içeriği (iframe) faaliyeti, iş alım sürecinde veya Aday portalında oluşturduğunuz özel bir web çözümü gömmenizi sağlar. Veri okuma ve yazmayı doğrudan Common Data Service yapabilirsiniz. Ayrıca, akışları tetikleyen veya Microsoft Azure işlevlerinden yararlanan çözümü özelleştirebilirsiniz. Web içeriği faaliyetini yapılandırma hakkında daha fazla bilgi için bkz. [İşe alım süreçlerindeki faaliyetler](./activities-attract.md).
 
 > [!NOTE]
 > Web içeriği faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir.

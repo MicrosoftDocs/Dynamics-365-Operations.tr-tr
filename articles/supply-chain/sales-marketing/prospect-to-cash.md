@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251374"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814087"
 ---
 # <a name="prospect-to-cash"></a>Aday müşteriden nakde
 
@@ -36,12 +36,12 @@ Aday'dan nakite tümleştirmesi hakkında daha fazla bilgi için kısa YouTube v
 
 Geçerli sürümde, Müşteri adayından nakde çözümü aşağıdaki türlerde doğrudan eşitleme sağlar:
 
-- [Hesapları Sales içinde koruma ve onları doğrudan Sales'den Supply Chain Management'a eşitleme](accounts-template-mapping-direct.md)
-- [Supply Chain Management arasında ürünleri koruyun ve onları doğrudan Sales'a eşitleyin](products-template-mapping-direct.md)
-- [Sales'deki ilgili kişileri koruma ve onları doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme](contacts-template-mapping-direct.md)
-- [Supply Chain Management'daki satış tekliflerini Sales'dan doğrudan Supply Chain Management'a eşitleme](sales-quotation-template-mapping-sales-fin.md)
-- [Supply Chain Management ve Sales arasında satış siparişlerini doğrudan eşitleme](sales-order-template-mapping-direct-two-ways.md)
-- [Supply Chain Management'daki satış faturasını doğrudan Supply Chain Management'dan Sales'a eşitleme](sales-invoice-template-mapping-direct.md)
+- [Sales'deki hesapları doğrudan Supply Chain Management'daki müşterilerle eşitleme](accounts-template-mapping-direct.md)
+- [Supply Chain Management'daki ürünleri doğrudan Sales'deki ürünlerle eşitleme](products-template-mapping-direct.md)
+- [Sales'teki ilgili kişileri doğrudan Supply Chain Management'taki ilgili kişilerle veya müşterilerle eşitleme](contacts-template-mapping-direct.md)
+- [Satış teklifi başlıklarını ve satırlarını Sales'ten Supply Chain Management'a doğrudan eşitleme](sales-quotation-template-mapping-sales-fin.md)
+- [Sales ve Supply Chain Management arasında satış siparişlerini doğrudan eşitleme](sales-order-template-mapping-direct-two-ways.md)
+- [Supply Chain Management'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>Supply Chain Management için sistem gereksinimleri
 Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir:

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626259"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811768"
 ---
 # <a name="manually-created-work-orders"></a>El ile oluşturulmuş iş emirleri
 
@@ -70,7 +70,7 @@ Aaşağıdaki noktaları unutmayın:
 
 - **Tüm iş emirleri** liste sayfasının ayrıntılar görünümünde **İş emri bakım işleri** hızlı sekmesinde satırlar ekleyerek, iş emrine birden çok varlık ekleyebilirsiniz. Bir varlıkta, yalnızca varlık için seçilen varlık türünde tanımlanan bakım işi türlerini seçebilirsiniz.  
 
-- Bir iş emri üzerinde kullandıktan sonra bir varlık hizmet düzeyini veya varlık kritikliğini değiştirirseniz, iş emrindeki hizmet düzeyi veya kritiklik buna göre güncelleştirilmez. Hizmet düzeyleri ve kritikikler hakkında daha fazla bilgi için bkz. [Varlık hizmet düzeyleri](../setup-for-objects/object-priorities.md) ve [Varlık kritiklikleri](../setup-for-objects/object-criticalities.md).
+- Bir iş emri üzerinde kullandıktan sonra bir varlık hizmet düzeyini veya varlık kritikliğini değiştirirseniz, iş emrindeki hizmet düzeyi veya kritiklik buna göre güncelleştirilmez. Hizmet düzeyleri ve kritiklikler hakkında daha fazla bilgi için bkz. [Varlık hizmet düzeyleri](../setup-for-objects/object-priorities.md) ve [Varlık kritiklik türleri](../setup-for-objects/object-criticalities.md).
 
 - İş emrindeki kritiklik, iş emrine bir iş emri işi eklendiğinde veya silindiğinde yeniden hesaplanır.
 
@@ -83,7 +83,7 @@ Aaşağıdaki noktaları unutmayın:
 
 ## <a name="create-related-work-order"></a>İlgili iş emri oluştur
 
-Varolan bir iş emriyle ilgili bir iş emri oluşturabilirsiniz. Bu özellik, örneğin birincil ve ikincil iş emirleriyle çalışmak istiyorsanız yararlıdır. Yeni bir iş emri, varolan bir iş emrinden alınan bir iş emri işine dayalıdır.
+Var olan bir iş emriyle ilgili bir iş emri oluşturabilirsiniz. Bu özellik, örneğin birincil ve ikincil iş emirleriyle çalışmak istiyorsanız yararlıdır. Yeni bir iş emri, var olan bir iş emrinden alınan bir iş emri işine dayalıdır.
 
 1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.
 
@@ -105,12 +105,12 @@ Varolan bir iş emriyle ilgili bir iş emri oluşturabilirsiniz. Bu özellik, ö
     5. **Beklenen başlangıç** ve **Beklenen bitiş** alanlarında, beklenen başlangıç ve bitiş tarihlerini seçin.
     6. **Tamam**'ı seçin. Yeni ilgili iş emri **Tüm iş emirleri** liste sayfasında gösterilir.  
 
-8. Bu ilişkili iş emrini oluşturduğunuz iş emrinin zaten ilgili iş emirleri varsa, varolan bir ilgili iş emrine yeni bir iş emri işi eklemek için aşağıdaki adımları izleyin:
+8. Bu ilişkili iş emrini oluşturduğunuz iş emrinin zaten ilgili iş emirleri varsa, var olan bir ilgili iş emrine yeni bir iş emri işi eklemek için aşağıdaki adımları izleyin:
     1. **İlgili iş emrine ekle** seçeneğini belirleyin.
     2. **İş emri** alanında, yeni bir iş emri işi ekleyeceğiniz ilgili iş emrini seçin.
     3. **Hizmet düzeyi** alanında iş emri hizmet düzeyini gereken şekilde değiştirin.
     4. **Beklenen başlangıç** ve **Beklenen bitiş** alanlarında, beklenen başlangıç ve bitiş tarihlerini gereken şekilde değiştirin.
-    5. **Tamam**'ı seçin. İş emri işi varolan ilgili iş emrine eklenir.
+    5. **Tamam**'ı seçin. İş emri işi var olan ilgili iş emrine eklenir.
 
 Aşağıdaki şekilde **İlgili iş emri oluştur** iletişim kutusu örneği gösterilmektedir.
 
@@ -121,7 +121,7 @@ Aşağıdaki şekilde **İlgili iş emri oluştur** iletişim kutusu örneği g�
 
 ## <a name="copy-a-work-order"></a>İş emri kopyalama
 
-Varolan bir iş emrinden hızlı şekilde yeni bir iş emri oluşturabilirsiniz. İş emirleriyle çalışmanın bu yolu, [bakım planlarını](../preventive-and-reactive-maintenance/maintenance-plans.md) temel alan iş emirleri oluşturmaktan farklıdır. Örneğin, farklı varlıklarda düzenli aralıklarla tamamlanması gereken çeşitli işler içeren birçok iş emri işi bulunan bir iş emri varsa yararlıdır.
+Var olan bir iş emrinden hızlı şekilde yeni bir iş emri oluşturabilirsiniz. İş emirleriyle çalışmanın bu yolu, [bakım planlarını](../preventive-and-reactive-maintenance/maintenance-plans.md) temel alan iş emirleri oluşturmaktan farklıdır. Örneğin, farklı varlıklarda düzenli aralıklarla tamamlanması gereken çeşitli işler içeren birçok iş emri işi bulunan bir iş emri varsa yararlıdır.
 
 1. **Varlık yönetimi** > **Genel** > **İş emirleri** > **Tüm İş emirleri** veya **Etkin iş emirleri**'ni seçin.
 
@@ -136,7 +136,7 @@ Varolan bir iş emrinden hızlı şekilde yeni bir iş emri oluşturabilirsiniz.
 6. **Tüm iş emirleri** liste sayfasında, iş emrini gerektiği gibi düzenleyebilirsiniz.
 
 >[!NOTE]
->Yeni iş emri oluşturulduğunda, bazı bilgiler doğrudan varolan iş emrinden kopyalanır. Tahminler, araçlar, bakım denetim listeleri, işlem yapılacak yerleşim, adresler ve zamanlama hakkındaki bilgiler kopyalanmaz. Bunun yerine, Varlık Yönetiminde geçerli kurulumdan başlatılır. Bu nedenle, ilk iş emrinin oluşturulduğu zaman ile iş emrinin kopyasını oluşturduğunuz zaman arasında bilgiler değiştirilirse, değişiklikler yeni iş emrine dahil edilir. Örnekler tahminlerdeki değişiklikleri veya bakım denetim listelerindeki güncelleştirmelerdir.
+>Yeni iş emri oluşturulduğunda, bazı bilgiler doğrudan var olan iş emrinden kopyalanır. Tahminler, araçlar, bakım denetim listeleri, işlem yapılacak yerleşim, adresler ve zamanlama hakkındaki bilgiler kopyalanmaz. Bunun yerine, Varlık Yönetiminde geçerli kurulumdan başlatılır. Bu nedenle, ilk iş emrinin oluşturulduğu zaman ile iş emrinin kopyasını oluşturduğunuz zaman arasında bilgiler değiştirilirse, değişiklikler yeni iş emrine dahil edilir. Örnekler tahminlerdeki değişiklikleri veya bakım denetim listelerindeki güncelleştirmelerdir.
 
 Aşağıdaki örnekte **İş emrini kopyala** iletişim kutusunun bir örneği gösterilmektedir.
 

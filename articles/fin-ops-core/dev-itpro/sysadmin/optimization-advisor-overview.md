@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4e47aea3a9d1ce62a85aac9a4acce398b5847f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191420"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811982"
 ---
 # <a name="optimization-advisor-overview"></a>En iyi duruma getirme danışmanına genel bakış
 
@@ -38,7 +38,7 @@ Bir modülün hatalı yapılandırılması ve ayarlanması, uygulama özellikler
 
 **En iyi duruma getirme danışmanı** çalışma alanı yetkili kullanıcılara, iş analistlerine, işlev danışmanlarına ve BT destek görevlilerine modül yapılandırmasındaki ve iş verilerindeki sorunları tanımlama olanağı sunar. En iyi duruma getirme danışmanı modülü yapılandırması için en iyi yöntemleri önerir ve eski veya yanlış iş verilerini tanımlar.
 
-En iyi duruma getirme danışmanı düzenli aralıklarla en iyi uygulama kuralları kümesi çalıştırır. Varsayılan kurallar kümesi mevcuttur ancak kullanıcılar kendi özelleştirmelerine, bağımsız yazılım satıcılarından (ISV) aldıkları çözümlere ve iş verilerine özel kurallar da oluşturabilirler. Kural oluşturmayla ilgili daha fazla bilgi için bkz. [Yeni kurallar oluşturma](./create-rules-optimization-advisor.md).
+En iyi duruma getirme danışmanı düzenli aralıklarla en iyi uygulama kuralları kümesi çalıştırır. Varsayılan kurallar kümesi mevcuttur ancak kullanıcılar kendi özelleştirmelerine, bağımsız yazılım satıcılarından (ISV) aldıkları çözümlere ve iş verilerine özel kurallar da oluşturabilirler. Kural oluşturmayla ilgili daha fazla bilgi için bkz. [En iyi duruma getirme danışmanı için kurallar oluşturma](./create-rules-optimization-advisor.md).
 
 Bir kural ihlali tespit edildiğinde, en iyi duruma getirme fırsatı oluşturulur ve **En iyi duruma getirme danışmanı** çalışma alanında görüntülenir. Bir kullanıcı doğrudan **En iyi duruma getirme danışmanı** çalışma alanından uygun düzeltici eylemi gerçekleştirebilir.
 
@@ -92,6 +92,6 @@ Belirli kuralların değerlendirmesini devre dışı bırakmak için kural taraf
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Yeni kurallar oluşturma](./create-rules-optimization-advisor.md)
+[En iyi duruma getirme danışmanı için kurallar oluşturma](./create-rules-optimization-advisor.md)
 
 [Dynamics 365 for Finance and Operations içindeki İyileştirme danışmanı (Video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 792ceea52a9caa1a99217c77bb3fe4aafb80a0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 05d770234beb486eb3a8181b160967c802c15e8f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555025"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813167"
 ---
 # <a name="create-service-object-relations"></a>Servis nesnesi ilişkileri oluşturma 
 
@@ -38,7 +38,7 @@ Bir servis sözleşmesi için servis nesnesi ilişkisi oluşturmak üzere aşağ
 
 1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
 
-2.  **Servis sözleşmeleri** listesinde varolan bir servis sözleşmesini seçin veya yeni bir servis sözleşmesi oluşturmak için **Yeni**'ye tıklayın.
+2.  **Servis sözleşmeleri** listesinde var olan bir servis sözleşmesini seçin veya yeni bir servis sözleşmesi oluşturmak için **Yeni**'ye tıklayın.
 
 3.  **Servis sözleşmeleri** formunda, **Eylem Bölmesi**'ndeki **Servis sözleşmesi** sekmesinde, **İlişkiler** grubunda **Servis nesneleri**'ne tıklayın.
 
@@ -52,7 +52,7 @@ Bir servis siparişi için servis nesnesi ilişkisi oluşturmak üzere aşağıd
 
 1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.
 
-2.  **Servis siparişleri** listesinden varolan bir servis siparişini seçin veya yeni bir servis siparişi oluşturun.
+2.  **Servis siparişleri** listesinden var olan bir servis siparişini seçin veya yeni bir servis siparişi oluşturun.
 
 3.  **Servis siparişleri** formunda, **Eylem Bölmesi**'ndeki **Servis siparişi** sekmesinde, **İlişkiler** grubunda **Servis nesneleri**'ne tıklayın.
 
@@ -63,9 +63,9 @@ Bir servis siparişi için servis nesnesi ilişkisi oluşturmak üzere aşağıd
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Servis nesneleri](service-objects.md)
+[Servis nesnelerine genel bakış](service-objects.md)
 
-[servis nesnesi ilişkileri](service-object-relations.md)
+[Servis nesnesi ilişkileri](service-object-relations.md)
 
 [Şablon ürün reçeteleri](template-boms.md)
 

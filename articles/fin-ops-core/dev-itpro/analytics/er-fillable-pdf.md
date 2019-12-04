@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13744df950040056ba03a3847d84f93e266ea6c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181462"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771318"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>PDF şablonlarını doldurmak için ER yapılandırmaları tasarlama
 
@@ -46,7 +46,7 @@ Başlamadan önce, bu konudaki yordamları tamamlamak için kullandığınız hi
     - Elektronik raporlama işlev danışmanı
     - Sistem yöneticisi
 
-Ayrıca [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) yordamını da tamamlamanız gerekir.
+Ayrıca [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedürünü de tamamlamanız gerekir.
 
 Son olarak, [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111) adresinden aşağıdaki dosyaları indirmeniz gerekir.
 
@@ -173,7 +173,7 @@ Aşağıdaki resimde raporun diğer sayfaları için PDF şablonu gösterilmekte
     Güncelleştirilmiş PDF şablonunu düzenlenen biçime aktarmak için bu düğmeyi kullanabilirsiniz. Güncelleştirilmiş PDF şablonu içe aktarıldığında, biçim öğeleri listesi buna bağlı olarak değişecektir:
 
     - Güncelleştirilmiş PDF şablonundaki tüm yeni alanlar Için, düzenlenmiş ER biçiminde yeni biçim öğeleri oluşturulur.
-    - Güncelleştirilmiş PDF şablonunda, düzenlenen ER biçiminde varolan herhangi bir biçim öğesine karşılık gelen alanlar artık yoksa, o biçim öğeleri ER biçiminden silinir.
+    - Güncelleştirilmiş PDF şablonunda, düzenlenen ER biçiminde var olan herhangi bir biçim öğesine karşılık gelen alanlar artık yoksa, o biçim öğeleri ER biçiminden silinir.
 
 18. **Biçim** sekmesinde, **Ekler**'i seçin.
 
@@ -300,5 +300,5 @@ Takip eden resim, oluşturulan raporun diğer sayfasının bir örneğini göste
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [ER OPENXML formatında raporların oluşturulması için bir yapılandırma tasarlama](tasks/er-design-reports-openxml-2016-11.md)
-- [Microsoft WORD biçiminde raporlar oluşturmak için ER yapılandırmaları tasarlama](tasks/er-design-configuration-word-2016-11.md)
+- [ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)](tasks/er-design-reports-openxml-2016-11.md)
+- [Word biçiminde raporlar oluşturmak için ER yapılandırmaları tasarlama](tasks/er-design-configuration-word-2016-11.md)

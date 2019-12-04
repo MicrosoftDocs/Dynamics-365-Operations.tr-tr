@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019405"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811252"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Çevre birimlerini satış noktasına (POS) bağlama
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019405"
 Bu konu, çevre birimlerinin Perakende POS'unuza nasıl bağlanacağı açıklanır.
 
 > [!NOTE]
-> Belirli yükleme yönergeleri için bkz. [Perakende donanım istasyonunu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md) ve [Retail Modern POS self servis indirme/yükleme ve Modern POS ve Bulut POS'ta cihazı etkinleştirme](retail-modern-pos-device-activation.md).
+> Belirli yükleme yönergeleri için bkz. [Retail hardware station'ı yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md) ve [Retail Modern POS'u (MPOS) yapılandırma, yükleme ve etkinleştirme](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Anahtar bileşenler
 
@@ -139,7 +139,7 @@ POS profillerini, **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &g
 
 - **Bilgi kodları** FastTab'i:
 
-    - Bilgi kodlarının POS'ta yönetilmesinin tüm yönleri. Ayrıntılar için bkz: [Bilgi kodları](info-codes-retail.md).
+    - Bilgi kodlarının POS'ta yönetilmesinin tüm yönleri. Ayrıntılar için bkz. [Bilgi kodları ve bilgi kodu grupları](info-codes-retail.md).
 
 - **Makbuz numaralandırma** FastTab'i:
 

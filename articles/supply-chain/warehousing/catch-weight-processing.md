@@ -3,7 +3,7 @@ title: Ambar yönetimi ile Fiili ağırlık ürün işlemi
 description: Bu konuda ambar içinde işin nasıl ve nerede gerçekleştirileceğini belirlemek için iş şablonları ve konum yönergelerinin nasıl kullanılacağı açıklanmaktadır.
 author: perlynne
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 5800f95de0ec773f40c506662a031887810b8c92
+ms.sourcegitcommit: db222a1719d4756d9ccb73fc71e7eaf4521c23a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887147"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2696651"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile Fiili ağırlık ürün işlemi
 
@@ -181,7 +181,7 @@ Her iş akışı ambar yönetimi ile fiili ağırlık ürün işlemeyi desteklem
 - Ambar uygulaması kullanılarak bir stok durumu değişikliği işlendiğinde.
 - Bir ambar transferi ambar uygulaması kullanılarak gerçekleştirildiğinde.
 - Ambar uygulaması aracılığıyla giriş ve çıkış ayarlaması işlendiğinde.
-- Çekme işi satış ve transfer emirleri için işlendiğinde. (Fiili ağırlık etiketleri üretim bileşeni çekme için kaydedilemez.)
+- Çekme işi satış, transfer ve üretim satırları için işlendiğinde.
 - Çekilen miktarlar yük satırlarından çıkartıldığında, konteynerlerin kullanılmasından bağımsız olarak.
 - Ürünler bir paketleme istasyonunda konteynerlere paketlendiğinde.
 - Konteynerler yeniden açıldığında.

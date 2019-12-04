@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5454b9003105e4b44ec7577e5f8989c75554aeb9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: e6126c62f3768871550a056c2c7670ec801e3b7d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572233"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815400"
 ---
 # <a name="create-purchase-orders"></a>Satınalma siparişleri oluşturma
 
@@ -86,11 +86,11 @@ Bir PO'nun tamamlanmasını geciktirmek zorunda kalabilirsiniz. Örneğin, ürü
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Satınalma siparişine genel bakış](purchase-order-overview.md)
+[Satın alma siparişine genel bakış](purchase-order-overview.md)
 
-[Satınalma siparişi onayı ve doğrulaması](purchase-order-approval-confirmation.md)
+[Satınalma siparişlerini onaylama](purchase-order-approval-confirmation.md)
 
-[Ürün girişine karşılık satınalma siparişleri](product-receipt-against-purchase-orders.md)
+[Ürün girişi ve satınalma siparişleri karşılaştırması](product-receipt-against-purchase-orders.md)
 
 [Satıcı faturalarına genel bakış](../../finance/accounts-payable/vendor-invoices-overview.md)
 

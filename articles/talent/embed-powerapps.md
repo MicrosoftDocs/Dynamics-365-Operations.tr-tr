@@ -1,6 +1,6 @@
 ---
-title: PowerApps uygulamalarını Dynamics 365 - Core HR içine katıştırma
-description: Bu konu, PowerApps menü öğesinin Sistem yönetim modülünden kaybolduğu sorunu ortadan kaldırmayı açıklamaktadır.
+title: Power Apps uygulamalarını Dynamics 365 - Core HR içine katıştırma
+description: Bu konu, Microsoft Power Apps menü öğesinin Sistem yönetim modülünden kaybolduğu sorunu ortadan kaldırmayı açıklamaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,41 +17,41 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b510c10ebfcf4939eb2e1297972d27aa1812ae5a
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6d1b7f1dd71e6bcbf10c4d91fe33e9494b041a2c
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551015"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830221"
 ---
-# <a name="embed-powerapps-apps-in-dynamics-365---core-hr"></a>PowerApps uygulamalarını Dynamics 365 - Core HR içine katıştırma
+# <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a>Power Apps uygulamalarını Dynamics 365 - Core HR içine katıştırma
 
 [!include [banner](includes/banner.md)]
 
 **Çıkış**
 
-**PowerApps** menü öğesi, **Sistem yönetimi** modülünden kayboldu.
+**Power Apps** menü öğesi, **Sistem yönetimi** modülünden kayboldu.
 
 **Nedeni**
 
-Kullanıcı arabirimi (UI) tasarımı değiştirildi ve Microsoft PowerApps, şimdi standart kişiselleştirme modeline dahildir.
+Kullanıcı arabirimi (UI) tasarımı değiştirildi ve Microsoft Power Apps, şimdi standart kişiselleştirme modeline dahildir.
 
 **Çözünürlük**
 
-PowerApps uygulamalarının katıştırılma şekli değiştirildi. Artık PowerApps uygulamaları kişiselleştirme modeli aracılığıyla eklenir. PowerApps uygulamalarını Microsoft Dynamics 365 Talent içindeki neredeyse her sayfaya ekleyebilirsiniz.
+Power Apps'ın katıştırılma şekli değiştirildi. Artık Power Apps kişiselleştirme modeli aracılığıyla eklenir. Power Apps'i Microsoft Dynamics 365 Talent içinde neredeyse her sayfaya ekleyebilirsiniz.
 
-Talent içerisinde PowerApps uygulamalarının nasıl katıştırılacağı hakkında bilgi için bkz: [PowerApps uygulamalarını katıştırma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Talent içerisinde Power Apps'in nasıl katıştırılacağı hakkında bilgi için bkz. [Microsoft Power Apps'i katıştırma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
-Değişimden önce uygulamalarını katıştırmış olan her PowerApps kullanıcısının yeni modele yükseltilmiş olması gerekir.
+Değişimden önce uygulamalarını katıştırmış olan her Power Apps kullanıcısının yeni modele yükseltilmiş olması gerekir.
 
-**PowerApps** düğmesi, Talent içindeki neredeyse her sayfanın sağ üst kösesindedir. Bir PowerApps uygulaması eklemek için bu düğmeyi kullanın.
+**Power Apps** düğmesi, Talent içindeki neredeyse her sayfanın sağ üst kösesindedir. Power Apps'i eklemek için bu düğmeyi kullanın.
 
 Aşağıda bir örnek verilmiştir.
 
 1. **Personel yönetimi \> Bağlantılar \> Çalışanlar \> Personel**.
-2. **PowerApps** düğmesini seçin ve sonra **Bir PowerApp ekle**'yi seçin.
+2. **Power Apps** düğmesini seçin ve sonra **Bir PowerApp ekle**'yi seçin.
 
-    ![PowerApps düğmesi](media/png.png)
+    ![Power Apps düğmesi](media/png.png)
 
 3. **Bir PowerApp ekleyin** iletişim kutusundaki alanları tamamlayın.
 
@@ -67,4 +67,4 @@ Alternatif olarak bu adımları izleyin.
 
 2. Araç çubuğunda **Ekle \> PowerApp**'i seçin.
 
-    ![Kişiselleştirme araç çubuğunu kullanarak bir PowerApps uygulaması ekleme](media/powerapp-bar.png)
+    ![Kişiselleştirme araç çubuğunu kullanarak bir Power Apps uygulaması ekleme](media/powerapp-bar.png)

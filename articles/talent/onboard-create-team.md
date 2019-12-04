@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: efaa837ef39d8e0daf561fe385f22ed7b0acd305
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552058"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814847"
 ---
 # <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>Dynamics 365 Talent - Onboard'u kullanarak işe alım ekibi oluşturma
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Talent: Onboard'da işe alım ekipleri oluşturabilirsiniz. Daha sonra her takıma işe alım kılavuzları ve şablonlar atayabilirsiniz.
+Microsoft Dynamics 365 Talent: Onboard'ta işe alım ekipleri oluşturabilirsiniz. Daha sonra her takıma işe alım kılavuzları ve şablonlar atayabilirsiniz.
 
 ## <a name="create-a-hiring-team"></a>İşe alım takımı oluşturma
 
@@ -35,7 +35,7 @@ Microsoft Dynamics 365 Talent: Onboard'da işe alım ekipleri oluşturabilirsini
 2. **Takımlar** altında **Ekle** (artı \[**+**\] işareti) döşemesini seçin.
 3. **Yeni bir takım oluştur** iletişim kutusunda, **Takım adı**altında, işe alma ekibine bir ad girin.
 
-    ![[Onboard'da yeni bir takım oluşturma] (./media/onboard-create-team.png)](./media/onboard-create-team.png)
+    ![[Onboard'ta yeni bir takım oluşturma] (./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
 4. **Takım üyelerini seç**in altında, her ekip üyesinin adını veya e-posta adresini girin.
 
@@ -72,6 +72,6 @@ Microsoft Dynamics 365 Talent: Onboard'da işe alım ekipleri oluşturabilirsini
 ### <a name="see-also"></a>Ayrıca bkz.
 
 - [Onboard uygulamasını deneyin veya satın alın](https://dynamics.microsoft.com/talent/onboard/)
-- [Yenilikler](./whats-new.md)
-- [Sürüm notları](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Destek alma](./talent-support.md)
+- [Dynamics 365 Talent'teki yenilikler veya değişiklikler](./whats-new.md)
+- [Sürüm planları](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Microsoft Dynamics 365 Talent için destek alma](./talent-support.md)

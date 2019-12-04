@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 977037f0e2b313ebf05a3e1616d34567f82e82d7
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ba475721b69e7c75dfd2197597b54050a3598d37
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250404"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770278"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Proje görevlerini doğrudan Project Service Automation'dan Finance and Operations'a eşitleme
 
@@ -32,7 +32,7 @@ Bu konu proje fiili değerlerini, doğrudan Dynamics 365 Project Service Automat
 
 > [!NOTE]
 > - Proje görev tümleştirmesi, gider hareket kategorileri, saat tahminleri, gider tahminleri ve işlev kilitleme sürüm 8.0 içinde kullanılabilir.
-> - Enterprise Edition 7.3.0 kullanıyorsanız KB 4132657 ve KB 4132660'ı yükledikten sonra proje görevlerini, gider hareketi kategorilerini, saat tahminlerini, gider tahminlerini ve gerçek değerleri tümleştirmek ve işlev kilitlemeyi yapılandırmak için şablonları kullanabilirsiniz. Muhasebe dağıtımlarını sıfırlamanız gerekiyorsa KB 4131710'u da yüklemenizi öneririz.
+> - Enterprise Edition 7.3.0 kullanıyorsanız KB 4132657 ve KB 4132660'ı yükledikten sonra proje görevlerini, gider hareketi kategorilerini, saat tahminlerini, gider tahminlerini ve gerçek değerleri tümleştirmek ve işlev kilitlemeyi yapılandırmak için şablonları kullanabilirsiniz. Muhasebe dağılımlarını sıfırlamanız gerekiyorsa KB 4131710'u da yüklemenizi öneririz.
 > - Fiili değerlerin tümleştirmesi sürüm 8.0.1 veya sonrasında kullanılabilir.
 
 ## <a name="data-flow-for-project-service-automation-to-finance"></a>Project Service Automation'dan Finance'e veri akışı
@@ -45,7 +45,7 @@ Aşağıdaki çizimde, verilerin Project Service Automation ile Finance arasınd
 
 ## <a name="template-and-task"></a>Şablon ve görev
 
-Şablona erişmek için, Microsoft PowerApps yönetim merkezi'nde **Projeler**'i seçin ve ardından, sağ üst köşede **Yeni proje**'yi seçerek genele açık şablonları seçin.
+Şablona erişmek için, Microsoft Power Apps yönetim merkezi'nde **Projeler**'i seçin ve ardından, sağ üst köşede **Yeni proje**'yi seçerek genele açık şablonları seçin.
 
 Aşağıdaki şablon ve temel görev, Project Service Automation'dan alınan proje görevlerini Finance ile eşitlemek için kullanılır:
 

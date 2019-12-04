@@ -3,7 +3,7 @@ title: Videolar
 description: Bu sayfa Finance and Operations uygulaması için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşma videolarını listeler.
 author: josaw1
 manager: AnnBe
-ms.date: 10/20/2019
+ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: fb14ffa500fcf84030eca075545716a79d7b2b27
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635115"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781862"
 ---
 # <a name="videos"></a>Videolar 
 
@@ -82,7 +82,7 @@ ms.locfileid: "2635115"
 
 ### <a name="customize-the-app"></a>Uygulamayı özelleştirme
 - [Özel alanlar ekle](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [PowerApps'i katıştırma](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+- [Power Apps'i katıştırma](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
 ### <a name="expenses"></a>Gider
 - [Gider deneyimi](https://youtu.be/Ocy-MsTvEE0)
@@ -101,6 +101,9 @@ ms.locfileid: "2635115"
 ### <a name="organization-administration"></a>Kuruluş yönetimi
 
 - [Belge yönetimi](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+
+### <a name="revenue-recognition"></a>Gelir kabulü
+- [Gelir kabulü özelliğini kullanma](https://youtu.be/v3amIsiqvoo)
 
 ### <a name="tax-engine"></a>Vergi altyapısı
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 20d48795b23628bbba2896bf48940936a25e0435
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550096"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771341"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Hesaplanan alan türünün ER veri kaynaklarının parametreleştirilmiş çağrılarını destekleme
 
@@ -52,10 +52,10 @@ Bu konudaki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
 | Örnek ER verisi modeli yapılandırması    | Parametreleştirilmiş calls.version.1.xml öğrenme modeli     |
 | Örnek ER meta verisi yapılandırması      | Parametreleştirilmiş calls.version.1.xml öğrenmek için meta veri  |
 | Örnek ER model eşleme yapılandırması | Parametreleştirilmiş calls.version.1.xml öğrenmek için eşleme |
-| Örnek ER biçim yapılandırması        | Parametreleştirilmiş calls.version.1.xml öğrenmek için biçimlendirme  |
+| Örnek ER biçimi yapılandırması        | Parametreleştirilmiş calls.version.1.xml öğrenmek için biçimlendirme  |
 
-## <a name="sign-in-to-your-rcs-instance"></a>RCS örneğinizde oturum açın
-Bu örnekte, Litware, Inc. adlı örnek şirket için bir yapılandırma oluşturacaksınız. Öncelikle RCS'de [ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) yordamındaki adımları tamamlamanız gerekir.
+## <a name="sign-in-to-your-rcs-instance"></a>RCS kurulumunuzda oturum açın
+Bu örnekte, Litware, Inc. adlı örnek şirket için bir yapılandırma oluşturacaksınız. Öncelikle, RCS'de [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedüründeki adımları tamamlamanız gerekir:
 
 1. Varsayılan panoda **Elektronik raporlama**'yı seçin.
 2. **Raporlama yapılandırmaları**'nı seçin.
@@ -75,21 +75,21 @@ Bu örnekte, Litware, Inc. adlı örnek şirket için bir yapılandırma oluştu
 3. **Tasarımcı**’yı seçin.
 4. **Tasarımcı**’yı seçin.  
    
-Bu ER model eşlemesi aşağıdakileri yapacak şekilde tasarlanmıştır:
+    Bu ER model eşlemesi aşağıdakileri yapacak şekilde tasarlanmıştır:
 
-- **TaxTable** tablosunda bulunan vergi kodlarının (**Vergi** veri kaynağı) listesini getirmek.
-- **TaxTrans** tablosunda bulunan vergi hareketlerinin (**Hareket** veri kaynağı) listesini getirmek:
+    - **TaxTable** tablosunda bulunan vergi kodlarının lisesini (**Vergi** veri kaynağı) getirmek.
+    - **TaxTrans** tablosunda bulunan vergi hareketlerinin listesini (**Hareket** veri kaynağı) getirmek:
     
-    - Getirilen hareketlerin (**GR** veri kaynağı) listesini vergi koduna göre gruplandırmak.
-    - Vergi kodu başına toplanmış değerleri izleyen gruplanan hareketler için hesaplama yapmak:
+        - Getirilen hareketlerin (**GR** veri kaynağı) listesini vergi koduna göre gruplandırmak.
+        - Her vergi kodu için toplu değerleri izleyen gruplanan hareketler için hesaplama yapmak:
 
-        - Vergi matrahı değerlerinin toplamı.
-        - Vergi değerlerinin toplamı.
-        - Uygulanan vergi oranının minimum değeri.
+            - Vergi matrahı değerlerinin toplamı.
+            - Vergi değerlerinin toplamı.
+            - Uygulanan vergi oranının minimum değeri.
 
-Bu yapılandırmadaki model eşlemesi, bu model için oluşturulan ve Finance and Operations'da yürütülen ER biçimleri için temel veri modelini uygular. Sonuç olarak **Vergi** ve **Gr** veri kaynaklarının içeriği soyut veri kaynakları gibi ER biçimleri için sunulur.
+    Bu yapılandırmadaki model eşlemesi, bu model için oluşturulan ve Finance and Operations'da yürütülen ER biçimleri için temel veri modelini uygular. Sonuç olarak **Vergi** ve **Gr** veri kaynaklarının içeriği soyut veri kaynakları gibi ER biçimleri için sunulur.
 
-  ![Vergi ve Gr veri kaynaklarını gösteren model eşleme tasarımcısı sayfası](media/er-calculated-field-type-01.png)
+    ![Vergi ve Gr veri kaynaklarını gösteren model eşleme tasarımcısı sayfası](media/er-calculated-field-type-01.png)
 
 5.  **Model eşleme tasarımcısı** sayfasını kapatın
 6.  **Model eşleme** sayfasını kapatın.
@@ -100,31 +100,31 @@ Bu yapılandırmadaki model eşlemesi, bu model için oluşturulan ve Finance an
 2. **Parametreli çağrıları öğrenmek için biçimlendirme**'yi seçin.
 3. **Tasarımcı**’yı seçin. Bu ER biçimi aşağıdakileri yapacak şekilde tasarlanmıştır:
 
-  - XML biçiminde bir vergi beyanı oluşturmak.
-  - Vergi beyanında aşağıdaki vergilendirme düzeylerini sunmak: normal, azaltılmış ve yok.
-  - Her bir vergilendirme düzeyinde birden çok ayrıntı sunmak ve her düzeyde farklı ayrıntılara sahip olmak.
+    - XML biçiminde bir vergi beyanı oluşturmak.
+    - Vergi beyanında aşağıdaki vergilendirme düzeylerini sunmak: normal, azaltılmış ve yok.
+    - Her bir vergilendirme düzeyinde birden çok ayrıntı sunmak ve her düzeyde farklı ayrıntılara sahip olmak.
 
-  ![Biçim tasarımcısı sayfası](media/er-calculated-field-type-02.png)
+    ![Biçim tasarımcısı sayfası](media/er-calculated-field-type-02.png)
 
 4. **Eşleme**'yi seçin.
 5. **Model**, **Veri** ve **Özet** öğelerini genişletin. 
 
-   Hesaplanan **Model.Data.Summary.Level** alanı, vergilendirme düzeyi kodunu döndüren ifadeyi içerir (**Normal**, **Azaltılmış**, **Yok** veya **Diğer)**; bu ifade çalışma zamanında **Model.Data.Summary** veri kaynağından elde edilebilecek vergi kodu için metin değeridir.
+    Hesaplanan **Model.Data.Summary.Level** alanı, vergilendirme düzeyi kodunu döndüren ifadeyi içerir (**Normal**, **Azaltılmış**, **Yok** veya **Diğer)**; bu ifade çalışma zamanında **Model.Data.Summary** veri kaynağından elde edilebilecek vergi kodu için metin değeridir.
 
-  ![Parametreli çağrıları öğrenmek için veri modeli modelinin ayrıntılarını gösteren biçim tasarımcısı sayfası](media/er-calculated-field-type-03.png)
+    ![Parametreli çağrıları öğrenmek için veri modeli modelinin ayrıntılarını gösteren biçim tasarımcısı sayfası](media/er-calculated-field-type-03.png)
 
 6. **Model**.**Data2** öğesini genişletin.
 7. **Model**.**Data2.Summary2** öğesini genişletin.
    
-   **Model**.**Data2.Summary2**, **Model.Data.Summary** veri kaynağı hareketi ayrıntılarını vergilendirme düzeyine göre (**Model.Data.Summary.Level** hesaplanan alanı tarafından döndürülen) gruplandırmak ve toplamları hesaplamak üzere yapılandıırlır.
+    **Model**.**Data2.Summary2**, **Model.Data.Summary** veri kaynağı hareketi ayrıntılarını vergilendirme düzeyine göre (**Model.Data.Summary.Level** hesaplanan alanı tarafından döndürülen) gruplandırmak ve toplamları hesaplamak üzere yapılandıırlır.
 
-  ![Model.Data2.Summary2 veri kaynağının ayrıntılarını gösteren biçim tasarımcısı sayfası](media/er-calculated-field-type-04.png)
+    ![Model.Data2.Summary2 veri kaynağının ayrıntılarını gösteren biçim tasarımcısı sayfası](media/er-calculated-field-type-04.png)
 
 8. **Model**.**Data2.Level1**, **Model**.**Data2.Level2** ve **Model**.**Data2.Level3.** hesaplanan alanlarını gözden geçirin. Bu hesaplanan alanlar **Model**.**Data2.Summary2** kayıtları listesini filtremek için kullanılır ve yalnızca belirli bir vergilendirme düzeyini temsil eden kayıtları döndürür.
 9. **Biçim tasarımcısı** sayfasını kapatın.
 
 ## <a name="create-a-derived-format"></a>Türetilmiş biçim oluşturma
-Varolan üç alanı kullanmak yerine, gerekli vergilendirme düzeyini filtrelemek için bir hesaplanmış alan ekleyerek sağlanan biçimi geliştirebilirsiniz: **Model**.**Data2.Level1**, **Model**.**Data2.Level2,** ve **Model**.**Data2.Level3**. Gerekli vergilendirme düzeyi, bu yeni hesaplanan alanın çağrıldığı yerde belirtilebilir.
+Var olan üç alanı kullanmak yerine, gerekli vergilendirme düzeyini filtrelemek için bir hesaplanmış alan ekleyerek sağlanan biçimi geliştirebilirsiniz: **Model**.**Data2.Level1**, **Model**.**Data2.Level2,** ve **Model**.**Data2.Level3**. Gerekli vergilendirme düzeyi, bu yeni hesaplanan alanın çağrıldığı yerde belirtilebilir.
 
 1. Yapıalndırma ağacında, **Parametreli çağrıları öğrenme modeli** öğesini genişletin.
 2. **Parametreli çağrıları öğrenmek için biçimlendirme**'yi seçin.
@@ -309,7 +309,7 @@ Parametreli hesaplanan alan bir kayıt döndürdüğünde, öğeleri biçimlendi
 Yapılandırılmış parametreli hesaplanan alanların doğru çalıştığından emin olmak için başlangıç ve geliştirilmiş ER biçimlerini çalıştırabilirsiniz.
 
 ### <a name="import-er-configurations"></a>ER yapılandırmaları içe aktarın
-**RCS** türünün ER deposunu kullanarak RCS'den gözden geçirilmiş yapılandırmaları içe aktarabilirsiniz. [Regulatory Configuration Services'dan Elektronik raporlama yapılandırmalarını içe aktarma](rcs-download-configurations.md) konusundaki adımları zaten biliyorsanız, yapılandırmaları ortamınıza aktarmak için, bu konuda daha önce açıklanan yapılandırılmış ER deposunu kullanın. Aksi halde, şu adımları izleyin:
+**RCS** türünün ER deposunu kullanarak RCS'den gözden geçirilmiş yapılandırmaları içe aktarabilirsiniz. [Düzenleyici Yapılandırma Hizmetleri'nden (RCS) Elektronik raporlama (ER) yapılandırmalarını içe aktarma](rcs-download-configurations.md) konusundaki adımları zaten biliyorsanız yapılandırmaları ortamınıza aktarmak için bu konuda daha önce açıklanan yapılandırılmış ER deposunu kullanın. Aksi halde, şu adımları izleyin:
 
 1. **DEMF** şirketini seçin ve varsayılan panoda **Elektronik raporlama**'yı seçin.
 2. **Raporlama yapılandırmaları**'nı seçin.
@@ -339,4 +339,4 @@ Yapılandırılmış parametreli hesaplanan alanların doğru çalıştığında
 8. Oluşturulan çıktıların içeriğini karşılaştırın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-[Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md)
+[Elektronik raporlamada (ER) formül tasarımcısı](general-electronic-reporting-formula-designer.md)

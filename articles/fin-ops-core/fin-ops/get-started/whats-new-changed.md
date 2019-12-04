@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 7559ef3aa3ce816d375f263ff4a4e0cf3d632249
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e7a3d32ba9c9ac0f6497db78d125dc34b4cfbc61
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658725"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811445"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-home-page"></a>Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler
 [!include [banner](../includes/banner.md)]
 
 2019 Ekim itibarıyla bu sayfa artık korunmamaktadır. Bu konudaki bilgiler, 2019 Ekim öncesinde yayımlanan Finance and Operations uygulamaları için özellik bilgilerinin nerede bulunacağını göstermektedir.
 
-En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye yükseltme işlemi](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
+En son sürüme yükseltme hakkında bilgi için bkz. [Finance and Operations'ı en son güncelleştirmeye taşıma işlemi](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 [!include [release notes](../includes/release-notes.md)]
 

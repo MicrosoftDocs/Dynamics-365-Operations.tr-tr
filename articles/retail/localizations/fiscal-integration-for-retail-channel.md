@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025419"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812319"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Perakende kanalları için mali tümleştirme genel bakışı
 
@@ -36,7 +36,7 @@ Bu konu, Dynamics 365 Retail içinde kullanılabilen mali tümleştirme yeterlil
 - Retail POS içinde tamamlanan satışlar ve iadeler için veri dairesi tarafından işletilen harici bir web hizmetine güvenli bir biçimde bilgi göndermek.
 - Dijital imzalar kullanarak satış hareketlerini değiştirilememesini garanti etmek.
 
-Mali tümleştirme işlevi, Retail POS ve mali cihazlar ve servisler arasındaki tümleştirmeyi daha da geliştirmek ve özelleştirmek için ortak çözüm sağlayan bir çerçevedir. Bu işlev, belirli ülkeler ve bölgeler için temel perakende senaryolarını destekleyen mali tümleştirme örnekleri de içerir ve belirli mali cihazlar ve servisler ile çalışır. Mali tümleştirme örneği, Perakende bileşenlerinin çeşitli eklentilerinden oluşur ve yazılım geliştirme paketine (SDK) dahildir. Mali tümleştirme örnekleri hakkında daha fazla bilgi için bkz. [Retail SDK'da mali tümleştirme örnekleri](#fiscal-integration-samples-in-the-retail-sdk). Perakende SDK'yı yüklemek ve kullanmak hakkında daha fazla bilgi için bkz. [Perakende SDK genel bakışı](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Mali tümleştirme işlevi, Retail POS ve mali cihazlar ve servisler arasındaki tümleştirmeyi daha da geliştirmek ve özelleştirmek için ortak çözüm sağlayan bir çerçevedir. Bu işlev, belirli ülkeler ve bölgeler için temel perakende senaryolarını destekleyen mali tümleştirme örnekleri de içerir ve belirli mali cihazlar ve servisler ile çalışır. Mali tümleştirme örneği, Perakende bileşenlerinin çeşitli eklentilerinden oluşur ve yazılım geliştirme paketine (SDK) dahildir. Mali tümleştirme örnekleri hakkında daha fazla bilgi için bkz. [Retail SDK'da mali tümleştirme örnekleri](#fiscal-integration-samples-in-the-retail-sdk). Retail SDK'yi yükleme ve kullanma hakkında daha fazla bilgi için bkz. [Retail yazılım geliştirme seti (SDK) mimarisi](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Mali tümleştirme örneği tarafından desteklenmeyen diğer senaryoları desteklemek için, Retail POS'u diğer mali cihazlar ve hizmetlerle tümleştirmek veya diğer ülke ve bölgelerin gereksinimlerini karşılamak için mevcut mali tümleştirme örneğini genişletmeniz veya mevcut bir örneği örnek olarak kullanarak yeni bir örnek oluşturmanız gerekir.
 
@@ -141,6 +141,6 @@ Aşağıdaki mali tümleştirme örnekleri Retail SDK içerisinde şu anda kulla
 
 Aşağıdaki mali tümleştirme işlevi de ayrıca Retail SDK içinde kullanılabilir ancak mali tümleştirme çerçevesinin avantajlarından faydalanmaz. Bu işlevin mali tümleştirme çerçevesine geçirilmesi daha sonraki güncelleştirmeler için planlanmıştır.
 
-- [Fransa için dijital imza](emea-fra-cash-registers.md)
-- [Norveç için dijital imza](emea-nor-cash-registers.md)
-- [İsveç için kontrol birimi tümleştirmesi örneği](./retail-sdk-control-unit-sample.md)
+- [Fransa için yazar kasa işlevi](emea-fra-cash-registers.md)
+- [Norveç için yazar kasa işlevi](emea-nor-cash-registers.md)
+- [İsveç için kontrol birimleriyle Retail POS tümleştirmesi örneği](./retail-sdk-control-unit-sample.md)

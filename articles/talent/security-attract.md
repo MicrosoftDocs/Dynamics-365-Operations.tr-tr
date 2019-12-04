@@ -1,6 +1,6 @@
 ---
-title: Attract'ta güvenlik ve rol yönetimi
-description: Bu konu, Microsoft Dynamics 365 Talent - Attract'taki rol güvenliği hakkında bilgi sağlamaktadır.
+title: Attract'te uygun kullanıcı izinlerini ayarlama
+description: Bu konu, Microsoft Dynamics 365 Talent - Attract'teki rol güvenliği hakkında bilgi sağlamaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7db2ac241db121f07eb3524c7c5c9a8f64e78537
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: efac512cfa07bb2183f06b8be45f74bef9af0767
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551438"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832710"
 ---
-# <a name="security-and-role-management-in-attract"></a>Attract'ta güvenlik ve rol yönetimi
+# <a name="set-user-permissions-in-attract"></a>Attract'te uygun kullanıcı izinlerini ayarlama
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract rol tabanlı güvenlik kullanır. Başka bir deyişle, erişim bireysel kullanıcılara değil, kullanıcılara atanan güvenlik rollerine verilir. Bir güvenlik rolüne atanmış bir kullanıcı bu rolle ilişkilendirilen ayrıcalıkları kümesine erişebilir.
 
@@ -43,7 +43,7 @@ Yönetici rolü, diğer kullanıcıları ekleme ve izinlerini değiştirme izni 
 
 - **Ekle** - Yönetici Merkezi üzerinde **Kullanıcı izinleri** sekmesinde, **Rolleri Ata**'yı seçin, eklenecek kullanıcıyı arayın ve sonra o kullanıcıya izinleri atayın.
 - **Düzenle** – Kullanıcı arayın veya kullanıcıyı listede bulun, izinlerini değiştirmek için **Düzenle**'yi seçin.
-- **Sil** – Bir kullanıcının izinlerini silmekle kullanıcıyı sistemden kaldırmanızsınız. Bununla birlikte, kullanıcı erişimi ve ayrıcalıklarını Attract'ta sınırlarsınız. Örneğin, Hilda İşe alma yöneticisi rolüne atanmış ve işe alma müdürü olarak bir işe eklenir. İşe alma yöneticisi rolünden Hilda daha sonra kaldırılırsa, işte işe alma müdürü olarak kalır ve yine de bu işi erişebilir. Bununla birlikte, başka iş oluşturamaz.
+- **Sil** – Bir kullanıcının izinlerini silmekle kullanıcıyı sistemden kaldırmanızsınız. Bununla birlikte, kullanıcı erişimi ve ayrıcalıklarını Attract'te sınırlarsınız. Örneğin, Hilda İşe alma yöneticisi rolüne atanmış ve işe alma müdürü olarak bir işe eklenir. İşe alma yöneticisi rolünden Hilda daha sonra kaldırılırsa, işte işe alma müdürü olarak kalır ve yine de bu işi erişebilir. Bununla birlikte, başka iş oluşturamaz.
 
 Aşağıdaki bölümler her rolün üst düzey bir açıklamasını sağlar. Konunun ilerleyen bölümlerindeki tablolar hakkında ayrıntılı bilgi sağlar.
 
@@ -52,7 +52,7 @@ Aşağıdaki bölümler her rolün üst düzey bir açıklamasını sağlar. Kon
 
 ## <a name="administrator"></a>Yönetici
 
-Yönetici rolüne atanan kullanıcılar Attract'ta tüm verilere erişebilir ve değiştirebilir. Yöneticiler veriler oluşturur, okur, günceller ve siler. Yöneticiler ayrıca Yönetici Merkezi'ne de erişebilir ve burada Attract uygulamasını yapılandırabilir ve kullanıcı bilgilerini ayarlayabilirler. En az bir kişi Yönetici rolüne atanması önerilir. Varsayılan olarak, Microsoft PowerApps ortam yöneticisi Attract'ta bir yönetici olarak ayarlanır. Attract'ın deneme sürümüne kaydolursanız Yönetici rolü otomatik olarak size atanır. Şu anda işler oluşturmak için Yönetici rolüne sahip kullanıcılar da İşe alan rolü veya İşe alma yöneticisi rolüne sahip olmalıdır.
+Yönetici rolüne atanan kullanıcılar Attract'te tüm verilere erişebilir ve değiştirebilir. Yöneticiler veriler oluşturur, okur, günceller ve siler. Yöneticiler ayrıca Yönetici Merkezi'ne de erişebilir ve burada Attract uygulamasını yapılandırabilir ve kullanıcı bilgilerini ayarlayabilirler. En az bir kişi Yönetici rolüne atanması önerilir. Varsayılan olarak, Microsoft Power Apps ortam yöneticisi Attract'te bir yönetici olarak ayarlanır. Attract'in deneme sürümüne kaydolursanız Yönetici rolü otomatik olarak size atanır. Şu anda işler oluşturmak için Yönetici rolüne sahip kullanıcılar da İşe alan rolü veya İşe alma yöneticisi rolüne sahip olmalıdır.
 
 ## <a name="hiring-manager"></a>İşe Alım Müdürü
 

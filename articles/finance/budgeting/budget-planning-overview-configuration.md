@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce94f3bbb988640bc53ca2170c7ed54c6c01c18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5a33ced073394f0f3aa1b0b2e177e4608ca5bcf6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180378"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772042"
 ---
 # <a name="budget-planning-overview"></a>Bütçe planlama genel bakış
 
@@ -76,7 +76,7 @@ Aşağıdaki örnekte, şirket genel merkezleri, başlangıç bütçe temel tuta
 
 **Organizasyon hiyerarşisi** sayfasında, bir organizasyon hiyerarşisini her bir bütçe planlama süreci için bir bütçe planlama hiyerarşisi olarak belirleyebilirsiniz. Bütçe planlama hiyerarşisi, başka amaçlar için kullanılan standart organizasyon hiyerarşisiyle eşleşmek zorunda değildir. Bu hiyerarşi, verilerin toplanması ve dağıtılması için kullanıldığından, farklı bir yapıya sahip olmasını isteyebilirsiniz. Bu örnek şemada, satış departmanları bütçe ve finans departmanlarını içeren bir genel merkez düzeyi altındadır. Bu yapı, satış departmanlarına yönelik işlemlerin yönetilmesi için kullanılan yapı büyük olasılıkla farklı olacaktır. Her bir bütçe planlama sürecine sadece tek bir organizasyon hiyerarşisi atanabilir. 
 
-Daha fazla bilgi için, bkz. [Organizasyonlar ve organizasyon hiyerarşileri](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Daha fazla bilgi için bkz. [Organizasyonlar ve organizasyon hiyerarşileri](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Kullanıcı güvenliği
 
@@ -155,7 +155,8 @@ Bütçe tutarları sütunlarına ek olarak proje, teklif edilen proje, kıymet v
 
 Her bir düzen öğesinin (sütunun) düzenlenebilir olup olmayacağını ve bu düzen için oluşturulan bir çalışma sayfası şablonunda mevcut olup olmayacağını da belirleyebilirsiniz. Örnek şemada, Tahmin aşaması için kullanılan düzende Tahmin sütunları düzenlenebilirken, PY Satışları ve Sözleşmeler sütunları salt okunurdur.
 
-[!Note] Varsayılan olarak [Bütçe planlama düzenini genişlet](./extending-budget-planning-layout.md) bölümündeki adımlarla bütçeleme planlamasını genişlettiğinizde 36 sütununuz olur.
+> [!NOTE] 
+> Varsayılan olarak [Bütçe planlama düzenini genişletme](./extending-budget-planning-layout.md) bölümündeki adımlarla bütçeleme planlamasını genişlettiğinizde 36 sütunla sınırlandırılırsınız.
 
 ### <a name="templates"></a>Şablonlar
 

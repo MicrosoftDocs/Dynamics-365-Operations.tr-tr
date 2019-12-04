@@ -1,6 +1,6 @@
 ---
-title: Akıllı öneriler
-description: Bu konu, makine öğreniminin işler ve iş adayları konusunda öneriler sağlamak için nasıl kullanılabileceğini açıklar.
+title: Attract'te akıllı öneriler
+description: Bu makale, Microsoft Dynamics 365 Talent - Attract'te makine öğreniminin işler ve iş adayları konusunda öneriler sağlamak için nasıl kullanılabileceğini açıklar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/16/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: fa06821c98e42dcd8590a764db9beb4a5c33fca2
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741764"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832803"
 ---
-# <a name="intelligent-recommendations"></a>Akıllı öneriler
+# <a name="intelligent-recommendations-in-attract"></a>Attract'te akıllı öneriler
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Makine öğrenimi, işe alanlar ve işe alım yöneticilerinin bir pozisyon için üst adayları hızlı bir şekilde tanımlamasına yardımcı olur. Adayların ilgi alanları ve profiline en uygun pozisyonu bulmakta da yardımcı olur. Bu özellikler kullanılır ve geribildirim sağlanırsa öneriler artar.
 
 > [!NOTE] 
 > - Akıllı öneri özellikleri, yalnızca [Kapsamlı işe alım eklentisinde](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) kullanılabilir.
-> - Bu konuda belirtilen işlev önizleme sürümünün bir parçası kullanılabilir. İçerik ve işlevde değişiklik yapılabilir. Bu özelliği kullanmak için bir yöneticinin Attract içinde **Yönetim merkezi**'ni kullanarak etkinleştirmesini isteyin. **Aday önerisi**, **İş önerisi** ve **Müşteri adayı önerisi**, **Açık**. Daha fazla bilgi için bkz [Talent içinde önizleme özelliklerine erişin](./access-preview-feature.md). 
+> - Bu konuda belirtilen işlev önizleme sürümünün bir parçası kullanılabilir. İçerik ve işlevde değişiklik yapılabilir. Bu özelliği kullanmak için bir yöneticinin Attract içinde **Yönetim merkezi**'ni kullanarak etkinleştirmesini isteyin. **Aday önerisi**, **İş önerisi** ve **Müşteri adayı önerisi**, **Açık**. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 Talent'te önizleme özelliklerine erişme](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Aday önerileri

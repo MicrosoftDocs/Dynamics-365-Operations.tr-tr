@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37bb02dfc9cfcb3e2c1dcda446be3945563d6594
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: d326480cc03d80d1ce27f8762e300dca3b0d325e
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570592"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770655"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Kaynak alanında satış vergisi hesaplama yöntemleri
 
@@ -125,9 +125,9 @@ Belge / günlük Satış vergisi içeren tutarlar = Hayır olarak ayarlanır Har
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Marjinal taban ve hesaplama yöntemi alanları temel alınarak satış vergisi oranlarını belirleme](marginal-base-field.md)
+[Marjinal taban ve Hesaplama yöntemi temel alınarak Satış vergisi oranları](marginal-base-field.md)
 
-[Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri](whole-amount-interval-options-sales-tax-codes.md)
+[Satış vergisi kodları için Tam tutar ve Aralık hesaplama seçenekleri](whole-amount-interval-options-sales-tax-codes.md)
 
 
 

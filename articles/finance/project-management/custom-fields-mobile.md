@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 4343c875da05641c57b7784bf52f1c814dd26d20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175067"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773657"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS ve Android üzerinde Microsoft Dynamics 365 Project Timesheet mobil uygulaması için özel alanlar uygulamak
 
@@ -321,13 +321,9 @@ Aşağıda, kullanıcı bir zaman çizelgesi görüntüleme ilgili mobil uygulam
 
 ![Diğer ayrıntıları görüntüle komutu](media/show-more.png)
 
-
-
 Aşağıda, bir zaman çizelgesinin "Daha fazla" bölümünü gösterir ilgili mobil uygulamadan alınan bir ekran görüntüsü vardır. Zaman çizelgesi başlığı bölümüne, "Bu zaman çizelgesinin kullanım oranı (hesaplanan özel alan)" adında bir özel alan eklenmiştir. Özel alanda "0,667" salt okunur değeri ayarlandı.
 
 ![Daha fazla bölümü](media/more-section.jpg)
-
-
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>TSTimesheetTable tablosunu, özel bir alana sahip olacağı şekilde genişletin
 
@@ -410,7 +406,7 @@ final class TSTimesheetDetails_Extension
 
 ### <a name="adding-additional-validation-for-the-app"></a>Uygulama için ek doğrulama ekleniyor
 
-Veritabanı düzeyindeki zaman çizelgesi işlevselliği için varolan mantık yine de beklendiği gibi çalışır. Kaydetme veya gönderme işlemlerinin tamamlanmasını durdurmak ve belirli bir hata iletisini göstermek için, komut uzantısı zinciri yoluyla koda **hata ver ("kullanıcıya ileti")** ekleyebilirsiniz. İşte yararlı genişletilebilir yöntemlerine üç örnek:
+Veritabanı düzeyindeki zaman çizelgesi işlevselliği için var olan mantık yine de beklendiği gibi çalışır. Kaydetme veya gönderme işlemlerinin tamamlanmasını durdurmak ve belirli bir hata iletisini göstermek için, komut uzantısı zinciri yoluyla koda **hata ver ("kullanıcıya ileti")** ekleyebilirsiniz. İşte yararlı genişletilebilir yöntemlerine üç örnek:
 
 - **validateWrite**, TSTimesheetLine tablosunda kaydetme işlemi sırasında bir zaman çizelgesi satırı için **yanlış** dönerse, bir hata mesajı mobil uygulamada görüntülenir.
 - **validateSubmit**, TSTimesheetTable tablosunda bir zaman çizelgesi için uygulamaya gönderme sırasında **yanlış** dönerse, bir hata mesajı kullanıcıya görüntülenir.

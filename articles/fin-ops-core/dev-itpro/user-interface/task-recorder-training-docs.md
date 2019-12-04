@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658822"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812661"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Görev Kaydedici'yle belge veya eğitim oluşturma
 
@@ -84,7 +84,7 @@ Görev kılavuzundaki "kabarcıkta" not ek açıklaması bu şekilde görünür.
 
 [![Görev kılavuzunda notlar ek açıklama görünümü](./media/screen4.png)](./media/screen4.png)
 
--   **Bilgi adımı**: Bu ek açıklamalar bir denetim veya bir formdaki herhangi bir yere sağ tıklayarak oluşturulur &lt; **Görev kaydedici** &lt; **Bilgi adımı ekleyin. **Bilgi adımları kullanıcı arabiriminde hiçbir eylem kaydedilmemiş olsa bilse, eklediğiniz herhangi bir noktada numaralandırılmış adım olarak görünür. Bir form düzeyi bilgi adımı veya bir denetimle ilişkilendirilmiş bir bilgi adımı ekleyebilirsiniz. Bir bilgi adımı bir formla ilişkilendirildiğinde, görev kılavuzu oynatıldığında, formun herhangi bir yerinde işaretçi olmaksızın görev kılavuzu "kabarcığı" görünecektir. Bir bilgi adımı bir denetimle ilişkilendirildiğinde, görev kılavuzu oynatıldığı zaman, görev kılavuzu "kabarcığı" denetimi gösterir. Yardım bölmesinde, bir bilgi adımı ek açıklaması, girdiğiniz metni içeren numaralı bir adım olarak görünür. Kullanıcıyı sonraki adımlara hazırlamak, uygulamanın dışında yapılması gereken adımları açıklamak veya diğer kayıtlara başvurmak için bilgi adımlarını kullanın (ancak ek açıklamalarda köprüler oluşturamazsınız).
+-   **Bilgi adımı**: Bu ek açıklamalar bir denetime veya bir formdaki herhangi bir yere sağ tıklayıp &lt; **Görev kaydedici** &lt; **Bilgi adımı ekle**'ye tıklayarak oluşturulur. Bilgi adımları kullanıcı arabirimine herhangi bir işlem kaydedilmemiş olsa bile eklediğiniz noktada numaralı adım olarak görünür. Bir form düzeyi bilgi adımı veya bir denetimle ilişkilendirilmiş bir bilgi adımı ekleyebilirsiniz. Bir bilgi adımı bir formla ilişkilendirildiğinde, görev kılavuzu oynatıldığında, formun herhangi bir yerinde işaretçi olmaksızın görev kılavuzu "kabarcığı" görünecektir. Bir bilgi adımı bir denetimle ilişkilendirildiğinde, görev kılavuzu oynatıldığı zaman, görev kılavuzu "kabarcığı" denetimi gösterir. Yardım bölmesinde, bir bilgi adımı ek açıklaması, girdiğiniz metni içeren numaralı bir adım olarak görünür. Kullanıcıyı sonraki adımlara hazırlamak, uygulamanın dışında yapılması gereken adımları açıklamak veya diğer kayıtlara başvurmak için bilgi adımlarını kullanın (ancak ek açıklamalarda köprüler oluşturamazsınız).
 
 **Kaydınızın süresini belirleyin**
 
@@ -97,7 +97,7 @@ Görev kılavuzundaki "kabarcıkta" not ek açıklaması bu şekilde görünür.
 **Bir kaydı başlatmak için kullanıcı arabiriminde nerede olacağına karar verme** Bir görev kaydını başlattığınız sırada bulunduğunuz sayfa, görev kılavuzunun hangi sayfa için görüntüleneceğini belirler. Örneğin, bir kullanıcı Genel muhasebe parametreleri sayfasında Yardım'a tıkladığında görev kaydınızın Yardım bölmesinde listelenmesini istiyorsanız, kaydınızı Genel muhasebe parametreleri sayfasında başlatmanız gerekir. **Kayıtları .axtr dosyaları olarak kaydetme** Bir görev kaydı oluşturmayı veya düzenlemeyi bitirdiğinizde, onu karşıdan nasıl yüklemek veya kaydı nasıl kaydetmek istediğinizle ilgili birkaç seçenek sunulur. Dosyayı bir görev kaydı paketi (.axtr) olarak yükleyebilir, ham bir kayıt dosyası (.xml) olarak yükleyebilir, bir Word belgesi olarak yükleyebilir veya dosyayı bir LCS kitaplığına kaydedebilirsiniz. Görev kaydınızı bir görev kaydı paket dosyası (.axtr) olarak kaydetmek her zaman iyi bir fikirdir. Bu, daha sonra yordamları veya ek açıklamaları değiştirmek istediğinizde dosyanın bakımını kolaylaştırır. Dosyayı bir Word belgesi olarak karşıdan yüklemek isterseniz, onu ayrıca bir görev kaydı paket dosyası olarak kaydedin.
 
 ## <a name="create-your-task-recording"></a>Görev kaydınızı oluşturun
-Ayrıntılı gözden geçirme adımları için, bkz. [Bir görev kaydı nasıl oluşturulur](task-recorder.md).
+Ayrıntılı gözden geçirme adımları için bkz. [Görev kaydedici kaynakları](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Microsoft'un görev kayıtlarını kopyalayın ve özelleştirin
 Microsoft'un görev kayıtlarını kendi Yardım belgeniz veya eğitim malzemeleriniz için kullanmak için karşıdan yükleyebilir ve düzenleyebilirsiniz. Bir Microsoft görev kaydını karşıdan yüklemek için şu adımları izleyin:
@@ -115,14 +115,14 @@ Microsoft'un görev kayıtlarını kendi Yardım belgeniz veya eğitim malzemele
 11. Görev kaydını nasıl kaydetmek istediğinizi seçin.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Görev kayıtlarınızı Yardım bölmesine ekleme
-Görev kayıtlarınızın görev kılavuzları olarak oynatılabilmesi veya metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](../../fin-ops/get-started/help-connect.md)
+Görev kayıtlarınızın görev kılavuzları olarak oynatılabilmesi veya metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](../../fin-ops/get-started/help-connect.md).
 
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Yardıma genel bakış](../../fin-ops/get-started/help-overview.md)
+[Yardım sistemi](../../fin-ops/get-started/help-overview.md)
 
-[Yardım'a bağlanma](../../fin-ops/get-started/help-connect.md)
+[Yardım sistemini bağlama](../../fin-ops/get-started/help-connect.md)
 
 [Görev Kaydedici](task-recorder.md)
 

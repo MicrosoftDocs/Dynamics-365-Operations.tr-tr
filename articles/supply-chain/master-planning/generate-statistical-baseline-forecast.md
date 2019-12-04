@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ce8c1e7a3a4533516d8f2e2b0af46633e4c7667
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c0d9b8708df413118d6e1c1dbe788ce4f6ed5b2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250749"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815192"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>İstatistik temel tahmini oluşturma
 
@@ -56,7 +56,7 @@ Temel Talep tahmini için başlangıç tarihinin geçerli tarih veya gelecekteki
 
 **Temel tahmin başlangıç tarihi** - **Başlangıç tarihi** alanı geçmişteki bir tarihe ayarlanabilir. Diğer bir deyişle, geçmişte bir talep tahminini oluşturmak mümkündür. Bu işlem, kullanıcıların tahmin hizmet parametrelerinde geçmişte ayarlanan istatistiksel tahminin gerçek geçmiş talebiyle eşleşecek şekilde ufak düzeltmeler yapmasına olanak verdiği için yararlıdır. Daha sonra kullanıcılar geleceğe yönelik istatistik temel tahmini oluşturmak için bu parametre ayarlarını kullanmaya devam edebilir. 
 
-**Manüel ayarlamaları talep tahminine aktar** onay kutusu seçiliyse, önceki talep tahmini yinelemelerinde yapılan manüel ayarlamalar, yeni temel tahmine otomatik olarak uygulanabilir. Onay kutusu temizlenirse, manüel ayarlamalar temel tahmine eklenmez, ancak silinmezler. Bir tahminde yapılan manüel ayarlamalar, yalnızca tahmini içe aktarma sırasında, **Temel talep tahmininde yapılan manüel ayarlamaları kaydet** onay kutusundaki işaret kaldırılarak silinebilir. Manüel ayarlamalar yetkilendirme anında kaydedilir. Bu nedenle, bir kullanıcı, tahminde manüel ayarlamalar yapar, ancak tahmini Supply Chain Management'ta yeniden yetkilendirmezse, değişiklikler kaybolur. Manüel ayarlamalar ve bunların çalışma şekilleri hakkında daha fazla bilgi için, bkz. [Ayarlanmış tahmini yetkilendirme](authorize-adjusted-forecast.md). 
+**Manüel ayarlamaları talep tahminine aktar** onay kutusu seçiliyse, önceki talep tahmini yinelemelerinde yapılan manüel ayarlamalar, yeni temel tahmine otomatik olarak uygulanabilir. Onay kutusu temizlenirse, manüel ayarlamalar temel tahmine eklenmez, ancak silinmezler. Bir tahminde yapılan manüel ayarlamalar, yalnızca tahmini içe aktarma sırasında, **Temel talep tahmininde yapılan manüel ayarlamaları kaydet** onay kutusundaki işaret kaldırılarak silinebilir. Manüel ayarlamalar yetkilendirme anında kaydedilir. Bu nedenle, bir kullanıcı, tahminde manüel ayarlamalar yapar, ancak tahmini Supply Chain Management'ta yeniden yetkilendirmezse, değişiklikler kaybolur. El ile düzeltmeler ve bunların çalışma şekilleri hakkında daha fazla bilgi için bkz. [Düzeltilen tahmini yetkilendirme](authorize-adjusted-forecast.md). 
 
 Talep tahmini oluşturmada, kullanıcıların oluşturulan tahmini tanımalarına yardımcı olacak bir ad ve yorumlar bulunabilir. Bu değerler **İstatistik temel tahmin oluşturma geçmişi** sayfasındaki tahmin oluşturma geçmişinde görülür. 
 
@@ -77,4 +77,4 @@ Tahmin büyük öğeler kümesi için oluşturulmamış, ancak söz gelimi, bir 
 
 - [Temel tahminde manüel ayarlamalar yapma](manual-adjustments-baseline-forecast.md)
 
-- [Ayarlanmış tahmini yetkilendirme](authorize-adjusted-forecast.md)
+- [Düzeltilen tahmini yetkilendirme](authorize-adjusted-forecast.md)

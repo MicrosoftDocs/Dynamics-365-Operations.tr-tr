@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025783"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812351"
 ---
 # <a name="call-center-sales-functionality"></a>Çağrı merkezi satış işlevi
 
@@ -44,17 +44,17 @@ Bu sayfa Retail'deki çağrı merkezi özelliklerinin kurulumu, yapılandırmas�
 
 ## <a name="configure-the-call-center"></a>Çağrı merkezini yapılandırma
 
-[Sipariş işleme seçeneklerini ayarlama](set-up-order-processing-options.md)
+[Çağrı merkezi kanalları ayarlama](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Sipariş işlemeyi yapılandırma
 
-[Sahtekarlık uyarılarını ayarlama](set-up-fraud-alerts.md)
+[Çağrı merkezi sahtekarlık uyarılarını ayarlama ve bu uyarılarla çalışma](set-up-fraud-alerts.md)
 
-[El ile Sipariş Tutmalar](work-with-order-holds.md)
+[Çağrı merkezi sipariş tutmalarını yapılandırma ve bunlarla çalışma](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Ödeme işlemeyi yapılandırma
 
-[Bir çağrı merkezindeki ödeme yöntemleri](work-with-payments.md)
+[Çağrı merkezlerinde ödeme yöntemleri](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Teslimat şekillerini yapılandırma
 
@@ -64,8 +64,8 @@ Bu sayfa Retail'deki çağrı merkezi özelliklerinin kurulumu, yapılandırmas�
 
 [Çağrı merkezi katalogları](call-center-catalogs.md)
 
-[RFM analizi ayarlama](set-up-rfm-analysis.md)
+[Yenilik, Sıklık ve Parasal (RFM) analiz ayarlama](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Süreklilik programlarını yapılandırma
 
-[Çağrı merkezi için bir süreklilik programı kurma](set-up-continuity-program.md)
+[Çağrı merkezleri için süreklilik programları ayarlama](set-up-continuity-program.md)

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6c045f82f3288dba193721dd80c90e68750af9a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 954e0669c3d24bcc20fe667c22b7dcc367aba1e7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180354"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770816"
 ---
 # <a name="overhead-calculation"></a>Genel gider hesaplaması
 
@@ -1411,7 +1411,7 @@ Mali muhasebede, Elektrik için 10.000,00 maliyet bir sözde maliyet merkezi kim
 </table>
 
 > [!NOTE]
-> Bu konu, birincil maliyet öğesi, 10001 Elektrik'in maliyet nesneleri arasında nasıl aktığını gösterir. Bu nedenle, bu genel gider maliyeti kuruluşun en düşük seviyesine tahsis edilir. Başka bir deyişle, maliyet en alt düzeydeki maliyet nesnelerine aittir. Maliyetin, maliyet nesneleri arasında görsel bir akışına ihtiyacınız varsa, maliyetin akışını görselleştirmek için maliyet toplamı ilke kurallarını kullanabilirsiniz. Daha fazla bilgi için [Maliyet yukarı yuvarlama](cost-rollup.md) konusuna bakın.
+> Bu konu, birincil maliyet öğesi, 10001 Elektrik'in maliyet nesneleri arasında nasıl aktığını gösterir. Bu nedenle, bu genel gider maliyeti kuruluşun en düşük seviyesine tahsis edilir. Başka bir deyişle, maliyet en alt düzeydeki maliyet nesnelerine aittir. Maliyetin, maliyet nesneleri arasında görsel bir akışına ihtiyacınız varsa, maliyetin akışını görselleştirmek için maliyet toplamı ilke kurallarını kullanabilirsiniz. Daha fazla bilgi için bkz. [Maliyet yuvarlama ilkesi ve genel gider hesaplaması](cost-rollup.md).
 
 
 

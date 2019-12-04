@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 731b6a61bd78388f3db0a7007478e3a5e9629a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181439"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771295"
 ---
 # <a name="generate-printable-fti-forms"></a>Yazdırılabilir FTI formları oluşturma
 
@@ -41,7 +41,7 @@ Microsoft SQL Server Reporting Services (SSRS) kullanılarak yazdırılabilir FT
 Yazdırılabilir FTI formları için özelleştirilmiş çözümünüzün bir parçası olarak bir dizi ER yapılandırması oluşturmanız gerekir.
 
 ### <a name="configure-the-er-data-model"></a>ER veri modelini yapılandırma
-Uygulamanız, müşteri faturalandırması iş etki alanını tanımlayan bir veri modeline sahip ER veri modeli yapılandırmasını içermelidir. Veri modelinin adının **CustomersInvoicing** olması zorunludur. ER veri modellerini tasarlama hakkında bilgi için bkz. [Elektronik raporlama (ER) için etki alanına özel veri modeli tasarlama](tasks/er-design-domain-specific-data-model-2016-11.md).
+Uygulamanız, müşteri faturalandırması iş etki alanını tanımlayan bir veri modeline sahip ER veri modeli yapılandırmasını içermelidir. Veri modelinin adının **CustomersInvoicing** olması zorunludur. ER veri modellerini tasarlama hakkında bilgi için bkz. [ER Etki alanına özel veri modeli tasarlama](tasks/er-design-domain-specific-data-model-2016-11.md).
 
 ### <a name="configure-the-er-model-mapping"></a>ER model eşlemesini yapılandırma
 Uygulamanız, CustomersInvoicing veri modeli için ER model eşlemesini içermelidir. Model eşleme, ER veri modeli yapılandırmasında veya ER model eşleme yapılandırmasında olabilir. Ancak model eşleme kök tanımlayıcısının adı **FreeTextInvoice** olmalıdır.
@@ -62,7 +62,7 @@ Eşleme aşağıdaki veri kaynaklarını içermelidir:
 
 ER altyapısına sahip uygulama tümleştirmesinin ayrıntıları uygulamanın kaynak kodunda **ERPrintMgmtReportFormatSubscriber** sınıfında (ER Uygulama Paketi tümleştirme modeli) bulunabilir.
 
-ER model eşlemelerinin tasarlanması hakkında daha fazla bilgi için bkz. [Elektronik raporlama (ER) için model eşlemeyi tanımlama ve veri kaynaklarını seçme](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
+ER model eşlemelerinin tasarlanması hakkında daha fazla bilgi için bkz. [ER model eşlemelerini tanımlama ve bunlar için veri kaynaklarını seçme](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
 
 ### <a name="configure-the-er-format"></a>ER biçimini yapılandırma
 Uygulama kurulumunuzda FTI formları oluşturmak için kullanılacak ER biçimi yapılandırmasına sahip olmanız gerekir. 
@@ -70,7 +70,7 @@ Uygulama kurulumunuzda FTI formları oluşturmak için kullanılacak ER biçimi 
 > [!NOTE]
 > Bu biçim yapılandırması CustomersInvoicing veri modeli için oluşturulmalıdır ve **FreeTextInvoice** kök tanımlayıcısına sahip model eşlemesini kullanmalıdır.
 
-ER biçimlerini yapılandırma hakkında daha fazla bilgi için bkz. [Elektronik raporlama (ER) için bir biçim yapılandırması oluşturma](tasks/er-format-configuration-2016-11.md). OpenXML biçiminde raporlar oluşturmak üzere ER biçimlerini tasarlama hakkında daha fazla bilgi için bkz. [Elektronik raporlama (ER) için OpenXML biçiminde rapor oluşturmak üzere bir yapılandırma tasarlama](tasks/er-design-reports-openxml-2016-11.md).
+ER biçimlerini yapılandırma hakkında daha fazla bilgi için bkz. [ER Biçim yapılandırması oluşturma (Kasım 2016)](tasks/er-format-configuration-2016-11.md). OpenXML biçiminde raporlar oluşturmak üzere ER biçimlerini tasarlama hakkında daha fazla bilgi için bkz. [ER OpenXML biçiminde rapor oluşturmak üzere bir yapılandırma tasarlama (Kasım 2016)](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="configure-print-management"></a>Yazdırma yönetimini yapılandırma
 ER altyapısını kullanarak FTI formları oluşturmak için ER biçimlerini SSRS raporlarıyla aynı şekilde atayabilirsiniz. ER biçimini tüm Alacak hesapları FTI'larıyla ilişkilendirmek için **Alacak hesapları** \> **Kurulum** \> **Formlar** \> **Form kurulumu** \> **Genel** \> **Yazdırma yönetimi** \> **Serbest metin faturası** \> **Orijinal**'e gidin. ER biçimini belirli bir müşteri veya fatura ile ilişkilendirmek için aşağıdaki adımları izleyin.
@@ -94,7 +94,7 @@ FTI formları oluşturmak için faturaları aralığa göre veya seçime göre s
 
 ![Fatura önizlemesi](media/FTIbyGER-InvoiceExcelPreview.png)
 
-FTI formlarını bu şekilde yazdırmak için ER biçimlerini kullandığınızda varsayılan ER dosya hedefleri kullanılır. Hedefi değiştiremezsiniz. ER biçimleri için ER hedeflerini yapılandırma hakkında daha fazla bilgi için bkz. [Elektronik raporlama hedefleri](electronic-reporting-destinations.md).
+FTI formlarını bu şekilde yazdırmak için ER biçimlerini kullandığınızda varsayılan ER dosya hedefleri kullanılır. Hedefi değiştiremezsiniz. ER biçimleri için ER hedeflerini yapılandırma hakkında daha fazla bilgi için bkz. [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md).
 
 **Faturayı yazdır** seçeneğini açarak ve **Yazdırma yönetimi hedefini kullan** seçeneğini kapatarak bir FTI'yı deftere naklederken de FTI formları oluşturabilirsiniz.
 
@@ -224,4 +224,4 @@ Faturasını işlediğiniz tüzel kişilik için önceden tanımlanmış **ERFTI
 ![E-posta](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-[Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
+[Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)

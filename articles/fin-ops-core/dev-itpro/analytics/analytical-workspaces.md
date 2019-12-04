@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 76564c440d52f7eae4faa704cf9010c7754c3751
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 4e466e6b1bbec0915b6fdb9b86d3b5cbb45364ad
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536882"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771622"
 ---
 # <a name="analytical-workspaces"></a>Analitik çalışma alanları
 [!include[banner](../includes/banner.md)]
@@ -34,15 +34,15 @@ ms.locfileid: "2536882"
 - [Maliyet yönetimi Power BI içeriği](cost-management-content-pack.md)
 - [Alacak ve tahsilat yönetimi Power BI içeriği](../../../finance/accounts-receivable/credit-collections-power-bi.md)
 - [Personel gelişimi Power BI içeriği](employee-development-PBI.md) 
-- [Mali bilgiler Power BI içeriği](financial-insights.md)
-- [Mali Performans Power BI içeriği](financial-performance-power-bi-content-pack.md)
-- [Sabit kıymet yönetimi Power BI içeriği](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
+- [Mali Bilgiler](financial-insights.md)
+- [Mali performans PowerBI.com çözümü](financial-performance-power-bi-content-pack.md)
+- [Sabit kıymet yönetim çalışma alanı](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
 - [Öğrenme Power BI içeriği](learning-power-bi.md)
 - [Uygulama yöneticisi Power BI içeriği](practice-manager-power-bi.md)
 - [Üretim performansı Power BI içeriği](production-performance-power-bi.md)
 - [Satınalma ve harcama analizi Power BI içeriği](purchase-content-pack-for-power-bi.md) 
 - [İşe alma Power BI içeriği](recruiting-analysis-power-bi-content-pack.md) 
 - [Satış ve karlılık performansı Power BI içeriği](sales-profitability-performance-content-pack.md)
-- [Satıcı ödemeleri Power BI içeriği](../../../finance/accounts-payable/Vendor-payments-workspace.md)
+- [Satıcı ödemeleri çalışma alanı](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Ambar performansı Power BI içeriği](warehouse-power-bi-content.md)
 - [İş gücü ölçümleri Power BI içeriği](workforce-analysis-power-bi-content-pack.md)

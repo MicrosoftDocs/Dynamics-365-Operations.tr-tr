@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249854"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815284"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Microsoft Dynamics 365 Field Service ile tümleştirmeye genel bakış
 
@@ -41,9 +41,9 @@ Field Service ile Supply Chain Management arasındaki tümleştirmenin birinci a
 
 Field Service ile Supply Chain Management arasındaki tümleştirmenin birinci aşaması aşağıdaki öğelerin eşitlenmesini sağlar:
 
-- [Supply Chain Management'taki ürünler ile Field Service'da Ürün Türü bilgisi içeren ürünler](field-service-product.md)
-- [Field Service'daki iş emirlerini Supply Chain Management'taki satış siparişlerine](field-service-work-order.md)
-- [Field Service'daki faturaları Supply Chain Management'daki serbest metin faturalarına](field-service-invoice.md)
+- [Supply Chain Management'taki ürünleri Field Service'taki ürünlerle eşitleme](field-service-product.md)
+- [Field Service'daki iş emirlerini Supply Chain Management'taki satış siparişleriyle eşitleme](field-service-work-order.md)
+- [Field Service'daki sözleşme faturalarını Supply Chain Management'daki serbest metin faturalarıyla eşitleme](field-service-invoice.md)
 
 Bir iş emrini Field Service ile Supply Chain Management arasında nasıl eşitleyeceğinize ilişkin bir örnek görmek için kısa YouTube videosunu izleyin: [İş emrini Microsoft Dynamics 365 Tümleştirmesi ile eşitleme](https://www.youtube.com/watch?v=46ylO7raZAo).
 

@@ -1,6 +1,6 @@
 ---
-title: E-posta şablonları
-description: Bu konu, oluşturabileceğiniz ve Microsoft Dynamics 365 Talent - Attract'ta kullanabileceğiniz e-posta şablonları hakkında bilgi sağlar.
+title: Attract'te e-posta şablonları oluşturma
+description: Bu konu, oluşturabileceğiniz ve Microsoft Dynamics 365 Talent - Attract'te kullanabileceğiniz e-posta şablonları hakkında bilgi sağlar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/19/2018
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008048"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832896"
 ---
-# <a name="email-templates"></a>E-posta şablonları
-[!include[banner](../includes/banner.md)]
+# <a name="create-email-templates-in-attract"></a>Attract'te e-posta şablonları oluşturma
+
+[!include [banner](includes/banner.md)]
 
 E-posta şablonu kitaplığı kullanarak, yöneticiler Microsoft Dynamics 365 Talent: Attract ve Offer aracılığıyla gönderilen tek tip bir tema ve tüm e-postaları için markalama oluşturabilir. Yöneticiler, diğer kullanıcıların yararlanacağı e-posta içerik şablonları koleksiyonu oluşturabilir. İşe alma ekibi, e-postaları etkili bir şekilde göndermek için bu şablonları iş akışında kullanabilir. Bazı e-postalar otomatik olarak gönderilmesi yapılandırılmış ve yönetici e-posta şablonu kitaplığını kullanarak bu e-postaların içeriğini özelleştirebilir.
 
@@ -46,9 +47,9 @@ Yönetici Merkezi kapatmadan önce değişiklikleri kaydettiğinizden emin olun.
 
 ## <a name="email-template-library"></a>E-posta şablonu kitaplığı 
 
-Genel şablon konfigürasyonları ayarlandıktan sonra yönetici, Attract and Offer'dan gönderilen tüm e-posta şablonlarını oluşturma ve yönetmeye başlayabilir. E-posta şablonu kitaplığı yalnızca yöneticiler için kullanılabilir. Ana gezinti menüsünden kitaplığı açmak için **E-posta şablonları** sekmesini seçin. Kitaplık, planlama, değerlendirme ve iş oluşturma ve teklifi gibi e-postaların gönderme amacıyla Attract'taki çeşitli faaliyetlerle kategorilere ayrılmıştır. Yönetici, faaliyetle ilişkili olan tüm e-posta türlerini görüntülemek için herhangi bir kategoriyi seçebilir. Örneğin, planlama işlemi sırasında gönderilen çeşitli e-postaları ve her e-posta türü için mevcut olan şablonları görüntülemek için **Planlama**'yı seçin. Bir kategoride her alt bölüm bir tür e-postayı temsil eder.
+Genel şablon konfigürasyonları ayarlandıktan sonra yönetici, Attract and Offer'dan gönderilen tüm e-posta şablonlarını oluşturma ve yönetmeye başlayabilir. E-posta şablonu kitaplığı yalnızca yöneticiler için kullanılabilir. Ana gezinti menüsünden kitaplığı açmak için **E-posta şablonları** sekmesini seçin. Kitaplık, planlama, değerlendirme ve iş oluşturma ve teklifi gibi e-postaların gönderme amacıyla Attract'teki çeşitli faaliyetlerle kategorilere ayrılmıştır. Yönetici, faaliyetle ilişkili olan tüm e-posta türlerini görüntülemek için herhangi bir kategoriyi seçebilir. Örneğin, planlama işlemi sırasında gönderilen çeşitli e-postaları ve her e-posta türü için mevcut olan şablonları görüntülemek için **Planlama**'yı seçin. Bir kategoride her alt bölüm bir tür e-postayı temsil eder.
 
-Bazı e-posta türleri birden çok alıcı içerebilir. Örneğin, **Planlama** kategorisinde, görüşme çizelgesi özeti gerekli olduğunda gönderilen e-postalar hem adaylara hem görüşmecilere gönderilir. Her bölümün ana iki sütunu vardır: **Şablon başlığı** ve **Alıcı**. Bir bölümdeki her satır, bir e-posta türünü temsil eder. Başlangıçta, her şablon için satırda bir kilit simgesi görüntülenir. Bu simge, şablonun Attract'ta sağlanan standart şablon olduğunu ve silinemez olduğunu gösterir. Her şablon için yönetici, üç nokta düğmesini (**...**) kullanarak şablonu yineleyebilir, varsayılan şablon olarak ayarlayabilir veya silebilir. Bir şablon varsayılan şablon olarak ayarlandığında, iki davranıştan biri oluşabilir. Şablonun satırında gösterilen rozet veya rozetler davranışı belirtir:
+Bazı e-posta türleri birden çok alıcı içerebilir. Örneğin, **Planlama** kategorisinde, görüşme çizelgesi özeti gerekli olduğunda gönderilen e-postalar hem adaylara hem görüşmecilere gönderilir. Her bölümün ana iki sütunu vardır: **Şablon başlığı** ve **Alıcı**. Bir bölümdeki her satır, bir e-posta türünü temsil eder. Başlangıçta, her şablon için satırda bir kilit simgesi görüntülenir. Bu simge, şablonun Attract'te sağlanan standart şablon olduğunu ve silinemez olduğunu gösterir. Her şablon için yönetici, üç nokta düğmesini (**...**) kullanarak şablonu yineleyebilir, varsayılan şablon olarak ayarlayabilir veya silebilir. Bir şablon varsayılan şablon olarak ayarlandığında, iki davranıştan biri oluşabilir. Şablonun satırında gösterilen rozet veya rozetler davranışı belirtir:
 
 - **Varsayılan** – Bu rozet, gönderilen e-posta şablonunun varsayılan şablon olduğunu gösterir ve bilgilerin, kullanıcı belirli türdeki e-posta gönderince gireceğini belirtir.
 - **Varsayılan** + **Oto. gönder** – Bu rozetler birleşimi, şablonun otomatik olarak gönderilecek sistem tarafından oluşturulan e-posta şablonunun etkin olduğunu gösterir.

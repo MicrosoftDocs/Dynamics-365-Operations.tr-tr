@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c29adc87b9ef435b714a46ba1a96ef8226759b6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8fac49cde1a6098b99e6373bf9221d3357a053a2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550704"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814526"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>Sistem tanımlı ve kullanıcı tanımlı tablo kısıtlamaları
 
@@ -63,7 +63,7 @@ Bir ürün yapılandırma modeline bir tablo kısıtlaması getirilebilmesi içi
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Ürün konfigürasyon modellerinde kilit konseptler](product-configuration-models.md)
+[Ürün yapılandırma modellerine genel bakış](product-configuration-models.md)
 
 
 

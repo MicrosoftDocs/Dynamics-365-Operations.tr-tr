@@ -3,7 +3,7 @@ title: Planlı siparişleri koruma
 description: Bu konuda planlı siparişleri yönetme yöntemleri hakkında bilgiler yer alır. Planlı siparişlerin durumunun nasıl güncelleştirileceğini, kesinleştirileceğini ve seçilen planlı sipariş ile aynı duruma sahip planlı siparişlerin nasıl filtreleneceğini açıklar.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 11/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ddf2c7b4c67bec6c29387c78d1fdb021d85d702
-ms.sourcegitcommit: 620e15555d176eec3905b48d5001af1c50107ce6
+ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "1993452"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813788"
 ---
 # <a name="maintain-planned-orders"></a>Planlı siparişleri koruma
 
@@ -39,7 +39,7 @@ Planlı siparişleri **Master planlama** çalışma alanından, **Planlı sipari
 
 -   Master planlama planlı siparişler ürettiğinde, planlı siparişler **İşlem görmedi** durumunda olur.
 -   Planlı bir siparişi kesinleştirmemeye karar vermeniz halinde, durumunu **Tamamlandı** olarak ayarlayabilirsiniz.
--   Planlı bir siparişi kesinleştirmek isterseniz sipariş durumunu **Onaylandı** olarak değiştirebilirsiniz. Değiştirilmemeleri veya silinmemeleri için **Onaylandı** durumundaki planlı siparişlere ana planlama tarafından riayet edilir. 
+-   Planlı bir siparişi kesinleştirmek isterseniz sipariş durumunu **Onaylandı** olarak değiştirebilirsiniz. Sonraki bir master planlama çalışması sırasında değiştirilmemeleri veya silinmemeleri için **Onaylandı** durumundaki planlı siparişlere master planlama tarafından riayet edilir. 
 
 ## <a name="firming-planned-orders"></a>Planlı siparişleri kesinleştirme 
 Planlı siparişler kesinleştirilerek gerçek siparişler oluşturulur. Bunlar *serbest bırakılmış* veya *açık siparişler* olarak da bilinirler. Planlı bir sipariş kesinleştirildiğinde, ilgili modülün siparişler bölümüne taşınır.
@@ -62,7 +62,7 @@ Birçok siparişi aynı anda kesinleştirmek istiyorsanız çalışmayı koşut 
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Master planlar](master-plans.md)
+[Master planlara genel bakış](master-plans.md)
 
 
 

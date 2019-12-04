@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190960"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811638"
 ---
 # <a name="new-task-guides-february-2016"></a>Yeni görev kılavuzları (Şubat 2016)
 
@@ -32,7 +32,7 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC Unified Library for Microsoft Dynamics AX içindeki görev kılavuzları (Şubat 2016)
 
-(Şubat 2016) APQC Birleştirilmiş kitaplığı Dynamics AX 7.0.0 sürümünün Yardım'ı için kullanılmak üzere tasarlanmış Görev kılavuzlarını içerir. Bu Görev kılavuzlarının yerelleştirilmiş sürümleri gerekiyorsa, bunları Microsoft Dynamics AX için (Mayıs 2016) APQC Birleştirilmiş Kitaplığı'nda bulabilirsiniz. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md).
+(Şubat 2016) APQC Birleştirilmiş kitaplığı Dynamics AX 7.0.0 sürümünün Yardım'ı için kullanılmak üzere tasarlanmış Görev kılavuzlarını içerir. Bu Görev kılavuzlarının yerelleştirilmiş sürümleri gerekiyorsa, bunları Microsoft Dynamics AX için (Mayıs 2016) APQC Birleştirilmiş Kitaplığı'nda bulabilirsiniz. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardım sistemi](help-overview.md).
 
 ### <a name="accounts-payable"></a>Borç hesapları
 
@@ -342,7 +342,7 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Çalışanları bir değişken ücret planına kaydet                 | Genel         |
 | Başvuran ve uygulama verilerini el ile gir                    | Genel         |
 | Çalışan bilgileri grir                                         | Genel         |
-| İşe alma yoluyla varolan bir adayı işe alma                    | Genel         |
+| İşe alma yoluyla var olan bir adayı işe alma                    | Genel         |
 | İşe alma yoluyla adayı işe al                                | Genel         |
 | Birden fazla çalışanı işe al                                          | Genel         |
 | Aday seçim araçlarını tanımla ve dağıt                    | Genel         |
@@ -392,7 +392,7 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Süreç işi için Kanban kurallarını değiştirme                         | Genel         |
 | Mobil iş aygıtı kullanarak işçi yapılandır                | Genel         |
 | Bir formül kopyala                                                | Genel         |
-| Varolan bir formülden kopyalayarak bir formül oluşturma          | Genel         |
+| Var olan bir formülden kopyalayarak bir formül oluşturma          | Genel         |
 | Bir üretim akışı sürümü oluştur                              | Genel         |
 | Bir üretim emri oluşturma                                     | Genel         |
 | Bir satış olayı Kanban kuralı oluşturma                              | Genel         |
@@ -641,8 +641,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Yeni veya güncelleştirilmiş görev kılavuzları (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
+[Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Yeni veya güncelleştirilmiş Görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
+[Yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
+[Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)

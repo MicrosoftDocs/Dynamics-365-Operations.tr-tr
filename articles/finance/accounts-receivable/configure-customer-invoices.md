@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa49b70b07ac3dc6cbc5989b11981098f22be89c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0f5b9866fc7afba205b84b372c6a204ec4c8f64d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189166"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772732"
 ---
 # <a name="create-a-customer-invoice"></a>Müşteri faturası oluşturma
 
@@ -35,11 +35,11 @@ Bir **serbest metin faturası** satış siparişiyle ilişkili değildir. Genel 
 
 Daha fazla bilgi için bkz.:
 
-[Serbest metin faturası oluşturma](../accounts-receivable/create-free-text-invoice-new.md)
+[Serbest metin faturaları oluştur](../accounts-receivable/create-free-text-invoice-new.md)
 
-[Serbest metin şablonu oluşturma](../accounts-receivable/create-free-text-invoice-template-new.md)
+[Serbest metin faturası şablonu oluşturma](../accounts-receivable/create-free-text-invoice-template-new.md)
 
-[Müşteriye serbest metin fatura şablonu atama](tasks/assign-free-text-invoice-template-customer.md)
+[Bir müşteriye serbest metin faturası şablonu atayın](tasks/assign-free-text-invoice-template-customer.md)
 
 [Yinelenen serbest metin faturaları oluşturma ve deftere nakletme](tasks/post-recurring-free-text-invoices.md)
 
@@ -98,8 +98,8 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 <tr class="even">
 <td>Deftere nakletme</td>
 <td><ul>
-<li>Satış emrini günlüğe girmek için bu seçeneği belirleyin.</li>
-<li>Proforma satış emri yazdırmak için bu seçeneği kaldırın. <strong>Not:</strong> Ödeme planı için anlaşma yaptıysanız, ödeme planı proforma satış emrinde gösterilmez. Ödeme planları yalnızca fiili satış emirlerinde gösterilir.</li>
+<li>Satış siparişini günlüğe girmek için bu seçeneği belirleyin.</li>
+<li>Proforma satış siparişi yazdırmak için bu seçeneği kaldırın. <strong>Not:</strong> Ödeme planı için anlaşma yaptıysanız, ödeme planı proforma satış siparişinde gösterilmez. Ödeme planları yalnızca fiili satış emirlerinde gösterilir.</li>
 </ul></td>
 </tr>
 <tr class="odd">

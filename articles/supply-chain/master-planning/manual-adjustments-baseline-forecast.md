@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df9692dc168e9efb653b20c677cd6e3bb0bd8756
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250726"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815146"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Temel tahminde manüel ayarlamalar yapma
 
@@ -66,7 +66,7 @@ Tahmin hakkında daha fazla bilgi görüntülemek için **Talep tahmini ayrınt�
 -   Yeni talep tahmin değerleri ve bu değerlerin manüel olarak ayarlandığı tutarlar.
 -   Tahmin edilen değerler için güven aralığı.
 -   Tahmin oluşturmak için kullanılan tahmin modeli. Toplanan verileri görüntülüyorsanız, toplanan saat dizisi için kullanılan tüm yöntemlerin listesini görürsünüz.
--   Dahili model doğruluğu (MAPE). Tahmin doğruluğu hakkında daha fazla bilgi için, bkz. [Tahmin doğruluğunu izleme](monitor-forecast-accuracy.md).
+-   Dahili model doğruluğu (MAPE). Tahmin doğruluğu hakkında daha fazla bilgi için bkz. [Tahmin doğruluğunu izleme](monitor-forecast-accuracy.md).
 
 **Notlar:**
 
@@ -80,7 +80,7 @@ Manüel ayarlamaları, **Talep tahmini ayrıntıları** sayfasında, **Tahmin** 
 
 [Tahmin doğruluğunu izleme](monitor-forecast-accuracy.md)
 
-[İstatistik temel tahmin oluşturma](generate-statistical-baseline-forecast.md)
+[İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md)
 
 
 

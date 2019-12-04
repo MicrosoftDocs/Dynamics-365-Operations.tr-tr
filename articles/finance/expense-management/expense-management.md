@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03d62e3475b4336e86e203bbd347d110704eba07
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7066a021390e3403c4312a7cfe8488a989b9aaa3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180341"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771950"
 ---
 # <a name="expense-management-overview"></a>Gider yönetimine genel bakış
 
@@ -37,7 +37,7 @@ Daha fazla bilgi için bkz. [Gider yönetimi yapılandıma](plan-expense-managem
 
 ### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm notlarına](https://go.microsoft.com/fwlink/?linkid=2010158) bakın.
+Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm planlarına](https://go.microsoft.com/fwlink/?linkid=2010158) bakın.
 
 #### <a name="expense-report-entry"></a>Gider raporu girişi
 

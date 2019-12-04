@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract'ta Broadbean tümleştirmesini etkinleştirme
-description: Bu konu, Microsoft Dynamics 365 Talent - Attract'ı işleri Broadbean gibi harici iş panolarına gönderecek şekilde yapılandırma yöntemini açıklamaktadır.
+title: Attract'te Broadbean tümleştirmesini etkinleştirme
+description: Bu konu, Microsoft Dynamics 365 Talent - Attract'i işleri Broadbean gibi harici iş panolarına gönderecek şekilde yapılandırma yöntemini açıklamaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0ca655655f79ddf88b6f6c7377a1b596477c35a7
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 10b612711e81b2b368ed23fdd95ab6a66451f0ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552152"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833220"
 ---
-# <a name="enable-broadbean-integration-in-microsoft-dynamics-365-talent---attract"></a>Microsoft Dynamics 365 Talent - Attract'ta Broadbean tümleştirmesini etkinleştirme
+# <a name="enable-broadbean-integration-in-attract"></a>Attract'te Broadbean tümleştirmesini etkinleştirme
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Açık pozisyonlarınızı olabildiğince fazla kalifiye adayın önüne sunmak istersiniz. Broadbean gibi işe alma siteleri bu hedefinizi gerçekleştirmeye yardımcı olur. Microsoft Dynamics 365 Talent: Attract, şimdi Broadbean'e iş ilanları vermenize olanak sağlıyor ve Microsoft düzenli olarak bu alanda yeni olanaklar sunuyor.
 
@@ -50,4 +50,4 @@ Açık pozisyonlarınızı olabildiğince fazla kalifiye adayın önüne sunmak 
 > Broadbean kimlik bilgileriniz hassas ve gizlidir. Bu nedenle, bunları dikkatli bir biçimde depolayın ve paylaşın. Attract içinde Yönetici rolüne sahip herkes bu kimlik bilgilerini görebilir.
 
 > [!NOTE]
-> Microsoft ve Attract, bu değerleri oluşturmak ve saklanmakta söz sahibi değildir. Attract için bunları güncel tutmak ve kimlik bilgileriniz içeren herhangi bir sorunu Broadbean ile işbirliği yaparak çözmek sizin sorumluluğunuzdur.
+> Microsoft ve Attract, bu değerleri oluşturmak ve saklanmakta söz sahibi değildir. Attract için bunları güncel tutmak ve kimlik bilgileriniz içeren herhangi bir sorunu Broadbean ile iş birliği yaparak çözmek sizin sorumluluğunuzdur.

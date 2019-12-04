@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e5fd05f3114eb99b7e8b4390827d5ccd52832a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c527735ea65dad84c5d3d405eac2ead35d3c792d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572230"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815377"
 ---
 # <a name="purchase-order-overview"></a>Satınalma siparişine genel bakış
 
@@ -41,9 +41,9 @@ PO'lar, ürün girişleri ve satıcı faturaları hakkındaki bilgileri görünt
 
 Aşağıdaki makaleler, bir PO'nun geçtiği çeşitli aşamalara genel bir bakış sağlar:
 
--   [Satınalma siparişi oluşturma](purchase-order-creation.md)
--   [Satınalma siparişi onayı ve doğrulaması](purchase-order-approval-confirmation.md)
--   [Ürün girişine karşılık satınalma siparişleri](product-receipt-against-purchase-orders.md)
+-   [Satınalma siparişleri oluşturma](purchase-order-creation.md)
+-   [Satınalma siparişlerini onaylama](purchase-order-approval-confirmation.md)
+-   [Ürün girişi ve satınalma siparişleri karşılaştırması](product-receipt-against-purchase-orders.md)
 -   [Satıcı faturalarına genel bakış](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Satınalma siparişlerinin türleri
@@ -82,11 +82,11 @@ PO'lar, siparişin ilerlemesini gösteren çeşitli durum alanları içerir. Tü
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Satınalma siparişi oluşturma](purchase-order-creation.md)
+[Satınalma siparişleri oluşturma](purchase-order-creation.md)
 
-[Satınalma siparişi onayı ve doğrulaması](purchase-order-approval-confirmation.md)
+[Satınalma siparişlerini onaylama](purchase-order-approval-confirmation.md)
 
-[Ürün girişine karşılık satınalma siparişleri](product-receipt-against-purchase-orders.md)
+[Ürün girişi ve satınalma siparişleri karşılaştırması](product-receipt-against-purchase-orders.md)
 
 [Satıcı faturalarına genel bakış](../../financials/accounts-payable/vendor-invoices-overview.md)
 

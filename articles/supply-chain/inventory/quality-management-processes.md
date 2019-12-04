@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22372bd2d42b526d10e39174e7fb5ec5281d1b73
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 544721af404775a6d8b65628848caa84ceaebe30
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572800"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813860"
 ---
 # <a name="quality-management-processes"></a>Kalite yönetimi işlemleri
 
@@ -60,8 +60,8 @@ Aşağıdaki tabloda, altı varsayılan uygunsuzluk türlerini listeler ve her t
 
 | Uyumsuzluk tipi   | Kaynak bilgileri                                                                                                                                                                                                                          |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Müşteri              | Bir satış emri hareketinin müşteri hesap numarası, satış emri numarası veya lot numarası. Örneğin, uygunsuzluk belirli bir satış emri sevkiyatıyla veya ürün kalitesine ilişkin müşteri geri bildirimiyle ilgili olabilir.       |
-| Servis isteği       | Bir satış emri hareketinin müşteri hesap numarası, satış emri numarası veya lot numarası. Örneğin, uygunsuzluk belirli bir satış emri sevkiyatıyla veya madde kalitesine ilişkin müşteri şikayetiyle ilgili olabilir.     |
+| Müşteri              | Bir satış siparişi hareketinin müşteri hesap numarası, satış siparişi numarası veya lot numarası. Örneğin, uygunsuzluk belirli bir satış siparişi sevkiyatıyla veya ürün kalitesine ilişkin müşteri geri bildirimiyle ilgili olabilir.       |
+| Servis isteği       | Bir satış siparişi hareketinin müşteri hesap numarası, satış siparişi numarası veya lot numarası. Örneğin, uygunsuzluk belirli bir satış siparişi sevkiyatıyla veya madde kalitesine ilişkin müşteri şikayetiyle ilgili olabilir.     |
 | Satıcı                | Bir satınalma emri hareketinin satıcı hesap numarası, satınalma emri numarası veya lot numarası. Örneğin, uygunsuzluk bir satınalma emri girişi veya satıcının tedarik ettiği bir parçayla ilgili kaygısı hakkında olabilir. |
 | Üretim            | Bir üretim emri hareketinin üretim emri numarası veya lot numarası. Örneğin, uygunsuzluk üretilen belirli bir toplu işle ilgili olabilir.                                                                      |
 | İç              | Bir kalite emri hareketinin kalite emri numarası veya lot numarası. Örneğin, uygunsuzluk kalite emrinin bir parçası olarak gerçekleştirilen testler veya bir çalışanın ürün kalitesiyle ilgili kaygısı hakkında olabilir.     |
@@ -90,14 +90,14 @@ Uygunsuzluk raporu, uygunsuzluk numarası, madde ve sorun türünü görüntüle
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Kalite yönetimi etkinleştirmek](enable-quality-management.md)
+[Kalite yönetimine genel bakış](enable-quality-management.md)
 
-[Uygunsuzluk yönetiminin etkinleştirilmesi](enable-nonconformance-management.md)
+[Uygunsuzluk yönetimi](enable-nonconformance-management.md)
 
 [Stok durdurma](inventory-blocking.md)
 
 [Karantina emirleri](quarantine-orders.md)
 
-[Kalite emirleri ayarlama (Görev kılavuzu)](tasks/set-up-quality-orders.md)
+[Kalite emirlerini ayarlama](tasks/set-up-quality-orders.md)
 
-[Malların kalitesini denetle (Görev kılavuzu)](tasks/inspect-quality-goods.md)
+[Malların kalitesini denetle](tasks/inspect-quality-goods.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2339c6f901a3ef39ad4f9586b2f391b966a3df98
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2058eaac77282946559cae11fcec8152658fc96b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190155"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811369"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>İş akışında paralel dalları yapılandırma
 
@@ -46,8 +46,8 @@ Paralel dala bir ad vermek için aşağıdaki adımları uygulayın.
 Paralel bir dalın öğelerini tasarlamak ve yapılandırmak için bu adımları izleyin.
 
 1. Paralel dala çift tıklayın.
-2. İş akışı öğelerini tuvale sürükleyin ve ardından başka herhangi bir iş akışını oluşturur gibi öğeleri yapılandırın. Daha fazla bilgi için bkz. [İş akışı oluşturma](create-workflow.md).
+2. İş akışı öğelerini tuvale sürükleyin ve ardından başka herhangi bir iş akışını oluşturur gibi öğeleri yapılandırın. Daha fazla bilgi için bkz. [İş akışı oluşturmaya genel bakış](create-workflow.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[İş akışı oluşturma](create-workflow.md)
+[İş akışlarına genel bakış](create-workflow.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36784311294f80f56f680cd6d14cc989b629ba12
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9b1b519d116a55c255cf90d9478ee1714de90264
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180430"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811346"
 ---
 # <a name="organization-administration-home-page"></a>Kuruluş yönetimi giriş sayfası
 
@@ -36,8 +36,8 @@ Burada listelenen içeriğin büyük bölümü **Kuruluş yönetimi** modülünd
 
 Numara serileri, ana veri kayıtları ve tanımlayıcı gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılar oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri kaydı veya hareket kaydı, *referans* olarak adlandırılır. Bir referans için yeni kayıtlar oluşturmadan önce, bir numara serisi oluşturmalı ve bunu referans ile ilişkilendirmelisiniz.
 
-- [Numara serilerine genel bakış](number-sequence-overview.md)
-- [Bir sihirbaz kullanarak satınalma için numara serilerini ayarlama](tasks/set-up-number-sequences-wizard.md) (Görev kılavuzu)
+- [Numara sıralarına genel bakış](number-sequence-overview.md)
+- [Sihirbaz kullanarak numara sıraları ayarlama](tasks/set-up-number-sequences-wizard.md) (Görev kılavuzu)
 - [Bireysel olarak numara serileri ayarlama](tasks/set-up-number-sequences-individual-basis.md) (Görev kılavuzu)
 
 ## <a name="organizations"></a>Kuruluşlar
@@ -46,7 +46,7 @@ Bir organizasyon, bir iş sürecini gerçekleştirmek veya bir hedefe ulaşmak i
 
 Kuruluşları ve kuruluş hiyerarşilerini ayarlamadan önce işletmenizin nasıl modelleneceğini planladığınızdan emin olun. Kuruluş modelinin uygulama ve iş süreçleri üzerinde önemli bir etkisi vardır.
 
-- [Kuruluşlar ve kuruluş hiyerarşileri](organizations-organizational-hierarchies.md)
+- [Kuruluşlar ve kuruluş hiyerarşilerine genel bakış](organizations-organizational-hierarchies.md)
 - [Kuruluş hiyerarşinizi planlama](plan-organizational-hierarchy.md)
 - [Bir kuruluş hiyerarşisi oluşturma](tasks/create-organization-hierarchy.md) (Görev kılavuzu)
 - [Tüzel kişilik oluşturma](tasks/create-legal-entity.md) (Görev kılavuzu)
@@ -58,8 +58,8 @@ Genel adres defteri, şirketin etkileşimde bulunduğu tüm iç ve dış kişile
 
 Genel Adres Defteri'ni oluşturduktan sonra her iş kolu veya kuruluşunuzdaki her şirket için bir ayrı bir adres defterini, gerektiği gibi oluşturabilirsiniz.
 
-- [Genel adres defteri](overview-global-address-book.md)
-- [Genel adres defteri ve diğer adres defterlerini yapılandırmayı planlama](plan-configuration-global-address-book-additional-address-books.md)
+- [Genel adres defterine genel bakış](overview-global-address-book.md)
+- [Genel adres defteri ve diğer adres defterleri için planlama](plan-configuration-global-address-book-additional-address-books.md)
 - [Genel adres defterini yapılandırma](tasks/configure-global-address-book.md)
 - [Adres defterleriyle ilgili SSS](qa-address-books.md)
 
@@ -67,10 +67,10 @@ Genel Adres Defteri'ni oluşturduktan sonra her iş kolu veya kuruluşunuzdaki h
 
 İş akışı, bağımsız iş akışları veya iş süreçleri oluşturmak için kullanabileceğiniz bir sistemdir. Bir iş akışı oluşturduğunuzda, bir görevin kimin tarafından tamamlanacağını, bir kararın kimin tarafından verileceğini veya bir belgenin kimin tarafından onaylanacağını göstererek bir belgenin sistem üzerinde nasıl aktığını veya taşındığını tanımlarsınız.
 
-- [İş akışı özeti](overview-workflow-system.md)
+- [İş akışı sistemine genel bakış](overview-workflow-system.md)
 - [İş akışı öğeleri](workflow-elements.md)
-- [İş akışı eylemleri](workflow-actions.md)
-- [İş akışı oluşturma](create-workflow.md)
+- [İş akışı onay süreçlerindeki eylemler](workflow-actions.md)
+- [İş akışlarına genel bakış](create-workflow.md)
 
 ## <a name="electronic-signatures"></a>Elektronik imzalar
 
@@ -86,13 +86,13 @@ Elektronik imza bir hesaplama işlemi başlatmak veya onaylamak üzere olan kiş
 Planlayarak, izleyerek ve durumları analiz ederek, benzer sorunlarda kullanılabilecek verimli çözümler geliştirebilirsiniz. Örneğin, bir müşteri servis temsilcisi veya İnsan Kaynakları kişisi vakalar oluşturduğunda, bir vaka ile çalışma veya bunu çözümlemek için yardımcı olabilecek bilgileri bilgi bankası makalelerinde bulabilirler.
 
 - [Servis talebi yönetimine genel bakış](cases.md)
-- [Servis talebi güvenliğini, işlemlerini ve kategorilerini yapılandırma](plan-case-management.md)
+- [Servis talebi kategorisi güvenliğini, servis talebi işlemlerini ve servis talebi kategorilerini planlama](plan-case-management.md)
 
 ## <a name="record-templates"></a>Kayıt şablonları
 
 Kayıt şablonları, kayıtları daha hızlı oluşturmaya yardımcı olabilir. Sıklıkla kullanılan alan değerlerinin her yeni bir kayıt için açık olarak girilmesi gerekmeden bir kayıt şablonunu oluşturabilirsiniz.
 
-- [Kayıt şablonları](record-templates.md)
+- [Kayıt şablonlarına genel bakış](record-templates.md)
 - [Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma](../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md) (Görev kılavuzu)
 - [Yeni kayıt oluşturmak için kayıt şablonu kullanma](../../dev-itpro/data-entities/tasks/use-record-template-new-record.md) (Görev kılavuzu)
 

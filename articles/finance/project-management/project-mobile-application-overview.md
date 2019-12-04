@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 521fdc98c8af51f6f244f9aa606ce047d014edf1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3cb3b25503b559f21c45c0232a8c0abd3e415eb3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250450"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773634"
 ---
 # <a name="project-mobile-applications-overview"></a>Project mobil uygulamalarına genel bakış
 
@@ -45,4 +45,7 @@ Zaman çizelgelerim (Mobil için iyileştirilmiş) ve Gözden geçirmem üzere z
 
 ## <a name="for-more-information"></a>Daha fazla bilgi için
 
-Daha fazla ayrıntı için bkz [Microsoft Dynamics 365 Project timesheet mobil uygulaması](project-timesheet.md), [Proje zaman girişi]( project-time-entry-mobile-workspace.md), [Mobil cihazda proje zaman çizelgeleri](Mobile-timesheets.md) ve [Proje zaman çizelgeleri mobil uygulaması için özel alanlar uygulama](custom-fields-mobile.md).
+- [Proje zaman çizelgesi mobil uygulaması](project-timesheet.md)
+- [Proje süresi girişi]( project-time-entry-mobile-workspace.md)
+- [Mobil cihazda proje zaman çizelgeleri](Mobile-timesheets.md)
+- [iOS ve Android üzerinde Microsoft Dynamics 365 Project Timesheet mobil uygulaması için özel alanlar uygulama](custom-fields-mobile.md)

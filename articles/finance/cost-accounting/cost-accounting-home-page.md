@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180349"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771973"
 ---
 # <a name="cost-accounting-home-page"></a>Maliyet muhasebesi ana sayfası
 
@@ -39,17 +39,17 @@ Aşağıdaki öğrenme haritası, Maliyet muhasebesi modülünün çerçevesini 
 
 |      |   |
 |------|---|
-|  [Temel varlıkları yapılandırma (e-öğrenme)](https://mbspartner.microsoft.com/Home) (CustomerSource hesabı gerektirir)  |[Boyut oluştur](cost-elements.md)  |
-|  [Boyut hiyerarşisi oluşturma](dimension-hierarchy.md)  |[Temel ayar oluşturma](./tasks/define-cost-control-units.md)| 
-| [Tahsisat tabanı tanımlama](allocation-bases.md)|[İlkeleri tanımlama](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [Veri kaynağı ve veri sağlayıcı](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Veri kaynağı ve veri sağlayıcı](./tasks/process-trace-source-data.md)     | 
-|[Genel gider hesaplaması](overhead-calculation.md)  | [Çözümleme ve raporlama](cost-control-workspace.md)   |
+|  [Temel varlıkları yapılandırma (e-öğrenme)](https://mbspartner.microsoft.com/Home) (CustomerSource hesabı gerektirir)  |[Maliyet öğesi boyutları](cost-elements.md)  |
+|  [Boyut hiyerarşisi](dimension-hierarchy.md)  |[Maliyet kontrol birimlerini tanımlama](./tasks/define-cost-control-units.md)| 
+| [Tahsisat temelleri](allocation-bases.md)|[Maliyet tahsisatı ilkesi oluşturma ve bir maliyet kontrol birimine atama](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Maliyet muhasebesi genel muhasebesi için veri kaynağını yönetme](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Kaynak verilerini işleme ve izleme](./tasks/process-trace-source-data.md)     | 
+|[Genel gider hesaplaması](overhead-calculation.md)  | [Maliyet kontrolü çalışma alanı](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Başlangıç videoları<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [Maliyet muhasebesine giriş](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Maliyet muhasebesi mobil çalışma alanı](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Maliyet muhasebesi analizi için Excel kullanımı](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 

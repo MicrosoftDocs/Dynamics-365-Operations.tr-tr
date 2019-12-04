@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 266c594fda1609e4efdc8cdcd79767d94b755187
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188545"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772065"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Birleştirme ve elemeye genel bakış
 
@@ -87,6 +87,6 @@ Kısmen sahip olduğunuz bağlı kuruluşlar için birden fazla seçeneğiniz bu
 Bir sürümden dışa aktarma yapmak için **Şirket bakiyelerini dışa aktar** seçeneğini kullanabilir ve ardından diğer sürümde **İçe aktararak birleştir** seçeneğini kullanarak verileri birleştirebilirsiniz.
 
 
-Daha fazla bilgi için bkz: [Bir konsolide şirkette para birimi yeniden değerlemesi](../general-ledger/currency-revaluation-consolidation-company.md).
+Daha fazla bilgi için bkz. [Konsolidasyon şirketinde para birimi yeniden değerleme](../general-ledger/currency-revaluation-consolidation-company.md).
 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7b6b3cced92920ef5a253ca15793f26f244475fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186613"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771857"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış
 
@@ -69,13 +69,13 @@ Kullanıcılar; Çevrimiçi Olarak Konsolide Et, Mali raporlama veya ikisini bir
 ## <a name="legal-entity-setup"></a>Tüzel kişilik kurulumu
 Bir konsolidasyonu işlemeden önce tüzel kişiliği ayarlamanız gerekir. Konsolidasyonu ihtiyacınız olduğu sayıda çalıştırabilirsiniz ve tüm veriler kaynak şirketin muhasebe para biriminden konsolidasyon şirketi için tanımlı para birimine dönüştürülür. Bu nedenle aşağıdaki organizasyon yapısı için, tüm Kuzey Amerika şirketlerini önce ABD dolarına (USD) ve sonra ana şirketin para birimi olan avroya (EUR) dönüştürmek zorundaysanız en az iki konsolidasyon şirketiniz olmalıdır.
 
-![Organizasyon yapısı](./media/organizational-structure.png "Organizasyon yapısı")
+![Kuruluş yapısı](./media/organizational-structure.png "Kuruluş yapısı")
 
 Önceki organizasyon yapısında Kuzey Amerika konsolidasyonu için bir tüzel kişiliğe sahip olmalısınız çünkü konsolidasyonlar daima kaynak şirketin muhasebe para biriminden konsolidasyon şirketinin para birimine konsolide edilir. Örnek olarak tüm şirketler tek bir konsolidasyona dahilse Meksika'daki yan kuruluş Meksika pesosunu (MXN) USD'ye ve sonra EUR'ye değil, doğrudan EUR'ye dönüştürür.
 
 Tüzel kişiliği oluştururken şirketin konsolidasyon işlemiyle eliminasyon işleminin her ikisi için mi yoksa bu işlemlerden sadece birisi için mi kullanılacağını belirtebilirsiniz. Aşağıdaki çizimde şirket her iki işlem için kullanılmaktadır. Konsolidasyon şirketinde günlük defterleri nakledemeyeceğinizi ancak onları bir eliminasyon şirketinde deftere nakledebileceğinizi unutmayın. Bu nedenle farklı bir eliminasyon şirketinizin olmasını isteyebilirsiniz.
 
-![Hem konsolidasyon hem eliminasyon için kullanılan tüzel kişilik](./media/sep-elimination-company.png "Hem konsolidasyon hem eliminasyon için kullanılan tüzel kişilik")
+![Hem konsolidasyon hem de eleme için kullanılan tüzel kişilik](./media/sep-elimination-company.png "Hem konsolidasyon hem de eleme için kullanılan tüzel kişilik")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Ana hesaplar ve konsolidasyon hesabı grupları
 Yapmanız gereken seçim, hesap planlarınızı nasıl konsolide etmek isteyeceğinizdir. Konsolidasyon işlemi sırasında ana hesapları konsolide etmek için üç seçeneğiniz vardır.
@@ -91,7 +91,7 @@ Yapmanız gereken seçim, hesap planlarınızı nasıl konsolide etmek isteyece�
 ![İlave konsolidasyon hesapları sayfasında eşleme](./media/additional-consolidation-accounts.png "İlave konsolidasyon hesapları sayfasında eşleme")
 
 ## <a name="consolidating-online"></a>Çevrimiçi olarak konsolide etme
-Konsolidasyon bilgilerinin çevrimiçi olarak nasıl girildiğini öğrenmek için bkz. [Çevrimiçi olarak konsolide etme](./consolidate-online.md).
+Konsolidasyon bilgilerinin çevrimiçi olarak nasıl girildiğini öğrenmek için bkz. [Çevrimiçi mali konsolidasyonlar](./consolidate-online.md).
 
 ## <a name="managing-consolidation-transactions"></a>Konsolidasyon hareketlerini yönetme
 Konsolidasyon sonuçlarını görüntülemek için birden fazla seçeneğiniz vardır:

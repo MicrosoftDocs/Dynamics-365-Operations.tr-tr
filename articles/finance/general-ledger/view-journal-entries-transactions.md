@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07774e607abc90951c27100e749645d8a476b6a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79329b60f0aa7ce196b55a1483b07f8b9ea7e3cf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175663"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771717"
 ---
 # <a name="view-journal-entries-and-transactions"></a>Günlük girişlerini veya hareketlerini görüntüleme
 
@@ -56,8 +56,8 @@ Mali raporlara ek olarak, aşağıdaki genel muhasebe raporlarını kullanarak g
 ## <a name="additional-resources"></a>Ek kaynaklar
 - [Genel muhasebe hesap bakiyeleri](general-ledger-account-balances.md) 
 - [Muhasebe kaynağı gezgini](../accounts-payable/accounting-source-explorer.md)
-- [Mali raporlama](financial-reporting-getting-started.md)
-- [Günlük girişlerini görüntüle](tasks/view-journal-entries-or-transactions.md)
+- [Mali raporlamaya genel bakış](financial-reporting-getting-started.md)
+- [Günlük girişlerini veya hareketlerini görüntüleme](tasks/view-journal-entries-or-transactions.md)
 
 
 

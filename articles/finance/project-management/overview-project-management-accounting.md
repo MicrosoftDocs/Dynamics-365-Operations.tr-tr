@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185647"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770371"
 ---
 # <a name="project-management-and-accounting-overview"></a>Proje yönetimi ve muhasebeye genel bakış
 
@@ -72,7 +72,7 @@ Proje sözleşmeleri hakkında daha fazla bilgi için [Proje sözleşmeleri](pro
 
 Bir WBS'nin ayrıntı derecesi, tahminlerde gerekli olan kesinlik düzeyine ve bu tahminlerin gerektirdiği izleme düzeyine bağlıdır. Plan veya maliyet açısından hataya çok düşük bir toleransı olan projeler genellikle daha ayrıntılı bir WBS içerir ve ayrıca çalışmanın ilerlemesinin ve maliyetinin WBS ile dikkatli bir şekilde kıyaslanarak takip edilmesini gerektirir. 
 
-Daha fazla bilgi için [İş kırılım yapıları](work-breakdown-structures.md) bölümüne bakın.
+Daha fazla bilgi için bkz. [İş kırılım yapılarına genel bakış](work-breakdown-structures.md).
 
 ### <a name="create-project-forecasts-and-budgets"></a>Proje tahminleri ve bütçeleri oluşturma
 
@@ -101,7 +101,7 @@ Finance'te altı proje türü oluşturabilirsiniz. Her proje türü farklı mali
   </tr>
   <tr>
     <td>Maliyet projesi</td>
-    <td>Yatırım projelerinde olduğu gibi, Maliyet projeleri de tipik olarak dahili projelerin takip edilmesi için kullanılır ve bu projeler için sadece saatler, giderler ve maddeler kaydedilebilir. Ancak, Maliyet projeleri genellikle Yatırım projelerine kıyasla daha kısa sürelidir. Ek olarak, Yatırım projelerinin aksine, Maliyet projeleri, bilanço hesaplarına aktifleştirilemez. Bunun yerine, proje hareketleri yalnızca kar ve zarar hesaplarına nakledilir. <br></br> <strong>NOT:</strong> Maliyet projelerindeki hareketler <strong>Maliyetleri deftere naklet</strong>, <strong>Gelir tahakkuku</strong> ve <strong>Fatura teklifleri oluştur</strong> sayfalarında yansıtılmaz. Maliyet projeleri genellikle dahili projeleri izlemek için kullanıldığından, genellikle bir müşteri hesabıyla ilişkili olmaları gerekmez. Ancak, kurulumunuz gereği satın alma emirleri için madde gereksinimlerinin oluşturulması gerekiyorsa Maliyet projesini mutlaka bir projeyle ilişkilendirmelisiniz. Bu ilişkilendirme, madde gereksinimlerin satış emri satırları olarak yönetilmesinden ve sistemin bir müşterinin tanımlanmasını gerektirmesinden kaynaklanır. Ancak, bu kurulum, madde gereksinimlerinin otomatik olarak bir satın alma emrinden oluşturulmasına neden olmaz. Maliyet projeleri için <strong>Madde gereksinimi oluştur</strong> ayarı göz ardı edilir. Bir Maliyet projesinde bir madde gereksinimine ihtiyaç duyuyorsanız, projeyle bir müşterinin ilişkilendirilmiş olması şartıyla bunu manuel olarak oluşturabilirsiniz.</td>
+    <td>Yatırım projelerinde olduğu gibi, Maliyet projeleri de tipik olarak dahili projelerin takip edilmesi için kullanılır ve bu projeler için sadece saatler, giderler ve maddeler kaydedilebilir. Ancak, Maliyet projeleri genellikle Yatırım projelerine kıyasla daha kısa sürelidir. Ek olarak, Yatırım projelerinin aksine, Maliyet projeleri, bilanço hesaplarına aktifleştirilemez. Bunun yerine, proje hareketleri yalnızca kar ve zarar hesaplarına nakledilir. <br></br> <strong>NOT:</strong> Maliyet projelerindeki hareketler <strong>Maliyetleri deftere naklet</strong>, <strong>Gelir tahakkuku</strong> ve <strong>Fatura teklifleri oluştur</strong> sayfalarında yansıtılmaz. Maliyet projeleri genellikle dahili projeleri izlemek için kullanıldığından, genellikle bir müşteri hesabıyla ilişkili olmaları gerekmez. Ancak, kurulumunuz gereği satın alma emirleri için madde gereksinimlerinin oluşturulması gerekiyorsa Maliyet projesini mutlaka bir projeyle ilişkilendirmelisiniz. Bu ilişkilendirme, madde gereksinimlerin satış siparişi satırları olarak yönetilmesinden ve sistemin bir müşterinin tanımlanmasını gerektirmesinden kaynaklanır. Ancak, bu kurulum, madde gereksinimlerinin otomatik olarak bir satın alma emrinden oluşturulmasına neden olmaz. Maliyet projeleri için <strong>Madde gereksinimi oluştur</strong> ayarı göz ardı edilir. Bir Maliyet projesinde bir madde gereksinimine ihtiyaç duyuyorsanız, projeyle bir müşterinin ilişkilendirilmiş olması şartıyla bunu manuel olarak oluşturabilirsiniz.</td>
   </tr>
   <tr>
     <td>İç</td>
@@ -134,7 +134,7 @@ Proje yürütme sırasında ekip üyeleri veya yöneticiler zaman çizelgeleri, 
 
 WBS bir proje için tamamlanacak işlerin açıklamasıdır. WBS, bir görevler hiyerarşisidir. Sadece her bir göreve yönelik işleri temsil etmez, aynı zamanda görevin boyutunu, maliyetini ve süresini de temsil eder. 
 
-Daha fazla bilgi için [İş kırılım yapıları](work-breakdown-structures.md) bölümüne bakın.
+Daha fazla bilgi için bkz. [İş kırılım yapılarına genel bakış](work-breakdown-structures.md).
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Proje tahminlerini ve bütçelerini yönetme
 
@@ -144,11 +144,11 @@ Daha fazla bilgi için [Proje tahminleri ve bütçeleri](project-forecasts-budge
 
 ### <a name="create-production-orders"></a>Üretim emirleri oluşturma
 
-Projeyle ilgili bir üretim emri, nihai ürün yöntemi veya tüketilen madde yöntemi kullanılarak bir satış emri veya bir madde gereksinimi ile ilişkilendirilebilir. Buna ek olarak, üretim emri manuel olarak oluşturulmuşsa üretim emri ile satış emri veya madde gereksinimi (emre bağlantı yoktur) arasında hiçbir bağlantı yoktur. Ancak, bir satış emrinin yerine getirilmesi veya bir madde gereksiniminin karşılanması amacıyla üretim emri otomatik olarak oluşturulmuşsa üretim emri ile satış emri veya madde gereksinimi (emre bağlantı vardır) arasında bir bağlantı vardır. 
+Projeyle ilgili bir üretim emri, nihai ürün yöntemi veya tüketilen madde yöntemi kullanılarak bir satış siparişi veya bir madde gereksinimi ile ilişkilendirilebilir. Buna ek olarak, üretim emri manuel olarak oluşturulmuşsa üretim emri ile satış siparişi veya madde gereksinimi (emre bağlantı yoktur) arasında hiçbir bağlantı yoktur. Ancak, bir satış siparişinin yerine getirilmesi veya bir madde gereksiniminin karşılanması amacıyla üretim emri otomatik olarak oluşturulmuşsa üretim emri ile satış siparişi veya madde gereksinimi (emre bağlantı vardır) arasında bir bağlantı vardır. 
 
 Bu faktörlerin kombinasyonlarına dayalı olarak, aşağıdaki yöntemlerden birini kullanın:
 
-- **Tamamlanan madde/bağlantılı sipariş** – Projeyi bir satış emrine veya bir madde gereksinimine bağlayın. Bu yöntem kullanılıyorsa satış emri faturalandığında veya sevk irsaliyesi, madde gereksinimini için güncelleştirildiğinde gerçek proje maliyetleri nakledilir. Maliyet bir tamamlanan madde olarak nakledilir.
+- **Tamamlanan madde/bağlantılı sipariş** – Projeyi bir satış siparişine veya bir madde gereksinimine bağlayın. Bu yöntem kullanılıyorsa satış siparişi faturalandığında veya sevk irsaliyesi, madde gereksinimini için güncelleştirildiğinde gerçek proje maliyetleri nakledilir. Maliyet bir tamamlanan madde olarak nakledilir.
 - **Tamamlanan madde/bağlantılı olmayan sipariş** – Fiili maliyetler, bir madde için üretim döngüsünün durumu **Sonlandırıldı** olmadan nakledilemez. Tamamlanan madde maliyeti tek bir hareket olarak nakledilir.
 - **Tüketilen madde/bağlantılı sipariş** – Projeyi bir madde gereksinimine bağlayın. Bu yöntemi kullanarak, üretimin durumu **Başlatıldı** olduğunda veya bitti olarak raporlandığında gerçek proje maliyetlerini görüntüleyebilirsiniz. Maliyetler, üretim için kullanılan hammaddelere ve saatlere yönelik birden çok proje madde hareketi olarak deftere nakledilir. Madde gereksinimi için sevk irsaliyesi güncelleştirildiğinde, hiçbir proje maliyeti deftere nakledilmez. Üretimdeki projelerin takip edildiği ürün reçetesi (BOM) hiyerarşisindeki seviyeyi de tanımlayabilirsiniz.
 - *<strong><em>Tüketilen madde/bağlantılı olmayan sipariş</em></strong>*– Projeyi bir madde gereksinimine bağlayın. Bu yöntemi kullanarak, üretimin durumu <strong>Başlatıldı</strong> olduğunda veya bitti olarak raporlandığında gerçek proje maliyetlerini görüntüleyebilirsiniz. Maliyetler, üretim için kullanılan hammaddelere ve saatlere yönelik birden çok proje madde hareketi olarak deftere nakledilir. Üretimdeki projelerin takip edildiği BOM hiyerarşisindeki seviyeyi de tanımlayabilirsiniz.
@@ -186,7 +186,7 @@ Satın alma emrinin amacı, satın alma emrinin ne zaman tamamlanacağını ve b
 </tr>
 <tr class="even">
 <td>Bir satış siparişinden satınalma siparişi oluşturma.</td>
-<td>Maddeleri bir projeden bir satış emri oluşturduğunuzda satın alın.</td>
+<td>Maddeleri bir projeden bir satış siparişi oluşturduğunuzda satın alın.</td>
 <td>Maddeler, satış siparişinin faturası müşteriye kesildiğinde tüketilir.</td>
 </tr>
 <tr class="odd">
@@ -209,7 +209,7 @@ Maddeleri sipariş etme yönteminiz bunları nereden sipariş ettiğinize göre 
 -   Maddeleri bir harici satıcıdan sipariş etmek için **Satın alma emri** sayfasında siparişi bir satın alma emri olarak oluşturabilirsiniz.
 
 > [!NOTE] 
-> Maddeler halihazırda paketleme için işaretlenmişse bir projeye dayalı satış emri için sevk irsaliyesi iptal edilemez. 
+> Maddeler halihazırda paketleme için işaretlenmişse bir projeye dayalı satış siparişi için sevk irsaliyesi iptal edilemez. 
 
 Aşağıdaki tabloda madde sipariş yöntemleri listelenmiş ve maddelerin nasıl tüketileceği açıklanmıştır.
 

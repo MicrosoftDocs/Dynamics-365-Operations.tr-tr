@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef630ca56888eb61ab0519a29c89c3ccb2f24a87
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537844"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811684"
 ---
 # <a name="help-system"></a>Yardım sistemi
 
@@ -82,7 +82,7 @@ Daha fazla bilgi için lütfen [katılımcı kılavuzumuza](https://docs.microso
 
 Bir Görev kılavuzu size bir görevin veya iş işlemin adımları boyunca yol gösteren denetimli, destekli, etkileşimli bir deneyimdir. Yardım bölmesinden bir Görev kılavuzunu açabilirsiniz (oynatabilirsiniz). Bir Görev kılavuzuna tıkladığınızda Yardım bölmesi görev için talimatları adım adım gösterecektir. Yerelleştirilmiş Görev kılavuzları hazır.
 
-Microsoft, Dynamics 365 for Finance and Operations Aralık 2017 sürümleri için görev kılavuzu kitaplıkları yayınladı. [Yardım bölmesindeki Görev kılavuzlarına erişme](help-overview.md#accessing-task-guides-from-the-help-pane) bölümü, ürününüz için doğru Görev kılavuzlarını bulmayı açıklar.
+Microsoft, Dynamics 365 for Finance and Operations Aralık 2017 sürümleri için görev kılavuzu kitaplıkları yayınladı. [Yardım sistemi](help-overview.md#accessing-task-guides-from-the-help-pane) bölümü, ürününüz için doğru Görev kılavuzlarını bulmayı açıklar.
 
 ![Görev kılavuzu okuma görünümü](./media/task-guide-ops.png)
 
@@ -93,7 +93,7 @@ Yönlendirmeli, etkileşimli deneyime başlamak için, Yardım bölmesinin altı
 > [!IMPORTANT]
 > Bir Görev kılavuzunu yürütürken girdiğiniz veriler gerçektir. Bir üretim ortamındaysanız, veriler kullanmakta olduğunuz şirkette girilir.
 
-Kendi özel Görev kılavuzlarınızı oluşturmak için Görev kaydediciyi kullanabilirsiniz. Daha fazla bilgi için bkz. [Görev kayıtlarını kullanarak belge veya eğitim oluşturmak](../../dev-itpro/user-interface/task-recorder-training-docs.md).
+Kendi özel Görev kılavuzlarınızı oluşturmak için Görev kaydediciyi kullanabilirsiniz. Daha fazla bilgi için bkz. [Görev Kaydedici ile belge veya eğitim oluşturma](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Ürün içi Yardım
 
@@ -144,13 +144,12 @@ Bir sistem yöneticisi bu adımları tamamladıktan sonra, Yardım bölmesini a�
 
 Kullanıcılarınız için özel Görev kılavuzları oluşturarak yardım oluşturabilir veya kendi web sitenizi Yardım panosuna bağlayabilirsiniz. Ayrıntılı bilgi için bkz:
 
-- [Belge veya eğitim olarak kullanmak için görev kaydı oluşturma](../../dev-itpro/user-interface/task-recorder.md).
+- [Görev kaydedici kaynakları](../../dev-itpro/user-interface/task-recorder.md).
 - [Özel Yardım Oluşturma (teknik inceleme)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [Görev kaydedici](../../dev-itpro/user-interface/task-recorder.md)
-- [Görev kayıtlarını kullanarak belgeler veya eğitim oluşturma](../../dev-itpro/user-interface/task-recorder.md)
+- [Görev kaydedici kaynakları](../../dev-itpro/user-interface/task-recorder.md)
 
 Aşağıdaki tablo web sitelerimizi listeler. Adının yanında bir yıldız işareti (\*) olan siteler hizmet planı ile ilişkili olan bir hesabı kullanarak oturum açmanızı gerektirir.
 
@@ -158,7 +157,7 @@ Aşağıdaki tablo web sitelerimizi listeler. Adının yanında bir yıldız iş
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com adresindeki yardım](/dynamics365/)                                                            | Dynamics için tüm ürün belgeleri barındırır veya bağlantı kurar. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Microsoft'un ücretsiz e-Eğitim sitesi. |
-| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Müşteriler ve ortakların satış öncesi uygulama ve işlemlerden projeleri yönetebilmesi için bulut tabanlı işbirliğine dayalı çalışma alanı sağlar. Bu site uygulamanın tüm aşamalarında yararlıdır. |
+| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Müşteriler ve ortakların satış öncesi uygulama ve işlemlerden projeleri yönetebilmesi için bulut tabanlı iş birliğine dayalı çalışma alanı sağlar. Bu site uygulamanın tüm aşamalarında yararlıdır. |
 | [Destek blogu](https://aka.ms/AXSupportBlog)                                                    | Destek ekibi tarafından yayınlanan ipuçları ve püf noktalar sağlar. |
 | [Docs.microsoft.com/previous sürümleri](https://docs.microsoft.com/previous-versions/dynamics/) | Önceki sürümlerden içerik barındırır. |
 | [Dynamics Topluluğu](https://community.dynamics.com/)                                          | Bloglar, forumlar ve videoları barındırır. |

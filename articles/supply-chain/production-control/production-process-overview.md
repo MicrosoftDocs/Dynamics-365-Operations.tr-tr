@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c25b5f6a4aa6f2742ee5e41039f3f5511715e3b0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250038"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814249"
 ---
 # <a name="production-process-overview"></a>Üretim sürecine genel bakış
 
@@ -52,7 +52,7 @@ Farklı ürünler ve üretim topolojileri, farklı sipariş türleri uygulanmas�
 Belirli bir ürün ve ilişkili pazar için uygun imalat ilkesini seçmek için, üretim ve lojistik gerekliliklerinin yanı sıra teslimat sağlama süreleri konusundaki müşteri beklentilerini dikkate almanız gerekir.
 
 -   **Stoka aktar** – Bu, ürünlerin, tahmini veya asgari stok dolumuna dayalı olarak (ikincisi tipik olarak tahmine veya geçmiş tüketime dayalı olarak hesaplanır) stok için üretildiği klasik imalat ilkesidir.
--   **Siparişe göre üretim** – Standart ürünler, siparişe göre üretilir veya siparişe göre bitirilir. Ön üretim, Stoka aktar ilkesi kullanılarak yapılabilmesine rağmen, bir satış emri veya transfer emri tarafından değer zincirinin pahalı adımları veya varyantlar oluşturan adımlar tetiklenir.
+-   **Siparişe göre üretim** – Standart ürünler, siparişe göre üretilir veya siparişe göre bitirilir. Ön üretim, Stoka aktar ilkesi kullanılarak yapılabilmesine rağmen, bir satış siparişi veya transfer emri tarafından değer zincirinin pahalı adımları veya varyantlar oluşturan adımlar tetiklenir.
 -   **Siparişe göre yapılandır** – Siparişe göre üretim için olduğu gibi, değer zincirinin nihai işlemleri, siparişe göre yapılır. Üretilen gerçek ürün varyantı önceden tanımlı değildir, satış ürününün yapılandırma modeline dayalı olarak sipariş girişi zamanında oluşturulur. Siparişe göre yapılandır ilkesi, verili bir ürün hattı için belirli bir düzeyde süreç tekleşmesi gerektirir.
 -   **Siparişe göre mühendislik** – Siparişe göre mühendislik süreçleri, tipik olarak bir proje üzerinden ele alınırlar ve genellikle mühendislik aşamasıyla başlarlar. Mühendislik aşamasında, siparişi karşılamak için gereken gerçek ürünler tasarlanıp ve açıklanır. Daha sonra ürünleri üretmek için üretim emirleri, toplu iş emirleri veya kanban'lar oluşturulabilir.
 
@@ -82,9 +82,9 @@ Belirli bir ürün ve ilişkili pazar için uygun imalat ilkesini seçmek için,
 
 [Üretim geri bildirimi](production-feedback.md)
 
-[Ürün yapılandırma modelleri](../pim/product-configuration-models.md)
+[Ürün yapılandırma modellerine genel bakış](../pim/product-configuration-models.md)
 
-[Yalın imalat](lean-manufacturing-overview.md)
+[Yalın imalata genel bakış](lean-manufacturing-overview.md)
 
 
 

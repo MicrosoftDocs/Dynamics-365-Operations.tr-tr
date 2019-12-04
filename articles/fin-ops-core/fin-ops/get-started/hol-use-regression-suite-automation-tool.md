@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9afa98156c58d10c19454430769a3d60343661dc
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 654685a382ca5f3f462ad8a9c506b51b52c3758c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550969"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811661"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool eğitimi kullanma
 
@@ -36,15 +36,15 @@ Bu öğretici, Regression Suite Automation Tool (RSAT) gelişmiş özelliklerind
 
 ### <a name="validate-a-field-value"></a>Bir alan değeri doğrula
 
-Bu özellik hakkında daha fazla bilgi için, bkz [Doğrulama işlevi olan yeni bir görev kaydı oluşturma](./hol-set-up-regression-suite-automation-tool.md#create-a-new-task-recording-that-has-a-validate-function).
+Bu özellik hakkında daha fazla bilgi için bkz. [Doğrulama işlevi olan yeni bir görev kaydı oluşturma](./hol-set-up-regression-suite-automation-tool.md#create-a-new-task-recording-that-has-a-validate-function).
 
 ### <a name="saved-variable"></a>Kaydedilen değişken
 
-Bu özellik hakkında daha fazla bilgi için, bkz [Kaydedilmiş bir değişken oluşturmak için varolan görev kaydını değiştirme](./hol-set-up-regression-suite-automation-tool.md#modify-an-existing-task-recording-to-create-a-saved-variable).
+Bu özellik hakkında daha fazla bilgi için bkz. [Kaydedilmiş bir değişken oluşturmak için var olan görev kaydını değiştirme](./hol-set-up-regression-suite-automation-tool.md#modify-an-existing-task-recording-to-create-a-saved-variable).
 
 ### <a name="derived-test-case"></a>Türetilmiş test olayı
 
-1. Regression Suite Automation Tool'u (RSAT) açın ve [Regression Suite Automation Tool eğitimi ayarlama ve yükleme](./hol-set-up-regression-suite-automation-tool.md)'da oluşturduğunuz test olaylarını seçin.
+1. Regression Suite Automation Tool'u (RSAT) açın ve [Regression Suite Automation Tool eğitimi ayarlama ve yükleme](./hol-set-up-regression-suite-automation-tool.md) bölümünde oluşturduğunuz test olaylarını seçin.
 2. **Yeni \> Türetilmiş test olayı oluştur**'u seçin.
 
     ![Yeni menüsünde türetilmiş test olayı komutu oluşturma](./media/use_rsa_tool_01.png)
@@ -145,7 +145,7 @@ Test olaylarını çalıştırıldıktan sonra, günlük dosyalarını **C:\\Use
 ![GeneratorLogs klasörü](./media/use_rsa_tool_10.png)
 
 > [!NOTE]
-> .config dosyasındaki değeri değiştirmeden önce varolan test olayları varsa, yeni test çalışmaları dosyaları üretene kadar bu test olayları için günlükler oluşturulmaz.
+> .config dosyasındaki değeri değiştirmeden önce var olan test olayları varsa, yeni test çalışmaları dosyaları üretene kadar bu test olayları için günlükler oluşturulmaz.
 > 
 > ![Yeni menüde yalnızca Metin Yürütmesi ve Parametre Dosyaları oluştur komutu](./media/use_rsa_tool_11.png)
 
@@ -192,7 +192,7 @@ Aşağıdaki şekil, RSAT'da bu senaryoya yönelik iş süreçlerini gösterir.
 ### <a name="data"></a>Veriler
 
 - Temsili veri birimlerinizin (ürün/altın yapılandırma verilerinin bir kopyası ve geçirilen veriler) olduğundan emin olun.
-- Görev kaydediciyle yeni veri oluşturduğunuzda, varolan adlarla çakışmayacak test adları oluşturun (örneğin, **RSATxxx**gibi bir önek kullanın).
+- Görev kaydediciyle yeni veri oluşturduğunuzda, var olan adlarla çakışmayacak test adları oluşturun (örneğin, **RSATxxx**gibi bir önek kullanın).
 - Katman olmayan 1 ortamlarda testleri yeniden çalıştırmak için Azure Point geri yüklemeyi kullanın.
 - Benzersiz bir birleşim oluşturmak için yalnızca **RASGELE** ve **ŞiMDi** Excel işlevlerini kullanabilseniz de çalışma oldukça yüksektir. Aşağıda bir örnek verilmiştir.
 

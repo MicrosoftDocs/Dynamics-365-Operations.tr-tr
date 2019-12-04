@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
-ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
+ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2666842"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770678"
 ---
 # <a name="sales-tax-overview"></a>Satış vergisine genel bakış
 
@@ -38,7 +38,7 @@ Satış vergisi çerçevesi, farklı türlerdeki dolaylı vergileri destekler, �
 
 Aşağıdaki diyagram vergi varlıklarının kurulumunu ve nasıl ilişkilendirildiğini gösterir.
 
-[![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Vergi ayarı varlıklarına genel bakışı gösteren diyagram](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Bir şirketin dikkate alması gereken tüm satış vergileri için, bir satış vergi kodu tanımlanması gerekir. Bir satış vergisi kodu, bu satış vergisi için vergi oranlarını ve hesaplama kurallarını saklar. 
 
@@ -55,7 +55,7 @@ Aşağıdaki tablo, vergi kurulumu için varlıkları ve sıralamayı açıklar.
 | Kurulum faaliyeti                                                  | Gerekli/İsteğe bağlı ve açıklama                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ana hesapları oluştur.                                           | Gerekli. Satış vergisi işlevini ayarlamadan önce, şirketin vergileri ödemek ve kaydetmek için kullandığı ana hesapların oluşturulması gerekir.                                                                                                                                                                             |
-| Satış vergisi için Genel muhasebe deftere nakil grupları ayarlayın.                     | Gerekli. Genel muhasebe deftere nakil grupları, satış vergilerinin kaydedileceği ve ödeneceği ana hesapları tanımlar.   Daha fazla bilgi için bkz. [Satış vergisi için genel muhasebe deftere nakil grupları ayarlama](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Satış vergisi için Genel muhasebe deftere nakil grupları ayarlayın.                     | Gerekli. Genel muhasebe deftere nakil grupları, satış vergilerinin kaydedileceği ve ödeneceği ana hesapları tanımlar.   Daha fazla bilgi için bkz. [Satış vergisi için Genel muhasebe deftere nakil grupları ayarlama](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
 | Vergi dairesi ayarlama.                                   | Gerekli. Satış vergisi daireleri, verginin bildirilmesi ve ödenmesi gereken varlıklardır.    Daha fazla bilgi için bkz. [Satış vergi daireleri ayarlama](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Satış vergisi kapatma dönemlerini ayarla.                            | Gerekli. Satış vergisi kapatma dönemleri, satış vergisinin ne zaman ve ne sıklıkta bildirilmesi ve ödenmesi gerektiği hakkında bilgiler içerir. Bir satış vergi dairesiyle ilişkilidirler.                                                                                                                                                       |
 | Satış vergisi raporlama kodlarını ayarla.                               | İsteğe bağlı. Satış vergisi raporlama kodları, satış vergisi kodlarına birden fazla satış vergisi kodu için tutarları bir satış vergisi raporlama kodu altında bildirebilmek için atanabilir. Daha fazla bilgi için bkz. [Satış vergisi raporlama kodları ayarlama.](tasks/set-up-sales-tax-reporting-codes.md).                                         |

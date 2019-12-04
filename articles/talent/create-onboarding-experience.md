@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8c11186ff3f95a7f1e00f9e42d7b78f5a68957b0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008140"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813949"
 ---
 # <a name="get-started-with-onboard"></a>Onboard kullanmaya başlama
 
@@ -35,17 +35,17 @@ Onboard, yeni işe aldığınız çalışanları ağırlayacak ve onları kurulu
 
 Onboard uygulamasını nasıl alacağınızı ve kullanacağınızı öğrenmek için aşağıdaki konulara bakın:
 
-- [Onboard uygulamasını edinme](./onboard-get-app.md)
-- [İşe alım süreci rehberi oluşturma](./onboard-create-guide.md)
-- [İşe alım süreci şablonu oluşturma](./onboard-create-template.md)
-- [İşe alım kılavuzları ve şablonları düzenleme](./onboard-edit-guides-templates.md)
-- [İçeriği diğer katkıda bulunanlarla paylaşın](./onboard-share-template.md)
-- [Görevlerin ve işe alınan çalışanların durumunu görüntüleme](./onboard-view-status.md)
-- [Onboard'da işe alma ekipleri oluşturun](./onboard-create-team.md)
+- [Dynamics 365 Talent - Onboard uygulamasını edinme](./onboard-get-app.md)
+- [Dynamics 365 Talent - Onboard kullanarak işe alım süreci kılavuzu oluşturup gönderme](./onboard-create-guide.md)
+- [Dynamics 365 Talent - Onboard kullanarak işe alım süreci şablonu oluşturma](./onboard-create-template.md)
+- [Dynamics 365 Talent - Onboard'ta işe alım süreci kılavuzlarını ve şablonlarını düzenleme](./onboard-edit-guides-templates.md)
+- [Dynamics 365 Talent - Onboard'ta içeriği diğer katkıda bulunanlarla paylaşma](./onboard-share-template.md)
+- [İşe alınan çalışanların durumunu ve görevlerinizi görüntüleme](./onboard-view-status.md)
+- [Dynamics 365 Talent - Onboard kullanarak işe alım takımı oluşturma](./onboard-create-team.md)
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [Onboard uygulamasını deneyin veya satın alın](https://dynamics.microsoft.com/talent/onboard/)
-- [Yenilikler](./whats-new.md)
-- [Sürüm notları](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Destek alma](./talent-support.md)
+- [Dynamics 365 Talent'teki yenilikler veya değişiklikler](./whats-new.md)
+- [Sürüm planları](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Microsoft Dynamics 365 Talent için destek alma](./talent-support.md)

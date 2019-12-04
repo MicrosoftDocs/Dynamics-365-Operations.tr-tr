@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract'ta analitik raporları kullanma
-description: Bu konuda, Microsoft Dynamics 365 Talent- Attract'ta işlem öngörüleri için işe alma analitik raporları açıklanmaktadır
+title: Attract'te analitik raporları kullanma
+description: Bu konuda, Microsoft Dynamics 365 Talent- Attract'te işlem öngörüleri için işe alma analitik raporları açıklanmaktadır
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 5a4d160e8c90725d5ea129a76fd48da1c5af7900
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4ae608bbca111313d8c77e63f6a7a95813f6e5cd
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551530"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833243"
 ---
-# <a name="use-analytic-reports-in-microsoft-dynamics-365-talent---attract"></a>Microsoft Dynamics 365 Talent - Attract'ta analitik raporları kullanma
+# <a name="use-analytic-reports-in-attract"></a>Attract'te analitik raporları kullanma
 
-Microsoft Dynamics 365 Talent: Attract'taki analitik raporlar, işe alım işlemi öngörüleriniz için kullanıma hazır (OOTB) bir çözüm sağlar. Kullanılabilir özellikler şunları içerir:
+[!include [banner](includes/banner.md)]
+
+Microsoft Dynamics 365 Talent: Attract'teki analitik raporlar, işe alım işlemi öngörüleriniz için kullanıma hazır (OOTB) bir çözüm sağlar. Kullanılabilir özellikler şunları içerir:
 
 - **İş analizleri** İşe başvuranların ölçümleri için işin içinde **Analiz** sekmesine tıklayın.
 - **Analitik Hub:** İşlerdeki toplu ölçümler için sol gezinme panosunda **Analiz**'e tıklayın.
@@ -50,7 +52,7 @@ Microsoft Dynamics 365 Talent: Attract'taki analitik raporlar, işe alım işlem
 
 ## <a name="analytics-hub"></a>Analiz Merkezi
 
-Analiz Merkezi raporları, işe alma sürecindeki eğilimleri ortaya çıkarmak için işlerden veri toplar. Attract'ta iki OOTB rapor bulunur: İşlem Hattı Özeti ve Huni Analizi.
+Analiz Merkezi raporları, işe alma sürecindeki eğilimleri ortaya çıkarmak için işlerden veri toplar. Attract'te iki OOTB rapor bulunur: İşlem Hattı Özeti ve Huni Analizi.
 
 ### <a name="pipeline-summary"></a>Potansiyel Satış Özeti
 
@@ -85,4 +87,4 @@ Power BI'nin harika özelliklerinden biri, bir rapor sayfasındaki tüm görsell
 
 ## <a name="export-to-excel"></a>Excel'e aktar
 
-Rapor verilerini Excel'de görüntülemek için görseldeki seçenekler menüsüne (üç nokta) tıklayıp **Temel alınan verileri dışa aktar**'ı seçebilirsiniz. Dışa aktarılan veriler Attract'taki kullanıcı izinleri dikkate alınarak filtrelenmiş aktarılır. Daha fazla bilgi için bkz. [Görselleştirmelerden dışa veri aktarma](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
+Rapor verilerini Excel'de görüntülemek için görseldeki seçenekler menüsüne (üç nokta) tıklayıp **Temel alınan verileri dışa aktar**'ı seçebilirsiniz. Dışa aktarılan veriler Attract'teki kullanıcı izinleri dikkate alınarak filtrelenmiş aktarılır. Daha fazla bilgi için bkz. [Görselleştirmelerden dışa veri aktarma](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).

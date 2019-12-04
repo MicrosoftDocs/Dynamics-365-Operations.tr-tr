@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 28ed12bd8cf2df7c25e14a25465cad1229676cfd
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551991"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812868"
 ---
 # <a name="get-the-dynamics-365-talent---onboard-app"></a>Dynamics 365 Talent - Onboard uygulamasını edinme
 
@@ -39,13 +39,13 @@ Deneme sürümü veya satın alma işlemi sırasında, Microsoft 365 e-posta adr
 > [!WARNING]
 > Denemenizin ücretli abonelik ortamınıza veri geçişi yapamazsınız. <!--Reviewers: please verify.-->
 
-Talent içindeki yeni özellikler hakkında daha fazla bilgi için bkz. [Dynamics 365 Talent içinde neler yeni veya değişti](./whats-new.md) ve [Dynamics 365 ve Power Platform Sürüm Notları](https://docs.microsoft.com/business-applications-release-notes/index). Onboard yeni özellikleri önizlemek istiyorsanız, bkz. [Talent'ta önizleme özelliklerine erişim](./access-preview-feature.md).
+Talent içindeki yeni özellikler hakkında daha fazla bilgi için bkz. [Dynamics 365 Talent içinde neler yeni veya değişti](./whats-new.md) ve [Dynamics 365 ve Power Platform Sürüm Notları](https://docs.microsoft.com/business-applications-release-notes/index). Onboard'ta yeni özellikleri önizlemek istiyorsanız bkz. [Microsoft Dynamics 365 Talent'te önizleme özelliklerine erişme](./access-preview-feature.md).
 
-BT uzmanı iseniz ve Onboard uygulamanın iki sürümünün nasıl sağlandığı hakkında daha fazla bilgi edinmek istiyorsanız, [Onboard uygulama için sağlama](./modular-app-tech-faq.md) konusuna bakın.
+BT uzmanıysanız ve Onboard uygulamasının iki sürümünün nasıl sağlandığı hakkında daha fazla bilgi edinmek isterseniz bkz. [Dynamics 365 Talent - Onboard uygulaması için sağlama](./modular-app-tech-faq.md).
 
 ## <a name="get-started-with-onboard"></a>Onboard kullanmaya başlama
 
-Onboard'u ilk kez açtığınızda, Microsoft 365 Yönetim Merkezi'nden tura başlamak için davetlisiniz. Yönetim Merkezi kuruluşunuzu ayarladığınız, kullanıcıları yönetebileceğiniz ve aboneliklerinizi yönettiğiniz yerdir. (Bu aboneliklerden biri, Onboard aboneliğinizdir.) Microsoft 365 Yönetim Merkezi hakkında daha fazla bilgi için, bkz. [Microsoft 365 Yönetim Merkezi hakkında](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+Onboard'u ilk kez açtığınızda, Microsoft 365 Yönetim Merkezi'nden tura başlamak için davetlisiniz. Yönetim Merkezi kuruluşunuzu ayarladığınız, kullanıcıları yönetebileceğiniz ve aboneliklerinizi yönettiğiniz yerdir. (Bu aboneliklerden biri, Onboard aboneliğinizdir.) Microsoft 365 Yönetim Merkezi hakkında daha fazla bilgi için bkz. [Microsoft 365 Yönetim Merkezi hakkında](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
 
 Onboard uygulamasına ulaşmak için, aşağıdaki adımları izleyin.
 
@@ -83,12 +83,12 @@ Onboard ile oturum açarken varsayılan etki alanı adını kabul ettiyseniz, da
 - [İşe alım süreci şablonu oluşturma](./onboard-create-template.md)
 - [İşe alım kılavuzları ve şablonları düzenleme](./onboard-edit-guides-templates.md)
 - [İçeriği diğer katkıda bulunanlarla paylaşın](./onboard-share-template.md)
-- [Görevlerin ve işe alınan çalışanların durumunu görüntüleme](./onboard-view-status.md)
-- [Onboard'da işe alma ekipleri oluşturun](./onboard-create-team.md)
+- [Görevlerin ve işe alınan personelin durumunu görüntüleme](./onboard-view-status.md)
+- [Onboard'ta işe alma ekipleri oluşturun](./onboard-create-team.md)
 
 ### <a name="see-also"></a>Ayrıca bkz.
 
 - [Onboard uygulamasını deneyin veya satın alın](https://dynamics.microsoft.com/talent/onboard/)
-- [Yenilikler](./whats-new.md)
-- [Sürüm notları](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Destek alma](./talent-support.md)
+- [Dynamics 365 Talent'teki yenilikler veya değişiklikler](./whats-new.md)
+- [Sürüm planları](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Microsoft Dynamics 365 Talent için destek alma](./talent-support.md)

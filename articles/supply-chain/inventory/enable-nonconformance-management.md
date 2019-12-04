@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc1e1eb9d8ede1d07a873ca98a1c385cf0126c3f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5985042567a29f5a9cac38912cbf9c3c0eb9c8bd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557542"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814479"
 ---
 # <a name="nonconformance-management"></a>Uygunsuzluk yönetimi
 
@@ -49,8 +49,8 @@ Uygunsuzluk yönetimini etkinleştirmek için şu adımları izleyin:
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Bir uyumsuzluk oluştur ve işle (Görev kılavuzu)](tasks/create-process-non-conformance.md)
+[Uyumluluk oluşturma ve işleme](tasks/create-process-non-conformance.md)
 
 [Kalite yönetimi işlemleri](quality-management-processes.md)
 
-[Uyumlu olmayan yönetimi için ön şartları ayarlama (Görev kılavuzu)](tasks/set-up-prerequisites-nonconformance-management.md)
+[Uyumlu olmayan yönetim için ön şartları ayarlama](tasks/set-up-prerequisites-nonconformance-management.md)

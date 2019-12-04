@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract'ın hangi sürümü?
-description: Bu konu, Microsoft Dynamics 365 Talent- Attract'ın farklı sürümlerindeki yeterlilikler hakkında bilgi sağlar.
+title: Attract sürümünü seçme
+description: Bu konu, Microsoft Dynamics 365 Talent- Attract'in farklı sürümlerindeki yeterlilikler hakkında bilgi sağlar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 54f206aed196be5bbfa0de5b632f20519c2680ea
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 701ce0d710c20deb793534581c276edf02426a4b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550448"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833173"
 ---
-# <a name="which-version-of-microsoft-dynamics-365-talent---attract"></a>Microsoft Dynamics 365 Talent - Attract'ın hangi sürümü?
+# <a name="choose-a-version-of-attract"></a>Attract sürümünü seçme
 
-[!include[banner](../includes/banner.md)]
+[[!include [banner](includes/banner.md)]
 
 Sizin için doğru olan Microsoft Dynamics 365 Talent: Attract sürümü, kuruluşunuzun boyutu ve ihtiyaçlarına bağlıdır. Attract'in temel sürümü, işe alım yöneticisinin birincil kullanıcı olduğu daha küçük ekipler ve kuruluşlara yöneliktir. Bir veya daha fazla lisans ile Attract'in temel sürümünü kullanmaya başlayabilirsiniz.
 

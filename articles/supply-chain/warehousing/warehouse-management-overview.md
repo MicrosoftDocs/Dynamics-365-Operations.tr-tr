@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251074"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813029"
 ---
 # <a name="warehouse-management-overview"></a>Ambar yönetimine genel bakış
 
@@ -36,7 +36,7 @@ Ambar yönetimiyle çalışmaya başlamak için, şirketinizin iş işlemlerini 
 
 İş gereksinimlerine göre gelen ve giden ambar işlemleri iş akışları için bileşenleri yapılandırmanız gerekir. Yapılandırmanız gereken en önemli bileşenler dalga şablonları, iş şablonları, iş havuzları ve konum yönergeleridir.
 
-- [Ambar yapılandırması](warehouse-configuration.md)
+- [Ambar yapılandırmasına genel bakış](warehouse-configuration.md)
 - [İş şablonları ve konum yönergeleri ile ambar işini denetleyin](control-warehouse-location-directives.md)
 - [Ambar işi için mobil cihazları ayarlama](configure-mobile-devices-warehouse.md)
 - [Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

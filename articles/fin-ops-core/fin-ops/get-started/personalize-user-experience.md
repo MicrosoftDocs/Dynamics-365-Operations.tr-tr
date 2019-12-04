@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 124609041163bbcaf1b86a6964fa3f56fcd8f755
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: d3cf2b82470887ee617704b72e47a53d299911e3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658772"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811543"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -112,17 +112,14 @@ Bir sayfada birden çok değişiklik veya diğer mekanizmalar aracılığıyla g
 
 - Bir öğeyi seçip özelliklerini değiştirmek için **Seç** aracını kullanın. Bu aracı kullanmak için, araç çubuğunda **Seç** düğmesini seçin ve sonra istediğiniz öğeyi seçin. Öğenin özellik penceresi görünür ve o öğenin özelliklerini değiştirebilirsiniz. Sayfada kişiselleştirilebilecek başka öğeler için işlemi yineleyebilirsiniz. Bazı senaryolarda bazı kişiselleştirme özelliklerinin kullanılabilir olmayacağını unutmayın. Örneğin, gerekli bir alanı kilitleyemezsiniz.
 - Sayfadaki bir öğeyi gizlemek için **Gizle** aracını kullanın. Bu aracı kullanmak için, araç çubuğunda **Gizle** düğmesini seçin ve sonra gizlenecek öğeyi seçin. **Gizle** aracını kullandığınız zaman, gizli durumdaki tüm öğeler görünür hale gelir ancak gölgeli bir kapsayıcıda gösterilir. Böylece, öğeyi seçerek görünür yapabilirsiniz. Öğeler gizli olduğunda sayfanın nasıl görüneceğini görmek için, başka bir kişiselleştirme aracına geçin.
-
-    Gerekli alanları ve gerekli alanları içeren bölümleri gizleyebilirsiniz. Bu şekilde, basitleştirilmiş bir deneyim oluşturabilirsiniz; burada iş mantığı tarafından doldurulan varsayılan değerler içermesi durumunda zorunlu alanlar görüntülenmez. Bir kullanıcı sayfayı kaydetmeyi denediğinde, gizli gerekli alanlar boş ise, geçici olarak görünür hale gelir.
-
-- Sayfanıza bir alan eklemek için **Alan ekle** aracını kullanın. Bu aracı kullandığınızda, yalnızca sayfa tanımının bir parçası olan alanlar ekleyebilirsiniz. Geçerli sayfa tanımının bir parçası olmayan yeni alanların nasıl oluşturulacağı hakkında bilgi için bkz. [Özel alanlar](user-defined-fields.md). Araç çubuğunda **Alan ekle** düğmesini seçtikten sonra, ilk olarak, alan eklemek istediğiniz grubu veya bölgeyi seçmeniz gerekir. Bir iletişim kutusunda, seçilen grupla veya bölgeyle ilgili alanların listesi görüntülenir. İletişim kutusunda, eklenecek bir veya daha fazla alan seçin ve ardından **Ekle**'yi seçin. Önceden eklediğiniz bir alanı kaldırmak için bu işlemi yineleyin ancak iletişim kutusundaki alan seçimini temizleyin.
+- Sayfanıza bir alan eklemek için **Alan ekle** aracını kullanın. Bu aracı kullandığınızda, yalnızca sayfa tanımının bir parçası olan alanlar ekleyebilirsiniz. Geçerli sayfa tanımının bir parçası olmayan yeni alanların nasıl oluşturulacağı hakkında bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](user-defined-fields.md). Araç çubuğunda **Alan ekle** düğmesini seçtikten sonra, ilk olarak, alan eklemek istediğiniz grubu veya bölgeyi seçmeniz gerekir. Bir iletişim kutusunda, seçilen grupla veya bölgeyle ilgili alanların listesi görüntülenir. İletişim kutusunda, eklenecek bir veya daha fazla alan seçin ve ardından **Ekle**'yi seçin. Önceden eklediğiniz bir alanı kaldırmak için bu işlemi yineleyin ancak iletişim kutusundaki alan seçimini temizleyin.
 - Bir öğeyi mevcut öğeler grubu içinde farklı bir konuma taşımak için **Taşı** aracını kullanın. Bir öğeyi üst grubunun dışına taşıyamazsınız. Bu aracı kullanmak için, araç çubuğunda **Taşı** düğmesini seçin ve sonra taşınacak öğeyi seçin. Bir öğeyi seçtiğinizde uygulama öğenin taşınabileceği konumları belirler. Bu konumlara *bırakma alanları* denir. Öğeyi mevcut grup içinde sürükledikçe, her bırakma bölgesi, öğenin bırakılabileceği alanın yanında renkli ve kalın bir çizgi olarak gösterilir.
 - Sayfanın klavye sekmesi sırasından bir öğeyi kaldırmak için **Atla** aracını kullanın. Araç çubuğunda **Atla** düğmesini seçtiğiniz zaman, atlanmış durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Etkileşimli olarak sekme sırasına alan ekleme veya kaldırma yapabilirsiniz.
 - Bir öğenin hızlı sekme özet bölümünde görünmesini isterseniz **Başlıkta göster** aracını kullanın. Araç çubuğunda **Başlıkta göster** düğmesini seçtiğiniz zaman, özet alanı olarak seçilen tüm alanlar gölgeli bir kapsayıcıda gösterilir. Hızlı sekme özetine etkileşimli olarak alan ekleyebilir veyaalanları seçerek kaldırabilirsiniz.
 - Bir öğeyi düzenlenebilir veya düzenlenemez olarak işaretlemek için **Kilitle** aracını kullanın. Araç çubuğunda **Kilitle** düğmesini seçtiğiniz zaman, düzenlenemez durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Bu durumda bu öğeleri yeniden düzenlenebilir hale getirebilirsiniz. Bazı alanların gerekli olduğunu ve düzenlenemez yapılamayacağını unutmayın. Bu alanların yanında bir asma kilit simgesi görünür.
-- Microsoft PowerApps kullanarak oluşturulmuş bir uygulamayı sayfaya katıştırmak için, **PowerApp ekle** düğmesini kullanın. Sayfaya bir PowerApps uygulamasının nasıl katıştırılacağı hakkında ayrıntılı bilgi için [PowerApps'i katıştırma](embed-power-apps.md) başlıklı makaleye bakın.
+- Microsoft PowerApps kullanarak oluşturulmuş bir uygulamayı sayfaya katıştırmak için, **PowerApp ekle** düğmesini kullanın. PowerApps uygulamasını bir sayfaya katıştırma hakkında ayrıntılı bilgi için bkz. [PowerApps uygulamalarını katıştırma](embed-power-apps.md).
 - Sayfayı varsayılan, ilk yüklendiği durumuna sıfırlamak için **Temizle** aracını kullanın. Geçerli sayfadaki tüm kişiselleştirmeler temizlenir. Geri alma eylemi yoktur. Bu nedenle, bu aracı ancak sayfa sıfırlamak istediğinizden emin olduğunuzda kullanın.
-- Sizin veya başka birinin daha önce oluşturduğu bir dosyadan kişiselleştirme yüklemek için **İçe aktar** aracını kullanın. Bir sayfa için kişiselleştirmeleri içe aktardığınızda, sayfa için varolan tüm kişiselleştirmelere eklenip eklenmeyeceğini veya bunların yerini alıp almayacaklarını seçebilirsiniz. Geri alma eylemi yoktur. Bu nedenle, kişiselleştirmeleri içe aktardıktan sonra, istemediğiniz değişiklikleri el ile temizlemeniz veya geri almanız gerekir.
+- Sizin veya başka birinin daha önce oluşturduğu bir dosyadan kişiselleştirme yüklemek için **İçe aktar** aracını kullanın. Bir sayfa için kişiselleştirmeleri içe aktardığınızda, sayfa için var olan tüm kişiselleştirmelere eklenip eklenmeyeceğini veya bunların yerini alıp almayacaklarını seçebilirsiniz. Geri alma eylemi yoktur. Bu nedenle, kişiselleştirmeleri içe aktardıktan sonra, istemediğiniz değişiklikleri el ile temizlemeniz veya geri almanız gerekir.
 - Sayfadaki kişiselleştirmelerinizi bir dosyaya kaydetmek için **Dışa aktar** aracını kullanın. Böylece kişiselleştirmelerinizi başka kullanıcılarla paylaşabilirsiniz. Bu kullanıcıların, sayfaya ilişkin kişiselleştirmelerinizi içeren dosyayı içe aktarmaları gerekir.
 - **Kişiselleştirme** araç çubuğunu kapatmak ve sayfayı önceki etkileşimli durumuna döndürmek için **Kapat** düğmesini seçin.
 

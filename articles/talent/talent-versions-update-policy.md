@@ -1,9 +1,9 @@
 ---
-title: Talent sistem gereksinimleri ve güncelleştirme ilkesi
-description: Bu konu Dynamics 365 Talent için gereksinimleri listeler. Güncelleştirme ilkesi de açıklanmaktadır.
+title: Talent sistem gereksinimleri
+description: Bu konu Dynamics 365 Talent için gereksinimleri listeler.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/02/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
+ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024172"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2818491"
 ---
-# <a name="talent-system-requirements-and-update-policy"></a>Talent sistem gereksinimleri ve güncelleştirme ilkesi
+# <a name="talent-system-requirements"></a>Talent sistem gereksinimleri
 
 [!include [banner](includes/banner.md)]
 
@@ -46,7 +46,7 @@ Her web tarayıcısı için en son sürümü bulmak için, yazılım üreticisin
 > * İş Akışı Düzenleyicisi bir ClickOnce uygulaması olarak başlatılır. Yalnızca Microsoft Edge ve Internet Explorer (desteklenen bir Microsoft Windows sürümü üzerinde) ClickOnce uygulamalarını destekler. İş Akışı Düzenleyicisi ClickOnce uygulaması için 64-bit uyumlu bir işletim sistemi gereklidir.
 > * PDF dosyalarının önizlemesini yapmak için (en son sürüm genel kullanıma açık) Windows 10 üzerinde, Microsoft Edge veya (en son sürüm genel kullanıma açık) Windows 10, Windows 8.1, Windows 8, Windows 7 veya Google Nexus 10 tablet üzerinde Google Chrome gibi modern tarayıcıları kullanmanızı öneririz.
 >   Ağ gereksinimleri
-> * Dynamics 365 Talent 250-300 milisaniye (ms) veya daha az gecikmeye sahip ağlar için tasarlanmıştır. Bu, bir tarayıcı istemcisinden Talent'ı barındıran Microsoft Azure veri merkezine iletim süresidir. Ağ gecikmesini [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test") adresinden test etmenizi öneririz.
+> * Dynamics 365 Talent 250-300 milisaniye (ms) veya daha az gecikmeye sahip ağlar için tasarlanmıştır. Bu, bir tarayıcı istemcisinden Talent'ı barındıran Microsoft Azure veri merkezine iletim süresidir. Ağ gecikmesini [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test") adresinde sınamanızı öneririz.
 > * Talent için bant genişliği gereksinimlerini senaryoya bağlıdır. En tipik senaryolar 50 kilobayt/saniye (KBps) üzerinde bir bant genişliği gerektirir.
 > 
 > [!WARNING]
@@ -66,8 +66,3 @@ Talent'ın desteklediği ülkeler, bölgeler ve dillere ilişkin bir PDF dosyas�
 
 Ülkeye veya bölgeye özel özelleştirmeler oluşturmakla ilgilenen bir geliştiricisiyseniz veya şu anda Microsoft tarafından desteklenmeyen bir ülke veya bölge için çözüm oluşturan bir geliştiriciyseniz bkz. [Globalleştirme](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
-## <a name="update-policy"></a>Güncelleştirme ilkesi
-
-Talent bir bulut hizmeti olarak sunulmaktadır. Talent güncelleştirmeleri süreklidir ve Microsoft tarafından otomatik olarak uygulanır.
-
-Güncelleştirmeler düzenli aralıklarla yayımlanır ve tüm ortamlar için yapılır. Talent, ürün destek kullanılabilirliği hakkında düzenli ve öngörülebilir kılavuzlar sunan [Microsoft Desteği Yaşam Döngüsü ilkesine](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Desteği Yaşam Döngüsü") uygun olarak desteklenir.

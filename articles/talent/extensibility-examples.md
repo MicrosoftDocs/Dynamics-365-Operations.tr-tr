@@ -1,6 +1,6 @@
 ---
-title: PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek senaryolar
-description: Bu konu, Microsoft PowerApps ve Microsoft Flow kullanan Microsoft Dynamics 365 Talent için bazı örnek genişletilebilirlik senaryolarını açıklar.
+title: Power Apps ve Power Automate ile Talent'i genişletme
+description: Bu konu, Microsoft Power Apps ve Microsoft Power Automate kullanan Microsoft Dynamics 365 Talent için bazı örnek genişletilebilirlik senaryolarını açıklar.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008071"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832850"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek senaryolar
+# <a name="extend-talent-with-power-apps-and-power-automate"></a>Power Apps ve Power Automate ile Talent'i genişletme
 
-Bu konu, Microsoft PowerApps ve Microsoft Flow kullanan Microsoft Dynamics 365 Talent için bazı örnek genişletilebilirlik senaryolarını açıklar. Her bir örnek ile ilişkilendirilmiş çözüm paketini PowerApps ortamınıza içe aktarabilirsiniz. Daha sonra paketleri kılavuz veya başlangıç noktası olarak kullanarak, kuruluşunuza uygun olan senaryoları gerçekleştirmek için kullanabilirsiniz.
+[!include [banner](includes/banner.md)]
+
+Bu konu, Microsoft Power Apps ve Microsoft Power Automate kullanan Microsoft Dynamics 365 Talent için bazı örnek genişletilebilirlik senaryolarını açıklar. Her bir örnek ile ilişkilendirilmiş çözüm paketini Power Apps ortamınıza içe aktarabilirsiniz. Daha sonra paketleri kılavuz veya başlangıç noktası olarak kullanarak, kuruluşunuza uygun olan senaryoları gerçekleştirmek için kullanabilirsiniz.
 
 > [!IMPORTANT]
 > Bu konuda açıklanan şablonları ve uygulamayı "olduğu gibi" kullanmak istiyorsanız, uygulamanıza spesifik olan tüm senaryoları kapsadıklarından emin olmak için test ettiğinizden emin olun.
@@ -36,11 +38,11 @@ Bu konu, Microsoft PowerApps ve Microsoft Flow kullanan Microsoft Dynamics 365 T
 ## <a name="prerequisites"></a>Önkoşullar
 
 - Paketleri almak için kullanıcıların **Ortam Yapıcı** izni olması gerekir.
-- Uygulamaları içe veya dışa aktarmak için kullanıcıların bir PowerApps Plan 2 lisansı veya PowerApps Plan 2 deneme lisansına sahip olmaları gerekir.
+- Uygulamaları içe veya dışa aktarmak için kullanıcıların bir Power Apps Plan 2 lisansı veya Power Apps Plan 2 deneme lisansına sahip olmaları gerekir.
 
-## <a name="flow--form-connect"></a>Akış - Form Bağlantısı
+## <a name="power-automate--form-connect"></a>Power Automate – Form Bağlantısı
 
-**Akış - Form Bağlantısı** şablonu, Microsoft Formlarından veri okumak ve bunları bir Common Data Service varlığı içinde depolamak için kullanılabilir.
+**Power Automate – Form Bağlantısı** şablonu, Microsoft Forms'tan veri okumak ve bunları bir Common Data Service varlığı içinde depolamak için kullanılabilir.
 
 Bu şablon, diğer senaryolar için kullanılabilecek şekilde genişletilebilir. Burada bazı örnekler verilmiştir:
 
@@ -51,19 +53,19 @@ Bu şablon, diğer senaryolar için kullanılabilecek şekilde genişletilebilir
 
 Microsoft Dynamics 365 içinde: Attract, formları Aday portalında görüntülenebilir ve adaylar ayrıntıları doldurabilir. Formlar ayrıca bir iş şablonunda etkinlikler olarak katıştırılabilir.
 
-Bir aday bir form gönderdiğinde, Microsoft Flow, form gönderimini yakalar, veriyi okur ve Common Data Service varlığı içinde depolar.
+Bir aday bir form gönderdiğinde, Microsoft Power Automate, form gönderimini yakalar, veriyi okur ve Common Data Service varlığı içinde depolar.
 
-**Akış - Form Bağlantısı** şablonunu ve Özel Varlık Yapısını indirmek için [Akış - Form Bağlantısı](https://go.microsoft.com/fwlink/?linkid=2081988)'na, Microsoft Download Center üzerinden gidin.
+**Power Automate – Form Bağlantısı** şablonunu ve Özel Varlık Yapısını indirmek için Microsoft İndirme Merkezi'nde [Power Automate – Form Bağlantısı](https://go.microsoft.com/fwlink/?linkid=2081988)'na gidin.
 
-## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>PowerApps'e aktarılan parametreleri başlat ve ayıkla
+## <a name="initiate-and-extract-parameters-passed-to-power-apps"></a>Power Apps'e aktarılan parametreleri başlat ve ayıkla
 
-**PowerApps'e aktarılan parametreleri başlat ve ayıkla** şablonu Attract'e özel olan PowerApps senaryosuna bir başlangıç noktası olarak kullanılabilir. Attract'e aktarılan tüm varsayılan parametreleri içerir, örnein **İş Başvurusu**, **Aday Kimlik Kodu** ve **JobID** gibi.
+**Power Apps'e aktarılan parametreleri başlat ve ayıkla** şablonu Attract'e özel olan tüm Power Apps senaryoları için bir başlangıç noktası olarak kullanılabilir. Attract'e aktarılan tüm varsayılan parametreleri içerir, örnein **İş Başvurusu**, **Aday Kimlik Kodu** ve **JobID** gibi.
 
 Bu şablon, aday değerlendirme formunu çağırmak için kullanılabilir, böylece işe alan yönetici adayın doldurduğu değerlendirmeyi görüntüleyebilir.
 
-PowerApps kullanılarak oluşturulan uygulamalar Attract içindeki bir iş şablonuna katıştırılabilir.
+Power Apps kullanılarak oluşturulan uygulamalar Attract içindeki bir iş şablonuna katıştırılabilir.
 
-**PowerApps'e aktarılan parametreleri başlat ve ayıkla** şablonu ve Özel Varlık Yapısını indirmek için [PowerApps'e aktarılan parametreleri başlat ve ayıkla](https://go.microsoft.com/fwlink/?linkid=2081991)'ya Microsoft Download  Center üzerinden gidin.
+**Power Apps'e aktarılan parametreleri başlat ve ayıkla** şablonunu ve Özel Varlık Yapısını indirmek için Microsoft İndirme Merkezi'nde [Power Apps'e aktarılan parametreleri başlat ve ayıkla](https://go.microsoft.com/fwlink/?linkid=2081991) bağlantısına gidin.
 
 ## <a name="integration-with-office-365"></a>Office 365'le Tümleştirme
 
@@ -71,42 +73,42 @@ PowerApps kullanılarak oluşturulan uygulamalar Attract içindeki bir iş şabl
 
 Bu uygulama, diğer senaryolar için kullanılabilecek şekilde genişletilebilir. Örneğin, ekip tatil bilgisini, takvim etkinlikleri ve ekibe özel etkinlikleri göstermek için kullanılabilir.
 
-**Office 365 ile tümleştirme** uygulamasını ve Özel Varlık Yapısını indirmek için [Office 365 ile tümleştirme'ye](https://go.microsoft.com/fwlink/?linkid=2081787) Microsoft Download Center'a gidin.
+**Office 365 ile tümleştirme** uygulamasını ve Özel Varlık Yapısını indirmek için Microsoft İndirme Merkezi'nde [Office 365 ile tümleştirme](https://go.microsoft.com/fwlink/?linkid=2081787)'ye gidin.
 
-## <a name="flow--email-notification"></a>Akış - E-posta Bildirimi
+## <a name="power-automate--email-notification"></a>Power Automate – E-posta Bildirimi
 
-**Akış - E-posta Bildirimi** şablonu, e-posta bildirimi senaryoları için kullanılabilir. İşe alma sürecinin herhangi bir aşamasında işe alma ekibinin reddettiği adaylara bildirim e-postaları gönderilmesini tetiklemekte kullanılabilir.
+**Power Automate – E-posta Bildirimi** şablonu, e-posta bildirimi senaryoları için kullanılabilir. İşe alma sürecinin herhangi bir aşamasında işe alma ekibinin reddettiği adaylara bildirim e-postaları gönderilmesini tetiklemekte kullanılabilir.
 
 Bu şablon, adaylık aşamasında işe alma süreci boyunca değişiklikleri takip etmek için ve işe alma ekibi ve adaya bildirimler göndermek için genişletilebilir.
 
 Genel olarak, Common Data Service içinde depolanan varlıklar, akışlar Core HR, Attract veya Onboard içinde gerçekleşen etkinlikler için bildirimler göndermek üzere ayarlanabilir.
 
-**Akış - E-posta Bildirimi** şablonunu indirmek için [Akış - E-posta bildirimi](https://go.microsoft.com/fwlink/?linkid=2082103)'ne Microsoft Download Center'dan gidin.
+**Power Automate – E-posta Bildirimi** şablonunu indirmek için Microsoft İndirme Merkezi'nde [Power Automate – E-posta Bildirimi](https://go.microsoft.com/fwlink/?linkid=2082103) bağlantısına gidin.
 
-## <a name="flow--sql-connect-and-execute"></a>Akış - SQL Bağlan ve yürüt
+## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – SQL Bağlan ve yürüt
 
-**Akış - SQL Bağlan ve yürüt** şablonu, Microsoft SQL Server'e bağlanır ve SQL sorgularının yürütülmesini etkinleştirir.
+**Power Automate – SQL Bağlan ve yürüt** şablonu, Microsoft SQL Server'a bağlanır ve SQL sorgularının çalıştırılmasını etkinleştirir.
 
 Bu şablon, SQL tablolarını okumak ve güncelleştirmek üzere tasarlanmış olsa da, diğer senaryolar için kullanılmak üzere genişletilebilir. Örneğin, Common Data Service içinde bir hazırlama tablosunu SQL Server'dan doldurmak ve hazırlama tablosunu SQL Server'dan kademeli şekilde eşitlemek üzere kullanılabilir.
 
-**Akış - SQL Bağlan ve yürüt** şablonunu indirmek için [Akış - SQL Bağlan ve yürüt](https://go.microsoft.com/fwlink/?linkid=2081789)'na, Microsoft Download Center üzerinden gidin.
+**Power Automate – SQL Bağlan ve yürüt** şablonunu indirmek için Microsoft İndirme Merkezi'nde [Power Automate – SQL Bağlan ve yürüt](https://go.microsoft.com/fwlink/?linkid=2081789) bağlantısına gidin.
 
-## <a name="flow--sharepoint-integration"></a>Akış - SharePoint Tümleştirmesi
+## <a name="power-automate--sharepoint-integration"></a>Power Automate – SharePoint Tümleştirmesi
 
-**Akış - SharePoint Tümleştirmesi** şablonu, Microsoft SharePoint listesinden veri okumak, listeleri herhangi bir Common Data Service varlığı için alan değerleriyle karşılaştırmak ve karşılaştırmanın sonuçlarını bir bildirim e-postası olarak gönderir. 
+**Power Automate – SharePoint Tümleştirmesi** şablonu, Microsoft SharePoint listesinden veri okumak, listeleri herhangi bir Common Data Service varlığı için alan değerleriyle karşılaştırmak ve karşılaştırmanın sonuçlarını bir bildirim e-postası olarak göndermek için kullanılabilir. 
 
 Bir kuruluş, acil olarak ihtiyaç duydukları bir yetenek kümesine sahip olabilir. Bu yetenekler, SharePoint içinde bir SharePoint listesi olarak depolanabilir. Bir aday, bir gerekli yetenekler kümesinin listelendiği herhangi bir işe başvurduğunda, adayın yetenekleri ve SharePoint içinde depolanmış yetenekler arasında önemli bir eşleşme varsa bir e-posta bildirimi gönderilir. Bu şekilde, acil olarak ihtiyaç duyulan pozisyonlar daha hızlı doldurulur çünkü bildirimler işe alanların adaylara kuruluş içinden ulaşmasına olanak sağlar.
 
 Bu şablon, SharePoint tümleştirmesi içeren herhangi bir senaryoda kullanılmak üzere genişletilebilir.
 
-**Akış - SharePoint Tümleştirmesi** şablonunu indirmek için [Akış - SharePoint Tümleştirmesi](https://go.microsoft.com/fwlink/?linkid=2082109)'ne Microsoft Download Center'dan gidin.
+**Power Automate – SharePoint Tümleştirmesi** şablonunu indirmek için Microsoft İndirme Merkezi'nde [Power Automate – SharePoint Tümleştirmesi](https://go.microsoft.com/fwlink/?linkid=2082109) bağlantısına gidin.
 
 ## <a name="referral-app"></a>Başvuru Uygulaması
 Paylaşılan bir yetenek havuzuna aday eklemek için referans uygulamasını kullanabilirsiniz. Başvuran, adayı gönderirken **FirstName**, **LastName**, **Email** ve **Linkedln URL'sini** girebilir. Aday kaynak meta verileri daha sonra başvuran bilgileri ile doldurulur.
 
 Bu uygulamayı, referanslar göndermek için çalışan self servisi'ne (ESS) katıştırabilir veya bunu şirket portalında köprü olarak kullanıp tek başına çalışan bir uygulama olarak kullanabilirsiniz.
 
-**Referans uygulamasını** karşıdan yüklemek için [Dynamics 365 Talent genişletilebilirlik çözümü: Referans uygulaması](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) gidip Microsoft Yükleme Merkezi'nden indirin. Bu uygulamayı içe aktarabilir ve başka işlevler eklemek için özelleştirebilirsiniz.
+**Referans uygulamasını** karşıdan yüklemek için Microsoft İndirme Merkezi'nde [Dynamics 365 Talent genişletilebilirlik çözümü: Referans Uygulaması](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) bağlantısına gidin. Bu uygulamayı içe aktarabilir ve başka işlevler eklemek için özelleştirebilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

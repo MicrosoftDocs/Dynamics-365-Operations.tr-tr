@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653523"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813811"
 ---
 # <a name="demand-forecasting-setup"></a>Talep tahmini kurulumu
 
@@ -51,9 +51,9 @@ Tahmin edilen maddelerin sayısını gözden geçirin. Microsoft Azure Machine L
 ## <a name="demand-forecasting-parameters"></a>Talep tahmin parametreleri
 Talep tahmin parametrelerini ayarlamak için, **Master planlama** &gt; **Kurulum** &gt; **Talep tahmin parametreleri** menüsüne gidin. Talep tahmini şirketler arası gerçekleştirildiği için, ayar geneldir. Diğer bir deyişle, ayar tüm şirketler için geçerlidir. 
 
-Talep tahmini, tahmini miktar cinsinden oluşturur. Bu yüzden, miktarın ifade edileceği ölçü birimi **Talep tahmin birimi** alanında belirtilmelidir. Ölçü birimi, toplam ve yüzde dağılımının anlamlı olmasını garantiye almak için benzersiz olmalıdır. Toplam ve yüzde dağılımı hakkında daha fazla bilgi için, bkz. [Temel tahmine manüel ayarlar yapma](manual-adjustments-baseline-forecast.md). Talep tahminine dahil edilen SKU'lar için kullanılan her ölçü birimi konusunda, ölçü birimi ve genel tahmin ölçü birimi için bir dönüştürme kuralı olduğundan emin olun. Tahmin oluşturma çalıştırıldığında, ölçü birimi dönüşümü olmayan öğelerin listesi kaydedilir, böylece ayarı kolayca düzeltebilirsiniz. 
+Talep tahmini, tahmini miktar cinsinden oluşturur. Bu yüzden, miktarın ifade edileceği ölçü birimi **Talep tahmin birimi** alanında belirtilmelidir. Ölçü birimi, toplam ve yüzde dağılımının anlamlı olmasını garantiye almak için benzersiz olmalıdır. Toplam ve yüzde dağılımı hakkında daha fazla bilgi için bkz. [Temel tahmine manüel ayarlar yapma](manual-adjustments-baseline-forecast.md). Talep tahminine dahil edilen SKU'lar için kullanılan her ölçü birimi konusunda, ölçü birimi ve genel tahmin ölçü birimi için bir dönüştürme kuralı olduğundan emin olun. Tahmin oluşturma çalıştırıldığında, ölçü birimi dönüşümü olmayan öğelerin listesi kaydedilir, böylece ayarı kolayca düzeltebilirsiniz. 
 
-Talep tahmini bağımlı ve bağımsız talebi tahmin etmek için kullanılabilir. Örneğin, yalnızca **Satış emri** onay kutusu seçiliyse ve talep tahmini için kabul edilen tüm öğeler satılan öğeler ise, sistem bağımsız talebi hesaplar. Ancak, kritik alt bileşenler madde tahsisat anahtarlarına eklenebilir ve talep tahminine eklenebilir. Bu durumda, **Üretim satırı** onay kutusu seçildiğinde, bağımlı bir tahmin hesaplanır. 
+Talep tahmini bağımlı ve bağımsız talebi tahmin etmek için kullanılabilir. Örneğin, yalnızca **Satış siparişi** onay kutusu seçiliyse ve talep tahmini için kabul edilen tüm öğeler satılan öğeler ise, sistem bağımsız talebi hesaplar. Ancak, kritik alt bileşenler madde tahsisat anahtarlarına eklenebilir ve talep tahminine eklenebilir. Bu durumda, **Üretim satırı** onay kutusu seçildiğinde, bağımlı bir tahmin hesaplanır. 
 
 Temel tahmin oluşturmak için iki yöntem vardır. Geçmiş verilerin üstündeki tahmin modellerini kullanabilir veya sadece geçmiş verileri tahmine kopyalayabilirsiniz. **Tahmin oluşturma stratejisi** alanı bu iki yöntem arasında seçim yapmanıza olanak verir. Tahmin modellerini kullanmak için, **Azure Machine Learning** seçeneğini seçin. 
 
@@ -70,7 +70,8 @@ Supply Chain Management, tahmin oluşturmak için bir Machine Learning ağ hizme
 -   Azure depolama hesap adı
 -   Azure depolama hesap anahtarı
 
-**Not:** Sadece özel bir depolama hesabı kullanıyorsanız Azure depolama hesap adı ve anahtarı gerekir. Şirket içi sürümünü kullanıyorsanız, Makine Öğrenimi hizmetinin geçmiş verilere ulaşabilmesi için Azure üzerinde özel bir depolama hesabınızın olması gerekir. 
+> [!NOTE]
+> Yalnızca özel bir depolama hesabı kullanıyorsanız Azure depolama hesap adı ve anahtarı gerekir. Şirket içi sürümünü kullanıyorsanız, Makine Öğrenimi hizmetinin geçmiş verilere ulaşabilmesi için Azure üzerinde özel bir depolama hesabınızın olması gerekir. 
 
 Talep tahminleri oluşturmak için, Machine Learning Studio veya Supply Chain Management Talep tahmini deneylerini kullanarak kendi hizmetinizi uygulayabilirsiniz. Talep tahmin deneylerini bir ağ hizmeti olarak kullanma talimatları Supply Chain Management'ta mevcuttur. **Talep tahmin parametreleri** sayfasında, **Azure Machine Learning** öğesine tıklayın.
 
@@ -93,9 +94,9 @@ Talep tahmini hizmeti için yapılandırılabilecek parametreleri görmek için,
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Talep tahminine giriş](introduction-demand-forecasting.md)
+[Talep tahminine genel bakış](introduction-demand-forecasting.md)
 
-[İstatistik temel tahmin oluşturma](generate-statistical-baseline-forecast.md)
+[İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md)
 
 [Temel tahminde manüel ayarlamalar yapma](manual-adjustments-baseline-forecast.md)
 

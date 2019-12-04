@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 86d81d60fcbc77375f3b8c525e8c084e3a3d8a99
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026092"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773705"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Dynamics 365 Talent'deki yenilikler veya değişiklikler (2 Nisan 2019)
 
@@ -45,7 +45,7 @@ Onay e-postalarının içeriğini yeni şablonlarla özelleştirebilirsiniz.
 ### <a name="application-and-profile-attachments"></a>Uygulama ve profil eklentileri
 Başvurular ve yetenek havuzu profillerinin **Belgeler** sekmesine iyileştirmeler artık hem belge adını hem de türünü gösterir.
 
-## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
+## <a name="changes-in-onboard"></a>Onboard'taki değişiklikler
 Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="coming-soon-attract-and-onboard"></a>Çok yakında (Attract ve Onboard)
@@ -63,7 +63,7 @@ Finance and Operations için Platform güncelleştirmesi 25 hakkında daha fazla
 Pek çok kuruluşta, ücret ve kazanç yöneticilerinin yalnızca belirli ücret kayıtlarına erişimi olabilir. Bunlar, yöneticiler veya bölgesel çalışanlar için kayıtlar içerebilir. Bu değişiklik, İK yöneticilerinin kuruluştaki farklı çalışan grupları için ücretlendirme planlarını yönetmelerine ve tutmalarına yardımcı olur. Sabit ve değişken planlara güvenlik rolleri atayabilirsiniz. Bu güvenlik rolleri, planlara ve ilgili çalışan verisine erişimi belirler, örneğin maaş ve ikramiye kayıtları gibi, böylece yalnızca bu roller personel grupları için ücretlendirmeyi işleyebilirler.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'a yükseltin
-Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezi'nde oturum açarak veritabanınızın yükseltilmeye gereksinimi olup olmadığını belirleyin. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. Microsoft Power Apps Yönetim Merkezi'nde oturum açarak veritabanınızın yükseltilmeye gereksinimi olup olmadığını belirleyin. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Ön izlemede
 

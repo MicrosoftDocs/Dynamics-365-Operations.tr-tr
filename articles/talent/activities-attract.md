@@ -1,6 +1,6 @@
 ---
-title: İşe alım süreçlerindeki faaliyetler
-description: Bu konu, Microsoft Dynamics 365 Talent - Attract işe alma işleminde kullanılabilecek faaliyetlerin çeşitli türleri hakkında bilgi sağlar.
+title: İşe alım süreçlerine faaliyet ekleme
+description: Bu konu, Microsoft Dynamics 365 Talent - Attract işe alma işlemine ekleyebileceğiniz faaliyetlerin çeşitli türleri hakkında bilgi sağlar.
 author: hasrivas
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,21 +18,21 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 09ac8f5431de0809b9a3a23e1175d5027153e96c
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ce8c0bd74a41b9857538b37d0875583d06e8c11d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552175"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833289"
 ---
-# <a name="activities-in-hiring-processes"></a>İşe alım süreçlerindeki faaliyetler
+# <a name="add-activities-to-a-hiring-process"></a>İşe alım süreçlerine faaliyet ekleme
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Faaliyetler Microsoft Dynamics 365 Talent: Attract'te işe alma sürecinin bir parçası olarak eklenebilir. Faaliyetler işlem şablonuna eklenebilir veya doğrudan işteki işe alma işlemine eklenebilir. Bir iş tanımlanınca, bir işlem şablonu seçilir ve şablona dahil edilen faaliyetler işe uygulanır. Bir şablon seçili değilse, varsayılan şablon kullanılır. Şablon uygulandıktan sonra işe alma işlemi iş üzerinde değiştirilebilir.
 
 > [!NOTE] 
-> İşlem şablonları, Kapsamlı işe alma eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Kapsamlı Attract işe alma eklentisi özellikleri](./attract-comprehensive-hiring.md).
+> İşlem şablonları, Kapsamlı işe alma eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Hangi Microsoft Dynamics 365 Talent - Attract sürümü](./attract-comprehensive-hiring.md).
 
 ## <a name="prospect-activity"></a>Aday müşteri faaliyeti
 
@@ -49,45 +49,45 @@ Aday müşteri faaliyeti, aday müşterilerin bir işe eklenebilir olup olmadı�
 
 Bu faaliyetin üç bileşeni vardır: Aday erişilebilirlik talebi, Zamanlama ve Geri Bildirim. Adayın uygunluk talebini, zamanlamasını ve geribildirimini, işe alma sürecinin bir parçası olarak tek tek kullanmak yerine işlemin parçası olarak dahil etmek istiyorsanız, iş şablonunda mülakat etkinliğini kullanın. Daha fazla bilgi için bkz. [Mülakat zamanlama ve geribildirim](interview-scheduling-feedback.md).
 
-## <a name="powerapps-activity"></a>PowerApps etkinliği
+## <a name="power-apps-activity"></a>Power Apps etkinliği
 
-PowerApps faaliyeti,  Microsoft PowerApps uygulamasını işe alma sürecinize katıştırmanızı sağlar. Uygulama tüm başvuranlar, yalnızca dahili başvuranlar, yalnızca harici başvuranlar veya hiçbir başvuran için gerekli şeklinde ayarlanabilir. Uygulama gerekli olarak işaretlenirse, aşama ileriye taşınmadan önce tamamlanmış olması gerekir. Tamamlandı kabul edilmesi için **JobApplicationStatus** alanının **Tamamlandı** olarak ayarlanması gerekir. Bu alan JobApplicationActivity varlığında bulunmaktadır, böylece PowerApps uygulamasının bu alanı, aşama geçilmeden önce güncelleştirmesi gerekir. Uygulamayı gerekli olarak işaretli değilse, faaliyet isteğe bağlı bir adımdır ve uygulama tamamlanmasa bile aşama ilerleyebilir.
+Power Apps faaliyeti,  Microsoft Power Apps uygulamasını işe alma sürecinize katıştırmanızı sağlar. Uygulama tüm başvuranlar, yalnızca dahili başvuranlar, yalnızca harici başvuranlar veya hiçbir başvuran için gerekli şeklinde ayarlanabilir. Uygulama gerekli olarak işaretlenirse, aşama ileriye taşınmadan önce tamamlanmış olması gerekir. Tamamlandı kabul edilmesi için **JobApplicationStatus** alanının **Tamamlandı** olarak ayarlanması gerekir. Bu alan JobApplicationActivity varlığında bulunmaktadır, böylece Power Apps uygulamasının bu alanı, aşama geçilmeden önce güncelleştirmesi gerekir. Uygulamayı gerekli olarak işaretli değilse, faaliyet isteğe bağlı bir adımdır ve uygulama tamamlanmasa bile aşama ilerleyebilir.
 
-PowerApps faaliyetini işe alma sürecine kaydetmek için bir PowerApps kimliği girmeniz gerekir. PowerApps kimliğini bulmak için [PowerApps](https://web.powerapps.com) adresine gidin, **Uygulamalar**'ı, ardından **Ayrıntılar**'ı seçin.
+Power Apps faaliyetini işe alma sürecine kaydetmek için bir Power Apps kimliği girmeniz gerekir. Power Apps kimliğini bulmak için [Power Apps](https://web.powerapps.com) adresine gidin, **Uygulamalar**'ı, ardından **Ayrıntılar**'ı seçin.
 
-Varsayılan olarak, PowerApps etkinliği İşe Alma Yöneticisi, İşe Alma Görevlisi ve bunların temsilcilerinin erişimine açıktır. **Bu faaliyet için katılımcı eklenmesine izin ver** seçeneğini belirlerseniz PowerApps faaliyetini kullanan bir uygulama için ek katılımcılar işe alma ekibinden eklenebilir. Örneğin, bir kuruluş teknik görevler için bir görüşme sorusu kitaplığı olan PowerApps uygulaması oluşturdu. Kuruluş şimdi yeni bir yazılım geliştirici işe alıyor ve yazılım geliştirici rolü için işe alma işlemine PowerApps faaliyetini ekledi. **Bu faaliyet için katılımcı eklenmesine izin ver** seçeneği işaretliyse, yazılım geliştirici rolüne başvuranı görüntüleyen bir işveren veya işe alma yöneticisi PowerApps faaliyetine görüşmeciler ekleyebilir. Bu kişiler, görüşme soruları olan uygulamayı daha sonra görebilir.
+Varsayılan olarak, Power Apps etkinliği İşe Alma Yöneticisi, İşe Alma Görevlisi ve bunların temsilcilerinin erişimine açıktır. **Bu faaliyet için katılımcı eklenmesine izin ver** seçeneğini belirlerseniz Power Apps faaliyetini kullanan bir uygulama için ek katılımcılar işe alma ekibinden eklenebilir. Örneğin, bir kuruluş teknik görevler için bir görüşme sorusu kitaplığı olan Power Apps uygulaması oluşturdu. Kuruluş şimdi yeni bir yazılım geliştirici işe alıyor ve yazılım geliştirici rolü için işe alma işlemine Power Apps faaliyetini ekledi. **Bu faaliyet için katılımcı eklenmesine izin ver** seçeneği işaretliyse, yazılım geliştirici rolüne başvuranı görüntüleyen bir işveren veya işe alma yöneticisi Power Apps faaliyetine görüşmeciler ekleyebilir. Bu kişiler, görüşme soruları olan uygulamayı daha sonra görebilir.
 
 > [!NOTE]
-> PowerApps faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Kapsamlı Attract işe alma eklentisi özellikleri](./attract-comprehensive-hiring.md).
+> Power Apps faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Hangi Microsoft Dynamics 365 Talent - Attract sürümü](./attract-comprehensive-hiring.md).
 
 ## <a name="youtube-activity"></a>YouTube etkinliği
 
-YouTube faaliyeti, işe alma işleminin parça olarak YouTube videosu paylaşmanıza olanak sağlar. İşe alma işlemine YouTube faaliyetini kaydetmek için YouTube videosu URL'sini belirtmeniz gerekir. İçeriği **İşe Alım Ekibi**, **Yalnızca Dahili Adaylar**, **Yalnızca Harici adaylar** veya **Tüm Adaylar** olmak üzere görüntülemeyi seçebilirsiniz. PowerApps faaliyeti söz konusu olduğunda, işe alım ekibi katılımcıların faaliyete eklenmesini sağlayabilirsiniz. İçeriği adaylara göstermeyi seçerseniz, video yalnızca aday deneyiminin parçası olarak gösterilir, işe alım sürecinin parçası olarak değil.
+YouTube faaliyeti, işe alma işleminin parça olarak YouTube videosu paylaşmanıza olanak sağlar. İşe alma işlemine YouTube faaliyetini kaydetmek için YouTube videosu URL'sini belirtmeniz gerekir. İçeriği **İşe Alım Ekibi**, **Yalnızca Dahili Adaylar**, **Yalnızca Harici adaylar** veya **Tüm Adaylar** olmak üzere görüntülemeyi seçebilirsiniz. Power Apps faaliyeti söz konusu olduğunda, işe alım ekibi katılımcıların faaliyete eklenmesini sağlayabilirsiniz. İçeriği adaylara göstermeyi seçerseniz, video yalnızca aday deneyiminin parçası olarak gösterilir, işe alım sürecinin parçası olarak değil.
 
 > [!NOTE]
-> YouTube faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Kapsamlı Attract işe alma eklentisi özellikleri](./attract-comprehensive-hiring.md).
+> YouTube faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Hangi Microsoft Dynamics 365 Talent - Attract sürümü](./attract-comprehensive-hiring.md).
 
 ## <a name="web-content-activity"></a>Web içeriği faaliyeti
 
-Web içeriği faaliyeti, işe alma işlemine çevrimiçi içerik gömmenize olanak tanır. İşe alma işlemine Web içeriği faaliyetini kaydetmek için içeriğin URL'sini belirtmeniz gerekir. İçeriği **İşe Alım Ekibi**, **Yalnızca Dahili Adaylar**, **Yalnızca Harici adaylar** veya **Tüm Adaylar** olmak üzere görüntülemeyi seçebilirsiniz. PowerApps ve YouTube etkinlikleri söz konusu olduğunda, işe alım ekibi katılımcıların faaliyete eklenmesini sağlayabilirsiniz. İçeriği adaylara göstermeyi seçerseniz, Web içeriği yalnızca aday deneyiminin parçası olarak gösterilir, işe alım sürecinin parçası olarak değil. Gösterilen içerik boyutunu seçebilirsiniz.
+Web içeriği faaliyeti, işe alma işlemine çevrimiçi içerik gömmenize olanak tanır. İşe alma işlemine Web içeriği faaliyetini kaydetmek için içeriğin URL'sini belirtmeniz gerekir. İçeriği **İşe Alım Ekibi**, **Yalnızca Dahili Adaylar**, **Yalnızca Harici adaylar** veya **Tüm Adaylar** olmak üzere görüntülemeyi seçebilirsiniz. Power Apps ve YouTube etkinlikleri söz konusu olduğunda, işe alım ekibi katılımcıların faaliyete eklenmesini sağlayabilirsiniz. İçeriği adaylara göstermeyi seçerseniz, Web içeriği yalnızca aday deneyiminin parçası olarak gösterilir, işe alım sürecinin parçası olarak değil. Gösterilen içerik boyutunu seçebilirsiniz.
 
 > [!NOTE]
-> Web içeriği faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Kapsamlı Attract işe alma eklentisi özellikleri](./attract-comprehensive-hiring.md).
+> Web içeriği faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Hangi Microsoft Dynamics 365 Talent - Attract sürümü](./attract-comprehensive-hiring.md).
 
 ## <a name="microsoft-forms-activity"></a>Microsoft Forms faaliyeti
 
-Microsoft Forms etkinliği, Microsoft Forms formunu işe alma işlemine gömmenizi sağlar. Microsoft Forms testler, anketler ve oylamalar oluşturmanıza olanak tanır. İşe alma işlemine Microsoft Forms faaliyetini kaydetmek için formun URL'sini belirtmeniz gerekir. İçeriği **İşe Alım Ekibi**, **Yalnızca Dahili Adaylar**, **Yalnızca Harici adaylar** veya **Tüm Adaylar** olmak üzere görüntülemeyi seçebilirsiniz. PowerApps, YouTube  ve Web içeriği etkinlikleri söz konusu olduğunda, işe alım ekibi katılımcılarının faaliyete eklenmesini sağlayabilirsiniz. İçeriği adaylara göstermeyi seçerseniz, form yalnızca aday deneyiminin parçası olarak gösterilir, işe alım sürecinin parçası olarak değil.
+Microsoft Forms etkinliği, Microsoft Forms formunu işe alma işlemine gömmenizi sağlar. Microsoft Forms testler, anketler ve oylamalar oluşturmanıza olanak tanır. İşe alma işlemine Microsoft Forms faaliyetini kaydetmek için formun URL'sini belirtmeniz gerekir. İçeriği **İşe Alım Ekibi**, **Yalnızca Dahili Adaylar**, **Yalnızca Harici adaylar** veya **Tüm Adaylar** olmak üzere görüntülemeyi seçebilirsiniz. Power Apps, YouTube  ve Web içeriği etkinlikleri söz konusu olduğunda, işe alım ekibi katılımcılarının faaliyete eklenmesini sağlayabilirsiniz. İçeriği adaylara göstermeyi seçerseniz, form yalnızca aday deneyiminin parçası olarak gösterilir, işe alım sürecinin parçası olarak değil.
 
 Microsoft Forms'da yazarlar, kurum dışındaki kullanıcıların anket veya testine yanıt verebilmesi için ayarlarını değiştirebilir. Bu durumda, kullanıcılar yanıtlarını anonim olarak gönderir. Anket veya testinizi kimin yaptığını görmek isterseniz yanıtlayanların adlarını anket veya testin bir parçası olarak girmesini isteyebilirsiniz.
 
 > [!NOTE]
-> Microsoft Forms faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Kapsamlı Attract işe alma eklentisi özellikleri](./attract-comprehensive-hiring.md).
+> Microsoft Forms faaliyeti, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Hangi Microsoft Dynamics 365 Talent - Attract sürümü](./attract-comprehensive-hiring.md).
 
 ## <a name="offer-activity"></a>Teklif etkinliği
 
 İşe alım işlemi şablonu Teklif etkinliğini gerektirir. Tümleştirilmiş teklif yönetimi uygulamasını kullanmak için **Teklif Hazırla içinde Teklif Yönetimi Uygulamasını Başlat**'ı **Açık** olarak ayarlayın. Bu ayar kapalıysa, aday Teklif uygulamasında görüntülenmez, bu nedenle adayın teklif etkinliğine güncelleştirmeleri el ile takip etmeniz gerekir. İşe alım yöneticilerinin aday için teklifi Teklif uygulamasında hazırlayıp hazırlamayacaklarını tanımlamak için **İşe Alım yöneticileri teklif hazırlayabilir**'i **Açık** olarak ayarlayın. İş ile ilişkilendirilmiş birden fazla pozisyon varsa, aynı pozisyon numarasına karşılık birden fazla teklif sunup sunamayacağınıza karar verebilirsiniz. İş başına yalnızca bir teklif sunmak istiyorsanız, **Pozisyonların iş içinde yeniden kullanılmasına izin ver**'i **Kapalı** olarak ayarlayın.
 
 > [!NOTE]
-> Tümleştirilmiş Teklif Yönetimi Uygulaması, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Kapsamlı Attract işe alma eklentisi özellikleri](./attract-comprehensive-hiring.md).
+> Tümleştirilmiş Teklif Yönetimi Uygulaması, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Hangi Microsoft Dynamics 365 Talent - Attract sürümü](./attract-comprehensive-hiring.md).
 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191259"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812638"
 ---
 # <a name="before-you-buy"></a>Satın almadan önce
 
@@ -41,8 +41,8 @@ Dağıtım seçeneği olarak şirket içini seçtiğinizde aşağıdaki önemli 
 
 - Bulut sertifikalarında mevcut olmayan düzenleme ve uyumluluk gereklilikleri
 - Uygulama yaşam döngüsü yönetimi için Microsoft Dynamics Lifecycle Services'a (LCS) erişmek üzere gerekli olan kesintili internet bağlantısı nedeniyle bağlantısı kesilen iş süreci
-- [Şirket içi dağıtımlarda şu anda uygulanmayan özellikler](features-not-implemented-on-prem.md)
-- [Altyapı minimum gereksinimleri](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [Şirket içi dağıtımlarda uygulanmayan özellikler](features-not-implemented-on-prem.md)
+- [Şirket içi dağıtımlar için sistem gereksinimleri](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > Microsoft Dynamics 365 for Finance and Operations yerinde dağıtımları, Azure dahil herhangi bir genel bulut altyapısında desteklenmemektedir.
@@ -78,7 +78,7 @@ Bir Microsoft Bulut Çözüm Sağlayıcı, işletmenizin veya kuruluşunuzun iht
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Bir Dynamics ortağı üzerinden satın alın (şirket içi)
 
-Finance and Operations şirket içi satın almak için bir ortak ile birlikte çalışmalısınız. Daha fazla bilgi için bkz. [Dynamics 365 for Finance and Operations (yerinde) satın al](purchase-on-premises.md)
+Finance and Operations şirket içi satın almak için bir ortak ile birlikte çalışmalısınız. Daha fazla bilgi için bkz. [Finance + Operations (on-premises) satın alma](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Destek seçeneğinizi belirleyin
 
@@ -91,7 +91,7 @@ Daha fazla bilgi:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Adım dört: FastTrack hakkında bilgi alın ve dağıtımınızı planlayın
 
-Dynamics 365 için Microsoft FastTrack, işletme değerini daha hızlı gerçekleştirebilmeniz için Dynamics 365'e geçişinizi hızlı ve güvenli hale getirmeye yardımcı olur. FastTrack programına katıldığınızda, en iyi yöntemler ve başarılı dağıtımları planlama hakkında rehberlik alırsınız. Yeni kullanıcılar etkinleştirmeyi ve kabiliyetleri genişletmeyi de size uygun hızda öğreneceksiniz. Ek olarak, Dynamics 365 ile deneyiminizi başarılı hale getirmeye adanmış Microsoft mühendislik kaynaklarına erişim sahibi olacaksınız. Daha fazla bilgi: [Dynamics 365 için Microsoft FastTrack genel bakışı](fasttrack-dynamics-365-overview.md)
+Dynamics 365 için Microsoft FastTrack, işletme değerini daha hızlı gerçekleştirebilmeniz için Dynamics 365'e geçişinizi hızlı ve güvenli hale getirmeye yardımcı olur. FastTrack programına katıldığınızda, en iyi yöntemler ve başarılı dağıtımları planlama hakkında rehberlik alırsınız. Yeni kullanıcılar etkinleştirmeyi ve kabiliyetleri genişletmeyi de size uygun hızda öğreneceksiniz. Ek olarak, Dynamics 365 ile deneyiminizi başarılı hale getirmeye adanmış Microsoft mühendislik kaynaklarına erişim sahibi olacaksınız. Daha fazla bilgi: [Microsoft FastTrack](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Dynamics AX 2012'den yükseltme veya AX 2009'dan geçiş yapıyorsanız
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652368"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811275"
 ---
 # <a name="item-where-used"></a>Kullanıldığı madde
 
@@ -33,15 +33,15 @@ ms.locfileid: "2652368"
 
 Maddenin kıymet yönetiminde nereye kullanıldığını genel olarak almak için belirli bir madde için hesaplama yapabilirsiniz. Sonuçlar, ömrü boyunca öğenin kullanıldığı bağlamı gösterir. **Maddenin kullanımı** sayfası ana Varlık Yönetimi menüsünden açılabildiği gibi, ayrıca aşağıdaki sayfalardan da erişilebilir:
 
-- [Varlık ürün reçetesi](../objects/object-BOM.md)
+- [Varlık Ürün Reçeteleri](../objects/object-BOM.md)
 
-- [Varlık türü varsayılanları üzerinde yedek parçalar](../setup-for-objects/object-types.md)
+- [Varlık türü varsayılanları üzerinde yedek parçalar](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [Bakım iş türü varsayılan öngörüleri üzerinde madde öngörüsü](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [Bakım işi türü kategorileri ve bakım iş türleri, bakım iş türü çeşitleri, bakım işi işlemleri ve bakım denetim listeleri](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [İş emri bakım tahmini](../work-orders/maintenance-forecasts.md)
+- [Bakım tahmini](../work-orders/maintenance-forecasts.md)
 
-- [İş emri satınalma talebi](../work-orders/procurement.md)
+- [Tedarik](../work-orders/procurement.md)
 
 - [İş emri satınalma işlemi](../work-orders/procurement.md)
 

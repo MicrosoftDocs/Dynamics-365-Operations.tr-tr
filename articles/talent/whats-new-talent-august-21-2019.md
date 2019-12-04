@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a3e2178dbc60582d6167898c4c3446feac49dd04
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024080"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814502"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Dynamics 365 Talent'deki yenilikler veya değişiklikler (20 Ağustos 2019)
 
@@ -35,13 +35,13 @@ Bu konuda, Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmak
 
 ### <a name="simplified-apply-experience-for-candidates"></a>Adaylar için basitleştirilmiş uygulama deneyimi 
 
-Adaylar için basitleştirilmiş uygulama deneyimi artık genel incelemede kullanılabilir. Aday, etkinleştirildikten sonra, tüm özgeçmiş, **LinkedIn ile Uygula** (etkinleştirilmişse) veya varolan uygulama formu kullanılarak bir iş için geçerli olabilir. Bu değişikliklerle, adaylar iş uygulamasını el ile giriş gerektiren çok az alanlarla hızlı şekilde gönderebilir. Bu özelliğin nasıl etkinleştirileceği hakkında bilgi için bkz. [Önizleme özelliklerini etkinleştir veya devre dışı bırak](./access-preview-feature.md#enable-or-disable-preview-features).
+Adaylar için basitleştirilmiş uygulama deneyimi artık genel incelemede kullanılabilir. Aday, etkinleştirildikten sonra, tüm özgeçmiş, **LinkedIn ile Uygula** (etkinleştirilmişse) veya var olan uygulama formu kullanılarak bir iş için geçerli olabilir. Bu değişikliklerle, adaylar iş uygulamasını el ile giriş gerektiren çok az alanlarla hızlı şekilde gönderebilir. Bu özelliğin nasıl etkinleştirileceği hakkında bilgi için bkz. [Microsoft Dynamics 365 Talent'te önizleme özelliklerine erişme](./access-preview-feature.md#enable-or-disable-preview-features).
 
 ### <a name="view-rejection-comments-as-part-of-application-activity"></a>Uygulama faaliyetinin bir parçası olarak ret yorumlarını görüntüle
 
 Ret nedeni ve yorumlar şimdi bir aday için **Faaliyet** sekmesinde görüntülenir. Artık açık ve kapalı uygulamalar arasında ayrım yapabilirsiniz.  
 
-## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
+## <a name="changes-in-onboard"></a>Onboard'taki değişiklikler
 
 Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
@@ -55,13 +55,13 @@ Bu sürüm, Dynamics 365 Talent: Core HR için küçük hata düzeltmeleri içer
 
 Bu işlevsellik artık korumalı ortamlarda kullanılabilir. Bu özelliği etkinleştirmek için **Sistem yönetimi > Bağlantılar > Kurulum > Sistem parametreleri > Önizleme özellikleri**ne gidin. **Gelişmiş çalışan formu ve gezinme**'yi seçin. Bu değişiklikler tüm kullanıcılar için etkinleştirilir. Bu seçeneği istediğiniz zaman kapatabilirsiniz.
 
-Daha fazla bilgi için, bkz. [Kolaylaştırılmış çalışan girişi ve gezintisi](./streamlined-employee-entry.md).
+Daha fazla bilgi için bkz. [Kolaylaştırılmış çalışan girişi ve gezintisi](./streamlined-employee-entry.md).
 
 #### <a name="preview-features-are-enabled-only-in-sandbox-instances"></a>Önizleme özellikleri yalnızca korumalı alan örneklerinde etkinleştirilir
 
-Talent'ın yeni bir örneğini oluşturduğunuzda, örnek türünün Üretim veya Korumalı alan olduğunu belirtebilirsiniz. Korumalı alan türünün örnekleri yeni özelliklerin erken test edilmesine izin verir. Varolan tüm Talent örnekleri Üretim örneği türüne güncelleştirilecek. Varolan örneklerden birinin Korumalı alan örneği türüne güncelleştirilmesini istiyorsanız değişiklik isteğini başlatmak için  Destek başvurun.
+Talent'ın yeni bir örneğini oluşturduğunuzda, örnek türünün Üretim veya Korumalı alan olduğunu belirtebilirsiniz. Korumalı alan türünün örnekleri yeni özelliklerin erken test edilmesine izin verir. Var olan tüm Talent örnekleri Üretim örneği türüne güncelleştirilecek. Var olan örneklerden birinin Korumalı alan örneği türüne güncelleştirilmesini istiyorsanız değişiklik isteğini başlatmak için  Destek başvurun.
 
-Değişikliklerin nasıl yayımlanacağı hakkında daha fazla bilgi için, bkz [Talent sağlama](./provisioning-talent.md).
+Değişikliklerin nasıl yayımlanacağı hakkında daha fazla bilgi için bkz. [Talent sağlama](./provisioning-talent.md).
 
 #### <a name="view-extended-information-for-performance-in-manager-self-service"></a>Yönetim self servisinde performans için genişletilmiş bilgileri görüntüle
 

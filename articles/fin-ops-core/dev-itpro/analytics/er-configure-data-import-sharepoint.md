@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
-ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
+ms.openlocfilehash: c11123c0d53fcf4ba67e83fe64d2d6e692d5b6f1
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564949"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771364"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>SharePoint'ten veri aktarımını yapılandırma
 
@@ -43,7 +43,7 @@ Bu konudaki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
 - 1099 ödemeleri için ER biçimi ve model yapılandırmaları.
 
 ### <a name="create-required-er-configurations"></a>Gerekli ER yapılandırmalarını oluşturma
-**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası olan **Bir Microsoft Excel dosyasından ER veri içe aktarma** görev kılavuzlarını oynatın. Bu görev kılavuzları, Microsoft Excel dosyalarından satıcı hareketlerini etkileşimli olarak içe aktarmak için ER yapılandırmalarını tasarlama ve kullanma sürecinde size yol gösterir. Daha fazla bilgi için bkz. [Microsoft Excel biçiminde gelen belgeleri ayrıştırma](parse-incoming-documents-excel.md). Görev Kılavuzlarını tamamladıktan sonra aşağıdaki kuruluma sahip olursunuz.
+**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası olan **Bir Microsoft Excel dosyasından ER veri içe aktarma** görev kılavuzlarını oynatın. Bu görev kılavuzları, Microsoft Excel dosyalarından satıcı hareketlerini etkileşimli olarak içe aktarmak için ER yapılandırmalarını tasarlama ve kullanma sürecinde size yol gösterir. Daha fazla bilgi için bkz. [Excel biçiminde gelen belgeleri ayrıştırma](parse-incoming-documents-excel.md). Görev Kılavuzlarını tamamladıktan sonra aşağıdaki kuruluma sahip olursunuz.
 
 #### <a name="er-configurations"></a>ER yapılandırmaları
 

@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract özellikleri ve yetenekleri
-description: Bu konu, yeni yetenek işe alma işlemini yönetmek için Microsoft Dynamics 365 Talent - Attract'ın sağladığı özellikleri açıklar.
+title: Attract özellikleri ve yetenekleri
+description: Bu konu, yeni yetenek işe alma işlemini yönetmek için Microsoft Dynamics 365 Talent - Attract'in sağladığı özellikleri açıklar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/30/2019
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552083"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833081"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>Microsoft Dynamics 365 Talent - Attract özellikleri ve yetenekleri
+# <a name="attract-features-and-capabilities"></a>Attract özellikleri ve yetenekleri
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ Attract, dört temel aşamadan oluşan, önceden tanımlanmış bir işe alma s�
 Adaylar, bir işe eklendikten hemen sonra web uygulamasını edinmek için bir bağlantı içeren e-posta alırlar. Uygulama, adaylara işin ayrıntılarını sağlar ve işe alma ekibi ile iletişim kurmak için kullanılır. Adaylar mülakatlar için kendi uygunluklarını da girebilirler.
 
 ## <a name="analytic-reports"></a>Analitik raporlar
-Işe alma takımları tek bir iş için temel işe alım süreci ölçümlerini veya [Attract'taki analitik raporlarla](analytic-reports.md) tüm işlerin toplamını görüntüleyebilir. Bu özellik şu anda [Kapsamlı İşe Alım Eklentisi](attract-comprehensive-hiring.md) olan müşteriler için [önizlemededir](access-preview-feature.md).
+Işe alma takımları tek bir iş için temel işe alım süreci ölçümlerini veya [Attract'teki analitik raporlarla](analytic-reports.md) tüm işlerin toplamını görüntüleyebilir. Bu özellik, şu anda [Hangi Microsoft Dynamics 365 Talent - Attract sürümü](attract-comprehensive-hiring.md) olan müşteriler için [önizleme](access-preview-feature.md)'dedir.

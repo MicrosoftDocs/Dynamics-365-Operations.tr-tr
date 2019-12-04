@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bfe007995c894d6cc86d07ef2b52da65e32e950
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182750"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772475"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>ER yapılandırma kullanarak uygulama meta verilerine erişim
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahip Regulatory Configuration Service (RCS) kullanıcısının uygulama meta verilerini kullanarak nasıl yeni bir Elektronik raporlama (ER) modeli eşlemesi tasarlayabildiğini açıklar. Uygulama meta verilerine, dış ticari hareketlere erişmek için örnek bir meta veri kümesi içeren ER meta veri yapılandırması kullanılarak erişilir. RCS'de bu adımları tamamlamak için ilk olarak, [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) konusundaki adımları tamamlamanız gerekir. Daha sonra [(ER) RCS'de kullanılacak uygulama meta verileri hazırlama](prepare-application-metadata-rcs.md) konusundaki adımları tamamlayın.
+Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahip Regulatory Configuration Service (RCS) kullanıcısının uygulama meta verilerini kullanarak nasıl yeni bir Elektronik raporlama (ER) modeli eşlemesi tasarlayabildiğini açıklar. Uygulama meta verilerine, dış ticari hareketlere erişmek için örnek bir meta veri kümesi içeren ER meta veri yapılandırması kullanılarak erişilir. RCS'de bu adımları tamamlamak için ilk olarak, [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) konusundaki adımları tamamlamanız gerekir. Daha sonra [RCS'de kullanılacak uygulama meta verileri hazırlama](prepare-application-metadata-rcs.md) konusundaki adımları tamamlayın.
 
 ## <a name="prerequisites"></a>Önkoşullar
 1. **Tüm çalışma alanları** > **Elektronik raporlama**'ya gidin. 
@@ -35,7 +35,7 @@ Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahi
 
 ## <a name="import-metadata-configuration"></a>Meta veri yapılandırmasını içe aktarın 
 1. **Meta veri yapılandırması**'na tıklayın. 
-2. Dış ticaret işletmesine elektronik belge oluşturmak üzere yapılandırılmış meta veriler içeren ER meta veri yapılandırmasını içe aktarın. Bu ER meta veri yapılandırması [(ER) RCS'de kullanılacak uygulama meta verileri hazırlama](prepare-application-metadata-rcs.md) adımı tamamlandığında XML dosyası olarak dışa aktarılır. 
+2. Dış ticaret işletmesine elektronik belge oluşturmak üzere yapılandırılmış meta veriler içeren ER meta veri yapılandırmasını içe aktarın. Bu ER meta veri yapılandırması [RCS'de kullanılacak uygulama meta verileri hazırlama](prepare-application-metadata-rcs.md) adımı tamamlandığında XML dosyası olarak dışa aktarılır. 
 3. **Değiştir**'e tıklayın. 
 4. **XML dosyasından yükle**'ye tıklayın. 
 5. **Gözat**'a tıklayın ve "Dış ticaret meta verileri.xml" dosyasını seçin. 
@@ -121,7 +121,7 @@ Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahi
 36. **Kaydet**'e tıklayın. 
 37. Sayfayı kapatın. 
 38. Sayfayı kapatın. 
-39. Gerektiğinde, varolan meta veri kümesini genişletebilir ve sonra da ER meta veri yapılandırmasının yeni tamamlanan sürümünü dışa aktarabilirsiniz. Daha sonra bu grubu RCS 'ye aktarabilir ve içe aktarılan meta veri yapılandırmasının yeni bir sürümüne başvuran yapılandırılmış model eşleme yapılandırmasının önkoşullarını güncelleştirebilirsiniz. 
+39. Gerektiğinde, var olan meta veri kümesini genişletebilir ve sonra da ER meta veri yapılandırmasının yeni tamamlanan sürümünü dışa aktarabilirsiniz. Daha sonra bu grubu RCS 'ye aktarabilir ve içe aktarılan meta veri yapılandırmasının yeni bir sürümüne başvuran yapılandırılmış model eşleme yapılandırmasının önkoşullarını güncelleştirebilirsiniz. 
 
 > [!NOTE]
 > Uygulama meta verileri hakkında bilgi elde etmenin bu yolu yerel olarak dağıtılmış uygulamalar için kullanılabilecek tek yoldur (yerel işletme verileri (LBD) veya şirket içi dağıtım modeli kullanıldığında).

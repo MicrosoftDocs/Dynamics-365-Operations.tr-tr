@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c7675ca0ef2f2477d510c956e63d824a5e6b0980
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180467"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812544"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016)
 
@@ -32,7 +32,7 @@ Bu başlık, Microsoft Dynamics AX için Microsoft (Ağustos 2016 - tüm diller)
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX için (Ağustos 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
 
-APQC Birleştirilmiş Kitaplık (Ağustos 2016 - tüm diller), Microsoft Dynamics AX platform güncelleştirmesi 2 (Ağustos 2016), Dynamics AX Mayıs 2016 uygulama güncelleştirmesi ve Microsoft Dynamics AX Şubat 2016 sürümü hakkında yardım için Görev kılavuzları içerir. Bu sürümler hakkında daha fazla bilgi için bkz. [Yenilikler veya değişiklikler](whats-new-changed.md). Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta mevcuttur. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md).
+APQC Birleştirilmiş Kitaplık (Ağustos 2016 - tüm diller), Microsoft Dynamics AX platform güncelleştirmesi 2 (Ağustos 2016), Dynamics AX Mayıs 2016 uygulama güncelleştirmesi ve Microsoft Dynamics AX Şubat 2016 sürümü hakkında yardım için Görev kılavuzları içerir. Bu sürümler hakkında daha fazla bilgi için bkz. [Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler](whats-new-changed.md). Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta mevcuttur. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardım sistemi](help-overview.md).
 
 ### <a name="data-access"></a>Veri erişimi
 
@@ -95,8 +95,8 @@ APQC Birleştirilmiş Kitaplık (Ağustos 2016 - tüm diller), Microsoft Dynamic
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Yeni Görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
+[Yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
 
-[Yeni veya güncelleştirilmiş görev kılavuzları (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
+[Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
+[Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)

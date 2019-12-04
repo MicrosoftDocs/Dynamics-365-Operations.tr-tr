@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8619c6cde484c41ec01e96eb4626366f1955b5d4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571818"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811838"
 ---
 # <a name="install-assets-on-functional-locations"></a>Varlıkları işlem yapılacak yerleşimlere yükleme
 
@@ -31,7 +31,7 @@ ms.locfileid: "2571818"
 
  
 
-İşlem yapılacak yerleşim yapıları oluşturduktan sonraki adım, varlıkları ilgili işlem yapılacak yerleşimlere yüklemektir. Bu konuda Varlık Yönetimi'nde varlıkları bu işlem yapılacak yerleşimlere yükleme işlemi açıklanmaktadır. Varlık oluşturma hakkında bilgi için bkz. [Varlıklar](../objects/introduction-to-objects.md).
+İşlem yapılacak yerleşim yapıları oluşturduktan sonraki adım, varlıkları ilgili işlem yapılacak yerleşimlere yüklemektir. Bu konuda Varlık Yönetimi'nde varlıkları bu işlem yapılacak yerleşimlere yükleme işlemi açıklanmaktadır. Varlık oluşturma hakkında bilgi için bkz. [Varlıklara giriş](../objects/introduction-to-objects.md).
 
 Bir varlık yapısı oluşturduysanız, tüm varlık yapısının işlem yapılacak yerleşime yüklenmesi gerekir. Bu nedenle, işlem yapılacak yerleşimde yalnızca üst varlıklar (üst varlığı olmayan üst düzey varlıklar) seçilebilir. İlgili tüm alt varlıklar (alt varlıklar) da işlem yapılacak yerleşime yüklenecektir. Varlıkları işlem yapılacak yerleşime yüklediğinizde, işlem yapılacak yerleşimin mali boyutları işlem yapılacak yerleşim için seçilen işlem yapılacak yerleşim türündeki ayara bağlı olarak otomatik olarak varlıklara aktarılabilir. İşlem yapılacak yerleşim türlerini ayarlamayla ilgili daha fazla bilgi için bkz. [İşlem yapılacak yerleşim türleri](../setup-for-functional-locations/functional-location-types.md).
 

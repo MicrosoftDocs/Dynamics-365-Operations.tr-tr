@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94243f83121a1306d8f9ae9be23d24e5c9b63a2d
-ms.sourcegitcommit: 07e109dec176a93eff0df8a37ba5d875f212e9f1
+ms.openlocfilehash: 66419d9093cff68aa6109b22ab57bcb46ac6c718
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "2662677"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772908"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (23 Ekim 2019)
 
@@ -34,7 +34,7 @@ Bu konuda, Dynamics 365 Talent'daki yeni veya değişen özellikler açıklanmak
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içeriyor.
 
-## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
+## <a name="changes-in-onboard"></a>Onboard'taki değişiklikler
 Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
@@ -47,7 +47,7 @@ Daha fazla bilgi için bkz. [Finance and Operations uygulamaları için Platform
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Kazançlar açık kayıt önizlemesi özelliği kaldırılıyor
 
-Core HR operasyonel mükemmellik sağlama konusunda stratejik yatırımlar blog gönderisindeki duyurumuzla birlikte Microsoft 18 Ekim 2019 tarihinde genel önizlemedeki kazançlar açık kayıt özelliğini kaldırdı. Bunun yerine, gelecekte yeni işlevler yayımlanacaktır. Kazançlar açık kayıt özelliğinin şu anda önizlemede olan üretim kullanımı desteklenmeyecektir.
+[Core HR operasyonel mükemmellik sağlama konusunda stratejik yatırımlar](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence) blog gönderisindeki duyurumuzla birlikte Microsoft 18 Ekim 2019 tarihinde genel önizlemedeki kazançlar açık kayıt özelliğini kaldırdı. Bunun yerine, gelecekte yeni işlevler yayımlanacaktır. Kazançlar açık kayıt özelliğinin şu anda önizlemede olan üretim kullanımı desteklenmeyecektir.
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>Çalışan formunda ülke/bölge ikinci kez seçilirken hata (350294)
 
@@ -69,7 +69,7 @@ Bu haftaki sürümle, zaten Common Data Service ile eşitlenmiş mevcut bir öze
 
 Bu sürümde, yalnızca seçilen çalışanların çalışma koşulları Excel'de açılacaktır. Tüm şirket güvenliği de dikkate alınmıştır.
 
-### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service---324178"></a>İi takvimi tatil varlığı ile İş takvimi varlığı arasındaki ilişki Common Data Service'ta yok - (324178)
+### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>İş takvimi tatil varlığı ile İş takvimi varlığı arasındaki ilişki Common Data Service'te yok (324178)
 
 Bu ilişki, bu sürümle eklenmiştir. Bu değişiklik bir çalışanın iş günlerini PowerApps'te görüntüleme olanağı sağlar. 
 

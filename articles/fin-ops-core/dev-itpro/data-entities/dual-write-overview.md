@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550869"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772399"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Common Data Service ile yakın gerçek zamanlı veri tümleştirmesi
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Günümüzün dijital dünyasında, işletme ekosistemleri Microsoft Dynamics 365 uygulamalarını bir bütün olarak kullanırlar. Kişilerin, müşterilerin, işlemlerin ve Nesnelerin İnterneti'nin (IoT) verileri tek bir kaynağa aktığından, dijital geri bildirim döngüleri için bir fırsat vardır. Bu deneyimi gerçekleştirmek için, Finance and Operations uygulamaları ve diğer Dynamics 365 uygulamaları arasındaki entegrasyon esastır. Bazı uygulamalar Common Data Service üzerine inşa edilir. Finance and Operations uygulamaları verileriyle Common Data Service arasındaki entegrasyon diğer uygulamaların Finance and Operations ile tutarlı ve akıcı bir şekilde iletişim kurmasını sağlar.
 
@@ -38,13 +36,16 @@ Finance and Operations uygulamaları ve Common Data Service çift yazma çerçev
 
 ![Mimariye genel bakış diyagramı](media/dual-write-overview.jpg)
 
-Müşteriler için aşağıdaki değer önermeleri kullanılabilir:
+Aşağıdaki değer önermeleri kullanılabilir:
 
 + [Common Data Service'te kuruluş hiyerarşisi](dual-write-organization.md)
 + [Common Data Service'te şirket kavramı](dual-write-company.md)
 + [Tümleşik müşteri aslı](dual-write-customer.md)
++ [Tümleşik genel muhasebe](dual-write-ledger.md)
++ [Birleşik ürün deneyimi](dual-write-product.md)
 + [Tümleşik satıcı aslı](dual-write-vendor.md)
-+ Birleştirilmiş ana ürün
++ [Tümleşik siteler ve ambarlar](dual-write-sites-and-warehouses.md)
++ [Tümleşik vergi aslı](dual-write-tax.md)
 
 ## <a name="system-requirements"></a>Sistem gereksinimleri
 

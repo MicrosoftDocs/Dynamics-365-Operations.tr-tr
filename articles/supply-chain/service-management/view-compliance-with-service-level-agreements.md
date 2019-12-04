@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6184653b1296ed22254f6811bb58135639d70ca9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8db522552165f51bd45a90cb38983d9bdf47ce21
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551778"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813098"
 ---
 # <a name="view-compliance-with-service-level-agreements"></a>Servis düzeyi anlaşmalarıyla uyumluluğu görüntüleme    
 
@@ -38,13 +38,13 @@ ms.locfileid: "1551778"
 
 
 > [!TIP]
-> <P><STRONG>Uyumluluk</STRONG> alanındaki değer 100'den büyükse, servis düzeyi anlaşmasının süre limiti aşılmıştır.</P>
+> <STRONG>Uyumluluk</STRONG> alanındaki değer 100'den büyükse, servis düzeyi anlaşmasının süre limiti aşılmıştır.
 
 
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Servis düzeyi anlaşmaları](service-level-agreements.md)
+[Servis düzeyi sözleşmelerine genel bakış](service-level-agreements.md)
 
   
 

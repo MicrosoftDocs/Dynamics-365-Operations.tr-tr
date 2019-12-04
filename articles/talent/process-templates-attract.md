@@ -1,6 +1,6 @@
 ---
-title: Attract'ta süreç şablonu oluşturun
-description: Bu konu, Attract'ta bir süreç şablonu oluşturma hakkında bilgi sağlar.
+title: Attract'te işe alım süreci şablonu oluşturma
+description: Bu konu, Attract'te işe alım süreci şablonu oluşturma hakkında bilgi sağlar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622730"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832570"
 ---
-# <a name="create-a-process-template-in-attract"></a>Attract'ta süreç şablonu oluşturun
+# <a name="create-a-hiring-process-template-in-attract"></a>Attract'te işe alım süreci şablonu oluşturma
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "2622730"
 
 ## <a name="template-management"></a>Şablon yönetimi
 
-Kurumlar, Attract'ta ekip üyelerinin veya yalnızca yöneticilerin süreç şablonları oluşturmasını belirler. Şablon yönetimi yapılandırmak için **Yönetici Merkezi**\>**Şablon yönetimi**'ne gidin. Ekip üyelerinin kendi şablonlarını oluşturmasına izin vermek için şablon yönetimini etkinleştirin. Şablon yönetimini etkinleştirmiyorsanız, yalnızca yöneticiler şablonları oluşturabilir.
+Kurumlar, Attract'te ekip üyelerinin veya yalnızca yöneticilerin süreç şablonları oluşturmasını belirler. Şablon yönetimi yapılandırmak için **Yönetici Merkezi**\>**Şablon yönetimi**'ne gidin. Ekip üyelerinin kendi şablonlarını oluşturmasına izin vermek için şablon yönetimini etkinleştirin. Şablon yönetimini etkinleştirmiyorsanız, yalnızca yöneticiler şablonları oluşturabilir.
 
 ## <a name="default-template"></a>Varsayılan şablon
 
@@ -48,7 +48,7 @@ Yöneticiler, işe alanlar ve işe alma müdürleri süreç şablonları oluştu
 > [!NOTE]
 > Aşama adları **Başvuru durumu** sayfasında adaylara görünür. Bu özelliği, aşamaları için adları seçtiğinizde dikkate almanız gerekir.
 
-Faaliyetler hakkında daha fazla bilgi için bkz: [Attract İşe alım süreci faaliyetleri](./activities-attract.md).
+Faaliyetler hakkında daha fazla bilgi için bkz. [İşe alım süreçlerindeki faaliyetler](./activities-attract.md).
 
 İşe alma süreç şablonu oluşturmak için şu adımları izleyin.
 

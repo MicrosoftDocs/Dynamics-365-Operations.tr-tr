@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190017"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812375"
 ---
 # <a name="workflow-system-overview"></a>İş akışı sistemine genel bakış
 
@@ -57,18 +57,18 @@ Bu iş akışını daha iyi anlamak için Haluk'un 7.000 ABD Doları tutarında 
 
 ## <a name="workflow-content"></a>İş akışı içeriği
 
-+ [İş akışı mimarisi](workflow-system-architecture.md)
++ [İş akışı sistemi mimarisi](workflow-system-architecture.md)
 + [İş akışı öğeleri](workflow-elements.md)
-+ [İş akışı eylemleri](workflow-actions.md)
-+ [İş akışı oluşturma](create-workflow.md)
++ [İş akışı onay süreçlerindeki eylemler](workflow-actions.md)
++ [İş akışlarına genel bakış](create-workflow.md)
 + [İş akışı özelliklerini yapılandırma](configure-workflow-properties.md)
-+ [Bir görev akışında el ile yapılan görevi yapılandır](configure-manual-task-workflow.md)
-+ [Bir görev akışında otomatikleştirilmiş görev yapılandır](configure-automated-task-workflow.md)
-+ [Bir onay işlemini bir iş akışında yapılandır](configure-approval-process-workflow.md)
-+ [Bir onay adımını bir iş akışında yapılandır](configure-approval-step-workflow.md)
-+ [Bir iş akışında bir el ile kararı yapılandırma](configure-manual-decision-workflow.md)
-+ [Bir iş akışında koşullu bir kararı yapılandırma](configure-conditional-decision-workflow.md)
-+ [Bir iş akışında bir paralel etkinlik yapılandırma](configure-parallel-activity-workflow.md)
-+ [Paralel dalı iş akışında yapılandırma](configure-parallel-branch-workflow.md)
-+ [Satır maddesi iş akışını yapılandırma](configure-line-item-workflow.md)
-+ [İş akışı SSS](workflow-FAQ.md)
++ [İş akışında el ile girilen görevleri yapılandırma](configure-manual-task-workflow.md)
++ [İş akışında otomatikleştirilmiş görevleri yapılandırma](configure-automated-task-workflow.md)
++ [İş akışında onay işlemlerini yapılandırma](configure-approval-process-workflow.md)
++ [İş akışında onay adımlarını yapılandırma](configure-approval-step-workflow.md)
++ [İş akışında el ile girilen kararları yapılandırma](configure-manual-decision-workflow.md)
++ [İş akışında koşullu kararları yapılandırma](configure-conditional-decision-workflow.md)
++ [İş akışında paralel etkinlikleri yapılandırma](configure-parallel-activity-workflow.md)
++ [İş akışında paralel dalları yapılandırma](configure-parallel-branch-workflow.md)
++ [Satır maddesi iş akışlarını yapılandırma](configure-line-item-workflow.md)
++ [İş akışıyla ilgili SSS](workflow-FAQ.md)

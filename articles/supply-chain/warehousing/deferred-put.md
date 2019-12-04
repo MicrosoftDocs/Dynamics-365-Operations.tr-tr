@@ -3,7 +3,7 @@ title: Ambar işinin ertelenmiş işlemesi
 description: Bu konu, Dynamics 365 Supply Chain Management'ta ambar işi koyma işlemlerinin ertelenmiş işlenmesini sağlayan işlevselliği açıklar.
 author: josaw1
 manager: AnnBe
-ms.date: 06/17/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
+ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026962"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2815800"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Ambar işinin ertelenmiş işlemesi
 
@@ -30,7 +30,6 @@ ms.locfileid: "2026962"
 [!include [banner](../includes/pivate-preview-banner.md)]
 
 Bu konu, Dynamics 365 Supply Chain Management'ta mevcut olan ambar işi için erteleme işlemlerinin ertelenmesini sağlayan işlevselliği açıklar.
-
 
 Ertelenmiş işleme işlevselliği, ambar çalışanlarının arka planda işlenirken ambar işçilerinin başka işler yapmaya devam etmesini sağlar. Ertelenmiş işleme, birçok iş hattının işlenmesi gerektiğinde ve çalışan bu işin zaman uyumsuz olarak işlenmesine izin verebilirse yararlıdır. Ayrıca, sunucu işlem zamanında geçici veya planlanmamış artışlara sahip olabilir ve artan işlem süresi kullanıcının verimliliğini etkileyebilir.
 
@@ -50,6 +49,8 @@ Ertelenmiş işlemeyi kullanmak için, bir iş işleme ilkesini yapılandırmal�
 | İş işleme yöntemi          | İş satırını işlemek için kullanılan yöntem. Yöntem **Anlık**olarak ayarlanmışsa biçim, hiçbir iş işleme ilkesi satırı işlemek için kullanılmadığında biçime benzer. Yöntem **Ertelenmiş**olarak ayarlanırsa toplu iş çerçevesi kullanan ertelenmiş işlem kullanılır. |
 | Ertelenen işleme eşiği   | **0** (sıfır) değeri hiçbir eşik olmadığını gösterir. Bu durumda, ertelenmiş işlem kullanılabiliyorsa kullanılır. Belirli bir eşik hesaplaması eşiğin altındaysa, Anlık yöntem kullanılır. Aksi takdirde, Ertelenmiş yöntem kullanılabiliyorsa kullanılır. Satış ve transfer ile ilgili işler için eşik, iş için işlenen ilişkili kaynak yük hattı sayısı olarak hesaplanır. Stok yenileme çalışması için, eşik iş tarafından yenilenmekte olan iş satırlarının sayısı olarak hesaplanır. Örneğin, **5** eşiğini ayarlayarak, beşten az başlangıç kaynağı yükleme hattına sahip daha küçük işler ertelenmiş işlemeyi kullanmaz, ancak daha büyük işler onu kullanır. Yalnızca iş işleme yöntemi **Ertelenmiş**olarak ayarlanmışsa eşiğin etkisi vardır. |
 | Ertelenen işleme toplu iş grubu |İşleme için kullanılan toplu iş grubu. |
+
+Ertelenmiş yerine koyma işleme için şu iş emri türleri desteklenir: satış siparişi, transfer emri çıkışı ve stok yenileme.
 
 ## <a name="assigning-the-work-creation-policy"></a>İş oluşturma ilkesini atama
 
@@ -99,7 +100,7 @@ Burada ertelenmiş yerine koyma işleme ilkesi yapılandırılmış olsa bile uy
 - El ile iş tamamlama kullanılır.
 - İş otomatik tamamlama kullanılarak tamamlanır.
 - Denetim şablonları kullanılır.
-- İş kapsayıcıları kullanır.
+
 
 ## <a name="monitoring-the-deferred-processing-tasks-from-the-outbound-work-monitoring-workspace"></a>Giden iş izleme çalışma alanından ertelenmiş işleme görevlerini izleme
 

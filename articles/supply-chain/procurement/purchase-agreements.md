@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248946"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813374"
 ---
 # <a name="purchase-agreements"></a>Satınalma sözleşmeleri
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu makalede, satınalma anlaşmalarıyla ilgili bilgiler verilmektedir. Bir satınalma anlaşması, kuruluşun belirli bir süre içinde birden fazla satınalma siparişi kullanarak, belirli bir miktarda veya tutarda alım yapacağını taahhüt eden bir sözleşmedir. Bu taahhüt karşılığında, alıcıya özel fiyatlar ve iskontolar verilir. 
 
@@ -80,6 +81,9 @@ Bir satınalma siparişi oluşturduğunuzda buna bir satın alma sözleşmesi uy
 Bir satınalma sözleşmesini sadece bir satınalma siparişi oluştururken seçebilirsiniz. Satınalma siparişi oluşturulduktan sonra bir satınalma sözleşmesi seçemezsiniz.  
 Satınalma siparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda, Supply Chain Management'ın uygun satınalma sözleşmelerini otomatik olarak arayıp aramayacağını kontrol edebilirsiniz. Örneğin bunu planlanan satınalma siparişlerinin kesinleştirmesini yaptığınızda ya da satış siparişlerine dayanan satınalma siparişleri oluşturduğunuzda yapabilirsiniz.
 
+## <a name="matching-policy-on-purchase-agreements"></a>Satınalma sözleşmeleriyle ilgili eşleştirme ilkesi
+Satınalma sözleşmesinin başlığında bir satır eşleştirme ilkesi tanımlayabilirsiniz. Bu satır eşleştirme ilkesi, **Borç hesapları parametreleri** sayfasında (**Fiyat ve miktar eşleştirme** hızlı sekmesindeki) **Eşleştirme ilkesini geçersiz kılmaya izin ver** alanı **Şirket ilkesinden daha fazla** olarak ayarlandığında borç hesapları parametrelerini satır eşleştirme ilkesiyle ilişkilendirir. Satınalma sözleşmesine başvuran belgeler; ilgili madde, madde ve satıcı veya kategori satınalma ilkesinde farklı şekilde tanımlanmadıkça satınalma sözleşmesi başlığında tanımlanan satır eşleştirme ilkesini kullanır.
+
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Satınalma sözleşmeleri ve şirketlererası ticaret
 Şirketlerarası ticaret ilişkileri, farklı tüzel kişilikler arasında olan satıcı hesapları ve müşteri hesapları arasında oluşturulabilir. Taraflardan biri için bir satış siparişi ya da satınalma siparişi oluşturulduğunda, bir şirketlerarası sipariş zinciri oluşturulur. Sipariş zinciri içinde satış siparişi ve satınalma siparişleri uygun tüzel kişilikler içinde oluşturulur.  
 
@@ -93,9 +97,9 @@ Finansal boyutları belge başlıklarına ve satınalma sözleşmelerinin tekil 
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Satınalma sözleşmesi oluşturma (Görev kılavuzu)](tasks/create-purchase-agreement.md)
+[Satınalma sözleşmesi oluşturma](tasks/create-purchase-agreement.md)
 
-[Satınalma sözleşmesinden satınalma sevk emri oluşturma (Görev kılavuzu)](tasks/create-purchase-release-order-purchase-agreement.md)
+[Satınalma sözleşmesinden satınalma sevk emri oluşturma](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

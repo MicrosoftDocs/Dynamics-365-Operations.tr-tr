@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
+ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553199"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "2810711"
 ---
 # <a name="one-voucher"></a>Bir fiş
 
@@ -83,6 +83,9 @@ Microsoft, müşterilerle yapılan görüşmelere dayanarak, müşterilerin Bir 
 
 Aşağıdaki senaryolar yalnızca Bir fiş işlevi kullanılarak gerçekleştirilebilir. Kuruluşunuzda bu senaryolardan herhangi biri varsa, fişe girilecek birden çok hareketi etkinleştirmeniz gerekir; **genel muhasebe parametreleri** sayfasındaki **Tek bir fiş içinde birden fazla harekete izin ver** parametresi ayarını değiştirin. Bu işlevsel boşluklar, sonraki sürümlerdeki diğer özellikler ile doldurulacaktır.
 
+> [!Note]
+> [Aşağıdaki senaryolar için **Tek bir fiş içinde birden fazla harekete izin ver** alanı, **Genel muhasebe parametreleri** sayfasındaki **Genel** hızlı sekmesinde Evet olarak ayarlanmalıdır.]
+
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Satıcı veya müşteri ödemelerini özet biçiminde banka hesabına nakletme
 
 **Senaryo** Kuruluş, bankasına satıcılardan ve tutarlardan oluşan bir liste iletir ve banka da kuruluş adına satıcılara ödeme yapmak için bu listeyi kullanır. Banka, ödemelerin toplamını tek bir geri çekme olarak banka hesabına nakleder.
@@ -120,6 +123,9 @@ Aşağıdaki sabit kıymet hareketleri de tek bir fiş içinde birden fazla hare
 - Bir kıymet bölünür.
 - Elden çıkarma amortismanını hesaplamak için bir parametre açılır ve ardından kıymet elden çıkarılır.
 - Bir kıymetin servis tarihi alım tarihinden öncedir. Bu nedenle, bir amortisman düzeltmesi deftere nakledilir.
+
+> [!Note]
+> Hareketleri girerken tüm hareketlerin aynı sabit kıymet için geçerli olduğundan emin olun. Fiş birden fazla sabit kıymet içeriyorsa **Yeni Fiş** alanı, Genel muhasebedeki **Günlük adları** sayfasında Yalnızca bir fiş numarası olarak ayarlansa bile deftere nakledilmez. Fişe birden fazla sabit kıymet eklerseniz **Fiş başına yalnızca bir sabit kıymet hareketi olabilir** iletisi görüntülenir ve fişi deftere nakledemezsiniz.  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Kambiyo senetleri ve senetler
 Kambiyo senetleri ve senetler, Bir fiş kullanımı gerektirir çünkü hareketler, müşteri veya satıcı bakiyesini ödeme durumuna bağlı olarak Alacak hesapları/Borç hesapları genel muhasebe hesabından başkasına taşır.

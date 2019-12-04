@@ -1,9 +1,9 @@
 ---
-title: Çevrimiçi mağazaları ayarlama
-description: Bu makalede Retail çevrimiçi mağazalar ve Dynamics 365 Retail'te bunların nasıl kurulacağı hakkında bilgiler verilmiştir.
+title: Çevrimiçi mağaza kanalı ayarlama
+description: Bu makalede Retail çevrimiçi mağaza kanalları ve Dynamics 365 Retail'te bunların nasıl kurulacağı hakkında bilgi sağlanmaktadır.
 author: kfend
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02402269a6976ff856e703cc8e94fbf0758ea771
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e7932879aac6ea4054f6c35de99f11c2662dd472
+ms.sourcegitcommit: 595a4ec63a32bd5d4321126bda7cf72a75a930a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017978"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "2688821"
 ---
-# <a name="set-up-online-stores"></a>Çevrimiçi mağazalar ayarlama
+# <a name="set-up-an-online-store-channel"></a>Çevrimiçi mağaza kanalı ayarlama
 
 [!include [banner](includes/banner.md)]
 
-Bu makalede Retail çevrimiçi mağazalar ve Dynamics 365 Retail'te bunların nasıl kurulacağı hakkında bilgiler verilmiştir.
+Bu makalede Retail çevrimiçi mağaza kanalları ve Dynamics 365 Retail'te bunların nasıl kurulacağı hakkında bilgi sağlanmaktadır.
 
 Retail, birden fazla perakende kanalını destekler. Bu perakende kanalları çevrimiçi mağazaları, çağrı merkezlerini ve perakende mağazalarını (tuğla dibek mağazalar olarak da bilinir) içerir. Çevrimiçi mağazalar, bir perakendeciye çevrimiçi mevcudiyet sağlarlar, böylelikle müşteriler ürünleri perakendeci'nin perakende mağazalarının yanı sıra çevrimiçi mağazasından da alabilirler. Müşteriler ürünleri çevrimiçi mağazadan satın alırlarsa, bu ürünler onlara sevk edilebilir veya müşteriler ürünleri yerel perakende mağazasından alabilirler. Retail istemcisinde bir çevrimiçi mağaza oluşturursunuz. Daha sonra bu çevrimiçi mağaza, Retail ile entegre bir üçüncü taraf çevrimiçi mağazaya yayımlanır. Üçüncü taraf çevrimiçi mağaza, çevrimiçi mağaza için bir mağaza ön tarafı (UI) işlevi görür ve size müşteri yönetim sistemi (CMS) ve UI özellikleri seçeneğini verir. Bu tür sayısız entegrasyon mevcuttur. Çevrimiçi mağaza için tanımladığınız özellikler, çevrimiçi mağazanın davranışını kontrol eder. Örneğin, Retail'da gezinme kategori hiyerarşisi tanımlar ve bunu çevrimiçi mağazaya atarsınız. Çevrimiçi mağazayı bir üçüncü taraf çevrimiçi mağazaya yayınlarsanız, gezinme kategori hiyerarşisi mağazanın çevrimiçi sürümünde belirir. Ardından alışveriş yapanlar gezinme kategori hiyerarşisini kullanarak çevrimiçi mağazada gezinebilir ve ürün arayabilirler. Bir çevrimiçi mağaza oluşturmak için, mağaza için hareketlerin işlenmesine imkan tanıyacak bileşenler ayarlamanız gerekir. Örneğin çeşit eklemeniz, öznitelik uygulamanız ve ödeme yöntemleri ve sevkıyat yöntemleri ayarlamanız gerekir. Öte yandan çevrimiçi mağazaya özel fiyatlar, promosyonlar, iskontolar, ticari anlaşmalar ve sevkıyat şartları da tanımlayabilirsiniz. Çevrimiçi mağazayı üçüncü taraf çevrimiçi mağazaya yayımladıktan sonra, çevrimiçi mağaza için perakende ürün katalogları oluşturabilirsiniz. Katalogdaki ürünler, çevrimiçi mağaza ürün listeleri haline gelir. Alışveriş yapan biri çevrimiçi mağazadan ürün satın aldığında, mevcut stok güncellenir ve istemcide eşitlenir. Ayrıca, satınalmalar için satış emirleri de üretilir ve siparişin yerine getirilmesi ve işlenmesi için istemciye gönderilir.
 
@@ -45,7 +45,7 @@ Bir çevrimiçi mağaza ayarlamak için, aşağıdaki görevleri tamamlamanız g
 5. Çevrimiçi mağazada sunulan teslimat şekillerini ayarlayın.
 6. Çevrimiçi mağaza tarafından kabul edilen ödeme yöntemleri atayın.
 7. Alışveriş yapanların ürünleri çevrimiçi sipariş etmesine ve ardından bunları yerel bir mağazadan almasına izin veriyorsanız, çevrimiçi mağazaya mağaza bulucu grupları atayın.
-8. Çevrimiçi mağazaya kanallar, ürünler ve satış emirleri için öznitelikler atayın. Kanal öznitelikleri tüm çevrimiçi mağaza için geçerlidir, ürün öznitelikleri çevrimiçi mağazada sunulan ürünler için geçerlidir ve satış emri öznitelikleri, çevrimiçi mağazadan üretilen satış emirleri için geçerlidir.
+8. Çevrimiçi mağazaya kanallar, ürünler ve satış emirleri için öznitelikler atayın. Kanal öznitelikleri tüm çevrimiçi mağaza için geçerlidir, ürün öznitelikleri çevrimiçi mağazada sunulan ürünler için geçerlidir ve satış siparişi öznitelikleri, çevrimiçi mağazadan üretilen satış emirleri için geçerlidir.
 9. Bu özniteliklerin çevrimiçi mağazada nasıl davranacağını belirleyen özellikler tanımlamak için öznitelikleri eşleyin. Örneğin, öznitelikler gerekli ya da aranabilir şeklinde tanımlanabilir.
 10. Çevrimiçi mağazayı yayınlayarak üçüncü taraf çevrimiçi mağaza tercihinizin mağaza yapısını üretin.
 

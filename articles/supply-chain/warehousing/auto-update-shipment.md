@@ -3,7 +3,7 @@ title: Sevkiyat otomatik güncelleştirmeleri
 description: Bu konu, sevkiyatlar için otomatik güncelleştirme sağlayan işleve genel bir bakış sağlar.
 author: josaw1
 manager: AnnBe
-ms.date: 08/13/2019
+ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,15 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 160ad55a12d13fdb64e55effaabb1848179e71cf
-ms.sourcegitcommit: c35dfce2c0605d6f46365ce5d985c22187d21761
+ms.openlocfilehash: e42e7f19311adee7cc48f0ad0b59a4d0d54df9aa
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1986129"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773555"
 ---
 # <a name="shipment-auto-updates"></a>Sevkiyat otomatik güncelleştirmeleri
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 Sevkiyat otomatik güncelleştirme işlevi, yük bir ambara serbest bırakıldıktan sonra, bir sevkiyatla ilişkilendirilmiş yükleme satırındaki miktarları (artış ve azalmalar) otomatik olarak güncelleştirir. Bu işlev, sevkiyattaki yük satırı veya yük dalgada işlenene kadar etkin kalır. Kullanıldığında, sipariş güncelleştirmeleri ambar işi oluşturuluncaya kadar el ile müdahale gerektirmeden ambara otomatik olarak akabilir.
@@ -38,7 +37,7 @@ Sevkiyatı otomatik güncelleştirme işlevi hem satış siparişi satırları, 
 
 ## <a name="main-elements-of-the-functionality"></a>İşlevlerin ana öğeleri
 
-Sevkiyatı otomatik güncelleştirme işlevi öncelikle sevkiyat durumuna bağlıdır ve bir satış siparişi satırında veya transfer emri satırında değişiklik yapıldığında bir yükleme satırındaki miktarın değiştirilip değiştirilemeyeceğini belirler. Ayrıca, varolan bir yükleme satırına otomatik olarak yeni bir yükleme satırı eklenmesi gerekip gerekmediğini belirlemek için sevkiyat durumunu temel alır. Sevkiyat durumu **Dalga oluşturuldu** veya daha yüksek bir durum olduğunda, otomatik güncelleştirme gerçekleşmez.
+Sevkiyatı otomatik güncelleştirme işlevi öncelikle sevkiyat durumuna bağlıdır ve bir satış siparişi satırında veya transfer emri satırında değişiklik yapıldığında bir yükleme satırındaki miktarın değiştirilip değiştirilemeyeceğini belirler. Ayrıca, var olan bir yükleme satırına otomatik olarak yeni bir yükleme satırı eklenmesi gerekip gerekmediğini belirlemek için sevkiyat durumunu temel alır. Sevkiyat durumu **Dalga oluşturuldu** veya daha yüksek bir durum olduğunda, otomatik güncelleştirme gerçekleşmez.
 
 Dalga durumu da otomatik güncelleştirmeler için dikkate alınır. Yükleme satırıyla ilişkili olan dalga durumu **Tutuldu**, **Yürütülüyor**, **Serbest bırakıldı**, **Çekildi** veya **Sevkedildi** olarak ayarlandığında (satış siparişi satırında veya transfer emri satırında miktar azalmasına göre), bir kullanıcı yükleme satırındaki miktarı azaltmaya çalışırsa, aşağıdaki hata iletisi görüntülenir: "Rezervasyonlar, rezervasyonlara dayanan oluşturulmuş bir iş bulunduğundan kaldırılamadı." Ek olarak, dalga daha önce sözü edilen dalga durumlarının birine sahip olduğunda, bir kullanıcı satış siparişi satırı veya transfer emri satırındaki miktarı azaltarak yükleme satırı miktarını dolaylı olarak artırmayı denerse, yükleme satırındaki miktar otomatik olarak artırılmaz. Bu durumda, yük satırının el ile güncelleştirilmesi gerekir.
 
@@ -46,8 +45,8 @@ Dalga durumu da otomatik güncelleştirmeler için dikkate alınır. Yükleme sa
 
 Sevkiyatı otomatik güncelleştirme işlevi dört senaryoyu destekler: yeni sipariş satırı ekleme, sipariş satırındaki miktarı artırma, sipariş satırındaki miktarı azaltma ve sipariş satırını kaldırma.
 
-- **Yeni sipariş satırı ekle**: **Ambar** sayfasındaki (**Ambar yönetimi \> Kurulum \> Ambar \> Ambarlar**) **Ambar** hızlı sekmesinde bulunan **Sevkiyatı otomatik güncelleştir** alanı **Her zaman** olarak ayarlandığında, sipariş için bir sevkiyat varsa ve satış siparişi oluşturulduktan sonra satış siparişi veya transfer emrine yeni bir sipariş satırı eklenirse, var olan yük güncelleştirilmez. Varolan yüke referans içermeyen yeni bir yük satırı oluşturulur ve var olan sevkiyatla ilişkilendirilir. Yeni satır yüke eklenir ve serbest bırakılır.
-- **Bir sipariş satırındaki miktarı artır**: **Sevkiyatı otomatik güncelleştir** alanı **Her zaman** olarak ayarlandığında, sipariş için bir sevkiyat varsa ve varolan satış siparişi satırı veya transfer emri satırındaki miktar, satış siparişi için bir yük oluşturulduktan sonra artırılırsa, yük satırı sipariş satırı ile aynı miktar kadar artar. Yük serbest bırakılmışsa ancak bir iş oluşturulmamışsa, yük satırı sipariş satırı ile aynı miktar kadar artar.
+- **Yeni sipariş satırı ekle**: **Ambar** sayfasındaki (**Ambar yönetimi \> Kurulum \> Ambar \> Ambarlar**) **Ambar** hızlı sekmesinde bulunan **Sevkiyatı otomatik güncelleştir** alanı **Her zaman** olarak ayarlandığında, sipariş için bir sevkiyat varsa ve satış siparişi oluşturulduktan sonra satış siparişi veya transfer emrine yeni bir sipariş satırı eklenirse, var olan yük güncelleştirilmez. Var olan yüke referans içermeyen yeni bir yük satırı oluşturulur ve var olan sevkiyatla ilişkilendirilir. Yeni satır yüke eklenir ve serbest bırakılır.
+- **Bir sipariş satırındaki miktarı artır**: **Sevkiyatı otomatik güncelleştir** alanı **Her zaman** olarak ayarlandığında, sipariş için bir sevkiyat varsa ve var olan satış siparişi satırı veya transfer emri satırındaki miktar, satış siparişi için bir yük oluşturulduktan sonra artırılırsa, yük satırı sipariş satırı ile aynı miktar kadar artar. Yük serbest bırakılmışsa ancak bir iş oluşturulmamışsa, yük satırı sipariş satırı ile aynı miktar kadar artar.
 - **Bir sipariş satırıda miktarı azalt**: **Sevkiyatı otomatik güncelleştir** alanı **Her zaman** veya **Miktar azaltıldığında** olarak ayarlandığında sipariş için bir sevkiyat varsa ve var olan satış siparişi satırında veya transfer emri satırındaki miktar satış siparişi için bir yük oluşturulduktan sonra azaltılmışsa, bu yük satırındaki miktar zaten sipariş satırındaki miktara eşit veya bu miktardan daha az olmadığı sürece, ilişkili yük satırındaki miktar eşleşecek şekilde güncelleştirilir. Bu durumda, yük satırı etkilenmez. Yük serbest bırakılmışsa ancak bir iş oluşturulmamışsa, yük satırındaki miktar sipariş satırındaki yeni miktara eşit veya bundan az olmadıkça, ilişkili yükleme satırındaki miktar eşleşecek şekilde güncelleştirilir. Bu durumda, yük satırı etkilenir.
 - **Bir sipariş satırını kaldır**: **Sevkiyatı otomatik güncelleştir** alanı **Her zaman** veya **Miktar azaltıldığında** olarak ayarlandığında, kullanıcı bir yük satırının mevcut olduğu bir sipariş satırını kaldırmaya çalışırsa bir hata iletisi gösterilir.
 
@@ -109,7 +108,7 @@ Bir satış siparişi satırındaki miktarı artırmak için aşağıdaki adıml
 5. **Tüm satış siparişleri** sayfasına geri dönün ve satış siparişini yeniden seçin.
 5. Eylem Bölmesinde **Ambar** sekmesindeki **İlgili bilgiler** grubunda **Sevkiyat ayrıntıları**'nı seçin. **Sevkiyat ayrıntıları** sayfasında, **Yük satırları** hızlı sekmesindeki miktar satış siparişi satırındaki değişikliği yansıtır.
 
-Yük satırındaki miktar 8'den 12'ye yükseltilmiş olmasına karşın, otomatik rezervasyon açılmadıkça yalnızca sekiz öğe ayrılmış kalır. Varolan sevkiyata eklenen miktar rezerve edilmediği için, dalga rezervasyon olmadan bu noktada işlenirse, iş yalnızca önceden rezerve edilmiş olan miktar için oluşturulur.
+Yük satırındaki miktar 8'den 12'ye yükseltilmiş olmasına karşın, otomatik rezervasyon açılmadıkça yalnızca sekiz öğe ayrılmış kalır. Var olan sevkiyata eklenen miktar rezerve edilmediği için, dalga rezervasyon olmadan bu noktada işlenirse, iş yalnızca önceden rezerve edilmiş olan miktar için oluşturulur.
 
 > [!NOTE]
 > Bir sipariş satırındaki miktar azaltıldığında, sipariş satırındaki yeni miktar zaten eşit veya bundan küçükse yükleme satırındaki miktar etkilenmez. Bir sipariş satırındaki miktar artırıldığında, yükleme satırı sipariş satırı ile aynı miktar kadar artar. Sipariş satırındaki miktar yük satırındaki miktardan farklıysa, farklılık kalır.

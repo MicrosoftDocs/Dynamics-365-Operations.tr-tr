@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5b52e1765d3afbe1730e96f58b601aebccd12787
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181278"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771481"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
@@ -122,7 +122,7 @@ Belge türü **Arşiv dizini** olarak ayarlandığında bir dosyayı Azure Depol
 
 ### <a name="power-bi-destination"></a>Power BI hedefi
 
-Verilerinizi kurulumunuzdan Microsoft Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı kullanmak için **Etkin**'i **Evet** olarak ayarlayın. Aktarılan dosyalar bu amaçla yapılandırılmış bir Microsoft SharePoint Server örneği üzerinde depolanmalıdır. Daha fazla bilgi için bkz. [Power BI'ya Finance'tan gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Verilerinizi kurulumunuzdan Microsoft Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı kullanmak için **Etkin**'i **Evet** olarak ayarlayın. Aktarılan dosyalar bu amaçla yapılandırılmış bir Microsoft SharePoint Server örneği üzerinde depolanmalıdır. Daha fazla bilgi için bkz. [Power BI'a veri çekmek için Elektronik raporlamayı (ER) yapılandırma](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Varsayılan davranışı geçersiz kılmak amacıyla (bir yapılandırma için iletişim kutusu) ana çıkış bileşeni için bir hedef referansı ve bir dosya hedefi oluşturabilir ve sonra tüm hedefleri devre dışı bırakabilirsiniz.
@@ -163,4 +163,4 @@ Biçiminizin ER yapılandırmalarında kullanılması ön koşuldur. Kendi biçi
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
+[Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)

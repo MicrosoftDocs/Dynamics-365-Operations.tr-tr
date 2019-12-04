@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43700d68587cebfb4f897c8a5b619dd4771cc439
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e55ab83302cc75b1a9d9d3e4f06d2258697b31fc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181324"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771226"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
@@ -773,9 +773,9 @@ Bu veri kaynakları tanımlandığında, UserInfo tablosunu <strong>GUID</strong
 
 ### <a name="functions-list-extension"></a>Liste uzantı işlevleri
 
-ER, ER ifadelerinde kullanılan işlevlerin listesini genişletmenize olanak sağlar. Bazı mühendislik çabaları gereklidir. Ayrıntılı bilgi için bkz: [Elektronik raporlama işlevlerinin listesini genişletme](general-electronic-reporting-formulas-list-extension.md).
+ER, ER ifadelerinde kullanılan işlevlerin listesini genişletmenize olanak sağlar. Bazı mühendislik çabaları gereklidir. Ayrıntılı bilgi için bkz. [Elektronik raporlama (ER) işlev listesini genişletme](general-electronic-reporting-formulas-list-extension.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
+- [Elektronik Raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 - [Elektronik raporlama (ER) işlev listesini genişletme](general-electronic-reporting-formulas-list-extension.md)

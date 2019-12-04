@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f238afadfa064e972ef11a95fdad073f63ff20c
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 4cf65826279f0741ce5abc89d8f15bfec98c83ef
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250680"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813696"
 ---
 # <a name="monitor-forecast-accuracy"></a>Tahmin doğruluğunu izleme
 
@@ -44,7 +44,7 @@ Supply Chain Management, aşağıdaki tahmin doğruluğu türlerini hesaplar:
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Ayarlanmış tahmini yetkilendirme](authorize-adjusted-forecast.md)
+[Düzeltilen tahmini yetkilendirme](authorize-adjusted-forecast.md)
 
 [Bir talep tahmini hesaplarken aykırı değerleri geçmiş hareket verilerinden kaldırma](remove-historical-outliers-calculating-demand-forecast.md)
 

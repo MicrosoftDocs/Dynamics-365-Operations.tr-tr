@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b23860a7eda0ec9d75cca04728b7fc11d01bf967
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023896"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812778"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (26 Mart 2019)
 
@@ -39,7 +39,7 @@ Aşağıdaki geliştirmeler mülakat zamanlamada kullanılabilir.
 - İşe alımcılar veya işe alma müdürleri artık bir mülakatçı için geri bildirimlerini göndermeleri üzerine bir hatırlatmayı el ile tetikleyebilirler. Anımsatma için ilişkili e-posta şablonu da yapılandırılabilir.
 - Görüşme özetini aday ile paylaşırken, mülakat zamanlayıcı, mülakatı yapanların adını gizlemeyi seçebilir ve mülakat özet görünümünden sütunları saklamayı seçebilir.
 
-## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
+## <a name="changes-in-onboard"></a>Onboard'taki değişiklikler
 
 ### <a name="embedded-images-in-activities"></a>Etkinliklerde katıştırılmış resimler
 Artık resimleri doğrudan etkinliklere katıştırabilirsiniz. Web'den resimleri kopyalayıp yapıştırabilmenin yanı sıra, yerel dosya sisteminizden de resimleri karşıya yükleyebilirsiniz. Etkinliğin boyutu 1 MB ile sınırlıdır. Resim çok büyükse, yeniden boyutlandırın ve tekrar karşıya yüklemeyi deneyin.
@@ -75,11 +75,11 @@ Bu sürümde, sabit ücret planları artık kullanıcıları güvenlik içinde �
 Bu sürümle, Talent'taki **Excel'de aç** seçeneğini kullanarak iş kayıtlarını artık kaldırabilirsiniz.
 
 ### <a name="upgrade-to-common-data-service"></a>Common Data Service'a yükseltin
-Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. PowerApps Yönetim Merkezi'nde oturum açarak veritabanınızın yükseltilmeye gereksinimi olup olmadığını belirleyin. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. Power Apps Yönetim Merkezi'nde oturum açarak veritabanınızın yükseltilmeye gereksinimi olup olmadığını belirleyin. Son tarihler ve yükseltme için gerekli adımlar hakkında daha fazla bilgi için bkz. [Common Data Service'e yükseltme](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Ön izlemede
 
-Önizleme özelliklerini etkinleştirmek hakkında daha fazla bilgi için bkz. [Talent içinde önizleme özelliklerine erişim](./access-preview-feature.md).
+Önizleme özelliklerini etkinleştirme hakkında daha fazla bilgi için bkz. [Microsoft Dynamics 365 Talent'te önizleme özelliklerine erişme](./access-preview-feature.md).
 
 ### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a>Sebep kodlarının izin türlerinde belirtilmesine izin ver
 Kuruluşların izin istekleriyle ilgili ek bilgilere ihtiyacı olabilir. Bu bilgiyi eklemek için çalışanların bir sebep kodunu izin taleplerine eklemeleri gerekir. Bu sürüm ile, belirli bir izin türü ile ilişkili sebep kodlarını artık belirtebilir ve çalışanların izin taleplerinde bir sebep kodu seçmelerine olanak sağlayabilirsiniz.

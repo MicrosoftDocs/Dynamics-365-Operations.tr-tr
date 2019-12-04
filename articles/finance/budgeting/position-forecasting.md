@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 039b5d7ace19fa93e6db4920153f4a1a67519c85
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180373"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770885"
 ---
 # <a name="position-forecasting"></a>Pozisyon tahmini
 
@@ -33,7 +33,7 @@ ms.locfileid: "2180373"
 
 ## <a name="position-forecasting-in-budget-planning"></a>Bütçe planlamada pozisyon tahmini
 
-[![Grafik üst](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Pozisyon tahmini bileşenleri](./media/graphic-top.png)](./media/graphic-top.png) 
 
 Pozisyon tahmini, pozisyon giderleri için doğru bütçe tutarlarını sağlamak amacıyla üç ana bileşenden yararlanır. Bu tutarlar, daha sonra bütçe hesaplamaları için bir bütçe planı haline getirilebilir. 
 
@@ -45,14 +45,14 @@ Birincil bileşen, tek bir pozisyonla ilgili tüm maliyet verilerini temsil eden
 
 ### <a name="position-forecasting-processes"></a>Pozisyon tahmini işlemleri
 
-[![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Pozisyon tahmini işlemlerinin gösterimi](./media/graphic1b.png)](./media/graphic1b.png) 
 
 Tipik bir pozisyon tahmin işleminde, öncelikle ayar bileşenlerini (bütçe maliyet öğeleri ve ücret grupları) oluşturursunuz. Tahmin pozisyonları daha sonra mevcut pozisyonlar esas alınarak oluşturulur. Sonra ayarlamalar yapabilirsiniz. Örneğin, pozisyon ekleyebilir veya sonlandırabilir, ödeme oranlarını ve kazanç maliyetlerini değiştirebilir ve ücret zammı ekleyebilirsiniz. Farklı bütçeleme senaryoları arasındaki karşılaştırmaları kolaylaştırmak için birden çok tahmin pozisyonu sürümü oluşturabilirsiniz. Ardından, tahmin pozisyonlarını bütçe planlarına dahil edebilir ve tahmin pozisyonlarından maliyetleri bütçe planı satırları olarak ekleyebilirsiniz.
 
 Bütçe planları revize edilirken ek tahmin pozisyonu sürümleri oluşturabilirsiniz. Bu yeni sürümler, revizyonlar için bir temel oluşturur.
 
 ## <a name="position-forecasting-setup"></a>Pozisyon tahmini ayarlama
-[![graphic2](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Ayarı vurgulayan çizim](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Bütçe maliyet öğeleri
 
@@ -82,14 +82,14 @@ Son olarak, Jodi temel ödeme için hesaplama tabanları olarak kullanılan tüm
 
 Ücret grupları bir tahmin pozisyonuna ait kazanç oranlarını da belirleyebilir. Tahmin pozisyonu kazançlarını hesaplamak için bir grubu saat başı temelinde veya yıllık ücret temelinde ayarlayabilirsiniz. **Ücret oranı tabloları** öğesinde, ödeme oranları ücret kılavuzu, atanmış bir düzey ve adım temelinde bir tahmin pozisyonuna eklenen kazançları belirler. Bu kılavuzlar İnsan Kaynakları'ndaki mevcut ücret kılavuzlarına dayanabilir. Alternatif olarak, bütçe planlama için yeni ücret kılavuzları oluşturabilirsiniz. 
 
-Ücret oranı tablolarındaki geçerlilik tarihleri ve bitiş tarihleri ödeme oranlarını istediğiniz tarihte değiştirmenizi sağlar. Bu özellik, bir pazarlık biriminin bir bütçe döngüsünün ortasında geniş kapsamlı maaş zammı için görüşmelerde bulunduğu zaman yararlıdır. Bu durumda, varolan bir tablonun sona erme tarihini oran değişikliği tarihinden önceki güne değiştirin ve yeni tarihte başlayan yeni bir fiyatı tablosu ekleyin. Yeni bir oran tablosu oluşturduğunuzda **Mevcut bir kılavuzdan yeni bir tazminat kılavuzu oluştur**'u seçerseniz, İnsan Kaynaklarından varolan bir fiyat tablosunu seçebilirsiniz. Oluşturulan oran tablosunda, **Toplu Değişiklik** seçeneği, kılavuzdaki tüm oranlara bir yüzde veya sabit tutar artışı veya azalması uygulamanızı sağlar. 
+Ücret oranı tablolarındaki geçerlilik tarihleri ve bitiş tarihleri ödeme oranlarını istediğiniz tarihte değiştirmenizi sağlar. Bu özellik, bir pazarlık biriminin bir bütçe döngüsünün ortasında geniş kapsamlı maaş zammı için görüşmelerde bulunduğu zaman yararlıdır. Bu durumda, var olan bir tablonun sona erme tarihini oran değişikliği tarihinden önceki güne değiştirin ve yeni tarihte başlayan yeni bir fiyatı tablosu ekleyin. Yeni bir oran tablosu oluşturduğunuzda **Mevcut bir kılavuzdan yeni bir tazminat kılavuzu oluştur**'u seçerseniz, İnsan Kaynaklarından var olan bir fiyat tablosunu seçebilirsiniz. Oluşturulan oran tablosunda, **Toplu Değişiklik** seçeneği, kılavuzdaki tüm oranlara bir yüzde veya sabit tutar artışı veya azalması uygulamanızı sağlar. 
 
 Ücret grubundaki **Artış planı** ve **Artış tarihi** alanları, pozisyonlar bir adımdan diğerine geçtiği için ödeme artışları oluşturmanız gerektiğinde kullanılır. Bir yıllık ödeme artışı tipik bir senaryodur. Artış planı, adım artışı için pozisyonun yıldönümü tarihinin mi, yoksa tek bir ortak tarihin mi kullanılacağını belirler. Artış planı ücret grubundaki tüm tahmin pozisyonlarına uygulanır. 
 
 Ücret grubunda seçilen kazanç maliyet öğesi, kendi temel ödemeleri ve her adım artışı dahil olmak üzere, gruptaki tahmin pozisyonları için kazanç oluşturduğunuzda kullanılır. **Ücret sabit planı** alanı ücret grubunu İnsan kaynaklarındaki bir sabit ücret planına bağlar. Bu bağlantı bir çalışanın sabit ücret bilgilerini bir tahmin pozisyonuna atar ve böylece bütçe planlamasını daha doğru hale getirebilir. Ücret grubu için ücret kılavuzunun (düzeyler ve adımlar) yapısının sabit ücret planının yapısıyla uyuşması gerektiğini unutmayın. Aksi takdirde, sistem ücret grubu ile sabit ücret planını doğru şekilde bağlayamazsınız.
 
 ## <a name="creating-forecast-positions"></a>Tahmin pozisyonları oluşturma
-[![graphic3](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[!["Tahmin pozisyonları oluşturma"yı vurgulayan çizim](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Mevcut pozisyonlar için tahmin pozisyonları oluşturma
 
@@ -105,7 +105,7 @@ Bütçe maliyet öğesi seçili ise, atanan çalışanın bir sabit ücret plan�
 
 **Bir ücret grubu ata** seçeneği ayarı, **Bütçe maliyet öğesi atama** ayarından daha önceliklidir. Aynı anda iki ayar kullanılabilir. 
 
-[![graphic4](./media/graphic4.png)](./media/graphic4.png) 
+[!["Ücret grubu atama" grafiği](./media/graphic4.png)](./media/graphic4.png) 
 
 Diğer seçenek yıldönümü tarihi atamaktır. Daha sonra, atanan çalışandan seçilen tarih (ayarlanan başlangıç tarihi, çalışan başlangıç tarihi, işe alma başlangıç tarihi veya kıdemlilik tarihi) tahmin pozisyonunun yıldönümü tarihi olarak ayarlanır ve bilgilendirme amacıyla ve ödeme artışları oluşturulduğunda kullanılır.
 
@@ -118,7 +118,7 @@ Bir tahmin pozisyonu seçildiğinde, **Önerilen** şeklindeki tahmin durumuna s
 Ayrıca tamamen yeni bir tahmin pozisyonu da oluşturabilirsiniz. Mevcut bir görevi ve ayrıca bütçe planlama sürecini ve bütçe planı senaryosunu seçin. Ardından eklemek istediğiniz diğer ayrıntıları ekleyebilirsiniz. Bir kez daha, aynı anda İnsan kaynaklarında yeni bir pozisyon oluşturulur.
 
 ## <a name="working-with-forecast-positions"></a>Tahmin pozisyonları ile çalışma
-[![graphic5](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[!["Tahmin pozisyonlarını değiştirme"yi vurgulayan çizim](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Bir tahmin pozisyonunun farklı sürümleri
 
@@ -174,7 +174,7 @@ Yeniden hesaplama işlemi değiştirilen tüm tahmin pozisyonlarında otomatik o
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Tahmin pozisyonlarını bütçe planlarına getirme
 
-[![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[!["Bütçe planına ekleme"yi vurgulayan çizim](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 Tahmin pozisyonları oluşturma ve değiştirmenin amacı bunları bütçe planlarına eklemektir, böylece bütçe planları en doğru bütçe tutarlarını içerir. Tahmin pozisyonlarını bütçe planlarına eklemek için iki yöntem vardır. Bütçe planında oluşturma işlemini veya seçim işlemini kullanabilirsiniz.
 

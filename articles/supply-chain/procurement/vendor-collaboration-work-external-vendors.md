@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 733ecc7cfb4fee325560f5a6fe11612bb8ba57ef
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653614"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815307"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Harici satıcılarla satıcı iş birliği
 
 [!include [banner](../includes/banner.md)]
 
-**Satıcı işbirliği** modülü Microsoft Dynamics 365 Supply Chain Management ile elektronik veri alışverişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişleri (PO'lar), faturalar, konsinye stok bilgileri ve teklif talepleri (RFQ'lar) ile çalışmasına ve satıcı ana verilerinin bir bölümüne erişebilmelerine olanak tanır. Bu konuda PO'lar, RFQ'lar ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir PO'ya yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır.
+**Satıcı iş birliği** modülü Microsoft Dynamics 365 Supply Chain Management ile elektronik veri alışverişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişleri (PO'lar), faturalar, konsinye stok bilgileri ve teklif talepleri (RFQ'lar) ile çalışmasına ve satıcı ana verilerinin bir bölümüne erişebilmelerine olanak tanır. Bu konuda PO'lar, RFQ'lar ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir PO'ya yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır.
 
 Satıcıların harici satıcı iş birliği arabiriminde yapabilecekleri hakkında daha fazla bilgi için bkz. [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Bu konudaki satıcı işbirliğiyle ilgili bilgiler, yalnızca Supply Chain Management'ın geçerli sürümü için geçerlidir. Microsoft Dynamics AX 7.0 (Şubat 2016) ve Microsoft Dynamics AX uygulaması 7.0.1 (Mayıs 2016) sürümünde, **Satıcı portalı** modülünü kullanarak satıcılarla işbirliği yapabilirsiniz. **Satıcı portalı** modülü hakkında bilgi için bkz. [Satıcılarla Satıcı portalını kullanarak işbirliği yapma](collaborate-vendors-vendor-portal.md).
+> Bu konudaki satıcı iş birliğiyle ilgili bilgiler, yalnızca Supply Chain Management'ın geçerli sürümü için geçerlidir. Microsoft Dynamics AX 7.0 (Şubat 2016) ve Microsoft Dynamics AX uygulaması 7.0.1 (Mayıs 2016) sürümünde, **Satıcı portalı** modülünü kullanarak satıcılarla iş birliği yapabilirsiniz. **Satıcı portalı** modülü hakkında bilgi için bkz. [Satıcılarla Satıcı portalını kullanarak iş birliği yapma](collaborate-vendors-vendor-portal.md).
 
 Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Yeni satıcı iş birliği kullanıcılarını hazırlama hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md).
 
@@ -49,33 +49,33 @@ PO yanıtında görüntülenen metni tanımlamak için aşağıdaki adımları i
 
 İletileri birden fazla dilde eklemeniz gerekirse ayrı iletiler oluşturun ve her biri için uygun dil kodunu belirtin. İleti satıcının kullandığı dilde gösterilir.
 
-## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Belirli bir satıcı için satıcı işbirliği seçeneklerini ayarlama
+## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Belirli bir satıcı için satıcı iş birliği seçeneklerini ayarlama
 
-Bir yönetici Supply Chain Management'ta satıcı işbirliği için, işbirliği yaptığınız tüm satıcılar için kullanılabilir olan güvenlik rolleri gibi genel ayarları yapılandırır. Ancak, her satıcı hesabı için farklı olabilen ayarlar da bulunmaktadır. Bu ayarları yapılandırmanız gerekir.
+Bir yönetici Supply Chain Management'ta satıcı iş birliği için, iş birliği yaptığınız tüm satıcılar için kullanılabilir olan güvenlik rolleri gibi genel ayarları yapılandırır. Ancak, her satıcı hesabı için farklı olabilen ayarlar da bulunmaktadır. Bu ayarları yapılandırmanız gerekir.
 
 - Satıcı iş birliğini etkinleştirin.
 - Satıcının fiyat bilgilerini görmesine gerek olup olmadığını belirtin.
 
-### <a name="enabling-vendor-collaboration"></a>Satıcı işbirliğini etkinleştirme
+### <a name="enabling-vendor-collaboration"></a>Satıcı iş birliğini etkinleştirme
 
-Harici bir satıcı için kullanıcı hesaplarının oluşturulabilmesi amacıyla, satıcı hesabını bu satıcının satıcı işbirliğini kullanmasına izin verecek şekilde yapılandırmanız gerekir. **Satıcılar** sayfasındaki **Genel** sekmesinde **İşbirliğini etkinleştirme** alanını seçin. Aşağıdaki seçenekler kullanılabilir durumdadır:
+Harici bir satıcı için kullanıcı hesaplarının oluşturulabilmesi amacıyla, satıcı hesabını bu satıcının satıcı iş birliğini kullanmasına izin verecek şekilde yapılandırmanız gerekir. **Satıcılar** sayfasındaki **Genel** sekmesinde **İş birliğini etkinleştirme** alanını seçin. Aşağıdaki seçenekler kullanılabilir durumdadır:
 
 - **Etkin (PO otomatik olarak onaylanır)** - PO'lar satıcılar değişiklik olmadan kabul ettiğinde otomatik olarak onaylanır.
 - **Etkin (PO otomatik olarak onaylanmaz)**- PO'ların satıcı kabul ettikten sonra kuruluşunuz tarafından el ile onaylanması gerekir.
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Satıcının fiyat bilgilerini görmesine gerek olup olmadığını belirtme
 
-PPO'lar için fiyat bilgilerini satıcı işbirliği arabirimi aracılığıyla paylaşmak için **Satınalma sipariş varsayılanları** sekmesindeki **Satınalma sipariş fiyatları/tutarı** seçeneğini satıcı hesabı için **Evet** olarak ayarlamanız gerekir. Fiyat bilgileri birim fiyatı, iskontoları ve giderleri içerir.
+PPO'lar için fiyat bilgilerini satıcı iş birliği arabirimi aracılığıyla paylaşmak için **Satınalma sipariş varsayılanları** sekmesindeki **Satınalma sipariş fiyatları/tutarı** seçeneğini satıcı hesabı için **Evet** olarak ayarlamanız gerekir. Fiyat bilgileri birim fiyatı, iskontoları ve giderleri içerir.
 
-## <a name="working-with-pos-when-vendor-collaboration-is-used"></a>Satıcı işbirliği kullanırken PO'larla çalışma
+## <a name="working-with-pos-when-vendor-collaboration-is-used"></a>Satıcı iş birliği kullanırken PO'larla çalışma
 
 ### <a name="sending-a-po-to-a-vendor"></a>Satıcıya PO gönderme
 
-Satınalma siparişleri Supply Chain Management'ta hazırlanır. Bir PO'nun durumu **Onaylandı** olduğunda, **Satınalma siparişi** sayfasında **Onay için gönder**'i seçerek PO'yu satıcıya gönderirsiniz. PO durumu **Dış İncelemede** olarak değişir. Satın alma siparişi gönderildikten sonra satıcı bunu satıcı işbirliği arabiriminin **İncelenecek satınalma siparişleri** sayfasında görebilir. Daha sonra satıcı PO'yu kabul edebilir, reddedebilir veya değişiklikler önerebilir. Satıcı, PO'da yapılan değişiklikler gibi bilgileri bildirmek için açıklama da ekleyebilir. Satıcının ilgisini yeni bir PO'ya çekmek istiyorsanız, PO'yu e-postayla göndermek için Yazdırma yönetimi sistemini de kullanabilirsiniz.
+Satınalma siparişleri Supply Chain Management'ta hazırlanır. Bir PO'nun durumu **Onaylandı** olduğunda, **Satınalma siparişi** sayfasında **Onay için gönder**'i seçerek PO'yu satıcıya gönderirsiniz. PO durumu **Dış İncelemede** olarak değişir. Satın alma siparişi gönderildikten sonra satıcı bunu satıcı iş birliği arabiriminin **İncelenecek satınalma siparişleri** sayfasında görebilir. Daha sonra satıcı PO'yu kabul edebilir, reddedebilir veya değişiklikler önerebilir. Satıcı, PO'da yapılan değişiklikler gibi bilgileri bildirmek için açıklama da ekleyebilir. Satıcının ilgisini yeni bir PO'ya çekmek istiyorsanız, PO'yu e-postayla göndermek için Yazdırma yönetimi sistemini de kullanabilirsiniz.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>PO'nun satıcı tarafından onaylanması ve kabul edilmesi
 
-Satıcı bir satınalma siparişini kabul ettikten sonra satınalma siparişi otomatik olarak onaylanabilir veya el ile onaylanması gerekebilir. Bu davranış **İşbirliğini etkinleştirme** alanının satıcı için **Etkin (PO otomatik olarak onaylanır)** veya **Etkin (PO otomatik olarak ayarlanmaz)** seçeneklerinden hangisine ayarlandığına bağlıdır.
+Satıcı bir satınalma siparişini kabul ettikten sonra satınalma siparişi otomatik olarak onaylanabilir veya el ile onaylanması gerekebilir. Bu davranış **İş birliğini etkinleştirme** alanının satıcı için **Etkin (PO otomatik olarak onaylanır)** veya **Etkin (PO otomatik olarak ayarlanmaz)** seçeneklerinden hangisine ayarlandığına bağlıdır.
 
 Aşağıdaki tabloda onay için PO gönderdiğinizde satıcının verdiği yanıta bağlı olarak, tipik bilgi alışverişi gösterilmektedir.
 
@@ -95,7 +95,7 @@ Aşağıdaki tabloda onay için PO gönderdiğinizde satıcının verdiği yanı
 <td>Satıcı siparişi <strong>kabul eder</strong> ve Supply Chain Management satıcının kabul ettiği satınalma siparişlerini otomatik olarak onaylamak üzere yapılandırılır.</td>
 <td>Siparişin durumu <strong>Onaylandı</strong> olarak güncellenir. Herhangi bir nedenle sipariş güncellenemezse satıcı yanıtı yine de <strong>Kabul Edildi</strong> olarak kaydedilir ancak PO'nun durumu <strong>Dış İncelemede</strong> olarak kalır. 
 
-Satıcıya gönderilen ve <strong>Harici İnceleme</strong> durumunda olan PO satırlardaki onaylanan teslim tarihleriyle güncelleştirilir. Bu güncelleştirme otomatik olarak <strong>Onaylandı</strong> durumuna güncelleştirilen yeni bir sürüm başlatır. Satınalma siparişi teyit edildiğinde, bu satıcının işbirliği arabiriminde görünür.</td>
+Satıcıya gönderilen ve <strong>Harici İnceleme</strong> durumunda olan PO satırlardaki onaylanan teslim tarihleriyle güncelleştirilir. Bu güncelleştirme otomatik olarak <strong>Onaylandı</strong> durumuna güncelleştirilen yeni bir sürüm başlatır. Satınalma siparişi teyit edildiğinde, bu satıcının iş birliği arabiriminde görünür.</td>
 </tr>
 <tr class="odd">
 <td>Satıcı siparişi <strong>kabul eder</strong> ancak Supply Chain Management satıcının kabul ettiği satınalma siparişlerini otomatik olarak onaylamak üzere yapılandırılmaz.</td>
@@ -190,7 +190,7 @@ Aşağıdaki tablo, PO'nun geçebileceği durum ve sürüm değişikliklerine bi
 Satıcılar PO'yu satıcı iş birliği arabirimini kullanarak onaylamak zorunda değildir. E-posta gönderebilir veya PO'yu kabul ettiklerini başka kanallar aracılığıyla bildirebilirler. Siparişi daha sonra el ile onaylayabilirsiniz. Bu durumda, satıcıdan yanıt olmasa bile siparişin onaylandığını belirten bir uyarı alırsınız. Daha sonra PO onay geçmişinde herhangi bir yanıt alınmamış açık onaylanmış sipariş olarak görünür. Bu noktada, satıcının artık PO'yu onaylama veya reddetme seçeneği yoktur.
 
 > [!NOTE]
-> Supply Chain Management'ta diğer işlemler için kullanılabilir durumda olan PO sürümü, bu sürüm satıcı işbirliği arabiriminde kaydedilmemiş olsa bile, daima en son sürümdür.
+> Supply Chain Management'ta diğer işlemler için kullanılabilir durumda olan PO sürümü, bu sürüm satıcı iş birliği arabiriminde kaydedilmemiş olsa bile, daima en son sürümdür.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Değişiklik yönetimi kullandığınızda sürümler ve durumlar
 
@@ -216,9 +216,9 @@ Konsinye stok kullanıyorsanız, satıcılar aşağıdaki sayfalarda bilgileri 
 - **Konsinye stoktan alınan ürünler** - Bu sayfa, ürünlerin sahipliğinin satıcıdan şirketinize aktarıldığı tüm hareketleri listeler. Satıcılar bu bilgiyi müşteriye faturalamak için kullanabilir.
 - **Eldeki konsinye stok** - Bu sayfa ambarınıza girişi yapılan satıcının sahip olduğu eldeki konsinye stoğu gösterir.
 
-## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>Satıcı işbirliği kullanırken RFQ'larla çalışma
+## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>Satıcı iş birliği kullanırken RFQ'larla çalışma
 
-Bu bölüm RFQ işlemi sırasında müşteri ve satıcı arasındaki etkileşimleri açıklar. Ayrıca, bilgilerin satıcılara nasıl iletildiğini de açıklar. RFQ işlemine desteği temel bir genel bakış için bkz. [Teklif talebi (RFQ'lar)](request-quotations.md).
+Bu bölüm RFQ işlemi sırasında müşteri ve satıcı arasındaki etkileşimleri açıklar. Ayrıca, bilgilerin satıcılara nasıl iletildiğini de açıklar. RFQ işlemi desteğine temel bir genel bakış için bkz. [Teklif taleplerine (RFQ'lar) genel bakış](request-quotations.md).
 
 ### <a name="alternates-attachments-amendments-and-returns"></a>Alternatifler, ekler, düzeltmeler ve iadeler
 
@@ -229,7 +229,7 @@ Bu bölüm RFQ işlemi sırasında müşteri ve satıcı arasındaki etkileşiml
     
     RFQ servis talebiyle birlikte gönderilen ekleri açmak için yanıttaki belge işleme ataç simgesini kullanın.
 
-- **Düzeltmeler** – Bir düzeltme sonlandırıldığında, varolan fiyat teklifi yanıtları güncelleştirilmiş değerlerle değiştirilebilmesi için kaldırılır. Satır fiyatı ve miktarı gibi önceki teklifte verilen bilgiler RFQ servis talebindeki günlükler aracılığıyla görüntülenebilir.
+- **Düzeltmeler** – Bir düzeltme sonlandırıldığında, var olan fiyat teklifi yanıtları güncelleştirilmiş değerlerle değiştirilebilmesi için kaldırılır. Satır fiyatı ve miktarı gibi önceki teklifte verilen bilgiler RFQ servis talebindeki günlükler aracılığıyla görüntülenebilir.
 
     Düzeltmenin işlenmesini zorunlu kılmak için **Talep teklifleri** hızlı sekmesindeki **Tedarik ve kaynak atama parametreleri** sayfasında **RFQ'ları gönderildiğinde kilitle** seçeneğini **Evet** olarak ayarlayın. (Bu seçeneği Kamu sektörü için ayarlanır ve gereklidir.)
 

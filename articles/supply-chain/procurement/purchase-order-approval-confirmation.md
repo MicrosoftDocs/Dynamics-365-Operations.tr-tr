@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 265e4dd4be63f70a29e46b6acf7db514feb599a4
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652184"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813443"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Satınalma siparişlerini onaylama
 
@@ -90,7 +90,7 @@ SAS, değişiklik yönetimi altındaysa, siparişin veya teslimat bakiyesinin ip
 
 [Satın alma siparişine genel bakış](purchase-order-overview.md)
 
-[Satınalma siparişi oluşturma](purchase-order-creation.md)
+[Satınalma siparişleri oluşturma](purchase-order-creation.md)
 
 [Ürün girişi ve satınalma siparişleri karşılaştırması](product-receipt-against-purchase-orders.md)
 

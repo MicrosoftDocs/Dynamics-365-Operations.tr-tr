@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c07f303b72f286c33979181fca1592b47efa1303
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 625e2c6a6b385c69d33ec4325a462310a37f1eed
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571243"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812203"
 ---
 # <a name="maintenance-attribute-types"></a>Bakım öznitelik türleri
 
@@ -34,8 +34,8 @@ ms.locfileid: "2571243"
 Bu konuda Kıymet Yönetimi'nde öznitelik türleri oluşturma işlemi açıklanmaktadır. Öznitelikler, çeşitli öğelerin özelliklerini açıklamak için kullanılır. Aşağıdaki öğelerin özniteliklerini ayarlayabilirsiniz:
 
 - [İşlem yapılacak yerleşim türleri](../setup-for-functional-locations/functional-location-types.md)
-- [İşlem yapılacak yerleşimler](../functional-locations/create-functional-locations.md)
-- [Kıymet türleri](../setup-for-objects/object-types.md)
+- [İşlem yapılacak yerleşimler oluşturma](../functional-locations/create-functional-locations.md)
+- [Varlık türleri](../setup-for-objects/object-types.md)
 - Varlıklar
 
 Ayarlayabileceğiniz öznitelikler öğeye bağlı olarak değişir. Örneğin işlem yapılacak yerleşim için yerleşimin fiziksel boyutu ile yapılandırma özniteliklerini ayarlayabilirsiniz. Bir kıymet türü veya bir kıymet için motor hacmi, güç tüketimi ve farklı koşullarda maksimum yük kapasitesi özniteliklerini ayarlayabilirsiniz.

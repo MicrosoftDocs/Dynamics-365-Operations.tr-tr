@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74750397dc344d74c018c27114357d3d05b95b7e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550119"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771272"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>RCS ve ER için uygulamaya özel meta verileri hazırlama
 
@@ -43,7 +43,7 @@ Bu örnek için, dış ticari işletme etki alanındaki bilgileri içeren elektr
 > Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaksınız. Bu adımlar, herhangi bir şirkette gerçekleştirilebilir.
 
 1. **Organizasyon yönetimi \> Çalışma alanları \> Elektronik raporlama**'ya gidin.
-2. Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve **Etkin** olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedürünü tamamlayın. 
+2. Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve **Etkin** olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedürünü tamamlayın. 
 3. **Meta veri yapılandırması**'nı seçin.
 4. **Yapılandırma oluştur**'u seçin.
 5. Açılır menüdeki iletişim kutusunda, **Ad** alanına bir ad girin. Bu örnek için, **Dış ticaret meta verileri** girin.
@@ -54,14 +54,14 @@ Bu örnek için, dış ticari işletme etki alanındaki bilgileri içeren elektr
     > [!NOTE]
     > Tüm uygulama, seçili model ya da modüller için tüm meta verileri seçebilirsiniz. Her iki durumda da aşağıdaki meta verilerin otomatik olarak eklenebileceğine dikkat edin: kayıt tabloları, numaralandırmalar ve genişletilmiş veri türleri (EDTs). Ek meta veri türleri gerektiğinde, bunların el ile eklenmesi gerekir.
 
-Dış ticari hareketlerle ilgili bazı meta verileri eklemeniz ve meta veri öğelerini el ile seçmeniz gerekir.
+    Dış ticari hareketlerle ilgili bazı meta verileri eklemeniz ve meta veri öğelerini el ile seçmeniz gerekir.
 
 9. **Veri kaynağı ekle \> Tablo kayıtları**'nı seçin.
 10. **Ad** alanında **İntrastat** değerine filtre uygulayın.
 11. **Intrastat** tablosu kaydını seçin.
 12. **Tamam**'ı seçin.
 
-Intrastat kayıt tablosu hakkında meta veri bilgileri eklemeniz gerekir.
+    Intrastat kayıt tablosu hakkında meta veri bilgileri eklemeniz gerekir.
 
 13. Ağaçta **Tablo kayıtları İntrastatı \> \>İlişkiler \> IntrastatCommodity (Tablo kayıtları EcoResCategory)**'yi seçin.
 14. **Meta veri ekle**'yi seçin.
@@ -95,11 +95,11 @@ Aşağıdaki prosedürde **Sistem Yöneticisi** ya da **Elektronik Raporlama Gel
 
 Bu prosedürü tamamlamadan önce aşağıdaki prosedürleri tamamlamanız gerekir:
 
-- [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md)
+- [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md)
 - [RCS'de kullanılabilecek uygulama meta verileri hazırlama](#prepare-application-metadata-that-can-be-used-in-rcs)
 
 1. **Tüm çalışma alanları \> Elektronik raporlama**'ya gidin.
-2. Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve **Etkin** olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedürünü tamamlayın. 
+2. Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve **Etkin** olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedürünü tamamlayın. 
 3. Dış ticari etki alanı elektronik belge oluşturmak üzere yapılandırılmış olan uygulama için meta veriler içeren ER meta veri yapılandırmasını içe aktarın. Bu ER meta veri yapılandırmasını daha önce bu konuda oluşturdunuz ve[RCS'de kullanılabilecek uygulama meta verileri hazırlama](#prepare-application-metadata-that-can-be-used-in-rcs) prosedüründe XML dosyası olarak dışa aktardınız.
 
     1. **Meta veri yapılandırması**'nı seçin.
@@ -192,7 +192,7 @@ Bu prosedürü tamamlamadan önce aşağıdaki prosedürleri tamamlamanız gerek
 
     29. **Kaydet**'i seçin.
 
-Varolan meta veri kümesini genişletmek istediğinizde bunu uygulamadan yapabilirsiniz. ER meta veri yapılandırmasının yeni sürümünü içe aktarabilir, bunları RCS 'ye aktarabilir ve alınan meta veri yapılandırmasının yeni sürümüne başvuran yapılandırılmış model eşleme yapılandırmasının önkoşullarını güncelleştirebilirsiniz.
+Var olan meta veri kümesini genişletmek istediğinizde bunu uygulamadan yapabilirsiniz. ER meta veri yapılandırmasının yeni sürümünü içe aktarabilir, bunları RCS 'ye aktarabilir ve alınan meta veri yapılandırmasının yeni sürümüne başvuran yapılandırılmış model eşleme yapılandırmasının önkoşullarını güncelleştirebilirsiniz.
 
 > [!NOTE]
 > Uygulama meta verileri hakkında bilgi elde etmenin bu yolu, yerel işletme verileri (LBD) veya yerel olarak dağıtılmış uygulamalar için kullanılabilecek tek yoldur (yerel işletme verileri \[LBD\], ya da or şirket içi dağıtım modeli uygulama için kullanılır).
@@ -201,7 +201,7 @@ Varolan meta veri kümesini genişletmek istediğinizde bunu uygulamadan yapabil
 
 Aşağıdaki prosedürde **Sistem Yöneticisi** ya da **Elektronik Raporlama Geliştirici** rolüne sahip bir RCS kullanıcısının uygulama meta verilerini kullanarak yeni bir ER model eşlemesi tasarlayabileceği gösterilmiştir. RCS bağlantılı uygulama kullanılarak uygulama meta verilerine çevrimiçi olarak erişilir. Örnek ER model eşlemesi, dış ticari hareketlere erişmek üzere yapılandırılacak.
 
-Bu prosedürdeki adımları tamamlamak için öncelikle RCS'deki [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedürünü tamamlamanız gerekir. Bu prosedürdeki [Bir ER yapılandırması kullanarak uygulama meta verilerine erişme](#access-application-metadata-by-using-an-er-configuration)'yi tamamlamadıysanız aşağıdaki ER yapılandırma dosyalarını önceden indirmek ve yerel olarak kaydetmek için [Dynamics 365 for Finance and Operations 8.1 için Elektronik Raporlama Görev Kılavuzu](https://go.microsoft.com/fwlink/?linkid=2082739) sayfasına gidin: **Foreign trade metadata.xml**, **Foreign trade model.xml**, ve **Foreign trade mapping.xml**.
+Bu prosedürdeki adımları tamamlamak için öncelikle RCS'deki [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedürünü tamamlamanız gerekir. Bu prosedürdeki [Bir ER yapılandırması kullanarak uygulama meta verilerine erişme](#access-application-metadata-by-using-an-er-configuration)'yi tamamlamadıysanız aşağıdaki ER yapılandırma dosyalarını önceden indirmek ve yerel olarak kaydetmek için [Dynamics 365 for Finance and Operations 8.1 için Elektronik Raporlama Görev Kılavuzu](https://go.microsoft.com/fwlink/?linkid=2082739) sayfasına gidin: **Foreign trade metadata.xml**, **Foreign trade model.xml**, ve **Foreign trade mapping.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>Gerekli ER yapılandırmalarını alma
