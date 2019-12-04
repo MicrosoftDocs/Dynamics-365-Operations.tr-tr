@@ -1,9 +1,9 @@
 ---
 title: Master planlama çalışmasını izleme
-description: Üretim planlayıcısı, bir master planlama çalışmasının devam edip etmediğini görmek istiyor.
-author: ShylaThompson
+description: Bu konu, üretim planlayıcısının bir master planlamanın devam edip etmediğini nasıl görebileceğini açıklar.
+author: josaw1
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,42 +16,115 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b923b215528ecceaed9b5057ddb736ec959f1d65
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d6e7fdd51670ea63efc04e883703f1763955115b
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845126"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781931"
 ---
-# <a name="monitor-a-master-planning-run"></a><span data-ttu-id="9020c-103">Master planlama çalışmasını izleme</span><span class="sxs-lookup"><span data-stu-id="9020c-103">Monitor a master planning run</span></span>
+# <a name="monitor-a-master-planning-run"></a><span data-ttu-id="1cb55-103">Master planlama çalışmasını izleme</span><span class="sxs-lookup"><span data-stu-id="1cb55-103">Monitor a master planning run</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
-<span data-ttu-id="9020c-104">Üretim planlayıcısı, bir master planlama çalışmasının devam edip etmediğini görmek istiyor.</span><span class="sxs-lookup"><span data-stu-id="9020c-104">The production planner wants to see if a master planning run is in progress.</span></span> <span data-ttu-id="9020c-105">Bu prosedürü tamamlamak için USMF demo veri şirketini kullanın.</span><span class="sxs-lookup"><span data-stu-id="9020c-105">Use the demo data company USMF to complete this procedure.</span></span>
+## <a name="use-a-gantt-chart-to-visualize-master-planning-progress"></a><span data-ttu-id="1cb55-104">Master planlama ilerlemesini görselleştirmek için Gantt şeması kullanma</span><span class="sxs-lookup"><span data-stu-id="1cb55-104">Use a Gantt chart to visualize master planning progress</span></span>
 
+<span data-ttu-id="1cb55-105">**Master planlama ilerlemesini görüntüleme** sayfasından, geçmiş master planlama çalışmalarının ayrıntılarını Gantt şeması olarak görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1cb55-105">From the **View master planning progress** page, you can view details of historical master planning runs as a Gantt chart.</span></span> <span data-ttu-id="1cb55-106">Bu işlev, master planlamanın çeşitli aşamalarında harcanan zamanı anlamanıza yardımcı olabilir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-106">This functionality can help you understand the time that is spent on the various phases of master planning.</span></span> <span data-ttu-id="1cb55-107">Var olan bir etkin planlama işi için ilerlemeyi izlemek ve tahmini kalan süreyi görüntülemek üzere **Master planlama ilerlemesini görüntüleme** sayfası kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-107">For a current active planning job, the **View master planning progress** page can be used to track progress and view the estimated remaining time.</span></span>
 
-## <a name="run-master-planning"></a><span data-ttu-id="9020c-106">Master planlamayı çalıştırma</span><span class="sxs-lookup"><span data-stu-id="9020c-106">Run master planning</span></span>
-1. <span data-ttu-id="9020c-107">Master planlama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9020c-107">Click Master planning.</span></span>
-    * <span data-ttu-id="9020c-108">Bunu varsayılan panosunda bulabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9020c-108">You'll find this on the default dashboard.</span></span>  
-2. <span data-ttu-id="9020c-109">Plan alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="9020c-109">In the Plan field, enter or select a value.</span></span>
-    * <span data-ttu-id="9020c-110">Örnek: StaticPlan</span><span class="sxs-lookup"><span data-stu-id="9020c-110">Example: StaticPlan</span></span>  
-3. <span data-ttu-id="9020c-111">Çalıştır öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9020c-111">Click Run.</span></span>
-4. <span data-ttu-id="9020c-112">Takip işleme süresi alanından Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="9020c-112">Select Yes in the Track processing time field.</span></span>
-    * <span data-ttu-id="9020c-113">Alan zaten seçilmişse bu adımı atlayın.</span><span class="sxs-lookup"><span data-stu-id="9020c-113">If the field is already selected, skip this step.</span></span>  
-5. <span data-ttu-id="9020c-114">İş parçacığı sayısı alanına bir rakam girin.</span><span class="sxs-lookup"><span data-stu-id="9020c-114">In the Number of threads field, enter a number.</span></span>
-6. <span data-ttu-id="9020c-115">Eklenecek kayıtlar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="9020c-115">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="9020c-116">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9020c-116">Click Filter.</span></span>
-8. <span data-ttu-id="9020c-117">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="9020c-117">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="9020c-118">Alan = Madde numarası olan sırayı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="9020c-118">Mark the row where Field = Item number.</span></span>  
-9. <span data-ttu-id="9020c-119">Ölçütler alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="9020c-119">In the Criteria field, enter or select a value.</span></span>
-    * <span data-ttu-id="9020c-120">Örnek: T0001</span><span class="sxs-lookup"><span data-stu-id="9020c-120">Example: T0001</span></span>  
-10. <span data-ttu-id="9020c-121">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9020c-121">Click OK.</span></span>
-11. <span data-ttu-id="9020c-122">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9020c-122">Click OK.</span></span>
+### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a><span data-ttu-id="1cb55-108">Master plan ilerlemesi görselleştirme özelliğini açma ve kullanma</span><span class="sxs-lookup"><span data-stu-id="1cb55-108">Turn on and use the Master plan progress visualization feature</span></span>
 
-## <a name="monitor-the-master-planning-run"></a><span data-ttu-id="9020c-123">Master planlama yürütmeyi izleme</span><span class="sxs-lookup"><span data-stu-id="9020c-123">Monitor the master planning run</span></span>
-1. <span data-ttu-id="9020c-124">Geçmiş öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9020c-124">Click History.</span></span>
-2. <span data-ttu-id="9020c-125">Sorgulamalar’ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9020c-125">Click Inquiries.</span></span>
-3. <span data-ttu-id="9020c-126">İşlem görevi süresi öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9020c-126">Click Process task duration.</span></span>
-4. <span data-ttu-id="9020c-127">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="9020c-127">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="9020c-128">Her madde için, planlama adımlarının her birinin ne kadar sürede tamamlandığını görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9020c-128">For each item you can get an overview of how long it took to complete each planning step.</span></span>  
+<span data-ttu-id="1cb55-109">Bu işlevi kullanmak için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-109">To use this functionality, follow these steps.</span></span>
 
+1. <span data-ttu-id="1cb55-110">**Özellik yönetimi** çalışma alanındaki **Yeni** sekmesinde, listeden **Master planlama ilerlemesi görselleştirmesi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-110">In the **Feature management** workspace, on the **New** tab, select **Master planning progress visualization** in the list.</span></span> <span data-ttu-id="1cb55-111">Özellik, **Yeni** sekmesinde görünmüyorsa **Etkileştirilmemiş** ve **Tümü** sekmelerine bakın.</span><span class="sxs-lookup"><span data-stu-id="1cb55-111">If the feature doesn't appear on the **New** tab, look on the **Not enabled** and **All** tabs.</span></span>
+1. <span data-ttu-id="1cb55-112">**Şimdi etkinleştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-112">Select **Enable now**.</span></span> <span data-ttu-id="1cb55-113">Alternatif olarak, **Planla**'yı seçin ve ardından özelliğin açılmasını istediğiniz zamanı seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-113">Alternatively, select **Schedule**, and then select the time when you want the feature to be turned on.</span></span>
+
+<span data-ttu-id="1cb55-114">**Master planlama ilerlemesini görüntüleme** sayfası hem geçmiş planlama işlerini hem de etkin planlama işlerini görüntüleyebilir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-114">The **View master planning progress** page can display both historical planning jobs and active planning jobs.</span></span> 
+
+<span data-ttu-id="1cb55-115">Geçmiş planlama işlerini görüntülemek için iki seçenek vardır.</span><span class="sxs-lookup"><span data-stu-id="1cb55-115">To view historical planning jobs, there are two options.</span></span> 
+
+1. <span data-ttu-id="1cb55-116">**Master planlama \> Ayar \> Planlar \> Master planlar**'a gidin ve ardından Eylem Bölmesinde **Geçmiş**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-116">Go to **Master planning \> Setup \> Plans \> Master plans**, and then, on the Action Pane, select **History**.</span></span> <span data-ttu-id="1cb55-117">İstediğiniz iş seçiliyken **Sorgular**'ı seçin ve ardından **İlerlemeyi görüntüle** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-117">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
+1. <span data-ttu-id="1cb55-118">**Master planlama \> Çalışma alanları \> Master planlama**'ya gidin, Master planlama kutucuğunda **Geçmiş**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1cb55-118">Go to **Master planning \> Workspaces \> Master planning**, on the Master planning tile click **History**.</span></span> <span data-ttu-id="1cb55-119">İstediğiniz iş seçiliyken **Sorgular**'ı seçin ve ardından **İlerlemeyi görüntüle** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-119">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
+
+<span data-ttu-id="1cb55-120">Etkin planlama işlerini görüntülemek için iki seçenek vardır.</span><span class="sxs-lookup"><span data-stu-id="1cb55-120">To view active planning jobs, there are two options.</span></span> 
+1. <span data-ttu-id="1cb55-121">**Master planlama \> Çalışma alanları \> Master planlama**'ya gidin, Eylem Bölmesinde **Bitirilmemiş planlama işlemi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-121">Go to **Master planning \> Workspaces \> Master planning**, on the Action Pane, select **Unfinished planning process**.</span></span> <span data-ttu-id="1cb55-122">İstediğiniz iş seçiliyken **Sorgular**'ı seçin ve ardından **İlerlemeyi görüntüle** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-122">With the desired job selected, select **Inquiries**,  and then select **View progress**.</span></span>
+1. <span data-ttu-id="1cb55-123">**Master planlama \> Çalışma alanları \> Master planlama**'ya gidin, Master planlama kutucuğunda **İlerlemeyi görüntüle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1cb55-123">Go to **Master planning \> Workspaces \> Master planning**, on the Master planning tile click **View progress**.</span></span> <span data-ttu-id="1cb55-124">İstediğiniz iş seçiliyken **Sorgular**'ı seçin ve ardından **İlerlemeyi görüntüle** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-124">With the desired job selected, select **Inquiries**,  and then select **View progress**</span></span>
+
+<span data-ttu-id="1cb55-125">Etkin işleri yalnızca bir planlama işi işlenirken görüntüleyebileceğinizi unutmayın.</span><span class="sxs-lookup"><span data-stu-id="1cb55-125">Note you can view active jobs only when a planning job is processing.</span></span>
+
+### <a name="analyze-a-master-planning-job"></a><span data-ttu-id="1cb55-126">Master planlama işini analiz etme</span><span class="sxs-lookup"><span data-stu-id="1cb55-126">Analyze a master planning job</span></span>
+
+<span data-ttu-id="1cb55-127">Gantt şemasında, harcanan zamanla ilgili ek ayrıntıları görüntülemek için aşağıdaki planlama süreçlerinin her birini genişletebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="1cb55-127">In the Gantt chart, you can expand each of the following planning processes to view additional details about the time that is spent:</span></span>
+
+- <span data-ttu-id="1cb55-128">Başlatılıyor</span><span class="sxs-lookup"><span data-stu-id="1cb55-128">Initializing</span></span>
+- <span data-ttu-id="1cb55-129">Veriler siliniyor ve ekleniyor</span><span class="sxs-lookup"><span data-stu-id="1cb55-129">Deleting and inserting data</span></span>
+- <span data-ttu-id="1cb55-130">Tedarik planlama</span><span class="sxs-lookup"><span data-stu-id="1cb55-130">Coverage planning</span></span>
+- <span data-ttu-id="1cb55-131">Gecikmeler</span><span class="sxs-lookup"><span data-stu-id="1cb55-131">Delays</span></span>
+- <span data-ttu-id="1cb55-132">Eylem iletileri</span><span class="sxs-lookup"><span data-stu-id="1cb55-132">Action messages</span></span>
+- <span data-ttu-id="1cb55-133">Sonlandırma</span><span class="sxs-lookup"><span data-stu-id="1cb55-133">Finalization</span></span>
+- <span data-ttu-id="1cb55-134">Otomatik kesinleştirme</span><span class="sxs-lookup"><span data-stu-id="1cb55-134">Auto-firming</span></span>
+
+<span data-ttu-id="1cb55-135">Eylem iletilerini kullanmanın etkisini görmek istiyorsanız Gantt şeması yararlı bir araçtır.</span><span class="sxs-lookup"><span data-stu-id="1cb55-135">The Gantt chart is a useful tool if you want to view the impact of using action messages.</span></span>
+
+#### <a name="navigation-in-the-gantt-chart"></a><span data-ttu-id="1cb55-136">Gantt şemasında gezinme</span><span class="sxs-lookup"><span data-stu-id="1cb55-136">Navigation in the Gantt chart</span></span>
+
+- <span data-ttu-id="1cb55-137">Seçilen grubu genişletmek ve ayrıntıları göstermek için ağaç görünümünde artı işaretini (**+**) seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-137">To expand the selected group and show the details, select the plus sign (**+**) in the tree view.</span></span>
+- <span data-ttu-id="1cb55-138">Seçilen grubu daraltmak için ağaç görünümünde eksi işaretini (**–**) seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-138">To collapse the selected group, select the minus sign (**–**) in the tree view.</span></span>
+- <span data-ttu-id="1cb55-139">Gezinmek için klavyenizi kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1cb55-139">You can use your keyboard for navigation.</span></span> <span data-ttu-id="1cb55-140">Satırlar arasında gezinmek için **Yukarı ok** ve **Aşağı ok** tuşlarını kullanın.</span><span class="sxs-lookup"><span data-stu-id="1cb55-140">Use the **Up arrow** and **Down arrow** keys to move between rows.</span></span> <span data-ttu-id="1cb55-141">Grupları genişletmek ve daraltmak için **Sağ ok** ve **Sol ok** tuşlarını kullanın.</span><span class="sxs-lookup"><span data-stu-id="1cb55-141">Use the **Right arrow** and **Left arrow** keys to expand and collapse groups.</span></span>
+- <span data-ttu-id="1cb55-142">Gantt şemasındaki tüm düzeyleri açmak veya kapatmak için **Tümünü genişlet** veya **Tümünü daralt**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-142">To open or close all levels in the Gantt chart, select **Expand all** or **Collapse all**.</span></span>
+- <span data-ttu-id="1cb55-143">İlgili işleme süresini görüntülemek için bir görevin üzerine gelin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-143">To view the related processing time, hover over a task.</span></span> <span data-ttu-id="1cb55-144">(Görevler, Gantt şemasındaki en düşük düzeydir.)</span><span class="sxs-lookup"><span data-stu-id="1cb55-144">(Tasks are the lowest level in the Gantt chart.)</span></span>
+
+#### <a name="view-an-additional-master-planning-run-to-compare-jobs"></a><span data-ttu-id="1cb55-145">İşleri karşılaştırmak için ek bir master planlama çalışması görüntüleme</span><span class="sxs-lookup"><span data-stu-id="1cb55-145">View an additional master planning run to compare jobs</span></span>
+
+<span data-ttu-id="1cb55-146">**Ek master planlama çalışması gösterme** alanında bir master planlama işi seçerek Gantt şemasında ek bir master planlama çalışmasını görüntüleyebilir ve iki işi karşılaştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1cb55-146">By selecting a master planning job on field **Show additional master planning run**, you can view an additional master planning run in the Gantt chart and compare the two jobs.</span></span>
+
+#### <a name="bom-level-display"></a><span data-ttu-id="1cb55-147">Ürün reçetesi düzeyinde görüntüleme</span><span class="sxs-lookup"><span data-stu-id="1cb55-147">BOM-level display</span></span>
+
+<span data-ttu-id="1cb55-148">Ürün reçetesi (BOM) düzeyleri tedarik planlama, gecikmeler, eylemler ve kesinleştirme için farklı gösterilir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-148">Bill of materials (BOM) levels are shown differently for coverage planning, delays, actions, and firming.</span></span>
+
+- <span data-ttu-id="1cb55-149">**Tedarik planlama**: Ürün reçetesi düzeyleri beklenen şekilde gösterilir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-149">**Coverage planning** – BOM levels are shown as expected.</span></span> <span data-ttu-id="1cb55-150">Yukarıdan aşağıya doğru hesaplanırlar.</span><span class="sxs-lookup"><span data-stu-id="1cb55-150">They are calculated from the top down.</span></span>
+
+    <span data-ttu-id="1cb55-151">**Örnek:** Ürün reçetesi düzeyi 0, 1, 2</span><span class="sxs-lookup"><span data-stu-id="1cb55-151">**Example:** BOM level 0, 1, 2</span></span>
+
+- <span data-ttu-id="1cb55-152">**Gecikmeler**: Ürün reçetesi düzeyleri, tedarik planlama ürün reçetesi seviyeleri -1 ile çarpılarak gösterilir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-152">**Delays** – BOM levels are shown as the coverage planning BOM levels multiplied by –1.</span></span> <span data-ttu-id="1cb55-153">(Başka bir deyişle, bunların negatif işareti vardır.)</span><span class="sxs-lookup"><span data-stu-id="1cb55-153">(In other words, they have a negative sign.)</span></span>
+
+    <span data-ttu-id="1cb55-154">**Örnek:** Ürün reçetesi düzeyi –2, –1, 0</span><span class="sxs-lookup"><span data-stu-id="1cb55-154">**Example:** BOM level –2, –1, 0</span></span>
+
+- <span data-ttu-id="1cb55-155">**Eylem iletisi**: Ürün reçetesi düzeyleri beklenen şekilde gösterilir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-155">**Action message** – BOM levels are shown as expected.</span></span> <span data-ttu-id="1cb55-156">Yukarıdan aşağıya doğru hesaplanırlar.</span><span class="sxs-lookup"><span data-stu-id="1cb55-156">They are calculated from the top down.</span></span>
+
+    <span data-ttu-id="1cb55-157">**Örnek:** Ürün reçetesi düzeyi 0, 1, 2</span><span class="sxs-lookup"><span data-stu-id="1cb55-157">**Example:** BOM level 0, 1, 2</span></span>
+
+- <span data-ttu-id="1cb55-158">**Otomatik kesinleştirme**: Ürün reçetesi düzeyleri, 999 eksi tedarik planlama ürün reçetesi düzeyi olarak gösterilir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-158">**Auto-firming** – BOM levels are shown as 999 minus the coverage planning BOM level.</span></span>
+
+    <span data-ttu-id="1cb55-159">**Örnek:** Ürün reçetesi düzeyi 999, 998, 997</span><span class="sxs-lookup"><span data-stu-id="1cb55-159">**Example:** BOM level 999, 998, 997</span></span>
+
+<span data-ttu-id="1cb55-160">Aşağıdaki tablo, davranışı özetlemektedir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-160">The following table summarizes the behavior.</span></span>
+
+| <span data-ttu-id="1cb55-161">Gösterilen ürün reçetesi düzeyi</span><span class="sxs-lookup"><span data-stu-id="1cb55-161">BOM level that is shown</span></span> | <span data-ttu-id="1cb55-162">Son madde</span><span class="sxs-lookup"><span data-stu-id="1cb55-162">End item</span></span> | <span data-ttu-id="1cb55-163">Alt bileşen</span><span class="sxs-lookup"><span data-stu-id="1cb55-163">Subcomponent</span></span> | <span data-ttu-id="1cb55-164">Hammadde</span><span class="sxs-lookup"><span data-stu-id="1cb55-164">Raw material</span></span> |
+|---|---|---|---|
+| <span data-ttu-id="1cb55-165">Tedarik planlama</span><span class="sxs-lookup"><span data-stu-id="1cb55-165">Coverage planning</span></span> | <span data-ttu-id="1cb55-166">0</span><span class="sxs-lookup"><span data-stu-id="1cb55-166">0</span></span> | <span data-ttu-id="1cb55-167">1</span><span class="sxs-lookup"><span data-stu-id="1cb55-167">1</span></span> | <span data-ttu-id="1cb55-168">2</span><span class="sxs-lookup"><span data-stu-id="1cb55-168">2</span></span> |
+| <span data-ttu-id="1cb55-169">Gecikmeler</span><span class="sxs-lookup"><span data-stu-id="1cb55-169">Delays</span></span> | <span data-ttu-id="1cb55-170">0</span><span class="sxs-lookup"><span data-stu-id="1cb55-170">0</span></span> | <span data-ttu-id="1cb55-171">–1</span><span class="sxs-lookup"><span data-stu-id="1cb55-171">–1</span></span> | <span data-ttu-id="1cb55-172">–2</span><span class="sxs-lookup"><span data-stu-id="1cb55-172">–2</span></span> |
+| <span data-ttu-id="1cb55-173">Eylem iletisi</span><span class="sxs-lookup"><span data-stu-id="1cb55-173">Action message</span></span> | <span data-ttu-id="1cb55-174">0</span><span class="sxs-lookup"><span data-stu-id="1cb55-174">0</span></span> | <span data-ttu-id="1cb55-175">1</span><span class="sxs-lookup"><span data-stu-id="1cb55-175">1</span></span> | <span data-ttu-id="1cb55-176">2</span><span class="sxs-lookup"><span data-stu-id="1cb55-176">2</span></span> |
+| <span data-ttu-id="1cb55-177">Otomatik kesinleştirme</span><span class="sxs-lookup"><span data-stu-id="1cb55-177">Auto-firming</span></span> | <span data-ttu-id="1cb55-178">999</span><span class="sxs-lookup"><span data-stu-id="1cb55-178">999</span></span> | <span data-ttu-id="1cb55-179">998</span><span class="sxs-lookup"><span data-stu-id="1cb55-179">998</span></span> | <span data-ttu-id="1cb55-180">997</span><span class="sxs-lookup"><span data-stu-id="1cb55-180">997</span></span> |
+
+#### <a name="visualize-progress"></a><span data-ttu-id="1cb55-181">İlerlemeyi görselleştirme</span><span class="sxs-lookup"><span data-stu-id="1cb55-181">Visualize progress</span></span>
+
+<span data-ttu-id="1cb55-182">Çalışmakta olan bir master planlama işini görüntülüyorsanız ilerleme, Gantt şemasında renklerle gösterilir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-182">If you view a master planning job that is currently running, progress is shown through colors in the Gantt chart.</span></span> <span data-ttu-id="1cb55-183">Mavi tema için aşağıdaki renkler geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-183">The following colors apply to the blue theme.</span></span> <span data-ttu-id="1cb55-184">Diğer renk temaları için renkler farklı olacaktır.</span><span class="sxs-lookup"><span data-stu-id="1cb55-184">For other color themes, the colors will differ.</span></span>
+
+- <span data-ttu-id="1cb55-185">**Lacivert**: Tamamlanmış planlama görevleri.</span><span class="sxs-lookup"><span data-stu-id="1cb55-185">**Dark blue** – Completed planning tasks.</span></span>
+- <span data-ttu-id="1cb55-186">**Turuncu**: Şu anda devam eden görev.</span><span class="sxs-lookup"><span data-stu-id="1cb55-186">**Orange** – The task that is currently in progress.</span></span>
+- <span data-ttu-id="1cb55-187">**Açık mavi**: Kalan görevler için tahmin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-187">**Light blue** – The estimate for remaining tasks.</span></span>
+
+<span data-ttu-id="1cb55-188">Renk, Gantt şemasında yalnızca en düşük düzeyde gösterilir.</span><span class="sxs-lookup"><span data-stu-id="1cb55-188">The color is shown only on the lowest level in the Gantt chart.</span></span> <span data-ttu-id="1cb55-189">Master planlama işindeki tüm görevleri görüntülemek için **Tümünü genişlet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-189">Select **Expand all** to view all tasks in the master planning job.</span></span> <span data-ttu-id="1cb55-190">Kalan görevlerin tahmini, geçmiş master planlama işlerini temel alır.</span><span class="sxs-lookup"><span data-stu-id="1cb55-190">The estimate of remaining tasks is based on historical master planning jobs.</span></span>
+
+## <a name="run-master-planning-and-track-processing-time"></a><span data-ttu-id="1cb55-191">Master planlamayı çalıştırma ve işleme süresini izleme</span><span class="sxs-lookup"><span data-stu-id="1cb55-191">Run master planning and track processing time</span></span>
+
+1. <span data-ttu-id="1cb55-192">Varsayılan panoda **Master planlama**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-192">On the default dashboard, select **Master planning**.</span></span>
+1. <span data-ttu-id="1cb55-193">**Plan** alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-193">In the **Plan** field, enter or select a value.</span></span>
+1. <span data-ttu-id="1cb55-194">**Çalıştır**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-194">Select **Run**.</span></span>
+1. <span data-ttu-id="1cb55-195">**İşleme izleme saati** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="1cb55-195">Set the **Track processing time** option to **Yes**.</span></span>
+1. <span data-ttu-id="1cb55-196">**İş parçacığı sayısı** alanına bir rakam girin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-196">In the **Number of threads** field, enter a number.</span></span>
+1. <span data-ttu-id="1cb55-197">**Eklenecek kayıtlar** hızlı sekmesinde **Filtrele**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-197">On the **Records to include** FastTab, select **Filter**.</span></span>
+1. <span data-ttu-id="1cb55-198">Kılavuzda, **Alan** alanının **Madde numarası** olarak ayarlandığı satırı seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-198">In the grid, select the row where the **Field** field is set to **Item number**.</span></span>
+1. <span data-ttu-id="1cb55-199">**Ölçütler** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-199">In the **Criteria** field, enter a value.</span></span>
+1. <span data-ttu-id="1cb55-200">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1cb55-200">Select **OK**.</span></span>
