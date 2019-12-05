@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d51b9a7684e460d555632c3896e9dd8a4e10d92c
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 005b04bd4c3476356f30ba8e97564f83307a64c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626190"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811769"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Kıymet sayaçlarını otomatik olarak güncelleştirme
 
@@ -43,16 +43,16 @@ Yukarıda belirtildiği gibi, otomatik sayaçlar üretim kayıtlarından güncel
 
 2. **Başlangıç tarihi** alanında otomatik güncelleştirmenin başlangıç tarihini seçin.
 
->[!NOTE]
->Bu alandaki tarih, **Rota hareketlerinden** gelen "süren iş" tarihidir (**Üretim denetimi** > **Sorgular ve raporlar** > **Üretim** > **Rota hareketleri** > **Fiziksel tarih** alanı).
+    >[!NOTE]
+    >Bu alandaki tarih, **Rota hareketlerinden** gelen "süren iş" tarihidir (**Üretim denetimi** > **Sorgular ve raporlar** > **Üretim** > **Rota hareketleri** > **Fiziksel tarih** alanı).
 
 3. **Dahil edilecek kayıtlar** hızlı sekmesinde, otomatik güncelleştirme için belirli varlıkları, varlık türlerini veya kaynakları seçebilirsiniz. **Filtre**'yi seçin ve ilgili seçimleri yapın.
 
 4. **Arka planda çalıştır** hızlı sekmesinde gerektiğinde otomatik güncelleştirmeyi toplu iş olarak ayarlayabilirsiniz.
 
-Aşağıdaki örnekte **Varlık sayaçlarını güncelleştir** iletişim kutusunun bir örneği gösterilmektedir.
+    Aşağıdaki örnekte **Varlık sayaçlarını güncelleştir** iletişim kutusunun bir örneği gösterilmektedir.
 
-![Şekil 1](media/12-work-orders.png)
+    ![Şekil 1](media/12-work-orders.png)
 
 5. **Tamam**'ı seçin. 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 561187343073a84b152151abe8770e89196eaa56
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 49785835ee2da911d7b8d1360e1c42f850f1153f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174133"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771505"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme
 
@@ -73,4 +73,4 @@ Bu eğitim size Elektronik Raporlama (ER) yapılandırmalarının en yeni sürü
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
+[Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)

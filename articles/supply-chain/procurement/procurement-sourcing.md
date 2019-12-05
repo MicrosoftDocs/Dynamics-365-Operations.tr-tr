@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558231"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813402"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Tedarik ve kaynak atama ana sayfası
 
@@ -36,19 +36,19 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 -   [Satınalma talebine genel bakış](purchase-requisitions-overview.md)
 -   [Tüketim talebi oluşturma](tasks/create-requisition-consumption.md)
 -   [RFQ kullanan bir istek oluşturun](tasks/create-requisition-uses-rfq.md)
--   [Başkasının yerine ürün sipariş etmek için izinleri ayarlayın](tasks/set-up-permissions-ordering-products.md)
+-   [Başkasının yerine ürün sipariş etmek için izinleri ayarlama](tasks/set-up-permissions-ordering-products.md)
 
 ## <a name="requests-for-quotation"></a>Teklif talepleri
--   [Teklif talepleri](request-quotations.md)
--   [Bir teklif talebi oluşturma](tasks/create-request-quotation.md)
--   [RFQ tekliflerini girme ve karşılaştırma ve işi verme](tasks/enter-compare-rfq-bids-award-contracts.md)
+-   [Teklif taleplerine (RFQ'lar) genel bakış](request-quotations.md)
+-   [Teklif talebi oluşturma](tasks/create-request-quotation.md)
+-   [RFQ tekliflerini girip karşılaştırma ve işi verme](tasks/enter-compare-rfq-bids-award-contracts.md)
 -   [RFQ'lar için bir puanlama yöntemi oluşturun](tasks/create-scoring-method-rfqs.md)
--   [RFQ'lar için talep türleri ve puanlama ölçütleri oluşturun](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
+-   [RFQ'lar için talep türleri ve puanlama ölçütleri oluşturma](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
 ## <a name="vendor-management-and-collaboration"></a>Satıcı yönetimi ve iş birliği
 -   [Satıcı hesaplarını ayarlama](set-up-vendor-accounts.md)
--   [Bir satıcı hesabı oluşturma](tasks/create-vendor-account.md)
--   [Satıcı banka hesabı oluşturun](tasks/create-vendor-bank-account.md)
+-   [Satıcı hesabı oluşturma](tasks/create-vendor-account.md)
+-   [Satıcı banka hesabı oluşturma](tasks/create-vendor-bank-account.md)
 -   [Satıcı arama](tasks/search-vendors.md)
 -   [Belirli ürünler için satıcıları onaylama](tasks/approve-vendors-specific-products.md)
 -   [Harici satıcılarla satıcı iş birliği](vendor-collaboration-work-external-vendors.md)
@@ -56,25 +56,25 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 -   [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md)
 -   [Satıcı iş birliğini ayarlama ve koruma](set-up-maintain-vendor-collaboration.md)
 -   [Microsoft Dynamics 365 for Finance and Operations için gelen konsinye stok demo komut dosyası](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tanıtım yazısı)
--   [Satıcı işbirliğini kullanarak konsinye stoğu izleme](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Satıcı portalını kullanarak satıcılarla iş birliği yapma](collaborate-vendors-vendor-portal.md)  (Dynamics AX'in yalnızca Şubat 2016 ve Mayıs 2016 sürümleri)
--   [Satıcı portalı kullanıcıları için güvenlik yapılandırması](configure-security-vendor-portal-users.md) (Finance and Operations'ın yalnızca 2016 ve Mayıs 2016 sürümleri)
--   [Microsoft Dynamics 365 for Finance and Operations uygulaması için satıcı işbirliği mobil çalışma alanı](vendor-collaboration-mobile-workspace.md)
+-   [Satıcı iş birliğini kullanarak konsinye stoğu izleme](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
+-   [Satıcı portalını kullanarak satıcılarla iş birliği yapma](collaborate-vendors-vendor-portal.md) (Dynamics AX'in yalnızca Şubat 2016 ve Mayıs 2016 sürümleri)
+-   [Satıcı portalı kullanıcı güvenliği](configure-security-vendor-portal-users.md) (Finance and Operations'ın yalnızca 2016 ve Mayıs 2016 sürümleri)
+-   [Satıcı iş birliği mobil çalışma alanı](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Tedarik ürün yönetimi
--   [Tedarik katalogları](procurement-catalogs.md)
--   [Tedarik kataloğu oluşturma](tasks/create-procurement-catalog.md)
+-   [Tedarik kataloglarına genel bakış](procurement-catalogs.md)
+-   [Satınalma siparişleri oluşturma](tasks/create-procurement-catalog.md)
 -   [Satıcı katalogları alma](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (Web günlüğü postası)
 -   [Tedarik kategorisi hiyerarşisini ayarlama](tasks/set-up-procurement-category-hierarchy.md)
 -   [Tedarik kategorisi hiyerarşileri için ilkeler ayarlayın](tasks/set-up-policies-procurement-category-hierarchies.md)
 -   [Belirli tedarik kategorileri için satıcıları onaylayın](tasks/approve-vendors-specific-procurement-categories.md)
 
 ## <a name="procurement"></a>Tedarik
--   [Satınalma siparişine genel bakış](purchase-order-overview.md)
+-   [Satın alma siparişine genel bakış](purchase-order-overview.md)
 -   [Satınalma siparişi oluşturma](purchase-order-creation.md)
--   [Satınalma siparişi onayı ve doğrulaması](purchase-order-approval-confirmation.md)
+-   [Satınalma siparişlerini onaylama](purchase-order-approval-confirmation.md)
 -   [Satınalma siparişi oluşturma](tasks/create-purchase-order.md)
--   [Tekrar eden bir satınalma siparişi oluşturun](tasks/create-repeat-purchase-order.md)
+-   [Tekrar eden satınalma siparişi oluşturma](tasks/create-repeat-purchase-order.md)
 -   [Satış siparişinden satınalma siparişi oluşturma](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Tek seferlik tedarikçi için bir satınalma siparişi oluşturun](tasks/create-purchase-order-one-time-supplier.md)
 -   [Teslimat planlı bir satınalma siparişi oluşturun](tasks/create-purchase-order-delivery-schedule.md)
@@ -99,11 +99,8 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 -   [Satınalma siparişindeki malların girişini kaydetme](tasks/record-receipt-goods-purchase-order.md)
 -   [Satınalma talebi iş akışı](purchase-requisitions-workflow.md)
 -   [Satınalma talepleri için iş süreci iş akışları tanımlama](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (teknik inceleme)
--   [Satınalma ilkeleri](purchase-policies.md)
+-   [Satınalma ilkelerine genel bakış](purchase-policies.md)
 -   [Satınalma ilkeleri oluşturma](tasks/create-purchasing-policies.md)
-
-
-
 
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eef9d8c58d19b05901035f4c679ee7d9902819
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180318"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771932"
 ---
 # <a name="set-up-fixed-assets"></a>Sabit kıymetleri ayarlama
 
@@ -51,7 +51,7 @@ Amortisman profillerini ayarladıktan sonra kıymetleriniz için gerekli defterl
 
 Her deftere bir birincil amortisman profili atanır. Bu tür bir profil uygulanabilirse defterlerde ayrıca bir alternatif veya değişim amortismanı profili de bulunur. Sabit kıymet defterini amortisman işlemlerine otomatik olarak eklemek için **Amortismanı hesapla** seçeneğini etkinleştirmelisiniz. Kıymet için bu seçenek etkinleştirilmemişse amortisman teklifi, kıymeti atlar.
 
-Ayrıca türetilmiş defterleri de ayarlayabilirsiniz. Belirtilen türetilmiş hareketler, temel hareketin türetilmiş defterlere karşı tam bir kopyası olarak nakledilir. Bu nedenle, türetilmiş hareketler amortisman hareketleri için değil, genel olarak alımlar ve elden çıkarmalar için ayarlanır. Daha fazla bilgi için bkz. [Defterleri ayarlama](tasks/set-up-value-models.md).
+Ayrıca türetilmiş defterleri de ayarlayabilirsiniz. Belirtilen türetilmiş hareketler, temel hareketin türetilmiş defterlere karşı tam bir kopyası olarak nakledilir. Bu nedenle, türetilmiş hareketler amortisman hareketleri için değil, genel olarak alımlar ve elden çıkarmalar için ayarlanır. Daha fazla bilgi için bkz. [Değer modellerini ayarlama](tasks/set-up-value-models.md).
 
 ## <a name="fixed-asset-posting-profiles"></a>Sabit kıymet deftere nakil profilleri
 

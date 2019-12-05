@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract için LinkedIn ile tümleştirmeyi ayarlama
+title: Attract ile LinkedIn tümleştirmesini ayarlama
 description: Bu konu, Microsoft Dynamics 365 Talent - Attract'e yönelik LinkedIn tümleştirmesinin nasıl yapılandırılacağını açıklar ve böylece Attract'ten işleri LinkedIn'e kolayca nakledebilir ve iş verenlerin, işe alma bilgilerini bir adayın LinkedIn profiliyle eşitleyebilmesini sağlayabilirsiniz.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5cdce69396d6972d810e65e15b27c79119a0a9e6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4c518fb7036d44aa52c8db859ee3616fc4e58a06
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552129"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833196"
 ---
-# <a name="set-up-integration-with-linkedin-for-microsoft-dynamics-365-talent---attract"></a>Microsoft Dynamics 365 Talent - Attract için LinkedIn ile tümleştirmeyi ayarlama
+# <a name="set-up-linkedin-integration-with-attract"></a>Attract ile LinkedIn tümleştirmesini ayarlama
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract ile LinkedIn tümleşmesini yapılandırarak iş verenlerinizin ve işe alma yöneticilerinizin dikkatini çekmenize yardımcı olun. Attract, işleri en büyük profesyonel çevrimiçi ağ olan LinkedIn'e doğrudan nakletmenize olanak tanır.
 
@@ -35,17 +35,17 @@ Attract aracılığıyla LinkedIn'e naklettiğiniz işler Sınırlı Listelerdir
 
 Attract, bu popüler kariyer sitesinden adaylarla birleşmenize yardımcı olacak LinkedIn ile bütünleşmenin iki yolunu sağlar:
 
-- Attract'tan LinkedIn'e iş yayınlayın.
+- Attract'ten LinkedIn'e iş yayınlayın.
 - LinkedIn'den Attract'e aday arayın.
 
 Her iki seçeneği de Yönetim Merkezi'ndeki **LinkedIn Entegrasyonu** sekmesinde konfigüre edebilirsiniz. Yönetici merkezini açmak için <https://attract.talent.dynamics.com/adminsettings> adresine gidin.
 
 > [!NOTE]
-> [Kapsamlı işe alma eklentisi](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) ve  [LinkedIn Recruiter lisans sayısı](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18), Attract ile LinkedIn Recruiter kullanabilmek için gereklidir. Daha fazla bilgi için bkz. [hangi Attract sürümü?](./attract-comprehensive-hiring.md).
+> [Kapsamlı işe alma eklentisi](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) ve  [LinkedIn Recruiter lisans sayısı](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18), Attract ile LinkedIn Recruiter kullanabilmek için gereklidir. Daha fazla bilgi için bkz. [Hangi Microsoft Dynamics 365 Talent - Attract sürümü](./attract-comprehensive-hiring.md).
 
-İşleri LinkedIn'de yayınlarken sorunla karşılaşıyorsanız, bkz. [LinkedIn ile sorun giderme entegrasyonu](./attract-troubleshoot-linkedin.md).
+İşleri LinkedIn'de yayınlarken sorunla karşılaşıyorsanız bkz. [LinkedIn ve Microsoft Dynamics 365 Talent - Attract ile tümleştirmede sorun giderme](./attract-troubleshoot-linkedin.md).
 
-İşleri LinkedIn'e nakletmenin diğer yolları hakkında bilgi için, [LinkedIn'de SSS](./attract-linkedin-faq.md) bölümüne bakın.
+İşleri LinkedIn'de yayınlamanın diğer yolları hakkında bilgi için bkz. [LinkedIn ile Attract tümleştirmesi hakkında SSS](./attract-linkedin-faq.md).
 
 ## <a name="configure-job-posting-to-linkedin"></a>LinkedIn'de iş yayınlamayı konfigüre et
 
@@ -98,7 +98,7 @@ LinkedIn'e verilen iş ilanları LinkedIn sitesinde yayınlanır. LinkedIn'e iş
 
 Adayların LinkedIn profillerini kullanarak işleriniz için geçerli olmasına izin verebilirsiniz. LinkedIn ile uygulama hakkında daha fazla bilgi için, [LinkedIn'in gücünü her yerde görün: LinkedIn ile uygulayın](https://blog.linkedin.com/2011/07/24/apply-with-linkedin).
 
-Bu özellik şu anda önizlemededir. Bu adımları izlemeden önce, LinkedIn ile uygulamanın etkinleştirildiğinden emin olun. Önizleme özelliklerini etkinleştirmek hakkında daha fazla bilgi için bkz. [Talent içinde önizleme özelliklerine erişim](./access-preview-feature.md).
+Bu özellik şu anda önizlemededir. Bu adımları izlemeden önce, LinkedIn ile uygulamanın etkinleştirildiğinden emin olun. Önizleme özelliklerini etkinleştirme hakkında daha fazla bilgi için bkz. [Microsoft Dynamics 365 Talent önizleme özelliklerine erişme](./access-preview-feature.md).
 
 1. Sağ üst köşedeki **Kurulum** menüsünden (çark simgesi) **Yönetici merkezi**'ni seçin. Alternatif olarak, <https://attract.talent.dynamics.com/adminsettings>'e gidin.
 2. **LinkedIn Tümleştirme** sekmesini seçin.
@@ -109,12 +109,12 @@ Bu özellik şu anda önizlemededir. Bu adımları izlemeden önce, LinkedIn ile
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[LinkedIn SSS](./attract-linkedin-faq.md)
+[LinkedIn SSS ile Attract tümleştirme](./attract-linkedin-faq.md)
 
-[Attract'tan harici sitelere iş yayımlama](./posting-jobs-external.md)
+[Attract'ten harici kariyer sitelerine iş yayımlama](./posting-jobs-external.md)
 
-[LinkedIn Recruiter ile aday kaynağı bulma](./attract-linkedin-recruiter.md)
+[Microsoft Dynamics 365 Talent - Attract'te LinkedIn Recruiter ile aday kaynağı bulma](./attract-linkedin-recruiter.md)
 
-[İşler oluşturma](./creating-jobs-attract.md)
+[Attract'te iş oluşturma, onaylama ve yayımlama](./creating-jobs-attract.md)
 
-[LinkedIn ile tümleştirme sorun giderme](./attract-troubleshoot-linkedin.md)
+[LinkedIn ve Microsoft Dynamics 365 Talent - Attract ile tümleştirmede sorun giderme](./attract-troubleshoot-linkedin.md)

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd57b702220374ef5ac48e1af7c42827a21e7517
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547113"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813605"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Ürün yapılandırma modeli için hesaplamalar SSS
 
@@ -37,7 +37,7 @@ Hesaplamalar aritmetik veya mantıksal işlemler için kullanılabilir. Ürün y
 ## <a name="what-is-a-calculation"></a>Hesaplama nedir?
 Hesaplama, ürün yapılandırma modelinde kullanabileceğiniz bir öğedir. Hesaplamalar bir ürün yapılandırırken değerleri hesaplamak için ondalık sayılar kullanmanıza izin vererek kısıtlamaları tamamlar. Ayrıca, hesaplamalar, kısıtlamalardan daha geniş bir operatör setine sahiptir.  
 
-Bir kısıtlama gibi, bir hesaplama da ürün yapılandırma modelindeki belirli bir bileşenle ilişkilidir ve başka bir bileşen tarafından veya başka bir bileşenle paylaşımlı olarak kullanılabilir. Hesaplamalar ile kısıtlamalar arasındaki önemli bir fark, hesaplamaların zorunlu (tek yönlü), kısıtlamaların ise tanımlayıcı (çift yönlü) olmasıdır. Kısıtlamalar hakkında daha fazla bilgi için bkz. [İfade kısıtlamaları ve tablo kısıtlamaları](expression-constraints-table-constraints-product-configuration-models.md).  
+Bir kısıtlama gibi, bir hesaplama da ürün yapılandırma modelindeki belirli bir bileşenle ilişkilidir ve başka bir bileşen tarafından veya başka bir bileşenle paylaşımlı olarak kullanılabilir. Hesaplamalar ile kısıtlamalar arasındaki önemli bir fark, hesaplamaların zorunlu (tek yönlü), kısıtlamaların ise tanımlayıcı (çift yönlü) olmasıdır. Kısıtlamalar hakkında daha fazla bilgi için bkz. [Ürün yapılandırma modellerinde ifade kısıtlamaları ve tablo kısıtlamaları](expression-constraints-table-constraints-product-configuration-models.md).  
 
 Bir hesaplama bir hedef özelliği ve bir hesaplama ifadesinden meydana gelir.
 
@@ -88,7 +88,7 @@ Hayır. Bir ürünü yapılandırdığınızda ayarladığınız değerler kulla
 Bir hesaplamadaki bir giriş değerini kaldırırsanız hedef özniteliği değeri de kaldırılır.
 
 ## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>Modelimin uyumsuz olduğunu gösteren hata mesajını neden alıyorum?
-Bu mesaj bir hesaplamada bir hata olduğunda veya bir veya daha fazla kısıtlamada bir çakışma meydana geldiğinde görüntülenir. Kısıtlamalardaki çakışmalar hakkında daha fazla bilgi için bkz. [İfade kısıtlamaları ve tablo kısıtlamaları](expression-constraints-table-constraints-product-configuration-models.md). Hesaplamalarda hataların meydana gelebileceği bazı durumlar şunlardır:
+Bu mesaj bir hesaplamada bir hata olduğunda veya bir veya daha fazla kısıtlamada bir çakışma meydana geldiğinde görüntülenir. Kısıtlamalardaki çakışmalar hakkında daha fazla bilgi için bkz. [Ürün yapılandırma modellerinde ifade kısıtlamaları ve tablo kısıtlamaları](expression-constraints-table-constraints-product-configuration-models.md). Hesaplamalarda hataların meydana gelebileceği bazı durumlar şunlardır:
 
 -   Bir değerin 0 (sıfır) değerine bölünmesi.
 -   Aşağıdaki iki öğe arasında bir çakışma meydana gelmesi:

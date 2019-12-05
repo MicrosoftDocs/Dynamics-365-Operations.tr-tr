@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2e5144517a880c41cf04998ed53a826a75ecefb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3d1d8952324bb16bcfa6a8b42fc4f157edb75cf1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180431"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811342"
 ---
 # <a name="electronic-signatures-overview"></a>Elektronik imzalara genel bakış
 
@@ -44,7 +44,7 @@ Elektronik imzalar ilaç, yiyecek ile içecek ve havacılık ve uzay ile savunma
 
 Önemli iş süreçleri için elektronik imza kullanabilirsiniz. Bazı işlemler yerleşik elektronik imza özelliklerine sahiptir. Ayrıca herhangi bir veritabanı tablosu ve alanı için özel imza gereklilikleri de oluşturabilirsiniz.
 
-Elektronik imzaların yerleşik dijital imza işlevleri vardır. Belge imzalayan her bir kullanıcı geçerli bir kriptografik sertifika edinmelidir. Bir belge imzalandığında, o sertifika ile ilişkilendirilmiş olan özel anahtar doğrulanır. Elektronik imza bilgileri denetim kılavuzu sağlamak için bir günlüğe kaydedilir. Elektronik imzaları ayarlamak için, bkz. [Elektronik imza ayarlama (Görev kılavuzu)](tasks/set-up-electronic-signatures.md).
+Elektronik imzaların yerleşik dijital imza işlevleri vardır. Belge imzalayan her bir kullanıcı geçerli bir kriptografik sertifika edinmelidir. Bir belge imzalandığında, o sertifika ile ilişkilendirilmiş olan özel anahtar doğrulanır. Elektronik imza bilgileri denetim kılavuzu sağlamak için bir günlüğe kaydedilir. Elektronik imzaları ayarlamak için bkz. [Elektronik imza ayarlama](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Elektronik imza erişimi gerektiren kullanıcılar
 

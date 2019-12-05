@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract'ta yetenek havuzlarıyla aday kaynağı bulma
-description: Bu konu Microsoft Dynamics 365 Talent - Attract'ta yetenek havuzları oluşturma ve ayarlamayı açıklar.
+title: Attract'te yetenek havuzlarıyla aday kaynağı bulma
+description: Bu konu Microsoft Dynamics 365 Talent - Attract'te yetenek havuzları oluşturma ve ayarlamayı açıklar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551130"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833035"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>Microsoft Dynamics 365 Talent - Attract'ta yetenek havuzlarıyla aday kaynağı bulma
+# <a name="source-candidates-with-talent-pools-in-attract"></a>Attract'te yetenek havuzlarıyla aday kaynağı bulma
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-
-İş verenler ve işe alma müdürleri, Attract'ta beceri havuzları işlevini kullanarak, adaylarını düzenleyebilir. Beceri havuzları, kurumunuzda işlere başvuran tüm adayları izlemek ve onlarla etkileşim kurmanıza yardımcı olur.
+İş verenler ve işe alma müdürleri, Attract'te beceri havuzları işlevini kullanarak, adaylarını düzenleyebilir. Beceri havuzları, kurumunuzda işlere başvuran tüm adayları izlemek ve onlarla etkileşim kurmanıza yardımcı olur.
 
 ## <a name="create-and-share-a-talent-pool"></a>Beceri havuzu oluşturma ve paylaşma
 
@@ -50,7 +49,7 @@ Bir beceri havuzu oluşturma ve paylaşma için aşağıdaki adımları izleyin.
 1. **Ekle**'yi seçip beceri havuzu oluşturun.
      > [!NOTE]
      > Alternatif olarak, oluşturduktan sonra bir beceri havuzuna katkıda bulunan ekleyebilirsiniz. Beceri havuzuna erişimi de yönetebilirsiniz. Örneğin, beceri havuzuna bir kullanıcının erişimini iptal edebilirsiniz.
-     > - Katkıda bulunanları sahip olduğunuz bir varolan beceri havuzuna eklemek için **Beceri havuzlarım** sekmesinde, beceri havuzu kartının sağ üst tarafındaki üç nokta düğmesini seçin (**...**) ve daha sonra **Düzenle**'yi seçin. Kişi Seçici'yi kullanarak kişileri bulun ve onları listeye ekleyin. 
+     > - Katkıda bulunanları sahip olduğunuz bir var olan beceri havuzuna eklemek için **Beceri havuzlarım** sekmesinde, beceri havuzu kartının sağ üst tarafındaki üç nokta düğmesini seçin (**...**) ve daha sonra **Düzenle**'yi seçin. Kişi Seçici'yi kullanarak kişileri bulun ve onları listeye ekleyin. 
      > - Beceri havuzundan kullanıcının erişimini geri almak için, beceri havuzu kartının sağ üst tarafında, üç nokta düğmesini seçin (**...**) ve daha sonra **Düzenle**'yi seçin. **Erişimi yönet** sekmesinde kullanıcının yanındaki çöp kutusu düğmesini seçin.
 
 6. **Güncelle**'yi seçip işlemi tamamlayın ve kaydedin.
@@ -74,7 +73,7 @@ Beceri havuzu sahibi ve katkıda bulunanları beceri havuzuna adaylar ekler, ada
 
         Çalışma sayfasında herhangi bir hata varsa, bunlarla ilgili ileti alacaksınız. Sonrasında hataları giderin ve çalışma sayfası karşıya yüklemeyi yeniden deneyin. Daha fazla hata bulunmadığında **Ekle**'yi seçerek çalışma sayfası karşıya yükleyin. Çalışma sayfası arka planda işlenir ve beceri havuzuna tüm adaylar eklendiğinde size bildirilir.
 
-1. Beceri havuzundan varolan bir adayı kaldırmak için **Eylem** sütununda o aday için çöp kutusu düğmesini seçin.
+1. Beceri havuzundan var olan bir adayı kaldırmak için **Eylem** sütununda o aday için çöp kutusu düğmesini seçin.
 
 ## <a name="search-and-view-candidate-profiles"></a>Aday profilleri arama ve görüntüleme
 
@@ -116,7 +115,7 @@ Tüm kullanıcılarda, aday profillerinin aynı görünümü vardır. **Profil**
 
     Bir belgeyi görüntülemek için belgeler listesinde belge adını seçin. Microsoft Word belgelerini uygulama içinde Microsoft Office 365 kullanarak görüntüleyebilirsiniz. Yerel bilgisayarınıza belgeleri yükleyebilirsiniz; her belge için **İndir** seçeneğini kullanın.
 
-- **LinkedIn** sekmesi adayın LinkedIn bilgileri gösterir. Bu sekmeyi kullanmak için kullanıcı ayarlarından LinkedIn hesabınıza bağlanın ve kendi ortamınızda LinkedIn Recruiter bağlantısını kurun. Daha fazla bilgi için bkz [LinkedIn Recruiter'te kaynak bulma](./attract-linkedin-recruiter.md).
+- **LinkedIn** sekmesi adayın LinkedIn bilgileri gösterir. Bu sekmeyi kullanmak için kullanıcı ayarlarından LinkedIn hesabınıza bağlanın ve kendi ortamınızda LinkedIn Recruiter bağlantısını kurun. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 Talent - Attract'te LinkedIn Recruiter ile aday kaynağı bulma](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Yalnızca adaylar yeteneklerini, eğitim geçmişlerini ve iş deneyimlerini güncelleştirebilir.

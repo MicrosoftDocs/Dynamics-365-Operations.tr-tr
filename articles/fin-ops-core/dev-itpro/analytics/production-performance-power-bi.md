@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e2613a9adf60699a1c20b780e1acf2afb99d37d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0dc71f819f132b91fe153f83089eab24fa33173a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182888"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772500"
 ---
 # <a name="production-performance-power-bi-content"></a>Üretim performansı Power BI içeriği
 
@@ -62,7 +62,7 @@ Aşağıdaki tabloda, dahil edilen görsellere yönelik genel bakış sunulur.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 
-Aşağıdaki veriler **Üretim performansı** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Varlık deposu hakkında daha fazla bilgi için bkz. [Varlık Deposu ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
+Aşağıdaki veriler **Üretim performansı** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Server veritabanıdır. Varlık deposu hakkında daha fazla bilgi için bkz. [Varlık deposu ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
 
 Aşağıdaki tabloda Power BI içeriğinin temeli olarak kullanılan başlıca toplama ölçümleri gösterilmektedir.
 

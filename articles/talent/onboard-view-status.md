@@ -1,5 +1,5 @@
 ---
-title: Görevlerin ve işe alınan çalışanların durumunu görüntüleme
+title: İşe alınan çalışanların durumunu ve görevlerinizi görüntüleme
 description: Bu konuda yeni işe alımların işe alım ve alıştırma sürecinde nerede olduklarını izlemek için Microsoft Dynamics 365 Talent - Onboard uygulamasının nasıl kullanılacağı açıklanmaktadır.
 author: andreabichsel
 manager: ''
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009843"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814732"
 ---
-# <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Görevlerin ve işe alınan çalışanların durumunu görüntüleme
+# <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>İşe alınan çalışanların durumunu ve görevlerinizi görüntüleme
 
 [!include [banner](includes/banner.md)]
 
@@ -49,11 +49,11 @@ Microsoft Dynamics 365 Talent: Onboard, yeni işe aldığınız çalışanların
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Onboard'da işe alma ekipleri oluşturun](./onboard-create-team.md)
+- [Onboard'ta işe alma ekipleri oluşturun](./onboard-create-team.md)
 
 ### <a name="see-also"></a>Ayrıca bkz.
 
 - [Onboard uygulamasını deneyin veya satın alın](https://dynamics.microsoft.com/talent/onboard/)
-- [Yenilikler](./whats-new.md)
-- [Sürüm notları](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Destek alma](./talent-support.md)
+- [Dynamics 365 Talent'teki yenilikler veya değişiklikler](./whats-new.md)
+- [Sürüm planları](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Microsoft Dynamics 365 Talent için destek alma](./talent-support.md)

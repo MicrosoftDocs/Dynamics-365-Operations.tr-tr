@@ -1,6 +1,6 @@
 ---
-title: Attract'ta iş oluşturun, onaylayın ve yayınlayın
-description: Bu konu, Attract'taki bir işin öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
+title: Attract'te iş oluşturma
+description: Bu konu, Attract'teki bir işin öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
 author: hasrivas
 manager: AnnBe
 ms.date: 07/18/2019
@@ -19,24 +19,24 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: db725c230de5e3dfe971098249b280d9da47ae20
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551084"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832943"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Attract'ta iş oluşturma, onaylama ve yayımlama
+# <a name="create-a-job-in-attract"></a>Attract'te iş oluşturma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu Microsoft Dynamics 365 Talent: Attract'taki iş öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
+Bu konu Microsoft Dynamics 365 Talent: Attract'teki iş öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
 
 ## <a name="job-creation"></a>İş oluşturma
 
-Yöneticiler, işe alanlar ve işe alma müdürleri işler oluşturabilir. Bir iş oluşturduğunuzda, işlem sırasında rolünüzü seçmeniz istenir: işe alma yöneticisi veya işveren. Bir rol seçtikten sonra işlem şablonu seçmeniz istenir. **Atla**'yı seçerseniz varsayılan şablon kullanılır. İşlem şablonları hakkında daha fazla bilgi için bkz. [Attract'ta işlem şablonu oluştur](./process-templates-attract.md).
+Yöneticiler, işe alanlar ve işe alma müdürleri işler oluşturabilir. Bir iş oluşturduğunuzda, işlem sırasında rolünüzü seçmeniz istenir: işe alma yöneticisi veya işveren. Bir rol seçtikten sonra işlem şablonu seçmeniz istenir. **Atla**'yı seçerseniz varsayılan şablon kullanılır. İşlem şablonları hakkında daha fazla bilgi için bkz. [Attract'te işlem şablonu oluştur](./process-templates-attract.md).
 
-Attract'taki bir işin iş ayrıntıları, işe alma ekibi, bir işe alma işlemi, iş yayınlama ve analitiği vardır.
+Attract'teki bir işin iş ayrıntıları, işe alma ekibi, bir işe alma işlemi, iş yayınlama ve analitiği vardır.
 
 ## <a name="job-details"></a>İş ayrıntıları
 
@@ -49,13 +49,13 @@ Konum yönetimi Yönetim Merkezinde etkinleştirilirse **Pozisyonları güncelle
 > [!NOTE]
 > Pozisyon yönetimi, Kapsamlı işe alma eklentisinde kullanılabilir.
 
-İşe alma sürecinin Teklif eylemindeki ayarlara bağlı olarak pozisyon sayısı, bir teklifte iki kez kullanılabilir. Daha fazla bilgi için bkz. [İşe alma süreci](./activities-attract.md).
+İşe alma sürecinin Teklif eylemindeki ayarlara bağlı olarak pozisyon sayısı, bir teklifte iki kez kullanılabilir. Daha fazla bilgi için bkz. [İşe alım süreçlerindeki faaliyetler](./activities-attract.md).
 
-Attract'ta varsayılan **Beceriler** kümesi bulunur. Bu beceriler yazarken öneri olarak görünür. Yeni yetenek metin alanına girip Enter' basarak daha fazla yetenek ekleyebilirsiniz.
+Attract'te varsayılan **Beceriler** kümesi bulunur. Bu beceriler yazarken öneri olarak görünür. Yeni yetenek metin alanına girip Enter' basarak daha fazla yetenek ekleyebilirsiniz.
 
-Attract'ta varsayılan **İş fonksiyonları** kümesi bulunur. Yeni iş fonksiyonu alanına girip Enter tuşuna basın, en çok üç iş fonksiyonu ekleyebilirsiniz.
+Attract'te varsayılan **İş fonksiyonları** kümesi bulunur. Yeni iş fonksiyonu alanına girip Enter tuşuna basın, en çok üç iş fonksiyonu ekleyebilirsiniz.
 
-Attract'ta varsayılan **Şirket sektörü** kümesi bulunur. Yeni şirket sektörü alanına girip Enter tuşuna basın, en çok üç şirket sektörü ekleyebilirsiniz.
+Attract'te varsayılan **Şirket sektörü** kümesi bulunur. Yeni şirket sektörü alanına girip Enter tuşuna basın, en çok üç şirket sektörü ekleyebilirsiniz.
 
 ## <a name="hiring-team"></a>İşe alım takımı
 
@@ -67,7 +67,7 @@ Attract'ta varsayılan **Şirket sektörü** kümesi bulunur. Yeni şirket sekt�
 
 İşe alma süreci hakkında varsayılan bilgiler, iş oluştururken seçtiğiniz işlem şablonunu temel alır. O anda belirli bir şablon seçilmezse, varsayılan şablon kullanılır. İşe alma işlemi tanımladığınızda Aday müşteri, Başvuru ve Teklif aşamaları dışında çeşitli aşamalar ekleyebilir veya kaldırabilirsiniz. Ancak aday müşteri aşaması kaldırılamaz, devre dışı bırakılabilir. Her aşamada, bir veya birkaç faaliyet ekleyebilir veya kaldırabilirsiniz.
 
-İşe alma işlemine eklenebilen faaliyetler hakkında daha fazla bilgi için bkz. [Attract işe alma süreci faaliyetleri ](./activities-attract.md).
+İşe alma sürecine eklenebilen faaliyetler hakkında daha fazla bilgi için bkz. [İşe alım süreçlerindeki faaliyetler](./activities-attract.md).
 
 > [!NOTE]
 > İşe alma süreci, iş etkinleştirildikten sonra güncelleştirilemez.
@@ -76,7 +76,7 @@ Attract'ta varsayılan **Şirket sektörü** kümesi bulunur. Yeni şirket sekt�
 
 Bir iş etkinleştirildikten sonra yayınlanabilir. Yalnızca iş verenler ve yöneticiler, işleri yayınlayabilir. İş, Talent Careers (bir Dynamics 365 Talent kariyer sitesi) veya LinkedIn'de yayınlanabilir. Attract ekibi, iş kurulu toplayıcılarıyla ortaklık için devamlı çalışmaktadır. Zaman içinde bu listeyi genişler. Bir iş yalnızca dahili olarak yayınlanırsa, adayların işi görüntülemeleri ve başvurmaları için bir AAD hesabına sahip olmaları gerekir. İş, herkese açık olarak listelenmişse, adaylar tüm kimlik doğrulama seçenekleriyle işleri görüntüleyebilir ve başvurabilirler. 
 
-İş yayınları hakkında daha fazla bilgi için [Attract'taki kariyer sitesi işlevi](career-site.md).
+İş başvuruları hakkında daha fazla bilgi için bkz. [Microsoft Dynamics 365 Talent - Attract'te kariyer sitenizi ayarlama](career-site.md).
 
 > [!NOTE]
 > İş yayınlama işlevi yalnızca işe Attract için Kapsamlı İşe Alım Eklentisiyle kullanılabilir.
@@ -90,7 +90,7 @@ Bir iş etkinleştirildikten sonra yayınlanabilir, adaylar ve başvuranlar ekle
 
 ## <a name="prospects-and-applicants"></a>Adaylar ve başvuranlar
 
-Bir işe aday ekleme seçeneği, işe alma sürecindeki [Aday eyleminde](./activities-attract.md#prospect-activity) ayarlanır. Bu seçenek, iş etkinleştirmeden önce ayarlanmalıdır. Bir iş etkinleştirildikten sonra, adaylar ve başvuranlar eklenebilir.
+Bir işe aday ekleme seçeneği, işe alma sürecindeki [İşe alım süreçlerindeki faaliyetler](./activities-attract.md#prospect-activity) içinde ayarlanır. Bu seçenek, iş etkinleştirmeden önce ayarlanmalıdır. Bir iş etkinleştirildikten sonra, adaylar ve başvuranlar eklenebilir.
 
 ## <a name="approvals"></a>Onaylar
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent önizleme özelliklerine erişme
+title: Özellikleri yönetme
 description: Bu konu Microsoft Dynamics 365 Talent içindeki önizleme özelliklerini bir yöneticinin nasıl etkinleştirebileceğini tanımlar ve önizleme için etkin olan özellikleri listeler.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551622"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833312"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Microsoft Dynamics 365 Talent önizleme özelliklerine erişme
+# <a name="manage-features"></a>Özellikleri yönetme
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent için sürekli olarak kullanıma sunduğumuz insan sermayesi yönetim döngüsü (HCM) özelliklerinin bir parçası olarak, müşterilerimizin yeni özellikleri mümkün olan en kısa sürede deneyimlemesini istiyoruz. Yöneticiler önizleme özelliklerini kendi ortamlarında görebilir ve kullanabilir. Bu özellikler neredeyse genel kullanıma sunulmak üzere hazır durumdadır ve kapsamlı bir sınamadan geçirilmiştir. Bu özellikleri genel kullanım için yayımlamadan önce müşterilerimizden son kez geribildirim almak istiyoruz.
 
@@ -42,13 +42,13 @@ Bu konu önizleme özelliklerini nasıl etkinleştirebileceğinizi tanımlar ve 
 
 ### <a name="attract"></a>Attract
 
-1. Microsoft Dynamics 365 Talent: Attract'ta oturum açın.
+1. Microsoft Dynamics 365 Talent: Attract'te oturum açın.
 2. Sağ üst köşedeki **Kurulum** menüsünden (çark simgesi) **Yönetici merkezi**'ni seçin.
 3. **Özellik yönetimi** sekmesinde **Önizleme özellikleri** yanındaki seçeneği seçin. Seçildiğinde mavi renge dönecektir ve **Açık** ibaresini görüntüleyecektir.
 
     ![Attract içinde önizleme özelliklerini etkinleştirme](./media/attract-enable-preview-features.png)
 
-4. Bireysel önizleme özellikleri seçimini seçin veya iptal edin. Hiçbir şey yapmazsanız, varolan tüm önizleme özellikleri etkinleştirilir.
+4. Bireysel önizleme özellikleri seçimini seçin veya iptal edin. Hiçbir şey yapmazsanız, var olan tüm önizleme özellikleri etkinleştirilir.
 5. Yeni özellikleri görmek için tarayıcınızı yenileyin. Zaten oturum açmış kullanıcılar özellikleri daha sonra yeniden oturum açtıklarında görürler veya özellikleri hemen görmek için tarayıcıyı yenileyebilirler.
 
 > [!NOTE]
@@ -117,6 +117,6 @@ Kişisel verilerinizi (sizi tanımlamaya yardımcı olabilecek bilgiler) geribil
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [Talent uygulamaları deneyin vey asatın alın](https://dynamics.microsoft.com/talent/overview/)
-- [Yenilikler](./whats-new.md)
-- [Sürüm notları](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Talent için destek alma](./talent-support.md)
+- [Dynamics 365 Talent'teki yenilikler veya değişiklikler](./whats-new.md)
+- [Sürüm planları](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Microsoft Dynamics 365 Talent için destek alma](./talent-support.md)

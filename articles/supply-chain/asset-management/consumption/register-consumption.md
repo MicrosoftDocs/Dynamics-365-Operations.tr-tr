@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653335"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812272"
 ---
 # <a name="register-consumption"></a>Tüketimi kaydetme
 
@@ -33,7 +33,7 @@ ms.locfileid: "2653335"
 
 Bir iş emrinde bakım işi tamamlandığında, bir sonraki adım tüketim kayıtları yapmak ve günlükleri deftere nakletmektir. Aşağıdaki tüketim türlerinde kayıt yapabilirsiniz: Saatler, maddeler ve giderler. Farklı tüketim türleri **İş emri günlükleri** sayfasında kaydedilir ve deftere nakledilir. **Varlık Yönetimindeki** günlük kurulumu **Proje yönetimi ve muhasebe** modülündeki saatler, maddeler ve giderlere ilişkin ayrı günlükler oluşturmak ve deftere nakletmek amacıyla kullanılır.
 
-Bazı durumlarda, bir iş emrine tahmin satırları ekleyebilir veya silebilirsiniz. Bir iş emri yaşam döngüsü durumu, ilgili proje türü ve proje tipiyle ilgili aşama kuralları kurulumu, günlük satırları ekleyip ekleyemeyeceğinizi veya düzenleyip düzenleyemeyeceğinizi belirler. [Proje yönetimi ve muhasebe tümleştirmesinde](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md) iş emri yaşam döngüsü durumları ve ilgili proje aşamaları hakkında daha fazla bilgi edinin.
+Bazı durumlarda, bir iş emrine tahmin satırları ekleyebilir veya silebilirsiniz. Bir iş emri yaşam döngüsü durumu, ilgili proje türü ve proje tipiyle ilgili aşama kuralları kurulumu, günlük satırları ekleyip ekleyemeyeceğinizi veya düzenleyip düzenleyemeyeceğinizi belirler. İş emri yaşam döngüsü durumları ve ilgili proje aşamaları hakkında [Tahminler, iş emirleri ve projeler](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md) bölümünde daha fazla bilgi edinin.
 
 >[!NOTE]
 >Bir iş emri yaşam döngüsü durumunda günlüklerin otomatik olarak deftere nakledilmesini ayarlamak mümkündür. Daha fazla bilgi için bkz. [İş emri yaşam döngüsü durumları](../setup-for-work-orders/work-order-lifecycle-states.md).

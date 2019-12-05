@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d5d878b0fe4e6b65aa2439d7ef7312eda1895823
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559057"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814939"
 ---
 # <a name="schedule-workload-capacity"></a>İş yükü kapasitesini zamanlama
 
@@ -30,7 +30,7 @@ ms.locfileid: "1559057"
 
 Ambarlar için iş yükü kapasitesini zamanlayabilir ve ayrı ambarlardaki çalışanlar için mevcut ve gelecekteki iş yüklerini yansıtabilirsiniz. Tüm ambar için iş yükünü veya gelen ve giden iş yükleri için iş yükünü ayrı olarak yansıtabilirsiniz.
 
-Seçili ambarlar için proje iş yükü çıktısını yansıtmak için master planlama verileri bu ambarlar için kullanılabilir olmalıdır. Daha fazla bilgi için bkz. [Master planlar](../master-planning/master-plans.md).
+Seçili ambarlar için proje iş yükü çıktısını yansıtmak için master planlama verileri bu ambarlar için kullanılabilir olmalıdır. Daha fazla bilgi için bkz. [Master planlara genel bakış](../master-planning/master-plans.md).
 
 ## <a name="schedule-and-view-workloads-for-a-warehouse"></a>Bir ambar için iş yüklerini zamanlama ve görüntüleme
 

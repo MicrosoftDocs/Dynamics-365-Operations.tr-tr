@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Talent - Onboard'da işe alım ve alıştırma kılavuz ve şablonlarını düzenleme
-description: Bu konuda Microsoft Dynamics 365 Talent - Onboard'da işe alım ve alıştırma kılavuz ve şablonuna etkinliklerin ve diğer bilgilerin nasıl ekleneceği açıklanmaktadır.
+title: Dynamics 365 Talent - Onboard'ta işe alım ve alıştırma kılavuz ve şablonlarını düzenleme
+description: Bu konuda Microsoft Dynamics 365 Talent - Onboard'ta işe alım ve alıştırma kılavuz ve şablonuna etkinliklerin ve diğer bilgilerin nasıl ekleneceği açıklanmaktadır.
 author: andreabichsel
 manager: ''
 ms.date: 06/19/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552014"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812891"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Dynamics 365 Talent - Onboard'da işe alım ve alıştırma kılavuz ve şablonlarını düzenleme
+# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Dynamics 365 Talent - Onboard'ta işe alım ve alıştırma kılavuz ve şablonlarını düzenleme
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Talent: Onboard'da işe alım ve alıştırma kılavuzu veya şablonu oluşturduktan sonra giriş, etkinlik, ilgili kişi ve kaynak eklemeniz gerekir. Onboard, işe alım kılavuzlarınıza aşağıdakiler dahil olmak üzere zengin içerik eklemenizi sağlar:
+Microsoft Dynamics 365 Talent: Onboard'ta işe alım ve alıştırma kılavuzu veya şablonu oluşturduktan sonra giriş, etkinlik, ilgili kişi ve kaynak eklemeniz gerekir. Onboard, işe alım kılavuzlarınıza aşağıdakiler dahil olmak üzere zengin içerik eklemenizi sağlar:
 
 - YouTube videoları
 - Microsoft Sway sunuları
@@ -124,14 +124,14 @@ Değişikliklerinizi göndermek için:
 
     - YouTube videosu eklemek için, **YouTube** öğesini düzenleme alanına sürükleyin, etkinliğin adını ve açıklamasını girin ve YouTube videonun URL'sini girin.
     - Sway sunusu veya haber bülteni eklemek için, **Sway** öğesini düzenleme alanına sürükleyin, etkinliğin adını ve açıklamasını girin ve Sway sunusu veya Bülteninizin katıştırılmış URL'sini girin.
-    - Bir PowerApps uygulaması eklemek için **PowerApps** öğesini düzenleme alanına sürükleyin, etkinliğin adını ve açıklamasını girin ve PowerApps uygulamasını seçin veya PowerApps uygulama kimliğini girin.
+    - Bir Microsoft Power Apps uygulaması eklemek için **Power Apps** öğesini düzenleme alanına sürükleyin, etkinliğin adını ve açıklamasını girin ve Power Apps uygulamasını seçin veya Power Apps uygulama kimliğini girin.
     - Microsoft Stream videosu eklemek için, **Microsoft Stream** öğesini düzenleme alanına sürükleyin, etkinliğin adını ve açıklamasını girin ve Microsoft Stream videonun URL'sini girin.
     - Microsoft Forms formu eklemek için, **Microsoft Forms** öğesini düzenleme alanına sürükleyin, aktivitenin adını ve açıklamasını girin, Microsoft Forms form için URL'yi girin ve ekran alanının boyutunu belirtin.
     - Web içeriği barındıran iframe eklemek için, **Web İçeriği (iframe)** öğesini düzenleme alanına sürükleyin, aktivitenin adını ve açıklamasını girin, web içeriği için URL'yi girin ve ekran alanının boyutunu belirtin.
 
     ![[Ekleme kılavuzuna veya şablona zengin içerik ekleme] (./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
 
-2. İsteğe bağlı: Her faaliyetin sağındaki alanda, aktiviteyi belirli bir kişiye veya role atayın, bir son tarih ve ilgili kişi ekleyin ve bir kategori rengi atayın. Bir kişiye veya role faaliyet atadığınızda, her birey için bir görev oluşturulur. Bu görev, Onboard'da **Görevler** menüsünde görünür.
+2. İsteğe bağlı: Her faaliyetin sağındaki alanda, aktiviteyi belirli bir kişiye veya role atayın, bir son tarih ve ilgili kişi ekleyin ve bir kategori rengi atayın. Bir kişiye veya role faaliyet atadığınızda, her birey için bir görev oluşturulur. Bu görev, Onboard'ta **Görevler** menüsünde görünür.
 
     [![Ekleme kılavuzunda veya şablonunda faaliyet atama](./media/onboard-assign-activity.png)](./media/onboard-assign-activity.png)
 
@@ -180,12 +180,12 @@ Bir kişiyi düzenlemek için, ilgili kaynağın sağındaki **Düzenle** düğm
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [İçeriği diğer katkıda bulunanlarla paylaşın](./onboard-share-template.md)
-- [Görevlerin ve işe alınan çalışanların durumunu görüntüleme](./onboard-view-status.md)
-- [Onboard'da işe alma ekipleri oluşturun](./onboard-create-team.md)
+- [Görevlerin ve işe alınan personelin durumunu görüntüleme](./onboard-view-status.md)
+- [Onboard'ta işe alma ekipleri oluşturun](./onboard-create-team.md)
 
 ### <a name="see-also"></a>Ayrıca bkz.
 
 - [Onboard uygulamasını deneyin veya satın alın](https://dynamics.microsoft.com/talent/onboard/)
-- [Yenilikler](./whats-new.md)
-- [Sürüm notları](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Destek alma](./talent-support.md)
+- [Dynamics 365 Talent'teki yenilikler veya değişiklikler](./whats-new.md)
+- [Sürüm planları](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Microsoft Dynamics 365 Talent için destek alma](./talent-support.md)

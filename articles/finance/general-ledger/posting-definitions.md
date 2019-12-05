@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76bae24a975c922ea49ee2584e87cf43ccca61c7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180290"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770609"
 ---
 # <a name="posting-definitions"></a>Deftere nakil tanımları
 
@@ -37,7 +37,7 @@ Nakil tanımlarını kullanmaya başlatmak için **Genel muhasebe parametreleri*
 Satın alma siparişleri için sorumluluk muhasebesini ve satın alma talepleri için ön sorumluluk muhasebesini etkinleştirmek için nakil tanımlarını kullanmalısınız.
 
 ## <a name="defining-posting-definitions"></a>Nakil tanımlarının tanımlanması
-Eşleşme kriterlerini belirlemek ve bir eşleşme meydana geldiğinde oluşturulması gereken girişleri tanımlamak için **Nakil tanımları** sayfasını kullanın. Eşleştirme kriterleri, muhasebe dağıtımları olarak orijinal girişler için değerlendirilir. 
+Eşleşme kriterlerini belirlemek ve bir eşleşme meydana geldiğinde oluşturulması gereken girişleri tanımlamak için **Nakil tanımları** sayfasını kullanın. Eşleştirme kriterleri, muhasebe dağılımları olarak orijinal girişler için değerlendirilir. 
 
 **Nakil tanımları** sayfasında ayrıca satırların değerlendirileceği siparişi kontrol etmek için giriş satırlarına öncelik numaraları da atayabilirsiniz. En düşük öncelik numarasına sahip satırlar ilk olarak değerlendirilir. Örneğin, önceliği 1 olan tüm satırlar değerlendirilir ve ardından önceliği 2 olan satırlar değerlendirilir ve işlem bu şekilde devam eder. Bir eşleşme bulunduğunda, diğer eşleştirme ölçütleri dikkate alınmaz. Ayrıca, sadece grupta orijinal işlemle eşleşen kriterleri üretilen girişleri oluşturur. 
 
@@ -59,6 +59,6 @@ Aşağıdaki kısıtlamalar, nakil tanımlarında bağlantılar oluştururken ge
 -   Bir nakil tanımını herhangi bir işlem türüne atayabilirsiniz, ancak işlem türünün mutlaka nakil tanımıyla aynı modülde olması gerekir. Bir işlem türünün hangi modülde olduğunu görmek için **İşlem nakil tanımları** sayfasını kullanın.
 
 
-Daha fazla bilgi için bkz. [Deftere naik tanımı örnekleri](example-posting-definitions.md). 
+Daha fazla bilgi için bkz. [Deftere nakil tanımı örnekleri](example-posting-definitions.md). 
 
 

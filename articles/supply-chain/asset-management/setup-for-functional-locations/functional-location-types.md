@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 0468cb0b1717b7cf0ccb391da09a4e7d788124f3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571266"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812226"
 ---
 # <a name="functional-location-types"></a>İşlem yapılacak yerleşim türleri
 
@@ -56,7 +56,7 @@ Bu yordam, varsayılan işlem yapılacak yerleşim için kullanılacak varsayıl
 3. **İşlem yapılacak yerleşim türü** alanına işlem yapılacak yerleşim türü kodunu ve **Ad** alanına adı girin.
 4. **İşlem yapılacak yerleşim yaşam döngüsü modeli** alanında bir yaşam döngüsü modeli seçin. İşlem yapılacak yerleşim yaşam döngüsü durumları ve yaşam döngüsü modelleri hakkında daha fazla bilgi için bkz. [İşlem yapılacak yerleşim yaşam döngüsü durumları](../setup-for-functional-locations/functional-location-stages.md).
 5. Bu işlem yapılacak yerleşim türünü kullananan işlem yapılacak yerleşime çeşitli varlıkların yüklenebilmesi gerekiyorsa **Birden çok varlık** düğmesini "Evet"e getirin. "Hayır" seçeneğini belirlerseniz, bu işlem yapılacak yerleşim türünü kullanan işlem yapılacak yerleşimde yalnızca *bir* varlık yükleyebilirsiniz.
-6. Bu türdeki işlem yapılacak yerleşime yüklenen varlıkların otomatik olarak işlem yapılacak yerleşimle ilgili mali boyutları kullanmasını istiyorsanız **Varlık boyutunu güncelleştir** düğmesini "Evet" olarak ayarlayın. Bu, [İşlem yapılacak yerleşim](../functional-locations/create-functional-locations.md) formunda mali boyutları değiştirirseniz ve işlem yapılacak yerleşim bu geçiş düğmesi "Evet" olarak ayarlanmış bir işlem yapılacak yerleşim türü kullanıyorsa, mali boyutlar bu işlem yapılacak yerleşime yüklü olan tüm varlıklarda otomatik olarak güncelleştirilir anlamına gelir.
+6. Bu türdeki işlem yapılacak yerleşime yüklenen varlıkların otomatik olarak işlem yapılacak yerleşimle ilgili mali boyutları kullanmasını istiyorsanız **Varlık boyutunu güncelleştir** düğmesini "Evet" olarak ayarlayın. Bu, [İşlem yapılacak yerleşimler oluşturma](../functional-locations/create-functional-locations.md) formunda mali boyutları değiştirirseniz ve işlem yapılacak yerleşim bu geçiş düğmesi "Evet" olarak ayarlanmış bir işlem yapılacak yerleşim türü kullanıyorsa, mali boyutlar bu işlem yapılacak yerleşime yüklü olan tüm varlıklarda otomatik olarak güncelleştirilir anlamına gelir.
 7. Oluşturduğunuz işlem yapılacak yerleşim ile aynı kod ve ada sahip işlem yapılacak yerleşim için otomatik olarak *bir* varlık oluşturmak istiyorsanız **Varlık türü** alanı kullanılır. Örneğin, bir yapı veya boru hattı gibi statik bir işlem yapılacak yerleşim oluşturuyorsanız, bu ilgili olabilir. Bu durumda, otomatik olarak oluşturulan varlık için kullanmak istediğiniz varlık türünü seçin. Bu alanda bir seçim yaparsanız, **Birden çok varlık** düğmesinin "Hayır" olarak ayarlanması gerektiğini unutmayın.
 8. **Varlık türleri** hızlı sekmesinde, işlem yapılacak yerleşim türüyle ilgili varlık türlerini seçin. **Satır ekle**'yi ve varlık türlerini seçin. Burada varlık türleri eklerseniz, bu işlevsel konum türünü kullanarak yalnızca bu varlık türlerini kullanan varlıklar işlem yapılacak yerleşime yüklenebilir. **Varlık türleri** hızlı sekmesinde hiçbir varlık türü seçilmemişse, tüm varlık türleri yüklenebilir.
 9. **Bakım planları** hızlı sekmesinde, bu işlem yapılacak yerleşim türünü kullanan yeni işlem yapılacak yerleşimlerde otomatik olarak ayarlanması gereken bakım planlarını seçin. **Satır ekle**'yi ve bakım planlarını seçin. Burada bakım planları eklerseniz, bu işlem yapılacak yerleşim türünü kullanan işlem yapılacak yerleşimde yalnızca bu planlar kullanılabilir.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 480253d1401c567e27f636f8a2b19fa3937e89e5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653216"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770396"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -82,11 +82,11 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 |      Nisan 2019          |   10.0.1      | Macaristan      |  Macaristan: çevrimiçi faturalama v.1.1 2019  |
 |      Nisan 2019          |   10.0.1      | Japonya      |  2019 Japon takvimi dönem değişikliği  |
 |      Nisan 2019          |   10.0.1      |    Rusya     |Toprak vergisi beyanı 2018 tarihinde değişiyor |
-|      Nisan 2019          |   10.0.1      |    Rusya     |[Mülk vergisi beyanı 2019 tarihinde değişiyor](rus-assessed-tax-declaration.md)|
+|      Nisan 2019          |   10.0.1      |    Rusya     |[Değerlendirilmiş vergi beyannamesi](rus-assessed-tax-declaration.md)|
 |      Nisan 2019          |   10.0.1      |    Rusya     |Taşıt vergisi beyanı 2019 tarihinde değişiyor  |
-|      Nisan 2019          |   10.0.1      |    Rusya     |[2019'dan KDV beyannamesi biçimi değişiklikleri](rus-VAT-declaration.md) |
+|      Nisan 2019          |   10.0.1      |    Rusya     |[KDV beyannamesi](rus-VAT-declaration.md) |
 |      Nisan 2019          |   10.0.1      |    Rusya     |KDV beyanname biçimi değişiklikleri 2019'dan (Satış ve Satınalma kitapları) |
-|      Nisan 2019          |   10.0.1      |    Birleşik Krallık     |[KDV beyannamesi gönderme değişiklikleri (Vergi Dijital Hale Getirme)](emea-gbr-mtd-vat-integration.md)    |    
+|      Nisan 2019          |   10.0.1      |    Birleşik Krallık     |[Finance and Operations'ı KDV için MTD ile tümleştirmeye hazırlama](emea-gbr-mtd-vat-integration.md)    |    
 |      Mart 2019          |   10.0.0      |    Avusturya   |   Kammerumlage 2019 (Satınalma vergisi) değişiklikleri    |
 |      Mart 2019          |   10,0,0      |    Brezilya    |     SPED EFD Katılımları - Düzen 004 ve 005  |
 |      Mart 2019          |   10,0,0      |    Malezya     |Malezya, GST'yi SST satış ve servis vergisi ile değiştiriyor        |

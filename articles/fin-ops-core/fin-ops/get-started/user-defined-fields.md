@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: af2066c095c675aa0003ac2cf66bebba48a1e8a5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190868"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812517"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Özel alanlar oluşturma ve bunlarla çalışma
 
@@ -75,7 +75,7 @@ Aşağıdaki adımlar özel alan oluşturma ve bu alanı forma yerleştirme sür
 Sistemdeki tüm özel alanların yönetimi Sistem yönetimi modülündeki **Özel alanlar** sayfası aracılığıyla gerçekleştirilebilir. Bu sayfa kullanıcılara aşağıdakiler dahil birçok özelliğe erişime olanağı tanır:
 
 - Sistemdeki tüm özel alanların listesini görüntüleme.
-- Varolan özel alanlarını sınırlı düzenleme.
+- Var olan özel alanlarını sınırlı düzenleme.
 - Özel alanları silme.
 - Özel alanları veri varlıklarında görüntüleme.
 - Özel alanların etiketleri ve yardım metninin çevirisini sağlama.
@@ -103,7 +103,7 @@ Ek olarak, özel alanlar için geçerli değerler kümesi olan seçim listesi al
 
 ### <a name="exposing-custom-fields-on-data-entities"></a>Özel alanları veri varlıklarında görüntüleme
 
-Ayrıca özel alanların veri varlıklarında görünür olmasını sağlamak önemli olabilir. Veri varlıkları [Office'te Aç](../../dev-itpro/office-integration/office-integration.md) özelliğinde ve veri içe aktarma/dışa aktarma senaryolarında kullanılır.
+Ayrıca özel alanların veri varlıklarında görünür olmasını sağlamak önemli olabilir. Veri varlıkları [Office tümleştirmesine genel bakış](../../dev-itpro/office-integration/office-integration.md) özelliğinde ve veri içe aktarma/dışa aktarma senaryolarında kullanılır.
 
 Bir veri varlığında özel alanın görünür olmasını sağlamak için aşağıdaki adımları izleyin:
 

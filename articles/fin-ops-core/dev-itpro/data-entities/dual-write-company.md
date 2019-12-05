@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184543"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772449"
 ---
 ## <a name="company-concept-in-common-data-service"></a>Common Data Service'da şirket kavramı
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Finance and Operations'da *şirket kavramı* hem yasal bir yapı hem de bir işletme yapısıdır. Ayrıca veriler için bir güvenlik ve görünürlük sınırıdır. Kullanıcılar her zaman tek bir şirket bağlamında çalışır ve verilerin çoğu şirket tarafından çıkarılır.
 
@@ -60,14 +58,16 @@ Bu yapılandırma nedeniyle, USMF şirketiyle ilgili herhangi bir kayıt, Common
 
 Tartışılması gereken son bir konu da çift yazmanın kayıtların sahip olan hangi takıma atayacağının nasıl belirlendiğidir. Bu davranış, cdm\_Şirket kaydındaki **Varsayılan sahibi olan takım** alanı tarafından denetlenir. Bir cdm\_Şirket kaydı çift yazma için etkinleştirildiğinde, bir eklenti otomatik olarak ilişkili iş birimi ve sahibi olan takımı (zaten yoksa) oluşturur ve **Varsayılan sahibi olan takım** alanını ayarlar. Yönetici bu alanı farklı bir değere değiştirebilir. Ancak, varlık çift yazma için etkinleştirildiği sürece yönetici alanı temizleyemez.
 
+> [!div class="mx-imgBorder"]
 ![Varsayılan sahibi olan takım alanı](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Şirket bölümleme ve yeniden örnekleme
 
 Common Data Service tümleştirmesi verileri bölümlemek için şirket tanımlayıcısını kullanarak şirket eşliği getirir. Aşağıdaki örnekte gösterildiği gibi, tüm şirkete özgü varlıklar, cdm\_Şirket varlığıyla çok-bir (N:1) ilişkisine sahip olmaları için genişletilir.
 
+> [!div class="mx-imgBorder"]
 ![Şirkete özgü varlık ile cdm_Şirket varlığı arasındaki N:1 ilişkisi](media/dual-write-bootstrapping.png)
 
 + Kayıtlar için, bir şirket eklendikten ve kaydedildikten sonra, değer salt okunur olur. Bu nedenle, kullanıcılar doğru şirketi seçtiğinden emin olmalıdır.
 + Yalnızca şirket verilerine sahip kayıtlar uygulama ile Common Data Service arasında çift yazma için uygundur.
-+ Varolan Common Data Service verileri için, yönetici tarafından yürütülen bir yeniden örnekleme deneyimi yakında kullanıma sunulacaktır.
++ Var olan Common Data Service verileri için, yönetici tarafından yürütülen bir yeniden örnekleme deneyimi yakında kullanıma sunulacaktır.

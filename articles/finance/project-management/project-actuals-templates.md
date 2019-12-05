@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0aeaa1ee4c35ca42a5382b3c7ff3519cba52996c
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 302ac0f456dd8a24dc02948ee657e359f5a9c844
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250542"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770347"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Proje gerçek değerlerini Finance and Operations'a nakletmek için doğrudan Project Service Automation'dan proje tümleştirme günlüğüne eşitleme
 
@@ -34,7 +34,7 @@ Bu konu proje fiili değerlerini, doğrudan Dynamics 365 Project Service Automat
 
 > [!NOTE]
 > - Proje gerçek değerlerinin tümleştirilmesi, sürüm 8.0.1'den itibaren kullanılabilir.
-> - Enterprise edition 7.3.0 kullanıyorsanız KB 4132657 ve KB 4132660'yı yükledikten sonra proje görevlerini, gider hareketi kategorilerini, saat tahminlerini, gider tahminlerini ve gerçek değerleri tümleştirmek ve işlev kilitlemeyi yapılandırmak için şablonları kullanabilirsiniz. Muhasebe dağıtımlarını sıfırlamanız gerekiyorsa KB 4131710'u da yüklemenizi öneririz.
+> - Enterprise edition 7.3.0 kullanıyorsanız KB 4132657 ve KB 4132660'yı yükledikten sonra proje görevlerini, gider hareketi kategorilerini, saat tahminlerini, gider tahminlerini ve gerçek değerleri tümleştirmek ve işlev kilitlemeyi yapılandırmak için şablonları kullanabilirsiniz. Muhasebe dağılımlarını sıfırlamanız gerekiyorsa KB 4131710'u da yüklemenizi öneririz.
 > - Sürüm 7.3.0'ı kullanıyorsanız ve masraf hareketlerini Project Service Automation'dan çağırıyorsanız bu masrafları proje faturasına dahil etmek için KB 4345320'yi yüklemeniz gerekir.
 > - Project Service Automation'da zaman veya gider hareketlerine satış vergisi tutarları giriyorsanız Project Service Automation Güncelleştirme 7'yi yüklemeniz gerekir. Aksi takdirde vergi tahakkukları, ilişkili zaman veya gider gerçek değerlerine bağlanmaz ve Finance'e eşitlenmez. Daha fazla bilgi için Desteğe başvurun.
 
@@ -50,7 +50,7 @@ Aşağıdaki çizimde, verilerin Project Service Automation ile Finance arasınd
 
 ### <a name="template-and-tasks"></a>Şablon ve görevler
 
-Kullanılabilecek şablonlara erişmek için, Microsoft PowerApps yönetim merkezi'nde **Projeler**'i seçin ve ardından, sağ üst köşede **Yeni proje**'yi seçerek genele açık şablonları seçin.
+Kullanılabilecek şablonlara erişmek için, Microsoft Power Apps yönetim merkezi'nde **Projeler**'i seçin ve ardından, sağ üst köşede **Yeni proje**'yi seçerek genele açık şablonları seçin.
 
 Aşağıdaki şablon ve temel görevler, Project Service Automation'dan alınan proje gerçek değerlerini Finance ile eşitlemek için kullanılır:
 

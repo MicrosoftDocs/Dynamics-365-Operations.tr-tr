@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4759f55eceba923b47d906a764edcad34bf2f2
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 80236da5220aa9c70d5c488c09b457a470f0225a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571611"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811861"
 ---
 # <a name="create-an-asset"></a>Varlık oluşturma
 
@@ -36,15 +36,15 @@ Bu konuda Varlık Yönetimi'nde varlık oluşturma işlemi açıklanmaktadır.
 1. **Varlık yönetimi** > **Genel** > **varlıklar** > **Tüm varlıklar** veya **Etkin varlıklar**'a tıklayın.
 2. **Yeni** düğmesine tıklayın.
 3. **Varlık oluştur** iletişim kutusunda, **Varlık** ile ilgili bilgileri (varlık kodu) ve varlık adını girin. **Etkin** alanında varlık için tarih ve saat seçin. Bu tarihten itibaren, varlığı işlem yapılacak bir yerleşime yükleyebilir ve varlığı bir varlık yapısında taşıyabilir ve değiştirebilirsiniz.
-4. **Varlık türü** alanında, varlık için varlık türünü seçin (zorunlu alan). Gerekirse, varlık için **Varlık üreticisi** ve **Varlık modeli**'ni seçin. Yalnızca bir ürün ayarlanmışsa, bu ürün **Varlık üreticisi** alanında otomatik olarak seçilir. **Varlık üreticisi** ve **Varlık modeli** alanlarındaki kullanılabilir seçimler, [Varlık üreticisi ve modeli](../setup-for-objects/product-and-model.md)'ndeki kuruluma bağlıdır.
+4. **Varlık türü** alanında, varlık için varlık türünü seçin (zorunlu alan). Gerekirse, varlık için **Varlık üreticisi** ve **Varlık modeli**'ni seçin. Yalnızca bir ürün ayarlanmışsa, bu ürün **Varlık üreticisi** alanında otomatik olarak seçilir. **Varlık üreticisi** ve **Varlık modeli** alanlarındaki kullanılabilir seçimler, [Varlık üreticileri ve modelleri](../setup-for-objects/product-and-model.md)'ndeki ayara bağlıdır.
 5. **Üst varlık** grubunda, **Varlık** alanı varsayılan olarak boştur. Gerekirse, bir üst varlık seçebilirsiniz. Bu durumda **Üst varlık** grubundaki tüm alanlar otomatik olarak doldurulur
 >[!NOTE]  
->Bir üst varlık seçtiğinizde, kullanılabilir iki veya üç sekme bulunur: **Varlıklarım** sekmesi, tahsis edilebileceğiniz (sistemde oturum açan bakım çalışanı) işlem yapılacak yerleşimlerle ilgili varlıkları içerir. [Bakım görevlileri](../setup-for-objects/workers-and-worker-groups.md) formundaki bir bakım görevlisi için işlem yapılacak yerleşimler ayarlanmadıysa, **Varlıklarım** sekmesi görünür olmaz. **Etkin varlıklar** sekmesi, varlık yaşam döngüsü durumu "Etkin" olan tüm varlıkların listesini içerir. **Varlık görünümü** sekmesi, işlem yapılacak yerleşimlerin ve bu yerleşimlerde kurulu olan varlıkların ağaç görünümünü gösterir.
+>Bir üst varlık seçtiğinizde, kullanılabilir iki veya üç sekme bulunur: **Varlıklarım** sekmesi, tahsis edilebileceğiniz (sistemde oturum açan bakım çalışanı) işlem yapılacak yerleşimlerle ilgili varlıkları içerir. [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) formundaki bir bakım görevlisi için ayarlanmış bir işlem yapılacak yerleşim yoksa **Varlıklarım** sekmesi görünmez. **Etkin varlıklar** sekmesi, varlık yaşam döngüsü durumu "Etkin" olan tüm varlıkların listesini içerir. **Varlık görünümü** sekmesi, işlem yapılacak yerleşimlerin ve bu yerleşimlerde kurulu olan varlıkların ağaç görünümünü gösterir.
 
 6. Ayarladığınız varsayılan işlem yapılacak yerleşim **Varlık** grubu > **İşlem yapılacak yerleşim** alanındaki varlık için önerilir. Gerekirse başka bir işlem yapılacak yerleşim seçin.
 
 >[!NOTE]
->Bir varlık oluşturduktan sonra, gerekirse varlığı başka bir işlem yapılacak yerleşime yükleyebilirsiniz. Yalnızca üst düzey varlıklar (geçerli üst varlığı bulunmayan varlıklar) işlem yapılacak yerleşime yüklenebilir. Bu, seçili işlem yapılacak yerleşime üst düzey ve alt düzey varlıkları yüklediğiniz anlamına gelir. İşlem yapılacak yerleşimlere varlıkları yükleme hakkında daha fazla bilgi için [İşlem yapılacak yerleşimler](../functional-locations/introduction-to-functional-locations.md) bölümüne bakın.
+>Bir varlık oluşturduktan sonra, gerekirse varlığı başka bir işlem yapılacak yerleşime yükleyebilirsiniz. Yalnızca üst düzey varlıklar (geçerli üst varlığı bulunmayan varlıklar) işlem yapılacak yerleşime yüklenebilir. Bu, seçili işlem yapılacak yerleşime üst düzey ve alt düzey varlıkları yüklediğiniz anlamına gelir. Varlıkları, işlem yapılacak yerleşimlere yükleme hakkında daha fazla bilgi için [İşlem yapılacak yerleşimlere giriş](../functional-locations/introduction-to-functional-locations.md) bölümüne bakın.
 
 7. **Tamam**'a tıklayın.
 8. **Tüm Varlıklar** listesinde varlığı seçin ve varlığa daha fazla bilgi eklemek için **Düzenle** düğmesine tıklayın.
@@ -53,13 +53,13 @@ Bu konuda Varlık Yönetimi'nde varlık oluşturma işlemi açıklanmaktadır.
 
 Varlığın ilişkili olduğu işlem yapılacak yerleşim **İşlem yapılacak yerleşim** alanında gösterilir. Varlık bir üst varlıksa, varlıkla ilgili alt varlıkların sayısı **Alt** alanında gösterilir. Varlık mevcut bir varlığın alt varlığıysa, üst varlığın kodu **Üst** alanında gösterilir.
 
-Varlıktaki yedek parçaları, alternatif yedek parçaları ve iş türü varsayılanlarını yönetmek için kullanılan **Varlık üreticisi** ve **Varlık modeli** bilgilerini düzenleyebilirsiniz. Daha fazla bilgi için bkz. [Varlık üreticisi ve modeli](../setup-for-objects/product-and-model.md). Gerekirse**Model yılı** ve **Seri numarasıyla** ilgili bilgi de ekleyebilirsiniz.
+Varlıktaki yedek parçaları, alternatif yedek parçaları ve iş türü varsayılanlarını yönetmek için kullanılan **Varlık üreticisi** ve **Varlık modeli** bilgilerini düzenleyebilirsiniz. Daha fazla bilgi için bkz. [Varlık üreticileri ve modelleri](../setup-for-objects/product-and-model.md). Gerekirse**Model yılı** ve **Seri numarasıyla** ilgili bilgi de ekleyebilirsiniz.
 
 **Geçerli yaşam döngüsü durumu** varlığın etkin mi yoksa devre dışı mı olduğunu tanımlamak için kullanılır. Bir varlık oluştururken, aşama her zaman varlık aşama grubundaki ilk aşamaya ayarlanır. Bir varlığı etkinleştirmeye hazır olduğunuzda **Varlık durumunu güncelleştir**'e tıklayın ve "varlık etkin" olarak tanımladığınız yaşam döngüsü durumunu seçip **Tamam**'a tıklayın.
 
 **Not:** Bir varlık "etkin değil" olarak ayarlandığında, bu varlık için iş emirleri oluşturmak mümkün değildir. Ayrıca, etkin olmayan bir varlık için önleyici bakım işleri zamanlayamazsınız.
 
-**Hizmet düzeyi** ve **Kritiklik** alanları varlık için oluşturulan iş emirleriyle ilgilidir. Alanlar, varlığa ilişkin geçerli kurulum için hesaplanan **Hizmet düzeyi** ve **Kritiklik** sayılarını gösterir. Bu değerlerin ayarlanmasıyla ilgili olarak [Varlık hizmet düzeyleri](../setup-for-objects/object-priorities.md) ve [Varlık kritiklik durumları](../setup-for-objects/object-criticalities.md)'na bakın.
+**Hizmet düzeyi** ve **Kritiklik** alanları varlık için oluşturulan iş emirleriyle ilgilidir. Alanlar, varlığa ilişkin geçerli kurulum için hesaplanan **Hizmet düzeyi** ve **Kritiklik** sayılarını gösterir. Bu değerlerin ayarlanmasıyla ilgili olarak [Varlık hizmet düzeyleri](../setup-for-objects/object-priorities.md) ve [Varlık kritiklik türleri](../setup-for-objects/object-criticalities.md)'ne bakın.
 
 ## <a name="asset"></a>Aktif
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6da9447386e8e56e20507d985ebcdbfce934debd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181623"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771456"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Elektronik raporlama ile testi otomatikleştirme
 
@@ -44,8 +44,8 @@ Bir yapılandırma sağlayıcısından aldığınız biçime göre bir biçimin 
 İşlevsel yetkili kullanıcılar, kaynak kodu yazmak zorunda kalmadan kullanıcı kabul ve tümleştirme testini yazabilir.
 
 - Oluşturulan belgeleri ana kopyalara karşılaştırmak için ER temel özelliğini kullanın. Daha fazla bilgi için [Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md)'ya bakın.
-- Test olaylarını kaydetmek ve temel değerlendirmeyi dahil etmek için görev kaydediciyi kullanın. Daha fazla bilgi için [Görev kaydedici](../user-interface/task-recorder.md)'ye bakın.
-- Gerekli test senaryoları için grup test durumları. Daha fazla bilgi için bkz [Görev kılavuzları ve BPM kullanarak kullanıcı kabul testi kitaplıkları oluşturma](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
+- Test olaylarını kaydetmek ve temel değerlendirmeyi dahil etmek için görev kaydediciyi kullanın. Daha fazla bilgi için bkz. [Görev kaydedici kaynakları](../user-interface/task-recorder.md).
+- Gerekli test senaryoları için grup test durumları. Daha fazla bilgi için bkz. [Kullanıcı kabul testleri oluşturma ve otomatikleştirme](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
 
     - Kullanıcı kabul testleri için kitaplıklar oluşturmak amacıyla LCS'de İş süreci Modelleyicisi'ni (BPM) kullanın.
     - Microsoft Azure DevOps Services (Azure DevOps) içinde bir test planı ve test paketleri oluşturmak için BPM test kitaplıklarını kullanın.
@@ -59,10 +59,10 @@ Bir yapılandırma sağlayıcısından aldığınız biçime göre bir biçimin 
 
 Bu konudaki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları tamamlamanız gerekir:
 
-- Test otomasyonunu destekleyen bir topoloji dağıtın. **Sistem Yöneticisi** rolü Için bu topolojinin örneğine erişiminizin olması gerekir. Bu topoloji, bu örnekte kullanılacak demo verilerini içermelidir. Daha fazla bilgi için, [Sürekli yapılandırma ve test otomasyonu destekleyen topolojiler dağıtın](../perf-test/continuous-build-test-automation.md).
+- Test otomasyonunu destekleyen bir topoloji dağıtın. **Sistem Yöneticisi** rolü Için bu topolojinin örneğine erişiminizin olması gerekir. Bu topoloji, bu örnekte kullanılacak demo verilerini içermelidir. Daha fazla bilgi için bkz. [Sürekli oluşturma ve test otomasyonunu destekleyen bir ortam dağıtma ve kullanma](../perf-test/continuous-build-test-automation.md).
 - Kullanıcı kabul ve tümleştirme testlerini otomatik olarak çalıştırmak için RSAT'ı kullandığınız topolojiye yüklemeli ve uygun şekilde yapılandırmalısınız. RSAT'yi nasıl yükleyip yapılandırcağınız ve Finance and Operations uygulamaları ve Azure DevOps ile çalıştırmak için nasıl yapılandıracağınız hakkında daha fazla bilgi için bkz. [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Aracı kullanma ile ilgili ön koşullara dikkat edin. Aşağıdaki çizim, RSAT ayarları örneğini gösterir. Mavi dikdörtgen, Azure DevOps'a erişimi belirleyen parametreleri barındırır. Yeşil dikdörtgen, örneğe erişimi belirten parametreleri barındırır.
 
-    ![RSAT ayarları](media/GER-Configure.png "Rsat Ayarları iletişim kutusu ekran görüntüsü")
+    ![RSAT ayarları](media/GER-Configure.png "RSAT Ayarları iletişim kutusunun ekran görüntüsü")
 
 - Daha fazla raporlama ve inceleme için test olaylarının günlüklerini toplayabilmek amacıyla, paketlerdeki test yürütmelerini, doğru yürütme sırasının sağlanmasına yardımcı olmak için organize etmek amacıyla, topolojiden dağıtılmış Azure DevOps'a erişiminiz olmalıdır.
 - Bu konudaki örneği tamamlamak için [RSAT testleri için ER kullanımı](https://go.microsoft.com/fwlink/?linkid=874684)'nı indirmenizi öneririz. Bu zip dosyası aşağıdaki görev kılavuzlarını içerir:
@@ -93,7 +93,7 @@ Bu konudaki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları 
         1. **Dosya formatları** Hızlı sekmesinde **Genel elektronik Dışa aktarma biçimi** seçeneğini **Evet** olarak ayarlayın.
         2. **Biçim yapılandırmasını dışa aktarma** alanında, **BACS (İNG)**'yi seçin.
 
-    ![Ödeme yöntemleri sayfası](media/GER-APParameters.png "Ödeme yöntemleri sayfası ekran görüntüsü")
+    ![Ödeme yöntemleri sayfası](media/GER-APParameters.png "Ödeme yöntemleri sayfasının ekran görüntüsü")
 
     > [!NOTE]
     > Bu ER biçiminin, özelleştirmeleri desteklemek üzere oluşturulan türetilmiş sürümü varsa **Elektronik** ödeme yönteminde bu yapılandırmayı seçebilirsiniz.
@@ -103,7 +103,7 @@ Bu konudaki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları 
     1. **Borç hesapları \> Ödemeler \> Ödeme günlüğü**'ne gidin.
     2. Ödeme günlüğünü deftere nakletmediğinizden emin olun.
 
-        ![Ödeme günlüğü sayfası](media/GER-APJournal.png "Ödeme günlüğü sayfası ekran görüntüsü")
+        ![Ödeme günlüğü sayfası](media/GER-APJournal.png "Ödeme günlüğü sayfasının ekran görüntüsü")
 
     3. **Satırlar**'ı seçin ve aşağıdaki bilgiye sahip satırı seçin.
 
@@ -116,7 +116,7 @@ Bu konudaki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları 
         | Mahsup hesabı      | GBSI OPER       |
         | Ödeme yöntemi   | Elektronik      |
 
-    ![Satıcı ödemeleri sayfası](media/GER-APJournalLines.png "Satıcı ödemeleri sayfası ekran görüntüsü")
+    ![Satıcı ödemeleri sayfası](media/GER-APJournalLines.png "Satıcı ödemeleri sayfasının ekran görüntüsü")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>Satıcı ödeme işlemini test etmek için ER çerçevesini hazırlayın
 
@@ -125,7 +125,7 @@ Bu konudaki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları 
 1. **Organizasyon yönetimi \> Elektronik raporlama \> Elektronik raporlama parametreleri**'ne gidin.
 2. **Ekler** sekmesinde, **Temel** alanında **Dosya**'yı Belge yönetimi (DM) çerçevesinin, temel özelliklerle ilgili belgeleri DM ekleri olarak tutmak için kullandığı belge türü olarak seçin.
 
-    ![Elektronik raporlama parametreleri sayfası](media/GER-ERParameters.png "Elektronik raporlama parametreleri sayfası ekran görüntüsü")
+    ![Elektronik raporlama parametreleri sayfası](media/GER-ERParameters.png "Elektronik raporlama parametreleri sayfasının ekran görüntüsü")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Satıcı ödemesiyle ilgili belgelerin temel kopyalarını oluştur
 
@@ -142,7 +142,7 @@ Bu konudaki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları 
     - **Dosya** metin biçiminde ödeme dosyası
     - **ERVendOutPaymControlReport** kontrol rapor dosyası XLSX biçiminde
 
-    ![Ayıklanan dosyalar](media/GER-APJournalProcessed.png "Windows explorer'da ayıklanan dosya isimlerinin ekran görüntüsü")
+    ![Ayıklanan dosyalar](media/GER-APJournalProcessed.png "Windows gezgininde ayıklanan dosya adlarının ekran görüntüsü")
 
 ### <a name="turn-on-the-er-baseline-feature"></a>ER temel özelliğini açın
 
@@ -180,7 +180,7 @@ Bu konudaki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları 
     3. Yerel olarak kaydedilmiş **ERVendOutPaymControlReport** kontrol raporu dosyasını XLSX formatında kaydetmek için gözatın.
     4. **Açıklama** alanına **Ödeme XLSX dosyası kontrol raporu** girin.
 
-    ![Satıcı ödeme dosyası ve kontrol raporu için temeller](media/GER-BaselineAttachments.png "Seçilen XLSX kontrol raporu Ödemesi ile Yapılandırma sayfası ekran görüntüsü")
+    ![Satıcı ödeme dosyası ve kontrol raporu için temeller](media/GER-BaselineAttachments.png "Seçilen Ödeme XLSX dosyası kontrol raporu ile Yapılandırma sayfasının ekran görüntüsü")
 
 8. Sayfayı kapatın.
 9. **Temeller** hızlı sekmesinde ödeme dosyasına bir temel yapılandırmak için **Yeni**'yi seçin:
@@ -199,7 +199,7 @@ Bu konudaki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları 
     4. **Dosya adı maskesi** alanında bu temeli sadece **.xslx** dosya adı uzantılı **ERVendOutPaymControlReport** biçim bileşeni çıktılarına uygulamak için **\*.XLSX** girin.
     5. **Temel** alanında, **Ödeme XLSX konrol raporu**'nu bu temel, ortaya çıkan sonucu karşılaştırması için seçin.
 
-    ![Yapılandırma sayfasında temeller hızlı sekmesi](media/GER-BaselineRules.png "Yapılandırma sayfasında temeller hızlı sekmesi ekran görüntüsü")
+    ![Yapılandırma sayfasında Temeller hızlı sekmesi](media/GER-BaselineRules.png "Yapılandırma sayfasında Temeller hızlı sekmesinin ekran görüntüsü")
 
 ## <a name="record-tests-to-validate-vendor-payment-processing"></a>Satıcı ödeme işlemini doğrulayacak testleri kaydedin
 
@@ -229,15 +229,15 @@ Bu görev kaydı performansı aşağıdaki eylemleri gerçekleştirir:
 
 1. İşlenmiş ödeme satırının durumunu **Yok** olarak ayarlayın.
 
-    ![Görev kaydetme adım 3-4](media/GER-Recording1Review1.png "Görev kaydetme adım 3-4 ekran görüntüsü")
+    ![Görev kaydetme adım 3-4](media/GER-Recording1Review1.png "Görev kaydetme adım 3-4'ün ekran görüntüsü")
 
 2. **Hata ayıklama modu** ER kullanıcı parametrelerini açın.
 
-    ![Görev kaydetme adım 9-10](media/GER-Recording1Review2.png "Görev kaydetme adım 9-10 ekran görüntüsü")
+    ![Görev kaydetme adım 9-10](media/GER-Recording1Review2.png "Görev kaydetme adım 9-10'un ekran görüntüsü")
 
 3. Oluşturulan dosyaların temellerinin karşılaştırılmasını içeren ER hata ayıklama günlüğünü temizleyin.
 
-    ![Görev kaydetme adım 13-15](media/GER-Recording1Review3.png "Görev kaydetme adım 13-15 ekran görüntüsü")
+    ![Görev kaydetme adım 13-15](media/GER-Recording1Review3.png "Görev kaydetme adım 13-15'in ekran görüntüsü")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>Satıcı ödeme işlemini test edecek adımları kaydedin
 
@@ -256,21 +256,21 @@ Bu görev kaydı performansı aşağıdaki eylemleri gerçekleştirir:
 1. Satıcı ödeme işlemini başlat
 2. Doğru çalışma zamanı parametrelerini seçin ve kontrol raporu oluşturmayı açın.
 
-    ![Görev kaydetme adım 3-8](media/GER-Recording2Review1.png "Görev kaydetme adım 3-8 ekran görüntüsü")
+    ![Görev kaydetme adım 3-8](media/GER-Recording2Review1.png "Görev kaydetme adım 3-8'in ekran görüntüsü")
 
 3. Oluşturulan çıktıların karşılık gelen temellerle karşılaştırılmasının sonuçlarını kaydetmek için ER hata ayıklama günlüğüne erişin.
 
     ER hata ayıklama günlüğünde, karşılaştırmanın sonuçları **Oluşturulan metin** alanında görünür. **Biçim bileşeni** ve **Günlük girişine neden olan format biçimi yolu** oluşturulan çıktının temelleriyle karşılaştırıldığı dosya bileşenine referansta bulunur.
 
-    ![Elektronik raporlama sayfasında girişler](media/GER-ERDebugLog.png "Elektronik raporlama sayfasında girişler ekran görüntüsü")
+    ![Elektronik raporlama çalıştırma günlüklerindeki girişler sayfası](media/GER-ERDebugLog.png "Elektronik raporlama çalıştırma günlüklerdeki girişler sayfasının ekran görüntüsü")
 
 4. Geçerli çıktının satır temelleriyle karşılaştırılması, görev kaydedicisini **Doğrula** seçeneği kullanılarak ve **Geçerli Değer** seçilerek kaydedilir.
 
-    ![Geçerli değerle karşılaştırmak için Doğrula seçeneğini kullanma](media/GER-TRRecordValidation.png "Geçerli değerle karşılaştırmak için Doğrula seçeneğini kullanma ekran görüntüsü")
+    ![Geçerli değerle karşılaştırmak için Doğrula seçeneğini kullanma](media/GER-TRRecordValidation.png "Geçerli değerle karşılaştırmak için Doğrula seçeneğini kullanmanın ekran görüntüsü")
 
     Aşağıdaki resim, kaydedilen doğrulama adımlarının görev kaydında nasıl göründüğünü gösterir.
 
-    ![Görev kaydetme adım 13 ve 15](media/GER-Recording2Review2.png "Görev kaydetme adım 13 ve15 ekran görüntüsü")
+    ![Görev kaydetme adım 13-15](media/GER-Recording2Review2.png "Görev kaydetme adım 13-15'in ekran görüntüsü")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>Kaydedilmiş testleri Azure DevOps'a ekle
 
@@ -287,7 +287,7 @@ Bu görev kaydı performansı aşağıdaki eylemleri gerçekleştirir:
     1. Test olayını **ER formatı BACS (İNG) kullanarak satıcı ödemelerini test etme** olarak adlandırın.
     2. **Kayıt.xml** dosyasını daha önce yüklediğiniz **İşle** dosyasına iliştirin.
 
-    ![Seçilen test planı için yeni test olayları](media/GER-RSAT-DevOps-Tests-Passed.png "Seçilen test planı için yeni test olayları ekran görüntüsü")
+    ![Seçilen test planı için yeni test olayları](media/GER-RSAT-DevOps-Tests-Passed.png "Seçilen test planı için yeni test olaylarının ekran görüntüsü")
 
 > [!NOTE]
 > Eklenen testlerin yürütme sırasının doğru olup olmadığına dikkat edin.
@@ -299,14 +299,14 @@ Bu görev kaydı performansı aşağıdaki eylemleri gerçekleştirir:
 1. Geçerli topolojide yerel RSAT uygulamasını açın.
 2. Azure DevOps'da mevcut olan testleri RSAT'a yüklemek için **Yükle** seçeneğini seçin.
 
-    ![RSAT'a yüklenen testler](media/GER-RSAT-RSAT-Tests-Loaded.png "RSAT'a yüklenen testler ekran görüntüsü")
+    ![RSAT'a yüklenen testler](media/GER-RSAT-RSAT-Tests-Loaded.png "RSAT'a yüklenen testlerin ekran görüntüsü")
 
 ### <a name="create-automation-and-parameters-files"></a>Otomasyon ve parametre dosyaları oluşturun
 
 1. RSAT'da, Azure DevOps'dan yüklediğiniz testleri seçin.
 2. RSAT otomasyonu ve parametre dosyaları yaratmak için **Yeni**'yi seçin.
 
-    ![RSAT'ta oluşturulmuş RSAT otomasyonu ve parametre dosyaları](media/GER-RSAT-RSAT-Tests-Initiated.png "RSAT'ta oluşturulmuş RSAT otomasyonu ve parametre dosyaları ekran görüntüsü")
+    ![RSAT otomasyonu ve RSAT'ta oluşturulmuş parametreler dosyaları](media/GER-RSAT-RSAT-Tests-Initiated.png "RSAT otomasyonu ve RSAT'ta oluşturulmuş parametreler dosyalarının ekran görüntüsü")
 
 ### <a name="modify-the-parameters-files"></a>Parametre dosyalarını değiştirin
 
@@ -318,7 +318,7 @@ Bu görev kaydı performansı aşağıdaki eylemleri gerçekleştirir:
 6. Açılan Excel çalışma kitabında, **Genel** çalışma sayfasında şirket kodunu **GBSI** olarak değiştirin.
 7. **Erformatmappingrunlogtable** çalışma sayfası üzerinde, çalışma sayfasında, A:3 ve C:3 hücrelerinin, ER hata ayıklama günlüğü tablosundaki alanların, çıktının temeliyle karşılaştırmasının sonuçlarını doğrulamak için kullanılan alanların metnini içerdiğini unutmayın. Bu metinler, test yürütmesi sırasında oluşturulan ER hata ayıklama günlükleri kayıtlarını değerlendirmek için kullanılacaktır.
 
-    ![ERFormatMappingRunLogTable çalışma sayfası](media/GER-RSAT-RSAT-ExcelParameters.png "ERFormatMappingRunLogTable çalışma sayfası ekran görüntüsü")
+    ![ERFormatMappingRunLogTable çalışma sayfası](media/GER-RSAT-RSAT-ExcelParameters.png "ERFormatMappingRunLogTable çalışma sayfasının ekran görüntüsü")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>Testleri çalıştırın ve sonuçları analiz edin
 
@@ -333,11 +333,11 @@ Test çalışmalarının bir web tarayıcısı kullanarak uygulamada otomatik ol
 
 Test yürütmesinin sonuçları RSAT'da depolanır. Her iki testin da geçtiğine emin olun.
 
-![RSAT'da geçen testler](media/GER-RSAT-RSAT-Tests-Passed.png "RSAT'da geçen testler")
+![RSAT'ta geçen testler](media/GER-RSAT-RSAT-Tests-Passed.png "RSAT'ta geçen testlerin ekran görüntüsü")
 
 Daha fazla analiz yapabilmeniz için Azure DevOps test yürütmesi sonuçlarının da gönderilip gönderilmediğine dikkat edin.
 
-![Azure DevOps'taki test çalışmasının sonucu](media/GER-RSAT-DevOps-Tests-Added.png "Azure DevOps'taki test çalışmasının sonucu")
+![Azure DevOps'taki test çalışmasının sonuçları](media/GER-RSAT-DevOps-Tests-Added.png "Azure DevOps'taki test çalışmasının sonuçlarının ekran görüntüsü")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>Testlerin başarısız olduğu bir durum benzetimi
 
@@ -364,20 +364,20 @@ Test yürütmesinin sonuçları RSAT'da depolanır. İkinci testin ikinci yürü
 
 Daha fazla analiz yapabilmeniz için Azure DevOps test yürütmesi sonuçlarının da gönderilip gönderilmediğine dikkat edin.
 
-![Azure DevOps'ta başarısız test sonuçları](media/GER-RSAT-DevOps-Tests-Failed.png "Azure DevOps'ta başarısız test sonuçları")
+![Azure DevOps'taki başarısız test sonuçları](media/GER-RSAT-DevOps-Tests-Failed.png "Azure DevOps'taki başarısız test sonuçlarının ekran görüntüsü")
 
 Her testin durumuna erişebilirsiniz. Ayrıca yürütme günlüğüne erişerek herhangi bir hatanın nedenini çözümleyebilirsiniz. Aşağıdaki resimde, yürütme günlüğünde oluşturulan ödeme dosyası ve onun temeli arasındaki içerikteki fark nedeniyle hatanın oluştuğu gösterilir.
 
-![Azure DevOps'taki hataları analiz etmek için yürütme günlüğü](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Azure DevOps'taki hataları analiz etmek için yürütme günlüğü ekran görüntüsü")
+![Azure DevOps'taki hataları analiz etmek için yürütme günlüğü](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Azure DevOps'taki hataları analiz etmek için yürütme günlüğünün ekran görüntüsü")
 
 Bu nedenle, gördüğünüz gibi, herhangi bir ER biçiminin çalışması, test platformu gibi RSAT ve ER temel özelliğini kullanan görev kaydedici tabanlı test çalışmaları kullanılarak otomatik olarak değerlendirilebilir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [Görev kaydedici](../user-interface/task-recorder.md)
+- [Görev kaydedici kaynakları](../user-interface/task-recorder.md)
 - [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)
-- [Görev kayıtları ve BPM kullanarak kullanıcı kabul testi kitaplıkları oluşturma](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
-- [Sürekli oluşturma ve test otomasyonunu destekleyen topolojiler dağıtma](../perf-test/continuous-build-test-automation.md)
-- [Oluşturulan rapor sonuçlarını izleme ve bunları ER temel değerleriyle karşılaştırma](er-trace-reports-compare-baseline.md)
-- [ER biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.](tasks/er-upgrade-format.md)
-- [ER yapılandırmasını Lifecycle Services'dan içeri alın.](tasks/er-import-configuration-lifecycle-services.md)
+- [Kullanıcı kabul testleri oluşturma ve otomatikleştirme](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
+- [Sürekli oluşturma ve test otomasyonunu destekleyen bir ortam dağıtma ve kullanma](../perf-test/continuous-build-test-automation.md)
+- [Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md)
+- [ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.](tasks/er-upgrade-format.md)
+- [ER Lifecycle Services'tan bir yapılandırmayı içe aktarma](tasks/er-import-configuration-lifecycle-services.md)

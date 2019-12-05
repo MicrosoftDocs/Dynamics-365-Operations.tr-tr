@@ -1,5 +1,5 @@
 ---
-title: Satıcılarla Satıcı portalını kullanarak işbirliği yapın
+title: Satıcılarla Satıcı portalını kullanarak iş birliği yapın
 description: Bu konu, satın alma aracılarının satın alma sipariş onay sürecinde dış satıcılarla iş birliği yapmak için Satıcı portalının nasıl kullanabileceğini açıklar. Bu bilgiler, Dynamics AX'in yalnızca Şubat 2016 &amp; Mayıs 2016 sürümleri için geçerlidir.
 author: mkirknel
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248992"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813535"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Satıcı portalını kullanarak satıcılarla iş birliği yapma
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248992"
 
 Bu konu, satın alma aracılarının satın alma sipariş onay sürecinde dış satıcılarla iş birliği yapmak için Satıcı portalının nasıl kullanabileceğini açıklar. Bu bilgiler, Dynamics AX'in yalnızca Şubat 2016 ve Mayıs 2016 sürümleri için geçerlidir.
 
-Bu konudaki bilgiler, Dynamics AX'in yalnızca Şubat 2016 ve Mayıs 2016 sürümleri için geçerlidir. Yeni satıcı işbirliği işlevselliği hakkında daha fazla bilgi için bkz. [Harici satıcılarla çalışmak için satıcı işbirliğini kullanma](vendor-collaboration-work-external-vendors.md).  
+Bu konudaki bilgiler, Dynamics AX'in yalnızca Şubat 2016 ve Mayıs 2016 sürümleri için geçerlidir. Yeni satıcı iş birliği işlevleri hakkında daha fazla bilgi için bkz. [Harici satıcılarla satıcı iş birliği](vendor-collaboration-work-external-vendors.md).  
 
 Satıcı portalı, satınalma siparişi (PO) bilgilerinin değiş tokuşu için Microsoft Dynamics AX ile elektronik veri değişim (EDI) tümleştirmesi olamayan satıcılar için hedeflenir. Portal, satın alma aracılarının satıcıya PO göndermelerine ve doğrudan Dynamics AX'ten Onaylandı ya da Reddedildi yanıtı almalarına olanak tanır.  
 
@@ -98,7 +98,7 @@ Aşağıdaki tablo, değişim yönetimi etkinleştirildiğinde PO'nun geçebilec
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Satıcı iş birliği kullanıcıları için güvenlik yapılandırması](configure-security-vendor-portal-users.md)
+[Satıcı portal kullanıcı güvenliği](configure-security-vendor-portal-users.md)
 
 [Satıcı iş birliği faturalama çalışma alanı](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 

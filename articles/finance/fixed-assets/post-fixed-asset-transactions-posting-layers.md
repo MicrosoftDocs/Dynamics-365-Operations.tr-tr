@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab5adfdec259207898d25778e4e3bbbaebb452f1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180322"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770724"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Sabit kıymet hareketlerini deftere nakil katmanlarında deftere nakletme
 
@@ -42,7 +42,7 @@ Sabit kıymet hareketleri için Sabit kıymet nakil profilleri sayfasında genel
 > [!NOTE] 
 > Türetilmiş defterleri kullanarak hareketleri aynı anda farklı nakil katmanlarında deftere nakledebilirsiniz. Birincil defterin hareketlerini bir günlükte oluşturabilirsiniz. Burada nakil katmanı deftere nakil katmanına karşılık gelir. Deftere nakil sırasında türetilmiş defter hareketleri ilgili deftere nakil katmanlarına nakledilir.
 
-Daha fazla bilgi için bkz. [Türetilmiş defterler](derived-books.md) ve [Türetilmiş defterlerle deftere nakil](post-derived-value-models.md).
+Daha fazla bilgi için bkz. [Türetilmiş defterler](derived-books.md) ve [Türetilen defterlerle deftere nakletme](post-derived-value-models.md).
 
 
 

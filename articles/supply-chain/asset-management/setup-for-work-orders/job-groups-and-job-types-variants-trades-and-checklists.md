@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571013"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812249"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Bakım işi türü kategorileri ve bakım işi türleri, bakım işi türü çeşitlemeleri, bakım zanaatları ve bakım denetim listeleri
 
@@ -33,7 +33,7 @@ ms.locfileid: "2571013"
 
 Varlık türü her varlığa iliştirilir. Varlık türleri, varlıklarda gerçekleştirilen bakım işi türlerini (ve dolayısıyla bakım işlerini) tanımlar. İş emri oluşturduğunuzda bakım işi türü seçmeniz gerekir. Yalnızca varlık için kullanılan varlık türü kurulumu ile ilgili bakım işi türlerini seçebilirsiniz.
 
-Varlıkların ve bakım işi türlerinin grafik özeti ve bunların iş emirleriyle bağlantısı için bkz. [Varlıklar ve iş emirleri](../overview/functional-locations-and-objects.md).
+Varlıkların ve bakım işi türlerinin grafik özeti ve bunların iş emirleriyle bağlantısı için bkz. [İşlem yapılacak yerleşimler ve varlıklar](../overview/functional-locations-and-objects.md).
 
 Bakım işi türü çeşitlemeleri, bakım işi türünde ayarlanabilir. Bakım işi türü çeşitlemeleri; boyutlar (küçük, orta veya büyük), dönemler (haftalık, iki haftada bir, bir ay veya üç ay) ve yapılandırmalar (düşük standart, esnek veya yüksek performans) gibi iş türü türevlerini tanımlar.
 

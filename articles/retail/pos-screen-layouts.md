@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025296"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811792"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Satış noktası (POS) ekran düzenleri
 
@@ -171,7 +171,7 @@ Düğme grubu tasarımcısı, POS hoş geldiniz ekranında ve **Hareket** ekran�
 
     - **Eylem** – İlgili POS işlemleri listesinde, POS'ta düğme tıklanınca çağrılacak işlemi seçin.
 
-        Desteklenen POS işlemlerinin listesi için bkz. [POS işlemleri, çevrimiçi ve çevrimdışı](pos-operations.md).
+        Desteklenen POS işlemlerinin listesi için bkz. [Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri](pos-operations.md).
 
     - **Eylem parametreleri** – Bazı POS işlemleri, çağrıldıkları zaman ek parametreler kullanır. Örneğin, Ürün ekle işlemi için, kullanıcılar eklenecek ürünü belirtebilir.
     - **Düğme metni** – POS'taki düğmede görüntülenecek metni belirtin.
@@ -193,4 +193,4 @@ Düğme grubu tasarımcısı, POS hoş geldiniz ekranında ve **Hareket** ekran�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Retail POS Düzeni tasarımcısını yükleme](install-pos-layout-designer.md)
+[Retail satış noktası (POS) düzeni tasarımcısını yükleme](install-pos-layout-designer.md)

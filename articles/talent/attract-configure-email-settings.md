@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract'ta e-posta ayarlarını yapılandırma
+title: Attract'te e-posta ayarlarını yapılandırma
 description: Bu konu, Microsoft Dynamics 365 Talent - Attract tarafından gönderilen e-posta ayarlarının nasıl yapılandırılacağını açıklamaktadır.
 author: andreabichsel
 manager: AnnBe
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a457deec757a5d5a3e01c6903b2dd7a9d975ef0b
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: c1ebfaeb2e9bc2836bb70e87afa93484c829b6cb
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551553"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833127"
 ---
-# <a name="configure-email-settings-in-microsoft-dynamics-365-talent---attract"></a>Microsoft Dynamics 365 Talent - Attract'ta e-posta ayarlarını yapılandırma
+# <a name="configure-email-settings-in-attract"></a>Attract'te e-posta ayarlarını yapılandırma
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Markanız güven oluşturur ve pozisyonlarınıza başvurmadan önce adaylarla bir ilişki kurmanıza yardımcı olur. Olumlu marka algısı en yeteneklilerin ilgisini çeker ve mevcut çalışanların da bağlılığını kuvvetlendirir. Microsoft Dynamics 365 Talent: Attract şirketinizin markasını yansıtması için e-postaları yapılandırmanızı sağlar. Bu nedenle, iş adaylarıyla başvuru süreci boyunca tutarlı bir deneyim sağlayabilirsiniz.
 
@@ -70,7 +70,7 @@ E-posta iletişiminde şirketinizin etki alanını, Attract kullanarak durdurmak
 
     ![Şirketinizin e-posta hizmeti hesabının bağlantısının kesilmesini onaylama](./media/attract-admin-email-confirm-disconnect.png)
 
-Farklı bir e-posta hizmeti hesabı bağlamazsanız Attract'tan atılan e-postalarda varsayılan olarak Microsoft markalı e-posta hizmeti hesabı kullanılır.
+Farklı bir e-posta hizmeti hesabı bağlamazsanız Attract'ten atılan e-postalarda varsayılan olarak Microsoft markalı e-posta hizmeti hesabı kullanılır.
 
 ## <a name="configure-email-template-settings"></a>E-posta şablonu ayarlarını yapılandırma
 
@@ -80,7 +80,7 @@ Farklı bir e-posta hizmeti hesabı bağlamazsanız Attract'tan atılan e-postal
 > Ülkenizde, bölgenizde ve e-posta alıcısının ülkesinde ve bölgesinde yürürlükte olan tüm yasalara uymanız gerekir. Bu yasalar istenmeyen posta önleme düzenlemeleri içerir.
 
 1. **Ayarlar** düğmesini (sayfanın sağ üst köşesindki çark simgesi) seçin ve sonra **Yönetici merkezini** seçin.
-2. **E-posta ayarları** sekmesinde, **E-posta şablonu ayarları** altında, e-posta üstbilgileriniz olarak kullanmak istediğiniz görüntüyü görüntü kutusuna sürükleyin veya dosyaya gözatmak için görüntü kutusuna tıklayın. Varolan bir görüntüyü değiştirmek için önce görüntünün yanındaki **Kaldır**'ı seçmelisiniz. Görüntü bir JPEG, JPG, PNG veya SVG dosyası olmalıdır. Görüntüler için önerilen boyut 25-800 piksel genişliğinde ve 25 ila 150 piksel yüksekliğindedir. Başlık için maksimum dosya boyutu 1 megabayttır (MB).
+2. **E-posta ayarları** sekmesinde, **E-posta şablonu ayarları** altında, e-posta üstbilgileriniz olarak kullanmak istediğiniz görüntüyü görüntü kutusuna sürükleyin veya dosyaya gözatmak için görüntü kutusuna tıklayın. Var olan bir görüntüyü değiştirmek için önce görüntünün yanındaki **Kaldır**'ı seçmelisiniz. Görüntü bir JPEG, JPG, PNG veya SVG dosyası olmalıdır. Görüntüler için önerilen boyut 25-800 piksel genişliğinde ve 25 ila 150 piksel yüksekliğindedir. Başlık için maksimum dosya boyutu 1 megabayttır (MB).
 
     ![Şirketinizin e-posta üstbilgisine resim ekleme](./media/attract-admin-email-header.png)
 

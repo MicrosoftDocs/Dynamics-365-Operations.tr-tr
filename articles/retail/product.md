@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 98c84e987c40adf136d0240117f7b0f119bf2f59
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278404"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811129"
 ---
 # <a name="product-recommendations-on-pos"></a>POS'ta ürün önerileri
 
@@ -40,13 +40,13 @@ Temel olarak ürün önerileri; zengin, çekici ve özel ürün keşfi deneyimle
 
 1. **Ürün ayrıntıları** sayfasında:
 
-    - • Bir mağaza çalışanı farklı kanallardan gerçekleştirilen önceki hareketlere bakarken **Ürün ayrıntıları** sayfasını ziyaret ederse öneriler hizmeti, birlikte satın alınabilecek ek maddeleri önerir.
+    - Mağaza çalışanı farklı kanallardan gerçekleştirilen önceki hareketlere bakarken **Ürün ayrıntıları** sayfasını ziyaret ederse öneriler hizmeti, birlikte satın alınabilecek ek maddeleri önerir.
 
     [![Ürün ayrıntıları sayfasında öneriler](./media/proddetails.png)](./media/proddetails.png)
 
 2. **Hareket** sayfasında:
 
-    - • Öneri altyapısı, sepetteki sıklıkla birlikte satın alınan tüm maddeler listesine dayalı olarak madde önerir.
+    - Öneri altyapısı, sepetteki sıklıkla birlikte satın alınan tüm maddeler listesine göre madde önerir.
 
     > [!NOTE]
     > **Hareket** sayfasında önerileri görüntülemek için, perakendecinin Dynamics 365 for Retail'da ekran düzenini güncelleştirmesi gerekir. **Öneriler** denetimi, **Hareket** sayfasına geçirilmelidir.
@@ -69,10 +69,12 @@ Temel olarak ürün önerileri; zengin, çekici ve özel ürün keşfi deneyimle
 
 - **Perakende Parametreleri** \> **Öneri listeleri** \> **Ürün önerilerini devre dışı bırak**'a gidip **Genel yapılandırma işi \[9999\]**'u çalıştırın. 
 - **Öneriler denetimini** hareket ekranınıza **Ekran düzeni tasarımcısını** kullanarak eklediyseniz bunu da kaldırın.
-- Ek sorularınız varsa daha fazla bilgi edinmek için [Önerilerle ilgili SSS](../commerce/faq-recommendations.md) başlıklı makaleye göz atın.
+- Başka sorularınız olursa daha fazla bilgi edinmek için [Ürün önerileri SSS](../commerce/faq-recommendations.md) başlıklı makaleye göz atın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Bir POS cihazındaki hareket sayfasına öneriler denetimini ekleme](add-recommendations-control-pos-screen.md)
+[POS cihazlarında hareket ekranına öneriler denetimi ekleme](add-recommendations-control-pos-screen.md)
+
 [Ürün önerilerine genel bakış](../commerce/product-recommendations.md)
+
 [Ürün önerilerini etkinleştirme](../commerce/enable-product-recommendations.md) 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 6ed1e4afcaeee03474d4c0ce20ac7864fb11ce78
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5538aef6599eeffee6d9b075f1b9630d55cf982a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551784"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812730"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (Temmuz 2018)
 
@@ -31,11 +31,11 @@ ms.locfileid: "2551784"
 
 Bu konuda, Microsoft Dynamics 365 Talent: Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
 
-## <a name="powerapps-personalization"></a>PowerApps kişiselleştirme
+## <a name="power-apps-personalization"></a>Power Apps kişiselleştirme
 
-Talent, Microsoft PowerApps hizmetiyle tümleştirmeyi destekler. PowerApps, geliştiricilerin ve teknik olmayan kullanıcıların mobil cihazlar, tabletler ve web için kod yazmak zorunda kalmadan özel iş uygulamaları oluşturmalarına olanak tanır. Sizin, kuruluşunuzun veya daha geniş bir ekosistemin PowerApps kullanarak geliştirdiği uygulamalar, ürünün işlevselliğini artırmak amacıyla Talent istemcisine katıştırılabilir. Örneğin, başka bir sistemden alınan bilgilerle Talent'a destek olan bir uygulama oluşturabilirsiniz.
+Talent, Microsoft Power Apps hizmetiyle tümleştirmeyi destekler. Power Apps, geliştiricilerin ve teknik olmayan kullanıcıların mobil cihazlar, tabletler ve web için kod yazmak zorunda kalmadan özel iş uygulamaları oluşturmalarına olanak tanır. Sizin, kuruluşunuzun veya daha geniş bir ekosistemin Power Apps kullanarak geliştirdiği uygulamalar, ürünün işlevselliğini artırmak amacıyla Talent istemcisine katıştırılabilir. Örneğin, başka bir sistemden alınan bilgilerle Talent'a destek olan bir uygulama oluşturabilirsiniz.
 
-Daha fazla bilgi için bkz. [PowerApps uygulamalarını katıştırma](../fin-and-ops/get-started/embed-power-apps.md).
+Daha fazla bilgi için bkz. [Power Apps uygulamalarını katıştırma](../fin-and-ops/get-started/embed-power-apps.md).
 
 ## <a name="ceridian-payroll-integration"></a>Ceridian bordro tümleştirmesi
 
@@ -46,7 +46,7 @@ Talent ve Ceridian Dayforce arasında tümleştirme artık ABD, Kanada ve Meksik
 - Ödeme döngüleri, ödeme dönemleri ve kazanç kodları gibi bordro verileri
 - Çalışan verileri
 
-Daha fazla bilgi için bkz. [Bordro tümleştirmenizi yapılandırma](configure-payroll-integration.md).
+Daha fazla bilgi için bkz. [Talent ile Dayforce arasında bordro tümleştirmesini yapılandırma](configure-payroll-integration.md).
 
 ## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a>Çalışan vergi bölgeleri ABD'nin ötesine genişletildi
 

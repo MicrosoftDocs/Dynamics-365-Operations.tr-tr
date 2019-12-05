@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e6f0b75c8d81a5ac6ec90020375aec39120d4406
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278141"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811228"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>POS cihazlarında hareket ekranına öneriler denetimi ekleme
 
 [!include [banner](includes/banner.md)]
 
 
-Bu konu, öneri denetiminin bir satış noktası (POS) cihazına, Microsoft Dynamics 365 Retail'de ekran düzeni tasarımcısını kullanarak nasıl ekleneceğini açıklar. Ürün önerileri hakkında daha fazla bilgi için [POS belgelerindeki ürün önerilerini okuyun.](product.md)
+Bu konu, öneri denetiminin bir satış noktası (POS) cihazına, Microsoft Dynamics 365 Retail'de ekran düzeni tasarımcısını kullanarak nasıl ekleneceğini açıklar. Ürün önerileri hakkında daha fazla bilgi için [POS belgelerindeki ürün önerilerini okuyun](product.md).
 
 
 Microsoft Dynamics 365 Retail kullanırken ürün önerilerini POS cihazınızda görüntüleyebilirsiniz. Ürün önerilerini görüntülemek için, ekran düzeni tasarımcısını kullanarak bir denetimi hareket ekranına eklemeniz gerekir. 
@@ -100,4 +100,4 @@ Microsoft Dynamics 365 Retail kullanırken ürün önerilerini POS cihazınızda
 
 [POS'ta ürün önerileri](product.md)
 
-[ürün önerilerine genel bakış](../commerce/product-recommendations.md)
+[Ürün önerilerine genel bakış](../commerce/product-recommendations.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734db6f777de2bcd6ea024c9255f589c155e44f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec2874fb21184ccbf4f7039acf20db399e5cf5fb
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569834"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813351"
 ---
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>PunchOut eProcurement için harici katalogları kullanma
 
@@ -41,7 +41,7 @@ Belirli talep sahibi, satınalma tüzelkişiliği ve alıcı işlem birimi için
 
 İzinlere bağlı olarak talep sahibini, satınalma tüzel kişiliğini ve alıcı işlem birimini değiştirin. Bu değerlerdeki bir değişiklik bir talep sahibi için kullanılabilir olan harici kataloglar listesini değiştirebilir. Kullanılabilir olan harici kataloglar, satınalma tüzel kişiliği veya alıcı işlem birimi için geçerli etkin satın alma ilkelerine bağlıdır. Bu ilkeler belirli tedarik kategorilerine erişime izin verebilir veya erişimi engelleyebilir. Bu nedenle, bu tedarik kategorileriyle eşlenen harici katalogların listesi etkilenebilir.
 
-İlkelerle ilgili daha fazla bilgi için bkz. [Satınalma ilkeleri](../procurement/purchase-policies.md).
+İlkelerle ilgili daha fazla bilgi için bkz. [Satınalma ilkelerine genel bakış](../procurement/purchase-policies.md).
 
 - Belirli tedarik kategorileri için harici katalogları bulmak üzere katalog arama alanına metin girin.
 - Satıcının web sitesindeki harici kataloğundan ürünler eklemek için harici kataloğu tıklayın. Daha sonra ürünleri alışveriş sepetine ekleyin ve ödemeye geçin. Alışveriş sepeti satırları Microsoft Dynamics 365'e aktarılacaktır.

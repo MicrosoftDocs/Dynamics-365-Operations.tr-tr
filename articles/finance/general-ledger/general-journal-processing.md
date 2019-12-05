@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570252"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771834"
 ---
 # <a name="general-journal-processing"></a>Genel günlük işleme
 
@@ -84,10 +84,10 @@ Ana hesap kurulumu yevmiye defterine işlemek için birçok seçenek sağlar:
 
 Hesap yapıları ve Gelişmiş kurallar yapıları finansal raporlama ve performans izleme için gerekli olan verilerin yevmiye işleme ve belgeleri sırasında yakalandığını sağlamak için büyük önem taşımaktadır. Hesap yapıları ve gelişmiş kurallar yapıları veri girişi deneyimini uyarlamanızı sağlar. Veri girişini sadece her durumda ilgili olan mali boyutları için izin verebilirsiniz ve gerekli ve doğru verileri her zaman yakalanmasını gereksinimini de zorlayabilirsiniz.
 
-Daha fazla bilgi için aşağıdaki konulara bakın:
-- [Planlama: Hesap planı](plan-chart-of-accounts.md). 
+Daha fazla bilgi edinmek için aşağıdaki konulara bakın:
+- [Hesap planınızı planlama](plan-chart-of-accounts.md) 
 - [Günlükler için gelişmiş kurallar oluşturma](tasks/create-advanced-rules-journals.md)
-- [Şablon kullanarak yevmiye defteri girişi oluşturma](tasks/create-journal-entry-template.md)
+- [Şablon kullanarak yevmiye defteri girişi oluşturun](tasks/create-journal-entry-template.md)
 - [Günlükler oluşturma ve doğrulama](tasks/create-validate-journals.md)
 - [Periyodik günlükleri deftere nakletme](tasks/post-periodic-journals.md)
 - [Genel muhasebe tahsisat günlüğünü işleme](tasks/process-ledger-allocation-journal.md)

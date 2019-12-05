@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a73f49064911a2b28c742cfc19469f4bf95e74
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b77605070387871335c480e25cbe23af1155d6e8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569973"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812180"
 ---
 # <a name="asset-manufacturers-and-models"></a>Varlık üreticileri ve modelleri
 
@@ -45,7 +45,7 @@ Bu konu, Varlık Yönetimi'nde varlık üreticilerinin ve ilgili modellerin nas�
 8. **Varlık türü** alanında, üretici modelinin ilgili olması gereken varlık türünü seçin.
 
     > [!NOTE]
-    > Ayrıca varlık türleri, üreticiler ve modeller için **Varlık türleri** aramasında ilişkiler ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Varlık türü oluşturma](../setup-for-objects/object-types.md).
+    > Ayrıca varlık türleri, üreticiler ve modeller için **Varlık türleri** aramasında ilişkiler ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Varlık türleri](../setup-for-objects/object-types.md).
 
     **Ayrıntılar** hızlı sekmesinde, **Modeller** alanı seçili varlık üreticisinde ayarlanan varlık modeli sayısını gösterir. **Varlıklar** alanı seçili üreticiyi kullanan kıymet sayısını gösterir.
     

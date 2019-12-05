@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: aa503f2ce3ae8ff6b221ea1d26a1c62d0ba37646
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653430"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814916"
 ---
 # <a name="warehouse-configuration-overview"></a>Ambar yapılandırmasına genel bakış
 
@@ -31,7 +31,8 @@ ms.locfileid: "2653430"
 
 Bu makalede, bir ambarın nasıl yapılandırılacağı açıklanmaktadır. Konu, ambar düzeninin ve ambar süreçlerinin nasıl etkinleştirileceği hakkında bilgiler içermektedir.
 
-**Not:** Bu makale **Ambar yönetimi** Modülü (Gelişmiş Depolama) içindeki özellikler için geçerlidir. **Stok yönetimi** modülündeki ambar özellikleri için geçerli değildir.
+> [!NOTE]
+> Bu makale **Ambar yönetimi** modülündeki (gelişmiş ambarlama) özellikler için geçerlidir. **Stok yönetimi** modülündeki ambar özellikleri için geçerli değildir.
 
 ## <a name="warehouse-layout"></a>Ambar düzeni
 Supply Chain Management'taki Ambar yönetim sistemi, değişen gereksinimleri karşılayacak şekilde ambar düzeninizi tanımlamak için esnek yollar sağlar ve bu sayede en iyi ambar verimliliğini elde edebilirsiniz.
@@ -114,7 +115,7 @@ Her bir konum yönergesi satırı ile ilişkili eylemleri tanımlamak daha hızl
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[WMS etkin bir ambarda konumları yapılandırma (Görev kılavuzu)](tasks/configure-locations-wms-enabled-warehouse.md)
+[WMS özellikli bir ambarda yerleşimleri yapılandırma](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 

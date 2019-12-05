@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e9fe8f78121428770e6516159f5eceb6976c4c9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdfa9ed24d0456d9beaec03ebac89098131d0675
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181807"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771154"
 ---
 # <a name="financial-reporting"></a>Mali raporlama
 
@@ -47,14 +47,14 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 | Bileşen        | İşlevler | Ek bilgiler |
 |------------------|-----------|------------------------|
 | Rapor Tasarımcısı  | Bir rapor tanımlamak ve oluşturmak için birleştirilebilecek rapor yapı taşları oluşturun. Rapor sihirbazı daha az deneyimli kullanıcılara tasarım süreci boyunca rehberlik eder. İleri düzey kullanıcılar, yeni rapor yapı taşları oluşturabilir veya mevcut yapı taşlarını gereksinimlerini karşılayacak şekilde değiştirebilirler. | |
-| Rapor programları | Düzenli aralıklarla oluşturulması için tek bir raporu veya bir raporlar grubu planlayın. | [Mali rapor oluşturma](generate-financial-report.md) |
+| Rapor programları | Düzenli aralıklarla oluşturulması için tek bir raporu veya bir raporlar grubu planlayın. | [Mali raporlar oluşturma](generate-financial-report.md) |
 
 ## <a name="features"></a>Özellikler
 <table>
 <thead>
 <tr>
 <th>Özellik</th>
-<th>Açıklama</th>
+<th>Tanım</th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 </td>
 </tr>
 <tr>
-<td>Mali rapor işbirliği</td>
+<td>Mali rapor iş birliği</td>
 <td>Aşağıdaki özellikler raporların oluşturulmasını ve dağıtılmasını yönetmenize yardımcı olur:
 <ul>
 <li>Raporları günlük, haftalık, aylık veya yıllık olarak otomatik şekilde oluşturulmaları için planlayın.</li>
@@ -96,4 +96,4 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 </table>
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-[Mali rapor oluşturma](generate-financial-report.md)
+[Mali raporlar oluşturma](generate-financial-report.md)

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract'ta kariyer sitenizi ayarlama
+title: Attract'te kariyer sitenizi ayarlama
 description: Bu konu, Microsoft Dynamics 365 Talent - Attract içinde adaya yönelik site işlevi hakkında genel bakış sağlar.
 author: hasrivas
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 256ef1b335ddf0c908704b14eca0883ee98d2038
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: d4a1e7c19ccec6ae32e46ec7d58604b162418953
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551107"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832966"
 ---
-# <a name="set-up-your-career-site-in-microsoft-dynamics-365-talent---attract"></a>Microsoft Dynamics 365 Talent - Attract'ta kariyer sitenizi ayarlama
+# <a name="set-up-your-career-site-in-attract"></a>Attract'te kariyer sitenizi ayarlama
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Talent: Attract içinde adaya yönelik site işlevi hakkında genel bakış sağlar. Bu makale bu işlevselliği ayarlamayı açıklar.
 
@@ -37,7 +37,7 @@ Varsayılan olarak, mesleki site herkese açıktır. Bu nedenle, aday harici otu
 
 ## <a name="career-site-management"></a>Kariyer sitesi yönetimi
 
-Aşağıdaki öğeler için değerleri ayarlamak üzere, Attract'ta yönetici olarak oturum açın; **Ayarlar** menüsündeki (çark simgesi) **Yönetim Merkezi**'ni seçin ve **Şirket bilgileri** sekmesini seçin.
+Aşağıdaki öğeler için değerleri ayarlamak üzere, Attract'te yönetici olarak oturum açın; **Ayarlar** menüsündeki (çark simgesi) **Yönetim Merkezi**'ni seçin ve **Şirket bilgileri** sekmesini seçin.
 
 -   **Kuruluş adı** - Kuruluş adı, kariyer sitesinin üstündeki gezinti çubuğunda görünür. Aday kuruluş adını seçerek tüm açık iş listeleyen bir sayfaya gider.
 
@@ -46,7 +46,7 @@ Aşağıdaki öğeler için değerleri ayarlamak üzere, Attract'ta yönetici ol
     > [!NOTE] 
     > Kariyer sitesinde görüntülenen logo görüntüsünün, sabit 20 piksel (px) yüksekliği vardır. Yönetim merkezine eklediğiniz görüntü uyacak şekilde ölçeklendirilir. Bu nedenle, genişliği resme bağlı olarak değişebilir.
  
-Aşağıdaki öğeler için değerleri ayarlamak üzere, Attract'ta yönetici olarak oturum açın; **Ayarlar** menüsündeki **Yönetim Merkezi**'ni seçin ve **Kariyer sitesi yönetimi** sekmesini seçin.
+Aşağıdaki öğeler için değerleri ayarlamak üzere, Attract'te yönetici olarak oturum açın; **Ayarlar** menüsündeki **Yönetim Merkezi**'ni seçin ve **Kariyer sitesi yönetimi** sekmesini seçin.
 
 -   **Arama Motoru Optimizasyonu** - Etkinleştirildiğinde, Attract kariyer sitesine gönderilen tüm ortak iş ilanları, Bing ve Google gibi arama motorları kullanılarak aranabilir olacaktır. 
 
@@ -62,7 +62,7 @@ Aşağıdaki liste, sık kullanılan kariyer sitesi URL'leri ve bunlara nasıl e
 
 -   **Kariyer sitesi giriş sayfası URL'si** - Kariyeri sitesi giriş sayfası URL'sini görüntülemek için, Attract'e bir yönetici olarak oturum açın, **Ayarlar** menüsünde **Yönetici merkezi**'ni seçin ve sonra **Kariyer sitesi yönetimi** sekmesini seçin.
 
--   **Bireysel iş ilanı başvuru URL'si** - İlk defa [bir harici iş ilanı verdiğinizde](Creating-jobs-Attract.md#postings), Attract'tan **Başvur** bağlantısını kopyalayabilirsiniz. Bu bağlantı için URL aşağıdaki biçimde olacaktır: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **Bireysel iş ilanı başvuru URL'si** - İlk defa [bir harici iş ilanı verdiğinizde](Creating-jobs-Attract.md#postings), Attract'ten **Başvur** bağlantısını kopyalayabilirsiniz. Bu bağlantı için URL aşağıdaki biçimde olacaktır: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **Bireysel iş ilanı URL'si** - İş ilanının URL'si, Başvur URL'sinin bir alt dizesidir. İş numarasına kadar her şeyden oluşur. Bu nedenle, öncedeki Başvur URL'si için iş ilanı URL'si [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e) olur
 
@@ -91,7 +91,7 @@ Adayların Azure AD kullanarak oturum açmaları gerekir, görüntüledikleri i�
 ## <a name="create-and-maintain-a-profile"></a>Profil oluştur ve sürdür
 
 Mesleki siteye adaylar oturum açtıktan sonra profil oluşturmak ve kendi profilini güncelleştirmek için sayfanın üstündeki gezinme çubuğunda **Profilim**'i seçebilirsiniz.
-Profil kişisel bilgileri, iş deneyimiyle ilgili bilgiler, eğitim ayrıntıları, belgeleri, bağlantıları ve beceri kümeleri hakkında bilgi içerir. Profil oluşturulduktan sonra adayın ilgilendiği işlere başvurmak için kullanılabilir. Profiller, Attract'a adaylar için doğru işlere önermesine yardımcı olur.
+Profil kişisel bilgileri, iş deneyimiyle ilgili bilgiler, eğitim ayrıntıları, belgeleri, bağlantıları ve beceri kümeleri hakkında bilgi içerir. Profil oluşturulduktan sonra adayın ilgilendiği işlere başvurmak için kullanılabilir. Profiller, Attract'e adaylar için doğru işlere önermesine yardımcı olur.
 
 > [!NOTE]
 > Aday kullanıyorsa, yukarıda listelenen e-posta kimliği için yetkilendirme sağlayıcılarını birini kullanarak oturum açın, profiliyle ilişkili ilgili kişi e-posta kodu, e-posta kodu varsayılan olur. Ancak, sonraki istenilen zaman değiştirilebilir ve ilkinden tümüyle bağımsızdır. Attract her zaman iletişim e-posta kimliğini, tüm e-posta iletişimleri için profilinizle ilişkilendirecektir.
@@ -118,7 +118,7 @@ Adaylar, işe alım ekibi üyelerine halihazırda iletişime geçtikleri işlere
 
 ## <a name="apply-for-jobs"></a>İşlere başvur
 
-Adaylar doğru işi bulduktan sonra, **İş ayrıntıları** sayfasında **Başvur** düğmesini kullanarak başvurabilirler. Bu aşamada adaylar yeni bir profil oluşturabilir veya varolan profillerindeki ilgili bilgileri gözden geçirin.
+Adaylar doğru işi bulduktan sonra, **İş ayrıntıları** sayfasında **Başvur** düğmesini kullanarak başvurabilirler. Bu aşamada adaylar yeni bir profil oluşturabilir veya var olan profillerindeki ilgili bilgileri gözden geçirin.
 Adaylar gerekirse bir özgeçmiş ve sonra iş başvurusu gönderebilir.
 
 ### <a name="enable-applying-for-jobs-with-linkedin-profiles"></a>LinkedIn profilleriyle işe başvurmayı etkinleştir

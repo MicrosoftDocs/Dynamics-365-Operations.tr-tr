@@ -1,6 +1,6 @@
 ---
-title: Teklif oluşturma, onaylama ve imzalama
-description: Bu konu, Dynamics 365 Talent kullanarak bir aday için teklif oluşturma, onaylama ve imzalama ayrıntılarını verir.
+title: Attract'te teklifler oluşturma, onaylama ve imzalama
+description: Bu konu, Dynamics 365 Talent - Attract kullanarak bir aday için teklif oluşturma, onaylama ve imzalama ayrıntılarını verir.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: acc484ea57ce13d8a7c48a0ca7a2aa8723558dc9
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: dee545b6ca5d2791dea6609b4e1b25eba128f8b7
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551061"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832919"
 ---
-# <a name="create-approve-and-sign-offers"></a>Teklif oluşturma, onaylama ve imzalama
+# <a name="create-approve-and-sign-offers-in-attract"></a>Attract'te teklifler oluşturma, onaylama ve imzalama
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Çoğu durumda, bir adaya teklif paketi hazırlama işlemi çok hızlı olması gerekir.
 Attract yöneticisi tarafından ayarlanan şablonları kullanarak teklif oluşturanlar adaylara teklif hazırlama ve gönderme konusunda zamandan tasarruf eder ve daha az uğraşır.

@@ -1,5 +1,5 @@
 ---
-title: Teklif yönetimini ayarlama
+title: Attract'te teklif yönetimini ayarlama
 description: Bu konuda tekliflerin Microsoft Dynamics 365 Talent'ta nasıl ayarlanacağı açıklanmaktadır.
 author: andreabichsel
 manager: AnnBe
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010856"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832734"
 ---
-# <a name="set-up-offer-management"></a>Teklif yönetimini ayarlama 
+# <a name="set-up-offer-management-in-attract"></a>Attract'te teklif yönetimini ayarlama
 
 [!include [banner](includes/banner.md)]
 
-Bir aday, Dynamics 365 Talent: Attract'te bir teklif aşamasına geçtiğinde tekliflerin aday için hızlı bir şekilde oluşturulduğundan, gerektiği gibi onaylandığından ve adaya gönderildiğinden emin olmanız gerekir. Çoğu teklif standart olduğu için yeniden kullanılabilir şablonlardan oluşturulabilir. Attract'ta, tüm teklifler, bir veya daha fazla teklif belgesinden oluşan bir teklif paketine toplanır. 
+Bir aday, Dynamics 365 Talent: Attract'te bir teklif aşamasına geçtiğinde tekliflerin aday için hızlı bir şekilde oluşturulduğundan, gerektiği gibi onaylandığından ve adaya gönderildiğinden emin olmanız gerekir. Çoğu teklif standart olduğu için yeniden kullanılabilir şablonlardan oluşturulabilir. Attract'te, tüm teklifler, bir veya daha fazla teklif belgesinden oluşan bir teklif paketine toplanır. 
 
-Bu konu, bir Attract yöneticisinin, Attract'taki teklif yönetim özelliklerinin bir parçası olarak farklı teklif paketi şablonları ayarlamak için izleyeceği tüm adımları listeler. Yönetici olmayan rollere sahip kullanıcılar için bu yeteneklerin erişimi olmaz.
+Bu konu, bir Attract yöneticisinin, Attract'teki teklif yönetim özelliklerinin bir parçası olarak farklı teklif paketi şablonları ayarlamak için izleyeceği tüm adımları listeler. Yönetici olmayan rollere sahip kullanıcılar için bu yeteneklerin erişimi olmaz.
 
 >[!NOTE]
 > Teklif yönetimi yetenekleri, Kapsamlı İşe aAlma Eklentisi parçası olarak kullanılabilir.
@@ -54,9 +54,9 @@ Teklif verileri, teklif paketi şablonu içindeki en küçük birimdir. Tipik bi
 
 1.  Her bölümün adını düzenlemek için bölüm adının üzerine getirin ve adı güncelleştirin.
 
-1.  Varolan bir teklif veri yer tutucu adını düzenlemek için önce yer tutucunun zaten bir şablon parçası olmadığından emin olun. Daha sonra teklif veri yer tutucu adına getirin ve adı gerektiği şekilde güncelleştirin.
+1.  Var olan bir teklif veri yer tutucu adını düzenlemek için önce yer tutucunun zaten bir şablon parçası olmadığından emin olun. Daha sonra teklif veri yer tutucu adına getirin ve adı gerektiği şekilde güncelleştirin.
 
-1. Varolan bir teklif veri yer tutucuyu silmek için önce yer tutucunun başka bir şablon parçası olmadığından emin olun. Daha sonra yer tutucuya getirin ve çöp tenekesi simgesini göründüğü zaman çöp tenekesine tıklayıp teklif veri yer tutucuyu silin.
+1. Var olan bir teklif veri yer tutucuyu silmek için önce yer tutucunun başka bir şablon parçası olmadığından emin olun. Daha sonra yer tutucuya getirin ve çöp tenekesi simgesini göründüğü zaman çöp tenekesine tıklayıp teklif veri yer tutucuyu silin.
     >[!NOTE]
     > Bir teklif veri parçası yanında numara göstergesi parçası olarak kaç şablonun bir teklif verisi yer tutucu parçası oldğunu görebilirsiniz. 
 
@@ -103,7 +103,7 @@ Teklif veri kuralları dosyasını yüklemek için aşağıdakileri yapın.
 
 1.  Üç nokta (**...**) düğmesini, kural kümesini yüklemek ve değerler kümesini güncelleştirmek istiyorsanız kullanın. Güncelleştirmeden sonra dosyayı yeniden yükleyebilirsiniz.
 
-1.  Tanımlanan yer tutucu başka bir belge şablonunda kullanılmıyorsa varolan kural kümesinin karşıya yüklemesini silebilirsiniz.
+1.  Tanımlanan yer tutucu başka bir belge şablonunda kullanılmıyorsa var olan kural kümesinin karşıya yüklemesini silebilirsiniz.
 
 >[!NOTE]
 > - Her bir yer tutucu yalnızca bağımlı olduğu benzersiz sütunlar kümesi olabilir. Örneğin, **Yıllık ücret**, **Şş yeri** ve **Düzey**'e bağlıysa **Yıllık ücret**'in farklı bir sütun kümesine bağlı olduğu başka bir kural kümesine yükleyemezsiniz.
@@ -156,7 +156,7 @@ Teklif belge şablonu oluşturmak için aşağıdakileri yapın.
 1. Hangi bölge şablonlarının şu anda aktif, hangilerinin taslak modunda ve hangilerinin arşivlendiğini veya artık belge şablonları kitaplığının deneyiminde kullanımda olmadığını görebilirsiniz.
 
 >[!NOTE]
-> Varolan bir teklif paketi şablonunun parçası olmayan teklif belgesi şablonlarını silebilirsiniz.
+> Var olan bir teklif paketi şablonunun parçası olmayan teklif belgesi şablonlarını silebilirsiniz.
 
 
 ## <a name="offer-package-templates"></a>Teklif paketi şablonları
@@ -178,7 +178,7 @@ Teklif paketleri, adayla paylaşılan ve bir veya daha falza teklik belge şablo
     >[!NOTE]
     > - Yeni bir şablon oluşturmayı veya mevcut bir modelden seçmeyi seçebilirsiniz.
 
-    > - Varolan bir şablonu eklemek isterseniz, teklif belge şablonunun kaydedilmiş, sonlandırılmış ve etkin olarak işaretlenmiş olduğundan emin olmak gerekir.
+    > - Var olan bir şablonu eklemek isterseniz, teklif belge şablonunun kaydedilmiş, sonlandırılmış ve etkin olarak işaretlenmiş olduğundan emin olmak gerekir.
     
     > - İstediğiniz sayıda belge şablonu seçebilirsiniz. 
     
@@ -206,4 +206,4 @@ Attract yöneticisi tarafından yapılandırılabilir teklif oluşturma işlemin
     - ESign - Bu varsayılan seçenektir, kullanıma hazırdır, kullanıcı kendi adını ve baş harflerini yazarak imza atabilir.
 
 
-Teklif oluşturma işlemi hakkında daha fazla bilgi için bkz: [Teklif oluşturma, onaylama ve imzalama](./creating-offers.md).
+Teklif oluşturma işlemi hakkında daha fazla bilgi için bkz. [Teklif oluşturma, onaylama ve imzalama](./creating-offers.md).

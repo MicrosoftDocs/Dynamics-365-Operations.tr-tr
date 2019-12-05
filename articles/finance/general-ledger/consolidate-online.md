@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: eadf0af285213a972cac83d7b6fc6a47317b21bb
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551669"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770747"
 ---
 # <a name="online-financial-consolidations"></a>Çevrimiçi mali konsolidasyonlar
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, genel muhasebede çevrimiçi mali konsolidasyonlar açıklanmaktadır. Bu konuyu okumadan önce [Maki konsolidasyonlar ve para birimi çevirme](financial-consolidations-currency-translation.md) konusunu okuduğunuzdan emin olun.
+Bu konuda, genel muhasebede çevrimiçi mali konsolidasyonlar açıklanmaktadır. Bu konuyu okumadan önce [Mali konsolidasyonlar ve para birimi çevirmeye genel bakış](financial-consolidations-currency-translation.md) konusunu okuduğunuzdan emin olun.
 
 Kurulumunuzu tamamladıktan sonra **Konsolide et [Çevrimiçi]** sayfasına konsolidasyon ayrıntılarını girin. Tamamladığınızda konsolidasyonu işlemek için **Tamam** veya **Toplu İş**'e tıklayabilirsiniz.
 
@@ -93,6 +93,6 @@ Elemeler hakkında daha fazla bilgi için bkz. [Eleme kuralları](./elimination-
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-Konsolidasyon ve para birimi çevirme hakkında daha fazla bilgi için bu konunun ana konusuna bakın: [Mali konsolidasyonlar ve para birimi çevirme](./financial-consolidations-currency-translation.md).
+Konsolidasyon ve para birimi dönüştürmeleri hakkında daha fazla bilgi için bu konunun ana konusuna bakın: [Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış](./financial-consolidations-currency-translation.md).
 
 Konsolide mali tabloları oluşturabileceğiniz senaryolar hakkında bilgi için bkz. [Konsolide mali tabloları oluşturma](./generating-consolidated-financial-statements.md).

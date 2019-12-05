@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1229c89f43f9ded955dadf2f4d87825c9ab4e71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182589"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769867"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)
 
@@ -36,7 +36,7 @@ Bu adımları tamamlamak için, öncelikle "Bir yapılandırma sağlayıcı olu�
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Ödemeler veri modeli konfigürasyonunu yükleme
 1. Gezinti bölmesinde, **Modüller > Kuruluş yönetimi > Çalışma alanları > Elektronik raporlama**'ya gidin.
-2. Listede, örnek şirket Litware, Inc. için yapılandırma sağlayıcısını işaretleyin. Bu yapılandırma sağlayıcısını göremiyorsanız, önce [Yapılandırma sağlayıcı oluşturma ve etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) bölümündeki adımları tamamlamalısınız.
+2. Listede, örnek şirket Litware, Inc. için yapılandırma sağlayıcısını işaretleyin. Bu yapılandırma sağlayıcısını göremiyorsanız öncelikle [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) bölümündeki adımları tamamlamalısınız.
 3. **Etkin olarak ayarla**'ya tıklayın.
 4. **Depolar**'ı seçin. Varsa, Operations Kaynakları türü için bir depo seçin. Kullanılabiliyorsa, yeni bir havuz oluşturmak hakkındaki aşağıdaki adımları atlayın.  
 5. Açılır iletişim kutusunu açmak için **Ekle** öğesini seçin.

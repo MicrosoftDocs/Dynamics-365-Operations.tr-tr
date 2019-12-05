@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 92be01210b677228f4c096ffef09d7109ba2b332
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ef99a75d29b8fce46943213804239b237d384b07
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023405"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811915"
 ---
 # <a name="hybrid-customer-orders"></a>Karma müşteri siparişleri
 
@@ -40,4 +40,4 @@ Bir sepet satırı seçildiyse ve **Seçileni çek**, **Seçileni sevk et** veya
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Müşteri siparişlerine genel bakış](customer-orders-overview.md)
+[Retail Modern POS'ta (MPOS) müşteri siparişleri](customer-orders-overview.md)

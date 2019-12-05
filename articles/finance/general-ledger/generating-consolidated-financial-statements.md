@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180296"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770701"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolide mali tabloları oluşturma
 
@@ -104,7 +104,7 @@ Rapor oluşturulurken Contoso Germany raporu satış tutarının yüzde 100'ün�
 
 Aşağıdaki çizimde gösterildiği üzere bir şirketin yüzde 1'inden azına sahipseniz **Rapor Ayarları** sayfasının **Ek Seçenekler** sekmesinde **%1'den az toplamaya izin ver** onay kutusunu seçebilirsiniz. Bu durumda raporlama ağacında **Toplama %'si** sütunundaki değerler yüzde 1'den az olarak değerlendirilir. Örneğin **,8** girerseniz konsolide düzey için yüzde 80 değil, yüzde 0,8 toplanır. Alternatif olarak **% 1'den az toplamaya izin ver** onay kutusunu boş bırakarak ve **Toplama %'si** sütununa **,008** girerek de aynı sonuca ulaşabilirsiniz.
 
-![Raporlama ayarları seçenekleri](./media/reporting-setting-options.png "Raporlama ayarları seçenekleri")
+![Raporlama ayarı seçenekleri](./media/reporting-setting-options.png "Raporlama ayarı seçenekleri")
 
 ### <a name="showing-ownership-as-a-separate-row-on-the-consolidated-report"></a>Konsolide raporda sahipliği ayrı bir satır olarak gösterme
 Azınlık hissesi için başka bir seçenek raporda her bir satırda yan kuruluşu yüzde 100 göstermek ama net gelirden kontrol gücü olmayan hisseyi çıkarmaktır.
@@ -221,6 +221,6 @@ Mali raporlama, para birimleri kullanılırken doğru şekilde dönüştürülm�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-Konsolidasyon ve para birimi çevirme hakkında daha fazla bilgi için bu konunun ana konusuna bakın: [Mali konsolidasyonlar ve para birimi çevirme](./financial-consolidations-currency-translation.md).
+Konsolidasyon ve para birimi dönüştürmeleri hakkında daha fazla bilgi için bu konunun ana konusuna bakın: [Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış](./financial-consolidations-currency-translation.md).
 
-Konsolidasyon bilgilerini çevrimiçi olarak nasıl gireceğiniz hakkında daha fazla bilgi için bkz. [Çevrimiçi olarak konsolide etme](./consolidate-online.md).
+Konsolidasyon bilgilerini çevrimiçi olarak nasıl gireceğiniz hakkında daha fazla bilgi için bkz. [Çevrimiçi mali konsolidasyonlar](./consolidate-online.md).

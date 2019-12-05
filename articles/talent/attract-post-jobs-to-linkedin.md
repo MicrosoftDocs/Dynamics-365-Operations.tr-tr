@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract LinkedIn'e iş yayınlama
+title: Attract'ten LinkedIn'e iş yayınlama
 description: Bu konu, LinkedIn'e Dynamics 365 Talent - Attract kullanarak ilan vermeyi açıklar.
 author: andreabichsel
 manager: AnnBe
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551507"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833021"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>Microsoft Dynamics 365 Talent - Attract LinkedIn'e iş yayınlama
+# <a name="post-jobs-to-linkedin-from-attract"></a>Attract'ten LinkedIn'e iş yayınlama
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-LinkedIn, dünyanın en iyi yeteneğine erişmenizi sağlayan en büyük çevrimiçi profesyonel ağdır. Microsoft Dynamics 365 Talent: Attract, işlerinizi doğrudan Attract'tan LinkedIn'de yayınlamanıza izin vererek gereksinim duyduğunuz yetenekleri elde etmenize yardımcı olur.
+LinkedIn, dünyanın en iyi yeteneğine erişmenizi sağlayan en büyük çevrimiçi profesyonel ağdır. Microsoft Dynamics 365 Talent: Attract, işlerinizi doğrudan Attract'ten LinkedIn'de yayınlamanıza izin vererek gereksinim duyduğunuz yetenekleri elde etmenize yardımcı olur.
 
 Attract, Sınırlı Listelemeleri ek ücret içermeyen LinkedIn'e nakletmenize izin verir. Bu listelemeler yalnızca, Attract gibi LinkedIn yazılım ortakları aracılığıyla kullanılabilir. Şirketin LinkedIn sayfasındaki **kariyer** panelinde görünmezler, yalnızca ücretli listelerin orada göründüğü için bunlar burada görünmez. Ancak, olası adaylar tüm kullanılabilir işleri görüntülerken görüntülenir. Sınırlı Listelemeler LinkedIn iş aramalarında da gösterilir.
 
-Attract'ta [bir iş oluşturduktan](./creating-jobs-attract.md) sonra, işinizi LinkedIn'deki olası binlerce aday önüne koymak için bir düğme seçmeniz yeterlidir.
+Attract'te [bir iş oluşturduktan](./creating-jobs-attract.md) sonra, işinizi LinkedIn'deki olası binlerce aday önüne koymak için bir düğme seçmeniz yeterlidir.
 
 Aşağıdaki tabloda, Kullanıcı rolünüze bağlı olarak LinkedIn'de gerçekleştirebileceğiniz eylemler gösterilmektedir.
 
@@ -44,9 +44,9 @@ Aşağıdaki tabloda, Kullanıcı rolünüze bağlı olarak LinkedIn'de gerçekl
 | Görüşmeci | Erişim yok |
 | Salt Okunur | Salt okunur |
 
-Attract'ta kullanıcı rolleri hakkında daha fazla bilgi için bkz: [Attract'te güvenlik ve rol yönetimi](./security-attract.md).
+Attract'te kullanıcı rolleri hakkında daha fazla bilgi için bkz: [Attract'te güvenlik ve rol yönetimi](./security-attract.md).
 
-Bir yönetici iseniz ve Attract ile LinkedIn tümleşmesini konfigüre etme hakkında daha fazla bilgiye gereksinim duyarsanız, bkz. [LinkedIn ile entegrasyon ayarla](./attract-admin-linkedin.md) .
+Yöneticiyseniz ve Attract ile LinkedIn tümleştirmesini yapılandırma hakkında daha fazla bilgiye ihtiyacınız varsa bkz. [Microsoft Dynamics 365 Talent - Attract için LinkedIn ile tümleştirmeyi ayarlama](./attract-admin-linkedin.md).
 
 LinkedIn'e verilen iş ilanları LinkedIn sitesinde yayınlanır. LinkedIn'e iş ilanı vermek için test ortamı yoktur. Bu nedenle, yanlışlıkla hiçbir test işini deftere nakletmemenize dikkat edin.
 
@@ -55,9 +55,9 @@ LinkedIn'e verilen iş ilanları LinkedIn sitesinde yayınlanır. LinkedIn'e iş
 1. Attract içinde, LinkedIn'e nakletmek istediğiniz işi açın.
 2. **İlanlar** sekmesinde, LinkedIn'e karşılık gelen **Şimdi İlan Ver** düğmesini seçin.
 
-    [![Attract'tan LinkedIn'e iş yayınlama](./media/attract-post-job-to-linkedin.png)](./media/attract-post-job-to-linkedin.png)
+    [![Attract'ten LinkedIn'e iş yayınlama](./media/attract-post-job-to-linkedin.png)](./media/attract-post-job-to-linkedin.png)
 
-3. Bir " **Şimdi Uygula" Web adresi oluştur** iletişim kutusunda, **Adaylar şunu kullanarak başvurabilir** altında bir seçeneği belirleyin. **Attract'ta bağlantı** seçmenizi öneririz.
+3. Bir " **Şimdi Uygula" Web adresi oluştur** iletişim kutusunda, **Adaylar şunu kullanarak başvurabilir** altında bir seçeneği belirleyin. **Attract'te bağlantı** seçmenizi öneririz.
 4. **Tamam**'ı seçin.
 5. **Deftere nakil için gönder** ileti kutusunda **Onayla** seçeneğini belirleyin.
 
@@ -65,17 +65,17 @@ LinkedIn ilan vermeyi başarıyla tamamladıktan sonra, Attract içindeki **İla
 
 İlgilendiğiniz adaylar listelerinizin **Görüntüle**yi seçin ve nasıl uygulanacağı hakkındaki bilgilerle birlikte tam iş ayrıntılarını görürler.
 
-Attract'ta yapılan tüm proje deftere nakilleri sınırlı listelerdir. LinkedIn'deki sınırlı listeler hakkında daha fazla bilgi için bkz. [İş Kaydırma İçin Sınırlı Listeler ve Premium İş Yuvaları](https://www.linkedin.com/help/recruiter/answer/79049).
+Attract'te yapılan tüm proje deftere nakilleri sınırlı listelerdir. LinkedIn'deki sınırlı listeler hakkında daha fazla bilgi için bkz. [İş Kaydırma İçin Sınırlı Listeler ve Premium İş Yuvaları](https://www.linkedin.com/help/recruiter/answer/79049).
 
-İşleri LinkedIn'de yayınlarken sorunla karşılaşıyorsanız, bkz. [LinkedIn ile iş nakli sorun giderme](./attract-troubleshoot-linkedin.md).
+İşleri LinkedIn'de yayınlarken sorunla karşılaşıyorsanız bkz. [LinkedIn ve Microsoft Dynamics 365 Talent - Attract ile tümleştirmede sorun giderme](./attract-troubleshoot-linkedin.md).
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[LinkedIn SSS](./attract-linkedin-faq.md)
+[LinkedIn SSS ile Attract tümleştirme](./attract-linkedin-faq.md)
 
-[LinkedIn ile tümleştirmeyi ayarlama](./attract-admin-linkedin.md)
+[Microsoft Dynamics 365 Talent - Attract için LinkedIn ile tümleştirmeyi ayarlama](./attract-admin-linkedin.md)
 
-[İşler oluşturma](./creating-jobs-attract.md)
+[Attract'te iş oluşturma, onaylama ve yayımlama](./creating-jobs-attract.md)
 
 [LinkedIn Recruiter ile aday kaynağı bulma](./attract-linkedin-recruiter.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 38b694b6dd4b1b9a198452e409bd64d7934b4685
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6be2f79d4f0c234028c0cc98b81cfa8ff4fcc992
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519342"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813995"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Soru formlarının sonuçlarını görüntüleme ve değerlendirme
 
@@ -57,7 +57,8 @@ Yanıtlayanlar bir anketi tamamladıktan sonra, tamamlanan yanıt oturumlarını
 -   **Yanıt raporu** – Bu rapor, anketteki her soru için yanıtlayanın seçtiği cevapları gösterir.
 -   **Yanlış yanıtlar** – Bu rapor yanıtlayanın seçtiği yanlış yanıtlarla ilgili bilgileri gösterir.
 
-**Not:** **Sonuçlar** raporu, yalnızca anketteki sonuç gruplarını kullanıyorsanız ve **Anketler** sayfasındaki **Sonuçlar sayfasını** seçtiyseniz kullanılabilir. **Yanıt** raporu ve **Yanlış yanıtlar** raporu yalnızca **Anketler** sayfasındaki **Yanıt raporu** seçeneğini seçtiyseniz kullanılabilir.
+> [!NOTE]
+> **Sonuçlar** raporu, yalnızca anketteki sonuç gruplarını kullanıyorsanız ve **Anketler** sayfasındaki **Sonuçlar sayfasını** seçtiyseniz kullanılabilir. **Yanıt** raporu ve **Yanlış yanıtlar** raporu yalnızca **Anketler** sayfasındaki **Yanıt raporu** seçeneğini seçtiyseniz kullanılabilir.
 
 ## <a name="questionnaire-statistics"></a>Soru formu istatistikleri
 Tamamlanmış bir anketin sonuçlarını tanımladığınız hesaplamalara göre analiz etmek için anket istatistiklerini kullanabilirsiniz. Hesaplamaları tanımlamak için, aşağıdaki görevleri tamamlamalısınız:
@@ -77,7 +78,7 @@ Tanımladığınız ayarlar kaydedilir ve sonuçları yeniden hesaplamak için p
 
 [Soru formları tasarlama](design-questionnaires.md)
 
-[Soru formlarını kullanma](questionnaires.md)
+[Soru formları](questionnaires.md)
 
-[Soru formlarını dağıtma ve tamamlama](distribute-questionnaires.md)
+[Soru formlarını dağıtma ve planlama](distribute-questionnaires.md)
 

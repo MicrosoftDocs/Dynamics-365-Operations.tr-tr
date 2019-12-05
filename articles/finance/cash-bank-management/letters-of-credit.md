@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db85db993c5368eaaa6ddfcc3dd02a2c2aa2be01
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 184a6bf9ad43280de135a326688dedd4a5f03a6f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188315"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772617"
 ---
 # <a name="letters-of-credit"></a>Kredi mektupları
 
@@ -44,12 +44,12 @@ Kredi mektubu malların açıklamasını, gerekli belgeleri, sevkiyat tarihini v
 
 Kredi mektubu kabili rücu veya gayri kabili rücu olabilir. Kredi mektubunun yapısı, devredilebilir, devredilemez veya döner olabilir. Genellikle, bir kredi mektubu gayri kabili rücudur ve sevkiyat belgelerinin eksiksiz ve doğru teslimi üzerine belirli bir lehdara ödeme yapılacağı anlaşmasını teyit eder.
 
-Daha fazla bilgi için aşağıdaki konulara bakın:
+Daha fazla bilgi edinmek için aşağıdaki konulara bakın:
 
-[Kredi mektubunu içe aktarma](tasks/import-letter-credit.md)
+[İthalat kredi mektubu](tasks/import-letter-credit.md)
 
-[Kredi mektubunu dışa aktarma](tasks/export-letter-credit.md)
+[Kredi mektubunu dışa aktar](tasks/export-letter-credit.md)
 
-[Kredi mektubu için banka hizmet oluşturma](tasks/create-bank-facility-agreement-letter-credit.md)
+[Kredi mektubu için banka hizmet sözleşmesi oluşturma](tasks/create-bank-facility-agreement-letter-credit.md)
 
 

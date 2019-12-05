@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974f99632738cfc6eec5ff85965f4e9f9608a8b5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180462"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811519"
 ---
 # <a name="view-and-export-field-descriptions"></a>Alan açıklamalarını görüntüleme ve dışarı aktarma
 
@@ -35,7 +35,7 @@ Daha karmaşık alanlardan bazılarında alan açıklamaları vardır. Bu açık
 
 Tüm sayfaların alan açıklamaları yoktur. Kullanımı belirgin olan alanların değil, yalnızca daha karmaşık alanların açıklamalarını sağlamak istiyoruz. Bu nedenle, bazı sayfalarda alan açıklamaları bulunmaz, bazı sayfalarda birkaç açıklama vardır ve parametre sayfaların çoğunda olduğu gibi daha karmaşık sayfalarda birçok açıklama vardır.
 
-Geliştirme ortamına erişiminiz varsa yeni alan açıklamalarınızı ekleyebilirsiniz ve mevcut açıklamaları özelleştirebilirsiniz. Örneğin, bir alan açıklamasına şirkete özgü bilgiler ekleyebilirsiniz. Daha fazla bilgi için, [Alanı özelleştirme yardımı](../../dev-itpro/user-interface/customize-field-help.md) sayfasına bakın.
+Geliştirme ortamına erişiminiz varsa yeni alan açıklamalarınızı ekleyebilirsiniz ve mevcut açıklamaları özelleştirebilirsiniz. Örneğin, bir alan açıklamasına şirkete özgü bilgiler ekleyebilirsiniz. Daha fazla bilgi için bkz. [Alan açıklamalarını özelleştirme](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Kullanıcı arabirimindeki alan açıklamalarına bakın
 
@@ -107,4 +107,4 @@ Sayfaları aramanın çeşitli yolları hakkında daha fazla bilgi için, bu mak
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Alanı özelleştirme yardımı](../../dev-itpro/user-interface/customize-field-help.md)
+[Alan açıklamalarını özelleştirme](../../dev-itpro/user-interface/customize-field-help.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2922b00dffe8e99f8331d7aaa7e2f1b7dc4f9ea6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180369"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772640"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Gelişmiş banka mutabakatı kurulumu işlemi
 
@@ -31,7 +31,7 @@ ms.locfileid: "2180369"
 
 Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 Finance'taki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu makalede mutabakat için işlem ayarları açıklanır.  
 
-Gelişmiş banka mutabakatı işlevini kullanmadan önce ayarlanması gereken bir dizi parça vardır. Banka ekstresi almayı ayarlama hakkında daha fazla bilgi için, bkz [Banka ekstresi alma işlemini ayarlama](set-up-advanced-bank-reconciliation-import-process.md).  Banka mutabakatı işleminin kurulması için gereksinimler aşağıda açıklanmıştır.
+Gelişmiş banka mutabakatı işlevini kullanmadan önce ayarlanması gereken bir dizi parça vardır. Banka ekstresi içe aktarmayı ayarlama hakkında daha fazla bilgi için bkz. [Gelişmiş banka mutabakatı içe aktarma sürecini ayarlama](set-up-advanced-bank-reconciliation-import-process.md).  Banka mutabakatı işleminin kurulması için gereksinimler aşağıda açıklanmıştır.
 
 ## <a name="transaction-codes"></a>Hareket kodları
 Hareket kodları, banka mutabakatı eşleştirme kurallarının parçası olarak kullanılabilir. Hareket kodları, Finance ve banka ekstreniz arasında yalnızca aynı türdeki hareketleri eşleştirmeye yardımcı olacaktır. Bu tür bir eşleştirme yapmak için öncelikle Finance içinden banka hareketleri için kullanılan hareket tiplerini tanımlamak, daha sonra bankanız tarafından kullanılan bu ekstre hareket kodlarını eşleştirmek gerekir. Banka hareketleri için hareket türleri, **Banka hareket türü** sayfasında tanımlanır. Burası ayrıca, söz konusu hareket türüyle defter nakillerini ilişkilendirmede kullanılacak ana hesabı tanımladığınız yerdir. 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024254"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814617"
 ---
 # <a name="questionnaires"></a>Soru formları
 
@@ -44,8 +44,8 @@ Aşağıdaki tablo çekirdek anket görevleri hakkındaki bilgilerin bağlantıl
 | Konu| Açıklama|
 |------|------------|
 | [Bir soru formu tasarlama](design-questionnaires.md)  | Bu makale bir anketin nasıl tasarlanacağı hakkında bilgi sağlar. Tasarım işlemi önkoşullar, yanıtlar ve sorular ayarlama ve ardından bunları bir ankette birleştirmeyi kapsar. |
-| [Bir anketi dağıtma ve tamamlama](distribute-questionnaires.md)  | Bu makale bir anketin yanıtlayanlara nasıl dağıtılacağı ve anketlerin nasıl tamamlanacağı hakkında bilgi sağlar.                                                                       |
-| [Bir anketin sonuçlarını görüntüleme ve değerlendirme](evaluate-questionnaire-results.md) | Bu makale tamamlanmış anketlerin sonuçlarının nasıl görüntüleneceği ve değerlendirileceği hakkında bilgi sağlar.                                                                                        |
+| [Soru formlarını dağıtma ve planlama](distribute-questionnaires.md)  | Bu makale bir anketin yanıtlayanlara nasıl dağıtılacağı ve anketlerin nasıl tamamlanacağı hakkında bilgi sağlar.                                                                       |
+| [Soru formunun sonuçlarını görüntüleme ve değerlendirme](evaluate-questionnaire-results.md) | Bu makale tamamlanmış anketlerin sonuçlarının nasıl görüntüleneceği ve değerlendirileceği hakkında bilgi sağlar.                                                                                        |
 
 
 
@@ -54,7 +54,7 @@ Aşağıdaki tablo çekirdek anket görevleri hakkındaki bilgilerin bağlantıl
 
 [Soru formları tasarlama](design-questionnaires.md)
 
-[Soru formlarını dağıtma ve tamamlama](distribute-questionnaires.md)
+[Soru formlarını dağıtma ve planlama](distribute-questionnaires.md)
 
-[Soru formlarının sonuçlarını görüntüleyin ve değerlendirin](evaluate-questionnaire-results.md)
+[Soru formlarının sonuçlarını görüntüleme ve değerlendirme](evaluate-questionnaire-results.md)
 

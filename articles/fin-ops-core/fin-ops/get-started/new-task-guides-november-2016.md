@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 15a645c98fe38e8ddaa34c0c21581eac6636502f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 40317cdef777ca6524feb66caf66ddec3d855d32
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190983"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811613"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)
 
@@ -30,7 +30,7 @@ ms.locfileid: "2190983"
 
 Bu başlık, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır.
 
-(Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı, Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations platformu güncelleştirmesi 3, Dynamics AX Mayıs 2016 uygulama güncelleştirmesi ve Microsoft Dynamics AX Platform güncelleştirmesi 2 ve Microsoft Dynamics AX Şubat 2016 sürümünün Yardım'ı için kullanılması planlanan görev kılavuzlarını içerir. Bu sürümler hakkında daha fazla bilgi için bkz. [Yenilikler veya değişiklikler](whats-new-changed.md). Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta mevcuttur. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md).
+(Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı, Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations platformu güncelleştirmesi 3, Dynamics AX Mayıs 2016 uygulama güncelleştirmesi ve Microsoft Dynamics AX Platform güncelleştirmesi 2 ve Microsoft Dynamics AX Şubat 2016 sürümünün Yardım'ı için kullanılması planlanan görev kılavuzlarını içerir. Bu sürümler hakkında daha fazla bilgi için bkz. [Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler](whats-new-changed.md). Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta mevcuttur. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardım sistemi](help-overview.md).
 
 > [!NOTE]
 > İş süreci modelleyici (BPM) satırı başlığının yanında bulunan yıldız (\*) işareti bu iş sürecine ilişkin Görev kılavuzunun Dynamics 365 for Operations Kasım 2016 güncelleştirmesi için oluşturulduğunu ve Microsoft Dynamics AX uygulamasının önceki sürümlerinde desteklenmediğini gösterir.
@@ -145,7 +145,7 @@ Bu başlık, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 
 | OIOUBL elektronik faturalama için müşteri hesaplarını ayarlama                                                                         | Danimarka                           |
 | OIOUBL elektronik faturası ayarlama                                                                                               | Danimarka                           |
 | Ödeme fişi biçimini ayarlama                                                                                                       | Danimarka                           |
-| \*EEU-00047 Çalışanlara avans ödemesi                                                                                          | Doğu Avrupa                    |
+| \*EEU-00047 Personele avans ödemesi                                                                                          | Doğu Avrupa                    |
 | ISO20022 ödeme biçimi kullanarak satıcı ödemeleri oluşturma ve dışa aktarma                                                                  | Avrupa                            |
 | Otomatik ödeme talimatları olan müşteri için ödemeler oluştur                                                                      | Avrupa                            |
 | \*EE-00015 Ödeme referansı oluşturma aracı                                                                                     | Avrupa                            |
@@ -370,7 +370,7 @@ Bu başlık, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 
 |----------------------------------------------------------------------------|----------------|
 | \*Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme | Genel         |
 | \*Konsinye stok yenileme siparişi oluşturma                                 | Genel         |
-| \*Satıcı işbirliğini kullanarak konsinye stoğu izleme                 | Genel         |
+| \*Satıcı iş birliğini kullanarak konsinye stoğu izleme                 | Genel         |
 
 ### <a name="inventory"></a>Stok
 
@@ -543,8 +543,8 @@ Bu başlık, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Kullanılabilir yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
+[Yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
 
-[Yeni veya güncelleştirilmiş kılavuzlar çıktı (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
+[Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Yeni veya güncelleştirilmiş kılavuzlar kullanıma sunuldu (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
+[Yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)

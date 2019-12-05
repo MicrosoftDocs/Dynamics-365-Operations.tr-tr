@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865340"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813558"
 ---
 # <a name="product-lifecycle-state-overview"></a>Ürün yaşam döngüsü durumuna genel bakış
 
@@ -107,9 +107,9 @@ Serbest bırakılan ürünleri ve ürün çeşitlerini seçmek ve güncelleştir
 
 ## <a name="related-topics"></a>İlgili konular
 
--  [Yeni ürün yaşam döngüsü durumu oluşturma (Görev kılavuzu)](tasks/new-product-lifecycle-state.md)
--  [Varsayılan ürün yaşam döngüsü durumu oluşturma (Görev kılavuzu)](tasks/default-product-lifecycle-state.md)
--  [Serbest bırakılan ana ürüne ürün yaşam döngüsü durumu atama (Görev kılavuzu)](tasks/product-lifecycle-state-released-product-master.md)
--  [Ürün yaşam döngüsü durumunu serbest bırakılan bir ana ürüne atama (Görev kılavuzu)](tasks/product-lifecycle-state-released-product.md)
--  [Eski ürün çeşitlerini bulma ve ürün yaşam döngüsü durumu atama (Görev kılavuzu)](tasks/obsolete-product-variants.md)
--  [Ürünleri Master planlama dışında tutmak için ürün yaşam döngüsü durumu oluşturma (Görev kılavuzu)](tasks/exclude-products-master-planning.md)
+-  [Yeni ürün yaşam döngüsü durumu oluşturma](tasks/new-product-lifecycle-state.md)
+-  [Varsayılan ürün yaşam döngüsü durumu oluşturma](tasks/default-product-lifecycle-state.md)
+-  [Serbest bırakılan ana ürüne ürün yaşam döngüsü durumu atama](tasks/product-lifecycle-state-released-product-master.md)
+-  [Serbest bırakılan ürüne ürün yaşam döngüsü durumu atama](tasks/product-lifecycle-state-released-product.md)
+-  [Eski ürün çeşitlerini bulma ve bir ürün yaşam döngüsü durumu atama](tasks/obsolete-product-variants.md)
+-  [Ürünleri Master planlama dışında tutmak için bir ürün yaşam döngüsü durumu oluşturma](tasks/exclude-products-master-planning.md)

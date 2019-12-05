@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e39328c73fe3dd101e32ec04d895483335184ae7
-ms.sourcegitcommit: 4d6ec2b1a9674712e1efb8c46b919d554f21a2b3
+ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "2627663"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811494"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 
@@ -283,7 +283,7 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 <tr>
 <td>Yeni bir Görev Kaydedici'si kullanarak üretken olun.</td>
 <td>AX 2012 Görev Kaydedici'si, bir uygulama nesne sunucusu (AOS) bilgisayara ve yükseltilmiş yetkilere doğrudan erişime ihtiyaç duyar ve hiçbir düzenleme seçeneği sunmaz.</td>
-<td>Yeni Görev Kaydedici doğrudan web istemcisinde kullanılabilir. Görev Kaydedici'ye erişim yönetici ayrıcalıkları gerektirmez. Kaydedilmiş adımlar kaydettiğiniz esnada canlı olarak izlenebilir, yeni düzenleme seçenekleri sunulmuştur ve görev kaydedici, varolan iş süreci modelleyici (BPM) senaryolarının yanı sıra daha fazla senaryo destekler.</td>
+<td>Yeni Görev Kaydedici doğrudan web istemcisinde kullanılabilir. Görev Kaydedici'ye erişim yönetici ayrıcalıkları gerektirmez. Kaydedilmiş adımlar kaydettiğiniz esnada canlı olarak izlenebilir, yeni düzenleme seçenekleri sunulmuştur ve görev kaydedici, var olan iş süreci modelleyici (BPM) senaryolarının yanı sıra daha fazla senaryo destekler.</td>
 <td>Yeni Görev Kaydedici, kolaylaştırılmış bir deneyim sunar ve Dynamics AX üzerinde yeni yetenekler sağlar. Bu yeteneklerin bazıları şimdi kullanılabilir ve daha fazlası takip edecektir.</td>
 </tr>
 <tr>
@@ -322,7 +322,7 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 <tr>
 <td><strong>Yardım</strong>'a tıklayarak destekli yordamsal Yardım (görev kılavuzları) ve kavramsal konulara erişin.</td>
 <td>AX 2012 Yardım sistemi, yerel web sunucusunda depolanmış olan HTML konulara yönlendirir. Müşteriler ve ortaklar kendi yardımlarını oluşturabilirler.</td>
-<td>Dynamics AX'in mevcut sürümündeki yardım sistemi, Microsoft Dynamics Lifecycle Services (LCS) BPM içinde depolanan görev kılavuzlarını görüntüler. Yardım sistemi aynı zamanda Microsoft belgeler sitesinde de konular görüntüler. Daha fazla bilgi için bkz. <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Dynamics AX Yardımı - Başlarken</a> ve <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Mevcut yeni görev kılavuzları (Şubat 2016)</a>.</td>
+<td>Dynamics AX'in mevcut sürümündeki yardım sistemi, Microsoft Dynamics Lifecycle Services (LCS) BPM içinde depolanan görev kılavuzlarını görüntüler. Yardım sistemi aynı zamanda Microsoft belgeler sitesinde de konular görüntüler. Daha fazla bilgi için bkz. <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Yardım sistemi</a> ve <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Yeni görev kılavuzları (Şubat 2016)</a>.</td>
 <td>Görev kılavuzları, size bir görevin veya iş işlemin adımları boyunca yol gösteren destekli, etkileşimli bir deneyim sağlar. Microsoft'un sağladığı görev kılavuzlarını indirebilir ve özelleştirebilirsiniz. Konu, ürün belgelerini oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve esnek bir yol sağlar. Bu nedenle, en son teknik bilgilerin erişimine sahip olmanızı garanti etmeye yardımcı olur.</td>
 </tr>
 </tbody>
@@ -427,7 +427,7 @@ Yeni özellik eklenmemiştir.
 <tbody>
 <tr>
 <td>Çeşitli ülkelerdeki/bölgelerdeki yasal gereksinimleri karşılamak üzere elektronik belgeler oluşturun ve yapılandırın.</td>
-<td>Elektronik belgeler, X++'da sabit kodlanmıştır veya Genişletilebilir Stil Sayfası Dil Dönüşümleri'dir (XSLT). Herhangi bir biçim ayarlaması geliştirme çabalarını gerektirir. Veri ve biçimlendirmeye erişimi yalıtılmış değildir. Ayarlanmış bir biçim dağıtımı, varolan biçimi geçersiz kılacak yeni bir Microsoft Dynamics AX düzeltme paketi gerektirir. Her biçimin özel değişiklikleri el ile yeni bir Microsoft Dynamics AX düzeltme paketi için kaynak kodu bağlantı noktalar gerekir.</td>
+<td>Elektronik belgeler, X++'da sabit kodlanmıştır veya Genişletilebilir Stil Sayfası Dil Dönüşümleri'dir (XSLT). Herhangi bir biçim ayarlaması geliştirme çabalarını gerektirir. Veri ve biçimlendirmeye erişimi yalıtılmış değildir. Ayarlanmış bir biçim dağıtımı, var olan biçimi geçersiz kılacak yeni bir Microsoft Dynamics AX düzeltme paketi gerektirir. Her biçimin özel değişiklikleri el ile yeni bir Microsoft Dynamics AX düzeltme paketi için kaynak kodu bağlantı noktalar gerekir.</td>
 <td>Elektronik Raporlama (ER) elektronik belgeler oluşturmak ve yapılandırmak için bir geliştirici yerine bir işletme kullanıcısını hedefleyen yeni bir araçtır. ER etki alanına özel ve veri kaynakları olarak Microsoft Dynamics AX veritabanından bağımsız belge biçimleri için veri modelleri oluşturmanıza olanak sağlar. Bir işletme kullanıcısı, bu etki alanına özgü veri modelleri temel alan biçimler yapılandırabilir (örneğin; ödemeler, Intrastat raporları veya vergi raporları). Kullanıcı, Excel'e benzer basit görsel araçlar kullanarak biçimleri yapılandırır. ER şu anda elektronik belgelerin oluşturulması için metin, XML ve Excel biçimlerini destekler. Bu belgeler eşzamanlı olarak oluşturulabilir ve zip dosyalarına paketlenir. Veri modelleri ve biçimleri sürüm oluşturmayı destekler. Biçim sürümlerinin etkin oldukları dönemleri olabilir. Her biçim sürümü veya veri modeli ayrı bir yapılandırma içerisinde depolanır ve ortaklara ve müşterilere LCS aracılığıyla dağıtılır. Ortaklar ve müşteriler Microsoft veri modellerini ve biçimlerini özelleştirebilirler veya kendileri oluşturabilirler. ER ortak ve müşteri yapılandırma değişikliklerini, Microsoft yapılandırmalarına delta olarak kaydeder, bu da Microsoft yapılandırmalarının yeni sürümlerine yükseltmeyi basitleştirir. Ortaklar LCS kullanarak veri modellerini ve biçim yapılandırmalarını da diğer ortaklar ve müşteriler ile paylaşabilirler ve onlar da bunları daha fazla paylaşabilir ve özelleştirebilir. Delta özelleştirme ve kolay yükseltme tüm özelleştirme zincirinde desteklenir.</td>
 <td>ER elektronik belge biçimlerinin çeşitli ülkelerdeki/bölgelerdeki yasal gereksinimleri karşılayacak şekilde oluşturulmasını, bakımını ve sürdürülmesini kolaylaştırır. ER elektronik belge biçimlerini değiştirme veya oluşturma işlemini daha hızlı ve kolay hale getirir. Bu değişiklikler, geliştiriciler yerine iş kullanıcıları tarafından yapılabilir. ER, Microsoft veya diğer ortaklar tarafından yayımlanan biçimlerin yeni sürümlerine yükseltmeyi ortaklar ve müşteriler için daha hızlı ve kolay hale getirir. ER Microsoft ve iş ortaklarının diğer ortakları ve müşterilerine elektronik belge yapılandırmalarını dağıtmaları için (LCS üzerinden) ortak bir yol sağlar. ER ayrıca ortaklar ve müşteriler için özelleştirme, yükseltme ve elektronik belge biçimleri için belirli iş gereksinimlerine dağıtmayı kolaylaştırır.</td>
 </tr>
@@ -1031,6 +1031,6 @@ Yeni özellik eklenmemiştir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Yenilikler veya değişenler](whats-new-changed.md)
+[Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler](whats-new-changed.md)
 
-[Kullanılabilir yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
+[Yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)

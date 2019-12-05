@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190109"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811326"
 ---
 # <a name="create-workflows-overview"></a>İş akışlarına genel bakış
 
@@ -54,21 +54,21 @@ Oluşturabileceğiniz iş akışı türleri, çalışmakta olduğunuz modüle g�
 
 1. Herhangi bir iş akışı öğesinin seçili olmadığından emin olmak için tuvale tıklayın.
 2. İş akışı için **Özellikler** sayfasını açmak için **Özellikler**'e tıklayın.
-3. [İş akışının özelliklerini yapılandırma](configure-workflow-properties.md) konusundaki yordamları uygulayın.
+3. [İş akışı özelliklerini yapılandırma](configure-workflow-properties.md) konusundaki prosedürleri uygulayın.
 
 ## <a name="configure-the-elements-of-the-workflow"></a>İş akışının öğelerini yapılandırma
 
 Tuvalin üzerine sürüklediğiniz tüm öğeleri yapılandırın. Tüm iş akışı öğelerini nasıl yapılandıracağınız hakkında daha fazla bilgi için aşağıdaki konulara bakın:
 
-- [El ile girilen bir görev yapılandırma](configure-manual-task-workflow.md)
-- [Otomatik bir görev yapılandırma](configure-automated-task-workflow.md)
-- [Onay süreci konfigüre etme](configure-approval-process-workflow.md)
-- [Onay adımını yapılandırma](configure-approval-step-workflow.md)
-- [El ile girilen kararı yapılandırma](configure-manual-decision-workflow.md)
-- [Koşullu kararı yapılandırma](configure-conditional-decision-workflow.md)
-- [Paralel faaliyeti yapılandırma](configure-parallel-activity-workflow.md)
-- [Paralel dal yapılandırma](configure-parallel-branch-workflow.md)
-- [Satır maddesi iş akışı yapılandırma](configure-line-item-workflow.md)
+- [İş akışında el ile girilen görevleri yapılandırma](configure-manual-task-workflow.md)
+- [İş akışında otomatikleştirilmiş görevleri yapılandırma](configure-automated-task-workflow.md)
+- [İş akışında onay işlemlerini yapılandırma](configure-approval-process-workflow.md)
+- [İş akışında onay adımlarını yapılandırma](configure-approval-step-workflow.md)
+- [İş akışında el ile girilen kararları yapılandırma](configure-manual-decision-workflow.md)
+- [İş akışında koşullu kararları yapılandırma](configure-conditional-decision-workflow.md)
+- [İş akışında paralel dalları yapılandırma](configure-parallel-activity-workflow.md)
+- [Paralel dalı yapılandırma](configure-parallel-branch-workflow.md)
+- [Satır maddesi iş akışlarını yapılandırma](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>Hatalar veya uyarıları çözümleme
 

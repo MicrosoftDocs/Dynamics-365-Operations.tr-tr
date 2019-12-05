@@ -1,5 +1,5 @@
 ---
-title: İçeriği Dynamics 365 Talent - Onboard'da diğer katkıda bulunanlarla paylaşma
+title: İçeriği Dynamics 365 Talent - Onboard'ta diğer katkıda bulunanlarla paylaşma
 description: Bu konularda Microsoft Dynamics 365 Talent - Onboard uygulamasındaki diğer katkıda bulunanlarla işe alım ve alıştırma kılavuz ve şablonlarının nasıl paylaşılabildiği açıklanmaktadır.
 author: andreabichsel
 manager: ''
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 010d68b79300d15292dbcd4754eed8aac115cdce
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551461"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812845"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>İçeriği Dynamics 365 Talent - Onboard'da diğer katkıda bulunanlarla paylaşma
+# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>İçeriği Dynamics 365 Talent - Onboard'ta diğer katkıda bulunanlarla paylaşma
 
 [!include [banner](includes/banner.md)]
 
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 Talent: Onboard - Onboard, belgeleri gözden geçirebilme
 
 3. **Alıcı** altında alıcılar şablonu gözden geçirebilmeliyse, **Bu kişiler düzenleyebilir mi?** seçeneği **Açık** olarak ayarlayın. Alıcılar, şablonu onlarla paylaştığınız e-posta yoluyla bildirilirse, **alıcılara e-posta gönder bildirimini** **Aç**'a ayarlayın.
 
-    [!Şablon için erişim ve e-posta tercihlerini ayarlama](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
+    [![Şablon için erişim ve e-posta tercihlerini ayarlama](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. Bir ad veya e-posta adresi girin ve açılan listede istenen alıcıyı seçin.
 5. **Erişimi Yönet** sekmesinde, alıcıların şablonla yapabileceklerini gözden geçirebilir veya değiştirebilirsiniz. Alıcının erişimini değiştirmek için, alıcının adının yanındaki açılır listede, uygun olarak**Görüntüleyebilir**, **Düzenleyebilir** veya **Kaldır**'ı seçin.
@@ -62,12 +62,12 @@ Microsoft Dynamics 365 Talent: Onboard - Onboard, belgeleri gözden geçirebilme
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [İçeriği diğer katkıda bulunanlarla paylaşın](./onboard-share-template.md)
-- [Görevlerin ve işe alınan çalışanların durumunu görüntüleme](./onboard-view-status.md)
-- [Onboard'da işe alma ekipleri oluşturun](./onboard-create-team.md)
+- [Görevlerin ve işe alınan personelin durumunu görüntüleme](./onboard-view-status.md)
+- [Onboard'ta işe alma ekipleri oluşturun](./onboard-create-team.md)
 
 ### <a name="see-also"></a>Ayrıca bkz.
 
 - [Onboard uygulamasını deneyin veya satın alın](https://dynamics.microsoft.com/talent/onboard/)
-- [Yenilikler](./whats-new.md)
-- [Sürüm notları](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Destek alma](./talent-support.md)
+- [Dynamics 365 Talent'teki yenilikler veya değişiklikler](./whats-new.md)
+- [Sürüm planları](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Microsoft Dynamics 365 Talent için destek alma](./talent-support.md)

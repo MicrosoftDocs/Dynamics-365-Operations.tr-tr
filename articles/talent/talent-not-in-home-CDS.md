@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 956af80a8ab2f454d9f523d3c74dda754ef0f793
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 7f0cc1c7ec1234b7eedaade0ffadb66965ed2121
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009391"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773000"
 ---
 # <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a>Talent Microsoft Dynamics 365 uygulamaları (Common Data Service 1.0) arasında görünmüyor
 
@@ -34,9 +34,9 @@ Müşteri, Microsoft Dynamics 365 Talent uygulamasını Microsoft Dynamics 365 u
 
 **Çözünürlük**
 
-Kullanıcı, Microsoft PowerApps içinde Ortam Oluşturucu rolüne eklenmiş olmalıdır.
+Kullanıcı, Microsoft Power Apps içinde Ortam Oluşturucu rolüne eklenmiş olmalıdır.
 
-1. [PowerApps Yönetim portalını](https://preview.admin.powerapps.com/) PowerApps Plan 2 lisansına sahip yönetici kullanıcı açmalıdır.
+1. [Power Apps Yönetim portalını](https://preview.admin.powerapps.com/) Power Apps Plan 2 lisansına sahip yönetici kullanıcı açmalıdır.
 2. **Ortamlar**'ı seçin ve Talent için doğru ortamı seçin.
 3. **Güvenlik** sekmesinde, **Ortam rolleri** sekmesinde **Ortam Oluşturucu**'yu seçin.
 

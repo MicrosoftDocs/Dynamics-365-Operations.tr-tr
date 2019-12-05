@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 50ce332673e130dace38f596020973d37c34b566
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248969"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813512"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Satıcı iş birliği kullanıcılarını yönetme
 
@@ -31,12 +31,12 @@ ms.locfileid: "2248969"
 
 Bu konu, yeni satıcı iş birliği kullanıcıları hazırlama talebinde bulunma ve yeni satıcı iş birliği kişileri ekleme konularını ele alır. 
 
-Dynamics 365 Supply Chain Management'taki satıcı iş birliği arabirimi; satınalma siparişleri, faturalar ve harici satıcılara konsinye stok hakkında bilgi sağlar. **Satıcı yöneticisi (harici)** güvenlik rolü ya da benzer izinlerle harici satıcı olarak çalışıyorsanız yeni kullanıcıların sağlandığı yeni satıcı iş birliği kişileri ve talepleri oluşturabilirsiniz. Tedarik profesyoneli olarak çalışıyorsanız da bu görevleri gerçekleştirebilirsiniz. Bu konuda bu rol, Supply Chain Management kurulumuna sahip bir şirkette çalışan tedarik profesyoneli anlamına gelir. Harici satıcı iseniz satıcı işbirliğini kullanma hakkında daha fazla bilgi için bkz. [Müşterili satıcı](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Dynamics 365 Supply Chain Management'taki satıcı iş birliği arabirimi; satınalma siparişleri, faturalar ve harici satıcılara konsinye stok hakkında bilgi sağlar. **Satıcı yöneticisi (harici)** güvenlik rolü ya da benzer izinlerle harici satıcı olarak çalışıyorsanız yeni kullanıcıların sağlandığı yeni satıcı iş birliği kişileri ve talepleri oluşturabilirsiniz. Tedarik profesyoneli olarak çalışıyorsanız da bu görevleri gerçekleştirebilirsiniz. Bu konuda bu rol, Supply Chain Management kurulumuna sahip bir şirkette çalışan tedarik profesyoneli anlamına gelir. Harici satıcıysanız satıcı iş birliğini kullanma hakkında daha fazla bilgi için bkz. [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Tedarik uzmanıysanız satıcı işbirliğini kullanma hakkında daha fazla bilgi için bkz. [Harici satıcılarla satıcı iş birliği](vendor-collaboration-work-external-vendors.md).
+Tedarik uzmanıysanız satıcı iş birliğini kullanma hakkında daha fazla bilgi için bkz. [Harici satıcılarla satıcı iş birliği](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="add-new-vendor-collaboration-contacts"></a>Yeni satıcı iş birliği kişileri ekleme
-Bir kullanıcının satıcı iş birliğine erişimi olmasını istiyorsanız ilk olarak satıcı iş birliği ilgili kişisi olarak eklenmesi gerekir. Şirketinizdeki satıcı iş birliğini kullanmayan çalışanlar için de kişi eklemek isteyebilirsiniz. Örneğin, diğer tedarik bilgisi türleri için iletişim noktası olabilirler. Yeni kişiler, **Satıcı işbirliği** &gt; **Kişiler** menüsünden erişilebilen **Tüm kişiler** sayfasından eklenir. Yeni bir ilgili kişi eklemek için:
+Bir kullanıcının satıcı iş birliğine erişimi olmasını istiyorsanız ilk olarak satıcı iş birliği ilgili kişisi olarak eklenmesi gerekir. Şirketinizdeki satıcı iş birliğini kullanmayan çalışanlar için de kişi eklemek isteyebilirsiniz. Örneğin, diğer tedarik bilgisi türleri için iletişim noktası olabilirler. Yeni kişiler, **Satıcı iş birliği** &gt; **Kişiler** menüsünden erişilebilen **Tüm kişiler** sayfasından eklenir. Yeni bir ilgili kişi eklemek için:
 
 1.  **Yeni**'ye tıklayın.
 2.  İlgili kişi ayrıntılarını girin.
@@ -45,15 +45,15 @@ Bir kullanıcının satıcı iş birliğine erişimi olmasını istiyorsanız il
 
 Yalnızca kendi oluşturduğunuz ilgili kişileri silebilirsiniz.
 
-## <a name="vendor-collaboration-user-requests"></a>Satıcı işbirliği kullanıcısı istekleri
+## <a name="vendor-collaboration-user-requests"></a>Satıcı iş birliği kullanıcısı istekleri
 Satıcı iş birliği kullanıcısı istekleri bir tedarik profesyoneli veya harici satıcı yöneticisi tarafından yapılabilir.
 
--   Harici satıcı iseniz **Satıcı işbirliği** modülündeki **Tüm kişiler** sayfasından istekleri gönderirsiniz.
+-   Harici satıcı iseniz **Satıcı iş birliği** modülündeki **Tüm kişiler** sayfasından istekleri gönderirsiniz.
 -   Tedarik profesyoneli iseniz **İlgili kişileri görüntüle** sayfasından istekleri gönderirsiniz. Bunu yapmak için satıcı kaydının Eylem bölmesindeki **Kurulum** bölümünde **Kişiler** &gt; **İlgili kişileri görüntüle**'yi seçin.
 
 Kullanıcıyı hazırlamak, devre dışı bırakmak veya güvenlik rollerini değiştirmek için de istek gönderebilirsiniz. Harici satıcı yöneticisi iseniz kullanıcı istekleri göndermek istediğiniz satıcı hesaplarında ilgili kişi olarak kayıtlı olmanız gerekir ve bu satıcı hesapları için satıcı iş birliği arabirimine erişiminiz olmalıdır.  
 
-İstek gönderildiğinde **Satıcı işbirliği** modülündeki **Satıcı işbirliği kullanıcısı istekleri** ve **Tedarik ve kaynak atama** modülündeki **Satıcı işbirliği kullanıcısı isteği** listelerine eklenir. (Tedarik ve kaynak atama modülüne harici kullanıcılar erişemez.)
+İstek gönderildiğinde **Satıcı iş birliği** modülündeki **Satıcı iş birliği kullanıcısı istekleri** ve **Tedarik ve kaynak atama** modülündeki **Satıcı iş birliği kullanıcısı isteği** listelerine eklenir. (Tedarik ve kaynak atama modülüne harici kullanıcılar erişemez.)
 
 ### <a name="provision-a-user"></a>Kullanıcıyı hazırlama
 
@@ -61,17 +61,17 @@ Yeni bir kullanıcı hazırlanması için istekte bulunmadan önce ilgili kişin
 
 1. **Tüm kişiler** sayfasındaki **Provizyon satıcı kullanıcısı**'na tıklayın.
 2. Kullanıcının e-posta adresini girin. Bu adres, kullanıcı tarafından Supply Chain Management'ta oturum açmak için kullanılır. E-posta adresi, Microsoft Azure'da kiracı olarak kayıtlı bir etki alanına aitse hazırlama işleminin başarıyla tamamlanması için e-posta adresi mevcut bir Azure Active Directory (AAD) hesabı olmalıdır. E-posta adresi Microsoft Azure'da kayıtlı bir etki alanına ait değilse hazırlama işleminin bir parçası olarak AAD hesabı oluşturulur ve yeni kullanıcı bir davet e-postası alır. Kullanıcı kaydı için @hotmail.com, @gmail.com veya @comcast.net gibi etki alanları olan tüketici e-posta adresleri kullanılamaz.
-3. Kullanıcının erişimi olması gereken tüm tüzel kişilikler için **Satıcı işbirliği erişimine izin verildi** seçeneğini **Evet** olarak ayarlayın.
+3. Kullanıcının erişimi olması gereken tüm tüzel kişilikler için **Satıcı iş birliği erişimine izin verildi** seçeneğini **Evet** olarak ayarlayın.
 4. **Kullanıcı rolleri ata** bölümünde, yeni kullanıcının sahip olması gereken güvenlik rolleri için **Ata** onay kutusunu işaretleyin.
 5. **Gönder**'e tıklayın.
 
-Satıcı kullanıcısı talebi gönderildiğinde, **Satıcı işbirliği erişimine izin verildi** alanı seçilen satıcı hesabı için **Evet** olarak ayarlanır ve kullanıcı talebi iş akışı başlatılır. İş akışının bir parçası olarak, yeni bir kullanıcı oluşturulur ve güvenlik rolleri atanır. Buna ek olarak, Azure portalı ile etkileşim başlatan ve yeni veya mevcut bir AAD hesabını Supply Chain Management kullanıcı hesabı ile ilişkilendiren bir Azure B2B hizmeti etkinleştirilir. Daha fazla bilgi için bkz. [Azure AD B2B işbirliği nedir?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Satıcı kullanıcısı talebi gönderildiğinde, **Satıcı iş birliği erişimine izin verildi** alanı seçilen satıcı hesabı için **Evet** olarak ayarlanır ve kullanıcı talebi iş akışı başlatılır. İş akışının bir parçası olarak, yeni bir kullanıcı oluşturulur ve güvenlik rolleri atanır. Buna ek olarak, Azure portalı ile etkileşim başlatan ve yeni veya mevcut bir AAD hesabını Supply Chain Management kullanıcı hesabı ile ilişkilendiren bir Azure B2B hizmeti etkinleştirilir. Daha fazla bilgi için bkz. [Azure AD B2B iş birliği nedir?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Kullanıcıyı devre dışı bırakma
 
 İlgili kullanıcının satıcı iş birliğine olan erişimini kaldırmanın iki yolu bulunmaktadır:
 
--   Satıcının **İlgili kişiler** sayfasındaki **Satıcı işbirliği erişimine izin verildi** seçeneğini ilgili kişi için **Hayır** olarak ayarlayın. Bu, ilgili kişinin bağlantıda olduğu her bir tüzel kişilik için tek tek yapılabilir. Bu seçenek yalnızca tedarik profesyonelleri tarafından kullanılabilir.
+-   Satıcının **İlgili kişiler** sayfasındaki **Satıcı iş birliği erişimine izin verildi** seçeneğini ilgili kişi için **Hayır** olarak ayarlayın. Bu, ilgili kişinin bağlantıda olduğu her bir tüzel kişilik için tek tek yapılabilir. Bu seçenek yalnızca tedarik profesyonelleri tarafından kullanılabilir.
 -   Tüm kullanıcı hesabını **Satıcı kullanıcısını devre dışı bırak** isteği göndererek devre dışı bırakın.
 
 Bir kullanıcının devre dışı bırakılmasını talep etmek için:

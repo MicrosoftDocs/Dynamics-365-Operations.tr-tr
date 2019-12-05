@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b6219b7e277e00a74743fe00957c1bb6225b373
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c04d62491459e743ec5ae7a188326e7afd9314e4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566612"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813213"
 ---
 # <a name="create-service-agreement-groups"></a>Servis sözleşmesi grupları oluşturma 
 
@@ -42,4 +42,4 @@ Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrel
 
 ## <a name="related-topics"></a>İlgili konular
 
-[Servis anlaşması grupları](service-agreement-groups.md)
+[Servis sözleşmesine genel bakış](service-agreement-groups.md)

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent  - Attract'ta şirket bilgilerini yapılandırma
+title: Attract'te şirket bilgilerini yapılandırma
 description: Bu konuda, Microsoft Dynamics 365 Talent  - Attract için şirket bilgilerinin ve markasının nasıl yapılandırılacağı açıklanmaktadır.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551618"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833266"
 ---
-# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>Microsoft Dynamics 365 Talent  - Attract'ta şirket bilgilerini yapılandırma
-[!include[banner](../includes/banner.md)]
+# <a name="configure-company-information-in-attract"></a>Attract'te şirket bilgilerini yapılandırma
+
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract Yönetim merkezinde Attract uygulaması için yapılandırma ayarları, tümleştirme seçenekleri ve ayar seçeneklerini bulunur.
 
@@ -48,11 +49,11 @@ Yeni özellikler eklendiğinde herkese açık bir önizlemede sunulabilir. Herke
 
 ## <a name="template-management"></a>Şablon yönetimi
 
-İşlem şablonu, bir işin işe alma işleminin parçası olarak dahil edilmesi gereken tüm faaliyetleri içerir. Kurumunuz, tüm ekip üyeleri veya yalnızca yöneticilerin işe alma işlem şablonları oluşturmasına izin verebilir. Ekip üyelerinin kendi işe alma işlem şablonlarını oluşturmasına izin vermek için Şablon yönetimi işlevini etkinleştirin. İşlem şablonları hakkında daha fazla bilgi için bkz. [Attract'ta işlem şablonları](./process-templates-attract.md).
+İşlem şablonu, bir işin işe alma işleminin parçası olarak dahil edilmesi gereken tüm faaliyetleri içerir. Kurumunuz, tüm ekip üyeleri veya yalnızca yöneticilerin işe alma işlem şablonları oluşturmasına izin verebilir. Ekip üyelerinin kendi işe alma işlem şablonlarını oluşturmasına izin vermek için Şablon yönetimi işlevini etkinleştirin. İşlem şablonları hakkında daha fazla bilgi için bkz. [Attract'te işlem şablonu oluştur](./process-templates-attract.md).
 
 ## <a name="email-template-settings"></a>E-posta şablonu ayarları
 
-Kuruluşlar, çeşitli senaryolar için e-posta şablonları oluşturabilir. E-posta şablonlarını dahil edecek başlık resmi seçebilirsiniz. Seçili başlık daha sonra tüm e-posta şablonları içinde görünür. Şablon altbilgisinde, kuruluşunuzun gizlilik bildirimine ve iletişim için kullanım koşullarına bir bağlantı ekleyebilirsiniz. Daha fazla bilgi için bkz. [Attract'ta e-posta şablonları](./email-templates.md).
+Kuruluşlar, çeşitli senaryolar için e-posta şablonları oluşturabilir. E-posta şablonlarını dahil edecek başlık resmi seçebilirsiniz. Seçili başlık daha sonra tüm e-posta şablonları içinde görünür. Şablon altbilgisinde, kuruluşunuzun gizlilik bildirimine ve iletişim için kullanım koşullarına bir bağlantı ekleyebilirsiniz. Daha fazla bilgi için bkz. [E-posta şablonları](./email-templates.md).
 
 ## <a name="offer-process"></a>Teklif süreci
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 27c9bf32a88858ec2d2214f18ff96138c29e59bc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653545"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815169"
 ---
 # <a name="demand-forecasting-overview"></a>Talep tahminine genel bakış
 
@@ -76,15 +76,15 @@ Talep tahmini, üretim sektöründeki müşterilere tahmin süreçleri oluşturm
 
 [Talep tahmini kurulumu](demand-forecasting-setup.md)
 
-[İstatistik temel tahmin oluşturma](generate-statistical-baseline-forecast.md)
+[İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md)
 
 [Temel tahminde manüel ayarlamalar yapma](manual-adjustments-baseline-forecast.md)
 
-[Ayarlanmış tahmini yetkilendirme](authorize-adjusted-forecast.md)
+[Düzeltilen tahmini yetkilendirme](authorize-adjusted-forecast.md)
 
 [Tahmin doğruluğunu izleme](monitor-forecast-accuracy.md)
 
-[Bir talep tahmin hesaplarken, geçmiş işlem verilerinden aykırı değerleri kaldırın.](remove-historical-outliers-calculating-demand-forecast.md)
+[Bir talep tahmini hesaplarken aykırı değerleri geçmiş hareket verilerinden kaldırma](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Talep tahmini işlevini genişletme](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 

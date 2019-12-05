@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a4945f47c86d490f40a6b00cb823e6a6005e0ee4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550521"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770908"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Konum ve taraf ilişkisi türlerini ekleme 
 
@@ -41,7 +41,7 @@ Adres ve iletişim bilgileri için yeni konum rolleri eklemenin iki yolu vardır
 
     1.  **LogisticsLocationRoleType** enum'una bir uzantı oluşturun ve uzantıda yeni rolü ekleyin. 
   
-        ![LogisticsLocationRoleType](media/Logistics.PNG)
+        ![LogisticsLocationRoleType numaralandırmasının uzantısı](media/Logistics.PNG)
 
     2. Yeni rol için yeni bir kaynak dosyası oluşturun ve özellikleri için bir değer atayın.
      
@@ -69,7 +69,7 @@ Yeni bir ilişki türü eklemek için iki yol vardır:
 
     2. Bu yeni tür için bir başlatıcı oluşturun. Temel kodda **DirRelationshipTypeChildInitialize** gibi çeşitli örnekler bulabilirsiniz. Bu "Child" taraf ilişkisi türü için bir başlatıcı sınıfıdır. Bu kodu kopyalayıp yapıştırarak ve ardından vurgulanan alanları güncelleştirerek başlatıcınızla çalışmaya başlayabilirsiniz.
     
-    ![DirRelationshipChild](media/DirRelationship.PNG)
+    ![DirRelationshipChild başlatıcı](media/DirRelationship.PNG)
 
     3.  Yeni ilişki türü popülasyonunu test etmek için çalıştırılabilir bir sınıf oluşturup Main() işlevinde DirDataPopulation::insertDirRelationshipTypes() çağırabilirsiniz. Yeni ilişki türünü **DirRelationshipTypeTable** tablosunda göreceksiniz ve bu yeni ilişki türü **İlişki türleri** sayfasında yer alacaktır.
 

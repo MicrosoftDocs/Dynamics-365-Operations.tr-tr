@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e21854825019a73dc8d7bf5a3ee18d508123f72
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: a85f804344abec37d85e1ce15f064c8a0b901546
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743210"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813121"
 ---
 # <a name="set-up-disposition-codes"></a>Elden çıkarma kodlarını ayarla 
 
@@ -32,7 +32,7 @@ ms.locfileid: "1743210"
 
 Müşteri tarafından iade edilen bir maddenin nasıl işleneceğini belirtmek için elden çıkarma kodları ayarlayabilirsiniz. Örneğin, iade edilen maddenin onarılacağını ve müşteriye geri gönderileceğini belirtmek için **Onar ve iade et** adlı bir elden çıkarma kodu oluşturun. Müşteriler tarafından iade edilen maddeler için genel olarak kullanılan elden çıkarma kodlarıyla ilgili daha fazla örnek için bkz. [İade edilen maddelerin nasıl elden çıkarılacağını belirtme](specify-how-to-dispose-of-returned-items.md).
 
-Bir maddenin neden iade edildiğini açıklamaya yardımcı olmak için bir neden kodu da ayarlayabilirsiniz. Neden kodları ayarlama hakkında daha fazla bilgi için bkz. [İade neden kodu ayarlama](set-up-return-reason-code.md).
+Bir maddenin neden iade edildiğini açıklamaya yardımcı olmak için bir neden kodu da ayarlayabilirsiniz. Neden kodları hakkında daha fazla bilgi için bkz. [İade neden kodlarını ayarlama](set-up-return-reason-code.md).
 
 1.  **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **İadeler** \> **Elden çıkarma kodları**'na tıklayın.
 
@@ -46,7 +46,7 @@ Bir maddenin neden iade edildiğini açıklamaya yardımcı olmak için bir nede
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Elden çıkarma kodları ve iade nedeni kodları](disposition-and-return-reason-codes.md)
+[Müşteri iadelerine genel bakış](disposition-and-return-reason-codes.md)
 
 [Elden çıkarma kodları (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 

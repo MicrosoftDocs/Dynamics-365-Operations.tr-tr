@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622780"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830198"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Dynamics 365 Talent ile Dynamics 365 Finance tümleştirmesi SSS
 
@@ -48,7 +48,7 @@ Varsayılan olarak, Common Data Service tümleştirmesi sağlanan demo verileri 
 
 Mali boyutlar şu anda Common Data Service içinde mevcut değildir ve bunu sonucunda varsayılan şablonun parçası değildir. Bu varlık planlanmıştır, ancak şu anda zaman çizelgesi mevcut değildir.
 
-Finance'te bulunan ancak Talent'ta bulunmayan veriler için, Talent'taki **Bağlantıları yapılandır**'ı kullanarak iki sistemi birbirine bağlayın. Talent ve Finance arasındaki bağlantıları yapılandırma hakkında daha fazla bilgi için bkz. [Dynamics 365 Talent: Core HR'daki yenilikler veya değişiklikler (31 Ekim 2018)](whats-new-talent-october-31.md).
+Finance'te bulunan ancak Talent'ta bulunmayan veriler için, Talent'taki **Bağlantıları yapılandır**'ı kullanarak iki sistemi birbirine bağlayın. Talent ve Finance arasındaki bağlantıları yapılandırma hakkında daha fazla bilgi için bkz. [Dynamics 365 Talent - Core HR'deki yenilikler veya değişiklikler (31 Ekim 2018)](whats-new-talent-october-31.md).
 
 ![Mali boyutları eşle](media/MapFinancialDimensions.png)
 
@@ -69,7 +69,7 @@ Veri eşitleme yürütme planını izler. Tümleştirme, alanın tümleştirme e
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Belirli bir varlık için hangi alanların Finance'e gönderileceğini belirtebilir miyim?
 
 Alanlar tümleştirme görevinden eklenebilir veya çıkartılabilir. Common Data Service varlığı içinde mevcut olan tüm veri alanları Core HR'dan doldurulmayacaktır.
-Ek veriler PowerApps ile doldurulabilir.
+Ek veriler Power Apps ile doldurulabilir.
 
 ![Bir tümleştirme görevinden alanları ekleyin veya çıkartın](media/SpecifyFieldsIncludedInIntegration.png)
 
@@ -93,7 +93,7 @@ Veri Tümleştiricinin ilk çalıştırılması her zaman tam çalıştırmadır
 
 Tümleştirme anahtarlarınızı kurulumunu denetleyin, kurulum için gerekli değişiklikleri yapın ve sonra varlıkları projedeki yenileyin.
 
-Varsayılan şablon kullanıldığında, tümleştirme anahtarları otomatik olarak alınacak. Varolan şablona yeni görevler eklendiğinde bu sorun ortaya çıkabilir.
+Varsayılan şablon kullanıldığında, tümleştirme anahtarları otomatik olarak alınacak. Var olan şablona yeni görevler eklendiğinde bu sorun ortaya çıkabilir.
 
 ## <a name="if-i-have-n-number-of-legal-entities-where-workers-have-employments-do-i-need-to-create-a-mapping-for-each-of-them"></a>Çalışanların işe sahip olduğu N sayıda tüzel varlığa sahipsem, bunların her biri için eşleşme oluşturmam gerekir mi?
 
@@ -101,7 +101,7 @@ Evet, Finance'teki her bir tüzel kişilik için, veri tümleştirmede ayrı bir
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Microsoft tarafından sağlanan varsayılan şablonun parçası olmayan verileri aktarmak gerekiyor. Bunu yapabilir miyim?
 
-Evet, varolan şablondan alanlar kaldırılabilir veya eklenebilir. Şablon diğer Common Data Service varlıkları için ek verileri dahil etmek üzere değiştirilebilir. Varlığın, şablona dahil edilmesi için Common Data Service içinde olması gerekir. 
+Evet, var olan şablondan alanlar kaldırılabilir veya eklenebilir. Şablon diğer Common Data Service varlıkları için ek verileri dahil etmek üzere değiştirilebilir. Varlığın, şablona dahil edilmesi için Common Data Service içinde olması gerekir. 
 
 ## <a name="i-just-created-new-finance-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Kısa süre önce Finance ve Talent ortamları oluşturdum ve "Veri değeri tutarlılık kısıtlamalarını ihlal ediyor" hatasını alıyorum. Neden?
 
@@ -119,19 +119,19 @@ Veri Tümleştirici yürütme geçmişinden zamanı takip edin ve Finance'te diz
 
 1. Veri Tümleştiricisinden görev dizinini yakalayın (bu örnekte "9"dur).
 
-![Veri Tümleştiricisinden görev dizinini yakalayın.](media/CaptureTaskIndex.png)
+    ![Veri Tümleştiricisinden görev dizinini yakalayın.](media/CaptureTaskIndex.png)
 
 2. Projenin yürütme zamanını izleyin.
 
-![Projenin yürütme zamanını izleyin](media/CaptureTimeOfExecution.png)
+    ![Projenin yürütme zamanını izleyin](media/CaptureTimeOfExecution.png)
 
 3. Finance'te - 1 dizini belirleyin. Bu örnekte, sonek "8"e sahip olan ve yürütme zamanı dizin "0" projesi olan proje, Adım 2'deki yürütme zamanı ile eşleşiyor.
 
-![Dizini tanımlayın](media/IdentifyIndex.png)
+    ![Dizini tanımlayın](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>Talent ve Finance'i tümleştirdikten sonra Talent verilerimi Finance'te görmüyorum. Ne yapmam gerekir?
 
-Finance'e tümleştirme iki adımlı bir işlemdir. Öncelikle, Talent verisinin güncelleştirilmiş ve Common Data Service içinde kullanılabilir olduğundan emin olun. Bu neredeyse gerçek zamanlı bir eşitlemedir ve PowerApps içinde veri girişleri içindeki veriye bakarak doğrulanabilir.
+Finance'e tümleştirme iki adımlı bir işlemdir. Öncelikle, Talent verisinin güncelleştirilmiş ve Common Data Service içinde kullanılabilir olduğundan emin olun. Bu neredeyse gerçek zamanlı bir eşitlemedir ve Power Apps içinde veri girişleri içindeki veriye bakarak doğrulanabilir.
 
 ![Common Data Service içindeki veri](media/DataInCDS.png)
 
@@ -168,7 +168,7 @@ Finance'te veri varlıklarını **Veri yönetimi \> Çerçeve Parametreleri \> V
 
   - [Veri Tümleştirici hata yönetimi ve sorun giderme](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [PowerApps, Microsoft Flow ve Common Data Service'te sistemin oluşturduğu günlükler için DSR taleplerine yanıt verme](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Power Apps, Microsoft Power Automate ve Common Data Service'te sistem tarafından oluşturulan günlükler için DSR taleplerine yanıt verme](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Veri Yönetimi:
 

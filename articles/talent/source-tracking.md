@@ -1,5 +1,5 @@
 ---
-title: Aday profilleri ve başvurular için kaynakları izleme
+title: Attract'te aday kaynaklarını izleme
 description: Bu konu, aday profilleri ve uygulamaları için kaynağı izleme hakkında bilgi sağlar.
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551899"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832685"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Aday profilleri ve başvurular için kaynakları izleme
+# <a name="track-candidate-sources-in-attract"></a>Attract'te aday kaynaklarını izleme
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > Bu konuda belirtilen işlev önizleme sürümünün bir parçası kullanılabilir. İçerik ve işlevde değişiklik yapılabilir. Bu özelliği kullanmak için bir yöneticinin Attract içinde **Yönetim ayarları**'nı kullanarak etkinleştirmesini isteyin. Gelecekteki bir sürüm kaynak izleme raporları sağlayacaktır. Daha fazla bilgi için bkz [Talent içinde önizleme özelliklerine erişin](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553103"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771433"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER şablonlarının yedekleme depolaması
 
 [!include [banner](../includes/banner.md)]
 
-[Elektronik raporlama (ER) çerçevesi](general-electronic-reporting.md) iş kullanıcılarının giden belgelerin biçimini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmasına olanak tanır. Yapılandırılan ER biçimleri Microsoft Excel çalışma kitapları, Microsoft Word belgeleri veya PDF belgeleri gibi çeşitli biçimlerde giden belgeler oluşturmak için önceden tanımlanmış şablonları kullanılabilir. Şablonlar, oluşturulan belgeler için yapılandırılan veri akışının gerektirdiği verilerle doldurulur.
+[Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md) iş kullanıcılarının giden belgelerin biçimini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmasına olanak tanır. Yapılandırılan ER biçimleri Microsoft Excel çalışma kitapları, Microsoft Word belgeleri veya PDF belgeleri gibi çeşitli biçimlerde giden belgeler oluşturmak için önceden tanımlanmış şablonları kullanılabilir. Şablonlar, oluşturulan belgeler için yapılandırılan veri akışının gerektirdiği verilerle doldurulur.
 
 Yapılandırılan her biçim, bir ER çözümünün parçası olarak yayımlanabilir. Her ER çözümü, Finance and Operations'ın bir örneğinden dışa aktarılabilir ve başka bir örneğin içine aktarılabilir.
 
-ER çerçevesi, geçerli Finance and Operations örneği için gerekli şablonları korumak amacıyla [Belge yönetimi çerçevesini](../../fin-ops/organization-administration/configure-document-management.md) kullanır. ER çerçevesinin ayarlarına bağlı olarak, Microsoft Azure Blob depolama veya Microsoft SharePoint klasörü, şablonların fiziksel birincil depolama konumu olarak seçilebilir. (Daha fazla bilgi için, bkz. [ER çerçevesini yapılandırma](electronic-reporting-er-configure-parameters.md).) DocuValue tablosu her şablon için tek bir kayıt içerir. Her kayıtta, **AccessInformation** alanı yapılandırılmış depolama konumunda bulunan bir şablon dosyasının yolunu depolar.
+ER çerçevesi, geçerli Finance and Operations kurulumu için gerekli şablonları korumak amacıyla [Belge yönetimini yapılandırma](../../fin-ops/organization-administration/configure-document-management.md) özelliğini kullanır. ER çerçevesinin ayarlarına bağlı olarak, Microsoft Azure Blob depolama veya Microsoft SharePoint klasörü, şablonların fiziksel birincil depolama konumu olarak seçilebilir. (Daha fazla bilgi için bkz. [Elektronik raporlama (ER) çerçevesini yapılandırma](electronic-reporting-er-configure-parameters.md).) DocuValue tablosu her şablon için tek bir kayıt içerir. Her kayıtta, **AccessInformation** alanı yapılandırılmış depolama konumunda bulunan bir şablon dosyasının yolunu depolar.
 
 Finance and Operations örneklerinizi yönetirken, geçerli örneği başka bir konuma geçirmeye karar verebilirsiniz. Örneğin, üretim örneğinizi yeni bir korumalı alan ortamına geçirebilirsiniz. ER çerçevesini Blob depolamada şablon depolamak üzere yapılandırırsanız, yeni korumalı alan ortamındaki DocuValue tablosu, üretim ortamındaki Blob depolama örneğine başvurur. Ancak, geçiş işlemi Blob depolamadaki yapıların geçirilmesini desteklemediğinden, bu örneğe korumalı alan ortamından erişilemez. Bu nedenle, iş belgeleri oluşturmak için şablon kullanan bir ER biçimini çalıştırmaya çalışırsanız bir özel durum oluşur ve eksik şablon hakkında bilgilendirilirsiniz. Ayrıca, şablonu içeren ER biçimi yapılandırmasını silmek ve yeniden içe aktarmak için ER temizleme aracını da kullanabilirsiniz. Birden fazla ER biçimi yapılandırmanız olabileceğinden bu işlem uzun sürebilir.
 
@@ -94,6 +94,6 @@ Finance and Operations 10.0.5 sürümünde, ER şablonlarını yedekleme depolam
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
+[Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 
-[Elektronik raporlama altyapısını yapılandırma](electronic-reporting-er-configure-parameters.md)
+[Elektronik raporlama (ER) altyapısını yapılandırma](electronic-reporting-er-configure-parameters.md)

@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 9efc63c385c31a6d8848d016c1a8689460908dcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572461"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769672"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Common Data Service'da kuruluş hiyerarşisi
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Dynamics 365 Finance finansal bir sistem olduğundan, *kuruluş* temel bir kavramdır ve sistem kurulumu bir kuruluş hiyerarşisi yapılandırmasıyla başlar. İşletme mali öğeleri kuruluş düzeyinde ve ayrıca kuruluş hiyerarşisindeki herhangi bir düzeyde izlenebilir.
 
@@ -46,85 +44,35 @@ Finance and Operations uygulamaları ve Common Data Service'dan olan işletme ek
 
 Kuruluş hiyerarşisi varlık eşlemeleri, Finance and Operations uygulamalarından Common Data Service'a tek yönlü veri eşitleme için kullanılabilir.
 
+## <a name="templates"></a>Şablonlar
+
+Ürün bilgileri, ürün boyutları veya izleme ve depolama boyutları gibi ürünle ve ürün tanımıyla ilgili tüm bilgileri içerir. Aşağıdaki tabloda gösterildiği gibi, ürün ve ilgili bilgileri eşitlemek için varlık haritaları koleksiyonu oluşturulur.
+
+Finance and Operations | Diğer Dynamics 365 uygulamaları | Tanım
+-----------------------|--------------------------------|---
+Kuruluş hiyerarşisi amaçları | msdyn_internalorganizationhierarchypurposes | Bu şablon, Kuruluş Hiyerarşisi Amacı varlığının tek yönlü eşitlemesini sağlar.
+Kuruluş hiyerarşisi türü | msdyn_internalorganizationhierarchytypes | Bu şablon, Kuruluş Hiyerarşisi Türü varlığının tek yönlü eşitlemesini sağlar.
+Yayımlanan kuruluş hiyerarşisi | msdyn_internalorganizationhierarchies | Bu şablon, Yayımlanan Kuruluş Hiyerarşisi varlığının tek yönlü eşitlemesini sağlar.
+Faaliyet birimi | msdyn_internalorganizations | 
+Tüzel kişilikler | msdyn_internalorganizations | 
+Tüzel kişilikler | cdm_companies | Tüzel kişilik (şirket) bilgilerinin iki yönlü eşitlemesini sağlar.
+
+
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="internal-organization-hierarchy-purpose"></a>Dahili Kuruluş Hiyerarşisi Amacı
+[!include [Organization hierarchy purposes](dual-write/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
 
-Bu şablon, Finance and Operations'tan diğer Dynamics 365 uygulamalarına Kuruluş Hiyerarşisi Amacı varlığı için tek yönlü eşitleme sağlar.
+[!include [Organization hierarchy type](dual-write/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
 
-<!-- ![architecture image](media/dual-write-purpose.png) -->
-
-Kaynak alanı | Eşleme türü | Hedef alan
----|---|---
-HIERARCHYTYPE | \> | msdyn\_hierarchypurposetypename
-HIERARCHYTYPE | \> | msdyn\_hierarchytype.msdyn\_name
-HIERARCHYPURPOSE | \>\> | msdyn\_hierarchypurpose
-IMMUTABLE | \>\> | msdyn\_immutable
-SETASDEFAULT | \>\> | msdyn\_setasdefault
-
-## <a name="internal-organization-hierarchy-type"></a>Dahili Kuruluş Hiyerarşisi Türü
-
-Bu şablon, Finance and Operations'tan diğer Dynamics 365 uygulamalarına Kuruluş Hiyerarşisi Türü varlığı için tek yönlü eşitleme sağlar.
-
-<!-- ![architecture image](media/dual-write-type.png) -->
-
-Kaynak alanı | Eşleme türü | Hedef alan
----|---|---
-AD | \> | msdyn\_name
-
-## <a name="internal-organization-hierarchy"></a>Dahili Kuruluş Hiyerarşisi
-
-Bu şablon, Finance and Operations'tan diğer Dynamics 365 uygulamalarına Yayımlanan Kuruluş Hiyerarşisi varlığı için tek yönlü eşitleme sağlar.
-
-<!-- ![architecture image](media/dual-write-organization.png) -->
-
-Kaynak alanı | Eşleme türü | Hedef alan
----|---|---
-VALIDTO | \> | msdyn\_validto
-VALIDFROM | \> | msdyn\_validfrom
-HIERARCHYTYPE | \> | msdyn\_hierarchytypename
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentpartyid
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childpartyid
-HIERARCHYTYPE | \> | msdyn\_hierarchytypeid.msdyn\_name
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childid.msdyn\_partynumber
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentid.msdyn\_partynumber
+[!include [Organization hierarchy - published](dual-write/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>Dahili Kuruluş
 
 Common Data Service'daki dahili kuruluş bilgileri iki varlıktan gelir: **Faaliyet birimi** ve **Tüzel kişilikler**.
 
-<!-- ![architecture image](media/dual-write-operating-unit.png) -->
+[!include [Operating unit](dual-write/OperatingUnit-msdyn-internalorganizations.md)]
 
-<!-- ![architecture image](media/dual-write-legal-entities.png) -->
+[!include [Legal entities](dual-write/LegalEntities-msdyn-internalorganizations.md)]
 
-### <a name="operating-unit"></a>Faaliyet birimi
+[!include [Legal entities](dual-write/LegalEntities-Companies.md)]
 
-Kaynak alanı | Eşleme türü | Hedef alan
----|---|---
-LANGUAGEID | \> | msdyn\_languageid
-NAMEALIAS | \> | msdyn\_namealias
-AD | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-OPERATINGUNITTYPE | \>\> | msdyn\_type
-
-### <a name="legal-entity"></a>Tüzel kişilik
-
-Kaynak alanı | Eşleme türü | Hedef alan
----|---|---
-NAMEALIAS | \> | msdyn\_namealias
-LANGUAGEID | \> | msdyn\_languageid
-AD | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-yok | \>\> | msdyn\_type
-LEGALENTITYID | \> | msdyn\_companycode
-
-## <a name="company"></a>Şirket
-
-Finance and Operations ve diğer Dynamics 365 uygulamaları arasında tüzel kişi (şirket) bilgilerinin çift yönlü eşitlemesini sağlar.
-
-<!-- ![architecture image](media/dual-write-company.png) -->
-
-Kaynak alanı | Eşleme türü | Hedef alan
----|---|---
-AD | = | cdm\_name
-LEGALENTITYID | = | cdm\_companycode

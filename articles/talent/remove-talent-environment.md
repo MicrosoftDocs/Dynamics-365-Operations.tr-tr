@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: bbc65a77b7c3df6545dfd7aa2109aba5c4e1b57b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010627"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773047"
 ---
 # <a name="remove-talent-environments"></a>Talent ortamlarını kaldırma
 
@@ -34,25 +34,25 @@ Bu konuda, Dynamics 365 Talent için bir test sürüşü kaldırma yeni bir üre
 
 Talent test ortamları 60 günlük süre sonu ilkesi ile sunulur. Ancak, test ortamları sahipleri aşağıdaki adımları uygulayarak denemelerini daha erken sonlandırabilir. 
 
-1. [PowerApps Yönetim Merkezi](https://admin.businessplatform.microsoft.com/)'ne gidin.
+1. [Power Apps Yönetim Merkezi](https://admin.businessplatform.microsoft.com/)'ne gidin.
 2. **Ortamlar**'ı seçin.
 3. Test ortamını seçin. Test ortamı adı şuna benzer bir düzene sahiptir: TestDrive - alias@domain
 4. **Sil**'i seçin ve kararı onaylayın. 
 
-Varolan test ortamı kaldırılır. Kaldırıldığında, yeni bir test ortamı için kaydolabilirsiniz. 
+Var olan test ortamı kaldırılır. Kaldırıldığında, yeni bir test ortamı için kaydolabilirsiniz. 
 
 ## <a name="removing-a-production-environment"></a>Bir üretim ortamını kaldırma
 
 Bu konuda, Talent'ı bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla aldığınız varsayılır. 
 
-Tek bir Talent ortamı tek bir PowerApps ortamı içinde "yer aldığından", dikkate alınması gereken iki seçenek vardır. İlk seçenek tüm PowerApps ortamını kaldırmayı, ikinci seçenek yalnızca Talent'ı kaldırmayı içerir. İlk seçenek, PowerApps ortamını özellikle Talent sağlamak için oluşturmuş, uygulamaya henüz başlamış veya herhangi bir tümleştirme yapmamış olmanız durumunda tercih edilir. İkinci seçenek, PowerApps ve Flows'dan alınan zengin verilerle doldurulan bir PowerApps ortamınız olması durumunda uygundur.
+Tek bir Talent ortamı tek bir Power Apps ortamı içinde "yer aldığından", dikkate alınması gereken iki seçenek vardır. İlk seçenek tüm Power Apps ortamını kaldırmayı, ikinci seçenek yalnızca Talent'ı kaldırmayı içerir. İlk seçenek, Power Apps ortamını özellikle Talent sağlamak için oluşturmuş, uygulamaya henüz başlamış veya herhangi bir tümleştirme yapmamış olmanız durumunda tercih edilir. İkinci seçenek Power Apps ve Power Automate'ten alınan zengin verilerle doldurulan bir Power Apps ortamınız olması durumunda uygundur.
 
 > [!Important]
-> PowerApps ortamını kaldırmadan önce, Talent kapsamı dışındaki zengin veri tümleştirmeleri için kullanılmadığından emin olun. Varsayılan PowerApps ortamlarının da kaldırılamayacağını unutmayın. 
+> Power Apps ortamını kaldırmadan önce, Talent kapsamı dışındaki zengin veri tümleştirmeleri için kullanılmadığından emin olun. Varsayılan Power Apps ortamlarının da kaldırılamayacağını unutmayın. 
 
-Talent ve ilişkili Uygulamalar ve Akışlar dahil tüm PowerApps ortamını kaldırmak için:
+Talent ve ilişkili uygulamalar ve akışlar dahil tüm Power Apps ortamını kaldırmak için:
 
-1. [PowerApps Yönetim Merkezi](https://admin.businessplatform.microsoft.com/)'ne gidin.
+1. [Power Apps Yönetim Merkezi](https://admin.businessplatform.microsoft.com/)'ne gidin.
 2. **Ortamlar**'ı seçin.
 3. Kaldırılacak ortamı seçin.
 4. **Sil**'i seçin ve kararı onaylayın. 
@@ -63,7 +63,7 @@ Talent ve ilişkili Uygulamalar ve Akışlar dahil tüm PowerApps ortamını kal
 9. Kaldırılacak örneği seçin. 
 10. **Örneği kaldır**'ı seçin ve ardından kararınızı onaylayın.  
 
-Talent ortamını mevcut bir PowerApps ortamından kaldırmak için aşağıdaki adımları uygulayın. Bu özellik doğrudan LCS içinden etkinleştirilene kadar, Talent DevOps ekibine başvurmak ve destek almak geçicidir.
+Talent ortamını mevcut bir Power Apps ortamından kaldırmak için aşağıdaki adımları uygulayın. Bu özellik doğrudan LCS içinden etkinleştirilene kadar, Talent DevOps ekibine başvurmak ve destek almak geçicidir.
 
 1. Kaldırma isteğini başlatmak için Destek birime başvurun.
 2. Destek ekibi Talent DevOps ekibiyle kaldırma isteğini başlatacaktır. 

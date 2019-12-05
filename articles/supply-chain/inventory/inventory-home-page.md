@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c286587add6cb38f5fe2728e29fe8b3ac528165
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250795"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814342"
 ---
 # <a name="inventory-management-overview"></a>Stok yönetimine genel bakış
 
@@ -51,7 +51,7 @@ Aşağıdaki öğrenme haritası, Stok yönetimi modülünün çerçevesini olu�
 Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin.
 
 ### <a name="inventory-accounting"></a>Stok muhasebesi 
-Daha fazla bilgi için bkz. [Maliyet yönetiminde stok muhasebesi](../cost-management/inventory-close.md).
+Daha fazla bilgi için bkz. [Stok kapanışı](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>İmalat ve Supply Chain Management blogları
 [Dynamics AX İmalat Ar-Ge Ekibi Blogu'nda](https://blogs.msdn.microsoft.com/axmfg) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi Blogu'nda](https://blogs.msdn.microsoft.com/dynamicsaxscm) Stok yönetimi ve diğer çözümler hakkında pek çok fikir, haber ve bilgi bulabilirsiniz.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9c177f7a7b713e7b8490b718650daafeca0e937
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189396"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772755"
 ---
 # <a name="three-way-matching-policies"></a>Üç yönlü eşleştirme ilkeleri
 
@@ -141,7 +141,7 @@ Aşağıdaki öğeleri not alın:
 Deftere fatura eşleştirme uyuşmazlıklarıyla nakledilecek faturalar için onay gerekiyorsa, faturanın fiyat eşleştirme hataları ve miktar eşleştirme hatalarıyla nakledilebilmesi için Fatura eşleştirme ayrıntıları sayfasındaki Eşleştirme uyuşmazlıklarıyla deftere nakli onayla seçeneğinin seçilmesi gerekir. Onay gerekli değilse, başka bir deftere nakil hatası olmaması durumunda fatura işleme devam edebilir.
 
 
-Daha fazla bilgi için bkz. [Borç hesapları fatura eşleşmesi](accounts-payable-invoice-matching.md).
+Daha fazla bilgi için bkz. [Borç hesapları fatura eşleştirmesine genel bakış](accounts-payable-invoice-matching.md).
 
 
 

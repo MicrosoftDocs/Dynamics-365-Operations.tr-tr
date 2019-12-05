@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 8d94cf24040e5f653bc053f2df0a45e1afa23adc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6405b6a680f31c62e16f3bb707ec0a4ccdad3d23
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519328"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813926"
 ---
 # <a name="design-questionnaires"></a>Soru formları tasarlama
 
@@ -110,7 +110,8 @@ Yanıt grupları ve yanıtlar soruların oluşturulduğu bilgilerin ana gövdesi
 
 Bir yanıt grubu aynı anketteki birden çok soru için kullanılabilir ve aynı zamanda birden çok anket üzerinde kullanılabilir. 
 
-**Not:** Tamamlanmış anketlerde kullanılmış olarak bir yanıt grubundaki yanıt metnini değiştirirseniz, veriyi değerlendirmek zorlaşabilir ve anket sonuçları geçersiz olabilir. Bir yanıt grubunu değiştirmeniz gerekiyorsa, varolanı değiştirmek yerine yeni bir yanıt grubu oluşturmayı göz önünde bulundurun. Bir soruya veya yanıta eklenmiş olan veya yanıtlanmış olan yanıt gruplarını silemezsiniz.
+> [!NOTE]
+> Tamamlanmış anketlerde zaten kullanılmış olarak bir yanıt grubundaki yanıt metnini değiştirirseniz veriyi değerlendirmek zorlaşabilir ve anket sonuçları geçersiz olabilir. Bir yanıt grubunu değiştirmeniz gerekiyorsa, var olanı değiştirmek yerine yeni bir yanıt grubu oluşturmayı göz önünde bulundurun. Bir soruya veya yanıta eklenmiş olan veya yanıtlanmış olan yanıt gruplarını silemezsiniz.
 
 ### <a name="questions"></a>Sorular
 
@@ -118,12 +119,16 @@ Bir anket sorular içermelidir. Sorular, açık uçlu veya kapalı uçlu olabili
 
 -   Açık uçlu soruların yanıtları kontrol edilmez ve yanıtlayanlar kendi cevaplarını yazabilir.
 -   Kapalı uçlu soruların önceden tanımlanmış yanıt seçenekleri listesi olması gerekir ve sorular yanıtlayanın çok sayıda yanıtı seçebileceği şekilde oluşturulmalıdır. Sorular yanıtlayandan belirli bilgiler alacak şekilde tasarlanmalıdır ve her kapalı uçlu soru için yanıt seçenekleri sağlayan bir yanıt grubuyla bağlanmalıdır. 
-     -  **Not:** Kapalı uçlu sorular belirlemeden önce, yanıt grupları ve yanıtlar oluşturmalısınız.
+
+    > [!NOTE]
+    > Kapalı uçlu sorular belirlemeden önce yanıt grupları ve yanıtlar oluşturmalısınız.
 
 Sorular koşullu soru hiyerarşisi içinde düzenlenebilir, böylece ikincil sorular yanıtlayanın önceki soru için seçtiği cevaba bağlıdır. Önce soruları yazıp ardından bunları daha sonra hiyerarşiye göre düzenleyebilirsiniz.
 
 ## <a name="setting-up-questionnaires"></a>Anketler ayarlama
-**Not:** Bir anket ayarlamadan önce, cevaplar, sorular ve önkoşulları ayarlamanız gerekir. 
+
+> [!NOTE]
+> Bir anket ayarlamadan önce yanıtları, soruları ve önkoşulları ayarlamanız gerekir. 
 
 Her anket için, aşağıdaki bilgileri belirtebilirsiniz:
 
@@ -159,7 +164,8 @@ Bir anket ayarlamak için kullandığınız birincil sayfa **Anketler** sayfası
 -   Soru silin ve ekleyin.
 -   Sonuç gruplarında ve numara serisinde değişiklikler yapmak. 
 
-**Dikkat:** Yanıtlanmış olan anketleri değiştirirken dikkatli olun. Değişiklikler istatistiklerin doğruluğunu azaltabilir ve bu nedenle onları değerlendirme açısından zayıf bir temel yapar. Yanıtlanmış olan bir soruyu değiştirmek yerine yeni bir soru oluşturmayı düşünün.
+> [!CAUTION]
+> Yanıtlanmış olan anketleri değiştirirken dikkatli olun. Değişiklikler istatistiklerin doğruluğunu azaltabilir ve bu nedenle onları değerlendirme açısından zayıf bir temel yapar. Yanıtlanmış olan bir soruyu değiştirmek yerine yeni bir soru oluşturmayı düşünün.
 
 Bir ankette, aşağıdaki soru türlerini silemezsiniz:
 
@@ -177,7 +183,8 @@ Bir sonuç grubu puanları hesaplamak ve bir anketin sonuçlarını kategorilere
 -   Sonuçları analiz etmenize yardımcı olması için her sonuç grubu için istatistikler oluşturmak.
 -   Her sonuç grubu için sonuçları gösteren bir rapor ve aynı zamanda her sonuç grubunda kazanılan puanlara dayanan isteğe bağlı puanları/metinleri yazdırın.
 
-**Not:** Sonuç grupları ayarlamadan önce, aşağıdaki görevleri tamamlamanız gerekir:
+> [!NOTE]
+> Sonuç grupları ayarlamadan önce aşağıdaki görevleri tamamlamanız gerekir:
 
 -   Kapalı uçlu soruları ayarlayın. Kapalı uçlu bir soru için, **Sorular** sayfasındaki giriş türü **Onay kutusu**, **Alternatif düğme** veya **Birleşik giriş kutusu** olmalıdır.
 -   Her soruya atanmış olan yanıt grubundaki yanıtlar için puanları tanımlayın.
@@ -187,7 +194,8 @@ Bir ankete sonuç gruplarını kullanarak sorular eklemek için, öncelikle anke
 
 Yanıtlayanın her kategoride kazandığı puanları değerlendirmek için birden fazla sonuç grubu ayarlayabilirsiniz. Bir anket tamamlandıktan sonra, her sonuç grubu için elde edilen puanları görüntüleyebilirsiniz. 
 
-**İpucu:** Bir anketi ayrı ayrı kategoriler yerine puanları kullanarak değerlendirmek için, tüm soruları tek bir sonuç grubuna ekleyebilirsiniz. 
+> [!TIP]
+> Bir anketi ayrı kategoriler yerine puanları kullanarak değerlendirmek için tüm soruları tek bir sonuç grubuna ekleyebilirsiniz. 
 
 Her bir sonuç grubu için, yanıtlayanların bir anketi tamamladıktan sonra aldıkları bir veya daha fazla puan tabanlı mesaj ekleyebilirsiniz. Görüntülenen metin, yanıtlayanın bir sonuç grubunda elde ettiği puana göre değişebilir. Puan tabanlı mesajları kullanmak için, puan aralıkları ve her aralık için bir açıklama tanımlamalısınız. Yanıtlayan belirli bir aralıkta bir puan aldığında, aralık için metin, sonuç raporuna eklenir. 
 
@@ -213,13 +221,15 @@ Aşağıdaki tablo "liderlik yetenekleri" sonuç grubu için tanımladığınız
 
 Bir anketteki her sonuç grubu için puan aralıkları ve metinler ayarlayabilirsiniz. Her yanıtlayan puanına karşılık gelen metinler her bir sonuç grubu için görüntülenir. 
 
-**Not:** Aralıkları ve metinleri değiştirebilirsiniz. Ancak bir anket tamamlanmışsa, değişiklikler eski ve yeni sonuç raporları arasında farklılıklara neden olabilir.
+> [!NOTE]
+> Aralıkları ve metinleri değiştirebilirsiniz. Ancak bir anket tamamlanmışsa, değişiklikler eski ve yeni sonuç raporları arasında farklılıklara neden olabilir.
 
 ### <a name="conditional-question-hierarchies"></a>Koşullu soru hiyerarşileri
 
 Koşullu soru hiyerarşileri, bir anketi kurduğunuz sırada isteğe bağlıdır. 
 
-**Not:** Koşullu bir soru hiyerarşisi ayarlamadan önce, ankete yanıt gruplarına atanmış sorular eklemelisiniz. 
+> [!NOTE]
+> Koşullu soru hiyerarşisi ayarlamadan önce ankete atanmış yanıt grupları olan sorular eklemelisiniz. 
 
 Bir ankette bir soru hiyerarşisi oluşturmak için koşullu sorular kullanmak için, sırayı soruların yanıtlayanın her soru için seçeceği cevaba dayanarak sunulacağı şekilde oluşturabilirsiniz. Soru sırasını yanıtlayanın cevabına dayanacak şekilde oluşturarak, yanıtlayan anketi tamamladığında anketi değiştirebilirsiniz.
 
@@ -232,9 +242,9 @@ Alternatif olarak, bir yanıtlayan soru 1 için cevap A'yı seçtiğinde soru s�
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Soru formlarını kullanma](questionnaires.md)
+[Soru formları](questionnaires.md)
 
-[Soru formlarını dağıtma ve tamamlama](distribute-questionnaires.md)
+[Soru formlarını dağıtma ve planlama](distribute-questionnaires.md)
 
-[Soru formlarının sonuçlarını görüntüleyin ve değerlendirin](evaluate-questionnaire-results.md)
+[Soru formlarının sonuçlarını görüntüleme ve değerlendirme](evaluate-questionnaire-results.md)
 

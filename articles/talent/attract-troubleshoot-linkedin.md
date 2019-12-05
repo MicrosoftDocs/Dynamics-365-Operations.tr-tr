@@ -1,6 +1,6 @@
 ---
 title: LinkedIn ile Microsoft Dynamics 365 Talent - Attract tümleştirmesinde sorun giderme
-description: Bu konu, Microsoft Dynamics 365 Talent- Attract'tan işleri LinkedIn'de yayınlamaya çalıştığınızda oluşan sorunların nasıl giderileceğini açıklamaktadır.
+description: Bu konu, Microsoft Dynamics 365 Talent- Attract'ten işleri LinkedIn'de yayınlamaya çalıştığınızda oluşan sorunların nasıl giderileceğini açıklamaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -17,43 +17,43 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551484"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832989"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>LinkedIn ile Microsoft Dynamics 365 Talent - Attract tümleştirmesinde sorun giderme
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Talent: Attract'tan LinkedIn'e iş yayınlamaya çalıştığınızda karşılaşabileceğiniz sorunları gidermeye yardımcı olması için aşağıdaki bilgileri kullanın.
+Microsoft Dynamics 365 Talent: Attract'ten LinkedIn'e iş yayınlamaya çalıştığınızda karşılaşabileceğiniz sorunları gidermeye yardımcı olması için aşağıdaki bilgileri kullanın.
 
-## <a name="you-cant-sign-in-to-linkedin-from-attract"></a>Attract'tan LinkedIn'de oturum açamazsınız
+## <a name="you-cant-sign-in-to-linkedin-from-attract"></a>Attract'ten LinkedIn'de oturum açamazsınız
 
-Attract'tan LinkedIn'de oturum açmada sorun yaşıyorsanız, şu adımları deneyin:
+Attract'ten LinkedIn'de oturum açmada sorun yaşıyorsanız, şu adımları deneyin:
 
 1. Attract içine girmiş olduğunuz LinkedIn kimlik bilgilerinin doğru ve geçerli olduğunu doğrulayın.
 2. Kimlik bilgileri geçerli ve doğruysa, [LinkedIn destek](https://www.linkedin.com/help/linkedin) ile iletişime geçin.
 3. Sorun devam ederse, [Microsoft destek](./talent-support.md) ile iletişime geçin.
 
-## <a name="job-posts-from-attract-dont-appear-on-linkedin"></a>Attract'tan iş postaları LinkedIn'de görünmüyor
+## <a name="job-posts-from-attract-dont-appear-on-linkedin"></a>Attract'ten iş postaları LinkedIn'de görünmüyor
 
 İşiniz 24 saatten sonra LinkedIn'de görünmediyse, aşağıdaki adımları deneyin:
 
-1. LinkedIn Şirket kimliğinizin LinkedIn Şirket sayfanıza eşlendiğinden ve Attract yönetim merkezine doğru olarak girildiğinden emin olun. Yönetim merkezindeki LinkedIn ayarlarını değiştirme hakkında daha fazla bilgi için bkz [LinkedIn ile entegrasyon ayarla](attract-admin-linkedin.md). LinkedIn Şirket kimlikleri için daha fazla bilgi için bkz. [LinkedIn Şirket Kimliğinizle LinkedIn İş Panosunu İlişkilendirme - sık sorulan sorular](https://www.linkedin.com/help/linkedin/answer/98972).
+1. LinkedIn Şirket kimliğinizin LinkedIn Şirket sayfanıza eşlendiğinden ve Attract yönetim merkezine doğru olarak girildiğinden emin olun. Yönetim merkezinde LinkedIn ayarlarını değiştirme hakkında daha fazla bilgi için bkz. [Microsoft Dynamics 365 Talent - Attract için LinkedIn ile tümleştirmeyi ayarlama](attract-admin-linkedin.md). LinkedIn Şirket kimlikleri için daha fazla bilgi için bkz. [LinkedIn Şirket Kimliğinizle LinkedIn İş Panosunu İlişkilendirme - sık sorulan sorular](https://www.linkedin.com/help/linkedin/answer/98972).
 2. Adresin eksiksiz olduğundan emin olmak için LinkedIn ile ilgili iş ayrıntılarını denetleyin. LinkedIn'in bir işi başarıyla deftere nakletmek için, en azından işin şehir ve ülkesine veya bölgesine ihtiyacı vardır.
 3. İşin LinkedIn'de deftere nakledilen başka bir işi çoğaltmadığından emin olun. LinkedIn, LinkedIn Premium İş yuvalarının çoğaltmaları veya başka bir kaynaktan sınırlı listeleme olan işleri deftere nakletmez. Şirketinizdeki başka bir kişinin işi henüz el ile deftere nakletmemiş olduğunu doğrulayın.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[LinkedIn SSS](./attract-linkedin-faq.md)
+[LinkedIn SSS ile Attract tümleştirme](./attract-linkedin-faq.md)
 
-[Attract'tan LinkedIn'e iş yayınlama](./attract-post-jobs-to-linkedin.md)
+[Microsoft Dynamics 365 Talent - Attract'ten LinkedIn'e iş yayınlama](./attract-post-jobs-to-linkedin.md)
 
-[LinkedIn Recruiter ile aday kaynağı bulma](./attract-linkedin-recruiter.md)
+[Microsoft Dynamics 365 Talent - Attract'te LinkedIn Recruiter ile aday kaynağı bulma](./attract-linkedin-recruiter.md)
 
-[İşler oluşturma](./creating-jobs-attract.md)
+[Attract'te iş oluşturma, onaylama ve yayımlama](./creating-jobs-attract.md)
 
-[LinkedIn ile tümleştirme sorun giderme](./attract-troubleshoot-linkedin.md)
+[LinkedIn ve Microsoft Dynamics 365 Talent - Attract ile tümleştirmede sorun giderme](./attract-troubleshoot-linkedin.md)

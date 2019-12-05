@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: a987e75834ddde486421a425a621e66f0b6e063f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577912"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811177"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Perakende kanalları için mali tümleştirmeyi ayarlama
 
@@ -210,7 +210,7 @@ Mali tümleştirme içinde kullanılabilen hata işleme seçenekleri, mali kayı
 
 Mali X/Z raporlarının POS'tan çalıştırılmasını etkinleştirmek için bir POS düzenine yeni düğmeler eklemelisiniz.
 
-- **Düğme kılavuzlar** sayfasında, [Perakende yönetim merkezinde POS düzenine özel operasyon düğmeleri ekle](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) içindeki talimatları kullanarak tasarımcıyı yükleyin ve bir POS düzenini güncelleştirin.
+- **Düğme kılavuzlar** sayfasında, [Düğme grubu tasarımcısını kullanarak POS düzenlerine POS işlemleri ekleme](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) içindeki talimatları kullanarak tasarımcıyı yükleyin ve bir POS düzenini güncelleştirin.
 
     1. Güncelleştirilecek düzeni seçin. 
     2. Yeni bir düğme ekleyin ve **Mali x yazdır** düğmesi özelliğini ayarlayın.
@@ -221,7 +221,7 @@ Mali X/Z raporlarının POS'tan çalıştırılmasını etkinleştirmek için bi
 
 Ertelenen mali kaydın el ile yürütülmesini etkinleştirmek için POS düzenine yeni bir düğme eklemelisiniz.
 
-- **Düğme kılavuzlar** sayfasında, [Perakende yönetim merkezinde POS düzenine özel operasyon düğmeleri ekle](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) içindeki talimatları kullanarak tasarımcıyı yükleyin ve bir POS düzenini güncelleştirin.
+- **Düğme kılavuzlar** sayfasında, [Düğme grubu tasarımcısını kullanarak POS düzenlerine POS işlemleri ekleme](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) içindeki talimatları kullanarak tasarımcıyı yükleyin ve bir POS düzenini güncelleştirin.
 
     1. Güncelleştirilecek düzeni seçin.
     2. Yeni bir düğme ekleyin ve **Mali kayıt işlemini tamamla** düğmesi özelliğini ayarlayın.

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 0588ad24cb28a32557361e1a2e5391502a8b46d7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250703"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814273"
 ---
 # <a name="master-planning-home-page"></a>Master planlama ana sayfası
 
@@ -39,9 +39,9 @@ Master planlama gereksinimleri hesaplamak ve planlanmış siparişler oluşturma
 
 Üç ana planlama işlemi vardır:
 
--  **Master planlama** - Master planlama net gereksinimleri hesaplar. Geçerli mevcut siparişleri temel alır ve şirketin stok yenilemeyi kısa vadeli olarak ve günlük bazda denetlemesini sağlar. Bunu tanımlamak *Net gereksinimler planlaması* terimi de kullanılır. Daha fazla bilgi için bkz. [Master planlama](master-plans.md). 
+-  **Master planlama** - Master planlama net gereksinimleri hesaplar. Geçerli mevcut siparişleri temel alır ve şirketin stok yenilemeyi kısa vadeli olarak ve günlük bazda denetlemesini sağlar. Bunu tanımlamak *Net gereksinimler planlaması* terimi de kullanılır. Daha fazla bilgi için bkz. [Master planlara genel bakış](master-plans.md). 
 
--  **Tahmin planlama** - Tahmin planı brüt gereksinimleri hesaplar. Gelecekteki tahminleri (veya tahminleri) temel alır ve şirketlerin malzemeleri ve kapasiteyi uzun vadeli planlamasına olanak tanır. Daha fazla bilgi için bkz. [Tahmin planlama](introduction-demand-forecasting.md). 
+-  **Tahmin planlama** - Tahmin planı brüt gereksinimleri hesaplar. Gelecekteki tahminleri (veya tahminleri) temel alır ve şirketlerin malzemeleri ve kapasiteyi uzun vadeli planlamasına olanak tanır. Daha fazla bilgi için bkz. [Talep tahminine genel bakış](introduction-demand-forecasting.md). 
 
 -  **Şirketlerarası master planlama** - Şirketlerarası master plan tüzel kişilikler arasındaki net gereksinimleri hesaplar. Talep ve tedariği şirketler arasında yalnızca kısa vadeli, kesin talep ve tedarik olarak değil aynı zamanda uzun vadeli, planlamış (henüz kesinleşmemiş) talep ve tedarik için bağlar. Daha fazla bilgi için bkz. [Şirketlerarası master planlama](https://mbspartner.microsoft.com/AX/CourseOverview/1276)  (e-Öğrenim) (CustomerSource hesabı gerektirir). 
 
@@ -57,13 +57,13 @@ Aşağıdaki öğrenme haritası, Master planlama modülünün çerçevesini olu
 
 ## <a name="quick-links"></a>Hızlı bağlantılar
 
-- [Master planlar](master-plans.md)  
+- [Master planlara genel bakış](master-plans.md)  
 - [Kısıtlanmış plan oluşturma](./tasks/constrained-plan.md)
 - [Ortak ürünler için malzeme planı oluşturma](./tasks/create-material-plan-co-products.md)
-- [Master planlama ve birden çok tesis işlevi](master-plan-multisite-functionality.md)
+- [Master planlama ve birden çok tesis işlevine genel bakış](master-plan-multisite-functionality.md)
 - [Şirketlerarası plan oluşturma](./tasks/create-intercompany-plan.md)
 - [Talep tahminine genel bakış](introduction-demand-forecasting.md)
-- [Azaltma anahtarları](reduction-keys.md)
+- [Tahmin azaltma anahtarları](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Ek kaynaklar
 
