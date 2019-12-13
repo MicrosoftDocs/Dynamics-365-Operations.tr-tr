@@ -1,0 +1,87 @@
+---
+title: Var olan site sayfasını değiştirme
+description: Bu konuda, Microsoft Dynamics 365 Commerce'te mevcut site sayfasını değiştirme yöntemi açıklanmıştır.
+author: psimolin
+manager: annbe
+ms.date: 10/01/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application user
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: psimolin
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: ddbef381e9ded18ed1c9226057cac482d4c6e24d
+ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2698384"
+---
+# <a name="modify-an-existing-site-page"></a>Var olan site sayfasını değiştirme
+
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
+
+Bu konuda, Microsoft Dynamics 365 Commerce'te mevcut site sayfasını değiştirme yöntemi açıklanmıştır.
+
+## <a name="overview"></a>Genel Bakış
+
+Bir sayfayı değiştirmeniz gerektiğinde, ilk adım onu sayfa düzenleyici içinde açar. Sayfanızı içeren siteye gidin ve sonra sayfa listesinde istediğiniz sayfayı bulun. Sayfayı bulamazsanız, yazma aracının zengin arama işlevini kullanabilirsiniz. Tam sayfa adını yazın veya adın ilk birkaç harfini yazıp bir yıldız işareti (\*) yazın. Süzülmüş sayfalar listesi görüntülenir. İstediğiniz sayfayı bulmak için bu listeyi kullanabilirsiniz. Doğru sayfayı bulduktan sonra, sayfa düzenleyicisinde sayfayı açılacak sayfa adını seçin.
+
+> [!TIP]
+> Sayfanız sayfa denetçisinde görünüyorsa, onu seçebilir ve sayfa düzenleyicisinde açılmadan önce teslim edebilirsiniz. Böylece, aynı anda birden fazla sayfayı kullanıma alabilirsiniz.
+
+Sayfa düzenleyicide sayfanın açık olmasını istiyorsanız, öğenin kullanımınıza alındığından emin olmalısınız. Geliştirme aracındaki komut çubuğu dinamiktir, içeriğe duyarlıdır ve durum duyarlıdır. Bu nedenle, yalnızca sayfada gerçekleştirebileceğiniz eylemleri gösterir. Örneğin, sayfa sizin tarafınızdan kullanıma alınmadığından, komut çubuğunda **Kaydet** ve **Giriş yap** düğmeleri görünmez. Sayfanın durumu pencerenin sağ tarafında görünür.
+
+Sayfa sizin tarafınızdan kullanıma alınmış durumda değilse, komut çubuğundan **kullanıma alma** 'yı seçin. Komut çubuğu, sayfanın yeni durumunu yansıtacak şekilde değişir. Ayrıca, sayfanın size teslim edilmiş olduğunu bildiren bir bildirim alırsınız.
+
+Sonraki adım, gerçek değişikliklerinizi yapmak içindir. Genellikle, sol taraftaki sayfa anahat ağacını kullanarak değiştirmek istediğiniz modülü bulun ve seçin ve sonra sağdaki Özellikler bölmesinde değişiklikleri yapın. 
+
+Ancak, yaptığınız değişiklikler bazen model veya parçacık eklemeyi veya kaldırmayı içerebilir. Parça veya modül eklemek için, modül veya parçayı eklemek istediğiniz yuvayı bulmak amacıyla sayfa anahattı ağacını ve sonra o yuva için üç nokta düğmesini (**...**) kullanın. Modül veya parça eklemek için kullanılan komutları içeren bir menü görüntülenir. Bir modül veya parçayı kaldırmak için sayfa anahat ağacında bunu bulun ve seçin, üç nokta düğmesini seçin ve sonra modülü veya parçayı silmek için komutu seçin.
+
+> [!TIP]
+> Ayrıca, doğrudan seçerek "aldığınız şey gördüğünüz şeydir" (WYSIWYG) önizlemesi görünür olan herhangi bir modülün özelliklerini görüntüleyebilir ve düzenleyebilirsiniz.
+
+Değişikliklerinizi yapmayı bitirdikten ve etkilerini önizledikten sonra, komut çubuğunda **iade et**'i seçerek sayfayı iade etmelisiniz. 
+
+Değişikliklerinizi hemen yayımlamak için, komut çubuğunda **yayınla** 'yı seçin. Değiştirdiğiniz sayfanın en son iade edilen sürümü yayımlanır ve sitenizi görüntüleyen harici kullanıcılar tarafından kullanılabilir duruma gelir. 
+
+## <a name="example-change-the-video-on-the-home-page"></a>Örnek: giriş sayfasındaki videoyu değiştirme
+
+Aşağıdaki örnek, video oynatıcı modülünde görünen videoyu değiştirerek giriş sayfasının nasıl değiştirileceğini gösterir.
+
+1. **Siteler** altında, **Fabrikam**'ı seçin (veya sitenizin adını).
+1. Soldaki gezinti bölmesinde **Sayfalar** seçin.
+1. Sayfa düzenleyicisinde açmak için giriş sayfasını bulun ve seçin.
+1. Komut çubuğunda, **Çıkış yap** öğesini seçin.
+1. Sayfa anahattında **ana** yuvayı seçin.
+1. **Ana** yuvanın altında, tüm akışkan konteyneri modüllerini genişletin.
+1. Video oynatıcı modülünü bulun ve seçin.
+1. Sağdaki özellikler bölmesinde, **video** özelliğini seçin. Varlık seçici görüntülenir.
+1. Varlık seçicisinde, uygun bir video varlığı seçin veya yeni bir video varlığı yüklemek için **yeni varlığı yükle**'yi seçin.
+1. **Tamam**'ı seçin.
+1. **Kaydet**i seçin ve sonra **Giriş**'i seçin.
+1. **Yorumlar** alanında **Videoyu değiştir** seçeneğini girin ve **Tamam**'ı seçin.
+1. Güncellenen sayfasını önizlemek için **Önizleme** 'yi seçin . Bitirdiğinizde, geliştirme aracına dönmek için Önizleme sekmesini kapatın.
+1. **Yayımla**'yı seçin.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+[Yeni site sayfası ekleme](add-new-page.md)
+
+[Sayfa düzeni seçme](select-page-layouts.md)
+
+[SEO meta verilerini yönetme](manage-seo-metadata.md)
+
+[Sayfa kaydetme, önizleme ve yayımlama](save-preview-publish-page.md)
+
+[Ürün sayfasını zenginleştirme](enrich-product-page.md)
+
+[Kategori açılış sayfasını zenginleştirme](enrich-category-page.md)
