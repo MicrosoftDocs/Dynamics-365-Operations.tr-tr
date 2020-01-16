@@ -62,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Yenilikler veya değişiklikler
               items:
-                - name: Supply Chain Management 10.0.7 sürümündeki Önizleme özellikleri (Aralık 2019)
+                - name: Supply Chain Management sürüm 10.0.7 (Aralık 2019)
                   href: get-started/whats-new-scm-10-0-7.md
                 - name: Supply Chain Management 10.0.6 (Kasım 2019)
                   href: get-started/whats-new-scm-10-0-6.md
@@ -70,10 +70,6 @@
                   items:
                     - name: Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations uygulamaları 10.0.5 (Ekim 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations 10.0.4 (Temmuz 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Finance and Operations, Enterprise edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kaldırılan veya artık kullanılmayan özellikler
@@ -264,7 +260,7 @@
                 - name: Satınalma siparişlerine dayalı olarak varlık oluşturma
                   href: asset-management/objects/create-objects-based-on-purchase-orders.md
                 - name: Varlık ürün reçetesi
-                  href: /asset-management/objects/object-bom.md
+                  href: asset-management/objects/object-bom.md
                 - name: Varlık olay geçmişi
                   href: asset-management/objects/object-timeline.md
                 - name: Varlık görünümü
@@ -592,7 +588,7 @@
                 - name: Üretim emri maliyet analizi
                   href: cost-management/production-order-cost-analysis.md
                 - name: Üretim emri maliyet tahmini
-                  href: /cost-management/production-order-cost-estimation.md
+                  href: cost-management/production-order-cost-estimation.md
                 - name: Üretim emrindeki geçerli süren iş durumunu görüntüleme
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: 'Üretim emrindeki etkin, tahmini ve gerçekleşen maliyetleri karşılaştırma'
@@ -1099,6 +1095,8 @@
                   href: master-planning/safety-stock-replenishment.md
                 - name: Gecikmeler
                   href: master-planning/delays.md
+                - name: Master planlama işini iptal etme
+                  href: master-planning/cancel-master-planning-job.md
                 - name: Açılım için izlemeyi kullanma
                   href: master-planning/trace-explosion.md
                 - name: Eylem iletileri
@@ -1515,6 +1513,8 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Tek bir şirket için serbest bırakılan ürün oluşturma
                   href: pim/tasks/create-released-product-single-company.md
+                - name: Veri varlıklarını kullanma
+                  href: pim/data-entities.md
                 - name: Ürün yaşam döngüsü durumu
                   items:
                     - name: Ürün yaşam döngüsü durumuna genel bakış
@@ -2349,6 +2349,10 @@
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                 - name: Özel durum işleme için ambar işini iptal etme
                   href: warehousing/cancel-warehouse-work.md
+                - name: Sistem tarafından yönlendirilen küme malzeme çekme
+                  href: warehousing/system-directed-cluster-pick.md
+                - name: Malzeme çekme satırı gruplandırması
+                  href: warehousing/pick-line-grouping.md
             - name: Stok sayımı
               items:
                 - name: Stok sayımı neden kodları
