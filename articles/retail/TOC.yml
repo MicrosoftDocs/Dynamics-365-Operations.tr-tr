@@ -46,7 +46,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: Bulut dağıtımı
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: Bulut dağıtımları için sistem gereksinimleri
+                - name: Retail istemci bileşenleri için sistem gereksinimleri
                   href: get-started/system-requirements.md
                 - name: Şirket içi dağıtım
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,20 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: Yenilikler veya değişiklikler
               items:
-                - name: Retail sürüm 10.0.7'deki önizleme özellikleri
+                - name: Retail sürüm 10.0.7
                   href: get-started/whats-new-10-0-7.md
                 - name: Retail sürüm 10.0.6
                   href: get-started/whats-new-10-0-6.md
-                - name: Retail sürüm 10.0.5
-                  href: get-started/whats-new-10-0-5.md
                 - name: Yenilikler veya önceki sürümde yapılan değişiklikler
                   items:
                     - name: Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations uygulamaları 10.0.5 (Ekim 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations 10.0.4 (Temmuz 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
                     - name: 'Finance and Operations, Enterprise edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: Kaldırılan veya artık kullanılmayan özellikler
@@ -788,10 +782,8 @@
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
             - name: Perakende hiyerarşileri
               href: retail-hierarchies.md
-            - name: Öznitelikler ve öznitelik grupları
+            - name: Öznitelikleri ve öznitelik gruplarını yönetme
               href: attribute-attributegroups-lifecycle.md
-            - name: Öznitelikler oluşturma ve yönetme
-              href: create-manage-attributes.md
             - name: Perakende ürünlerini ayarlama
               href: set-up-retail-products.md
             - name: Ürün oluşturma
@@ -1146,7 +1138,9 @@
               items:
                 - name: Yazar kasa işlevi
                   href: localizations/emea-swe-cash-registers.md
-                - name: Kontrol birimleriyle Retail POS tümleştirmesi örneği
+                - name: İsveç için kontrol birimi tümleştirmesi örneği
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Kontrol birimleriyle Retail POS tümleştirmesi örneği (eski)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Retail görevleri
           items:

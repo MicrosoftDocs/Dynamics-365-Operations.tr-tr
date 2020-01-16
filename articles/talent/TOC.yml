@@ -8,6 +8,12 @@
         - name: Talent'taki yenilikler veya değişiklikler
           href: whats-new.md
           items:
+            - name: 17 Aralık 2019
+              href: whats-new-talent-december-17-2019.md
+            - name: 12 Aralık 2019
+              href: whats-new-talent-december-12-2019.md
+            - name: 3 Aralık 2019
+              href: whats-new-talent-december-3-2019.md
             - name: 19 Kasım 2019
               href: whats-new-talent-november-19-2019.md
             - name: 12 Kasım 2019
@@ -26,16 +32,16 @@
               href: whats-new-talent-september-17-2019.md
             - name: 10 Eylül 2019
               href: whats-new-talent-september-12-2019.md
-            - name: 27 Ağustos 2019
-              href: whats-new-talent-august-28-2019.md
-            - name: 22 Ağustos 2019
-              href: whats-new-talent-august-21-2019.md
-            - name: 13 Ağustos 2019
-              href: whats-new-talent-august-15-2019.md
-            - name: 6 Ağustos 2019
-              href: whats-new-talent-august-7-2019.md
             - name: Yeniliklere ilişkin arşivler 2019
               items:
+                - name: 27 Ağustos 2019
+                  href: whats-new-talent-august-28-2019.md
+                - name: 22 Ağustos 2019
+                  href: whats-new-talent-august-21-2019.md
+                - name: 13 Ağustos 2019
+                  href: whats-new-talent-august-15-2019.md
+                - name: 6 Ağustos 2019
+                  href: whats-new-talent-august-7-2019.md
                 - name: 30 Temmuz 2019
                   href: whats-new-talent-july-31-2019.md
                 - name: 23 Temmuz 2019
@@ -134,32 +140,28 @@
           href: hr-copy-instance.md
         - name: Talent ortamlarını kaldırma
           href: remove-talent-environment.md
-        - name: Onboard uygulaması için sağlama
+        - name: Özellikleri yönetme
+          href: access-preview-feature.md
+        - name: Onboard sağlama
           href: modular-app-tech-faq.md
-        - name: PowerApps uygulamalarını katıştırma
+        - name: Power Apps uygulamalarını katıştırma
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR ve Common Data Service
+        - name: Common Data Service'daki Core HR varlıkları
           href: CoreHREntities.md
         - name: Talent için destek alma
           href: talent-support.md
     - name: Attract ile kuruluşunuzun personelini belirleme
       items:
-        - name: Attract'ın hangi sürümü?
+        - name: Attract sürümü seçme
           href: attract-comprehensive-hiring.md
         - name: Attract özellikleri ve yetenekleri
           href: attract-overview.md
-        - name: Sık sorulan sorular
-          items:
-            - name: LinkedIn tümleştirmesiyle ilgili SSS
-              href: attract-linkedin-faq.md
         - name: Sistem ayarlarını yapılandırma
           items:
             - name: Şirket bilgilerini yapılandırma
               href: admin-settings-attract.md
             - name: Kullanıcı izinlerini ayarlama
               href: security-attract.md
-            - name: Özellikleri yönetme
-              href: access-preview-feature.md
             - name: Kariyer sitenizi ayarlama
               href: career-site.md
             - name: Broadbean tümleştirmesini etkinleştirme
@@ -168,13 +170,15 @@
               href: attract-configure-email-settings.md
             - name: LinkedIn tümleştirmesini ayarlama
               href: attract-admin-linkedin.md
+            - name: LinkedIn tümleştirmesiyle ilgili SSS
+              href: attract-linkedin-faq.md
         - name: İşe alım süreci oluşturma
           items:
-            - name: Süreç şablonu oluşturma
+            - name: İşe alma süreci şablonu oluşturma
               href: process-templates-attract.md
-            - name: İşe alım süreçlerindeki faaliyetler
+            - name: İşe alım sürecine faaliyet ekleme
               href: activities-attract.md
-            - name: E-posta şablonları
+            - name: E-posta şablonları oluşturma
               href: email-templates.md
             - name: Analitik raporları kullanma
               href: analytic-reports.md
@@ -197,10 +201,10 @@
             - name: Aday kaynaklarını izleme
               href: source-tracking.md
             - name: Akıllı öneriler
-              href: Intelligent-Recommendations.md
+              href: intelligent-recommendations.md
         - name: Görüşmeler ayarlama
           items:
-            - name: Görüşme planlama ve geribildirim
+            - name: Görüşmeler planlama
               href: interview-scheduling-feedback.md
         - name: Teklif yapma
           items:
@@ -433,7 +437,7 @@
       items:
         - name: Çalışma alanlarında katıştırılmış Power BI
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: PowerApps ve Microsoft Flow kullanarak Talent'ı genişletme - Örnek senaryolar
+        - name: Power Apps ve Power Automate ile Talent'i genişletme
           href: extensibility-examples.md
         - name: Mobil uygulama
           items:
@@ -441,10 +445,8 @@
               items:
                 - name: Şirket dizini mobil çalışma alanı
                   href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Ekibim mobil çalışma alanı
+                - name: Takımım mobil çalışma alanı
                   href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Mobil çalışma alanlarını yayımlama
-              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: İşe alma verilerindeki değişiklikleri izleme
           href: process-auditing.md
         - name: Attract'ta genişletilebilirlik
