@@ -16,62 +16,62 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814847"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897201"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a><span data-ttu-id="aa890-103">Dynamics 365 Talent - Onboard'u kullanarak işe alım ekibi oluşturma</span><span class="sxs-lookup"><span data-stu-id="aa890-103">Create a hiring team by using Dynamics 365 Talent - Onboard</span></span>
+# <a name="create-a-hiring-team"></a><span data-ttu-id="174ae-103">İşe alım takımı oluşturma</span><span class="sxs-lookup"><span data-stu-id="174ae-103">Create a hiring team</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="aa890-104">Microsoft Dynamics 365 Talent: Onboard'ta işe alım ekipleri oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="aa890-104">In Microsoft Dynamics 365 Talent: Onboard, you can create hiring teams.</span></span> <span data-ttu-id="aa890-105">Daha sonra her takıma işe alım kılavuzları ve şablonlar atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="aa890-105">You can then assign onboarding guides and templates to each team.</span></span>
+<span data-ttu-id="174ae-104">Microsoft Dynamics 365 Talent: Onboard'ta işe alım ekipleri oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="174ae-104">In Microsoft Dynamics 365 Talent: Onboard, you can create hiring teams.</span></span> <span data-ttu-id="174ae-105">Daha sonra her takıma işe alım kılavuzları ve şablonlar atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="174ae-105">You can then assign onboarding guides and templates to each team.</span></span>
 
-## <a name="create-a-hiring-team"></a><span data-ttu-id="aa890-106">İşe alım takımı oluşturma</span><span class="sxs-lookup"><span data-stu-id="aa890-106">Create a hiring team</span></span>
+## <a name="create-a-hiring-team"></a><span data-ttu-id="174ae-106">İşe alım takımı oluşturma</span><span class="sxs-lookup"><span data-stu-id="174ae-106">Create a hiring team</span></span>
 
-1. <span data-ttu-id="aa890-107">Sol menüde **Takımlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-107">On the left menu, select **Teams**.</span></span>
-2. <span data-ttu-id="aa890-108">**Takımlar** altında **Ekle** (artı \[**+**\] işareti) döşemesini seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-108">Under **Teams**, select the **Add** (plus sign \[**+**\]) tile.</span></span>
-3. <span data-ttu-id="aa890-109">**Yeni bir takım oluştur** iletişim kutusunda, **Takım adı**altında, işe alma ekibine bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="aa890-109">In the **Create a new team** dialog box, under **Team name**, enter a name for the hiring team.</span></span>
+1. <span data-ttu-id="174ae-107">Sol menüde **Takımlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-107">On the left menu, select **Teams**.</span></span>
+2. <span data-ttu-id="174ae-108">**Takımlar** altında **Ekle** (artı \[**+**\] işareti) döşemesini seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-108">Under **Teams**, select the **Add** (plus sign \[**+**\]) tile.</span></span>
+3. <span data-ttu-id="174ae-109">**Yeni bir takım oluştur** iletişim kutusunda, **Takım adı**altında, işe alma ekibine bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="174ae-109">In the **Create a new team** dialog box, under **Team name**, enter a name for the hiring team.</span></span>
 
-    ![[Onboard'ta yeni bir takım oluşturma] (./media/onboard-create-team.png)](./media/onboard-create-team.png)
+    ![[<span data-ttu-id="174ae-110">Yerleşik olarak yeni takım oluşturma</span><span class="sxs-lookup"><span data-stu-id="174ae-110">Creating a new team in Onboard</span></span>](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
-4. <span data-ttu-id="aa890-111">**Takım üyelerini seç**in altında, her ekip üyesinin adını veya e-posta adresini girin.</span><span class="sxs-lookup"><span data-stu-id="aa890-111">Under **Choose team members**, enter the name or email address of each team member.</span></span>
+4. <span data-ttu-id="174ae-111">**Takım üyelerini seç**in altında, her ekip üyesinin adını veya e-posta adresini girin.</span><span class="sxs-lookup"><span data-stu-id="174ae-111">Under **Choose team members**, enter the name or email address of each team member.</span></span>
 
-    <span data-ttu-id="aa890-112">Ekip üyelerini kaldırmak için, kutunun altında adlarının yanında görünen **X**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-112">To remove team members, select the **X** that appears next to their name under the box.</span></span>
+    <span data-ttu-id="174ae-112">Ekip üyelerini kaldırmak için, kutunun altında adlarının yanında görünen **X**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-112">To remove team members, select the **X** that appears next to their name under the box.</span></span>
 
-5. <span data-ttu-id="aa890-113">Yeni ekip üyelerine e-posta göndermek için **yeni üyelere e-posta gönder** seçeneğini açın.</span><span class="sxs-lookup"><span data-stu-id="aa890-113">To email new team members, turn on the **Send an email to the new members** option.</span></span>
-6. <span data-ttu-id="aa890-114">**Oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-114">Select **Create**.</span></span>
-7. <span data-ttu-id="aa890-115">Yeni ekip üyelerine e-posta gönderdiğinizi belirttiyseniz, bir sonraki iletişim kutusunda e-postayı düzenleyin ve ardından **Bitti**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-115">If you indicated that you want to email new team members, edit the email in the next dialog box, and then select **Done**.</span></span>
+5. <span data-ttu-id="174ae-113">Yeni ekip üyelerine e-posta göndermek için **yeni üyelere e-posta gönder** seçeneğini açın.</span><span class="sxs-lookup"><span data-stu-id="174ae-113">To email new team members, turn on the **Send an email to the new members** option.</span></span>
+6. <span data-ttu-id="174ae-114">**Oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-114">Select **Create**.</span></span>
+7. <span data-ttu-id="174ae-115">Yeni ekip üyelerine e-posta gönderdiğinizi belirttiyseniz, bir sonraki iletişim kutusunda e-postayı düzenleyin ve ardından **Bitti**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-115">If you indicated that you want to email new team members, edit the email in the next dialog box, and then select **Done**.</span></span>
 
-## <a name="assign-onboarding-guides-to-a-hiring-team"></a><span data-ttu-id="aa890-116">İşe alma ekibine işe alım kılavuzları atama</span><span class="sxs-lookup"><span data-stu-id="aa890-116">Assign onboarding guides to a hiring team</span></span>
+## <a name="assign-onboarding-guides-to-a-hiring-team"></a><span data-ttu-id="174ae-116">İşe alma ekibine işe alım kılavuzları atama</span><span class="sxs-lookup"><span data-stu-id="174ae-116">Assign onboarding guides to a hiring team</span></span>
 
-1. <span data-ttu-id="aa890-117">Sol menüde **Takımlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-117">On the left menu, select **Teams**.</span></span>
-2. <span data-ttu-id="aa890-118">Takımı seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-118">Select the team.</span></span>
-3. <span data-ttu-id="aa890-119">**Kılavuzlar** sekmesinde **Kılavuz ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-119">On the **Guides** tab, select **Add guides**.</span></span>
+1. <span data-ttu-id="174ae-117">Sol menüde **Takımlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-117">On the left menu, select **Teams**.</span></span>
+2. <span data-ttu-id="174ae-118">Takımı seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-118">Select the team.</span></span>
+3. <span data-ttu-id="174ae-119">**Kılavuzlar** sekmesinde **Kılavuz ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-119">On the **Guides** tab, select **Add guides**.</span></span>
 
-    ![[<span data-ttu-id="aa890-120">Bir takıma işe alım kılavuzları ekleme</span><span class="sxs-lookup"><span data-stu-id="aa890-120">Adding onboarding guides to a team</span></span>](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
+    ![[<span data-ttu-id="174ae-120">Ekibe işe alım kılavuzları ekleme</span><span class="sxs-lookup"><span data-stu-id="174ae-120">Adding onboarding guides to a team</span></span>](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
 
-4. <span data-ttu-id="aa890-121">Takıma atamak istediğiniz her işe alım kılavuzu için onay kutusunu seçin ve sonra **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-121">Select the check box for each onboarding guide that you want to assign to the team, and then select **Add**.</span></span>
+4. <span data-ttu-id="174ae-121">Takıma atamak istediğiniz her işe alım kılavuzu için onay kutusunu seçin ve sonra **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-121">Select the check box for each onboarding guide that you want to assign to the team, and then select **Add**.</span></span>
 
-    ![[<span data-ttu-id="aa890-122">Bir takıma eklemek için işe alım kılavuzları seçme</span><span class="sxs-lookup"><span data-stu-id="aa890-122">Selecting the onboarding guides to add to the team</span></span>](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
+    ![[<span data-ttu-id="174ae-122">Takıma eklenecek işe alım kılavuzlarını seçme</span><span class="sxs-lookup"><span data-stu-id="174ae-122">Selecting the onboarding guides to add to the team</span></span>](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
 
-## <a name="assign-onboarding-templates-to-a-hiring-team"></a><span data-ttu-id="aa890-123">İşe alma ekibine işe alım şablonları atama</span><span class="sxs-lookup"><span data-stu-id="aa890-123">Assign onboarding templates to a hiring team</span></span>
+## <a name="assign-onboarding-templates-to-a-hiring-team"></a><span data-ttu-id="174ae-123">İşe alma ekibine işe alım şablonları atama</span><span class="sxs-lookup"><span data-stu-id="174ae-123">Assign onboarding templates to a hiring team</span></span>
 
-1. <span data-ttu-id="aa890-124">Sol menüde **Takımlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-124">On the left menu, select **Teams**.</span></span>
-2. <span data-ttu-id="aa890-125">Takımı seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-125">Select the team.</span></span>
-3. <span data-ttu-id="aa890-126">**Şablonlar** sekmesinde **Şablon Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-126">On the **Templates** tab, select **Add templates**.</span></span>
+1. <span data-ttu-id="174ae-124">Sol menüde **Takımlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-124">On the left menu, select **Teams**.</span></span>
+2. <span data-ttu-id="174ae-125">Takımı seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-125">Select the team.</span></span>
+3. <span data-ttu-id="174ae-126">**Şablonlar** sekmesinde **Şablon Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-126">On the **Templates** tab, select **Add templates**.</span></span>
 
-    ![[<span data-ttu-id="aa890-127">Bir takıma şablonlar ekleme</span><span class="sxs-lookup"><span data-stu-id="aa890-127">Adding templates to a team</span></span>](./media/onboard-add-templates-to-team.png)](./media/onboard-add-templates-to-team.png)
+    ![[<span data-ttu-id="174ae-127">Takıma şablon ekleme</span><span class="sxs-lookup"><span data-stu-id="174ae-127">Adding templates to a team</span></span>](./media/onboard-add-templates-to-team.png)](./media/onboard-add-templates-to-team.png)
 
-4. <span data-ttu-id="aa890-128">Takıma atamak istediğiniz her şablon için onay kutusunu seçin ve sonra **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="aa890-128">Select the check box for each template that you want to assign to the team, and then select **Add**.</span></span>
+4. <span data-ttu-id="174ae-128">Takıma atamak istediğiniz her şablon için onay kutusunu seçin ve sonra **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="174ae-128">Select the check box for each template that you want to assign to the team, and then select **Add**.</span></span>
 
-    ![[<span data-ttu-id="aa890-129">Bir takıma eklemek için şablonlar seçme</span><span class="sxs-lookup"><span data-stu-id="aa890-129">Selecting the templates to add to the team</span></span>](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
+    ![[<span data-ttu-id="174ae-129">Takıma eklenecek şablonlar seçme</span><span class="sxs-lookup"><span data-stu-id="174ae-129">Selecting the templates to add to the team</span></span>](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
 
-### <a name="see-also"></a><span data-ttu-id="aa890-130">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="aa890-130">See also</span></span>
+### <a name="see-also"></a><span data-ttu-id="174ae-130">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="174ae-130">See also</span></span>
 
-- [<span data-ttu-id="aa890-131">Onboard uygulamasını deneyin veya satın alın</span><span class="sxs-lookup"><span data-stu-id="aa890-131">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
-- [<span data-ttu-id="aa890-132">Dynamics 365 Talent'teki yenilikler veya değişiklikler</span><span class="sxs-lookup"><span data-stu-id="aa890-132">What's new or changed in Dynamics 365 Talent</span></span>](./whats-new.md)
-- [<span data-ttu-id="aa890-133">Sürüm planları</span><span class="sxs-lookup"><span data-stu-id="aa890-133">Release plans</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
-- [<span data-ttu-id="aa890-134">Microsoft Dynamics 365 Talent için destek alma</span><span class="sxs-lookup"><span data-stu-id="aa890-134">Get support for Microsoft Dynamics 365 Talent</span></span>](./talent-support.md)
+- [<span data-ttu-id="174ae-131">Onboard uygulamasını deneyin veya satın alın</span><span class="sxs-lookup"><span data-stu-id="174ae-131">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
+- [<span data-ttu-id="174ae-132">Dynamics 365 Talent'teki yenilikler veya değişiklikler</span><span class="sxs-lookup"><span data-stu-id="174ae-132">What's new or changed in Dynamics 365 Talent</span></span>](./whats-new.md)
+- [<span data-ttu-id="174ae-133">Sürüm planları</span><span class="sxs-lookup"><span data-stu-id="174ae-133">Release plans</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
+- [<span data-ttu-id="174ae-134">Microsoft Dynamics 365 Talent için destek alma</span><span class="sxs-lookup"><span data-stu-id="174ae-134">Get support for Microsoft Dynamics 365 Talent</span></span>](./talent-support.md)

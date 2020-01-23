@@ -3,7 +3,7 @@ title: Gelişmiş filtreleme ve sorgu söz dizimi
 description: Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki eşleşmeler işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır.
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,219 +18,225 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e57cac740a26c6c5b451c92d856e533c6db33e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
+ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180841"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "2931300"
 ---
-# <a name="advanced-filtering-and-query-syntax"></a><span data-ttu-id="9127d-103">Gelişmiş filtreleme ve sorgu sözdizimi</span><span class="sxs-lookup"><span data-stu-id="9127d-103">Advanced filtering and query syntax</span></span>
+# <a name="advanced-filtering-and-query-syntax"></a><span data-ttu-id="50fdd-103">Gelişmiş filtreleme ve sorgu sözdizimi</span><span class="sxs-lookup"><span data-stu-id="50fdd-103">Advanced filtering and query syntax</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9127d-104">Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki **eşleşmeler** işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="9127d-104">This article describes the filtering and query options that are available when you use the Advanced filter/sort dialog or the **matches** operator in the Filter pane or grid column header filters.</span></span>
+<span data-ttu-id="50fdd-104">Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki **eşleşmeler** işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-104">This article describes the filtering and query options that are available when you use the Advanced filter/sort dialog or the **matches** operator in the Filter pane or grid column header filters.</span></span>
 
-## <a name="advanced-query-syntax"></a><span data-ttu-id="9127d-105">Gelişmiş sorgu söz dizimi</span><span class="sxs-lookup"><span data-stu-id="9127d-105">Advanced query syntax</span></span>
+## <a name="advanced-query-syntax"></a><span data-ttu-id="50fdd-105">Gelişmiş sorgu söz dizimi</span><span class="sxs-lookup"><span data-stu-id="50fdd-105">Advanced query syntax</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="9127d-106">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="9127d-106">Syntax</span></span></th>
-<th><span data-ttu-id="9127d-107">Karakter açıklaması</span><span class="sxs-lookup"><span data-stu-id="9127d-107">Character description</span></span></th>
-<th><span data-ttu-id="9127d-108">Tanım</span><span class="sxs-lookup"><span data-stu-id="9127d-108">Description</span></span></th>
-<th><span data-ttu-id="9127d-109">Örnek</span><span class="sxs-lookup"><span data-stu-id="9127d-109">Example</span></span></th>
+<th><span data-ttu-id="50fdd-106">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="50fdd-106">Syntax</span></span></th>
+<th><span data-ttu-id="50fdd-107">Karakter açıklaması</span><span class="sxs-lookup"><span data-stu-id="50fdd-107">Character description</span></span></th>
+<th><span data-ttu-id="50fdd-108">Tanım</span><span class="sxs-lookup"><span data-stu-id="50fdd-108">Description</span></span></th>
+<th><span data-ttu-id="50fdd-109">Örnek</span><span class="sxs-lookup"><span data-stu-id="50fdd-109">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="9127d-110"><em>değer</em></span><span class="sxs-lookup"><span data-stu-id="9127d-110"><em>value</em></span></span></td>
-<td><span data-ttu-id="9127d-111">Girilen değere eşit</span><span class="sxs-lookup"><span data-stu-id="9127d-111">Equal to the value that is entered</span></span></td>
-<td><span data-ttu-id="9127d-112">Bulmak istediğiniz değeri yazın.</span><span class="sxs-lookup"><span data-stu-id="9127d-112">Type the value to find.</span></span></td>
-<td><span data-ttu-id="9127d-113"><strong>Smith</strong>, &quot;Smith&quot; değerini bulur.</span><span class="sxs-lookup"><span data-stu-id="9127d-113"><strong>Smith</strong> finds &quot;Smith&quot;.</span></span></td>
+<td><span data-ttu-id="50fdd-110"><em>değer</em></span><span class="sxs-lookup"><span data-stu-id="50fdd-110"><em>value</em></span></span></td>
+<td><span data-ttu-id="50fdd-111">Girilen değere eşit</span><span class="sxs-lookup"><span data-stu-id="50fdd-111">Equal to the value that is entered</span></span></td>
+<td><span data-ttu-id="50fdd-112">Bulmak istediğiniz değeri yazın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-112">Type the value to find.</span></span></td>
+<td><span data-ttu-id="50fdd-113"><strong>Smith</strong>, &quot;Smith&quot; değerini bulur.</span><span class="sxs-lookup"><span data-stu-id="50fdd-113"><strong>Smith</strong> finds &quot;Smith&quot;.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-114">!<em>değer</em> (ünlem işareti)</span><span class="sxs-lookup"><span data-stu-id="9127d-114">!<em>value</em> (exclamation point)</span></span></td>
-<td><span data-ttu-id="9127d-115">Girilen değere eşit değildir</span><span class="sxs-lookup"><span data-stu-id="9127d-115">Not equal to the value that is entered</span></span></td>
-<td><span data-ttu-id="9127d-116">Ünlem işareti ve dışlamak için bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="9127d-116">Type an exclamation point and then the value to exclude.</span></span></td>
-<td><span data-ttu-id="9127d-117"><strong>!Smith</strong>, &quot;Smith&quot; haricindeki tüm değerleri bulur.</span><span class="sxs-lookup"><span data-stu-id="9127d-117"><strong>!Smith</strong> finds all values except &quot;Smith&quot;.</span></span></td>
+<td><span data-ttu-id="50fdd-114">!<em>değer</em> (ünlem işareti)</span><span class="sxs-lookup"><span data-stu-id="50fdd-114">!<em>value</em> (exclamation point)</span></span></td>
+<td><span data-ttu-id="50fdd-115">Girilen değere eşit değildir</span><span class="sxs-lookup"><span data-stu-id="50fdd-115">Not equal to the value that is entered</span></span></td>
+<td><span data-ttu-id="50fdd-116">Ünlem işareti ve dışlamak için bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-116">Type an exclamation point and then the value to exclude.</span></span></td>
+<td><span data-ttu-id="50fdd-117"><strong>!Smith</strong>, &quot;Smith&quot; haricindeki tüm değerleri bulur.</span><span class="sxs-lookup"><span data-stu-id="50fdd-117"><strong>!Smith</strong> finds all values except &quot;Smith&quot;.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-118"><em>değerinden</em>..<em>değerine</em> (çift nokta)</span><span class="sxs-lookup"><span data-stu-id="9127d-118"><em>from-value</em>..<em>to-value</em> (double period)</span></span></td>
-<td><span data-ttu-id="9127d-119">Çift nokta ile ayrılan iki değer arasında</span><span class="sxs-lookup"><span data-stu-id="9127d-119">Between the two values that are separated by double periods</span></span></td>
-<td><span data-ttu-id="9127d-120">Başlangıç değerini girin, ardından çift nokta girin ve bitiş değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-120">Type the from-value, then two periods, and then the to-value.</span></span></td>
-<td><span data-ttu-id="9127d-121"><strong>1..10</strong>, 1 ile 10 arasındaki tüm değerleri bulur.</span><span class="sxs-lookup"><span data-stu-id="9127d-121"><strong>1..10</strong> finds all values from 1 through 10.</span></span> <span data-ttu-id="9127d-122">Ancak bir dize alanında <strong>A..C</strong>, &quot;A&quot; ve &quot;B&quot; ile başlayan tüm değerleri ve &quot;C&quot; ile tam olarak eşdeğer olan tüm değerleri bulur.</span><span class="sxs-lookup"><span data-stu-id="9127d-122">However, in a string field, <strong>A..C</strong> finds all values that start with &quot;A&quot; and &quot;B&quot;, and values that are exactly equal to &quot;C&quot;.</span></span> <span data-ttu-id="9127d-123">Örneğin, bu sorgu &quot;Ca&quot;'yı bulmayacaktır.</span><span class="sxs-lookup"><span data-stu-id="9127d-123">For example, this query won't find &quot;Ca&quot;.</span></span> <span data-ttu-id="9127d-124">&quot;A<em>&quot; tipinden &quot;C</em>&quot; tipine tüm değerleri bulmak için <strong>A..D</strong> yazın.</span><span class="sxs-lookup"><span data-stu-id="9127d-124">To find all values from &quot;A<em>&quot; through &quot;C</em>&quot;, type <strong>A..D</strong>.</span></span></td>
+<td><span data-ttu-id="50fdd-118"><em>değerinden</em>..<em>değerine</em> (çift nokta)</span><span class="sxs-lookup"><span data-stu-id="50fdd-118"><em>from-value</em>..<em>to-value</em> (double period)</span></span></td>
+<td><span data-ttu-id="50fdd-119">Çift nokta ile ayrılan iki değer arasında</span><span class="sxs-lookup"><span data-stu-id="50fdd-119">Between the two values that are separated by double periods</span></span></td>
+<td><span data-ttu-id="50fdd-120">Başlangıç değerini girin, ardından çift nokta girin ve bitiş değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-120">Type the from-value, then two periods, and then the to-value.</span></span></td>
+<td><span data-ttu-id="50fdd-121"><strong>1..10</strong>, 1 ile 10 arasındaki tüm değerleri bulur.</span><span class="sxs-lookup"><span data-stu-id="50fdd-121"><strong>1..10</strong> finds all values from 1 through 10.</span></span> <span data-ttu-id="50fdd-122">Ancak bir dize alanında <strong>A..C</strong>, &quot;A&quot; ve &quot;B&quot; ile başlayan tüm değerleri ve &quot;C&quot; ile tam olarak eşdeğer olan tüm değerleri bulur.</span><span class="sxs-lookup"><span data-stu-id="50fdd-122">However, in a string field, <strong>A..C</strong> finds all values that start with &quot;A&quot; and &quot;B&quot;, and values that are exactly equal to &quot;C&quot;.</span></span> <span data-ttu-id="50fdd-123">Örneğin, bu sorgu &quot;Ca&quot;'yı bulmayacaktır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-123">For example, this query won't find &quot;Ca&quot;.</span></span> <span data-ttu-id="50fdd-124">&quot;A<em>&quot; tipinden &quot;C</em>&quot; tipine tüm değerleri bulmak için <strong>A..D</strong> yazın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-124">To find all values from &quot;A<em>&quot; through &quot;C</em>&quot;, type <strong>A..D</strong>.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-125">..<em>değer</em> (çift nokta)</span><span class="sxs-lookup"><span data-stu-id="9127d-125">..<em>value</em> (double period)</span></span></td>
-<td><span data-ttu-id="9127d-126">Girilen değerden az veya bu değere eşit</span><span class="sxs-lookup"><span data-stu-id="9127d-126">Less than or equal to the value that is entered</span></span></td>
-<td><span data-ttu-id="9127d-127">Çift noktayı ve ardından değeri girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-127">Type two periods and then the value.</span></span></td>
-<td><span data-ttu-id="9127d-128"><strong>..1000</strong>, &quot;100&quot;, &quot;999,95&quot; ve &quot;1000&quot; gibi, 1000'e eşit veya ondan az tüm sayıları bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="9127d-128"><strong>..1000</strong> finds any number that is less than or equal to 1000, such as &quot;100&quot;, &quot;999.95&quot;, and &quot;1,000&quot;.</span></span></td>
+<td><span data-ttu-id="50fdd-125">..<em>değer</em> (çift nokta)</span><span class="sxs-lookup"><span data-stu-id="50fdd-125">..<em>value</em> (double period)</span></span></td>
+<td><span data-ttu-id="50fdd-126">Girilen değerden az veya bu değere eşit</span><span class="sxs-lookup"><span data-stu-id="50fdd-126">Less than or equal to the value that is entered</span></span></td>
+<td><span data-ttu-id="50fdd-127">Çift noktayı ve ardından değeri girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-127">Type two periods and then the value.</span></span></td>
+<td><span data-ttu-id="50fdd-128"><strong>..1000</strong>, &quot;100&quot;, &quot;999,95&quot; ve &quot;1000&quot; gibi, 1000'e eşit veya ondan az tüm sayıları bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-128"><strong>..1000</strong> finds any number that is less than or equal to 1000, such as &quot;100&quot;, &quot;999.95&quot;, and &quot;1,000&quot;.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-129"><em>değer</em>..</span><span class="sxs-lookup"><span data-stu-id="9127d-129"><em>value</em>..</span></span> <span data-ttu-id="9127d-130">(çift nokta)</span><span class="sxs-lookup"><span data-stu-id="9127d-130">(double period)</span></span></td>
-<td><span data-ttu-id="9127d-131">Girilen değerden büyük veya bu değere eşit</span><span class="sxs-lookup"><span data-stu-id="9127d-131">Greater than or equal to the value that is entered</span></span></td>
-<td><span data-ttu-id="9127d-132">Değeri ve ardından çift noktayı girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-132">Type the value and then two periods.</span></span></td>
-<td><span data-ttu-id="9127d-133"><strong>1000..</strong></span><span class="sxs-lookup"><span data-stu-id="9127d-133"><strong>1000..</strong></span></span> <span data-ttu-id="9127d-134">&quot;1.000&quot;, &quot;1.000,01&quot; ve &quot;1.000.000&quot; gibi, 1000'e eşit veya ondan büyük tüm sayıları bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="9127d-134">finds any number that is greater than or equal to 1000, such as &quot;1,000&quot;, &quot;1,000.01&quot;, and &quot;1,000,000&quot;.</span></span></td>
+<td><span data-ttu-id="50fdd-129"><em>değer</em>..</span><span class="sxs-lookup"><span data-stu-id="50fdd-129"><em>value</em>..</span></span> <span data-ttu-id="50fdd-130">(çift nokta)</span><span class="sxs-lookup"><span data-stu-id="50fdd-130">(double period)</span></span></td>
+<td><span data-ttu-id="50fdd-131">Girilen değerden büyük veya bu değere eşit</span><span class="sxs-lookup"><span data-stu-id="50fdd-131">Greater than or equal to the value that is entered</span></span></td>
+<td><span data-ttu-id="50fdd-132">Değeri ve ardından çift noktayı girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-132">Type the value and then two periods.</span></span></td>
+<td><span data-ttu-id="50fdd-133"><strong>1000..</strong></span><span class="sxs-lookup"><span data-stu-id="50fdd-133"><strong>1000..</strong></span></span> <span data-ttu-id="50fdd-134">&quot;1.000&quot;, &quot;1.000,01&quot; ve &quot;1.000.000&quot; gibi, 1000'e eşit veya ondan büyük tüm sayıları bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-134">finds any number that is greater than or equal to 1000, such as &quot;1,000&quot;, &quot;1,000.01&quot;, and &quot;1,000,000&quot;.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-135">&gt;<em>değer</em> (büyüktür işareti)</span><span class="sxs-lookup"><span data-stu-id="9127d-135">&gt;<em>value</em> (greater than sign)</span></span></td>
-<td><span data-ttu-id="9127d-136">Girilen değerden büyüktür</span><span class="sxs-lookup"><span data-stu-id="9127d-136">Greater than the value that is entered</span></span></td>
-<td><span data-ttu-id="9127d-137">Bir büyüktür işareti (<strong>&gt;</strong>) ve ardından değeri girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-137">Type a greater than sign (<strong>&gt;</strong>) and then the value.</span></span></td>
-<td><span data-ttu-id="9127d-138"><strong>&gt;1000</strong> &quot;1000,01&quot;, &quot;20.000&quot; ve &quot;1.000.000&quot; gibi 1000'den büyük sayıları bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="9127d-138"><strong>&gt;1000</strong> finds any number that is greater than 1000, such as &quot;1000.01&quot;, &quot;20,000&quot;, and &quot;1,000,000&quot;.</span></span></td>
+<td><span data-ttu-id="50fdd-135">&gt;<em>değer</em> (büyüktür işareti)</span><span class="sxs-lookup"><span data-stu-id="50fdd-135">&gt;<em>value</em> (greater than sign)</span></span></td>
+<td><span data-ttu-id="50fdd-136">Girilen değerden büyüktür</span><span class="sxs-lookup"><span data-stu-id="50fdd-136">Greater than the value that is entered</span></span></td>
+<td><span data-ttu-id="50fdd-137">Bir büyüktür işareti (<strong>&gt;</strong>) ve ardından değeri girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-137">Type a greater than sign (<strong>&gt;</strong>) and then the value.</span></span></td>
+<td><span data-ttu-id="50fdd-138"><strong>&gt;1000</strong> &quot;1000,01&quot;, &quot;20.000&quot; ve &quot;1.000.000&quot; gibi 1000'den büyük sayıları bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-138"><strong>&gt;1000</strong> finds any number that is greater than 1000, such as &quot;1000.01&quot;, &quot;20,000&quot;, and &quot;1,000,000&quot;.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-139">&lt;<em>değer</em> (küçüktür işareti)</span><span class="sxs-lookup"><span data-stu-id="9127d-139">&lt;<em>value</em> (less than sign)</span></span></td>
-<td><span data-ttu-id="9127d-140">Girilen değerden küçüktür</span><span class="sxs-lookup"><span data-stu-id="9127d-140">Less than the value that is entered</span></span></td>
-<td><span data-ttu-id="9127d-141">Küçüktür işaretini (<strong>&lt;</strong>) ve ardından değeri girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-141">Type a less than sign (<strong>&lt;</strong>) and then the value.</span></span></td>
-<td><span data-ttu-id="9127d-142"><strong>&lt;1000</strong>, &quot;999,99&quot;, &quot;1&quot; ve &quot;-200&quot; gibi 1000'den küçük sayıları bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="9127d-142"><strong>&lt;1000</strong> finds any number that is less than 1000, such as &quot;999.99&quot;, &quot;1&quot;, and &quot;-200&quot;.</span></span></td>
+<td><span data-ttu-id="50fdd-139">&lt;<em>değer</em> (küçüktür işareti)</span><span class="sxs-lookup"><span data-stu-id="50fdd-139">&lt;<em>value</em> (less than sign)</span></span></td>
+<td><span data-ttu-id="50fdd-140">Girilen değerden küçüktür</span><span class="sxs-lookup"><span data-stu-id="50fdd-140">Less than the value that is entered</span></span></td>
+<td><span data-ttu-id="50fdd-141">Küçüktür işaretini (<strong>&lt;</strong>) ve ardından değeri girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-141">Type a less than sign (<strong>&lt;</strong>) and then the value.</span></span></td>
+<td><span data-ttu-id="50fdd-142"><strong>&lt;1000</strong>, &quot;999,99&quot;, &quot;1&quot; ve &quot;-200&quot; gibi 1000'den küçük sayıları bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-142"><strong>&lt;1000</strong> finds any number that is less than 1000, such as &quot;999.99&quot;, &quot;1&quot;, and &quot;-200&quot;.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-143"><em>değer</em>\* (yıldız)</span><span class="sxs-lookup"><span data-stu-id="9127d-143"><em>value</em>\* (asterisk)</span></span></td>
-<td><span data-ttu-id="9127d-144">Girilen değerden başlar</span><span class="sxs-lookup"><span data-stu-id="9127d-144">Starting from the value that is entered</span></span></td>
-<td><span data-ttu-id="9127d-145">Başlangıç değerini ve ardından yıldız yazın (<strong>\*</strong>).</span><span class="sxs-lookup"><span data-stu-id="9127d-145">Type the starting value and then an asterisk (<strong>\*</strong>).</span></span></td>
-<td><span data-ttu-id="9127d-146"><strong>S\*</strong> &quot;Stockholm&quot;, &quot;Sydney&quot; ve &quot;San Francisco&quot; gibi &quot;S&quot; ile başlayan dizeleri bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="9127d-146"><strong>S\*</strong> finds any string that starts with &quot;S&quot;, such as &quot;Stockholm&quot;, &quot;Sydney&quot;, and &quot;San Francisco&quot;.</span></span></td>
+<td><span data-ttu-id="50fdd-143"><em>değer</em>\* (yıldız)</span><span class="sxs-lookup"><span data-stu-id="50fdd-143"><em>value</em>\* (asterisk)</span></span></td>
+<td><span data-ttu-id="50fdd-144">Girilen değerden başlar</span><span class="sxs-lookup"><span data-stu-id="50fdd-144">Starting from the value that is entered</span></span></td>
+<td><span data-ttu-id="50fdd-145">Başlangıç değerini ve ardından yıldız yazın (<strong>\*</strong>).</span><span class="sxs-lookup"><span data-stu-id="50fdd-145">Type the starting value and then an asterisk (<strong>\*</strong>).</span></span></td>
+<td><span data-ttu-id="50fdd-146"><strong>S\*</strong> &quot;Stockholm&quot;, &quot;Sydney&quot; ve &quot;San Francisco&quot; gibi &quot;S&quot; ile başlayan dizeleri bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-146"><strong>S\*</strong> finds any string that starts with &quot;S&quot;, such as &quot;Stockholm&quot;, &quot;Sydney&quot;, and &quot;San Francisco&quot;.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-147">\*<em>değer</em> (yıldız)</span><span class="sxs-lookup"><span data-stu-id="9127d-147">\*<em>value</em> (asterisk)</span></span></td>
-<td><span data-ttu-id="9127d-148">Girilen değerle biten</span><span class="sxs-lookup"><span data-stu-id="9127d-148">Ending with the value that is entered</span></span></td>
-<td><span data-ttu-id="9127d-149">Bir yıldız girin ve ardından bitiş değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-149">Type an asterisk and then the ending value.</span></span></td>
-<td><span data-ttu-id="9127d-150"><strong>\*doğu</strong>, &quot;Kuzeydoğu&quot; ve &quot;Güneydoğu&quot; gibi &quot;doğu&quot; ile biten dizeleri bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="9127d-150"><strong>\*east</strong> finds any string that ends with &quot;east&quot;, such as &quot;Northeast&quot; and &quot;Southeast&quot;.</span></span></td>
+<td><span data-ttu-id="50fdd-147">\*<em>değer</em> (yıldız)</span><span class="sxs-lookup"><span data-stu-id="50fdd-147">\*<em>value</em> (asterisk)</span></span></td>
+<td><span data-ttu-id="50fdd-148">Girilen değerle biten</span><span class="sxs-lookup"><span data-stu-id="50fdd-148">Ending with the value that is entered</span></span></td>
+<td><span data-ttu-id="50fdd-149">Bir yıldız girin ve ardından bitiş değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-149">Type an asterisk and then the ending value.</span></span></td>
+<td><span data-ttu-id="50fdd-150"><strong>\*doğu</strong>, &quot;Kuzeydoğu&quot; ve &quot;Güneydoğu&quot; gibi &quot;doğu&quot; ile biten dizeleri bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-150"><strong>\*east</strong> finds any string that ends with &quot;east&quot;, such as &quot;Northeast&quot; and &quot;Southeast&quot;.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-151">*<em>değer</em>* (yıldız)</span><span class="sxs-lookup"><span data-stu-id="9127d-151">*<em>value</em>* (asterisk)</span></span></td>
-<td><span data-ttu-id="9127d-152">Girilen değeri içeren</span><span class="sxs-lookup"><span data-stu-id="9127d-152">Containing the value that is entered</span></span></td>
-<td><span data-ttu-id="9127d-153">Bir yıldız girin, ardından değeri girin ve daha sonra bir yıldız daha girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-153">Type an asterisk, then a value, and then another asterisk.</span></span></td>
-<td><span data-ttu-id="9127d-154"><strong>*th*</strong>, &quot;Northeast&quot; ve &quot;Southeast&quot; gibi &quot;th&quot; içeren dizeleri bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="9127d-154"><strong>*th*</strong> finds any string that contains &quot;th&quot;, such as &quot;Northeast&quot; and &quot;Southeast&quot;.</span></span></td>
+<td><span data-ttu-id="50fdd-151">*<em>değer</em>* (yıldız)</span><span class="sxs-lookup"><span data-stu-id="50fdd-151">*<em>value</em>* (asterisk)</span></span></td>
+<td><span data-ttu-id="50fdd-152">Girilen değeri içeren</span><span class="sxs-lookup"><span data-stu-id="50fdd-152">Containing the value that is entered</span></span></td>
+<td><span data-ttu-id="50fdd-153">Bir yıldız girin, ardından değeri girin ve daha sonra bir yıldız daha girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-153">Type an asterisk, then a value, and then another asterisk.</span></span></td>
+<td><span data-ttu-id="50fdd-154"><strong>*th*</strong>, &quot;Northeast&quot; ve &quot;Southeast&quot; gibi &quot;th&quot; içeren dizeleri bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-154"><strong>*th*</strong> finds any string that contains &quot;th&quot;, such as &quot;Northeast&quot; and &quot;Southeast&quot;.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-155">?</span><span class="sxs-lookup"><span data-stu-id="9127d-155">?</span></span> <span data-ttu-id="9127d-156">(soru işareti)</span><span class="sxs-lookup"><span data-stu-id="9127d-156">(question mark)</span></span></td>
-<td><span data-ttu-id="9127d-157">Bir veya birden fazla bilinmeyen karaktere sahip</span><span class="sxs-lookup"><span data-stu-id="9127d-157">Having one or more unknown characters</span></span></td>
-<td><span data-ttu-id="9127d-158">Değerdeki bilinmeyen karakterlerin yerine soru işareti girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-158">Type a question mark at the position of the unknown character in the value.</span></span></td>
-<td><span data-ttu-id="9127d-159"><strong>Sm?th</strong> &quot;Smith&quot; ve &quot;Smyth&quot; değerlerini bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="9127d-159"><strong>Sm?th</strong> finds &quot;Smith&quot; and &quot;Smyth&quot;.</span></span></td>
+<td><span data-ttu-id="50fdd-155">?</span><span class="sxs-lookup"><span data-stu-id="50fdd-155">?</span></span> <span data-ttu-id="50fdd-156">(soru işareti)</span><span class="sxs-lookup"><span data-stu-id="50fdd-156">(question mark)</span></span></td>
+<td><span data-ttu-id="50fdd-157">Bir veya birden fazla bilinmeyen karaktere sahip</span><span class="sxs-lookup"><span data-stu-id="50fdd-157">Having one or more unknown characters</span></span></td>
+<td><span data-ttu-id="50fdd-158">Değerdeki bilinmeyen karakterlerin yerine soru işareti girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-158">Type a question mark at the position of the unknown character in the value.</span></span></td>
+<td><span data-ttu-id="50fdd-159"><strong>Sm?th</strong> &quot;Smith&quot; ve &quot;Smyth&quot; değerlerini bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-159"><strong>Sm?th</strong> finds &quot;Smith&quot; and &quot;Smyth&quot;.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-160"><em>değer</em>,<em>değer</em> (virgül)</span><span class="sxs-lookup"><span data-stu-id="9127d-160"><em>value</em>,<em>value</em> (comma)</span></span></td>
-<td><span data-ttu-id="9127d-161">Virgülle ayrılmış değerlerle eşleşen</span><span class="sxs-lookup"><span data-stu-id="9127d-161">Matching the values that are separated by commas</span></span></td>
-<td><span data-ttu-id="9127d-162">Tüm ölçütlerinizi girin ve virgülle ayırın.</span><span class="sxs-lookup"><span data-stu-id="9127d-162">Type all your criteria, and separate them by using commas.</span></span></td>
-<td><span data-ttu-id="9127d-163"><strong>A, D, F, G</strong> tam olarak &quot;A&quot;, &quot;D&quot;, &quot;F&quot; ve &quot;G&quot; değerlerini bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="9127d-163"><strong>A, D, F, G</strong> finds exactly &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, and &quot;G&quot;.</span></span> <span data-ttu-id="9127d-164"><strong>10, 20, 30, 100</strong> tam olarak &quot;10, 20, 30, 100&quot; değerlerini bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="9127d-164"><strong>10, 20, 30, 100</strong> finds exactly &quot;10, 20, 30, 100&quot;.</span></span></td>
+<td><span data-ttu-id="50fdd-160"><em>değer</em>,<em>değer</em> (virgül)</span><span class="sxs-lookup"><span data-stu-id="50fdd-160"><em>value</em>,<em>value</em> (comma)</span></span></td>
+<td><span data-ttu-id="50fdd-161">Virgülle ayrılmış değerlerle eşleşen</span><span class="sxs-lookup"><span data-stu-id="50fdd-161">Matching the values that are separated by commas</span></span></td>
+<td><span data-ttu-id="50fdd-162">Tüm ölçütlerinizi girin ve virgülle ayırın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-162">Type all your criteria, and separate them by using commas.</span></span></td>
+<td><span data-ttu-id="50fdd-163"><strong>A, D, F, G</strong> tam olarak &quot;A&quot;, &quot;D&quot;, &quot;F&quot; ve &quot;G&quot; değerlerini bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-163"><strong>A, D, F, G</strong> finds exactly &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, and &quot;G&quot;.</span></span> <span data-ttu-id="50fdd-164"><strong>10, 20, 30, 100</strong> tam olarak &quot;10, 20, 30, 100&quot; değerlerini bulacaktır.</span><span class="sxs-lookup"><span data-stu-id="50fdd-164"><strong>10, 20, 30, 100</strong> finds exactly &quot;10, 20, 30, 100&quot;.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-165">(<span class="code">SQL deyimi</span>) (parantez içindeki SQL deyimi)</span><span class="sxs-lookup"><span data-stu-id="9127d-165">(<span class="code">SQL statement</span>) (SQL statement between parentheses)</span></span></td>
-<td><span data-ttu-id="9127d-166">Tanımlanan bir sorgulamayı eşleştirir.</span><span class="sxs-lookup"><span data-stu-id="9127d-166">Matching a defined query</span></span></td>
-<td><span data-ttu-id="9127d-167">Parantez içinde SQL deyimi olarak bir sorgulama yazın.</span><span class="sxs-lookup"><span data-stu-id="9127d-167">Type a query as an SQL statement between parentheses.</span></span></td>
-<td><span data-ttu-id="9127d-168"><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></span><span class="sxs-lookup"><span data-stu-id="9127d-168"><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></span></span></td>
+<td><span data-ttu-id="50fdd-165">"" (iki çift tırnak)</span><span class="sxs-lookup"><span data-stu-id="50fdd-165">"" (two double quotes)</span></span></td>
+<td><span data-ttu-id="50fdd-166">Boş bir değerle eşleştirme</span><span class="sxs-lookup"><span data-stu-id="50fdd-166">Matching a blank value</span></span></td>
+<td><span data-ttu-id="50fdd-167">Bu alandaki boş değerleri filtrelemek için art arda iki çift tırnak yazın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-167">Type two consecutive double quotes to filter for blank values in that field.</span></span></td>
+<td><span data-ttu-id="50fdd-168">İki ardışık çift tırnak (<strong>""</strong>), geçerli sütun için değer içermeyen satırları bulur.</span><span class="sxs-lookup"><span data-stu-id="50fdd-168">Two consecutive double quotes (<strong>""</strong>) finds rows with no value for the current column.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-169">S</span><span class="sxs-lookup"><span data-stu-id="9127d-169">T</span></span></td>
-<td><span data-ttu-id="9127d-170">Bugünün tarihi</span><span class="sxs-lookup"><span data-stu-id="9127d-170">Today's date</span></span></td>
-<td><span data-ttu-id="9127d-171"><strong>T</strong> yazın.</span><span class="sxs-lookup"><span data-stu-id="9127d-171">Type <strong>T</strong>.</span></span></td>
-<td><span data-ttu-id="9127d-172"><strong>T</strong> bugünün tarihi ile eşleşir.</span><span class="sxs-lookup"><span data-stu-id="9127d-172"><strong>T</strong> matches today's date.</span></span></td>
+<td><span data-ttu-id="50fdd-169">(<span class="code">SQL deyimi</span>) (parantez içindeki SQL deyimi)</span><span class="sxs-lookup"><span data-stu-id="50fdd-169">(<span class="code">SQL statement</span>) (SQL statement between parentheses)</span></span></td>
+<td><span data-ttu-id="50fdd-170">Tanımlanan bir sorgulamayı eşleştirir.</span><span class="sxs-lookup"><span data-stu-id="50fdd-170">Matching a defined query</span></span></td>
+<td><span data-ttu-id="50fdd-171">Parantez içinde SQL deyimi olarak bir sorgulama yazın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-171">Type a query as an SQL statement between parentheses.</span></span></td>
+<td><span data-ttu-id="50fdd-172"><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></span><span class="sxs-lookup"><span data-stu-id="50fdd-172"><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-173">(methodName(parameters)) (Parantez içinde <strong>SysQueryRangeUtil</strong> yöntemi)</span><span class="sxs-lookup"><span data-stu-id="9127d-173">(methodName(parameters)) (<strong>SysQueryRangeUtil</strong> method between parentheses)</span></span></td>
-<td><span data-ttu-id="9127d-174"><strong>SysQueryRangeUtil</strong> yöntemi parametreleri tarafından belirtilen değer veya değer aralığı ile eşleşen</span><span class="sxs-lookup"><span data-stu-id="9127d-174">Matching the value or range of values that are specified by the parameters of the <strong>SysQueryRangeUtil</strong> method</span></span></td>
-<td><span data-ttu-id="9127d-175">Değeri veya değer aralığını belirten parametrelere sahip bir <strong>SysQueryRangeUtil</strong> yöntemi girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-175">Type a <strong>SysQueryRangeUtil</strong> method that has parameters that specify the value or range of values.</span></span></td>
+<td><span data-ttu-id="50fdd-173">S</span><span class="sxs-lookup"><span data-stu-id="50fdd-173">T</span></span></td>
+<td><span data-ttu-id="50fdd-174">Bugünün tarihi</span><span class="sxs-lookup"><span data-stu-id="50fdd-174">Today's date</span></span></td>
+<td><span data-ttu-id="50fdd-175"><strong>T</strong> yazın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-175">Type <strong>T</strong>.</span></span></td>
+<td><span data-ttu-id="50fdd-176"><strong>T</strong> bugünün tarihi ile eşleşir.</span><span class="sxs-lookup"><span data-stu-id="50fdd-176"><strong>T</strong> matches today's date.</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="50fdd-177">(methodName(parameters)) (Parantez içinde <strong>SysQueryRangeUtil</strong> yöntemi)</span><span class="sxs-lookup"><span data-stu-id="50fdd-177">(methodName(parameters)) (<strong>SysQueryRangeUtil</strong> method between parentheses)</span></span></td>
+<td><span data-ttu-id="50fdd-178"><strong>SysQueryRangeUtil</strong> yöntemi parametreleri tarafından belirtilen değer veya değer aralığı ile eşleşen</span><span class="sxs-lookup"><span data-stu-id="50fdd-178">Matching the value or range of values that are specified by the parameters of the <strong>SysQueryRangeUtil</strong> method</span></span></td>
+<td><span data-ttu-id="50fdd-179">Değeri veya değer aralığını belirten parametrelere sahip bir <strong>SysQueryRangeUtil</strong> yöntemi girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-179">Type a <strong>SysQueryRangeUtil</strong> method that has parameters that specify the value or range of values.</span></span></td>
 <td>
 <ol>
-<li><span data-ttu-id="9127d-176"><strong>Alacak hesapları</strong> &gt; <strong>Faturalar</strong> &gt; <strong>Açık müşteri faturaları</strong> menü seçimlerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9127d-176">Click <strong>Accounts receivable</strong> &gt; <strong>Invoices</strong> &gt; <strong>Open customer invoices</strong>.</span></span></li>
-<li><span data-ttu-id="9127d-177">Ctrl+Shift+F3 tuş bileşimine basarak <strong>Sorgu</strong> sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="9127d-177">Press Ctrl+Shift+F3 to open the <strong>Inquiry</strong> page.</span></span></li>
-<li><span data-ttu-id="9127d-178"><strong>Aralık</strong> sekmesinde <strong>Ekle</strong>'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9127d-178">On the <strong>Range</strong> tab, click <strong>Add</strong>.</span></span></li>
-<li><span data-ttu-id="9127d-179"><strong>Tablo</strong> alanında <strong>Açık müşteri hareketleri</strong>'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="9127d-179">In the <strong>Table</strong> field, select <strong>Open customer transactions</strong>.</span></span></li>
-<li><span data-ttu-id="9127d-180"><strong>Alan</strong> alanında <strong>Vade tarihi</strong>'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="9127d-180">In the <strong>Field</strong> field, select <strong>Due date</strong>.</span></span></li>
-<li><span data-ttu-id="9127d-181"><strong>Ölçüt</strong> alanına, <strong>(yearRange(-2,0))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-181">In the <strong>Criteria</strong> field, enter <strong>(yearRange(-2,0))</strong>.</span></span></li>
-<li><span data-ttu-id="9127d-182"><strong>Tamam</strong> düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9127d-182">Click <strong>OK</strong>.</span></span> <span data-ttu-id="9127d-183">Liste sayfası güncellenir ve girdiğiniz ölçüt ile eşleşen faturalar listelenir.</span><span class="sxs-lookup"><span data-stu-id="9127d-183">The list page is updated and lists the invoices that match the criterion that you entered.</span></span> <span data-ttu-id="9127d-184">Bu örnekte, önceki iki yıl içinde ödenecek faturalar listelenir.</span><span class="sxs-lookup"><span data-stu-id="9127d-184">For this example, invoices that were due in the previous two years are listed.</span></span></li>
+<li><span data-ttu-id="50fdd-180"><strong>Alacak hesapları</strong> &gt; <strong>Faturalar</strong> &gt; <strong>Açık müşteri faturaları</strong> menü seçimlerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-180">Click <strong>Accounts receivable</strong> &gt; <strong>Invoices</strong> &gt; <strong>Open customer invoices</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-181">Ctrl+Shift+F3 tuş bileşimine basarak <strong>Sorgu</strong> sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-181">Press Ctrl+Shift+F3 to open the <strong>Inquiry</strong> page.</span></span></li>
+<li><span data-ttu-id="50fdd-182"><strong>Aralık</strong> sekmesinde <strong>Ekle</strong>'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-182">On the <strong>Range</strong> tab, click <strong>Add</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-183"><strong>Tablo</strong> alanında <strong>Açık müşteri hareketleri</strong>'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-183">In the <strong>Table</strong> field, select <strong>Open customer transactions</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-184"><strong>Alan</strong> alanında <strong>Vade tarihi</strong>'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-184">In the <strong>Field</strong> field, select <strong>Due date</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-185"><strong>Ölçüt</strong> alanına, <strong>(yearRange(-2,0))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-185">In the <strong>Criteria</strong> field, enter <strong>(yearRange(-2,0))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-186"><strong>Tamam</strong> düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-186">Click <strong>OK</strong>.</span></span> <span data-ttu-id="50fdd-187">Liste sayfası güncellenir ve girdiğiniz ölçüt ile eşleşen faturalar listelenir.</span><span class="sxs-lookup"><span data-stu-id="50fdd-187">The list page is updated and lists the invoices that match the criterion that you entered.</span></span> <span data-ttu-id="50fdd-188">Bu örnekte, önceki iki yıl içinde ödenecek faturalar listelenir.</span><span class="sxs-lookup"><span data-stu-id="50fdd-188">For this example, invoices that were due in the previous two years are listed.</span></span></li>
 </ol>
-<span data-ttu-id="9127d-185"><strong>SysQueryRangeUtil</strong> tarih yöntemleri hakkında ek ayrıntılar ve diğer örnekler için sonraki bölümde yer alan tabloya bakın.</span><span class="sxs-lookup"><span data-stu-id="9127d-185">See the table in the next section for additional details about <strong>SysQueryRangeUtil</strong> date methods, and several examples.</span></span></td>
+<span data-ttu-id="50fdd-189"><strong>SysQueryRangeUtil</strong> tarih yöntemleri hakkında ek ayrıntılar ve diğer örnekler için sonraki bölümde yer alan tabloya bakın.</span><span class="sxs-lookup"><span data-stu-id="50fdd-189">See the table in the next section for additional details about <strong>SysQueryRangeUtil</strong> date methods, and several examples.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="advanced-date-queries-that-use-sysqueryrangeutil-methods"></a><span data-ttu-id="9127d-186">SysQueryRangeUtil yöntemleri kullanan gelişmiş tarih sorguları</span><span class="sxs-lookup"><span data-stu-id="9127d-186">Advanced date queries that use SysQueryRangeUtil methods</span></span>
+## <a name="advanced-date-queries-that-use-sysqueryrangeutil-methods"></a><span data-ttu-id="50fdd-190">SysQueryRangeUtil yöntemleri kullanan gelişmiş tarih sorguları</span><span class="sxs-lookup"><span data-stu-id="50fdd-190">Advanced date queries that use SysQueryRangeUtil methods</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="9127d-187">Yöntem</span><span class="sxs-lookup"><span data-stu-id="9127d-187">Method</span></span></th>
-<th><span data-ttu-id="9127d-188">Açıklama</span><span class="sxs-lookup"><span data-stu-id="9127d-188">Description</span></span></th>
-<th><span data-ttu-id="9127d-189">Örnek</span><span class="sxs-lookup"><span data-stu-id="9127d-189">Example</span></span></th>
+<th><span data-ttu-id="50fdd-191">Yöntem</span><span class="sxs-lookup"><span data-stu-id="50fdd-191">Method</span></span></th>
+<th><span data-ttu-id="50fdd-192">Açıklama</span><span class="sxs-lookup"><span data-stu-id="50fdd-192">Description</span></span></th>
+<th><span data-ttu-id="50fdd-193">Örnek</span><span class="sxs-lookup"><span data-stu-id="50fdd-193">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="9127d-190">Gün (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="9127d-190">Day (_relativeDays=0)</span></span></td>
-<td><span data-ttu-id="9127d-191">Oturum tarihine göre bir tarih bulun.</span><span class="sxs-lookup"><span data-stu-id="9127d-191">Find a date relative to the session date.</span></span> <span data-ttu-id="9127d-192">Pozitif değerler gelecekteki tarihleri, negatif değerler geçmişteki tarihleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="9127d-192">Positive values indicate future dates, and negative values indicate past dates.</span></span></td>
+<td><span data-ttu-id="50fdd-194">Gün (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="50fdd-194">Day (_relativeDays=0)</span></span></td>
+<td><span data-ttu-id="50fdd-195">Oturum tarihine göre bir tarih bulun.</span><span class="sxs-lookup"><span data-stu-id="50fdd-195">Find a date relative to the session date.</span></span> <span data-ttu-id="50fdd-196">Pozitif değerler gelecekteki tarihleri, negatif değerler geçmişteki tarihleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="50fdd-196">Positive values indicate future dates, and negative values indicate past dates.</span></span></td>
 <td>
 <ul>
-<li><span data-ttu-id="9127d-193"><strong>Yarın</strong> – <strong>(Day(1))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-193"><strong>Tomorrow</strong> – Enter <strong>(Day(1))</strong>.</span></span></li>
-<li><span data-ttu-id="9127d-194"><strong>Bugün</strong> – <strong>(Day(0))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-194"><strong>Today</strong> – Enter <strong>(Day(0))</strong>.</span></span></li>
-<li><span data-ttu-id="9127d-195"><strong>Dün</strong> – <strong>(Day(-1))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-195"><strong>Yesterday</strong> – Enter <strong>(Day(-1))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-197"><strong>Yarın</strong> – <strong>(Day(1))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-197"><strong>Tomorrow</strong> – Enter <strong>(Day(1))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-198"><strong>Bugün</strong> – <strong>(Day(0))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-198"><strong>Today</strong> – Enter <strong>(Day(0))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-199"><strong>Dün</strong> – <strong>(Day(-1))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-199"><strong>Yesterday</strong> – Enter <strong>(Day(-1))</strong>.</span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-196">DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</span><span class="sxs-lookup"><span data-stu-id="9127d-196">DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</span></span></td>
-<td><span data-ttu-id="9127d-197">Oturum tarihine göre tarih aralığı bulun.</span><span class="sxs-lookup"><span data-stu-id="9127d-197">Find a range of dates relative to the session date.</span></span> <span data-ttu-id="9127d-198">Pozitif değerler gelecekteki tarihleri, negatif değerler geçmişteki tarihleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="9127d-198">Positive values indicate future dates, and negative values indicate past dates.</span></span></td>
+<td><span data-ttu-id="50fdd-200">DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</span><span class="sxs-lookup"><span data-stu-id="50fdd-200">DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</span></span></td>
+<td><span data-ttu-id="50fdd-201">Oturum tarihine göre tarih aralığı bulun.</span><span class="sxs-lookup"><span data-stu-id="50fdd-201">Find a range of dates relative to the session date.</span></span> <span data-ttu-id="50fdd-202">Pozitif değerler gelecekteki tarihleri, negatif değerler geçmişteki tarihleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="50fdd-202">Positive values indicate future dates, and negative values indicate past dates.</span></span></td>
 <td>
 <ul>
-<li><span data-ttu-id="9127d-199"><strong>Son 30 gün</strong> – <strong>(DayRange(-30,0))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-199"><strong>Last 30 days</strong> – Enter <strong>(DayRange(-30,0))</strong>.</span></span></li>
-<li><span data-ttu-id="9127d-200"><strong>Önceki 30 gün ve sonraki 30 gün</strong> – <strong>(DayRange(-30,30))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-200"><strong>Previous 30 days and next 30 days</strong> – Enter <strong>(DayRange(-30,30))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-203"><strong>Son 30 gün</strong> – <strong>(DayRange(-30,0))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-203"><strong>Last 30 days</strong> – Enter <strong>(DayRange(-30,0))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-204"><strong>Önceki 30 gün ve sonraki 30 gün</strong> – <strong>(DayRange(-30,30))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-204"><strong>Previous 30 days and next 30 days</strong> – Enter <strong>(DayRange(-30,30))</strong>.</span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-201">GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="9127d-201">GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</span></span></td>
-<td><span data-ttu-id="9127d-202">Belirtilen göreli tarih sonrasındaki tüm tarihleri bulun.</span><span class="sxs-lookup"><span data-stu-id="9127d-202">Find all dates after the specified relative date.</span></span></td>
+<td><span data-ttu-id="50fdd-205">GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="50fdd-205">GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</span></span></td>
+<td><span data-ttu-id="50fdd-206">Belirtilen göreli tarih sonrasındaki tüm tarihleri bulun.</span><span class="sxs-lookup"><span data-stu-id="50fdd-206">Find all dates after the specified relative date.</span></span></td>
 <td>
 <ul>
-<li><span data-ttu-id="9127d-203"><strong>Bugünden itibaren 30 günden fazla</strong> – <strong>(GreaterThanDate(30))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-203"><strong>More than 30 days from now</strong> – Enter <strong>(GreaterThanDate(30))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-207"><strong>Bugünden itibaren 30 günden fazla</strong> – <strong>(GreaterThanDate(30))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-207"><strong>More than 30 days from now</strong> – Enter <strong>(GreaterThanDate(30))</strong>.</span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-204">GreaterThanUtcNow ()</span><span class="sxs-lookup"><span data-stu-id="9127d-204">GreaterThanUtcNow ()</span></span></td>
-<td><span data-ttu-id="9127d-205">Geçerli saatten sonraki tüm tarih/saat girişlerini bulun.</span><span class="sxs-lookup"><span data-stu-id="9127d-205">Find all date/time entries after the current time.</span></span></td>
+<td><span data-ttu-id="50fdd-208">GreaterThanUtcNow ()</span><span class="sxs-lookup"><span data-stu-id="50fdd-208">GreaterThanUtcNow ()</span></span></td>
+<td><span data-ttu-id="50fdd-209">Geçerli saatten sonraki tüm tarih/saat girişlerini bulun.</span><span class="sxs-lookup"><span data-stu-id="50fdd-209">Find all date/time entries after the current time.</span></span></td>
 <td>
 <ul>
-<li><span data-ttu-id="9127d-206"><strong>Gelecekteki tüm tarih/saatler</strong> – <strong>(GreaterThanUtcNow())</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-206"><strong>All future date/times</strong> – Enter <strong>(GreaterThanUtcNow())</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-210"><strong>Gelecekteki tüm tarih/saatler</strong> – <strong>(GreaterThanUtcNow())</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-210"><strong>All future date/times</strong> – Enter <strong>(GreaterThanUtcNow())</strong>.</span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-207">LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="9127d-207">LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</span></span></td>
-<td><span data-ttu-id="9127d-208">Belirtilen göreli tarih öncesindeki tüm tarihleri bulun.</span><span class="sxs-lookup"><span data-stu-id="9127d-208">Find all dates before the specified relative date.</span></span></td>
+<td><span data-ttu-id="50fdd-211">LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</span><span class="sxs-lookup"><span data-stu-id="50fdd-211">LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</span></span></td>
+<td><span data-ttu-id="50fdd-212">Belirtilen göreli tarih öncesindeki tüm tarihleri bulun.</span><span class="sxs-lookup"><span data-stu-id="50fdd-212">Find all dates before the specified relative date.</span></span></td>
 <td>
 <ul>
-<li><span data-ttu-id="9127d-209"><strong>Bugünden itibaren yedi günden az</strong> – <strong>(LessThanDate(7))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-209"><strong>Less than seven days from now</strong> – Enter <strong>(LessThanDate(7))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-213"><strong>Bugünden itibaren yedi günden az</strong> – <strong>(LessThanDate(7))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-213"><strong>Less than seven days from now</strong> – Enter <strong>(LessThanDate(7))</strong>.</span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-210">LessThanUtcNow ()</span><span class="sxs-lookup"><span data-stu-id="9127d-210">LessThanUtcNow ()</span></span></td>
-<td><span data-ttu-id="9127d-211">Geçerli saatten önceki tüm tarih/saat girişlerini bulun.</span><span class="sxs-lookup"><span data-stu-id="9127d-211">Find all date/time entries before the current time.</span></span></td>
+<td><span data-ttu-id="50fdd-214">LessThanUtcNow ()</span><span class="sxs-lookup"><span data-stu-id="50fdd-214">LessThanUtcNow ()</span></span></td>
+<td><span data-ttu-id="50fdd-215">Geçerli saatten önceki tüm tarih/saat girişlerini bulun.</span><span class="sxs-lookup"><span data-stu-id="50fdd-215">Find all date/time entries before the current time.</span></span></td>
 <td>
 <ul>
-<li><span data-ttu-id="9127d-212"><strong>Tüm geçmiş tarih/saatler</strong> – <strong>(LessThanUtcNow())</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-212"><strong>All past date/times</strong> – Enter <strong>(LessThanUtcNow())</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-216"><strong>Tüm geçmiş tarih/saatler</strong> – <strong>(LessThanUtcNow())</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-216"><strong>All past date/times</strong> – Enter <strong>(LessThanUtcNow())</strong>.</span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-213">MonthRange (_relativeFrom=0, _relativeTo=0)</span><span class="sxs-lookup"><span data-stu-id="9127d-213">MonthRange (_relativeFrom=0, _relativeTo=0)</span></span></td>
-<td><span data-ttu-id="9127d-214">Geçerli aya göreli aylara dayalı olarak bir tarih aralığını bulun.</span><span class="sxs-lookup"><span data-stu-id="9127d-214">Find a range of dates, based on months relative to the current month.</span></span></td>
+<td><span data-ttu-id="50fdd-217">MonthRange (_relativeFrom=0, _relativeTo=0)</span><span class="sxs-lookup"><span data-stu-id="50fdd-217">MonthRange (_relativeFrom=0, _relativeTo=0)</span></span></td>
+<td><span data-ttu-id="50fdd-218">Geçerli aya göreli aylara dayalı olarak bir tarih aralığını bulun.</span><span class="sxs-lookup"><span data-stu-id="50fdd-218">Find a range of dates, based on months relative to the current month.</span></span></td>
 <td>
 <ul>
-<li><span data-ttu-id="9127d-215"><strong>Önceki iki ay</strong> – <strong>(MonthRange(-2,0))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-215"><strong>Previous two months</strong> – Enter <strong>(MonthRange(-2,0))</strong>.</span></span></li>
-<li><span data-ttu-id="9127d-216"><strong>Sonraki üç ay</strong> – <strong>(MonthRange(0,3))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-216"><strong>Next three months</strong> – Enter <strong>(MonthRange(0,3))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-219"><strong>Önceki iki ay</strong> – <strong>(MonthRange(-2,0))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-219"><strong>Previous two months</strong> – Enter <strong>(MonthRange(-2,0))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-220"><strong>Sonraki üç ay</strong> – <strong>(MonthRange(0,3))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-220"><strong>Next three months</strong> – Enter <strong>(MonthRange(0,3))</strong>.</span></span></li>
 </ul>
 </td>
 </tr>
 <tr>
-<td><span data-ttu-id="9127d-217">YearRange (_relativeFrom=0, _relativeTo=0)</span><span class="sxs-lookup"><span data-stu-id="9127d-217">YearRange (_relativeFrom=0, _relativeTo=0)</span></span></td>
-<td><span data-ttu-id="9127d-218">Geçerli yıla göreli yıllara dayalı olarak bir tarih aralığını bulun.</span><span class="sxs-lookup"><span data-stu-id="9127d-218">Find a range of dates, based on years relative to the current year.</span></span></td>
+<td><span data-ttu-id="50fdd-221">YearRange (_relativeFrom=0, _relativeTo=0)</span><span class="sxs-lookup"><span data-stu-id="50fdd-221">YearRange (_relativeFrom=0, _relativeTo=0)</span></span></td>
+<td><span data-ttu-id="50fdd-222">Geçerli yıla göreli yıllara dayalı olarak bir tarih aralığını bulun.</span><span class="sxs-lookup"><span data-stu-id="50fdd-222">Find a range of dates, based on years relative to the current year.</span></span></td>
 <td>
 <ul>
-<li><span data-ttu-id="9127d-219"><strong>Gelecek yıl</strong> – <strong>(YearRange(0, 1))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-219"><strong>Next year</strong> – Enter <strong>(YearRange(0, 1))</strong>.</span></span></li>
-<li><span data-ttu-id="9127d-220"><strong>Önceki yıl</strong> – <strong>(YearRange(-1,0))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="9127d-220"><strong>Previous year</strong> – Enter <strong>(YearRange(-1,0))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-223"><strong>Gelecek yıl</strong> – <strong>(YearRange(0, 1))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-223"><strong>Next year</strong> – Enter <strong>(YearRange(0, 1))</strong>.</span></span></li>
+<li><span data-ttu-id="50fdd-224"><strong>Önceki yıl</strong> – <strong>(YearRange(-1,0))</strong> değerini girin.</span><span class="sxs-lookup"><span data-stu-id="50fdd-224"><strong>Previous year</strong> – Enter <strong>(YearRange(-1,0))</strong>.</span></span></li>
 </ul>
 </td>
 </tr>
