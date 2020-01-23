@@ -3,7 +3,7 @@ title: Telif hakkı bildirimi ekleme
 description: Bu konuda, e-ticaret Web sitenize telif hakkı bildirimi ekleme yöntemi açıklanmıştır.
 author: psimolin
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39135a2eca25336097ee9eddf06dc6709c102571
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696957"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914596"
 ---
 # <a name="add-a-copyright-notice"></a>Telif hakkı bildirimi ekleme
 
@@ -65,6 +65,8 @@ Telif hakkı bildirimini içeren altbilgi, seçili şablonu kullanan tüm sayfal
 [Logo ekleme](add-logo.md)
 
 [Site teması seçme](select-site-theme.md)
+
+[CSS geçersiz kılma dosyalarıyla çalışma](css-override-files.md)
 
 [Favicon ekleme](add-favicon.md)
 

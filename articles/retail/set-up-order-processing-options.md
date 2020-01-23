@@ -3,7 +3,7 @@ title: Çağrı merkezi kanalları ayarlama
 description: Bu konuda, çağrı merkezleri için siparişlerin Dynamics 365 Retail kullanarak nasıl işleneceği hakkında bilgi verilmektedir.
 author: josaw1
 manager: AnnBe
-ms.date: 04/16/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4ebe25f91cd4228537254dc0b7891c8584981775
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024833"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934712"
 ---
 # <a name="set-up-call-center-channels"></a>Çağrı merkezi kanalları ayarlama
 
@@ -81,3 +81,6 @@ Bir çağrı merkezi kanalına bağlı olmayan kullanıcılar, Microsoft Dynamic
 
 
 Çağrı merkezi parametrelerini yapılandırmayı ve kanal kullanıcılarını tanımlamayı tamamladıktan sonra, istenen sistem davranışının sağlanmasına yardımcı olmak için tüm gerekli Çağrı merkezi parametrelerinin **Perakende** \> **Kanal kurulum** \> **Çağrı merkezi kurulumu** \> **Çağrı merkezi parametreleri** altından tanımlandığından emin olun. İlgili numara serilerinin de tanımlandığından emin olun.
+
+> [!NOTE]
+> Çağrı merkezi işlevlerini kullanabilmeniz için **çoklu sevk edilecek** konfigürasyon anahtarının etkinleştirilmesi gerekir. Bu konfigürasyon anahtarı, **Sistem yönetimi** \> **Kurulum** \> **Lisans konfigürasyonu** altındaki **ticaret konfigürasyon** anahtarlarında bulunabilir. Bu, satış siparişi satırı düzeyinde konfigüre edilen teslimat adresine dayalı olarak çeşitli doğrulamaları gerçekleştiren çağrı merkezi işlevselliğe bağlı olarak gereklidir. 

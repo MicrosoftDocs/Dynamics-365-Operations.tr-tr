@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 446260a09bd5177877637ac8a288ad584dfa2b2b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adb2300e51f8b5383eee4dea0dffe4129dc8a536
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568708"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934829"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>Varyant ağırlıkları kullanarak satınalma siparişlerine çeşitli ürünler ekleme
 

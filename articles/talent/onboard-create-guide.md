@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814640"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898260"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Dynamics 365 Talent - Onboard'u kullanarak işe alım ve alıştırma süreci kılavuzu oluşturup gönderme
+# <a name="create-and-send-an-onboarding-guide"></a>İşe alım süreci kılavuzu oluşturma ve gönderme
 
 [!include [banner](includes/banner.md)]
 
@@ -42,7 +42,7 @@ Bir ekleme kılavuzu oluşturduktan sonra, bunu yeni bir işe alıma gönderebil
 
 5. **Kılavuz Oluştur** penceresinde, **Kimin için işe alım süreci gerçekleştiriyorsunuz?** altında yeni işe alma adını veya e-posta adresini girin. Yeni işe alma henüz sistemde değilse, **Şimdi ekle**'yi seçin ve çalışanın bilgilerini girin.
 
-    ![[İşe Alım Kılavuzu ile ilgili bilgileri girme](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Ekleme kılavuzu ile ilgili bilgileri girme](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 6. **Ne zaman başlar**ın altında, bir başlangıç tarihi seçin.
 7. Ekleme kılavuzunun belirli bir tarihteki yeni işe alma için otomatik olarak gönderilmesi gerekiyorsa, **otomatik gönderme tarihi planla**seçeneğinin açık olduğundan emin olun ve sonra otomatik gönderme tarihini seçin. Kılavuzu hemen göndermek için, **otomatik gönderme tarihi planla** seçeneğini kapatın.
@@ -92,7 +92,7 @@ Bir şablondan her zaman bir kılavuz oluşturmak zorunda değilsiniz. İstersen
 1. Sol menüde **kılavuzlar**'ı seçin ve sonra **Ekle** düğmesini (artı işareti \[**+**\]) seçin.
 2. **Kılavuz Oluştur** penceresinde, **Kimin için işe alım süreci gerçekleştiriyorsunuz?** altında yeni işe alma adını veya e-posta adresini girin. Yeni işe alma henüz sistemde değilse, **Şimdi ekle**'yi seçin ve çalışanın bilgilerini girin.
 
-    ![[İşe Alım Kılavuzu ile ilgili bilgileri girme](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Ekleme kılavuzu ile ilgili bilgileri girme](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 3. **Ne zaman başlar**ın altında, bir başlangıç tarihi seçin.
 4. Ekleme kılavuzunun belirli bir tarihteki yeni işe alma için otomatik olarak gönderilmesi gerekiyorsa, **otomatik gönderme tarihi planla**seçeneğinin açık olduğundan emin olun ve sonra otomatik gönderme tarihini seçin. Kılavuzu hemen göndermek için, **otomatik gönderme tarihi planla** seçeneğini kapatın.
@@ -105,7 +105,7 @@ Bir şablondan her zaman bir kılavuz oluşturmak zorunda değilsiniz. İstersen
 1. Sol menüde **Kılavuzlar**'ı seçin.
 2. **Diğer** düğmesini (üç nokta \[**...**\]) şablon oluşturmak istediğiniz kılavuz için, **şablon olarak kaydet**'i seçin.
 
-    ![[Ekleme kılavuzunu şablon olarak kaydetme](./media/onboard-save-guide-as-template.png)](./media/onboard-save-guide-as-template.png)
+    ![[İşe alım kılavuzunu şablon olarak kaydetme](./media/onboard-save-guide-as-template.png)](./media/onboard-save-guide-as-template.png)
 
 3. **Yeni şablon olarak kaydet** penceresinde, yeni şablonunuz için bir ad girin ve sonra **Kaydet**'i seçin.
 

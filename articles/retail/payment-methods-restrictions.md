@@ -3,7 +3,7 @@ title: İadeler için fişsiz ödeme yöntemlerini kısıtlama
 description: Bu konu, çeşitli ödeme türlerinin, iadeler bir giriş olmadan yapıldığında bir iade için nasıl kısıtlanabileceğini açıklar.
 author: rapraj
 manager: AnnBe
-ms.date: 013/05/2019
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 6e2c32aae06ce7bbdde30809d7a197f43b856af1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22e675fd9b7ee33c89f52ac4c8c15807580b86a7
+ms.sourcegitcommit: b806f0c94d703bec39680fead827733361d47045
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564369"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935864"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>İadeler için fişsiz ödeme yöntemlerini kısıtlama
 
@@ -41,7 +41,7 @@ Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığı
 3. Mağaza ödeme yöntemlerini ayarlayın. Ödeme yöntemlerini her bir mağazayla ilişkilendirin ve ardından her bir ödeme yöntemi için mağazaya özel ayarları girin.
 4. Mağazalar için kart ödeme yöntemleri ayarlayın. Mağazanın kabul ettiği tüm kart ödeme yöntemleri için kart kurulumunu tamamlayın.
 
-![Perakende Mağaza Kurulumu](media/NoReceiptReturns1.png "Perakende Mağaza Kurulumu") 
+![Mağazada Retail kurulumu](media/NoReceiptReturns1.png "Mağazada Retail kurulumu") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>İadeler için fişsiz ödeme yöntemlerini kısıtlama
@@ -52,7 +52,7 @@ Varsayılan değer **Hayır**'dır, bu da ödeme yönteminin iadeler için izin 
 
 **Giriş olmadan iadeleri kısıtla**, **Evet** olarak ayarlanmışsa, seçilen ödeme yöntemine iadelerde izin verilmeyecektir. 
 
-![Perakende Mağazası ödeme yöntemi](media/NoReceiptReturns3.png "Perakende Mağazası ödeme yöntemi") 
+![Perakende Mağaza ödeme yöntemi](media/NoReceiptReturns3.png "Perakende Mağaza Ödeme Yöntemi") 
 
 > [!NOTE]
 > Bir kasiyer, giriş olmayan bir iade için kısıtlanmış bir ödem yöntemini seçerse, kabul edilebilir ödeme yöntemlerini gösteren bir mesaj görüntülenir.

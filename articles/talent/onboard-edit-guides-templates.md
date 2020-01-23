@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Talent - Onboard'ta işe alım ve alıştırma kılavuz ve şablonlarını düzenleme
-description: Bu konuda Microsoft Dynamics 365 Talent - Onboard'ta işe alım ve alıştırma kılavuz ve şablonuna etkinliklerin ve diğer bilgilerin nasıl ekleneceği açıklanmaktadır.
+description: Bu konuda Microsoft Dynamics 365 Talent - Onboard'da işe alım ve alıştırma kılavuz ve şablonuna etkinliklerin ve diğer bilgilerin nasıl ekleneceği açıklanmaktadır.
 author: andreabichsel
 manager: ''
 ms.date: 06/19/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812891"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897136"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Dynamics 365 Talent - Onboard'ta işe alım ve alıştırma kılavuz ve şablonlarını düzenleme
+# <a name="edit-onboarding-guides-and-templates"></a>İşe alım kılavuzları ve şablonları düzenleme
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Talent: Onboard'ta işe alım ve alıştırma kılavuzu veya şablonu oluşturduktan sonra giriş, etkinlik, ilgili kişi ve kaynak eklemeniz gerekir. Onboard, işe alım kılavuzlarınıza aşağıdakiler dahil olmak üzere zengin içerik eklemenizi sağlar:
+Microsoft Dynamics 365 Talent: Onboard'da işe alım ve alıştırma kılavuzu veya şablonu oluşturduktan sonra giriş, etkinlik, ilgili kişi ve kaynak eklemeniz gerekir. Onboard, işe alım kılavuzlarınıza aşağıdakiler dahil olmak üzere zengin içerik eklemenizi sağlar:
 
 - YouTube videoları
 - Microsoft Sway sunuları
@@ -114,11 +114,11 @@ Değişikliklerinizi göndermek için:
 1. **Aktiviteler** sekmesinde, maddeleri sağdan düzenleme alanına sürükleyin.
 2. Kılavuzunuz ile bölümler arasında düzenleme yapmak için, **Yeni bölüm** öğesini düzenleme alanına sürükleyin ve bölüm için bir ad ve isteğe bağlı açıklama girin.
 
-    ![[İşe alma kılavuzuna veya şablona yeni bölüm ekleme] (./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
+    ![[Ekleme kılavuzuna veya şablonuna yeni bölüm ekleme](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
 
 3. Yeni işe alma yaptığınız aktiviteleri tamamlamak için, **yeni aktivite** öğesini düzenleme alanına sürükleyin ve etkinliğin adını ve açıklamasını girin.
 
-    ![[Ekleme kılavuzuna veya şablona yeni faaliyet ekleme] (./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
+    ![[Ekleme kılavuzuna veya şablonuna yeni aktivite ekleme](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
 
 4. İşe alım kılavuzuna zengin içerik ekleyin:
 
@@ -129,7 +129,7 @@ Değişikliklerinizi göndermek için:
     - Microsoft Forms formu eklemek için, **Microsoft Forms** öğesini düzenleme alanına sürükleyin, aktivitenin adını ve açıklamasını girin, Microsoft Forms form için URL'yi girin ve ekran alanının boyutunu belirtin.
     - Web içeriği barındıran iframe eklemek için, **Web İçeriği (iframe)** öğesini düzenleme alanına sürükleyin, aktivitenin adını ve açıklamasını girin, web içeriği için URL'yi girin ve ekran alanının boyutunu belirtin.
 
-    ![[Ekleme kılavuzuna veya şablona zengin içerik ekleme] (./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
+    ![[Ekleme kılavuzuna veya şablonuna zengin içerik ekleme](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
 
 2. İsteğe bağlı: Her faaliyetin sağındaki alanda, aktiviteyi belirli bir kişiye veya role atayın, bir son tarih ve ilgili kişi ekleyin ve bir kategori rengi atayın. Bir kişiye veya role faaliyet atadığınızda, her birey için bir görev oluşturulur. Bu görev, Onboard'ta **Görevler** menüsünde görünür.
 
@@ -148,7 +148,7 @@ Yeni işe alma sisteminizin ilk gününden başarılı olmasını sağlamaya yar
 1. **Kişiler** sekmesinde, **Yeni kişi**'yi seçin.
 2. **Takım üyesi ekle** iletişim kutusunda ilgili kişinin adını veya e-posta adresini girin, ilgili kişinin yeni işe alma konusunda nasıl yardımcı olduğunu açıklayan kısa bir açıklama girin ve sonra **Ekle**'yi seçin. 
 
-    ![[Ekleme kılavuzuna veya şablona kişiler ekleme] (./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
+    ![[Ekleme kılavuzuna veya şablonuna kişiler ekleme](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
 
     Alternatif olarak, **Öneriler** altında bir veya daha fazla ilgili kişi seçebilirsiniz.
 
@@ -169,7 +169,7 @@ Bir kişiyi düzenlemek için, ilgili kişinin sağındaki **Düzenle** düğmes
     - Bağlantı eklemek için **Bağlantı** sekmesini seçin, bağlantı için bir ad ve adres girin ve sonra **Ekle**'yi seçin.
     - Harita eklemek için **Harita** sekmesini seçin, harita için bir ad ve adres girin ve sonra **Ekle**'yi seçin. Onboard, belirttiğiniz adresin bir haritasını içerecektir.
 
-    ![[Ekleme kılavuzuna veya şablona kaynak ekleme] (./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
+    ![[Ekleme kılavuzuna veya şablonuna kaynak ekleme](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
 
 3. İşinizi kaydetmek için **Kaydet**'i seçin.
 

@@ -3,12 +3,12 @@ title: Ürün çeşidi başına ölçü birimi dönüşümü
 description: Bu konu, ürün çeşitlerinde ölçü birimi dönüşümlerinin nasıl ayarlanabileceğini açıklar.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 12/18/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249460"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935111"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Ürün çeşidi başına ölçü birimi dönüşümü
 
 [!include [banner](../includes/banner.md)]
 
-[!include [pivate-preview](../includes/pivate-preview-banner.md)]
-
 Bu konu, ürün çeşitlerinde ölçü birimi dönüşümlerinin nasıl ayarlanabileceğini açıklar. Bir kurulum örneği içerir.
 
 Bu özellik, şirketlerin aynı ürün üzerindeki farklı çeşitler için farklı birim dönüştürmeleri tanımlamalarına olanak tanır. Aşağıdaki örnek bu konuda kullanılır. Bir şirket, Küçük, Medium, Large ve X-Large ebatlarında tişörtler satmaktadır. Tişört, bir ürün olarak tanımlanmıştır ve farklı ebatları ürünün çeşitleri olarak tanımlanmıştır. Tişörtler, bir kutuda beş tişört olabileceği şekilde paketlenmiştir, yalnızca dört tişört için yer olan X-Large beden hariç. Şirket, **Adet** biriminde tişörtlerin farklı türlerini izlemek istemektedir ancak tişörtleri **Kutu** biriminde satmaktadır. Stok birimi ve satış birimi için dönüşüm, X-Large ürün çeşidi için 1 Kutu = 4 Adet olduğu durum dışında 1 Kutu = 5 Adettir.
-
-## <a name="setup"></a>Ayarlar
-
-**Tüm işlemler** veya yalnızca **Ambar işlemleri** için etkinleştirilmiş ürünler için parametreleri özelliği kullanarak, **Ölçü birimi dönüşümlerini**, **Ürün bilgi parametreleri** sayfasında kullanarak yapılandırabilirsiniz.
 
 ### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Çeşit başına birim dönüşümü için bir ürün ayarla
 
 Ürün çeşitleri, yalnızca **Ürün alt türü**: **Ana Ürün** ürünleri için oluşturulabilir. Daha fazla bilgi için [Bir ana ürün oluşturma](tasks/create-product-master.md) konusuna bakın.
 
 Bu özellik fiili ağırlık işlemler için ayarlanmış olan ürünler için etkin değildir. 
-
-Bir ana ürün birimi ölçü dönüşümünü **Ölçü dönüşümleri birimi etkinleştir** seçeneğini **Ürün ayrıntıları** sayfasında kullanarak etkinleştirirken.
 
 Ana ürün, serbest bırakılan ürün çeşitleri ile oluşturulursa, çeşit başına ölçü dönüşümü ayarlanabilir. Bir ürün veya ürün çeşidi bağlamında ölçü birimi dönüştürme sayfası için menü öğesini, aşağıdaki sayfalarda bulabilirsiniz.
 

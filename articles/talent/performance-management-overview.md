@@ -3,7 +3,7 @@ title: Performans yönetimi
 description: Performans yönetimi işlemi, personelin performanslarını belgelendirmelerini ve yöneticileriyle tartışmalarını sağlar. Bu sayede, yöneticiler de personele geri bildirim ve kılavuzluk sağlayabilir.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 18e9606e62bc2739da99b75ab56161bd7cc7eafe
+ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590517"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921162"
 ---
 # <a name="performance-management"></a>Performans yönetimi
-
-[!include [banner](includes/banner.md)]
 
 Performans yönetimi işlemi, personelin performanslarını belgelendirmelerini ve yöneticileriyle tartışmalarını sağlar. Bu sayede, yöneticiler de personele geri bildirim ve kılavuzluk sağlayabilir.  
 
@@ -91,6 +89,8 @@ Daha ayrıntılı gözden geçirmeler için etkin ve tamamlanmış hedefleri ala
 Ayrıca personelin yetkinliklerini tartışmak, gözden geçirmek ve derecelendirmek için **Yetkinlikler** bölümünü de kullanabilirsiniz. İstediğiniz kadar yetkinlik ekleyebilir ve yetkinliğin derecelendirilmesinin gerekli olup olmadığını seçebilirsiniz. 
 
 Oluşturduğunuz şablonlara göre yeni gözden geçirmeler oluşturabilirsiniz. Örneğin bire birler, gelişme planları veya periyodik gözden geçirmeler için bir şablonunuz olabilir. Yeni bir gözden geçirme oluşturduğunuzda şablon seçebilirsiniz.
+
+İncelemeleri yazdırmak için, **gözden geçirmeyi Yazdır** düğmesini seçin. **İnceleme** sayfasında düğmeyi görmüyorsanız, **özellik Yönetimi** çalışma alanında özelliği etkinleştirmiş olduğunuzdan emin olun. Özellik yönetimi hakkında daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Performans gözden geçirmelerine ekleyebileceğiniz bileşenler
 Performans gözden geçirmelerine birkaç tür bilgi ekleyebilirsiniz. Gözden geçirme ayrıntısı, ölçümler, faaliyetler, derecelendirmeler, oturum kapatma işlemleri ve ekleri bunlara dahildir.

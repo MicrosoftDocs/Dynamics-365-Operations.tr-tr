@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0fad51fcb092c95103356f17618a647dd166b95
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 62d3c168967bd680b3ded56e627730324f2a5ec6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697375"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945594"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>e-Ticaret sitesini bir çevrimiçi kanalla ilişkilendirme
 
@@ -40,16 +40,16 @@ Siteniz oluşturulduktan sonra, **ürünler** sekmesini seçerek çevrimiçi dep
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Çevrimiçi mağazaya genel bakış](online-store-overview.md)
-
-[e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
+[Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
 [Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
 
-[Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
+[e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
+
+[Robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
+
+[Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md)
 
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
-
-[Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md)

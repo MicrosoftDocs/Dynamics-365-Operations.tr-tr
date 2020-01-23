@@ -3,7 +3,7 @@ title: Ürün topluluğu modülleri
 description: Bu konu Microsoft Dynamics 365 Commerce'ta ürün koleksiyonu modülleriyle ilgili genel bir bakış sağlar.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 44f78b55b8e67b7358be75aa63c40a0147507e26
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 31307035014f2fae6146f33bc23e3e06103f82eb
+ms.sourcegitcommit: c237123ad94d9418994ac095fbd8634c05a927b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785479"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943275"
 ---
-# <a name="product-collection-modules"></a>Ürün topluluğu modülleri  
+# <a name="product-collection-modules"></a>Ürün topluluğu modülleri
 
 [!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
@@ -37,18 +37,19 @@ Bu konu Microsoft Dynamics 365 Commerce'ta ürün koleksiyonu modülleriyle ilgi
 
 Ürün koleksiyonu modülleri, Web sitesindeki fiziksel ürünleri ve hizmetleri temsil eder. Ürün koleksiyonu modülü genellikle müşterilerin bir ürün veya hizmet satın alabileceği Ayrıntılar sayfasıyla bağlantılıdır veya bu konuda bilgi edinebilirsiniz. 
 
-Ürün koleksiyonları için kaynaklar şu üç tür listeler olabilir:
+Ürün koleksiyonları için kaynaklar şu dört tür listeler olabilir:
 
 - Bir ürün veya ürün listesi ile ilgili ürünler olarak Dynamics 365 Retail'de el ile tanımlanan ürünlerin düzenleme listeleri
 - Yeni, en iyi satış veya trend ürünlerinin listesi gibi Algoritmik listeler
 - Makine öğrenmeyi esas alan öneri listeleri
+- Bir müşteri için kişiselleştirilmiş sonuçları destekleyen kişiselleştirme listeleri. Kişiselleştirilmiş sonuçları görmek için müşteriler e-ticaret sitesinde oturum açmış olmalıdır. Ziyaretçi kullanıcılar kişiselleştirilmiş sonuçları göremez. Müşteriler [hesap yönetimi sayfasından](account-management.md) kişiselleştirmeye geri çevirme yapabilir.
 
 Aşağıdaki resimde bir e-ticaret sitesinde kullanılan farklı ürün koleksiyonları türleri gösterilmektedir.
 
 ![Bir e-ticaret sitesinde farklı türde ürün koleksiyonları örneği](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
-> Benzer türdeki veya temadaki bir ürün grubunu göstermek için her zaman ürün koleksiyonu modüllerini kullanın.
+> Benzer türdeki bir ürün grubunu göstermek için her zaman ürün koleksiyonu modüllerini kullanın.
 
 ## <a name="product-collection-modules-and-types"></a>Ürün topluluğu modülleri ve türleri
 
@@ -56,15 +57,15 @@ Aşağıdaki tabloda, Dynamics 365 Commerce'de çeşitli türlerdeki ürün kole
 
 | Ürün topluluğu modülü  | Türü | Tanım |
 |----------------------------|------|-------------|
-| Kategorilere gözatma            | Düzenleme | Bu tür ürün toplama modülü, perakende kanalı için perakendecinin, belirli bir site kategorisinde sunulan ürünlerin gözatma akışını göstermesi için oluşturulan gezinti kategorisi hiyerarşisini kullanır. |
-| Arama sonuçları             | Arama sorgusu | Bu tür bir ürün toplama modülü, müşterinin girdiği arama sorgusuyla en iyi şekilde eşleşen ürünlerin listesini gösterir. |
-| İlgili ürünler           | Düzenleme | Bu tür bir ürün toplama modülü, yazarın seçtiği ilişki türü için, ticaret yöneticisinin Retail'de ilgili ürünler olarak konfigüre eden ürünlerin listesini gösterir. |
-| Seçkin ürün listeleri      | Düzenleme | Bu tür ürün toplama modülü, tacirler ve editörler tarafından perakende olarak oluşturulan özel listeleri gösterir. |
-| Yeni                        | Algoritmik | Bu tür ürün toplama modülü, kanallar ve kataloglarda sıralanan en yeni ürünlerin listesini gösterir. |
-| En iyi satış               | Algoritmik | Bu tür bir ürün toplama modülü, en yüksek sayıda satış tarafından derecelendirilen ürünlerin listesini gösterir. |
-| Popüler                   | Algoritmik | Bu tür bir ürün toplama modülü belirli bir döneme ait en yüksek performanslı ürünlerin listesini gösterir. |
-| Sıklıkla birlikte satın alınan | Yapay Zeka/Makine öğrenme | Bu tür ürün toplama modülü, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle birlikte satın alınan ilgili öğeleri önermek için makine öğrenmeyi kullanır. |
-| Diğer sevilen ürünler           | Yapay Zeka/Makine öğrenme | Bu tür ürün toplama modülü, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle ilgili öğeleri önermek için makine öğrenmeyi kullanır. |
+| Kategori                   | Kategori | Bu modül, bir kategorideki ürünlerin listesini gösterir ve bu satıcı perakende kanalı için oluşturulan gezinti kategorisi hiyerarşisinde tanımlanır. |
+| İlgili ürünler           | Düzenleme | Bu modülü, yazarın seçtiği ilişki türü için, ticaret yöneticisinin Retail'de ilgili ürünler olarak konfigüre eden ürünlerin listesini gösterir. |
+| Seçkin ürün listeleri      | Düzenleme | Bu modül, perakende olarak tacirler ve düzenleyicilerin oluşturulduğu özel liste. |
+| Yeni                        | Algoritmik | Bu modül, kanallara ve kataloglara önceden sıralanmış en yeni ürünlerin listesi. Site yazarı bu seçeneği seçerse, bu liste, oturum açmış bir kullanıcının kişiselleştirilmiş sonuçlarını gösterebilir. |
+| En iyi satış               | Algoritmik | Bu modül, en yüksek sayıda satış ile derecelendirilen ürünlerin listesi. Site yazarı bu seçeneği seçerse, bu liste, oturum açmış bir kullanıcının kişiselleştirilmiş sonuçlarını gösterebilir. |
+| Popüler                   | Algoritmik | Bu modül, belirli bir döneme ait en yüksek performanslı ürünlerin listesi. Site yazarı bu seçeneği seçerse, bu liste, oturum açmış bir kullanıcının kişiselleştirilmiş sonuçlarını gösterebilir. |
+| Sıklıkla birlikte satın alınan | Yapay Zeka/Makine öğrenme | Bu modül, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle birlikte satın alınan ilgili öğeleri önermek için makine öğrenmeyi kullanır. Site yazarı bu seçeneği seçerse, bu liste, oturum açmış bir kullanıcının kişiselleştirilmiş sonuçlarını gösterebilir. |
+| Diğer sevilen ürünler           | Yapay Zeka/Makine öğrenme | Bu modül, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle ilgili öğeleri önermek için makine öğrenmeyi kullanır. Site yazarı bu seçeneği seçerse, bu liste, oturum açmış bir kullanıcının kişiselleştirilmiş sonuçlarını gösterebilir. |
+| Size özel çekmeler              | Yapay Zeka/Makine öğrenme | Bu modül, oturum açan kullanıcının satın alma düzenlerini analiz etmek ve bu satınalma desenlerine dayalı kişiselleştirilmiş öneriler sağlamak için makine öğrenmeyi kullanır. Konuk Kullanıcı için bu liste daraltılacak. |
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Kategori sayfasına ürün koleksiyonu modülü ekleme
 
@@ -74,7 +75,8 @@ Kategori sayfasına ürün koleksiyonu modülü eklemek için bu adımları izle
 1. Sayfa anahattında **Alt bilgi** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
 1. **Modül Ekle** iletişim kutusunda **konteyner**i seçin ve **Tamam**'ı seçin.
 1. Konteyner modülünde, üç nokta düğmesini seçin ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Ürün koleksiyonu**'nu seçin ve **Tamam**'ı seçin.
+1. **Modül Ekle** iletişim kutusunda **Ürün koleksiyonu**'nu seçin ve **Tamam**'ı seçin.  
+![Örnek ürün koleksiyonu modülü sihirbaz akışı](./media/productCollectionModule.png)
 1. Ayarları, ürün koleksiyonu için uygun bir veri kaynağı ve girişler seçerek konfigüre edin.
 1. Ürün koleksiyonu modülüyle ilgili Özellikler bölmesinde, **Ürün listesi ekle**'yi seçin.
 1. **Ürün listesi konfigürasyonu seç** iletişim kutusunda liste türünü seçin, öğe sayısını girin ve liste türü için kullanılabilen diğer seçenekleri belirleyin. Liste türleri hakkında daha fazla bilgi için, aşağıdaki tabloya bakın. 
@@ -82,15 +84,16 @@ Kategori sayfasına ürün koleksiyonu modülü eklemek için bu adımları izle
 1. Sayfayı kaydet ve yayımlayın.
 
 Aşağıdaki tabloda, **Ürün listesi konfigürasyonu seç** iletişim kutusunda seçim için kullanılabilen liste türleri gösterilmiştir.
-   
-| Türü                       | Tanım | Genel uygulama | Sayfa bağlamından türetilebilecek bağlam | Yazarın sayfa bağlamını geçersiz kılabileceği bağlam |
-|----------------------------|-------------|------------------|-------------------------------------|-----------------------------------------------|
-| Kategoriye göre ürünler       | Belirli bir kategoriye ait olan ürünlerin listesi. Bu kategori sayfa bağlamından veya yazarın sağladığı içerikten belirlenir. | Zenginleştirme kategorisi sayfası, giriş sayfası, kullanıma alma ve sepet sayfaları ve ürün sayfaları | Kategori | Yazarın belirlediği kategori |
-| İlgili ürünler           | İlişki türü için perakende olarak ilgili ürünler olarak ticari bir yöneticinin konfigüre eden ürünlerin listesi. | Ürün sayfaları, kullanıma alma ve sepet sayfaları, istek listesi sayfası ve müşteri hesabı sayfası | Ürün, ilişki türü (Zorunlu)  | Ürün, ilişki türleri |
-| Oluşturuldu                    | Perakende olarak tacirler ve düzenleyicilerin oluşturulduğu özel liste. | Zenginleştirme kategorisi sayfası, giriş sayfası, kullanıma alma ve sepet sayfaları ve ürün sayfaları | Uygulanamaz | Liste seçici |
-| Algoritmik                | <ul><li>**Yeni** – kanallara ve kataloglara önceden sıralanmış en yeni ürünlerin listesi.</li><li>**En çok satan** – en yüksek sayıda satış ile derecelendirilen ürünlerin listesi.</li><li>**Trend** – belirli bir döneme ait en yüksek performanslı ürünlerin listesi.</li></ul> | Giriş sayfası, zenginleştirme kategorisi sayfası, kullanıma alma ve sepet sayfaları | Kategori | Yazarın belirlediği kategori |
-| Sıklıkla birlikte satın alınan | Bir liste, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle birlikte satın alınan ilgili öğeleri önermek için makine öğrenmeyi kullanır. | Ürün sayfaları ve kullanıma alma ve sepet sayfaları | Ürün, sepet | Sepeti Dahil Et |
-| Diğer sevilen ürünler           | Bir liste, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle ilgili öğeleri önermek için makine öğrenmeyi kullanır. | Ürün sayfaları ve kullanıma alma ve sepet sayfaları | Ürün, sepet | Uygulanamaz |
+
+| Türü                       | Tanım | Kullanım | Sayfa bağlamı | Belirli bağlam | Kişiselleştirme |
+|----------------------------|-------------|-------|--------------|------------------|-----------------|
+| Kategoriye göre ürünler       | Belirli bir kategoriye ait olan ürünlerin listesi. Bu kategori sayfa bağlamından veya yazarın sağladığı içerikten belirlenir. | Belirli bir ürün kategorisini yükseltmek için herhangi bir sayfada bu tür bir liste (örneğin, bir giriş sayfası, kategori sayfası, pazarlama sayfası veya ürün ayrıntıları sayfası \[PDP\]) kullanılabilir. | Sayfa içeriğindeki kategori (örneğin, kategori sayfası) | Yazar, liste bağlamı olarak belirli bir kategori sağlayabilir. | Uygulanamaz |
+| İlgili ürünler           | İlişki türü için perakende olarak ilgili ürünler olarak ticari bir yöneticinin konfigüre eden ürünlerin listesi. | Bu tür liste öncelikle PDP'ler üzerinde kullanılır, ancak bir ana ürün sağlandığında herhangi bir sayfada kullanılabilir. | Sayfadaki ürün, ilişki türü (zorunlu) | Ürün, seçicide seçilebilir ve ilişki türü kullanılır. | Uygulanamaz |
+| Oluşturuldu                    | Perakende olarak tacirler ve düzenleyicilerin oluşturulduğu özel liste. | Zenginleştirme kategorisi sayfası, giriş sayfası, kullanıma alma ve sepet sayfaları ve ürün sayfaları | Uygulanamaz | Uygulanamaz | Uygulanamaz |
+| Algoritmik                | <ul><li>**Yeni** – kanallara ve kataloglara önceden sıralanmış en yeni ürünlerin listesi.</li><li>**En çok satan** – en yüksek sayıda satış ile derecelendirilen ürünlerin listesi.</li><li>**Trend** – belirli bir döneme ait en yüksek performanslı ürünlerin listesi.</li></ul> | Giriş sayfası, zenginleştirme kategorisi sayfası, kullanıma alma ve sepet sayfaları | Sayfa içeriğindeki kategori (örneğin, kategori sayfası) | Site yazarı tarafından belirlenen kategori | Destekleniyor |
+| Sıklıkla birlikte satın alınan | Bir liste, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle birlikte satın alınan ilgili öğeleri önermek için makine öğrenmeyi kullanır. | Bu tip listeler yalnızca sepet sayfası için geçerlidir. | Alışveriş sepeti | Uygulanamaz | Destekleniyor |
+| Diğer sevilen ürünler           | Bir liste, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle ilgili öğeleri önermek için makine öğrenmeyi kullanır. | Bu tip listeler, PDP'ler üzerinde diğer müşterilerin satın aldığı ürünleri göstermek için kullanılır. | Sayfadan ürün bağlamı | Site yazarı tarafından sağlanan ürün | Destekleniyor |
+| Size özel çekmeler              | Müşteri tercihlerini belirlemek için makine öğrenmeyi kullanan liste. | Bu tür listeler herhangi bir sayfada kullanılabilir. | Uygulanamaz| Uygulanamaz | Destekleniyor | 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -106,3 +109,4 @@ Aşağıdaki tabloda, **Ürün listesi konfigürasyonu seç** iletişim kutusund
 
 [Satınalma kutusu modülü](add-buy-box.md)
 
+[Ürün önerilerine genel bakış](product-recommendations.md)

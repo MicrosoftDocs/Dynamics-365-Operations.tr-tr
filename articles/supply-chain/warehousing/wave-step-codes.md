@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f89c6098db9e2e3a9aa4ee3666e4b9ae608f054
-ms.sourcegitcommit: d8f1135cdbc2deca70bc4b2805a0519253c9a31f
+ms.openlocfilehash: 1a1a32495b63a5a67a49bf3b02710aba63c1e2f0
+ms.sourcegitcommit: bfd6142569196a060e3f37893c78f00c40a2a18c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1992369"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2946202"
 ---
 # <a name="wave-step-codes"></a>Dalga adım kodları
 
 [!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
-
-## <a name="about-wave-step-codes"></a>Dalga adımı kodları hakkında
 
 Dalga adımı kodları, kullanıcıların, dalga yöntemlerinin belirli örneklerini ilgili bir şablona bağlamak için ayarlayıp kullanabileceği kodlardır. Şablonlar, stok yenileme, konteyner kullanımı, etiket yazdırma, yük oluşturma ve sıralama şablonlarını içerir.
 
@@ -39,7 +37,7 @@ Dalga adımı kodları kullanılmadığı zaman, kullanıcıların dalga yöntem
 Belirli bir dalga adımı türü için dalga adımı kodları ayrı bir sayfada ayarlanır. Dalga adımı kodu gerektiren bir dalga şablonunda bulunan her bir dalga adımı yöntemi örneği için, dalga adımı kodunun açılan listede seçilmesi gerekir. Açılır listedeki seçim serbest metin girişinin yerini alır ve insan hatası riskini ve etkisini azaltmaya yardımcı olur. Kurulum kodları, bir dalga şablonundaki dalga adımı yöntemini yöntem için hedef şablona bağlamak amacıyla kullanılır.
 
 > [!NOTE]
-> Dalga adımı kodları özelliğinin kullanımı isteğe bağlıdır ve tüzel kişilik için yükseltme yapılır. Bu nedenle, belirli bir tüzel kişilik bu özelliği kullanıyorsa, o tüzel kişilikteki tüm varolan dalga adımı kodları yeni yapıya yükseltilir.
+> Dalga adım kodları özelliğinin kullanılması isteğe bağlıdır. Tüm yasal varlıklar için Organizasyon genelinde etkinleştirilir.
 
 ## <a name="setup-demo"></a>Kurulum demosu 
 
@@ -49,20 +47,20 @@ Bu demo için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şirke
 
 Dalga adımı kodları özelliğini açmak için bu adımları izleyin.
 
-1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri**'ne gidin.
-2. **Genel** sekmesinde **Dalga işleme** hızlı sekmesindeki **Dalga adımı kodlarını etkinleştir** seçeneğini **Evet** olarak ayarlayın.
+1. **Özellik yönetimi**'ne gidin.
+2. **Organizasyon çapında dalga adım kodu** adı verilen özelliği etkinleştirmek için seçin.
 
-Varolan tüm dalga adımı serbest metinleri yeni yapıya yükseltilir. Bir tüzel kişilik için bu yükseltme işlemi tamamlandıktan sonra, **Ambar yönetimi parametreleri** sayfasında **Dalga adımı kodlarını etkinleştir** seçeneği artık kullanılamaz.
+Tüm yasal varlıklarda varolan tüm dalga adımı serbest metinleri yeni yapıya yükseltilir. Tüm yasal varlıklar için bu yükseltme tamamlandıktan sonra, özellik etkinleştirilir. Özellik bir veya daha fazla tüzel kişilikler için etkinleştirilemez, geçerli varlıklar için özellik etkinleştirilmez.
 
-Yükseltme sırasında doğrulamalar yapılır ve yükseltme başarısız olursa bir hata iletisi alırsınız. Bir yükseltme aşağıdaki çakışmalar nedeniyle başarısız olabilir:
+Etkinleştirme sırasında, veri yükseltme sırasında doğrulama yapılır. Yükseltme başarısız olursa, bir hata iletisi alırsınız. Bir yükseltme aşağıdaki çakışmalar nedeniyle başarısız olabilir:
 
 - Tekrarlanan dalga adımı serbest metinleri vardır.
 - Özelleştirmeler vardır.
 - Bir dalga adımı yöntemi örneğiyle ilişkilendirilmiş dalga adımı serbest metni, beklenen şablon türüyle eşleşmiyordur.
 
-Doğrulamalar sırasında tanımlanan çakışmaları çözümledikten sonra yükseltme işlemini yeniden çalıştırabilirsiniz.
+Doğrulamalar sırasında tanımlanan çakışmaları çözümledikten sonra özelliği etkinleştirmeyi yeniden deneyebilirsiniz.
 
-Yükseltme başarılı olursa **Dalga adımı kodları** sayfası (**Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga adımı kodları**) kullanılabilir duruma gelir. Dalga adımı kodları özelliği açıksa, bu sayfada, yükseltilmiş dalga adımı kodları listelenir.
+Özellik etkinleştirilirse **Dalga adımı kodları** sayfası (**Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga adımı kodları**) kullanılabilir duruma gelir. Kurum Genelinde Dalga Adımı Kodu özelliği etkinse, bu sayfada, yükseltilmiş dalga adımı kodları listelenir.
 
 ### <a name="create-new-wave-step-codes"></a>Yeni dalga adımı kodları oluşturma
 
@@ -94,3 +92,5 @@ Aşağıdaki yordam, oluşturduğunuz stok yenileme şablonunun dalga şablonu i
 4. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin ve kullanmayı düşündüğünüz dalga şablonunu seçin.
 5. Şablonda, **Yöntemler** hızlı sekmesinde **Stok yenileme** yöntemini seçin.
 6. **Dalga adımı kodu** alanında, stok yenileme şablonunda seçtiğiniz dalga adımı kodunu seçin.
+
+Her yasal varlık için bu adımları gerçekleştirirsiniz.

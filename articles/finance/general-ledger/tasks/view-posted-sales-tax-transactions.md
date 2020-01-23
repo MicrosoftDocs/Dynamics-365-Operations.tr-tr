@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f72f12e8afdf190865a77fc6153c0c0a111e5a7
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175666"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888621"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Deftere nakledilen satış vergisi hareketlerini görüntüleme
 
@@ -29,13 +29,13 @@ ms.locfileid: "2175666"
 
 Bu konu, deftere nakledilen satış vergisi hareketlerini görüntülemenin bazı yollarını açıklamaktadır. Görüntüleme gereksinimlerinize bağlı olarak, farklı sayfalardaki nakledilmiş satış vergisi hareketlerini de görüntüleyebilirsiniz. Bu görevde USMF demo şirketi kullanılmaktadır.
 
-# <a name="posted-sales-tax-page"></a>Deftere nakledilen satış vergisi sayfası
+## <a name="posted-sales-tax-page"></a>Deftere nakledilen satış vergisi sayfası
 
 1. Gezinti bölmesinde **Modüller > Vergi > Sorgular ve raporlar > Satış vergisi sorguları > Deftere nakledilen satış vergisi**'ne gidin.
 2. Görünümü belirli hareketlere daraltmak için **Filtreleri göster**'i seçin.
 3. Sayfayı kapatın.
 
-# <a name="sales-tax-settlement-periods-page"></a>Satışlar vergisi kapatma dönemleri sayfası
+## <a name="sales-tax-settlement-periods-page"></a>Satışlar vergisi kapatma dönemleri sayfası
 
 1. Gezinti bölmesinde **Modüller > Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi kapatma dönemleri**'ne gidin.
 2. **Dönem aralıkları** bölümünü genişletin.
@@ -43,7 +43,7 @@ Bu konu, deftere nakledilen satış vergisi hareketlerini görüntülemenin baz�
 4. Deftere nakledilmiş satış vergisi hareketleri listesini de filtre edebilirsiniz.
 5. Sayfayı kapatın.
 
-# <a name="sales-tax-codes-page"></a>Satış vergisi kodları sayfası
+## <a name="sales-tax-codes-page"></a>Satış vergisi kodları sayfası
 
 1. Gezinme bölmesinde **Modüller > Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi kodları**'na gidin.
 2. Eylem Bölmesinde, **Satış vergisi kodu** öğesine tıklayın.

@@ -3,12 +3,12 @@ title: Ürün tanımlayıcıları
 description: Bu konu çeşitli ürün tanımlayıcısı türleri hakkında bilgi sağlar ve ürün tanımlayıcılarını ürün verilerine nasıl ekleyebileceğinizi açıklar.
 author: cvocph
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductEntityIdentifierCode
+ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250618"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934898"
 ---
 # <a name="product-identifiers"></a>Ürün tanımlayıcıları 
 
@@ -43,6 +43,9 @@ Dynamics 365 Supply Chain Management içinde, bir ürün için birincil kimlik t
 Supply Chain Management'ı uyguladığınızda ürün numaralarıyla ilgili stratejinize özel önem vermeniz gerekir. İyi bir numaralandırma sistemi lojistik akışları geliştirir ve hataları engellemeye yardımcı olur. İyi bir ürün tanımlayıcısı en çok 15 karakter uzunluğundadır. İdeal olarak, 10 karakterden daha kısa olur ve en fazla beş sınıflandırma karakteri içerir. Ayrıca, hızlı aramalar sağlamak için arama adlarını da kullanabilirsiniz. Bir arama adı bir ürünün sınıflandırmalarını temsil eden ek bir addır.
 
 Ayrıca Common Data Service kullanılırken Supply Chain Management'taki ürün numarası, Common Data Service'taki ürün numarasıdır. Ürün çeşitleri, Common Data Service ile ayrı ürünler olarak eşitlenir.
+
+> [!NOTE]
+> Ürün numarası "%" ile başlatılamaz.
 
 ## <a name="item-number-and-product-dimensions"></a>Madde numarası ve ürün boyutları
 

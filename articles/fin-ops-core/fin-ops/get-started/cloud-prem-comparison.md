@@ -3,7 +3,7 @@ title: Bulut ve şirket içi özelliklerin karşılaştırması
 description: Bu konu, hangi özelliklerin Bulut ve şirket içinde desteklendiğini gösterir.
 author: sericks007
 manager: AnnBe
-ms.date: 10/11/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 8fa5ff0de4e97d5dc178581f721f3a6ea72fc974
-ms.sourcegitcommit: 70c6257bd6833de3e8de34d9a7561088194e59cc
+ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
+ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2573942"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935399"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Bulut ile şirket içi özellikleri karşılaştırma
 
@@ -48,7 +48,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 | Veri yönetimi ve tümleştirmesi      |                                                                                           | Evet       | Evet             |
 |                                      | Yapılandırmaya dayalı eklenti                                                            | Evet       | Hayır              |
 |                                      | Veriyi kendi veri ambarınıza dışa aktarın                                                    | Evet       | Evet             |
-|                                      | Bir veri varlığına artımlı güncelleştirmelerin dışa aktarılmasını etkinleştirin                                 | Evet       | Hayır              |
+|                                      | Bir veri varlığına artımlı güncelleştirmelerin dışa aktarılmasını etkinleştirin                                 | Evet       | Evet              |
 |                                      | Veri tümleştirmeler                                                                         | Evet       | Evet             |
 | Belge yönetimi                  |                                                                                           | Evet       | Evet             |
 | Mali yönetim                 |                                                                                           | Evet       | Evet             |
@@ -148,7 +148,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 
 ## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
 
-Şirket içi dağıtımda kullanılabilen perakende yetenekleri listesini görmek için bkz: [Şirket içi dağıtımda kullanılabilen perakende yetenekleri](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/PeterRFriis-patch-1/articles/retail/retail-onprem.md).
+Şirket içi dağıtımda kullanılabilen perakende yetenekleri listesini görmek için bkz: [Şirket içi dağıtımda kullanılabilen perakende yetenekleri](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
 

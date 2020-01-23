@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ef9e65b2027a41ca152afaf20ac2fb9a69cd9b96
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: d9c0f329d21cdda5c36a39a8c602d5925b720f52
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698154"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945755"
 ---
 # <a name="enrich-a-product-page"></a>Ürün sayfasını zenginleştirme
 
@@ -72,3 +72,4 @@ Birçok durumda, ürünleriniz için özel ek içerik kullanmak isteyeceksiniz. 
 
 [Kategori açılış sayfasını zenginleştirme](enrich-category-page.md)
 
+[Sayfa içeriği erişilebilirliğini doğrula](verify-accessibility.md)

@@ -3,7 +3,7 @@ title: Çoklu kanal ürün önerileri tanıtım verileri
 description: Bu belgeyle önceden doldurulan, ve özelleştirilebilir tanıtım verileri kullanılarak Katman 1 tek taraflı ortamlarda çoklu kanal ürün önerilerinin nasıl kullanılacağına ilişkin kılavuz sunmak amaçlanmıştır.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 12/1/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81af4c1bb7828c9b346a3ef514d8657e853dcefb
-ms.sourcegitcommit: c526cfd1f823df1ff33ded95e599a72f0a15cc5a
+ms.openlocfilehash: 31aa5dbd2fa814fd572024a4ae36b9d9b46a2fb0
+ms.sourcegitcommit: 398c0652acde12c953de007d06055456d6e0a516
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2226553"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2872338"
 ---
 # <a name="omni-channel-product-recommendations-demo-data"></a>Çoklu kanal ürün önerileri tanıtım verileri
 
 Bu belgeyle önceden doldurulan, ve özelleştirilebilir tanıtım verileri kullanılarak Katman 1 tek taraflı ortamlarda çoklu kanal ürün önerilerinin nasıl kullanılacağına ilişkin kılavuz sunmak amaçlanmıştır.
 
-Çoklu kanal ürün önerilerinde, editör tarafından düzenlenen veya program tarafından oluşturulan bir dizi sipariş edilmiş ürünlerin listesini sunulmaktadır. Bu listeler, iş ihtiyaçlarınıza bağlı olarak birçok senaryoda kullanılabilir. Ürün önerileri listeleri hakkında daha fazla bilgi edinmek için [Ürün önerilerine genel bakış](product-recommendaitons-overview.md) başlıklı makaleye bakın.
+Çoklu kanal ürün önerilerinde, editör tarafından düzenlenen veya program tarafından oluşturulan bir dizi sipariş edilmiş ürünlerin listesini sunulmaktadır. Bu listeler, iş ihtiyaçlarınıza bağlı olarak birçok senaryoda kullanılabilir. Ürün önerileri listeleri hakkında daha fazla bilgi edinmek için [Ürün önerilerine genel bakış](../commerce/product-recommendations.md) başlıklı makaleye bakın.
 
 Katman 2 ve daha yüksek Dynamics Ortamlarında ürün önerileri, müşteri verilerine göre otomatik olarak hesaplanır.
 Ürün önerileri tanıtım verilerini kullanmak, ortamda zaten sağlanmış olan herhangi bir ürün önerisi çözümünü ve bu çözümün kullanımıyla ilişkili hiçbir maliyeti devre dışı bırakmaz.
@@ -68,6 +68,6 @@ Uzantı, müşterinin sahte öneri sonuçlarını güçlendirmek için kullanıl
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Ürün önerilerine genel bakış](product-recommendations-overview.md)
+[Ürün önerilerine genel bakış](../commerce/product-recommendations.md)
 
-[Ortam planlama](environment-planning.md)
+[Ortam planlama](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)

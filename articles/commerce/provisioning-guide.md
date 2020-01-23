@@ -1,9 +1,9 @@
 ---
-title: e-Ticaret değerlendirme ortamı yapılandırma
-description: Bu kılavuz, Microsoft Dynamics 365 Commerce önizleme ortamınızı sağlama ve konfigüre etme konusunda adım adım yönergeler sağlar.
-author: v-chgri
+title: Commerce önizleme ortamı sağlama
+description: Bu konu, hazırlandıktan sonra Microsoft Dynamics 365 Commerce önizleme ortamının nasıl yapılandırılacağını açıklamaktadır.
+author: psimolin
 manager: annbe
-ms.date: 10/15/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,402 +15,297 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: anupamar
+ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b0dce2796e69cd8dee87cba176a521c26c81eb1a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: b77d2cbbc100aeae5dcd53ddbe69ff2e4435da13
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771692"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934760"
 ---
-# <a name="configure-an-e-commerce-evaluation-environment"></a>e-Ticaret değerlendirme ortamı yapılandırma
+# <a name="provision-a-commerce-preview-environment"></a>Commerce önizleme ortamı sağlama
 
 [!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
-Bu kılavuz, Microsoft Dynamics 365 Commerce önizleme ortamınızı sağlama ve konfigüre etme konusunda adım adım yönergeler sağlar. Başlamadan önce, işlemin ne olduğunu ve kılavuzun neler içerdiğini öğrenmek için belgeleri en azından bir fikir almak için inclemeenizi öneririz.
+Bu konu, hazırlandıktan sonra Microsoft Dynamics 365 Commerce önizleme ortamının nasıl yapılandırılacağını açıklamaktadır.
 
-*Not: Microsoft Dynamics 365 Commerce önizleme'ye erişim izni verilmemişse, [Commerce Web sitesinden](https://aka.ms/Dynamics365CommerceWebsite) önizleme erişimi isteyebilirsiniz.*
+Başlamadan önce, işlemin ne olduğunu ve konunun neler içerdiğini öğrenmek için belgeleri en azından bir fikir almak için inclemeenizi öneririz.
 
-## <a name="summary"></a>Özet
-Ortamı başarıyla sağlamak için, projenin belirli bir ürün adı ve türle oluşturulması gerekir. Ortam ve Retail Cloud Scale Unit, ayrıca, e-ticaret sağlamasının daha sonra başlatmak için kullanmanız gereken belirli parametreleri de vardır. Bu kılavuzdaki yönergeler gerçekleştirmeniz gereken tüm gerekli adımları ve kullanmanız gereken parametreleri içerir.
+> [!NOTE]
+> Dynamics 365 Commerce önizleme'ye erişim izni verilmemişse, [Commerce Web sitesinden](https://aka.ms/Dynamics365CommerceWebsite) önizleme erişimi isteyebilirsiniz.
 
-Sağlama başarılı olduktan sonra, önizleme ortamınızı hazırlamak için almanız gereken birkaç son işlem adımı vardır. Sistemin hangi yönlere göre değerlendirileceğini bağlı olarak bazı adımlar isteğe bağlıdır. Daha sonra fikrinizi değiştirirseniz, isteğe bağlı adımları daha sonra da çalıştırabilirsiniz.
+## <a name="overview"></a>Genel Bakış
 
-Sağlama adımlarıyla ilgili sorularınız varsa veya herhangi bir sorunla karşılaşırsanız, lütfen [Microsoft Dynamics 365 Commerce önizleme Yammer grubunda](https://aka.ms/Dynamics365CommercePreviewYammer)bize bildirin. 
+Commerce önizleme ortamınızı başarıyla sağlamak için, belirli bir ürün adı ve türü olan bir proje oluşturmanız gerekir. Ortam ve Retail Cloud Scale Unit (RCSU), ayrıca, e-ticaret sağlamasının daha sonra başlatmak için kullanmanız gereken belirli parametreleri de vardır. Bu konudaki yönergeler, tamamlamanız gereken tüm gerekli adımları ve kullanmanız gereken parametreleri açıklar.
+
+Sağlama başarılı olduktan sonra, Ticari önizleme ortamınızı hazırlamak için almanız gereken birkaç son işlem adımı vardır. Sistemin hangi yönlere göre değerlendirileceğini bağlı olarak bazı adımlar isteğe bağlıdır. İsteğe bağlı adımları istediğiniz zaman daha sonra da tamamlayabilirsiniz.
+
+Commerce önizleme ortamını yapılandırma hakkında bilgi için bkz. [Commerce önizleme ortamı yapılandırma](cpe-post-provisioning.md). Commerce Preview ortamınızla ilgili isteğe bağlı özellikleri konfigüre etmek için, bkz. [Commerce önizleme ortamınız için isteğe bağlı özellikler yapılandırın](cpe-optional-features.md).
+
+Sağlama adımlarıyla ilgili sorularınız varsa veya herhangi bir sorunla karşılaşırsanız, lütfen [Microsoft Dynamics 365 Commerce önizleme Yammer grubunda](https://aka.ms/Dynamics365CommercePreviewYammer) Microsoft'a bildirin.
 
 ## <a name="prerequisites"></a>Önkoşullar
-Aşağıda, Dynamics 365 önizleme ortamınızı sağlama önkoşulları verilmiştir:
-* **Lifecycle Services portalına (LCS)** erişim hakkınız var
-* **Önizleme programına Dynamics 365 Commerce kabul edilmiş** olabilirsiniz
-* **Olası ön satışlar** için bir proje oluşturmak veya **geçiş yapmak, çözüm oluşturmak ve daha fazla bilgi** edinmek için gerekli izinleriniz vardır
-* Ortamı sağlamak istediğiniz **Ortam yöneticisi** veya **Proje Sahibi** rolünün bir üyesisinizdir
-* Azure aboneliğinize yönetici erişiminiz var veya sizin adınıza yönetici izinleri gerektiren iki adımı gerçekleştirebilecek bir abonelik Yöneticisi ile ilişki kurun
-* **AAD kiracı kimliğiniz** kullanılabilir
-* **E-ticaret sistem yöneticileri grubu** olarak kullanılacak bir **AAD güvenlik grubu** oluşturdunuz ve kimliğiniz kullanılabilir
-* **Derecelendirme veya inceleme grubu** olarak kullanılacak bir **AAD güvenlik grubu** oluşturdunuz ve bunun kodu mevcut (yukarıdaki sistem admin grubuyla aynı SG olabilir)
-## <a name="provisioning-preview-environment"></a>Önizleme ortamı sağlanıyor
-Bu yönergelerde, bir Microsoft Dynamics 365 Commerce önizleme ortamının sağlanmakta olduğu ele alınıyor. Bu adımları başarıyla tamamladıktan sonra, konfigüre edilmeye hazır bir önizleme ortamına sahip olursunuz. Burada açıklanan tüm etkinlikler LCS portalında yer alabilir.
 
-*Lütfen önizleme uygulamasının önizleme uygulamanızda belirttiğiniz LCS hesabına ve kuruluşa bağlı olduğunu unutmayın. Sağlama için bu hesabı kullanmanız gerekir. Önizleme ortamı için farklı LCS hesabı veya kiracı kullanmanız gerekiyorsa, bize bu ayrıntıları girmeniz gerekir. İlgili kişi bilgileri için lütfen aşağıdaki "ek kaynaklar" başlığına bakın.*
-### <a name="before-starting"></a>Başlatmadan önce
-##### <a name="grant-access-to-e-commerce-applications"></a>E-ticaret uygulamalarına erişim ver
+Commerce önizleme ortamınızı hazırlayabilmeniz için aşağıdaki önkoşulların yerinde olması gerekir:
 
-*Not: **Oturum açan kişinin AAD kiracı yöneticisiolması gerekir**. Bu adımı başarıyla tamamlamadan, sağlama adımlarının geri kalanı başarısız olacak.*
+- Microsoft Dynamics Lifecycle Services (LCS) portalına erişim hakkınız var
+- Dynamics 365 Commerce Önizleme programına kabul edilmiş olabilirsiniz.
+- **Olası ön satışlar** için bir proje oluşturmak veya **geçiş yapmak, çözüm oluşturmak ve daha fazla bilgi** edinmek için gerekli izinleriniz vardır.
+- Ortamı sağlamak istediğiniz **Ortam yöneticisi** veya **Proje sahibi** rolünün bir üyesisinizdir.
+- Microsoft Azure aboneliğinize yönetici erişiminiz var veya sizin adınıza yönetici izinleri gerektiren iki adımı gerçekleştirebilecek bir abonelik Yöneticisi ile ilişki kurun.
+- Azure Active Directory (Azure AD) kiracı kimliğiniz kullanılabilir.
+- E-ticaret sistem yöneticileri grubu olarak kullanılacak bir Azure AD güvenlik grubu oluşturdunuz ve kimliğiniz kullanılabilir
+- Derecelendirme ve incelemeler grubu olarak kullanılacak bir Azure AD güvenlik grubu oluşturdunuz ve kimliğiniz kullanılabilir (Bu güvenlik grubu e-ticaret Sistem Yöneticisi grubuyla aynı olabilir.)
 
-1. Bu adım için, **AAD kiracı kimliğiniz**gereklidir. Azure aboneliğinize erişmek için e-ticaret uygulamalarına yetki vermeniz gerekiyor. Bunu gerçekleştirmenin en kolay yolu URL'YI şöyle kullanmaktır:
+### <a name="find-your-azure-ad-tenant-id"></a>Azure AD kiracı kimliğinizi bulun
 
-https://login.windows.net/{AAD_TENANT_ID}/oauth2/authorize?client_id=fbcbf727-cd18-4422-a723-f8274075331a&response_type=code&redirect_uri=https://sb.manage.commerce.dynamics.com/_commerce/Consent&response_mode=query&prompt=admin_consent&state=12345
+Azure AD kiracı kimliğiniz, bu örneğe benzeyen bir genel benzersiz tanımlayıcıdır (GUID): **72f988bf-86f1-41af-91ab-2d7cd011db47**.
 
-2. **Doğrudan URL 'yi tıklatmayın**, bunun yerine kopyalayıp tarayıcınıza veya metin düzenleyicisine yapıştırın ve url'ye gitmeden önce **\{AAD_TENANT_ID\}**'yi **AAD kiracı kimliğiniz** ile değiştirin.
-3. Aboneliğinize "Dynamics 365 Commerce (Önizleme)" erişim vermek istediğinizi onaylamanız gereken Microsoft AAD Login iletişim kutusu görüntülenir.
-4. İşlemin başarılı olduğunu doğrulayan bir sayfaya gönderilecektir.
+#### <a name="find-your-azure-ad-tenant-id-by-using-the-azure-portal"></a>Azure portalını kullanarak Azure AD kiracı kimliğinizi bulun
 
-##### <a name="log-in-to-the-lcs"></a>LCS'ta oturum açın
-1. LCS portalda oturum açın: https://lcs.dynamics.com
-1. Önizlemeye erişim istemek için kullandığınız LCS hesabıyla oturum açmış olduğunuzdan emin olun.
-##### <a name="confirm-that-preview-features-are-available-and-enabled"></a>Önizleme özelliklerinin kullanılabilir ve etkin olduğunu onaylayın
-1. LCS ön sayfasında, tüm yolu sağa kaydırın ve **önizleme özelliği yönetim** kutucuğunu tıklatın.
-1. "ÖZEL ÖNİZLEME ÖZELLİKLERİ"ne gidin ve aşağıdaki özelliklerin kullanılabilir ve etkin olduğundan emin olun:
-    1. **e-Ticaret değerlendirmesi**
-    1. **Ticaret Önizleme Programı Ortamları**
-1. Listede bu özellikleri göremiyorsanız, lütfen iş e-postanız, LCS hesabı ve kiracı ayrıntılarınız ile ilgili olarak bize başvurun. Bizimle bağlantı kurma hakkında bilgi için lütfen aşağıdaki **ek kaynaklara** bakın.
-
-![Önizleme yönetimi kutucuğu](./media/preview1.png)
-
-![Önizleme özellikleri](./media/preview2.png)
-### <a name="create-project"></a>Proje oluştur
-##### <a name="creating-new-project"></a>Yeni proje oluşturma
-1. yeni bir proje oluşturmak için **+**'ya tıklayın.
-1. Bir ortaksanız **taşı, çözüm oluştur ve öğren**'yi seçin.
-1. Müşterisiyseniz, **olası ön satışlar**'ı seçin.
-1. Uygun gördüğünüz şekilde bir ad, açıklama ve sektör girin.
-1. **Ürün adı** olarak **Dynamics 365 Retail** seçeneğini belirleyin.
-1. **Ürün sürümü** olarak **Dynamics 365 Retail** seçeneğini belirleyin.
-1. **Metodoloji** için **Dynamics Retail uygulama metodoloji**'ı seçin.
-1. İsterseniz varolan bir projedeki rolleri ve kullanıcıları içe aktarabilirsiniz.
-1. **Oluştur**'a tıklayın.
-1. Proje görünümüne gönderilecektir.
-##### <a name="add-azure-connector"></a>Azure bağlayıcısı ekle
-1. Ortaksanız, Araçlar kutucuklarındaki **proje ayarları** 'nı en sağa tıklatın.
-1. Müşterisiyseniz, üst menüden **proje ayarları**  'nı seçin.
-1. **Azure bağlayıcısı** seçin.
-1. Bir Azure bağlayıcısı eklemek için, **+ Ekle**'ye tıklayın.
-1. Bir ad girin.
-1. **Azure abonelik kimliğinizi** girin.
-1. **Azure Resource Manager (ARM) kullanmak için yapılandırı** etkinleştirin.
-1. **Azure aboneliği AAD kiracı etki alanının (veya kimlik)** doğru olduğundan emin olun. Gerekiyorsa, Azure abonelik yöneticinize başvurun.
-1. **İleri** düğmesini tıklatın.
-1. Gerekli uygulamaların aboneliğinize erişim izni vermek için ekrandaki yönergeleri izleyin. Gerekiyorsa, Azure abonelik yöneticinize başvurun:
-    1. Azure portalda oturum açın: https://portal.azure.com/
-    1. Doğru dizin seçimi yaptığınızdan emin olun.
-    1. Soldaki menüden **abonelikler**'i tıklatın.
-    1. Listeden doğru aboneliği bulun ve seçin. Gerekiyorsa aramayı kullanın.
-    1. Menüden **erişim denetimini (IAM)** seçin.
-    1. Sağ tarafta **rol ataması eklemek** için **Ekle**'yi tıklatın. **Role atama ekle** bölmesi açılır.
-    1. **Rol** için **katılımcı**'ı seçin.
-    1. **Erişim atama** için **Azure AD kullanıcı, Grup veya hizmet sorumlusu** olarak bırakın.
-    1. **Seç** altında, **b96b7e94-b82e-4e71-99a0-cf7fb188acea** girin.
-    1. Listeden **Dynamics dağıtım hizmetlerini [wsfed-etkin]** seçin.
-    1. **Kaydet**'e tıklayın.
-1. **İleri** düğmesini tıklatın.
-1. Gerekli uygulamaların aboneliğinize erişim izni vermek için ekrandaki yönergeleri izleyin. Gerekiyorsa, Azure abonelik yöneticinize başvurun.
-1. **İleri** düğmesini tıklatın.
-1. **Azure bölgesi** için, **Doğu ABD**, **Doğu ABD 2**, **Batı ABD** veya **Batı ABD 2** seçeneklerinden birini belirleyin.
-1. **Bağlan** üzerine tıklayın.
-1. Azure Bağlayıcınız listede görünmelidir.
-### <a name="import-extension"></a>İçe aktarma uzantısı
-1. En üstteki proje adını tıklatarak proje ön sayfasına geri dönün.
-1. Ortaksanız, Araçlar kutucuklarındaki **Varlık kitaplığı** 'nı en sağa tıklatın.
-1. Müşterisiyseniz, üst menüden **Varlık kitaplığı**'nı seçin.
-1. Soldaki listeden **yazılımla dağıtılabilir paket** 'i seçin.
-1. Eylem Bölmesinde, **İçeri Al**'a tıklayın.
-1. **Paylaşılan varlık Kitaplığı**'nın altındaki kıymetler listesinden **Commerce Preview demo temel uzantıyı** seçin.
-1. **Çekme** üzerine tıklayın.
-1. Varlık kitaplığına iade edilecek ve listede uzantıyı görmelisiniz.
-
-![Proje oluşturma - sürümler](./media/import.png)
-### <a name="deploy-environment"></a>Ortamı dağıtın
-
-*Not: tek seçeneği olan ekranlar atlandığından, 6, 7 ve/veya 8 numaralı adımlar gösterilmeyecektir. **Ortam parametreleri** görünümünde olduğunuzda, **ortam adı** alanının hemen üstündeki "Dynamics 365 Commerce (Önizleme) gösterisi (platform güncelleştirmesi 30 ile 10.0.6)" metnini kullandığınızı onaylayın. Aşağıdaki ekran görüntüsünde bakın.*
-
-1. Üst menüden **bulut ile barındırılan ortamları** seçin.
-1. Ortam eklemek için **+ Ekle**'yi tıklatın.
-1. **Başvuru sürümü** için **10.0.6**'yi seçin.
-1. **Platform sürümü** için **Platform Update 30**'i seçin.
-1. **İleri** düğmesini tıklatın.
-1. Ortam topolojisi için **demo** seçin.
-1. Ortam topolojisi için, ( **Dynamics 365 Commerce Önizleme) - demo**'yu seçin.
-1. Daha önce tek bir Azure Bağlayıcısı yapılandırdıysanız bu ortam için kullanılacak. Birden çok Azure Bağlayıcısı yapılandırdıysanız, kullanmak istediğiniz bağlayıcıyı seçebilirsiniz: **Doğu ABD**, **Doğu ABD 2**, **Batı ABD** veya **Batı ABD 2** (en iyi uçtan uca performans için önerilir)
-1. Bir **ortam adı** girin.
-1. Uygun gördüğünüz gibi VM boyutunu ayarlayın. (VM SKU **D13 v2** önerilir.)
-1. **Gelişmiş ayarları** olduğu gibi bırakın.
-1. Ekrandaki fiyat ve lisans koşullarını inceledikten sonra, sözleşmeyi belirtmek için kutusunu işaretleyin.
-1. **İleri** düğmesini tıklatın.
-1. Dağıtım onayı ekranında, ayrıntıların doğru olduğunu doğruladıktan sonra **Dağıt**'ı tıklatın.
-1. **Bulut içinde barındırılan ortamlar** görünümüne geri dönersiniz ve ortamınız listede görünmelidir.
-1. İstediğiniz ortam kuyruğa alındı ve sonra dağıtılıyor. Tüm ortam iş akışlarının tamamlanması biraz zaman alacaktır, bu nedenle lütfen birkaç saat sonra tekrar kontrol edin (yaklaşık 6 – 9 saat).
-1. Devam etmeden önce, ortam durumlarınızın **dağıtıldığından** emin olun.
-
-![Proje oluşturma - sürümler](./media/project1.png)
-
-![Proje oluşturma - topoloji 1](./media/project2.png)
-
-![Proje oluşturma - topoloji 2](./media/project3.png)
-
-![Proje oluşturma - ortam parametreleri](./media/project4.png)
-### <a name="initialize-rcsu"></a>RCSU başlatma
-1. **Bulut barındırılan ortamlar** görünümünde, listeden ortamınızı seçin.
-1. Ekranın sağ tarafındaki ortam görünümünden **tüm ayrıntılar**'ı tıklatın. Ortam ayrıntıları görünümü görüntülenir.
-1. **Ortam özellikleri** altında, **Yönet**'i tıklatın.
-1. **Perakende** sekmesinde, **Başlat**'ı tıklatın. RCSU başlatma parametreleri görünümü görüntülenir.
-1. **BÖLGE** için, **Doğu ABD**, **Doğu ABD 2**, **Batı ABD** veya **Batı ABD 2** seçeneklerinden birini belirleyin.
-1. **SÜRÜM** için, önce açılan listeden **bir sürüm belirtin**, sonra da aşağıda gösterilen metin alanında **9.16.19262.5** belirtin. *Not: Lütfen, RCSU'yu doğru sürüme güncelleştirmek için burada listelenen **sürümün aynısını belirttiğinizden** emin olun.*
-1. **Uzantıyı uygula**'yı etkinleştirin.
-1. Uzantılar listesinden, **Commerce Preview demo temel uzantısını** seçin.
-1. **Başlat** öğesine tıklayın.
-1. Dağıtım onayı ekranında, ayrıntıların doğru olduğunu doğruladıktan sonra **Evet**'i tıklatın.
-1. **Perakende sekmesi** etkinleştirildiğinde, **Perakende** Yönetim görünümüne iade edilir. RCSU kaynak ayırma işlemi için sıraya alındı.
-1. Devam etmeden önce RCSU durumunuz **başarılana** kadar bekleyin (yaklaşık olarak 2-5 saat sürer).
-### <a name="initialize-e-commerce"></a>e-Ticaret başlat
-1. **E-ticaret (Önizleme)** sekmesine geçin.
-1. Önizleme onayını inceledikten sonra **kurulum**'u tıklatın.
-1. **E-ticaret kiracı adı** için bir ad girin. Ancak, e-ticaret örneğinizi gösteren bazı URL'lerde bu dosyanın görülebileceğini unutmayın.
-1. **Retail Cloud Scale Unit adı** için listeden RCSU seçin (listede yalnızca bir seçenek olmalıdır).
-1. **e-ticaret coğrafya** otomatik olarak doldurulur ve değiştirilemez.
-1. Devam etmek için **İleri**'yi tıklatın.
-1. **Desteklenen ana bilgisayar adları** için geçerli bir etki alanı (örneğin, www.fabrikam.com) girin.
-1. **AAD güvenlik grubu için sistem yöneticisine** ait, e-ticaret sistem yönetim grubu olarak kullanmak istediğiniz AAD SG kodunu girin.
-1. **AAD güvenlik grubu için derecelendirmeler ve inceleme aracı** için, derecelendirme olarak kullanmak istediğiniz AAD SG kodunu girin ve denetleyici grubunu gözden geçirin.
-1. **B2C** değerlerini boş bırakın (B2C ile başlayan 7 alan).
-1. **Derecelendirmeleri ve inceleme hizmetini etkinleştiri** etkin durumda bırak.
-1. **Başlat** öğesine tıklayın.
-1. **Perakende sekmesi** etkinleştirildiğinde, **e-Ticaret (önizleme)** Yönetim görünümüne iade edilir. E-ticaret başlatma işlemi başlatıldı.
-1. Devam etmeden önce, e-ticaret başlatma durumunuz **başlatma başarılı**olana kadar bekleyin.
-1. Sağ altta **bağlantıların** altında.
-    * **E-ticaret sitesine** bağlantıyı alın. Bu, C2 sitenizin köküne bağlantıdır.
-    * **E-ticaret sitesi yönetim aracı** bağlantıyı alın. Bu, site yönetim aracı (C1 yazma aracı) bağlantıdır.
-## <a name="post-provisioning-steps"></a>Sağlama sonrası adımlar
-Bu aşamada, ortama uçtan uca sağlanacak, ancak ortamı değerlendirmeye başlamadan önce dikkate alınması gereken bazı yapılandırma adımları vardır.
-### <a name="before-starting"></a>Başlatmadan önce
-1. Üst menüden **bulut ile barındırılan ortamları** seçin.
-1. Listeden ortamınızı seçin.
-1. Sağdaki ortam bilgilerinden **tam ayrıntılar** 'ı tıklatın.
-1. **Oturum aç**'ı tıklatın bir menü açmak için **ortamdaoturum aç**'ı seçin.
-
-**USRT** hukuk varlığının seçildiğinden emin olun (sağ üst köşe).
-
-### <a name="configure-pos"></a>POS konfigüre et
-##### <a name="associate-worker-with-your-identity"></a>Çalışanı kimlikle ilişkilendir
-1. Soldaki menüyü kullanarak, **Modüller > perakende > çalışanlar > İşçiler**'e gidin.
-1. Listede, **000713 - Andrew Collette** kaydı bulun ve seçin.
-1. Eylem Bölmesinde, **Perakende**'yi tıklayın.
-1. **Var olan kimliği ilişkilendir**'i seçin.
-1. **E-posta** alanında (**E-posta kullanarak arama**'nın sağındaki) e-posta adresinizi yazın.
-1. **Ara**'ya tıklayın.
-1. Adınızı taşıyan kaydı seçin.
-1. **Tamam**'a tıklayın.
-1. **Kaydet**'e tıklayın.
-##### <a name="activate-cloud-pos"></a>Bulut POS'u etkinleştirme
-1. LCS portalda oturum açın.
-1. Projenize gidin.
-1. Üst menüden **bulut ile barındırılan ortamları** seçin.
-1. Listeden ortamınızı seçin.
-1. Sağdaki ortam bilgilerinden **tam ayrıntılar** 'ı tıklatın.
-1. **Oturum aç**'ı tıklatın bir menü açmak için **bulut satış noktasında oturum aç**'ı seçin, POS'un yüklenmesi gerekir.
-1. **İleri** düğmesini tıklatın.
-1. AAD hesabınızı bağlamak için oturum açın
-1. **Mağaza adı** altında, **San Francisco**'yu seçin.
-1. **İleri** düğmesini tıklatın.
-1. **Kayıt ve aygıt** altında, **SANFRAN-1** seçin.
-1. **Etkinleştir**'e tıklayın.
-1. POS oturum açma ekranında oturumunuzu kapatıp açmanız gerekir.
-1. Şimdi Operatör Kodu **000713** ve parola **123** kullanarak Cloud POS deneyimlerinde oturum açabilirsiniz.
-### <a name="site-setup"></a>Site kurulumu
-1. Daha önce not ettiğiniz URL'yi kullanarak **site yönetimi aracında** oturum açın.
-1. Site kurulum iletişim kutusunu açmak için **Fabrikam** sitesine tıklayın.
-1. Etki alanı için, e-ticaret başlatırken daha önce girdiğiniz etki alanını seçin.
-1. Varsayılan kanal için, **Fabrikam genişletilmiş çevrimiçi mağaza**'yı seçin. *Not: **genişletilmiş** çevrimiçi mağazayı seçtiğinizden emin olun*
-1. Varsayılan dil için **tr-tr** seçeneğini belirleyin.
-1. **Yolu** olduğu gibi bırak.
-1. **Tamam**'a tıklayın.
-1. Sitedeki sayfalar listesine gönderilecektir.
-### <a name="enable-jobs"></a>İşleri etkinleştir
-1. Ortama oturum açın (HQ).
-1. Soldaki menüyü kullanarak **perakende > Sorgulamalar ve raporlar > toplu işler**'e gidin.
-1. Aşağıdaki listede bulunan her iş için aşağıdaki adımları gerçekleştirin:
-    * **Perakende siparişi e-posta bildirimini işle**.
-    * **Ürün bulunabilirliği**.
-    * **P-0001**.
-    * **Sipariş işlerini eşitle**.
-1. Yukarıdaki adı (yukarıda belirtilen) kullanarak işi aramak için hızlı filtre'yi kullanın.
-1. İşin durumu **stopaj** ise, aşağıdaki adımları gerçekleştirin:
-    1. Etkin kaydı seçin.
-    1. Eylem bölmesinden **toplu iş** şeridini açın ve **Durumu değiştir**'i tıklatın.
-    1. **Bekleyen** seçeneğini belirleyin ve **Tamam** düğmesini tıklatın.
-### <a name="run-full-data-sync"></a>Tam veri eşitlemeyi çalıştır
-1. Soldaki menüyü kullanarak, **Modüller > Perakende > Genel merkez ayarı > Perakende planlayıcısı > Kanal veritabanı** gidin.
-1. **Varsayılan** kanal, soldaki listeden seçilir. *Diğer kullanılabilir kanalı seçin (**scxxxxxxxxx**)*.
-1. Eylem bölmesinden **tam veri eşitleme**'yi tıklatın.
-1. Dağıtım planı olarak **9999**'ı seçin.
-1. **Tamam**'a tıklayın.
-1. **Tamam**'a tıklayın.
-### <a name="after-these-steps-you-are-ready-to-start-evaluating-your-preview-environment"></a>Bu adımlardan sonra, önizleme ortamınızı değerlendirmeye başlamaya hazırsınız!
-C2 tesis deneyimine gitmek için C1 yazma deneyimine ve **e-ticaret sitesi** URL'sine gitmek için **e-ticaret site yönetimi aracı** URL'sini kullanın.
-
-## <a name="additional-resources"></a>Ek kaynaklar
-### <a name="how-to-find-your-aad-tenant-id"></a>AAD kiracı kimliğiniz nasıl bulunur
-AAD Kiracı kimliği bir GUID ve aşağıdaki örnekte olduğu gibi görünüyor: **72f988bf-86f1-41af-91ab-2d7cd011db47**
-##### <a name="from-azure-portal"></a>Azure Portalından
-1. Azure portalda oturum açın: https://portal.azure.com/
+1. [Azure portalında](https://portal.azure.com/) adresinden oturum açın.
 1. Doğru dizin seçimi yaptığınızdan emin olun.
-1. Soldaki menüden **Azure Active Directory**'i tıklatın.
-1. **Yönet** altında **Özellikler**'i seçin.
-1. AAD Kiracı kimliği **dizin kimliği** altında gösteriliyor.
-##### <a name="from-openid-connect-metadata"></a>OpenID bağlantı meta verileri
-**\{YOUR_DOMAIN\}**'i etki alanınıza değiştirerek bir **openıd URL**'si oluşturun; örneğin, microsoft.com: https://login.microsoftonline.com/{YOUR_DOMAIN}/.well-known/openid-configuration; https://login.microsoftonline.com/microsoft.com/.well-known/openid-configuration olur
+1. Soldaki menüden **Azure Active Directory** seçin.
+1. **Yönet** altında **Özellikler**'i seçin. Azure AD kiracı kimliğiniz **dizin kimliği** altında görünür.
 
-1. Etki alanınıza sahip **OpenID URL** 'sine gidin.
-1. AAD Kiracı kimliği birden çok özellik değerlerinde görünebilir.
-1. **login.microsoftonline.com/** sonra **authorization_endpoint** bulun ve GUID'yi doğrudan ayıklayın.
-### <a name="how-to-find-the-id-of-your-aad-security-group"></a>AAD güvenlik grubunuzun kimliği nasıl bulunur
-AAD güvenlik grup kimliği bir GUID ve aşağıdaki örnekte olduğu gibi görünüyor: **436ea7f5-ee6c-40c1-9f08-825c5811066a**
+#### <a name="find-your-azure-ad-tenant-id-by-using-openid-connect-metadata"></a>OpenID bağlantı meta verilerini kullanarak Azure AD kiracı kimliğinizi bulun
 
-Bu adım, kullanıcının kimliği bulmaya çalıştığı grubun üyesi olduğunu varsayar.
-1. Grafik Gezgini'ne gidin: https://developer.microsoft.com/en-us/graph/graph-explorer#
+Etki alanınızı `microsoft.com` gibi **\{ETKİ\_ALANI\}** ile değiştirerek bir OpenID URL'si oluşturun. Örneğin, `https://login.microsoftonline.com/{YOUR_DOMAIN}/.well-known/openid-configuration`, `https://login.microsoftonline.com/microsoft.com/.well-known/openid-configuration` olur.
+
+1. Etki alanınızı içeren OpenID URL'sine gidin.
+
+    Azure AD kiracı kimliğinizi birden çok özellik değerlerinde bulabilirsiniz.
+
+1. **yetkilendirme\_bitişnoktası**'nı bulun, hemen `login.microsoftonline.com/` sonrasında görünen GUID'i çıkarın.
+
+### <a name="find-your-azure-ad-security-group-id"></a>Azure AD güvenlik grubu kimliğinizi bulun
+
+Azure AD güvenlik grubunuzun kodu aşağıdaki örneğe benzer bir GUID'dir: **436ea7f5-ee6c-40c1-9f08-825c5811066a**.
+
+Bu yordam, kimliğini bulmaya çalıştığınız grubun bir üyesi olduğunuzu varsayar.
+
+1. [Grafik Gezginini](https://developer.microsoft.com/graph/graph-explorer#) açın.
 1. **Microsoft ile oturum aç**'ı tıklatın ve kimlik bilgilerinizi kullanarak oturum açın.
-1. Oturum açtıktan sonra, soldan **daha fazla örnek göster**'i tıklatın.
+1. Solda, **diğer örnekleri göster**'i seçin.
 1. **Grupları** sağ bölmeden etkinleştirin.
 1. Sağ bölmeyi kapatın.
-1. **Ait olduğum tüm grupları** tıklatın.
-1. **Yanıt Önizleme** metin kutusundan grubunuzun yerini belirleyin.
-1. Özellik **kimliği** altında güvenlik grubu kodu belirtiliyor.
-### <a name="test-credit-card-information-to-perform-test-purchases"></a>Test satın almaları gerçekleştirmek için kredi kartı bilgilerini sına
-Sitede test hareketleri gerçekleştirmek için, aşağıdaki test kredi kartı bilgilerini kullanabilirsiniz:
+1. **Ait olduğum tüm grupları** seçin.
+1. **Yanıt Önizleme** alanında, grubunu bulun. Güvenlik grubu kodu, **ID** özelliği altında görünür.
 
-Kart numarası: 4111-1111-1111-1111, bitiş tarihi: 10/20, CVV: 737
+## <a name="provision-your-commerce-preview-environment"></a>Commerce önizleme ortamınızı sağlama
 
-*Not: herhangi bir koşulda test sitesinde gerçek kredi kartı bilgilerini kullanmaya çalışmayın!*
-### <a name="useful-links"></a>Faydalı bağlantıları
-* [LCS (Lifecycle services)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
-* [RCSU (Retail Cloud Scale Unit)](https://docs.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
-* [Microsoft Azure portalı](https://azure.microsoft.com/en-us/features/azure-portal)
-* [Dynamics 365 Commerce web sitesi](https://aka.ms/Dynamics365CommerceWebsite)
-* [Dynamics 365 Retail için yardım kaynakları](../retail/index.md)
-### <a name="microsoft-dynamics-365-commerce-preview-support"></a>Microsoft Dynamics 365 Commerce Önizleme desteği
-Sağlama adımlarını gerçekleştirirken sorunlarla karşılaşırsanız, yardım için lütfen [Microsoft Dynamics 365 Commerce Önizleme Yammer grubunu](https://aka.ms/Dynamics365CommercePreviewYammer) ziyaret edin. 
+Bu yöntemlerde, bir Commerce Preview ortamının nasıl sağlanacağı açıklamaktadır. Bunları başarıyla tamamladıktan sonra, Commerce Preview ortamı konfigürasyon için hazır olacak. Burada açıklanan tüm etkinlikler LCS portalında yer alabilir.
 
-Yammer Gruba erişim sorunlarınız varsa, **Dynamics365Commerce@microsoft.com** adresinden e-posta yoluyla da bize ulaşabilirsiniz. Bu e-posta adresi etkin olarak izlenmedi; bu nedenle yanıt olarak bir gecikme beklenir.
-***
-## <a name="prerequisites-for-optional-features"></a>İsteğe bağlı özellikler için Önkoşullar
-İşlem e-posta özelliklerini değerlendirmek istiyorsanız, aşağıdaki önkoşulların karşılanması gerekir:
-* Kullanılabilir bir e-posta sunucunuz var (SMTP sunucusu); Bunlar, önizleme ortamını temin ettiğiniz Azure aboneliğinden kullanılabilir.
-* Sunucunun FQDN/IP, SMTP bağlantı noktası numaranız ve kullanılabilir kimlik doğrulama detayları vardır.
+> [!IMPORTANT]
+> Önizleme erişimi, önizleme uygulamanızda belirttiğiniz LCS hesabına ve kuruluşa bağlıdır. Commerce Preview ortamını sağlamak için aynı hesabı kullanmanız gerekir. Commerce Preview ortamı için farklı bir LCS hesabı veya kiracı kullanmanız gerekiyorsa, bu ayrıntıları Microsoft'a sağlamanız gerekir. Başvuru bilgileri için bu konudaki [Commerce önizleme ortam desteği](#commerce-preview-environment-support) başlıklı bölüme bakın.
 
-Yeni çok yönlü kanal görüntülerini özellikle en iyi şekilde karşılayan dijital varlık yönetimi özelliklerini değerlendirmek istiyorsanız, aşağıdaki önkoşulların karşılanması gerekir:
-* **CMS kiracı adınızın** kullanılabilir olması gerekir. Bu adı bulma yönergeleri aşağıdadır.
-### <a name="configure-image-backend-optional"></a>Görüntü arka uç Yapılandır (isteğe bağlı)
-##### <a name="finding-your-media-base-url"></a>Medya taban URL 'niz bulunuyor
-*Not: Bu adımı tamamlayabilmek için, önce **site kurulumunu** tamamlamanız gerekir.*
-1. Daha önce not ettiğiniz URL'yi kullanarak site yönetimi aracında oturum açın.
-1. **Fabrikam** sitesini açın.
-1. Soldaki menüden **Varlıkları** seçin.
-1. Herhangi bir tek resim varlığı seçin.
-1. Sağdaki Özellik denetçisinden **ortak URL** 'yi bulun. İçinde bir URL var.
-    * Örnek URL: https://images-us-sb.cms.commerce.dynamics.com/cms/api/fabrikam/imageFileData/MA1nQC
-1. URL'deki son tanımlayıcıyı (Yukarıdaki örnek URL'de MA1nQC) aşağıdaki dizeyle Değiştirin: **search?fileName=**
-    * Değiştirmeden sonraki örnek URL: https://images-us-sb.cms.commerce.dynamics.com/cms/api/fabrikam/imageFileData/search?fileName=
-    * Bu, **ortam taban URL'sidir** - bunu not alın.
-##### <a name="updating-the-media-base-url"></a>Ortam temel URL'si güncelleştiriliyor
-1. Ortama oturum açın (HQ).
-1. Soldaki menüyü kullanarak, **Modüller > Perakende > Kanal ayarı > Kanal profilleri** gidin.
-1. **Düzenle**'yi tıklatın.
-1. **Profil özelliklerinden**, **ortam sunucusu temel URL'sinin** özellik değerini daha önce oluşturduğunuz **ortam taban URL**'siyle değiştirin.
-1. Soldaki listeden, **varsayılan** kanal altında diğer kanalı seçin.
-1. **Profil özellikleri** altında, **+ Ekle**'yi tıklatın.
-1. Eklenen özellik için, **ortam sunucusu temel URL**'yi Özellik anahtarı olarak ve özellik değeri için, önceden oluşturduğunuz **ortam taban URL'sini** girin.
-1. **Kaydet**'e tıklayın.
+### <a name="grant-access-to-e-commerce-applications"></a>E-ticaret uygulamalarına erişim ver
 
-### <a name="configure-email-server-optional"></a>E-posta sunucusunu yapılandır (isteğe bağlı)
-Burada girdiğiniz SMTP sunucusu ya da e-posta hizmetinin, ortam için kullandığınız Azure aboneliği içinden erişilebilir olması gerektiğini unutmayın.
-1. Ortama oturum açın (HQ).
-1. Soldaki menüyü kullanarak, **Modüller > Perakende > Genel merkez ayarı > Parametreler > E-posta parametreleri** gidin.
-1. **SMTP ayarları** sekmesine tıklayın.
-1. **Giden posta sunucusu alanında**, SMTP sunucunuzun veya e-posta hizmetinizin FQDN'sini veya IP adresini yazın.
-1. **SMTP bağlantı noktası numarası** alanına, bağlantı noktası numarasını girin (varsayılan, SSL kullanırken 25'tir).
-1. **Kullanıcı adı** alanına bir değer yazın (kimlik doğrulama gerekliyse).
-1. **Parola** alanına bir değer yazın (kimlik doğrulama gerekliyse).
-1. **Kaydet**'e tıklayın.
-1. **Yenile**'yi tıklatın.
-1. **Test epostası** sekmesine tıklayın.
-1. E-posta sağlayıcısı alanında **SMTP** 'yi seçin.
-1. **Gönder** alanına, test e-adresinin teslim edilmesini istediğiniz e-posta adresini girin.
-1. **Test e-postası gönder**'i tıklayın.
-### <a name="configure-email-templates-optional"></a>E-posta şablonlarını yapılandır (isteğe bağlı)
-E-postalarını göndermek istediğiniz her işlemsel olay için e-posta şablonunun geçerli bir gönderen e-posta adresiyle güncelleştirilmesi gerekir.
-1. Soldaki menüyü kullanarak, **Modüller > Kuruluş yönetimi > Kurulum > Kuruluş e-posta şablonları** gidin.
-1. **Listeyi göster**'i tıklatın.
-1. Listedeki her şablon için:
-    1. **Gönderen e-postası** alanına bu e-posta şablonunun gönderen e-posta adresini yazın.
-    1. İsteğe bağlı **Gönderen adı** alanına bu e-posta şablonu için gönderen olarak kullanılacak bir ad yazın.
-1. **Kaydet**'e tıklayın.
-### <a name="customizing-email-templates-optional"></a>E-posta şablonlarını özelleştirme (isteğe bağlı)
-E-posta şablonlarını farklı görüntüler kullanmak üzere özelleştirmek veya önizleme ortamınıza geri bağlantı sağlamak için şablondaki bağlantıları güncelleştirmek isteyebilirsiniz. Aşağıdaki adımlar varsayılan şablonların nasıl karşıdan yükleneceğini açıklar, bunları özelleştirin ve sistemdeki şablonları güncelleştirir.
-1. Tarayıcı kullanarak, aşağıdaki HTML belgelerini yerel bilgisayarınıza içeren [Microsoft Dynamics 365 Commerce Preview varsayılan e-posta şablonları. zip dosyasını](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) karşıdan yükleyin.
-    1. Sipariş onayı şablonu
-    1. Hediye kartı şablonu
-    1. Yeni sipariş şablonu
-    1. Paket sipariş şablonu
-    1. Sipariş şablonu al
-1. Metin veya HTML Düzenleyicisi kullanarak şablonları özelleştirin. Lütfen aşağıdaki desteklenen belirteçlerin listesine bakın.
-1. Ortama oturum açın (HQ).
-1. Soldaki menüyü kullanarak, **Modüller > Perakende > Genel merkez ayarı > Parametreler > Kuruluş e-posta şablonları** gidin.
-1. Tüm şablonları görmek için soldaki listeyi genişletin.
-1. Özelleştirmek istediğiniz şablonların her biri için aşağıdaki adımları uygulayın:
-    1. Listeden şablonunu seçin.
-    1. **E -posta iletisi içeriği** altında, listeden uygun dil sürümünü seçin (varsayılan **en-US**).
-    1. **E-posta iletisi içeriği** altında **Düzenle**'i tıklatın, sonra **e-posta şablonu yükle** bölmesini açma konusuna bakın.
-    1. **Gözat**'ı tıklatın ve özelleştirilmiş içeriğe sahip HTML dosyasını bulun.
-    1. **Yükle**'yi tıklatın, şablonunuz sisteme yüklenir ve bir önizleme gösterilir.
-    1. **Tamam**'a tıklayın.
-    1. İsteğe bağlı Şablonun **konu** özelliğini özelleştirin.
-    1. **Kaydet**'e tıklayın.
+> [!IMPORTANT]
+> Oturum açan kişinin Azure AD kiracı kimliğine sahip bir Azure AD kiracı yöneticisi olması gerekir. Bu adım başarılı bir şekilde tamamlanmazsa, kalan sağlama adımları başarısız olur.
 
-#### <a name="supported-tokens-in-the-email-template"></a>E-posta şablonunda desteklenen belirteçler
-Bu belirteçler, müşteriye uygulanan gerçek değerlerle e-posta işleme zamanında değiştirilecek.
+E-ticaret uygulamalarına Azure aboneliğinize erişim yetkisi vermek için aşağıdaki adımları izleyin.
 
-**Satış siparişi** - Aşağıdaki belirteçler genel satış siparişi için geçerlidir.
+1. URL'yi aşağıdaki biçimde birleştirin:
 
-|Belirtecin adı|Belirteç|
-|---|---|
-|Sipariş numarası|%salesid%|
-|Müşteri adı|%customername%|
-|Teslimat adresi|%deliveryaddress%|
-|Fatura adresi|%customeraddress%|
-|Sipariş tarihi|%shipdate%|
-|Teslimat şekli|%modeofdelivery%|
-|İskonto|%discount%|
-|Satış vergisi|%tax%|
-|Sipariş toplamı|%total%|
+    `https://login.windows.net/{AAD_TENANT_ID}/oauth2/authorize?client_id=fbcbf727-cd18-4422-a723-f8274075331a&response_type=code&redirect_uri=https://sb.manage.commerce.dynamics.com/_commerce/Consent&response_mode=query&prompt=admin_consent&state=12345`
 
-**Satış satırı** - aşağıdaki belirteçler siparişteki her ürün için doldurulur.
+1. URL'yi kopyalayıp tarayıcınıza veya metin düzenleyicisine yapıştırın ve **\{AAD\_KİRACI\_KİMLİĞİ\}** Azure AD kiracı kimliğiniz ile değiştirin. URL'yi açın.
+1. Azure AD oturum aç iletişim kutusunda oturum açın ve aboneliğinize **Dynamics 365 Commerce** erişimi vermek istediğinizi doğrulayın. İşlemin başarılı olduğunu gösteren bir sayfaya gönderilecektir.
 
-*Not: **ürün listesi - başlangıç** ve **ürün listesi - bitiş** belirteçlerini, her ürün için yinelenen HTML bloğunun başına ve sonuna yerleştirin.*
+### <a name="confirm-that-preview-features-are-available-and-turned-on-in-lcs"></a>Önizleme özelliklerinin kullanılabilir ve LCS'de açık olduğunu onaylayın
 
-|Belirtecin adı|Belirteç|
-|---|---|
-|Ürün listesi - başlangıç|\<!--%tablebegin.salesline% -->|
-|Ürün listesi - bitiş|\<!--%tableend.salesline%-->|
-|Ürün adı|%lineproductname%|
-|Tanım|%lineproductdescription%|
-|Miktar|%linequantity%|
-|Satır birim fiyatı|%lineprice% (doğrula)|
-|satır maddesi toplamı|%linenetamount%|
-|satır iskontosu|%linediscount%|
-|Sevk tarihi|%lineshipdate%|
-|Tedarik yöntemi|%linedeliverymode%|
-|teslimat adresi|%linedeliveryaddress%|
-|Satırın satış birimi|%lineunit%|
+Önizleme özelliklerinin kullanılabilir ve LCS'de açık olduğunu onaylamak için bu adımları izleyin.
 
+1. Bu önizlemeye erişim istemek için kullandığınız LCS hesabını kullanarak [LCS portalında](https://lcs.dynamics.com) oturum açın.
+1. LCS ana sayfasında, tüm yolu sağa kaydırın ve **önizleme özelliği yönetim** kutucuğunu tıklatın.
+
+    ![Önizleme yönetimi kutucuğu](./media/preview1.png)
+
+1. **ÖZEL ÖNİZLEME ÖZELLİKLERİ**'ne gidin ve aşağıdaki özelliklerin kullanılabilir ve açık olduğundan emin olun:
+
+    - e-Ticaret değerlendirmesi
+    - Ticaret Önizleme Programı Ortamları
+
+    ![Özel önizleme özellikleri](./media/preview2.png)
+
+1. Listede bu özellikler görüntülenmiyorsa, Microsoft'a başvurun ve iş e-posta adresiniz, LCS hesabı ve kiracı ayrıntılarını sağlayın. Başvuru bilgileri için [Commerce önizleme ortam desteği](#commerce-preview-environment-support) başlıklı bölüme bakın.
+
+### <a name="create-a-new-project"></a>Yeni proje oluştur
+
+LCS'de bir yeni proje oluşturmak için şu adımları izleyin.
+
+1. LCS giriş sayfasında, bir proje oluşturmak için artı işaretini (**+**) seçin.
+1. Sağ bölmede aşağıdaki adımlardan birini izleyin:
+
+    - Bir ortaksanız **taşı, çözüm oluştur ve öğren**'yi seçin.
+    - Müşterisiyseniz, **olası ön satışlar**'ı seçin.
+
+1. Şablon adı, açıklama ve sektör girin.
+1. **Ürün adı** alanından **Dynamics 365 Retail** seçin.
+1. **Ürün sürümü** alanından **Dynamics 365 Retail** seçin.
+1. **Metodoloji** alanında **Dynamics Retail uygulama metodoloji**'ı seçin.
+1. İsteğe bağlı: Roller ve kullanıcılar mevcut projeden içeri aktarabilirsiniz.
+1. **Oluştur**'u seçin. Proje görünümü gösterilir.
+
+### <a name="add-the-azure-connector"></a>Azure bağlayıcısı ekle
+
+Bir Azure Connector'ı LCS projenize eklemek için aşağıdaki adımları izleyin.
+
+1. Şu adımlardan birini izleyin:
+
+    - Ortak iseniz, en sağdaki **proje ayarları** kutucuğunu seçin.
+    - Müşterisiyseniz, üst menüden **proje ayarları**'nı seçin.
+
+1. **Azure bağlayıcısı** seçin.
+1. Bir Azure bağlayıcısı eklemek için, **Ekle**'ye tıklayın.
+1. Bir ad girin.
+1. Azure abonelik kimliğinizi girin.
+1. **Azure Resource Manager (ARM) kullanmak için yapılandırın** seçeneğini açın.
+1. **Azure aboneliği AAD kiracı etki alanının (veya kimlik)** değerinin doğru olduğundan emin olun. Gerekiyorsa, Azure abonelik yöneticinize başvurun.
+1. **Sonraki**'yi seçin.
+1. Gerekli uygulamaların aboneliğinize erişim izni vermek için sayfadaki yönergeleri izleyin. Gerekiyorsa, Azure abonelik yöneticinize başvurun.
+
+    1. [Azure portalında](https://portal.azure.com/) adresinden oturum açın.
+    1. Doğru dizinin seçildiğinden emin olun ve soldaki menüde **Abonelikler**'i seçin.
+    1. Listeden doğru aboneliği bulun ve seçin. Gerektiğinde arama işlevini kullanın.
+    1. Menüde, **erişim denetimi (IAM)** seçeneğini belirleyin.
+    1. Sağ tarafta **rol ataması eklemek** için **Ekle**'yi tıklatın. **Role atama ekle** bölmesi görünür.
+    1. **Rol** alanında **Katkı sağlayan**'i seçin.
+    1. **Erişimi ata** alanında, varsayılan değeri, **Azure AD kullanıcıyı, grubu veya servis sorumlusunu** bırakın.
+    1. **Seç** altında, **b96b7e94-b82e-4e71-99a0-cf7fb188acea** girin.
+    1. Listeden **Dynamics dağıtım hizmetlerini \[wsfed-etkin\]** seçin.
+    1. **Kaydet**'i seçin.
+
+1. **Sonraki**'yi seçin.
+1. Gerekli uygulamaların aboneliğinize erişim izni vermek için sayfadaki yönergeleri izleyin. Gerekiyorsa, Azure abonelik yöneticinize başvurun.
+1. **Sonraki**'yi seçin.
+1. **Azure bölgesi** alanında, **Doğu ABD**, **Doğu ABD 2**, **Batı ABD** veya **Batı ABD 2** seçeneklerinden birini belirleyin.
+1. **Bağlan**'ı seçin. Azure Bağlayıcınız listede görünmelidir.
+
+### <a name="import-the-commerce-preview-demo-base-extension"></a>Commerce önizleme demo temel uzantısını içe aktar
+
+Commerce Önizleme demo temel uzantısını projenize içe aktarmak için aşağıdaki adımları izleyin.
+
+1. En üstte proje adını seçerek projenizin giriş sayfasını açın.
+1. Şu adımlardan birini izleyin:
+
+    - Ortak iseniz, en sağdaki **Varlık kitaplığı** kutucuğunu seçin.
+    - Müşterisiyseniz, üst menüden **Varlık kitaplığı**'nı seçin.
+
+1. Soldaki listeden **yazılımla dağıtılabilir paket**'i seçin.
+1. **İçe aktar**'ı seçin.
+1. **Paylaşılan varlık kitaplığı**'nın altındaki kıymetler listesinden **Commerce önizleme demo temel uzantıyı** seçin.
+1. **Çek**'i seçin. Varlık kitaplığına iade edilecek ve listede uzantıyı görmelisiniz.
+
+Aşağıdaki şekilde, LCS **varlık Kitaplığı** sayfasında yapılması gereken eylemler gösterilmektedir.
+
+![Commerce önizleme demo temel uzantısını içe aktarma](./media/import.png)
+
+### <a name="deploy-the-environment"></a>Ortamı dağıtın
+
+Ortamı dağıtmak için şu adımları izleyin.
+
+> [!NOTE]
+> Tek bir seçeneği olan sayfalar atlandığından 6., 7. ve/veya 8. adımı tamamlamanız gerekmez. **Ortam parametreleri** görünümünde olduğunuzda, **Dynamics 365 Commerce**'in **ortam adı** alanının metin (Önizleme)-demo (30 platform güncelleştirmesi 10.0.6) ile doğrudan göründüğünü onaylayın. 8. adımdan sonra görünen çizime bakın.
+
+1. Üst menüden **bulut ile barındırılan ortamları** seçin.
+1. Ortam eklemek için **Ekle**'yi tıklatın.
+1. **Uygulama sürümü** alanından **10.0.6** seçin.
+1. **Platform sürümü** alanında **Platform Update 30**'i seçin.
+
+    ![Uygulamayı ve platform sürümünü seçme](./media/project1.png)
+
+1. **Sonraki**'yi seçin.
+1. Ortam topolojisi olarak **Demo**'yu seçinç
+
+    ![Ortam topolojisini 1 seçme](./media/project2.png)
+
+1. Ortam topolojisi olarak **Dynamics 365 Commerce (Önizleme) - Demo**'yu seçin. Daha önce tek bir Azure Bağlayıcısı yapılandırdıysanız bu ortam için kullanılacak. Birden fazla Azure Bağlayıcısı konfigüre ediyorsanız, hangi bağlayıcının kullanılacağını seçebilirsiniz: **Doğu ABD**, **Doğu ABD 2**, **Batı ABD** veya **Batı ABD 2**. (En iyi uçtan uca performans için, **Batı ABD 2**'yi seçmeniz önerilir.)
+
+    ![Ortam topolojisini 2 seçme](./media/project3.png)
+
+1. **Ortam dağıt** sayfasında bir ortam adı girin. Gelişmiş ayarları olduğu gibi bırakın.
+
+    ![Ortamı dağıtın sayfası](./media/project4.png)
+
+1. VM boyutunu gerektiği gibi ayarlayın. (VM stok tutma birimi \[SKU\] **D13 v2**.)
+1. Fiyat ve lisans koşullarını gözden geçirin ve kabul ettiğiniz onay kutusunu işaretleyin.
+1. **Sonraki**'yi seçin.
+1. Dağıtım onayı sayfasında, ayrıntıların doğru olduğunu doğruladıktan sonra **Dağıt**'ı seçin. **Bulut içinde barındırılan ortamlar** görünümüne geri dönersiniz ve ortamınız listede görünmelidir.
+
+    İstediğiniz ortam kuyruğa alındı ve sonra dağıtılıyor. Ortam iş akışlarının tamamlanması biraz zaman alır. Bu nedenle, yaklaşık altı ile dokuz saatten sonra yeniden kontrol edin.
+
+1. Devam etmeden önce, ortam durumlarınızın **dağıtıldığından** emin olun.
+
+### <a name="initialize-rcsu"></a>RCSU başlatma
+
+Bir RCSU başlatmak için şu adımları izleyin.
+
+1. **Bulut barındırılan ortamlar** görünümünde, listeden ortamınızı seçin.
+1. Sağdaki ortam görünümünde **tam ayrıntılar** 'ı tıklatın. Ortam ayrıntıları görünümü görüntülenir.
+1. **Ortam özellikleri** altında, **Yönet**'i tıklatın.
+1. **Perakende** sekmesinde, **Başlat**'ı seçin. RCSU başlatma parametreleri görünümü görüntülenir.
+1. **Bölge** alanında, **Doğu ABD**, **Doğu ABD 2**, **Batı ABD** veya **Batı ABD 2** seçeneklerinden birini belirleyin.
+1. **Sürüm** alanında, listeden bir **sürüm belirtin** ve sonra görüntülenen alanda **9.16.19262.5** belirtin. Burada belirtilen sürümü tam olarak belirttiğinizden emin olun. Aksi durumda, RCSU öğesini daha sonra doğru sürüme güncelleştirmeniz gerekir.
+1. **Uzantıyı Uygula** seçeneğini açın.
+1. Uzantılar listesinden, **Commerce Önizleme demo temel uzantısını** seçin.
+1. **Başlat**'ı seçin.
+1. Dağıtım onayı sayfasında, ayrıntıların doğru olduğunu doğruladıktan sonra **Evet**'i seçin. **Perakende** sekmesi etkinleştirildiğinde, **Perakende Yönetim** görünümüne iade edilir. RCSU kaynak ayırma işlemi için sıraya alındı.
+1. Devam etmeden önce, RCSU durumlarınız **Başarılı** olur. Başlatma yaklaşık iki ile beş saat arasında sürer.
+
+### <a name="initialize-e-commerce"></a>e-Ticaret başlat
+
+Bir e-Ticaret başlatmak için şu adımları izleyin.
+
+1. **E-ticaret (Önizleme)** sekmesinde, önizleme onayını gözden geçirip **kurulum**'u seçin.
+1. **E-ticaret kiracı adı** için bir ad girin. Ancak, e-ticaret örneğinizi gösteren bazı URL'lerde bu dosyanın görülebileceğini unutmayın.
+1. **Retail Cloud Scale Unit adı** alanında, listesindeki RCSU alanını seçin. (Listede yalnızca bir seçenek bulunmalıdır.)
+
+    **E-ticaret coğrafyası** alanı otomatik olarak ayarlanır ve değer değiştirilemez.
+
+1. Devam etmek için **İleri**'yi seçin.
+1. **Desteklenen ana bilgisayar adları** alanında, `www.fabrikam.com` gibi geçerli herhangi bir etki alanını girin.
+1.  **Sistem Yöneticisi için AAD güvenlik grubunda** alanına, kullanmak istediğiniz güvenlik grubunun adının ilk birkaç harfini girin. Arama sonuçlarını görüntülemek için büyüteç simgesini seçin. Listeden bir güvenlik grubunu seçin.
+2.  **Derecelendirme ve inceleme moderatörü için AAD güvenlik grubunda** alanına, kullanmak istediğiniz güvenlik grubunun adının ilk birkaç harfini girin. Arama sonuçlarını görüntülemek için büyüteç simgesini seçin. Listeden bir güvenlik grubunu seçin.
+1. **Derecelendirmeleri etkinleştir ve gözden geçirme hizmeti** seçeneğini açık olarak bırakın.
+1. "E-ticaret uygulamalarına erişim izni verme" bölümünde açıklandığı gibi Microsoft Azure Active Directory (Azure AD) onay adımını önceden tamamladıysanız, onayınızı onaylamak için onay kutusunu seçin. Bu adımı henüz tamamlamadınız, başlatma işlemine devam etmeden önce bunu yapmanız gerekir. Kabul iletişim kutusunu açmak ve adımı tamamlamak için onay kutusunun yanındaki metinde bulunan bağlantıyı seçin.
+1. **Başlat**'ı seçin. **e-Ticaret (önizleme) sekmesi** seçildiğinde, **Perakende Yönetim** görünümüne iade edilir. E-ticaret başlatma işlemi başlatıldı.
+1. Devam etmeden önce, e-ticaret başlatma durumunuz **başlatma başarılı** olana kadar bekleyin.
+1. Alt sağdaki **bağlantılar** altında, aşağıdaki bağlantıların URL 'lerini not alın:
+
+    * **e-ticaret sitesi** – E-ticaret sitenizin köküne olan bağlantı.
+    * **e-ticaret site yönetimi aracı** – site yönetimi aracına bağlantı.
+
+## <a name="commerce-preview-environment-support"></a>Commerce önizleme ortamı desteği
+
+Sağlama adımlarını gerçekleştirirken sorunlarla karşılaşırsanız, yardım için lütfen [Microsoft Dynamics 365 Commerce Önizleme Yammer grubunu](https://aka.ms/Dynamics365CommercePreviewYammer) ziyaret edin.
+
+Yammer Gruba erişmeye çalıştığınızda sorunlarla karşılaşırsanız, Microsoft'a e-posta ile başvurabilirsiniz:  <Dynamics365Commerce@microsoft.com>. Bu e-posta adresi etkin şekilde izlenmiyor. Bu nedenle, yanıtta bir gecikme olmasını bekler.
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+Commerce önizleme ortamını hazırlam ve yapılandırma işlemine devam etmek için bkz. [Commerce önizleme ortamı yapılandırma](cpe-post-provisioning.md).
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+[Ticaret önizleme ortamına genel bakış](cpe-overview.md)
+
+[Ticaret önizleme ortamı yapılandırma](cpe-post-provisioning.md)
+
+[Bir Commerce Preview ortamı için isteğe bağlı özellikleri konfigüre edin](cpe-optional-features.md)
+
+[Ticaret önizleme ortamı SSS](cpe-faq.md)
+
+[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+
+[Microsoft Azure portalı](https://azure.microsoft.com/features/azure-portal)
+
+[Dynamics 365 Commerce web sitesi](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Dynamics 365 Retail için yardım kaynakları](../retail/index.md)

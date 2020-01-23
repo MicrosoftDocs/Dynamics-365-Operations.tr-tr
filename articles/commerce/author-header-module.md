@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d393701dacb88ab03a4b56724d93c794da6bb5c8
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: cc98419077f6f563ea2265d4e68ba809971cfbd6
+ms.sourcegitcommit: ff93b8f6a11993f2cd00be2da7aa77ef0d950ab8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697287"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2885490"
 ---
 # <a name="header-module"></a>Üst bilgi modülü
 
-[!include [banner](includes/preview-banner.md)] [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu üstbilgi modüllerini ve bunların nasıl Microsoft Dynamics 365 Commerce'te oluşturacağını açıklamaktadır ve kapsamaktadır.
 

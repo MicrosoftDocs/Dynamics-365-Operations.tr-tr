@@ -1,6 +1,6 @@
 ---
 title: Satıcı tasarımları arasında geçiş yapma
-description: ''
+description: Bu konu Finance and Operations uygulamaları ile Common Data Service arasında satıcı verisi tümleştirmesi arasında geçiş yapmayı açıklar.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 4e97ff0b0e6195b5e3703e15a0bb0de7644ef8d1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 204d788e72e79e7acf744d24cbeacb0f9b47da7d
+ms.sourcegitcommit: 3306e451f04df01c51d8d332306b135d8ae1e254
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772376"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902737"
 ---
 # <a name="switch-between-vendor-designs"></a>Satıcı tasarımları arasında geçiş yapma
 
@@ -34,11 +34,11 @@ ms.locfileid: "2772376"
 
 Satıcı yönetimi için diğer Dynamics 365 uygulamalarını kullanmak ve satıcı bilgilerini müşterilerden ayırmak istiyorsanız bu temel satıcı tasarımını kullanın.  
 
-![Temel satıcı akışı](media/dual-write-switch-1.png)
+![Temel satıcı akışı](media/dual-write-vendor-data-flow.png)
  
 Satıcı yönetimi için diğer Dynamics 365 uygulamalarını kullanmak ve satıcı bilgilerini depolamak için **Hesap** varlığını kullanmaya devam etmek istiyorsanız bu genişletilmiş satıcı tasarımını kullanın. Bu tasarımda, satıcı beklemede durumu ve satıcı profili gibi genişletilmiş satıcı bilgileri Common Data Service'te **satıcılar** varlığında depolanır. 
 
-![Genişletilmiş satıcı akışı](media/dual-write-switch-2.png)
+![Genişletilmiş satıcı akışı](media/dual-write-vendor-detail.jpg)
  
 Genişletilmiş satıcı tasarımını kullanmak için aşağıdaki adımları izleyin: 
  
@@ -60,5 +60,5 @@ Genişletilmiş satıcı tasarımını kullanmak için aşağıdaki adımları i
     4. İş akışlarını gereksinimlerinize göre gerçek zamanlı veya arka plan iş akışları olarak yapılandırabilirsiniz. 
         > [!div class="mx-imgBorder"]
         > ![Arka plan iş akışına dönüştürme](media/dual-write-switch-8.png)
-    5. Satıcı bilgilerini depolamak için Customer Engagement **Hesap** varlığını kullanmaya başlamak için **Hesap** ve **Satıcı** varlıklarında oluşturduğunuz iş akışlarını etkinleştirin. 
+    5. Satıcı bilgilerini depolamak için **Hesap** varlığını kullanmaya başlamak için **Hesap** ve **Satıcı** varlıklarında oluşturduğunuz iş akışlarını etkinleştirin. 
  

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1640cb5ee0ec2fe3e8b987493cf2d2565cdb0f9d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 243fadd242c51440eae1ac7026c71a889a9fa81c
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183026"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897270"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent"></a>Dynamics 365 Talent içindeki Yenilikler veya değişiklikler 
-
-[!include [banner](includes/banner.md)]
 
 Bu sayfa Microsoft Dynamics Talent HR Core'un en son sürümleri hakkında nasıl bilgi bulunacağıyla ilgili ayrıntılı bilgi sağlar.
 

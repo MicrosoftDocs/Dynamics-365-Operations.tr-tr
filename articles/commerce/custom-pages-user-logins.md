@@ -3,7 +3,7 @@ title: Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta Azure Active Directory (Azure AD) işletme-müşteri (B2C) kiracılar kullanıcıları için özelleştirilmiş kaydolmayı işleyen özel sayfaların nasıl oluşturulacağı açıklanmaktadır.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 644d937ddd3c219ae869f22d977d2846dffc20e1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 20bfacbc2374003814e12e7737644d118d404cc0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697578"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945571"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
 
@@ -136,11 +136,11 @@ Azure portalında **Azure AD B2C** sayfasına dönün ve sonra menüde **ilkeler
 1. Daha önce konfigüre ettiğiniz **oturum açma ve kaydolma** ilkesinde, gezinti bölmesinde **sayfa düzenleri**'ni seçin.
 1. **Birleşik kayıt veya oturum açma sayfa** düzenini seçin.
 1. **Özel sayfa içeriğini kullan** seçeneğini **Evet** olarak ayarlayın.
-1. **Özel sayfa URI** alanına tam oturum açma URL 'si girin. **?preloadscripts=true** sonekini ekleyin. Örneğin, **www.\<etki alanım\>.com/sign-in?preloadscripts=true** girin.
+1. **Özel sayfa URI** alanına tam oturum açma URL 'si girin. **?preloadscripts=true** sonekini ekleyin. Örneğin ``www.<my domain>.com/sign-in?preloadscripts=true`` yazın.
 1. **Sayfa düzeni sürümü (Önizleme)** alanında, **1.2.0** seçin.
 1. **Yerel hesap kayıt sayfası** düzenini seçin.
 1. **Özel sayfa içeriğini kullan** seçeneğini **Evet** olarak ayarlayın.
-1. **Özel sayfa URI** alanına tam oturum açma URL 'si girin. **?preloadscripts=true** sonekini ekleyin. Örneğin, **www.\<etki alanım\>.com/sign-in?preloadscripts=true** girin.
+1. **Özel sayfa URI** alanına tam oturum açma URL 'si girin. **?preloadscripts=true** sonekini ekleyin. Örneğin ``www.<my domain>.com/sign-up?preloadscripts=true`` yazın.
 1. **Sayfa düzeni sürümü (Önizleme)** alanında, **1.2.0** seçin.
 1. **Kullanıcı öznitelikleri** bölümünde, şu adımları izleyin:
 
@@ -156,7 +156,7 @@ Azure portalında **Azure AD B2C** sayfasına dönün ve sonra menüde **ilkeler
 1. Daha önce konfigüre ettiğiniz **Profil düzenleme** ilkesinde, gezinti bölmesinde **sayfa düzenleri**'ni seçin.
 1. **Profil düzenleme sayfa** düzenini seçin.
 1. **Özel sayfa içeriğini kullan** seçeneğini **Evet** olarak ayarlayın.
-1. **Özel sayfa URI** alanına tam oturum açma URL 'si girin. **?preloadscripts=true** sonekini ekleyin. Örneğin, **www.\<etki alanım\>.com/sign-in?preloadscripts=true** girin.
+1. **Özel sayfa URI** alanına tam profil düzenleme URL'si girin. **?preloadscripts=true** sonekini ekleyin. Örneğin ``www.<my domain>.com/profile-edit?preloadscripts=true`` yazın.
 1. **Sayfa düzeni sürümü (Önizleme)** alanında, **1.2.0** seçin.
 1. **Kullanıcı öznitelikleri** bölümünde, şu adımları izleyin:
 
@@ -170,12 +170,14 @@ Azure portalında **Azure AD B2C** sayfasına dönün ve sonra menüde **ilkeler
 1. Daha önce konfigüre ettiğiniz **Parola sıfırlama** ilkesinde, gezinti bölmesinde **sayfa düzenleri**'ni seçin.
 1. **Yeni parola sayfası** düzenini seçin.
 1. **Özel sayfa içeriğini kullan** seçeneğini **Evet** olarak ayarlayın.
-1. **Özel sayfa URI** alanına tam oturum açma URL 'si girin. **?preloadscripts=true** sonekini ekleyin. Örneğin, **www.\<etki alanım\>.com/sign-in?preloadscripts=true** girin.
+1. **Özel sayfa URI** alanına tam parola sıfırlama URL'si girin. **?preloadscripts=true** sonekini ekleyin. Örneğin ``www.<my domain>.com/passwordreset?preloadscripts=true`` yazın.
 1. **Sayfa düzeni sürümü (Önizleme)** alanında, **1.2.0** seçin.
 1. **Hesap doğrulama sayfası** düzenini seçin.
 1. **Özel sayfa içeriğini kullan** seçeneğini **Evet** olarak ayarlayın.
-1. **Özel sayfa URI** alanına tam oturum açma URL 'si girin. **?preloadscripts=true** sonekini ekleyin. Örneğin, **www.\<etki alanım\>.com/sign-in?preloadscripts=true** girin.
+1. **Özel sayfa URI** alanına tam parola sıfırlama doğrulama URL'si girin. **?preloadscripts=true** sonekini ekleyin. Örneğin ``www.<my domain>.com/passwordreset-verification?preloadscripts=true`` yazın.
 1. **Sayfa düzeni sürümü (Önizleme)** alanında, **1.2.0** seçin.
+
+
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Etiketler ve açıklamalar için varsayılan metin dizelerini Özelleştir
 
@@ -193,15 +195,15 @@ Global.json dosyasını güncelleştirip değişikliklerinizi yayımladıktan so
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Çevrimiçi mağazaya genel bakış](online-store-overview.md)
-
-[e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
+[Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
 [Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
 
+[e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
+
 [Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
 
-[Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
+[Robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
 
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 

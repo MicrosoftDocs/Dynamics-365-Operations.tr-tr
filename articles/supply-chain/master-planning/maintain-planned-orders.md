@@ -3,7 +3,7 @@ title: Planlı siparişleri koruma
 description: Bu konuda planlı siparişleri yönetme yöntemleri hakkında bilgiler yer alır. Planlı siparişlerin durumunun nasıl güncelleştirileceğini, kesinleştirileceğini ve seçilen planlı sipariş ile aynı duruma sahip planlı siparişlerin nasıl filtreleneceğini açıklar.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/07/2019
+ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: ec67caf596b0efc256c957eca17a04509fe86855
+ms.sourcegitcommit: 274ff2bb6872ff714781b348b29fd9f1affff9d0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813788"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "2904048"
 ---
 # <a name="maintain-planned-orders"></a>Planlı siparişleri koruma
 
@@ -39,7 +39,7 @@ Planlı siparişleri **Master planlama** çalışma alanından, **Planlı sipari
 
 -   Master planlama planlı siparişler ürettiğinde, planlı siparişler **İşlem görmedi** durumunda olur.
 -   Planlı bir siparişi kesinleştirmemeye karar vermeniz halinde, durumunu **Tamamlandı** olarak ayarlayabilirsiniz.
--   Planlı bir siparişi kesinleştirmek isterseniz sipariş durumunu **Onaylandı** olarak değiştirebilirsiniz. Sonraki bir master planlama çalışması sırasında değiştirilmemeleri veya silinmemeleri için **Onaylandı** durumundaki planlı siparişlere master planlama tarafından riayet edilir. 
+-   Planlı bir siparişi kesinleştirmek isterseniz sipariş durumunu **Onaylandı** olarak değiştirebilirsiniz. Sonraki bir master planlama çalışması sırasında değiştirilmemeleri veya silinmemeleri için **Onaylandı** durumundaki planlı siparişlere master planlama tarafından riayet edilir. Bunu başarmak için, planlama mantığı, Master planlama sırasında eski plan versiyonundaki **onaylanan** planlı siparişleri yeni plan sürümüne kopyalar.
 
 ## <a name="firming-planned-orders"></a>Planlı siparişleri kesinleştirme 
 Planlı siparişler kesinleştirilerek gerçek siparişler oluşturulur. Bunlar *serbest bırakılmış* veya *açık siparişler* olarak da bilinirler. Planlı bir sipariş kesinleştirildiğinde, ilgili modülün siparişler bölümüne taşınır.
@@ -58,6 +58,8 @@ Birçok siparişi aynı anda kesinleştirmek istiyorsanız çalışmayı koşut 
 -   **Kesinleştirmeyi koşut hale getir** – **Evet** seçilirse kesinleştirme işlemi, **Dizi sayısı**'nda tanımlanan dizilerin sayısıyla koşut hale getirilir.
 -   **Dizi sayısı** – Kesinleştirme işlemini koşut hale getirmek için kullanılan dizi sayısını denetler. Parametre, yalnızca **Kesinleştirmeyi koşut hale getir** seçeneği **Evet** olarak ayarlandığında gösterilir.
 
+> [!NOTE]
+> **Parallelize Kesinleştirme** seçeneği yalnızca Kesinleştirmede birden fazla planlı sipariş seçildiğinde görüntülenir.
 
 <a name="additional-resources"></a>Ek kaynaklar
 --------

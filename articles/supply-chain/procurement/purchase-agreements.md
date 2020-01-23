@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
+ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813374"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902444"
 ---
 # <a name="purchase-agreements"></a>Satınalma sözleşmeleri
 
@@ -36,7 +36,14 @@ Satınalma sözleşmesi bir belirli bir miktardaki ürüne, belirli bir para bir
 
 **Satınalma sözleşmeleri** sayfası üzerinde kuruluşunuz ve satıcılarınız arasında satınalma sözleşmeleri oluşturabilir, uygulayabilir veya takibini yapabilirsiniz. Örneğin, bir satınalma sözleşmesi oluşturduktan sonra doğrudan bunu kullanarak sipariş verebilirsiniz. Her satınalma sözleşmesinin, bu satınalma sözleşmesini oluşturan kişi tarafından belirlenen bir geçerlilik süresi vardır. Satınalma sözleşmesinin teslimat tarihi, geçerlilik dönemine dahil etkili tarihlerde olmalıdır.  
 
-Bir satın alma sözleşmesi oluşturduktan sonra etkili hale gelmeden önce etkinleştirmeniz gerekir. Bir satın alma sözleşmesini etkinleştirmek için set **Sözleşmeyi etkin olarak işaretle** seçeneğinde **Evet**'i seçin.
+Bir satın alma sözleşmesi oluşturduktan sonra etkili hale gelmeden önce etkinleştirmeniz gerekir. Bir satın alma sözleşmesini etkinleştirmek için set **Sözleşmeyi etkin olarak işaretle** seçeneğinde **Evet**'i seçin. 
+
+Satın alma sözleşmenizin kullanılmasını ve onaylanmasını önlemek için, anlaşma durumunu **kapalı** olarak işaretleyin. Bu değişikliği yaptıktan sonra, durumu istediğiniz zaman **geçerli** olacak şekilde güncelleştirebilirsiniz.
+
+## <a name="responsible-workers-on-purchase-agreements"></a>Satınalma anlaşmalarında sorumlu çalışanlar
+
+Satınalma Sözleşmesi sınıflandırmasındaki birincil sorumlu çalışanını ve ikincil sorumlu çalışanını tanımlayabilirsiniz. Bu değerler, sonuçta elde edilen satın alma sözleşmesi tarafından devralınır. Sorumlu çalışanları satınalma anlaşmasına eklemeniz gerekmez ve satınalma sözleşmesinin kendisi için bir servis talebi bazında doğrudan değiştirilebilir. Birincil sorumlu çalışanı olmadan, ikincil sorumlu çalışanına sahip olmanız gerekmese de, bir sorumlu çalışanını belirtemezsiniz. Hem birincil, hem de ikincil sorumlu çalışanından aynı çalışanı belirtemezsiniz. 
+
 
 ## <a name="commitment-types"></a>Taahhüt türleri
 Satınalma sözleşmesindeki her satır bir şeyi satın almak için bir taahhüttür. Birden fazla satınalma siparişinden satırları taahhüdü yerine getirmek için kullanabilirsiniz. Dört tür taahhüt mevcuttur:

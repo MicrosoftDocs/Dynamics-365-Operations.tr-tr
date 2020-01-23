@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fd87a51b73deae64867b0420c00db9fce7c79336
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697141"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945847"
 ---
 # <a name="create-an-e-commerce-site"></a>e-Ticaret sitesi oluşturma
 
@@ -59,20 +59,16 @@ Siteniz oluşturulduktan sonra, **ürünler** sekmesini seçerek çevrimiçi dep
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Çevrimiçi mağazaya genel bakış](online-store-overview.md)
+[Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
 [Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
 
 [Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
 
-[Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
+[Robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
+
+[Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md)
 
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
-
-[Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md)
-
-[Yazma giriş sayfasına genel bakış](authoring-home-overview.md)
-
-[Yeni site sayfası ekleme](add-new-page.md)

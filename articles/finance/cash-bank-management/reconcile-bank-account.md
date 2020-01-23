@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e1281171a656a73a35d4990fd8a34b35c1c6db8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188292"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888667"
 ---
 # <a name="reconcile-a-bank-account"></a>Banka hesabı için mutabakat sağlama
 
@@ -64,7 +64,7 @@ Ekstrede listelenen herhangi bir çek veya havale makbuzu ödemesi **Bekleyen ip
 
 8.  Henüz mutabakatlı olmayan banka hareketlerini görüntülemek için **Mutabakat sağlanmamış banka hareketleri** raporunu kullanın. Banka hesabının banka ekstresini görüntülemek için **Banka ekstresi** raporunu kullanın.
 
-# <a name="cancel-bank-statement-reconciliation"></a>Banka ekstresi mutabakatını iptal et 
+## <a name="cancel-bank-statement-reconciliation"></a>Banka ekstresi mutabakatını iptal et 
 
 Banka ekstresi mutabakat işlevselliğini iptal etmek, banka ekstresi mutabakatını iptal etmenizi sağlar. Bu özelliği kullanmak için,**Özellik Yönetimi** çalışma alanında **Banka ekstresi mutabakatı iptali** özelliğini etkinleştirin. Ayrıca **Banka ekstresi düzenlemeye izin ver** parametresini etkinleştirmeniz gerekir. Bunu yapmak için **Nakit ve Banka yönetimi > Kurulum > Nakit ve Banka yönetim parametreleri > Banka mutabakatı**'na gidin.
  

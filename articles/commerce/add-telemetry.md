@@ -3,7 +3,7 @@ title: Telemetriyi desteklemek için site sayfalarına komut dosyası kodu eklem
 description: Bu konuda, istemci tarafı telemetri topluluğunu desteklemek üzere site sayfalarınıza istemci tarafında komut dosyası kodu ekleme yöntemi açıklanmıştır.
 author: bicyclingfool
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a5f82426d87cd2e0faa0195a841899bb03f9df08
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 79d0e11946f3c6f4704d3a726d33de0378eb53bd
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697348"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914551"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme
 
@@ -63,6 +63,8 @@ Kodunuz için bir parça oluşturduktan sonra, sitenizdeki tüm sayfalar arasın
 [Logo ekleme](add-logo.md)
 
 [Site teması seçme](select-site-theme.md)
+
+[CSS geçersiz kılma dosyalarıyla çalışma](css-override-files.md)
 
 [Favicon ekleme](add-favicon.md)
 

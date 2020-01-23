@@ -3,7 +3,7 @@ title: Talep tahminine genel bakış
 description: Talep tahmini, satış siparişlerinden bağımsız talebi ve müşteri siparişlerine ilişkin herhangi bir dekuplaj noktasındaki bağımlı talebi tahmin etmede kullanılır. Geliştirilmiş talep tahmin azaltma kuralları, kitlesel özelleştirme için ideal bir çözüm sunar.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27c9bf32a88858ec2d2214f18ff96138c29e59bc
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9280a2580d20d64f6542902aab1dbf55434bf84c
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815169"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935526"
 ---
 # <a name="demand-forecasting-overview"></a>Talep tahminine genel bakış
 
@@ -32,7 +32,7 @@ ms.locfileid: "2815169"
 
 Talep tahmini, satış siparişlerinden bağımsız talebi ve müşteri siparişlerine ilişkin herhangi bir dekuplaj noktasındaki bağımlı talebi tahmin etmede kullanılır. Geliştirilmiş talep tahmin azaltma kuralları, kitlesel özelleştirme için ideal bir çözüm sunar.
 
-Başlangıç tahmini oluşturmak için, geçmiş hareketlerin özeti Azure üzerinde barındırılan Microsoft Azure Machine Learning hizmetine geçirilir. Bu hizmet kullanıcılar arasında paylaşılmadığı için, sektöre özgü gereklilikleri karşılayacak şekilde kolayca uyarlanabilir. Tahmini görselleştirmek, tahmini ayarlamak ve tahminin doğruluğu hakkındaki ana performans göstergelerini (KPI'ler) görüntülemek için Supply Chain Management'ı kullanabilirsiniz.
+Başlangıç tahmini oluşturmak için, geçmiş hareketlerin özeti Azure üzerinde barındırılan Microsoft Azure Machine Learning'e geçirilir. Bu hizmet kullanıcılar arasında paylaşılmadığı için, sektöre özgü gereklilikleri karşılayacak şekilde kolayca uyarlanabilir. Tahmini görselleştirmek, tahmini ayarlamak ve tahminin doğruluğu hakkındaki ana performans göstergelerini (KPI'ler) görüntülemek için Supply Chain Management'ı kullanabilirsiniz.
 
 ## <a name="key-features-of-demand-forecasting"></a>Talep tahmininin ana özellikleri
 Talep tahmininin ana özelliklerden bazıları aşağıda verilmiştir:
@@ -51,7 +51,7 @@ Talep tahmininde üç önemli konu gerçekleştirilir:
 -   **Microsoft yığının yeniden kullanılması** – Microsoft, Şubat 2015'te makine öğrenme platformu başlattı. Şimdi Microsoft Cortana Analytics Suite'in bir parçası haline gelen Makine Öğrenimi, talep tahmin deneyleri gibi tahmine dayalı analiz deneylerini R veya Python gibi programlama dilleri algoritmaları kullanarak ve basit bir sürükle bırak arabirimi ile hızlı ve kolay oluşturmanızı sağlar.
     -   Talep tahmini deneylerini indirebilir, iş gereksinimlerinizi karşılayacak şekilde değiştirebilir, Azure üzerinde web hizmeti olarak yayınlayabilir ve talep tahminleri oluşturmak için kullanabilirsiniz. Kuruluş düzeyinde kullanıcı olarak bir üretim planlayıcı için Supply Chain Management aboneliği aldıysanız, deneyler indirilmeye hazırdır.
     -   Şu anda mevcut olan talep tahmin deneylerinden birini [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirebilirsiniz. Talep tahmini deneyleri, Supply Chain Management ile otomatik olarak bütünleşirken, müşteriler ve ortaklar [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirdikleri deneylerin entegrasyonunu kendileri yapmalıdır. Bu yüzden, [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirilen deneylerin kullanımı, Finance and Operations Talep tahmini deneyleri kadar basit değildir. Deneylerin kodunu, Finance and Operations uygulama programlama arabiriminin (API) kullanılabilmesi için modifiye etmeniz gerekir.
-    -   Microsoft Azure Machine Learning Studio'da kendi deneylerinizi oluşturabilir, bunları Azure üzerinde hizmetler olarak yayınlayabilir ve talep tahminleri oluşturmak için kullanabilirsiniz.
+    -   Microsoft Azure Machine Learning Studio'da (klasik) kendi deneylerinizi oluşturabilir, bunları Azure üzerinde hizmetler olarak yayınlayabilir ve talep tahminleri oluşturmak için kullanabilirsiniz.
     -   Yüksek performans gerekmiyorsa veya büyük miktarda verinin işlenmesi gerekmiyorsa, Machine Learning serbest katmanını kullanabilirsiniz. Özellikle uygulama ve test aşamalarında daima bu katmandan başlamanızı tavsiye ederiz. Daha yüksek performansa ve ek depolamaya ihtiyacınız varsa, Machine Learning standart katmanını kullanabilirsiniz. Bu katman, Azure aboneliği gerektirir ve ek ücretler içerir. Bu konudaki ayrıntılar için bkz. [Machine Learning Studio fiyatlandırması](https://aka.ms/machine-learning-price-info).
 -   **Herhangi bir dekuplaj noktasında tahmin azaltma** – Talep tahmini, size herhangi bir dekuplaj noktasında hem bağımlı hem de bağımsız talepleri tahmin etme olanağı veren bu işlev üzerine kurulur.
 
