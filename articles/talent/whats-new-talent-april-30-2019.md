@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38158948dbcf8966edf49bcce5b1e5da7eddb8dc
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 38c30a878ada9ed0b63ade3d0f234aeffce0ad12
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026057"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897907"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-30-2019"></a>Dynamics 365 Talent'deki yenilikler veya değişiklikler (30 Nisan 2019)
-
-[!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
@@ -35,7 +33,7 @@ Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler a�
 
 Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içeriyor.
 
-## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
+## <a name="changes-in-onboard"></a>Onboard'taki değişiklikler
 
 Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 

@@ -3,7 +3,7 @@ title: Erişilebilirlik özellikleri
 description: Bu konu, çeşitli engelleri bulunan kullanıcılara yardımcı olmak üzere tasarlanan işlevleri açıklar.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/10/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 7cc63320a3ba055a0c18ab59447f34a86bc0dc87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8ec4ee4654bdf306e179dcac5bf246df7f2b8cf7
+ms.sourcegitcommit: c3bc5dd007d9f063631232497bd4cda9214e2e5b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180864"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2872454"
 ---
 # <a name="accessibility-features"></a>Erişilebilirlik özellikleri
 
@@ -40,7 +40,7 @@ Her alan ve denetimde bir etiket ve ilgili kısayola ilişkin bir açıklama var
 
 En soldaki bölme olan Gezinti bölmesi menüsünü kullanarak erişilen her sayfa **Arama** kutusundan da bulunabilir. **Arama** kutusuna gitmek için Alt+G tuşlarına basın ve sonra sayfa açıklamasını veya adı yazın.
 
-![Arama kutusuna girilen "Banka hesapları"](media/6d08b0be32808221023e2aa92d69fd70.png "Arama kutusuna girilen \"banka hesapları\"")
+![Arama kutusuna "Banka hesapları" girildi](media/6d08b0be32808221023e2aa92d69fd70.png "Arama kutusuna "Banka hesapları" girildi")
 
 Daha fazla bilgi için bkz. [Gezinti araması](navigation-search.md).
 
@@ -55,21 +55,21 @@ Bir sayfada yer alan her eyleme seklem sırası aracılığıyla klavyeden eriş
 
 Eylem Bölmesindeki **Satış siparişi** sekmesinde yer alan **E-posta bildirimi** grubunda görüntülenen **E-posta bildirimi günlüğü** eylemini çalıştırmak istiyorsunuz.
 
-![Eylem bölmesinde e-posta bildirimi günlük eylemi](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Eylem bölmesinde e-posta bildirimi günlük eylemi")
+![Eylem Bölmesindeki e-posta bildirim günlüğü eylemi](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Eylem Bölmesindeki "e-posta bildirim günlüğü" eylemi")
 
 Seçeneklerden biri klavyenizi kullanmaktır. Odağı Eylem Bölmesine taşımak için CTRL+F6 tuşuna basın ve **E-posta bildirimi günlüğü** üzerine gelene kadar Sekme tuşuna art arda basarak tük sekmelerin ve eylemlerin üzerinden geçin.
 
 Ancak, eylemi daha doğrudan da çalıştırabilirsiniz. Sayfadaki herhangi bir konumdan Ctrl + Kesme işareti (') tuşuna basarak eylemleri arama kutusunu görüntüleyin.
 
-![Eylemler için arama kutusu](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Eylemler için arama kutusu")
+![Eylem arama kutusu](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Eylem arama kutusu")
 
 Arama kutusuna eylemi açıklayan sözcükleri yazın. Eylem kullanılabilir duruma gelir ve doğrudan çalıştırabilirsiniz. Örneğin **e-posta**, **bildir** (sözcüğün bir kısmı) veya **günlük** yazarak "E-posta bildirimi günlüğü" işlevine "atlayabilirsiniz".
 
-![Arama kutusuna girilen "E-posta"](media/image4.png "Arama kutusuna girilen \"e-posta\"")
+![Arama kutusuna "E-posta" girildi](media/image4.png "Arama kutusuna "E-posta" girildi")
 
-![Arama kutusuna girilen "Bildirim"](media/image5.png "Arama kutusuna girilen \"bildirim\"")
+![Arama kutusuna "Bildir" girildi](media/image5.png "Arama kutusuna "Bildir" girildi")
 
-![Arama kutusuna girilen "Günlük"](media/image6.png "Arama kutusuna girilen \"günlük\"")
+![Arama kutusuna "Günlük" girildi](media/image6.png "Arama kutusuna "Günlük" girildi")
 
 İşlemi tamamladığınız zaman Ctrl+Kesme işareti tuşuna yeniden basarak eylem aramasını çalıştırmadan önce çalıştığınız alana geri dönebilirsiniz.
 
@@ -81,7 +81,7 @@ Sistem günlük kullanımında, genel görevleri gerçekleştirmek için her ala
 
 Bununla birlikte, sık gerçekleştirdiğiniz görevleri yerine getirmek için bazı alanların varsayılan sekme sırasında olmadığını görebilirsiniz. Bu durumda, Windows Ekran Okuyucusu kullanıyorsanız, Windows Ekran okuyucusunun klavyesini kullanarak bu alanlara erişebilir ve içeriklerini denetleyebilirsiniz. Bunun yerine **Seçenekler** sayfasında **Gelişmiş sekme sırası** seçeneğini etkinleştirebilirsiniz. Bu seçenek, tüm düzenlenebilir ve salt okunur alanları sekme sırasının parçası yapar. Daha sonra özel bir sekme sırası oluşturmak için sayfa kişiselleştirmeyi kullanabilir ve sekme sırasının parçası olması gerekmeyen alanları dışarıda bırakabilirsiniz. Kişiselleştirme hakkında daha fazla bilgi için bkz. [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
 
-!["Gelişmiş sekme sırası" seçeneği](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "\"Gelişmiş sekme sırası\" seçeneği")
+!["Gelişmiş sekme sırası" seçeneği](media/8c0f12bbb3f26032997ef0ba95d89b6a.png ""Gelişmiş sekme sırası" seçeneği")
 
 ## <a name="form-patterns"></a>Form modelleri
 
@@ -92,6 +92,8 @@ Form modelleri hakkında daha fazla bilgi için bkz. [Form stilleri ve modelleri
 ## <a name="responsive-layout"></a>Esnek düzen
 
 Ürün, en küçük ekranlardan yüksek çözünürlüklü büyük ekranlara kadar çeşitli cihazlar ve form faktörlerinde çalışmak üzere tasarlanmıştır. Esnek düzen alt yapımız kullanıcıların yüzde 200 oranında yakınlaştırma yapmasına (bazı senaryolarda yüzde 200'den fazla) olanak tanır.
+
+Akıllı telefonlar ve diğer küçük ekranlarda, denetimlerin ve form düzeninin, ana verilerin sık kullanılan olmasını sağlamak için duyarlı şekilde uyum sağlar. Bu duyarlı davranışlar, gruplardaki sütunların ve sekmelerin tek bir sütuna düşürülmesi, kabuk öğelerinin gizlenmesi ve eylem bölmesinin ortadan kaldırılması da içerir.
 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Geliştiricilere ve müşterilere yardımcı olmak için kılavuz özelleştirmelerinde erişilebilir düşünceyi içerir.
 

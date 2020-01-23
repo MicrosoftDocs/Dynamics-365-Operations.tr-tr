@@ -1,6 +1,6 @@
 ---
 title: Tümleşik genel muhasebe
-description: Bu konu Finance and Operations ile Common Data Service'i kullanan Customer Engagement arasında genel muhasebe verileri tümleştirmesini açıklar.
+description: Bu konu Finance and Operations ile Common Data Service'i kullanan Finance and Operations ve diğer Dynamics 365 uygulamaları arasında genel muhasebe verileri tümleştirmesini açıklar.
 author: robinarh
 manager: AnnBe
 ms.date: 09/06/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 43819e23b167663a51095546cab307e7d7c79a38
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4a0a8f2f52cf9a73efc3557b63793201a7a3f8b8
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771060"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853894"
 ---
-## <a name="integrated-ledger"></a>Tümleşik genel muhasebe
+# <a name="integrated-ledger"></a>Tümleşik genel muhasebe
 
 [!include [banner](../includes/banner.md)]
 

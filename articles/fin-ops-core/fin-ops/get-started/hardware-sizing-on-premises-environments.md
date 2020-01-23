@@ -1,9 +1,9 @@
 ---
 title: Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 description: Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812569"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870276"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 
@@ -137,7 +137,7 @@ Genel kullanım sürümü için yalnızca bir SSRS düğümü dağıtılabilir. 
 
 ## <a name="environment-orchestrator"></a>Ortam Orchestrator
 
-Orchestrator hizmeti, dağıtım ve LCS ile ilgili iletişimi yöneten hizmetidir. Bu hizmet, birincil Service Fabric hizmeti olarak dağıtılır ve en az üç VM gerektirir. Bu hizmet Service Fabric düzenleme hizmeti ile birlikte yer alır. Bu, kümenin tepe yük noktasına göre boyutlandırılmalıdır. Daha fazla bilgi için bkz [Service Fabric küme kapasite planlama konusunda dikkate alınacaklar](/azure/service-fabric/service-fabric-cluster-capacity).
+Orchestrator hizmeti, dağıtım ve LCS ile ilgili iletişimi yöneten hizmetidir. Bu hizmet, birincil Service Fabric hizmeti olarak dağıtılır ve en az üç VM gerektirir. Bu hizmet Service Fabric düzenleme hizmeti ile birlikte yer alır. Bu, kümenin tepe yük noktasına göre boyutlandırılmalıdır. Daha fazla bilgi için bkz. [Service Fabric tek küme dağıtımınızı hazırlayın ve planlayın](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Sanallaştırma ve aşırı talep
 

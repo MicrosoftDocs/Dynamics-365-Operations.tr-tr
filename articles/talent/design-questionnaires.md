@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 6405b6a680f31c62e16f3bb707ec0a4ccdad3d23
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7559a986c1a112eb1ccc6069ba5b8eb5c6e5b72b
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813926"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898747"
 ---
 # <a name="design-questionnaires"></a>Soru formları tasarlama
-
-[!include [banner](includes/banner.md)]
 
 Bu konu bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun. 
 
