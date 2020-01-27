@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ebfaeb0696d7200ddf3c715f96a259b91db08e7a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3376a9aec5c0003e9cc7c076c4d221a697df61ce
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519290"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898306"
 ---
 # <a name="leave-and-absence-management"></a>İzin ve devamsızlık yönetimi
-
-[!include [banner](includes/banner.md)]
 
 **İzin ve devamsızlık yönetim** modülü devamsızlık yönetimini tanımlamak için esnek bir çerçeve sunar. İzin ve devamsızlık planları, personelin boş zamanın nasıl atanacağını belirlemek için oluşturulabilir. Çalışanlar bir plana kaydedildikten sonra, yöneticilerine onay için izin istekleri gönderebilirler. İzin izleme, hem birinci seviye yöneticilerin hem de İnsan Kaynakları (İK) yöneticilerinin kimin izinli olduğunu ve her bir personelin en kadar süresi kaldığını izleme olanağı sağlar.  
 

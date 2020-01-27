@@ -3,7 +3,7 @@ title: Supply Chain Management için yardım kaynakları
 description: Bu sayfada Supply Chain Management özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 10/01/2019
+ms.date: 11/26/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4926cd63aa360c7e08a0a435f7609017f02cb229
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0b5f82d76f2e285b6318d900d41919aae14ec71a
+ms.sourcegitcommit: b8a51a0ba8fc33576ff78e5bbe826c14e1df2844
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814433"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2854000"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Supply Chain Management için yardım kaynakları
 
@@ -106,16 +106,15 @@ Bu teknik konferans kayıtlarında Finance and Operations'ın önceki sürümün
 
 **Taşıma yönetimi**
 
--  [Yeni Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)'teki taşıma yönetimi parametreleri (TMS)
+-  [Yeni Microsoft Dynamics AX'teki taşıma yönetimi parametreleri (TMS)](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Bloglar
 <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX İmalat Ar-Ge Ekibi Blogu</a> ve <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX'te Tedarik Zinciri Yönetimi Ar-Ge Ekibi Blogu</a>'nda imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü önceki sürüm için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir. 
 
 ## <a name="white-papers"></a>Teknik incelemeler
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Maliyet muhasebesi uygulamalı laboratuvarları</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Yalın imalat: Teslim edilebilir miktar ve Kanban işi planlaması</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Yalın imalat: Teslim edilebilir miktar ve kanban işi planlaması</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Ambar'da Microsoft Dynamics 365 for Finance and Operations</a> ile sağlanan hareketlilik
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 Dynamics 365 eğitimi hakkında bilgi edinmek için bkz. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Öğrenme Portalı</a>. (bunun için CustomerSource hesabı gereklidir) 

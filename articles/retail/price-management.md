@@ -3,7 +3,7 @@ title: Perakende satış fiyatı yönetimi
 description: Bu konu Dynamics 365 Retail'de satış fiyatları oluşturma ve yönetme kavramlarını açıklar.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d8c6f8d7d368be8ffa192f8dee6b46a753b04cad
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025230"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934783"
 ---
 # <a name="retail-sales-price-management"></a>Retail satış fiyatı yönetimi
 
@@ -221,11 +221,11 @@ Tüm kanallarda perakende fiyatlarını hesaplamak için tek bir fiyatlandırma 
 
 Perakende fiyatlandırması perakende dışı varlıklar yerine perakende varlıklarla çalışmak üzere tasarlanmıştır. Özellikle, fiyatları ambara göre değil mağazaya göre ayarlamak üzere tasarlanmıştır.
 
-Perakende fiyatlandırma altyapısı şu fiyatlandırma özelliklerini desteklemez:
+Perakende fiyatlandırma altyapısı şu fiyatlandırma özelliklerini **desteklemez**:
 
-- Tesis ve Ambar depolama boyutlarını kullanarak fiyat ayarlama
-- Öznitelik tabanlı fiyatlandırma
-- Satıcı iskontosu geçişi
+- Tesis veya tesis ile ambar depolama boyutlarının fiyatlarını ayarlama desteklenmez. Ticari sözleşmeler üzerinde yalnızca tesis boyutunu belirtirseniz, perakende fiyatlandırması tesisi dikkate almaz ve tüm sitelere ticari anlaşmayı uygular. Hem tesisi, hem de ambarı belirtirseniz, satıcıların her mağaza/ambar için fiyatları kontrol etmek üzere mağaza fiyat gruplarını kullanması beklendiğinden, tanımsız/sınanmadı.
+- Öznitelik temelli fiyatlandırma desteklenmiyor.
+- Satıcı iskontosu geçişi desteklenmiyor.
 
 Ayrıca, **yalnızca** perakende fiyatlandırma altyapısı şu fiyatlandırma özelliklerini destekler:
 

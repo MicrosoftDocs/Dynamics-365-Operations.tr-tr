@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: caa449feba22c5804799b5317a8e29c139cc440e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f67296797d9a671ae071a13b1bbda73cf3fc6e7f
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180299"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915189"
 ---
 # <a name="financial-reporting-overview"></a>Mali raporlamaya genel bakış
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Bu konu, mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar. Ayrıca, sağlanan varsayılan mali raporların bir açıklamasını da içerir.
 
@@ -79,6 +81,18 @@ Finansal raporlama işlevleri uygun ayrıcalıklara sahip ve güvenlik rolleri a
 | Mali raporları görüntüle                | Mali performansı gözden geçir          | Hiçbiri atanmadı                                                                   |
 
 Bir kullanıcı eklendikten veya bir rol değiştikten sonra, kullanıcının birkaç dakika içinde mali raporlamaya erişebilmesi gerekir. **Not:** sysadmin rolünü finansal raporlamada tüm rollere eklenir.
+
+## <a name="report-deletions-and-expirations"></a>Silme ve süre sonlarını bildir
+Rapor oluşturan kullanıcılar kendi raporlarını silebilir. **Finansal Raporlama Güvenlik** vergisi olan kullanıcıların diğer raporlarını silebilir. 
+
+10.0.7 sürümden başlayarak sona erme tarihleri kavramı kullanılmaya başlandı. Özellik yönetimi çalışma alanında yeni bir zorunlu Özellik etkinleştirilecek. Bu özellik aşağıdaki değişiklikleri içerir:
+* Yeni oluşturulan raporlar, oluşturulduklarında süresi sona 90 gün geçerlilik tarihine sahip olacak şekilde otomatik olarak işaretlenecek
+* Özelliğin yüklenmesi öncesinde varolan tüm raporlara, 90 günlük bir geçerlilik süresi verilir. Mali Raporlama Servisi tamamlanana kadar tarih kısa bir süre için boş olarak gösterilebilir, bir rapor oluşturulur ve servis güncelleştirmeyi boş bitiş tarihi olan mevcut raporlar için yapar. 
+* **Finansal Raporlama güvenliğini** olan kullanıcıların bu işlevlere erişimi vardır. **Finansal rapor kullanım süresi sonu** hakkı verilen **Finansal raporu koru**'daki her kullanıcının, kullanım süresi sonu süresini değiştirme olanağı da vardır. Şu anda iki saklama seçeneği kullanılabilir - 
+  * 90 gün sonu
+  * Raporu asla sona erdirmez olarak ayarlamak için bir seçenek
+
+90 gün gibi bir süre sonu seçildiğinde, bugünden itibaren 90 gün verir; bu da rapor oluşturma sırasında orijinal oluşturma tarihinden itibaren 90 gün farklı bir davranıştır. 
 
 ## <a name="default-reports"></a>Varsayılan raporlar
 Finansal raporlama 22 varsayılan mali rapor sağlar. Her rapor, varsayılan ana hesap kategorilerini kullanır. Bu raporları olduğu gibi veya gerekli finansal raporlama için bir başlangıç noktası olarak kullanabilirsiniz. Gelir tablosu ve Bilanço gibi geleneksel mali tablolara ek olarak, bu varsayılan raporlar da oluşturabileceğiniz farklı mali rapor türlerini gösteren varsayılan raporlar içerir. 

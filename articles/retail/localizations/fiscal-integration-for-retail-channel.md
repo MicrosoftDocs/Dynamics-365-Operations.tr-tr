@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812319"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915259"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Perakende kanalları için mali tümleştirme genel bakışı
 
@@ -138,9 +138,14 @@ Aşağıdaki mali tümleştirme örnekleri Retail SDK içerisinde şu anda kulla
 - [Polonya için yazar kasa tümleştirme örneği](emea-pol-fpi-sample.md)
 - [Avusturya için mali kayıt hizmeti tümleştirme örneği](emea-aut-fi-sample.md)
 - [Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği](emea-cze-fi-sample.md)
+- [İsveç için kontrol birimi tümleştirmesi örneği](./emea-swe-fi-sample.md)
 
 Aşağıdaki mali tümleştirme işlevi de ayrıca Retail SDK içinde kullanılabilir ancak mali tümleştirme çerçevesinin avantajlarından faydalanmaz. Bu işlevin mali tümleştirme çerçevesine geçirilmesi daha sonraki güncelleştirmeler için planlanmıştır.
 
-- [Fransa için yazar kasa işlevi](emea-fra-cash-registers.md)
-- [Norveç için yazar kasa işlevi](emea-nor-cash-registers.md)
-- [İsveç için kontrol birimleriyle Retail POS tümleştirmesi örneği](./retail-sdk-control-unit-sample.md)
+
+- [Fransa için dijital imza](emea-fra-cash-registers.md)
+- [Norveç için dijital imza](emea-nor-cash-registers.md)
+
+Retail SDK'da kullanılabilen aşağıdaki eski mali tümleştirme işlevi mali tümleştirme çerçevesini kullanmaz ve sonraki güncelleştirmelerde kullanım dışı bırakılacaktır:
+
+- [İsveç için kontrol birimi tümleştirmesi örneği (eski)](./retail-sdk-control-unit-sample.md)

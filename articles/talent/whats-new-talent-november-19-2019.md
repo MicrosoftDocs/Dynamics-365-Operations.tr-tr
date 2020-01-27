@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6a26c0039b145f4b6a0940a60256ba7b6644a829
-ms.sourcegitcommit: b95df4cea27d6a8f797e0bdd18952bec7dece4ad
+ms.openlocfilehash: 88ed678cdd37b4bd3d1a7ae92b505b2cfdea4fc8
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "2825014"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896739"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-19-2019"></a>Dynamics 365 Talent'daki yenilikler veya değişiklikler (19 Kasım 2019)
-
-[!include [banner](includes/banner.md)]
 
 Bu makalede Dynamics 365 Talent'te yeni veya değişen özellikler açıklanmaktadır.
 

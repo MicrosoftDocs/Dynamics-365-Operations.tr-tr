@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009434"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915213"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Kolaylaştırılmış çalışan girişi ve gezintisi
 
-[!include [banner](includes/banner.md)]
-
 Dynamics 365 Talent, çalışan ve iş verilerinin etkili şekilde girişine olanak sağlar. Geçmiş, etkin ve gelecekteki çalışanlar ve yükleniciler için çalışma geçmişi bilgilerini hızlı şekilde güncelleştirebilirsiniz.
 
-Ayrıca, hızlı bir şekilde ilgili bilgileri bulmak ve gerekli değişiklikleri yapmak için basitleştirilmiş bir gezinme deneyimini etkinleştirebilirsiniz. Bu işlevsellik artık korumalı ortamlarda kullanılabilir. Bu özelliği etkinleştirmek için **Sistem yönetimi > Bağlantılar > Kurulum > Sistem parametreleri > Önizleme özellikleri**ne gidin. **Gelişmiş çalışan formu ve gezinme**'yi seçin. Bu değişiklikler tüm kullanıcılar için etkinleştirilir. Bu seçeneği istediğiniz zaman kapatabilirsiniz.
+Ayrıca, hızlı bir şekilde ilgili bilgileri bulmak ve gerekli değişiklikleri yapmak için basitleştirilmiş bir gezinme deneyimini etkinleştirebilirsiniz. Bu işlevsellik artık tüm ortamlarda kullanılabilir. Bu özelliği etkinleştirmek için **Sistem yönetimi > özellik yönetimi > Yeni > Kolay personel girişi > Etkinleştir**'e gidin. Bu değişiklikler tüm kullanıcılar için etkinleştirilir. Bu seçeneği istediğiniz zaman kapatabilirsiniz.
 
 ## <a name="view-options"></a>Görünüm seçenekleri
 

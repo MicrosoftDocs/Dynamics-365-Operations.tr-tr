@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812845"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897155"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>İçeriği Dynamics 365 Talent - Onboard'ta diğer katkıda bulunanlarla paylaşma
+# <a name="share-content-with-other-contributors"></a>İçeriği diğer katkıda bulunanlarla paylaşın
 
 [!include [banner](includes/banner.md)]
 
@@ -34,11 +34,11 @@ Microsoft Dynamics 365 Talent: Onboard - Onboard, belgeleri gözden geçirebilme
 1. Sol menüde **Kılavuzlar**'ı seçin ve ardından paylaşmak istediğiniz kılavuzu seçin.
 2. **Diğer** düğmesini (üç dikey nokta) sayfanın sağ üst köşesinde seçin ve sonra **Paylaş**'ı seçin.
 
-    ![[Bir işe alım kılavuzunu diğer katılımcılarla paylaşma](./media/onboard-share-guide.png)](./media/onboard-share-guide.png)
+    ![[İşe alım kılavuzunu diğer katkıda bulunanlarla paylaşma](./media/onboard-share-guide.png)](./media/onboard-share-guide.png)
 
 3. **Şununla paylaş** altında alıcılar kılavuzu gözden geçirebilmeliyse, **Bu kişiler düzenleyebilir mi?** seçeneği **Açık** olarak ayarlayın. Alıcılar, kılavuzu onlarla paylaştığınız e-posta yoluyla bildirilirse, **alıcılara e-posta gönder bildirimini** **Aç**'a ayarlayın.
 
-    ![[Bir işe alım kılavuzu için erişim ve e-posta tercihlerini ayarlama](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
+    ![[Ekleme kılavuzu için erişim ve e-posta tercihlerini ayarlama](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
 
 4. Bir ad veya e-posta adresi girin ve açılan listede istenen alıcıyı seçin.
 5. **ErişimiYönet** sekmesinde, alıcıların kılavuzla yapabileceklerini gözden geçirebilir veya değiştirebilirsiniz. Alıcının erişimini değiştirmek için, alıcının adının yanındaki açılır listede, uygun olarak**Görüntüleyebilir**, **Düzenleyebilir** veya **Kaldır**'ı seçin.

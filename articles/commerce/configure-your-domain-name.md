@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a988f533757cc3f8555fcf4fb724a22a5b014f8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 8f73c034563fb1cc6b05091b4c47e2a788d1a8b6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770470"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945548"
 ---
 # <a name="configure-your-domain-name"></a>Etki alanı adınızı yapılandırma
 
@@ -43,16 +43,16 @@ E-ticaret başlatmasının ardından yeni etki alanlarını e-ticaret ortamını
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Çevrimiçi mağazaya genel bakış](online-store-overview.md)
+[Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
 
 [e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
 
-[Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
-
 [Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
+
+[Robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
+
+[Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md)
 
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
-
-[Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md)

@@ -3,7 +3,7 @@ title: Hesap yönetimi sayfaları ve modülleri
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarını ve modüllerini kapsamaktadır.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3986505a7e0e8d33d5b8ff2c06f493335731a8d9
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785405"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885821"
 ---
 # <a name="account-management-pages-and-modules"></a>Hesap yönetimi sayfaları ve modülleri
 
@@ -58,7 +58,7 @@ Sipariş Ayrıntıları sayfası her sipariş için ayrıntılı bilgi sağlar v
 
 ### <a name="user-profile-page"></a>Kullanıcı profil sayfası
 
-Kullanıcı profili sayfası kullanıcının adı ve e-posta adresi gibi kullanıcı hesabı ayrıntılarını gösterir. Kullanıcı profili modülünü kullanır. Ancak e-posta adresi kaldırılamaz, düzenlenebilir.
+Kullanıcı profili sayfası kullanıcının adı ve e-posta adresi gibi kullanıcı hesabı ayrıntılarını gösterir. Kullanıcı profili modülünü kullanır. Ancak e-posta adresi kaldırılamaz, düzenlenebilir. Kullanıcı profili sayfası, kullanıcının öneri listelerinin kişiselleştirmesi gibi belirli özellikleri kabul etmesini veya devre dışı olmasını etkinleştiren Kullanıcı tercihlerini de gösterir. 
 
 ### <a name="user-address-page"></a>Kullanıcı adresi sayfası
 

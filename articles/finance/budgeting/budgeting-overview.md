@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5b56f56f5307c292ced30ec94d178244268c5e68
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772663"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935454"
 ---
 # <a name="budgeting-home-page"></a>Bütçeleme giriş sayfası
 

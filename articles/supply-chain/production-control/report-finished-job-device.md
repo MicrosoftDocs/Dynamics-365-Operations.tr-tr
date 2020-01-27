@@ -3,7 +3,7 @@ title: İş kartı cihazından plaka kontrollü bir yerleşime tamamlandı olara
 description: Bu konu, yerleşimi bir plaka kontrol ediyorsa bir üretim emrindeki bitmiş ürünleri bir stoka tamamlamaya ilişkin süreci açıklamaktadır.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 09/06/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: cb809e596fd6bf3030bcee460838798435512b95
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 63073035941cd2ef343c65364536fe76a9b71430
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572141"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935134"
 ---
 [!include [banner](../includes/banner.md)]
 
@@ -32,4 +32,10 @@ ms.locfileid: "2572141"
 
 Tamamlandı bildirimi ile çağrılan süreç, bir üretim emrindeki bitmiş ürünleri stoka tamamlar. Bitmiş ürün gelişmiş ambar süreçleri için etkinleştirilmişse, o ürün, üretim çıkış yerleşimi adı verilen bir yerleşime tamamlandı olarak bildirilir. Üretim çıkış yerleşiminin ayarlanması hakkında bilgi için [Üretim çıkış yerleşimi](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location) konusuna bakın.
 
-Bu görevi tamamlamak için, varolan bir plaka numarasını seçmelisiniz. Üretim çıkış yerleşimi, plaka tarafından izlenmeye ayarlanmışsa, üretim çıkış yerleşimine tamamlandı olarak bildirilirken bir plaka numarası eklenmelidir. **Plaka** alanı, **İş kartı cihazı** sayfasındaki **İlerlemeyi bildir** komut isteminde görünür durumdadır. Alan **İlerlemeyi bildir** komut isteminde yalnızca üretim emrinin son işlemi bildirilirken görünür. Alan yalnızca üretim emrine ait madde ambar yönetim süreçleri için etkinleştirildiğinde gösterilir. 
+Üretim çıkış konumu lisans levhası denetimli ise, tamamlandı bildirimi yapılırken bir lisans kalıbının sağlanması gerekir. **Plaka** alanı, **İş kartı cihazı** sayfasındaki **İlerlemeyi bildir** komut isteminde görünür durumdadır. Alan yalnızca, üretim emrinin son operasyonunu raporlarken **rapor ilerleme durumu** satırında görünür ve üretim emri için madde ambar yönetim işlemleri için etkinleştirilir. 
+
+Lisans levhası sağlamak için iki seçenek vardır
+- Kullanıcı, lisans levhası alanında varolan bir lisans levhasını seçer.
+- Lisans levhası otomatik olarak bir numara serisinden üretilir ve lisans levhası alanına varsayılan olarak kullanılır.
+
+Lisans kalıbının otomatik olarak oluşturulmasına izin seçeneği, **Cihazlar için iş kartını konfigüre et** sayfasında **lisans levhası oluştur** seçeneği seçilerek konfigüre edilir.

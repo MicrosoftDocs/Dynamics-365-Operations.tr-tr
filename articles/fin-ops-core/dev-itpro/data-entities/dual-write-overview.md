@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772399"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853918"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Common Data Service ile yakın gerçek zamanlı veri tümleştirmesi
 
@@ -59,7 +59,7 @@ Eşzamanlı, iki yönlü, yakın zamanda gerçek zamanlı veri akışları aşa�
 Finance and Operations uygulamaları ve Common Data Service arasındaki tümleştirmeyi ayarlamak için şu adımları izleyin.
     
 1. İkili yazma sisteminin kurulumu için, Çift yazma önizlemesini duyurmada bkz. [adım adım kılavuz](https://aka.ms/dualwrite-docs).
-2. Çözümü [Finance and Operations, Common Data Service, ve Customer Engagement Entegrasyonu](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer grup'tan indirin. Paket beş çözüm içerir:
+2. [İkili yazma aracılığıyla Fin Ops ve CD/CE tümleştirmesi](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer grubu çözümü karşıdan yükleyin ve kurun. Paket beş çözüm içerir:
 
     + Dynamics365Company
     + CurrencyExchangeRates

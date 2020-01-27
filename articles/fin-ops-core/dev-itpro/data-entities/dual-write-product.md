@@ -3,7 +3,7 @@ title: Birleştirilmiş ürün deneyimi
 description: Bu konu Finance and Operations uygulamaları ile Common Data Service arasında ürün verileri tümleştirmesini açıklar.
 author: t-benebo
 manager: AnnBe
-ms.date: 09/3/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7df9097feeb9566705f50f8a62809aa79dc10cd7
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769741"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914783"
 ---
 # <a name="unified-product-experience"></a>Birleştirilmiş ürün deneyimi
 
@@ -52,7 +52,7 @@ Bu iki ürün veri modeli aşağıda gösterildiği gibi Common Data Service'te 
 
 Finance and Operations | Diğer Dynamics 365 uygulamaları | Tanım
 -----------------------|--------------------------------|---
-Serbest bırakılan ürünler V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** varlığı, Finance and Operations uygulamalarından ürünü tanımlayan ve ürünün finansal ve yönetim bilgilerini içeren alanlar içerir. Aşağıdaki tablo eşlemeleri göstermektedir.
+Serbest bırakılan ürünler V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** varlığı, Finance and Operations uygulamalarından ürünü tanımlayan ve ürünün finansal ve yönetim bilgilerini içeren alanlar içerir. 
 Common Data Service serbest bırakılan farklı ürünler | Ürün | **Ürün** varlığı, ürünü tanımlayan alanları içerir. Bağımsız ürünleri (alt tür ürünü olan ürünler) ve ürün çeşitlerini içerir. Aşağıdaki tablo eşlemeleri göstermektedir.
 Ürün numarası tanımlanan barkod | msdyn\_productbarcodes | Ürün barkodları, ürünleri benzersiz olarak tanımlamak için kullanılır.
 Varsayılan sipariş ayarları | msdyn\_productdefaultordersettings
@@ -74,7 +74,7 @@ Birim dönüştürmeleri | msdyn_ unitofmeasureconversions
 Ürüne özel ölçü birimi dönüşümü | msdyn_productspecificunitofmeasureconversion
 Ürün kategorileri | msdyn_productcategories | Her bir ürün kategorisi ve bunların yapısı ve özellikleri hakkında bilgiler ürün kategorisi varlığında bulunur. 
 Ürün kategori hiyerarşileri | msdyn_productcategoryhierarhies | Ürünleri sınıflandırmak veya gruplandırmak için ürün hiyerarşilerini kullanın. Kategori hiyerarşileri, Ürün kategori hiyerarşisi varlığı kullanılarak Common Data Service'te kullanılabilir. 
-Ürün kategori hiyerarşisi rolleri | msdyn_productcategoryhierarchies | Ürün hiyerarşileri D365 Finance and Operations'taki farklı roller için kullanılabilir. Her rolde hangi kategorinin kullanıldığını belirtmek için aşağıdaki eşlemelerle birlikte ürün kategorisi rol varlığı kullanılır. 
+Ürün kategori hiyerarşisi rolleri | msdyn_productcategoryhierarchies | Ürün hiyerarşileri D365 Finance and Operations'taki farklı roller için kullanılabilir. Her rolde hangi kategorinin kullanıldığını belirtmek için ürün kategorisi rol varlığı kullanılır. 
 Ürün kategorisi atamaları | msdyn_productcategoryassignments | Ürünü bir kategoriye atamak için ürün kategorisi atamaları varlığı kullanılabilir.
 
 ## <a name="integration-of-products"></a>Ürünlerin tümleştirilmesi

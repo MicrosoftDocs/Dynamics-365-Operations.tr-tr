@@ -3,7 +3,7 @@ title: Attract'te teklif yönetimini ayarlama
 description: Bu konuda tekliflerin Microsoft Dynamics 365 Talent'ta nasıl ayarlanacağı açıklanmaktadır.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832734"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890567"
 ---
 # <a name="set-up-offer-management-in-attract"></a>Attract'te teklif yönetimini ayarlama
 
@@ -45,9 +45,11 @@ Teklif verileri, teklif paketi şablonu içindeki en küçük birimdir. Tipik bi
 
     >[!NOTE]
     > **Teklif verileri** sayfasında, **Aday ayrıntıları** ve **İş ayrıntıları** bölümleri vardır. Attract, sıra dışı birkaç teklif verisi yer tutucusu sağlar.
-    
+    > 
     > Farklı teklif veri yer tutucularını mantıksal gruplar halinde düzenlemek için sayfada bölümler vardır. Bu bölümler, teklif verilerinin bakımı ve verilerin teklif oluşturma işlemi sırasında doldurulmasına yardımcı olur.
-
+    > 
+    > Yer tutucunun değer listesini oluşturmak için sütun başlığı olarak yer tutucuya tek bir sütun içeren Excel elektronik tablosunu ve altındaki satırlardaki seçeneklerin listesini karşıya yükleyin. Aynı yer tutucuya başka bir veri kuralı kümesi başvuruyorsa ortak değer kümesine sahip olduklarından emin olun.
+    
 1.  Yeni bir teklif veri bölümü oluşturmak için **Bölüm ekle**'ye tıklayın ve bölüm için benzersiz bir ad girin.
 
 1.  Herhangi bir bölüm için teklif verisi yer tutucular eklemek için **Teklif verisi ekle**'ye tıklayın ve yer tutucu için benzersiz bir ad girin.

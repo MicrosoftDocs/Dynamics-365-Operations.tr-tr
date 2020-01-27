@@ -3,7 +3,7 @@ title: Şablonlar ve düzenlere genel bakış
 description: Bu konu Microsoft Dynamics 365 Commerce'te şablonlarını ve düzenlerini kapsamaktadır.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6ce6c3021868700c632b16cce3ce66cbf37b8f96
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697808"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914853"
 ---
 # <a name="templates-and-layouts-overview"></a>Şablonlar ve düzenlere genel bakış
 
@@ -110,3 +110,5 @@ Aşağıdaki çizimler, hazır ayar ve özel düzen senaryolarını gösterir.
 [Şablonlarla çalışma](work-with-templates.md)
 
 [Önceden ayarlanmış düzenlerle çalışma](work-with-layouts.md)
+
+[Yayınlama gruplarıyla çalışma](publish-groups.md)

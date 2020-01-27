@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771085"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933944"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronik raporlamaya (ER) genel bakış
 
@@ -51,12 +51,12 @@ ER altyapısı aşağıdaki yeteneklere sahiptir:
 
 ER iki tür bileşeni destekler: **Veri modeli** ve **Biçim**.
 
-#### <a name="data-model-components"></a>Veri modeli bileşenleri
+#### <a name="data-model-and-model-mapping-components"></a>Veri modeli ve model eşleme bileşenleri
 
 Bir veri modeli bileşeni, bir veri yapısının soyut bir temsilidir. Belirli bir iş etki alanını, bu etki alanı için raporlama gereksinimlerini tatmin edecek ayrıntıyla tanımlamak için kullanılır. Veri modeli bileşeni aşağıdaki bölümlerden oluşur:
 
-- Etki alanına özgü iş varlıkları kümesi olarak veri modeli ve bu varlıkların aralarındaki ilişkilerin hiyerarşik olarak tanımı.
-- Seçilen uygulama veri kaynaklarını, veri bileşenine ilişkin veri akışı ve işletme veri popülasyonu kurallarını çalışma zamanında belirten bir veri modelinin tek tek öğelerine bağlayan model eşleme.
+- <a name="DataModelComponent"></a>Etki alanına özgü iş varlıkları kümesi olarak veri modeli ve bu varlıkların aralarındaki ilişkilerin hiyerarşik olarak tanımı.
+- <a name="ModelMappingComponent"></a>Seçilen uygulama veri kaynaklarını, veri bileşenine ilişkin veri akışı ve işletme veri popülasyonu kurallarını çalışma zamanında belirten bir veri modelinin tek tek öğelerine bağlayan model eşleme.
 
 Bir iş varlık veri modeli (kayıt) kapsayıcı olarak temsil edilir. İş varlık özellikleri veri öğelerini (alanları) olarak temsil edilir. Her veri öğesinin benzersiz bir ad, etiket, açıklama ve değeri vardır. Her bir veri öğesinin değeri, dize, tamsayı, tarih, çetele, Boole vb. olarak tanınacak şekilde tasarlanabilir. Ayrıca başka bir kayıt veya kayıt listesi olabilir.
 
@@ -81,7 +81,7 @@ Gelen elektronik belgeleri destekleyen bir model eşleştirmesi aşağıdaki öz
 
 Bir veri modeli bileşeni, raporlamayı veri kaynaklarının fiziksel uygulamasından ayırmak için raporlama için bir birleştirilmiş veri kaynağı olarak kullanılacak her bir iş etki alanı için tasarlanır. Etki alanına özel iş konseptlerini ve işlevlerini, bir raporlama biçiminin ilk tasarımını ve gelecekteki bakımını daha verimli hale getirecek bir biçimde temsil eder.
 
-#### <a name="format-components-for-outgoing-electronic-documents"></a>Giden elektronik belgeler için biçim bileşenleri
+#### <a name="FormatComponentOutbound"></a>Giden elektronik belgeler için biçim bileşenleri
 
 Biçim bileşeni çalışma zamanında oluşturulacak raporlama çıktısının planıdır. Plan aşağıdaki öğelerden oluşur:
 
@@ -107,7 +107,7 @@ Aşağıdaki görsel, verinin bu biçimler için nasıl aktığını gösterir.
 
 Biçim yapılandırmasının eşleşmesini, tek bir ER biçim yapılandırmasını çalıştırmak ve giden bir elektronik belge oluşturmak için tanımlamanız gerekir.
 
-#### <a name="format-components-for-incoming-electronic-documents"></a>Gelen elektronik belgeler için biçim bileşenleri
+#### <a name="FormatComponentInbound"></a>Gelen elektronik belgeler için biçim bileşenleri
 Bir biçim bileşeni, çalışma zamanında içe aktarılan gelen belgenin planıdır. Plan aşağıdaki öğelerden oluşur:
 
 - Çalışma zamanında içe aktarılan veriyi içeren gelen elektronik belgenin yapısını ve içeriğini tanımlayan bir biçim. Bir biçim bileşeni, bir gelen belgeyi metin ve XML gibi çeşitli biçimlerde ayrıştırmak için kullanılır.
@@ -144,7 +144,7 @@ ER biçimli bileşenlere erişilmesi ISO ülke/bölge kodu ayarlarına bağlıd�
 
 Bir veri biçimi bileşeninin farklı sürümleri ISO ülke/bölge kodları için farklı ayarlara sahip olabilir.
 
-#### <a name="configuration"></a>Yapılandırma
+#### <a name="Configuration"></a>Yapılandırma
 
 Bir ER yapılandırması, belirli bir ER bileşeninin sarmalayıcısıdır. Bu bileşen bir veri modeli bileşeni ya da biçim bileşeni olabilir. Bir konfigürasyon bir ER bileşeninin farklı sürümlerini içerebilir. Her yapılandırma belirli bir yapılandırma sağlayıcı tarafından sahip olunan olarak işaretlenir. Bir yapılandırma bileşeninin **Taslak** sürümü, yapılandırma sahibi uygulamadaki ER ayarlarında etkin sağlayıcı olarak seçilmişse düzenlenebilir.
 
@@ -154,13 +154,13 @@ Oluşturulan biçim konfigürasyonu bir biçim bileşeni içerir. Orijinal model
 
 ER yapılandırması uygulama şirketleri için paylaşılır.
 
-#### <a name="provider"></a>Sağlayıcı
+#### <a name="Provider"></a>Sağlayıcı
 
 ER sağlayıcısı her bir ER konfigürasyonunun yazarını (sahibini) göstermek için kullanılan taraf tanımlayıcısıdır. ER, konfigürasyon sağlayıcıları listesini yönetmenizi sağlar. Elektronik belgeler için Finance and Operations çözümünün parçası olarak sevk edilen biçim konfigürasyonlarının sahibi olarak **Microsoft** konfigürasyon sağlayıcısı işaretlenir.
 
 Yeni bir ER sağlayıcısını kaydetmeyi öğrenmek için **ER Bir yapılandırma sağlayıcısı oluşturmak ve bunu etkin olarak işaretlemek** (**7.5.4.3 Al/BT hizmeti geliştir/çözüm bileşenleri (10677)** iş işleminin parçası olan) görev kılavuzunu yürütün.
 
-#### <a name="repository"></a>Depo
+#### <a name="Repository"></a>Depo
 
 ER havuzu ER konfigürasyonlarını depolar. Aşağıdaki ER havuzu türleri şu anda desteklenir: 
 

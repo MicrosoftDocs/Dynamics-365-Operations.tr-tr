@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d5ab90343220e427a80cc4dde17c628ba64ac69e
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 1993e58108ad73aad4adf382bb03ec2e62231add
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696750"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945617"
 ---
 # <a name="add-a-new-site-page"></a>Yeni site sayfası ekleme
 
@@ -90,3 +90,4 @@ Sitenize yeni site sayfası eklemek için şu adımları izleyin.
 
 [Kategori açılış sayfasını zenginleştirme](enrich-category-page.md)
 
+[Sayfa içeriği erişilebilirliğini doğrula](verify-accessibility.md)

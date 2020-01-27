@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-09-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a053c9094151f4e12e4aadc533dd272258779540
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: fe536ace5c25765bd9c573f9303bd92f834765f7
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832594"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897984"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Otomatik temizleme görevleriyle performansı en iyi duruma getirme
-
-[!include [banner](includes/banner.md)]
 
 **Çıkış**
 

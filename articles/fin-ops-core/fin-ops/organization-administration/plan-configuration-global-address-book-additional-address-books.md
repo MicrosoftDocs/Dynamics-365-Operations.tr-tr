@@ -3,7 +3,7 @@ title: Genel adres defteri ve diğer adres defterleri için planlama
 description: Bu konuda, genel adres defteri ve diğer ek adres defterlerini kurup yapılandırmadan önce planlama sürecinde değerlendirmeniz gereken noktalar ve almanız gereken kararlar açıklanmaktadır.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a99284b2773e7c9d473357356c69a39f23c92d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190040"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883423"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Genel adres defteri ve diğer adres defterleri için planlama
 
@@ -35,7 +35,7 @@ Bu konuda, genel adres defteri ve diğer ek adres defterlerini kurup yapılandı
 
 Genel Adres Defteri ile çalışmaya başlamadan önce onun için varsayılan değerleri belirlemeniz gerekir. Bu varsayılan değerler, daha sonra oluşturacağınız tüm ek adres defterleri için kullanılır.
 
-**Kararlar:**
+**Kararlar**
 
 - **Kişi** türü için tarafların kayıtları hangi sıralama ile görüntülenmesi gerekir. Örneğin bir sıralama, soyad, ikinci ad ve isimden oluşur.
 - Taraf kayıtları adres defterinden, rol kayıtları silindiğinde silinmeli midir? Örneğin, bir müşteri kaydı silinirse, taraf kaydı da silinmelidir?
@@ -58,11 +58,3 @@ Genel Adres Defteri'ni oluşturduktan sonra her iş kolu veya kuruluşunuzdaki h
 **Karar:**
 
 - Kaç tane ek adres defteri oluşturacaksınız?
-
-### <a name="address-book-security"></a>Adres defteri güveniği
-
-Herhangi bir anda adres defterleri oluşturabilirsiniz ve herhangi bir zamanda da adres defterleri için güvenlik parametreleri ayarlayabilirsiniz. Adres defteri için güvenlik ayrıcalıklarını ayarlamak zorunda değilsiniz, ancak bunu yapmazsanız, kuruluşunuzdaki tüm çalışanlar bu adres defterindeki tüm taraf kayıtlarını görüntüleyebilirler. Taraf kayıtlarına güvenlik ayrıcalıklarını adres defterlerinden ayarlayabilirsiniz. Güvenlik ayrıcalıkları takımları temel alır. Bu yaklaşım, sadece bir adres defterine erişimi olan bir takıma atanmış olan çalışanların bu Adres Defteri'ndeki taraf kayıtlarını görüntüleyebileceklerini garanti eder. Her bir adres defterine erişimi olan takımları seçmeniz gerekir. Her adres defteri için belirli takımlara erişim izni veren veya reddeden güvenlik ayrıcalıkları ayarlayabilirsiniz. Eğer bir ekibe adres defterine erişim ayrıcalığı verirseniz, o ekibin tüm üyeleri o adres defterindeki kayıtları görebilirler. Eğer bir ekibe adres defterine erişim vermezseniz, o ekibin üyeleri o adres defterindeki kayıtları veya içeriklerini göremezler.
-
-**Karar:**
-
-- Hangi takımların oluşturduğunuz her yeni adres defterine erişimi olmalıdır?

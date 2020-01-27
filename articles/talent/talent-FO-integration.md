@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
-ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
+ms.openlocfilehash: 0222a187b071c5178069ed0bd5223fbf7fb31b6f
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "2830198"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897085"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Dynamics 365 Talent ile Dynamics 365 Finance tümleştirmesi SSS
-
-[!include [banner](includes/banner.md)]
 
 Bu konu, hangi verilerin Dynamics 365 Talent, Dynamics 365 Finance ile tümleştirildiğinde eşitleneceğine dair sıkça sorulan soruları yanıtlar.
 

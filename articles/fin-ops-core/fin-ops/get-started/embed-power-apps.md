@@ -3,7 +3,7 @@ title: Power Apps'i katıştırma
 description: Bu konu ürün işlevselliğini artırmak için Power Apps'ın istemciye nasıl katıştırılacağını açıklar.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824505"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870253"
 ---
 # <a name="embed-microsoft-power-apps"></a>Microsoft Power Apps'i katıştırma
 
@@ -55,7 +55,7 @@ Aşağıdaki yönergeler bir Power App'in web istemcisine nasıl katıştırıla
 
     - **Ad** alanı, katıştırılmış Power App'i içerecek olan düğme veya sekme için gösterilecek metni belirtir. Çoğu kez, bu alanda Power App adını tekrarlamak isteyebilirsiniz.
     - **Uygulama kodu** katıştırmak istediğiniz Power App'in GUID değeridir. Bu değeri almak için [web.powerapps.com](https://web.powerapps.com) adresinde Power App'i bulun ve ardından **Ayrıntılar** altında **Uygulama kodu** alanını bulun.
-    - **Power App için giriş verisi** için isteğe bağlı olarak Power App'e geçirmek istediğiniz verileri içeren alanı seçebilirsiniz. Power App'in Finance and Operations uygulamalarından gönderilen verilere nasıl erişebileceğine ilişkin ayrıntılar için bu konunun ilerleyen kısmındaki [Finance and Operations uygulamalarının verilerinden yararlanan bir Power App oluşturma](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps) bölümüne bakın.
+    - **Power App için giriş verisi** için isteğe bağlı olarak Power App'e geçirmek istediğiniz verileri içeren alanı seçebilirsiniz. Power App'in Finance and Operations uygulamalarından gönderilen verilere nasıl erişebileceğine ilişkin ayrıntılar için bu konunun ilerleyen kısmındaki [Finance and Operations uygulamalarının verilerinden yararlanan bir Power App oluşturma](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) bölümüne bakın.
     - Katıştırdığınız Power App türüyle eşleşen **Uygulama boyutu**'nu seçin. Mobil cihazlar için oluşturulan Power Apps için **İnce**, tabletler için oluşturulan Power Apps için **Geniş** seçeneğini belirleyin. Bu, katıştırılmış Power App için yeterli miktarda alan ayrılmasını sağlar.
     - **Tüzel kişilikler** hızlı sekmesi, Power App'in hangi tüzel kişilikler tarafından kullanılabileceğini seçme olanağı tanır. Power App varsayılan olarak tüm tüzel kişiliklere gösterilir.
 
@@ -101,7 +101,7 @@ Katıştırılmış bir Power App yapılandırmasını düzenlemek için aşağ�
 
 Power App bir sayfaya katıştırıldıktan sonra gerekirse kaldırmak için iki yol vardır:
 
-- Bu konunun önceki kısmında yer alan [Katıştırılmış bir Power App'i düzenleme](#editing-an-embedded-powerapp) bölümündeki talimatları kullanarak **Power App Düzenle** bölmesine gidin. Bölmenin, kaldırmak istediğiniz katıştırılmış Power App ile ilgili bilgileri görüntülendiğini doğrulayın ve ardından **Sil** düğmesine tıklayın.
+- Bu konunun önceki kısmında yer alan [Katıştırılmış bir Power App'i düzenleme](#editing-an-embedded-power-app) bölümündeki talimatları kullanarak **Power App Düzenle** bölmesine gidin. Bölmenin, kaldırmak istediğiniz katıştırılmış Power App ile ilgili bilgileri görüntülendiğini doğrulayın ve ardından **Sil** düğmesine tıklayın.
 - Katıştırılmış bir Power App, kişiselleştirme verisi olarak kaydedildiğinden, sayfanın kişiselleştirmesini temizlemek bu sayfadaki katıştırılmış Power Apps'i de kaldırır. Sayfanın kişiselleştirmesini temizlemek kalıcı bir işlemdir ve geri alınamaz. Bir sayfadaki kişiselleştirmeleri kaldırmak için **Seçenekler**'i ve ardından **Bu form kişiselleştir**'i seçin. **Yönet** menüsü altından **Temizle** düğmesini seçin. Tarayıcınızı yenilendikten sonra, bu sayfadaki önceki tüm özelleştirmeler kaldırılır. Kişiselleştirme kullanarak sayfaları en iyi duruma getirme hakkında daha fazla bilgi için bkz. [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Ek

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 99a7e6130d45229011a185087d4872fe34b8224a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023965"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897638"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (9 Temmuz 2019)
-
-[!include [banner](includes/banner.md)]
 
 Bu konuda, Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
@@ -36,6 +34,7 @@ Bu konuda, Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmak
 Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içeriyor.
 
 ### <a name="coming-soon-in-attract"></a>Yakın zamanda Attract'e geliyor
+
 #### <a name="job-approvals-appear-on-the-home-page"></a>Giriş sayfasında görünecek iş onayları
 
 Onaylar, panonun bir **Onaylar** bölümünde görüntülenir. Onaylayanlar, iş kodunu, başlığı, diğer onaylayanları ve atanan işi görüntüleyen, **size atanan** altında onayları gözden geçirebilir. Bir işi onaya gönderen kullanıcılar **Sizin tarafından talep edilen** işi onaylaması gereken onaylayanları görüntüleyen, size ait işleri gözden geçirebilir.
@@ -50,7 +49,7 @@ Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2374 için geçer
 
 ### <a name="platform-update-28-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 28
 
-Finance and Operations için Platform güncelleştirmesi 28 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 Finance and Operations platform güncelleştirmesi 28'deki (Temmuz 2019) önizleme özellikleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Finance and Operations için Platform güncelleştirmesi 28 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 Finance and Operations platform güncelleştirmesi 28'deki (Temmuz 2019) önizleme özellikleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Common Data Service'teki özel alanlar için varlık desteği 
 

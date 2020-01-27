@@ -18,26 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a405ee96c36dd803fb46894ab58eca9dbfd81b5f
-ms.sourcegitcommit: 097492a9e4f53a5e1fd5385d8764798518326818
+ms.openlocfilehash: 1d7e5be0d9ba5e372e57f06fec77326561196626
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "1927998"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2899255"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-27-2019"></a>Dynamics 365 for Talent'deki yenilikler veya değişiklikler (27 Ağustos 2019)
-
-[!include [banner](includes/banner.md)]
 
 Bu konuda, Dynamics 365 for Talent'daki yeni veya değişen özellikler açıklanmaktadır.
 
 ## <a name="changes-in-attract"></a>Attract'te değişiklikler
 
-Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Attract için küçük hata düzeltmeleri içeriyor.
 
-## <a name="changes-in-onboard"></a>Onboard'daki değişiklikler
+## <a name="changes-in-onboard"></a>Onboard'taki değişiklikler
 
-Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içerir.
+Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içeriyor.
 
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 
@@ -45,9 +43,9 @@ Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2447 için geçer
 
 ### <a name="preview-features-are-enabled-only-in-sandbox-instances"></a>Önizleme özellikleri yalnızca korumalı alan örneklerinde etkinleştirilir
 
-Talent'ın yeni bir örneğini oluşturduğunuzda, örnek türünün Üretim veya Korumalı alan olduğunu belirtebilirsiniz. Korumalı alan türünün örnekleri yeni özelliklerin erken test edilmesine izin verir. Varolan tüm Talent örnekleri Üretim örneği türüne güncelleştirilecek. Varolan örneklerden birinin Korumalı alan örneği türüne güncelleştirilmesini istiyorsanız değişiklik isteğini başlatmak için  Destek başvurun.
+Talent'ın yeni bir örneğini oluşturduğunuzda, örnek türünün Üretim veya Korumalı alan olduğunu belirtebilirsiniz. Korumalı alan türünün örnekleri yeni özelliklerin erken test edilmesine izin verir. Var olan tüm Talent örnekleri Üretim örneği türüne güncelleştirilecek. Var olan örneklerden birinin Korumalı alan örneği türüne güncelleştirilmesini istiyorsanız değişiklik isteğini başlatmak için  Destek başvurun.
 
-Değişikliklerin nasıl yayımlanacağı hakkında daha fazla bilgi için, bkz [Talent sağlama](./provisioning-talent.md).
+Değişikliklerin nasıl yayımlanacağı hakkında daha fazla bilgi için bkz. [Talent sağlama](./provisioning-talent.md).
 
 ### <a name="view-extended-information-for-performance-in-manager-self-service"></a>Yönetim self servisinde performans için genişletilmiş bilgileri görüntüle
 
