@@ -1,7 +1,7 @@
-Bir veritabanını ortamlar arasında kopyalarken, tüm Retail bileşenlerinin güncel olmasını sağlamak için kopyalanan veritabanının tamamen işlevsel olması amacıyla ortam yeniden sağlama aracını çalıştırmanız gerekir.
+Bir veritabanını ortamlar arasında kopyalarken, tüm Commerce bileşenlerinin güncel olmasını sağlamak için kopyalanan veritabanının tamamen işlevsel olması amacıyla ortam yeniden sağlama aracını çalıştırmanız gerekir.
 
 > [!IMPORTANT]
-> Retail işlevselliği tüm ortamlarda bulunduğundan, Retail bileşenlerini kullanıyor olsanız ya da olmasanız da bu yordamı çalıştırmanızı öneririz. 
+> Commerce işlevselliği tüm ortamlarda bulunduğundan, Commerce bileşenlerini kullanıyor olsanız ya da olmasanız da bu yordamı çalıştırmanızı öneririz. 
 
 Devam etmeden önce, aşağıdaki önkoşulların karşılandığından emin olmanız gerekir:
 1. Temmuz 2017 (7.2 olarak da bilinir) 7.2.11792.56024 sürümüne yükseltiyorsanız, ortamda veri yükseltmesini çalıştırmadan önce hedef ortamda aşağıdaki uygulama X++ düzeltmelerini uygulayın. Bunlar veri yükseltme sırasında oluşan çeşitli hataları engeller:

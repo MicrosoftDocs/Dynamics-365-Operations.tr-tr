@@ -60,20 +60,22 @@
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
                 - name: Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamaları
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: Fransa'da Finance and Operations uygulamaları
+                - name: Fransa'daki Finance and Operations uygulamaları
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Yenilikler veya değişiklikler
               items:
-                - name: Finance sürüm 10.0.7 (Ocak 2020)
-                  href: get-started/whats-new-changed-10-0-7.md
-                - name: Finance sürüm 10.0.6 (Kasım 2019)
-                  href: get-started/whats-new-finance-10-0-6.md
-                - name: Yenilikler veya önceki sürümde yapılan değişiklikler
+                - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+                - name: Finance'teki yenilikler veya değişiklikler
                   items:
-                    - name: Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Finance and Operations, Enterprise edition 7.3'
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
+                    - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
+                      href: get-started/whats-new-home-page.md
+                    - name: Finance sürüm 10.0.9 (Nisan 2020)
+                      href: get-started/whats-new-changed-10-0-9.md
+                    - name: Finance sürüm 10.0.8 (Şubat 2020)
+                      href: get-started/whats-new-changed-10-0-8.md
+                    - name: Finance sürüm 10.0.7 (Ocak 2020)
+                      href: get-started/whats-new-changed-10-0-7.md
                 - name: Kaldırılan veya artık kullanılmayan özellikler
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
                 - name: Ertelenen AX 2012 özellikleri
@@ -164,7 +166,7 @@
               items:
                 - name: Uygulama yaşam döngüsü yönetimi giriş sayfası
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: Finance and Operations uygulamaları için mimari
+                - name: Finance and Operations uygulamaları mimarisi
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
                   href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/finance/toc.json
@@ -204,6 +206,8 @@
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-approval-journal.md
                 - name: Fatura havuzu kullanarak fatura verilerini AP sistemine girme
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-invoice-pool.md
+                - name: Paylaşılan numara serilerini kullanarak satıcıları kopyalama
+                  href: accounts-payable/vendor-copy.md
                 - name: Fatura günlüğüne satıcı faturası kaydetme
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
             - name: Borç hesaplarındaki faturaları ve önemli verileri denetleme
@@ -264,7 +268,7 @@
                   href: cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Satıcı ödemeleri çalışma alanı
                   href: accounts-payable/vendor-payments-workspace.md
-                - name: Çapraz kur belirtme
+                - name: Çapraz kuru belirtme
                   href: accounts-payable/specify-cross-rate.md
                 - name: Satıcı ödeme masraflarını tanımlama
                   href: accounts-payable/tasks/define-vendor-payment-fees.md
@@ -274,9 +278,9 @@
                   href: accounts-payable/create-vendor-payments-payment-proposal.md
                 - name: Satıcı ödemesini tersine çevirme
                   href: accounts-payable/reverse-vendor-payment.md
-                - name: Satıcı çekleri için elektronik raporlama
+                - name: Satıcı çekleri için elektronik raporlama örneği
                   href: accounts-payable/electronic-reporting-sample-vendor-checks.md
-                - name: Ön ödeme faturaları ve ön ödemelere genel bakış
+                - name: Peşinat faturaları ve ön ödemelere genel bakış
                   href: accounts-payable/prepayments-invoices-vs-prepayments.md
                 - name: Kısmi satıcı ödemesini iskonto tarihinden önce kapatma
                   href: accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md
@@ -300,6 +304,18 @@
           items:
             - name: Alacak hesapları giriş sayfası
               href: accounts-receivable/accounts-receivable.md
+            - name: Müşteri ödeme koşulları oluşturma
+              href: general-ledger/tasks/establish-customer-payment-terms.md
+            - name: Müşteri ödeme yöntemi oluşturma
+              href: accounts-receivable/tasks/establish-customer-method-payment.md
+            - name: Müşteri ödeme masrafları oluşturma
+              href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: Müşteri deftere nakil profilleri
+              href: accounts-receivable/customer-posting-profiles.md
+            - name: Paylaşılan numara serilerini kullanarak müşterileri kopyalama
+              href: accounts-receivable/copy-customer.md
+            - name: Müşteri iş akışı
+              href: accounts-receivable/customer-workflow.md
             - name: Alacak hesaplarındaki alacak ve tahsilatlar
               href: accounts-receivable/collections-credit-accounts-receivable.md
             - name: Alacak hesapları ile alacak ve tahsilatları yapılandırma
@@ -322,68 +338,54 @@
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Müşteri deftere nakil profilleri
               href: accounts-receivable/customer-posting-profiles.md
-            - name: SEPA hesaptan ödemeye genel bakış
+            - name: SEPA talimatlı ödemeye genel bakış
               href: accounts-receivable/sepa-direct-debit-overview.md
-            - name: SEPA hesaptan ödeme talimatı
+            - name: SEPA talimatlı ödeme talimatı ayarlama
               href: accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Kredi kartı ayarı, onayı ve çekimi'
               href: accounts-receivable/credit-card-authorizations.md
             - name: Serbest metin faturası oluşturma
               href: accounts-receivable/create-free-text-invoice-new.md
+            - name: Serbest metin faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girişleri
+              href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Serbest metin faturası şablonu oluşturma
               href: accounts-receivable/create-free-text-invoice-template-new.md
             - name: Serbest metin faturasını düzeltme
               href: accounts-receivable/correct-free-text-invoice.md
             - name: Müşteriye serbest metin faturası şablonu atama
               href: accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
+            - name: Yinelenen faturalar ayarlama ve işleme
+              href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Yinelenen serbest metin faturaları oluşturma ve deftere nakletme
               href: accounts-receivable/tasks/post-recurring-free-text-invoices.md
             - name: Satış siparişi faturaları oluşturma
               href: accounts-receivable/tasks/create-sales-order-invoices.md
-            - name: Faiz kodu için faiz oranları ayarlama
-              href: accounts-receivable/set-up-interest-rates-interest-code.md
-            - name: 'Faiz ücretlerinden feragat etme, bunları eski durumuna getirme veya tersine çevirme'
-              href: accounts-receivable/waive-reinstate-reverse-interest-fees.md
-            - name: Faiz işleme
-              href: accounts-receivable/tasks/process-interest.md
             - name: Müşteri faturası oluşturma
               href: accounts-receivable/configure-customer-invoices.md
-            - name: Müşteri ödemelerini havale etme
-              href: accounts-receivable/tasks/deposit-customer-payments.md
-            - name: Müşteri ödeme koşulları oluşturma
-              href: general-ledger/tasks/establish-customer-payment-terms.md
-            - name: Müşteri ödeme yöntemi oluşturma
-              href: accounts-receivable/tasks/establish-customer-method-payment.md
-            - name: Müşteri ödeme masrafları oluşturma
-              href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: Müşteri hareketleri listesi sayfası
+              href: accounts-receivable/customer-transactions-list-page.md
             - name: Kambiyo senetleri ayarlama
               href: accounts-receivable/set-up-bills-exchange.md
             - name: Alacak hesaplarını kapatma
               href: accounts-receivable/close-accounts-receivable.md
-            - name: Tahsilat mektubu sırası oluşturma
-              href: accounts-receivable/tasks/create-collection-letter-sequence.md
-            - name: Tahsilat mektuplarını işleme
-              href: accounts-receivable/tasks/process-collection-letters.md
-            - name: Müşteri için hesaptan ödeme talimatı oluşturma
-              href: accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-            - name: Aralığa sahip faiz kodu oluşturma
-              href: accounts-receivable/tasks/create-interest-code-range.md
-            - name: Müşteri için silme günlüğü oluşturma
-              href: accounts-receivable/tasks/create-write-off-journal-customer.md
-            - name: Alacak hesapları yaşlandırma bilgilerini ayarlama ve oluşturma
-              href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-            - name: Paylaşılan numara sıralarını kullanarak müşterileri kopyalama
-              href: accounts-receivable/copy-customer.md
-            - name: Müşteri iş akışı
-              href: accounts-receivable/customer-workflow.md
             - name: Ödemeler ve kapatmalar
               items:
+                - name: Gelir kabulüne genel bakış
+                  href: accounts-receivable/revenue-recognition-overview.md
                 - name: Müşteri ödemesine genel bakış
                   href: cash-bank-management/tasks/customer-payment-overview.md
-                - name: Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak için bir müşteri ödemesi kullanma
-                  href: accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: Alacak hesapları için merkezi ödemeler
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
+                - name: Müşteri ödemelerini havale etme
+                  href: accounts-receivable/tasks/deposit-customer-payments.md
+                - name: SEPA talimatlı ödemeye genel bakış
+                  href: accounts-receivable/sepa-direct-debit-overview.md
+                - name: SEPA talimatlı ödeme talimatı
+                  href: accounts-receivable/sepa-direct-debit-mandate.md
+                - name: Müşteri için talimatlı ödeme talimatı oluşturma
+                  href: accounts-receivable/tasks/create-direct-debit-mandate-customer.md
+                - name: Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak için bir müşteri ödemesi kullanma
+                  href: accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: Kısmi müşteri ödemesini veya son ödemeyi iskontodan önce kapatma
                   href: accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md
                 - name: 'Kısmi müşteri ödemesini iskonto tarihinden önce, iskonto tarihinden sonraki bir son ödeme ile kapatma'
@@ -396,15 +398,55 @@
                   href: accounts-receivable/reimburse-customers.md
                 - name: Kısmi tutar için müşteri ödemeleri
                   href: accounts-receivable/customer-payments-partial-amount.md
-                - name: Müşteri hareketleri listesi sayfası
-                  href: accounts-receivable/customer-transactions-list-page.md
+            - name: Alacak ve tahsilatlar
+              items:
+                - name: Alacak ve tahsilatlara genel bakış
+                  href: accounts-receivable/cm-credit-and-collections-overview.md
+                - name: Alacak yönetimi kurulumu
+                  href: accounts-receivable/cm-credit-mgmt-setup.md
+                - name: Alacak yönetimi kurulum bilgileri
+                  href: accounts-receivable/cm-setup-information.md
+                - name: Müşteri için alacak yönetimi bilgileri ekleme
+                  href: accounts-receivable/cm-add-credit-mgmt-information-customer.md
+                - name: Müşteri alacak grupları
+                  href: accounts-receivable/cm-customer-credit-groups.md
+                - name: Alacak limiti ayarlamaları
+                  href: accounts-receivable/cm-credit-limit-adjustments.md
+                - name: Satış siparişleri için askıda krediler
+                  href: accounts-receivable/cm-sales-order-credit-holds.md
+                - name: Periyodik alacak yönetimi görevleri
+                  href: accounts-receivable/cm-periodic-tasks.md
+                - name: Koleksiyonlar yönetimi temel kavramları
+                  href: accounts-receivable/cm-collections-concepts.md
+                - name: Alacak hesapları ile alacak ve tahsilatları yapılandırma
+                  href: accounts-receivable/accounts-receivables-set-up-overview.md
+                - name: Alacak ve tahsilatları ayarlama
+                  href: accounts-receivable/set-up-collections.md
+            - name: Faiz kodu için faiz oranlarını ayarlama
+              href: accounts-receivable/set-up-interest-rates-interest-code.md
+            - name: Aralığa sahip faiz kodu oluşturma
+              href: accounts-receivable/tasks/create-interest-code-range.md
+            - name: 'Faiz ücretlerinden feragat etme, bunları eski durumuna getirme veya tersine çevirme'
+              href: accounts-receivable/waive-reinstate-reverse-interest-fees.md
+            - name: Faiz işleme
+              href: accounts-receivable/tasks/process-interest.md
+            - name: Tahsilat bilgilerini gözden geçirme
+              href: accounts-receivable/tasks/review-collections-information.md
+            - name: Tahsilat mektubu sırası oluşturma
+              href: accounts-receivable/tasks/create-collection-letter-sequence.md
+            - name: Tahsilat mektuplarını işleme
+              href: accounts-receivable/tasks/process-collection-letters.md
+            - name: Alacak hesapları yaşlandırma bilgilerini ayarlama ve oluşturma
+              href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Müşteri için silme günlüğü oluşturma
+              href: accounts-receivable/tasks/create-write-off-journal-customer.md
         - name: Bütçeleme
           items:
             - name: Bütçeleme giriş sayfası
               href: budgeting/budgeting-overview.md
             - name: Bütçe planlamaya genel bakış
               href: budgeting/budget-planning-overview-configuration.md
-            - name: Bütçe denetimine genel bakış
+            - name: Bütçe kontrolüne genel bakış
               href: budgeting/budget-control-overview-configuration.md
             - name: Bütçelemeye genel bakış
               href: budgeting/basic-budgeting-overview-configuration.md
@@ -416,6 +458,8 @@
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
             - name: Excel için bütçe planlama şablonları
               href: budgeting/budget-planning-excel-templates.md
+            - name: Bütçe planlama düzenini uzatma
+              href: budgeting/extending-budget-planning-layout.md
             - name: Pozisyon bütçeleme sorunlarını giderme
               href: budgeting/position-budgeting-set-up-issues.md
             - name: Bütçe planlama
@@ -452,7 +496,7 @@
               href: cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
             - name: Kredi mektupları ve ithalat tahsilatları
               href: cash-bank-management/letters-of-credit-import-collections.md
-            - name: Kredi mektubunu dışa aktarma
+            - name: Kredi mektuplarını dışa aktarma
               href: cash-bank-management/tasks/export-letter-credit.md
             - name: Kredi mektubunu içe aktarma
               href: cash-bank-management/tasks/import-letter-credit.md
@@ -478,7 +522,7 @@
               href: cash-bank-management/tasks/settle-postdated-check-vendor.md
             - name: Boş durumunda olan çek oluşturma
               href: cash-bank-management/create-check-with-blank-status.md
-            - name: Ön ödeme faturaları ve ön ödemeler karşılaştırması
+            - name: Peşinat faturaları ve ön ödemeler karşılaştırması
               href: accounts-payable/prepayments-invoices-vs-prepayments.md
             - name: Fazla ödemeler için nakit iskontolarını işleme
               href: cash-bank-management/cash-discount-handling-overpayments.md
@@ -486,11 +530,11 @@
               href: cash-bank-management/set-up-centralized-payments.md
             - name: Otomatik kapatma ve öncelik belirleme
               href: accounts-receivable/automatic-settlement-prioritization.md
-            - name: Basit banka mutabakatı
+            - name: Banka hesabı için mutabakat sağlama
               href: cash-bank-management/reconcile-bank-account.md
             - name: Gelişmiş banka mutabakatı
               items:
-                - name: Gelişmiş banka mutabakatı ayarlama görevleri
+                - name: Gelişmiş banka mutabakatı kurulum süreci
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
                 - name: Gelişmiş banka mutabakatı içe aktarma sürecini ayarlama
                   href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
@@ -598,6 +642,10 @@
               href: expense-management/expense-workflows.md
             - name: Gider yönetimi iş akışı
               href: expense-management/expense-workflow.md
+            - name: Gider temsilcisini yönetme
+              href: expense-management/manage-expense-delegation.md
+            - name: Gider makbuzu işleme
+              href: expense-management/expense-receipt-processing.md
             - name: Kredi kartı hareketlerini içe aktarma ve yönetme
               href: expense-management/import-credit-card.md
             - name: Gider raporundaki dağıtımlar
@@ -790,7 +838,7 @@
                   href: general-ledger/process-allocations.md
                 - name: Mali boyutlar
                   href: general-ledger/financial-dimensions.md
-                - name: Konsolidasyon hesabı grupları ve hesapları
+                - name: Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları
                   href: budgeting/consolidation-account-groups-consolidation-accounts.md
                 - name: Konsolidasyon ve elemeye genel bakış
                   href: budgeting/consolidation-elimination-overview.md
@@ -830,6 +878,8 @@
                   href: general-ledger/tasks/create-journal-entry-template.md
                 - name: Genel muhasebe tahakkuk hareketleri oluşturma
                   href: general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Yardımcı defterden Genel muhasebeye transfer
+                  href: general-ledger/subledger-transfer.md
                 - name: Excel'den günlük satırlarını ve belgeleri yayımlama
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Günlük girişlerini ve hareketlerini görüntüleme
@@ -916,7 +966,7 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: İşçilik ve masraflar için standart maliyetleri yapılandırma
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
-            - name: Proje maliyeti tahakkuku satınalma girişleri
+            - name: Satınalma girişlerinde proje maliyeti tahakkuku
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Proje faturalama
               href: accounts-payable/project-invoicing.md
@@ -962,6 +1012,8 @@
               href: public-sector/forecast-positions.md
             - name: Kamu sektöründe tahmin pozisyonu raporları
               href: public-sector/forecast-position-reports.md
+            - name: Nakit pozisyonu sorgulamasını ayarlama ve çalıştırma
+              href: public-sector/cash-position-inquiry-setup.md
             - name: Kamu sektöründe borç hesapları
               items:
                 - name: Kamu sektöründe borç hesaplarına genel bakış
@@ -1068,6 +1120,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Mali rapor bileşenleri
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Mali raporlamada para birimi özellikleri
+              href: general-ledger/financial-reporting-currency-capability.md
             - name: Bilanço mali raporları
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Mali raporlar oluşturma
@@ -1242,6 +1296,8 @@
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: SPED mali 2020 - SPED mali düzeni 014 için tamamlayıcı ICMS-ST bilgileri
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
+                - name: SPED mali – Düzen 014
+                  href: localizations/latam-bra-sped-fiscal-layout-014.md
                 - name: Tüzel kişilikler için parametreler
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Tüzel kişilik parametrelerini ayarlama
@@ -1450,7 +1506,7 @@
                   href: localizations/emea-corrective-invoice.md
                 - name: Periyodik günlükler oluşturma ve deftere nakletme
                   href: localizations/emea-create-post-periodic-journals.md
-                - name: Hesaptan ödeme talimatları olan bir müşteri için ödemeler oluşturma
+                - name: talimatlı ödeme talimatları olan bir müşteri için ödemeler oluşturma
                   href: localizations/tasks/create-payments-customers-who-have-direct-debit-mandates.md
                 - name: Satış siparişlerindeki fatura kodlarını düzenleme
                   href: localizations/emea-edit-invoice-id-sales-orders.md
@@ -1474,19 +1530,19 @@
                   items:
                     - name: ISO20022 dosyalarını içe aktarma
                       href: localizations/emea-ISO20022-file-formats.md
-                    - name: ISO20022 hesaptan ödeme yapılandırmasını içe aktarma
+                    - name: ISO20022 talimatlı ödeme yapılandırmasını içe aktarma
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
                     - name: ISO20022 alacak transferi yapılandırmasını içe aktarma
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: ISO20022 alacak transferleri için şirket banka hesapları ayarlama
                       href: localizations/tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md
-                    - name: ISO20022 hesaptan ödemeleri için şirket banka hesapları ayarlama
+                    - name: ISO20022 talimatlı ödemeleri için şirket banka hesapları ayarlama
                       href: localizations/tasks/set-up-company-bank-accounts-iso20022-direct-debits.md
                     - name: ISO20022 alacak transferi için ödeme yöntemini ayarlama
                       href: localizations/tasks/set-up-method-payment-iso20022-credit-transfer.md
-                    - name: ISO20022 hesaptan ödemesi için ödeme yöntemini ayarlama
+                    - name: ISO20022 talimatlı ödemesi için ödeme yöntemini ayarlama
                       href: localizations/tasks/setup-method-payment-iso20022-direct-debit.md
-                    - name: ISO20022 hesaptan ödemeleri için müşterileri ve müşteri banka hesaplarını ayarlama
+                    - name: ISO20022 talimatlı ödemeleri için müşterileri ve müşteri banka hesaplarını ayarlama
                       href: localizations/tasks/set-up-bank-accounts-iso20022-direct-debits.md
                     - name: ISO20022 alacak transferleri için satıcıları ve satıcı banka hesaplarını ayarlama
                       href: localizations/tasks/set-up-vendor-iso20022-credit-transfers.md
@@ -1534,7 +1590,7 @@
                   href: localizations/emea-reverse-charge.md
                 - name: SEPA alacak transferine genel bakış
                   href: accounts-payable/sepa-credit-transfer.md
-                - name: SEPA hesaptan ödemeye genel bakış
+                - name: SEPA talimatlı ödemeye genel bakış
                   href: accounts-receivable/sepa-direct-debit-overview.md
                 - name: Müşteri ve satıcı ücreti ayarlama
                   href: localizations/emea-compensation-customer-vendor-transactions.md
@@ -1554,6 +1610,8 @@
                   href: localizations/emea-tax-directives.md
                 - name: Tutarların raporlarda ve belgelerde nasıl görüntüleneceğini güncelleştirme
                   href: localizations/emea-amount-printing-forms.md
+                - name: Fatura hesabındaki mali verileri kullanma
+                  href: localizations/use-fiscal-data-from-invoice-account.md
                 - name: Katma Değer Vergisi (KDV)
                   items:
                     - name: KDV Kodu ayarlama
@@ -1911,10 +1969,16 @@
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Gelişmiş notlar yönetimi
                   href: localizations/emea-ita-exil-structured-notes.md
+                - name: Niyet mektupları - Her zamanki ihracatçılar için faturalama
+                  href: localizations/emea-ita-exil-intent-letter.md
                 - name: Ücretsiz olarak teslim edilen mallar için vergi faturası
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: Borç veya alacak kapatmalarda gelişmiş sorgu
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: Genel muhasebe benzetimleri (İtalya)
+                  href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: Benzersiz sertifika
+                  href: localizations/emea-ita-exil-unique-certification.md
             - name: Japonya
               items:
                 - name: Japonya'ya genel bakış
@@ -2099,6 +2163,8 @@
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
                 - name: KDV beyanı ayrıntıları
                   href: localizations/emea-ltu-vat-statement-details.md
+                - name: Litvanya için i.SAF raporlama
+                  href: localizations/emea-ltu-isaf.md
             - name: Malezya
               items:
                 - name: Malezya'ya genel bakış
@@ -2231,6 +2297,10 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Genel muhasebe çevirisi
                       href: localizations/rus-ledger-translation-procedure.md
+                    - name: Ciro bakiye ekstresi raporları
+                      href: localizations/rus-turnover-balance-statement-reports.md
+                    - name: Hesap faaliyeti raporları
+                      href: localizations/rus-account-activity-reports.md
                 - name: Avans sahipleri
                   items:
                     - name: Rusya'daki avans sahiplerine genel bakış
@@ -2239,7 +2309,7 @@
                       href: 'localizations/emea-advance-holders.md#create-an-advance-holder'
                     - name: Avans sahipleri için günlük işlemler
                       href: localizations/rus-advance-holders-daily-operations.md
-                    - name: Bütçe denetimiyle avans raporları
+                    - name: Bütçe kontrolüyle avans raporları
                       href: localizations/rus-advance-holders-reports-dailyops.md
                     - name: Avans sahipleri için yabancı para birimini yeniden değerleme
                       href: localizations/rus-advance-adjustment-parameters.md
@@ -2339,12 +2409,26 @@
                       href: localizations/rus-miscellaneous-charges.md
                     - name: Üçüncü taraf sair masraflar
                       href: localizations/rus-third-party-misc-charges.md
+                    - name: Sözleşmeler
+                      items:
+                        - name: Sözleşmelere genel bakış
+                          href: localizations/rus-agreements.md
+                        - name: Sözleşme ayarlama ve oluşturma
+                          href: localizations/rus-set-up-and-create-agreements.md
+                        - name: Referans gösterilen hareketleri sözleşmelere kaydetme
+                          href: localizations/rus-register-transactions-with-reference-to-agreements.md
+                        - name: Sözleşmelerle ilgili sorgulamalar ve raporlar
+                          href: localizations/rus-inquiries-reports-agreements.md
                 - name: Stok
                   items:
                     - name: Satıcıdan alınan transitteki mallar
                       href: localizations/rus-goods-transit-vendor.md
                     - name: Gümrük beyannamesi numaraları
                       href: localizations/rus-custom-declaration-number.md
+                    - name: Stok maliyeti yapısı
+                      href: localizations/rus-inventory-cost-structure.md
+                    - name: Stok düzeltmesi sihirbazı
+                      href: localizations/rus-inventory-adjustment-wizard.md
                 - name: Raporlama
                   items:
                     - name: Mali raporlama
@@ -2359,6 +2443,8 @@
                       href: localizations/rus-transport-tax-declaration.md
                     - name: Arazi vergisi beyannamesi
                       href: localizations/rus-land-tax-declaration.md
+                    - name: Kazanç vergisi beyannamesi
+                      href: localizations/rus-profit-tax-declaration.md
                 - name: Kuruluş yönetimi
                   items:
                     - name: Adresle ilgili vergi sicil bilgileri
@@ -2457,6 +2543,10 @@
                   href: localizations/apac-tha-unrealized-vat.md
                 - name: Stopaj vergisi
                   href: localizations/apac-tha-withholding-tax.md
+            - name: Birleşik Arap Emirlikleri (BAE)
+              items:
+                - name: Katma değer vergisi (KDV) ayarlama ve raporlama
+                  href: localizations/uae-vat-setup-reporting.md
             - name: Birleşik Krallık
               items:
                 - name: Birleşik Krallık'a genel bakış
@@ -2489,51 +2579,59 @@
           items:
             - name: İnsan kaynaklarına genel bakış
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: İnsan kaynakları stratejisi geliştirme
+            - name: Human Resources'ı ayarlama
               items:
-                - name: Hedef oluşturma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-goal.md
-                - name: 'Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme'
-                  href: ../talent/departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: İş bileşenlerini ayarlama
-                  href: ../talent/create-job.md?toc=/dynamics365/finance/toc.json
-                - name: Yeni departmanlar tanımlama
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-new-departments.md
-                - name: Yeni işler tanımlama
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-new-jobs.md
-                - name: Departman oluşturma ve departman hiyerarşisi ile ilişkilendirme
-                  href: ../talent/create-department-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: Takvimler ve çalışma zamanları oluşturma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-calendar-working-times.md
-                - name: Tüzel kişilikler arasında İK parametreleri ayarlama
-                  href: ../talent/set-up-hr-parameters-across-legal-entities.md?toc=/dynamics365/finance/toc.json
-                - name: Şirkete özgü İK parametreleri ayarlama
-                  href: ../talent/set-up-company-specific-hr-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Human Resources parametrelerini yapılandırma
+                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Human Resources paylaşılan parametrelerini yapılandırma
+                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: İnsan kaynakları iş akışlarını ayarlama
+                  href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
+                - name: Tarih ve Saat alanlarını anlama
+                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
+            - name: Personeli yönetme
+              items:
+                - name: İş gücünüzü düzenleme
+                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
+                - name: İşin bileşenlerini ayarlama
+                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Departmanları tanımlama
+                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
+                - name: Hiyerarşiye bir departman ekleme
+                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
+                - name: İşleri tanımlama
+                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Çalışma zamanları takvimleri oluşturma
+                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
                 - name: Personel eylemleriyle ilgili SSS
-                  href: ../talent/personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Personel bilgilerini yönetmek için iş akışı kullanma
-                  href: ../talent/workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Pozisyonlar için raporlama ilişkilerini değiştirme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/modify-reporting-relationships-position.md
-                - name: Uygulama gelen kutusu kayıtlarını onaylama
-                  href: ../fin-ops-core/fin-ops/hr/tasks/approve-application-inbox-records.md
+                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
+                - name: Personel bilgilerini yönetmek için iş akışları kullanma
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
+                - name: Pozisyonun raporlama ilişkilerini değiştirme
+                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
                 - name: Çalışan bilgilerini girme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-worker-information.md
+                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
                 - name: Maddeleri çalışanlara ödünç verme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/loan-item-worker.md
+                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
                 - name: Ödünç verme maddeleri oluşturma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-loan-items.md
-                - name: Çalışanlara ödünç verilen maddeleri yönetme
-                  href: ../talent/loan-items.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
+                - name: Ödünç verme maddelerini yönetme
+                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
                 - name: Yedekleme planı geliştirme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-succession-plan.md
+                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
                 - name: Proje zaman çizelgelerini girme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-project-timesheets.md
-                - name: E-posta şablonlarını yönetme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-email-templates.md
-                - name: Devamsızlıkları yönetme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-leave-absence.md
-            - name: İşe alma
+                  href: ../human-resources/hr-personnel-enter-project-timesheets.md?toc=/dynamics365/finance/toc.json
+                - name: Toplu işe alma projeleri
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
+                - name: Toplu işe alma projesi oluşturma
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
+                - name: Pozisyonları ayarlama
+                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
+                - name: Yaralanma ve hastalık bilgilerini ayarlama
+                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+                - name: Personelin yaralanma ve hastalık bilgilerini koruma
+                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+            - name: Adayları işe alma
               items:
                 - name: İşe alma süreçlerini yönetme
                   href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
@@ -2553,76 +2651,80 @@
                   href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
                 - name: Aday seçim araçlarını tanımlama ve dağıtma
                   href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Personeli motive etme
+            - name: Ücret planları ayarlama
               items:
-                - name: Ücret planları
-                  href: ../talent/compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Sabit ücret planları oluşturma
-                  href: ../talent/create-fixed-compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Değişken ücret planları oluşturma
-                  href: ../talent/create-variable-compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Ücret işlemlerini tanımlama ve sonuçları hesaplama
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-compensation-process-calculate-results.md
-                - name: Ücreti işleme
-                  href: ../talent/process-compensation.md?toc=/dynamics365/finance/toc.json
+                - name: Ücret planlarına genel bakış
+                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Ücret kademelerini ayarlama
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-compensation-grids.md
-                - name: Maaş/ücret yapıları ve planları geliştirme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-salary-compensation-structure-plan.md
-                - name: Performans günlüğünüze bilgi ekleme ve övgü gönderme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md
+                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
+                - name: Ücret yapısı ve planı geliştirme
+                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
+                - name: Sabit ücret planları oluşturma
+                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
+                - name: Değişken ücret planları oluşturma
+                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
                 - name: Personeli sabit ücret planına kaydetme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-employee-fixed-compensation-plan.md
+                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
                 - name: Personeli değişken ücret planına kaydetme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-employee-variable-compensation-plan.md
-                - name: Performans incelemeleri oluşturma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-performance-review.md
-            - name: Personeli geliştirme ve eğitme
+                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
+                - name: Ücret işlemini tanımlama ve sonuçları hesaplama
+                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
+                - name: Maaş planlarını işleme
+                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
+            - name: Kazançları yönetme
+              items:
+                - name: Kazanç programı tanımlama ve yönetme
+                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
+                - name: Kazanca uygunluk ilkeleri
+                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
+                - name: Kazanca uygunluk işlemi
+                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
+                - name: Kazanca uygunluk kurallarını ve ilkelerini tanımlama
+                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
+                - name: Personel kazançları programı oluşturma
+                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
+                - name: Yeni kazançlar oluşturma
+                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
+                - name: Çalışanları kazançlara kaydetme
+                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
+                - name: Kazanç geçerlilik bitiş tarihlerini yönetme
+                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
+                - name: ACA raporları oluşturma
+                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Çalışanları geliştirme
               items:
                 - name: Performans yönetimine genel bakış
-                  href: ../talent/performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: İş gücü becerilerini iş ihtiyaçlarına uygun hale getirme
-                  href: ../talent/skills.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
+                - name: İş gücü becerilerini dengeleme
+                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
+                - name: Performans günlüğünüze ekleme
+                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
+                - name: Hedef oluşturma
+                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
+                - name: Performans değerlendirmesi oluşturma
+                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
+            - name: Kurslar oluşturma
+              items:
                 - name: Eğitim kursları ayarlama
-                  href: ../talent/courses.md?toc=/dynamics365/finance/toc.json
-            - name: Kazanç oluşturma ve koruma
-              items:
-                - name: Kazanç programını yönetme
-                  href: ../talent/manage-benefit-program.md?toc=/dynamics365/finance/toc.json
-                - name: Kazanca uygunluk ilkeleri
-                  href: ../talent/benefit-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: Kazanca uygunluk işlemi
-                  href: ../fin-ops-core/fin-ops/hr/tasks/benefit-eligibility-process.md
-                - name: Kazanca uygunluk kurallarını ve ilkelerini tanımlama
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-benefit-eligibility-rules-policies.md
-                - name: Personel kazançları programı oluşturma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/deliver-employee-benefits-program.md
-                - name: Yeni kazançlar oluşturma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-new-benefit.md
-                - name: Çalışanları kazanca kaydetme ve çalışanlardan kazanç kaldırma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-remove-benefits-workers.md
-                - name: Kazanç geçerlilik bitiş tarihlerini yönetme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-benefit-expiration-dates.md
-            - name: Soru formları kullanarak bilgi toplama
-              items:
-                - name: Soru formları
-                  href: ../talent/questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Soru formu tasarlama
-                  href: ../talent/design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Soru formunu dağıtma ve doldurma
-                  href: ../talent/distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
+                - name: Soru formlarına genel bakış
+                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Soru formları tasarlama
+                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Soru formlarını dağıtma ve planlama
+                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
                 - name: Planlamayı kullanarak soru formlarını dağıtma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/distribute-questionnaires-scheduling.md
-                - name: Soru formunun sonuçlarını değerlendirme
-                  href: ../talent/evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
+                - name: Soru formu sonuçlarını görüntüleme
+                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
                 - name: Soru formu sonuçlarını analiz etme
-                  href: ../fin-ops-core/fin-ops/hr/tasks/analyze-questionnaire-results.md
-                - name: Açık uçlu sorular oluşturma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-open-ended-question.md
-                - name: Kapalı uçlu sorular oluşturma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-closed-ended-question.md
-                - name: Önceki sorunun yanıtına bağımlı sorular hazırlama
-                  href: ../fin-ops-core/fin-ops/hr/tasks/make-question-dependent-answer-previous-question.md
+                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                - name: Açık uçlu soru oluşturma
+                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Kapalı uçlu soru oluşturma
+                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Bağımlı soru oluşturma
+                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
             - name: Çalışma alanı güvenliği ve uyumluluğu (ABD)
               items:
                 - name: Form I-9 doğrulama
@@ -2635,15 +2737,11 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
                 - name: Çalışan konaklamalarını yönetme
                   href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-                - name: Yaralanma ve hastalık bilgilerini ayarlama
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-injury-illness-information.md
-                - name: Personelin yaralanma ve hastalık bilgilerini koruma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/maintain-employee-injury-illness-information.md
         - name: Karar desteği
           items:
             - name: Karar desteği giriş sayfası
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/finance/toc.json
-            - name: Bilgi erişimi ve raporlama
+            - name: Bilgiye erişim ve raporlama
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Power BI içeriği
               items:
@@ -2653,7 +2751,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Kazançlar
                   href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: Nakde genel bakış
+                - name: Nakde genel bakış Power BI içeriği
                   href: cash-bank-management/Cash-Overview-Power-BI-content.md
                 - name: CFO'ya genel bakış
                   href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/finance/toc.json
@@ -2779,8 +2877,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: Biçimin yeni bir temel sürümünü benimseyerek biçimi yükseltme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-                - name: Elektronik raporlamada formül tasarımcısı
-                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
+                - name: Elektronik raporlamada formül tasarımcıları
+                  items:
+                    - name: Formül tasarımcısı
+                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
+                    - name: Gelişmiş formül tasarımcısı
+                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
                 - name: Formül dili ve işlevleri
                   items:
                     - name: Formül dili
@@ -2895,10 +2997,10 @@
                           items:
                             - name: Kayıt işlevleri
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/finance/toc.json
-                            - name: NullContainer
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
                             - name: EmptyRecord
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/finance/toc.json
+                            - name: NullContainer
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
                         - name: Text
                           items:
                             - name: Metin işlevleri
@@ -2931,7 +3033,7 @@
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-padleft.md?toc=/dynamics365/finance/toc.json
                             - name: QrCode
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
-                            - name: Değiştir
+                            - name: Replace
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/finance/toc.json
                             - name: Right
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/finance/toc.json
@@ -2973,8 +3075,6 @@
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/finance/toc.json
                             - name: FA_Balance
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/finance/toc.json
-                            - name: CH_Bank_Mod_10
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/finance/toc.json
                             - name: FA_Sum
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/finance/toc.json
                             - name: GetCurrentCompany
@@ -2995,37 +3095,37 @@
                           items:
                             - name: Tür dönüştürme işlevleri
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/finance/toc.json
-                            - name: Int64Value
+                            - name: 'Tür: Int64Value'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/finance/toc.json
-                            - name: IntValue
+                            - name: 'Tür: IntValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: NumberValue
+                            - name: 'Tür: NumberValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
-                            - name: Value
+                            - name: 'Tür: Value'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tarih ve Saat kategorisi: DateTimeValue'
+                            - name: 'Tarih ve Saat: DateTimeValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tarih ve Saat kategorisi: DateToDateTime'
+                            - name: 'Tarih ve Saat: DateToDateTime'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tarih ve Saat kategorisi: DateValue'
+                            - name: 'Tarih ve Saat: DateValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Liste kategorisi: List'
+                            - name: 'Liste: List'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Liste kategorisi: ListOfFields'
+                            - name: 'Liste: ListOfFields'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Liste kategorisi: Split'
+                            - name: 'Liste: Split'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Liste kategorisi: StringJoin'
+                            - name: 'Liste: StringJoin'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Metin kategorisi: Char'
+                            - name: 'Metin: Char'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Metin kategorisi: GuidValue'
+                            - name: 'Metin: GuidValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Metin kategorisi: NumberFormat'
+                            - name: 'Metin: NumberFormat'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Metin kategorisi: QrCode'
+                            - name: 'Metin: QrCode'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Metin kategorisi: Text'
+                            - name: 'Metin: Text'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
                 - name: Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
@@ -3151,7 +3251,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
                 - name: Eğitimler
                   items:
-                    - name: Elektronik raporlama (ER) model eşlemelerinde birden çok uygulama tablosundan veri almak için BİRLEŞTİRME veri kaynaklarını kullanma
+                    - name: Birden çok uygulama tablosundan veri almak için JOIN veri kaynaklarını kullanma
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
                     - name: Ülke bağlamına bağımlı ER model eşlemeleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
@@ -3159,11 +3259,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
                     - name: Her tüzel kişilik için ER biçiminin parametrelerini ayarlama
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
+                    - name: ER biçim öğelerinin yürütülmesini erteleme
+                      items:
+                        - name: Dizi öğesinin yürütülmesini erteleme
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                        - name: XML öğesinin yürütülmesini erteleme
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
                 - name: Finance and Operations'ta Elektronik raporlama çözümlerini kullanma
                   items:
-                    - name: Altyapıyı yapılandırma
+                    - name: Çerçeveyi yapılandırma
                       items:
-                        - name: Elektronik raporlama altyapısını yapılandırma
+                        - name: Elektronik raporlama çerçevesini yapılandırma
                           href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Elektronik raporlama şablonlarını yedekleme ve kurtarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
@@ -3173,8 +3279,24 @@
                       items:
                         - name: Hedeflere genel bakış
                           href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/finance/toc.json
+                        - name: Hedef türleri
+                          items:
+                            - name: Arşiv hedefi
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                            - name: E-posta hedefi
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                            - name: Dosya hedefi
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                            - name: Power BI hedefi
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                            - name: Yazıcı hedefi
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                            - name: Ekran hedefi
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                         - name: Hedefleri yapılandırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: ER biçimine referans ayarlama
+                      href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Oluşturulan raporları otomatik olarak doğrulama
                       items:
                         - name: Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma
@@ -3195,9 +3317,11 @@
                       items:
                         - name: İş belgesi yönetimine genel bakış
                           href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                        - name: İş belgesi yönetiminde yeni belge kullanıcı arabirimi
+                          href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md
                         - name: Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
-                - name: ER çerçevesi API'sı
+                - name: ER çerçevesi API'si
                   items:
                     - name: Elektronik raporlama işlev listesini genişletme
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
@@ -3243,7 +3367,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
                 - name: Çalışma alanları için Power BI tümleştirmesini yapılandırma
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/finance/toc.json
-                - name: Kendi veritabanınızı getirme
+                - name: Kendi veritabanınızı getirin
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/finance/toc.json
         - name: Mobil uygulama
           items:
@@ -3287,7 +3411,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/finance/toc.json
             - name: Office tümleştirmesi eğitimi
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
-            - name: Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme
+            - name: Varlık verilerini Excel'de açma ve Excel Eklentisi'ni kullanarak güncelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
             - name: Excel'de Aç deneyimleri oluşturma
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
@@ -3305,13 +3429,13 @@
           items:
             - name: Kuruluş yönetimi giriş sayfası
               href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/finance/toc.json
-            - name: Numara sıraları
+            - name: Numara serileri
               items:
-                - name: Numara sıralarına genel bakış
+                - name: Numara serilerine genel bakış
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Bireysel olarak numara sıraları ayarlama
+                - name: Bireysel olarak numara serileri ayarlama
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/finance/toc.json
-                - name: Sihirbaz kullanarak numara sıraları ayarlama
+                - name: Sihirbaz kullanarak numara serileri ayarlama
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/finance/toc.json
             - name: Kuruluşlar ve kuruluş hiyerarşileri
               items:
@@ -3557,9 +3681,11 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'CustTrans::settleTransaction kullanarak hareketleri kapatma'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Finance and Operations uygulamaları geliştirme ve yönetimi
+    - name: Finance and Operations uygulamalarını geliştirme ve yönetme
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
+    - name: Dynamics 365 Commerce
+      href: ../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../retail/index.md
+      href: ../commerce/index.md

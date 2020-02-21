@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Bu makalede belirtilen işlev, tüm Korumalı Alan veya Deneme Sürümü ortamlarında genel önizleme olarak sunulmaktadır. Üretim ortamlarında kullanılamaz. İçerik ve işlevde değişiklik yapılabilir. Önizleme özellikleri hakkında daha fazla bilgi edinmek için bkz. [Özellikleri yönetme](../hr-admin-manage-features.md).

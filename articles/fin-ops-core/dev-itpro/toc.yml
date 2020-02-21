@@ -8,38 +8,50 @@
           href: index.md
         - name: Yenilikler veya değişiklikler
           items:
-            - name: Platform update 32'deki önizleme özellikleri (Şubat 2020)
-              href: get-started/whats-new-platform-update-32.md
-            - name: Platform update 31 (Ocak 2020)
-              href: get-started/whats-new-platform-update-31.md
-            - name: Platform update 30 (Kasım 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-30.md
-            - name: Platform update 29 (Ekim 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-29.md
-            - name: Platform update 28 (Temmuz 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-28.md
-            - name: Platform update 27 (Haziran 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-27.md
-            - name: Platform update 26 (Mayıs 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-26.md
-            - name: Platform update 25 (Nisan 2019)
-              href: ../fin-ops/get-started/whats-new-platform-25.md
-            - name: Platform update 24 (Mart 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-24.md
-            - name: Platform update 23 (Ocak 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (Aralık 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-22.md
-            - name: Platform update 21 (Kasım 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-21.md
-            - name: Platform update 20 (Eylül 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-20.md
-            - name: Platform update 15 (Mart 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-15.md
-            - name: Yenilikler veya önceki sürümde yapılan değişiklikler
+            - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
+              href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Platform güncelleştirmelerinde yenilikler veya değişiklikler
               items:
-                - name: Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler
-                  href: ../fin-ops/get-started/whats-new-changed.md
+                - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
+                  href: get-started/whats-new-home-page.md
+                - name: Platform update 33 (Nisan 2020)
+                  href: get-started/whats-new-platform-update-33.md
+                - name: Platform update 32 (Şubat 2020)
+                  href: get-started/whats-new-platform-update-32.md
+                - name: Platform update 31 (Ocak 2020)
+                  href: get-started/whats-new-platform-update-31.md
+                - name: Platform update 30 (Kasım 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
+                - name: Platform update 29 (Ekim 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
+                - name: Platform update 28 (Temmuz 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
+                - name: Platform update 27 (Haziran 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
+                - name: Platform update 26 (Mayıs 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
+                - name: Platform update 25 (Nisan 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-25.md
+                - name: Platform update 24 (Mart 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
+                - name: Platform update 23 (Ocak 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
+                - name: Platform update 22 (Aralık 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
+                - name: Platform update 21 (Kasım 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
+                - name: Platform update 20 (Eylül 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
+                - name: Platform update 15 (Mart 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Kaldırılan veya artık kullanılmayan özellikler
+              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Ertelenen AX 2012 özellikleri
+              href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Şirket içi dağıtımlarda uygulanmayan özellikler
+              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
+              href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: İş olayları
           items:
             - name: İş olaylarına genel bakış
@@ -92,7 +104,7 @@
               href: data-entities/integration-overview.md
             - name: Veri tümleştirme API'ları
               items:
-                - name: Veri yönetimi paketi REST API'sı
+                - name: Veri yönetimi paketi REST API'si
                   href: data-entities/data-management-api.md
                 - name: Servis uç noktaları
                   items:
@@ -133,46 +145,46 @@
                     - name: 'Eş zamanlı, çift yönlü tümleştirme'
                       items:
                         - name: Gerçek zamanlıya yakın veri tümleştirmesi
-                          href: data-entities/dual-write-overview.md
-                        - name: Common Data Service'da kuruluş hiyerarşisi
-                          href: data-entities/dual-write-organization.md
+                          href: data-entities/dual-write/dual-write-overview.md
+                        - name: Common Data Service'ta kuruluş hiyerarşisi
+                          href: data-entities/dual-write/organization-mapping.md
                         - name: Şirket tümleştirmesi
                           items:
-                            - name: Common Data Service'da şirket kavramı
-                              href: data-entities/dual-write-company.md
+                            - name: Common Data Services'ta şirket kavramı
+                              href: data-entities/dual-write/company-data.md
                             - name: Şirket verileriyle önyükleme
-                              href: data-entities/dual-write-bootstrap.md
+                              href: data-entities/dual-write/bootstrap-company-data.md
                         - name: Tümleşik müşteri aslı
-                          href: data-entities/dual-write-customer.md
+                          href: data-entities/dual-write/customer-mapping.md
                         - name: Tümleşik genel muhasebe
-                          href: data-entities/dual-write-ledger.md
+                          href: data-entities/dual-write/ledger-mapping.md
                         - name: Birleşik ürün deneyimi
-                          href: data-entities/dual-write-product.md
+                          href: data-entities/dual-write/product-mapping.md
                         - name: Satıcı tümleştirmesi
                           items:
                             - name: Tümleşik satıcı aslı
-                              href: data-entities/dual-write-vendor.md
+                              href: data-entities/dual-write/vendor-mapping.md
                             - name: Satıcı tasarımları arasında geçiş yapma
-                              href: data-entities/dual-write-vendor-switch.md
+                              href: data-entities/dual-write/vendor-switch.md
                         - name: Tümleşik siteler ve ambarlar
-                          href: data-entities/dual-write-sites-and-warehouses.md
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
                         - name: Tümleşik vergi aslı
-                          href: data-entities/dual-write-tax.md
+                          href: data-entities/dual-write/tax-mapping.md
                         - name: Başlangıç eşitlemesi
-                          href: data-entities/dual-write-initial.md
+                          href: data-entities/dual-write/initial-sync.md
                         - name: Veri tümleştirme sorunlarını giderme
-                          href: data-entities/dual-write-troubleshooting.md
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                     - name: 'Zaman uyumsuz, tek yönlü tümleştirme'
                       items:
                         - name: Aday müşteriden nakde senaryosu yapılandırma
                           items:
                             - name: Aday müşteriden nakde
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Sales'daki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
+                            - name: Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
                             - name: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
+                            - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'daki ilgili kişilerle veya müşterilerle eşitleme
                               href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
                             - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
                               href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
@@ -186,23 +198,23 @@
                               href: ../../supply-chain/sales-marketing/field-service.md
                             - name: Finance and Operations'taki ürünleri Field Service'teki ürünlerle eşitleme
                               href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
+                            - name: Field Service'teki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
                               href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: Field Service'daki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme
+                            - name: Field Service'teki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme
                               href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: Stok transferlerini ve ayarlamalarını Field Service'dan Finance and Operations'a eşitleme
+                            - name: Stok transferlerini ve ayarlamalarını Field Service'ten Finance and Operations'a eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: Stok düzeyi bilgilerini Field Service'dan Finance and Operations'a eşitleme
+                            - name: Stok düzeyi bilgilerini Field Service'ten Finance and Operations'a eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: Stok birimli ürünleri Finance and Operations'tan Field Service'a eşitleme
+                            - name: Stok birimli ürünleri Finance and Operations'tan Field Service'e eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: Proje listesini Finance and Operations'tan Field Service'a eşitleme
+                            - name: Proje listesini Finance and Operations'tan Field Service'e eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: Ambarları Finance and Operations'tan Field Service'a eşitleme
+                            - name: Ambarları Finance and Operations'tan Field Service'e eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Proje içeren iş emirlerini Field Service'tan Finance and Operations'a eşitleme
+                            - name: Proje içeren iş emirlerini Field Service'ten Finance and Operations'a eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: Project Service Automation tümleştirmesi yapılandırma
+                        - name: Project Service Automation tümleştirmesini yapılandırma
                           items:
                             - name: Project Service Automation'a genel bakış
                               href: ../../finance/project-management/PSA-integration.md
@@ -290,7 +302,7 @@
                   href: data-entities/third-party-service-test.md
                 - name: Mali boyutları gösteren salt okunur varlıklar oluşturma
                   href: financial/read-only-entity-financial.md
-            - name: Kendi veritabanınızı getirme
+            - name: Kendi veritabanınızı getirin
               href: analytics/export-entities-to-your-own-database.md
             - name: Otomatikleştirilmiş Varlık deposu yenileme
               href: analytics/automated-entity-store-refresh.md
@@ -594,7 +606,7 @@
                           href: dev-ref/xpp-events.md
                     - name: X++ verilerini seçme ve değiştirme
                       href: dev-ref/xpp-data-query.md
-                    - name: SysDa API'sını kullanarak verilere erişim
+                    - name: SysDa API'sini kullanarak verilere erişim
                       href: dev-ref/sysda.md
                     - name: X++ makroları
                       href: dev-ref/xpp-macros.md
@@ -912,7 +924,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: Hassas verilere erişimi yönetme
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: Talent kullanarak kişisel veri isteklerini yanıtlama
+                - name: Human Resources kullanarak kişisel veri isteklerini yanıtlama
                   href: gdpr/respond-dsr-request-talent.md
                 - name: AX 2012'de kişisel veri isteklerini yanıtlama
                   href: gdpr/gdpr-ax2012.md
@@ -1254,7 +1266,7 @@
                   href: lcs-solutions/regulatory-watch-communication.md
                 - name: Yerelleştirme modellerinin ayrılması
                   href: lcs-solutions/separate-localization-models.md
-                - name: Yasalarla ilgili uyarılar gönderme
+                - name: Yasal uyarılar gönderme
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Destek
           items:
@@ -1390,7 +1402,7 @@
                       href: migration-upgrade/upgrade-budget-planning.md
             - name: AX 2009'daki verileri geçirme
               items:
-                - name: Verileri AX 2009'dan Finance and Operations'a geçirme
+                - name: AX 2009'dan Finance and Operations'a verileri geçirme
                   href: migration-upgrade/data-migration-tool.md
                 - name: AX 2009 geçişi - Veri geçişi aracını yükleme
                   href: migration-upgrade/install-dmt.md
@@ -1544,7 +1556,7 @@
                   href: user-interface/feature-callouts.md
                 - name: Kaydırıcı ve MessageBox iletişim kutuları
                   href: user-interface/slider-messagebox.md
-                - name: 'İleti merkezi, ileti çubuğu ve ileti ayrıntıları API''sı'
+                - name: 'İleti merkezi, ileti çubuğu ve ileti ayrıntıları API''si'
                   href: user-interface/messaging-api-center-bar-details.md
                 - name: 'İleti merkezi, ileti çubuğu ve ileti ayrıntılarıyla ilgili SSS'
                   href: user-interface/messaging-user.md
@@ -1672,5 +1684,7 @@
       href: ../../supply-chain/index.md
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
+    - name: Dynamics 365 Commerce
+      href: ../../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../../retail/index.md
+      href: ../../commerce/index.md

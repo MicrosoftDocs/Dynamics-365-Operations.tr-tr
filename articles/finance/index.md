@@ -1,6 +1,6 @@
 ---
-title: Mali yönetim giriş sayfası
-description: Bu konuda Microsoft Dynamics 365 Finance'ta mali yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
+title: Finance giriş sayfası
+description: Bu konuda, Microsoft Dynamics 365 Finance'ta mali yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
 author: roschlom
 manager: AnnBe
 ms.date: 06/20/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 797c549623a727e92a3dbe5e3457e1ddc09a5b0a
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770586"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000337"
 ---
-# <a name="financial-management-home-page"></a>Mali yönetim giriş sayfası
+# <a name="finance-home-page"></a>Finance giriş sayfası
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda Microsoft Dynamics 365 Finance'ta mali yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır. 
+Bu konuda, Microsoft Dynamics 365 Finance'ta mali yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır. 
 
 Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 
@@ -60,7 +60,7 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 - [Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
 ### <a name="task-guides"></a>Görev kılavuzları
-Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
+Ek yardıma Finance and Operations'ta görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
 
 ### <a name="videos"></a>Videolar
 
