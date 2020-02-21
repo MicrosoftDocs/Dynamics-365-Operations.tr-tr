@@ -1,0 +1,7 @@
+## <a name="configurations-to-msdyn_productconfigurations"></a><span data-ttu-id="f8d7c-101">Yapılandırmalar ve msdyn_productconfigurations</span><span class="sxs-lookup"><span data-stu-id="f8d7c-101">Configurations to msdyn_productconfigurations</span></span>
+
+<span data-ttu-id="f8d7c-102">Bu şablon, Finance and Operations uygulamaları ve Common Data Service arasında verileri eşitler.</span><span class="sxs-lookup"><span data-stu-id="f8d7c-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="f8d7c-103">Finance and Operations alanı</span><span class="sxs-lookup"><span data-stu-id="f8d7c-103">Finance and Operations field</span></span> | <span data-ttu-id="f8d7c-104">Eşleme türü</span><span class="sxs-lookup"><span data-stu-id="f8d7c-104">Map type</span></span> | <span data-ttu-id="f8d7c-105">Diğer Dynamics 365 alanı</span><span class="sxs-lookup"><span data-stu-id="f8d7c-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="f8d7c-106">Varsayılan değer</span><span class="sxs-lookup"><span data-stu-id="f8d7c-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="f8d7c-107">CONFIGURATIONID</span><span class="sxs-lookup"><span data-stu-id="f8d7c-107">CONFIGURATIONID</span></span> | >> | <span data-ttu-id="f8d7c-108">msdyn_productconfiguration</span><span class="sxs-lookup"><span data-stu-id="f8d7c-108">msdyn_productconfiguration</span></span> | 

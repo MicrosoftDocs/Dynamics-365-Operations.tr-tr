@@ -1,0 +1,8 @@
+## <a name="sales-tax-exempt-code-entity-cds-to-msdyn_taxexemptcodes"></a><span data-ttu-id="664ef-101">Satış vergisi muafiyet kodu varlığı CDS ve msdyn_taxexemptcodes</span><span class="sxs-lookup"><span data-stu-id="664ef-101">Sales tax exempt code entity CDS to msdyn_taxexemptcodes</span></span>
+
+<span data-ttu-id="664ef-102">Bu şablon, Finance and Operations uygulamaları ve Common Data Service arasında verileri eşitler.</span><span class="sxs-lookup"><span data-stu-id="664ef-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="664ef-103">Finance and Operations alanı</span><span class="sxs-lookup"><span data-stu-id="664ef-103">Finance and Operations field</span></span> | <span data-ttu-id="664ef-104">Eşleme türü</span><span class="sxs-lookup"><span data-stu-id="664ef-104">Map type</span></span> | <span data-ttu-id="664ef-105">Diğer Dynamics 365 alanı</span><span class="sxs-lookup"><span data-stu-id="664ef-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="664ef-106">Varsayılan değer</span><span class="sxs-lookup"><span data-stu-id="664ef-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="664ef-107">NAME</span><span class="sxs-lookup"><span data-stu-id="664ef-107">NAME</span></span> | = | <span data-ttu-id="664ef-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="664ef-108">msdyn_name</span></span> | 
+<span data-ttu-id="664ef-109">DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="664ef-109">DESCRIPTION</span></span> | = | <span data-ttu-id="664ef-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="664ef-110">msdyn_description</span></span> | 

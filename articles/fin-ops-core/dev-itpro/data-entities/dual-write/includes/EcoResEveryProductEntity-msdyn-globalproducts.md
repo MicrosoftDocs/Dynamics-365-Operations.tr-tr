@@ -1,0 +1,8 @@
+## <a name="all-products-to-msdyn_globalproducts"></a><span data-ttu-id="8718e-101">Tüm ürünler ve msdyn_globalproducts</span><span class="sxs-lookup"><span data-stu-id="8718e-101">All products to msdyn_globalproducts</span></span>
+
+<span data-ttu-id="8718e-102">Bu şablon, Finance and Operations uygulamaları ve Common Data Service arasında verileri eşitler.</span><span class="sxs-lookup"><span data-stu-id="8718e-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="8718e-103">Finance and Operations alanı</span><span class="sxs-lookup"><span data-stu-id="8718e-103">Finance and Operations field</span></span> | <span data-ttu-id="8718e-104">Eşleme türü</span><span class="sxs-lookup"><span data-stu-id="8718e-104">Map type</span></span> | <span data-ttu-id="8718e-105">Diğer Dynamics 365 alanı</span><span class="sxs-lookup"><span data-stu-id="8718e-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="8718e-106">Varsayılan değer</span><span class="sxs-lookup"><span data-stu-id="8718e-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="8718e-107">PRODUCTNAME</span><span class="sxs-lookup"><span data-stu-id="8718e-107">PRODUCTNAME</span></span> | >> | <span data-ttu-id="8718e-108">msdyn_productname</span><span class="sxs-lookup"><span data-stu-id="8718e-108">msdyn_productname</span></span> | 
+<span data-ttu-id="8718e-109">PRODUCTNUMBER</span><span class="sxs-lookup"><span data-stu-id="8718e-109">PRODUCTNUMBER</span></span> | >> | <span data-ttu-id="8718e-110">msdyn_productnumber</span><span class="sxs-lookup"><span data-stu-id="8718e-110">msdyn_productnumber</span></span> | 

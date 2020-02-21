@@ -1,0 +1,531 @@
+- name: Dynamics 365 Human Resources
+  href: hr-welcome.md
+  items:
+    - name: Yenilikler
+      items:
+        - name: Human Resources'taki yenilikler veya değişiklikler
+          href: hr-admin-whats-new.md
+        - name: 7 Şubat 2020
+          href: hr-whats-new-2020-02-07.md
+        - name: 3 Şubat 2020
+          href: hr-whats-new-2020-02-03.md
+    - name: Yönetici Kılavuzu
+      items:
+        - name: Genel bakış
+          href: hr-admin-overview.md
+        - name: Sistem gereksinimleri
+          href: hr-admin-system-requirements.md
+        - name: Kurulumları ayarlama ve yönetme
+          items:
+            - name: Human Resources'ı hazırlama
+              href: hr-admin-setup-provision.md
+            - name: Örneği kopyalama
+              href: hr-admin-setup-copy-instance.md
+            - name: Örneği kaldırma
+              href: hr-admin-setup-remove-instance.md
+            - name: Güncelleştirme işlemi
+              href: hr-admin-setup-update-process.md
+        - name: Veri tümleştirmesini ayarlama
+          items:
+            - name: Veri tümleştirme teknolojisi seçme
+              href: hr-admin-integration-choose-technology.md
+            - name: Common Data Service tümleştirmesini yapılandırma
+              href: hr-admin-integration-common-data-service.md
+            - name: Common Data Service varlıkları
+              href: hr-developer-entities.md
+            - name: Finance ile tümleştirmeyi yapılandırma
+              href: hr-admin-integration-finance.md
+            - name: Dayforce ile tümleştirmeyi yapılandırma
+              href: hr-admin-integration-dayforce.md
+            - name: Yinelenen veri dışarı aktarma uygulaması oluşturma
+              href: hr-admin-integration-recurring-data-export.md
+            - name: Office ile tümleştirme
+              items:
+                - name: Office tümleştirmesi eğitimi
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Excel'de varlık verilerini güncelleştirme
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Excel'de Aç deneyimleri oluşturma
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Office tümleştirmesi ile ilgili sorunları giderme
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Özellikleri yönetme
+          href: hr-admin-manage-features.md
+        - name: Kullanıcı arabirimini keşfetme
+          items:
+            - name: Kullanıcı arabirimi öğeleri
+              href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Erişilebilirlik özellikleri
+              href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
+            - name: Özellik yönetimine genel bakış
+              href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: İstemciyle ilgili SSS
+              href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
+            - name: Eylem arama
+              href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: Gelişmiş filtreleme ve sorgu sözdizimi
+              href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
+            - name: Çalışma alanlarını yapılandırma ve filtreleme
+              href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
+            - name: Yeni pencerede aç özelliğini kullanarak sayfaları yan yana gösterme
+              href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
+            - name: Klavye kısayolları
+              href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
+            - name: Tüzel kişilikler için başlıkları veya logo görüntülerini değiştirme
+              href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
+            - name: Gezinti araması
+              href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: Kullanıcı deneyimini kişiselleştirme
+              href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
+            - name: Kayıtlı görünümler
+              href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
+            - name: Özel alanlar oluşturma ve bunlarla çalışma
+              href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
+            - name: PowerApps uygulamalarını katıştırma
+              href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
+            - name: Aramaları kullanarak bilgi bulma
+              href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
+            - name: Oturumun tarihini değiştirme
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
+            - name: Kullanıcının tercih edilen saat dilimini ayarlama
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
+            - name: Lifecycle Services'ı anlama
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Belge kaynakları
+          items:
+            - name: Yardım sistemi
+              href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: Yardım sistemini bağlama
+              href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
+            - name: Özel bir yardım sitesini bağlama
+              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: Alan açıklamalarını görüntüleme ve dışa aktarma
+              href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Görev Kaydedici
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
+            - name: Görev Kaydedici ile belge veya eğitim oluşturma
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Human Resources ile ilgili sorunları giderme
+          items:
+            - name: Destek alma
+              href: hr-admin-troubleshooting-support.md
+            - name: Otomatik temizleme görevleriyle performansı en iyi duruma getirme
+              href: hr-admin-troubleshooting-batch-history.md
+            - name: Analitik raporlar güncelleştirilmedi
+              href: hr-admin-troubleshooting-analytic-reports.md
+            - name: Power Apps Yönetim merkezinde ortam oluşturulamıyor
+              href: hr-admin-troubleshooting-power-apps.md
+            - name: İstemcinin bağlantısı kesiliyor
+              href: hr-admin-troubleshooting-disconnect.md
+            - name: Konum hiyerarşisinde kesilen metni engelleme
+              href: hr-admin-troubleshooting-truncate.md
+            - name: Ücret işlemini çalıştırma
+              href: hr-admin-troubleshooting-compensation.md
+            - name: LCS için görev kılavuzunu kaydetme
+              href: hr-admin-troubleshooting-task-guide.md
+            - name: Güvenlik rolüne göre özel adreslere erişme
+              href: hr-admin-troubleshooting-private-addresses.md
+            - name: 'Human Resources, Dynamics 365 uygulamalarında görünmüyor'
+              href: hr-admin-troubleshooting-not-in-apps.md
+            - name: Raporlama seçenekleri
+              href: hr-admin-troubleshooting-reporting.md
+            - name: Tümleştirme ile ilgili SSS
+              href: hr-admin-troubleshooting-integration.md
+    - name: Geliştirici Kılavuzu
+      items:
+        - name: Genel bakış
+          href: hr-developer-overview.md
+        - name: Power Apps ve Power Automate ile genişletme
+          href: hr-developer-power-apps.md
+        - name: Common Data Service varlıkları
+          href: hr-developer-entities.md
+        - name: Özel alanlar
+          href: hr-developer-custom-fields.md
+        - name: Veri tümleştirmesini ayarlama
+          items:
+            - name: Veri tümleştirme teknolojisi seçme
+              href: hr-admin-integration-choose-technology.md
+            - name: Common Data Service tümleştirmesini yapılandırma
+              href: hr-admin-integration-common-data-service.md
+            - name: Finance ile tümleştirmeyi yapılandırma
+              href: hr-admin-integration-finance.md
+            - name: Dayforce ile tümleştirmeyi yapılandırma
+              href: hr-admin-integration-dayforce.md
+            - name: Yinelenen veri dışarı aktarma uygulaması oluşturma
+              href: hr-admin-integration-recurring-data-export.md
+            - name: Office ile tümleştirme
+              items:
+                - name: Office tümleştirmesi eğitimi
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Excel'de varlık verilerini güncelleştirme
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Excel'de Aç deneyimleri oluşturma
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Office tümleştirmesi ile ilgili sorunları giderme
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Varlık API referansı
+          items:
+            - name: Kimlik doğrulama
+              href: hr-developer-api-authentication.md
+            - name: Varlıklar
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: MyLeaveRequests genel bakış
+                      href: hr-developer-api-myleaverequests-overview.md
+                    - name: Bir izin isteğini iş akışına gönderme
+                      href: hr-developer-api-myleaverequests-submit.md
+    - name: Kullanıcı Kılavuzu
+      items:
+        - name: Genel bakış
+          href: hr-hrpro-overview.md
+        - name: Human Resources'ı ayarlama
+          items:
+            - name: Human Resources parametrelerini yapılandırma
+              href: hr-setup-parameters.md
+            - name: Human Resources paylaşılan parametrelerini yapılandırma
+              href: hr-setup-shared-parameters.md
+            - name: İnsan kaynakları iş akışlarını ayarlama
+              href: hr-setup-workflows.md
+            - name: Tarih ve Saat alanlarını anlama
+              href: hr-setup-date-time-fields.md
+        - name: Kuruluş ayarlarını yapılandırma
+          items:
+            - name: Kuruluş yönetimi giriş sayfası
+              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
+            - name: Numara serileri
+              items:
+                - name: Numara serilerine genel bakış
+                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Bireysel olarak numara serileri ayarlama
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
+                - name: Sihirbaz kullanarak numara serileri ayarlama
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
+            - name: Kuruluşlar ve kuruluş hiyerarşileri
+              items:
+                - name: Kuruluşlar ve kuruluş hiyerarşilerine genel bakış
+                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
+                - name: Kuruluş hiyerarşinizi planlama
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: Kuruluş hiyerarşisi oluşturma
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: Tüzel kişilik oluşturma
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
+                - name: Çalışma birimleri oluşturma
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
+            - name: Genel adres defteri
+              items:
+                - name: Genel adres defterine genel bakış
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Genel adres defteri ve diğer adres defterleri için planlama
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Genel adres defterini yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Adres defterleriyle ilgili SSS
+                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Adres defterlerini yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+            - name: İş akışı sistemi
+              items:
+                - name: İş akışı sistemine genel bakış
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı sistemi mimarisi
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı öğeleri
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı eylemleri
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışları oluşturma
+                  items:
+                    - name: İş akışlarına genel bakış
+                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: İş akışı özelliklerini yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                    - name: El ile girilen görevleri yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Otomatik görevleri yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Onay süreçlerini yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Onay adımlarını yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: El ile girilen kararları yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Koşullu kararları yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Paralel faaliyetleri yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Paralel dalları yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Satır maddesi iş akışlarını yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş Akışı İletisi İşleme toplu işini önemli olarak yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışındaki iş öğelerini devretme
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı geçmişini görüntüleme
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+                - name: Sistemi iş akışıyla ilgili e-postayı kullanıcılara gönderecek şekilde yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı türleri
+                  items:
+                    - name: İş akışı türü oluşturma
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: İş akışı türü kontrol listesi
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                    - name: İş akışı kategorisi oluşturma
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                    - name: İş akışı türü için sorgu oluşturma
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Yeni iş akışı türü oluşturma
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                    - name: İş akışı belgesi sınıfı oluşturma
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: SubmitToWorkflow sınıfı oluşturma
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: İş akışı belgesi sınıfını iş akışı türüyle ilişkilendirme
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı türleri raporu
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışıyla ilgili SSS
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
+            - name: Uyarılar
+              items:
+                - name: Uyarılara genel bakış
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Uyarı kuralları oluşturma
+                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
+                - name: Uyarıların toplu işlenmesi
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
+                - name: E-postayla istemci uyarı bildirimleri
+                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
+            - name: Elektronik imzalar
+              items:
+                - name: Elektronik imzalara genel bakış
+                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Elektronik imzaları ayarlama
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
+            - name: Servis talebi yönetimi
+              items:
+                - name: Servis talebi yönetimine genel bakış
+                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Servis talebi güvenliğini, işlemlerini ve kategorilerini planlama'
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: Kayıt şablonları
+              items:
+                - name: Kayıt şablonlarına genel bakış
+                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: Kayıt şablonu oluşturma
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
+                - name: Yeni kayıt oluşturmak için kayıt şablonu kullanma
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
+            - name: Belge yönetimini yapılandırma
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: E-posta yapılandırma ve gönderme
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
+            - name: Tarih/saat tarih ve saat dilimleri
+              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
+        - name: Personeli yönetme
+          items:
+            - name: İş gücünüzü düzenleme
+              href: hr-personnel-departments-jobs-positions.md
+            - name: İşin bileşenlerini ayarlama
+              href: hr-personnel-jobs.md
+            - name: Departmanları tanımlama
+              href: hr-personnel-define-departments.md
+            - name: Hiyerarşiye bir departman ekleme
+              href: hr-personnel-add-department-hierarchy.md
+            - name: İşleri tanımlama
+              href: hr-personnel-define-jobs.md
+            - name: Çalışma zamanları takvimleri oluşturma
+              href: hr-personnel-create-working-time-calendar.md
+            - name: Personel eylemleriyle ilgili SSS
+              href: hr-personnel-actions-faq.md
+            - name: Personel bilgilerini yönetmek için iş akışları kullanma
+              href: hr-workflow-manage-employee-information.md
+            - name: Pozisyonun raporlama ilişkilerini değiştirme
+              href: hr-personnel-modify-reporting-relationships-position.md
+            - name: Çalışan bilgilerini girme
+              href: hr-personnel-enter-worker-information.md
+            - name: Maddeleri çalışanlara ödünç verme
+              href: hr-personnel-loan-item-worker.md
+            - name: Ödünç verme maddeleri oluşturma
+              href: hr-personnel-create-loan-items.md
+            - name: Ödünç verme maddelerini yönetme
+              href: hr-personnel-loan-items.md
+            - name: Yedekleme planı geliştirme
+              href: hr-personnel-develop-succession-plan.md
+            - name: Proje zaman çizelgelerini girme
+              href: hr-personnel-enter-project-timesheets.md
+            - name: Toplu işe alma projeleri
+              href: hr-personnel-mass-hire-projects.md
+            - name: Toplu işe alma projesi oluşturma
+              href: hr-personnel-create-mass-hire-project.md
+            - name: Pozisyonları ayarlama
+              href: hr-personnel-set-up-positions.md
+            - name: Yaralanma ve hastalık bilgilerini ayarlama
+              href: hr-personnel-set-up-injury-illness-information.md
+            - name: Personelin yaralanma ve hastalık bilgilerini koruma
+              href: hr-personnel-maintain-employee-injury-illness-information.md
+        - name: Ücret planları ayarlama
+          items:
+            - name: Ücret planlarına genel bakış
+              href: hr-compensation-overview.md
+            - name: Ücret kademelerini ayarlama
+              href: hr-compensation-grids.md
+            - name: Ücret yapısı ve planı geliştirme
+              href: hr-compensation-structure.md
+            - name: Sabit ücret planları oluşturma
+              href: hr-compensation-fixed-plans.md
+            - name: Değişken ücret planları oluşturma
+              href: hr-compensation-variable-plans.md
+            - name: Personeli sabit ücret planına kaydetme
+              href: hr-compensation-enroll-employees-fixed.md
+            - name: Personeli değişken ücret planına kaydetme
+              href: hr-compensation-enroll-employees-variable.md
+            - name: Ücret işlemini tanımlama ve sonuçları hesaplama
+              href: hr-compensation-define-process.md
+            - name: Maaş planlarını işleme
+              href: hr-compensation-process.md
+        - name: Kazançları yönetme
+          items:
+            - name: 'Önizleme özelliği: Kazanç yönetimi'
+              items:
+                - name: Kazanç yönetimine genel bakış
+                  href: hr-benefits-management-overview.md
+                - name: Kazanç yönetimini yapılandırma
+                  items:
+                    - name: Kazanç yönetimi parametrelerini ayarlama
+                      href: hr-benefits-setup-parameters.md
+                    - name: Uygunluk kurallarını ve seçeneklerini yapılandırma
+                      href: hr-benefits-setup-eligibility-rules.md
+                    - name: Kişisel iletişim uygunluk seçeneklerini yapılandırma
+                      href: hr-benefits-setup-contact-eligibility-options.md
+                    - name: Kapsam seçeneklerini oluşturma
+                      href: hr-benefits-setup-coverage-options.md
+                    - name: Ödeme sıklıklarını ayarlama
+                      href: hr-benefits-setup-payment-frequencies.md
+                    - name: Yaşam olayı türlerini yapılandırma
+                      href: hr-benefits-setup-life-event-types.md
+                    - name: Plan türleri oluşturma
+                      href: hr-benefits-setup-plan-types.md
+                    - name: Neden kodlarını ayarlama
+                      href: hr-benefits-setup-reason-codes.md
+                    - name: Katman kodlarını ayarlama
+                      href: hr-benefits-setup-tier-codes.md
+                    - name: Oranları yapılandırma
+                      href: hr-benefits-setup-rates.md
+                    - name: Kesintileri yapılandırma
+                      href: hr-benefits-setup-deductions.md
+                    - name: Bekleme günlerini yapılandırma
+                      href: hr-benefits-setup-waiting-days.md
+                    - name: Bekleme dönemlerini yapılandırma
+                      href: hr-benefits-setup-waiting-periods.md
+                    - name: Yuvarlama kurallarını ayarlama
+                      href: hr-benefits-setup-rounding-rules.md
+                    - name: İstihdam kategorileri oluşturma
+                      href: hr-benefits-setup-employment-categories.md
+                    - name: İstihdam türlerini ayarlama
+                      href: hr-benefits-setup-employment-types.md
+                    - name: Personel self servisini yapılandırma
+                      href: hr-benefits-setup-employee-self-service.md
+                - name: Kazanç planları oluşturma
+                  items:
+                    - name: Kazanç planlarını ayarlama
+                      href: hr-benefits-plans-setup.md
+                    - name: Çalışan kazanç planları oluşturma
+                      href: hr-benefits-plans-worker.md
+                    - name: Esnek kredi programları ayarlama
+                      href: hr-benefits-plans-flex-credit-programs.md
+                    - name: Gelecekteki yaşam olaylarını yapılandırma
+                      href: hr-benefits-plans-future-life-events.md
+                - name: Kazanç planlarını işleme
+                  items:
+                    - name: Kayıt uygunluğunu işleme
+                      href: hr-benefits-process-enrollment-eligibility.md
+                    - name: Yaşam olaylarını işleme
+                      href: hr-benefits-process-life-events.md
+                    - name: Yaşam olayı değişikliklerini işleme
+                      href: hr-benefits-process-life-event-changes.md
+                    - name: Yaşam olayı uygunluğunu işleme
+                      href: hr-benefits-process-life-event-eligibility.md
+                    - name: Oran değişikliklerini işleme
+                      href: hr-benefits-process-rate-changes.md
+            - name: Kazanç programı tanımlama ve yönetme
+              href: hr-benefits-manage-program.md
+            - name: Kazanca uygunluk ilkeleri
+              href: hr-benefits-eligibility-policies.md
+            - name: Kazanca uygunluk işlemi
+              href: hr-benefits-eligibility-process.md
+            - name: Kazanca uygunluk kurallarını ve ilkelerini tanımlama
+              href: hr-benefits-define-eligibility-rules.md
+            - name: Personel kazançları programı oluşturma
+              href: hr-benefits-deliver-employee-benefits-program.md
+            - name: Yeni kazançlar oluşturma
+              href: hr-benefits-create.md
+            - name: Çalışanları kazançlara kaydetme
+              href: hr-benefits-enroll-workers.md
+            - name: Kazanç geçerlilik bitiş tarihlerini yönetme
+              href: hr-benefits-expiration-dates.md
+            - name: ACA raporları oluşturma
+              href: hr-benefits-aca-reports.md
+        - name: İzinleri ve devamsızlığı yönetme
+          items:
+            - name: Genel bakış
+              href: hr-leave-and-absence-overview.md
+            - name: İzin ve devamsızlık parametrelerini yapılandırma
+              href: hr-leave-and-absence-parameters.md
+            - name: Çalışma zamanı takvimi oluşturma
+              href: hr-leave-and-absence-working-time-calendar.md
+            - name: İzin isteği iş akışı oluşturma
+              href: hr-leave-and-absence-workflow.md
+            - name: İzin ve devamsızlık türlerini yapılandırma
+              href: hr-leave-and-absence-types.md
+            - name: İzin ve devamsızlık planı oluşturma
+              href: hr-leave-and-absence-plans.md
+            - name: Çalışanları bir izin planına atama
+              href: hr-leave-and-absence-enroll.md
+            - name: İzin ve devamsızlık planlarını tahakkuk etme
+              href: hr-leave-and-absence-accrue.md
+            - name: İzin ve devamsızlık analizini görüntüleme
+              href: hr-leave-and-absence-analytics.md
+            - name: İzin ve devamsızlık isteklerini yönetme
+              href: hr-employee-self-service-manage-requests.md
+            - name: İzin isteme
+              href: hr-employee-self-service-request-time-off.md
+            - name: Ekip ve şirket takvimlerini görüntüleme
+              href: hr-employee-self-service-calendar.md
+        - name: Çalışanları geliştirme
+          items:
+            - name: Performans yönetimine genel bakış
+              href: hr-develop-performance-management-overview.md
+            - name: İş gücü becerilerini dengeleme
+              href: hr-develop-skills.md
+            - name: Performans günlüğünüze ekleme
+              href: hr-develop-add-performance-journal.md
+            - name: Hedef oluşturma
+              href: hr-develop-create-goal.md
+            - name: Performans değerlendirmesi oluşturma
+              href: hr-develop-create-performance-review.md
+        - name: Kurslar oluşturma
+          items:
+            - name: Eğitim kursları ayarlama
+              href: hr-learning-courses.md
+            - name: Soru formlarına genel bakış
+              href: hr-learning-questionnaires.md
+            - name: Soru formları tasarlama
+              href: hr-learning-design-questionnaires.md
+            - name: Soru formlarını dağıtma ve planlama
+              href: hr-learning-distribute-questionnaires.md
+            - name: Planlamayı kullanarak soru formlarını dağıtma
+              href: hr-learning-distribute-questionnaires-scheduling.md
+            - name: Soru formu sonuçlarını görüntüleme
+              href: hr-learning-evaluate-questionnaire-results.md
+            - name: Soru formu sonuçlarını analiz etme
+              href: hr-learning-analyze-questionnaire-results.md
+            - name: Açık uçlu soru oluşturma
+              href: hr-learning-create-open-ended-question.md
+            - name: Kapalı uçlu soru oluşturma
+              href: hr-learning-create-closed-ended-question.md
+            - name: Bağımlı soru oluşturma
+              href: hr-learning-depending-question.md

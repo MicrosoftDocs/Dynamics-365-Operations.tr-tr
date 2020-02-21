@@ -1,0 +1,8 @@
+## <a name="exchange-rate-type-to-msdyn_exchangeratetypes"></a><span data-ttu-id="f6f51-101">Döviz kuru türü ve msdyn_exchangeratetypes</span><span class="sxs-lookup"><span data-stu-id="f6f51-101">Exchange rate type to msdyn_exchangeratetypes</span></span>
+
+<span data-ttu-id="f6f51-102">Bu şablon, Finance and Operations uygulamaları ve Common Data Service arasında verileri eşitler.</span><span class="sxs-lookup"><span data-stu-id="f6f51-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="f6f51-103">Finance and Operations alanı</span><span class="sxs-lookup"><span data-stu-id="f6f51-103">Finance and Operations field</span></span> | <span data-ttu-id="f6f51-104">Eşleme türü</span><span class="sxs-lookup"><span data-stu-id="f6f51-104">Map type</span></span> | <span data-ttu-id="f6f51-105">Diğer Dynamics 365 alanı</span><span class="sxs-lookup"><span data-stu-id="f6f51-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="f6f51-106">Varsayılan değer</span><span class="sxs-lookup"><span data-stu-id="f6f51-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="f6f51-107">NAME</span><span class="sxs-lookup"><span data-stu-id="f6f51-107">NAME</span></span> | = | <span data-ttu-id="f6f51-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="f6f51-108">msdyn_name</span></span> | 
+<span data-ttu-id="f6f51-109">DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="f6f51-109">DESCRIPTION</span></span> | = | <span data-ttu-id="f6f51-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="f6f51-110">msdyn_description</span></span> | 

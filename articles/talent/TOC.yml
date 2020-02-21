@@ -8,6 +8,12 @@
         - name: Talent'taki yenilikler veya değişiklikler
           href: whats-new.md
           items:
+            - name: 21 Ocak 2020
+              href: whats-new-talent-january-21-2020.md
+            - name: 14 Ocak 2020
+              href: whats-new-talent-january-14-2020.md
+            - name: 7 Ocak 2020
+              href: whats-new-talent-january-7-2020.md
             - name: 17 Aralık 2019
               href: whats-new-talent-december-17-2019.md
             - name: 12 Aralık 2019
@@ -28,12 +34,12 @@
               href: whats-new-talent-october-8-2019.md
             - name: 1 Ekim 2019
               href: whats-new-talent-october-1-2019.md
-            - name: 17 Eylül 2019
-              href: whats-new-talent-september-17-2019.md
-            - name: 10 Eylül 2019
-              href: whats-new-talent-september-12-2019.md
             - name: Yeniliklere ilişkin arşivler 2019
               items:
+                - name: 17 Eylül 2019
+                  href: whats-new-talent-september-17-2019.md
+                - name: 10 Eylül 2019
+                  href: whats-new-talent-september-12-2019.md
                 - name: 27 Ağustos 2019
                   href: whats-new-talent-august-28-2019.md
                 - name: 22 Ağustos 2019
@@ -134,20 +140,16 @@
           href: talent-versions-update-policy.md
         - name: Talent güncelleştirmeleri
           href: talent-updates.md
-        - name: Talent sağlama
+        - name: Talent'ı hazırlama
           href: provisioning-talent.md
-        - name: Bir Core HR kurulumunu kopyalama
-          href: hr-copy-instance.md
-        - name: Talent ortamlarını kaldırma
-          href: remove-talent-environment.md
         - name: Özellikleri yönetme
           href: access-preview-feature.md
-        - name: Onboard sağlama
+        - name: Onboard'u hazırlama
           href: modular-app-tech-faq.md
-        - name: Power Apps uygulamalarını katıştırma
+        - name: Attract ve Onboard uygulamalarından verileri dışarı aktarma
+          href: attract-onboard-export-data.md
+        - name: Microsoft Power Apps'i katıştırma
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Common Data Service'daki Core HR varlıkları
-          href: CoreHREntities.md
         - name: Talent için destek alma
           href: talent-support.md
     - name: Attract ile kuruluşunuzun personelini belirleme
@@ -212,7 +214,7 @@
               href: offer-setup.md
             - name: 'Teklif oluşturma, onaylama ve imzalama'
               href: creating-offers.md
-        - name: Attract'ta genişletilebilirlik
+        - name: Attract'te genişletilebilirlik
           href: extensibility-attract.md
     - name: Yeni işe alınan kişileri Onboard ile karşılama
       items:
@@ -232,266 +234,19 @@
           href: onboard-view-status.md
         - name: İşe alım takımı oluşturma
           href: onboard-create-team.md
-    - name: İş gücünüzü Core HR ile yönetme
-      items:
-        - name: İş gücünüzü düzenleme
-          items:
-            - name: 'Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme'
-              href: departments-jobs-positions.md
-            - name: İşin bileşenlerini ayarlama
-              href: create-job.md
-            - name: Kolaylaştırılmış çalışan girişi ve gezintisi
-              href: streamlined-employee-entry.md
-            - name: Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme
-              href: create-department-add-department-hierarchy.md
-            - name: Tüzel kişilikler arasında İK parametreleri ayarlama
-              href: set-up-hr-parameters-across-legal-entities.md
-            - name: Şirkete özgü İK parametreleri ayarlama
-              href: set-up-company-specific-hr-parameters.md
-            - name: Talent'taki Tarih ve Saat alanları
-              href: date-time-fields-in-talent.md
-            - name: Personel eylemleriyle ilgili SSS
-              href: personnel-actions-faq.md
-            - name: İş süreçlerini biçimlendirme
-              href: formalize-business-processes.md
-            - name: Personel bilgilerini yönetmek için iş akışları kullanma
-              href: workflow-manage-employee-information.md
-            - name: Numara serileri ayarlama
-              items:
-                - name: Numara serisine genel bakış
-                  href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Bireysel olarak numara sıraları ayarlama
-                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Sihirbaz kullanarak numara serileri ayarlama
-                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Kuruluşları ve kuruluş hiyerarşilerini yapılandırma
-              items:
-                - name: Kuruluşlara genel bakış
-                  href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Kuruluş hiyerarşinizi planlama
-                  href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Kuruluş hiyerarşisi oluşturma
-                  href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Tüzel kişilik oluşturma
-                  href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Faaliyet birimi oluşturma
-                  href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Genel adres defteri ayarlama
-              items:
-                - name: Genel adres defterine genel bakış
-                  href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Genel adres defteri ve diğer adres defterleri için planlama
-                  href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Genel adres defterini yapılandırma
-                  href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Adres defterleriyle ilgili SSS
-                  href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: İş akışlarını yapılandırma
-              items:
-                - name: İş akışına genel bakış
-                  href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: İş akışı öğeleri
-                  href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: İş akışı onay süreçlerindeki eylemler
-                  href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: İş akışları oluşturma
-                  href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                  items:
-                    - name: İş akışı özelliklerini yapılandırma
-                      href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: El ile girilen görevleri yapılandırma
-                      href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Otomatik görevleri yapılandırma
-                      href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Onay süreçlerini yapılandırma
-                      href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Onay adımlarını yapılandırma
-                      href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: El ile girilen kararları yapılandırma
-                      href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Koşullu kararları yapılandırma
-                      href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Paralel faaliyetleri yapılandırma
-                      href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Paralel dalları yapılandırma
-                      href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Satır maddesi iş akışlarını yapılandırma
-                      href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: İleti işleme toplu işini yapılandırma
-                  href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: İş akışındaki iş öğelerini devretme
-                  href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: İş akışı geçmişini görüntüleme
-                  href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Kullanıcıların iş akışı ile ilgili e-posta iletileri almasını etkinleştirme
-                  href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Uyarıları ayarlama
-              items:
-                - name: Uyarılara genel bakış
-                  href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Uyarı kuralları oluşturma
-                  href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Uyarıların toplu işlenmesi
-                  href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Servis taleplerini yönetme
-              items:
-                - name: Servis talebi yönetimine genel bakış
-                  href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 'Servis talebi güvenliğini, işlemlerini ve kategorilerini planlama'
-                  href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Belge yönetimini yapılandırma
-              href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: E-posta yapılandırma ve gönderme
-              href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Tarih/saat tarih ve saat dilimleri
-              href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: İzin ve devamsızlık ayarlama
-          items:
-            - name: İzin ve devamsızlığı yönetme
-              href: leave-absence-overview.md
-            - name: İzin ve devamsızlık kavramları
-              href: leave-absence-concepts.md
-            - name: Çalışılan saatlere göre tahakkuk eden süre
-              href: leave-accrue-hours-worked.md
-            - name: Çalışma zamanı takvimleri
-              href: working-time-calendars.md
-        - name: Ücret planları ayarlama
-          items:
-            - name: Ücret planlarına genel bakış
-              href: compensation-plans.md
-            - name: Sabit ücret planları oluşturma
-              href: create-fixed-compensation-plans.md
-            - name: Değişken ücret planları oluşturma
-              href: create-variable-compensation-plans.md
-            - name: Ücreti işleme
-              href: process-compensation.md
-            - name: İşin bileşenlerini ayarlama
-              href: create-job.md
-        - name: Personeli geliştirme ve eğitme
-          items:
-            - name: Performans yönetimi
-              href: performance-management-overview.md
-            - name: İş gücü becerilerini iş ihtiyaçlarına uygun hale getirme
-              href: skills.md
-            - name: Eğitim kursları ayarlama
-              href: courses.md
-            - name: Performans günlüğünüze ekleme ve birisine övgü gönderme
-              href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Hedef oluşturma
-              href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Performans değerlendirmesi oluşturma
-              href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Kazanç programı tanımlama ve yönetme
-          items:
-            - name: Kazanç programı tanımlama ve yönetme
-              href: manage-benefit-program.md
-            - name: Kazanca uygunluk ilkeleri
-              href: benefit-eligibility-policies.md
-            - name: Uygun Bakım Yasası (ACA) raporları oluşturma
-              href: generate-aca-reports.md
-            - name: Çalışanlara ödünç verilen maddeleri yönetme
-              href: loan-items.md
-        - name: Soru formlarıyla anahtar ölçümleri değerlendirme
-          items:
-            - name: Soru formlarıyla bilgi toplama
-              href: questionnaires.md
-            - name: Soru formları tasarlama
-              href: design-questionnaires.md
-            - name: Soru formlarını dağıtma ve planlama
-              href: distribute-questionnaires.md
-            - name: Soru formlarının sonuçlarını görüntüleme ve değerlendirme
-              href: evaluate-questionnaire-results.md
-        - name: Çalışma alanı güvenliği ve uyumluluğu (ABD)
-          items:
-            - name: Talent'ta kişisel veri isteğini yanıtlama
-              href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Form I-9 istihdam doğrulama
-              href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: ADA ile uyumluluk
-              href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Tümleştirme
-      items:
-        - name: Dynamics 365 for Talent için veri tümleştirme kılavuzu
-          href: data-integration.md
-        - name: Common Data Service tümleştirmesini yapılandırma
-          href: hr-common-data-service-integration.md
-        - name: Dynamics 365 for Finance and Operations ile tümleştirme
-          href: talent-financeandoperations-integration.md
-        - name: Talent ve Dayforce arasında bordro tümleştirmeyi yapılandırma
-          href: configure-payroll-integration.md
-        - name: Tümleştirme ile ilgili SSS
-          href: talent-fo-integration.md
-        - name: Azure Logic Apps kullanarak yinelenen verileri dışa aktarma
-          href: tutorial-integration-recurring-export.md
-        - name: Office tümleştirmesi
-          items:
-            - name: Office tümleştirmesi eğitimi
-              href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Excel 'de varlık verilerini güncelleştirme
-              href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Excel'de Aç deneyimleri oluşturma
-              href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Office tümleştirmesi ile ilgili sorunları giderme
-              href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Genişletilebilirlik
       items:
-        - name: Çalışma alanlarında katıştırılmış Power BI
-          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Power Apps ve Power Automate ile Talent'i genişletme
-          href: extensibility-examples.md
-        - name: Mobil uygulama
-          items:
-            - name: Mobil çalışma alanları
-              items:
-                - name: Şirket dizini mobil çalışma alanı
-                  href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Takımım mobil çalışma alanı
-                  href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: İşe alma verilerindeki değişiklikleri izleme
           href: process-auditing.md
-        - name: Attract'ta genişletilebilirlik
+        - name: Attract'te genişletilebilirlik
           href: extensibility-attract.md
-        - name: Core HR'deki özel alanlar
-          href: corehr-custom-fields.md
-        - name: Varlık API referansı
-          items:
-            - name: Kimlik doğrulama
-              href: api-odata-authentication.md
-            - name: Varlıklar
-              items:
-                - name: MyLeaveRequests
-                  items:
-                    - name: MyLeaveRequests genel bakış
-                      href: api-myleaverequests-overview.md
-                    - name: Bir izin isteğini iş akışına gönderme
-                      href: api-myleaverequests-submit.md
-    - name: Talent'ta sorun giderme
+        - name: Power Apps ve Power Automate ile Talent'i genişletme
+          href: extensibility-examples.md
+    - name: Attract ve Onboard uygulamalarında sorun giderme
       items:
-        - name: Otomatik temizleme görevleriyle performansı en iyi duruma getirme
-          href: talent-batch-history-cleanup.md
-        - name: LinkedIn'de iş yayınlama sorunlarını giderme
+        - name: LinkedIn'de iş yayımlama sorunlarını giderme
           href: attract-troubleshoot-linkedin.md
-        - name: Analitik raporlar güncelleştirilmedi
-          href: analytic-reports-not-updated.md
-        - name: PowerApps Yönetim merkezinde ortam oluşturulamıyor
-          href: create-envi-powerapps-admin-ctr.md
-        - name: Talent istemcisinin bağlantısı kesiliyor
-          href: client-disconnects.md
-        - name: Pozisyon hiyerarşisinde metin kesilmesini engelleme ve Visio'ya aktarma
-          href: avoid-text-truncation-position-hierarchy-visio.md
-        - name: Ücret işlemini çalıştırma
-          href: run-compensation-process.md
-        - name: Görev kılavuzlarını LCS'ye kaydetme ve yeniden oynatma
-          href: save-play-task-guides-LCS.md
-        - name: Güvenlik rolüne göre özel adreslere erişim
-          href: security-roles-addresses.md
-        - name: Talent Microsoft Dynamics 365 uygulamaları (Common Data Service 1.0) arasında görünmüyor
-          href: talent-not-in-home-CDS.md
-        - name: Kullanıcı Core HR'a erişebiliyor ancak Onboard veya Attract uygulamasına erişemiyor
+        - name: Kullanıcı Human Resources'a erişebiliyor ancak Onboard veya Attract uygulamasına erişemiyor
           href: user-access-core-hr.md
-        - name: Talent'taki raporlama seçenekleri
-          href: talent-reporting-options.md
-        - name: Tümleştirme ile ilgili SSS
-          href: talent-FO-integration.md
         - name: Azure Active Directory kullanıcıları Kişi Seçici'de bulunamadı
           href: people-picker-user-not-found.md

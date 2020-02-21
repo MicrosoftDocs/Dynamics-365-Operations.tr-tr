@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="71bba-101">Bu makale hem Dynamics 365 Human Resources hem de Dynamics 365 Finance'teki **İnsan kaynakları** çalışma alanı için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="71bba-101">This article applies to both Dynamics 365 Human Resources and the **Human resources** workspace in Dynamics 365 Finance.</span></span>

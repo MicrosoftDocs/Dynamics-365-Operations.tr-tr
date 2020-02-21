@@ -1,0 +1,8 @@
+## <a name="withholding-tax-groups-to-msdyn_withholdingtaxgroups"></a><span data-ttu-id="0506a-101">Stopaj vergisi grupları ve msdyn_withholdingtaxgroups</span><span class="sxs-lookup"><span data-stu-id="0506a-101">Withholding tax groups to msdyn_withholdingtaxgroups</span></span>
+
+<span data-ttu-id="0506a-102">Bu şablon, Finance and Operations uygulamaları ve Common Data Service arasında verileri eşitler.</span><span class="sxs-lookup"><span data-stu-id="0506a-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="0506a-103">Finance and Operations alanı</span><span class="sxs-lookup"><span data-stu-id="0506a-103">Finance and Operations field</span></span> | <span data-ttu-id="0506a-104">Eşleme türü</span><span class="sxs-lookup"><span data-stu-id="0506a-104">Map type</span></span> | <span data-ttu-id="0506a-105">Diğer Dynamics 365 alanı</span><span class="sxs-lookup"><span data-stu-id="0506a-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="0506a-106">Varsayılan değer</span><span class="sxs-lookup"><span data-stu-id="0506a-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="0506a-107">WITHHOLDINGTAXGROUPCODE</span><span class="sxs-lookup"><span data-stu-id="0506a-107">WITHHOLDINGTAXGROUPCODE</span></span> | = | <span data-ttu-id="0506a-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="0506a-108">msdyn_name</span></span> | 
+<span data-ttu-id="0506a-109">DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="0506a-109">DESCRIPTION</span></span> | = | <span data-ttu-id="0506a-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="0506a-110">msdyn_description</span></span> | 
