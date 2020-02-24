@@ -3,7 +3,7 @@ title: İş akışında onay işlemlerini yapılandırma
 description: Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,169 +17,170 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1f58e227542b1e5ca1235748d14e71bddac826ee
+ms.sourcegitcommit: 759325234a763e14071348a6f5399999a92f8264
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811393"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "2983776"
 ---
-# <a name="configure-approval-processes-in-a-workflow"></a><span data-ttu-id="cc5fa-103">İş akışında onay işlemlerini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="cc5fa-103">Configure approval processes in a workflow</span></span>
+# <a name="configure-approval-processes-in-a-workflow"></a><span data-ttu-id="f7a84-103">İş akışında onay işlemlerini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="f7a84-103">Configure approval processes in a workflow</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="cc5fa-104">Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-104">Use the following procedure to configure the properties of the approval process.</span></span>
+<span data-ttu-id="f7a84-104">Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-104">Use the following procedure to configure the properties of the approval process.</span></span>
 
-<span data-ttu-id="cc5fa-105">Onay işlemini yapılandırmak için iş akışı düzenleyicisinde, onay öğesine sağ tıklayın ve ardından **Özellikler** formunu açmak için **Özellikler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-105">To configure an approval process, in the workflow editor, right-click the approval element, and then click **Properties** to open the **Properties** form.</span></span>
+<span data-ttu-id="f7a84-105">Onay işlemini yapılandırmak için iş akışı düzenleyicisinde, onay öğesine sağ tıklayın ve ardından **Özellikler** formunu açmak için **Özellikler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-105">To configure an approval process, in the workflow editor, right-click the approval element, and then click **Properties** to open the **Properties** form.</span></span>
 
-## <a name="name-the-approval-process"></a><span data-ttu-id="cc5fa-106">Onay işlemini adlandırma</span><span class="sxs-lookup"><span data-stu-id="cc5fa-106">Name the approval process</span></span>
+## <a name="name-the-approval-process"></a><span data-ttu-id="f7a84-106">Onay işlemini adlandırma</span><span class="sxs-lookup"><span data-stu-id="f7a84-106">Name the approval process</span></span>
 
-<span data-ttu-id="cc5fa-107">Onay işlemi için bir ad girmek üzere aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-107">Follow these steps to enter a name for the approval process.</span></span>
+<span data-ttu-id="f7a84-107">Onay işlemi için bir ad girmek üzere aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-107">Follow these steps to enter a name for the approval process.</span></span>
 
-1. <span data-ttu-id="cc5fa-108">Sol bölmede **Temel Ayarlar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-108">In the left pane, click **Basic Settings**.</span></span>
-2. <span data-ttu-id="cc5fa-109">**Ad** alanına onay işlemi için benzersiz bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-109">In the **Name** field, enter a unique name for the approval process.</span></span>
+1. <span data-ttu-id="f7a84-108">Sol bölmede **Temel Ayarlar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-108">In the left pane, click **Basic Settings**.</span></span>
+2. <span data-ttu-id="f7a84-109">**Ad** alanına onay işlemi için benzersiz bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-109">In the **Name** field, enter a unique name for the approval process.</span></span>
 
-## <a name="specify-when-the-system-automatically-acts-on-the-document"></a><span data-ttu-id="cc5fa-110">Sistemin ne zaman belge üzerinde otomatik olarak eylem alacağını belirtin</span><span class="sxs-lookup"><span data-stu-id="cc5fa-110">Specify when the system automatically acts on the document</span></span>
+## <a name="specify-when-the-system-automatically-acts-on-the-document"></a><span data-ttu-id="f7a84-110">Sistemin ne zaman belge üzerinde otomatik olarak eylem alacağını belirtin</span><span class="sxs-lookup"><span data-stu-id="f7a84-110">Specify when the system automatically acts on the document</span></span>
 
-<span data-ttu-id="cc5fa-111">Sistemi belirli koşullar karşılandığında belge üstünde otomatik olarak işlem yapacak şekilde yapılandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-111">You can configure the system to automatically act on the document if specific conditions are met.</span></span> <span data-ttu-id="cc5fa-112">Örneğin, sistem toplam tutarı 100 ABD Dolarından az olan gider raporlarını onaylayabilir.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-112">For example, the system can approve expense reports that have total amounts that are less than USD 100.</span></span> <span data-ttu-id="cc5fa-113">Sistemin belge üzerinde eylem alması gereken zamanı belirtmek için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-113">Follow these steps to specify when the system acts on the document.</span></span>
+<span data-ttu-id="f7a84-111">Sistemi belirli koşullar karşılandığında belge üstünde otomatik olarak işlem yapacak şekilde yapılandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f7a84-111">You can configure the system to automatically act on the document if specific conditions are met.</span></span> <span data-ttu-id="f7a84-112">Örneğin, sistem toplam tutarı 100 ABD Dolarından az olan gider raporlarını onaylayabilir.</span><span class="sxs-lookup"><span data-stu-id="f7a84-112">For example, the system can approve expense reports that have total amounts that are less than USD 100.</span></span> <span data-ttu-id="f7a84-113">Sistemin belge üzerinde eylem alması gereken zamanı belirtmek için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-113">Follow these steps to specify when the system acts on the document.</span></span>
 
-1. <span data-ttu-id="cc5fa-114">Sol bölmede **Otomatik eylemler**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-114">In the left pane, click **Automatic actions**.</span></span>
-2. <span data-ttu-id="cc5fa-115">**Otomatik eylemleri etkinleştir** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-115">Select the **Enable automatic actions** check box.</span></span>
-3. <span data-ttu-id="cc5fa-116">**Koşul ekle** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-116">Click **Add condition**.</span></span>
-4. <span data-ttu-id="cc5fa-117">Koşulu girin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-117">Enter a condition.</span></span>
-5. <span data-ttu-id="cc5fa-118">Gerekirse başka koşullar da girin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-118">Enter additional conditions, if necessary.</span></span>
-6. <span data-ttu-id="cc5fa-119">Girdiğiniz koşulların doğru biçimde yapılandırıldığını doğrulamak için aşağıdaki adımları tamamlayın:</span><span class="sxs-lookup"><span data-stu-id="cc5fa-119">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
+1. <span data-ttu-id="f7a84-114">Sol bölmede **Otomatik eylemler**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-114">In the left pane, click **Automatic actions**.</span></span>
+2. <span data-ttu-id="f7a84-115">**Otomatik eylemleri etkinleştir** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-115">Select the **Enable automatic actions** check box.</span></span>
+3. <span data-ttu-id="f7a84-116">**Koşul ekle** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-116">Click **Add condition**.</span></span>
+4. <span data-ttu-id="f7a84-117">Koşulu girin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-117">Enter a condition.</span></span>
+5. <span data-ttu-id="f7a84-118">Gerekirse başka koşullar da girin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-118">Enter additional conditions, if necessary.</span></span>
+6. <span data-ttu-id="f7a84-119">Girdiğiniz koşulların doğru biçimde yapılandırıldığını doğrulamak için aşağıdaki adımları tamamlayın:</span><span class="sxs-lookup"><span data-stu-id="f7a84-119">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
 
-    1. <span data-ttu-id="cc5fa-120">**Sınama iş akışı koşulu** formunu açmak için **Sına**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-120">Click **Test** to open the **Test workflow condition** form.</span></span>
-    2. <span data-ttu-id="cc5fa-121">Formdaki **Koşulu doğrula** alanından bir kayıt seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-121">Select a record in the **Validate condition** area of the form.</span></span>
-    3. <span data-ttu-id="cc5fa-122">**Sına**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-122">Click **Test**.</span></span> <span data-ttu-id="cc5fa-123">Sistem, belirtmiş olduğunuz koşullarını yerine getirip getirmediğini belirlemek için kaydı değerlendirir.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-123">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
-    4. <span data-ttu-id="cc5fa-124">**Özellikler** formuna geri dönmek için **Tamam** veya **İptal**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-124">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
+    1. <span data-ttu-id="f7a84-120">**Sınama iş akışı koşulu** formunu açmak için **Sına**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-120">Click **Test** to open the **Test workflow condition** form.</span></span>
+    2. <span data-ttu-id="f7a84-121">Formdaki **Koşulu doğrula** alanından bir kayıt seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-121">Select a record in the **Validate condition** area of the form.</span></span>
+    3. <span data-ttu-id="f7a84-122">**Sına**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-122">Click **Test**.</span></span> <span data-ttu-id="f7a84-123">Sistem, belirtmiş olduğunuz koşullarını yerine getirip getirmediğini belirlemek için kaydı değerlendirir.</span><span class="sxs-lookup"><span data-stu-id="f7a84-123">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
+    4. <span data-ttu-id="f7a84-124">**Özellikler** formuna geri dönmek için **Tamam** veya **İptal**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-124">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
 
-7. <span data-ttu-id="cc5fa-125">**Eylemi otomatik tamamla** listesinden sistemin belge üzerinde gerçekleştirmesi gereken eylemi seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-125">In the **Auto complete action** list, select the action that the system should take on the document.</span></span>
+7. <span data-ttu-id="f7a84-125">**Eylemi otomatik tamamla** listesinden sistemin belge üzerinde gerçekleştirmesi gereken eylemi seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-125">In the **Auto complete action** list, select the action that the system should take on the document.</span></span>
 
-## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="cc5fa-126">Bildirimlerin ne zaman gönderileceğini belirtme</span><span class="sxs-lookup"><span data-stu-id="cc5fa-126">Specify when notifications are sent</span></span>
+## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="f7a84-126">Bildirimlerin ne zaman gönderileceğini belirtme</span><span class="sxs-lookup"><span data-stu-id="f7a84-126">Specify when notifications are sent</span></span>
 
-<span data-ttu-id="cc5fa-127">Bir belge onaylandığında, reddedildiğinde, temsilci atandığında, ilerletildiğinde veya bir değişiklik istendiğinde kişilere bildirim gönderebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-127">You can send notifications to people when a document has been approved, rejected, delegated, or escalated, or when a change has been requested.</span></span> <span data-ttu-id="cc5fa-128">Bildirimlerin ne zaman ve kime gönderileceğini belirlemek için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-128">Follow these steps to specify when notifications are sent, and who the notifications are sent to.</span></span>
+<span data-ttu-id="f7a84-127">Bir belge onaylandığında, reddedildiğinde, temsilci atandığında, ilerletildiğinde veya bir değişiklik istendiğinde kişilere bildirim gönderebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f7a84-127">You can send notifications to people when a document has been approved, rejected, delegated, or escalated, or when a change has been requested.</span></span> <span data-ttu-id="f7a84-128">Bildirimlerin ne zaman ve kime gönderileceğini belirlemek için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-128">Follow these steps to specify when notifications are sent, and who the notifications are sent to.</span></span>
 
-1. <span data-ttu-id="cc5fa-129">Sol bölmede **Bildirimler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-129">In the left pane, click **Notifications**.</span></span>
-2. <span data-ttu-id="cc5fa-130">Bildirim gönderilecek etkinliklerin yanındaki onay kutusunu seçin:</span><span class="sxs-lookup"><span data-stu-id="cc5fa-130">Select the check box next to the events to send notifications for:</span></span>
+1. <span data-ttu-id="f7a84-129">Sol bölmede **Bildirimler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-129">In the left pane, click **Notifications**.</span></span>
+2. <span data-ttu-id="f7a84-130">Bildirim gönderilecek etkinliklerin yanındaki onay kutusunu seçin:</span><span class="sxs-lookup"><span data-stu-id="f7a84-130">Select the check box next to the events to send notifications for:</span></span>
 
-    - <span data-ttu-id="cc5fa-131">**Temsilci Seç** – Belge onay için başka kullanıcıya atandığında.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-131">**Delegate** – When a document has been assigned to another user for approval.</span></span>
-    - <span data-ttu-id="cc5fa-132">**İlerlet** – Atanmış kullanıcı ayrılan sürede belge üzerinde eylem gerçekleştirmediğinde.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-132">**Escalate** – When the assigned user has not acted on a document in the allotted time.</span></span>
-    - <span data-ttu-id="cc5fa-133">**Onayla** – Belge onaylandığında.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-133">**Approve** – When a document has been approved.</span></span>
-    - <span data-ttu-id="cc5fa-134">**Reddet** – Belge reddedildiğinde.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-134">**Reject** – When a document has been rejected.</span></span>
-    - <span data-ttu-id="cc5fa-135">**Değişiklik iste** – Atanmış kullanıcı gönderilmiş olan belgede bir değişiklik talep ettiğinde.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-135">**Request change** – When the assigned user has requested a change to a document that was submitted.</span></span>
+    - <span data-ttu-id="f7a84-131">**Temsilci Seç** – Belge onay için başka kullanıcıya atandığında.</span><span class="sxs-lookup"><span data-stu-id="f7a84-131">**Delegate** – When a document has been assigned to another user for approval.</span></span>
+    - <span data-ttu-id="f7a84-132">**İlerlet** – Atanmış kullanıcı ayrılan sürede belge üzerinde eylem gerçekleştirmediğinde.</span><span class="sxs-lookup"><span data-stu-id="f7a84-132">**Escalate** – When the assigned user has not acted on a document in the allotted time.</span></span>
+    - <span data-ttu-id="f7a84-133">**Onayla** – Belge onaylandığında.</span><span class="sxs-lookup"><span data-stu-id="f7a84-133">**Approve** – When a document has been approved.</span></span>
+    - <span data-ttu-id="f7a84-134">**Reddet** – Belge reddedildiğinde.</span><span class="sxs-lookup"><span data-stu-id="f7a84-134">**Reject** – When a document has been rejected.</span></span>
+    - <span data-ttu-id="f7a84-135">**Değişiklik iste** – Atanmış kullanıcı gönderilmiş olan belgede bir değişiklik talep ettiğinde.</span><span class="sxs-lookup"><span data-stu-id="f7a84-135">**Request change** – When the assigned user has requested a change to a document that was submitted.</span></span>
 
-3. <span data-ttu-id="cc5fa-136">2. adımda seçtiğiniz bir olay için bir satır seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-136">Select the row for an event that you selected in step 2.</span></span>
-4. <span data-ttu-id="cc5fa-137">**Bildirim metni** sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-137">Click the **Notification text** tab.</span></span>
-5. <span data-ttu-id="cc5fa-138">Metin kutusuna bildirim için metin girin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-138">In the text box, enter the text for the notification.</span></span>
-6. <span data-ttu-id="cc5fa-139">Metni kişiselleştirmek için kullanıcılara görüntülendiğinde uygun verilerle değiştirilecek yer tutucular ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-139">To personalize the text, you can insert placeholders, which are replaced with the appropriate data when they are displayed to users.</span></span> <span data-ttu-id="cc5fa-140">Yer tutucu girmek için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="cc5fa-140">To insert a placeholder, follow these steps:</span></span>
+3. <span data-ttu-id="f7a84-136">2. adımda seçtiğiniz bir olay için bir satır seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-136">Select the row for an event that you selected in step 2.</span></span>
+4. <span data-ttu-id="f7a84-137">**Bildirim metni** sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-137">Click the **Notification text** tab.</span></span>
+5. <span data-ttu-id="f7a84-138">Metin kutusuna bildirim için metin girin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-138">In the text box, enter the text for the notification.</span></span>
+6. <span data-ttu-id="f7a84-139">Metni kişiselleştirmek için kullanıcılara görüntülendiğinde uygun verilerle değiştirilecek yer tutucular ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f7a84-139">To personalize the text, you can insert placeholders, which are replaced with the appropriate data when they are displayed to users.</span></span> <span data-ttu-id="f7a84-140">Yer tutucu girmek için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="f7a84-140">To insert a placeholder, follow these steps:</span></span>
 
-    1. <span data-ttu-id="cc5fa-141">Yer tutucunun görünmesini istediğiniz yer için metin kutusuna tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-141">Click in the text box at the location where the placeholder should appear.</span></span>
-    2. <span data-ttu-id="cc5fa-142">**Yer tutucu ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-142">Click **Insert placeholder**.</span></span>
-    3. <span data-ttu-id="cc5fa-143">Görüntülenen listede, eklenecek yer tutucuyu seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-143">In the list that is displayed, select the placeholder to insert.</span></span>
-    4. <span data-ttu-id="cc5fa-144">**Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-144">Click **Insert**.</span></span>
+    1. <span data-ttu-id="f7a84-141">Yer tutucunun görünmesini istediğiniz yer için metin kutusuna tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-141">Click in the text box at the location where the placeholder should appear.</span></span>
+    2. <span data-ttu-id="f7a84-142">**Yer tutucu ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-142">Click **Insert placeholder**.</span></span>
+    3. <span data-ttu-id="f7a84-143">Görüntülenen listede, eklenecek yer tutucuyu seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-143">In the list that is displayed, select the placeholder to insert.</span></span>
+    4. <span data-ttu-id="f7a84-144">**Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-144">Click **Insert**.</span></span>
 
-7. <span data-ttu-id="cc5fa-145">Bildirimin çevirilerini eklemek için **Çeviriler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-145">To add translations of the notification, click **Translations**.</span></span> <span data-ttu-id="cc5fa-146">Görüntülenen formda, aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="cc5fa-146">In the form that is displayed, follow these steps:</span></span>
+7. <span data-ttu-id="f7a84-145">Bildirimin çevirilerini eklemek için **Çeviriler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-145">To add translations of the notification, click **Translations**.</span></span> <span data-ttu-id="f7a84-146">Görüntülenen formda, aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="f7a84-146">In the form that is displayed, follow these steps:</span></span>
 
-    1. <span data-ttu-id="cc5fa-147">**Ekle** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-147">Click **Add**.</span></span>
-    2. <span data-ttu-id="cc5fa-148">Görüntülenen listede, metni gireceğiniz dili seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-148">In the list that is displayed, select the language in which you will enter the text.</span></span>
-    3. <span data-ttu-id="cc5fa-149">**Çevrilmiş metin** metin kutusuna metni girin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-149">In the **Translated text** text box, enter the text.</span></span>
-    4. <span data-ttu-id="cc5fa-150">Metni kişiselleştirmek için yer tutucular ekleyin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-150">To personalize the text, insert placeholders.</span></span>
-    5. <span data-ttu-id="cc5fa-151">**Kapat**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-151">Click **Close**.</span></span>
+    1. <span data-ttu-id="f7a84-147">**Ekle** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-147">Click **Add**.</span></span>
+    2. <span data-ttu-id="f7a84-148">Görüntülenen listede, metni gireceğiniz dili seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-148">In the list that is displayed, select the language in which you will enter the text.</span></span>
+    3. <span data-ttu-id="f7a84-149">**Çevrilmiş metin** metin kutusuna metni girin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-149">In the **Translated text** text box, enter the text.</span></span>
+    4. <span data-ttu-id="f7a84-150">Metni kişiselleştirmek için yer tutucular ekleyin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-150">To personalize the text, insert placeholders.</span></span>
+    5. <span data-ttu-id="f7a84-151">**Kapat**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-151">Click **Close**.</span></span>
 
-8. <span data-ttu-id="cc5fa-152">**Alıcı** sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-152">Click the **Recipient** tab.</span></span>
-9. <span data-ttu-id="cc5fa-153">Bildirimlerin gönderileceği kişiyi belirtin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-153">Specify who the notifications are sent to.</span></span> <span data-ttu-id="cc5fa-154">Aşağıdaki tabloda seçeneklerden birini seçin ve 10. adıma geçmeden önce ilgili seçeneğin ek adımlarını uygulayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-154">Select one of the options in the following table, and then follow the additional steps for the option before you go to step 10.</span></span>
+8. <span data-ttu-id="f7a84-152">**Alıcı** sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-152">Click the **Recipient** tab.</span></span>
+9. <span data-ttu-id="f7a84-153">Bildirimlerin gönderileceği kişiyi belirtin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-153">Specify who the notifications are sent to.</span></span> <span data-ttu-id="f7a84-154">Aşağıdaki tabloda seçeneklerden birini seçin ve 10. adıma geçmeden önce ilgili seçeneğin ek adımlarını uygulayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-154">Select one of the options in the following table, and then follow the additional steps for the option before you go to step 10.</span></span>
 
     <table>
     <thead>
     <tr>
-    <th><span data-ttu-id="cc5fa-155">Seçenek</span><span class="sxs-lookup"><span data-stu-id="cc5fa-155">Option</span></span></th>
-    <th><span data-ttu-id="cc5fa-156">Bildirim alıcıları</span><span class="sxs-lookup"><span data-stu-id="cc5fa-156">Notification recipients</span></span></th>
-    <th><span data-ttu-id="cc5fa-157">Ek adımlar</span><span class="sxs-lookup"><span data-stu-id="cc5fa-157">Additional steps</span></span></th>
+    <th><span data-ttu-id="f7a84-155">Seçenek</span><span class="sxs-lookup"><span data-stu-id="f7a84-155">Option</span></span></th>
+    <th><span data-ttu-id="f7a84-156">Bildirim alıcıları</span><span class="sxs-lookup"><span data-stu-id="f7a84-156">Notification recipients</span></span></th>
+    <th><span data-ttu-id="f7a84-157">Ek adımlar</span><span class="sxs-lookup"><span data-stu-id="f7a84-157">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr>
-    <td><span data-ttu-id="cc5fa-158"><strong>Katılımcı</strong></span><span class="sxs-lookup"><span data-stu-id="cc5fa-158"><strong>Participant</strong></span></span></td>
-    <td><span data-ttu-id="cc5fa-159">Özel bir gruba ya da role atanmış kullanıcılar</span><span class="sxs-lookup"><span data-stu-id="cc5fa-159">Users who are assigned to a specific group or role</span></span></td>
+    <td><span data-ttu-id="f7a84-158"><strong>Katılımcı</strong></span><span class="sxs-lookup"><span data-stu-id="f7a84-158"><strong>Participant</strong></span></span></td>
+    <td><span data-ttu-id="f7a84-159">Özel bir gruba ya da role atanmış kullanıcılar</span><span class="sxs-lookup"><span data-stu-id="f7a84-159">Users who are assigned to a specific group or role</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="cc5fa-160"><strong>Katılımcı</strong>'yı seçtikten sonra, <strong>Rol tabanlı</strong> sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-160">After you select <strong>Participant</strong>, click the <strong>Role based</strong> tab.</span></span></li>
-    <li><span data-ttu-id="cc5fa-161"><strong>Katılımcı türü</strong> listesinde, bildirimlerin gönderileceği grup türünü veya rolü seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-161">In the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
-    <li><span data-ttu-id="cc5fa-162"><strong>Katılımcı</strong> listesinde, bildirimlerin gönderileceği grubu ya da rolü seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-162">In the <strong>Participant</strong> list, select the group or role to send notifications to.</span></span></li>
+    <li><span data-ttu-id="f7a84-160"><strong>Katılımcı</strong>'yı seçtikten sonra, <strong>Rol tabanlı</strong> sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-160">After you select <strong>Participant</strong>, click the <strong>Role based</strong> tab.</span></span></li>
+    <li><span data-ttu-id="f7a84-161"><strong>Katılımcı türü</strong> listesinde, bildirimlerin gönderileceği grup türünü veya rolü seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-161">In the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
+    <li><span data-ttu-id="f7a84-162"><strong>Katılımcı</strong> listesinde, bildirimlerin gönderileceği grubu ya da rolü seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-162">In the <strong>Participant</strong> list, select the group or role to send notifications to.</span></span></li>
     </ol>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="cc5fa-163"><strong>İş akışı kullanıcısı</strong></span><span class="sxs-lookup"><span data-stu-id="cc5fa-163"><strong>Workflow user</strong></span></span></td>
-    <td><span data-ttu-id="cc5fa-164">Mevcut iş akışına katılım gösteren kullanıcılar</span><span class="sxs-lookup"><span data-stu-id="cc5fa-164">Users who participate in the current workflow</span></span></td>
+    <td><span data-ttu-id="f7a84-163"><strong>İş akışı kullanıcısı</strong></span><span class="sxs-lookup"><span data-stu-id="f7a84-163"><strong>Workflow user</strong></span></span></td>
+    <td><span data-ttu-id="f7a84-164">Mevcut iş akışına katılım gösteren kullanıcılar</span><span class="sxs-lookup"><span data-stu-id="f7a84-164">Users who participate in the current workflow</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="cc5fa-165"><strong>İş akışı kullanıcısı</strong>'nı seçtikten sonra, <strong>İş akışı kullanıcısı</strong> sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-165">After you select <strong>Workflow user</strong>, click the <strong>Workflow user</strong> tab.</span></span></li>
-    <li><span data-ttu-id="cc5fa-166"><strong>İş akışı kullanıcısı</strong> listesinde, iş akışına katılan bir kullanıcı seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-166">In the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
+    <li><span data-ttu-id="f7a84-165"><strong>İş akışı kullanıcısı</strong>'nı seçtikten sonra, <strong>İş akışı kullanıcısı</strong> sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-165">After you select <strong>Workflow user</strong>, click the <strong>Workflow user</strong> tab.</span></span></li>
+    <li><span data-ttu-id="f7a84-166"><strong>İş akışı kullanıcısı</strong> listesinde, iş akışına katılan bir kullanıcı seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-166">In the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ol>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="cc5fa-167"><strong>Kullanıcı</strong></span><span class="sxs-lookup"><span data-stu-id="cc5fa-167"><strong>User</strong></span></span></td>
-    <td><span data-ttu-id="cc5fa-168">Belirli kullanıcılar</span><span class="sxs-lookup"><span data-stu-id="cc5fa-168">Specific users</span></span></td>
+    <td><span data-ttu-id="f7a84-167"><strong>Kullanıcı</strong></span><span class="sxs-lookup"><span data-stu-id="f7a84-167"><strong>User</strong></span></span></td>
+    <td><span data-ttu-id="f7a84-168">Belirli kullanıcılar</span><span class="sxs-lookup"><span data-stu-id="f7a84-168">Specific users</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="cc5fa-169"><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-169">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
-    <li><span data-ttu-id="cc5fa-170">Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-170">Select the users to send notifications to, and then move these users to the <strong>Selected users</strong> list.</span></span></li>
+    <li><span data-ttu-id="f7a84-169"><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-169">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="f7a84-170">Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-170">Select the users to send notifications to, and then move these users to the <strong>Selected users</strong> list.</span></span></li>
     </ol>
     </td>
     </tr>
     </tbody>
     </table>
 
-10. <span data-ttu-id="cc5fa-171">Adım 3'ten 9'a kadar olan adımları adım 2'de seçtiğiniz tüm olaylar için yineleyin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-171">Repeat steps 3 through 9 for each event that you selected in step 2.</span></span>
+10. <span data-ttu-id="f7a84-171">Adım 3'ten 9'a kadar olan adımları adım 2'de seçtiğiniz tüm olaylar için yineleyin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-171">Repeat steps 3 through 9 for each event that you selected in step 2.</span></span>
 
-## <a name="specify-a-final-approver"></a><span data-ttu-id="cc5fa-172"> Son onaylayıcıyı belirtme</span><span class="sxs-lookup"><span data-stu-id="cc5fa-172">Specify a final approver</span></span>
+## <a name="specify-a-final-approver"></a><span data-ttu-id="f7a84-172"> Son onaylayıcıyı belirtme</span><span class="sxs-lookup"><span data-stu-id="f7a84-172">Specify a final approver</span></span>
 
-<span data-ttu-id="cc5fa-173">Onaylayanın belgeyi onay için gönderen kişi olduğu senaryolar için son onaylayan atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-173">You may want to designate a final approver for scenarios where the approver is the person who submitted the document for approval.</span></span> <span data-ttu-id="cc5fa-174">Son onaylayanı belirtmek için şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-174">Follow these steps to specify a final approver.</span></span>
+<span data-ttu-id="f7a84-173">Onaylayanın, belgeyi onaya gönderen kişi olduğu ve "Gönderen onayına izin verme"nin kullanıldığı senaryolar için bir son onaylayan atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f7a84-173">You can designate a final approver for scenarios where the approver is the person who submitted the document for approval and the "disallow approval by submitter" is being used.</span></span> <span data-ttu-id="f7a84-174">Son onaylayanı belirtmek için şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-174">Follow these steps to specify a final approver.</span></span>
 
-1. <span data-ttu-id="cc5fa-175">Sol bölmede **Gelişmiş ayarlar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-175">In the left pane, click **Advanced settings**.</span></span>
-2. <span data-ttu-id="cc5fa-176">**Son onaylayanı kullan** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-176">Select the **Use final approver** check box.</span></span>
-3. <span data-ttu-id="cc5fa-177">Listede, son onaylayan olacak kullanıcıyı seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-177">In the list, select the user to be the final approver.</span></span>
+1. <span data-ttu-id="f7a84-175">İş akışı düzenleyicisinde, onay öğesine sağ tıklayın ve ardından **Özellikler**'i seçerek **Özellikler** formunu açın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-175">In the workflow editor, right-click the approval element, and then select **Properties** to open the **Properties** form.</span></span>
+2. <span data-ttu-id="f7a84-176">Sol bölmede **Gelişmiş ayarlar**'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-176">In the left pane, click **Advanced settings**.</span></span>
+3. <span data-ttu-id="f7a84-177">**Son onaylayanı kullan** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-177">Select the **Use final approver** check box.</span></span>
+4. <span data-ttu-id="f7a84-178">Listede, son onaylayan olacak kullanıcıyı seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-178">In the list, select a user to be the final approver.</span></span>
 
-## <a name="set-a-time-limit"></a><span data-ttu-id="cc5fa-178">Zaman limiti ayarlama</span><span class="sxs-lookup"><span data-stu-id="cc5fa-178">Set a time limit</span></span>
+## <a name="set-a-time-limit"></a><span data-ttu-id="f7a84-179">Zaman limiti ayarlama</span><span class="sxs-lookup"><span data-stu-id="f7a84-179">Set a time limit</span></span>
 
-<span data-ttu-id="cc5fa-179">Onay işleminin belirli bir süre içerisinde tamamlanması gerekiyorsa bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-179">Follow these steps if the approval process must be completed in a specific time.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="cc5fa-180">Bu adımlarda belirlediğiniz seçenekler her onay adımının **Atama** ve **İlerletme** alanlarında belirlediğiniz seçenekleri geçersiz kılar.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-180">The options that you select in these steps override the options that you selected in the **Assignment** and **Escalation** areas of each approval step.</span></span>
-
-1. <span data-ttu-id="cc5fa-181">Sol bölmede **Gelişmiş ayarlar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-181">In the left pane, click **Advanced settings**.</span></span>
-2. <span data-ttu-id="cc5fa-182">**İş akışı öğesi için bir zaman sınırı** **ayarlayın** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-182">Select the **Set a time limit for the workflow** **element** check box.</span></span>
-3. <span data-ttu-id="cc5fa-183">**Süre** alanında, onay işleminin ne zaman tamamlanması gerektiğini belirtin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-183">In the **Duration** field, specify when the approval process must be completed.</span></span> <span data-ttu-id="cc5fa-184">Aşağıdaki seçeneklerden birini belirleyin:</span><span class="sxs-lookup"><span data-stu-id="cc5fa-184">Select one of the following options:</span></span>
-
-    - <span data-ttu-id="cc5fa-185">**Saat** – Onay işleminin tamamlanması gereken saat sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-185">**Hours** – Enter the number of hours in which the approval process must be completed.</span></span> <span data-ttu-id="cc5fa-186">Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-186">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    - <span data-ttu-id="cc5fa-187">**Gün** – Onay işleminin tamamlanması gereken gün sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-187">**Days** – Enter the number of days in which the approval process must be completed.</span></span> <span data-ttu-id="cc5fa-188">Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-188">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    - <span data-ttu-id="cc5fa-189">**Hafta** – Onay işleminin tamamlanması gereken hafta sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-189">**Weeks** – Enter the number of weeks in which the approval process must be completed.</span></span>
-    - <span data-ttu-id="cc5fa-190">**Ay** – Onay işleminin tamamlanmış olması gereken günü ve haftayı seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-190">**Months** – Select the day and week by which the approval process must be completed.</span></span> <span data-ttu-id="cc5fa-191">Örneğin onay işleminin ayın üçüncü haftasının Cuma günü tamamlanmasını isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-191">For example, you may want the approval process to be completed by Friday of the third week of the month.</span></span>
-    - <span data-ttu-id="cc5fa-192">**Yıl** – Onay işleminin tamamlanmış olması gereken günü, haftayı ve ayı seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-192">**Years** – Select the day, week, and month by which the approval process must be completed.</span></span> <span data-ttu-id="cc5fa-193">Örneğin onay işleminin Aralık ayının üçüncü haftasının Cuma günü tamamlanmasını isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-193">For example, you may want the approval process to be completed by Friday of the third week of December.</span></span>
-
-4. <span data-ttu-id="cc5fa-194">Zaman sınırı aşılırsa sistem belge üstünde eylem yapar.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-194">If the time limit is exceeded, the system acts on the document.</span></span> <span data-ttu-id="cc5fa-195">**Eylem** listesinde sistemin gerçekleştirmesi gereken eylemi seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-195">In the **Action** list, select the action that the system should take.</span></span>
-
-## <a name="specify-which-actions-are-available-to-the-user"></a><span data-ttu-id="cc5fa-196">Hangi eylemlerin kullanıcı tarafından kullanılabilir olacağını belirtin</span><span class="sxs-lookup"><span data-stu-id="cc5fa-196">Specify which actions are available to the user</span></span>
-
-<span data-ttu-id="cc5fa-197">Bu belge onay için bir kullanıcıya atandığında kullanıcı belge üstünde işlem yapmalıdır.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-197">When a document is assigned to a user for approval, the user must act on the document.</span></span> <span data-ttu-id="cc5fa-198">Kullanıcının gönderilmiş olan belge üzerinde hangi eylemleri yapabileceğini belirtmek için bu adımları izler.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-198">Follows these steps to specify which actions the user can take on the document that was submitted.</span></span>
-
-1. <span data-ttu-id="cc5fa-199">Sol bölmede **Gelişmiş ayarlar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-199">In the left pane, click **Advanced settings**.</span></span>
-2. <span data-ttu-id="cc5fa-200">Kullanıcı belgeyi onaylayabiliyorsa **Onayla** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-200">Select the **Approve** check box if the user can approve the document.</span></span>
-3. <span data-ttu-id="cc5fa-201">Kullanıcı belgeyi reddedebiliyorsa **Reddet** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-201">Select the **Reject** check box the user can reject the document.</span></span>
-4. <span data-ttu-id="cc5fa-202">Kullanıcıların belgelerde değişiklik talep edebilmesi için **Değişiklik iste** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-202">Select the **Request change** check box the user can request changes to the document.</span></span>
-5. <span data-ttu-id="cc5fa-203">Kullanıcı belgeyi başka bir kullanıcıya atayabilecekse **Temsilci Seç** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-203">Select the **Delegate** check box if the user can assign the document to another user for approval.</span></span>
+<span data-ttu-id="f7a84-180">Onay işleminin belirli bir süre içerisinde tamamlanması gerekiyorsa bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-180">Follow these steps if the approval process must be completed in a specific time.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="cc5fa-204">**Kurumsal Portal içindeki iş listesinden eylemleri etkinleştir** onay kutusu kullanımdan kaldırılmıştır.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-204">The **Enable actions from the work list in Enterprise Portal** check box has been deprecated.</span></span>
+> <span data-ttu-id="f7a84-181">Bu adımlarda belirlediğiniz seçenekler her onay adımının **Atama** ve **İlerletme** alanlarında belirlediğiniz seçenekleri geçersiz kılar.</span><span class="sxs-lookup"><span data-stu-id="f7a84-181">The options that you select in these steps override the options that you selected in the **Assignment** and **Escalation** areas of each approval step.</span></span>
 
-## <a name="configure-the-approval-steps"></a><span data-ttu-id="cc5fa-205"> Onay adımlarını yapılandırma</span><span class="sxs-lookup"><span data-stu-id="cc5fa-205">Configure the approval steps</span></span>
+1. <span data-ttu-id="f7a84-182">Sol bölmede **Gelişmiş ayarlar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-182">In the left pane, click **Advanced settings**.</span></span>
+2. <span data-ttu-id="f7a84-183">**İş akışı öğesi için bir zaman sınırı** **ayarlayın** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-183">Select the **Set a time limit for the workflow** **element** check box.</span></span>
+3. <span data-ttu-id="f7a84-184">**Süre** alanında, onay işleminin ne zaman tamamlanması gerektiğini belirtin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-184">In the **Duration** field, specify when the approval process must be completed.</span></span> <span data-ttu-id="f7a84-185">Aşağıdaki seçeneklerden birini belirleyin:</span><span class="sxs-lookup"><span data-stu-id="f7a84-185">Select one of the following options:</span></span>
 
-<span data-ttu-id="cc5fa-206">Onay işlemi onay adımlarından oluşur.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-206">An approval process consists of approval steps.</span></span> <span data-ttu-id="cc5fa-207">Onay işlemine adım eklemek ve adımları yapılandırmak için aşağıdaki yordamı tamamlayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-207">Complete the following procedure to add steps the approval process and configure the steps.</span></span>
+    - <span data-ttu-id="f7a84-186">**Saat** – Onay işleminin tamamlanması gereken saat sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-186">**Hours** – Enter the number of hours in which the approval process must be completed.</span></span> <span data-ttu-id="f7a84-187">Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-187">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    - <span data-ttu-id="f7a84-188">**Gün** – Onay işleminin tamamlanması gereken gün sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-188">**Days** – Enter the number of days in which the approval process must be completed.</span></span> <span data-ttu-id="f7a84-189">Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-189">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    - <span data-ttu-id="f7a84-190">**Hafta** – Onay işleminin tamamlanması gereken hafta sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-190">**Weeks** – Enter the number of weeks in which the approval process must be completed.</span></span>
+    - <span data-ttu-id="f7a84-191">**Ay** – Onay işleminin tamamlanmış olması gereken günü ve haftayı seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-191">**Months** – Select the day and week by which the approval process must be completed.</span></span> <span data-ttu-id="f7a84-192">Örneğin onay işleminin ayın üçüncü haftasının Cuma günü tamamlanmasını isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f7a84-192">For example, you may want the approval process to be completed by Friday of the third week of the month.</span></span>
+    - <span data-ttu-id="f7a84-193">**Yıl** – Onay işleminin tamamlanmış olması gereken günü, haftayı ve ayı seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-193">**Years** – Select the day, week, and month by which the approval process must be completed.</span></span> <span data-ttu-id="f7a84-194">Örneğin onay işleminin Aralık ayının üçüncü haftasının Cuma günü tamamlanmasını isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f7a84-194">For example, you may want the approval process to be completed by Friday of the third week of December.</span></span>
 
-1. <span data-ttu-id="cc5fa-208">İş akışı düzenleyicisinde onay işlemine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-208">In the workflow editor, double-click the approval process.</span></span> <span data-ttu-id="cc5fa-209">İş akışı düzenleyicisi onay işleminin adımlarını görüntüler.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-209">The workflow editor displays the steps of the approval process.</span></span>
-2. <span data-ttu-id="cc5fa-210">Onay adımı eklemek için adımları **İş akışı öğeleri** alanından tuvale sürükleyin.</span><span class="sxs-lookup"><span data-stu-id="cc5fa-210">To add an approval step, drag the step from the **Workflow elements** area to the canvas.</span></span>
-3. <span data-ttu-id="cc5fa-211">Onay adımını yapılandırmak için bkz. [İş akışında onay adımlarını yapılandırma](configure-approval-step-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="cc5fa-211">To configure an approval step, see [Configure approval steps in a workflow](configure-approval-step-workflow.md).</span></span>
+4. <span data-ttu-id="f7a84-195">Zaman sınırı aşılırsa sistem belge üstünde eylem yapar.</span><span class="sxs-lookup"><span data-stu-id="f7a84-195">If the time limit is exceeded, the system acts on the document.</span></span> <span data-ttu-id="f7a84-196">**Eylem** listesinde sistemin gerçekleştirmesi gereken eylemi seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-196">In the **Action** list, select the action that the system should take.</span></span>
+
+## <a name="specify-which-actions-are-available-to-the-user"></a><span data-ttu-id="f7a84-197">Hangi eylemlerin kullanıcı tarafından kullanılabilir olacağını belirtin</span><span class="sxs-lookup"><span data-stu-id="f7a84-197">Specify which actions are available to the user</span></span>
+
+<span data-ttu-id="f7a84-198">Bu belge onay için bir kullanıcıya atandığında kullanıcı belge üstünde işlem yapmalıdır.</span><span class="sxs-lookup"><span data-stu-id="f7a84-198">When a document is assigned to a user for approval, the user must act on the document.</span></span> <span data-ttu-id="f7a84-199">Kullanıcının gönderilmiş olan belge üzerinde hangi eylemleri yapabileceğini belirtmek için bu adımları izler.</span><span class="sxs-lookup"><span data-stu-id="f7a84-199">Follows these steps to specify which actions the user can take on the document that was submitted.</span></span>
+
+1. <span data-ttu-id="f7a84-200">Sol bölmede **Gelişmiş ayarlar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-200">In the left pane, click **Advanced settings**.</span></span>
+2. <span data-ttu-id="f7a84-201">Kullanıcı belgeyi onaylayabiliyorsa **Onayla** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-201">Select the **Approve** check box if the user can approve the document.</span></span>
+3. <span data-ttu-id="f7a84-202">Kullanıcı belgeyi reddedebiliyorsa **Reddet** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-202">Select the **Reject** check box the user can reject the document.</span></span>
+4. <span data-ttu-id="f7a84-203">Kullanıcıların belgelerde değişiklik talep edebilmesi için **Değişiklik iste** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-203">Select the **Request change** check box the user can request changes to the document.</span></span>
+5. <span data-ttu-id="f7a84-204">Kullanıcı belgeyi başka bir kullanıcıya atayabilecekse **Temsilci Seç** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-204">Select the **Delegate** check box if the user can assign the document to another user for approval.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="f7a84-205">**Kurumsal Portal içindeki iş listesinden eylemleri etkinleştir** onay kutusu kullanımdan kaldırılmıştır.</span><span class="sxs-lookup"><span data-stu-id="f7a84-205">The **Enable actions from the work list in Enterprise Portal** check box has been deprecated.</span></span>
+
+## <a name="configure-the-approval-steps"></a><span data-ttu-id="f7a84-206"> Onay adımlarını yapılandırma</span><span class="sxs-lookup"><span data-stu-id="f7a84-206">Configure the approval steps</span></span>
+
+<span data-ttu-id="f7a84-207">Onay işlemi onay adımlarından oluşur.</span><span class="sxs-lookup"><span data-stu-id="f7a84-207">An approval process consists of approval steps.</span></span> <span data-ttu-id="f7a84-208">Onay işlemine adım eklemek ve adımları yapılandırmak için aşağıdaki yordamı tamamlayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-208">Complete the following procedure to add steps the approval process and configure the steps.</span></span>
+
+1. <span data-ttu-id="f7a84-209">İş akışı düzenleyicisinde onay işlemine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f7a84-209">In the workflow editor, double-click the approval process.</span></span> <span data-ttu-id="f7a84-210">İş akışı düzenleyicisi onay işleminin adımlarını görüntüler.</span><span class="sxs-lookup"><span data-stu-id="f7a84-210">The workflow editor displays the steps of the approval process.</span></span>
+2. <span data-ttu-id="f7a84-211">Onay adımı eklemek için adımları **İş akışı öğeleri** alanından tuvale sürükleyin.</span><span class="sxs-lookup"><span data-stu-id="f7a84-211">To add an approval step, drag the step from the **Workflow elements** area to the canvas.</span></span>
+3. <span data-ttu-id="f7a84-212">Onay adımını yapılandırmak için bkz. [İş akışında onay adımlarını yapılandırma](configure-approval-step-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="f7a84-212">To configure an approval step, see [Configure approval steps in a workflow](configure-approval-step-workflow.md).</span></span>

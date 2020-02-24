@@ -1,0 +1,75 @@
+---
+title: Common Data Service'da şirket kavramı
+description: Bu konu, Finance and Operations ve Common Data Service arasındaki şirket verileri tümleştirmesini açıklar.
+author: RamaKrishnamoorthy
+manager: AnnBe
+ms.date: 07/15/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User, IT Pro
+ms.reviewer: rhaertle
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: ''
+ms.author: ramasri
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2019-07-15
+ms.openlocfilehash: 20a3f89821af56cb4c3969c89301d4a8a32ab848
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3020065"
+---
+# <a name="company-concept-in-common-data-service"></a><span data-ttu-id="8ca07-103">Common Data Service'da şirket kavramı</span><span class="sxs-lookup"><span data-stu-id="8ca07-103">Company concept in Common Data Service</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+[!include [preview-banner](../../includes/preview-banner.md)]
+
+<span data-ttu-id="8ca07-104">Finance and Operations'da *şirket* kavramı hem yasal bir yapı hem de bir işletme yapısıdır.</span><span class="sxs-lookup"><span data-stu-id="8ca07-104">In Finance and Operations, the concept of a *company* is both a legal construct and a business construct.</span></span> <span data-ttu-id="8ca07-105">Ayrıca veriler için bir güvenlik ve görünürlük sınırıdır.</span><span class="sxs-lookup"><span data-stu-id="8ca07-105">It's also a security and visibility boundary for data.</span></span> <span data-ttu-id="8ca07-106">Kullanıcılar her zaman tek bir şirket bağlamında çalışır ve verilerin çoğu şirket tarafından çıkarılır.</span><span class="sxs-lookup"><span data-stu-id="8ca07-106">Users always work in the context of a single company, and most of the data is striped by company.</span></span>
+
+<span data-ttu-id="8ca07-107">Common Data Service'da eşdeğer bir kavram yoktur.</span><span class="sxs-lookup"><span data-stu-id="8ca07-107">Common Data Service doesn't have an equivalent concept.</span></span> <span data-ttu-id="8ca07-108">En yakın kavram, birincil olarak kullanıcı verileri için bir güvenlik ve görünürlük sınırı olan *iş birimidir*.</span><span class="sxs-lookup"><span data-stu-id="8ca07-108">The closest concept is *business unit*, which is primarily a security and visibility boundary for user data.</span></span> <span data-ttu-id="8ca07-109">Bu kavram, şirket kavramıyla aynı yasal veya iş etkilerine sahip değildir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-109">This concept doesn't have the same legal or business implications as the company concept.</span></span>
+
+<span data-ttu-id="8ca07-110">İş birimi ve şirket eşdeğer kavramlar olmadığından, Common Data Service tümleştirmesi amacıyla aralarında bire bir (1:1) eşlemesini zorlamak mümkün değildir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-110">Because business unit and company aren't equivalent concepts, it isn't possible to force a one-to-one (1:1) mapping between them for the purpose of Common Data Service integration.</span></span> <span data-ttu-id="8ca07-111">Ancak, kullanıcılar varsayılan olarak, uygulamada ve Common Data Service'da aynı kayıtları görebilmelidir; bu nedenle Microsoft, Common Data Service'da cdm\_Şirket adlı yeni bir varlık tanıttı.</span><span class="sxs-lookup"><span data-stu-id="8ca07-111">However, because users must, by default, be able to see the same records in the application and Common Data Service, Microsoft has introduced a new entity in Common Data Service that is named cdm\_Company.</span></span> <span data-ttu-id="8ca07-112">Bu varlık uygulamadaki Şirket varlığına eşdeğerdir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-112">This entity is equivalent to the Company entity in the application.</span></span> <span data-ttu-id="8ca07-113">Kayıtların görünürlüğünün uygulamak ve Common Data Service'ta eşdeğer olmasını sağlamaya yardımcı olmak için, Common Data Service'da aşağıdaki veri ayarının yapılmasını öneriyoruz.</span><span class="sxs-lookup"><span data-stu-id="8ca07-113">To help guarantee that visibility of records is equivalent between the application and Common Data Service out of the box, we recommend the following setup for data in Common Data Service:</span></span>
+
++ <span data-ttu-id="8ca07-114">Çift yazma için etkinleştirilmiş her Finance and Operations Şirket kaydı için, ilişkili bir cdm\_Şirket kaydı oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="8ca07-114">For each Finance and Operations Company record that is enabled for dual-write, an associated cdm\_Company record is created.</span></span>
++ <span data-ttu-id="8ca07-115">cdm\_Şirket kaydı oluşturulduğunda ve çift yazma için etkinleştirildiğinde, aynı ada sahip bir varsayılan iş birimi oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="8ca07-115">When a cdm\_Company record is created and enabled for dual-write, a default business unit is created that has the same name.</span></span> <span data-ttu-id="8ca07-116">Bu iş birimi için otomatik olarak varsayılan bir ekip oluşturulsa da, iş birimi kullanılmaz.</span><span class="sxs-lookup"><span data-stu-id="8ca07-116">Although a default team is automatically created for that business unit, the business unit isn't used.</span></span>
++ <span data-ttu-id="8ca07-117">Aynı ada sahip ayrı bir sahip olan takım oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="8ca07-117">A separate owner team is created that has the same name.</span></span> <span data-ttu-id="8ca07-118">Ayrıca iş birimi ile de ilişkilidir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-118">It's also associated with the business unit.</span></span>
++ <span data-ttu-id="8ca07-119">Varsayılan olarak, oluşturulan ve Common Data Service'a çift yazılan herhangi bir kaydın sahibi, ilişkili iş birimine bağlı "DW Sahibi" ekibine ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="8ca07-119">By default, the owner of any record that is created and dual-written to Common Data Service is set to the "DW Owner" team that is linked to the associated business unit.</span></span>
+
+<span data-ttu-id="8ca07-120">Aşağıdaki şekilde, Common Data Service'daki bu veri ayarının bir örneğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-120">The following illustration shows an example of this data setup in Common Data Service.</span></span>
+
+![Common Data Service'da veri ayarı](media/dual-write-company-1.png)
+
+<span data-ttu-id="8ca07-122">Bu yapılandırma nedeniyle, USMF şirketiyle ilgili herhangi bir kayıt, Common Data Service'daki USMF iş birimine bağlı olan bir takıma ait olacaktır.</span><span class="sxs-lookup"><span data-stu-id="8ca07-122">Because of this configuration, any record that is related to the USMF company will be owned by a team that is linked to the USMF business unit in Common Data Service.</span></span> <span data-ttu-id="8ca07-123">Bu nedenle, iş birimi düzeyinde görünürlük için ayarlanan bir güvenlik rolü aracılığıyla bu iş birimine erişimi olan herhangi bir kullanıcı artık bu kayıtları görebilir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-123">Therefore, any user who has access to that business unit through a security role that is set to business unit–level visibility can now see those records.</span></span> <span data-ttu-id="8ca07-124">Aşağıdaki örnek, takımlara bu kayıtlara doğru erişimi sağlamak amacıyla nasıl kullanılabileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-124">The following example shows how teams can be used to provide the correct access to those records.</span></span>
+
++ <span data-ttu-id="8ca07-125">"Satış Yöneticisi" rolü "USMF Satış" takımı üyelerine atanır.</span><span class="sxs-lookup"><span data-stu-id="8ca07-125">The "Sales Manager" role is assigned to members of the "USMF Sales" team.</span></span>
++ <span data-ttu-id="8ca07-126">"Satış Yöneticisi" rolüne sahip kullanıcılar, üye oldukları aynı işi birimine üye olan hesap kayıtlarına erişebilir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-126">Users who have the "Sales Manager" role can access any account records that are members of the same business unit that they are members of.</span></span>
++ <span data-ttu-id="8ca07-127">"USMF Satış" ekibi, daha önce bahsedilen USMF iş birimine bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="8ca07-127">The "USMF Sales" team is linked to the USMF business unit that was mentioned earlier.</span></span>
++ <span data-ttu-id="8ca07-128">Bu nedenle, "USMF Satış" ekibinin üyeleri Finance and Operations'taki USMF Şirket varlığından gelen "USMF DW" kullanıcısı tarafından sahip olunan herhangi bir hesabı görebilir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-128">Therefore, members of the "USMF Sales" team can see any account that is owned by the "USMF DW" user, which would have come from the USMF Company entity in Finance and Operations.</span></span>
+
+![Ekipler nasıl kullanılabilir](media/dual-write-company-2.png)
+
+<span data-ttu-id="8ca07-130">Önceki örnekte gösterildiği gibi iş birimi, şirket ve ekip arasındaki bu 1:1 eşleme yalnızca bir başlangıç noktasıdır.</span><span class="sxs-lookup"><span data-stu-id="8ca07-130">As the preceding illustration shows, this 1:1 mapping between business unit, company, and team is just a starting point.</span></span> <span data-ttu-id="8ca07-131">Bu örnekte, yeni bir "Avrupa" iş birimi hem DEMF hem de ESMF için üst öğe olarak Common Data Service'ta el ile ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="8ca07-131">In this example, a new "Europe" business unit is manually created in Common Data Service as the parent for both DEMF and ESMF.</span></span> <span data-ttu-id="8ca07-132">Bu yeni kök iş birimi çift yazma ile ilgili değildir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-132">This new root business unit is unrelated to dual-write.</span></span> <span data-ttu-id="8ca07-133">Ancak, "EUR Satış" ekibinin üyelerine, ilgili güvenlik rolündeki **Üst/Alt İş Birimi** veri görünürlüğünü ayarlayarak hem DEMF hem de ESMF'deki hesap verilerine erişim vermek için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-133">However, it can be used to give members of the "EUR Sales" team access to account data in both DEMF and ESMF by setting the data visibility to **Parent/Child BU** in the associated security role.</span></span>
+
+<span data-ttu-id="8ca07-134">Tartışılması gereken son bir konu da çift yazmanın kayıtların sahip olan hangi takıma atayacağının nasıl belirlendiğidir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-134">A final topic to discuss is how dual-write determines which owner team it should assign records to.</span></span> <span data-ttu-id="8ca07-135">Bu davranış, cdm\_Şirket kaydındaki **Varsayılan sahibi olan takım** alanı tarafından denetlenir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-135">This behavior is controlled by the **Default owning team** field on the cdm\_Company record.</span></span> <span data-ttu-id="8ca07-136">Bir cdm\_Şirket kaydı çift yazma için etkinleştirildiğinde, bir eklenti otomatik olarak ilişkili iş birimi ve sahibi olan takımı (zaten yoksa) oluşturur ve **Varsayılan sahibi olan takım** alanını ayarlar.</span><span class="sxs-lookup"><span data-stu-id="8ca07-136">When a cdm\_Company record is enabled for dual-write, a plug-in automatically creates the associated business unit and owner team (if it doesn't already exist), and sets the **Default owning team** field.</span></span> <span data-ttu-id="8ca07-137">Yönetici bu alanı farklı bir değere değiştirebilir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-137">The admin can change this field to a different value.</span></span> <span data-ttu-id="8ca07-138">Ancak, varlık çift yazma için etkinleştirildiği sürece yönetici alanı temizleyemez.</span><span class="sxs-lookup"><span data-stu-id="8ca07-138">However, the admin can't clear the field as long as the entity is enabled for dual-write.</span></span>
+
+> [!div class="mx-imgBorder"]
+<span data-ttu-id="8ca07-139">![Varsayılan sahibi olan takım alanı](media/dual-write-default-owning-team.jpg)</span><span class="sxs-lookup"><span data-stu-id="8ca07-139">![Default owning team field](media/dual-write-default-owning-team.jpg)</span></span>
+
+## <a name="company-striping-and-bootstrapping"></a><span data-ttu-id="8ca07-140">Şirket bölümleme ve yeniden örnekleme</span><span class="sxs-lookup"><span data-stu-id="8ca07-140">Company striping and bootstrapping</span></span>
+
+<span data-ttu-id="8ca07-141">Common Data Service tümleştirmesi verileri bölümlemek için şirket tanımlayıcısını kullanarak şirket eşliği getirir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-141">Common Data Service integration brings company parity by using a company identifier to stripe data.</span></span> <span data-ttu-id="8ca07-142">Aşağıdaki örnekte gösterildiği gibi, tüm şirkete özgü varlıklar, cdm\_Şirket varlığıyla çok-bir (N:1) ilişkisine sahip olmaları için genişletilir.</span><span class="sxs-lookup"><span data-stu-id="8ca07-142">As the following illustration shows, all company-specific entities are extended so that they have a many-to-one (N:1) relationship with the cdm\_Company entity.</span></span>
+
+> [!div class="mx-imgBorder"]
+<span data-ttu-id="8ca07-143">![Şirkete özgü varlık ile cdm_Şirket varlığı arasındaki N:1 ilişkisi](media/dual-write-bootstrapping.png)</span><span class="sxs-lookup"><span data-stu-id="8ca07-143">![N:1 relationship between a company-specific entity and the cdm_Company entity](media/dual-write-bootstrapping.png)</span></span>
+
++ <span data-ttu-id="8ca07-144">Kayıtlar için, bir şirket eklendikten ve kaydedildikten sonra, değer salt okunur olur.</span><span class="sxs-lookup"><span data-stu-id="8ca07-144">For records, after a company is added and saved, the value becomes read-only.</span></span> <span data-ttu-id="8ca07-145">Bu nedenle, kullanıcılar doğru şirketi seçtiğinden emin olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="8ca07-145">Therefore, users should make sure that they select the correct company.</span></span>
++ <span data-ttu-id="8ca07-146">Yalnızca şirket verilerine sahip kayıtlar uygulama ile Common Data Service arasında çift yazma için uygundur.</span><span class="sxs-lookup"><span data-stu-id="8ca07-146">Only records that have company data are eligible for dual-write between the application and Common Data Service.</span></span>
++ <span data-ttu-id="8ca07-147">Var olan Common Data Service verileri için, yönetici tarafından yürütülen bir yeniden örnekleme deneyimi yakında kullanıma sunulacaktır.</span><span class="sxs-lookup"><span data-stu-id="8ca07-147">For existing Common Data Service data, an admin-led bootstrapping experience will soon be available.</span></span>

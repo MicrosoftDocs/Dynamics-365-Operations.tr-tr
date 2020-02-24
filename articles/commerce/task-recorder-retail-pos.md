@@ -1,0 +1,148 @@
+---
+title: Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım
+description: Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar.
+author: mugunthanm
+manager: AnnBe
+ms.date: 06/19/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: RetailTerminalTable, SystemParameters
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: 1205393
+ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
+ms.search.region: Global
+ms.search.industry: Retail
+ms.author: mumani
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3024338"
+---
+# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a><span data-ttu-id="b1cdd-103">Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım</span><span class="sxs-lookup"><span data-stu-id="b1cdd-103">Task recorder and Help for Retail Modern POS (MPOS) and Cloud POS</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="b1cdd-104">Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-104">This topic describes how to use Task recorder in Retail Modern POS and Cloud POS.</span></span>
+
+## <a name="overview"></a><span data-ttu-id="b1cdd-105">Genel bakış</span><span class="sxs-lookup"><span data-stu-id="b1cdd-105">Overview</span></span>
+
+<span data-ttu-id="b1cdd-106">Retail Modern POS veya Bulut POS içerisindeki görev kaydedici, yüksek cevap verebilirliğe odaklı oluşturulmuş yeni bir çözümdür.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-106">Task recorder in Retail Modern POS or Cloud POS is a new solution that was built with a focus on high responsiveness.</span></span> <span data-ttu-id="b1cdd-107">Genişletilebilirlik ve iş işlemi kayıtlarının müşterileri ile sorunsuz tümleştirme sağlayan esnek bir uygulama programlama arabirimi (API) sağlar.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-107">It provides a flexible application programming interface (API) for extensibility and seamless integration with consumers of business process recordings.</span></span> <span data-ttu-id="b1cdd-108">Ek olarak, Microsoft Dynamics Lifecycle Services üzerinde İş süreci modelleyici (BPM) aracı ile Görev kaydedici tümleştirmesi ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) öne çıkarılmıştır.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-108">Additionally, Task recorder integration with the Business process modeler (BPM) tool on Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) has been brought forward.</span></span> <span data-ttu-id="b1cdd-109">Bu sayede kullanıcılar, kendi uygulamalarını analiz etmek ve tasarlamak için zengin iş işlemi diyagramlarını kayıtlardan üretebilirler.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-109">Therefore, users can continue to produce rich business process diagrams from recordings to analyze and design their applications.</span></span>
+
+## <a name="architecture"></a><span data-ttu-id="b1cdd-110">Mimari</span><span class="sxs-lookup"><span data-stu-id="b1cdd-110">Architecture</span></span>
+
+<span data-ttu-id="b1cdd-111">Görev kaydedici, kullanıcı eylemlerini istemcide tam doğrulukla kaydedebilir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-111">Task recorder can record user actions in the client with exact fidelity.</span></span> <span data-ttu-id="b1cdd-112">Her bir denetim, bir kullanıcı eyleminin gerçekleştirilmesi hakkında Görev kaydediciye bildirilmek üzere belirtilmiştir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-112">Each control is instrumented to notify Task recorder about the execution of a user action.</span></span> <span data-ttu-id="b1cdd-113">Denetim, Görev kaydediciye bir eylemin gerçekleştiğini bildirir ve kullanıcı eylemi ile ilgili tüm geçerli bilgileri gerçek zamanlı olarak aktarır.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-113">The control notifies Task recorder that an event occurred and passes along all pertinent information about the corresponding user action in real time.</span></span> <span data-ttu-id="b1cdd-114">Görev kaydedicisi, bu bilgilerden kullanıcı eyleminin türünü (örneğin düğme tıklaması, değer girişi veya gezinti) ve kullanıcı eylemiyle ilişkili tüm verileri (örneğin giriş veri değeri ve türü, form içeriği veya kayıt bağlamı) yakalayabilir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-114">From this information, Task recorder can capture the type of user action (such as a button click, value entry, or navigation) and any data that is related to the user action (such as the input data value and type, form context, or record context).</span></span> <span data-ttu-id="b1cdd-115">Görev kaydedici, kaydın oynatımın kaydedilen eylemleri, aynı kullanıcının yaptığı gibi oynatılmasını garanti edecek ayrıntıyla üstlenir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-115">Task recorder persists the information with enough detail to help guarantee that a playback of the recording can perform the recorded actions exactly as the user performed them.</span></span> <span data-ttu-id="b1cdd-116">(Yürütme özelliği henüz Perakende modern POS veya Bulut POS'da uygulanmamıştır.)</span><span class="sxs-lookup"><span data-stu-id="b1cdd-116">(The playback feature isn't yet implemented at Retail modern POS or Cloud POS.)</span></span>
+
+## <a name="basic-configuration"></a><span data-ttu-id="b1cdd-117">Temel yapılandırma</span><span class="sxs-lookup"><span data-stu-id="b1cdd-117">Basic configuration</span></span>
+
+<span data-ttu-id="b1cdd-118">Görev kaydetmeyi POS'da etkinleştirmek için şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-118">To enable task recording in POS, follow these steps.</span></span>
+
+1. <span data-ttu-id="b1cdd-119">**Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Yazar kasalar** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-119">Click **Retail and Commerce** &gt; **Channel Setup** &gt; **POS Setup** &gt; **Registers**.</span></span>
+2. <span data-ttu-id="b1cdd-120">Görev kaydedicinin etkinleştirileceği kaydı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-120">Click the register to enable task recording on.</span></span>
+3. <span data-ttu-id="b1cdd-121">**Kayıt** sekmesinde, **Genel** hızlı sekmesi üzerinde **Görev kaydetmeyi etkinleştir** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-121">On the **Register** tab, on the **General** FastTab, set the **Enable task recording** option to **Yes**.</span></span>
+4. <span data-ttu-id="b1cdd-122">**Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-122">Click **Save**.</span></span>
+5. <span data-ttu-id="b1cdd-123">**Retail ve Commerce** &gt; **Retail ve Commerce BT** &gt; **Dağıtım planı**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-123">Go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedule**.</span></span>
+6. <span data-ttu-id="b1cdd-124">**Kayıtlar (1090)** işini seçin ve ardından **Şimdi çalıştır** düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-124">Select the **Registers (1090)** job, and then click **Run now**.</span></span>
+
+## <a name="create-a-recording"></a><span data-ttu-id="b1cdd-125">Bir kayıt oluştur</span><span class="sxs-lookup"><span data-stu-id="b1cdd-125">Create a recording</span></span>
+
+<span data-ttu-id="b1cdd-126">Görev kaydedicisini kullanarak yeni bir kayıt oluşturmak için şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-126">Follow these steps to create a new recording using Task recorder.</span></span>
+
+1. <span data-ttu-id="b1cdd-127">Retail Modern POS veya Bulut POS'u başlatın ve oturum açın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-127">Start Retail Modern POS or Cloud POS, and sign in.</span></span>
+2. <span data-ttu-id="b1cdd-128">**Ayarlar** sayfasında, **Görev Kaydedici** bölümünde **Görev kaydediciyi aç** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-128">On the **Settings** page, in the **Task Recorder** section, click **Open task recorder**.</span></span> <span data-ttu-id="b1cdd-129">**Görev kaydedici** bölmesi görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-129">The **Task recorder** pane appears.</span></span> <span data-ttu-id="b1cdd-130">Yeni bir kayda başlamadan önce sağ üst köşedeki **Kapat** düğmesi (**X**) üzerine tıklayarak **Görev kaydediciyi** kapatabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-130">You can click the **Close** button (**X**) in the upper-right corner to close the **Task recorder** pane before you begin a new recording.</span></span> <span data-ttu-id="b1cdd-131">Bölmeyi yeniden açmak için, 2. adımı tekrar edin.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-131">To reopen the pane, repeat step 2.</span></span>
+
+    <span data-ttu-id="b1cdd-132">[![Görev kaydedici bölmesi](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)</span><span class="sxs-lookup"><span data-stu-id="b1cdd-132">[![Task recorder pane](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)</span></span>
+
+3. <span data-ttu-id="b1cdd-133">Kayıt için bir ad ve açıklama girin, daha sonra **Başlat** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-133">Enter a name and description for the recording, and then click **Start**.</span></span> <span data-ttu-id="b1cdd-134">Kayıt oturumu **Başlat** üzerine tıklar tıklamaz başlar.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-134">The recording session begins as soon as you click **Start**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="b1cdd-135">Kayıt sürerken sağ üst köşedeki **Kapat** düğmesine (**X**) tıklarsanız, **Görev kaydedici** bölümü kapatılır ancak kayıt oturumu sonlandırılmaz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-135">If you click the **Close** button (**X**) in the upper-right corner while recording is in progress, the **Task recorder** pane is closed, but the recording session isn't ended.</span></span> <span data-ttu-id="b1cdd-136">Görev kaydedici bölmesini yeniden açmak için ekranın üst kısmındaki **Yardım** düğmesine (soru işareti) tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-136">To reopen the Task recorder pane, click the **Help** button (question mark) at the top of the screen.</span></span>
+    >
+    > <span data-ttu-id="b1cdd-137">[![Soru işareti](./media/help.jpg)](./media/help.jpg)</span><span class="sxs-lookup"><span data-stu-id="b1cdd-137">[![Question mark](./media/help.jpg)](./media/help.jpg)</span></span>
+
+4. <span data-ttu-id="b1cdd-138">**Başlat** üzerine tıkladıktan sonra, Görev kaydedici kayıt moduna girer.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-138">After you click **Start**, Task recorder enters recording mode.</span></span> <span data-ttu-id="b1cdd-139">**Görev kaydedici** bölmesi, kayıt işlemi hakkındaki bilgileri ve denetimleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-139">The **Task recorder** pane shows information and controls that are related to the recording process.</span></span>
+5. <span data-ttu-id="b1cdd-140">Retail Modern POS veya Bulut POS kullanıcı arabirimi (UI) üzerinde gerçekleştirmek istediğiniz eylemleri gerçekleştirin.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-140">Perform the actions that you want to perform in the Retail Modern POS or Cloud POS user interface (UI).</span></span>
+6. <span data-ttu-id="b1cdd-141">Kayıt oturumunu sonlandırmak için **Durdur** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-141">To end the recording session, click **Stop**.</span></span>
+
+## <a name="download-options"></a><span data-ttu-id="b1cdd-142">İndirme seçenekleri</span><span class="sxs-lookup"><span data-stu-id="b1cdd-142">Download options</span></span>
+
+<span data-ttu-id="b1cdd-143">Kaydetme oturumunu sona erdirdikten sonra, çeşitli seçenekler gösterilir, böylece kaydınızı indirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-143">After you end the recording session, several options are shown, so that you can download your recording.</span></span>
+
+<span data-ttu-id="b1cdd-144">[![İndirme seçenekleri](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)</span><span class="sxs-lookup"><span data-stu-id="b1cdd-144">[![Download options](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)</span></span>
+
+### <a name="save-to-this-pc"></a><span data-ttu-id="b1cdd-145">Bu bilgisayara kaydet</span><span class="sxs-lookup"><span data-stu-id="b1cdd-145">Save to this PC</span></span>
+
+<span data-ttu-id="b1cdd-146">Görev kılavuzunu yürütmek, kaydı düzenlemek veya kayıttaki notları düzenlemek için kayıt paketini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-146">You can use the recording package to play a Task guide, maintain the recording, or edit the annotations in the recording.</span></span> <span data-ttu-id="b1cdd-147">(Bu özellik Retail Modern POS ve Bulut POS içerisinde henüz uygulanmamıştır.)</span><span class="sxs-lookup"><span data-stu-id="b1cdd-147">(This feature isn't yet implemented in Retail Modern POS and Cloud POS.)</span></span>
+
+### <a name="export-as-word-document"></a><span data-ttu-id="b1cdd-148">Word belgesi olarak dışa aktar</span><span class="sxs-lookup"><span data-stu-id="b1cdd-148">Export as Word document</span></span>
+
+<span data-ttu-id="b1cdd-149">Kaydı bir Microsoft Word belgesi olarak kaydedebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-149">You can save the recording as a Microsoft Word document.</span></span> <span data-ttu-id="b1cdd-150">Bu belge kaydedilen adımları ve yakalanan ekran görüntülerini içerir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-150">The document will contain the recorded steps and the screenshots that were captured.</span></span>
+
+### <a name="save-as-developer-recording"></a><span data-ttu-id="b1cdd-151">Geliştirici kaydı olarak kaydet</span><span class="sxs-lookup"><span data-stu-id="b1cdd-151">Save as developer recording</span></span>
+
+<span data-ttu-id="b1cdd-152">Ham kayıt dosyası, test kodu oluşturulması gibi geliştirici senaryoları için yararlıdır.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-152">The raw recording file will be useful for developer scenarios such as test code generation.</span></span> <span data-ttu-id="b1cdd-153">(Bu özellik henüz uygulanmamıştır.)</span><span class="sxs-lookup"><span data-stu-id="b1cdd-153">(This feature isn't yet implemented.)</span></span>
+
+## <a name="recording-controls"></a><span data-ttu-id="b1cdd-154">Kayıt kontrolleri</span><span class="sxs-lookup"><span data-stu-id="b1cdd-154">Recording controls</span></span>
+
+<span data-ttu-id="b1cdd-155">[![Kayıt kontrolleri](./media/controls.jpg)](./media/controls.jpg)</span><span class="sxs-lookup"><span data-stu-id="b1cdd-155">[![Recording controls](./media/controls.jpg)](./media/controls.jpg)</span></span>
+
+### <a name="stop"></a><span data-ttu-id="b1cdd-156">Durdur</span><span class="sxs-lookup"><span data-stu-id="b1cdd-156">Stop</span></span>
+
+<span data-ttu-id="b1cdd-157">Kayıt oturumunu sonlandırmak için **Durdur** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-157">Click **Stop** to end the recording session.</span></span> <span data-ttu-id="b1cdd-158">Bir oturumu sonlandırdıktan sonra yeniden başlatamayacağınızı unutmayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-158">Note that you can't restart a session after you end it.</span></span> <span data-ttu-id="b1cdd-159">Bu nedenle, kaydı sonlandırmadan önce tamamlandığından emin olun.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-159">Therefore, make sure that the recording is completed before you end it.</span></span>
+
+### <a name="pause"></a><span data-ttu-id="b1cdd-160">Duraklat</span><span class="sxs-lookup"><span data-stu-id="b1cdd-160">Pause</span></span>
+
+<span data-ttu-id="b1cdd-161">Geçici olarak durdurmak (duraklatmak) ve işleme devam etmek için **Duraklat** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-161">Click **Pause** to temporarily stop (pause) the recording session and continue with the operation.</span></span> <span data-ttu-id="b1cdd-162">**Duraklat** üzerine tıkladıktan sonra gerçekleştirecek adımlar kaydedilmez.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-162">Steps that you perform after you click **Pause** aren't recorded.</span></span>
+
+### <a name="continue"></a><span data-ttu-id="b1cdd-163">Devam</span><span class="sxs-lookup"><span data-stu-id="b1cdd-163">Continue</span></span>
+
+<span data-ttu-id="b1cdd-164">Duraklattıktan sonra kayıt oturumuna devam etmek için **Devam et** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-164">To resume the recording session after you've paused it, click **Continue**.</span></span>
+
+### <a name="capture-screenshots"></a><span data-ttu-id="b1cdd-165">Ekran görüntülerini yakala</span><span class="sxs-lookup"><span data-stu-id="b1cdd-165">Capture screenshots</span></span>
+
+<span data-ttu-id="b1cdd-166">Görev kaydedici, Retail Modern POS arabirimi ekran görüntülerini, siz bir iş işlemini kaydederken yakalayabilir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-166">Task recorder can capture screenshots of the Retail Modern POS UI as you record a business process.</span></span> <span data-ttu-id="b1cdd-167">Ekran görüntüsü yakalama özelliğini açmak için **Ekran görüntüsü yakala** seçeneğini **Evet** olarak ayarlayın ve ardından kaydı yapın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-167">To turn on the screenshot capture feature, set the **Capture screenshot** option to **Yes** and then make the recording.</span></span> <span data-ttu-id="b1cdd-168">Kayıt tamamlandıktan sonra **Durdur**'a tıklayın ve Word belgesini indirin.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-168">Once the recording is completed, click **Stop** and download the Word document.</span></span> <span data-ttu-id="b1cdd-169">Belge ilgili ekran görüntüleriyle birlikte adımları içerecektir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-169">The document will contain the steps with relevant screenshots.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="b1cdd-170">Ekran görüntüsü yakalama işlevi Bulut POS içerisinde desteklenmez.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-170">Capture screenshot functionality is not supported in Cloud POS.</span></span>
+
+### <a name="start-task-and-end-task"></a><span data-ttu-id="b1cdd-171">Görevi başlat ve bitir</span><span class="sxs-lookup"><span data-stu-id="b1cdd-171">Start task and End task</span></span>
+
+<span data-ttu-id="b1cdd-172">Gruplanan bir dizi adımın başlangıcını ve bitişini **Görevi başlat** ve **görevi** **Bitir** düğmeleri ile belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-172">You can specify the beginning and end of a set of grouped steps by using the **Start task** and **End** **task** buttons.</span></span> <span data-ttu-id="b1cdd-173">Bir "Görevi Başlat" adımı eklemek için **Görevi başlat** üzerine tıklayın ve gruba dahil edilecek adımları gerçekleştirin.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-173">Click **Start task** to add a "Start Task" step, and then perform the steps that should be included in the group.</span></span> <span data-ttu-id="b1cdd-174">Grup için adımları gerçekleştirmeyi bitirdikten sonra **Görevi sonlandır** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-174">After you've finished performing the steps for the group, click **End task**.</span></span> <span data-ttu-id="b1cdd-175">Görevler, işlemlerinizi düzenlemenize yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-175">Tasks help you organize your procedures.</span></span> <span data-ttu-id="b1cdd-176">Görevler diğer görevlerle iç içe kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-176">Tasks can be nested within other tasks.</span></span> <span data-ttu-id="b1cdd-177">Bu şekilde, çok uzun ve karmaşık iş işlemlerini daha iyi düzenleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-177">In this way, you can better organize very long and complex business processes.</span></span>
+
+## <a name="adding-annotations"></a><span data-ttu-id="b1cdd-178">Ek açıklamalar ekleme</span><span class="sxs-lookup"><span data-stu-id="b1cdd-178">Adding annotations</span></span>
+
+<span data-ttu-id="b1cdd-179">Bir ek açıklama, kayıt içerisinde bir adıma eklediğiniz ek metindir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-179">An annotation is additional text that you add to a step in a recording.</span></span> <span data-ttu-id="b1cdd-180">Örneğin, kullanıcıya daha fazla bağlam ve yönerge sunmak için ek açıklamaları kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-180">For example, you can use annotations to give the user more context or instructions.</span></span> <span data-ttu-id="b1cdd-181">Ek açıklamaları bir adımdan önce veya sonra ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-181">You can add annotations before or after a step.</span></span> <span data-ttu-id="b1cdd-182">Adımın sağındaki **Düzenle** düğmesine (kalem simgesi) tıklayarak herhangi bir adıma ek açıklama ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-182">You can add an annotation to any step by clicking the **Edit** button (pencil symbol) to the right of the step.</span></span>
+
+<span data-ttu-id="b1cdd-183">[![Bir adım için düzenle düğmesi](./media/annotate.jpg)](./media/annotate.jpg)</span><span class="sxs-lookup"><span data-stu-id="b1cdd-183">[![Edit button for a step](./media/annotate.jpg)](./media/annotate.jpg)</span></span>
+
+### <a name="texts-and-notes"></a><span data-ttu-id="b1cdd-184">Metinler ve notlar</span><span class="sxs-lookup"><span data-stu-id="b1cdd-184">Texts and notes</span></span>
+
+<span data-ttu-id="b1cdd-185">**Metinler** ve **Notlar** alanlarını, bir Görev kılavuzu içerisindeki bir adımla ilişkilendirilecek metin eklemek için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-185">You can use the **Texts** and **Notes** fields to add text that should be associated with a step in a Task guide.</span></span>
+
+<span data-ttu-id="b1cdd-186">[![Metin ve Notlar alanları](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)</span><span class="sxs-lookup"><span data-stu-id="b1cdd-186">[![Text and Notes fields](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)</span></span>
+
+#### <a name="text"></a><span data-ttu-id="b1cdd-187">Metin</span><span class="sxs-lookup"><span data-stu-id="b1cdd-187">Text</span></span>
+
+<span data-ttu-id="b1cdd-188">**Metin** alanına girdiğiniz metinler, Görev kılavuzunda adımın *üzerinde* görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-188">Text that you enter in the **Text** field appears *above* the step text in the Task guide.</span></span> <span data-ttu-id="b1cdd-189">Bu konum, kullanıcının adımı tamamlamadan önce görmesini istediğiniz metinler için uygundur.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-189">This location is appropriate for text that you want the user to read before he or she completes the step.</span></span>
+
+#### <a name="notes"></a><span data-ttu-id="b1cdd-190">Notlar</span><span class="sxs-lookup"><span data-stu-id="b1cdd-190">Notes</span></span>
+
+<span data-ttu-id="b1cdd-191">**Notlar** alanına girdiğiniz metinler, Görev kılavuzunda adımın *altında* görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-191">Text that you enter in the **Notes** field appears *below* the step text in the Task guide.</span></span> <span data-ttu-id="b1cdd-192">Not metnini okumak için kullanıcının adım metnini açılan pencerede genişletmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-192">To read the note text, the user must expand the step text in the pop-up window.</span></span> <span data-ttu-id="b1cdd-193">Bu konum, ek okuma materyalleri ve kullanıcıya yarar sağlayabilecek ancak kullanıcının eylemi tamamlaması için zorunlu olmayan diğer bilgiler için uygundur.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-193">This location is appropriate for optional reading material or other information that might be useful to the user, but that the user doesn't require in order to complete the action.</span></span>
+
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a><span data-ttu-id="b1cdd-194">Retail Modern POS ve Bulut POS içinde yardım</span><span class="sxs-lookup"><span data-stu-id="b1cdd-194">Help in Retail Modern POS and Cloud POS</span></span>
+
+<span data-ttu-id="b1cdd-195">Görev kayıtlarınızın Retail Modern POS ve Bulut POS için metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-195">To show your own custom task recordings in the Help pane of Retail Modern POS and Cloud POS so that they can be viewed as text, you must save your task recordings to your own BPM library, and then update your Help system parameters to point to your BPM library.</span></span> <span data-ttu-id="b1cdd-196">Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](../fin-and-ops/get-started/help-connect.md)</span><span class="sxs-lookup"><span data-stu-id="b1cdd-196">For more information, see [Connecting the Help system](../fin-and-ops/get-started/help-connect.md).</span></span> <span data-ttu-id="b1cdd-197">Retail Modern POS ve Bulut POS Yardımı, LCS'yi gerçek zamanlı olarak arar.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-197">Retail Modern POS and Cloud POS Help searches LCS in real time.</span></span> <span data-ttu-id="b1cdd-198">Commerce Yardım sistemi parametrelerinde seçili olan tüm BPM kitaplıkları arasında arar ve ilgili sonuçları gösterir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-198">It searches across all the BPM libraries that are selected in the Commerce Help system parameters and shows the relevant results.</span></span> <span data-ttu-id="b1cdd-199">**Yardım** menüsüne erişmek için ekranın üzerinde bulunan **Yardım** düğmesine (soru işareti) tıklayın ve daha sonra arama kutusu içerisinde işlem adınızı yazın ve ara düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-199">To access the **Help** menu, click the **Help** button (question mark) at the top of the screen and then in the search box type your process name and hit the search button.</span></span>
+
+<span data-ttu-id="b1cdd-200">[![Yardım düğmesi](./media/help.jpg)](./media/help.jpg)</span><span class="sxs-lookup"><span data-stu-id="b1cdd-200">[![Help button](./media/help.jpg)](./media/help.jpg)</span></span>
+
+<span data-ttu-id="b1cdd-201">Arama sonuçları içerisinde bir Görev kılavuzuna tıkladığınızda adımları bir Yardım konusu olarak görüntüleyebilir veya adımları bir Word belgesine aktarabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-201">When you click a Task guide in the search results, you can either view the steps as a Help topic or export the steps to a Word document.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="b1cdd-202">Retail Modern POS ve Bulut POS'ta Yardım, hangi formda olduğunuza veya hangi işlemi yaptığınıza bağlı olarak görev kılavuzlarını getirmeyecektir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-202">Help in Retail Modern POS and Cloud POS will not bring up task guides according to what form you're on or operation you're doing.</span></span> <span data-ttu-id="b1cdd-203">Arama kutusuna işlem adını yazıp **Ara** düğmesine tıklamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="b1cdd-203">You have to type the process name in the search box and then click **Search**.</span></span>
