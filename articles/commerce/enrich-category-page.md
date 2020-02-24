@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ab152dff0925f9c816419083577b5272ac813be
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 71348efba9fc1374b9e6599eb23f198d3851036e
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945801"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003062"
 ---
 # <a name="enrich-a-category-landing-page"></a>Kategori açılış sayfasını zenginleştirme
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu, Dynamics 365 Commerce'deki kategori sayfalarının zenginini kapsamaktadır.

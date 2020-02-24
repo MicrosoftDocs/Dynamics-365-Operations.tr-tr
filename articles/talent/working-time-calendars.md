@@ -1,6 +1,6 @@
 ---
 title: Çalışma zamanı takvimleri
-description: Bu konuda, Dynamics 365 Talent - Core HR'da çalışma zaman takvimlerini ve takvimlerin nasıl ayarlanacağını açıklamaktadır.
+description: Bu konuda, Dynamics 365 Human Resources'da çalışma zaman takvimlerini ve takvimlerin nasıl ayarlanacağını açıklamaktadır.
 author: andreabichsel
 manager: AnnBe
 ms.date: 09/12/2018
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: f69bfec663cb8473c112f108813f042368439570
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: ac19fca407bd936cb9b7edcfa9f4eb81daf607dd
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897247"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006230"
 ---
 # <a name="working-time-calendars"></a>Çalışma zamanı takvimleri
 

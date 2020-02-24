@@ -19,16 +19,16 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 669b056c38614c8ac9be2d7b244a0ab0c73bc9f8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5da77f71fb2569adc011bb9ee9c8c795d85545f8
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770082"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3025014"
 ---
 # <a name="manage-ai-ml-based-product-recommendation-results"></a>AI-ML tabanlı ürün önerisi sonuçlarını yönetme
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu, yapay zeka makine öğrenme (AI-ML) tabanlı ürün öneri sonuçlarının işletmenize nasıl uyarlanacağını açıklamaktadır. 
@@ -39,44 +39,53 @@ Bu konu, yapay zeka makine öğrenme (AI-ML) tabanlı ürün öneri sonuçların
 
 Parametreleri değiştirmeden önce, aşağıdaki sonuçların nasıl etkilendiklerini öğrenin.
 
-### <a name="trending-product-list"></a>Trend ürün listesi
+### <a name="trending-product-list"></a>"Trend" ürün listesi
 
-**Trend** ürün listesi, değiştirilebilecek iki parametreye sahiptir: ![örnek trend listesi varsayılan parametreler](./media/exampletrendingparameters.png)
+"Trend" ürün listesi, değiştirilebilen iki parametreye sahiptir:
+
+![Örnek "Trend" listesi varsayılan parametresi](./media/exampletrendingparameters.png)
+
 1. **Son X günden yeni ürünleri dahil et** - Ürün adaylarını seçmek için geçerli tarihten önce belirtilen gün sayısına eklenen ürünler. Resimdeki varsayılan değer, ürünlerin eski ürün listesinde 180 gün içinde kullanılabilir olmasını önerir.
 1. **Son X günden satışları dahil et** - Ürün sipariş etmek için geçerli tarihten önce belirtilen gün sayısındaki satış işlemleri. Yukarıdaki varsayılan değer, son 30 gün içinde bir ürünün yaptığı tüm satınalmaların, ürünün trend ürün listesine yerleştirilmesiyle ilgili olarak kullanılmasını önerir. 
 
-### <a name="best-selling-product-list"></a>En iyi satış ürün listesi
+### <a name="best-selling-product-list"></a>"Trend" ürün listesi
 
-İşinize bağlı olarak en iyi satış, her ikisi de sipariş ürünleri için hareket verileri kullansa bile, daha fazla satan sonuçlar elde edilebilir. En iyi satış, sınıflama tarihine bağlı olarak kesilmediğinden, en iyi satış çok popüler olan, trend listesinden düşmüş olan daha eski ürünleri vurgulayabilir. 
+İşinize bağlı olarak "En iyi satış" listesi, her ikisi de sipariş ürünleri için hareket verileri kullansa bile, daha fazla satan sonuçlar elde edilebilir. En iyi satış, sınıflama tarihine bağlı olarak kesilmediğinden, en iyi satış çok popüler olan, trend listesinden düşmüş olan daha eski ürünleri vurgulayabilir. 
 
-**En iyi satış** ürün listesi, değiştirilebilen bir parametreye sahiptir:
+"En iyi satış" ürün listesi, değiştirilebilen bir parametreye sahiptir:
 
 ![Örnek en iyi satış listesi varsayılan parametresi](./media/examplebestsellingparameters.PNG)
+
 1. **Son X günden satışları dahil et** - Ürün sipariş etmek için geçerli tarihten önce belirtilen gün sayısındaki satış işlemleri. Yukarıdaki varsayılan değer, son 30 gün içinde bir ürünün yaptığı tüm satınalmaların, ürünün en iyi satış çok popüler olan ürün listesine yerleştirilmesiyle ilgili olarak kullanılmasını önerir. 
 
 ## <a name="manually-add-or-remove-products-from-recommendation-lists"></a>Öneri listelerine el ile ürün ekleme veya kaldırma
 
-### <a name="for-new-trending-or-best-selling"></a>Yeni, trend veya en İyi satış için
+### <a name="for-new-trending-or-best-selling-lists"></a>"Yeni", "trend" veya "en İyi satış" listeleri için
 
-1.  **Perakende** > **ürün önerileri** > **öneri parametrelerine** gidin.
-1.  Perakende paylaşılan parametreleri listesinde, **öneri listelerini** seçin.
+1.  **Perakende ve Ticaret** > **ürün önerileri** > **öneri parametrelerine** gidin.
+1.  Paylaşılan parametreleri listesinde, **öneri listelerini** seçin.
 1.  Ürünlerin ekleneceği veya kaldırılacağı listeyi seçin.
 1.  Tabloya ürün eklemek için **Satır ekle** seçin. 
-1.  Ürün sütunu altında, **adı** veya **ürün numarasını** kullanarak ürünü arayın. 
-![Yeni ürün listesinde ürün arama örneği](./media/examplenewlistconfiguration1.png)
+1.  Ürün sütunu altında, **adı** veya **ürün numarasını** kullanarak ürünü arayın.
+
+    ![Yeni ürün listesinde ürün arama örneği](./media/examplenewlistconfiguration1.png)
+
 1.  Satır türü sütunu altında, iki seçenekten birini belirleyin:
     -   **Dahil et** – bir ürünü listenin önüne zorlar
-    -   **Hariç tut** – ürünün liste görünmesini kaldırır ![Yeni ürün listesinden bir ürün dahil etme ya da çıkarma örneği](./media/examplenewlistconfiguration2.png)
+    -   **Dışla** – bir ürünün listede görünmesini kaldırır
+    
+    ![Ürünü yeni ürün listesinden içerme veya hariç tutma örneği](./media/examplenewlistconfiguration2.png)
+
 1.  **Görüntüleme sırasının** değiştirilmesi, **dahil** edilen ürünlerin listede görüneceği sırayı değiştirir.
     - İki ürün aynı **görüntü sipariş** değerine sahipse, bu iki sonucun son sırası arka ofisten farklı olabilir.
 1.  Tablodan ürün kaldırmak için: kaldırılacak satırı seçin ve **Kaldır** 'ı seçin.
 
 
-### <a name="for-people-also-like-or-frequently-bought-together-lists"></a>Bunları da beğenenler ve Birlikte sık satın alınanlar listeleri için
+### <a name="for-people-also-like-or-frequently-bought-together-lists"></a>"Bunları da beğenenler" ve "Birlikte sık satın alınanlar" listeleri için
 
-**Sıklıkla birlikte satın alınanlar** veya **Bunları da beğendiler** listeleri bağlamında, makine öğrenme, özel bir üretim ürünü için yaygın olarak satın alınan ilgili ürünleri önermek amacıyla tüketici satın alma düzenlerini analiz etmek için kullanılır. 
+"Sıklıkla birlikte satın alınanlar" veya "Bunları da beğendiler" listeleri bağlamında, makine öğrenme, özel bir üretim ürünü için yaygın olarak satın alınan ilgili ürünleri önermek amacıyla tüketici satın alma düzenlerini analiz etmek için kullanılır. 
  
-**Tohum ürünü**, sonuçları oluşturmak istediğiniz ürün. Öneri listelerini el ile ayarlama bağlamında, bu ürün için sonuç ekliyor veya kaldırırsınız. 
+*Tohum ürünü*, sonuçları oluşturmak istediğiniz ürün. Öneri listelerini el ile ayarlama bağlamında, bu ürün için sonuç ekliyor veya kaldırırsınız. 
 
 Bir çekirdek ürünle ilgili sonuçları el ile eklemek veya kaldırmak için aşağıdaki adımları izleyin:
 1.  **Tohum ürünü** seçin. 
@@ -95,4 +104,8 @@ Bir çekirdek ürünle ilgili sonuçları el ile eklemek veya kaldırmak için a
 
 [Ürün önerilerini etkinleştirme](enable-product-recommendations.md)
 
+[Kişiselleştirilmiş önerileri etkinleştir](personalized-recommendations.md)
+
 [Sayfalarına ürün önerileri listesi ekleme](add-reco-list-to-page.md)
+
+[Ürün topluluğu modülüne genel bakış](product-collection-module-overview.md)

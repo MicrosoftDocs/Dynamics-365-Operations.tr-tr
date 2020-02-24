@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bfec4660d9e6b0898cf81e1f1fdd2e4c1fdcaef
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a51d443e40dbf948a06657293dcca77dc177896
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815354"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003665"
 ---
 # <a name="purchase-requisition-overview"></a>Satınalma talebine genel bakış
 
@@ -81,7 +81,7 @@ Bir satın alma talebinin genel durumu, satın alma talebi satırlarının durum
 <li><strong>Gözden geçiriliyor</strong> – Satın alma talebi satırları gözden geçirilmek üzere gönderilmiştir. İş akışı süreci bir satın alma talebi satırı için tamamlandığında satırın durumu, kalan tüm satın alma talebi satırları gözden geçirilinceye kadar <strong>Gözden geçiriliyor</strong> durumunda kalır.</li>
 <li><strong>Reddedildi</strong> – Satınalma talep satırı reddedilmiştir. Reddedilen satın alma talebi satırları değiştirilip yeniden gönderilebilir.</li>
 </ul>
-Reddedilen bir satın alma talebi satırını yeniden gönderirseniz gözden geçirme süreci, hala gözden geçirilmekte olan satın alma talebindeki tüm satırlar için baştan başlar. <strong>Not:</strong> Halihazırda gönderilmiş bir satın alma talebini geri çağırabilirsiniz. Bir satın alma talebini geri çağırdığınızda diğer tüm satın alma talebi satırları da geri çağrılır. Geri çağrılan satın alma talebi satırları silinebilir.</td>
+Reddedilen bir satın alma talebi satırını yeniden gönderirseniz gözden geçirme süreci, hala gözden geçirilmekte olan satın alma talebindeki tüm satırlar için baştan başlar. </br><strong>Not:</strong> Halihazırda gönderilmiş bir satın alma talebini geri çağırabilirsiniz. Bir satın alma talebini geri çağırdığınızda diğer tüm satın alma talebi satırları da geri çağrılır. Geri çağrılan satın alma talebi satırları silinebilir.</td>
 </tr>
 <tr class="odd">
 <td>Reddedildi</td>
@@ -109,7 +109,7 @@ Reddedilen bir satın alma talebi satırını yeniden gönderirseniz gözden ge�
 <tr class="odd">
 <td>İptal edildi</td>
 <td>İptal edildi</td>
-<td>Satınalma talebi ve tüm satınalma talebi satırları iptal edilmiştir. <strong>Not:</strong> Bir satın alma talebi satırındaki bir maddeye artık ihtiyaç duymuyorsanız, halihazırda onaylanmışsa satın alma talebi satırını mutlaka iptal etmelisiniz. Sadece onaylanan satın alma talebi satırları iptal edilebilir. Satın alma talep satırları gözden geçiriliyor ise, satın alma talebi <strong>Gözden geçiriliyor</strong> durumunda olacaktır. Bu durumda satın alma talebini geri çağırabilir ve uygun satın alma talep satırını silebilirsiniz.</td>
+<td>Satınalma talebi ve tüm satınalma talebi satırları iptal edilmiştir.</br> <strong>Not:</strong> Bir satın alma talebi satırındaki bir maddeye artık ihtiyaç duymuyorsanız, halihazırda onaylanmışsa satın alma talebi satırını mutlaka iptal etmelisiniz. Sadece onaylanan satın alma talebi satırları iptal edilebilir. Satın alma talep satırları gözden geçiriliyor ise, satın alma talebi <strong>Gözden geçiriliyor</strong> durumunda olacaktır. Bu durumda satın alma talebini geri çağırabilir ve uygun satın alma talep satırını silebilirsiniz.</td>
 </tr>
 <tr class="even">
 <td>Kapalı</td>
@@ -156,7 +156,8 @@ Bazı durumlarda bir satın alma talebinde talep edilen ürünlerin satıcısın
 
 Bir satınalma talebini **Satınalma talebi ayrıntıları** sayfasında **Beklemede** onay kutusunu seçerek beklemeye alabilirsiniz. Satınalma talebinin işlenmesine yalnızca beklemede onay kutusu seçimini kaldırdıktan sonra devam edebilirsiniz.  
 
-**Not:** eProcurement altında satın alma talebiniz için RFQ, satıcıların ilave satırlar eklemesine izin verebilir. Bu durumda satın alma talebiniz onaylanan alternatifleri yansıtır.
+> [!NOTE]
+> eProcurement altında satın alma talebiniz için RFQ, satıcıların ilave satırlar eklemesine izin verebilir. Bu durumda satın alma talebiniz onaylanan alternatifleri yansıtır.
 
 ## <a name="demand-consolidation"></a>Talep konsolidasyonu
 Birden fazla satın alma talebindeki satın alma talebi satırlarını birleştirerek, daha iyi fiyatlar, daha düşük nakliye ve taşıma maliyetleri ve daha düşük işletme maliyetleri elde etmek üzere satıcılarınızla pazarlık gücünüzü artırabilirsiniz.  
@@ -172,7 +173,8 @@ Bir birleştirme fırsatı, gruplandırılan bir satın alma talebi satırı kü
 
 Bir birleştirme fırsatına satın alma satırları ekledikten ve gerekli değişiklikleri gerçekleştirdikten sonra birleştirilen satın alma talebi satırları için bir satın alma emri oluşturabilirsiniz.  
 
-**Not:** **Satın alma talebi birleştirme** sayfasında bir satın alma talebi için yaptığınız değişiklikler, oluşturduğunuz satın alma emrine yansıtılacaktır. Ancak, satır, satın alma talebinde değişmeden kalır, böylece tarihi korunur.  
+> [!NOTE]
+> **Satın alma talebi birleştirme** sayfasında bir satın alma talebi için yaptığınız değişiklikler, oluşturduğunuz satın alma emrine yansıtılacaktır. Ancak, satır, satın alma talebinde değişmeden kalır, böylece tarihi korunur.  
 
 Talep birleştirme için uygun olmayan veya bir birleştirme talebi için seçilmemiş satın alma talebi satırları için bir satın alma emri oluşturmak için satırları manuel olarak işlemeniz gerekir.
 

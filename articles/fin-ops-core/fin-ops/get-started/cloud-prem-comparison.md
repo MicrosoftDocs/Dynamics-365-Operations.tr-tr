@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
-ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
+ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935399"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005738"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Bulut ile şirket içi özellikleri karşılaştırma
 
@@ -32,8 +32,8 @@ Bu konu, aşağıdaki uygulamalar için bulut ve şirket içi sürümde kullanı
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
-- [Dynamics 365 Retail](cloud-prem-comparison.md#dynamics-365-retail)
-- [Dynamics 365 Talent](cloud-prem-comparison.md#dynamics-365-talent)
+- [Dynamics 365 Commerce](cloud-prem-comparison.md#dynamics-365-commerce)
+- [Dynamics 365 Human Resources](cloud-prem-comparison.md#dynamics-365-human-resources)
 
 [Geliştirme ve yönetme özellikleriyle](cloud-prem-comparison.md#development-and-administration-features) ilgili bilgiler de vardır.
 
@@ -45,8 +45,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 |---------------------|-----------------------------|-----------|-----------------|
 | Uyumluluk ve sertifikalar        |                                                                                           | Evet       | Evet             |
 |                                      | SOC 1 Tip 1 sertifikası                                                                | Evet       | Hayır              |
-| Veri yönetimi ve tümleştirmesi      |                                                                                           | Evet       | Evet             |
-|                                      | Yapılandırmaya dayalı eklenti                                                            | Evet       | Hayır              |
+| Veri yönetimi ve tümleştirmesi      |                                                                                           | Evet       | Evet             
 |                                      | Veriyi kendi veri ambarınıza dışa aktarın                                                    | Evet       | Evet             |
 |                                      | Bir veri varlığına artımlı güncelleştirmelerin dışa aktarılmasını etkinleştirin                                 | Evet       | Evet              |
 |                                      | Veri tümleştirmeler                                                                         | Evet       | Evet             |
@@ -146,15 +145,15 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 | Destek                              |                                                                                           | Evet       | Evet             |
 |                                      | Yardım ve Destek menüsünden Desteğe erişim                                             | Evet       | Hayır              |
 
-## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
+## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Şirket içi dağıtımda kullanılabilen perakende yetenekleri listesini görmek için bkz: [Şirket içi dağıtımda kullanılabilen perakende yetenekleri](../../../retail/retail-onprem.md).
+Şirket içi dağıtımda kullanılabilen yetenekler listesini görmek için bkz. [Şirket içi dağıtımda kullanılabilen perakende yetenekleri](../../../retail/retail-onprem.md).
 
-## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
+## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
 | **Alan**         | **Özellik**         | **Bulut** | **Şirket içi** |
 |------------------|---------------------|-----------|-----------------|
-| Tüm Talent alanları | Tüm Talent özellikleri | Evet       | Hayır              |
+| Tüm Human Resources alanları | Tüm Human Resources özellikleri | Evet       | Hayır              |
 
 ## <a name="development-and-administration-features"></a>Geliştirme ve yönetim özellikleri
 

@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9c0f329d21cdda5c36a39a8c602d5925b720f52
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945755"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003091"
 ---
 # <a name="enrich-a-product-page"></a>Ürün sayfasını zenginleştirme
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'te ürün sayfası zenginleştirme yöntemi açıklanmıştır .
 
 ## <a name="overview"></a>Genel Bakış
 
-Varsayılan olarak, siteniz ürün verilerini göstermek için genel bir sayfa kullanır. Bu sayfa, ürünle ilgili temel bilgileri ve bunu satmak için gerekli olan denetimleri içerir. Ancak, perakende sunucusundan belirli bir ürünle ilgili ek resim veya metinle gelen bilgileri ekleyebilirsiniz. Bu işleme, ürün sayfasını zenginleştirme adı verilir.
+Varsayılan olarak, siteniz ürün verilerini göstermek için genel bir sayfa kullanır. Bu sayfa, ürünle ilgili temel bilgileri ve bunu satmak için gerekli olan denetimleri içerir. Ancak, Commerce Scale Unit'ten belirli bir ürünle ilgili ek resim veya metinle gelen bilgileri ekleyebilirsiniz. Bu işleme, ürün sayfasını zenginleştirme adı verilir.
 
-Birçok durumda, ürünleriniz için özel ek içerik kullanmak isteyeceksiniz. Geliştirme aracında **perakende**'e gittiğinizde, bu siteye atanan kanaldan bir ürün listesi göreceksiniz. Bu listede, **zenginleştirilmiş** sütun, bir ürünle ilgili ürün sayfasının zenginleştirilmiş olduğunu gösterir. Sütunda bir onay işareti görünürse, ürün için zenginleştirilmiş bir ürün sayfası bulunur. Onay işareti görüntülenmezse, ürün için varsayılan ürün sayfası ve içerik kullanılır. Listeden ürün adını seçerek, bir kategori için hem zenginleştirilmiş hem de zenginleştirilmemiş ürün sayfalarını önizleyebilirsiniz.
+Birçok durumda, ürünleriniz için özel ek içerik kullanmak isteyeceksiniz. Geliştirme aracında **Retail and Commerce**'e gittiğinizde, bu siteye atanan kanaldan bir ürün listesi göreceksiniz. Bu listede, **zenginleştirilmiş** sütun, bir ürünle ilgili ürün sayfasının zenginleştirilmiş olduğunu gösterir. Sütunda bir onay işareti görünürse, ürün için zenginleştirilmiş bir ürün sayfası bulunur. Onay işareti görüntülenmezse, ürün için varsayılan ürün sayfası ve içerik kullanılır. Listeden ürün adını seçerek, bir kategori için hem zenginleştirilmiş hem de zenginleştirilmemiş ürün sayfalarını önizleyebilirsiniz.
 
 ## <a name="enrich-a-product-page"></a>Ürün sayfasını zenginleştirme
 

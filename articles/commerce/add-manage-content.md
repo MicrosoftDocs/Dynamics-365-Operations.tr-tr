@@ -1,9 +1,9 @@
 ---
 title: İçerik ekleme yolları
-description: Bu konu, Microsoft Dynamics 365 Commerce sitenizde içerik ekleme ve yönetme hakkında bilgi sağlar.
+description: Bu konu, Microsoft Dynamics 365 Commerce Site Builder Web yazma aracı kümesi kullanılarak içeriğin nasıl ve nasıl başlanacağı ile ilgili genel bakış ve bağlantı sağlar.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,43 +17,40 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2232dc7cdd24416b0df0919b96cd5d1f8113299f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 916e28c2628613332246d19af0fae81f258404b0
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914666"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025747"
 ---
 # <a name="ways-to-add-content"></a>İçerik ekleme yolları
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce sitenizde içerik ekleme ve yönetme hakkında bilgi sağlar.
+Bu konu Microsoft Dynamics 365 Commerce site yapıcısı web yazma araç takımı kullanarak içeriği yönetme hakkında genel bakış ve bağlantılar sağlar.
 
 ## <a name="overview"></a>Genel Bakış
 
-Sitenizin görünümünü, hissini ve içeriğini değiştirmek için birçok yol vardır. Gerekli özelleştirme düzeyine bağlı olarak, bu değişikliklerin çoğu uygulama geliştiricileri tarafından uygulanabilir. Örneğin, şablon oluşturmak için hiçbir kod yazılması gerekmez, temaları seçin ve modülleri seçin ve konfigüre edin. Bunun aksine, e-ticaret yazılım geliştirme seti (SDK) ve Microsoft Dynamics Lifecycle Services (LCS) dağıtım iş akışı kullanılması gerektiğinden, yeni bir tema veya modül oluşturmak için geliştirme becerileri gereklidir.
+Sitenizin görünümünü, hissini ve içeriğini değiştirmek için birçok yol vardır. Bu değişikliklerin çoğu, gerekli özelleştirme düzeyine bağlı olarak, Site Builder içinde bulunan Web yazma araç takımı içindeki geliştiriciler tarafından gerçekleştirilebilir Dynamics 365 Commerce. Site Builder, şablon oluşturmanızı, temaları seçmenizi ve herhangi bir kod yazmadan modülleri seçmenizi ve yapılandırmanızı sağlar. Bunun aksine, e-ticaret yazılım geliştirme seti (SDK) ve Microsoft Dynamics Lifecycle Services (LCS) dağıtım iş akışı kullanılması gerektiğinden, yeni bir tema veya modül oluşturmak için geliştirme becerileri gereklidir.
 
-Aşağıdaki konular sitenizde içerik ekleme ve yönetme hakkında bilgi sağlar. Bunlar sitenizin geliştirici gerektirmeyen alanlarına odaklanırlar. Gerektiğinde, SDK çalışması gerektiren görevleri kullanıma alır.
+Aşağıdaki konular, Site içeriğinin nasıl ekleneceğini ve yönetileceğini anlamaya başlamak için puanlar atmasına uygundur. Listelenen pek çok konu, sitenizin geliştirici gerektirmeyen alanlarına odaklanırlar. Bazı adres temel içerik düzenleme, diğerleri Site Yöneticisi görevlerine odaklanmaktadır. Bu konuların her biri, belirli görevlerin SDK çalışması gerektirebileceğini gösterir. Her konu, bir siteyi önceden sağlamış olduğunuzu ve siteniz için Site Builder Araç Takımı'na erişim verildiğini varsayar.
 
+Başlamak için aşağıdaki konulardan birini seçin.
+
+- Site Builder ve bu dokümentasyonda kullanılan içerik yönetim terminolojisini öğrenmek bk. [Sayfa model sözlüğü](page-elements-overview.md).
+- Modüllerin içerik yönetimi iş akışları içinde nasıl çalıştığını anlamak için bk. [Modüllerle çalışmka](work-with-modules.md).
 - Varolan bir site sayfasındaki metni, resimleri veya videoyu değiştirmek için, bkz [Modüllerle çalış](work-with-modules.md).
-- Web içeriği yazarları için marka halinde yazma deneyimi sağlamaya yardımcı olmak için, bkz [Şablonlarla çalışma](work-with-templates.md).
+- Parçaların içerik yönetimini daha etkili ve esnek hale getirme şeklini görmek için bk. [Parçalarla çalışmak](work-with-fragments.md).
+- Web içerik yazarlarının marka yazarlığı deneyimini başarıyla sağlamalarına yardımcı olmak için bkz. [Şablonlar ve düzenler genel bakışı](templates-layouts-overview.md) ve [Şablonlar ile çalışmak](work-with-templates.md).
 - Site sayfasındaki bölümleri yeniden düzenlemek için, bkz [Düzenlerle çalışma](work-with-layouts.md).
-- Site sayfalarının yazı tiplerini, renklerini ve genel görünümünü değiştirmek için, bkz [Site teması seçin](select-site-theme.md).
+- Site sayfalarının yazı tiplerini, renklerini ve genel görünümünü değiştirmek için, bkz [Site teması seçin](select-site-theme.md) veya [CSS geçersiz kılma dosyalarıyla çalışmak](css-override-files.md).
+- Yeniden düzenlemek veya yeni gezinti seçenekleri eklemek için bk. [Site gezintisini özelleştirmek](customize-site-navigation.md).
+- Ardışık web içeriği değişikliklerini aşamalandırma, önizleme ve yayınlama için bk. [Yayınlama gruplarıyla çalışmak](publish-groups.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Sayfa modeli sözlüğü](page-elements-overview.md)
+[Yazma sayfasına genel bakış](authoring-home-overview.md)
 
 [Belge durumları ve yaşam döngüsü](document-states-overview.md)
-
-[Yayınlama gruplarıyla çalışma](publish-groups.md)
-
-[Modüllerle çalışma](work-with-modules.md)
-
-[Parçalarla çalışma](work-with-fragments.md)
-
-[Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md)
-
-[Site gezintisini özelleştirme](customize-site-navigation.md)

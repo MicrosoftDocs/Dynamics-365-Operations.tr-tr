@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934898"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004031"
 ---
 # <a name="product-identifiers"></a>Ürün tanımlayıcıları 
 
@@ -88,7 +88,7 @@ Harici ürün tanımlayıcıları serbest bırakılan ürün, serbest bırakıla
 | Tanım | Müşterinin maddeyle ilişkilendirdiği ad | Satıcının maddeyle ilişkilendirdiği ad |
 | Harici madde metni | Müşterinin madde açıklaması | Satıcının madde açıklaması |
 
-Birçok müşteri veya satıcı aynı madde numaralarını kullanıyorsa (örneğin satınalma ilişkisi veya perakende grubunda olduğu gibi), harici ürün bilgilerinin bakımını basitleştirmek için müşteri veya satıcı grupları oluşturabilirsiniz.
+Birçok müşteri veya satıcı aynı madde numaralarını kullanıyorsa (örneğin satınalma ilişkisi veya ticaret grubunda olduğu gibi), harici ürün bilgilerinin bakımını basitleştirmek için müşteri veya satıcı grupları oluşturabilirsiniz.
 
 - Müşteri grupları için **Satış** &gt; **Kurulum** &gt; **Maddeler** &gt; **Harici madde açıklaması**'na giderek grupları ve ilgili madde numaralarını oluşturun ve sağlayın. Müşterileri bir grupla ilişkilendirmek için **Alacak hesapları** &gt; **Müşteriler** &gt; **Tüm müşteriler**'e gidin ve daha sonra **Satış siparişi varsayılanları** hızlı sekmesindeki **Madde - müşteri grubu** alanında bir değer belirtin.
 - Satıcı grupları için **Tedarik ve kaynak atama** &gt; **Kurulum** &gt; **Harici madde açıklaması grubu**'na giderek grupları ve ilgili madde numaralarını oluşturun ve sağlayın. Satıcıları bir grupla ilişkilendirmek için **Borç hesapları** &gt; **Satıcılar** &gt; **Tüm satıcılar**'a gidin ve daha sonra **Satınalma siparişi varsayılanları** hızlı sekmesindeki **Madde - satıcı grubu** alanında bir değer belirtin.

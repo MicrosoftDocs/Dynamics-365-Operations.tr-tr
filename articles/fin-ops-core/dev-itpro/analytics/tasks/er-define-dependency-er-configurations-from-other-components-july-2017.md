@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d949be57d9e9fe744860f5c4045bef2923b7f284
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249193"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026122"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
 
@@ -28,7 +28,7 @@ ms.locfileid: "2249193"
 
 Bu adımları tamamlamak için önce ER Model eşleme yapılandırmalarını yönet görev kılavuzundaki adımları tamamlamalı ve Microsoft Dynamics Lifecycle Services (LCS) üzerinde erişim sahibi olmanız gerekir.
 
-Bu yordam, bir Elektronik raporlama (ER) yapılandırmasının nasıl tasarlanacağını ve diğer yazılım bileşenlerine olan bağımlılıklarını nasıl belirtileceğini gösterir; bu sayede yapılandırmanın belirli bir Finance and Operations sürümüne doğru şekilde indirildiğinden emin olmaya yardımcı olabilirsiniz. Bu örnekte, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. 
+Bu yordam, bir Elektronik raporlama (ER) yapılandırmasının nasıl tasarlanacağını ve diğer yazılım bileşenlerine olan bağımlılıklarını nasıl belirtileceğini gösterir; bu sayede yapılandırmanı belirli bir Finance and Operations sürümüne doğru şekilde indirildiğinden emin olmaya yardımcı olabilirsiniz. Bu örnekte, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. 
 
 Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar içindir. Adımlar, ER yapılandırmaları şirketler arasında paylaşıldığı için herhangi bir şirkette gerçekleştirilebilir. 
 
@@ -47,9 +47,9 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
 5. Yeni'ye tıklayın.
 6. Ürün önkoşul bileşenini seçin.
 7. Microsoft Dynamics 365 for Operations (1611) seçin.
-8. Sürüm alanına '[7.1.1541.3036,8)' yazın.
-    * (7.1.1541.3036,8)  
-    * Girdiğiniz bağımlılıklar bu yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse, sürümünün 7.1.1541.3036 veya sonrası olan ancak sürüm 8'i geçmeyen Finance and Operations içerisinde tamamlanması gerekir.   
+8. Sürüm alanına '[7.1.1541.3036,8)'.
+    * [7.1.1541.3036,8) yazın.  
+    * Girdiğiniz bağımlılıklar bu yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse, Finance and Operations 7.1.1541.3036 veya ileri (ancak sürüm 8'i geçmeyen) bir sürümünde tamamlanması gerekir.   
 9. Kaydet'e tıklayın.
 10. Sayfayı kapatın.
 11. Durumu değiştir öğesine tıklayın.
@@ -60,8 +60,8 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
 16. Yeni'ye tıklayın.
 17. Ürün önkoşul bileşenini seçin.
 18. Microsoft Dynamics AX 7.0 RTW seçin.
-19. Sürüm alanına '[7.0.1265.3015,7.1)' yazın.
-    * (7.0.1265.3015,7.1)  
+19. Sürüm alanına '[7.0.1265.3015,7.1)'.
+    * [7.0.1265.3015,7.1) yazın.  
     * Bağımlılıklar bir yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse, sürümünün 7.0.1265.3015 veya sonrası olan ancak küçük sürüm 1'i geçmeyen Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition içerisinde tamamlanması gerekir.   
 20. Kaydet'e tıklayın.
 21. Sayfayı kapatın.
@@ -109,7 +109,7 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
     * Bu model eşleme yapılandırmasının Sürüm 1.1'i, LCS'ye, önceden yapılandırılmış ER havuzunun LCS projesini kullanarak karşıya yüklenmiştir.   
 
 ## <a name="evaluate-er-configuration-dependencies"></a>ER yapılandırma bağımlılıklarını değerlendirin
-    * Oluşturulan yapılandırmaları sistemden sileceğiz ve onları LCS havuzundan yeniden indireceğiz.  
+Oluşturulan yapılandırmaları sistemden sileceğiz ve onları LCS havuzundan yeniden indireceğiz.  
 1. Ağaçta, 'Örnek veri modeli\Örnek eşleme' seçeneğini belirleyin.
 2. Sil'i tıklatın.
 3. Evet'i tıklatın.

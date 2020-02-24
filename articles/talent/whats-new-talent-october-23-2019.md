@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7506953c797f5a55a93f1169bf48af8b06eb440e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896808"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006276"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (23 Ekim 2019)
 
@@ -41,7 +41,7 @@ Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2569 için geçer
 
 ### <a name="platform-update-30-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için Platform güncelleştirmesi 30
 
-Daha fazla bilgi için bkz. [Finance and Operations uygulamaları için Platform güncelleştirmesi 30'daki yenilikler veya değişiklikler (2019 Kasım)](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
+Daha fazla bilgi için bkz. [Finance and Operations uygulamaları için Platform güncelleştirmesi 30'daki yenilikler veya değişiklikler (2019 Kasım)](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Kazançlar açık kayıt önizlemesi özelliği kaldırılıyor
 
@@ -89,4 +89,4 @@ Dynamics 365: 2019 sürüm dalgası 2 planındaki [Performans incelemelerini yaz
 
 Özellikler, her sürümüne eklenir ve güncelleştirilir. Özellik yönetimi deneyimi, her sürümde teslim edilen özelliklerin listesini görüntüleyebileceğiniz bir çalışma alanı sağlar. Varsayılan olarak, bu özellikler kapalıdır. Çalışma alanını, bu özellikleri açıp ilgili belgelere bakmak için kullanabilirsiniz.
 
-Özellik yönetimiyle gelen değişiklikler hakkında daha fazla bilgi edinmek için bkz. [Özellik yönetimine genel bakış](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Özellik yönetimiyle gelen değişiklikler hakkında daha fazla bilgi edinmek için bkz. [Özellik yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).

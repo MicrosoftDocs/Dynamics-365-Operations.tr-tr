@@ -3,7 +3,7 @@ title: Telif hakkı bildirimi ekleme
 description: Bu konuda, e-ticaret Web sitenize telif hakkı bildirimi ekleme yöntemi açıklanmıştır.
 author: psimolin
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914596"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025494"
 ---
 # <a name="add-a-copyright-notice"></a>Telif hakkı bildirimi ekleme
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konuda, e-ticaret Web sitenize telif hakkı bildirimi ekleme yöntemi açıklanmıştır.
@@ -48,8 +48,8 @@ Belirli bir şablonu kullanan her sayfanın altına telif hakkı bildirimi eklem
 1. Gezinti bölmesinde, **Altbilgi** yanındaki üç nokta düğmesini (**...**) ve sonra da **Modül ekle** seçeneğini seçin.
 1. İletişim kutusunda **altbilgi kategorisi**'ni seçin ve **Tamam**'ı seçin.
 1. Gezinti bölmesinde, **Altbilgi kategorisi** yanındaki üç nokta düğmesini ve sonra da **Modül ekle** seçeneğini seçin.
-1. İletişim kutusunda **İçerik zengin blok öğesi**'ni seçin ve **Tamam**'ı seçin.
-1. Gezinti bölmesinde, **içerik zengin blok öğesini** seçin.
+1. İletişim kutusunda **Metin bloku**'nu seçin ve **Tamam**'ı seçin.
+1. Gezinti bölmesinde **Metin bloku** seçeneğini belirleyin.
 1. Sağdaki Özellikler bölmesinde, **paragraf** alanına, telif hakkı iletinizi ekleyin. Örneğin **(C) Fabrikam 2019** girin.
 1. **Kaydet**'i seçin, **Giriş**'i seçin ve sonra **yayınla**'yı seçin.
 1. **Şablonlara** gidin, şablonu seçin ve sonra **Çıkış**'yı seçin.

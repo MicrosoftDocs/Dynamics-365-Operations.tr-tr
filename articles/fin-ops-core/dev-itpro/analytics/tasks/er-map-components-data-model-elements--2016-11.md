@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a033853be17d6013daa5550ca9c061198bb0330
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184750"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026252"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Oluşturulan biçimin bileşenlerini veri modeli öğeleri ile eşleme (Kasım 2016)
 
@@ -98,7 +98,7 @@ Aşağıdaki yordam, Sistem yöneticisi veya Elektronik raporlama geliştirici r
 2. Sayfayı kapatın.
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>Biçim yapılandırmasının geçerli sürümünün durumunu değiştirin
-    * Sonraki adımlarda, biçim yapılandırmasının durumunu Taslak yerine Tamamlandı olarak değiştirerek ödeme belgesi oluşturmada kullanılabilir hale getirin.  
+Sonraki adımlarda, biçim yapılandırmasının durumunu Taslak yerine Tamamlandı olarak değiştirerek ödeme belgesi oluşturmada kullanılabilir hale getirin.  
 1. Durumu değiştir öğesine tıklayın.
 2. Tamamla öğesine tıklayın.
 3. Açıklama alanına bir değer girin.
@@ -108,7 +108,7 @@ Aşağıdaki yordam, Sistem yöneticisi veya Elektronik raporlama geliştirici r
     * Yapılandırmanın, tamamlanan sürüm 1.1 (veri modelinin sürüm 1'ini temel alan biçimin sürüm 1'i) olarak kaydedildiğine dikkat edin.  
 
 ## <a name="define-effective-date-for-completed-version-of-format"></a>Tamamlanan biçiminin sürümü için yürürlük tarihi tanımla
-    * Her biçimi sürümü belirli bir tarihten itibaren kullanılabilecek şekilde yapılandırılabilir. Belirli bir tarihte birden fazla biçim sürümü etkin olduğunda, kullanım için en son biçim (sürüm numarasına bağlı olarak) seçilir. Uygun sürüm seçimi için oturum tarihi değeri kullanılır.  
+Her biçimi sürümü belirli bir tarihten itibaren kullanılabilecek şekilde yapılandırılabilir. Belirli bir tarihte birden fazla biçim sürümü etkin olduğunda, kullanım için en son biçim (sürüm numarasına bağlı olarak) seçilir. Uygun sürüm seçimi için oturum tarihi değeri kullanılır.  
 
 ## <a name="restrict-access-to-created-format-from-companies"></a>Oluşturulan biçime şirketlerden erişimi kısıtlama
 1. ISO Ülke/bölge kodları bölümünü genişletin.

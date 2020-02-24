@@ -1,9 +1,9 @@
 ---
 title: Üst bilgi modülü
-description: Bu konu üstbilgi modüllerini ve bunların nasıl Microsoft Dynamics 365 Commerce'te oluşturacağını açıklamaktadır ve kapsamaktadır.
+description: Bu konu üst bilgi modüllerini kapsamakta ve Microsoft Dynamics 365 Commerce'te sayfa üst bilgilerinin nasıl oluşturacağını açıklamaktadır.
 author: anupamar
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,60 +17,60 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cc98419077f6f563ea2265d4e68ba809971cfbd6
-ms.sourcegitcommit: ff93b8f6a11993f2cd00be2da7aa77ef0d950ab8
+ms.openlocfilehash: efadd19681bbb21ea5b2b469e55bc6f4b0535046
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885490"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025721"
 ---
 # <a name="header-module"></a>Üst bilgi modülü
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Bu konu üstbilgi modüllerini ve bunların nasıl Microsoft Dynamics 365 Commerce'te oluşturacağını açıklamaktadır ve kapsamaktadır.
+Bu konu üst bilgi modüllerini kapsamakta ve Microsoft Dynamics 365 Commerce'te sayfa üst bilgilerinin nasıl oluşturacağını açıklamaktadır.
 
 ## <a name="overview"></a>Genel Bakış
 
-Üst bilgi modülü, bir sayfanın başlığında gösterilecek tüm modülleri barındırmak için kullanılan özel bir konteynerdir. Örneğin, site logonuzu, gezinti hiyerarşisine bağlantıları, sitedeki diğer sayfalara bağlantıları ve arama çubuğunu içerebilir.
+Dynamics 365 Commerce'te sayfa üst bilgisi; başlık, gezinti menüsü, arama, promosyon başlığı ve tanımlama bilgisi izin modülleri gibi birden çok modülü kapsar. 
 
-Üst bilgi modülü, sitenin (yani bir masaüstü cihazı veya mobil cihaz) üzerinde göründüğü cihaz için otomatik olarak en iyi duruma getirilmiştir. Örneğin, bir mobil cihazda, gezinti çubuğu bir **menü** düğmesine (bazen *hamburger menüsü* olarak da adlandırılır) daraltılır.
+Üst bilgi modülü bir site logosu, gezinti hiyerarşisine bağlantılar, sitedeki diğer sayfalara bağlantılar, bir sepet sembolü, bir istek listesi sembolü, oturum açma seçenekleri ve arama çubuğu içerir. Üst bilgi modülü, sitenin (yani bir masaüstü cihaz veya mobil cihaz) görüntülendiği cihaz için otomatik olarak en iyi duruma getirilir. Örneğin, bir mobil cihazda, gezinti çubuğu bir **menü** düğmesine (bazen *hamburger menüsü* olarak da adlandırılır) daraltılır.
 
-## <a name="properties-of-a-header"></a>Üstbilginin özellikleri
+## <a name="properties-of-a-header-module"></a>Üst bilgi modülünün özellikleri
 
-Birçok konteyner gibi bir üstbilgi modülü de **başlık** ve **genişlik** için özellikleri destekler.
+Üst bilgi modülü **Logo resmi**, **Logo bağlantısı** ve **Hesabım bağlantıları** özelliklerini destekler. 
 
-Üst bilgi modülü birden çok yuvaya sahip. Örneğin, bir bilgi iletisi, gezinme menüsü, logo, arama çubuğu, sepet simgesi, istek listesi simgesi ve hesap bilgileri için yuvalar vardır. Her yuva, belirli bir modül kümesini destekler.
+**Logo resmi** ve **Logo bağlantısı** özellikleri sayfada bir logo tanımlamak için kullanılır. Daha fazla bilgi için bkz. [Logo ekleme](add-logo.md). 
+
+**Hesabım bağlantıları** özelliği, site sahibinin üst bilgide hızlı bağlantıları göstermek istediği hesap sayfalarını tanımlamak için kullanılabilir.
 
 ## <a name="modules-that-are-available-in-a-header-module"></a>Üstbilgi modülünde kullanılabilen modüller
 
 Aşağıdaki modüller bir üstbilgi modülünde kullanılabilir:
 
-- **Gezinti menüsü** – Gezinti menüsü, kanal gezinti hiyerarşisini ve diğer statik gezinti bağlantılarını temsil eder. Kanal gezinme hiyerarşisi Dynamics 365 Retail'de yapılandırılabilir. Yapılandırılmış öğeler daha sonra üstbilgi gezintisi olarak görünür. Ek olarak, statik gezinti bağlantıları yapılandırılabilir ve e-ticaret sitesindeki diğer sayfalara göreli bağlantılar sağlanabilir. Üstbilginin kendisi sola, sağa veya ortaya hizalanabilir.
-- **Sepet simgesi** – Sepet simgesi sepeti temsil eden özel bir simgedir. Başlıkta gösterilir ve sepetteki öğelerin sayısını belirtir. Sepet sayfasına bir bağlantı, bir simgenin simgesiyle etkileşimde bulunduklarında sepet sayfasına yönlendirilebilmeleri için, sepet simgesine eşlik etmelidir.
-- **İstek listesi simgesi** – Son giriş listesi simgesi başlıkta gösterilir ve müşterinin istek listesine eklenen maddelerin sayısını belirtir. İstek listesi sayfasına bir bağlantı, bu simgesiyle etkileşimde bulunduklarında istek listesi sayfasına yönlendirilebilmeleri için, sepet simgesine eşlik etmelidir.
-- **Oturum açma modülü** - Üstbilgide oturum açma modülü gösteriliyor. Müşterilerimiz, hesaplarına oturum açmalarını veya bir hesap için kaydolmasına olanak tanır. Müşteri önceden oturum açmışsa modül hesap sayfası, sipariş geçmişi sayfası veya başka bir sayfaya olan bağlantıları gösterecek şekilde konfigüre edilebilir.
-- **Logo modülü** – Bu modül, perakendecileri ve markayı temsil eden logoyu gösterir. Bağlantısı olan bir görüntüdür. Bağlantı genellikle giriş sayfasına yeniden yönlendirilecek şekilde yapılandırılır, böylece müşteriler sitedeki herhangi bir sayfadan giriş sayfasına hızla dönebilir.
-- **Uyarı** – Başlıkta bir uyarı görünür ve sitedeki tüm sayfalar için geçerli olan bir satır içi iletiyi göstermek için kullanılır. Örneğin, bir uyarı "Yıllık satış 2 günde bitiyor" gibi bir mesaj gösterebilir.
-- **Arama çubuğu** – Arama çubuğu kullanıcıların ürün arayabilmeleri için arama terimleri girmesine izin verir. Modül, arama sonuçları sayfasının URL'siyle konfigüre edilmelidir. Sorgu dizesi parametresi yapılandırılabilir (varsayılan değer **"q"** dir). Arama çubuğu, otomatik önerme modülünün eklenmesi gereken bir autoönerme yuvasına sahiptir.
-- **Otomatik öner** – otomatik öner modülü otomatik olarak önerilen sonuçları gösterir. Bu sonuçlar anahtar sözcükler, ürünler veya arama teriminin bulunduğu kategoriler olabilir.
+- **Gezinti menüsü** – Gezinti menüsü, kanal gezinti hiyerarşisini ve diğer statik gezinti bağlantılarını temsil eder. Kanal gezinme hiyerarşisi Dynamics 365 Commerce'de yapılandırılabilir. Gezinti menüsünde, Retail Server gezinti menüsü öğelerini ve statik menü öğelerini bir kaynak olarak belirtmek için kullanılan bir **Gezinti Kaynağı** özelliği vardır. Statik menü öğeleri kaynak olarak belirtilirse, sitedeki diğer sayfalara göreli bağlantılar sağlanabilir. Yapılandırılmış öğeler daha sonra üstbilgi gezintisi olarak görünür. 
+- **Arama** – Arama modülü, kullanıcıların ürün aramak için arama terimleri girmesine izin verir. **Site Ayarları \>Uzantılar**'da, varsayılan arama sayfasının URL'si ve arama sorgusu parametreleri girilmelidir. Arama modülünde, arama düğmesini veya etiketi gereksinim duyduğunuz şekilde gizlemenize olanak sağlayan özellikler vardır. Arama modülü ürün, anahtar sözcük ve kategori arama sonuçları gibi otomatik öneri seçeneklerini de destekler.
 
-## <a name="create-a-header-module"></a>Başlık modülü oluşturma
+## <a name="create-a-header-module-for-a-page"></a>Sayfa için üst bilgi modülü oluşturma
 
 Bir üst bilgi modülü oluşturmak için şu adımları izleyin.
 
-1. Üstbilgi modülü içeren bir sayfa parçası oluşturun.
-1. Üstbilgi modülündeki yuvalara modüller ekleyin.
-1. Her modülün ayarlarını güncelleştirin.
-1. Sayfa parçasını kaydedin. 
-1. Sayfayı giriş yapın ve yayımlayın.
+1. **Üst bilgi parçası** olarak adlandırılan bir parça oluşturun ve buna bir kapsayıcı modülü ekleyin.
+1. Konteyner modülü için özellik panosunda **Genişlik** özelliğini **Konteyneri doldur**'a ayarlayın.
+1. Kapsayıcı modülüne promosyon başlığı ve tanımlama bilgisi izin modülleri ekleyin.
+1. Parçaya başka bir kapsayıcı modülü ekleyin ve **Genişlik** özelliğinin ayarını **Kapsayıcıya sığdır** yapın.
+1. İkinci kapsayıcı modülüne bir üst bilgi modülü ekleyin.
+1. Üst bilgi modülünün **Gezinti menüsü** yuvasında bir gezinti menüsü modülü ekleyin. 
+1. Gezinti menüsü modülünün özellik bölmesinde, gezinti menüsü modülünün özelliklerini yapılandırın.
+1. Üst bilgi modülünün **Arama** yuvasında bir arama modülü ekleyin. 
+1. Arama modülünün özellik bölmesinde, arama modülünün özelliklerini yapılandırın. 
+1. Sayfa parçasını kaydedin, düzenlemeyi bitirin ve yayımlayın. 
 
 Üstbilginin her sayfada göründüğünü garantilemek için, site için oluşturulan her sayfa şablonunda aşağıdaki adımları izleyin.
 
-1. Varsayılan sayfada üstbilgi modülünü içeren sayfa parçasını ana yuvadaki üstbilgiye ekleyin.
-1. Şablonu kaydedin. 
-1. Şablonu giriş yapın ve yayımlayın.
+1. Varsayılan sayfanın **Ana** yuvasında, üst bilgi modülünü içeren üst bilgi sayfa parçasını üst bilgiye ekleyin.
+1. Şablonu kaydedin, düzenlemeyi bitirin ve sonra yayınlayın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

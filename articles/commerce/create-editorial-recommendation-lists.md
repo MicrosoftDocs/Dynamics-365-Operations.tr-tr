@@ -19,16 +19,15 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d075635b7b986cc854550d15f7e941a9ea9cf72
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770425"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024945"
 ---
 # <a name="create-curated-product-recommendation-lists"></a>Seçkin ürün önerisi listeleri oluşturma
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Bu konu, tacirlerin Microsoft Dynamics 365 Commerce müşterileri için el ile ürün listeleri oluşturma ve yönetme yöntemini açıklamaktadır.
@@ -39,7 +38,7 @@ Seçkin listeler, kişiler tarafından oluşturulan ve seçkin bağımsız içer
 
 Seçkin bir ürün önerisi listesi oluşturmak için aşağıdaki adımları izleyin.
 
-1. **Perakende** &gt; **ürün önerileri** &gt; **öneri listelerine** gidin.
+1. **Retail and Commerce &gt; Ürün önerileri &gt; Öneri listeleri**'ne gidin.
 1. **Yeni**'yi seçin.
 1. **Liste kimliği** alanına bir değer girin.
 1. **Liste adı** alanına bir değer girin.
@@ -60,3 +59,5 @@ Seçkin bir ürün önerisi listesi oluşturmak için aşağıdaki adımları iz
 [Ürün önerilerini etkinleştirme](enable-product-recommendations.md)
 
 [Sayfalarına ürün önerileri listesi ekleme](add-reco-list-to-page.md)
+
+[Ürün topluluğu modülüne genel bakış](product-collection-module-overview.md)

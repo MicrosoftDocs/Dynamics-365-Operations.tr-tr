@@ -3,7 +3,7 @@ title: Alacaklar hesapları için merkezi ödemeler
 description: Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten tek bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı hareketin girilmesi gerekmez. Bu makalede, çeşitli senaryolarda deftere nakletmenin merkezi ödemeler için nasıl işlendiğini gösteren örnekler yer almaktadır.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59942fadb0fb702c59c95f75359f1a3036e4668f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180396"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000105"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Alacaklar hesapları için merkezi ödemeler
 
@@ -88,8 +88,8 @@ Fabrikam, Fabrikam müşterisi 4000, Northwind Traders için 580,00 tutarında b
 
 | Hesap                             | Borç tutarı | Alacak tutarı |
 |-------------------------------------|--------------|---------------|
-| Alacak hesapları (Fabrikam East) | 600,00       |               |
-| Satış (Fabrikam East)               |              | 600,00        |
+| Alacak hesapları (Fabrikam East) | 580.00       |               |
+| Satış (Fabrikam East)               |              | 580.00        |
 
 ### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Ödemenin Fabrikam müşterisi 4000 için Fabrikam'da alınması ve nakledilmesi
 

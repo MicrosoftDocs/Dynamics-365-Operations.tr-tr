@@ -1,7 +1,7 @@
 ---
 title: Kullanıcı arabirimi öğeleri
 description: Bu konuda, uygulamadaki kullanıcı arabirimi (UI) öğeleri açıklanmaktadır.
-author: ''
+author: tlefor
 manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4b64ed55546a998caf80e7a83cdb7cd3fdde10a3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8087090b16ddbcf9586ae289c6ec7c1d23087422
+ms.sourcegitcommit: c0929ebda9dfb7affe2a187336abf980ce2009a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180463"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994130"
 ---
 # <a name="user-interface-elements"></a>Kullanıcı arabirimi öğeleri
 

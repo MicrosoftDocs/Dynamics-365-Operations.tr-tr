@@ -1,6 +1,6 @@
 ---
 title: Çevrimiçi kanal raporları oluşturma
-description: Bu konu, Microsoft Dynamics 365 Retail uygulamasında çevrimiçi kanallarınız için nasıl rapor oluşturulacağını açıklamaktadır.
+description: Bu konu, Microsoft Dynamics 365 Commerce uygulamasında çevrimiçi kanallarınız için nasıl rapor oluşturulacağını açıklamaktadır.
 author: psimolin
 manager: annbe
 ms.date: 10/01/2019
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77737c134df8f3ba598fe9026fa7c01ca9976733
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: fd40aabdf40e0f2bb257b914326df5595a0e6945
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698062"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003016"
 ---
 # <a name="generate-online-channel-reports"></a>Çevrimiçi kanal raporları oluşturma
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Retail uygulamasında çevrimiçi kanallarınız için nasıl rapor oluşturulacağını açıklamaktadır.
+Bu konu, Microsoft Dynamics 365 Commerce uygulamasında çevrimiçi kanallarınız için nasıl rapor oluşturulacağını açıklamaktadır.
 
 ## <a name="overview"></a>Genel Bakış
 
-Çevrimiçi kanalınızın nasıl çalıştığını görmek için Retail 'te birden fazla rapor oluşturabilir ve görüntüleyebilirsiniz.
+Çevrimiçi kanalınızın nasıl çalıştığını görmek için Commerce'te birden fazla rapor oluşturabilir ve görüntüleyebilirsiniz.
 
 ## <a name="channel-summary-report"></a>Kanal özeti raporu
 
@@ -46,7 +46,7 @@ Bu konu, Microsoft Dynamics 365 Retail uygulamasında çevrimiçi kanallarınız
 
 Bir **kanal Özet** raporu oluşturmak için, aşağıdaki adımları izleyin.
 
-1. **Perakende \> Sorgular ve raporlar \> Satış raporları \> Kanalı Özet raporu**'na gidin.
+1. **Retail and Commerce \> Sorgular ve raporlar \> Satış raporları \> Kanalı Özet raporu**'na gidin.
 1. **Başlangıç tarihi** alanına bir tarih girin.
 1. **Bitiş tarihi** alanına bir tarih girin.
 1. **Kanal** alanında, çevrimiçi kanalı seçin.
@@ -58,7 +58,7 @@ Bir **kanal Özet** raporu oluşturmak için, aşağıdaki adımları izleyin.
 
 Bir **Yıla göre kanal satışları** raporu oluşturmak için, aşağıdaki adımları izleyin.
 
-1. **Perakende \> Sorgular ve raporlar \> Satış raporları \> Yıla göre kanal satışları raporu**'na gidin.
+1. **Retail and Commerce \> Sorgular ve raporlar \> Satış raporları \> Yıla göre kanal satışları raporu**'na gidin.
 1. **Takvim yılından** alanına yıl girin.
 1. **Takvim yılına** alanına yıl girin.
 1. **Kanal** alanında, çevrimiçi kanalı seçin.
@@ -70,7 +70,7 @@ Bir **Yıla göre kanal satışları** raporu oluşturmak için, aşağıdaki ad
 
 Bir **Saate göre kanal satışları** raporu oluşturmak için, aşağıdaki adımları izleyin.
 
-1. **Perakende \> Sorgular ve raporlar \> Satış raporları \> Saate göre kanal satışları raporu**'na gidin.
+1. **Retail and Commerce \> Sorgular ve raporlar \> Satış raporları \> Saate göre kanal satışları raporu**'na gidin.
 1. **Başlangıç tarihi** alanına bir tarih girin.
 1. **Bitiş tarihi** alanına bir tarih girin.
 1. **Kanal** alanında, çevrimiçi kanalı seçin.
@@ -82,7 +82,7 @@ Bir **Saate göre kanal satışları** raporu oluşturmak için, aşağıdaki ad
 
 Bir **En iyi müşteriler** raporu oluşturmak için, aşağıdaki adımları izleyin.
 
-1. **Perakende \> Sorgular ve raporlar \> Satış raporları \> En iyi müşteriler raporu**'na gidin.
+1. **Retail and Commerce \> Sorgular ve raporlar \> Satış raporları \> En önemli müşteriler raporu**'na gidin.
 1. **Başlangıç tarihi** alanına bir tarih girin.
 1. **Bitiş tarihi** alanına bir tarih girin.
 1. **Kanal** alanında, çevrimiçi kanalı seçin.
@@ -94,7 +94,7 @@ Bir **En iyi müşteriler** raporu oluşturmak için, aşağıdaki adımları iz
 
 Bir **En iyi indirimler** raporu oluşturmak için, aşağıdaki adımları izleyin.
 
-1. **Perakende \> Sorgular ve raporlar \> Satış raporları \> En iyi indirimler raporu**'na gidin.
+1. **Retail and Commerce \> Sorgular ve raporlar \> Satış raporları \> En yüksek iskontolar raporu**'na gidin.
 1. **Başlangıç tarihi** alanına bir tarih girin.
 1. **Bitiş tarihi** alanına bir tarih girin.
 1. **Kanal** alanında, çevrimiçi kanalı seçin.
@@ -106,7 +106,7 @@ Bir **En iyi indirimler** raporu oluşturmak için, aşağıdaki adımları izle
 
 Bir **En iyi ürünler** raporu oluşturmak için, aşağıdaki adımları izleyin.
 
-1. **Perakende \> Sorgular ve raporlar \> Satış raporları \> En iyi ürünler raporu**'na gidin.
+1. **Retail and Commerce \> Sorgular ve raporlar \> Satış raporları \> En çok satılan ürünler raporu**'na gidin.
 1. **Başlangıç tarihi** alanına bir tarih girin.
 1. **Bitiş tarihi** alanına bir tarih girin.
 1. **Kanal** alanında, çevrimiçi kanalı seçin.
@@ -118,7 +118,7 @@ Bir **En iyi ürünler** raporu oluşturmak için, aşağıdaki adımları izley
 
 Bir **Kategori satışları** raporu oluşturmak için, aşağıdaki adımları izleyin.
 
-1. **Perakende \> Sorgular ve raporlar \> Satış raporları \> Kategori satış raporu**'na tıklayın.
+1. **Retail and Commerce \> Sorgular ve raporlar \> Satış raporları \> Kategori satış raporu**'na gidin.
 1. **Başlangıç tarihi** alanına bir tarih girin.
 1. **Bitiş tarihi** alanına bir tarih girin.
 1. **Kanal** alanında, çevrimiçi kanalı seçin.
@@ -126,11 +126,11 @@ Bir **Kategori satışları** raporu oluşturmak için, aşağıdaki adımları 
 
 ## <a name="organization-sales-report"></a>Kuruluş satış raporu
 
-**Organizasyon satış** raporu, perakende mağazalarınızın organizasyon birimine göre performansını gösterir. Bu rapor, her mağaza için satış miktarını ve mağaza tutarını ve kar marjını içerir. Organizasyon birimi, varsayılan raporlama hiyerarşisine dayanır.
+**Kuruluş satış raporu**, mağazalarınızın organizasyon birimine göre performansını gösterir. Bu rapor, her mağaza için satış miktarını ve mağaza tutarını ve kar marjını içerir. Organizasyon birimi, varsayılan raporlama hiyerarşisine dayanır.
 
 Bir **Organizasyon satışları** raporu oluşturmak için, aşağıdaki adımları izleyin.
 
-1. **Perakende \> Sorgular ve raporlar \> Satış raporları \> Organizasyon satış raporu**'na tıklayın.
+1. **Retail and Commerce \> Sorgular ve raporlar \> Satış raporları \> Kuruluş satış raporu**'na gidin.
 1. **Başlangıç tarihi** alanına bir tarih girin.
 1. **Bitiş tarihi** alanına bir tarih girin.
 1. **Tamam**'ı seçin.

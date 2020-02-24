@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914853"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002694"
 ---
 # <a name="templates-and-layouts-overview"></a>Şablonlar ve düzenlere genel bakış
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Şablonlar, Microsoft Dynamics 365 Commerce sayfa modelinin yapısal bir öğesidir. Amacınız, site yazma iş akışlarının verimliliğini ve tutarlılığını en üst düzeye çıkarmaksa, Web sitenizin şablonlarının nasıl yararlanacağınızı öğrenmeniz çok önemlidir. Şablon yapısı hakkında erken kararlar önemli olduğunu ve günlük, dönemlik ve site genelindeki marka güncelleştirmeleri için maliyeti ve becerisi önemli şekilde etkileyebilir. İyi yapılandırılmış şablonların başka yararları da vardır. Örneğin, site genelinde arama motoru iyileştirme (SEO) puanlarını geliştirmeye ve hata sayılarını en aza indirmeye yardımcı olurlar.

@@ -17,30 +17,30 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 111bcaba971b6223f670176135574633d2f1c5ec
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914643"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001427"
 ---
 # <a name="add-languages-to-your-site"></a>Sitenize dil ekleme
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu, bir Microsoft Dynamics 365 Commerce sitesine ek diller için nasıl destek ekleneceğini açıklamaktadır.
 
 ## <a name="overview"></a>Genel Bakış
 
-Web sitenizi Dynamics 365 Commerce destekleyen herhangi bir dilde yerelleştirebilirsiniz. (Desteklenen dillerin listesi bu konunun ilerisinde görüntülenir.) Web sitenize bir dil eklemek için, bunu önce sitenize bağlı olan bir çevrimiçi mağazaya eklemeniz gerekir.
+Web sitenizi Commerce destekleyen herhangi bir dilde yerelleştirebilirsiniz. (Desteklenen dillerin listesi bu konunun ilerisinde görüntülenir.) Web sitenize bir dil eklemek için, bunu önce sitenize bağlı olan bir çevrimiçi mağazaya eklemeniz gerekir.
 
 ## <a name="add-a-language-to-an-online-store"></a>Çevrimiçi mağazaya dil ekle
 
 Çevrimiçi mağazaya bir dil eklemek için bu adımları izleyin.
 
-1. Sitenizin Dynamics 365 Retail ortamını açın.
-1. Ortamınız için yapılandırılmış olan çevrimiçi mağazaların listesine erişmek için **perakende \> satış kanalları \> çevrimiçi mağazalara** gidin. Alternatif olarak, **çevrimiçi mağazaları** arama terimi olarak da girebilirsiniz.
+1. Sitenizin Dynamics 365 Commerce ortamını açın.
+1. Ortamınız için yapılandırılmış olan çevrimiçi mağazaların listesine erişmek için **Retail ve Commerce \> satış kanalları \> çevrimiçi mağazalara** gidin. Alternatif olarak, **çevrimiçi mağazaları** arama terimi olarak da girebilirsiniz.
 1. Dil eklemek için çevrimiçi mağaza seçin.
 1. **Diller** hızlı sekmesinde **Ekle**'yi seçin.
 1. **Dil** alanında, eklenecek dili seçin.

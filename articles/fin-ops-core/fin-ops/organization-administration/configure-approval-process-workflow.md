@@ -3,7 +3,7 @@ title: İş akışında onay işlemlerini yapılandırma
 description: Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1f58e227542b1e5ca1235748d14e71bddac826ee
+ms.sourcegitcommit: 759325234a763e14071348a6f5399999a92f8264
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811393"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "2983776"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>İş akışında onay işlemlerini yapılandırma
 
@@ -138,11 +138,12 @@ Bir belge onaylandığında, reddedildiğinde, temsilci atandığında, ilerleti
 
 ## <a name="specify-a-final-approver"></a> Son onaylayıcıyı belirtme
 
-Onaylayanın belgeyi onay için gönderen kişi olduğu senaryolar için son onaylayan atayabilirsiniz. Son onaylayanı belirtmek için şu adımları izleyin.
+Onaylayanın, belgeyi onaya gönderen kişi olduğu ve "Gönderen onayına izin verme"nin kullanıldığı senaryolar için bir son onaylayan atayabilirsiniz. Son onaylayanı belirtmek için şu adımları izleyin.
 
-1. Sol bölmede **Gelişmiş ayarlar**'a tıklayın.
-2. **Son onaylayanı kullan** onay kutusunu seçin.
-3. Listede, son onaylayan olacak kullanıcıyı seçin.
+1. İş akışı düzenleyicisinde, onay öğesine sağ tıklayın ve ardından **Özellikler**'i seçerek **Özellikler** formunu açın.
+2. Sol bölmede **Gelişmiş ayarlar**'ı tıklatın.
+3. **Son onaylayanı kullan** onay kutusunu seçin.
+4. Listede, son onaylayan olacak kullanıcıyı seçin.
 
 ## <a name="set-a-time-limit"></a>Zaman limiti ayarlama
 

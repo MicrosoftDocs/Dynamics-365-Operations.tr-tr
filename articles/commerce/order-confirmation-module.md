@@ -1,9 +1,9 @@
 ---
-title: Sipariş onayı modülü
-description: Bu konu sipariş onaylama modüllerini ve bunların nasıl Microsoft Dynamics 365 Commerce'te oluşturacağını açıklamaktadır ve kapsamaktadır.
+title: Sipariş ayrıntıları modülü
+description: Bu konu sipariş ayrıntıları modüllerini ve bunların nasıl Microsoft Dynamics 365 Commerce'te oluşturacağını açıklamaktadır ve kapsamaktadır.
 author: anupamar
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,52 +17,54 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e339ce02bb646d0d9a68c22b24fde9b72071de6f
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: cb09a0b6ce1e48707f96021e9fad0006d9c1c55c
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698338"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026029"
 ---
-# <a name="order-confirmation-module"></a>Sipariş onayı modülü
+# <a name="order-details-module"></a>Sipariş ayrıntıları modülü
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Bu konu sipariş onaylama modüllerini ve bunların nasıl Microsoft Dynamics 365 Commerce'te oluşturacağını açıklamaktadır ve kapsamaktadır.
+Bu konu sipariş ayrıntıları modüllerini ve bunların nasıl Microsoft Dynamics 365 Commerce'te oluşturacağını açıklamaktadır ve kapsamaktadır.
 
 ## <a name="overview"></a>Genel Bakış
 
-Sipariş onay modülü sipariş onay sayfasında bir sipariş yerleştirildikten sonra onay iletisi göstermek için kullanılır. Sipariş teyidi modülü, teslim alma sırasında sağlanan sipariş onay numarasını ve müşteri e-posta adresini gösterir.
-
-Teslim alma sırasında bir sipariş verildiğinde, sipariş onay numarası ve müşteri e-posta adresi, sayfanın URL 'sinde sorgu dizesi olarak sipariş onayı sayfasına geçirilir. Sipariş onayı modülü bu bilgileri alır ve sipariş onayı sayfasında sipariş durumunu işler. Sipariş teyidi modülü siparişin durumunu sağlamak için bu sayfa bağlamını gerektiriyor.
+Bir sipariş yerleştirildikten sonra, onay ayrıntılarını göstermek için sipariş ayrıntıları modülü kullanılabilir. Sipariş onay kodunu, sipariş iletişim bilgilerini ve satın alınan maddeler, ödeme bilgileri ve sevkiyat yöntemi gibi diğer sipariş ayrıntılarını gösterir.
 
 ## <a name="order-confirmation-module-properties"></a>Sipariş onayı modülü özellikleri
 
-| Özellik adı | Değerler | Tanım |
-|---------------|--------|-------------|
-| Başlık       | Başlık metni ve başlık etiketi (**H1**, **H2**, **H3**, **H4**, **H5** veya **H6**) | Sipariş teyidi modülünün başlığı olabilir. Varsayılan olarak, başlık için **H2** başlık etiketi kullanılır. Ancak, bu etiket erişilebilirlik gereksinimlerini karşılayacak şekilde değiştirilebilir. |
+| Özellik adı  | Değerler | Tanım |
+|----------------|--------|-------------|
+| Başlık        | Başlık metni ve başlık etiketi (**H1**, **H2**, **H3**, **H4**, **H5** veya **H6**) | Sipariş teyidi modülünün başlığı olabilir. Varsayılan olarak, başlık için **H2** başlık etiketi kullanılır. Ancak, bu etiket erişilebilirlik gereksinimlerini karşılayacak şekilde değiştirilebilir. |
+| İlgili kişi numarası | Text | Siparişle ilgili sorular için bir ilgili kişi numarası sağlanabilir. |
 
-## <a name="modules-that-can-be-used-in-an-order-confirmation-page-module"></a>Sipariş onayı sayfası modülünde kullanılabilen modüller 
+## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Sipariş ayrıntıları sayfası modülünde kullanılabilen modüller
 
-- **Öneriler** – müşteriye diğer ürünleri önermek için, sipariş onayı sayfasına öneri modülü koyulamıyor.
-- **Pazarlama** – Pazarlama modülü, pazarlama içeriğini sipariş onayı sayfasına ekleyebilir.
+Sipariş Ayrıntıları sayfası oluşturduğunuzda, diğer ilgili modülleri de sipariş ayrıntıları modülünün yanı sıra ekleyebilirsiniz. Burada bazı örnekler verilmiştir:
 
-## <a name="create-an-order-confirmation-page-module"></a>Sipariş onayı sayfa modülü oluşturma
+- **Öneriler modülü** – Müşteriye diğer ürünleri önermek için, sipariş onayı sayfasına öneri modülü koyulamıyor.
+- **Pazarlama modülleri** – Pazarlama içeriğini göstermek için, sipariş ayrıntıları sayfasına herhangi bir pazarlama modülü eklenebilir.
 
-1. **Sipariş onayı şablonu** adlı bir sayfa şablonu oluşturun.
-1. Varsayılan sayfanın **ana** yuvasına bir sipariş onayı modülü ekleyin.
-1. Sipariş onayı modülünde bir öneri modülü ekleyin.
-1. Şablonu kaydet ve önizleyin. Sipariş onay numarasının bağlamını gerektirdiğinden, sipariş teyidi modülü işlenmemelidir.
-1. Şablonu giriş yapın ve yayımlayın.
-1. **Sipariş onayı sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz sipariş onayı şablonunu kullanın.
+## <a name="create-an-order-details-page-module"></a>Sipariş ayrıntıları sayfa modülü oluşturma
+
+1. **Sipariş ayrıntıları şablonu** adlı bir sayfa şablonu oluşturun.
+1. Varsayılan sayfanın **ana** yuvasına bir sipariş ayrıntıları modülü ekleyin.
+1. Sipariş ayrıntıları modülünde bir öneri modülü ekleyin.
+1. Şablonu kaydet ve önizleyin. Sipariş ayrıntıları numarasının bağlamını gerektirdiğinden, sipariş teyidi modülü işlenmemelidir.
+1. Şablon düzenlemeyi tamamlayın ve sonra yayımlayın.
+1. **Sipariş ayrıntıları sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz sipariş ayrıntıları şablonunu kullanın.
 1. Sayfa anahattına varsayılan sayfayı ekleyin.
 1. **Üstbilgi** yuvasında bir üstbilgi parçası ekleyin.
 1. **Altbilgi** yuvasında bir altbilgi parçası ekleyin.
-1. **Ana** yuvasına bir sipariş onayı modülü ekleyin.
-1. Sipariş onayı modülünün Özellik bölmesinde Başlık **Sipariş onayını** ekleyin.
-1. Sipariş onayı modülünün altında, bir öneri modülü ekleyin ve bunu **yeni** ve **en iyi satış** ayarlarını kullanacak şekilde konfigüre edin.
-1. Sayfayı önizleyin ve kaydedin, giriş yapın ve yayımlayın.
+1. **Ana** yuvasına bir sipariş ayrıntıları modülü ekleyin.
+1. Sipariş ayrıntıları modülünün Özellik bölmesinde Başlık **Sipariş ayrıntıları** ekleyin.
+1. Sipariş ayrıntıları modülünün altında, bir öneri modülü ekleyin ve bunu **yeni** ve **en iyi satış** ayarlarını kullanacak şekilde konfigüre edin.
+1. Sayfayı kaydet ve önizleyin.
+1. Sayfayı düzenlemeyi tamamlayın ve sonra yayımlayın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

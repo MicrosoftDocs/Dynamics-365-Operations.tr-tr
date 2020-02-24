@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 648b750b311f902555eba4536767788b64a1ea1e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 62047ef7bde137fbc4464a51d77a8a6efae94696
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184658"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026229"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.
 
@@ -47,7 +47,10 @@ Bu adımları tamamlamak için önce "yapılandırma sağlayıcı oluşturmak ve
     * Tamamlandı durumunda olan biçim sürümü, Proseware, Inc. özelleştirme için.  
 
 ## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a>Elektronik belgenin özel bir biçim için yeni bir konfigürasyonunu oluşturma
-    * Proseware, Inc. BACS (UK hayali) yapılandırmasının, hizmet aboneliklerine uygun olarak Litware, Inc.'den ödeme belgeleri oluşturmak için gerekli biçimi içeren, alınan sürüm 1.1. Proseware, Inc. kendi ülkesi için bunu bir standart olarak kullanmak istiyor fakat çeşitli bölgesel gereklilikleri desteklemek için bazı özelleştirmeler gereklidir. Proseware, Inc. ayrıca, özelleştirilmiş bir biçimden Litware Inc. tarafından (yeni ülke gereksinimlerini destekleyen) gelen yeni sürüme hızlı bir biçimde geçiş yapmak için yükseltme kabiliyetini de tutmak istiyor ve bu yükseltmeyi en düşük maliyetle gerçekleştirmek istiyor.  Bunu yapmak için Proseware, Inc'nin Litware, Inc. yapılandırması BACS'yi (Birleşik Krallık hayali) taban olarak kullanan bir yapılandırma oluşturması gerekir.  
+Proseware, Inc. BACS (UK hayali) yapılandırmasının, hizmet aboneliklerine uygun olarak Litware, Inc.'den ödeme belgeleri oluşturmak için gerekli biçimi içeren, alınan sürüm 1.1. Proseware, Inc. kendi ülkesi için bunu bir standart olarak kullanmak istiyor fakat çeşitli bölgesel gereklilikleri desteklemek için bazı özelleştirmeler gereklidir. Proseware, Inc. ayrıca, özelleştirilmiş bir biçimden Litware Inc. tarafından (yeni ülke gereksinimlerini destekleyen) gelen yeni sürüme hızlı bir biçimde geçiş yapmak için yükseltme kabiliyetini de tutmak istiyor ve bu yükseltmeyi en düşük maliyetle gerçekleştirmek istiyor.  
+
+Bunu yapmak için Proseware, Inc'nin Litware, Inc. yapılandırması BACS'yi (Birleşik Krallık hayali) taban olarak kullanan bir yapılandırma oluşturması gerekir.  
+
 1. Sayfayı kapatın.
 2. Etkin bir sağlayıcı yapmak için Proseware, Inc.'i seçin.
 3. Etkin olarak ayarla'ya tıklayın.
@@ -98,7 +101,7 @@ Bu adımları tamamlamak için önce "yapılandırma sağlayıcı oluşturmak ve
 2. Sayfayı kapatın.
 
 ## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a>Özel biçim yapılandırmasının geçerli sürümünün durumunu değiştirme
-    * Ödeme belgesi oluşturulmasında kullanılabilir duruma getirmek için tasarlanan biçim yapılandırmasının durumunu Taslak'tan Tamamlandı'ya değiştirin.  
+Ödeme belgesi oluşturulmasında kullanılabilir duruma getirmek için tasarlanan biçim yapılandırmasının durumunu Taslak'tan Tamamlandı'ya değiştirin.  
 1. Durumu değiştir öğesine tıklayın.
     * Seçili yapılandırmanın geçerli sürümünün Taslak durumunda olduğunu unutmayın.  
 2. Tamamla öğesine tıklayın.
@@ -108,11 +111,12 @@ Bu adımları tamamlamak için önce "yapılandırma sağlayıcı oluşturmak ve
     * Oluşturulan yapılandırmanın tamamlanmış sürüm 1.1.1 olarak kaydedildiğini unutmayın. Bu, BACS (Birleşik Krallık, hayali özel) biçiminin, Ödemeler (basitleştirilmiş model) veri modelinin 1. sürümüne dayalı olan BACS (Birleşik Krallık hayali) biçiminin 1. sürümüne dayalı olduğu anlamına gelmektedir.  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Ödeme dosyaları oluşturmak için özelleştirilmiş biçimi test et
-    * Paralel bir Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde BACS (UK hayali özel) biçimi seçin. Oluşturulan ödeme dosyasında son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN kodu sunma içerdiğinden emin olun.  
+Paralel Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde BACS (UK hayali özel) biçimi seçin. Oluşturulan ödeme dosyasında son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN kodu sunma içerdiğinden emin olun.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Ülkeye özgü varolan yapılandırmayı güncelleştirmek
-    * Litware, Inc. BACS (UK hayali) yapılandırmasını güncelleştirmek ve elektronik belge biçimini yönetmek için yeni ülke gereksinimleri benimsemesi gerekir. Daha sonra, bu yeni sürümünde Proseware, Inc. dahil olmak üzere hizmet aboneleri için sunulan bu yapılandırma içine alınacaktır.  
-    * Gerçek servis sağlama ile ilgili işlemlerde, her yeni BACS (UK hayali) sürümü Proseware, Inc. tarafından Litware, Inc.'nin yapılandırmalarının LCS havuzundan alınabilir. Bu yordamda biz bu servis sağlayıcı adına BACS (UK hayali) güncelleştirmenin benzetimini yapacağız.  
+Litware, Inc. BACS (UK hayali) yapılandırmasını güncelleştirmek ve elektronik belge biçimini yönetmek için yeni ülke gereksinimleri benimsemesi gerekir. Daha sonra, bu yeni sürümünde Proseware, Inc. dahil olmak üzere hizmet aboneleri için sunulan bu yapılandırma içine alınacaktır.  
+
+Gerçek servis sağlama ile ilgili işlemlerde, her yeni BACS (UK hayali) sürümü Proseware, Inc. tarafından Litware, Inc.'nin yapılandırmalarının LCS havuzundan alınabilir. Bu yordamda biz bu servis sağlayıcı adına BACS (UK hayali) güncelleştirmenin benzetimini yapacağız.  
 1. Sayfayı kapatın.
 2. Litware, inc. sağlayıcısı seçin.
 3. Etkin olarak ayarla'ya tıklayın.
@@ -122,9 +126,12 @@ Bu adımları tamamlamak için önce "yapılandırma sağlayıcı oluşturmak ve
     * Taslak sürümü Litware, Inc. şirketine aittir. sağlayıcı BACS (UK hayali), ülkeye özgü yeni gereksinimlerini desteklemek için değişiklikleri getirmek üzere seçilir.  
 
 ## <a name="localize-the-base-format-of-the-electronic-document"></a>Elektronik belge temel biçimini yerelleştirme.
-    * Ülkeye özel yeni gereksinimlerin Litware, Inc. tarafından destekleneceğini varsayalım:  - Her ödeme hareketi için alacaklı banka SWIFT kodu için bir değer.  - Oluşturma dosyasında satıcının adı için 100 karakter metin uzunluğu sınırı.  
-    * Yeni ülkeye özgü gereksinimler  
-    * Gerekli değişiklikleri tanıtmak için istenen yapılandırmanın taslak sürümünü seçin.  
+Ülkeye özel yeni gereksinimlerin Litware Inc. tarafından destekleneceğini varsayalım:  
+
+- Her ödeme hareketi için alacaklı banka SWIFT kodu için bir değer.  - Oluşturma dosyasında satıcının adı için 100 karakter metin uzunluğu sınırı.  
+- Yeni ülkeye özgü gereksinimler  
+- Gerekli değişiklikleri tanıtmak için istenen yapılandırmanın taslak sürümünü seçin.
+
 1. Tasarımcı'yı tıklatın.
 2. Genişlet/daralt'a tıklayın.
 3. Genişlet/daralt'a tıklayın.
@@ -155,7 +162,7 @@ Bu adımları tamamlamak için önce "yapılandırma sağlayıcı oluşturmak ve
 2. Sayfayı kapatın.
 
 ## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a>Temel biçim yapılandırmasının geçerli sürümünün durumunu değiştirin
-    * Güncelleştirilen temel biçim yapılandırmasının durumunu, ödeme belgeleri ve bundan türetilen biçim yapılandırmalarının oluşturulmasında kullanılabilmesi için, Taslak'tan Tamamlandı'ya değiştirin.  
+Güncelleştirilen temel biçim yapılandırmasının durumunu, ödeme belgeleri ve bundan türetilen biçim yapılandırmalarının oluşturulmasında kullanılabilmesi için, Taslak'tan Tamamlandı'ya değiştirin.  
 1. Durumu değiştir öğesine tıklayın.
     * Seçili yapılandırmanın geçerli sürümünün Taslak durumunda olduğunu unutmayın.  
 2. Tamamla öğesine tıklayın.
@@ -164,7 +171,10 @@ Bu adımları tamamlamak için önce "yapılandırma sağlayıcı oluşturmak ve
 5. Listede, istenen kaydı bulun ve seçin.
 
 ## <a name="change-the-base-version-for-the-custom-format-configuration"></a>Özel biçim yapılandırması için temel sürümü değiştir
-    * Proseware, Inc.'nin BACS (UK hayali) yapılandırmasının yeni sürümü 1.2'nin yakın zaman önce duyurulan ülkeye özgü gereksinimleri uygun elektronik ödeme belgeleri oluşturmak kullanılabilir olduğunu bilgisi verilir. Proseware, Inc. bu ülke için bir standart olarak bunu kullanmaya başlamak istiyor.  Proseware, Inc'nin bunu yapmak için temel yapılandırma sürümünü, BACS (UK hayali özel) özel yapılandırma sürümü için değiştirmesi gerekiyor. BACS (UK hayali) 1.1 sürümü yerine yeni sürüm 1.2 kullanın.  
+Proseware, Inc.'nin BACS (UK hayali) yapılandırmasının yeni sürümü 1.2'nin yakın zaman önce duyurulan ülkeye özgü gereksinimleri uygun elektronik ödeme belgeleri oluşturmak kullanılabilir olduğunu bilgisi verilir. Proseware, Inc. bu ülke için bir standart olarak bunu kullanmaya başlamak istiyor.  
+
+Proseware, Inc'nin bunu yapmak için temel yapılandırma sürümünü, BACS (UK hayali özel) özel yapılandırma sürümü için değiştirmesi gerekiyor. BACS (UK hayali) 1.1 sürümü yerine yeni sürüm 1.2 kullanın.  
+
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
 2. Etkin olarak işaretlemek için Proseware, Inc. sağlayıcısını seçin.
 3. Etkin olarak ayarla'ya tıklayın.
@@ -198,5 +208,5 @@ Bu adımları tamamlamak için önce "yapılandırma sağlayıcı oluşturmak ve
     * Oluşturulan yapılandırmanın tamamlanmış sürüm 1.2.2: taban BACS (UK hayali özel) biçiminin 2. sürümü, yani temel BACS (UK hayali) biçiminin 2. sürümüne dayalı, bu da Ödemeler (basitleştirilmiş model) veri modelinin 1. sürümüne dayalı olan sürüm olduğunu unutmayın.  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Ödeme dosyaları oluşturması için özelleştirilmiş biçimi test et
-    * Paralel bir Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde oluşturulan 'BACS (UK hayali özel)' biçimi seçin. Oluşturulan ödeme dosyasında Proseware, Inc. tarafından son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN hesap kodu sunma içerdiğinden emin olun. Dosya ayrıca Litware, Inc. tarafından yakın zaman önce sunulan XML düğün sunum SWIFT banka kodunu ülke gereksinimlerine göre içermelidir.  
+Paralel Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde oluşturulan 'BACS (UK hayali özel)' biçimi seçin. Oluşturulan ödeme dosyasında Proseware, Inc. tarafından son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN hesap kodu sunma içerdiğinden emin olun. Dosya ayrıca Litware, Inc. tarafından yakın zaman önce sunulan XML düğün sunum SWIFT banka kodunu ülke gereksinimlerine göre içermelidir.  
 

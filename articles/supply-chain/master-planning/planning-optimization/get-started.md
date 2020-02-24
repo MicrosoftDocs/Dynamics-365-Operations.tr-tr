@@ -3,7 +3,7 @@ title: Planlamayı En İyi Duruma Getirmeye başlayın
 description: Bu konuda, Planlamayı En İyi Duruma Getirme işlevini kullanmaya nasıl başlanacağı açıklanmaktadır.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/29/2019
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 37c2acb2397b2a0ad69272c0645bd200a8d7910d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774067"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971476"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
@@ -47,15 +47,17 @@ Planlamayı En İyi Duruma Getirme hizmetini kullanmak üzere Dynamics 365 Suppl
 
 1. LCS'de oturum açın ve istediğiniz ortamı açın.
 1. **Tüm ayrıntılar**'a gidin.
-1. **Bakım yap**'ı seçin veya **Ortam eklentileri** hızlı sekmesinde aşağı kaydırın.
+1. **Ortam eklentileri** hızlı sekmesinde aşağı kaydırın.
 1. **Yeni eklenti yükle**'yi seçin.
 1. **Planlamayı En İyi Duruma Getirme**'yi seçin.
 1. Yükleme kılavuzunu izleyin ve hüküm ve koşulları kabul edin.
 1. **Yükle**'yi seçin.
+1. **Ortam eklentileri** hızlı sekmesinde, Planlamayı En İyi Duruma Getirme'nin yüklendiğin görmeniz gerekir.
+1. Birkaç dakika sonra **Yükleme** durumunun değişip **Yüklendi**olarak değişecektir (sayfayı yenilemeniz gerekebilir). Yüklendiğinde, Planlamayı En İyi Duruma Getirme'yi Dynamics 365 Supply Chain Management'ta etkinleştirmeye hazırsınız demektir.
 
 ### <a name="planning-optimization-integration"></a>Planlamayı En İyi Duruma Getirme tümleştirmesi
 
-Planlamayı En İyi Duruma Getirme Eklentisi'nin master planlama için kullanılması gerekip gerekmediğini yapılandırmak üzere **Master planlama** \> **Ayar** \> **Planlamayı En İyi Duruma Getirme tümleştirmesi** \> **Tümleştirme parametreleri**'ne gidin.
+Planlamayı En İyi Duruma Getirme eklentisinin master planlama için kullanılması gerekip gerekmediğini yapılandırmak üzere **Master planlama** \> **Ayar** \> **Planlamayı En İyi Duruma Getirme parametreleri**'ne gidin.
 
 #### <a name="connection-status"></a>Bağlantı durumu
 

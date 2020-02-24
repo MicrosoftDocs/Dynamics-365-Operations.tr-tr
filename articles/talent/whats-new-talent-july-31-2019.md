@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 96937d48e0d1003adbc5f7fedc89b2686ace01cd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899047"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006299"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (30 Temmuz 2019)
 
@@ -41,7 +41,7 @@ Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2409 için geçer
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Kanada ve Güney Doğu Asya için bölge desteği
 
-1 Ağustos 2019 tarihinde Talent için Kanada ve Güneydoğu Asya bölgelerinin kullanılabileceğini duyurmaktan mutluyuz. Bu değişiklikle, Kanada ve Asya bölgelerinde ortam oluşturabilirsiniz ve tüm Talent verileri yalnızca bu konumlarda tutulur. Yeni Ortam iletişim kutusunda yer alan yeni bölgelerde bir ortam oluşturabilirsiniz ve bu ortamı, [Talent Sağlama](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent)'da açıklandığı gibi LCS'de Talent sağlamak için kullanabilirsiniz.
+1 Ağustos 2019 tarihinde Talent için Kanada ve Güneydoğu Asya bölgelerinin kullanılabileceğini duyurmaktan mutluyuz. Bu değişiklikle, Kanada ve Asya bölgelerinde ortam oluşturabilirsiniz ve tüm Talent verileri yalnızca bu konumlarda tutulur. Yeni Ortam iletişim kutusunda yer alan yeni bölgelerde bir ortam oluşturabilirsiniz ve bu ortamı, [Talent Sağlama](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent)'da açıklandığı gibi LCS'de Talent sağlamak için kullanabilirsiniz.
 
 Varolan projelerin diğer bölgelerden Kanada ve Asya bölgelerine veri taşınması desteklenmez. Yalnızca yeni projeler, bu yeni desteklenen bölgeler için sağlanabilir.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 8739bb1afdbea40c7f1c77064ee6b052516903d1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 1b59fdbdd9ed46f42afd3e7310d2cd3f076edd95
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898214"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006391"
 ---
 # <a name="get-the-onboard-app"></a>Onboard uygulamasını edinme
 
@@ -32,7 +32,7 @@ Bir tanıtım görüntüleyebilir ve Microsoft Dynamics 365 Talent: Onboard uygu
 > [!NOTE]
 > Ücretsiz deneme, iş e-posta hesabı gerektiriyor.
 
-Bir Onboard aboneliği, tek başına bir uygulama veya Dynamics 365 Talent parçası olarak eklemek için satın alabilirsiniz. Talent, Dynamics 365 Talent: Attract, Onboard ve Core HR içeren kapsamlı bir insan sermayesi yönetim (HCM) sistemidir. Onboard satın alma hakkında daha fazla bilgi için, [Onboard ürün sayfasına](https://dynamics.microsoft.com/talent/onboard/) bakın.
+Bir Onboard aboneliği, tek başına bir uygulama veya Dynamics 365 Talent parçası olarak eklemek için satın alabilirsiniz. Onboard satın alma hakkında daha fazla bilgi için, [Onboard ürün sayfasına](https://dynamics.microsoft.com/talent/onboard/) bakın.
 
 Deneme sürümü veya satın alma işlemi sırasında, Microsoft 365 e-posta adresinizi ve parolanızı ayarlayacaktır. Bu değerleri not aldığınızdan emin olun.
 

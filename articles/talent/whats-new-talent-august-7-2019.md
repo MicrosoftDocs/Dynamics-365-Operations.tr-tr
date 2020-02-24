@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 745a772ec12dff4e40639dbd7df0a713f5869516
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a01201ae4934f6650f85634a230469c6272b36b9
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897799"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006506"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-6-2019"></a>Dynamics 365 Talent'deki yenilikler veya değişiklikler (6 Ağustos 2019)
 
@@ -59,4 +59,4 @@ Yeni bir seçenek, yöneticilerin hem doğrudan raporların hem de genişletilmi
 
 ### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 29
 
-Finance and Operations için Platform güncelleştirmesi 29 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 Finance and Operations platform güncelleştirmesi 29'daki (Ekim 2019) önizleme özellikleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Finance and Operations için Platform güncelleştirmesi 29 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 Finance and Operations önizleme özellikle platform güncelleştirmesi 29 (Ekim 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

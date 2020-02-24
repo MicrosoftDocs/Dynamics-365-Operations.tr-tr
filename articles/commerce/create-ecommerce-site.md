@@ -1,9 +1,9 @@
 ---
 title: e-Ticaret sitesi oluşturma
-description: Bu konu, Dynamics 365 Commerce'de yeni bir e-ticaret sitesi oluşturmayla ilişkili görevleri açıklamaktadır.
+description: Bu konu, Dynamics 365 Commerce site oluşturucusunda yeni bir e-ticaret sitesi oluşturmak için gereken adımları ve bilgileri açıklamaktadır.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,29 +19,31 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945847"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002025"
 ---
 # <a name="create-an-e-commerce-site"></a>e-Ticaret sitesi oluşturma
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Bu konu, Dynamics 365 Commerce'de yeni bir e-ticaret sitesi oluşturmayla ilişkili görevleri açıklamaktadır.
+Bu konu, Dynamics 365 Commerce site oluşturucusunda yeni bir e-ticaret sitesi oluşturmak için gereken adımları ve bilgileri açıklamaktadır.
 
-## <a name="overview"></a>Genel Bakış
+E-ticaret sitenizi geliştirmeye başlamadan önce, site oluşturucuda yeni bir site oluşturmanız gerekir. 
 
-E-ticaret sitenizi geliştirmeye başlamak için, önce site geliştirme ortamında yeni bir site oluşturmanız gerekir. Yeni bir site oluşturabilmeniz için, Dynamics 365 Retail'de en az bir çevrimiçi mağazanın oluşturulması gereklidir. 
+
+E-ticaret sitenizi geliştirmeye başlamak için, önce site geliştirme ortamında yeni bir site oluşturmanız gerekir. Yeni bir site oluşturabilmeniz için, Commerce'te en az bir çevrimiçi mağazanın oluşturulması gereklidir. 
+
 
 ## <a name="set-up-your-site"></a>Sitenizi ayarlama
 
 Sitenizi kurmak için aşağıdakileri yapın.
 
-1. Microsoft Lifecycle Services (LCS) içinde, site yazma ortamı bağlantısını seçin. 
+1. Site oluşturucu ortamını açın. Microsoft Lifecycle Services'teki (LCS) site oluşturucuya bir bağlantıyı Commerce'in ortam özellikleri sayfasında bulabilirsiniz.
 1. Site geliştirme ortamının giriş sayfasında **Yeni site**'yi seçin.
 1. **Yeni site** iletişim kutusuna, aşağıdaki bilgileri girin.
 

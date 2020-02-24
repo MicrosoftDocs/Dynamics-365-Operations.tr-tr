@@ -1,9 +1,9 @@
 ---
-title: Hero modülü
-description: Bu konu hero modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+title: İçerik blok modülü
+description: Bu konu içerik blok modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,33 +18,47 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c43704992e9759e7207f1b1c9bc958449daa6d1d
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: f91de93ce5ed4813f9f2adbe7678229189b5af2f
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785410"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025770"
 ---
-# <a name="hero-module"></a>Hero modülü
+# <a name="content-block-module"></a>İçerik blok modülü
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Bu konu hero modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+Bu konu içerik blok modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
 ## <a name="overview"></a>Genel Bakış
 
-Hero modülü, ürünleri veya promosyonları bir görüntü ve metin birleşimiyle pazarlamak için kullanılır. Örneğin, bir satıcı yeni bir ürünü yükseltmek ve müşterilerin dikkatini çekmek için bir e-ticaret sitesinin giriş sayfasına Hero modülü ekleyebilir.
+Bir içerik bloku modülü, ürünleri veya promosyonları bir görüntü ve metin birleşimiyle pazarlamak için kullanılır. Örneğin, bir satıcı yeni bir ürünü yükseltmek ve müşterilerin dikkatini çekmek için bir e-ticaret sitesinin giriş sayfasına içerik bloku modülü ekleyebilir.
 
-Hero modülü içerik yönetimi sistemindeki (CMS) veriler tarafından yönlendiriliyor. Bunlar sayfadaki diğer modüllere bağımlı olmayan bağımsız modüllerdir. Bir Hero modülü, bir satıcıdan pazarlamak veya bir şeyi yükseltmek veya bir şeyin (örneğin, ürünler, Satışlar veya Özellikler) olmasını istediği herhangi bir site sayfasına yerleştirilebilir.
+İçerik bloku modülü içerik yönetimi sistemindeki (CMS) veriler tarafından yönlendiriliyor. Bunlar sayfadaki diğer modüllere bağımlı olmayan bağımsız modüllerdir. Bir içerik bloku modülü, bir satıcıdan pazarlamak veya bir şeyi yükseltmek veya bir şeyin (örneğin, ürünler, Satışlar veya Özellikler) olmasını istediği herhangi bir site sayfasına yerleştirilebilir.
 
-## <a name="examples-of-hero-module-in-e-commerce"></a>E-ticarette Hero modülleri örnekleri
+## <a name="examples-of-content-block-module-in-e-commerce"></a>E-ticarette içerik bloku modülü örnekleri
 
-- Bir Hero modülü, promosyonlar ve yeni ürünleri vurgulamak için e-ticaret sitesinin giriş sayfasında kullanılabilir.
-- Hero modülü ürün bilgilerini sergilebilecek bir ürün ayrıntıları sayfasında kullanılabilir.
-- Çoklu ürünleri veya promosyonları vurgulamak için bir döngü modülü birden fazla Hero modül içinde yer alabilir.
+- Bir içerik bloku modülü, promosyonlar ve yeni ürünleri vurgulamak için e-ticaret sitesinin giriş sayfasında kullanılabilir.
+- Bir içerik bloku modülü ürün bilgilerini sergilebilecek bir ürün ayrıntıları sayfasında kullanılabilir.
+- Çoklu ürünleri veya promosyonları vurgulamak için bir döngü modülü birden fazla içerik bloku modül içinde yer alabilir.
 
-## <a name="hero-module-properties"></a>Hero modülü özellikleri
+## <a name="content-block-modules-and-themes"></a>İçerik bloğu modülleri ve temaları
+
+İçerik bloğu modülleri, bir temaya dayalı olarak çeşitli düzen ve stilleri destekleyebilir. Örneğin, Fabrikam teması bir içerik bloğu modülünün üç düzen çeşitlemelerini destekler: Hero, özellik ve döşeme. Hero düzeni arka planda metin kaplaması olan bir resim gösterir. Özellik mizanpajı bir resmi ve bir metni yan yana gösterir. Kutucuk düzeni, kutucuk biçiminde birden çok içerik bloklarına izin verir.
+
+Ek olarak, tema her düzen için farklı özellikler sergileyebilir. Bir tema geliştiricisi, içerik bloğu modülünü kullanarak daha fazla stil ile daha fazla düzen oluşturabilir.
+
+Aşağıdaki resimde, Hero düzenine sahip bir içerik bloğu modülü örneği gösterilmektedir.
+
+![Hero modülü örneği](./media/Hero.PNG)
+
+Aşağıdaki resimde, özellik düzenine sahip bir içerik bloğu modülü örneği gösterilmektedir.
+
+![Özellik modülleri örnekleri](./media/Feature.PNG)
+
+## <a name="content-block-module-properties"></a>İçerik blok modülü özellikleri
 
 | Özellik adı  | Değerler | Tanım |
 |----------------|--------|-------------|
@@ -52,27 +66,33 @@ Hero modülü içerik yönetimi sistemindeki (CMS) veriler tarafından yönlendi
 | Başlık        | Başlık metni ve başlık etiketi (**H1**, **H2**, **H3**, **H4**, **H5** veya **H6**) | Tüm Hero modülü bir başlığa sahip olabilir. Varsayılan olarak, başlık için **H2** başlık etiketi kullanılır. Ancak, bu etiket erişilebilirlik gereksinimlerini karşılayacak şekilde değiştirilebilir. |
 | Paragraf      | Paragraf metni | Hero modülleri zengin metin biçimindeki paragraf metnini destekler. Kalın, altı çizili, italik metin ve köprüler gibi bazı temel zengin metin özellikleri desteklenir. Bu yeteneklerden bazıları, modüle uygulanan sayfa teması tarafından geçersiz kılınabilir. |
 | Bağla           | Bağlantı metni, bağlantı URL'si, erişilebilir zengin internet uygulamaları (ARIA) etiketi ve **bağlantıyı yeni sekmede aç** | Hero modülü bir veya daha fazla "eyleme çağrı" bağlantıları destekler. Bir bağlantı eklenirse, bağlantı metni, bir URL ve bir ARIA etiketi gereklidir. ARIA etiketleri erişilebilirlik gereksinimlerini karşılayacak şekilde açıklayıcı olmalıdır. Bağlantılar yeni bir sekmede açılacak şekilde konfigüre edilebilir. |
-| Metin yerleştirme | **Üst sola**, **üst sağa**, **üst orta**, **alt sola**, **alt sağa**, **alt orta**, **orta sola**, **Merkez sağa** veya **Merkez Merkezi** | Bu özellik resmin metne göre konumunu tanımlar. Örneğin, **Sağ** seçilirse görüntü metnin sağında görüntülenir. |
-| Metin teması     | **Açık** veya **Koyu** | Arka plan resmine dayalı olarak metin için bir renk düzeni tanımlanabilir. Örneğin, görüntüde koyu renkli bir arka plan varsa, metin görünür hale getirmek ve erişilebilirlik amacıyla renk karşıtlığı oranlarını karşılamak için açık bir tema uygulanabilir. |
-| Gradyan       | **Doğru** veya **yanlış** | Bir gradyan, erişilebilirlik amacıyla renk karşıtlığı oranlarını karşılamak üzere görüntüye uygulanabilir. |
 
-## <a name="add-a-hero-module-to-a-new-page"></a>Yeni sayfaya Hero modülü ekleme
+## <a name="content-block-module-properties-exposed-by-the-fabrikam-theme"></a>Fabrikam teması tarafından gösterilen içerik bloğu modülü özellikleri 
+
+| Özellik adı  | Değerler | Tanım |
+|----------------|--------|-------------|
+| Metin yerleştirme | **Sol**, **Sağ**, **Orta** | Bu özellik, resmin üzerinde metnin konumunu belirler. Yalnızca hero düzenine uygulanır. |
+| Metin teması     | **Açık** veya **Koyu** | Arka plan resmine dayalı olarak metin için bir renk düzeni tanımlanabilir. Örneğin, görüntüde koyu renkli bir arka plan varsa, metin görünür hale getirmek ve erişilebilirlik amacıyla renk karşıtlığı oranlarını karşılamak için açık bir tema uygulanabilir. Yalnızca hero düzenine uygulanır.|
+| Görüntü yerleştirme       | **Sol**,  **Sağ** | Bu özellik, resmin metnin solunda mı yoksa sağda mı olması gerektiğini belirtir. Yalnızca özellik düzenine uygulanır.  |
+
+## <a name="add-a-content-block-module-to-a-new-page"></a>Yeni bir sayfaya içerik blok modülü ekleme
 
 Bir yeni sayfaya Hero modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Şablonlara** gidin ve **Hero şablonu** adlı bir sayfa şablonu oluşturun.
+1. **Şablonlara** gidin ve **içerik bloku şablonu** adlı bir sayfa şablonu oluşturun.
 1. Varsayılan sayfanın **ana** yuvasına bir Hero modülü ekleyin.
 1. Şablonu giriş yapın ve yayımlayın.
-1. **Hero sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz hero şablonunu kullanın.
+1. **İçerik bloku sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz hero şablonunu kullanın.
 1. Varsayılan sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
 1. **Modül Ekle** iletişim kutusunda **modüller'i seçin**, Hero modülünü seçin ve **Tamam**'ı seçin.
-1. Soldaki anahat ağacında, Hero modülünü seçin.
+1. Soldaki anahat ağacında, içerik bloku modülünü seçin.
 1. Sağdaki özellikler bölmesinde, **Resim Ekle**'yi seçin. Sonra da varolan bir görüntüyü seçin veya yeni bir görüntü yükleyin.
 1. **Başlık** öğesini seçin.
 1. **Başlık** iletişim kutusunda başlık metnini ekleyin, başlık düzeyini seçin ve **Tamam**'ı seçin.
 1. **Zengin metin**altında, istediğiniz metni ekleyin.
-1. **Eylem bağlantısı ekle**'yi seçin.
-1. **Eylem bağlantısı** iletişim kutusunda bağlantı metni, bağlantı URL 'si ve bağlantı için bir Aria etiketi ekleyin ve **Tamam**'ı seçin.
+1. **Bağlantı Ekle**'yi seç.
+1. **Bağlantı** iletişim kutusunda bağlantı metni, bağlantı URL 'si ve bağlantı için bir Aria etiketi ekleyin ve **Tamam**'ı seçin.
+1. **Hero** düzenini seçin.
 1. Sayfayı kaydedin ve değişikliklerinizi önizleyin.
 1. Sayfayı giriş yapın ve yayımlayın.
 
@@ -80,14 +100,10 @@ Bir yeni sayfaya Hero modülü eklemek ve gerekli özellikleri ayarlamak için a
 
 [Başlangıç paketine genel bakış](starter-kit-overview.md)
 
-[Uyarı modülü](add-alert.md)
+[Promosyon başlık modülü](add-alert.md)
 
 [Döngü modülü](add-carousel.md)
 
-[İçerik zengin blok modülü](add-content-rich-block.md)
-
-[İçerik yerleştirme modülü](add-content-placement-modules.md)
-
-[Özellik modülü](add-feature-module.md)
+[Metin bloku modülü](add-content-rich-block.md)
 
 [Video oynatıcı modülü](add-video-player.md)

@@ -3,7 +3,7 @@ title: İş şablonları ve konum yönergeleri ile ambar işini denetleyin
 description: Bu konuda ambar içinde işin nasıl ve nerede gerçekleştirileceğini belirlemek için iş şablonları ve konum yönergelerinin nasıl kullanılacağı açıklanmaktadır.
 author: perlynne
 manager: AnnBe
-ms.date: 09/21/2018
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4645cf36201aa1b87c22ba4dbfb1b8d8117f425a
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2027002"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3028040"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>İş şablonları ve konum yönergeleri ile ambar işini denetleyin
 
@@ -152,7 +152,7 @@ Etkin toplu iş öğeleri için toplu iş stratejileri kullanmak için seçin. B
 ### <a name="strategy"></a>Strateji
 
 -   **Birleştir** - Bu strateji, benzer öğeleri kullanılabilir olduğunda öğeleri belirli bir konumda birleştirmek için kullanılır. Bu yalnızca yerleştirme türü konum yönergelerinde çalışır. Yerleştirme için yaygın bir kurulum, ilk eylem satırında birleştirmek ve sonra ikinci denemede birleştirme olmadan yerleştirmek olacaktır. Ürünleri birleştirmek, sonraki çekmeleri daha verimli hale getirir.
--   **Ambalaj miktarını eşleştir** - Bu strateji çekme konumunun belirtilen ambalaj miktarına sahip olup olmadığını doğrulamakta kullanılır. Bu yalnızca tür Çekme türündeki konum yönergeleriyle çalışacaktır. 
+-   **Ambalaj miktarını eşleştir**- Bu strateji, gerekli miktarı tam olarak içeren bir plakası olan bir yerleşim bulacaktır. Plaka denetimli olmayan yerleşimlerle kullanılamaz. Bu strateji yalnızca bir Çekme işi türündeki yerleşim yönergesinde çalışır.
 -   **FEFO toplu iş rezervasyonu** - Bu strateji stok toplu iş bitiş tarihi kullanarak konumlandırıldığında ve toplu iş rezervasyonu için tahsis edildiğinde kullanılır. Bu stratejiyi yalnızca toplu iş etkinleştirilmiş maddelerde kullanabilirsiniz. Bu yalnızca bir Çekme işi türündeki konum yönergesinde çalışacaktır. 
 -   **Tam LP'ye yuvarla** - Bu strateji stok miktarını çekilecek maddelere atanan plaka (LP) miktarıyla eşleşecek şekilde yuvarlamak için kullanılır, bu strateji yalnızca stok yenileme için kullanılabilir. Bu stratejiyi yalnızca stok yenileme türündeki konum yönergesi çekme türünde kullanabilirsiniz. 
 -   **Gelen iş olmadan boş konum**- Bu strateji boş konumları bulmak için kullanılır. Fiziksel stoğu yoksa ve gelen iş beklenmiyorsa konum boş olarak değerlendirilir. Bu strateji yalnızca yerleştirme türü yerleşim yönerge için kullanılır. 

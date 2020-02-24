@@ -1,9 +1,9 @@
 ---
 title: Genel adres defteri ve diğer adres defterleri için planlama
 description: Bu konuda, genel adres defteri ve diğer ek adres defterlerini kurup yapılandırmadan önce planlama sürecinde değerlendirmeniz gereken noktalar ve almanız gereken kararlar açıklanmaktadır.
-author: ShivamPandey-msft
+author: msftbrking
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 01/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 23341
 ms.assetid: a41cd8de-9ee0-4275-aea5-131db5326e5b
 ms.search.region: Global
-ms.author: shpandey
+ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
-ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.openlocfilehash: aeed503500abf4f4b7ccf166f589d09bba306689
+ms.sourcegitcommit: 7a855deed9f95ca2589f38db214890464b2b9061
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883423"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "2951221"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Genel adres defteri ve diğer adres defterleri için planlama
 

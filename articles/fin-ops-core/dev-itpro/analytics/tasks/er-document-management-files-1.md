@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 29c13e729223a98d7f45244c5a796bca6e3baaf3
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550845"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026146"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 1 - Veri modelini hazırlama)
 
@@ -61,7 +61,7 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 11. Ağaçta, "Müşteri fatura modeli" seçeneğini işaretleyin.
 
 ## <a name="create-the-derived-model-to-support-access-to-the-document-management-files"></a>Belge Yönetimi dosyalarına erişimi desteklemek için türetilmiş model oluşturun.
-    * Müşteri fatura modelinin kendinize özel yapılandırmasını Microsoft tarafından sağlanan yapılandırmadan türeterek yapılandırırsınız. Belge Yönetimi dosyalarına erişmek ve bu modeli temel alarak oluşturacağınız elektronik belgeler için kullanılabilir duruma getirmek için bu yapılandırmayı kullanırsınız.  
+Müşteri fatura modelinin kendinize özel yapılandırmasını Microsoft tarafından sağlanan yapılandırmadan türeterek yapılandırırsınız. Belge Yönetimi dosyalarına erişmek ve bu modeli temel alarak oluşturacağınız elektronik belgeler için kullanılabilir duruma getirmek için bu yapılandırmayı kullanırsınız.  
 1. İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.
 2. Yeni alana "İsimden Türet: Müşteri fatura modeli, Microsoft" yazın.
 3. Ad alanına "Müşteri fatura modeli (özel)" yazın.

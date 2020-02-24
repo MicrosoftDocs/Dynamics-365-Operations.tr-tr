@@ -3,7 +3,7 @@ title: Hesap yönetimi sayfaları ve modülleri
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarını ve modüllerini kapsamaktadır.
 author: v-chgri
 manager: annbe
-ms.date: 12/02/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
-ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
+ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2885821"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025739"
 ---
 # <a name="account-management-pages-and-modules"></a>Hesap yönetimi sayfaları ve modülleri
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarını ve modüllerini kapsamaktadır.
@@ -40,13 +40,12 @@ Hesap yönetimi, Dynamics 365 Commerce'teki Kullanıcı hesabı ile ilgili bilgi
 
 Hesap yönetimi giriş sayfası aşağıdaki modülleri kullanır:
 
-- **İçerik yerleşimi** – bu modül hesap yönetimi giriş sayfasındaki tüm modülleri tutan bir konteyner modülüdür.
-- **Hesap karşılama öğesi** – bu modül, hesap yönetimi sayfasında hoş geldiniz iletisi sağlamak için kullanılır. Başlık ve döşeme boyutu özelliklerini içerir. **Döşeme boyutu** özelliği, içerik yerleştirme modülündeki modülün genişliğini tanımlar. Değerler **1** ile **12**arasında değişir (burada **12**, içerik yerleşimi konteynerin tam genişliğini gösterir).
-- **Hesap düzeni yerleşim maddesi** – bu modül, Kullanıcı hesabı tarafından verilen sipariş sayısının özetini sağlamak için kullanılır. Başlık, döşeme boyutu ve "ayrıntıları göster" bağlantısı özelliklerini içerir. "Ayrıntıları görüntüle" bağlantısı sipariş geçmişi sayfasına yeniden yönlendirilecek şekilde konfigüre edilmelidir.
-- **Hesap profili yerleştirme öğesi** – bu modül, Kullanıcı profilinin özetini sağlamak için kullanılır. Başlık, döşeme boyutu ve "ayrıntıları göster" bağlantısı özelliklerini içerir. "Ayrıntıları görüntüle" bağlantısı kullanıcı profili sayfasına yeniden yönlendirilecek şekilde konfigüre edilmelidir.
-- **Hesap istek listesi maddesi** – bu modül, müşterinin istek listesindeki maddelerin özetini sağlamak için kullanılır. Örneğin, "İstek listenizde 10 öğe var" olabilir. Başlık, döşeme boyutu ve "ayrıntıları göster" bağlantısı özelliklerini içerir. "Ayrıntıları görüntüle" bağlantısı istek listesi sayfasına yeniden yönlendirilecek şekilde konfigüre edilmelidir.
-- **Hesap adresi öğesi** – bu modül, Kullanıcı adreslerinin özetini sağlamak için kullanılır. Örneğin, "Hesabınıza 2 adres eklendi" durumu olabilir. Başlık, döşeme boyutu ve "ayrıntıları göster" bağlantısı özelliklerini içerir. "Ayrıntıları görüntüle" bağlantısı kullanıcı adresi sayfasına yeniden yönlendirilecek şekilde konfigüre edilmelidir.
-- **Hesap bağlılık maddesi** – Bu modül, bağlılık programı bilgilerini göstermek ve bağlamak için kullanılır. Başlık, döşeme boyutu, "ayrıntıları göster" ve "üye ol" bağlantısı özelliklerini içerir. "Ayrıntıları görüntüle" bağlantısı bağlılık sayfasına yeniden yönlendirilecek şekilde konfigüre edilmelidir. "Üye olun" bağlantısı, kullanıcıların bağlılık programına katılabilecek bir sayfaya yeniden yönlendirilecek şekilde konfigüre edilmelidir.
+- **Konteyner** - Tüm hesap yönetimi giriş sayfası modülleri bir kapsayıcı içinde yer almalıdır. 
+- **Hesap karşılama kutucuğu** – bu modül, hesap yönetimi sayfasında hoş geldiniz iletisi sağlamak için kullanılır. Başlığa ilişkin özellikleri içerir.
+- **Hesap genel kutucuğu** -bu modül, "Sipariş geçmişi" veya "Profilim" sayfaları gibi hesap yönetimi sayfalarına başlık ve bağlantı sağlamak için kullanılabilir. Genel döşeme modülü herhangi bir sayfa için bir kutucuğu yapılandırmak amacıyla kullanılabilir. Fabrikam'da, bu modül hesap yönetimi giriş sayfasındaki "Sipariş geçmişi" ve "Profilim" sayfa bağlantıları için kullanılır.
+- **Hesap istek listesi kutucuğu** – bu modül, müşterinin istek listesindeki maddelerin özetini sağlamak için kullanılır. Örneğin, "İstek listenizde 10 öğe var" olabilir. Başlık, başlık için özellikleri ve "Ayrıntıları görüntüle" bağlantısı özelliklerini içerir. "Ayrıntıları Görüntüle" bağlantısı istek listesi sayfasına yeniden yönlendirilecek şekilde yapılandırılmalıdır. 
+- **Hesap adresi kutucuğu** – bu modül, Kullanıcı adreslerinin özetini sağlamak için kullanılır. Örneğin, "Hesabınıza 2 adres eklendi" durumu olabilir. Başlık, başlık için özellikleri ve "Ayrıntıları görüntüle" bağlantısı özelliklerini içerir. "Ayrıntıları Görüntüle" bağlantısı kullanıcı adresi sayfasına yeniden yönlendirilecek şekilde konfigüre edilmelidir.
+- **Hesap bağlılık kutucuğu** – Bu modül, bağlılık programı bilgilerini görüntülemek ve bağlamak için kullanılır. Bu kutucuğun iki durumu vardır: bir durum, bir üye değilse, bağlılık programına katılma bağlantılarını gösterir. Diğer durum, kullanıcının zaten üye olduğunda bağlılık programı ayrıntıları sayfasını görüntülemek için bağlantıları gösterir. Özellikler başlığı, "Kaydol" bağlantısı ve "Bağlılık programını görüntüle" bağlantısını içerir. "Bağlılık programını görüntüle" bağlantısı bağlılık sayfasına yeniden yönlendirilecek şekilde yapılandırılmalıdır. "Üye olun" bağlantısı, kullanıcıların bağlılık programına katılabilecek bir sayfaya yeniden yönlendirilecek şekilde yapılandırılmalıdır. 
 
 ### <a name="order-history-page"></a>Sipariş geçmişi sayfası
 
@@ -58,7 +57,7 @@ Sipariş Ayrıntıları sayfası her sipariş için ayrıntılı bilgi sağlar v
 
 ### <a name="user-profile-page"></a>Kullanıcı profil sayfası
 
-Kullanıcı profili sayfası kullanıcının adı ve e-posta adresi gibi kullanıcı hesabı ayrıntılarını gösterir. Kullanıcı profili modülünü kullanır. Ancak e-posta adresi kaldırılamaz, düzenlenebilir. Kullanıcı profili sayfası, kullanıcının öneri listelerinin kişiselleştirmesi gibi belirli özellikleri kabul etmesini veya devre dışı olmasını etkinleştiren Kullanıcı tercihlerini de gösterir. 
+Kullanıcı profili sayfası kullanıcının adı ve e-posta adresi gibi kullanıcı hesabı ayrıntılarını gösterir. Kullanıcı profili ayrıntılarını ve Kullanıcı profili düzenleme modüllerini kullanır. Ancak e-posta adresi kaldırılamaz, düzenlenebilir. Kullanıcı profili sayfası, kullanıcının öneri listelerinin kişiselleştirmesi gibi belirli özellikleri kabul etmesini veya devre dışı olmasını etkinleştiren Kullanıcı tercihlerini de gösterir. 
 
 ### <a name="user-address-page"></a>Kullanıcı adresi sayfası
 
@@ -70,7 +69,9 @@ Kullanıcı adresi sayfası, kullanıcı hesabıyla ilişkili adreslerin listesi
 
 ### <a name="loyalty-page"></a>Bağlılık programı sayfası
 
-Bağlılık programı, müşterilerinin bir bağlılık programına katılmasına veya zaten bağlılık programı üyesi olduklarında Program ayrıntılarını görüntülemesine olanak tanır. Ayrıca, son hareketlerde kazanılan ve bunlar tarafından kullanılan puanları de görüntüleyebilirler.
+Bağlılık programı sayfası müşterilerin, eğer halihazırda üyelerse, bağlılık programı ayrıntılarını görmelerini sağlar. Ayrıca, son hareketlerde kazanılan ve bunlar tarafından kullanılan puanları de görüntüleyebilirler. Sayfa bağlılık programı ayrıntılarını gösterimi için bağlılık programı Ayrıntılar modülünü kullanır. 
+
+Bağlılık programı programına katılmak için, bağlılık programı kayıt ve bağlılık programı şartları modülleriyle bir pazarlama sayfası oluşturulabilir. Kullanıcı bir bağlılık programı üyesi değilse, bu modüller kullanıcının kaydolmasını sağlayacaktır.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

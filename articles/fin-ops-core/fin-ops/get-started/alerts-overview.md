@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: a42e836c0b72798de3375c169e45b121debd55ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 12fadd8387054db3e19d4136555724c23548e05c
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191282"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031031"
 ---
 # <a name="alerts-overview"></a>Uyarılara genel bakış
 
@@ -82,14 +82,14 @@ Uyarılardan e-posta bildirimleri henüz etkinleştirilmedi. Gelecekteki bir gü
 
 ### <a name="how-to-use-alerts-to-monitor-filtered-data"></a>Filtrelenmiş verileri izlemek için uyarıları kullanma
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3DWZ3]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
 [Filtrelenmiş verileri izlemek için uyarıları kullanma](https://youtu.be/ZYKMcv6kl9s) videosu (yukarıda gösterilir) YouTube'daki [Finance and Operations oynatma listesine](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) eklenmiştir.
 
 ### <a name="alert-rule-options"></a>Uyarı kuralı seçenekleri
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E4PV]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-[Uyarı kuralı seçenekleri](https://youtu.be/cpzimwOjicM) videosu (yukarıda gösterilen), YouTube'da bulunan [Finance and Operations oynatma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) bulunmaktadır.
+[Uyarı kuralı seçenekleri](https://youtu.be/cpzimwOjicM) videosu (yukarıda gösterilen), YouTube'da bulunan [Finance and Operations oynatma listesinde bulunmaktadır](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW).
 
 

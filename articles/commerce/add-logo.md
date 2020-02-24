@@ -3,7 +3,7 @@ title: Logo ekleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te sitenize logo ekleme yöntemi açıklanmıştır.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23bac9aae6beb59912bbc9e1f2c6958c007550b0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914639"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025737"
 ---
 # <a name="add-a-logo"></a>Logo ekleme
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'te sitenize logo ekleme yöntemi açıklanmıştır.
@@ -43,7 +43,7 @@ Bir logoyu doğrudan bir şablon, düzen veya sayfaya ekleyebilirsiniz. Bu şeki
 
 Sitenizin tüm sayfalarına logo ekleyebilmeniz için önce bu görevleri tamamlamanız gerekir.
 
-1. Ambleminizi, **varlıklar** sayfasından erişebileceğiniz dijital varlıklar yöneticisine yükleyin.
+1. Logonuzu ortam kitaplığı 'na yükleyin.
 1. Başlık parçası oluşturun. Parçaların nasıl oluşturulacağı ve kullanılacağı hakkında daha fazla bilgi için bkz. [Parçalarla çalışma](work-with-fragments.md).
 1. Başlık parçasının, mizanpaj ve modül seçenekleri için sitenizin sayfalarının kullandığı şablona dahil edin. Şablonlar hakkında daha fazla bilgi için, bkz. [Şablonlarla çalışma](work-with-templates.md).
 
@@ -51,13 +51,11 @@ Sitenizin tüm sayfalarına logo ekleyebilmeniz için önce bu görevleri tamaml
 
 Sitenizin üstbilgi parçasına logo eklemek için aşağıdaki adımları izleyin.
 
-1. Soldaki gezinti bölmesinde, **Parçalar**'ı seçin ve sonra oluşturduğunuz başlık parçasını seçin.
-2. **Ödeme yap** seçin.
-3. **Üstbilgi** yuvasını ve **amblem** yuvasını genişletin.
-4. **Logo** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül ekle**'yi seçin.
-5. Logo modülünü seçin.
-6. Daha sonra sağdaki Özellikler bölmesinde, logo modülünü logonuzu gösterecek şekilde yapılandırın.
-7. Üstbilgi parçasını kaydedin, giriş yapın ve yayımlayın.
+1. Soldaki gezinti bölmesinde **Sayfa Parçaları**'nı seçin.
+1. Oluşturduğunuz başlığı seçin ve sonra **Düzenle**'yi seçin.
+1. Üstbilgi modülünü genişletin.
+1. Üstbilgi modülünün Özellik bölmesinde logo için bir resim ve bağlantı sağlayın. 
+1. Başlık parçasını kaydedin, düzenlemeyi bitirin ve yayımlayın.
 
 Güncelleştirilmiş başlık parçasını yayımladıktan sonra, başlık parçasını içeren şablonu kullanan tüm site sayfaları logonuzu gösterecektir.
 

@@ -3,7 +3,7 @@ title: Satıcı hesaplarını ayarlama
 description: Bu konu, yeni bir satıcı hesabı oluşturduğunuzda girmeniz gereken bilgilerin türünü açıklar.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 63843381207fbe6cb72ac1b5533eda754b1ba55b
+ms.sourcegitcommit: 5457cbec3399d8ed9f87c3a9dc586173b5616c11
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249414"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3012457"
 ---
 # <a name="set-up-vendor-accounts"></a>Satıcı hesaplarını ayarlama
 
@@ -88,7 +88,7 @@ Bir satıcı hesabı ayarladığınızda, bu satıcı ile sahip olduğunuz anla�
 -   **Fatura** – Satıcı için hiçbir fatura deftere nakledilemez.
 -   **Tümü** – Satıcı tüm hareket türleri için beklemeye alınmıştır. Bu hareket türleri satınalma taleplerini, faturaları ve ödemeleri içermektedir.
 -   **Ödeme** – Satıcı için hiçbir ödeme oluşturulamaz.
--   **Talep** – Sadece satınalma talepleri oluşturulabilir. Başka hiçbir hareket oluşturulamaz.
+-   **Talep** – satıcı için satın alma talepleri oluşturulamaz ve satıcı tutuluyor olarak ayarlanmadan önce oluşturulmuş olan talep satırları bir satınalma siparişine dönüştürülemez. İlkeniz satın alma siparişlerini otomatik olarak oluşturmak üzere ayarlandıysa, satıcıya ait talep satırları iptal edilecek.
 -   **Hiçbir zaman** – Satıcı etkin olmadığı için asla beklemeye alınmaz.
 
 Bir satıcıyı beklemeye aldığınızda, bir sebep, tarih ve beklemeye alma durumunun biteceği bir tarih de belirleyebilirsiniz. Bir bitiş tarihi girmezseniz, satıcının beklemede olma durumu sonsuza kadar sürer.

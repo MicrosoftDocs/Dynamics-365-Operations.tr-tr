@@ -3,7 +3,7 @@ title: Sayfalarına ürün önerileri listesi ekleme
 description: Bu konu, bir e-ticaret sayfasına nasıl ürün önerisi listesi ekleneceğini açıklamaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 01/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,26 +19,26 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4f2b1e9768b34d341adb3c11e475daa7a1d1882f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5c71c1cf91b1913f44546f40620aff358cf256b2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770517"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001312"
 ---
-# <a name="add-product-recommendation-lists-to-e-commerce-pages"></a>e-Ticaret sayfalarına ürün önerileri listesi ekleme
+# <a name="add-recommendation-lists-to-a-site"></a>Bir siteye öneri listeleri ekle
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu, bir e-ticaret sayfasına nasıl ürün önerisi listesi ekleneceğini açıklamaktadır.
 
-1. Varolan bir e-ticaret geliştirme sayfasından **Modül ekle**'yi seçin.
+1. Varolan bir e-ticaret site oluşturma sayfasından **Modül ekle**'yi seçin.
 2. **Ürün toplama** modülünü arayın.
 3. Modül Sihirbazında sayfaya eklenecek listeyi seçin.
 4. Değişikliklerinizi kaydedin.
 
-Sayfaya ekleyebileceğiniz liste türleri hakkında daha fazla bilgi için, [Ürün önerilerine genel bakış](product-recommendations.md) konusuna bakın.
+Sayfaya ekleyebileceğiniz liste türleri hakkında daha fazla bilgi için, [Ürün koleksiyonu modülü genel bakış](product-collection-module-overview.md) konusuna bakın.
 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
@@ -50,3 +50,5 @@ Sayfaya ekleyebileceğiniz liste türleri hakkında daha fazla bilgi için, [Ür
 [Seçkin ürün önerisi listeleri oluşturma](create-editorial-recommendation-lists.md)
 
 [AI-ML tabanlı ürün önerisi sonuçlarını yönetme](modify-product-recommendation-results.md)
+
+[Ürün topluluğu modülüne genel bakış](product-collection-module-overview.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811684"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005715"
 ---
 # <a name="help-system"></a>Yardım sistemi
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811684"
 Bu konuda Yardım sistemi bileşenlerine genel bir bakış verilmektedir. Yardım sistemi tüm aşağıdaki ürünleri tarafından paylaşılır:
 
 - Dynamics 365 Finance 
-- Dynamics 365 Retail
+- Dynamics 365 Commerce
 - Dynamics 365 Supply Chain Management
-- Dynamics 365 Talent
+- Dynamics 365 Human Resources
 
 Kullanmakta olduğunuz ürünün Yardım bölmesinden yardıma erişebilirsiniz. 
 
@@ -42,7 +42,7 @@ Kullanmakta olduğunuz ürünün Yardım bölmesinden yardıma erişebilirsiniz.
 
 ## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com adresindeki yardım
 
-docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) yukarıda listelenen uygulamalar için birincil ürün belgelendirme kaynağıdır. Sitede aşağıdaki özellikler sunulmaktadır:
+docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) yukarıda listelenen uygulamalar için birincil ürün belgelendirme kaynağıdır. Sitede aşağıdaki özellikler sunulmaktadır:
 
 - **En güncel içeriğe erişim**: Site ürün belgeleri oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve daha esnek bir yol sunar. Bu nedenle, en son teknik bilgilerin erişimine sahip olduğunuzdan emin olmaya yardımcı olur.
 - **Uzmanlar tarafından yazılan içerik**: Site Microsoft'un içindeki ve dışındaki topluluk üyeleri tarafından geliştirilebilecek daha zengin bir ürün belgesi kümesi sağlar.
@@ -73,7 +73,7 @@ Belgelere katkıda bulunabilir ve düzenlemeler yapabilirsiniz. Başlamak için 
 
 [Microsoft Dynamics 365 belgelerine katkıda bulunma](https://youtu.be/m5djioozRbg) videosu (yukarıda gösterilen) YouTube'daki Microsoft Dynamics 365 kanalında bulunmaktadır.
 
-Daha fazla bilgi için lütfen [katılımcı kılavuzumuza](https://docs.microsoft.com/en-us/contribute) başvurun.
+Daha fazla bilgi için lütfen [katılımcı kılavuzumuza](https://docs.microsoft.com/contribute) başvurun.
 
 > [!NOTE]
 > Şu anda yalnızca İngilizce içerik katılımlarını kabul ediyoruz.
@@ -106,12 +106,12 @@ Yardım içeriğine erişmek için **Yardım** (**?**) simgesine tıklayın ve s
 Yardım bölmesinden, istemciyle ilgili makalelere erişebilirsiniz. Yardım bölmesini ilk kez açıp **Yardım** sekmesine tıkladığınızda o sırada bulunduğunuz sayfaya uygulanan makaleleri görürsünüz. Makale bulunamadıysa, anahtar sözcükler girerek aramanızı daraltabilirsiniz. Yardım bölmesinde bir makaleye tıkladığınızda, tarayıcınızda yeni bir sekme açılır ve makale görüntülenir.
 
 > [!IMPORTANT]
-> Bu konu Dynamics 365 Talent için geçerli değildir. Talent için Yardım sistemi otomatik olarak ürün Görev kılavuzlarına bağlanır. Ayrıca, Talent için özel Görev kılavuzları oluşturamazsınız.
+> Bu konu Dynamics 365 Human Resources için geçerli değildir. Human Resources için Yardım sistemi otomatik olarak ürün Görev kılavuzlarına bağlanır. Ayrıca, Human Resources için özel Görev kılavuzları oluşturamazsınız.
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Yardım Bölmesi'nden Görev kılavuzlarına erişme
 
-Yardım bölmesinden Görev kılavuzlarına erişmeden önce, bir Sistem yöneticisinin Finance, Supply Chain Managment ve Retail içindeki **Sistem parametreleri** sayfasına giderek bazı ayarları yapılandırması gerekir.
+Yardım bölmesinden Görev kılavuzlarına erişmeden önce, bir Sistem yöneticisinin Finance, Supply Chain Managment ve Commerce içindeki **Sistem parametreleri** sayfasına giderek bazı ayarları yapılandırması gerekir.
 
 > [!NOTE]
 > - Yardımı yapılandırmak için, uygulamanın dağıtıldığı kiracı ile aynı kiracı içindeki hesap ile oturum açmanız gerekir.

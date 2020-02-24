@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df158e80bd1c11832376678a631a9e0e162534ad
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b09efeb6b5d8bd2ea452dbf7a9ddaeec2ab75c92
+ms.sourcegitcommit: 0455a024185f79ecb82df61e6d994bd71dee5c10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915729"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "2974304"
 ---
 # <a name="FORMAT">FORMAT ER işlevi</a>
 
@@ -96,7 +96,7 @@ Aynı rapor **Litware Retail** müşterisi için Aralık 17, 2015 tarihinde **DE
 >[!NOTE]
 > Aşağıdaki sözdizimi, etiketler için ER formüllerinde kullanılır:
 >
-> - **Microsoft Dynamics 365 Finance uygulamasındaki kaynaklardan etiketler için:** **@X**, burada **X** Uygulama Nesne Ağacı (AOT) etiket kimliğidir.
+> - **Microsoft Dynamics 365 Finance uygulamasındaki kaynaklardan etiketler için**: **\@X** (burada **X**, Uygulama Nesne Ağacı (AOT) etiket kimliğidir).
 > - **ER yapılandırmaları içinde bulunan etiketler için:** **@"GER_LABEL:X"**, burada **X**, ER yapılandırma etiket kimliğidir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar

@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 347db3af36521e11dc70d5188dcc54b07efa1fbe
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697854"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002947"
 ---
 # <a name="overview-of-cart-and-checkout-pages"></a>Sepet ve ödeme sayfalarına genel bakış
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta sepet ve ödeme sayfalarına genel bakış sağlar.
@@ -65,11 +65,11 @@ Kullanıma alma sayfasının ana gövdesi tüm sipariş bilgilerinin toplandığ
 
 ### <a name="shipping-address"></a>Sevkiyat adresi
 
-Maddelerin sevk edilmesi gerekiyorsa sevkiyat adresi gereklidir. Her bir yerel ayarın sevkiyat adreslerinin biçimi Dynamics 365 Retail'de yapılandırılabilir. Örneğin, maddeler Amerika Birleşik Devletleri sevk edilecekse, sevkiyat adresi bir sokak adresi, il ve Posta Kodu içermelidir. Bazı temel giriş doğrulamaları, alfasayısal karakterler, maksimum uzunluk ve sayıların doğrulaması gibi adres alanlarının sevkiyatı için yapılır. Adresin geçerliliği doğrulanmasa da, bu doğrulama özelleştirilmiş üçüncü taraf hizmetler kullanılarak yapılabilir.
+Maddelerin sevk edilmesi gerekiyorsa sevkiyat adresi gereklidir. Her bir yerel ayarın sevkiyat adreslerinin biçimi Dynamics 365 Commerce'de yapılandırılabilir. Örneğin, maddeler Amerika Birleşik Devletleri sevk edilecekse, sevkiyat adresi bir sokak adresi, il ve Posta Kodu içermelidir. Bazı temel giriş doğrulamaları, alfasayısal karakterler, maksimum uzunluk ve sayıların doğrulaması gibi adres alanlarının sevkiyatı için yapılır. Adresin geçerliliği doğrulanmasa da, bu doğrulama özelleştirilmiş üçüncü taraf hizmetler kullanılarak yapılabilir.
 
 Sevkiyat adresi, "sevk et" seçeneğinin işaretli olduğu sepetteki tüm maddelere uygulanır. Çevrimiçi başlatıcı seti içinde sağlanan kullanıma alma akışını kullanırsanız, bireysel alışveriş maddeleri farklı adreslere sevk edilebilir. Bu yeteneğe gereksinim duyarsanız, kullanıma alma modülleri özelleştirilmesiyle gerçekleştirilebilir.
 
-Sevkiyat Adresi sağlandığında, Dynamics 365 Commerce çevrimiçi mağazadan kullanılabilen Sevkiyat Yöntemleri gösterilir. Sevkiyat Yöntemleri ve destekledikleri adresler Retail'de konfigüre edilebilir.
+Sevkiyat Adresi sağlandığında, Dynamics 365 Commerce çevrimiçi mağazadan kullanılabilen Sevkiyat Yöntemleri gösterilir. Sevkiyat Yöntemleri ve destekledikleri adresler Commerce'de konfigüre edilebilir.
 
 ### <a name="payment"></a>Ödeme
 
