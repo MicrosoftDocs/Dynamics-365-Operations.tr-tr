@@ -3,7 +3,7 @@ title: Stok durdurma
 description: Bu konuda, Supply Chain Management'ın kalite denetim sürecinin bir parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e1a870936619d07db01d5a8fe83b3fab73693187
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814387"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971499"
 ---
 # <a name="inventory-blocking"></a>Stok durdurma
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, Supply Chain Management'ın kalite denetim sürecinin bir parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz.
+Bu konuda, Supply Chain Management'ın kalite denetim sürecinin bir parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz.
 
 Stok maddelerini aşağıdaki şekillerde durdurabilirsiniz:
 -   El ile
@@ -43,6 +43,9 @@ Stok maddelerini aşağıdaki şekillerde durdurabilirsiniz:
 
 ## <a name="blocking-items-by-creating-a-quality-order"></a>Bir kalite emri oluşturarak maddeleri durdurma
 **Kalite emirleri** sayfasında bir kalite meri oluşturarak incelenmesi gereken maddeleri belirtebilirsiniz. Bir kalite emri oluşturduğunuzda, bir madde için belirttiğiniz miktar durdurulur. Bir kalite emriyle ilişkili olan örnekleme planı yalnızca incelenmesi gereken maddelerin miktarını denetler; durdurulan miktar kontrol edilmez. Kalite emrine girilen, miktar durdurulan miktardır; örnekleme planında belirtilene bakılmaksızın inceleme için gönderilmesi gerekir.
+
+> [!NOTE]
+> Toplu iş bitiş tarihi ve stok durumu bloke etme özelliklerini kullanmak Master planlama tarafından desteklenmez. Bu, Master planlama sırasında ortaya çıkabilecek Eldeki stoğun çift dışarıda tutulmasına neden olabilir. Süresi dolan toplu işleri durdurmak için stok durumu yerine toplu iş değerlendirme kodlarına güvenmenizi öneririz.
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Kalite meri oluşturan bir işlem kullanarak maddeleri durdurma
 Kalite işlemi bir maddenin incelenmesi gerektiğini belirtirse, bir miktar madde otomatik olarak durdurulur. Bu nedenle, bir kalite emri otomatik olarak oluşturulduğunda, kalite emriyle ilişkili olan madde örnekleme planı hem durdurulan madde miktarını hem de incelenmesi gereken miktarı denetler. **Madde örnekleme** sayfasında **Tam durdurma** seçilirse, örneğin bir satınalma siparişi satırındaki tüm miktar, madde örnekleme adedine bakılmaksızın inceleme sırasında durdurulur.

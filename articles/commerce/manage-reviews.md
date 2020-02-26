@@ -3,7 +3,7 @@ title: Derecelendirme ve incelemeleri yönetme
 description: Bu konuda, Microsoft Dynamics 365 Commerce derecelendirmeleri ve incelemeler denetleme aracı kullanılarak derecelendirmelerin ve incelemelerinin nasıl yönetileceği açıklanmaktadır.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9becdce5ae36ac637043b9d0febfbbff2392aa9
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698038"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027254"
 ---
 # <a name="manage-ratings-and-reviews"></a>Derecelendirme ve incelemeleri yönetme
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce derecelendirmeleri ve incelemeler denetleme aracı kullanılarak derecelendirmelerin ve incelemelerinin nasıl yönetileceği açıklanmaktadır.
@@ -39,6 +38,16 @@ Dynamics 365 Commerce, kötü sözcükleri düzenleyerek metni otomatik olarak g
 - Bunlara yanıt verip veya onları kaldırarak yapılan gözden geçirmeler.
 - Müşterinin isteği üzerindeki müşteri incelemelerini Silin.
 - Toplu içe aktarma derecelendirmeleri ve tüm ürünlerle ilgili verileri bir Microsoft Power BI şablonu olarak inceler; böylece derecelendirmelere ve incelemelere ilişkin eğilimler analiz edilebilir.
+
+## <a name="access-ratings-and-reviews-moderation-features"></a>Erişim derecelendirmeleri ve gözden geçirme denetleme özellikleri
+
+E-Ticaret Site Yönetimi aracındaki derecelendirmelere ve gözden geçirme özelliklerine erişmek için, aşağıdaki adımları izleyin.
+
+1. [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com)'de oturum açın.
+1. E-ticaret başlatmak istediğiniz ortamı içeren projeyi açın.
+1. **Ortamlar** bölümünde, ortamı seçin.
+1. **Ortam özellikleri** altında, **Perakende yönetimi**'i tıklatın.
+1. **Bağlantılar**'ın altındaki **e- ticaret** sekmesinde, **e- ticaret site yönetim aracı**'nı seçin.
 
 ## <a name="read-a-review"></a>İncelemeyi oku 
 

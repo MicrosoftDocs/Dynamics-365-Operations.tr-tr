@@ -1,5 +1,5 @@
 ---
-title: Alacak ve Tahsilatları ayarlamak
+title: Koleksiyonları ayarla
 description: Bu makale koleksiyonlar işlevselliği ayarlamayı açıklar.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,18 +18,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed075484f79d7ef7d0d4e6d62d037bb3e9cc96f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180387"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013175"
 ---
-# <a name="set-up-credit-and-collections"></a>Alacak ve Tahsilatları ayarlamak
+# <a name="set-up-collections"></a>Koleksiyonları ayarla
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale koleksiyonlar işlevselliği ayarlamayı açıklar.
+Bu makale koleksiyonlar işlevselliği ayarlamayı açıklar. Koleksiyonlar yeteneğini kullanırken bazı kurulum adımlarını tamamlamanız gerekir. Müşteri havuzları ve koleksiyon takımları dahil, isteğe bağlı bazı yetenekler de vardır. 
+
+- Yaşlandırma dönem tanımları
+- Yaşlandırma anlık görüntüsü
+- Günlük adları
+- Silme hareketler için neden kodu
+- Tahsilat temsilcisi
+- Silme hesabı
+- NSF (yetersiz fon) bilgileri
+- **Tahsilatlar** sayfasının kullanıcıları için Outlook ayarları belirleyin
+- E-posta adresleri
+
+Bu noktalar, konunun geri kalanı boyunca daha ayrıntılı olarak ele alınmıştır. 
 
 <a name="set-up-aging-period-definitions"></a>Yaşlandırma dönem tanımlarını ayarla
 -------------------------------
@@ -46,12 +58,12 @@ Müşteri havuzlarını, müşteri gruplarını temsil etmek üzere ayarlayabili
 Kuruluşunuzda birden çok kişi tahsilatlarla uğraşıyorsa, bir tahsilatlar ekibi ayarlayabilirsiniz. Takımı **Alacak hesapları parametreleri** sayfasında seçebilirsiniz. Eğer bir tahsilat takımı oluşturmazsanız, **Tahsilatlar aracısı** sayfasında tahsilat acentaları oluşturduğunuzda bir takım otomatik olarak oluşturulacaktır.
 
 ## <a name="set-up-a-collections-case-category"></a>Tahsilat vakaları kategorisi ayarlayın
-Koleksiyonları çalışmanızı organize etmek için vakalar kullanacaksanız, **Tahsilatlar** kategori türünde olan bir vaka kategorisi ayarlayın. Bu kurulum yalnızca **Tahsilatlar** sayfası üzerinde vaka işlevini kullanmak istiyorsanız gereklidir.
+Koleksiyonları çalışmanızı organize etmek için vakalar kullanacaksanız, **Tahsilatlar** kategori türünde olan bir vaka kategorisi ayarlayın. Bu yalnızca **Tahsilatlar** sayfası üzerinde vaka işlevini kullanmak istiyorsanız gereklidir.
 
 ## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Günlük adlarını ayarlama (kapatma, silme ve NSF)
 Hareketleri **Tahsilatlar** sayfası üzerinde işlendiğinde kullanılan günlük adları ayarlama. Bu işlem bir hareketin kapatılması, bir hareketin silinmesi ve yetersiz fon (NSF) ödeme işlenmesini kapatılmasını içerir.
 
-| Açıklama | Günlük türü:     |
+| Tanım | Günlük türü:     |
 |-------------|------------------|
 | Kapatma  | Müşteri ödemesi |
 | Sil   | Günlük            |
@@ -78,7 +90,10 @@ NSF ödemeleri **Tahsilatlar** sayfasında tanımlandığında doğru günlüğe
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Tahsilatlar sayfasının kullanıcıları için Outlook ayarları belirleyin
 Çalışanlar faaliyetler yaratabilmeden veya **Tahsilatlar** sayfasını kullanarak e-posta iletileri gönderebilmeden önce, **Microsoft Outlook eşitlemesi** yapılandırma anahtarının seçili olduğunu ve bu çalışanlar için Outlook eşitlemesinin ayarlanmış olduğunu doğrulamak zorundasınız.
 
-## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Tahsilat müşteri ilgili kişileri için e-posta ve adres ayarları ayarlama
+## <a name="set-up-email-and-addresses"></a>E-posta ve adresleri ayarla
+**Koleksiyonlar** sayfasından e-posta iletileri gönderme ile ilgili olarak müşteriler ve satış temsilcileriyle iletişim kurmak için e-posta kullanabilirsiniz. 
+
+### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Tahsilat müşteri ilgili kişileri için e-posta ve adres ayarları ayarlama
 Bu kişilere **Tahsilatlar** sayfasından e-posta iletileri göndermek istiyorsanız, müşteri ilgili kişi için e-posta adreslerini ayarlayın. Tahsilatlar ilgili kişisi, **Tahsilatlar** sayfasında varsayılan ilgili kişisi olarak kullanılır. Eğer bir müşteri için ekstrelerde birincil adresinden farklı bir adres kullanılacaksa, bunun için bir ekstre adresi ayarlayabilirsiniz. 
 
 Bir müşterinin **Kredi ve Tahsilatlar** hızlı sekmesinde, **Tahsilatlar kişisi** alanında, müşteri kuruluşta sizin tahsilat temsilcinizle işbirliği yapan kişiyi seçin. Bu kişi **Tahsilatlar** sayfasında varsayılan kişi olarak kullanılır ve e-posta iletileri ona gönderilir. 
@@ -86,7 +101,7 @@ Bir müşterinin **Kredi ve Tahsilatlar** hızlı sekmesinde, **Tahsilatlar kiş
 > [!NOTE] 
 > Müşteri için, tahsilatlarla ilgili bir kişi belirtilmezse, müşteri için birincil ilgili kişi kullanılır. Eğer birincil bir ilgili kişi belirtilmemişse, e-posta iletileri **Kişiler** sayfasında ilk sırada listelenen kişiye gönderilir.
 
-## <a name="set-up-email-settings-for-salespeople"></a>Satış elemanları için e-post ayarlarını ayarlamak
+### <a name="set-up-email-settings-for-salespeople"></a>Satış elemanları için e-post ayarlarını ayarlamak
 **Tahsilatlar** sayfasından satış elemanlarına e-posta iletileri göndermek istiyorsanız, satış elemanları için e-posta adreslerini ayarlayın. Her komisyon satış grubundaki her satış temsilcisi için bir e-posta adresi ayarlayın. **Kişi** seçeneği işaretli olan satış temsilcisi, e-posta iletilerinin gönderileceği varsayılan satış elemandır. 
 
 Bir satış temsilcisi belirtilmezse, müşteri kuruluşun birincil satış temsilcisi kullanılır. Birincil satış temsilcisi belirtilmezse, e-post iletileri sayfada listelenen ilk satış elemanına gönderilir.

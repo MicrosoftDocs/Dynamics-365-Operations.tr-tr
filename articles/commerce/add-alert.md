@@ -1,9 +1,9 @@
 ---
-title: Uyarı modülü
-description: Bu konu uyarı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+title: Promosyon başlık modülü
+description: Bu konu promosyon başlığı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,55 +18,66 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 82138dd7f0934f732215f67a3726638eb87075d4
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: da5e220e4578d1064eb7b627b441d3f585b3c095
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785364"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025632"
 ---
-# <a name="alert-module"></a>Uyarı modülü
+# <a name="promo-banner-module"></a>Promosyon başlık modülü
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Bu konu uyarı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+Bu konu promosyon başlığı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
 ## <a name="overview"></a>Genel Bakış
 
-Bir sayfada satır içi bilgilendirici iletiler göstermek için bir uyarı modülü kullanılır. Uyarı modülleri bir metin iletisini ve bir bağlantıyı destekler. Bir e-ticaret sitesinin tüm sayfalarında görünen site çapında yükseltmeleri göstermek için kullanılabilirler. 
+Promosyon başlığı modülleri, bir sayfadaki satır içi bilgilendirme iletilerini göstermekte kullanılır. Bir e-ticaret sitesinin tüm sayfalarında görünen site çapında yükseltmeleri göstermek için kullanılabilirler. 
 
-Uyarı modülleri, içerik yönetimi sistemindeki (CMS) veriler tarafından yönlendiriliyor ve herhangi bir sayfaya konabilir.
+Promosyon başlığı modülleri bir metin iletisini ve bir bağlantıyı destekler. Bir promosyon başlık modülüne birden fazla ileti eklenirse, müşterilerin tüm iletiler arasında dolaşmasına olanak veren bir döner başlığı olur. 
 
-## <a name="examples-of-alert-modules-in-e-commerce"></a>E-ticarette uyarı modülleri örnekleri
+Promosyon başlığı, içerik yönetimi sistemindeki (CMS) veriler tarafından yönlendiriliyor ve herhangi bir sayfaya konabilir.
 
-Site üstbilgisinde site çapında yükseltmeler veya iletiler olduğu için uyarı modülleri kullanılabilir. Burada bazı örnekler verilmiştir:
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>E-ticaret'daki promosyon başlık sayfaları için kullanım örnekleri
+
+Promosyon başlık sayfaları site başlığında, aşağıdaki örneklerde olduğu gibi, site çapında yükseltmeleri veya iletileri göstermek amacıyla kullanılabilir.
 
 "Yıllık satış, 10 gün içinde biter"
 
 "Okul satışı ile büyük bir tasarruf yapın. Şimdi alışveriş yap."
 
-## <a name="alert-module-properties"></a>Uyarı modülü özellikleri
+## <a name="promo-banner-module-properties"></a>Promosyon başlığı modülü özellikleri
 
-| Özellik adı  | Değer                              | Tanım |
-|----------------|------------------------------------|-------------|
-| Metin           | Metin                               | Uyarı modülünde görünen metin iletisi. |
-| Metin hizalama | **Sağ**, **Sol** veya **Orta** | Metnin uyarı modülünde nasıl hizalandığını tanımlayan bir değer. |
-| Uyarıyı kapat  | **Doğru** veya **yanlış**              | Değer **doğru** olarak ayarlanırsa, müşteri uyarıyı yok edebilir. |
-| Bağla           | URL                                | İsteğe bağlı bağlantı için URL. |
+| Özellik adı             | Value                              | Tanım |
+|---------------------------|------------------------------------|-------------|
+| Başlık iletileri           | Metin ve bağlantılar                     | Metin ve bağlantılar dizisi. |
+| Otomatik yürüt                  | **Doğru** veya **yanlış**              | Birden fazla ileti yapılandırılmışsa, iletilerin otomatik olarak açılıp eklenmesini belirten bir değer. |
+| Slayt geçiş aralığı | Milisaniyelerin sayısı (MS)      | İletiler arasında geçiş yapmak için kullanılan aralık. |
+| Kapatmaya izin ver             | **Doğru** veya **yanlış**              | Değer **doğru** olarak ayarlanırsa, müşteriler uyarıyı yok edebilir. |
+| Carusel kolu göster     | **Doğru** veya **yanlış**              | Döner değiştiricilerin gösterilip gösterilmeyeceğini belirten ve müşterilerin birden çok Başlık öğelerini el ile dolaşabilmesi için bir değer. |
+| Metin hizalama            | **Sağ**, **Sol** veya **Orta** | Promosyon başlık modülünde metin hizalaması. |
+| Bağla                      | Bir URL                              | İsteğe bağlı bağlantı için URL. |
 
-## <a name="add-an-alert-module-to-a-page"></a>Sayfaya uyarı modülü ekleme 
+## <a name="add-a-promo-banner-module-to-a-page"></a>Bir sayfaya bir promosyon başlığı ekle 
 
-Bir sayfaya uyarı modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
+Bir sayfaya bir promosyon başlığı modülü eklemek ve gerekli özellikleri ayarlamak için şu adımları izleyin.
 
-1. **Uyarı şablonu** adlı bir sayfa şablonu oluşturun.
-1. Varsayılan sayfanın **ana** yuvasına bir uyarı modülü ekleyin.
+1. **Promosyon şablonu** adlı bir sayfa şablonu oluşturun.
+1. **Sayfa Anahattı** altında, bir **Varsayılan sayfa** modülünü **Gövde** yuvasına ekleyin. 
 1. Şablonu giriş yapın ve yayımlayın. 
-1. **Uyarı sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz uyarı şablonunu kullanın. 
-1. Yeni sayfanın **ana** yuvasına bir uyarı modülü ekleyin.
-1. Uyarı modülünün ayarlarında uyarı metnini girin. Uyarı modülünü daha fazla özelleştirmek istiyorsanız diğer özellikleri düzenleyebilirsiniz.
+1. **Promosyon başlığı sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz uyarı şablonunu kullanın. 
+1. Yeni sayfanın **ana** yuvasına bir konteyner modülü ekleyin. 
+1. Sağdaki panoda, **Genişlik** değerini **Konteyneri doldur**'a ayarlayın.
+1. **Sayfa Anahattı** altında, bir promosyon başlığı modlünü konteyner modülüne ekleyin.
+1. Başlık modülünün ayarlarında bir veya daha fazla başlık ekleyin. Her iletinin bir bağlantı ile birlikte bir metni olabilir. Modülü daha fazla özelleştirmek için diğer özellikleri düzenleyebilirsiniz.
 1. Sayfayı kaydet ve önizleyin. Sayfanın üst kısmında, eklediğiniz metni içeren bir uyarı görmelisiniz.
-1. Sayfayı giriş yapın ve yayımlayın. 
+1. Sayfayı düzenlemeyi tamamlayın ve sonra yayımlayın. 
+
+> [!NOTE]
+> Bir promosyon başlığı genellikle sayfa üstbilgisi yuvasında veya alt başlık yuvasında kullanılır.
+
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -74,12 +85,8 @@ Bir sayfaya uyarı modülü eklemek ve gerekli özellikleri ayarlamak için aşa
 
 [Döngü modülü](add-carousel.md)
 
-[İçerik zengin blok modülü](add-content-rich-block.md)
+[Metin bloku modülü](add-content-rich-block.md)
 
-[İçerik yerleştirme modülü](add-content-placement-modules.md)
-
-[Özellik modülü](add-feature-module.md)
-
-[Hero modülü](add-hero-module.md)
+[İçerik blok modülü](add-hero-module.md)
 
 [Video oynatıcı modülü](add-video-player.md)

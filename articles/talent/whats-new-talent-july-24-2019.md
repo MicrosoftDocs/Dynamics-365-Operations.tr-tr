@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ffbb29fb89ed6a3fd6db11f2c8d656ab565c43f3
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8d89b1251429281521f32338f642cc7034420e0b
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897661"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005998"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (23 Temmuz 2019)
 
@@ -73,6 +73,6 @@ Yeni bir seçenek, yöneticilerin hem doğrudan raporların hem de genişletilmi
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Kanada ve Güney Doğu Asya için bölge desteği
 
-1 Ağustos 2019 tarihinde Talent için Kanada ve Güneydoğu Asya bölgelerinin kullanılabileceğini duyurmaktan mutluyuz. Bu değişiklikle, Kanada ve Asya bölgelerinde ortam oluşturabilirsiniz ve tüm Talent verileri yalnızca bu konumlarda tutulur. Yeni Ortam iletişim kutusunda yer alan yeni bölgelerde bir ortam oluşturabilirsiniz ve bu ortamı, [Talent Sağlama](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent)'da açıklandığı gibi LCS'de Talent sağlamak için kullanabilirsiniz.
+1 Ağustos 2019 tarihinde Talent için Kanada ve Güneydoğu Asya bölgelerinin kullanılabileceğini duyurmaktan mutluyuz. Bu değişiklikle, Kanada ve Asya bölgelerinde ortam oluşturabilirsiniz ve tüm Talent verileri yalnızca bu konumlarda tutulur. Yeni Ortam iletişim kutusunda yer alan yeni bölgelerde bir ortam oluşturabilirsiniz ve bu ortamı, [Talent Sağlama](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent)'da açıklandığı gibi LCS'de Talent sağlamak için kullanabilirsiniz.
 
 Varolan projelerin diğer bölgelerden Kanada ve Asya bölgelerine veri taşınması desteklenmez. Yalnızca yeni projeler, bu yeni desteklenen bölgeler için sağlanabilir.

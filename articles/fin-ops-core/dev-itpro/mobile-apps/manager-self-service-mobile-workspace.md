@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Talent
+ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 272cf991301fa5c2df8a6de3354588fc372fa92f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c2ad5f30ed0e69df1769eb0379b5da2865d4ce4f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248745"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005621"
 ---
 # <a name="my-team-mobile-workspace"></a>Ekibim mobil çalışma alanı
 
@@ -30,7 +30,7 @@ Bu konu, **Ekibim** mobil çalışma alanı hakkında bilgi sağlar. Bu çalış
 
 Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullanılmak üzere tasarlanmıştır.
 
-## <a name="overview"></a>Genel bakış 
+## <a name="overview"></a>Genel Bakış 
 **Ekibim** mobil çalışma alanı, yöneticilerin şu görevleri yerine getirmesini sağlar:
 
 - Yöneticinin doğrudan rapor verenlerinin bir listesini görüntüle.
@@ -52,12 +52,12 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 <tbody>
 <tr class="odd">
 <td>Aşağıdaki ürünlerden birinin kuruluşunuzda dağıtılmış olması gerekir:
-<ul><li>Bir Finance and Operations uygulaması</li>
-<li>Microsoft Dynamics 365 Talent</li>
+<ul><li>Bir Finance and Operations uygulamayı</li>
+<li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Sistem yöneticisi</td>
-<td>Kuruluşunuzda halihazırda dağıtılmış bir Finance and Operations uygulamanız yoksa <a href="../deployment/deploy-demo-environment.md">Bir tanıtım ortamı dağıtma</a> başlıklı makaleye bakın. Kuruluşunuzda Talent dağıtılmamışsa sistem yöneticisi <a href="https://www.microsoft.com/dynamics365/talent">Talent web sayfasından</a> bir deneme sürümüne erişim sağlayabilir.
+<td>Kuruluşunuzda halihazırda dağıtılmış bir Finance and Operations uygulamanız yoksa bkz. <a href="../deployment/deploy-demo-environment.md">Tanıtım ortamını dağıtma</a>. Kuruluşunuzda Human Resources dağıtılmamışsa sistem yöneticisi <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources web sayfasından</a> bir deneme sürümüne erişim sağlayabilir.
 </td>
 </tr>
 <tr class="even">

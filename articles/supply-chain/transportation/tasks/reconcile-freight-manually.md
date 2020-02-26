@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843253"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026326"
 ---
 # <a name="reconcile-freight-manually"></a>El ile navlun mutabakatı sağlama
 
@@ -37,7 +37,7 @@ Bu yordam navlunun el ile nasıl mutabık kılınacağını gösterir. Bu genell
 3. Listede yük kimliği 00006 olan yükü seçin.
 
 ## <a name="create-a-carrier-invoice"></a>Taşıyıcı faturası oluşturma
-    * Navlunu el ile mutabık kılarsanız ve taşıyıcı faturasını otomatik olarak almazsanız navlun faturasına göre bir fatura oluşturabilirsiniz.  
+Navlunu el ile mutabık kılarsanız ve taşıyıcı faturasını otomatik olarak almazsanız navlun faturasına göre bir fatura oluşturabilirsiniz.  
 1. İlgili bilgiler'e tıklayın.
 2. Navlun faturası ayrıntıları'na tıklayın.
 3. Navlun faturası oluştur'a tıklayın.
@@ -45,7 +45,7 @@ Bu yordam navlunun el ile nasıl mutabık kılınacağını gösterir. Bu genell
 5. Tamam'a tıklayın.
 
 ## <a name="reconcile-the-invoice"></a>Fatura için mutabakat sağlama
-    * Taşıyıcı faturasını ve navlun faturasını mutabık kıldığınızda bu işlem satır satır yapılır.  
+Taşıyıcı faturasını ve navlun faturasını mutabık kıldığınızda bu işlem satır satır yapılır.  
 1. Navlun faturaları ile faturaları eşleştir'e tıklayın.
 2. Fatura ayrıntıları bölümünü genişletin.
 3. Eşleştirilmeyen navlun fatura ayrıntıları bölümünü genişletin.

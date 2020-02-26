@@ -18,17 +18,17 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62d3c168967bd680b3ded56e627730324f2a5ec6
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 8de02eca941054c7c43dec1c904f461da1927230
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945594"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001220"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>e-Ticaret sitesini bir çevrimiçi kanalla ilişkilendirme
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Bu konu, Microsoft Dynamics 365 Commerce sitenizin bir veya daha fazla çevrimiçi mağazaya nasıl bağlanacağını açıklamaktadır. 
 

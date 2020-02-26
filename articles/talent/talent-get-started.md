@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c3a2881ede53e4adfba775b9bb23071468c8f602
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024264"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006529"
 ---
 # <a name="get-started-with-talent"></a>Talent kullanmaya başlama
 
@@ -31,7 +31,7 @@ ms.locfileid: "2024264"
 Microsoft Dynamics 365 Talent'ta kullanıcı arabirimini değiştirmek ve seçenekleri yazılımı ihtiyaçlarınızı en iyi şekilde karşılayacak şekilde ayarlamak kolaydır. Bu konu, kullanıcı arabirimini nasıl tercihlerinize uygun hale getirebileceğinizle ilgili bilgiler sunan konulara bağlantılar içerir. Bu konu ayrıca sistem içinde bilgileri etkin ve doğru şekilde bulmanıza yardımcı olabilecek bilgiler de içerir. 
 
 > [!NOTE] 
-> Aşağıdaki üç ürün yakından ilgilidir: Dynamics 365 Finance; Dynamics 365 Retail ve Dynamics 365 Talent. Aynı işlev her üç üründe de görülebilir. Sonuç olarak, öncelikli olarak Retail ile ilişkili konularda, ürün adı Dynamics 365 Retail olacaktır, öncelikli olarak Talent ilişkili konularda, ürün adı Dynamics 365 Talent olacaktır ve çekirdek ürün ile ilgili konularda, ürün adı Dynamics 365 Finance olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
+> Aşağıdaki üç ürün yakından ilgilidir: Dynamics 365 Finance; Dynamics 365 Commerce ve Dynamics 365 Talent. Aynı işlev her üç üründe de görülebilir. Sonuç olarak, öncelikli olarak Commerce ile ilişkili konularda, ürün adı Dynamics 365 Commerce olacaktır, öncelikli olarak Talent ilişkili konularda, ürün adı Dynamics 365 Talent olacaktır ve çekirdek ürün ile ilgili konularda, ürün adı Dynamics 365 Finance olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
 ## <a name="personalizing-talent"></a>Talent'ı kişiselleştirme 
 Aşağıda konular Talent'ta bulunan ve işinizi zamanında kolayca tamamlamanızı sağlayan birçok özelliği nasıl ayarlayabileceğinizi göstermektedir. 

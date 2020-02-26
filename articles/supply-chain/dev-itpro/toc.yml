@@ -74,9 +74,9 @@
   items:
     - name: Bir veri tümleştirme (içe/dışa aktarma) stratejisi seçme
       href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: Veri tümleştirme API'leri
+    - name: Veri tümleştirme API'ları
       items:
-        - name: Veri yönetimi paketi REST API'sı
+        - name: Veri yönetimi paketi REST API'si
           href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Servis uç noktaları
           items:
@@ -116,11 +116,11 @@
               href: ../../dev-itpro/data-entities/data-integration-cds.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: 'Eş zamanlı, çift yönlü tümleştirme'
               items:
-                - name: Yakın gerçek zamanlı veri tümleştirmesi
+                - name: Gerçek zamanlıya yakın veri tümleştirmesi
                   href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                - name: Common Data Service'da kuruluş hiyerarşisi
+                - name: Common Data Service'ta kuruluş hiyerarşisi
                   href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                - name: Common Data Service'da şirket kavramı
+                - name: Common Data Services'ta şirket kavramı
                   href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                 - name: Tümleşik Müşteri Aslı
                   href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -140,11 +140,11 @@
                   items:
                     - name: Aday müşteriden nakde
                       href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Sales'daki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
+                    - name: Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
                       href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
                       href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
+                    - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'daki ilgili kişilerle veya müşterilerle eşitleme
                       href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
                       href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -158,23 +158,23 @@
                       href: ../../supply-chain/sales-marketing/field-service.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Finance and Operations'taki ürünleri Field Service'teki ürünlerle eşitleme
                       href: ../../supply-chain/sales-marketing/field-service-product.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
+                    - name: Field Service'teki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
                       href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Field Service'daki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme
+                    - name: Field Service'teki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme
                       href: ../../supply-chain/sales-marketing/field-service-invoice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Stok transferlerini ve ayarlamalarını Field Service'dan Finance and Operations'a eşitleme
+                    - name: Stok transferlerini ve ayarlamalarını Field Service'ten Finance and Operations'a eşitleme
                       href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Stok düzeyi bilgilerini Field Service'dan Finance and Operations'a eşitleme
+                    - name: Stok düzeyi bilgilerini Field Service'ten Finance and Operations'a eşitleme
                       href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Stok birimli ürünleri Finance and Operations'tan Field Service'a eşitleme
+                    - name: Stok birimli ürünleri Finance and Operations'tan Field Service'e eşitleme
                       href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Proje listesini Finance and Operations'tan Field Service'a eşitleme
+                    - name: Proje listesini Finance and Operations'tan Field Service'e eşitleme
                       href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Ambarları Finance and Operations'tan Field Service'a eşitleme
+                    - name: Ambarları Finance and Operations'tan Field Service'e eşitleme
                       href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Proje içeren iş emirlerini Field Service'tan Finance and Operations'a eşitleme
+                    - name: Proje içeren iş emirlerini Field Service'ten Finance and Operations'a eşitleme
                       href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                - name: Project Service Automation tümleştirmesi yapılandırma
+                - name: Project Service Automation tümleştirmesini yapılandırma
                   items:
                     - name: Project Service Automation'a genel bakış
                       href: ../../financials/project-management/PSA-integration.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -262,7 +262,7 @@
           href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Mali boyutları gösteren salt okunur varlıklar oluşturma
           href: ../../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: Kendi veritabanınızı getirme
+    - name: Kendi veritabanınızı getirin
       href: ../../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Otomatikleştirilmiş Varlık deposu yenileme
       href: ../../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -544,7 +544,7 @@
                   href: ../../dev-itpro/dev-ref/xpp-events.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: X++ verilerini seçme ve değiştirme
               href: ../../dev-itpro/dev-ref/xpp-data-query.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: SysDa API'sını kullanarak verilere erişim
+            - name: SysDa API'sini kullanarak verilere erişim
               href: ../../dev-itpro/dev-ref/sysda.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: X++ makroları
               href: ../../dev-itpro/dev-ref/xpp-macros.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Hassas verilere erişimi yönetme
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: Talent kullanarak kişisel veri isteklerini yanıtlama
+        - name: Human Resources kullanarak kişisel veri isteklerini yanıtlama
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: AX 2012'de kişisel veri isteklerini yanıtlama
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1202,7 +1202,7 @@
           href: ../../dev-itpro/lcs-solutions/regulatory-watch-communication.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Yerelleştirme modellerinin ayrılması
           href: ../../dev-itpro/lcs-solutions/separate-localization-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: Yasalarla ilgili uyarılar gönderme
+        - name: Yasal uyarılar gönderme
           href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
 - name: Destek
   items:
@@ -1340,7 +1340,7 @@
               href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: AX 2009'daki verileri geçirme
       items:
-        - name: Verileri AX 2009'dan Finance and Operations'a geçirme
+        - name: AX 2009'dan Finance and Operations'a verileri geçirme
           href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: AX 2009 geçişi - Veri geçişi aracını yükleme
           href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1494,7 +1494,7 @@
           href: ../../dev-itpro/user-interface/feature-callouts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Kaydırıcı ve MessageBox iletişim kutuları
           href: ../../dev-itpro/user-interface/slider-messagebox.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: 'İleti merkezi, ileti çubuğu ve ileti ayrıntıları API''sı'
+        - name: 'İleti merkezi, ileti çubuğu ve ileti ayrıntıları API''si'
           href: ../../dev-itpro/user-interface/messaging-api-center-bar-details.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: 'İleti merkezi, ileti çubuğu ve ileti ayrıntılarıyla ilgili SSS'
           href: ../../dev-itpro/user-interface/messaging-user.md?toc=/dynamics365/unified-operations/supply-chain/toc.json

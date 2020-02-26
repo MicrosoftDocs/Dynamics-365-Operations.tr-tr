@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f7f7e2d3dddc35a43adff8d186cf755eba854313
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 815565dd203925fa0acca9336c4ddc56db8c4058
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697739"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002579"
 ---
 # <a name="work-with-templates"></a>Şablonlarla çalışma
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'ta şablonlarla nasıl çalışılacağı açıklanmaktadır.

@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771645"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025866"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Bu özellik Finance and Operations (sürüm 7.2 ve sonrası) için desteklenir.
+> Bu özellik Finance and Operations içinde desteklenir (sürüm 7.2 ve sonrası).
 
 ## <a name="introduction"></a>Giriş
 Bu konu bir Microsoft Power BI raporunu bir çalışma alanının **Analizler** sekmesine katıştırmayı gösterir. Burada verilen örnek için Filo Yönetimi uygulamasındaki **Rezervasyon yönetimi** çalışma alanını, bir **Analizler** sekmesinde bir analitik çalışma alanı katıştırmak üzere genişleteceğiz.
@@ -111,7 +111,7 @@ Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra tasarımın nasıl
 2. Kod tanımının arkasındaki koda erişmek için F7'ye basın.
 3. Aşağıdaki X++ kodunu ekleyin.
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ Katıştırılmış rapor görüntüleme denetimini başlatmak için iş mantı�
 Bu bölüm, bir Power BI raporunu (.pbix kaynağı) bir form grubu denetimine eklemek için kullanılan yardımcı sınıf hakkında bilgi sağlar.
 
 #### <a name="syntax"></a>Sözdizimi
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

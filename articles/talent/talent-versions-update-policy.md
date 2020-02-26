@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
-ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
+ms.openlocfilehash: 509827d5736887f56e7754a0760af7dea76277f7
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "2818491"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006067"
 ---
 # <a name="talent-system-requirements"></a>Talent sistem gereksinimleri
 
 [!include [banner](includes/banner.md)]
 
-Bu konu Attract, Onboard ve Core HR dahil olmak üzere Microsoft Dynamics 365 Talent için gereksinimleri açıklar. Ayrıca, Talent'ın kullanılabildiği ülkeler ve bölgeler ile birlikte Talent verileri için diller ve yerelleştirme hakkında bilgiler de ana hatlarıyla açıklanmıştır. Ek olarak bu konu Talent ile ilgili güncelleştirme ilkesini içerir.
+Bu konu Attract ve Onboard dahil olmak üzere Microsoft Dynamics 365 Talent için gereksinimleri açıklar. Ayrıca, Talent'ın kullanılabildiği ülkeler ve bölgeler ile birlikte Talent verileri için diller ve yerelleştirme hakkında bilgiler de ana hatlarıyla açıklanmıştır. Ek olarak bu konu Talent ile ilgili güncelleştirme ilkesini içerir.
 
 ## <a name="supported-web-browsers"></a>Desteklenen web tarayıcıları
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cc1f4a7e18b43d3ea83575eaf1de71ed3956c01f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 25f84d960be4f4e8ff1b569d00b356390c232a2c
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844285"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003916"
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Ürünü/ana ürünü tüzel kişiliklere serbest bırakma
 
@@ -29,7 +29,7 @@ ms.locfileid: "1844285"
 
 Bu yordam bir ürün veya ana ürünün nasıl bir veya daha fazla tüzel kişiliğe serbest bırakılacağını gösterir. Bu görevi oluşturmak için kullanılan demo veri şirketi USRT'dir ve görev Satış Geliştirme Yöneticisi ve Ürün Tasarımcısı'na yöneliktir.
 
-1. Perakende ve ticaret > .. > Kategoriye göre ürünler'de.
+1. Şuraya gidin: Retail and Commerce > .. > Kategoriye göre ürünler'de.
 2. Listede, seçili satırı işaretleyin.
 3. Serbest bırakılan ürünler'e tıkla.
 4. İleri düğmesini tıklatın.

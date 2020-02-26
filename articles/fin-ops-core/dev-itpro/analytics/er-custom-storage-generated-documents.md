@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771410"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030878"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Oluşturulan belgeler için özel depolama konumu belirtin
 
@@ -56,7 +56,7 @@ Geçerli topolojide [yeni bir ER biçimi oluşturun](tasks/er-format-configurati
 
 Bir ER biçiminin oluşturduğu belgelerin nasıl yönlendirileceğini belirtmek için [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md) yapılandırmanız gerekir. Oluşturulan belgeleri dosyalar olarak depolamak için yapılandırılmış her ER hedefinde, Belge yönetimi çerçevesinin belge türünü belirtmeniz gerekir. Farklı belge türleri farklı ER biçimlerinin oluşturduğu belgeleri yönlendirmekte kullanılabilir.
 
-1. Daha önceden oluşturduğunuz veya içe aktardığınız ER biçimi için yeni bir [belge türü](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) ekleyin. Aşağıdaki örnekte, belge türü **FileX**'tir.
+1. Daha önceden oluşturduğunuz veya içe aktardığınız ER biçimi için yeni bir [belge türü](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) ekleyin. Aşağıdaki örnekte, belge türü **FileX**'tir.
 2. Bu belge türünü diğer belge türlerinden ayırt etmek için adında belirli bir anahtar kelime dahil edin. Örneğin, aşağıdaki görselde, adı **(LOCAL) folder**'dır.
 3. **Sınıf** alanında, **Dosya ekle** belirtin.
 4. **Grup** alanında, **Dosya** belirtin.
@@ -70,7 +70,7 @@ Bir ER biçiminin oluşturduğu belgelerin nasıl yönlendirileceğini belirtmek
 
 **ERDocuManagement** sınıfının **insertFile()** yönteminin kodunu gözden geçirin. **AttachingFile()** olayının, oluşturulan dosya bir kayda eklendiğinde oluştuğunu unutmayın.
 
-```
+```xpp
 /// <summary>
 /// Inserts file as attachment in Document Management.
 /// </summary>
@@ -131,7 +131,7 @@ public DocuRef insertFile(
     1. Oluşturulan dosyaları, Application Object Server (AOS) servisini çalıştıran sunucunun yerel dosya sisteminin bir klasöründe depolayın.
     2. Bu oluşturulan dosyaları yalnızca yeni belge türü (örneğin, adında "(LOCAL)" anahtar kelimesini içeren **FileX** türü) kullanıldığında, bir dosya ER çalıştırma iş günlüğünün kaydına eklendiğinde.
 
-    ```
+    ```xpp
     class ERDocuSubscriptionSample
     {
         void new()

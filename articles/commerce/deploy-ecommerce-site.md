@@ -3,7 +3,7 @@ title: Yeni bir e-Ticaret kiracısını dağıtma
 description: Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir e-ticaret kiracısı dağıtımının nasıl dağıtılacağını açıklamaktadır.
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945525"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001795"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Yeni bir e-Ticaret kiracısını dağıtma
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir e-ticaret sitesi dağıtımının nasıl dağıtılacağını açıklamaktadır.
 
 ## <a name="overview"></a>Genel Bakış
-    
+
 Microsoft Dynamics Lifecycle Services (LCS), iş ortaklarının ve müşterilerin projelerini ve ortamlarını yönetmek, Microsoft Dynamics ürünlerle ve özelliklerle ilgili en son bilgileri görüntülemek ve destek olayları oluşturmak, izlemek ve bunlara gözatmak için kullanılabilecek bulut tabanlı bir ortak çalışma alanıdır. E-ticaret yönetim özellikleri LCS ile tümleşiktir.
 
 LCS hakkında daha fazla bilgi edinmek için, [Lifecycle Services Kullanıcı Kılavuzu](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)'na bakın.
@@ -80,11 +80,16 @@ Gerekli bilgileri topladıktan sonra, e-ticaret başlatmak için aşağıdaki ad
 1. Sonraki sayfada, gerekli bilgileri doldurun ve formu gönderin. Başlatmanın başlatıldığını görmek istediğiniz **e-ticaret** sekmesine iade ediyorsunuz.
 1. Başlatma durumunu görüntülemek için ya **Yenile** ya da **e-ticaret** sekmesine daha sonra dönün.
     
-E-ticaret LCS'den başlatıldığında, sistem e-ticaret için gerekli olan birçok bileşeni sağlar ve bunları ortamla ilişkilendirir. Sağlama tamamlandıktan sonra, **Perakende yönetim** sayfasındaki **e-ticaret** sekmesi sağlama işlemini yansıtacak şekilde güncelleştirilir. Sayfa en son özelleştirme dağıtımlarını ve devam eden diğer tüm dağıtımları gösterir. Ayrıca e-ticaret sitesi ve e-ticaret sitesi yönetim aracı (geliştirme aracı) bağlantıları da içerir.
+E-ticaret LCS'den başlatıldığında, sistem e-ticaret için gerekli olan birçok bileşeni sağlar ve bunları ortamla ilişkilendirir. Sağlama tamamlandıktan sonra, **Perakende yönetim** sayfasındaki **e-ticaret** sekmesi sağlama işlemini yansıtacak şekilde güncelleştirilir. Sayfa en son özelleştirme dağıtımlarını ve devam eden diğer tüm dağıtımları gösterir. Ayrıca e-ticaret sitesi ve e-ticaret sitesi oluşturucu (sitelerin içeriğinin yazıldığı araç) bağlantıları da içerir.
 
-## <a name="access-the-authoring-environment"></a>Yazma ortamına erişim
+## <a name="access-site-builder"></a>Site oluşturucuya erişim
 
-Geliştirme ortamına erişmek için, **Perakende yönetimi** sayfasındaki **e-ticaret** sekmesine gidin. Burada e-ticaret sitenize ve site yönetim aracına bağlantılar bulacaksınız.
+Site oluşturucuya erişmek için, LCS'de **Retail Management** sayfasındaki **e-ticaret** sekmesine gidin ve **E-ticaret sitesi yönetim aracı** bağlantısını seçin. Site oluşturucunun giriş sayfası, kiracı düzeyinde bir ekran görüntüler. Bu sayfadan şunları yapabilirsiniz:
+
+- Kiracı düzeyinde ayarları değiştirin.
+- Oluşturduğunuz ve görüntüleme iznine sahip olduğunuz bir siteye gidin. 
+- Moderasyon ve raporlama gibi İncelemeler özelliklerine erişin.
+- Yeni bir site oluşturun. Yeni site oluşturma hakkında daha fazla bilgi için bkz. [Yeni e-ticaret sitesi oluşturma](create-ecommerce-site.md). 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

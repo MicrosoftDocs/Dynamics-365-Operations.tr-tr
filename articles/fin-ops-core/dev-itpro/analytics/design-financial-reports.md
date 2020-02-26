@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc68289514dc3b201b423091c92fa128d3065707
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 079439d95597056919d5a8c73b829d79a3b02211
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536813"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002555"
 ---
 # <a name="view-and-design-financial-reports"></a>Mali raporları görüntüleme ve tasarlama
 
@@ -172,8 +172,8 @@ Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir dep
 3. Sırasıyla **Dosya**, **Yeni** ve **Sütun Tanımı** düğmelerini tıklayarak yeni bir sütun tanımı oluşturun.
 4. **Sütun A**'da sütun türünü **DESC** olarak seçin.
 5. **Sütun B**'de sütun türünü **FD** olarak seçin.
-6. **Boyut Filtresi** alanını çift tıklayın.
-7. **Boyut** penceresinde, **Departman** sütununu çift tıklayın.
+6. **Boyut Filtresi** alanına çift tıklayın.
+7. **Boyut** penceresinde, **Departman** sütununa çift tıklayın.
 8. İletişim penceresinin Bireysel veya aralık bölümünde, departmanların bir listesini görüntülemek için **Başlangıç** alanından **elips** öğesini tıklayın.
 9. Departman **022**, **Satış ve Pazarlama** seçimini yapın ve ardından **Tamam** öğesini tıklayın.
 10. Departman 23-25 için 5 ile 8. adımlar arasındaki işlemleri tekrarlayın.
@@ -197,4 +197,4 @@ Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir dep
 
 [Mali raporları görüntüleme](../../../finance/general-ledger/view-financial-reports.md)
 
-[Dynamics Mali Raporlama Blogu](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics Mali Raporlama Blogu](https://blogs.msdn.com/b/dynamics_financial_reporting/)

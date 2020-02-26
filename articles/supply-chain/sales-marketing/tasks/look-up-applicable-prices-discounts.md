@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db9caaa7f425133eda7a5f225b39ca52e11e0716
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835605"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025840"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Uygulanabilir fiyatları ve iskontoları arama
 
@@ -49,7 +49,7 @@ Bu yordam, bir satış siparişi oluşturmak zorunda kalmadan belirli bir müşt
 10. Sayfayı kapatın.
 
 ## <a name="find-the-applicable-discount"></a>Uygulanabilir indirimi bulun
-    * Müşteri hesabı alanının müşteri numarası US-001'i içerdiğinden emin olun    
+Müşteri hesabı alanının müşteri numarası US-001'i içerdiğinden emin olun    
 1. Madde numarası alanına 'T0012' girin.
     * Miktar alanının 1'e ayarlandığından emin olun.  
     * Gösterilen ürün T0012 için aşağıdaki fiyatlandırma ayrıntıları bir veya daha fazla ticari sözleşmeden ileri gelmektedir: Birim fiyatı 1.000 Kanada doları ve iskonto yüzde 5.  

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adfb8ffce3f91c0e8e8b996c284414f5ddc1baf1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562542"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004077"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Stok, üretim ve satıştaki maddeleri ve hammaddeleri izleme
 
@@ -44,7 +44,7 @@ Madde izleme, tedarik zincirindeki madde ve hammaddelerin kaynak ve hedefine gö
 -   Bir madde veya hammaddenin başka bir maddenin üretiminde nerede tüketildiğini araştırmak.
 
 ## <a name="what-can-i-trace-and-are-there-any-limitations"></a>Neyi izleyebilirim ve sınırlamalar var mı?
-Madde ve hammaddelere yönelik geçmiş stok hareketlerini bir madde numarasına ve seri numarası, toplu iş numarası veya satıcı toplu iş numarası gibi bir izleme boyutuna dayalı olarak izleyebilirsiniz. Bir madde veya hammaddeyi yalnızca bir izleme boyutu atanmışsa izleyebilirsiniz. İzleme stok hareketlerine dayandığından, maddeleri izlerken bazı sınırlamalar vardır. Örneğin projelere, sabit kıymetlere ve perakendeye yönelik hareketlere ilişkin sınırlamalar vardır. Ayrıca, ortak ürünler izleme ayrıntılarında gösterilir, ancak yan ürünler dahil edilmez. İzleme bir konumdan diğerine tüm ambar hareketlerini içerir. Bu nedenle, kullanıcılar bilgi miktarını aşırı fazla bulabilir. İzleme aynı anda tek bir tüzel kişilik için görüntülenir. Şirketler arası bağlamda hiçbir şirketler arası kabiliyet yoktur. Bir madde alındığında veya gönderildiğinde her bir şirket için mutlaka yeni bir izleme başlatmanız gerekir.
+Madde ve hammaddelere yönelik geçmiş stok hareketlerini bir madde numarasına ve seri numarası, toplu iş numarası veya satıcı toplu iş numarası gibi bir izleme boyutuna dayalı olarak izleyebilirsiniz. Bir madde veya hammaddeyi yalnızca bir izleme boyutu atanmışsa izleyebilirsiniz. İzleme stok hareketlerine dayandığından, maddeleri izlerken bazı sınırlamalar vardır. Örneğin projelere, sabit kıymetlere ve ticarete yönelik hareketlere ilişkin sınırlamalar vardır. Ayrıca, ortak ürünler izleme ayrıntılarında gösterilir, ancak yan ürünler dahil edilmez. İzleme bir konumdan diğerine tüm ambar hareketlerini içerir. Bu nedenle, kullanıcılar bilgi miktarını aşırı fazla bulabilir. İzleme aynı anda tek bir tüzel kişilik için görüntülenir. Şirketler arası bağlamda hiçbir şirketler arası kabiliyet yoktur. Bir madde alındığında veya gönderildiğinde her bir şirket için mutlaka yeni bir izleme başlatmanız gerekir.
 
 ## <a name="what-criteria-can-i-specify-for-an-item-trace"></a>Bir madde izlemesi için hangi kriterleri belirleyebilirim?
 Bir madde izlemesi için gereken kriterler (madde numarası, toplu iş numarası veya seri numarası gibi) bir izleme boyutu ve yöndür. Aşağıdaki tabloda, madde izlemesi için kullanabileceğiniz kriterler açıklanmaktadır.

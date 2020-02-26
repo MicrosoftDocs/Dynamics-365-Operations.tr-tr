@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914922"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001841"
 ---
 # <a name="customize-site-navigation"></a>Site gezintisini özelleştirme
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce sitenizde gezinmek üzere ürünlerinizi düzenlemek için özelleştirilmiş bir çevrimiçi gezinti hiyerarşisinin nasıl oluşturulacağını açıklamaktadır.
@@ -35,11 +35,11 @@ Bu konu, Microsoft Dynamics 365 Commerce sitenizde gezinmek üzere ürünleriniz
 
 Çevrimiçi mağazalar, genel olarak ürün kategorilerine giderek gezinerek ürünlere keşif ve göz atma sağlar. Bu özellik genellikle sayfanın üst kısmındaki sekmeler veya soldaki bir gezinti çubuğu ile sağlanır. Dynamics 365 Commerce'te, kategori gezinimin hiyerarşik yapısını ve çeşitli kategorilerde bulunan ürünleri oluşturabilir ve yönetebilirsiniz.
 
-## <a name="create-a-retail-channel-navigation-hierarchy"></a>Perakende kanalı gezinme hiyerarşisi oluştur
+## <a name="create-a-channel-navigation-hierarchy"></a>Kanal gezinme hiyerarşisi oluşturma
 
-Perakende kanalı gezinti hiyerarşisi oluşturmak için aşağıdaki adımları izleyin.
+Kanal gezinti hiyerarşisi oluşturmak için aşağıdaki adımları izleyin.
 
-1. **Perakende \> Ürünler ve kategoriler \> Kategori ve ürün yönetimi**'ne gidin.
+1. **Retail and Commerce \> Ürünler ve kategoriler \> Kategori ve ürün yönetimi**'ne gidin.
 1. **Kategori hiyerarşileri** ve ardından **Yeni**yi seçin.
 1. Hiyerarşiyi adlandırın.
 
@@ -57,28 +57,28 @@ Varsayılan olarak tanımladığınız Kategoriler sitenizde alfabetik sırada g
 
 ## <a name="assign-a-category-hierarchy-type"></a>Kategori hiyerarşisi türü atayın
 
-1. **Perakende \> Ürünler ve kategoriler \> Kategori ve ürün yönetimi**'ne gidin.
+1. **Retail and Commerce \> Ürünler ve kategoriler \> Kategori ve ürün yönetimi**'ne gidin.
 1. **Kategori hiyerarşileri** seçin.
 1. Ardından Eylem Bölmesinde, **kategori hiyerarşisi** sekmesindeki **Ayar** gurubunda **Hiyerarşi türünü ilişkilendir**'i seçin.
 1. **Yeni**'yi seçin.
-1. **Kategori hiyerarşisi türü** alanında **Perakende kanalı gezinme hiyerarşisi** seçin.
+1. **Kategori hiyerarşisi türü** alanında, **Kanal gezinme hiyerarşisi**'ni seçin.
 1. **Kategori hiyerarşisi** alanında, daha önce oluşturduğunuz kanal gezinme hiyerarşisini seçin.
 
 ## <a name="publish-new-or-updated-navigation-hierarchies"></a>Yeni veya güncelleştirilmiş gezinti hiyerarşileri Yayımla
 
 Gezinti hiyerarşinizi çevrimiçi mağaza için kullanılabilir hale getirmek için, aşağıdaki adımları izleyin.
 
-1. **Perakende \> Kanal Kurulumu \> Kanal kategorileri ve ürün nitelikleri** seçeneğine gidin.
+1. **Retail and Commerce \> Kanal Kurulumu \> Kanal kategorileri ve ürün öznitelikleri**'ne gidin.
 1. Soldaki ağaçta, çevrimiçi mağazayı seçin.
 1. **Kanal güncelleştirmelerini yayınla**'yı seçin.
-1. **Perakende \> Perakende BT \> Dağıtım planı öğesine** gidin.
+1. **Retail and Commerce \> Retail and Commerce IT \> Dağıtım planı**'na gidin.
 1. Listede, **İş 1040** kodlu bulun ve seçin
 1. **Şimdi Çalıştır**'ı seçin.
 1. 1070 ve 1150 işleri için 5 ve 6 numaralı adımları yineleyin.
 
 ## <a name="show-categories-on-your-site"></a>Sitenizde kategorileri gösterin
 
-Kategori hiyerarşinizi çevrimiçi mağazada göstermek için, şablon veya parçadaki uygun konuma gezinti menüsü modülünü eklemeniz gerekir. Daha sonra gezinti menü modülü, sitenizin bağlı olduğu kanala perakende gezinti hiyerarşinizi yayımladığınızda, gezinti hiyerarşinizi gösterecektir.
+Kategori hiyerarşinizi çevrimiçi mağazada göstermek için, şablon veya parçadaki uygun konuma gezinti menüsü modülünü eklemeniz gerekir. Daha sonra gezinti menü modülü, sitenizin bağlı olduğu kanala gezinti hiyerarşinizi yayımladığınızda, gezinti hiyerarşinizi gösterecektir.
 
 > [!NOTE]
 > Mağaza başlangıç setinde bulunan gezinti menü modülü, kullanıcıların yalnızca alt kategorileri olmayan kategorilere gitmesine izin verir. Müşterilerinizin alt kategorileri olan kategorilere gidebilmesi gerekiyorsa, gezinti menü modülünü özelleştirmeniz gerekir.

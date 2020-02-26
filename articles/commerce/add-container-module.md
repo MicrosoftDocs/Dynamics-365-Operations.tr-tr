@@ -3,7 +3,7 @@ title: Konteyner modülü
 description: Bu konu konteyner modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,27 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22a09b61fbe3bd1cca96011d3fb81a12ef1bc844
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697072"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025540"
 ---
 # <a name="container-module"></a>Konteyner modülü
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu konteyner modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
 ## <a name="overview"></a>Genel Bakış
 
-Konteyner modülü, diğer modülleri barındıran bir modüldür. Bu, Dynamics 365 Commerce'de kullanılan en genel konteynerdir. Bir konteyner modülünün birincil amacı, kendisi için ayarlanan özellikler boyunca, içinde olan modüllerin düzenini tanımlamak amacıyla kullanılır. Örneğin, bu modüller iki sütunlu, üç sütunlu, dört sütunlu veya altı sütunlu düzende yan yana görüntülenebilir. Ayrıca, konteyner genişliği ile sınırlanabilirler veya ekranı doldurabilirler. Bir başlık, her konteyner modüle da eklenebilir.
+Konteyner modülü, diğer modülleri barındıran bir modüldür. Bir konteyner modülünün birincil amacı, kendisi için ayarlanan özellikler boyunca, içinde olan modüllerin düzenini tanımlamak amacıyla kullanılır. Örneğin, bu modüller iki sütunlu, üç sütunlu, dört sütunlu veya altı sütunlu düzende yan yana görüntülenebilir. Ayrıca, konteyner genişliği ile sınırlanabilirler veya ekranı doldurabilirler. Bir başlık, her konteyner modüle da eklenebilir.
 
-Üç standart konteyner Modül türü vardır: konteyner, 2-yuvası olan konteyner ve 3-yuvası olan konteyner. Her türlü modül türünün modülleri bu konteynerlerin içine yerleştirilebilir. Ayrıca döngü, içerik zengin bloğu, içerik yerleşimi, sepet, ödeme, satın alma kutusu, başlık ve altbilgi gibi özel tür konteyner modülleri vardır. Bu konteynerlerin belirli amaçları vardır ve yalnızca belirli desteklenen modül türleri bunların içine yerleştirilebilir.
+Üç konteyner modülü desteklenir: konteyner, 2 yuvalı konteyner ve 3 yuvalı konteyner. Her türlü modül türünün bu konteynerlerin içine yerleştirilebilir. 
 
-Modüllerin konteyner genişliğiyle sınırlanabilmesi için bunları bir konteyner içinde yerleştirmenizi öneririz.
+> [!NOTE] 
+> Her zaman modüllerin konteyner genişliğiyle sınırlanabilmesi için bunları bir konteyner modülünün içinde yerleştirmenizi öneririz.
 
 ## <a name="examples-of-container-modules-in-e-commerce"></a>E-ticarette konteyner modülleri örnekleri
 
@@ -98,20 +99,19 @@ Farklı görünüm bağlantı noktalarının düzenini en iyi duruma getirmek i�
 
 Bir yeni sayfaya konteyner oynatma modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Konteyner şablonu** adlı bir sayfa şablonu oluşturun.
-1. Varsayılan sayfanın **ana** yuvasına bir konteyner modülü ekleyin.
-1. Koteyner modülüne bir özellik modülü ekleyin.
-1. Şablonu giriş yapın ve yayımlayın.
+1. **Konteyner şablonu** adlı bir sayfa şablonu oluşturun. 
+1. **Gövde** yuvasında bir **Varsayılan sayfa** modülü ekleyin.
+1. Şablon düzenlemeyi tamamlayın ve sonra yayımlayın.
 1. **Konteyner sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz konteyner şablonunu kullanın.
 1. Yeni sayfanın **ana** yuvasına bir konteyner modülü ekleyin.
-1. Konteyner modülüyle ilgili Özellik bölmesinde, **sütun sayısı** özelliğini **1**'e ve **Genişlik** özelliğini  **kapsayıcıya uyacak** şekilde ayarlayın.
-1. Koteyner modülüne bir özellik modülü ekleyin.
-1. Özellik modülünün Özellik bölmesinde bir başlık konfigüre edin.
+1. Konteyner modülüyle ilgili Özellik bölmesinde, **sütun sayısı** özelliğini **1**'e ve **Genişlik** özelliğini **Kapsayıcıyı doldur** şekilde ayarlayın.
+1. Konteyner modülünde, bir içerik bloku modülü ekleyin.
+1. İçerik bloğu modülü özellik bölmesinde başlığı, görüntüyü ve düzeni yapılandırın.
 1. Sayfayı kaydet ve önizleyin. Konteyner modülünün genişliğine uyan tek bir özellik modülü görmelisiniz.
 1. Konteyner modülüyle ilgili özellik bölmesinde, **sütun sayısı** özelliğinin değerini **3** olarak değiştirin.
-1. Koteyner modülüne iki veya daha fazla özellik modülü ekleyin.
-1. Sayfayı kaydet ve önizleyin. Yan yana görünen üç özellik modülü şimdi görmelisiniz.
-1. İstediğiniz düzeni elde ettikten sonra, sayfayı iade edin ve yayımlayın.
+1. Koteyner modülüne iki veya daha fazla içerik bloku modülü ekleyin.
+1. Sayfayı kaydet ve önizleyin. Yan yana görünen üç içerik bloku modülü şimdi görmelisiniz.
+1. İstediğiniz düzeni elde ettikten sonra, sayfayı düzenlemeyi bitirin ve yayımlayın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -119,11 +119,9 @@ Bir yeni sayfaya konteyner oynatma modülü eklemek ve gerekli özellikleri ayar
 
 [Döngü modülü](add-carousel.md)
 
-[İçerik zengin blok modülü](add-content-rich-block.md)
+[Metin bloku modülü](add-content-rich-block.md)
 
-[İçerik yerleştirme modülü](add-content-placement-modules.md)
-
-[Satın alma kutusu modülü](add-buy-box.md)
+[Satınalma kutusu modülü](add-buy-box.md)
 
 [Sepet modülü](add-cart-module.md)
 

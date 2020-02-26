@@ -3,7 +3,7 @@ title: Parçalarla çalışma
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta parçaları neden, ne zaman ve ne zaman kullanılacağını açıklamaktadır.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32482538b2913e6585257bcf7a1cbe780d3cdd30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914712"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026052"
 ---
 # <a name="work-with-fragments"></a>Parçalarla çalışma 
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta parçaları neden, ne zaman ve ne zaman kullanılacağını açıklamaktadır.
@@ -57,25 +57,34 @@ Aşağıdaki şekil, bir e-ticaret sitesinde paylaşılan modül konfigürasyonl
 
 Yeni bir parça oluşturabilir veya varolan bir modül konfigürasyonunu parça olarak kaydedebilirsiniz.
 
+### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Varolan bir modül konfigürasyonunu parça olarak kaydet
+
+Önceden yapılandırılmış bir modülü yeniden kullanılabilir parçaya dönüştürmek için aşağıdaki adımları izleyin.
+
+1. Bir parçaya dönüştürmek istediğiniz modülü içeren sayfayı veya şablonu açın.
+1. Soldaki anahat bölmesinde üç nokta düğmesini (**...**) ve modül adının yanında. 
+1. **Parça olarak Paylaş**'ı seçin. 
+1. İletişim kutusu görüntülenir. Parça için bir ad ve meta veri girin.
+1. Modül konfigürasyonunu diğer sayfalara eklenebilecek bir parça olarak kaydetmek için **Tamam**'ı seçin.
+
+Aşağıdaki resimde bir modül yapılandırmasının bir parça olarak nasıl kaydedileceği gösterilmektedir.
+
+![Bir modül yapılandırmasının parça olarak nasıl kaydedileceği ile ilgili bir ekran yakalama](./media/save-as-fragment.png)
+
 ### <a name="create-a-new-fragment"></a>Yeni bir parça oluşturun.
 
 Bir yeni parça oluşturmak için şu adımları izleyin.
 
 1. Soldaki gezinti bölmesinde **Parçalar** seçin.
 1. **Yeni Sayfa Parçası**'nı seçin. Kullanılabilen tüm modül türlerini gösteren bir iletişim kutusu görüntülenir. Daha önce belirtildiği gibi, parçalar herhangi bir modül türünden oluşturulabilir.
-1. Parçanız için bir modül türü seçin ve sonra **Tamam**'ı seçin.
+1. Parçanız için bir modül türü seçin.
 
-    > [!TIP]
-    > Genel bir konteyner modülü türü seçerek parçanız daha sonra güncelleştirmeniz ve yapılandırmanız gerektiğinde en iyi esnekliği elde edebilirsiniz.
+Aşağıdaki resimde, yeni bir parçanın oluşturulacağı yer gösterilmiştir.
 
-### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Varolan bir modül konfigürasyonunu parça olarak kaydet
+![Yeni parçanın oluşturulacağı yerin Ekran yakalaması](./media/fragment-nav-menu.png)
 
-Önceden yapılandırılmış bir modülü yeniden kullanılabilir parçaya dönüştürmek için aşağıdaki adımları izleyin.
-
-1. Bir parçaya dönüştürmek istediğiniz modülü içeren sayfayı veya şablonu açın.
-1. Soldaki anahat bölmesinde, modülün adının yanında üç nokta düğmesini (**...**) seçin ve **Parça olarak kaydet** seçin. İletişim kutusu görüntülenir.
-1. Parça için bir ad ve meta veri girin.
-1. Modül konfigürasyonunu diğer sayfalara eklenebilecek bir parça olarak kaydetmek için **Tamam**'ı seçin.
+> [!TIP]
+> Genel bir konteyner modülü türü seçerek parçanız daha sonra güncelleştirmeniz ve yapılandırmanız gerektiğinde en iyi esnekliği elde edebilirsiniz.
 
 ## <a name="add-remove-or-edit-fragments-on-a-page"></a>Sayfaya parça ekleme, kaldırma veya düzenleme
 
@@ -88,11 +97,15 @@ Bir sayfaya parça eklemek için bu adımları izleyin.
 1. Soldaki anahat bölmesinde, alt modüllerin eklenebileceği bir konteyner veya yuva seçin.
 1. Konteyner veya yuvanın adının yanındaki üç nokta düğmesini seçin ve **parça Ekle**'yi seçin. İletişim kutusu görüntülenir.
 
+    ![Bir yuvaya veya kapsayıcıya varolan bir parçanın nasıl ekleneceği ile ilgili bir ekran yakalama](./media/add-fragment.png)
+ 
     > [!NOTE]
     > Bir konteyner veya yuva yeni alt modülleri desteklemiyorsa, **Parça Ekle** seçeneği kullanılamaz.
-
+    
 1. İletişim kutusunda, eklenecek bir parça arayıp seçin. Listelenmiş parça listelenmezse, önce seçilen konteyner veya yuvanın desteklediği bir modül türünden bir parça oluşturmanız gerekebilir.
-1. Seçili parça sayfanızdaki seçili konteynere veya yuvaya eklemek için **Tamam**'ı seçin.
+1. Seçili parça sayfanızdaki seçili konteynere veya yuvaya eklemek için istediğiniz parçayı seçin.
+
+    ![Parça seçicinin kalıcı penceresindeki Ekran yakalaması](./media/fragment-picker.png)
 
 > [!NOTE]
 > Bir konteynerde veya bir yuvada izin verilen modüller, sayfa şablonu veya modüllerin kendi tanımları tarafından tanımlanır.

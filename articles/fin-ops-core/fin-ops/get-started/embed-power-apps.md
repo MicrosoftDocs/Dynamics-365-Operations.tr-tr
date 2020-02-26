@@ -16,104 +16,104 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
-ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
+ms.openlocfilehash: 9585d5a399ebf45b0ad7640f3c4e48d8afc46cd8
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "2870253"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017740"
 ---
 # <a name="embed-microsoft-power-apps"></a>Microsoft Power Apps'i katıştırma
 
 [!include [banner](../includes/banner.md)]
 
-Platform güncelleştirmesi 14,  hizmet geliştiricileri ve teknik olmayan kullanıcıların kod yazmadan mobil cihazlar, tabletler ve web için özel iş uygulamaları oluşturmasını sağlayan bir hizmet olan Microsoft Power Apps ile tümleştirmeyi destekler. Sizin tarafınızdan geliştirilen Power Apps, kuruluşunuz veya daha geniş bir ekosistem tarafından geliştirilmiş PowerApps ürün işlevselliğini artırmak amacıyla Finance and Operations uygulamalarına katıştırılabilir. Örneğin, başka bir sistemden alınan bilgileri Finance and Operations uygulamalarına eklemek için bir Power App oluşturabilirsiniz.
+Finance and Operations, hizmet geliştiricileri ve teknik olmayan kullanıcıların kod yazmadan mobil cihazlar, tabletler ve web için özel iş uygulamaları oluşturmasını sağlayan bir hizmet olan Microsoft Power Apps ile tümleştirmeyi destekler. Ürün işlevselliğini artırmak için, siz, kuruluşunuz veya daha geniş bir ekosistem tarafından geliştirilen Power Apps, Finance and Operations uygulamalarına katıştırılabilir. Örneğin, Power Apps'ten, başka bir sistemden alınan bilgilerle bir Finance and Operations uygulamasına destek olan bir uygulama oluşturabilirsiniz.
 
-Katıştırılmış Power Apps hakkında daha fazla bilgi için [Power Apps'a  katıştırma](https://www.youtube.com/watch?v=x3qyA1bH-NY) kısa videosunu izleyin.
+Katıştırılmış Power Apps hakkında daha fazla bilgi için [Power Apps'a katıştırma](https://www.youtube.com/watch?v=x3qyA1bH-NY) kısa videosunu izleyin.
 
-## <a name="adding-an-embedded-power-app-to-a-page"></a>Bir sayfaya katıştırılmış bir Power App ekleme
+## <a name="adding-an-embedded-app-from-power-apps-to-a-page"></a>Power Apps'ten bir sayfaya katıştırılmış bir uygulama ekleme
 
-### <a name="overview"></a>Genel bakış
+### <a name="overview"></a>Genel Bakış
 
-İstemciye bir Power App katıştırmadan önce istediğiniz görsellere ve/veya işleve sahip bir Power App bulmanız ya da oluşturmanız gerekir. Burada bir Power App oluşturma işlemini ayrıntılı şekilde açıklamayacağız. Power Apps'te yeniyseniz [Power Apps'a giriş](https://docs.microsoft.com/powerapps/getting-started) konusu iyi bir başlangıç noktası olabilir.
+İstemciye Power Apps'ten bir uygulama katıştırmadan önce, istediğiniz görsellere ve/veya işleve sahip bir uygulama bulmanız veya oluşturmanız gerekir. Burada uygulamalar oluşturma sürecini ayrıntılı şekilde açıklamayacağız. Power Apps'te yeniyseniz [Power Apps'a giriş](https://docs.microsoft.com/powerapps/getting-started) konusu iyi bir başlangıç noktası olabilir.
 
-Belirli bir Power App'i eklemek için hazır duruma geldiğinizde, bir sayfada Power App'e ulaşmanın iki yolundan sizin senaryonuza en uygun olanını seçebilirsiniz. İlk yöntem standart Eylem Bölmesine eklenmiş olan Power Apps düğmesini kullanmaktır. Bu mekanizma kullanılarak eklenen Power Apps, Power Apps menü düğmesi içinde menü öğeleri olarak görünür. Seçildiğinde, bu menü öğelerinden her biri katıştırılmış Power App içeren bir yan bölme açar. Alternatif olarak, Power App'i doğrudan sayfada yeni bir sekme, hızlı sekme, dikey pencere veya bir çalışma alanındaki yeni bir bölüm olarak göstermeyi tercih edebilirsiniz.
+Belirli bir uygulamayı eklemek için hazır olduğunuzda, bir sayfada uygulamaya ulaşmanın iki yolundan sizin senaryonuza en uygun olanını seçebilirsiniz. İlk yöntem standart Eylem Bölmesine eklenmiş olan Power Apps düğmesini kullanmaktır. Bu mekanizma kullanılarak eklenen uygulamalar Power Apps menü düğmesi içinde menü öğeleri olarak görünür. Seçildiğinde, bu menü öğelerinden her biri katıştırılmış uygulama içeren bir yan bölme açar. Alternatif olarak, bir uygulamayı bir sayfada yeni bir sekme, hızlı sekme, dikey pencere veya bir çalışma alanındaki yeni bir bölüm olarak doğrudan katıştırmayı tercih edebilirsiniz.
 
-Katıştırılmış Power App'inizi yapılandırırken, Power App'e giriş olarak göndermek istediğiniz tek bir alan seçebilirsiniz. Bu, Power App'in gördüğünüz geçerli verileri temel alarak yanıt vermesini sağlar.
+Katıştırılmış uygulamanızı yapılandırırken, uygulamaya bağlam olarak göndermek istediğiniz tek bir alan seçebilirsiniz. Bu, uygulamanın görüntülemekte olduğunuz verileri temel alarak yanıt vermesini sağlar.
 
 ### <a name="details"></a>Ayrıntılı
 
-Aşağıdaki yönergeler bir Power App'in web istemcisine nasıl katıştırılacağını gösterir.
+Aşağıdaki yönergeler Power Apps'ten bir uygulamanın web istemcisine nasıl katıştırılacağını gösterir.
 
-1. Power App'i katıştırmak istediğiniz sayfaya gidin. Bu, Power App'e giriş olarak geçirilmesi gereken verileri içeren sayfanın aynısı olacaktır.
-2. **Power App ekle** bölmesini açın:
+1. Uygulamayı katıştırmak istediğiniz sayfaya gidin. Bu, uygulamaya bağlam olarak geçirilmesi gereken verileri içeren sayfanın aynısı olacaktır.
+2. **Power Apps'ten bir uygulama ekle** bölmesini açın:
 
-    - **Seçenekler**'e tıklayın ve **Bu formu kişiselleştir**'i seçin. **Ekle** menüsünün altında **Power App**'i seçin. Son olarak, Power App'i eklemek istediğiniz bölgeyi seçin. Power App'i Power Apps menü düğmesinin altına katıştırmak istiyorsanız Eylem Bölmesi'ni seçin. Power App'i doğrudan sayfaya katıştırmak istiyorsanız uygun sekmeyi, hızlı sekmeyi, dikey pencereyi veya bölümü (bir çalışma alanındaysanız) seçin.
-    - Power App'e Power Apps menü düğmesi kullanılarak erişilecekse bunun yerine standart Eylem Bölmesi'ndeki **Power Apps** menü düğmesine tıklayıp ardından **Power App Ekle**'yi seçebilirsiniz.
+    - **Seçenekler**'e tıklayın ve **Bu sayfayı kişiselleştir**'i seçin. **Ekle** menüsünden **Power Apps**'i seçin. Son olarak, uygulamayı eklemek istediğiniz bölgeyi seçin. Uygulamayı Power Apps menü düğmesinin altına katıştırmak istiyorsanız Eylem Bölmesi'ni seçin. Uygulamayı sayfaya doğrudan katıştırmak istiyorsanız uygun sekmeyi, hızlı sekmeyi, dikey pencereyi veya bölümü (bir çalışma alanındaysanız) seçin.
+    - Uygulamaya Power Apps menü düğmesiyle erişilecekse, alternatif olarak, standart Eylem Bölmesi'ndeki **Power Apps** menü düğmesine tıklayıp ardından **Uygulama ekle**'yi seçebilirsiniz.
 
-3. Katıştırılmış Power App'i yapılandırın:
+3. Katıştırılmış uygulamayı yapılandırın:
 
-    - **Ad** alanı, katıştırılmış Power App'i içerecek olan düğme veya sekme için gösterilecek metni belirtir. Çoğu kez, bu alanda Power App adını tekrarlamak isteyebilirsiniz.
-    - **Uygulama kodu** katıştırmak istediğiniz Power App'in GUID değeridir. Bu değeri almak için [web.powerapps.com](https://web.powerapps.com) adresinde Power App'i bulun ve ardından **Ayrıntılar** altında **Uygulama kodu** alanını bulun.
-    - **Power App için giriş verisi** için isteğe bağlı olarak Power App'e geçirmek istediğiniz verileri içeren alanı seçebilirsiniz. Power App'in Finance and Operations uygulamalarından gönderilen verilere nasıl erişebileceğine ilişkin ayrıntılar için bu konunun ilerleyen kısmındaki [Finance and Operations uygulamalarının verilerinden yararlanan bir Power App oluşturma](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) bölümüne bakın.
-    - Katıştırdığınız Power App türüyle eşleşen **Uygulama boyutu**'nu seçin. Mobil cihazlar için oluşturulan Power Apps için **İnce**, tabletler için oluşturulan Power Apps için **Geniş** seçeneğini belirleyin. Bu, katıştırılmış Power App için yeterli miktarda alan ayrılmasını sağlar.
-    - **Tüzel kişilikler** hızlı sekmesi, Power App'in hangi tüzel kişilikler tarafından kullanılabileceğini seçme olanağı tanır. Power App varsayılan olarak tüm tüzel kişiliklere gösterilir.
+    - **Ad** alanı, katıştırılmış uygulamayı içerecek olan düğme veya sekme için gösterilecek metni belirtir. Çoğu kez, bu alanda uygulamanın adını yinelemek isteyebilirsiniz.
+    - **Uygulama kodu**, katıştırmak istediğiniz uygulamanın GUID değeridir. Bu değeri almak için [web.powerapps.com](https://web.powerapps.com) adresinde uygulamayı bulun ve **Ayrıntılar** altından **Uygulama kodu** alanını bulun.
+    - **Uygulama için giriş bilgisi** için, isteğe bağlı olarak uygulamaya geçirmek istediğiniz verileri içeren alanı seçebilirsiniz. Uygulamanın Finance and Operations uygulamalarından gönderilen verilere nasıl erişebileceğine ilişkin ayrıntılar için bu konunun ilerleyen kısmındaki [Finance and Operations uygulamalarının verilerinden yararlanan uygulamalar oluşturma](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) bölümüne bakın.
+    - Katıştırdığınız uygulamanın türüyle eşleşen **Uygulama boyutu**'nu seçin. Mobil cihazlara yönelik oluşturulan uygulamalar için **İnce**'yi, tabletlere yönelik oluşturulan uygulamalar için **Geniş**'i seçin. Bu, katıştırılmış uygulama için yeterli alan ayrılmasını sağlar.
+    - **Tüzel kişilikler** hızlı sekmesi, uygulamanın hangi tüzel kişilikler tarafından kullanılabileceğini seçme olanağı tanır. Varsayılan ayar, uygulamayı tüm tüzel kişiliklere erişebilir yapmaktır. Bu seçenek yalnızca [Kaydedilmiş görünümler](saved-views.md) özelliği devre dışı bırakılınca kullanılabilir. 
 
-4. Yapılandırmanın doğru olduğunu onayladıktan sonra Power App'i sayfaya katıştırmak için **Ekle**'ye tıklayın. Katıştırılmış Power App'i görmek için tarayıcıyı yenilemeniz istenir.
+4. Yapılandırmanın doğru olduğunu onayladıktan sonra Power App'i sayfaya katıştırmak için **Ekle**'ye tıklayın. Katıştırılmış uygulamayı görmek için tarayıcıyı yenilemeniz istenir.
 
-## <a name="sharing-an-embedded-power-app"></a>Katıştırılmış bir Power App paylaşma
+## <a name="sharing-an-embedded-app"></a>Katıştırılmış bir uygulamayı paylaşma
 
-Bir sayfaya Power App'i katıştırdıktan sonra ve bunun sayfadan aktarılan her veri bağlamı ile düzgün çalıştığını onayladıktan sonra, bu katıştırılmış Power App'i sistemdeki diğer kullanıcılarla paylaşmak isteyebilirsiniz. Bunu üründeki kişiselleştirme özelliklerini kullanarak iki farklı yoldan yapabilirsiniz:
+Bir sayfaya uygulamayı katıştırdıktan sonra ve bunun sayfadan aktarılan her veri bağlamı ile düzgün çalıştığını onayladıktan sonra sistemdeki diğer kullanıcılarla paylaşmak isteyebilirsiniz. Bunu üründeki kişiselleştirme özelliklerini kullanarak iki farklı yoldan yapabilirsiniz:
 
 - Önerilen senaryo bu işlemi bir kişiselleştirmeyi tüm kullanıcılara veya bir kullanıcı alt kümesine sunabilecek olan sistem yöneticisi aracılığıyla gerçekleştirmektir.
-- Alternatif olarak, sayfanızdaki kişiselleştirmeleri dışa aktarabilir, bir veya daha fazla kullanıcıya gönderebilir ve bu kullanıcıların değişiklikleri içe aktarmalarını isteyebilirsiniz. Kişiselleştirme araç çubuğundaki Yönet seçeneği kişiselleştirmeleri dışa ve içe aktarmanıza olanak tanır.
+- Alternatif olarak, sayfanızdaki kişiselleştirmeleri dışa aktarabilir, bir veya daha fazla kullanıcıya gönderebilir ve bu kullanıcıların değişiklikleri içe aktarmalarını isteyebilirsiniz. Kişiselleştirme araç çubuğunda, kişiselleştirmeleri dışa ve içe aktarmanıza olanak sağlayan eylemler vardır.
 
 Üründeki kişiselleştirme özelliklerini ve onları nasıl kullanacağınıza dair daha fazla ayrıntı için bkz. [kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
 
-## <a name="building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps"></a>Finance and Operations uygulamalarının verilerinden yararlanan bir Power App oluşturma
+## <a name="building-an-app-that-leverages-data-sent-from-finance-and-operations-apps"></a>Finance and Operations uygulamalarından gönderilen verileri kullanan bir uygulama oluşturma
 
-Finance and Operations uygulamalarına katıştırılacak bir Power App oluşturmanın önemli bir bölümü Finance and Operations uygulamalarından alınan giriş verilerini kullanmaktır. Power App içinde, bu giriş verilerine Param("EntityId") değişkeni kullanılarak erişilebilir.
+Power Apps'ten bir Finance and Operations uygulamasında katıştırılacak bir uygulama oluşturmanın önemli bir bölümü, o uygulamadaki giriş verilerinden yararlanmaktır. Power Apps geliştirme deneyiminden, bir Finance and Operations uygulamasından geçirilen giriş verilerine Param("EntityId") değişkeni kullanarak erişilebilir.
 
-Örneğin, Power App'in OnStart işlevinde, Finance and Operations uygulamalarından alınan giriş verilerini bir değişkene şu şekilde ayarlayabilirsiniz:
+Örneğin, uygulamanın OnStart işlevinde, Finance and Operations uygulamalarından alınan giriş verilerini bir değişkene şu şekilde ayarlayabilirsiniz:
 
 ```
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
-## <a name="viewing-an-embedded-power-app"></a>Katıştırılmış bir Power App görüntüleme
+## <a name="viewing-an-app"></a>Uygulamayı görüntüleme
 
-Katıştırılmış bir Power App'i Finance and Operations uygulamalarındaki bir sayfada görüntülemek için katıştırılmış Power App'in bulunduğu sayfaya gitmeniz yeterlidir. Power Apps'a standart Eylem Bölmesindeki Power Apps düğmesi aracılığıyla erişilebileceğini veya sayfada doğrudan yeni bir sekme, hızlı sekme, dikey pencere veya bir çalışma alanındaki yeni bir bölüm olarak görünebileceğini unutmayın. Bir kullanıcı bir sayfada Power App'i ilk yüklemeye çalıştığında, kullanıcının Power App'i kullanmak için gerekli izinlere sahip olmasını sağlamak üzere Power Apps'te oturum açması istenir.
+Katıştırılmış bir uygulamayı Finance and Operations uygulamalarındaki bir sayfada görüntülemek için, katıştırılmış uygulamanın bulunduğu sayfaya gitmeniz yeterlidir. Uygulamalara standart Eylem Bölmesindeki Power Apps düğmesiyle erişilebileceğini veya sayfada doğrudan yeni bir sekme, hızlı sekme, dikey pencere veya bir çalışma alanındaki yeni bir bölüm olarak görünebileceğini unutmayın. Bir kullanıcı bir sayfada bir uygulamayı ilk kez yüklemeye çalıştığında, kullanıcının uygulamayı kullanmak için gerekli izinlere sahip olmasını sağlamak üzere oturum açması istenir.
 
-## <a name="editing-an-embedded-power-app"></a>Katıştırılmış bir Power App'i düzenleme
+## <a name="editing-an-embedded-app"></a>Katıştırılmış bir uygulamayı düzenleme
 
-Bir Power App sayfaya katıştırıldıktan sonra, bu Power App'in yapılandırmasında bazı değişiklikler yapmanız gerekebilir. Örneğin, katıştırılmış Power App ile ilişkilendirilen etikette değişiklik yapmak isteyebilirsiniz veya PowerApp'in yeni bir sürümü oluşturulduğunda en son Power App'i gösterecek şekilde Uygulama Kodunu güncelleştirmeniz gerekebilir.
+Bir uygulama bir sayfaya katıştırıldıktan sonra, bu uygulamanın yapılandırmasında bazı değişiklikler yapmanız gerekebilir. Örneğin, katıştırılmış uygulama ile ilişkilendirilen etikette değişiklik yapmak isteyebilirsiniz veya uygulamanın yeni bir sürümü oluşturulduğunda Uygulama Kodunu en son uygulamayı gösterecek şekilde güncelleştirmeniz gerekebilir.
 
-Katıştırılmış bir Power App yapılandırmasını düzenlemek için aşağıdaki adımları izleyin:
+Katıştırılmış bir uygulama yapılandırmasını düzenlemek için şu adımları izleyin:
 
-1. **Power App düzenle** bölmesine gidin.
+1. **Uygulamayı düzenle** bölmesine gidin.
 
-    - Katıştırılmış Power App'e Power Apps menü düğmesi aracılığıyla erişiliyorsa Power Apps menü düğmesine sağ tıklayın ve **Kişiselleştir**'i seçin. Yapılandırmak istediğiniz Power App'i **Power App Seç** açılır menüsünden seçin.
-    - Katıştırılmış Power App doğrudan sayfa üzerinde görünüyorsa **Seçenekler**'i ve ardından **Bu formu kişiselleştir**'i seçin. **Seç** aracını kullanarak katıştırılmış Power App'e tıklayın.
+    - Katıştırılmış uygulamaya Power Apps menü düğmesiyle erişiliyorsa Power Apps menü düğmesine sağ tıklayın ve **Kişiselleştir**'i seçin. Yapılandırmak istediğiniz uygulamayı **Uygulama seçin** açılır menüsünden seçin.
+    - Katıştırılmış uygulama doğrudan sayfa üzerinde görünüyorsa **Seçenekler**'i ve ardından **Bu sayfayı kişiselleştir**'i seçin. **Seç** aracını kullanarak, katıştırılmış uygulamaya tıklayın.
 
-2. Power Apps yapılandırmasında gerekli değişiklikleri yapın ve ardından **Kaydet**'e tıklayın.
+2. Uygulama yapılandırmasında gerekli değişiklikleri yapın ve **Kaydet**'e tıklayın.
 
-## <a name="removing-an-embedded-power-app"></a>Katıştırılmış bir Power App'i kaldırma
+## <a name="removing-an-app"></a>Uygulamayı kaldırma
 
-Power App bir sayfaya katıştırıldıktan sonra gerekirse kaldırmak için iki yol vardır:
+Uygulama bir sayfaya katıştırıldıktan sonra gerekirse kaldırmak için iki yol vardır:
 
-- Bu konunun önceki kısmında yer alan [Katıştırılmış bir Power App'i düzenleme](#editing-an-embedded-power-app) bölümündeki talimatları kullanarak **Power App Düzenle** bölmesine gidin. Bölmenin, kaldırmak istediğiniz katıştırılmış Power App ile ilgili bilgileri görüntülendiğini doğrulayın ve ardından **Sil** düğmesine tıklayın.
-- Katıştırılmış bir Power App, kişiselleştirme verisi olarak kaydedildiğinden, sayfanın kişiselleştirmesini temizlemek bu sayfadaki katıştırılmış Power Apps'i de kaldırır. Sayfanın kişiselleştirmesini temizlemek kalıcı bir işlemdir ve geri alınamaz. Bir sayfadaki kişiselleştirmeleri kaldırmak için **Seçenekler**'i ve ardından **Bu form kişiselleştir**'i seçin. **Yönet** menüsü altından **Temizle** düğmesini seçin. Tarayıcınızı yenilendikten sonra, bu sayfadaki önceki tüm özelleştirmeler kaldırılır. Kişiselleştirme kullanarak sayfaları en iyi duruma getirme hakkında daha fazla bilgi için bkz. [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
+- Bu konunun önceki kısmında yer alan [Katıştırılmış bir uygulamayı düzenleme](#editing-an-embedded-power-app) bölümündeki yönergeleri kullanarak **Uygulama düzenle** bölmesine gidin. Bölmenin kaldırmak istediğiniz katıştırılmış uygulama ile ilgili bilgileri görüntülendiğini doğrulayın ve ardından **Sil** düğmesine tıklayın.
+- Katıştırılmış uygulama, kişiselleştirme verisi olarak kaydedildiğinden, sayfanın kişiselleştirmesini temizlemek bu sayfadaki tüm katıştırılmış uygulamaları da kaldırır. Sayfanın kişiselleştirmesini temizlemek kalıcı bir işlemdir ve geri alınamaz. Bir sayfadaki kişiselleştirmelerinizi kaldırmak için **Seçenekler**'i ve ardından **Bu sayfayı kişiselleştir**'i ve son olarak **Temizle** düğmesini seçin. Tarayıcınızı yenilendikten sonra, bu sayfadaki önceki tüm özelleştirmeler kaldırılır. Kişiselleştirme kullanarak sayfaları en iyi duruma getirme hakkında daha fazla bilgi için bkz. [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Ek
 
-### <a name="developer-control-over-where-a-power-app-can-be-embedded"></a>Power App'in katıştırıldığı yer üzerindeki geliştirici denetimi
+### <a name="developer-control-over-where-an-app-can-be-embedded"></a>Uygulamanın katıştırıldığı yer üzerindeki geliştirici denetimi
 
-Varsayılan olarak kullanıcılar, Power Apps menü düğmesi altından veya doğrudan sayfaya bir sekme, hızlı sekme, dikey pencere veya çalışma alanına yeni bir bölüm olarak herhangi bir sayfaya Power Apps katıştırabilir. Ancak, gerekirse geliştiriciler aşağıdaki yöntemleri kullanarak bu özelliği yalnızca Power Apps'ın belirli sayfalara katıştırılmasına izin verecek şekilde yapılandırabilir:
+Varsayılan olarak kullanıcılar, Power Apps menü düğmesi altından veya doğrudan sayfaya bir sekme, hızlı sekme, dikey pencere veya çalışma alanına yeni bir bölüm olarak herhangi bir sayfaya uygulamalar katıştırabilir. Ancak, gerekirse geliştiriciler aşağıdaki yöntemleri kullanarak bu özelliği yalnızca uygulamaların belirli sayfalara katıştırılmasına izin verecek şekilde yapılandırabilir:
 
-- **isPowerAppPersonalizationEnabled** – Bu yöntem belirli bir sayfa için yanlış değeri döndürürse, Power Apps menü düğmesi görüntülenmez ve kullanıcılar Power Apps'ı bu sayfadaki bir sekme dahil olmak üzere herhangi bir yere katıştıramaz.
-- **isPowerAppTabPersonalizationEnabled** – Bu yöntem belirli bir sayfa için yanlış değeri döndürürse, kullanıcılar Power Apps'ı doğrudan sayfa üzerine bir sekme, hızlı sekme veya panorama bölümü olarak ekleyemez. Sayfada katıştırmaya izin verilmiş olması durumunda, kullanıcılar Power Apps'ı Power Apps menü düğmesi aracılığıyla katıştırabilecektir.
+- **isPowerAppPersonalizationEnabled** – Bu yöntem belirli bir sayfa için yanlış değeri döndürürse, Power Apps menü düğmesi görüntülenmez ve kullanıcılar uygulamaları bu sayfadaki bir sekme dahil olmak üzere herhangi bir yere katıştıramaz.
+- **isPowerAppTabPersonalizationEnabled** – Bu yöntem belirli bir sayfa için yanlış değeri döndürürse, kullanıcılar uygulamaları doğrudan sayfa üzerine bir sekme, hızlı sekme veya panorama bölümü olarak ekleyemez. Sayfada katıştırmaya izin verilmiş olması durumunda, kullanıcılar uygulamaları Power Apps menü düğmesiyle katıştırabilecektir.
 
-Aşağıdaki örnek Power Apps'ın nereye katıştırılabileceğini yapılandırmak için gerekli olan iki yöntemi içeren yeni bir sınıfı göstermektedir.
+Aşağıdaki örnek uygulamaların nereye katıştırılabileceğini yapılandırmak için gerekli olan iki yöntemi içeren yeni bir sınıfı göstermektedir.
 
 ```
 [ExtensionOf(classStr(FormRunConfigurationPowerAppsConfiguration))]

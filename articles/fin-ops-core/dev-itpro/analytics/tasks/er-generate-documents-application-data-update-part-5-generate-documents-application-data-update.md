@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d95feb3395c36f9cf8a23770dc3173377067d9b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184888"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026075"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturma
 
@@ -58,7 +58,7 @@ Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne a
 6. Tamam'a tıklayın.
 
 ## <a name="review-er-format-executions-results"></a>ER biçimi yürütmesine ait sonuçları gözden geçirin
-    * Oluşturulan XML dosyasını gözden geçirin.  
+Oluşturulan XML dosyasını gözden geçirin.  
 1. Sayfayı kapatın.
 2. Vergi > Bildirimler > Dış ticaret > Intrastat öğesine gidin.
     * Oluşturulan elektronik belgeye dahil edilmiş olan Intrastat hareketlerini görüntülemek için bunları içeren formu açın.  

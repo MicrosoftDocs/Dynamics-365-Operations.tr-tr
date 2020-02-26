@@ -3,7 +3,7 @@ title: Modüllerle çalışma
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta modüllerin nasıl ve ne zaman kullanılacağını açıklamaktadır.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914806"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025891"
 ---
 # <a name="work-with-modules"></a>Modüllerle çalışma
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta modüllerin nasıl ve ne zaman kullanılacağını açıklamaktadır.
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Genel Bakış
@@ -99,12 +99,10 @@ Aşağıdaki yordamlarda içerik ve konteyner modüllerin nasıl yapılandırıl
 
 Sayfada bir içerik modülünü konfigüre etmek için aşağıdaki adımları izleyin.
 
-1. Soldaki anahat bölmesinde bir içerik modülü türü seçin ( Örneğin, **özellik**, **hero** veya **başlık**).
-1. Sağdaki Özellikler bölmesinde, üst bilgileri seçerek iç içe geçmiş denetimleri genişletin ve gerekli tüm denetim değerlerini ayarlayın.
-1. Özellikler bölmesinde **veri yapılandırma** bölümü varsa genişletmek için bunu seçin. Aksi durumda, adım 5'e geçin.
-1. **Veri Kaynağı Ekle** düğmesi varsa, bunu seçin ve eklenecek içerik öğelerini seçin.
-1. Gerekli veya istenen modül denetimlerinin ayarlarını girin.
-1. **Kaydet**'i seçin.
+1. Soldaki anahat bölmesinde ağacı genişletin ve bir içerik modülü türü seçin ( Örneğin, **özellik**, **hero** veya **başlık**).
+1. Sağdaki özellikler bölmesinde, modülün içerik ve ayarlar denetimlerini bulun.
+1. İstenen modül denetimlerinin özelliklerini girin.
+1. Komut çubuğunda **Kaydet**'i seçin. Bu, önizleme tuvalini de yenilenecek.
 
 ### <a name="configure-a-container-module"></a>Konteyner modülü yapılandırma
 
@@ -112,7 +110,7 @@ Sayfada bir konteyner modülünü konfigüre etmek için aşağıdaki adımları
 
 1. Sayfanızda bir konteyner modülü seçin (örneğin, bir döngü veya sıvı konteyner modülü).
 1. Sağdaki Özellikler bölmesinde, üst bilgileri seçerek iç içe geçmiş denetimleri genişletin ve gerekli tüm denetim değerlerini ayarlayın.
-1. Soldaki anahat bölmesinde, konteyner veya konteyner içindeki yuvalardan birinin adının yanında üç nokta düğmesini seçin ve **Modül ekle**yi seçin. Daha sonra seçili konteynere alt modüller ekleyin. Daha fazla bilgi için bu konunun önceki [modül ekleme](#add-a-module) yordamına bakın.
+1. Soldaki anahat bölmesinde, konteyner veya konteyner içindeki yuvalardan birinin adının yanında üç nokta düğmesini seçin ve **Modül ekle**yi seçin. Daha sonra seçili konteynere alt modüller ekleyin. Daha fazla bilgi için bu konunun önceki [Modüllerle çalış](#add-a-module) bölümüne bakın.
 1. Bir üst kapsayıcıda eş öğe olarak birden fazla alt modül varsa, bunların görüntüleme sıralarını üst konteynerde değiştirebilirsiniz. Modül için üç nokta düğmesini seçin ve sonra yukarı ok ve aşağı ok düğmelerini kullanın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
@@ -127,7 +125,5 @@ Sayfada bir konteyner modülünü konfigüre etmek için aşağıdaki adımları
 
 [Sayfaya konteyner modülü ekleme](add-container-module.md)
 
-[Sayfaya İçerik yerleştirme modülleri ekleme](add-content-placement-modules.md)
-
-[Yayınlama gruplarıyla çalışma](publish-groups.md)
+[Yayımlama gruplarıyla çalışma](publish-groups.md)
 

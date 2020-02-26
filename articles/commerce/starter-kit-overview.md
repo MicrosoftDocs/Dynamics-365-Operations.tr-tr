@@ -3,7 +3,7 @@ title: Başlangıç paketine genel bakış
 description: Bu konu Microsoft Dynamics 365 Commerce başlangıç kiti hakkında bilgi sağlar.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 73af7fc8845fe08bc4aa014abe4d8c6dcf7ccb7d
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785272"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025914"
 ---
 # <a name="starter-kit-overview"></a>Başlangıç paketine genel bakış
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 Commerce başlangıç kiti hakkında bilgi sağlar.
@@ -43,7 +43,7 @@ Görünüm ve hissini değiştirmek için, Temalar, başlangıç setlerindeki mo
 Aşağıdaki modül türleri, başlangıç kitinde sağlanmıştır:
 
 - **Konteyner modülü** – Bir konteyner modülü, diğer modüller için ana bilgisayar görevi gören basit bir modüldür. İçinde olan modüllerin yerleşimini denetler.
-- **Pazarlama modülleri** – Pazarlama modüllerinde hero, özellik, içerik yerleşimi, içerik zengin blok, video oynatıcı ve döngü modüller bulunur. İçeriğin gösterimi için tüm bu modüller kullanılabilir. İçerik yönetimi sistemindeki (CMS) veriler tarafından yönlendiriliyor ve herhangi bir sayfaya konabilir.
+- **Pazarlama modülleri** – Pazarlama modüllerinde engel, metin engeli, video oynatıcı ve döngü modüller bulunur. İçeriğin gösterimi için tüm bu modüller kullanılabilir. İçerik yönetimi sistemindeki (CMS) veriler tarafından yönlendiriliyor ve herhangi bir sayfaya konabilir.
 - **Üstbilgi ve altbilgi modülleri** – Üstbilgi ve altbilgi modülleri, tüm site sayfalarının üstbilgi ve altbilgisinde görüntülenir. Bu modüller, özellikler üzerinden gerektikçe yapılandırılabilir.
 - **Arama modülleri** – Başlıktaki arama modülü kullanılarak ürünler keşfedilebilir. Arama sonuçları arama sonuçları sayfasında görünür. Ürünler, kanal gezinti hiyerarşisinde desteklenen her kategori için adanmış sayfalar olan Kategori sayfalarında da bulunabilir. Ek olarak, iyileştirici modülleri arama sonuçları ve kategori sayfalarındaki sonuçlara ek filtre uygulamak için kullanılabilir.
 - **Ürün ayrıntıları sayfası modülleri** – Ürün ayrıntıları sayfaları ürün bilgilerini göstermek için birkaç modül kullanır. Satın alma kutusu modülü müşterilerin ürünleri görüntülemesine ve bunları alışveriş sepetine eklemesine olanak tanır. Teknik özellikler modülü gibi diğer modüller ürün ayrıntılarını gösterir. Derecelendirmeler ve incelemeler modülü incelemeleri görüntülemek ve sağlamak için kullanılabilir.

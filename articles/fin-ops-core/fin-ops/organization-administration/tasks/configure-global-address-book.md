@@ -1,7 +1,7 @@
 ---
 title: Genel adres defterini yapılandır
 description: Genel adres defteri için güvenlik ilkeleri ve varsayılan değerleri ayarlamak için bu yordamı kullanın.
-author: kfend
+author: msftbrking
 manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: business-process
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kfend
+ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3994c7bb77e9821a880dc009681e113013129850
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f31804b3988af44bad0cba28e8226e625d32148b
+ms.sourcegitcommit: 7a855deed9f95ca2589f38db214890464b2b9061
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189925"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "2951244"
 ---
 # <a name="configure-the-global-address-book"></a>Genel adres defterini yapılandır
 

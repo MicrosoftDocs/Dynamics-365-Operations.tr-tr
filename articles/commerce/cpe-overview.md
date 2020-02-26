@@ -1,5 +1,5 @@
 ---
-title: Ticaret önizleme ortamına genel bakış
+title: Dynamics 365 Commerce önizleme ortamına genel bakış
 description: Bu konu, Microsoft Dynamics 365 Commerce önizleme ortamı genel görünümünü vermektedir.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 901583afde4739be5313fa129ff0e52f11326881
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906082"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024695"
 ---
-# <a name="commerce-preview-environment-overview"></a>Ticaret önizleme ortamına genel bakış
+# <a name="dynamics-365-commerce-preview-environment-overview"></a>Dynamics 365 Commerce önizleme ortamına genel bakış
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce önizleme ortamı genel görünümünü vermektedir.
@@ -52,10 +52,10 @@ Commerce önizleme ortamını sağlamak için bkz. [Commerce önizleme ortamı s
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Ticaret önizleme ortamı sağlama](provisioning-guide.md)
+[Dynamics 365 Commerce önizleme ortamını hazırlama](provisioning-guide.md)
 
-[Ticaret önizleme ortamı yapılandırma](cpe-post-provisioning.md)
+[Dynamics 365 Commerce önizleme ortamını yapılandırma](cpe-post-provisioning.md)
 
-[Bir Commerce Preview ortamı için isteğe bağlı özellikleri konfigüre edin](cpe-optional-features.md)
+[Dynamics 365 Commerce önizleme ortamı için isteğe bağlı özellikleri yapılandırma](cpe-optional-features.md)
 
-[Ticaret önizleme ortamı SSS](cpe-faq.md)
+[Dynamics 365 Commerce önizleme ortamıyla ilgili SSS](cpe-faq.md)

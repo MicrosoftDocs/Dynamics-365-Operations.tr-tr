@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 938d2eea7b9e85b19e9c1e3e0930f625224b880d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 229ae14b9e2dedcd0ade094a772f16c0524d32a7
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898631"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006090"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>Çalışılan saatlere göre süre tahakkuk
 
 ## <a name="overview"></a>Genel bakış
 
-Saatlik çalışanı olan kuruluşlar, kuruluştaki kıdem yerine çalışılan saatlere dayanarak izin verebilirler. Çalışılan saatler verisi genellikle bir zaman ve katılım sisteminde depolanır. Beceride: Core HR, normal ve fazla mesai çalışmaları içeri aktarılabilir ve bir personelin ikramiyesi olarak kullanılabilir.
+Saatlik çalışanı olan kuruluşlar, kuruluştaki kıdem yerine çalışılan saatlere dayanarak izin verebilirler. Çalışılan saatler verisi genellikle bir zaman ve katılım sisteminde depolanır. 
 
 ## <a name="leave-plans"></a>İzin planları
 

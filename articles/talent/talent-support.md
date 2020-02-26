@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 7e42e68f48de9518199c38d07b650d55628114a7
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 33e0183109bc0bf8c825e3d5a51dcc36dbf58fc1
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896993"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006113"
 ---
 # <a name="get-support-for-microsoft-dynamics-365-talent"></a>Microsoft Dynamics 365 Talent için destek alma
 
-Bu konu, Microsoft Dynamics 365 Talent: Core HR, Dynamics 365 Talent: Attract ve Dynamics 365 Talent: Onboard için nasıl yardım alınacağını açıklamaktadır.
+Bu konu, Dynamics 365 Talent: Attract ve Dynamics 365 Talent: Onboard hakkında yardım almayı açıklar.
 
 ## <a name="support-for-talent"></a>Talent için destek
 
@@ -34,7 +34,7 @@ Talent için destek almak için aşağıdaki tablodaki kaynakları kullanın. Bu
 |------|------------------|
 | Topluluğa sorun. | Sorularınıza yardım almak [Dynamics 365 Talent Topluluğuna](https://community.dynamics.com/365/talent) gidin. Yanıtları bulmak için **Sorunuz mu var** yanındaki arama alanına bir soru girin. Bir soru sormak için **Soru sor**'u seçin. |
 | Buluttan sağlanan destek aracını kullanın. | [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/)'de projenize gidin ve **Destek** kutucuğunu seçin. Buradan sorunları iki şekilde gönderebilirsiniz:<ul><li>**Etkin sorunlar** sekmesinde, göndermek istediğiniz sorunu seçin ve **Microsoft'a Gönder**'i seçin.</li><li>**Microsoft'a Gönderildi** sekmesi üzerinde, yeni bir sorun göndermek için **Yeni bir olay gönder**'i seçin.</li></ul> |
-| Uygulama içi destek alın. | Sayfanın sağ üst köşesindeki **Yardım** düğmesini (**?**) seçin. Core HR'deyseniz **Destek**'i seçin. Attract veya Onboard'daysanız **Bir sorun bildir**'i seçin. Sorunlar, bir yöneticinin şirket içinde destek verip vermeyeceğini veya sorunları Microsoft'a göndermeyi belirleyebildiği LCS içindeki **Etkin sorunlar** sekmesinde bildirilir. (Onboard'ın bağımsız sürümünü kullanıyorsanız, sorunlar doğrudan Microsoft'a gönderilir.) |
+| Uygulama içi destek alın. | Sayfanın sağ üst köşesindeki **Yardım** düğmesini (**?**) seçin. **Sorun bildir**'i seçin. Sorunlar, bir yöneticinin şirket içinde destek verip vermeyeceğini veya sorunları Microsoft'a göndermeyi belirleyebildiği LCS içindeki **Etkin sorunlar** sekmesinde bildirilir. (Onboard'ın bağımsız sürümünü kullanıyorsanız, sorunlar doğrudan Microsoft'a gönderilir.) |
 | Talent lisanslama ile ilgili sorularınıza yanıt alın. | Partnerinizle veya Microsoft satış temsilcinizle iletişime geçin. |
 | Talent içerisinde yeni özellikler ve işlevler talep edin. | Talent ana sayfasında **Yardım** düğmesini (**?**) ve ardından **Fikirler**'i seçin. Ayrıca, varolan fikirleri görüntülemek, aramak veya oylamak ya da yeni fikirler eklemek için [Dynamics 365 Uygulama fikirleri](https://experience.dynamics.com/ideas/)'ni de ziyaret edebilirsiniz. |
 

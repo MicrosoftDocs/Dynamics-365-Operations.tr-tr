@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cfb122cd01fcaae331f61327966916388d70e923
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: cfefc6ea654a3012137a1135db5696da39a19048
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897845"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006021"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-13-2019"></a>Dynamics 365 Talent'deki yenilikler veya değişiklikler (13 Ağustos 2019)
 
@@ -54,7 +54,7 @@ Yeni bir seçenek, yöneticilerin hem doğrudan raporların hem de genişletilmi
 
 ### <a name="platform-update-29-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 29
 
-Finance and Operations için Platform güncelleştirmesi 29 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 Finance and Operations platform güncelleştirmesi 29'daki (Ekim 2019) önizleme özellikleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Finance and Operations için Platform güncelleştirmesi 29 hakkında daha fazla ayrıntı için bkz. [Dynamics 365 Finance and Operations önizleme özellikle platform güncelleştirmesi 29 (Ekim 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>Kolaylaştırılmış çalışan girişi ve gezintisi
 

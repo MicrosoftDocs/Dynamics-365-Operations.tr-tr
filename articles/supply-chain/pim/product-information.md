@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570760"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004008"
 ---
 # <a name="product-information-overview"></a>Ürün bilgilerine genel bakış
 
@@ -32,7 +32,7 @@ ms.locfileid: "2570760"
 
 Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar. Ürün bilgileri yönetimi paylaşılan ürün tanımı, kategori ve tüm tüzel kişilikler üzerindeki tanımlayıcıların yanı sıra iş süreçlerine uyum sağlamak üzere belirli ürün yapılandırmalarıyla birlikte çalışır. 
 
-Ürün bilgileri, tedarik zincirinin ve tüm sektörler arasındaki perakende uygulamalarının temelini oluşturur. Ürünler hakkındaki merkezi olarak yönetilen bilgilere (örneğin tedarik zincirlerinde) odaklanan süreçlere ve teknolojilere başvurur. Paylaşılan ürün tanımlarının, belgelerin, özniteliklerin ve tanımlayıcıların kullanılması önemlidir. Bir iş çözümünün çeşitli modüllerinde ürüne özgü bilgiler ve konfigürasyon, belirli ürünlerle ilgili iş süreçlerinin yönetilmesi için gereklidir.
+Ürün bilgileri, tedarik zincirinin ve tüm sektörler arasındaki ticaret uygulamalarının temelini oluşturur. Ürünler hakkındaki merkezi olarak yönetilen bilgilere (örneğin tedarik zincirlerinde) odaklanan süreçlere ve teknolojilere başvurur. Paylaşılan ürün tanımlarının, belgelerin, özniteliklerin ve tanımlayıcıların kullanılması önemlidir. Bir iş çözümünün çeşitli modüllerinde ürüne özgü bilgiler ve konfigürasyon, belirli ürünlerle ilgili iş süreçlerinin yönetilmesi için gereklidir.
 
 ## <a name="product-definition"></a>Ürün tanımı
 

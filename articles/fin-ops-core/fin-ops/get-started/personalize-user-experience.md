@@ -3,7 +3,7 @@ title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konuda uygulamayı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 author: jasongre
 manager: AnnBe
-ms.date: 01/07/2020
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac8f154fdf892553f69d135727589bf13efd6076
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
+ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935477"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029374"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -59,7 +59,8 @@ Uygulamayı kullandığınızda, seçimlerinizin pek çoğu sistemi gelecekte ku
 
 Örtülü kişiselleştirmeler, mevcut görünür durumlarını depolayab denetimlerle etkileşime girerek yaptığınız kişiselleştirmelerdir.
 
-- **Izgara sütunları** – Izgaradaki bir sütunun genişliğini, sütun başlığının solundaki veya sağındaki boyutlandırma çubuğunu seçerek ve bunu sütun istediğiniz genişliğe gelene kadar sola veya sağa kaydırarak ayarlayabilirsiniz. Uygulama, sütun için ayarladığınız genişlik bilgisini depolar. Daha sonra, o ızgarayı içeren sayfayı tekrar açtığınızda sütunu o genişliğe ayarlanır.
+- **Izgara sütun genişlikleri** – Izgaradaki bir sütunun genişliğini, sütun başlığının solundaki veya sağındaki boyutlandırma çubuğunu seçerek ve bunu sütun istediğiniz genişliğe gelene kadar sola veya sağa kaydırarak ayarlayabilirsiniz. Uygulama, sütun için ayarladığınız genişlik bilgisini depolar. Daha sonra, o ızgarayı içeren sayfayı tekrar açtığınızda sütunu o genişliğe ayarlanır.
+- **Kılavuz sütun toplamları** -(yalnızca yeni kılavuz kontrolü etkin olarak mevcuttur) kılavuzda bir sayısal sütunun altında bir toplam gösterilip gösterilmeyeceğini ve kılavuz altbilginin görünür olup olmadığını belirleyebilirsiniz. Uygulama bu verileri depolar; böylece sayfayı bir sonraki açışınızda bu tercihlerin hatırlanır olmasını sağlayabilirsiniz. Daha fazla bilgi için [kılavuz yetenekleri](grid-capabilities.md) konusuna bakın. 
 - **Hızlı Sekmeler** – Bazı sayfaların *Hızlı Sekmeler* olarak bilinen genişletilebilir bölümleri vardır. Uygulama, genişlettiğiniz veya daralttığınız Hızlı Sekmeler hakkındaki bilgileri depolar. Bunun ardından, sayfayı sonraki açışınızda o hızlı sekmeler, sayfayla son etkileşiminize göre genişletilir veya daraltılır. Bazı durumlarda, uygulamanın bir hızlı sekme genişletilene kadar o hızlı sekmeye ilişkin bilgilere ulaşmasına gerek olmadığından, hızlı sekmeyi daraltarak sistem performansının artırılmasına yardımcı olabilirsiniz. Bu konuda daha ileride açıklanacağı gibi, bir sayfadaki hızlı sekmelerin sırasını da değiştirebilirsiniz.
 - **Bilgi Kutuları** – Bazı sayfalarda, sayfanın geçerli konusuyla ilgili salt okunur bilgileri gösteren **İlgili bilgi** bölmesi bulunur. **İlgili bilgi** bölmesindeki her bölüm *Bilgi Kutusu* olarak adlandırılır. **İlgili bilgi** bölmesini genişletebilir veya daraltabilir ve ayrıca, Bilgi Kutularını tek tek genişletebilir veya daraltabilirsiniz. Uygulama, bu tercihleri depolar. Daha sonra sayfaya bir sonraki açışınızda sayfayla son etkileşiminize göre, **İlgili bilgi** bölmesi ve tek tek Bilgi Kutuları genişletilir veya daraltılır. Bazı durumlarda, uygulamanın bir Bilgi Kutusu genişletilene kadar o Bilgi Kutusuna ilişkin bilgilere ulaşmasına gerek olmadığından, bilgi kutusunu daraltarak sistem performansının artırılmasına yardımcı olabilirsiniz.
 - **Eylem Bölmeleri** – Bir *Eylem Bölmesi* çoğu sayfanın en üst kısmında görünür. Eylem Bölmesi, geçerli sayfada gerçekleştirebildiğiniz eylemlerin birçoğu için düğmeler içerir. Bu düğmeler genellikle sekmeler halinde düzenlenir. Eylem Bölmesini açık haliyle "sabitleyebilir" veya varsayılan olarak daraltabilirsiniz. Bunun ardından, sayfayı sonraki açışınızda Eylem bölmesi sayfayla son etkileşiminize göre açık veya daraltılmış olur. Eylem bölmesini açık olarak sabitlediğiniz takdirde, kullandığınız son sekme gösterilir.
@@ -95,7 +96,7 @@ Bir öğeyi aşağıdaki yöntemlerle kişiselleştirmek için özellik penceres
 
 Bir sayfada birden çok değişiklik veya diğer mekanizmalar aracılığıyla gerçekleştirilemeyen değişiklikler yapmak istiyorsanız (öğeleri yeniden düzenleme istediğinizde), **Kişiselleştirme** araç çubuğunu kullanabilirsiniz. **Kişiselleştirme** araç çubuğunu açmak için, aşağıdaki adımlardan birini izleyin:
 
-- Bir öğenin özellik penceresinde **Bu formu kişiselleştir**'i seçin.
+- Bir öğenin özellik penceresinde **Bu sayfayı kişiselleştir**'i seçin.
 - Sayfanın Eylem Panosunda, **Seçenekler** sekmesinde, **Kişiselleştir** grubunda, **Bu formu kişiselleştir**'i seçin.
 - Gezinti çubuğundaki **Ayarlar** düğmesini (dişli sembolü) seçin ve sonra **Kişiselleştir**'i seçin.
 
@@ -116,7 +117,8 @@ Bir sayfada birden çok değişiklik veya diğer mekanizmalar aracılığıyla g
 - Sayfanın klavye sekmesi sırasından bir öğeyi kaldırmak için **Atla** aracını kullanın. Araç çubuğunda **Atla** düğmesini seçtiğiniz zaman, atlanmış durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Etkileşimli olarak sekme sırasına alan ekleme veya kaldırma yapabilirsiniz.
 - Bir öğenin hızlı sekme özet bölümünde görünmesini isterseniz **Başlıkta göster** aracını kullanın. Araç çubuğunda **Başlıkta göster** düğmesini seçtiğiniz zaman, özet alanı olarak seçilen tüm alanlar gölgeli bir kapsayıcıda gösterilir. Hızlı sekme özetine etkileşimli olarak alan ekleyebilir veyaalanları seçerek kaldırabilirsiniz.
 - Bir öğeyi düzenlenebilir veya düzenlenemez olarak işaretlemek için **Kilitle** aracını kullanın. Araç çubuğunda **Kilitle** düğmesini seçtiğiniz zaman, düzenlenemez durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Bu durumda bu öğeleri yeniden düzenlenebilir hale getirebilirsiniz. Bazı alanların gerekli olduğunu ve düzenlenemez yapılamayacağını unutmayın. Bu alanların yanında bir asma kilit simgesi görünür.
-- Microsoft PowerApps kullanarak oluşturulmuş bir uygulamayı sayfaya katıştırmak için, **PowerApp ekle** düğmesini kullanın. PowerApps uygulamasını bir sayfaya katıştırma hakkında ayrıntılı bilgi için bkz. [PowerApps uygulamalarını katıştırma](embed-power-apps.md).
+- Microsoft Power Apps kullanarak oluşturulmuş bir uygulamayı sayfaya katıştırmak için, **Power Apps'ten uygulama ekle** düğmesini kullanın. Power Apps uygulamasını bir sayfaya katıştırma hakkında ayrıntılı bilgi için bkz. [Power Apps uygulamalarını katıştırma](embed-power-apps.md). Bu seçenek yalnızca [Kaydedilmiş görünümler](saved-views.md) özelliği devre dışı bırakılınca kullanılabilir.  
+- Microsoft Power Apps veya üçüncü taraf kullanarak oluşturulmuş bir uygulamayı sayfaya katıştırmak için, **uygulama ekle** düğmesini kullanın. Bu seçenek yalnızca [kaydedilmiş görünümler](saved-views.md) özelliği etkin olduğunda kullanılabilir. 
 - Sayfayı varsayılan, ilk yüklendiği durumuna sıfırlamak için **Temizle** aracını kullanın. Geçerli sayfadaki tüm kişiselleştirmeler temizlenir. Geri alma eylemi yoktur. Bu nedenle, bu aracı ancak sayfa sıfırlamak istediğinizden emin olduğunuzda kullanın.
 - Sizin veya başka birinin daha önce oluşturduğu bir dosyadan kişiselleştirme yüklemek için **İçe aktar** aracını kullanın. Bir sayfa için kişiselleştirmeleri içe aktardığınızda, sayfa için var olan tüm kişiselleştirmelere eklenip eklenmeyeceğini veya bunların yerini alıp almayacaklarını seçebilirsiniz. Geri alma eylemi yoktur. Bu nedenle, kişiselleştirmeleri içe aktardıktan sonra, istemediğiniz değişiklikleri el ile temizlemeniz veya geri almanız gerekir.
 - Sayfadaki kişiselleştirmelerinizi bir dosyaya kaydetmek için **Dışa aktar** aracını kullanın. Böylece kişiselleştirmelerinizi başka kullanıcılarla paylaşabilirsiniz. Bu kullanıcıların, sayfaya ilişkin kişiselleştirmelerinizi içeren dosyayı içe aktarmaları gerekir.
@@ -152,7 +154,7 @@ Pano, çoğunlukla uygulamayı açtığınızda gördüğünüz ilk sayfadır. P
 Panoyu kişiselleştirmek için herhangi bir kutucuğa sağ tıklayın ve **Kişiselleştir**'i seçerek kutucuğun özellik penceresini açın.
 
 - Seçilen kutucuğu gizlemek veya yeniden adlandırmak isterseniz, değişikliği özellik penceresinde doğrudan yapabilirsiniz.
-- Çalışma alanı kutucuklarını yeniden sıralamak istiyorsanız, özellik penceresinde **Bu formu kişiselleştir**'i seçerek **Kişiselleştirme** araç çubuğunu açın. Bunun ardından, **Taşı** aracını kullanarak kutucukları istediğiniz gibi yeniden düzenleyebilirsiniz.
+- Çalışma alanı kutucuklarını yeniden sıralamak istiyorsanız, özellik penceresinde **Bu sayfayı kişiselleştir**'i seçerek **Kişiselleştirme** araç çubuğunu açın. Bunun ardından, **Taşı** aracını kullanarak kutucukları istediğiniz gibi yeniden düzenleyebilirsiniz.
 - Yeni bir çalışma alanı kutucuğu eklemek için, özellik penceresinde **Çalışma alanı ekle**'yi seçin. Panonun alt kısmında yeni bir çalışma alanı kutucuğu oluşturulur. Bu yeni çalışma alanı kutucuğunu istediğiniz gibi yeniden adlandırabilirsiniz. Bu konunun [Çalışma alanlarına liste, kutucuk veya bağlantı ekleme](#adding-a-tile-list-or-link-to-a-workspace) bölümünde açıklandığı gibi, çalışma alanına listeler, kutucuklar ve bağlantılar da ekleyebilirsiniz.
 
 ## <a name="administration-of-personalizations"></a>Kişiselleştirme yönetimi

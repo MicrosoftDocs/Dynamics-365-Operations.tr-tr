@@ -3,7 +3,7 @@ title: Derecelendirme ve incelemeleri kullanmayı kabul etme
 description: Bu konu, Microsoft Dynamics 365 Commerce sitenizde derecelendirmelerin ve incelemelerinizin nasıl kullanılacağını açıklamaktadır.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10e3c33af232fa46df09a103b2e73eae09a909eb
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: eda7fbaeea8d3c1a07f7b43cafe44886d149a211
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697992"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027277"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Derecelendirme ve incelemeleri kullanmayı kabul etme
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce sitenizde derecelendirmelerin ve incelemelerinizin nasıl kullanılacağını açıklamaktadır.
@@ -36,7 +35,7 @@ Bu konu, Microsoft Dynamics 365 Commerce sitenizde derecelendirmelerin ve incele
 
 Derecelendirmeler ve İncelemeler çözümü, Microsoft Dynamics Lifecycle Services (LCS) kullanarak Dynamics 365 Commerce kullanabileceğiniz bir çok yönlü kanal çözümüdür. LCS, perakendeciler tarafından yetki alma için sağlama kaynağı yönetiminde kullanılan bir yönetim portaldır.
 
-Commerce Web sitenizde derecelendirmeler ve İncelemeler çözümünü kullanmak istiyorsanız, önce bunu kabul etmelisiniz.
+Commerce web sitenizde derecelendirmeler ve incelemeler çözümünü kullanmak istiyorsanız, Dynamics 365 Commerce'te e-ticaret sitenizin dağıtım sırasında derecelendirmelere ve incelemelere karşı kabul etmelisiniz.
 
 ## <a name="opt-in-to-use-ratings-and-reviews"></a>Derecelendirme ve incelemeleri kullanmayı kabul etme
 
@@ -51,12 +50,17 @@ Sitenizde derecelendirme ve İncelemeler kullanmayı kabul etmek için aşağıd
 
 1. E-ticaret başlatma sürecini tamamlayın.
 
+> [!NOTE] 
+> Derecelendirme ve İncelemeler gerekmeden henüz bir e-ticaret sitesi dağıtmış olan ve şimdi Dynamics 365 Commerce paketten alınan derecelendirme ve değerlendirmeleri kullanan bir Dynamics 365 Commerce müşteriniz varsa, lütfen bir servis isteği gönderin. Servis isteği gönderme hakkında bilgi için bkz. [Hizmet istekleri sürecini gönder](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json). 
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Derecelendirme ve incelemelere genel bakış](ratings-reviews-overview.md)
+[Derecelendirmelere ve incelemelere genel bakış](ratings-reviews-overview.md)
 
 [Derecelendirme ve incelemeleri yönetme](manage-reviews.md)
 
 [Derecelendirme ve incelemeleri yapılandırma](configure-ratings-reviews.md)
 
 [Dynamics 365 Retail'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
+
+

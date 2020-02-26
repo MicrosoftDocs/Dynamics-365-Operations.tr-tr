@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 31307035014f2fae6146f33bc23e3e06103f82eb
-ms.sourcegitcommit: c237123ad94d9418994ac095fbd8634c05a927b1
+ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943275"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025960"
 ---
 # <a name="product-collection-modules"></a>Ürün topluluğu modülleri
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 Commerce'ta ürün koleksiyonu modülleriyle ilgili genel bir bakış sağlar.
@@ -39,7 +39,7 @@ Bu konu Microsoft Dynamics 365 Commerce'ta ürün koleksiyonu modülleriyle ilgi
 
 Ürün koleksiyonları için kaynaklar şu dört tür listeler olabilir:
 
-- Bir ürün veya ürün listesi ile ilgili ürünler olarak Dynamics 365 Retail'de el ile tanımlanan ürünlerin düzenleme listeleri
+- Bir ürün veya ürün listesi ile ilgili ürünler olarak Dynamics 365 Commerce'de el ile tanımlanan ürünlerin düzenleme listeleri
 - Yeni, en iyi satış veya trend ürünlerinin listesi gibi Algoritmik listeler
 - Makine öğrenmeyi esas alan öneri listeleri
 - Bir müşteri için kişiselleştirilmiş sonuçları destekleyen kişiselleştirme listeleri. Kişiselleştirilmiş sonuçları görmek için müşteriler e-ticaret sitesinde oturum açmış olmalıdır. Ziyaretçi kullanıcılar kişiselleştirilmiş sonuçları göremez. Müşteriler [hesap yönetimi sayfasından](account-management.md) kişiselleştirmeye geri çevirme yapabilir.
@@ -57,9 +57,10 @@ Aşağıdaki tabloda, Dynamics 365 Commerce'de çeşitli türlerdeki ürün kole
 
 | Ürün topluluğu modülü  | Türü | Tanım |
 |----------------------------|------|-------------|
-| Kategori                   | Kategori | Bu modül, bir kategorideki ürünlerin listesini gösterir ve bu satıcı perakende kanalı için oluşturulan gezinti kategorisi hiyerarşisinde tanımlanır. |
-| İlgili ürünler           | Düzenleme | Bu modülü, yazarın seçtiği ilişki türü için, ticaret yöneticisinin Retail'de ilgili ürünler olarak konfigüre eden ürünlerin listesini gösterir. |
-| Seçkin ürün listeleri      | Düzenleme | Bu modül, perakende olarak tacirler ve düzenleyicilerin oluşturulduğu özel liste. |
+| Kategori                   | Kategori | Bu modül, bir kategorideki ürünlerin listesini gösterir ve bu satıcı kanalı için oluşturulan gezinti kategorisi hiyerarşisinde tanımlanır. |
+| İlgili ürünler           | Düzenleme | Bu modülü, yazarın seçtiği ilişki türü için, ticaret yöneticisinin Commerce'de ilgili ürünler olarak konfigüre eden ürünlerin listesini gösterir. |
+| Arama sonuçları             | Arama sorgusu | Bu tür bir ürün toplama modülü, müşterinin girdiği arama sorgusuyla en iyi şekilde eşleşen ürünlerin listesini gösterir. |
+| Seçkin ürün listeleri      | Düzenleme | Bu modül, Commerce olarak tacirler ve düzenleyicilerin oluşturulduğu özel liste. |
 | Yeni                        | Algoritmik | Bu modül, kanallara ve kataloglara önceden sıralanmış en yeni ürünlerin listesi. Site yazarı bu seçeneği seçerse, bu liste, oturum açmış bir kullanıcının kişiselleştirilmiş sonuçlarını gösterebilir. |
 | En iyi satış               | Algoritmik | Bu modül, en yüksek sayıda satış ile derecelendirilen ürünlerin listesi. Site yazarı bu seçeneği seçerse, bu liste, oturum açmış bir kullanıcının kişiselleştirilmiş sonuçlarını gösterebilir. |
 | Popüler                   | Algoritmik | Bu modül, belirli bir döneme ait en yüksek performanslı ürünlerin listesi. Site yazarı bu seçeneği seçerse, bu liste, oturum açmış bir kullanıcının kişiselleştirilmiş sonuçlarını gösterebilir. |
@@ -76,7 +77,6 @@ Kategori sayfasına ürün koleksiyonu modülü eklemek için bu adımları izle
 1. **Modül Ekle** iletişim kutusunda **konteyner**i seçin ve **Tamam**'ı seçin.
 1. Konteyner modülünde, üç nokta düğmesini seçin ve sonra **Modül ekle**'yi seçin.
 1. **Modül Ekle** iletişim kutusunda **Ürün koleksiyonu**'nu seçin ve **Tamam**'ı seçin.  
-![Örnek ürün koleksiyonu modülü sihirbaz akışı](./media/productCollectionModule.png)
 1. Ayarları, ürün koleksiyonu için uygun bir veri kaynağı ve girişler seçerek konfigüre edin.
 1. Ürün koleksiyonu modülüyle ilgili Özellikler bölmesinde, **Ürün listesi ekle**'yi seçin.
 1. **Ürün listesi konfigürasyonu seç** iletişim kutusunda liste türünü seçin, öğe sayısını girin ve liste türü için kullanılabilen diğer seçenekleri belirleyin. Liste türleri hakkında daha fazla bilgi için, aşağıdaki tabloya bakın. 
@@ -88,8 +88,8 @@ Aşağıdaki tabloda, **Ürün listesi konfigürasyonu seç** iletişim kutusund
 | Türü                       | Tanım | Kullanım | Sayfa bağlamı | Belirli bağlam | Kişiselleştirme |
 |----------------------------|-------------|-------|--------------|------------------|-----------------|
 | Kategoriye göre ürünler       | Belirli bir kategoriye ait olan ürünlerin listesi. Bu kategori sayfa bağlamından veya yazarın sağladığı içerikten belirlenir. | Belirli bir ürün kategorisini yükseltmek için herhangi bir sayfada bu tür bir liste (örneğin, bir giriş sayfası, kategori sayfası, pazarlama sayfası veya ürün ayrıntıları sayfası \[PDP\]) kullanılabilir. | Sayfa içeriğindeki kategori (örneğin, kategori sayfası) | Yazar, liste bağlamı olarak belirli bir kategori sağlayabilir. | Uygulanamaz |
-| İlgili ürünler           | İlişki türü için perakende olarak ilgili ürünler olarak ticari bir yöneticinin konfigüre eden ürünlerin listesi. | Bu tür liste öncelikle PDP'ler üzerinde kullanılır, ancak bir ana ürün sağlandığında herhangi bir sayfada kullanılabilir. | Sayfadaki ürün, ilişki türü (zorunlu) | Ürün, seçicide seçilebilir ve ilişki türü kullanılır. | Uygulanamaz |
-| Oluşturuldu                    | Perakende olarak tacirler ve düzenleyicilerin oluşturulduğu özel liste. | Zenginleştirme kategorisi sayfası, giriş sayfası, kullanıma alma ve sepet sayfaları ve ürün sayfaları | Uygulanamaz | Uygulanamaz | Uygulanamaz |
+| İlgili ürünler           | İlişki türü için Commerce olarak ilgili ürünler olarak ticari bir yöneticinin konfigüre eden ürünlerin listesi. | Bu tür liste öncelikle PDP'ler üzerinde kullanılır, ancak bir ana ürün sağlandığında herhangi bir sayfada kullanılabilir. | Sayfadaki ürün, ilişki türü (zorunlu) | Ürün, seçicide seçilebilir ve ilişki türü kullanılır. | Uygulanamaz |
+| Oluşturuldu                    | Commerce olarak tacirler ve düzenleyicilerin oluşturulduğu özel liste. | Zenginleştirme kategorisi sayfası, giriş sayfası, kullanıma alma ve sepet sayfaları ve ürün sayfaları | Uygulanamaz | Uygulanamaz | Uygulanamaz |
 | Algoritmik                | <ul><li>**Yeni** – kanallara ve kataloglara önceden sıralanmış en yeni ürünlerin listesi.</li><li>**En çok satan** – en yüksek sayıda satış ile derecelendirilen ürünlerin listesi.</li><li>**Trend** – belirli bir döneme ait en yüksek performanslı ürünlerin listesi.</li></ul> | Giriş sayfası, zenginleştirme kategorisi sayfası, kullanıma alma ve sepet sayfaları | Sayfa içeriğindeki kategori (örneğin, kategori sayfası) | Site yazarı tarafından belirlenen kategori | Destekleniyor |
 | Sıklıkla birlikte satın alınan | Bir liste, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle birlikte satın alınan ilgili öğeleri önermek için makine öğrenmeyi kullanır. | Bu tip listeler yalnızca sepet sayfası için geçerlidir. | Alışveriş sepeti | Uygulanamaz | Destekleniyor |
 | Diğer sevilen ürünler           | Bir liste, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle ilgili öğeleri önermek için makine öğrenmeyi kullanır. | Bu tip listeler, PDP'ler üzerinde diğer müşterilerin satın aldığı ürünleri göstermek için kullanılır. | Sayfadan ürün bağlamı | Site yazarı tarafından sağlanan ürün | Destekleniyor |
@@ -102,8 +102,6 @@ Aşağıdaki tabloda, **Ürün listesi konfigürasyonu seç** iletişim kutusund
 [Döngü modülü](add-carousel.md)
 
 [İçerik zengin blok modülü](add-content-rich-block.md)
-
-[İçerik yerleşimi modülü](add-content-placement-modules.md)
 
 [Konteyner modülü](add-container-module.md)
 
