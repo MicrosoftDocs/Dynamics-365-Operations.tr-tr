@@ -456,9 +456,7 @@
           items:
             - name: Modeller ve veri modeli öğeleri oluşturmaya genel bakış
               href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: Uzantılar için adlandırma kuralları
-              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: Model özelleştirmeyi kapatma ve işlevi kaldırma
+            - name: Model özelleştirmeyi kapatma ve işlevi kullanımdan kaldırma
               href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Özelleştirme Analizi Raporu
           href: ../../dev-itpro/dev-tools/customization-analysis-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
