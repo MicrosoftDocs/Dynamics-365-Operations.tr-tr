@@ -45,7 +45,11 @@
                 - name: Platform update 15 (Mart 2018)
                   href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Kaldırılan veya artık kullanılmayan özellikler
-              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+              items:
+                - name: Kaldırılan veya artık kullanılmayan Platform özellikleri
+                  href: get-started/removed-deprecated-features-platform-updates.md
+                - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
+                  href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Ertelenen AX 2012 özellikleri
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Şirket içi dağıtımlarda uygulanmayan özellikler
@@ -142,9 +146,11 @@
                   items:
                     - name: Common Data Service kullanarak veri tümleştirmeye genel bakış
                       href: data-entities/data-integration-cds.md
-                    - name: 'Eş zamanlı, çift yönlü tümleştirme'
+                    - name: 'Eşzamanlı, çift yönlü tümleştirme'
                       items:
-                        - name: Gerçek zamanlıya yakın veri tümleştirmesi
+                        - name: Çift yazma giriş sayfası
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Çift yazmaya genel bakış
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Common Data Service'ta kuruluş hiyerarşisi
                           href: data-entities/dual-write/organization-mapping.md
@@ -520,7 +526,7 @@
                       href: dev-tools/create-data-model-elements.md
                     - name: Uzantılar için adlandırma kuralları
                       href: extensibility/NamingGuidelines.md
-                    - name: Model özelleştirmeyi kapatma ve işlevi kaldırma
+                    - name: Model özelleştirmeyi kapatma ve işlevi kullanımdan kaldırma
                       href: dev-tools/lock-models.md
                 - name: Özelleştirme Analizi Raporu
                   href: dev-tools/customization-analysis-report.md
@@ -940,7 +946,7 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: İş ortakları için LCS
                   href: lifecycle-services/getting-started-lcs.md
-                - name: Yenilikler
+                - name: Lifecycle Services'deki yenilikler veya değişiklikler
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Bilinen sorunlar
                   href: lifecycle-services/known-issues.md
@@ -1685,6 +1691,4 @@
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
-      href: ../../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../../commerce/index.md
