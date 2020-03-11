@@ -1,9 +1,9 @@
 ---
 title: Planlama işini iptal etme
-description: Bu konuda, Planlamayı En İyi Duruma Getirme işlevini kullanan etkin bir planlama işinin nasıl iptal edileceği açıklanmaktadır.
+description: Bu konuda, Planlamayı en iyi duruma getirme işlevini kullanan etkin bir planlama işinin nasıl iptal edileceği açıklanmaktadır.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,21 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a2d90f04985fdd66ca83582ee676100fffb26981
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 18c5c7b8030fc6adbc548dab750e4f454aebc867
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774072"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076364"
 ---
+# <a name="cancel-a-planning-job"></a>Planlama işini iptal etme
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
 
-# <a name="cancel-a-planning-job"></a>Planlama işini iptal etme
+Microsoft Dynamics 365 Supply Chain Management'ta, Planlamayı en iyi duruma getirme işlevini kullanan etkin bir planlama işini iptal edebilirsiniz. Bir Planlama en iyi duruma getirme işi doğrudan kullanıcı arabiriminden tetiklendiğinde (arka planda değil), iletişim kutusunda **İptal**'i seçerseniz bu işlem Planlama en iyi duruma getirme işini iptal etmez. "İşlem iptal edildi" gibi bir uyarı alsanız bile Planlama en iyi duruma getirme işlemi ile planlama işini iptal etmek için yine de aşağıdaki adımları kullanmanız gerekir.
 
-Microsoft Dynamics 365 Supply Chain Management'ta, Planlamayı En İyi Duruma Getirme işlevini kullanan etkin bir planlama işini iptal edebilirsiniz.
 
-Etkin bir planlama işini iptal etmek için aşağıdaki adımları izleyin.
+Etkin bir planlama işini iptal etmek için aşağıdaki adımları izleyin. 
 
 > [!NOTE]
 > Yalnızca etkin işler iptal edilebilir.
@@ -49,11 +50,11 @@ Planlamayı En İyi Duruma Getirme hizmeti işin iptal edilmesini onaylayana kad
 > [!NOTE]
 > Durum değişikliklerini görmek için **Yenile** düğmesini seçerek sayfayı yenilemeniz gerekir.
 
-## <a name="related-resources"></a>İlgili kaynaklar
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Planlamayı En İyi Duruma Getirmeye genel bakış](planning-optimization-overview.md)
 
-[Planlamayı En İyi Duruma Getirmeye başlayın](get-started.md)
+[Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama](get-started.md)
 
 [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
 

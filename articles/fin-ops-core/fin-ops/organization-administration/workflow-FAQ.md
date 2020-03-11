@@ -3,7 +3,7 @@ title: İş akışı SSS
 description: Bu konu, iş akışı sistemi hakkında sık sorulan soruları yanıtlamaktadır.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934921"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076098"
 ---
 # <a name="workflow-faq"></a>İş akışıyla ilgili SSS
 
@@ -52,5 +52,9 @@ Bildirim sağlamak amacıyla iş akışlarına uyarı ekleme hakkında dikkat ed
 
 Özetle, bir kullanıcı kendisine bir iş akışı iş maddesi atandığında eylem merkezinden uygun bildirimi alamazsa ek veya farklı bildirimler sağlamak için [İş Akışı İş Olayları](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ile Microsoft Power Automate'i ek ya da farklı bildirimler sağlamak için kullanır.
 
-## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>İş akışı Düzenleyicisi ADFS altında başlatılırken sorunla karşılaşıyor 
+## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>İş akışı düzenleyicisi AD FS altında niçin başlatılamıyor?
 Yükseltilmiş bir ortamda Active Directory Federasyon Hizmetleri (AD FS) altında çalışırken, iş akışı Düzenleyicisi başlatılırken sorun olabilir. Varsa, ADFS ayarlarındaki **Microsoft Dynamics 365 for Operations şirket içi-iş akışı-yerel uygulama** özelliğine "https://dynamicsaxworkfloweditor/" URL'si eklenmiş olduğundan emin olun.
+
+## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>İş akışı işlemede niçin SQL kilitlenmeleri alıyorum? 
+**İş akışı parametreleri** sayfasındaki **toplu iş başına madde sayısı** için varsayılan alan değeri 0'dır. 0 değeri, varsayılan değerin toplu iş başına 20 öğe değiştirmesine neden olur. Toplu iş (> 40) başına yüksek sayıda madde SQL kilitlenmesine neden olabileceği için, bu değeri ayarlarken dikkatli olun.
+

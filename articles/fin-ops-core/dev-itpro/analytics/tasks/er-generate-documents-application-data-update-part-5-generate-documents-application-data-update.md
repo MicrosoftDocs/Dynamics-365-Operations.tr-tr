@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026075"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042862"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturma
 
@@ -40,10 +40,14 @@ Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne a
 ## <a name="set-up-foreign-trade-parameters"></a>Dış ticaret parametreleri ayarla
 1. Vergi > Kurulum > Dış Ticaret > Dış Ticaret parametreleri'ne gidin.
 2. Numara serileri sekmesini tıklatın.
-    * Instrastat raporlama işlemlerinin arşivleme ayrıntıları, oluşturduğumuz her arşivin kaydını tanımlamamız gerekir. Bunun için özel bir numara serisinin yapılandırılmış olması gerekir.  
+
+    Instrastat raporlama işlemlerinin arşivleme ayrıntıları, oluşturduğumuz her arşivin kaydını tanımlamamız gerekir. Bunun için özel bir numara serisinin yapılandırılmış olması gerekir.  
+
 3. 'Intrastat arşiv kodu' referansını seçin.
 4. Numara serisi kodu alanında, bir değer girin.
-    * 'Numara sırası kodu' alanında, 'Fore_2' değerini girin ya da seçin.  
+
+    'Numara sırası kodu' alanında, 'Fore_2' değerini girin ya da seçin.  
+
 5. Numara serisi kodunu ResolveChanges.
 6. Kaydet'e tıklayın.
 7. Sayfayı kapatın.
@@ -52,20 +56,25 @@ Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne a
 1. Kuruluş yönetimi > Elektronik raporlama > Yapılandırmalar seçeneğine git.
 2. Ağaçta, 'Intrastat (model)' öğesini genişletin.
 3. Ağaçta, 'Intrastat (model)\Intrastat (biçim)' öğesini seçin.
-4. Çalıştır öğesine tıklayın.
+4. Çalıştır'a tıklayın.
 5. Dosya adı gir alanında, 'intrastat2.xml' yazın.
-    * intrastat2.xml  
 6. Tamam'a tıklayın.
 
 ## <a name="review-er-format-executions-results"></a>ER biçimi yürütmesine ait sonuçları gözden geçirin
 Oluşturulan XML dosyasını gözden geçirin.  
 1. Sayfayı kapatın.
 2. Vergi > Bildirimler > Dış ticaret > Intrastat öğesine gidin.
-    * Oluşturulan elektronik belgeye dahil edilmiş olan Intrastat hareketlerini görüntülemek için bunları içeren formu açın.  
+
+    Oluşturulan elektronik belgeye dahil edilmiş olan Intrastat hareketlerini görüntülemek için bunları içeren formu açın.  
+
 3. Intrastat arşivini tıklat.
-    * Çalıştırılan ER biçimi uygulama veri güncelleştirmesi için herhangi bir ayarı şimdi içerdiğinden, tamamlanan Intrastat raporlamasının ayrıntıları arşivlenmiştir. Bu formda oluşturulan arşivin başlık kaydını görebilirsiniz.  
+
+    Çalıştırılan ER biçimi uygulama veri güncelleştirmesi için herhangi bir ayarı şimdi içerdiğinden, tamamlanan Intrastat raporlamasının ayrıntıları arşivlenmiştir. Bu formda oluşturulan arşivin başlık kaydını görebilirsiniz.  
+
 4. Ayrıntılar seçeneğini tıklatın.
-    * Bu formda oluşturulan arşivin ayrıntılarını görebilirsiniz.  
+
+    Bu formda oluşturulan arşivin ayrıntılarını görebilirsiniz.  
+
 5. Sayfayı kapatın.
 6. Sayfayı kapatın.
 7. Sayfayı kapatın.

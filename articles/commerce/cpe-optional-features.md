@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024741"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057752"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce önizleme ortamı için isteğe bağlı özellikleri yapılandırma
 
@@ -63,8 +63,8 @@ Yeni çok yönlü kanal görüntülerini alarak dijital varlık yönetimi özell
 
 ### <a name="update-the-media-base-url"></a>Ortam temel URL'si güncelleştirin
 
-1. Dynamics 365 Retail'da oturum açın
-1. Soldaki menüyü kullanarak, **Modüller \> Perakende \>> Kanal ayarı \> Kanal profilleri** gidin.
+1. Dynamics 365 Commerce'da oturum açın
+1. Soldaki menüyü kullanarak, **Modüller \> Perakende ve ticaret \>> Kanal ayarı \> Kanal profilleri** gidin.
 1. **Düzenle** öğesini seçin.
 1. **Profil özelliklerinden**, **ortam sunucusu temel URL**'sinin özellik değerini daha önce oluşturduğunuz ortam taban URL'siyle değiştirin.
 1. Soldaki listeden, **varsayılan** kanal altında diğer kanalı seçin.
@@ -77,7 +77,7 @@ Yeni çok yönlü kanal görüntülerini alarak dijital varlık yönetimi özell
 > [!NOTE]
 > Burada girdiğiniz SMTP sunucusu ya da e-posta hizmetinin, ortam için kullandığınız Azure aboneliği içinden erişilebilir olması gerekir.
 
-1. Retail'da oturum açın.
+1. Commerce'de oturum açın.
 1. Soldaki menüyü kullanarak, **Modüller \> Sistem yönetimi \> Kurulum \> E-posta \> E-posta parametreleri**'ne gidin.
 1. **SMTP** ayarları sekmesinde, **giden posta sunucusu** alanına SMTP sunucunuzun veya e-posta hizmetinizin FQDN'sini veya IP adresini girin.
 1. **SMTP port numarası** alanına port numarasını girin. (Güvenli Yuvalar katmanı \[SSL\]'yi kullanmıyorsanız, varsayılan bağlantı noktası numarası **25**'tir.)
@@ -92,7 +92,7 @@ Yeni çok yönlü kanal görüntülerini alarak dijital varlık yönetimi özell
 
 E-postalarını göndermek istediğiniz her işlemsel olay için e-posta şablonunun geçerli bir gönderen e-posta adresiyle güncelleştirilmesi gerekir.
 
-1. Retail'da oturum açın.
+1. Commerce'de oturum açın.
 1. Soldaki menüyü kullanarak, **Modüller \> Kuruluş yönetimi \> Kurulum \>> Kuruluş e-posta şablonları** gidin.
 1. **Listeyi göster**'i seçin.
 1. Listedeki her şablon için şu adımları izleyin:
@@ -115,7 +115,7 @@ E-posta şablonlarını farklı görüntüler kullanacak şekilde özelleştirme
     - Sipariş şablonu al
 
 1. Metin veya HTML Düzenleyicisi kullanarak şablonları özelleştirin. [Desteklenen belirteçler](#supported-tokens-in-the-email-template) listesine bu konunun ilerisinde bakın.
-1. Retail'da oturum açın.
+1. Commerce'de oturum açın.
 1. Soldaki menüyü kullanarak, **Modüller \> Kuruluş yönetimi \> Kurulum \>> Kuruluş e-posta şablonları** gidin.
 1. Tüm şablonları görmek için soldaki listeyi genişletin.
 1. Özelleştirmek istediğiniz her şablon için şu adımları izleyin:

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
-ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "2810711"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058029"
 ---
 # <a name="one-voucher"></a>Bir fiş
 
@@ -156,7 +156,7 @@ Kuruluşlar genellikle veri miktarını en aza indirgemek için genel muhasebe d
 
 ### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>Aynı faturada birden fazla deftere nakledilmemiş ödemeyi kapatma
 
-Bu senaryo genellikle, müşterilerin satınalma ödemeleri için birden çok ödeme yöntemi kullanabildiği perakende kuruluşlarında bulunur. Bu senaryoda, kuruluşun birden çok deftere nakledilmemiş ödemeleri kaydetmesi ve bunları müşteri faturasına göre kapatabilmesi gerekir.
+Bu senaryo genellikle, müşterilerin satınalma ödemeleri için birden çok ödeme yöntemi kullanabildiği kuruluşlarında bulunur. Bu senaryoda, kuruluşun birden çok deftere nakledilmemiş ödemeleri kaydetmesi ve bunları müşteri faturasına göre kapatabilmesi gerekir.
 
 Microsoft Dynamics 365 for Operations sürüm 1611'e (Kasım 2016) eklenen yeni bir özellik, birden fazla deftere nakledilmemiş ödemeyi tek bir faturaya göre kapatabilmeye olanak tanır. Birden çok müşteri ödemesi artık tek bir fişe girilmek zorunda değildir.
 

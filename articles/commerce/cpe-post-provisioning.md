@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024718"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057729"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce önizleme ortamını yapılandırma
 
@@ -35,7 +35,7 @@ Bu konu, hazırlandıktan sonra Microsoft Dynamics 365 Commerce önizleme ortam�
 
 Bu konudaki yordamları yalnızca Commerce Preview ortamınızı sağlandıktan sonra tamamlayın. Commerce önizleme ortamını sağlamak hakkında bilgi için bkz. [Commerce önizleme ortamı sağlama](provisioning-guide.md).
 
-Commerce Preview ortamınız sona kadar sağlanmış olduktan sonra, ortamı değerlendirmeye başlamadan önce ek sağlama sonrası konfigürasyon adımlarının tamamlanması gerekir. Bu adımları tamamlamak için, Microsoft Dynamics Lifecycle Services'i (LCS), Dynamics 365 Commerce ve Dynamics 365 Retail öğesini kullanmalısınız.
+Commerce Preview ortamınız sona kadar sağlanmış olduktan sonra, ortamı değerlendirmeye başlamadan önce ek sağlama sonrası konfigürasyon adımlarının tamamlanması gerekir. Bu adımları tamamlamak için, Microsoft Dynamics Lifecycle Services'i (LCS) ve Dynamics 365 Commerce öğesini kullanmalısınız.
 
 ## <a name="before-you-start"></a>Başlamadan önce
 
@@ -53,7 +53,7 @@ Commerce Preview ortamınız sona kadar sağlanmış olduktan sonra, ortamı de�
 
 Bir çalışanı LCS ile sizin kimlik ile ilişkilendirmek için, aşağıdaki adımları izleyin.
 
-1. Soldaki menüyü kullanarak, **Modüller \> perakende \> çalışanlar \> İşçiler**'e gidin.
+1. Soldaki menüyü kullanarak, **Modüller \> perakende ve ticaret \> çalışanlar \> İşçiler**'e gidin.
 1. Listede, **000713 - Andrew Collette** kaydı bulun ve seçin.
 1. Eylem Bölmesinde, **Perakende**'yi seçin.
 1. **Var olan kimliği ilişkilendir**'i seçin.
@@ -91,12 +91,12 @@ Commerce'te önizleme sitenizi ayarlamaya başlamak için aşağıdaki adımlar�
 1. **Yol** alanının değerini olduğu gibi bırakın.
 1. **Tamam**'ı seçin. Sitedeki Sayfalar listesi görüntülenir.
 
-## <a name="enable-jobs-in-retail"></a>Perakendede işleri etkinleştir
+## <a name="enable-jobs"></a>İşleri etkinleştir
 
-Perakendede işleri etkinleştirmek için şu adımları izleyin:
+Commerce'de işleri etkinleştirmek için şu adımları izleyin:
 
 1. Ortama oturum açın (HQ).
-1. Soldaki menüyü kullanarak **perakende \> Sorgulamalar ve raporlar \> toplu işler**'e gidin.
+1. Soldaki menüyü kullanarak **perakende ve ticaret \> Sorgulamalar ve raporlar \> toplu işler**'e gidin.
 
     Bu yordamın geri kalan adımlarının aşağıdaki işlerin her biri için tamamlanması gerekir:
 
@@ -112,11 +112,11 @@ Perakendede işleri etkinleştirmek için şu adımları izleyin:
     1. Eylem Bölmesi'nde **Toplu iş**'te **Durumu değiştir**'i tıklayın.
     1. **Bekliyor**'u seçin ve sonra **Tamam**'i seçin.
 
-### <a name="run-full-data-synchronization-in-retail"></a>Tam veri eşitlemesini perakende olarak çalıştır
+### <a name="run-full-data-synchronization"></a>Tam veri eşitlemeyi çalıştır
 
-Tam veri eşitlemesini perakende olarak çalıştırmak için aşağıdaki adımları izleyin.
+Tam veri eşitlemesini Commerce'de çalıştırmak için aşağıdaki adımları izleyin.
 
-1. Soldaki menüyü kullanarak, **Modüller \> Perakende \> Genel merkez ayarı \> Perakende planlayıcısı \> Kanal veritabanı** gidin.
+1. Soldaki menüyü kullanarak, **Modüller \> Perakende ve ticaret \> Genel merkez ayarı \> Perakende planlayıcısı \> Kanal veritabanı** gidin.
 1. **Varsayılan** kanal, soldaki listeden seçilir. Diğer kullanılabilir kanalı seçin. Bu kanala, **scXXXXXXXXX** adı verilmiştir.
 1. Eylem bölmesinde **tam veri eşitleme**'yi tıklatın.
 1. Dağıtım planı olarak **9999**'ı seçin.

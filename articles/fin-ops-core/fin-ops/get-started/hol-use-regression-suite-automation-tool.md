@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 026d1d743b5150f152ef70aa642dcf6841a4e398
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025816"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070832"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool eğitimi kullanma
 
@@ -217,15 +217,15 @@ Aşağıdaki şekil, RSAT'da bu senaryoya yönelik iş süreçlerini gösterir.
 
 ## <a name="advanced-scripting"></a>Gelişmiş kodlama
 
-### <a name="command-line"></a>Komut satırı
+### <a name="cli"></a>CLI
 
-RSAT, bir **Komut İstemi** penceresinden çağrılabilir.
+RSAT, bir **Komut İstemi** ya da **PowerShell** penceresinden çağrılabilir.
 
 > [!NOTE]
 > **TestRoot** ortam değişkeninin RSAT yükleme yolu olarak ayarlandığını doğrulayın. (Microsoft Windows'ta **Kontrol Paneli**'ni açın, **Sistem ve Güvenlik \> Sistem \> Gelişmiş sistem ayarları**'nı seçin ve sonra **Çevre Değişkenleri**'ni seçin.)
 
-1. Bir **Komut İstemi** penceresini yönetici olarak açın.
-2. Aracı yükleme dizininden çalıştırın.
+1. Bir **Komut İstemi** ya da **PowerShell** penceresini yönetici olarak açın.
+2. RSAT yükleme dizinine gidin.
 
     ```Console
     cd "c:\Program Files (x86)\Regression Suite Automation Tool\"
@@ -242,22 +242,273 @@ RSAT, bir **Komut İstemi** penceresinden çağrılabilir.
         Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe /settings "C:\Path to\file.settings" command
 
     Available commands:
-        list
-        listtestsuite suite_name
-        download test_case_id output_dir
-        generate test_case_id output_dir
-        generatederived parent_test_case_id test_plan_id test_suite_id
-        generatetestonly test_case_id output_dir
-        edit excel_file
-        playback excel_file
-        playbackmany excel_file1 [excel_file2 [.. excel_fileN]]
-        playbackbyid test_case_id1 [test_case_id2 [.. test_case_idN]]
-        playbacksuite suite_name
-        clear
-        help
+        ?
         about
+        cls
+        download
+        edit
+        generate
+        generatederived
+        generatetestonly
+        generatetestsuite
+        help
+        list
+        listtestplans
+        listtestsuite
+        listtestsuitenames
+        playback
+        playbackbyid
+        playbackmany
+        playbacksuite
         quit
+        upload
+        uploadrecording
+        usage
     ```
+
+#### <a name=""></a>? 
+Kullanılabilen tüm komutlar ve parametreleriyle ilgili yardım gösterir.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
+
+##### <a name="optional-parameters"></a>İsteğe bağlı parametreleri
+
+**``command``**
+
+
+``[command]`` aşağıda belirtilen komutlardan biridir.
+
+
+#### <a name="about"></a>hakkında
+Geçerli sürümü gösterir.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
+
+#### <a name="cls"></a>cls
+Ekranı temizler.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``cls``**
+
+
+#### <a name="download"></a>indir
+Belirtilen test çalışmasının eklerini çıkış dizinine yükler. Tüm kullanılabilir test çalışmalarını almak için ``list`` komutunu kullanabilirsiniz. İlk sütundaki **test_case_id** parametre olarak herhangi bir değeri kullanın.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``test_case_id``** test çalışması kimliğini gösterir.  
+**``output_dir``** çıktı dizinini gösterir. Dizin mevcut olmalıdır.
+
+##### <a name="examples"></a>Örnekler
+
+``download 123 c:\temp\rsat``   
+``download 765 c:\rsat\last``
+
+
+#### <a name="edit"></a>düzenle
+Excel programında parametreleri dosya açmanıza ve düzenlemenize olanak tanır.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``edit``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``excel_file``** varolan bir Excel dosyasının tam yolunu içermelidir.
+
+##### <a name="examples"></a>Örnekler
+``edit c:\RSAT\TestCase_123_Base.xlsx``  
+``edit e:\temp\TestCase_456_Base.xlsx``
+
+
+#### <a name="generate"></a>oluştur
+Çıkış dizininde belirtilen test çalışması için test yürütmesi ve parametre dosyaları oluşturur.
+Tüm kullanılabilir test çalışmalarını almak için ``list`` komutunu kullanabilirsiniz. İlk sütundaki **test_case_id** parametre olarak herhangi bir değeri kullanın.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``test_case_id``** test çalışması kimliğini gösterir.  
+**``output_dir``** çıktı dizinini gösterir. Dizin mevcut olmalıdır.
+
+##### <a name="examples"></a>Örnekler
+``generate 123 c:\temp\rsat``  
+``generate 765 c:\rsat\last``
+
+
+#### <a name="generatederived"></a>generatederived
+Sağlanan test çalışmasının türevi olan yeni bir test durumu oluşturur. Tüm kullanılabilir test çalışmalarını almak için ``list`` komutunu kullanabilirsiniz. İlk sütundaki **test_case_id** parametre olarak herhangi bir değeri kullanın.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``parent_test_case_id``** üst öğe test çalışması kimliğini gösterir.  
+**``test_plan_id``** test planı kimliğini gösterir.  
+**``test_suite_id``** test süiti kimliğini gösterir.
+
+##### <a name="examples"></a>Örnekler
+``generatederived 123 8901 678``
+
+
+#### <a name="generatetestonly"></a>generatetestonly
+Çıkış dizininde belirtilen test çalışması için yalnızca test yürütmesi dosyası oluşturur. Tüm kullanılabilir test çalışmalarını almak için ``list`` komutunu kullanabilirsiniz. İlk sütundaki **test_case_id** parametre olarak herhangi bir değeri kullanın.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``test_case_id``** test çalışması kimliğini gösterir.  
+**``output_dir``** çıktı dizinini gösterir. Dizin mevcut olmalıdır.
+
+##### <a name="examples"></a>Örnekler
+``generatetestonly 123 c:\temp\rsat``  
+``generatetestonly 765 c:\rsat\last``
+
+
+#### <a name="generatetestsuite"></a>generatetestsuite
+Belirtilen paket için çıkış dizininde tüm test çalışmalarını oluşturur.
+Tüm kullanılabilir test süitlerini almak için ``listtestsuitenames`` komutunu kullanabilirsiniz. Sütundaki **test_suite_name** parametre olarak herhangi bir değeri kullanın.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``test_suite_name``** test süiti adını gösterir.  
+**``output_dir``** çıktı dizinini gösterir. Dizin mevcut olmalıdır.
+
+##### <a name="examples"></a>Örnekler
+``generatetestsuite Tests c:\temp\rsat``   
+``generatetestsuite Purchase c:\rsat\last``
+
+
+#### <a name="help"></a>yardım
+Benzer mi [?](####?) komut
+
+
+#### <a name="list"></a>liste
+Tüm kullanılabilir test çalışmalarını listeler.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
+
+
+#### <a name="listtestplans"></a>listtestplans
+Tüm kullanılabilir test planlarını listeler.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestplans``**
+
+
+#### <a name="listtestsuite"></a>listtestsuite
+Belirtilen test paketiyle ilgili test çalışmalarını listeler. Tüm kullanılabilir test paketlerini almak için ``listtestsuitenames`` komutunu kullanabilirsiniz. İlk sütundaki **suite_name** parametre olarak herhangi bir değeri kullanın.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``suite_name``** istenen paketin adı.
+
+##### <a name="examples"></a>Örnekler
+``listtestsuite "sample suite name"``  
+``listtestsuite NameOfTheSuite``
+
+
+#### <a name="listtestsuitenames"></a>listtestsuitenames
+Tüm kullanılabilir test paketlerini listeler.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
+
+
+#### <a name="playback"></a>yürütme
+Excel dosyası kullanarak bir test durumunu yürütür.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``excel_file``** Excel dosyasının tam yolu. Dosya var olmalıdır. 
+
+##### <a name="examples"></a>Örnekler
+``
+playback c:\RSAT\TestCaseParameters\sample1.xlsx
+playback e:\temp\test.xlsx
+``
+
+
+#### <a name="playbackbyid"></a>playbackbyid
+Aynı anda birden fazla test çalışmasını kayıttan yürütür.
+Tüm kullanılabilir test çalışmalarını almak için ``list`` komutunu kullanabilirsiniz. İlk sütundaki **test_case_id** parametre olarak herhangi bir değeri kullanın.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``test_case_id1``** Varolan test çalışmasının kodu.  
+**``test_case_id2``** Varolan test çalışmasının kodu.  
+**``test_case_idN``** Varolan test çalışmasının kodu.  
+
+##### <a name="examples"></a>Örnekler
+``playbackbyid 878``  
+``playbackbyid 2345 667 135``
+
+
+#### <a name="playbackmany"></a>playbackmany
+Excel dosyalarını kullanarak birçok test çalışmasını aynı anda kayıttan çalar.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``excel_file1``** Excel dosyasının tam yolu. Dosya var olmalıdır.  
+**``excel_file2``** Excel dosyasının tam yolu. Dosya var olmalıdır.  
+**``excel_fileN``** Excel dosyasının tam yolu. Dosya var olmalıdır.  
+
+##### <a name="examples"></a>Örnekler
+``playbackmany c:\RSAT\TestCaseParameters\param1.xlsx``  
+``playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx``
+
+
+#### <a name="playbacksuite"></a>playbacksuite
+Belirtilen test paketinden tüm test çalışmalarını kayıttan yürütür. Tüm kullanılabilir test paketlerini almak için ``listtestsuitenames`` komutunu kullanabilirsiniz. İlk sütundaki **suite_name** parametre olarak herhangi bir değeri kullanın.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``suite_name``** istenen paketin adı.
+
+##### <a name="examples"></a>Örnekler
+``playbacksuite suiteName``  
+``playbacksuite sample_suite``
+
+
+#### <a name="quit"></a>çıkış
+Uygulamayı kapatır.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
+
+
+#### <a name="upload"></a>yükle
+Belirtilen test paketine veya test çalışmalarına ait olan tüm dosyaları karşıya yükler.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+
+#### <a name="required-parameters"></a>Gerekli parametreler
+**``suite_name``** Belirtilen test paketine ait olan tüm dosyaları karşıya yükler.
+**``testcase_id``** Belirtilen test çalışmalarına ait olan tüm dosyaları karşıya yükler.
+
+##### <a name="examples"></a>Örnekler
+``upload sample_suite``  
+``upload 123``  
+``upload 123 456``
+
+
+#### <a name="uploadrecording"></a>uploadrecording
+Belirtilen test çalışmalarına ait olan yalnızca kayıt dosyasını karşıya yükler.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+
+##### <a name="required-parameters"></a>Gerekli parametreler
+**``testcase_id``** Belirtilen test çalışmalarına ait olan kayıt dosyasını karşıya yükler.
+
+##### <a name="examples"></a>Örnekler
+``uploadrecording 123``  
+``uploadrecording 123 456``
+
+
+#### <a name="usage"></a>kullanım
+Bu uygulamayı başlatmak için iki yol gösterir: bir tane varsayılan ayar dosyası kullanıldığında, diğeri ayar dosyası sağlar.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell örnekleri
 

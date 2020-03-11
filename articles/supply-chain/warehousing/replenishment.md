@@ -3,7 +3,7 @@ title: Stok yenilemeye genel bakış
 description: Bu konuda Ambar yönetiminde bulunan işlevi kullanan ambarlarda kullanılabilen stok yenileme stratejileri açıklanmaktadır.
 author: Mirzaab
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251489"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076374"
 ---
 # <a name="replenishment-overview"></a>Stok yenilemeye genel bakış
 
@@ -49,6 +49,8 @@ Yerleşim yönergeleri stok yenilemesi yapılması gereken yerleşimi belirlemek
 Şablon oluşturmaya ek olarak, dalga şablonunda da bazı stok yenileme ayarlarını belirtmeniz gerekir. Dalga şablonu yalnızca bir madde başarıyla dağıtılmadığında çalıştırılan stok yenilemesi için bir dalga adımı içermelidir. Bu stok yenileme dalga adımı kullanılması gereken stok yenileme şablonunu belirlemek için bir dalga adımı kodu kullanır. Stok yenileme için bir dalga adımı oluşturmaya ek olarak, dalga şablonunun **Yöntemler** bölümünde **Stok Yenileme** öğesinin seçildiğinden emin olmanız gerekir. 
 
 **Stok yenileme şablonu** sayfasında **Dalga talebinin rezerve edilmemiş miktarları kullanmasına izin ver** onay kutusu bulunmaktadır. Seçili stok yenileme şablonundan oluşturulan işten rezerve edilmemiş miktarları düşmek için talep stok yenilenecekse bu onay kutusunu işaretleyin. Talep stok yenilemesi şablonlarını bu mantığı kullanmak üzere etkinleştirmek üzere, mevcut tüm stok yenileme şablonları için bu onay kutusunu ayarlayın. İş, **Dalga talebinin rezerve edilmemiş miktarları kullanmasına izin ver** onay kutusunun seçili olduğu stok yenileme şablonlarında oluşturulmuşsa, ambarda talep stok yenilemesi tetiklendiğinde, rezerve edilmemiş miktara sahip mevcut stok yenileme işinden bu talep düşürülür.
+
+**Stok yenileme birimi** stok yenilemesi yapılacak minimum birimdir. Bunun, birimin katı olan bir tamsayı olması gerekiyor. Sistem, iş oluşturulurken mümkün olan en yüksek birime kadar yuvarlayacak.
 
 Talep stok yenilemesi satış siparişleri, transfer emirleri, üretim emirleri ve kanbanlar için desteklenir. 
 

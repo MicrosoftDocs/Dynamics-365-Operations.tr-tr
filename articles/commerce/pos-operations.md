@@ -3,7 +3,7 @@ title: Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 description: Bu konu, Dynamics 365 Commerce içinde satış noktası (POS operasyonları hakkında bilgi verir). Uygulamada işlemlerin nereden çağrılabileceğini ve çevrimdışı modda kullanılabilir olup olmadığını belirtir.
 author: jblucher
 manager: AnnBe
-ms.date: 05/21/2019
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf67c53ffd5bd530f484b60da604fd9338c964fd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024380"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081351"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
@@ -52,6 +52,8 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 137 | Müşteriye ilişki ekleme | Müşteriye bir ilişkiyi **Müşteri ayrıntıları** sayfasından ekleyin. | Hayır | Hayır | Hayır | Evet | Hayır |
 | 138 | Müşteriden ilişkiyi kaldırma | İlişkiyi **Müşteri ayrıntıları** sayfasından kaldırın. | Hayır | Hayır | Hayır | Evet | Hayır |
 | 643 | Kupon kodunu ekle | POS'ta kodunu girerek bir kupon ekleyin. | Evet | Evet | Hayır | Evet | Hayır |
+| 141 | Başlık masrafları ekle | Sipariş başlığına sair gider ekleyin. | Evet | Evet | Hayır | Hayır| Hayır |
+| 141 | Satır masrafları ekle | Seçili bir satış satırına sair gider ekleyin. | Evet | Evet | Hayır | Hayır| Hayır |
 | 117 | Bağlılık programı kartı ekle | Kullanıcıdan geçerli harekete eklenecek olan bir bağlılık kartı numarası girmesini isteyin. | Evet | Evet | Hayır | Evet | Hayır |
 | 136 | Seri numarası ekle | Bu işlem kullanıcının seçili ürün için bir seri numarası belirtmesine izin verir. | Evet | Evet | Hayır | Evet | Hayır |
 | 1214 | Sevkiyat adresi ekle | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Hayır |
@@ -64,6 +66,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 310 | Toplamı hesapla | İskonto hesaplaması ertelendiğinde, bu işlem geçerli hareket için hesaplamayı başlatır. | Evet | Evet | Hayır | Evet | Hayır |
 | 642 | Tüm Ürünleri Gerçekleştir | Tüm satırlar için teslimat modunu **Teslim alınan** olarak ayarlayın. | Evet | Evet | Hayır | Evet\* | Hayır |
 | 641 | Seçilen Ürünleri Gerçekleştir | Tüm seçili satırlar için teslimat modunu **Teslim alınan** olarak ayarlayın. | Evet | Evet | Hayır | Evet\* | Hayır |
+| 647 | Teslimat şeklini değiştir | Önceden yapılandırılmış sevkiyat satış satırları için teslimat şeklini değiştirin. | Evet | Evet | Hayır | Hayır| Hayır |
 | 1215 | Parolayı değiştir | Bu işlem POS kullanıcısının kendi parolasını değiştirmesini sağlar. | Evet | Evet | Evet | Hayır | Hayır |
 | 123 | Ölçü birimini değiştir | Seçilen satır maddesi için ölçü birimi değiştirin. | Evet | Evet | Hayır | Evet | Hayır |
 | 639 | Hareketteki varsayılan satış temsilcisini temizle | Komisyon satış grubunu (satış temsilcisi) hareketten kaldırın. | Evet | Evet | Hayır | Evet | Hayır |
@@ -100,6 +103,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 1218 | Çevre biriminin kilidini açmaya zorla | Sistem bu işlemi POS çevre birimlerinin kilidini açmak için dahili olarak kullanır. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Hayır |
 | 520 | Hediye kartı bakiyesi | Hediye kartı bakiyesini görüntüleyin. | Evet | Evet | Hayır | Hayır | Hayır |
 | 708 | Cihazı devre dışı bırak | POS kayı olarak kullanılabilmesi için geçerli cihazı devre dışı bırakın. | Hayır | Hayır | Hayır | Hayır | Hayır |
+| 804 | Gelen işlem | Gelen mağaza stok yönetimi özelliklerine erişin. | Evet | Hayır | Evet | Hayır| Hayır |
 | 517 | Gelir hesapları | Satış dışındaki bir nedenle kasa çekmecesine yerleştirilen parayı kaydedin. | Evet | Evet | Evet | Evet | Hayır |
 | 801 | Stok arama | Geçerli mağaza ve diğer kullanılabilir konumlar için kullanılabilir, sipariş ve karşılanabilir miktar (KM) miktarlarını arayın. | Evet | Evet | Evet | Hayır | Hayır |
 | 122 | Fatura açıklaması | Bu işlem kullanıcının geçerli hareketle ilgili bir açıklama girmesine izin verir. | Evet | Evet | Hayır | Evet | Hayır |
@@ -111,10 +115,12 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 703 | Kaydı kilitle | Kullanılamaması için geçerli kaydı kilitler ancak kullanıcı oturumunu kapatmaz. | Hayır | Hayır | Hayır | Evet | Hayır |
 | 701 | Oturumu kapat | Geçerli kullanıcının kayıt oturumunu sonlandırır. | Evet | Evet | Evet | Evet | Hayır |
 | 521 | Bağlılık programı kartı puanı bakiyesi | Belirtilen bağlılık programı kartının puan bakiyesi gösterin. | Evet | Evet | Hayır | Hayır | Hayır |
+| 142 | Masrafları yönet | Harekete uygulanan sair giderleri görüntüleyin ve yönetin. | Evet | Evet | Hayır | Hayır| Hayır |
 | 918 | Vardiyaları yönet | Etkin, beklemeye alınmış ve kapalı vardiyaların listesini görüntüleyin. | Evet | Evet | Evet | Hayır | Hayır |
 | 914 | POS penceresini simge durumuna küçült | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Hayır |
 | 1000 | Çekmeceyi aç | "Satış yok" işlemi gerçekleştirin ve seçili olan kasa çekmecesini açın. | Evet | Evet | Evet | Evet | Hayır |
 | 928 | Sipariş karşılama | Bu işlem kullanıcıların siparişleri mağazadan çekme işlemi için çekmesine, paketlemesine, sevk etmesine veya geri çağırmasına olanak tanır. | Evet | Evet | Evet | Hayır | Hayır |
+| 805 | Giden işlem | Giden transfer emirlerinin sevkiyatları yönetimine ilişkin özelliklere erişin. | Evet | Hayır | Evet | Hayır| Hayır |
 | 129 | Satır ürünü vergisini geçersiz kıl | Seçilen satır maddesindeki vergi geçersiz kılın ve farklı bir vergi kullanın. | Evet | Evet | Hayır | Evet | Hayır |
 | 130 | Listedeki satır ürünü vergisini geçersiz kıl | Seçilen satır maddesindeki vergiyi geçersiz kılın ve kullanıcının listeden seçtiği bir vergiyi kullanın. | Evet | Evet | Hayır | Evet | Hayır |
 | 127 | Hareket vergisini geçersiz kıl | Hareketteki vergiyi geçersiz kılın ve farklı bir vergi kullanın. | Evet | Evet | Hayır | Evet | Hayır |
@@ -147,6 +153,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 108 | Ürün arama | Bu işlem kullanıcının POS'taki ürün arama sayfasına giderek bir ürün aramasına olanak sağlar. | Evet | Evet | Evet | Evet | Hayır |
 | 633 | Bitiş tarihi teklif et | Bu işlem kullanıcının satış tekliflerindeki bitiş tarihini görmesine veya değiştirmesine olanak tanır. | Evet | Evet | Hayır | Evet\* | Hayır |
 | 627 | Yeniden hesapla | Geçerli yapılandırmayı temel alarak tüm müşteri siparişi satırlarını ve vergilerini yeniden hesaplayın. | Evet | Evet | Hayır | Evet\* | Hayır |
+| 143 | Masrafları yeniden hesapla | Siparişe uygulanan otomatik giderleri yeniden hesaplayın. | Evet | Evet | Hayır | Hayır| Hayır |
 | 515 | Sipariş geri çağır | Bu işlem kullanıcının müşteri siparişlerini ve satış tekliflerini aramasına ve geri çağırmasına olanak sağlar. | Evet | Evet | Evet | Hayır | Hayır |
 | 504 | Hareketi geri çağır | Bu işlem kullanıcının geçerli mağazadan daha önce askıya alınmış bir hareketi geri çağırmasına izin verir. | Evet | Evet | Hayır | Evet‡ | Hayır |
 | 305 | Bağlılık programı puanlarını kullan | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Evet |

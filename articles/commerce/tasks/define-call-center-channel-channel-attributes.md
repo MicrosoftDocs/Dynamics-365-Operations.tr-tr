@@ -1,6 +1,6 @@
 ---
-title: Çağrı merkezi kanalları oluşturma ve kanal özniteliklerini tanımlama
-description: Bu yordam yeni bir perakende kanalı oluşturma ve kanal özniteliklerini tanımlamayla ilgilidir.
+title: Çağrı merkezi kanalları oluşturma ve kanal öznitelikleri tanımlama
+description: Bu yordam yeni bir kanal oluşturma ve kanal özniteliklerini tanımlamayla ilgilidir.
 author: mugunthanm
 manager: AnnBe
 ms.date: 05/22/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4b6db1bfdaf17cd857a0a08515f1e0413994bd6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 62075c01ad7e2a4c393e9658fa67f8b536654aec
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024321"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057198"
 ---
 # <a name="create-call-center-channels-and-define-channel-attributes"></a>Çağrı merkezi kanalları oluşturma ve kanal öznitelikleri tanımlama
 

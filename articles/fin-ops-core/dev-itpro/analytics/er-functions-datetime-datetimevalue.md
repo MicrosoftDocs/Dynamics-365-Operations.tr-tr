@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de601ad08b85797a4241ef74ecb3eba37eda37ca
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 29d81599563dec2827fa8a82c86b74cb9e34eea2
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917546"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070702"
 ---
 # <a name="DATETIMEVALUE">DATETIMEVALUE ER işlevi</a>
 
@@ -33,13 +33,13 @@ ms.locfileid: "2917546"
 
 ## <a name="syntax-1"></a>Sözdizimi 1
 
-```
+```vb
 DATETIMEVALUE (text, format)
 ```
 
 ## <a name="syntax-2"></a>Sözdizimi 2
 
-```
+```vb
 DATETIMEVALUE (text, format, culture)
 ```
 

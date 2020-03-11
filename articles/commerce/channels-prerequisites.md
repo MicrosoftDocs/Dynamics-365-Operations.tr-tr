@@ -3,7 +3,7 @@ title: Kanal kurulum önkoşulları
 description: Bu konu, Microsoft Dynamics 365 Commerce'te kanalların kurulum önkoşulları hakkında genel bilgi vermektedir.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b861d90f1333c8f6e61a83602ed74e30b65f3dc1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002301"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081327"
 ---
 # <a name="channel-setup-prerequisites"></a>Kanal kurulum önkoşulları
 
@@ -40,16 +40,16 @@ Bir Dynamics 365 Commerce kanalı oluşturulmadan önce, önkoşul olan bazı g�
 
 ## <a name="initialization"></a>Başlatma
 
-- [Çekirdek verileri başlatma](../retail/enable-configure-retail-functionality.md)
+- [Çekirdek verileri başlatma](enable-configure-retail-functionality.md)
 
 ## <a name="global-prerequisities-required-for-all-channel-types"></a>Tüm kanal türleri için gereken global önkoşullar
 
 - [Tüzel kişilik yapınızı tanımlama ve yapılandırma](channels-legal-entities.md) 
 - [Organizasyon hiyerarşinizi yapılandırma](channels-org-hierarchies.md)
 - [Ambar ayarlama](channels-setup-warehouse.md)
-- [Satış vergisini yapılandırma](https://docs.microsoft.com/en-us/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [Satış vergisini yapılandırma](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
 - [E-posta bildirimi profili ayarlama](email-notification-profiles.md)
-- [Numara serileri ayarlama](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [Numara serileri ayarlama](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
 - [Varsayılan müşteriyi ve adres defterini ayarlama](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)
@@ -57,19 +57,17 @@ Bir Dynamics 365 Commerce kanalı oluşturulmadan önce, önkoşul olan bazı g�
 
 ## <a name="retail-channel-prerequisites"></a>Perakende kanalı önkoşulları
 
-- [Bilgi kodları ve bilgi kodu grupları](https://docs.microsoft.com/en-us/dynamics365/retail/info-codes-retail?toc=/dynamics365/commerce/toc.json)
+- [Bilgi kodları ve bilgi kodu grupları](info-codes-retail.md)
 - [Perakende işlevselliği profili ayarlama](retail-functionality-profile.md)
 - [Çalışan adres defteri ayarlama](new-address-book.md)
-- [Ekran düzeni ayarlama](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json)
-- [Donanım istasyonu ayarlama](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/commerce/toc.json)
+- [Ekran düzeni ayarlama](pos-screen-layouts.md)
+- [Donanım istasyonu ayarlama](retail-hardware-station-configuration-installation.md)
 
 ## <a name="call-center-channel-prerequisites"></a>Çağrı Merkezi kanalı önkoşulları
 
 - Çağrı merkezi parametreleri
-- Çağrı merkezi para iadesi yöntemleri
-- Kiralama türleri
-- Ödeme hizmetleri
-- Sipariş tutma kodları
+- [Çağrı merkezi sipariş ve iade ödeme yöntemleri](work-with-payments.md)
+- [Çağrı merkezi teslimat ve ücret modları](configure-call-center-delivery.md)
 
 ## <a name="online-channel-prerequisites"></a>Çevrimiçi kanal önkoşulları
 

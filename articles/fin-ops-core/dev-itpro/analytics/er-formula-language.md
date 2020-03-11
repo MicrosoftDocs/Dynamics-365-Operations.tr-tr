@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1c6a3f3fd5b55012d89a6c9f0bf2ed5dddd13c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916672"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042723"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektronik raporlamada formül dili
 
@@ -154,7 +154,7 @@ ER, ER ifadelerinde kullanılan işlevlerin listesini genişletmenize olanak sa�
 
 Veri türlerinin eşleşmesi koşuluyla, farklı kategorilerdeki işlevleri kullanan bileşik ifadeler oluşturabilirsiniz. İşlevleri birlikte kullandığınızda, bir işlevdeki çıkış veri türünü başka bir işlev için gerekli olan giriş veri türüne eşleştirin. Örneğin, bir alanı bir ER biçim öğesine bağlamakta olası bir "liste-sahip-boş" hatasının oluşmaması için, aşağıdaki örnekte görüldüğü gibi, [liste](er-functions-category-list.md) kategorisinden işlevleri [mantıksal](er-functions-category-logical.md) kategorideki bir işlevle birleştirin. Burada, formül, ilgili listeden gerekli toplama değerini vermeden önce **IntrastatTotals** listesinin boş olup olmadığını test etmek için [Eğer](er-functions-logical-if.md) işlevini kullanır. **IntrastatTotals** listesi boşsa, formül **0** (sıfır) değerini döndürür.
 
-```
+```vb
 IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 
@@ -162,7 +162,7 @@ IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded'
 
 Genellikle, farklı kategorilerdeki işlevleri veya aynı kategorideki farklı işlevleri kullanarak aynı veri dönüştürme sonucunu birden çok yolla elde edebilirsiniz. Örneğin, önceki ifade [liste](er-functions-category-list.md) kategorisinden [COUNT](er-functions-list-count.md) işlevi kullanılarak da yapılandırılabilir.
 
-```
+```vb
 IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 

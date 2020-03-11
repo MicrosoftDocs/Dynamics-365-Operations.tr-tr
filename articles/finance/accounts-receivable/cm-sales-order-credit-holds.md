@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f819139e74d81d24810c63bae1de19358983b9
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015435"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057682"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Satış siparişleri için kredi bekletme işlemleri
 [!include [banner](../includes/banner.md)]
@@ -264,7 +264,7 @@ Beklemeye zorla alınan satış siparişleri iş akışıyla işlenemez.
 #### <a name="releasing-orders-that-were-added-to-the-credit-management-hold-list-with-a-forced-credit-hold"></a>Kredi yönetimi bekletme listesine eklenen siparişleri zorunlu kredi bekletmeyle serbest bırakma
 Zorunlu bekletme nedeni olan satış siparişleri otomatik olarak serbest bırakılamaz. Satış siparişi beklemeye zorla alındıysa ve satış siparişlerini otomatik olarak serbest bırakan bir işlem kullandıysanız, satış siparişi **Serbest bırakmaya hazır** olarak görünür ve bekletme listesinde kalır. Siparişi serbest bırakmak için **Serbest bırak** menüsünü kullanmanız gerekir.
  
-## <a name="free-text-invoices-retail-orders-and-project-invoice-support-in-credit-management"></a>Kredi yönetiminde serbest metin faturaları, perakende siparişleri ve proje faturası desteği 
-Kredi yönetimi şu anda yalnızca satış siparişleri için kullanılabiliyor. Serbest metin faturaları, perakende satış noktası siparişleri ve çağrı merkezi siparişleri, kredi limitini ayarlamak için eklediğiniz geçici kredi limitlerini ve sigortayı/garantileri kullanacaktır. Bunlar durdurma kurallarını kullanmayacak ve kredi limitiyle ilgili bir sorun varsa, bekletme listesine alınmayacaktır.
+## <a name="free-text-invoices-orders-and-project-invoice-support-in-credit-management"></a>Kredi yönetiminde serbest metin faturaları, siparişler ve proje faturası desteği 
+Kredi yönetimi şu anda yalnızca satış siparişleri için kullanılabiliyor. Serbest metin faturaları, satış noktası siparişleri ve çağrı merkezi siparişleri, kredi limitini ayarlamak için eklediğiniz geçici kredi limitlerini ve sigortayı/garantileri kullanacaktır. Bunlar durdurma kurallarını kullanmayacak ve kredi limitiyle ilgili bir sorun varsa, bekletme listesine alınmayacaktır.
 
 Kredi yönetiminde proje faturaları için destek yoktur.

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 63639d69af90c6aa37bbf7af7868bca71942063f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024283"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057926"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Perakende kanallarını tanımlama ve koruma
 
@@ -47,9 +47,9 @@ Bir mağaza kurmadan önce aşağıdaki görevleri tamamlamanız gerekir:
 3. Mağazalar, mağaza ekstreleri ve ekstre fişleri için numara sıraları ayarlayın.
 4. Commerce için parametreleri yapılandırın.
 5. Mağazanın kabul ettiği ödeme yöntemleri ayarlayın.
-6. Perakende POS kasalarında kredi kartı işlemleri yürütmek için, ödeme hizmetleri de ayarlayabilirsiniz.
+6. POS kasalarında kredi kartı işlemleri yürütmek için, ödeme hizmetleri de ayarlayabilirsiniz.
 7. Satış vergisi gruplarını ayarla.
-8. Perakende ürünleri ayarlayın. Bu görevin bir parçası olarak, ayrıca ürün hiyerarşileri, ürün çeşitleri ve ürün sınıflamaları ayarlayın.
+8. Ürünlerini ayarlayn. Bu görevin bir parçası olarak, ayrıca ürün hiyerarşileri, ürün çeşitleri ve ürün sınıflamaları ayarlayın.
 9. Ürün fiyat gruplarını ayarlayın.
 10. Ürün fiyatlandırmalarını ayarlayın. Bu görevin bir parçası olarak, aynı zamanda fiyat ayarlamaları, iskontolar ve iskonto dönemlerini ayarlayın.
 11. Personeli ayarlayın.
@@ -87,5 +87,5 @@ Mağaza için ayrıntıları girdikten sonra, yeni mağaza verilerini POS'a gön
 Commerce, kanalları yapılandırmak için kuruluş hiyerarşilerini kullanır. Organizasyon hiyerarşileri, organizasyonlar arasındaki işinizi meydana getiren ilişkileri temsil eder. Mağazalar kurduğunuzda, onları bir organizasyon hiyerarşisine ekleyebilirsiniz. Ardından mağazalar ürün çeşitleri, stok yenileme ve raporlama için kullanılan verileri paylaşır.
 
 > [!NOTE]
-> Perakende satış işlevlerini kullanabilmeniz için **çoklu sevk edilecek** konfigürasyon anahtarının etkinleştirilmesi gerekir. Bu konfigürasyon anahtarı, **Sistem yönetimi** \> **Kurulum** \> **Lisans konfigürasyonu** altındaki **ticaret konfigürasyon** anahtarlarında bulunabilir. Bu, satış siparişi satırı düzeyinde konfigüre edilen teslimat adresine dayalı olarak çeşitli doğrulamaları gerçekleştiren perakende işlevselliğe bağlı olarak gereklidir.
+> Commerce satış işlevlerini kullanabilmeniz için **çoklu sevk edilecek** konfigürasyon anahtarının etkinleştirilmesi gerekir. Bu konfigürasyon anahtarı, **Sistem yönetimi** \> **Kurulum** \> **Lisans konfigürasyonu** altındaki **ticaret konfigürasyon** anahtarlarında bulunabilir. Bu, satış siparişi satırı düzeyinde konfigüre edilen teslimat adresine dayalı olarak çeşitli doğrulamaları gereklidir.
 

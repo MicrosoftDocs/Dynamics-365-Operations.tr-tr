@@ -3,7 +3,7 @@ title: Bulut ve şirket içi özelliklerin karşılaştırması
 description: Bu konu, hangi özelliklerin Bulut ve şirket içinde desteklendiğini gösterir.
 author: sericks007
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005738"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081982"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Bulut ile şirket içi özellikleri karşılaştırma
 
@@ -81,6 +81,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 |                                      | Görev kaydedici - Görev kayıtlarını BPM kitaplığından kaydet veya yükle                         | Evet       | Hayır              |
 | Destek                              |                                                                                           | Evet       | Evet             |
 |                                      | Yardım ve Destek menüsünden Desteğe erişim                                             | Evet       | Hayır              |
+|                                      | İş olayları                                                                           | Evet       | Evet (iş olaylarını intranet içinde göndermek/almak için İnternet bağlantısı gereklidir veya özel bitiş noktaları uygulanmalıdır)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
@@ -147,7 +148,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Şirket içi dağıtımda kullanılabilen yetenekler listesini görmek için bkz. [Şirket içi dağıtımda kullanılabilen perakende yetenekleri](../../../retail/retail-onprem.md).
+Şirket içi dağıtımda kullanılabilen yetenekler listesini görmek için bkz. [Şirket içi dağıtımda kullanılabilen Commerce yetenekleri](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

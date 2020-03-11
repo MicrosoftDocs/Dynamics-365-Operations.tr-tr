@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d29b82a8c3b108f7651e6d593cb17e7ec8ca872
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 72d2ea1b26c295c97575a3c7a479ee4e06762424
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916258"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042217"
 ---
 # <a name="COUNT">COUNT ER işlevi</a>
 
@@ -33,7 +33,7 @@ Bu `COUNT` işlev, liste boş değilse, belirtilen listedeki kayıt sayısını 
 
 ## <a name="syntax"></a>Sözdizimi
 
-```
+```vb
 COUNT (list)
 ```
 

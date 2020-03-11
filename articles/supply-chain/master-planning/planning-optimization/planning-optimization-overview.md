@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: aae9ea56fc2174df56274776993c68b11c0521d0
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 9ccf00b6fcd1e3a6002086360b1a4c5c464ba054
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774068"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076167"
 ---
+# <a name="planning-optimization-overview"></a>Planlamayı En İyi Duruma Getirmeye genel bakış
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
-
-# <a name="planning-optimization-overview"></a>Planlamayı En İyi Duruma Getirmeye genel bakış
 
 Microsoft Dynamics 365 Supply Chain Management için Planlamayı En İyi Duruma Getirme Eklentisi, Dynamics 365 Supply Chain Management dışında gerçekleşecek master planlama hesaplamasını ve ilgili SQL veritabanını etkinleştirir. Planlamayı En İyi Duruma Getirme işleviyle ilişkili kazançlar arasında master planlama çalışmaları sırasında artan performans ve SQL veritabanı üzerinde en az etki vardır. Hızlı planlama çalışmaları, planlayıcıların talep ve parametre değişikliklerine hemen tepki verebileceği şekilde ofis saatlerinde de yapılabilir.
 

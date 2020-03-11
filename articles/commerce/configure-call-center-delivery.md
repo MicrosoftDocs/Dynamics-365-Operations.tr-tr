@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9f043d66fbd417633de71b5fa12b13b3f04e3452
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024288"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057822"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
 
@@ -66,7 +66,7 @@ Masraflar belirli bir teslimat şekline, bir teslimat şekli grubuna veya tüm t
 
 **Satırlar** bölümünde, gereksiniminize göre bir veya daha fazla masrafı para birimiyle tanımlayabilirsiniz. Masraflar, masrafa ilişkin mali nakil kurallarını tanımlayan bir masraflar koduna bağlanmalıdır. **Kategori** alanı, masrafların nasıl hesaplanacağını tanımlamak için kullanılır. Örneğin, müşteriler bir siparişlerini belirli bir teslimat şekliyle vermek için 9,95 lira sabit bir ücret ödeyecekse **Sabit** kategorisini kullanın. İşletme, teslimat masraflarını karşılamak için müşterilerinden sipariş toplamının belirli bir yüzdesi kadar masraf almaya karar verirse **Yüzde** kategorisini kullanın. Müşterilerin ödeyeceği gerçek ücret **Masraf değeri** alanında tanımlanır.
 
-Perakende şirketleri genellikle katmanlı masraflar yapılandırır. Bu durumda, müşterinin teslimat için ödeyeceği tutar için, sipariş değeri baz alınır. Katmanlı masrafları yapılandırmak için, **Masraf değeri** alanında masrafın kendisini tanımlamaya ek olarak, **Başlangıç tutarı** ve **Bitiş tutarı** alanlarına değerler girin. Örneğin 50 liradan daha düşük değerli siparişlerde, satıcı, karayoluyla sevkiyat için 5,95 lira masraf alır. Değeri 50 lira ve üzerinde olan ama 100 liradan düşük siparişlerde satıcı 7,95 lira masraf alır. Son olarak, değeri 100 lira ve üzerinde olan siparişlerde satıcı ücretsiz sevkiyat sunar. Aşağıdaki çizimde bu masrafların yapılandırması gösterilmektedir.
+Şirketleri genellikle katmanlı masraflar yapılandırır. Bu durumda, müşterinin teslimat için ödeyeceği tutar için, sipariş değeri baz alınır. Katmanlı masrafları yapılandırmak için, **Masraf değeri** alanında masrafın kendisini tanımlamaya ek olarak, **Başlangıç tutarı** ve **Bitiş tutarı** alanlarına değerler girin. Örneğin 50 liradan daha düşük değerli siparişlerde, satıcı, karayoluyla sevkiyat için 5,95 lira masraf alır. Değeri 50 lira ve üzerinde olan ama 100 liradan düşük siparişlerde satıcı 7,95 lira masraf alır. Son olarak, değeri 100 lira ve üzerinde olan siparişlerde satıcı ücretsiz sevkiyat sunar. Aşağıdaki çizimde bu masrafların yapılandırması gösterilmektedir.
 
 ![Sabit katmanlı masraflar örneği](media/fixedtieredcharges.png)
 

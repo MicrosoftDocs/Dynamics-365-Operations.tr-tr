@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ac5135d0606ffc9816c841637aa032826f87e28
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0ac75d390b8bbb94c6e039b374b51462d348e355
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024330"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057197"
 ---
 # <a name="create-and-associate-registers"></a> Kayıtlar oluşturma ve ilişkilendirme
 
@@ -30,14 +30,14 @@ ms.locfileid: "3024330"
 
 Bu yordam, bir satış noktası (POS) kaydının nasıl oluşturulacağını gösterir. Bu yordam, USRT demo verisi şirketini kullanır.
 
-1. Retail and commerce > Channel setup > POS setup > Registers (Perakende ve ticaret > Kanal kurulumu > POS kurulumu > Kayıtlar) menüsüne gidin.
-2. Yeni'ye tıklayın.
+1. Retail and Commerce > Kanal kurulumu > POS kurulumu > Kayıtlar'a gidin.
+2. Yeni'yi tıklatın.
 3. Kayıt numarası alanında yeni kayıt için bir Kimlik yazın.
     * Kayıt kodu, genel olarak kaydın ait olduğu mağaza ve mağaza içindeki konum ile eşleşmesine yardımcı olan kodlar içerir.  
 4. Ad alanına kayıt için açıklayıcı bir ad yazın.
 5. Mağaza numarası alanına bir değer girin veya bir değer seçin.
 6. Donanım profili alanına bir değer girin veya bir değer seçin.
-    * Donanım profilleri, yazar kasa çekmecesi ve fatura yazıcısı gibi kayıt cihazına bağlanacak perakende aksesuarlarını belirlemek için kullanılır.  
+    * Donanım profilleri, yazar kasa çekmecesi ve fatura yazıcısı gibi kayıt cihazına bağlanacak aksesuarlarını belirlemek için kullanılır.  
 7. Görsel profil alanına bir değer girin veya bir değer seçin.
     * Sanal profiller, POS arka planında ve oturum açma sayfasında kullanılan görüntüleri belirlemek ve POS temaları için kullanılır.  
 8. EFT POS kayıt numarası alanına bir değer girin.

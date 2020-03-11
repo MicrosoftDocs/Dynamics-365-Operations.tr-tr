@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02d7e2238e58098428397121de848a1947a991ad
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015432"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071672"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredi yönetimi parametreleri kurulumu
 
@@ -38,8 +38,8 @@ Kredi yönetimini denetleyen parametreleri değiştirebileceğiniz dört hızlı
 - Satış siparişi bekletme listesinden serbest bırakıldıktan sonra satış siparişi değeri değiştiği zaman deftere nakil kurallarının yeniden denetlenmesini zorunlu kılmak için **Bekletilen sipariş serbest bırakıldıktan sonra satış siparişi değerinin düzenlemesine izin ver** seçeneğini **Evet** olarak ayarlayın. .
 - **İptal edilen siparişlerin nedenleri** alanında, bir satış siparişinin kredi yönetimi bekletme işlemi iptal edildiğinde varsayılan olarak kullanılacak serbest bırakma nedenini seçin.
 - Bir satış siparişindeki müşteri bir müşteri kredi grubuna dahil olduğu zaman müşteri kredi grubunun kredi limitini denetlemek için **Müşteri kredi grubunun kredi limitini denetle** seçeneğini **Evet** olarak ayarlayın. Grubun kredi limiti kontrol edilir ve yeterliyse, müşterinin kredi limiti kontrol edilir.
-- Satış siparişindeki yeni ödeme koşullarının satış siparişindeki ödeme koşullarından farklı olup olmadığını belirlemek amacıyla ödeme koşulları derecelerini kontrol etmek için **Ödeme koşulları yükseldiği zaman kredi limitini denetle**'yi **Evet** olarak ayarlayın. Yeni ödeme koşullarının derecesi orijinal ödeme koşullarınınkinden daha yüksekse, sipariş, kredi yönetimi bekletme işlemine alınır.
-- Satış siparişindeki yeni nakit iskontosunun satış siparişindeki nakit iskontosundan farklı olup olmadığını belirlemek amacıyla kapatma iskontosu derecelerini kontrol etmek için **Kapatma iskontosu artırıldığı zaman kredi limitini denetle**'yi **Evet** olarak ayarlayın. Yeni nakit iskontusunun derecesi, orijinal nakit iskontusununkinden daha yüksekse, sipariş, kredi yönetimi bekletme işlemine alınır.
+- Satış siparişindeki yeni ödeme koşullarının müşterinin varsayılan ödeme koşullarından farklı olup olmadığını belirlemek amacıyla ödeme koşulları derecelerini kontrol etmek için **Ödeme koşulları yükseldiği zaman kredi limitini denetle**'yi **Evet** olarak ayarlayın. Yeni ödeme koşullarının derecesi orijinal ödeme koşullarınınkinden daha yüksekse, sipariş, kredi yönetimi bekletme işlemine alınır.
+- Satış siparişindeki nakit iskontosunun müşterinin varsayılan nakit iskontosundan farklı olup olmadığını belirlemek amacıyla kapatma iskontosu derecelerini kontrol etmek için **Kapatma iskontosu artırıldığı zaman kredi limitini denetle**'yi **Evet** olarak ayarlayın. Yeni nakit iskontusunun derecesi, orijinal nakit iskontusununkinden daha yüksekse, sipariş, kredi yönetimi bekletme işlemine alınır.
 - **Değiştirilmiş siparişleri serbest bırakma nedeni** alanında, değiştirilen siparişler kredi yönetimi bekletmesinden otomatik olarak serbest bırakıldığında varsayılan olarak kullanılacak serbest bırakma nedenini seçin.
 - **Kredi limiti süresi dolmuş** kuralının davranışını denetlemek için **Bitiş tarihi boşsa kredi limiti süresi dolduğu için durdurma kuralını yoksay** seçeneğini **Evet** yapın. Bitiş tarihi boş olduğu zaman bir siparişi durdurmak için bu seçeneği **Hayır** olarak ayarlayın.
 - Ambar yönetiminde yükler satış siparişi girişi sırasında oluşturulabilir. Satış siparişi kredi bekletmedeyken satış siparişi satırlarını yükte bırakmak için **Durdurulan yük satırlarını kaldır** seçeneğini **Hayır** olarak ayarlayın. Satış siparişi bekletmedeyken yük işlenemez. Satış siparişi kredi bekletmedeyken satış siparişi satırlarını yükten kaldırmak için seçeneği **Evet** olarak ayarlayın. Bunun ardından yük işlenebilir.
