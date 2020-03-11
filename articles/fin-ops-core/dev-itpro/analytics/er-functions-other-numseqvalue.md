@@ -18,91 +18,91 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d68784524a5639d8d447daa2cda940680d795542
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fbe5e5ac17af743f8293e4255d9713b528182f66
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915844"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041320"
 ---
-# <span data-ttu-id="fc0c9-103"><a name="NUMSEQVALUE">NUMSEQVALUE ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="fc0c9-103"><a name="NUMSEQVALUE">NUMSEQVALUE ER function</a></span></span>
+# <span data-ttu-id="a8605-103"><a name="NUMSEQVALUE">NUMSEQVALUE ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="a8605-103"><a name="NUMSEQVALUE">NUMSEQVALUE ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="fc0c9-104">`NUMSEQVALUE` işlev, belirtilen numara serisi, kapsam ve kapsam kimliğine dayalı olarak bir numara serisinin yeni oluşturulan değerini gösteren bir *dize* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-104">The `NUMSEQVALUE` function returns a *String* value that represents the new generated value of a number sequence, based on the specified number sequence, scope, and scope ID.</span></span> <span data-ttu-id="fc0c9-105">Kapsam kimliği, Elektronik raporlama (ER) biçiminin altında çalıştırıldığı içerikle sağlanan şirket koduna eşittir.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-105">The scope ID equals the company code that is supplied by the context that the Electronic reporting (ER) format is run under.</span></span>
+<span data-ttu-id="a8605-104">`NUMSEQVALUE` işlev, belirtilen numara serisi, kapsam ve kapsam kimliğine dayalı olarak bir numara serisinin yeni oluşturulan değerini gösteren bir *dize* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="a8605-104">The `NUMSEQVALUE` function returns a *String* value that represents the new generated value of a number sequence, based on the specified number sequence, scope, and scope ID.</span></span> <span data-ttu-id="a8605-105">Kapsam kimliği, Elektronik raporlama (ER) biçiminin altında çalıştırıldığı içerikle sağlanan şirket koduna eşittir.</span><span class="sxs-lookup"><span data-stu-id="a8605-105">The scope ID equals the company code that is supplied by the context that the Electronic reporting (ER) format is run under.</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="fc0c9-106">Sözdizimi 1</span><span class="sxs-lookup"><span data-stu-id="fc0c9-106">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="a8605-106">Sözdizimi 1</span><span class="sxs-lookup"><span data-stu-id="a8605-106">Syntax 1</span></span>
 
-```
+```vb
 NUMSEQVALUE (number sequence code)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="fc0c9-107">Sözdizimi 2</span><span class="sxs-lookup"><span data-stu-id="fc0c9-107">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="a8605-107">Sözdizimi 2</span><span class="sxs-lookup"><span data-stu-id="a8605-107">Syntax 2</span></span>
 
-```
+```vb
 NUMSEQVALUE (number sequence record ID)
 ```
 
-## <a name="syntax-3"></a><span data-ttu-id="fc0c9-108">Sözdizimi 3</span><span class="sxs-lookup"><span data-stu-id="fc0c9-108">Syntax 3</span></span>
+## <a name="syntax-3"></a><span data-ttu-id="a8605-108">Sözdizimi 3</span><span class="sxs-lookup"><span data-stu-id="a8605-108">Syntax 3</span></span>
 
-```
+```vb
 NUMSEQVALUE (number sequence code, scope type, scope ID)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="fc0c9-109">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="fc0c9-109">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="a8605-109">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="a8605-109">Arguments</span></span>
 
-<span data-ttu-id="fc0c9-110">`number sequence code`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="fc0c9-110">`number sequence code`: *String*</span></span>
+<span data-ttu-id="a8605-110">`number sequence code`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="a8605-110">`number sequence code`: *String*</span></span>
 
-<span data-ttu-id="fc0c9-111">Yeni bir değerin gerekli olduğu numara serisinin kodunu temsil eden bir metin değeri.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-111">A text value that represents the code of the number sequence that a new value is required in.</span></span>
+<span data-ttu-id="a8605-111">Yeni bir değerin gerekli olduğu numara serisinin kodunu temsil eden bir metin değeri.</span><span class="sxs-lookup"><span data-stu-id="a8605-111">A text value that represents the code of the number sequence that a new value is required in.</span></span>
 
-<span data-ttu-id="fc0c9-112">`number sequence record ID`: *Int64*</span><span class="sxs-lookup"><span data-stu-id="fc0c9-112">`number sequence record ID`: *Int64*</span></span>
+<span data-ttu-id="a8605-112">`number sequence record ID`: *Int64*</span><span class="sxs-lookup"><span data-stu-id="a8605-112">`number sequence record ID`: *Int64*</span></span>
 
-<span data-ttu-id="fc0c9-113">NumberSequenceTable tablosundaki bir kaydın, yeni bir değerin gerekli olduğu numara SERISININ tanımını içeren kayıt kodunu temsil eden bir *Int64* değeri.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-113">An *Int64* value that represents the record ID of a record in the NumberSequenceTable table that contains the definition of the number sequence that a new value is required in.</span></span>
+<span data-ttu-id="a8605-113">NumberSequenceTable tablosundaki bir kaydın, yeni bir değerin gerekli olduğu numara SERISININ tanımını içeren kayıt kodunu temsil eden bir *Int64* değeri.</span><span class="sxs-lookup"><span data-stu-id="a8605-113">An *Int64* value that represents the record ID of a record in the NumberSequenceTable table that contains the definition of the number sequence that a new value is required in.</span></span>
 
-<span data-ttu-id="fc0c9-114">`scope type`: *Numaralandırma değeri*</span><span class="sxs-lookup"><span data-stu-id="fc0c9-114">`scope type`: *Enum value*</span></span>
+<span data-ttu-id="a8605-114">`scope type`: *Numaralandırma değeri*</span><span class="sxs-lookup"><span data-stu-id="a8605-114">`scope type`: *Enum value*</span></span>
 
-<span data-ttu-id="fc0c9-115">Yeni bir değerin gerekli olduğu numara serisinin kapsamını tanımlayan **ERExpressionNumberSequenceScopeType** sabit listesinin numaralandırma değeri.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-115">An enumeration value of the **ERExpressionNumberSequenceScopeType** enumeration that defines the scope of the number sequence that a new value is required in.</span></span> <span data-ttu-id="fc0c9-116">Kullanılabilir kapsam türleri **paylaşılıyor**, **hukuk varlığı** ve **şirket.**</span><span class="sxs-lookup"><span data-stu-id="fc0c9-116">The available scope types are **Shared**, **Legal entity**, and **Company**.</span></span>
+<span data-ttu-id="a8605-115">Yeni bir değerin gerekli olduğu numara serisinin kapsamını tanımlayan **ERExpressionNumberSequenceScopeType** sabit listesinin numaralandırma değeri.</span><span class="sxs-lookup"><span data-stu-id="a8605-115">An enumeration value of the **ERExpressionNumberSequenceScopeType** enumeration that defines the scope of the number sequence that a new value is required in.</span></span> <span data-ttu-id="a8605-116">Kullanılabilir kapsam türleri **paylaşılıyor**, **hukuk varlığı** ve **şirket.**</span><span class="sxs-lookup"><span data-stu-id="a8605-116">The available scope types are **Shared**, **Legal entity**, and **Company**.</span></span>
 
-<span data-ttu-id="fc0c9-117">`scope ID`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="fc0c9-117">`scope ID`: *String*</span></span>
+<span data-ttu-id="a8605-117">`scope ID`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="a8605-117">`scope ID`: *String*</span></span>
 
-<span data-ttu-id="fc0c9-118">Belirtilen kapsam türüne göre kapsamı tanımlayan *dize* değeri.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-118">A *String* value that identifies the scope, based on the specified scope type.</span></span>
+<span data-ttu-id="a8605-118">Belirtilen kapsam türüne göre kapsamı tanımlayan *dize* değeri.</span><span class="sxs-lookup"><span data-stu-id="a8605-118">A *String* value that identifies the scope, based on the specified scope type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="fc0c9-119">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="fc0c9-119">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="a8605-119">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="a8605-119">Return values</span></span>
 
-<span data-ttu-id="fc0c9-120">*Dize*</span><span class="sxs-lookup"><span data-stu-id="fc0c9-120">*String*</span></span>
+<span data-ttu-id="a8605-120">*Dize*</span><span class="sxs-lookup"><span data-stu-id="a8605-120">*String*</span></span>
 
-<span data-ttu-id="fc0c9-121">Sonuç metin değeri.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-121">The resulting text value.</span></span>
+<span data-ttu-id="a8605-121">Sonuç metin değeri.</span><span class="sxs-lookup"><span data-stu-id="a8605-121">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="fc0c9-122">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="fc0c9-122">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="a8605-122">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="a8605-122">Usage notes</span></span>
 
-<span data-ttu-id="fc0c9-123">**Paylaşılan** kapsam türü için, kapsam kimliği olarak boş bir dize belirtin.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-123">For the **Shared** scope type, specify an empty string as the scope ID.</span></span>
+<span data-ttu-id="a8605-123">**Paylaşılan** kapsam türü için, kapsam kimliği olarak boş bir dize belirtin.</span><span class="sxs-lookup"><span data-stu-id="a8605-123">For the **Shared** scope type, specify an empty string as the scope ID.</span></span>
 
-<span data-ttu-id="fc0c9-124">**Şirket** ve **Tüzel kişilik** kapsam türleri için, kapsam kimliği olarak şirket kodu belirtin.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-124">For the **Company** and **Legal entity** scope types, specify the company code as the scope ID.</span></span> <span data-ttu-id="fc0c9-125">Bu tür kapsam türleri, kapsam kimliği olarak boş bir dize belirtirseniz geçerli şirket kodu kullanılır.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-125">If you specify an empty string as the scope ID for these scope types, the current company code is used.</span></span>
+<span data-ttu-id="a8605-124">**Şirket** ve **Tüzel kişilik** kapsam türleri için, kapsam kimliği olarak şirket kodu belirtin.</span><span class="sxs-lookup"><span data-stu-id="a8605-124">For the **Company** and **Legal entity** scope types, specify the company code as the scope ID.</span></span> <span data-ttu-id="a8605-125">Bu tür kapsam türleri, kapsam kimliği olarak boş bir dize belirtirseniz geçerli şirket kodu kullanılır.</span><span class="sxs-lookup"><span data-stu-id="a8605-125">If you specify an empty string as the scope ID for these scope types, the current company code is used.</span></span>
 
-<span data-ttu-id="fc0c9-126">Sözdizimi 1 kullanıldığında, numara serisi **Şirket** kapsam türü için istenir ve şirket kodu, er biçiminin altında çalıştırıldığı içerikle sağlanır.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-126">When syntax 1 is used, the number sequence is requested for the **Company** scope type, and the company code is supplied by the context that the ER format is run under.</span></span>
+<span data-ttu-id="a8605-126">Sözdizimi 1 kullanıldığında, numara serisi **Şirket** kapsam türü için istenir ve şirket kodu, er biçiminin altında çalıştırıldığı içerikle sağlanır.</span><span class="sxs-lookup"><span data-stu-id="a8605-126">When syntax 1 is used, the number sequence is requested for the **Company** scope type, and the company code is supplied by the context that the ER format is run under.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="fc0c9-127">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="fc0c9-127">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="a8605-127">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="a8605-127">Example 1</span></span>
 
-<span data-ttu-id="fc0c9-128">ER biçiminizde *Kullanıcı giriş parametresi* türünün **AskNumSeq** veri kaynağını tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-128">In your ER format, you define the **AskNumSeq** data source of the *User input parameter* type.</span></span> <span data-ttu-id="fc0c9-129">Bu veri kaynağı **Açıklama** genişletilmiş veri türü (EDT) anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-129">This data source refers to the **Description** extended data type (EDT).</span></span> <span data-ttu-id="fc0c9-130">Daha sonra, *hesaplanmış alan* türünün **NumSeq** veri kaynağını tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-130">Next, you define the **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="fc0c9-131">Bu veri kaynağı `NUMSEQVALUE (AskNumSeq)` ifadesini içeriyor.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-131">This data source contains the expression `NUMSEQVALUE (AskNumSeq)`.</span></span> <span data-ttu-id="fc0c9-132">**Numseq** veri kaynağı çağrıldığında, iletişim kutusuna kodunu girerek çalışma zamanında belirtilen yeni üretilen değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-132">When the **NumSeq** data source is called, it returns the new generated value of the number sequence that was specified at runtime by entering its code in the dialog box.</span></span> <span data-ttu-id="fc0c9-133">Numara serisi **Şirket** kapsam türü için istendi.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-133">The number sequence is requested for the **Company** scope type.</span></span> <span data-ttu-id="fc0c9-134">ER biçiminin altında çalıştırıldığı içerikle sağlanan şirket kodudur.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-134">The company code is supplied by the context that the ER format is run under.</span></span>
+<span data-ttu-id="a8605-128">ER biçiminizde *Kullanıcı giriş parametresi* türünün **AskNumSeq** veri kaynağını tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="a8605-128">In your ER format, you define the **AskNumSeq** data source of the *User input parameter* type.</span></span> <span data-ttu-id="a8605-129">Bu veri kaynağı **Açıklama** genişletilmiş veri türü (EDT) anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="a8605-129">This data source refers to the **Description** extended data type (EDT).</span></span> <span data-ttu-id="a8605-130">Daha sonra, *hesaplanmış alan* türünün **NumSeq** veri kaynağını tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="a8605-130">Next, you define the **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="a8605-131">Bu veri kaynağı `NUMSEQVALUE (AskNumSeq)` ifadesini içeriyor.</span><span class="sxs-lookup"><span data-stu-id="a8605-131">This data source contains the expression `NUMSEQVALUE (AskNumSeq)`.</span></span> <span data-ttu-id="a8605-132">**Numseq** veri kaynağı çağrıldığında, iletişim kutusuna kodunu girerek çalışma zamanında belirtilen yeni üretilen değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="a8605-132">When the **NumSeq** data source is called, it returns the new generated value of the number sequence that was specified at runtime by entering its code in the dialog box.</span></span> <span data-ttu-id="a8605-133">Numara serisi **Şirket** kapsam türü için istendi.</span><span class="sxs-lookup"><span data-stu-id="a8605-133">The number sequence is requested for the **Company** scope type.</span></span> <span data-ttu-id="a8605-134">ER biçiminin altında çalıştırıldığı içerikle sağlanan şirket kodudur.</span><span class="sxs-lookup"><span data-stu-id="a8605-134">The company code is supplied by the context that the ER format is run under.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="fc0c9-135">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="fc0c9-135">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="a8605-135">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="a8605-135">Example 2</span></span>
 
-<span data-ttu-id="fc0c9-136">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlanır:</span><span class="sxs-lookup"><span data-stu-id="fc0c9-136">The following data sources are defined in your model mapping:</span></span>
+<span data-ttu-id="a8605-136">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlanır:</span><span class="sxs-lookup"><span data-stu-id="a8605-136">The following data sources are defined in your model mapping:</span></span>
 
-- <span data-ttu-id="fc0c9-137">*Tablo* türünün **LedgerParms** veri kaynağı.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-137">The **LedgerParms** data source of the *Table* type.</span></span> <span data-ttu-id="fc0c9-138">Bu veri kaynağı LedgerParameters tablosuna başvurur.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-138">This data source refers to the LedgerParameters table.</span></span>
-- <span data-ttu-id="fc0c9-139">**NumSeq** veri kaynağına *hesaplanan alan* ekleyin.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-139">The **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="fc0c9-140">Bu veri kaynağı `NUMSEQVALUE ( LedgerParameters.'numRefJournalNum()'.NumberSequenceId)` ifadesini içeriyor.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-140">This data source contains the expression `NUMSEQVALUE ( LedgerParameters.'numRefJournalNum()'.NumberSequenceId)`.</span></span>
+- <span data-ttu-id="a8605-137">*Tablo* türünün **LedgerParms** veri kaynağı.</span><span class="sxs-lookup"><span data-stu-id="a8605-137">The **LedgerParms** data source of the *Table* type.</span></span> <span data-ttu-id="a8605-138">Bu veri kaynağı LedgerParameters tablosuna başvurur.</span><span class="sxs-lookup"><span data-stu-id="a8605-138">This data source refers to the LedgerParameters table.</span></span>
+- <span data-ttu-id="a8605-139">**NumSeq** veri kaynağına *hesaplanan alan* ekleyin.</span><span class="sxs-lookup"><span data-stu-id="a8605-139">The **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="a8605-140">Bu veri kaynağı `NUMSEQVALUE ( LedgerParameters.'numRefJournalNum()'.NumberSequenceId)` ifadesini içeriyor.</span><span class="sxs-lookup"><span data-stu-id="a8605-140">This data source contains the expression `NUMSEQVALUE ( LedgerParameters.'numRefJournalNum()'.NumberSequenceId)`.</span></span>
 
-<span data-ttu-id="fc0c9-141">**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için Genel muhasebe parametrelerinde yapılandırılmış Gene1 numara serisinin yeni oluşturulan değeri geri döner.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-141">When the **NumSeq** data source is called, it returns the new generated value of the number sequence that has been configured in the General ledger parameters for the company that supplies the context that the ER format is run under.</span></span> <span data-ttu-id="fc0c9-142">Bu numara serisi benzersiz biçimde günlükleri tanıtır ve hareketleri birbirine bağlayan toplu iş numarası görevi görür.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-142">This number sequence uniquely identifies journals and acts as a batch number that links the transactions together.</span></span>
+<span data-ttu-id="a8605-141">**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için Genel muhasebe parametrelerinde yapılandırılmış Gene1 numara serisinin yeni oluşturulan değeri geri döner.</span><span class="sxs-lookup"><span data-stu-id="a8605-141">When the **NumSeq** data source is called, it returns the new generated value of the number sequence that has been configured in the General ledger parameters for the company that supplies the context that the ER format is run under.</span></span> <span data-ttu-id="a8605-142">Bu numara serisi benzersiz biçimde günlükleri tanıtır ve hareketleri birbirine bağlayan toplu iş numarası görevi görür.</span><span class="sxs-lookup"><span data-stu-id="a8605-142">This number sequence uniquely identifies journals and acts as a batch number that links the transactions together.</span></span>
 
-## <a name="example-3"></a><span data-ttu-id="fc0c9-143">Örnek 3</span><span class="sxs-lookup"><span data-stu-id="fc0c9-143">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="a8605-143">Örnek 3</span><span class="sxs-lookup"><span data-stu-id="a8605-143">Example 3</span></span>
 
-<span data-ttu-id="fc0c9-144">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlanır:</span><span class="sxs-lookup"><span data-stu-id="fc0c9-144">The following data sources are defined in your model mapping:</span></span>
+<span data-ttu-id="a8605-144">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlanır:</span><span class="sxs-lookup"><span data-stu-id="a8605-144">The following data sources are defined in your model mapping:</span></span>
 
-- <span data-ttu-id="fc0c9-145">Microsoft Dynamics 365 Finance *numaralandırma* türünün **enumscope** veri kaynağı.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-145">The **enumScope** data source of the Microsoft Dynamics 365 Finance *enumeration* type.</span></span> <span data-ttu-id="fc0c9-146">Bu veri kaynağı **ERExpressionNumberSequenceScopeType** numaralandırması anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-146">This data source refers to the **ERExpressionNumberSequenceScopeType** enumeration.</span></span>
-- <span data-ttu-id="fc0c9-147">**NumSeq** veri kaynağına *hesaplanan alan* ekleyin.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-147">The **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="fc0c9-148">Bu veri kaynağı `NUMSEQVALUE ("Gene_1", enumScope.Company, "")` ifadesini içeriyor.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-148">This data source contains the expression `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`.</span></span>
+- <span data-ttu-id="a8605-145">Microsoft Dynamics 365 Finance *numaralandırma* türünün **enumscope** veri kaynağı.</span><span class="sxs-lookup"><span data-stu-id="a8605-145">The **enumScope** data source of the Microsoft Dynamics 365 Finance *enumeration* type.</span></span> <span data-ttu-id="a8605-146">Bu veri kaynağı **ERExpressionNumberSequenceScopeType** numaralandırması anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="a8605-146">This data source refers to the **ERExpressionNumberSequenceScopeType** enumeration.</span></span>
+- <span data-ttu-id="a8605-147">**NumSeq** veri kaynağına *hesaplanan alan* ekleyin.</span><span class="sxs-lookup"><span data-stu-id="a8605-147">The **NumSeq** data source of the *Calculated field* type.</span></span> <span data-ttu-id="a8605-148">Bu veri kaynağı `NUMSEQVALUE ("Gene_1", enumScope.Company, "")` ifadesini içeriyor.</span><span class="sxs-lookup"><span data-stu-id="a8605-148">This data source contains the expression `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`.</span></span>
 
-<span data-ttu-id="fc0c9-149">**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış **Gene\_1** numara serisinin yeni oluşturulan değeri geri döner.</span><span class="sxs-lookup"><span data-stu-id="fc0c9-149">When the **NumSeq** data source is called, it returns the new generated value of the **Gene\_1** number sequence that has been configured for the company that supplies the context that the ER format is run under.</span></span>
+<span data-ttu-id="a8605-149">**NumSeq** veri kaynağı çağrıldığında ER biçimi altında çalışan içerik sağlayan bir şirket için yapılandırılmış **Gene\_1** numara serisinin yeni oluşturulan değeri geri döner.</span><span class="sxs-lookup"><span data-stu-id="a8605-149">When the **NumSeq** data source is called, it returns the new generated value of the **Gene\_1** number sequence that has been configured for the company that supplies the context that the ER format is run under.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="fc0c9-150">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="fc0c9-150">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="a8605-150">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="a8605-150">Additional resources</span></span>
 
-[<span data-ttu-id="fc0c9-151">Diğer (belirli iş etki alanı) işlevleri</span><span class="sxs-lookup"><span data-stu-id="fc0c9-151">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="a8605-151">Diğer (belirli iş etki alanı) işlevleri</span><span class="sxs-lookup"><span data-stu-id="a8605-151">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)

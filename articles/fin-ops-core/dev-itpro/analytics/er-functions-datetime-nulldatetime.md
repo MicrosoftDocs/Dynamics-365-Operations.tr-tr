@@ -18,35 +18,35 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4165f6e064d12200907ac76b6779d35bc578daba
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 3cd4c152d4e220a2f6315265ed5e44d148134279
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917500"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042282"
 ---
-# <span data-ttu-id="2d618-103"><a name="NULLDATETIME">NULLDATETIME ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="2d618-103"><a name="NULLDATETIME">NULLDATETIME ER function</a></span></span>
+# <span data-ttu-id="f3b89-103"><a name="NULLDATETIME">NULLDATETIME ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="f3b89-103"><a name="NULLDATETIME">NULLDATETIME ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2d618-104">`NULLDATETIME` işlev,eşgüdümlü evrensel saat (Greenwich Saati \[GMT\]) içinde **boş** tarih/zaman değerini (1 Ocak, 1900) gösteren bir *tarih saat* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="2d618-104">The `NULLDATETIME` function returns a *DateTime* value that represents the **null** date/time value (January 1, 1900) in Coordinated Universal Time (Greenwich Mean Time \[GMT\]).</span></span>
+<span data-ttu-id="f3b89-104">`NULLDATETIME` işlev,eşgüdümlü evrensel saat (Greenwich Saati \[GMT\]) içinde **boş** tarih/zaman değerini (1 Ocak, 1900) gösteren bir *tarih saat* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="f3b89-104">The `NULLDATETIME` function returns a *DateTime* value that represents the **null** date/time value (January 1, 1900) in Coordinated Universal Time (Greenwich Mean Time \[GMT\]).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2d618-105">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="2d618-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f3b89-105">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="f3b89-105">Syntax</span></span>
 
-```
+```vb
 NULLDATETIME ()
 ```
 
-## <a name="return-values"></a><span data-ttu-id="2d618-106">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="2d618-106">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f3b89-106">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="f3b89-106">Return values</span></span>
 
-<span data-ttu-id="2d618-107">*DateTime*</span><span class="sxs-lookup"><span data-stu-id="2d618-107">*DateTime*</span></span>
+<span data-ttu-id="f3b89-107">*DateTime*</span><span class="sxs-lookup"><span data-stu-id="f3b89-107">*DateTime*</span></span>
 
-<span data-ttu-id="2d618-108">Sonuç tarih/saat değeri.</span><span class="sxs-lookup"><span data-stu-id="2d618-108">The resulting date/time value.</span></span>
+<span data-ttu-id="f3b89-108">Sonuç tarih/saat değeri.</span><span class="sxs-lookup"><span data-stu-id="f3b89-108">The resulting date/time value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="2d618-109">Örnek</span><span class="sxs-lookup"><span data-stu-id="2d618-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f3b89-109">Örnek</span><span class="sxs-lookup"><span data-stu-id="f3b89-109">Example</span></span>
 
-<span data-ttu-id="2d618-110">`DATETIMEFORMAT( NULLDATETIME(), "O")`, Saat dilimi değerine sahip bir uygulama kullanıcısı tarafından başlatılan bir işlem sırasında çağrıldığında **1900-01-01T 00:00:00.0000000+00:00** dize değerini döndürür, **dil ve ülke/bölge tercihleri** bölümünde **Eşgüdümlü Evrensel Saat** (GMT).</span><span class="sxs-lookup"><span data-stu-id="2d618-110">`DATETIMEFORMAT( NULLDATETIME(), "O")` returns the string value **1900-01-01T00:00:00.0000000+00:00** when it's called during a process that was initiated by an application user who has the time zone value **(GMT) Coordinated Universal Time** in the **Language and country/region preferences** section.</span></span>
+<span data-ttu-id="f3b89-110">`DATETIMEFORMAT( NULLDATETIME(), "O")`, Saat dilimi değerine sahip bir uygulama kullanıcısı tarafından başlatılan bir işlem sırasında çağrıldığında **1900-01-01T 00:00:00.0000000+00:00** dize değerini döndürür, **dil ve ülke/bölge tercihleri** bölümünde **Eşgüdümlü Evrensel Saat** (GMT).</span><span class="sxs-lookup"><span data-stu-id="f3b89-110">`DATETIMEFORMAT( NULLDATETIME(), "O")` returns the string value **1900-01-01T00:00:00.0000000+00:00** when it's called during a process that was initiated by an application user who has the time zone value **(GMT) Coordinated Universal Time** in the **Language and country/region preferences** section.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="2d618-111">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="2d618-111">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="f3b89-111">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="f3b89-111">Additional resources</span></span>
 
-[<span data-ttu-id="2d618-112">Tarih ve saat işlevleri</span><span class="sxs-lookup"><span data-stu-id="2d618-112">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="f3b89-112">Tarih ve saat işlevleri</span><span class="sxs-lookup"><span data-stu-id="f3b89-112">Date and time functions</span></span>](er-functions-category-datetime.md)
