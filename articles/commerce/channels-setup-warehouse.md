@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fe785e3bfd503193a588958ae5df0d1c0fdb9e52
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002324"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057868"
 ---
 # <a name="warehouse-set-up"></a>Ambarı ayarlama
 
@@ -59,7 +59,7 @@ Bir ambarı ayarlamak için bu adımları izleyin.
 
 1. Gezinti bölmesinde **Modüller \> Perakende ve ticaret \> Kanal kurulumu \> Ambarlar**'a gidin.
 1. Eylem bölmesinde **Yeni**'yi seçin.
-1. **Ambar** alanına bir değer girin.  Bu bir perakende mağazasıyla 1:1 eşleşme ise, mağaza adını veya bir bölgesel dağıtım merkezinin adını kullanmayı düşünebilirsiniz.
+1. **Ambar** alanına bir değer girin.  Bu, bir mağazayla 1:1 eşleşme ise mağaza adını veya bir bölgesel dağıtım merkezinin adını kullanmayı düşünebilirsiniz.
 1. **Ad** alanına bir değer girin.
 1. **Tesis** açılır listesinde, önceden oluşturulan ambar tesisini seçin.
 1. **Tür** alanında, **Varsayılan**'ı seçin.

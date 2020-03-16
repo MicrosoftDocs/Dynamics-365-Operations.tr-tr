@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eda7fbaeea8d3c1a07f7b43cafe44886d149a211
-ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
+ms.openlocfilehash: cbdb69202ebec19f4442041cfb1f99857da36d2e
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027277"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057522"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Derecelendirme ve incelemeleri kullanmayı kabul etme
 
@@ -61,6 +61,6 @@ Sitenizde derecelendirme ve İncelemeler kullanmayı kabul etmek için aşağıd
 
 [Derecelendirme ve incelemeleri yapılandırma](configure-ratings-reviews.md)
 
-[Dynamics 365 Retail'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
+[Dynamics 365 Commerce'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
 
 

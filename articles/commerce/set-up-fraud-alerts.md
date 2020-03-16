@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b4ee6b128e473d0999885f1cb1b4dbb015026c4e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024344"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057221"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Çağrı merkezi sahtekarlık uyarılarını ayarlama ve bu uyarılarla çalışma
 
@@ -54,6 +54,7 @@ Son olarak, kullanıcılar bir siparişi sahte veri incelemesi amacıyla el ile 
 Sistem, bir siparişin sahte veri incelemesi amacıyla beklemeye alınması gerekip gerekmediğini belirlemek için iki tür sahtekarlık ölçütüne başvurur.
 
 - **Statik sahte veri**, engellenmiş numaralar listesine koyulmuş bir telefon numarası veya daha önce sahte işlemlerde kullanıldığı bilindiği için işaretlenmiş e-posta adresi gibi özel bir değer kullanır. Statik sahte verilerin ayarını yapmak için **Retail ve Commerce** \> **Kanal kurulumu** \> **Çağrı merkezi ayarı** \> **Sahte** \> **Statik sahte veri**'ye gidin. **Statik sahte veri** sayfasında, sahtekarlık ölçütlerini el ile veya verileri içe aktararak ekleyebilirsiniz. Puanlar sahtekarlık bilgilerine eklenir. Sahte veri denetimi özelliği etkinse, girilen her satış siparişi, statik verilerle karşılaştırılır. Veriler müşterinin sipariş üst bilgisine bağlı faturalama adresinde veya teslimat adresinde bulunamazsa ya da satış siparişindeki satırlardan herhangi biriyle bağlantılı teslimat adresinde bulunursa, tüm benzersiz eşleşmelerin puanları toplanır ve siparişin beklemeye alınıp alınmayacağını belirlemek için **Minimum puan** değeriyle karşılaştırılır.
+
 - **Sahtekarlık kuralları** kullanıcı tanımlı değişkenlerden ve bu değişkenler için tanımlanmış koşullardan oluşur. Kuralları oluşturmak için **Retail ve Commerce** \> **Kanal kurulumu** \> **Çağrı merkezi ayarı** \> **Sahte** \> **Kurallar**'a gidin. Sahtekarlık kuralları, bir şirketin, birden fazla koşulu değerlendirmek için **VE** ya da **VEYA** deyimlerini içerebilen daha karmaşık kural kümesi yapılandırabilmesine olanak sağlar. Örneğin, bir kullanıcı belirli bir müşteri grubuna dahil olan ve belirli bir ürün sipariş etmiş müşterilere ilişkin tüm siparişleri sahte veri incelemesi amacıyla beklemeye almak istiyor. Bu durumda, müşteriyi ve ürünleri doğrulayacak koşullar **Kurallar** sayfasında bir VE koşulu kullanılarak tanımlanır. Bunun ardından, ancak her iki koşul doğru olduğu ve bu kurala atanan puan değeriyle, varsa, siparişin eşleştiği diğer kuralların puan değerlerinin toplamı, siparişin toplam sahtekarlık puanının **Çağrı merkezi parametreleri** sayfasındaki **Minimum puan** değerini aşmasına neden olduğu takdirde sipariş beklemeye alınır.
 
 > [!NOTE]

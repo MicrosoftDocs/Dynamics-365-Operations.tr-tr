@@ -3,7 +3,7 @@ title: Planlamayı En İyi Duruma Getirmeye başlayın
 description: Bu konuda, Planlamayı En İyi Duruma Getirme işlevini kullanmaya nasıl başlanacağı açıklanmaktadır.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/17/2020
+ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
-ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
+ms.openlocfilehash: 3e64699005387adcc92e2e7c9fefad68a9de85c0
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "2971476"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076144"
 ---
+# <a name="get-started-with-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeye başlayın
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="get-started-with-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeye başlayın
 
 Planlamayı En İyi Duruma Getirme işlevi şu anda Microsoft Dynamics 365 Supply Chain Management'ta yerleşik olan planlama altyapısında kullanılabilen tüm özellikleri desteklememektedir. Bu nedenle, Planlamayı En İyi Duruma Getirme hizmetinde şu anda mevcut olan özellik kümesinin gereksinimlerinizi karşılayıp karşılamadığını değerlendirmeniz önemlidir. Varsayılan olarak, Planlamayı En İyi Duruma Getirme işlevi Dynamics Lifecycle Services'ta (LCS) açılmaz. Bu nedenle, açılmadan önce değerlendirme yapma fırsatınız vardır.
 
@@ -44,6 +44,9 @@ Geçerli lisansınızı kullanarak master planlamayı çalıştırabilirseniz Pl
 ### <a name="install-the-add-in"></a>Eklentiyi yükleme
 
 Planlamayı En İyi Duruma Getirme hizmetini kullanmak üzere Dynamics 365 Supply Chain Management için Planlamayı En İyi Duruma Getirme Eklentisi'ni yükleyin. Eklentiye LCS projenizden ulaşabilir ve Supply Chain Management kullanıcı arabiriminden (UI) Planlamayı En İyi Duruma Getirme hizmetini açabilirsiniz.
+
+> [!NOTE]
+> En iyi duruma getirme planlaması için gereksinim, bir LCS etkin yüksek kullanılabilirlik ortamıdır (OneBox ortamı değil); Dynamics 365 Supply Chain Management sürüm 10.0.7 veya daha yenisine sahip olmalıdır.
 
 1. LCS'de oturum açın ve istediğiniz ortamı açın.
 1. **Tüm ayrıntılar**'a gidin.

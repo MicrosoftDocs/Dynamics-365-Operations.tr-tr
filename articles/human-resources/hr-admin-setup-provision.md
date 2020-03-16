@@ -3,7 +3,7 @@ title: İnsan kaynakları hazırlığı
 description: ''
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f3a7987a9b385fb6ba0294dc46b0d66be8228f06
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026279"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071626"
 ---
 # <a name="provision-human-resources"></a>İnsan kaynakları hazırlığı
 
@@ -62,9 +62,6 @@ Bir LCS projesi oluşturduktan sonra, bir ortama İnsan Kaynakları sağlayabili
 3. Ortamınızın İnsan Kaynakları Test Sürümü deneyiminde kullanılan aynı tanıtım verileri kümesini içermesini istiyorsanız **Tanıtım Verilerini Ekle** seçeneğini seçin. Bu uzun vadeli tanıtım veya eğitim ortamları için yararlıdır ve üretim ortamları için hiçbir zaman kullanılmamalıdır.  Not ilk dağıtım sırasında bu seçeneği seçmeniz gerekir. Var olan bir dağıtımı sonra güncelleştiremezsiniz.
 
 4. İnsan Kaynakları, Power Apps tümleştirmesi ve genişletilebilirliği sağlamak amacıyla daima bir Microsoft Power Apps ortamında sağlanır. Devam etmeden önce bu konudaki "Power Apps ortamı seçme" bölümünü okuyun. Power Apps ortamınız yoksa, LCS'de Ortamları yöneti seçin veya Power Apps Yönetim Merkezi'ne gidin. Ardından [Power Apps ortamı oluşturma](https://docs.microsoft.com/powerapps/administrator/create-environment) adımlarını izleyin.
-
-    > [!NOTE]
-    > Var olan ortamları görüntülemek veya yeni ortamlar oluşturmak için, İnsan Kaynakları'nı sağlayan kiracı yöneticisine Power Apps P2 lisansı atanması gerekir. Kuruluşunuzun Power Apps P2 lisansı yoksa, bir CSP'den veya [Power Apps fiyatlandırma sayfasından](https://powerapps.microsoft.com/pricing/) bir lisans satın alabilirsiniz.
 
 5. İnsan Kaynakları'nın tedarik edileceği ortamı seçin.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771553"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070772"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansal raporlarda sütun tanımları
 
@@ -120,7 +120,7 @@ Aşağıdaki tabloda sütun kısıtlaması kodları açıklanmaktadır.
 | ADJ                     | Sütundaki tutarları dönem düzeltmesi tutarları varsa bu tutarlarla kısıtlayın. |
 | XAD                     | Sütundaki tutarları dönem düzeltmesi tutarları hariç tutulacak şekilde kısıtlayın. |
 | PT                      | Sütundaki tutarları deftere nakledilmiş hareketler kullanılabiliyorsa yalnızca bu hareketler dahil edilecek şekilde kısıtlayın. |
-| UPT                     | Sütundaki tutarları, mevcutsa sadece nakledilmeyen hareketleri içerecek şekilde sınırlandırın.<p><strong>Not:</strong> Nakledilmeyen hareketler tüm veri sağlayıcıları tarafından desteklenmemektedir. Daha fazla bilgi için, Microsoft Dynamics ERP sisteminizin <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>veri tümleştirme kılavuzuna</a> bakın.</p> |
+| UPT                     | Sütundaki tutarları, mevcutsa sadece nakledilmeyen hareketleri içerecek şekilde sınırlandırın.<p><strong>Not:</strong> Nakledilmeyen hareketler tüm veri sağlayıcıları tarafından desteklenmemektedir. </p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Bir sütunu bir raporlama birimiyle kısıtlama
 

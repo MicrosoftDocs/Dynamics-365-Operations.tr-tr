@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c0c303ec5d009fce0c975eb797f018b5e27a41eb
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.openlocfilehash: 6e18e8108a7382bfa052986bab5a8552e38100c6
+ms.sourcegitcommit: a2f9dce06322dada6b5f1c82051ef2359f8c0f12
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982419"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081853"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-january-21-2020"></a>Dynamics 365 Talent'daki yenilikler veya değişiklikler (21 Ocak 2020)
 

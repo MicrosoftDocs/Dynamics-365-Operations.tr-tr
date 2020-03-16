@@ -1,2 +1,3 @@
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations artık Dynamics 365 Finance ve Dynamics 365 Supply Chain Management olarak lisanslanmaktadır. Bu lisans değişiklikleri hakkında daha fazla bilgi için bkz. [Dynamics 365 Lisans Güncelleştirmesi](https://docs.microsoft.com/dynamics365/licensing/update).
+> Dynamics 365 for Finance and Operations, özel iş işlevlerinizi yönetmenize yardımcı olmak için amaca yönelik oluşturulmuş uygulamalar haline geldi. Bu değişiklikler hakkında daha fazla bilgi için bkz. [Dynamics 365 Lisans Kılavuzu](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).
+ 

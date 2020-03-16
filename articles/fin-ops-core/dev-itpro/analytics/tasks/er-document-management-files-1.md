@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c6085f2f06fb374887d504c332a34705f0fd9e99
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026146"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042839"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 1 - Veri modelini hazırlama)
 
@@ -36,10 +36,14 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Microsoft tarafından sağlanan yapılandırma listesine erişim alma
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
-    * 'Litware, Inc.' sağlayıcısının kullanılabilir ve etkin olarak işaretlendiğinden emin olun.  
+
+    'Litware, Inc.' sağlayıcısının kullanılabilir ve etkin olarak işaretlendiğinden emin olun.  
+
 2. Litware, Inc. seçin. sağlayıcısını seçin.
 3. Depolar'a tıklayın.
-    * "Operasyon kaynakları" türünün bir havuzu zaten varsa geçerli alt görevin kalan adımlarını atlayın.  
+
+    "Operasyon kaynakları" türünün bir havuzu zaten varsa geçerli alt görevin kalan adımlarını atlayın.  
+
 4. Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.
 5. Yapılandırma havuzu türü alanına "Operasyon kaynakları" yazın.
 6. Havuz oluştur'a tıklayın.
@@ -51,9 +55,13 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 3. Filtreleri göster'e tıklayın.
 4. Aç'a tıklayın.
 5. Ağaçta, "Müşteri fatura modeli" seçeneğini işaretleyin.
-    * İçe aktarmak için "Müşteri fatura modeli" model yapılandırmasını seçin.  
+
+    İçe aktarmak için "Müşteri fatura modeli" model yapılandırmasını seçin.  
+
 6. İçe aktar'ı tıklatın.
-    * Seçili yapılandırmanın 1 sürümü için İthalat'a tıklayın.  
+
+    Seçili yapılandırmanın 1 sürümü için İthalat'a tıklayın.  
+
 7. Evet'i tıklatın.
 8. Sayfayı kapatın.
 9. Sayfayı kapatın.
@@ -65,6 +73,5 @@ Müşteri fatura modelinin kendinize özel yapılandırmasını Microsoft taraf�
 1. İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.
 2. Yeni alana "İsimden Türet: Müşteri fatura modeli, Microsoft" yazın.
 3. Ad alanına "Müşteri fatura modeli (özel)" yazın.
-    * Müşteri faturası modeli (özel)  
 4. Konfigürasyon oluştur'u tıklatın.
 

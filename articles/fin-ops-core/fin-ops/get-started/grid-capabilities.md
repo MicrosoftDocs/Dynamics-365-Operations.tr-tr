@@ -3,7 +3,7 @@ title: Kılavuz yetenekleri
 description: Bu konu, kılavuz denetiminin çeşitli güçlü özelliklerini açıklamaktadır. Bu yeteneklere erişim sahibi olmak için yeni kılavuz özelliğinin etkinleştirilmesi gerekir.
 author: jasongre
 manager: AnnBe
-ms.date: 01/20/2020
+ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,18 +14,19 @@ ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b49d7823f48bcc9cdbb56b87d5fa72d46ddfa15c
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
+ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020051"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "3036277"
 ---
-# <a name="grid-capabilites"></a>Kılavuz yetenekleri
+# <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Yeni kılavuz denetimi, kullanıcı üretkenliğini artırmak, verilerinizin daha ilginç görünümlerini elde etmek ve verilerinize anlamlı bilgiler yüklemek için kullanılabilecek bir dizi yararlı ve güçlü yetenek sağlar. Bu makalede aşağıdaki yetenekler ele alınıyor: 
 
@@ -38,10 +39,11 @@ Yeni kılavuz denetimi, kullanıcı üretkenliğini artırmak, verilerinizin dah
 Finance and Operations uygulamalarında kullanıcılar toplamları ızgaralardaki sayısal sütunların alt kısmında görebilme yeteneğine sahiptir. Bu toplamlar, kılavuzun alt kısmındaki bir alt bilgi bölümünde gösterilir. 
 
 ### <a name="showing-the-grid-footer"></a>Kılavuz alt bilgisini gösterme
-Finance and Operations uygulamalarındaki her tablo kılavuzunda, kılavuzun alt bölümünde, görüntülenen verilerle ilgili önemli bilgileri gösterebilecek bir alt bilgi alanı vardır. Bu bilgiler şunları içerir: 
--  Tablodaki seçili satır sayısı (birden fazla kayıt seçiliyken)
--  Yapılandırılan sayısal sütunların en altındaki genel toplamlar
--  Veri kümesindeki satır sayısı 
+Finance and Operations uygulamalarda her sekmeli kılavuzun altında altbilgi alanı vardır. Altbilgi, kılavuzda görülen verilerle ilgili değerli bilgileri gösterebilir. Aşağıda bu bilgilerin örnekleri verilmiştir:
+
+- Tablodaki seçili satır sayısı (birden fazla kayıt seçiliyken)
+- Yapılandırılan sayısal sütunların en altındaki genel toplamlar
+- Veri kümesindeki satır sayısı 
 
 Bu alt bilgi varsayılan olarak gizlidir ancak kolayca etkinleştirilebilir. Bir kılavuzun alt bilgisini göstermek için, kılavuzda bir sütun başlığına sağ tıklayın ve **Alt bilgiyi göster** seçeneğini belirleyin. Alt bilgi belirli bir kılavuz için etkinleştirildikten sonra, kullanıcı bir sütun başlığına sağ tıklayıp **Alt bilgiyi gizle**'yi seçerek alt bilgiyi gizlemeyi seçene kadar bu ayar hatırlanır.  **Alt bilgiyi göster/Alt bilgiyi gizle** eylem yerinin ilerideki bir güncelleştirmede değiştirilmesi bekleniyor. 
 
@@ -49,9 +51,16 @@ Bu alt bilgi varsayılan olarak gizlidir ancak kolayca etkinleştirilebilir. Bir
 Şu anda, sütunlar varsayılan olarak toplamları gösterecek şekilde yapılandırılmayacak. Bunun yerine, bu, ızgaralardaki sütunların genişliklerini ayarlamaya benzer şekilde bir kerelik kurulum faaliyeti olarak görülüyor. Bir sütunun toplamlarını görmek istediğinizi belirttiğinizde, sayfayı bir sonraki ziyaretinizde bu ayar hatırlanır.  
 
 Bir sütunu toplam gösterecek şekilde yapılandırmanın iki yolu vardır: 
-1.  Bir toplam görmek istediğiniz sütuna sağ tıklayın ve **Bu sütunun toplamını al**'ı seçin. Bu eylem üç şey yapacaktır. İlk olarak, alt bilgiyi görünür yapar. İkincisi, bu sütunda bir toplam görme tercihinizi kaydeder. Üçüncü olarak, bu eylem bu sütun ve toplamlarını görmek istediğiniz diğer sütunlar için bir toplam hesaplaması başlatır. Bir toplamın gösterilmesi için gereken süre, toplamını aldığınız veri kümesinin boyutuyla doğrudan ilgilidir.  
 
-2.  Alt bilgi gösterildikten sonra, alternatif olarak, bir toplam görmek istediğiniz sütunun alt kısmındaki alt bilgi bölgesinde **Toplamı göster** düğmesine de tıklayabilirsiniz. Yapılandırılmış sütun yoksa, **Toplamı göster** düğmesi tüm sayısal sütunlarda görünür. Toplamlar için en az bir sütun yapılandırıldıktan sonra, **Toplamı göster** düğmeleri yalnızca üzerine gelindiği veya odaklanıldığı zaman ortaya çıkacaktır. Bu eylem, yalnızca bu sayfaya sonraki ziyaretlerde bir toplamı görme tercihinizi kaydeder ve bu durum alt bilgide bu sütunda görünen tireyle belirtilir (veya veri kümesi yeterince küçükse, toplam doğrudan gösterilir).
+- Bir toplam görmek istediğiniz sütuna sağ tıklayın ve **Bu sütunun toplamını al**'ı seçin. Bu eylem üç olayın oluşmasına neden olur:
+
+    1. Altbilgi görünür hale gelir. 
+    2. Bu sütunda bir toplam görme tercihiniz kaydedilir. 
+    3. Bu sütun ve toplamlarını görmek istediğiniz diğer sütunlar için bir toplam hesaplaması başlatır. Bir toplamı göstermek için gerekli olan zaman, topladığınızdan önce veri kümesinin boyutuna bağlıdır.
+
+- Altbilgi görünür olduktan sonra, toplam görmek istediğiniz sütunun alt bilgi alanında **toplamı göster** 'i seçin. Yapılandırılmış sütun yoksa, **Toplamı göster** düğmesi tüm sayısal sütunlarda görünür. 
+
+    Toplamlar için en az bir sütun yapılandırıldıktan sonra, **Toplamı göster** düğmeleri yalnızca üzerine gelindiği veya odaklanıldığı zaman ortaya çıkacaktır. **Toplamı göster** eylemi, yalnızca bu sütunda bir toplamı görmek için tercihlerinizi kaydeder; böylece, daha sonra sayfaya yapılan ziyaretlerin tercihi uygulanır. Altbilgide, bu durum sütunda görünen bir çizgiyle belirtilir. (Alternatif olarak, veri kümesi yeterince küçükse, toplam olarak derhal gösterilir.)
 
 Bir hata yapar ve artık belirli bir sütundaki toplamı artık görmek istemezseniz, sütuna sağ tıklayın ve **Toplamı gizle**'yi seçin veya bu sütundaki alt bilgide bulunan **Toplamı gizle** düğmesini seçin. Bu tercih, sayfaya ileride yapılacak ziyaretler için de kaydedilecektir. 
 
@@ -67,7 +76,7 @@ Siz veri kümesinde güncelleştirme, silme veya satır oluşturma işlemleri ya
 
 Bu özelliği kullanmak için, gruplandırmada kullanmak istediğiniz sütuna sağ tıklayın ve **Bu sütuna göre gruplandır**'ı seçin. Bu eylem, verileri, seçilen sütuna göre sıralar, kılavuzun başına yeni bir Tabloya göre gruplandır özelliği ve her grubun başına "üst bilgi satırları" ekler. Bu üst bilgi satırları her grup hakkında aşağıdaki bilgileri sağlar: 
 -  Grubun veri değeri 
--  Sütun etiketi. Bu, birden çok gruplandırma düzeyi desteklenirken özellikle yararlı olacaktır.  
+-  Sütun etiketi (Bu bilgiler özellikle birden çok gruplandırma düzeyi desteklendikten sonra yararlı olacaktır.)
 -  Bu gruptaki veri satırlarının sayısı
 -  Toplamları gösterecek şekilde yapılandırılan sütunların alt toplamları
 
@@ -79,6 +88,6 @@ Bir kılavuzda gruplandırmayı geri almak için, gruplandırma sütununa sağ t
 
 
 ## <a name="evaluating-math-expressions"></a>Matematik ifadelerini değerlendirme
-Bir verimlilik dopingi olarak, kullanıcı sistem dışındaki bir uygulamada hesaplama yapmak zorunda kalmadan bir kılavuzdaki sayısal hücrelere matematiksel formüller girebilir. Örneğin **=15\*4** girip sekmeyi kapatarak alanın dışına çıkabilirsiniz. Sistem ifadeyi değerlendirir ve alan için "60" değerini kaydeder.
+Verimlilik rampa olarak, kullanıcılar bir kılavuzdaki sayısal hücrelere matematiksel formüller girebilecek. Bu kullanıcılar, sistem dışındaki bir uygulamada hesaplama yapmaları gerekmez. Örneğin **= 15\*4** girerseniz ve alanın dışına gitmek için **sekme** tuşuna basarsanız, sistem ifadeyi değerlendirir ve alan için **60** değerini kaydeder.
 
-Sistemin bir değeri ifade olarak tanımasını sağlamak için, değeri bir eşittir işaretiyle (**=**) başlatın. Desteklenen işleçler ve söz dizimi hakkında daha ayrıntılı bilgi edinmek için bkz. [Desteklenen matematik simgeleri](http://redhivesoftware.github.io/math-expression-evaluator/#supported-maths-symbols).  
+Sistemin bir değeri ifade olarak tanımasını sağlamak için, değeri bir eşittir işaretiyle (**=**) başlatın. Desteklenen işleçler ve söz dizimi hakkında daha ayrıntılı bilgi edinmek için bkz. [Desteklenen matematik simgeleri](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).  

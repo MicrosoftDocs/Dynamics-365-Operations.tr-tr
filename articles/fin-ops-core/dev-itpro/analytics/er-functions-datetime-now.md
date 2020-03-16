@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cffb23afa4cb347d2840b099b0b49a71150d87d8
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: cb5b2fa1b8c466582b15d60a56260f0f7111ebd9
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917569"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042355"
 ---
 # <a name="NOW">NOW ER işlevi</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2917569"
 
 ## <a name="syntax"></a>Sözdizimi
 
-```
+```vb
 NOW ()
 ```
 

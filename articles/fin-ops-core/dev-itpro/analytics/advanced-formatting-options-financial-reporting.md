@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a46ff0a1d6e29cc567a86fae60ff803a102d1a2e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181232"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071602"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Finansal raporlamada gelişmiş biçimlendirme seçenekleri
 
@@ -216,7 +216,7 @@ Bu örnekte, hesaplama formülü **@100+@330**, satır 100'deki tutarın, satır
 Bir satır tanımında satırın **CAL** biçimlendirme kodu olduğunda ve **ilgili formüller/satırlar/birimler** hücresine matematiksel bir hesaplama girdiğinizde, ilişkili sütun ve satır harfini raporda da girmeniz gerekir. Örneğin; **A.120** girmek, A sütunundaki satır 120'yi temsil eder. Alternatif olarak, tüm sütunları göstermek için bir at işareti (@) kullanabilirsiniz. Örneğin, satır 120'deki tüm satırları temsil etmek için **@120** girin. Bir sütun harfine veya at işareti (@) sahip olmayan herhangi bir matematiksel hesaplamanın gerçek bir sayı olduğu kabul edilir.
 
 > [!NOTE]
-> Bir satır başvurusu için bir etiket satır kodu kullanırsanız, sütun harfi ve etiket arasında ayırıcı olarak nokta (.) kullanmanız gerekir (örneğin, **A.GROSS\_MARGIN/A.SALES**). (@) işareti kullanırsanız, bir ayırıcı gerekli değildir (örneğin, **@GROSS\_MARGIN/@SALES**).
+> Bir satır başvurusu için bir etiket satır kodu kullanırsanız, sütun harfi ve etiket arasında ayırıcı olarak nokta (.) kullanmanız gerekir (örneğin, **A.GROSS\_MARGIN/A.SALES**). (@) işareti kullanırsanız ayırıcı gerekli değildir (örneğin, **\@GROSS\_MARGIN/@SALES**).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Belirli bir satır için bir hesaplama formülü örneği
 

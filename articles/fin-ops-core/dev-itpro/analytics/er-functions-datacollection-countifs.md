@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02e401254cdfebd4b549f63dbd6a5f925e7bf544
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 9627c7835c8f3f1b6aedc1f691470dc29a11d6b5
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916488"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042562"
 ---
 # <a name="COUNTIFS">COUNTIFS ER işlevi</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2916488"
 
 ## <a name="syntax"></a>Sözdizimi
 
-```
+```vb
 COUNTIFS (condition 1 range, condition 1 value[, condition 2 range, condition 2 value, …, condition N range, condition N value])
 ```
 

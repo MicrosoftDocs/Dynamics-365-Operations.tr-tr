@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020057"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081163"
 ---
 # <a name="unified-product-experience"></a>Birleşik ürün deneyimi
 
@@ -109,7 +109,7 @@ Varsayılan olarak, Finance and Operations uygulamalarındaki ürünler **Taslak
 
 Ürün boyutları, ürün çeşidini tanımlamaya hizmet eden özelliklerdir. Dört ürün boyutu (Renk, Boyut, Stil ve Yapılandırma) ürün çeşitlerini tanımlamak amacıyla Common Data Service'a eşlenir. Aşağıdaki resimde Renk ürün boyutu için veri modeli gösterilmektedir. Aynı model Boyutlara, Stillere ve Yapılandırmalara da uygulanır. 
 
-![Ürünler için veri modeli](media/dual-write-product-2.PNG)
+![Ürünler için veri modeli](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi 
 
 Ölçü birimleri ve ilgili dönüştürmeleri, şemada gösterilen veri modeline uygun olarak Common Data Service'te kullanılabilir.
 
-![Ürünler için veri modeli](media/dual-write-product-3.PNG)
+![Ürünler için veri modeli](media/dual-write-product-three.png)
 
 Ölçü birimi kavramı, Finance and Operations uygulamaları ile diğer Dynamics 365 uygulamaları arasında entegre edilmiştir. Finance and Operations uygulamasındaki her birim sınıfı için Dynamics 365 uygulamasında bu birim sınıfına ait birimleri içeren bir birim grubu oluşturulur. Her birim grubu için varsayılan bir temel birim de oluşturulur. 
 
@@ -205,13 +205,13 @@ Dynamics 365 for Finance and Operations ile Common Data Service arasında ürün
 
 Başka bir Dynamics 365 uygulamaları kullanıcısı için ürün, kullanıcı arabiriminde **msdyn_productnumber** ile tanımlanır (alan etiketinin **Ürün numarası** olduğunu unutmayın). Ürün formunda, hem şirket hem de msydn_productnumber gösterilir. Ancak bir ürünün benzersiz anahtarı olan (productnumber) alanı gösterilmez. 
 
-Uygulamalar Common Data Service üzerine kuruluysa tümleştirme anahtarı olarak benzersiz olmayan msdyn_productnumber yerine benzersiz ürün kodu olan (productnumber) değerinin kullanılmasına özellikle dikkat edilmesi gerektiğini unutmayın. 
+Common Data Service üzerinde uygulama oluşturuyorsanız, tümleştirme anahtarı olarak **ProductNumber** (benzersiz ürün kodu) öğesini kullanarak ilgiyi ödemelisiniz. Benzersiz olmadığından **msdyn_productnumber** kullanmayın. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Ürünlerin başlangıç eşitlemesi ve verilerin Common Data Service'ten Finance and Operations'a taşınması
 
 ### <a name="initial-synchronization-of-products"></a>Ürünlerin başlangıç eşitlemesi 
 
-Çift yazma etkinleştirildiğinde Dynamics 365 Finance and Operations'taki ürünler Common Data Service ve diğer Dynamics 365 uygulamalarına eşitlenir. Common Data Service ve diğer Dynamics 365 uygulamalarında çift yazmadan önce oluşturulan ürünlerin, Finance and Operations'taki ürün verileriyle güncelleştirilmediğini veya eşleşmediğini unutmayın.
+Çift yazma etkinleştirildiğinde Finance and Operations'taki ürünler Common Data Service ve diğer Dynamics 365'teki model temelli uygulamalarına eşitlenir. Common Data Service ve diğer Dynamics 365 uygulamalarında çift yazma yayınlanmadan önce oluşturulan ürünlerin, Finance and Operations uygulamalarındaki ürün verileriyle güncelleştirilmediğini veya eşleşmediğini unutmayın.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Finance and Operations ve diğer Dynamics 365 uygulamalarındaki ürün verilerini eşleştirme
 

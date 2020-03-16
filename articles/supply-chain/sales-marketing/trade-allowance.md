@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 623c25490964ccdf6abc37acaffee7ac0844cf39
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 35aad9bf89ba8c1ed6451304d8fc4fc6ffa575b5
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251167"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057791"
 ---
 # <a name="trade-allowance-management"></a>Ticari tahsisat yönetimi
 
 [!include [banner](../includes/banner.md)]
 
-Ticari tahsisat yönetimi, şirketlerin hacim ve davranış hedeflerini gerçekleştiren müşterilere perakende "performans için ödeme" parası teklif eden satış promosyon programlarını yönetmelerine yardımcı olur. Özelliğin yetenekleri, promosyon fon bütçesi ve tahsisatından kar işlemlerini, ödenek sözleşme ayarlamasını, talepler oluşturma ve işlemeyi, ödeme işlemesini ve promosyon etkililik analizini kapsamlı olarak yükseltmeye odaklanan şirketler için tasarlanır.
+Ticari tahsisat yönetimi, şirketlerin hacim ve davranış hedeflerini gerçekleştiren müşterilere "performans için ödeme" parası teklif eden satış promosyon programlarını yönetmelerine yardımcı olur. Özelliğin yetenekleri, promosyon fon bütçesi ve tahsisatından kar işlemlerini, ödenek sözleşme ayarlamasını, talepler oluşturma ve işlemeyi, ödeme işlemesini ve promosyon etkililik analizini kapsamlı olarak yükseltmeye odaklanan şirketler için tasarlanır.
 
 
 Bu makalede, ticari tahsisat yönetimine geniş çaplı genel bakış sağlanmakta ve satış promosyon programının yönetilmesinde yer alan tipik görev kümesi tanıtılmaktadır. Operasyonel ve karar alma sorumlulukları olan birkaç tür kullanıcıdan ilgili hedeflere ulaşmada bu işlevleri kullanması beklenir:
@@ -61,7 +61,7 @@ Ticari tahsisat sözleşmesi, performans için ödeme parasının spesifik hacim
 
 Ticari tahsisat sözleşmeleri için tahsis edilen fonlar, **Fonlar** sayfasına kaydedilir. **Fonlar** sayfasını açmak için **Satış ve pazarlama** \> **Ticari tahsisatlar** \> **Fonlar** \> **Fonlar**'ı seçin.
 
-![Fonlar sayfası](./media/trade-allowance-management-funds-page.png "Fonlar sayfası")
+![Fon sayfası](./media/trade-allowance-management-funds-page.png "Fon sayfası")
 
 **Fonlar** sayfasında, promosyon fonlarının ayrıntılarını görüntüleyebilirsiniz.
 
@@ -79,7 +79,7 @@ Ticari tahsisat sözleşmeleri, **Ticari tahsisat sözleşmeleri** sayfasına ka
 
 ![Ticari tahsisat sözleşmeleri sayfası](./media/trade-allowance-management-agreements-page.png "Ticari tahsisat sözleşmeleri sayfası")
 
-#### <a name="header"></a>Üstbilgi
+#### <a name="header"></a>Başlık
 
 Üstbilgi görünümünü değiştirmek için **Üstbilgi**'yi seçin.
 

@@ -1,9 +1,9 @@
 ---
 title: Şirket içi dağıtım giriş sayfası
 description: bu konu şirket içi dağıtım hakkında içeriğe bağlantılar ve bilgi sağlar.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770958"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090601"
 ---
 # <a name="on-premises-deployment-home-page"></a>Şirket içi dağıtım giriş sayfası
 
@@ -56,11 +56,11 @@ Dynamics 365 Finance + Operations'ı (şirket içinde) dağıtabilirsiniz. Bir �
 - [Şirket içi dağıtımlara güncelleştirmeleri uygulama](apply-updates-on-premises.md)
 - [Şirket içi ortamlarını yeniden dağıtma](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [Şirket içi dağıtımlarda kullanılabilen perakende özellikleri](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>Commerce
+- [Şirket içi dağıtımlarda kullanılabilen Commerce özellikleri](../../../retail/retail-onprem.md)
 - [Şirket içi ortama Perakende kanalı bileşenleri yükleme adımları](deploy-retail-onprem.md)
-- [Retail Modern POS (MPOS) yapılandırın, yükleyin ve etkinleştirin](../../../retail/retail-modern-pos-device-activation.md)
-- [Retail Store Scale Unit yapılandırma ve yükleme](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Modern POS (MPOS) yapılandırma, yükleme ve etkinleştirme](../../../retail/retail-modern-pos-device-activation.md)
+- [Commerce Scale Unit'i yapılandırma ve yükleme](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Yükselt
 - [Şirket ortamlar için yerinde yükseltme işlemi](../migration-upgrade/on-prem-upgrade.md)
@@ -71,6 +71,6 @@ Dynamics 365 Finance + Operations'ı (şirket içinde) dağıtabilirsiniz. Bir �
 - [Sertifika rotasyonu](certificate-rotation-on-prem.md)
 - [Şirket içi tanılama](on-premises-diagnostics.md)
 - [Şirket içi dağıtımlarda uygulanmayan özellikler](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [Finance and Operations için kaldırılan veya kullanımına son verilen özellikler](../migration-upgrade/deprecated-features.md)
+- [Finance and Operations için Kaldırılan veya artık kullanılmayan özellikler](../migration-upgrade/deprecated-features.md)
 - [Yazılım yaşam döngüsü ilkesi ve şirket içi sürümler](../migration-upgrade/on-prem-version-update-policy.md)
  

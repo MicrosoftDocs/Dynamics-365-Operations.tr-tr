@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: feb28b9c801786f63282c4189d3eeb6d53ed07e1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003154"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057626"
 ---
 # <a name="set-up-an-email-notification-profile"></a>E-posta bildirimi profili ayarlama
 
@@ -41,7 +41,7 @@ E-posta yapılandırma hakkında daha fazla bilgi için bkz. [E-posta yapıland�
 
 E-posta bildirim profili oluşturmak için bu adımları izleyin.
 
-1. Gezinti bölmesinde **Modüller \> Retail and commerce \> Headquarters kurulumu \> Retail E-posta bildirimi profili**'ne gidin.
+1. Gezinti bölmesinde **Modüller \> Retail and commerce \> Headquarters kurulumu \> Commerce E-posta bildirimi profili**'ne gidin.
 1. Eylem bölmesinde **Yeni**'ye tıklayın.
 1. **E-posta bildirimi profili** alanında, profili tanımlayacak bir ad girin.
 1. **Açıklama** alanına ilgili bir açıklama girin.
@@ -71,16 +71,16 @@ Aşağıdaki resimde bazı örnek e-posta şablonu ayarları gösteriliyor.
 
 Bir e-posta olayı oluşturmak için bu adımları izleyin.
 
-1. Gezinti bölmesinde **Modüller \> Retail and commerce \> Headquarters kurulumu \> Retail E-posta bildirimi profili**'ne gidin.
+1. Gezinti bölmesinde **Modüller \> Retail and commerce \> Headquarters kurulumu \> Commerce E-posta bildirimi profili**'ne gidin.
 1. Listede, istenen kaydı bulun ve seçin. 
 1. **E-posta kodu** açılır listesinden e-posta şablonunu seçin.
 1. Açılır listeden uygun **E-posta bildirimi türünü** seçin.
 1. **Etkin** onay kutusunu işaretleyin.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 
-Aşağıdaki resimde bazı örnek perakende olay bildirimi ayarları gösteriliyor.
+Aşağıdaki resimde bazı örnek olay bildirimi ayarları gösteriliyor.
 
-![Perakende olay bildirim ayarları](media/email-notification-profile.png)
+![Olay bildirim ayarları](media/email-notification-profile.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

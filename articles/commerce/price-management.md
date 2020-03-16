@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3f2616fd98b37576625d9586a1cda29ce1b89f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024374"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057499"
 ---
 # <a name="retail-sales-price-management"></a>Retail satış fiyatı yönetimi
 
@@ -43,23 +43,23 @@ Bu konuda şu terimler kullanılmıştır.
 
 ## <a name="price-groups"></a>Fiyat grupları
 
-Fiyat grupları Commerce'de fiyat ve iskonto yönetiminin merkezinde yer alır. Fiyat grupları perakende varlıklarına (kanallar, ilişkiler, kataloglar ve bağlılık programları) fiyatlar ve iskontolar atamak için kullanılır. Fiyat grupları tüm fiyat ve iskontolar için kullanıldığından, başlamadan önce bunları nasıl kullanacağınızı planlamak çok önemlidir.
+Fiyat grupları Commerce'de fiyat ve iskonto yönetiminin merkezinde yer alır. Fiyat grupları ticaret varlıklarına (kanallar, ilişkiler, kataloglar ve bağlılık programları) fiyatlar ve iskontolar atamak için kullanılır. Fiyat grupları tüm fiyat ve iskontolar için kullanıldığından, başlamadan önce bunları nasıl kullanacağınızı planlamak çok önemlidir.
 
-Tek başına bir fiyat grubu yalnızca bir ad, bir açıklama ve isteğe bağlı olarak bir fiyatlandırma önceliğidir. Fiyat grupları hakkında hatırlanması gereken ana nokta fiyatların perakende varlıklar ile birlikte fiyatlar ve iskontoların sahip olduğu çok-çok ilişkileri yönetmek için kullanılmasıdır.
+Tek başına bir fiyat grubu yalnızca bir ad, bir açıklama ve isteğe bağlı olarak bir fiyatlandırma önceliğidir. Fiyat grupları hakkında hatırlanması gereken ana nokta fiyatların ticari varlıklar ile birlikte fiyatlar ve iskontoların sahip olduğu çok-çok ilişkileri yönetmek için kullanılmasıdır.
 
-Aşağıdaki örnek fiyat gruplarının nasıl kullanılacağını gösterir. Bu örnekte, "Fiyat grubu"nun tam olarak fiyatlama ve iskonto yönetiminin merkezinde olduğunu unutmayın. Farklı fiyatları ve iskontoları yönetmek için kullanabileceğiniz perakende varlıkları solda ve gerçek fiyat ve iskonto kayıtları sağdadır.
+Aşağıdaki örnek fiyat gruplarının nasıl kullanılacağını gösterir. Bu örnekte, "Fiyat grubu"nun tam olarak fiyatlama ve iskonto yönetiminin merkezinde olduğunu unutmayın. Farklı fiyatları ve iskontoları yönetmek için kullanabileceğiniz ticari varlıkları solda ve gerçek fiyat ve iskonto kayıtları sağdadır.
 
 ![Fiyat grupları](./media/PriceGroups.png "Fiyat grupları")
 
-Fiyat grupları oluştururken, birden fazla türdeki perakende varlıklar için tek bir fiyat grubu kullanmamanız gerekir. Aksi takdirde, neden belirli bir fiyat veya iskontonun harekete uygulandığını belirlemek zor olabilir.
+Fiyat grupları oluştururken, birden fazla türdeki ticari varlıklar için tek bir fiyat grubu kullanmamanız gerekir. Aksi takdirde, neden belirli bir fiyat veya iskontonun harekete uygulandığını belirlemek zor olabilir.
 
 Örnekteki kırmızı çizgili satırda da gösterildiği gibi, Commerce, Microsoft Dynamics 365'teki doğudan bir müşteriden ayarlanan fiyat grubu işlevini desteklemez. Bununla birlikte, bu durumda, yalnızca satış fiyatı ticari sözleşmelerini alırsınız. Müşteriye özel fiyatları uygulamak isterseniz, doğrudan müşteri üzerinden fiyat grupları ayarlamamanızı öneririz. Bunun yerine, ilişkileri kullanın.
 
-Aşağıdaki bölümler fiyat grupları kullanıldığında ayrı gruplar ayarlamak için kullanabileceğiniz perakende varlıklar hakkında daha fazla bilgi sağlar. Bu varlıklar için fiyatları ve iskontoları yapılandırma iki aşamalı bir işlemdir. Bu adımlar her iki sırayla da yapılabilir. Ancak, bu adım uygulama sırasında bir kez yapılacak bir kurulum olduğundan mantıksal sıra önce varlıklarda fiyat gruplarını ayarlamaktır. Ardından, fiyatlar ve iskontolar oluşturulduğunda, bu fiyatlar ve isontolar üzerinde fiyat gruplarını ayrı ayrı ayarlayabilirsiniz.
+Aşağıdaki bölümler fiyat grupları kullanıldığında ayrı gruplar ayarlamak için kullanabileceğiniz ticari varlıklar hakkında daha fazla bilgi sağlar. Bu varlıklar için fiyatları ve iskontoları yapılandırma iki aşamalı bir işlemdir. Bu adımlar her iki sırayla da yapılabilir. Ancak, bu adım uygulama sırasında bir kez yapılacak bir kurulum olduğundan mantıksal sıra önce varlıklarda fiyat gruplarını ayarlamaktır. Ardından, fiyatlar ve iskontolar oluşturulduğunda, bu fiyatlar ve isontolar üzerinde fiyat gruplarını ayrı ayrı ayarlayabilirsiniz.
 
 ### <a name="channels"></a>Kanallar
 
-Perakende sektöründe farklı kanallarda farklı fiyatlar olması çok normaldir. Kanala özel fiyatları etkileyen iki temel faktör maliyetler ve yerel piyasa koşullarıdır.
+Ticaret sektöründe farklı kanallarda farklı fiyatlar olması çok normaldir. Kanala özel fiyatları etkileyen iki temel faktör maliyetler ve yerel piyasa koşullarıdır.
 
 - **Maliyetler** – Bir kanal ürün kaynağından ne kadar uzaksa, bir ürünü stoklamanın maliyeti o kadar fazla olur. Örneğin, taze ürünlerin sınırlı raf ömrü ve özel üretim gereksinimleri bulunur (örneğin yetişme mevsimi). Kış aylarında taze yeşil salatanın maliyeti kuzey iklimlerde güney iklimlere göre daha yüksek olacaktır. Geniş bir coğrafi alan üzerinde kanallar için fiyatlar ayarlıyorsanız, farklı kanallarda farklı fiyatlar ayarlamak isteyeceksiniz.
 - **Yerel piyasa koşulları** – Cadde üzerinde doğrudan rakibi olan bir mağaza yakınlarda doğrudan rakibi olmayan bir mağazaya göre fiyat konusunda çok daha hassas olacaktır.
@@ -84,7 +84,7 @@ Bazı perakendeciler ürünlerini odaklanmış müşteri gruplarına pazarlamak 
 
 ### <a name="best-practices-for-price-groups"></a>Fiyat grupları için en iyi uygulamalar
 
-Birden fazla perakende varlık türü için bir fiyat grubu kullanmayın. Bunun yerine, kanallar için bir fiyat grubu kümesi, ilişkiler veya bağlılık programları için farklı bir fiyat grubu kümesi kullanın. Kullandığınız farklı türdeki fiyat gruplarını görsel olarak gruplandırmak için fiyat grubu adında bir önek veya sonek kullanabilirsiniz.
+Birden fazla varlık türü için bir fiyat grubu kullanmayın. Bunun yerine, kanallar için bir fiyat grubu kümesi, ilişkiler veya bağlılık programları için farklı bir fiyat grubu kümesi kullanın. Kullandığınız farklı türdeki fiyat gruplarını görsel olarak gruplandırmak için fiyat grubu adında bir önek veya sonek kullanabilirsiniz.
 
 Bir müşteri üzerinde doğrudan fiyat grupları ayarlamaktan kaçının. Bunun yerine, bir ilişki kullanın. Bu şekilde müşterilere yalnızca satış fiyatı ticari sözleşmeleri değil her tür fiyat ve iskontoyu atayabilirsiniz.
 
@@ -98,7 +98,7 @@ Fiyatlar için fiyatlandırma önceliği kullanmak için bir fiyat grubuna bir f
 
 Fiyatlandırma önceliği özelliğinin amacı bir perakendecinin belirli mağazalar kümesinde daha yüksek fiyatlar uygulamak istediği senaryoyu desteklemektir. Örneğin, bir perakendeci Amerika Birleşik Devletleri'nin doğu sahili için bölgesel fiyatlar tanımlar ancak bazı ürünler için New York mağazalarında daha yüksek fiyat uygulamak ister çünkü bazı ürünleri şehirde satmak daha maliyetlidir ve/veya yerel pazar daha yüksek bir fiyatı kaldırabilir.
 
-Bu konunun "En iyi fiyat" bölümünde açıklandığı gibi, genellikle perakende fiyatlandırma altyapısı iki fiyattan en düşük olanı seçer. Bu nedenle, perakendecinin genellikle iki fiyattan en yüksek olanı hem Doğu sahili hem de New York fiyat gruplarına sahip bir mağazada kullanmasını engeller. Fiyatlandırma önceliği özelliği kullanılmadan önce bu sorunu çözmek için perakendecinin her ürün için fiyatı iki kez tanımlaması ve her iki fiyat grubuna atamaması gerekir. Alternatif olarak, perakendecinin yüksek fiyatlı ürünleri normal, daha düşük fiyatlı ürünlerden ayırmak için ekstra fiyat grupları oluşturması gerekir.
+Bu konunun "En iyi fiyat" bölümünde açıklandığı gibi, genellikle fiyatlandırma altyapısı iki fiyattan en düşük olanı seçer. Bu nedenle, perakendecinin genellikle iki fiyattan en yüksek olanı hem Doğu sahili hem de New York fiyat gruplarına sahip bir mağazada kullanmasını engeller. Fiyatlandırma önceliği özelliği kullanılmadan önce bu sorunu çözmek için perakendecinin her ürün için fiyatı iki kez tanımlaması ve her iki fiyat grubuna atamaması gerekir. Alternatif olarak, perakendecinin yüksek fiyatlı ürünleri normal, daha düşük fiyatlı ürünlerden ayırmak için ekstra fiyat grupları oluşturması gerekir.
 
 Bununla birlikte, fiyatlandırma önceliği özelliği perakendeciye bölgesel fiyatlara ilişkin fiyatlandırma önceliğinden daha yüksek olan mağaza fiyatları için bir fiyatlandırma önceliği oluşturma olanağı tanır. Alternatif olarak, perakendeci yalnızca mağaza fiyatları için bir fiyatlandırma önceliği oluşturabilir ve bölgesel fiyatları 0 (sıfır) olan varsayılan fiyatlandırma önceliğinde bırakabilir. Her iki ayar da mağaza fiyatlarının daima bölgesel fiyatlardan önce kullanılmasını sağlamaya yardımcı olur.
 
@@ -142,7 +142,7 @@ Bir ürün için fiyat ayarlamasının en kolay yapıldığı yer doğrudan ür�
 
 Bir ürünün herkes için tek bir fiyatı varsa, taban fiyat bu ürünün fiyatını yönetmek için en etkili yoldur. Fiyatları ayarlamak için ticari sözleşmeleri kullansanız bile, bir üründe taban fiyat da ayarlayabilirsiniz. Daha sonra **Tüm** ticari sözleşmeyi kullanmasanız bile, uygulanan ticari sözleşme olmadığında kullanılan bir geri dönüş fiyatınız olur.
 
-Bir perakende kanal para birimi şirket para biriminden farklıysa, bu kanaldaki temel fiyat üründe ayarlanan fiyat üzerinde para birimi dönüştürme kullanılarak belirlenir.
+Bir kanal para birimi şirket para biriminden farklıysa, bu kanaldaki temel fiyat üründe ayarlanan fiyat üzerinde para birimi dönüştürme kullanılarak belirlenir.
 
 Fiyat birimi genel bir senaryosu olmamasına karşın, fiyatlandırma altyapısı tarafından desteklenir. Fiyat birimi **0** (sıfır) dışında bir değere ayarlanırsa, birim başına fiyat Fiyat ÷ Fiyat birimine eşit olur. Örneğin, bir ürünün fiyatı $10,00 ve fiyat birimi 50 ise, 1 miktar için fiyat $0,20 (= $10.00 ÷ 50) olur.
 
@@ -150,9 +150,9 @@ Fiyat birimi genel bir senaryosu olmamasına karşın, fiyatlandırma altyapıs�
 
 Ticari sözleşme günlüğü kullanarak, her ürün için satış fiyatı ticari sözleşmeleri oluşturabilirsiniz. Microsoft Dynamics 365'de satış fiyatı ticari sözleşmeleri için üç müşteri kapsamı vardır: **Tablo**, **Grup** ve **Tümü**. Müşteri kapsam belirli bir satış fiyatı ticari sözleşmesinin uygulandığı müşterileri belirler.
 
-**Tablo** satış fiyatı ticari sözleşmesi doğrudan ticari sözleşmede ayarlanan tek bir müşteri içindir. Bu senaryo tipik bir perakende işletmeden kullanıcıya (B2C) senaryosu değildir. Ancak, bu durum oluşursa, fiyatlandırma altyapısı fiyatı belirlerken **Tablo** ticari sözleşmesini kullanır.
+**Tablo** satış fiyatı ticari sözleşmesi doğrudan ticari sözleşmede ayarlanan tek bir müşteri içindir. Bu senaryo tipik bir işletmeden kullanıcıya (B2C) senaryosu değildir. Ancak, bu durum oluşursa, fiyatlandırma altyapısı fiyatı belirlerken **Tablo** ticari sözleşmesini kullanır.
 
-**Grup** satış fiyatı ticari sözleşmesi perakende işleviyle birlikte en çok kullanılan türdür. Commerce dışında **Grup** satış fiyatı ticari sözleşmeleri basit müşteri grubu içindir. Bununla birlikte, Commerce'de, müşteri grubu kavramı daha genel bir fiyat grubu olacak şekilde genişletilmiştir. Bir fiyat grubu bir kanala, ilişkiye, bağlılık programına veya kataloğa bağlanabilir. Fiyat grupları hakkında ayrıntılı bilgi için bu konudaki "Fiyat grupları" bölümüne bakın.
+**Grup** satış fiyatı ticari sözleşmesi en çok kullanılan türdür. Commerce dışında **Grup** satış fiyatı ticari sözleşmeleri basit müşteri grubu içindir. Bununla birlikte, Commerce'de, müşteri grubu kavramı daha genel bir fiyat grubu olacak şekilde genişletilmiştir. Bir fiyat grubu bir kanala, ilişkiye, bağlılık programına veya kataloğa bağlanabilir. Fiyat grupları hakkında ayrıntılı bilgi için bu konudaki "Fiyat grupları" bölümüne bakın.
 
 > [!NOTE]
 > Ticari sözleşme fiyatı her zaman taban fiyattan önce kullanılır.
@@ -211,7 +211,7 @@ Microsoft SQL Server Express, maliyeti nedeniyle (ücretsiz) genellikle kanal ve
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Veri dahil fiyatlar ile vergi hariç fiyatlar karşılaştırması
 
-Dynamics 365'te satış fiyatlarını ayarlarken, ayarladığınız fiyat değerinin vergi dahil mi hariç mi olduğunu belirtmezsiniz. Değer sadece fiyattır. Bununla birlikte, perakende kanallarındaki **Vergi dahil fiyatlar** ayarı kanallarını vergiyi fiyata dahil edecek veya hariç tutacak şekilde yapılandırmanıza olanak tanır. Bu ayar kanalda ayarlanır ve tek bir şirket içinde bile değişebilir.
+Dynamics 365'te satış fiyatlarını ayarlarken, ayarladığınız fiyat değerinin vergi dahil mi hariç mi olduğunu belirtmezsiniz. Değer sadece fiyattır. Bununla birlikte, kanallarındaki **Vergi dahil fiyatlar** ayarı kanallarını vergiyi fiyata dahil edecek veya hariç tutacak şekilde yapılandırmanıza olanak tanır. Bu ayar kanalda ayarlanır ve tek bir şirket içinde bile değişebilir.
 
 Hem vergi dahil hem de vergi hariç türleriyle çalışıyorsanız, fiyatları düzgün şekilde ayarlamanız çok önemlidir çünkü kanaldaki **Satış vergisi dahil fiyat** değiştirilirse müşterinin ödeyeceği toplam fiyat değişecektir.
 
@@ -219,15 +219,15 @@ Hem vergi dahil hem de vergi hariç türleriyle çalışıyorsanız, fiyatları 
 
 Tüm kanallarda fiyatlarını hesaplamak için tek bir fiyatlandırma altyapısı kullanılır: Çağrı merkezi, Perakende mağazalar ve Çevrimiçi mağazalar. Bu, birleşik ticaret senaryolarının etkinleştirilmesine yardımcı olur.
 
-Perakende fiyatlandırması perakende dışı varlıklar yerine perakende varlıklarla çalışmak üzere tasarlanmıştır. Özellikle, fiyatları ambara göre değil mağazaya göre ayarlamak üzere tasarlanmıştır.
+Fiyatlandırması perakende dışı varlıklar yerine perakende varlıklarla çalışmak üzere tasarlanmıştır. Özellikle, fiyatları ambara göre değil mağazaya göre ayarlamak üzere tasarlanmıştır.
 
-Perakende fiyatlandırma altyapısı şu fiyatlandırma özelliklerini **desteklemez**:
+Fiyatlandırma altyapısı şu fiyatlandırma özelliklerini **desteklemez**:
 
-- Tesis veya tesis ile ambar depolama boyutlarının fiyatlarını ayarlama desteklenmez. Ticari sözleşmeler üzerinde yalnızca tesis boyutunu belirtirseniz, perakende fiyatlandırması tesisi dikkate almaz ve tüm sitelere ticari anlaşmayı uygular. Hem tesisi, hem de ambarı belirtirseniz, satıcıların her mağaza/ambar için fiyatları kontrol etmek üzere mağaza fiyat gruplarını kullanması beklendiğinden, tanımsız/sınanmadı.
+- Tesis veya tesis ile ambar depolama boyutlarının fiyatlarını ayarlama desteklenmez. Ticari sözleşmeler üzerinde yalnızca tesis boyutunu belirtirseniz, fiyatlandırma altyapısı tesisi dikkate almaz ve tüm sitelere ticari anlaşmayı uygular. Hem tesisi, hem de ambarı belirtirseniz, satıcıların her mağaza/ambar için fiyatları kontrol etmek üzere mağaza fiyat gruplarını kullanması beklendiğinden, tanımsız/sınanmadı.
 - Öznitelik temelli fiyatlandırma desteklenmiyor.
 - Satıcı iskontosu geçişi desteklenmiyor.
 
-Ayrıca, **yalnızca** perakende fiyatlandırma altyapısı şu fiyatlandırma özelliklerini destekler:
+Ayrıca, **yalnızca** fiyatlandırma altyapısı şu fiyatlandırma özelliklerini destekler:
 
 - Fiyat, ana ürün fiyatına doğru en belirgin ürün çeşidi fiyatından en az belirgin ürün çeşidi fiyatına giden sırayla, ürün boyutlarını temel alır. İki ürün boyutu (örneğin, renk ve boyut) kullanılarak ayarlanan fiyat yalnızca bir ürün boyutu (örneğin boyut) kullanılarak ayarlanan fiyattan önce kullanılır.
 - Aynı fiyat grubu, fiyat ve iskontoları denetlemek için kullanılabilir.

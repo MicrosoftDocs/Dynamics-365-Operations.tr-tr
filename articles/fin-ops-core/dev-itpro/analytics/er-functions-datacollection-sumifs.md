@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6820be1976e722f7b108b3e9303c8ed4d822ae9b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: ccf8d373bb081270573f6f80711d8e31ff6c0dc3
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917615"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042516"
 ---
 # <a name="SUMIFS">SUMIFS ER işlevi</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2917615"
 
 ## <a name="syntax"></a>Sözdizimi
 
-```
+```vb
 SUMIFS (key name for summing, condition 1 range, condition 1 value[, condition 2 range, condition 2 value, …, condition N range, condition N value])
 ```
 

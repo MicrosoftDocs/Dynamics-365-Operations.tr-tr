@@ -1,6 +1,6 @@
 ---
 title: Perakende mağaza hareketleri için akış tabanlı sipariş oluşturma
-description: Bu konuda, Microsoft Dynamics 365 Commerce'teki perakende mağazası hareketleri için akış tabanlı sipariş oluşturma işlemi açıklanmaktadır.
+description: Bu konuda, Microsoft Dynamics 365 Commerce'taki mağaza hareketleri için akış tabanlı sipariş oluşturma işlemi açıklanmaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 10/14/2019
@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f691017ad06d3416e4ba0e86d7a0bc207aba5bd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7d5812893edff24a60a0e2eb3607701ac47a8a78
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004286"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057194"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions-public-preview"></a>Perakende mağaza hareketleri için akış tabanlı sipariş oluşturma (Genel önizleme)
 
 [!include [banner](includes/banner.md)]
-
-
 
 Dynamics 365 Retail 10.0.4 ve önceki sürümlerinde, ekstre deftere nakli gün sonunda gerçekleştirilen bir işlemdir ve tüm hareketler günün sonunda defterlere nakledilir. Büyük hareketler sınırlı bir zaman aralığında işlenmek zorunda olduğundan zaman zaman yük ve kilitlenmelere ve ekstre deftere nakil hatalarına yol açar. Ayrıca perakendeciler, gün içinde kendi defterlerinde gelir ve ödemeleri göremez.
 

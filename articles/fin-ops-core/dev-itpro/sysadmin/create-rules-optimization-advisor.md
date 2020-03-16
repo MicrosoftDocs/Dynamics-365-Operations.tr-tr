@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 27066cd860d78743d5ae7c851876eb62fe019245
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e14949b871534868c42d2b26a116e10ff9f05179
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181002"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3082008"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>En iyi duruma getirme danışmanı için kurallar oluşturma
 
@@ -36,7 +36,7 @@ Bu konu **En iyi duruma getirme danışmanı** için nasıl yeni kurallar oluşt
 
 **En iyi duruma getirme danışmanı** için yeni bir kural oluşturmak üzere **SelfHealingRule** soyut sınıfını genişleten, **IDiagnosticsRule** arabirimini uygulayan ve **DiagnosticRule** özniteliğiyle tasarlanan yeni bir sınıf ekleyin. Sınıf ayrıca **DiagnosticsRuleSubscription** özniteliğiyle tasarlanmış bir yönteme de sahip olmalıdır. Kural olarak bu, daha sonra açıklanacak olan **opportunityTitle** yöntemiyle yapılır. Bu yeni sınıf, **SelfHealingRules** modelindeki bir bağımlılıkla özel bir modele eklenebilir. Aşağıdaki örnekte, uygulanan kural **RFQTitleSelfHealingRule** olarak adlandırılmaktadır.
 
-```
+```xpp
 [DiagnosticsRule] 
 public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
 { 
@@ -46,7 +46,7 @@ public final class RFQTitleSelfHealingRule extends SelfHealingRule implements ID
 
 **SelfHealingRule** soyut sınıfı, devralınan sınıflarda uygulanması gereken soyut yöntemlere sahiptir. Temeli **değerlendirme** yöntemidir; bu yöntem kural tarafından tanımlanan fırsatların listesini döndürür. Fırsatlar tüzel kişilik başına olabilir veya tüm sisteme uygulanabilir.
 
-```
+```xpp
 protected List evaluate() 
 { 
     List results = new List(Types::Record); 
@@ -82,7 +82,7 @@ Fırsatlar şirketler arası da olabilir. Bu durumda, şirketler üzerindeki dö
 
 Aşağıdaki kod **findRFQCasesWithEmptyTitle** yöntemini gösterir; bu yöntem boş başlıkları bulunan RFQ servis taleplerinin kodlarını döndürür.
 
-```
+```xpp
 private container findRFQCasesWithEmptyTitle() 
 { 
     container result; 
@@ -115,7 +115,7 @@ Uygulanması gereken diğer iki yöntem **opportunityTitle** ve **opportunityDet
 
 Aşağıda örnek bir uygulama verilmiştir. Kolaylık sağlamak için ham dizeler kullanılır ancak doğru bir uygulama etiketler gerektirir. 
 
-```
+```xpp
 [DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
                              'Assign titles to Request for Quotation cases', 
                              DiagnosticsRunFrequency::Daily,  
@@ -128,7 +128,7 @@ public str opportunityTitle()
 
 **opportunityDetails** tarafından döndürülen açıklama fırsatla ilgili daha fazla bilgi gösteren yan bölmede görüntülenir. Fırsatla ilgili daha fazla ayrıntı sunmak için kullanılabilen **Veri** alanı olan **SelfHealingOpportunity** bağımsız değişkenini alır. Örnekte, yöntem boş başlığı bulunan RFQ servis taleplerinin kodlarını döndürür. 
 
-```
+```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
 { 
     str details = ''; 
@@ -153,7 +153,7 @@ Uygulanması gereken diğer iki soyut yöntem **provideHealingAction** ve **secu
 
 **provideHealingAction** bir iyileştirme eylemi sağlandığında gerçek değeri döndürür; aksi halde yanlış değeri döndürür. Doğru değeri döndürülürse, **performAction** yönteminin uygulanması gerekir. Aksi halde bir hata oluşur. **performAction** yöntemi, verilerin eylem için kullanılabildiği bir **SelfHealingOpportunity** bağımsız değişkeni alır. Örnekte, eylem ile düzeltme için **PurchRFQCaseTableListPage** öğesini açar. 
 
-```
+```xpp
 public boolean providesHealingAction() 
 { 
     return true; 
@@ -172,7 +172,7 @@ Kuralın ayrıntılarına bağlı olarak, fırsat verisini kullanan bir otomatik
 > [!NOTE]
 > Güvenliğin düzgün çalışması için menü öğesinin eylem menü öğesi olması gerekir. **Görüntüleme menüsü öğeleri** gibi diğer menü öğesi türleri düzgün çalışmayacaktır.
 
-```
+```xpp
 public MenuName securityMenuItem() 
 { 
     return menuItemActionStr(PurchRFQCaseTitleAction); 
@@ -181,7 +181,7 @@ public MenuName securityMenuItem()
 
 Kural derlendikten sonra, kullanıcı arabiriminde (UI) görüntülenmesi için aşağıdaki işi yürütün.
 
-```
+```xpp
 class ScanNewRulesJob 
 {         
     public static void main(Args _args) 
@@ -197,7 +197,7 @@ Kural **Sistem yönetimi** > **Periyodik görevler** > **Tanı doğrulama kural�
 
 Aşağıdaki örnek gerekli tüm yöntemleri ve öznitelikleri içeren bir kuralın iskeletine sahip bir kod parçasıdır. Yeni kurallar yazmaya başlamanıza yardımcı olur. Örnekte kullanılan etiketler ve eylem menüsü öğeleri yalnızca tanıtım amacıyla kullanılır.
 
-```
+```xpp
 [DiagnosticsRuleAttribute]
 public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
 {

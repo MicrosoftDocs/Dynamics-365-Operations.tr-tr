@@ -1,6 +1,6 @@
 ---
 title: Perakende işlevselliği profili oluşturma
-description: Bu konuda, Microsoft Dynamics 365 Commerce'ta bir perakende işlevsellik profilinin nasıl oluşturulacağı açıklanmaktadır.
+description: Bu konuda, Microsoft Dynamics 365 Commerce'ta bir işlevsellik profilinin nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002855"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057360"
 ---
 # <a name="create-a-retail-functionality-profile"></a>Perakende işlevselliği profili oluşturma
 
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce'ta bir perakende işlevsellik profilinin nasıl oluşturulacağı açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 Commerce'ta bir işlevsellik profilinin nasıl oluşturulacağı açıklanmaktadır.
 
 ## <a name="overview"></a>Genel Bakış
 
-Perakende işlevsellik profili, çevrimiçi kanallarda çeşitli ayarlar sağlar. Her bir perakende kanalın bir perakende işlevsellik profili belirtmesi gerekir.
+Ticaret işlevsellik profili, çevrimiçi kanallarda çeşitli ayarlar sağlar. Her bir kanalın bir işlevsellik profili belirtmesi gerekir.
 
-## <a name="create-a-retail-functionality-profile"></a>Perakende işlevselliği profili oluşturma
+## <a name="create-a-functionality-profile"></a>İşlevsellik profili oluştur
 
-Perakende işlev profili oluşturmak için aşağıdaki adımları izleyin.
+İşlev profili oluşturmak için aşağıdaki adımları izleyin.
 
 1. Gezinti bölmesinde **modüller \> Kanal kurulumu \> POS profilleri \> işlevsellik profillerine** gidin.
 1. Eylem bölmesinde **Yeni**'yi seçin.
@@ -51,9 +51,9 @@ Perakende işlev profili oluşturmak için aşağıdaki adımları izleyin.
 1. **Bilgi Kodları** bölümünde, ayarları gerektiği gibi değiştirin.
 1. **Makbuz numaralandırması** bölümünde, ayarları gerektiği gibi değiştirin. 
   
-Aşağıdaki resimde örnek bir perakende işlevsellik profili gösterilmektedir.
+Aşağıdaki resimde örnek bir işlevsellik profili gösterilmektedir.
   
-![Perakende işlev profili örneği](media/retail-functionality-profile.png)
+![İşlev profili örneği](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de0981d3200c2b1d62cab7600d2382bd11dd4b20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002255"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057845"
 ---
 # <a name="cloud-powered-search-overview"></a>Bulut destekli aramaya genel bakış
 
@@ -33,7 +33,7 @@ Bu konu, Microsoft Dynamics 365 Commerce'ta bulut destekli aramanın genel gör�
 
 ## <a name="overview"></a>Genel Bakış
 
-Ürün bulunabilirliği, müşterilerin kategorilerine, aramaya ve filtre uygulamasına göre hızlı ve kolay bir şekilde ürünleri bulabilmesini sağlamaya yardımcı olur. Perakendeciler, tüm perakende kanallarında müşteri etkileşimi için ürün keşfini bir ana araç olarak kabul edin.
+Ürün bulunabilirliği, müşterilerin kategorilerine, aramaya ve filtre uygulamasına göre hızlı ve kolay bir şekilde ürünleri bulabilmesini sağlamaya yardımcı olur. Perakendeciler, tüm kanallarda müşteri etkileşimi için ürün keşfini bir ana araç olarak kabul edin.
 
 Müşteriler, arama terimleri yazarken, çok yönlü gezinme ve vurgulamadan, Web arama altyapılarının, gelişmiş e-ticaret web sitelerinin, sosyal uygulamaların ve otomatik önerilerin neredeyse anlık yanıt sürelerine alışkın olurlar. Müşteriler, istedikleri ürünü bir e-ticaret mağazasında hızlı bulamayacakları takdirde, farklı bir e-ticaret deposuna gitmekten çekinmeyin.
 

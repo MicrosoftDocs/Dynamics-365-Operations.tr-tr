@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32eb07689598a3b6c852f272b480106670b88cd0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 03bed091350b39601edb22b5af6bda5a83af47eb
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916994"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041366"
 ---
 # <a name="FA_SUM">FA_SUM ER işlevi</a>
 
@@ -33,7 +33,7 @@ Bu `FA_SUM` işlev, belirtilen sabit kıymet maddesine, değer modeli koduna ve 
 
 ## <a name="syntax"></a>Sözdizimi
 
-```
+```vb
 FA_SUM (fixed asset code, value model code, start date, end date)
 ```
 

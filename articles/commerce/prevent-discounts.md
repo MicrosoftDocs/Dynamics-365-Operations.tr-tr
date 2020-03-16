@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 822bd39bca3a95f073bacea90a8ee58eada50ae2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6a683ffce487dc4388711ad160c2e8dc55a690dd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024376"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057476"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Perakende ürünler için iskontoları engelleme seçenekleri
 

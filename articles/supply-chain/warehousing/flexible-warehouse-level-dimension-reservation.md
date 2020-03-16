@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c0baf96315dd9fe6bc1984d337fd1c50ae47016a
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: cd6ec1013de757214db99ada02170bb6e2af96c0
+ms.sourcegitcommit: f52ddcad105aac4ad2caef709751ff80caf363c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031055"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "3036941"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Esnek ambar düzeyi boyut rezervasyon ilkesi
 
@@ -46,7 +46,7 @@ Bu senaryolarda sorun, serbest bırakılan her ürüne yalnızca bir stok rezerv
 
 ### <a name="business-scenario"></a>İş senaryosu
 
-Bu senaryoda, bir şirket, mamul malların toplu iş numaralarına göre izlendiği bir stok stratejisi kullanıyor. Bu şirket aynı zamanda WHS iş yükünü de kullanıyor. Bu iş yükünün toplu iş etkin kalemler için ambar çekme ve sevkiyat operasyonları planlamak ve çalıştırmak için iyi donatılmış bir mantığı olduğundan, mamul kalemlerin çoğu bir "Toplu iş\[yerleşim\] altı" stok rezervasyon hiyerarşisiyle ilişkilendirilir. Bu tür operasyon kurulumunun avantajı, hangi toplu işlerin çekileceği ve bu maddelerin ambarda nereye koyulacağı ile ilgili kararların (yürürlükteki rezervasyon kararları), ambar çekme operasyonları başlayana kadar ertelenmesidir. Bunlar müşterinin siparişi verilirken yapılmaz.
+Bu senaryoda, bir şirket, mamul malların toplu iş numaralarına göre izlendiği bir stok stratejisi kullanıyor. Bu şirket aynı zamanda WMS iş yükünü de kullanıyor. Bu iş yükünün toplu iş etkin kalemler için ambar çekme ve sevkiyat operasyonları planlamak ve çalıştırmak için iyi donatılmış bir mantığı olduğundan, mamul kalemlerin çoğu bir "Toplu iş\[yerleşim\] altı" stok rezervasyon hiyerarşisiyle ilişkilendirilir. Bu tür operasyon kurulumunun avantajı, hangi toplu işlerin çekileceği ve bu maddelerin ambarda nereye koyulacağı ile ilgili kararların (yürürlükteki rezervasyon kararları), ambar çekme operasyonları başlayana kadar ertelenmesidir. Bunlar müşterinin siparişi verilirken yapılmaz.
 
 "Toplu iş-\[yerleşim\] altı" rezervasyon hiyerarşisi şirketin işletme hedeflerine uygun olmakla birlikte, şirketin mevcut müşterilerinin birçoğu, ürünleri yeniden sipariş ettikleri zaman, daha önce satın aldıkları aynı toplu işi istemektedir. Bu nedenle, şirket, müşterinin aynı kalem için talebine bağlı olarak toplu iş rezervasyonu kurallarının işleniş biçiminde esneklik istiyor ve böylece aşağıdaki davranışlar ortaya çıkıyor:
 

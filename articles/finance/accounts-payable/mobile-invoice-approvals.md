@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658656"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059440"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobil fatura onayları
 
@@ -54,8 +54,8 @@ Her kuruluş satıcı faturaları için kendi iş sürecini farklı şekilde dü
     -   Bir fatura satırı için kaç tane hesap dağıtımı (genişletilmiş fiyat, satış vergisi, giderler, bölmeler vb.) vardır? Yine, 80-20 kuralını uygulayın.
     -   Faturaların fatura başlığında da hesap dağıtımları var mı? Öyleyse, bu hesap dağıtımlarının cihazda kullanılabilir olması gerekir mi?
 
-> [!NOTE]
-> Bu konuda hesap dağıtımlarının nasıl düzenleneceği açıklanmamaktadır çünkü bu işlevsellik şu anda mobil senaryolar için desteklenmez.
+    > [!NOTE]
+    > Bu konuda hesap dağıtımlarının nasıl düzenleneceği açıklanmamaktadır çünkü bu işlevsellik şu anda mobil senaryolar için desteklenmez.
 
 -   Kullanıcılar cihazda fatura için ekleri görmek ister mi?
 
@@ -158,9 +158,9 @@ Genel bir yönerge olarak, mobil tasarımcıyla çalışırken güncelleştirmel
     - Fatura numarası
     - Fatura tarihi
 
-  Alanlar eklendikten sonra, mobil sayfa aşağıdaki resme benzer olmalıdır. 
+    Alanlar eklendikten sonra, mobil sayfa aşağıdaki resme benzer olmalıdır. 
     
-   [![Alanlar eklendikten sonra sayfa](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Alanlar eklendikten sonra sayfa](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  Daha sonra iş akışı eylemlerini etkinleştirebilmemiz için, şimdi aşağıdaki sütunları da eklemeniz gerekir.
     - Tamamlanan görevi göster
@@ -247,9 +247,10 @@ Mobil için fatura ayrıntıları sayfasını tasarlamak için **VendMobileInvoi
     - Mobil listesi sayfasında daha önce eklediğimiz iş akışıyla ilgili ekstra sütunları gizler. Bu sütunları uygulamanın bağlan hakkında bilgisi olması ve bir sonraki adımın gerçekleştirilebilmesi için ekledik.
     - Etkin olan iş akışı adımını temel alarak , yalnızca bu eylemleri göstermek için mantık uygular.
 
-> [!NOTE]
-> Sayfalardaki ve koddaki diğer denetimlerin adının çalışma alanındaki isimlerle aynı olması gerekir.
+    > [!NOTE]
+    > Sayfalardaki ve koddaki diğer denetimlerin adının çalışma alanındaki isimlerle aynı olması gerekir.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -308,6 +309,7 @@ Mobil için fatura ayrıntıları sayfasını tasarlamak için **VendMobileInvoi
                  },
            };
         }
+    ```
 
 2.  **Mantık** sekmesini seçerek kod dosyasını çalışma alanına yükleyin
 3.  Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
@@ -341,7 +343,7 @@ Bu senaryonun gereksinimleri yalnızca satır düzeyinde dağıtımlar olacağı
 
 1.  Daha önce yaptığınız gibi URL'deki menü öğesi adını değiştirin. Görüntülenen sayfa aşağıdaki resimde gösterilen sayfaya benzemelidir.
 
-[![Tüm dağıtımlar sayfası](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Tüm dağıtımlar sayfası](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Mobil tasarımcıyı **Ayarlar** (dişli) düğmesinden açın.
 
@@ -367,16 +369,18 @@ Bu senaryonun gereksinimleri yalnızca satır düzeyinde dağıtımlar olacağı
 
 10. Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
 
-> [!NOTE] 
-> **Muhasebeyi görüntüle** mobil sayfası şu anda şimdiye kadar tasarlanan mobil sayfalara bağlı değildir. Kullanıcı mobil cihazda **Fatura ayrıntıları** sayfasından **Muhasebeyi görüntüle** sayfasına gidemeyeceğinden, **Fatura ayrıntıları** sayfasından **Muhasebeyi görüntüle** sayfasına gezinme olanağı sağlamamız gerekir. Bu gezintiyi JavaScript aracılığıyla ek bir mantık kullanarak kurarız.
+#### <a name="adding-navigation-to-view-accounting-page"></a>"Hesap görüntüleme" sayfasına gezinti ekleme
+
+**Muhasebeyi görüntüle** mobil sayfası şu anda şimdiye kadar tasarlanan mobil sayfalara bağlı değildir. Kullanıcı mobil cihazda **Fatura ayrıntıları** sayfasından **Muhasebeyi görüntüle** sayfasına gidemeyeceğinden, **Fatura ayrıntıları** sayfasından **Muhasebeyi görüntüle** sayfasına gezinme olanağı sağlamamız gerekir. Bu gezintiyi JavaScript aracılığıyla ek bir mantık kullanarak kurarız.
 
 1.  Daha önce oluşturduğunuz .js dosyasını açın ve aşağıdaki kodda vurgulanan satırları ekleyin. Bu kod iki şey gerçekleştirir:
     1.  Bu, kullanıcıların doğrudan çalışma alanından **Muhasebeyi görüntüle** sayfasına gidememesini garanti etmeye yardımcı olur.
     2.  **Fatura ayrıntıları** sayfasından **Muhasebeyi görüntüle** sayfasına gitme denetimi kurar.
 
-> [!NOTE] 
-> Sayfalardaki ve koddaki diğer denetimlerin adının çalışma alanındaki isimlerle aynı olması gerekir.
+    > [!NOTE] 
+    > Sayfalardaki ve koddaki diğer denetimlerin adının çalışma alanındaki isimlerle aynı olması gerekir.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -439,7 +443,8 @@ Bu senaryonun gereksinimleri yalnızca satır düzeyinde dağıtımlar olacağı
                  },
            };
         }
-
+    ```
+    
 2.  Önceki kodun üzerine yazmak için **Mantık** sekmesini seçerek kod dosyasını çalışma alanına yükleyin
 3.  Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
 4.  Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.

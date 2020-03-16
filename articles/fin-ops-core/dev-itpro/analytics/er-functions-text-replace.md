@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9c66f4c96f35e3ad5fc92e7925b5cd07c956aac
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: ba2590635ba465dae9ea50d3e4da989365548f3b
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916879"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040998"
 ---
 # <a name="REPLACE">REPLACE ER işlevi</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2916879"
 
 ## <a name="syntax"></a>Sözdizimi
 
-```
+```vb
 REPLACE (text, pattern, replacement, regular expression flag)
 ```
 
