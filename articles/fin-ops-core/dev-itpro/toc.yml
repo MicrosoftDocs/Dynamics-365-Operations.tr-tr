@@ -14,6 +14,8 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 34 (Mayıs 2020)
+                  href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (Nisan 2020)
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (Şubat 2020)
@@ -146,41 +148,67 @@
                   items:
                     - name: Common Data Service kullanarak veri tümleştirmeye genel bakış
                       href: data-entities/data-integration-cds.md
-                    - name: 'Eşzamanlı, çift yönlü tümleştirme'
+                    - name: Çift yazma tümleştirmesi
                       items:
                         - name: Çift yazma giriş sayfası
                           href: data-entities/dual-write/dual-write-home-page.md
                         - name: Çift yazmaya genel bakış
                           href: data-entities/dual-write/dual-write-overview.md
-                        - name: Common Data Service'ta kuruluş hiyerarşisi
-                          href: data-entities/dual-write/organization-mapping.md
-                        - name: Şirket tümleştirmesi
+                        - name: Çift yazma kurulumu
                           items:
-                            - name: Common Data Services'ta şirket kavramı
-                              href: data-entities/dual-write/company-data.md
-                            - name: Şirket verileriyle önyükleme
-                              href: data-entities/dual-write/bootstrap-company-data.md
-                        - name: Tümleşik müşteri aslı
-                          href: data-entities/dual-write/customer-mapping.md
-                        - name: Tümleşik genel muhasebe
-                          href: data-entities/dual-write/ledger-mapping.md
-                        - name: Birleşik ürün deneyimi
-                          href: data-entities/dual-write/product-mapping.md
-                        - name: Satıcı tümleştirmesi
+                            - name: Çift yazma için sistem gereksinimleri
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: Çift yazma kurulumu için desteklenen senaryolar
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: Lifecycle Services'dan çift yazma kurulumu
+                              href: data-entities/dual-write/lcs-setup.md
+                        - name: Uygulamalar arasında kavramları eşleme
                           items:
-                            - name: Tümleşik satıcı aslı
-                              href: data-entities/dual-write/vendor-mapping.md
-                            - name: Satıcı tasarımları arasında geçiş yapma
-                              href: data-entities/dual-write/vendor-switch.md
-                        - name: Tümleşik siteler ve ambarlar
-                          href: data-entities/dual-write/sites-warehouses-mapping.md
-                        - name: Tümleşik vergi aslı
-                          href: data-entities/dual-write/tax-mapping.md
-                        - name: Başlangıç eşitlemesi
-                          href: data-entities/dual-write/initial-sync.md
-                        - name: Veri tümleştirme sorunlarını giderme
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: 'Zaman uyumsuz, tek yönlü tümleştirme'
+                            - name: Common Data Service'ta kuruluş hiyerarşisi
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: Şirket tümleştirmesi
+                              items:
+                                - name: Common Data Services'ta şirket kavramı
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Şirket verileriyle önyükleme
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Tümleşik müşteri aslı
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: Ürün tümleştirmesi
+                              items:
+                                - name: Birleşik ürün deneyimi
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: Tümleşik tesisler ve ambarlar
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Finans ve vergi verileri
+                              items:
+                                - name: Finans ve vergi referans verilerine erişim
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: Tümleşik genel muhasebe
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: Tümleşik vergi aslı
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: Satıcı tümleştirmesi
+                              items:
+                                - name: Tümleşik satıcı aslı
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Satıcı tasarımları arasında geçiş yapma
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Çift yazmada aday müşteriden nakde
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Servis gerçekleştirilecek şirket içi varlıklar
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: 'Tümleşik çalışan, iş ve pozisyon'
+                              href: data-entities/dual-write/integrated-hr.md
+                        - name: Çift yazma desteği
+                          items:
+                            - name: Field Service çözümleri ve Project Service Automation çözümleri için destek
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: Başlangıç eşitlemesi
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Veri tümleştirme sorunlarını giderme
+                              href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Power Platform Veri Tümleştirici ile tümleştirme
                       items:
                         - name: Aday müşteriden nakde senaryosu yapılandırma
                           items:
@@ -332,6 +360,8 @@
                   href: database/import-database.md
                 - name: Veritabanını belirli noktaya geri yükleme
                   href: database/database-point-in-time-restore.md
+                - name: Üretim veritabanını korumalı alan ortamında belirli bir noktaya geri yükleme
+                  href: database/database-pitr-prod-sandbox.md
             - name: Eğitimler
               items:
                 - name: Eğitim amacıyla yenileme
@@ -428,8 +458,10 @@
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Şirket içi ortamları dağıtma (Platform update 8 ve 11)
                       href: deployment/setup-deploy-on-premises-pu8-pu11.md
-                    - name: Şirket içi ortama Perakende kanalı bileşenleri yükleme adımları
+                    - name: Şirket içi ortama Retail kanalı bileşenleri yükleme adımları
                       href: deployment/deploy-retail-onprem.md
+                    - name: Birden çok ortam için aynı AD FS örneğini yeniden kullanma
+                      href: deployment/onprem-reuseadfs.md
                 - name: Özel modeller geliştirme ve şirket içi ortamlara dağıtma
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: Şirket içi ortamlarla PowerBI.com tümleştirmesi
@@ -970,24 +1002,34 @@
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: Metodolojiler oluşturma veya güncelleştirme
               href: lifecycle-services/create-methodology.md
-            - name: İş süreci modelleyici
-              href: lifecycle-services/bpm-overview.md
-            - name: İş süreci modelleyicideki iş süreci kitaplıkları
-              href: lifecycle-services/business-process-libraries-business-process-modeler.md
-            - name: 'İş süreci modelleyici kitaplığı oluşturma, düzenleme ve göz atma'
-              href: lifecycle-services/creating-editing-browsing.md
-            - name: İş süreci modelleyicide görevleri tamamlama
-              href: lifecycle-services/complete-tasks-bpm.md
-            - name: BPM kitaplıklarında etkinlik şemalarıyla çalışma
-              href: lifecycle-services/using-activity-diagrams.md
-            - name: BPM kitaplıklarını Azure DevOps ile eşitleme
-              href: lifecycle-services/synchronize-bpm-vsts.md
-            - name: Görev kılavuzları ve BPM kullanarak kullanıcı kabul testi kitaplıkları oluşturma
-              href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: İş süreci modelleyicideki akış tabloları
-              href: lifecycle-services/flowcharts-business-process-modeler.md
-            - name: İş süreci modelleyiciye özel iş süreçleri yükleme
-              href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: İş süreci modelleyici (BPM)
+              items:
+                - name: İş süreci modelleyiciye (BPM) genel bakış
+                  href: lifecycle-services/bpm-overview.md
+                - name: İş süreci modelleyicideki iş süreci kitaplıkları
+                  href: lifecycle-services/business-process-libraries-business-process-modeler.md
+                - name: 'İş süreci modelleyici kitaplığı oluşturma, düzenleme ve göz atma'
+                  href: lifecycle-services/creating-editing-browsing.md
+                - name: İş süreci modelleyicide görevleri tamamlama
+                  href: lifecycle-services/complete-tasks-bpm.md
+                - name: BPM kitaplıklarında etkinlik şemalarıyla çalışma
+                  href: lifecycle-services/using-activity-diagrams.md
+                - name: BPM kitaplıklarını Azure DevOps ile eşitleme
+                  href: lifecycle-services/synchronize-bpm-vsts.md
+                - name: Görev kılavuzları ve BPM kullanarak kullanıcı kabul testi kitaplıkları oluşturma
+                  href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+                - name: İş süreci modelleyicideki akış tabloları
+                  href: lifecycle-services/flowcharts-business-process-modeler.md
+                - name: İş süreci modelleyiciye özel iş süreçleri yükleme
+                  href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Servis talepleri
+              items:
+                - name: Bulut işlemleri ve servis
+                  href: lifecycle-services/cloud-operations-servicing.md
+                - name: Dynamics Servis Mühendisliği takımına servis isteği gönderme
+                  href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+                - name: Planlı bakım aralığıyla ilgili SSS
+                  href: lifecycle-services/planned-maintenance-window-faq.md
             - name: İzleme ve tanılama
               href: lifecycle-services/monitoring-diagnostics.md
             - name: Ortam hizmetlerini yeniden başlatma
@@ -1282,14 +1324,8 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Çin'de 21Vianet tarafından işletilen Finance and Operations için destek alma
               href: lifecycle-services/21vianet-support.md
-            - name: Dynamics Servis Mühendisliği takımına istek gönderme
-              href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
             - name: Finance and Operations için teknik destek ayarlama
               href: lifecycle-services/support-experience.md
-            - name: Planlı bakım aralığıyla ilgili SSS
-              href: lifecycle-services/planned-maintenance-window-faq.md
-            - name: Bulut işlemleri ve servis
-              href: lifecycle-services/cloud-operations-servicing.md
             - name: Finance and Operations destek deneyimlerini yönetme
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Sistem yönetimi

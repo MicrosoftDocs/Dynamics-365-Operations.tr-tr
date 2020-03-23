@@ -24,6 +24,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bulut ortamlarına güncelleştirmeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Hizmet güncelleştirmelerini yapılandırma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Hizmet güncelleştirmelerini duraklatma
@@ -72,10 +74,12 @@
                       href: get-started/whats-new-scm-10-0-9.md
                     - name: Supply Chain Management sürüm 10.0.8 (Şubat 2020)
                       href: get-started/whats-new-scm-10-0-8.md
-                    - name: Supply Chain Management sürüm 10.0.7 (Ocak 2020)
-                      href: get-started/whats-new-scm-10-0-7.md
                 - name: Kaldırılan veya artık kullanılmayan özellikler
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+                  items:
+                    - name: Dynamics 365 Supply Chain Management'ta kaldırılan veya artık kullanılmayan özellikler
+                      href: get-started/removed-deprecated-features-scm-updates.md
+                    - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ertelenen AX 2012 özellikleri
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Şirket içi dağıtımlarda uygulanmayan özellikler
