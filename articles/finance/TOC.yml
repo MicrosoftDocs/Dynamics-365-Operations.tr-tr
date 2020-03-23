@@ -10,8 +10,6 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Önizleme abonelikleri için kaydolma
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
-            - name: Müşteri ödeme öngörüleri (önizleme)
-              href: accounts-receivable/payment-insights-overview.md
             - name: Bir Sürüm hizmet güncelleştirmeleri
               items:
                 - name: Bir Sürüm hizmet güncelleştirmelerine genel bakış
@@ -26,6 +24,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
                 - name: Bulut ortamlarına güncelleştirmeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
+                - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Hizmet güncelleştirmelerini yapılandırma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Hizmet güncelleştirmelerini duraklatma
@@ -70,20 +70,24 @@
                   items:
                     - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Finance sürüm 10.0.10 (Mayıs 2020)
+                      href: get-started/whats-new-changed-10-0-10.md
                     - name: Finance sürüm 10.0.9 (Nisan 2020)
                       href: get-started/whats-new-changed-10-0-9.md
                     - name: Finance sürüm 10.0.8 (Şubat 2020)
                       href: get-started/whats-new-changed-10-0-8.md
-                    - name: Finance sürüm 10.0.7 (Ocak 2020)
-                      href: get-started/whats-new-changed-10-0-7.md
-                - name: Kaldırılan veya artık kullanılmayan özellikler
+            - name: Kaldırılan veya artık kullanılmayan özellikler
+              items:
+                - name: Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
+                  href: get-started/removed-deprecated-features-finance.md
+                - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-                - name: Ertelenen AX 2012 özellikleri
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-                - name: Şirket içi dağıtımlarda uygulanmayan özellikler
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
+            - name: Ertelenen AX 2012 özellikleri
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
+            - name: Şirket içi dağıtımlarda uygulanmayan özellikler
+              href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
+            - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Belge kaynakları
               items:
                 - name: Yardım sistemi
@@ -312,6 +316,8 @@
               href: accounts-receivable/tasks/establish-customer-method-payment.md
             - name: Müşteri ödeme masrafları oluşturma
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: Müşteri ödeme öngörüleri (önizleme)
+              href: accounts-receivable/payment-insights-overview.md
             - name: Müşteri deftere nakil profilleri
               href: accounts-receivable/customer-posting-profiles.md
             - name: Paylaşılan numara serilerini kullanarak müşterileri kopyalama
@@ -1794,6 +1800,8 @@
                           href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
                         - name: HSN kodlarını ve Hizmet Muhasebesi Kodlarını tanımlama
                           href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                        - name: Vergi oranı türü oluşturma
+                          href: localizations/apac-ind-GST-create-tax-rate-type.md
                         - name: GST deftere nakil türü için ana hesaplar oluşturma
                           href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
                         - name: Vergi kapatma dönemi oluşturma
@@ -1922,17 +1930,18 @@
                   items:
                     - name: Vergi altyapısına genel bakış
                       href: general-ledger/tax-engine.md
-                      items:
-                        - name: Vergi bileşenleri oluşturma
-                          href: localizations/tax-engine-create-tax-component.md
-                        - name: Yapılandırmayı içe aktarma
-                          href: general-ledger/tax-engine-import-configuration.md
-                        - name: Vergi altyapısı uygulanabilirliği
-                          href: general-ledger/tax-engine-applicability.md
-                        - name: Vergi altyapısı tümleştirmesi
-                          href: general-ledger/tax-engine-integration.md
-                        - name: Vergi altyapısını genişletme
-                          href: general-ledger/extend-tax-engine-configurations.md
+                    - name: Yapılandırmayı içe aktarma
+                      href: general-ledger/tax-engine-import-configuration.md
+                    - name: Gelişmiş formül tasarımcısı
+                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                    - name: Vergi altyapısı uygulanabilirliği
+                      href: general-ledger/tax-engine-applicability.md
+                    - name: Vergi bileşenleri oluşturma
+                      href: localizations/tax-engine-create-tax-component.md
+                    - name: Vergi altyapısı tümleştirmesi
+                      href: general-ledger/tax-engine-integration.md
+                    - name: Vergi altyapısını genişletme
+                      href: general-ledger/extend-tax-engine-configurations.md
                 - name: Vergi eşikleriyle ilgili SSS
                   href: localizations/apac-ind-tax-thresholds.md
                 - name: Stok transferleri
@@ -2357,50 +2366,56 @@
                       href: localizations/rus-incoming-VAT-restoring.md
                 - name: Sabit kıymetler
                   items:
-                    - name: Sabit kıymetleri yönetme
-                      href: localizations/rus-fixed-assets.md
                     - name: Sabit kıymetlere genel bakış
-                      hfre: localizations/rus-fixed-assets-overview.md
+                      href: localizations/rus-fixed-assets-overview.md
                     - name: Sabit kıymetleri ayarlama
-                      href: localizations/rus-set-up-fixed-assets.md
-                    - name: Sabit kıymetleri alma ve işleme koyma
-                      href: localizations/rus-fixed-asset-acquisition.md
-                    - name: Sabit kıymet alımlarını kaydetme
-                      href: localizations/rus-register-acquisition.md
-                    - name: Sabit kıymet alımları için bütçe günlükleri oluşturma ve deftere nakletme
-                      href: localizations/rus-post-budget-fixed-asset-acquisition.md
-                    - name: Sabit kıymet kiralama işlemi ve kira işleminden dönüş işlemi oluşturma
-                      href: localizations/rus-fixed-asset-leasing.md
-                    - name: Sabit kıymet sayımı
-                      href: localizations/rus-fixed-assets-counting.md
-                    - name: Sabit kıymet para birimi yeniden değerlemesi
-                      href: localizations/rus-fixed-asset-currency-revaluation.md
-                    - name: Sabit kıymetleri koruma
-                      href: localizations/rus-maintain-fixed-assets.md
-                    - name: Sabit kıymet maliyeti ve amortismanını yeniden değerleme
-                      href: localizations/rus-fixed-assets-revaluation.md
-                    - name: Kısmi sabit kıymet ayrıştırma (tasfiye)
-                      href: localizations/rus-fixed-assets-disassembly.md
-                    - name: 'Kıymetlerin satılması, elden çıkarılması ve silinmesi'
-                      href: localizations/rus-sell-dispose-write-off-fixed-assets.md
-                    - name: Sabit kıymet yerleşimlerini ve numaralarını ayarlama
-                      href: localizations/rus-fixed-assets-locations-numbering.md
-                    - name: Amortismanı ayarlama
-                      href: localizations/rus-depreciation-setup.md
-                    - name: Amortisman yöntemleri
-                      href: localizations/rus-depreciation-methods.md
-                    - name: Amortisman ekleri
-                      href: localizations/rus-bonus-depreciation.md
-                    - name: Amortismanı hesaplama
-                      href: localizations/rus-depreciation-calculation.md
-                    - name: Sabit kıymetleri transfer etme
-                      href: localizations/rus-fixed-asset-transfer.md
-                    - name: Sabit kıymetler için birleştirilmiş yazdırma formları
-                      href: localizations/printing-forms-fixed-assets.md
-                    - name: İş kıyafetleri/özel donanım muhasebesi (Rusya)
-                      href: localizations/rus-working-clothes-instruments-accounting.md
-                    - name: Değerli olmayan sabit kıymetler (NVFAs) (Rusya)
-                      href: localizations/rus-not-valuable-assets.md
+                      items:
+                        - name: Sabit kıymetleri ayarlama
+                          href: localizations/rus-set-up-fixed-assets.md
+                        - name: Amortismanı ayarlama
+                          href: localizations/rus-depreciation-setup.md
+                        - name: Amortisman yöntemleri
+                          href: localizations/rus-depreciation-methods.md
+                        - name: Amortisman ekleri
+                          href: localizations/rus-bonus-depreciation.md
+                        - name: Sabit kıymet yerleşimlerini ve numaralarını ayarlama
+                          href: localizations/rus-fixed-assets-locations-numbering.md
+                    - name: Sabit kıymetlerle çalışma
+                      items:
+                        - name: Sabit kıymetler oluşturma
+                          href: localizations/rus-fixed-assets.md
+                        - name: Sabit kıymet alımlarını kaydetme
+                          href: localizations/rus-register-acquisition.md
+                        - name: Sabit kıymetleri alma ve işleme koyma
+                          href: localizations/rus-fixed-asset-acquisition.md
+                        - name: Amortismanı hesaplama
+                          href: localizations/rus-depreciation-calculation.md
+                        - name: Kısmi sabit kıymet ayrıştırma (tasfiye)
+                          href: localizations/rus-fixed-assets-disassembly.md
+                        - name: 'Kıymetlerin satılması, elden çıkarılması ve silinmesi'
+                          href: localizations/rus-sell-dispose-write-off-fixed-assets.md
+                        - name: Sabit kıymet kiralama işlemi ve kira işleminden dönüş işlemi oluşturma
+                          href: localizations/rus-fixed-asset-leasing.md
+                        - name: Sabit kıymetleri koruma
+                          href: localizations/rus-maintain-fixed-assets.md
+                        - name: Sabit kıymet sayımı
+                          href: localizations/rus-fixed-assets-counting.md
+                        - name: Sabit kıymet para birimi yeniden değerlemesi
+                          href: localizations/rus-fixed-asset-currency-revaluation.md
+                        - name: Sabit kıymet maliyeti ve amortismanını yeniden değerleme
+                          href: localizations/rus-fixed-assets-revaluation.md
+                        - name: Sabit kıymet alımları için bütçe günlükleri oluşturma ve deftere nakletme
+                          href: localizations/rus-post-budget-fixed-asset-acquisition.md
+                        - name: Sabit kıymetleri transfer etme
+                          href: localizations/rus-fixed-asset-transfer.md
+                    - name: Değerli olmayan sabit kıymetler ve iş kıyafetleri
+                      items:
+                        - name: Değerli olmayan sabit kıymetler (NVFAs) (Rusya)
+                          href: localizations/rus-not-valuable-assets.md
+                        - name: İş kıyafetleri/özel donanım muhasebesi (Rusya)
+                          href: localizations/rus-working-clothes-instruments-accounting.md
+                        - name: Sabit kıymetler için birleştirilmiş yazdırma formları
+                          href: localizations/printing-forms-fixed-assets.md
                 - name: Alacak ve borç hesapları
                   items:
                     - name: Alacak dekontu düzeltmeleri (Rusya)
@@ -2423,10 +2438,18 @@
                           href: localizations/rus-agreements.md
                         - name: Sözleşme ayarlama ve oluşturma
                           href: localizations/rus-set-up-and-create-agreements.md
-                        - name: Referans gösterilen hareketleri sözleşmelere kaydetme
+                        - name: Sözleşmelere referans içeren hareketleri kaydetme
                           href: localizations/rus-register-transactions-with-reference-to-agreements.md
                         - name: Sözleşmelerle ilgili sorgulamalar ve raporlar
                           href: localizations/rus-inquiries-reports-agreements.md
+                    - name: Aracı aracılığıyla gerçekleştirilen hareketler
+                      items:
+                        - name: Aracı aracılığıyla gerçekleştirilen hareketlere genel bakış
+                          href: localizations/rus-transactions-through-intermediary.md
+                        - name: Komisyon satınalmaları
+                          href: localizations/rus-purchases-on-commission.md
+                        - name: Komisyon satışları
+                          href: localizations/rus-sales-on-commission.md
                 - name: Stok
                   items:
                     - name: Satıcıdan alınan transitteki mallar
@@ -2533,6 +2556,8 @@
                   href: localizations/emea-swe-sie-standard-report.md
                 - name: Ödeme biçimlerini içe aktarma
                   href: localizations/emea-swe-payment-formats-import.md
+                - name: İsveç için satış vergisi ödeme raporu
+                  href: localizations/emea-swe-sales-tax-payment-report-sweden.md
             - name: İsviçre
               items:
                 - name: İsviçre'ye genel bakış
@@ -2561,20 +2586,24 @@
                   href: localizations/united-kingdom.md
                 - name: İnşaat Sektörü Şeması
                   href: localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: Kapatma iskontosunda alacak oluşturma
-                  href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                - name: Ters kaydedilecek KDV'ye tabi maddeler içeren satınalma siparişi oluşturma
-                  href: localizations/tasks/purchase-order-reverse-charge-vat.md
-                - name: Ters kaydedilecek KDV'ye tabi maddeler içeren satış siparişi oluşturma
-                  href: localizations/tasks/gb-00002-sales-order.md
-                - name: Ters kaydedilecek KDV için madde satış vergisi gruplarını ayarlama
-                  href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: 'Ters kaydedilecek KDV madde grupları, kuralları ve parametreleri ayarlama'
-                  href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: Ters kaydedilecek KDV için satış vergisi grupları ayarlama
-                  href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: KDV İçin Vergiyi Dijital Yapma
+                - name: Ters gider
+                  items:
+                    - name: Kapatma iskontosunda alacak oluşturma
+                      href: localizations/tasks/gb-00009-credit-note-settlement-discount.md
+                    - name: Ters kaydedilecek KDV'ye tabi maddeler içeren satınalma siparişi oluşturma
+                      href: localizations/tasks/purchase-order-reverse-charge-vat.md
+                    - name: Ters kaydedilecek KDV'ye tabi maddeler içeren satış siparişi oluşturma
+                      href: localizations/tasks/gb-00002-sales-order.md
+                    - name: Ters kaydedilecek KDV için madde satış vergisi gruplarını ayarlama
+                      href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
+                    - name: 'Ters kaydedilecek KDV madde grupları, kuralları ve parametreleri ayarlama'
+                      href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
+                    - name: Ters kaydedilecek KDV için satış vergisi grupları ayarlama
+                      href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: KDV için Vergiyi Dijital Yapma
                   href: localizations/emea-gbr-mtd-vat-integration.md
+                - name: Ödeme uygulamaları raporundaki istatistikler
+                  href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Amerika Birleşik Devletleri
               items:
                 - name: ABD'ye genel bakış
@@ -3141,6 +3170,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Biçim oluştururken veri modeli tanımlarını seçme
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                - name: Genel depoda yapılandırmaları bulmak için gelişmiş filtreleme seçenekleri
+                  href: ../finance/localizations/enhanced-filtering-global-repo.md
                 - name: İçeriği ham XML olarak ekleyerek raporlar oluşturma
                   href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                 - name: (ER) Elektronik raporlamada şirketler arası veri kaynakları
