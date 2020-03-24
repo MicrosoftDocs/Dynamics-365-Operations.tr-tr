@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 243fadd242c51440eae1ac7026c71a889a9fa81c
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: de05d685aecb117f51239884d67969591b0d78f0
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897270"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117278"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-talent"></a><span data-ttu-id="4a6c6-103">Dynamics 365 Talent içindeki Yenilikler veya değişiklikler</span><span class="sxs-lookup"><span data-stu-id="4a6c6-103">What's new or changed in Dynamics 365 Talent</span></span> 
+# <a name="whats-new-or-changed-in-dynamics-365-talent"></a><span data-ttu-id="a8f2a-103">Dynamics 365 Talent içindeki Yenilikler veya değişiklikler</span><span class="sxs-lookup"><span data-stu-id="a8f2a-103">What's new or changed in Dynamics 365 Talent</span></span> 
 
-<span data-ttu-id="4a6c6-104">Bu sayfa Microsoft Dynamics Talent HR Core'un en son sürümleri hakkında nasıl bilgi bulunacağıyla ilgili ayrıntılı bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="4a6c6-104">This page provides details about how to find information about the latest releases of Microsoft Dynamics Talent HR Core.</span></span>
+<span data-ttu-id="a8f2a-104">Bu sayfa Microsoft Dynamics Talent HR Core'un en son sürümleri hakkında nasıl bilgi bulunacağıyla ilgili ayrıntılı bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="a8f2a-104">This page provides details about how to find information about the latest releases of Microsoft Dynamics Talent HR Core.</span></span>
 
-<span data-ttu-id="4a6c6-105">Her hafta Talent için yeni sürümler kullanıma sunulur.</span><span class="sxs-lookup"><span data-stu-id="4a6c6-105">Each week there are new releases for Talent.</span></span> <span data-ttu-id="4a6c6-106">Bu sürümler, docs.microsoft.com sitesinde içindekiler tablosunda listelenir ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span><span class="sxs-lookup"><span data-stu-id="4a6c6-106">These releases are listed in the table of contents on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span></span> <span data-ttu-id="4a6c6-107">İçindekiler tablosunu tarayın veya içindekiler tablosunun üzerindeki Filtre kontrolünü kullanın, aradığınız en yeni konuları bulun.</span><span class="sxs-lookup"><span data-stu-id="4a6c6-107">You can either scan the table of contents or use the Filter control above the table of contents to find the latest topics that you’re looking for.</span></span> <span data-ttu-id="4a6c6-108">"Dynamics 365 Talent'taki yenilikler veya değişiklikler" ile başlayan konu başlıkları.</span><span class="sxs-lookup"><span data-stu-id="4a6c6-108">The topic titles will begin with "What's new or changed in Dynamics 365 Talent…”.</span></span>
+<span data-ttu-id="a8f2a-105">Her hafta Talent için yeni sürümler kullanıma sunulur.</span><span class="sxs-lookup"><span data-stu-id="a8f2a-105">Each week there are new releases for Talent.</span></span> <span data-ttu-id="a8f2a-106">Bu sürümler, docs.microsoft.com sitesinde içindekiler tablosunda listelenir ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span><span class="sxs-lookup"><span data-stu-id="a8f2a-106">These releases are listed in the table of contents on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../index.md)).</span></span> <span data-ttu-id="a8f2a-107">İçindekiler tablosunu tarayabilir veya içindekiler tablosunun üzerindeki Filtre denetimini kullanarak aradığınız en son konuları bulabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a8f2a-107">You can either scan the table of contents or use the Filter control above the table of contents to find the latest topics that you're looking for.</span></span> <span data-ttu-id="a8f2a-108">"Dynamics 365 Talent'taki yenilikler veya değişiklikler..." ile başlayan konu başlıkları.</span><span class="sxs-lookup"><span data-stu-id="a8f2a-108">The topic titles will begin with "What's new or changed in Dynamics 365 Talent…".</span></span>
 
-<span data-ttu-id="4a6c6-109">İçindekiler tablosu her hafta güncelleştirilmeye devam edecek, bu yüzden Talent'ın en son sürümlerindeki yeni özellikleri ve değişiklikleri bulmak için geri dönün.</span><span class="sxs-lookup"><span data-stu-id="4a6c6-109">The table of contents will continue to be updated each week, so check back to find all of the new features and changes in the latest releases of Talent.</span></span>
+<span data-ttu-id="a8f2a-109">İçindekiler tablosu her hafta güncelleştirilmeye devam edecek, bu yüzden Talent'ın en son sürümlerindeki yeni özellikleri ve değişiklikleri bulmak için geri dönün.</span><span class="sxs-lookup"><span data-stu-id="a8f2a-109">The table of contents will continue to be updated each week, so check back to find all of the new features and changes in the latest releases of Talent.</span></span>
 
-[!include [release notes](../fin-ops-core/fin-ops/includes/release-notes.md)]
