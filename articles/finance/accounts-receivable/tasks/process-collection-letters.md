@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 326d9375670cb4f4990a4f7070bf923a28b2c025
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180380"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106871"
 ---
 # <a name="process-collection-letters"></a>Tahsilat mektuplarını işleme
 
@@ -70,7 +70,11 @@ Bu konu, tahsilat mektuplarının nasıl oluşturulacağını, yazdırılacağı
     1. **Yazdırılan** alanında bir seçenek belirleyin.
 
 ## <a name="control-collection-letters-at-the-customer-level"></a>Müşteri düzeyinde tahsilat mektuplarını denetleyin
-Her bir hareket için tahsilat mektup kodunun izlenmesi için tahsilat mektuplarını ayarlayabilirsiniz, ancak tahsilat mektubu işleme, müşteri için kaydedilmiş tek bir tahsilat mektubu düzeyine dayanacaktır. Tek bir tahsilat mektubu, müşteri için tarihi geçmiş olan tüm hareketleri içerir. Mehil gün sayısı müşteri düzeyinde şimdi izlendiği için sıradaki bir sonraki tahsilat mektubunun vade erteleme gün sayısı geçene kadar sonra son tahsilat mektubu hareketleri süresi sona erene olsa da bir sonraki tahsilat mektubu gönderilmeyecek gönderildi. Bu seçenek, müşteri başına gönderilecek tahsilat mektuplarının sayısını azaltır. 
+Tahsilat mektupları hareket düzeyinde ayarlanmışsa, hareketin yaşlanmasına bağlı olarak, bir müşteri için birden fazla mektup oluşturulabilir. Hareketler farklı mektup sıralarında görünüyorsa, müşteri için her vadesi geçmiş hareket grubu için ayrı tahsilat mektupları oluşturulur. Bu nedenle, örneğin bir müşteri vadesi 60 gün geçmiş hareketler için bir tahsilat mektubu ve vadesi 90 gün geçmiş hareketler için başka bir tahsilat mektubu alabilir. 
+
+Her tahsilat mektubu bir tahsilat mektubu koduyla da ilişkilendirilir. Tahsilat mektubu kodu bireysel hareketlerle ilişkilendirilir ve her hareket için sonraki tahsilat mektubunun ne zaman oluşturulması gerektiğini belirlemek üzere kullanılır. Örneğin, bir hareketin vadesi 30 günden uzun süre geciktiyse, tahsilat mektubu kodu bir sonraki tahsilat mektubunu hareket vadesi 60 geciktiğinde gönderilmek üzere (bundan önce ödenmezse) belirler. 
+
+Tahsilat mektupları müşteri düzeyinde de ayarlanabilir. Bu durumda, her bir hareketin tahsilat mektubu kodu izlenir tahsilat mektubu işleme, müşteri için kaydedilmiş tek bir tahsilat mektubu düzeyini temel alır. Tek bir tahsilat mektubu, müşteri için tarihi geçmiş olan tüm hareketleri içerir. Mehil gün sayısı müşteri düzeyinde şimdi izlendiği için sıradaki bir sonraki tahsilat mektubunun vade erteleme gün sayısı geçene kadar sonra son tahsilat mektubu hareketleri süresi sona erene olsa da bir sonraki tahsilat mektubu gönderilmeyecek gönderildi. Bu seçenek, her müşteriye göndermeniz gereken tahsilat mektuplarının sayısını azaltmaya yardımcı olur.
 
 ### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>Tahsilat mektuplarının kontrol edileceği müşteriyi müşteri düzeyinde ayarlayın
 1.  **Gezinti bölmesi > Modüller > Kredi ve tahsilatlar > Kurulum > Alacak hesabı parametreleri**'ne gidin ve **Tahsilatlar** sekmesini seçin. 

@@ -1,6 +1,6 @@
 ---
-title: İzin ve devamsızlık planları tahakkuk etme
-description: ''
+title: İzin ve devamsızlık planlarını tahakkuk et
+description: İzin ve Devamsızlığı birden fazla çalışan veya bir birey için Dynamics 365 Human Resources'ta tahakkuk edebilirsiniz.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28b7d843d9dd652e45c24af09d0414530c06c4ac
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010847"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092350"
 ---
-# <a name="accrue-leave-and-absence-plans"></a>İzin ve devamsızlık planları tahakkuk etme
+# <a name="accrue-leave-and-absence-plans"></a>İzin ve devamsızlık planlarını tahakkuk et
 
 İzin ve Devamsızlığı birden fazla çalışan veya bir birey için Dynamics 365 Human Resources'ta tahakkuk edebilirsiniz.
 

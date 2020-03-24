@@ -1,6 +1,6 @@
 ---
-title: İstihdam kategorileri oluştur
-description: ''
+title: İstihdam kategorileri oluşturma
+description: İstihdam kategorileri Dynamics 365 Human Resources'ta çalışanlarınızla eşleşecek şekilde ayarlanabilir.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59f03eadb97a00435bc8b7c02de6854439e2b179
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: bad9ea41e0b1367fc660dfbc59595dce81174adc
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010924"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092695"
 ---
-# <a name="create-employment-categories"></a>İstihdam kategorileri oluştur
+# <a name="create-employment-categories"></a>İstihdam kategorileri oluşturma
 
 [!include [banner](includes/preview-feature.md)]
 

@@ -3,7 +3,7 @@ title: Ambar yönetimi ile Fiili ağırlık ürün işlemi
 description: Bu konuda ambar içinde işin nasıl ve nerede gerçekleştirileceğini belirlemek için iş şablonları ve konum yönergelerinin nasıl kullanılacağı açıklanmaktadır.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2020
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8bc3e3e7bea15127062edfcd362476de97bff07d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3014a7b22c47f99b5c57fd6acd9be8d89c6fb8ab
+ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004123"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095809"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Ambar yönetimi ile Fiili ağırlık ürün işlemi
 
@@ -30,10 +30,10 @@ ms.locfileid: "3004123"
 
 ## <a name="feature-exposure"></a>Özellik tanıtımı
 
-Fiili ağırlık ürünlerini kullanmak için Ambar yönetimini kullanmak için işlevi açmak için bir lisans yapılandırma anahtarını kullanmalısınız. (**Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin. **Yapılandırma anahtarları** sekmesinde, **Ticari \> Ambar ve Nakliye yönetimi** üzerinde, **Ambar için Fiili ağırlık** seçeneği için onay kutusunu seçin.
+Fiili ağırlık ürünlerini kullanmak için Ambar yönetimini kullanmak için işlevi açmak için bir lisans yapılandırma anahtarını kullanmalısınız. **Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin. **Yapılandırma anahtarları** sekmesinde, **Ticari \> Ambar ve Taşıma yönetimi**'ni genişletin ve  **Ambar için fiili ağırlık** seçeneği için onay kutusunu seçin.
 
 > [!NOTE]
-> **Hem Ambar ve Taşıma yönetimi** lisans yapılandırması anahtarı hem de **İşlem dağıtımı \> Fiili ağırlık** lisans yapılandırma anahtarlarının da açık olması gerekir. Fiili ağırlığa ilişkin yapılandırma anahtarlarını ayarlamak için, **Özellik yönetimi** çalışma alanını kullanarak özelliği de etkinleştirmelisiniz. Etkinleştirilmesi gereken ana özellik, **Ambar yönetimi ile Fiili ağırlık ürün işlemi**'dir. Etkinleştirmek isteyebileceğiniz başka bir ilişkili ancak isteğe bağlı bir özellik, **Fiili ağırlık ürünleri için stok durumu değişiklikleri**'dir . Bu özellik, fiili ağırlık için etkinleştirilen ürünlerin stok durumundaki değişikliklere yönelik destek ekler.
+> **Hem Ambar ve Taşıma yönetimi** lisans yapılandırması anahtarı hem de **İşlem dağıtımı \> Fiili ağırlık** lisans yapılandırma anahtarlarının da açık olması gerekir. Fiili ağırlığa ilişkin yapılandırma anahtarlarını ayarlamak için, **Özellik yönetimi** çalışma alanını kullanarak özelliği de etkinleştirmelisiniz. Etkinleştirilmesi gereken ana özellik, **Ambar yönetimi ile Fiili ağırlık ürün işlemi**'dir. Etkinleştirmek isteyebileceğiniz iki ilişkili ama isteğe bağlı özellik **Fiili ağırlık ürünleri için stok durumu değişiklikleri** ve **Üretim emirlerini tamamlandı olarak raporlarken varolan fiili ağırlık etiketlerini kullan**'dır.
 
 Lisans yapılandırma anahtarı açıldıktan sonra serbest bırakılan bir ürün oluşturduğunuzda **Fiili ağırlık** seçebilirsiniz. Serbest bırakılan ürünü **Ambar yönetim işlemi** parametresinin seçili olduğu bir depolama boyut grubu ile ilişkilendirebilirsiniz.
 
@@ -107,6 +107,7 @@ Ek olarak, bir kalem etiket izlemeliyse bir **Giden etiketi yakalama yöntemi** 
 **Bir fiili ağırlık etiketi izleme kullanılıyorsa**, bir etiketin her zaman alınan her bir fiili ağırlık birimi için oluşturulması ve her bir etiketin her zaman bir ağırlık ile ilişkilendirilmesi gerekir.
 
 Örneğin **Kutu** fiili ağırlık birimidir ve sekiz kutudan oluşan bir palet alırsınız. Bu durumda, sekiz benzersiz fiili ağırlık etiketinin oluşturulması ve bir ağırlığın her bir etiket ile ilişkilendirilmesi gerekir. Giriş fili ağırlık etiketine bağlı olarak, tüm sekiz kutunun ağırlığı yakalana bilir ve ortalama ağırlık her bir kutuya dağıtılabilir veya benzersiz bir ağırlık her bir kutu için yakalanır.
+**Üretim emirlerini tamamlandı olarak raporlarken mevcut fiili ağırlık etiketlerini kullan** özelliği bir mobil cihaz menü öğesi aracılığıyla etkinleştirilen işlemle birlikte kullanıldığında, stok mevcut fiili ağırlık etiketi bilgilerine göre güncelleştirilir. Sonuç olarak, Ambarlama uygulaması, tamamlanmış bir işlem olarak üretim raporunun bir parçası olarak fiili ağırlık etiket verilerini yakalamayı istemez.
 
 **Fiili ağırlık etiketi izleme kullanılmıyorsa**, ağırlık her bir boyut kümesi için yakalanabilir (örneğin her bir plaka ve izleme boyutu için). Alternatif olarak, ağırlık birleştirilmiş düzeye dayanarak toplanabilir, örneğin beş plaka gibi (palet).
 

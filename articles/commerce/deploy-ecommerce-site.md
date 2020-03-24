@@ -3,7 +3,7 @@ title: Yeni bir e-Ticaret kiracısını dağıtma
 description: Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir e-ticaret kiracısı dağıtımının nasıl dağıtılacağını açıklamaktadır.
 author: psimolin
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001795"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096690"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Yeni bir e-Ticaret kiracısını dağıtma
 
@@ -97,11 +97,19 @@ Site oluşturucuya erişmek için, LCS'de **Retail Management** sayfasındaki **
 
 [e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
 
+[Çevrimiçi mağaza kanalı ayarlama](online-stores.md)
+
 [Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
 
-[Robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
+[robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
+
+[URL yeniden yönlendirmelerini toplu olarak yükleme](upload-bulk-redirects.md)
+
+[Commerce'ta B2C kiracısı ayarlama](set-up-B2C-tenant.md)
 
 [Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md)
+
+[Commerce ortamında birden fazla B2C kiracısı yapılandırma](configure-multi-B2C-tenants.md)
 
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 

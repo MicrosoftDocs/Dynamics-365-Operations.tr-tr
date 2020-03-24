@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015425"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3120890"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>ER biçimindeki XML öğelerinin yürütülmesini erteleme
 
@@ -47,7 +47,7 @@ Bu özellik hakkında daha fazla bilgi edinmek için bu konudaki örneği tamaml
 
 **Dosyayı böl** seçeneği **Evet** olarak ayarlandığı zaman, **Ertelenmiş yürütme** seçeneği **Ortak\\Dosya** biçim öğesinde bulunan XML öğeleri için desteklenmez. XML dosyalarının nasıl bölüneceği hakkında daha fazla bilgi için bkz. [Oluşturulan XML dosyalarını dosya boyutu ve içerik miktarına göre bölme](er-split-files.md).
 
-## <a name="Example"></a>Örneğin: Bir ER biçimindeki bir XML öğesinin yürütülmesini erteleme
+## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Örneğin: Bir ER biçimindeki bir XML öğesinin yürütülmesini erteleme
 
 Aşağıdaki adımlarda, Sistem Yöneticisi veya Elektronik raporlama işlev danışmanı [rolündeki](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) bir kullanıcının, yürütme sırasının biçim hiyerarşisindeki sıradan farklı olduğu bir XML öğesini içeren bir ER biçimini nasıl yapılandırabileceği açıklanmaktadır.
 

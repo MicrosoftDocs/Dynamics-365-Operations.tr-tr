@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 69908a3ccc254647380c47e5bbbc22245569281b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 000a2861bfc108754860f4090ea34901aee5949e
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180305"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092072"
 ---
 # <a name="electronic-messaging"></a>Elektronik mesajlaşma
 
 [!include [banner](../includes/banner.md)]
-[!include [preview-banner](../includes/preview-banner.md)]
 
 Bu konu, elektronik mesajlaşma için kurulum bilgisi ve genel bakış sağlar.
 

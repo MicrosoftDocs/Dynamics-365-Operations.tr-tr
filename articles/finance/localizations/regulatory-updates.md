@@ -3,7 +3,7 @@ title: Düzenleme güncelleştirmeleri
 description: Bu konu altında, Microsoft Dynamics 365 Finance için planlanan ve yayınlanan mevzuat güncelleştirmelerinin listesi verilmektedir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/29/2020
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: d596a543ca8aacc2c6530672111001a9dd161aa7
-ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
+ms.openlocfilehash: 2aea83f99c7e5b017ae0cf9d755882739e22ccb7
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "3000013"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3112767"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -42,39 +42,34 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 
 |Ülke/bölge|Planlanan yayımlanma tarihi|Yayın sürümü|Düzenleme güncelleştirmesi|
 |--------------------|---------------|-------|-------|
+|      Brezilya         |   Mart 2020 -Ocak 2020      | 10.0.9, 10.0.8      |   DRCST SC – Kural SEF Nº 416    |
+|      Brezilya         |   Mart 2020 - Ocak 2020     | 10.0.9, 10.0.8      |   SPED Katılımı - Ocak 2020 için düzen    |
 |      Brezilya         |   Mart 2020       | 10.0.9      |   Sped mali kayıt - D100 alanındaki değişiklikler COD_MUN_ORI    |
-|      Brezilya         |   Mart 2020-Aralık 2019       | 10.0.9, 10.0.8, 10.0.7 HF      |   DRCST SC – Kural SEF N º 254/19    |
-|      Brezilya         |   Ocak 2020-Aralık 2019       | 10.0.8, 10.0.7HF      |   ICMS-ST'nin tamamlayıcı bilgileri    |
-|      Brezilya        |   Mart 2020-Aralık 2019       | 10.0.9, 10.0.8 HF, 10.0.7 HF      |   Sped mali düzen 014 |
-|      Brezilya         |   2019 Aralık       | 10.0.7      |   NF-e: NT 2019.001 Sürüm 1.20 için teknik notların yeni bir sürümü    |
-|      Brezilya         |   2019 Aralık       | 10.0.7      |   DRCST beyannamesi SC    |
-|      Brezilya          |   Mart 2020 -Ocak 2020       | 10.0.9, 10.0.8 HF, 10.0.7 HF      |   DRCST SC – Kural SEF Nº 343DR   |
+|      Brezilya         |   Mart 2020 -Ocak 2020       | 10.0.9, 10.0.8      |   DRCST SC – Kural SEF N º 254/19    |
+|      Brezilya         |   2020 Ocak       | 10.0.8      |   ICMS-ST'nin tamamlayıcı bilgileri    |
+|      Brezilya        |   Mart 2020 -Ocak 2020       | 10.0.9, 10.0.8HF      |   Sped mali düzen 014 |
+|      Brezilya          |   Mart 2020 -Ocak 2020       | 10.0.9, 10.0.8HF      |   DRCST SC – Kural SEF Nº 343DR   |
 |      Fransa          |   Mart 2020       | 10.0.9      |   Fransızca yerelleştirme: ISO 20022, uluslararası ödeme ve Hazine transferi için Format   |
+|      Macaristan          |   Mart 2020       | 10.0.9, 10.0.8      |   Finance and Operations'da çevrimiçi faturalama sistemi v.2.0    |
 |      Hindistan          |   Mart 2020       | 10.0.9      |   Yeni GSTR (ANX-1 ve ANX-2) çevrimdışı dönüş aracı   |
 |      İtalya          |   2020 Ocak       | 10.0.8      |   D.L. tarafından KDV yönetimi değişiklikleri 23 Ekim 2018/119: Yıllık vergi iletişimi raporu |
-|      İtalya         |   2019 Aralık       | 10.0.7      |   D.L. tarafından KDV yönetimi değişiklikleri 119 - 23 Eki 2019: Üç aylık KDV iletişimi ("Lipe 2018")    |
-|      İtalya         |   Mart 2020-Aralık 2019     | 10.0.9, 10.0.8 HF, 10.0.7 HF      |   Retail - POS'ta müşteri bilgilerini yönetme |
-|      İtalya         |   Mart 2020-Aralık 2019      | 10.0.9, 10.0.8 HF, 10.0.7 HF      |   Retail - Mali girişte müşteri bilgilerini yazdırma |
-|      İtalya         |   2019 Aralık     | 10.0.7      |   D.L. tarafından KDV yönetimi değişiklikleri 119 / 23 Ekim 2018: Faturalama iletişimi  |
-|      Japonya          |   Mart 2020-Aralık 2019     | 10.0.9, 10.0.8 HF, 10.0.7 HF     |   Japon Bankacılar Birliği, JBA ISO20022 ile sabit uzunlukta ödeme biçimlerinin yerini alır |
-|      Japonya          |   Ocak 2020-Aralık 2019     | 10.0.8, 10.0.7HF       |   Tüketim vergi oranı değişikliği ve azaltılmış vergi oranı yürürlüğe girdi (Tüketim vergisi raporu) |
-|      Japonya         |   2019 Aralık      | 10.0.7       |   Tüketim vergi oranı değişikliği ve azaltılmış vergi oranı yürürlüğe girdi (fatura düzenleri) |
-|      Meksika          |   Ocak 2020-Aralık 2019    | 10.0.8, 10.0.7HF        |   Perakende - CFDI Global: Misc. Kaynak 2019 - c_CodigoPostal ve Saat dilimi |
-|     Meksika          |   2019 Aralık       | 10.0.7      |   Kural 2.7.2.9'u güncelleştirme - CFDI belgesini veren kurumun posta kodu saat dilimini kullanma |
-|      Meksika           |   Ocak 2020-Aralık 2019      | 10.0.8, 10.0.7HF     |   Ürün ve hizmetler kataloğunda kod doğrulaması |
-|      Norveç          |   Mart 2020-Aralık 2019   | 10.0.9, 10.0.8HF, 10.7.7HF     |   Dynamics 365 for Finance and Operations için SAF-T XSD ile sürüm 1.1 |
-|      Polonya          |   Mart 2020    | 10.0.9     |   Satınalma KDV kaydı ve SAF KDV kaydı: SAD belgelerden özel ajanlar üçüncü parça adıyla ve vergi muafiyet numarasıyla değiştirilmelidir |
+|      İtalya         |   Mart 2020     | 10.0.9, 10.0.8HF      |   Retail - POS'ta müşteri bilgilerini yönetme |
+|      İtalya         |   Mart 2020      | 10.0.9, 10.0.8HF      |   Retail - Mali girişte müşteri bilgilerini yazdırma |
+|      Japonya          |   Mart 2020     | 10.0.9, 10.0.8HF     |   Japon Bankacılar Birliği, JBA ISO20022 ile sabit uzunlukta ödeme biçimlerinin yerini alır |
+|      Japonya          |   2020 Ocak      | 10.0.8       |   Tüketim vergi oranı değişikliği ve azaltılmış vergi oranı yürürlüğe girdi (Tüketim vergisi raporu) |
+|      Meksika          |   2020 Ocak     | 10.0.8        |   Perakende - CFDI Global: Misc. Kaynak 2019 - c_CodigoPostal ve Saat dilimi |
+|      Meksika           |   2020 Ocak       | 10.0.8     |   Ürün ve hizmetler kataloğunda kod doğrulaması |
+|      Norveç          |   Mart 2020   | 10.0.9, 10.0.8HF     |   Dynamics 365 for Finance and Operations için SAF-T XSD ile sürüm 1.1 |
+|      Polonya          |   Mart 2020    | 10.0.9     |   Satınalma KDV kaydı ve SAF KDV kaydı: SAD belgelerden özel ajanlar üçüncü taraf adıyla ve vergi muafiyet numarasıyla değiştirilmelidir |
 |      Polonya          |   Mart 2020 -Ocak 2020   | 10.0.9, 10.0.8HF     |   Retail - POS'ta müşteri bilgilerini yönetme |
 |      Polonya          |   Mart 2020 -Ocak 2020     | 10.0.9, 10.0.8HF     |   Retail - Mali girişte müşteri bilgilerini yazdırma |
-|      Polonya          |   Mart 2020-Aralık 2019     | 10.0.9, 10.0.8, 10.0.7     |   SAF faturaları (JPK_FA) v.3, 2 Aralık 2019 |
-|      Polonya          |   Mart 2020 -Ocak 2019     | 10.0.9, 10.0.8     |   JPK_VDEK, JPK_VAT (SAF KDV) yerini alır |
-|      Polonya          |   2019 Aralık     | 10.0.7     |   Zorunlu ayrı ödeme |
+|      Polonya          |   Mart 2020 -Ocak 2020     | 10.0.9, 10.0.8     |   SAF faturaları (JPK_FA) v.3, 2 Aralık 2019 |
+|      Polonya          |   Mart 2020 -Ocak 2020     | 10.0.9, 10.0.8     |   JPK_VDEK, JPK_VAT (SAF KDV) yerini alır |
 |      Rusya          |   Mart 2020     | 10.0.9     |   2019 yılı raporlaması için mülk vergisi biçimi |
 |      Rusya          |   Mart 2020     | 10.0.9     |   Kar vergisi beyannamesi biçimi güncelleştirmeleri |
-|      Singapur           |   Ocak 2020-Aralık 2019     | 10.0.8, 10.0.7HF      |   GST İade raporları |
+|      Singapur           |   2020 Ocak     | 10.0.8      |   GST İade raporları |
 |      İsviçre           |   Mart 2020     | 10.0.9      |   İsviçre ödeme makbuzu ISR yeni biçim alıyor (QR kodu) |
 |      Birleşik Krallık          |   2020 Ocak       | 10.0.8      |   Üretim Vergisi dijital (MTD) - HMRC ile tümleşmeyi kullanarak bilgileri D365 dışında iletmek için sistem yöneticisi onayı |
-|      Birleşik Krallık          |   2019 Aralık     | 10.0.7     |   Vergiyi Dijital Yapma - Aynı sistem veritabanı içinde KDV grubu olarak raporlama yapan şirketler için KDV iadesi raporu oluşturma |
 
 
 

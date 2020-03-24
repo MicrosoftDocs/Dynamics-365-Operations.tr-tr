@@ -3,7 +3,7 @@ title: Makbuz numaralarını sıfırlama
 description: Bu konuda, istenen tarihteki çeşitli eylemler için kullanılan giriş numaralarının nasıl sıfırlanacağı açıklanmaktadır (örneğin, mali yıl veya takvim yılı).
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,17 +19,17 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: e81ff86a8b8a4dca6b14a21d6e982b03a928d29e
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020090"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123958"
 ---
 # <a name="reset-receipt-numbers"></a>Makbuz numaralarını sıfırlama 
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Perakendeciler, mağaza gibi çeşitli eylemler için giriş numaraları (örneğin nakit ve hareketleri, iade hareketleri, müşteri siparişleri, teklifler ve ödemeler) oluşturur. Perakendeciler kendi makbuz biçimlerini tanımlamakla birlikte, bazı ülkelerde veya bölgelerde bu makbuz biçimlerine sınırlamalar koymak için gereken düzenlemeler vardır. Örneğin, bu düzenlemeler Makbuzdaki karakter sayısını sınırlayabilir, birbirini izleyen Makbuz numaraları gerektirebilir, bazı özel karakterleri sınırlayabilir veya yılın başlangıcında makbuz numaralarının sıfırlanmasını gerektirebilir. Microsoft Dynamics 365 Commerce, perakendecilerinin yasal gereksinimleri karşılamasına yardımcı olmak için makbuz numaralarının yönetimi sürecini çok esnek yapar. Bu konu, makbuz numaralarının sıfırlanması için işlevselliğin nasıl kullanıldığını açıklamaktadır.
 

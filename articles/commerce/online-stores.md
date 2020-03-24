@@ -3,7 +3,7 @@ title: Çevrimiçi mağaza kanalı ayarlama
 description: Bu makalede çevrimiçi mağaza kanalları ve Dynamics 365 Commerce'te bunların nasıl kurulacağı hakkında bilgi sağlanmaktadır.
 author: kfend
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c427b0eba2120123a47f52029d70896be88b9ec0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b719e40720b091eec879edf332ab63db710a1ebc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024388"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096906"
 ---
 # <a name="set-up-an-online-store-channel"></a>Çevrimiçi mağaza kanalı ayarlama
 
@@ -71,3 +71,27 @@ Kurum hiyerarşileri, ticaret kanalları oluşturmak ve işletmenizi oluşturan 
 Bir organizasyon hiyerarşisini oluşturduğunuzda, buna bir amaç atarsınız. Amaç, hiyerarşinin işletme yapısı içinde nasıl kullanıldığını gösterir. Mağaza operasyonlarınız için bir organizasyon hiyerarşisi oluşturabilir ve bu hiyerarşiyi ürün çeşitleri, stok yenilemeleri ve raporlama için kullanabilirsiniz. 
 
 Alternatif olarak, her amaç için ayrı bir organizasyon hiyerarşisi de oluşturabilirsiniz. Öte yandan, aynı amaca sahip birden fazla hiyerarşi oluşturabilir ve her birine ayrı bir kanal atayabilirsiniz. Çevrimiçi mağazaya ürün katalogları yayımlamayı planlıyorsanız, en azından, çevrimiçi mağazayı ürün çeşitlerine yönelik bir organizasyon hiyerarşisine ekleyin. Katalogdaki ürünler, çevrimiçi mağazaya atanan ürün çeşitleri arasından seçilir. Katalog yayınlandığında, yayınlama işlemi, çevrimiçi mağazaya atanan ürün çeşidinin geçerlilik tarihlerini kataloga dahil ürünlerle karşılaştırarak hangi ürünlerin çevrimiçi mağazada sunulacağını belirler.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+[Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
+
+[Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
+
+[e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
+
+[Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
+
+[robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
+
+[URL yeniden yönlendirmelerini toplu olarak yükleme](upload-bulk-redirects.md)
+
+[Commerce'ta B2C kiracısı ayarlama](set-up-B2C-tenant.md)
+
+[Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md)
+
+[Commerce ortamında birden fazla B2C kiracısı yapılandırma](configure-multi-B2C-tenants.md)
+
+[İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
+
+[Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)

@@ -3,7 +3,7 @@ title: Veri içe ve dışa aktarma işlerine genel bakış
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 02/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b852a73268251241cd66a07d7e4f4720706c0d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184566"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124624"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
@@ -191,8 +191,11 @@ Temizleme işlemini zamanlarken, temizleme ölçütlerini tanımlamak için aşa
 
 -   **Geçmişi korumak için gün sayısı** – Bu ayar korunacak yürütme geçmişini miktarını denetlemek için kullanılır. Bu, günlerin sayısını belirtir. Temizleme işi yinelenen bir toplu iş olarak zamanlandığında, bu ayar sürekli olarak hareket eden bir pencere gibi hareket eder, böylece kalanı silirken her zaman belirtilen gün sayısı için geçmişi bırakır. Varsayılan değer 7 gündür.
 
--   **İş yürütmek için saat sayısı** – Temizlenecek geçmiş miktarına bağlı olarak, temizleme işi için toplam yürütme süresi birkaç dakikadan birkaç saate kadar değişebilir. Sistemde başka bir veri yönetimi etkinliği olduğunda belirtilen tabloların temizlenmesi gerektiğinden, temizleme işi yürütülür ve iş etkinliği başlamadan önce tamamlandığından emin olmak önemlidir.
+-   **İş yürütmek için saat sayısı** – Temizlenecek geçmiş miktarına bağlı olarak, temizleme işi için toplam yürütme süresi birkaç dakikadan birkaç saate kadar değişebilir. Bu parametrenin, işin yürütüleceği saat sayısına ayarlanması gerekir. Belirtilen saat sayısı için temizleme işi gerçekleştirildikten sonra, iş kapanacak ve tekrarlanma planına göre çalıştırıldığında Temizleme işlemi sürdürülecek.
 
     En fazla yürütme süresi, iş bu ayarı kullanılarak çalıştırmanız gereken saat sayısı maksimum sınırı ayarlayarak belirtilebilir. Temizleme mantığı, kronolojik olarak düzenlenmiş bir sıradaki bir iş yürütme kimliğinden tek seferde geçer, bunlardan en eskisi ilgili yürütme geçmişinin temizliği için ilk sırada yer alır. Kalan yürütme süresi belirtilen sürenin son %10'unun içinde olduğundan, temizleme için yeni yürütme kimliğini çekme durduracaktır. Bazı durumlarda, temizleme işinin belirtilen en fazla süre içinde devam etmesi beklenir. Bu büyük ölçüde %10 eşiğine ulaşılmadan önce başlatılan geçerli yürütme kimliği için silinecek kayıtların sayısına bağlıdır. Veri bütünlüğünü sağlamak için başlatılan temizlemenin tamamlanması gerekir, yani temizleme belirtilen sınırı aşmasına rağmen devam edecektir. Bu tamamlandığında, yeni yürütme kimliği çekilmez ve temizleme işi tamamlar. Yürütme süresinin yetersizliği nedeniyle temizlenemeyen geri kalan yürütme geçmişi, temizlik işinin bir sonraki programlanışında çekilecektir. Bu ayarın varsayılan ve en düşük değeri 2 saate ayarlanır.
 
 -   **Yinelenen toplu iş** – Temizleme işi tek seferlik, el ile yürütme olarak çalıştırılabilir veya toplu olarak yinelenen yürütme için de zamanlanabilir. Toplu iş, standart toplu iş kümesi olan **Arka planda çalıştır** ayarları kullanılarak zamanlanabilir.
+
+> [!NOTE]
+> Hazırlama tablolarındaki kayıtlar tamamen temizlenmemekte ise, temizleme işinin tekrarda çalışacak şekilde zamanlandığından emin olun. Yukarıda açıklandığı gibi, tüm Temizleme yürütmelerindeki iş, yalnızca sağlanan maksimum saat içinde bulunabilecek kadar fazla yürütme kodunun temizlenmesine neden olacak. Kalan hazırlama kayıtlarının temizlenme işlemine devam edebilmek için, işin belirli aralıklarla çalışacak şekilde zamanlanması gerekir.

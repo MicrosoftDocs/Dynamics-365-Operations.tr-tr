@@ -17,14 +17,16 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eb89f50a3d227cad80226ce30f71c4f210129245
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622701"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117373"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Otomatik deftere nakil için varsayılan açıklamalar ayarlama
+
+[!include [banner](../includes/banner.md)]
 
 Bu konu, otomatik olarak genel muhasebeye nakledilen muhasebe girişlerini açıklamak için kullanılan varsayılan metnin nasıl ayarlanacağını açıklar. Serbest biçimli metni kullanarak veya sabit değişkenleri seçerek, varsayılan açıklama metnini ayarlayabilirsiniz.
 

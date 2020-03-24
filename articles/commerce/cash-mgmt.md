@@ -18,17 +18,17 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 28b034c9b2a2c7ae63b055338dea3aab4a3b86f2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024291"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127710"
 ---
 # <a name="cash-management-improvements"></a>Nakit yönetimi iyileştirmeleri
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 Nakit yönetimi fiziksel depolardaki perakendecilere yönelik bir anahtar işlevdir. Perakendeciler mağazalarının, bir mağazadaki farklı kasalara ve kasiyerlerin nakit olarak izlenebilme ve hareket etme sorumlulumının tam olarak sağlanmasına yardımcı olabilecek sistemlere sahip olmasını ister. Her türlü farkı bağdaştırmak ve sorumluluğu belirleyebilmeleri gerekir.
 

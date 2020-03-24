@@ -1,9 +1,9 @@
 ---
-title: POS'ta ürün önerileri
+title: POS'ta ürün önerileri ekleme
 description: Bu konuda bir satış noktasında (POS) ürün önerilerinin nasıl kullanılacağı açıklanmaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bfb13904b774558907b29e74158b1e0a193e17cd
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 48533596c5bdc73dd8c815166e7dde0ca2f3cb4d
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057453"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127825"
 ---
-# <a name="product-recommendations-on-pos"></a>POS'ta ürün önerileri
+# <a name="add-product-recommendations-on-pos"></a>POS'ta ürün önerileri ekleme
 
 [!include [banner](includes/banner.md)]
 
@@ -71,8 +71,24 @@ Temel olarak ürün önerileri; zengin, çekici ve özel ürün keşfi deneyimle
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[POS cihazlarında hareket ekranına öneriler denetimi ekleme](add-recommendations-control-pos-screen.md)
+[Ürün önerilerine genel bakış](product-recommendations.md)
 
-[Ürün önerilerine genel bakış](../commerce/product-recommendations.md)
+[Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme](enable-adls-environment.md)
 
-[Ürün önerilerini etkinleştirme](../commerce/enable-product-recommendations.md) 
+[Ürün önerilerini etkinleştir](enable-product-recommendations.md)
+
+[Kişiselleştirilmiş önerileri etkinleştirme](personalized-recommendations.md)
+
+[Kişiselleştirilmiş önerilerden vazgeçme](personalization-gdpr.md)
+
+[e-Ticaret sitesine önerisi listeleri ekleme](add-reco-list-to-page.md)
+
+[Hareket ekranına öneriler ekleme](add-recommendations-control-pos-screen.md)
+
+[AI-ML öneri sonuçlarını ayarlama](modify-product-recommendation-results.md)
+
+[Seçkin önerileri el ile oluşturma](create-editorial-recommendation-lists.md)
+
+[Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
+
+[Ürün önerileri SSS](faq-recommendations.md)

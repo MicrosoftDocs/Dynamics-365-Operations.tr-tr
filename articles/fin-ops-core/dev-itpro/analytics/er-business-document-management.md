@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
-ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
+ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957379"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117349"
 ---
 # <a name="business-document-management-overview"></a>İş belgesi yönetimine genel bakış
+
+[!include [banner](../includes/banner.md)]
 
 [Elektronik raporlama (ER)](general-electronic-reporting.md) çerçevesi kullanan iş kullanıcıları toplam belgelerin biçimini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmanıza olanak tanır. Kullanıcılar, oluşturulan belgelere hangi uygulama verilerinin yerleştirileceğini belirtmek için veri akışını da tanımlayabilir. ER çerçevesi, önceden tanımlanmış şablonları kullanarak Microsoft Office (Excel çalışma kitapları veya Word belgeleri) giden belgeleri biçimler. Şablon, gerekli belgelerin oluşturulması sırasında veri akışına uygun olarak, gerekli verilerle doldurulur. Konfigüre edilen her biçim, belirli giden belgeler oluşturmak üzere bir ER çözümünün parçası olarak yayımlanabilir. Bu, farklı giden belgeler oluşturmak için kullanabileceğiniz şablonlar içerebilen bir ER biçim yapılandırması ile temsil edilir. İş kullanıcıları gerekli iş belgelerini yönetmek için bu çerçeveyi kullanabilir.
 
@@ -147,7 +149,7 @@ Gerekli belge yönetimi parametrelerinin ve belge türlerinin nasıl ayarlanaca�
 
 ![Belge yönetimi belge türünü ayarla](./media/BDM-Overview-DMSetting.png)
 
-### <a name="SetupBdmParameters">Parametreleri ayarlayın</a>
+### <a name=""></a><a name="SetupBdmParameters">Parametreleri ayarlayın</a>
 
 Temel İş belgesi yönetim parametreleri **İş belgesi parametreleri** sayfasında ayarlanabilir. Yalnızca belirli kullanıcılar sayfaya erişebilir. Bunların arasında yer alanlar:
 
@@ -158,7 +160,7 @@ Tüm tüzel kişilikler için temel parametreleri ayarlamak üzere aşağıdaki 
 
 1. **İş belgesi parametreleri** sayfasına erişimi olan bir kullanıcı olarak oturum açın.
 2. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **İş belgesi yönetimi** \> **İş belgesi yönetimi parametreleri**'ne gidin.
-3.  **İş belgesi parametreleri** sayfasında, **Ekler** sekmesinde, **SharePoint belge türü** alanında, şablonları ofis formatlarında geçici olarak depolamak için kullanılacak belge tipini tanımlayan Office Masaüstü uygulamaları kullanılarak düzenlenir. 
+3.    **İş belgesi parametreleri** sayfasında, **Ekler** sekmesinde, **SharePoint belge türü** alanında, şablonları ofis formatlarında geçici olarak depolamak için kullanılacak belge tipini tanımlayan Office Masaüstü uygulamaları kullanılarak düzenlenir. 
 
 > [!NOTE]
 > Yalnızca bir SharePoint yerleşim kullanılarak konfigüre edilen belge türleri bu parametre için kullanılabilir.
@@ -288,13 +290,13 @@ Seçili şablon için **Şablonu Düzenle** şablonu seçeneği kullanılabilir.
 
 ![İş belgesi yönetimi çalışma alanı sayfası](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="EditInOffice365">Office 365'te şablon düzenleme</a>
+### <a name=""></a><a name="EditInOffice365">Office 365'te şablon düzenleme</a>
 
 Office 365 kullanarak şablonda değişiklik yapabilirsiniz. Örneğin, Office Online'da, alanın yazı tipini, şablon başlığında **Normal**'den **Kalın**'a değiştirin. Bu değişiklikler, birincil şablonun depolama alanında (varsayılan olarak, Azure Blob depolaması) depolanan düzenlenebilir şablonda otomatik olarak depolanır. Bu, ER çerçevesi için yapılandırılmıştır.
 
 ![İş belge yönetimi şablon düzenleme sayfası](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="EditInOfficeDesktopApp">Office masaüstü uygulamasında şablon düzenle</a>
+### <a name=""></a><a name="EditInOfficeDesktopApp">Office masaüstü uygulamasında şablon düzenle</a>
 
 > [!NOTE]
 > Bu işlev yalnızca **SharePoint belge türü** parametresi doğru olarak yapılandırıldığında kullanılabilir. Daha fazla bilgi için bkz. [Parametreleri yapılandırma](#SetupBdmParameters).
@@ -398,7 +400,7 @@ Evet, yapabilirsiniz. İlk uygulama oturumunda, **Masaüstü uygulamasında aç*
 3. İlk uygulama oturumunun **BDM şablon düzenleyicisi** sayfasında, **Depolanan kopyayı Eşitle**'yi seçin.
 4. İkinci uygulama oturumunda bu şablon ER biçimini yürütür.
 
-#### <a name="i-get-the-error-value-cannot-be-null-parameter-name-externalid-when-i-select-open-in-desktop-app-how-do-i-work-around-this"></a>'Değer boş olamaz hatası alıyorum. **Masaüstü uygulamasında aç**'ı seçtiğimde parametre adı: externalId' Bu soruna nasıl çözüm bulabilirim? 
+#### <a name="i-get-the-error-value-cannot-be-null-parameter-name-externalid-when-i-select-open-in-desktop-app-how-do-i-work-around-this"></a>'Değer null olamaz hatası alıyorum. **Masaüstü Uygulamasında Aç**'ı seçtiğimde parametre adı: externalId'. Bu soruna nasıl çözüm bulabilirim? 
 Büyük olasılıkla, bu örneği dağıtmak için kullanılan Azure AD etki alanından farklı olan Azure AD etki alanının şu anki uygulama örneğinde oturum açtınız. Office Masaüstü uygulamaları kullanılarak düzenleme için şablonları depolamak amacıyla kullanılan SharePoint hizmeti, aynı etki alanına ait olduğundan SharePoint hizmete erişim için gereken izinlere sahip değildir. Bu sorunu gidermek için, doğru Azure AD etki alanı olan bir kullanıcının kimlik bilgilerini kullanarak geçerli örnekte oturum açın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar

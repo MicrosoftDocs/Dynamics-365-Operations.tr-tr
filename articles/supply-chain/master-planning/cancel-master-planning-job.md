@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 66d5b10e1471b98274d4049df18a2e53873f789a
-ms.sourcegitcommit: 92cd55028be556a0bd41b6972c9c6d14b695dfa0
+ms.openlocfilehash: c04e2b2c0e5d7f28ea688578b3e1d7a1e1d9f6d3
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947492"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117460"
 ---
 # <a name="cancel-a-master-planning-job"></a>Ana planlama işini iptal etme
+
+[!include [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management'ta, Master planlama işini iptal etmek için çoklu seçenekler vardır. Örneğin, bir ana planlama işini yanlışlıkla başlatılmış veya beklenenden uzun süre çalıştırılarak iptal etmek isteyebilirsiniz ve sonlandırmak isteyebilirsiniz. Bir planlama işini iptal etmenin en iyi yolu, **tamamlanmamış planlama işlemleri** sayfasından alınır. **Toplu iş** ve **toplu iş gelişmiş** sayfalarından alternatif seçenekler yalnızca, **bitmemiş planlama işlemleri** sayfasından bir kaç dakika içinde ana planlama işi iptal edilirken kullanılmalıdır.
 
@@ -37,7 +39,7 @@ Microsoft Dynamics 365 Supply Chain Management'ta, Master planlama işini iptal 
 3. **İptal**'e tıklayın
 
 ## <a name="additional-cancel-options"></a>Ek iptal seçenekleri
-Bunlar yalnızca, Master planlama işi **tamamlanmamış planlama işlemleri** sayfasından, birkaç dakika içinde tamamlanmamışsa kullanılmalıdır.
+Bunlar yalnızca, master planlama işi **Tamamlanmamış planlama işlemleri** sayfasından, birkaç dakika içinde tamamlanmamışsa kullanılmalıdır.
 
 ### <a name="delete-master-planning-job-from-the-batch-jobs-page"></a>Master planlama işini **toplu işler** sayfasından Sil
 1. **Sistem yönetimi > Sorgular > Toplu işler**'e gidin.

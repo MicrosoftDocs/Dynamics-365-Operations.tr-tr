@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057868"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113771"
 ---
 # <a name="warehouse-set-up"></a>Ambarı ayarlama
 
@@ -33,7 +33,7 @@ Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir kanalla kullanılacak bir
 
 ## <a name="overview"></a>Genel Bakış
 
-Her Commerce kanalı, yapılandırılmış bir ambarın kendisiyle ilişkilendirilmesini gerektirir. Aşağıdaki yordamlarda, bir Commerce kanalı için ambar ayarlamak üzere gereken minimum yapılandırma verilmektedir. Ambar kurulumuyla ilgili daha fazla bilgi için lütfen [Ambar yönetimine genel bakış](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview)'a bakın.
+Her Commerce kanalı, yapılandırılmış bir ambarın kendisiyle ilişkilendirilmesini gerektirir. Aşağıdaki yordamlarda, bir Commerce kanalı için ambar ayarlamak üzere gereken minimum yapılandırma verilmektedir. Ambar kurulumuyla ilgili daha fazla bilgi için lütfen [Ambar yönetimine genel bakış](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)'a bakın.
 
 ## <a name="configure-a-warehouse-site"></a>Bir ambar tesisini yapılandırma
 
@@ -131,7 +131,7 @@ Aşağıdaki resimde, yapılandırılmış bir ambarın ayrıntıları gösteril
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Ambar yönetimine genel bakış](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview)
+[Ambar yönetimine genel bakış](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
 [Kanallara genel bakış](channels-overview.md)
 

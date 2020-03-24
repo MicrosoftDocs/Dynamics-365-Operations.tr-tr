@@ -3,7 +3,7 @@ title: Bütçe planlama veri tahsisatı
 description: Bu konu, Microsoft Dynamics 365 Finance içerisindeki tahsisat yöntemlerini ve bunların nasıl kullanılabileceklerini açıklar.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,23 +18,26 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772088"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106894"
 ---
 # <a name="budget-planning-data-allocation"></a>Bütçe planlama veri tahsisatı
 
 [!include [banner](../includes/banner.md)]
 
-Bu makale, Microsoft Dynamics 365 Finance içerisindeki tahsisat yöntemlerini ve bunların nasıl kullanılabileceklerini açıklar.  
+Bu konu, Microsoft Dynamics 365 Finance içerisindeki tahsisat yöntemlerini ve bunların nasıl kullanılabileceklerini açıklar.  
 
 Kestirilen tutarları doğru şekilde değerlendirebilmek için bir bütçe planındaki verileri farklı şekillerde dağıtabilirsiniz.
 
 ## <a name="allocation-methods"></a>Tahsisat yöntemleri
 Aynı bütçe planında bulunan satırlara dayalı olarak bütçe plan satırları oluşturulması için kullanılabilecek üç tahsisat yöntemi (Dönemler arasında tahsis et, Boyutlara tahsis et ve Genel muhasebe tahsisat kurallarını kullan) bulunmaktadır. Diğer bütçe planlarında bütçe planı satırları oluşturulması için kullanılabilecek üç yöntem (Toplama, Dağıtma ve Bütçe planından kopyalama) daha vardır. Altı tahsisat yönteminin her birinde hedef senaryoyu belirtirsiniz. Hedef senaryo, kaynak senaryoyla aynı veya kaynak senaryodan farklı olabilir. Ek olarak, yeni satırların bütçe planına dahil mi edileceğini, yoksa bütçe planındaki mevcut satırların yerini mi alacağını tanımlayabilirsiniz.
+
+> [!NOTE] 
+> Dağıtım veya daha önce ana planda gerçekleştirilen diğer değişiklikler için kullanılan senaryodan farklı bir toplam için benzersiz bir senaryo kullanılmalıdır.  
 
 [![Dönemler genelinde tahsis etme tahsisat yöntemi](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Dönemler genelinde tahsis et**: Bütçe planı satırlarını kaynak bütçe planı senaryosundan hedef senaryodaki dönemler genelinde tahsis etmek için bir dönem tahsisat kategorisi kullanılır. Kaynak tutarı, dönem tahsisat kategorisinde tanımlanan yüzdeye ve tarihe dayalı olarak hedef senaryodaki birden fazla satıra tahsis edilir.         

@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
-ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
+ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
+ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2890339"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3133908"
 ---
 # <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, satıcı faturaları hakkında genel bilgiler verilmektedir. Satıcı faturaları, alınan ürün ve hizmetler için ödeme talepleridir. Satıcı faturaları, devam eden hizmetler için bir faturayı temsil edebileceği gibi, belirli madde ve hizmetler için satınalma siparişlerine de dayanabilir.
 
@@ -44,7 +45,7 @@ Satıcı faturası girmek için çeşitli yollar vardır:
 - Satıcı faturası havuzu ile birlikte satıcı fatura kaydı, hızla gider tahakkuk etmek için faturaları girmenizi sağlar. Daha sonra gider hesabına karşı faturayı deftere nakletmek için ilişkili satınalma siparişlerini açabilirsiniz.
 - **Açık satıcı faturaları** ve **Bekleyen satıcı faturaları** sayfaları onaylanmış satınalma siparişlerinden satıcı faturaları oluşturmanızı sağlar.
 
-Aşağıdaki tartışma **Açık satıcı faturaları** veya **Bekleyen satıcı faturaları** sayfalarının bir satınalma siparişinden bir satıcı faturasının nasıl oluşturulacağı hakkında daha fazla bilgi sağlar.
+Aşağıdaki tartışma **Açık satıcı faturaları** veya **Bekleyen satıcı faturaları** sayfalarının bir satınalma siparişinden satıcı faturası oluşturmak üzere nasıl kullanılacağı hakkında daha fazla bilgi sağlar.
 
 ## <a name="understanding-invoice-line-quantities"></a>Fatura satırı miktarlarını anlama
 
@@ -66,6 +67,16 @@ Satıcı faturasına satınalma siparişinde bulunmayan bir satır ekleyebilirsi
 
 Kuruluşunuz, satıcı faturalarını gözden geçirme işlemini yönetmek için iş akışlarını kullanabilir. İş akışını gözden geçirmesi, faturası başlığı, fatura satırı veya her ikisi için de gerekli olabilir. İş akışı denetimleri başlığa veya satıra uygulanabilir, denetimi tıkladığınızda odağın nere olduğuna bağlı olarak. **Naklet** düğmesi yerine, bir **Gönder** düğmesi göreceksiniz ve bunu satıcı faturasını gözden geçirme sürecine göndermek için kullanabilirsiniz.
 
+### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Faturanın iş akışına gönderilmesini engelleme 
+
+Bir faturanın iş akışına gönderilmesini engelleyebilmenizin çeşitli yolları aşağıda verilmiştir.
+
+- **Fatura toplamı ve kaydedilen toplam eşit değil.** Faturayı gönderen kişi, toplamların eşit olmadığını belirten bir uyarı alacak ve faturayı iş akışına yeniden göndermeden önce bakiyeleri düzeltebilecektir. Bu özellik, **Özellik yönetimi** sayfasındaki  **Fatura toplamı ve kaydedilen fatura toplamı eşit olmadığında iş akışına göndermeyi engelle** parametresi etkin olduğunda kullanılabilir. 
+
+- **Fatura tahsis edilmemiş masraflar içeriyor.** Faturayı gönderen kişi, faturada tahsis edilmemiş masraflar olduğunu belirten bir uyarı alacak ve faturayı iş akışına yeniden göndermeden önce düzeltebilecektir. Bu özellik, **Özellik yönetimi** sayfasındaki  **Satıcı faturasında tahsis edilmemiş masraflar olduğunda iş akışına göndermeyi engelle** parametresi etkin olduğunda kullanılabilir.
+
+- **Fatura, deftere nakledilen başka bir faturayla aynı fatura numarasını içeriyor.** Faturayı gönderen kişi, yinelenen numaraya sahip bir fatura bulunduğunu belirten bir uyarı alacak ve faturayı iş akışına yeniden göndermeden önce düzeltebilecektir. Bu uyarı, **Kullanılan fatura numarasını denetle** etiketli Borç hesapları parametresi **Yineleneni reddet** olarak ayarlandığında görüntülenir. Bu özellik, **Özellik yönetimi** sayfasındaki **Fatura numarası deftere nakledilmiş bir faturada zaten varsa ve sisteminiz yinelenen fatura numaralarını kabul etmek üzere yapılandırılmadıysa iş akışına gönderimi engelle** parametresi etkin olduğunda kullanılabilir.  
+
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Satıcı faturalarını ürün girişlerine eşleştirmek
 
 Satıcı faturaları için bilgi girebilir ve kaydedebilirsiniz ve fatura satırlarını ürün giriş satırlarıyla eşleştirebilirsiniz. Bir satır için kısmi miktarlar da eşleştirebilirsiniz.
@@ -77,6 +88,16 @@ Faturayı deftere naklettiğinizde, her maddenin **Fatura kalan tutarı** miktar
 Bu seçenek, satınalma siparişi için en az bir ürün girişinin deftere nakledildiğini varsayar. Satıcı faturası bu ürün girişlerine dayanır ve bunların miktarlarını yansıtır. Faturanın mali bilgileri, faturayı naklettiğinizde girilen bilgilere dayanır.
 
 Daha fazla bilgi için bkz. [Satıcı faturasını kaydetme ve teslim alınan miktarla eşleştirme](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md).
+
+## <a name="configure-an-automated-task-for-vendor-invoice-workflow-to-post-the-vendor-invoice-using-a-batch-job"></a>Satıcı faturasını toplu iş kullanarak deftere nakletmek amacıyla satıcı faturası iş akışı için otomatik bir görev yapılandırma
+
+Faturaların toplu olarak işlenmesi için Satıcı faturası iş akışına otomatik deftere nakil görevi ekleyebilirsiniz. Faturaları toplu işle deftere nakletmek, iş akışı sürecinin deftere nakil işleminin bitmesini beklemek zorunda kalmadan devam etmesine olanak sağlar ve böylece iş akışına gönderilen tüm görevlerin genel performansı artar.
+
+Satıcı faturasını toplu işle deftere nakletmek için **Özellik yönetimi** sayfasında **Satıcı faturası toplu deftere nakil** parametresini açın. Satıcı faturası iş akışlarını, **Borç hesapları > Kurulum > Borç hesapları iş akışları**'na giderek kolayca yapılandırabilirsiniz.
+
+**Satıcı faturası toplu deftere nakil** parametresinin etkin olup olmamasından bağımsız olarak, iş akışı düzenleyicisinde **Satıcı faturasını toplu iş kullanarak deftere naklet** görevini görebilirsiniz. Özellik parametresi etkinleştirilmediğinde, **Satıcı faturasını toplu iş kullanarak deftere naklet** görevi içeren bir fatura, parametre etkinleştirilene kadar iş akışında işlenmez. **Satıcı faturasını toplu iş kullanarak deftere naklet** görevi **Satıcı faturalarını deftere naklet** otomatik görevi ile aynı üretim akışında kullanılmamalıdır. Ayrıca, **Satıcı faturasını toplu iş kullanarak deftere naklet** görevi, iş akışı yapılandırmasındaki son öğe olmalıdır.
+
+Toplu işe dahil edilecek fatura sayısını ve bir toplu işi yeniden planlamadan önce beklenmesi gereken saat sayısını **Borç hesapları > Kurulum > Borç hesabı parametreleri > Fatura > Fatura iş akışı**'na giderek belirtebilirsiniz. 
 
 ## <a name="working-with-multiple-invoices"></a>Birden çok fatura ile çalışma
 

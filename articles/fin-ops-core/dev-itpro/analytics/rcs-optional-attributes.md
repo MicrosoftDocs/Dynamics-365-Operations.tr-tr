@@ -16,14 +16,16 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 10795c90cb90961c17a4326b71ed43dc72039f2b
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769959"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117437"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
+
+[!include [banner](../includes/banner.md)]
 
 XML biçiminde gelen elektronik belgeleri ayrıştırmak için Elektronik raporlama (ER) biçimleri tasarlayabilirsiniz. XML öğelerinin belirli öznitelikleri, tasarlanan ER biçiminde isteğe bağlı olarak belirtilebilir. Bu tür XML özniteliklerine sahip olan ve olmayan gelen dosyaları doğru şekilde kullanmanıza izin verecektir. Bunun ardından, uygulama verilerini güncelleştirmek için bu dosyalardaki içeriği kullanabilirsiniz.
 
@@ -52,17 +54,17 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 7. **Ekle** öğesine tıklayın.
 8. Açılır iletişim kutusunu açmak için **Yeni** öğesine tıklayın.
 9. **Ad** alanına "Liste" yazın.
-10. **Madde türü** alanında **Kayıt listesi**'ni seçin.
-11. **Ekle** öğesine tıklayın.
-12. Açılır iletişim kutusunu açmak için **Yeni** öğesine tıklayın.
-13. **Ad** alanına "Kod" yazın.
-14. **Madde türü** alanında **Dize**'yi seçin.
-15. **Ekle** öğesine tıklayın.
-16. **Kaydet**'e tıklayın.
-17. Sayfayı kapatın.
-18. **Durumu değiştir** öğesine tıklayın.
-19. **Tamamla** öğesine tıklayın.
-20. **Tamam**'a tıklayın.
+10.    **Madde türü** alanında **Kayıt listesi**'ni seçin.
+11.    **Ekle** öğesine tıklayın.
+12.    Açılır iletişim kutusunu açmak için **Yeni** öğesine tıklayın.
+13.    **Ad** alanına "Kod" yazın.
+14.    **Madde türü** alanında **Dize**'yi seçin.
+15.    **Ekle** öğesine tıklayın.
+16.    **Kaydet**'e tıklayın.
+17.    Sayfayı kapatın.
+18.    **Durumu değiştir** öğesine tıklayın.
+19.    **Tamamla** öğesine tıklayın.
+20.    **Tamam**'a tıklayın.
 
 ## <a name="create-a-format-for-data-import"></a>Veri içe aktarma için biçim oluşturma
 1. İletişim kutusu formunu açmak için **Yapılandırma oluştur**'a tıklayın.
@@ -81,32 +83,32 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 7. Ağaçta seçin **XML\Element**.
 8. **Ad** alanına "belge" yazın.
 9. **Çokluluk** alanında **Bir fazla**'yı seçin.
-10. **Tamam**'a tıklayın.
-11. Ağaçta **kök\belge** öğesini seçin.
-12. Açılır iletişim kutusunu açmak için **Ekle** öğesini tıklatın.
-13. Ağaçta seçin **XML\Attribute**.
-14. **Ad** alanına "kimlik" yazın.
-15. **Tamam**'a tıklayın.
-16. **Kaydet**'e tıklayın.
+10.    **Tamam**'a tıklayın.
+11.    Ağaçta **kök\belge** öğesini seçin.
+12.    Açılır iletişim kutusunu açmak için **Ekle** öğesini tıklatın.
+13.    Ağaçta seçin **XML\Attribute**.
+14.    **Ad** alanına "kimlik" yazın.
+15.    **Tamam**'a tıklayın.
+16.    **Kaydet**'e tıklayın.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Ayrıştırılmış bilgileri veri modeline kaydetmek için bir biçim eşlemesi tasarlama
-1.  **Biçimi modelle eşle**'ye tıklayın.
-2.  **Yeni**'ye tıklayın.
-3.  **Tanım** alanına bir değer girin veya buradan bir değer seçin.
-4.  **Ad** alanına "Eşleme" yazın.
-5.  **Kaydet**'e tıklayın.
-6.  **Tasarımcı**'yı tıklatın.
-7.  Ağaçta, **biçim**'i genişletin.
-8.  Ağaçta **biçim\root: XML Element(root)**'u genişletin.
-9.  Ağaçta **biçim\kök: XML Element(root)\document: XML Element 1..*'i seçin. (belge)**.
-10. **Bağla**'ya tıklayın.
-11. Ağaçta **biçim\root: XML Element(root)\document: XML Element 1..*'i genişletin. (belge)**.
-12. Ağaçta **biçim\kök: XML Element(root)\document: XML Element 1..*'i seçin. (belge)\kimlik**.
-13. Ağaçta **List = format.root.document**'i genişletin.
-14. Ağaçta **List = format.root.document\Code**'u seçin.
-15. **Bağla**'ya tıklayın.
-16. **Kaydet**'e tıklayın.
-17. Sayfayı kapatın.
+1.    **Biçimi modelle eşle**'ye tıklayın.
+2.    **Yeni**'ye tıklayın.
+3.    **Tanım** alanına bir değer girin veya buradan bir değer seçin.
+4.    **Ad** alanına "Eşleme" yazın.
+5.    **Kaydet**'e tıklayın.
+6.    **Tasarımcı**'yı tıklatın.
+7.    Ağaçta, **biçim**'i genişletin.
+8.    Ağaçta **biçim\root: XML Element(root)**'u genişletin.
+9.    Ağaçta **biçim\kök: XML Element(root)\document: XML Element 1..*'i seçin. (belge)**.
+10.    **Bağla**'ya tıklayın.
+11.    Ağaçta **biçim\root: XML Element(root)\document: XML Element 1..*'i genişletin. (belge)**.
+12.    Ağaçta **biçim\kök: XML Element(root)\document: XML Element 1..*'i seçin. (belge)\kimlik**.
+13.    Ağaçta **List = format.root.document**'i genişletin.
+14.    Ağaçta **List = format.root.document\Code**'u seçin.
+15.    **Bağla**'ya tıklayın.
+16.    **Kaydet**'e tıklayın.
+17.    Sayfayı kapatın.
 
 ## <a name="run-format-mapping"></a>Biçim eşlemeyi çalıştırın
 1. **Çalıştır**'a tıklayın.
@@ -114,7 +116,7 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 3. **Tamam**'a tıklayın.
 
 > [!NOTE]
-> Biçim tasarımı "belge" öğesi için "kimlik" özniteliğinin varlığını kabul ederken, seçilen dosya içe aktarılmadı ama içe aktarılan dosya böyle bir öznitelik içermiyor.
+> Biçim tasarımı 'belge' öğesi için 'kimlik' özniteliğinin varlığını kabul ederken, seçilen dosya içe aktarılmadı ama içe aktarılan dosya böyle bir öznitelik içermiyor.
 
 ## <a name="modify-format-structure-to-handle-xml-attribute-as-optional"></a>Biçim yapısını XML özniteliğini isteğe bağlı olarak işleyecek şekilde değiştirme
 1. Sayfayı kapatın.
@@ -128,4 +130,4 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 2. **Çalıştır**'a tıklayın.
 3. **Gözat** düğmesine tıklayın ve **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**' dosyasını seçin.
 4. **Tamam**'a tıklayın.
-5. Oluşturulan dosyayı gözden geçirin. Biçim tasarımı olarak içe aktarılan aynı dosya "belge" öğesi için "kimlik" özniteliğini isteğe bağlı olarak kabul etmektedir.
+5. Oluşturulan dosyayı gözden geçirin. Biçim tasarımı olarak içe aktarılan aynı dosya 'belge' öğesi için 'kimlik' özniteliğini isteğe bağlı olarak kabul etmektedir.

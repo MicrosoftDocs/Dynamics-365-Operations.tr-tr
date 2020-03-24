@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
+ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004031"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095629"
 ---
 # <a name="product-identifiers"></a>Ürün tanımlayıcıları 
 
@@ -43,9 +43,6 @@ Dynamics 365 Supply Chain Management içinde, bir ürün için birincil kimlik t
 Supply Chain Management'ı uyguladığınızda ürün numaralarıyla ilgili stratejinize özel önem vermeniz gerekir. İyi bir numaralandırma sistemi lojistik akışları geliştirir ve hataları engellemeye yardımcı olur. İyi bir ürün tanımlayıcısı en çok 15 karakter uzunluğundadır. İdeal olarak, 10 karakterden daha kısa olur ve en fazla beş sınıflandırma karakteri içerir. Ayrıca, hızlı aramalar sağlamak için arama adlarını da kullanabilirsiniz. Bir arama adı bir ürünün sınıflandırmalarını temsil eden ek bir addır.
 
 Ayrıca Common Data Service kullanılırken Supply Chain Management'taki ürün numarası, Common Data Service'taki ürün numarasıdır. Ürün çeşitleri, Common Data Service ile ayrı ürünler olarak eşitlenir.
-
-> [!NOTE]
-> Ürün numarası "%" ile başlatılamaz.
 
 ## <a name="item-number-and-product-dimensions"></a>Madde numarası ve ürün boyutları
 

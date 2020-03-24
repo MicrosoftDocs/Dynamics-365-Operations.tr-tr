@@ -1,9 +1,9 @@
 ---
 title: Özel alanlar oluşturma ve bunlarla çalışma
-description: Bu konu altında, uygulamayı işletmelere uygun hale getirmek için özel alanların nasıl oluşturulacağı açıklanmaktadır.
+description: Bu konu uygulamayı işletmenize uygun hale getirmek için kullanıcı arabiriminden nasıl özel alanlar oluşturabileceğinizi açıklar.
 author: jasongre
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f689bb3ec844459d1dd6e199804a30f3e0cb38bc
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812517"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112348"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Özel alanlar oluşturma ve bunlarla çalışma
 
 [!include [banner](../includes/banner.md)]
 
-Çok sayıda iş sürecini yönetmek için kullanıma hazır kapsamlı bir alan kümesi olmasına karşın bazen bir şirketin sistemde ek bilgileri izlemesi gerekebilir. Bu gereksinimi karşılamak amacıyla, özellik için gerekli izinlere sahip olmanız durumunda, uygulamayı işletmenize uygun hale getirmek üzere özel alanlar oluşturabilirsiniz.
+Çok sayıda iş sürecini yönetmek için kullanıma hazır kapsamlı bir alan kümesi olmasına karşın bazen bir şirketin sistemde ek bilgileri izlemesi gerekebilir. Bu alanları geliştirici araçlarında uzantı olarak eklemek için programlayıcılar kullanılabilir, özel alanlar özelliği alanların doğrudan kullanıcı arabiriminden eklenmesine olanak tanır ve web tarayıcınızı kullanarak uygulamanızı işletmenize uygun hale getirmenize olanak tanır.
 
-Özel alanlar ekleme yeteneği, platform güncelleştirmesi 13 ve sonraki sürümlerde kullanılabilir.
+Özel alanlar ekleme yeteneği, platform güncelleştirmesi 13 ve sonraki sürümlerde kullanılabilir. Yalnızca özel izinlere sahip kullanıcıların bu özelliğe erişimi vardır.
 
 Bu videoda bir sayfaya özel alan eklemenin ne kadar kolay olduğu gösterilmektedir: [Özel alanlar ekleme](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -159,3 +159,7 @@ Performans ve teknik nedenlerle, şu anda yalnızca aşağıdaki koşulları kar
 - Tablo başka bir tabloya genişletilemez.
 - Tablo bir sistem tablosu olarak işaretlenemez.
 - Tablo geçici bir tablo olamaz.
+
+### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Geliştirici araçlarındaki özel alanlara başvurabilir miyim?  
+
+Özel alanlar yalnızca kullanıcı arabiriminden yönetilebilir ve kod tarafından başvurulamaz. 

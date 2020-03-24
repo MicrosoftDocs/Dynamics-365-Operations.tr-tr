@@ -1,9 +1,9 @@
 ---
-title: Sayfalarına ürün önerileri listesi ekleme
+title: e-Ticaret sitesine önerisi listeleri ekleme
 description: Bu konu, bir e-ticaret sayfasına nasıl ürün önerisi listesi ekleneceğini açıklamaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 01/28/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,24 +19,23 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c71c1cf91b1913f44546f40620aff358cf256b2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 8fa8ee7c97299dde6397f853a128c9aaa663584d
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001312"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127664"
 ---
-# <a name="add-recommendation-lists-to-a-site"></a>Bir siteye öneri listeleri ekle
-
+# <a name="add-recommendation-lists-an-e-commerce-site"></a>e-Ticaret sitesine önerisi listeleri ekleme
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, bir e-ticaret sayfasına nasıl ürün önerisi listesi ekleneceğini açıklamaktadır.
 
 1. Varolan bir e-ticaret site oluşturma sayfasından **Modül ekle**'yi seçin.
-2. **Ürün toplama** modülünü arayın.
-3. Modül Sihirbazında sayfaya eklenecek listeyi seçin.
-4. Değişikliklerinizi kaydedin.
+1. **Ürün toplama** modülünü arayın.
+1. Modül Sihirbazında sayfaya eklenecek listeyi seçin.
+1. Değişikliklerinizi kaydedin.
 
 Sayfaya ekleyebileceğiniz liste türleri hakkında daha fazla bilgi için, [Ürün koleksiyonu modülü genel bakış](product-collection-module-overview.md) konusuna bakın.
 
@@ -45,10 +44,22 @@ Sayfaya ekleyebileceğiniz liste türleri hakkında daha fazla bilgi için, [Ür
 
 [Ürün önerilerine genel bakış](product-recommendations.md)
 
-[Ürün önerilerini etkinleştirme](enable-product-recommendations.md)
+[Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme](enable-adls-environment.md)
 
-[Seçkin ürün önerisi listeleri oluşturma](create-editorial-recommendation-lists.md)
+[Ürün önerilerini etkinleştir](enable-product-recommendations.md)
 
-[AI-ML tabanlı ürün önerisi sonuçlarını yönetme](modify-product-recommendation-results.md)
+[Kişiselleştirilmiş önerileri etkinleştirme](personalized-recommendations.md)
 
-[Ürün topluluğu modülüne genel bakış](product-collection-module-overview.md)
+[Kişiselleştirilmiş önerilerden vazgeçme](personalization-gdpr.md)
+
+[POS'ta ürün önerileri ekleme](product.md)
+
+[Hareket ekranına öneriler ekleme](add-recommendations-control-pos-screen.md)
+
+[AI-ML öneri sonuçlarını ayarlama](modify-product-recommendation-results.md)
+
+[Seçkin önerileri el ile oluşturma](create-editorial-recommendation-lists.md)
+
+[Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
+
+[Ürün önerileri SSS](faq-recommendations.md)

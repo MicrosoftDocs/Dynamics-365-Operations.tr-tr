@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8bef8edb46a1942d3efc325e2c437a138ad44839
-ms.sourcegitcommit: e1a55b4dc43abedf523c33ba9a8abe7b073f2ec6
+ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3083030"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113932"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Perakende kanalları için stok kullanılabilirliğini hesaplama
 
@@ -41,7 +41,7 @@ Bu konu, uygulamalar veya kanallar arasındaki veri gecikmesini sınırlamaya ya
 Müşterileriniz bir e-Ticaret sitesinde alışveriş yaparken bir ürünün stok kullanılabilirliğini göstermek için aşağıdaki API'ları kullanabilirsiniz.
 
 - **GetEstimatedAvailability**: E-Ticaret kanalı ambarındaki veya e-Ticaret kanalının karşılama grubunun yapılandırmasına bağlı tüm ambarlardaki maddeyle ilgili stok kullanılabilirliğini elde etmek için bu API'yı kullanın. Bu API, boylam ve enlem verilerine dayalı olarak belirli bir arama alanındaki veya yarıçaptaki ambarlar için de kullanılabilir.
-- **ProductWarehouseInventoryAvailabilities**: Belirli bir ambardaki madde için stok isteğinde bulunmak üzere bu API'yı kullanın. Örneğin, API'yı sipariş çekme işlemleri içeren senaryolarda stok kullanılabilirliğini göstermek için kullanabilirsiniz.
+- **GetEstimatedProductWarehouseAvailability**: Belirli bir ambardaki bir madde için stok isteğinde bulunmak üzere bu API'yı kullanın. Örneğin, API'yı sipariş çekme işlemleri içeren senaryolarda stok kullanılabilirliğini göstermek için kullanabilirsiniz.
 
 > [!NOTE]
 > Bu API'lar Dynamics 365 Retail sürüm 10.0.7 ve önceki sürümler için **GetProductAvailabilities** ve **GetAvailableInventoryNearby** API'larının yerini almaktadır.

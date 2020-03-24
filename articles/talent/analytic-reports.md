@@ -1,6 +1,6 @@
 ---
 title: Attract'te analitik raporları kullanma
-description: Bu konuda, Microsoft Dynamics 365 Talent- Attract'te işlem öngörüleri için işe alma analitik raporları açıklanmaktadır
+description: Bu konuda, Microsoft Dynamics 365 Talent- Attract'ta işe alım süreci öngörülerine yönelik analitik raporları açıklanmaktadır
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 4ae608bbca111313d8c77e63f6a7a95813f6e5cd
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 081988e8b8cfe1e2ddb533247b678ba38a07f5f1
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833243"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092235"
 ---
 # <a name="use-analytic-reports-in-attract"></a>Attract'te analitik raporları kullanma
 
