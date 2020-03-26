@@ -3,7 +3,7 @@ title: Kayıtlı görünümler
 description: Bu konu, kaydedilmiş görünümler özelliklerinin nasıl kullanılacağını açıklar.
 author: jasongre
 manager: AnnBe
-ms.date: 10/16/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c6a5880c6ae9470dbf7986f39798ec888d0c22ea
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017716"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100320"
 ---
 # <a name="saved-views"></a>Kayıtlı görünümler
 
@@ -71,7 +71,7 @@ Bu değişiklikleri kaydetmek istiyorsanız, aşağıdaki adımları izleyin.
 2.  Varolan görünümü değiştirmek için:
      1. **Kaydet**'i seçin. Bu eylemin kilitli görünümler için etkinleştirilmeyeceğini unutmayın. 
 3.  Yeni bir görünüm oluşturmak için:
-     1.    **Farklı kaydet...**'i seçin. 
+     1.    **Farklı kaydet**'i seçin. 
      2.    Bir görünüm adı ve (isteğe bağlı olarak) bir açıklama girin.
      3.    **Kaydet**'i seçin.
 
@@ -83,9 +83,9 @@ Bir sayfa için varsayılan görünümü değiştirmek için şu adımları izle
 2.  Görünüm seçiciyi açmak için görünüm adını seçin. 
 3.  **Daha fazla** ve **Varsayılan olarak sabitle**'yi seçin.  
 
-Alternatif olarak, yeni bir görünüm oluştururken (**Farklı kaydet...** eylemini kullanarak), görünümü kaydetmeden önce, **Varsayılan olarak sabitle** olarak ayarlayarak yeni görünümü varsayılan görünüm haline getirebilirsiniz.
+Alternatif olarak, yeni bir görünüm oluştururken (**Farklı kaydet** eylemini kullanarak), görünümü kaydetmeden önce, **Varsayılan olarak sabitle** olarak ayarlayarak yeni görünümü varsayılan görünüm haline getirebilirsiniz.
 
-Bazı durumlarda, bir sayfaya ilk gittiğinizde varsayılan görünümle ilişkilendirilmiş sorgunun yürütülmeyeceğini unutmayın. Örneğin, bir sayfaya bir kutucukta gezindiğinizde, kutucuktaki sorgu, varsayılan görünümle ilişkilendirilmiş sorgudan bağımsız olarak yürütülür. Ayrıca, Klasik görünümünde tanımlı bir sorguya sahip olan bir sayfaya giderseniz, özgün sorgu başlangıçta varsayılan görünümün sorgusunun yerine yürütülür. Bu durumda, görünüm yüklenirken bir bilgi iletisi ile uyarı alırsınız. Sayfa yüklendikten sonra görünümlerin değiştirilmesi, görünüm sorgusunun beklendiği gibi yürütülmelerine olanak sağlar.
+Bazı durumlarda, bir sayfaya ilk gittiğinizde varsayılan görünümle ilişkilendirilmiş sorgunun yürütülmeyeceğini unutmayın. Örneğin, bir sayfaya bir kutucukta gezindiğinizde, kutucuktaki sorgu, varsayılan görünümle ilişkilendirilmiş sorgudan bağımsız olarak yürütülür. Ayrıca, Standart görünümle tanımlı bir sorguya sahip olan bir sayfaya giderseniz, orijinal sorgu varsayılan görünümün sorgusunun yerine yürütülür. Bu durumda, görünüm yüklenirken bir bilgi iletisi ile uyarı alırsınız. Sayfa yüklendikten sonra görünümlerin değiştirilmesi, görünüm sorgusunun beklendiği gibi yürütülmelerine olanak sağlar. Sürüm 10.0.10 Platform Update 34'ten başlayarak, bilgi iletisi varsayılan görünümün sorgusunu doğrudan yükleme olanağı sağlayan katıştırılmış bir eyleme sahip olacaktır.
 
 ## <a name="managing-personal-views"></a>Kişisel görünümleri yönetme 
 **Görünümlerimi Yönet** iletişim kutusu, kişisel görünümleriniz ve görünüm seçicisindeki görünümlerin sırası üzerinde temel bakım olanakları sağlar. Bu sayfayı açmak için görünüm seçiciyi açılır menüsünü açmak üzere görünüm adını tıklatın, **Diğer**'i seçin ve sonra **Görünümlerimi Yönet**'i seçin.  
@@ -119,7 +119,7 @@ Bir görünümü yayımlamak için şu adımları izleyin:
 4.  Görünüm için bir ad ve (isteğe bağlı olarak) bir açıklama girin. Girdiğiniz ad, görünümü alan kullanıcıların görünüm seçicileri içinde görebilmeleri için kullanılan addır. Bir sayfayla ilgili yayımlanmış görünümlerin adları benzersiz olmalıdır. Görünümlerin uygulandığı roller listesi veya tüzel kişilikler farklılık gösterse bile yinelenen adlara izin verilmez.
 5.  Bu görünüm tarafından hedeflenen kullanıcılara karşılık gelen güvenlik rollerini ekleyin.
 6. Bu görünümün kullanılabilir olması gereken tüzel kişilikleri ekleyin. 
-7. [10.0.9/Platform güncelleme 33 veya sonrası] görünümün, seçilen kullanıcılar için varsayılan görünüm olarak yayımlanıp yayımlanmayacağını belirleyin. Bir görünümün varsayılan olarak yapılması, bu görünümün, kullanıcıların hedef sayfayı bir sonraki açtıklarında görecekleri görünüm olduğu anlamına gelir. Bu, kullanıcıların varsayılan görünümünü değiştirecek; ancak, yayımlama gerçekleştirildikten sonra kullanıcılar varsayılan görünümlerini değiştirmeye devam edebilir.    
+7. [10.0.9/Platform update 33 veya sonrası] Görünümün, seçilen kullanıcılar için varsayılan görünüm olarak yayımlanıp yayımlanmayacağını belirleyin. Bir görünümün varsayılan olarak yapılması, bu görünümün, kullanıcıların hedef sayfayı bir sonraki açtıklarında görecekleri görünüm olduğu anlamına gelir. Bu, kullanıcıların varsayılan görünümünü değiştirecek; ancak, yayımlama gerçekleştirildikten sonra kullanıcılar varsayılan görünümlerini değiştirmeye devam edebilir.    
 8.  **Yayımla**'yı seçin.
 
 Bazı ortamlarda, kullanıcılar yayımlanan görünümü görebilmeleri için biraz zaman (bir saat kadar) sürebilir.
@@ -133,8 +133,8 @@ Yayınlanmış bir görünümde yapmak istediğiniz değişiklikler yalnızca ya
 3.  Varolan görünümü güncelleştirmek istiyorsanız **Evet**'i seçin (farklı bir ad altında yayımlamak istiyorsanız **Hayır**'ı seçin).
 4.  Görünüm için ad, açıklama ve/veya güvenlik rollerini güncelleştirin. 
 5.  **Yayımla**'yı seçin. 
-6.  [10.0.8//Platform güncellemesi 32 veya öncesi] Yayınlanan görünümün adını güncelleştirdikten sonra, yayımlanmış görünümü eski adıyla da silmeniz gerekecektir (daha ayrıntılı bilgi için **Yayınlanmış görünümleri yönetme** bölümüne bakın). 
-7. [10.0.9/platform güncelleştirmesi 33 veya sonrası] Özgün olarak bu yayımlanmış görünümü varsayılan görünüm olarak seçtiyseniz, yeniden yayımlamadan sonra bu kullanıcılar için varsayılan görünüm olur.  
+6.  [10.0.8/Platform update 32 veya öncesi] Yayımlanan görünümün adını güncelleştirdikten sonra, yayımlanmış görünümü eski adıyla da silmeniz gerekecektir (daha ayrıntılı bilgi için **Yayınlanmış görünümleri yönetme** bölümüne bakın). 
+7. [10.0.9/Platform update 33 veya sonrası] Özgün olarak bu yayımlanmış görünümü varsayılan görünüm olarak seçtiyseniz, yeniden yayımlamadan sonra bu kullanıcılar için varsayılan görünüm olur.  
 
 Yayınlanan görünümde yapılan değişiklikler görünümle ilişkili kişiselleştirmeler veya filtrelerle değişiklik yapmak içeriyorsa, şu adımları izleyin: 
 1.  Değiştirmek istediğiniz yayımlanmış görünüme geçin. 

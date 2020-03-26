@@ -3,7 +3,7 @@ title: Şirket içi dağıtım giriş sayfası
 description: bu konu şirket içi dağıtım hakkında içeriğe bağlantılar ve bilgi sağlar.
 author: sericks007
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 03/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
-ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
+ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
+ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "3090601"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3099742"
 ---
 # <a name="on-premises-deployment-home-page"></a>Şirket içi dağıtım giriş sayfası
 
@@ -55,6 +55,7 @@ Dynamics 365 Finance + Operations'ı (şirket içinde) dağıtabilirsiniz. Bir �
 - [İstemci İnternet bağlantısı](../user-interface/client-disconnected.md)
 - [Şirket içi dağıtımlara güncelleştirmeleri uygulama](apply-updates-on-premises.md)
 - [Şirket içi ortamlarını yeniden dağıtma](redeploy-on-prem.md)
+- [Birden çok ortam için aynı AD FS örneğini yeniden kullanma](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Commerce
 - [Şirket içi dağıtımlarda kullanılabilen Commerce özellikleri](../../../retail/retail-onprem.md)

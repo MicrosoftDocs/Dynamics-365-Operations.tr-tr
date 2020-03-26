@@ -1,6 +1,6 @@
 ---
-title: Satış siparişleri için kredi bekletme işlemleri
-description: ''
+title: Satış siparişleri için askıda krediler
+description: Bu konuda, bir satış siparişini kredi bekletmeye sokmak için kullanılan kuralların kurulumu açıklanmaktadır.
 author: mikefalkner
 manager: AnnBe
 ms.date: 01/25/2019
@@ -9,25 +9,23 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 8a0e006be8a72f35d6c6009ca9d67d083b8fac89
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057682"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124266"
 ---
-# <a name="credit-holds-for-sales-orders"></a>Satış siparişleri için kredi bekletme işlemleri
+# <a name="credit-holds-for-sales-orders"></a>Satış siparişleri için askıda krediler
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-
-Bu konuda, bir satış siparişini kredi bekletmeye sokmak için kullanılan kuralların kurulumu açıklanmaktadır. Kredi yönetimi durdurma kuralları tek bir müşteriye veya bir müşteri grubuna uygulanabilir.  Durdurma kuralları, aşağıdaki durumlara yanıtları tanımlar:
+Bu konuda, bir satış siparişini kredi bekletmeye sokmak için kullanılan kuralların kurulumu açıklanmaktadır. Kredi yönetimi durdurma kuralları tek bir müşteriye veya bir müşteri grubuna uygulanabilir. Durdurma kuralları, aşağıdaki durumlara yanıtları tanımlar:
 
 1. Vade sonrası gün sayısı
 2. Hesapların durumu
@@ -87,9 +85,9 @@ Durdurma kuralı, süresi geçmiş kredi limitli müşterilere uygulanıyorsa **
    - Kural tüm müşterilere uygulanıyorsa **Tümü**'nü seçin. 
 3. Kredi yönetimi bekletme işlemine koyulacak müşterilerin listesini daha fazla sınırlandırmak için bir **Risk grubu** seçin. 
 4. Ayarladığınız kuralın türünü seçin. 
-  - Bir siparişi durduran bir kural oluşturmak için **Durdurma**'yı seçin. 
-  - Bir siparişi durdurma işleminden bir diğer kuralı hariç tutacak bir kural oluşturmak için **Hariç tutma**'yı seçin. 
-6. Bir siparişi kredi yönetimi durdurmaya koymadan önce, seçili durdurma kuralı için, **Kredi limiti süresi dolduktan sonraki gün sayısı**'nı girin. Vade sonrası gün sayısı, kredi limiti süresinin dolduğu gün sayısına eklenen ek mehil süresini temsil eder.
+   - Bir siparişi durduran bir kural oluşturmak için **Durdurma**'yı seçin. 
+   - Bir siparişi durdurma işleminden bir diğer kuralı hariç tutacak bir kural oluşturmak için **Hariç tutma**'yı seçin. 
+5. Bir siparişi kredi yönetimi durdurmaya koymadan önce, seçili durdurma kuralı için, **Kredi limiti süresi dolduktan sonraki gün sayısı**'nı girin. Vade sonrası gün sayısı, kredi limiti süresinin dolduğu gün sayısına eklenen ek mehil süresini temsil eder.
 
 ### <a name="overdue-amount"></a>Vadesi geçen tutar
 
@@ -104,11 +102,10 @@ Durdurma kuralı, vadesi geçmiş tutarları olan müşterilere uygulanıyorsa *
    - Kural tüm müşterilere uygulanıyorsa **Tümü**'nü seçin. 
 3. Kredi yönetimi bekletme işlemine koyulacak müşterilerin listesini daha fazla sınırlandırmak istiyorsanız bir **Risk grubu** seçin. 
 4. Ayarladığınız kuralın türünü seçin. 
-  - Bir siparişi durduran bir kural oluşturmak için **Durdurma**'yı seçin. 
-  - Bir siparişi durdurma işleminden bir diğer kuralı hariç tutacak bir kural oluşturmak için **Hariç tutma**'yı seçin. 
+   - Bir siparişi durduran bir kural oluşturmak için **Durdurma**'yı seçin. 
+   - Bir siparişi durdurma işleminden bir diğer kuralı hariç tutacak bir kural oluşturmak için **Hariç tutma**'yı seçin. 
 5. Bir siparişi incelenmek üzere kredi yönetimi durdurmaya koymadan önce, seçili durdurma kuralı için **Vadesi geçen tutar**'ı girin. 
-6. Kredi limitinin ne kadarının kullanıldığını test etmek için kullanılacak değer türünü tanımlayan **Değer türü**'nü seçin. Durdurma kuralları için bir yüzde oranı gerekir ancak bir hariç tutmada sabit bir tutar veya yüzde olabilir.
-eşik. Eşik, kredi limitiyle ilgilidir.
+6. Kredi limitinin ne kadarının kullanıldığını test etmek için kullanılacak değer türünü tanımlayan **Değer türü**'nü seçin. Durdurma kuralları için bir yüzde oranı gerekir ancak bir hariç tutmada sabit bir tutar veya yüzde olabilir. Eşik, kredi limitiyle ilgilidir.
 7. Bir müşteri kredi yönetimi bekletme işlemine koyulmadan önce, seçili kural için **Kredi limiti eşiği** değerini girin. Bu, değer türünde seçilecek değer türüne göre bir tutar veya yüzde değeri olabilir.
 8. Kural, **Vadesi geçen tutarın** ve **Kredi limiti eşiğinin** aşılıp aşılmadığını denetler. 
 
@@ -125,9 +122,9 @@ Durdurma kuralı satış siparişinin değerine uygulanıyorsa **Satış sipari�
    - Kural tüm müşterilere uygulanıyorsa **Tümü**'nü seçin. 
 3. Kredi yönetimi bekletme işlemine koyulacak müşterilerin listesini daha fazla sınırlandırmak istiyorsanız bir **Risk grubu** seçin. 
 4. Ayarladığınız kuralın türünü seçin.  
-  - Bir siparişi durduran bir kural oluşturmak için **Durdurma**'yı seçin. 
-  - Bir siparişi durdurma işleminden bir diğer kuralı hariç tutacak bir kural oluşturmak için **Hariç tutma**'yı seçin. 
-6. Bir siparişi kredi yönetimi durdurmaya koymadan önce, seçili durdurma kuralı için **Satış siparişi tutarı**'nı girin. 
+   - Bir siparişi durduran bir kural oluşturmak için **Durdurma**'yı seçin. 
+   - Bir siparişi durdurma işleminden bir diğer kuralı hariç tutacak bir kural oluşturmak için **Hariç tutma**'yı seçin. 
+5. Bir siparişi kredi yönetimi durdurmaya koymadan önce, seçili durdurma kuralı için **Satış siparişi tutarı**'nı girin. 
 
 Satış siparişi kuralı diğer kuralların tümünü geçersiz kılan ek bir ayar içerir. Satış siparişini diğer kuralların hiçbirine bağlı kalmadan serbest bırakacak bir hariç tutma oluşturmak için, hariç tutma satırında **Satış siparişini serbest bırak** onay kutusunu seçin.
 
@@ -187,7 +184,7 @@ Kurallar, kuruluşunuzun gereksinimlerine uyacak şekilde değiştirdiğiniz bel
 
 Siparişler, belirlenmiş kurallar olsa bile, kredi yönetiminden hariç tutulabilir. 
 
-- **Tüm müşteriler > Müşteri seçin > Alacak ve tahsilatlar hızlı sekmesi**'nde **Müşteriyi kredi yönetiminden hariç tut** ayarını değiştirip **Evet** yaparsanız, o müşteriye ilişkin hiçbir sipariş işleme koyulmaz.
+- **Tüm müşteriler > Müşteri seçin > Alacak ve tahsilatlar hızlı sekmesi**'nde **Müşteriyi kredi yönetiminden hariç tut** ayarını değiştirip **Evet** yaparsanız, o müşteriye ilişkin hiçbir sipariş işleme koyulmaz
 - **Kredi yönetimi hızlı sekmesindeki** **Satış siparişleri üst bilgisinde** **Kredi yönetiminden hariç tut** değerini değiştirip **Evet** yaparsanız kredi yönetimi kuralları işleme koyulmaz. Bu ayar yalnızca kredi memuru veya kredi yöneticisi tarafından yapılabilir.
 
 ## <a name="processing-orders-on-hold-using-the-credit-management-hold-list"></a>Bekletilen siparişleri kredi yönetimi bekletme listesini kullanarak işleme
@@ -216,8 +213,8 @@ Bekletme nedenlerini araştırdıysanız ve bunları giderdiyseniz, işlemlere d
 2) Serbest bırakmak üzere seçilmiş sipariş için bir **Serbest bırakma nedeni** seçin.  
 3) Serbest bırakmak üzere seçilen her sipariş için **İnceleme tarihi** girin.  
 4) Bir siparişi serbest bırakmak için eylem bölmesindeki **Serbest bırak** menüsünü seçin. Bu menü ancak hareketler seçildikten sonra kullanılabilir. Kullanıcıya iki seçenek sunulur:
- - Bekletmeyi kaldırmak ve belgeyi beklemeye alındığı zaman kullanılan deftere nakil işlemini kullanarak deftere nakletmek için **Deftere nakil ile**'yi seçin. Örneğin satış siparişi onayı beklemeye alındıysa, satış siparişi onayı serbest bırakma işleminden sonra tamamlanır. Kullanıcının onayı deftere nakletmesine izin veren satış siparişi deftere nakil formu görüntülenir.
- - Bekletmeyi başka bir işlem yapmadan kaldırmak için **Deftere nakletmeden**'i seçin. Satış siparişi deftere el ile nakledilebilir.
+   - Bekletmeyi kaldırmak ve belgeyi beklemeye alındığı zaman kullanılan deftere nakil işlemini kullanarak deftere nakletmek için **Deftere nakil ile**'yi seçin. Örneğin satış siparişi onayı beklemeye alındıysa, satış siparişi onayı serbest bırakma işleminden sonra tamamlanır. Kullanıcının onayı deftere nakletmesine izin veren satış siparişi deftere nakil formu görüntülenir.
+   - Bekletmeyi başka bir işlem yapmadan kaldırmak için **Deftere nakletmeden**'i seçin. Satış siparişi deftere el ile nakledilebilir.
 
 ### <a name="rejecting-orders-in-the-hold-list"></a>Bekletme listesindeki siparişleri reddetme
 Bir satış siparişini reddetmek için eylem bölmesindeki **Reddet** menüsünü kullanabilirsiniz

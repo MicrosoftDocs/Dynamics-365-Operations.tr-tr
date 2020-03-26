@@ -1,6 +1,6 @@
 ---
 title: Kapsam seçeneklerini oluşturma
-description: ''
+description: Microsoft Dynamics 365 Human Resources içindeki kapsam seçenekleri, bir kişinin yalnızca tıbbi plan için çalışan veya bir ömür sigortası planı Için 2x maaş gibi bir kazanç planında veya programında yer alanın kapsam düzeyleridir.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27b43d858a92beac526ac0fc40b544649ef658b0
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010808"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092718"
 ---
 # <a name="create-coverage-options"></a>Kapsam seçeneklerini oluşturma
 

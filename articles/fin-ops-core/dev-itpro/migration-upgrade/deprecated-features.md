@@ -1,9 +1,9 @@
 ---
-title: Finance and Operations için kaldırılan veya kullanımına son verilen özellikler
-description: Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
+title: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
+description: Bu konu, kaldırılmış olan veya  Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sürümlerinden kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 10/08/2019
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,28 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812005"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124578"
 ---
-# <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Finance and Operations için kaldırılan veya kullanımına son verilen özellikler
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Finance and Operations'dan kaldırılmış veya kullanımına son verilmiş özellikler açıklanmaktadır.
+> [!IMPORTANT]
+> Bu konu artık güncelleştirilmeyecektir. Finance and Operations uygulamalardan kaldırılmış veya kullanımı sonlandırılmış özelliklerin geçerli listesini görmek için, kullanmakta olduğunuz uygulamayla ilgili **"Kaldırılan veya Kullanımı sonlandırılan özellikler"** içeriğini arayın.
+
+Bu konu, Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sürümlerinden kaldırılan veya kullanımı sonlandırılan özellikleri açıklar.
 
 - *Kaldırılan* özellik artık üründe bulunmaz.
 - *Kullanımına son verilen* özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.
 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
-> [!NOTE]
-> Platform güncelleştirmesi 8 ile Finance and Operations Temmuz 2017 sürümünden başlayarak, kaldırılan veya kullanımına son verilen her özellik için dağıtımların türü not edilmiştir. Bu konuda söz edilen önceki tüm sürümler yalnızca desteklenen bulut dağıtımlarıdır.
-
-Finance and Operations içindeki nesneler hakkında ayrıntılı bilgiye [Teknik referans raporları](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) altından ulaşabilirsiniz. Finance and Operations'ın her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7, Platform güncelleştirmesi 31 ile
 
@@ -230,13 +230,13 @@ Proje tabanlı satış siparişlerini, proje sözleşmesi birden fazla finansman
 | **Başka bir özellikle mi değiştirildi?**   | Hayır. |
 | **Etkilenen ürün alanları**         | Ürün bilgileri yönetimi |
 | **Dağıtım seçeneği**              | Tümü  |
-| **Durum**                         | Platform güncelleştirmesi 24 bulunan Finance and Operations 10.0.0 sürümü itibarıyla kaldırıldı. Serbest bırakılan bir ürünün birincil anahtarının önceki bir adını kurtarmak gibi istisnai durumlarda, Microsoft'tan serbest bırakılan ürünlerin birincil anahtarlarını tekrar adlandırma işlemine bu kısıtlamayı geçici olarak kaldırmasını istemek mümkündür. |
+| **Durum**                         | Platform update 24 ile Finance and Operations 10.0.0 itibarıyla kaldırıldı. (Yalnızca, yayınlanmış bir ürünün birincil anahtarının önceki yeniden adlandırılmasından kaynaklanan veri bozulmalarını onarmanız gerekiyorsa, lütfen bu kısıtlamanın geçici olarak kaldırılmasını istemek için Microsoft Desteğine başvurun.) |
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3, Platform güncelleştirmesi 23 ile
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server Reporting Services ReportViewer Denetimi
-Müşteriler katıştırılmış SQL Server Reporting Services (SSRS) ReportViewer denetimi tarafından sağlanan **Dışa aktarma** eylemini, Finance and Operations uygulamaları tarafından üretilen belgeleri indirme için kullanabilirler. Raporun HTML tabanlı sunumu, belgenin sayfalandırılmamış önizlemesini kullanıcılara sunar.
+Müşteriler katıştırılmış SQL Server Reporting Services (SSRS) ReportViewer denetimi tarafından sağlanan **Dışa aktar** eylemini, Finance and Operations uygulamaları tarafından üretilen belgeleri indirme için kullanabilirler. Raporun HTML tabanlı sunumu, belgenin sayfalandırılmamış önizlemesini kullanıcılara sunar.
 
 |   |  |
 |------------|--------------------|
@@ -294,7 +294,7 @@ Zaman uyumlu aktarım modunu genel muhasebe parametrelerinde kaldırılıyor.  B
 | **Başka bir özellikle mi değiştirildi?**   | Evet. |
 | **Etkilenen ürün alanları**         | Genel Muhasebe |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Platform güncelleştirmesi 20 bulunan Finance and Operations 8.1 sürümü itibarıyla kaldırıldı. |
+| **Durum**                         | Platform update 20 ile Finance and Operations 8.1 itibarıyla kaldırıldı. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Rusya için finansal raporlar oluşturucusu
 Muhasebe ve vergi raporları için veri toplamak ve XLS ve DOC rapor şablonlarına dışa veri aktarmak için bir araç. İşlevsel parçalar: XLS ve DOC rapor şablonlarına, sorgularına ve sabit gereksinimlerine veri dışa aktarma kaldırıldı. 
@@ -305,7 +305,7 @@ Muhasebe ve vergi raporları için veri toplamak ve XLS ve DOC rapor şablonlar�
 | **Başka bir özellikle mi değiştirildi?**   | Evet. Finansal raporlar kullanıcı ayarı arabirimi, GL hesapları veya vergi kayıtları için veri toplama kuralları ayarlamak için kullanılmalıdır. Muhtelif veri türlerine, sabit gereksinimlere ve sorgu benzeri veri toplama kurallarına veri dışa aktarma, Elektronik raporlamada yapılandırılmalıdır. |
 | **Etkilenen ürün alanları**         | Genel muhasebe. |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Platform güncelleştirmesi 20 bulunan Finance and Operations 8.1 sürümü itibarıyla kaldırıldı. |
+| **Durum**                         | Platform update 20 ile Finance and Operations 8.1 itibarıyla kaldırıldı. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Rusya için iletişim kanalları üzerinden elektronik raporlama göndermek için dış sağlayıcılar ile tümleştirme
 Dışa aktarma özelliğini klasörüne bildirimlerinin elektronik dosyalar daha ayrıntılı olarak elektronik raporlama durumuna geri alma resmi sağlayıcı göndermek için oluşturulur.
@@ -316,7 +316,7 @@ Dışa aktarma özelliğini klasörüne bildirimlerinin elektronik dosyalar daha
 | **Başka bir özellikle mi değiştirildi?**   | Evet.  |
 | **Etkilenen ürün alanları**         | Genel Muhasebe, Vergi |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Platform güncelleştirmesi 20 bulunan Finance and Operations 8.1 sürümü itibarıyla kaldırıldı. |
+| **Durum**                         | Platform update 20 ile Finance and Operations 8.1 itibarıyla kaldırıldı. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Kar vergi kayıt sihirbazı
@@ -324,17 +324,17 @@ Yeni kar vergi kayıtları için şablonlar oluşturma özelliği. Bu özellik, 
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Özellik, Finance and Operations genişletilebilirlik modeli ile uyumlu değildir. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Finance and Operations genişletilebilirlik modeli ile uyumlu değil. |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | Vergi |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Platform güncelleştirmesi 20 bulunan Finance and Operations 8.1 sürümü itibarıyla kaldırıldı. |
+| **Durum**                         | Platform update 20 ile Finance and Operations 8.1 itibarıyla kaldırıldı. |
 
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0, Platform güncelleştirmesi 15 ile
 Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakılmamıştır. Platform Güncelleştirmesi 15 toplu güncelleştirmedir ve Platform Güncelleştirmesi 13, Platform Güncelleştirmesi 14 ve Platform Güncelleştirmesi 15'deki yeni veya değiştirilmiş özellikleri içerir.
 
-## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise edition 7.3, Platform güncelleştirmesi 12 ile
+## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise Edition 7.3, Platform update 12 ile
 
 ### <a name="personalized-product-recommendations"></a>Kişiselleştirilmiş ürün önerileri 
 15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Ürün önerilerine genel bakış](../../../commerce/product-recommendations.md).  
@@ -356,7 +356,7 @@ ER ifade oluşturucuda kullanılmak üzere özel işlevler sağlama olasılığ�
 | **Başka bir özellik ile değiştirildi?**   | Hiçbiri. Yeni bir yerleşik işlev gerektiğinde, yeni genişletme talebinin ER altyapısı ekibine bildirilmesi gerekir.<br><br>İstenen işlev ER ekibi tarafından geliştirilirken geçici bir çalışma olarak, talep edilen mantık özel uygulama sınıfı yöntemi olarak programlanabilir. Bu yönteme, eklenen ve özel uygulama sınıfına başvuruda bulunan **Application\Class** türündeki ER veri kaynağının bir özelliği olarak ER ifadesinden erişilebilir.  |
 | **Etkilenen ürün alanları**         | Elektronik raporlama çerçevesi                                                      |
 | **Dağıtım seçeneği**              | Tümü                                                                                      |
-| **Durum**                         | Finance and Operations, Enterprise edition 7.3 sürümü itibarıyla kaldırıldı.    |
+| **Durum**                         | Finance and Operations, Enterprise Edition 7.3 itibariyle kaldırıldı.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Madde grubuna göre stok ve stok boyutu yaşlandırmasına göre stok raporları
 
@@ -453,7 +453,7 @@ Kullanıcılar bu formu resmi devlet portalından indirebilir.
 | **Durum**                         |15 Şubat 2018 itibarıyla kaldırıldı. Bu, Dynamics 365 for Retail 7.2 veya sonrasını çalıştıran müşterileri etkiler. |
 
 
-## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations, Enterprise edition Temmuz 2017, Platform güncelleştirmesi 8 ile
+## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations, Enterprise Edition Temmuz 2017, Platform update 8 ile
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Muhasebe ve raporlama para birimleri için para birimi dönüştürme
 
@@ -469,12 +469,12 @@ Muhasebe ve raporlama para birimleri için para birimi dönüştürme, avro çı
 
 ### <a name="warehouse-mobile-devices-portal"></a>Ambar mobil cihazlar portalı
 
-Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için amaçlanmış bir tek bileşendir. Bu bileşen artık Finance and Operations'da desteklenmemektedir. Kullanıcı deneyimini iyileştiren bir yerel uygulama, WMDP'nin işlevinin yerini almıştır.
+Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için amaçlanmış bir tek bileşendir. Bu bileşen artık Finance and Operations'da desteklenmiyor. Kullanıcı deneyimini iyileştiren bir yerel uygulama, WMDP'nin işlevinin yerini almıştır.
 
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tekrar eden işlevsellik.       |
-| **Başka bir özellik ile değiştirildi?**   | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşullar hakkında daha fazla bilgi için bkz. [Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Başka bir özellikle mi değiştirildi?**   | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşullar hakkında daha fazla bilgi için bkz. [Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Etkilenen ürün alanları**         | Ambar yönetimi, Taşıma yönetimi     |
 | **Dağıtım seçeneği**              | Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için amaçlanmış bir tek bileşendir.               |
 | **Durum**                         | Kaldırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 2019 yılı 4. çeyreğidir.   |
@@ -825,7 +825,7 @@ Personel hedeflerini oluşturmayı yöneten iş akışı, performans yönetim i�
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Performans yönetimi, Finance and Operations'da tamamen yeniden tasarlanmıştır.     |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Performans yönetimi Finance and Operations içerisinde tümüyle baştan tasarlanmıştır.     |
 | **Başka bir özellikle mi değiştirildi?**   | Yeniden tasarlanan Performans yönetimi özelliği hedef içeriği, ilerlemeyi izlemek için kullanılan ölçümler ve destekleyici belge eki üzerinde daha fazla kontrol sağlar. Hedefler şablon olarak saklanabilir ve daha sonra yeniden kullanılabilir. Bu özellik personeliniz için ek hedefleri daha hızlı bir şekilde ayarlamanıza yardımcı olabilir. |
 | **Etkilenen ürün alanları**         | İnsan sermayesi yönetimi                 |
 | **Durum**                         | Dynamics 365 for Operations sürüm 1611 itibarıyla kaldırıldı. |
@@ -1012,8 +1012,8 @@ Veri bölümleri, Dynamics AX veritabanındaki verinin mantıksal bir ayrımın�
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Veri bölümleri, veri yalıtımı sağlamak için Dynamics AX 2012 R2'de kullanılmaya başlanmıştır. Yaygın bir senaryoda, bir şirketin bağlı kuruluşları vardır ve her iki bağlı kuruluş da aynı BT departmanı tarafından yönetilseler bile bir bağlı kuruluşun verisinin diğer bağlı kuruluşa görünür olmaması gerekir. Ancak, yeni bölümler oluşturmak, bunları veri ile doldurmak ve bölüm verilerini yedeklemek için ekstra kodlar ve program boyunca genel yönetim giderleri gerekir. Hizmet olarak platform (PaaS) veritabanına (Microsoft Azure SQL veritabanı) erişimimizin olduğu bulutta, veritabanını bir yalıtım konteyneri olarak kullanmak program içinde yalıtmaya göre çok daha etkilidir. Veri bölümlemenin bağlı kuruluşlar, çoklu kiracılar veya yalnızca ölçek için gerekli olup olmadığına bakılmaksızın, senaryoların birden çok veritabanı veya birden çok Finance and Operations kurulumları ile daha iyi işlenebileceğine inanırız. |
-| **Başka bir özellik ile değiştirildi?**   | Veritabanı düzeyinde ayırma önemli bir sorunsa, veri bölümleri kullanan müşterilerin birden çok Finance and Operations kurulumu kullanması gerekir.    |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Veri bölümleri, veri yalıtımı sağlamak için Dynamics AX 2012 R2'de kullanılmaya başlanmıştır. Yaygın bir senaryoda, bir şirketin bağlı kuruluşları vardır ve her iki bağlı kuruluş da aynı BT departmanı tarafından yönetilseler bile bir bağlı kuruluşun verisinin diğer bağlı kuruluşa görünür olmaması gerekir. Ancak, yeni bölümler oluşturmak, bunları veri ile doldurmak ve bölüm verilerini yedeklemek için ekstra kodlar ve program boyunca genel yönetim giderleri gerekir. Hizmet olarak platform (PaaS) veritabanına (Microsoft Azure SQL veritabanı) erişimimizin olduğu bulutta, veritabanını bir yalıtım konteyneri olarak kullanmak program içinde yalıtmaya göre çok daha etkilidir. Veri bölümlemenin bağlı kuruluşlar, çoklu kiracılar veya yalnızca ölçek için gerekli olup olmadığına bakılmaksızın, senaryoların birden çok veritabanı veya birden çok Finance and Operations kurulumu ile daha iyi işlenebileceğine inanırız. |
+| **Başka bir özellikle mi değiştirildi?**   | Veritabanı düzeyinde ayırma önemli bir sorunsa, veri bölümleri kullanan müşterilerin birden çok Finance and Operations kurulumu kullanması gerekir.    |
 | **Etkilenen ürün alanları**         | Tüm modüller  |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.  |
 
@@ -1346,7 +1346,7 @@ Windows 8 tablet uygulaması, gider girişi ve onayı için işlevler sağlardı
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Finance and Operations tabletlerle uyumludur. Tablet uygulaması artık gerekli değildir.    |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Finance and Operations tabletler ile uyumludur. Tablet uygulaması artık gerekli değildir.    |
 | **Başka bir özellik ile değiştirildi?**   | Hayır.          |
 | **Etkilenen ürün alanları**         | Gider yönetimi   |
 | **Durum**                         | Kaldırıldı: Bu işlev yalnızca Dynamics AX 2012 R3 için kullanılabilir. |

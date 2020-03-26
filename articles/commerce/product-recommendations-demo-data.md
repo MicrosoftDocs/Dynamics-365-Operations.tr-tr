@@ -1,9 +1,9 @@
 ---
-title: Tanıtım verilerini kullanarak ürün önerileri edinme
+title: Demo verileriyle öneriler oluşturma
 description: Bu belgeyle önceden doldurulan, ve özelleştirilebilir tanıtım verileri kullanılarak Katman 1 tek taraflı ortamlarda çoklu kanal ürün önerilerinin nasıl kullanılacağına ilişkin kılavuz sunmak amaçlanmıştır.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042792"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127848"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>Tanıtım verilerini kullanarak ürün önerileri edinme
+# <a name="create-recommendations-with-demo-data"></a>Demo verileriyle öneriler oluşturma
+
+[!include [banner](includes/banner.md)]
+
 Bu belgeyle önceden doldurulan, ve özelleştirilebilir tanıtım verileri kullanılarak Katman 1 tek taraflı ortamlarda çoklu kanal ürün önerilerinin nasıl kullanılacağına ilişkin kılavuz sunmak amaçlanmıştır.
 
 Çoklu kanal ürün önerilerinde, editör tarafından düzenlenen veya program tarafından oluşturulan bir dizi sipariş edilmiş ürünlerin listesini sunulmaktadır. Bu listeler, iş ihtiyaçlarınıza bağlı olarak birçok senaryoda kullanılabilir. Ürün önerileri listeleri hakkında daha fazla bilgi edinmek için [Ürün önerilerine genel bakış](product-recommendations.md) başlıklı makaleye bakın.
@@ -67,4 +70,22 @@ Uzantı, sahte öneri sonuçlarını güçlendirmek için kullanılan veri küme
 
 [Ürün önerilerine genel bakış](product-recommendations.md)
 
-[Ortam planlama](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme](enable-adls-environment.md)
+
+[Ürün önerilerini etkinleştir](enable-product-recommendations.md)
+
+[Kişiselleştirilmiş önerileri etkinleştirme](personalized-recommendations.md)
+
+[Kişiselleştirilmiş önerilerden vazgeçme](personalization-gdpr.md)
+
+[e-Ticaret sitesine önerisi listeleri ekleme](add-reco-list-to-page.md)
+
+[POS'ta ürün önerileri ekleme](product.md)
+
+[Hareket ekranına öneriler ekleme](add-recommendations-control-pos-screen.md)
+
+[AI-ML öneri sonuçlarını ayarlama](modify-product-recommendation-results.md)
+
+[Seçkin önerileri el ile oluşturma](create-editorial-recommendation-lists.md)
+
+[Ürün önerileri SSS](faq-recommendations.md)

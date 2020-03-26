@@ -3,7 +3,7 @@ title: Kişiselleştirilmiş önerilerden vazgeçme
 description: Bu konu, müşterilerin Microsoft Dynamics 365 Commerce'ta kişiselleştirilmiş öneriler almamasına nasıl izin verileceğini açıklamaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 01/28/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8e7b800218f68167901d86d61ae483680a04cfab
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: a6d2388e863135c2b6d51af915b606a56f0603a8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025288"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127756"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Kişiselleştirilmiş önerilerden vazgeçme
 
@@ -85,12 +85,22 @@ Aşağıdaki örnek, bir perakendecin bu görevi nasıl yerine getirebileceği g
 
 [Ürün önerilerine genel bakış](product-recommendations.md)
 
-[Ürün önerilerini etkinleştirme](enable-product-recommendations.md)
+[Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme](enable-adls-environment.md)
+
+[Ürün önerilerini etkinleştir](enable-product-recommendations.md)
 
 [Kişiselleştirilmiş önerileri etkinleştirme](personalized-recommendations.md)
 
-[Sayfalarına ürün önerileri listesi ekleme](add-reco-list-to-page.md)
+[e-Ticaret sitesine önerisi listeleri ekleme](add-reco-list-to-page.md)
 
-[POS cihazlarına öneriler paneli Ekle](add-recommendations-control-pos-screen.md)
+[POS'ta ürün önerileri ekleme](product.md)
 
-[Ürün topluluğu modülüne genel bakış](product-collection-module-overview.md)
+[Hareket ekranına öneriler ekleme](add-recommendations-control-pos-screen.md)
+
+[AI-ML öneri sonuçlarını ayarlama](modify-product-recommendation-results.md)
+
+[Seçkin önerileri el ile oluşturma](create-editorial-recommendation-lists.md)
+
+[Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
+
+[Ürün önerileri SSS](faq-recommendations.md)

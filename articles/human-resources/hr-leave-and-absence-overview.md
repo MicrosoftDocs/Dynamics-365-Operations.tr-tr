@@ -1,6 +1,6 @@
 ---
-title: Genel Bakış
-description: ''
+title: Özet
+description: Dynamics 365 Human Resources'ta **İzin ve devamsızlık** çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve, isteklerin yönetilmesi için iş akışları ve çalışanların zaman istebilmesi için sezgisel bir self servis sayfası sağlar.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a36f6b6ba696fa926ab3d6298568dddfce43a57
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010904"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091760"
 ---
-# <a name="overview"></a>Genel Bakış
+# <a name="overview"></a>Özet
 
 Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlamanıza yardımcı olur. **İzin ve devamsızlık** çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve, isteklerin yönetilmesi için iş akışları ve çalışanların zaman istebilmesi için sezgisel bir self servis sayfası sağlar. Analitik yardım kuruluşunuz, izin planlarınızın bakiyelerini ve kullanımını ölçmenize ve izlemesine yardımcı olur.
 
@@ -43,7 +43,7 @@ Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlama
 
 - [İzin ve devamsızlık türleri yapılandır](hr-leave-and-absence-types.md)
 - [İzin ve devamsızlık planı oluştur](hr-leave-and-absence-plans.md)
-- [Bir izin planına çalışan ata](hr-leave-and-absence-enroll.md)
+- [Çalışanları bir izin planına atama](hr-leave-and-absence-enroll.md)
 - [İzin ve devamsızlık planları tahakkuk etme](hr-leave-and-absence-accrue.md)
 - [Bırakma ve devamsızlık için Analizi görüntüle](hr-leave-and-absence-analytics.md)
 

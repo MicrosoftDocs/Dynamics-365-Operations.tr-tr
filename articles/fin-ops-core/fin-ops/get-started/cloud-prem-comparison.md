@@ -3,7 +3,7 @@ title: Bulut ve şirket içi özelliklerin karşılaştırması
 description: Bu konu, hangi özelliklerin Bulut ve şirket içinde desteklendiğini gösterir.
 author: sericks007
 manager: AnnBe
-ms.date: 02/24/2020
+ms.date: 03/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
-ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
+ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "3081982"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100294"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Bulut ile şirket içi özellikleri karşılaştırma
 
@@ -97,7 +97,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 | Veri yönetimi ve tümleştirmesi      |                                                                                           | Evet       | Evet             |
 |                                      | Yapılandırmaya dayalı eklenti                                                            | Evet       | Hayır              |
 |                                      | Veriyi kendi veri ambarınıza dışa aktarın                                                    | Evet       | Evet             |
-|                                      | Bir veri varlığına artımlı güncelleştirmelerin dışa aktarılmasını etkinleştirin                                 | Evet       | Hayır              |
+|                                      | Bir veri varlığına artımlı güncelleştirmelerin dışa aktarılmasını etkinleştirin                                 | Evet       | Evet              |
 |                                      | Veri tümleştirmeler                                                                         | Evet       | Evet             |
 | Belge yönetimi                  |                                                                                           | Evet       | Evet             |
 | Yardım                                 |                                                                                           | Evet       | Hayır              |

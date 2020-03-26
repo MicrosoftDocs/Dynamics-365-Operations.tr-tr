@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 14c6f7aaab4c6e4f099f47210f4d89fdfcd33d79
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030855"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124417"
 ---
 # <a name="peripherals"></a>Çevre birimleri
 
 [!include[banner](includes/banner.md)]
 
-Bu konu, perakende mağaza çevre birimleriyle ilgili kavramları açıklar. Bu çevre birimlerinin satış noktasına (POS) bağlanmasıyla ilgili çeşitli yollar ve POS ile bağlantı yönetiminden sorumlu olan bileşenler açıklanmaktadır.
+Bu konu, mağaza çevre birimleriyle ilgili kavramları açıklar. Bu çevre birimlerinin satış noktasına (POS) bağlanmasıyla ilgili çeşitli yollar ve POS ile bağlantı yönetiminden sorumlu olan bileşenler açıklanmaktadır.
 
 ## <a name="concepts"></a>Kavramlar
 
@@ -65,7 +65,7 @@ POS çevre birimleri, POS işlevleri için açıkça desteklenen cihazlardır. B
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Gezinti: **Retail and Commerce** &gt; **Kanallar** &gt; **Perakende mağazaları** &gt; **Tüm perakende mağazaları**'na tıklayın. Bir mağaza seçin ve sonra **Donanım istasyonları** FastTab'a tıklayın. **Donanım istasyonu** ayarı perakende çevresel çevre birimi mantığının dağıtıldığı kurulumları tanımlamak için kullanılan kanal düzeyindeki bir ayardır. Kanal düzeyindeki bu ayar donanım istasyonu özelliklerini belirlemek için kullanılır. Ayrıca, belirli bir mağazanın Modern POS kurulumunda kullanılabilen donanım istasyonlarını listelemek için kullanılır. Donanım istasyonu Windows ve Android için Modern POS programlarına yerleşik olarak bulunur. Donanım istasyonu bağımsız olarak tek başına bir Microsoft Internet Information Services (IIS) programı olarak dağıtılabilir. Bu durumda, ağ üzerinden erişilebilir.
+Gezinti: **Retail and Commerce** &gt; **Kanallar** &gt; **Mağazalar** &gt; **Tüm perakende mağazaları**'na tıklayın. Bir mağaza seçin ve sonra **Donanım istasyonları** FastTab'a tıklayın. **Donanım istasyonu** ayarı çevresel çevre birimi mantığının dağıtıldığı kurulumları tanımlamak için kullanılan kanal düzeyindeki bir ayardır. Kanal düzeyindeki bu ayar donanım istasyonu özelliklerini belirlemek için kullanılır. Ayrıca, belirli bir mağazanın Modern POS kurulumunda kullanılabilen donanım istasyonlarını listelemek için kullanılır. Donanım istasyonu Windows ve Android için Modern POS programlarına yerleşik olarak bulunur. Donanım istasyonu bağımsız olarak tek başına bir Microsoft Internet Information Services (IIS) programı olarak dağıtılabilir. Bu durumda, ağ üzerinden erişilebilir.
 
 ### <a name="hardware-profile"></a>Donanım profili
 
@@ -117,27 +117,30 @@ Kişisel kimlik numarası (PIN) pad'ler OPOS ile desteklenir, ancak bir ödeme b
 ## <a name="supported-interfaces"></a>Desteklenen arabirimler
 ### <a name="opos"></a>OPOS
 
-Commerce ile en geniş cihaz yelpazesinin kullanılabilmesini sağlamaya yardımcı olmak amacıyla, POS endüstri standardı için OLE, desteklenen birincil perakende çevre birim cihazı platformudur. POS standardı için OLE, perakende çevre birim cihazları için endüstri standardı iletişim protokollerini belirleyen Ulusal Perakende Federasyonu (NFR) tarafından üretilmiştir. OPOS, POS standardı için OLE'nin yaygın olarak benimsenen bir uygulamasıdır. 1990'ların ortalarında geliştirilmiştir ve o günden bu yana birkaç kez güncelleştirilmiştir. OPOS, POS donanımının Windows tabanlı POS sistemleri ile kolay tümleştirilmesini sağlayan bir aygıt sürücüsü mimarisi sağlar. OPOS uyumlu donanım ile POS yazılımı arasındaki iletişimi denetler. OPOS denetimi iki bölümden oluşur:
+Commerce ile en geniş cihaz yelpazesinin kullanılabilmesini sağlamaya yardımcı olmak amacıyla, POS endüstri standardı için OLE, desteklenen birincil çevre birim cihazı platformudur. POS standardı için OLE, çevre birim cihazları için endüstri standardı iletişim protokollerini belirleyen Ulusal Perakende Federasyonu (NFR) tarafından üretilmiştir. OPOS, POS standardı için OLE'nin yaygın olarak benimsenen bir uygulamasıdır. 1990'ların ortalarında geliştirilmiştir ve o günden bu yana birkaç kez güncelleştirilmiştir. OPOS, POS donanımının Windows tabanlı POS sistemleri ile kolay tümleştirilmesini sağlayan bir aygıt sürücüsü mimarisi sağlar. OPOS uyumlu donanım ile POS yazılımı arasındaki iletişimi denetler. OPOS denetimi iki bölümden oluşur:
 
 -   **Denetim nesnesi** – Bir cihaz sınıfı için denetim nesnesi (satır görüntülemeler gibi) yazılım programı için arabirim sağlar. Monroe Danışmanlık Hizmetleri ([www.monroecs.com](http://www.monroecs.com/)) genel denetim nesneleri (CCOs) olarak bilinen standartlaştırılmış OPOS denetim nesneleri kümesi sağlar. CCO'lar, Commerce'in POS bileşenlerini test etmekte kullanılır. Bu nedenle, Commerce bir cihaz sınıfını OPOS aracılığıyla destekliyorsa, üreticinin OPOS için oluşturulmuş bir hizmet nesnesi sağlaması durumunda, test birçok cihaz türünün desteklenebilmesini garanti etmeye yardımcı olur. Her cihaz türünü açıkça test etmeniz gerekmez.
 -   **Hizmet nesnesi** – Hizmet nesnesi denetim nesnesi (CCO) ile cihaz arasındaki iletişimi sağlar. Genellikle, bir cihaz için hizmet nesnesi cihaz üreticisi tarafından sağlanır. Ancak, bazı durumlarda, hizmet nesnesini üreticisinin web sitesinden indirmeniz gerekebilir. Örneğin, daha yeni bir hizmet nesnesi mevcut olabilir. Üreticinin web sitesi adresini bulmak için donanım belgelerinize bakın.
 
-[![Denetim nesnesi ve hizmet nesnesi](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) POS için OLE'nin OPOS uygulanması için destek, cihaz üreticileri ve POS yayımcıların standardı doğru uygulaması durumunda, POS sistemleri ve desteklenen cihazların, daha önce birlikte test edilmemiş olsalar bile, birlikte çalışabileceklerini garanti etmeye yardımcı olur. **Not:** OPOS desteği OPOS sürücülerine sahip tüm cihazlar için destek garanti etmez. Microsoft Dynamics 365 for Retail OPOS aracılığıyla öncelikle cihaz türünü veya sınıfını desteklemelidir. Ayrıca, hizmet nesneleri CCO'ların en son sürümü ile daima güncel olmayabilir. Ayrıca, genel olarak, hizmet nesnelerinin kalitesinin farklılık gösterdiğini de unutmamanız gerekir.
+[![Denetim nesnesi ve hizmet nesnesi](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) POS için OLE'nin OPOS uygulanması için destek, cihaz üreticileri ve POS yayımcıların standardı doğru uygulaması durumunda, POS sistemleri ve desteklenen cihazların, daha önce birlikte test edilmemiş olsalar bile, birlikte çalışabileceklerini garanti etmeye yardımcı olur. 
+
+> [!NOTE]
+> OPOS desteği OPOS sürücülerine sahip tüm cihazlar için destek garanti etmez. Commerce önce OPOS aracılığıyla cihaz türünü veya sınıfını desteklemelidir. Ayrıca, hizmet nesneleri CCO'ların en son sürümü ile daima güncel olmayabilir. Ayrıca, genel olarak, hizmet nesnelerinin kalitesinin farklılık gösterdiğini de unutmamanız gerekir.
 
 ### <a name="windows"></a>Windows
 
-POS'ta makbuz yazdırm OPOS için optimize edilmiştir. OPOS Windows ile yazdırmaya göre daha hızlı olma eğilimindedir. Bu nedenle, özellikle 40 sütunlu makbuzların yazdırıldığı ve hareket sürelerinin hızlı olduğu perakende ortamlarında OPOS kullanmak iyi bir fikirdir. Çoğu cihaz için OPOS denetimleri kullanacaksınız. Ancak, bazı OPOS makbuz yazıcılar Windows sürücüleri de destekler. Windows sürücüsü kullanarak, son yazı tiplerine ve birden çok kasa için bir ağ yazıcısına erişebilirsiniz. Ancak, Windows sürücüleri kullanmanın dezavantajları vardır. Aşağıda bazı dezavantaj örnekleri verilmiştir:
+POS'ta makbuz yazdırm OPOS için optimize edilmiştir. OPOS Windows ile yazdırmaya göre daha hızlı olma eğilimindedir. Bu nedenle, özellikle 40 sütunlu makbuzların yazdırıldığı ve hareket sürelerinin hızlı olduğu ortamlarında OPOS kullanmak iyi bir fikirdir. Çoğu cihaz için OPOS denetimleri kullanacaksınız. Ancak, bazı OPOS makbuz yazıcılar Windows sürücüleri de destekler. Windows sürücüsü kullanarak, son yazı tiplerine ve birden çok kasa için bir ağ yazıcısına erişebilirsiniz. Ancak, Windows sürücüleri kullanmanın dezavantajları vardır. Aşağıda bazı dezavantaj örnekleri verilmiştir:
 
 -   Windows sürücüleri kullanıldığında, görüntüler yazdırma oluşmadan önce işlenir. Bu nedenle, yazdırma OPOS denetimleri kullanan yazıcılara göre daha yavaş olma eğilimindedir.
 -   Yazıcı aracılığıyla bağlanan cihazlar ("papatya zinciri") Windows sürücüleri kullanıldığında düzgün çalışmayabilir. Örneğin, kasa çekmecesi açılamayabilir veya slip yazıcısı beklediğiniz gibi çalışmayabilir.
--   Ayrıca OPOS kağıt kesme veya slip yazdırma gibi perakende makbuz yazıcılara özgü daha geniş bir değişkenler kümesini destekler.
+-   Ayrıca OPOS kağıt kesme veya slip yazdırma gibi makbuz yazıcılara özgü daha geniş bir değişkenler kümesini destekler.
 -   Windows yazıcıları, IIS donanım istasyonu aracılığıyla desteklenmez. 
 
 Kullanmakta olduğunuz Windows yazıcı için OPOS denetimleri varsa, yazıcı yine de Commerce ile düzgün şekilde çalışmalıdır.
 
 ### <a name="universal-windows-platform"></a>Evrensel Windows Platformu
 
-UWP, perakende çevre birimleri söz konusu olduğunda, Tak ve Kullan cihazlar için Windows desteğiyle ilgilidir. Bu tür bir aygıtı destekleyen bir Windows işletim sistemi sürümüne bir Tak ve Kullan cihaz bağlandığında, cihazın gerektiği gibi kullanılması için sürücü gerekli değildir. Örneğin, Windows Bluetooth hoparlör cihazı algılarsa, İşletim Sistemi cihazın **Hoparlör** sınıf türünde olduğunu bilir. Bu nedenle, ve bu cihazı bir hoparlör olarak kabul eder. Ek kurulum gerekli değildir. POS cihazları durumunda, pek çok USB cihazı takılabilir ve Windows bunları İnsan Arabirim Aygıtları (HID) olarak tanıyacaktır. Ancak, cihaz sınıf veya cihaz türü belirtmediğinden, cihazın sağladığı özelliklerin belirlenmesi mümkün olmayabilir. Windows 10'da, barkod tarayıcılar ve MSR'ler için cihaz sınıfları eklenmiştir. Bu nedenle, cihaz kendisini Windows 10'a bu sınıflardan birine ait bir cihaz olarak bildirirse, Windows cihazdan gelen olayları uygun zamanlarda dinleyecektir. Modern POS UWP MSR'leri ve tarayıcıları destekler. Bu nedenle, bu cihazların birinden gelen bir giriş için hazır olduğunda ve bu sınıfların birine ait bir cihaz bağlandığında, cihaz kullanılabilir. Örneğin, bir UWP barkod tarayıcı Windows 10 bilgisayara takılırsa ve barkod oturum açma Modern POS için yapılandırılırsa, barkod tarayıcı oturum açma ekranı üzerinde etkin hale gelir. Ek kurulum gerekli değildir. Hizmet noktası UWP cihazlarının ek sınıfları Windows'a eklenir. Bu sınıflar, nakit çekmecesi ve makbuz yazıcıları sınıflarıdır. Modern POS'ta bu yeni sınıflar için destek beklemededir.
+UWP, çevre birimleri söz konusu olduğunda, Tak ve Kullan cihazlar için Windows desteğiyle ilgilidir. Bu tür bir aygıtı destekleyen bir Windows işletim sistemi sürümüne bir Tak ve Kullan cihaz bağlandığında, cihazın gerektiği gibi kullanılması için sürücü gerekli değildir. Örneğin, Windows Bluetooth hoparlör cihazı algılarsa, İşletim Sistemi cihazın **Hoparlör** sınıf türünde olduğunu bilir. Bu nedenle, ve bu cihazı bir hoparlör olarak kabul eder. Ek kurulum gerekli değildir. POS cihazları durumunda, pek çok USB cihazı takılabilir ve Windows bunları İnsan Arabirim Aygıtları (HID) olarak tanıyacaktır. Ancak, cihaz sınıf veya cihaz türü belirtmediğinden, cihazın sağladığı özelliklerin belirlenmesi mümkün olmayabilir. Windows 10'da, barkod tarayıcılar ve MSR'ler için cihaz sınıfları eklenmiştir. Bu nedenle, cihaz kendisini Windows 10'a bu sınıflardan birine ait bir cihaz olarak bildirirse, Windows cihazdan gelen olayları uygun zamanlarda dinleyecektir. Modern POS UWP MSR'leri ve tarayıcıları destekler. Bu nedenle, bu cihazların birinden gelen bir giriş için hazır olduğunda ve bu sınıfların birine ait bir cihaz bağlandığında, cihaz kullanılabilir. Örneğin, bir UWP barkod tarayıcı Windows 10 bilgisayara takılırsa ve barkod oturum açma Modern POS için yapılandırılırsa, barkod tarayıcı oturum açma ekranı üzerinde etkin hale gelir. Ek kurulum gerekli değildir. Hizmet noktası UWP cihazlarının ek sınıfları Windows'a eklenir. Bu sınıflar, nakit çekmecesi ve makbuz yazıcıları sınıflarıdır. Modern POS'ta bu yeni sınıflar için destek beklemededir.
 
 ### <a name="keyboard-wedge"></a>Klavye emülasyonu
 
@@ -155,13 +158,13 @@ Ağa adreslenebilir kasa çekmeceleri, makbuz yazıcıları ve ödeme terminalle
 
 ### <a name="dedicated"></a>Özel
 
-Windows ve Android için Modern POS istemcileri ve **adanmış** veya yerleşik donanım istasyonları vardır. Bu istemciler, uygulamalara yerleşik iş mantığını kullanan çevre birimleri ile doğrudan iletişim kurabilir. Android uygulama yalnızca ağ aygıtlarını destekliyor. Android için Çevre birimi desteği hakkında daha fazla bilgi için (Android ve iOS'da POS Hybrid uygulaması kurma)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp] makalesini ziyaret edin.
+Windows ve Android için Modern POS istemcileri ve **adanmış** veya yerleşik donanım istasyonları vardır. Bu istemciler, uygulamalara yerleşik iş mantığını kullanan çevre birimleri ile doğrudan iletişim kurabilir. Android uygulama yalnızca ağ aygıtlarını destekliyor. Android için Çevre birimi desteği hakkında daha fazla bilgi için [Android ve iOS'da POS Hybrid uygulaması kurma](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp) makalesini ziyaret edin.
 
 Adanmış donanım istasyonunu kullanmak için, Windows ve Android için Modern POS uygulamasını kullanacak bir kasaya bir donanım profili atayın. Sonra kasanın kullanılacağı mağaza için **Adanmış** türde bir donanım istasyonu oluşturun. Modern POS 'u çekmece dışı modda başlatıp donanım istasyon yeteneklerini açmak için **donanım istasyonlarını yönetimi** işlemini kullanın, adanmış donanım istasyonu varsayılan olarak etkin olur. Daha sonra, Modern POS oturumunu kapatın, sonra yeniden oturum açın ve donanım profilinde yapılandırılan çevre birimleri kullanılabilir. 
 
 ### <a name="shared"></a>Paylaştırılmış 
 
-Ayrıca bazen, POS uygulamasının Microsoft Internet Information Services aracılığıyla donanım istasyonuna bağlandığı "IIS" donanım istasyonu, "IIS" olduğu da denir. POS uygulaması IIS donanım istasyonuna cihazların bağlandığı bilgisayarda çalışan web hizmetleri aracılığıyla bağlanır. Paylaşılan donanım istasyonu kullanıldığında, donanım istasyonuna bağlanan perakende çevrebirimleri IIS donanım istasyonuyla aynı ağda olan herhangi bir POS kasası tarafından kullanılabilir. Yalnızca Windows ve Android için Modern POS perakende çevre birimleri için yerleşik destek içerdiğinden, diğer tüm Modern POS uygulamalarının donanım profilinde yapılandırılmış POS çevre birimleri ile iletişim kurmak için IIS donanım istasyonunu kullanması gerekir. Bu nedenle, IIS donanım istasyonun her kurulumu web hizmetini çalıştıran bir bilgisayar ve cihazlarla iletişim kuran uygulama gerektirir. 
+Ayrıca bazen, POS uygulamasının Microsoft Internet Information Services aracılığıyla donanım istasyonuna bağlandığı "IIS" donanım istasyonu, "IIS" olduğu da denir. POS uygulaması IIS donanım istasyonuna cihazların bağlandığı bilgisayarda çalışan web hizmetleri aracılığıyla bağlanır. Paylaşılan donanım istasyonu kullanıldığında, donanım istasyonuna bağlanan çevrebirimleri IIS donanım istasyonuyla aynı ağda olan herhangi bir POS kasası tarafından kullanılabilir. Yalnızca Windows ve Android için Modern POS çevre birimleri için yerleşik destek içerdiğinden, diğer tüm Modern POS uygulamalarının donanım profilinde yapılandırılmış POS çevre birimleri ile iletişim kurmak için IIS donanım istasyonunu kullanması gerekir. Bu nedenle, IIS donanım istasyonun her kurulumu web hizmetini çalıştıran bir bilgisayar ve cihazlarla iletişim kuran uygulama gerektirir. 
 
 Paylaşılan donanım istasyonu, çevre birimlerinin birden çok satış noktası tarafından paylaşılmasını sağlamak için veya tek bir satış noktası için taahhüt edilen küme veya çevrebirimleri yönetmek için kullanılabilir. 
 
@@ -179,7 +182,7 @@ Donanım profilindeki cihazlar için ağ tanımlaması kasa çekmecelerinin, mak
 
 #### <a name="modern-pos-for-windows"></a>Windows için Modern POS
 
-Ağ çevre birimleri için IP adreslerini iki yerde belirtebilirsiniz. Modern POS Windows istemcisi tek bir ağ çevre birimleri kümesi kullanıyorsa, bu cihazların IP adreslerini kasanın kendi Eylem Bölmesinde **IP yapılandırması** seçeneğini kullanarak ayarlamanız gerekir. Ağ cihazlarının POS kasaları arasında paylaştırılacak olması durumunda, kendisine atanmış ağ cihazları olan bir donanım profili doğrudan paylaşılan donanım istasyonuyla eşlenebilir. IP adreslerini atamak için, **Mağazalar** sayfasında bu donanım istasyonunu seçin ve sonra **Donanım istasyonları** bölümündeki **IP yapılandırması** seçeneğini seçerek bu donanım istasyonuna atanan ağ cihazlarını belirtin. Yalnızca ağ cihazlarına sahip donanım istasyonları için, donanım istasyonunun kendisini dağıtmak zorunda değilsiniz. Bu durumda, donanım istasyonu yalnızca ağa adreslenebilir cihazları perakende mağazadaki konumlarına göre kavramsal olarak gruplamak için gereklidir.
+Ağ çevre birimleri için IP adreslerini iki yerde belirtebilirsiniz. Modern POS Windows istemcisi tek bir ağ çevre birimleri kümesi kullanıyorsa, bu cihazların IP adreslerini kasanın kendi Eylem Bölmesinde **IP yapılandırması** seçeneğini kullanarak ayarlamanız gerekir. Ağ cihazlarının POS kasaları arasında paylaştırılacak olması durumunda, kendisine atanmış ağ cihazları olan bir donanım profili doğrudan paylaşılan donanım istasyonuyla eşlenebilir. IP adreslerini atamak için, **Mağazalar** sayfasında bu donanım istasyonunu seçin ve sonra **Donanım istasyonları** bölümündeki **IP yapılandırması** seçeneğini seçerek bu donanım istasyonuna atanan ağ cihazlarını belirtin. Yalnızca ağ cihazlarına sahip donanım istasyonları için, donanım istasyonunun kendisini dağıtmak zorunda değilsiniz. Bu durumda, donanım istasyonu yalnızca ağa adreslenebilir cihazları mağazadaki konumlarına göre kavramsal olarak gruplamak için gereklidir.
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>İOS için Bulut ve Modern POS
 
@@ -192,11 +195,11 @@ Bilgi için bkz. [Donanım istasyonunu yapılandırma ve yükleme](retail-hardwa
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Windows için Modern POS kurulumu ve yapılandırması
 
-Daha fazla bilgi için bkz. [Retail Modern POS'u yapılandırma, yükleme ve etkinleştirme](retail-modern-pos-device-activation.md).
+Daha fazla bilgi için bkz. [Modern POS'u (MPOS) yapılandırma, yükleme ve etkinleştirme](retail-modern-pos-device-activation.md).
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Android ve iOS için Modern POS kurulumu ve yapılandırması
 
-Bilgi için bkz. (Android ve iOS'ta POS Hybrid uygulamasını ayarlama)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp].
+Bilgi için bkz. [Android ve iOS'ta POS Hybrid uygulamasını ayarlama](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS cihazı kurma ve yapılandırma
 
@@ -283,14 +286,14 @@ Ağ çevre birimleri doğrudan Windows ve Android uygulamaları için Modern POS
 <td>Keşideci</td>
 <td><ul>
 <li>OPOS</li>
-<li>Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</li>
+<li>Ağ </br><strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Çekmece 2</td>
 <td><ul>
 <li>OPOS</li>
-<li>Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</li>
+<li>Ağ </br><strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -333,7 +336,8 @@ Ağ çevre birimleri doğrudan Windows ve Android uygulamaları için Modern POS
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>"Paylaşılan" bir IIS donanım istasyonu olan tüm Modern POS istemcileri
 
-**Not:** IIS donanım istasyonu "adanmış" olduğunda, POS istemcisi ile donanım istasyonu arasında bire bir ilişki bulunur.
+> [!NOTE]
+> IIS donanım istasyonu "adanmış" olduğunda, POS istemcisi ile donanım istasyonu arasında bire bir ilişki bulunur.
 
 <table>
 <colgroup>
@@ -373,7 +377,7 @@ Ağ çevre birimleri doğrudan Windows ve Android uygulamaları için Modern POS
 <td>Keşideci</td>
 <td><ul>
 <li>OPOS</li>
-<li>Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</li>
+<li>Ağ </br><strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -415,7 +419,8 @@ Ağ çevre birimleri doğrudan Windows ve Android uygulamaları için Modern POS
 
 ### <a name="all-modern-pos-clients-shared-an-iis-hardware-station"></a>Paylaşılan bir IIS donanım istasyonu olan tüm Modern POS istemcileri
 
-**Not:** IIS donanım istasyonu "paylaşıldığında", aynı anda birden çok cihaz donanım istasyonunu kullanabilir. Bu senaryoda, yalnızca aşağıdaki tabloda listelenen cihazları kullanmanız gerekir. Barkod tarayıcılar ve MSR'ler gibi burada listelenmeyen cihazları paylaştırmayı denerseniz, birden fazla cihaz aynı çevre birimden talepte bulunmaya çalıştığında hatalar oluşacaktır. Gelecekte bu tür bir yapılandırma açıkça engellenecektir.
+> [!NOTE]
+> IIS donanım istasyonu "paylaşıldığında", aynı anda birden çok cihaz donanım istasyonunu kullanabilir. Bu senaryoda, yalnızca aşağıdaki tabloda listelenen cihazları kullanmanız gerekir. Barkod tarayıcılar ve MSR'ler gibi burada listelenmeyen cihazları paylaştırmayı denerseniz, birden fazla cihaz aynı çevre birimden talepte bulunmaya çalıştığında hatalar oluşacaktır. Gelecekte bu tür bir yapılandırma açıkça engellenecektir.
 
 <table>
 <colgroup>
@@ -447,7 +452,7 @@ Ağ çevre birimleri doğrudan Windows ve Android uygulamaları için Modern POS
 <td>Keşideci</td>
 <td><ul>
 <li>OPOS</li>
-<li>Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</li>
+<li>Ağ </br><strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -476,8 +481,12 @@ Bu yapılandırma geleneksel, sabit POS kasalar için en genel yapılandırmadı
 
 1.  Tüm gerekli çevrebirimlerin yapılandırıldığı bir donanım profili oluşturun.
 2.  Donanım profilini POS kasayla eşleyin.
-3.  POS kasanın kullanılacağı perakende mağaza için **Adanmış** türde bir donanım istasyonu oluşturun. Açıklama isteğe bağlıdır. **Not:** Donanım istasyonunda diğer özellikleri ayarlamanız gerekmez. Donanım profili gibi gerekli tüm diğer bilgiler, kasanın kendisinden gelecektir.
-4.  **Perakende ve ticaret** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
+3.  POS kasanın kullanılacağı mağaza için **Adanmış** türde bir donanım istasyonu oluşturun. Açıklama isteğe bağlıdır. 
+
+    > [!NOTE]
+    > Donanım istasyonunda diğer özellikleri ayarlamanız gerekmez. Donanım profili gibi gerekli tüm diğer bilgiler, kasanın kendisinden gelecektir.
+
+4.  **Retail ve Commerce** &gt; **Retail ve Commerce BT** &gt; **Dağıtım planı**'na gidin.
 5.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
 6.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
 7.  Windows için Modern POS'u yükleyin ve etkinleştirin.
@@ -485,29 +494,30 @@ Bu yapılandırma geleneksel, sabit POS kasalar için en genel yapılandırmadı
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Android için Modern POS, IPC (yerleşik) donanım istasyonu ile
 
-**10.0.8 için yeni** - Epson ağ yazıcıları ve bu yazıcılara, DK bağlantı noktasıyla bağlı nakit çekmeenlerin şimdi Modern POS fo Android uygulaması için desteklenmektedir. Ayrıntılar için (Android ve iOS için POS Hybrid uygulama kurulumu)[https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp] makalesini ziyaret edin.
+**10.0.8 için yeni** - Epson ağ yazıcıları ve bu yazıcılara, DK bağlantı noktasıyla bağlı nakit çekmeenlerin şimdi Modern POS fo Android uygulaması için desteklenmektedir. Ayrıntılar için [Android ve iOS için POS Hybrid uygulama kurulumu](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp) makalesini ziyaret edin.
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Paylaşılan bir IIS donanım istasyonu olan tüm Modern POS istemcileri
 
 Bu yapılandırma, özellikle bir POS kasası tarafından kullanılan donanım istasyonu bulunan tüm Modern POS istemcileri için kullanılabilir. Bu yapılandırmayı kurmak için aşağıdaki adımları izleyin.
 
 1.  Tüm gerekli çevrebirimlerin yapılandırıldığı bir donanım profili oluşturun.
-2.  POS kasanın kullanılacağı perakende mağaza için **Adanmış** türde bir donanım istasyonu oluşturun.
+2.  POS kasanın kullanılacağı mağaza için **Adanmış** türde bir donanım istasyonu oluşturun.
 3.  Adanmış donanım istasyonunda aşağıdaki özellikleri ayarlayın:
     -   **Ana bilgisayar adı** – Donanım istasyonunun çalışacağı ana bilgisayarın adı. 
     
-    **Not:** Bulut POS Bulut POS'un çalıştığı yerel bilgisayarı belirlemek için **localhost**'u çözebilir. Ancak, Bulut POS'u donanım istasyonuyla eşleştirmek için gerekli olan sertfikada bilgisayar adı olarak "Localhost" bulunmalıdır. Sorunları önlemek için, gerektiğinde, mağaza için her adanmış donanım istasyonu kurulumunu listelemenizi öneririz. Her donanım istasyonu için ana bilgisayar adı, donanım istasyonunun dağıtılacağı belirli bilgisayarın adı olmalıdır.
+        > [!NOTE]
+        > Bulut POS Bulut POS'un çalıştığı yerel bilgisayarı belirlemek için **localhost**'u çözebilir. Ancak, Bulut POS'u donanım istasyonuyla eşleştirmek için gerekli olan sertfikada bilgisayar adı olarak "Localhost" bulunmalıdır. Sorunları önlemek için, gerektiğinde, mağaza için her adanmış donanım istasyonu kurulumunu listelemenizi öneririz. Her donanım istasyonu için ana bilgisayar adı, donanım istasyonunun dağıtılacağı belirli bilgisayarın adı olmalıdır.
     
     -   **Bağlantı noktası** – Modern POS istemcisiyle iletişim kurmak için donanım istasyonunun kullandığı bağlantı noktası.
     -   **Donanım profili** – Donanım profili donanım istasyonunun kendisinde sağlanmadıysa, kasaya atanan donanım profili kullanılır.
     -   **EFT POS numarası** – EFT kimlik doğrulamaları gönderildiğinde kullanılan EFT terminali kimliği. Bu kimlik kredi kartı işlemcisi tarafından sağlanır.
     -   **Paket adı** – Donanım istasyonu dağıtıldığında kullanılan donanım istasyonu paketi.
 
-4.  **Perakende ve ticaret** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
+4.  **Retail ve Commerce** &gt; **Retail ve Commerce BT** &gt; **Dağıtım planı**'na gidin.
 5.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
 6.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
 7.  Donanım istasyonunu yükleyin. Donanım istasyonu yükleme hakkında daha fazla bilgi için bkz. [Retail hardware station'ı yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
-8.  Modern POS'u yükleyin ve etkinleştirin. Modern POS yükleme hakkında daha fazla bilgi için bkz. [Retail Modern POS'u (MPOS) yapılandırma, yükleme ve etkinleştirme](retail-modern-pos-device-activation.md).
+8.  Modern POS'u yükleyin ve etkinleştirin. Modern POS yükleme hakkında daha fazla bilgi için bkz. [Modern POS (MPOS) yapılandırma, yükleme ve etkinleştirme](retail-modern-pos-device-activation.md).
 9.  Modern POS için oturum açın ve **Çekmece işlemi olmayan işlem gerçekleştir**'i seçin.
 10. **Donanım istasyonlarını yönet** işlemini başlatın.
 11. **Yönet**'e tıklayın.
@@ -521,7 +531,7 @@ Bu yapılandırma, özellikle bir POS kasası tarafından kullanılan donanım i
 Bu yapılandırma, donanım istasyonlarını diğer aygıtlarla paylaşan tüm Modern POS istemcileri için kullanılabilir. Bu yapılandırmayı kurmak için aşağıdaki adımları izleyin.
 
 1.  Gerekli çevrebirimlerin yapılandırıldığı bir donanım profili oluşturun.
-2.  POS kasanın kullanılacağı perakende mağaza için **Paylaştırılmış** türde bir donanım istasyonu oluşturun.
+2.  POS kasanın kullanılacağı mağaza için **Paylaşılan** türde bir donanım istasyonu oluşturun.
 3.  Paylaştırılmış donanım istasyonunda aşağıdaki özellikleri ayarlayın:
     -   **Ana bilgisayar adı** – Donanım istasyonunun çalışacağı ana bilgisayarın adı.
     -   **Açıklama** – Donanım istasyonunu tanımlamaya yardımcı olan **İadeler** veya **Ön mağaza** gibi bir metin.
@@ -531,11 +541,11 @@ Bu yapılandırma, donanım istasyonlarını diğer aygıtlarla paylaşan tüm M
     -   **Paket adı** – Donanım istasyonu dağıtıldığında kullanılan donanım istasyonu paketi.
 
 4.  Mağazadaki gerekli her ek donanım istasyon için 2 ve 3 numaralı adımları yineleyin.
-5.  **Perakende ve ticaret** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
+5.  **Retail ve Commerce** &gt; **Retail ve Commerce BT** &gt; **Dağıtım planı**'na gidin.
 6.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
 7.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
 8.  2 ve 3 numaralı adımlarda kurduğunuz her ana bilgisayara donanım istasyonunu yükleyin. Donanım istasyonu yükleme hakkında daha fazla bilgi için bkz. [Retail hardware station'ı yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
-9.  Modern POS'u yükleyin ve etkinleştirin. Modern POS yükleme hakkında daha fazla bilgi için bkz. [Retail Modern POS (MPOS) yapılandırma, yükleme ve etkinleştirme](retail-modern-pos-device-activation.md).
+9.  Modern POS'u yükleyin ve etkinleştirin. Modern POS yükleme hakkında daha fazla bilgi için bkz. [Modern POS (MPOS) yapılandırma, yükleme ve etkinleştirme](retail-modern-pos-device-activation.md).
 10. Modern POS için oturum açın ve **Çekmece işlemi olmayan işlem gerçekleştir**'i seçin.
 11. **Donanım istasyonlarını yönet** işlemini başlatın.
 
@@ -546,7 +556,8 @@ Bu yapılandırma, donanım istasyonlarını diğer aygıtlarla paylaşan tüm M
 16. Gerekli donanım istasyonları eşleştirdikten sonra **Kapat**'a tıklayın.
 17. Donanım istasyonu seçimi sayfasında, son seçilen donanım istasyonunu etkin hale getirmek için tıklayın. 
 
-**Not:** Cihazlar genellikle farklı donanım istasyonları kullanıyorsa, Modern POS'u kasiyerlerden ödeme işlemini başlatırken bir donanım istasyonu seçmelerini isteyecek şekilde yapılandırmanızı öneririz. **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** üzerine tıklayın. Kasayı seçin ve ardından **Ödeme sırasında seç** seçeneğini **Evet** olarak ayarlayın. Değişiklikleri kanal veritabanıyla eşitlemek için **1090** dağıtım planını kullanın.
+> [!NOTE]
+> Cihazlar genellikle farklı donanım istasyonları kullanıyorsa, Modern POS'u kasiyerlerden ödeme işlemini başlatırken bir donanım istasyonu seçmelerini isteyecek şekilde yapılandırmanızı öneririz. **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Yazar kasalar** öğesine tıklayın. Kasayı seçin ve ardından **Ödeme sırasında seç** seçeneğini **Evet** olarak ayarlayın. Değişiklikleri kanal veritabanıyla eşitlemek için **1090** dağıtım planını kullanın.
 
 ## <a name="extensibility"></a>Genişletilebilirlik
 Donanım istasyonu için genişletilebilirlik senaryoları hakkında daha fazla bilgi için bkz. [Donanım İstasyonu genişletilebilirliği](dev-itpro/hardware-station-extensibility.md).
@@ -554,12 +565,14 @@ Donanım istasyonu için genişletilebilirlik senaryoları hakkında daha fazla 
 ## <a name="security"></a>Güvenlik
 Geçerli güvenlik standartlarına göre aşağıdaki ayarları üretim ortamında kullanılmalıdır: 
 
-**Not:** Donanım istasyonu yükleyicisi bu kayıt defteri düzenlemelerini Self Servis hizmeti üzerinden yüklemenin bir parçası olarak otomatik olarak yapar.
-
+### <a name="hardware-station-installer"></a>Donanım istasyonu yükleyici
+Donanım istasyonu yükleyicisi bu kayıt defteri düzenlemelerini Self Servis hizmeti üzerinden yüklemenin bir parçası olarak otomatik olarak yapar.
+ 
 -   Güvenli Yuva Katmanı (SSL) devre dışı bırakılmalıdır.
 -   Yalnızca Aktarım Katmanı Güvenliği (TLS) sürüm 1.2 (veya geçerli en yüksek sürüm) etkinleştirilmeli ve kullanılmalıdır. 
 
-**Not:** Varsayılan olarak, SSL ve TLS 1.2 dışındaki tüm TLS sürümleri devre dışı bırakılır. Bu değerleri düzenlemek veya etkinleştirmek için şu adımları izleyin:
+### <a name="ssl-and-tls"></a>SSL ve TLS
+Varsayılan olarak, SSL ve TLS 1.2 dışındaki tüm TLS sürümleri devre dışı bırakılır. Bu değerleri düzenlemek veya etkinleştirmek için şu adımları izleyin:
     1.  **Çalıştır** penceresini açmak için Windows logı tuşuyla birlikte R'ye basın.
     2.  **Aç** alanına, **Regedit** yazıp **Tamam**'a tıklayın.
     3.  Bir **Kullanıcı Hesabı Denetimi** ileti kutusu görüntülenirse, **Evet**'e tıklayın.
@@ -580,10 +593,11 @@ Geçerli güvenlik standartlarına göre aşağıdaki ayarları üretim ortamın
 -   Çapraz kaynaklı kaynak paylaşımını devre dışı bırakılmalı ve kabul edilen izin verilen kaynaklar belirtilmelidir.
 -   Yalnızca güvenilen sertifika yetkilileri, donanım istasyonu çalıştıran bilgisayarlarda kullanılacak sertifikaları almak için kullanılmalıdır.
 
-**Not:** IIS için güvenlik yönergelerini ve Ödeme Kartı Endüstrisi (PCI) gereksinimlerini gözden geçirmeniz çok önemlidir.
+> [!NOTE]
+> IIS için güvenlik yönergelerini ve Ödeme Kartı Endüstrisi (PCI) gereksinimlerini gözden geçirmeniz çok önemlidir.
 
 ## <a name="peripheral-simulator"></a>Çevre birimi benzeticisi
-Bilgi için bkz. [Retail için çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md).
+Bilgi için bkz. [Commerce için çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Microsoft tarafından test edilmiş çevre birim cihazları
 ### <a name="ipc-built-in-hardware-station"></a>IPC (yerleşik) donanım istasyonu
@@ -736,7 +750,10 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile adanmış
 
 ### <a name="shared-iis-hardware-station"></a>Paylaştırılmış IIS donanım istasyonu
 
-Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaştırılmış IIS donanım istasyonu kullanılarak sınanmıştır. **Not:** Sadece bir yazıcı, ödeme terminali ve kasa çekmecesi desteklenir.
+Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaştırılmış IIS donanım istasyonu kullanılarak sınanmıştır. 
+
+> [!NOTE]
+> Sadece bir yazıcı, ödeme terminali ve kasa çekmecesi desteklenir.
 
 #### <a name="printer"></a>Yazıcı
 
@@ -793,7 +810,7 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaşt�
 **Çözüm:** Bu sorunun tipik bazı nedenleri şunlardır:
 
 -   Diğer aygıt sürücüsü yapılandırma yardımcı programlarının kapalı olduğundan emin olun. Bu yardımcı programlar açıksa, Modern POS veya donanım istasyonunun cihazdan talepte bulunmasını engelleyebilir.
--   Perakende çevre birimi birden fazla POS cihazıyla paylaşılıyorsa, aşağıdaki kategorilerden birine ait olduğundan emin olun:
+-   Çevre birimi birden fazla POS cihazıyla paylaşılıyorsa, aşağıdaki kategorilerden birine ait olduğundan emin olun:
     -   Kasa çekmecesi
     -   Makbuz yazıcısı
     -   Ödeme terminali
@@ -817,6 +834,6 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaşt�
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Perakende için çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md)
+[Commerce için çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md)
 
 

@@ -22,6 +22,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: Bulut ortamlarına güncelleştirmeleri uygulama
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Şirket içi dağıtımlara güncelleştirmeleri uygulama
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Hizmet güncelleştirmelerini yapılandırma
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Hizmet güncelleştirmelerini duraklatma
@@ -60,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Şirket içi dağıtımlar için sistem gereksinimleri
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
-                - name: Şirket içi ortama Perakende kanalı bileşenleri yükleme adımları
+                - name: Şirket içi ortama Retail kanalı bileşenleri yükleme adımları
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance + Operations (on-premises) satın alma
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
@@ -84,12 +86,12 @@
                   items:
                     - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce sürüm 10.0.10 (Mayıs 2020)
+                      href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce sürüm 10.0.9 (Nisan 2020)
                       href: get-started/whats-new-10-0-9.md
                     - name: Commerce sürüm 10.0.8 (Şubat 2020)
                       href: get-started/whats-new-10-0-8.md
-                    - name: Retail sürüm 10.0.7 (Ocak 2020)
-                      href: get-started/whats-new-10-0-7.md
                 - name: Kaldırılan veya artık kullanılmayan özellikler
                   items:
                     - name: Finance and Operations'ta kaldırılan veya artık kullanılmayan özellikler
@@ -336,6 +338,8 @@
                       href: pos-operations.md
                     - name: Özelleştirilmiş bir Modern POS için cihaz etkinleştirme
                       href: dev-itpro/retail-POS-activation-changes.md
+                    - name: POS oturum açma için Azure Active Directory kimlik doğrulamasını etkinleştirme
+                      href: aad-pos-logon.md
                     - name: MPOS ve Bulut POS'taki tanıtım verileri ekranı düzenleri
                       href: demo-data.md
                     - name: POS'ta ürün ve müşteri arama
@@ -364,10 +368,12 @@
                       items:
                         - name: Çevre birimleri
                           href: retail-peripherals-overview.md
-                        - name: Çevre birimi benzeticisi
+                        - name: Çevre birimi simülatörü
                           href: dev-itpro/retail-peripheral-simulator.md
                         - name: Çevre birimlerini POS'a bağlama
                           href: define-maintain-channel-clients-registers-hw-stations.md
+                        - name: POS çevrebirimleri ve hizmetleri için durum denetimi
+                          href: pos-healthcheck.md
                     - name: Ekran düzenleri
                       items:
                         - name: MPOS/CPOS'taki tanıtım verileri ekranı düzenleri
@@ -518,7 +524,7 @@
                       href: create-variant-group.md
                 - name: Yeni ürün oluşturma
                   items:
-                    - name: Yeni ürün oluşturmaya genel bakış
+                    - name: Commerce'ta yeni ürün oluşturma
                       href: create-new-product.md
                     - name: Ürün kategorilerini ve ürünleri yönetme
                       href: category-management-product-creation.md
@@ -570,6 +576,8 @@
                   href: retail-shipping-discount.md
                 - name: Kuponları ayarlama
                   href: retail-coupons.md
+                - name: POS'ta iskontoları gösterme
+                  href: discounts-pos.md
                 - name: Fiyat raporları
                   href: price-report.md
                 - name: Kanala özel ticari sözleşmeler oluşturma
@@ -582,8 +590,6 @@
                   href: product-recommendations.md
                 - name: Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme
                   href: enable-ADLS-environment.md
-                - name: e-Ticaret sayfalarına ürün önerisi listeleri ekleme
-                  href: add-reco-list-to-page.md
                 - name: Ürün önerilerini etkinleştirme
                   href: enable-product-recommendations.md
                 - name: Kişiselleştirilmiş öneriler
@@ -592,20 +598,22 @@
                       href: personalized-recommendations.md
                     - name: Kişiselleştirilmiş önerilerden vazgeçme
                       href: personalization-gdpr.md
-                - name: Seçkin ürün önerisi listeleri oluşturma
-                  href: create-editorial-recommendation-lists.md
-                - name: AI-ML tabanlı ürün önerisi sonuçlarını yönetme
-                  href: modify-product-recommendation-results.md
-                - name: Tanıtım verilerini kullanarak ürün önerileri edinme
-                  href: product-recommendations-demo-data.md
-                - name: Ürün önerileri SSS
-                  href: faq-recommendations.md
+                - name: e-Ticaret sitesine öneri listeleri ekleme
+                  href: add-reco-list-to-page.md
                 - name: POS deneyimleri
                   items:
-                    - name: POS'ta ürün önerileri
+                    - name: POS'ta ürün önerileri ekleme
                       href: product.md
-                    - name: POS cihazlarında hareket ekranına öneriler denetimi ekleme
+                    - name: Hareket ekranına öneriler ekleme
                       href: add-recommendations-control-pos-screen.md
+                - name: AI-ML tabanlı ürün önerisi sonuçlarını ayarlama
+                  href: modify-product-recommendation-results.md
+                - name: Seçkin ürün önerilerini el ile oluşturma
+                  href: create-editorial-recommendation-lists.md
+                - name: Tanıtım verilerini kullanarak öneriler oluşturma
+                  href: product-recommendations-demo-data.md
+                - name: Ürün önerileriyle ilgili SSS
+                  href: faq-recommendations.md
             - name: Derecelendirmeler ve incelemeler
               items:
                 - name: Derecelendirmelere ve incelemelere genel bakış
@@ -656,6 +664,8 @@
               items:
                 - name: Çağrı merkezi siparişi oluşturma
                   href: tasks/create-call-center-orders.md
+                - name: POS'ta teslimat şeklini değiştirme
+                  href: POS-change-delivery-mode.md
             - name: Dağıtılmış sipariş yönetimi
               items:
                 - name: DOM'a genel bakış
@@ -768,8 +778,14 @@
                   href: associate-site-online-store.md
                 - name: robots.txt dosyalarını yönetme
                   href: manage-robots-txt-files.md
+                - name: URL yeniden yönlendirmelerini toplu olarak yükleme
+                  href: upload-bulk-redirects.md
+                - name: Commerce'ta B2C kiracısı ayarlama
+                  href: set-up-B2C-tenant.md
                 - name: Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
                   href: custom-pages-user-logins.md
+                - name: Commerce ortamında birden fazla B2C kiracısı yapılandırma
+                  href: configure-multi-B2C-tenants.md
                 - name: İçerik teslim ağı (CDN) için destek ekleme
                   href: add-cdn-support.md
                 - name: Konum tabanlı mağaza algılamayı etkinleştirme
@@ -864,6 +880,20 @@
                       href: customize-site-navigation.md
                     - name: Sayfa URL'si oluşturma
                       href: create-page-URL.md
+            - name: Dijital varlıkları yönetme
+              items:
+                - name: Dijital varlık yönetimine genel bakış
+                  href: dam-overview.md
+                - name: Resimleri karşıya yükleme
+                  href: dam-upload-images.md
+                - name: Videoyu karşıya yükleme
+                  href: dam-upload-video.md
+                - name: Resimler ve videolar dışındaki dosyaları karşıya yükleme
+                  href: dam-upload-files.md
+                - name: Resimleri kırpma
+                  href: dam-crop-images.md
+                - name: Görüntü odak noktalarını özelleştirme
+                  href: dam-custom-focal-point.md
             - name: Sitenizi uyumlu duruma getirme
               items:
                 - name: Uyumluluğa genel bakış
@@ -1828,6 +1858,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Geliştirme ortamı (.env) dosyası yapılandırma
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: Azure DevOps kod paylaşımını ayarlama ve derleme ardışık düzeni oluşturma
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Platforma genel bakış
                   items:
                     - name: Mimariye genel bakış
@@ -1912,6 +1944,10 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: Modüller arasında durum paylaşma
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Veri eylemi geçersiz kılma işlemleri
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: Veri eylemi kancaları
+                      href: e-commerce-extensibility/data-action-hooks.md
                 - name: Tema geliştirme
                   items:
                     - name: Tema oluşturmaya genel bakış
@@ -2062,6 +2098,8 @@
                   href: dev-itpro/commerce-application-insights.md
                 - name: İş mantığınızda zaman uyumsuz Commerce (CRT) API'ları oluşturma
                   href: dev-itpro/async-commerce-extension.md
+                - name: Kanal veritabanındaki önceden genişletilmiş sütunlar
+                  href: dev-itpro/extended-columns.md
             - name: Ödeme bağlayıcısı genişletilebilirliği
               items:
                 - name: Ödeme terminali için ödeme tümleştirmesi oluşturma

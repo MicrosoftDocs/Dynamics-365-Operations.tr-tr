@@ -1,9 +1,9 @@
 ---
-title: Gelişmiş filtreleme ve sorgu söz dizimi
-description: Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki eşleşmeler işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır.
+title: Gelişmiş filtreleme ve sorgu sözdizimi
+description: Bu konuda, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki eşleşmeler işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır.
 author: jasongre
 manager: AnnBe
-ms.date: 01/02/2020
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
-ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
+ms.openlocfilehash: 7a525422a091efe8ea88f42e91dc52488430cfe5
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "2931300"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112203"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Gelişmiş filtreleme ve sorgu sözdizimi
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki **eşleşmeler** işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır.
+Bu konuda, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölmesindeki **eşleşmeler** işlecini ya da ızgara sütun başlığı filtrelerini kullanırken yararlanabileceğiniz filtreleme ve sorgu seçenekleri açıklanmaktadır.
 
 ## <a name="advanced-query-syntax"></a>Gelişmiş sorgu söz dizimi
 
@@ -122,10 +122,11 @@ Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre böl
 <td>İki ardışık çift tırnak (<strong>""</strong>), geçerli sütun için değer içermeyen satırları bulur.</td>
 </tr>
 <tr>
-<td>(<span class="code">SQL deyimi</span>) (parantez içindeki SQL deyimi)</td>
+<td>(<span class="code">Finance and Operations sorgu</span>) (parantez arasında Finance and Operations sorgusu)</td>
 <td>Tanımlanan bir sorgulamayı eşleştirir.</td>
-<td>Parantez içinde SQL deyimi olarak bir sorgulama yazın.</td>
-<td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
+<td>Finance and Operations sorgu dilini kullanarak parantez içinde SQL deyimi olarak bir sorgu yazın.</td>
+  <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
+       kök veri kaynağındaki bir alanda filtre koşulu için sözdizimi örneği ve farklı bir veri kaynağındaki bir alan (Tüm müşteriler sayfası için)</td>
 </tr>
 <tr>
 <td>S</td>

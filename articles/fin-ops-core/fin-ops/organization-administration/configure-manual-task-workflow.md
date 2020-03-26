@@ -18,11 +18,11 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 492c49b1a3e8334bca401770c4c2db04e8892691
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190178"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124647"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>İş akışında el ile girilen görevleri yapılandırma
 

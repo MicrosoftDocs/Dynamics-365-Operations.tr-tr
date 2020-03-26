@@ -3,7 +3,7 @@ title: Project Service Automation tümleştirme parametreleri
 description: Bu konu Microsoft Dynamics 365 for Project Service Automation ile Microsoft Dynamics 365 Finance tümleştirdiğinizde varsayılan verinin nasıl girileceğini açıklar.
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: f7cef5384812e0dcb7d5e084ddd7668a7687a259
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cd09dad15112fd71bfd386e0072a77a4121c96e0
+ms.sourcegitcommit: 236672932ffd0a758012ebb7b2df9bc51249c126
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175068"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096263"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation tümleştirmesi parametreleri
 
 [!include[banner](../includes/banner.md)]
 
 **Project Service Automation tümleştirme parametreleri** sayfasında, varsayılan verinin Dynamics 365 Project Service Automation ile Dynamics 365 Finance tümleştirmesi yaptığınızda nasıl girildiğini yapılandırabilirsiniz. Projelerin Project Service Automation'dan Finance'a başarıyla eşitlenebilmesi için aşağıdaki alanları ayarlamanız gerekir.
+
+**Project Service Automation** Tümleştirme Parametreleri sayfasını açmak için **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Dynamics 365 for Project Service Automation tümleştirme parametrelerine** gidin. 
 
 > [!NOTE]
 > - Proje görev tümleştirmesi, gider hareket kategorileri, saat tahminleri, gider tahminleri ve işlev kilitleme sürüm 8.0 içinde kullanılabilir.

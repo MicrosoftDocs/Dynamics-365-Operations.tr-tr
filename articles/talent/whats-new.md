@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 243fadd242c51440eae1ac7026c71a889a9fa81c
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: de05d685aecb117f51239884d67969591b0d78f0
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897270"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117278"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent"></a>Dynamics 365 Talent içindeki Yenilikler veya değişiklikler 
 
 Bu sayfa Microsoft Dynamics Talent HR Core'un en son sürümleri hakkında nasıl bilgi bulunacağıyla ilgili ayrıntılı bilgi sağlar.
 
-Her hafta Talent için yeni sürümler kullanıma sunulur. Bu sürümler, docs.microsoft.com sitesinde içindekiler tablosunda listelenir ([docs.microsoft.com/dynamics365/unified-operations](../index.md)). İçindekiler tablosunu tarayın veya içindekiler tablosunun üzerindeki Filtre kontrolünü kullanın, aradığınız en yeni konuları bulun. "Dynamics 365 Talent'taki yenilikler veya değişiklikler" ile başlayan konu başlıkları.
+Her hafta Talent için yeni sürümler kullanıma sunulur. Bu sürümler, docs.microsoft.com sitesinde içindekiler tablosunda listelenir ([docs.microsoft.com/dynamics365/unified-operations](../index.md)). İçindekiler tablosunu tarayabilir veya içindekiler tablosunun üzerindeki Filtre denetimini kullanarak aradığınız en son konuları bulabilirsiniz. "Dynamics 365 Talent'taki yenilikler veya değişiklikler..." ile başlayan konu başlıkları.
 
 İçindekiler tablosu her hafta güncelleştirilmeye devam edecek, bu yüzden Talent'ın en son sürümlerindeki yeni özellikleri ve değişiklikleri bulmak için geri dönün.
 
-[!include [release notes](../fin-ops-core/fin-ops/includes/release-notes.md)]

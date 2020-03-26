@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6c19542089526c1e17fb1133d52cf042f244fb80
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002347"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113863"
 ---
 # <a name="set-up-organization-hierarchies"></a>Kuruluş hiyerarşilerini ayarlama
 
@@ -31,7 +31,7 @@ ms.locfileid: "3002347"
 
 Bu konuda, Microsoft Dynamics 365 Commerce'te organizasyon hiyerarşilerinin nasıl ayarlanacağı açıklanmaktadır.
 
-## <a name="overview"></a>Genel Bakış
+## <a name="overview"></a>Özet
 
 Kanalları oluşturmadan önce, organizasyon hiyerarşilerinizi ayarlandığınızdan emin olmanız gerekir.
 
@@ -41,9 +41,9 @@ Bir organizasyon hiyerarşisi oluşturmadan önce organizasyonları oluşturman�
 
 
 Daha fazla bilgi edinmek için aşağıdaki konulara bakın.
-- [Kuruluşlar ve kuruluş hiyerarşilerine genel bakış](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies)
-- [Organizasyon hiyerarşinizi planlama](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy?toc=/dynamics365/commerce/toc.json)
-- [Kuruluş hiyerarşisi oluşturma](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy?toc=/dynamics365/commerce/toc.json)
+- [Kuruluşlar ve kuruluş hiyerarşilerine genel bakış](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+- [Organizasyon hiyerarşinizi planlama](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
+- [Kuruluş hiyerarşisi oluşturma](../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 
 ## <a name="create-an-organizational-hierarchy"></a>Kuruluş hiyerarşisi oluşturma
 
