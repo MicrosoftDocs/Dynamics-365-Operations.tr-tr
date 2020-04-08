@@ -660,7 +660,7 @@
               href: expense-management/expense-report-distributions.md
             - name: Şirketlerarası giderler
               href: expense-management/intercompany-expense.md
-            - name: Gider ilkeleri
+            - name: Gider ilkelerini tanımlama
               href: expense-management/travel-expense-policies.md
             - name: Gider raporu görüntüleme
               href: expense-management/view-expense-report.md
@@ -984,6 +984,8 @@
               href: project-management/project-contracts.md
             - name: Proje tahminleri ve bütçeler
               href: project-management/project-forecasts-budgets.md
+            - name: Proje bütçelerini mali yıl bitişinde transfer etme
+              href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: Proje satış siparişleri
               href: project-management/project-sales-orders.md
             - name: Proje için satınalma siparişleri
@@ -1646,6 +1648,12 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Kapatma hareketlerini görüntüleme
                   href: localizations/emea-transactions-settlement-form.md
+            - name: Finlandiya
+              items:
+                - name: Finlandiya'ya genel bakış
+                  href: localizations/finland.md
+                - name: Finlandiya için satış vergisi ödeme raporu
+                  href: localizations/emea-fin-sales-tax-payment-report-finland.md
             - name: Fransa
               items:
                 - name: Fransa'ya genel bakış
@@ -1696,6 +1704,8 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Müşterinin ödeme yöntemini güncelleştirme
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: DAS-2 raporu
+                  href: localizations/emea-fra-das2-report.md
             - name: Almanya
               items:
                 - name: Almanya'ya genel bakış
@@ -1992,10 +2002,16 @@
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: Borç veya alacak kapatmalarda gelişmiş sorgu
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: Ödemelerde komisyon kapatma
+                  href: localizations/emea-ita-exil-commission-settlement.md
                 - name: Genel muhasebe benzetimleri (İtalya)
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: Bankalar ve havale türleri için yapılandırılabilir deftere nakil profilleri
+                  href: localizations/emea-ita-exil-bank-remittance.md
                 - name: Benzersiz sertifika
                   href: localizations/emea-ita-exil-unique-certification.md
+                - name: Kambiyo senedi protestosu içe aktarma
+                  href: localizations/emea-ita-exil-protest-boe.md
             - name: Japonya
               items:
                 - name: Japonya'ya genel bakış
@@ -2460,6 +2476,8 @@
                       href: localizations/rus-inventory-cost-structure.md
                     - name: Stok düzeltmesi sihirbazı
                       href: localizations/rus-inventory-adjustment-wizard.md
+                    - name: Stok raporları
+                      href: localizations/rus-inventory-reports.md
                 - name: Raporlama
                   items:
                     - name: Mali raporlama
