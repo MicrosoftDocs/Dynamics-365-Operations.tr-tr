@@ -5,6 +5,8 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 19 Mart 2020
+          href: hr-whats-new-2020-03-19.md
         - name: 10 Mart 2020
           href: hr-whats-new-2020-03-10.md
         - name: 3 Mart 2020
@@ -539,3 +541,9 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Bağımlı soru oluşturma
               href: hr-learning-depending-question.md
+        - name: Personel ve Yönetici self servisi ayarlama
+          items:
+            - name: Personel ve Yönetici self servisine genel bakış
+              href: hr-employee-manager-self-service-overview.md
+            - name: Kişisel bilgileri düzenleme
+              href: hr-employee-manager-self-service-edit-personal-information.md
