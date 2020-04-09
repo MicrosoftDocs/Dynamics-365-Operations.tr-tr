@@ -15,56 +15,56 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: facffeaf8d880bad01877b420197e29b6791ebbf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ff37655150596a4be8088e20b43f626f97262aba
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187786"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137857"
 ---
-# <a name="create-a-cost-rollup-policy"></a><span data-ttu-id="bcf10-103">Maliyet yuvarlaması ilkesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="bcf10-103">Create a cost rollup policy</span></span>
+# <a name="create-a-cost-rollup-policy"></a><span data-ttu-id="bdd5a-103">Maliyet yuvarlaması ilkesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="bdd5a-103">Create a cost rollup policy</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="bcf10-104">Bu yordam, bir maliyet yuvarlama ilkesini oluşturmayı ve ilke için kurallar oluşturmayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="bcf10-104">This procedure shows how to create a cost rollup policy and create rules for the policy.</span></span> <span data-ttu-id="bcf10-105">Bu yöntemi oluşturmak için kullanılan demo verisi USP2'dir.</span><span class="sxs-lookup"><span data-stu-id="bcf10-105">The demo data used to create this procedure is USP2.</span></span>
+<span data-ttu-id="bdd5a-104">Bu yordam, bir maliyet yuvarlama ilkesini oluşturmayı ve ilke için kurallar oluşturmayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-104">This procedure shows how to create a cost rollup policy and create rules for the policy.</span></span> <span data-ttu-id="bdd5a-105">Bu yöntemi oluşturmak için kullanılan demo verisi USP2'dir.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-105">The demo data used to create this procedure is USP2.</span></span>
 
 
-## <a name="create-a-policy"></a><span data-ttu-id="bcf10-106">Bir ilke oluşturun</span><span class="sxs-lookup"><span data-stu-id="bcf10-106">Create a policy</span></span>
-1. <span data-ttu-id="bcf10-107">Maliyet muhasebesi > İlkeler > Maliyet yuvarlama ilkeleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-107">Go to Cost accounting > Policies > Cost rollup policies.</span></span>
-2. <span data-ttu-id="bcf10-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bcf10-108">Click New.</span></span>
-3. <span data-ttu-id="bcf10-109">İlke adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-109">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="bcf10-110">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="bcf10-111">Maliyet nesnesi boyut hiyerarşisi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-111">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="bcf10-112">Maliyet yuvarlama CC'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-112">Select Cost rollup CC.</span></span>  
-6. <span data-ttu-id="bcf10-113">Maliyet öğesi boyut hiyerarşisi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-113">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="bcf10-114">Maliyet yuvarlama CC'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-114">Select Cost rollup CC.</span></span>  
-7. <span data-ttu-id="bcf10-115">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bcf10-115">Click Save.</span></span>
+## <a name="create-a-policy"></a><span data-ttu-id="bdd5a-106">Bir ilke oluşturun</span><span class="sxs-lookup"><span data-stu-id="bdd5a-106">Create a policy</span></span>
+1. <span data-ttu-id="bdd5a-107">Maliyet muhasebesi > İlkeler > Maliyet yuvarlama ilkeleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-107">Go to Cost accounting > Policies > Cost rollup policies.</span></span>
+2. <span data-ttu-id="bdd5a-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-108">Click New.</span></span>
+3. <span data-ttu-id="bdd5a-109">İlke adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-109">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="bdd5a-110">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="bdd5a-111">Maliyet nesnesi boyut hiyerarşisi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-111">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdd5a-112">Maliyet yuvarlama CC'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-112">Select Cost rollup CC.</span></span>  
+6. <span data-ttu-id="bdd5a-113">Maliyet öğesi boyut hiyerarşisi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-113">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdd5a-114">Maliyet yuvarlama CC'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-114">Select Cost rollup CC.</span></span>  
+7. <span data-ttu-id="bdd5a-115">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-115">Click Save.</span></span>
 
-## <a name="create-rules-for-the-cost-rollup-policy"></a><span data-ttu-id="bcf10-116">Maliyet yuvarlama ilkesi için kurallar oluşturun</span><span class="sxs-lookup"><span data-stu-id="bcf10-116">Create rules for the cost rollup policy</span></span>
-1. <span data-ttu-id="bcf10-117">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bcf10-117">Click New.</span></span>
-2. <span data-ttu-id="bcf10-118">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-118">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="bcf10-119">Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-119">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="bcf10-120">007'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-120">Select 007.</span></span>  
-4. <span data-ttu-id="bcf10-121">Maliyet öğesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-121">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="bcf10-122">Maliyet yuvarlama CE'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-122">Select Cost rollup CE.</span></span>  
-5. <span data-ttu-id="bcf10-123">İkincil maliyet öğesi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-123">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="bcf10-124">Bu örnek için, ikincil maliyet öğesi CC-007'yi maliyet merkezine eşleyin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-124">For this example, map the secondary cost element CC-007 to the cost center.</span></span>  
-6. <span data-ttu-id="bcf10-125">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bcf10-125">Click New.</span></span>
-7. <span data-ttu-id="bcf10-126">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-126">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="bcf10-127">Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="bcf10-128">008'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-128">Select 008.</span></span>  
-9. <span data-ttu-id="bcf10-129">Maliyet öğesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-129">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="bcf10-130">Maliyet yuvarlama CE'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-130">Select Cost rollup CE.</span></span>  
-10. <span data-ttu-id="bcf10-131">İkincil maliyet öğesi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-131">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="bcf10-132">Bu örnek için, ikincil maliyet öğesi CC-008'yi maliyet merkezine eşleyin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-132">For this example, map the secondary cost element CC-008 to the cost center.</span></span>  
-11. <span data-ttu-id="bcf10-133">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bcf10-133">Click New.</span></span>
-12. <span data-ttu-id="bcf10-134">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-134">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="bcf10-135">Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-135">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="bcf10-136">009'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-136">Select 009.</span></span>  
-14. <span data-ttu-id="bcf10-137">Maliyet öğesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-137">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="bcf10-138">Maliyet yuvarlama CE'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-138">Select Cost rollup CE.</span></span>  
-15. <span data-ttu-id="bcf10-139">İkincil maliyet öğesi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-139">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="bcf10-140">Bu örnek için, ikincil maliyet öğesi CC-009'yi maliyet merkezine eşleyin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-140">For this example, map the secondary cost element CC-009 to the cost center.</span></span>  
-    * <span data-ttu-id="bcf10-141">Tüm maliyet merkezleri karşılık gelen ikincil maliyet öğelerine eşlenene kadar devam edin.</span><span class="sxs-lookup"><span data-stu-id="bcf10-141">Continue until all cost centers are mapped to their corresponding secondary cost elements.</span></span>  
-16. <span data-ttu-id="bcf10-142">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bcf10-142">Click Save.</span></span>
+## <a name="create-rules-for-the-cost-rollup-policy"></a><span data-ttu-id="bdd5a-116">Maliyet yuvarlama ilkesi için kurallar oluşturun</span><span class="sxs-lookup"><span data-stu-id="bdd5a-116">Create rules for the cost rollup policy</span></span>
+1. <span data-ttu-id="bdd5a-117">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-117">Click New.</span></span>
+2. <span data-ttu-id="bdd5a-118">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-118">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="bdd5a-119">Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-119">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdd5a-120">007'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-120">Select 007.</span></span>  
+4. <span data-ttu-id="bdd5a-121">Maliyet öğesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-121">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdd5a-122">Maliyet yuvarlama CE'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-122">Select Cost rollup CE.</span></span>  
+5. <span data-ttu-id="bdd5a-123">İkincil maliyet öğesi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-123">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdd5a-124">Bu örnek için, ikincil maliyet öğesi CC-007'yi maliyet merkezine eşleyin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-124">For this example, map the secondary cost element CC-007 to the cost center.</span></span>  
+6. <span data-ttu-id="bdd5a-125">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-125">Click New.</span></span>
+7. <span data-ttu-id="bdd5a-126">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-126">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="bdd5a-127">Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdd5a-128">008'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-128">Select 008.</span></span>  
+9. <span data-ttu-id="bdd5a-129">Maliyet öğesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-129">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdd5a-130">Maliyet yuvarlama CE'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-130">Select Cost rollup CE.</span></span>  
+10. <span data-ttu-id="bdd5a-131">İkincil maliyet öğesi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-131">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdd5a-132">Bu örnek için, ikincil maliyet öğesi CC-008'yi maliyet merkezine eşleyin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-132">For this example, map the secondary cost element CC-008 to the cost center.</span></span>  
+11. <span data-ttu-id="bdd5a-133">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-133">Click New.</span></span>
+12. <span data-ttu-id="bdd5a-134">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-134">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="bdd5a-135">Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-135">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdd5a-136">009'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-136">Select 009.</span></span>  
+14. <span data-ttu-id="bdd5a-137">Maliyet öğesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-137">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdd5a-138">Maliyet yuvarlama CE'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-138">Select Cost rollup CE.</span></span>  
+15. <span data-ttu-id="bdd5a-139">İkincil maliyet öğesi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-139">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="bdd5a-140">Bu örnek için, ikincil maliyet öğesi CC-009'yi maliyet merkezine eşleyin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-140">For this example, map the secondary cost element CC-009 to the cost center.</span></span>  
+    * <span data-ttu-id="bdd5a-141">Tüm maliyet merkezleri karşılık gelen ikincil maliyet öğelerine eşlenene kadar devam edin.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-141">Continue until all cost centers are mapped to their corresponding secondary cost elements.</span></span>  
+16. <span data-ttu-id="bdd5a-142">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bdd5a-142">Click Save.</span></span>
 

@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 930a986b6dfe40d4d40de1f9ee8b1e4b88371166
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2746534cc808dc61e54aa55c1030422bb37e8984
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835994"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148159"
 ---
-# <a name="collaborate-with-internal-supply-chain-customers"></a><span data-ttu-id="dbed3-103">İç tedarik zinciri müşterileriyle iş birliği</span><span class="sxs-lookup"><span data-stu-id="dbed3-103">Collaborate with internal supply chain customers</span></span>
+# <a name="collaborate-with-internal-supply-chain-customers"></a><span data-ttu-id="e446e-103">İç tedarik zinciri müşterileriyle iş birliği</span><span class="sxs-lookup"><span data-stu-id="e446e-103">Collaborate with internal supply chain customers</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="dbed3-104">Bu yordam, şirketlerarası satıcı tarafından karşılanacak tüm planlı siparişlerin nasıl görüntüleneceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="dbed3-104">This procedure shows how to view all the planned orders that will be fulfilled by an intercompany vendor.</span></span> <span data-ttu-id="dbed3-105">Bu yordamı oluşturmak için kullanılan demo veri şirketi DEMF'dir.</span><span class="sxs-lookup"><span data-stu-id="dbed3-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="e446e-104">Bu yordam, şirketlerarası satıcı tarafından karşılanacak tüm planlı siparişlerin nasıl görüntüleneceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="e446e-104">This procedure shows how to view all the planned orders that will be fulfilled by an intercompany vendor.</span></span> <span data-ttu-id="e446e-105">Bu yordamı oluşturmak için kullanılan demo veri şirketi DEMF'dir.</span><span class="sxs-lookup"><span data-stu-id="e446e-105">The demo data company used to create this procedure is DEMF.</span></span>
 
-1. <span data-ttu-id="dbed3-106">Master planlama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dbed3-106">Click Master planning.</span></span>
-2. <span data-ttu-id="dbed3-107">Plan alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="dbed3-107">In the Plan field, enter or select a value.</span></span>
-    * <span data-ttu-id="dbed3-108">Plan alanında, plan 10'u seçin.</span><span class="sxs-lookup"><span data-stu-id="dbed3-108">In the Plan field, select plan 10.</span></span>  
-3. <span data-ttu-id="dbed3-109">Çalıştır öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dbed3-109">Click Run.</span></span>
-4. <span data-ttu-id="dbed3-110">İş parçacığı sayısı alanına bir rakam girin.</span><span class="sxs-lookup"><span data-stu-id="dbed3-110">In the Number of threads field, enter a number.</span></span>
-    * <span data-ttu-id="dbed3-111">Bu, master planlama için kullanılacak paralel iş parçacıklarının sayısını temsil eder.</span><span class="sxs-lookup"><span data-stu-id="dbed3-111">This represents the number of parallel threads to be used for master planning.</span></span>  
-5. <span data-ttu-id="dbed3-112">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dbed3-112">Click OK.</span></span>
-    * <span data-ttu-id="dbed3-113">Bu işlem biraz zaman alabilir.</span><span class="sxs-lookup"><span data-stu-id="dbed3-113">This may take a while.</span></span>  
-6. <span data-ttu-id="dbed3-114">Planlanan şirketlerarası talep'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dbed3-114">Click Planned intercompany demand.</span></span>
-7. <span data-ttu-id="dbed3-115">Giden planlı şirketlerarası talep'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dbed3-115">Click Outbound planned intercompany demand.</span></span>
-    * <span data-ttu-id="dbed3-116">Bu sayfa, bir iç tedarik zinciri sayıcısı tarafından yerine getirilecek tüm planlı talebe genel bir bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="dbed3-116">This page provides an overview of all the planned demand that will be fulfilled by an internal supply chain vendor.</span></span>  
-8. <span data-ttu-id="dbed3-117">Yukarı doğru talep ayrıntıları bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="dbed3-117">Expand the Upstream demand details section.</span></span>
-    * <span data-ttu-id="dbed3-118">Bu bölümde, talebin nasıl karşılanacağıyla ilgili ayrıntıları görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="dbed3-118">In this section, you can see the details about how the demand will be fulfilled.</span></span> <span data-ttu-id="dbed3-119">Burada ek bilgiler görmeden önce tedarik şirketinde master planlamanın çalıştırılmasını beklemeniz gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="dbed3-119">You may need to wait for master planning to be run in the supply company before you can see additional information here.</span></span>  
+1. <span data-ttu-id="e446e-106">Master planlama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e446e-106">Click Master planning.</span></span>
+2. <span data-ttu-id="e446e-107">Plan alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="e446e-107">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="e446e-108">Plan alanında, plan 10'u seçin.</span><span class="sxs-lookup"><span data-stu-id="e446e-108">In the Plan field, select plan 10.</span></span>  
+3. <span data-ttu-id="e446e-109">Çalıştır öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e446e-109">Click Run.</span></span>
+4. <span data-ttu-id="e446e-110">İş parçacığı sayısı alanına bir rakam girin.</span><span class="sxs-lookup"><span data-stu-id="e446e-110">In the Number of threads field, enter a number.</span></span>
+    * <span data-ttu-id="e446e-111">Bu, master planlama için kullanılacak paralel iş parçacıklarının sayısını temsil eder.</span><span class="sxs-lookup"><span data-stu-id="e446e-111">This represents the number of parallel threads to be used for master planning.</span></span>  
+5. <span data-ttu-id="e446e-112">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e446e-112">Click OK.</span></span>
+    * <span data-ttu-id="e446e-113">Bu işlem biraz zaman alabilir.</span><span class="sxs-lookup"><span data-stu-id="e446e-113">This may take a while.</span></span>  
+6. <span data-ttu-id="e446e-114">Planlanan şirketlerarası talep'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e446e-114">Click Planned intercompany demand.</span></span>
+7. <span data-ttu-id="e446e-115">Giden planlı şirketlerarası talep'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e446e-115">Click Outbound planned intercompany demand.</span></span>
+    * <span data-ttu-id="e446e-116">Bu sayfa, bir iç tedarik zinciri sayıcısı tarafından yerine getirilecek tüm planlı talebe genel bir bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="e446e-116">This page provides an overview of all the planned demand that will be fulfilled by an internal supply chain vendor.</span></span>  
+8. <span data-ttu-id="e446e-117">Yukarı doğru talep ayrıntıları bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="e446e-117">Expand the Upstream demand details section.</span></span>
+    * <span data-ttu-id="e446e-118">Bu bölümde, talebin nasıl karşılanacağıyla ilgili ayrıntıları görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e446e-118">In this section, you can see the details about how the demand will be fulfilled.</span></span> <span data-ttu-id="e446e-119">Burada ek bilgiler görmeden önce tedarik şirketinde master planlamanın çalıştırılmasını beklemeniz gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="e446e-119">You may need to wait for master planning to be run in the supply company before you can see additional information here.</span></span>  
 

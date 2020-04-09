@@ -16,41 +16,41 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb690769a33f88e63ab8f54cec69a5e927fd324c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 788397b5c9a3f42e373f7cdad256c1ee3d058e57
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180404"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143781"
 ---
-# <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a><span data-ttu-id="ad53c-103">Onay günlüğü kullanarak fatura verilerini borç hesaplarına girme</span><span class="sxs-lookup"><span data-stu-id="ad53c-103">Key invoice data into accounts payable using an approval journal</span></span>
+# <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a><span data-ttu-id="a97a4-103">Onay günlüğü kullanarak fatura verilerini borç hesaplarına girme</span><span class="sxs-lookup"><span data-stu-id="a97a4-103">Key invoice data into accounts payable using an approval journal</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ad53c-104">Bu konu, fatura kaydını fatura oluşturmak için nasıl kullanacağınızı ve bunun ardından, onay günlüğünü gider hesaplarını güncelleştirmek için nasıl kullanacağınızı açıklar.</span><span class="sxs-lookup"><span data-stu-id="ad53c-104">This topic explains how to use the invoice register to create invoices and then use the approval journal to update the expense accounts.</span></span>
+<span data-ttu-id="a97a4-104">Bu konu, fatura kaydını fatura oluşturmak için nasıl kullanacağınızı ve bunun ardından, onay günlüğünü gider hesaplarını güncelleştirmek için nasıl kullanacağınızı açıklar.</span><span class="sxs-lookup"><span data-stu-id="a97a4-104">This topic explains how to use the invoice register to create invoices and then use the approval journal to update the expense accounts.</span></span>
 
-## <a name="create-and-post-and-invoice"></a><span data-ttu-id="ad53c-105">Fatura oluşturun ve nakledin</span><span class="sxs-lookup"><span data-stu-id="ad53c-105">Create and post and invoice</span></span>
-1. <span data-ttu-id="ad53c-106">Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura kaydı**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-106">In the navigation pan, go to **Modules > Accounts payable > Invoices > Invoice register**.</span></span>
-2. <span data-ttu-id="ad53c-107">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-107">Select **New**.</span></span>
-3. <span data-ttu-id="ad53c-108">Kullanmak istediğiniz fatura kaydının adını seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-108">Select the name of the invoice register that you want to use.</span></span>
-4. <span data-ttu-id="ad53c-109">Defteri açıp gider satırlarını girmek için **Satırlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-109">Select **Lines** to open the register and enter expense lines.</span></span>
-5. <span data-ttu-id="ad53c-110">Bir satıcı seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-110">Select a vendor.</span></span> <span data-ttu-id="ad53c-111">Örneğin, `US-104` girin veya seçin</span><span class="sxs-lookup"><span data-stu-id="ad53c-111">For example, enter or select `US-104`.</span></span>
-6. <span data-ttu-id="ad53c-112">**Fatura** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-112">In the **Invoice** field, type a value.</span></span>
-7. <span data-ttu-id="ad53c-113">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-113">In the **Description** field, type a value.</span></span>
-8. <span data-ttu-id="ad53c-114">**Alacak** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-114">In the **Credit** field, enter a number.</span></span>
-9. <span data-ttu-id="ad53c-115">**Onaylanan** alanında, açılır menüden bir onaylayan belirleyin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-115">In the **Approved by** field, select an approver from the drop-down menu.</span></span>
-10. <span data-ttu-id="ad53c-116">**Naklet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-116">Select **Post**.</span></span>
+## <a name="create-and-post-and-invoice"></a><span data-ttu-id="a97a4-105">Fatura oluşturun ve nakledin</span><span class="sxs-lookup"><span data-stu-id="a97a4-105">Create and post and invoice</span></span>
+1. <span data-ttu-id="a97a4-106">Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura kaydı**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-106">In the navigation pan, go to **Modules > Accounts payable > Invoices > Invoice register**.</span></span>
+2. <span data-ttu-id="a97a4-107">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-107">Select **New**.</span></span>
+3. <span data-ttu-id="a97a4-108">Kullanmak istediğiniz fatura kaydının adını seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-108">Select the name of the invoice register that you want to use.</span></span>
+4. <span data-ttu-id="a97a4-109">Defteri açıp gider satırlarını girmek için **Satırlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-109">Select **Lines** to open the register and enter expense lines.</span></span>
+5. <span data-ttu-id="a97a4-110">Bir satıcı seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-110">Select a vendor.</span></span> <span data-ttu-id="a97a4-111">Örneğin, `US-104` girin veya seçin</span><span class="sxs-lookup"><span data-stu-id="a97a4-111">For example, enter or select `US-104`.</span></span>
+6. <span data-ttu-id="a97a4-112">**Fatura** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-112">In the **Invoice** field, type a value.</span></span>
+7. <span data-ttu-id="a97a4-113">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-113">In the **Description** field, type a value.</span></span>
+8. <span data-ttu-id="a97a4-114">**Alacak** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-114">In the **Credit** field, enter a number.</span></span>
+9. <span data-ttu-id="a97a4-115">**Onaylanan** alanında, açılır menüden bir onaylayan belirleyin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-115">In the **Approved by** field, select an approver from the drop-down menu.</span></span>
+10. <span data-ttu-id="a97a4-116">**Naklet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-116">Select **Post**.</span></span>
 
-## <a name="approve-an-invoice"></a><span data-ttu-id="ad53c-117">Fatura onaylayın</span><span class="sxs-lookup"><span data-stu-id="ad53c-117">Approve an invoice</span></span>
-1. <span data-ttu-id="ad53c-118">Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura onayı**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-118">In the navigation pane, go to **Modules > Accounts payable > Invoices > Invoice approval**.</span></span>
-2. <span data-ttu-id="ad53c-119">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-119">Select **New**.</span></span>
-3. <span data-ttu-id="ad53c-120">Kullanmak istediğiniz fatura onayı günlüğünün adını seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-120">Select the name of the invoice approval journal that you want to use.</span></span>
-4. <span data-ttu-id="ad53c-121">Onaylamak istediğiniz faturaları seçebileceğiniz bir sayfayı görüntülemek için **Satırlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-121">Select **Lines** to display a page where you will be able to select the invoices that you want to approve.</span></span>
-5. <span data-ttu-id="ad53c-122">Onaya hazır olan faturaların tümünü görüntülemek için **Fişleri bul**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-122">Select **Find Vouchers** to display all of the invoices that are ready for approval.</span></span>
-6. <span data-ttu-id="ad53c-123">Oluşturduğunuz faturayı işaretleyin ve **Seç**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ad53c-123">Mark the invoice that you created, then click **Select**.</span></span> <span data-ttu-id="ad53c-124">Yukarıda seçtiğiniz fişler, seçiminizden sonra bu listeye taşınır.</span><span class="sxs-lookup"><span data-stu-id="ad53c-124">The vouchers that you selected above are moved to this list after you select them.</span></span>  
-7. <span data-ttu-id="ad53c-125">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-125">Select **OK**.</span></span>
-8. <span data-ttu-id="ad53c-126">Faturaya bir gider hesabı eklemek için **Hesap numarası** alanını seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-126">Select the **account number** field to add an expense account to the invoice.</span></span>
-9. <span data-ttu-id="ad53c-127">Hesap numarası girin ve sekme tuşuyla alandan çıkın.</span><span class="sxs-lookup"><span data-stu-id="ad53c-127">Enter an account number and tab off of the field.</span></span> <span data-ttu-id="ad53c-128">Örneğin `600120` yazın.</span><span class="sxs-lookup"><span data-stu-id="ad53c-128">For example, enter `600120`.</span></span>
-10. <span data-ttu-id="ad53c-129">**Naklet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-129">Select **Post**.</span></span>
-11. <span data-ttu-id="ad53c-130">Nakledilen girişleri görüntülemek için **Fiş**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="ad53c-130">Select **Voucher** to view the entries that were posted.</span></span> <span data-ttu-id="ad53c-131">Onay Bekleyen Fatura hesabı ters kaydedilir ve yerine gerçek gider hesabı geçirilir.</span><span class="sxs-lookup"><span data-stu-id="ad53c-131">The Invoice Pending Approval account is reversed and replaced with the actual expense account.</span></span>  
+## <a name="approve-an-invoice"></a><span data-ttu-id="a97a4-117">Fatura onaylayın</span><span class="sxs-lookup"><span data-stu-id="a97a4-117">Approve an invoice</span></span>
+1. <span data-ttu-id="a97a4-118">Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura onayı**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-118">In the navigation pane, go to **Modules > Accounts payable > Invoices > Invoice approval**.</span></span>
+2. <span data-ttu-id="a97a4-119">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-119">Select **New**.</span></span>
+3. <span data-ttu-id="a97a4-120">Kullanmak istediğiniz fatura onayı günlüğünün adını seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-120">Select the name of the invoice approval journal that you want to use.</span></span>
+4. <span data-ttu-id="a97a4-121">Onaylamak istediğiniz faturaları seçebileceğiniz bir sayfayı görüntülemek için **Satırlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-121">Select **Lines** to display a page where you will be able to select the invoices that you want to approve.</span></span>
+5. <span data-ttu-id="a97a4-122">Onaya hazır olan faturaların tümünü görüntülemek için **Fişleri bul**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-122">Select **Find Vouchers** to display all of the invoices that are ready for approval.</span></span>
+6. <span data-ttu-id="a97a4-123">Oluşturduğunuz faturayı işaretleyin ve **Seç**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a97a4-123">Mark the invoice that you created, then click **Select**.</span></span> <span data-ttu-id="a97a4-124">Yukarıda seçtiğiniz fişler, seçiminizden sonra bu listeye taşınır.</span><span class="sxs-lookup"><span data-stu-id="a97a4-124">The vouchers that you selected above are moved to this list after you select them.</span></span>  
+7. <span data-ttu-id="a97a4-125">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-125">Select **OK**.</span></span>
+8. <span data-ttu-id="a97a4-126">Faturaya bir gider hesabı eklemek için **Hesap numarası** alanını seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-126">Select the **account number** field to add an expense account to the invoice.</span></span>
+9. <span data-ttu-id="a97a4-127">Hesap numarası girin ve sekme tuşuyla alandan çıkın.</span><span class="sxs-lookup"><span data-stu-id="a97a4-127">Enter an account number and tab off of the field.</span></span> <span data-ttu-id="a97a4-128">Örneğin `600120` yazın.</span><span class="sxs-lookup"><span data-stu-id="a97a4-128">For example, enter `600120`.</span></span>
+10. <span data-ttu-id="a97a4-129">**Naklet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-129">Select **Post**.</span></span>
+11. <span data-ttu-id="a97a4-130">Nakledilen girişleri görüntülemek için **Fiş**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="a97a4-130">Select **Voucher** to view the entries that were posted.</span></span> <span data-ttu-id="a97a4-131">Onay Bekleyen Fatura hesabı ters kaydedilir ve yerine gerçek gider hesabı geçirilir.</span><span class="sxs-lookup"><span data-stu-id="a97a4-131">The Invoice Pending Approval account is reversed and replaced with the actual expense account.</span></span>  
 

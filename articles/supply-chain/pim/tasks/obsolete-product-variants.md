@@ -15,61 +15,61 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4641d24cfa24722f5411da8943bfe4095a9546a4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dcd0f67bae1042cb1e81423898eacd20f921e0e2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567642"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147607"
 ---
-# <a name="find-obsolete-product-variants"></a><span data-ttu-id="ea0fd-103">Eski ürün çeşitlerini bulma</span><span class="sxs-lookup"><span data-stu-id="ea0fd-103">Find obsolete product variants</span></span> 
+# <a name="find-obsolete-product-variants"></a><span data-ttu-id="37cb5-103">Eski ürün çeşitlerini bulma</span><span class="sxs-lookup"><span data-stu-id="37cb5-103">Find obsolete product variants</span></span> 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ea0fd-104">Bu yordam eski ürünleri veya ürün çeşitlerini nasıl bulabileceğinizi ve bir ürün yaşam döngüsü durumunu eski ürünlerle nasıl ilişkilendirebileceğinizi gösterir.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-104">This procedure shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="ea0fd-105">Önkoşul: Bu görev kılavuzunu çalıştırmadan önce etkin durumda olmayan en az bir ürün yaşam döngüsü durumu tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-105">Prerequisite: You need to define at least one product lifecycle state that is inactive for planning before you can play this task guide.</span></span>
+<span data-ttu-id="37cb5-104">Bu yordam eski ürünleri veya ürün çeşitlerini nasıl bulabileceğinizi ve bir ürün yaşam döngüsü durumunu eski ürünlerle nasıl ilişkilendirebileceğinizi gösterir.</span><span class="sxs-lookup"><span data-stu-id="37cb5-104">This procedure shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="37cb5-105">Önkoşul: Bu görev kılavuzunu çalıştırmadan önce etkin durumda olmayan en az bir ürün yaşam döngüsü durumu tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="37cb5-105">Prerequisite: You need to define at least one product lifecycle state that is inactive for planning before you can play this task guide.</span></span>
 
 
-## <a name="run-a-simulation"></a><span data-ttu-id="ea0fd-106">Benzetimi çalıştırma</span><span class="sxs-lookup"><span data-stu-id="ea0fd-106">Run a simulation</span></span>
-1. <span data-ttu-id="ea0fd-107">Ürün yönetimi bilgileri > Periyodik görevler > Eski ürünler için yaşam döngüsü durumunu değiştir öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-107">Go to Product information management > Periodic tasks > Change lifecycle state for obsolete products.</span></span>
-2. <span data-ttu-id="ea0fd-108">Yeni ürün yaşam döngüsü durumu alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-108">In the New product lifecycle state field, enter or select a value.</span></span>
-3. <span data-ttu-id="ea0fd-109">Ürün verilerini güncelleştirmeden benzetimi çalıştır alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-109">Select Yes in the Run simulation without updating product data field.</span></span>
-4. <span data-ttu-id="ea0fd-110">Bu sayıda gün içinde oluşturulan ürünleri hariç tut alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-110">In the Exclude products created within this number of days field, enter a number.</span></span>
-5. <span data-ttu-id="ea0fd-111">Hareketlerde (belirtilen sayıda gün içinde) kullanılan ürünleri hariç tut alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-111">In the Exclude products used in transactions (in number of days) field, enter a number.</span></span>
-6. <span data-ttu-id="ea0fd-112">Eklenecek kayıtlar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-112">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="ea0fd-113">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-113">Click Filter.</span></span>
-8. <span data-ttu-id="ea0fd-114">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-114">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="ea0fd-115">Ölçütler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-115">In the Criteria field, type a value.</span></span>
-10. <span data-ttu-id="ea0fd-116">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-116">Click OK.</span></span>
-11. <span data-ttu-id="ea0fd-117">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-117">Click OK.</span></span>
+## <a name="run-a-simulation"></a><span data-ttu-id="37cb5-106">Benzetimi çalıştırma</span><span class="sxs-lookup"><span data-stu-id="37cb5-106">Run a simulation</span></span>
+1. <span data-ttu-id="37cb5-107">Ürün yönetimi bilgileri > Periyodik görevler > Eski ürünler için yaşam döngüsü durumunu değiştir öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-107">Go to Product information management > Periodic tasks > Change lifecycle state for obsolete products.</span></span>
+2. <span data-ttu-id="37cb5-108">Yeni ürün yaşam döngüsü durumu alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-108">In the New product lifecycle state field, enter or select a value.</span></span>
+3. <span data-ttu-id="37cb5-109">Ürün verilerini güncelleştirmeden benzetimi çalıştır alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-109">Select Yes in the Run simulation without updating product data field.</span></span>
+4. <span data-ttu-id="37cb5-110">Bu sayıda gün içinde oluşturulan ürünleri hariç tut alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-110">In the Exclude products created within this number of days field, enter a number.</span></span>
+5. <span data-ttu-id="37cb5-111">Hareketlerde (belirtilen sayıda gün içinde) kullanılan ürünleri hariç tut alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-111">In the Exclude products used in transactions (in number of days) field, enter a number.</span></span>
+6. <span data-ttu-id="37cb5-112">Eklenecek kayıtlar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-112">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="37cb5-113">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="37cb5-113">Click Filter.</span></span>
+8. <span data-ttu-id="37cb5-114">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-114">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="37cb5-115">Ölçütler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="37cb5-115">In the Criteria field, type a value.</span></span>
+10. <span data-ttu-id="37cb5-116">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="37cb5-116">Click OK.</span></span>
+11. <span data-ttu-id="37cb5-117">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="37cb5-117">Click OK.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ea0fd-118">Çok sayıda ürün araması yapılmasını bekliyorsanız simülsayonu toplu işte çalıştırmanız önerilir.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-118">It is recommended to run the simulation in batch if you expect to search a large number of products.</span></span> <span data-ttu-id="ea0fd-119">Ayrıca, simülasyonun şirketin en yoğun çalıştığı saatlerde çalışmadığından emin olun.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-119">Also, make sure that the simulation is not run during the most active working time of the company.</span></span>  
+> <span data-ttu-id="37cb5-118">Çok sayıda ürün araması yapılmasını bekliyorsanız simülsayonu toplu işte çalıştırmanız önerilir.</span><span class="sxs-lookup"><span data-stu-id="37cb5-118">It is recommended to run the simulation in batch if you expect to search a large number of products.</span></span> <span data-ttu-id="37cb5-119">Ayrıca, simülasyonun şirketin en yoğun çalıştığı saatlerde çalışmadığından emin olun.</span><span class="sxs-lookup"><span data-stu-id="37cb5-119">Also, make sure that the simulation is not run during the most active working time of the company.</span></span>  
 
-## <a name="review-the-simulation-results"></a><span data-ttu-id="ea0fd-120">Benzetim sonuçlarını inceleme</span><span class="sxs-lookup"><span data-stu-id="ea0fd-120">Review the simulation results</span></span>
-1. <span data-ttu-id="ea0fd-121">Ürün bilgileri yönetimi >Sorgular ve raporlar > Ürün yaşam döngüsü durumu bakım geçmişi öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-121">Go to Product information management > Inquiries and reports > Product lifecycle state maintenance history.</span></span>
+## <a name="review-the-simulation-results"></a><span data-ttu-id="37cb5-120">Benzetim sonuçlarını inceleme</span><span class="sxs-lookup"><span data-stu-id="37cb5-120">Review the simulation results</span></span>
+1. <span data-ttu-id="37cb5-121">Ürün bilgileri yönetimi >Sorgular ve raporlar > Ürün yaşam döngüsü durumu bakım geçmişi öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-121">Go to Product information management > Inquiries and reports > Product lifecycle state maintenance history.</span></span>
    
 > [!NOTE]
-> <span data-ttu-id="ea0fd-122">Bu sayfada, benzetim sonuçlarını inceleyebilir ve benzetim olmadan güncelleştirme çalıştırıldığında ne kadar ürün ve ürün çeşidinin yeni bir ürün yaşam döngüsü durumuyla ilişkilendirileceğini değerlendirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-122">On this page, you can review the simulation results and make an assessment of how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
+> <span data-ttu-id="37cb5-122">Bu sayfada, benzetim sonuçlarını inceleyebilir ve benzetim olmadan güncelleştirme çalıştırıldığında ne kadar ürün ve ürün çeşidinin yeni bir ürün yaşam döngüsü durumuyla ilişkilendirileceğini değerlendirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="37cb5-122">On this page, you can review the simulation results and make an assessment of how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
 
-## <a name="run-the-update-of-the-product-lifecycle-state-for-obsolete-products"></a><span data-ttu-id="ea0fd-123">Eski ürünler için ürün yaşam döngüsü durumu güncelleştirmesini çalıştırma</span><span class="sxs-lookup"><span data-stu-id="ea0fd-123">Run the update of the Product lifecycle state for obsolete products</span></span>
-1. <span data-ttu-id="ea0fd-124">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-124">Close the page.</span></span>
-2. <span data-ttu-id="ea0fd-125">Ürün yönetimi bilgileri > Periyodik görevler > Eski ürünler için yaşam döngüsü durumunu değiştir öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-125">Go to Product information management > Periodic tasks > Change lifecycle state for obsolete products.</span></span>
-3. <span data-ttu-id="ea0fd-126">Eklenecek kayıtlar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-126">Expand the Records to include section.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="ea0fd-127">Son seçimin kaydedildiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-127">Note that the last selection has been saved.</span></span>  
-
-4. <span data-ttu-id="ea0fd-128">Ürün verilerini güncelleştirmeden benzetimi çalıştır alanında Hayır'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-128">Select No in the Run simulation without updating product data field.</span></span>
-5. <span data-ttu-id="ea0fd-129">Arka planda çalıştır bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-129">Expand the Run in the background section.</span></span>
+## <a name="run-the-update-of-the-product-lifecycle-state-for-obsolete-products"></a><span data-ttu-id="37cb5-123">Eski ürünler için ürün yaşam döngüsü durumu güncelleştirmesini çalıştırma</span><span class="sxs-lookup"><span data-stu-id="37cb5-123">Run the update of the Product lifecycle state for obsolete products</span></span>
+1. <span data-ttu-id="37cb5-124">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="37cb5-124">Close the page.</span></span>
+2. <span data-ttu-id="37cb5-125">Ürün yönetimi bilgileri > Periyodik görevler > Eski ürünler için yaşam döngüsü durumunu değiştir öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-125">Go to Product information management > Periodic tasks > Change lifecycle state for obsolete products.</span></span>
+3. <span data-ttu-id="37cb5-126">Eklenecek kayıtlar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-126">Expand the Records to include section.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ea0fd-130">Kaç ürün ve ürün çeşidinin etkilendiğine bağlı olarak, bu işi toplu iş olarak çalıştırmayı düşünün.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-130">Depending on how many products and product variants are affected, consider running this job in batch.</span></span> <span data-ttu-id="ea0fd-131">Büyük bir güncelleştirme işini şirketin yoğun olduğu saatlerde çalıştırmadığınızdan emin olun.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-131">Make sure that you are not running a large update job during the most active working hours in the company.</span></span>  
+> <span data-ttu-id="37cb5-127">Son seçimin kaydedildiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="37cb5-127">Note that the last selection has been saved.</span></span>  
 
-6. <span data-ttu-id="ea0fd-132">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-132">Click OK.</span></span>
-7. <span data-ttu-id="ea0fd-133">Ürün bilgileri yönetimi >Sorgular ve raporlar > Ürün yaşam döngüsü durumu bakım geçmişi öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-133">Go to Product information management > Inquiries and reports > Product lifecycle state maintenance history.</span></span>
+4. <span data-ttu-id="37cb5-128">Ürün verilerini güncelleştirmeden benzetimi çalıştır alanında Hayır'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-128">Select No in the Run simulation without updating product data field.</span></span>
+5. <span data-ttu-id="37cb5-129">Arka planda çalıştır bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-129">Expand the Run in the background section.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ea0fd-134">Değiştirilen serbest bırakılmış ürünleri ve ürün çeşitlerini inceleyin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-134">Review the changed released products and product variants.</span></span>  
+> <span data-ttu-id="37cb5-130">Kaç ürün ve ürün çeşidinin etkilendiğine bağlı olarak, bu işi toplu iş olarak çalıştırmayı düşünün.</span><span class="sxs-lookup"><span data-stu-id="37cb5-130">Depending on how many products and product variants are affected, consider running this job in batch.</span></span> <span data-ttu-id="37cb5-131">Büyük bir güncelleştirme işini şirketin yoğun olduğu saatlerde çalıştırmadığınızdan emin olun.</span><span class="sxs-lookup"><span data-stu-id="37cb5-131">Make sure that you are not running a large update job during the most active working hours in the company.</span></span>  
 
-8. <span data-ttu-id="ea0fd-135">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="ea0fd-135">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="37cb5-132">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="37cb5-132">Click OK.</span></span>
+7. <span data-ttu-id="37cb5-133">Ürün bilgileri yönetimi >Sorgular ve raporlar > Ürün yaşam döngüsü durumu bakım geçmişi öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-133">Go to Product information management > Inquiries and reports > Product lifecycle state maintenance history.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="37cb5-134">Değiştirilen serbest bırakılmış ürünleri ve ürün çeşitlerini inceleyin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-134">Review the changed released products and product variants.</span></span>  
+
+8. <span data-ttu-id="37cb5-135">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="37cb5-135">In the list, find and select the desired record.</span></span>
 

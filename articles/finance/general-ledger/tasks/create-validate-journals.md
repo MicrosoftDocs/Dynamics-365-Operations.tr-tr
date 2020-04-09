@@ -16,32 +16,32 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad1399d8ca96b9fdc5d316b6d9de8d9e04af55e8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 212227afb21ac1a20d29c33b40f6c44561da14fe
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180283"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144365"
 ---
-# <a name="create-and-validate-journals"></a><span data-ttu-id="c47f5-103">Günlükler oluşturma ve doğrulama</span><span class="sxs-lookup"><span data-stu-id="c47f5-103">Create and validate journals</span></span>
+# <a name="create-and-validate-journals"></a><span data-ttu-id="6401c-103">Günlükler oluşturma ve doğrulama</span><span class="sxs-lookup"><span data-stu-id="6401c-103">Create and validate journals</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c47f5-104">Bu görev kılavuzu günlükler ile günlük satırları oluşturur ve doğrular.</span><span class="sxs-lookup"><span data-stu-id="c47f5-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="c47f5-105">Bu kılavuzlar, USMF demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="c47f5-105">This tasks uses the USMF demo company.</span></span>  
+<span data-ttu-id="6401c-104">Bu görev kılavuzu günlükler ile günlük satırları oluşturur ve doğrular.</span><span class="sxs-lookup"><span data-stu-id="6401c-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="6401c-105">Bu kılavuzlar, USMF demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="6401c-105">This tasks uses the USMF demo company.</span></span>  
 
 
 
-1. <span data-ttu-id="c47f5-106">Genel muhasebe > Günlük girişleri > Genel günlükler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="c47f5-106">Go to General ledger > Journal entries > General journals.</span></span>
-2. <span data-ttu-id="c47f5-107">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c47f5-107">Click New.</span></span>
-3. <span data-ttu-id="c47f5-108">Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="c47f5-108">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="c47f5-109">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="c47f5-109">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="c47f5-110">Satırlar seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c47f5-110">Click Lines.</span></span>
-6. <span data-ttu-id="c47f5-111">Hesap alanında, Hesap türüne göre uygun bir hesap girin.</span><span class="sxs-lookup"><span data-stu-id="c47f5-111">In the Account field enter an appropriate account based on the Account type.</span></span>
-7. <span data-ttu-id="c47f5-112">Tanım alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="c47f5-112">In the Description field, type a value.</span></span>
-8. <span data-ttu-id="c47f5-113">Borç veya Alacak alanında Hesap için bir tutar girin.</span><span class="sxs-lookup"><span data-stu-id="c47f5-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="c47f5-114">Bu görev kılavuzu bir borç tutarı olduğunu varsayar.</span><span class="sxs-lookup"><span data-stu-id="c47f5-114">This task guide is assuming a debit amount.</span></span>
-9. <span data-ttu-id="c47f5-115">Mahsup hesap alanında, Mahsup hesap türüne göre uygun bir hesap girin.</span><span class="sxs-lookup"><span data-stu-id="c47f5-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
-10. <span data-ttu-id="c47f5-116">Doğrula'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c47f5-116">Click Validate.</span></span>
-11. <span data-ttu-id="c47f5-117">Doğrula'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c47f5-117">Click Validate.</span></span>
-12. <span data-ttu-id="c47f5-118">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c47f5-118">Click Post.</span></span>
-13. <span data-ttu-id="c47f5-119">Fiş'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c47f5-119">Click Voucher.</span></span>
+1. <span data-ttu-id="6401c-106">Genel muhasebe > Günlük girişleri > Genel günlükler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="6401c-106">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="6401c-107">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6401c-107">Click New.</span></span>
+3. <span data-ttu-id="6401c-108">Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="6401c-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="6401c-109">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="6401c-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="6401c-110">Satırlar seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6401c-110">Click Lines.</span></span>
+6. <span data-ttu-id="6401c-111">Hesap alanında, Hesap türüne göre uygun bir hesap girin.</span><span class="sxs-lookup"><span data-stu-id="6401c-111">In the Account field enter an appropriate account based on the Account type.</span></span>
+7. <span data-ttu-id="6401c-112">Tanım alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="6401c-112">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="6401c-113">Borç veya Alacak alanında Hesap için bir tutar girin.</span><span class="sxs-lookup"><span data-stu-id="6401c-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="6401c-114">Bu görev kılavuzu bir borç tutarı olduğunu varsayar.</span><span class="sxs-lookup"><span data-stu-id="6401c-114">This task guide is assuming a debit amount.</span></span>
+9. <span data-ttu-id="6401c-115">Mahsup hesap alanında, Mahsup hesap türüne göre uygun bir hesap girin.</span><span class="sxs-lookup"><span data-stu-id="6401c-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
+10. <span data-ttu-id="6401c-116">Doğrula'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6401c-116">Click Validate.</span></span>
+11. <span data-ttu-id="6401c-117">Doğrula'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6401c-117">Click Validate.</span></span>
+12. <span data-ttu-id="6401c-118">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6401c-118">Click Post.</span></span>
+13. <span data-ttu-id="6401c-119">Fiş'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6401c-119">Click Voucher.</span></span>
 

@@ -17,31 +17,31 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52798303ef5d96a44270f971703928d0c6c4c2c1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 973236acca0cb8c0d57171e4bb9d4daaa7faaf38
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024306"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141212"
 ---
-# <a name="configure-and-run-job-to-calculate-statements"></a><span data-ttu-id="efb6f-103">Deyimleri hesaplamak için işi yapılandır ve çalıştır</span><span class="sxs-lookup"><span data-stu-id="efb6f-103">Configure and run job to calculate statements</span></span>
+# <a name="configure-and-run-job-to-calculate-statements"></a><span data-ttu-id="df494-103">Deyimleri hesaplamak için işi yapılandır ve çalıştır</span><span class="sxs-lookup"><span data-stu-id="df494-103">Configure and run job to calculate statements</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="efb6f-104">Bu yordam, seçili bir mağaza veya mağaza grubuna ilişkin ekstreleri oluşturmak ve hesaplamak için yinelenen toplu işleri çalıştırma ve yapılandırmayla ilgili açıklamalar sağlar.</span><span class="sxs-lookup"><span data-stu-id="efb6f-104">This procedure walks through configuring and running recurrent batch jobs to create and calculate statements for a selected store or group of stores.</span></span> <span data-ttu-id="efb6f-105">Bu yordam USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="efb6f-105">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="df494-104">Bu yordam, seçili bir mağaza veya mağaza grubuna ilişkin ekstreleri oluşturmak ve hesaplamak için yinelenen toplu işleri çalıştırma ve yapılandırmayla ilgili açıklamalar sağlar.</span><span class="sxs-lookup"><span data-stu-id="df494-104">This procedure walks through configuring and running recurrent batch jobs to create and calculate statements for a selected store or group of stores.</span></span> <span data-ttu-id="df494-105">Bu yordam USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="df494-105">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="efb6f-106">Tüm çalışma alanları > Mağaza mali öğeleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="efb6f-106">Go to All workspaces > Store financials.</span></span>
-2. <span data-ttu-id="efb6f-107">Ekstreleri hesapla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="efb6f-107">Click Calculate statements.</span></span>
-    * <span data-ttu-id="efb6f-108">Belirli bir mağaza seçin veya mağaza grubu için toplu iş oluşturmak istiyorsanız bir düğüm belirtin.</span><span class="sxs-lookup"><span data-stu-id="efb6f-108">Select either a specific store, or a node if you want to create the batch job for a group of stores.</span></span>  
-    * <span data-ttu-id="efb6f-109">Seçiminizi eklemek için oka tıklayın.</span><span class="sxs-lookup"><span data-stu-id="efb6f-109">Click the arrow to add your selection.</span></span>  
-3. <span data-ttu-id="efb6f-110">Arka planda çalıştır sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="efb6f-110">Click the Run in the background tab.</span></span>
-4. <span data-ttu-id="efb6f-111">Toplu işlem altında 'Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="efb6f-111">Under Batch processing, select 'Yes'.</span></span>
-5. <span data-ttu-id="efb6f-112">Yineleme'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="efb6f-112">Click Recurrence.</span></span>
-6. <span data-ttu-id="efb6f-113">Başlangıç tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="efb6f-113">In the Start date field, enter a date.</span></span>
-7. <span data-ttu-id="efb6f-114">Başlangıç saati alanına saati girin.</span><span class="sxs-lookup"><span data-stu-id="efb6f-114">In the Start time field, enter a time.</span></span>
-8. <span data-ttu-id="efb6f-115">Bitiş tarihi yok seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="efb6f-115">Select the No end date option.</span></span>
-9. <span data-ttu-id="efb6f-116">PatternUnit alanına 'Gün' girin.</span><span class="sxs-lookup"><span data-stu-id="efb6f-116">In the PatternUnit field, enter 'Days'.</span></span>
-10. <span data-ttu-id="efb6f-117">Dönem alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="efb6f-117">In the Per field, enter a number.</span></span>
-11. <span data-ttu-id="efb6f-118">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="efb6f-118">Click OK.</span></span>
-12. <span data-ttu-id="efb6f-119">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="efb6f-119">Click OK.</span></span>
+1. <span data-ttu-id="df494-106">Tüm çalışma alanları > Mağaza mali öğeleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="df494-106">Go to All workspaces > Store financials.</span></span>
+2. <span data-ttu-id="df494-107">Ekstreleri hesapla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df494-107">Click Calculate statements.</span></span>
+    * <span data-ttu-id="df494-108">Belirli bir mağaza seçin veya mağaza grubu için toplu iş oluşturmak istiyorsanız bir düğüm belirtin.</span><span class="sxs-lookup"><span data-stu-id="df494-108">Select either a specific store, or a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="df494-109">Seçiminizi eklemek için oka tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df494-109">Click the arrow to add your selection.</span></span>  
+3. <span data-ttu-id="df494-110">Arka planda çalıştır sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df494-110">Click the Run in the background tab.</span></span>
+4. <span data-ttu-id="df494-111">Toplu işlem altında 'Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="df494-111">Under Batch processing, select 'Yes'.</span></span>
+5. <span data-ttu-id="df494-112">Yineleme'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df494-112">Click Recurrence.</span></span>
+6. <span data-ttu-id="df494-113">Başlangıç tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="df494-113">In the Start date field, enter a date.</span></span>
+7. <span data-ttu-id="df494-114">Başlangıç saati alanına saati girin.</span><span class="sxs-lookup"><span data-stu-id="df494-114">In the Start time field, enter a time.</span></span>
+8. <span data-ttu-id="df494-115">Bitiş tarihi yok seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="df494-115">Select the No end date option.</span></span>
+9. <span data-ttu-id="df494-116">PatternUnit alanına 'Gün' girin.</span><span class="sxs-lookup"><span data-stu-id="df494-116">In the PatternUnit field, enter 'Days'.</span></span>
+10. <span data-ttu-id="df494-117">Dönem alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="df494-117">In the Per field, enter a number.</span></span>
+11. <span data-ttu-id="df494-118">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df494-118">Click OK.</span></span>
+12. <span data-ttu-id="df494-119">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df494-119">Click OK.</span></span>
 

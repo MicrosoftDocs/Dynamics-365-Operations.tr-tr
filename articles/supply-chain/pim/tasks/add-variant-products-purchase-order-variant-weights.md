@@ -16,35 +16,35 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adb2300e51f8b5383eee4dea0dffe4129dc8a536
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: ae45dc0ed5332242a12efbb7f8ca37f97a244cce
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934829"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147998"
 ---
-# <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a><span data-ttu-id="a7909-103">Varyant ağırlıkları kullanarak satınalma siparişlerine çeşitli ürünler ekleme</span><span class="sxs-lookup"><span data-stu-id="a7909-103">Add variant products to purchase orders using variant weights</span></span>
+# <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a><span data-ttu-id="8c170-103">Varyant ağırlıkları kullanarak satınalma siparişlerine çeşitli ürünler ekleme</span><span class="sxs-lookup"><span data-stu-id="8c170-103">Add variant products to purchase orders using variant weights</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a7909-104">Bu yordam, her ürün varyantı için satınalma siparişi satırlarını otomatik olarak doldurmak üzere varyant ağırlıklarının kullanılmasıyla ilgili açıklamalar içerir.</span><span class="sxs-lookup"><span data-stu-id="a7909-104">This procedure walks through the steps for using variant weights to auto populate purchase order lines for each variant of a product.</span></span> <span data-ttu-id="a7909-105">Satın almak istediğiniz ürün miktarını seçtiğinizde, satınalma siparişi satırları ürün varyantlarında yapılandırılan ağırlıklar teme alınarak tüm ürün varyantları için önerilen miktarlarla oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a7909-105">When you select the quantity of the product you want to purchase, purchase order lines are created for all the variants of the product with suggested quantities based on the weights configured on the product variants.</span></span> <span data-ttu-id="a7909-106">Bu yordam, ürün boyutları ve ürün çeşitlerinde ağırlık değerleri yapılandırma adımlarını içermez.</span><span class="sxs-lookup"><span data-stu-id="a7909-106">This procedure doesn’t include steps to configure weight values on product dimensions and product variants.</span></span> <span data-ttu-id="a7909-107">Bu yordam USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="a7909-107">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="8c170-104">Bu yordam, her ürün varyantı için satınalma siparişi satırlarını otomatik olarak doldurmak üzere varyant ağırlıklarının kullanılmasıyla ilgili açıklamalar içerir.</span><span class="sxs-lookup"><span data-stu-id="8c170-104">This procedure walks through the steps for using variant weights to auto populate purchase order lines for each variant of a product.</span></span> <span data-ttu-id="8c170-105">Satın almak istediğiniz ürün miktarını seçtiğinizde, satınalma siparişi satırları ürün varyantlarında yapılandırılan ağırlıklar teme alınarak tüm ürün varyantları için önerilen miktarlarla oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="8c170-105">When you select the quantity of the product you want to purchase, purchase order lines are created for all the variants of the product with suggested quantities based on the weights configured on the product variants.</span></span> <span data-ttu-id="8c170-106">Bu yordam, ürün boyutları ve ürün çeşitlerinde ağırlık değerleri yapılandırma adımlarını içermez.</span><span class="sxs-lookup"><span data-stu-id="8c170-106">This procedure doesn't include steps to configure weight values on product dimensions and product variants.</span></span> <span data-ttu-id="8c170-107">Bu yordam USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="8c170-107">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="a7909-108">Accounts payable > Purchase orders > All purchase orders (Borç hesapları > Satınalma siparişleri > Tüm satınalma siparişleri) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="a7909-108">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="a7909-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a7909-109">Click New.</span></span>
-3. <span data-ttu-id="a7909-110">Satıcı hesabı alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="a7909-110">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="a7909-111">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a7909-111">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="a7909-112">Genel bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="a7909-112">Toggle the expansion of the General section.</span></span>
-6. <span data-ttu-id="a7909-113">Tesis alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a7909-113">In the Site field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="a7909-114">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a7909-114">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="a7909-115">Ambar alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="a7909-115">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="a7909-116">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="a7909-116">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="a7909-117">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a7909-117">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="a7909-118">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a7909-118">Click OK.</span></span>
-12. <span data-ttu-id="a7909-119">Satır ayrıntıları bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="a7909-119">Toggle the expansion of the Line details section.</span></span>
-13. <span data-ttu-id="a7909-120">Varyantlar sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a7909-120">Click the Variants tab.</span></span>
-14. <span data-ttu-id="a7909-121">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a7909-121">Click Add line.</span></span>
-15. <span data-ttu-id="a7909-122">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="a7909-122">In the list, mark the selected row.</span></span>
-16. <span data-ttu-id="a7909-123">Madde numarası alanına '0140' yazın.</span><span class="sxs-lookup"><span data-stu-id="a7909-123">In the Item number field, type '0140'.</span></span>
-17. <span data-ttu-id="a7909-124">Miktarı '1000' olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="a7909-124">Set Quantity to '1000'.</span></span>
-18. <span data-ttu-id="a7909-125">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a7909-125">Click Save.</span></span>
+1. <span data-ttu-id="8c170-108">Accounts payable > Purchase orders > All purchase orders (Borç hesapları > Satınalma siparişleri > Tüm satınalma siparişleri) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="8c170-108">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="8c170-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c170-109">Click New.</span></span>
+3. <span data-ttu-id="8c170-110">Satıcı hesabı alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="8c170-110">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="8c170-111">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c170-111">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="8c170-112">Genel bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="8c170-112">Toggle the expansion of the General section.</span></span>
+6. <span data-ttu-id="8c170-113">Tesis alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c170-113">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="8c170-114">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c170-114">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="8c170-115">Ambar alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="8c170-115">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="8c170-116">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="8c170-116">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="8c170-117">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c170-117">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="8c170-118">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="8c170-118">Click OK.</span></span>
+12. <span data-ttu-id="8c170-119">Satır ayrıntıları bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="8c170-119">Toggle the expansion of the Line details section.</span></span>
+13. <span data-ttu-id="8c170-120">Varyantlar sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c170-120">Click the Variants tab.</span></span>
+14. <span data-ttu-id="8c170-121">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c170-121">Click Add line.</span></span>
+15. <span data-ttu-id="8c170-122">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="8c170-122">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="8c170-123">Madde numarası alanına '0140' yazın.</span><span class="sxs-lookup"><span data-stu-id="8c170-123">In the Item number field, type '0140'.</span></span>
+17. <span data-ttu-id="8c170-124">Miktarı '1000' olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="8c170-124">Set Quantity to '1000'.</span></span>
+18. <span data-ttu-id="8c170-125">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c170-125">Click Save.</span></span>
 

@@ -15,42 +15,42 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd9d40bb331b9e024617c8be55330dfce8ba1cc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 02d7e0b6f81011519b0e1bd09f8aea0c4170ffd0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555920"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149902"
 ---
-# <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a><span data-ttu-id="5eb47-103">Ürün yaşam döngüsü durumunu serbest bırakılan bir ana ürüne atama</span><span class="sxs-lookup"><span data-stu-id="5eb47-103">Assign a product lifecycle state to a released product master</span></span>
+# <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a><span data-ttu-id="e2253-103">Ürün yaşam döngüsü durumunu serbest bırakılan bir ana ürüne atama</span><span class="sxs-lookup"><span data-stu-id="e2253-103">Assign a product lifecycle state to a released product master</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="5eb47-104">Bu yordam, serbest bırakılan bir ana ürüne ve onun ürün çeşitlerine nasıl ürün yaşam döngüsü durumu atanacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="5eb47-104">This procedure shows how to assign a product lifecycle state to a released product master and its variants.</span></span> <span data-ttu-id="5eb47-105">Önkoşul: Bu görev kılavuzunu oynatabilmek için önce "Yeni ürün yaşam döngüsü durumu oluşturma" görev kılavuzunu oynatarak en az bir ürün yaşam döngüsü durumu oluşturmuş olduğunuzdan emin olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="5eb47-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that you have at least one product lifecycle state created before you can play this task guide.</span></span>
+<span data-ttu-id="e2253-104">Bu yordam, serbest bırakılan bir ana ürüne ve onun ürün çeşitlerine nasıl ürün yaşam döngüsü durumu atanacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="e2253-104">This procedure shows how to assign a product lifecycle state to a released product master and its variants.</span></span> <span data-ttu-id="e2253-105">Önkoşul: Bu görev kılavuzunu oynatabilmek için önce "Yeni ürün yaşam döngüsü durumu oluşturma" görev kılavuzunu oynatarak en az bir ürün yaşam döngüsü durumu oluşturmuş olduğunuzdan emin olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="e2253-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that you have at least one product lifecycle state created before you can play this task guide.</span></span>
 
 
-## <a name="find-a-released-product-master"></a><span data-ttu-id="5eb47-106">Serbest bırakılan bir ana ürünü bulma</span><span class="sxs-lookup"><span data-stu-id="5eb47-106">Find a released product master</span></span>
-1. <span data-ttu-id="5eb47-107">Product information management > Products > Released products (Ürün bilgi yönetimi > Ürünler > Piyasaya sürülmüş ürünler) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="5eb47-107">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="5eb47-108">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="5eb47-108">In the list, find and select the desired record.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="5eb47-109">Bir ana üründe Ürün alt türü Ana ürün bulunuyor.</span><span class="sxs-lookup"><span data-stu-id="5eb47-109">A product master has the Product subtype Product master.</span></span>  
-
-## <a name="update-the-lifecycle-state"></a><span data-ttu-id="5eb47-110">Yaşam döngüsü durumunu güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="5eb47-110">Update the lifecycle state</span></span>
-1. <span data-ttu-id="5eb47-111">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5eb47-111">Click Edit.</span></span>
-2. <span data-ttu-id="5eb47-112">Ürün yaşam döngüsü durumu alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="5eb47-112">In the Product lifecycle state field, enter or select a value.</span></span>
-3. <span data-ttu-id="5eb47-113">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5eb47-113">Click Save.</span></span>
-4. <span data-ttu-id="5eb47-114">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="5eb47-114">Click Yes.</span></span>
+## <a name="find-a-released-product-master"></a><span data-ttu-id="e2253-106">Serbest bırakılan bir ana ürünü bulma</span><span class="sxs-lookup"><span data-stu-id="e2253-106">Find a released product master</span></span>
+1. <span data-ttu-id="e2253-107">Product information management > Products > Released products (Ürün bilgi yönetimi > Ürünler > Piyasaya sürülmüş ürünler) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="e2253-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="e2253-108">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="e2253-108">In the list, find and select the desired record.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5eb47-115">Evet seçilirse, serbest bırakılan ana ürünle aynı orijinal duruma sahip serbest bırakılmış tüm ilgili ürün çeşitleri de yeni ürün yaşam döngüsü durumuna güncelleştirilir.</span><span class="sxs-lookup"><span data-stu-id="5eb47-115">If Yes is selected, all the related released product variants that have the same original status as the released product master are also updated to the new product lifecycle state.</span></span> <span data-ttu-id="5eb47-116">Hayır seçilirse tüm ürün çeşitlerinin geçerli durumları korunur.</span><span class="sxs-lookup"><span data-stu-id="5eb47-116">If No is selected, all variants keep their actual state.</span></span> <span data-ttu-id="5eb47-117">Serbest bırakılan ana üründen farklı ürün yaşam döngüsü durumuna sahip ürün çeşitleri güncelleştirilmez.</span><span class="sxs-lookup"><span data-stu-id="5eb47-117">Variants that have a different product lifecycle state from the released product master are not updated.</span></span>  
+> <span data-ttu-id="e2253-109">Bir ana üründe Ürün alt türü Ana ürün bulunuyor.</span><span class="sxs-lookup"><span data-stu-id="e2253-109">A product master has the Product subtype Product master.</span></span>  
 
-## <a name="verify-the-lifecycle-state-of-the-variants"></a><span data-ttu-id="5eb47-118">Ürün çeşitlerinin yaşam döngüsü durumunu doğrulama</span><span class="sxs-lookup"><span data-stu-id="5eb47-118">Verify the lifecycle state of the variants</span></span>
-1. <span data-ttu-id="5eb47-119">Serbest bırakılan ürün çeşitleri'ne tıklayın</span><span class="sxs-lookup"><span data-stu-id="5eb47-119">Click Released product variants.</span></span>
+## <a name="update-the-lifecycle-state"></a><span data-ttu-id="e2253-110">Yaşam döngüsü durumunu güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="e2253-110">Update the lifecycle state</span></span>
+1. <span data-ttu-id="e2253-111">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e2253-111">Click Edit.</span></span>
+2. <span data-ttu-id="e2253-112">Ürün yaşam döngüsü durumu alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="e2253-112">In the Product lifecycle state field, enter or select a value.</span></span>
+3. <span data-ttu-id="e2253-113">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e2253-113">Click Save.</span></span>
+4. <span data-ttu-id="e2253-114">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="e2253-114">Click Yes.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5eb47-120">Tüm ürün çeşitlerinin seçilen yaşam döngüsü durumunu serbest bırakılan ana üründen devraldığını unutmayın.</span><span class="sxs-lookup"><span data-stu-id="5eb47-120">Note that all variants have inherited the selected lifecycle state from the released product master.</span></span>  
+> <span data-ttu-id="e2253-115">Evet seçilirse, serbest bırakılan ana ürünle aynı orijinal duruma sahip serbest bırakılmış tüm ilgili ürün çeşitleri de yeni ürün yaşam döngüsü durumuna güncelleştirilir.</span><span class="sxs-lookup"><span data-stu-id="e2253-115">If Yes is selected, all the related released product variants that have the same original status as the released product master are also updated to the new product lifecycle state.</span></span> <span data-ttu-id="e2253-116">Hayır seçilirse tüm ürün çeşitlerinin geçerli durumları korunur.</span><span class="sxs-lookup"><span data-stu-id="e2253-116">If No is selected, all variants keep their actual state.</span></span> <span data-ttu-id="e2253-117">Serbest bırakılan ana üründen farklı ürün yaşam döngüsü durumuna sahip ürün çeşitleri güncelleştirilmez.</span><span class="sxs-lookup"><span data-stu-id="e2253-117">Variants that have a different product lifecycle state from the released product master are not updated.</span></span>  
 
-2. <span data-ttu-id="5eb47-121">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="5eb47-121">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="5eb47-122">Ürün yaşam döngüsü durumu alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="5eb47-122">In the Product lifecycle state field, enter or select a value.</span></span>
+## <a name="verify-the-lifecycle-state-of-the-variants"></a><span data-ttu-id="e2253-118">Ürün çeşitlerinin yaşam döngüsü durumunu doğrulama</span><span class="sxs-lookup"><span data-stu-id="e2253-118">Verify the lifecycle state of the variants</span></span>
+1. <span data-ttu-id="e2253-119">Serbest bırakılan ürün çeşitleri'ne tıklayın</span><span class="sxs-lookup"><span data-stu-id="e2253-119">Click Released product variants.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="e2253-120">Tüm ürün çeşitlerinin seçilen yaşam döngüsü durumunu serbest bırakılan ana üründen devraldığını unutmayın.</span><span class="sxs-lookup"><span data-stu-id="e2253-120">Note that all variants have inherited the selected lifecycle state from the released product master.</span></span>  
+
+2. <span data-ttu-id="e2253-121">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="e2253-121">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="e2253-122">Ürün yaşam döngüsü durumu alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="e2253-122">In the Product lifecycle state field, enter or select a value.</span></span>
 
