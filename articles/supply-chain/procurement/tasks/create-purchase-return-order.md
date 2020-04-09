@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d586f4cc92e7533cabb8810ce5a42a37e6ba9ff1
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: 743cb2677696727ac2730fec2c11954d150f4cfa
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995202"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147377"
 ---
 # <a name="create-a-purchase-return-order"></a>Satınalma iade siparişi oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, bir satıcı fatura belgesinden satırları yeni bir satınalma siparişine kopyalamak için Alacak dekontu eylemini kullanarak bir satın alma iade siparişini nasıl oluşturacağınızı gösterir. Ayrıca siparişi nasıl onaylayacağınızı ve malların satıcıya geri sevkiyatını nasıl işleyeceğinizi gösterir. Bu yordamda gösterilen örnek, demo verileri şirketi USMF'de kullanılabilir. Bu görev genellikle bir satınalma temsilcisi tarafından gerçekleştirilir.
 

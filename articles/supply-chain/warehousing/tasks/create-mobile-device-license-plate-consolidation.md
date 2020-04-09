@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cc610a16f4b0e574b5d5e7f8fc9ecf1e12534645
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 13d08de62129698f85e0a30f870ba680e3bb0532
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847315"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148412"
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>Plaka birleştirme işlemi için bir mobil cihaz menü öğesi oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, plaka birleştirme işi için mobil cihaz menüsü öğesi oluşturmayı gösterir. Bu, ambar çalışanlarının bir plakadaki maddeleri aynı konumda bulunan farklı bir plakadaki maddelerde birleştirmesine olanak tanır. Örneğin, sonraki aşamalandırma adımları her iki iş emrinde de aynı olduğunda çalışanlar bu özelliği kullanabilir ve işin birleştirilmiş maddeler için yalnızca bir kere uygulanmasını sağlayabilir. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz. Görev genellikle ambar yöneticisi tarafından yerine getirilir. Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
 

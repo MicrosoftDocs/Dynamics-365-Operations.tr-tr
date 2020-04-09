@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fb34ecc0ff5966ae09fdb00e80134a11eceb30a2
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: d62cf8be089eb8bccaf323041bf446b7f120b93f
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097542"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164547"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Dynamics 365 Supply Chain Management 10.0.8'deki yenilikler veya değişiklikler (Şubat 2020)
 
@@ -32,13 +32,14 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.8'deki yeni veya 
 
 - **Önizleme sürümü:** Aralık 2019
 - **Genel kullanılabilirlik (kendi kendini güncelleştirme):** Ocak 2020
-- **Otomatik güncelleştirme:** Şubat 2020 
+- **Otomatik güncelleştirme:** Şubat 2020
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
 Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [Sürüm planları](https://docs.microsoft.com/dynamics365/release-plans/) sitesindeki ek bilgilere bağlantı sağlar. Ek bağlantılar, söz konusu özellik için kullanılabilir olan ek belgelere veya videolara götürür. Bu özelliklerden bazıları daha önceki bir artımlı sürüme eklenmiş ancak önceki *Yenilikler* konusunda açıklanmamış olabileceğinden bunları buraya ekledik. Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 
 - [Ek yerleşim bölgesi](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [Varlık Yönetimi](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management) - Daha fazla bilgi için bkz. [Varlık yönetimine genel bakış](../asset-management/index.md).
 - [İşi iptal et](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)- Daha fazla bilgi için bkz. [Özel durum işleme için ambar işini iptal etme](../warehousing/cancel-warehouse-work.md).
 - [İşteki iş havuzunu değiştir](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
 - [Küme konumu dolu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)

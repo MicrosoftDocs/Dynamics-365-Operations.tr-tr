@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4a34a03dc5bb3cec37bbccdf913bee5088af6a0
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c5306d41ab91213fdc7de0d3dd23d6845c5b8657
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844621"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147745"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Tek bir şirket için serbest bırakılan ürün oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, tek bir yasal birim bağlamında yayımlanan tek bir ürün oluşturmayı adım adım anlatılmaktadır. Yayımlanan ürün oluşturulduktan sonra, yalnızca bu birimde hemen kullanılabilir. Bu yordamı, USMF demo verisi şirketi aracılığıyla uygulayabilirsiniz. Bu görev, genellikle bir ürün tasarımcısı tarafından gerçekleştirilir.
 

@@ -19,48 +19,61 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 587a9b98f28b11e303aff4b59e9726f220d956eb
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: ffd7a4c01810578b4abb6942aeff76e5147fafa9
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020053"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173051"
 ---
 # <a name="switch-between-vendor-designs"></a>Satıcı tasarımları arasında geçiş yapma
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 ## <a name="vendor-data-flow"></a>Satıcı veri akışı 
 
-Satıcı yönetimi için diğer Dynamics 365 uygulamalarını kullanmak ve satıcı bilgilerini müşterilerden ayırmak istiyorsanız bu temel satıcı tasarımını kullanın.  
+**Organizasyon** türünün satıcılarını depolamak için **firma** varlığını ve **kişi** türündeki satıcıları depolamak için ilgili **kişi** varlığını kullanmayı seçerseniz, aşağıdaki iş akışlarını konfigüre edin. Aksi takdirde, bu yapılandırmaya gerek yoktur.
 
-![Temel satıcı akışı](media/dual-write-vendor-data-flow.png)
- 
-Satıcı yönetimi için diğer Dynamics 365 uygulamalarını kullanmak ve satıcı bilgilerini depolamak için **Hesap** varlığını kullanmaya devam etmek istiyorsanız bu genişletilmiş satıcı tasarımını kullanın. Bu tasarımda, satıcı beklemede durumu ve satıcı profili gibi genişletilmiş satıcı bilgileri Common Data Service'te **satıcılar** varlığında depolanır. 
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-organization-type"></a>Organizasyon türündeki satıcılar için genişletilmiş satıcı tasarımını kullan
 
-![Genişletilmiş satıcı akışı](media/dual-write-vendor-detail.jpg)
- 
-Genişletilmiş satıcı tasarımını kullanmak için aşağıdaki adımları izleyin: 
- 
-1. **SupplyChainCommon** çözüm paketi, aşağıdaki görüntüde gösterilen iş akışı işlem şablonlarını içerir.
-    > [!div class="mx-imgBorder"]
-    > ![İş akışı işlem şablonları](media/dual-write-switch-3.png)
-2. İş akışı işlem şablonlarını kullanarak yeni iş akışı işlemleri oluşturma: 
-    1. **Hesap Varlığında Satıcılar Oluşturma** iş akışı işlemi şablonunu kullanarak **Satıcı** varlığı için yeni bir iş akışı işlemi oluşturun ve **Tamam**'a tıklayın. Bu iş akışı **Hesap** varlığı için satıcı oluşturma senaryosunu işler.
-        > [!div class="mx-imgBorder"]
-        > ![Hesap Varlığında Satıcılar oluşturma](media/dual-write-switch-4.png)
-    2. **Hesaplar Varlığını Güncelleştirme** iş akışı işlemi şablonunu kullanarak **Satıcı** varlığı için yeni bir iş akışı işlemi oluşturun ve **Tamam**'a tıklayın. Bu iş akışı **Hesap** varlığı için satıcı güncelleştirme senaryosunu işler. 
-        > [!div class="mx-imgBorder"]
-        > ![Hesaplar Varlığını Güncelleştirme](media/dual-write-switch-5.png)
-    3. **Hesaplar** varlığında oluşturulan şablonlardan yeni iş akışı işlemleri oluşturun. 
-        > [!div class="mx-imgBorder"]
-        > ![Satıcılar varlığında satıcılar oluşturma](media/dual-write-switch-6.png)
-        > [!div class="mx-imgBorder"]
-        > ![Satıcı varlığını güncelleştirme](media/dual-write-switch-7.png)
-    4. İş akışlarını gereksinimlerinize göre gerçek zamanlı veya arka plan iş akışları olarak yapılandırabilirsiniz. 
-        > [!div class="mx-imgBorder"]
-        > ![Arka plan iş akışına dönüştürme](media/dual-write-switch-8.png)
-    5. Satıcı bilgilerini depolamak için **Hesap** varlığını kullanmaya başlamak için **Hesap** ve **Satıcı** varlıklarında oluşturduğunuz iş akışlarını etkinleştirin. 
- 
+**Dynamics365FinanceExtended** çözüm paketi aşağıdaki iş akışı işlem şablonlarını içerir. Her şablon için bir iş akışı oluşturacaksınız.
+
++ Hesap Varlığında Satıcılar oluşturma
++ Satıcılar varlığında satıcılar oluşturma
++ Hesap Varlığında Satıcılar güncelleme
++ Satıcılar varlığında satıcılar güncelleme
+
+İş akışı işlem şablonlarını kullanarak yeni iş akışı işlemleri oluşturmak için şu adımları izleyin.
+
+1. **Hesap Varlığında Satıcılar Oluşturma** iş akışı işlemi şablonunu kullanarak **Satıcı** varlığı için yeni bir iş akışı işlemi oluşturun ve Tamam'a tıklayın. Daha sonra **Tamam**'ı seçin. Bu iş akışı **Hesap** varlığı için satıcı oluşturma senaryosunu işler.
+
+    ![Hesap Varlığında Satıcılar iş akışı süreci oluşturma](media/create_process.png)
+
+2. **Hesap Varlığında Satıcılar Güncelleme** iş akışı işlemi şablonunu kullanarak **Satıcı** varlığı için yeni bir iş akışı işlemi oluşturun ve Tamam'a tıklayın. Daha sonra **Tamam**'ı seçin. Bu iş akışı **Hesap** varlığı için satıcı güncelleştirme senaryosunu işler.
+3. **Satıcılar Varlığında Satıcılar Oluşturma** iş akışı işlemi şablonunu kullanarak **Firma** varlığı için yeni bir iş akışı işlemi oluşturun ve Tamam'a tıklayın.
+4. **Satıcılar Varlığında Satıcılar Güncelleme** iş akışı işlemi şablonunu kullanarak **Firma** varlığı için yeni bir iş akışı işlemi oluşturun ve Tamam'a tıklayın.
+5. İş akışlarını gereksinimlerinize göre gerçek zamanlı iş akışları veya arka plan iş akışları olarak yapılandırabilirsiniz. Bir iş akışını arka plan iş akışı olarak konfigüre etmek için, **bir arka plan iş akışına dönüştür** ü seçin.
+
+    ![Arka plan iş akışına dönüştürme düğmesi](media/background_workflow.png)
+
+6. **Kuruluş** türünün satıcı bilgilerini depolamak için **Firma** varlığını kullanmaya başlamak için **Firma** ve **Satıcı** varlıklarında oluşturduğunuz iş akışlarını etkinleştirin.
+
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-person-type"></a>Kişi türündeki satıcılar için genişletilmiş satıcı tasarımını kullan
+
+**Dynamics365FinanceExtended** çözüm paketi aşağıdaki iş akışı işlem şablonlarını içerir. Her şablon için bir iş akışı oluşturacaksınız.
+
++ Satıcı varlığındaki kişi türünden satıcılar oluştur
++ İlgili kişiler varlığındaki kişi türünden satıcılar oluştur
++ İlgili kişiler varlığındaki kişi türünden satıcılar güncelle
++ Satıcı varlığındaki kişi türünden satıcılar güncelle
+
+İş akışı işlem şablonlarını kullanarak yeni iş akışı işlemleri oluşturmak için şu adımları izleyin.
+
+1. **İlgili kişiler varlığındaki kişi türünden satıcılar oluştur** iş akışı işlemi şablonunu kullanarak **Satıcı** varlığı için yeni bir iş akışı işlemi oluşturun. Daha sonra **Tamam**'ı seçin. Bu iş akışı **İlgili kişi** varlığı için satıcı oluşturma senaryosunu işler.
+2. **İlgili kişiler varlığındaki kişi türünden satıcılar güncelle** iş akışı işlemi şablonunu kullanarak **Satıcı** varlığı için yeni bir iş akışı işlemi oluşturun. Daha sonra **Tamam**'ı seçin. Bu iş akışı **İlgili kişi** varlığı için satıcı güncelleştirme senaryosunu işler.
+3. **Satıcı varlığındaki kişi türünden satıcılar oluştur** iş akışı işlemi şablonunu kullanarak **İlgili kişi** varlığı için yeni bir iş akışı işlemi oluşturun ve Tamam'a tıklayın.
+4. **Satıcı varlığındaki kişi türünden satıcılar güncelle** iş akışı işlemi şablonunu kullanarak **İlgili kişi** varlığı için yeni bir iş akışı işlemi oluşturun ve Tamam'a tıklayın.
+5. İş akışlarını gereksinimlerinize göre gerçek zamanlı iş akışları veya arka plan iş akışları olarak yapılandırabilirsiniz. Bir iş akışını arka plan iş akışı olarak konfigüre etmek için, **bir arka plan iş akışına dönüştür** ü seçin.
+6. **Kişi** türünün satıcı bilgilerini depolamak için **İlgili kişi** varlığını kullanmaya başlamak için **İlgili kişi** ve **Satıcı** varlıklarında oluşturduğunuz iş akışlarını etkinleştirin.

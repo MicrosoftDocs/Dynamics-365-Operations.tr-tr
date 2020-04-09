@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d785b321037645837dbcbaf28c8ede9b8e97b79
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 20188438a4ca623fc926e6c373fb002f148c3df4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550614"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142490"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 2 - İşlemleri yapılandırma)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının bir Elektronik raporlama (ER) biçimini zaten oluşturulmuş metin çıktısının verilerine bağlı olarak nasıl sayacağını ve toplayacağını açıklar. Bu adımlar tüm şirketlerde gerçekleştirilebilir.
 
@@ -85,7 +85,7 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 34. "Toplanan veri anahtarı adı" alanı için Düzenle düğmesine tıklayın
 35. Veri kaynağı ekle'ye tıklayın.
     * $BlockName  
-36. Kaydet'e tıklayın.
+36. Kaydet'i tıklatın.
 37. Sayfayı kapatın.
 38. Toplanan veri anahtarı değeri alanı için Düzenle düğmesine tıklayın.
 39. Formül alanına, "EĞER(Intrastat.CommodityRecord.Direction=Direction.Import, "İthalat", "İhracat")' yazın.
@@ -95,11 +95,11 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
     * Bu dizinin satırlarını sayın. Sonuçlar, farklı yönler için ayrı ayrı "blok" adıyla kullanılır. Her varış Intrastat hareketi için "İthalat" değeri kullanılır. Her sevk Intrastat hareketi için "İhracat" değeri kullanılır. Bunu sanal bir Excel elektronik tablosu olarak düşünün. Her bir hareket için "blok" ilk sütunu, uygun şekilde "İthalat" ve "İhracat" değerleriyle doldurulur.  
 42. Ağaçta "Intrastat\Veri:Sıra" öğesini genişletin.
 43. Ağaçta, "Intrastat\Veri:Sıra\Gelen?" öğesini seçin.
-44. "Toplanan veri anahtarı adı" alanı için Düzenle düğmesine tıklayın.
+44. "Toplanan veri anahtarı adı" alanı için Düzenle düğmesine tıklayın
     * Bu dizinin satırlarını sayın. Sonuçlar "kayıt" adı kullanılarak belleğe alınır.  
 45. Ağaçta, "$RecName" öğesini seçin.
 46. Veri kaynağı ekle'ye tıklayın.
-47. Kaydet'e tıklayın.
+47. Kaydet'i tıklatın.
 48. Sayfayı kapatın.
 49. "Toplanan veri anahtarı değeri" alanı için Düzenle düğmesine tıklayın
 50. Formül alanına, 'Intrastat.CommodityRecord.CommodityCode' yazın.
@@ -110,7 +110,7 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 54. "Toplanan veri anahtarı adı" alanı için Düzenle düğmesine tıklayın
 55. Ağaçta, "$RecName" öğesini seçin.
 56. Veri kaynağı ekle'ye tıklayın.
-57. Kaydet'e tıklayın.
+57. Kaydet'i tıklatın.
 58. Sayfayı kapatın.
 59. "Toplanan veri anahtarı değeri" alanı için Düzenle düğmesine tıklayın.
 60. Formül alanına, 'Intrastat.CommodityRecord.CommodityCode' yazın.

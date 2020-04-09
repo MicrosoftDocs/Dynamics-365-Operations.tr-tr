@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a543d9091ffecbb0cdd52acb527de971ee768823
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b0391cd71b43138982ae6e9616027f1695d7d0da
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843949"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149496"
 ---
 # <a name="set-up-project-resource-information"></a>Proje kaynak bilgilerini ayarlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, bir proje kaynağı ayarlamayı gösterir. Bu görev, USMF veri kümelerini kullanır.
 

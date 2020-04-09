@@ -1,6 +1,6 @@
 ---
 title: CSV dosyalarından veri almak için ER yapılandırmaları tasarlama
-description: Finance and Operations uygulamasına CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama (ER) yapılandırmalarını tasarlamak için bu yordamı kullanın.
+description: Finance and Operations'a CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama (ER) yapılandırmalarını tasarlamak için bu yordamı kullanın.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf27590d80bbaf7749a0b6e69adc63ddcf4f9380
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c8511b83a5d327f6a1d5c9ace091eae9e546307b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185164"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142282"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>CSV dosyalarından veri almak için ER yapılandırmaları tasarlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Uygulamaya CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama (ER) yapılandırmalarını tasarlamak için bu yordamı kullanın. Bu yordamda, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımları tamamlamak için ilk olarak "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir. 
 
@@ -61,9 +61,9 @@ Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne a
 10. Ağaçta, '1099 Ödeme modeli\Satıcı hareketlerini içe aktarmak için (CSV)' öğesini seçin.
 
 ## <a name="review-format-settings"></a>Biçim ayarlarını gözden geçirme
-1. Tasarımcı'yı tıklatın.
+1. Tasarımcı'ya tıklayın.
 2. Genişlet/daralt'a tıklayın.
-3. 'Ayrıntıları göster' öğesini açın.
+3. "Ayrıntıları göster" öğesini açın.
     * Tasarlanan biçim, harici dosyanın CSV biçimindeki beklenen yapısını gösterir.  
 4. Ağaçta, 'Gelen: Dosya\Kök: Sıra' öğesini seçin.
     * SIRA türündeki Kök öğe için, ‘Yeni satır - Windows (CR LF)’ seçeneği ‘Özel karakterler’ alanında seçilmiştir. Bu ayarı temel alarak, ayrıştırma dosyasındaki her satır ayrı bir kayıt olarak ele alınmalıdır.   
@@ -102,7 +102,7 @@ Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne a
     * TransactionDate ve CountryCode gibi gerekli ve isteğe bağlı biçim öğelerinin önceden tanımlanmış 'biçim' veri kaynağı bileşeninde farklı göründüğünü unutmayın.   
 12. Ağaçta 'Hareketler = '$her ikisi'' öğesini genişletin.
     * İçeri aktarılan dosyanın yapısını tanımlayan biçim öğelerinin veri modeli öğelerine bağlı olduğuna dikkat edin. Bu bağlamalara göre, içeri aktarılan CSV dosyasının içeriği, mevcut veri modelinin çalışma zamanında saklanır. CountryRegion öğesinin bağlamasına dikkat edin. Gelen dosyada belirtilmiş bir ülke kodu değeri bulunmayan her hareket öğesi için, veri modelinde varsayılan ülke kodu olarak "ABD" kullanılır.   
-13. 'Ayrıntıları göster' öğesini açın.
+13. "Ayrıntıları göster" öğesini açın.
 14. Doğrulamalar sekmesine tıklayın.
 15. Ara'ya tıklayın.
 16. Bul alanına, 'satıcı' yazın.

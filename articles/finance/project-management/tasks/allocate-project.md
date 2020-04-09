@@ -16,16 +16,16 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05a488e21c69e55fa92e4c23e97d6de0a7d99e1c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8f4461fde9b5c4e158063c52b97df63f4f04e127
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185440"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139071"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Dönemler arasında bir proje bütçesi veya bütçe revizyonu tahsis etme
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
  Bir proje bütçesi ya da proje bütçesi revizyonu girdikten sonra ve onay için göndermeden önce, tutarları dönemler arasında tahsis edebilirsiniz. Bütçe veya bütçe revizyonu reddedilirse, tutarları yeniden göndermeden önce de tahsis edebilirsiniz. 
 

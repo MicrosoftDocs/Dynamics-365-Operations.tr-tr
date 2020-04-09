@@ -3,7 +3,7 @@ title: Ürün tanımlayıcıları
 description: Bu konu çeşitli ürün tanımlayıcısı türleri hakkında bilgi sağlar ve ürün tanımlayıcılarını ürün verilerine nasıl ekleyebileceğinizi açıklar.
 author: cvocph
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
-ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
+ms.openlocfilehash: 0aa8baf5802ccdd9a502e2a7d291a76fc4afe932
+ms.sourcegitcommit: d91d96c98b31ae59bc82ec91efbb7da86ffb25fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095629"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172037"
 ---
-# <a name="product-identifiers"></a>Ürün tanımlayıcıları 
+# <a name="product-identifiers"></a>Ürün tanımlayıcıları
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,6 +53,9 @@ Ayrıca, bir ürün çeşidi bir madde numarası ile benzersiz olarak tanımlana
 Birçok sayfada hala birincil tanımlayıcılar olarak madde numarası ve ürün boyutları bulunmaktadır. Ancak, ürün numaraları aramalar için kullanılabilir. **Satış ve pazarlama** &gt; **Kurulum** &gt; **Arama** &gt; **Arama parametreleri**'nde, aramayı birincil arama stratejisi olarak madde numaraları yerine ürün numaralarını kullanacak şekilde değiştirebilirsiniz. **Aramayı ürün araması için etkinleştir** seçeneğini **Evet** olarak ayarlarsanız, arama yalnızca ana ürünleri değil ürün çeşitlerini de gösterir. Daha fazla bilgi için bkz. [Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama](search-products-product-variants.md).
 
 Ayrıca, ürün numarasını, ürün adını ve açıklamasını ve ürün çeşidinin ürün boyutu kodlarını arayabilir ve filtreleyebilirsiniz. Bir ürün çeşidi seçtiğinizde, ilgili madde numarası ve tüm ürün boyutu kodları seçilir. Bu nedenle, doğru ürün çeşidini kolayca bulabilir ve seçebilirsiniz. Ürünler için birincil tanımlayıcılar olarak ürün çeşitlerini ve benzersiz bir ürün numarasını kullanıyorsanız bu ayar önemle önerilir. Tek özel durum iş süreçlerinin genellikle bir ürün çeşidi seçmeden önce ana ürün seçmenizi gerektirdiği moda sektörü olabilir. Numaralama sistemini uygulamadan önce bu seçeneği dikkatli şekilde değerlendirmeniz gerekir.
+
+> [!NOTE]
+> Bu ürün için bir veya daha fazla hareket varken, bir ürünün madde numarası değiştirilemez.
 
 ## <a name="product-name-and-description"></a>Ürün adı ve açıklaması
 
@@ -123,7 +126,7 @@ Ne yazık ki, harici kodlara göre ürünleri aramanızı sağlayan standart bir
 | Ürünler V2 | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün numarası için numara serisi ve varlık ayarlarına bağlı olarak ürün numarası içe aktarma sırasında otomatik olarak oluşturulabilir. |
 | Ürün çeşitleri | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün terminolojisi şablonuna bağlı olarak ürün numarası, içe aktarma sırasında otomatik olarak oluşturulabilir. Bununla birlikte, tüm benzersiz bir ürün numaralarını içe aktarabilirsiniz ve ürün numarasının ürün terminolojisi şablonlarının yapısını izlemesi gerekmez. |
 | Ürün çevirileri | Ürün adı, ürün açıklaması | Ürün adı, ürün açıklaması | Bu varlık herhangi bir dil üzerine yazılır. Bir tüzel kişiliğinin adının veya açıklamasının birincil dili üzerine yazıldığında, ürünün adı ve açıklaması değişir. |
-| Serbest bırakılan ürünler V2 | Madde numarası, ürün numarası, madde arama adı| Madde numarası, ürün numarası, madde arama adı, ürün arama adı, ürün adı | Numara serileri yeni serbest bırakılan ürünler oluşturulurken kullanıldığında, bu varlıkla ilgili zorluklarla karşılaşılabilir. Hem **Madde numarası** numara serisinin hem de **Ürün numarası** numara serisinin bir etkisi vardır. Bununla birlikte, **Madde numarası** numara serisi tüzel kişiliğe göredir ve **Ürün numarası** numara serisi geneldir. Bu nedenle, yeni serbest bırakılan ürünler dağıtırken **Madde numarası** numara serisini kullanmanızı önermeyiz. Açıkça, varlık varolan bir ürünü serbest bırakmak için kullanıldığında, ürün numarasının varlıkta verilmesi gerekir. Daha fazla bilgi için bu konudaki "Ürün ve madde numarası serileri" bölümüne bakın. |
+| Serbest bırakılan ürün oluşturma V2 | Madde numarası, ürün numarası, madde arama adı| Madde numarası, ürün numarası, madde arama adı, ürün arama adı, ürün adı | Numara serileri yeni serbest bırakılan ürünler oluşturulurken kullanıldığında, bu varlıkla ilgili zorluklarla karşılaşılabilir. Hem **Madde numarası** numara serisinin hem de **Ürün numarası** numara serisinin bir etkisi vardır. Bununla birlikte, **Madde numarası** numara serisi tüzel kişiliğe göredir ve **Ürün numarası** numara serisi geneldir. Bu nedenle, yeni serbest bırakılan ürünler dağıtırken **Madde numarası** numara serisini kullanmanızı önermeyiz. Açıkça, varlık varolan bir ürünü serbest bırakmak için kullanıldığında, ürün numarasının varlıkta verilmesi gerekir. Daha fazla bilgi için bu konudaki "Ürün ve madde numarası serileri" bölümüne bakın. |
 | Serbest bırakılan ürün çeşitleri | Madde numarası, ürün boyutları, ürün numarası | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması, ürün boyutları | **Ürün çeşitleri** varlığı gibi, bu varlık da ürün terminolojisi şablonunu izleyen veya ürün çeşidi için kendi ürün numaralarını kullanan yeni ürünler oluşturmak için kullanılabilir. |
 | Müşteriler için harici madde açıklaması | Müşteri madde numarası, müşteri madde adı, müşteri açıklaması, müşteri hesabı | Müşteri madde numarası, müşteri madde adı, müşteri açıklaması, müşteri hesabı | Bir grup müşteri (örneğin, alıcı ilişkilendirmesi) **Harici madde açıklaması müşteri grupları** varlığı kullanılarak tek bir grupta toplanabilir. |
 | Satıcılar için harici madde açıklaması | Satıcı madde numarası, satıcı madde adı, satıcı açıklaması, satıcı hesabı | Satıcı madde numarası, satıcı madde adı, satıcı açıklaması, satıcı hesabı | Bir grup satıcı (örneğin, satış ilişkilendirmesi ve sektör organizasyonu) **Harici madde açıklaması satıcı grupları** varlığı kullanılarak tek bir grupta toplanabilir. |
@@ -144,7 +147,7 @@ Ne yazık ki, harici kodlara göre ürünleri aramanızı sağlayan standart bir
 > [!NOTE]
 > Yalnızca farklı numaralandırma sistemleri olan farklı kaynaklardaki farklı tüzel kişilikleri taşırken madde numarasını ayrı bir tanımlayıcı olarak kullanmanız gerekir. Tüm tüzel kişilikler arasında benzersiz olan bir ürün tanımlayıcısı kullanmaya çalışmanız gerekir. Bu nedenle, **Madde numarası** numara serisi için **El ile** seçeneğini **Evet** olarak ayarlamanız gerekir. Bu şekilde, madde numarası oluşturma sırasındaki ürün numarasını izler. Supply Chain Management, yeni ürün numaraları için önde gelen sistem değilse **El ile** seçeneğini hem **Madde numarası** hem de **Ürün numarası** numara serileri için **Evet** olarak ayarlamanız gerekir.
 
-Ürünleri oluşturmak için **Serbest bırakılan ürün V2** kullandığınızda, ürün numarası ve madde numarası oluşturmak için numara serilerinin nasıl kullanılacağı birden fazla ayar tarafından etkilenebilir.
+Ürünleri oluşturmak için **Serbest bırakılan ürün oluşturma V2** kullandığınızda, ürün numarası ve madde numarası oluşturmak için numara serilerinin nasıl kullanılacağı birden fazla ayar tarafından etkilenebilir.
 
 - **Ürün numarası** numara serisi ayarları
 - **Madde numarası** numara serisi ayarları
@@ -155,10 +158,10 @@ Aşağıdaki tablo, belirli numara serisi ve alan eşleme ayarları birleşimler
 
 | Ürün numarası numara serisi | Madde numarası numara serisi | Madde numarasının eşlenmesi | Ürün numarasının eşlenmesi | Varlık içe aktarmanın sonucu | El ile oluşturmanın sonucu | Sonuç |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
-| El ile = Hayır | El ile = Hayır | Eşleme yok | Eşleme yok | Ürün numaraları **Ürün numarası** numara serisini kullanır. Madde numaraları **Madde numarası** numara serisini kullanır. | Ürün numaraları **Ürün numarası** numara serisini kullanır. Madde numaraları **Madde numarası** numara serisini kullanır. | Bu ayarlar, ürünler ve maddeler için farklı numara gerekli olduğunda kullanılabilir. Bununla birlikte, maddeler ve ürünler için farklı numaralar kullanmanızı önermeyiz. |
-| El ile = Hayır | El ile = Evet | Otomatik oluştur | Eşleme yok | Hem ürün numaraları hem de madde numaraları **Madde numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Bu ayarlar önerilmez. İçe aktarma ve el ile oluşturma farklı çalışır. |
-| El ile = Hayır | El ile = Evet | Eşleme yok | Eşleme yok | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Bu ayarlar, içe aktarma veya el ile oluşturma kullanılıp kullanılmadığından bağımsız olarak, ürünlerin tutarlı otomatik numaralamaya sahip olması gerektiğinde önerilir. |
-| El ile = Evet | Uygulanamaz | Uygulanamaz | Otomatik oluştur | Aşağıdaki hata iletisini alırsınız: "Numara serisi algılanamadı" | **Madde numarası** numara serisine göre | Bu ayar içe aktarma için desteklenmez. |
+| El ile = Hayır | El ile = Hayır | Eşleme yok | Eşleme yok | Ürün numaraları **Ürün numarası** numara serisini kullanır. Madde numaraları **Madde numarası** numara serisini kullanır. | Ürün numaraları **Ürün numarası** numara serisini kullanır. Madde numaraları **Madde numarası** numara serisini kullanır. | Bu konfigürasyonla, ürün numaraları ürün numara serisini izler ve madde numaraları madde numara serisini izler. Ancak içe aktarılacak birden fazla madde (satır) varsa, bu konfigürasyon çalışmaz. |
+| El ile = Hayır | El ile = Evet | Otomatik oluştur | Eşleme yok | Hem ürün numaraları hem de madde numaraları **Madde numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları Ürün numara serisini kullanır. Bu, serbest bırakılan ürün oluşturma v2 veri varlığıyla toplu ürünleri içe aktarmak için önerilen yaklaşımdır. |
+| El ile = Hayır | El ile = Evet | Eşleme yok | Eşleme yok | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları Ürün numara serisini kullanır. Ancak içe aktarılacak birden fazla madde (satır) varsa, bu konfigürasyon çalışmaz. |
+| El ile = Evet | Geçerli değil | Geçerli değil | Otomatik oluştur | Aşağıdaki hata iletisini alırsınız: "Numara serisi algılanamadı" | **Madde numarası** numara serisine göre | Bu ayar içe aktarma için desteklenmez. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Ürün varlığı tanımlayıcısı (Tüm ürün tanımlayıcılarını dışa aktarma)
 

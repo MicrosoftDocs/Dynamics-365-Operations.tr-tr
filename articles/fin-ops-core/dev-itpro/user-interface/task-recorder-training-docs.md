@@ -3,7 +3,7 @@ title: Görev Kaydedici'yle belge veya eğitim oluşturma
 description: Bu konuda, Görev kaydedici ve görev kılavuzlarının neler olduğu, görev kayıtlarının nasıl oluşturulacağı ve Microsoft görev kılavuzlarının özelleştirilip bunların Yardım bölümünüze nasıl ekleneceği açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 927f6475e60b5b93aac0e0c2840cb0b4fc7f0ac8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006207"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164570"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Görev Kaydedici'yle belge veya eğitim oluşturma
 
@@ -40,8 +40,6 @@ Bu konuda, Görev kaydedici ve görev kılavuzlarının neler olduğu, görev ka
 Görev kaydedici, ürün kullanıcı arabiriminde (UI) gerçekleştirdiğiniz eylemleri kaydetmek için kullanabileceğiniz bir araçtır. Görev kaydediciyi kullandığınızda, kullanıcı arabiriminde gerçekleştirdiğiniz tüm olaylar sunucuda yürütülür —değer ekleme, ayarları değiştirme, veri kaldırma dahil olmak üzere— yakalanır. Kaydettiğiniz tüm adımlar toplu olarak *görev kaydı* olarak adlandırılır. Görev kayıtları birçok şekilde kullanılabilir:
 
 -   **Görev kayıtları görev kılavuzları olarak oynatılabilir.** Görev kılavuzları Yardım deneyiminin ayrılmaz bir parçasıdır. Bir görev kılavuzu size bir iş sürecinin adımları boyunca yol gösteren denetimli, destekli, etkileşimli bir deneyimdir. Kullanıcı kullanıcı arabirimi ve kullanıcının etkileşim kurması gereken kullanıcı arayüzü öğesinde oynatılacak bir açılır pencere istemi (veya "kabarcık) yoluyla her adımı tamamlaması için yönlendirilir. "Kabarcık," öğe ile nasıl etkileşime girileceği hakkında bilgi de sağlar ("Buraya tıklayın" veya "Bu alana bir değer girin" gibi). Bir görev kılavuzu, kullanıcının geçerli veri kümesine göre çalışır ve girilen veriler kullanıcının ortamına kaydedilir.
--   **Görev kayıtları Yardım bölmesinde prosedür adımları olarak görüntülenebilir.** Yardım bölmesini görev kayıtlarını aramak ve görüntülemek için kullanabilirsiniz. Yardım Bölmesine **?** simgesine tıklayarak (üst gezinti çubuğundadır) veya  **Ctrl + Shift +?** kısayol tuş bileşimini kullanarak erişebilirsiniz. Bir görev kaydının adımlarını Yardım bölmesinde okuyabilirsiniz veya size kullanıcı arabirimi ile aracılık etmesi için kaydı bir görev kılavuzu olarak oynatabilirsiniz.
--   **Görev kayıtları BPM'ye kaydedilebilir.** Görev kaydınızı Lifecycle Services'taki (LCS) BPM kitaplığındaki bir hiyerarşi satırına kaydedebilirsiniz. Kayıttan bir adım listesi ve bir iş süreci akış çizelgesi oluşturulur. BPM kitaplığına kaydedilen görev kayıtları Yardım olarak gösterilebilir.
 -   **Görev kayıtları Word belgeleri olarak kaydedilebilir.** Bu kolaylıkla, yazdırılabilir eğitim kılavuzları üretmenizi sağlar.
 
 Kendi görev kayıtlarınızı oluşturabilir, Microsoft tarafından sağlanan görev kayıtlarını oynatabilir veya yapılandırmanızı yansıtmak için Microsoft tarafından sağlanan görev kayıtlarını değiştirebilirsiniz. Görev kaydedici hakkında daha fazla bilgi için bkz. [Görev kaydedici](task-recorder.md)
@@ -114,8 +112,7 @@ Microsoft'un görev kayıtlarını kendi Yardım belgeniz veya eğitim malzemele
 10. Kayıt sonuna kadar oynatıldıktan sonra, ekranın en üstündeki görev kaydedici çubuğundaki **Durdur'u** tıklayın.
 11. Görev kaydını nasıl kaydetmek istediğinizi seçin.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Görev kayıtlarınızı Yardım bölmesine ekleme
-Görev kayıtlarınızın görev kılavuzları olarak oynatılabilmesi veya metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](../../fin-ops/get-started/help-connect.md).
+
 
 <a name="additional-resources"></a>Ek kaynaklar
 --------

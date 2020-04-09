@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b4ad9fb7a3d768acb0af73dcbe3d87b323de727
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 52bc276a4a88971a7214fa09087cb1323b91aaf5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042816"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143298"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının, bir Elektronik raporlama (ER) biçim yapılandırmasını nasıl sürdürebileceğini gösterir. Bu yordam, bir yapılandırma sağlayıcısından (CP) alınan biçime dayalı olarak bir biçimin özel bir sürümünün nasıl oluşturulabileceğini açıklar. Ayrıca, bu biçimin yeni bir temel sürümünün nasıl benimseneceğini de açıklar.
 
@@ -214,7 +214,7 @@ Proseware, Inc'nin bunu yapmak için temel yapılandırma sürümünü, BACS (UK
     Otomatik olarak birleştirilemeyen bazı biçim değişikliklerini temsil eden, yeni temel sürüm ile özel sürümün birleştirilmesi sırasında bazı çakışmaların ortaya çıktığını göz önünde tutun.  
 
 ## <a name="resolve-rebase-conflicts"></a>Rebase çakışmalarını çözümle
-1. Tasarımcı'yı tıklatın.
+1. Tasarımcı'ya tıklayın.
     
     Satıcının adı metin uzunluğu sınırına yapılan değişikliğin otomatik olarak çözümlenme uygulanamadığını göz önünde bulundurun. Bu nedenle, bu çakışmalar listesinde görüntülenir. Her Güncelleştirme türü çakışma için, aşağıdaki seçenekler mevcuttur:  - Önceki taban sürüm değerini (bu durumda 0 olan) getirmek için, daha önceki bir taban değeri uygula (ızgaranın üstündeki düğme).  - Yeni temel sürüm değerini (bu durumda 100) getirmek için temel bir değer uygula. (ızgara üzerindeki düğme).  - Kendi (özel) değerinizi tutun (bizim durumumuzda 60).  Satıcı adı uzunluğu için bir ülkeye özgü temel sınır olan 100 karakter limitini uygulamak için Uygula'yı tıklatın.  
 

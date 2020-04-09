@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ea5c240063bf8f98f07f2149d67730b30e5c0e4
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: ae2290cf8da4387155de7790dd3db88b34eb6e96
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924482"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150091"
 ---
 # <a name="create-a-product-master"></a>Ana ürün oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Önceden tanımlanmış çeşitler için ana ürün oluşturun. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam, ürün tasarımcılarına yöneliktir.
 

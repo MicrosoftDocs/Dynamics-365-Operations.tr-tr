@@ -19,20 +19,19 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 269346d38eeb3812c352d16f9d50fbcd09307c12
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124601"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172843"
 ---
 # <a name="integrated-customer-master"></a>Tümleşik müşteri aslı
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-Müşteri kayıtlarının birden fazla uygulamada hakim olmasına yönelik tipik bir uygulamadır. Örneğin, satış etkinliği bir Satış uygulaması üzerinden ticari müşteri kayıtlarını getirebilir ve e-Ticaret veya perakende satışlar Finance and Operations uygulaması aracılığıyla müşteri kayıtlarını getirebilir. Müşteri kaydının kaynağından bağımsız olarak, uygulama sınırları ve altyapı farklılıklarının sahne arkasına entegre edilmiştir. Tümleşik müşteri hakimiyeti çoklu hakimiyet senaryolarını işlemeye yardımcı olur ve Dynamics 365 uygulama paketine kapsamlı bir müşteri görünümü sağlar.
+Müşteri verileri birden fazla Dynamics 365 uygulamasında ana kopyalı olabilir. Örneğin, bir müşteri kaydı, Dynamics 365 Sales (Dynamics 365'de modele dayalı bir uygulama) içindeki satış faaliyetlerinden çıkar veya bir kayıt Dynamics 365 Commerce (bir Finance and Operations uygulaması) içindeki perakende faaliyetten kaynaklanabilir. Müşteri verilerinin kaynaklandığı yerden bağımsız olarak, arka planda tümleştirilir. Tümleşik Müşteri Yöneticisi, herhangi bir Dynamics 365 uygulamasındaki ana müşteri verilerine esneklik sağlar ve Dynamics 365 uygulama paketi arasında müşterinin kapsamlı bir görünümünü sağlar.
 
 ## <a name="customer-data-flow"></a>Müşteri veri akışı
 
@@ -59,7 +58,6 @@ Müşteri grupları             | msdyn_customergroups            | Bu şablon m
 Müşteri ödeme yöntemi     | msdyn_customerpaymentmethods    | Bu şablon, müşteri ödeme yöntemi bilgilerini eşitler.
 Müşteriler V3                | hesaplar                        | Bu şablon, ticari ve kurumsal müşterilere ilişkin müşteri ana bilgilerini eşitler.
 Müşteriler V3                | ilgili kişiler                        | Bu şablon tüketicilere ve son kullanıcılara ilişkin müşteri ana verilerini eşitler.
-Bağlılık programı kartı                | msdyn_loyaltycards              | Bu şablon müşteri bağlılık programı kartı bilgilerini eşitler.
 Ad ekleri                | msdyn_nameaffixes               | Bu şablon, müşterilerin ve satıcıların ad ekleri referans verilerini eşitler.
 Ödeme günü satırları CDS V2    | msdyn_paymentdaylines           | Bu şablon, müşterilerin ve satıcıların ödeme günü satırları referans verilerini eşitler.
 Ödeme günleri CDS            | msdyn_paymentdays               | Bu şablon, müşterilerin ve satıcıların ödeme günleri referans verilerini eşitler.
@@ -78,8 +76,6 @@ Ad ekleri                | msdyn_nameaffixes               | Bu şablon, müşte
 [!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
 
 [!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
 

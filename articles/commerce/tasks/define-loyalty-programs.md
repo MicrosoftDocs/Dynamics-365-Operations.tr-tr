@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b178f1c6a71b34b70db4dbcd1765117215a4d2a1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 91f30d4d1b66e5b4b90f7df67d8f76a95a100338
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024318"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141327"
 ---
 # <a name="define-loyalty-programs"></a> Bağlılık programları tanımlama
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu yordam, iki bağlılık katmanıyla bir bağlılık programı ayarlamayla ilgili açıklamalar içerir. Bu yordam, USRT demo veri şirketini kullanır.
 
@@ -73,7 +73,7 @@ Bu yordam, iki bağlılık katmanıyla bir bağlılık programı ayarlamayla ilg
 35. Fiyat grupları'na tıklayın.
     * Bağlı müşterilere indirimler vermek istiyorsanız. bir veya birden fazla fiyat grubun bağlılık programına atamalı ve fiyat gruplarını indirimlere atamalısınız. En iyi uygulama, farklı türdeki iskonto varlıkları üzerinde fiyat gruplarını karıştırmamaktır.  Örneğin, aynı fiyat grubunu bir bağlılık iskontosu ve kanal iskontosu için kullanmayın.  
 36. Fiyat grubu alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-    * Sayfanın üst kısmındaki fiyat grupları bağlantısı bağlılık programı içindir. Program katmanları hızlı sekmesindeki Fiyat grupları bağlantısı yalnızca belirli bir bağlılık katmanı için kullanılır.  
+    * Sayfanın üst kısmındaki fiyat grupları bağlantısı bağlılık programı içindir. Program katmanları Hızlı sekmesindeki Fiyat grupları bağlantısı yalnızca belirli bir bağlılık katmanı için kullanılır.  
 37. Listede, seçili satırdaki bağlantıya tıklayın.
 38. Kaydet'e tıklayın.
 39. Sayfayı kapatın.

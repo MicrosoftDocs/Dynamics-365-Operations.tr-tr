@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 75765c0cc03c64030fac6bc656f57a143828b85b
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112536"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173004"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services'tan çift yazma kurulumu
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+[!include [preview-banner](../../includes/preview-banner.md)]
 
 Bu konu, yeni bir Finance and Operations ortamı ile yeni bir Common Data Service ortamı arasında Microsoft Dynamics Lifecycle Services'tan (LCS) nasıl çift yazma bağlantısı kurulabileceğini açıklar.
 

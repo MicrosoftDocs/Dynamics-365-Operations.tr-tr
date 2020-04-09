@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 65b1d1a232558efbe05e83d51706a78b12439e47
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 524ae7b3062893ed07170227ea9b8908cd5858e1
+ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124151"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "3151309"
 ---
 # <a name="credit-management-setup"></a>Kredi yönetimi kurulumu 
 
@@ -42,11 +42,15 @@ Siparişteki ödeme koşulları müşterinin varsayılan ödeme koşullarıyla e
 
 Ödeme koşullarının derecelendirmeleri etkinse, siparişteki ödeme koşullarının müşteri için varsayılan ödeme koşullarına göre daha yüksek bir derecede olması durumunda, satış siparişleri beklemeye alınır.
 
+Ödeme koşulları sıralamalarını **Kredi yönetimi \> Kurulum \> Kredi yönetimi kurulumu \>> Ödeme koşullarını** sırala sayfasında ayarlayabilirsiniz.  
+
 ### <a name="ranking-settlement-discounts"></a>Kapatma iskontolarını derecelendirme
 
 Siparişteki nakit iskontosu müşterinin varsayılan nakit iskontosuyla eşleşmiyorsa bir satış siparişini beklemeye alabilirsiniz. Ancak bazen nakit iskontoları farklı olsa da siparişi beklemeye almak istemeyeceğiniz kadar benzerdir. Nakit iskontolarını, bazılarının aynı, bazılarının da daha yüksek veya düşük bir derecede olacağı şekilde derecelendirebilirsiniz.
 
 Kapatma iskontolarının derecelendirmeleri etkinse, siparişteki nakit iskontusunun müşteri için varsayılan nakit iskontosuna göre daha yüksek bir derecede olması durumunda, satış siparişleri beklemeye alınır.
+
+Ödeme koşulları sıralamalarını **Kredi yönetimi \> Kurulum \> Kredi yönetimi kurulumu \>> Anlaşma iskontolarını** sırala sayfasında ayarlayabilirsiniz.  
 
 ## <a name="reasons"></a>Nedenler
 
@@ -56,7 +60,7 @@ Kredi yönetiminde çeşitli neden türleri kullanılır:
 - Bir sipariş bekletmeden serbest bırakılırken, o siparişe serbest bırakma nedenleri atanır.
 - Durum nedenleri, müşteriye bir hesap durumunun neden atandığını gösterir.
 
-**Kredi yönetimi nedenleri** sayfasında (**Kredi yönetimi \> Kurulum \> Kredi yönetimi \> Kredi yönetimi nedenleri**) nedenleri ayarlayabilirsiniz.
+**Kredi yönetimi nedenleri** sayfasında (**Kredi yönetimi \> Kurulum \> Kredi ve koleksiyonlar \> Kredi yönetimi nedenleri**) nedenleri ayarlayabilirsiniz.
 
 1. **Neden türü** alanında nedenin türünü seçin: **Tutuldu**, **Serbest bırak**veya **Durum**.
 2. **Neden** alanına neden için bir ad girin.
@@ -66,7 +70,7 @@ Kredi yönetiminde çeşitli neden türleri kullanılır:
 
 Kredi yönetimi grupları, aynı kredi yönetimi özelliklerini taşıyan müşterileri veya müşteri gruplarını belirlemek için kullanılır. Örneğin, müşterilerin durdurma ve hariç tutma kredi yönetimi kurallarını belirlemek için kredi yönetimi grupları kullanılabilir.
 
-**Kredi yönetimi grupları** sayfasında (**Kredi yönetimi \> Kurulum > Gruplar kurulumu \> Kredi yönetimi grupları**) kredi yönetimi grupları oluşturabilirsiniz.
+**Kredi yönetimi grupları** sayfasında (**Kredi ve koleksiyonlar \> Kurulum > Kredi yönetimi kurulumu \> Kredi yönetimi grupları**) kredi yönetimi grupları oluşturabilirsiniz.
 
 1. Bir satır oluşturmak için **Yeni**'yi seçin.
 2. Grup için bir kimlik girin. Kimlik en fazla 10 karakter olabilir.
@@ -78,7 +82,7 @@ Kredi yönetimi grubu, **Tüm müşteriler** sayfasının (**Alacak hesabı \> M
 
 Müşteri hesabının kredi beklemesini belirlemek için hesap durumları oluşturabilirsiniz. Bir durum ve o durumun faturalama ve teslim bekletme işlemlerine etkilerini tanımlayabilirsiniz. Hesap durumları, bir müşteriyle ilgili durdurma kurallarını belirlemek için de kullanılabilir.
 
-Hesap durumlarını **Hesap durumları** sayfasında (**Kredi yönetimi \> Kurulum > Gruplar kurulumu \> Hesap durumları**) oluşturabilirsiniz.
+Hesap durumlarını **Hesap durumları** sayfasında (**Kredi ve koleksiyonlar \> Kurulum > Kredi yönetimi kurulumu \> Hesap durumları**) oluşturabilirsiniz.
 
 1. Bir hesap durumu ekleyin ve müşterinin kredi bekletme durumunu temsil eden bir açıklama girin. Örneğin, bir müşterinin iyi durumda olduğunu ve açık siparişlerin standart kredi yönetimi işlemine tabi olduğunu göstermek için **Normal**'i kullanın.
 2. **Faturalama** ve **Beklemedeki Teslimat** alanlarında, bu hesap durumundaki müşteriler için gerçekleşecek bekletme türünü seçin. Kredi limiti kuralları uygulandığında, tüm işlemleri veya yalnızca fatura işlemeyi beklemeye alabilir ya da hiçbir işleme bekletme uygulamayabilirsiniz.
@@ -87,7 +91,7 @@ Hesap durumlarını **Hesap durumları** sayfasında (**Kredi yönetimi \> Kurul
 
 Risk faktörleri ve risk faktörlerini ölçmek için kullanılacak ölçütleri tanımlamak için Puanlama grupları ayarlayabilirsiniz. Bir müşteri hakkındaki bilgiler bir puanlama grubuna uygulandığı zaman, her risk faktörü için bir puan hesaplanır ve müşteriyi bir risk grubuna koymak için kullanılır. Risk grubu, kredi tutarını belirlemek ve otomatik kredi limitlerini hesaplamak için kullanılabilir.
 
-Puanlama gruplarını **Puanlama grupları** sayfasında (**Kredi yönetimi \> Kurulum \> Risk kurulumu \> Puanlama grupları**) oluşturabilirsiniz.
+**Puanlama gruplarını** Puanlama grupları sayfasında (**Kredi ve koleksiyonlar \> Kurulum \> Kredi yönetimi kurulumu \> Risk \> Puanlama grupları**) oluşturabilirsiniz.
 
 1. Bir puanlama grubu oluşturun ve grup için bir ad girin.
 2. Puanlama grubunu daha ayrıntılı açıklamak için bir açıklama girin.
@@ -108,11 +112,11 @@ Puanlama gruplarını **Puanlama grupları** sayfasında (**Kredi yönetimi \> K
     1. **Değer** alanına, müşteri bilgilerinden alınacak kullanıcı tanımlı değeri girin.
     2. **Puan** alanında, girilen değer "başlangıç"/"bitiş" aralığı içinde olduğu zaman atanması gereken puanı girin.
 
-## <a name="risk-assessments"></a>Risk değerlendirmeleri
+## <a name="risk-classification"></a>Risk sınıflandırması
 
 Risk puanlarına göre müşterilere atanabilecek risk değerlendirmeleri tanımlayabilirsiniz. Bir risk puanı, müşteri bilgileri her bir puanlama grubuyla karşılaştırılarak hesaplanır. Müşterinin ait olduğu risk grubunu belirlemek için puanlar toplanır ve toplam puan, risk grubu kurulumundaki değerlerle karşılaştırılır. Risk grubu puanı, bunun ardından, müşteri için kredi yönetimi durdurma ve hariç tutma kurallarını tanımlamak için kullanılır.
 
-Risk gruplarını **Risk değerlendirmeleri** sayfasında (**Kredi yönetimi \> Kurulum \> Risk kurulumu \>Risk değerlendirmeleri**) ayarlayabilirsiniz.
+Risk gruplarını **Risk değerlendirmeleri** sayfasında (**Kredi ve koleksiyonlar \> Kurulum \> Kredi yönetimi kurulumu \> Risk \> Risk sınıflandırması**) ayarlayabilirsiniz.
 
 1. Bir risk grubu kimliği girin.
 2. Risk grubunu daha ayrıntılı açıklamak için bir açıklama girin.
@@ -121,7 +125,7 @@ Risk gruplarını **Risk değerlendirmeleri** sayfasında (**Kredi yönetimi \> 
 
 ## <a name="guaranteeinsurance-types"></a>Garanti/sigorta türleri
 
-Garanti/sigorta türlerini **Garanti/sigorta türleri** sayfasında (**Kredi yönetimi \> Kurulum \> Garanti/sigorta kurulumu \> Garanti/sigorta türleri**) ayarlayabilirsiniz.
+Garanti/sigorta türlerini **Garanti/sigorta türleri** sayfasında (**Kredi ve koleksiyonlar \> Kurulum \> Kredi yönetimi kurulumu \> Sigorta ve garantiler \> Sigorta ve garanti türleri**) ayarlayabilirsiniz.
 
 1. Kefilin veya sigorta aracısının adını tanımlayan bir garanti veya sigorta türü girin.
 2. Kefili/sigorta aracısını açıklamak için bir açıklama girin.
@@ -130,14 +134,14 @@ Garanti/sigorta türlerini **Garanti/sigorta türleri** sayfasında (**Kredi yö
 
 Kapsam türleri, sigorta poliçelerini daha ayrıntılı sınıflandırmak için kullanılabilir. Bunlar garantilerle kullanılamaz.
 
-Kapsam türlerini **Kapsam türleri** sayfasında (**Kredi yönetimi \> Kurulum \> Garanti/sigorta kurulumu \> Kapsam türleri**) ekleyebilirsiniz.
+Kapsam türlerini **Kapsam türleri** sayfasında (**Kredi ve koleksiyonlar \> Kurulum \> Kredi yönetimi kurulumu \> Sigorta ve garanti \> Kapsam türleri**) ekleyebilirsiniz.
 
 1. Sigorta veya garanti olarak eklenecek kapsam türünü belirlemek için bir kapsam türü girin.
 2. Kapsam türünü açıklamak için bir açıklama girin.
 
 ## <a name="automatic-credit-limits"></a>Otomatik alacak limitleri
 
-Otomatik kredi limitleri için ölçütleri **Otomatik kredi limitleri**sayfasında (**Kredi yönetimi \> Kurulum \> Risk kurulumu \> Otomatik kredi limitleri**) oluşturabilirsiniz.
+Otomatik kredi limitleri için ölçütleri **Otomatik kredi limitleri** sayfasında (**Kredi ve koleksiyonlar \> Kurulum \> Kredi yönetimi kurulumu \> Risk \> Otomatik kredi limitleri**) oluşturabilirsiniz.
 
 1. Otomatik kredi limitinin atanacağı bir risk grubu seçin.
 2. Otomatik kredi limiti için para birimini seçin. Aynı risk grubu için farklı para birimlerinde birden fazla otomatik kredi limiti oluşturabilirsiniz.

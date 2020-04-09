@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6879a45dd1fcc1ba718747aaaf0d7936c2eac49f
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
+ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087358"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3166510"
 ---
 # <a name="common-data-service-entities"></a>Common Data Service varlıkları
 
@@ -86,15 +86,20 @@ Aşağıdaki İnsan Kaynakları varlıkları Common Data Service'de kullanılabi
 | İş İşlevi | cdm_jobfunction |
 | İş Pozisyonu | cdm_jobposition |
 | Pozisyon türü | cdm_positiontype |
-| Pozisyon çalışan ataması | cdm_positionworkerassignmentmap |
+| Pozisyon Çalışan Ataması | cdm_positionworkerassignmentmap |
+| İş Pozisyonu Boyutu | cdm_jobpositiondimension|
 | İş Türü | cdm_jobtype |
 | Dil | cdm_language |
+| Ünvan | cdm_title |
+
+> [!NOTE]
+> **Pozisyon türü**, **çalışan ataması pozisyon** ve **istihdam** için mali boyutlar Common Data Service'e tek-yön tümleştirmesi sağlar. Mali boyut güncelleştirmeleri şu an için Common Data Service'tan Human Resources ile eşitlenmez. 
 
 ## <a name="leave-and-absence-entities"></a>İzin ve devamsızlık varlıkları
 
 | Dosya Adı | Varlık |
 | --- | --- |
-| Ayrılma Banka hareketi | cdm_leavebanktransaction |
+| İzin Bankası Hareketi | cdm_leavebanktransaction |
 | Ayrılma Kaydı | cdm_leaveenrollment |
 | İzin Planı | cdm_leaveplan |
 | İzin İsteği | cdm_leaverequest |

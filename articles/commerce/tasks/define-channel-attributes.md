@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90199750e98789eebcff0008bc1610d1727e2286
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f6e55b98dde8f55172191ba43044d22fe3f2a61d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024320"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141350"
 ---
 # <a name="define-channel-attributes"></a> Kanal özniteliklerini tanımlama
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kanalı, ürün ve kanal öznitelikleri ekleyerek zenginleştirin. Öznitelikleri tanımlamadan önce kanalı varsayılan organizasyon hiyerarşisine eklemeniz gerekir.
 

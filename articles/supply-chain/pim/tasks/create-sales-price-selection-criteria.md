@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72940f719baca5e8042c2f2caa8abbacb7d8264e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ed8c60b188b7c7090546e8367455e0f58ce9359b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844501"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147699"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Satış fiyatı seçim ölçütü oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, öznitelik tabanlı satış fiyat modelleri için satış fiyatı seçim ölçütlerinin nasıl oluşturulacağını gösterir. Bu yordam için kullanılabilir en az bir satış fiyatı modeli olması gerekir. Bu örnek için, USMF demo veri şirketinde Hoparlör çözümü satış fiyatı modeli için fiyat modeli kullanılır. Genel olarak bu yordamı bir ürün yöneticisi kullanır.
 
@@ -36,7 +36,7 @@ Bu yordam, öznitelik tabanlı satış fiyat modelleri için satış fiyatı se�
 3. Listede, Hoparlör çözümü ürün modeli için satır seçin ancak model adı bağlantısına tıklamayın.
 4. Eylem Bölmesinde,Model öğesine tıklayın.
 5. Fiyat modeli ölçütlerine tıklayın.
-6. Yeni'ye tıklayın.
+6. Yeni'yi tıklatın.
 7. Ad alanına "Müşteri grubu 10" yazın.
     * Fiyat modeli ölçütünün adı, temel alınan seçim ölçütlerinin tanımlanmasına yardımcı olmak için kullanılır.  
 8. Fiyat modeli alanına bir değer girin veya seçin.

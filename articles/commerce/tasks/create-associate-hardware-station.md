@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 772ccc44c01d97a07796bd1ee443012448955f49
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 305308b0e4ba99aae4bf6f8f94041db570a25893
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024331"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141049"
 ---
 # <a name="create-and-associate-a-hardware-station"></a> Donanım istasyonu oluşturma ve ilişkilendirme
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu yordamda yeni bir donanım istasyonu oluşturma konusu açıklanmaktadır. Yeni bir donanım profili oluşturulur ve yeni donanım istasyonlarını önceden tanımlanmış bir mağazaya (kanal) eklemek için kullanılır. Bu yordam USRT demo veri şirketini kullanır.
 

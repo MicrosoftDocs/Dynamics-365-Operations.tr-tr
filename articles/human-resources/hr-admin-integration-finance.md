@@ -3,7 +3,7 @@ title: Finance ile tümleştirmeyi yapılandırma
 description: Bu makalede, Dynamics 365 Human Resources'tan Dynamics 365 Finance'e tümleştirme için kullanılabilecek işlevler açıklanmaktadır.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,73 +18,75 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e7070f627654c9eb889f3e0ee27e37681db0502
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 1558d050627c8dc64727884901ed0d0716df0c50
+ms.sourcegitcommit: f481dfd6bf93bb3e03a7bd9a765e2cfd14305d02
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010835"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3169289"
 ---
 # <a name="configure-integration-with-finance"></a>Finance ile tümleştirmeyi yapılandırma
 
-Bu makalede, Dynamics 365 Human Resources'tan Dynamics 365 Finance'e tümleştirme için kullanılabilecek işlevler açıklanmaktadır. [Veri Tümleştirici](https://docs.microsoft.com/powerapps/administrator/data-integrator) ile kullanılabilen Human Resources'tan Finance'e şablonu; işler, pozisyonlar ve çalışanlar için veri akışına olanak sağlar. Veriler Human Resources'tan Finance'e akar. Şablon, verilerin Finance'ten Human Resource'a geri akışı yeteneğini sağlamaz. 
+Dynamics 365 Human Resources İle Dynamics 365 Finance'i birleştirmek için, [veri tümleştirici](https://docs.microsoft.com/powerapps/administrator/data-integrator) alanındaki insan kaynakları finans şablonunu kullanabilirsiniz. Finans şablonuna İnsan Kaynakları işler, pozisyonlar ve çalışanlar için veri akışını etkinleştirir. Şablon verilerin İnsan Kaynakları'nden finansa akmasını sağlar, ancak verilerin finans'tan İnsan Kaynakları akamasına izin vermez.
 
-![Human Resources'tan Finance'e Tümleştirme Akışı](./media/TalentFinOpsFlow.png)
+![Human Resources'tan Finance'e Tümleştirme Akışı](./media/hr-admin-integration-finance-flow.png)
 
-Human Resources'tan Finance'e çözümü aşağıdaki veri eşitleme türlerini sağlar. 
+Human Resources'tan Finance'e çözümü aşağıdaki veri eşitleme türlerini sağlar:
 
-- Human Resources'taki işleri koruyun ve Human Resources'tan Finance'e eşitleyin.
-- Human Resources'taki pozisyonları ve pozisyon atamalarını koruyun ve Human Resources'tan Finance'e eşitleyin.
-- Human Resources'taki istihdamları koruyun ve Human Resources'tan Finance'e eşitleyin.
-- Human Resources'taki çalışanları ve çalışan adreslerini koruyun ve Human Resources'tan Finance'e eşitleyin.
+- Human Resources'taki işleri koruyun ve Human Resources'tan Finance'e eşitleyin
+- Human Resources'taki pozisyonları ve pozisyon atamalarını koruyun ve Human Resources'tan Finance'e eşitleyin
+- Human Resources'taki istihdamları koruyun ve Human Resources'tan Finance'e eşitleyin
+- Human Resources'taki çalışanları ve çalışan adreslerini koruyun ve Human Resources'tan Finance'e eşitleyin
 
 ## <a name="system-requirements-for-human-resources"></a>Human Resources için sistem gereksinimleri
+
 Tümleştirme çözümü için aşağıdaki Human Resources ve Finance sürümleri gereklidir: 
-- Common Data Service üzerinde Dynamics 365 Human Resources.
-- Dynamics 365 Finance 7.2 veya daha ileri bir sürüm.
+
+- Common Data Service üzerinde Dynamics 365 Human Resources
+- Dynamics 365 Finance 7.2 veya daha ileri bir sürüm
 
 ## <a name="template-and-tasks"></a>Şablon ve görevler
 
-Şablona erişmek için aşağıdakileri yapın.
+İnsan Kaynakları finans şablonuna erişmek için.
+
 1. [Power Apps Yönetim Merkezi](https://admin.powerapps.com/)'ni açın. 
-1. **Projeler**'i seçin ve ardından genel şablonları seçmek için sağ üst köşeden **Yeni proje**'yi seçin. Finance'e tümleştirmek istediğiniz her tüzel kişilik için yeni bir proje oluşturulması gerekecektir.
 
-Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki şablon kullanılır.
+2. **Projeleri** seçin ve sonra sağ üst köşedeki **Yeni proje** 'yi seçin. Finance'e tümleştirmek istediğiniz her tüzel kişilik için yeni bir proje oluşturun.
 
-- **Veri tümleştirmedeki şablonun adı:** Human Resources (Human Resources Common Data Service'ten Finance'e)
+3. Kayıtları **İnsan Kaynakları (insan kaynakları Common Data Service ile finans)** ile eşitlemek için insan kaynakları (Finans için) öğesini seçin.
 
-  > [!NOTE]
-  > Görevin adı, her bir uygulamada kullanılan varlıkları içerir. Kaynak (Human Resources) solda, hedef (Finance and Operations) sağdadır.
+Şablon, Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel görevler kullanır.
 
-Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel görevler kullanılır.
-- İş İşlevleri'nden Maaş İş İşlevi'ne
-- Departmanlar'dan Faaliyet Birimi'ne
-- İş Türleri'nden Maaş İş Türü'ne
-- İşler'den İşler'e
-- İşler'den İş Ayrıntısı'na
-- Pozisyon Türleri'nden Pozisyon Türü'ne
-- İş Pozisyonları'ndan Temel Pozisyon'a
-- İş Pozisyonları'ndan Pozisyon Ayrıntıları'na
-- İş Pozisyonları'ndan Pozisyon Süreleri'ne
-- İş Pozisyonları'ndan Pozisyon Hiyerarşileri'ne
-- Çalışanlar'dan Çalışan'a
-- İstihdamlar'dan İstihdam'a
-- İstihdamlar'dan İstihdam Ayrıntısı'na
-- Pozisyon Çalışan Ataması'ndan Pozisyon Çalışan Atamaları'na
-- Çalışan Adresleri'nden Çalışan Posta Adresi V2'ye
+- **İş İşlevleri'nden Maaş İş İşlevi'ne**
+- **Departmanlar'dan Faaliyet Birimi'ne**
+- **İş Türleri'nden Maaş İş Türü'ne**
+- **İşler'den İşler'e**
+- **İşler'den İş Ayrıntısı'na**
+- **Pozisyon Türleri'nden Pozisyon Türü'ne**
+- **İş Pozisyonları'ndan Temel Pozisyon'a**
+- **İş Pozisyonları'ndan Pozisyon Ayrıntıları'na**
+- **İş Pozisyonları'ndan Pozisyon Süreleri'ne**
+- **İş Pozisyonları'ndan Pozisyon Hiyerarşileri'ne**
+- **Çalışanlar'dan Çalışan'a**
+- **İstihdamlar'dan İstihdam'a**
+- **İstihdamlar'dan İstihdam Ayrıntısı'na**
+- **Pozisyon Çalışan Ataması'ndan Pozisyon Çalışan Atamaları'na**
+- **Çalışan Adresleri'nden Çalışan Posta Adresi V2'ye**
 
 ## <a name="template-mappings"></a>Şablon eşlemeleri
 
+Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kullanılan varlıkları içerir. Kaynak (Human Resources) solda, hedef (Finans) sağdadır.
+
 ### <a name="job-functions-to-compensation-job-function"></a>İş İşlevleri'nden Maaş İş İşlevi'ne
 
-| Common Data Service varlığı (kaynak)                 | Finance and Operations varlığı (hedef) |
+| Common Data Service varlığı (kaynak) | Fİnans varlığı (hedef) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   İşlev Adı)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
 
 ### <a name="departments-to-operating-unit"></a>Departmanlar'dan Faaliyet Birimi'ne
 
-| Common Data Service varlığı (kaynak)                           | Finance and Operations varlığı (hedef) |
+| Common Data Service varlığı (kaynak)           | Fİnans varlığı (hedef) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NAME (NAME)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -93,7 +95,7 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 
 ### <a name="job-types-to-compensation-job-type"></a>İş Türleri'nden Maaş İş Türü'ne
 
-| Common Data Service varlığı (kaynak)                   | Finance and Operations varlığı (hedef) |
+| Common Data Service varlığı (kaynak)   | Fİnans varlığı (hedef) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
@@ -101,7 +103,7 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 
 ### <a name="jobs-to-jobs"></a>İşler'den İşler'e
 
-| Common Data Service varlığı (kaynak)                                           | Finance and Operations varlığı (hedef)           |
+| Common Data Service varlığı (kaynak)                           | Fİnans varlığı (hedef)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -111,7 +113,7 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 
 ### <a name="jobs-to-job-detail"></a>İşler'den İş Ayrıntısı'na
 
-| Common Data Service varlığı (kaynak)                                             | Finance and Operations varlığı (hedef) |
+| Common Data Service varlığı (kaynak)                             | Fİnans varlığı (hedef) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (İş Türü (İş Türü Adı))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -122,7 +124,7 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 
 ### <a name="position-types-to-position-type"></a>Pozisyon Türleri'nden Pozisyon Türü'ne
 
-| Common Data Service varlığı (kaynak)                       | Finance and Operations varlığı (hedef) |
+| Common Data Service varlığı (kaynak)       | Fİnans varlığı (hedef) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
@@ -130,13 +132,13 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 
 ### <a name="job-positions-to-base-position"></a>İş Pozisyonları'ndan Temel Pozisyon'a
 
-| Common Data Service varlığı (kaynak)                           | Finance and Operations varlığı (hedef) |
+| Common Data Service varlığı (kaynak)           | Fİnans varlığı (hedef) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (İş Pozisyonu Numarası) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>İş Pozisyonları'ndan Pozisyon Ayrıntıları'na
 
-| Common Data Service varlığı (kaynak)                                                      | Finance and Operations varlığı (hedef)       |
+| Common Data Service varlığı (kaynak)              | Fİnans varlığı (hedef)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber   (İş Pozisyonu Numarası)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (İş Adı))                                        | JOBID (JOBID)                                    |
@@ -150,15 +152,15 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 
 ### <a name="job-positions-to-position-durations"></a>İş Pozisyonları'ndan Pozisyon Süreleri'ne
 
-| Common Data Service varlığı (kaynak)                             | Finance and Operations varlığı (hedef) |
+| Common Data Service varlığı (kaynak)             | Fİnans varlığı (hedef) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (İş Pozisyonu Numarası)   | POSITIONID (POSITIONID)                      |
 | Hesaplanan   Etkinleştirme (Hesaplanan Etkinleştirme) | VALIDFROM (VALIDFROM)                        |
 | Hesaplanan   Emeklilik (Hesaplanan Emeklilik) | VALIDTO (VALIDTO)                         |
 
-### <a name="job-positions-to-position-hiearchies"></a>İş Pozisyonları'ndan Pozisyon Hiyerarşileri'ne
+### <a name="job-positions-to-position-hierarchies"></a>İş Pozisyonları'ndan Pozisyon Hiyerarşileri'ne
 
-| Common Data Service varlığı (kaynak)                                                                           | Finance and Operations varlığı (hedef) |
+| Common Data Service varlığı (kaynak)        | Fİnans varlığı (hedef) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (İş Pozisyonu Numarası)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -168,7 +170,7 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 
 
 ### <a name="workers-to-worker"></a>Çalışanlar'dan Çalışan'a
-| Common Data Service varlığı (kaynak)                           | Finance and Operations varlığı (hedef)       |
+| Common Data Service varlığı (kaynak)           | Fİnans varlığı (hedef)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -187,7 +189,7 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 
 ### <a name="employments-to-employment"></a>İstihdamlar'dan İstihdam'a
 
-| Common Data Service varlığı (kaynak)                                             | Finance and Operations varlığı (hedef) |
+| Common Data Service varlığı (kaynak)                             | Fİnans varlığı (hedef) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -197,7 +199,7 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 
 ### <a name="employments-to-employment-detail"></a>İstihdamlar'dan İstihdam Ayrıntısı'na
 
-| Common Data Service varlığı (kaynak)                                             | Finance and Operations varlığı (hedef)   |
+| Common Data Service varlığı (kaynak)                             | Fİnans varlığı (hedef)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -215,7 +217,7 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Pozisyon Çalışan Ataması'ndan Pozisyon Çalışan Atamaları'na
 
-| Common Data Service varlığı (kaynak)                                             | Finance and Operations varlığı (hedef)   |
+| Common Data Service varlığı (kaynak)                             | Fİnans varlığı (hedef)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (İş Pozisyonu Numarası)                   | POSITIONID(POSITIONID)                        |
@@ -224,7 +226,7 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Çalışan Adresleri'nden Çalışan Posta Adresi V2'ye
 
-| Common Data Service varlığı (kaynak)                                             | Finance and Operations varlığı (hedef)   |
+| Common Data Service varlığı (kaynak)                             | Fİnans varlığı (hedef)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -239,9 +241,10 @@ Human Resources'tan kayıtları Finance'e eşitlemek için aşağıdaki temel g�
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSDESCRIPTION(ADDRESSDESCRIPTION)        |
 
 ## <a name="integration-considerations"></a>Tümleştirmeyle ilgili değerlendirmeler
-Human Resources'tan Finance'e veri tümleştirirken, tümleştirme, kayıtları kodlarına göre eşlemeye çalışır. Eşleşme gerçekleşirse, Human Resources'taki değerler Finance'teki verilerin üzerine yazılır. Ancak, bunlar mantıksal olarak farklı kayıtlar olduğu halde Human Resources'ta veya Finance'te ilgili numara serisine aynı kod üretildiyse bir sorun oluşabilir.
 
-Bunun oluşabileceği alanlar, eşlemeyi yapmak için Personel numarası kullanılan Çalışan ve Pozisyonlar'dır. İşler numara serileri kullanmaz. Sonuç olarak, hem Human Resources'ta hem de Finance'te aynı iş kodu mevcutsa, Human Resources bilgileri Dynamics 365 Finance bilgilerinin üzerine yazılır. 
+Human Resources'tan Finance'e tümleştirme, kayıtları kodlarına göre eşlemeye çalışır. Kayıtlar eşleşirse Veri Tümleştirici, Human Resources'taki değerler Finance'teki verilerin üzerine yazılır. Ancak, bunlar mantıksal olarak farklı kayıtlar olduğu halde Human Resources'ta veya Finance'te ilgili numara serisine aynı kod üretildiyse bir sorun oluşabilir.
+
+Sorun, eşlemeyi yapmak için **Personel numarası** kullanılan **Çalışan** ve **Pozisyonlar**'da oluşabilir. İşler numara serileri kullanmaz. Sonuç olarak, hem Human Resources'ta hem de Finance'te aynı iş kodu mevcutsa, Human Resources bilgileri Dynamics 365 Finance bilgilerinin üzerine yazılır. 
 
 Yinelenen kodlarla ilgili sorunları önlemek için [numara serisine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json)bir önek ekleyebilir veya numara serisinde, diğer sistemin aralığının dışında bir başlangıç numarası ayarlayabilirsiniz. 
 
@@ -250,5 +253,3 @@ Yinelenen kodlarla ilgili sorunları önlemek için [numara serisine](https://do
 Aşağıdaki çizim, Veri Tümleştirici'de bir şablon eşleme örneği gösteriyor. 
 
 ![Şablon Eşleme](./media/IntegrationMapping.png)
-
-

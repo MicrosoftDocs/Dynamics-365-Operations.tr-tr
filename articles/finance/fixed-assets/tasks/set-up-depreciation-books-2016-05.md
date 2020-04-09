@@ -1,6 +1,6 @@
 ---
-title: Amortisman defterleri ayarlama (Mayıs 2016)
-description: Bu görev kılavuzunda yeni bir amortisman defteri oluşturulup bir sabit kıymet grubuyla ilişkilendirilecek.
+title: Amortisman defterleri ayarlama
+description: Bu yordamda, yeni amortisman defteri oluşturma ve bunu sabit kıymet grubuyla ilişkilendirme süreci boyunca izlenecek yol.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6840e211847494598a81cd3228dbd3796447e18c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186912"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154619"
 ---
-# <a name="set-up-depreciation-books-may-2016"></a>Amortisman defterleri ayarlama (Mayıs 2016)
+# <a name="set-up-depreciation-books"></a>Amortisman defterleri ayarlama 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Bu görev kılavuzunda yeni bir amortisman defteri oluşturulup bir sabit kıymet grubuyla ilişkilendirilecek.  Kılavuzda Muhasebeci rolü ve USMF adlı tüzel kişilik için demo verileri kullanılmaktadır.
-
+Bu yordamda, yeni amortisman defteri oluşturma ve bunu sabit kıymet grubuyla ilişkilendirme süreci boyunca izlenecek yol. 
 
 ## <a name="create-a-depreciation-book"></a>Amortisman defteri oluşturun
 1. Sabit kıymetler > Kurulum > Amortisman defterleri'ne gidin.

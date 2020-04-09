@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eee00021f49ac0110d7bde07faba8095348e1b4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e5d4256b155d3e06d63e425fab63b4025ef2577f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185762"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140030"
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>ISO20022 hesaptan ödeme yapılandırmasını içe aktarma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, müşteri ödemesi elektronik raporlama yapılandırmasının nasıl içe aktarılacağını gösterir. Bu yordam örnek olarak ISO 20022 hesaptan ödeme biçimini kullanır. 
 

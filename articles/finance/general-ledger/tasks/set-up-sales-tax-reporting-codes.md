@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4751256858da417ec9bb1b7d9ccd16fb6bef1cac
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 460e41d69a78cda664e0d3af828fdc482169ac52
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185946"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145087"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Satış vergisi raporlama kodlarını ayarla
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Satış vergisi raporlama kodları, satış vergisi raporundaki bir alan numarasına karşılık gelir. Bunlar, raporlama kodu başına özeti çıkarılan kapatma döneminin satış vergisi tutarlarının yazdırılacağı kod raporu tarafından, ülkeye özel rapor düzenlerinde ve Satış vergisi ödemesinde kullanılır. Satış vergisi raporlama kodlarını oluşturduktan sonra, Satış vergisi kodu sayfasındaki Rapor kurulumu hızlı sekmelerinde bu kodlara gönderme yapabilirsiniz. 
 

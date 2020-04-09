@@ -3,7 +3,7 @@ title: Kredi yönetimi parametreleri kurulumu
 description: Bu konuda, işletmenizin Kredi yönetimini işletmenizin gereksinimlerini karşılayacak şekilde yapılandırmak için kullanabileceğiniz seçenekler açıklanmaktadır.
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/04/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124197"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154540"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredi yönetimi parametreleri kurulumu
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, işletmenizin Kredi yönetimini işletmenizin gereksinimlerini karşılayacak şekilde yapılandırmak için kullanabileceğiniz seçenekler açıklanmaktadır. Alacak yönetimi özelliklerini kullanmaya başlamak için, **Kredi yönetimi parametreleri** sayfasında (**Kredi yönetimi \>Kurulum \>Kredi yönetimi parametreleri**) parametreleri ayarlayın.
+Bu konuda, işletmenizin Kredi yönetimini işletmenizin gereksinimlerini karşılayacak şekilde yapılandırmak için kullanabileceğiniz seçenekler açıklanmaktadır. Alacak yönetimi özelliklerini kullanmaya başlamak için, **Kredi ve koleksiyonlar parametreleri** sayfasında (**Kredi ve koleksiyonlar \>Kurulum \>Kredi ve koleksiyonlar parametreleri**) parametreleri ayarlayın.
 
 ## <a name="credit-parameters"></a>Kredi parametreleri
 
-Kredi yönetimini denetleyen parametreleri değiştirebileceğiniz dört hızlı sekme vardır: **Kredi bekletme işlemleri**, **Kredi yönetimi denetim noktası**, **Kredi yönetim istatistikleri** ve **Kredi limitleri**. Aşağıdaki bölümlerde, her bir hızlı sekmede kullanılabilen ayarlar açıklanmaktadır.
+Kredi yönetimini denetleyen parametreleri değiştirebileceğiniz **Kredi** bölümünde dört hızlı sekme vardır: **Kredi bekletme işlemleri**, **Kredi yönetimi denetim noktası**, **Kredi yönetim istatistikleri** ve **Kredi limitleri**. Aşağıdaki bölümlerde, her bir hızlı sekmede kullanılabilen ayarlar açıklanmaktadır.
 
 ### <a name="credit-holds"></a>Alacak tutmalar
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64fade6578e9cd4f8a51c524e4f6ebbf63b93f20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184773"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143111"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Katıştırılmış resimlere sahip Office biçiminde raporlar oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Aşağıdaki adımlar 'Sistem yöneticisi' veya 'Elektronik raporlama geliştiricisi' rolündeki bir kullanıcının, MS office biçimlerinde (Excel ve Word) katıştırılmış resimler içeren elektronik belgeler oluşturmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceklerini açıklar.
 
@@ -65,7 +65,7 @@ Bu örnekte, 'Litware, Inc.' örnek şirketi için oluşturulmuş ER yapılandı
 4. Ağaçta, 'Çekler için model' öğesini seçin.
 5. Tasarımcı'yı tıklatın.
 6. Modeli veri kaynağına eşle'yi tıklayın.
-7. Tasarımcı'yı tıklatın.
+7. Tasarımcı'ya tıklayın.
     * Seçilen banka hesabıyla ilişkilendirilmiş çek biçim kaydına eklenmiş olan dosyadan imza resmi almak için veri modelinin imza öğesini değiştireceğiz.  
 8. Ayrıntıları göster'i kapatın.
 9. Ağaçta, 'düzen' metnini genişletin.

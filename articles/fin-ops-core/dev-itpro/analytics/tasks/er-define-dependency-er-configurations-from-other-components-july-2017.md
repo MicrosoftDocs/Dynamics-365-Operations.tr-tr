@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042931"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142281"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu adımları tamamlamak için önce ER Model eşleme yapılandırmalarını yönet görev kılavuzundaki adımları tamamlamalı ve Microsoft Dynamics Lifecycle Services (LCS) üzerinde erişim sahibi olmanız gerekir.
 
@@ -41,7 +41,7 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
     * 'Örnek eşleme' model eşleme yapılandırmasının taslak sürümünü seçtik. Şimdi bunun diğer yazılım bileşenleriyle bağımlılığını tanımlayacağız. Bu adım, bu yapılandırmasının sürümünü bir ER havuzundan indirilmesini ve bu sürümün daha fazla kullanımını denetlemek için bir önkoşuldur.   
 3. Önkoşullar bölümünü genişletin.
     * Uygulama 'önkoşulları' grubunun bu aşamada otomatik olarak eklenmiş olduğunu unutmayın. Bu grup, veri modeli yapılandırmasını referans alan bileşenin önkoşulunu içerir ve Uygulama bayrağı açıktır. Bu bayrak 'Örnek eşleme' modeli eşleme yapılandırmasının, veri modeli, 'Örnek veri modelinin' veri modelinin uygulaması olarak kabul edildiği anlamına gelir. Bu bileşen, ER'yi 'Örnek eşleme' eşleme yapılandırmasını bir ER havuzundan, 'Örnek veri modeli' model yapılandırması indirildiğinde indirmeye zorlayacaktır.   
-4. Düzenle öğesine tıklayın.
+4. Düzenle'ye tıklayın.
     * Bir yazılım bileşeninden bir yapılandırma sürümüne geçerli sürümün tek bir bağımlılığı, bileşenin türünü ve bileşen sürümü ya da bileşen sürümlerinin aralığını tanımlayarak belirtilebilir.  
     * İstenen bağımlılıklar birlikte gruplandırılabilir. 'Tümü' gruplama türü seçildiğinde, bu grubun bağımlılık koşulu bu grup ve alt gruptan her bir bağımlılık koşulu yerine getirildiğinde yerine getirilmiş sayılır. 'Biri' gruplama türü seçildiğinde, bu grubun bağımlılık koşulu bu grup ve alt gruptan en az bir bağımlılık koşulu yerine getirildiğinde yerine getirilmiş sayılır.   
 5. Yeni'ye tıklayın.

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ad4ef067841511e235dcf538c720b72283d31c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0b8b248481f04856fe15dadbc245caae5330ef8f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180424"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140548"
 ---
 # <a name="set-up-electronic-signatures"></a>Elektronik imza ayarlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordamı kullanarak elektronik imzaları ayarların. Elektronik imza bir hesaplama işlemi başlatmak veya onaylamak üzere olan kişinin kimliğini doğrular. Bu yöntemi oluşturmak için kullanılan demo verisi şirketi DAT'dir.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6432d04aa821e76d67e2c430e514f4b9056d8228
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7e6778f61a9367399e4b71d5b2bb2459c09ba508
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180403"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143928"
 ---
 # <a name="define-vendor-payment-terms"></a>Satıcı ödeme koşullarını tanımlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu konu, satıcı faturaları için ödeme koşullarının nasıl ayarlanacağını açıklar. Bu görevde USMF demo şirketi kullanılmaktadır.
 

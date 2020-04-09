@@ -16,22 +16,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769867"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142144"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu konuda Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının OPENXML biçiminde elektronik belgeler oluşturmak için bir şablon içeren, yeni bir Elektronik Raporlama (ER) yapılandırmasını nasıl oluşturabileceği açıklanmaktadır. Bu yapılandırma, satıcı ödemelerini işlemek için kullanılacaktır.
 
 Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaksınız. Bu adımlar, herhangi bir GBSI şirketinde gerçekleştirilebilir.
 
-Bu adımları tamamlamak için, öncelikle "Bir yapılandırma sağlayıcı oluşturun ve etkin olarak işaretleyin" yordamındaki adımları tamamlamanız gerekir. Ayrıca, şablonu oluştururken, alınacak olan bir Excel dosyası olmalıdır. Bu dosyaya [Ödeme Rapor Şablonu](https://go.microsoft.com/fwlink/?linkid=862266)'ndan erişilebilir.
+Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir. Ayrıca, şablonu oluştururken, alınacak olan bir Excel dosyası olmalıdır. Bu dosyaya [Ödeme Rapor Şablonu](https://go.microsoft.com/fwlink/?linkid=862266)'ndan erişilebilir.
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Ödemeler veri modeli konfigürasyonunu yükleme
@@ -55,7 +55,7 @@ Bu adımları tamamlamak için, öncelikle "Bir yapılandırma sağlayıcı olu�
 3. Açılır iletişim kutusunu açmak için **Yapılandırma oluştur**'u seçin.
 4. **Yeni** alanına `Format based on data model PaymentModel` girin. Bir biçimi, PaymentModel veri modeline dayalı olarak oluşturun.
 5. **Ad** alanına `Sample worksheet report` yazın. Örnek çalışma sayfası raporu  
-6. **Açıklama** alanına `Sample worksheet report for vendors’ payments` yazın. Satıcıların ödemeleri için örnek çalışma sayfası raporu.  
+6. **Açıklama** alanına `Sample worksheet report for vendors' payments` yazın. Satıcıların ödemeleri için örnek çalışma sayfası raporu.  
 7. **Veri modeli tanımı** alanına bir değer girin veya seçin. **CustomerCreditTransferInitiation** tanımını seçin.  
 8. **Yapılandırma oluştur**'u seçin.
 

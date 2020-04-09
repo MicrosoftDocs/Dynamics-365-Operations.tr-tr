@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 227a6865df826caf8ce154f9c44ebe082acd76a5
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 473bb133159bb6cdcbbd30ab2c8452eb69f8cfaf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916761"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148219"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Satın alma siparişleri için iş şablonunu ayarlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu konu, alınan ürünler yerine koyulurken kullanılacak basit bir iş şablonunun nasıl ayarlanacağını açıklar. İş şablonları, ürünler teslim alma alanından taşınırken bir mobil cihazda ambara yönelik yönergeler kümesini belirler. Bu yordamı, USMF demo verileri şirketinde söz edilen verilerle kullanabilirsiniz. Bu kılavuzu başlatmadan önce bir iş havuzu kodu oluşturun. Bu örnekte Gelen içinde bir iş havuzu kodu kullanılır. Bu yordam ambar yöneticisi için hazırlanmıştır.
 

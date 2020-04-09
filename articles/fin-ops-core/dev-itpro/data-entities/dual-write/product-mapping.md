@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081163"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173212"
 ---
 # <a name="unified-product-experience"></a>Birleşik ürün deneyimi
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Bir işletmenin ekosistemi Finance, Supply Chain Management ve Sales gibi Dynamics 365 uygulamalarından oluştuğunda, işletmeler sıklıkla ürün verilerini kaynak olarak kullanmak için bu uygulamaları kullanır. Bunun nedeni, bu uygulamaların sofistike fiyatlandırma kavramları ve doğru eldeki stok verileriyle kapsamlı bir ürün altyapısı sağlamasıdır. Ürün verilerinin kaynağı için harici bir Ürün Yaşam Döngüsü Yönetimi (PLM) sistemi kullanan işletmeler, Finance and Operations uygulamalarındaki ürünleri diğer Dynamics 365 uygulamalarına yöneltebilirler. Birleştirilmiş ürün deneyimi, Common Data Service'e tümleşik ürün veri modelini getirir ve böylece Power Platform kullanıcıları dahil tüm uygulama kullanıcıları, Finance and Operations uygulamalarından gelen zengin ürün verilerinden yararlanabilir.
 
@@ -52,7 +52,7 @@ Bu iki ürün veri modeli aşağıda gösterildiği gibi Common Data Service'te 
 
 Ürün bilgileri, ürün boyutları veya izleme ve depolama boyutları gibi ürünle ve ürün tanımıyla ilgili tüm bilgileri içerir. Aşağıdaki tabloda gösterildiği gibi, ürün ve ilgili bilgileri eşitlemek için varlık haritaları koleksiyonu oluşturulur.
 
-Finance and Operations | Diğer Dynamics 365 uygulamaları | Tanım
+Finance and Operations uygulamaları | Diğer Dynamics 365 uygulamaları | Tanım
 -----------------------|--------------------------------|---
 Serbest bırakılan ürünler V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** varlığı, Finance and Operations uygulamalarından ürünü tanımlayan ve ürünün finansal ve yönetim bilgilerini içeren alanlar içerir. 
 Common Data Service serbest bırakılan farklı ürünler | Ürün | **Ürün** varlığı, ürünü tanımlayan alanları içerir. Bağımsız ürünleri (alt tür ürünü olan ürünler) ve ürün çeşitlerini içerir. Aşağıdaki tablo eşlemeleri göstermektedir.
@@ -75,7 +75,7 @@ Birim | uoms
 Birim dönüştürmeleri | msdyn_ unitofmeasureconversions
 Ürüne özel ölçü birimi dönüşümü | msdyn_productspecificunitofmeasureconversion
 Ürün kategorileri | msdyn_productcategories | Her bir ürün kategorisi ve bunların yapısı ve özellikleri hakkında bilgiler ürün kategorisi varlığında bulunur. 
-Ürün kategori hiyerarşileri | msdyn_productcategoryhierarhies | Ürünleri sınıflandırmak veya gruplandırmak için ürün hiyerarşilerini kullanın. Kategori hiyerarşileri, Ürün kategori hiyerarşisi varlığı kullanılarak Common Data Service'te kullanılabilir. 
+Ürün kategori hiyerarşileri | msdyn_productcategoryhierarhies | Ürünleri kategorize etmek veya gruplamak için ürün hiyerarşilerini kullanabilirsiniz. Kategori hiyerarşileri, ürün kategorisi hiyerarşisi varlığı kullanılarak Common Data Service'te kullanılabilir. 
 Ürün kategori hiyerarşisi rolleri | msdyn_productcategoryhierarchies | Ürün hiyerarşileri D365 Finance and Operations'taki farklı roller için kullanılabilir. Her rolde hangi kategorinin kullanıldığını belirtmek için ürün kategorisi rol varlığı kullanılır. 
 Ürün kategorisi atamaları | msdyn_productcategoryassignments | Ürünü bir kategoriye atamak için ürün kategorisi atamaları varlığı kullanılabilir.
 
@@ -153,7 +153,7 @@ Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi 
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Finance and Operations ile Common Data Service arasında eşleşen birim verilerinin başlangıç eşitlemesi
 

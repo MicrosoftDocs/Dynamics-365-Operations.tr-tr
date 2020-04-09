@@ -3,7 +3,7 @@ title: Satın alma kutusu modülü
 description: Bu konu satın alma kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13d044a150651dd18c3a09c4db6a783fe8f42287
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025473"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154075"
 ---
 # <a name="buy-box-module"></a>Satın alma kutusu modülü
 
@@ -58,7 +58,7 @@ Temalar, satın alma kutusu ürün özelliklerini ve eylem denetimlerini kaldır
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Satınalma kutusu modülünde kullanılabilen modüller
 
 - **Ortam Galerisi** – bu modül, ürün ayrıntıları sayfasındaki bir ürünün görüntülerini sergilemesinde kullanılır. Bir ile birçok görüntüyü destekleyebilir. Küçük resimleri de destekler. Küçük resimler yatay (görüntünün altında bir satır olarak) veya dikey olarak (görüntünün yanında bir sütun olarak) düzenlenebilir. Ortam Galerisi modülü, satın alma kutusu modülündeki **ortam** yuvasına eklenebilir. Şu anda yalnızca resimleri desteklemektedir. 
-- **Mağaza seçici** - Bu modül bir maddenin almak için kullanılabilir olduğu yakındaki mağazaların listesini gösterir. Kullanıcıların yakındaki mağazaları bulabilmesi için bir konum girmesini sağlar. Mağaza seçici modülü Bing Haritalar Coğrafi kodlama uygulama programlama arayüzü (API) ile tümleştirilmiştir ve bu sayede konumu bir enlem ve boylama dönüştürür. Bir Bing Haritalar API anahtarı gereklidir ve Dynamics 365 Retail içinde Retail paylaşılan parametreler sayfasına eklenmelidir. Bu modül iki özelliği destekler, **Arama yarıçapı** ve **Hizmet koşulları bağlantısı**. **Arama yarıçapı** özelliği, depolar için, mil olarak arama yarıçapını tanımlar. Herhangi bir değer belirtilmezse, varsayılan arama yarıçapı olan 50 mil değeri kullanılır. Bing Haritalar veya herhangi bir harici hizmet kullanılırsa, **Hizmet koşulları bağlantısı** özelliği, hizmet koşullarına bir bağlantı sağlamak için kullanılabilir. Bing Haritalar hizmeti için bir hizmet koşulları bağlantısı gereklidir. 
+- **Mağaza seçici** - Bu modül bir maddenin almak için kullanılabilir olduğu yakındaki mağazaların listesini gösterir. Kullanıcıların yakındaki mağazaları bulabilmesi için bir konum girmesini sağlar. Bu modülle ilgili daha fazla bilgi için bkz. [Mağaza seçme modülü](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Satın alma kutusu modülü ayarları
 
@@ -92,6 +92,8 @@ Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri aya
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Başlangıç paketine genel bakış](starter-kit-overview.md)
+
+[Mağaza seçicisi modülü](store-selector.md)
 
 [Konteyner modülü](add-container-module.md)
 

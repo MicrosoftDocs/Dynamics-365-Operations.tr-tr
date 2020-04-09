@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eed4ab9bac4aa40e20709927053613bbffe1be71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ee8385561f9aadae333c05c6df62de0ad1d39010
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185900"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144615"
 ---
 # <a name="view-related-intercompany-voucher-from-journal"></a>Günlükten ilgili şirketlerarası fişi görüntüleyin
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 İlgili fiş penceresi, şirketlerarası hareketleri yevmiye defterinden aktarırken, mahsup şirketten olan fişi gösterir.
 
