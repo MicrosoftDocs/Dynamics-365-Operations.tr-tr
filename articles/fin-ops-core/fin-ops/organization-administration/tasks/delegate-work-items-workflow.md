@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44dc747543e32b54729d12c89a401b0187e25a61
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aceafbe8dfcdac2ac7b97a4f77a9a30599c60c51
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189971"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140594"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>İş akışındaki iş öğelerini devretme
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 ## <a name="manually-delegate-a-work-item"></a>Bir iş öğesini el ile devredin
 

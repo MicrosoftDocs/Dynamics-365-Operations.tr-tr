@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f63591d2bdb88de8c9bc7a544ac4f3adbab90a7c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cab889d89b239c746c98108a22746774203e4169
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180426"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140617"
 ---
 # <a name="create-a-legal-entity"></a>Bir tüzel kişilik oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kuruluştur. Tüzel kişilikler sözleşmelere girebilir ve performanslarını raporlayacak bildirimler hazırlamaları gerekir. Aşağıdaki prosedürde bir tüzel kişiliğin nasıl oluşturulacağı açıklanmıştır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

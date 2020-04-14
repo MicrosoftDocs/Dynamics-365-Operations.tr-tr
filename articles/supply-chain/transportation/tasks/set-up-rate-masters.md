@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 462bfce89fa77c8830a93a22b0dd6c8c8fb2cde6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2aaceb78029408dcea67d0382fd1fc05e550d02a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555318"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146204"
 ---
 # <a name="set-up-rate-masters"></a>Ana oranları ayarlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, bir ana oran kurmayı göstermektedir. Genellikle Lojistik Yöneticisi, taşıyıcılar ile imzalanmış olan sözleşmelere bağlı olarak ana oranları ayarlar. Bu senaryoda bir hava taşıyıcısı için ana oran ayarlayacaksınız. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

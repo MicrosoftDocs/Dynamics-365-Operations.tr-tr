@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: df8552aab5f1566dccf0b905c2d5db372671ec09
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249644"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144123"
 ---
 # <a name="cost-management-home-page"></a>Maliyet yönetimi giriş sayfası
 
@@ -32,12 +32,13 @@ ms.locfileid: "2249644"
 
 [Maliyet yönetimi (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) hammaddelerin, yarı mamul malların, mamul malların ve süren iş kıymetlerinin değerlemesi ve muhasebesi üzerinde çalışmanızı sağlar. Bu, [Stok muhasebesi](cost-object.md) ve [Üretim muhasebesini](bom-calculations.md) tanımlama, yönetme ve raporlama işlemidir.
 
-Maliyet ilkelerini aşağıdaki alanlarda tanımlayabilirsiniz: 
--  [Önceden belirlenmiş maliyet](costing-versions.md)
--  [Stok muhasebesi](cost-object.md)
--  [Üretim muhasebesi](bom-calculations.md)
--  [Dolaylı maliyet muhasebesi](costing-sheets.md)
--  [Genel muhasebe bütünleştirmesi](production-order-cost-analysis.md)
+Maliyet ilkelerini aşağıdaki alanlarda tanımlayabilirsiniz:
+
+- [Önceden belirlenmiş maliyet](costing-versions.md)
+- [Stok muhasebesi](cost-object.md)
+- [Üretim muhasebesi](bom-calculations.md)
+- [Dolaylı maliyet muhasebesi](costing-sheets.md)
+- [Genel muhasebe bütünleştirmesi](production-order-cost-analysis.md)
 
 Örneğin, stok muhasebesindeki [Madde model grubu](../inventory/reserve-inventory-quantities.md)'ndaki ürünlere uygulamak istediğiniz [FIFO](fifo-physical-value-marking.md), [Ağırlıklı ortalama](weighted-average-physical-value-marking.md), [Standart maliyet](prerequisites-standard-costs.md) veya [Hareketli ortalama](moving-average.md) gibi stok değerleme yöntemlerini tanımlayabilirsiniz.
 
@@ -51,23 +52,16 @@ Stok muhasebesi ve Üretim muhasebesine **Maliyet yönetimi** ve **Maliyet anali
 
 #### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin. 
+Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin.
 
 #### <a name="white-paper"></a>Teknik inceleme
-[Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) malzemeyi ve üretimi kapsayan bir maliyetlendirme tablosunu ayarlamayı ve ayarlamanın ürün reçetesi hesaplama sonuçları üzerindeki etkilerini anlatır. Konuları daha iyi açıklamak için çeşitli ayarların ve yapılandırmaların etkisini gösteren somut senaryolar ve veriler sağlar. Bu belge, senaryoların yapılandırılmalarına ilişkin yeterli ayrıntı sağlamadığından tüm bu senaryoları takip etmenizi beklemiyoruz. Bununla birlikte, temel bilgiye sahipseniz aşağıda listelenen görev kılavuzlarını gösterildikleri sırayla oynatmayı deneyebilirsiniz. Ürün reçetesi hesaplama analizi yapmak için bu belgeyi okuyarak edindiğiniz bilgileri kullanın. 
 
--  [Bitmiş bir ürün oluşturma](tasks/create-finished-product-2016-02.md)
--  [Yarı mamul bir ürün oluşturma](tasks/create-semi-finished-product-2016-02.md)
--  [Hammadde oluşturma](tasks/create-raw-materials-2016-02.md)
--  [Ürün reçeteleri oluşturma](tasks/create-boms-2016-02.md)
--  [Rotalar oluştur](tasks/create-routes-2016-02.md)
--  [Tek düzeyli yapı kullanarak ürün reçetesi hesaplama](tasks/calculate-bom-single-level-structure-2016-02.md)
--  [Çok düzeyli yapı kullanarak ürün reçetesi hesaplama](tasks/calculate-bom-multilevel-structure-2016-02.md)
-
+[Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) malzemeyi ve üretimi kapsayan bir maliyetlendirme tablosunu ayarlamayı ve ayarlamanın ürün reçetesi hesaplama sonuçları üzerindeki etkilerini anlatır. Konuları daha iyi açıklamak için çeşitli ayarların ve yapılandırmaların etkisini gösteren somut senaryolar ve veriler sağlar.
 
 #### <a name="blogs"></a>Bloglar
+
 [Dynamics AX İmalat Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/axmfg) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/dynamicsaxscm) Maliyet yönetimi hakkında pek çok fikir, haber ve bilgi bulabilirsiniz. Bu deftere nakillerin bazıları Maliyet yönetiminin önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve yordamlar da geçerli sürümdekine benzerdir.
 
 #### <a name="task-guides"></a>Görev kılavuzları
-Ek Yardım görev kılavuzları olarak mevcuttur. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
 
+Ek Yardım görev kılavuzları olarak mevcuttur. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.

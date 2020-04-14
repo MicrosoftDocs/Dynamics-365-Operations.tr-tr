@@ -454,6 +454,8 @@
                   items:
                     - name: Gelişmiş otomatik masrafları yapılandırma ve kullanma
                       href: omni-auto-charges.md
+                    - name: Kanala göre otomatik masrafları etkinleştirme ve yapılandırma
+                      href: auto-charges-by-channel.md
                     - name: Başlık masraflarını eşleşen satış satırlarına eşit dağıtma
                       href: pro-rate-charges-matching-lines.md
                 - name: Süreklilik programlarını yönetme
@@ -525,7 +527,7 @@
                 - name: Yeni ürün oluşturma
                   items:
                     - name: Commerce'ta yeni ürün oluşturma
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: Ürün kategorilerini ve ürünleri yönetme
                       href: category-management-product-creation.md
                 - name: Ürün öznitelikleri
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: Kişiselleştirilmiş önerilerden vazgeçme
                       href: personalization-gdpr.md
-                - name: e-Ticaret sitesine öneri listeleri ekleme
-                  href: add-reco-list-to-page.md
                 - name: POS deneyimleri
                   items:
                     - name: POS'ta ürün önerileri ekleme
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: Sipariş onayı modülü
                       href: order-confirmation-module.md
+                    - name: Mağaza seçicisi modülü
+                      href: store-selector.md
                 - name: Hesap yönetimi modülleri
                   items:
                     - name: Hesap yönetimi sayfaları ve modülleri
@@ -2115,7 +2117,7 @@
                 - name: Ödeme verileri kullanımı
                   href: payment-connector-data-fields.md
                 - name: Ödeme bağlayıcısı için yinelenen ödeme koruyucusunu etkinleştirme
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: Service Fabric dağıtımlarına Uygulama Gezgini için ödeme paketi oluşturma
                   href: dev-itpro/payment-connector-package.md
             - name: Üçüncü taraf e-Ticaret genişletilebilirliği

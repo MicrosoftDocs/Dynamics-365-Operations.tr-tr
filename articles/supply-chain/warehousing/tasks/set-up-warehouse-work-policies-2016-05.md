@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23ad33a2f070a33e4e658870561406c4604f4dce
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ca54cceb83425c43b5d124cd6d11be0cdef4d63a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847075"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145928"
 ---
 # <a name="set-up-warehouse-work-policies-application-may-2016"></a>Ambar iş ilkelerini ayarla (Uygulama, Mayıs 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ambar işlemi her zaman ambar çalışmasını içermezler. Bir çalışma ilkesi tanımlayarak, hammadde çekme ve tamamlanmış malların yerine koyması işlerinin oluşturulmasını, çeşitli bir ürün dizisi veya belirtilen konumlar için engelleyebilirsiniz. USMF demo veri şirketi bu kaydı oluşturmak için kullanılmıştır. Bu görev kılavuzu Dynamics AX uygulama 7.0.1 veya sonrasını gerektirir.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1ba4d09240888f0c533fb07614e75ffecea0742c
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124105"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161604"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Satış vergisi için çift para birimi desteği
 [!include [banner](../includes/banner.md)]
@@ -34,7 +34,7 @@ Dynamics 365 Finance için çift para birimi özelliği 8.1 (2018 Ekim) sürüm�
 
 Önceki sürümlerde, işlemler raporlama para birimine aşağıdaki sırada dönüştürüldü: 
 
-Hareket toplamı hareket para birimi cinsinden hesaplandı > hareket tutarı muhasebe para birimine dönüştürüldü > muhasebe para birimi tutarı raporlama para birimine dönüştürüldü
+- Hareket toplamı hareket para birimi cinsinden hesaplandı > hareket tutarı muhasebe para birimine dönüştürüldü > muhasebe para birimi tutarı raporlama para birimine dönüştürüldü
 
 Çift para birimi özelliğini etkinleştirdikten sonra, hareketler raporlama para birimine aşağıdaki sırada dönüştürüldü:
 
@@ -48,8 +48,6 @@ Hareket toplamı hareket para birimi cinsinden hesaplandı > hareket tutarı muh
 - Raporlama para birimi cinsinden vergi kapatma otomatik bakiyesi (10.0.11 sürümde yayınlandı)
 
 Satış vergileri için çift para birimi desteği, vergi para birimi cinsinden vergilerin doğru hesaplanmasını ve satış vergisi kapatma bakiyesinin hem muhasebe para birimi, hem de raporlama para birimi cinsinden doğru şekilde hesaplanmasını sağlar. 
-
-Yeni özellikler şu anda özel önizleme müşterileri için etkin durumda. Özellikleri etkinleştirmek için ilgili kanallarla Microsoft'a bir servis isteği yükseltin.
 
 ## <a name="sales-tax-conversion"></a>Satış vergisi dönüştürme
 

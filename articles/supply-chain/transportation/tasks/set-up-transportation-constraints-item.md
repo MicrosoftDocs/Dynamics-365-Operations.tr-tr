@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f686b29151cfbbeeffbf1f8fb98ea6ce5bc51d1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4ccd7d79fbcdd600f78dbff98ce39c04865afe37
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836081"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146158"
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Madde için taşıma sınırlamalarını ayarlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, seçili bir öğenin, seçili bir hub üzerinden taşınmasını önlemek için bir taşıma kısıtlaması ayarlar. Bu görev genellikle Taşıma koordinatörü tarafından gerçekleştirilir. Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.
 

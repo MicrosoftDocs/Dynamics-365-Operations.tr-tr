@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2a2b56d387cfe90cbfac0bca3c11e699573c1d05
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: 502b2e08c6c1f4190031d171f037a05d591e5cd8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097543"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164780"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Dynamics 365 Supply Chain Management 10.0.9'daki yenilikler veya değişiklikler (Nisan 2020)
 
@@ -41,30 +41,32 @@ Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [S
 
 - [Dalga sırasında gelişmiş yük oluşturma](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)
 - [Çapraz sevk için sevkiyatı otomatik serbest bırak](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/auto-release-shipment-cross-dock) - Daha fazla bilgi için bkz. [Çapraz sevk için sevkiyatı otomatik serbest bırakma](../warehousing/auto-release-shipment-for-cross-docking.md).
+- [Satın alma emri teslimat tarihini sağlama sürelerine ve çalışma günlerine (kamu sektörü) göre hesapla](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/calculate-po-delivery-date-based-lead-times-working-days-public-sector)
+- [Ambar yönetimiyle ilgili fiili ağırlık ürün işlemleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/catch-weight-product-processing-warehouse-management) - Daha fazla bilgi için, bkz. [ambar yönetimiyle fiili ağırlık ürünlerinin işlenmesi](../warehousing/catch-weight-processing.md) ve [fiili ağırlık ürün geliştirmeleri](https://www.microsoft.com/videoplayer/embed/RE4jzx8) videosu.
 - [Madde fiyatı depolamasını karşılaştır](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/compare-item-price-storage) - Daha fazla bilgi için bkz. [Madde fiyatı depolamasını karşılaştırma raporu](../cost-management/compare-item-price.md).
 - [Sevkiyat konsolide etme geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/consolidate-shipment-enhancements)
-- [Çapraz sevk](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking)
+- [Geçici stoklama](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking) - Daha fazla bilgi için bkz. [planlanan çapraz yerleşik](https://www.microsoft.com/videoplayer/embed/RE4f7LF) videosu.
 - Diğer fiili ağırlık tümleştirmesi [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1), [10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2), [10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3), [10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4), [10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5), [10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6), [10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7) - Daha fazla bilgi için bkz. [Ambar yönetimi ile Fiili ağırlık ürün işlemi](../warehousing/catch-weight-processing.md) ve ayrıca [Fiili ağırlık ürünü geliştirmeleri](https://www.microsoft.com/videoplayer/embed/RE4jzx8) videosu.
 - [Esnek ambar düzeyi boyut rezervasyonu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation) - Daha fazla bilgi için bkz. [Esnek ambar düzeyi boyut rezervasyon ilkesi](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+- [Gelişmiş iş kartı aygıtı](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) - Daha fazla bilgi için bkz. [Mobil iş aygıtındaki rapor ilerlemesi](../production-control/tasks/report-progress-mobile-job-device.md) ve [İş kartı aygıtından lisans levhası denetimli bir konuma tamamlandı bildirimi](../production-control/report-finished-job-device.md)
 - [Gelen kalite denetimi](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
 - [Stok eskime raporu depolama](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-aging-report-storage)
 - [Stok değeri raporu depolama alanı](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)
 - [Master planlama ilerlemesi Gantt şeması](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/master-planning-progress-gantt-chart) - Daha fazla bilgi için bkz. [Master planlama çalışmasını izleme](../master-planning/tasks/monitor-master-planning-run.md) ve ayrıca [MRP performans ve kullanılabilirlik geliştirmeleri](https://www.microsoft.com/videoplayer/embed/RE4myrJ) videosu.
+- [Üretim alanı için yeni veri varlıkları](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [Giden sıralama](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/outbound-sorting)
 - [Paketleme ve depolama boyutları](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 - [Planlı siparişleri paralel kesinleştirme](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)- Daha fazla bilgi için bkz. [Kesinleştirmeyi paralel hale getirme](../master-planning/maintain-planned-orders.md#parallelize-firming) ve ayrıca [MRP performans ve kullanılabilirlik iyileştirmeleri](https://www.microsoft.com/videoplayer/embed/RE4myrJ) videosu.
 - [Dağıtım için planlamayı en iyi duruma getirme](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)- Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirmeye genel bakış](../master-planning/planning-optimization/planning-optimization-overview.md).
 - [Satınalma sözleşmesi geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements) -Daha fazla bilgi için bkz. [Satınalma sözleşmeleri](../procurement/purchase-agreements.md).
-- [Yerine koyma kümeleri](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters)
+- [Yerine koyma kümeleri](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters) - Daha fazla bilgi için, [yerine koyma](https://www.microsoft.com/videoplayer/embed/RE4f5aB) videosuna bakın.
 - [Duvara yerleştirme/Mağazaya yerleştirme](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-wallput-store)
 - [Alınanı istifleme](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
+- [Küçük Paket Sevkiyatı (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [Satıcı teklifi— satıcılardan gelen sorular ve özet yanıtlar](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
 - [Ambar yerleştirme](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [Dalga etiketi yazdırma geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [Dalga adım kodu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)
-
-<!-- - [Self-billing invoice control for procurement](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/self-billing-invoice-control-procurement)
-- [Self-billing invoice control for sales](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/self-billing-invoice-control-sales) -->
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcfc258e7fe364779fd77cc79413e8d5e871e214
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c6ba23af5f7eb517cc58994e54e918b2a305da17
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182704"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142192"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Elektronik raporlama (ER) model eşleme yapılandırmaları oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Yeni bir Elektronik raporlama (ER) modeli eşleme yapılandırması tasarlamak ve etkili toplam hesaplamalar için yerleşik ER işlevlerini kullanmak için bu yordamı kullanın. Bu yordamda, Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaksınız. 
 
 Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur.
 
-Bu adımlar herhangi bir veri kümesi kullanılarak tamamlanabilir. Bu adımları tamamlamak için ilk olarak "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir.
+Bu adımlar herhangi bir veri kümesi kullanılarak tamamlanabilir. Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir.
 
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
     * Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlayın.  

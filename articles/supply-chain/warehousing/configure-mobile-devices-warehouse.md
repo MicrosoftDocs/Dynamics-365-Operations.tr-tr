@@ -3,7 +3,7 @@ title: Ambar işi için mobil cihazları ayarlama
 description: Bu konuda, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl konfigüre edileceği açıklanmaktadır.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 04/18/2019
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df3968c01006d773300593b966a69b5283a889a2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813061"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161840"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Ambar işi için mobil cihazları ayarlama
 
@@ -95,11 +95,11 @@ Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş
 </tr>
 <tr>
 <td>Plaka teslim alma</td>
-<td>Plaka kodunu kullanarak gelen yükü alın.</td>
+<td>Plaka kodunu kullanarak gelen ön sevkiyat bildirimini (ÖSB) alın.</td>
 </tr>
 <tr>
 <td>Plaka alma ve yerine koyma</td>
-<td>Plaka kodunu kullanarak gelen yükü alın ve yerine koyun.</td>
+<td>Plaka kodunu kullanarak gelen ön sevkiyat bildirimini (ÖSB) alın ve yerine koyun.</td>
 </tr>
 <tr>
 <td>Yük maddesi teslim alma</td>
@@ -119,7 +119,7 @@ Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş
 <td>Belirli bir miktardaki madde girişini, RMA numarasını kaydederek kayda geçirin ve maddeleri yerine koyun. Aynı çalışan iki eylemi de gerçekleştirir.</td>
 </tr>
 <tr>
-<td rowspan="4">Transfer emri</td>
+<td rowspan="6">Transfer emri</td>
 <td>Transfer emri madde teslim alma</td>
 <td>Belirli bir miktardaki madde girişini kayda geçirin ve başka bir çalışan için yerine koyma işi oluşturun.
 
@@ -138,6 +138,14 @@ Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş
 <tr>
 <td>Transfer emri satırı teslim alma ve yerine koyma</td>
 <td>Belirli bir miktardaki madde girişini kayda geçirin ve maddeleri yerine koyun. Aynı çalışan iki eylemi de gerçekleştirir.</td>
+</tr>
+<tr>
+<td>Plaka teslim alma</td>
+<td>Plaka kodunu kullanarak gelen ön sevkiyat bildirimini (ÖSB) alın.</td>
+</tr>
+<tr>
+<td>Plaka alma ve yerine koyma</td>
+<td>Plaka kodunu kullanarak gelen ön sevkiyat bildirimini (ÖSB) alın ve yerine koyun.</td>
 </tr>
 <tr>
 <td rowspan="4">Üretim</td>

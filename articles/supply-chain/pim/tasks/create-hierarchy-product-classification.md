@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: faf43eb15283ffd7e36ad38728f166884dddcd85
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4ac87356f46edc118a592acd393823603815917a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844837"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150136"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Ürün sınıflandırması için hiyerarşi oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam yeni bir kategori hiyerarşisi oluşturmayı ve emtia kodu hiyerarşi türü atamayı gösterir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam kategori yöneticisi için hazırlanmıştır.
 

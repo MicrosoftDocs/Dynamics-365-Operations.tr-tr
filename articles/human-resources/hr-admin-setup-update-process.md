@@ -3,7 +3,7 @@ title: Güncelleştirme işlemi
 description: Microsoft Dynamics 365 Human Resources uygulama ve platform değişiklikleri için sürekli, temassız servis güncelleştirmeleri sağlayan gerçek bir hizmet olarak yazılımdır (SaaS).
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -16,14 +16,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 267682f4497bacf70f93840a948d0e525dfa4aa1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 424027e82717b8636d59289b28978d6ce3c6db4d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092213"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154517"
 ---
 # <a name="update-process"></a>Güncelleştirme işlemi
 
@@ -37,52 +37,39 @@ Güncelleştirmeler düzenli aralıklarla yayımlanır ve tüm ortamlar için ya
 
 İnsan Kaynakları güncelleştirmeler otomatik olarak tüm ortamlara uygulanır. İnsan Kaynakları iki tür sürüm sağlar:
 
-- **Hizmet güncelleştirmeleri**: Hata düzeltmeleri ve yeni özellikler içeren Haftalık Güncelleştirmeler. Hizmet güncelleştirmeleri, serbest bıraktıklarında uygun platform güncelleştirmelerini de içerir. Platform güncelleştirmelerinin ne zaman yayınlanacaklarını öğrenmek için [Tablo 3: Platform yayımları](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases)'na bakın. Haftalık Güncelleştirmeler genellikle çarşamba günleri yayınlanır. Haftalık güncellemeler hakkında daha fazla bilgi için bkz. [Dynamics 365 Human Resources'ta yenilikler veya değişiklikler](https://docs.microsoft.com/dynamics365/talent/whats-new).
+- **Hizmet güncelleştirmeleri**: Güncellemeler, hata düzeltmeleri ve yeni özellikler içererek iki haftada bir yapılır. Hizmet güncelleştirmeleri, serbest bıraktıklarında uygun platform güncelleştirmelerini de içerir. Platform güncelleştirmelerinin ne zaman yayınlanacaklarını öğrenmek için [Tablo 3: Platform yayımları](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases)'na bakın. İki Haftalık Güncelleştirmeler, bölgeler arasında aşamalı genel bir piyasaya sahiptir. İki Haftalık güncellemeler hakkında daha fazla bilgi için bkz. [Dynamics 365 Human Resources'ta yenilikler veya değişiklikler](hr-admin-whats-new.md).
 
-    Aksi belirtilmedikçe, tüm desteklenen veri merkezleri haftalık olarak güncelleştirilir. Haftalık Güncelleştirmeler tipik olarak Çarşamba günü başlar ve Pazar ile tamamlanmıştır. ABD, Avustralya, Avrupa, Birleşik Krallık, Asya ve Kanada bölgeleri haftalık güncelleştirmelere dahil edilmiştir. 
+    Aksi belirtilmedikçe, tüm desteklenen veri merkezleri iki haftalık olarak güncelleştirilir. ABD, Avustralya, Avrupa, Birleşik Krallık, Asya ve Kanada bölgeleri iki haftalık güncelleştirmelere dahil edilmiştir. 
 
-- **Common Data Service çözüm güncelleştirmeleri**: Bu güncelleştirmeler gerektiğinde yaklaşık altı haftada bir gerçekleşir. Bunlar yeni varlıkları ve Common Data Service'deki varolan varlıklara yapılan değişiklikleri içerir. Bu güncelleştirmeler haftalık güncelleştirmelerle aynı bölgeler için serbest çalışırlar ve tüm veri merkezleri arasında yineleme yapmak için altı hafta sürer. Çözüm güncelleştirmeleri haftalık hizmet güncelleştirmelerine göre hizalanmayabilir veya bunları hizalamayabilir.
-
-Aşağıdaki tabloda örnek bir zamanlama gösterilmektedir:
-
-| Hafta | Güncelleştirme türü |
-| --- | --- |
-| 1 | Hizmet güncelleştirmesi (tüm bölgeler) |
-| 2 | Hizmet güncelleştirmesi (tüm bölgeler) + çözüm Güncelleştirmesi (haftalık 1 bölge) |
-| 3 | Hizmet güncelleştirmesi (tüm bölgeler) + çözüm Güncelleştirmesi (haftalık 2 bölge) |
-| 4 | Hizmet güncelleştirmesi (tüm bölgeler) + çözüm Güncelleştirmesi (haftalık 3 bölge) |
-| 5 | Hizmet güncelleştirmesi (tüm bölgeler) + çözüm Güncelleştirmesi (haftalık 4 bölge) |
-| 6 | Hizmet güncelleştirmesi (tüm bölgeler) + çözüm Güncelleştirmesi (haftalık 5 bölge) |
-| 7 | Hizmet güncelleştirmesi (tüm bölgeler) + çözüm Güncelleştirmesi (haftalık 6 bölge) |
-| 8 | Hizmet güncelleştirmesi (tüm bölgeler) |
+- **Common Data Service çözüm güncelleştirmeleri**: Bu güncelleştirmeler gerektiğinde yaklaşık altı haftada bir gerçekleşir. Bunlar yeni varlıkları ve Common Data Service'deki varolan varlıklara yapılan değişiklikleri içerir. Bu güncelleştirmeler iki haftalık güncelleştirmelerle aynı bölgeler için serbest çalışırlar ve tüm veri merkezleri arasında yineleme yapmak için altı hafta sürer. Çözüm güncelleştirmeleri iki haftalık hizmet güncelleştirmelerine göre hizalanmayabilir veya bunları hizalamayabilir.
 
 > [!NOTE]
 > Çözüm güncelleştirmeleri, serbest bırakıldıktan sonra tüm veri merkezlerinde kullanılabilir. Güncelleştirmelerin otomatik olarak çoğaltılmasını beklemek istemezseniz, bu güncelleştirmeleri herhangi bir veri merkezindeki herhangi bir ortama el ile uygulayabilirsiniz.
 
 Gerektiğinde, İnsan Kaynakları aşağıdaki düzeltme türlerini de sağlar:
 
-- **Düzeltme (düzeltme)**: haftada bir hizmet güncelleştirme sürümü ile veya bu sürümden ayrı olarak oluşabilecek hata düzeltmeleri
+- **Düzeltme (düzeltme)**: İki haftada bir hizmet güncelleştirme sürümü ile veya bu sürümden ayrı olarak oluşabilecek hata düzeltmeleri
 
-- **Acil durum düzeltmesi**: tek başına yapıdaki proaktif ve reaktif düzeltmeler, canlı site sorunlarını gidermek için yalnızca konfigürasyon veya kod değişikliklerini içerebilir ve haftalık bir Servis Güncelleştirmesi sürümünden ayrı olarak oluşabilir
+- **Acil durum düzeltmesi**: tek başına yapıdaki proaktif ve reaktif düzeltmeler, canlı site sorunlarını gidermek için yalnızca konfigürasyon veya kod değişikliklerini içerebilir ve iki haftalık bir Servis Güncelleştirmesi sürümünden ayrı olarak oluşabilir
 
 Sürümler bir iç ortam üzerinde gözden geçirilip test edildiğini ve doğrulanmaktadır. Yapılar imzalandıktan sonra üretime dağıtılır.
 
-## <a name="exceptions-in-2019"></a>2019'daki istisnalar
+## <a name="release-cadence-exceptions-in-2020"></a>2020 içinde sürüm temposu özel durumları
 
 Aşağıdaki tarihler, normal serbest bırakma zamanlamasının özel durumlardır:
 
-| Tarih | Tanım |
+| Date | Tanım |
 | --- | --- |
-| 25 Kasım haftası | Güncelleştirme yok |
-| 16 Aralık haftası | Yalnızca küçük güncelleştirmeleri |
-| 23 Aralık haftası | Güncelleştirme yok |
-| 30 Aralık haftası | Güncelleştirme yok |
+| 23 Kasım haftası | Güncelleştirme yok |
+| 14 Aralık haftası | Yalnızca küçük güncelleştirmeleri |
+| 21 Aralık haftası | Güncelleştirme yok |
+| 28 Aralık haftası | Güncelleştirme yok |
 
 ## <a name="communications"></a>İletişim
 
 İnsan Kaynaklarıyla ilgili neler olduğunu ve aşağıdaki konumlarda yayımladığımız neleri öğrenebilirsiniz:
 
-- [Dynamics 365 Human Resources Yol haritası](https://dynamics.microsoft.com/roadmap/talent/)
+- [Dynamics 365 Human Resources Yol haritası](https://dynamics.microsoft.com/roadmap/human-resources/)
 
 - [Dynamics 365 sürüm planları](https://docs.microsoft.com/dynamics365/release-plans/)
 
@@ -114,7 +101,7 @@ Korumalı alan ortamının sağlanması hakkında daha fazla bilgi için, bkz. [
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-- [Dynamics 365 ve Power Platform sürüm planları](https://docs.microsoft.com/dynamics365/release-plans)
-- [Dynamics 365 Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)
-- [Yazılım yaşam döngüsü ilkesi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Dynamics 365 ve Power Platform sürüm planları](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Dynamics 365 Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
+[Yazılım yaşam döngüsü ilkesi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 

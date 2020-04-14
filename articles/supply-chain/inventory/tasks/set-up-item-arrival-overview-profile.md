@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1c6bcbb71f52e0ec5f979f8d79c896d10689a1b
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 55512c75445a5f3b9c1521376a20d48dd60e22c6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867252"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145537"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Madde varışı genel bakış profili ayarlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]]
 
 Bu konu bir varış genel bakış profili kurulumu üzerinde odaklanır. Varış genel bakış profili, varış genel bakışı kullanıcı tarafından açıldığında uygulanacak kurallar topluluğudur. Bu prosedürü USMF demo veri şirketinde kullanabilirsiniz. Bu yordam genel olarak bir teslim alma memuru tarafından yerine getirilir.
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbed62c80c14e7cfe96d38d43a5db39b0469d939
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184934"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142467"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturmak için biçimleri değiştirme
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordamdaki adımları tamamlamak için ilk önce "ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 3: Model ve eşlemeyi değiştir)" yordamını tamamlamalısınız.
 
@@ -96,7 +96,7 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Raporlama ayrıntılarını belleğe almak için biçimi değiştirin
 1. Biçimi modelle eşle'ye tıklayın.
-2. Yeni'ye tıklayın.
+2. Yeni'yi tıklatın.
 3. Tanım alanında, 'Uygulama veri güncelleştirmesi' kök maddesini girin veya seçin.
     * Uygulama için veri güncelleştirmesi  
 4. Ad alanına 'Veri güncelleştirmek için eşleme' yazın.

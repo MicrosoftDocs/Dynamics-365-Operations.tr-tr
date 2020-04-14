@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: dcc00bba4aa92ad089bcab83ee22f79c21ccc252
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042862"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141868"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Bu yordamdaki adımları tamamlamak için ilk önce "ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 4: Biçimi değiştir)" yordamını tamamlamalısınız.
+Bu yordamdaki adımları tamamlamak için ilk önce "ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 4 - Biçimi değiştir)" yordamını tamamlamalısınız.
 
 
 
@@ -49,7 +49,7 @@ Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne a
     'Numara sırası kodu' alanında, 'Fore_2' değerini girin ya da seçin.  
 
 5. Numara serisi kodunu ResolveChanges.
-6. Kaydet'e tıklayın.
+6. Kaydet'i tıklatın.
 7. Sayfayı kapatın.
 
 ## <a name="run-modified-er-format"></a>Değiştirilen ER biçimini çalıştırın

@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ac75d390b8bbb94c6e039b374b51462d348e355
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 001bdd61f9266798dadae2ac7c96a4f4c19dbb94
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057197"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141465"
 ---
 # <a name="create-and-associate-registers"></a> Kayıtlar oluşturma ve ilişkilendirme
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu yordam, bir satış noktası (POS) kaydının nasıl oluşturulacağını gösterir. Bu yordam, USRT demo verisi şirketini kullanır.
 

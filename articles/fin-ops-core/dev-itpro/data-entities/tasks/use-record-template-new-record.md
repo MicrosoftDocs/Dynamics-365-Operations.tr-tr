@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8e420e2bb47ae18e20d35731339b53f0f890b247
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 15b7386736a58048ff9d9bc6177c8384188c1b7b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184428"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142950"
 ---
 # <a name="use-record-template-to-create-a-new-record"></a>Yeni bir kayıt oluşturmak için kayıt şablonu kullanma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, yeni bir kayıt oluşturmak için önceden tanımlanmış bir şablonun nasıl kullanılacağını gösterir. Bu yordamı tamamlamak için öncelikle "Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma" yordamını tamamlamanız gerekir.
 

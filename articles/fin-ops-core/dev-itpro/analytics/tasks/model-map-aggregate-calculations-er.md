@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3084882dd4b51f067793b3a7999ce89cda1257d9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0912b620fc70f8ed33e336da9ecefacd1f4e376e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184612"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143189"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Veritabanı düzeyinde toplam hesaplamalar için model eşleme yapılandırmaları kullanma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam yeni bir Elektronik raporlama (ER) modeli eşleme yapılandırması tasarlama ve etkili toplam hesaplamalar için yerleşik ER işlevlerini kullanma hakkında bilgiler sağlar. Bu yordamda, Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaksınız. 
 
@@ -69,7 +69,7 @@ Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne a
     * Toplam türünü seçin.  
 27. Ad alanına 'SumOfAmountMST' yazın.
     * Yapılandırılan veri kaynağında bu toplamın adını belirtin.  
-28. Kaydet'e tıklayın.
+28. Kaydet'i tıklatın.
     * 'Yürütme konumu' alanının bu gruplandırmanın çalışma zamanında SQL veritabanında gerçekleştirileceğini belirttiğini unutmayın.  
 29. Sayfayı kapatın.
 30. Tamam'a tıklayın.
@@ -103,7 +103,7 @@ Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne a
 55. Bağla'ya tıklayın.
 56. Ağaçta 'TransactionsGroups' öğesini genişletin.
 57. Ağaçta 'TransactionsGroups' öğesini seçin.
-58. Düzenle öğesine tıklayın.
+58. Düzenle'ye tıklayın.
 59. Grubu buna göre düzenle'ye tıklatın.
     * Aynı alandaki her iki toplam da veri modeli öğelerine bağlı olduğundan 'Yürütme konumu' alanının bu gruplamanın çalışma zamanında bellekte gerçekleştirileceğini gösterdiğini unutmayın.   
 60. Listede, tüm satırları işaretleyin veya tüm satırların işaretlerini kaldırın.
@@ -114,6 +114,6 @@ Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne a
 65. Alanı buna ekle'yi tıklatın.
 66. Neler gruplanacak'ı tıklayın.
 67. Ağaçta 'Emtia kaydı(Intrastat)' öğesini seçin.
-68. Kaydet'e tıklayın.
+68. Kaydet'i tıklatın.
     * Tanımlanan toplamlar olmamasına ve 'Tablo kayıtları' türündeki seçilen veri kaynağı aynı 'Intrastat' tablosuna başvuruda bulunmasına rağmen 'Yürütme konumu' alanı bu gruplamanın çalışma zamanında bellekte gerçekleştirileceğini gösterir. Bunun nedeni, veri kaynağının henüz SQL veritabanı düzeyine çevrilmemiş olan bazı hesaplanmış alanlar içermesidir.  
 

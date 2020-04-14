@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 05abad6898c2b97cf66abdff21b30407dacd6488
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180360"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141799"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Teminat mektubu hareketi
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yöntem Teminat Mektubu sürecini anlatmaktadır.
 

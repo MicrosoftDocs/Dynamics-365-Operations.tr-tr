@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b616998738d6b6986f157d136fc56e061900ef41
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 501936734b6ec970062d0d2cbcc8a3cdc11b934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550544"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142375"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 1 - Biçimi tasarlama)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, gerekli sütunların yatay olarak genişletilebilir aralıklar şeklinde oluşturulabileceği OPENXML çalışma sayfası (Excel) dosyaları şeklinde raporlar oluşturmak amacıyla bir Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini açıklar. Bu adımlar tüm şirketlerde gerçekleştirilebilir.
 
@@ -33,9 +33,9 @@ Bu adımları tamamlamak için önce bu üç görev kılavuzunu tamamlamalısın
 
 "ER Konfigürasyon sağlayıcısı oluşturma ve etkin olarak işaretleme"
 
-"ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1: Veri modeli tasarlama)"
+"ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1 - Veri modeli tasarlama)"
 
-"ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2: Model eşleme)"
+"ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2 - Model eşleme)"
 
 Ayrıca [Örnek Finansal Boyutlar Web Hizmeti Raporu](https://go.microsoft.com/fwlink/?linkid=862266)'nda bir örnek raporla birlikte şablonu indirmeniz ve yerel bir kopyasını oluşturmanız gerekir.
 
@@ -56,13 +56,13 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 8. Konfigürasyon oluştur'u tıklatın.
 
 ## <a name="design-the-report-format"></a>Rapor biçimini tasarlama
-1. Tasarımcı'yı tıklatın.
+1. Tasarımcı'ya tıklayın.
 2. "Ayrıntıları göster" geçiş düğmesini açın.
 3. Eylem Bölmesinde, İçeri Al'a tıklayın.
 4. Excel'den içe aktar'a tıklayın.
 5. Ekler'e tıklayın.
     * Raporun şablonunu içe aktarın. Bunun için indirdiğiniz Excel dosyasını kullanın.  
-6. Yeni'ye tıklayın.
+6. Yeni'yi tıklatın.
 7. Dosya'ya tıklayın.
 8. Sayfayı kapatın.
 9. Şablon alanına bir değer girin veya seçin.

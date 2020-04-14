@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c12f0842f6e8edf3b51d12d0e008eb09acf8c374
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 593ab5b45cc0c2e1a8b876aa89de014fd9df1a13
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180285"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137958"
 ---
 # <a name="close-the-fiscal-year"></a>Mali yılı kapatma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, bakiyeleri yeni bir mali yıla aktaran yıl sonu kapanış işlemini adım adım açıklar.
 

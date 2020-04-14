@@ -3,7 +3,7 @@ title: Elektronik raporlama (ER) genişletilmiş biçim araması
 description: Bu konu, gerekli biçim Global havuzda depolandığı zaman, ER biçim aramasında bir ER biçim başvurusunun nasıl ayarlanacağını açıklamaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/24/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c72335d7d83934146f827ef0bb568b79a585a7a5
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015426"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138872"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Kullanıcıların, Global havuzdan bir biçim sorgulayan ER biçimi başvurusu ayarlamalarına izin verme
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 giden belgelerin [biçimlerini](general-electronic-reporting.md#FormatComponentOutbound) çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmak için [Elektronik raporlama](general-electronic-reporting.md) (ER) çerçevesini kullanabilirsiniz. Ayrıca, giden belgelerin ayrıştırılması için [biçimleri](general-electronic-reporting.md#FormatComponentInbound) yapılandırmak ve uygulama verilerini eklemek ya da güncelleştirmek için bu belgelerdeki bilgileri kullanmak için de ER çerçevesini kullanabilirsiniz. Bu biçimlerin her biri, Dynamics 365 Finance kurulumunuzda, belirli bir iş sürecinin parçası olarak gelen veya giden iş belgelerini işlemek için kullanılabilir. 
 

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d05020c5b83137d977d7260e269cb7d8c219406
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8f81f0f86c255d048393047965c0aa29cbef09d0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184796"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143090"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Katıştırılmış resimlere sahip Office biçiminde rapor oluşturmak için yapılandırmaları gözden geçirme
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Bu adımları tamamlamak için öncelikle "ER Katıştırılmış resimler barındıran MS Office biçimlerinde raporlar hazırla (Bölüm 1: Parametrelerin kurulumu)" görev kılavuzundaki adımları tamamlayın.
+Bu adımları tamamlamak için öncelikle "ER Katıştırılmış resimler barındıran MS Office biçimlerinde raporlar hazırla (Bölüm 1 - Parametrelerin kurulumu)" görev kılavuzundaki adımları tamamlayın.
 
 Bu yordam, Microsoft Excel ve Microsoft Word'te katıştırılmış resimler içeren elektronik belgelerin Elektronik raporlama (ER) yapılandırmalarının nasıl tasarlanacağını gösterir. Bu örnekte, 'Litware, Inc.' örnek şirketi için ER yapılandırmalarını gözden geçireceksiniz. 
 
@@ -73,7 +73,7 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
 ## <a name="review-the-imported-format"></a>İçe aktarılan biçimi gözden geçirin.
 1. Ağaçta, 'Çekler için model' öğesini genişletin.
 2. Ağaçta 'Çekler için model\Çek yazdırma biçimi' seçin.
-3. Tasarımcı'yı tıklatın.
+3. Tasarımcı'ya tıklayın.
 4. Ekler'e tıklayın.
 5. Aç'a tıklayın.
     * Eklenen raporun şablonunu Excel'de açın.  

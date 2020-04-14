@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0abbce32e2fabe860077502875b92f93ea0ea95c
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 488fb1bea2d2ae06c92c20afdd98735928eee3b8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867089"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147308"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Tekrar eden satınalma siparişi oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu konu önceki satınalma siparişi belgesinden yeni bir PO veya mevcut PO'ya satırları kopyalayarak tekrar eden bir satınalma siparişinin (PO) nasıl oluşturulacağını gösterir. Tekrar eden siparişleri oluşturmak için iki yöntem vardır. Eylem Bölmesi'nden belge düzeyindeki kullanılabilir eylemleri kullanabilir veya satır ayrıntısı eylemlerini kullanabilirsiniz. Satır ayrıntıları eylemi temel olarak mevcut siparişe satır eklerken, belge düzeyi eylemleri satır ekleyerek yeni bir satınalma siparişi oluşturmak için tasarlanmıştır. Bu kılavuzda gösterilen örnek, demo veriler şirketi USMF'de kullanılabilir. Bu görev genellikle bir satınalma temsilcisi tarafından gerçekleştirilir.
 

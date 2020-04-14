@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26a3dee8b73ae710def7e526ceefa7194171d716
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a261acee47c6d52e3a1390d0e55cb3f9d197efec
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182681"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142278"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Gelen belgeleri ayrıştırmak için ER yapılandırmaları tasarlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Bu yordam gelen elektronik belgeyi ayrıştırmak için Elektronik raporlama (ER) yapılandırmalarının nasıl kullanılacağını açıklar. Bu yordamda, örnek şirket Litware, Inc. için oluşturulan gerekli ER yapılandırmalarını içe aktaracak ve bunları gelen elektronik belgeleri ayrıştırmak için kullanacaksınız. Bu yordamdaki adımları tamamlamak için, ilk olarak "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir.
+Bu yordam gelen elektronik belgeyi ayrıştırmak için Elektronik raporlama (ER) yapılandırmalarının nasıl kullanılacağını açıklar. Bu yordamda, örnek şirket Litware, Inc. için oluşturulan gerekli ER yapılandırmalarını içe aktaracak ve bunları gelen elektronik belgeleri ayrıştırmak için kullanacaksınız. Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir.
 
 Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. 
 
@@ -67,7 +67,7 @@ Gelen dosyada ayrıntıları saklamak için tasarlanan örnek veri modelini içe
     * Yukarıda belirtilenden farklı olan yanıt türlerini tanımak üzere iç içe geçmiş METİN öğesine sahip üçüncü DOSYA öğesi eklenmiştir.   
 18. Biçimi modelle eşle'ye tıklayın.
     * Bu model eşleme, ayrıştırılan gelen belgenin ayrıntılarını veri modeli öğelerini kullanarak saklamak için veri akışı tanımı içerir.  
-19. Tasarımcı'yı tıklatın.
+19. Tasarımcı'ya tıklayın.
 20. Ağaçta, 'biçim' metnini genişletin.
 21. Ağaçta, 'biçim\Yanıtlar: Servis Talebi(Yanıtlar)' öğesini genişletin.
     * 'Biçim' veri kaynağının yapısını gözden geçirin. Üç yanıt türürünün de ayrı ayrı sunulduğunu unutmayın.   
@@ -81,12 +81,12 @@ Gelen dosyada ayrıntıları saklamak için tasarlanan örnek veri modelini içe
 ## <a name="run-model-mapping-of-er-format-configured-for-parsing-incoming-files"></a>Gelen dosyaları ayrıştırmak için yapılandırılan ER biçimi model eşlemesini çalıştırma
 Yapılandırılan ER biçiminin gelen hizmet yanıtlarını nasıl ayrıştıracağını görmek üzere test amacıyla oluşturulan model eşlemesini çalıştıracaksınız. Bu adım, farklı web hizmeti yanıtı türlerini simüle etmek için farklı XML dosyaları kullanır.   
 1. Response1.xml dosyasını web tarayıcısı gibi bir xml okuyucuda açın. Bu dosyanın tamamlanan hareketle ilgili onay ayrıntılarını içerdiğini (‘TraC’ kök öğesidir) unutmayın.   
-2. Çalıştır öğesine tıklayın.
+2. Çalıştır'a tıklayın.
     * Gözat'a tıklayın ve Response1.xml dosyasını seçin.  
 3. Tamam'a tıklayın.
     * Ortaya çıkan sonucu inceleyin. Yanıt türünün doğru şekilde tanındığını ve ayrıştırıldığını unutmayın (ERModelEnumDataSourceHandler#EFSTA model#enumType#C hareket tamamlanma durumu anlamına gelir).   
     * Response2.xml dosyasını bir XML okuyucuda açın. Bu dosyanın gönderilen son hareketle ilgili bilgileri içerdiğini (‘Tra’ kök öğesidir) unutmayın.   
-4. Çalıştır öğesine tıklayın.
+4. Çalıştır'a tıklayın.
     * Gözat'a tıklayın ve Response2.xml dosyasını seçin.  
 5. Tamam'a tıklayın.
     * Ortaya çıkan sonucu inceleyin. Yanıt türünün doğru şekilde tanındığını ve ayrıştırıldığını unutmayın (ERModelEnumDataSourceHandler#EFSTA model#enumType#R sistem yeniden başlama durumu anlamına gelir).   
@@ -96,7 +96,7 @@ Yapılandırılan ER biçiminin gelen hizmet yanıtlarını nasıl ayrıştırac
 7. Tamam'a tıklayın.
     * Ortaya çıkan sonucu inceleyin. Yanıt türünün desteklenmeyen olarak doğru şekilde tanındığını unutmayın (ERModelEnumDataSourceHandler#EFSTA model#enumType#U). İlgili ileti Bilgi günlüğne yerleştirilmiştir (ER doğrulama ayarına göre) ve veri modelinin çoğu kısmı doldurulmuştur.   
     * Response4.xml dosyasını bir XML okuyucuda açın. Bu dosyanın yapısının başarılı şekilde ayrıştırılan Response1.xml dosyası ile neredeyse aynı olduğuna dikkat edin. ‘TraC’ kök öğesinin iç içe geçmiş öğelerinin sırası dışında bir farklılık yoktur.   
-8. Çalıştır öğesine tıklayın.
+8. Çalıştır'a tıklayın.
     * Gözat'a tıklayın ve Response4.xml dosyasını seçin.  
 9. Tamam'a tıklayın.
     * Ortaya çıkan sonucu inceleyin. Yanıt türünün desteklenmeyen olarak doğru şekilde tanındığını unutmayın (ERModelEnumDataSourceHandler#EFSTA model#enumType#U)). İlgili ileti Bilgi günlüğne yerleştirilmiştir ve veri modelinin çoğu kısmı doldurulmuştur. Bu nedenle, ER biçiminin geçerli ayarı gelen dosyanın kök öğesindeki iç içe geçmiş öğelerin belirli bir sırası olduğunu kabul eder.   

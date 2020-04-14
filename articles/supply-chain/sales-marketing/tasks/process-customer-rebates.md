@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3a6678b09ce4011b7f80d40979209cc2f588df8
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 73bc22949d0b19fa04bf27e6fd7df7b27832795b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994946"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148596"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Müşteri indirimlerini oluşturma ve işleme
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu prosedür, müşteri indirimlerinin talep oluşturulmasından, alacak hesaplarına tahakkuk edilmesi noktasına kadar nasıl işleneceğini göstermektedir. Belirli bir örnek üzerinden, indirim satırlarındaki çeşitli şartların müşteriye alacak olarak kaydedilecek son tutarları nasıl etkilediğini adım adım gösterecektir. USMF demo verileri şirketini kullanmalısınız ve Rehber başlamadan önce aşağıdaki görevleri gerçekleştirmiş olmanız gerekir: (1) Alacak hesapları parametreleri sayfasına gidin ve Fiyatlar öğesi ve sonra Fiyat yyrıntılar öğesini açın ve Fiyat ayrıntılarını etkinleştir seçeneğinin Evet olarak ayarlanmış olduğundan emin olun. (2) İndirim anlaşmaları sayfasına gidin ve müşteri indirim anlaşması USMF-000001'i seçin. Eğer İş akışı onay durumu alanı Onaylandı olarak ayarlanmamışsa, onaylamak için Eylem Bölmesinde Doğrulama seçeneğine tıklamanız gereklidir.
 

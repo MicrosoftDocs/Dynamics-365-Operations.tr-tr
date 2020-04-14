@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
-ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
+ms.openlocfilehash: e8210369139b3c3d4123deff5279abb26b1cbb17
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "2559201"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145974"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Minimum-maksimum stok yenileme işlemini ayarlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok yenileme işlemini nasıl ayarlayacağınızı gösterir. Stok minimum düzeyin altına düştüğünde, konumun yenilenmesi için iş oluşturulur. Bu yordam ayrıca sabit çekme konumlarının, stok belirli bir seviyenin altına düşse bile yeniden nasıl stoklanacağını ve bir toplu iş kullanarak stok yenileme işleminin düzenli aralıklarla nasıl çalıştırılacağını göstermektedir. Bu görevler genellikle ambar Yöneticisi tarafından yerine getirilir. Bu yordamı, aşağıdaki örnek değerleri USMF demo veri şirketini kullanarak ya da kendi verileriniz ile çalıştırabilirsiniz. Kendi verilerinizi kullanıyorsanız, Ambar yönetim işlemleri için etkin bir ambara sahip olduğunuzdan emin olun.
 

@@ -70,6 +70,8 @@
                   items:
                     - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management sürüm 10.0.10 (Mayıs 2020)
+                      href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Management sürüm 10.0.9 (Nisan 2020)
                       href: get-started/whats-new-scm-10-0-9.md
                     - name: Supply Chain Management sürüm 10.0.8 (Şubat 2020)

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbef5410d0e6f15fbb5025f3831486d55cd06216
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e0fabf5c9475b5acd7cbd77a51c2912c96681894
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185072"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142651"
 ---
 # <a name="er-configure-destinations"></a>ER Hedefleri yapılandırma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordamda bir klasör veya bir dosya gibi Elektronik raporlama (ER) çıkış bileşenleri için farklı hedeflerin nasıl ayarlanacağı ve kullanılacağı gösterilmiştir. Bu yordamı oluşturmak için kullanılan demo veri şirketi DEMF'dir. Almanya, tüzel kişiliğin ana adresinin bulunduğu ülke\bölgedir, ancak bu yordam için herhangi bir tüzel kişilik kullanabilirsiniz. 
 

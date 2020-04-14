@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 28f47f8cebca6c7249e0596c53f3589dc6541e26
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 50f906d62ad6f1e0b79c9c1bb6fcd373ba350c98
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112533"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172610"
 ---
 # <a name="access-to-finance-and-tax-reference-data"></a>Finans ve vergi referans verilerine erişim
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
 
 Her işletme mali takvim yılı, işletmenin işlemlerini gerçekleştirdiği para birimi, işletmenin çalışması sırasında giren ve giden paranın bulunduğu hesaplar, vergi oranları ve havale gibi temel bir mali veri kümesiyle çalışır. Bu veriler Finance and Operations uygulamalarında bulunur. Ancak, Microsoft Dynamics 365'deki model temelli uygulamaların finans ve vergi verileri için tek bir kaynağı olabilmesi için Common Data Service'a sunulur. Böylece, veriler işletme ekosistemi içinde aynı şekilde yer alır. 
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48a327fc5033a7478d2ae5e401ffdce6e4546ad0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042885"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143327"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Harici bir dosyadan veri almak için gerekli olan yapılandırmaları oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan uygulamaya verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar. Bu örnekte bir örnek şirket olan Litware, Inc. için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımları tamamlamak için önce "ER Bir yapılandırma sağlayıcısı oluştur ve bunu etkin olarak işaretle" Görev kılavuzundaki adımları tamamlamanız gerekir. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Ayrıca, Elektronik raporlamaya genel bakış konusundan (https://go.microsoft.com/fwlink/?linkid=852550): bağlantıları kullanarak şu dosyaları yerel olarak indirmeniz ve kaydetmeniz gerekir: 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
@@ -51,7 +51,7 @@ Aşağıdaki senaryo ER veri içeri aktarma yeteneklerini gösterir. Bu, harici 
 6. Ağaçta, "1099 Ödemeleri modeli" öğesini seçin.
 
 ## <a name="review-data-model-settings"></a>Veri modeli ayarlarını gözden geçirme
-1. Tasarımcı'yı tıklatın.
+1. Tasarımcı'ya tıklayın.
 
     Bu model, satıcıların hareketlerini iş açısından göstermek için tasarlanmıştır ve uygulamadan bağımsızdır.   
 
@@ -235,7 +235,7 @@ Test amacıyla bu biçim eşlemesini yürütün. Daha önce indirdiğiniz 1099en
 17. Kaydet'e tıklayın.
 18. Sayfayı kapatın.
 19. Sayfayı kapatın.
-20. Düzenle öğesine tıklayın.
+20. Düzenle'ye tıklayın.
 
     "KB 4012871 Ayrı yapılandırmalarda GER model eşlemeleri desteği ve bunları farklı Dynamics 365 Finance sürümlerinde dağıtmak için farklı önkoşulları belirleyebilme" düzeltmesini yüklediyseniz, (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ) girilen biçim yapılandırması için, bir sonraki adımı ("Model eşleme varsayılanı" bayrağını açma) yürütün. Aksi durumda, bir sonraki adımı atlayın.  
 

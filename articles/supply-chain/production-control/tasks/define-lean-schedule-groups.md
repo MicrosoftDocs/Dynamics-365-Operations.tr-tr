@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0cb17c68abbc4979a65e33c50450be575df3d93
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b972327a0a4bf8f5f35340b83236d5053aaa7e40
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836276"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146825"
 ---
 # <a name="define-lean-schedule-groups"></a>Yalın planlama gruplarını tanımlama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Yalın planlama grupları, ürünleri kanban planlamada gruplamak ve ayırt etmek için tanımlanır. Gruplandırma, şirket başına genel bir ilişkilendirmeyle veya belirli bir iş hücresine özgü olarak yapılabilir. Kanban planlama liste sayfasında görsel bir gösterge olması amacıyla her grup için atanmış bir renk kodu vardır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

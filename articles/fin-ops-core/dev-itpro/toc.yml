@@ -162,24 +162,52 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Lifecycle Services'dan çift yazma kurulumu
                               href: data-entities/dual-write/lcs-setup.md
+                            - name: Başlangıç eşitlemesi
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Mevcut Finance and Operations uygulamaları için çift yazmayı etkinleştirme
+                              items:
+                                - name: Mevcut Finance and Operations uygulamaları için çift yazmayı etkinleştirme
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: Sistem gereksinimleri ve önkoşullar
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: Ortamlarınızı bağlamak için çift yazma sihirbazını kullanma
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: Çift yazma için varlık eşlemeyi etkinleştirme
+                                  href: data-entities/dual-write/enable-entity-map.md
+                        - name: Çift yazmayı yönetme
+                          items:
+                            - name: Varlık ve alan eşlemelerini özelleştirme
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: Hata yönetimi ve uyarı bildirimleri
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: Uygulama yaşam döngüsü yönetimi
+                              href: data-entities/dual-write/app-lifecycle-management.md
                         - name: Uygulamalar arasında kavramları eşleme
                           items:
-                            - name: Common Data Service'ta kuruluş hiyerarşisi
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Şirket tümleştirmesi
-                              items:
-                                - name: Common Data Services'ta şirket kavramı
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Şirket verileriyle önyükleme
-                                  href: data-entities/dual-write/bootstrap-company-data.md
                             - name: Tümleşik müşteri aslı
                               href: data-entities/dual-write/customer-mapping.md
+                            - name: Satıcı tümleştirmesi
+                              items:
+                                - name: Tümleşik satıcı aslı
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Satıcı tasarımları arasında geçiş yapma
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Müşteri bağlılık programı kartları ve ödül puanları
+                              href: data-entities/dual-write/loyalty-mapping.md
                             - name: Ürün tümleştirmesi
                               items:
                                 - name: Birleşik ürün deneyimi
                                   href: data-entities/dual-write/product-mapping.md
                                 - name: Tümleşik tesisler ve ambarlar
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Şirket tümleştirmesi
+                              items:
+                                - name: Common Data Services'ta şirket kavramı
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Şirket verileriyle önyükleme
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Common Data Service'ta kuruluş hiyerarşisi
+                              href: data-entities/dual-write/organization-mapping.md
                             - name: Finans ve vergi verileri
                               items:
                                 - name: Finans ve vergi referans verilerine erişim
@@ -188,12 +216,8 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Tümleşik vergi aslı
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Satıcı tümleştirmesi
-                              items:
-                                - name: Tümleşik satıcı aslı
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Satıcı tasarımları arasında geçiş yapma
-                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: İstek üzerine Dynamics 365 Supply Chain Management fiyatlandırma altyapısıyla eşitleme
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: Çift yazmada aday müşteriden nakde
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: Servis gerçekleştirilecek şirket içi varlıklar
@@ -204,11 +228,25 @@
                           items:
                             - name: Field Service çözümleri ve Project Service Automation çözümleri için destek
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Başlangıç eşitlemesi
-                              href: data-entities/dual-write/initial-sync.md
-                            - name: Veri tümleştirme sorunlarını giderme
-                              href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Power Platform Veri Tümleştirici ile tümleştirme
+                            - name: Sorun Giderme
+                              items:
+                                - name: Çift yazmanın Finance and Operations uygulamalarında ve Common Data Service'ta yapılandırıldığını denetleme
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: Başlangıç kurulumu sırasında sorunları giderme
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: Başlangıç eşitlemesi sırasında sorunları giderme
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: Finance and Operations uygulamalarında Çift yazma modülüyle ilgili sorunları giderme
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: Canlı eşitleme sorunlarını giderme
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: Çözüm farkındalığıyla ilgili sorunları giderme
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: Finance and Operations uygulamaları yükseltmeleriyle ilgili sorunları giderme
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: Genel sorun giderme
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Power Platform ile tümleştirme
                       items:
                         - name: Aday müşteriden nakde senaryosu yapılandırma
                           items:
@@ -392,7 +430,9 @@
                       href: database/api/v1/reference-list-backups.md
                     - name: Veritabanı yenilemesi oluşturma
                       href: database/api/v1/reference-create-refresh.md
-                    - name: Operasyon faaliyeti durumunu alma
+                    - name: Ver tabanı dışa aktarması oluşturma
+                      href: database/api/v1/reference-create-export.md
+                    - name: İşlem faaliyeti durumunu alma
                       href: database/api/v1/reference-get-status.md
         - name: Tanıtım verileri
           items:
@@ -1032,9 +1072,11 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: İzleme ve tanılama
               href: lifecycle-services/monitoring-diagnostics.md
+            - name: Etki analizi raporu
+              href: lifecycle-services/impact-analysis-report.md
             - name: Ortam hizmetlerini yeniden başlatma
               href: lifecycle-services/restart-environment-services.md
-            - name: Üretim kesintisini raporlama
+            - name: Üretim kesintisi raporlama
               href: lifecycle-services/report-production-outage.md
             - name: Kullanıcı oturum açma bilgilerini izleme
               href: lifecycle-services/user-logins.md
@@ -1394,8 +1436,12 @@
                   href: sysadmin/optimization-advisor-overview.md
                 - name: En iyi duruma getirme danışmanı için kurallar oluşturma
                   href: sysadmin/create-rules-optimization-advisor.md
-            - name: Üretim kesintisini raporlama
+            - name: Üretim kesintisi raporlama
               href: lifecycle-services/report-production-outage.md
+            - name: Veritabanı günlüğü yapılandırma ve yönetme
+              href: sysadmin/configure-manage-database-log.md
+            - name: AOS başladığında OData meta veri önbelleği oluşturma
+              href: sysadmin/odata-warmup.md
         - name: 'Yükseltmeler, güncelleştirmeler ve düzeltmeler'
           items:
             - name: 'Yükseltmeler, güncelleştirmeler ve düzeltmelerle ilgili kaynaklar'

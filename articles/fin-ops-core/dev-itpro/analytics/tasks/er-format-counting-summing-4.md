@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0a80e5b1a79c874ce0a8d24c85be71d0dc5c9c8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b89d08d8f6a4223eb592ffa2b918504839e5287b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550568"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142421"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 4 - Biçimi çalıştırma)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının bir Elektronik raporlama (ER) biçimini zaten oluşturulmuş metin çıktısının verilerine bağlı olarak nasıl sayacağını ve toplayacağını açıklar. Bu adımlar DEMF şirketinde gerçekleştirilebilir.
 
@@ -51,7 +51,7 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 14. Elektronik raporlama bölümünü genişletin.
 15. “Sayım ve toplama ile Intrastat (DE)” yapılandırmasını seçin.
 16. “Sayım ve toplama ile Intrastat (DE)” yapılandırmasını seçin.
-17. Kaydet'e tıklayın.
+17. Kaydet'i tıklatın.
 18. Sayfayı kapatın.
 19. Vergi > Bildirimler > Dış ticaret > Intrastat öğesine gidin.
 20. Çıkış düğmesine tıklayın.
