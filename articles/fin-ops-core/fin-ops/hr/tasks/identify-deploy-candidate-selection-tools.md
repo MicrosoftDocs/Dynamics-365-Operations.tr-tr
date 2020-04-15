@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51200a67a51097c438370866cb9d0ccbebe8392c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190385"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143961"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Aday seçim araçlarını tanımlama ve dağıtma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Boş konumları doldurmak için kalifiye aday havuzu bulmak, özellikle de konum benzersiz beceri grubu gerektirdiğinde zor olabilir.  Ancak, gereksinim duyduğunuz becerilere sahip adaylar zaten kuruluşunuzda çalışıyor olabilir. Mevcut çalışanlar veya yeni başvuranlar arasında belirli bir yetenek kümesi arayabilirsiniz. Bu, işverene açık bir konum için geçmişte veya yeni başvuru yapanları hızlı şekilde toplama ve eleme ya da mevcut çalışan havuzundan olası adayları bulma olanağı sağlar. Yetenek eşleme işlevinin açık bir konum için doğru kişiyi bulmanıza nasıl yardımcı olacağını öğrenmek üzere bu görev kaydını kullanın. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

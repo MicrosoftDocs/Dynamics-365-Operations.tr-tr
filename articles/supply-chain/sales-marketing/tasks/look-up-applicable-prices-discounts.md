@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 1ded87dcd553c0aa9c19ca273460f9adf0a4b542
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025840"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148642"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Uygulanabilir fiyatları ve iskontoları arama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, bir satış siparişi oluşturmak zorunda kalmadan belirli bir müşteri için geçerli olan ürün fiyat ve iskonto bulmayı gösterir. Bu yordam belirli bir örneği adım adım izler ve örneği takip ederken gerekli değerleri seçebilmek için USMF demo şirketini kullanmanız gereklidir.
 

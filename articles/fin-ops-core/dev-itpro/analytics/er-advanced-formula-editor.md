@@ -3,7 +3,7 @@ title: Elektronik raporlama gelişmiş formül düzenleyicisi
 description: Bu konu, Elektronik raporlama (ER) model eşlemesi ve biçim bileşenlerinde ifade yapılandırmak için, gelişmiş formül düzenleyicinin nasıl kullanılabileceğini açıklamaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/22/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d183f77da1dda0c4f04e4e48ab3db0133f494a55
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015423"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138910"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektronik raporlama gelişmiş formül düzenleyicisi
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 [Elektronik raporlama](general-electronic-reporting.md) [formül düzenleyicisine](general-electronic-reporting-formula-designer.md) ek olarak, Elektronik raporlama (ER) ifadelerini yapılandırma deneyimini geliştirmek için gelişmiş Elektronik raporlama formül düzenleyicisini de kullanabilirsiniz. Gelişmiş düzenleyici, [Monaco editor](https://microsoft.github.io/monaco-editor) tarafından sunulan, tarayıcı tabanlı ve güçlü bir düzenleyicidir. En sık kullanılan gelişmiş düzenleyici özellikleri bu konuda açıklanmaktadır:
 
@@ -42,7 +40,7 @@ ms.locfileid: "3015423"
 - [Veri yapıştırma](#DataPasting)
 - [Sözdizimi renklendirme](#SyntaxColorization)
 
-## <a name="ActivateAdvEditor">Gelişmiş formül düzenleyicisini etkinleştirme</a>
+## <a name=""></a><a name="ActivateAdvEditor">Gelişmiş formül düzenleyicisini etkinleştirme</a>
 
 Microsoft Dynamics 365 Finance kurulumunuzda gelişmiş formül düzenleyicisini kullanmaya başlamak için aşağıdaki adımları tamamlayın.
 
@@ -55,7 +53,7 @@ Microsoft Dynamics 365 Finance kurulumunuzda gelişmiş formül düzenleyicisini
 > [!NOTE]
 > Bu parametrenin kullanıcıya özel ve şirkete özel olduğuna dikkat edin.
 
-## <a name="Autoformatting">Kodu otomatik biçimlendirme</a>
+## <a name=""></a><a name="Autoformatting">Kodu otomatik biçimlendirme</a>
 
 Birden fazla kod satırı içeren karmaşık bir ifade yazdığınız zaman, yeni bir girilen satırın girintilemesi önceki satırın girintilemesine göre otomatik olarak yapılır. Satırları seçip girintilemelerini **Sekme**'ye veya **Üst Krkt+Sekme** tuşlarına basarak değiştirebilirsiniz.
 
@@ -63,13 +61,13 @@ Birden fazla kod satırı içeren karmaşık bir ifade yazdığınız zaman, yen
 
 Otomatik biçimlendirme, bakımı ve yapılandırılan mantığın anlaşılmasını kolaylaştırmak için tüm ifadeyi iyi biçimlendirilmiş durumda tutmanıza olanak sağlar.
 
-## <a name="IntelliSense">IntelliSense</a>
+## <a name=""></a><a name="IntelliSense">IntelliSense</a>
 
 Düzenleyici, ifadeyi daha hızlı yazmanıza ve yazım hatalarını önlemenize yardımcı olmak için sözcük tamamlama sağlar. Yeni metin eklemeye başladığınızda, düzenleyici, girdiğiniz karakterleri içeren ER işlevlerinde desteklenen işlevlerin bir listesini otomatik olarak sunar. Yapılandırılmış bir ifadenin herhangi bir yerinde **Ctrl + Boşluk** tuşlarına basarak IntelliSense'i de tetikleyebilirsiniz.
 
 [![ER formül düzenleyicisi](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
-## <a name="CodeCompletion">Kod tamamlama</a>
+## <a name=""></a><a name="CodeCompletion">Kod tamamlama</a>
 
 Düzenleyici aşağıdaki eylemlerle kodun otomatik olarak tamamlanmasını sağlar:
 
@@ -81,7 +79,7 @@ Düzenleyici aşağıdaki eylemlerle kodun otomatik olarak tamamlanmasını sağ
 
 Yazılan ayracın üzerine geldiğinizde, bu çiftin ikinci ayracı, destekledikleri yapıyı gösterecek şekilde otomatik olarak vurgulanır.
 
-## <a name="CodeNavigation">Kod gezintisi</a>
+## <a name=""></a><a name="CodeNavigation">Kod gezintisi</a>
 
 Komut paletini veya bağlam menüsünü kullanıp **Go to** komutunu yazarak ifadenizde gerekli sembolleri veya çizgileri bulabilirsiniz.
 
@@ -95,7 +93,7 @@ Komut paletini veya bağlam menüsünü kullanıp **Go to** komutunu yazarak ifa
 
 [![ER formül düzenleyicisi](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
-## <a name="CodeStructuring">Kod yapılandırma</a>
+## <a name=""></a><a name="CodeStructuring">Kod yapılandırma</a>
 
 [IF](er-functions-logical-if.md) veya [CASE](er-functions-logical-case.md) gibi bazı işlevlerin kodu otomatik olarak yapılandırılır. Yalnızca ilgilenmeniz gereken kod parçasına odaklanmak için, bir ifadenin düzenlenebilen kısmını küçültmek üzere bu kodun katlama bölgelerini genişletebilir veya daraltabilirsiniz. Bunun için katla/aç geçişi kullanılabilir.
 
@@ -117,7 +115,7 @@ Tüm bölgeleri açmak için aşağıdakileri yapın:
 
 [![ER formül düzenleyicisi](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
-## <a name="FindAndReplace">Bul ve değiştir</a>
+## <a name=""></a><a name="FindAndReplace">Bul ve değiştir</a>
 
 Belirli bir metnin yinelemelerini bulmak için, ifadenizde metni seçin ve aşağıdakileri yapın:
 
@@ -145,13 +143,13 @@ Belirli bir metnin tüm yinelemelerini değiştirmek için, ifadenizde metni se�
 
 [![ER formül düzenleyicisi](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
-## <a name="DataPasting">Veri kaynaklarını ve işlevleri yapıştırma</a>
+## <a name=""></a><a name="DataPasting">Veri kaynaklarını ve işlevleri yapıştırma</a>
 
 **Veri kaynağı** sol bölmesinde seçili olan bir veri kaynağını geçerli ifadeye yapıştırmak için **Veri kaynağı ekle**'yi seçebilirsiniz. Benzer şekilde, **İşlevler** sağ bölmesinde seçili olan bir işlevi geçerli ifadeye yapıştırmak için **İşlev ekle**'yi seçebilirsiniz. ER formül düzenleyicisi kullanıyorsanız, seçilen bir işlev veya seçilen bir veri kaynağı yapılandırılan ifadenin hep sonuna yapıştırılır. Gelişmiş ER formül düzenleyicisi kullanıyorsanız, seçilen bir işlev veya seçilen bir veri kaynağı, yapılandırılan ifadenin herhangi bir yerine yapıştırılır. Verileri yapıştırmak istediğiniz yeri belirtmek için imleci kullanmanız gerekir.
 
 [![ER formül düzenleyicisi](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
-## <a name="SyntaxColorization">Sözdizimi renklendirme</a>
+## <a name=""></a><a name="SyntaxColorization">Sözdizimi renklendirme</a>
 
 Şu anda, ifadelerin aşağıdaki kısımlarını vurgulamak için farklı renkler kullanılıyor:
 
