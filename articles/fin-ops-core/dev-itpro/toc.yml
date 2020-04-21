@@ -14,7 +14,9 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
-                - name: Platform update 34 (Mayıs 2020)
+                - name: 10.0.11 için platform güncelleştirmeleri (Temmuz 2020)
+                  href: get-started/whats-new-platform-update-35.md
+                - name: 10.0.10 için platform güncelleştirmeleri (Mayıs 2020)
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (Nisan 2020)
                   href: get-started/whats-new-platform-update-33.md
@@ -324,13 +326,11 @@
                       href: data-entities/configuration-data-packages.md
                     - name: Yapılandırma veri paketleri (yalnızca Temmuz 2017 sürümü)
                       href: data-entities/configuration-data-packages.md
-                    - name: Varlık Deposunu Data Lake olarak kullanılabilir yapma
-                      href: data-entities/entity-store-data-lake.md
                 - name: Yapılandırma veri şablonları
                   href: data-entities/configuration-data-templates.md
                 - name: Varlık üzerindeki değişiklikleri izleme
                   href: data-entities/entity-change-track.md
-                - name: Standart veri varlıkları hakkında bilgileri bulma
+                - name: Standart veri varlıklarıyla ilgili bilgileri bulma
                   href: data-entities/data-entities-report.md
                 - name: Birden çok çalışma sayfasına sahip veri şablonları
                   href: data-entities/excel-template-multiple.md
@@ -374,7 +374,7 @@
                   href: data-entities/third-party-service-test.md
                 - name: Mali boyutları gösteren salt okunur varlıklar oluşturma
                   href: financial/read-only-entity-financial.md
-            - name: Kendi veritabanınızı getirin
+            - name: Kendi veritabanınızı getirme
               href: analytics/export-entities-to-your-own-database.md
             - name: Otomatikleştirilmiş Varlık deposu yenileme
               href: analytics/automated-entity-store-refresh.md
@@ -384,6 +384,14 @@
               href: user-interface/data-validation-workspace.md
             - name: Veri yönetimi hata açıklamaları
               href: data-entities/dm-error-descriptions.md
+        - name: Azure Data Lake
+          items:
+            - name: Azure Data Lake'e genel bakış
+              href: data-entities/azure-data-lake-overview.md
+            - name: Azure Data Lake'deki Finance and Operations uygulamaları
+              href: data-entities/finance-data-azure-data-lake.md
+            - name: Varlık deposunu Data Lake olarak kullanılabilir yapma
+              href: data-entities/entity-store-data-lake.md
         - name: Veritabanı taşıma işlemleri
           items:
             - name: Genel bakış
@@ -482,38 +490,46 @@
               items:
                 - name: Şirket içi dağıtım giriş sayfası
                   href: deployment/on-premises-deployment-landing-page.md
-                - name: Şirket içi dağıtıma genel bakış
-                  href: deployment/on-premises-overview.md
-                - name: Şirket içi dağıtımları planlama ve hazırlama
-                  href: deployment/plan-onprem-deployment.md
-                - name: Donanım boyutlandırma gereksinimleri
-                  href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                - name: Şirket içi projeleri ayarlama
-                  href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                - name: Şirket içi dağıtımları hazırlama
+                  items:
+                    - name: Şirket içi dağıtıma genel bakış
+                      href: deployment/on-premises-overview.md
+                    - name: Şirket içi dağıtımları planlama ve hazırlama
+                      href: deployment/plan-onprem-deployment.md
+                    - name: Donanım boyutlandırma gereksinimleri
+                      href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                 - name: Şirket içi ortamları ayarlama ve dağıtma
                   items:
-                    - name: Şirket içi ortamları ayarlama ve dağıtma giriş sayfası
-                      href: deployment/setup-deploy-on-premises-environments.md
-                    - name: Şirket içi ortamları dağıtma (Platform update 12 ve sonrası)
+                    - name: LCS'de şirket içi projeleri ayarlama
+                      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                    - name: Şirket içi ortamları ayarlama ve dağıtma
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: Şirket içi ortamları dağıtma (Platform update 8 ve 11)
-                      href: deployment/setup-deploy-on-premises-pu8-pu11.md
-                    - name: Şirket içi ortama Retail kanalı bileşenleri yükleme adımları
+                    - name: Şirket içi ortama Perakende kanalı bileşenleri yükleme adımları
                       href: deployment/deploy-retail-onprem.md
-                    - name: Birden çok ortam için aynı AD FS örneğini yeniden kullanma
+                    - name: Özel modeller geliştirme ve şirket içi ortamlara dağıtma
+                      href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: Ortam bakımı
+                  items:
+                    - name: Şirket içi dağıtıma güncelleştirmeler uygulama
+                      href: deployment/apply-updates-on-premises.md
+                    - name: Sertifika rotasyonu
+                      href: deployment/certificate-rotation-on-prem.md
+                    - name: İstemci internet bağlantısı
+                      href: user-interface/client-disconnected.md
+                    - name: Şirket içi ortamlar için proxy'ler yapılandırma
+                      href: deployment/onprem-reverseproxy.md
+                    - name: Şirket içi tanılama
+                      href: deployment/on-premises-diagnostics.md
+                    - name: Şirket içi ortamlarla PowerBI.com tümleştirmesi
+                      href: analytics/entity-store-on-prem.md
+                    - name: Ortamları yeniden yapılandırma
+                      href: lifecycle-services/reconfigure-environment.md
+                    - name: Şirket içi dağıtımları yeniden dağıtma
+                      href: deployment/redeploy-on-prem.md
+                    - name: AOS düğümünü kaldırma ve yeniden yükleme
+                      href: deployment/onprem-remove-reinstall-AOS-node.md
+                    - name: Birden çok ortam için aynı AD FS kurulumunu yeniden kullanma
                       href: deployment/onprem-reuseadfs.md
-                - name: Özel modeller geliştirme ve şirket içi ortamlara dağıtma
-                  href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Şirket içi ortamlarla PowerBI.com tümleştirmesi
-                  href: analytics/entity-store-on-prem.md
-                - name: Şirket içi ortamlar için proxy'ler yapılandırma
-                  href: deployment/onprem-reverseproxy.md
-                - name: Şirket içi dağıtıma güncelleştirmeler uygulama
-                  href: deployment/apply-updates-on-premises.md
-                - name: Şirket içi tanılama
-                  href: deployment/on-premises-diagnostics.md
-                - name: Şirket içi dağıtımları yeniden dağıtma
-                  href: deployment/redeploy-on-prem.md
                 - name: Yerel aracı
                   items:
                     - name: AD FS Office 365 uyumluluğu
@@ -522,16 +538,12 @@
                       href: lifecycle-services/pre-post-scripts.md
                     - name: Yerel aracıyı güncelleştirme
                       href: lifecycle-services/update-local-agent.md
-                - name: Ortamları yeniden yapılandırma
-                  href: lifecycle-services/reconfigure-environment.md
-                - name: İstemci internet bağlantısı
-                  href: user-interface/client-disconnected.md
-                - name: Şirket içi dağıtımlardaki sorunları giderme
-                  href: deployment/troubleshoot-on-prem.md
-                - name: Şirket içi ortamlarda sorun çözme için komut dosyaları
-                  href: deployment/onprem-tsg-implementations.md
-                - name: Sertifika rotasyonu
-                  href: deployment/certificate-rotation-on-prem.md
+                - name: Sorun giderme
+                  items:
+                    - name: Şirket içi dağıtımlardaki sorunları giderme
+                      href: deployment/troubleshoot-on-prem.md
+                    - name: Şirket içi ortamlarda sorun çözme için komut dosyaları
+                      href: deployment/onprem-tsg-implementations.md
             - name: Özel kod dağıtma
               items:
                 - name: Dağıtılabilir model paketleri oluşturma
@@ -926,11 +938,13 @@
                       href: extensibility/extensible-tables.md
                     - name: Yöntemler için genişletilebilirlik öznitelikleri
                       href: extensibility/extensibility-attributes.md
-                    - name: Değişiklikleri bozma
+                    - name: Hataya neden olan değişiklikler
                       href: extensibility/breaking-changes.md
+                    - name: Uyumluluk denetleyici aracı
+                      href: extensibility/compatibility-checker-tool.md
             - name: Performans
               items:
-                - name: Trace Parser kullanarak izlemeler yapma
+                - name: İzleme ayrıştırıcı kullanarak izlemeler yapma
                   href: perf-test/trace-trace-tutorial.md
                 - name: Görev kaydedici ve Performans SDK ile tek kullanıcı testi
                   href: perf-test/single-user-test-perf-sdk.md
@@ -1442,6 +1456,8 @@
               href: sysadmin/configure-manage-database-log.md
             - name: AOS başladığında OData meta veri önbelleği oluşturma
               href: sysadmin/odata-warmup.md
+            - name: Azure Key Vault istemcisi ayarlama
+              href: ../../finance/localizations/setting-up-azure-key-vault-client.md
         - name: 'Yükseltmeler, güncelleştirmeler ve düzeltmeler'
           items:
             - name: 'Yükseltmeler, güncelleştirmeler ve düzeltmelerle ilgili kaynaklar'
@@ -1542,7 +1558,7 @@
                   href: deployment/apply-updates-on-premises.md
                 - name: Şirket içi dağıtımı yeniden dağıtma
                   href: deployment/redeploy-on-prem.md
-                - name: Şirket içi 7.x sürümünü 8.1 sürümüne yerinde yükseltme
+                - name: Şirket içi ortamlar için yerinde yükseltme işlemi
                   href: migration-upgrade/on-prem-upgrade.md
             - name: Düzeltmeler
               items:

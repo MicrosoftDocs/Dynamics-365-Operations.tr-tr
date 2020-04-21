@@ -5,6 +5,12 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 13 Nisan 2020
+          href: hr-whats-new-2020-04-13.md
+        - name: 3 Nisan 2020
+          href: hr-whats-new-2020-04-03.md
+        - name: 24 Mart 2020
+          href: hr-whats-new-2020-03-24.md
         - name: 19 Mart 2020
           href: hr-whats-new-2020-03-19.md
         - name: 10 Mart 2020
@@ -397,11 +403,11 @@
               href: hr-compensation-enroll-employees-variable.md
             - name: Ücret işlemini tanımlama ve sonuçları hesaplama
               href: hr-compensation-define-process.md
-            - name: Maaş planlarını işleme
+            - name: Ücret planlarını işleme
               href: hr-compensation-process.md
         - name: Kazançları yönetme
           items:
-            - name: 'Önizleme özelliği: Kazanç yönetimi'
+            - name: Kazanç yönetimi
               items:
                 - name: Kazanç yönetimine genel bakış
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: Kazanç planlarını ayarlama
                       href: hr-benefits-plans-setup.md
-                    - name: Çalışan kazanç planları oluşturma
-                      href: hr-benefits-plans-worker.md
-                    - name: Esnek kredi programları ayarlama
+                    - name: Esnek alacak programları ayarlama
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: Gelecekteki yaşam olaylarını yapılandırma
-                      href: hr-benefits-plans-future-life-events.md
                 - name: Kazanç planlarını işleme
                   items:
                     - name: Kayıt uygunluğunu işleme
@@ -497,8 +499,10 @@
               href: hr-leave-and-absence-plans.md
             - name: Çalışanları bir izin planına atama
               href: hr-leave-and-absence-enroll.md
-            - name: İzin ve devamsızlık planlarını tahakkuk etme
+            - name: İzin ve devamsızlık planları tahakkuk ettirme
               href: hr-leave-and-absence-accrue.md
+            - name: İzni askıya alma
+              href: hr-leave-and-absence-suspend-leave.md
             - name: İzin ve devamsızlık analizini görüntüleme
               href: hr-leave-and-absence-analytics.md
             - name: İzin ve devamsızlık isteklerini yönetme

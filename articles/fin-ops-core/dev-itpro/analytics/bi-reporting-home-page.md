@@ -1,6 +1,6 @@
 ---
-title: İş zekası (BI) ve raporlama giriş sayfası
-description: Bu konu sizi mevcut karar desteği ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
+title: Power BI giriş sayfasıyla raporlama ve analiz
+description: Bu konu sizi mevcut iş zekası ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
 author: sericks007
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 424da665f91820f3fe42c98b352a646dd3db72c5
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771576"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258592"
 ---
-# <a name="business-intelligence-bi-and-reporting-home-page"></a>İş zekası (BI) ve raporlama giriş sayfası
+# <a name="reporting-and-analytics-with-power-bi-home-page"></a>Power BI giriş sayfasıyla raporlama ve analiz
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu sizi mevcut karar desteği (KD) ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
+Bu konu sizi mevcut iş zekası (BI) ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
 
 ## <a name="get-started"></a>Başlayın
-- [Bilgi erişimi ve raporlama](information-access-reporting.md)
+- [Bilgiye erişim ve raporlama](information-access-reporting.md)
 - [Teknik Sohbet: Raporlama seçenekleri](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
 - [Finance and Operations: Power BI Analiz ve Raporlama Hizmetleri blogu](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
-## <a name="analytical-workspaces"></a>Analitik çalışma alanları
+## <a name="analytical-workspaces"></a>Analiz çalışma alanları
 Çalışma alanlarında Microsoft Power BI'ın desteklediği zengin infografikler ve görseller kullanılabilir. Bu infografikler ve görseller üçüncü tarafların sağladığı pek çok denetim içerir. Bu nedenle, çalışma alanları kullanıcılara oldukça görsel ve etkileşimli bir deneyim sunabilir.
 
 Kullanıcılar sayfadaki görsellere tıklayarak veya dokunarak verilerle etkileşim kurabilirler. Sebep-sonuç ilişkisini görebilirler ve çalışma alanından ayrılmadan basit deneme işlemleri gerçekleştirebilirler. Etkileyici, etkileşimli görseller sayesinde kullanıcılarınız verileri keşfedip gizli eğilimleri ortaya çıkarırken eğlenebilir.
