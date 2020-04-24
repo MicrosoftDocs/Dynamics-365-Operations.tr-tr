@@ -3,7 +3,7 @@ title: Üst bilgi modülü
 description: Bu konu üst bilgi modüllerini kapsamakta ve Microsoft Dynamics 365 Commerce'te sayfa üst bilgilerinin nasıl oluşturacağını açıklamaktadır.
 author: anupamar
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: efadd19681bbb21ea5b2b469e55bc6f4b0535046
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: cec138ebefbd2beb2f1cf6302ce58d8bbc5c4bbd
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3025721"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261456"
 ---
 # <a name="header-module"></a>Üst bilgi modülü
 
@@ -51,6 +51,7 @@ Aşağıdaki modüller bir üstbilgi modülünde kullanılabilir:
 
 - **Gezinti menüsü** – Gezinti menüsü, kanal gezinti hiyerarşisini ve diğer statik gezinti bağlantılarını temsil eder. Kanal gezinme hiyerarşisi Dynamics 365 Commerce'de yapılandırılabilir. Gezinti menüsünde, Retail Server gezinti menüsü öğelerini ve statik menü öğelerini bir kaynak olarak belirtmek için kullanılan bir **Gezinti Kaynağı** özelliği vardır. Statik menü öğeleri kaynak olarak belirtilirse, sitedeki diğer sayfalara göreli bağlantılar sağlanabilir. Yapılandırılmış öğeler daha sonra üstbilgi gezintisi olarak görünür. 
 - **Arama** – Arama modülü, kullanıcıların ürün aramak için arama terimleri girmesine izin verir. **Site Ayarları \>Uzantılar**'da, varsayılan arama sayfasının URL'si ve arama sorgusu parametreleri girilmelidir. Arama modülünde, arama düğmesini veya etiketi gereksinim duyduğunuz şekilde gizlemenize olanak sağlayan özellikler vardır. Arama modülü ürün, anahtar sözcük ve kategori arama sonuçları gibi otomatik öneri seçeneklerini de destekler.
+- **Sepet simgesi** - Sepet simgesi modülü, belirli bir zamanda sepetteki öğelerin sayısını gösteren sepet simgesini temsil eder. Daha fazla bilgi için bkz. [Sepet simgesi modülü](cart-icon-module.md).
 
 ## <a name="create-a-header-module-for-a-page"></a>Sayfa için üst bilgi modülü oluşturma
 
@@ -65,12 +66,15 @@ Bir üst bilgi modülü oluşturmak için şu adımları izleyin.
 1. Gezinti menüsü modülünün özellik bölmesinde, gezinti menüsü modülünün özelliklerini yapılandırın.
 1. Üst bilgi modülünün **Arama** yuvasında bir arama modülü ekleyin. 
 1. Arama modülünün özellik bölmesinde, arama modülünün özelliklerini yapılandırın. 
+1. Başlık modülünün **Sepet simgesi** yuvasında, bir sepet simgesi modülü ekleyin. 
+1. Sepet simgesi modülünün özellik bölmesinde, sepet simgesi modülünün özelliklerini yapılandırın. Üzerine gelindiğinde alışveriş sepeti simgesinin bir mini sepet görüntülenmesini istiyorsanız **Mini sepeti göster** için **Doğru** değerini seçin.
 1. Sayfa parçasını kaydedin, düzenlemeyi bitirin ve yayımlayın. 
+
 
 Üstbilginin her sayfada göründüğünü garantilemek için, site için oluşturulan her sayfa şablonunda aşağıdaki adımları izleyin.
 
 1. Varsayılan sayfanın **Ana** yuvasında, üst bilgi modülünü içeren üst bilgi sayfa parçasını üst bilgiye ekleyin.
-1. Şablonu kaydedin, düzenlemeyi bitirin ve sonra yayınlayın.
+1. Şablonu kaydedin, düzenlemeyi bitirin ve sonra yayımlayın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -78,9 +82,11 @@ Bir üst bilgi modülü oluşturmak için şu adımları izleyin.
 
 [Konteyner modülü](add-container-module.md)
 
-[Satın alma kutusu modülü](add-buy-box.md)
+[Satınalma kutusu modülü](add-buy-box.md)
 
 [Sepet modülü](add-cart-module.md)
+
+[Sepet simgesi modülü](cart-icon-module.md)
 
 [Ödeme modülü](add-checkout-module.md)
 

@@ -2,7 +2,7 @@
 title: Ambalaj malzemeleri ve ücretleri
 description: Bu konu, belirli aralıklarda geri dönüşüm şirketleri için ödenen ambalaj malzemesi masrafları hakkında bilgi sağlar.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2351cce9dc6e1a554800817f75591c4a4e24d43
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076259"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215712"
 ---
 # <a name="packing-materials-and-fees"></a>Ambalaj malzemeleri ve ücretleri
 
@@ -39,7 +39,7 @@ Tek madde, madde grubu (ambalaj grubu) veya tüm maddeler bazında bir veya bird
 > [!NOTE]
 > Şirketiniz ambalaj malzemesi masrafı ödemiyorsa dahi, bu işlevi ambalaj malzemesi ağırlıkları istatistiklerini hesaplamak amacıyla kullanabilirsiniz.
 
-## <a name="allocations"></a>Ambalaj malzemesi tahsisatı ayarlama
+## <a name="set-up-packing-material-allocation"></a><a name="allocations"></a>Ambalaj malzemesi tahsisatı ayarlama
 
 Ambalaj malzemesi ağırlıklarını, ambalaj malzemesi masraflarını veya her ikisini birden hesaplayabilmeniz için, hesaplamayı etkinleştirmeniz ve hangi malzeme ve ücretlerin hangi maddelere uygulanacağını tanımlamanız gerekir.
 

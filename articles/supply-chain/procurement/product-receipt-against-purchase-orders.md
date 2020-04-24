@@ -1,8 +1,8 @@
 ---
 title: Ürün girişi ve satınalma siparişleri karşılaştırması
 description: Bu konuda ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
-author: FrankDahl
-manager: AnnBe
+author: mkirknel
+manager: tfehr
 ms.date: 11/15/2018
 ms.topic: article
 ms.prod: ''
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f39ce63b6d9d57e245fbdce27bd11a8cbc3eebf
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5868b9ef02bdbca33c9e155af3bf7540f0522f86
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813421"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208052"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Ürün girişi ve satınalma siparişleri karşılaştırması
 

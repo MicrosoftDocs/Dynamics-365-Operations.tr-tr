@@ -2,7 +2,7 @@
 title: Tesis kapsamı için master planlama, ambar zorunlu
 description: Bu konuda, kapsam boyutu olarak tesisi olan bir maddenin nasıl planlanacağını açıklanmaktadır. Ambar zorunlu bir boyuttur.
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2454
 ms.assetid: aa135030-f98c-48bf-902c-e52f680dc247
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 132817fefb9592764d1adaf9f714c27108ce88ae
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5a6128900d403c05af611b7636d5768b1c6a0b2f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815123"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213711"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Tesis kapsamı için master planlama, ambar zorunlu
 

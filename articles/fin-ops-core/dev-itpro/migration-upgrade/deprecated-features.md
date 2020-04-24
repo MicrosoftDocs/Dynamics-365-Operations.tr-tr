@@ -3,7 +3,7 @@ title: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılm�
 description: Bu konu, kaldırılmış olan veya  Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sürümlerinden kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 03/05/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124578"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225140"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -263,11 +263,11 @@ Katıştırılmış kilit performans göstergeleri (KPI'ları), bir geliştirici
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Tablo metaveri tanımlarının geçersiz alan referansları içeren alan gruplarına sahip olması mümkündür. Bu sorun şu anda bir *hata* yerine *derleyici uyarısı* olarak kategorize edilmiştir, bu da dağıtılabilir paket oluşturma ve geliştirmenin bu sorun giderilmeden devam edebileceği anlamına gelir. Dağıtıldığında, bu, Finansal Raporlama ve SQL Server Reporting Services (SSRS) içinde çalışma zamanı hatalarına neden olabilir. Bu sorunu gidermek için:<br><br>1. Geçersiz alan başvurusunu tablo alanı grubunu tanımından kaldırın.<br><br>2. Yeniden derleyin.<br><br>3. Uyarılar veya hataların ele alındığından emin olun. |
-| **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, gelecekte bir derleme hatası ile değiştirilecektir.  |
-| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları. |
-| **Dağıtım seçeneği**              | Tümü. |
-| **Durum**                         | Kullanımdan kalktı: Uyarı, gelecekte bir derleme zamanı hatası olacaktır. Şu anda Platform güncelleştirmesi 30'u hedefliyoruz. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Tablo metaveri tanımlarının geçersiz alan referansları içeren alan gruplarına sahip olması mümkündür. Dağıtıldığında, bu, Finansal Raporlama ve SQL Server Reporting Services (SSRS) içinde çalışma zamanı hatalarına neden olabilir. Bu sorun şu anda bir *hata* yerine *derleyici uyarısı* olarak kategorize edilmiştir, bu da dağıtılabilir paket oluşturma ve geliştirmenin bu sorun giderilmeden devam edebileceği anlamına gelir. Bu sorunu gidermek için:<br><br>1. Geçersiz alan başvurusunu tablo alanı grubunu tanımından kaldırın.<br><br>2. Yeniden derleyin.<br><br>3. Uyarılar veya hataların ele alındığından emin olun. |
+| **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, gelecekte bir derleme hatası ile değiştirilecektir. |
+| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanımdan kalktı: Uyarı, gelecekte bir derleme zamanı hatası olacaktır. Bu değişiklik, Finance and Operations uygulamaları sürüm 10.0.11'e yönelik platform güncelleştirmeleri için hedeflenmiştir. |
 
 #### <a name="complete-list"></a>Tam liste
 Kullanımdan kaldırılan API'lerin tam listesine erişmek için bkz. [Yöntemler ve meta veri öğelerinin kullanımdan kaldırılması](deprecation-deletion-apis.md).

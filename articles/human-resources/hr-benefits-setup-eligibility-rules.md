@@ -3,7 +3,7 @@ title: Uygunluk kurallarını ve seçeneklerini yapılandırma
 description: Microsoft Dynamics 365 Human Resources'un sosyal haklar yönetiminde, uygunluk kurallarını ve seçeneklerini ayarlayın.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010925"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229913"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Uygunluk kurallarını ve seçeneklerini yapılandırma
-
-[!include [banner](includes/preview-feature.md)]
 
 Microsoft Dynamics 365 Human Resources'Ta sosyal haklar yönetimi için gerekli parametreleri yapılandırdıktan sonra, kazanç planlarınızla ilişkilendireceğiniz uygunluk kuralları, demeti, dönemler ve programlar oluşturabilirsiniz.
 
@@ -57,6 +55,7 @@ Açık kayıt sırasında çalışanlar kazanç planlarını seçebilir. Zaten k
    | **İstihdam kategorisi** | **İstihdam kategorisi kullan** geçişi **Evet** olarak ayarlanmışsa, çalışanın istihdam kategorisi. |
    | **Yeni işe alma kuralı kullan** | Sosyal haklar kuralının bir parçası olarak yeni işe alma dönem değerinin kullanılacağını belirtir. |
    | **Kayıt dönemi** | Yeni işe alma kaydına izin verildiği zaman dilimi. Bunu aynı zamanda parametrelerde ayarlarsanız, parametreler ayarı da bunun üzerine öncelik kazanır. |
+   | **Önceki istihdam durumunu kullan** | Kazanç uygunluğu kuralının parçası olarak personelin önceki istihdam durumunu mu kullanacağınızı belirtir. Örneğin, önceki istihdamını takip eden 90 gün içinde **İşten çıkarıldı** durumundan **İstihdam edildi** durumunda geçil yapmış tüm çalışanlar için bir karşılama bekleme dönemini uygulatmayan bir uygunluk kuralı belirtebilirsiniz. |
 
 4. **Ek ölçütler** altında, aşağıdaki seçenekleri seçin ve gerekli bilgileri ekleyin:
 

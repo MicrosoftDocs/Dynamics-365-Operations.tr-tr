@@ -2,15 +2,15 @@
 title: Gecikmeler
 description: Bu konu, ana planlamadaki gecikmeli tarihler hakkında bilgi sağlar. Gecikmeli bir tarih, bir hareketin talep edilen tarihi, ana planlama tarafından hesaplanan en erken tamamlanma tarihinden sonraysa alacağı gerçekçi bir tarihtir.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 03/15/2019
+manager: tfehr
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a8c738fffda76f2a8492c20e2c67a154c68559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 34252e5cd9ee5151b1cba47975fc0cc612521a17
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522301"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203860"
 ---
 # <a name="delays"></a>Gecikmeler
 
@@ -44,6 +44,12 @@ Tanımlı bir grup için gecikmelerin nasıl hesaplanacağını yapılandırıla
 
 > [!NOTE]
 > Önceki sürümlerde hesaplanan gecikmeler, *gelecek mesajları*, gecikme tarihi *gelecek tarihi* ve geciken hareket *ileriye ayarlanmış bir hareket* olarak geçiyordu.
+
+## <a name="limited-delays-in-production-setup-with-multiple-bom-levels"></a>Birden çok ürün reçetesi düzeyi olan üretim kurulumunda sınırlı gecikmeler
+Birden çok ürün reçetesi düzeyi olan bir üretim kurulumunda gecikmeler ile çalıştığınızda, yalnızca gecikmeye neden olan maddenin doğrudan üstündeki maddelerin (ürün reçetesi yapısında), master planlama çalıştırmasının bir parçası olarak güncelleştirileceği unutulmamalıdır. En üst düzey için planlanan sipariş onaylandığında veya kesinleştirildiğinde, ürün reçetesi yapısındaki diğer maddeler, ilk master planlama çalıştırılıncaya kadar uygulanan gecikmeyi alamaz. 
+
+Bu bilinen sınırlamaya geçici bir çözüm bulmak için, ürün reçetesi yapısının üst kısmındaki üretim emirleri bir sonraki master planlama çalıştırılmadan önce onaylanabilir (veya kesinleştirilebilir). Bu şekilde, ertelenen onaylanmış planlı üretim emrinden gelen gecikme korunur ve tüm alt bileşenler de buna göre güncelleştirilir.
+Eylem iletileri, ürün reçetesi yapısındaki başka gecikmelerden dolayı sonraki bir tarihe taşınabilecek planlı siparişleri tanımlamak için de kullanılabilir.
 
 ## <a name="desired-date"></a>İstenen tarih
 

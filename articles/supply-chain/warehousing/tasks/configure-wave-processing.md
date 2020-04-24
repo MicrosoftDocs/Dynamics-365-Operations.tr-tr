@@ -2,7 +2,7 @@
 title: Dalga işlemeyi yapılandırma
 description: Bu kılavuz bir dalga işlendiğinde bir ambar için hangi işin oluşturulacağını belirlemek için ölçütleri ayarlamayı ve dalgaların manuel mi yoksa otomatik olarak mı işlemden geçirileceğini açıklar.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c813a429d7837493663625bde341638eecfc5ee
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 73fb8b936fb3066557f3d556506ce29ef0d919ab
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148573"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3217184"
 ---
 # <a name="configure-wave-processing"></a>Dalga işlemeyi yapılandırma
 

@@ -2,7 +2,7 @@
 title: Madde varışı genel bakış profili ayarlama
 description: Bu konu bir varış genel bakış profili kurulumu üzerinde odaklanır.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 55512c75445a5f3b9c1521376a20d48dd60e22c6
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 885dc6c4fff53b9c1ddbac64e97b2b415bac1c7a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145537"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204068"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Madde varışı genel bakış profili ayarlama
 

@@ -2,7 +2,7 @@
 title: Stok düzeyi bilgilerini Supply Chain Management'tan Field Service'e eşitleme
 description: Bu konu stok düzey bilgisini Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: eefbfd1f8d7aa73cbb3330433b08efd889232818
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 1228339c12d26f7b91875d15f0daa8da2869cba0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251213"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215919"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Stok düzeyi bilgilerini Supply Chain Management'tan Field Service'e eşitleme 
 

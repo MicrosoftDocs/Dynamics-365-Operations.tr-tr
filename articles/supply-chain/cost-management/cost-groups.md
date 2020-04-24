@@ -2,7 +2,7 @@
 title: Maliyet grupları
 description: Maliyet grupları, üretilen bir maddenin malzeme, işçilik ve genel giderler için maliyet katkıları gibi hesaplanan maliyetindeki maliyet katkılarını segmentlere ayırmak ve analiz etmek için temel sağlar. Maliyet grubu segmentasyonu üretim ortamlarında maliyet dökümü, maliyet dağılımı veya maliyet sınıflandırması gibi birçok eşanlamlı ifadeye sahiptir.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 50871
 ms.assetid: 1855f744-f73f-4fa8-8290-a7ee126d368b
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f1f97981c33c72c71e055848e874002dad73813
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d78649cd371b51bf6b9403aea0358630ed57b8c7
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556864"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201813"
 ---
 # <a name="cost-groups"></a>Maliyet grupları
 

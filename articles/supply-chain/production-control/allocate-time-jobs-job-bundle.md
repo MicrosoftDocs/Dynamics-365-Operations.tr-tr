@@ -2,7 +2,7 @@
 title: İş ürün demetindeki işlere zaman atama
 description: İmalat yürütmede, işleri gruplayabilirsiniz. Ardından İş listesi sayfasında birden fazla işi aynı anda başlatabilirsiniz.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 55591
 ms.assetid: 358efce7-73c8-4d2a-a7f7-cb99b88ab6ee
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33d6bab9beb28d18e2094d7fb5e670e9425aac39
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec07913e217cb3e33d5b58623643f02593c1eeae
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552988"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203377"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>İş ürün demetindeki işlere zaman atama
 

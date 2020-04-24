@@ -1,9 +1,9 @@
 ---
-title: Satış noktası (POS) ekran düzenleri
+title: POS kullanıcı arabirimi görsel yapılandırmaları
 description: Bu konu Dynamics 365 Commerce satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar.
-author: jblucher
-manager: AnnBe
-ms.date: 05/20/2019
+author: boycezhu
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,23 +16,22 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5bf7b3d20ff0b42eb9eaedf584b2a508c1307707
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024377"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261479"
 ---
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a>Satış noktası (POS) ekran düzenleri
+# <a name="pos-user-interface-visual-configurations"></a>POS kullanıcı arabirimi görsel yapılandırmaları
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Bu konu Dynamics 365 Commerce satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar.
-
-Satış noktası (POS) kullanıcı arabirimi (UI), mağazalara, kasalara ve/veya kullanıcılara atanan görsel profiller ve ekran düzenleri birleşimi kullanılarak yapılandırılabilir.
+Microsoft Dynamics 365 Commerce satış noktası (POS) kullanıcı arabirimi, mağazalara, kasalara ve kullanıcılara atanan görsel profiller ve ekran düzenleri birleşimi kullanılarak yapılandırılabilir. Bu konu, bu yapılandırma seçenekleri hakkında bilgi sağlar.
 
 Aşağıdaki çizimde, yapılandırılabilir POS kullanıcı arabirimi özelliklerini oluşturan çeşitli varlıklar arasındaki ilişkiler gösterilmektedir.
 
@@ -40,7 +39,7 @@ Aşağıdaki çizimde, yapılandırılabilir POS kullanıcı arabirimi özellikl
 
 ## <a name="visual-profile"></a>Görsel profil
 
-Görsel profiller kasalara atanır ve kasaya özel ve kullanıcılar arasında paylaşılan görsel öğeleri belirtir. Kasada oturum açan her kullanıcı aynı temayı, renkleri ve resimleri görür.
+Görsel profiller kasalara atanır ve kasaya özel ve kullanıcılar arasında paylaşılan görsel öğeleri belirtir. Kasada oturum açan her kullanıcı aynı temayı, düzeni, renkleri ve resimleri görür.
 
 ![POS hoş geldiniz ekranı - Açık tema](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
@@ -48,16 +47,24 @@ Görsel profiller kasalara atanır ve kasaya özel ve kullanıcılar arasında p
 
 - **Profil numarası** – Profil numarası, görsel profilin benzersiz tanımlayıcısıdır.
 - **Açıklama** – Durumunuz için doğru profili tanımlamaya yardımcı olacak anlamlı bir ad belirtebilirsiniz.
-- **Tema** – Açık veya Koyu uygulama temaları arasından seçim yapabilirsiniz. Tema, uygulamanın tümünde yazı tipini ve arka plan renklerini etkiler.
+- **Tema** – **Açık** veya **Koyu** uygulama temaları arasından seçim yapabilirsiniz. Tema, uygulamanın tümünde yazı tipini ve arka plan renklerini etkiler.
 - **Vurgu rengi** – Vurgu rengi tüm POS genelinde kutucuk, komut düğmesi ve köprü gibi belirli görsel öğeleri ayırt etmek veya vurgulamak için kullanılır. Bunlar genellikle işlem yapılabilecek öğelerdir.
-- **Başlık rengi** – Sayfa başlığının rengini, perakendecinin marka gereksinimlerini karşılayacak şekilde yapılandırabilirsiniz. Bu özellik, yalnızca Retail sürüm 1611'de kullanılabilir.
-- **Tarih/saat** - Etkin olduğunda geçerli tarih ve saat POS başlığında görüntülenir.
-- **Oturum açma arka planları** – Oturum açma ekranı için bir arka plan resmi belirtebilirsiniz. Büyük dosyaların depolanması ve yüklenmesi, uygulama davranışını ve performansını olumsuz etkileyebileceği için, arka plan resimlerinin dosya boyutu olabildiğince küçük tutulmalıdır.
-- **Uygulama arka planı** – Uygulama genelinde düz tema rengi yerine kullanılacak bir arka plan resmi belirtebilirsiniz. Oturum açma arka planlarında olduğu gibi, dosya boyutu mümkün olduğunca küçük tutulmalıdır.
+- **Başlık rengi** – Sayfa başlığının rengini, perakendecinin marka gereksinimlerini karşılayacak şekilde yapılandırabilirsiniz.
+- **Yazı tipi düzeni** – **Standart** ve **Büyük** yazı tipi düzenleri arasından seçim yapabilirsiniz. Yazı tipi düzeni tüm uygulama boyunca yazı tipi boyutunu etkiler. Varsayılan seçim **Standart**'tır.
+- **Uygulama çubuğu etiketlerini her zaman göster** – Bu seçenek etkinken, etiket metni her zaman uygulama çubuğu düğmelerinin altında görünür.
+- **Düzen** – **Ortalanmış** ve **Sağ** düzenleri arasında seçim yapabilirsiniz. Düzen, oturum açma ekranındaki oturum açma kutusunun hizalamasını etkiler. Varsayılan seçim **Ortalanmış**'tır.
+- **Tarihi/saati göster** - Bu seçenek etkinleştirildiğinde, POS başlığında ve oturum açma ekranında geçerli tarih ve saat gösterilir.
+- **Klavye** – Oturum açma ekranında giriş için kullanılan varsayılan klavyeyi belirtmek için **Varsayılan olarak işletim sistemi klavyesi** ve **Sayı takımını göster**'i seçebilirsiniz. Sayı takımı, özellikle dokunmatik tabanlı aygıtlarda kullanılan sanal bir klavyedir. Varsayılan seçim **Varsayılan olarak İşletim Sistemi klavyesi**'dir.
+- **Logo resmi** – Oturum açma ekranında gösterilen bir logo resmi belirtebilirsiniz. Arka planı saydam olan bir görüntü kullanmanızı öneririz. Büyük dosyaların depolanması ve yüklenmesi, uygulama davranışını ve performansını olumsuz etkileyebileceği için, dosya boyutu olabildiğince küçük tutulmalıdır.
+- **Oturum açma arka planı** – Oturum açma ekranı için bir arka plan resmi belirtebilirsiniz. Arka plan görüntülerinin dosya boyutu mümkün olduğunca küçük tutulmalıdır.
+- **Arka plan** – Uygulama genelinde düz tema rengi yerine kullanılacak bir arka plan resmi belirtebilirsiniz. Oturum açma ekranına ait arka plan görüntülerinde olduğu gibi, dosya boyutu olabildiğince küçük tutulmalıdır.
+
+> [!NOTE]
+> **Sağ** düzeni ve tarih/saat görünümü, oturum açma ekranına sıkıştırılmış görünümde uygulanmaz.
 
 ## <a name="screen-layouts"></a>Ekran düzenleri
 
-Ekran düzeni yapılandırmaları POS hoş geldiniz ekranındaki ve **Hareket** ekranındaki eylemleri, içeriği ve kullanıcı arabirimi denetimlerinin yerleşimini belirler.
+Ekran düzeni yapılandırmaları POS **Hoş geldiniz** ekranındaki ve **Hareket** ekranındaki eylemleri, içeriği ve kullanıcı arabirimi denetimlerinin yerleşimini belirler.
 
 ![POS Ekranı düzeninin görünümü](../commerce/media/POS-Screen-Layout-View.png)
 

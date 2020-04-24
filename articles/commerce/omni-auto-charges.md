@@ -3,7 +3,7 @@ title: Çoklu kanal gelişmiş otomatik ücretleri
 description: Bu konu Commerce kanal düzeni masraflar otomatik gelişmiş özelliklerini kullanmak için ek sipariş masrafları yönetmek için kullanılan özellikleri açıklar.
 author: hhaines
 manager: annbe
-ms.date: 03/08/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: fd02a81f35b40e5075ccfe5c9a617d7de4e8250d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024390"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175166"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Çok yönlü kanal gelişmiş otomatik masrafları
 
 [!include [banner](includes/banner.md)]
 
-Bu konu Dynamics 365 for Retail sürüm 10.0. içerisinde yapılandırma ve dağıtım içinde kullanılabilir olan gelişmiş otomatik masraflar özelliği hakkında bilgi sağlar.
+Bu konu Dynamics 365 for Retail sürüm 10.0.'da yapılandırma ve dağıtım için kullanılabilir olan gelişmiş otomatik masraflar özelliği hakkında bilgi sağlar.
 
 Gelişmiş otomatik masraflar özellikleri etkinleştirildiğinde, desteklenen herhangi bir Commerce kanalında (satış noktası (POS), çağrı merkezi ve çevrimiçi) içinde oluşturulan siparişler [otomatik masraflar](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) yapılandırmalarından hem başlık hem de satır düzeyi ile ilişkili masraflar için faydalanabilirler.
 
@@ -77,7 +77,7 @@ Bu bölümde, örnek kullanım vakaları size otomatik masraflar ve sair masrafl
 
 #### <a name="use-case-scenario"></a>Kullanımı vakası senaryosu
 
-Bir perakendeci, ürünlerin müşteriye nakledilmesi gereken hareketler Ticaret kanalında oluşturulduklarında bir navlun için otomatik olarak masrafları eklemek için kullanmak istiyor. Perakendeci 2 teslimat seçeneği sunmaktadır: kara ve hava yolu. Bir müşteri Karayolu teslimatını seçerse ve değer 100$'dan az ise, perakendeci müşteriden 10.00$ navlun ücreti talep etmek istemektedir. Sipariş 100$ değerin üzerindeyse ve müşteri karayolu sevkiyatını seçerse, kullanıcıdan ek navlun ücretleri talep edilmeyecektir. Kullanıcı tüm siparişleri için Hava yöntemini seçerse, toplam değerlerinden bağımsız olarak 20,00$ navlun ücreti talep edilecektir.
+Bir perakendeci, ürünlerin müşteriye nakledilmesi gereken hareketler Ticaret kanalında oluşturulduklarında bir navlun için otomatik olarak masrafları eklemek için kullanmak istiyor. Perakendeci iki teslimat seçeneği sunmaktadır: kara ve hava yolu. Bir müşteri Karayolu teslimatını seçerse ve değer 100$'dan az ise, perakendeci müşteriden 10.00$ navlun ücreti talep etmek istemektedir. Sipariş 100$ değerin üzerindeyse ve müşteri karayolu sevkiyatını seçerse, kullanıcıdan ek navlun ücretleri talep edilmeyecektir. Kullanıcı tüm siparişleri için Hava yöntemini seçerse, toplam değerlerinden bağımsız olarak 20,00$ navlun ücreti talep edilecektir.
 
 #### <a name="setup-and-configuration"></a>Kurulum ve yapılandırma
 
@@ -157,7 +157,7 @@ Bu işlem çağrı merkezinde, araç çubuğundaki **Satış** sekmesinde buluna
 
 #### <a name="use-case-scenario"></a>Kullanımı vakası senaryosu
 
-Bir müşteri, satış siparişindeki 5 ögeden 2'sinin hediye paketi yapılmasını talep etti. Perakendeci, bu isteğe bağlı hizmeti öge başına 2,00$ karşılığında sunmaktadır. Siparişi alanın bu ücretleri, hediye paketi yapılacak belirli öğelere eklemesi gerekecektir.
+Bir müşteri, satış siparişindeki beş ögeden ikisinin hediye paketi yapılmasını talep etti. Perakendeci, bu isteğe bağlı hizmeti öge başına 2,00$ karşılığında sunmaktadır. Siparişi alanın bu ücretleri, hediye paketi yapılacak belirli öğelere eklemesi gerekecektir.
 
 #### <a name="setup-and-configuration"></a>Kurulum ve yapılandırma
 
@@ -215,3 +215,10 @@ Bazı kuruluşlar, masrafları hesaplamadan önce kullanıcının tüm satış s
 ### <a name="charges-override-reports"></a>Masraf geçersiz kılma raporları
 
 Kullanıcılar hesaplanan masrafları el ile geçersiz kılarlarsa veya bir el ile masrafı harekete eklerlerse, bu veri **Masraf Geçersiz Kılma Geçmişi** raporunda denetleme için kullanılabilir olur. Bu rapor **Perakende ve Ticaret \> Sorgular ve raporlar \> Geçersiz kılma geçmişi** içinde bulunabilir. Bu rapor için ihtiyaç duyulan verinin kanal veritabanından HQ'ya "P" dağıtım zamanlama işleri üzerinden içe aktarılması gerektiğini unutmayın. Bu nedenle, POS içinde gerçekleştirilen geçersiz kılma hakkındaki bilgiler, bu iş mağaza hareketini HQ'ya karşıya yükleyene kadar bu raporda derhal kullanılabilir olmayabilirler.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+[Kanala göre otomatik masrafları etkinleştirme ve yapılandırma](auto-charges-by-channel.md)
+
+[Başlık masraflarını eşleşen satış satırlarına eşit dağıtma](pro-rate-charges-matching-lines.md)
+

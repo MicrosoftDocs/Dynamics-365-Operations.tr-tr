@@ -3,7 +3,7 @@ title: Elektronik raporlama gelişmiş formül düzenleyicisi
 description: Bu konu, Elektronik raporlama (ER) model eşlemesi ve biçim bileşenlerinde ifade yapılandırmak için, gelişmiş formül düzenleyicinin nasıl kullanılabileceğini açıklamaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
+ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138910"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "3257073"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektronik raporlama gelişmiş formül düzenleyicisi
 
@@ -156,6 +156,16 @@ Belirli bir metnin tüm yinelemelerini değiştirmek için, ifadenizde metni se�
 - Bir metin sabitinin etiket kodunu temsil edebilen, ayraç içindeki metin.
 
 [![ER formül düzenleyicisi](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+
+## <a name="limitations"></a>Sınırlamalar
+
+Düzenleyici şu anda aşağıdaki web tarayıcılarında desteklenmektedir:
+
+- Chrome
+- Edge
+- Firefox
+- Opera
+- Safari
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

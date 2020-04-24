@@ -2,7 +2,7 @@
 title: Satıcı kataloglarını içe aktarma
 description: Bu konu satıcı katalog verilerini içe aktarma işlemini açıklar.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 35b8e2a87708c88b12c5c7605a7977712a35a0f4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017886"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207396"
 ---
 # <a name="import-vendor-catalogs"></a>Satıcı kataloglarını içe aktarma
 [!include[banner](../includes/banner.md)]
@@ -35,17 +35,16 @@ Dynamics 365 Supply Chain Management'da, satınalma uzmanları, şirket personel
 Microsoft Dynamics 365 istemcisinden bir satıcı tarafından gönderilen katalog verilerini yükleyebilirsiniz.
 
 Bir satıcının, bir katalog bakım isteği (CMR) biçiminde size gönderdiği ürün verileri, XML dosyası biçiminde olmalıdır. CMR dosyası satıcının şirketinize sağladığı ürünlerin ayrıntılarını içermelidir.
-
+''''
 ## <a name="import-vendor-catalog-data"></a>Satıcı katalog verilerini içe aktarma
-
-Satıcı katalog verilerini içe aktarmak için aşağıdaki görevleri tamamlamanız gerekir:
+" Satıcı katalog verilerini içe aktarmak için aşağıdaki görevleri tamamlamanız gerekir:
 
 1.  Veri eşleme kurallarını tanımladığınız Veri yönetimi çalışma alanında bir proje ayarlayın. **Veri yönetimi**'ni ve arından **Veri projeleri için rolleri ayarlama**'yı seçin. 
-
+    ''
 2.  Tedarik kategori hiyerarşisi ayarlayın ve satıcılarınızı tedarik kategorilerine atayın. Emtia kodları kullanıyorsanız, emtia kodlarını tedarik kategorilerine ekleyin. Tedarik kategori hiyerarşisi ayarlama hakkında bilgi için bkz. [Tedarik kategori hiyerarşisi ayarlama](../procurement/tasks/set-up-procurement-category-hierarchy.md).
-
+    ''
 3.  Katalog içe aktarma için satıcıyı yapılandır. Bir satıcı seçin ve ardından **Tedarik** > **Kurulum** > **Katalog içe aktarma için satıcıyı yapılandır**'ı seçin.
-
+''''
 4.  Katalog içe aktarma için iş akışını yapılandırın. CMR dosyası şablonu oluşturun ve bunu satıcınızla paylaşın.
 
 5.  Bir satıcı kataloğu oluşturmak için **Tedarik ve kaynak atama** \> **Ortak** \> **Kataloglar** \> **Satıcı katalogları**'nı seçin. Satıcınızdan aldığınız katalog bakımı isteği (CMR) dosyaları bu katalogda gruplandırılır. 

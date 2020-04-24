@@ -2,7 +2,7 @@
 title: Servis siparişine adres ekleme
 description: Bu konu bir servis siparişine nasıl müşteri adresi ekleneceğini açıklar.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/02/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58188be6f82b6587011188379e5370b81f8fd114
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a5b1c0e300edc45ae3f4be9eae8afa56e06cccd6
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570377"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203101"
 ---
 # <a name="add-an-address-to-a-service-order"></a>Servis siparişine adres ekleme    
 

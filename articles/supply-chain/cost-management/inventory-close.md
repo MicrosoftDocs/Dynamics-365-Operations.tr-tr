@@ -2,7 +2,7 @@
 title: Stok kapanışı
 description: Çıkış hareketlerinin giriş hareketleriyle kapatılması sürecinin bir parçası olarak, genel defterin yapılan düzenlemeleri yansıtacak şekilde güncellenmesini seçebilirsiniz.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83c88a5fe52e41df5a0371d6666f544996bd3c76
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560795"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201652"
 ---
 # <a name="inventory-close"></a>Stok kapanışı
 

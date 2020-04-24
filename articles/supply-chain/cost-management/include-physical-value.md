@@ -2,7 +2,7 @@
 title: Fiziksel değeri dahil et
 description: Madde modeli grupları formunun Stok modeli FasTab'indeki Fiziksel değeri dahil et onay kutusu fiziksel olarak güncelleştirilmiş hareketlerin bir madde için devam eden ortalama maliyet fiyatının hesaplanmasına dahili edilip edilmeyeceğinin belirlenmesi için kullanırsınız.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 79033
 ms.assetid: 1928c145-bf82-436d-87ca-e7a173e31923
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 834438f8389e295bbb992f0b8397ff45559690c3
-ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
+ms.openlocfilehash: c6e70a40b15bf08d88958cbf3ee3e82ed63e7a48
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2693009"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201744"
 ---
 # <a name="include-physical-value"></a>Fiziksel değeri dahil et
 

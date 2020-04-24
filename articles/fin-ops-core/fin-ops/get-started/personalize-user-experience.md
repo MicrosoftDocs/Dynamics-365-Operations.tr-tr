@@ -3,7 +3,7 @@ title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konuda uygulamayı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 author: jasongre
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
-ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
+ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029374"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260518"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -80,7 +80,7 @@ Bir sayfada yapılabilecek en tipik ve önemli değişikliklerden bazıları, k�
 
 Ayrıca, açık kişiselleştirmenin en temel türleri de bir öğeye sağ tıklayıp **Kişiselleştir**'i seçerek kullanılabilir. (Sayfanızdaki tüm öğelerin kişiselleştirilemeyeceğini unutmayın.) Bu kişiselleştirme yöntemini kullandığınızda, öğenin özellik penceresi görünür.
 
-![Bir öğenin özelliklerini kişiselleştirme](./media/personalization-element-properties.png)
+![Bir öğenin özelliklerini kişiselleştirme](./media/cli-element-property-window.png)
 
 Bir öğeyi aşağıdaki yöntemlerle kişiselleştirmek için özellik penceresini kullanabilirsiniz:
 
@@ -89,6 +89,7 @@ Bir öğeyi aşağıdaki yöntemlerle kişiselleştirmek için özellik penceres
 - Hızlı sekme özet bölümüne bilgi eklemek (öğe, hızlı sekmedeyse).
 - Alanı atlayın, böylece sayfa boyunca sekme üzerinde geçiş yaptığınızda odağı hiçbir zaman alamaz.
 - Alandaki verilerin düzenlenmesini önleme (herhangi bir kayıt için).
+- Veri girişi için gerekli olacak alanı belirtin. Bu alana değer girilmezse, kırmızı bir kenarlıkla görüntülenir ve bu durumu belirten bir yıldız işareti bulunur. Bu seçenek yalnızca 10.0.11 sürümünden itibaren [Kaydedilen görünümler](saved-views.md) ve **Kişiselleştirme kullanarak alanları gerektiği gibi belirle** özellikleri etkin olduğunda kullanılabilir.
 
 Öğeye bağlı olarak, özellik penceresi başka kişiselleştirme yetenekleri içerebilir. Örneğin, bir kutucuğun özellik penceresi sayesinde o kutucuğu bir panoya yükseltebilir ve bir panonun özellik penceresiyle o panoda yeni bir çalışma alanı oluşturabilirsiniz.
 
@@ -116,6 +117,7 @@ Bir sayfada birden çok değişiklik veya diğer mekanizmalar aracılığıyla g
 - Bir öğeyi mevcut öğeler grubu içinde farklı bir konuma taşımak için **Taşı** aracını kullanın. Bir öğeyi üst grubunun dışına taşıyamazsınız. Bu aracı kullanmak için, araç çubuğunda **Taşı** düğmesini seçin ve sonra taşınacak öğeyi seçin. Bir öğeyi seçtiğinizde uygulama öğenin taşınabileceği konumları belirler. Bu konumlara *bırakma alanları* denir. Öğeyi mevcut grup içinde sürükledikçe, her bırakma bölgesi, öğenin bırakılabileceği alanın yanında renkli ve kalın bir çizgi olarak gösterilir.
 - Sayfanın klavye sekmesi sırasından bir öğeyi kaldırmak için **Atla** aracını kullanın. Araç çubuğunda **Atla** düğmesini seçtiğiniz zaman, atlanmış durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Etkileşimli olarak sekme sırasına alan ekleme veya kaldırma yapabilirsiniz.
 - Bir öğenin hızlı sekme özet bölümünde görünmesini isterseniz **Başlıkta göster** aracını kullanın. Araç çubuğunda **Başlıkta göster** düğmesini seçtiğiniz zaman, özet alanı olarak seçilen tüm alanlar gölgeli bir kapsayıcıda gösterilir. Hızlı sekme özetine etkileşimli olarak alan ekleyebilir veyaalanları seçerek kaldırabilirsiniz.
+- Veri girişi için bir öğeyi gerekli olarak belirlemek üzere **Gerekli** aracını kullanın. Araç çubuğunda **Gerekli** düğmesini seçtiğiniz zaman, gerekli olacak kişiselleştirilmiş tüm öğeler gölgeli bir kapsayıcıda gösterilir. Bu durumda bu öğeleri yeniden gerekli değil durumuna getirebilirsiniz. Bu seçenek yalnızca [Kaydedilen görünümler](saved-views.md) ve **Kişiselleştirme kullanarak alanları gerektiği gibi belirle** özellikleri etkinken bir özellik sürümünde kullanılabilir.
 - Bir öğeyi düzenlenebilir veya düzenlenemez olarak işaretlemek için **Kilitle** aracını kullanın. Araç çubuğunda **Kilitle** düğmesini seçtiğiniz zaman, düzenlenemez durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Bu durumda bu öğeleri yeniden düzenlenebilir hale getirebilirsiniz. Bazı alanların gerekli olduğunu ve düzenlenemez yapılamayacağını unutmayın. Bu alanların yanında bir asma kilit simgesi görünür.
 - Microsoft Power Apps kullanarak oluşturulmuş bir uygulamayı sayfaya katıştırmak için, **Power Apps'ten uygulama ekle** düğmesini kullanın. Power Apps uygulamasını bir sayfaya katıştırma hakkında ayrıntılı bilgi için bkz. [Power Apps uygulamalarını katıştırma](embed-power-apps.md). Bu seçenek yalnızca [Kaydedilmiş görünümler](saved-views.md) özelliği devre dışı bırakılınca kullanılabilir.  
 - Microsoft Power Apps veya üçüncü taraf kullanarak oluşturulmuş bir uygulamayı sayfaya katıştırmak için, **uygulama ekle** düğmesini kullanın. Bu seçenek yalnızca [kaydedilmiş görünümler](saved-views.md) özelliği etkin olduğunda kullanılabilir. 

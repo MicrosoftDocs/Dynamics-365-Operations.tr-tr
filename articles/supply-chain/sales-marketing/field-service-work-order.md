@@ -2,7 +2,7 @@
 title: Field Service'daki iş emirlerini Supply Chain Management'taki satış siparişleriyle eşitleme
 description: Bu konu, Field Service'taki iş emirlerini Supply Chain Management'daki satış siparişleriyle eşitlemek için kullanılan şablonları ve temel görevleri açıklar.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2aa37ada18120e3b2a6e6b309c7d7b7ca9d9158f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: a896acb984f64860df54b61350c0e6d12e0dd678
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249844"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209157"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Field Service'daki iş emirlerini Supply Chain Management'taki satış siparişleriyle eşitleme
 

@@ -2,7 +2,7 @@
 title: Kıymet Yönetimi parametreleri
 description: Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgili genel parametrelerin ayarlanması gerekir.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aa45e5f98834a2ed0089cdfc6e7eca721d64a09
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 8913fec3e76de0e1f4d10b05804317ada5498e83
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071718"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216655"
 ---
 # <a name="asset-management-parameters"></a>Kıymet Yönetimi parametreleri
 

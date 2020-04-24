@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme
 description: Bu konu, ürün önerilerinin etkinleştirilmesinin bir önkoşulu olan, Dynamics 365 Commerce ortamı için Azure Data Lake Storage'ın (ADSL) nasıl etkinleştirileceğini ve test edileceğini açıklamaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154448"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259760"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme
 
@@ -48,7 +48,8 @@ ADSL hakkında daha fazla bilgi için [ADSL resmi belgelerine](https://azure.mic
   
 ## <a name="configuration-steps"></a>Yapılandırma adımları
 
-Bu bölüm, bir ortamda ADLS etkinleştirmek için gereken yapılandırma adımlarını kapsamaktadır.
+Bu bölüm, ürün önerileriyle ilgili bir ortamda ADLS öğesini etkinleştirmek için gerekli olan yapılandırma adımlarını kapsamaktadır.
+ADLS'yi etkinleştirmek için gereken adımlara daha ayrıntılı bir genel bakış için bkz. [Veri deposununu Data Lake olarak kullanılabilir hale getirme](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-adls-in-the-environment"></a>Ortamda ADLS etkinleştirme
 
@@ -91,6 +92,8 @@ Henüz tamamlanmadıysa, ortam için [ürün önerilerini ve kişiselleştirmeyi
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
+[Varlık deposunu Data Lake olarak kullanılabilir hale getirme](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+
 [Ürün önerilerine genel bakış](product-recommendations.md)
 
 [Ürün önerilerini etkinleştir](enable-product-recommendations.md)
@@ -110,5 +113,3 @@ Henüz tamamlanmadıysa, ortam için [ürün önerilerini ve kişiselleştirmeyi
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
-
-

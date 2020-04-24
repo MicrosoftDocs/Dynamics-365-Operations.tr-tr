@@ -2,7 +2,7 @@
 title: Sistem tarafından yönlendirilen küme malzeme çekme
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta sistemle yönlendirilen küme çekmeye genel bir bakış sağlar.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c3b23a5d3b77bae89e4845bdff4ab20f95c46497
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 390e0a3379a6482e99a13f4f7835b5264e3747ac
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917868"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3217253"
 ---
 # <a name="system-directed-cluster-picking"></a>Sistem tarafından yönlendirilen küme malzeme çekme
 

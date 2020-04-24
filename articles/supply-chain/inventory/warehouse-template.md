@@ -2,7 +2,7 @@
 title: Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
 description: Bu konu ambar yapılandırma şablonu kullanarak bir ambarın nasıl ayarlanacağını açıklamaktadır.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3a6645bc55dfd4f03ce9872ff5017f1659b1f11c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 66fdc26b0b967a04a3c6a6e3444e00b1372dc504
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017609"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204022"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
 
@@ -93,7 +93,7 @@ Veri paketi için bir zip dosyası indirebilirsiniz. Bu dosya tüm verileri seç
 
 **Yürütmeyi görüntüle** günlüğü içe aktarılan her veri varlığıyla ilgili ayrıntılı bilgi sağlar. Hedef verilere hızlıca gitmek için aşamalandırma verisi görünümünü kullanabilirsiniz. Bu şekilde, uygulamadaki ilgili sayfalarda içe aktarılan verilen nasıl göründüğünü görebilirsiniz. Varsayılan veri şablonlarını kullandığınızda, her veri varlığı için içe aktarma sırası önceden tanımlanan şekilde çalışarak tüm bağımlı verilerin önce içe aktarılmasını sağlamaya yardımcı olur. Özel veri varlıkları projesinin bir parçasıysa, doğru sıranın tanımlandığından emin olmanız gerekir. Daha fazla bilgi için bkz. [Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Ambarın yapılandırmasını bir şirketten yeni bir şirkete aynı örnek içinde kopyalamak için ambar şablonu kullanma hakkında daha fazla bilgi edinmek için YouTube'daki şu 3 dakikalık videoyu izleyin: [Finance and Operations için yapılandırmayı kopyalamada ambar şablonu nasıl kullanılır?](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Ambarın yapılandırmasını bir şirketten yeni bir şirkete aynı kurulum içinde kopyalamak için ambar şablonu kullanma hakkında daha fazla bilgi edinmek üzere YouTube'daki bu 3 dakikalık videoyu izleyin: [Ambar şablonunu Finance and Operations için yapılandırmayı kopyalamak üzere kullanma](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>İlgili konu
 

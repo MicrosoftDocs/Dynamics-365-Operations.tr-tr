@@ -3,7 +3,7 @@ title: Satın alma kutusu modülü
 description: Bu konu satın alma kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154075"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261410"
 ---
 # <a name="buy-box-module"></a>Satın alma kutusu modülü
 
@@ -46,7 +46,7 @@ Satın alma kutusu modülü, Ürün Ayrıntıları sayfasının satın alma kutu
 Satınalma kutusu modülü bir ürünün başlığını, açıklamasını, fiyatını ve derecelendirmelerini işler. Ayrıca müşteriler boyut, stil ve renk gibi farklı ürün özniteliklerine sahip ürün çeşitlerini da seçmenizi sağlar. Bir ürün çeşidi seçildiğinde, satınalma kutusundaki diğer Özellikler (örneğin, ürün açıklaması ve görüntüler) değişken bilgilerini yansıtacak şekilde güncelleştirilir. 
 
 Müşterilerin satın alınacak maddelerin miktarını belirtebilmesi için bir miktar seçici sağlanır. Satın alınabilecek maksimum miktar, Tesis ayarlarında tanımlanabilir.
- 
+
 Müşteriler, satınalma kutusunda, alışveriş sepetine ürün ekleme, istek listesine ürün ekleme ve malzeme çekme yerleşimi seçme gibi eylemleri gerçekleştirebilirler. Bu eylemler bir ürün veya ürün çeşidi için gerçekleştirilebilir. Bir ürünü bir istek listesine listesine eklemek için müşterinin oturum açmış olması gerekir.
 
 Temalar, satın alma kutusu ürün özelliklerini ve eylem denetimlerini kaldırmak veya değiştirmek için kullanılabilir. 
@@ -65,7 +65,8 @@ Temalar, satın alma kutusu ürün özelliklerini ve eylem denetimlerini kaldır
 Satın al kutusu modülü **Site Ayarları \> Uzantılar** üzerinden yapılandırılabilecek üç ayara sahiptir:
 
 - **Maksimum miktar** - Bu özellik, alışveriş sepetine eklenebilecek maksimum madde sayısını belirtmekte kullanılır. Örneğin, bir perakende satılan her ürünün yalnızca 10 tanesi tek bir harekette satılabilir olduğuna karar verebilir.
-- **Stok denetimi** – değer **doğru** olarak ayarlandığında, yalnızca satın alma kutusu modülü stokta olduğundan emin olduktan sonra alışveriş sepetine bir madde eklenir. Bu stok denetimi hem maddenin sevk edileceği senaryolar için, hem de mağazada yer alacak senaryolar için gerçekleştirilir. Değer **yanlış** olarak ayarlandığında, bir madde alışveriş sepetine eklenmeden önce hiçbir stok denetimi yapılmaz ve sipariş yerleştirilir.
+- **Stok denetimi** – değer **doğru** olarak ayarlandığında, yalnızca satın alma kutusu modülü stokta olduğundan emin olduktan sonra alışveriş sepetine bir madde eklenir. Bu stok denetimi hem maddenin sevk edileceği senaryolar için, hem de mağazada yer alacak senaryolar için gerçekleştirilir. Değer **yanlış** olarak ayarlandığında, bir madde alışveriş sepetine eklenmeden önce hiçbir stok denetimi yapılmaz ve sipariş yerleştirilir. Arka ofiste stok ayarlarının yapılandırılması hakkında bilgi için bkz. [Perakende kanalları için stok kullanılabilirliğini yapılandırma](calculated-inventory-retail-channels.md).
+
 - **Stok tamponu** – Bu özellik, stok için bir tampon numarası belirtmek için kullanılır. Gerçek zamanlı olarak sürdürülür ve birçok müşteri sipariş yerleştirirken, doğru stok sayımının korunması zor olabilir. Bir stok denetimi yapıldığında, stok tampon tutardan azsa, ürün Stokta tükenmiş olarak kabul edilir. Bu nedenle, stok sayımı tam olarak eşitlenmemesi için çeşitli kanallarda hızlı şekilde satış gerçekleştiğinde, stokta olmayan bir maddenin satılması için daha az risk vardır.
 
 ## <a name="commerce-scale-unit-interaction"></a>Ticari ölçek birim etkileşimi
@@ -99,6 +100,8 @@ Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri aya
 
 [Sepet modülü](add-cart-module.md)
 
+[Sepet simgesi modülü](cart-icon-module.md)
+
 [Ödeme modülü](add-checkout-module.md)
 
 [Sipariş onayı modülü](order-confirmation-module.md)
@@ -106,3 +109,5 @@ Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri aya
 [Üst bilgi modülü](author-header-module.md)
 
 [Alt bilgi modülü](author-footer-module.md)
+
+[Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)

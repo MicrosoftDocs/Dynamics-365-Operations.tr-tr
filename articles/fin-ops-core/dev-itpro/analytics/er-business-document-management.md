@@ -3,7 +3,7 @@ title: İş belgesi yönetimine genel bakış
 description: Bu konu, ER çerçevesinin iş belge yönetimi özelliğinin nasıl kullanılacağı hakkında bilgi sağlar.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/15/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117349"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258569"
 ---
 # <a name="business-document-management-overview"></a>İş belgesi yönetimine genel bakış
 
@@ -46,7 +46,7 @@ Masaüstü uygulamaları kullanarak Microsoft Office şablonları Excel veya Wor
 
 ## <a name="business-document-availability"></a>İş belgesi uygunluğu
 
-Excel tabanlı şablonlarla olan aşağıdaki raporlar, genel önizlemenin yayımlanmasıyla kullanılabilir:
+Excel tabanlı şablonları olan aşağıdaki raporlar, genel önizlemenin yayımlanmasıyla kullanılabilir olacaktır:
 
 **Alacak hesapları** (Ağustos 2019)
 
@@ -248,9 +248,18 @@ Aşağıdaki grafik, **Alacak hesapları memuru** rolüne atanan kullanıcılar 
 1. İş belgesi yönetimi çalışma alanına erişimi olan bir kullanıcı olarak oturum açın.
 2. İş belgesi yönetimi çalışma alanı sayfasını açın.
 
+**Özellik yönetimi** çalışma alanında **İş belgeleri yönetimi için Office benzeri kullanıcı arabirimi deneyimi** özelliği devre dışı bırakıldığında, **İş belgesi yönetimi** çalışma alanındaki ana kılavuz aşağıdaki şablonları gösterir:
+
+- ER yapılandırma sağlayıcınızın sahibi olduğu şablonlar (**Elektronik raporlama** çalışma alanında etkin olarak işaretlenmiş geçerli sağlayıcı). Bu şablonlardan birini seçtikten sonra, başlatmak veya düzenlemeye devam etmek için **Şablonu düzenle**'yi seçebilirsiniz.
+- Sahibi başka ER yapılandırması sağlayıcıları olan şablonlar. Bu şablonlardan birini seçtikten sonra, ER yapılandırma sağlayıcınızın sahibi olduğu şablonun bir kopyasını oluşturmak için **Yeni belge**'yi seçebilir ve bu kopyayı düzenlemeye başlayabilirsiniz.
+
 ![İş belgesi yönetimi çalışma alanı sayfası](./media/BDM-Overview-EditingTemplate1.png)
 
 **Şablon** sekmesi seçili şablonun içeriğini gösterir. Seçili şablonun ayrıntılarını ve bu şablonun içinde bulunduğu er biçim yapılandırmasının ayrıntılarını gözden geçirmek için **Ayrıntılar** sekmesini seçin. Tüm şablonların **Yayımlanmış**durumu olduğuna ve **Düzeltme** sütununda hiçbir ayrıntı içermediğini unutmayın. Bu, bu şablonların şu anda düzenlenmediği anlamına gelir.
+
+**İş belgeleri yönetimi için Office benzeri kullanıcı arabirimi deneyimi** özelliği **Özellik yönetimi** çalışma alanında etkin olduğunda, **İş belgesi yönetimi** çalışmal alanındaki ana kılavuz ER yapılandırması sağlayıcınızın sahibi olduğu şablonları gösterir (**Elektronik raporlama** çalışma alanında etkin olarak işaretlenmiş olan geçerli sağlayıcı). Bu şablonlardan birini seçtikten sonra, başlatmak veya düzenlemeye devam etmek için **Şablonu düzenle**'yi seçebilirsiniz.
+
+Başka ER yapılandırması sağlayıcılarının sahibi olduğu şablonlarla çalışmak için, ER sağlayıcınızın sahibi olduğu bir şablon kopyası oluşturmak için **Yeni belge**'yi seçin. Daha sonra kopyayı düzenlemeye başlayabilirsiniz. Daha fazla bilgi için bkz. [İş belgesi yönetiminde yeni belge kullanıcı arabirimi](er-business-document-management-new-template-ui.md).
 
 ### <a name="initiate-editing-templates-owned-by-your-configuration-provider"></a>Yapılandırma sağlayıcınız tarafından sahip olan düzenleme şablonlarını başlatın
 

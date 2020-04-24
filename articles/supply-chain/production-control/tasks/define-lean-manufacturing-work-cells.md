@@ -2,7 +2,7 @@
 title: Yalın imalat iş hücrelerini tanımlama
 description: İş hücresi, yalın üretim işlem faaliyetlerinde kullanılabilen kaynak gruplarının belirli bir biçimidir.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 85cdd35e2e2f1e4e7a311b7eb61989d87f681466
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: e81fe2b21d3a9a8ed5ad00a5c9f96d442f6454f5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149102"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210675"
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Yalın imalat iş hücrelerini tanımlama
 

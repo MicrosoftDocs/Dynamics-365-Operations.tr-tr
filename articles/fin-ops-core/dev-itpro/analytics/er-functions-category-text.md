@@ -3,7 +3,7 @@ title: Metin kategorisindeki ER işlevlerinin listesi
 description: Bu konu, elektronik raporlama (ER) uygulamasında desteklenen metin işlevleri hakkında bilgi sağlar.
 author: NickSelin
 manager: kfend
-ms.date: 12/05/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f519d242fe74196b0d12bdc9df4f1b4b0e585752
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bd4dd7e9a3e1aa448adea5abd0c21b8133f34e3b
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916626"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201101"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Metin kategorisindeki ER işlevlerinin listesi
 
@@ -52,7 +52,7 @@ ms.locfileid: "2916626"
 | [Değiştir](er-functions-text-replace.md) | Bu işlev, belirtilen metin dizesini bir bütün veya bir kısmı başka bir dizeyle değiştirildikten sonra *dize* değeri olarak döndürür. |
 | [Sağa](er-functions-text-right.md) | Bu işlevi belirtilen dizenin sonundan itibaren belirtilen sayıda karakteri gösteren bir *dize* değeri döndürür. |
 | [Metin](er-functions-text-text.md) | Bu işlevi, belirtilen giriş geçerli uygulama örneğinin sunucu yerel ayarlarına göre biçimlendirilmiş bir metin dizesine çevrildikten sonra bleirtilen sayıyı *dize* değeri olarak döndürür. |
-| [Çevir](er-functions-text-translate.md) | Bu işlev, belirtilen metin dizesini bir bütün veya bir kısmı başka bir dizeyle değiştirildikten sonra *dize* değeri olarak döndürür. |
+| [Çevir](er-functions-text-translate.md) | Bu işlev, başka bir karakter kümesi için belirtilen metnin karakterlere değiştirilmesi sonucunu içeren bir *Dize* değeri döndürür. |
 | [Trim](er-functions-text-trim.md) | Bu işlevi, belirtilen metin dizesini baştaki ve sondaki boşluklar kesildikten ve sözcükler arasındaki birden fazla boşluk kaldırıldıktan sonra *Dize* değeri olarak döndürür. |
 | [Upper](er-functions-text-upper.md) | Bu işlev, büyük harflere dönüştürüldükten sonra bir *dize* değeri olarak belirtilen metin dizesini döndürür. |
 

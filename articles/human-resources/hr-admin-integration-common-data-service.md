@@ -1,9 +1,9 @@
 ---
 title: Common Data Service tümleştirmesini yapılandırma
-description: Common Data Service ve bir Microsoft Dynamics 365 Human Resources kurulumu arasında tümleştirmeyi açabilir veya kapatabilirsiniz. Ayrıca, eşitleme ayrıntılarını görüntüleyebilir, izleme verilerini temizleyebilir ve iki ortam arasındaki veri sorunlarının giderilmesine yardımcı olarak bir varlığı yeniden eşitleyebilirsiniz.
+description: Common Data Service ve Dynamics 365 Human Resources arasındaki tümleştirmeyi açabilir veya kapatabilirsiniz. Ayrıca, eşitleme ayrıntılarını görüntüleyebilir, izleme verilerini temizleyebilir ve iki ortam arasındaki veri sorunlarının giderilmesine yardımcı olarak bir varlığı yeniden eşitleyebilirsiniz.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,25 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 042daf3fdf7a906086af726472da050467d217e3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
+ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010836"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198434"
 ---
 # <a name="configure-common-data-service-integration"></a>Common Data Service tümleştirmesini yapılandırma
 
-Common Data Service ve bir Microsoft Dynamics 365 Human Resources kurulumu arasında tümleştirmeyi açabilir veya kapatabilirsiniz. Ayrıca, eşitleme ayrıntılarını görüntüleyebilir, izleme verilerini temizleyebilir ve iki ortam arasındaki veri sorunlarının giderilmesine yardımcı olarak bir varlığı yeniden eşitleyebilirsiniz.
+Common Data Service ve Dynamics 365 Human Resources arasındaki tümleştirmeyi açabilir veya kapatabilirsiniz. Ayrıca, eşitleme ayrıntılarını görüntüleyebilir, izleme verilerini temizleyebilir ve iki ortam arasındaki veri sorunlarının giderilmesine yardımcı olarak bir varlığı yeniden eşitleyebilirsiniz.
 
 Tümleştirmeyi kapattığınızda, kullanıcılar Human Resource veya Common Data Service'te değişiklikler yapabilir ancak bu değişiklikler iki ortam arasında eşitlenmez.
 
-Varsayılan olarak, Human Resources ile Common Data Service arasındaki tümleştirme, ortamlardaki tanıtım verilerinin varlığına bağlı olarak açık veya kapalıdır:
-
-- Tanıtım verileri içermeyen yeni ortamlar için **Kapalı**
-- Tanıtım verileri içeren yeni ortamlar için **Açık**
-
-Tanıtım verileri içeren yeni ortamlar, verileri alınca eşitlemeye başlayacaktır.
+Varsayılan olarak, Human Resources ve Common Data Service arasındaki tümleştirme kapalıdır.
 
 Aşağıdaki durumlarda tümleştirmeyi kapatmak isteyebilirsiniz:
 
@@ -103,9 +98,17 @@ Human Resources ve Common Data Service arasındaki veri eşitleme sırasında so
 
 ## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Varlığı Human Resources ve Common Data Service arasında eşitleme
 
-Common Data Service'teki değişikliklerin Human Resources'ta görünmesi çok uzun sürüyorsa veya izlemeyi temizledikten sonra izleme tablosunu yenilemeniz gerekiyorsa bu yordamı kullanın.
+Bu yordamı şu durumlarda kullanın:
 
-- Human Resources ve Common Data Service arasında bir varlık üzerinde tam eşitleme çalıştırmak için **CDS varlığının adı** alanında varlığı seçin ve **Şimdi eşitle**'yi seçin.
+- Common Data Service'taki değişikliklerin Human Resources'ta görünmesi çok uzun zaman aldığında.
+
+- İzlemeyi temizledikten sonra izleme tablosunu yenilemeniz gerekir.
+
+Human Resources ile Common Data Service arasında bir varlıkta tam eşitleme çalıştırmak için:
+
+1. **CDS varlık adı** alanında varlığı seçin.
+
+2. **Şimdi eşitle**'yi seçin.
 
 [![Tam eşitleme çalıştırma](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 

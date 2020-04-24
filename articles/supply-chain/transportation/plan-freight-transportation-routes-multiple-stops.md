@@ -2,7 +2,7 @@
 title: Birden fazla duraklı navlun taşıma rotaları planlama
 description: Bu makalede Dynamics 365 Supply Chain Management uygulamasında ulaşım yolları planlamak için kullandığınız çeşitli öğeler açıklanmaktadır.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 90013
 ms.assetid: 50d6f58c-f1c8-4321-9e83-8445cec57a85
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 033dde410519b061b0ff3fb42e8f7790af9449ec
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b76a6530517ec9e2e513cda7477f271558632650
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017562"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206277"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Birden fazla duraklı navlun taşıma rotaları planlama
 

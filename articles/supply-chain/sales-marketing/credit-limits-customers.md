@@ -2,7 +2,7 @@
 title: Müşteriler için kredi limitleri
 description: Bu makalede, Dynamics 365 Supply Chain Management'ta kredi limitlerinin nasıl çalıştığına genel bir bakış sağlanmıştır.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7be4ab297293bf1c9f720c2c16b2720afdfe771
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 7b94d187458a903669d4ec988c7f83737b797b1f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026475"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210192"
 ---
 # <a name="credit-limits-for-customers"></a>Müşteriler için kredi limitleri
 

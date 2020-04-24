@@ -2,7 +2,7 @@
 title: Standart maliyet dönüştürme özeti
 description: Bu makalede bir standart maliyet dönüştürme işleminin kurulması ve yürütülmesine yardımcı olacak sürecin genel görünümü verilmiştir. Listelenen adımlar bir standart maliyet dönüştürme işlemi için ön koşulları tamamlamanızdan sonra tamamlanacak şekilde açıklanmıştır.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 78212
 ms.assetid: d601d9d5-1de3-4868-aff4-534dca01d624
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5818bcf55cd7efc2d62f7b382a85653eb8bcbad6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564658"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214401"
 ---
 # <a name="standard-cost-conversion-overview"></a>Standart maliyet dönüştürme özeti
 

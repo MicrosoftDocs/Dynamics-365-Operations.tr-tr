@@ -2,7 +2,7 @@
 title: Etkin iş emri bakım işlerine genel bakış
 description: Bu konu, Varlık Yönetiminde etkin iş emri bakım işlerine genel bakışı açıklamaktadır.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 14d9de01270bd5487d147dd0507edf98f789b13d
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: f91253c06fce6a52716f215411168179847379fc
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626351"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215229"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>Etkin iş emri bakım işlerine genel bakış
 

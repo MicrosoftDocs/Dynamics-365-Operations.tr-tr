@@ -2,7 +2,7 @@
 title: İş emri yaşam döngüsü durumları
 description: Bu konuda Kıymet Yönetimi'nde iş emri yaşam döngüsü durumunu açıklanmaktadır.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f531f51d7f42f88e4da2d046e61313e9ada2b259
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 3bff0c7334a9e05c3f455ffc9b3c82863964785e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569812"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215482"
 ---
 # <a name="work-order-lifecycle-states"></a>İş emri yaşam döngüsü durumları
 

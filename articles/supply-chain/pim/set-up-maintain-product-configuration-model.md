@@ -2,7 +2,7 @@
 title: Ürün yapılandırma modelini ayarlama
 description: Bu makalede, bir ürün yapılandırma modelinin ayarlanmasına ve oluşturulmasına yönelik adımlar açıklanmaktadır.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 4051
 ms.assetid: 00df5537-b148-4e32-a248-3e35876ad4e1
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10faa26a53b026a70487124d696b0313d1f5814d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3560012c39f0ff2ea695006c232bc1ab1b61f971
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560244"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209387"
 ---
 # <a name="set-up-a-product-configuration-model"></a>Ürün yapılandırma modelini ayarlama
 

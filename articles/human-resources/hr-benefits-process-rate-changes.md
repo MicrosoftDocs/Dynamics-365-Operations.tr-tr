@@ -3,7 +3,7 @@ title: Değişiklikleri işleyin
 description: Yeni veya mevcut bir avantaj planının uygunluk kuralı ayarlarında bir değişikliği olduğunda, Microsoft Dynamics 365 Human Resources'ta kazanç oranı değişikliklerini işleyin.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9ebe5cfc2bdf7790770d27ece2dc67f7677db593
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 850709480326f6a0871f19ea1bb287631cd58b42
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010821"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229959"
 ---
 # <a name="process-rate-changes"></a>Değişiklikleri işleyin
-
-[!include [banner](includes/preview-feature.md)]
 
 Yeni veya mevcut bir avantaj planının uygunluk kuralı ayarlarında bir değişikliği olduğunda, Microsoft Dynamics 365 Human Resources'ta kazanç oranı değişikliklerini işleyin. Yeni bir uygunluk kuralı oluşturulup plana atanmışsa, bu durum sisteme, çalışanların şimdi yeni uygunluk seçeneklerine dayalı olarak planlama için uygun olup olmadığını denetlemek amacıyla, alt uygunluğu yeniden çalıştırması için uyarır. 
 
@@ -37,7 +35,7 @@ Yeni veya mevcut bir avantaj planının uygunluk kuralı ayarlarında bir deği�
 
    | Alan | Tanım |
    | --- | --- |
-   | Kayıt dönemi | Oran değişiklikleri işleyecek kayıt dönemi. |
+   | **Kayıt dönemi** | Oran değişiklikleri işleyecek kayıt dönemi. |
 
 3. İşlemi arka planda çalıştırmak istiyorsanız, **arka planda Çalıştır** 'ı seçin ve aşağıdaki görevleri gerçekleştirin:
 

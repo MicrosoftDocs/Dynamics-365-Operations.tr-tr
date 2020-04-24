@@ -2,7 +2,7 @@
 title: Kalite yönetimine genel bakış
 description: Bu koun, tedarik zincirinizde ürün kalitesini artırmak için Dynamics 365 Supply Chain Management'teki kalite yönetimini nasıl kullanabileceğiniz açıklar.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2d51c659d9d06f075458359d81de978e7a6d14b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
+ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814410"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3224921"
 ---
 # <a name="quality-management-overview"></a>Kalite yönetimine genel bakış
 
@@ -302,122 +302,6 @@ Satınalmada, **Kalite ilişkilendirmeleri** sayfasında **Olay türü** alanın
 
 - **Güncelleştirilen miktar başına** seçeneği **Evet** olarak ayarlanmışsa, madde örneklemesindeki teslim alınan miktar ve ayarlar temel alınarak satınalma siparişiyle ilgili her giriş için bir kalite emri oluşturulur. Satınalma siparişine göre bir miktar her teslim alındığında, yeni teslim alınan miktar temel alınarak geçerli kalite emirleri oluşturulur.
 - **Güncelleştirilen miktar başına** seçeneği **Hayır** olarak ayarlanmışsa, teslim alınan miktar ve ayarlar temel alınarak satınalma siparişiyle ilgili ilk giriş için bir kalite emri oluşturulur. Ayrıca, izleme boyutlarına bağlı olarak kalan miktar temel alınarak bir veya daha fazla kalite emri oluşturulur. Satınalma siparişiyle ilgili sonraki girişler için kalite emirleri oluşturulmaz.
-
-<table>
-<tbody>
-<tr>
-<th>Kalite belirtimi</th>
-<th>Güncelleştirilen miktar başına</th>
-<th>İzleme boyutu başına</th>
-<th>Sonuç</th>
-</tr>
-<tr>
-<td>Yüzde: %10</td>
-<td>Evet</td>
-<td>
-<p>Toplu iş numarası: Hayır</p>
-<p>Seri numarası: Hayır</p>
-</td>
-<td>
-<p>Sipariş miktarı: 100</p>
-<ol>
-<li>30 için tamamlandı olarak bildir
-<ul>
-<li>3 için (30'un %10'u) için kalite emri #1</li>
-</ul>
-</li>
-<li>70 için tamamlandı olarak bildir
-<ul>
-<li>7 (kalan sipariş miktarının %10'u; bu durumda 70'e eşittir) için kalite emri #2</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Sabit miktar: 1</td>
-<td>Hayır</td>
-<td>
-<p>Toplu iş numarası: Hayır</p>
-<p>Seri numarası: Hayır</p>
-</td>
-<td>Sipariş miktarı: 100
-<ol>
-<li>30 için tamamlandı olarak bildir
-<ul>
-<li>1 için kalite emri #1 oluşturulur (sabit değeri 1 olan ilk tamamlandı bildirimi miktarı için).</li>
-<li>Kalan miktara göre başka kalite emri oluşturulmaz.</li>
-</ul>
-</li>
-<li>10 için tamamlandı olarak bildir
-<ul>
-<li>Kalite emri oluşturulmaz.</li>
-</ul>
-</li>
-<li>60 için tamamlandı olarak bildir
-<ul>
-<li>Kalite emri oluşturulmaz.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Sabit miktar: 1</td>
-<td>Evet</td>
-<td>
-<p>Toplu iş numarası: Evet</p>
-<p>Seri numarası: Evet</p>
-</td>
-<td>
-<p>Sipariş miktarı: 10</p>
-<ol>
-<li>3 için tamamlandı olarak bildir
-<ul>
-<li>Toplu iş #b1, seri #s1'deki 1 için kalite emri #1</li>
-<li>Toplu iş #b2, seri #s2'deki 1 için kalite emri #2</li>
-<li>Toplu iş #b3, seri #s3'deki 1 için kalite emri #3</li>
-</ul>
-</li>
-<li>2 için tamamlandı olarak bildir
-<ul>
-<li>Toplu iş #b4, seri #s4'deki 1 için kalite emri #4</li>
-<li>Toplu iş #b5, seri #s5'deki 1 için kalite emri #5</li>
-</ul>
-</li>
-</ol>
-<p><strong>Not:</strong> Toplu iş yeniden kullanılabilir.</p>
-</td>
-</tr>
-<tr>
-<td>Sabit miktar: 2</td>
-<td>Hayır</td>
-<td>
-<p>Toplu iş numarası: Evet</p>
-<p>Seri numarası: Evet</p>
-</td>
-<td>
-<p>Sipariş miktarı: 10</p>
-<ol>
-<li>4 için tamamlandı olarak bildir
-<ul>
-<li>Toplu iş #b1, seri #s1'deki 1 için kalite emri #1.</li>
-<li>Toplu iş #b2, seri #s2'deki 1 için kalite emri #2.</li>
-<li>Toplu iş #b3, seri #s3'deki 1 için kalite emri #3.</li>
-<li>Toplu iş #b4, seri #s4'deki 1 için kalite emri #4.</li>
-<li>Kalan miktara göre başka kalite emri oluşturulmaz.</li>
-</ul>
-</li>
-<li>6 için tamamlandı olarak bildir
-<ul>
-<li>Kalite emri oluşturulmaz.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### <a name="production"></a>Üretim
 

@@ -3,7 +3,7 @@ title: Plan türleri oluşturma
 description: Microsoft Dynamics 365 Human Resources'ta plan tipi belirli avantaj tiplerinin üst düzey gruplandırmasıdır. Her plan türü, plan türüyle ilgili kuralları belirleyen bir plan türü koduna sahiptir.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d9bb490326c6dbfafa0f186cd05185ac01bad30
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 06a36f9f3fef54e7e06d616c9179374db4ce7115
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092390"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229706"
 ---
 # <a name="create-plan-types"></a>Plan türleri oluşturma
-
-[!include [banner](includes/preview-feature.md)]
 
 Microsoft Dynamics 365 Human Resources'ta plan tipi belirli avantaj tiplerinin üst düzey gruplandırmasıdır. Her plan türü, plan türüyle ilgili kuralları belirleyen bir plan türü koduna sahiptir. Örneğin, temel kullanım plan türü, bir çeşit ömür iş sigortası planı olduğundan ve ömür planı türü kodu için oluşturulan kurallara uygun olması gereken plan türü kodu ömrüne sahip olacaktır. Başka bir plan türü, planlama türü kod ömrü ile aynı zamanda ek ömür olabilir.
 
@@ -45,23 +43,23 @@ Plan türü, kapsam seçeneklerini tanımlayabilir. Kapsam seçenekleri, kapsma 
 
    | Alan | Tanım |
    | --- | --- |
-   | Plan türü | Plan türünü tanımlayan benzersiz ad. |
-   | Tanım | PLan türü açıklaması. |
-   | Plan türü kodu | Açılan değerler listesinden bir plan türü kodu seçin. Plan türü kod listesi, geçerli sürümde desteklenen tüm plan tiplerini görüntüler. |
-   | Eş zamanlı kayıt | Bir çalışanın aynı plan türünde çoklu kazanç planlarına veya her plan türü başına yalnızca bir avantaj planına kayıt yapıp kullanamayacağını belirtir. |
-   | İlgili kişi türü | Kişisel ilgili kişinin rolünü belirtir. Değerler boş, bağımlı ve lehdar değerlerdir. Plan tiplerinde kapsam seçeneğine dayalı olarak bir bağımlı veya lehdar gerekmiyorsa, ilgili kişi türünü boş bırakabilirsiniz. |
+   | **Plan türü** | Plan türünü tanımlayan benzersiz ad. |
+   | **Açıklama** | PLan türü açıklaması. |
+   | **Plan türü kodu** | Açılan değerler listesinden bir plan türü kodu seçin. Plan türü kod listesi, geçerli sürümde desteklenen tüm plan tiplerini görüntüler. |
+   | **Eş zamanlı kayıt** | Bir çalışanın aynı plan türünde çoklu kazanç planlarına veya her plan türü başına yalnızca bir avantaj planına kayıt yapıp kullanamayacağını belirtir. |
+   | **İlgili kişi türü** | Kişisel ilgili kişinin rolünü belirtir. Değerler boş, bağımlı ve lehdar değerlerdir. Plan tiplerinde kapsam seçeneğine dayalı olarak bir bağımlı veya lehdar gerekmiyorsa, **İlgili kişi türü**'nü boş bırakabilirsiniz. |
 
 4. Ömür olayı seçeneklerini yapılandırmak için, **eylemler**'i seçin ve sonra da **ömür olayı seçenekleri**'ni seçin. Aşağıdaki alanların değerleri belirtin:
 
    | Alan | Tanım |
    | --- | --- |
-   | Plan türü | Ömür olayı seçeneklerini konfigüre etmek için plan türü. |
-   | Yaşam olayı tür kodu | Ömür olayı türünün kodu. |
-   | İptale izin ver | Bir çalışanın ömür olayı sırasında bir sosyal haklar planını iptal edip kullanamayacağını belirtir. |
-   |Karşılama seçeneğini değiştir | Bir çalışanın ömür olayı sırasında bir kapsam seçeneklerini değiştirip değiştiremeyeceğini belirtir. |
-   | Yeni bir plana geç | Bir çalışanın ömür olayı sırasında planlarını değiştirip değiştiremeyeceğini belirtir. |
-   | Planı otomatik olarak iptal et |Ömür olayı sırasında planın otomatik olarak iptal edip edilmeyeceğini belirtir. |
-   | Uygunluk denetimini otomatik olarak yeniden aç | Yaşam olayı sırasında kazanç kaydı uygunluk denetiminin otomatik olarak yeniden açılıp açılmayacağını belirtir. |
-   | Raporlama aralığı | Yaşam olayının raporlama aralığını gün olarak belirtir. **Not**: tutar girmezseniz, sistem raporlama penceresinin sıfır olmasını varsayar ve ömür olayını işlemez. |
+   | **Plan türü** | Ömür olayı seçeneklerini konfigüre etmek için plan türü. |
+   | **Yaşam olayı tür kodu** | Ömür olayı türünün kodu. |
+   | **İptale izin ver** | Bir çalışanın ömür olayı sırasında bir sosyal haklar planını iptal edip kullanamayacağını belirtir. |
+   | **Karşılama seçeneğini değiştir** | Bir çalışanın ömür olayı sırasında bir kapsam seçeneklerini değiştirip değiştiremeyeceğini belirtir. |
+   | **Yeni bir plana geç** | Bir çalışanın ömür olayı sırasında planlarını değiştirip değiştiremeyeceğini belirtir. |
+   | **Planı otomatik olarak iptal et** | Ömür olayı sırasında planın otomatik olarak iptal edip edilmeyeceğini belirtir. |
+   | **Uygunluk denetimini otomatik olarak yeniden aç** | Yaşam olayı sırasında kazanç kaydı uygunluk denetiminin otomatik olarak yeniden açılıp açılmayacağını belirtir. |
+   | **Raporlama aralığı** | Yaşam olayının raporlama aralığını gün olarak belirtir. **Not**: tutar girmezseniz, sistem raporlama penceresinin sıfır olmasını varsayar ve ömür olayını işlemez. |
 
 5. **Kaydet**'i seçin. 

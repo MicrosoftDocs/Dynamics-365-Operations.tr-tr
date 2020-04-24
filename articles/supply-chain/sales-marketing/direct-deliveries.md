@@ -2,7 +2,7 @@
 title: Doğrudan teslimatlar
 description: Bu makale, doğrudan teslimler hakkında genel bilgiler sağlar. Müşterinize doğrudan satıcı tarafından gönderilen teslimatlar, doğrudan teslimatlardır.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 9704
 ms.assetid: 64c51384-8a4e-45d0-83c1-12cea22902f9
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9c4a695c591865c52ad5ee6d37a515139f58bf8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fa5349de635bbad8f32c24b82e297784600463ea
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563477"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209985"
 ---
 # <a name="direct-deliveries"></a>Doğrudan teslimatlar
 
