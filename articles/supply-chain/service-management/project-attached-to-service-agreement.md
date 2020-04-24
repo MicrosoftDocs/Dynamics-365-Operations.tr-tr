@@ -2,7 +2,7 @@
 title: Servis anlaşmasına iliştirilmiş proje
 description: Servis anlaşmalarını, Zaman türündeki projelerin dışında, tüm proje türlerine iliştirebilirsiniz.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAParameters
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,21 +18,21 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e28595f65bdd960dbd0ff4b786584e1c01fa257
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e5fc7e88451c4d9a915743babb8ec8f96f002e91
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546698"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211825"
 ---
-# <a name="project-attached-to-service-agreement"></a><span data-ttu-id="4d593-103">Servis anlaşmasına iliştirilmiş proje</span><span class="sxs-lookup"><span data-stu-id="4d593-103">Project attached to service agreement</span></span> 
+# <a name="project-attached-to-service-agreement"></a><span data-ttu-id="370e3-103">Servis anlaşmasına iliştirilmiş proje</span><span class="sxs-lookup"><span data-stu-id="370e3-103">Project attached to service agreement</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="4d593-104">Servis anlaşmalarını, **Zaman projesi** türü dışında, tüm proje türlerine iliştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4d593-104">You can attach service agreements to projects of every type except the **Time project** type.</span></span>
+<span data-ttu-id="370e3-104">Servis anlaşmalarını, **Zaman projesi** türü dışında, tüm proje türlerine iliştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="370e3-104">You can attach service agreements to projects of every type except the **Time project** type.</span></span>
 
-<span data-ttu-id="4d593-105">Tüm servis siparişi hareketlerini, servis anlaşmasına iliştirdiğiniz proje yoluyla kaydeder ve deftere nakledersiniz.</span><span class="sxs-lookup"><span data-stu-id="4d593-105">You register and post all service order transactions through the project that you attach to the service agreement.</span></span> <span data-ttu-id="4d593-106">Bu hareketlerin kaydedileceği ve deftere nakledileceği günlükleri **Servis yönetimi parametreleri** formundaki **Günlükler** bağlantısında belirtirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4d593-106">You specify the journals in which these transactions are registered and posted on the **Journals** link in the **Service management parameters** form.</span></span>
+<span data-ttu-id="370e3-105">Tüm servis siparişi hareketlerini, servis anlaşmasına iliştirdiğiniz proje yoluyla kaydeder ve deftere nakledersiniz.</span><span class="sxs-lookup"><span data-stu-id="370e3-105">You register and post all service order transactions through the project that you attach to the service agreement.</span></span> <span data-ttu-id="370e3-106">Bu hareketlerin kaydedileceği ve deftere nakledileceği günlükleri **Servis yönetimi parametreleri** formundaki **Günlükler** bağlantısında belirtirsiniz.</span><span class="sxs-lookup"><span data-stu-id="370e3-106">You specify the journals in which these transactions are registered and posted on the **Journals** link in the **Service management parameters** form.</span></span>
 
   
 

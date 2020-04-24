@@ -2,7 +2,7 @@
 title: Servis siparişlerini iptal et
 description: Bir servis siparişini veya servis siparişi satırını servis siparişinin kendisinden silebilir veya bir periyodik iş çalıştırarak birden çok servis siparişini iptal edebilirsiniz.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,61 +18,61 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1495fa139ea2c3cb7f2450b402126822f5549f60
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b60d5cf5ebae2386e7d9dc3d25833524044672d0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546606"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202986"
 ---
-# <a name="cancel-service-orders"></a><span data-ttu-id="1a31c-103">Servis siparişlerini iptal et</span><span class="sxs-lookup"><span data-stu-id="1a31c-103">Cancel service orders</span></span>   
+# <a name="cancel-service-orders"></a><span data-ttu-id="3edb9-103">Servis siparişlerini iptal et</span><span class="sxs-lookup"><span data-stu-id="3edb9-103">Cancel service orders</span></span>   
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="1a31c-104">Bir servis siparişini veya servis siparişi satırını servis siparişinin kendisinden silebilir veya bir periyodik iş çalıştırarak birden çok servis siparişini iptal edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1a31c-104">You can cancel a service order or service order line from the service order itself, or you can cancel multiple service orders by running a periodic job.</span></span>
+<span data-ttu-id="3edb9-104">Bir servis siparişini veya servis siparişi satırını servis siparişinin kendisinden silebilir veya bir periyodik iş çalıştırarak birden çok servis siparişini iptal edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3edb9-104">You can cancel a service order or service order line from the service order itself, or you can cancel multiple service orders by running a periodic job.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="1a31c-105">Servis siparişinin aşaması iptal etmeye izin vermiyorsa, servis siparişinin madde gereksinimleri varsa veya servis siparişi zaten deftere nakledildiyse servis siparişi iptal edilemez.</span><span class="sxs-lookup"><span data-stu-id="1a31c-105">Service orders cannot be canceled if the stage of the service order does not allow cancelation, if the service order has item requirements, or if the service order has already been posted.</span></span></P>
+> <P><span data-ttu-id="3edb9-105">Servis siparişinin aşaması iptal etmeye izin vermiyorsa, servis siparişinin madde gereksinimleri varsa veya servis siparişi zaten deftere nakledildiyse servis siparişi iptal edilemez.</span><span class="sxs-lookup"><span data-stu-id="3edb9-105">Service orders cannot be canceled if the stage of the service order does not allow cancelation, if the service order has item requirements, or if the service order has already been posted.</span></span></P>
 
 
-## <a name="cancel-a-service-order-in-the-service-orders-form"></a><span data-ttu-id="1a31c-106">Servis siparişini Servis siparişleri formundan iptal etme</span><span class="sxs-lookup"><span data-stu-id="1a31c-106">Cancel a service order in the Service orders form</span></span>
+## <a name="cancel-a-service-order-in-the-service-orders-form"></a><span data-ttu-id="3edb9-106">Servis siparişini Servis siparişleri formundan iptal etme</span><span class="sxs-lookup"><span data-stu-id="3edb9-106">Cancel a service order in the Service orders form</span></span>
 
-1.  <span data-ttu-id="1a31c-107">**Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a31c-107">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="1a31c-108">Servis siparişini seçin Eylem bölmesinde **Siparişi iptal et**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a31c-108">Select the service order, and on the Action Pane, click **Cancel order**.</span></span>
+1.  <span data-ttu-id="3edb9-107">**Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3edb9-107">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="3edb9-108">Servis siparişini seçin Eylem bölmesinde **Siparişi iptal et**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3edb9-108">Select the service order, and on the Action Pane, click **Cancel order**.</span></span>
 
-## <a name="cancel-a-service-order-line"></a><span data-ttu-id="1a31c-109">Servis siparişi satırını iptal etme</span><span class="sxs-lookup"><span data-stu-id="1a31c-109">Cancel a service order line</span></span>
+## <a name="cancel-a-service-order-line"></a><span data-ttu-id="3edb9-109">Servis siparişi satırını iptal etme</span><span class="sxs-lookup"><span data-stu-id="3edb9-109">Cancel a service order line</span></span>
 
-1.  <span data-ttu-id="1a31c-110">**Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a31c-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="1a31c-111">İptal etmek istediğiniz satırı içeren servis siparişine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a31c-111">Double-click the service order that contains the line you want to cancel.</span></span>
+1.  <span data-ttu-id="3edb9-110">**Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3edb9-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="3edb9-111">İptal etmek istediğiniz satırı içeren servis siparişine çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3edb9-111">Double-click the service order that contains the line you want to cancel.</span></span>
 
-2.  <span data-ttu-id="1a31c-112">İptal etmek istediğiniz servis siparişi satırını seçin ve **Sipariş satırı iptal et**'e tıklayarak satırın durumunu **İptal edildi** olarak değiştirin.</span><span class="sxs-lookup"><span data-stu-id="1a31c-112">Select the service order line that you want to cancel, and then click **Cancel order line** to change the status of the line to **Canceled**.</span></span>
+2.  <span data-ttu-id="3edb9-112">İptal etmek istediğiniz servis siparişi satırını seçin ve **Sipariş satırı iptal et**'e tıklayarak satırın durumunu **İptal edildi** olarak değiştirin.</span><span class="sxs-lookup"><span data-stu-id="3edb9-112">Select the service order line that you want to cancel, and then click **Cancel order line** to change the status of the line to **Canceled**.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="1a31c-113">Bir servis siparişi satırının iptalini geri almak ve durumu yeniden <STRONG>Oluşturuldu</STRONG> olarak değiştirmek için <STRONG>İptali geri al</STRONG>'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a31c-113">To reverse the cancellation of a service order line and change the status back to <STRONG>Created</STRONG>, click <STRONG>Revoke cancel</STRONG>.</span></span></P>
+> <P><span data-ttu-id="3edb9-113">Bir servis siparişi satırının iptalini geri almak ve durumu yeniden <STRONG>Oluşturuldu</STRONG> olarak değiştirmek için <STRONG>İptali geri al</STRONG>'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3edb9-113">To reverse the cancellation of a service order line and change the status back to <STRONG>Created</STRONG>, click <STRONG>Revoke cancel</STRONG>.</span></span></P>
 
 
-## <a name="cancel-multiple-service-orders"></a><span data-ttu-id="1a31c-114">Birden çok servis siparişini iptal etme</span><span class="sxs-lookup"><span data-stu-id="1a31c-114">Cancel multiple service orders</span></span>
+## <a name="cancel-multiple-service-orders"></a><span data-ttu-id="3edb9-114">Birden çok servis siparişini iptal etme</span><span class="sxs-lookup"><span data-stu-id="3edb9-114">Cancel multiple service orders</span></span>
 
-1.  <span data-ttu-id="1a31c-115">**Servis yönetimi** \> **Periyodik** \> **Servis siparişleri** \> **Servis siparişlerini iptal et**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a31c-115">Click **Service management** \> **Periodic** \> **Service orders** \> **Cancel service orders**.</span></span>
+1.  <span data-ttu-id="3edb9-115">**Servis yönetimi** \> **Periyodik** \> **Servis siparişleri** \> **Servis siparişlerini iptal et**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3edb9-115">Click **Service management** \> **Periodic** \> **Service orders** \> **Cancel service orders**.</span></span>
 
-2.  <span data-ttu-id="1a31c-116">**Seç** düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a31c-116">Click the **Select** button.</span></span>
+2.  <span data-ttu-id="3edb9-116">**Seç** düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3edb9-116">Click the **Select** button.</span></span>
 
-3.  <span data-ttu-id="1a31c-117">**Sorgu** formunda, **Ölçüt** sütununda iptal etmek istediğiniz servis siparişlerini seçin.</span><span class="sxs-lookup"><span data-stu-id="1a31c-117">In the **Inquiry** form, in the **Criteria** column, select the service orders that you want to cancel.</span></span>
+3.  <span data-ttu-id="3edb9-117">**Sorgu** formunda, **Ölçüt** sütununda iptal etmek istediğiniz servis siparişlerini seçin.</span><span class="sxs-lookup"><span data-stu-id="3edb9-117">In the **Inquiry** form, in the **Criteria** column, select the service orders that you want to cancel.</span></span>
 
-4.  <span data-ttu-id="1a31c-118">**Sorgu** formunu kapatmak için **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1a31c-118">Click **OK** to close the **Inquiry** form.</span></span>
+4.  <span data-ttu-id="3edb9-118">**Sorgu** formunu kapatmak için **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3edb9-118">Click **OK** to close the **Inquiry** form.</span></span>
 
-5.  <span data-ttu-id="1a31c-119">İptal edilen servis siparişlerini gösteren bir bilgi günlüğü oluşturmak için **Bilgi Günlüğünü Göster** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="1a31c-119">Select the **Show Infolog** check box to generate an Infolog that lists the canceled service orders.</span></span>
+5.  <span data-ttu-id="3edb9-119">İptal edilen servis siparişlerini gösteren bir bilgi günlüğü oluşturmak için **Bilgi Günlüğünü Göster** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3edb9-119">Select the **Show Infolog** check box to generate an Infolog that lists the canceled service orders.</span></span>
 
-6.  <span data-ttu-id="1a31c-120">Bir servis siparişinin **İptal edildi** durumunu tersine çevirmek istiyorsanız, **İptali geri al** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="1a31c-120">Select the **Revoke cancel** check box if you want to reverse the **Canceled** status of a service order.</span></span>
+6.  <span data-ttu-id="3edb9-120">Bir servis siparişinin **İptal edildi** durumunu tersine çevirmek istiyorsanız, **İptali geri al** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="3edb9-120">Select the **Revoke cancel** check box if you want to reverse the **Canceled** status of a service order.</span></span>
 
-7.  <span data-ttu-id="1a31c-121">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1a31c-121">Click **OK**.</span></span>
+7.  <span data-ttu-id="3edb9-121">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3edb9-121">Click **OK**.</span></span>
 
-<span data-ttu-id="1a31c-122">Seçilen servis siparişleri iptal edilir veya **İptal edildi** ilerleme durumları tekrar **İşlemde**'ye döndürülür.</span><span class="sxs-lookup"><span data-stu-id="1a31c-122">The selected service orders are either canceled or their progress status of **Canceled** has been reversed to **In process**.</span></span>
+<span data-ttu-id="3edb9-122">Seçilen servis siparişleri iptal edilir veya **İptal edildi** ilerleme durumları tekrar **İşlemde**'ye döndürülür.</span><span class="sxs-lookup"><span data-stu-id="3edb9-122">The selected service orders are either canceled or their progress status of **Canceled** has been reversed to **In process**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="1a31c-123"><STRONG>İptali geri al</STRONG> onay kutusunu işaretlerseniz, <STRONG>İptal edildi</STRONG> ilerleme durumundaki servis siparişleri tersine çevrilir ve <STRONG>İşlemde</STRONG> ilerleme durumuna sahip servis siparişleri iptal edilmez.</span><span class="sxs-lookup"><span data-stu-id="1a31c-123">If you select the <STRONG>Revoke cancel</STRONG> check box, service orders with a progress status of <STRONG>Canceled</STRONG> are reversed and service orders with a progress status of <STRONG>In process</STRONG> are not canceled.</span></span></P>
+> <P><span data-ttu-id="3edb9-123"><STRONG>İptali geri al</STRONG> onay kutusunu işaretlerseniz, <STRONG>İptal edildi</STRONG> ilerleme durumundaki servis siparişleri tersine çevrilir ve <STRONG>İşlemde</STRONG> ilerleme durumuna sahip servis siparişleri iptal edilmez.</span><span class="sxs-lookup"><span data-stu-id="3edb9-123">If you select the <STRONG>Revoke cancel</STRONG> check box, service orders with a progress status of <STRONG>Canceled</STRONG> are reversed and service orders with a progress status of <STRONG>In process</STRONG> are not canceled.</span></span></P>
 
 
   

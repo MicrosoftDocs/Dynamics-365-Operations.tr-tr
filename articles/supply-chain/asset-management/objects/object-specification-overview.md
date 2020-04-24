@@ -2,7 +2,7 @@
 title: Kıymet özniteliğine genel bakış
 description: Bu konuda, Kıymet Yönetimi'ndeki kıymet özniteliklerine genel bir bakış sağlanmaktadır.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
@@ -18,25 +18,25 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4564fb2670f75d64b0c5214fb430e5e3fa4405c
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bc7b6c5a415e233993b3cf14e499a2296b31e7fe
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571473"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209203"
 ---
-# <a name="asset-attribute-overview"></a><span data-ttu-id="2e580-103">Kıymet özniteliğine genel bakış</span><span class="sxs-lookup"><span data-stu-id="2e580-103">Asset attribute overview</span></span>
+# <a name="asset-attribute-overview"></a><span data-ttu-id="677e7-103">Kıymet özniteliğine genel bakış</span><span class="sxs-lookup"><span data-stu-id="677e7-103">Asset attribute overview</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="2e580-104">Bu konuda, Kıymet Yönetimi'ndeki kıymet özniteliklerine genel bir bakış sağlanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="2e580-104">This topic provides an overview of asset attributes in Asset Management.</span></span> <span data-ttu-id="2e580-105">Kıymet öznitelikleri bir kıymet türüyle veya bir kıymetle ilgili özelliklerdir.</span><span class="sxs-lookup"><span data-stu-id="2e580-105">Asset attributes are properties that are related to an asset type or an asset.</span></span> <span data-ttu-id="2e580-106">[Öznitelik türleri](../setup-for-functional-locations/specification-types.md) ayarladıysanız ve bunları kıymetler üzerinde kullandıysanız kıymetlerde ayarlanmış öznitelik değerlerine genel bakış alabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2e580-106">If you've set up [attribute types](../setup-for-functional-locations/specification-types.md) and used them on assets, you can get an overview of the attribute values that are set up on the assets.</span></span> <span data-ttu-id="2e580-107">Bu genel bakış Kıymet Yönetimi'nde iki sayfada gösterilir: **Kıymet özniteliğine genel bakış** ve **Kıymet özniteliği**.</span><span class="sxs-lookup"><span data-stu-id="2e580-107">This overview is shown on two pages in Asset Management: **Asset attribute overview** and **Asset attribute**.</span></span>
+<span data-ttu-id="677e7-104">Bu konuda, Kıymet Yönetimi'ndeki kıymet özniteliklerine genel bir bakış sağlanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="677e7-104">This topic provides an overview of asset attributes in Asset Management.</span></span> <span data-ttu-id="677e7-105">Kıymet öznitelikleri bir kıymet türüyle veya bir kıymetle ilgili özelliklerdir.</span><span class="sxs-lookup"><span data-stu-id="677e7-105">Asset attributes are properties that are related to an asset type or an asset.</span></span> <span data-ttu-id="677e7-106">[Öznitelik türleri](../setup-for-functional-locations/specification-types.md) ayarladıysanız ve bunları kıymetler üzerinde kullandıysanız kıymetlerde ayarlanmış öznitelik değerlerine genel bakış alabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="677e7-106">If you've set up [attribute types](../setup-for-functional-locations/specification-types.md) and used them on assets, you can get an overview of the attribute values that are set up on the assets.</span></span> <span data-ttu-id="677e7-107">Bu genel bakış Kıymet Yönetimi'nde iki sayfada gösterilir: **Kıymet özniteliğine genel bakış** ve **Kıymet özniteliği**.</span><span class="sxs-lookup"><span data-stu-id="677e7-107">This overview is shown on two pages in Asset Management: **Asset attribute overview** and **Asset attribute**.</span></span>
 
-<span data-ttu-id="2e580-108">**Kıymet özniteliğine genel bakış** sayfası her kıymet için ayrı bir satır gösterir.</span><span class="sxs-lookup"><span data-stu-id="2e580-108">The **Asset attribute overview** page shows a separate line for each asset.</span></span> <span data-ttu-id="2e580-109">Satır o kıymetle ilgili tüm öznitelik türlerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="2e580-109">The line shows all attribute types that are related to that asset.</span></span> <span data-ttu-id="2e580-110">**Kıymet özniteliğine genel bakış** sayfasını açmak ve kullanmak için şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="2e580-110">Follow these steps to open and use the **Asset attribute overview** page.</span></span>
+<span data-ttu-id="677e7-108">**Kıymet özniteliğine genel bakış** sayfası her kıymet için ayrı bir satır gösterir.</span><span class="sxs-lookup"><span data-stu-id="677e7-108">The **Asset attribute overview** page shows a separate line for each asset.</span></span> <span data-ttu-id="677e7-109">Satır o kıymetle ilgili tüm öznitelik türlerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="677e7-109">The line shows all attribute types that are related to that asset.</span></span> <span data-ttu-id="677e7-110">**Kıymet özniteliğine genel bakış** sayfasını açmak ve kullanmak için şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="677e7-110">Follow these steps to open and use the **Asset attribute overview** page.</span></span>
 
-1. <span data-ttu-id="2e580-111">**Kıymet yönetimi** \> **Sorgular** \> **Kıymetler** \> **Kıymet özniteliğine genel bakış**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2e580-111">Select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute overview**.</span></span>
-2. <span data-ttu-id="2e580-112">**Kıymet türü** alanında bir kıymet türü seçin.</span><span class="sxs-lookup"><span data-stu-id="2e580-112">In the **Asset type** field, select an asset type.</span></span>
-3. <span data-ttu-id="2e580-113">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2e580-113">Select **OK**.</span></span> <span data-ttu-id="2e580-114">Bir liste seçili kıymet türünü kullanan tüm kıymetleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="2e580-114">A list shows all the assets that use the selected asset type.</span></span> <span data-ttu-id="2e580-115">Her kıymet için tüm ilgili kıymet özniteliği türleri aynı satırda gösterilir.</span><span class="sxs-lookup"><span data-stu-id="2e580-115">For each asset, all related asset attribute types are shown on the same line.</span></span>
+1. <span data-ttu-id="677e7-111">**Kıymet yönetimi** \> **Sorgular** \> **Kıymetler** \> **Kıymet özniteliğine genel bakış**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="677e7-111">Select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute overview**.</span></span>
+2. <span data-ttu-id="677e7-112">**Kıymet türü** alanında bir kıymet türü seçin.</span><span class="sxs-lookup"><span data-stu-id="677e7-112">In the **Asset type** field, select an asset type.</span></span>
+3. <span data-ttu-id="677e7-113">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="677e7-113">Select **OK**.</span></span> <span data-ttu-id="677e7-114">Bir liste seçili kıymet türünü kullanan tüm kıymetleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="677e7-114">A list shows all the assets that use the selected asset type.</span></span> <span data-ttu-id="677e7-115">Her kıymet için tüm ilgili kıymet özniteliği türleri aynı satırda gösterilir.</span><span class="sxs-lookup"><span data-stu-id="677e7-115">For each asset, all related asset attribute types are shown on the same line.</span></span>
 
-<span data-ttu-id="2e580-116">**Kıymet özniteliği** sayfasında bir kıymette kullanılan her öznitelik türü için ayrı bir satır gösterilir.</span><span class="sxs-lookup"><span data-stu-id="2e580-116">The **Asset attribute** page shows a separate line for each attribute type that is used on an asset.</span></span> <span data-ttu-id="2e580-117">Bu sayfayı açmak için **Kıymet yönetimi** \> **Sorgular** \> **Kıymetler** \> **Kıymet özniteliği**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="2e580-117">To open this page, select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute**.</span></span>
+<span data-ttu-id="677e7-116">**Kıymet özniteliği** sayfasında bir kıymette kullanılan her öznitelik türü için ayrı bir satır gösterilir.</span><span class="sxs-lookup"><span data-stu-id="677e7-116">The **Asset attribute** page shows a separate line for each attribute type that is used on an asset.</span></span> <span data-ttu-id="677e7-117">Bu sayfayı açmak için **Kıymet yönetimi** \> **Sorgular** \> **Kıymetler** \> **Kıymet özniteliği**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="677e7-117">To open this page, select **Asset management** \> **Inquiries** \> **Assets** \> **Asset attribute**.</span></span>

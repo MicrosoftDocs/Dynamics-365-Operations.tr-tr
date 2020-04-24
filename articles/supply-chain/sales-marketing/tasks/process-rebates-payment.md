@@ -2,52 +2,52 @@
 title: Ödeme için indirimleri işleme
 description: Bu yordam, onaylanmış ve işlenmiş müşteri indirimlerini alacak dekontlarına dönüştürmeyi göstermektedir.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 412e7df299a419642018a62e6e8febd5d59c65e1
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: e2e9af7167e4a4209b708d00493b8866f6d5f7e0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148470"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209939"
 ---
-# <a name="process-rebates-for-payment"></a><span data-ttu-id="a20fa-103">Ödeme için indirimleri işleme</span><span class="sxs-lookup"><span data-stu-id="a20fa-103">Process rebates for payment</span></span>
+# <a name="process-rebates-for-payment"></a><span data-ttu-id="be7f4-103">Ödeme için indirimleri işleme</span><span class="sxs-lookup"><span data-stu-id="be7f4-103">Process rebates for payment</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a20fa-104">Bu yordam, onaylanmış ve işlenmiş müşteri indirimlerini alacak dekontlarına dönüştürmeyi göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="a20fa-104">This procedure demonstrates how to convert approved and processed customer rebates to credit notes.</span></span> <span data-ttu-id="a20fa-105">Bu kılavuzu USMF demo şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a20fa-105">You can use this guide in the USMF demo company.</span></span> <span data-ttu-id="a20fa-106">Bu kılavuz için önkoşul İşaretli duruma sahip bir veya daha fazla indirim talep olmasıdır.</span><span class="sxs-lookup"><span data-stu-id="a20fa-106">The precondition for this guide is to have one or more rebate claims which have a status of Mark.</span></span> <span data-ttu-id="a20fa-107">USMF kullanıyorsanız,"Müşteri indirimleri oluştur ve işle" kılavuzunu bu kılavuza başlamadan önce işleyin.</span><span class="sxs-lookup"><span data-stu-id="a20fa-107">If you're using USMF you should run the "Generate and process customer rebates" guide before you start this guide.</span></span>
+<span data-ttu-id="be7f4-104">Bu yordam, onaylanmış ve işlenmiş müşteri indirimlerini alacak dekontlarına dönüştürmeyi göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="be7f4-104">This procedure demonstrates how to convert approved and processed customer rebates to credit notes.</span></span> <span data-ttu-id="be7f4-105">Bu kılavuzu USMF demo şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="be7f4-105">You can use this guide in the USMF demo company.</span></span> <span data-ttu-id="be7f4-106">Bu kılavuz için önkoşul İşaretli duruma sahip bir veya daha fazla indirim talep olmasıdır.</span><span class="sxs-lookup"><span data-stu-id="be7f4-106">The precondition for this guide is to have one or more rebate claims which have a status of Mark.</span></span> <span data-ttu-id="be7f4-107">USMF kullanıyorsanız,"Müşteri indirimleri oluştur ve işle" kılavuzunu bu kılavuza başlamadan önce işleyin.</span><span class="sxs-lookup"><span data-stu-id="be7f4-107">If you're using USMF you should run the "Generate and process customer rebates" guide before you start this guide.</span></span>
 
 
-## <a name="convert-rebate-claims-to-credit-note"></a><span data-ttu-id="a20fa-108">Alacak dekontunu indirim talebine dönüştürme</span><span class="sxs-lookup"><span data-stu-id="a20fa-108">Convert rebate claims to credit note</span></span>
-1. <span data-ttu-id="a20fa-109">Tüm müşteriler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="a20fa-109">Go to All customers.</span></span>
-2. <span data-ttu-id="a20fa-110">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="a20fa-110">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="a20fa-111">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-111">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="a20fa-112">Eylem Bölmesinde, Tahsil et'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-112">On the Action Pane, click Collect.</span></span>
-5. <span data-ttu-id="a20fa-113">Hareketleri kapat'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-113">Click Settle transactions.</span></span>
-6. <span data-ttu-id="a20fa-114">İşlevler'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-114">Click Functions.</span></span>
-7. <span data-ttu-id="a20fa-115">İndirim programı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-115">Click Rebate program.</span></span>
-    * <span data-ttu-id="a20fa-116">Bu indirim sayfası müşteri indirim çalışma ekranında işlediğiniz ve İşaretli durumda olan indirim taleplerini listeler.</span><span class="sxs-lookup"><span data-stu-id="a20fa-116">The Rebate page lists the rebate claims that you have processed in the customer rebate workbench and that are in status Mark.</span></span>    
-8. <span data-ttu-id="a20fa-117">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-117">Click Edit.</span></span>
-    * <span data-ttu-id="a20fa-118">Alacak dekontuna dahil etmek istediğiniz talepler için İşaretle alanında onay işaretleri koyun.</span><span class="sxs-lookup"><span data-stu-id="a20fa-118">Set checkmarks in the Mark field for the claims that you want to include into credit note.</span></span>   
-9. <span data-ttu-id="a20fa-119">İşlevler'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-119">Click Functions.</span></span>
-10. <span data-ttu-id="a20fa-120">Alacak dekontu oluşturma'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-120">Click Create credit note.</span></span>
-    * <span data-ttu-id="a20fa-121">Bir günlüğün nakledildiğini bildiren bir ileti görüntülenir (Alacak hesapları parametreleri sayfasında belirtildiği gibi bu, alacak hesapları tüketim günlüğüdür).</span><span class="sxs-lookup"><span data-stu-id="a20fa-121">A message appears to inform you that a journal has been posted (This is the Accounts receivable consumption journal, as specified in the Accounts receivable parameters page).</span></span> <span data-ttu-id="a20fa-122">Bu işlem gerçek borç (alacak) tutarının müşteri bakiyesine aktarılmasına neden olur.</span><span class="sxs-lookup"><span data-stu-id="a20fa-122">This causes the real liability (credit) amount to be moved to the customer balance.</span></span> <span data-ttu-id="a20fa-123">Yani müşterinin hesabına alacak kaydedildiği ve İndirim tahakkuk hesabına borç kaydedildiği anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="a20fa-123">This means that the customer's account has been credited, and the Rebate accrual account has been debited.</span></span>  
-11. <span data-ttu-id="a20fa-124">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-124">Close the page.</span></span>
-12. <span data-ttu-id="a20fa-125">İptal'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-125">Click Cancel.</span></span>
-    * <span data-ttu-id="a20fa-126">Güncelleştirmeleri görebilmeniz için sayfayı yeniler.</span><span class="sxs-lookup"><span data-stu-id="a20fa-126">This refreshes the page so that you can see the updates.</span></span>  
-13. <span data-ttu-id="a20fa-127">Eylem Bölmesinde, Tahsil et'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-127">On the Action Pane, click Collect.</span></span>
-14. <span data-ttu-id="a20fa-128">Hareketleri kapat'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-128">Click Settle transactions.</span></span>
-    * <span data-ttu-id="a20fa-129">Toplam indirim miktarını temsil eden negatif bir miktar hareketinin, fatura referansı olmadan müşterinin hesabına eklendiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-129">Note that a transaction for negative amount, representing the total rebate amount, without invoice reference has been added to the customer balance.</span></span>   
-15. <span data-ttu-id="a20fa-130">İptal'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a20fa-130">Click Cancel.</span></span>
+## <a name="convert-rebate-claims-to-credit-note"></a><span data-ttu-id="be7f4-108">Alacak dekontunu indirim talebine dönüştürme</span><span class="sxs-lookup"><span data-stu-id="be7f4-108">Convert rebate claims to credit note</span></span>
+1. <span data-ttu-id="be7f4-109">Tüm müşteriler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="be7f4-109">Go to All customers.</span></span>
+2. <span data-ttu-id="be7f4-110">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="be7f4-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="be7f4-111">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="be7f4-112">Eylem Bölmesinde, Tahsil et'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-112">On the Action Pane, click Collect.</span></span>
+5. <span data-ttu-id="be7f4-113">Hareketleri kapat'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-113">Click Settle transactions.</span></span>
+6. <span data-ttu-id="be7f4-114">İşlevler'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-114">Click Functions.</span></span>
+7. <span data-ttu-id="be7f4-115">İndirim programı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-115">Click Rebate program.</span></span>
+    * <span data-ttu-id="be7f4-116">Bu indirim sayfası müşteri indirim çalışma ekranında işlediğiniz ve İşaretli durumda olan indirim taleplerini listeler.</span><span class="sxs-lookup"><span data-stu-id="be7f4-116">The Rebate page lists the rebate claims that you have processed in the customer rebate workbench and that are in status Mark.</span></span>    
+8. <span data-ttu-id="be7f4-117">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-117">Click Edit.</span></span>
+    * <span data-ttu-id="be7f4-118">Alacak dekontuna dahil etmek istediğiniz talepler için İşaretle alanında onay işaretleri koyun.</span><span class="sxs-lookup"><span data-stu-id="be7f4-118">Set checkmarks in the Mark field for the claims that you want to include into credit note.</span></span>   
+9. <span data-ttu-id="be7f4-119">İşlevler'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-119">Click Functions.</span></span>
+10. <span data-ttu-id="be7f4-120">Alacak dekontu oluşturma'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-120">Click Create credit note.</span></span>
+    * <span data-ttu-id="be7f4-121">Bir günlüğün nakledildiğini bildiren bir ileti görüntülenir (Alacak hesapları parametreleri sayfasında belirtildiği gibi bu, alacak hesapları tüketim günlüğüdür).</span><span class="sxs-lookup"><span data-stu-id="be7f4-121">A message appears to inform you that a journal has been posted (This is the Accounts receivable consumption journal, as specified in the Accounts receivable parameters page).</span></span> <span data-ttu-id="be7f4-122">Bu işlem gerçek borç (alacak) tutarının müşteri bakiyesine aktarılmasına neden olur.</span><span class="sxs-lookup"><span data-stu-id="be7f4-122">This causes the real liability (credit) amount to be moved to the customer balance.</span></span> <span data-ttu-id="be7f4-123">Yani müşterinin hesabına alacak kaydedildiği ve İndirim tahakkuk hesabına borç kaydedildiği anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="be7f4-123">This means that the customer's account has been credited, and the Rebate accrual account has been debited.</span></span>  
+11. <span data-ttu-id="be7f4-124">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-124">Close the page.</span></span>
+12. <span data-ttu-id="be7f4-125">İptal'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-125">Click Cancel.</span></span>
+    * <span data-ttu-id="be7f4-126">Güncelleştirmeleri görebilmeniz için sayfayı yeniler.</span><span class="sxs-lookup"><span data-stu-id="be7f4-126">This refreshes the page so that you can see the updates.</span></span>  
+13. <span data-ttu-id="be7f4-127">Eylem Bölmesinde, Tahsil et'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-127">On the Action Pane, click Collect.</span></span>
+14. <span data-ttu-id="be7f4-128">Hareketleri kapat'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-128">Click Settle transactions.</span></span>
+    * <span data-ttu-id="be7f4-129">Toplam indirim miktarını temsil eden negatif bir miktar hareketinin, fatura referansı olmadan müşterinin hesabına eklendiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-129">Note that a transaction for negative amount, representing the total rebate amount, without invoice reference has been added to the customer balance.</span></span>   
+15. <span data-ttu-id="be7f4-130">İptal'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="be7f4-130">Click Cancel.</span></span>
 

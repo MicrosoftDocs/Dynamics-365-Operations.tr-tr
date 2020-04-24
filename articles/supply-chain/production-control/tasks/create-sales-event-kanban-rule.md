@@ -2,7 +2,7 @@
 title: Satış olayı kanban kuralı oluşturma
 description: Bu yordam, satış siparişi oluşturma sırasında tetiklenecek bir kanban kuralı oluşturmak için gereken ayarlara odaklanır.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,67 +10,67 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e17778d0fb05a1a5f7562027dc4e7f037e95e555
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 1759adea6db8120078e2f32bff79178545c2328a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149171"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210871"
 ---
-# <a name="create-a-sales-event-kanban-rule"></a><span data-ttu-id="636c3-103">Satış olayı kanban kuralı oluşturma</span><span class="sxs-lookup"><span data-stu-id="636c3-103">Create a sales event kanban rule</span></span>
+# <a name="create-a-sales-event-kanban-rule"></a><span data-ttu-id="c28af-103">Satış olayı kanban kuralı oluşturma</span><span class="sxs-lookup"><span data-stu-id="c28af-103">Create a sales event kanban rule</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="636c3-104">Bu yordam, satış siparişi oluşturma sırasında tetiklenecek bir kanban kuralı oluşturmak için gereken ayarlara odaklanır.</span><span class="sxs-lookup"><span data-stu-id="636c3-104">This procedure focuses on the setup needed to create a kanban rule that is triggered during sales order creation.</span></span> <span data-ttu-id="636c3-105">Olay kanbanı kuralı, satış siparişi satırlarından kaynaklanan gereksinimleri yeniler.</span><span class="sxs-lookup"><span data-stu-id="636c3-105">The event kanban rule replenishes requirements that originate from sales order lines.</span></span> <span data-ttu-id="636c3-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="636c3-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="636c3-107">Yeni veya değiştirilmiş bir ürünün üretimine hazırlanırken kullanılması için işlem mühendisi veya değer akışı yöneticisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="636c3-107">It is intended for the process engineer or the value stream manager as they prepare production of a new or modified product.</span></span>
+<span data-ttu-id="c28af-104">Bu yordam, satış siparişi oluşturma sırasında tetiklenecek bir kanban kuralı oluşturmak için gereken ayarlara odaklanır.</span><span class="sxs-lookup"><span data-stu-id="c28af-104">This procedure focuses on the setup needed to create a kanban rule that is triggered during sales order creation.</span></span> <span data-ttu-id="c28af-105">Olay kanbanı kuralı, satış siparişi satırlarından kaynaklanan gereksinimleri yeniler.</span><span class="sxs-lookup"><span data-stu-id="c28af-105">The event kanban rule replenishes requirements that originate from sales order lines.</span></span> <span data-ttu-id="c28af-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="c28af-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c28af-107">Yeni veya değiştirilmiş bir ürünün üretimine hazırlanırken kullanılması için işlem mühendisi veya değer akışı yöneticisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="c28af-107">It is intended for the process engineer or the value stream manager as they prepare production of a new or modified product.</span></span>
 
 
 
 
-## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="636c3-108">Yeni bir kanban kuralı oluştur</span><span class="sxs-lookup"><span data-stu-id="636c3-108">Create a new kanban rule</span></span>
-1. <span data-ttu-id="636c3-109">Kanban kuralları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="636c3-109">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="636c3-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="636c3-110">Click New.</span></span>
-3. <span data-ttu-id="636c3-111">Yenileme stratejisi alanında 'Olay' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="636c3-111">In the Replenishment strategy field, select 'Event'.</span></span>
-    * <span data-ttu-id="636c3-112">Olay seçilmesi, kanban kuralının bir olay tarafından (örneğin, bir satış siparişi satırı oluşturulması) tetikleneceği anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="636c3-112">Selecting Event means that the kanban rule is triggered by an event, for example, creation of a sales order line.</span></span>   <span data-ttu-id="636c3-113">Bu, her bir kanbanın belirli bir isteği kapsaması gereken alanlara uygulanır.</span><span class="sxs-lookup"><span data-stu-id="636c3-113">This is applied to areas where each kanban should cover a specific demand.</span></span>  
-4. <span data-ttu-id="636c3-114">İlk plan alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="636c3-114">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="636c3-115">Son Derleme öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="636c3-115">Select Final assembly.</span></span>  
-5. <span data-ttu-id="636c3-116">Ayrıntılar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="636c3-116">Expand the Details section.</span></span>
-6. <span data-ttu-id="636c3-117">Ürün alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="636c3-117">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="636c3-118">L0050 öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="636c3-118">Select L0050.</span></span>  
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="c28af-108">Yeni bir kanban kuralı oluştur</span><span class="sxs-lookup"><span data-stu-id="c28af-108">Create a new kanban rule</span></span>
+1. <span data-ttu-id="c28af-109">Kanban kuralları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="c28af-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="c28af-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c28af-110">Click New.</span></span>
+3. <span data-ttu-id="c28af-111">Yenileme stratejisi alanında 'Olay' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="c28af-111">In the Replenishment strategy field, select 'Event'.</span></span>
+    * <span data-ttu-id="c28af-112">Olay seçilmesi, kanban kuralının bir olay tarafından (örneğin, bir satış siparişi satırı oluşturulması) tetikleneceği anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="c28af-112">Selecting Event means that the kanban rule is triggered by an event, for example, creation of a sales order line.</span></span>   <span data-ttu-id="c28af-113">Bu, her bir kanbanın belirli bir isteği kapsaması gereken alanlara uygulanır.</span><span class="sxs-lookup"><span data-stu-id="c28af-113">This is applied to areas where each kanban should cover a specific demand.</span></span>  
+4. <span data-ttu-id="c28af-114">İlk plan alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="c28af-114">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="c28af-115">Son Derleme öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="c28af-115">Select Final assembly.</span></span>  
+5. <span data-ttu-id="c28af-116">Ayrıntılar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="c28af-116">Expand the Details section.</span></span>
+6. <span data-ttu-id="c28af-117">Ürün alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="c28af-117">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="c28af-118">L0050 öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="c28af-118">Select L0050.</span></span>  
 
-## <a name="define-an-event"></a><span data-ttu-id="636c3-119">Bir olay tanımla</span><span class="sxs-lookup"><span data-stu-id="636c3-119">Define an event</span></span>
-1. <span data-ttu-id="636c3-120">Olaylat bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="636c3-120">Expand the Events section.</span></span>
-2. <span data-ttu-id="636c3-121">Satış olayı alanında 'Otomatik' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="636c3-121">In the Sales event field, select 'Automatic'.</span></span>
-    * <span data-ttu-id="636c3-122">Satış olayı Otomatik olarak seçilerek, bir satış satırı ürün ve giriş konumuyla eşleştiğinde bu kanban kuralı otomatik olarak tetiklenir.</span><span class="sxs-lookup"><span data-stu-id="636c3-122">By selecting the sales event Automatic, this kanban rule will be triggered automatically when a sales line matches the product and receipt location.</span></span> <span data-ttu-id="636c3-123">Bu yordamda, ambar 13'te ürün L0050'dir.</span><span class="sxs-lookup"><span data-stu-id="636c3-123">In this procedure, it is product L0050 on warehouse 13.</span></span>  
-3. <span data-ttu-id="636c3-124">Minimum olay miktarını '50' olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="636c3-124">Set Minimum event quantity to '50'.</span></span>
-    * <span data-ttu-id="636c3-125">50 minimum olay miktarı ile, kanban kuralı yalnızca 50 veya daha fazla bir miktarda olay olduğunda tetiklenir.</span><span class="sxs-lookup"><span data-stu-id="636c3-125">With a minimum event quantity of 50, the kanban rule will only be triggered by events with a quantity of 50 or more.</span></span>  
-4. <span data-ttu-id="636c3-126">Üretim akışı bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="636c3-126">Expand the Production flow section.</span></span>
-    * <span data-ttu-id="636c3-127">Giriş konumunun ambar 13 olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="636c3-127">Notice that the Receipt location is warehouse 13.</span></span> <span data-ttu-id="636c3-128">Bunun anlamı kanban kuralın bu konum için tetikleneceğidir.</span><span class="sxs-lookup"><span data-stu-id="636c3-128">This means that this kanban rule will be triggered for this location.</span></span>  
-    * <span data-ttu-id="636c3-129">Bu örnekte, ambar 13'te bulunan 50 veya daha fazla miktardaki L0050 ürünü bu kanban kuralını tetikler.</span><span class="sxs-lookup"><span data-stu-id="636c3-129">In this example, a sales line for product L0050, with a quantity of 50 or more, on warehouse 13, will trigger this kanban rule.</span></span>  
+## <a name="define-an-event"></a><span data-ttu-id="c28af-119">Bir olay tanımla</span><span class="sxs-lookup"><span data-stu-id="c28af-119">Define an event</span></span>
+1. <span data-ttu-id="c28af-120">Olaylat bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="c28af-120">Expand the Events section.</span></span>
+2. <span data-ttu-id="c28af-121">Satış olayı alanında 'Otomatik' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="c28af-121">In the Sales event field, select 'Automatic'.</span></span>
+    * <span data-ttu-id="c28af-122">Satış olayı Otomatik olarak seçilerek, bir satış satırı ürün ve giriş konumuyla eşleştiğinde bu kanban kuralı otomatik olarak tetiklenir.</span><span class="sxs-lookup"><span data-stu-id="c28af-122">By selecting the sales event Automatic, this kanban rule will be triggered automatically when a sales line matches the product and receipt location.</span></span> <span data-ttu-id="c28af-123">Bu yordamda, ambar 13'te ürün L0050'dir.</span><span class="sxs-lookup"><span data-stu-id="c28af-123">In this procedure, it is product L0050 on warehouse 13.</span></span>  
+3. <span data-ttu-id="c28af-124">Minimum olay miktarını '50' olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="c28af-124">Set Minimum event quantity to '50'.</span></span>
+    * <span data-ttu-id="c28af-125">50 minimum olay miktarı ile, kanban kuralı yalnızca 50 veya daha fazla bir miktarda olay olduğunda tetiklenir.</span><span class="sxs-lookup"><span data-stu-id="c28af-125">With a minimum event quantity of 50, the kanban rule will only be triggered by events with a quantity of 50 or more.</span></span>  
+4. <span data-ttu-id="c28af-126">Üretim akışı bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="c28af-126">Expand the Production flow section.</span></span>
+    * <span data-ttu-id="c28af-127">Giriş konumunun ambar 13 olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="c28af-127">Notice that the Receipt location is warehouse 13.</span></span> <span data-ttu-id="c28af-128">Bunun anlamı kanban kuralın bu konum için tetikleneceğidir.</span><span class="sxs-lookup"><span data-stu-id="c28af-128">This means that this kanban rule will be triggered for this location.</span></span>  
+    * <span data-ttu-id="c28af-129">Bu örnekte, ambar 13'te bulunan 50 veya daha fazla miktardaki L0050 ürünü bu kanban kuralını tetikler.</span><span class="sxs-lookup"><span data-stu-id="c28af-129">In this example, a sales line for product L0050, with a quantity of 50 or more, on warehouse 13, will trigger this kanban rule.</span></span>  
 
-## <a name="create-sales-line-to-trigger-event-kanban-rule"></a><span data-ttu-id="636c3-130">Olay kanbanı kuralı tetiklemek için satış satırı oluştur</span><span class="sxs-lookup"><span data-stu-id="636c3-130">Create sales line to trigger event kanban rule</span></span>
-1. <span data-ttu-id="636c3-131">Tüm satış siparişleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="636c3-131">Go to All sales orders.</span></span>
-    * <span data-ttu-id="636c3-132">Kanban kuralı kaydedildiğinde bir uyarı gösterilir, bunun anlamı kanbanların satış siparişi oluşturma sırasında gerçek zamanlı oluşturulacağıdır.</span><span class="sxs-lookup"><span data-stu-id="636c3-132">A warning is shown when the kanban rule is saved, which means that kanbans will be created in real-time during sales order creation.</span></span>  
-2. <span data-ttu-id="636c3-133">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="636c3-133">Click New.</span></span>
-3. <span data-ttu-id="636c3-134">Müşteri hesabı alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="636c3-134">In the Customer account field, enter or select a value.</span></span>
-    * <span data-ttu-id="636c3-135">Örneğin, ABD-003 öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="636c3-135">For example, select US-003.</span></span>  
-4. <span data-ttu-id="636c3-136">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="636c3-136">Click OK.</span></span>
-5. <span data-ttu-id="636c3-137">Madde numarası alanına 'L0050' girin.</span><span class="sxs-lookup"><span data-stu-id="636c3-137">In the Item number field, type 'L0050'.</span></span>
-6. <span data-ttu-id="636c3-138">Tesis alanında '1' girin.</span><span class="sxs-lookup"><span data-stu-id="636c3-138">In the Site field, type '1'.</span></span>
-    * <span data-ttu-id="636c3-139">Ambar 13 Site 1'de olduğundan Site 1'i seçin.</span><span class="sxs-lookup"><span data-stu-id="636c3-139">Select Site 1 because Warehouse 13 is on Site 1.</span></span>  
-7. <span data-ttu-id="636c3-140">Ambar alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="636c3-140">In the Warehouse field, enter or select a value.</span></span>
-    * <span data-ttu-id="636c3-141">Ambar'ı 13 olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="636c3-141">Set Warehouse to 13.</span></span>  
-8. <span data-ttu-id="636c3-142">Miktarı '75' olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="636c3-142">Set Quantity to '75'.</span></span>
-    * <span data-ttu-id="636c3-143">Oluşturulan kanban kuralını tetiklemek için 50 veya daha yüksek değerde miktar girin.</span><span class="sxs-lookup"><span data-stu-id="636c3-143">Enter a quantity of 50 or greater, to trigger the created kanban rule.</span></span>  
+## <a name="create-sales-line-to-trigger-event-kanban-rule"></a><span data-ttu-id="c28af-130">Olay kanbanı kuralı tetiklemek için satış satırı oluştur</span><span class="sxs-lookup"><span data-stu-id="c28af-130">Create sales line to trigger event kanban rule</span></span>
+1. <span data-ttu-id="c28af-131">Tüm satış siparişleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="c28af-131">Go to All sales orders.</span></span>
+    * <span data-ttu-id="c28af-132">Kanban kuralı kaydedildiğinde bir uyarı gösterilir, bunun anlamı kanbanların satış siparişi oluşturma sırasında gerçek zamanlı oluşturulacağıdır.</span><span class="sxs-lookup"><span data-stu-id="c28af-132">A warning is shown when the kanban rule is saved, which means that kanbans will be created in real-time during sales order creation.</span></span>  
+2. <span data-ttu-id="c28af-133">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c28af-133">Click New.</span></span>
+3. <span data-ttu-id="c28af-134">Müşteri hesabı alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c28af-134">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="c28af-135">Örneğin, ABD-003 öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="c28af-135">For example, select US-003.</span></span>  
+4. <span data-ttu-id="c28af-136">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c28af-136">Click OK.</span></span>
+5. <span data-ttu-id="c28af-137">Madde numarası alanına 'L0050' girin.</span><span class="sxs-lookup"><span data-stu-id="c28af-137">In the Item number field, type 'L0050'.</span></span>
+6. <span data-ttu-id="c28af-138">Tesis alanında '1' girin.</span><span class="sxs-lookup"><span data-stu-id="c28af-138">In the Site field, type '1'.</span></span>
+    * <span data-ttu-id="c28af-139">Ambar 13 Site 1'de olduğundan Site 1'i seçin.</span><span class="sxs-lookup"><span data-stu-id="c28af-139">Select Site 1 because Warehouse 13 is on Site 1.</span></span>  
+7. <span data-ttu-id="c28af-140">Ambar alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="c28af-140">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="c28af-141">Ambar'ı 13 olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="c28af-141">Set Warehouse to 13.</span></span>  
+8. <span data-ttu-id="c28af-142">Miktarı '75' olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="c28af-142">Set Quantity to '75'.</span></span>
+    * <span data-ttu-id="c28af-143">Oluşturulan kanban kuralını tetiklemek için 50 veya daha yüksek değerde miktar girin.</span><span class="sxs-lookup"><span data-stu-id="c28af-143">Enter a quantity of 50 or greater, to trigger the created kanban rule.</span></span>  
 
-## <a name="verify-that-kanban-is-created"></a><span data-ttu-id="636c3-144">Kanbanın oluşturulduğunu doğrula</span><span class="sxs-lookup"><span data-stu-id="636c3-144">Verify that kanban is created</span></span>
-1. <span data-ttu-id="636c3-145">Ürün ve tedarik seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="636c3-145">Click Product and supply.</span></span>
-2. <span data-ttu-id="636c3-146">İlişkilendirme ağacını görüntüle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="636c3-146">Click View pegging tree.</span></span>
-    * <span data-ttu-id="636c3-147">Satış satırıyla aynı miktara sahip bir kanban oluşturulduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="636c3-147">Notice that a kanban with the same quantity as the sales line is created.</span></span> <span data-ttu-id="636c3-148">L0050 üretmek için gereken malzeme sorunlarını da görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="636c3-148">You can also see the material issues needed to produce L0050.</span></span> <span data-ttu-id="636c3-149">Bu yordamın son aşamasıdır.</span><span class="sxs-lookup"><span data-stu-id="636c3-149">This is the last step in this procedure.</span></span>  
+## <a name="verify-that-kanban-is-created"></a><span data-ttu-id="c28af-144">Kanbanın oluşturulduğunu doğrula</span><span class="sxs-lookup"><span data-stu-id="c28af-144">Verify that kanban is created</span></span>
+1. <span data-ttu-id="c28af-145">Ürün ve tedarik seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c28af-145">Click Product and supply.</span></span>
+2. <span data-ttu-id="c28af-146">İlişkilendirme ağacını görüntüle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c28af-146">Click View pegging tree.</span></span>
+    * <span data-ttu-id="c28af-147">Satış satırıyla aynı miktara sahip bir kanban oluşturulduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="c28af-147">Notice that a kanban with the same quantity as the sales line is created.</span></span> <span data-ttu-id="c28af-148">L0050 üretmek için gereken malzeme sorunlarını da görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c28af-148">You can also see the material issues needed to produce L0050.</span></span> <span data-ttu-id="c28af-149">Bu yordamın son aşamasıdır.</span><span class="sxs-lookup"><span data-stu-id="c28af-149">This is the last step in this procedure.</span></span>  
 

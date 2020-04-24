@@ -2,7 +2,7 @@
 title: Stok durdurma oluştur ve sürdür
 description: Bu yordam, stok durdurma kullanarak eldeki fiziksel stokun başka çıkış kaynak belgeleri tarafından rezerve edilmesini önlemeyi gösterir.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,45 +10,45 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2408addea3615ffe6dbc4db8baecfdef6a65e839
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: e76c3d1f46e31dcd2171682a629dabe5bf5db418
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145836"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204160"
 ---
-# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="a81ab-103">Stok durdurma oluştur ve sürdür</span><span class="sxs-lookup"><span data-stu-id="a81ab-103">Create and maintain an inventory blocking</span></span>
+# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="d119d-103">Stok durdurma oluştur ve sürdür</span><span class="sxs-lookup"><span data-stu-id="d119d-103">Create and maintain an inventory blocking</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a81ab-104">Bu yordam, stok durdurma kullanarak eldeki fiziksel stokun başka çıkış kaynak belgeleri tarafından rezerve edilmesini önlemeyi gösterir.</span><span class="sxs-lookup"><span data-stu-id="a81ab-104">This procedure shows how to prevent physical on-hand inventory from being reserved by other outbound source documents by using the inventory blocking.</span></span> <span data-ttu-id="a81ab-105">Yordamı demo veri şirketi USMF kullanarak, gösterilen örnek değerlerle çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a81ab-105">You can run the procedure in demo data company USMF using the example values that are shown.</span></span> <span data-ttu-id="a81ab-106">Bu yordama başlamadan önce eldeki fiziksel stoka sahip bir öğe olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="a81ab-106">You need to have an item with physical on-hand inventory available before you start this procedure.</span></span>
+<span data-ttu-id="d119d-104">Bu yordam, stok durdurma kullanarak eldeki fiziksel stokun başka çıkış kaynak belgeleri tarafından rezerve edilmesini önlemeyi gösterir.</span><span class="sxs-lookup"><span data-stu-id="d119d-104">This procedure shows how to prevent physical on-hand inventory from being reserved by other outbound source documents by using the inventory blocking.</span></span> <span data-ttu-id="d119d-105">Yordamı demo veri şirketi USMF kullanarak, gösterilen örnek değerlerle çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d119d-105">You can run the procedure in demo data company USMF using the example values that are shown.</span></span> <span data-ttu-id="d119d-106">Bu yordama başlamadan önce eldeki fiziksel stoka sahip bir öğe olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="d119d-106">You need to have an item with physical on-hand inventory available before you start this procedure.</span></span>
 
 
-## <a name="create-an-inventory-blocking"></a><span data-ttu-id="a81ab-107">Stok durdurma oluşturun</span><span class="sxs-lookup"><span data-stu-id="a81ab-107">Create an inventory blocking</span></span>
-1. <span data-ttu-id="a81ab-108">**Gezinti panosu**'nda, **Modüller > Stok yönetimi > Periyodik görevler > Stok durdurma**'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="a81ab-108">In the **Navigation pane**, go to **Modules > Inventory management > Periodic tasks > Inventory blocking**.</span></span>
-2. <span data-ttu-id="a81ab-109">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a81ab-109">Click **New**.</span></span>
-3. <span data-ttu-id="a81ab-110">**Madde numarası** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="a81ab-110">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="a81ab-111">Listede kullanmak istediğiniz maddeyi seçin.</span><span class="sxs-lookup"><span data-stu-id="a81ab-111">In the list, select the item you want to choose.</span></span> <span data-ttu-id="a81ab-112">Bir madde numarası ile engellemek istediğiniz eldeki fiziksel stoku seçin.</span><span class="sxs-lookup"><span data-stu-id="a81ab-112">Select an item number with physical on-hand inventory that you want to block.</span></span> <span data-ttu-id="a81ab-113">USMF kullanıyorsanız, M9201 öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a81ab-113">If you're using USMF you can select item M9201.</span></span>  
-5. <span data-ttu-id="a81ab-114">**Miktar** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="a81ab-114">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="a81ab-115">Madde M9201 kullanıyorsanız, 200'den az seçmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="a81ab-115">If you're using item M9201, you need to select less than 200.</span></span>
-6. <span data-ttu-id="a81ab-116">**Stok boyutları** hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="a81ab-116">Expand the **Inventory dimensions** fastTab.</span></span>
-7. <span data-ttu-id="a81ab-117">**Ambar** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="a81ab-117">In the **Warehouse** field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="a81ab-118">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="a81ab-118">In the list, find and select the desired record.</span></span> <span data-ttu-id="a81ab-119">Madde M9201 kullanıyorsanız, ambar 51'i seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a81ab-119">If you're using item M9201, you can select warehouse 51.</span></span>  
-9. <span data-ttu-id="a81ab-120">**Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a81ab-120">Click **Save**.</span></span>
+## <a name="create-an-inventory-blocking"></a><span data-ttu-id="d119d-107">Stok durdurma oluşturun</span><span class="sxs-lookup"><span data-stu-id="d119d-107">Create an inventory blocking</span></span>
+1. <span data-ttu-id="d119d-108">**Gezinti panosu**'nda, **Modüller > Stok yönetimi > Periyodik görevler > Stok durdurma**'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="d119d-108">In the **Navigation pane**, go to **Modules > Inventory management > Periodic tasks > Inventory blocking**.</span></span>
+2. <span data-ttu-id="d119d-109">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d119d-109">Click **New**.</span></span>
+3. <span data-ttu-id="d119d-110">**Madde numarası** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="d119d-110">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="d119d-111">Listede kullanmak istediğiniz maddeyi seçin.</span><span class="sxs-lookup"><span data-stu-id="d119d-111">In the list, select the item you want to choose.</span></span> <span data-ttu-id="d119d-112">Bir madde numarası ile engellemek istediğiniz eldeki fiziksel stoku seçin.</span><span class="sxs-lookup"><span data-stu-id="d119d-112">Select an item number with physical on-hand inventory that you want to block.</span></span> <span data-ttu-id="d119d-113">USMF kullanıyorsanız, M9201 öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d119d-113">If you're using USMF you can select item M9201.</span></span>  
+5. <span data-ttu-id="d119d-114">**Miktar** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="d119d-114">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="d119d-115">Madde M9201 kullanıyorsanız, 200'den az seçmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="d119d-115">If you're using item M9201, you need to select less than 200.</span></span>
+6. <span data-ttu-id="d119d-116">**Stok boyutları** hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="d119d-116">Expand the **Inventory dimensions** fastTab.</span></span>
+7. <span data-ttu-id="d119d-117">**Ambar** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="d119d-117">In the **Warehouse** field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="d119d-118">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d119d-118">In the list, find and select the desired record.</span></span> <span data-ttu-id="d119d-119">Madde M9201 kullanıyorsanız, ambar 51'i seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d119d-119">If you're using item M9201, you can select warehouse 51.</span></span>  
+9. <span data-ttu-id="d119d-120">**Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d119d-120">Click **Save**.</span></span>
 
-## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="a81ab-121">Stok durdurma koşullarını güncelleştirin</span><span class="sxs-lookup"><span data-stu-id="a81ab-121">Update the conditions of the inventory blocking</span></span>
-1. <span data-ttu-id="a81ab-122">**Genel** hızlı sekmesinde, **Miktar** alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="a81ab-122">In the **General** fastTab, in the **Quantity** field, enter a number.</span></span> <span data-ttu-id="a81ab-123">Stok Miktar alanını, engelleyecek miktarı yansıtacak şekilde güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="a81ab-123">Update the inventory quantity field to reflect the quantity to block.</span></span>  
-2. <span data-ttu-id="a81ab-124">**Beklenen tarih** alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="a81ab-124">In the **Expected date** field, enter a date.</span></span> <span data-ttu-id="a81ab-125">Engellenen stokun rezervasyon için ne zaman kullanılabilir hale geleceğini belirtmek için, tarih atamak isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a81ab-125">You might want to indicate when the blocked inventory is expected to become available for reservation by assigning an expected date.</span></span> <span data-ttu-id="a81ab-126">Stok durdurma için Beklenen girişler seçeneği, bir durdurmayı el ile oluşturduğunuzda varsayılan olduğu şekilde, işaretliyse, bu tarih beklenen hareket üzerinde belirir.</span><span class="sxs-lookup"><span data-stu-id="a81ab-126">If the Expected receipts option is selected for the inventory blocking, as it is by default when you manually create a blocking, this date will appear on the expected transaction.</span></span>  
-3. <span data-ttu-id="a81ab-127">**Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a81ab-127">Click **Save**.</span></span>
+## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="d119d-121">Stok durdurma koşullarını güncelleştirin</span><span class="sxs-lookup"><span data-stu-id="d119d-121">Update the conditions of the inventory blocking</span></span>
+1. <span data-ttu-id="d119d-122">**Genel** hızlı sekmesinde, **Miktar** alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="d119d-122">In the **General** fastTab, in the **Quantity** field, enter a number.</span></span> <span data-ttu-id="d119d-123">Stok Miktar alanını, engelleyecek miktarı yansıtacak şekilde güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="d119d-123">Update the inventory quantity field to reflect the quantity to block.</span></span>  
+2. <span data-ttu-id="d119d-124">**Beklenen tarih** alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="d119d-124">In the **Expected date** field, enter a date.</span></span> <span data-ttu-id="d119d-125">Engellenen stokun rezervasyon için ne zaman kullanılabilir hale geleceğini belirtmek için, tarih atamak isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d119d-125">You might want to indicate when the blocked inventory is expected to become available for reservation by assigning an expected date.</span></span> <span data-ttu-id="d119d-126">Stok durdurma için Beklenen girişler seçeneği, bir durdurmayı el ile oluşturduğunuzda varsayılan olduğu şekilde, işaretliyse, bu tarih beklenen hareket üzerinde belirir.</span><span class="sxs-lookup"><span data-stu-id="d119d-126">If the Expected receipts option is selected for the inventory blocking, as it is by default when you manually create a blocking, this date will appear on the expected transaction.</span></span>  
+3. <span data-ttu-id="d119d-127">**Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d119d-127">Click **Save**.</span></span>
 
-## <a name="remove-the-inventory-blocking"></a><span data-ttu-id="a81ab-128">Stok durdurmayı kaldırın</span><span class="sxs-lookup"><span data-stu-id="a81ab-128">Remove the inventory blocking</span></span>
-1. <span data-ttu-id="a81ab-129">**Eylem panosu**'nda, **Sil** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a81ab-129">On the **Action pane**, click **Delete**.</span></span>
-2. <span data-ttu-id="a81ab-130">**Evet** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a81ab-130">Click **Yes**.</span></span>
-3. <span data-ttu-id="a81ab-131">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="a81ab-131">Close the page.</span></span>
+## <a name="remove-the-inventory-blocking"></a><span data-ttu-id="d119d-128">Stok durdurmayı kaldırın</span><span class="sxs-lookup"><span data-stu-id="d119d-128">Remove the inventory blocking</span></span>
+1. <span data-ttu-id="d119d-129">**Eylem panosu**'nda, **Sil** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d119d-129">On the **Action pane**, click **Delete**.</span></span>
+2. <span data-ttu-id="d119d-130">**Evet** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d119d-130">Click **Yes**.</span></span>
+3. <span data-ttu-id="d119d-131">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d119d-131">Close the page.</span></span>
 

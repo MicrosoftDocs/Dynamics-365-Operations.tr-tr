@@ -2,7 +2,7 @@
 title: Barkod türlerini koru
 description: Bu yordam, malzeme çekme listesi raporunun bir parçası olarak da kullanılabilen yeni bir barkod açıklamasının nasıl ayarlanacağını gösterir.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,39 +10,39 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BarcodeSetup, InventParameters
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7834745923bf5ec05018ff5829ddaa0b75df5db7
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 979726a1d094146b546bbc6d31963367de2c59f5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145606"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204091"
 ---
-# <a name="maintain-barcode-types"></a><span data-ttu-id="fd5fa-103">Barkod türlerini koru</span><span class="sxs-lookup"><span data-stu-id="fd5fa-103">Maintain barcode types</span></span>
+# <a name="maintain-barcode-types"></a><span data-ttu-id="cf9b3-103">Barkod türlerini koru</span><span class="sxs-lookup"><span data-stu-id="cf9b3-103">Maintain barcode types</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="fd5fa-104">Bu yordam, malzeme çekme listesi raporunun bir parçası olarak da kullanılabilen yeni bir barkod açıklamasının nasıl ayarlanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-104">This procedure shows you how to set up a new barcode definition which can then be used as part of the picking list report.</span></span> <span data-ttu-id="fd5fa-105">Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-105">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="fd5fa-106">USMF kullanıyorsanız, gösterilen örnek değerleri kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-106">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="fd5fa-107">Bu görevler genellikle ambar Yöneticisi tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-107">These tasks would typically be carried out by a warehouse manager.</span></span>
+<span data-ttu-id="cf9b3-104">Bu yordam, malzeme çekme listesi raporunun bir parçası olarak da kullanılabilen yeni bir barkod açıklamasının nasıl ayarlanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-104">This procedure shows you how to set up a new barcode definition which can then be used as part of the picking list report.</span></span> <span data-ttu-id="cf9b3-105">Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-105">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="cf9b3-106">USMF kullanıyorsanız, gösterilen örnek değerleri kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-106">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="cf9b3-107">Bu görevler genellikle ambar Yöneticisi tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-107">These tasks would typically be carried out by a warehouse manager.</span></span>
 
-1. <span data-ttu-id="fd5fa-108">Barkodlar'a gidin.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-108">Go to Bar codes.</span></span>
-2. <span data-ttu-id="fd5fa-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-109">Click New.</span></span>
-3. <span data-ttu-id="fd5fa-110">Barkod ayarı alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-110">In the Barcode setup field, type a value.</span></span>
-4. <span data-ttu-id="fd5fa-111">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="fd5fa-112">Barkod türü alanında bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-112">In the Bar code type field, select an option.</span></span>
-    * <span data-ttu-id="fd5fa-113">USMF kullanıyorsanız, 'Code 39' öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-113">If you're using USMF, you can select 'Code 39'.</span></span>  
-6. <span data-ttu-id="fd5fa-114">Boyut alanında bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-114">In the Size field, enter a number.</span></span>
-7. <span data-ttu-id="fd5fa-115">Maksimum uzunluk alanında bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-115">In the Maximum length field, enter a number.</span></span>
-8. <span data-ttu-id="fd5fa-116">Kaydet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-116">Click Save.</span></span>
-9. <span data-ttu-id="fd5fa-117">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-117">Close the page.</span></span>
-10. <span data-ttu-id="fd5fa-118">Stok ve ambar yönetim parametreleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-118">Go to Inventory and warehouse management parameters.</span></span>
-11. <span data-ttu-id="fd5fa-119">Barkod ayarı alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-119">In the Barcode setup field, enter or select a value.</span></span>
-    * <span data-ttu-id="fd5fa-120">Daha önce oluşturduğunuz barkod ayarını seçin, ancak barkod biçiminin işleminde kullanılan kayıt türünün benzersiz tanımlayıcı biçimiyle eşleşmesi gerektiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-120">Select the barcode setup that you created before, but be aware that the bar code format must match the format of the unique identifier for the record type used in the process.</span></span> <span data-ttu-id="fd5fa-121">Örneğin, malzeme çekme rotalarının barkod biçimi genellikle bir numara sırası olan malzeme çekme rotası başvuru biçimiyle eşleşmelidir.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-121">For example, for picking routes, the bar code format should match the format of the picking route reference, which is typically a number sequence.</span></span>  
-12. <span data-ttu-id="fd5fa-122">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-122">Click Save.</span></span>
-13. <span data-ttu-id="fd5fa-123">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="fd5fa-123">Close the page.</span></span>
+1. <span data-ttu-id="cf9b3-108">Barkodlar'a gidin.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-108">Go to Bar codes.</span></span>
+2. <span data-ttu-id="cf9b3-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-109">Click New.</span></span>
+3. <span data-ttu-id="cf9b3-110">Barkod ayarı alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-110">In the Barcode setup field, type a value.</span></span>
+4. <span data-ttu-id="cf9b3-111">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="cf9b3-112">Barkod türü alanında bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-112">In the Bar code type field, select an option.</span></span>
+    * <span data-ttu-id="cf9b3-113">USMF kullanıyorsanız, 'Code 39' öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-113">If you're using USMF, you can select 'Code 39'.</span></span>  
+6. <span data-ttu-id="cf9b3-114">Boyut alanında bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-114">In the Size field, enter a number.</span></span>
+7. <span data-ttu-id="cf9b3-115">Maksimum uzunluk alanında bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-115">In the Maximum length field, enter a number.</span></span>
+8. <span data-ttu-id="cf9b3-116">Kaydet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-116">Click Save.</span></span>
+9. <span data-ttu-id="cf9b3-117">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-117">Close the page.</span></span>
+10. <span data-ttu-id="cf9b3-118">Stok ve ambar yönetim parametreleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-118">Go to Inventory and warehouse management parameters.</span></span>
+11. <span data-ttu-id="cf9b3-119">Barkod ayarı alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-119">In the Barcode setup field, enter or select a value.</span></span>
+    * <span data-ttu-id="cf9b3-120">Daha önce oluşturduğunuz barkod ayarını seçin, ancak barkod biçiminin işleminde kullanılan kayıt türünün benzersiz tanımlayıcı biçimiyle eşleşmesi gerektiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-120">Select the barcode setup that you created before, but be aware that the bar code format must match the format of the unique identifier for the record type used in the process.</span></span> <span data-ttu-id="cf9b3-121">Örneğin, malzeme çekme rotalarının barkod biçimi genellikle bir numara sırası olan malzeme çekme rotası başvuru biçimiyle eşleşmelidir.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-121">For example, for picking routes, the bar code format should match the format of the picking route reference, which is typically a number sequence.</span></span>  
+12. <span data-ttu-id="cf9b3-122">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-122">Click Save.</span></span>
+13. <span data-ttu-id="cf9b3-123">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="cf9b3-123">Close the page.</span></span>
 

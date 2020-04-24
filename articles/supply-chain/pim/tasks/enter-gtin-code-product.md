@@ -2,7 +2,7 @@
 title: Ürünün GTIN kodunu girme
 description: GTIN kodları GS1 kurumu tarafından atanır.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,35 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemGTIN, UnitOfMeasureLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb5904b487bb14396925983bb8f3284457045ddd
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 95f7bb064996003910d60506382b7477a34ac31e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147678"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203630"
 ---
-# <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="d0919-103">Ürünün GTIN kodunu girme</span><span class="sxs-lookup"><span data-stu-id="d0919-103">Enter the GTIN code for a product</span></span>
+# <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="53533-103">Ürünün GTIN kodunu girme</span><span class="sxs-lookup"><span data-stu-id="53533-103">Enter the GTIN code for a product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d0919-104">GTIN kodları GS1 kurumu tarafından atanır.</span><span class="sxs-lookup"><span data-stu-id="d0919-104">GTIN codes are assigned by the GS1 organization.</span></span> <span data-ttu-id="d0919-105">Bu örnekte, USMF demo veri şirketinde M0001 ürün numarası için bir kod girin.</span><span class="sxs-lookup"><span data-stu-id="d0919-105">In this example, you will enter a code for product number M0001 in demo data company USMF.</span></span>
+<span data-ttu-id="53533-104">GTIN kodları GS1 kurumu tarafından atanır.</span><span class="sxs-lookup"><span data-stu-id="53533-104">GTIN codes are assigned by the GS1 organization.</span></span> <span data-ttu-id="53533-105">Bu örnekte, USMF demo veri şirketinde M0001 ürün numarası için bir kod girin.</span><span class="sxs-lookup"><span data-stu-id="53533-105">In this example, you will enter a code for product number M0001 in demo data company USMF.</span></span>
 
-1. <span data-ttu-id="d0919-106">Serbest bırakılan ürün bakımı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d0919-106">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="d0919-107">Sevk edilen ürünler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d0919-107">Click Released products.</span></span>
-3. <span data-ttu-id="d0919-108">Ürün resmi bilgi kutusunu genişletin.</span><span class="sxs-lookup"><span data-stu-id="d0919-108">Expand the Product image FactBox.</span></span>
-4. <span data-ttu-id="d0919-109">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d0919-109">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="d0919-110">Eylem Bölmesinde, Stok yönetimi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d0919-110">On the Action Pane, click Manage inventory.</span></span>
-6. <span data-ttu-id="d0919-111">GTIN kodları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d0919-111">Click GTIN codes.</span></span>
-7. <span data-ttu-id="d0919-112">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d0919-112">Click New.</span></span>
-8. <span data-ttu-id="d0919-113">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="d0919-113">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="d0919-114">Birim alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="d0919-114">In the Unit field, enter or select a value.</span></span>
-10. <span data-ttu-id="d0919-115">GTIN kod alanında bir seçeneği işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="d0919-115">In the GTIN code field, select an option.</span></span>
-11. <span data-ttu-id="d0919-116">GTIN alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="d0919-116">In the GTIN field, type a value.</span></span>
-12. <span data-ttu-id="d0919-117">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d0919-117">Close the page.</span></span>
+1. <span data-ttu-id="53533-106">Serbest bırakılan ürün bakımı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="53533-106">Click Released product maintenance.</span></span>
+2. <span data-ttu-id="53533-107">Sevk edilen ürünler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="53533-107">Click Released products.</span></span>
+3. <span data-ttu-id="53533-108">Ürün resmi bilgi kutusunu genişletin.</span><span class="sxs-lookup"><span data-stu-id="53533-108">Expand the Product image FactBox.</span></span>
+4. <span data-ttu-id="53533-109">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="53533-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="53533-110">Eylem Bölmesinde, Stok yönetimi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="53533-110">On the Action Pane, click Manage inventory.</span></span>
+6. <span data-ttu-id="53533-111">GTIN kodları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="53533-111">Click GTIN codes.</span></span>
+7. <span data-ttu-id="53533-112">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="53533-112">Click New.</span></span>
+8. <span data-ttu-id="53533-113">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="53533-113">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="53533-114">Birim alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="53533-114">In the Unit field, enter or select a value.</span></span>
+10. <span data-ttu-id="53533-115">GTIN kod alanında bir seçeneği işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="53533-115">In the GTIN code field, select an option.</span></span>
+11. <span data-ttu-id="53533-116">GTIN alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="53533-116">In the GTIN field, type a value.</span></span>
+12. <span data-ttu-id="53533-117">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="53533-117">Close the page.</span></span>
 
