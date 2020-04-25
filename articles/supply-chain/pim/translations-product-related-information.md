@@ -2,7 +2,7 @@
 title: Ürünle ilgili çeviriler hakkında SSS
 description: Bu konuda, ürünler, ürün boyut değerleri ve ürün öznitelikleri için çevirilerin nasıl yönetileceğini açıklanır.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList, EcoResProductListPage, EcoResProductVariants, EcoResProductDetailsExtended, EcoResProductCreate, EcoResProductDetails
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 201853
 ms.assetid: c0286bba-f54b-42de-904c-81fd796bdd1d
@@ -19,12 +19,12 @@ ms.search.industry: Product information
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3d7405af3d0de08cb376164f4ecf59b1d0ef3d4
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: c60ed8ede095306f5a950711bdf094d5abe05433
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934735"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213044"
 ---
 # <a name="product-related-translations-faq"></a>Ürünle ilgili çeviriler hakkında SSS
 

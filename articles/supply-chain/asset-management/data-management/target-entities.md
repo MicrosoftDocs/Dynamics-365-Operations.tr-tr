@@ -2,7 +2,7 @@
 title: Hedef varlıkları
 description: Bu konu, Varlık Yönetimi içinde hedef varlıkların genel bakışını almayı anlatır.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 09/26/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5bb94b6e4176a7dbed2d78149e7120ce832d0bc0
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 58027fcb29efbac847f3018ae1eb6677241ed87b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652322"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205449"
 ---
 # <a name="target-entities"></a>Hedef varlıklar
 
@@ -33,7 +33,7 @@ ms.locfileid: "2652322"
 
 **Veri yönetimi** çalışma alanında, hedef varlıkların, ilgili varlık tiplerinin ve **Varlık Yönetimi** modülüyle ilgili hazırlama tablolarının genel bir görünümünü alabilirsiniz. 
 
-1. Ekranın sol üst köşesindeki **Finance and Operations** düğmesini tıklatın ve **veri yönetimi**'ni tıklatın.
+1. Ekranın sol üst köşesindeki **Finance and Operations** düğmesini tıklatın ve **Veri yönetimi**'ni tıklatın.
 
 2. **İçe/Dışa aktarma** bölümünde **Veri varlıkları**'nı tıklatın. 
 

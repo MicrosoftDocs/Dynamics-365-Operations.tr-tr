@@ -1,9 +1,9 @@
 ---
 title: Özet
-description: Dynamics 365 Human Resources'ta **İzin ve devamsızlık** çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve, isteklerin yönetilmesi için iş akışları ve çalışanların zaman istebilmesi için sezgisel bir self servis sayfası sağlar.
+description: Dynamics 365 Human Resources'ta İzin ve devamsızlık çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve, isteklerin yönetilmesi için iş akışları ve çalışanların zaman istebilmesi için sezgisel bir self servis sayfası sağlar.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
+ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091760"
+ms.lasthandoff: 04/04/2020
+ms.locfileid: "3226242"
 ---
 # <a name="overview"></a>Özet
 
-Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlamanıza yardımcı olur. **İzin ve devamsızlık** çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve, isteklerin yönetilmesi için iş akışları ve çalışanların zaman istebilmesi için sezgisel bir self servis sayfası sağlar. Analitik yardım kuruluşunuz, izin planlarınızın bakiyelerini ve kullanımını ölçmenize ve izlemesine yardımcı olur.
+Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlamanıza yardımcı olur. **İzin ve devamsızlık** çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve, isteklerin yönetilmesi için iş akışları ve çalışanların zaman istebilmesi için sezgisel bir self servis sayfası sağlar. Analiz kuruluşunuzun izin planlarınızın bakiyelerini ve kullanımını ölçmesine ve izlemesine yardımcı olur.
 
 ## <a name="set-up-leave-and-absence"></a>İzin ve devamsızlık ayarla
 
@@ -51,31 +51,35 @@ Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlama
 
 Çalışanlarınız talep dışı bırakma saatleri gönderebilir ve bunları, **çalışan self servis** çalışma alanında yönetebilirsiniz.
 
-- [İzin süresi iste](hr-employee-self-service-request-time-off.md)
-- [İzin ve devamsızlığı yönetme talepleri](hr-employee-self-service-manage-requests.md)
+- [İzin iste](hr-employee-self-service-request-time-off.md)
+- [İzin ve devamsızlık isteklerini yönetme](hr-employee-self-service-manage-requests.md)
+
+## <a name="leave-and-absence-known-issues"></a>Bilinen izin ve devamsızlık sorunları
+
+### <a name="rounding-precision"></a>Yuvarlama hassasiyeti
+
+**Yuvarlama türünü** ayarlarken **Yuvarlama hassasiyeti**'ni ayarlayamazsınız. **Yuvarlama hassasiyeti**'ni yalnızca **İzin ve devamsızlık türü** varlığını kullanarak ayarlayabilirsiniz. 
+
+1. **İzin ve devamsızlık türleri**'nden **İzin ve devamsızlık türü** varlığını açmak için **Excel'de Aç**'ı seçin.
+
+2. Dosya açılıp etkinleştirildikten sonra **Tasarla**'yı seçin.
+
+3. **İzin ve devamsızlık türü** tablosunda, düzenlemek için kalem seçeneğini belirleyin.
+
+4. **RoundingPrecision** ve **RoundingType** değerini seçip alanlar listesine eklemek için **Ekle**'yi seçin.
+
+5. **Güncelleştir**'i ve ardından **Bitti**'yi seçin.
+
+6. Önceden ayarlanmamışsa, her bir izin türü için **Yuvarlama türü**'nü girin veya seçin. 
+
+7. Uygun türler için **Yuvarlama hassasiyeti**'ni girin.
+
+8. Değişiklikleri Human Resources'a göndermek için **Yayımla**'yı seçin.
 
 ## <a name="leave-and-absence-preview-features"></a>İzin ve devamsızlık Önizleme özellikleri
 
-Bir **korumalı alan** ortamında yeni izin ve devamsızlık Önizleme özelliklerini deneyebilirsiniz. Bilgi Önizleme özelliklerini açmak için bkz. [Özellikleri yönet](hr-admin-manage-features.md). Önizleme özellikleri şunları içerir:
+Bir **korumalı alan** ortamında yeni izin ve devamsızlık Önizleme özelliklerini deneyebilirsiniz. Önizleme özelliklerini açma hakkında bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md). Önizleme özellikleri şunları içerir:
 
-- **İzin ve devamsızlık takvimi** -İzin ve devamsızlık parametreleri, **İnsan kaynakları parametreleri**'nden, **İzin ve devamsızlık parametreleri** adlı yeni bir ekrana geçecek. Yeni ekranda yeni bir **Takvim** sekmesi var. Bu önizleme yalnızca parametrelerin bir alt kümesini sağlıyor. Yeni ekrana **İzin ve devamsızlık** çalışma alanının **Bağlantılar** sekmesinden erişebilirsiniz. Takvimler şunları içerir:
-  - **Şirket takvimi** -Tüm çalışan izin isteklerini gösterir. **İnsan kaynakları** rolündeki kişiler bu takvime **İzin ve devamsızlık** çalışma alanının **Bağlantılar** sekmesinden erişebilirler.
-  - **Yönetici ekibi takvimi** - Tüm bağlı çalışanların izin isteklerini gösterir. Yöneticiler takvime **İzin ve devamsızlık** altındaki Çalışan self servisi'ndeki **Ekibim** sekmesinden erişebilirler. 
+- **İzin askıya alma** - Human Resources'ta bir çalışan için izin ve devamsızlığı askıya alabilirsiniz. İzni askıya alma, seçili izin türleri için izin tahakkuklarını durdurur. Askıya alma bir tahakkuk işleminden sonra gerçekleştiğinde, askıya alınan izin çalışanın izin bakiyesinde eşit dağıtılmış bir ayarlama oluşturur. 
 
-- **İzin ve devamsızlık tatil takvimleri** - İzin türleri, çalışma zamanı takvimiyle birlikte kullanılan yeni bir **Tatil** seçeneği içeriyor. Tatiller ve kapanışlar ile tanımlanan günler artık çalışma günleri oluşturulurken **Tatil** olarak belirleniyor. Tahakkuklar işlenirken, çalışma gününe denk gelen tatilleri hesaba katmak için, takvime atanan çalışanlarda ayarlamalar yapılıyor.
-
-- **İzin tahakkuku denetimi** - Yeni bir ekran, hem toplu olarak hem de tek tek çalışanların tahakkukları ne zaman işlediğini ve sildiğini incelemenizi sağlıyor. Bu yeni ekrana **İzin ve devamsızlık** çalışma alanının **Bağlantılar** sekmesinden erişebilirsiniz.
-
-- **İzin tahakkuku silme** - Artık belirli izin planları için tahakkuk kayıtlarını silebilirsiniz. Bu yeni seçeneğe **İzin ve devamsızlık** çalışma alanının **Bağlantılar** sekmesinden erişebilirsiniz. Tek tek çalışanlar için bu seçenek, çalışan profilindeki **İzin ve devamsızlık** gruplandırmasında görüntülenir. 
-
-- **İzin tahakkuku yuvarlama** - **İzin türü** için yeni seçenekler tahakkukta hangi tür yuvarlama kullanılacağını ve tahakkuk işlemi sırasında yuvarlamanın ondalık duyarlığını tanımlıyor. Tahakkuklar işlenirken, tahakkuk kayıtlarına yuvarlama ve duyarlık uygulanır. 
-
-- **Tek bir izin planında birden fazla izin türü yapılandır** - İzin türleri için izin tahakkuku zaman çizelgesindeki yeni bir sütun, farklı tahakkuk zamanlamalarıyla bir izin ve devamsızlık planı üzerinde birden fazla izin türü tanımlamanıza olanak sağlıyor. Önceki **İzin türü** alanı kaldırıldı. Çalışan kaydında, izin türlerinin bakiyeleri şimdi ekranın üst bölümünde değil, bir tabloda görüntüleniyor.
-
-  > [!IMPORTANT]
-  > Bu özelliği etkinleştirildikten sonra kapatabilirsiniz.
-
-- **Tahakkuk için bir çalışanın tam zamanlı eşdeğerliliğini (FTE) kullanımı** - İzin tahakkuku zaman çizelgesindeki yeni bir sütun, tahakkuk için FTE kullanmaya izin veriyor. Tahakkuklar işlenirken, uygulama, çalışanın birincil pozisyonunu ve orantılı tahakkuk tutarını belirlemek için tanımlanan FTE'yi kullanıyor.
-
-  > [!NOTE]
-  > Bu özellik ancak **Tek bir izin planında birden fazla izin türü yapılandır**'ı etkinleştirirseniz kullanılabilir. 
+- **Devretme kuralları** - Devretme ayarlamalarının transfer edildiği devir bakiyeleri için bir devretme izin türü belirtebilirsiniz. Örneğin, bir çalışan 10 günü ileri taşıyorsa, bu 10 gün için farklı bir izin türü seçebilirsiniz. 

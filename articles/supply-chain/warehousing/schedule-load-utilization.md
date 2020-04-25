@@ -2,7 +2,7 @@
 title: Yük kullanımını zamanla
 description: Bu konu bir ambar için yükün nasıl ayarlanacağını ve zamanlanacağını açıklar.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSSpaceUtilSetup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15f3735f79671ac41789d39a5473722a5f35fde0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 87455077c69834c9ace6409f4cc611ae6e14beb4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564845"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204643"
 ---
 # <a name="schedule-load-utilization"></a>Yük kullanımını zamanla
 

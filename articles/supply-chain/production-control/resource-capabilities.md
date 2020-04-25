@@ -2,7 +2,7 @@
 title: Kaynak yetenekleri
 description: Bu makale, kaynak yetenekleri hakkında bilgi sağlar. Yetenek, bir operasyon kaynağının belirli bir etkinliği gerçekleştirebilme becerisidir. Makale, yeterlilik düzeyi ve öncelik gibi yeteneklerin ve ilgili kavramların bir etkinlik için uygun kaynakların seçilmesinde nasıl kullanıldığını açıklar.
 author: sorenva
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 29961
 ms.assetid: 30e38233-2a64-4070-911f-8ffd78dd8281
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 567b4c5544f2a58801fefb1aa9d4c72815913910
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f72fd41b095cd58aaba2ac6cc9199c8d3235b8f8
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564566"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211135"
 ---
 # <a name="resource-capabilities"></a>Kaynak yetenekleri
 

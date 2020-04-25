@@ -2,29 +2,29 @@
 title: Uygulanabilir fiyatları ve iskontoları arama
 description: Bu yordam, bir satış siparişi oluşturmak zorunda kalmadan belirli bir müşteri için geçerli olan ürün fiyat ve iskonto bulmayı gösterir.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 4ea4c7db203d0b47c59b241c9d89c69c71cf6cb1
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025840"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211940"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Uygulanabilir fiyatları ve iskontoları arama
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, bir satış siparişi oluşturmak zorunda kalmadan belirli bir müşteri için geçerli olan ürün fiyat ve iskonto bulmayı gösterir. Bu yordam belirli bir örneği adım adım izler ve örneği takip ederken gerekli değerleri seçebilmek için USMF demo şirketini kullanmanız gereklidir.
 

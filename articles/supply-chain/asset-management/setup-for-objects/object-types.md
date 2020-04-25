@@ -2,7 +2,7 @@
 title: Varlık türleri
 description: Bu konuda Varlık Yönetimi'nde varlık türleri oluşturma işlemi açıklanmaktadır. Ayrıca, varlık türlerine ilişkin öğeler de açıklanmaktadır.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a19b8c40dd7d48b2d78723c4411f1699819c4026
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 67ed5a4f957e6772eacd0b401cdbd26e29d3091d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124486"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216632"
 ---
 # <a name="asset-types"></a>Varlık türleri
 

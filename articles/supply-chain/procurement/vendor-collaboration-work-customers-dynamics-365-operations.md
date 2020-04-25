@@ -2,7 +2,7 @@
 title: Müşterilerle satıcı işbirliği
 description: Bu konu, PO'lar ile çalışmak ve konsinye stoku görüntülemek için satıcı işbirliğini nasıl kullanabileceğinizi açıklamaktadır.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e968a57c09837a5cfa5a0476426a274021122959
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 240fdfb3519e1c4526c46fa3d5e3fbaa8e5a467e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250165"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207359"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı işbirliği
 

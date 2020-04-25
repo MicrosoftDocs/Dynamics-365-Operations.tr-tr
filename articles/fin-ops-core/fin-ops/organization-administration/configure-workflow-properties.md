@@ -3,7 +3,7 @@ title: İş akışı özelliklerini yapılandırma
 description: Bu konu İş akışının çeşitli özelliklerini yapılandırmayı açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76d44c472989a73d71c2edd19f1187ecd09827ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190132"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3199448"
 ---
 # <a name="configure-workflow-properties"></a>İş akışı özelliklerini yapılandırma
 
@@ -73,11 +73,13 @@ Bir iş akışının özelliklerini yapılandırmak için iş akışını, iş a
     3. Beliren listede, metni gireceğiniz dili seçin.
     4. **Çevrilen metin** alanında, metni girin.
     5. Metni kişiselleştirmek için, yer tutucular ekleyebilirsiniz. Yer tutucu girmek hakkında yönergeler için, adım 3'e bakın.
-    6. **Kapat** düğmesini tıklayın.
+    6. **Kapat**'a tıklayın.
 
-## <a name="specify-when-this-workflow-is-used"></a>Bu iş akışının ne zaman kullanılacağını belirtin
+## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Bu iş akışının etkinleştirme koşulları üzerinden ne zaman kullanılacağını belirtin
 
-Aynı türe dayalı birden çok iş akışı oluşturabilirsiniz. Örneğin, faaliyet gösterdiğiniz her ülke/bölge için bir satınalma talebi iş akışı oluşturabilirsiniz, örneğin Satınalma Talepleri Danimarka ve Satınalma Talepleri İspanya gibi. Aynı türe dayalı birden çok iş akışınız olduğunda, her bir iş akışının ne zaman kullanıldığını belirtmelisiniz. Önceki örnek için, aşağıdaki koşulları belirtebilirsiniz:
+Aynı iş akışı türüne dayalı birden çok iş akışı oluşturabilirsiniz. Aynı türe dayalı birden çok iş akışınız olduğunda, etkinleştirme koşullarını kullanarak her bir iş akışının ne zaman kullanıldığını belirtmelisiniz. Etkinleştirme koşulları karşılanmazsa, varsayılan iş akışı kullanılır. Benzer şekilde, bir iş akışı türü için tanımlanmış yalnızca bir iş akışı yapılandırması varsa, bu iş akışı yapılandırması etkinleştirme koşullarına bağlı olmaksızın kullanılacaktır.
+
+Örneğin, faaliyet gösterdiğiniz her ülke/bölge için bir satınalma talebi iş akışı oluşturabilirsiniz, örneğin aşağıdaki koşullarla Satınalma Talepleri Danimarka ve Satınalma Talepleri İspanya gibi.
 
 - Satınalma Talebi Danimarka: ülke/bölge = DK olduğunda kullanılır
 - Satınalma Talebi İspanya: ülke/bölge = ES olduğunda kullanılır

@@ -3,7 +3,7 @@ title: Bir kazanç planı oluştur
 description: Dynamics 365 Human Resources'da Kazanç planlarını ayarlama
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 97c3acf1294b7a8c2496f23a32918152f50a9e5e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6e3822a1071023898e459a82c14ff648d8cdebed
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010878"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230120"
 ---
 # <a name="create-a-benefits-plan"></a>Bir kazanç planı oluştur
-
-[!include [banner](includes/preview-feature.md)]
 
 Bu makalede, Dynamics 365 Human Resources'de kazanç planlarının nasıl ayarlanacağı gösterilmektedir.
 
@@ -39,16 +37,16 @@ Bu makalede, Dynamics 365 Human Resources'de kazanç planlarının nasıl ayarla
 
    | Alan | Tanım |
    | --- | --- |
-   | Plan | PLanın benzersiz tanımlayıcısı. |
-   | Tanım | Planın açıklaması. |
-   | Plan türü | Yeni bir plan oluşturduğunuzda, plan türünü belirtmeniz gerekir. Plan tipi belirli avantaj tiplerinin üst düzey gruplandırmasıdır. Her plan türü bir çalışanın o tipte birden çok plana kaydolabileceğini belirtir, ilgili kişilerin lehdar veya bağımlı olup olmadığını belirtir ve karşılama seçeneklerini tanımlar. Sosyal haklar tekliflerinizin gereksinimlerini karşılamak için yeni özel plan türleri oluşturabilirsiniz. Başlıca kazanç planı türleri şunlardır: <ul><li>401K</li><li>ADD</li><li>Dişle ilgili</li><li>Fitness</li><li>FSA</li><li>Yaşam</li><li>LTD</li><li>Tıbbi</li><li>PTO</li><li>STD</li><li>Görüş</li></ul> |
-   | Plan türü kodu | Plan türünün plan türü kodu. |
-   | Program | Plana isteğe bağlı olarak atanacak bir program belirtir. |
-   | Ürün demeti | Plana isteğe bağlı olarak atanacak bir ürün demeti belirtir. |
-   | Ana | Planın atandığı ürün demetinde master plan olup olmadığını belirtir. |
-   | Durum | Kazanç planının geçerli durumunu belirtir. Varsayılan değer Etkin'dir. Durumu etkin değil olarak değiştirirseniz, plan kayıt sırasında seçim olarak kullanılamaz. |
-   | Geçerlilik başlangıç tarihi ve saati | Planın başladığı tarih ve saati Geçerli değer varsayılan sistem tarihidir. |
-   | Geçerlilik bitiş tarihi ve saati | Planın bitiş tarihi ve saati (durum, devre dışı olarak ayarlı). Varsayılan değer 12/31/2154'dir ve hiçbir zaman bunu belirtir. |
+   | **Plan** | PLanın benzersiz tanımlayıcısı. |
+   | **Tanım** | Planın açıklaması. |
+   | **Plan türü** | Yeni bir plan oluşturduğunuzda, plan türünü belirtmeniz gerekir. Plan tipi belirli avantaj tiplerinin üst düzey gruplandırmasıdır. Her plan türü bir çalışanın o tipte birden çok plana kaydolabileceğini belirtir, ilgili kişilerin lehdar veya bağımlı olup olmadığını belirtir ve karşılama seçeneklerini tanımlar. Sosyal haklar tekliflerinizin gereksinimlerini karşılamak için yeni özel plan türleri oluşturabilirsiniz. Başlıca kazanç planı türleri şunlardır: <ul><li>401K</li><li>ADD</li><li>Dişle ilgili</li><li>Fitness</li><li>FSA</li><li>Yaşam</li><li>LTD</li><li>Tıbbi</li><li>PTO</li><li>STD</li><li>Görüş</li></ul> |
+   | **Plan türü kodu** | Plan türünün plan türü kodu. |
+   | **Program** | Plana isteğe bağlı olarak atanacak bir program belirtir. |
+   | **Ürün demeti** | Plana isteğe bağlı olarak atanacak bir ürün demeti belirtir. |
+   | **Ana** | Planın atandığı ürün demetinde master plan olup olmadığını belirtir. |
+   | **Durum** | Kazanç planının geçerli durumunu belirtir. Varsayılan değer Etkin'dir. Durumu etkin değil olarak değiştirirseniz, plan kayıt sırasında seçim olarak kullanılamaz. |
+   | **Geçerlilik başlangıç tarihi ve saati** | Planın başladığı tarih ve saati Geçerli değer varsayılan sistem tarihidir. |
+   | **Geçerlilik bitiş tarihi ve saati** | Planın bitiş tarihi ve saati (durum, devre dışı olarak ayarlı). Varsayılan değer 12/31/2154'dir ve hiçbir zaman bunu belirtir. |
 
 4. **Konfigürasyon** sekmesinde, oluşturmakta olduğunuz planın türüne bağlı olarak aşağıdaki alanlar için değer belirtin:
 
@@ -77,42 +75,42 @@ Bu makalede, Dynamics 365 Human Resources'de kazanç planlarının nasıl ayarla
 
    | Alan | Tanım |
    | --- | --- |
-   | Kaydolmaya izin ver/devam et | Uygunluğu, uygunluk gereksinimlerini karşılıyorsa, çalışanların plana kaydolabileceği kayıt olup olmayacağını belirtir.</br></br>Bu Hayır olarak ayarlanmışsa, uygunluğu gerçekleştirdiğinizde planlama çalışanlar tarafından kullanılamaz. |
-   | Önceki yıldan otomatik olarak kaydet | Uygun bir personelin önceki yıl boyunca kayıtlıysa plana otomatik olarak kaydedilip kaydedilmeyeceğini belirtir. |
-   | Varsayılan olarak otomatik kaydet | Varsayılan olarak kayıt planının görünüp görünmeyeceğini belirtir. Plan zorunlu olmadığı için, çalışanın varsayılan seçimi değiştirebilmesini sağlayacak. |
-   | Yeni kayıtlara kapatıldı | Planın yalnızca önceki yılın planında kayıtlı olan çalışanlarla sınırlandırılıp kısıtlanmayacağını belirtir. |
-   | Zorunlu plan | Plandaki çalışanların otomatik olarak kaydedilip kaydedilmeyeceğini belirtir. Çalışanlar kayıt seçimini değiştiremez. |
-   | Başlangıç tarihi | Planın şirkette oluşturulduğu tarih. |
-   | Satıcı hesabı (kazanç tedarikçisi) | Şirketin, plan için prim ödediği satıcı. |
-   | Ad (kazanç tedarikçisi) | Satıcının adı. |
-   | Satıcı refernsı (kazanç tedarikçisi) | Planla ilgili olarak Satıcının referansı. Örneğin, şirketin grup planı numarası. |
-   | Alternatif referans (kazanç tedarikçisi) | Planla ilgili olarak Satıcının alternatif referansı. Örneğin, şirketin hesap numarası. |
-   | Para birimi (Kazanç tedarikçisi) | Primye prim ödemesi için kullanılan para birimi. |
-   | Gider hesabı (kazanç tedarikçisi) | Plan primleri için gider hesabı olarak kullanılan genel muhasebe hesabı. |
-   | Satıcı hesabı (kazanç yöneticisi) | Şirketin, planı yönetmesi için ödeme yaptığı satıcı. Planı kendi kendine uygulanıyorsa bu alanı boş bırakın. |
-   | Ad (kazanç Yöneticisi) | Kazanç yöneticisi satıcısının adı. |
-   | Satıcı referansı (kazanç yöneticisi) | Planla ilgili olarak Satıcının yönetici referansı. |
-   | Alternatif referans (kazanç yöneticisi) | Planla ilgili olarak Satıcının alternatif yönetici referansı. |
-   | Para birimi (kazanç Yöneticisi) | Kazanç yöneticisini ödemesi için kullanılan para birimi. |
-   | Gider hesabı (kazanç yöneticisi) | Planın yönetimiyle ilişkili maliyetler için gider hesabı olarak kullanılan genel muhasebe hesabı. |
+   | **Kaydolmaya izin ver/devam et** | Uygunluğu, uygunluk gereksinimlerini karşılıyorsa, çalışanların plana kaydolabileceği kayıt olup olmayacağını belirtir.</br></br>Bu Hayır olarak ayarlanmışsa, uygunluğu gerçekleştirdiğinizde planlama çalışanlar tarafından kullanılamaz. |
+   | **Önceki yıldan otomatik olarak kaydet** | Uygun bir personelin önceki yıl boyunca kayıtlıysa plana otomatik olarak kaydedilip kaydedilmeyeceğini belirtir. |
+   | **Varsayılan olarak otomatik kaydet** | Varsayılan olarak kayıt planının görünüp görünmeyeceğini belirtir. Plan zorunlu olmadığı için, çalışanın varsayılan seçimi değiştirebilmesini sağlayacak. |
+   | **Yeni kayıtlara kapatıldı** | Planın yalnızca önceki yılın planında kayıtlı olan çalışanlarla sınırlandırılıp kısıtlanmayacağını belirtir. |
+   | **Zorunlu plan** | Plandaki çalışanların otomatik olarak kaydedilip kaydedilmeyeceğini belirtir. Çalışanlar kayıt seçimini değiştiremez. |
+   | **Başlangıç tarihi** | Planın şirkette oluşturulduğu tarih. |
+   | **Satıcı hesabı** (Kazanç tedarikçisi) | Şirketin, plan için prim ödediği satıcı. |
+   | **Ad** (Kazanç tedarikçisi) | Satıcının adı. |
+   | **Satıcı referansı** (Kazanç tedarikçisi) | Planla ilgili olarak Satıcının referansı. Örneğin, şirketin grup planı numarası. |
+   | **Alternatif referans** (Kazanç tedarikçisi) | Planla ilgili olarak Satıcının alternatif referansı. Örneğin, şirketin hesap numarası. |
+   | **Para birimi** (Kazanç tedarikçisi) | Primye prim ödemesi için kullanılan para birimi. |
+   | **Gider hesabı** (Kazanç tedarikçisi) | Plan primleri için gider hesabı olarak kullanılan genel muhasebe hesabı. |
+   | **Satıcı hesabı** (Kazanç yöneticisi) | Şirketin, planı yönetmesi için ödeme yaptığı satıcı. Planı kendi kendine uygulanıyorsa bu alanı boş bırakın. |
+   | **Ad** (Kazanç yöneticisi) | Kazanç yöneticisi satıcısının adı. |
+   | **Satıcı referansı** (Kazanç yöneticisi) | Planla ilgili olarak Satıcının yönetici referansı. |
+   | **Alternatif referans** (Kazanç yöneticisi) | Planla ilgili olarak Satıcının alternatif yönetici referansı. |
+   | **Para birimi** (Kazanç yöneticisi) | Kazanç yöneticisini ödemesi için kullanılan para birimi. |
+   | **Gider hesabı** (Kazanç yöneticisi) | Planın yönetimiyle ilişkili maliyetler için gider hesabı olarak kullanılan genel muhasebe hesabı. |
 
 6. **Filtreler** sekmesinde gerektiği şekilde filtreleyin. Aşağıdaki alanlara göre filtre uygulayabilirsiniz:
 
-   - İş birimi
-   - Departman
-   - Tüzel kişilik
-   - Konum
-   - Bölme
+   - **İş birimi**
+   - **Departman**
+   - **Tüzel kişilik**
+   - **Konum**
+   - **Bölme**
 
 7. **Uygunluk kuralları** sekmesinde, aşağıdaki alanların değerleri belirtin:
 
    | Alan | Tanım |
    | --- | --- |
-   | Satır numarası | Uygunluk kuralı satır numarası. |
-   | Uygunluk kuralı | Kazanç planına uygulanacak uygunluk kuralı. Bu uygunluk kuralı ilgili eylem türüne uygulanır ve belirtilen tedarik bekleme dönemiyle ve kesintiler ile ilişkilendirilir. |
-   | Eylem türü | Uygunluk kuralının uygulanacağı eylem: Sosyal haklar kaydolma veya sosyal işlem süresi sonu. |
-   | Karşılama bekleme dönemi | Bekleme süreleri formundan alınan bir değer. Kapsam bekleme dönemi bir çalışanın, uygunluk kuralı ve eylem türündeki ölçütleri temel alarak kazanç kapsamını veya kullanım süresi sonunu beklediği gün veya ay sayısını bekler. |
-   | Kesinti bekleme dönemi | Bekleme süreleri formundan alınan bir değer. Kesinti bekleme dönemi bir çalışanın, uygunluk kuralı ve eylem türündeki ölçütleri temel alarak maaşından kazanç kesintilerini beklediği gün veya ay sayısını bekler. |
+   | **Satır numarası** | Uygunluk kuralı satır numarası. |
+   | **Uygunluk kuralı** | Kazanç planına uygulanacak uygunluk kuralı. Bu uygunluk kuralı ilgili eylem türüne uygulanır ve belirtilen tedarik bekleme dönemiyle ve kesintiler ile ilişkilendirilir. |
+   | **Eylem türü** | Uygunluk kuralının uygulanacağı eylem: Sosyal haklar kaydolma veya sosyal işlem süresi sonu. |
+   | **Karşılama bekleme dönemi** | Bekleme süreleri formundan alınan bir değer. Kapsam bekleme dönemi bir çalışanın, uygunluk kuralı ve eylem türündeki ölçütleri temel alarak kazanç kapsamını veya kullanım süresi sonunu beklediği gün veya ay sayısını bekler. |
+   | **Kesinti bekleme dönemi** | Bekleme süreleri formundan alınan bir değer. Kesinti bekleme dönemi bir çalışanın, uygunluk kuralı ve eylem türündeki ölçütleri temel alarak maaşından kazanç kesintilerini beklediği gün veya ay sayısını bekler. |
 
 8. **Kaydet**'i seçin.
 

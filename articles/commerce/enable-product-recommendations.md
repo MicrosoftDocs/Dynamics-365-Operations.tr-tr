@@ -3,7 +3,7 @@ title: Ürün önerilerini etkinleştirme
 description: Bu konu, Microsoft Dynamics 365 Commerce müşterileri için yapay bilgi destek sistemi öğrenme (AI-ML) tabanlı ürün önerilerinin nasıl yapılacağını açıklamaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d8a579be5df3c5e7718a6fb4720341f3bd01a64c
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154425"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259806"
 ---
 # <a name="enable-product-recommendations"></a>Ürün önerilerini etkinleştirme
 
@@ -34,12 +34,32 @@ Bu konu, Microsoft Dynamics 365 Commerce müşterileri için yapay bilgi destek 
 
 ## <a name="recommendations-pre-check"></a>Öneriler ön kontrolü
 
-Etkinleştirmeden önce, lütfen, ürün önerilerinin, depolama alanını Azure Data Lake Storage (ADLS) kullanarak geçirmiş olan Commerce müşterileri için desteklendiğini unutmayın. 
+Etkinleştirmeden önce ürün önerilerinin, depolama alanını Azure Data Lake Storage (ADLS) kullanarak geçirmiş olan Commerce müşterileri için desteklendiğini unutmayın. 
 
-ADLS'yi etkinleştirme adımları için bkz. [Bir Dynamics 365 ortamında ADLS nasıl etkinleştirilir?](enable-ADLS-environment.md).
+Öneriler etkinleştirilmeden önce aşağıdaki yapılandırmalar arka ofiste etkinleştirilmelidir:
 
-Ek olarak, RetailSale ölçümlerinin etkinleştirildiğinden emin olun. Bu ayarla ilgili işlemi hakkında daha fazla bilgi edinmek için [buraya](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures) gidin.
+1. ADLS'nin satın alındığından ve ortamda başarıyla doğrulandığından emin olun. Daha fazla bilgi için bkz. [ADLS'nin satın alındığından ve ortamda başarıyla doğrulandığından emin olma](enable-ADLS-environment.md).
+2. Varlık deposu yenilemenin otomatik olarak yapıldığından emin olun. Daha fazla bilgi için bkz. [Varlık deposu yenilemesinin otomatik yapıldığından emin olun](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+3. Azure AD Kimlik yapılandırmasının Öneriler için bir giriş içerdiğini onaylayın. Bu eylemin nasıl yapılacağı ile ilgili daha fazla bilgi aşağıda verilmektedir.
 
+Ek olarak, RetailSale ölçümlerinin etkinleştirildiğinden emin olun. Bu ayar işlemi hakkında daha fazla bilgi edinmek için bkz. [Ölçümlerle çalışma](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+
+## <a name="azure-ad-identity-configuration"></a>Azure AD Kimlik yapılandırması
+
+Bu adım, Hizmet olarak alt yapı (IaaS) yapılandırması çalıştıran tüm müşteriler için gereklidir. Service Fabric (SF) üzerinde çalışan müşteriler için bu adım otomatik olmalıdır ve ayarın beklendiği şekilde yapılandırıldığını doğrulamanız önerilir.
+
+### <a name="setup"></a>Ayar
+
+1. Arka ofisten, **Azure Active Directory uygulamaları** sayfasını arayın.
+2. "RecommendationSystemApplication-1" için bir giriş olup olmadığını doğrulayın.
+
+Giriş yoksa, aşağıdaki bilgilerle yeni bir giriş ekleyin:
+
+- **İstemcı Kodu** - d37b07e8-dd1c-4514-835d-8b918e6f9727
+- **Ad** - RecommendationSystemApplication-1
+- **Kullanıcı Kimliği** - RetailServiceAccount
+
+Sayfayı kaydet ve kapatın 
 
 ## <a name="turn-on-recommendations"></a>Önerileri açın
 
@@ -49,10 +69,10 @@ Ek olarak, RetailSale ölçümlerinin etkinleştirildiğinden emin olun. Bu ayar
 1. Paylaşılan parametreler listesinde, **Öneri Listeleri**'ni seçin.
 1. **Önerileri etkinleştir** seçeneğini **Evet** olarak ayarlayın.
 
-![Ürün önerilerini etkinleştirme](./media/enableproductrecommendations.png)
+![Önerileri açma](./media/enablepersonalization.png)
 
 > [!NOTE]
-> Bu yordam, ürün öneri listeleri oluşturma işlemini başlatır. Dynamics 365 Commerce'te listelerin kullanılabilmesi ve satış noktasında (POS) görülebilmesi için birkaç saate kadar gerekli olabilir.
+> Bu yordam, ürün öneri listeleri oluşturma işlemini başlatır. Dynamics 365 Commerce'ta veya satış noktasında (POS) listelerin kullanılabilmesi ve görüntülenmesi için birkaç saat gerekli olabilir.
 
 ## <a name="configure-recommendation-list-parameters"></a>Öneri listesi parametrelerini konfigüre et
 
@@ -64,7 +84,9 @@ Commerce arka ofisinde önerileri etkinleştirdikten sonra, öneriler panelinin 
 
 ## <a name="enable-personalized-recommendations"></a>Kişiselleştirilmiş önerileri etkinleştirme
 
-Kişiselleştirilmiş ürün önerilerinin nasıl alınacağı hakkında daha fazla bilgi için bkz. [Kişiselleştirilmiş önerileri etkinleştirme](personalized-recommendations.md).
+Dynamics 365 Commerce uygulamasında perakendeciler, kişiselleştirilmiş ürün önerileri (kişiselleştirme olarak da bilinir) kullanabilir. Böylece, kişiselleştirilmiş öneriler müşteri deneyimine çevrimiçi ve satış noktasında dahil edilebilir. Kişiselleştirme işlevi açıldığında, sistem, bir kullanıcının satın alma ve ürün bilgilerini, kişiselleştirilmemiş ürün önerileri oluşturmak üzere ilişkilendirebilir.
+
+Kişiselleştirilmiş ürün önerileri hakkında daha fazla bilgi için bkz. [Kişiselleştirilmiş önerileri etkinleştirme](personalized-recommendations.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

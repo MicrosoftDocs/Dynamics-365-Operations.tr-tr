@@ -3,7 +3,7 @@ title: İzin ve devamsızlık planı oluşturma
 description: Dynamics 365 Human Resources'ta farklı izin tipleri için izin planlarını içinde oluşturun.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: 532d9b276692858c77e4de41018775e9520f1882
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087312"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197371"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>İzin ve devamsızlık planı oluşturma
 
@@ -42,6 +42,11 @@ Ayrıca, yalnızca Yöneticiler için olan kazanç saatleri gibi, pozisyonlara d
 1. **İzin ve devamsızlık planları** sayfasında, **Yeni plan oluştur** üzerine tıklayın.
 
 2. **Ayrıntılar** altında, planınız için **adı**, **başlangıç tarihini**, **açıklamasını** ve **ayrılma türünü** girin.
+
+**Tek bir izin ve devamsızlık planı için birden fazla izin türü yapılandır** özelliği etkinse, izin türleri **Ayrıntılar** yerine **Tahakkuk planı** altında yapılandırılır. Tahakkuk çizelgesi tablosundaki her kayıt için, bir izin türü tanımlayabilirsiniz.
+
+ > [!IMPORTANT]
+   > Bu özelliği etkinleştirdikten sonra kapatabilirsiniz.
 
 3. **Tahakkukları** sekmesinde tahakkukları tanımlayın. Tahakkukları, bir çalışana ne kadar hangi sıklıkta izin vereceğini belirler. Bu adımda, tahakkukları ne zaman kazanıyorsanız ve eşit olma kazandıklarının politikalarını öğrenmek için ilkeler tanımlarsınız.
 
@@ -95,8 +100,8 @@ Ayrıca, yalnızca Yöneticiler için olan kazanç saatleri gibi, pozisyonlara d
    Katmanlar, iznin farklı düzeylere dayanarak verilmesi için oluşturulabilir.
 
    Saatlik çalışanı olan kuruluşlar, kuruluştaki kıdem yerine çalışılan saatlere dayanarak izin verebilirler. Çalışılan saatler verisi genellikle bir zaman ve katılım sisteminde depolanır. Zaman ve katılımcı sisteminden çalışılan normal ve fazla mesai saatlerini içe aktarabilir ve bunları bir çalışanın Ödülü için temel olarak kullanabilirsiniz.
-
-   1. **Tahakkuk türü** açılır kutusunda bir seçenek belirleyin:
+   
+    1. **Tahakkuk türü** açılır kutusunda bir seçenek belirleyin:
 
       - **Servis ayları** - Tahakkuk planının servis ayları için matrah.
 
@@ -117,6 +122,13 @@ Ayrıca, yalnızca Yöneticiler için olan kazanç saatleri gibi, pozisyonlara d
       - **Maksimum iletme** - Tahakkuk işlemi, başlangıç tarihinin yıl dönümündeki maksimum ileri taşıma bakiyesini aşan izin bakiyelerini ayarlar.
 
       - **Verilen tutar** - İzin planına ilk kaydolduklarında personele verilen saat veya günün ilk sayısıdır. Tutar, her bir tahakkuk dönemi için tahakkuk edilmez.
+      
+**Tek bir izin ve devamsızlık planı için birden fazla izin türü yapılandır** özelliği etkinse **İzin türü**'nden bir seçenek belirleyin. 
+
+   > [!IMPORTANT]
+   > Bu özelliği etkinleştirdikten sonra kapatabilirsiniz.
+
+**Tam zamanlı eşdeğerini kullan** özelliği etkinde, Human Resources bir çalışanın tahakkukunu eşit şekilde dağıtmak üzere pozisyon için tanımlanan tam zamanlı eşedeğeri (FTE) kullanır. Örneğin, FTE .5 ise ve tahakkuk tutarı 10 ise, çalışan 5'i tahakkuk eder. Bu özelliği yalnızca birden fazla izin türünü etkinleştirirseniz kullanabilirsiniz.  
 
 5. **Kaydet**'i seçin.
 
@@ -358,21 +370,8 @@ Tahmin edilen bakiye (30) = Tahakkuk tutarı (10 × 1) + Geçerli bakiye (40) �
 | Jeannette Nicholson | 0,00              | 01/06/2018        | 01/06/2018   | 1.00           | 01/09/2018        | 3.00    |
 | Jay Norman          | 0,00              | 15/06/2018       | 15/06/2018  | 1.00           | 01/09/2018        | 2.00    |
 
-## <a name="configure-preview-features"></a>Önizleme özelliklerine yapılandırma
-
-İzin ve devamsızlık için Önizleme özelliklerini etkinleştirdiyseniz, bu ayarları sizin için de konfigüre etmeniz gerekir.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. **Önizleme özelliği: tek bir izin ve devamsızlık planı için birden fazla izin türünü konfigüre edin**. Tahakkuk çizelgesi tablosundaki her kayıt için, bir izin türü tanımlayabilirsiniz.
-
-   > [!IMPORTANT]
-   > Bu özelliği etkinleştirdikten sonra kapatabilirsiniz.
-
-2. **Önizleme özelliği: Tam zamanlı eşdeğerlik** kullanın. Bu önizleme özelliğini etkinleştirirseniz İnsan Kaynakları bir çalışanın tahakkuku için pozisyon olarak tanımlanan tam zamanı eşdeğerlilik (FTE) kullanır. Örneğin, FTE .5 ise ve tahakkuk tutarı 10 ise, çalışan 5'i tahakkuk eder. Bu özelliği yalnızca birden fazla izin türünü etkinleştirirseniz kullanabilirsiniz.
-
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
-- [İzin ve devamsızlık türleri yapılandır](hr-leave-and-absence-types.md)
+- [İzin ve devamsızlık türlerini yapılandırma](hr-leave-and-absence-types.md)
 - [İzin ve devamsızlık planları tahakkuk etme](hr-leave-and-absence-accrue.md)

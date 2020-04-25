@@ -1,9 +1,9 @@
 ---
 title: Kapsam seçeneklerini oluşturma
-description: Microsoft Dynamics 365 Human Resources içindeki kapsam seçenekleri, bir kişinin yalnızca tıbbi plan için çalışan veya bir ömür sigortası planı Için 2x maaş gibi bir kazanç planında veya programında yer alanın kapsam düzeyleridir.
+description: Microsoft Dynamics 365 Human Resources'taki karşılama seçenekleri, bir kazanç planında veya programında bir katılımcının seçimi için kapsam düzeyleridir.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 021fea7604af2fff833ddc6868d55a316ef70aae
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092718"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230189"
 ---
 # <a name="create-coverage-options"></a>Kapsam seçeneklerini oluşturma
 
-[!include [banner](includes/preview-feature.md)]
+Microsoft Dynamics 365 Human Resources'taki karşılama seçenekleri, bir kazanç planında veya programında bir katılımcının seçimi için kapsam düzeyleridir. Örneğin, kapsam seçenekleri tıbbi bir plan için **Yalnızca Personel** veya bir hayat sigortası planı için **2x Maaş** içerebilir. Tanımlandıktan sonra, kazanç kapsamı seçeneklerini yeniden kullanabilirsiniz. Bir seçeneği bir veya daha fazla planla ilişkilendirebilirsiniz.
 
-Microsoft Dynamics 365 Human Resources içindeki kapsam seçenekleri, bir kişinin yalnızca tıbbi plan için çalışan veya bir ömür sigortası planı Için 2x maaş gibi bir kazanç planında veya programında yer alanın kapsam düzeyleridir. Tanımlandıktan sonra, kazanç karşılama seçenekleri yeniden kullanılabilir ve bir seçeneği bir veya daha fazla plan ile ilişkilendirebilirsiniz.
-
-Kapsam seçenekleri tanımlandıktan sonra, karşılama seçeneklerini bir kazanç planı türüne iliştirin. Plan türü daha sonra bir kazanç planıyla veya programla ilişkilendirilir. Bir plan tipiyle ilişkilendirilmiş olan kapsam seçenekleri, bu plan türü ile oluşturulan tüm planlar tarafından kullanılabilir. 
+Kapsam seçeneklerini tanımladıktan sonra, karşılama seçeneklerini bir kazanç planı türüne ekleyin. Plan türü daha sonra bir kazanç planıyla veya programla ilişkilendirilir. Bir plan tipiyle ilişkilendirilmiş olan kapsam seçenekleri, bu plan türü ile oluşturulan tüm planlar tarafından kullanılabilir. 
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Kur** altında, **Kapsam seçenekler**'i seçin.
 

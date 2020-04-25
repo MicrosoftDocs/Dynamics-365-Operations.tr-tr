@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management 10.0.9'daki yenilikler veya değişiklikler (Nisan 2020)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.9'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 502b2e08c6c1f4190031d171f037a05d591e5cd8
-ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
+ms.openlocfilehash: 24132e5c43948232bb8ae3c08577d7505b5df3e4
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3164780"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261223"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Dynamics 365 Supply Chain Management 10.0.9'daki yenilikler veya değişiklikler (Nisan 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.9'daki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.383 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
@@ -47,6 +46,7 @@ Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [S
 - [Sevkiyat konsolide etme geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/consolidate-shipment-enhancements)
 - [Geçici stoklama](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking) - Daha fazla bilgi için bkz. [planlanan çapraz yerleşik](https://www.microsoft.com/videoplayer/embed/RE4f7LF) videosu.
 - Diğer fiili ağırlık tümleştirmesi [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1), [10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2), [10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3), [10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4), [10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5), [10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6), [10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7) - Daha fazla bilgi için bkz. [Ambar yönetimi ile Fiili ağırlık ürün işlemi](../warehousing/catch-weight-processing.md) ve ayrıca [Fiili ağırlık ürünü geliştirmeleri](https://www.microsoft.com/videoplayer/embed/RE4jzx8) videosu.
+- [Varlık Yönetimi yaşam döngüsüyle sabit kıymetler tümleştirmesi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/fixed-assets-integration-asset-management-lifecycle)
 - [Esnek ambar düzeyi boyut rezervasyonu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation) - Daha fazla bilgi için bkz. [Esnek ambar düzeyi boyut rezervasyon ilkesi](../warehousing/flexible-warehouse-level-dimension-reservation.md).
 - [Gelişmiş iş kartı aygıtı](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) - Daha fazla bilgi için bkz. [Mobil iş aygıtındaki rapor ilerlemesi](../production-control/tasks/report-progress-mobile-job-device.md) ve [İş kartı aygıtından lisans levhası denetimli bir konuma tamamlandı bildirimi](../production-control/report-finished-job-device.md)
 - [Gelen kalite denetimi](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
@@ -64,6 +64,7 @@ Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [S
 - [Alınanı istifleme](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
 - [Küçük Paket Sevkiyatı (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [Satıcı teklifi— satıcılardan gelen sorular ve özet yanıtlar](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
+- [Varlık Yönetiminde iş emirleri için görsel planlama](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management)
 - [Ambar yerleştirme](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [Dalga etiketi yazdırma geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [Dalga adım kodu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)

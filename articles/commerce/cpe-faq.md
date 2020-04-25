@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce önizleme ortamıyla ilgili SSS
 description: Bu konu, Microsoft Dynamics 365 Commerce önizleme ortamı istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024764"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254736"
 ---
 # <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce önizleme ortamıyla ilgili SSS
 
@@ -77,8 +77,6 @@ Kabul edilen her istek için bir Commerce önizleme ortamının kotası veriyoru
 ## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Dynamics 365 Commerce önizleme ortamı iletişim bilgileri
 
 Commerce önizleme ortamıyla ilgili sorularınız veya istekleriniz varsa, Microsoft'a başvurmak için yardım almak üzere [Microsoft Dynamics 365 Commerce Önizleme Yammer grubunu](https://aka.ms/Dynamics365CommercePreviewYammer) ziyaret edin.
-
-Yammer Gruba erişmeye çalıştığınızda sorunlarla karşılaşırsanız, Microsoft'a e-posta ile başvurabilirsiniz:  <Dynamics365Commerce@microsoft.com>. Bu e-posta adresi etkin şekilde izlenmiyor. Bu nedenle, yanıtta bir gecikme olmasını bekler.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

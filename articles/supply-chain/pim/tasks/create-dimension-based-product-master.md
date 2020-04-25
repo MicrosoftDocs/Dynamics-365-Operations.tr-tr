@@ -2,7 +2,7 @@
 title: Boyut tabanlı ana ürün oluşturma
 description: Bu yordam, boyut tabanlı yapılandırma teknolojisi ile yeni bir ürün şablonunun nasıl oluşturulacağını gösterir.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,22 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 363c79696d697e923a340c84807d3a46740ee30d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 09994bf6a6a4a1789c0a0fcd3cf5f95b5c93caa4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844878"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203814"
 ---
 # <a name="create-a-dimension-based-product-master"></a>Boyut tabanlı ana ürün oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu yordam, boyut tabanlı yapılandırma teknolojisi ile yeni bir ürün şablonunun nasıl oluşturulacağını gösterir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Boyut tabanlı yapılandırma birleşimlerini nasıl oluşturulacağını açıklayan sekiz prosedür arasındaki ilki budur.
 

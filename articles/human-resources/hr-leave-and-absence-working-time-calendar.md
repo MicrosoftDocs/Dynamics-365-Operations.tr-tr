@@ -3,7 +3,7 @@ title: Çalışma zamanı takvimi oluşturma
 description: Dynamics 365 Human Resources'ta Çalışma zamanı takvimi, tatiller ve çalışma dışı zamanları tanımlayın .
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 641f66c75875cfba51af3753223a070d7cb7dc50
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: dc209b62836011b18362f78b63cdd3fcda884dc3
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010901"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198039"
 ---
 # <a name="create-a-working-time-calendar"></a>Çalışma zamanı takvimi oluşturma
 
@@ -68,10 +68,6 @@ Tatilleri ve kapanışları, çalışma zamanı takviminden ayrı olarak ekleyeb
 1. **Kuruluş yönetimi** sayfasında **Çalışmama süresi** üzerine tıklayın.
 
 2. **Yeni**'yi seçin ve çalışmama süresi ad ve zaman aralığı girin.
-
-## <a name="leave-and-absence-preview-feature"></a>İzin ve devamsızlık Önizleme özelliği
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
 
 İzin ve devamsızlığı Banka tatili düzeltmeleri önizlemesi özelliğini etkinleştirdiyseniz, İnsan Kaynakları takvimde kayıtlı olan çalışanlara göre ayarlanacak gün sayısını belirlemek için tatiller ve kapatma tarihleri kullanır.
 

@@ -2,7 +2,7 @@
 title: Operasyon planlama çizelgeleme seçenekleri
 description: Bu konu, Operasyon planlama çizelgelemesi seçeneklerini açıklar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 198123
 ms.assetid: d680d7be-da64-4132-89fe-ad2fa59afb77
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f3c9c40437d368b006b0f2b5a2ddd65d228ac87
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3865bfc3b66c018f836e21bbddf658de0351e57
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570187"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211388"
 ---
 # <a name="operations-scheduling-options"></a>Operasyon planlama çizelgeleme seçenekleri
 

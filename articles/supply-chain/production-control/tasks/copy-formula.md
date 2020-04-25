@@ -2,26 +2,26 @@
 title: Formül kopyalama
 description: Bu yordam, varolan bir formülün, ancak küçük farklılıklar ile aynı maddeleri içeren bir formül oluşturma üzerinde odaklanır.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c5d8dbc5204464b2265029b6a11fcac7b79b464
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 624e06c2184764f3fd8df3ddf7d90753ef2cb9d0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147170"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210951"
 ---
 # <a name="copy-a-formula"></a>Formül kopyalama
 

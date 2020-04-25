@@ -3,7 +3,7 @@ title: REPLACE ER işlevi
 description: Bu konu, REPLACE Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba2590635ba465dae9ea50d3e4da989365548f3b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040998"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201078"
 ---
-# <a name="REPLACE">REPLACE ER işlevi</a>
+# <a name=""></a><a name="REPLACE">REPLACE ER işlevi</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ Sonuç metin değeri.
 
 `regular expression flag` bağımsız değişken **doğru** ise, `pattern` bağımsız değişken tarafından belirtilen normal ifade uygulanarak bu işlev belirtilen dizeyi değiştirildikten sonra döndürür. Bu düzenli ifade, değiştirilmesi gereken karakterleri bulmakta kullanılır.
 
-`regular expression flag` Bağımsız değişken **yanlışsa**, bu işlev [çeviri](er-functions-text-translate.md) gibi davranır. Belirtilen değiştirme `replacement` bağımsız değişkenindeki karakterler, bulunan karakterleri değiştirmek için kullanılır. 
+`regular expression flag` bağımsız değişkeni **FALSE** ise, bu işlev `pattern` bağımsız değişkeninde tanımlanan karakter kümesin `replacement` bağımsız değişkeninin karakterleriyle değiştirildikten sonra belirtilen dizeyi döndürür. 
 
 ## <a name="example-1"></a>Örnek 1
 

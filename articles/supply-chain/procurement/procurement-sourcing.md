@@ -2,14 +2,14 @@
 title: Tedarik ve kaynak atama ana sayfası
 description: Bu konuda, Tedarik ve kaynak atama için kullanılabilecek yardım konularının ve diğer kaynakların bir listesi verilmektedir.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813402"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209226"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Tedarik ve kaynak atama ana sayfası
 
@@ -59,7 +59,7 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 -   [Satıcı iş birliğini kullanarak konsinye stoğu izleme](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Satıcı portalını kullanarak satıcılarla iş birliği yapma](collaborate-vendors-vendor-portal.md) (Dynamics AX'in yalnızca Şubat 2016 ve Mayıs 2016 sürümleri)
 -   [Satıcı portalı kullanıcı güvenliği](configure-security-vendor-portal-users.md) (Finance and Operations'ın yalnızca 2016 ve Mayıs 2016 sürümleri)
--   [Satıcı iş birliği mobil çalışma alanı](vendor-collaboration-mobile-workspace.md)
+-   [Satıcı işbirliği mobil çalışma alanı](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Tedarik ürün yönetimi
 -   [Tedarik kataloglarına genel bakış](procurement-catalogs.md)

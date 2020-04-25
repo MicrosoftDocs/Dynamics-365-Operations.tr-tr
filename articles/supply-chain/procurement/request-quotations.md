@@ -2,7 +2,7 @@
 title: Teklif taleplerine (RFQ'lar) genel bakış
 description: Bu konuda, teklif taleplerine (RFQ) genel bakış sağlanmaktadır. Kuruluşlar, satın almak zorunda oldukları maddeler veya hizmetler için çeşitli satıcılardan rekabetçi teklifler almak istediklerinde RFQ'lar yayınlar.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb5255236fc48132d4d68dc6f515f32e7ec71dae
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: daa21e547a1d38b898032e3cdbeee40de23bd64e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248855"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207891"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Teklif taleplerine (RFQ'lar) genel bakış
 

@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 580f0c885373006cb9cd955a61c41704a2ac9a94
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4a01b8387afd45648f1205d4246378edc8a9e79b
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186705"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249023"
 ---
 # <a name="dual-currency"></a>Çift para birimi
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations 8.1 (Ekim 2018) sürümünde tanıtılan işlev, raporlama para biriminin başka amaçla ve ikinci muhasebe para birimi olarak kullanılmasını sağlar. Bu işlevselliğe *çift para birimi* de denir. Çift para birimi değişiklikleri, bir parametre veya konfigürasyon anahtarı ile devre dışı bırakılamaz. Raporlama para birimi ikinci muhasebe para birimi olarak kullanıldığından, raporlama para biriminin yayın mantığında hesaplanma yöntemi değişti.
 

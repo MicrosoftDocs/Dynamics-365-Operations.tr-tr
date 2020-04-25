@@ -2,7 +2,7 @@
 title: Satıcıları işe alma
 description: Bu konu yeni satıcıları işe alma sürecini açıklar. Bu işlem sırasında çeşitli roller için gerekli olan eylemleri açıklar.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250176"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203423"
 ---
 # <a name="onboard-vendors"></a>Satıcıları işe alma
 [!include [banner](../includes/banner.md)]
@@ -48,7 +48,7 @@ Aşağıdaki tablo işleme dahil olan adımları ve rolleri gösterir.
 | Yönetici            | | | Supply Chain Management ve Microsoft Azure. için bir kullanıcı oluşturun. | | | |
 | Satıcı ilgili kişisi    | | | İlgili kişiye e-posta gönderin. | Satıcı bilgilerini kaydedin. | | |
 
-Satıcı işe alım sürecinin kısa bir tanıtımı için YouTube'daki şu kısa videoyu izleyin: [Finance and Operations'ta yeni bir satıcı nasıl işe alınır?](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Satıcı işe alım sürecinin hızlı bir tanıtımı için bu kısa YouTube videosunu izleyin: [Finance and Operations'ta yeni bir satıcıyı işe alma](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Aday satıcı kaydı talebini içe aktarma
 

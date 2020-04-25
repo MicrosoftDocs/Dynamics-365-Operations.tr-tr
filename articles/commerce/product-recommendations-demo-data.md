@@ -1,9 +1,9 @@
 ---
 title: Demo verileriyle öneriler oluşturma
-description: Bu belgeyle önceden doldurulan, ve özelleştirilebilir tanıtım verileri kullanılarak Katman 1 tek taraflı ortamlarda çoklu kanal ürün önerilerinin nasıl kullanılacağına ilişkin kılavuz sunmak amaçlanmıştır.
+description: Bu konuda, önceden doldurulan ve özelleştirilebilir tanıtım verileri kullanılarak Katman 1 tek taraflı ortamlarda çoklu kanal ürün önerilerinin nasıl kullanılacağına ilişkin kılavuz sunmak amaçlanmıştır.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 03/30/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 59cb5e5c9b59ff2127149e3e47b6c30c9c938a27
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
+ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154261"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175561"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Demo verileriyle öneriler oluşturma
 
 [!include [banner](includes/banner.md)]
 
-Bu belgeyle önceden doldurulan, ve özelleştirilebilir tanıtım verileri kullanılarak Katman 1 tek taraflı ortamlarda çoklu kanal ürün önerilerinin nasıl kullanılacağına ilişkin kılavuz sunmak amaçlanmıştır.
+Bu konuda, önceden doldurulan ve özelleştirilebilir tanıtım verileri kullanılarak Katman 1 tek taraflı ortamlarda çoklu kanal ürün önerilerinin nasıl kullanılacağına ilişkin kılavuz sunmak amaçlanmıştır.
 
 Çoklu kanal ürün önerilerinde, editör tarafından düzenlenen veya program tarafından oluşturulan bir dizi sipariş edilmiş ürünlerin listesini sunulmaktadır. Bu listeler, iş ihtiyaçlarınıza bağlı olarak birçok senaryoda kullanılabilir. Ürün önerileri listeleri hakkında daha fazla bilgi edinmek için [Ürün önerilerine genel bakış](product-recommendations.md) başlıklı makaleye bakın.
 
@@ -42,22 +42,23 @@ Katman 1 ortamlarında ürün önerilerinde yalnızca .csv dosyasında depolanan
 Ürün örnerileri demo tarhini etkinleştirmek için Müşterilerin Dynamics 365 Commerce Önizleme Tanıtım Uzantısı'nı ilgili ortama dağıtması gerekir. Böylece, ürün önerileri tanıtım verileri otomatik olarak etkinleştirilir.
 
 ## <a name="default-demo-data"></a>Varsayılan tanıtım verileri
-Her bir Onebox türü ortamı, virgülle ayrılan Commerce Scale Unit'da bulunan ‘reco_demo_data.csv’ dosyasında depolanan bir dizi önceden yüklenmiş ürün önerileriyle birlikte gelir.
+Her OneBox türü ortamı, virgülle ayrılan Commerce Scale Unit'da bulunan ‘reco_demo_data.csv’ dosyasında depolanan bir dizi önceden yüklenmiş ürün önerileriyle birlikte gelir.
 
 Bu veriler, aşağıdaki sütunlar boyunca yapılandırılmıştır.
 
-| Sütun adı         | Zorunlu          | Tanım                                                                                                                                 | Olası Değerler                                                              |
+| Sütun adı         | Zorunlu          | Tanım                                                                                                                                 | Olası değerler                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | RecoList            | :heavy_check_mark: | Tanıtım veri noktasının oluşturulması gereken özel ürün önerisi listesi türü.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
 | OperatingUnitNumber | :heavy_check_mark: | Ürün önerilerinin kullanıma sunulmasının beklendiği özel işletme birimi numarası.                                        |                                                                              |
 | Kategori            |                    |    Özel listenin geri döndürülmesi gerektiği kategori. Hiçbir kategori belirtilmezse liste, yalnızca gezinti hiyerarşisinin üst kısmı içindir.    |                                                                              |
 | SeedItemId          |                    |    Çekirdek ürünün olması gerektiği listelerde (RecoPeopleAlsoBuy and RecoCart) ek ürünler gösterilmelidir.            |                                                                              |
+| CustomerId          |                    |    Müşteri tanımlayıcısı gerektiren listeler için (RecoPicks).  Varsayılan '0' değeri tüm müşteriler için geçerlidir.          |                                                                              |
 | ItemIds             | :heavy_check_mark: | Sonuç olarak döndürülmesi gereken ve ‘;’ ile ayrılan bir veya daha fazla ürün.                                                                  |                                                                              |
 
 ## <a name="customize-demo-data"></a>Tanıtım verilerini özelleştirme
-HQ'da yapılandırılan tüm ürün ve kategori bilgileriyle varsayılan tanıtım verilerini düzenleyebilirsiniz. .CSV'yi güncelleştirdiğinizde sonra müşterilere döndürülen Ürün Önerilerinde değişiklikler hemen yansıtılır.
+HQ'da yapılandırılan tüm ürün ve kategori bilgileriyle varsayılan tanıtım verilerini düzenleyebilirsiniz. .CSV'yi güncelleştirdikten sonra değişiklikler müşterilere döndürülen ürün önerilerinde hemen yansıtılır.
 
-Uzantı, sahte öneri sonuçlarını güçlendirmek için kullanılan veri kümesini denetlemenize olanak tanıyan, "RecoMockDataset.csv" adlı veri dosyasını içerir. Dosya adı, **ext.Recommendations.DemoFilePath** ayarı kullanılarak uzantı yapılandırmasıyla denetlenebilir. Böylece, yapılandırma yoluyla değiştirilebilen mevcut birden fazla veri kümesine sahip olabilirsiniz.
+Uzantı, sahte öneri sonuçlarını güçlendirmek için kullanılan veri kümesini denetlemenize olanak tanıyan, 'RecoMockDataset.csv' adlı veri dosyasını içerir. Dosya adı, **ext.Recommendations.DemoFilePath** ayarı kullanılarak uzantı yapılandırmasıyla denetlenebilir. Böylece, yapılandırma yoluyla değiştirilebilen mevcut birden fazla veri kümesine sahip olabilirsiniz.
 
 
 ```xml

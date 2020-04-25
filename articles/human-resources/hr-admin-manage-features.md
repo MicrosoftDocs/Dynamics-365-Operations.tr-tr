@@ -3,7 +3,7 @@ title: Özellikleri yönetme
 description: Dynamics 365 Human Resources'ta yeni özelliklerin nasıl açıldığı veya kapatıldığını öğrenin.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 84ff11e8237ce0669f7f6ac70c5b4411c5d4b466
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010833"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230212"
 ---
 # <a name="manage-features"></a>Özellikleri yönetme
 
@@ -50,9 +50,14 @@ Bir özellik genel olarak kullanılabilir olduğunda üretim ortamlarında açı
 
 3. Bir önizleme özelliğini etkinleştirmek için, özelliği listeden seçin ve ardından **Etkinleştir**'i seçin. Bir önizleme özelliğini devre dışı bırakmak için, özelliği listeden seçin ve ardından **Devre dışı bırak**'ı seçin.
 
-## <a name="preview-feature-benefits-management"></a>Önizleme özelliği: Kazanç yönetimi
+## <a name="enable-or-disable-benefits-management"></a>Kazanç yönetimini etkinleştirme veya devre dışı bırakma
 
-Kazanç yönetimi size, tekliflerinizi gösteren kullanımı kolay bir çalışan deneyimi ile birlikte, çok çeşitli kazanç seçeneklerini destekleyen esnek bir çözüm sağlar. Kazanç yönetimi yapılandırması ve kullanımı hakkında daha fazla bilgi için bkz. [Kazanç yönetimine genel bakış](hr-benefits-management-overview.md).
+Kazanç yönetimini etkinleştirmek için [Önizleme özelliklerini etkinleştirme veya devre dışı bırakma](hr-admin-manage-features.md?enable-or-disable-preview-features)'daki aynı prosedürü kullanın.
+
+> [!IMPORTANT]
+> Etkinleştirdikten sonra **Üretim** ortamında Kazanç yönetimini devre dışı bırakamazsınız. Ancak, Kazanç yönetimini **Korumalı alan** ortamında devre dışı bırakabilirsiniz.
+
+Kazanç yönetimi yapılandırması ve kullanımı hakkında daha fazla bilgi için bkz. [Kazanç yönetimine genel bakış](hr-benefits-management-overview.md).
 
 Kazanç yönetimi, **Kazançlar** çalışma alanındaki işlevlerin yerini alıyor. Kazanç yönetimi önizleme özelliğini etkinleştirdiğiniz zaman, artık **Kazançlar** çalışma alanında şu formlara erişemezsiniz:
 
@@ -65,62 +70,23 @@ Kazanç yönetimi, **Kazançlar** çalışma alanındaki işlevlerin yerini alı
 - **Kazanca uygunluk ilkeleri**
 - **Uygunluk olayları**
 
-Bu formlardaki bilgileri salt okunur modda görüntüleyebilirsiniz. Bilgileri düzenlemek isterseniz, önce Kazanç yönetimi önizleme özelliğini devre dışı bırakmanız gerekir.
+Bu formlardaki bilgileri salt okunur modda görüntüleyebilirsiniz. Bilgileri düzenlemek isterseniz, önce Kazanç yönetimini devre dışı bırakmanız gerekir (yalnızca **Korumalı alan** ortamlarına uygulanır).
 
-### <a name="benefits-management-known-issues"></a>Kazanç yönetimiyle ilgili bilinen sorunlar
+## <a name="enable-or-disable-leave-and-absence"></a>İzin ve devamsızlığı etkinleştirme veya devre dışı bırakma
 
-#### <a name="life-events"></a>Yaşam olayları
+İzin ve devamsızlığı etkinleştirmek için [Önizleme özelliklerini etkinleştirme veya devre dışı bırakma](hr-admin-manage-features.md?enable-or-disable-preview-features)'daki aynı prosedürü kullanın.
 
-Yaşam olaylarını işleyen kullanıcı bir hata alacaktır:
+> [!IMPORTANT]
+> İzin ve devamsızlıkta etkinleştirdikten sonra **Birden fazla izin türü** özelliğini devre dışı bırakamazsınız. Bu durum hem **Korumalı alan** hem de **Üretim** ortamları için geçerlidir.
 
-Karşılama başlangıç tarihi, *plan döneminin başlangıcı* ile *plan döneminin sonu* arasında olmalıdır. 
+İzin ve devamsızlık'taki önizleme özellikleri hakkında daha fazla bilgi için bkz. [İzin ve devamsızlık önizleme özellikleri](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-Yaşam olayı, beklendiği gibi, işlenmeye devam edecek.
-
-#### <a name="eligibility-processing"></a>Uygunluk işlemleri
-
-1-5X maaş, Maaş Yüzdesi ve Sabit Tutar karşılama tutarı kullanan kazançlar için uygunluğu çalıştırırken, kazanç ayrıntıları tarihi **Çalışma geçmişi**'ndeki çalışan başlama tarihine ayarlanmalı, çalışılan saat sayısı, ödeme sıklığı ve yıllık kazançlar maaş tutarı da dahil edilmelidir. Çalışan için sabit ücret varsa, ödeme sıklığıyla birlikte çalışılan saatleri girin; yıllık maaş tutarı hesaplanacaktır. Çalışan maaşlı ise, çalışılan saatlere gerekmez. Yeni çalışanlar oluştururken önce sabit ücret girilmesini öneririz. Kazanç ayrıntıları kaydını güncelleştirmek için **Çalışan > Çalışan geçmişi > İstihdam ayrıntıları**'na gidin. Tarihi, çalışanın başlangıç tarihine ayarlayın.
-
-#### <a name="employee-self-service"></a>Çalışan-self servis
-
-Çalışanlar uygun olmadıkları ve bir plan seçip çıkabilirler. Örneğin bir çalışanın bakmakla yükümlü olduğu kişiler yoktur ama aile kapsamı seçeneği olan bir tıbbi plan seçebilir.
-
-Hayat sigortası için karşılama tutarı güncelleştirilirken çalışan tutarı hesaplanmaz. Örneğin bir çalışana bir hayat sigortası planı sunulduğunda 1000 liralık karşılama tutarı başına 36 kuruşluk maliyetle 50.000 liraya kadar bir karşılama tutarı seçebilir.  Çalışan karşılama tutarını güncelleştirdiğinde, çalışanın ilişkili maliyeti sıfır olarak kalır.
-
-Bu plan türünde yalnızca tek bir seçime izin veren bir kazanç planı için, bir plan seçtikten sonra bir planı feragat etmeye çalışırsa kullanıcı bir hata alır. Örneğin kullanıcı bir tıbbi plan seçip alışveriş sepetine ekliyor. Bunun ardından, başka bir tıbbi plan için **Feragat**'i seçiyor. Kullanıcı bir hata alacaktır.
-
-## <a name="preview-features-in-leave-and-absence"></a>İzin ve devamsızlık'ta önizleme özellikleri
-
-İzin ve devamsızlık önizleme özellikleri şunları içerir:
-
-- **İzin ve devamsızlık takvimi** -İzin ve devamsızlık parametreleri, **İnsan kaynakları parametreleri**'nden, **İzin ve devamsızlık parametreleri** adlı yeni bir ekrana geçecek. Yeni ekranda yeni bir **Takvim** sekmesi var. Bu önizleme yalnızca parametrelerin bir alt kümesini sağlıyor. Yeni ekrana **İzin ve devamsızlık** çalışma alanının **Bağlantılar** sekmesinden erişebilirsiniz. Takvimler şunları içerir:
-  - **Şirket takvimi** -Tüm çalışan izin isteklerini gösterir. **İnsan kaynakları** rolündeki kişiler bu takvime **İzin ve devamsızlık** çalışma alanının **Bağlantılar** sekmesinden erişebilirler.
-  - **Yönetici ekibi takvimi** - Tüm bağlı çalışanların izin isteklerini gösterir. Yöneticiler takvime **İzin ve devamsızlık** altındaki Çalışan self servisi'ndeki **Ekibim** sekmesinden erişebilirler. 
-
-- **İzin ve devamsızlık tatil takvimleri** - İzin türleri, çalışma zamanı takvimiyle birlikte kullanılan yeni bir **Tatil** seçeneği içeriyor. Tatiller ve kapanışlar ile tanımlanan günler artık çalışma günleri oluşturulurken **Tatil** olarak belirleniyor. Tahakkuklar işlenirken, çalışma gününe denk gelen tatilleri hesaba katmak için, takvime atanan çalışanlarda ayarlamalar yapılıyor.
-
-- **İzin tahakkuku denetimi** - Yeni bir ekran, hem toplu olarak hem de tek tek çalışanların tahakkukları ne zaman işlediğini ve sildiğini incelemenizi sağlıyor. Bu yeni ekrana **İzin ve devamsızlık** çalışma alanının **Bağlantılar** sekmesinden erişebilirsiniz.
-
-- **İzin tahakkuku silme** - Artık belirli izin planları için tahakkuk kayıtlarını silebilirsiniz. Bu yeni seçeneğe **İzin ve devamsızlık** çalışma alanının **Bağlantılar** sekmesinden erişebilirsiniz. Tek tek çalışanlar için bu seçenek, çalışan profilindeki **İzin ve devamsızlık** gruplandırmasında görüntülenir. 
-
-- **İzin tahakkuku yuvarlama** - **İzin türü** için yeni seçenekler tahakkukta hangi tür yuvarlama kullanılacağını ve tahakkuk işlemi sırasında yuvarlamanın ondalık duyarlığını tanımlıyor. Tahakkuklar işlenirken, tahakkuk kayıtlarına yuvarlama ve duyarlık uygulanır. 
-
-- **Tek bir izin planında birden fazla izin türü yapılandır** - İzin türleri için izin tahakkuku zaman çizelgesindeki yeni bir sütun, farklı tahakkuk zamanlamalarıyla bir izin ve devamsızlık planı üzerinde birden fazla izin türü tanımlamanıza olanak sağlıyor. Önceki **İzin türü** alanı kaldırıldı. Çalışan kaydında, izin türlerinin bakiyeleri şimdi ekranın üst bölümünde değil, bir tabloda görüntüleniyor.
-
-  > [!IMPORTANT]
-  > Bu özelliği etkinleştirildikten sonra kapatabilirsiniz.
-
-- **Tahakkuk için bir çalışanın tam zamanlı eşdeğerliliğini (FTE) kullanımı** - İzin tahakkuku zaman çizelgesindeki yeni bir sütun, tahakkuk için FTE kullanmaya izin veriyor. Tahakkuklar işlenirken, uygulama, çalışanın birincil pozisyonunu ve orantılı tahakkuk tutarını belirlemek için tanımlanan FTE'yi kullanıyor.
-
-  > [!NOTE]
-  > Bu özellik ancak **Tek bir izin planında birden fazla izin türü yapılandır**'ı etkinleştirirseniz kullanılabilir. 
-
-## <a name="feedback"></a>Bildirim
+## <a name="send-us-feedback"></a>Geri bildirim gönderin
 
 Bu önizleme özellikleriyle ilgili deneyiminizden haberdar olmak istiyoruz. Bu özellikleri veya diğer yeni özellikleri kullandıkça aşağıdaki sitelerden bize düzenli olarak geribildirim göndermenizi rica ediyoruz:
 
 - [Topluluk](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) – Bu, kullanıcıların olayları tartışabileceği, sorular sorabileceği ve topluluktan yardım alabileceği yararlı bir kaynaktır.
-- Üründe görmek istediğiniz özellikleri ve mevcut özellikler için yapmamız gerektiğini düşündüğünüz herhangi bir değişikliği bize bildirin. [İnsan Kaynakları fikirleri](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)'nde ürün fikirleri önerin
+- Üründe görmek istediğiniz özellikleri ve mevcut özellikler için yapmamız gerektiğini düşündüğünüz herhangi bir değişikliği bize bildirin. [Human Resources fikirleri](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)'nde ürünlerle ilgili fikirler önerin.
     
 Lütfen kişisel verilerinizi (sizi tanımlamaya yardımcı olabilecek bilgileri) geri bildiriminize veya ürün incelemesi gönderimlerinize eklemeyin. Toplanan bilgiler daha ayrıntılı incelenebilir ve yürürlükteki gizlilik yasaları kapsamında talepleri yanıtlamak için kullanılamaz. Bu programlar altında ayrı olarak toplanan kişisel veriler [Microsoft Gizlilik Bildirimi](https://privacy.microsoft.com/privacystatement)'ne tabidir.
 

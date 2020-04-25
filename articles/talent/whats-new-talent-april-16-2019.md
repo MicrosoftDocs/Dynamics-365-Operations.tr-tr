@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897937"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197279"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Dynamics 365 Talent'deki yenilikler veya değişiklikler (16 Nisan 2019)
 
@@ -46,10 +46,6 @@ Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2239 için geçer
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Common Data Service'taki Ücret bölgesi, Ücret düzeyi, Kazanç seçeneği ve Yetenek türü varlıkları müşteri alanı desteğini içerecek şekilde güncelleştirildi
 
 Bu sürümde, bu Common Data Service varlıkları, Talent: Core HR üzerinden eklenen özel alanı dahil etme yeteneğini içerecek şekilde güncelleştirilmiştir.
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Yeni Common Data Service varlık desteği: Ücret hakediş kuralları, Ücret değişken planı, Değişken ücret için
-
-Bu sürümde, Common Data Service'a Ücret hakediş kuralları, Ücret değişken planı ve Değişken ücret varlıkları eklendi. Bu varlıklar ayrıca Talent: Core HR üzerinden eklenen özel alanları da destekler.
 
 ### <a name="powerbi-refresh-issues-314342"></a>PowerBI yenileme sorunları (314342)
 
@@ -93,6 +89,6 @@ Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve
 
 ### <a name="email-support-for-alerts"></a>Uyarılar için e-posta desteği
 
-Finance and Operations için Platform güncelleştirmesi 25 ile, kullanıcılar, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere otomatik olarak gönderen uyarı kuralları oluşturabilirler.
+Finance and Operations Platform güncelleştirmesi 25 ile kullanıcılar otomatik olarak, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere gönderen uyarı kuralları oluşturabilirler.
 
 

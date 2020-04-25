@@ -2,7 +2,7 @@
 title: Bakım planlarını zamanla
 description: Bu konuda Varlık Yönetimi'nde bakım planlarını zamanlama işlemi açıklanmaktadır.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b9efd5bccdccf6ea19b105f3518bb2ef35ec857e
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: df5bcd57c611ed5f77a417a28f28fca84057d734
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571289"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206001"
 ---
 # <a name="schedule-maintenance-plans"></a>Bakım planlarını zamanla
 

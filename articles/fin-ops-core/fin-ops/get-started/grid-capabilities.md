@@ -3,7 +3,7 @@ title: Kılavuz yetenekleri
 description: Bu konu, kılavuz denetiminin çeşitli güçlü özelliklerini açıklamaktadır. Bu yeteneklere erişim sahibi olmak için yeni kılavuz özelliğinin etkinleştirilmesi gerekir.
 author: jasongre
 manager: AnnBe
-ms.date: 02/10/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036277"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260472"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
@@ -90,4 +90,23 @@ Bir kılavuzda gruplandırmayı geri almak için, gruplandırma sütununa sağ t
 ## <a name="evaluating-math-expressions"></a>Matematik ifadelerini değerlendirme
 Verimlilik rampa olarak, kullanıcılar bir kılavuzdaki sayısal hücrelere matematiksel formüller girebilecek. Bu kullanıcılar, sistem dışındaki bir uygulamada hesaplama yapmaları gerekmez. Örneğin **= 15\*4** girerseniz ve alanın dışına gitmek için **sekme** tuşuna basarsanız, sistem ifadeyi değerlendirir ve alan için **60** değerini kaydeder.
 
-Sistemin bir değeri ifade olarak tanımasını sağlamak için, değeri bir eşittir işaretiyle (**=**) başlatın. Desteklenen işleçler ve söz dizimi hakkında daha ayrıntılı bilgi edinmek için bkz. [Desteklenen matematik simgeleri](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).  
+Sistemin bir değeri ifade olarak tanımasını sağlamak için, değeri bir eşittir işaretiyle (**=**) başlatın. Desteklenen işleçler ve söz dizimi hakkında daha fazla bilgi edinmek için bkz. [Desteklenen matematik simgeleri](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
+
+## <a name="frequently-asked-questions"></a>Sık sorulan sorular
+### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Yeni kılavuz denetimini ortamımda nasıl etkinleştirebilirim? 
+
+**10.0.9 / Platform güncelleştirmesi 33 ve sonrası** **Yeni kılavuz denetimi** özelliği, herhangi bir ortamda doğrudan Özellik yönetiminde kullanılabilir. Diğer genel Önizleme özellikleri gibi, üretim için bu özelliğin etkinleştirilmesi, [Tamamlayıcı Kullanım Koşulları Sözleşmesine](https://go.microsoft.com/fwlink/?linkid=2105274) tabidir.  
+
+**10.0.8/Platform güncelleştirmesi 32 ve 10.0.7 / Platform güncelleştirmesi 31** **Yeni kılavuz denetimi** özelliği, aşağıdaki adımları izleyerek ek test ve tasarım değişiklikleri sağlamak amacıyla Katman 1 (geliştirme/test) ve Katman 2 (korumalı alan) ortamlarında etkinleştirilebilir.
+
+1.  **Uçuşu etkinleştirin**: Aşağıdaki SQL beyanını yürütün: 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
+
+2. Statik deneme sürümü önbelleğini temizlemesi için **IIS'yi Sıfırla**'yın. 
+
+3.  **Özelliği bulun**: **Özellik Yönetimi** çalışma alanına gidin. **Yeni kılavuz denetimi** tüm özellikler listesinde görünmezse, **Güncelleştirmeleri denetle**'yi seçin.   
+
+4.  **Özelliği etkinleştirin**: Özellikler listesinde **Yeni kılavuz denetimi** özelliğini bulun ve Ayrıntılar bölmesindeki **Şimdi etkinleştir**'i seçin. Tarayıcı yenilemenin gerekli olduğunu unutmayın. 
+
+Sonraki tüm kullanıcı oturumları yeni ızgara denetimi etkin olarak başlayacaktır.

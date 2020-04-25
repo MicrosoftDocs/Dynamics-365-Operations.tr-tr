@@ -2,7 +2,7 @@
 title: Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış
 description: Bu konu Dynamics 365 for Finance and Operations - Ambarlama uygulamasını yükleme ve yapılandırmayı açıklar.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: df0bc9ff2405cc2f370ea777a70e005a1ff338a0
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 52882ef7542bfedebdae4a08de8404cddd01ed55
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814962"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205610"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış
 
@@ -50,9 +50,9 @@ Uygulama Android ve Windows işletim sistemlerinde kullanılabilir. Bu uygulamay
 
 ## <a name="get-the-app"></a>Uygulamayı edinin
 -   Windows (UWP)
-     - [Finance and Operations - Windows Mağazasında Ambarlama](https://www.microsoft.com/store/apps/9p1bffd5tstm)
+     - [Finance and Operations - Windows Mağazası'nda Ambarlama](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 -   Android
-    - [Finance and Operations - Ambarlama Google Play Mağazası'nda](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
+    - [Finance and Operations - Google Play Store'da Ambarlama](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
 > [!NOTE]
 > Zebra Uygulama Galerisi kaldırıldı, bu da Ambarlama uygulamasının bu konumdan artık indirilemeyeceği anlamına geliyor.

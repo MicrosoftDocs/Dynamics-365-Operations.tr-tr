@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d684eedd5b40ee9775ab779c243d05cdc6e01f58
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c5b20ff6fff2bc62daca68c46e949a38df8d92
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188867"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140294"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Aralığa sahip faiz kodu oluşturma
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
+[!include [banner](../../includes/banner.md)]
 Faiz kodları değer aralığına göre farklı faiz tutarlarını hesaplayacak şekilde ayarlanabilir. Bu yordam, bir faiz kodunun nasıl ekleneceğini ve ona nasıl bir aralık ekleneceğini gösterir.
 
 1. Alacak ve Tahsilatlar > Faiz > Faiz kodlarını ayarla'ya gidin.

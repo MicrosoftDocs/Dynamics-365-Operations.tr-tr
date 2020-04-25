@@ -2,25 +2,25 @@
 title: Ürün yaşam döngüsü durumunu serbest bırakılan bir ana ürüne atama
 description: Bu yordam, serbest bırakılan bir ana ürüne ve onun ürün çeşitlerine nasıl ürün yaşam döngüsü durumu atanacağını açıklar.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 02d7e0b6f81011519b0e1bd09f8aea0c4170ffd0
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: ab8c4e02a064fe84446fa54cc05b9a6a902c1860
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149902"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213159"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>Ürün yaşam döngüsü durumunu serbest bırakılan bir ana ürüne atama
 

@@ -3,7 +3,7 @@ title: TRANSLATE ER işlevi
 description: Bu konu, TRANSLATE Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fe19c5f66c33e336f76f3a72d3bbda0c7e8d86
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 415444bda097c00522155d1b37988a79da836902
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040929"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201124"
 ---
-# <a name="TRANSLATE">TRANSLATE ER işlevi</a>
+# <a name=""></a><a name="TRANSLATE">TRANSLATE ER işlevi</a>
 
 [!include [banner](../includes/banner.md)]
 
-`TRANSLATE` işlev, belirtilen metin dizesini bir bütün veya bir kısmı başka bir dizeyle değiştirildikten sonra *dize* değeri olarak döndürür.
+`TRANSLATE` işlevi, başka bir küme için karakterlerle belirtilen metnin karakter değiştirme sonucunu içeren bir *Dize* değeri döndürür.
 
 ## <a name="syntax"></a>Sözdizimi
 
@@ -57,9 +57,23 @@ Yerine konacak metin.
 
 Sonuç metin değeri.
 
-## <a name="example"></a>Örnek
+## <a name="usage-notes"></a>Kullanım notları
 
-`TRANSLATE ("abcdef", "cd", "GH")`, **"cd"** deseni değiştirir, şunun ile: **"GH"** ve bunu döndürür: **"abGHef"**.
+`TRANSLATE` işlevi bir seferde bir karakteri değiştirir. İşlev, `text` bağımsız değişkenin ilk karakterini `pattern` bağımsız değişkenin ilk karakteriyle değiştirir, sonra ikinci karakteri değiştirir ve tamamlanana kadar aynı akışla devam eder. `text` ve `pattern` bağımsız değişkenlerden bir karakter eşleştiğinde, bu karakter `pattern` bağımsız değişkeninden gelen karakterle aynı konumda bulunan `replacement` bağımsız değişkenden gelen karakter ile değiştirilir. Bir karakter `pattern` bağımsız değişkende birden çok kez görünürse, bu karakterin ilk oluşumuna karşılık gelen `replacement` bağımsız değişkeni eşlemesi kullanılır.
+
+## <a name="example-1"></a>Örnek 1
+
+`TRANSLATE ("abcdef", "cd", "GH")` aşağıdaki nedenle, belirtilen **“abcdef”** metninin **"c"** karakterini `replacement` metninin **"G"**  karakteriyle değiştirir:
+-   **"c"** karakteri ilk konumdaki `pattern` metinde gösterilir.
+-   `replacement` metninin ilk konumu **"G"** karakterini içerir.
+
+## <a name="example-2"></a>Örnek 2
+
+`TRANSLATE ("abcdef", "ccd", "GH")` **"abGdef"** döndürür.
+
+## <a name="example-3"></a>Örnek 3
+
+`TRANSLATE ("abccba", "abc", "123")`, **"123321"** döndürür.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

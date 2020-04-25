@@ -2,7 +2,7 @@
 title: Taşıma yükü kısmi sevkiyatı
 description: Bu konu yükü nasıl kısmen sevk edebileceğinizi ve yük için kapasite planlamasını nasıl erteleyebileceğinizi açıklar.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSTransportLoad
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8c172f1b66e56f60e89f56ea98910f8d0e4f3e36
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e92a15cf4e2694eba1804184a02a7fd13159799e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545279"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215666"
 ---
 # <a name="partial-shipment-of-a-transport-load"></a>Taşıma yükü kısmi sevkiyatı
 

@@ -3,7 +3,7 @@ title: Başlık giderlerini eşleşen satış satırlarına eşit dağıt
 description: Bu konu, Commerce kanal siparişlerine otomatik giderlerin hesaplanmasını ve uygulanması için ek yeterlilikleri, gelişmiş otomatik masraf özelliğini kullanarak açıklar.
 author: hhaines
 manager: annbe
-ms.date: 04/23/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c03b1a1db11098058022a6916dc5bddf5518f9b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024372"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175143"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Başlık giderlerini eşleşen satış satırlarına eşit dağıt
 
@@ -37,7 +37,7 @@ Bu özellik, yalnızca [gelişmiş otomatik masraflar](https://docs.microsoft.co
 
 Bu yeni özellik, başlık düzeyi otomatik masrafların hesaplanmasına ve satış hareketlerine uygulanmasında kuruluşlara daha fazla esneklik verir.
 
-Sürüm 10.0.1'den önceki sürümlerinde, belirli bir teslimat modu ilişkisine sahip başlık düzeyi otomatik giderleri, yalnızca satış siparişi başlığında tanımlanmış teslimat modu ile bir eşleşme olduğunda hesaplanır.
+Sürüm 10.0.1'den önceki uygulama sürümlerinde, belirli bir teslimat modu ilişkisine sahip başlık düzeyi otomatik giderleri, yalnızca satış siparişi başlığında tanımlanmış teslimat modu ile bir eşleşme olduğunda hesaplanır.
 
 Örneğin, başlık düzeyi otomatik masraflar, teslimat modu **99** ve teslimat modu **11** için tanımlanmıştır. Bir satış siparişi oluşturulur ve teslimat modu **99**, sipariş başlığında tanımlanır. Ancak, satış satırlarının bazıları, teslimat modu **11** kullanılarak sevk edilmek üzere ayarlanmıştır. Bu durumda, yalnızca teslimat modu **99** ile bağlantılı başlık düzeyi masrafları dikkate alınır ve satış siparişine uygulanır.
 
@@ -169,3 +169,9 @@ Bu nedenle, bu örnek için öğe 81334'e 5,62 $ tutarında bir navlun masrafı 
 ![Öğe 81334 için satış satırında eşit dağıtılmış masraflar](media/proratedlinecharge.png)
 
 Bu hesaplama yöntemi, kısmi iade senaryoları için kullanılırsa, masraf kodu iade edilebilirse, masrafın yalnızca bu satıra tahsis edilmiş kısmı, öğe iade edildiğinde geri ödenecektir.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+[Çok yönlü kanal gelişmiş otomatik masrafları](omni-auto-charges.md)
+
+[Kanala göre otomatik masrafları etkinleştirme ve yapılandırma](auto-charges-by-channel.md)

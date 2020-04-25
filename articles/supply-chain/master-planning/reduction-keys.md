@@ -2,15 +2,15 @@
 title: Tahmin azaltma anahtarları
 description: Bu konuda bir azaltma anahtarının nasıl ayarlanacağını gösteren örnekler verilmiştir. Çeşitli azaltma anahtarı ayarları ve her birinin sonuçları hakkında da bilgiler içerir. Bir zzaltma anahtarını, tahmin gereksinimlerinin nasıl azaltılacağını tanımlamak için kullanabilirsiniz.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 07/09/2019
+manager: tfehr
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11d5613f23805993b2a83d007c818c80de6a4b9b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814295"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225117"
 ---
 # <a name="forecast-reduction-keys"></a>Tahmin azaltma anahtarları
 
@@ -34,7 +34,7 @@ Bu konu, tahmin gereksinimlerini azaltmak için kullanılan farklı yöntemleri 
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Tahmin gereksinimlerini azaltmak için kullanılan yöntemler
 
-Bir tahmini bir master planlama içine dahil ettiğinizde, fiili talep dahil edildiğinde tahmin taleplerinin nasıl azaltıldığını seçebilirsiniz.
+Bir tahmini bir master planlama içine dahil ettiğinizde, fiili talep dahil edildiğinde tahmin taleplerinin nasıl azaltıldığını seçebilirsiniz. Master planlamanın, bugünün tarihinden önceki tüm tahmin gereksinimleri anlamına gelen, geçmişte yapılan tahmin gereksinimlerini hariç tuttuğunu unutmayın.
 
 Bir tahmini bir master planlamaya dahil etmek ve tahmin gereksinimlerini azaltmakta kullanılan yöntemi seçmek iin **Master planlama \> Kurulum \> Planlar \> Master planlar**'a gidin. **Tahmin modeli** alanında bir tahmin modeli seçin. **Tahmin gereksinimlerini azaltmakta kullanılan yöntem** alanında bir yöntem seçin. Aşağıdaki seçenekler bulunur:
 

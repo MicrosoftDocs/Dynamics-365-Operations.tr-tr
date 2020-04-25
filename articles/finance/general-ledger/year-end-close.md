@@ -3,7 +3,7 @@ title: Yıl sonu kapanışı
 description: Bu başlık, genel muhasebe yıl sonu kapatma işlemini çalıştırmak için gerekli kurulum ve adımları açıklar.
 author: kweekley
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3071365640eb6c012cb9af5461e885bb3f135143
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175664"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259783"
 ---
 # <a name="year-end-close"></a>Yıl sonu kapanışı
 
@@ -74,7 +74,7 @@ Tüzel varlıklar eklendikten sonra, her bir tüzel varlık için kalan kazançl
 Yıl sonu kapama işlemi hesap yapılarına uymaz. Bunun sebebi, hesap yapılarının mali yıl boyunca değişebilmesi ve her zaman ilgili hesap yapısını bu değişiklikler yüzünden tespit edilememesidir.  Açılış hareketleri oluşturulduğunda, bakiyeler yıl sonu kapanış şablonunda tanımlanmış olan mali boyutlarla ileri aktarılacaktır. Açılış bakiyeleri girişi, geçerli hesap yapısında bulunmayan mali boyutları ve geçerli hesap yapısında geçerli olmayan bölüm kombinasyonlarını içerebilir. Kuruluşunuz kalan gelirler başlangıç bakiyesi için bir mali boyutu dışarıda bırakmak istiyorsa, mali boyutu **Kapalı tek** olarak ayarlayın ve boyut değerini boş bırakın.
 
 ## <a name="run-the-year-end-close-process"></a>Yıl sonu kapanış işlemini çalıştırın
-Yıl sonu kapanış şablonları oluşturulduktan sonra, yıl sonu kapanış işlemi **Yıl sonunu çalıştır** seçeneğini Eylem bölmesinde seçerek başlatılır. Yıl sonu kapanışını çalıştırmak için şablondan tüzel kişiliklerin tamamını ya da alt kümesini seçin. Yıl sonu kapanışı bir mali yılda ilk defa çalıştırılırken, çoğu tüzel varlık için yıl sonu bakiyeleri oluşturmak için tüm tüzel varlıkları kapatmanız olasıdır. Yıl sonu kapanışın yeniden çalıştırırsanız, bunu yalnızca ayarlanmış girişlerin nakledildiği tüzel varlıklar için çalıştırmayı tercih edebilirsiniz. 
+Yıl sonu kapanış şablonları oluşturulduktan sonra, yıl sonu kapanış işlemi **Mali kapanışı çalıştır çalıştır** seçeneğini Eylem bölmesinde seçerek başlatılır. Yıl sonu kapanışını çalıştırmak için şablondan tüzel kişiliklerin tamamını ya da alt kümesini seçin. Yıl sonu kapanışı bir mali yılda ilk defa çalıştırılırken, çoğu tüzel varlık için yıl sonu bakiyeleri oluşturmak için tüm tüzel varlıkları kapatmanız olasıdır. Yıl sonu kapanışın yeniden çalıştırırsanız, bunu yalnızca ayarlanmış girişlerin nakledildiği tüzel varlıklar için çalıştırmayı tercih edebilirsiniz. 
 
 Yıl sonu kapanış işlemini karşıt çalıştırmak istediğiniz mali yılı seçin. Mali yılın son dönemi için birden fazla kapanış dönemi mevcutsa, **Dönem adı** alanı kullanılabilir duruma gelir ve böylece siz hangi kapanış döneminin Kapanış hareketine nakledileceğini seçebilirsiniz, eğer kurulum Kapanış hareketini oluşturmak üzere tanımlandıysa. 
 

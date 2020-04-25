@@ -1,7 +1,7 @@
 ---
 title: Regression Suite Automation Tool eğitimini kullanma
 description: Bu konu, Regression Suite Automation Tool'un (RSAT) nasıl kullanılacağını gösterir. Çeşitli özellikleri tanımlar ve gelişmiş komut dosyası kullanan örnekler sağlar.
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 06/09/2019
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070832"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248748"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool eğitimi kullanma
 
@@ -30,79 +30,13 @@ ms.locfileid: "3070832"
 > [!NOTE]
 > Bu sayfayı pdf formatında karşıdan yükleyip kaydetmek için internet tarayıcısı araçlarını kullanın. 
 
-Bu öğretici, Regression Suite Automation Tool (RSAT) gelişmiş özelliklerinden bazılarının arasında, bir demo ataması içerir ve strateji ve önemli öğrenme noktalarını açıklar.
+Bu öğretici, Regression Suite Automation Tool (RSAT) gelişmiş özelliklerinden bazılarının arasında, bir demo ataması içerir ve strateji ve önemli öğrenme noktalarını açıklar. 
 
-## <a name="features-of-rsattask-recorder"></a>RSAT/Görev kaydedici özellikleri
+## <a name="notable-features-of-rsat-and-task-recorder"></a>RSAT ve Görev kaydedicinin önemli özellikleri
 
 ### <a name="validate-a-field-value"></a>Bir alan değeri doğrula
 
-Bu özellik hakkında daha fazla bilgi için bkz. [Doğrulama işlevi olan yeni bir görev kaydı oluşturma](./hol-set-up-regression-suite-automation-tool.md#create-a-new-task-recording-that-has-a-validate-function).
-
-### <a name="saved-variable"></a>Kaydedilen değişken
-
-Bu özellik hakkında daha fazla bilgi için bkz. [Kaydedilmiş bir değişken oluşturmak için var olan görev kaydını değiştirme](./hol-set-up-regression-suite-automation-tool.md#modify-an-existing-task-recording-to-create-a-saved-variable).
-
-### <a name="derived-test-case"></a>Türetilmiş test olayı
-
-1. Regression Suite Automation Tool'u (RSAT) açın ve [Regression Suite Automation Tool eğitimi ayarlama ve yükleme](./hol-set-up-regression-suite-automation-tool.md) bölümünde oluşturduğunuz test olaylarını seçin.
-2. **Yeni \> Türetilmiş test olayı oluştur**'u seçin.
-
-    ![Yeni menüsünde türetilmiş test olayı komutu oluşturma](./media/use_rsa_tool_01.png)
-
-3. Geçerli test paketindeki her seçili test olayı için bir türetilmiş test olayının oluşturulduğunu ve her türetilmiş test olayının kendi Excel parametre dosyası kopyasına sahip olduğunu bildiren bir ileti alırsınız. **Tamam**'ı seçin.
-
-    > [!NOTE]
-    > Türetilmiş bir test olayı çalıştırdığınızda, üst test olayının görev kaydını ve kendi Excel parametre dosyası kopyasını kullanır. Bu şekilde, birden fazla görev kaydını korumak zorunda kalmadan, aynı testi farklı parametrelerle çalıştırabilirsiniz. Türetilmiş test olayının master test olayı ile aynı test paketinin parçası olması gerekmez.
-
-    ![İleti kutusu](./media/use_rsa_tool_02.png)
-
-    İki ek türev test çalışması oluşturulur ve **Türetilmiş mi?** onay kutusu seçili değildir.
-
-    ![Türetilmiş test olayları oluşturuldu](./media/use_rsa_tool_03.png)
-
-    Azure DevOps'ta otomatik olarak bir türetilmiş test olayı oluşturulur Bu, **Yeni bir ürün oluştur** test olayının alt öğesidir ve özel bir anahtar sözcükle etiketlenir: **RSAT:DerivedTestSteps**. Bu test olayları Azure DevOps'ta otomatik olarak test planına eklenir.
-
-    ![RSAT: DerivedTestSteps anahtar sözcüğü](./media/use_rsa_tool_04.png)
-
-    > [!NOTE]
-    > Herhangi bir nedenle, oluşturulan türetilmiş test çalışmaları doğru sırada değilse test paketindeki test olaylarını doğru sırayla çalıştırabilmek için Azure DevOps'a gidin ve test olaylarını yeniden sıralayın, böylece RSAT onları doğru sırada çalıştırabilir.
-
-4. Yalnızca türetilmiş test olaylarını seçin ve sonra karşılık gelen Excel parametre dosyasını açmak için **Düzenle**'yi seçin.
-5. Bu Excel parametre dosyalarını, ana dosyaları düzenlediğiniz şekilde düzenleyin. Başka bir deyişle, ürün kimliğinin otomatik olarak üretilmesine olanak verecek şekilde ayarlandığından emin olun. Ayrıca, kaydedilen değişkenin ilgili alanlara kopyalanmış olduğundan da emin olun.
-6. Hem Excel parametre dosyalarının **Genel** sekmesinde, hem de **Şirket** alanının değerini **USSI**olarak güncelleyin, böylece türetilmiş test olayları ana test olaylarından farklı bir tüzel kişiliğe karşı çalışacaktır. Belirli bir kullanıcıya (veya belirli bir kullanıcıyla ilişkilendirilmiş role) göre test olaylarını çalıştırmak için, **Test Kullanıcısı** alanının değerini güncelleştirebilirsiniz.
-7. **Çalıştır**'ı seçin ve ürünün hem USMF tüzel kişiliği hem de USSI tüzel kişiliği içinde oluşturulduğunu doğrulayın.
-
-### <a name="validate-notifications"></a>Bildirim doğrulama
-
-Bu özellik, bir eylemin meydana geldiğini doğrulamak için kullanılabilir. Örneğin, bir üretim emri oluşturulduğunda, tahmin edildiğinde ve ardından başlatıldığında, uygulama üretim emrinin başlatıldığını size bildiren bir "Üretim-Başlangıcı" iletisi gösterir.
-
-![Üretim – Başlangıç bildirimi](./media/use_rsa_tool_05.png)
-
-Uygun kayıt için Excel parametre dosyasının **MessageValidation** sekmesine ileti metnini girerek bu iletiyi RSAT ile doğrulayabilirsiniz.
-
-![Mesaj doğrulama sekmesi](./media/use_rsa_tool_06.png)
-
-Test olayı çalıştırıldıktan sonra Excel parametre dosyasındaki ileti gösterilen iletiyle karşılaştırılır. İletiler eşleşmezse test olayı başarısız olur.
-
-> [!NOTE]
-> Excel parametre dosyasındaki **MessageValidation** sekmesine birden çok ileti girebilirsiniz. İletiler, bilgi iletileri yerine hata veya uyarı iletileri de olabilir.
-
-### <a name="validate-values-by-using-operators"></a>Değerleri işleçleri kullanarak doğrulama
-
-RSAT'ın önceki sürümlerinde, değerleri yalnızca beklenen değerle eşitlenmiş bir denetim değeri olarak doğrulayabilirsiniz. Yeni özellik, bir değişkenin eşit olmadığını, daha küçük olduğunu veya belirtilen bir değerden fazla olduğunu doğrulamanıza olanak tanır.
-
-- Bu özelliği kullanmak için RSAT yükleme dosyasının altındaki (örneğin **C:\\Program Files (x86)\\Regression Suite Automation Tool**), **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** dosyasını açın ve aşağıdaki öğenin değerini  **yanlış**'tan **doğru**'ya çevirin.
-
-    ```xml
-    <add key="AddOperatorFieldsToExcelValidation" value="false" />
-    ```
-
-    Excel parametre dosyasında yeni bir **Operatör** alanı görünür.
-
-    > [!NOTE]
-    > RSAT'ın daha eski bir sürümünü kullanıyorsanız yeni Excel parametre dosyaları oluşturmanız gerekir.
-
-    ![Operatör alanı](./media/use_rsa_tool_07.png)
+RSAT, beklenen değerleri doğrulamak için test olayınıza doğrulama adımları dahil etmenize olanak sağlar. Bu özellik hakkında bilgi için [Beklenen değerleri doğrulama](../../dev-itpro/perf-test/rsat/rsat-validate-expected.md) makalesine bakın.
 
 Aşağıdaki örnek, Eldeki stoğun 0'dan (sıfır) fazla olup olmadığı doğrulamak için bu özelliği nasıl kullanabileceğinizi gösterir.
 
@@ -115,7 +49,7 @@ Aşağıdaki örnek, Eldeki stoğun 0'dan (sıfır) fazla olup olmadığı doğr
     5. Listede, seçili satırı işaretleyin.
     6. **Toplam kullanılabilir** alanının değerinin **411.0000000000000000** olduğunu doğrulayın.
 
-2. Görev kaydını LCS'deki BPM kitaplığına kaydedin ve Azure DevOps ile eşitleyin.
+2. Görev kaydını kaydedin ve Azure DevOps'da test olayınıza ekleyin.
 3. Test durumunu test planına ekleyin ve test çalışmasını RSAT'a yükleyin.
 4. Excel parametre dosyasını açın. **InventOnhandItem** sekmesinde, **Operatör** alanı içeren bir **InventOnhandItem doğrula** bölümü göreceksiniz .
 
@@ -130,28 +64,32 @@ Aşağıdaki örnek, Eldeki stoğun 0'dan (sıfır) fazla olup olmadığı doğr
 
 Şimdi, stokta belirtilen maddenin **Toplam Kullanılabilir** alanının değeri 0 (sıfır)'dan büyükse eldeki gerçek stok değerine bakılmaksızın testler geçer.
 
-### <a name="generator-logs"></a>Oluşturucu günlükleri
+### <a name="saved-variables-and-chaining-of-test-cases"></a>Kaydedilen değişkenler ve test olayları zinciri
 
-Bu özellik, çalıştırılan test olaylarının günlüklerini içeren bir klasör oluşturur.
+RSAT'ın en önemli özelliklerinden biri test olaylarının zincirlenmesidir. Bir başka deyişle, bir testin diğer testlere değişken geçirme yeteneğidir. Daha fazla bilgi için [Test olaylarını zincirlemek için değişkenleri kopyalama](../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md) makalesine bakın.
 
-- Bu özelliği kullanmak için RSAT yükleme dosyasının altındaki (örneğin **C:\\Program Files (x86)\\Regression Suite Automation Tool**), **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** dosyasını açın ve aşağıdaki öğenin değerini  **yanlış**'tan **doğru**'ya çevirin.
+### <a name="derived-test-case"></a>Türetilmiş test olayı
 
-    ```xml
-    <add key="LogGeneration" value="false" />
-    ```
+RSAT, bir görevin farklı veri yapılandırmalarıyla çalışacak şekilde etkinleştirerek, aynı görev kaydını birden fazla test olayı ile kullanmanıza olanak sağlar. Daha fazla bilgi için [Türetilmiş test olayları](../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md) makalesine bakın.
 
-Test olaylarını çalıştırıldıktan sonra, günlük dosyalarını **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\generatorLogs** altında bulabilirsiniz.
+### <a name="validate-notifications-and-messages"></a>Bildirimleri ve iletileri doğrulama
 
-![GeneratorLogs klasörü](./media/use_rsa_tool_10.png)
+Bu özellik, bir eylemin meydana geldiğini doğrulamak için kullanılabilir. Örneğin, bir üretim emri oluşturulduğunda, tahmin edildiğinde ve ardından başlatıldığında, uygulama üretim emrinin başlatıldığını size bildiren bir "Üretim-Başlangıcı" iletisi gösterir.
+
+![Üretim – Başlangıç bildirimi](./media/use_rsa_tool_05.png)
+
+Uygun kayıt için Excel parametre dosyasının **MessageValidation** sekmesine ileti metnini girerek bu iletiyi RSAT ile doğrulayabilirsiniz.
+
+![Mesaj doğrulama sekmesi](./media/use_rsa_tool_06.png)
+
+Test olayı çalıştırıldıktan sonra Excel parametre dosyasındaki ileti gösterilen iletiyle karşılaştırılır. İletiler eşleşmezse test olayı başarısız olur.
 
 > [!NOTE]
-> .config dosyasındaki değeri değiştirmeden önce var olan test olayları varsa, yeni test çalışmaları dosyaları üretene kadar bu test olayları için günlükler oluşturulmaz.
-> 
-> ![Yeni menüde yalnızca Metin Yürütmesi ve Parametre Dosyaları oluştur komutu](./media/use_rsa_tool_11.png)
+> Excel parametre dosyasındaki **MessageValidation** sekmesine birden çok ileti girebilirsiniz. İletiler, bilgi iletileri yerine hata veya uyarı iletileri de olabilir.
 
 ### <a name="snapshot"></a>Anlık görüntü
 
-Bu özellik, görev kaydı sırasında gerçekleştirilen adımların ekran görüntülerini alır.
+Bu özellik, görev kaydı sırasında gerçekleştirilen adımların ekran görüntülerini alır. Denetleme veya hata ayıklama amacıyla yararlıdır.
 
 - Bu özelliği kullanmak için RSAT yükleme dosyasının altındaki (örneğin **C:\\Program Files (x86)\\Regression Suite Automation Tool**), **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** dosyasını açın ve aşağıdaki öğenin değerini  **yanlış**'tan **doğru**'ya çevirin.
 
@@ -159,15 +97,9 @@ Bu özellik, görev kaydı sırasında gerçekleştirilen adımların ekran gör
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-**C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback**, altında çalışan her test olayı için ayrı bir klasör oluşturulur.
+Test olayını çalıştırdığınızda RSAT, çalışma dizinindeki test olaylarının oynatma klasöründeki adımlarının anlık görüntülerini (görüntüler) oluşturur. RSAT'ın eski bir sürümünü kullanıyorsanız, görüntüler **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback** konumuna kaydedilir, çalıştırılan her test olayı için ayrı bir klasör oluşturulur.
 
-![Test olayı için anlık görüntü klasörü](./media/use_rsa_tool_12.png)
-
-Bu klasörlerin her biri için, test olayları çalıştırılırken gerçekleştirilen adımların anlık görüntülerini bulabilirsiniz.
-
-![Anlık görüntü dosyaları](./media/use_rsa_tool_13.png)
-
-## <a name="assignment"></a>Atama
+## <a name="assignment"></a>Assignment
 
 ### <a name="scenario"></a>Senaryo
 
@@ -183,7 +115,7 @@ Aşağıdaki resim bu senaryo için akış işlemini gösterir.
 
 ![Gösteri senaryosu için akış](./media/use_rsa_tool_14.png)
 
-Aşağıdaki şekil, RSAT'da bu senaryoya yönelik iş süreçlerini gösterir.
+Aşağıdaki şekil, LCS İş Süreci Modelleyicisinde bu senaryoya ilişkin iş süreçleri hiyerarşisini gösterir.
 
 ![Demo senaryosu için iş süreçleri](./media/use_rsa_tool_15.png)
 
@@ -377,7 +309,7 @@ Tüm kullanılabilir test süitlerini almak için ``listtestsuitenames`` komutun
 
 
 #### <a name="help"></a>yardım
-Benzer mi [?](####?) komut
+Benzer mi [?](#section) komut
 
 
 #### <a name="list"></a>liste
@@ -512,6 +444,8 @@ Bu uygulamayı başlatmak için iki yol gösterir: bir tane varsayılan ayar dos
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell örnekleri
 
+[!IMPORTANT] Aşağıdaki örnek komut dosyaları, gösterim amacıyla OLDUĞU GİBİ sağlanmıştır ve Microsoft tarafından desteklenmez.
+
 #### <a name="run-a-test-case-in-a-loop"></a>Bir döngüde test olayı çalıştırma
 
 Yeni bir müşteri oluşturan bir test koduna sahipsiniz. Kodlama yoluyla, bu test olayı, her yineleme çalıştırılmadan önce aşağıdaki verileri rasgele bir döngüde çalışabilir:
@@ -551,7 +485,7 @@ function RunTestCase
     $cmd = $cmd + $filename
     cmd /c $cmd
 }
-$excelFilename = "full path to excel file parameter file"
+$excelFilename = "full path to Excel parameter file"
 l$sheetName = "DirPartyQuickCreateForm"
 for ($i = $start; $i -lt $start + $nr; $i++ )
 {

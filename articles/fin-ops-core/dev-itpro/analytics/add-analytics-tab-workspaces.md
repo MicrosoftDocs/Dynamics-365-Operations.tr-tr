@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025866"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259644"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
 
@@ -84,7 +84,7 @@ Aşağıdaki görsel, **FMClerkWorkspace** formunun Microsoft Visual Studio tasa
 8. Sağ tıklayın ve daha sonra **Yeni Sekme Sayfası**'nı seçin.
 9. Sekme sayfasının adını **Analizler** gibi anlamlı bir şeye değiştirin.
 10. Form tasarımcısında **Analizler (Sekme Sayfası)**'nı seçin.
-11. **Başlık** özelliğin **Analizler** olarak ayarlayın.
+11. **Açıklama yazısı** özelliğini **Analiz** olarak ayarlayın ve **Otomatik Beyaz** özelliğini **Evet** olarak ayarlayın.
 12. Denetime sağ tıklayın ve ardından yeni bir form grubu denetimi eklemek için **Yeni** \> **Grup**'u seçin.
 13. Form grubunun adını **powerBIReportGroup** gibi anlamlı bir şeye değiştirin.
 14. Form tasarımcısında **PanoramaBody (Sekme)** seçin. ve denetimi **Çalışma alanı** sekmesine sürükleyin.

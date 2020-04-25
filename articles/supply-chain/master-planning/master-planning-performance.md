@@ -2,7 +2,7 @@
 title: Master planlama performansını iyileştirme
 description: Bu konu, ana planlama veya sorun giderme sorunlarının performansını artırmanıza yardımcı olabilecek çeşitli seçenekleri açıklamaktadır.
 author: t-benebo
-manager: AnnBe
+manager: tfehr
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 7e8c1d7ee51eb6e335554a01fd050bd80f2a070d
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 01db8a02e57c61daf940e2f459124a857ced68cb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915236"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213619"
 ---
 # <a name="improve-master-planning-performance"></a>Master planlama performansını iyileştirme
 

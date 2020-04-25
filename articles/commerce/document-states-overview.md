@@ -3,7 +3,7 @@ title: Belge durumları ve yaşam döngüsü
 description: Bu konu, Microsoft Dynamics 365 Commerce içindeki sayfa öğelerinin çeşitli belge durumlarını kapsamaktadır.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4f1c462f734b2d58843308f0f877fe18a4d9af7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4a00f1c363e5ecb0e3e64637a8f487c48df2df72
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002993"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261525"
 ---
 # <a name="document-states-and-lifecycle"></a>Belge durumları ve yaşam döngüsü
 
@@ -37,13 +37,13 @@ Bu konu, Microsoft Dynamics 365 Commerce içindeki sayfa öğelerinin çeşitli 
 
 Aşağıdaki tablo, ticari sayfa öğelerinin olası belge durumlarını gösterir.
 
-| Belge durumu | Tanım |
-|---|---|
-| Kullanıma alındı | Bir CMS öğesi size teslim edildiğinde, diğer kimliği doğrulanmış sistem kullanıcıları tarafından düzenlenemez. Öğede yaptığınız tüm değişiklikler yalnızca size görünebilir. |
-| Teslim edildi | Bir CMS öğesi iade edildiğinde, tüm değişiklikler kimliği doğrulanmış diğer sistem kullanıcıları tarafından görülebilir ve bu kullanıcılar öğeyi kullanıma alabilir ve düzenleyebilir. Her iade etme öğenin geçmişinde bir belge sürümü kaydı oluşturur. |
-| Yayınlanmış | Bir CMS öğesi yayımlandığında, bunlar canlı siteniz ile gönderilir ve internette kimliği doğrulanmamış dış kullanıcılar tarafından bulunabilir duruma gelir. Maddeler yalnızca iade edilmiş olmaları halinde yayımlanabilir. |
-| Kaydedildi | Kullanıma alınmış CMS öğesine yapılan değişiklikler, öğe iade edilene veya yayımlanmadan önce CMS'e kaydedilebilir. Bu kaydedilen değişiklikler, madde iade edilene kadar, diğer kimliği doğrulanmış sistem kullanıcıları tarafından görülemez. Bunlar, öğe yayımlanana kadar harici kullanıcılar tarafından görülemez. |
-| Kullanıma alma atıldı | Kullanıma aldığınız bir CMS öğesi iptal edildiğinde, kaydedilen tüm değişiklikler silinir ve öğe en son iade edilen sürüme döner. |
+| Belge durumu      | Site oluşturucu eylemi        | Tanım                                                  |
+| ------------------- | -------------------------- | ------------------------------------------------------------ |
+| Kullanıma alındı         | **Düzenle** öğesini seçin.           | Uygun belge kullanımınıza alınır. Belge bu durumundayken, diğer kimliği doğrulanmış sistem kullanıcıları tarafından değiştirilemez ve belgede yaptığınız tüm değişiklikler yalnızca size gösterilir. |
+| Kaydedildi               | **Kaydet**'i seçin.           | Kullanıma alınmış belgede yapılan değişiklikler veritabanına kaydedilir ancak belge henüz iade edilmez veya yayımlanmaz. Kaydedilen değişiklikler, yazar **Düzenlemeyi bitir** seçeneğini seçene kadar diğer kimliği doğrulanmış sistem kullanıcıları tarafından görülemez. Bunlar, öğe yayımlanana kadar harici kullanıcılar tarafından görülemez. |
+| Kullanıma alma atıldı | **Düzenlemeleri at**'ı seçin.  | Kullanıma aldığınız belgede yapılan tüm değişiklikler atılır ve öğe iade edilen son sürüme geri döner. |
+| Teslim edildi          | **Düzenlemeyi bitir**'i seçin. | Düzenlenen belge iade edilir. Tüm değişiklikler, kimliği doğrulanmış diğer sistem kullanıcıları tarafından görülebilir ve bu kullanıcılar belgeyi düzenleyebilir. Her iade etme öğenin geçmişinde bir belge sürümü kaydı oluşturur. |
+| Yayınlanmış           | **Yayımla**'yı seçin.        | Belge yayımlanır ve değişiklikler yayımlanmış sitenize itilir ve harici kullanıcılar tarafından keşfedilebilir hale gelir. Öğeler yalnızca **Düzenlemeyi bitir** seçilerek iade edilmiş olmaları durumunda yayımlanabilir. |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

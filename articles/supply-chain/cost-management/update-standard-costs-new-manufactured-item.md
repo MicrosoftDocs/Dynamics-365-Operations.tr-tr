@@ -2,7 +2,7 @@
 title: Yeni üretilmiş bir madde için standart maliyetleri güncelleştirme
 description: Bu makalede, yeni üretilen bir madde için standart maliyetlerin güncellenmesine yönelik yönergeler sağlanmıştır.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 79693
 ms.assetid: ba64b70f-3f4c-4373-9a7d-8fd07c45a8cf
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc8725bcab61fa20a4c35a83473b00e54cf0bf28
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8ebd53d66eb81bbee9d3e67d05102c8df413d2a3
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569972"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214117"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Yeni üretilmiş bir madde için standart maliyetleri güncelleştirme
 

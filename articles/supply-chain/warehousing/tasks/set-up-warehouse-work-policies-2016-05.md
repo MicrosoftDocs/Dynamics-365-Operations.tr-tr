@@ -2,7 +2,7 @@
 title: Ambar iş ilkelerini ayarla (Uygulama, Mayıs 2016)
 description: Ambar işlemi her zaman ambar çalışmasını içermezler.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy, WMSLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca54cceb83425c43b5d124cd6d11be0cdef4d63a
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 62fbf2f44216c300af5e092f5dbd05ef2239321b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145928"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216793"
 ---
 # <a name="set-up-warehouse-work-policies-application-may-2016"></a>Ambar iş ilkelerini ayarla (Uygulama, Mayıs 2016)
 

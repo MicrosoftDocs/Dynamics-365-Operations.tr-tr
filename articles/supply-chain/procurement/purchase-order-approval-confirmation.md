@@ -1,30 +1,30 @@
 ---
 title: Satınalma siparişlerini onaylama
-description: Bu konuda, oluşturulduktan sonra bir satınalma siparişinin (PO) geçtiği durumlar ve PO'larda değişiklik yönetiminin etkinleştirilmesinin etkisi açıklanmaktadır.
-author: FrankDahl
-manager: AnnBe
-ms.date: 06/20/2017
+description: Bu konuda, oluşturulduktan sonra bir satınalma siparişinin geçtiği durumlar ve satınalma siparişlerinde değişiklik yönetiminin etkinleştirilmesinin etkisi açıklanmaktadır.
+author: mkirknel
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813443"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208006"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Satınalma siparişlerini onaylama
 
@@ -69,9 +69,10 @@ Bazı durumlarda **Onaylandı** veya **Teyit Edildi** onay durumlarına ulaşıl
 
 PO değişiklik yönetimi işlemi kullanılarak oluşturulmuşsa siparişi tekrar çağırarak veya sipariş zaten onaylanmışsa **Değişiklik iste** eylemini kullanarak değişiklikleri yapabilirsiniz. Bu durumda onay durumu tekrar **Taslak** durumuna dönüşür ve sonra siparişi değiştirebilirsiniz. Değişiklikler yapıldıktan sonra SAS'ı yeniden onaya gönderebilirsiniz. Yeniden onaylama gerektiren değişiklik türlerini **Satınalma ilkeleri** sayfasındaki **Satınalma emirleri için yeniden onaylama kuralı** ilke kuralını kullanarak yapılandırabilirsiniz.
 
-Bir SAS satırı için sipariş edilen miktarın bir parçası teslim edilmişse sipariş edilen miktarı değiştiremezsiniz. Ancak satırdaki **Teslimat bakiyesi** miktarını değiştirebilirsiniz. Daha sonra satırları iptal etmek ve sonraki işlemi önlemek için **Sonlandır** eylemini kullanın. 
+Bir satınalma satırı için sipariş edilen miktarın bir parçası teslim edilmişse, satınalma siparişi **Taslak** durumundayken sipariş edilen miktarı değiştiremezsiniz. Ancak, **Taslak** durumundaki satınalma siparişinin satırında **Teslimat kalan** miktarını değiştirebilirsiniz.
 
-Bir sipariş teyit edildikten sonra artık onu silemezsiniz. Ancak, miktarın alınmaması veya faturalanmaması koşuluyla siparişteki toplam miktarı veya kalan miktarı iptal edebilirsiniz.
+Bir sipariş teyit edildikten sonra artık onu silemezsiniz. Ancak, miktarın alınmaması veya faturalanmaması koşuluyla siparişteki toplam miktarı veya kalan miktarı iptal edebilirsiniz. Daha sonra başka işlem yapılmasını önlemek için **Sonlandır** eylemini kullanabilirsiniz. 
+
 
 ## <a name="canceling-purchase-orders"></a>Satınalma siparişlerini iptal etme
 

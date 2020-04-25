@@ -1,9 +1,9 @@
 ---
 title: Kazanç yönetimine genel bakış
-description: Dynamics 365 Human Resources'Deki sosyal haklar yönetimi önizleme özelliğinin Özeti. Çalışanlarınızı kullanımı kolay bir çevrimiçi deneyim sayesinde çalışanlarınızın genişletilmiş sosyal haklar seçeneklerini sunun.
+description: Dynamics 365 Human Resources'taki Kazanç yönetimi özelliğine genel bakış. Çalışanlarınızı kullanımı kolay bir çevrimiçi deneyim sayesinde çalışanlarınızın genişletilmiş sosyal haklar seçeneklerini sunun.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63db1b55bae9150dd87d9981136b96d72ffd0c59
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: 91a4425b4f020f90843bb3b0b280b7ee28463670
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029475"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230166"
 ---
 # <a name="benefits-management-overview"></a>Kazanç yönetimine genel bakış
 
-[!include [banner](includes/preview-feature.md)]
-
-Rekabet edebilir durumda kalmak için, en iyi çalışanlarınızı ele almak ve bunları korumak amacıyla zengin bir avantaj kümesi sunmalısınız. Tıp ve diş kapsamı gibi standart avantajlara ek olarak, benimseme yardımı, dinlenme programları ve giyme gibi genişletilmiş hizmetler de sunmak isteyebilirsiniz. Microsoft Dynamics 365 Human Resources'un sosyal haklar yönetimi önizleme özelliği, çok çeşitli avantaj seçeneklerini destekleyen esnek bir çözüm sağlar. İnsan Kaynakları ayrıca, tekliflerinizi gösteren kullanımı kolay bir çalışan deneyimi de içerir.
+Rekabet edebilir durumda kalmak için, en iyi çalışanlarınızı ele almak ve bunları korumak amacıyla zengin bir avantaj kümesi sunmalısınız. Tıp ve diş kapsamı gibi standart avantajlara ek olarak, benimseme yardımı, dinlenme programları ve giyme gibi genişletilmiş hizmetler de sunmak isteyebilirsiniz. Microsoft Dynamics 365 Human Resources'taki Kazanç yönetimi, çok çeşitli kazanç seçeneklerini destekleyen esnek bir çözüm sağlar. İnsan Kaynakları ayrıca, tekliflerinizi gösteren kullanımı kolay bir çalışan deneyimi de içerir.
 
 - Geliştirilmiş kazançlar planları, benzersiz kazanç planları oluşturmanıza ve yönetmenize ve karmaşık kazanç oranı tabloları ve iç içe geçmiş katmanları desteklebilmenizi sağlar. Daha kolay bir çalışan deneyimi için, kolayca kazanç programları, paketleri ve otomatik kayıt kuralları oluşturabilirsiniz.
 
@@ -39,30 +37,30 @@ Rekabet edebilir durumda kalmak için, en iyi çalışanlarınızı ele almak ve
 
 - Çevrimiçi yararlar kaydı, çalışanlarınız için kolay bir deneyim sağlar.
 
-- Nitelikli ömür olayı işleme, çalışan self servis ile tümleşir ve gelecekteki ömür olaylarını destekler.
+- Uygun yaşam olayı işleme işlemi gelecekteki yaşam olaylarını destekler.
 
 Demo verilerine erişmek istiyorsanız korumalı alan ortamınızı yeniden dağıtmanız gerekir.
 
-Doğrudan geri bildirim veya konu rapor verebilirsiniz: D365BenefitsPreview@microsoft.com.
-
 ## <a name="benefits-management-known-issues"></a>Kazanç yönetimiyle ilgili bilinen sorunlar
 
-### <a name="eligibility-processing"></a>Uygunluk işleniyor
+### <a name="flex-credit-programs"></a>Esnek kredi programları
 
-1-5X maaş, yüzde maaş ve sabit tutar karşılama tutarı kullanan avantajlar için uygunluğu çalıştırırken , **kullanım ayrıntıları** tarihini **çalışma geçmişi** içindeki **çalışan başlangıç tarihine** ayarlamalısınız. **Çalışılan saatleri**, **ödeme sıklığını** ve **yıllık kazançlar maaş tutarını** da dahil etmelisiniz. Çalışanın sabit dengelemesi varsa, **çalışılan saatleri** ve **ödeme sıklığını** girin. Yıllık maaş tutarı hesaplanır. Çalışan maaşlı ise, **çalışılan saatleri** girmeniz gerekmez. Yeni çalışanlar oluştururken önce sabit ücret girilmesini öneririz. Avantaj ayrıntıları kaydını güncelleştirmek için, **çalışan > çalışan geçmişi > istihdam ayrıntılarına** gidin. Tarihi çalışanın başlangıç tarihine ayarlayın.
-
-### <a name="employee-self-service"></a>Personel self servisi
-
-Ömür için karşılama tutarı güncelleştirilirken çalışan tutarı hesaplamaz. Örneğin bir çalışana bir hayat sigortası planı sunulduğunda 1000 liralık karşılama tutarı başına 36 kuruşluk maliyetle 50.000 liraya kadar bir karşılama tutarı seçebilir.  Çalışan karşılama tutarını güncelleştirdiğinde, çalışanın ilişkili maliyeti sıfır olarak kalır.
-
-Bu plan türünde yalnızca tek bir seçime izin veren bir kazanç planı için, bir plan seçtikten sonra bir planı feragat etmeye çalışırsa Kullanıcı bir hata alır. Örneğin kullanıcı bir tıbbi plan seçip alışveriş sepetine ekliyor. Bunun ardından, başka bir tıbbi plan için **Feragat**'i seçiyor. Kullanıcı bir hata alacaktır.
+Esnek alacak programı için tanımlanan toplam alacak değeri **Çalışan kazanç planları** formunda görüntülenmez. Ayrıca, **Hiçbiri** eşit dağıtma kuralına sahip bir esnek alacak programı ayarlarsanız, planları seçip onayladığınızda **Çalışan kazanç planı** formunda bir hata alırsınız.
 
 ## <a name="enable-benefits-management"></a>Kazanç Yönetimni etkinleştirme
 
-Kazançlar yönetimi bir önizleme özelliğidir ve yalnızca **korumalı alan** ortamlarında kullanılabilir. Bu makalelerde İnsan Kaynakları Önizleme özelliklerinin nasıl açılacağı açıklanır. Bunlar ayrıca, sosyal haklar yönetimini etkinleştirdiğinizde İnsan Kaynakları olan, sosyal haklar yönetiminin hangi varolan özelliklerinin yerini aldığını veya devre dışı bırakıldığını da bildirir.
+Bu makalede Human Resources'taki özelliklerin nasıl etkinleştirileceği açıklanır. Ayrıca, Kazanç yönetimini etkinleştirdiğinizde, Kazanç yönetiminin Human Resources'taki hangi mevcut özelliklerin yerini aldığını veya devre dışı bırakıldığını da bildirir.
+
+> [!IMPORTANT]
+> **Üretim** ortamında Kazanç yönetimini etkinleştirdikten sonra devre dışı bırakamazsınız. **Üretim** ortamında etkinleştirmeden önce Kazanç yönetimini **Korumalı alan** ortamında etkinleştirmenizi ve test etmenizi öneririz. Eski Kazanç işlevi ile ek kurulum gerektiren yeni Kazanç yönetimi işlevi arasında önemli farklar vardır ve üretim ortamına alınmadan önce test edilmesi gerekir.
 
 - [Özellikleri yönetme](hr-admin-manage-features.md)
-- [Önizleme özelliği: Kazanç yönetimi](hr-admin-manage-features.md?preview-feature-benefits-management)
+
+## <a name="configure-employee-information"></a>Personel bilgilerini yapılandırma
+
+Çalışanları kazançalara kaydedebilmek için gerekli bilgileri sağlamanız gerekir. Bir çalışanı başlama tarihinde bir **Sabit ücret planına** kaydetmeniz ve **Çalışan** formundaki **İstihdam ayrıntıları** bölümünde bir **Kazanç ödeme sıklığı** seçmeniz gerekir.
+
+Cinsiyet veya yaşa dayalı oranlar kullanan bir kazanç planı oluşturduğunuzda, bir çalışanın kazanç maliyetini hesaplamak için doğum tarihi ve cinsiyet girmeniz gerekir.
 
 ## <a name="configure-benefits-management"></a>Kazanç yönetimini yapılandırma
 
@@ -75,7 +73,7 @@ Kazançlar yönetimi bir önizleme özelliğidir ve yalnızca **korumalı alan**
 - [Ödeme sıklıklarını ayarlama](hr-benefits-setup-payment-frequencies.md)
 - [Yaşam olayı türlerini yapılandırma](hr-benefits-setup-life-event-types.md)
 - [Plan türleri oluşturma](hr-benefits-setup-plan-types.md)
-- [Neden kodlarını ayarla](hr-benefits-setup-reason-codes.md)
+- [Neden kodlarını ayarlama](hr-benefits-setup-reason-codes.md)
 - [Katman kodlarını ayarlama](hr-benefits-setup-tier-codes.md)
 - [Oranları yapılandırma](hr-benefits-setup-rates.md)
 - [Kesintileri yapılandırma](hr-benefits-setup-deductions.md)
@@ -91,9 +89,7 @@ Kazançlar yönetimi bir önizleme özelliğidir ve yalnızca **korumalı alan**
 Bu makaleler, ambalajlarla esnek kredi programları dahil olmak üzere kazanç planlarının nasıl oluşturulacağını gösterir.
 
 - [Kazanç planlarını ayarlama](hr-benefits-plans-setup.md)
-- [Çalışan kazanç planları oluşturma](hr-benefits-plans-worker.md)
 - [Esnek kredi programları ayarlama](hr-benefits-plans-flex-credit-programs.md)
-- [Gelecekteki yaşam olaylarını yapılandırma](hr-benefits-plans-future-life-events.md)
 
 ## <a name="process-benefit-plans"></a>Kazanç planlarını işleme
 

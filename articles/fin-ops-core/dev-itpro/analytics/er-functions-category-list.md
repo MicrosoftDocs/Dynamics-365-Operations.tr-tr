@@ -3,7 +3,7 @@ title: Liste kategorisindeki ER işlevlerinin listesi
 description: Bu konu, elektronik raporlama (ER) uygulamasında desteklenen liste işlevleri hakkında bilgi sağlar.
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9461d0afd75f421cf03ddefed5dac379f1369ec7
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917776"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201055"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Liste kategorisindeki ER işlevlerinin listesi
 
@@ -46,6 +46,7 @@ ms.locfileid: "2917776"
 | [Index](er-functions-list-index.md)                       | Bu işlev, belirtilen listede belirtilen sayısal dizin kullanılarak seçilen bir *konteyner (kayıt)* değeri döndürür. Dizin listedeki kayıtların aralığı dışında ise bu işlev, bir özel durum oluşur. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Belirtilen listede kayıt yoksa bu işlevi bir **DOĞRU** *Boole* değeri döndürür. Aksi takdirde, **YANLIŞ** *Boole* değeri döndürür. |
 | [Liste](er-functions-list-list.md)                         | Bu işlevi, belirtilen bağımsız değişkenlerden oluşturulmuş yeni listeden oluşan yeni bir *kayıt listesi* değeri döndürür.|
+| [ListJoin](er-functions-list-listjoin.md)                 | Bu işlev, belirtilen bağımsız değişkenlerden oluşturulmuş yeni birleştirilmiş listesini temsil eden yeni bir *Kayıt listesi* değeri döndürür.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Bu işlev,*numaralandırmanın* veya *konteyner (kayıt)* türünün belirtilen bağımsız değişkeninin yapısına göre oluşturulan bir *kayıt listesi* değeri döndürür. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Bu işlevi, belirtilen listenin yalnızca ilk kayıttan oluşan bir *kayıt listesi* değeri döndürür.|
 | [OrderBy](er-functions-list-orderby.md)                   | Bu işlev belirtilen bağımsız değişkenlere göre sıralandıktan sonra belirtilen listeyi *kayıt listesi* değeri olarak döndürür. Bu bağımsız değişkenler ifadeler olarak tanımlanabilir. |

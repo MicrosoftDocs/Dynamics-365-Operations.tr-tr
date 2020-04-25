@@ -2,7 +2,7 @@
 title: Mobil barkod desteği
 description: Bu konu, Ambar mobil tarama uygulamasının Android uyumlu cihazlarda nasıl ele alınacağını açıklar.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BarcodeSetup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f4f61da42e02bfbf648bd5f6f5fe60c97abf532
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: cbaed4da3ccd17d83c002994f01829f76db0d36a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552198"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215758"
 ---
 # <a name="mobile-barcode-support"></a>Mobil barkod desteği
 

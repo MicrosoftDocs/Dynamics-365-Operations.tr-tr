@@ -2,7 +2,7 @@
 title: İş emirlerine giriş
 description: Bu konuda, Varlık Yönetimi'ndeki iş emirleribe genel bir bakış sağlanmaktadır.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8340d3f4fd98e02e372fd5ac68f1ae107819304
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 9bae60d5b13cb38a0a96a3b3657bec60b091f885
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626420"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208191"
 ---
 # <a name="introduction-to-work-orders"></a>İş emirlerine giriş
 

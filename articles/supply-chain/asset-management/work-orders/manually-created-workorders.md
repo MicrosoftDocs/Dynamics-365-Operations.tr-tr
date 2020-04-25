@@ -2,7 +2,7 @@
 title: El ile oluşturulmuş iş emirleri
 description: Bu konuda Varlık Yönetimi'nde el ile iş emirleri oluşturma işlemi açıklanmaktadır.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 80593ddaaa5f327513781dbdd4e3163de4212ced
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811768"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208121"
 ---
 # <a name="manually-created-work-orders"></a>El ile oluşturulmuş iş emirleri
 
@@ -74,7 +74,7 @@ Aaşağıdaki noktaları unutmayın:
 
 - İş emrindeki kritiklik, iş emrine bir iş emri işi eklendiğinde veya silindiğinde yeniden hesaplanır.
 
-- **Tüm iş emirleri** ayrıntılar görünümünde > **Başlık** sekmesinde > **Zamanlama** hızlı sekmesindeki **Sorumlu grup** veya **Sorumlu** alanında bir sorumlu bakım görevlisi grubu veya sorumlu bakım görevlisi seçebilirsiniz. İş emri etkinken bu ayarlar değiştirilebilir. Örneğin, iş emri yaşam döngüsü durumu değiştiğinde değiştirilebilirler. İş emri oluşturma sırasında yapılan otomatik seçim, **Sorumlu bakım görevlileri** sayfasındaki kurulumu temel alır. Bir iş emri oluşturduktan sonra iş emri işlerini ekler veya kaldırırsanız ve iş emrini güncelleştirdiğinizde **Sorumlu grup** ve **Sorumlu** alanı boşsa, Varlık Yönetimi kurulum formunda sorumlu bir bakım görevlisi grubu veya sorumlu bakım görevlisi için olası bir eşleşme arar. İş emrini güncelleştirdiğinizde **Sorumlu grup** veya **Sorumlu** alanı zaten ayarlanmış durumda ise, hiçbir değişiklik yapılmaz. Sorumlu bakım görevlileri ve görevli gruplarıyla ilgili daha fazla bilgi için bkz: [Sorumlu bakım görevlileri](../setup-for-maintenance-requests/responsible-workers.md)).
+- **Tüm iş emirleri** ayrıntılar görünümünde > **Başlık** sekmesinde > **Zamanlama** hızlı sekmesindeki **Sorumlu grup** veya **Sorumlu** alanında bir sorumlu bakım görevlisi grubu veya sorumlu bakım görevlisi seçebilirsiniz. İş emri etkinken bu ayarlar değiştirilebilir. Örneğin, iş emri yaşam döngüsü durumu değiştiğinde değiştirilebilirler. İş emri oluşturma sırasında yapılan otomatik seçim, **Sorumlu bakım görevlileri** sayfasındaki kurulumu temel alır. Bir iş emri oluşturduktan sonra iş emri işlerini ekler veya kaldırırsanız ve iş emrini güncelleştirdiğinizde **Sorumlu grup** ve **Sorumlu** alanı boşsa, Varlık Yönetimi kurulum formunda sorumlu bir bakım görevlisi grubu veya sorumlu bakım görevlisi için olası bir eşleşme arar. İş emrini güncelleştirdiğinizde **Sorumlu grup** veya **Sorumlu** alanı zaten ayarlanmış durumda ise, hiçbir değişiklik yapılmaz. Sorumlu bakım görevlileri ve görevli gruplarıyla ilgili daha fazla bilgi için bkz: [Sorumlu bakım görevlileri](../setup-for-maintenance-requests/responsible-workers.md).
 
 - [Bakım durumu](../controlling-and-reporting/maintenance-status.md) sayfasından gelen ve tamamlanan iş emirleriyle ilgili iş yükünün özetini almak için hesaplama yapabilirsiniz.  
 

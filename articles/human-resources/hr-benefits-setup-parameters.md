@@ -3,7 +3,7 @@ title: Kazanç yönetimi parametrelerini ayarlama
 description: Microsoft Dynamics 365 Human Resources'Ta sosyal haklar yönetimiyle ilgili parametreleri yapılandırın.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab9b1fc78ce42479d9265b80337adf899cec3866
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9d6d463df08b9ae68047f09316f19e98740a8441
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010871"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229775"
 ---
 # <a name="set-benefits-management-parameters"></a>Kazanç yönetimi parametrelerini ayarlama
 
-[!include [banner](includes/preview-feature.md)]
-
-Microsoft Dynamics 365 Human Resources'ta çıkış planları kurmadan önce, kazançlar yönetimi parametrelerini konfigüre etmeniz gerekir. Bu parametreler varsayılan değerleri, neden kodları ve diğer seçenekleri ayarlar.
+Microsoft Dynamics 365 Human Resources'ta çıkış planları kurmadan önce, kazançlar yönetimi parametrelerini yapılandırmanız gerekir. Bu parametreler varsayılan değerleri, neden kodları ve diğer seçenekleri ayarlar.
 
 ## <a name="configure-general-parameters"></a>Genel parametrelerini yapılandırma
 
@@ -47,7 +45,6 @@ Microsoft Dynamics 365 Human Resources'ta çıkış planları kurmadan önce, ka
    | **Oran değişikliği neden kodu** | Güncelleştirme oranı değişimi sürecinde bir çalışan avantajı planının iptal edilmesi ve yeniden açma işlemi sırasında kullanılacak neden kodu. Güncelleştirme oranı değişimi işlemi oran ile hangi kayıtların değiştiğini gösterir. |
    | **Yeni işe alınan kişi uygun** | Yeni işe alımların uygun olduğunu belirtir. |
    | **Yeni işe alma kaydı dönemi** | Yeni işe alma kaydına izin verildiği zaman dilimi.</br></br>**Not**: Bu ayar, plan uygunluğu kuralında ayarladığınız tüm yeni işe alma dönemini geçersiz kılar. | 
-   | **Yıllık maaş iyileştirmesi** | **İstihdam avantajı ayrıntılarında** **yıllık maaş tutarının** otomatik olarak hesaplayıp hesaplamayacağını belirtir. Çalışanın **sabit maaş ödeme oranını**, **ortalama saatleri** ve **ödeme sıklığını** temel alır.</br></br>**Ortalama saatler** x **sabit ödeme oranı** x **ödeme sıklığı** (ödeme dönemlerinin sayısı) = **yıllık kazanç maaş** </br></br>**Ortalama saatlerdeki** değerlerden herhangi biri, **sabit maaş ödeme oranı** veya **ödeme sıklığı** alanlarının değişmesi durumunda, sistem, çalışanın **yıllık kazanç** tutarını değiştirilen değerlere göre otomatik olarak yeniden hesaplar. Sistem, değişikliğin gerçekleştiği tarih ve saati tam olarak tanımlamak için **yürürlülük tarihi** kaydı oluşturur. Gerekirse, **yıllık kazancın maaş** tutarını el ile düzenleyebilirsiniz. |
    | **Yaşam olayları etkin** | Yaşam olaylarını etkinleştirir. |
    | **Eski kazanç formlarını gizle** | Eski kazanç formlarını gizlemenizi sağlar. |
 
