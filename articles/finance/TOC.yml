@@ -70,15 +70,15 @@
                   items:
                     - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.11 (Temmuz 2020)
+                      href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10 (Mayıs 2020)
                       href: get-started/whats-new-changed-10-0-10.md
                     - name: Finance 10.0.9 (Nisan 2020)
                       href: get-started/whats-new-changed-10-0-9.md
-                    - name: Finance 10.0.8 (Şubat 2020)
-                      href: get-started/whats-new-changed-10-0-8.md
-            - name: Kaldırılan veya artık kullanılmayan özellikler
+            - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
-                - name: Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
+                - name: Dynamics 365 Finance'taki kaldırılan veya kullanım dışı bırakılan özellikler
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
@@ -978,12 +978,16 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: İşçilik ve masraflar için standart maliyetleri yapılandırma
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: Ödendiğinde öde satıcı ödemeleri ayarlama ve kullanma
+              href: project-management/setup-manage-vendor-payments.md
             - name: Satınalma girişlerinde proje maliyeti tahakkuku
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Proje faturalama
               href: accounts-payable/project-invoicing.md
             - name: Proje sözleşmeleri
               href: project-management/project-contracts.md
+            - name: İlerlemeye göre faturalama için gelişmiş sözleşmeler oluşturma
+              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: Proje tahminleri ve bütçeler
               href: project-management/project-forecasts-budgets.md
             - name: Proje bütçelerini mali yıl bitişinde transfer etme
@@ -1012,8 +1016,10 @@
                   href: project-management/project-timesheet.md
                 - name: Mobil cihazda proje zaman çizelgeleri
                   href: project-management/mobile-timesheets.md
-                - name: Project Timesheet mobil uygulaması için özel alanlar uygulama
+                - name: Proje zaman çizelgesi mobil uygulaması için özel alanlar uygulama
                   href: project-management/custom-fields-mobile.md
+            - name: Proje verme
+              href: project-management/project-grants.md
         - name: Kamu sektörü
           items:
             - name: Kamu sektörü giriş sayfası
@@ -2016,6 +2022,8 @@
                   href: localizations/emea-ita-exil-unique-certification.md
                 - name: Kambiyo senedi protestosu içe aktarma
                   href: localizations/emea-ita-exil-protest-boe.md
+                - name: Vergi üst sınırı
+                  href: localizations/emea-ita-exil-tax-plafond.md
             - name: Japonya
               items:
                 - name: Japonya'ya genel bakış
@@ -2922,7 +2930,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
                 - name: Ölçümleri toplamak için mali boyut ekleme
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: Power BI Desktop kullanarak analiz raporu oluşturma
+                - name: PowerBI Desktop kullanarak analiz raporu oluşturma
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
