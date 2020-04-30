@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3da8bdf6feb932e074680b6cb80e1b7b71f9a82b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: eb5c7389ba29d50232f9321e40bccceecd5f5fc6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004263"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265630"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Perakende hareketi tutarlılık denetleyicisi
 
-
 [!include [banner](includes/banner.md)]
-[!include [preview banner](includes/preview-banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce'te bulunan hareket tutarlılık denetleyicisi açıklanmaktadır. Tutarlılık denetleyicisi, tutarsız hareketleri ekstre deftere nakil işlemi tarafından alınmadan önce tanımlar ve ayırır.
 
