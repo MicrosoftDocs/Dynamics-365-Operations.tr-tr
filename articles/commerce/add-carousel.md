@@ -3,7 +3,7 @@ title: Döngü modülü
 description: Bu konu döngü kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f279d7db0a92df9e64b1d3f6ca01c65ca1478d79
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025793"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269740"
 ---
 # <a name="carousel-module"></a>Döngü modülü
 
@@ -58,9 +58,10 @@ Bir içerik bloku modülünü bir döngü modülüne ekleyebilirsiniz. Bu şekil
 
 Bir yeni sayfaya döngü modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Döngü şablonu** adlı bir sayfa şablonu oluşturun.
+1. Yeni sayfa şablonu oluşturmak için **Yeni**'yi seçin.
+1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **Döngü şablonu**'nu girin ve **Tamam**'ı seçin.
 1. **Gövde** yuvasında bir **Varsayılan sayfa** modülü ekleyin.
-1. Şablonu giriş yapın ve yayımlayın. 
+1. Şablonu iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.  
 1. **Döngü sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz döngü şablonunu kullanın.
 1. Yeni sayfanın **ana** yuvasına bir konteyner modülü ekleyin. 
 1. Sağdaki panoda, **Genişlik** değerini **Ekranı doldur**'a ayarlayın.
@@ -68,14 +69,14 @@ Bir yeni sayfaya döngü modülü eklemek ve gerekli özellikleri ayarlamak içi
 1. Döngü modülüne bir içerik bloku modülü ekle. **Başlık**, **bağlantı**, **yerleşim** ve diğer özellikleri sağlayarak içerik bloğu modülünün özelliklerini ayarlayın.
 1. Başka bir içerik bloğu modülü ekleyin ve konfigüre edin.
 1. Döngü Modülü için gerekli olan ek özellikleri ayarlayın.
-1. Sayfayı kaydet ve önizleyin. Sayfa, içinde iki modül bulunan bir döngüyü göstermelidir (Hero modülü ve bir özellik modülü). İstenen etkiyi elde etmek için döngü, Hero ve özellik modüllerinin ek özelliklerini değiştirebilirsiniz.
-1. Sayfayı düzenlemeyi tamamlayın ve sonra yayımlayın.
+1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin. Sayfa, içinde iki modül bulunan bir döngüyü göstermelidir (Hero modülü ve bir özellik modülü). İstenen etkiyi elde etmek için döngü, Hero ve özellik modüllerinin ek özelliklerini değiştirebilirsiniz.
+1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Başlangıç paketine genel bakış](starter-kit-overview.md)
 
-[Promosyon başlık modülü](add-alert.md)
+[Promosyon başlığı modülü](add-alert.md)
 
 [Metin bloku modülü](add-content-rich-block.md)
 

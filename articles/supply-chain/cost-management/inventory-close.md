@@ -3,7 +3,7 @@ title: Stok kapanışı
 description: Çıkış hareketlerinin giriş hareketleriyle kapatılması sürecinin bir parçası olarak, genel defterin yapılan düzenlemeleri yansıtacak şekilde güncellenmesini seçebilirsiniz.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83c88a5fe52e41df5a0371d6666f544996bd3c76
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e9f0608c9afc25e7ca6657f6a2e87d088d4cbad
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201652"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284002"
 ---
 # <a name="inventory-close"></a>Stok kapanışı
 
@@ -59,11 +59,10 @@ Güncelleştirme tamamlandıktan sonra, bu görevlerden biri dolayısıyla nakle
 
 Bu görevler sonucu güncellenen genel muhasebe hesapları orijinal stok hareketlerine bağlanır. Örneğin, bir satış emri bir satınalma emrine kapatıldığında, orijinal satış emri için kullanılan genel muhasebe hesapları düzeltilir. Bu davranış, maddeye atanan madde grubuna yönelik genel muhasebe hesapları satış emri deftere nakledildikten sonra değiştirilse bile gerçekleşir. Stok kapanışı kapatma tutarı oluşturduktan sonra, kapatma tutarı maddeye atanan yeni genel muhasebe hesaplarına değil yine orijinal genel muhasebe hesaplarına nakledilir. Genel muhasebe stok kapanışını geri aldığınızda da güncellenebilir. 
 
-**Notlar:**
-
--   Standart maliyet değerleme yöntemini kullanırsanız stok kapanışı gerekmez.
--   Kapanış prosedürünü çalıştırmadan önce, güncelleme sırasında kapatılamayacak maddelerin listesini görüntüleyebilirsiniz.
--   Bilgi işlem kaynaklarını daha düzgün dağıtmak için, stok kapanışını yoğun olmayan saatlerde çalıştırmanızı öneririz.
+> [!NOTE] 
+> - Stok kapanışı, tüm stok modelleri için ay sonu kapanış yordamındaki gerekli bir adımdır. Bu, Standart ve Hareketli Ortalama Maliyetlendirmeyi içerir. Dönem bitiş tarihi itibarıyla bir stok kapanışı gerçekleştirilinceye kadar mali dönemi kapatamazsınız.
+> - Kapanış prosedürünü çalıştırmadan önce, güncelleme sırasında kapatılamayacak maddelerin listesini görüntüleyebilirsiniz.
+> - Bilgi işlem kaynaklarını daha düzgün dağıtmak için, stok kapanışını yoğun olmayan saatlerde çalıştırmanızı öneririz.
 
 ## <a name="the-inventory-close-log"></a> Stok kapanış günlüğü
 Stok kapatma işlemi tamamlandıktan sonra, mesaj merkezindeki bir mesaj, size bir hareket tam olarak kapatılamadığı için bir birim maliyet fiyatının hatalı olabileceğini bildirebilir. 
@@ -85,7 +84,6 @@ Uyarılar hakkında hiçbir şey yapamayacağınız durumlar da olabilir. Örne�
 ## <a name="reversing-a-completed-inventory-close"></a>Tamamlanan bir stok kapanışını geri alma
 Tamamlanan bir stok kapanışını ters çevirerek, kapatmaları düzeltmelerden önceki durumlarına geri almanızın gerekeceği durumlarla karşılaşabilirsiniz. Tamamlanmış bir stok kapanışını ters çevirdiğinizde, stok kapanışının kapsadığı dönemde nakil izni vermek için stok yeniden açılır. İlgili değişiklikler genel muhasebede de yapılabilir. Düzeltmeler yapmayı tamamladıktan sonra, çalıştığınız dönem için stok kapatmayı yeniden çalıştırabilirsiniz. 
 
-**Not:** Sadece kapatılan son stok dönemi yeniden açılabilir. Önceki bir stok kapatmayı geri almak için, en son kapatmadan başlayarak takip eden her stok kapatmanın tek tek geri alınması gerekir.
-
-
+> [!NOTE] 
+> Sadece kapatılan son stok dönemi yeniden açılabilir. Önceki bir stok kapatmayı geri almak için, en son kapatmadan başlayarak takip eden her stok kapatmanın tek tek geri alınması gerekir.
 

@@ -3,7 +3,7 @@ title: İçerik blok modülü
 description: Bu konu içerik blok modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f91de93ce5ed4813f9f2adbe7678229189b5af2f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: daf9193a7fdc3b57defbb3250ae902f6eb6ee6c4
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025770"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269694"
 ---
 # <a name="content-block-module"></a>İçerik blok modülü
 
@@ -79,10 +79,10 @@ Aşağıdaki resimde, özellik düzenine sahip bir içerik bloğu modülü örne
 
 Bir yeni sayfaya Hero modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Şablonlara** gidin ve **içerik bloku şablonu** adlı bir sayfa şablonu oluşturun.
+1. **Şablonlara** gidin ve **İçerik bloğu şablonu** adlı bir sayfa şablonu oluşturun.
 1. Varsayılan sayfanın **ana** yuvasına bir Hero modülü ekleyin.
-1. Şablonu giriş yapın ve yayımlayın.
-1. **İçerik bloku sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz hero şablonunu kullanın.
+1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
+1. **İçerik bloğu sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz hero şablonunu kullanın.
 1. Varsayılan sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
 1. **Modül Ekle** iletişim kutusunda **modüller'i seçin**, Hero modülünü seçin ve **Tamam**'ı seçin.
 1. Soldaki anahat ağacında, içerik bloku modülünü seçin.
@@ -93,14 +93,14 @@ Bir yeni sayfaya Hero modülü eklemek ve gerekli özellikleri ayarlamak için a
 1. **Bağlantı Ekle**'yi seç.
 1. **Bağlantı** iletişim kutusunda bağlantı metni, bağlantı URL 'si ve bağlantı için bir Aria etiketi ekleyin ve **Tamam**'ı seçin.
 1. **Hero** düzenini seçin.
-1. Sayfayı kaydedin ve değişikliklerinizi önizleyin.
-1. Sayfayı giriş yapın ve yayımlayın.
+1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin.
+1. Şablonu iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin. 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Başlangıç paketine genel bakış](starter-kit-overview.md)
 
-[Promosyon başlık modülü](add-alert.md)
+[Promosyon başlığı modülü](add-alert.md)
 
 [Döngü modülü](add-carousel.md)
 

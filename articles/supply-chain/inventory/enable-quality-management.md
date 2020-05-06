@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
-ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
+ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3224921"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268828"
 ---
 # <a name="quality-management-overview"></a>Kalite yönetimine genel bakış
 
@@ -43,7 +43,11 @@ Kalite Yönetimi esnektir ve tedarik zinciri işlemlerinin belirli düzeylerdeki
 
 -   Önceden tanımlanmış ölçütlere (belirli bir satıcı satınalma siparişinden, ambar kaydı) dayalı bir kalite kontrol işlemini otomatik olarak başlatın.
 -   Onaylanmamış stokun kullanılmasını engellemek için inceleme sırasında stoku bloklayın(Tüm satınalma siparişi miktarlarını engelleme).
--   Madde örneklemeyi kalite ilişkilendirmesinin bir parçası olarak, denetlenmesi gereken geçerli fiziksel stok miktarını tanımlamak için kullanın. Örnekleme miktar veya yüzde tabanlı olabilir.
+-   Madde örneklemeyi kalite ilişkilendirmesinin bir parçası olarak, denetlenmesi gereken geçerli fiziksel stok miktarını tanımlamak için kullanın. Örnekleme miktar, yüzde veya tam plaka tabanlı olabilir.
+
+> [!NOTE]
+> _Ambar işlemleri için kalite yöntemleri_ özelliği, kalite yönetimi özelliğinin yeteneklerini genişletir. Bu özelliği kullanıyorsanız, kalite yönetiminin etkinleştirildiğinde nasıl çalıştığına ilişkin örnekler için [Ambar işlemleri için kalite yönetimi](quality-management-for-warehouses-processes.md)'ne bakın.
+
 -   Kısmi alış irsaliyeleri için kalite emirleri oluşturun. Bir siparişten fiziksel olarak alına miktara bağlı olarak oluşturulan bir kalite emri oluşturmak için **Madde örnekleme** formundaki **Güncelleştirilen miktar başına** onay kutusunu seçmelisiniz.
 -   Minimum, maksimum ve hedef test değerleri içeren test türleri oluşturun ve doğrulama sonuçları önceden tanımlanmış olan niteliğe karşı nicelik sınamaları gerçekleştirin.
 -   Kalite Ölçüm toleranslarını kontrol etmek için bir kabul edilebilir kalite düzeyi (AQL) belirtin.
@@ -428,6 +432,9 @@ Satınalmada, **Kalite ilişkilendirmeleri** sayfasında **Olay türü** alanın
 </tbody>
 </table>
 
+> [!NOTE]
+> *Ambar işlemleri için kalite yönetimi* özelliği, **Olay Türü** *Tamamlandı olarak bildir*, **Yürütme** *Sonra* olarak ayarlanmış olan üretim ve **Olay türü** *Kayıt*olarak ayarlanmış satınalmalar için kalite emri işleme yetenekleri ekler. Ayrıntılar için bkz. [Ambar işlemleri için kalite yönetimi](quality-management-for-warehouses-processes.md).
+
 ## <a name="quality-management-pages"></a>Kalite yönetim sayfaları
 <table>
 <colgroup>
@@ -495,3 +502,5 @@ Kalite emirlerinin otomatik olarak oluşturulmasını gerektiren iş işlemindek
 [Kalite yönetimi işlemleri](quality-management-processes.md)
 
 [Uygunsuzluk yönetimi](enable-nonconformance-management.md)
+
+[Ambar işlemleri için kalite yönetimi](quality-management-for-warehouses-processes.md)

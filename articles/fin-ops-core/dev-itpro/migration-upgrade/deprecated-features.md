@@ -3,7 +3,7 @@ title: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılm�
 description: Bu konu, kaldırılmış olan veya  Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sürümlerinden kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225140"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284026"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -230,7 +230,7 @@ Proje tabanlı satış siparişlerini, proje sözleşmesi birden fazla finansman
 | **Başka bir özellikle mi değiştirildi?**   | Hayır. |
 | **Etkilenen ürün alanları**         | Ürün bilgileri yönetimi |
 | **Dağıtım seçeneği**              | Tümü  |
-| **Durum**                         | Platform update 24 ile Finance and Operations 10.0.0 itibarıyla kaldırıldı. (Yalnızca, yayınlanmış bir ürünün birincil anahtarının önceki yeniden adlandırılmasından kaynaklanan veri bozulmalarını onarmanız gerekiyorsa, lütfen bu kısıtlamanın geçici olarak kaldırılmasını istemek için Microsoft Desteğine başvurun.) |
+| **Durum**                         | Platform update 24 ile Finance and Operations 10.0.0 itibarıyla kaldırıldı.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3, Platform güncelleştirmesi 23 ile
@@ -267,7 +267,7 @@ Katıştırılmış kilit performans göstergeleri (KPI'ları), bir geliştirici
 | **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, gelecekte bir derleme hatası ile değiştirilecektir. |
 | **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanımdan kalktı: Uyarı, gelecekte bir derleme zamanı hatası olacaktır. Bu değişiklik, Finance and Operations uygulamaları sürüm 10.0.11'e yönelik platform güncelleştirmeleri için hedeflenmiştir. |
+| **Durum**                         | Kullanım dışı: Uyarı, Finance and Operations uygulamalarının 10.0.11 sürümü platform güncelleştirmeleri ile derleme zamanı hatasıdır. |
 
 #### <a name="complete-list"></a>Tam liste
 Kullanımdan kaldırılan API'lerin tam listesine erişmek için bkz. [Yöntemler ve meta veri öğelerinin kullanımdan kaldırılması](deprecation-deletion-apis.md).

@@ -3,7 +3,7 @@ title: Kategori açılış sayfasını zenginleştirme
 description: Bu konu, Dynamics 365 Commerce'deki kategori sayfalarının zenginini kapsamaktadır.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71348efba9fc1374b9e6599eb23f198d3851036e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003062"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269855"
 ---
 # <a name="enrich-a-category-landing-page"></a>Kategori açılış sayfasını zenginleştirme
 
@@ -39,7 +39,7 @@ Ancak, varsayılan kategori sayfasını kullanmak yerine, daha fazla içeriğe v
 
 ![Zenginleştirilmiş kategori açılış sayfası](./media/CategoryLandingPages.png)
 
-Geliştirme aracında, **ürün** sayfası, siteye atanan kanaldan bir kategori listesi içerir. Bir kategori sayfası için **zenginleştirilmiş** durum seçildiyse, bu kategori sayfası zenginleştirgeçer. Aksi durumda, kategori için varsayılan kategori sayfası ve içerik kullanılır. Kategori adını seçerek, bir kategori için hem zenginleştirilmiş hem de zenginleştirilmemiş kategori sayfalarını önizleyebilirsiniz.
+Commerce site oluşturucuda **Ürünler** sayfası, siteye atanan kanaldaki kategorilerin listesini içerir. Bir kategori sayfası için **zenginleştirilmiş** durum seçildiyse, bu kategori sayfası zenginleştirgeçer. Aksi durumda, kategori için varsayılan kategori sayfası ve içerik kullanılır. Kategori adını seçerek, bir kategori için hem zenginleştirilmiş hem de zenginleştirilmemiş kategori sayfalarını önizleyebilirsiniz.
 
 Bir kategori sayfasını zenginleştirmek için, aşağıdakileri yapın.
 
@@ -48,9 +48,7 @@ Bir kategori sayfasını zenginleştirmek için, aşağıdakileri yapın.
 3. Zenginleştirilmiş kategori sayfası için bir şablon seçin. Yalnızca küçük değişiklikler yapıyorsanız, varsayılan kategori sayfasını seçebilirsiniz. Alternatif olarak, belirli bir kategori sayfası şablonu da seçebilirsiniz. Şablonu seçtiğinizde, sayfa Düzenleyicisi açılır ve seçili şablon seçili kategori için yeni bir kategori sayfası oluşturmak için kullanılır. Sayfa kullanımınıza alındı ve şimdi değişikliklerinizi yapabilirsiniz.
 
 > [!NOTE]
-> Kategori belirtim verileri kullanan modüller seçtiğiniz kategorideki verileri kullanır.
->
-> Seçtiğiniz şablonun ayarları yapabileceğiniz değişiklikleri belirler.
+> Kategori belirtim verileri kullanan modüller seçtiğiniz kategorideki verileri kullanır. Seçtiğiniz şablonun ayarları yapabileceğiniz değişiklikleri belirler.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
