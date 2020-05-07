@@ -1,9 +1,9 @@
 ---
 title: Sipariş taahhüdü
-description: Bu makalede sipariş taahhütleri hakkında bilgiler verilmiştir. Sipariş Taahhüdü müşterileriniz için güvenilir teslimat tarihleri taahhüt etmenize yardımcı olur ve böylece bu tarihleri karşılayabilmeniz için esneklik sağlar.
+description: Bu konuda sipariş taahhütleri hakkında bilgiler verilmiştir. Sipariş Taahhüdü müşterileriniz için güvenilir teslimat tarihleri taahhüt etmenize yardımcı olur ve böylece bu tarihleri karşılayabilmeniz için esneklik sağlar.
 author: ShylaThompson
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210077"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270042"
 ---
 # <a name="order-promising"></a>Sipariş taahhüdü
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede sipariş taahhütleri hakkında bilgiler verilmiştir. Sipariş Taahhüdü müşterileriniz için güvenilir teslimat tarihleri taahhüt etmenize yardımcı olur ve böylece bu tarihleri karşılayabilmeniz için esneklik sağlar.
+Bu konuda sipariş taahhütleri hakkında bilgiler verilmiştir. Sipariş Taahhüdü müşterileriniz için güvenilir teslimat tarihleri taahhüt etmenize yardımcı olur ve böylece bu tarihleri karşılayabilmeniz için esneklik sağlar.
 
 Sipariş taahhüdü erken sevk ve giriş tarihlerini hesaplar ve teslim tarihi kontrol yöntemi ve taşıma günlerini temel alır. Dört teslim tarihi kontrol yöntemi arasından seçim yapabilirsiniz:
 
@@ -47,11 +47,13 @@ ATP aşağıdaki formülü kullanarak hesaplanır:
 
 ATP = Önceki dönemin ATP'si + Geçerli dönemin girişleri – Geçerli dönemin çıkışları – Gelecek döneme kadar ve gelecek dönem dahil olmak üzere, tüm gelecek dönemlerdeki girişlerin toplamı, gelecek döneme kadar ve gelecek dönem dahil olmak üzere, çıkışların toplamını geçene kadar her gelecek dönem için net giriş miktarı.  
 
+ATP hesaplamasının, herhangi bir miktar taahhüt edilebilir olduğunda sistemin bitiş tarihi ve ATP zaman diliminin ötesinde bilgiler içermediğine dikkat edin.
+
 Değerlendirilmesi gereken başka çıkış veya giriş kalmadığında, aşağıdaki tarihlerin ATP miktarı hesaplanan son ATP miktarıyla aynı olur.  
 
 Bir madde için kullanılan tüm boyutlar ATP kontrolü gerçekleştirildiğinde verilmezse, çıkış ve girişlerde belirtilmeye devam ediyor olurlar. Bu durumda, ATP hesaplamasında kullanılan giriş ve çıkış satırlarının sayısını düşürmek için ATP hesaplamasında giriş ve çıkışların varolan boyutlara eklenmesi gerekir.  
 
-Gösterilen KM miktarı her zaman büyük veya eşit 0 (sıfır) olur. Eğer hesaplama negatif bir ATP miktarı sonucu verirse (örneğin, daha önce taahhüt edilen miktar, mevcut miktarı geçerse), program otomatik olarak miktarı **0** olarak ayarlar.
+Gösterilen KM miktarı her zaman büyük veya eşit 0 (sıfır) olur. Eğer hesaplama negatif bir ATP miktarı sonucu verirse (örneğin, daha önce taahhüt edilen miktar, mevcut miktarı geçerse), miktar otomatik olarak 0 olarak ayarlanır.
 
 ### <a name="example"></a>Örnek
 

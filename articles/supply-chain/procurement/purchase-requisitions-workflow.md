@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3d0b6c4ef9e6f21e1542bece9046e98edcab6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207845"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281521"
 ---
 # <a name="purchase-requisition-workflow"></a>Satınalma talebi iş akışı
 
@@ -85,6 +85,9 @@ Bu örnekte, satınalma talebi satırları için iş akışı süreci aşağıda
 3.  Talep sahibinin bölüm yöneticisi satınalma talebi satırlarını gözden geçirir ve onaylar. Örneğin satın alma talebi satırındaki miktar talep sahibinin satın alma talebi satırları için belirlediği harcama sınırını aşarsa, onay işlemi satınalma talebi sahibinin yöneticisine yönlendirilebilir. Yönetici, satınalma talebi satırlarının birini veya her ikisini onaylayabilir veya reddedebilir.
 4.  Pazarlama departmanı yöneticisi hem posterler hem de tişörtler için satınalma talebi satırlarını gözden geçirir. Satış departmanı yöneticisi, Satış departmanına çıkarılan tek maliyet bu olduğundan yalnızca posterlerim satınalma talebi satırını gözden geçirir.
 5.  Grup yöneticisinin onayı gerekiyorsa, grup yöneticisi örneğin satınalma talebi satırındaki tutar departman yöneticisinin onay sınırını aştığından, yalnızca tişörtlerin satınalma talebi satırını gözden geçirir ve onaylar. Grup yöneticisinin posterler için satınalma talebi satırını onaylaması gerekmez.
+
+> [!NOTE]
+> Bir satınalma talebinin başlık iş akışı, imzalama limitleriyle ilgili onaylar gerektiriyorsa, sistem para birimi ayarlanmalıdır.
 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Satınalma talepleri için bir iş akışı yapılandırma
 Gözden geçirilmek üzere bir satınalma talebini yönlendirmek için satınalma talebi iş akışı işlemlerini yapılandırmanız gerekir. Tanımladığınız iş akışı işlemi ürünleri, talep eden kullanıcı (talep sahibi) ile iş akışında gözden geçiren ve onaylayan kişi arasındaki etkileşimi denetler. Satınalma talebinin yönlendirilmesi iş akışı yapılandırmasında belirtilen koşullara bağlıdır. Örneğin, bu koşullar satınalma talebinin ne zaman yönlendirilmesi gerektiğini, yönlendirilmesi gereken kullanıcı ile rolü ve kullanıcıları gerçekleştirebileceği işlemleri belirler.  

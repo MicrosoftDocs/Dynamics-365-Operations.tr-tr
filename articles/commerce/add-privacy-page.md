@@ -3,7 +3,7 @@ title: Gizlilik ilkesi sayfası ekle
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te sitenize gizlilik ilkesi sayfası ekleme yöntemi açıklanmıştır.
 author: v-chgri
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ee9a68f46c91299065732e5f65479906f9e06079
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 59a2d9712a73c607cf5521f8e79e8e2558854fc4
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001335"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274223"
 ---
 # <a name="add-a-privacy-policy-page"></a>Gizlilik ilkesi sayfası ekle
 
@@ -54,36 +54,33 @@ Başlatmak için, yazma araçlarında, bir gizlilik ilkesi sayfası oluşturmak 
 
 Bir şablon oluşturmak için şu adımları izleyin.
 
-1. **Şablonlar \> Yeni Şablon**'a gidin.
-1. Bir şablon adı girin ve **Tamam**'ı seçin.
-1. Şablonda, gerekli tüm sayfa yuvalarına gerekli modülleri ekleyin. Kılavuz için kırmızı Ünlem işaretlerinin üzerine gelin.
-
-    Örneğin, **HTML Başı** yuvası varsayılan bir **harici komut dosyası** modülü gerektirebilir.
-
+1. Bir sayfa şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
+1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **Promosyon başlığı şablonu**'nu girin ve **Tamam**'ı seçin.
+1. Şablonda, gerekli tüm sayfa yuvalarına gerekli modülleri ekleyin. Kılavuz için kırmızı Ünlem işaretlerinin üzerine gelin. (Örneğin, **HTML Başı** yuvası bir **Varsayılan Harici Komut Dosyası** modülü gerektirebilir.)
 1. **Gövde** yuvasında bir **varsayılan sayfa** modülü ekleyin.
 1. **Varsayılan sayfa** modülünde, **Ana** yuvasına bir **içerik zengin blok** modülü ekleyin.
 1. **İçerik zengin blok** modülünde, bir **içerik zengin blok öğe** modülü ekleyin.
-1. Şablonu giriş yapın ve yayımlayın.
+1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 
 ### <a name="build-a-privacy-policy-page"></a>Gizlilik ilkesi sayfası oluştur
 
 Gizlilik ilkesi sayfası oluşturmak için aşağıdaki adımları izleyin.
 
-1. **Sayfalar \> Yeni Sayfa**ya gidin.
-1. Gizlilik ilkesi sayfası şablonunu seçin.
-1. Bir sayfa adı ve URL girin ve **Tamam**'ı seçin. 
+1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
+1. **Şablon seç** iletişim kutusunda gizlilik ilkesi sayfası şablonunu seçin.
+1. Bir sayfa adı ve sayfa URL'si girin ve **Tamam**'ı seçin. 
 1. Yeni sayfanın **ana** yuvasına bir **içerik zengin blok** modülü ekleyin.
 1. **İçerik zengin blok** modülünde, bir **içerik zengin blok öğe** modülü ekleyin.
 1. **İçerik zengin blok** modülü Özellikler bölmesinde **Veri Kaynağı Ekle**'yi ve sonra da **Zengin Metin İçeriği**'ni seçin.
 1. Zengin metin düzenleyicisinde, Gizlilik ilkesi sayfası için içerik girin. Zengin metin Düzenleyicisini gerektiğinde tam ekran moduna genişletin.
 1. İçeriği girmeyi bitirdiğinizde, Web tarayıcısında sayfayı önizlemek için **Önizleme**'yi seçin.
 1. Sayfa ve modül özelliklerine kalan tüm eklemeleri tamamlayın.
-1. Gizlilik ilkesi sayfayı giriş yapın ve yayımlayın.
+1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 
 Gizlilik ve ilke sayfası için URL yayınlamak için şu adımları izleyin.
 
 1. **URL**'lere gidin ve Gizlilik ilkesi sayfasının URL'sini seçin.
-1. Seçilen URL'yi yayımlayın.
+1. Seçili URL'yi yayımlamak için **Yayımla**'yı seçin.
 
 ### <a name="create-a-link-to-the-privacy-policy-page-in-a-footer"></a>Altbilgide Gizlilik ilkesi sayfasına bağlantı oluştur
 
@@ -91,15 +88,14 @@ Bir parçaya Gizlilik ilkesi sayfası için bağlantı ekleyebilirsiniz. Bu şek
 
 Alt bilgi parçasına bğalantı eklemek için bu adımları izleyin.
 
-1. **Sayfa Parçaları \> Yeni Sayfa Parçası**'na gidin.
-1. **Altbilgi** modülünü seçin ve **sayfa parça adı** alanına bir ad girin.
+1. **Sayfa Parçaları**'na gidin ve yeni sayfa parçası oluşturmak için **Yeni**'yi seçin.
+1. **Yeni Sayfa Parçası** iletişim kutusunda, **Altbilgi** modülünü seçin.
+1. **Sayfa parçası adı** altında, parça için bir ad girin ve **Tamam** 'ı seçin.
 1. **Altbilgi kategorisi** yuvasında bir **alt bilgi öğesi** modülü ekleyin.
 1. Sağdaki özellikler bölmesinde, **Bağlantı metni**'ni seçin.
 1. **Bağlantı metni** iletişim kutusunda, Gizlilik ilkesi sayfasının bağlantı metnini ve bağlantı hedefini girin ve **Tamam**'ı tıklatın.
-
-    Gizlilik ilkesi sayfasının URL'sini almak için, **sayfalar**'a gidin, Gizlilik ilkesi sayfasına gidin ve Özellikler bölmesinden URL'yi kopyalayın.
-
-1. Parçasını kaydedin, giriş yapın ve yayımlayın.
+1. Gizlilik ilkesi sayfasının URL'sini almak için, **sayfalar**'a gidin, Gizlilik ilkesi sayfasına gidin ve Özellikler bölmesinden URL'yi kopyalayın.
+1. **Kaydet**'i seçin, parçayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. Parçanın önizlemesine bakın ve Gizlilik ilkesi sayfası bağlantısını sınayın.
 
 Parça artık diğer site sayfaları için şablonda başvurulabilir. Bu parçaya bir şablonun **altbilgi** modülünde referans olduğu zaman, bağlantı başvurusu bu şablon kullanılarak oluşturulan tüm sayfalarda görünür.
@@ -110,4 +106,6 @@ Parça artık diğer site sayfaları için şablonda başvurulabilir. Bu parçay
 
 [Erişilebilirlik özellikleri ve yetenekleri](accessibility.md)
 
-[Çerez uyumluluğu](cookie-compliance.md)
+[Tanımlama bilgisi uyumluluğu](cookie-compliance.md)
+
+[İzlenen içerik değişiklikleriyle ilişkili kullanıcı kimliklerini değiştirme](replace-IDs-tracked-changes.md)

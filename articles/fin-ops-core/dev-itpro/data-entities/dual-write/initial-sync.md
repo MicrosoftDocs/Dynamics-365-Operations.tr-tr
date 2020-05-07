@@ -19,22 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 4adb2c8d57ad8f67346b8d34212b7a4b0bd052ab
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 9ae14703941b97308bca5845eeac3eb9b181ae75
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173143"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275499"
 ---
 # <a name="entity-dependency-chain-synchronization-order"></a>Varlık bağımlılığı zinciri (eşitleme sırası)
 
 [!include [banner](../../includes/banner.md)]
 
-
-
-Aşağıdaki tablolarda varlıklar etkinleştirmeniz gereken sırada listelenmişlerdir. Bir eşlemeyi ilk eşitleme için etkinleştirdiğinizde, çift yazım otomatik olarak etkinleştirilmesi gereken diğer eşlemeleri algılar. İlk eşitleme sırasında varlık seçimini seçmek veya iptal etmek için, Finance and Operations uygulamalardaki **ikili yazma** sayfasını kullanabilirsiniz.
-
-Çift-yazma olan en son sürümde, yalnızca bazı varlıkları etkinleştirebilirsiniz ve bağımlılıklar sizin için işlenmektedir.
+Bu konu, **ilk eşitleme** özelliği tarafından sağlanan varlık bağımlılıklarını kullanmıyorsanız, ilk veriyi oluşturmak için izlemeniz gereken eşitleme sırasını belirtir. **ilk eşitlemeyi** kullanmıyorsanız, her varlık eşlemeyi ayrı olarak çalıştırmanız gerekir.
 
 ## <a name="dynamics-365-supply-chain-management-entities"></a>Dynamics 365 Supply Chain Management varlıkları
 

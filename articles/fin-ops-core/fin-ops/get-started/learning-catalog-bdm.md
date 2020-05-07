@@ -1,36 +1,38 @@
 ---
 title: İş ve Teknik Karar Vericiler İçin Öğrenme Kataloğu
-description: ''
-author: margoc
-manager: AnnBe
-ms.date: 05/03/2019
+description: Finance and Operations için Tüm eğitim seçeneklerini bulun.
+author: loreleishannonmsft
+ms.date: 02/27/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
+ms.author: v-lshann
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: margoc
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: f6951639bd41470d51a54bddb4683f406830f8a2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 3584344fbe1c95280353c5596d9ab2870923cae5
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191052"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3279114"
 ---
 # <a name="business-and-technical-decision-makers-learning-catalog"></a>İş ve Teknik Karar Vericiler İçin Öğrenme Kataloğu
 
-Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli etki alanlarına ilişkin temel bilgilerden düzenlenmiştir. İçerik birden fazla biçimde bulunuyorsa ihtiyaçlarınızı en iyi karşılayan eğitim biçimini seçebilmeniz için sizi bilgilendireceğiz. Daha fazla bilgi edinmek için Eğitim içeriği biçimlerine bakın. 
+Yeni teknolojilere yatırım yapıp yapamayacağınıza karar versin mi? 
 
-## <a name="get-started"></a>Başlayın
-| İçerik                                                                                                                                    | Tanım                                                                                                                                                                                                                                                                                                                                                                                                              | Biçim                                                                         | Uzunluk    |
+Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli etki alanlarına ilişkin temel bilgilerden düzenlenmiştir. İçerik birden fazla biçimde bulunuyorsa ihtiyaçlarınızı en iyi karşılayan eğitim biçimini seçebilmeniz için sizi bilgilendireceğiz. 
+
+## <a name="get-started"></a>Başlayın<a name="get-started"></a>
+| İçerik   | Tanım   | Biçim    | Uzunluk    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
-| [Microsoft Dynamics 365 ve Power Platform'un iş değerini öğrenin](https://docs.microsoft.com/en-us/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Bu öğrenme deneyimi, sizi bir yolculuğa çıkaracak. Bu yolculukta önce size dijital dönüşümün ve iş uygulamalarının gücünün işletmenizi nasıl dönüştürebileceği gösterilecek. Dynamics 365 ve Power Platform'un, dijital dönüşümün modern, birleşik, akıllı ve uyarlanabilir olmak üzere dört temel taşı yoluyla, kuruluşunuzun ihtiyaç ve hedeflerine göre bilinçli kararlar vermenize nasıl yardımcı olabileceğini ele alacağız.   | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu                                          | 6.5 saat |
-| [Dynamics 365 ve Power Platform Temel Bilgileri](https://docs.microsoft.com/en-us/learn/paths/dyn-power-plat-bus-app-fundamentals/)                                                  | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Dynamics 365 uygulamalarının nasıl kullanıldığını görmek için bu öğrenme yoluyla işe başlayın. Bulut kavramları, Power Platform ve Dynamics 365 uygulamalarını kullanmaya başlamak hakkında bilgi edinin.                                                                                                                                                                                              | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu                                          | 5.5 saat |
-| [Dynamics 365 for Finance and Operations kullanmaya başlama](https://docs.microsoft.com/en-us/learn/paths/get-started-with-dynamics-365-for-finance-and-ops/)                        | Microsoft Dynamics 365 for Finance and Operations'ın, çalışanları hızlı ve bilinçli kararlar vermeye teşvik etmek için işletmeleri, küresel finans sistemlerini, operasyonel iş süreçlerini ve kolaylaştırılmış tedarik zincirlerini yönetme konusunda nasıl desteklediğini öğrenin. Finance and Operations ile çalışma kariyerinizin ilk adımı olarak, istediğiniz rolden bağımsız olarak, Finance and Operations'ın özellik ve işlevleri hakkında bilgi edinmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu                                          | 1.5 saat |
-| [Kurs MB-900T01-A: Dynamics 365 temel bilgileri](https://www.microsoft.com/en-us/learning/course.aspx?cid=MB-900T01)                                                                | Bu kurs ile katılımcı, Dynamics 365'in işlevleri ve iş değeri hakkında bilgi sahibi olur. Kurs kapsamında Dynamics 365 uygulamaları, Power Platform, bulut kavramlarını, güvenlik modeli ve lisanslama ilgili açıklamalar bulunur.                                                                                                                                                                                      | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün     |
-| [Dynamics 365 Temel Bilgileri](https://www.microsoft.com/en-us/learning/d365-fundamentals.aspx)                                                                                       | Microsoft Dynamics 365: Power Platform, bulut kavramları, lisanslama seçenekleri ile dağıtım ve sürüm seçeneklerini bildiğinizi kanıtlayın.                                                                                                                                                                                                                                                                             | Maliyeti bölgeye göre değişkenlik gösteren sınav                                                    |           |
+| [Microsoft Dynamics 365 ve Power Platform'un iş değerini öğrenin](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Belki Microsoft Dynamics 365 ve Power Platform uygulamalarını kullanmaya nereden başlayacağınızı bilmiyorsunuz? İş uygulamalarının gücününün işinizi dönüştürmeye nasıl yardımcı olabileceğini öğrenin.                                                                                                                                                     | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu                                          | 7 saat   |
+| [Dynamics 365 ve Power Platform Temel Bilgileri](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/)                                                  | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Dynamics 365 uygulamalarının nasıl kullanıldığını görmek için bu öğrenme yoluyla işe başlayın. Bulut kavramları, Power Platform ve Dynamics 365 uygulamalarını kullanmaya başlamak hakkında bilgi edinin.                                                                                                                                                                       | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu                                          | 5.5 saat |
+| [Finance and Operations uygulamalarını kullanmaya başlama](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)                                                       | Finance and Operations uygulamalarının, çalışanları hızlı ve bilinçli kararlar vermeye teşvik etmek için işletmeleri, küresel finans sistemlerini, operasyonel iş süreçlerini ve kolaylaştırılmış tedarik zincirlerini yönetme konusunda nasıl desteklediğini öğrenin. Finance and Operations uygulamaları ile çalışma kariyerinizin ilk adımı olarak, istediğiniz rolden bağımsız olarak, Finance and Operations'ın özellik ve işlevleri hakkında bilgi edinmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu                                          | 2 saat   |
+| [Kurs MB-900T01-A: Dynamics 365 temel bilgileri](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)                                                                | Bu kurs ile katılımcı, Dynamics 365'in işlevleri ve iş değeri hakkında bilgi sahibi olur. Kurs kapsamında Dynamics 365 uygulamaları, Power Platform, bulut kavramlarını, güvenlik modeli ve lisanslama ilgili açıklamalar bulunur.                                                                                                                                                               | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün     |
+| [Dynamics 365 Supply Chain Management için Varlık Yönetimini kullanmaya başlama](https://docs.microsoft.com/learn/modules/get-started-asset-management/index)                    | Varlık Yönetimi, Dynamics 365 Supply Chain Management'da varlıkların ve bakım işlerinin yönetilmesine yönelik bir modüldür. Varlık Yönetimi, şirketinizdeki makineler, üretim ekipmanları ve araçlar gibi birçok ekipman türünü yönetmek ve bakım hizmeti vermek için ilgili görevleri verimli bir şekilde yönetmenize ve gerçekleştirmenize olanak tanır. Varlık Yönetimi birçok sektördeki çözümleri destekler.       | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme modülü                                        | 1 saat    |
+## <a name="exam"></a>Sınav<a name="exam"></a>
+| İçerik  | Tanım  | Biçim  | Uzunluk    |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
+| [Dynamics 365 Temel Bilgileri](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)|   Microsoft Dynamics 365: Power Platform, bulut kavramları, lisanslama seçenekleri ile dağıtım ve sürüm seçeneklerini bildiğinizi kanıtlayın.    |Sınav | Maliyet bölgeye göre değişkenlik gösterir |
