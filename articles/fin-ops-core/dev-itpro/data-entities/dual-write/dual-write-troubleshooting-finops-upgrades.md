@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59384d8e8d043eb14231a471c7218ced2dddf739
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172889"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275476"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Finance and Operations uygulamaları yükseltmeleriyle ilgili sorunları giderme
 
@@ -85,9 +85,8 @@ Sorun yine de düzeltilmemişse, aşağıdaki adımları izleyin.
 > Bu adımlar, bir varlığı silme ve sonra yeniden ekleme sürecinde size yol gösterir. Sorunlardan kaçınmak için, adımları tam olarak takip edin.
 
 1. Finance and Operations uygulamada, **Çalışma alanları \> Veri yönetimi**'ne gidin ve **Veri varlıkları** döşemesini seçin.
-2. Alan eksik olan varlığı bulun. Hedef varlığı, hazırlama tablosunu, varlık adını ve diğer sütun değerlerini not alın.
-3. İşlem gruplarından herhangi biri bu varlığa bağlıysa, varlığı silmeden önce işlem grupları için uygun eylemi gerçekleştirin.
-4. Alan eksik olan varlığı silin.
-5. **Yeni**'yi seçin ve varlığı geri ekleyin. Adım 2'de not ettiğiniz değerleri belirtin.
-6. Finance and Operations uygulamadaki **ikili yazma** sayfasından **varlık eşleme** sayfasını açın.
-7. Varlık eşlemelerinde alanları otomatik olarak doldurmak için **Varlık listesini yenile** seçin.
+2. Özniteliğin eksik olduğu varlığı bulun. Araç çubuğunda **Hedef eşlemeyi değiştir**'e tıklayın.
+3. **Hazırlamayı hedefe eşle** bölmesinde, **Eşleme oluştur**'a tıklayın.
+4. Finance and Operations uygulamadaki **ikili yazma** sayfasından **varlık eşleme** sayfasını açın.
+5. Öznitelik eşlemede otomatik olarak doldurulmamışsa, **Öznitelik ekle** düğmesine ve sonra **Kaydet**'e tıklayarak el ile ekleyin. 
+6. Eşlemeyi seçin **Çalıştır**'a tıklayın.

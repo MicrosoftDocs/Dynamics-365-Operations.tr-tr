@@ -3,7 +3,7 @@ title: Veri içe ve dışa aktarma işlerine genel bakış
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124624"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278910"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
@@ -151,6 +151,18 @@ Yürütme ayrıntıları, işin işlediği her bir veri varlığın durumunu gö
 Dışa aktarma işleri için hazırlama verisini bir dosya içinde indirebilir veya içe ve dışa aktarma işleri için bir paket olarak indirebilirsiniz.
 
 Yürütme ayrıntılarından yürütme kaydını da açabilirsiniz.
+
+## <a name="parallel-imports"></a>Paralel içe aktarmalar
+Verilerin içe aktarılmasını hızlandırmak için, varlık paralel içe aktarmaları destekliyorsa, dosyanın içe aktarılması için paralel işlem etkinleştirilebilir. Bir varlık için paralel içe aktarmayı yapılandırmak için aşağıdaki adımların izlenmesi gerekir.
+
+1. **Sistem Yönetimi \> Çalışma alanları \> Veri yönetimi** seçeneğine gidin.
+2. **İçe/dışa aktar** bölümünde, **Veri içe/dışa aktarma çerçevesi parametreleri** sayfasını açmak için **Çerçeve parametreleri** kutucuğunu seçin.
+3. **Varlık ayarları** sekmesinde, **Varlık içer aktarma işlemi yürütme parametreleri** sayfasını açmak için **Varlık yürütme parametrelerini yapılandır**'ı seçin.
+4. Bir varlık için paralel içe aktarmayı konfigüre etmek üzere aşağıdaki alanları ayarlayın:
+
+    - **Varlık** alanında, tüzel kişiliği seçin.
+    - **İçe aktarma eşik kayıt sayısı** alanında, içe aktarma için eşik kayıt sayısını girin. Bu, bir iş parçacığı tarafından işlenecek kayıt sayısını belirler. Bir dosyada 10K kayıt varsa, görev sayısı 4 olan 2500 kayıt sayısı, her iş parçacığının 2500 kayıt işleyeceği anlamına gelir.
+    - **İçe aktarma görev sayısı** alanında, içe aktarma görevlerinin sayısını girin. Bu, **Sistem Yönetimi \>Sunucu yapılandırması**'ndaki toplu işleme için tahsis edilen maksimum toplu iş parçacığı sayısını aşmamalıdır.
 
 ## <a name="clean-up-the-staging-tables"></a>Hazırlama tablolarını temizleyin
 Platform Update 29'dan başlayarak, bu işlevselliği kullanımdan kaldırılmıştır. Bu, aşağıda açıklanan iş geçmişi temizleme işlevselliği yeni bir sürümü ile değiştirilir.

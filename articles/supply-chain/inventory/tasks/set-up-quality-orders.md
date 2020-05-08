@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 679448255bd85aafb07270f4858d4b83d2fe643b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4577b8b189403b3d71eb634e159d51d2fa53ce12
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204045"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268805"
 ---
 # <a name="set-up-quality-orders"></a>Kalite emirlerini ayarlama
 
@@ -78,6 +78,9 @@ Bu prosedürde, size, gelen stoğun varış kaydı yapıldıktan hemen sonra inc
 8. **Kaydet**'e tıklayın.
 9. Sayfayı kapatın.
 
+> [!NOTE]
+> *Ambar işlemleri için kalite yönetimi* özelliği bazı ek madde örnekleme yetenekleri sağlar. *Madde örnekleme kapsamı* kavramı ve miktar belirtimi olarak tam plaka tanımlama yeteneği ekler. Bu özelliği etkinleştirdiyseniz, ayrıntılar için [Ambar işlemleri için kalite yönetimi](../quality-management-for-warehouses-processes.md)'ne bakın.
+
 ## <a name="create-a-quality-group"></a>Kalite grubu oluşturun
 1. **Stok yönetimi > Kurulum > Kalite kontrol > Kalite grupları** öğesine gidin.
 2. **Yeni**'ye tıklayın.
@@ -131,3 +134,5 @@ Bu prosedürde, size, gelen stoğun varış kaydı yapıldıktan hemen sonra inc
 16. **Kaydet**'e tıklayın.
 17. Sayfayı kapatın.
 
+> [!NOTE]
+> *Ambar işlemleri için kalite yönetimi* özelliği, kalite ilişkilerini ayarlamak için ek seçenekler sağlar. Yeni bir koşul (**Geçerli ambar türü**) ve yeni bir ayar (**Kalite işleme ilkesi**) ekler. Bu özelliği etkinleştirdiyseniz, ayrıntılar için [Ambar işlemleri için kalite yönetimi](../quality-management-for-warehouses-processes.md)'ne bakın.

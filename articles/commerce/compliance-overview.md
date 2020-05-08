@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8c2cdbf055a2854c4140d3ccc264da260c7cdf5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 45d96317f5b6ef956647bfc511e80533e2c34bca
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002278"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275360"
 ---
 # <a name="compliance-overview"></a>Uyumluluğa genel bakış
 
@@ -41,6 +41,8 @@ Microsoft'un kullandığı temel ilkeler hakkında daha fazla bilgi için [Micro
 
 [Erişilebilirlik özellikleri ve yetenekleri](accessibility.md)
 
-[Çerez uyumluluğu](cookie-compliance.md)
+[Tanımlama bilgisi uyumluluğu](cookie-compliance.md)
 
-[Gizlilik ilkesi sayfası ekle](add-privacy-page.md)
+[Gizlilik ilkesi sayfası ekleme](add-privacy-page.md)
+
+[İzlenen içerik değişiklikleriyle ilişkili kullanıcı kimliklerini değiştirme](replace-IDs-tracked-changes.md)

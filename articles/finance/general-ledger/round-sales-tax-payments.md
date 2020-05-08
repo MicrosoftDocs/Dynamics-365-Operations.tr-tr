@@ -3,7 +3,7 @@ title: Satış vergisi ödemeleri ve yuvarlama kuralları
 description: Bu makalede, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/30/2018
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771764"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275686"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Satış vergisi ödemeleri ve yuvarlama kuralları
 
@@ -43,26 +43,26 @@ Bir döneme ilişkin toplam satış vergisi alacak bakiyesi -98.765,43 olarak g�
 
 Tüzel kişilik bakiyeyi en yakın 1,00 değerine yuvarlayan bir yuvarlama yöntemi kullanmak istemektedir. Satış vergisi muhasebesinden sorumlu kullanıcı aşağıdaki adımlardan birini gerçekleştirmelidir:
 
-1.  Vergi &gt; Dolaylı vergiler &gt; Satış vergisi &gt; Satış vergisi dairesi öğelerine tıklayın
-2.  Genel hızlı sekmesinde, Yuvarlama formu alanından Normal seçeneğini seçin.
-3.  Yuvarlama alanına 1,00 girin.
-4.  Satış vergisini vergi dairesine ödeme zamanı geldiğinde, Satış vergisini kapat ve naklet sayfasını açın. (Vergi &gt; Beyannameler &gt; Satış vergisi &gt; Satış vergisini kapat ve naklet'e tıklayın.)
-5.  Satış vergisi kapatma hesabındaki 98.765,43 tutarındaki vergi borcu 98.765'e yuvarlanır.
+1. **Vergi** >  **Dolaylı vergiler** > **Satış vergisi** > **Satış vergisi dairesi** öğelerine tıklayın.
+2. **Genel** hızlı sekmesinde, **Yuvarlama formu** alanından **Normal** seçeneğini seçin.
+3. **Yuvarlama** alanına 1,00 girin.
+4. Satış vergisini vergi dairesine ödeme zamanı geldiğinde, **Veri** > **Beyannameler** > **Satış vergisi** > **Satış vergisini kapat ve deftere naklet**'e gidin. Satış vergisi kapatma hesabındaki **98.765,43** tutarındaki vergi borcunun **98.765**'e yuvarlandığını görebilirsiniz.
 
-Aşağıdaki tabloda, 98.765,43 tutarının Satış vergisi dairesi sayfasındaki Yuvarlama formu alanında bulunan her yuvarlama yöntemi kullanılarak nasıl yuvarlandığı gösterilmektedir.
+Aşağıdaki tabloda, 98.765,43 tutarının **Satış vergisi dairesi** sayfasındaki **Yuvarlama formu** alanında bulunan her yuvarlama yöntemi kullanılarak nasıl yuvarlandığı gösterilmektedir.
 
-| Yuvarlama formu seçeneği                | Yuvarlama değeri = 0,01 | Yuvarlama değeri = 0,10 | Yuvarlama değeri = 1,00 | Yuvarlama değeri = 100,00 |
-|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| Normal                              | 98.765,43              | 98.765,40              | 98.765,00              | 98.800,00                |
-| Aşağı yuvarlama                            | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
-| Yukarı yuvarlama                         | 98.765,43              | 98.765,50              | 98.766,00              | 98.800,00                |
-| Kendi avantajı, alacak bakiyesi için | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
-| Kendi avantajı, borç bakiyesi için  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
+> [!NOTE]                                                                                  
+> Yuvarlama değeri 0,00 olarak ayarlanmışsa,:
+>
+> - Normal yuvarlama için, yuvarlama davranışı **Yuvarla = 0,01** ile aynıdır.
+> - **Yuvarlama formu seçenekleri** **Aşağı doğru**, **Yukarı yuvarlama** ve **Kendi avantajı** için, davranış **Yuvarla = 1,00** ile aynıdır.
 
-
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>Yuvarlama yok, yuvarlama 0,00 olduğundan
-
-yuvarla(1,0151, 0,00) = 1,0151 yuvarla (1,0149, 0,00) = 1,0149
+| Yuvarlama formu seçeneği                | Yuvarlama değeri = 0,01 | Yuvarlama değeri = 0,10 | Yuvarlama değeri = 1,00 | Yuvarlama değeri = 100,00 | Yuvarlama değeri = 0,00   |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
+| Normal                              | 98,765.43              | 98,765.40              | 98,765.00              | 98,800.00                | 98,765.43                |
+| Aşağı yuvarlama                            | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Yukarı yuvarlama                         | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
+| Kendi avantajı, alacak bakiyesi için | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Kendi avantajı, borç bakiyesi için  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Normal yuvarlama, yuvarlama hassasiyeti 0,01'dir
 

@@ -3,7 +3,7 @@ title: Sayfa düzeni seçme
 description: Bu konu Microsoft Dynamics 365 Commerce'ta sayfa düzenleri oluşturma ve seçmeyi açıklar.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a3e8efcdc236911ac79007c606d5d1da56f6c424
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002786"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269924"
 ---
 # <a name="select-page-layouts"></a>Sayfa düzeni seçme
 
@@ -39,7 +39,7 @@ Bu konu Microsoft Dynamics 365 Commerce'ta sayfa düzenleri oluşturma ve seçme
 Varolan bir sayfa ile ilgili düzen oluşturmak için aşağıdaki adımları izleyin.
 
 1. **Sayfalara** gidin ve listede varolan sayfayı bulun. Arama özelliğini gereksinim duyduğunuz gibi kullanın.
-1. Sayfayı seçin, kullanıma alın ve onu açmak için seçin. Modül sırasını not edin.
+1. Sayfayı seçin, kullanıma almak için **Düzenle**'yi seçin ve sonra açılacak sayfa adını seçin. Modül sırasını not edin.
 1. **Yeni Düzen olarak kaydet**'i seçin.
 1. Düzen için bir ad girin ve **Tamam**'ı seçin.
 1. **Katıştırılmış düzene Dönüştür**'ü seçin.
@@ -47,6 +47,7 @@ Varolan bir sayfa ile ilgili düzen oluşturmak için aşağıdaki adımları iz
 1. **Yeni Düzen olarak kaydet**'i seçin.
 1. Düzen için bir ad girin ve **Tamam**'ı seçin.
 1. **Düzeni Değiştir**'i seçin, oluşturduğunuz ilk düzeni seçin ve sonra **Tamam**'ı seçin. Modül sırasını not edin. Düzenle kaydedilen modül düzeniyle eşleşmesi için bunu değiştirin.
+1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin. 
 
 ## <a name="select-a-different-layout-for-an-existing-page"></a>Varolan sayfa için farklı bir düzen seçin
 
@@ -56,9 +57,10 @@ Varolan bir sayfa ile ilgili düzen oluşturmak için aşağıdaki adımları iz
 Varolan bir sayfaya farklı bir düzen seçmek için aşağıdaki adımları izleyin.
 
 1. **Sayfalara** gidin ve listede varolan sayfayı bulun. Arama özelliğini gereksinim duyduğunuz gibi kullanın.
-1. Sayfayı seçin, kullanıma alın ve onu açmak için seçin.
+1. Sayfayı seçin, kullanıma almak için **Düzenle**'yi seçin ve sonra açılacak sayfa adını seçin.
 1. **Düzeni değiştir**'i seçin.
 1. Sayfanın yeni düzenini seçin ve **Tamam**'ı seçin. Yeni düzeni göstermek için sayfa Düzenleyicisi yenilenir.
+1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

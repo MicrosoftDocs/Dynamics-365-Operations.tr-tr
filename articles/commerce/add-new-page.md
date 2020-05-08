@@ -3,7 +3,7 @@ title: Yeni site sayfası ekleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'e yeni bir site sayfası ekleme yöntemi açıklanmıştır .
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68461f1f0be46f979a67e1806e03c02200cf61db
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001358"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269970"
 ---
 # <a name="add-a-new-site-page"></a>Yeni site sayfası ekleme
 
@@ -67,7 +67,7 @@ Sitenize yeni site sayfası eklemek için şu adımları izleyin.
 1. **İçerik Zengin Blok** seçin, üç nokta düğmesini seçin ve sonra **Modül ekle**'yi seçin.
 1. **İçerik zengin bloğu öğesi**seçeneğini belirleyin ve **Tamam**'ı seçin.
 1. Sağdaki Özellikler bölmesinde, **paragraf**'ı seçin ve sonra alanına **test metnimi** girin.
-1. **Kaydet**i seçin ve sonra **Giriş**'i seçin.
+1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yorumlar** alanında **yeni sayfa eklendi** seçeneğini girin ve **Tamam**'ı seçin.
 1. Sayfanızın önizlemesini görüntülemek için **Önizleme**'yi seçin. Bitirdiğinizde, geliştirme aracına dönmek için Önizleme sekmesini kapatın.
 1. **Yayımla**'yı seçin.

@@ -3,7 +3,7 @@ title: 4xx/5xx durum kodu hataları için özel yanıt sayfaları oluşturma
 description: Bu konu, Microsoft Dynamics 365 Commerce'un yazma araçlarını kullanarak 4xx ve 5xx durum kodu hataları için özel yanıt sayfaları oluşturma yöntemini açıklamaktadır .
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4477a0a43971b5322c6acd6971cba2e79e2dc8c6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001165"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269556"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>4xx/5xx durum kodu hataları için özel yanıt sayfaları oluşturma
 
@@ -46,19 +46,21 @@ Durum kodu hata yanıtı sayfası oluşturmaya başlamak için aşağıdaki adı
 
 Durum kodu hata yanıtı sayfası oluşturmaya başlamak için aşağıdaki adımları izleyin.
 
-1. **Şablonlar \> Yeni şablon**a gidin.
-1. Yeni şablon adı verin.
+1. **Şablonlar**'a gidin.
+1. Yeni sayfa şablonu oluşturmak için **Yeni**'yi seçin.
+1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, yeni şablon için ad girin ve **Tamam**'ı seçin.
 1. Durum kodu hata yanıtı sayfasında olmasını istediğiniz yapıyı temel alarak şablonu oluşturun.
-1. Şablonu giriş yapın ve yayımlayın.
+1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin. 
 
 ### <a name="build-the-status-code-error-response-page"></a>Durum kodu oluştur hata yanıt sayfası
 
 Durum kodu hata yanıtı sayfası oluşturmak için aşağıdaki adımları izleyin.
 
-1. **Sayfalar \> Yeni Sayfa**ya gidin.
-1. Durum kodu hata yanıtı sayfasını adlandırın, ancak **URL** alanını **ayarlamayın**.
+1. **Sayfalar**'a gidin.
+1. Sayfa oluşturmak için **Yeni**'yi seçin.
+1. **Şablon seç** iletişim kutusunda bir şablon seçin ve sonra **Sayfa adı** altında, durum kodu hata yanıt sayfası için bir ad girin. **Sayfa URL**'si alanını boş bırakın.
 1. Sayfayı oluşturun.
-1. Sayfayı giriş yapın ve yayımlayın.
+1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 
 > [!NOTE]
 > 4xx ve 5xx durum kodu hataları için ayrı durum kodu hatası yanıtı sayfaları oluşturabilirsiniz. Alternatif olarak, her iki hata kategorisi için de aynı genel durum kodu hata yanıtı sayfasını kullanabilirsiniz.

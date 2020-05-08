@@ -3,7 +3,7 @@ title: Şablonlarla çalışma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta şablonlarla nasıl çalışılacağı açıklanmaktadır.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 815565dd203925fa0acca9336c4ddc56db8c4058
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002579"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269878"
 ---
 # <a name="work-with-templates"></a>Şablonlarla çalışma
 
@@ -132,14 +132,14 @@ Bir şablona komut eklemek için bu adımları izleyin.
 Şablon kaydetmek ve iade etmek için aşağıdaki adımları izleyin.
 
 1. Şablon Düzenleyicisinin üst kısmında **Kaydet**'i seçin. Kaydedilen değişiklikler, bu akış yönündeki sayfaları iade edilene kadar etkilemez.
-1. **Giriş yap** seçin. Değişiklikleriniz, aşağı akışlar için artık bulunabilir.
+1. **Düzenlemeyi bitir**'i seçin. Değişiklikleriniz, aşağı akışlar için artık bulunabilir.
 
 Değişikliklerinizin önizlemesine bakmak için, şablon kullanan varolan bir sayfayı açın veya şablondan yeni bir sayfa oluşturun.
 
 Değişiklik şablonda yapılan değişiklikleri önizledikten sonra, şablonu canlı sitenizde yayımlamak için aşağıdaki adımlardan birini izleyin:
 
 * **Şablonlara** gidin, şablonu seçin ve sonra **Yayınla**'yı seçin.
-* Şablon düzenleyicisinde **yayınla** 'yı seçin.
+* Düzen düzenleyicisini açmak için düzen açını ve ardından **Yayımla**'yı seçin.
 * Yayımlanmamış şablona başvuran bir sayfa yayımlayın. Şablon otomatik olarak yayımlanır.
 
 > [!WARNING]

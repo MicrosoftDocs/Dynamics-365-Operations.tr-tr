@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172820"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270300"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Çift yazmada aday müşteriden nakde
 
@@ -66,6 +66,14 @@ Satış teklifleri Sales veya Supply Chain Management'ta oluşturulabilir. Sales
 + Teklifte ürüne iskonto ekleyebilirsiniz. Bu durumda, iskonto Supply Chain Management ile eşitlenecektir. Başlıktaki **İskonto**, **Masraflar** ve **Vergi** alanları Supply Chain Management'taki bir ayar tarafından denetlenir. Bu kurulum hiçbir tümleştirme eşlemesini desteklemez. Bunun yerine **Fiyat**, **İskonto**, **Masraf** ve **Vergi** alanları Supply Chain Management'ta korunur ve işlenir.
 + Satış teklifi başlığındaki **İskonto %**, **İskonto** ve **Navlun Tutarı** alanları salt okunur alanlardır.
 + **Navlun koşulları**, **Teslimat koşulları**, **Sevkiyat yöntemi** ve **Teslimat şekli** alanları varsayılan eşlemelerin parçası değildir. Bu alanları eşlemek için, varlığın aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşleştirmesi ayarlamanız gerekir.
+
+Field Service çözümünü de kullanıyorsanız, **Teklif Satırı Hızlı Oluştur** parametresini yeniden etkinleştirdiğinizden emin olun. Parametrenin yeniden etkinleştirilmesi, hızlı oluştur işlevini kullanarak teklif satırları oluşturmaya devam etmenize olanak tanır.
+1. Dynamics 365 Sales uygulamanıza gidin.
+2. Üst gezinti çubuğunda ayarlar simgesini seçin.
+3. **Gelişmiş Ayarlar**'ı seçin.
+4. **Sistemi Özelleştir** seçeneğini belirleyin.
+5. **Teklif Satırı** menü öğesini seçin.
+6. **Veri Hizmetleri** bölümüne gidin ve **Hızlı oluşturmaya izin ver** onay kutusunu seçin.
 
 ## <a name="sales-orders"></a>Satış siparişleri
 

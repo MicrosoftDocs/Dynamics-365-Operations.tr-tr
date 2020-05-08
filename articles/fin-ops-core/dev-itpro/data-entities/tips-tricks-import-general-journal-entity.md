@@ -1,9 +1,9 @@
 ---
 title: Genel günlük varlığını kullanarak fişleri içeri aktarmaya yönelik en iyi uygulamalar
 description: Bu konuda, Yevmiye defteri varlığı kullanılarak Yevmiye defterine veri aktarmak için ipuçları verilmektedir.
-author: ShylaThompson
+author: rcarlson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 13ea54a6fc4ccdfbcc917b533fe9896d57bcb347
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769622"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281498"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Genel günlük varlığını kullanarak fişleri içeri aktarmaya yönelik en iyi uygulamalar
 
@@ -30,9 +30,9 @@ ms.locfileid: "2769622"
 
 Bu konuda, Yevmiye defteri varlığı kullanılarak Yevmiye defterine veri aktarmak için ipuçları verilmektedir.
 
-**Genel Muhasebe, Müşteri, Satıcı veya Banka** türünde hesabı veya mahsup hesabı olan fişleri içe aktarmak için Yevmiye defteri varlığını kullanabilirsiniz. Fiş **Hesap** alanı ve **Mahsup hesap** alanı birlikte kullanılarak tek satır halinde girilebileceği gibi, yalnızca **Hesap** alanı kullanılarak (ve **Mahsup hesap** alanı her satırda boş bırakılarak) çok satırlı fiş halinde girilebilir. Yevmiye defteri varlığı her hesap türünü desteklemez. Bunun yerine, hesap türlerinin farklı birleşimlerini gerektiren senaryolar için diğer varlıklar mevcuttur. Örneğin, bir proje hareketini içe aktarmak için Proje gider günlüğü varlığını kullanın. Her bir varlık belirli senaryoları desteklemek üzere tasarlanmıştır. Bu, bazı senaryolar için varlıklarda kullanılabilen ek alanların farklı bir senaryonun varlıklarında kullanılamayabileceği anlamına gelir.
+**Genel Muhasebe**, **Müşteri**, **Satıcı** veya **Banka** türünde hesabı veya mahsup hesabı olan fişleri içe aktarmak için Genel muhasebe günlüğü varlığını kullanabilirsiniz. Fiş **Hesap** alanı ve **Mahsup hesap** alanı birlikte kullanılarak tek satır halinde girilebileceği gibi, yalnızca **Hesap** alanı kullanılarak (ve **Mahsup hesap** alanı her satırda boş bırakılarak) çok satırlı fiş halinde girilebilir. Yevmiye defteri varlığı her hesap türünü desteklemez. Bunun yerine, hesap türlerinin farklı birleşimlerini gerektiren senaryolar için diğer varlıklar mevcuttur. Örneğin, bir proje hareketini içe aktarmak için Proje gider günlüğü varlığını kullanın. Her varlık belirli senaryoları destekleyecek şekilde tasarlanmıştır. Bu, bu senaryolar için varlıklarda ek alanların kullanılabileceği anlamına gelir. Ancak, farklı senaryolar için varlıklarda ek alanlar kullanılamayabilir.
 
-## <a name="setup"></a>Kurulum
+## <a name="setup"></a>Ayar
 Yevmiye defteri varlığını kullanarak içe aktarmadan önce aşağıdaki ayarı doğrulayın:
 
 - **Günlük toplu iş numarası için numara serisi ayarı**: Varsayılan olarak Yevmiye defteri varlığını kullanarak içe aktardığınızda günlük toplu iş numarası Genel muhasebe parametrelerinde tanımlanan numara serisini kullanır. Günlük toplu iş numarası için numara serisini **El ile** olarak ayarlarsanız varsayılan sayı uygulanmaz. Bu ayar desteklenmez.
@@ -44,7 +44,7 @@ Veri yönetimindeki iki ayar varsayılan günlük toplu iş numarasının veya f
 - **Ayarlama tabanlı işlem** (veri varlığında)
 - **Otomatik oluşturulan** (alan eşlemesinde)
 
-Aşağıdaki bölümlerde bu ayarların etkisi ve ayrıca günlük toplu iş numaraları ve fiş numaralarının nasıl oluşturulduğu açıklanır.
+Aşağıdaki bölümlerde bu ayarların etkileri açıklanmaktadır. Ayrıca, sistemin günlükler ve fiş numaraları için toplu iş numaralarını nasıl oluşturduklarını da açıklar.
 
 ### <a name="journal-batch-number"></a>Günlük toplu iş numarası
 
@@ -57,10 +57,10 @@ Aşağıdaki bölümlerde bu ayarların etkisi ve ayrıca günlük toplu iş num
 
 ### <a name="voucher-number"></a>Fiş numarası
 
-- Yevmiye defteri varlığı üzerindeki **Ayarlama tabanlı işlem** ayarını kullandığınızda fiş numarası içe aktarılan dosyada sağlanmalıdır. Fiş dengeli değilse bile Yevmiye defterindeki her hareket içe aktarılan dosyada sağlanan fiş numarasına atanır. Ayarlama tabanlı işlemi kullanmak istiyor ancak ayrıca fiş numaraları için tanımlanan numara serisini de kullanmak istiyorsanız Şubat 2016 sürümü için bir düzeltme sağlanmıştır. Düzeltme numarası 3170316 olup Lifecycle Services (LCS) altından indirilerek kullanılabilir. Daha fazla bilgi için bkz. [Lifecycle Services'den (LCS) güncelleştirme indirme](../migration-upgrade/download-hotfix-lcs.md).
+- Yevmiye defteri varlığı üzerindeki **Ayarlama tabanlı işlem** ayarını kullandığınızda fiş numarası içe aktarılan dosyada sağlanmalıdır. Fiş dengeli değilse bile Yevmiye defterindeki her hareket içe aktarılan dosyada sağlanan fiş numarasına atanır. Ayarlama tabanlı işlemi kullanmak istiyor ancak ayrıca fiş numaraları için tanımlanan numara serisini de kullanmak istiyorsanız aşağıdaki noktaları dikkate alın.
 
     - İçe aktarmalar için kullanılan günlük adı üzerinden bu işlevleri etkinleştirmek için **Deftere nakil sırasında numara tahsisi** için **Evet** ayarını yapın.
-    - Fiş numarası yine de içe aktarılan dosyada tanımlanmalıdır. Ancak bu sayı geçicidir ve günlük nakledildiğinde fiş numarası ile üzerine yazılır. Günlük satırlarının geçici fiş numarası ile doğru bir şekilde gruplandırıldığından emin olmanız gerekir. Örneğin, deftere nakil işlemi sırasında geçici fiş numarası 1 olan üç satır bulunur. Üç satırın hepsinin geçici fiş numarası, numara serisindeki sonraki numarayla değiştirilir. Bu üç satır dengeli giriş değilse, fiş nakledilmez. Geçici fiş numarası 2 olan satırlar varsa, daha sonra bu sayı sonraki fiş numarası ile numara serisi vb. üzerine yazılır.
+    - Fiş numarası yine de içe aktarılan dosyada tanımlanmalıdır. Ancak bu sayı geçicidir ve günlük nakledildiğinde fiş numarası ile üzerine yazılacaktır. Günlük satırlarının geçici fiş numarası ile doğru bir şekilde gruplandırıldığından emin olmanız gerekir. Örneğin, deftere nakil işlemi sırasında geçici fiş numarası 1 olan üç satır bulunur. Üç satırın hepsinin geçici fiş numarası, numara serisindeki sonraki numarayla değiştirilir. Bu üç satır dengeli giriş değilse, fiş deftere nakledilmez. Geçici fiş numarası 2 olan satırlar varsa, daha sonra bu sayı sonraki fiş numarası ile sırası vb. üzerine yazılır.
 
 - **Ayarlama tabanlı işlem** ayarını kullanmadığınızda içe aktarılan dosyada fiş numarası sağlamanız gerekmez. Fiş numaraları günlük adı ayarına göre içe aktarım sırasında oluşturulur (**Yalnızca bir fiş**, **Bakiye ile bağlantılı olarak** vb). Örneğin, bir günlük adı **Bakiye ile bağlantılı olarak** tanımlanırsa ilk satır yeni bir varsayılan fiş numarası alır. Sistem daha sonra alacakların borçlara eşit olup olmadığını belirlemek için satırı değerlendirir. Satırda bir mahsup hesabı varsa içe aktarılan bir sonraki satır yeni bir fiş numarası alır. Hiçbir mahsup hesabı yoksa sistem her yeni satır içe aktarıldığında alacakların borçlara eşit olup olmadığını değerlendirir.
 - **Fiş numarası** alanı **Otomatik oluşturulan** olarak ayarlanırsa içe aktarma başarılı olmayacaktır. **Fiş numarası** alanı için **Otomatik oluşturulan** ayarı desteklenmez.

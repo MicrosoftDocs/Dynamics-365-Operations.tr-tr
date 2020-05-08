@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a09b90c19d8d4fe5d08abc892ed0c42d9d4592d8
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a594bacb1fcf53ae4a278dbb26f1de174e22288c
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211733"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275614"
 ---
 # <a name="schedule-work-orders"></a>İş emirlerini planla
 
@@ -102,14 +102,14 @@ Hizmet düzeyi puanı '5' yerine '100'e artırılırsa, planlama sırası şöyl
 
 İş emirlerinde hangi bakım çalışanlarının çalışması gerektiğini hesaplamayla ilgili derecelendirme puanları, iş emri planlama sırasında her bakım çalışanı hesaplamasına eklenen sayılar olarak ayarlanır. En yüksek puana sahip bakım çalışanı iş emrinde seçilir. Aşağıda, bakım çalışan puanlarının kısa bir açıklaması yer alır:
 
-| Bakım görevlisi puanı       | Tanım                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sorumlu çalışan | Bakım çalışanı iş emrinde sorumlu çalışan olarak seçilirse, puan eklenir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Sorumlu bakım görevlisi grubu | Bakım çalışanı iş emrinde sorumlu bakım çalışanı grubunun bir parçası olarak seçilirse, puan eklenir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Tercih edilen bakım görevlisi         | Bakım çalışanı varlıkta tercih edilen bakım çalışanı olarak seçilirse, puan eklenir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Tercih edilen bakım görevlisi grubu   | Bakım çalışanı varlıkta tercih edilen bakım çalışanı grubunun bir parçası olarak seçilirse, puan eklenir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Konum                 | Şirketiniz işlem yapılacak yerleşimleri kullanıyorsa bakım çalışanları varlıkla ilgili işlem yapılacak yerleşimde bulunuyorsa tam puan alırlar. Varlığın işlem yapılacak yerleşiminin üst yerleşimi varsa bu işlem yapılacak yerleşimdeki bakım çalışanları 1/2 puan alır. Bu yerleşimin de üst öğesi varsa bu yerleşimdeki bakım çalışanları 1/3 puan alır. Bu yerleşimin de bir üst öğesi varsa bu yerleşimdeki bakım çalışanları 1/4 puan alır ve hesaplama bu şekilde devam eder. Şirketiniz kıymet yerleşimini kullanıyorsa yerleşim puanlarını hesaplamak için yerleşim, alan ve bölge kullanılır. Bu ayarın kullanılmasını önermeyiz. Çalışanlar kıymetle ilgili yerleşim ve alan ve bölgede bulunuyorsa tam puan alır. Çalışan yerleşimi yalnızca yerleşim ve alanla eşleşiyorsa bu bakım çalışanının derecelendirme puanı tam puanın 2/3'ü olur. Bakım çalışanı yerleşimi yalnızca yerleşimle eşleşiyorsa bu bakım çalışanının derecelendirme puanı tam puanın 1/3'ü olur. |
-| Çalışanın başlama tarihi               | Planlanan başlangıç tarihinin, beklenen başlangıç tarihinden sonra olduğu her tarih için puan çıkarılır.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Bakım görevlisi puanı| Tanım |
+|---|---|
+| Sorumlu çalışan | Bakım çalışanı iş emrinde sorumlu çalışan olarak seçilirse, puan eklenir. |
+| Sorumlu bakım görevlisi grubu | Bakım çalışanı iş emrinde sorumlu bakım çalışanı grubunun bir parçası olarak seçilirse, puan eklenir. |
+| Tercih edilen bakım görevlisi         | Bakım çalışanı varlıkta tercih edilen bakım çalışanı olarak seçilirse, puan eklenir. |
+| Tercih edilen bakım görevlisi grubu   | Bakım çalışanı varlıkta tercih edilen bakım çalışanı grubunun bir parçası olarak seçilirse, puan eklenir.  |
+| Konum  | Şirketiniz işlem yapılacak yerleşimleri kullanıyorsa bakım çalışanları varlıkla ilgili işlem yapılacak yerleşimde bulunuyorsa tam puan alırlar. Varlığın işlem yapılacak yerleşiminin üst yerleşimi varsa bu işlem yapılacak yerleşimdeki bakım çalışanları 1/2 puan alır. Bu yerleşimin de üst öğesi varsa bu yerleşimdeki bakım çalışanları 1/3 puan alır. Bu yerleşimin de bir üst öğesi varsa bu yerleşimdeki bakım çalışanları 1/4 puan alır ve hesaplama bu şekilde devam eder. Şirketiniz kıymet yerleşimini kullanıyorsa yerleşim puanlarını hesaplamak için yerleşim, alan ve bölge kullanılır. Bu ayarın kullanılmasını önermeyiz. Çalışanlar kıymetle ilgili yerleşim ve alan ve bölgede bulunuyorsa tam puan alır. Çalışan yerleşimi yalnızca yerleşim ve alanla eşleşiyorsa bu bakım çalışanının derecelendirme puanı tam puanın 2/3'ü olur. Bakım çalışanı yerleşimi yalnızca yerleşimle eşleşiyorsa bu bakım çalışanının derecelendirme puanı tam puanın 1/3'ü olur. |
+| Çalışanın başlama tarihi  | Planlanan başlangıç tarihinin, beklenen başlangıç tarihinden sonra olduğu her tarih için puan çıkarılır.  |
 
 >[!NOTE]
 >Puan "0" olarak ayarlanmışsa, bu puan hesaplanmaz. Bu, örneğin, sorumlu çalışanı planlamaya dahil etmek istemediğinizde yararlıdır.
@@ -120,3 +120,21 @@ Yetenekler ve sertifika gereksinimleri bakım işi türlerinde (**Varlık yönet
 
 Bakım işi türleri ve bakım işi görevleri iş emri işlerinde seçilir. Bir bakım iş türü veya bakım işi görevinde yetenekler veya sertifikalar seçilmişse ve bu bakım iş türü veya bakım işi görevi bir iş emri işinde kullanılıyorsa, yalnızca eşleşen becerilere ve sertifikalara sahip olan bakım çalışanları iş emrinde çalışmak üzere planlanır.
 
+<a name="gantt"></a>
+
+## <a name="work-with-scheduled-work-orders-using-a-gantt-chart"></a>Gantt şeması kullanarak planlanan iş emirleri ile çalışma
+
+**Planlanan iş emirleri gantt şeması**, iş emirlerinizi görüntüleyebileceğiniz ve yeniden planlayabileceğiniz bir grafik arabirim sağlar.
+
+Gantt şemasını görüntülemek ve çalışmak için:
+
+1. **Varlık yönetimi > İş emirleri > Planlanan iş emirleri gantt şeması**'na gidin.
+
+1. Gantt şemasında gösterilecek işlem yapılacak yerleşimi, zaman aralığını ve zaman ölçeğini ayarlamak için **Ayarlar** bölümündeki açılır listeleri ve alanları kullanın.
+
+1. **Uygula**'yı seçin.
+
+    - Gantt şeması, ayarlarınızla eşleşen planlanmış iş emirlerini göstermek için güncelleştirilir. Her iş emri mavi bir dikdörtgenle temsil edilir.
+    - Görüntülenen bir iş emrini yeniden planlamak için, bunu seçip uygun yeni tarih ve saate sürükleyin.
+
+1. Herhangi bir değişiklik yaptıysanız, bunları kaydetmek için eylem bölmesinde **Kaydet**'i seçin.

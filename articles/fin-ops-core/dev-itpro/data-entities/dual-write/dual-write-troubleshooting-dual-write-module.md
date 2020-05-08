@@ -1,5 +1,5 @@
 ---
-title: Finance and Operations uygulamalarında Çift yazma modülüyle ilgili sorunları giderme
+title: Finance and Operations uygulamalarında çift yazma modülüyle ilgili sorunları giderme
 description: Bu konu, Finance and Operations uygulamalardaki çift-yazma modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -19,39 +19,34 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 34c10e38400a72a670a93f2a72d0aa7a4aed561a
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 853791d5ffc1d92b9fbafa2acc13cd5543c38196
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172772"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275545"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Finance and Operations uygulamalarında Çift yazma modülüyle ilgili sorunları giderme
+# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Finance and Operations uygulamalarında çift yazma modülüyle ilgili sorunları giderme
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Bu konu, Finance and Operations uygulamaları ve Common Data Service arasında çift yazma tümleştirme hakkında sorun giderme bilgileri sağlar. Bu konu, Finance and Operations uygulamalardaki **çift-yazma** modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
 
 > [!IMPORTANT]
 > Bu konu adresiyle ilgili bazı sorunların sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Çift-yazılır modülü bir Finance and Operations uygulamaya yüklenemez
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Çift yazma modülü bir Finance and Operations uygulamaya yüklenemez
 
 **Çift- yazılır** sayfayı, **veri yönetimi** çalışma alanında **ikili yazma** kutucuğunu seçerek açamazsınız, veri tümleştirme hizmeti büyük olasılıkla çalışmıyor olabilir. Veri tümleştirme hizmetinin yeniden başlatılmasını istemek için bir destek bileti oluşturun.
 
-## <a name="error-when-you-try-to-create-a-new-entity-mapping"></a>Yeni bir varlık eşlemesi oluşturmaya çalıştığınızda hata oluştu
+## <a name="error-when-you-try-to-create-a-new-entity-map"></a>Yeni bir varlık eşlemesi oluşturmaya çalıştığınızda hata oluştu
 
-**Sorunun düzeltilmesi için gerekli olan kimlik bilgileri:** Azure AD Kiracı Yönetimi
+**Sorunu düzeltmek için gerekli kimlik bilgileri:** Çift yazma kurulumu yapan aynı kullanıcı.
 
-Çift-yazılır için yeni bir varlık yapılandırmaya çalıştığınızda aşağıdaki hata iletisini alabilirsiniz:
+Çift yazma için yeni bir varlık yapılandırmaya çalıştığınızda aşağıdaki hata iletisini alabilirsiniz. Eşleme oluşturabilecek tek kullanıcı, çift yazma bağlantısını kuran kullanıcıdır.
 
 *Yanıt durum kodu başarıyı göstermiyor: 401 (yetkisiz)*
 
-Bu hata, yalnızca bir Azure AD kiracı yöneticisinin yeni bir varlık eşlemesi ekleyebilmesi nedeniyle oluşur.
-
-Bu sorunu gidermek için, Finance and Operations uygulamaya Azure AD yönetici kiracısı olarak oturum açın. Ayrıca Web.PowerApps.com'e gitmelisiniz ve bağlantınızı yeniden doğrular.
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>İkili yazma Kullanıcı arabirimini açtığınızda hata oluştu
 
@@ -63,13 +58,13 @@ Sorunu gidermek için, Microsoft Edge'de bir InPrivate pencere, Chromium'da bir 
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-entity-mapping"></a>Ortam ikili yazma için bağlantılandırma sırasında hata oluştu veya yeni bir varlık eşlemesi ekler
 
-**Sorunun düzeltilmesi için gerekli olan kimlik bilgileri:** Azure AD Kiracı Yönetimi
+**Sorunu düzeltmek için gereken rol:** Hem Finance and Operations uygulamalarında hem de Common Data Service'ta sistem yöneticisi.
 
 Haritaları bağlarken veya oluştururken aşağıdaki hata ile karşılaşabilirsiniz:
 
 *Yanıt durum kodu başarı göstermiyor: 403 (tokenexchange). <br>Oturum kodu: \<oturum kimliği\><br> kök etkinlik kimliği: \<kök etkinlik kimliğiniz\>*
 
-Bu hata, Çift-yazılabilir veya haritalar oluşturmak için yeterli izniniz yoksa oluşabilir. Ortamları bağlamak ve yeni Azure AD varlık eşlemeleri eklemek için kiracı yöneticisi hesabı kullanmalısınız. Ancak, kurulumdan sonra, durumu izlemek ve eşlemeleri düzenlemek için yönetici olmayan bir hesabı kullanabilirsiniz.
+Bu hata, Çift-yazılabilir veya haritalar oluşturmak için yeterli izniniz yoksa oluşabilir. Bu hata, Common Data Service ortamı çift yazma bağlantısını kaldırmadan sıfırlanırsa da oluşabilir. Hem Finance and Operations uygulamaları hem de Common Data Service'ta sistem yöneticisi rolüne sahip herhangi bir kullanıcı ortamları bağlayabilir. Yalnızca çift yazma yazılır bağlantısını kuran kullanıcı yeni varlık eşlemeleri ekleyebilir. Kurulumdan sonra, sistem yöneticisi rolüne sahip tüm kullanıcılar durumu izleyebilir ve eşlemeleri düzenleyebilir.
 
 ## <a name="error-when-you-stop-the-entity-mapping"></a>Varlık eşlemesini durdurduğunuzda hata oluştu
 
@@ -80,3 +75,14 @@ Varlık eşlemelerini durdurmayı denediğinizde aşağıdaki hata iletisini ala
 Bu hata, bağlı Common Data Service ortam kullanılabilir olmadığında oluşur.
 
 Bu sorunu gidermek için, veri tümleştirme ekibi için bir bilet oluşturun. Veri tümleştirme ekibinin eşlemeleri arka uçta **çalışmıyor** olarak işaretlemesi için ağ izlemesini iliştirin.
+
+## <a name="error-while-trying-to-start-an-entity-mapping"></a>Bir varlık eşlemesi başlatılmaya çalışılırken hata
+
+Bir eşlemenin o durumunu **Çalıştırma** olarak ayarlamaya çalıştığınızda aşağıdakine benzer bir hata alabilirsiniz:
+
+*İlk veri eşitlemesi tamamlanamıyor. Hata: Çift yazma hatası - eklenti kaydı başarısız oldu: Çift yazma arama meta verileri oluşturulamadı. Hata nesne başvurusu bir nesnenin örneğine ayarlanmadı.*
+
+Bu hata için düzeltme hatanın nedenine bağlıdır:
+
++ Eşlemeye bağımlı eşlemeler varsa, bu varlık eşlemesinin bağımlı eşlemelerini etkinleştirdiğinizden emin olun.
++ Eşlemede kaynak veya hedef alanlar eksik olabilir. Finance and Operations uygulamalarında bir alan eksikse, [Eşlemelerde eksik varlık alanları sorunu](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps) bölümlerindeki adımları izleyin. Common Data Service'taki bir alan eksikse, alanların otomatik olarak eşlemeye geri doldurulması için eşlemede **Varlıkları yenile** düğmesine tıklayın.

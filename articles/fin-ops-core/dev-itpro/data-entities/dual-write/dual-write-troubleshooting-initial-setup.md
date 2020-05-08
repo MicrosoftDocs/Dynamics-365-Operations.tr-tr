@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e20c9c5e1250c8e65b5642a7c45d7ae859315697
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172680"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275453"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Başlangıç kurulumu sırasında sorunları giderme
 
@@ -39,7 +39,7 @@ Bu konu, Finance and Operations uygulamaları ve Common Data Service arasında �
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>Bir Finance and Operations uygulamayı Common Data Service'e bağlayamazsınız
 
-**Çift-yazılabilir ayarlamak için gerekli olan kimlik bilgileri:** Azure AD Kiracı Yöneticisi
+**Çift yazmayı ayarlamak için gereken rol:** Finance and Operations uygulamalarında ve Common Data Service'ta sistem yöneticisi.
 
 **Common Data Service'e bağlantı kur** sayfa üzerindeki hatalar genellikle tamamlanmamış kurulum veya izin sorunlarından kaynaklanır. Aşağıdaki çizimde gösterildiği gibi, tüm sistem durumu denetiminin **Common Data Service'e bağlantı kur** sayfası üzerinden geçerken emin olun. Tüm sistem durumu denetimi başarılı olmadıkça çift-yazma bağlantısı yapamazsınız.
 

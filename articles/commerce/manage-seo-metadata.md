@@ -3,7 +3,7 @@ title: SEO meta verilerini yönetme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta arama motoru optimizasyonu (SEO) meta verilerinin nasıl yönetileceği açıklanmaktadır.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e7da7bf5c473746413e92babfa943f546b7724d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003476"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270062"
 ---
 # <a name="manage-seo-metadata"></a>SEO meta verilerini yönetme
 
@@ -72,13 +72,10 @@ Sayfa meta verilerini değiştirmek için aşağıdaki adımları izleyin.
 1. **Siteler** altında, **Fabrikam**'ı seçin (veya sitenizin adını).
 1. Soldaki gezinti bölmesinde **Sayfalar** seçin.
 1. Sayfa düzenleyicisinde açmak için giriş sayfasını seçin.
-1. Eylem Bölmesinde, **Çıkış yap** öğesini seçin.
+1. Komut çubuğunda, **Düzenle** öğesini seçin.
 1. Sağdaki özellikler bölmesinde, **Varsayılan meta verileri** genişletin.
-1. Yeni bir metaetiketi eklemek için, **Ekle**'yi seçin ve alana etiketi girin.
-
-    Varolan bir meta etiketi kaldırmak için, sağ tarafta bulunan çöp tenekesi sembolünü seçin.
-
-1. **Kaydet**i seçin ve sonra **Giriş**'i seçin.
+1. Yeni bir metaetiketi eklemek için, **Ekle**'yi seçin ve alana etiketi girin. Varolan bir meta etiketi kaldırmak için, sağ tarafta bulunan çöp tenekesi sembolünü seçin.
+1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yorumlar** alanında **Güncellenen meta etiketler** seçeneğini girin ve **Tamam**'ı seçin.
 1. Sayfanızın önizlemesini görüntülemek için **Önizleme**'yi seçin. Bitirdiğinizde, geliştirme aracına dönmek için Önizleme sekmesini kapatın.
 1. **Yayımla**'yı seçin.

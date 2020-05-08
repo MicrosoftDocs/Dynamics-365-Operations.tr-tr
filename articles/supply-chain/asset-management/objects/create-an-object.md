@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f734def69ff50549acae1506015ce9b23a1b8a93
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5c77f32caad5e2e79cbc0e21f72a3daa79acecb
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209916"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274177"
 ---
 # <a name="create-an-asset"></a>Varlık oluşturma
 
@@ -38,13 +38,13 @@ Bu konuda Varlık Yönetimi'nde varlık oluşturma işlemi açıklanmaktadır.
 3. **Varlık oluştur** iletişim kutusunda, **Varlık** ile ilgili bilgileri (varlık kodu) ve varlık adını girin. **Etkin** alanında varlık için tarih ve saat seçin. Bu tarihten itibaren, varlığı işlem yapılacak bir yerleşime yükleyebilir ve varlığı bir varlık yapısında taşıyabilir ve değiştirebilirsiniz.
 4. **Varlık türü** alanında, varlık için varlık türünü seçin (zorunlu alan). Gerekirse, varlık için **Varlık üreticisi** ve **Varlık modeli**'ni seçin. Yalnızca bir ürün ayarlanmışsa, bu ürün **Varlık üreticisi** alanında otomatik olarak seçilir. **Varlık üreticisi** ve **Varlık modeli** alanlarındaki kullanılabilir seçimler, [Varlık üreticileri ve modelleri](../setup-for-objects/product-and-model.md)'ndeki ayara bağlıdır.
 5. **Üst varlık** grubunda, **Varlık** alanı varsayılan olarak boştur. Gerekirse, bir üst varlık seçebilirsiniz. Bu durumda **Üst varlık** grubundaki tüm alanlar otomatik olarak doldurulur
->[!NOTE]  
->Bir üst varlık seçtiğinizde, kullanılabilir iki veya üç sekme bulunur: **Varlıklarım** sekmesi, tahsis edilebileceğiniz (sistemde oturum açan bakım çalışanı) işlem yapılacak yerleşimlerle ilgili varlıkları içerir. [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) formundaki bir bakım görevlisi için ayarlanmış bir işlem yapılacak yerleşim yoksa **Varlıklarım** sekmesi görünmez. **Etkin varlıklar** sekmesi, varlık yaşam döngüsü durumu "Etkin" olan tüm varlıkların listesini içerir. **Varlık görünümü** sekmesi, işlem yapılacak yerleşimlerin ve bu yerleşimlerde kurulu olan varlıkların ağaç görünümünü gösterir.
+    >[!NOTE]  
+    >Bir üst varlık seçtiğinizde, kullanılabilir iki veya üç sekme bulunur: **Varlıklarım** sekmesi, tahsis edilebileceğiniz (sistemde oturum açan bakım çalışanı) işlem yapılacak yerleşimlerle ilgili varlıkları içerir. [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md) formundaki bir bakım görevlisi için ayarlanmış bir işlem yapılacak yerleşim yoksa **Varlıklarım** sekmesi görünmez. **Etkin varlıklar** sekmesi, varlık yaşam döngüsü durumu "Etkin" olan tüm varlıkların listesini içerir. **Varlık görünümü** sekmesi, işlem yapılacak yerleşimlerin ve bu yerleşimlerde kurulu olan varlıkların ağaç görünümünü gösterir.
 
 6. Ayarladığınız varsayılan işlem yapılacak yerleşim **Varlık** grubu > **İşlem yapılacak yerleşim** alanındaki varlık için önerilir. Gerekirse başka bir işlem yapılacak yerleşim seçin.
 
->[!NOTE]
->Bir varlık oluşturduktan sonra, gerekirse varlığı başka bir işlem yapılacak yerleşime yükleyebilirsiniz. Yalnızca üst düzey varlıklar (geçerli üst varlığı bulunmayan varlıklar) işlem yapılacak yerleşime yüklenebilir. Bu, seçili işlem yapılacak yerleşime üst düzey ve alt düzey varlıkları yüklediğiniz anlamına gelir. Varlıkları, işlem yapılacak yerleşimlere yükleme hakkında daha fazla bilgi için [İşlem yapılacak yerleşimlere giriş](../functional-locations/introduction-to-functional-locations.md) bölümüne bakın.
+    >[!NOTE]
+    >Bir varlık oluşturduktan sonra, gerekirse varlığı başka bir işlem yapılacak yerleşime yükleyebilirsiniz. Yalnızca üst düzey varlıklar (geçerli üst varlığı bulunmayan varlıklar) işlem yapılacak yerleşime yüklenebilir. Bu, seçili işlem yapılacak yerleşime üst düzey ve alt düzey varlıkları yüklediğiniz anlamına gelir. Varlıkları, işlem yapılacak yerleşimlere yükleme hakkında daha fazla bilgi için [İşlem yapılacak yerleşimlere giriş](../functional-locations/introduction-to-functional-locations.md) bölümüne bakın.
 
 7. **Tamam**'a tıklayın.
 8. **Tüm Varlıklar** listesinde varlığı seçin ve varlığa daha fazla bilgi eklemek için **Düzenle** düğmesine tıklayın.

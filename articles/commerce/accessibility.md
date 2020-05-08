@@ -3,7 +3,7 @@ title: Erişilebilirlik özellikleri ve yetenekleri
 description: Bu konu, Microsoft Dynamics 365 Commerce'ın erişilebilirlik özellikleri ve yeterlilikler hakkında bilgi sağlar.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3edc6250dd5438be31d80a9d6b0f3b730438ca53
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6f6bca3589da4055eef000fc3b2c88b93eabb4d5
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001772"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274200"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Erişilebilirlik özellikleri ve yetenekleri
 
@@ -49,7 +49,7 @@ Dynamics 365 Commerce dijital varlık yönetimi sistemi, video içeriği için b
 
 | Video özelliği               | Tanım |
 |-----------------------------|-------------|
-| Kapalı açıklamalı alt yazı (CC)      | İşitme güçlüğü çeken kullanıcılara yardımcı olmak amacıyla, bir videonun ses ve ses tanımlayıcı öğeleri için gösterilebilecek metin |
+| Kapalı açıklamalı alt yazı (CC)      | İşitme engelli veya işitme güçlüğü çeken kullanıcılara yardımcı olmak amacıyla, bir videonun ses ve ses tanımlayıcı öğeleri için gösterilebilecek metin |
 | Alt başlıklar                   | Bağlam ipuçları veya iletişim kutusu metnini ekranda gösteren başlık dosyaları |
 | Ses transkriptleri           | Bir videonun sesinden üretilen konuşulan sözcüklerin metin dökümü kodu |
 | Açıklama sesi           | Ekranda oluşan içeriği veya bağlamı açıklayan birincil olmayan ses kanalı |
@@ -57,7 +57,7 @@ Dynamics 365 Commerce dijital varlık yönetimi sistemi, video içeriği için b
 
 ### <a name="configure-video-accessibility-elements"></a>Video erişilebilirlik öğelerini konfigüre etme
 
-Dynamics 365 Commerce'te sitenizin **Varlıklar** bölümünde, Kapalı açıklamalı alt yazılar, normal ses ve tanımlayıcı ses için ayrı dosyalar bulunan video varlıklarını karşıya yükleyebilirsiniz. Bir video varlığı karşıya yüklendiğinde, Kapalı açıklamalı alt yazılar da otomatik olarak oluşturulabilir.
+Commerce'ta sitenizin **Ortam Kitaplığı** bölümünde, Kapalı açıklamalı alt yazılar, normal ses ve tanımlayıcı ses için ayrı dosyalar bulunan video varlıklarını karşıya yükleyebilirsiniz. Bir video varlığı karşıya yüklendiğinde, Kapalı açıklamalı alt yazılar da otomatik olarak oluşturulabilir.
 
 #### <a name="generate-or-upload-closed-caption-files-during-video-asset-upload"></a>Video varlığı karşıya yüklemesi sırasında kapalı açıklamalı altyazı dosyaları oluştur veya karşıya yükler
 
@@ -72,7 +72,7 @@ Video yüklediğinizde, Kapalı açıklamalı alt yazı dosyasını manuel yükl
 Videonun normal ses veya tanımlayıcı ses dosyalarını karşıya yüklemek için, **Varlık karşıya yükle** iletişim kutusunda dosya seçicisini kullanın.
 
 > [!NOTE]
-> Video varlığı karşıya yüklendikten sonra kapalı açıklamalı altyazı, normal ses ve tanımlayıcı ses varlıkları da eklenebilir. **Varlıklara** gidin, video varlığını seçin ve teslim edin ve sonra video kıymete ait Özellikler bölmesinde ek kıymetleri karşıya yükleyin.
+> Video varlığı karşıya yüklendikten sonra kapalı açıklamalı altyazı, normal ses ve tanımlayıcı ses varlıkları da eklenebilir. **Ortam Kitaplığı**'na gidin, video varlığını seçin ve kullanıma almak için **Düzenle**'yi seçin. Sonra video varlığının özellikler bölmesinde ek varlıkları karşıya yükleyin.
 
 #### <a name="edit-cc-and-audio-transcript-files"></a>Bilgi ve sesli Transkript dosyalarını Düzenle
 
@@ -80,10 +80,10 @@ CC ve sesli Transkript dosyaları doğrudan geliştirme aracında düzenlenebili
 
 Bilgi ve ses dökümü dosyalarını düzenlemek için aşağıdaki adımları izleyin.
 
-1. **Varlıklara** gidin, video varlığını seçin ve sonra **Düzenle CC/Transkript**'i seçin. Kapalı açıklamalı alt başlık ve Transkript içeriği Düzenleyicisi görünür.
-1. **Ödeme yap** seçin.
+1. **Ortam Kitaplığı**'na gidin ve video varlığının dosya adını seçin. Kapalı açıklamalı alt başlık ve Transkript içeriği Düzenleyicisi görünür.
+1. **Düzenle** öğesini seçin.
 1. Kapalı açıklamalı alt yazı veya transkript metnini Düzenle.
-1. Bitirdiğinizde **Kaydet**'i seçin ve sonra **Giriş**'i seçin.
+1. Bitirdiğinizde **Kaydet**'i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. Yayımlamaya hazır olduğunuzda **yayınla**'yı seçin.
 
 #### <a name="set-the-minimum-age-attribute"></a>Minimum yaş özniteliğini ayarla
@@ -92,8 +92,8 @@ Bilgi ve ses dökümü dosyalarını düzenlemek için aşağıdaki adımları i
 
 Bir video kıymetin **minimum yaş** özniteliğini ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Varlıklara** gidin ve video varlığını seçin.
-1. **Ödeme yap** seçin.
+1. **Ortam Kitaplığı**'na gidin ve video varlığını seçin.
+1. **Düzenle** öğesini seçin.
 1. Video kıymetin Özellikler bölmesinde, **minimum yaş** özniteliğini ayarlayın.
 
 > [!NOTE]
@@ -109,6 +109,8 @@ Bir video kıymetin **minimum yaş** özniteliğini ayarlamak için aşağıdaki
 
 [Uyumluluğa genel bakış](compliance-overview.md)
 
-[Çerez uyumluluğu](cookie-compliance.md)
+[Tanımlama bilgisi uyumluluğu](cookie-compliance.md)
 
-[Gizlilik ilkesi sayfası ekle](add-privacy-page.md)
+[Gizlilik ilkesi sayfası ekleme](add-privacy-page.md)
+
+[İzlenen içerik değişiklikleriyle ilişkili kullanıcı kimliklerini değiştirme](replace-IDs-tracked-changes.md)

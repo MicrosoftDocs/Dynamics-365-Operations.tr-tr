@@ -3,7 +3,7 @@ title: Bakım talebi yaşam döngüsü durumları
 description: Bu konuda Kıymet Yönetimi'nde bakım talebi yaşam döngüsü durumları ayarlama işlemi açıklanmaktadır.
 author: josaw1
 manager: tfehr
-ms.date: 07/26/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1e4412af0619b57467b5bcba75ea7259604d1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209019"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275638"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Bakım talebi yaşam döngüsü durumları
 
@@ -44,10 +44,10 @@ Bakım talebi yaşam döngüsü durumları bir isteğin gidebileceği aşamalar�
     **Ayrıntılar** hızlı sekmesinde, **Yaşam döngüsü modelleri** alanı bu yaşam döngüsü durumunu kullanan bakım talebi yaşam döngüsü modellerinin sayısını gösterir.
 
 5. **Genel** hızlı sekmesinde, bakım talebinin bu yaşam döngüsü durumunda etkin olması gerekiyorsa, **etkin** seçeneğini **Evet** olarak ayarlayın.
-6. Gerçek bitiş tarihi ve saatinin bu yaşam döngüsü durumunda olan bir bakım isteğine otomatik olarak girilmesi gerekiyorsa, **fiili bitiş** seçeneğini **Evet** olarak ayarlayın.
+6. Gerçek bitiş tarihi ve saatinin bu yaşam döngüsü durumunda olan bir bakım isteğine otomatik olarak girilmesi gerekiyorsa, **Fiili bitiş ayarla** seçeneğini **Evet** olarak ayarlayın.
 7. İş emri , bu yaşam döngüsü durumunda olan bir bakım talebinden oluşturulduysa, **İş emrini oluştur** seçeneğini **Evet** olarak ayarlayın.
 8. Bir bakım talebi bu yaşam döngüsü durumundayken silinebilecekse, **Sil** seçeneğini **Evet** olarak ayarlayın.
-9. **Güncelleştir** hızlı sekmesinde, depo onarımını kullanırsanız ,**Varlık** bölümündeki **gelen** ve **giden** seçenekleri geçerlidir. Bakım talebinde seçilen varlıkların yaşam döngüsü durumu otomatik olarak **Gelen** ya da **Giden** olarak güncelleştirilecekse ilgili seçeneği **Evet** olarak ayarlayın; söz konusu bakım talebinin bakım talebi yaşam döngüsü durumu **Gelen** ya da **Giden** olarak ayarlandığında.
+9. **Güncelleştirme** hızlı sekmesinde, **Varlık** bölümündeki **Gelen** ve **Giden** seçenekleri depo onarımı görürseniz geçerlidir. Bakım isteğinde seçilen varlıkların varlık yaşam döngüsü durumunun, bu bakım talebinin bakım talebi yaşam döngüsü durumu **Gelen** veya **Giden** olarak ayarladığında, otomatik olarak **Gelen** veya **Giden** olarak güncelleştirilmesi gerekiyorsa ilgili seçeneği **Evet** olarak ayarlayın.
 
 Aşağıdaki çizimde bir **Bakım talebi yaşam döngüsü durumları** sayfasının bir örneği gösterilmektedir.
 

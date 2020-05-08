@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 79b4640a23d4fc78ade4de57e4071abe6c9ecb56
+ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042723"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284368"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektronik raporlamada formül dili
 
 [!include [banner](../includes/banner.md)]
 
-Elektronik raporlama (ER), güçlü bir veri dönüştürme deneyimi sağlar. ER formül tasarımcısında gerekli olan veri eklemelerini ifade etmek için kullanılan dil, Microsoft Excel'deki formül diline benzer.
+Elektronik raporlama (ER), güçlü bir veri dönüştürme deneyimi sağlar. [ER formül tasarımcısında](general-electronic-reporting-formula-designer.md) gerekli olan veri eklemelerini ifade etmek için kullanılan dil, Microsoft Excel'deki formül diline benzer.
 
 ## <a name="basic-syntax"></a>Temel sözdizimi
 
@@ -41,13 +41,13 @@ ER ifadeleri aşağıdaki öğelerden birini veya tümünü içerebilirler:
 - [Yollar](#Paths)
 - [İşlevler](#Functions)
 
-## <a name="Constants">Sabitler</a>
+## <a name=""></a><a name="Constants">Sabitler</a>
 
 İfadeleri tasarlarken metin ve sayısal sabitler (hesaplanmayan değerler) içeren ifadeler kullanabilirsiniz. Örneğin `VALUE ("100") + 20` ifadesi, sayısal sabit **20** ve dize sabiti **"100"** kullanır ve **120** sayısal değerini döndürür.
 
 ER formül tasarımcısı kaçış sıralarını destekler. Bu nedenle, farklı şekilde ele alınması gereken bir ifade dizesi belirtebilirsiniz. Örneğin, `"Leo Tolstoy ""War and Peace"" Volume 1"` deyimi, **Leo Tolstoy "Savaş ve barış" 1. Cilt** metin dizesini döndürür.
 
-## <a name="Operators">İşleçler</a>
+## <a name=""></a><a name="Operators">İşleçler</a>
 
 Aşağıdaki tablo, toplama, çıkarma, bölme ve çarpma gibi temel matematik işlemleri gerçekleştirmek için kullanabileceğiniz aritmetik işleçleri gösterir.
 
@@ -91,7 +91,7 @@ Bir bileşik ifadenin parçalarının hangi sırada değerlendirilecekleri önem
 
 Bir ifadenin aynı önceliğe sahip birden çok işleç içeriyorsa, bu işleçler soldan sağa doğru değerlendirilir. Örneğin, `1 + 6 / 2 \* 3 > 5` ifadesi, **doğru** sonucunu verir. Deyimlerin okunmasını ve bakımını daha kolay hale getirmek için, deyimlerin ifadedeki arzu edilen işlem sıralarını, parantezler kullanarak açıkça belirtmenizi tavsiye ederiz.
 
-## <a name="References">Referanslar</a>
+## <a name=""></a><a name="References">Referanslar</a>
 
 Bir ifadenin tasarımında kullanılabilir olan bir mevcut ER bileşeninin tüm veri kaynakları, adlandırılmış referanslar olarak kullanılabilirler. Geçerli ER bileşeni, bir model eşleme veya bir biçim olabilir. Örneğin, mevcut ER model eşlemesi, *DateTime* veri türünün değerini döndüren **ReportingDate** veri kaynağını içerir. Oluşturulan belgede bu değeri uygun şekilde biçimlendirmek için ifadedeki veri kaynağına başvurabilirsiniz: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
@@ -112,7 +112,7 @@ Değerlerin bu yöntem türünün parametrelerine geçiş şeklini sınırlandı
 - Bu tür yöntemlere yalnızca sabitler geçirilebilir. Sabitlerin değerleri tasarım zamanında tanımlanır.
 - Yalnızca basit (temel) veri türleri bu tür parametreler için desteklenir. Temel veri türleri şunlardır: *tamsayı*, *gerçek*, *Boole* ve *dize*.
 
-## <a name="Paths">Yollar</a>
+## <a name=""></a><a name="Paths">Yollar</a>
 
 Bir ifade yapılandırılmış bir veri kaynağına başvurduğunda, bu veri kaynağının belirli bir temel öğesini seçmek için bir yol tanımı kullanabilirsiniz. Yapılandırılmış veri kaynağının öğelerini tek tek ayırmak için bir nokta karakteri (.) kullanılır. Örneğin, mevcut ER model eşlemesi **InvoiceTransactions** veri kaynağını içerir ve bu veri kaynağı kayıtların listesini döndürür. **InvoiceTransactions** kayıt yapısı her ikisi de sayısal değerler döndüren **AmountDebit** ve **AmountCredit** alanlarını içerir. Bu nedenle, faturalanan tutarı hesaplamak için aşağıdaki ifadeyi tasarlayabilirsiniz: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. Bu `InvoiceTransactions.AmountDebit` ifadedeki yapım, *kayıt listesi* türünün **Faturalamaİşlemleri** veri kaynağının **TutarBorç** alanına erişmek için kullanılan yoldur.
 
@@ -130,7 +130,7 @@ Mutlak yolun kalan bölümü de [ER formül düzenleyicisinde](general-electroni
 
 ![ER formül Tasarımcısı sayfasında, mutlak yolun kalan bölümü](./media/ER-FormulaLanguage-RelativePath2.png)
 
-## <a name="Functions">İşlevler</a>
+## <a name=""></a><a name="Functions">İşlevler</a>
 
 ER yerleşik işlevler ER deyimlerinde kullanılabilir. İfade bağlamının tüm veri kaynakları (geçerli ER model eşlemesi ya da ER biçimi ) çağırma işlevlerinin bağımsız değişkenleri listesine uygun işlevleri çağırma parametreleri olarak kullanılabilir. Sabitler çağırma işlevleri parametreleri olarak da kullanılabilir. Örneğin, mevcut ER model eşlemesi **InvoiceTransactions** veri kaynağını içerir ve bu veri kaynağı kayıtların listesini döndürür. **InvoiceTransactions** kayıt yapısı her ikisi de sayısal değerler döndüren **AmountDebit** ve **AmountCredit** alanlarını içerir. Bu sebeple, faturalanan tutarı hesaplamak için, dahili ER yuvarlama işlevini kullanan şu deyimi tasarlayabilirsiniz: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 

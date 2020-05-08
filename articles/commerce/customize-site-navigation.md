@@ -3,7 +3,7 @@ title: Site gezintisini özelleştirme
 description: Bu konu, Microsoft Dynamics 365 Commerce sitenizde gezinmek üzere ürünlerinizi düzenlemek için özelleştirilmiş bir çevrimiçi gezinti hiyerarşisinin nasıl oluşturulacağını açıklamaktadır.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001841"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269671"
 ---
 # <a name="customize-site-navigation"></a>Site gezintisini özelleştirme
 
@@ -93,7 +93,7 @@ Gezinti menünüze özel gezinti seçenekleri eklemek için aşağıdaki adımla
 1. Özellik bölmesinde, **veri** sekmesinde, yeni bir içerik yönetim sistemi (CMS) gezinti öğesi oluşturmak için **Öğe ekle**'yi seçin.
 1. Bağlantı metnini ve URL'yi girin.
 1. Daha fazla özel gezinti seçeneği eklemek için 2 ve 3. adımları tekrarlayın.
-1. Bitirdiğinizde, şablonu veya parçayı kaydedin ve iade edin.
+1. Bitirdiğinizde, şablonu veya parçayı kaydetmek için **Kaydet**'i seçin ve sonra iade etmek için **Düzenlemeyi bitir**'i seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

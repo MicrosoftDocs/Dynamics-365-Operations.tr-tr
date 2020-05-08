@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172703"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275662"
 ---
 # <a name="general-troubleshooting"></a>Genel sorun giderme
 
@@ -70,14 +70,12 @@ Package Deployer aracını yükledikten sonra, aşağıdaki adımları izleyerek
 İz günlüğünü açmak için aşağıdaki adımları izleyin.
 
 1. Finance and Operations uygulamada oturum açın, **ayarlar** sayfasını açın ve sonra **Özelleştirme** altında **Eklenti İz Günlüğü** 'i seçin.
-2. **Tür** adı alanının **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** olarak ayarlandığı izleme günlüklerini bulun.
+2. **Tür Adı** alanının **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** olarak ayarlandığı izleme günlüklerini bulun.
 3. Tam günlüğü görüntülemek için bir öğeyi çift tıklatın ve sonra **yürütme** hızlı sekmesinde **ileti öbeği** metnini gözden geçirin.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Finance and Operations Uygulamalardaki canlı eşitleme sorunlarını gidermek için hata ayıklama modunu etkinleştir
 
-**Hataları görüntülemek için gerekli rol:** Sistem Yöneticisi
-
-Common Data Service Uygulamada yer Finance and Operations alan çift-yazılır hatalar ortaya çıkabilir. Bazı durumlarda, ileti çok uzun veya kişisel tanımlayıcı bilgiler (PII) içerdiğinden hata iletisinin tam metni kullanılamıyor. Hata için ayrıntılı günlüğü, aşağıdaki adımları izleyerek açabilirsiniz.
+**Hataları görüntülemek için gerekli olan rol:** Common Data Service uygulamasında yer alan sistem yöneticisi Çift yazma hataları Finance and Operations uygulamasında görünebilir. Bazı durumlarda, ileti çok uzun veya kişisel tanımlayıcı bilgiler (PII) içerdiğinden hata iletisinin tam metni kullanılamıyor. Hata için ayrıntılı günlüğü, aşağıdaki adımları izleyerek açabilirsiniz.
 
 1. Finance and Operations Uygulamalardaki tüm proje yapılandırmalarında **dualwriteprojectconfiguration** varlığında bir **ısdebugmode** özelliği vardır. **DualWriteProjectConfiguration** varlığını Excel eklentisini kullanarak açın.
 
@@ -92,7 +90,7 @@ Common Data Service Uygulamada yer Finance and Operations alan çift-yazılır h
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Finance and Operations Uygulamaya ilişkin sanal makinedeki eşitleme hatalarını denetle
 
-**Hataları görüntülemek için gerekli rol:** Sistem Yöneticisi
+**Hataları görüntülemek için gerekli rol:** Sistem yöneticisi
 
 1. Microsoft Dynamics Lifecycle Services (LCS)'de oturum açın.
 2. Çift yazma sınaması gerçekleştirmek için seçtiğiniz LCS projesini açın.
@@ -104,7 +102,7 @@ Common Data Service Uygulamada yer Finance and Operations alan çift-yazılır h
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamadan başka bir Common Data Service ortam bağlantısını kaldır ve bağlantıyı kes
 
-**Ortamın bağlantısını kesmek için gerekli olan kimlik bilgileri:** Azure AD Kiracı Yönetimi
+**Ortamın bağlantısını kaldırmak için gerekli rol:** Finance and Operations veya Common Data Service uygulaması için sistem yöneticisi.
 
 1. Finance and Operations Uygulamaya oturum açın.
 2. **Çalışma alanları \> veri yönetimi**'ne gidin ve **ikili yazma** kutucuğunu seçin.
@@ -113,3 +111,13 @@ Common Data Service Uygulamada yer Finance and Operations alan çift-yazılır h
 5. Operasyonu onaylamak için **Evet**'i seçin.
 
 Şimdi yeni bir ortam bağlayabilirsiniz.
+
+## <a name="unable-to-view-the-sales-order-line-information-form"></a>Satış siparişi satırı Bilgi formu görüntülenemiyor 
+
+Dynamics 365 Sales içinde bir satış siparişi oluşturduğunuzda, **+ Ürün ekle**'ye tıklamak, sizi Dynamics 365 Project Operations sipariş satırı formuna yönlendirebilir. Satış siparişi satırı **Bilgi** formunu görüntülemek için bu formdan bir yol yoktur. **Bilgi** seçeneği, **Yeni Sipariş Satırı** altındaki açılan listede görüntülenmez. Bunun nedeni, Project Operations'ın ortamınıza yüklenmiş olmasıdır.
+
+**Bilgi** formu seçeneğini yeniden etkinleştirmek için şu adımları izleyin:
+1. **Sipariş satırı** varlığına gidin.
+2. Formlar düğümünün altından **Bilgi** formunu bulun. 
+3. **Bilgi** formunu seçin ve **Güvenlik rollerini etkinleştir**'e tıklayın. 
+4. Güvenlik ayarını **Herkese göster** olarak değiştirin.

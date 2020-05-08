@@ -3,7 +3,7 @@ title: Var olan site sayfasını değiştirme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te mevcut site sayfasını değiştirme yöntemi açıklanmıştır.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c393fc143214c2c7c7ddad9a77e273e1e53e34ac
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003453"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270016"
 ---
 # <a name="modify-an-existing-site-page"></a>Var olan site sayfasını değiştirme
 
@@ -36,11 +36,11 @@ Bu konuda, Microsoft Dynamics 365 Commerce'te mevcut site sayfasını değiştir
 Bir sayfayı değiştirmeniz gerektiğinde, ilk adım onu sayfa düzenleyici içinde açar. Sayfanızı içeren siteye gidin ve sonra sayfa listesinde istediğiniz sayfayı bulun. Sayfayı bulamazsanız, yazma aracının zengin arama işlevini kullanabilirsiniz. Tam sayfa adını yazın veya adın ilk birkaç harfini yazıp bir yıldız işareti (\*) yazın. Süzülmüş sayfalar listesi görüntülenir. İstediğiniz sayfayı bulmak için bu listeyi kullanabilirsiniz. Doğru sayfayı bulduktan sonra, sayfa düzenleyicisinde sayfayı açılacak sayfa adını seçin.
 
 > [!TIP]
-> Sayfanız sayfa denetçisinde görünüyorsa, onu seçebilir ve sayfa düzenleyicisinde açılmadan önce teslim edebilirsiniz. Böylece, aynı anda birden fazla sayfayı kullanıma alabilirsiniz.
+> Sayfanız sayfa denetçisinde görünüyorsa, **Düzenle**'yi seçebilir ve sayfayı sayfa düzenleyicisinde açılmadan önce kullanıma alabilirsiniz. Böylece, aynı anda birden fazla sayfayı kullanıma alabilirsiniz.
 
-Sayfa düzenleyicide sayfanın açık olmasını istiyorsanız, öğenin kullanımınıza alındığından emin olmalısınız. Geliştirme aracındaki komut çubuğu dinamiktir, içeriğe duyarlıdır ve durum duyarlıdır. Bu nedenle, yalnızca sayfada gerçekleştirebileceğiniz eylemleri gösterir. Örneğin, sayfa sizin tarafınızdan kullanıma alınmadığından, komut çubuğunda **Kaydet** ve **Giriş yap** düğmeleri görünmez. Sayfanın durumu pencerenin sağ tarafında görünür.
+Sayfa düzenleyicide sayfanın açık olmasını istiyorsanız, öğenin kullanımınıza alındığından emin olmalısınız. Geliştirme aracındaki komut çubuğu dinamiktir, içeriğe duyarlıdır ve durum duyarlıdır. Bu nedenle, yalnızca sayfada gerçekleştirebileceğiniz eylemleri gösterir. Örneğin, sayfa sizin tarafınızdan kullanıma alınmadığından, komut çubuğunda **Kaydet** ve **Düzenlemeyi bitir** düğmeleri görünmez. Sayfanın durumu pencerenin sağ tarafında görünür.
 
-Sayfa sizin tarafınızdan kullanıma alınmış durumda değilse, komut çubuğundan **kullanıma alma** 'yı seçin. Komut çubuğu, sayfanın yeni durumunu yansıtacak şekilde değişir. Ayrıca, sayfanın size teslim edilmiş olduğunu bildiren bir bildirim alırsınız.
+Sayfa sizin tarafınızdan kullanıma alınmış durumda değilse, komut çubuğundan **Düzenle**'yi seçin. Komut çubuğu, sayfanın yeni durumunu yansıtacak şekilde değişir. Ayrıca, sayfanın size teslim edilmiş olduğunu bildiren bir bildirim alırsınız.
 
 Sonraki adım, gerçek değişikliklerinizi yapmak içindir. Genellikle, sol taraftaki sayfa anahat ağacını kullanarak değiştirmek istediğiniz modülü bulun ve seçin ve sonra sağdaki Özellikler bölmesinde değişiklikleri yapın. 
 
@@ -49,7 +49,7 @@ Ancak, yaptığınız değişiklikler bazen model veya parçacık eklemeyi veya 
 > [!TIP]
 > Ayrıca, doğrudan seçerek "aldığınız şey gördüğünüz şeydir" (WYSIWYG) önizlemesi görünür olan herhangi bir modülün özelliklerini görüntüleyebilir ve düzenleyebilirsiniz.
 
-Değişikliklerinizi yapmayı bitirdikten ve etkilerini önizledikten sonra, komut çubuğunda **iade et**'i seçerek sayfayı iade etmelisiniz. 
+Değişikliklerinizi yapmayı bitirdikten ve etkilerini önizledikten sonra, komut çubuğunda **Düzenlemeyi bitir**'i seçerek sayfayı iade etmelisiniz. 
 
 Değişikliklerinizi hemen yayımlamak için, komut çubuğunda **yayınla** 'yı seçin. Değiştirdiğiniz sayfanın en son iade edilen sürümü yayımlanır ve sitenizi görüntüleyen harici kullanıcılar tarafından kullanılabilir duruma gelir. 
 
@@ -60,14 +60,14 @@ Aşağıdaki örnek, video oynatıcı modülünde görünen videoyu değiştirer
 1. **Siteler** altında, **Fabrikam**'ı seçin (veya sitenizin adını).
 1. Soldaki gezinti bölmesinde **Sayfalar** seçin.
 1. Sayfa düzenleyicisinde açmak için giriş sayfasını bulun ve seçin.
-1. Komut çubuğunda, **Çıkış yap** öğesini seçin.
+1. Komut çubuğunda, **Düzenle** öğesini seçin.
 1. Sayfa anahattında **ana** yuvayı seçin.
 1. **Ana** yuvanın altında, tüm akışkan konteyneri modüllerini genişletin.
 1. Video oynatıcı modülünü bulun ve seçin.
 1. Sağdaki özellikler bölmesinde, **video** özelliğini seçin. Varlık seçici görüntülenir.
 1. Varlık seçicisinde, uygun bir video varlığı seçin veya yeni bir video varlığı yüklemek için **yeni varlığı yükle**'yi seçin.
 1. **Tamam**'ı seçin.
-1. **Kaydet**i seçin ve sonra **Giriş**'i seçin.
+1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yorumlar** alanında **Videoyu değiştir** seçeneğini girin ve **Tamam**'ı seçin.
 1. Güncellenen sayfasını önizlemek için **Önizleme** 'yi seçin . Bitirdiğinizde, geliştirme aracına dönmek için Önizleme sekmesini kapatın.
 1. **Yayımla**'yı seçin.

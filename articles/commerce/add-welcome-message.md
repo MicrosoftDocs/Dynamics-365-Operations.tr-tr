@@ -3,7 +3,7 @@ title: Hoş geldiniz iletisi ekleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce web sitenize bir hoş geldin mesajının nasıl ekleneceği açıklanmaktadır.
 author: psimolin
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca10b01268b5dcd4c6fe448d90cd0ebd65a2673b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001266"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269633"
 ---
 # <a name="add-a-welcome-message"></a>Hoş geldiniz iletisi ekleme
 
@@ -41,17 +41,14 @@ Paylaşılan başlık parçasına bir hoş geldiniz iletisi eklendiğinde, bu pa
 
 Sitenize hoş geldin mesajı eklemek için şu adımları izleyin.
 
-1. Dynamics 365 Commerce'te sitenize gidin.
+1. Commerce site oluşturucuda sitenize gidin.
 1. **Parçalar**'ı seçin.
 1. İletinin ekleneceği başlık parçasını seçin.
 1. Anahat ağacında, **hata/bilgi iletilerini** genişletin.
-1. Uyarı modülünü seçin.
-
-    Uyarı modülü henüz yoksa, üç nokta düğmesini (**...**) **hata/bilgi iletilerinin** yanında, **Modül ekle**'yi seçin. Uyarı modülünü seçin ve **Tamam**'ı seçin.
-
+1. Uyarı modülünü seçin ve **Tamam**'ı seçin. Uyarı modülü henüz yoksa, önce üç nokta düğmesini (**...**) **Hata/bilgi iletilerinin** yanında, **Modül ekle**'yi seçin.
 1. Sağdaki Özellik bölmesinde, **veri** sekmesinde, **veri kaynağı Ekle**'yi seçin ve sonra **içeriği** seçin.
 1. **Giriş metni** alanına hoş geldiniz iletisinin metnini girin.
-1. Üstbilgi parçasını kaydedin, giriş yapın ve yayımlayın.
+1. **Kaydet**'i seçin, başlık parçasını iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin. 
 
 Hoş geldiniz iletisi şimdi, seçili başlık parçasını kullanan her site sayfasının üst kısmında görüntülenir.
 

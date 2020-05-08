@@ -3,7 +3,7 @@ title: Toplam maliyet tahsisat yöntemi
 description: Bu konuda, toplam maliyet tahsisatı (TCA) kullanma yönergeleri sağlanmıştır. Toplam maliyet tahsisatı (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyetin hesaplanmasına yönelik bir yöntemdir.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/15/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e621b76742a5a115ba2d77e03b47cd1aead8664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 758015c566e39df7306e1b34b8d3b42f1f1eba79
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214677"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262685"
 ---
 # <a name="total-cost-allocation-method"></a>Toplam maliyet tahsisat yöntemi
 
 [!include [banner](../includes/banner.md)]
-
-Bu konuda, toplam maliyet tahsisatı (TCA) kullanma yönergeleri sağlanmıştır. Toplam maliyet tahsisatı (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyetin hesaplanmasına yönelik bir yöntemdir.
 
 Toplam maliyet tahsisi (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyet farklarının hesaplanmasına yönelik bir yöntemdir. Bu dinamik bir yöntemdir. Maliyeti, formül maddesi ve ortak ürün için bitmiş olarak raporlanan miktarlar arasındaki bir ağırlıklı ortalama olarak hesaplar. TCA kullanıldığında, her toplu iş emri için maliyet tahsisatı gözden geçirmeniz gerekmez. TCA kullanılmıyorsa, formül hesaplaması mevcut işlevi kullanır.
 

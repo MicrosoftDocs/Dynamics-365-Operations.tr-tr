@@ -3,20 +3,20 @@ title: Finance and Operations için Öğrenme kataloğu
 description: Finance and Operations için Tüm eğitim seçeneklerini bulun.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 02/19/2020
+ms.date: 04/17/2020
 ms.author: v-lshann
-audience: Application User
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
-ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 32b67cfd4c007ddc590cd0ee95255d6f3fbc1d17
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078005"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3279109"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>Finance and Operations için Öğrenme kataloğu
 
@@ -33,6 +33,10 @@ Finance and Operations uygulamalarının bir kullanıcısı olarak rolünüz iç
     Yeni teknolojilere yatırım yapıp yapamayacağınıza karar versin mi? 
 
     [İş ve Teknik Karar Vericiler İçin Öğrenme Kataloğu](learning-catalog-bdm.md#)
+
+    [Başlayın](learning-catalog-bdm.md#get-started)
+
+    [Sınav](learning-catalog-bdm.md#exam)
 
         :::column-end:::
     :::column:::
@@ -53,12 +57,14 @@ Finance and Operations uygulamalarının bir kullanıcısı olarak rolünüz iç
 
     [Mali yönetim](learning-catalog-business-user.md#financial-management)
 
+    [Sınav](learning-catalog-business-user.md#exam)
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-        ### <a name="implementation-project-managers"></a>Uygulama Projesi Yöneticileri
+    ### <a name="implementation-project-managers"></a>Uygulama Projesi Yöneticileri
 
     Şirketinizin uygulanmasının sorunsuz olduğundan emin misiniz?
 
@@ -73,6 +79,9 @@ Finance and Operations uygulamalarının bir kullanıcısı olarak rolünüz iç
     [İmalat](learning-catalog-project-manager.md#manufacturing)
 
     [Tedarik zinciri yönetimi](learning-catalog-project-manager.md#supply-chain-management)
+
+    [Sınavlar](learning-catalog-project-manager.md#exams)
+
         :::column-end:::
     :::column:::
 
@@ -86,11 +95,15 @@ Finance and Operations uygulamalarının bir kullanıcısı olarak rolünüz iç
 
     [Temel platform bilgileri](learning-catalog-administrator.md#core-platform-knowledge)
 
+    [Temel geliştirme](learning-catalog-administrator.md#core-development)
+
     [Geçiş ve yükseltme](learning-catalog-administrator.md#migration-and-upgrade)
 
     [Bakım](learning-catalog-administrator.md#servicing)
 
     [Test ediliyor](learning-catalog-administrator.md#testing)
+
+    [Sınav](learning-catalog-administrator.md#exam)
 
   :::column-end:::
 :::row-end:::
@@ -131,6 +144,8 @@ Finance and Operations uygulamalarının bir kullanıcısı olarak rolünüz iç
 
     [Tedarik zinciri yönetimi](learning-catalog-functional-consultant.md#supply-chain-management)
 
+    [Sınavlar](learning-catalog-functional-consultant.md#exams)
+
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -141,6 +156,10 @@ Finance and Operations uygulamalarının bir kullanıcısı olarak rolünüz iç
     Müşterilerinizin doğru çözümü satın almasından yardımcı olacak mı? 
 
     [Microsoft İş Ortağı Satış ve Pazarlama Öğrenme Kataloğu](learning-catalog-partner-sales.md)
+
+    [Başlayın](learning-catalog-partner-sales.md#get-started)
+
+    [Sınav](learning-catalog-partner-sales.md#exam)
 
         :::column-end:::
     :::column:::

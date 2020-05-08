@@ -3,7 +3,7 @@ title: Önceden ayarlanmış düzenlerle çalışma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta önceden belirlenmiş düzenlerle nasıl çalışılacağı açıklanmaktadır.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c8149c6e443c77dabfa641a698c931176bedbc98
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002648"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269901"
 ---
 # <a name="work-with-preset-layouts"></a>Önceden ayarlanmış düzenlerle çalışma
 
@@ -44,7 +44,7 @@ Bu konudaki yordamları gerçekleştirmeden önce, [hazır ayar ve özel düzenl
 Varolan özel düzenden önceden belirlenmiş düzen oluşturmak için şu adımları izleyin.
 
 1. Şu anda hazır ayar düzeni kullanmayan ve sitenizdeki diğer sayfalar için yeniden kullanmak istediğiniz bir modül yapısına sahip olan varolan sayfayı açın.
-1. **Ödeme yap** seçin.
+1. Sayfayı kullanıma almak için **Düzenle**'yi seçin.
 1. **Yeni Düzen olarak kaydet**'i seçin. **Yeni düzen olarak Kaydet** iletişim kutusu görünür.
 1. Önceden ayarlı düzen için bir ad ve açıklama girin. Girdiğiniz değerler, yerleşiminizde yeni sayfalar oluştururken veya bu yazarlardan diğerine geçiş yaparken diğer yazarlar tarafından gösterilir. Bu nedenle, sayfa yazarları için yararlı olacak değerleri girin.
 1. **Tamam**'ı seçin.
@@ -91,14 +91,14 @@ Hazır ayar düzeninizi kullanan tüm alt sayfaların temasını ayarlamak veya 
 Hazır ayar düzeninizi kaydetmek ve iade etmek için aşağıdaki adımları izleyin.
 
 1. Mizanpaj Düzenleyicisinin üst kısmında **Kaydet**'i seçin. Kaydedilen değişiklikler, bu akış yönündeki sayfaları iade edilene kadar etkilemez.
-1. **Giriş yap** seçin. Değişiklikleriniz, aşağı akışlar için artık bulunabilir.
+1. **Düzenlemeyi bitir**'i seçin. Değişiklikleriniz, aşağı akışlar için artık bulunabilir.
 
 Değişikliklerinizin önizlemesine bakmak için, önceden ayarlanmış düzenini kullanan varolan bir sayfayı açın veya düzenden yeni bir sayfa oluşturun.
 
 Değişiklik önceden belirlenmiş yerleşiminizde yapılan değişiklikleri önizledikten sonra, görünümü canlı sitenizde yayımlamak için aşağıdaki adımlardan birini izleyin:
 
 * **Düzenlere** gidin, düzeni seçin ve sonra **Yayınla**'yı seçin.
-* Düzen düzenleyicisinde **yayınla** 'yı seçin.
+* Düzen düzenleyicisini açmak için düzen açını ve ardından **Yayımla**'yı seçin.
 * Yayımlanmamış yerleşime başvuran bir sayfa yayımlayın. Düzen otomatik olarak yayımlanacak.
 
 > [!WARNING]

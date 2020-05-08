@@ -3,7 +3,7 @@ title: Sayfa kaydetme, önizleme ve yayımlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te sayfa kaydetme, önizleme ve yayınlama yöntemi açıklanmıştır.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 04200264fabca265484b5e66426810efe8028a50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002832"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269993"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Sayfa kaydetme, önizleme ve yayımlama
-
 
 [!include [banner](includes/banner.md)]
 
@@ -33,7 +32,7 @@ Bu konuda, Microsoft Dynamics 365 Commerce'te sayfa kaydetme, önizleme ve yayı
 
 ## <a name="save-a-page"></a>Sayfa kaydetme
 
-Sayfayı kaydetmek için, belgenizi kullanıma almış ve sayfa düzenleyicisinde açmanız gerekir. Bir sayfayı değiştirdikten sonra, değişikliklerinizin saklanmasını sağlamaya yardımcı olması için bir sayfaya hemen kaydetmelisiniz.
+Sayfayı kaydetmek için, belgenizi kullanıma almış ve sayfa düzenleyicisinde açmanız gerekir. Bir sayfayı kullanıma almak için komut çubuğunda **Düzenle**'yi seçin. Bir sayfayı düzenlemeyi bitirdikten sonra, değişikliklerinizin saklanmasını sağlamak sayfayı hemen kaydetmelisiniz.
 
 Bir sayfayı kaydettiğinizde, değişiklikler yalnızca size görünebilir. Kaydetme işlemi öncelikle, sayfa henüz iade edilmeye hazır olmadığı sürece değişiklikleri depolamaya yöneliktir. Sayfayı değiştirmeyi bitirdiğinizde, gözden geçirin ve böylece değişiklikler başkaları tarafından görülebilir hale gelir. Bu noktada, sayfa değiştirilmesi gereken diğer kullanıcılar tarafından da kullanıma açılabilir.
 
@@ -50,7 +49,7 @@ Sayfayı değiştirmeyi bitirdiğinizde, hangi müşterilerin görebileceğini g
 
 ## <a name="publish-a-page"></a>Sayfayı yayımla
 
-Sayfanız hazır olduğunda, bir sonraki adım bunu yayınlamaktır, böylece harici kullanıcılar içeriği görüntüleyebilir. Bir sayfayı yayımlayabilmeniz için önce onu iade etmelisiniz.
+Sayfanız hazır olduğunda, bir sonraki adım bunu yayınlamaktır, böylece harici kullanıcılar içeriği görüntüleyebilir. Bir sayfayı yayımlayabilmeniz için, komut çubuğunda **Düzenlemeyi bitir**'i seçerek sayfayı iade etmeniz gerekir.
 
 Sayfaları sayfa denetçisinde veya sayfa düzenleyicisinden yayımlayabilir veya yayımdan kaldırabilirsiniz. Sayfa denetçisi, sayfaların listesini gösterir ve toplu işlemlere izin verir. Sayfa düzenleyicisi, yalnızca içinde açık olan tek bir sayfayı yayınlamak veya yayımdan kaldırmak için kullanılabilir.
 
@@ -70,9 +69,9 @@ Bir giriş sayfasını kaydetmek, önizlemek ve yayınlamak için aşağıdaki a
 1. **Siteler** altında, **Fabrikam**'ı seçin (veya sitenizin adını).
 1. Soldaki gezinti bölmesinde **Sayfalar** seçin.
 1. Sayfa düzenleyicisinde açmak için giriş sayfasını bulun ve seçin.
-1. **Ödeme yap** seçin.
+1. **Düzenle** öğesini seçin.
 1. Sayfayı gerektiği gibi değiştirin.
-1. **Kaydet**i seçin ve sonra **Giriş**'i seçin.
+1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yorumlar** alanına yaptığınız değişikliklerle ilgili bir not girin ve **Tamam**'ı seçin.
 1. Sayfanızın önizlemesini görüntülemek için **Önizleme**'yi seçin. Bitirdiğinizde, geliştirme aracına dönmek için Önizleme sekmesini kapatın.
 1. **Yayımla**'yı seçin.
