@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (Nisan 2020)
                   href: get-started/whats-new-platform-update-33.md
-                - name: Platform update 32 (Şubat 2020)
-                  href: get-started/whats-new-platform-update-32.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan platform özellikleri
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Lifecycle Services'dan çift yazma kurulumu
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Başlangıç eşitlemesi
-                              href: data-entities/dual-write/initial-sync.md
                             - name: Mevcut Finance and Operations uygulamaları için çift yazmayı etkinleştirme
                               items:
                                 - name: Mevcut Finance and Operations uygulamaları için çift yazmayı etkinleştirme
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: 'Sürüm denetimi, meta veri arama ve gezinme'
               href: dev-tools/version-control-metadata-navigation.md
+            - name: Azure kullanarak derleme otomasyonu
+              items:
+                - name: Microsoft tarafından barındırılan aracılar ve Azure Pipelines kullanarak derleme otomasyonu
+                  href: dev-tools/hosted-build-automation.md
+                - name: Azure Pipelines'da dağıtılabilir pakete lisans dosyaları ekleme
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: Azure Pipelines'ta dağıtılabilir paketler oluşturma
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: Azure Pipelines'ta X++ model sürümü oluşturma
+                  href: dev-tools/pipeline-model-version.md
             - name: Filo Yönetimi örnek uygulaması
               items:
                 - name: Filo Yönetimi örnek uygulaması için uçtan uca senaryo
@@ -1396,11 +1402,13 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Kullanıcıları güvenlik rollerine atama
                   href: sysadmin/tasks/assign-users-security-roles.md
-            - name: Toplu işleme
+                - name: Görev kayıtları için güvenlik tanılaması
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: Toplu iş işleme
               items:
-                - name: Toplu işlemeye genel bakış
+                - name: Toplu iş işlemeye genel bakış
                   href: sysadmin/batch-processing-overview.md
-                - name: Toplu işleme ve toplu iş sunucuları
+                - name: Toplu iş işleme ve toplu iş sunucuları
                   href: sysadmin/batch-server-overview.md
                 - name: Toplu iş oluşturma
                   href: sysadmin/tasks/create-batch-job.md

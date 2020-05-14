@@ -415,16 +415,18 @@
                   href: asset-management/controlling-and-reporting/cost-and-date-control.md
                 - name: Çalışma saati denetimi
                   href: asset-management/controlling-and-reporting/work-hour-control.md
-                - name: Kıymet hata maliyeti denetimi
+                - name: Varlık hata maliyeti denetimi
                   href: asset-management/controlling-and-reporting/asset-fault-cost-control.md
-                - name: Kıymet hata analizi
+                - name: Varlık hata analizi
                   href: asset-management/controlling-and-reporting/asset-fault-analysis.md
-                - name: Kıymet KPI'ları
+                - name: Varlık KPI'ları
                   href: asset-management/controlling-and-reporting/asset-kpis.md
                 - name: Kullanıldığı madde
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Bakım durumu
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Varlık yönetimini Dynamics 365 Guides ile tümleştirme
+              href: asset-management/asset-management-guides-integration.md
             - name: Varlık yönetimi mobil çalışma alanı
               href: asset-management/asset-management-mobile-workspace.md
         - name: Veri yönetimi
@@ -701,9 +703,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Toplu verileri modelleme
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Ölçümleri toplamak için mali boyut ekleme
+                - name: Toplam ölçümlere mali boyut ekleme
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: PowerBI Desktop kullanarak analiz raporu oluşturma
+                - name: Power BI Desktop kullanarak analiz raporları oluşturma
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1145,7 +1147,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ER biçim öğelerinin yürütülmesini erteleme
                   items:
-                    - name: Dizi öğesinin yürütülmesini erteleme
+                    - name: Sıra öğesinin yürütülmesini erteleme
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
                     - name: XML öğesinin yürütülmesini erteleme
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: Planlamayı En İyi Duruma Getirmeye genel bakış
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Eldeki eksi stok eldeki sıfır stok olarak ele alınır
+                - name: Eksi eldeki stok miktarlarıyla planlama
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Minimum-maksimum stok yenileme işlemini ayarlama
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: Satınalma siparişleri için iş şablonunu ayarlama
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: Ambarlama uygulamasını yükleme ve yapılandırma
               items:
                 - name: Yükleme ve yapılandırmaya genel bakış
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Ambar işi için mobil cihazları ayarlama
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Ambarlama mobil uygulamasıyla plaka teslim alma
+                - name: Ambarlama uygulamasıyla plaka teslim alma
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Satınalma siparişindeki işin tamamlanması için bir mobil cihaz menü öğesi ayarlama
                   href: warehousing/tasks/set-up-mobile-device-menu.md

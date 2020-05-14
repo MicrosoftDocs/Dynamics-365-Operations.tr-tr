@@ -990,6 +990,8 @@
               href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: Proje tahminleri ve bütçeler
               href: project-management/project-forecasts-budgets.md
+            - name: Proje bütçeleri için tahmin modelleri oluşturma
+              href: project-management/create-forecast-models-project-budgets.md
             - name: Proje bütçelerini mali yıl bitişinde transfer etme
               href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: Proje satış siparişleri
@@ -1742,8 +1744,8 @@
               items:
                 - name: Macaristan'a genel bakış
                   href: localizations/hungary.md
-                - name: Döviz kuru hesaplaması
-                  href: localizations/tasks/hu-00001-exchange-rate-calculation.md
+                - name: Ortalama ve günlük döviz kuru hesaplaması
+                  href: localizations/emea-hun-average-daily-exchange-rate-calculation.md
                 - name: Sabit kıymet amortisman yöntemleri
                   href: localizations/emea-hun-fixed-assets-depreciation-methods.md
                 - name: Düşük maliyetli sabit kıymetler
@@ -2284,6 +2286,8 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL tümleştirmesi
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
+                - name: 'Denetim dosyası (XML Auditfile Finaneel, XAF)'
+                  hred: localizations/emea-nl-audit-file.md
             - name: Norveç
               items:
                 - name: Norveç'e genel bakış
@@ -2928,9 +2932,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/finance/toc.json
                 - name: Toplu verileri modelleme
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
-                - name: Ölçümleri toplamak için mali boyut ekleme
+                - name: Toplam ölçümlere mali boyut ekleme
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: PowerBI Desktop kullanarak analiz raporu oluşturma
+                - name: Power BI Desktop kullanarak analiz raporları oluşturma
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
@@ -2978,7 +2982,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Hazırlanan ER çözümünü hedef uygulamada test etme
                       items:
-                        - name: (ER) Yapılandırmaları RCS'den içe aktarma
+                        - name: Yapılandırmaları RCS'den içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                         - name: Biçim yapılandırması kullanarak ödemeler için elektronik belgeler oluşturma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
@@ -3026,6 +3030,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/finance/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
+                        - name: Today
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
                     - name: Liste
                       items:
                         - name: Liste işlevleri
@@ -3240,12 +3246,6 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: Biçim oluştururken veri modeli tanımlarını seçme
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Genel depoda yapılandırmaları bulmak için gelişmiş filtreleme seçenekleri
-              href: ../finance/localizations/enhanced-filtering-global-repo.md
-            - name: İçeriği ham XML olarak ekleyerek raporlar oluşturma
-              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
-            - name: (ER) Elektronik raporlamada şirketler arası veri kaynakları
-              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
             - name: Farklı biçimlerde giden elektronik belgeler oluşturmak için ER biçimleri tasarlama
               items:
                 - name: (ER) OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama
@@ -3270,44 +3270,12 @@
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
             - name: ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Mali boyutları kullanmak için ER çözümü tasarlama
-              items:
-                - name: Mali boyutları veri kaynakları olarak kullanmak üzere veri modelleri tasarlama
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/finance/toc.json
-                - name: Mali boyutları veri kaynağı olarak kullanmak üzere modelleri eşleme
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/finance/toc.json
-                - name: Mali boyutları veri kaynağı olarak kullanan raporlar tasarlama
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
-                - name: Mali boyutları veri kaynağı olarak kullanan raporları çalıştırma
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
-            - name: Oluşturulan çıkıştan alınan bilgileri kullanarak sayım ve toplama yapmak için ER biçimleri tasarlama
-              items:
-                - name: Sayım ve toplama yapmak için biçimler oluşturma
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/finance/toc.json
-                - name: Sayım ve toplama yapmak için biçim yapılandırma
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/finance/toc.json
-                - name: Sayım ve toplama çıktısı oluşturmak için hesaplamaları kullanma
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/finance/toc.json
-                - name: Sayım ve toplama yapmak için biçimleri çalıştırma
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/finance/toc.json
             - name: Excel raporlarına sütunları yatay yönlü genişletilebilir aralıklar olarak dinamik şekilde ekleme
               items:
                 - name: Sütunları Excel raporlarına dinamik bir şekilde yatay yönlü genişletilebilir aralıklar olarak eklemek için biçimler tasarlama
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                 - name: Sütunları Excel raporlarına dinamik bir şekilde yatay yönlü genişletilebilir aralıklar olarak eklemek için biçimleri çalıştırma
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
-            - name: Biçim çıktılarında Belge yönetimi dosyaları kullanma
-              items:
-                - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak için veri modelleri hazırlama
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/finance/toc.json
-                - name: ER çıktılarında Belge Yönetimi dosyalarını kullanmak için veri modellerini genişletme
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/finance/toc.json
-                - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak üzere biçimler oluşturma
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/finance/toc.json
-                - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak üzere biçimleri çalıştırma
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
-                - name: ER çıktılarında Belge yönetimi dosyalarını kullanmak üzere biçimleri değiştirme ve çalıştırma
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
             - name: Elektronik raporlama kullanarak uygulama verilerini güncelleştirme
               items:
                 - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
@@ -3340,8 +3308,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: Oluşturulan XML dosyalarını dosya boyutu ve içerik miktarına göre bölme
               href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
-            - name: Hesaplanan alan türüne göre ER veri kaynaklarının parametreli çağrılarını destekleme
-              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
             - name: Yapılandırma yaşam döngüsü
               items:
                 - name: Yapılandırma yaşam döngüsünü yönetme
@@ -3361,23 +3327,67 @@
                     - name: RCS türündeki ER deposundan yapılandırmaları indirme
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Yapılandırmaları RCS'den içe aktarma
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
             - name: Eğitimler
               items:
-                - name: Birden çok uygulama tablosundan veri almak için JOIN veri kaynaklarını kullanma
-                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                - name: Veri kaynaklarını kullanmayı öğrenme
+                  items:
+                    - name: Birden fazla tablodan veri almak için BİRLEŞTİR'i kullanma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: İçerik eklemek için HAM XML kullanma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
+                    - name: HESAPLANAN ALAN veri kaynaklarının parametreli çağrılarını destekleme
+                      href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                    - name: Şirketler arası ER veri kaynakları
+                      href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: MALİ BOYUT AYRINTILARI veri kaynaklarını kullanma
+                      items:
+                        - name: Veri modelleri tasarlama
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Mali boyutları kullanmak için modelleri eşleme
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/finance/toc.json
+                        - name: Raporlar tasarlama
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
+                        - name: Raporları çalıştırma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: Sayım ve toplam gerçekleştirmek için oluşturulan çıktıyı veri kaynağı olarak kullanma
+                      items:
+                        - name: Biçim oluşturma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Sayım ve toplama yapmak için biçim yapılandırma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/finance/toc.json
+                        - name: Sayım ve toplama çıktısı oluşturma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/finance/toc.json
+                        - name: Sayım ve toplama yapmak için biçimleri çalıştırma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/finance/toc.json
+                    - name: Belge yönetimi dosyalarına erişmek için BELGELER ilişkilerini kullanma
+                      items:
+                        - name: Veri modelleri hazırlama
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Belge yönetimi dosyalarını kullanmak için veri modellerini genişletme
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/finance/toc.json
+                        - name: Biçim oluşturma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/finance/toc.json
+                        - name: Belge yönetimi dosyalarını kullanmak üzere biçimleri çalıştırma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
+                        - name: Belge yönetimi dosyalarını kullanmak üzere biçimleri değiştirme ve çalıştırma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
+                        - name: Veri kaynaklarında hata ayıklama
+                          href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
                 - name: Ülke bağlamına bağımlı ER model eşlemeleri yapılandırma
-                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
                 - name: ER biçimlerini her tüzel kişilik için belirtilen parametreleri kullanmak üzere yapılandırma
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                 - name: Her tüzel kişilik için ER biçiminin parametrelerini ayarlama
-                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
                 - name: ER biçim öğelerinin yürütülmesini erteleme
                   items:
-                    - name: Dizi öğesinin yürütülmesini erteleme
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                    - name: Sıra öğesinin yürütülmesini erteleme
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
                     - name: XML öğesinin yürütülmesini erteleme
-                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                - name: Veri bağlamalarındaki göreli yol
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Finance and Operations'ta Elektronik raporlama çözümlerini kullanma
               items:
                 - name: Çerçeveyi yapılandırma
@@ -3385,7 +3395,11 @@
                     - name: Elektronik raporlama çerçevesini yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronik raporlama şablonlarını yedekleme ve kurtarma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
+                      items:
+                        - name: ER şablonları depolamasını yedekleme
+                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
+                        - name: ER geçişi temizleme
+                          href: ../fin-ops-core/dev-itpro/analytics/er-migration-cleanup.md?toc=/dynamics365/finance/toc.json
                     - name: Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Hedefler
