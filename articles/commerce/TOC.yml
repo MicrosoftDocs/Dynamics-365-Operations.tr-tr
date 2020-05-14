@@ -94,12 +94,12 @@
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (Nisan 2020)
                       href: get-started/whats-new-10-0-9.md
-                    - name: Commerce 10.0.8 (Şubat 2020)
-                      href: get-started/whats-new-10-0-8.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
-                    - name: Finance and Operations'ta kaldırılan veya kullanım dışı bırakılan özellikler
+                    - name: Finance and Operations'taki kaldırılan veya kullanım dışı bırakılan özellikler
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
+                    - name: Dynamics 365 Commerce'taki kaldırılan veya kullanım dışı bırakılan özellikler
+                      href: get-started/removed-deprecated-features-commerce.md
                 - name: Ertelenen AX 2012 özellikleri
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
                 - name: Şirket içi dağıtımlarda uygulanmayan özellikler
@@ -644,6 +644,8 @@
                       href: work-with-store-inventory.md
                     - name: Seri hale getirilmiş maddelerle çalışma
                       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: POS'ta seri hale getirilmiş maddelerle çalışma
+                      href: pos-serialized-items.md
                     - name: Merkezi alım kullanarak ürünleri dağıtım merkezinden mağazaya gönderme
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Çapraz sevk ve merkezi alım için kurallar ve parametreler ayarlama
@@ -1002,7 +1004,7 @@
               href: store-performance-information.md
             - name: 'Yenilik, Sıklık ve Parasal (RFM) analiz ayarlama'
               href: set-up-rfm-analysis.md
-        - name: Yerelleştirme ve mevzuat özellikleri
+        - name: Globalleştirme
           items:
             - name: Commerce kanalı için mali tümleştirmeye genel bakış
               href: localizations/fiscal-integration-for-retail-channel.md
@@ -1014,18 +1016,26 @@
                   href: localizations/emea-aut-fi-sample.md
             - name: Doğu Avrupa
               items:
-                - name: Doğru Avrupa'ya yönelik Commerce için avans faturaları
-                  href: localizations/emea-eeu-advance-invoices-for-retail.md
-                - name: Doğu Avrupa'ya yönelik Commerce için kasa yönetimi
-                  href: localizations/emea-eeu-petty-cash-for-retail.md
-                - name: Doğru Avrupa ülkelerinde müşteri faturaları ve satış siparişleri iadesi
-                  href: localizations/emea-eeu-retail-invoices.md
-                - name: 'Çek Cumhuriyeti, Macaristan ve Polonya için yazar kasalara ilişkin dağıtım kılavuzları'
-                  href: localizations/emea-eeu-deployment.md
-                - name: Polonya için yazar kasa tümleştirme örneği
-                  href: localizations/emea-pol-fpi-sample.md
-                - name: Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
-                  href: localizations/emea-cze-fi-sample.md
+                - name: Ortak
+                  items:
+                    - name: Doğru Avrupa'ya yönelik Commerce için avans faturaları
+                      href: localizations/emea-eeu-advance-invoices-for-retail.md
+                    - name: Doğu Avrupa'ya yönelik Commerce için kasa yönetimi
+                      href: localizations/emea-eeu-petty-cash-for-retail.md
+                    - name: Doğru Avrupa ülkelerinde müşteri faturaları ve satış siparişleri iadesi
+                      href: localizations/emea-eeu-retail-invoices.md
+                    - name: 'Çek Cumhuriyeti, Macaristan ve Polonya için yazar kasalara ilişkin dağıtım kılavuzları'
+                      href: localizations/emea-eeu-deployment.md
+                - name: Çek Cumhuriyeti
+                  items:
+                    - name: Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği
+                      href: localizations/emea-cze-fi-sample.md
+                - name: Polonya
+                  items:
+                    - name: Polonya için yazar kasa tümleştirme örneği
+                      href: localizations/emea-pol-fpi-sample.md
+                    - name: Polonya için müşteri bilgileri yönetimi
+                      href: localizations/emea-pol-customer-information.md
             - name: Fransa
               items:
                 - name: Yazar kasa işlevi
@@ -1044,6 +1054,8 @@
               items:
                 - name: İtalya için yazar kasa tümleştirme örneği
                   href: localizations/emea-ita-fpi-sample.md
+                - name: İtalya için müşteri bilgileri yönetimi
+                  href: localizations/emea-ita-customer-information.md
             - name: Meksika
               items:
                 - name: Meksika için genel CFDI e-faturaları
@@ -1058,7 +1070,9 @@
               items:
                 - name: Yazar kasa işlevi
                   href: localizations/emea-swe-cash-registers.md
-                - name: Kontrol birimleriyle POS tümleştirmesi örneği
+                - name: İsveç için kontrol birimi tümleştirmesi örneği
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Kontrol birimleriyle Retail POS tümleştirmesi örneği (eski)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Raporlama ve Power BI tümleştirmeleri
           items:
@@ -1136,9 +1150,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/commerce/toc.json
                 - name: Toplu verileri modelleme
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
-                - name: Ölçümleri toplamak için mali boyut ekleme
+                - name: Toplam ölçümlere mali boyut ekleme
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: PowerBI Desktop kullanarak analiz raporu oluşturma
+                - name: Power BI Desktop kullanarak analiz raporları oluşturma
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1580,7 +1594,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
                 - name: ER biçim öğelerinin yürütülmesini erteleme
                   items:
-                    - name: Dizi öğesinin yürütülmesini erteleme
+                    - name: Sıra öğesinin yürütülmesini erteleme
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
                     - name: XML öğesinin yürütülmesini erteleme
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
