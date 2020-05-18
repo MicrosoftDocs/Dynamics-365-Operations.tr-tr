@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 479a7edd456a1f4d121ceef292d2559c400c31a2
-ms.sourcegitcommit: c30a9956d9c29a504856487a3a98090eef9aab2b
+ms.openlocfilehash: 0b71a76b348941f5a010e2f3e4bbb2fa60d37101
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3266335"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346365"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Dynamics 365 Supply Chain Management 10.0.11'deki yenilikler veya değişiklikler (Temmuz 2020)
 
@@ -40,7 +40,7 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10
 Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [Sürüm planları](https://docs.microsoft.com/dynamics365/release-plans/) sitesindeki ek bilgilere bağlantı sağlar. Ek bağlantılar, söz konusu özellik için kullanılabilir olan ek belgelere veya videolara götürür. Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 
 - [Eldeki stok rapor depolama alanı](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [Ambarlama mobil uygulaması için plaka teslim alma geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - Daha fazla bilgi için bkz. [Ambarlama mobil uygulaması aracılığıyla plaka teslim alma](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Ambarlama uygulaması için plaka teslim alma geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - Daha fazla bilgi için bkz. [Ambarlama uygulaması aracılığıyla plaka teslim alma](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 - [Toplu iş numarası rezervasyon formu için satır rezervasyonu geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)  - Daha fazla bilgi için bkz. [Satış siparişi için aynı toplu işi rezerve etme](../sales-marketing/reserve-same-batch-sales-order.md)
 - [Üretim alanı için yeni veri varlıkları](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [Yük miktarlarını fazladan teslim alma](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Daha fazla bilgi için bkz. [Satınalma siparişleri için gelen yüklerin ambarda işlenmesi](../warehousing/inbound-load-handling.md).

@@ -3,7 +3,7 @@ title: Planlamayı En İyi Duruma Getirmeye başlayın
 description: Bu konuda, Planlamayı En İyi Duruma Getirme işlevini kullanmaya nasıl başlanacağı açıklanmaktadır.
 author: ChristianRytt
 manager: tfehr
-ms.date: 02/10/2020
+ms.date: 05/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4f9124e824a0b6d5035b2567cb19c2c494390d55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ce1bbb18e9a448e84d001a4195421d2b0e4af5be
+ms.sourcegitcommit: c0d37fdd70f3dec4605fdee6f981f84a49be9b9e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213527"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339890"
 ---
 # <a name="get-started-with-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeye başlayın
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 Planlamayı En İyi Duruma Getirme işlevi şu anda Microsoft Dynamics 365 Supply Chain Management'ta yerleşik olan planlama altyapısında kullanılabilen tüm özellikleri desteklememektedir. Bu nedenle, Planlamayı En İyi Duruma Getirme hizmetinde şu anda mevcut olan özellik kümesinin gereksinimlerinizi karşılayıp karşılamadığını değerlendirmeniz önemlidir. Varsayılan olarak, Planlamayı En İyi Duruma Getirme işlevi Dynamics Lifecycle Services'ta (LCS) açılmaz. Bu nedenle, açılmadan önce değerlendirme yapma fırsatınız vardır.
@@ -36,6 +35,11 @@ Planlamayı En İyi Duruma Getirme işlevi şu anda Microsoft Dynamics 365 Suppl
 Sonuç olarak, Planlamayı En İyi Duruma Getirme hizmeti var olan yerleşik Supply Chain Management planlama altyapısının yerini alacaktır.
 
 Planlamayı En İyi Duruma Getirme hizmetini açmadan önce Planlamayı En İyi Duruma Getirme uygunluk analizinin sonuçlarını değerlendirmenizi öneririz. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md).
+
+### <a name="availability"></a>Kullanılabilirlik
+Planlamayı En İyi Duruma Getirme şu anda şu Azure coğrafi bölgelerinde kullanılabilir: Amerika Birleşik Devletleri, Kanada, Avrupa, Birleşik Krallık ve Avustralya. Eklentiyi başka bir coğrafi bölgeden yüklemeye çalışırsanız, LCS bu coğrafi bölgenin desteklenmediğini belirten bir ileti gösterir.
+
+Planlamayı En İyi Duruma Getirme'nin Dynamics 365 Supply Chain Management şirket içi dağıtımlarını desteklemediğini unutmayın.
 
 ### <a name="licensing"></a>Lisans
 
@@ -46,7 +50,7 @@ Geçerli lisansınızı kullanarak master planlamayı çalıştırabilirseniz Pl
 Planlamayı En İyi Duruma Getirme hizmetini kullanmak üzere Dynamics 365 Supply Chain Management için Planlamayı En İyi Duruma Getirme Eklentisi'ni yükleyin. Eklentiye LCS projenizden ulaşabilir ve Supply Chain Management kullanıcı arabiriminden (UI) Planlamayı En İyi Duruma Getirme hizmetini açabilirsiniz.
 
 > [!NOTE]
-> En iyi duruma getirme planlaması için gereksinim, bir LCS etkin yüksek kullanılabilirlik ortamıdır (OneBox ortamı değil); Dynamics 365 Supply Chain Management sürüm 10.0.7 veya daha yenisine sahip olmalıdır.
+> Planlamayı En İyi Duruma Getirme için gereksinim, bir LCS etkin yüksek kullanılabilirlik ortamı, katman 2 veya üstüdür (OneBox ortamı değil); Dynamics 365 Supply Chain Management sürüm 10.0.7 veya daha yenisine sahip olmalıdır. Eklentiyi OneBox ortamına yüklemeye çalışırsanız, yükleme tamamlanmaz ve yükleme işlemini iptal etmeniz gerekir.
 
 1. LCS'de oturum açın ve istediğiniz ortamı açın.
 1. **Tüm ayrıntılar**'a gidin.
@@ -88,7 +92,7 @@ Bağlantı durumu, Supply Chain Management ile Planlamayı En İyi Duruma Getirm
 
 Planlamayı En İyi Duruma Getirme önizlemesi açıksa master planlama, Planlamayı En İyi Duruma Getirme Eklentisi'ni kullanarak yapılır. Bu durumda, master planlama sonuçları ve özellikleri etkilenir.
 
-## <a name="related-resources"></a>İlgili kaynaklar
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Önizleme için hüküm ve koşullar](https://go.microsoft.com/fwlink/?linkid=2015274)
 

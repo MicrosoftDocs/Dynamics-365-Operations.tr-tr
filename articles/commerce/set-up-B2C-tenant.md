@@ -3,7 +3,7 @@ title: Commerce'ta B2C kiracısı ayarlama
 description: Bu konu, Dynamics 365 Commerce'ta kullanıcı sitesi kimlik doğrulaması için Azure Active Directory (Azure AD) işletme-müşteri arası (B2C) kiracılarınızın nasıl kurulacağını açıklamaktadır.
 author: BrianShook
 manager: annbe
-ms.date: 04/17 /2020
+ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f4768eede43003aac892b861b4a86ababe98a189
-ms.sourcegitcommit: 063c4d7155be6c2cadcafa1630d16ee235285479
+ms.openlocfilehash: 22d62419c703c64470723cf82864a4782306ea8a
+ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270222"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295281"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Commerce'ta B2C kiracısı ayarlama
 
@@ -87,7 +87,7 @@ B2C uygulaması oluşturmak için şu adımları izleyin.
 
 ### <a name="reply-urls"></a>Yanıt URL'leri
 
-Yanıt URL'leri, siteniz bir kullanıcı kimliğini doğrulamak için Azure AD B2C çağırdığında dönüş etki alanlarının beyaz listesine olanak tanıdığı için önemlidir. Bu, kimliği doğrulanmış kullanıcının oturum açtığı etki alanına (site etki alanı) geri döndürülmesini sağlar. 
+Yanıt URL'leri, siteniz bir kullanıcı kimliğini doğrulamak için Azure AD B2C çağırdığında dönüş etki alanlarını için izin listesi sağladığından önemlidir. Bu, kimliği doğrulanmış kullanıcının oturum açtığı etki alanına (site etki alanı) geri döndürülmesini sağlar. 
 
 **Azure AD B2c - Uygulamalar \> Yeni uygulama** ekranındaki **Yanıt URL'si** kutusunda, hem sitenizin etki alanı hem de (ortamınız sağlandıktan sonra) Commece tarafından oluşturulan URL için ayrı satırlar eklemeniz gerekir. Bu URL'lerin her zaman geçerli bir URL biçimi kullanması ve yalnızca temel URL'ler olması gerekir (sonunda eğik çizgi veya yollar olmamalıdır). Ardından ``/_msdyn365/authresp`` dizesinin temel URL'lere aşağıdaki örneklerde gösterildiği şekilde eklenmesi gerekir.
 
@@ -121,7 +121,7 @@ Kullanıcı akışı ilkesinde kaydolma ve oturum açma oluşturmak için aşağ
 
     | **Öznitelik topla** | **İade talebi** |
     | ---------------------- | ----------------- |
-    |                        | E-posta Adresleri   |
+    | E-posta Adresi          | E-posta Adresleri   |
     | Verilen Ad             | Verilen Ad        |
     |                        | Kimlik Sağlayıcı |
     | Soyadı                | Soyadı           |
@@ -246,10 +246,6 @@ Genel merkezi Azure AD B2C bilgileriyle güncelleştirmek için aşağıdaki ad�
     1. **Tür** kutusuna **Genel** girin.
     1. **Kullanıcı Türü** kutusuna **Müşteri** girin.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
-1. Commerce arama kutusunda, **Numara serilerini** arayın (Kuruluş yönetimi > Numara serileri).
-1. Eylem bölmesi altında, **Koru** altından **Düzenle**'yi seçin.
-1. **Genel** hızlı sekmesinde, **El ile** için **Hayır**'ı seçin.
-1. Eylem bölmesinde, **Kaydet**'i seçin. 
 1. Commerce arama kutusunda, **Dağıtım planı**'nı arayın
 1. **Dağıtım planları** sayfasının sol gezinti menüsünde, **1110 Global yapılandırma** işini seçin.
 1. Eylem bölmesinde **Şimdi Çalıştır**'ı seçin.
@@ -304,13 +300,14 @@ AAD B2C kiracısı uygulama bilgilerinizi Commerce'a eklemek için aşağıdaki 
 1. B2C kiracısı ve uygulamanızın değerlerini kullanarak, aşağıdaki gerekli maddeleri görüntülenen forma girin. Gerekli olmayan alanlar (yıldız işareti olmayan alanlar) boş bırakılabilir.
 
     - **Uygulama Adı**: B2C Uygulamanızın adı, örneğin "Fabrikam B2C".
-    - **Kiracı Adı**: B2C Kiracısı adı, örneğin "Fabrikam".
+    - **Kiracı Adı**: B2C kiracısı adı (örneğin, etki alanı B2C kiracısı için "fabrikam.onmicrosoft.com" olarak görünüyorsa "Fabrikam" kullanın). 
     - **Parola Unutma İlkesi Kimliği**: Parolayı unutma kullanıcı akışı ilke kimliği, örneğin "B2C_1_PasswordReset".
     - **Kaydolma Oturum Açma İlkesi Kimliği**: Kullanıcı akış ilkesi kayıt olma ve oturum açma kimliği, örneğin "B2C_1_signup_signin".
     - **İstemci GUID'i**: B2C uygulama kimliği, örneğin "22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6".
     - **Profil Düzenle İlkesi Kimliği**: Profil düzenleme kullanıcı akışı ilkesi kimliği, örneğin "B2C_1A_ProfileEdit".
 
 1. **Tamam**'ı seçin. Şimdi, B2C uygulamanızın adının listede yer aldığını görmeniz gerekir.
+1. Değişikliklerinizi kaydetmek için **Kaydet**'i seçin.
 
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>B2C uygulamasını sitenizle ve kanalınızla ilişkilendirme
 

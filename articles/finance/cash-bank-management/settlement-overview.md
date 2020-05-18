@@ -1,9 +1,9 @@
 ---
 title: Kapatmaya genel bakış
-description: Bu konuda kapatma süreci hakkında genel bilgiler verilmiştir. Kapatılabilecek hareketlerin türleri, hareketlerin ne zaman ve nasıl kapatılabileceği ve kapatma sürecinin sonuçları açıklanmıştır.
+description: Bu konuda kapatma süreci hakkında genel bilgiler verilmiştir. Hangi hareket türlerinin kapatılabileceğini, bunları kapatmaya yönelik zamanlamayı ve işlemi açıklar. Ayrıca, kapatma işleminin sonuçlarını da açıklar.
 author: kweekley
 manager: AnnBe
-ms.date: 05/10/2019
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,40 +18,63 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b8b25575d5956e1345934512a7fe6503202b67a9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 650b0ef0123cf9acf42c2e7460693b555897744f
+ms.sourcegitcommit: efde328c40201b1cb60d34891900b62a7e2b6645
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180359"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "3329484"
 ---
 # <a name="settlement-overview"></a>Kapatmaya genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda kapatma süreci hakkında genel bilgiler verilmiştir. Kapatılabilecek hareketlerin türleri, hareketlerin ne zaman ve nasıl kapatılabileceği ve kapatma sürecinin sonuçları açıklanmıştır.
+Bu konuda kapatma süreci hakkında genel bilgiler verilmiştir. Hangi hareket türlerinin kapatılabileceğini, bunları kapatmaya yönelik zamanlamayı ve işlemi açıklar. Ayrıca, kapatma işleminin sonuçlarını da açıklar.
 
-Kapatma sırasında, her bir belgenin bakiyesini artırmak veya azaltmak için bir belgedeki hareketler diğer belgelerdeki hareketlere uygulanır. Örneğin, bir faturaya bir ödeme uygulanabilir. Çeşitli hareket türleri farklı zamanlarda ve çeşitli yöntemlerle kapatılabilir. Kapatma yeni hareketlerin üretilmesine de neden olabilir.
+Kapatma sırasında, her bir belgenin bakiyesini artırmak veya azaltmak için bir belgedeki hareketler diğer belgelerdeki hareketlere uygulanır. Örneğin, bir faturaya bir ödeme uygulanabilir. Çeşitli hareket türleri farklı zamanlarda ve farklı yöntemlerle kapatılabilir. Kapatma işlemi yeni hareketler de oluşturabilir.
 
 ## <a name="what-transactions-can-be-settled"></a>Hangi hareketler kapatılabilir
-Borç hesapları ve Alacak hesapları dahilindeki kapatmalar, faturalar, ödemeler, alacak makbuzları ve ücretler gibi satıcı bakiyesini veya müşteri bakiyesini etkileyen tüm hareket türleri arasında gerçekleşebilir. Diğer tüm hareket türlerine karşı her hareket türü kapatılabilir. Örneğin, bir faturaya karşı bir ödeme, bir faturaya karşı bir alacak makbuzu, bir faturaya karşı bir fatura ve bir ödemeye karşı bir ödemeyi kapatabilirsiniz. Aynı tüzel kişilikte veya farklı bir tüzel kişilikte bir harekete karşı ödemeleri kapatabilirsiniz. Merkezi ödeme modeli kullanan organizasyonlarda, [merkezi ödemeler](set-up-centralized-payments.md) ödeme sürecini kolaylaştırabilir.
+
+Borç hesapları ve Alacak hesaplarında kapatma, satıcı bakiyesini veya müşteri bakiyesini etkileyen tüm hareket türleri arasında gerçekleşebilir. Bu hareket türleri arasında fatura, ödeme, iade faturası ve ücretler bulunabilir. Diğer tüm hareket türlerine karşı her hareket türü kapatılabilir. Örneğin, bir faturaya karşı bir ödeme, bir faturaya karşı bir alacak makbuzu, bir faturaya karşı başka bir fatura ve bir ödemeye karşı başka bir ödemeyi kapatabilirsiniz.
+
+Aynı tüzel kişilikte veya farklı bir tüzel kişilikte bir harekete karşı ödemeleri kapatabilirsiniz. Merkezi ödeme modeli kullanan organizasyonlarda, [merkezi ödemeler](set-up-centralized-payments.md) ödeme sürecini kolaylaştırabilir.
 
 ## <a name="when-to-settle-transactions"></a>Hareketleri ne zaman kapatmalı
-Hareketler ödeme girişinin zamanında kapatılabilir. Örneğin, bir satıcıya ödeme yaptığınızda, genellikle ödenecek faturaları seçersiniz. Faturaları seçerek bunları ödemeyle kapatma işareti koyun. Alacak Hesapları ödeme memurları bir müşteri ödemesini kayda geçirirken, müşterinin ödemesine eklenen bilgiler temelinde uygun faturalara kapatma işareti koyabilirler. **Kapatma hareketleri** sayfası hareketleri kapatma için işaretlemede kullanılır. Bu sayfa, herhangi bir deftere nakledilmeyen fatura veya ödemeden açılabilir. Hareket deftere nakledildiğinde kapatma da nakledilir. Hareketler deftere nakledildikten sonra da kapatılabilir. Bir müşteri ödemesini faturalara karşı kapatmadan da girip deftere nakledebilirsiniz. Ancak, öncelikle araştırma yapmanız, ödemenin doğru faturaya karşı kapatıldığından emin olmanız gerekir. **Kapatma hareketleri** sayfası **Tüm müşteriler** veya **Tüm satıcılar** sayfasından ya da herhangi bir müşteri veya satıcıya yönelik **Hareketler** sayfasından açılabilir. Bir fatura için deftere nakledilmiş ön ödemeleri, ödemeyi bir satınalma emri veya satış emrine karşı kapatma için işaretleyerek rezerve etmeniz de mümkündür. Bu durumda, ödemede açık bakiye devam eder ancak başka bir faturaya karşılık olarak kapatılamaz. Ödeme, satınalma siparişinden veya satış siparişinden oluşturulan faturaya karşılık otomatik olarak kapatılacaktır.
+
+Hareketler, ödemeler girildikten sonra kapatılabilir. Örneğin, bir satıcıya ödeme yaptığınızda, genellikle ödenecek faturaları seçersiniz. Faturaları seçerek bunları ödemeyle kapatma işareti koyun. Alacak Hesapları ödeme memurları müşteri ödemelerini kayda geçirirken, her müşterinin ödemesine eklenen bilgiler temelinde uygun faturalara kapatma işareti koyabilirler. **Kapatma hareketleri** sayfasını hareketleri kapatma için işaretlemek üzere kullanırsınız. Bu sayfayı, herhangi bir deftere nakledilmemiş fatura veya ödemeden açabilirsiniz. Hareket deftere nakledildiğinde kapatma da nakledilir. 
+
+Hareketler deftere nakledildikten sonra da kapatılabilir. Bir müşteri ödemesini faturalara karşı kapatmadan da girip deftere nakledebilirsiniz. Ancak, kapatmayı deftere nakletmeden önce araştırma yapmak, ödemenin doğru faturaya karşı kapatıldığından emin olmak isteyebilirsiniz. **Kapatma hareketleri** sayfası **Tüm müşteriler** veya **Tüm satıcılar** sayfasından ya da herhangi bir müşteri veya satıcıya yönelik **Hareketler** sayfasından açılabilir.
+
+Bir fatura için deftere nakledilmiş ön ödemeleri, ödemeyi bir satınalma emri veya satış emrine karşı kapatma için işaretleyerek rezerve etmeniz de mümkündür. Bu durumda, ödemede açık bakiye devam eder ancak başka bir faturaya karşılık olarak kapatılamaz. Ödeme, satınalma siparişinden veya satış siparişinden oluşturulan faturaya karşılık otomatik olarak kapatılacaktır.
 
 ## <a name="how-to-settle-transactions"></a>Hareketler nasıl kapatılır
-Hareketler el ile, otomatik veya bu iki yöntemin bileşimi ile kapatılabilir. Kapatma yöntemi tercihi, Borç hesapları parametreleri ve Alacak hesapları parametreleri içinde kapatmanın kurulumu üzerinden uygulanabilecek işletme süreçlerine bağlıdır. Ödenecek faturaları seçmede kullanılan bir ödeme teklifi kullanarak satıcı ödemeleri ve müşteri doğrudan borç ödemeleri oluşturabilirsiniz. Ödeme teklifi el ile başlatılır ve ardından ödemeler oluşturulduğunda Dynamics 365 Finance seçilen faturaları kapatma için otomatik olarak işaretler. Ödemeler el ile oluşturulduysa, **Kapatma hareketleri** sayfasını kullanarak kapatma için fatura seçebilirsiniz. Faturaları el ile seçebilir veya **Önceliğe göre işaretle** seçeneğini kullanarak faturaları kapatmaya karşı otomatik olarak işaretleyebilirsiniz. **Önceliğe göre işaretle** seçeneği, yalnızca Alacak hesapları için kullanılabilir. Bu seçeneği etkinleştirmek için,Alacak hesapları parametrelerindeki **Kapatma önceliği** sayfasını kullanın. Ödeme memuru bir ödeme girer, ancak bu ödeme deftere nakledilmeden önce kapatmazsa, ödeme otomatik olarak kapatılabilir. Alacak hesapları parametrelerinde ve Borç hesapları parametrelerinde otomatik kapatmayı etkinleştirebilirsiniz. Otomatik kapatma, aynı tüzel kişilik içindeki hareketleri kapatır ve çoklu tüzel kişilikler arasında kapatma yapmaz. Otomatik kapatma kullandığınızda, önceden tanımlanmış kapatma sırası kullanabilir veya Alacak hesapları parametrelerinde kendi kapatma öncelik sıranızı tanımlayabilirsiniz. Bu işlev yalnızca Alacak hesapları için kullanılabilir.
+
+Hareketler el ile, otomatik veya bu iki yöntemin bileşimi ile kapatılabilir. Kapatma yöntemi seçimi, iş süreçlerinize bağlıdır. **Borç hesapları parametreleri** ve **Alacak hesapları parametreleri** sayfalarında, kapatma işlemini bu iş süreçleriyle uyumlu olacak şekilde yapılandırabilirsiniz.
+
+Ödeme teklifi kullanarak satıcı ödemeleri ve müşteri doğrudan borç ödemeleri oluşturabilirsiniz. Ödeme teklifi ödeme yapılacak faturaları seçmek için kullanılır. Ödeme teklifi el ile başlatılır ve ardından sistem ödemeler oluşturulduğunda seçilen faturaları kapatma için otomatik olarak işaretler.
+
+Ödemeler el ile oluşturulduysa, **Kapatma hareketleri** sayfasını kullanarak kapatma için fatura seçebilirsiniz. Faturaları el ile seçebilir veya **Önceliğe göre işaretle** seçeneğini kullanarak faturaları kapatmaya karşı otomatik olarak işaretleyebilirsiniz. **Önceliğe göre işaretle** seçeneği, yalnızca Alacak hesapları için kullanılabilir. Bu seçeneği **Alacak hesapları parametreleri** sayfasındaki **Kapatma önceliği** sekmesinde açabilirsiniz.
+
+Ödeme memuru bir ödeme girer, ancak bu ödeme deftere nakledilmeden önce kapatmazsa, ödeme otomatik olarak kapatılabilir. **Alacak hesapları parametreleri** ve **Borç hesapları parametreleri** sayfalarında otomatik kapatmayı etkinleştirebilirsiniz. Otomatik kapatma, hareketleri yalnızca aynı tüzel varlıkta kapatır. Birden çok tüzel kişilikteki hareketleri kapatmaz.
+
+Otomatik kapatma kullandığınızda, önceden tanımlanmış kapatma önceliği kullanabilir veya **Alacak hesapları parametreleri** sayfasında kendi kapatma öncelik sıranızı tanımlayabilirsiniz. Bu işlev yalnızca Alacak hesapları için kullanılabilir.
 
 ## <a name="results-of-settlement"></a>Kapatma sonuçları
-Hareketler kapatıldıkça, her bir hareketin devreden bakiyesi uygun şekilde artar veya azalır. Bir faturanın veya ödemenin kapatıldığı tipik bir senaryoda, her bir hareketin durumu ve bakiyesi, aşağıdaki kurallara göre güncellenir:
 
--   Ödeme tutarı fatura tutarından fazla ise, fatura bakiyesi 0,00'a düşürülür ve fatura kapatılır. Ödeme açık kalır; bakiye, ödemenin fatura tutarını aştığı tutardır.
--   Ödeme tutarı fatura tutarından az ise, ödeme bakiyesi 0,00'a düşürülür ve ödeme kapatılır. Fatura açık kalır; bakiye, ödemenin faturadan düşük kaldığı tutardır.
--   Ödeme tutarı fatura tutarına eşitse, hem ödeme hem de fatura kapatılır ve her ikisinin de bakiyesi 0,00 olur.
+Hareketler kapatıldıkça, her bir hareketin devreden bakiyesi uygun şekilde artar veya azalır. Genellikle, bir fatura veya ödeme kapatıldığında, her bir hareketin durumu ve bakiyesi, aşağıdaki kurallara göre güncellenir:
 
-Bir [ödeme fatura tutarından düşükse](../accounts-payable/vendor-payments-partial-amount.md) (nakit iskontosu, ücret silme veya eksik ödeme yüzünden), fatura ve ödeme, Borç hesapları parametreleri ve Alacak hesapları parametreleri içinde kapatmanın kurulumuna bağlı olarak halen kapatılabilir. Kapatma, hareketler de üretebilir. Örneğin, bir faturanın ve ödemenin kapatılması, nakit iskontosu, gerçekleşmiş kar veya zarar, satış vergisi düzeltmeleri, ücret silme veya kuruş farkları doğurabilir.
+- Ödeme tutarı fatura tutarından fazla ise, fatura bakiyesi 0,00'a düşürülür ve fatura kapatılır. Ödeme açık kalır ve bakiye, ödeme tutarı ile fatura tutarı arasındaki farktır.
+- Ödeme tutarı fatura tutarından az ise, ödeme bakiyesi 0,00'a düşürülür ve ödeme kapatılır. Fatura açık kalır ve bakiye, fatura tutarı ile ödeme tutarı arasındaki farktır.
+- Ödeme tutarı fatura tutarına eşitse, hem ödeme hem de fatura kapatılır ve her ikisinin de bakiyesi 0,00'a düşürülür.
 
+[Ödeme tutarı fatura tutarından düşükse](../accounts-payable/vendor-payments-partial-amount.md) (nakit iskontosu, ücret silme veya eksik ödeme yüzünden), fatura ve ödeme **Borç hesapları parametreleri** ve **Alacak hesapları parametreleri** sayfasındaki kapatma yapılandırmasına bağlı olarak, yine de kapatılabilir.
+
+Kapatmalar hareketler de üretebilir. Örneğin, bir faturanın ve ödemenin kapatılması, nakit iskontosu, gerçekleşmiş kar veya zarar, satış vergisi düzeltmeleri, ücret silme veya kuruş farkları doğurabilir.
+
+## <a name="identifying-marked-transactions-during-settlement"></a>Kapatma sırasında işaretlenen hareketleri tanımlama
+
+Bir hareketi kapatmaya çalıştığınızda, hareketin başka bir konumda işaretlendiğini gösteren bir sembol görebilirsiniz. Bu durumda, **Kareketleri kapat** sayfasında hareketi seçebilir ve **Sorgula \> Kapatma penceresinden kapatma**'yı seçebilirsiniz. Bu sorgu görünümü, hareketin kapatılmasını engelleyebilecek olan günlükler, satış siparişleri, faturalar, ödeme teklifleri ve müşteri yerleşimlerini gösterir. Sorunu çözmek için, doğrudan sorgudan engellenen konuma gidecek bağlantıyı seçebilirsiniz. Daha sonra belgeyi, bunu kapatmak için gereken ayarlamalarla güncelleştirebilirsiniz. Ayrıca, aynı engelleme konumuna dahil edilen diğer belgeleri tanımlamak için **İşaretlendi** göstergesini de kullanabilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-- [Kalanı kapat](settle-remainder.md)
 
+- [Kalanı kapat](settle-remainder.md)

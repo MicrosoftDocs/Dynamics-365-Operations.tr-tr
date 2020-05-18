@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205679"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346480"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Esnek ambar düzeyi boyut rezervasyon ilkesi
 
@@ -233,7 +233,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Evet</td>
 <td>
 <ol>
-<li>Malzeme çekme işini başlatırken Ambar Mobil Uygulaması'nda (WMA) <strong>Konumu geçersiz kıl</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini başlatırken ambarlama uygulamasında <strong>Konumu geçersiz kıl</strong> menü öğesini seçin.</li>
 <li><strong>Öner</strong>'i seçin.</li>
 <li>Toplu iş miktarı kullanılabilirliğine dayalı olarak önerilen yeni yerleşimi onaylayın.</li>
 </ol>
@@ -244,13 +244,13 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <li>Miktar yeni yerleşimde birden fazla plakada bulunursa, orijinal çekme satırı her bir plakayla eşleştirilmek üzere birden çok satıra bölünür.</li>
 </ul>
 </td>
-<td>Uygulanamaz</td>
+<td>Geçerli değil</td>
 </tr>
 <tr>
-<td>Hayır</td>
+<td>No</td>
 <td>
 <ol>
-<li>Malzeme çekme işini başlatırken WMA'daki <strong>Konumu geçersiz kıl</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini başlatırken ambarlama uygulamasında <strong>Konumu geçersiz kıl</strong> menü öğesini seçin.</li>
 <li>El ile bir yerleşim girin.</li>
 </ol>
 </td>
@@ -275,10 +275,10 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <tbody>
 <tr>
 <td>Mobil cihaz menü öğesinde <strong>İşin bölünmesine izin ver</strong> seçeneği etkinleştirilir.</td>
-<td>Uygulanamaz</td>
+<td>Geçerli değil</td>
 <td>
 <ol>
-<li>Malzeme çekme işini işlerken WMA'daki <strong>Tam</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini işlerken ambarlama uygulamasındaki <strong>Tam</strong> menü öğesini seçin.</li>
 <li><strong>Çekme Miktarı</strong> alanında, tam kapasiteyi belirtmek için gereken kısmi bir çekme miktarı girin.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Evet</td>
 <td>
 <ol>
-<li>WMA 'da bir hareket başlatın.</li>
+<li>Ambarlama uygulamasında bir hareket başlatın.</li>
 <li>"Çıkış" ve "hedef" yerleşimlerini girin.</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Evet</td>
 <td>
 <ol>
-<li>Siz malzeme çekme işini işlerken WMA'da <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Malzeme çekme miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanına <strong>Yeniden tahsis yok</strong> girin.</li>
 </ol>
@@ -498,7 +498,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Evet</td>
 <td>
 <ol>
-<li>Siz malzeme çekme işini işlerken WMA'da <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Malzeme çekme miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanına <strong>Yeniden tahsis yok</strong> girin.</li>
 </ol>
@@ -522,7 +522,7 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 <td>Evet</td>
 <td>
 <ol>
-<li>Siz malzeme çekme işini işlerken WMA'da <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Eksik Çekme Miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanında <strong>El ile tahsisatla kısa malzeme çekme</strong>'yi seçin.</li>
 <li>Listede yerleşimi/plakayı seçin.</li>
@@ -545,10 +545,10 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 </tr>
 <tr>
 <td><strong>Eksik çekme</strong> türünde bir iş özel durumu ayarlanmıştır ve bu özel durumda ayarlar şöyledir: <strong>Madde yeniden tahsisi</strong> = <strong>El ile</strong>, <strong>Stoğu ayarla</strong> = <strong>Evet</strong> ve <strong>Rezervasyonları kaldır</strong> = <strong>Hayır</strong>. Ek olarak, <strong>El ile madde yeniden tahsisine izin ver</strong> seçeneği çalışanda etkinleştirilmiştir.</td>
-<td>Hayır</td>
+<td>No</td>
 <td>
 <ol>
-<li>Siz malzeme çekme işini işlerken WMA'da <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Eksik Çekme Miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanında <strong>El ile tahsisatla kısa malzeme çekme</strong>'yi seçin.</li>
 </ol>
@@ -558,10 +558,10 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 </tr>
 <tr>
 <td><strong>Eksik çekme</strong> türünde bir iş özel durumu ayarlanmıştır ve bu özel durumda ayarlar şöyledir: <strong>Madde yeniden tahsisi</strong> = <strong>El ile</strong>, <strong>Stoğu ayarla</strong> = <strong>Evet</strong> ve <strong>Rezervasyonları kaldır</strong> = <strong>Evet</strong>. Ek olarak, <strong>El ile madde yeniden tahsisine izin ver</strong> seçeneği çalışanda etkinleştirilmiştir.</td>
-<td>Hayır</td>
+<td>No</td>
 <td>
 <ol>
-<li>Siz malzeme çekme işini işlerken WMA'da <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Eksik Çekme Miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanında <strong>El ile tahsisatla kısa malzeme çekme</strong>'yi seçin.</li>
 <li>Listede yerleşimi/plakayı seçin.</li>
@@ -582,10 +582,10 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
 </tr>
 <tr>
 <td><strong>Eksik çekme</strong> türünde bir iş özel durumu ayarlanmıştır ve bu özel durumda ayarlar şöyledir: <strong>Madde yeniden tahsisi</strong> = <strong>Otomatik</strong>, <strong>Stoğu ayarla</strong> = <strong>Evet/Hayır</strong> ve <strong>Rezervasyonları kaldır</strong> = <strong>Evet/Hayır</strong>.</td>
-<td>Uygulanamaz</td>
+<td>Geçerli değil</td>
 <td>
 <ol>
-<li>Siz malzeme çekme işini işlerken WMA'da <strong>Eksik çekme</strong> menü öğesini seçin.</li>
+<li>Malzeme çekme işini çalıştırırken ambarlama uygulamasındaki <strong>Eksik çekme</strong> menü öğesini seçin.</li>
 <li><strong>Eksik Çekme Miktarı</strong> alanına <strong>0</strong> (sıfır) girin.</li>
 <li><strong>Neden</strong> alanında <strong>Otomatik tahsisatla kısa malzeme çekme</strong>'yi seçin.</li>
 </ol>

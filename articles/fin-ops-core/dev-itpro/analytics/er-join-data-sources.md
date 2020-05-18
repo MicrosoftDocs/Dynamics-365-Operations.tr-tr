@@ -3,7 +3,7 @@ title: Birden çok uygulama tablosundan veri almak için ER model eşlemelerinde
 description: Bu konu, Elektronik raporlamada (ER) BİRLEŞTİRME türü veri kaynaklarını nasıl kullanabileceğinizi açıklamaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
+ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667966"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3332334"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Birden çok uygulama tablosundan veri almak için Elektronik raporlama (ER model) eşlemelerinde BİRLEŞTİRME veri kaynaklarını kullanma
 
@@ -140,7 +140,7 @@ ER model eşleme bileşeninin ayarlarını gözden geçirin. Bileşen, **Birleş
 
 7.  Sayfayı kapatın.
 
-### <a name="review"></a> ER model eşlemesini gözden geçirme (Bölüm 2)
+### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> ER model eşlemesini gözden geçirme (Bölüm 2)
 
 ER model eşleme bileşeninin ayarlarını gözden geçirin. Bileşen, **Birleştirme** türü veri kaynağı kullanılarak ER yapılandırmalarının, yapılandırma ayrıntılarının ve yapılandırma sağlayıcılarının sürümleriyle ilgili bilgilere erişmek için yapılandırılmıştır.
 
@@ -185,7 +185,7 @@ ER model eşleme bileşeninin ayarlarını gözden geçirin. Bileşen, **Birleş
 9.  Sayfayı kapatın.
 10. **İptal**'i seçin.
 
-### <a name="executeERformat"></a> ER biçimi yürüt
+### <a name="execute-er-format"></a><a name="executeERformat"></a> ER biçimi yürüt
 
 1.  Web tarayıcınızın ikinci oturumunda, ilk oturumda olduğu gibi aynı kimlik bilgilerini ve şirketi kullanarak Finance veya RCS'ye erişin.
 2.  **Kuruluş yönetimi \> Elektronik raporlama \> Yapılandırmalar** seçeneğine git.
@@ -240,7 +240,7 @@ ER model eşleme bileşeninin ayarlarını gözden geçirin. Bileşen, **Birleş
 
     ![ER kullanıcı iletişim sayfası](./media/GER-JoinDS-Set2Run.PNG)
 
-#### <a name="analyze"></a> ER biçimi yürütme izlemesini analiz etme
+#### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> ER biçimi yürütme izlemesini analiz etme
 
 1.  Finance veya RCS'nin ilk oturumunda **Tasarımcı**'yı seçin.
 2.  **Performans izleme**'yi seçin.
@@ -256,6 +256,33 @@ ER model eşleme bileşeninin ayarlarını gözden geçirin. Bileşen, **Birleş
     - **Ayrıntılar** veri kaynağında yapılandırılan birleştirmeler kullanılarak, yapılandırma sürümü sayısını hesaplamak üzere uygulama veritabanı bir kez çağrıldı.
 
     ![ER model eşleme tasarımcısı sayfası](./media/GER-JoinDS-Set2Run3.PNG)
+
+## <a name="limitations"></a>Sınırlamalar
+
+Bu konudaki örnekte görebileceğiniz gibi, **BİRLEŞTİR** veri kaynağı, birleştirilmesi gereken kayıtların ayrı veri kümelerini açıklayan birçok veri kaynağından oluşturulabilir. Bu veri kaynaklarını, yerleşik ER [FİLTRESİ](er-functions-list-filter.md) işlevini kullanarak yapılandırabilirsiniz. Veri kaynağını **BİRLEŞTİR** veri kaynağının dışında çağrılacak şekilde yapılandırdığınızda, şirket aralıklarını veri seçimi koşulunun parçası olarak kullanabilirsiniz. **BİRLEŞTİR** veri kaynağının başlangıç uygulaması bu türdeki veri kaynaklarını desteklemez. Örneğin, [FİLTRE](er-functions-list-filter.md) tabanlı bir veri kaynağını **BİRLEŞTİR** veri kaynağının yürütme kapsamı içinde çağırdığınızda, çağrılan veri kaynağı veri seçimi koşulunun bir parçası olarak şirket aralıklarını içeriyorsa, özel durum oluşur.
+
+Microsoft Dynamics 365 Finance 10.0.12 sürümümde (2020 Ağustos) şirket aralıklarını, **BİRLEŞTİR** veri kaynağı yürütme kapsamında çağrılan [FİLTRE](er-functions-list-filter.md) tabanlı birleştirme veri kaynağında veri seçimi koşulunun bir parçası olarak kullanabilirsiniz. Uygulama [sorgu](../dev-ref/xpp-library-objects.md#query-object-model)oluşturucusunun sınırlamaları nedeniyle, şirket aralıkları **BİRLEŞTİR** veri kaynağının yalnızca ilk veri kaynağı için desteklenir.
+
+### <a name="example"></a>Örnek
+
+Örneğin, birden fazla şirketin yurt dışı ticari hareket listelerini ve bu hareketlerde başvurulan stok maddesinin ayrıntılarını almak için uygulama veritabanına tek bir çağrı yapmanız gerekir.
+
+Bu durumda, aşağıdaki yapıları ER model eşlemenizde yapılandırırsınız:
+
+- **Intrastat** tablosunu gösteren **Intrastat** kök veri kaynağı.
+- **InventTable** tablosunu gösteren **Maddeler** kök veri kaynağı.
+- Hareketlere erişilmesi gereken şirket listesini döndüren **Şirketler** kök veri kaynağı ( bu örnekte **DEMF** ve **GBSI**), hareketlerin erişilmesi gereken şirket kök veri kaynağı. Şirket kodu, **Companies.Code** alanından alınabilir.
+- `FILTER (Intrastat, VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code))` ifadesine sahip **X1** kök veri kaynağı. Veri seçimi koşulunun bir parçası olarak bu ifade şirket aralıklarının tanımını içerir `VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code)`.
+- **X1** veri kaynağının iç içe geçmiş bir öğesi olarak **X2** veri kaynağı. `FILTER (Items, Items.ItemId = X1.ItemId)` ifadesini içerir.
+
+Son olarak, **X1**'in ilk veri kaynağı ve **X2**'nin ikinci veri kaynağı olduğu bir **BİRLEŞTİR** veri kaynağı yapılandırabilirsiniz. **Sorgu**'yu, ER'yi bu veri kaynağını doğrudan bir SQL çağrısı olarak veritabanı düzeyinde çalıştırmaya zorlamak için **Yürüt** seçeneği olarak belirtebilirsiniz.
+
+Yapılandırılan veri kaynağı ER yürütmesi [izlenirken](trace-execution-er-troubleshoot-perf.md) çalıştırıldığında, ER model eşleme tasarımcısında ER performans izlemesenin bir parçası olarak aşağıdaki ifade gösterilir.
+
+`SELECT ... FROM INTRASTAT T1 CROSS JOIN INVENTTABLE T2 WHERE ((T1.PARTITION=?) AND (T1.DATAAREAID IN (N'DEMF',N'GBSI') )) AND ((T2.PARTITION=?) AND (T2.ITEMID=T1.ITEMID AND (T2.DATAAREAID = T1.DATAAREAID) AND (T2.PARTITION = T1.PARTITION))) ORDER BY T1.DISPATCHID,T1.SEQNUM`
+
+> [!NOTE]
+> Yapılandırılmş bir **BİRLEŞTİR** veri kaynağı çalıştırısanız bir hata oluşur; bu, yürütülen **BİRLEŞTİR** veri kaynağının ek veri kaynakları için şirket aralıkları olan veri seçimi koşullarını içerir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

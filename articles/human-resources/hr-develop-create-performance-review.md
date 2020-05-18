@@ -3,7 +3,7 @@ title: Performans incelemeleri oluşturma
 description: Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözden geçirmenin her bölümünün amacını açıklar.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2019
+ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 50ef3f305756f1ab0db895854cd7e1c71237cb48
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 22f3e82e7a1ebba689c1aa1ebbe75603a5c09188
+ms.sourcegitcommit: f06e48c7d487299aa4e2cff3e8f60cb8be0790df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010862"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334695"
 ---
 # <a name="create-performance-reviews"></a>Performans incelemeleri oluşturma
-
 
 
 Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözden geçirmenin her bölümünün amacını açıklar. Bu yordam, USMF demo veri şirketi kullanılarak oluşturulmuştur.
@@ -37,7 +36,7 @@ Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözde
 6. **Tamam**'ı seçin. Gözden geçirmeyi bir şablondan da oluşturabilirsiniz. Her bölüm gözden geçirmeyi başlatmak için gereken bilgileri içereceğinden bu, bir gözden geçirme oluşturmanın en iyi yoludur.  
 7. Ekler sekmesi gibi sekmeleri gösterebilir veya gizleyebilirsiniz:
 
-    1. Eylem bölmesinde, bırakma iletişim kutusunu açmak için **Bölümleri göster**'i seçin.
+    1. Eylem Bölmesinde, iletişim kutusu menüsünü açmak için **Bölümleri göster**'i seçin.
     1. Ekler sekmesini göstermek veya gizlemek için **Ekleri göster** alanındaki **Evet** ya da **Hayır**'ı seçin.
     1. **Kaydet**'i seçin.
 
@@ -51,7 +50,7 @@ Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözde
 15. **Yorum ekle**'yi seçin.
 16. **Naklet**'i seçin.
 17. **Ölçüm** sekmesini seçin.
-18. Açılır iletişim kutusunu açmak için **Ölçüm ekle**'yi seçin.
+18. İletişim kutusu menüsünü açmak için **Ölçüm ekle**'yi seçin.
 19. **Ölçüm** alanına bir değer girin veya seçin.
 26. **Hedef tutar** alanına bir sayı girin.
 20. **Tamam**'ı seçin.
@@ -67,13 +66,13 @@ Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözde
 30. **Derecelendirmeler** sekmesini seçin.  
 
     - **Derecelendirme ayrıntıları** Hızlı Sekmesi, çalışanların kendilerini derecelendirmelerini ve yöneticinin çalışanı derecelendirmesini sağlar. Ağırlıklar kullanılırsa puanların ağırlık değeri otomatik olarak hesaplanır.  
-    - Bu bölümü görmek için çalışan derecelendirmelerini göstermek üzere parametre ayarlarını etkinleştirin.  
+    - Bu bölümü görüntülemek için çalışan derecelendirmelerini göstermek üzere parametre ayarlarını etkinleştirin.  
 
 31. **Oturum kapatma işlemleri** sekmesini seçin. Oturumu kapatma işlemleri yalnızca iş akışı tamamlandıktan sonra görüntülenir. İş akışı kullanılmazsa çalışan ve yönetici burada listelenir. Gözden geçirme türü ayarlarına göre gerekli onay kutusu seçilidir.  
 32. **Genel** sekmesini seçin.
 
     - Performans dönemi varsayılan başlangıç ve bitiş tarihlerini oluşturur. Bu tarihler düzenlenebilir.  
-    - Durumlar gözden geçirmeye erişimi kontrol eder. **Başlatılmadı** durumu gözden geçirmeyi herkesin görmesine olanak tanır. **İşlemde** durumunu gözden geçirmeyi yalnızca çalışanların görüntülemesine ve düzenlemesine olanak tanır. Gözden geçirme için hazır, gözden geçirmeyi yalnızca yöneticinin görüntülemesine ve düzenlemesine olanak tanır. Son gözden geçirme durumu, gözden geçirmeyi hem çalışan hem de yöneticinin görmesine ve gözden geçirme türünde ayarlandıysa düzenlemesine olanak tanır. **Tamamlandı**, **Reddedildi** ve **İptal Edildi** durumları gözden geçirmeyi salt okunur hale getirir.  
+    - Durumlar gözden geçirmeye erişimi kontrol eder. **Başlatılmadı** durumu gözden geçirmeyi herkesin görmesine olanak tanır. **İşlemde** durumunu gözden geçirmeyi yalnızca çalışanların görüntülemesine ve düzenlemesine olanak tanır. **Gözden geçirme için hazır**, gözden geçirmeyi yalnızca yöneticinin görüntülemesine ve düzenlemesine olanak tanır. **Son gözden geçirme** durumu, gözden geçirmeyi hem çalışan hem de yöneticinin görmesine ve gözden geçirme türünde ayarlandıysa düzenlemesine olanak tanır. **Tamamlandı** ve **İptal Edildi** durumları gözden geçirmeyi salt okunur hale getirir. Bir gözden geçirme **Reddedildi** durumundaysa ve çalışana geri gönderilirse, hem çalışan hem de yönetici, çalışanın yeniden gönderebilmesi için gerekli düzenlemeleri yapabilir.
 
 33. **Özet** alanına bir değer yazın.
 34. **Gözden geçirme** sekmesini seçin. Gözden geçirme durumlar arasında ilerledikçe çalışan ve yönetici her bir hedef veya uzmanlık için yorumlar ekleyebilir.  

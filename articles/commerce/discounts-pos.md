@@ -3,7 +3,7 @@ title: POS'ta iskontoları gösterme
 description: Bu konu, Microsoft Dynamics 365 Commerce'ın satış görevlilerine promosyonlar hakkında bilgi edinme ve bunları çapraz satış ve yukarı satış için kullanma konusunda nasıl yardımcı olduğunu açıklamaktadır.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/06/2020
+ms.date: 05/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
+ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265605"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334720"
 ---
 # <a name="show-discounts-in-pos"></a>POS'ta iskontoları gösterme
 
@@ -54,9 +54,9 @@ Commerce, "Tüm iskontoları görüntüle" adlı bir işlem içerir. Bu işlem, 
 
 Miktar iskontoları, karıştır ve eşle iskontoları ve eşik iskontoları gibi çok satırlı iskontolar, müşterileri daha büyük indirimler elde etmek amacıyla daha fazla ürün satın almaya ikna etmek için ideal bir yoldur. Bu nedenle, müşterinin sepetinin boyutunu ve satıcının gelirini artırmaya da yardımcı olurlar. Bu iskontolar e-ticaret web sitelerinde, sosyal medyada ve mağazadaki panolarda duyurulabilir.
 
-Ancak, tüm bu tanıtım yöntemleri kullanıldığında bile, müşteriler promosyonlardan yararlanma fırsatını kaçırabilir. Satış görevlilerinin, seçili bir satıra veya alışveriş sepetinin tamamına hangi promosyonların uygulanabilir olduğunu olduğunu öğrenmesine olanak sağlamak için, perakendeciler "Tüm iskontoları görüntüle" işlemi için POS içindeki herhangi bir düğme ızgarasına düğme ekleyebilir. Düğmenin **Hareket** sayfası düğme kılavuzuna eklenmesini öneririz. Bu şekilde, bir satış görevlisi bir hareket satırını seçip seçili satır için kullanılabilir olan tüm iskontoları görmek için düğmeyi seçebilir. Satış görevlisi, tüm hareket için geçerli olan iskontoları görüntülemek için başka bir sekme de seçebilir.
+Ancak, tüm bu tanıtım yöntemleri kullanıldığında bile, müşteriler promosyonlardan yararlanma fırsatını kaçırabilir. Satış görevlilerinin, seçili bir satıra veya alışveriş sepetinin tamamına hangi promosyonların uygulanabilir olduğunu olduğunu öğrenmesine olanak sağlamak için, perakendeciler "Kullanılabilir iskontoları görüntüle" işlemi için **Hareket** sayfasındaki düğme ızgarasına düğme ekleyebilir. Bu şekilde, bir satış görevlisi bir hareket satırını seçip seçili satır için kullanılabilir olan tüm iskontoları görmek için düğmeyi seçebilir. Satış görevlisi, tüm hareket için geçerli olan iskontoları görüntülemek için başka bir sekme de seçebilir.
 
-Daha önce belirtilen **Tüm İskontolar** sayfası yalnızca uygulanan indirimlerle rekabet vermeyen iskontoları gösterir. Bu davranış, bir satış görevlisinin müşteriyi bir iskontoyla ilgili bilgilendirmesi ve müşterinin gerekli eylemi yapması durumunda (örneğin, müşterinin yüzde 10 indirim almak için bir ürün daha satın alması), iskontonun harekete uygulanmasını sağlar. Daha önce bahsedildiği gibi, kupon tabanlı iskontolar yalnızca **Kupon kodu olmadan uygula** seçeneği açık olduğunda görüntülenir.
+**Tüm İskontolar** sayfası yalnızca uygulanan indirimlerle rekabet vermeyen iskontoları gösterir. Bu davranış, bir satış görevlisinin müşteriyi bir iskontoyla ilgili bilgilendirmesi ve müşterinin gerekli eylemi yapması durumunda (örneğin, müşterinin yüzde 10 indirim almak için bir ürün daha satın alması), iskontonun harekete uygulanmasını sağlar. Kupon tabanlı iskontolar yalnızca **Kupon kodu olmadan uygula** seçeneği açık olduğunda görüntülenir.
 
 Tüm iskontoların aynı önceliğe sahip olduğu basit bir senaryoda, iskonto eşzamanlılık modu **Bileşik** olur ve iskonto eşzamanlılık denetimi **En iyi fiyat ve öncelik içinde bileşim, öncelikler arasında kesinlikle bileşim yok** olarak ayarlanır; İskontolar bileşik olduğundan ve birbirleriyle rekabet etmediğinden **Tüm iskontolar** sayfası bir ürün için kullanılabilir tüm iskontoları gösterir.
 
