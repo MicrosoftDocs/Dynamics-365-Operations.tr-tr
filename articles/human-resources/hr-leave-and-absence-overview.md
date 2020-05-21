@@ -3,7 +3,7 @@ title: Özet
 description: Dynamics 365 Human Resources'ta İzin ve devamsızlık çalışma alanı, yeni izin planları oluşturmak için esnek bir çerçeve, isteklerin yönetilmesi için iş akışları ve çalışanların zaman istebilmesi için sezgisel bir self servis sayfası sağlar.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
-ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
+ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
+ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/04/2020
-ms.locfileid: "3226242"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3325777"
 ---
 # <a name="overview"></a>Özet
 
@@ -78,8 +78,16 @@ Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlama
 
 ## <a name="leave-and-absence-preview-features"></a>İzin ve devamsızlık Önizleme özellikleri
 
-Bir **korumalı alan** ortamında yeni izin ve devamsızlık Önizleme özelliklerini deneyebilirsiniz. Önizleme özelliklerini açma hakkında bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md). Önizleme özellikleri şunları içerir:
+Bir **korumalı alan** ortamında yeni izin ve devamsızlık Önizleme özelliklerini deneyebilirsiniz. Önizleme özelliklerini açma hakkında bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md). 
 
-- **İzin askıya alma** - Human Resources'ta bir çalışan için izin ve devamsızlığı askıya alabilirsiniz. İzni askıya alma, seçili izin türleri için izin tahakkuklarını durdurur. Askıya alma bir tahakkuk işleminden sonra gerçekleştiğinde, askıya alınan izin çalışanın izin bakiyesinde eşit dağıtılmış bir ayarlama oluşturur. 
+[!include [banner](includes/preview-feature.md)]
+
+Önizleme özellikleri şunları içerir:
+
+- **İzin askıya alma** - Human Resources'ta bir çalışan için izin ve devamsızlığı askıya alabilirsiniz. İzni askıya alma, seçili izin türleri için izin tahakkuklarını durdurur. Askıya alma bir tahakkuk işleminden sonra gerçekleştiğinde, askıya alınan izin çalışanın izin bakiyesinde eşit dağıtılmış bir ayarlama oluşturur. Bir çalışanın iznini askıya alırken neden kodları dahil edebilirsiniz. Kullanıcı deneyimi, askıya almayı gösterecek şekilde güncelleştirildi. 
 
 - **Devretme kuralları** - Devretme ayarlamalarının transfer edildiği devir bakiyeleri için bir devretme izin türü belirtebilirsiniz. Örneğin, bir çalışan 10 günü ileri taşıyorsa, bu 10 gün için farklı bir izin türü seçebilirsiniz. 
+
+- **Düzeltmeler için neden kodu ve açıklamaları dahil et** - Çalışanın izin bakiyesi üzerinde ayarlama yaparken bir neden kodu ve açıklama dahil edebilirsiniz. 
+
+- **İzin ve devamsızlık parametrelerine geçiş** - Artık İnsan Kaynakları parametreleri kullanmak yerine yalnızca İzin ve devamsızlık parametrelerini kullanabilirsiniz. 

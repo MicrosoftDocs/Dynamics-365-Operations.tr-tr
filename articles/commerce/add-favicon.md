@@ -3,7 +3,7 @@ title: Favicon ekleme
 description: Bu konu, sitenize bir tercih simgesi ekleneceğini açıklamaktadır.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 287663817232e7ce86e8fdb1fb5c2fcfeed33d20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
+ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001560"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295092"
 ---
 # <a name="add-a-favicon"></a>Favicon ekleme
-
 
 [!include [banner](includes/banner.md)]
 
@@ -41,23 +40,48 @@ Sitenize çeşitli boyutlarda ve dosya türlerindeki birçok tercih edilebilir s
 
 Sitenizin varlık koleksiyonuna bir tercih simgesi yüklemek için aşağıdakileri takip edin.
 
-1. **Varlıklar \> Yükle \> Varlıkları yükle**'ye gidin.
-1. Yerel dosya sisteminizdeki tercih simgesini bulun ve seçin.
-1. Bir başlık girin ve **Tamam**'ı seçin. 
-1. Sağdaki özellik bölmesinde, tercih edilen simgenin ortak URL'sini kopyalayın.
+1. Soldaki gezinti bölmesinde **Medya Kitaplığı**'nı seçin.
+1. Komut çubuğunda, **Karşıya yükle \> Medya Öğelerini Karşıya Yükle**'yi seçin.
+1. Dosya Gezgini penceresinde, karşıya yüklemek istediğiniz site simgesi resim dosyasının konumuna göz atın, dosyayı ve ardından **Aç**'ı seçin.
+1. **Medya Öğesini Karşıya Yükle** iletişim kutusunda gerekli başlığı ve alt metni girin.
+1. Görüntüleri karşıya yükledikten hemen sonra yayımlamak isterseniz, **Karşıya yükleme sonrasında medyayı yayımla** onay kutusunu seçin.
 
-> [!NOTE]
-> **Yükledikten sonra varlıkları Yayınla** seçeneğini seçmezseniz, **varlıklar** sayfasına dönmeniz ve daha sonra yeniden öncelik simgesini el ile yayımlamanız gerekir.
+    > [!NOTE]
+    > **Yükledikten sonra medya öğelerini yayımla** onay kutusunu seçmezseniz, **Medya öğeleri** sayfasına dönmeniz ve daha sonra site simgesini el ile yayımlamanız gerekir.
 
-## <a name="create-the-html-for-the-favicon"></a>Tercih simgesi için HTML oluşturun
+1. **Tamam**'ı seçin.
+1. Sağdaki özellik bölmesinde, tercih edilen simgenin ortak URL'sini kopyalayın. Bu URL'yi daha sonra kullanacaksınız.
 
-Tercih edilen simgenin HTML'i oluşturmak için aşağıdaki HTML kod parçacığını kullanın. **Href** özniteliği için, **Tercih\_simgeniz\_için\_genel\_URL**'yi önceden kopyaladığınız ortak URL ile değiştirin.
+## <a name="create-the-html-for-your-favicon"></a>Site simgeniz için HTML oluşturma
+
+Tercih edilen simgenin HTML'ini oluşturmak için aşağıdaki HTML dizesini kullanın. **href** özniteliği için, **site\_simgeniz\_için\_genel\_URL**'yi önceden kopyaladığınız genel URL ile değiştirin.
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="add-the-html-for-the-favicon-to-the-head-element-of-your-pages"></a>Tercih simgesi için HTML'yi sayfalarınızın \<baş\> öğesine ekleyin
+## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Site simgesi için meta etiketi içeren bir sayfa parçası oluşturma
 
-Sitenize bir tercih simgesi eklemek için, site sayfalarınızın **\<baş\>** öğesine herhangi bir türdeki HTML veya kod eklemek için kullanılan yordamın aynısını kullanın.
+Site simgesi için meta etiketi içeren bir sayfa parçası oluşturmak için aşağıdaki adımları seçin.
+
+1. **Sayfa parçaları**'na gidin ve **Yeni**'yi seçin.
+1. **Yeni Sayfa Parçası** iletişim kutusunda, sayfa parçasının temel aldığı modül olarak **Meta etiketleri**'ni seçin.
+1. Sayfa parçası için bir ad girin ve **Tamam**'ı seçin.
+1. Parça hiyerarşisi ağacında, **Varsayılan meta etiketleri** alt öğesini seçin.
+1. Sağ bölmede, **Meta Etiketleri** altında **Ekle**'yi seçin ve site simgesi için daha önce oluşturduğunuz HTML dizesini girin. 
+1. **Düzenlemeyi bitir**'i seçin, ardından sayfa parçasını yayımlamak için **Yayımla**'yı seçin.
+
+## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Meta etiket sayfası parçasını, sayfalarınızın HTML başlık bölümüne ekleyin
+
+Meta etiket sayfası parçasını, sayfalarınızın HTML **başlık** bölümüne eklemek için şu adımları izleyin.
+
+1. **Şablonlar**a gidin, site simgenizi eklemek istediğiniz sayfaların şablonunu açın ve **Düzenle**'yi seçin.
+1. Şablon hiyerarşisi ağacında, **HTML başlığı** kapsayıcısının sağında bulunan üç nokta düğmesini (**...**) seçin ve sonra **Sayfa parçası ekle**'yi seçin.
+1. **Sayfa Parçası Seç** iletişim kutusunda daha önce oluşturduğunuz meta etiketi sayfa parçasını ve sonra **Tamam**'ı seçin.
+1. **Düzenlemeyi bitir**'i seçin, ardından şablonu yayımlamak için **Yayımla**'yı seçin.
+
+> [!NOTE]
+> Sitenizde birden fazla şablon kullanılıyorsa, tüm bunlara meta etiketleri sayfa parçasını eklemeniz gerekir.
+
+Meta etiketleri sayfa parçasını eklediğiniz şablonu temel alan sayfaları önizlerken, tarayıcı sekmesinde site simgesini görmeniz gerekir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

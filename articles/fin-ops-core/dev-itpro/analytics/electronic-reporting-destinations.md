@@ -3,7 +3,7 @@ title: Elektronik raporlama (ER) hedefleri
 description: Bu konu, elektronik raporlama (ER) hedeflerinin yönetimi, desteklenen hedef türleri ve güvenlik konuları hakkında bilgi vermektedir.
 author: nselin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
-ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
+ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150827"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323704"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
@@ -52,7 +52,36 @@ Aynı zamanda bir [Yazdırma](er-destination-type-print.md) hedefi türü vardı
 
 ## <a name="overview"></a>Genel Bakış
 
-Yalnızca, geçerli Finance kurulumuna [aktarılmış](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER yapılandırmaları ve **Elektronik raporlama yapılandırmaları** sayfasında kullanılabilen biçimler için hedefler ayarlayabilirsiniz. ER hedef yönetimi işlevselliği, **Organizasyon yönetimi** \> **Elektronik raporlama** \> **Elektronik raporlama hedefi**'nde kullanılabilir. **Elektronik raporlama hedefi** sayfasında, bir yapılandırma için varsayılan davranışı geçersiz kılabilirsiniz. Siz **Yeni** ve ardından **Referans** alanını seçene kadar içe aktarılan yapılandırmalar bu sayfada gösterilmez, hedef ayarlarını oluşturmak için bir yapılandırma seçin.
+Yalnızca, geçerli Finance kurulumuna [aktarılmış](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER yapılandırmaları ve **Elektronik raporlama yapılandırmaları** sayfasında kullanılabilen biçimler için hedefler ayarlayabilirsiniz. ER hedef yönetimi işlevselliği, **Organizasyon yönetimi** \> **Elektronik raporlama** \> **Elektronik raporlama hedefi**'nde kullanılabilir.
+
+### <a name="default-behavior"></a>Varsayılan davranış
+
+Bir ER biçimi yapılandırmasının varsayılan davranışı, ER biçimi başladığında belirttiğiniz yürütme türüne bağlıdır.
+
+**Intrastat Raporu** iletişim kutusunda, **Arka planda çalıştır** hızlı sekmesinde **Toplu işleme** seçeneğini **Hayır** olarak ayarlasanız bir ER biçimi hemen etkileşimli modda çalıştırılır. Bu yürütme başarılı şekilde tamamlandığında, oluşturulan bir giden belge indirmek üzere kullanılabilir duruma getirilir.
+
+**Toplu işleme** seçeneğini **Evet** olarak ayarlarsanız, ER biçimi [toplu iş](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) modunda çalıştırılır. Uygun toplu iş **ER parametreleri** iletişim kutusunun **Arka planda çalıştır** sekmesinde belirttiğiniz parametrelere göre oluşturulur.
+
+> [!NOTE]
+> İş açıklaması, bir ER biçimi eşlemesinin çalışması hakkında bilgi vermek üzere başlatılır. Ayrıca yürütülen ER bileşeninin adını da içerir:
+
+[![ER biçimi çalıştırma](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+
+Bu işle ilgili bilgileri birkaç yerde bulabilirsiniz:
+
+- Planlanan işin durumunu kontrol etmek için **Ortak** \> **Sorgular** \> **Toplu işler** \> **Toplu işlerim**'e gidin.
+- Planlanan işin durumunu ve tamamlanan işin yürütme sonuçlarını kontrol etmek için **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Elektronik raporlama işleri**'ne gidin. İş yürütme başarıyla tamamlandığında, oluşturulan çıktı belgesini almak için **Elektronik raporlama işleri** sayfasında **Dosyaları göster**'i seçin.
+
+    > [!NOTE]
+    > Bu belge geçerli iş kaydının eki olarak depolanır ve [Belge yönetimi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) çerçevesi tarafından denetlenir. Bu türdeki ER yapılarını depolamak için kullanılan [belge türü](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) [ER parametrelerinde](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) yapılandırılır.
+
+- İş yürütme sırasında oluşturulan hataların ve uyarıların listesini görmek için **Elektronik raporlama işleri** sayfasında, **Dosyaları göster**'i seçin.
+
+    [![ER işleri listesini gözden geçirme](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+
+### <a name="user-configured-behavior"></a>Kullanıcı tarafından yapılandırılan davranış
+
+**Elektronik raporlama hedefi** sayfasında, bir yapılandırma için varsayılan davranışı geçersiz kılabilirsiniz. Siz **Yeni** ve ardından **Referans** alanını seçene kadar içe aktarılan yapılandırmalar bu sayfada gösterilmez, hedef ayarlarını oluşturmak için bir yapılandırma seçin.
 
 [![Referans alanında bir yapılandırma seçmek](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
@@ -148,7 +177,7 @@ PDF dönüştürme seçeneği yalnızca Microsoft Office Excel veya Word biçimi
 >
 > Üretilen PDF en fazla 300 sayfa olabilir.
 >
-> Şimdilik bir Excel çıktısından üretilen PDF belgesinde yatay sayfa yönü desteklenmektedir.
+> Microsoft Dynamics 365 Finance 10.0.9 (Nisan 2020) sürümünde bir Excel çıktısından üretilen PDF belgesinde yalnızca yatay sayfa yönü desteklenmektedir. Dynamics 365 Finance 10.0.10 (Mayıs 2020) sürümüyle, ER hedefi yapılandırırken Excel çıktısından oluşturulan PDF belgesindeki [sayfa yönünü belirtebilirsiniz](#SelectPdfPageOrientation).
 >
 > Katıştırılmış yazı tipi içermeyen bir çıktının dönüştürülmesi için yalnızca Windows işletim sisteminin ortak sistem yazı tipleri kullanılır.
 

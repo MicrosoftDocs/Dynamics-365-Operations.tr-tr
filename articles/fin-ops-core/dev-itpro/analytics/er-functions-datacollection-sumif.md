@@ -3,7 +3,7 @@ title: SUMIF ER işlevi
 description: Bu konu, SUMIF Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
 manager: kfend
-ms.date: 12/04/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 374569d3bbe59f1b96eee9c789b97b7b2a6004bf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 9df7be0825203f91434d348385c1ee358ae555ea
+ms.sourcegitcommit: ef6fd78c817f93610771cfb2477f52f16b882164
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042493"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "3290212"
 ---
-# <a name="SUMIF">SUMIF ER işlevi</a>
+# <a name=""></a><a name="SUMIF">SUMIF ER işlevi</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,6 +62,8 @@ Bu işlev, Geçerli **Ortak\\Dosya** bileşeninin **Çıkış ayrıntılarını 
 ## <a name="example"></a>Örnek
 
 Bu işlevlerin kullanımı hakkında daha fazla bilgi edinmek için [ER Sayma ve toplama için çıktı biçiminde verileri kullanma](tasks/er-format-counting-summing-1.md) görev kılavuzuna (**BT hizmeti/çözüm bileşenleri alma/geliştirme** iş sürecinin parçasıdır) başvurun.
+
+Bu işlevi kullanma hakkında daha fazla bilgi ve örnekler için bkz. [ER biçimindeki sıra öğelerinin yürütülmesini erteleme](er-defer-sequence-element.md#Example) ve [ER biçimindeki XML öğelerinin yürütülmesini erteleme](er-defer-xml-element.md#Example).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
