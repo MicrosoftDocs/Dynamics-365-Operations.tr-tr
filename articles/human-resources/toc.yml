@@ -5,6 +5,8 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 14 Mayıs 2020
+          href: hr-whats-new-2020-05-14.md
         - name: 1 Mayıs 2020
           href: hr-whats-new-2020-05-01.md
         - name: 13 Nisan 2020
@@ -111,14 +113,16 @@
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
             - name: Lifecycle Services'ı anlama
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Teams'de Human Resources uygulaması
+          href: hr-admin-teams-leave-app.md
         - name: Belge kaynakları
           items:
             - name: Yardım sistemi
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Yardım sistemini bağlama
               href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: Özel bir yardım sitesini bağlama
-              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: Özel yardıma genel bakış
+              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Alan açıklamalarını görüntüleme ve dışa aktarma
               href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
             - name: Görev Kaydedici
@@ -513,9 +517,11 @@
               href: hr-employee-self-service-manage-requests.md
             - name: İzin isteme
               href: hr-employee-self-service-request-time-off.md
-            - name: Ekip ve şirket takvimlerini görüntüleme
+            - name: Takım ve şirket takvimlerini görüntüleme
               href: hr-employee-self-service-calendar.md
-        - name: Çalışanları geliştirme
+        - name: Teams'de izin isteklerini yönetme
+          href: hr-teams-leave-app.md
+        - name: Personeli geliştirme
           items:
             - name: Performans yönetimine genel bakış
               href: hr-develop-performance-management-overview.md

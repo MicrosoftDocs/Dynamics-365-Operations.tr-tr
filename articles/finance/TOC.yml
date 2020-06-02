@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Yardım sistemini bağlama
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
-                - name: Özel bir yardım sitesini bağlama
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/finance/toc.json
+                - name: Özel yardıma genel bakış
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Alan açıklamalarını görüntüleme ve dışa aktarma
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: Görev Kaydedici
@@ -1736,6 +1736,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: KDV beyannamesinin elektronik iletimi (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Almanya için KDV beyannamesi
+                  href: localizations/emea-de-vat-declaration.md
                 - name: Günlük listesi raporu
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Elektronik vergi beyannameleri ayarlama
@@ -2286,7 +2288,7 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL tümleştirmesi
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Denetim dosyası (XML Auditfile Finaneel, XAF)'
+                - name: 'Denetim dosyası - XML Auditfile Financieel, XAF'
                   hred: localizations/emea-nl-audit-file.md
             - name: Norveç
               items:
@@ -2398,6 +2400,8 @@
                       href: localizations/rus-prepayments-management.md
                     - name: Gelen KDV iadesi
                       href: localizations/rus-incoming-VAT-restoring.md
+                    - name: İhracat ticareti için faturaları işleme
+                      href: localizations/rus-export-trade.md
                 - name: Sabit kıymetler
                   items:
                     - name: Sabit kıymetlere genel bakış
@@ -2496,6 +2500,12 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Stok raporları
                       href: localizations/rus-inventory-reports.md
+                    - name: Stok profiline genel bakış
+                      href: localizations/rus-inventory-profile-overview.md
+                    - name: Stok profili ayarlama
+                      hreF: localizations/rus-set-up-inventory-profile.md
+                    - name: Belgeler ve sorgularda stok profili kullanma
+                      href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Raporlama
                   items:
                     - name: Mali raporlama
@@ -2766,7 +2776,7 @@
                   href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
                 - name: ACA raporları oluşturma
                   href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Çalışanları geliştirme
+            - name: Personeli geliştirme
               items:
                 - name: Performans yönetimine genel bakış
                   href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
@@ -3248,34 +3258,40 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: Farklı biçimlerde giden elektronik belgeler oluşturmak için ER biçimleri tasarlama
               items:
-                - name: (ER) OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: (ER) Word biçiminde raporlar oluşturmak için yapılandırmalar tasarlama
+                - name: Excel biçiminde giden belgeler oluşturmak için yapılandırmalar tasarlama
+                  items:
+                    - name: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
+                    - name: OPENXML biçiminde rapor oluşturma örneği
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Excel şablonlarını yeniden uygulayarak ER biçimlerini değiştirme
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: Excel raporlarına sütunları yatay yönlü genişletilebilir aralıklar olarak dinamik şekilde ekleme
+                      items:
+                        - name: Excel raporlarına dinamik olarak sütun eklemek için biçimler tasarlama
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Excel raporlarına dinamik olarak sütun eklemek için biçimleri çalıştırma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                - name: Raporları Word biçiminde oluşturmak için yapılandırmalar tasarlama
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: PDF şablonlarını doldurmak için yapılandırmalar tasarlama
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-            - name: Resimler ve şekiller katıştırma
-              items:
-                - name: (ER) Oluşturduğunuz belgelere resimler ve şekiller katıştırma
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                - name: Resim ve şekil katıştırma örneği
+                - name: Resimler ve şekiller katıştırma
                   items:
-                    - name: Katıştırılmış resimlere sahip Office biçimlerinde raporlar oluşturmak için yapılandırmalar tasarlama
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: Katıştırılmış resimlere sahip Office biçimlerinde raporlar oluşturmak için yapılandırmaları gözden geçirme
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Katıştırılmış resimlere sahip Office biçimlerinde rapor oluşturma
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Excel şablonlarını yeniden uygulayarak Elektronik raporlama biçimlerini değiştirme
-              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: (ER) Oluşturduğunuz belgelere resimler ve şekiller katıştırma
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
+                    - name: Resim ve şekil katıştırma örneği
+                      items:
+                        - name: Katıştırılmış resimlere sahip Office biçimlerinde raporlar oluşturmak için yapılandırmalar tasarlama
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
+                        - name: Katıştırılmış resimlere sahip Office biçimlerinde raporlar oluşturmak için yapılandırmaları gözden geçirme
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Katıştırılmış resimlere sahip Office biçimlerinde rapor oluşturma
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Oluşturulan XML dosyalarını dosya boyutu ve içerik miktarına göre bölme
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Excel raporlarına sütunları yatay yönlü genişletilebilir aralıklar olarak dinamik şekilde ekleme
-              items:
-                - name: Sütunları Excel raporlarına dinamik bir şekilde yatay yönlü genişletilebilir aralıklar olarak eklemek için biçimler tasarlama
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
-                - name: Sütunları Excel raporlarına dinamik bir şekilde yatay yönlü genişletilebilir aralıklar olarak eklemek için biçimleri çalıştırma
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
             - name: Elektronik raporlama kullanarak uygulama verilerini güncelleştirme
               items:
                 - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
@@ -3306,8 +3322,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: İsteğe bağlı özniteliklerle XML biçimindeki dosyaları içe aktarmak için ER biçimleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
-            - name: Oluşturulan XML dosyalarını dosya boyutu ve içerik miktarına göre bölme
-              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: Yapılandırma yaşam döngüsü
               items:
                 - name: Yapılandırma yaşam döngüsünü yönetme
@@ -3327,7 +3341,11 @@
                     - name: RCS türündeki ER deposundan yapılandırmaları indirme
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Yapılandırmaları RCS'den içe aktarma
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: RCS'de ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
+                  href: localizations/rcs-global-repo-upload.md
+                - name: RCS'de ER yapılandırmalarını harici kuruluşlarla paylaşma
+                  href: localizations/rcs-global-repo-share-configuration.md
             - name: Eğitimler
               items:
                 - name: Veri kaynaklarını kullanmayı öğrenme
@@ -3506,11 +3524,11 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
             - name: Excel menüsünde Açık satırlara şablon ekleme
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json
-            - name: Microsoft Office menüsünde Aç işlevini özelleştirme
+            - name: Microsoft Office'te Aç menüsünü özelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/finance/toc.json
             - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/finance/toc.json
-            - name: E-posta deneyimlerini geliştirme
+            - name: E-posta deneyimleri geliştirme
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/finance/toc.json
             - name: Office tümleştirmesi ile ilgili sorunları giderme
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/finance/toc.json

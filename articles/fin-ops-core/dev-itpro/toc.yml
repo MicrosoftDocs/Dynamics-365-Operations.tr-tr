@@ -526,6 +526,32 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: Paket uygulama sorunlarını giderme
                   href: deployment/deployable-package-troubleshooting.md
+            - name: Özel yardım dağıtma
+              items:
+                - name: Özel yardıma genel bakış
+                  href: help/custom-help-overview.md
+                - name: Yardım bölmesiyle kullanım için içerik hazırlama
+                  href: help/preparing-content.md
+                - name: Azure'a özel yardım dağıtma
+                  href: help/walkthrough-help-azure.md
+                - name: Özel yardımınızı Yardım bölmesine bağlama
+                  href: help/connect-help-pane.md
+                - name: Özel yardım araç seti
+                  items:
+                    - name: Genel bakış
+                      href: help/custom-help-toolkit.md
+                    - name: HTML From Repo Generator aracı
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: Convert HTML To JSON aracı
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: HTML Locale Changer aracı
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: Dynamics AX özel yardımını Dynamics 365'te kullanmak üzere dönüştürme
+                      href: help/migrate-dynamicsax2012.md
+                - name: Ürün ve yardımdaki dil ve yerel ayar tanımlayıcıları
+                  href: help/language-locale.md
+                - name: 'Yardımı genişletme, özelleştirme ve yardım için işbirliği yapma'
+                  href: help/contributor-guide.md
         - name: Geliştirme ve özelleştirme
           items:
             - name: Geliştirme ve özelleştirme giriş sayfası
@@ -835,7 +861,7 @@
                     - name: Genişletilebilirlik değişiklikleri sürüm 8.0.1
                       href: extensibility/extensibility-changes-801.md
                     - name: Sürüm 8.0'daki genişletilebilirlik değişiklikleri
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: Sürüm 7.3'teki genişletilebilirlik değişiklikleri
                       href: extensibility/extensibility-changes-73.md
                     - name: Genişletilebilirlik değişiklikleri Temmuz 2017
