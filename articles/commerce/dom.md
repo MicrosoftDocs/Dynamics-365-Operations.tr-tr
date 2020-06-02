@@ -3,7 +3,7 @@ title: Dağıtılmış sipariş yönetimi (DOM)
 description: Bu konuda, Dynamics 365 Commerce'da dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 05/22/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a584953b0f4961e25b59bca51aa3928b87b2c7c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1121cc89b278c3694d0bbd667f1a540d17f4d180
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004332"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396044"
 ---
 # <a name="distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM)
 
@@ -37,7 +37,7 @@ DOM siparişin yerine getirilmesini, karmaşık bir sistem ve işlem ağında en
 
 Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döngüsü gösterilmektedir.
 
-![DOM bağlamında satış siparişi yaşam döngüsü](./media/flow.png "DOM bağlamında satış siparişi yaşam döngüsü")
+![![DOM bağlamında satış siparişi yaşam döngüsü](./media/flow.png "DOM bağlamında satış siparişi yaşam döngüsü")](./media/flow.png "Sales order lifecycle in the context of DOM")
 
 ## <a name="set-up-dom"></a>DOM'u ayarlama
 
@@ -82,7 +82,16 @@ Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döng�
     1. **Retail ve Commerce \> Kanal kurulumu \> Karşılama grupları**'na gidin.
     2. **Yeni**'yi seçin ve yeni grup için bir ad ve açıklama girin.
     3. **Kaydet**'i seçin.
-    4. Gruba tek bir konum eklemek için **Satır ekle**'yi seçin. Alternatif olarak, birden fazla konum eklemek için **Satır ekle**'yi seçin.
+    4. Gruba tek bir yerleşim eklemek için **Satır ekle**'yi seçin. Alternatif olarak, birden fazla yerleşim eklemek için **Satırlar ekle**'yi seçin.
+    
+    > [!NOTE]
+    > Commerce 10.0.12 ve üstü sürümlerde, **Karşılama grubunda yerleşimleri 'Sevkiyat' veya 'Malzeme çekme' etkin olarak belirtme özelliği**, **Özellik Yönetimi** çalışma alanında etkinleştirilmelidir.
+    >
+    > Bu özellik, **Karşılama grubu** sayfasına yeni yapılandırmalar ekleyerek, ambarın sevkiyat için kullanılıp kullanılamayacağını veya ambar/mağaza birleşiminin sevkiyat, malzeme çekme veya her ikisi için kullanılıp kullanılamayacağını tanımlamanızı sağlar. 
+    >
+    > Özelliği etkinleştirirseniz, POS'ta malzeme çekme veya sevkiyat emirleri oluşturduğunuzda yerleşim seçimi için kullanılabilir olan seçenekler güncelleştirilir.
+    >
+    > Ayrıca, bu özelliğin "tümünü sevk et" veya "seçileni sevk et" işlemleri seçildiğinde etkinleştirilmesi, POS'taki sayfaların güncelleştirilmesine neden olur.
 
 9. Kuralları tanımlamak için **Retail ve Commerce \> Dağıtılmış sipariş yönetimi \> Ayarlar \> Kuralları yönet**'e gidin. Şu anda aşağıdaki DOM kuralları desteklenmektedir:
 
@@ -112,7 +121,7 @@ Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döng�
         \* **Kısmi siparişleri karşıla** **Hayır** olarak ayarlıysa **Kısmi satırları karşıla**, aslında nasıl ayarlandığından bağımsız olarak her zaman **Hayır**'a ayarlı olarak kabul edilir.
 
         > [!NOTE]
-        > Retail 10.0.5 sürümünde, **Siparişi yalnızca bir konumdan karşıla** parametresi **Maksimum karşılama konumları** olarak değiştirildi. Kullanıcılar siparişlerin yalnızca bir konumdan mı, yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını yapılandırma olanağını kullanmak yerine artık karşılamanın belirli bir konum kümesinden mi (en fazla 5) yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını belirtebilir. Bu özellik, siparişin karşılanabileceği konum sayısı açısından daha fazla esneklik sunar.
+        > Retail 10.0.5 sürümünde, **Siparişi yalnızca bir yerleşimden karşıla** parametresi **Maksimum karşılama yerleşimleri** olarak değiştirildi. Kullanıcılar siparişlerin yalnızca bir konumdan mı, yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını yapılandırma olanağını kullanmak yerine artık karşılamanın belirli bir konum kümesinden mi (en fazla 5) yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını belirtebilir. Bu özellik, siparişin karşılanabileceği konum sayısı açısından daha fazla esneklik sunar.
 
    - **Çevrimdışı karşılama konumu kuralı**: Bu kural, kurumların bir konumu veya konum grubunu çevrim dışı ya da DOM için kullanılamaz olarak belirtmelerini sağlar, böylece siparişler karşılama için bu konumlara atanamaz.
     - **Maksimum reddetme sayısı kuralı**: Bu kural, kurumların reddetme işlemleri için bir eşik tanımlamasını sağlar. Eşiğe ulaşıldığında, DOM işlemcisi bir siparişi veya sipariş satırını özel durum olarak işaretler ve diğer işlemlerde hariç tutar.
@@ -134,7 +143,17 @@ Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döng�
     2. **Yeni**'yi seçin.
     3. **Profil** ve **Açıklama** alanlarına değer girin.
     4. **Sonucu otomatik olarak uygula** seçeneğini ayarlayın. Bu seçeneği **Evet** olarak ayarlarsanız profil için DOM çalıştırma işleminin sonuçları otomatik olarak satış siparişi satırlarına uygulanır. Bunu **Hayır** olarak ayarlarsanız sonuçlar yalnızca karşılama planında görüntülenebilir. Satış siparişi satırlarına uygulanmaz.
-    5. DOM profilinin her satış siparişi menşesine sahip siparişler, hatta satış siparişi menşesinin tanımlanmadığı siparişler için bile çalıştırılmasını istiyorsanız **Boş satış menşesine sahip siparişleri işle** seçeneğini **Evet** olarak ayarlayın. Profili yalnızca birkaç satış siparişi menşesi için çalıştırmak amacıyla, bunları daha sonra açıklandığı gibi **Satış menşeleri** sayfasında tanımlayabilirsiniz.
+    5. DOM profilinin, satış siparişi menşeinin tanımlı olmadığı siparişler dahil her satış siparişi menşeine sahip siparişler için çalıştırılmasını istiyorsanız **Boş satış menşeine sahip siparişleri işle** seçeneğini **Evet** olarak ayarlayın. Profili yalnızca birkaç satış siparişi menşei için çalıştırmak isterseniz, bunları daha sonra açıklandığı gibi **Satış menşeleri** sayfasında tanımlayabilirsiniz.
+
+    > [!NOTE]
+    > Commerce 10.0.12 ve üstü sürümlerde, **Karşılama Profiline Karşılama grubu atama özelliği** **Özellik Yönetimi** çalışma alanında etkinleştirilmelidir. 
+    >
+    > Bu özellik, **Karşılama profili** sayfasına, tek bir karşılama grubuyla ilişkilendirilebilecek yeni bir yapılandırma ekler. 
+    >
+    > Karşılama grubunu seçerseniz, bu karşılama profilinin DOM kuralları, karşılama grubuna dahil edilen "sevkiyat" ambarları için etkili şekilde çalışacaktır. 
+    > 
+    > Bu özelliği etkin şekilde kullanmak için, tüm sevkiyat ambarlarını içeren tek bir karşılama grubu olduğundan emin olun ve sonra bu karşılama grubunu karşılama profiliyle ilişkilendirin.
+    
     6. **Tüzel kişilikler** hızlı sekmesinde, **Ekle**'yi seçin ve ardından bir tüzel kişilik seçin.
     7. **Kurallar** hızlı sekmesinde, **Ekle**'yi seçin ve ardından profille ilişkilendirilecek kuralı seçin.
     8. Tüm gerekli kurallar profille ilişkilendirilene kadar önceki iki adımı yineleyin.
@@ -179,7 +198,7 @@ DOM, işleme anında sipariş ve sipariş satırlarını burada açıklandığı
 
 DOM kuralları, stok kısıtlamalarını ve iyileştirmeleri uyguladıktan sonra müşterinin teslimat adresine en yakın konumu seçer.
 
-![Satış siparişi ölçütü](./media/ordercriteria.png "Satış siparişi ölçütü")
+![![Satış siparişi ölçütü](./media/ordercriteria.png "Satış siparişi ölçütü")](./media/ordercriteria.png "Sales order criteria")
 
 ## <a name="results-of-dom-runs"></a>DOM çalıştırma işlemlerinin sonuçları
 

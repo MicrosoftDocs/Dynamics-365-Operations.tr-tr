@@ -1,5 +1,5 @@
 ---
-title: Supply Chain Management için yardım kaynakları
+title: Supply Chain Management giriş sayfası
 description: Bu sayfada Supply Chain Management özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
 author: josaw1
 manager: tfehr
@@ -18,18 +18,18 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
+ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201537"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3386399"
 ---
-# <a name="help-resources-for-supply-chain-management"></a>Supply Chain Management için yardım kaynakları
+# <a name="supply-chain-management-home-page"></a>Supply Chain Management giriş sayfası
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda Dynamics 365 Supply Chain Management'ta yardım konuları ve diğer kaynakların listesi sunulmaktadır. 
+Bu konuda Dynamics 365 Supply Chain Management'taki yardım konuları ve diğer kaynakların listesi sunulmaktadır. 
 
 ## <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için <a href="https://roadmap.dynamics.com/">Dynamics 365 Yol Haritası</a> başlıklı makaleye gidin. 
@@ -41,7 +41,8 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 - [Varlık yönetimi](asset-management/index.md)
 - [Maliyet muhasebesi](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Maliyet yönetimi](cost-management/cost-management-home-page.md)  
-- [Stok Yönetimi](inventory/inventory-home-page.md)
+- [Stok yönetimi](inventory/inventory-home-page.md)
+- [IoT Zekası](iot/iot-intelligence-home-page.md)
 - [Master planlama](master-planning/master-planning-home-page.md)
 - [Tedarik ve kaynak atama](procurement/procurement-sourcing-overview.md)
 - [Ürün bilgileri yönetimi](pim/product-information.md)

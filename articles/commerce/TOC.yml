@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: Dynamics 365 Commerce giriş sayfası
           href: index.md
         - name: Başlayın
           items:
@@ -79,7 +79,7 @@
                 - name: 'Aşamalı Kullanıma Sunma (N-1) yüklemesi, yapılandırması ve kesin bitişi'
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: Perakende kanalı uzantısını en son Retail SDK'ye yükseltme
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: Yenilikler veya değişiklikler
               items:
                 - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
@@ -112,8 +112,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Yardım sistemini bağlama
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: Özel bir yardım sitesini bağlama
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: Özel yardıma genel bakış
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Alan açıklamalarını görüntüleme ve dışa aktarma
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Görev kaydedici
@@ -499,7 +499,9 @@
                     - name: Adyen ödeme bağlayıcısı
                       href: dev-itpro/adyen-connector.md
                     - name: Adyen bağlayıcısı ile çevrimiçi ödeme araçlarını kaydetme
-                      href: dev-itpro/adyen-connector-listpi.md
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: Adyen bağlayıcısını kullanan Güçlü Müşteri Kimlik Doğrulaması (SCA)
+                      href: adyen_redirect.md
                     - name: Hediye kartı ve alacak faturası işlemleri için sorunsuz çevrimdışı geçiş
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Fatura ödeme senaryolarını ayarlama
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: Ödemeler ile ilgili SSS
                       href: dev-itpro/payments-retail.md
+                - name: Kuruluşunuz için Bing Haritalar'ı yönetme
+                  href: dev-itpro/manage-bing-maps.md
         - name: Ürün ve hizmetlerinizin ticari satışı
           items:
             - name: 'Kategoriler, ürünler ve ürün çeşitleri'
@@ -820,10 +824,12 @@
                   href: authoring-home-overview.md
                 - name: Kullanıcıları ve rolleri yönetme
                   href: manage-ecommerce-users-roles.md
-                - name: Siteniz için arama motoru optimizasyonu (SEO) konuları
+                - name: Siteniz için arama altyapısını iyileştirme (SEO) konuları
                   href: search-engine-optimization-considerations.md
                 - name: İçerik Güvenliği İlkesini (CSP) yönetme
                   href: manage-csp.md
+                - name: Web etkinliği olay koleksiyonundan vazgeçme
+                  href: web-activity-opt-out.md
             - name: Site içeriğinizi yönetme
               items:
                 - name: İçerik ekleme yolları
@@ -1710,11 +1716,13 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Excel menüsünde Açık satırlara şablon ekleme
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
-            - name: Microsoft Office menüsünde Aç işlevini özelleştirme
+            - name: Microsoft Office'te Aç menüsünü özelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
-            - name: E-posta deneyimlerini geliştirme
+            - name: Hareket olayları için e-posta şablonları oluşturma
+              href: email-templates-transactions.md
+            - name: E-posta deneyimleri geliştirme
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: Office tümleştirmesi ile ilgili sorunları giderme
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/commerce/toc.json
@@ -2116,6 +2124,8 @@
                   href: dev-itpro/async-commerce-extension.md
                 - name: Kanal veritabanındaki önceden genişletilmiş sütunlar
                   href: dev-itpro/extended-columns.md
+                - name: Commerce Data Exchange - Gerçek Zamanlı Hizmeti genişletme
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: Ödeme bağlayıcısı genişletilebilirliği
               items:
                 - name: Ödeme terminali için ödeme tümleştirmesi oluşturma

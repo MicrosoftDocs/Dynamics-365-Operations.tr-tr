@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: Dynamics 365 Supply Chain Management giriş sayfası
           href: index.md
         - name: Başlayın
           items:
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Yardım sistemini bağlama
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Özel bir yardım sitesini bağlama
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Özel yardıma genel bakış
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Alan açıklamalarını görüntüleme ve dışa aktarma
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Görev Kaydedici
@@ -1313,6 +1313,22 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Stok boyutu başına cari ortalama maliyeti izleme
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: IoT Zekası
+          items:
+            - name: IoT Zekası giriş sayfası
+              href: iot/iot-intelligence-home-page.md
+            - name: Azure kaynaklarını ayarlama
+              href: iot/iot-azure-setup.md
+            - name: IoT Hub'ı için ileti şeması biçimleri
+              href: iot/iot-schema-format.md
+            - name: LCS'de eklentiyi yükleme
+              href: iot/iot-lcs-setup.md
+            - name: Ölçümleri ayarlama
+              href: iot/iot-metrics-setup.md
+            - name: Senaryo kurulumu
+              href: iot/iot-scenario-setup.md
+            - name: İzleme ve yönetme
+              href: iot/iot-management.md
         - name: Master planlama
           items:
             - name: Master planlama giriş sayfası
@@ -1335,11 +1351,13 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Planlama işini iptal etme
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Planlamayı En İyi Duruma Getirme sorunlarını giderme
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Master planlar
               items:
                 - name: Master planlara genel bakış
                   href: master-planning/master-plans.md
-                - name: Master planları ayarlama
+                - name: Master planlar ayarlama
                   href: master-planning/master-planning-setup.md
                 - name: Master planlama kurulum sihirbazı
                   href: master-planning/master-planning-setup-wizard.md
@@ -1469,11 +1487,11 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Excel menüsünde Açık satırlara şablon ekleme
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Microsoft Office menüsünde Aç işlevini özelleştirme
+            - name: Microsoft Office'te Aç menüsünü özelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/supply-chain/toc.json
             - name: E-posta yapılandırma ve gönderme
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/supply-chain/toc.json
-            - name: E-posta deneyimlerini geliştirme
+            - name: E-posta deneyimleri geliştirme
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/supply-chain/toc.json
             - name: Office tümleştirmesi ile ilgili sorunları giderme
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/supply-chain/toc.json
@@ -2657,7 +2675,7 @@
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
             - name: Ambarlama uygulamasını yükleme ve yapılandırma
               items:
-                - name: Yükleme ve yapılandırmaya genel bakış
+                - name: Ambarlama uygulamasını yükleme ve bağlama
                   href: warehousing/install-configure-warehousing-app.md
                 - name: Ambarlama uygulamasında alan adlarını yapılandırma
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
@@ -2697,6 +2715,22 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Satınalma siparişleri için iş şablonunu ayarlama
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: Sevkiyat konsolidasyonu ilkeleri
+              items:
+                - name: Sevkiyat konsolidasyonu ilkeleri
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: Sevkiyat konsolidasyonu ilkelerini yapılandırma
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: 'Senaryo 1: Satış siparişlerini otomatik serbest bırakma özelliğini kullanarak sevkiyatları ambara serbest bırakıldıklarında konsolide etme'
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: 'Senaryo 2: Sevkiyat konsolidasyon ilkesi Ambara serbest bırak sayfasından geçersiz kılındığında sevkiyatları konsolide etme'
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: 'Senaryo 3: Sevkiyatları yük planlama çalışma ekranından Ambara serbest bırak özelliğini kullanarak konsolide etme'
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: 'Senaryo 4: Sevkiyatları sevkiyat konsolidasyonu çalışma ekranını kullanarak konsolide etme'
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: 'Senaryo 5: Sevkiyatları konsolide etme sayfasını kullanarak sevkiyatları el ile konsolide etme'
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: Supply Chain Management geliştirme
           items:
             - name: Gantt denetimi geliştirme kılavuzu
