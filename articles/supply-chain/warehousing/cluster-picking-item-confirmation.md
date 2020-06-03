@@ -17,26 +17,28 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e6493afb64acb4d7644aac8dad71a0917c76549
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 272c3a13b68e2b862faf20cc269ca790322b61de
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205794"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367304"
 ---
+# <a name="product-confirmation-for-cluster-picking"></a>Küme çekme için ürün onayı
+
 [!include [banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a>Küme çekme için ürün onayı
 Küme malzeme çekme, çok sayıda sipariş için tek seferde malzeme çekmenize olanak sağlar. Küme malzeme çekme uygulandığında, öğe yapılandırması maddelerin kümelere eklendiğinden emin olmak için önemlidir. Küme malzeme çekme işlemi sırasında küme malzeme çekme içerisindeki öğeleri doğrulayabilirsiniz.
 
 ## <a name="where-it-applies"></a>Uygulandığı yerler
+
 Küme malzeme çekme için madde doğrulaması, kümeli olmayan malzeme çekme işlemindeki doğrulamayla aynı şekilde çalışır. Kurulum ürün barkod kurulumuna dayanır.
 
 ## <a name="set-up-item-verification-with-cluster-picking"></a>Küme malzeme çekme ile madde doğrulamayı ayarlamak
-1.  Mobil cihaz menü öğesinden iş onayı için kurulum formunu açın: **Ambar yönetimi** > **Ambar yönetimi** > **Kurulum** > **Mobil cihaz** > **Mobil cihaz menü öğeleri**.
-2.  Mobil cihaz menü öğesinden **İş onayı ayarını** açın.
+
+1. Mobil cihaz menü öğesinden iş onayı için kurulum formunu açın: **Ambar yönetimi** > **Ambar yönetimi** > **Kurulum** > **Mobil cihaz** > **Mobil cihaz menü öğeleri**.
+1. Mobil cihaz menü öğesinden **İş onayı ayarını** açın.
 
 |        Seçenek        |                                    Açıklama                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Ürün onayı | Tarandığında, her stok parçasını mobil cihazınızdan doğrulamanıza olanak tanır. |
-

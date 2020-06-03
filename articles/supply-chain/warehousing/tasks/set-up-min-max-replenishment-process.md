@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6b99cac46ea33b018a3f67dd4bf0164b8a7f0e6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d2997a39311e371443de3bc11ace17ab36be20e8
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216885"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383585"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Minimum-maksimum stok yenileme işlemini ayarlama
 
@@ -43,7 +43,7 @@ Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok ye
 ## <a name="create-a-replenishment-location-directive"></a>Bir stok yenileme konum yönergesi oluşturun
 1. **Ambar yönetimi > Kurulum > Konum yönergeleri**'ne gidin. Konum yönergeleri stok yenileme işleminde maddelerin çekileceğini yeri belirlemek için kullanılır.
 2. **İş emri türü** alanında "Stok yenileme"yi seçin.
-3. **Eylem bölmesinde** **Yeni** öğesine tıklayın.
+3. **Eylem Bölmesi**'nde **Yeni** öğesine tıklayın.
 4. **Ad** alanına bir değer yazın.
 5. **İş türü** alanında "Malzeme çek"i seçin.
 6. **Tesis** alanına bir değer girin veya buradan bir değer seçin. USMF kullanıyorsanız, site 2'yi seçebilirsiniz.  
@@ -58,14 +58,14 @@ Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok ye
 15. Listede, seçili satırı işaretleyin.
 16. **Ad** alanına bir değer yazın.
 17. **Kaydet**'e tıklayın.
-18. **Eylem bölmesinde**, **Sorguyu düzenle**'ye tıklayın. Bu sorguyu düzenleyip, stok yenilenme işleminde stokun nereden seçilebileceğine dair kısıtlama ekleyebilirsiniz. Örneğin, stok sadece ambarın Toplu alanından kullanılabiliyor olabilir.
+18. **Eylem Bölmesi**'nde, **Sorguyu düzenle**'ye tıklayın. Bu sorguyu düzenleyip, stok yenilenme işleminde stokun nereden seçilebileceğine dair kısıtlama ekleyebilirsiniz. Örneğin, stok sadece ambarın Toplu alanından kullanılabiliyor olabilir.
 19. **Tamam**'a tıklayın.
 20. Sayfayı kapatın.
 
 ## <a name="create-a-replenishment-work-template"></a>Bir Stok yenileme iş şablonu oluşturun
 1. **Ambar yönetimi > Kurulum > İş > İş şablonları**'na gidin. İş şablonu, sistemi min/maks stok yenileme işinin nasıl oluşturulacağına dair yönlendirmek için kullanılır. En düşük gereksinim olarak,çekme ve yerine koyma için bir iş şablonu satırı olmalıdır. İş şablonu, tüm gerekli bilgiler doldurulmuş olana kadar geçersiz olduğunu söyleyecektir. 
 2. **İş emri türü** alanında "Stok yenileme"yi seçin.
-3. **Eylem bölmesinde** **Yeni** öğesine tıklayın.
+3. **Eylem Bölmesi**'nde **Yeni** öğesine tıklayın.
 4. **İş şablonu** alanında bir değer girin.
 5. **Kaydet**'e tıklayın.
 6. **İş şablonu ayrıntıları**'nda **Yeni**'ye tıklayın.
@@ -80,7 +80,7 @@ Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok ye
 
 ## <a name="create-a-new-replenishment-template"></a>Yeni bir stok yenileme şablonu oluşturun
 1. **Ambar yönetimi > Kurulum > Stok yenileme > Stok yenileme şablonları**'na gidin. Stok yenileme şablonu, maddeleri ve miktarları ve yenilenecek konumu tanımlamak için kullanılır.
-2. **Eylem bölmesinde** **Yeni** öğesine tıklayın.
+2. **Eylem Bölmesi**'nde **Yeni** öğesine tıklayın.
 3. **Stok yenileme şablonu** alanına bir değer girin. Şablonun min/maks stok yenileme için olduğunu belirtecek bir ad verin.  
 4. **Tanım** alanına bir değer girin.
 5. **Dalga talebinin rezerve edilmemiş miktarları kullanmasına izin ver** onay kutusunu işaretleyin. Bu seçeneği belirlerseniz, dalga talep stok yenilemesinin, min/maks stok yenileme ile ilgili miktarları tüketmesini talep eder. Örneğin bu, min/maks stok yenileme işi derhal işlenmeyecekse, gereksiz stok yenileme işinin talep edilmesinin oluşturulmasının önüne geçmek için kullanışlı olabilir.

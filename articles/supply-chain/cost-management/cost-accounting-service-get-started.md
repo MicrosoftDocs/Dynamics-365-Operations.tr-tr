@@ -1,5 +1,5 @@
 ---
-title: Maliyet muhasebesi hizmetini kullanmaya başlama
+title: Maliyet muhasebesi hizmetini (özel önizleme) kullanmaya başlama
 description: Bu konu, maliyet muhasebesi hizmeti için lisans ayrıntılarını ve yükleme yönergelerini sağlar.
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276972"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372748"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>Maliyet muhasebesi hizmetini kullanmaya başlama
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Maliyet muhasebesi hizmetini (özel önizleme) kullanmaya başlama
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -43,16 +43,22 @@ Maliyet muhasebesi hizmeti bir eklentidir. Özelliklerini kullanılabilir hale g
 
 Maliyet muhasebesi hizmeti şu anda Dynamics 365 Supply Chain Management'ta yerleşik olan tüm maliyet yönetimi özelliklerini desteklememektedir. Bu nedenle, şu anda mevcut olan özellik kümesinin gereksinimlerinizi karşılayıp karşılamadığını değerlendirmeniz önemlidir.
 
-## <a name="licensing"></a>Lisans
-
-Maliyet muhasebesi hizmeti Supply Chain Management için kullanılabilir olan stok muhasebesi standart özellikleri ile birlikte lisanslanır. Maliyet muhasebesi hizmetini kullanmak için ek lisans satın almanız gerekmez.
-
-## <a name="install-the-add-in"></a>Eklentiyi yükleme
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>Maliyet muhasebesi hizmetini (özel önizleme) alma
 
 > [!IMPORTANT]
 > Maliyet muhasebesi hizmetini kullanmak için, LCS'nin etkin olduğu yüksek kullanılabilirlik ortamına sahip olmanız (OneBox ortamı değil) ve Dynamics 365 Supply Chain Management sürüm 10.0.11 veya üstünü çalıştırıyor olmanız gerekir.
 
+Maliyet muhasebesi hizmet özel önizlemesine kaydolmak için lütfen LCS ortam kimliğinizi [Maliyet muhasebesi hizmetine (özel önizleme)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29) e-posta ile gönderin. Program için onay aldığınızda, maliyet muhasebesi hizmeti beta anahtarını içeren bir takip e-postası alacaksınız. Beta anahtarını aldığınızda, [eklentiyi yükleyerek](#install) devam edebilirsiniz.
+
+## <a name="licensing"></a>Lisans
+
+Maliyet muhasebesi hizmeti Supply Chain Management için kullanılabilir olan stok muhasebesi standart özellikleri ile birlikte lisanslanır. Maliyet muhasebesi hizmetini kullanmak için ek lisans satın almanız gerekmez.
+
+## <a name="install-the-add-in"></a><a name="install"></a>Eklentiyi yükleme
+
 Maliyet muhasebesi hizmetini kullanmak için, aşağıdaki yordamda açıklandığı şekilde Supply Chain Management için maliyet muhasebesi hizmeti eklentisini yükleyin.
+
+1. Maliyet muhasebesi hizmetine (özel önizleme) [kaydolun](#sign-up).
 
 1. LCS'de oturum açın
 

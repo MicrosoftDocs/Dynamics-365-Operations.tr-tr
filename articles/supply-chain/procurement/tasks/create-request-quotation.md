@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2c13ed20ec86108bcb9edc0d20d53ff98732b9d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 68624a0288f9eaaf8f74b361bb308b8ca3c03b29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204758"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383194"
 ---
 # <a name="create-a-request-for-quotation"></a>Teklif talebi oluşturma
 
@@ -67,7 +67,7 @@ RFQ'nuz hakkında temel bilgileri belirledikten sonra satıcıların teklif verm
 7. **Satıcı hesabı** alanına bir değer girin veya bu alanda bir değer seçin. Bir satıcıyı seçtiğinizde durumu Oluşturuldu olarak değiştirilir. Bu da satıcı bilgilerinin RFQ'ya kaydedildiği, ancak RFQ'nun satıcıya göndermediğiniz anlamına gelir. Satıcı durumundan bağımsız olarak bir satıcıyı bir RFQ'ya ekleyebilirsiniz.  
 
 ## <a name="send-the-rfq-to-vendors"></a>RFQ'yu satıcılara gönderme
-1. **Eylem bölmesi**'nde, **Gönder**'e tıklayın. Teklif talebi gönderiliyor sayfasında, listedeki satıcıların RFQ almasını istediğiniz satıcılarla aynı olduğunu kontrol edin.  
+1. **Eylem Bölmesi**'nde, **Gönder**'e tıklayın. Teklif talebi gönderiliyor sayfasında, listedeki satıcıların RFQ almasını istediğiniz satıcılarla aynı olduğunu kontrol edin.  
 2. **Yazdır**'ı tıklatın. Bu iletişim kutusu RFQ'yu yazdırmanıza olanak sağlar. Bir yanıt sayfasını yazdırmayı seçerseniz, bu işlemin içeriği Satın Alma ve Kaynak Kullanımı parametreleri altında tanımlanır. Yanıt sayfalarının nasıl yazdırılacağını seçmek için Yazdırma iletişim kutusunu açtıktan sonra Gelişmiş yazdırma seçeneklerini tıklayın. Oluşturuldu veya Gönderildiği durumuna sahip satırlar içeren her bir satıcı için bir RFQ yazdırılır. İptal edilmiş satırlar ve kaydedilmiş yanıtların yer aldığı satırlar yazdırılmayacaktır.   
 3. **İptal**'e tıklayın
 4. **Tamam**'a tıklayın.

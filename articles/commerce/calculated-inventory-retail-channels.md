@@ -3,7 +3,7 @@ title: Perakende kanalları için stok kullanılabilirliğini hesaplama
 description: Bu konu, mağaza ve çevrimiçi kanallarla ilgili eldeki stoğu göstermek için kullanılabilen seçenekleri açıklar.
 author: hhainesms
 manager: annbe
-ms.date: 02/25/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113932"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379248"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Perakende kanalları için stok kullanılabilirliğini hesaplama
 
@@ -50,12 +50,7 @@ Müşterileriniz bir e-Ticaret sitesinde alışveriş yaparken bir ürünün sto
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>E-Ticaret ile hesaplanan stok kullanılabilirliği ile başlama
 
-Daha önce sözü edilen iki API'yı kullanmadan önce, Commerce Headquarters'ın **Ürün Kullanılabilirliği** işini kullanarak hesapladığı stok değerlerinin anlık görüntüsünün doğru tablolara girildiğinden geçirerek emin olmak için Commerce Headquarters'da bir parametre değişikliği yapmanız gerekir.
-
-Parametreyi ayarlamak için bu adımları izleyin.
-
-1. **Retail ve Commerce \> Headquarters ayarı \> Parametreler \> Paylaşılan Commerce parametreleri**'ne gidin.
-1. **Stok** sekmesinde **Ürün kullanılabilirliği işi** bölümünde **Ürün Kullanılabilirliği işi için en uygun duruma getirilmiş işlem kullan**'ı seçin. Bu ayar, kanalın kullanılabilir stoğunu Commerce sunucusu üzerinden hesaplamak için en uygun özellik kümesinin kullanılmasını sağlar.
+Daha önce belirtilen iki API'yi kullanmadan önce, Commerce Headquarters'daki **Özellik yönetimi** çalışma alanı ile **En iyi duruma getirilmiş ürün kullanılabilirliği hesaplama** özelliğini etkinleştirmelisiniz.
 
 API'ların bir maddenin stok kullanılabilirliğine ilişkin en iyi tahmini hesaplayabilmesi için, Commerce Headquarters'dan alınan stok kullanılabilirliğinin periyodik anlık görüntüsünün işlenmesi ve e-Ticaret Commerce Scale Unit'in kullandığı kanal veritabanına gönderilmesi gereklidir. Anlık görüntü, Commerce Headquarters'ın bir ürün veya ürün çeşidi ile bir ambarın belirli bir birleşimine ait stok kullanılabilirliği hakkında sahip olduğu bilgileri temsil eder. Bu stok girişlerinden veya sevkiyatlardan ya da Commerce Headquarters'da gerçekleştirilen ve e-Ticaret kanalının yalnızca işlemin eşitlenmesi nedeniyle bilgi sahibi olduğu diğer işlemlerden kaynaklanan stok ayarlarını veya hareketlerini içerebilir.
 
@@ -85,20 +80,15 @@ Kanal tarafı hesaplaması doğru yapılandırılıp yönetildiğinde Commerce k
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>POS kanalı tarafı ile hesaplanan stok kullanılabilirliği ile başlama
 
-Kanal tarafı hesaplama mantığını kullanmak ve POS uygulamasından alınan stok aramaları için gerçek zamanlı servis çağrılarını kapatmak için, öncelikle iki parametre değişikliği yapmanız gerekir. Böylece dağıtım zamanlama işlemi aracılığıyla kanaldaki değişiklikleri yeniden eşitlemeniz gerekir.
+Kanal tarafı hesaplama mantığını kullanmak ve POS uygulamasından alınan stok aramaları için gerçek zamanlı servis çağrılarını kapatmak için öncelikle Commerce Headquarters'daki **Özellik yönetimi** çalışma alanı üzerinden **En iyi duruma getirilmiş ürün kullanılabilirliği hesaplama** özelliğini etkinleştirmeniz gerekir. Özelliği etkinleştirmenin yanı sıra, **İşlevsellik profilinde** değişiklik yapmalısınız.
 
-İlk parametreyi ayarlamak için bu adımları izleyin.
-
-1. **Retail ve Commerce \> Headquarters ayarı \> Parametreler \> Paylaşılan Commerce parametreleri**'ne gidin.
-1. **Stok** sekmesinde **Ürün kullanılabilirliği işi** bölümünde **Ürün Kullanılabilirliği işi için en uygun duruma getirilmiş işlem kullan**'ı seçin. Bu ayar, kanalın kullanılabilir stoğunu Commerce sunucusu üzerinden hesaplamak için en uygun özellik kümesinin kullanılmasını sağlar.
-
-İkinci parametreyi ayarlamak için bu adımları izleyin.
+**İşlevsellik profilini** değiştirmek için aşağıdaki adımları izleyin:
 
 1. **Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> İşlevsellik profilleri** öğesine tıklayın.
 1. Bir işlev profili seçin.
 1. **İşlevler** hızlı sekmesindeki **Stok kullanılabilirliği hesaplaması** bölümünde **Gerçek zamanlı servis** olan **Stok kullanılabilirliği hesaplama modu** değerini **Kanal** olarak değiştirin. Varsayılan olarak, tüm işlev profilleri gerçek zamanlı servis çağrıları kullanır. Bu nedenle, kanal tarafı hesaplama mantığı kullanmak istiyorsanız bu alanın değerini değiştirmeniz gerekir. Seçilen işlev profiline bağlı her perakende mağazası bu değişiklikten etkilenir.
 
-Sunucuları güncelleştirmek için bu adımları izleyin.
+Daha sonra aşağıdaki adımları gerçekleştirerek, değişiklikleri dağıtım zamanlaması işlemi aracılığıyla kanala eşitlemeniz gerekir:
 
 1. **Retail and Commerce \> Retail and Commerce IT \> Dağıtım planı**'na gidin.
 1. **1070** (**Kanal yapılandırması**) işini çalıştırın.

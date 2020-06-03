@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaab2093eb2531b63f27717d828f7064a8f9ed1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207520"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383125"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Tedarik kategorisi hiyerarşisini ayarlama
 
@@ -31,8 +31,8 @@ Bu yordam, tedarik kategori hiyerarşisi içinde yeni düğümler oluşturmayı 
 
 ## <a name="add-a-new-procurement-category"></a>Yeni bir tedarik kategorisi ekleyin
 1. **Gezinti bölmesi > Modüller > Tedarik ve kaynak atama > Konsinye > Tedarik kategorileri**'ne gidin.
-2. Eylem bölmesinde **Kategori hiyerarşisini düzenle**'yi seçin. Geçerli tedarik kategori hiyerarşisi sayfanın sol tarafında görüntülenir. Hiyerarşide değişiklik yapmak üzeresiniz.  
-3. Eylem bölmesinde **Yeni kategori düğümü**'nü seçin. Sistem varsayılan olarak üst düğümü seçer. Bu yordamı bir görev kılavuzu olarak çalıştırıyorsanız, Kilidi Aç düğmesine tıklayıp, yeni düğümü içine eklemek için başka bir üst düğümü seçin. Bunu yaptıktan sonra, görev kılavuzunu kilitleyin ve sonrasında Yeni kategori düğümü'nü tıklatın.  
+2. Eylem Bölmesi'nde **Kategori hiyerarşisini düzenle**'yi seçin. Geçerli tedarik kategori hiyerarşisi sayfanın sol tarafında görüntülenir. Hiyerarşide değişiklik yapmak üzeresiniz.  
+3. Eylem Bölmesi'nde **Yeni kategori düğümü**'nü seçin. Sistem varsayılan olarak üst düğümü seçer. Bu yordamı bir görev kılavuzu olarak çalıştırıyorsanız, Kilidi Aç düğmesine tıklayıp, yeni düğümü içine eklemek için başka bir üst düğümü seçin. Bunu yaptıktan sonra, görev kılavuzunu kilitleyin ve sonrasında Yeni kategori düğümü'nü tıklatın.  
 4. **Ad** alanına bir değer yazın.
 5. **Tanım** alanına bir değer girin.
 6. **Kolay ad** alanına bir değer girin. Kolay ad isteğe bağlıdır. Bu kategori aramalarında, kategori adı ile birlikte görüntülenir.  

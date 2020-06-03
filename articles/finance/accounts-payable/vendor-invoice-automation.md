@@ -3,7 +3,7 @@ title: Satıcı faturası otomasyonu
 description: Bu konu ekler içeren faturalar da dahil olmak üzere satıcı faturalarının uçtan uca otomasyonu için kullanılabilir olan özellikleri açıklar.
 author: abruer
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba986afb5c17c7a317b47d1e9cf4ae57ac29da97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180400"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396021"
 ---
 # <a name="vendor-invoice-automation"></a>Satıcı faturası otomasyonu
 
@@ -61,7 +61,7 @@ Veri paketi, fatura başlıklarının, fatura satırlarının ve fatura eklerini
 
 Satıcı fatura belgesi eki bu özelliğin bir parçası olarak sunulan yeni bir veri varlığıdır. Satıcı fatura başlığı varlığı ekleri desteleyecek şekilde değiştirilmiştir. Satıcı fatura satırı varlığı bu özellik için değiştirilmiştir.
 
-Bu konu, veri paketiyle ilgili ayrıntılı bir tanımın vermez. Ayrıca veri paketlerinin nasıl oluşturulacağını da açıklamaz. Bu bilgi için bkz. [Veri varlıkları ve paketler çerçevesi](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Veri paketleri hakkında ayrıntılı bilgi için bkz. [Veri yönetimine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Veri paketlerinin veri yönetimi çalışma alanını kullanılarak nasıl oluşturulacağı hakkında bilgi için bkz. [Dynamics 365 Finance and Operations uygulama çözümünde veri paketlerini işleme ve kullanma](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Faturaları ve ekleri içeren test verilerini hızla oluşturmak için aşağıdaki adımları izleyin.
 

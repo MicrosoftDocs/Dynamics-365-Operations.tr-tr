@@ -1,9 +1,9 @@
 ---
 title: Ürün çeşidi başına ölçü birimi dönüşümü
-description: Bu konu, ürün çeşitlerinde ölçü birimi dönüşümlerinin nasıl ayarlanabileceğini açıklar.
+description: Bu konuda, ürün çeşitleri için ölçü birimi dönüştürmelerinin nasıl ayarlanacağı açıklanmaktadır. Bir kurulum örneği içerir.
 author: johanhoffmann
 manager: tfehr
-ms.date: 01/06/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,71 +17,93 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: e50be7fa6fa686a90b2dd5c5200c881e4629f019
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
+ms.sourcegitcommit: 92611ec276da6f7211d722cfcd66739b612296dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204505"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382809"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Ürün çeşidi başına ölçü birimi dönüşümü
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, ürün çeşitlerinde ölçü birimi dönüşümlerinin nasıl ayarlanabileceğini açıklar. Bir kurulum örneği içerir.
+Bu konuda, farklı ürün çeşitleri için ölçü birimi dönüştürmelerinin nasıl ayarlanacağı açıklanmaktadır.
 
-Bu özellik, şirketlerin aynı ürün üzerindeki farklı çeşitler için farklı birim dönüştürmeleri tanımlamalarına olanak tanır. Aşağıdaki örnek bu konuda kullanılır. Bir şirket, Küçük, Medium, Large ve X-Large ebatlarında tişörtler satmaktadır. Tişört, bir ürün olarak tanımlanmıştır ve farklı ebatları ürünün çeşitleri olarak tanımlanmıştır. Tişörtler, bir kutuda beş tişört olabileceği şekilde paketlenmiştir, yalnızca dört tişört için yer olan X-Large beden hariç. Şirket, **Adet** biriminde tişörtlerin farklı türlerini izlemek istemektedir ancak tişörtleri **Kutu** biriminde satmaktadır. Stok birimi ve satış birimi için dönüşüm, X-Large ürün çeşidi için 1 Kutu = 4 Adet olduğu durum dışında 1 Kutu = 5 Adettir.
+Korunması gereken birden fazla ayrı ürün oluşturmak yerine tek bir ürünün çeşitlerini oluşturmak için ürün çeşitlerini kullanabilirsiniz. Örneğin, belirli bir boyut ve renkteki tişört bir ürün çeşidi olabilir.
 
-### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Çeşit başına birim dönüşümü için bir ürün ayarla
+Önceden, birim dönüştürmeleri yalnızca ana ürün üzerinde ayarlanabilirdi. Bu nedenle, tüm ürün çeşitleri aynı birim dönüştürme kurallarına sahipti. Ancak, *Ürün çeşitleri için ölçü birimi dönüştürmeleri* özelliği etkinleştirildiğinde; tişörtleriniz kutularda satılıyorsa ve bir kutuda paketlenebilecek tişörtlerin sayısı boyutlarına bağlıysa artık farklı tişört boyutları ve paketleme için kullanılan kutular arasında birim dönüştürmeleri ayarlayabilirsiniz.
 
-Ürün çeşitleri, yalnızca **Ürün alt türü**: **Ana Ürün** ürünleri için oluşturulabilir. Daha fazla bilgi için [Bir ana ürün oluşturma](tasks/create-product-master.md) konusuna bakın.
+## <a name="turn-on-the-feature-in-your-system"></a>Sisteminizdeki özelliği etkinleştirme
 
-Bu özellik fiili ağırlık işlemler için ayarlanmış olan ürünler için etkin değildir. 
+Sisteminizde bu özelliği henüz görmüyorsanız [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) konusuna gidin ve *Ürün çeşitleri için ölçü birimi dönüştürmeleri* özelliğini açın.
 
-Ana ürün, serbest bırakılan ürün çeşitleri ile oluşturulursa, çeşit başına ölçü dönüşümü ayarlanabilir. Bir ürün veya ürün çeşidi bağlamında ölçü birimi dönüştürme sayfası için menü öğesini, aşağıdaki sayfalarda bulabilirsiniz.
+## <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Çeşit başına birim dönüşümü için bir ürün ayarla
 
--   **Ürün ayrıntıları** sayfası
--   **Serbest bırakılan ürünlerin ayrıntıları** sayfası
--   **Serbest bırakılan ürün çeşitleri** sayfası
+Ürün çeşitleri, yalnızca ana ürünler için oluşturulabilir. Daha fazla bilgi için [Bir ana ürün oluşturma](tasks/create-product-master.md) konusuna bakın. *Ürün çeşitleri için ölçü birimi dönüştürmeleri* özelliği, fiili ağırlık işlemleri için ayarlanmış ürünlerde kullanılamaz.
 
-**Birim dönüştürme** sayfasını, bir ana ürün veya serbest bırakılmış ürün çeşidi bağlamında açtığınızda, biri dönüştürmeyi ürün mü yoksa ürün çeşidi mi için ayarlamak istediğinizi seçebilirsiniz. Bun **Ürün çeşidi** veya **Ürün**'ü, **Dönüşüm ayarla** alanında seçerek yaparsınız.
+Ana ürünü, birim dönüştürmeyi her çeşit için destekleyecek şekilde yapılandırmak üzere aşağıdaki adımları izleyin.
 
-### <a name="product-variant"></a>Ürün çeşidi
+1. **Ürün bilgi yönetimi \> Ürünler \> Ana ürünler**'e gidin.
+1. Ana ürünün **Ürün ayrıntıları** sayfasına gitmek için bir ana ürün oluşturun veya açın.
+1. **Ölçü birimi dönüştürmelerini etkinleştir** seçeneğini *Evet* olarak ayarlayın.
+1. Eylem Bölmesi'nde, **Ürün** sekmesindeki **Ayar** gurubunda **Birim dönüştürmeleri**'ni seçin.
+1. **Birim dönüştürmeleri** sayfası açılır. Aşağıdaki sekmelerden birini seçin:
 
-**Ürünü çeşidi** seçerseniz, hangi çeşit için ürün dönüşümünü ayarlayacağınızı **Ürün çeşidi** alanında seçebilirsiniz.
+    - **Sınıf içi dönüştürmeler**: Aynı birim sınıfına ait birimler arasında dönüştürme yapmak için bu sekmeyi seçin.
+    - **Sınıflar arası dönüştürmeler**: Farklı birim sınıflarına ait birimler arasında dönüştürme yapmak için bu sekmeyi seçin.
 
-### <a name="product"></a>Ürün
+1. Yeni bir birim dönüştürme eklemek için **Yeni**'yi seçin.
+1. **Dönüştürme oluştur** alanını aşağıdaki değerlerden birine ayarlayın:
 
-**Ürün** seçerseniz, ana ürün için bir birim dönüştürme ayarlayabilirsiniz. Bu birim dönüştürme, tanımlanmış bir birim dönüştürmeye sahip olmayan tüm ürün çeşitlerine uygulanır.
+    - **Ürün**: Bu değeri seçerseniz ana ürün için birim dönüştürme ayarlayabilirsiniz. Bu birim dönüştürme, birim dönüştürmenin tanımlanmadığı tüm ürün çeşitleri için geri dönüş olarak kullanılacaktır.
+    - **Ürün çeşidi**: Bu değeri seçerseniz belirli bir ürün çeşidi için birim dönüştürme ayarlayabilirsiniz. Ürün çeşidini seçmek için **Ürün çeşidi** alanını kullanın.
 
-### <a name="example"></a>Örnek
+    ![Yeni bir birim dönüştürme ekleme](media/uom-new-conversion.png "Yeni bir birim dönüştürme ekleme")
 
-Bir ana ürün, **Tişört**, serbest bırakılmış dört çeşide sahiptir, Küçük, Medium, Large ve X-Large. Tişörtler, bir kutuda beş tişört olabileceği şekilde paketlenmiştir, yalnızca dört tişört için yer olan X-large beden hariç.
+1. Birim dönüştürmenizi ayarlamak için sağlanan diğer alanları kullanın.
+1. Yeni birim dönüştürmeyi kaydetmek için **Tamam**'ı seçin.
 
-İlk olarak **Birim dönüştürme** sayfasını, **Tişört** için serbest bırakılmış ürün ayrıntıları sayfasından seçin.
+> [!TIP]
+> Ürün veya ürün çeşidi için **Birim dönüştürmeleri** sayfasını aşağıdaki sayfalardan herhangi birinden açabilirsiniz:
+> 
+> - Ürün ayrıntıları
+> - Serbest bırakılan ürünlerin ayrıntıları
+> - Serbest bırakılan ürün çeşitleri
 
-**Birim dönüştürme** sayfasında, serbest bırakılmış ürün çeşidi X-Large için birim dönüştürmeyi ayarlayın.
+## <a name="example-scenario"></a>Örnek senaryo
 
-| **Alan**             | **Ayar**             |
-|-----------------------|-------------------------|
-| Dönüşüm formu oluştur | Ürün çeşidi         |
-| Ürün çeşidi       | Tişört : : X-Large : : |
-| İlk birim             | Kutular                   |
-| Katsayı                | 4                       |
-| Son Birim               | Parça                  |
+Bu senaryoda bir şirket küçük, orta, büyük ve çok büyük ebatlarda tişörtler satmaktadır. Tişört, bir ürün olarak ve farklı ebatları, ürünün çeşitleri olarak tanımlanmıştır. Tişörtler, kutularda paketlenmiştir. Küçük, orta ve büyük ebatlar için her kutuda beş tişört olabilir. Ancak, çok büyük ebat için her kutuda sadece dört tişörtlük yer vardır.
 
-Serbest bırakılan ürün çeşitleri Küçük, Medium ve Large, Kutu ve Adet arasında aynı birim dönüştürmeye sahiptir, bu da bu ürünler için birim dönüştürmeyi ana ürün üzerinde ayarlayabileceğiniz anlamına gelmektedir.
+Şirket, farklı ürün çeşitlerini *Adet* biriminde izlemek istemektedir ancak ürünleri *Kutular* biriminde satmaktadır. Küçük, orta ve büyük ebatlar için stok birimi ile satış birimi arasındaki dönüştürme 1 Kutu = 5 Adettir. Çok büyük ebat için dönüştürme 1 Kutu = 4 Adettir.
 
-| **Alan**             | **Ayar** |
-|-----------------------|-------------|
-| Dönüşüm formu oluştur | Ürün     |
-| Ürün               | Tişört     |
-| İlk birim             | Kutular       |
-| Katsayı                | 5           |
-| Son Birim               | Parça      |
+1. **Tişört** ürününün **Serbest bırakılan ürün ayrıntıları** sayfasından **Birim dönüştürmeleri** sayfasını açın.
+1. **Birim dönüştürmeleri** sayfasında, serbest bırakılan ürün çeşidi **Çok büyük** için aşağıdaki birim dönüştürmeyi ayarlayın.
 
-### <a name="using-excel-to-update-the-unit-conversions"></a>Birim dönüştürmelerini güncelleştirmek için Excel kullanmak
+    | Alan                 | Ayar                 |
+    |-----------------------|-------------------------|
+    | Dönüşüm formu oluştur | Ürün varyantı         |
+    | Ürün varyantı       | Tişört : : X-Large : : |
+    | İlk birim             | Kutular                   |
+    | Katsayı                | 4                       |
+    | Son Birim               | Parça                  |
 
-Bir ürün, farklı birim dönüştürmelerine sahip çok sayıda ürün çeşidine sahipse, birim dönüştürmeyi **Birim dönüştürme** sayfasından bir Excel elektronik tablosuna dışa aktarmak, dönüşümleri güncelleştirmek ve daha sonra Supply Chain Mangement'ta yeniden yayınlamak iyi bir fikir olabilir.
+1. **Küçük**, **Orta** ve **Büyük** ürün çeşitlerinin tümü, *Kutu* ile *Adet* birimleri arasında aynı birim dönüştürmeye sahip olduğu için onların aşağıdaki birim dönüştürmesini ana ürün üzerinden tanımlayabilirsiniz.
 
-Excel'e dışa aktarma ve düzenlemeleri Supply Chain Mangement'ta yeniden yayınlama seçeneği, **Birim dönüştürme** sayfasının Eylem Bölmesindeki **Microsoft Office'te aç** menü öğesinden etkinleştirilir.
+    | Alan                 | Ayar |
+    |-----------------------|---------|
+    | Dönüşüm formu oluştur | Ürün |
+    | Ürün               | Tişört |
+    | İlk birim             | Kutular   |
+    | Katsayı                | 5       |
+    | Son Birim               | Parça  |
+
+## <a name="using-excel-to-update-the-unit-conversions"></a>Birim dönüştürmelerini güncelleştirmek için Excel kullanmak
+
+Bir üründe, farklı birim dönüştürmeleri olan birçok ürün çeşidi varsa birim dönüştürmelerini bir Microsoft Excel çalışma kitabına aktarmak, güncelleştirmek ve ardından tekrar Dynamics 365 Supply Chain Management uygulamasına yayımlamak iyi bir fikirdir.
+
+Birim dönüştürmelerini Excel'e aktarmak için **Birim dönüştürmeleri** sayfasında, Eylem Bölmesi'nde **Microsoft Office uygulamasında aç**'ı seçin.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+[Ölçü birimini yönetme](tasks/manage-unit-measure.md)

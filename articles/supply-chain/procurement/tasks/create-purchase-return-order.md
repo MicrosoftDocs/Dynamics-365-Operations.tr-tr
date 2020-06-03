@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c83cafd3a8934c488bb7a9f315bd5cb154f88c09
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204850"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383218"
 ---
 # <a name="create-a-purchase-return-order"></a>Satınalma iade siparişi oluşturma
 
@@ -34,7 +34,7 @@ Bu yordam, bir satıcı fatura belgesinden satırları yeni bir satınalma sipar
 2. **Yeni**'ye tıklayın.
 3. **Satıcı hesabı** alanına "US-102" girin.
 4. **Tamam**'a tıklayın.
-5. **Eylem Bölmesinde**, **Satınal** öğesine tıklayın.
+5. **Eylem Bölmesi**'nde, **Satınalma** öğesine tıklayın.
 6. **Alacak dekontu**'na tıklayın. Bu sayfadan mevcut satıcı faturasını iade siparişinize kopyalayabilirsiniz. Bu, diğer kopyalama eylemleri için kullanılanla aynı sayfadır. Ancak Alacak dekontu eyleminden açıldığından sayfa, satıcı faturalarını mahsuplaştıran bir iade siparişinin oluşturulmasını desteklemek üzere yapılandırılır.  
 7. **Parametreler** bölümünü genişletin.
     - **İşareti tersine çevir** seçeneği otomatik olarak seçilir ve değiştirilemez. Bu, işaretin miktarlar için değiştirilmesini ve eklenen sipariş satırlarının satıcı faturasını mahsuplaştırmasını sağlar.  

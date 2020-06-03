@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b5ad1bdd91a2fb9109f29400f082e9a8af009ba
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f0f042e6ffe5ecf01b9e5044fc83d081528fbc56
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216954"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383309"
 ---
 # <a name="set-up-containerization"></a>Konteyner kullanımını ayarlama
 
@@ -60,7 +60,7 @@ Bu konu, Ambar yönetimindeki yüklerin konteyner kullanımının nasıl otomati
 
 ## <a name="set-up-a-container-group"></a>Bir konteyner grubu ayarla
 1. Gezinti bölmesinde **Modüller > Ambar yönetimi > Kurulum > Konteynerler > Konteyner grupları**'na gidin.
-2. Eylem bölmesinde, **Yeni**'yi seçin. Konteyner türleri için mantıksal grupları ayarlayabilirsiniz. Her bir grup için, konteynerlerin paketleneceği sıralamayı ve konteynerlerin doldurulacağı yüzdeyi belirtebilirsiniz. Maddenin ebat boyutları, bir konteynere sığı sığmayacağını belirlemekte kullanılır. Maddenin ebat boyutuna en yakın olan konteyner kullanılacaktır. Bir grup içinde birden çok konteyner türü varsa, sırayı boyuta göre düzenlemenizi öneririz, böylelikle en büyük konteyner birinci, sıralama içerisinde birinci numarada olur ve en küçük konteyner en sona kalır.    
+2. Eylem Bölmesinde, **Yeni**'yi seçin. Konteyner türleri için mantıksal grupları ayarlayabilirsiniz. Her bir grup için, konteynerlerin paketleneceği sıralamayı ve konteynerlerin doldurulacağı yüzdeyi belirtebilirsiniz. Maddenin ebat boyutları, bir konteynere sığı sığmayacağını belirlemekte kullanılır. Maddenin ebat boyutuna en yakın olan konteyner kullanılacaktır. Bir grup içinde birden çok konteyner türü varsa, sırayı boyuta göre düzenlemenizi öneririz, böylelikle en büyük konteyner birinci, sıralama içerisinde birinci numarada olur ve en küçük konteyner en sona kalır.    
 3. **Konteyner grup kimliği** alanında, daha önce oluşturduğunuz bir değer yazın.
 4. **Tanım alanına** bir değer girin.
 5. 2-4 adımları, daha önce oluşturduğunuz tüm üç konteyner türleri için yineleyin.

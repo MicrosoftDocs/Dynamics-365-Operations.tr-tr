@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 438e13d6887decc9867d474467efc06d7a2f3274
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205725"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383102"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Ambar işi için mobil cihazları ayarlama
 
@@ -224,7 +224,7 @@ Ambar işi oluşturmak için menü öğeleri ayarlamaya ek olarak, önceden olu�
 </tr>
 <tr class="even">
 <td>Sistem yönlendirmesinde</td>
-<td>Supply Chain Management denetimleri, bir çalışana atanan iş türlerini ve çalışanın işi gerçekleştirdiği sıralamayı denetler. Bu seçeneği seçtiğinizde, <strong>Sistem tarafından yönlendirilen çalışma</strong> seçeneğine Eylem panosunda, iş için sıralama ölçütünü ayarlayabileceğiniz <strong>Sistem tarafından sıralanan sıralama</strong> sayfasını açmak için tıklayabilirsiniz. Bu sıralama kriteri, çalışanın işi hangi sırada yapacağını denetler. İhtiyaç duyduğunuz sayıda ölçüt ekleyebilirsiniz.</td>
+<td>Supply Chain Management denetimleri, bir çalışana atanan iş türlerini ve çalışanın işi gerçekleştirdiği sıralamayı denetler. Bu seçeneği belirlediğinizde, iş için sıralama ölçütünü ayarlayabileceğiniz <strong>Sistem tarafından yönlendirilen sıralama düzeni</strong> sayfasını açmak için Eylem Bölmesi'nde <strong>Sistem tarafından yönlendirilen çalışma</strong> seçeneğine tıklayabilirsiniz. Bu sıralama kriteri, çalışanın işi hangi sırada yapacağını denetler. İhtiyaç duyduğunuz sayıda ölçüt ekleyebilirsiniz.</td>
 </tr>
 <tr class="odd">
 <td>Kullanıcı yönlendirmesinde</td>
@@ -257,7 +257,7 @@ Bu seçenek örneğin bir yük için birden fazla palet hazırlandıysa faydalı
 </tr>
 <tr class="even">
 <td>Döngü sayımı gruplandırma</td>
-<td>İşçi, bir bölge, iş havuzu veya konum seçer ve Supply Chain Management seçime bağlı olarak işi atar. Bu seçeneği belirlemeniz halinde, Eylem bölmesinde <strong>Döngü sayımı</strong> seçeneğine tıklayarak görüntülenecek ek bilgileri belirleyebilir ve ayrıca çalışanın fark bulunması halinde sayımı kaç kez tekrarlaması gerektiğini de belirtebilirsiniz.</td>
+<td>İşçi, bir bölge, iş havuzu veya konum seçer ve Supply Chain Management seçime bağlı olarak işi atar. Bu seçeneği belirlemeniz halinde, Eylem Bölmesi'nde <strong>Döngü sayımı</strong> seçeneğine tıklayarak görüntülenecek ek bilgileri belirtebilir ve ayrıca çalışanın fark bulunması halinde sayımı kaç kez tekrarlaması gerektiğini de belirtebilirsiniz.</td>
 </tr>
  <tr class="odd">
 <td>Taşıma yüklemesi</td>
