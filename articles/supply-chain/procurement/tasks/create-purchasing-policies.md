@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e13a9a594e8c4041a586734df53321d57b43586
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d4ba2a23f84972391283eaf01cef70a161c75226
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204824"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383193"
 ---
 # <a name="create-purchasing-policies"></a>Satınalma ilkeleri oluşturma
 
@@ -32,7 +32,7 @@ Bu konu satınalma için iş süreçlerinize uygun olacak şekilde satınalma il
 
 ## <a name="set-up-policy-parameters"></a>İlke parametrelerini ayarlayın
 1. Gezinti bölmesinde **Modüller > Tedarik ve kaynak atama > Ayar > İlkeler > Satınalma ilkeleri**.
-2. Eylem Bölmesinde, **Parametreler**'i seçin.
+2. Eylem Bölmesi'nde, **Parametreler**'i seçin.
 - İlke önceliği kuralları kuruluşunuzdaki farklı düzeylere uygulanır. Kuruluş hiyerarşinize göre gösterilen kuruluş birimleri ve Tedarik dahili kontrolü amacına atanan hiyerarşideki düzeyler. Örneğin, kuruluşunuzun yasal varlıkları, maliyet merkezleri, bölgeleri ve departmanları olabilir, ancak yalnızca bazıları Tedarik dahili kontrolünün hiyerarşi amacına sahip olabilir. Varsayılan olarak, kuruluşun Şirket türü kullanılabilir.  
 3. **İlke kuralı türü parametreleri** sekmesini seçin.
 4. Ağaçta, **Satınalma ilkesi > Satınalma talebi kontrol kuralı**'na gidin.

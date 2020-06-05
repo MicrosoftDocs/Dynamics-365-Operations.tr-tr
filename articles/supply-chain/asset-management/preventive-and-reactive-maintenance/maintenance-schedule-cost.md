@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8feea75bb223bdbd013b11cdf3a63d504afb04f5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 91c5b2e70ee083bf2741e245f1ca840ab939ad3f
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208214"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382987"
 ---
 # <a name="maintenance-schedule-cost"></a>Bakım zamanlaması maliyeti
 
@@ -46,7 +46,7 @@ Varlık Yönetiminde, bakım zamanlaması satırlarında bütçe maliyetlerini h
 
 5. Maliyet hesaplamasını başlatmak için **Tamam**'a tıklayın.
 
-6. **Bakım zamanlaması maliyeti** sekmesinde > **Gruplama ölçütü...** eylem bölmesi gruplarında, maliyet hesaplamasının gereken ayrıntı düzeyini göstermek için ilgili düğmelere tıklayın. Seçilen eylem bölmesi grup düğmeleri vurgulanır. Etkinleştirmek veya devre dışı bırakmak için bir düğmeye tıklayın.
+6. **Bakım zamanlaması maliyeti** sekmesinde > **Gruplama ölçütü...** Eylem Bölmesi gruplarında, maliyet hesaplamasının gereken ayrıntı düzeyini göstermek için ilgili düğmelere tıklayın. Seçilen Eylem Bölmesi grup düğmeleri vurgulanır. Etkinleştirmek veya devre dışı bırakmak için bir düğmeye tıklayın.
 
 7. Yeni bir maliyet hesaplaması yapmak isterseniz **Maliyeti hesapla** düğmesine tıklayın.
 

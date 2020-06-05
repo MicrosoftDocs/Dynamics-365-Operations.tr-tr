@@ -3,7 +3,7 @@ title: Mağaza stok yönetimi
 description: Bu konuda, stoku yönetmek için kullanabileceğiniz belge türleri açıklanmaktadır.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 04/23/2019
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,56 +18,54 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3f7f228bbf312a2ccdc96d3e95287898bee01de4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3e6450c358d12dc62c2ffa20e7ff529be86bbe5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024296"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379271"
 ---
 # <a name="store-inventory-management"></a>Mağaza stok yönetimi
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 Commerce içine stok ile çalışırken ve POS uygulamasını kullanırken, POS'un stok boyutları ve çeşitli stok öğesi türleri için sınırlı destek sağladığını dikkate almak önemlidir.
+Microsoft Dynamics 365 Commerce uygulamasında stokla çalışırken ve satış noktası (POS) uygulamasını kullandığınızda POS'un bazı stok boyutları ve bazı stok maddesi türleri için sınırlı destek sağladığını bilmeniz önemlidir. POS uygulaması, Dynamics 365 Supply Chain Management uygulamasındaki madde yapılandırma seçenekleriyle kullanılabilen tüm madde yapılandırma özelliklerini desteklemez.
 
-POS çözümü aşağıdaki öğe yapılandırmalarını desteklemez:
+POS çözümü, şu anda aşağıdaki ürün boyutlarını ve madde yapılandırmalarını desteklememektedir:
 
-- Ürün reçetesi öğeleri (ürün reçetesi çerçevesinin bazı bileşenlerini kullanan paket ürünler hariç)
+- Ürün boyutu ve ürün reçetesi (BOM) maddelerini yapılandırma (BOM çerçevesinin bazı bileşenlerini kullanan perakende paket ürünleri hariç)
 - Fiili ağırlık maddeleri
-- Toplu iş kontrollü maddeler
+- Ürün boyutu denetimli maddelerin sürümü
 
 POS uygulaması şu anda POS içindeki aşağıdaki izleme boyutlarını desteklemez:
 
 - Toplu iş izleme boyutu
 - Sahip boyutu
 
-POS çözümü, aşağıdaki boyutlar için sınırlı destek sağlar. Sınırlı destek, POS'un bu boyutlardan bazılarını stok hareketlerine otomatik olarak ambar/mağaza kurulum yapılandırmasına varsayılana dönebileceğini belirtir. POS, bir satış hareketi ERP'ye el ile girilirse desteklendikleri gibi tam olarak boyutları desteklemez. 
+POS, aşağıdaki boyutlar için sınırlı destek sağlar. Başka bir deyişle POS, ambar veya mağaza kurulumunun yapılandırmasına bağlı olarak bu boyutlardan bazılarını stok işlemlerine otomatik olarak girebilir. POS, bir satış hareketi Commerce Headquarters'a el ile girilirse desteklendikleri gibi tam olarak boyutları desteklemez. 
 
-- **Ambar Konumu** - Mağaza ambar yönetim işlemini kullanmak üzere yapılandırılmadığında kullanıcılar bir mağaza ambarına alınan maddeler için teslim alma ambar konumunu yönetme özelliğine sahip olmaz. Bu maddeler için mağaza ambarında tanımlanan varsayılan bir teslim alma yerleşimi kullanılacaktır. Ambar yönetimi işlemi mağaza için etkinleştirilmişse, kullanıcıdan tüm giriş için bir teslim alma konumu seçmesini isteyen sınırlı destek tetiklenir. Mağazadan satılan maddeler, mağaza ambar kurulumunda tanımlandığı şekilde, her zaman varsayılan konumundan satılır. Ambar iadesi yönetimi yerleşimi, mağaza ambarındaki varsayılan iade konumu tanımı aracılığıyla veya iade konumu ilkesinde tanımlandığı şekilde iade neden koduna dayalı olarak denetlenebilir.
-- **Plaka** - Plakalar yalnızca **Ambar yönetimi sürecini kullan** madde ve mağaza ambarında etkinleştirilmişse uygulanır. POS'ta, stok ambar yönetimi işleminin etkinleştirildiği bir mağaza ambarına teslim alınırsa ve maddeyi teslim almak için seçilen yerleşim plaka kontrolü gerektiren bir yerleşim profiline bağlıysa, POS uygulaması bir plakayı teslim alma satırına sistematik olarak uygular. POS'taki kullanıcıların bu palka verilerini değiştirme veya yönetme yetkisi yoktur. Plakaların tam yönetimi gerekiyorsa, mağazanın bu maddelerin girişini yönetmek için WMS mobil uygulamasını veya arka ofis ERP istemcisini kullanması önerilir.
-- **Seri numarası** - POS uygulaması, serileştirilmiş maddelerle POS'ta oluşturulan siparişler için bir hareket satış satırına kaydedilecek tek seri numarası için sınırlı destek sağlar. Bu seri numarası zaten stokta bulunan kayıtlı seri numaraları ile doğrulanamaz. Bir satış siparişi çağrı merkezi kanalında oluşturulursa veya ERP aracılığıyla karşılanırsa ve çoklu seri numaraları ERP'de karşılama işlemi sırasında tek bir satış satırına kaydedilirse, bu seri numaralar bu siparişler için POS'ta bir iada işlenmesi durumunda uygulanmaz veya doğrulanmaz.
-- **Stok durumu** - Ambar yönetimi sürecini kullanan ve stok durumu gerektiren maddeler için, bu durum alanı POS uygulaması aracılığıyla ayarlanamaz veya değiştirilemez. Mağaza ambar yapılandırmasında tanımlanan varsayılan stok durumu, maddeler stoğa alındığında kullanılır.
+- **Ambar Yerleşimi**: Kullanıcılar, yeni POS işlemleri [Gelen işlem](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) ve [Giden işlem](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)'i kullandıklarında gelen maddelerin alınacağı veya giden transfer emirli maddelerin sevk edileceği bir depo stok yerleşimini seçebilirler. Eski **Malzeme çekme ve teslim alma** işlemini kullanırlarsa giden transferlerin giriş ve sevkiyatları için sınırlı yerleşim yönetimi desteği alabilirler. Bu destek yalnızca madde ve mağaza ambarı için **Ambar yönetimi sürecini kullan** seçeneği etkinleştirilmişse kullanılabilir. Şu anda bir stok yerleşimi, **Stok sayımı** işlemi veya **Stok arama** işlemi ile kullanılamaz.
+- **Plaka**: Plakalar yalnızca **Ambar yönetimi sürecini kullan** seçeneği madde ve mağaza ambarında etkinleştirilmişse uygulanır. POS'ta stok, **Gelen işlem** veya ambar yönetimi işlemi etkinleştirilmişse **Malzeme çekme ve teslim alma** işlemi kullanılarak bir mağaza ambarına alınırsa ve maddeyi teslim almak için seçilen yerleşim, plaka denetimi gerektiren bir yerleşim profiline bağlıysa POS uygulaması, bir plakayı teslim alma satırına sistematik olarak uygular. POS kullanıcıları bu plaka verilerini değiştiremez veya yönetemez. Plakaların tam yönetimi gerekiyorsa mağazanın bu maddelerin girişini yönetmek için [ambarlama uygulaması](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app) veya arka ofis istemcisi kullanmasını öneririz.
+- **Seri numarası**: POS uygulaması, POS'ta oluşturulan ve serileştirilmiş maddeler içeren siparişlerin bir satış hareketi satırına kaydedilmesi için sınırlı destek sağlar. Bu seri numarası, zaten stokta bulunan kayıtlı seri numaraları ile doğrulanamaz. Bir satış siparişi, çağrı merkezi kanalında oluşturulursa veya kurumsal kaynak planlama (ERP) aracılığıyla karşılanırsa ve çoklu seri numaraları ERP'de karşılama işlemi sırasında tek bir satış satırına kaydedilirse POS'ta sipariş için iade işlemi gerçekleştiğinde bu seri numaraları uygulanamaz veya doğrulanamaz. **Gelen işlem** işlemi kullanılarak stok girişi yapıldığında kullanıcılar [alınan seri numaralarını kaydedebilir veya onaylayabilir](https://docs.microsoft.com/dynamics365/commerce/pos-serialized-items).
+- **Stok durumu**: Ambar yönetimi sürecini kullanan ve stok durumu gerektiren maddeler için bu durum alanı POS uygulaması aracılığıyla ayarlanamaz veya değiştirilemez. Mağaza ambar yapılandırmasında tanımlanan varsayılan stok durumu, maddeler stoka alındığında kullanılır.
 
 > [!NOTE]
-> Tüm kuruluşların POS aracılığıyla madde yapılandırmalarını üretime dağıtmadan önce geliştirme veya test ortamlarında test etmeleri gerekir. Öğelerinizi (eğer uygunsa) sıradan nakit ve taşıma satış hareketleri gerçekleştirerek ve müşteri siparişleri oluşturarak POS üzerinde maddeleriniz ile test edin. Testin, test ortamınızda tam bildirim deftere nakil işlemini çalıştırmayı içermesi ve sorun olmadığını doğrulaması gerekir.
+> Tüm kuruluşların POS aracılığıyla madde yapılandırmalarını üretim ortamlarına dağıtmadan önce geliştirme veya test ortamlarında test etmeleri gerekir. Düzenli nakit satış hareketleri yapmak ve POS üzerinden müşteri siparişleri (varsa) oluşturmak için maddelerinizi, kullanarak test edin. POS uygulamasının bunları destekleyebildiğinden emin olmak için yeni madde yapılandırmalarını dağıtmadan önce POS karşılama ve stok işlemlerini de (stok girişi ve sipariş karşılama işlemleri gibi) test etmelisiniz. Testin, tam bildirim deftere nakil işlemini test ortamınızda çalıştırmayı içermesi ve bu maddelerin siparişleri Commerce Headquarters'da oluşturulduğunda ve yayımlandığında sorun olmadığını doğrulaması gerekir.
 >
-> Maddeleri POS uygulamasında desteklenmeyen bir şekilde, doğru biçimde test etmeden yapılandırmak, bildirim deftere nakil işleminizin, sorunları kolay bir düzeltme şekli olmadan üretimde başarısız olmasına neden olabilir. Uygulamadaki ortak veya müşteri özelleştirmeleri, isteğe bağlı olarak bu deftere nakil işlemlerinin başarıyla tamamlanmış kabul edilebilir. Özelleştirmeler gerekli değilse, kuruluşun ürünlerinizin ürün yapılandırmasının, standart POS uygulaması/sipariş oluşturma/bildirim deftere nakletme işlemi tarafından desteklenmiş bir şekilde yapıldığından emin olması gerekir.
+> Maddeler, POS uygulamasının desteklemeyeceği şekilde yapılandırılırsa ve uygun test yapılmazsa sipariş oluşturma işlemi sırasında, kolayca düzeltilmeyen veya standart ürün desteği kapsamında olmayan veri hataları ortaya çıkabilir.
 
-## <a name="purchase-orders"></a>Satınalma siparişleri
+## <a name="purchase-orders"></a>Satın alma siparişleri
 
-Satınalma siparişleri merkez ofiste oluşturulur. Satınalma siparişi başlığına bir ambarı dahil edilirse, sipariş **Malzeme çekme/Teslim alma** işlemi aracılığıyla Modern POS (MPOS) veya Cloud POS kullanılarak mağazada teslim alınabilir. Mağazada teslim alınan miktarlar satınalma siparişi belgesi için POS'ta **Şimdi Teslim Al** alanına girildiğinde, bunlar yerel olarak kaydedilebilir veya kabul edilebilir. Bu verilerin yerel olarak kaydedilmesi, stoktaki stok üzerinde herhangi bir etkiye sahip değildir. Yalnızca kullanıcının girişi HQ'ya göndermeye hazır olmaması ve önceden girilen **Şimdi Teslim Al** verilerini geçici olarak saklamak için bir yola gereksinim duyması durumunda kaydetme işlemi yapılmalıdır. Böylece, şimdi teslim al verileri kullanıcının kanal veritabanına yerel olarak kaydedilir. Belge **Kaydet** seçeneği kullanılarak işlendikten sonra **Şimdi Teslim Al** verileri HQ'ya gönderilir ve satınalma siparişi girişi deftere nakledilir. 
+Satınalma siparişleri Commerce Headquarters'da oluşturulur. Mağaza ambarı satınalma siparişi başlığına veya satınalma siparişi satırlarına dahil edilmişse satırlar POS'ta, [Gelen işlem](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) işlemi kullanılarak mağazadan teslim alınabilir. 
 
 ## <a name="transfer-orders"></a>Transfer emirleri
 
-Transfer emri, belirli bir mağazanın maddelerin sevk edileceği yer veya stoğun teslim alınma konumu olduğunu belirtebilir. POS kullanıcısı bir transfer emri için sevkiyat ambarı ise, POS 'tan **Şimdi Sevket** miktarlarını girebilir. Sevkiyat mağazası tarafından girilen veriler yerel olarak kaydedilebilir veya kabul edilebilir. Yerel olarak kaydedildiğinde, HQ içindeki transfer emri belgesinde herhangi bir güncelleştirme yapılmaz. Yalnızca kullanıcının sevkiyatı HQ'ya nakletmeye hazır olmaması ve önceden girilen **Şimdi Sevket** verilerini geçici olarak saklamak için bir yola gereksinim duyması durumunda kaydetme işlemi yapılmalıdır. Mağaza sevkiyatı onaylanmaya hazır olduktan sonra, **Kaydet** seçeneği seçilmelidir. Böylece, HQ'daki transfer emrinin sevkiyatı deftere nakledikir ve teslim alma ambarı artık teslim alabilir. 
-
-POS kullanıcısı bir transfer emri için teslim alma ambarı ise, POS'tan **Şimdi Teslim Al** miktarlarını girebilir. Teslim alma mağazası tarafından girilen veriler yerel olarak kaydedilebilir veya kabul edilebilir. Yalnızca kullanıcının girişi HQ'ya göndermeye hazır olmaması ve önceden girilen **Şimdi Teslim Al** verilerini geçici olarak saklamak için bir yola gereksinim duyması durumunda kaydetme işlemi yapılmalıdır. Böylece, şimdi teslim al verileri kullanıcının kanal veritabanına yerel olarak kaydedilir. Belge **Kaydet** seçeneği kullanılarak işlendikten sonra **Şimdi Teslim Al** verileri HQ'ya gönderilir ve transfer emri girişi deftere nakledilir. Teslim alma mağazasının yalnızca sevk edilen miktarlara eşit veya bundan küçük olan teslim alma miktarlarını kaydedebildiğini unutmamanız gerekir. Bir transfer emrindeki daha önce sevk edilmemiş miktarları teslim alma girişimi hatalara neden olur ve giriş HQ'da onaylanmaz.
+Transfer emirleri, Commerce Headquarters'da veya POS'ta [Gelen işlem](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) veya [Giden işlem](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) işlemi aracılığıyla oluşturulabilir. Stokun başka bir ambar veya mağaza yerleşiminden mağazaya gönderilmesi için bir transfer emri isteği oluşturmak üzere **Gelen işlem** POS işlemini kullanın. Stokun, mağazadan başka bir ambar veya mağaza yerleşimine gönderilmesi için bir transfer emri isteği oluşturmak üzere **Giden işlem** POS işlemini kullanın. Mağaza için bir transfer emri oluşturulduktan sonra bu mağaza, POS'taki **Gelen işlem** işlemi aracılığıyla oluşturulan transfer emri için stok girişini yönetebilir. Mağaza, stoku başka bir yerleşime gönderiyorsa söz konusu mağazanın giden sevkiyat işlemini yönetmek için POS'taki **Giden işlem** işlemi kullanılır.
 
 ## <a name="stock-counts"></a>Stok sayımları
 
-Stok sayımları zamanlanmış veya zamanlanmamış olabilir. Planlı stok sayımları sayılması gereken maddeleri belirten merkez ofiste başlatılır. Merkez ofis mağazada alınabilecek bir sayım belgesi oluşturur ve fiili eldeki stok miktarları burada MPOS'a veya Cloud POS'a girilir. Mağazada planlanmamış stok sayımları başlatılır ve fiili eldeki stok miktarları MPOS'ta veya Cloud POS'te güncelleştirilir. Planlı stok sayımlarından farklı olarak, planlanmamış stok sayımlarında önceden tanımlanmış bir madde listesi yoktur. Her iki türün birinden bir stok sayımı tamamlandığında, özen ve merkez ofise gönderilir. Merkez ofiste sayım doğrulanır ve ayrı bir adım olarak deftere nakledilir.
+Stok sayımları zamanlanmış veya zamanlanmamış olabilir. Planlı stok sayımları, mağazanın ambarına bağlı bir Sayma günlüğü belgesi oluşturularak Commerce Headquarters aracılığıyla oluşturulur. Bu günlük, sayılması gereken maddeleri belirtir. Daha sonra mağaza, bu önceden tanımlanmış sayım günlüklerine erişebilir ve POS'taki **Stok sayımı** işlemini kullanarak bunlar üzerinde işlem yapabilir. Mağaza kullanıcıları POS'ta **Stok sayımı** işlemini kullandıklarında gerektiği gibi planlanmamış bir stok sayımı başlatırlar. Planlı stok sayımlarından farklı olarak planlanmamış stok sayımlarında önceden tanımlanmış bir madde listesi yoktur. POS'ta, her iki türün birinden bir stok sayımı tamamlandığında kabul edilir ve merkez ofise gönderilir. Merkez ofiste bu sayı onaylanmalı ve ayrı bir adım olarak Commerce Headquarters'da deftere nakledilmelidir.
 
 ## <a name="inventory-lookup"></a>Stok arama
 
-Çok sayıda mağaza ve ambar için geçerli eldeki ürün miktarı, **Stok arama** sayfasından görüntülenebilir. Geçerli eldeki miktara ek olarak, gelecekte karşılanabilir (ATP) miktarlar, her bir mağaza için görüntülenebilir. Bunu yapmak için, ATP'sini görüntülemek istediğiniz mağazayı seçin ve **Mağaza kullanılabilirliğini göster** üzerine tıklayın.
+Çok sayıda mağaza ve ambar için geçerli olan eldeki ürün miktarı, **Stok arama** sayfasından görüntülenebilir. Geçerli eldeki miktara ek olarak gelecekte karşılanabilir (ATP) miktarlar, her bir mağaza için tek tek görüntülenebilir. ATP miktarlarını görmek için mağaza seçin ve ardından **Mağaza kullanılabilirliğini göster**'i seçin. Kullanılabilir yapılandırma seçenekleri hakkında bilgi için bkz. [Perakende kanalları için stok kullanılabilirliğini hesaplama](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).

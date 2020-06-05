@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ccaeea8d0494644b4d55c29a778d9a8239de10b9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fafa2f7da5575206d452f31bb297790874369dfd
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207796"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383286"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Belirli ürünler için satıcıları onaylama
 
@@ -42,10 +42,10 @@ Bu yordam, belirli ürünler için satıcıları onaylamayı gösterir. Bu, bir 
 11. **Satıcı** alanına bir değer girin veya buradan bir değer seçin.
 12. **Bitiş** alanına bir tarih girin. Önceki sona erme tarihinden farklı bir tarihi seçin.  
 13. Sayfayı kapatın.
-14. Eylem Bölmesinde, **Onaylanan satıcılar** öğesine tıklayın.
+14. Eylem Bölmesi'nde, **Onaylanan satıcılar** öğesine tıklayın.
 15. **Bitiş** alanına bir tarih girin. Bu tarih, belirli bir tarihe kadar olan onaylanan satıcıları görebilmeniz için bir filtre görevi görür.  
 16. Sayfayı kapatın.
-17. Eylem Bölmesinde, **Yürürlük dönemi** öğesine tıklayın.
+17. Eylem Bölmesi'nde, **Yürürlük dönemi** öğesine tıklayın.
 18. **Satıcılar tarafından alan süresi** alanına bir tarih girin. Belirli bir tarihten sonra onay durumunu sona erecek satıcıları tanımlamak için bu sayfayı kullanabilirsiniz.  
 19. Sayfayı kapatın.
 20. **Düzenle**'yi tıklatın.
@@ -57,7 +57,7 @@ Bu yordam, belirli ürünler için satıcıları onaylamayı gösterir. Bu, bir 
 26. Sayfayı kapatın.
 27. Gezinti Bölmesi'nde **Modüller > Tedarik ve kaynak atama > Satıcılar > Tüm satıcılar**'a gidin. Ayrıca bir satıcıdan başlatabilir ve o satıcı hesabı için onaylanan ürünler listesine gidebilirsiniz.  
 28. Listede, istenen kaydı bulun ve seçin.
-29. Eylem Bölmesinde, **Tedarik** öğesine tıklayın.
+29. Eylem Bölmesi'nde, **Tedarik** öğesine tıklayın.
 30. **Satıcıya göre onaylı satıcı listesi**'ne tıklayın.
 31. Sayfayı kapatın.
 32. Sayfayı kapatın.

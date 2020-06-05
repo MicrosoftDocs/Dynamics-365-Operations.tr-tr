@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9aa46f959c35c209791457aa697ab829264b3275
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1642da7b06363d1f704e51276b5cb36823707231
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211963"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383446"
 ---
 # <a name="create-a-new-trade-agreement"></a>Yeni bir ticari sözleşme oluşturma
 
@@ -34,7 +34,7 @@ Bu yordam belirli bir müşteri ile üzerinde anlaştığınız yeni bir ürün 
 2. **Yeni**'ye tıklayın.
 3. **Ad** alanında, açılır menü düğmesine tıklayarak aramayı açın.
 4. Listede, istenen kaydı bulun ve seçin.
-5. **Eylem bölmesi**'nde, **Satırlar**'a tıklayın.
+5. **Eylem Bölmesi**'nde, **Satırlar**'a tıklayın.
 6. **Hesap kodu** alanında "Tablo" seçeneğini seçin.
     
     Bu örnekte, belirli bir müşteri için fiyat güncelleştirmesi yapıyorsunuz bu yüzden de Tablo seçmeniz lazım. Ürünün liste fiyatını güncelleştiriyor olsaydınız yeni fiyatın tüm müşteriler için geçerli olmasını sağlamak için "Tümü" seçeneğini seçecektiniz. Müşteri segmentleri arasında fiyat farklılaştırması yapacak olsaydınız, Grup seçeneğini seçmeniz gerekirdi. Grup'u seçmek için müşteri fiyat grupları ayarlamış olmanız gerekir.  

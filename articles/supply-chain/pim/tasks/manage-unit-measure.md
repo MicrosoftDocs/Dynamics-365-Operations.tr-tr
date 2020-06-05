@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7f7e2220a8eca9f9bf45216491f606ef0a2eb18
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: abc02c73ae36975fa4872d638fe53cbf0379d15d
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203561"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383677"
 ---
 # <a name="manage-unit-of-measure"></a>Ölçü birimini yönetme
 
@@ -41,13 +41,13 @@ Bu yordam, bir ölçü birimi tanımlamayı, bu birim ve açıklaması için çe
 6. **Kaydet**'e tıklayın.
 
 ## <a name="define-unit-translations"></a>Birim çevirilerini tanımlayın
-1. **Eylem bölmesi**'nde, **Birim metinleri**'ne tıklayın.
+1. **Eylem Bölmesi**'nde, **Birim metinleri**'ne tıklayın.
 2. **Yeni**'ye tıklayın. Müşteri veya satıcıya özgü dillerde ölçü birimini temsil edecek bir sembol veya Kimliğin çevirisini oluştururken birim yazısı kullanın.  
 3. **Dil** alanına bir değer girin veya buradan bir değer seçin.
 4. **Metin** alanına bir değer yazın.
 5. **Kaydet**'e tıklayın.
 6. Sayfayı kapatın.
-7. **Eylem bölmesi**'nde, **Çevrilmiş birim açıklamaları**'na tıklayın.
+7. **Eylem Bölmesi**'nde, **Çevrilmiş birim açıklamaları**'na tıklayın.
 8. **Yeni**'ye tıklayın. Ölçü birimi için dile özgü açıklamalar tanımlayın.  
 9. **Dil** alanına bir değer girin veya buradan bir değer seçin.
 10. **Tanım** alanına bir değer girin.
@@ -55,7 +55,7 @@ Bu yordam, bir ölçü birimi tanımlamayı, bu birim ve açıklaması için çe
 12. Sayfayı kapatın.
 
 ## <a name="define-unit-conversion-rules"></a>Birim dönüştürme kurallarını tanımlayın
-1. **Eylem bölmesi**'nde, **Birim dönüştürmeleri**'ne tıklayın. Ölçü birimini seçili birim sınıfında bir başka ölçü birimine dönüştürmek için kurallar tanımlayın.  
+1. **Eylem Bölmesi**'nde, **Birim dönüştürmeleri**'ne tıklayın. Ölçü birimini seçili birim sınıfında bir başka ölçü birimine dönüştürmek için kurallar tanımlayın.  
 2. Açılır iletişim kutusunu açmak için **Yeni** öğesine tıklayın.
 3. **Faktör** alanına bir sayı girin. İlk birim ve son birim arasında dönüştürme faktörü. Örneğin, bir metrede 100 santimetre olduğu için santimetreden metreye dönüştürme faktörü 100'dür.  
 4. **Hedef birim** alanına bir değer girin veya bir değer seçin.

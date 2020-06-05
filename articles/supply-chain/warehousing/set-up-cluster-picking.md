@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daf8bc65dc937962e2e08b6f25805ddd3b8ee3c5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 86aed1b2071875117b74309030ac5e9008babdaf
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204298"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367419"
 ---
-[!include[banner](../includes/banner.md)]
-
 # <a name="set-up-cluster-picking"></a>Küme malzeme çekme ayarlama
+
+[!include[banner](../includes/banner.md)]
 
 Bu konu çalışanlara aynı anda birden çok iş emri için tek bir yerleşimden maddeleri çekebilmeleri için mobil cihazlardan malzeme çekme işlerini kümeler halinde gruplandırma olanağı sağlamayı açıklar. Buna *küme malzeme çekme* denir.
 
@@ -36,35 +36,35 @@ Bu konu çalışanlara aynı anda birden çok iş emri için tek bir yerleşimde
 
 Gerekirse, çalışan kümeyi başka bir çalışana geçirebilir. Bu, kümenin durumunu Geçirildi olarak değiştirir. Çalışan malzeme çekme ve koyma işinin tamamlandığını belirtmek için bir mobil cihaz kullandığında, sevkiyat veya yüklemenin istemcide onaylanması gerekir.
 
-## <a name="set-up-cluster-picking"></a>Küme malzeme çekme ayarlama
+## <a name="enable-cluster-picking"></a>Küme malzeme çekmeyi etkinleştirme
 
 Küme malzeme çekmeyi etkinleştirmek için şunları ayarlamanız gerekir:
 
--   **Küme profilleri** – Küme kodlarının otomatik oluşturulup oluşturulmayacağını, kullanılacak pozisyon sayısını, kümelerin ne zaman ayrılacağını ve malzeme çekme işinin nasıl sıralanıp doğrulanacağını belirtin.
+- **Küme profilleri** – Küme kodlarının otomatik oluşturulup oluşturulmayacağını, kullanılacak pozisyon sayısını, kümelerin ne zaman ayrılacağını ve malzeme çekme işinin nasıl sıralanıp doğrulanacağını belirtin.
 
--   **İş şablonları** – Küme malzeme çekme için malzeme çekme içinin nasıl oluşturulacağını tanımlayın.
+- **İş şablonları** – Küme malzeme çekme için malzeme çekme içinin nasıl oluşturulacağını tanımlayın.
 
--   **Yerleşim yönergeleri** – Maddelerin nereden çekileceğini ve nereye konulacağını belirtin.
+- **Yerleşim yönergeleri** – Maddelerin nereden çekileceğini ve nereye konulacağını belirtin.
 
--   **Mobil cihaz menü öğeleri** – Küme malzeme çekme tarafından yönlendirilen mevcut işi kullanmak için bir mobil cihaz menüsü yapılandırın. Mobil cihazlarda görünmesi için menüyü mobil cihaz menüsüne eklemeniz gerekir.
+- **Mobil cihaz menü öğeleri** – Küme malzeme çekme tarafından yönlendirilen mevcut işi kullanmak için bir mobil cihaz menüsü yapılandırın. Mobil cihazlarda görünmesi için menüyü mobil cihaz menüsüne eklemeniz gerekir.
 
--   **Ambar Yönetimi parametreleri** – Kümeler için tanımlayıcılar oluşturmak istiyorsanız, kullanılacak numara serisini belirtin.
+- **Ambar Yönetimi parametreleri** – Kümeler için tanımlayıcılar oluşturmak istiyorsanız, kullanılacak numara serisini belirtin.
 
 ## <a name="set-up-a-cluster-profile"></a>Küme profili ayarlama
 
 Küme profili ayarlamak için aşağıdaki adımları izleyin.
 
-1.  **Ambar yönetimi** \> **Kurulum** \> **Mobil cihaz** \> **Küme profilleri**'ne tıklayın.
+1. **Ambar yönetimi** \> **Kurulum** \> **Mobil cihaz** \> **Küme profilleri**'ne tıklayın.
 
-2.  Yeni bir profil oluşturmak için **Yeni**'ye tıklayın.
+1. Yeni bir profil oluşturmak için **Yeni**'ye tıklayın.
 
-3.  **Küme oluştur**'a tıklayın ve **Küme sıralama** altından **Yeni**'yi tıklayarak küme için sıralama ölçütü ayarlayın. Bu sıralama kriteri, çalışanın malzeme çekme işini hangi sırada yapacağını denetler. İhtiyaç duyduğunuz sayıda ölçüt ekleyebilirsiniz.
+1. **Küme oluştur**'a tıklayın ve **Küme sıralama** altından **Yeni**'yi tıklayarak küme için sıralama ölçütü ayarlayın. Bu sıralama kriteri, çalışanın malzeme çekme işini hangi sırada yapacağını denetler. İhtiyaç duyduğunuz sayıda ölçüt ekleyebilirsiniz.
 
-4.  **Sıra numarası** alanında, sıralama ölçütü işlenme sırasını belirlemek için bir sayı girin.
+1. **Sıra numarası** alanında, sıralama ölçütü işlenme sırasını belirlemek için bir sayı girin.
 
-5.  **Alan adı** alanında, sıralamayı belirleyecek alanı seçin. Örneğin **WMSLocationId** alanını seçerseniz iş yerleşime göre sıralanır.
+1. **Alan adı** alanında, sıralamayı belirleyecek alanı seçin. Örneğin **WMSLocationId** alanını seçerseniz iş yerleşime göre sıralanır.
 
-6.  **Sıralama** alanında aşağıdaki seçeneklerden birini belirleyin.
+1. **Sıralama** alanında aşağıdaki seçeneklerden birini belirleyin.
 
 | **Seçenek**     | **Açıklama**                                                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,6 +77,6 @@ Küme malzeme çekme uygulandığında, öğe yapılandırması maddelerin küme
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Küme malzeme çekme ile madde doğrulamayı ayarlamak
 
-1.  Mobil cihaz menü öğesinden iş onayı için kurulum formunu açın: **Ambar yönetimi** \> **Ambar yönetimi** \> **Kurulum** \> **Mobil cihaz** \> **Mobil cihaz menü öğeleri**.
+1. Mobil cihaz menü öğesinden iş onayı için kurulum formunu açın: **Ambar yönetimi** \> **Ambar yönetimi** \> **Kurulum** \> **Mobil cihaz** \> **Mobil cihaz menü öğeleri**.
 
-2.  Mobil cihaz menü öğesinden **İş onayı ayarını** açın. **Ürün onayı** seçeneği tarandığında her stok parçasını mobil cihazınızdan doğrulamanıza olanak tanır.
+1. Mobil cihaz menü öğesinden **İş onayı ayarını** açın. **Ürün onayı** seçeneği tarandığında her stok parçasını mobil cihazınızdan doğrulamanıza olanak tanır.

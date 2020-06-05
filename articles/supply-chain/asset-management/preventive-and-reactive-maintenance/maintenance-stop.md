@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8946baa4597ad4b696bcb6bcc49d4202163a41a9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214890"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383539"
 ---
 # <a name="maintenance-downtime"></a>Bakım kesinti süresi
 
@@ -75,7 +75,7 @@ Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** ayrıntıları
 
 9. **Kapasite yükünü hesapla** iletişim kutusunda gerekirse başlangıç ve bitiş tarihlerini düzenleyin ve hesaplamaya iş emirlerini ve bakım zamanlamalarını dahil etmek isteyip istemediğinizi seçin. İşlem yapılacak yerleşimlerle ilişkilendirmek istediğiniz kapasite yükü hesaplamasının ayrıntılarını göstermek için **Düzey** alanını kullanabilirsiniz. Örneğin, alana "1" sayısını girerseniz ve çok düzeyli bir işlem yapılacak yerleşim yapınız varsa işlem yapılacak yerleşim için bakım kesinti süresi faaliyetinde seçilen tüm varlıklar üst düzeyde gösterilir ve dolayısıyla bir satırdaki saatler alt düzeyde bulunan işlem yapılacak yerleşimden eklenebilir. **Düzey** alanına "0" sayısını girerseniz ilişkili oldukları tüm işlem yapılacak yerleşim düzeylerinde bulunan tüm kapasite yükü satırlarını gösteren ayrıntılı bir sonuç görürsünüz.
 
-10. Hesaplamayı başlatmak için **Tamam**'a tıklayın. Toplam saat sayısı, **Kapasite yükü** özetinde gösterilir. **Kapasite yükü** sekmesi > **Gruplama ölçütü** eylem bölmesi gruplarında tahmini saatlerin tahsisatına dair daha ayrıntılı özet edinmek için ilgili düğmelere tıklayın. Aşağıdaki çizimde bir **Kapasite yükü** hesaplamasının sonuçları gösterilmektedir.
+10. Hesaplamayı başlatmak için **Tamam**'a tıklayın. Toplam saat sayısı, **Kapasite yükü** özetinde gösterilir. **Kapasite yükü** sekmesi > **Gruplama ölçütü** Eylem Bölmesi gruplarında tahmini saatlerin tahsisatına dair daha ayrıntılı özet edinmek için ilgili düğmelere tıklayın. Aşağıdaki çizimde bir **Kapasite yükü** hesaplamasının sonuçları gösterilmektedir.
 
 ![Şekil 3](media/21-preventive-maintenance.png)
 
@@ -92,7 +92,7 @@ Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** ayrıntıları
 
 15. **Madde tahminini hesapla** iletişim kutusunda gerekirse başlangıç ve bitiş tarihlerini düzenleyin ve hesaplamaya iş emirlerini ve bakım zamanlamalarını dahil etmek isteyip istemediğinizi seçin. İşlem yapılacak yerleşimlerle ilişkilendirmek istediğiniz kapasite yükü hesaplamasının ayrıntılarını göstermek için **Düzey** alanını kullanabilirsiniz. Örneğin, alana "1" sayısını girerseniz ve çok düzeyli bir işlem yapılacak yerleşim yapınız varsa işlem yapılacak yerleşim için bakım kesinti süresi faaliyetinde seçilen tüm varlıklar üst düzeyde gösterilir ve dolayısıyla bir satırdaki saatler alt düzeyde bulunan işlem yapılacak yerleşimden eklenebilir. **Düzey** alanına "0" sayısını girerseniz ilişkili oldukları tüm işlem yapılacak yerleşim düzeylerinde bulunan tüm kapasite yükü satırlarını gösteren ayrıntılı bir sonuç görürsünüz.
 
-16. Hesaplamayı başlatmak için **Tamam**'a tıklayın. Toplam madde tahmini sayısı, **Madde tahmini** özetinde gösterilir. **Madde tahmini** sekmesi > **Şunlara göre grupla...** eylem bölmesi gruplarında tahmini saatlerin tahsisatına dair daha ayrıntılı özet edinmek için ilgili düğmelere tıklayın. Aşağıdaki çizimde bir **Madde tahmini** hesaplamasının sonuçları gösterilmektedir.
+16. Hesaplamayı başlatmak için **Tamam**'a tıklayın. Toplam madde tahmini sayısı, **Madde tahmini** özetinde gösterilir. **Madde tahmini** sekmesi > **Şunlara göre grupla...** Eylem Bölmesi gruplarında tahmini saatlerin tahsisatına dair daha ayrıntılı özet edinmek için ilgili düğmelere tıklayın. Aşağıdaki çizimde bir **Madde tahmini** hesaplamasının sonuçları gösterilmektedir.
 
 ![Şekil 4](media/22-preventive-maintenance.png)
 

@@ -3,7 +3,7 @@ title: POS'ta giden stok işlemi
 description: Bu konu satış noktası (POS) giden stok operasyonunun yeteneklerini açıklar.
 author: hhaines
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
+ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123934"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3384141"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS'ta giden stok işlemi
 
@@ -117,6 +117,18 @@ Bir barkodun her taramasında, **şimdi sevk etme** alanındaki miktar bir birim
 ### <a name="over-delivery-shipping-validations"></a>Fazla teslimat sevkiyat doğrulamaları
 
 Belge satırları alma işlemi sırasında geçerlilikler meydana gelir. Bunlar fazla teslimat için doğrulama içerirler. Bir Kullanıcı bir satın alma siparişinde sipariş edilen sayıdan daha fazla stok almayı denerse ancak fazla teslimat Konfigüre edilmezse veya teslim alınan miktar, satın alma siparişi satırı için konfigüre edilen fazla teslimat toleransını aşarsa, Kullanıcı hata alır fazlalık miktarı almasına izin verilmez.
+
+### <a name="underdelivery-close-lines"></a>Eksik teslimat kapatma satırları
+
+Commerce 10.0.12 sürümünde, giden ambar istenen tam miktarı sevk edemeyeceğini belirlerse, POS kullanıcılarının giden sipariş sevkiyatı sırasında kalan miktarları kapatmasına veya iptal etmesine olanak veren işlevler eklenmiştir. Miktarlar da daha sonra kapatılabilir veya iptal edilebilir. Bu yeteneği kullanmak için şirketin transfer emirlerinin eksik teslimatına izin verecek şekilde yapılandırılmış olması gerekir. Ek olarak, transfer emri satırı için eksik teslimat yüzdesi tanımlanmalıdır.
+
+Şirketi transfer emirlerinin eksik teslimatına izin verecek şekilde yapılandırmak için Commerce Headquarters'da **Stok yönetimi \> Kurulum \> Stok ve ambar yönetim parametreleri** öğesine gidin. **Stok ve ambar yönetim parametreleri** sayfasındaki **Transfer emirleri** sekmesinde, **Eksik teslimatı kabul et** parametresini açın. Daha sonra, parametre değişikliklerini depolama kanalınızla eşitlemek için **1070** dağıtım zamanlayıcısı işini çalıştırın.
+
+Transfer emri satırı için eksik teslimat yüzdeleri, Commerce Headquarters'da ürün yapılandırmasının bir parçası olarak ürünlerde önceden tanımlanabilir. Alternatif olarak, Commerce Headquarters aracılığıyla belirli bir transfer emri satırında bunlar ayarlanabilir veya bunların üzerine yazılabilir.
+
+Bir kuruluş transfer emrinin eksik teslimatını yapılandırmayı bitirdikten sonra, kullanıcılar POS'deki **Giden işlem** işlemi aracılığıyla bir giden transfer emri satırını seçtiklerinde, **Ayrıntılar** bölmesinde yeni bir **Kalan miktarı kapat** seçeneği görür. Kullanıcılar, **Karşılamayı bitir** işlemini kullanarak sevkiyatı tamamladıklarında, kalan sevk edilmemiş miktarı iptal etmek Için Commerce Headquarters'a bir talep gönderebilirler. Bir kullanıcı kalan miktarı kapatmayı seçerse Commerce, iptal edilen miktarın transfer emri satırında tanımlanan eksik teslimat yüzdesi toleransı dahilinde olduğunu bir doğrulama işlemiyle doğrular. Eksik teslimat toleransı aşılırsa kullanıcı bir hata iletisi alır ve önceden sevk edilen ve "şimdi sevk et" miktarı eşleşinceye veya eksik teslimat toleransını aşıncaya kadar kalan miktarı kapatamaz.
+
+Sevkiyat Commerce Headquarters ile eşitlendikten sonra, POS'taki transfer emri satırının **Şimdi sevk et** alanında tanımlanan miktarlar Commerce Headquarters'da sevk edildi durumuna güncelleştirilir. Önceden "kalan sevk" miktarları (daha sonra sevk edilecek miktarlar) olarak kabul edilen sevk edilmemiş miktarlar, bunun yerine iptal edilen miktarlar olarak kabul edilir. Transfer emri satırının "kalan sevk" miktarı **0** (sıfır) olarak, satır ise tamamen sevk edildi olarak ayarlanır.
 
 ### <a name="shipping-location-controlled-items"></a>Yerleşim denetimli maddeleri gönderme
 

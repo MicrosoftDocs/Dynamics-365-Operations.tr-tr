@@ -3,7 +3,7 @@ title: Gider makbuzu işleme
 description: Bu konu, makbuzlar için optik karakter tanıma (OCR) işlemi hakkında bilgi vermektedir. Bu özellik, Microsoft Dynamics 365 Finance'te gider raporları oluşturulurken kullanıcı deneyiminin geliştirilmesi için tasarlanmıştır.
 author: stsporen
 manager: AnnBe
-ms.date: 11/20/2019
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248975"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378243"
 ---
 # <a name="expense-receipt-processing"></a>Gider makbuzu işleme
 
@@ -36,24 +36,24 @@ Gider girişi, makbuzlar için optik karakter tanıma (OCR) işleminin devreye g
 
 ## <a name="usage-examples"></a>Kullanım örnekleri
 
-- **Gider raporu oluşturulurken kredi kartı hareketleri içeren makbuzları otomatik olarak iliştirin.**
+Gider raporu oluşturulurken kredi kartı hareketleri içeren makbuzları otomatik olarak iliştirmek için aşağıdakileri yapın:
 
-    1. **Gider yönetimi** çalışma alanını açın.
-    2. **Makbuzlar** sekmesinde, iliştirilmemiş makbuzların olduğunu doğrulayın. Makbuzları **Makbuzlar** sekmesinde de yükleyebilirsiniz.
-    3. **Giderler** sekmesinde, iliştirilmemiş giderlerin olduğunu doğrulayın. Genel olarak, gider yöneticisi bu giderleri kredi kartı sağlayıcısından içe aktarır.
-    4. **Yeni gider raporu**'nu seçin. Artık, gider raporu oluştururken giderleri ve makbuzları da ekleyebildiğinizi bildirelim. Hem giderler hem de makbuzlar eklerseniz, makbuzların giderlere karşı otomatik eşleşmesi tetiklenir.
+  1. **Gider yönetimi** çalışma alanını açın.
+  2. **Makbuzlar** sekmesinde, iliştirilmemiş makbuzların olduğunu doğrulayın. Makbuzları **Makbuzlar** sekmesinde de yükleyebilirsiniz.
+  3. **Giderler** sekmesinde, iliştirilmemiş giderlerin olduğunu doğrulayın. Genel olarak, gider yöneticisi bu giderleri kredi kartı sağlayıcısından içe aktarır.
+  4. **Yeni gider raporu**'nu seçin. Artık, gider raporu oluştururken giderleri ve makbuzları da ekleyebildiğinizi bildirelim. Hem giderler hem de makbuzlar eklerseniz, makbuzların giderlere karşı otomatik eşleşmesi tetiklenir.
 
-- **Bir gider oluşturun veya makbuzdan bir gideri eşleyin.**
+Gider oluşturmak veya makbuzdan bir gideri eşlemek için aşağıdakileri yapın:
 
-    1. Bir gider raporunda, **Makbuzlar** sekmesinde, **Giriş ekle**'yi seçerek bir makbuz iliştirin.
-    2. Makbuzun karşıya yüklenen resminin altındaki **Oluştur** ve **Eşleştir** seçeneklerine dikkat edin.
+  1. Bir gider raporunda, **Makbuzlar** sekmesinde, **Giriş ekle**'yi seçerek bir makbuz iliştirin.
+  2. Makbuzun karşıya yüklenen resminin altındaki **Oluştur** ve **Eşleştir** seçeneklerine dikkat edin.
 
-        - El ile girilmiş bir gider hareketi oluşturmak ve makbuzdan ayıklanan değerleri doldurmak için **Oluştur**'u seçin.
-        - **Eşleştir**'i seçerseniz, sistem varolan bir gideri makbuza eşleştirmeye çalışır.
+      - El ile girilmiş bir gider hareketi oluşturmak ve makbuzdan ayıklanan değerleri doldurmak için **Oluştur**'u seçin.
+      - **Eşleştir**'i seçerseniz, sistem varolan bir gideri makbuza eşleştirmeye çalışır.
 
 ## <a name="installation"></a>Yükleme
 
-Bu özellik, gider deneyimini basitleştirmeye yardımcı olmak için **Gider raporları yeniden tasarlandı** özelliğiyle birlikte çalışır.
+Bu özellik, gider deneyimini basitleştirmeye yardımcı olmak için **Gider raporları yeniden tasarlandı** özelliğiyle birlikte çalışır. Bu özellik yalnızca Katman 2+ ortamları, Korumalı Alan ve Üretim için kullanılabilir.
 
 Bu gelişmiş gider yeteneklerini kullanmak için, kurulumunuzda Microsoft Dynamics 365 Finance için Gider Yönetimi Hizmeti eklentisini yükleyin ve özellikleri etkinleştirin. Eklentiye, Microsoft Dynamics Lifecycle Services (LCS) içindeki projenizden erişebilirsiniz.
 

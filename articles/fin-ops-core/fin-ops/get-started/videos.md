@@ -1,9 +1,9 @@
 ---
 title: Videolar
-description: Bu sayfa Finance and Operations uygulaması için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşma videolarını listeler.
+description: Bu sayfa Finance and Operations uygulamaları için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşmalar videolarını listeler.
 author: josaw1
 manager: AnnBe
-ms.date: 11/11/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,28 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781862"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367141"
 ---
 # <a name="videos"></a>Videolar 
 
 [!include [banner](../includes/banner.md)]
 
-[Microsoft Dynamics 365 YouTube kanalında](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), Dynamics 365 ürünleri için Microsoft tarafından oluşturulan ve çok çeşitli iş çözümlerini gösteren videolar bulabilirsiniz. Bu bölüm kanalda barındırılan Finance and Operations uygulamalarıyla ilgili "nasıl yapılır" videolarını listeler.
+[Microsoft Dynamics 365 YouTube kanalında](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), Dynamics 365 ürünleri için Microsoft tarafından oluşturulan ve çok çeşitli iş çözümlerini gösteren videolar bulabilirsiniz. Bu bölüm kanalda barındırılan Finance and Operations uygulamaları ile ilgili "nasıl yapılır" videolarını listeler.
 
 > [!Note]
 > Listelenen videolardan bazıları önceki bir ürün adıyla yayımlanmıştır ancak yine de ilgilidir.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Finance and Operations geliştirme ve yönetimi için videolar
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Finance and Operations geliştirme ve yönetim ile ilgili videolar
 
-### <a name="data-integration"></a>Veri tümleştirmesi
+### <a name="data-integration"></a>Veri tümleştirme
 
 - [Müşteriden nakde tümleştirmesi](https://youtu.be/AVV9x5x-XCg)
-- [Dynamics 365 for Field Service ile Finance and Operations uygulamaları arasında bir iş emrini eşitleme](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [İş emrini Dynamics 365 for Field Service ile Finance and Operations uygulamaları arasında eşitleme](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Veri yönetimi
 
@@ -55,7 +55,7 @@ ms.locfileid: "2781862"
 ### <a name="intelligence"></a>Zeka
 
 - [Analiz çalışma alanında katıştırılmış raporu düzeleme](https://youtu.be/_8WlwmSggcQ)
-- [Finance and Operations uygulamalarına PowerBI.com raporları nasıl katıştırılır?](https://youtu.be/gGWuNJDoi-M)
+- [Finance and Operations uygulamalarına PowerBI.com raporlarını yerleştirme](https://youtu.be/gGWuNJDoi-M)
 - [Finance and Operations uygulamalarına kendi veritabanınızı getirme (BYOD)](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Dynamics 365'te maliyet yönetimi Power BI içeriğini kullanma](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
@@ -76,6 +76,12 @@ ms.locfileid: "2781862"
 - [Üretim ortamında verileri yenileme](https://www.youtube.com/watch?v=VCd5SgkYPTw)
 - [Platform güncelleştirmesi 3'ten sonra yeni bir platform sürümü düzenleme](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Dynamics Lifecycle Services'da temel performans sayaçlarını izlemek için telemetri kullanma](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
+
+### <a name="regression-suite-automation-tool-rsat"></a>Regression Suite Automation Tool (RSAT)
+
+- [Regression Suite Automation Tool (RSAT) için bir test olayı oluşturmak üzere görev kaydediciyi kullanma](https://youtu.be/bBr4BXAxTNI)
+- [Regression Suite Automation Tool (RSAT) ile kullanmak üzere Azure DevOps'ta test olayı oluşturma](https://youtu.be/3jIuBleAnQk) 
+- [Regression Suite Automation Tool'u (RSAT) kullanma](https://youtu.be/uhN9JItzGAk)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>Dynamics 365 Finance için videolar
