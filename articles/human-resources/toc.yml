@@ -5,6 +5,8 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 28 Mayıs 2020
+          href: hr-whats-new-2020-05-28.md
         - name: 14 Mayıs 2020
           href: hr-whats-new-2020-05-14.md
         - name: 1 Mayıs 2020
@@ -509,6 +511,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: İzni askıya alma
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Devamsızlık izni isteği
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: Personel iznini yönetme
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: İzin ve devamsızlık analizini görüntüleme
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Takım ve şirket takvimlerini görüntüleme
               href: hr-employee-self-service-calendar.md
+            - name: İzin satın alma ve satma ilkelerini yönetme
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: İzin satın alma ve satma
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: Teams'de izin isteklerini yönetme
           href: hr-teams-leave-app.md
         - name: Personeli geliştirme

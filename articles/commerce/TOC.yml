@@ -88,6 +88,8 @@
                   items:
                     - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.12 (Ağustos 2020)
+                      href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (Temmuz 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (Mayıs 2020)
@@ -212,9 +214,9 @@
               items:
                 - name: Dynamics 365 Commerce'ta self servis yükleyicileri eşitleme
                   href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit
+                - name: Commerce Scale Unit (şirket içinde barındırılan)
                   href: dev-itpro/retail-store-system-begin.md
-                - name: Commerce Scale Unit'i yapılandırma ve yükleme
+                - name: Commerce Scale Unit'i (şirket içinde barındırılan) yapılandırma ve yükleme
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
                 - name: Modern POS'u yapılandırma ve yükleme
                   href: retail-modern-pos-device-activation.md
@@ -604,7 +606,7 @@
               items:
                 - name: Ürün önerilerine genel bakış
                   href: product-recommendations.md
-                - name: Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme
+                - name: Dynamics 365 Commerce ortamında Azure Data Lake Storage'ı etkinleştirme
                   href: enable-ADLS-environment.md
                 - name: Ürün önerilerini etkinleştirme
                   href: enable-product-recommendations.md
@@ -640,14 +642,14 @@
                   href: configure-ratings-reviews.md
                 - name: Ürün derecelendirmelerini eşitleme
                   href: sync-product-ratings.md
-            - name: Stokunuzu yönetme
+            - name: Stoğunuzu yönetme
               items:
                 - name: Stok
                   items:
                     - name: Mağaza stok yönetimi
                       href: work-with-store-inventory.md
-                    - name: Seri hale getirilmiş maddelerle çalışma
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Stok arabellekleri ve stok düzeyleri yapılandırma
+                      href: inventory-buffers-levels.md
                     - name: POS'ta seri hale getirilmiş maddelerle çalışma
                       href: pos-serialized-items.md
                     - name: Merkezi alım kullanarak ürünleri dağıtım merkezinden mağazaya gönderme
@@ -824,7 +826,9 @@
                   href: authoring-home-overview.md
                 - name: Kullanıcıları ve rolleri yönetme
                   href: manage-ecommerce-users-roles.md
-                - name: Siteniz için arama altyapısını iyileştirme (SEO) konuları
+                - name: Stok ayarlarını uygulama
+                  href: inventory-settings.md
+                - name: Siteniz için arama alt yapısını en iyi duruma getirmeyle (SEO) ilgili konular
                   href: search-engine-optimization-considerations.md
                 - name: İçerik Güvenliği İlkesini (CSP) yönetme
                   href: manage-csp.md
@@ -848,7 +852,9 @@
                       href: select-site-theme.md
                     - name: CSS geçersiz kılma dosyalarıyla çalışma
                       href: css-override-files.md
-                    - name: Favicon ekleme
+                    - name: Stil ön ayarlarıyla çalışma
+                      href: style-presets.md
+                    - name: Site simgesi ekleme
                       href: add-favicon.md
                     - name: Hoş geldiniz iletisi ekleme
                       href: add-welcome-message.md
@@ -928,10 +934,14 @@
               items:
                 - name: Başlangıç paketine genel bakış
                   href: starter-kit-overview.md
-                - name: Konteyner modülleri
+                - name: Kapsayıcı modülleri
                   items:
-                    - name: Konteyner modülü
+                    - name: Kapsayıcı modülü
                       href: add-container-module.md
+                    - name: Akordeon modülü
+                      href: add-accordion.md
+                    - name: Sekme modülü
+                      href: add-tab.md
                 - name: Pazarlama modülleri
                   items:
                     - name: Promosyon başlığı modülü
@@ -978,6 +988,10 @@
                   items:
                     - name: Ürün topluluğu modülleri
                       href: product-collection-module-overview.md
+                - name: Gezinti modülleri
+                  items:
+                    - name: İçerik haritası modülü
+                      href: add-breadcrumb.md
             - name: Arama
               items:
                 - name: Varsayılan kategori giriş sayfası ve arama sonuçları sayfası
@@ -1048,6 +1062,10 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: Yazar kasalara ilişkin dağıtım kılavuzları
                   href: localizations/emea-fra-deployment.md
+            - name: Almanya
+              items:
+                - name: Almanya için mali kayıt hizmeti tümleştirme örneği
+                  href: localizations/emea-deu-fi-sample.md
             - name: Hindistan
               items:
                 - name: Yazar kasalar için Ürün ve Hizmet Vergisi (GST) tümleştirmesi
@@ -1918,11 +1936,11 @@
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Sahte sayfalar kullanarak modülleri test etme
                       href: e-commerce-extensibility/test-page-mock.md
-                    - name: Konteyner modülleri
+                    - name: Kapsayıcı modülleri
                       href: e-commerce-extensibility/container-modules.md
-                    - name: Düzen konteyner modülü oluşturma
+                    - name: Düzen kapsayıcı modülü oluşturma
                       href: e-commerce-extensibility/create-layout-container.md
-                    - name: Sayfa konteyner modülü oluşturma
+                    - name: Sayfa kapsayıcı modülü oluşturma
                       href: e-commerce-extensibility/create-page-containers.md
                     - name: Modül yerelleştirme
                       href: e-commerce-extensibility/localize-module.md
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Tema ayarlarını yapılandırma
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: Temayı genişletme
+                    - name: Modül uzantıları eklemek için temayı genişletme
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Temayı temel temadan genişletme
                       href: e-commerce-extensibility/extend-theme.md
                 - name: Komut dosyası ekleme
                   items:
@@ -2072,11 +2092,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Retail Server genişletilebilirliği
               items:
-                - name: Retail Server OData denetleyicisini genişletme
+                - name: Commerce Scale Unit OData denetleyicisini genişletme
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: Retail Server müşteri ve tüketici API'leri
+                - name: Commerce Scale Unit müşteri ve tüketici API'ları
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Varsayılan Retail Server meta veri denetleyicisini genişletme
+                - name: Varsayılan Commerce Scale Unit meta veri denetleyicisini genişletme
                   href: dev-itpro/extend-metadata.md
                 - name: Çevrimdışı modda CRT hizmetini çağırma
                   href: dev-itpro/call-crt-service-offline.md
@@ -2092,12 +2112,10 @@
                   href: dev-itpro/crt-services.md
                 - name: CRT ve Retail Server genişletilebilirliği
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: Müşteri tercihi verilerini kanal veritabanlarına ekleme
+                - name: Kanal veritabanlarına müşteri tercihi verilerini ekleme
                   href: dev-itpro/add-customer-preference-channel.md
                 - name: Perakende kanalları için parolaları yönetme
                   href: dev-itpro/manage-secrets.md
-                - name: Satış siparişlerine özellik ekleme
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: CRT genişletilebilirliği ve tetikleyiciler
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Tetikleyicileri kullanarak hareketleri engelleme
