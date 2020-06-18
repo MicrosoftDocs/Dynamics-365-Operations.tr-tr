@@ -2371,7 +2371,7 @@
                     - name: Rusya'daki avans sahiplerine genel bakış
                       href: localizations/rus-advance-holders.md
                     - name: Avans sahibi oluşturma
-                      href: 'localizations/emea-advance-holders.md#create-an-advance-holder'
+                      href: localizations/emea-advance-holders.md#create-an-advance-holder
                     - name: Avans sahipleri için günlük işlemler
                       href: localizations/rus-advance-holders-daily-operations.md
                     - name: Bütçe kontrolüyle avans raporları
@@ -3346,7 +3346,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory Service (RCS)
                   items:
-                    - name: Regulatory Configuration Service (RCS) - Globalization features
+                    - name: Regulatory Configuration Services (RCS) - Globalization features
                       href: localizations/rcs-globalization-feature.md
                     - name: ER yapılandırmalarını Finance'a indirme
                       items:
