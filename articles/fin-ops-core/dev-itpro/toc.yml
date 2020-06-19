@@ -14,6 +14,8 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.12 için platform güncelleştirmeleri (Ağustos 2020)
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: 10.0.11 için platform güncelleştirmeleri (Temmuz 2020)
                   href: get-started/whats-new-platform-update-35.md
                 - name: 10.0.10 için platform güncelleştirmeleri (Mayıs 2020)
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Tümleşik çalışan, iş ve pozisyon'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Stok kullanılabilirliği
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: Çift yazma desteği
                           items:
                             - name: Field Service çözümleri ve Project Service Automation çözümleri için destek
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Bulut ortamlarına güncelleştirmeleri uygulama
                   href: deployment/apply-deployable-package-system.md
-                - name: Bulutta barındırılan Retail kanalı bileşenlerine güncelleştirmeler ve uzantılar uygulama
+                - name: Commerce Scale Unit'e (bulut) güncelleştirmeleri ve uzantıları uygulama
                   href: deployment/Update-retail-channel.md
-                - name: Retail Cloud Scale Unit başlatma
+                - name: Commerce Scale Unit'i (bulut) başlatma
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Retail veri yerleşimi
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: İstemci internet bağlantısı
                       href: user-interface/client-disconnected.md
+                    - name: Şirket için dağıtımlarda Yalnızca toplu iş ve Yalnızca etkileşimli AOS düğümlerini yapılandırma
+                      href: deployment/onprem-batchonly.md
                     - name: Şirket içi ortamlar için proxy'ler yapılandırma
                       href: deployment/onprem-reverseproxy.md
                     - name: Şirket içi tanılama
@@ -726,7 +732,7 @@
                       href: dev-ref/xpp-run-time-functions.md
                     - name: X++ iş çalıştırma zamanı işlevleri
                       href: dev-ref/xpp-business-run-time-functions.md
-                    - name: X++ konteyner çalıştırma zamanı işlevleri
+                    - name: X++ kapsayıcı çalıştırma zamanı işlevleri
                       href: dev-ref/xpp-container-run-time-functions.md
                     - name: X++ dönüştürme çalıştırma zamanı işlevleri
                       href: dev-ref/xpp-conversion-run-time-functions.md
@@ -1044,10 +1050,12 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Bilinen sorunlar
                   href: lifecycle-services/known-issues.md
-                - name: Lifecycle Services'deki (LCS) kaldırılan veya kullanımına son verilen özellikler
+                - name: Lifecycle Services (LCS) portalındaki kaldırılan veya kullanımına son verilen özellikler
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services kullanıcı kılavuzu
               href: lifecycle-services/lcs-user-guide.md
+            - name: Proje ekleme
+              href: lifecycle-services/project-onboarding.md
             - name: Abonelik tahmin aracı
               href: lifecycle-services/subscription-estimator.md
             - name: Güvenliği yapılandırma
@@ -1118,13 +1126,27 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Çeviri belleği dosyaları
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: Microsoft Power Platform tümleştirmesi
+          items:
+            - name: Microsoft Power Platform ve Finance and Operations tümleştirmesi
+              href: power-platform/overview.md
+            - name: Varlık modelleme
+              href: power-platform/entity-modeling.md
+            - name: Uygulama yaşam döngüsü yönetimi
+              href: power-platform/application-lifecycle-management.md
+            - name: Finance and Operations ve Common Data Service yönetici referansı
+              href: power-platform/admin-reference.md
+            - name: Finance and Operations ile Power Apps portalları
+              href: power-platform/power-portal-reference.md
+            - name: Finance and Operations sanal varlıkları ile ilgili SSS
+              href: power-platform/faq.md
         - name: Mobil platform
           items:
             - name: Mobil platform kaynakları
               href: mobile-apps/platform/mobile-platform-home-page.md
             - name: Başlayın
               items:
-                - name: Mobil platforma başlayın
+                - name: Mobil platformu kullanmaya başlama
                   href: mobile-apps/platform/mobile-platform-getting-started.md
                 - name: Mimari ve tasarım konuları
                   href: mobile-apps/platform/mobile-platform-architecture.md
@@ -1172,7 +1194,7 @@
                       href: mobile-apps/platform/client-apis/modules/event-ievent.md
                     - name: Denetim modülü
                       href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
-                    - name: Konteyner modülü
+                    - name: Kapsayıcı modülü
                       href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
                     - name: Alan modülü
                       href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
@@ -1330,9 +1352,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: Yükleme ve yapılandırma
               href: perf-test/rsat/rsat-install-configure.md
-            - name: Regression Suite Automation Tool kullanarak veri belirsizliği testi
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Test olaylarını çalıştırma
+            - name: Regression Suite Automation Tool kullanma
               href: perf-test/rsat/rsat-run.md
             - name: Beklenen değerleri doğrulama
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,11 +1360,13 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Türetilmiş test olayları
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Regression Suite Automation Tool eğitimini kullanma
+            - name: Regression Suite Automation Tool eğitimi ve diğer özellikler
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: En iyi uygulamalar
               href: perf-test/rsat/rsat-best-practices.md
-            - name: Sorun Giderme
+            - name: Regression Suite Automation Tool kullanarak veri belirsizliği testi
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: Sorun giderme
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Lifecycle Services kullanarak çözümler yayımlama
           items:
@@ -1434,14 +1456,16 @@
               items:
                 - name: Toplu iş işlemeye genel bakış
                   href: sysadmin/batch-processing-overview.md
-                - name: Toplu iş işleme ve toplu iş sunucuları
+                - name: Toplu işleme ve toplu iş sunucuları
                   href: sysadmin/batch-server-overview.md
-                - name: Toplu iş oluşturma
+                - name: Toplu işler oluşturma
                   href: sysadmin/tasks/create-batch-job.md
                 - name: Toplu iş kopyalama
                   href: sysadmin/copy-batch-job.md
                 - name: Etkin toplu iş dönemleri
                   href: sysadmin/activeperiod.md
+                - name: Etkin toplu iş dönemleri için yaz saati uygulaması desteği
+                  href: sysadmin/batch-active-period-dst.md
                 - name: Toplu iş yöneticisi güvenlik rolü
                   href: sysadmin/runby.md
                 - name: SQL dizin birleştirmeyi işlemek için toplu iş
