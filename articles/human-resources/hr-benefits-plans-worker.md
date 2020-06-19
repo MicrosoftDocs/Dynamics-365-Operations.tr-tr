@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: BenefitPlanEmployee
+ms.search.form: BenefitPlanEmployee, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 45b9a669d63620a15e6dc8047fed24c2db64438f
-ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
+ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "3230051"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429163"
 ---
 # <a name="create-worker-benefit-plans"></a>Çalışan kazanç planları oluşturma
 

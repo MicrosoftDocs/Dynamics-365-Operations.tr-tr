@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55820d7376750c210d2b7f214f705ffcb222c6cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212515"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428412"
 ---
 # <a name="production-setup-requirements"></a>Üretim kurulumu gereksinimleri
 
@@ -71,7 +71,7 @@ Rotalarla çalışıyorsanız, ayarladığınız tüm üretim rotaları için op
 2.  **Maliyet grupları** – farklı türde maliyetlendirmeleri oluşturmak ve sürdürmek için maliyet grupları ayarlayın.
 3.  **Rota grupları** – rota gruplarıyla ilişkili parametreleri tanımlamak için rota grupları ayarlayın. Üretim rotaları oluşturabilmek için önce rota gruplarını ayarlamanız gerekmektedir.
 4.  **Rotalar** - Üretim rotaları ayarlayın ve rota operasyonlarının planlamasını, maliyetlendirmesini, fiyatlandırmasını ve ilerleme raporlamasını kontrol etmek üzere varsayılan ayarlar tanımlayın.
-5.  **Rotalar** - Üretimdeki madde varyasyonlarına olanak vermek üzere rota versiyonları ayarlayın.
+5.  **Rota sürümü** - Üretimdeki madde varyasyonlarına olanak vermek üzere rota versiyonları ayarlayın.
 
 ## <a name="optional-advanced-settings"></a>İsteğe bağlı, gelişmiş ayarlar
 1.  **Üretim grupları** – üretim emri ve genel muhasebe hesapları arasında ilişki kurmak için üretim grupları ayarlayın. Genel muhasebe hesapları, siparişleri raporlama için gruplandırmak veya nakletmek için kullanılır.

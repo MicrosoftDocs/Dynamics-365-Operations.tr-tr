@@ -3,7 +3,7 @@ title: Perakende satışlar için kupon ayarlama
 description: Bu konu kuponlarına genel bakış sağlar ve bunların nasıl ayarlanacağını açıklar.
 author: scott-tucker
 manager: AnnBe
-ms.date: 05/22/2017
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057383"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431990"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Perakende satışlar için kupon ayarlama
 
@@ -48,8 +48,10 @@ Kuponlar sınırlı kullanım kuponları olarak yapılandırılabilir. Kullanım
 
 Limit, kupondaki kupon kodu başına zorlanır. Örneğin, iki kupon kodu içeren bir tek kullanım kupon iki kez kullanılabilir: her kupon kodu için bir kez. Kupondaki her kod bağımsız olarak etkin olacak şekilde ayarlanabilir.
 
+Kuponlar tüm satış kanallarda kullanılabilir ancak, çağrı merkezi siparişleri için sınırlı kullanım kuponları yalnızca çağrı merkezindeki **sipariş tamamlama** ayarının etkin olduğu çağrı merkezleri siparişleri için kullanılabilir. Bu etkin değilse, arama merkezi siparişlerinde yalnızca sınırlı olmayan kullanım tipi Kuponlar kullanılabilir.
+
 > [!NOTE]
-> Kupon kodu kullanım sınırına ulaştığında sistem kupon kod durumunu otomatik olarak "Kullanıldı" olarak *değiştirmez*. Bununla birlikte sistem kullanım sınırına ulaşan bir kupon kodunun daha fazla kullanılmasına izin vermez. Kupon kod durumu "Etkin" dışında bir ayara el ile ayarlanmışsa, bu kupon kodu herhangi bir kanalda kullanılamaz.
+> Kupon kodu kullanım sınırına ulaştığında sistem kupon kod durumunu otomatik olarak "Kullanıldı" olarak *değiştirmez*. Ancak bu kupon kodu kullanım sınırına ulaşmış olduğundan kullanılamaz. Kupon kod durumu **Etkin** dışında bir ayara el ile ayarlanmışsa, bu kupon kodu herhangi bir kanalda kullanılamaz.  
 
 ## <a name="managing-coupons"></a>Kupon yönetimi
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388128"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431142"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams'de Human Resources uygulaması
 
@@ -45,6 +45,7 @@ Teams'de uygulama izinlerini yönetme hakkında bilgi için bkz. [Microsoft Team
 
 | Çıkış | Durum |
 | --- | --- |
+| Hata: Bağlanılacak ortam bulunurken bir sorun oluştu. | Kullanıcının bir veya daha fazla İnsan Kaynakları ortamına erişebileceğini doğrulasanız bile bu hatayı alabilirsiniz. Ayrıca, beklediğiniz tüm ortamları görmeyebilirsiniz. Bu sorunu düzeltdik, sorunu gidermek için kullanıcıyı silin ve yeniden içe aktarın. |
 | İleriki bir tarih için izin işlenirken bakiye yanlıştır. | Tahmin, henüz mevcut değil. Bakiye, geçerli tarih için görüntülenir. |
 | Var olan bir istekteki alınan izin saatlerini düşerken **Kalan bakiye** artacağına azalır. | Gelecekte, bu bilinen sorunu ele alacağız. Görüntü yanlış, ancak gönderildikten sonra doğru miktarlara ayarlanır. |
 | Aynı tarihler için iki **Yaklaşan izin** kartı görüntülenir. | Kartlar, ayrı gönderimleri temsil eder. Geri bildirim almaya ve ayarlamalar yapmaya devam edeceğiz. |
