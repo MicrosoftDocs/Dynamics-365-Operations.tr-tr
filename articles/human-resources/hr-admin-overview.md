@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9da6fc7338942e97a1a7417dbd4dfca55fa95272
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010817"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410070"
 ---
 # <a name="overview"></a>Genel Bakış
 
@@ -33,19 +33,19 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
 
 - Kurulumları ayarlama ve yönetme
   - [İnsan kaynakları hazırlığı](hr-admin-setup-provision.md)
-  - [Örnek kopyala](hr-admin-setup-copy-instance.md)
-  - [Örneği kaldır](hr-admin-setup-remove-instance.md)
-  - [İşlemi güncelleştir](hr-admin-setup-update-process.md)
+  - [Örneği kopyalama](hr-admin-setup-copy-instance.md)
+  - [Örneği kaldırma](hr-admin-setup-remove-instance.md)
+  - [Güncelleştirme işlemi](hr-admin-setup-update-process.md)
 
-- Veri tümleştirme Ayarlama
+- Veri tümleştirmesini ayarlama
   - [Bir veri tümleştirme teknolojisi seçin](hr-admin-integration-choose-technology.md)
   - [Common Data Service tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)
-  - [Finans ile tümleştirmeyi yapılandırma](hr-admin-integration-finance.md)
+  - [Finance ile tümleştirmeyi yapılandırma](hr-admin-integration-finance.md)
   - [Dayforce ile tümleştirmeyi yapılandırma](hr-admin-integration-dayforce.md)
-  - [Yinelenen dışa veri aktarma uygulaması oluştur](hr-admin-integration-recurring-data-export.md)
-  - Office ile entegre edin
+  - [Yinelenen veri dışarı aktarma uygulaması oluşturma](hr-admin-integration-recurring-data-export.md)
+  - Office ile tümleştirme
     - [Office tümleştirmesi eğitimi](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Excel 'de varlık verilerini güncelleştirme](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Excel'de varlık verilerini güncelleştirme](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Excel'de Aç deneyimleri oluşturma](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Office tümleştirmesi ile ilgili sorunları giderme](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
@@ -75,21 +75,20 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
 - Belge kaynakları
   - [Yardım sistemi](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [Yardım sistemini bağlama](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [Özel bir yardım sitesini bağlama](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [Alan açıklamalarını görüntüleme ve dışa aktarma](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [Görev Kaydedici](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Görev Kaydedici ile belge veya eğitim oluşturma](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- İnsan Kaynakları sorun giderme
+- Human Resources ile ilgili sorunları giderme
   - [Destek alma](hr-admin-troubleshooting-support.md)
   - [Otomatik temizleme görevleriyle performansı en iyi duruma getirme](hr-admin-troubleshooting-batch-history.md)
   - [Analitik raporlar güncelleştirilmedi](hr-admin-troubleshooting-analytic-reports.md)
   - [Power Apps Yönetim merkezinde ortam oluşturulamıyor](hr-admin-troubleshooting-power-apps.md)
-  - [İstemcisinin bağlantısı kesiliyor](hr-admin-troubleshooting-disconnect.md)
-  - [Konum hiyerarşisinde kesilen metni engelle](hr-admin-troubleshooting-truncate.md)
+  - [İstemcinin bağlantısı kesiliyor](hr-admin-troubleshooting-disconnect.md)
+  - [Konum hiyerarşisinde kesilen metni engelleme](hr-admin-troubleshooting-truncate.md)
   - [Ücret işlemini çalıştırma](hr-admin-troubleshooting-compensation.md)
-  - [LCS için görev kılavuzunu Kaydet](hr-admin-troubleshooting-task-guide.md)
-  - [Güvenlik rolüne göre özel adreslere erişim](hr-admin-troubleshooting-private-addresses.md)
+  - [LCS için görev kılavuzunu kaydetme](hr-admin-troubleshooting-task-guide.md)
+  - [Güvenlik rolüne göre özel adreslere erişme](hr-admin-troubleshooting-private-addresses.md)
   - [İnsan Kaynakları Dynamics 365 uygulamalarında görünmez](hr-admin-troubleshooting-not-in-apps.md)
   - [Raporlama seçenekleri](hr-admin-troubleshooting-reporting.md)
   - [Tümleştirme ile ilgili SSS](hr-admin-troubleshooting-integration.md)

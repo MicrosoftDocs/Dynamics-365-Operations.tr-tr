@@ -3,7 +3,7 @@ title: Konteyner modülü
 description: Bu konu konteyner modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025540"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417358"
 ---
 # <a name="container-module"></a>Konteyner modülü
-
 
 [!include [banner](includes/banner.md)]
 
@@ -45,6 +44,10 @@ Konteyner modülü, diğer modülleri barındıran bir modüldür. Bir konteyner
 - Site yazarı, yan yana üç modül görüntülendiği üç sütunlu bir düzen istiyor. Bu nedenle, site yazarı konteyner için 3-yuva türü bulunan bir konteyner modülü kullanır.
 - Site yazarı, yan yana altı modül görüntülendiği altı sütunlu bir düzen istiyor. Bu nedenle, site yazarı, içinde altı sütun bulunan bir içerme türü konteyner kullanır.
 - Site yazarı bir sayfaya modül koymak istiyor ancak ekranı doldurmasını istemiyorum. Bu nedenle, site yazarı modülü bir konteyner modüle ekler ve kapsayıcının **Genişlik** özelliğini **konteyner sığdır** şekilde ayarlar.
+
+Aşağıdaki resimde, ticaret sitesi oluşturucuda döngü modülü içeren bir kapsayıcı modülü örneği gösterilmektedir. Bu örnekte, konteyner modülünün **genişlik** özelliği **Ekranı doldur** ayarlanır.
+
+![Konteyner modülü örneği](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Konteyner modülü özellikler
 
@@ -99,27 +102,36 @@ Farklı görünüm bağlantı noktalarının düzenini en iyi duruma getirmek i�
 
 Bir yeni sayfaya konteyner oynatma modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Konteyner şablonu** adlı bir sayfa şablonu oluşturun. 
-1. **Gövde** yuvasında bir **Varsayılan sayfa** modülü ekleyin.
-1. Şablon düzenlemeyi tamamlayın ve sonra yayımlayın.
-1. **Konteyner sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz konteyner şablonunu kullanın.
-1. Yeni sayfanın **ana** yuvasına bir konteyner modülü ekleyin.
+1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
+1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **Konteyner şablonu**'nu girin ve **Tamam**'ı seçin.
+1. **Gövde** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Varsayılan sayfa** modülünü seçin ve **Tamam**'ı seçin.
+1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin. 
+1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
+1. **Şablon seç** iletişim kutusunda, oluşturduğunuz video oynatıcı şablonunu seçin. Bir **sayfa adı** ve sayfa **Konteyner sayfası** girin ve **Tamam**'ı seçin.
+1. Yeni sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
 1. Konteyner modülüyle ilgili Özellik bölmesinde, **sütun sayısı** özelliğini **1**'e ve **Genişlik** özelliğini **Kapsayıcıyı doldur** şekilde ayarlayın.
-1. Konteyner modülünde, bir içerik bloku modülü ekleyin.
+1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **İçerik bloku** modülünü seçin ve **Tamam**'ı seçin.
 1. İçerik bloğu modülü özellik bölmesinde başlığı, görüntüyü ve düzeni yapılandırın.
-1. Sayfayı kaydet ve önizleyin. Konteyner modülünün genişliğine uyan tek bir özellik modülü görmelisiniz.
+1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin. Konteyner modülünün genişliğine uyan tek bir özellik modülü görmelisiniz.
 1. Konteyner modülüyle ilgili özellik bölmesinde, **sütun sayısı** özelliğinin değerini **3** olarak değiştirin.
-1. Koteyner modülüne iki veya daha fazla içerik bloku modülü ekleyin.
-1. Sayfayı kaydet ve önizleyin. Yan yana görünen üç içerik bloku modülü şimdi görmelisiniz.
-1. İstediğiniz düzeni elde ettikten sonra, sayfayı düzenlemeyi bitirin ve yayımlayın.
+1. Konteyner modülüne iki tane daha içerik bloğu modülü ekleyin ve konfigüre edin.
+1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin. Yan yana görünen üç içerik bloku modülü şimdi görmelisiniz.
+1. İstediğiniz düzeni elde ettikten sonra, sayfayı iade etmek için **düzenlemeyi bitir** 'i seçin ve yayınlamak için **Yayınla** 'yı seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Başlangıç paketine genel bakış](starter-kit-overview.md)
 
+[Akordiyon modülü](add-accordion.md)
+
+[Sekme modülü](add-tab.md)
+
 [Döngü modülü](add-carousel.md)
 
-[Metin bloku modülü](add-content-rich-block.md)
+[Metin bloğu modülü](add-content-rich-block.md)
 
 [Satınalma kutusu modülü](add-buy-box.md)
 

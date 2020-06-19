@@ -3,7 +3,7 @@ title: ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 3 - Raporu
 description: Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının bir Elektronik raporlama (ER) modelini ER raporları için veri kaynağı olarak mali boyutları kullanacak şekilde nasıl yapılandıracağını açıklamaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7bbbc81eaf8c13e8d13e30a0276e38453e07ead9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: cef61787e50561eaac4fd52741ab5f90d9c4171d
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142536"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406509"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 3 - Raporu tasarlama)
 
@@ -95,6 +95,7 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 59. Öznitelik Ekle'ye tıklayın.
 60. Ad alanına, 'Açıklama' yazın.
 61. Tamam'a tıklayın.
+![ER İşlem tasarımcısı sayfası](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Rapor öğelerini veri kaynakları ile eşleme
 1. Eşleme sekmesini tıklatın.
@@ -140,7 +141,8 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 41. Bağla'yı tıklatın.
 42. Ağaçta, 'Kök: XML Öğesi\Şirket: XML Özniteliği' öğesini seçin.
 43. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Şirket: Dize' öğesini seçin.
-44. Bağla'ya tıklayın.
-45. Kaydet'e tıklayın.
+44. Bağla'yı tıklatın.
+45. Kaydet'i tıklatın.
 46. Sayfayı kapatın.
+![ER İşlem tasarımcısı sayfası](../media/er-financial-dimensions-guides-format2.png)
 

@@ -3,7 +3,7 @@ title: Kayıtlı görünümler
 description: Bu konu, kaydedilmiş görünümler özelliklerinin nasıl kullanılacağını açıklar.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: fe79558b9d2ac4ef1c83918b949d11983b2cc0d8
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6b7f1c64c273f52dc1d414185ba54efdfb8e5c0
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260495"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412343"
 ---
 # <a name="saved-views"></a>Kayıtlı görünümler
 
@@ -137,7 +137,7 @@ Yayınlanmış bir görünümde yapmak istediğiniz değişiklikler yalnızca ya
 7. [10.0.9/Platform update 33 veya sonrası] Özgün olarak bu yayımlanmış görünümü varsayılan görünüm olarak seçtiyseniz, yeniden yayımlamadan sonra bu kullanıcılar için varsayılan görünüm olur.  
 
 Yayınlanan görünümde yapılan değişiklikler görünümle ilişkili kişiselleştirmeler veya filtrelerle değişiklik yapmak içeriyorsa, şu adımları izleyin: 
-1.  Değiştirmek istediğiniz yayımlanmış görünüme geçin. 
+1.  Değiştirmek istediğiniz yayımlanmış görünümü yükleyin. 
 2.  Yayımlanmış görünümün yerel taslağını oluşturmak için yayımlanmış görünümün bir kopyasını kaydedin. 
 3.  Yerel taslağı gerekli değişikliklerle değiştirin.
 4.  Görünümü özgün adıyla yayımlayın. 
@@ -150,11 +150,24 @@ Tüm kullanıcılar kişisel görünümlerini gösteren **Görünümlerim** sekm
 Sayfa için tüm yayımlanmış görünümlerin listesi için aşağıdaki eylem kümesi kullanılabilir. 
 
 -    **Yayınla**: Yayımlama parametreleri (ad, açıklama, güvenlik rolleri) değiştirildikten sonra bir görünümü yeniden yayımlamak için **Yayımla** eylemini kullanın.
+-    **Kişisel olarak Kaydet** – yayınlanan görünümün kişisel taslak kopyasını oluşturmak için **kişisel olarak Kaydet** eylemini kullanın. Bu özellik, size yayınlanmamış veya henüz yayınlanmamış bir görünümün içeriğini anlamanıza yardımcı olabilir. Ayrıca, bir görünümü düzenleyip yeniden yayımlamak için de kullanabilirsiniz. Bu özellik 10.0.12 sürümünde tanıtılmıştır.  
 -    **Kaldır**: Yayınlanmış bir görünümü kalıcı olarak silmek için **Kaldır** eylemini kullanın. Bu eylem sistemdeki tüm kullanıcıların görünümünü kaldırır. Yayınlanan görünümlerin kaldırılması **Kaydet** düğmesi seçildikten sonra etkili olur.
+
+## <a name="managing-views-globally"></a>Görünümleri genel olarak yönetme
+Bu konuda belirtildiği gibi, bazı yönetim özellikleri her sayfada yer almakla birlikte, **sistem yöneticileri**ve **kaydedilmiş görünüm yöneticileri**, **Kişiselleştirme** sayfası aracılığıyla sistem için görünümleri daha da yönetebilir . Özellikle, Bu sayfa aşağıdaki bölümlere ve yeteneklere sahiptir: 
+
+- **Yayınlanan Görünümler** – Bu bölüm, organizasyonunuz için yayımlanmış tüm görünümleri listeler. Burada, görünümün hedeflediği güvenlik rollerini veya tüzel kişilikler ayarladıktan sonra bir görünümü yeniden yayımlayabilirsiniz. Ayrıca, bir veya daha fazla yayımlanmış görünümü dışa aktarabilir veya silebilirsiniz. Sürüm 10.0.12 ve sonraki sürümlerde, görünümün bir kişisel kopyasını oluşturmak için **kişisel olarak Kaydet** eylemini kullanabilirsiniz, böylece görünümü güncelleştirebilir veya içeriğini daha iyi anlamaya olanak verebilirsiniz. 
+- **Yayımlanmamış görünümler** – Bu bölüm, sisteminize aktarılan ancak henüz yayınlanmamış olan tüm görünümleridir. Bu görünümleri yayımlayabilir, dışa aktarabilir veya silebilirsiniz. 10.0.12 sürümüne eklenen **hızlı yayımlama** eylemi, varolan güvenlik rolü ve yasal varlık yapılandırmaları kullanılarak tek bir eylemde bu bölümdeki çoklu görünümlerin yayımlanmasına olanak tanır. Sürüm 10.0.12 ve sonraki sürümlerde, görünümün bir kişisel kopyasını oluşturmak için **kişisel olarak Kaydet** eylemini kullanabilirsiniz, böylece görünümü güncelleştirebilir veya içeriğini daha iyi anlamaya olanak verebilirsiniz.   
+- **Kişisel görünümler** – Bu bölümde tüm görünümler sistemdeki kullanıcılar tarafından oluşturulur. Bir kişisel görünümü kuruluşa yayımlayabilir veya bu görünümlerden birini veya birkaçını diğer kullanıcılara kopyalayabilirsiniz. Bu görünümleri gerektiğinde dışa aktarabilir veya silebilirsiniz.
+- **Kullanıcılar** – Bir kullanıcı seçerek, kullanıcının ziyaret ettiği sayfaların listesini görün. Bunun ardından, seçili kullanıcıların belirli sayfalar veya tüm sistem için kişiselleştirme kullanma yeteneklerini ayarlayabilirsiniz. Ayrıca, kullanıcı için bir kişiselleştirmeyi içe veya dışa aktarabilir ya da temizleyebilirsiniz. Ek olarak, kullanıcı için özellik açıklamalarını sıfırlayabilirsiniz. Kullanıcı yeni özellikler içeren açılır pencereleri önceden devre dışı bırakmışsa, bu özellikler kullanıcının bir sonraki karşılaştığı sefer yeniden görünürler.
+- **Sistem:** Tüm kullanıcılar için kişiselleştirmeleri geçici olarak devre dışı bırakabilirsiniz. Bu durumda, tüm kullanıcılar için tüm kişiselleştirmeler silinir ve tüm sayfalar varsayılan durumlarına sıfırlanır. Kişiselleştirmeyi daha sonra yeniden etkinleştirirseniz, tüm kişiselleştirmeler yeniden uygulanır. Ayrıca sistemdeki tüm kullanıcılar için tüm kişiselleştirmeleri kalıcı olarak silebilirsiniz. Silinmiş kişiselleştirmeler kurtarılamaz. Bu nedenle, bu görevi uygulamadan önce, daha sonra içeri aktarmak isteyebileceğiniz kişiselleştirmeleri dışa aktardığınızdan emin olun.
+
+**Kişiselleştirme** sayfasına erişimi olan kullanıcılar, Eylem bölmesindeki **Görünümleri içe aktar** düğmesini kullanarak kişisel veya şablon görünümlerini de içe aktarabilir. Sürüm 10.0.12 ve sonrasında, içe aktarıldıklarında görünümlerin hemen yayımlanması için bir mekanizma eklenmiştir.  
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kaydedilmiş görünümleri ortamımda nasıl etkinleştirebilirim? 
-Not: **kaydedilmiş görünümler** özelliği, kişiselleştirme sisteminin Finance and Operations'da etkinleştirilmesini gerektirir. Tüm ortam için kişiselleştirme kapatılmışsa, aşağıdaki adımları izleseniz bile görünümler devre dışı bırakılır. 
+> [!NOTE]
+> **kaydedilmiş görünümler** özelliği, kişiselleştirme sisteminin Finance and Operations'da etkinleştirilmesini gerektirir. Tüm ortam için kişiselleştirme kapatılmışsa, aşağıdaki adımları izleseniz bile görünümler devre dışı bırakılır. 
 
 **10.0.9/platform güncelleştirmesi 33 ve sonrası** **kaydedilmiş Görünümler** özelliği, herhangi bir ortamda doğrudan Özellik yönetiminde kullanılabilir. Diğer genel Önizleme özellikleri gibi, üretim için bu özelliğin etkinleştirilmesi, [Tamamlayıcı Kullanım Koşulları Sözleşmesine](https://go.microsoft.com/fwlink/?linkid=2105274) tabidir.  
 

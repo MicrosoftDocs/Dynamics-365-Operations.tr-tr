@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce önizleme ortamını hazırlama
 description: Bu konu, hazırlandıktan sonra Microsoft Dynamics 365 Commerce önizleme ortamının nasıl yapılandırılacağını açıklamaktadır.
 author: psimolin
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: c109c2326cf01739255b49587c15aa34ad884f6a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254760"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426477"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce önizleme ortamını hazırlama
 
@@ -193,7 +193,7 @@ Ortamı dağıtmak için şu adımları izleyin.
 
 1. Devam etmeden önce, ortam durumlarınızın **dağıtıldığından** emin olun.
 
-### <a name="initialize-the-commerce-scale-unit-csu"></a>Commerce scale unit (CSU) Başlat
+### <a name="initialize-the-commerce-scale-unit-cloud"></a>Commerce scale unit (bulut) Başlat
 
 Bir CSU başlatmak için şu adımları izleyin.
 
@@ -251,7 +251,7 @@ Commerce önizleme ortamını hazırlam ve yapılandırma işlemine devam etmek 
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (bulut)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure portalı](https://azure.microsoft.com/features/azure-portal)
 

@@ -1,5 +1,5 @@
 ---
-title: Alacak hesaplarında alacak ve tahsilatlar
+title: Alacak hesaplarındaki tahsilatlar
 description: Alacak hesabı tahsilat bilgileri, Microsoft Dynamics 365 Finance Tahsilatlar sayfası kullanılarak tek bir merkezi görünümden yönetilir. Kredi ve tahsilat yöneticileri, tahsilatları yönetmek için bu merkezi görünümü kullanabilir. Tahsilat temsilcileri, tahsilat işlemine önceden tanımlanmış tahsilat kriterlerini kullanarak oluşturulmuş müşteri listelerinden veya Müşteriler sayfasından başlayabilir.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471de43bc0d171e60100613a6d779a249cd9e92f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189189"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426408"
 ---
-# <a name="credit-and-collections-in-accounts-receivable"></a>Alacak hesaplarında alacak ve tahsilatlar
+# <a name="collections-in-accounts-receivable"></a>Alacak hesaplarındaki tahsilatlar
 
 [!include [banner](../includes/banner.md)]
 
@@ -52,7 +52,7 @@ Yaşlandırma anlık görüntüsü başlığı vadesi gelen toplam tutarı, alac
 
 Yaşlandırma dönemi tanımındaki her yaşlandırma dönemi için bir yaşlandırma anlık görüntüsü ayrıntı kaydı oluşturulur. Her yaşlandırma anlık görüntüsü ayrıntı kaydı yaşlandırma dönemi kodunu ve yaşlandırma dönemindeki tarihlerle birlikte hareketlerin toplam tutarını içerir. Hareketler bir yaşlandırma dönemine atanabilir (vadesi 30 gün geçmiş gibi). Tarih, yaşlandırm anlık görüntüsünü oluştururken belirttiğiniz Yaşlandırma tarihiyle ilişkilidir. Bu bilgi, Yaşlandırılmış bakiyeler liste sayfasında ve Tahsilatlar sayfasındaki Yaşlandırılmış bakiyeler Bilgi Kutusunda görüntülenir.
 
-## <a name="collections-customer-pools"></a> Tahsilat müşteri havuzları 
+## <a name="collections-customer-pools"></a>Tahsilat müşteri havuzları
 Müşteri havuzları, tahsilatlar veya yaşlandırma işlemleri için görüntülenebilen veya yönetilebilen müşteri kayıtları grubunu tanımlayan sorgulardır. Yaşlandırılmış bakiyeler, Tahsilat etkinlikleri ve Tahsilat servis talepleri liste sayfalarındaki bilgileri filtrelemek için kullanıcı havuzlarını kullanın. Yaşlandırma anlık görüntüleri oluşturulduğunda eklenecek müşteri hesaplarını filtrelemek için de müşteri havuzlarını kullanabilirsiniz.
 
 ## <a name="collections-agents"></a>Tahsilat temsilcisi
