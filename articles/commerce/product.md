@@ -3,7 +3,7 @@ title: POS'ta ürün önerileri ekleme
 description: Bu konuda bir satış noktasında (POS) ürün önerilerinin nasıl kullanılacağı açıklanmaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 05/26/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2ad50a83b85de49b0016549f0baec2328f1608f5
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: a1dc1e8934bcd6a8cb94b780bbfe247f64067912
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154215"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404268"
 ---
 # <a name="add-product-recommendations-on-pos"></a>POS'ta ürün önerileri ekleme
 
@@ -73,7 +73,7 @@ Temel olarak ürün önerileri; zengin, çekici ve özel ürün keşfi deneyimle
 
 [Ürün önerilerine genel bakış](product-recommendations.md)
 
-[Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme](enable-adls-environment.md)
+[Dynamics 365 Commerce ortamında Azure Data Lake Storage'yi etkinleştirme](enable-adls-environment.md)
 
 [Ürün önerilerini etkinleştir](enable-product-recommendations.md)
 

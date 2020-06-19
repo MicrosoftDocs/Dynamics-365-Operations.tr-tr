@@ -3,7 +3,7 @@ title: Perakende satış fiyatı yönetimi
 description: Bu konu Dynamics 365 Commerce'de satış fiyatları oluşturma ve yönetme kavramlarını açıklar.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057499"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3432013"
 ---
 # <a name="retail-sales-price-management"></a>Retail satış fiyatı yönetimi
 
@@ -53,7 +53,9 @@ Aşağıdaki örnek fiyat gruplarının nasıl kullanılacağını gösterir. Bu
 
 Fiyat grupları oluştururken, birden fazla türdeki ticari varlıklar için tek bir fiyat grubu kullanmamanız gerekir. Aksi takdirde, neden belirli bir fiyat veya iskontonun harekete uygulandığını belirlemek zor olabilir.
 
-Örnekteki kırmızı çizgili satırda da gösterildiği gibi, Commerce, Microsoft Dynamics 365'teki doğudan bir müşteriden ayarlanan fiyat grubu işlevini desteklemez. Bununla birlikte, bu durumda, yalnızca satış fiyatı ticari sözleşmelerini alırsınız. Müşteriye özel fiyatları uygulamak isterseniz, doğrudan müşteri üzerinden fiyat grupları ayarlamamanızı öneririz. Bunun yerine, ilişkileri kullanın.
+Örnekteki kırmızı çizgili satırda da gösterildiği gibi, Commerce, Microsoft Dynamics 365'teki doğudan bir müşteriden ayarlanan fiyat grubu işlevini desteklemez. Bununla birlikte, bu durumda, yalnızca satış fiyatı ticari sözleşmelerini alırsınız. Müşteriye özel fiyatları uygulamak isterseniz, doğrudan müşteri üzerinden fiyat grupları ayarlamamanızı öneririz. Bunun yerine, ilişkileri kullanın. 
+
+Fiyat grubu müşteri için ayarlanmışsa bu fiyat grubu bu müşteri için oluşturulan siparişlerin satış siparişi başlığıyla ilişkili olur. Kullanıcı sipariş başlığındaki fiyat grubunu değiştirirse eski fiyat grubu yalnızca geçerli sipariş için yeni fiyat grubuyla değiştirilir. Örneğin, eski fiyat grubu geçerli siparişi etkilemez, ancak gelecekteki siparişler için müşteriyle ilişkilendirilmeye devam eder.
 
 Aşağıdaki bölümler fiyat grupları kullanıldığında ayrı gruplar ayarlamak için kullanabileceğiniz ticari varlıklar hakkında daha fazla bilgi sağlar. Bu varlıklar için fiyatları ve iskontoları yapılandırma iki aşamalı bir işlemdir. Bu adımlar her iki sırayla da yapılabilir. Ancak, bu adım uygulama sırasında bir kez yapılacak bir kurulum olduğundan mantıksal sıra önce varlıklarda fiyat gruplarını ayarlamaktır. Ardından, fiyatlar ve iskontolar oluşturulduğunda, bu fiyatlar ve isontolar üzerinde fiyat gruplarını ayrı ayrı ayarlayabilirsiniz.
 
@@ -226,6 +228,7 @@ Fiyatlandırma altyapısı şu fiyatlandırma özelliklerini **desteklemez**:
 - Tesis veya tesis ile ambar depolama boyutlarının fiyatlarını ayarlama desteklenmez. Ticari sözleşmeler üzerinde yalnızca tesis boyutunu belirtirseniz, fiyatlandırma altyapısı tesisi dikkate almaz ve tüm sitelere ticari anlaşmayı uygular. Hem tesisi, hem de ambarı belirtirseniz, satıcıların her mağaza/ambar için fiyatları kontrol etmek üzere mağaza fiyat gruplarını kullanması beklendiğinden, tanımsız/sınanmadı.
 - Öznitelik temelli fiyatlandırma desteklenmiyor.
 - Satıcı iskontosu geçişi desteklenmiyor.
+- Standart Supply Chain Management fiyatlandırma altyapısı, geçerli tarihle birlikte "talep edilen sevk tarihi" ve "talep edilen giriş tarihi" temel alınarak verilen fiyatlandırma hesaplamasını destekler. Ancak, perakende fiyatlandırma Şu anda bu değerleri desteklemiyor. Bunun nedeni, B2C senaryolarında müşteriler istenen teslimat tarihinin madde fiyatını etkilemesini beklemmesidir. Bazı durumlarda, perakendeciler B2B ve B2C operasyonlarına sahiptir. B2B operasyonları için, teslimat tarihlerine göre fiyat değiştirilmesi yaygındır. Bu perakendeciler, B2B iş ve iş amaçlı fiyatlandırılması için Supply Chain Management fiyatlandırmasını kullanabilir. Perakende fiyatlandırma, yalnızca uygulama kullanıcısı bir arama merkezi kullanıcısı olarak eklenirse, bu nedenle perakendeciler, Supply Chain Management fiyatlandırmayla çalışacak olan belirli kullanıcıları atayabilir ve perakende fiyatlandırmayla çalışacak birkaç Kullanıcı atayabilir, diğer bir deyişle bu kullanıcıların çağrı merkezi kullanıcıları olarak eklenmesi gerekir. Ek olarak, **ticaret parametreleri > fiyatlandırma ve iskontolar > muhtelif** bölümünde **fiyatları hesaplamada bugünün tarihini kullan** özelliği açık olmalıdır. Böylece, Supply Chain Management fiyatlandırması için talep edilen sevk tarihi veya talep edilen teslim alma tarihi için hesap alacağı ile ilgili değeri saklayabilirsiniz, ancak perakende fiyatlandırması fiyatlandırma hesaplaması için bugünün tarihini kullanarak devam edebilir.
 
 Ayrıca, **yalnızca** fiyatlandırma altyapısı şu fiyatlandırma özelliklerini destekler:
 

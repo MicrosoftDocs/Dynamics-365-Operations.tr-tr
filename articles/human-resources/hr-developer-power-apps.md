@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d4185b958ed35e9d2bc764db8ea77b3a2f53c37
-ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
+ms.openlocfilehash: 36b8145764338b91bfedf96c43a7137a89831742
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029877"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410116"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Power Apps ve Power Automate ile genişletme
 
@@ -58,4 +58,3 @@ Veri dönüşümü ve artımlı gönderimi etkinleştirmek için Gelişmiş sorg
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
-[Kiracılar ve ortamlar arasında uygulamaları geçirmek](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

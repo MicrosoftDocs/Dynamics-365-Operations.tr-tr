@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 14cee020cc8aead627180343c82bf23534ae83c4
-ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
+ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
+ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3131743"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410425"
 ---
 # <a name="set-up-a-call-center-channel"></a>Çağrı merkezi kanalı ayarlama
 
@@ -31,10 +31,10 @@ ms.locfileid: "3131743"
 
 Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir çağrı merkezi kanalının nasıl oluşturulacağı açıklanmaktadır.
 
-## <a name="overview"></a>Genel Bakış
+## <a name="overview"></a>Özet
 
 
-Dynamics 365 Commerce'te çağrı merkezi, uygulamada tanımlanabilen bir perakende kanalı türüdür. Çağrı merkezi varlıklarınız için bir kanal tanımlamak, sistemin belirli verileri ve sipariş işleme varsayılanlarını satış siparişlerine bağlamasına olanak sağlar. Bir şirket Commerce'ta çok sayıda çağrı merkezi kanalı tanımlayabilmesine karşın, tek bir kullanıcının yalnızca tek bir çağrı merkezi kanalına bağlanabileceği unutulmamalıdır. 
+Dynamics 365 Commerce'te çağrı merkezi, uygulamada tanımlanabilen bir Commerce kanalı türüdür. Çağrı merkezi varlıklarınız için bir kanal tanımlamak, sistemin belirli verileri ve sipariş işleme varsayılanlarını satış siparişlerine bağlamasına olanak sağlar. Bir şirket Commerce'ta çok sayıda çağrı merkezi kanalı tanımlayabilmesine karşın, tek bir kullanıcının yalnızca tek bir çağrı merkezi kanalına bağlanabileceği unutulmamalıdır. 
 
 Yeni bir çağrı merkezi kanalı oluşturmadan önce [Kanal kurulumu önkoşullarını](channels-prerequisites.md) tamamladığınızdan emin olun.
 
@@ -84,7 +84,7 @@ Aşağıdaki resimde, **Kurulum** sekmesindeki **Teslimat şekilleri** ve **Öde
 
 Aşağıdaki resimde bir nakit ödeme yöntemi örneği gösteriliyor.
 
-![Örnek ödeme yöntemleri](media/channel-setup-retail-5.png)
+![Örnek ödeme yöntemleri](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Teslimat şekillerini ayarla
 

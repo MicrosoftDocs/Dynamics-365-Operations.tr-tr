@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 03426e86186c6aa283531eb37ae26527e6891042
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2742c5c12dcc554745b618dd1ff819c8c1e1d05f
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276970"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413111"
 ---
 # <a name="inventory-value-storage-report"></a>Stok değeri depolama raporu
 
@@ -50,7 +50,7 @@ Bir **Stok değeri depolama** raporu oluşturmak ve depolamak için aşağıdaki
 1. **Yeni**'yi seçin.
 1. Görüntülenen **Stok değeri** iletişim kutusunda, raporunuza hangi kayıtların ekleneceğini tanımlamak için aşağıdaki değerleri ayarlayın:
 
-    - **Parametreler** hızlı sekmesinde, rapor için benzersiz bir ad girin ve rapora dahil edilen kayıtları tanımlamak için **Tarih aralığı** bölümündeki alanları kullanın. Tarih aralığını tanımlamak için **Tarih aralığı kodu** alanında önceden ayarlanmış bir aralık seçebilirsiniz (rapor oluşturma tarihine göre) veya **Başlangıç tarihi** ve **Bitiş tarihi** alanlarında belirli tarihleri seçebilirsiniz. <!-- KFM: What is the ID setting for here? What do its values mean? -->
+    - **Parametreler** hızlı sekmesinde, rapor için benzersiz bir ad girin ve rapora dahil edilen kayıtları tanımlamak için **Tarih aralığı** bölümündeki alanları kullanın. Tarih aralığını tanımlamak için **Tarih aralığı kodu** alanında önceden ayarlanmış bir aralık seçebilirsiniz (rapor oluşturma tarihine göre) veya **Başlangıç tarihi** ve **Bitiş tarihi** alanlarında belirli tarihleri seçebilirsiniz.
     - **Dahil edilecek kayıtlar** hızlı sekmesinde, rapora dahil edilecek verileri tanımlamak için filtreler ve sınırlamalar ayarlayın.
     - **Arka planda çalıştır** hızlı sekmesinde raporun nasıl, ne zaman ve ne sıklıkta oluşturulacağını belirtin.
 

@@ -3,7 +3,7 @@ title: ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1 - Veri m
 description: Aşağıdaki adımlar, bir sistem yöneticisinin veya elektronik raporlama geliştiricisinin bir Elektronik raporlama (ER) modelini ER raporları için veri kaynağı olarak mali boyutları kullanacak şekilde nasıl yapılandıracağını açıklamaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b02496ebb06e0c2eb644fc7ef3280ca4eca05923
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: b951c9074c68a9f7592c17e0688498880397b223
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142052"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406555"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1 - Veri modeli tasarlama)
 
@@ -103,7 +103,9 @@ Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşt
 65. Ekle öğesini tıklatın.
 66. Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.
 67. İsim alanında 'İsim' yazın.
-68. Ekle öğesini tıklatın.
-69. Kaydet'e tıklayın.
+68. Ekle öğesine tıklayın.
+69. Kaydet'i tıklatın.
 70. Sayfayı kapatın.
+
+![ER veri modeli tasarımcısı sayfası](../media/er-financial-dimensions-guides-data-model.png)
 

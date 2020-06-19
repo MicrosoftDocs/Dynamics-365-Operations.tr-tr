@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 45677681ebae40210d6e2d896323f7e691b765e2
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: d2455f775fcf41bbcb1388b2e8053ede8512335d
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057568"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403227"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeye genel bakış
 
@@ -139,6 +139,7 @@ Aşağıdaki mali tümleştirme örnekleri Retail SDK içerisinde şu anda kulla
 - [Avusturya için mali kayıt hizmeti tümleştirme örneği](emea-aut-fi-sample.md)
 - [Çek Cumhuriyeti için mali kayıt hizmeti tümleştirme örneği](emea-cze-fi-sample.md)
 - [İsveç için kontrol birimi tümleştirmesi örneği](./emea-swe-fi-sample.md)
+- [Almanya için mali kayıt hizmeti tümleştirme örneği](./emea-deu-fi-sample.md)
 
 Aşağıdaki mali tümleştirme işlevi de ayrıca Retail SDK içinde kullanılabilir ancak mali tümleştirme çerçevesinin avantajlarından faydalanmaz. Bu işlevin mali tümleştirme çerçevesine geçirilmesi daha sonraki güncelleştirmeler için planlanmıştır.
 

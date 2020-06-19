@@ -3,12 +3,12 @@ title: İzin ve devamsızlık türlerini yapılandırma
 description: Dynamics 365 Human Resources'ta çalışanların götürebileceği izin tiplerini ayarlayın.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198062"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428605"
 ---
 # <a name="configure-leave-and-absence-types"></a>İzin ve devamsızlık türlerini yapılandırma
 
@@ -56,7 +56,9 @@ Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği �
 
 8. **Seçili rollere erişimi kısıtlamak** altında, erişimi kısıtlamak istediğinizi seçin. Sonra, **bu izin türü için güvenlik rolleri** altında güvenlik rollerini seçin. Güvenlik rolleri, bu yordamda daha önce **iş akışı kodu** altında seçtiğiniz iş akışında tanımlanmıştır.
 
-9. **Kaydet**'i seçin.
+9. **Askıya alma ilişkileri** altında , bu tür iznin başka bir izin türünü askıya al veya başka bir izin türü tarafından askıya alınması seçeneklerinden birini belirleyin. Askıya alma türü için devamsızlık yetkisi isteği gönderildiğinde, askıya alma türü için bir yeniden gönderme askıya alma işlemi otomatik olarak oluşturulur. 
+
+10. **Kaydet**'i seçin.
 
 ## <a name="configure-leave-type-rules"></a>İzin türü kurallarını yapılandırma
 
@@ -66,16 +68,15 @@ Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği �
 
    Tatilleri çlışma zmaanı takviminde ayarlayabilirsiniz. Daha fazla bilgi için bkz. [Çalışma zamanı takvimi oluşturma](hr-leave-and-absence-working-time-calendar.md)
    
-## <a name="configure-preview-features"></a>Önizleme özelliklerine yapılandırma
-
-İzin ve devamsızlık için Önizleme özelliklerini etkinleştirdiyseniz, bu ayarları sizin için de konfigüre etmeniz gerekir.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. Transfer edilecek devir bakiyeleri için izin türünü seçin. Ayrıca, devir için yeni bir izin türü oluşturabilirsiniz. 
-
+ 3. İzin türü için **ileriye doğru izin türü** ayarlayın. Bu seçeneği belirlediğinizde, tüm ileri düzey bakiyeleri belirtilen izin türüne aktarılır. İleriye yönelik izin türü de, bırak ve devamsızlık planına dahil edilmesi gerekir. 
+ 
+ 4. İzin türü için **süre sonu kurallarını** tanımlayın. Bu seçeneği konfigüre ettiğinizde, gün veya ay birimini seçebilir ve bitiş tarihi için süreyi ayarlayabilirsiniz. Ayrıca, sona erme kuralının geçerlilik tarihini ayarlayabilirsiniz. Bitiş tarihinde varolan tüm izin bakiyeleri izin dışında bırakılacak ve bırakma bakiyesine yansıtılır. 
+ 
+ 
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık planı oluşturma](hr-leave-and-absence-plans.md)
-- [Çalışma süresi takvimleri oluşturma](hr-leave-and-absence-working-time-calendar.md)
+- [Çalışma zamanı takvimi oluşturma](hr-leave-and-absence-working-time-calendar.md)
+- [İzni askıya alma](hr-leave-and-absence-suspend-leave.md)
+
