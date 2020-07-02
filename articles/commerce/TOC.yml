@@ -74,7 +74,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Yükseltme ve N-1 desteği
               items:
-                - name: Retail için yükseltme ve N-1 desteği
+                - name: Commerce için yükseltme ve N-1 desteği
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Aşamalı Kullanıma Sunma (N-1) yüklemesi, yapılandırması ve kesin bitişi'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,8 +94,6 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (Mayıs 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: Commerce 10.0.9 (Nisan 2020)
-                      href: get-started/whats-new-10-0-9.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Finance and Operations'taki kaldırılan veya kullanım dışı bırakılan özellikler
@@ -504,6 +502,8 @@
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Adyen bağlayıcısını kullanan Güçlü Müşteri Kimlik Doğrulaması (SCA)
                       href: adyen_redirect.md
+                    - name: Yazıcı ve kasa çekmecesi için ayrılmış ödeme terminalleri ve istemleri
+                      href: pos-multi-hws.md
                     - name: Hediye kartı ve alacak faturası işlemleri için sorunsuz çevrimdışı geçiş
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Fatura ödeme senaryolarını ayarlama
@@ -572,9 +572,13 @@
                       href: set-up-bar-codes.md
                     - name: Barkod maskelerini ayarlama
                       href: set-up-bar-code-masks.md
+                - name: Garantiler
+                  items:
+                    - name: Genişletilmiş garantiler oluşturma ve yapılandırma
+                      href: extended-warranty.md
             - name: Fiyatlandırma ve iskontolar
               items:
-                - name: İndirimler
+                - name: İskontolar
                   href: retail-discounts-overview.md
                 - name: Satış fiyatı yönetimi
                   href: price-management.md
@@ -974,7 +978,7 @@
                       href: cart-icon-module.md
                     - name: Ödeme modülü
                       href: add-checkout-module.md
-                    - name: Sipariş onayı modülü
+                    - name: Sipariş ayrıntıları modülü
                       href: order-confirmation-module.md
                     - name: Mağaza seçicisi modülü
                       href: store-selector.md
@@ -1896,7 +1900,9 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Geliştirme ortamı (.env) dosyası yapılandırma
                       href: e-commerce-extensibility/configure-env-file.md
-                    - name: Azure DevOps kod paylaşımını ayarlama ve derleme ardışık düzeni oluşturma
+                    - name: Katman 1 Commerce geliştirme ortamında hata ayıklama
+                      href: e-commerce-extensibility/debug-tier-1.md
+                    - name: Azure DevOps kod paylaşımını ayarlama ve derleme işlem hattı oluşturma
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Platforma genel bakış
                   items:
@@ -2028,6 +2034,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: Yönetici erişimi olmadan bulutta barındırılan geliştirme ortamlarında geliştirme
                   href: dev-itpro/cloud-dev-box.md
+                - name: Commerce SDK derleme işlem hattı ayarlama
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: Satış noktası genişletilebilirliği
               items:
                 - name: POS ekranı düzenleri
@@ -2102,7 +2110,7 @@
                   href: dev-itpro/call-crt-service-offline.md
                 - name: Yeni Retail Server uzantısı oluşturma
                   href: dev-itpro/retail-server-extension.md
-                - name: 'Retail Typescript ve C# proxy''leri'
+                - name: Retail Typescript ve C# proxy'leri
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: Commerce Runtime (CRT) genişletilebilirliği
               items:

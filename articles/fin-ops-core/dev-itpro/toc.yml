@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: 10.0.10 için platform güncelleştirmeleri (Mayıs 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platform update 33 (Nisan 2020)
-                  href: get-started/whats-new-platform-update-33.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan platform özellikleri
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: Çift yazma için varlık eşlemeyi etkinleştirme
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: Çift yazma için para birimi veri türü geçişi
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: Çift yazmayı yönetme
                           items:
                             - name: Varlık ve alan eşlemelerini özelleştirme
@@ -364,6 +364,8 @@
           items:
             - name: Azure Data Lake'e genel bakış
               href: data-entities/azure-data-lake-overview.md
+            - name: Azure Data Lake'e aktarmayı yapılandırma
+              href: data-entities/configure-export-data-lake.md
             - name: Azure Data Lake'deki Finance and Operations uygulamaları
               href: data-entities/finance-data-azure-data-lake.md
             - name: Varlık deposunu Data Lake olarak kullanılabilir yapma
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Şirket içi tanılama
                       href: deployment/on-premises-diagnostics.md
+                    - name: Şirket içi olağanüstü durum kurtarma yapılandırması
+                      href: deployment/onprem-dr.md
                     - name: Şirket içi ortamlarla PowerBI.com tümleştirmesi
                       href: analytics/entity-store-on-prem.md
                     - name: Ortamları yeniden yapılandırma
@@ -652,11 +656,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: İstek veya yanıt senaryolarındaki EventHandlerResult sınıfları
                   href: dev-tools/event-handler-result-class.md
-                - name: 'C# ve X++ kaynak kodu kullanarak iş mantığı yazma'
+                - name: C# ve X++ kaynak kodu kullanarak iş mantığı yazma
                   href: dev-tools/write-business-logic.md
                 - name: X ++ ile X ++ derleyici değişiklikleri
                   href: dev-tools/programming-language-support.md
-                - name: 'C# için LINQ sağlayıcısı'
+                - name: C# için LINQ sağlayıcısı
                   href: dev-tools/linq-provider-c.md
                 - name: En iyi uygulama kurallarını yazma
                   href: dev-tools/author-best-practice-rules.md
@@ -716,7 +720,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: X++ öznitelik sınıfları
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'X++ ve C# karşılaştırması'
+                    - name: X++ ve C# karşılaştırması
                       href: dev-ref/xpp-cs-comparison.md
                     - name: X++ söz dizimi
                       href: dev-ref/xpp-syntax.md
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: Güvenlik mimarisi
                   href: sysadmin/security-architecture.md
+                - name: Finance and Operations uygulamalarında şifreleme
+                  href: sysadmin/encryption.md
                 - name: Oturumun boşta kalma zaman aşımını ayarlama
                   href: sysadmin/session-idle-timeout.md
                 - name: Kullanıma hazır güvenlik raporları
