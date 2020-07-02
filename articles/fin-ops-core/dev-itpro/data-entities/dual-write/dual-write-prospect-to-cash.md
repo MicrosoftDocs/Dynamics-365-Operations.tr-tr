@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
-ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
+ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2020
-ms.locfileid: "3270300"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443907"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Çift yazmada aday müşteriden nakde
 

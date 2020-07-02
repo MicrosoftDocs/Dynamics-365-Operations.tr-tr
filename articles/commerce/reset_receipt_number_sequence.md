@@ -19,17 +19,19 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: e3243a69b98aae25ad8514890fb984c8a0d9f694
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123958"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456585"
 ---
 # <a name="reset-receipt-numbers"></a>Makbuz numaralarını sıfırlama 
 
 [!include [banner](includes/banner.md)]
 
+> [!NOTE]
+> Bu özelliği kullanmadan önce, işlevsellik profilindeki tüm makbuz türleri için **Bağımsız sıralama** özelliğini seçmeniz gerekir. Ayrıca, POS'un kullanıldığı cihazın sistem saat dilimi, ilgili mağaza saat dilimiyle aynı olmalıdır. Gelecekte yayınlanacak bir sürümde bu sınırlamaları kaldırmak için çalışıyoruz. Lütfen bu özelliği Üretimde kullanmadan önce Microsoft desteğine başvurun.
 
 Perakendeciler, mağaza gibi çeşitli eylemler için giriş numaraları (örneğin nakit ve hareketleri, iade hareketleri, müşteri siparişleri, teklifler ve ödemeler) oluşturur. Perakendeciler kendi makbuz biçimlerini tanımlamakla birlikte, bazı ülkelerde veya bölgelerde bu makbuz biçimlerine sınırlamalar koymak için gereken düzenlemeler vardır. Örneğin, bu düzenlemeler Makbuzdaki karakter sayısını sınırlayabilir, birbirini izleyen Makbuz numaraları gerektirebilir, bazı özel karakterleri sınırlayabilir veya yılın başlangıcında makbuz numaralarının sıfırlanmasını gerektirebilir. Microsoft Dynamics 365 Commerce, perakendecilerinin yasal gereksinimleri karşılamasına yardımcı olmak için makbuz numaralarının yönetimi sürecini çok esnek yapar. Bu konu, makbuz numaralarının sıfırlanması için işlevselliğin nasıl kullanıldığını açıklamaktadır.
 

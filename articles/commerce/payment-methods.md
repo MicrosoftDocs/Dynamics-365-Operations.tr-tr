@@ -3,7 +3,7 @@ title: Ödeme yöntemleri
 description: Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığında mutlaka yapılandırılmalıdır. Bu makale, ayarlayabileceğiniz ödeme türlerini ve bunları ayarlamak için gerekli işlemi açıklamaktadır.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6afbddad869c70e4527c49fc5d4b520d7602f825
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 710c2f3bbe5b76af6d0bc0bf9a469e52c98c18d2
+ms.sourcegitcommit: 550006e6376815237c21b5b30e928353f62fd97c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024384"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3463172"
 ---
 # <a name="payment-methods"></a>Ödeme yöntemleri
 
@@ -39,7 +39,7 @@ Perakendeciler, sattıkları ürünler ve hizmetler karşılığında çeşitli 
 - **Döviz** – Şirketin kullandığı para biriminden dışında temel ödeme aracıdır. Bozuk paralar ve kağıt paralar para birimi kapsamındadır. Dövizle ödeme yöntemi, kullanılan tüm para birimlerini temsil etmektedir. Bu ödeme yöntemini kullanmadan önce para birimlerini ayarlamanız ve para birimleri için kambiyo bilgilerini belirlemeniz gerekir.
 - **Kart** – Banka kartı ve kredi kartı vb. gibi tüm kart türleri. Her türlü kart çeşidini temsil etmek üzere organizasyon seviyesinde bir kartla ödeme yönteminin kurulması doğru bir karar olacaktır. Ardından, mağaza düzeyinde her bir kart veya aynı ayarlar kullanılarak işlenen her kart grubu için bir ödeme yöntemi ayarlayın. Bir mağazada ödeme yöntemi olarak kart kabul etmeden önce banka kartları ve kredi kartları gibi, piyasada bulunan üretici kartlarını belirlemeniz gerekir.
 - **Credit memo** – Satış noktasında oluşturulan veya ödenen credit memo'lardır. Credit memo bir iadeli satış için çıkartılan bir normal veya iadeli bir credit memo'dur. Credit memo'lar sadece kısmen geri ödeniyorsa program, yeni bakiye için yeni bir credit memo hazırlayacaktır. Yeni cerdit memo'nun yeni bir numarası olur. Bir credit memo sadece bir defa kullanılabilir ve sistem kullanılan tüm numaraların bir kaydını tutar. Kayıtlar **Credit memo tablosu** sayfasında görülebilir. Bir müşteri, credit memo değerini birden fazla defa kullanamaz.
-- **Hediye Kartı** – Satış noktasında çıkartılan ve ödenen hediye kartlarıdır. Hediye kartlarında para üst verilmesine izin verilmez.
+- **Hediye Kartı** – Satış noktasında çıkartılan ve ödenen hediye kartlarıdır. Hediye kartlarında para üst verilmesine izin verilmez. Tüm hediye kartlarında kart numarası eşlemeleri olmalıdır. 
 - **Müşteri hesabı** – Satış anında kayıtlı bir müşteri hesabına şarj edilebilen ödemelerdir. Bu ödeme yöntemini ayrıca müşteri başka bir ödeme yöntemi kullanarak bir ödeme yaptığında satış bilgileri veya müşteriye özel indirimler almak için kullanabilirsiniz. Bu durumda, müşteriye özel bilgileri ayarlamanız gerekir.
 - **Bağlılık programı puanları** – Müşterilerin bağlılık programları aracılığıyla biriktirdiği puan. Bağlılık programları oluşturursanız, müşteriler puan kazanabilir ve sonra bu puanları çeşitli şekillerde kullanabilir. Örneğin, bazı sadakat programlarında müşteriler, sadakat puanlarını bir indirim olarak ve hatta bir ödeme yöntemi olarak kullanabilmektedirler.
 

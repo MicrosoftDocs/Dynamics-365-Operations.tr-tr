@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4da37d45698290b40f6c72148f1500bef72127a
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 69521ec8c664a7025050c94105eca58f7f2c5c00
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173097"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435572"
 ---
 # <a name="integrated-tax"></a>Tümleşik vergi
 
@@ -38,30 +38,30 @@ Vergi ayarı verileri hem dolaylı vergilerin (KDV, GST, Satış vergisi) hem de
 
 Vergi verileri, aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir varlık eşlemeleri topluluğudur.
 
-| Finance and Operations uygulamaları | Dynamics 365'teki model yönetimli uygulamalar | Tanım |
--------------------------|---------------------------------
-Vergi kodları                   | msdyn\_taxcodes.md | 
-Vergi grupları                 | msdyn\_taxgroups.md | 
-Vergi maddesi grupları             | msdyn\_taxitemgroups.md | 
-Vergi Muafiyetleri             | msdyn\_taxexemptcodes.md | 
-Vergi Daireleri             | msdyn\_taxauthorities.md | 
-Stopaj vergisi kodları       | msdyn\_withholdingtaxcodes.md | 
-Stopaj vergisi grupları     | msdyn\_withholdingtaxgroups.md | 
-Vergi Genel Muhasebe Hesabı Grubu | msdyn\_taxpostinggroups     | 
+Finance and Operations uygulamaları | Dynamics 365'teki model yönetimli uygulamalar | Tanım |
+-------------------------|---------------------------------|----|
+Madde satış vergisi grubu | msdyn_taxitemgroups |
+Satış vergisi makamları | msdyn_taxauthorities |
+Satış vergisi muafiyet kodu varlığı CDS | msdyn_taxexemptcodes |
+Satış vergisi grupları | msdyn_taxgroups |
+Satış vergisi genel muhasebe deftere nakil grupları V2 | msdyn_taxpostinggroups |
+Stopaj vergisi kodları | msdyn_withholdingtaxcodes |
+Stopaj vergisi grupları | msdyn_withholdingtaxgroups | 
+
 
 [!include [banner](../../includes/dual-write-symbols.md)]
 
-[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
-
 [!include [Tax item groups](includes/TaxItemGroupHeadings-msdyn-taxitemgroups.md)]
+
+[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
 
 [!include [Tax Exemptions](includes/CdsTaxExemptCodes-msdyn-taxexemptcodes.md)]
 
-[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
+[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
+
+[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
 
 [!include [Withholding tax codes](includes/WithholdingCode-msdyn-withholdingtaxcodes.md)]
 
 [!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
-
-[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
 

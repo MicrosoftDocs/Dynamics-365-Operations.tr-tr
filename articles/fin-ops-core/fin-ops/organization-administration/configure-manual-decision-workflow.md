@@ -3,7 +3,7 @@ title: İş akışında el ile girilen kararları yapılandırma
 description: Bu konu, el ile bir kararın özelliklerini yapılandırmayı açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180433"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455045"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>İş akışında el ile girilen kararları yapılandırma
 
@@ -239,26 +239,6 @@ El ile kararın kime atanacağını belirtmek için şu adımları izleyin.
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
     <li><strong>Kullanılabilir kullanıcılar</strong> listesi, tüm  kullanıcılarını içerir. Kararın atanacağı kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>Kuyruk</td>
-    <td>Bir iş maddesi kuyruğu</td>
-    <td>
-    <ol>
-    <li><strong>Kuyruk</strong>'u seçtikten sonra <strong>Kuyruk tabanlı</strong> sekmesini tıklatın.</li>
-    <li>Kararı belirli bir kuyruğa atamak için şu adımları izleyin: <ol>
-    <li><strong>Kuyruk türü</strong> listesinde, <strong>İş öğesi kuyrukları</strong>'nı seçin.</li>
-    <li><strong>Kuyruk adı</strong> listesinde, kuyruğu seçin.</li>
-    </ol>
-    </li>
-    <li>Eğer belirli bir koşulun kararının hangi kuyruğa atanacağını belirlemesi gerekiyorsa, aşağıdaki adımları izleyin: <ol>
-    <li><strong>Kuyruk türü</strong> listesinde, <strong>Koşullu iş öğesi kuyrukları</strong>'nı seçin.</li>
-    <li><strong>Kuyruk adı</strong> listesinde, <strong>Koşullu kuyruk</strong>'u seçin.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] Bu seçenek yalnızca servis talebi yönetimi gibi bazı iş akışları için kullanılır.</blockquote>
     </td>
     </tr>
     </tbody>

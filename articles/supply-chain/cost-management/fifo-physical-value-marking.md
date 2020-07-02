@@ -3,7 +3,7 @@ title: Fiziksel değer ve işaretleme ile FIFO
 description: İlk Giren İlk Çıkar (FIFO), ilk alınan girişlerin ilk olarak çıkartıldığı bir stok modelidir. Stoktan yapılan mali olarak güncelleştirilen çıkışlar, stok hareketinin mali tarihine göre stoka yapılan ilk mali güncelleştirilen girişlere karşılık kapatılır.
 author: AndersGirke
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e237d1e9f9bb83d0fe65556eca07c8757f920664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a66a1b977a4e36f9ad057683366c39a81ba1d833
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201767"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454638"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile FIFO
 
@@ -49,8 +49,8 @@ Bu örnekte ürün model grubu, fiziksel değeri dahil edecek şekilde işaretle
 -   4a. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
 -   4b. Her biri 30,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
 -   5a. Her biri 20,00 ABD Doları maliyet fiyatında 1 miktarındaki stok fiziksel çıkışı (mali olarak güncelleştirilen hareketlerin cari ortalaması).
--   5b. Her biri 20,00 ABD Doları maliyet fiyatında 1 miktarındaki stok mali çıkışı (mali olarak güncelleştirilen hareketlerin cari ortalaması).
--   6. Stok kapanışı gerçekleştirilir. FIFO yöntemine dayanarak, ilk mali olarak güncelleştirilen çıkış ilk mali olarak güncelleştirilen girişe karşılık olarak kapatılır. Çıkış hareketinde 10,00 ABD Doları tutarında bir düzeltme yapılır.
+-   5b. Her biri 15,00 ABD Doları maliyet fiyatında 1 miktarındaki stok mali çıkışı (mali olarak güncelleştirilen hareketlerin cari ortalaması).
+-   6. Stok kapanışı gerçekleştirilir. FIFO yöntemine dayanarak, ilk mali olarak güncelleştirilen çıkış ilk mali olarak güncelleştirilen girişe karşılık olarak kapatılır. Çıkış hareketinde 5,00 ABD Doları tutarında bir düzeltme yapılır.
 
 Yeni cari ortalama maliyet fiyatı, mali olarak güncelleştirilen hareketlerin ortalamasını yansıtır. Aşağıdaki çizimlerde **Fiziksel değeri dahil et** seçenek kullanılmadığında FIFO stok modelinin bu hareket serisindeki etkilerini gösterir. 
 

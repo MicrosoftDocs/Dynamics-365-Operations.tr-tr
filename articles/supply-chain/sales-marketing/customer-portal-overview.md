@@ -3,7 +3,7 @@ title: Dynamics 365 Supply Chain Management için Müşteri portalına genel bak
 description: Bu konu müşteri portalını tanıtır ve bunu kimin nasıl çalıştığını açıklar.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414017"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456938"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Dynamics 365 Supply Chain Management için Müşteri portalına genel bakış
 
@@ -37,6 +37,12 @@ Müşteri Portalı şablonu, Power Apps'in sunduğu tüm özelleştirme yetenekl
 
 > [!NOTE]
 > Müşteri Portalı belgeleri, bir Supply Chain Management yüklemesi için müşteri portalını kuran Yöneticiler, özelleştiriciler ve sistem tümleştiricilerine yönlendirilir. Supply Chain Management çalıştıran bir kuruluşun müşterileri olan kişileri açıklamak için _müşteri_ ve _Kullanıcı_ terimlerini kullanır ve son portalı kullanacak.
+
+## <a name="video"></a>Görüntü
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+[Dynamics 365 Supply Chain Management'ta Müşteri portalı şablonuna genel bakış](https://youtu.be/nPrqoLuHfV8) videosu (yukarıda gösterilen), YouTube'daki [Finance and Operations çalma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yer almaktadır.
 
 ## <a name="who-should-use-it"></a>Kimler kullanacak?
 
@@ -58,6 +64,6 @@ Müşteri Portalı, Power Apps portal şablonu olarak sağlanır. Bunlar Power A
 
 [Çift yazım](https://docs.microsoft.com/powerapps/maker/portals/overview), Dynamics 365 ve Finance and Operations uygulamalardaki modele dayalı uygulamalar arasında yakın zamanda gerçek zamanlı etkileşim sağlayan bir altyapıdır. Çift-yazma, Finance and Operations uygulamalar ve Common Data Service arasında çift yönlü tümleştirme sağlar. Bu nedenle, uygulamalar arasında tümleşik bir kullanıcı deneyimi sağlar. Müşteri Portalı, Çift-yazılır olarak eşitlenen varlıklara bağlıdır. Supply Chain Management'tan alınan verilerin müşteri portalında yapılabilmesi için, ilgili tüm varlıklar için çift-yazım etkinleştirilmiş olmalıdır.
 
-![![Müşteri portalına bağımlılıklar](media/customer-portal-elements.png "Müşteri portalına bağımlılıklar")](media/customer-portal-elements.png "Customer portal dependencies")
+![Müşteri portalına bağımlılıklar](media/customer-portal-elements.png "Müşteri portalına bağımlılıklar")
 
 Müşteri Portalı, Supply Chain Management yüklemesinden veri kullanan dışarıdan bakan bir Web sitesi oluşturmak amacıyla Power Apps portalları kullanmak isteyen kuruluşlar için bir başlangıç noktası görevi görür. Kuruluşların çift-yazılır, Supply Chain Management ve Power Apps portallara bağlanmasına yardımcı olur.

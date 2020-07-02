@@ -748,13 +748,13 @@
               items:
                 - name: Amortisman kuralları
                   href: fixed-assets/Fixed-asset-depreciation-conventions.md
-                - name: '%125 azalan bakiyeli amortisman'
+                - name: Yüzde 125 azalan bakiyeli amortisman
                   href: fixed-assets/125-percent-reducing-balance-depreciation.md
-                - name: '%150 azalan bakiyeli amortisman'
+                - name: Yüzde 150 azalan bakiyeli amortisman
                   href: fixed-assets/150-percent-reducing-balance-depreciation.md
-                - name: '%175 azalan bakiyeli amortisman'
+                - name: Yüzde 175 azalan bakiyeli amortisman
                   href: fixed-assets/175-percent-reducing-balance-depreciation.md
-                - name: '%200 azalan bakiyeli amortisman'
+                - name: Yüzde 200 azalan bakiyeli amortisman
                   href: fixed-assets/200-percent-reducing-balance-depreciation.md
                 - name: Ek amortisman
                   href: fixed-assets/bonus-depreciation.md
@@ -1816,11 +1816,37 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Sermaye maddelerini sabit kıymete transfer etme
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: Hindistan GST'si
+                - name: Hindistan GST
                   items:
-                    - name: Hindistan GST'sine genel bakış
+                    - name: Hindistan GST'ye genel bakış
                       href: localizations/apac-ind-gst.md
-                    - name: Hindistan GST'si referans grupları
+                    - name: APAC Hindistan GST yerelleştirmesindeki yenilikler veya değişiklikler
+                      items:
+                        - name: 10.0.0'daki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-00.md
+                        - name: 10.0.01'deki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-01.md
+                        - name: 10.0.02'deki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-02.md
+                        - name: 10.0.03'teki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-03.md
+                        - name: 10.0.04'teki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-04.md
+                        - name: 10.0.05'teki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-05.md
+                        - name: 10.0.06'daki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-06.md
+                        - name: 10.0.07'deki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-07.md
+                        - name: 10.0.08'deki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-08.md
+                        - name: 10.0.09'daki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-09.md
+                        - name: 10.0.10'daki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-10.md
+                        - name: 10.0.11'deki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: Hindistan GST referans grupları
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Yazar kasalara ilişkin GST tümleştirmesi
                       href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
@@ -2346,6 +2372,8 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: Ciro bakiyeleri ekstresi
                   href: localizations/emea-pol-turnover-balances-statement.md
+                - name: BH/AH döviz kuru farkını bölme
+                  href: localizations/emea-pol-split-ap-ar-exchange-difference.md
             - name: Rusya
               items:
                 - name: Rusya'ya genel bakış
@@ -3408,8 +3436,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: Belge yönetimi dosyalarını kullanmak üzere biçimleri değiştirme ve çalıştırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                        - name: Veri kaynaklarında hata ayıklama
-                          href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: Veri kaynaklarında hata ayıklama
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: Barkod görüntüleri oluşturmak için BARKOD kullanma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Model eşlemelerini yapılandırma
                   items:
                     - name: Ülke bağlamına bağımlı ER model eşlemeleri yapılandırma
@@ -3418,18 +3448,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Biçimleri yapılandırma
                   items:
+                    - name: Biçim oluştururken model tanımlarını seçme
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: ER biçimlerini her tüzel kişilik için belirtilen parametreleri kullanmak üzere yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                     - name: Her tüzel kişilik için ER biçiminin parametrelerini ayarlama
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                    - name: Biçim oluştururken modeli tanımlarını seçme
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: ER biçim öğelerinin yürütülmesini erteleme
                       items:
                         - name: Sıra öğesinin yürütülmesini erteleme
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
                         - name: XML öğesinin yürütülmesini erteleme
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: Çok dilli raporlar tasarlama
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Veri bağlamalarındaki göreli yol
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Finance and Operations'ta Elektronik raporlama çözümlerini kullanma

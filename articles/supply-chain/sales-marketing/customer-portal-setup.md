@@ -3,7 +3,7 @@ title: Müşteri portalını yükleme, kurma ve güncelleştirme
 description: Bu konu, Müşteri portalı için lisans ayrıntılarını ve kurulum yönergelerini sağlar.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414018"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435621"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Müşteri portalını yükleme, kurma ve güncelleştirme
 
@@ -35,7 +35,7 @@ Müşteri portalını uygulamak için aşağıdaki lisanslara sahip olmanız ger
 
 Müşteri Portalı, Aşağıdaki çizimde gösterildiği gibi Power Apps portallara ve çift yazmaya bağlıdır.
 
-![![Müşteri portalına bağımlılıklar](media/customer-portal-elements.png "Müşteri portalına bağımlılıklar")](media/customer-portal-elements.png "Customer portal dependencies")
+![Müşteri portalına bağımlılıklar](media/customer-portal-elements.png "Müşteri portalına bağımlılıklar")
 
 Supply Chain Management'tan alınan diğer özelliklerden farklı olarak, Müşteri Portalı şablonu Power Apps portalları içinde bulunur. Bu nedenle, müşteri portalı Power Apps portalların ve varlıkların çift yazması tarafından sağlanan işlevler ve yetenekler ile sınırlıdır.
 
@@ -59,7 +59,7 @@ Başlamadan önce [gerekli kurulumu](#required-setup) tamamlamış olduğunuzdan
 
 1. [make.powerapps.com](https://make.powerapps.com/) gidin.
 2. Çift-yazmayı etkinleştirdiğiniz ortamı kullandığınızdan emin olun.
-3. **Oluştur** sekmesinde, **şablondan başlangıç şablonu** bölümüne gidin ve **Supply Chain Management müşterisi** olarak adlandırılan şablonu seçin.
+3. **Oluştur** sekmesinde, **şablondan başlangıç şablonu** bölümüne gidin ve **Müşteri Portalı** olarak adlandırılan şablonu seçin.
 4. Ekrandaki yönergeleri izleyin.
 
 Sağlama tamamlandıktan sonra, **giriş** sayfasının **uygulamalarınız** bölümünde müşteri portalına erişebilirsiniz.
@@ -71,7 +71,7 @@ Sağlama tamamlandıktan sonra, **giriş** sayfasının **uygulamalarınız** b�
 
 Daha sonra müşteri portalına daha fazla işlevsellik eklenebilir. Microsoft'un alttaki çözüm bileşenlerine yaptığı değişiklikler sizin ortamınızda otomatik olarak görüntülenir. Ancak, ortamınızda sağlanan Web sitesi, yapılandırma verilerinde yapılan değişiklikleri otomatik olarak yansıtmayacaktır. Yeni şablondan kodu alarak ve bunu sağlanan Web sitesiyle birleştirerek bu değişiklikleri el ile uygulamanız gerekir.
 
-## <a name="resources"></a>Kaynaklar
+## <a name="additional-resources"></a>Ek kaynaklar
 
 Müşteri portalını nasıl ayarlayabileceğinizi ve özelleştirebileceğinizi öğrenmek için, temeldeki teknolojiler için aşağıdaki belgeleri gözden geçirerek başlamanız gerekir:
 

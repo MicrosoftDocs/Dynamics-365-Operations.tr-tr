@@ -3,7 +3,7 @@ title: Yeni kullanıcılar oluşturma
 description: Kullanıcılar, işlerini yapmak için sistem erişimine sahip olmaları gereken, kendi kuruluşunuzun dahili personelleri veya harici müşteriler veya satıcılardır.
 author: maertenm
 manager: AnnBe
-ms.date: 02/06/2020
+ms.date: 06/08/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9db4b6d355d6499bce6c550b2fbe76b82cf69fd4
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d126b449074663772549b96b86acb53db971a5d4
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143593"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435596"
 ---
 # <a name="create-new-users"></a>Yeni kullanıcılar oluşturma
 
@@ -50,8 +50,9 @@ Ortamın dağıtıldığı kiracının harici kullanıcılarının lisanslara at
 10. **Kaydet**'i seçin.
 
 ## <a name="import-users"></a>Kullanıcıları içe aktar
-1. Eylem Bölmesinde, **Kullanıcıları içe aktar**'ı seçin.
-2. Listede, seçili satırı işaretleyin.
-3. **Kullanıcıları içe aktar**'ı seçin.
-4. **Kapat**'ı seçin.
+1. **Sistem yönetimi \> Kullanıcılar \> Kullanıcılar**'a gidin.
+2. Eylem Bölmesinde, **Kullanıcıları içe aktar**'ı seçin.
+3. Listede, seçili satırı işaretleyin.
+4. **Kullanıcıları içe aktar**'ı seçin.
+5. **Kapat**'ı seçin.
 

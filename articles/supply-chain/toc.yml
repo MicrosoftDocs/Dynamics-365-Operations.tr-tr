@@ -589,6 +589,8 @@
                   href: cost-management/inventory-value-report-storage.md
                 - name: Stok yaşlandırma raporu depolama
                   href: cost-management/inventory-aging-report-storage.md
+                - name: Stok yaşlandırma raporu örnekleri ve mantığı
+                  href: cost-management/inventory-aging-report.md
             - name: Üretim muhasebesi
               items:
                 - name: Ürün reçetesi hesaplamaları

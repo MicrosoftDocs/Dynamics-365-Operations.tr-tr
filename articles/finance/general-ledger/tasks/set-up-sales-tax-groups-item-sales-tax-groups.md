@@ -3,7 +3,7 @@ title: Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarla
 description: Bu görev kaydı, Satış vergisi ve Madde satış vergisi gruplarının kurulumunda size yol gösterir.
 author: twheeloc
 manager: AnnBe
-ms.date: 07-01-2019
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5b539129e62b9b0b10df1f505cbfec5c1143138
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 126e1de2d59d33fd7a5df1e011aa8c1aff63dfc6
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141638"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454684"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarlama
 
