@@ -3,7 +3,7 @@ title: Hareket olayları için e-posta şablonları oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce uygulamasındaki hareket olayları için e-posta şablonlarının nasıl oluşturulacağı, yükleneceği ve yapılandırılacağı açıklanmaktadır.
 author: stuharg
 manager: annbe
-ms.date: 05/11/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5cd928e90654cca639ed1e163be9192c0dffd9ad
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: a02839088addfa9b405af486f3b795eace1671cc
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367187"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416591"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Hareket olayları için e-posta şablonları oluşturma
 
@@ -40,7 +40,7 @@ Belirli bir hareket etkinliğini bir e-posta şablonuyla eşleştirmeden önce �
 
 Yeni bir e-posta şablonu oluşturmak için bu adımları izleyin.
 
-1. Commerce Headquarters'da **Retail and Commerce \> Genel Merkezi kurulumu \> Kuruluş e-posta şablonları**'na gidin.
+1. Commerce merkezinde **Retail ve Commerce \> Merkez kurulumu \> kuruluş e-posta şablonları** veya **kuruluş yönetim \> kurulum \> kuruluş e-posta şablonları** altındaki **kuruluş e-posta şablonları** 'na gidin.
 1. **Yeni**'yi seçin.
 1. **Genel** altında, aşağıdaki alanları ayarlayın:
 

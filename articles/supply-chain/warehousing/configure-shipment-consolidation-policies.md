@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e879ec53a88e5e30257608cba7604b404ac2368a
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383880"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403347"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Sevkiyat konsolidasyon ilkelerini yapılandırma
 
@@ -270,7 +270,7 @@ Bu örnekte, aşağıdaki iş örneği için kullanılabilecek bir *Konsolidasyo
 
 - İlke, konsolide edilen sevkiyatları kabul eden müşterileri tanımlamak üzere belirli bir sipariş havuzunu sorgulayacaktır.
 - Açık sevkiyatlarla konsolidasyon kapalıdır.
-- Konsolidasyon, varsayılan CrossOrder ilkesi (önceki **Ambar** onay kutusunu çoğaltmak için) tarafından seçilen alanları kullanan siparişler genelinde yapılır.
+- Konsolidasyon, varsayılan CrossOrder ilkesi (önceki **Ambara serbest bırakmada sevkiyatı konsolide et** onay kutusunu çoğaltmak için) tarafından seçilen alanları kullanan siparişler genelinde yapılır.
 
 - Farklı bir sipariş havuzu seçerek satış siparişindeki kuralı geçersiz kılabilirsiniz.
 
@@ -306,7 +306,7 @@ Bu örnekte, aşağıdaki iş örneği için kullanılabilecek bir *Konsolidasyo
 
 - İlke, sevkiyatları konsolide edebilen ambarları tanımlamak üzere belirli bir sipariş havuzunu sorgulayacaktır.
 - Açık sevkiyatlarla konsolidasyon kapalıdır.
-- Konsolidasyon, varsayılan CrossOrder ilkesi (önceki **Ambar** onay kutusunu çoğaltmak için) tarafından seçilen alanları kullanan siparişler genelinde yapılır.
+- Konsolidasyon, varsayılan CrossOrder ilkesi (önceki **Ambara serbest bırakmada sevkiyatı konsolide et** onay kutusunu çoğaltmak için) tarafından seçilen alanları kullanan siparişler genelinde yapılır.
 
 Genellikle bu iş örneği, [senaryo 1](#scenario-1)'de oluşturduğunuz varsayılan ilkeler kullanılarak ele alınabilir. Ancak, bu adımları izleyerek benzer ilkeleri el ile de oluşturabilirsiniz.
 

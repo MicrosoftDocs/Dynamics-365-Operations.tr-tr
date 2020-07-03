@@ -3,7 +3,7 @@ title: Ürün önerilerini etkinleştirme
 description: Bu konu, Microsoft Dynamics 365 Commerce müşterileri için yapay bilgi destek sistemi öğrenme (AI-ML) tabanlı ürün önerilerinin nasıl yapılacağını açıklamaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259806"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404221"
 ---
 # <a name="enable-product-recommendations"></a>Ürün önerilerini etkinleştirme
 
@@ -34,11 +34,11 @@ Bu konu, Microsoft Dynamics 365 Commerce müşterileri için yapay bilgi destek 
 
 ## <a name="recommendations-pre-check"></a>Öneriler ön kontrolü
 
-Etkinleştirmeden önce ürün önerilerinin, depolama alanını Azure Data Lake Storage (ADLS) kullanarak geçirmiş olan Commerce müşterileri için desteklendiğini unutmayın. 
+Etkinleştirmeden önce ürün önerilerinin, depolama alanını Azure Data Lake Storage kullanarak geçirmiş olan Commerce müşterileri için desteklendiğini unutmayın. 
 
 Öneriler etkinleştirilmeden önce aşağıdaki yapılandırmalar arka ofiste etkinleştirilmelidir:
 
-1. ADLS'nin satın alındığından ve ortamda başarıyla doğrulandığından emin olun. Daha fazla bilgi için bkz. [ADLS'nin satın alındığından ve ortamda başarıyla doğrulandığından emin olma](enable-ADLS-environment.md).
+1. Azure Data Lake Storage'nin satın alındığından ve ortamda başarıyla doğrulandığından emin olun. Daha fazla bilgi için bkz. [Azure Data Lake Storage'nin satın alındığından ve ortamda başarıyla doğrulandığından emin olma](enable-ADLS-environment.md).
 2. Varlık deposu yenilemenin otomatik olarak yapıldığından emin olun. Daha fazla bilgi için bkz. [Varlık deposu yenilemesinin otomatik yapıldığından emin olun](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 3. Azure AD Kimlik yapılandırmasının Öneriler için bir giriş içerdiğini onaylayın. Bu eylemin nasıl yapılacağı ile ilgili daha fazla bilgi aşağıda verilmektedir.
 
@@ -92,7 +92,7 @@ Kişiselleştirilmiş ürün önerileri hakkında daha fazla bilgi için bkz. [K
 
 [Ürün önerilerine genel bakış](product-recommendations.md)
 
-[Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme](enable-adls-environment.md)
+[Dynamics 365 Commerce ortamında Azure Data Lake Storage'yi etkinleştirme](enable-adls-environment.md)
 
 [Kişiselleştirilmiş önerileri etkinleştirme](personalized-recommendations.md)
 

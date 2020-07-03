@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c66b25e941d9492c9749043b65c929c9b81db641
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: ad0f33aae7651dff4f424a047eccabd691a99d83
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3279117"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418578"
 ---
 # <a name="administrators-learning-catalog"></a>Yöneticiler İçin Öğrenme Kataloğu
 
@@ -30,7 +30,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 |-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Dynamics 365 ve Power Platform Temel Bilgileri](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Dynamics 365 uygulamalarının nasıl kullanıldığını görmek için bu öğrenme yoluyla işe başlayın. Bulut kavramları, Power Platform ve Dynamics 365 uygulamalarını kullanmaya başlamak hakkında bilgi edinin.  | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu  | 5.5 saat |
 | [Finance and Operations uygulamalarını kullanmaya başlama](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)      | Finance and Operations uygulamalarının, çalışanları hızlı ve bilinçli kararlar vermeye teşvik etmek için işletmeleri, küresel finans sistemlerini, operasyonel iş süreçlerini ve kolaylaştırılmış tedarik zincirlerini yönetme konusunda nasıl desteklediğini öğrenin. Finance and Operations uygulamaları ile çalışma kariyerinizin ilk adımı olarak, istediğiniz rolden bağımsız olarak, Finance and Operations'ın özellik ve işlevleri hakkında bilgi edinmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu   | 2 saat   |
-| [Kurs MB-900T01-A: Dynamics 365 temel bilgileri](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)   | Bu kurs ile katılımcı, Dynamics 365'in işlevleri ve iş değeri hakkında bilgi sahibi olur. Kurs kapsamında Dynamics 365 uygulamaları, Power Platform, bulut kavramlarını, güvenlik modeli ve lisanslama ilgili açıklamalar bulunur.  | Maliyeti bölgeye ve iş ortağına göre değişkenlik gösteren, eğitmen tarafından yönetilen, bizzat katılımlı veya çevrimiçi eğitimler | 1 gün     |
+
 
 
 ## <a name="core-platform-knowledge"></a>Temel platform bilgileri<a name="core-platform-knowledge"></a>

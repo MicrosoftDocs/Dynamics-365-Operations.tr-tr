@@ -3,7 +3,7 @@ title: Videolar
 description: Bu sayfa Finance and Operations uygulamaları için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşmalar videolarını listeler.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: e4756e4d1697fdba40ad8a71a5d33594583a219a
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367141"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456961"
 ---
 # <a name="videos"></a>Videolar 
 
@@ -122,6 +122,9 @@ ms.locfileid: "3367141"
 - [Maliyet kontrolü mobil çalışma alanı](https://youtu.be/imsuTg8rUVk)
 - [Maliyet muhasebesine giriş](https://youtu.be/1pUDtJQZ8FU)
 - [Maliyet analizi için Excel'i kullanma](https://youtu.be/-HKHYdClvx8)
+
+### <a name="customer-portal"></a>Müşteri portalı
+- [Dynamics 365 Supply Chain Management'taki Müşteri portalı şablonuna genel bakış](https://youtu.be/nPrqoLuHfV8)
 
 ### <a name="help-system"></a>Yardım sistemi
 

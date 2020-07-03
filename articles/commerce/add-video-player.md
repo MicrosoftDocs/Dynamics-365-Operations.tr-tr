@@ -3,7 +3,7 @@ title: Video oynatıcı modülü
 description: Bu konu vide oynatıcı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e94658eed12b12d6666e63d2c06b86646c81a120
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025698"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411171"
 ---
 # <a name="video-player-module"></a>Video oynatıcı modülü
 
@@ -47,6 +47,10 @@ Video oynatıcı modülü ikincil ses parçalarını da destekler. Bir video CMS
 - Tüm pazarlama sayfaları üzerindeki ilkelerle ilgili videolar veya promosyon videoları
 - Ürün Ayrıntıları sayfalarındaki veya pazarlama sayfalarındaki ürün özelliklerini vurgulayan pazarlama videoları
 
+Aşağıdaki resimde giriş sayfasında kullanılan bir video oynatıcı modülü örneği gösterilmektedir.
+
+![Video oynatıcı modülü örneği](./media/ecommerce-videoplayer.PNG)
+
 ### <a name="video-player-module-properties"></a>Video oynatıcı modülü özellikleri
 
 | Özellik adı         | Değer                               | Tanım |
@@ -68,22 +72,34 @@ Video oynatıcı modülü ikincil ses parçalarını da destekler. Bir video CMS
 
 Bir yeni sayfaya video oynatma modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Video oynatıcı şablonu** adlı bir sayfa şablonu oluşturun.
-1. Varsayılan sayfanın **ana** yuvasına bir konteyner modülü ekleyin.
-1. Konteyner modülünde, video oynatıcı ve ortam video oynatıcı modülleri ekleyin.
-1. Şablon düzenlemeyi tamamlayın ve sonra yayımlayın.
-1. **Video oynatıcı sayfası** adlı bir sayfa oluşturmak için yeni oluşturduğunuz video oynatıcı şablonunu kullanın.
-1. Yeni sayfanın **ana** yuvasına bir video oynatıcı modülü ekleyin.
+1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
+1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **Video oynatıcı şablonu**'nu girin ve **Tamam**'ı seçin.
+1. **Gövde** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Varsayılan sayfa** modülünü seçin ve **Tamam**'ı seçin.
+1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **video oynatıcı** modülünü seçin ve **Tamam**'ı seçin.
+1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin. 
+1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
+1. **Şablon seç** iletişim kutusunda, oluşturduğunuz video oynatıcı şablonunu seçin. Bir **sayfa adı** ve sayfa **Video oynatcı sayfası** girin ve **Tamam**'ı seçin.
+1. Yeni sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **video oynatıcı** modülünü seçin ve **Tamam**'ı seçin.
 1. Video oynatıcı modülüyle ilgili Özellik bölmesinde **video Ekle**'yi seçin.
 1. **Ortam Seçicisi** iletişim kutusunda bir video seçin ve sonra **yeni ortam öğesiniyükle**'yi seçin.
-1. Sayfayı kaydet ve önizleyin. Sayfada video modülünü görmelisiniz. Modülün davranışını özelleştirmek için ek ayarları değiştirebilirsiniz.
-1. Sayfayı düzenlemeyi tamamlayın ve sonra yayımlayın.
+1. Dosya Gezgini'nde, bir video dosyası seçin ve sonra **Aç**'ı seçin.
+1. **Ortam öğesini karşıya yükle** iletişim kutusunda, gereken bir başlığı ve diğer bilgileri girin ve **Tamam** 'ı seçin.
+1. **Ortam Seçicisi** iletişim kutusunda **Kapat**'ı seçin.
+1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin. Sayfada video modülünü görmelisiniz. Modülün davranışını özelleştirmek için ek ayarları değiştirebilirsiniz.
+1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin. 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Başlangıç paketine genel bakış](starter-kit-overview.md)
 
-[Promosyon başlık modülü](add-alert.md)
+[Promosyon başlığı modülü](add-alert.md)
 
 [Döngü modülü](add-carousel.md)
 

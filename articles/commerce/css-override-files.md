@@ -3,7 +3,7 @@ title: CSS geçersiz kılma dosyalarıyla çalışma
 description: Bu konu, Microsoft Dynamics 365 Commerce'te geçişli stil sayfalarının (CSS) nasıl geçersiz kılındığını, ne zaman ve nasıl kullanılacağını açıklamaktadır.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3c40145ea76296c1b8df9284af820534e3c869d4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001864"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411259"
 ---
 # <a name="work-with-css-override-files"></a>CSS geçersiz kılma dosyalarıyla çalışma
 
@@ -102,6 +102,8 @@ Sitenizdeki bir CSS geçersiz kılma dosyasını devre dışı bırakmak için a
 [Logo ekleme](add-logo.md)
 
 [Site teması seçme](select-site-theme.md)
+
+[Stil ön ayarlarıyla çalışma](style-presets.md)
 
 [Favicon ekleme](add-favicon.md)
 

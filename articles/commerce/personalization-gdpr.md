@@ -3,7 +3,7 @@ title: Kişiselleştirilmiş önerilerden vazgeçme
 description: Bu konu, müşterilerin Microsoft Dynamics 365 Commerce'ta kişiselleştirilmiş öneriler almamasına nasıl izin verileceğini açıklamaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e88980ef6ad585826762c8be35304aecbcc02ab
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 87c031c045249dbcde274d7c741beb72c3216aa8
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154307"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404291"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Kişiselleştirilmiş önerilerden vazgeçme
 
@@ -85,7 +85,7 @@ Aşağıdaki örnek, bir perakendecin bu görevi nasıl yerine getirebileceği g
 
 [Ürün önerilerine genel bakış](product-recommendations.md)
 
-[Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme](enable-adls-environment.md)
+[Dynamics 365 Commerce ortamında Azure Data Lake Storage'yi etkinleştirme](enable-adls-environment.md)
 
 [Ürün önerilerini etkinleştir](enable-product-recommendations.md)
 

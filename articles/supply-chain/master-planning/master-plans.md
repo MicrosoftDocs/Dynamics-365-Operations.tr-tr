@@ -3,7 +3,7 @@ title: Master planlara genel bakış
 description: Şirketinizin günlük çalışma faaliyetlerini desteklemek, izlemek istediğiniz farklı planlama stratejilerinin benzetimini gerçekleştirmek ve dahili performans veya müşteri memnuniyetiyle ilgili şirket politikası uygulamak için çeşitli master planlar kullanın.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56c9c3f910c5c5386cdab25566b43198288eb419
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5b37347cf2d5b720ed7ac364800fb8cfe2d67ca
+ms.sourcegitcommit: ace6451fde3e4b20cbcaa6279fa1da4d7151ad1e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213550"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3409534"
 ---
 # <a name="master-plans-overview"></a>Master planlara genel bakış
 
@@ -35,7 +35,7 @@ ms.locfileid: "3213550"
 Master planları **Master planları** sayfasında yapılandırabilirsiniz.
 
 İki planlama tipi vardır:
--   **Statik plan** – Master planlaması hesaplamasında, bir net gereksinimler planı üretmek için, geçerli veriler kullanılır. Bu plan, bir sonraki master planlamasını çalıştırmanıza kadar değişmeden kalır. Satın alan veya üretim planlayıcısı gibi çeşitli şirket personelinin kararlarına temel oluşturmak ve günlük görevlerle faaliyetleri yürütmek için kullanabilecekleri faaliyet planıdır.
+-   **Statik plan** – Master planlaması hesaplamasında, bir net gereksinimler planı üretmek için, geçerli veriler kullanılır. Bu plan, bir sonraki master planlamasını çalıştırmanıza veya planı manuel olarak değiştirmenize kadar değişmeden kalır. Satın alan veya üretim planlayıcısı gibi çeşitli şirket personelinin kararlarına temel oluşturmak ve faaliyetleri yürütmek için kullanabilecekleri faaliyet planıdır.
 -   **Dinamik plan** – Bu plan, master planlaması tarafından üretilen aynı net gereksinimler planıyla başlar. Ancak, dinamik planı master verilerinin her değiştirilişinde güncelleştirebilirsiniz. Örneğin yeni bir satış siparişi oluşturduğunuzda gerçekleşebilir. Böylece, değişen sipariş ağını ve madde kullanılabilirliğini, diğerlerinin iş işlemleri için kullandıkları statik planı bozmadan izlemeniz sağlanır.
 
 Bir şirket yalnızca dinamik planla çalışmayı tercih edebileceği gibi hem statik, hem de dinamik planları kullanabilir. Belirli bir stratejiyi yansıtmak veya sorun çözmek için tüm master planlamalarını da konfigüre edebilirsiniz. Örnekler aşağıdaki gibidir:

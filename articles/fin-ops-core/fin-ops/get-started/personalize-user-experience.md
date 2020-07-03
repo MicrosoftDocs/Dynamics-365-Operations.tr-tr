@@ -3,7 +3,7 @@ title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konuda uygulamayı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 author: jasongre
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: bb66db1e41dce6987bdfc52dd58e2b704ce36720
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260518"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412366"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -117,7 +117,11 @@ Bir sayfada birden çok değişiklik veya diğer mekanizmalar aracılığıyla g
 - Bir öğeyi mevcut öğeler grubu içinde farklı bir konuma taşımak için **Taşı** aracını kullanın. Bir öğeyi üst grubunun dışına taşıyamazsınız. Bu aracı kullanmak için, araç çubuğunda **Taşı** düğmesini seçin ve sonra taşınacak öğeyi seçin. Bir öğeyi seçtiğinizde uygulama öğenin taşınabileceği konumları belirler. Bu konumlara *bırakma alanları* denir. Öğeyi mevcut grup içinde sürükledikçe, her bırakma bölgesi, öğenin bırakılabileceği alanın yanında renkli ve kalın bir çizgi olarak gösterilir.
 - Sayfanın klavye sekmesi sırasından bir öğeyi kaldırmak için **Atla** aracını kullanın. Araç çubuğunda **Atla** düğmesini seçtiğiniz zaman, atlanmış durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Etkileşimli olarak sekme sırasına alan ekleme veya kaldırma yapabilirsiniz.
 - Bir öğenin hızlı sekme özet bölümünde görünmesini isterseniz **Başlıkta göster** aracını kullanın. Araç çubuğunda **Başlıkta göster** düğmesini seçtiğiniz zaman, özet alanı olarak seçilen tüm alanlar gölgeli bir kapsayıcıda gösterilir. Hızlı sekme özetine etkileşimli olarak alan ekleyebilir veyaalanları seçerek kaldırabilirsiniz.
-- Veri girişi için bir öğeyi gerekli olarak belirlemek üzere **Gerekli** aracını kullanın. Araç çubuğunda **Gerekli** düğmesini seçtiğiniz zaman, gerekli olacak kişiselleştirilmiş tüm öğeler gölgeli bir kapsayıcıda gösterilir. Bu durumda bu öğeleri yeniden gerekli değil durumuna getirebilirsiniz. Bu seçenek yalnızca [Kaydedilen görünümler](saved-views.md) ve **Kişiselleştirme kullanarak alanları gerektiği gibi belirle** özellikleri etkinken bir özellik sürümünde kullanılabilir.
+- Veri girişi için bir öğeyi gerekli olarak belirlemek üzere **Gerekli** aracını kullanın. Araç çubuğunda **Gerekli** düğmesini seçtiğiniz zaman, gerekli olacak kişiselleştirilmiş tüm öğeler gölgeli bir kapsayıcıda gösterilir. Bu durumda bu öğeleri yeniden gerekli değil durumuna getirebilirsiniz. Bu seçenek yalnızca 10.0.12 ve üzeri sürümünden itibaren **Kişiselleştirme kullanarak alanları gerektiği gibi belirle** özellikleri etkin olduğunda kullanılabilir.
+
+    > [!IMPORTANT]
+    > Sürüm 10.0.12 bir önizleme sürümüdür. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
 - Bir öğeyi düzenlenebilir veya düzenlenemez olarak işaretlemek için **Kilitle** aracını kullanın. Araç çubuğunda **Kilitle** düğmesini seçtiğiniz zaman, düzenlenemez durumdaki tüm öğeler gölgeli bir kapsayıcıda gösterilir. Bu durumda bu öğeleri yeniden düzenlenebilir hale getirebilirsiniz. Bazı alanların gerekli olduğunu ve düzenlenemez yapılamayacağını unutmayın. Bu alanların yanında bir asma kilit simgesi görünür.
 - Microsoft Power Apps kullanarak oluşturulmuş bir uygulamayı sayfaya katıştırmak için, **Power Apps'ten uygulama ekle** düğmesini kullanın. Power Apps uygulamasını bir sayfaya katıştırma hakkında ayrıntılı bilgi için bkz. [Power Apps uygulamalarını katıştırma](embed-power-apps.md). Bu seçenek yalnızca [Kaydedilmiş görünümler](saved-views.md) özelliği devre dışı bırakılınca kullanılabilir.  
 - Microsoft Power Apps veya üçüncü taraf kullanarak oluşturulmuş bir uygulamayı sayfaya katıştırmak için, **uygulama ekle** düğmesini kullanın. Bu seçenek yalnızca [kaydedilmiş görünümler](saved-views.md) özelliği etkin olduğunda kullanılabilir. 
@@ -159,11 +163,14 @@ Panoyu kişiselleştirmek için herhangi bir kutucuğa sağ tıklayın ve **Kiş
 - Çalışma alanı kutucuklarını yeniden sıralamak istiyorsanız, özellik penceresinde **Bu sayfayı kişiselleştir**'i seçerek **Kişiselleştirme** araç çubuğunu açın. Bunun ardından, **Taşı** aracını kullanarak kutucukları istediğiniz gibi yeniden düzenleyebilirsiniz.
 - Yeni bir çalışma alanı kutucuğu eklemek için, özellik penceresinde **Çalışma alanı ekle**'yi seçin. Panonun alt kısmında yeni bir çalışma alanı kutucuğu oluşturulur. Bu yeni çalışma alanı kutucuğunu istediğiniz gibi yeniden adlandırabilirsiniz. Bu konunun [Çalışma alanlarına liste, kutucuk veya bağlantı ekleme](#adding-a-tile-list-or-link-to-a-workspace) bölümünde açıklandığı gibi, çalışma alanına listeler, kutucuklar ve bağlantılar da ekleyebilirsiniz.
 
+
+## <a name="sharing-personalizations"></a>Kişiselleştirmeler paylaşma
+Bir sayfayı kişiselleştirdikten sonra, kişiselleştirilmiş sayfayı dışa aktararak kişiselleştirmelerinizi diğer kullanıcılarla paylaşabilirsiniz. Daha sonra diğer kullanıcıların kişiselleştirilmiş sayfayı açmalarını ve oluşturduğunuz kişiselleştirme dosyasını içe aktarmalarını isteyebilirsiniz. Alternatif olarak, kişiselleştirmenizi yönetici ayrıcalıklarına sahip bir kullanıcıya verebilirsiniz. Bu Kullanıcı daha sonra **kişiselleştirme** yönetimi sayfasını kullanarak aynı anda birçok kullanıcıya kişiselleştirilme dosyası uygulayabilir.
+
 ## <a name="administration-of-personalizations"></a>Kişiselleştirme yönetimi
+**Kişiselleştirme** sayfası, bir organizasyon düzeyinde kişiselleştirmeleri yönetmek için Merkez hub 'ın bulunduğu yerdir. Bu sayfadaki içerikler ve yetenekler **kaydedilmiş görünümler** özelliğinin etkinleştirilmiş olmasına bağlıdır.  
 
-Bir sayfayı kişiselleştirdikten sonra, kişiselleştirilmiş sayfayı dışa aktararak kişiselleştirmelerinizi diğer kullanıcılarla paylaşabilirsiniz. Daha sonra diğer kullanıcıların kişiselleştirilmiş sayfayı açmalarını ve oluşturduğunuz kişiselleştirme dosyasını içe aktarmalarını isteyebilirsiniz. Alternatif olarak, kişiselleştirmenizi yönetici ayrıcalıklarına sahip bir kullanıcıya verebilirsiniz. Kullanıcı, bunun ardından, kişiselleştirme dosyanızı aynı anda çok sayıda kullanıcıya uygulayabilir.
-
-Yönetici ayrıcalıklarına sahip kullanıcılar, bu kişi **Kişiselleştirme** sayfasında diğer kullanıcılara ait kişiselleştirmeleri de yönetebilir.
+**Kaydedilmiş görünümler** özelliğini etkinleştirmiş olan müşteriler için [kaydedilmiş görünümler](saved-views.md) konusunun "görünümleri genel olarak yönetme" bölümüne bakın.  
 
 [Kaydedilmiş görünümler](saved-views.md) özelliğini etkinleştirmemiş olan müşteriler için bu sayfanın dört sekmesi vardır:
 
@@ -171,16 +178,6 @@ Yönetici ayrıcalıklarına sahip kullanıcılar, bu kişi **Kişiselleştirme*
 - **Temizle** – Bir sayfanın veya çalışma alanının tüm kişiselleştirmelerini bir veya birden fazla kullanıcı için temizleyebilirsiniz. Önce bir sayfayı veya çalışma alanını özelleştiren kullanıcıların listesini görmek için o sayfayı veya çalışma alanını seçin. Ardından, o sayfa veya çalışma alanı için kişiselleştirmelere sahip olması gereken kullanıcıları seçin ve **Temizle**'yi seçin. Seçili kullanıcıların seçili sayfaya veya çalışma alanına uyguladığı tüm kişiselleştirmeler silinir. Bu eylem geri alınamaz. Ancak, sayfa veya çalışma alanı için kaydedilmiş bir kişiselleştirme varsa, kişiselleştirme yeniden içe aktarılabilir.
 - **Kullanıcılar** – Bir kullanıcı seçerek, kullanıcının kişiselleştirdiği sayfaların listesini görün. Bunun ardından, seçili kullanıcıların belirli sayfalar veya tüm sistem için kişiselleştirme kullanma yeteneklerini etkinleştirebilir veya devre dışı bırakabilirsiniz. Ayrıca, kullanıcı için bir kişiselleştirmeyi içe veya dışa aktarabilir ya da temizleyebilirsiniz. Ek olarak, kullanıcı için özellik açıklamalarını sıfırlayabilirsiniz. Bu durumda, kullanıcı yeni özellikler içeren açılır pencereleri önceden devre dışı bırakmışsa, bu özellikler kullanıcının bir sonraki karşılaştığı sefer yeniden görünürler.
 - **Sistem:** Tüm kullanıcılar için kişiselleştirmeleri geçici olarak devre dışı bırakabilirsiniz. Bu durumda, tüm kullanıcılar için tüm kişiselleştirmeler silinir ve tüm sayfalar varsayılan durumlarına sıfırlanır. Kişiselleştirmeyi daha sonra yeniden etkinleştirirseniz, tüm kişiselleştirmeler yeniden uygulanır. Ayrıca sistemdeki tüm kullanıcılar için tüm kişiselleştirmeleri kalıcı olarak silebilirsiniz. Silinmiş kişiselleştirmeler kurtarılamaz. Bu nedenle, bu görevi uygulamadan önce, daha sonra içeri aktarmak isteyebileceğiniz kişiselleştirmeleri dışa aktardığınızdan emin olun.
-
-[Kaydedilmiş görünümler](saved-views.md) özelliğini etkinleştirmiş olan müşteriler için **Kişiselleştirmeler** sayfasında beş sekme vardır:
-
-- **Yayınlamış görünümler** – Bu görünümler kuruluşunuza yayımlanmıştır. Bu görünümlerin hedeflediği kullanıcıları değiştirmek için, her görünümle ilişkili güvenlik rollerini veya tüzel kişilikleri değiştirebilirsiniz. Ayrıca, bir veya daha fazla yayımlanmış görünümü dışa aktarabilir veya silebilirsiniz.
-- **Yayımlanmamış görünümler** – Bu görünümler sisteminize aktarılan ancak henüz yayınlanmamış olan şablon görünümleridir. Bu görünümleri yayımlayabilir, dışa aktarabilir veya silebilirsiniz.
-- **Kişisel görünümler** – Bu görünümler sistemdeki kullanıcılar tarafından oluşturulur. Bir kişisel görünümü kuruluşa yayımlayabilir veya bu görünümlerden birini veya birkaçını diğer kullanıcılara kopyalayabilirsiniz. Bu görünümleri gerektiğinde dışa aktarabilir veya silebilirsiniz.
-- **Kullanıcılar** – Bir kullanıcı seçerek, kullanıcının kişiselleştirdiği sayfaların listesini görün. Bunun ardından, seçili kullanıcıların belirli sayfalar veya tüm sistem için kişiselleştirme kullanma yeteneklerini etkinleştirebilir veya devre dışı bırakabilirsiniz. Ayrıca, kullanıcı için bir kişiselleştirmeyi içe veya dışa aktarabilir ya da temizleyebilirsiniz. Ek olarak, kullanıcı için özellik açıklamalarını sıfırlayabilirsiniz. Bu durumda, kullanıcı yeni özellikler içeren açılır pencereleri önceden devre dışı bırakmışsa, bu özellikler kullanıcının bir sonraki karşılaştığı sefer yeniden görünürler.
-- **Sistem:** Tüm kullanıcılar için kişiselleştirmeleri geçici olarak devre dışı bırakabilirsiniz. Bu durumda, tüm kullanıcılar için tüm kişiselleştirmeler silinir ve tüm sayfalar varsayılan durumlarına sıfırlanır. Kişiselleştirmeyi daha sonra yeniden etkinleştirirseniz, tüm kişiselleştirmeler yeniden uygulanır. Ayrıca sistemdeki tüm kullanıcılar için tüm kişiselleştirmeleri kalıcı olarak silebilirsiniz. Silinmiş kişiselleştirmeler kurtarılamaz. Bu nedenle, bu görevi uygulamadan önce, daha sonra içeri aktarmak isteyebileceğiniz kişiselleştirmeleri dışa aktardığınızdan emin olun.
-
-**Kişiselleştirme** sayfasına erişimi olan kullanıcılar, Eylem bölmesindeki **Görünümleri içe aktar** düğmesini kullanarak kişisel veya şablon görünümlerini de içe aktarabilir.
 
 ## <a name="personalizing-inventory-dimensions"></a>Stok boyutlarının kişiselleştirilmesi
 

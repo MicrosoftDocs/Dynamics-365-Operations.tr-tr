@@ -3,7 +3,7 @@ title: Ambarlama uygulaması aracılığıyla plaka teslim alma
 description: Bu konu, fiziksel stoğu almak için bir plaka teslim alma işlemi kullanmayı desteklemek üzere ambarlama uygulamasının nasıl ayarlanacağını açıklamaktadır.
 author: perlynne
 manager: tfehr
-ms.date: 03/31/2020
+ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 82b4f40510d5bbf829508f17f1064886620a4aed
+ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346388"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410897"
 ---
 # <a name="license-plate-receiving-via-the-warehousing-app"></a>Ambarlama uygulaması aracılığıyla plaka teslim alma
 
@@ -33,47 +33,51 @@ Bu işlevi, bir ön sevkiyat bildirimi (ÖSB) ile ilgili gelen stoğun girişini
 > [!NOTE]
 > İç içe geçmiş plakalara sahip paketleme yapıları kullanıldığında, stok hareketlerinin sayısını azaltmak için sistem ana plakadaki fiziksel eldeki stoku kaydeder. Fiziksel eldeki stoğun hareketinin ana plakadan iç içe geçmiş plakalara taşınmasını tetiklemek için, paketleme yapısı verilerine göre, mobil cihazın *İçe içe geçmiş plakalara paketle* işi oluşturma işlemini temel alan bir menü öğesi sağlaması gerekir.
 
-<!-- To be used later (will require further editing):
-## Warehousing mobile device app processing
+## <a name="warehousing-mobile-device-app-processing"></a>Ambarlama mobil cihaz uygulaması işlemi
 
-When a worker scans an incoming license plate ID, the system initializes a license plate receiving process. Based on this information, the content of the license plate (data coming from the ASN) gets physically registered at the inbound dock location. The flows that follow will depend your business process needs.
+Bir çalışan gelen lisans plakası numarasını taradığında, sistem lisans tabakası alma işlemini başlatır. Bu bilgileri temel alarak, lisans kalıbının içeriği (ÖSB'den gelen veriler), gelen yerleştirme konumuna fiziksel olarak kaydedilir. Takip eden akışlar iş süreci gereksinimlerinizi temel alır.
 
-## Work policies
+## <a name="work-policies"></a>İş ilkeleri
 
-As with (for example) the *Report as finished* mobile device menu item process, the license plate receiving process supports several workflows based on the defined setup.
+Olduğu gibi, (örneğin) *tamamlandı bildirimi* mobil cihaz menüsü menü öğesi işlemi ile, lisans levhası işlemi tanımlanan kurulumu temel alan birkaç iş akışını destekler.
 
-### Work policies with work creation
+### <a name="work-policies-with-work-creation"></a>İş oluşturma ile iş ilkeleri
 
-Registration of physical on-hand where either the same warehouse worker immediately process a put-away work process following the inbound receiving (License plate receiving and put away) or where the registration and put away process gets handled as two different warehouse operations (License plate receiving) following the processing of the put-away work by using the existing work process via another mobile device menu item.
+İş oluşturan bir iş ilkesi kullanarak gelen maddeleri kaydettiğinizde, sistem her kayıt için yerine koyma çalışma kayıtları oluşturur ve kaydeder. *Lisans levhası teslim alma ve çalışma sürecini yerine koyma* işlemini kullanırsanız, kayıt ve yerine koyma işlemleri tek bir mobil aygıt menü öğesi kullanılarak tek bir işlem olarak gerçekleştirilir. *Lisans levhası alma* işlemini kullanırsanız, alma ve yerine koyma süreçleri, her biri kendi mobil aygıt menü öğesi olan iki farklı ambar operasyonu olarak işlenir.
 
-## Work policies without work creation
+### <a name="work-policies-without-work-creation"></a>İş oluşturma olmadan iş ilkeleri
 
-You can use the license plate receiving process without creating work by using the *License plate receiving without creating work* feature.
+Lisans levhası alma sürecini iş oluşturmadan kullanabilirsiniz. *Transfer alış irsaliyesi* ve/veya *satınalma siparişleri* iş emri türüne sahip iş ilkelerini tanımlarsanız ve *Lisans levhası alma (ve yerine koyma)* için Işlemi kullanıyorsanız , aşağıdaki iki ambar mobil uygulama işlemi iş oluşturmaz. Bunun yerine, yalnızca gelen teslim noktası içindeki lisans kalıbına gelen fiziksel stoku kaydetmeleri gerekir.
 
-By defining **Work policies** with a **Work order type** of *Transfer receipt* and/or *Purchase orders*, and using the **Process** for **License plate receiving (and put away)**, the two Warehousing app process:
+- *Plaka teslim alma*
+- *Plaka alma ve yerine koyma*
 
-- License plate receiving
-- License plate receiving and put away
+> [!NOTE]
+> - **Stok yerleşimleri** bölümünde iş ilkesi için en az bir konum tanımlamanız gerekir. Birden fazla iş ilkesi için aynı konumu belirtemezsiniz.
+> - Ambar mobil cihaz menüsü öğelerinin **yazdırma etiketi** seçeneği, iş oluşturma olmadan bir lisans levhası etiketi yazdırmayacaktır.
 
-will not create work, but only register the inbound physical inventory on the license plate at the inbound receiving dock.
+Bu işlevselliğin sisteminizde kullanılabilmesini sağlamak için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *lisans levhası alma yenilikleri* özelliğini etkinleştirmelisiniz.
 
-For more information about the *Report as finished* production scenario, see the [Warehouse work policies overview](warehouse-work-policies.md).
+### <a name="receive-inventory-on-a-location-that-doesnt-track-license-plates"></a>Lisans levhalarını izlememeyen bir konumda sayım alma
 
--->
+**Kullanım lisansı levha izleme** açık değilse bile bir yerleşim profiline atanan ambar konumu kullanılabilir. Bu nedenle, stok aldığınızda, eldeki stoku iş oluşturma yapılmadan bir konuma doğrudan kaydedebilirsiniz.
+
+## <a name="add-mobile-device-menu-items-for-each-receiving-location-in-a-warehouse"></a>Bir ambardaki her alan konumu için mobil cihaz menü öğeleri ekle
+
+*Lisans tabakasını alma geliştirmeleri* özelliği, ambar mobil uygulamaya yerleşime özel lisans levhası alıcı (ve yerine koyma) menü öğeleri ekleyerek bir ambardaki herhangi bir konumu almanıza olanak tanır. Daha önce sistem, yalnızca her ambar için tanımlanan varsayılan konumda almayı destekler. Ancak, bu özellik açık olduğunda, lisans levhası (ve yerine koyma) için mobil cihaz menüsü öğeleri şimdi, her bir menü öğesi için özel bir "to" konumu seçmenizi sağlayan **varsayılan verileri kullan** seçeneğini sağlar. (Bu seçenek bazı menü öğesi türleri için zaten kullanılabilir.)
+
+Bu işlevselliğin sisteminizde kullanılabilmesini sağlamak için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *lisans levhası alma yenilikleri* özelliğini etkinleştirmelisiniz.
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Teslim alma özet sayfasını gösterme veya atlama
 
-*Mobil cihazlarda teslim alma özet sayfası görüntülenip görüntülenmeyeceğni denetle* özelliğini, plaka teslim alma işleminin bir parçası olarak ek bir ayrıntılı ambarlama uygulaması akışından yararlanmak üzere kullanabilirsiniz.
-
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Mobil cihazlarda bir teslim alma özet sayfasının görüntülenip görüntülenmeyeceğini denetler*
+*Mobil cihazlarda teslim alma özet sayfası görüntülenip görüntülenmeyeceğni denetle* özelliğini, plaka teslim alma işleminin bir parçası olarak ek bir ayrıntılı Ambarlama uygulaması akışından yararlanmak üzere kullanabilirsiniz.
 
 Bu özellik etkinleştirildiğinde, plaka teslim alma veya plaka teslim alma ve yerine koyma için mobil cihaz menüsü öğeleri bir **Teslim alma özeti sayfası görüntüle** ayarı sağlar. Bu ayar aşağıdaki seçeneklere sahiptir:
 
 - **Ayrıntılı özet görüntüle** - Plaka teslim alma sırasında çalışanlar tam ÖSB bilgilerini gösteren ek bir sayfa görürler.
 - **Özeti atla** – Çalışanlar tüm ÖSB bilgilerini göremez. Ambar çalışanları da bir değerlendirme kodu ayarlayamaz veya teslim alma işlemi sırasında özel durumlar ekleyemez.
+
+Bu işlevselliği sisteminizde kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *mobil cihazlar özelliğinde alıcı özet sayfasının görüntülenip görüntülenmemesini* açmanız gerekir.
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Transfer emriyle sevkedilen plakaların hedef ambar dışındaki ambarlarda kullanılmasını engelleme
 
@@ -81,10 +85,7 @@ Bir ÖSB zaten varolan plaka kimliği içeriyorsa ve plaka kaydının oluştuğu
 
 Transit ambarının plakaları izlemediği (ve bu nedenle her plaka için fiziksel eldeki stoğu izlemediği) transfer emri senaryoları için, transitteki plakaların fiziksel eldeki stoklarının güncelleştirilmesini önlemek için *Transfer emriyle sevkedilen plakaların hedef ambar dışındaki ambarlarda kullanılmasını engelle* özelliğini kullanabilirsiniz.
 
-Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
-
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Transfer emriyle sevkedilen plakaların hedef ambar dışındaki ambarlarda kullanılmasını engelleme*
+Bu işlevi sisteminizde kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) *hedef ambar özelliğinden farklı olan transfer emrinin sevk edilmiş lisans levhalarını etkinleştirmeniz gerekir*.
 
 Bu özellik kullanılabilir olduğunda işlevselliği yönetmek için, aşağıdaki adımları izleyin.
 
@@ -96,6 +97,8 @@ Bu özellik kullanılabilir olduğunda işlevselliği yönetmek için, aşağıd
 
 ## <a name="more-information"></a>Daha fazla bilgi
 
-<!-- To read more about inbound loads, see [Link for Inbound load (Olga's doc.)] -->
-
 Mobil cihaz menü öğeleri hakkında daha fazla bilgi için bkz. [Ambar işi için mobil cihazları ayarlama](configure-mobile-devices-warehouse.md).
+
+*Tamamlandı bildirimi* üretim senaryosu hakkında daha fazla bilgi için [Ambar iş ilkelerine genel bakış](warehouse-work-policies.md)'a bakın.
+
+Giriş yük yönetimi hakkında daha fazla bilgi için bkz. [Satınalma siparişleri için gelen yüklerin ambarda işlenmesi.](inbound-load-handling.md)

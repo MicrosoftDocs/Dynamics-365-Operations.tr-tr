@@ -3,7 +3,7 @@ title: Müşteri rehberliğine genel bakış
 description: Bu konu, mağaza uygulamasında kullanılabilen yeni müşteri rehberliği yeteneklerine genel bir bakış sağlar.
 author: bebeale
 manager: AnnBe
-ms.date: 11/01/19
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 4f045f8509a6b5027fd3cf8e5ca9e382457a5e83
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024289"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456519"
 ---
 # <a name="clienteling-overview"></a>Müşteri rehberliğine genel bakış
 
@@ -115,7 +115,7 @@ Tümleştirmeyi ayarlamak için aşağıdaki adımları izleyin.
 3. Azure anahtar kasası oluşturun ve uygulama parolasını kaydedin. Yönergeler için bkz. [Hızlı Başlangıç: Azure portalını kullanarak Azure Anahtar Kasasında bir parola ayarlama ve alma](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
 4. Commerce'te Azure Anahtar Kasasına erişimi açın. Bu adımı tamamlamak için uygulama kodu ve parolanızın olması gerekir. Uygulama, 1. adımda oluşturduğunuz uygulamayla aynı veya yeni bir uygulama olabilir. (Başka bir deyişle, 1. adımda oluşturduğunuz uygulamayı Anahtar Kasası erişimi ve Customer Insights hizmeti erişimi için kullanabilir veya her erişim türü için benzersiz bir uygulama oluşturabilirsiniz.) Yönergeler için bkz. [Azure Yığını Anahtar Kasasında hizmet sorumlusu kimlik bilgilerini depolama](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
 5. Headquarters'ta, **Sistem yönetimi \> Ayar \> Anahtar Kasası parametreleri**'ne gidin ve anahtar kasası için gerekli bilgileri girin. Ardından Commerce'in anahtar kasasındaki parolalara erişebilmesi için **Anahtar Kasası istemcisi** alanına, 4. adımda kullandığınız uygulama kodunu girin.
-6. 1. adımda oluşturduğunuz uygulamayı güvenli uygulamalar listesine (bazen beyaz liste olarak adlandırılır) eklemek için Customer Insights'a gidin ve uygulamaya **Görüntüleme** erişimi sağlayın. Yönergeler için bkz. [İzinler](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. 1. adımda oluşturduğunuz uygulamayı güvenli uygulamalar listesine (bazen güvenli liste olarak adlandırılır) eklemek için Customer Insights'a gidin ve uygulamaya **Görüntüleme** erişimi sağlayın. Yönergeler için bkz. [İzinler](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
 7. Commerce'te, **Commerce parametreleri** sayfasında, **Müşteri rehberliği** sekmesinde, **Dynamics 365 Customer Insights** hızlı sekmesinde aşağıdaki adımları izleyin:
 
     1. **Uygulama Kodu** alanına, 1. adımda kullandığınız uygulama kodunu girin.

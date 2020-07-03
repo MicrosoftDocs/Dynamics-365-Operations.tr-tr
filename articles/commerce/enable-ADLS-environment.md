@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme
-description: Bu konu, ürün önerilerinin etkinleştirilmesinin bir önkoşulu olan, Dynamics 365 Commerce ortamı için Azure Data Lake Storage'ın (ADSL) nasıl etkinleştirileceğini ve test edileceğini açıklamaktadır.
+title: Dynamics 365 Commerce ortamında Azure Data Lake Storage'yi etkinleştirme
+description: Bu konu, ürün önerilerinin etkinleştirilmesinin bir önkoşulu olan, Dynamics 365 Commerce ortamı için Azure Data Lake Storage'ın nasıl etkinleştirileceğini ve test edileceğini açıklamaktadır.
 author: bebeale
 manager: AnnBe
 ms.date: 04/13/2020
@@ -19,57 +19,57 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 83b829306c2da2d10924e547fd3cac6ae6781db3
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259760"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404198"
 ---
-# <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Dynamics 365 Commerce ortamında ADLS'yi etkinleştirme
+# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Dynamics 365 Commerce ortamında Azure Data Lake Storage'yi etkinleştirme
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, ürün önerilerinin etkinleştirilmesinin bir önkoşulu olan, Dynamics 365 Commerce ortamı için Azure Data Lake Storage'ın (ADSL) nasıl etkinleştirileceğini ve test edileceğini açıklamaktadır.
+Bu konu, ürün önerilerinin etkinleştirilmesinin bir önkoşulu olan, Dynamics 365 Commerce ortamı için Azure Data Lake Storage'ın nasıl etkinleştirileceğini ve test edileceğini açıklamaktadır.
 
 ## <a name="overview"></a>Genel Bakış
 
-Dynamics 365 Commerce çözümünde, tüm ürün ve hareket bilgileri ortamın Varlık deposunda izlenir. Bu verileri (veri analizi, iş zekası ve kişiselleştirilmiş öneriler gibi) diğer Dynamics 365 hizmetlerinin erişimine açmak için, ortamı, müşteriye ait bir Azure Data Lake Storage Gen 2 (ADLS) çözümüne bağlamak gerekir.
+Dynamics 365 Commerce çözümünde, tüm ürün ve hareket bilgileri ortamın Varlık deposunda izlenir. Bu verileri (veri analizi, iş zekası ve kişiselleştirilmiş öneriler gibi) diğer Dynamics 365 hizmetlerinin erişimine açmak için, ortamı, müşteriye ait bir Azure Data Lake Storage Gen 2 çözümüne bağlamak gerekir.
 
-ADLS bir ortamda yapılandırılırken, gerekli tüm veriler korunmaya devam eden ve müşterinin denetiminde bulunan Varlık deposundan yansıtılır.
+Azure Data Lake Storage bir ortamda yapılandırılırken, gerekli tüm veriler korunmaya devam eden ve müşterinin denetiminde bulunan Varlık deposundan yansıtılır.
 
-Ürün önerileri veya kişiselleştirilmiş öneriler de ortamda etkinleştirildiyse, müşteri verilerini almak ve bu verileri temel alan önerileri hesaplamak için, ürün önerileri yığınına ADLS içindeki özel klasöre erişim hakkı verilir.
+Ürün önerileri veya kişiselleştirilmiş öneriler de ortamda etkinleştirildiyse, müşteri verilerini almak ve bu verileri temel alan önerileri hesaplamak için, ürün önerileri yığınına Azure Data Lake Storage içindeki özel klasöre erişim hakkı verilir.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Müşterilerin, sahip oldukları bir Azure aboneliğinde ADLS yapılandırmaları gerekir. Bu konu bir Azure aboneliği satın almayı veya ADLS özelliği etkinleştirilmiş bir depolama hesabı kurulumunu kapsamaz.
+Müşterilerin, sahip oldukları bir Azure aboneliğinde Azure Data Lake Storage yapılandırmaları gerekir. Bu konu bir Azure aboneliği satın almayı veya Azure Data Lake Storage özelliği etkinleştirilmiş bir depolama hesabı kurulumunu kapsamaz.
 
-ADSL hakkında daha fazla bilgi için [ADSL resmi belgelerine](https://azure.microsoft.com/pricing/details/storage/data-lake) bakın.
+Azure Data Lake Storage hakkında daha fazla bilgi için bkz. [Azure Data Lake Storage Gen2 resmi belgeler](https://azure.microsoft.com/pricing/details/storage/data-lake).
   
 ## <a name="configuration-steps"></a>Yapılandırma adımları
 
-Bu bölüm, ürün önerileriyle ilgili bir ortamda ADLS öğesini etkinleştirmek için gerekli olan yapılandırma adımlarını kapsamaktadır.
-ADLS'yi etkinleştirmek için gereken adımlara daha ayrıntılı bir genel bakış için bkz. [Veri deposununu Data Lake olarak kullanılabilir hale getirme](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+Bu bölüm, ürün önerileriyle ilgili bir ortamda Azure Data Lake Storage öğesini etkinleştirmek için gerekli olan yapılandırma adımlarını kapsamaktadır.
+Azure Data Lake Storage'yi etkinleştirmek için gereken adımlara daha ayrıntılı bir genel bakış için bkz. [Veri deposununu Data Lake olarak kullanılabilir hale getirme](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
-### <a name="enable-adls-in-the-environment"></a>Ortamda ADLS etkinleştirme
+### <a name="enable-azure-data-lake-storage-in-the-environment"></a>Ortamda Azure Data Lake Storage etkinleştirme
 
 1. Ortamın arka ofis portalında oturum açın.
 1. **Sistem Parametreleri**ni arayın ve **Veri bağlantıları** sekmesine gidin. 
 1. **Data Lake tümleştirmesi** ayarını **Evet** yapın.
 1. **Data Lake'i yavaş yavaş güncelleştir** ayarını **Evet** yapın.
 1. Sonra aşağıdaki gerekli bilgileri girin:
-    1. **Uygulama Kodu** // **Uygulama Parolası** // **DNS Adı** - ADLS gizliliğinin saklandığı KeyVault bağlanmak için gereklidir.
-    1. **Parola adı** - KeyVault'ta depolanan ve ADLS ile kimlik doğrulamak için kullanılan parola adı.
+    1. **Uygulama Kodu** // **Uygulama Parolası** // **DNS Adı** - Azure Data Lake Storage gizliliğinin saklandığı KeyVault bağlanmak için gereklidir.
+    1. **Parola adı** - KeyVault'ta depolanan ve Azure Data Lake Storage ile kimlik doğrulamak için kullanılan parola adı.
 1. Değişikliklerinizi sayfanın sol üst köşesinde kaydedin.
 
-Aşağıdaki resimde örnek bir ADSL yapılandırması gösterilmektedir.
+Aşağıdaki resimde örnek bir Azure Data Lake Storage yapılandırması gösterilmektedir.
 
-![ADSL yapılandırması örneği](./media/exampleADLSConfig1.png)
+![Azure Data Lake Storage yapılandırması örneği](./media/exampleADLSConfig1.png)
 
-### <a name="test-the-adls-connection"></a>ADLS bağlantısını test etme
+### <a name="test-the-azure-data-lake-storage-connection"></a>Azure Data Lake Storage bağlantısını test etme
 
 1. KeyVault'a bağlantıyı **Azure Key Vault'u test et** bağlantısını kullanarak test edin.
-1. ADSL'ye bağlantıyı **Azure Depolamayı test et** bağlantısını kullanarak test edin.
+1. Azure Data Lake Storage'ye bağlantıyı **Azure Depolamayı test et** bağlantısını kullanarak test edin.
 
 > [!NOTE]
 > Testler başarısız olursa, yukarıda eklenen tüm KeyVault bilgilerinin doğruluğunu iki kez kontrol edin ve sonra yeniden deneyin.
@@ -86,7 +86,7 @@ Aşağıdaki resimde, otomatik yenilemenin etkinleştirildiği bir Varlık depos
 
 ![Otomatik yenileme özelliği etkin olan Varlık deposu örneği](./media/exampleADLSConfig2.png)
 
-Artık ADLS ortam için yapılandırılmış durumdadır. 
+Artık Azure Data Lake Storage ortam için yapılandırılmış durumdadır. 
 
 Henüz tamamlanmadıysa, ortam için [ürün önerilerini ve kişiselleştirmeyi etkinleştirme](enable-product-recommendations.md) adımlarını izleyin.
 

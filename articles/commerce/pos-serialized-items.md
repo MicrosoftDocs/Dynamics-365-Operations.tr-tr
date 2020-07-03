@@ -3,7 +3,7 @@ title: POS'ta seri hale getirilmiş maddelerle çalışma
 description: Bu konu, satış noktası (POS) uygulamasında serileştirilmiş maddelerin nasıl yönetileceğini açıklar.
 author: boycezhu
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,17 +15,16 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 1e0d6aa7cd5576578378e70c6ee808833314aff3
-ms.sourcegitcommit: 919620b4aca425e6a1248ee12f50a622d2531e58
+ms.openlocfilehash: eedb64ae04345cb94bdd8cc68de833cfcfd40119
+ms.sourcegitcommit: 39981582778b0a62567324452485a6721ca18284
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "3290782"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3407510"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>POS'ta seri hale getirilmiş maddelerle çalışma
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Birçok perakendeci seri denetim gerektiren ürünler satar. Bu maddelere, *serileştirilmiş öğeler* adı verilir. Bazı perakendeciler, izleme amacıyla seri numaraları tutmak isteyebilir. Diğer perakendeciler, satış işlemi sırasında servis ve garanti amacıyla seri numaralarını yakalamak isteyebilir. Bu konu, Microsoft Dynamics 365 Commerce satış noktası (POS) uygulamasında serileştirilmiş maddelerin nasıl yönetileceğini açıklar.
 

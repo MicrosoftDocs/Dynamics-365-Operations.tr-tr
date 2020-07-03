@@ -3,7 +3,7 @@ title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: 1faee75c9112b3aa584ad021ffdc1144fcf4ba32
+ms.sourcegitcommit: 3485d7f36058151cb4fff5c425ef27f56e3ee7d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268759"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457578"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -36,7 +36,55 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 > [!NOTE]
 > Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri
+
+> [!NOTE]
+> 10.0.13 sürümü henüz yayımlanmadı. Bu bilgi yalnızca planlama amaçlıdır. 10.0.13 sürümü için içerik ve işlevde değişiklik yapılabilir. Sürümler hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-ops/get-started/public-preview-releases.md).
+
+
+### <a name="upgrade-of-three-jquery-component-libraries"></a>Üç jQuery bileşen kitaplığını yükseltme 
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Üç jQuery bileşen kitaplığı güvenlik düzeltmeleri ve para birimini koruma açısından güncelleştirilmektedir.   
+| **Başka bir özellikle mi değiştirildi?**   | Aşağıdaki kitaplıklar etkilenmiştir: jQuery (3.5.0 sürümünden 2.1.4 sürümüne kadar), jQuery UI (1.12.1 sürümünden 1.11.4 sürümüne kadar), jQuery Qtıp (2.2.1 sürümünden 3.0.3 sürümüne kadar). Geçiş kılavuzu, jQuery tarafından çevrimiçi olarak sağlanmıştır.  |
+| **Etkilenen ürün alanları**         | Genişletilebilir denetimler, özellikle özel JavaScript kod kullanımı kullanım dışı bırakıldı veya API'lar kaldırıldı |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Sürüm 10.0.13/Platform güncelleştirmesi 37 ile, müşteriler isteğe bağlı olarak "üç jQuery bileşen kitaplığını yükselt" özelliğini etkinleştirerek en son kitaplıklara geçiş yapabilir. Etkilenen API'ların taşınması için zaman vermek amacıyla, yeni kitaplıklara geçiş Nisan 2021 sürümü ile zorunlu olacaktır.   |
+
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.12 sürümü için platform güncelleştirmeleri
+
+### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Geçersiz alan başvurularını içeren kılavuz veya Grup denetimi formu uzantıları
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Kılavuz veya grup denetimlerindeki veri grubu özelliği, bir alan grubunun tüm alanlarını otomatik olarak göstermek için kullanılır. Uzantıya göre eklenen bir kılavuz veya Grup denetimi, alan grubunda artık tanımlanmamış alanlar içerebilir veya alan grubunda tanımlanmış alanlar eksik olabilir. Bu durum çalışma zamanında tutarsız davranışlara neden olabilir. Finance and Operations uygulamalarının 10.0.12 sürümü için platform güncelleştirmeleri bu sorunu bir derleyici *uyarı* olarak sınıflandırır. Bu sorunu gidermek için, form uzantısını açın ve kaydedin.
+| **Başka bir özellikle mi değiştirildi?**   | Bu derleyici uyarısı gelecekteki bir güncelleştirmede bulunan bir derleyici hatasıyla değiştirilecektir. |
+| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Derleyici uyarısı, Finance and Operations uygulamalarının 10.0.12 sürümü platform güncelleştirmelerinde bir derleyici hatasıdır. |
+
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.11 sürümü için platform güncelleştirmeleri
+
+### <a name="explicit-safe-lists-for-self-service-environments"></a>Self servis ortamları için açık güvenli listeler
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | IP'yi güvenli listelere taşıma işlemi değiştirildi. Self servis artık IP güvenli listelerini desteklemiyor. |
+| **Başka bir özellikle mi değiştirildi?**   | Daha fazla bilgi için, bkz [Azure Active Directory Koşullu Erişimi yapılandırma](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **Etkilenen ürün alanları**         | Güvenlik |
+| **Dağıtım seçeneği**              | Bulut |
+| **Durum**                         | **Kullanım dışı:** Bu özellik self servis dağıtımları için tam olarak kullanım dışıdır. |
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Visual Studio'Nin en son sürümlerini desteklemek için Visual Studio için X++ uzantılarında bazı değişiklikler yapılmalıdır . Bu değişiklikler Visual Studio 2015 ile uyumsuz . |
+| **Başka bir özellikle mi değiştirildi?**   | Visual Studio 2017, Dağıtılmış ve gerekli sürüm olarak Visual Studio 2015 yerine çalışacak. |
+| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Visual Studio 2017 ile yeni sanal makinelerin (VM) kullanılabilirliği bildirildikten sonra, yalnızca Visual Studio 2015 olan var olan VM'Lerin sürüm dalga 2021 1 ' i tarafından yeniden dağıtılması gerekecektir. |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Geçersiz alan referansı içeren alan denetimleri
 

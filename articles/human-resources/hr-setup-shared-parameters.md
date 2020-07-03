@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
 ms.technology: ''
-ms.search.form: HcmSharedParameters
+ms.search.form: HcmSharedParameters, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 85bf7990e66f8961c9210d128e3b7117bec96511
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 72742c38c3ff25d665bd1a3d0ea54f167dc0693c
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010826"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3430061"
 ---
 # <a name="configure-shared-parameters"></a>Paylaşılan parametrelerini yapılandırma
 

@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 136efa1178089adb88820002a19e99ef83e1b47e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 10dbb43cec47a758d11362947f27932a4911911a
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010897"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3430291"
 ---
 # <a name="enter-project-timesheets"></a>Proje zaman çizelgelerini girme
 
