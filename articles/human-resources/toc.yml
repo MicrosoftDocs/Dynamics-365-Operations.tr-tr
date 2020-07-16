@@ -5,6 +5,8 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 25 Haziran 2020
+          href: hr-whats-new-2020-06-23.md
         - name: 11 Haziran 2020
           href: hr-whats-new-2020-06-11.md
         - name: 28 Mayıs 2020
@@ -141,6 +143,8 @@
           items:
             - name: Destek alma
               href: hr-admin-troubleshooting-support.md
+            - name: Toplu işleri çalışma saatleri dışına planlayarak performansını en iyi duruma getirme
+              href: hr-admin-troubleshooting-batch-jobs.md
             - name: Otomatik temizleme görevleriyle performansı en iyi duruma getirme
               href: hr-admin-troubleshooting-batch-history.md
             - name: Analitik raporlar güncelleştirilmedi

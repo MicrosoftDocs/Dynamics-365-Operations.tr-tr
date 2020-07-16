@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: 10.0.11 için platform güncelleştirmeleri (Temmuz 2020)
                   href: get-started/whats-new-platform-update-35.md
-                - name: 10.0.10 için platform güncelleştirmeleri (Mayıs 2020)
-                  href: get-started/whats-new-platform-update-34.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan platform özellikleri
@@ -713,9 +711,29 @@
                         - name: Olaylar
                           href: dev-ref/xpp-events.md
                     - name: X++ verilerini seçme ve değiştirme
-                      href: dev-ref/xpp-data-query.md
-                    - name: SysDa API'sini kullanarak verilere erişim
-                      href: dev-ref/sysda.md
+                      items:
+                        - name: X++ verilerini seçme ve değiştirmeye genel bakış
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: Select deyimi
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: Veri seçme
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: Veri ekleme
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: Veri güncelleştirme
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: Veri silme
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: While select deyimi
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: Select deyimini ifade olarak yazma
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: Hareket bütünlüğü
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: İşlemleri küme tabanlı yerine kayıt başına olacak şekilde dönüştürme
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: SysDa API'sını kullanarak verilere erişim
+                          href: dev-ref/sysda.md
                     - name: X++ makroları
                       href: dev-ref/xpp-macros.md
                     - name: X++ öznitelik sınıfları
@@ -748,82 +766,64 @@
                       href: dev-ref/xpp-reflection-run-time-functions.md
                     - name: X++ oturum çalıştırma zamanı işlevleri
                       href: dev-ref/xpp-session-run-time-functions.md
-                    - name: X++ dize çalıştırma zamanı işlevleri
+                    - name: X++ dize çalışma zamanı işlevleri
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: Sistem tabloları
                   href: dev-ref/system-tables.md
                 - name: Sistem sınıfları
                   items:
-                    - name: A sınıfları
-                      href: dev-ref/a-classes.md
-                    - name: B sınıfları
-                      href: dev-ref/b-classes.md
-                    - name: C sınıfları
-                      href: dev-ref/c-classes.md
-                    - name: D sınıfları
-                      href: dev-ref/d-classes.md
-                    - name: E sınıfları
-                      href: dev-ref/e-classes.md
-                    - name: F sınıfları (FieldBinding - FormBuildAnimateControl)
-                      href: dev-ref/fieldbinding-classes.md
-                    - name: F sınıfları (FormBuildButtonControl - FormBuildFastTabSummarySeparator)
-                      href: dev-ref/formbuildbuttoncontrol-classes.md
-                    - name: F sınıfları (FormBuildFilterPaneControl - FormBuildRealControl)
-                      href: dev-ref/formbuildfilterpanecontrol-classes.md
-                    - name: F sınıfları (FormBuildReferenceControl - FormButtonSeparatorControl)
-                      href: dev-ref/formbuildreferencecontrol-classes.md
-                    - name: F sınıfları (FormChangeTracker - FormControlEventArgs)
-                      href: dev-ref/formchangetracker-classes.md
-                    - name: F sınıfları (FormDataObject - FormFastTabHeaderControl)
-                      href: dev-ref/formdataobject-classes.md
-                    - name: F sınıfları (FormFastTabSummarySeparator - FormGridControl)
-                      href: dev-ref/formfasttabsummaryseparator-classes.md
-                    - name: F sınıfları (FormGroupControl - FormIntControl)
-                      href: dev-ref/formgroupcontrol-classes.md
-                    - name: F sınıfları (FormListBoxControl - FormNotifyEventArgs)
-                      href: dev-ref/formlistboxcontrol-classes.md
-                    - name: F sınıfları (FormObject - FormRealControl)
-                      href: dev-ref/formobject-classes.md
-                    - name: F sınıfları (FormReferenceControl - FormStringControl)
-                      href: dev-ref/formreferencecontrol-classes.md
-                    - name: F sınıfları (FormTabControl - FormWindowControl)
-                      href: dev-ref/formtabcontrol-classes.md
-                    - name: G sınıfları
-                      href: dev-ref/g-classes.md
-                    - name: H sınıfları
-                      href: dev-ref/h-classes.md
-                    - name: I sınıfları
-                      href: dev-ref/i-classes.md
-                    - name: J sınıfları
-                      href: dev-ref/j-classes.md
-                    - name: K sınıfları
-                      href: dev-ref/k-classes.md
-                    - name: L sınıfları
-                      href: dev-ref/l-classes.md
-                    - name: M sınıfları
-                      href: dev-ref/m-classes.md
-                    - name: N sınıfları
-                      href: dev-ref/n-classes.md
-                    - name: O sınıfları
-                      href: dev-ref/o-classes.md
-                    - name: P sınıfları
-                      href: dev-ref/p-classes.md
-                    - name: Q sınıfları
-                      href: dev-ref/q-classes.md
-                    - name: R sınıfları
-                      href: dev-ref/r-classes.md
-                    - name: S sınıfları
-                      href: dev-ref/s-classes.md
-                    - name: T sınıfları
-                      href: dev-ref/t-classes.md
-                    - name: U sınıfları
-                      href: dev-ref/u-classes.md
-                    - name: V sınıfları
-                      href: dev-ref/v-classes.md
-                    - name: W sınıfları
-                      href: dev-ref/w-classes.md
-                    - name: X sınıfları
-                      href: dev-ref/x-classes.md
+                    - name: Sistem sınıfı listesi
+                      href: dev-ref/system-classes/toc.yml
+                    - name: Alfabetik olarak gruplandırılmış sistem sınıfları
+                      items:
+                        - name: A sınıfları
+                          href: dev-ref/a-classes.md
+                        - name: B sınıfları
+                          href: dev-ref/b-classes.md
+                        - name: C sınıfları
+                          href: dev-ref/c-classes.md
+                        - name: D sınıfları
+                          href: dev-ref/d-classes.md
+                        - name: E sınıfları
+                          href: dev-ref/e-classes.md
+                        - name: F sınıfları
+                          href: dev-ref/f-classes.md
+                        - name: G sınıfları
+                          href: dev-ref/g-classes.md
+                        - name: H sınıfları
+                          href: dev-ref/h-classes.md
+                        - name: I sınıfları
+                          href: dev-ref/i-classes.md
+                        - name: J sınıfları
+                          href: dev-ref/j-classes.md
+                        - name: K sınıfları
+                          href: dev-ref/k-classes.md
+                        - name: L sınıfları
+                          href: dev-ref/l-classes.md
+                        - name: M sınıfları
+                          href: dev-ref/m-classes.md
+                        - name: N sınıfları
+                          href: dev-ref/n-classes.md
+                        - name: O sınıfları
+                          href: dev-ref/o-classes.md
+                        - name: P sınıfları
+                          href: dev-ref/p-classes.md
+                        - name: Q sınıfları
+                          href: dev-ref/q-classes.md
+                        - name: R sınıfları
+                          href: dev-ref/r-classes.md
+                        - name: S sınıfları
+                          href: dev-ref/s-classes.md
+                        - name: T sınıfları
+                          href: dev-ref/t-classes.md
+                        - name: U sınıfları
+                          href: dev-ref/u-classes.md
+                        - name: V sınıfları
+                          href: dev-ref/v-classes.md
+                        - name: W sınıfları
+                          href: dev-ref/w-classes.md
+                        - name: X sınıfları
+                          href: dev-ref/x-classes.md
             - name: Genişletilebilirlik
               items:
                 - name: Genişletilebilirlik giriş sayfası
@@ -1434,6 +1434,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B kullanıcılarını Azure AD'ye aktarma
               href: sysadmin/implement-b2b.md
+            - name: İşlem otomasyonu
+              href: sysadmin/process-automation.md
             - name: Güvenlik
               items:
                 - name: Rol tabanlı güvenlik
@@ -1458,11 +1460,13 @@
                   href: sysadmin/tasks/assign-users-security-roles.md
                 - name: Görev kayıtları için güvenlik tanılaması
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: İşlem otomasyonu
+              href: /sysadmin/process-automation.md
             - name: Toplu iş işleme
               items:
                 - name: Toplu iş işlemeye genel bakış
                   href: sysadmin/batch-processing-overview.md
-                - name: Toplu işleme ve toplu iş sunucuları
+                - name: Toplu iş işleme ve toplu iş sunucuları
                   href: sysadmin/batch-server-overview.md
                 - name: Toplu işler oluşturma
                   href: sysadmin/tasks/create-batch-job.md
@@ -1518,6 +1522,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: AX 2012 yükseltmesi - Korumalı alan ortamlarında veri yükseltme
                   href: migration-upgrade/upgrade-data-sandbox.md
+                - name: AX 2012 yükseltmesi - Şirket için ortamlar
+                  href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 yükseltmesi - Kesin bitiş testi
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: AX 2012 yükseltmesi - Yükseltme sonrası görevler
