@@ -3,7 +3,7 @@ title: e-Ticaret sitesi oluşturma
 description: Bu konu, Dynamics 365 Commerce site oluşturucusunda yeni bir e-ticaret sitesi oluşturmak için gereken adımları ve bilgileri açıklamaktadır.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,25 +19,20 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7177bae911dfa91a645b40581bf23b3ed76562a3
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096786"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533448"
 ---
 # <a name="create-an-e-commerce-site"></a>e-Ticaret sitesi oluşturma
-
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Dynamics 365 Commerce site oluşturucusunda yeni bir e-ticaret sitesi oluşturmak için gereken adımları ve bilgileri açıklamaktadır.
 
-E-ticaret sitenizi geliştirmeye başlamadan önce, site oluşturucuda yeni bir site oluşturmanız gerekir. 
-
-
-E-ticaret sitenizi geliştirmeye başlamak için, önce site geliştirme ortamında yeni bir site oluşturmanız gerekir. Yeni bir site oluşturabilmeniz için, Commerce'te en az bir çevrimiçi mağazanın oluşturulması gereklidir. 
-
+E-ticaret yeteneklerine lisans verirken, site oluşturucu, kendi siteniz için temel olarak kullanabileceğiniz bir başlatıcı siteyle hazırlanacak. Ancak, baştan başlatmak veya ikinci bir site oluşturmak istiyorsanız, site geliştirme ortamında yeni bir site oluşturmanız gerekir. 
 
 ## <a name="set-up-your-site"></a>Sitenizi ayarlama
 
@@ -64,8 +59,6 @@ Siteniz oluşturulduktan sonra, **ürünler** sekmesini seçerek çevrimiçi dep
 [Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
 [Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
-
-[Çevrimiçi mağaza kanalı ayarlama](online-stores.md)
 
 [Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
 

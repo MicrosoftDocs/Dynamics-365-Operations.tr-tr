@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 709a75a259b1f8daa5b72e76b56942573c403f43
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261384"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530593"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 
@@ -66,7 +66,7 @@ Bir gelen yük ambara ilk kez ulaştığında, ambar çalışanları sevkiyata d
 
 - **Yük alımını destekleyecek şekilde yapılandırılmış mobil cihaz menüsü**
 
-    Mobil cihazlar için [Dynamics 365 for Finance and Operations - Ambarlama uygulaması](install-configure-warehousing-app.md) aşağıdaki iş oluşturma işlemlerini destekler:
+    Mobil cihazlar için [Ambar uygulaması](install-configure-warehousing-app.md) aşağıdaki iş oluşturma işlemlerini destekler:
 
     - Yük maddesi teslim alma
     - Yük maddesi teslim alma ve yerine koyma
@@ -285,7 +285,7 @@ Belirtilen örnek kayıtları ve değerleri kullanarak bu senaryolar arasında �
 
 Ambar teslim alma görevlilerinin bir yük ile bağlantılı gelen stoğu kaydetmek için bir mobil cihaz kullanabilmesi için, o amaca yönelik bir mobil cihaz menü öğesi oluşturmanız gerekir.
 
-Bu bölümde, bir mobil cihaz menü öğesi oluşturacak ve bunu varolan bir menüye ekleyeceksiniz. Ambar çalışanı böylece Ambarlama uygulaması içindeki menü öğesini seçebilir.
+Bu bölümde, bir mobil cihaz menü öğesi oluşturacak ve bunu varolan bir menüye ekleyeceksiniz. Ambar çalışanı böylece Ambar uygulaması içindeki menü öğesini seçebilir.
 
 1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menü öğeleri**'ne gidin ve mobil cihaz menünüzde aşağıdaki ayarlara sahip bir menü öğesi bulunduğundan emin olun:
 

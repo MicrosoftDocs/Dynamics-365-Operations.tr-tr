@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Finance and Operations - Ambarlama uygulamasında kamera kullanarak barkod okutma
-description: Bu konuda, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için Dynamics 365 for Finance and Operations - Ambarlama uygulamasının nasıl kurulacağı açıklanmaktadır.
+title: Ambar uygulamasında kamera kullanarak barkod okutma
+description: Bu konuda, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için ambar uygulamasının nasıl ayarlanacağı açıklanmaktadır.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 01/03/2018
@@ -17,26 +17,26 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 9d3b807b18a0a9c7d24763a2a2a7ea9eccf9c2bb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fd4818ab936e1c93000793da756c97df6d05b2a9
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205885"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530018"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Dynamics 365 Supply Chain Management - Ambarlama uygulamasında kamera kullanarak barkod okutma
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>Ambar uygulamasında kamera kullanarak barkod okutma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için Dynamics 365 for Finance and Operations - Ambarlama uygulamasının nasıl kurulacağı açıklanmaktadır. 
+Bu konuda, bir mobil cihazdaki kamerayı kullanarak barkodları taramak için ambar uygulamasının nasıl ayarlanacağı açıklanmaktadır. 
 
 ## <a name="prerequisites"></a>Önkoşullar
-Bu özelliği kullanmak için Ambarlama uygulamasının 1.2.0.0 sürümünün yüklü olması ve cihazınızın bir kameraya sahip olması gerekir. Güncelleştirmeden sonra uygulamayı açtığınızda, uygulamaya kamerayı kullanma izni vermeniz istenir. Cihazınızda kamera yoksa istem görüntülenmez ve kamerayı tarayıcı olarak kullanamazsınız. 
+Bu özelliği kullanmak için ambar uygulamasının 1.2.0.0 sürümünün yüklü olması ve cihazınızda bir kamera olması gerekir. Güncelleştirmeden sonra uygulamayı açtığınızda, uygulamaya kamerayı kullanma izni vermeniz istenir. Cihazınızda kamera yoksa istem görüntülenmez ve kamerayı tarayıcı olarak kullanamazsınız. 
 
-## <a name="setup"></a>Ayarlama
-Ambarlama uygulamasının Görüntüleme ayarlarında kameranın barkod taraması için kullanılıp kullanılmayacağını seçebilirsiniz. **Kamerayı tarayıcı olarak kullan**'ı etkinleştirirseniz kamerayı, **Tarama**'ya ayarlanmış tercih edilen giriş moduna sahip her giriş alanında kullanabilirsiniz. 
+## <a name="setup"></a>Ayar
+Ambar uygulamasının Görüntüleme ayarlarında kameranın barkod taraması için kullanılıp kullanılmayacağını seçebilirsiniz. **Kamerayı tarayıcı olarak kullan**'ı etkinleştirirseniz kamerayı, **Tarama**'ya ayarlanmış tercih edilen giriş moduna sahip her giriş alanında kullanabilirsiniz. 
 
-Giriş alanının taranabilir olup olmadığını denetlemek için **Ambar uygulaması alan adları** sayfasında **Tercih edilen giriş modu**'nu **Tarama** olarak ayarlayın. Bu seçenek belirlendiğinde, Ambarlama uygulamasında tarama yapmak için kamera kullanılabilir. Ambarlama uygulamasında uygulama alan adlarını yapılandırma hakkında bilgi için bkz. [Ambarlama uygulamasında uygulama alan adlarını yapılandırma](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+Giriş alanının taranabilir olup olmadığını denetlemek için **Ambar uygulaması alan adları** sayfasında **Tercih edilen giriş modu**'nu **Tarama** olarak ayarlayın. Bu seçenek belirlendiğinde, ambar uygulamasında tarama yapmak için kamera kullanılabilir. Ambar uygulamasında uygulama alan adlarını yapılandırma hakkında bilgi için bkz. [Ambar uygulamasında uygulama alan adlarını yapılandırma](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
 
 ## <a name="supported-bar-code-formats"></a>Desteklenen barkod biçimleri
 Kod 128, Kod 39, Kod 93, EAN-8, EAN-13, UPC-E, UPC-A ve QR kodları da dahil olmak üzere en yaygın barkod biçimleri desteklenir. 

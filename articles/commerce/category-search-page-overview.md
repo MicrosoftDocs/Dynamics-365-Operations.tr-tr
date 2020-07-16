@@ -1,9 +1,9 @@
 ---
 title: Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış
 description: Bu konu, Dynamics 365 Commerce'te varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış sağlar.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002508"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527480"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış
 
 [!include [banner](includes/banner.md)]
 
@@ -96,7 +95,13 @@ Arama sonuçları sayfası için aşağıdaki bileşenler gereklidir:
 - **Sayfalandırma**, web sitesi ziyaretçileri, kategorilere ayrılmış bir ürün sonuçları sayfasından başka bir sayfaya gitmesini sağlar.
 - **Toplam sayı**, bir kategoride tanımlanan ve arama kriterlerine uyan toplam ürün sayısını sağlar.
 
+>[!NOTE]
+>Bu bulut destekli arama özellikleri 10.0.8 sürümünden başlayarak kullanılabilir. **Commerce parametreleri > konfigürasyon parametrelerinin** altında "ProductSearch.UseAzureSearch set to 'true'" olduğundan emin olun. 
+![Bulut destekli arama için yapılandırma parametreleri](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Ek kaynaklar
+
+[Bulut destekli aramaya genel bakış](cloud-powered-search-overview.md)
 
 [Giriş sayfasına genel bakış](quick-tour-home-page.md)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 40d1090d18857c6978ce42a34d6d67241f9df18f
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 83a27620a7bdd8624770442aa271a6dac6b5b04e
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346341"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530386"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Dynamics 365 Supply Chain Management 10.0.8'deki yenilikler veya değişiklikler (Şubat 2020)
 
@@ -51,7 +51,7 @@ Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [S
 - [Talep stok yenileme işini, malzeme çekme işi oluştur adımından bölme](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
 - [İşi böl](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
 - [Sistem tarafından yönlendirilen küme malzeme çekme](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking) - Daha fazla bilgi için bkz. [Sistem tarafından yönlendirilen küme malzeme çekme](../warehousing/system-directed-cluster-pick.md).
-- [RSAT ile ambarlama uygulaması görev doğrulaması](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
+- [RSAT ile ambar uygulaması görev doğrulaması](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [Ambara serbest bırakma kuralı](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [Dalga durumu görselleştirme](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
 - [Dalga şablonu gruplandırması](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)

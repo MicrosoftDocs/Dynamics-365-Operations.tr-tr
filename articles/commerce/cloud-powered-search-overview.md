@@ -1,9 +1,9 @@
 ---
 title: Bulut destekli aramaya genel bakış
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta bulut destekli aramanın genel görünümünü vermektedir.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057845"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527455"
 ---
 # <a name="cloud-powered-search-overview"></a>Bulut destekli aramaya genel bakış
 
@@ -73,8 +73,12 @@ Aşağıdaki çizimde, derinlikli otomatik önerinin kullanıldığı bir örnek
 
 Müşterilerimize, Dynamics 365 Commerce geliştirilmiş sıralama; arama sonuçlarını sıralama, arama ve gözatma ve fiyat, ürün adı ve ürün numarası gibi ölçütlere göre bunları belirginleştirme. Müşteriler Ayrıca, ürünün yeni, en çok satılan veya son eklenen bir ürün olup olmadığına göre sonuçları sıralayabilir.
 
+>[!NOTE]
+>Bu bulut destekli arama özellikleri 10.0.8 sürümünden başlayarak kullanılabilir. **Commerce parametreleri > konfigürasyon parametrelerinin** altında "ProductSearch.UseAzureSearch set to 'true'" olduğundan emin olun. 
+![Bulut destekli arama için yapılandırma parametreleri](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Varsayılan kategori giriş sayfası ve arama sonuçları sayfası](category-search-page-overview.md)
+[Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış](category-search-page-overview.md)
 
 [SEO meta verilerini yönetme](manage-seo-metadata.md)

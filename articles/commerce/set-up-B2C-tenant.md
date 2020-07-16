@@ -3,7 +3,7 @@ title: Commerce'ta B2C kiracısı ayarlama
 description: Bu konu, Dynamics 365 Commerce'ta kullanıcı sitesi kimlik doğrulaması için Azure Active Directory (Azure AD) işletme-müşteri arası (B2C) kiracılarınızın nasıl kurulacağını açıklamaktadır.
 author: BrianShook
 manager: annbe
-ms.date: 04/28/2020
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9339b584c2d78e59f1a6b79d1610eef1581722c7
-ms.sourcegitcommit: 717346fb00c68a64ed58c846e89f41b80c7de9dd
+ms.openlocfilehash: b017b0f91960be1504134f6d46878fce956de203
+ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3488774"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497180"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Commerce'ta B2C kiracısı ayarlama
 
@@ -91,7 +91,7 @@ Yanıt URL'leri, siteniz bir kullanıcı kimliğini doğrulamak için Azure AD B
 
 **Azure AD B2c - Uygulamalar \> Yeni uygulama** ekranındaki **Yanıt URL'si** kutusunda, hem sitenizin etki alanı hem de (ortamınız sağlandıktan sonra) Commece tarafından oluşturulan URL için ayrı satırlar eklemeniz gerekir. Bu URL'lerin her zaman geçerli bir URL biçimi kullanması ve yalnızca temel URL'ler olması gerekir (sonunda eğik çizgi veya yollar olmamalıdır). Ardından ``/_msdyn365/authresp`` dizesinin temel URL'lere aşağıdaki örneklerde gösterildiği şekilde eklenmesi gerekir.
 
-- ``https://www.fabrikam.com/_msdyn365/authresp``
+- ``https://www.fabrikam.com/_msdyn365/authresp``(Etki alanı e-ticaret etki alanıyla tamamen eşleşmelidir. Birden çok etki alanınız varsa, her etki alanı için bu URL'yi eklemeniz gerekir.)
 - ``https://fabrikam-prod.commerce.dynamics.com/_msdyn365/authresp``
 
 ## <a name="create-user-flow-policies"></a>Kullanıcı akış ilkeleri oluşturma

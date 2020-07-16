@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7521784931cc4aac5a7e7729d045e501cba9460e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: b310b787906850a60c9e2a453ce2d13330dad212
+ms.sourcegitcommit: 26399aafe2b02732c79073455f5bc9ac07bab4b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3279112"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "3502125"
 ---
 # <a name="implementation-project-manager-learning-catalog"></a>Uygulama Proje Yöneticisi Öğrenme Kataloğu
 
@@ -29,7 +29,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | İçerik | Tanım  | Biçim  | Uzunluk    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
 | [Microsoft Dynamics 365 ve Power Platform'un iş değerini öğrenin](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Belki Microsoft Dynamics 365 ve Power Platform uygulamalarını kullanmaya nereden başlayacağınızı bilmiyorsunuz? İş uygulamalarının gücününün işinizi dönüştürmeye nasıl yardımcı olabileceğini öğrenin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu   | 7 saat   |
-| [Dynamics 365 ve Power Platform Temel Bilgileri](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/ | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Dynamics 365 uygulamalarının nasıl kullanıldığını görmek için bu öğrenme yoluyla işe başlayın. Bulut kavramları, Power Platform ve Dynamics 365 uygulamalarını kullanmaya başlamak hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu   | 5.5 saat |
+| [Dynamics 365 ve Power Platform Temel Bilgileri](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | İş uygulamaları hakkında bilgi edinmeye ilgi mi duyuyorsunuz? Dynamics 365 uygulamalarının nasıl kullanıldığını görmek için bu öğrenme yoluyla işe başlayın. Bulut kavramları, Power Platform ve Dynamics 365 uygulamalarını kullanmaya başlamak hakkında bilgi edinin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu   | 5.5 saat |
 | [Finance and Operations uygulamalarını kullanmaya başlama](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)  | Finance and Operations uygulamalarının, çalışanları hızlı ve bilinçli kararlar vermeye teşvik etmek için işletmeleri, küresel finans sistemlerini, operasyonel iş süreçlerini ve kolaylaştırılmış tedarik zincirlerini yönetme konusunda nasıl desteklediğini öğrenin. Finance and Operations uygulamaları ile çalışma kariyerinizin ilk adımı olarak, istediğiniz rolden bağımsız olarak, Finance and Operations'ın özellik ve işlevleri hakkında bilgi edinmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu   | 2 saat   |
 | [Satın almadan önce](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy)  | Finance and Operations'ı hala satın almayı düşünüyor veya satın almaya karar verdiyseniz adım adım yönergelere göz atın.| Belgeler  |           |
 | [Sürüm planı](https://docs.microsoft.com/dynamics365/release-plans/)  | Dynamics 365'teki en son özellik ve geliştirmeleri keşfedin.  | Belgeler  |           |

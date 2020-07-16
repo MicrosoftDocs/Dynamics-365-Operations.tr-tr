@@ -3,7 +3,7 @@ title: Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta Azure Active Directory (Azure AD) işletme-müşteri (B2C) kiracılar kullanıcıları için özelleştirilmiş kaydolmayı işleyen özel sayfaların nasıl oluşturulacağı açıklanmaktadır.
 author: brianshook
 manager: annbe
-ms.date: 06/16/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71c0f0b6969985b04262b522dd2165eb1475878d
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456984"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533471"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
 
@@ -198,8 +198,6 @@ Global.json dosyasını güncelleştirip değişikliklerinizi yayımladıktan so
 [Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
 [Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
-
-[Çevrimiçi mağaza kanalı ayarlama](online-stores.md)
 
 [e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
 

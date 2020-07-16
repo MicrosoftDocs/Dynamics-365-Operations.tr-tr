@@ -3,7 +3,7 @@ title: Çevrimiçi kanal ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir çevrimiçi kanalın nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9b7a2b8fd157df8b39e9e227d188a3802cacb4e3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002439"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533333"
 ---
 # <a name="set-up-an-online-channel"></a>Çevrimiçi kanal ayarlama
 
@@ -35,9 +35,9 @@ Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir çevrimiçi kanalın nas�
 
 Dynamics 365 Commerce birden fazla perakende kanalı destekler. Bu perakende kanalları çevrimiçi mağazaları, çağrı merkezlerini ve perakende mağazalarını (tuğla dibek mağazalar olarak da bilinir) içerir. Çevrimiçi mağazalar müşterilere perakendecinin perakende mağazalarının yanı sıra çevrimiçi mağazasından da ürün satın alma seçeneği verir.
 
-Commerce'te bir çevrimiçi mağaza oluşturmak için önce bir çevrimiçi kanal oluşturmanız gerekir. 
+Commerce'te bir çevrimiçi mağaza oluşturmak için önce bir çevrimiçi kanal oluşturmanız gerekir. Yeni bir çevrimiçi kanal oluşturmadan önce [Kanal kurulumu önkoşullarını](channels-prerequisites.md) tamamladığınızdan emin olun.
 
-Yeni bir çevrimiçi kanal oluşturmadan önce [Kanal kurulumu önkoşullarını](channels-prerequisites.md) tamamladığınızdan emin olun.
+Yeni bir site oluşturabilmeniz için, Commerce'te en az bir çevrimiçi mağazanın oluşturulması gereklidir. Daha fazla bilgi için, bkz [e-ticaret sitesi oluşturma](create-ecommerce-site.md).
 
 ## <a name="create-and-configure-a-new-online-channel"></a>Yeni bir çevrimiçi kanal oluşturma ve yapılandırma
 

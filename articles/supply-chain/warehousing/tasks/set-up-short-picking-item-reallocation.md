@@ -1,9 +1,9 @@
 ---
-title: Kısa alım maddesi yeniden tahsisini ayarlama
-description: Bu yordam yönlendirildikleri konumda yeterli stok olmadığında alternatif konumları hızlı bir şekilde bulmak üzere ambar çalışanlarını etkinleştirmeyi gösterir.
+title: Eksik çekilen madde yeniden tahsisini ayarlama
+description: Bu konuda, size, ambar çalışanlarının yönlendirildikleri yerleşimde yeterli stok olmadığında alternatif yerleşimleri hızlı bir şekilde bulmalarının nasıl sağlanacağı gösterilmektedir.
 author: ShylaThompson
 manager: tfehr
-ms.date: 08/29/2018
+ms.date: 06/29/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,35 +17,50 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e860a54c2306f8140947b77cdcb538160a84e06f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e14a4fc72d256bea31296bff80d5b5818b95ea9d
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216825"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527431"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Eksik çekilen madde yeniden tahsisini ayarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Bu yordam yönlendirildikleri konumda yeterli stok olmadığında alternatif konumları hızlı bir şekilde bulmak üzere ambar çalışanlarını etkinleştirmeyi gösterir. Başka bir konumda kullanılabilen malları almak için konum yönergeleri kullanan otomatik yeniden tahsis işlemi kullanmak da mümkündür. Alternatif olarak, el ile yeniden tahsis kullanıldığında, kullanılabilir miktara sahip konumların listesi mobil cihazda görüntülenir ve ambar çalışanı stoğun kullanılacağı konumu seçebilir. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz. Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
+Bu yordam, size, ambar çalışanlarının yönlendirildikleri yerleşimde yeterli stok olmadığında alternatif yerleşimleri hızlı bir şekilde bulmalarının nasıl sağlanacağını göstermektedir. 
 
+Yeniden tahsisat işlemi bir **İş özel durumu** ile denetlenir ve ambar **çalışanı** tarafından kullanılır.
+
+Otomatik, El ile veya her iki yeniden tahsisat işlemi kullanılabilir:
+
+- Otomatik yeniden tahsisat - Malların başka bir yerleşimde olup olmadığını belirlemek için yerleşim yönergeleri kullanılır. Mümkünse, iş güncelleştirilecek ve ambar kullanıcısı alternatif yerleşime yönlendirilecektir.
+- El ile yeniden tahsisat - Ambar kullanıcısının rezerve edilmemiş mal miktarları olan bir veya daha fazla yerleşimden seçim yapmasına olanak tanır. 
+- Otomatik ve el ile - Sistem otomatik yeniden tahsisat gerçekleştiremezse ve rezerve edilmemiş miktarlar bulunan yerleşimler varsa, kullanıcıdan bir yerleşim seçmesi istenir.
 
 ## <a name="set-up-work-exceptions"></a>İş özel durumlarını ayarla
+Ambar çalışanının işledikleri sevkiyatın ihtiyaçlarına göre bir seçim yapabilmesi için, farklı madde yeniden tahsis ilkelerine sahip birden çok iş özel durumu tanımlamak mümkündür.
+
+Bu yordamı oluşturmak için USMF demo verileri şirketi kullanılmıştır.
+
 1. **Gezinti panosu**'nda, **Ambar yönetimi > Kurulum > İş > İş istisnaları**'na gidin.
-2. **Yeni**'ye tıklayın. Ambar çalışanının işledikleri sevkiyatın ihtiyaçlarına göre bir seçim yapabilmesi için, farklı madde yeniden tahsis ilkelerine sahip birden çok iş özel durumu tanımlamak mümkündür.  
-3. **İş özel durumu kodu** alanına bir değer yazın. İş özel durumuna ne için kullanıldığını belirten bir başlık verin. Örneğin, Kısa malzeme çekme kılavuzu.  
-4. **Tanım** alanına bir değer girin.
-5. **Özel durum** türü alanında, 'Kısa çekme'yi seçin.
-6. **Stoğu ayarla** onay kutusunu işaretleyin. Bu seçenek stoğun kısa malzeme çekme konumunda 0'a otomatik olarak ayarlanacağı anlamına gelir.  
-7. **Varsayılan ayarlama türü kodu** alanına bir değer girin veya bir değer seçin. Örneğin, USMF'de 'Kaynak Res Adj Out' seçeneğini belirleyebilirsiniz.  
-8. **Madde yeniden tahsisi** alanında 'El ile'yi seçin. El ile veya Otomatik ve El ile seçeneklerini belirlerseniz, ambar çalışanının el ile yeniden tahsisi kullanmak için etkinleştirilmesi gerekir.  
+2. **Yeni**'ye tıklayın 
+3. **İş özel durumu kodu** alanına bir değer yazın. Bu, bu özel durumun başlığı olacaktır. Örneğin, Kısa malzeme çekme kılavuzu.
+4. **Tanım** alanına bir değer girin. Bu, bu özel durumun kullanımıyla ilgili kısa bir açıklama olacaktır. Örneğin, Kısa malzeme çekme - madde mevcut değil.
+5. **Özel durum** türü alanında, **Kısa çekme**'yi seçin.
+6. **Stoğu ayarla** onay kutusunu işaretleyin. Seçilirse, stok kısa malzeme çekme yerleşiminde 0'a otomatik olarak ayarlanır.
+7. **Varsayılan ayarlama türü kodu** alanına bir değer girin veya bir değer seçin. Örneğin, USMF'de **Kaynak Kaldırma Ayarlama Devre Dışı**'nı seçebilirsiniz. Her ayarlama türü kodu dört temel özellik içerir: ad, açıklama, stok günlüğü adı ve **Rezervasyonları kaldır**. **Rezervasyonları kaldır** etkinse, kısa çekilen sipariş satırının rezervasyonları kaldırılır.  
+8. **Madde yeniden tahsisi** alanında bir değer seçin (örneğin El ile). El ile veya Otomatik ve El ile seçeneklerini belirlerseniz, ambar çalışanının el ile yeniden tahsisi kullanmak için etkinleştirilmesi gerekir.
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Çalışanı el ile madde yeniden tahsisini kullanmak üzere ayarlama
+
+Bu yordamı oluşturmak için USMF demo verileri şirketi kullanılmıştır.
+
 1. Sayfayı kapatın.
 2. **Gezinti panosu**'nda, **Ambar yönetimi > Kurulum > Çalışan**'a gidin.
 3. **Düzenle**'yi tıklatın.
-4. Listede, çalışan 24'ü seçin.
-5. **İş** hızlı sekmesini genişletin.
-6. **El ile madde yeniden tahsisine izin ver** alanında 'Evet''i seçin.
-
+4. Listede çalışan seçin. Örneğin Julia Finanderburk.
+5. **Kullanıcılar** hızlı sekmesini genişletin.
+6. Listede bir **Kullanıcı kodu** seçin. Örneğin, 24.
+7. **İş** hızlı sekmesini genişletin.
+8. **El ile madde yeniden tahsisine izin ver** alanında **Evet**'i seçin.

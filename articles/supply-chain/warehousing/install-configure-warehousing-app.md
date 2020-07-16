@@ -1,6 +1,6 @@
 ---
-title: Ambarlama uygulamasını yükleme ve bağlama
-description: Bu konuda, ambarlama uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
+title: Ambar uygulamasını yükleme ve bağlama
+description: Bu konuda, ambar uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 05/25/2020
@@ -19,46 +19,46 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367094"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530087"
 ---
-# <a name="install-and-connect-the-warehousing-app"></a>Ambarlama uygulamasını yükleme ve bağlama
+# <a name="install-and-connect-the-warehouse-app"></a>Ambar uygulamasını yükleme ve bağlama
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Bu konu bulut dağıtımları için ambarlamanın nasıl yapılandırılacağını açıklar. Ambarlamanın şirket içi dağıtımlar için nasıl yapılandırılacağı hakkında bilgi arıyorsanız bkz. [Şirket için dağıtımlar için ambarlama](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
-Ambarlama uygulaması Google Play Store ve Microsoft Store'dan edinilebilir. Bağımsız bir bileşen olarak sağlanır. Bu nedenle, her cihaza indirmeli ve sonra Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde yapılandırmalısınız.
+Ambar uygulaması Google Play Store ve Microsoft Store'dan edinilebilir. Bağımsız bir bileşen olarak sağlanır. Bu nedenle, her cihaza indirmeli ve sonra Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde yapılandırmalısınız.
 
-Bu konuda, ambarlama uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
+Bu konuda, ambar uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
 
 ## <a name="system-requirements"></a>Sistem gereksinimleri
 
-Ambarlama uygulaması hem Windows hem de Android işletim sistemleri için kullanılabilir. Uygulamanın en son sürümünü kullanmak için mobil cihazlarınızda aşağıdaki işletim sistemlerinden birine sahip olmanız gerekir:
+Ambar uygulaması hem Windows hem de Android işletim sistemleri için kullanılabilir. Uygulamanın en son sürümünü kullanmak için mobil cihazlarınızda aşağıdaki işletim sistemlerinden birine sahip olmanız gerekir:
 
 - Windows 10 (Evrensel Windows Platformu \[UWP \]) Fall Creators Update 1709 (derleme 10.0.16299) veya üstü
 - Android 4.4 veya üstü
 
 > [!NOTE]
-> Windows'un en son sürümünü çalıştıramayan eski Windows aygıtlarını desteklemeniz gerekiyorsa yine de ambarlama uygulamasının 1.6.3.0 sürümünü Microsoft Store'dan indirebilirsiniz. Bu sürüm, Windows 10 (UWP) Kasım Güncelleştirmesi 1511 (derleme 10.0.10586) veya üstünde kullanılabilir. Ancak; ambarlama uygulamasının bu sürümünün, bağlantı ayarlarının toplu dağıtımını desteklemediğini unutmayın. Bu nedenle, uygulamanın bu sürümünü çalıştıran her cihazda [bağlantıyı el ile yapılandırmanız](#config-manually) gerekir.
+> Windows'un en son sürümünü çalıştıramayan eski Windows aygıtlarını desteklemeniz gerekiyorsa yine de ambar uygulamasının 1.6.3.0 sürümünü Microsoft Store'dan indirebilirsiniz. Bu sürüm, Windows 10 (UWP) Kasım Güncelleştirmesi 1511 (derleme 10.0.10586) veya üstünde kullanılabilir. Ancak; ambar uygulamasının bu sürümünün, bağlantı ayarlarının toplu dağıtımını desteklemediğini unutmayın. Bu nedenle, uygulamanın bu sürümünü çalıştıran her cihazda [bağlantıyı el ile yapılandırmanız](#config-manually) gerekir.
 
-## <a name="get-the-warehousing-app"></a>Ambarlama uygulamasını edinme
+## <a name="get-the-warehouse-app"></a>Ambar uygulamasını edinme
 
 Uygulamayı indirmek için aşağıdaki bağlantılardan birini kullanın:
 
 - **Windows (UWP):** [Microsoft Store'da Dynamics 365 for Finance and Operations - Warehousing](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Google Play Store'da Warehousing - Dynamics 365](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Daha küçük dağıtımlar için, uygulamayı her bir cihazdaki ilgili mağazadan yüklemek ve ardından kullandığınız ortamlara olan bağlantıyı el ile yapılandırmak isteyebilirsiniz. Ancak, ambarlama uygulamasının 1.7.0.0 ve üstü sürümlerinde uygulama dağıtımını ve/veya yapılandırmasını da otomatikleştirebilirsiniz. Birçok cihazı yönetiyorsanız ve [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) gibi bir mobil cihaz yönetimi ve mobil uygulama yönetimi çözümü kullanıyorsanız bu yaklaşımı uygun bulabilirsiniz. Uygulama eklemek için Intune'u kullanma hakkında bilgi için bkz. [Microsoft Intune'a uygulama ekleme](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Daha küçük dağıtımlar için, uygulamayı her bir cihazdaki ilgili mağazadan yüklemek ve ardından kullandığınız ortamlara olan bağlantıyı el ile yapılandırmak isteyebilirsiniz. Ancak, ambar uygulamasının 1.7.0.0 ve üstü sürümlerinde uygulama dağıtımını ve/veya yapılandırmasını da otomatikleştirebilirsiniz. Birçok cihazı yönetiyorsanız ve [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) gibi bir mobil cihaz yönetimi ve mobil uygulama yönetimi çözümü kullanıyorsanız bu yaklaşımı uygun bulabilirsiniz. Uygulama eklemek için Intune'u kullanma hakkında bilgi için bkz. [Microsoft Intune'a uygulama ekleme](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Azure Active Directory içinde bir web hizmeti uygulaması oluşturma
 
-Ambarlama uygulamasının belirli bir Supply Chain Management sunucusuyla etkileşime girmesini sağlamak için Azure Active Directory (Azure AD) uygulamasında Supply Chain Management kiracısı için bir web hizmeti uygulaması kaydetmeniz gerekir. Aşağıdaki yordamda, bu görevi tamamlamanın bir yolu gösterilmektedir. Ayrıntılı bilgi ve alternatifler için yordamdan sonraki bağlantılara bakın.
+Ambar uygulamasının belirli bir Supply Chain Management sunucusuyla etkileşime girmesini sağlamak için Azure Active Directory (Azure AD) uygulamasında Supply Chain Management kiracısı için bir web hizmeti uygulaması kaydetmeniz gerekir. Aşağıdaki yordamda, bu görevi tamamlamanın bir yolu gösterilmektedir. Ayrıntılı bilgi ve alternatifler için yordamdan sonraki bağlantılara bakın.
 
 1. Web tarayıcısında [https://portal.azure.com](https://portal.azure.com/) adresine gidin.
 1. Azure aboneliğine erişimi olan kullanıcının adını ve parolasını girin.
@@ -82,7 +82,7 @@ Ambarlama uygulamasının belirli bir Supply Chain Management sunucusuyla etkile
 
 1. **Yönet** listesinde **Sertifika ve parolalar**'ı seçin. Ardından, uygulamayı kimlik doğrulama için nasıl yapılandırmak istediğinize bağlı olarak aşağıdaki düğmelerden birini seçin. (Daha fazla bilgi için bu konunun ilerisindeki [Sertifika veya istemci parolası kullanarak kimlik doğrulaması](#authenticate) bölümüne bakın.)
 
-    - **Karşıya yükleme sertifikası**: Bir sertifikayı parola olarak kullanmak için karşıya yükleyin. Daha güvenli ve tamamen otomatikleştirilebilir olduğu için bu yaklaşımı öneriyoruz. Ambarlama uygulamasını Windows cihazlarında çalıştırıyorsanız sertifikayı yükledikten sonra gösterilen **Parmak İzi** değerini not edin. Sertifikayı Windows cihazlarında yapılandırırken bu değere ihtiyacınız olacaktır.
+    - **Karşıya yükleme sertifikası**: Bir sertifikayı parola olarak kullanmak için karşıya yükleyin. Daha güvenli ve tamamen otomatikleştirilebilir olduğu için bu yaklaşımı öneriyoruz. Ambar uygulamasını Windows cihazlarında çalıştırıyorsanız sertifikayı yükledikten sonra gösterilen **Parmak İzi** değerini not edin. Sertifikayı Windows cihazlarında yapılandırırken bu değere ihtiyacınız olacaktır.
     - **Yeni istemci parolası**: **Parolalar** bölümüne bir anahtar açıklama ve süre girerek bir anahtar oluşturun ve **Ekle**'yi seçin. Anahtarın bir kopyasını oluşturun ve güvenli bir şekilde saklayın.
 
     ![Sertifika ve parolalar](media/app-connect-azure-authentication.png "Sertifika ve parolalar")
@@ -99,7 +99,7 @@ Azure AD uygulamasında web hizmeti uygulamalarını ayarlama hakkında daha faz
 
 Supply Chain Management'ın Azure AD uygulamanızı kullanmasını sağlamak için aşağıdaki adımları izleyin.
 
-1. Ambarlama uygulaması için kullanıcı kimlik bilgilerine karşılık gelen bir kullanıcı oluşturun:
+1. Ambar uygulaması için kullanıcı kimlik bilgilerine karşılık gelen bir kullanıcı oluşturun:
 
     1. Supply Chain Management uygulamasında **Sistem yönetimi \> Kullanıcıları \> Kullanıcıları**'na gidin.
     1. Kullanıcı oluşturun.
@@ -107,7 +107,7 @@ Supply Chain Management'ın Azure AD uygulamanızı kullanmasını sağlamak iç
 
     ![Ambarlama mobil cihaz kullanıcısını atama](media/app-connect-app-users.png "Ambarlama mobil cihaz kullanıcısını atama")
 
-1. Azure AD uygulamanızı, ambarlama uygulaması kullanıcısı ile ilişkilendirin:
+1. Azure AD uygulamanızı, ambar uygulaması kullanıcısı ile ilişkilendirin:
 
     1. **Sistem yönetimi \> Kurulum \> Azure Active Directory uygulamaları**'na gidin.
     1. Satır oluşturun.
@@ -119,9 +119,9 @@ Supply Chain Management'ın Azure AD uygulamanızı kullanmasını sağlamak iç
 
 Azure AD ile kimlik doğrulaması, bir mobil cihazı Supply Chain Management uygulamasında bağlamak için güvenli bir yol sağlar. İstemci parolası veya sertifika kullanarak kimlik doğrulaması yapabilirsiniz. Bağlantı ayarlarını içe aktaracaksanız istemci parolası yerine bir sertifika kullanmanızı öneririz. İstemci parolasının her zaman güvenli bir şekilde saklanması gerektiğinden, bu konuda daha sonra açıklandığı gibi istemci parolasını bir bağlantı ayarları dosyasından veya bir QR kodundan içe aktaramazsınız.
 
-Sertifikalar, bir belirteç istendiğinde uygulamanın kimliğini kanıtlamak için parola olarak kullanılabilir. Sertifikanın genel kısmı Azure portalındaki uygulama kaydına yüklenirken tam sertifikanın ambarlama uygulamasının yüklü olduğu her cihaza dağıtılması gerekir. Kuruluşunuz sertifikayı, rotasyonu vb. konularda yönetmekle sorumludur. Kendinden imzalı sertifikalar kullanabilirsiniz ancak her zaman dışa aktarılamayan sertifikalar kullanmalısınız.
+Sertifikalar, bir belirteç istendiğinde uygulamanın kimliğini kanıtlamak için parola olarak kullanılabilir. Sertifikanın genel kısmı Azure portalındaki uygulama kaydına yüklenirken tam sertifikanın ambar uygulamasının yüklü olduğu her cihaza dağıtılması gerekir. Kuruluşunuz sertifikayı, rotasyonu vb. konularda yönetmekle sorumludur. Kendinden imzalı sertifikalar kullanabilirsiniz ancak her zaman dışa aktarılamayan sertifikalar kullanmalısınız.
 
-Sertifikayı, ambarlama uygulamasını çalıştırdığınız her cihazda yerel olarak kullanılabilir hale getirmelisiniz. Intune kullanıyorsanız, Intune denetimli cihazlara yönelik sertifikaları yönetme hakkında bilgi için bkz. [Microsoft Intune'da kimlik doğrulama için sertifika kullanma](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Sertifikayı, ambar uygulamasını çalıştırdığınız her cihazda yerel olarak kullanılabilir hale getirmelisiniz. Intune kullanıyorsanız, Intune denetimli cihazlara yönelik sertifikaları yönetme hakkında bilgi için bkz. [Microsoft Intune'da kimlik doğrulama için sertifika kullanma](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Bağlantı ayarlarını içe aktararak uygulamayı yapılandırma
 
@@ -177,7 +177,7 @@ Bilgileri bir JSON dosyası olarak kaydedebilir veya aynı içeriğe sahip bir Q
 
 ### <a name="save-the-connection-settings-file-on-each-device"></a>Bağlantı ayarları dosyasını her cihaza kaydetme
 
-Genellikle, bağlantı ayarları dosyalarını yönettiğiniz her cihazda dağıtmak için bir cihaz yönetim aracı veya komut dosyası kullanırsınız. Bağlantı ayarları dosyasını her bir cihaza kaydettiğinizde varsayılan adı ve konumu kullanırsanız ambarlama uygulaması, uygulama yüklendikten sonraki ilk çalıştırmada bile dosyayı otomatik olarak içe aktarır. Dosya için özel bir ad veya konum kullanırsanız uygulama kullanıcısının değerleri, ilk çalıştırma sırasında belirtmesi gerekir. Ancak, uygulama daha sonra belirtilen adı ve konumu kullanmaya devam eder.
+Genellikle, bağlantı ayarları dosyalarını yönettiğiniz her cihazda dağıtmak için bir cihaz yönetim aracı veya komut dosyası kullanırsınız. Bağlantı ayarları dosyasını her bir cihaza kaydettiğinizde varsayılan adı ve konumu kullanırsanız ambar uygulaması, uygulama yüklendikten sonraki ilk çalıştırmada bile dosyayı otomatik olarak içe aktarır. Dosya için özel bir ad veya konum kullanırsanız uygulama kullanıcısının değerleri, ilk çalıştırma sırasında belirtmesi gerekir. Ancak, uygulama daha sonra belirtilen adı ve konumu kullanmaya devam eder.
 
 Uygulama her başlatıldığında, herhangi bir değişiklik olup olmadığını belirlemek için bağlantı ayarlarını önceki konumlarından yeniden içe aktarır. Uygulama yalnızca bağlantı ayarları dosyasındaki bağlantılarla aynı ada sahip bağlantıları güncelleştirecektir. Diğer adları kullanan, kullanıcı tarafından oluşturulan bağlantılar güncellenmez.
 
@@ -197,7 +197,7 @@ Genellikle yollar, uygulamanın ilk çalıştırılmasından sonra otomatik olar
 
 Bağlantı ayarlarını bir dosyadan veya bir QR kodundan içe aktarmak için aşağıdaki adımları izleyin.
 
-1. Mobil cihazınızda ambarlama uygulamasını açın.
+1. Mobil cihazınızda ambar uygulamasını açın.
 1. **Bağlantı ayarları**'na gidin.
 1. **Tanıtım modunda kullan** seçeneğinde _Hayır_'ı işaretleyin.
 
@@ -226,7 +226,7 @@ Bağlantı ayarlarını bir dosyadan veya bir QR kodundan içe aktarmak için a�
 
 Azure AD uygulaması aracılığıyla Supply Chain Management sunucusuna erişebilmek için cihaz üzerindeki uygulamayı el ile yapılandırabilirsiniz.
 
-1. Mobil cihazınızda ambarlama uygulamasını açın.
+1. Mobil cihazınızda ambar uygulamasını açın.
 1. **Bağlantı ayarları**'na gidin.
 1. **Tanıtım modunda kullan** seçeneğinde _Hayır_'ı işaretleyin.
 

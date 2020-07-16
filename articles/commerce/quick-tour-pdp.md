@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dbf8f4c1ea479a508f4a0294020b7201b32fe228
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025937"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527551"
 ---
-# <a name="overview-of-product-details-pages"></a>Ürün ayrıntıları sayfalarına genel bakış
-
+# <a name="product-details-pages-overview"></a>Ürün ayrıntıları sayfalarına genel bakış
 
 [!include [banner](includes/banner.md)]
 
@@ -83,8 +82,6 @@ Belirli bir ürünle ilgili pazarlama içeriği benzersiz ise, tüm pazarlama mo
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Giriş sayfasına genel bakış](quick-tour-home-page.md)
-
-[Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış](category-search-page-overview.md)
 
 [Sepet ve ödeme sayfalarına genel bakış](quick-tour-cart-checkout.md)
 
