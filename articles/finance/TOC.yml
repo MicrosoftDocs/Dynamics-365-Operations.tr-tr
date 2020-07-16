@@ -74,8 +74,6 @@
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (Temmuz 2020)
                       href: get-started/whats-new-changed-10-0-11.md
-                    - name: Finance 10.0.10 (Mayıs 2020)
-                      href: get-started/whats-new-changed-10-0-10.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Dynamics 365 Finance'taki kaldırılan veya kullanım dışı bırakılan özellikler
@@ -1184,6 +1182,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Sütun tanımları
               href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Mali raporlarda raporlama ağacı tanımları
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
             - name: Satır tanımı hücrelerini değiştirme
               href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Mali raporlama veri reyonunu sıfırlama
@@ -3386,12 +3386,18 @@
                       items:
                         - name: Yapılandırmaları GR'den içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içe aktarma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
                         - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Yapılandırmaları GR'ye yükleme
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: GR'de yapılandırmaları paylaşma
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+            - name: Hızlı başlangıç kılavuzları
+              items:
+                - name: Özel bir elektronik belge oluşturmak için ER biçimi ayarlama
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
             - name: Eğitimler
               items:
                 - name: Veri kaynaklarını kullanmayı öğrenme
