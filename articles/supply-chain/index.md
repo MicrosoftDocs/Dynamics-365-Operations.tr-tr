@@ -1,9 +1,9 @@
 ---
 title: Supply Chain Management giriş sayfası
 description: Bu sayfada Supply Chain Management özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
-author: josaw1
+author: kamaybac
 manager: tfehr
-ms.date: 11/26/2019
+ms.date: 06/30/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,25 @@ ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
-ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
+ms.openlocfilehash: ab0c66ad0536b20b1ab23e9498ca3cb56b98ccf5
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386399"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530271"
 ---
 # <a name="supply-chain-management-home-page"></a>Supply Chain Management giriş sayfası
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda Dynamics 365 Supply Chain Management'taki yardım konuları ve diğer kaynakların listesi sunulmaktadır. 
+Bu konuda Dynamics 365 Supply Chain Management'taki yardım konuları ve diğer kaynakların listesi sunulmaktadır.
 
 ## <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
-Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için <a href="https://roadmap.dynamics.com/">Dynamics 365 Yol Haritası</a> başlıklı makaleye gidin. 
+
+Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için [Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) başlıklı makaleye gidin.
 
 ## <a name="core-concepts-and-tasks"></a>Temel kavramlar ve görevler
 
@@ -54,70 +55,58 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 
 ## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-Dynamics 365 Finance hakkında bilgi edinmek için [Mali yönetim giriş sayfası](../finance/index.md) sayfasına gidin.
+Dynamics 365 Finance hakkında daha fazla bilgi için [Finance giriş sayfasına](../finance/index.md) gidin.
 
 ## <a name="videos"></a>Videolar
 
-Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations sürüm 8.0'da (Nisan 2018) bulunan yeni özellikler hakkında bilgi edinmenize yardımcı olacaktır.
+Bu kısa videoda, Microsoft Dynamics 365 for Finance and Operations sürüm 8.0'a (Nisan 2018) eklenen yeni tedarik zinciri yönetimi özellikleri özetlenmektedir.
 
 - [Field Service ile Finance and Operations arasında iş emri eşitleme](https://youtu.be/hAB4TDVMjxU)
 
-Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3'te (Aralık 2017) bulunan yeni özellikler hakkında bilgi edinmenize yardımcı olacaktır.
+Bu kısa videolarda, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3'e (Aralık 2017) eklenen yeni tedarik zinciri yönetimi özellikleri özetlenmektedir.
 
--  [Müşteriden nakde tümleştirmesi](https://youtu.be/AVV9x5x-XCg) 
--  [En iyi duruma getirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
--  [Yapılandırmayı kopyalamak için ambar şablonu kullanma](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+- [Müşteriden nakde tümleştirmesi](https://youtu.be/AVV9x5x-XCg) 
+- [En iyi duruma getirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [Yapılandırmayı kopyalamak için ambar şablonu kullanma](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations Enterprise Edition'da (Temmuz 2017) bulunan yeni özellikler hakkında bilgi edinmenize yardımcı olacaktır.
+Bu kısa videolarda, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'a (Temmuz 2017) eklenen yeni tedarik zinciri yönetimi özellikleri özetlenmektedir.
 
--  [Maliyet muhasebesine giriş](https://youtu.be/1pUDtJQZ8FU)
--  [Maliyet kontrolü mobil çalışma alanı](https://youtu.be/imsuTg8rUVk)
--  [Maliyet analizi için Excel'i kullanma](https://youtu.be/-HKHYdClvx8)
--  [Mobil cihazda satınalma siparişlerini onaylama](https://youtu.be/gZ-gOlJe7H8)
--  [Ürün ve toplu siparişler için Gantt grafiğiyle görsel planlama](https://youtu.be/BtbuShkGj4I)
+- [Maliyet muhasebesine giriş](https://youtu.be/1pUDtJQZ8FU)
+- [Maliyet kontrolü mobil çalışma alanı](https://youtu.be/imsuTg8rUVk)
+- [Maliyet analizi için Excel'i kullanma](https://youtu.be/-HKHYdClvx8)
+- [Mobil cihazda satınalma siparişlerini onaylama](https://youtu.be/gZ-gOlJe7H8)
+- [Ürün ve toplu siparişler için Gantt grafiğiyle görsel planlama](https://youtu.be/BtbuShkGj4I)
 
-Bu teknik konferans kayıtlarında Finance and Operations'ın önceki sürümüne ilişkin ürün işlevleri açıklanmaktadır. Ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir. 
+Aşağıdaki teknik konferans kayıtlarında, Finance and Operations'ın önceki sürümlerindeki tedarik zinciri yönetimi işlevleri açıklanmaktadır. Bu işlev, artık Dynamics 365 Supply Chain Management'ın bir parçasıdır. aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir.
 
-**Maliyet yönetimi**
-
--  [Maliyet yönetimine genel bakış](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
-
-**Master planlama**
-
--  [Talep tahmin işlevini genişletme](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
--  [Master planlama: Performans sorunlarını gidermek için ipuçları ve püf noktaları](https://youtu.be/7v8BPmEs9Dg)
--  [Yardım edin! MRP yavaş!](https://youtu.be/RLXybx20B5o)
-
-**Ürün bilgileri yönetimi**
-
--  [Microsoft Dynamics AX'te ürün yapılandırıcısı](https://youtu.be/zotrj3SbCl4)
-
-**Ambar yönetimi** 
-
-<!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
--  [Ambar yönetimi sisteminizden en iyi şekilde yararlanma](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
--  [Gelişmiş R3 Ambar yönetimi: Gelen işleme ve minimum/maksimum stok yenileme](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
--  [Gelişmiş R3 Ambar yönetimi - Yaşamdan bir gün, giden işleme ve talep stok yenilemesi](https://youtu.be/Og0gLlVp7jA)
--  [Yeni Microsoft Dynamics AX 2012 R3 Ambar yönetiminde bulunan etiketler](https://youtu.be/5w1MngVchBA)
--  [Dynamics AX 2012 R3: Gelişmiş ambar yönetimi - Süreç bazlı üretimde bir gün](https://www.youtube.com/embed/QUxXUrN-7n4)
-
-**Üretim denetimi**
-
--  [İmalatta alt sözleşme işlemleri ve faaliyetleri](https://youtu.be/y1jrd3A_k70)
-
-**Taşıma yönetimi**
-
--  [Yeni Microsoft Dynamics AX'teki taşıma yönetimi parametreleri (TMS)](https://youtu.be/jgmTgJIgEFQ)
+- **Maliyet yönetimi:**
+  - [Maliyet yönetimine genel bakış](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+- **Master planlama:**
+  - [Talep tahmini işlevini genişletme](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+  - [Master planlama: Performans sorunlarını gidermek için ipuçları ve püf noktaları](https://youtu.be/7v8BPmEs9Dg)
+  - [Yardım edin! MRP yavaş!](https://youtu.be/RLXybx20B5o)
+- **Ürün bilgileri yönetimi:**
+  - [Microsoft Dynamics AX'te ürün yapılandırıcısı](https://youtu.be/zotrj3SbCl4)
+- **Ambar yönetimi:**
+  - [Ambar yönetimi sisteminizden en iyi şekilde yararlanma](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+  - [Gelişmiş R3 Ambar yönetimi: Gelen işleme ve minimum/maksimum stok yenileme](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+  - [Gelişmiş R3 Ambar yönetimi - Yaşamdan bir gün, giden işleme ve talep stok yenilemesi](https://youtu.be/Og0gLlVp7jA)
+  - [Yeni Microsoft Dynamics AX 2012 R3 Ambar yönetiminde bulunan etiketler](https://youtu.be/5w1MngVchBA)
+  - [Dynamics AX 2012 R3: Gelişmiş ambar yönetimi - Süreç bazlı üretimde bir gün](https://www.youtube.com/embed/QUxXUrN-7n4)
+- **Üretim denetimi videoları:**
+  - [İmalatta alt sözleşme işlemleri ve faaliyetleri](https://youtu.be/y1jrd3A_k70)
+- **Taşıma yönetimi videoları:**
+  - [Yeni Microsoft Dynamics AX'teki taşıma yönetimi parametreleri (TMS)](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Bloglar
-<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX İmalat Ar-Ge Ekibi Blogu</a> ve <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX'te Tedarik Zinciri Yönetimi Ar-Ge Ekibi Blogu</a>'nda imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü önceki sürüm için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir. 
+
+[Dynamics AX İmalat Ar-Ge Ekibi Blogu](https://blogs.msdn.microsoft.com/axmfg/) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi Blogu](https://blogs.msdn.microsoft.com/dynamicsaxscm/)'nda imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü önceki sürüm için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir.
 
 ## <a name="white-papers"></a>Teknik incelemeler
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Maliyet muhasebesi uygulamalı laboratuvarları</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Yalın imalat: Teslim edilebilir miktar ve kanban işi planlaması</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama</a>
+
+- [Yalın imalat: Teslim edilebilir miktar ve kanban işi planlaması](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
+- [Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/)
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
-Dynamics 365 eğitimi hakkında bilgi edinmek için bkz. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Öğrenme Portalı</a>. (bunun için CustomerSource hesabı gereklidir) 
 
-
+Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365](https://docs.microsoft.com/learn/dynamics365/) konusuna bakın.

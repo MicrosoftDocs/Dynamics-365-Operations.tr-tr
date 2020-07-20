@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175166"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505623"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Çok yönlü kanal gelişmiş otomatik masrafları
 
@@ -52,7 +52,7 @@ Gelişmiş otomatik masraflar etkin olduğunda, kullanıcıların bir sevkiyat m
 
 Gelişmiş otomatik masraflar etkinleştiğinde, mevcut **Sevkiyat masrafları kodu** ve **Geri ödeme sevkiyat masrafları** için **Ticaret parametreleri** artık kullanılmaz. Bu parametreler yalnızca **Gelişmiş otomatik masraflar kullan** parametresi **Hayır** olarak ayarlandığında uygulanabilir.
 
-Bu özelliği etkinleştirmeden önce, çalışanlarınızı eğittiğinizden ve test ettiğinizden emin olun, çünkü bu, sevkiyat veya diğer masrafların nasıl hesaplandığı ve POS satış siparişlerine eklendiği iş işlemi akışını değiştirecektir. POS'tan işlemlerin oluşturulması işlem akışı üzerindeki etkisini anladığınızdan emin olun. Çağrı merkezi ve e-ticaret siparişleri için gelişmiş otomatik masrafların etkisi asgari düzeydedir. Çağrı merkezi ve e-ticaret uygulamaları, geçmişte otomatik masraflar tablosunda ek sipariş ücretleriyle ilgili sahip oldukları eski davranışa sahip olacaktır. Çağrı merkezi kanalı kullanıcıları, sistem tarafından hesaplanan otomatik masrafları başlık veya satır düzeyinde el ile düzenleme olanağına sahip olmaya devam edecektir veya sair masrafları başlık veya satır düzeyinde el ile ekleyebilirler.
+Bu özelliği etkinleştirmeden önce, çalışanlarınızı eğittiğinizden ve test ettiğinizden emin olun çünkü etkinleştirilen özellik, sevkiyat veya diğer masrafların nasıl hesaplandığı ve POS satış siparişlerine eklendiği iş işlemi akışını değiştirecektir. POS'tan işlemlerin oluşturulması işlem akışı üzerindeki etkisini anladığınızdan emin olun. Çağrı merkezi ve e-ticaret siparişleri için gelişmiş otomatik masrafların etkisi asgari düzeydedir. Çağrı merkezi ve e-ticaret uygulamaları, geçmişte otomatik masraflar tablosunda ek sipariş ücretleriyle ilgili sahip oldukları eski davranışa sahip olacaktır. Çağrı merkezi kanalı kullanıcıları, sistem tarafından hesaplanan otomatik masrafları başlık veya satır düzeyinde el ile düzenleme olanağına sahip olmaya devam edecektir veya sair masrafları başlık veya satır düzeyinde el ile ekleyebilirler.
 
 ## <a name="additional-pos-operations"></a>Ek POS işlemleri
 
@@ -89,7 +89,7 @@ Sırasıyla **Alacak hesapları \> masraflar kurulumu \> Otomatik masraflar** se
 
 Karayolu teslimatı masrafları için **Otomatik masraflar** sayfasının satırlar bölümünde, 0,01$ ve 100$ arasındaki siparişler için uygulanacak masrafı 10,00$ olarak ayarlayın. 100,01$ üzeri siparişler için masraf olmadığını belirtmek üzere başka bir masraf satırı oluşturun.
 
-![Otomatik masraflar örneği](media/headerchargesexample.png)
+![İki otomatik masraf tabloları örneği](media/headerchargesexample.png)
 
 Hava teslimatı masrafları için otomatik masraflar formunun satırlar bölümünde, tüm siparişlere uygulanacak 20,00$ tutarında bir masraf ayarlayın (0,01$ ve 9.999.999$ arasında değer için).
 
@@ -119,7 +119,7 @@ Sırasıyla **Alacak Hesapları \> masraflar kurulumu \> Otomatik masraflar** se
 
 **Düzey** açılır menüsünü **Satır** olarak ayarlayın ve kurulum ücretinin uygulanacağı belirli ürün veya ürün grubu için tüm müşteriler için yeni bir otomatik masraf kaydı oluşturun.
 
-![Otomatik masraflar örneği](media/linechargesexample.png)
+![Bir satır düzeyinde otomatik masraflar tablosu örneği](media/linechargesexample.png)
 
 Değişiklikleri Commerce Scale Unit/Kanalı Veritabanına gönderin böylece POS onları **1040 dağıtım zamanlaması** işini çalıştırırken kullanabilir.
 
@@ -173,7 +173,7 @@ Değişiklikleri Commerce Scale Unit/Kanalı Veritabanına gönderin böylece PO
 
 Senaryoyu POS uygulamasında gerçekleştirmek için POS kullanıcısının satış hareketini normal biçimde oluşturması, ürünleri ve diğer tüm yapılandırmaları satışa eklemesi gerekecektir. Ödeme almadan önce kullanıcının masrafın POS ögesi liste görünümünden ekleneceği belirli satırı seçmesi ve **Satır masrafı ekle** işlemini seçmesi gerekir. Kullanıcı, bir masraf kodu seçmek ve masraf değeri girmek üzere uyarılacaktır. Kullanıcı işlemi tamamladıktan sonra, masraf satıra bağlanacaktır ve sipariş toplamına bir satır düzeyi masrafı olarak eklenecektir. Kullanıcı, işlemi ek satır değişikliklerini diğer öge satırlarına işlem üzerine eklemek üzere tekrar edebilir.
 
-Aynı işlem, çağrı merkezinde, **Satış siparişi** sayfasındaki **Satış siparişi satırları** bölümünde bulunan **Finansal** açılır menüsünde "masrafları koru" özelliğini kullanarak uygulanabilir Bu, **Masrafları koru** sayfasını açacaktır, burada kullanıcı işleme belirli bir yeni satır ekleyebilir.
+Aynı işlem, çağrı merkezinde, **Satış siparişi** sayfasındaki **Satış siparişi satırları** bölümünde bulunan **Finansal** açılır menüsünde "masrafları koru" özelliğini kullanarak uygulanabilir Bu seçenek, kullanıcının harekete yeni bir satıra özel masraf ekleyebileceği **Masrafları koru** sayfasını açar.
 
 ## <a name="additional-features"></a>Ek özellikler
 

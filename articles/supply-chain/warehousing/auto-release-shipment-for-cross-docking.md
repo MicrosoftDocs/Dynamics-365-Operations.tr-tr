@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d11db378be6b2ba845de0ac0a2252092a50bc96a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2d8d6e67040f19cac99f8e0164296ef49768496e
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201491"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530248"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>çapraz sevk için sevkiyatı otomatik serbest bırakma
 
@@ -164,7 +164,7 @@ Mamul malların miktarını ilişkili satış siparişinin giden yerleşimine ç
 8. **Üretim emri** sayfasında, Eylem bölmesindeki **Üretim emri** sekmesinde, **İşlem** grubunda **Tahmini**'yi ve ardından **Tamam**'ı seçin. Sipariş tahmini yapılır ve hammadde miktarı üretim için rezerve edilir.
 9. Eylem bölmesindeki **Üretim emri** sekmesinde, **İşlem** grubunda **Serbest bırak**'ı ve ardından **Tamam**'ı seçin. Ham madde için ambar çekme işi oluşturulur.
 10. İşi açın ve gözden geçirin. Eylem Bölmesinde **Ambar** sekmesindeki **Genel** grubunda **İş ayrıntıları**'nı seçin. İş kodunu not edin.
-11. Ambarda 51'de işi çalıştırmak için Dynamics 365 for Finance and Operations - Ambarlama uygulamasına girin ve oturum açın.
+11. Ambarda 51'de işi çalıştırmak için ambarlama uygulamasına oturum açın.
 12. **Üretim** \> **Üretim çekme**'ye gidin.
 13. Ham maddenin çekilmesini başlatmak ve tamamlamak için iş kodunu girin. 
 

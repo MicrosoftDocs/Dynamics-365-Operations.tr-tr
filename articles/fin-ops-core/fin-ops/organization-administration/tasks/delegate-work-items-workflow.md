@@ -1,9 +1,9 @@
 ---
 title: İş akışındaki iş öğelerini devretme
 description: Bir süreliğine ofis dışında olacaksanız ya da iş öğeleri ile ilgili uygulama yapamayacaksanız iş öğelerinizi diğer kullanıcılara devredebilir veya yeniden atayabilirsiniz.
-author: jasongre
+author: ChrisGarty
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/23/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: jasongre
+ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aceafbe8dfcdac2ac7b97a4f77a9a30599c60c51
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
+ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140594"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3515776"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>İş akışındaki iş öğelerini devretme
 
@@ -30,6 +30,16 @@ ms.locfileid: "3140594"
 ## <a name="manually-delegate-a-work-item"></a>Bir iş öğesini el ile devredin
 
 Bir tekil iş öğesini devretmek için **Devret** seçeneğini **İş akışı** menüsünde seçin ve daha sonra devredilecek kullanıcıyı bir yorum ile seçin. Bu, iş öğesini tamamlayabilmeleri için bu kullanıcıya yeniden atayacaktır.
+
+## <a name="manually-delegate-multiple-work-items"></a>Çoklu iş öğelerini el ile devret
+
+**Bana atanan iş öğeleri** sayfasından birlikte birden fazla iş öğesine temsilci atanmış olabilir. Aşağıdaki iş akışı türleri toplu temsilci seçme için uygun: Satınalma Sözleşmesi onay iş akışı, satınalma siparişi iş akışı, satınalma talebi gözden geçirme ve satıcı faturası iş akışı. **Çoklu iş öğeleri temsilcisi** özelliği varsayılan olarak devre dışıdır ve **çalışma alanları > özellik yönetimi** etkinleştirilebilir. Bu özelliği etkinleştirme konusunda yardım için sistem yöneticinize başvurun.
+1.  **Ortak > Ortak > Çalışma öğeleri > Bana atanan iş öğeleri**'ne gidin.
+2.  Temsilci seçilecek iş öğelerini seçin.
+3.  **Çalışma öğeleri devret** menüsüne tıklatın.
+4.  **Kullanıcı** alanında, iş maddelerine temsilci olarak atanacak kullanıcıyı seçin.
+5.  **Yorum** alanına, iş maddelerine neden temsilci atadığınızı belirten bir yorum girin.
+6.  Çalışma öğesi temsilcisini tamamlamak için **iş maddelerini devret** düğmesini tıklatın.
 
 ## <a name="automatically-delegate-work-items"></a>Otomatik olarak iş öğelerini devret
 

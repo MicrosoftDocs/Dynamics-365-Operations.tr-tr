@@ -1,6 +1,6 @@
 ---
-title: Ambarlama uygulaması aracılığıyla plaka teslim alma
-description: Bu konu, fiziksel stoğu almak için bir plaka teslim alma işlemi kullanmayı desteklemek üzere ambarlama uygulamasının nasıl ayarlanacağını açıklamaktadır.
+title: Ambar uygulaması aracılığıyla plaka teslim alma
+description: Bu konu, fiziksel stoku almak için bir plaka teslim alma işlemi kullanmayı desteklemek üzere ambar uygulamasının nasıl ayarlanacağını açıklamaktadır.
 author: perlynne
 manager: tfehr
 ms.date: 04/29/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 82b4f40510d5bbf829508f17f1064886620a4aed
-ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
+ms.openlocfilehash: 5330981bde98b80e81076a9b1416473135ebdac6
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410897"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530202"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-app"></a>Ambarlama uygulaması aracılığıyla plaka teslim alma
+# <a name="license-plate-receiving-via-the-warehouse-app"></a>Ambar uygulaması aracılığıyla plaka teslim alma
 
-Bu konu, fiziksel stoğu almak için bir plaka teslim alma işlemi kullanmayı destekleyecek şekilde ambarlama uygulasımanın nasıl ayarlanacağını açıklamaktadır.
+Bu konu, fiziksel stoku almak için bir plaka teslim alma işlemi kullanmayı destekleyecek şekilde ambar uygulamasının nasıl ayarlanacağını açıklamaktadır.
 
 Bu işlevi, bir ön sevkiyat bildirimi (ÖSB) ile ilgili gelen stoğun girişini hızlı bir şekilde kaydetmek için kullanabilirsiniz. Ambar yönetim işlemleri transfer emri sevk etmek için kullanıldığında, sistem otomatik olarak bir ÖSB oluşturur. Satınalma siparişi işlemi için, ÖSB el ile kaydedilebilir veya bir gelen ÖSB veri varlığı işlemi kullanılarak otomatik olarak içe aktarılabilir.
 

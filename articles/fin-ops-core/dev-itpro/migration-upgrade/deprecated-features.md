@@ -3,7 +3,7 @@ title: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılm�
 description: Bu konu, kaldırılmış olan veya  Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sürümlerinden kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
-ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
+ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
+ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284026"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3500424"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -588,7 +588,7 @@ eGiro müşteri ödemelerinin otomatik deftere nakil işleminde kullanılan ulus
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimi artık kullanılmamaktadır.                                                     |
-| **Başka bir özellik ile değiştirildi?**   | Hayır. Biçim gelecekteki sürümlerde ISO 20022 ekstre içe aktarma biçimleri ile değiştirilecektir. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, ISO20022 CAMT.054 bildirimi içe aktarması. |
 | **Etkilenen ürün alanları**         | Alacak hesapları                                                                       |
 | **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi.                            |
 
@@ -621,7 +621,7 @@ Finlandiya ödemelerinde müşteri ödeme hareketlerini banka tarafından sağla
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimi artık kullanılmamaktadır.                                                     |
-| **Başka bir özellik ile değiştirildi?**   | Hayır. Biçim gelecekteki sürümlerde ISO 20022 ekstre içe aktarma biçimleri ile değiştirilecektir. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, ISO20022 CAMT.054 bildirimi içe aktarması. |
 | **Etkilenen ürün alanları**         | Alacak hesapları                                                                       |
 | **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi.                            |
 
@@ -632,7 +632,7 @@ Muhasebe hareketlerini genel muhasebeye içe aktarmak için Finlandiya'ya özgü
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimi artık kullanılmamaktadır.                                                     |
-| **Başka bir özellik ile değiştirildi?**   | Hayır. Biçim gelecekteki sürümlerde ISO 20022 ekstre içe aktarma biçimleri ile değiştirilecektir. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, ISO20022 CAMT.053 banka ekstresi gelişmiş banka mutabakatını kullanarak içe aktarma. |
 | **Etkilenen ürün alanları**         | Alacak hesapları                                                                       |
 | **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi.                            |
 
@@ -698,7 +698,7 @@ Telehansa ve TeleTeenus biçimleri banka ödemesi içe aktarımı için kullanı
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimleri artık kullanılmamaktadır.                                                    |
-| **Başka bir özellik ile değiştirildi?**   | Hayır. Biçimler gelecekteki sürümlerde ISO 20022 ekstre içe aktarma biçimleri ile değiştirilecektir. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, ISO20022 CAMT.054 banka bildirimi içe aktarması. |
 | **Etkilenen ürün alanları**         | Alacak hesapları                                                                        |
 | **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi.                             |
 
@@ -784,7 +784,7 @@ Telepay ödeme biçimleri, satıcı ödemesi dışa aktarımını (alacak transf
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimleri artık kullanılmamaktadır.                                                        |
-| **Başka bir özellik ile değiştirildi?**   | Evet, Norveç için ISO20022 Alacak transferi ödeme biçimi ve AvtaleGiro müşteri ödeme biçimi |
+| **Başka bir özellik ile değiştirildi?**   | Evet, ISO20022 kredi transfer ödeme biçimi ve Norveç için AvtaleGiro müşteri ödeme biçiminin yanı sıra pain.002 ve camt.054 banka bildirimi geri alma dosyalarını içe aktarma. |
 | **Etkilenen ürün alanları**         | Borç hesapları, Alacak hesapları                                                          |
 | **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi.                                 |
 
@@ -844,7 +844,7 @@ Personel hedeflerini oluşturmayı yöneten iş akışı, performans yönetim i�
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD ve AxBC entegrasyonlar
 
-Uygulama Tümleştirme Çerçevesi (AIF) içerisinde veriler, hizmetler olarak gösterilen iş mantığı üzerinden dış sistemlerle değiştirilebilir. Dynamics AX, .NET Business Connector (AxBC) ve belgelere dayanan hizmetleri içerir. Bir belge, XML kullanılarak oluşturulur. XML, bir *ileti* oluşturmak için eklenen ve Dynamics AX içine veya dışına transfer edilebilen üstbilgi bilgilerini içerir. Belgelerin örnekleri satınalma siparişleri ve satış siparişlerini içerir. Ancak, bir müşteri gibi hemen hemen her varlık, bir belge tarafından temsil edilebilir. Belgelere dayanan hizmetler **Axd \<Belge\>** sınıflarını kullanır.
+Uygulama Tümleştirme Çerçevesi (AIF) içerisinde veriler, hizmetler olarak gösterilen iş mantığı üzerinden dış sistemlerle değiştirilebilir. Dynamics AX, .NET Business Connector (AxBC) ve belgelere dayanan hizmetleri içerir. Bir belge, XML kullanılarak oluşturulur. XML, bir *ileti* oluşturmak için eklenen ve Dynamics AX içine veya dışına transfer edilebilen üstbilgi bilgilerini içerir. Belgelerin örnekleri satınalma siparişleri ve satış siparişlerini içerir. Ancak, bir müşteri gibi hemen hemen her varlık, bir belge tarafından temsil edilebilir. Belgelere dayanan hizmetler **Axd \<Document\>** sınıflarını kullanır.
 
 |   |  |
 |------------|--------------------|
@@ -1125,13 +1125,13 @@ Açık provizyon oluşturma, bir toplu iş kullanarak yapılamaz ancak hala bir 
 | **Etkilenen ürün alanları**         | Tüm modüller  |
 | **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi. |
 
-### <a name="german-dtazv-payment-format"></a>Alman DTAZV ödeme biçimi
+### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Yurtiçi para biriminde Alman DTAZV ödeme biçimi
 
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Biçim, artık tek Euro ödemeleri alan (SEPA) işlevi tarafından değiştirildiğinden, Almanya'da artık geçerli değildir. |
-| **Başka bir özellik ile değiştirildi?**   | SEPA ödemeleri dışa aktarımı    |
-| **Etkilenen ürün alanları**         | Tüm modüller   |
+| **Başka bir özellikle mi değiştirildi?**   | SEPA ödemeleri dışa aktarımı    |
+| **Etkilenen ürün alanları**         | Borç hesapları   |
 | **Durum**                         | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi.    |
 
 ### <a name="german-mt940-import"></a>Almanca MT940 içe aktarımı

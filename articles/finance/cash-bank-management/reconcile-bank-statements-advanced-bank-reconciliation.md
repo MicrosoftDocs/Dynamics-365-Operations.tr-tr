@@ -3,7 +3,7 @@ title: Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutaba
 description: Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 Finance'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b37cf8d83c7134ae65da6a885bffeb01d16f9f06
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
+ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180363"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497157"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlama
 
@@ -41,9 +41,9 @@ Tek bir hesap veya birden fazla hesapla ilgili bilgileri içeren bir banka ekstr
 -   Tek bir banka hesabına ait tek bir banka ekstresi dosyasını içe aktarmak için **Tüm tüzel kişiliklerde birden fazla banka hesabına ait ekstreyi içe aktar** seçeneğini **Hayır** olarak ayarlayın ve ekstreyle ilişkili banka hesabını seçin. İlişkili banka ekstresi dosyasını seçmek için **Gözat**'a tıklayın ve sonra **Yükle**'ye tıklayın.
 -   Birden fazla hesaba ait tek bir banka ekstresi dosyasını içe aktarmak için **Tüm tüzel kişiliklerde birden fazla banka hesabına ait ekstreyi içe aktar** seçeneğini **Evet** olarak ayarlayın. İlişkili banka ekstresi dosyasını seçmek için **Gözat**'a tıklayın ve sonra **Yükle**'ye tıklayın.
 
-Elektronik dosyadaki ekstreler tanımlayıcı alanlar kullanılarak bir banka hesabı ile ilişkilendirilemiyorsa bunlar içe aktarılmaz. Ancak dosyadaki diğer ekstreler içe aktarılabilir. Daha sonra kullanıcı banka ekstrelerini içe aktarma işleminin belirli banka hesapları için başarısız olduğunu bildiren bir ileti alır. Banka ekstresi dosyasını içe aktaran kullanıcının tüzel kişiliğin banka hesaplarına ait ekstreleri içe aktarma erişiminin olması gerektiğini unutmayın. 
+Elektronik dosyadaki ekstreler tanımlayıcı alanlar kullanılarak bir banka hesabı ile ilişkilendirilemiyorsa veya birden fazla banka hesabıyla ilişkiliyse bunlar içe aktarılmaz. Ancak dosyadaki diğer ekstreler içe aktarılabilir. Daha sonra kullanıcı banka ekstrelerini içe aktarma işleminin belirli banka hesapları için başarısız olduğunu bildiren bir ileti alır. Banka ekstresi dosyasını içe aktaran kullanıcının tüzel kişiliğin banka hesaplarına ait ekstreleri içe aktarma erişiminin olması gerektiğini unutmayın. 
 
-Birden fazla ekstre dosyasını Finance uygulamasına tek bir işlemde yüklemek için bir zip dosyası kullanabilirsiniz. Birden fazla hesaba ait birden fazla banka ekstresi dosyasını içe aktarmak için tüm banka ekstresi dosyalarını bir zip dosyasında birleştirin. **Banka ekstrelerini içeri aktar** iletişim kutusundaki **Tüm tüzel kişiliklerde birden fazla banka hesabına ait ekstreyi içe aktar** seçeneğini **Evet** olarak ayarlayın. Banka ekstresi dosyalarını içeren zip dosyasını seçmek için **Gözat**'a tıklayın ve sonra **Yükle**'ye tıklayın. İçe aktarma işlemi zip dosyasını tanır ve banka hesabının tüzel kişiliğinden bağımsız olarak, içindeki her ekstreyi karşıya yükler. 
+Birden fazla ekstre dosyasını Finance uygulamasına tek bir işlemde yüklemek için bir zip dosyası kullanabilirsiniz. Birden fazla hesaba ait birden fazla banka ekstresi dosyasını içe aktarmak için tüm banka ekstresi dosyalarını bir zip dosyasında birleştirin. **Banka ekstrelerini içeri aktar** iletişim kutusundaki **Tüm tüzel kişiliklerde birden fazla banka hesabına ait ekstreyi içe aktar** seçeneğini **Evet** olarak ayarlayın. Banka ekstresi dosyalarını içeren zip dosyasını seçmek için **Gözat**'a tıklayın ve sonra **Yükle**'ye tıklayın. İçe aktarma işlemi zip dosyasını tanır ve banka hesabının tüzel kişiliğinden bağımsız olarak, içindeki her ekstreyi karşıya yükler.
 
 **İçe aktarmadan sonra mutabakat sağla** seçeneği kullanılabilir. Bu seçeneği **Evet** olarak ayarladığınızda, sistem banka ekstresini otomatik olarak doğrular, yeni banka mutabakatını ve çalışma sayfasını oluşturur ve banka ekstresi karşıya yüklendiğinde Varsayılan eşleştirme kural kümesini çalıştırır. Bu işlevler işlemi hareketlerin el ile eşleştirilmesi gereken noktaya kadar otomatik hale getirir.
 
