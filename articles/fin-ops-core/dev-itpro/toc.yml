@@ -1434,8 +1434,6 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B kullanıcılarını Azure AD'ye aktarma
               href: sysadmin/implement-b2b.md
-            - name: İşlem otomasyonu
-              href: sysadmin/process-automation.md
             - name: Güvenlik
               items:
                 - name: Rol tabanlı güvenlik
@@ -1458,10 +1456,16 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Kullanıcıları güvenlik rollerine atama
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Veri yönetimi kullanarak özelleştirilmiş güvenlik yapılandırmasını içe veya dışa aktarma
+                  href: sysadmin/import-export-customized-security.md
                 - name: Görev kayıtları için güvenlik tanılaması
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+                - name: Genişletilebilir veri güvenlik ilkeleri
+                  href: sysadmin/extensible-data-security-policies.md
+                - name: Güvenlik ilkesi oluşturma
+                  href: sysadmin/create-simple-security-policy.md
             - name: İşlem otomasyonu
-              href: /sysadmin/process-automation.md
+              href: sysadmin/process-automation.md
             - name: Toplu iş işleme
               items:
                 - name: Toplu iş işlemeye genel bakış
@@ -1582,7 +1586,7 @@
               items:
                 - name: En son güncelleştirmeye geçme işlemi
                   href: migration-upgrade/upgrade-latest-update.md
-                - name: Bir Sürüme giden yollar
+                - name: One Version'a giden yollar
                   items:
                     - name: En son sürüme self servis yükseltme
                       href: migration-upgrade/self-service-upgrade.md
@@ -1670,7 +1674,7 @@
                   href: user-interface/check-box-tree-controls.md
                 - name: Filtreleme seçenekleri
                   href: user-interface/filtering.md
-                - name: PowerApps Ana Bilgisayar denetimi
+                - name: Power Apps Ana Bilgisayar denetimi
                   href: user-interface/powerapps-host-control.md
             - name: Pencere yönetimi
               items:
