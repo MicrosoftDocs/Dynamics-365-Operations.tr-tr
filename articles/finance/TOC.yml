@@ -10,11 +10,11 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Önizleme abonelikleri için kaydolma
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
-            - name: Bir Sürüm hizmet güncelleştirmeleri
+            - name: One Version hizmet güncelleştirmeleri
               items:
-                - name: Bir Sürüm hizmet güncelleştirmelerine genel bakış
+                - name: One Version hizmet güncelleştirmelerine genel bakış
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Bir Sürüm hizmet güncelleştirmeleriyle ilgili SSS
+                - name: One Version hizmet güncelleştirmeleriyle ilgili SSS
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
                 - name: Yazılım yaşam döngüsü ilkesi - Bulut
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/finance/toc.json
@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Veri görevi otomasyonu
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: Bir Sürüm kullanarak ISV çözümleri teslim etme
+                - name: One Version kullanarak ISV çözümleri teslim etme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
                 - name: Kullanıcı kabul testleri oluşturma ve otomatikleştirme
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
@@ -2540,12 +2540,14 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Stok raporları
                       href: localizations/rus-inventory-reports.md
-                    - name: Stok profiline genel bakış
-                      href: localizations/rus-inventory-profile-overview.md
-                    - name: Stok profili ayarlama
-                      hreF: localizations/rus-set-up-inventory-profile.md
-                    - name: Belgeler ve sorgularda stok profili kullanma
-                      href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Stok profili
+                      items:
+                        - name: Stok profiline genel bakış
+                          href: localizations/rus-inventory-profile-overview.md
+                        - name: Stok profili ayarlama
+                          hreF: localizations/rus-set-up-inventory-profile.md
+                        - name: Belgeler ve sorgularda stok profili kullanma
+                          href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Raporlama
                   items:
                     - name: Mali raporlama

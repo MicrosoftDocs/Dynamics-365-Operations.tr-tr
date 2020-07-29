@@ -5,6 +5,8 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 8 Temmuz 2020
+          href: hr-whats-new-2020-07-08.md
         - name: 25 Haziran 2020
           href: hr-whats-new-2020-06-23.md
         - name: 11 Haziran 2020
@@ -573,9 +575,11 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Bağımlı soru oluşturma
               href: hr-learning-depending-question.md
-        - name: Personel ve Yönetici self servisi ayarlama
+        - name: Personel ve Yönetici self servisini ayarlama
           items:
             - name: Personel ve Yönetici self servisine genel bakış
               href: hr-employee-manager-self-service-overview.md
+            - name: Personel self servisi çalışma alanının adını değiştirme
+              href: hr-employee-self-service-workspace-name.md
             - name: Kişisel bilgileri düzenleme
               href: hr-employee-manager-self-service-edit-personal-information.md
