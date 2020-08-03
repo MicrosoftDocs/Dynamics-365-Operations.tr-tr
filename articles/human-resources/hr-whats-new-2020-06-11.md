@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39f18dc92fb01f9a0437f4166c0f08f8d6b1b81b
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: cba6e48899ec39fc4de6656f8151a42b8aa43261
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456632"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555207"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (Haziran 11 2020)
 
@@ -95,3 +95,10 @@ Kişiselleştirmeyi kullanarak alanları zorunlu hale getirebileceksiniz. Bu öz
 ## <a name="configure-the-name-of-employee-self-service"></a>Personel self servisini yapılandırma
 
 Personel self servis çalışma alanının adını Self servis olarak güncelleştirmek için Human Resources parametrelerinde yeni bir seçenek kullanılabilir olacaktır. 
+
+## <a name="see-also"></a>Ayrıca bkz.
+
+[Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
+[Özellikleri yönetme](hr-admin-manage-features.md)

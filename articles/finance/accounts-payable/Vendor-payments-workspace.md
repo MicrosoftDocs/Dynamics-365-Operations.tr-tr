@@ -3,7 +3,7 @@ title: Satıcı ödemeleri çalışma alanı
 description: Bu konu Satıcı ödemeleri çalışma alanı hakkında bilgiler sağlar. Satıcı ödemeleri çalışma alanı satıcı ödemelerinin işlenmesiyle ilgili bilgileri gösterir.
 author: abruer
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 86091e16712092086a641d79e49afbc5b205e934
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225025"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598121"
 ---
 # <a name="vendor-payments-workspace"></a>Satıcı ödemeleri çalışma alanı
 
@@ -34,9 +34,10 @@ ms.locfileid: "3225025"
 
 Verilerin **Satıcı ödemeleri** Power BI görsellerinde görüntülenmesi için aşağıdaki kurulumun tamamlanması gereklidir.
 1. **Sistem para birimi** ve **Sistem döviz kuru**'nu ayarlamak için **Sistem yönetimi > Kurulum > Sistem Paramatreleri**'ne gidin.
-2. **Muhasebe Para Birimi** ve **Döviz Kuru Türü**'nü ayarlamak için **Genel Muhasebe > Ayarlar > Muhasebe**'ye gidin 
-2. Hareket para birimleri ile muhasebe para birimi, muhasebe para birimi ve sistem para birimi arasındaki döviz kurlarını tanımlayın. Bunu yapmak için **Genel Muhasebe > Para Birimleri > Para birimi döviz kurları**'na gidin.
-3. **VendPaymentBIMeasureV2** toplam ölçümünü yenilemek için **Sistem yönetimi > Ayarlar > Varlık Deposu**'na gidin. 
+2. Etkin döneme atanan mali takvim tarihlerini doğrulamak için **Genel muhasebe > Takvimler > Mali takvimler**'e gidin.
+3. **Muhasebe Para Birimi** ve **Döviz Kuru Türü**'nü ayarlamak için **Genel Muhasebe > Ayarlar > Muhasebe**'ye gidin 
+4. Hareket para birimleri ile muhasebe para birimi, muhasebe para birimi ve sistem para birimi arasındaki döviz kurlarını tanımlayın. Bunu yapmak için **Genel Muhasebe > Para Birimleri > Para birimi döviz kurları**'na gidin.
+5. **VendPaymentBIMeasureV2** toplam ölçümünü yenilemek için **Sistem yönetimi > Ayarlar > Varlık Deposu**'na gidin.
 
 ## <a name="my-work-view"></a>İşim görünümü
 

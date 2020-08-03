@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124028"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555277"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (10 Mart 2020)
 
@@ -97,3 +97,10 @@ Aşağıdaki Önizleme özellikleri 3 Şubat 2020 ' da kullanılabilir:
 - Önerilen alanlar - Kullanıcıların sıklıkla bir kılavuza veya sayfaya alan eklemesi gerekir. Bu, birçok kullanılabilir çok alan bulunduğundan zor olabilir. Bu özellik, büyük bir liste içinde arama yapmak yerine sistemin benzer senaryolarda diğer kullanıcıların en sık eklediği alanları temel alarak önerilen alanlar kümesi sunmasına olanak tanır.
 
 - Kılavuzlardaki yapışkan varsayılan eylemler - Bu özellik, bir kılavuzdaki varsayılan eylemin, söz konusu sütunun taşınmış veya gizlenmiş olmasına bakılmaksızın, kılavuzdaki belirli bir sütuna bağlanmasını sağlar.
+
+## <a name="see-also"></a>Ayrıca bkz.
+
+[Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
+[Özellikleri yönetme](hr-admin-manage-features.md)

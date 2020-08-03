@@ -1,9 +1,9 @@
 ---
-title: Dynamics 365 Commerce ortamında BOPIS yapılandırma
-description: Bu konu çevrimiçi satın al, mağazadan teslim al (BOPIS) işleminin, sağlandıktan sonra Microsoft Dynamics 365 Commerce ortamında nasıl yapılandırılacağını açıklar.
+title: Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma
+description: Bu konu çevrimiçi satın al, mağazadan teslim al (BOPIS) işleminin, sağlandıktan sonra Microsoft Dynamics 365 Commerce değerlendirme ortamında nasıl yapılandırılacağını açıklar.
 author: rubendel
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 956d66d09885d4d54655ce25b3aa7ba6a9c34cf4
-ms.sourcegitcommit: dfef2faf881b2db1bd0f016df36e2b838105312b
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3282808"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599808"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-environment"></a>Dynamics 365 Commerce ortamında BOPIS yapılandırma
-
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu çevrimiçi satın al, mağazadan teslim al (BOPIS) işleminin, ortam sağlandıktan sonra Microsoft Dynamics 365 Commerce ortamında nasıl yapılandırılacağını açıklar.
+Bu konu çevrimiçi satın al, mağazadan teslim al (BOPIS) işleminin, ortam sağlandıktan sonra Microsoft Dynamics 365 Commerce değerlendirme ortamında nasıl yapılandırılacağını açıklar.
 
 ## <a name="prerequisite"></a>Önkoşul
 
-Bu konudaki yordamları yalnızca Commerce önizleme ortamınızı sağlandıktan ve yapılandırdıktan sonra tamamlayın. Ortamınızı sağlama ve yapılandırma hakkında bilgi için bkz. [Dynamics 365 Commerce önizleme ortamı sağlama](provisioning-guide.md) ve [Dynamics 365 Commerce önizleme ortamı yapılandırma](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Bu konudaki yordamları yalnızca Commerce değerlendirme ortamınızı sağlandıktan ve yapılandırdıktan sonra tamamlayın. Ortamınızı sağlama ve yapılandırma hakkında bilgi için bkz. [Dynamics 365 Commerce değerlendirme ortamı sağlama](provisioning-guide.md) ve [Dynamics 365 Commerce değerlendirme ortamı yapılandırma](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
 
 Commerce ortamınız sağlandıktan ve uçtan uca yapılandırıldıktan sonra, bu konuyu BOPIS senaryolarını etkinleştirmek için kullanabilirsiniz.
 
@@ -71,7 +70,7 @@ Kredi kartı ödemesi içeren BOPIS senaryoları bir donanım istasyonu gerektir
 5. Bir kimlik doğrulama iletişim kutusu görüntülenir. Daha önce çalışan **000713-Andrew Collette** ile ilişkilendirilmiş olan e-posta adresini kullanan hesabı seçin.
 
     > [!NOTE]
-    > Bir çalışanı kimliğinize henüz ilişkilendirmediyseniz, etkinleştirme başarısız olur. Bu durumda, [Dynamics 365 Commerce önizleme ortamını yapılandırma](cpe-post-provisioning.md#associate-a-worker-with-your-identity) konusundaki "Çalışanı kimliğinizle ilişkilendirme" bölümünde anlatılan adımları izleyin.
+    > Bir çalışanı kimliğinize henüz ilişkilendirmediyseniz, etkinleştirme başarısız olur. Bu durumda, [Dynamics 365 Commerce değerlendirme ortamını yapılandırma](cpe-post-provisioning.md#associate-a-worker-with-your-identity) konusundaki "Çalışanı kimliğinizle ilişkilendirme" bölümünde anlatılan adımları izleyin.
     
 6. Kuruluşunuzun cihazı yönetmesine izin vermek isteyip istemediğiniz sorulduğunda **Yalnızca bu uygulama**'yı seçin.
 7. Etkinleştirme tamamlandığında **Başlarken**'i seçin.
@@ -144,13 +143,13 @@ Tüm genel sorunlar için, her zaman öncelikle Modern POS veya İnternet Bilgi 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Dynamics 365 Commerce önizleme ortamına genel bakış](cpe-overview.md)
+[Dynamics 365 Commerce değerlendirme ortamına genel bakış](cpe-overview.md)
 
-[Dynamics 365 Commerce önizleme ortamını hazırlama](provisioning-guide.md)
+[Dynamics 365 Commerce değerlendirme ortamı sağlama](provisioning-guide.md)
 
-[Dynamics 365 Commerce önizleme ortamı için isteğe bağlı özellikleri yapılandırma](cpe-optional-features.md)
+[Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma](cpe-optional-features.md)
 
-[Dynamics 365 Commerce önizleme ortamıyla ilgili SSS](cpe-faq.md)
+[Dynamics 365 Commerce değerlendirme ortamıyla ilgili SSS](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
